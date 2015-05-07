@@ -21,29 +21,29 @@ You can also directly edit the ASPX or ASCX file by adding items to the <Items><
 Add the following **inline** definition of a toolbar to your ASPX or ASCX file:
 
 ````ASPNET
-	    <telerik:RadToolBar ID="RadToolBar1" runat="server" Orientation="Horizontal">
-	        <CollapseAnimation Duration="200" Type="OutQuint" />
-	        <Items>
-	            <telerik:RadToolBarButton runat="server" Text="Button 1">
-	            </telerik:RadToolBarButton>
-	            <telerik:RadToolBarDropDown runat="server" Text="DropDown 1">
-	                <Buttons>
-	                    <telerik:RadToolBarButton runat="server" Text="Child Button 1">
-	                    </telerik:RadToolBarButton>
-	                    <telerik:RadToolBarButton runat="server" Text="Child Button 2">
-	                    </telerik:RadToolBarButton>
-	                </Buttons>
-	            </telerik:RadToolBarDropDown>
-	            <telerik:RadToolBarSplitButton runat="server" Text="SplitButton 1">
-	                <Buttons>
-	                    <telerik:RadToolBarButton runat="server" Text="Child Button 1">
-	                    </telerik:RadToolBarButton>
-	                    <telerik:RadToolBarButton runat="server" Text="Child Button 2">
-	                    </telerik:RadToolBarButton>
-	                </Buttons>
-	            </telerik:RadToolBarSplitButton>
-	        </Items>
-	    </telerik:RadToolBar>
+<telerik:RadToolBar ID="RadToolBar1" runat="server" Orientation="Horizontal">
+    <CollapseAnimation Duration="200" Type="OutQuint" />
+    <Items>
+        <telerik:RadToolBarButton runat="server" Text="Button 1">
+        </telerik:RadToolBarButton>
+        <telerik:RadToolBarDropDown runat="server" Text="DropDown 1">
+            <Buttons>
+                <telerik:RadToolBarButton runat="server" Text="Child Button 1">
+                </telerik:RadToolBarButton>
+                <telerik:RadToolBarButton runat="server" Text="Child Button 2">
+                </telerik:RadToolBarButton>
+            </Buttons>
+        </telerik:RadToolBarDropDown>
+        <telerik:RadToolBarSplitButton runat="server" Text="SplitButton 1">
+            <Buttons>
+                <telerik:RadToolBarButton runat="server" Text="Child Button 1">
+                </telerik:RadToolBarButton>
+                <telerik:RadToolBarButton runat="server" Text="Child Button 2">
+                </telerik:RadToolBarButton>
+            </Buttons>
+        </telerik:RadToolBarSplitButton>
+    </Items>
+</telerik:RadToolBar>
 ````
 
 

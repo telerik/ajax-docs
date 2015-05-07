@@ -22,8 +22,8 @@ The event handler function receives two arguments:
 
 1. An **EventArgs** object.This object has a number of properties for handling the request for the items:
 
-* **Text** – the new text of the ComboBox.
+	* **Text** – the new text of the ComboBox.
 
-* **DropDown** – the DropDown which fired the event.
+	* **DropDown** – the DropDown which fired the event.
 
-* **Group** – the group in which the DropDown is placed.
+	* **Group** – the group in which the DropDown is placed.

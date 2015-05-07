@@ -69,7 +69,8 @@ In this example, a RadCalendar control and a Label are added in the **ContentTem
 
 1. In the **RadAjaxManager Property Builder**, select the calendar as a control that initiates AJAX requests. In the controls that need to be updated, select the label:![Content Template Ajax Manager](images/panelbar_contenttemplateradajaxmanagerconfig.png)
 
-1. Run the application. When you click on the root item, the calendar is displayed. When you select a date from the calendar, the "Example" label reflects the selected date:![Content Template Example](images/panelbar_contenttemplateexample.png)
+1. Run the application. When you click on the root item, the calendar is displayed. When you select a date from the calendar, the "Example" label reflects the selected date:
+	![Content Template Example](images/panelbar_contenttemplateexample.png)
 
 ## Item Template
 

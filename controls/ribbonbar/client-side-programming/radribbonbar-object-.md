@@ -32,12 +32,12 @@ The table below lists the most important functions of the client-side **RadRibbo
 | **get_defaultDesabledImageUrl** |string|none|Returns the url of the default disabled image.|
 | **set_defaultDesabledImageUrlLarge** |none|string|Sets the default disabled large image.|
 | **get_defaultDesabledImageUrlLarge** |string|none|Returns the url of the default disabled large image.|
-| **set_defaultImageUrl** |none|string|Sets the defaultimage.|
-| **get_defaultImageUrl** |string|none|Returns the url of the defaultimage.|
+| **set_defaultImageUrl** |none|string|Sets the default image.|
+| **get_defaultImageUrl** |string|none|Returns the url of the default image.|
 | **get_id** |string|none|Returns the **id** of the RadRibbonBar object.|
 | **set_selectedTabIndex** |none|integer|Sets the selected tab by its index.|
 | **get_element** |DOM Element|none|Returns the outmost DOM element container of **RadRibbonBar** .|
 | **get_quickAccessToolbar** |RibbonBarQuickAccessToolbar|none|Returns the **RibbonBarQuickAccessToolbar** object.|
 | **get_selectedTab** |RibbonBarTab|none|Returns the object of the selected tab.|
 | **get_selectedTabIndex** |integer|none|Returns the index of the selected tab.|
-| **get_tabs** |RibbonBarTabCollection|none|Returns the colleciton of all Tabs.|
+| **get_tabs** |RibbonBarTabCollection|none|Returns the collection of all Tabs.|

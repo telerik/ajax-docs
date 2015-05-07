@@ -34,27 +34,27 @@ The client-side **ButtonClicked** event handler receives two arguments:
 
 **Example 1**: Handle the **RadWizard**'s client-side **ButtonClicked** event.
 
-````JavaScript
-	        <script type="text/javascript">
-	            function OnClientButtonClicked(sender, args) {
-	                var clickedStepTitle = args.get_activeStep().get_title();
-	                alert("You just clicked on " + clickedStepTitle);
-	            }
-	        </script>
-	
-	
-	        <telerik:RadWizard ID="RadWizard3" runat="server" OnClientButtonClicked="OnClientButtonClicked">
-	            <WizardSteps>
-	                <telerik:RadWizardStep Title="Step1">
-	                    <telerik:RadTextBox ID="RadTextBox9" runat="server"></telerik:RadTextBox>
-	                    <telerik:RadTextBox ID="RadTextBox10" runat="server"></telerik:RadTextBox>
-	                </telerik:RadWizardStep>
-	                <telerik:RadWizardStep Title="Step2">
-	                    <telerik:RadTextBox ID="RadTextBox11" runat="server"></telerik:RadTextBox>
-	                    <telerik:RadTextBox ID="RadTextBox12" runat="server"></telerik:RadTextBox>
-	                </telerik:RadWizardStep>
-	            </WizardSteps>
-	        </telerik:RadWizard>
+````ASPNET
+<script type="text/javascript">
+	function OnClientButtonClicked(sender, args) {
+		var clickedStepTitle = args.get_activeStep().get_title();
+		alert("You just clicked on " + clickedStepTitle);
+	}
+</script>
+
+
+<telerik:RadWizard ID="RadWizard3" runat="server" OnClientButtonClicked="OnClientButtonClicked">
+	<WizardSteps>
+		<telerik:RadWizardStep Title="Step1">
+			<telerik:RadTextBox ID="RadTextBox9" runat="server"></telerik:RadTextBox>
+			<telerik:RadTextBox ID="RadTextBox10" runat="server"></telerik:RadTextBox>
+		</telerik:RadWizardStep>
+		<telerik:RadWizardStep Title="Step2">
+			<telerik:RadTextBox ID="RadTextBox11" runat="server"></telerik:RadTextBox>
+			<telerik:RadTextBox ID="RadTextBox12" runat="server"></telerik:RadTextBox>
+		</telerik:RadWizardStep>
+	</WizardSteps>
+</telerik:RadWizard>
 ````
 
 

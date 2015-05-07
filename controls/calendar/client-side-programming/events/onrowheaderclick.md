@@ -36,21 +36,23 @@ The event handler receives two arguments:
 The following example uses the **OnRowHeaderClick** event to confirm the selection:
 
 ````ASPNET
-	<script type="text/javascript">
-	    function ConfirmRowSelection(sender, eventArgs) {
-	        var msg = "Do you want to change the selection for row " + eventArgs.get_index();
-	        var title = eventArgs.get_domElement().title;
-	        if (title != "")
-	            msg = msg + " (" + title + ")";
-	        msg = msg + "?";
-	        eventArgs.set_cancel(!confirm(msg));
-	    }
-	</script>
-	<telerik:RadCalendar ID="RadCalendar1" runat="server">
-	    <ClientEvents OnRowHeaderClick="ConfirmRowSelection" />
-	</telerik:RadCalendar>
+<telerik:RadCalendar ID="RadCalendar1" runat="server">
+    <ClientEvents OnRowHeaderClick="confirmRowSelection" />
+</telerik:RadCalendar>
 ````
-
+````JavaScript
+function confirmRowSelection(sender, eventArgs) {
+	var msg = "Do you want to change the selection for row " + eventArgs.get_index();
+	var title = eventArgs.get_domElement().title;
+	
+	if (title != "") {
+		msg = msg + " (" + title + ")";
+	}
+		
+	msg = msg + "?";
+	eventArgs.set_cancel(!confirm(msg));
+}
+````
 
 
 # See Also

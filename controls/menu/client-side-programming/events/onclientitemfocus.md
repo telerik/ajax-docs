@@ -10,8 +10,6 @@ position: 11
 
 # OnClientItemFocus
 
-
-
 ## 
 
 The **OnClientItemFocus** client-side event occurs when an item in the menu receives focus.
@@ -29,23 +27,20 @@ The event handler receives two parameters:
 You can use this event to respond when an item receives focus. For example, the following event handler moves focus to the first child when a root level item receives focus:
 
 ````ASPNET
-	
-	    <script type="text/javascript">
-	    function FocusItem(menu, args) {
-	        var item = args.get_item();
-	        if (item.get_level() == 0)
-	            item.focusFirstChild();
-	    }
-	    </script>
-	
-	    <telerik:RadMenu ID="RadMenu1" runat="server" Flow="Horizontal" OnClientItemFocus="FocusItem">
-	        <Items>
-	            ...
-	        </Items>
-	    </telerik:RadMenu>
+<script type="text/javascript">
+function FocusItem(menu, args) {
+    var item = args.get_item();
+    if (item.get_level() == 0)
+        item.focusFirstChild();
+}
+</script>
+
+<telerik:RadMenu ID="RadMenu1" runat="server" Flow="Horizontal" OnClientItemFocus="FocusItem">
+    <Items>
+        ...
+    </Items>
+</telerik:RadMenu>
 ````
-
-
 
 # See Also
 

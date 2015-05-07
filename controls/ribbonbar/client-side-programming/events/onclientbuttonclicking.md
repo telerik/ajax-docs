@@ -22,31 +22,31 @@ The event handler receives two parameters:
 
 1. An eventArgs parameter containing the following methods:
 
-* **get_button()** returns a reference to the ribbonbar button that was clicked. In this case it is **RibbonBarButton**.
+	* **get_button()** returns a reference to the ribbonbar button that was clicked. In this case it is **RibbonBarButton**.
 
-* **set_cancel()** lets you prevent the ribbonbar from responding to the mouse click.You can use this event to respond when the user clicks on a ribbonbar button:
+	* **set_cancel()** lets you prevent the ribbonbar from responding to the mouse click. You can use this event to respond when the user clicks on a ribbonbar button:
 
 ````JavaScript
-	    <script type="text/javascript">
-	        function OnClientButtonClicking(sender, args) {
-	            args.set_cancel(true);
-	        }       
-	    </script>
+<script type="text/javascript">
+    function OnClientButtonClicking(sender, args) {
+        args.set_cancel(true);
+    }       
+</script>
 ````
 
 
 
 ````ASPNET
-	    <telerik:RadRibbonBar ID="RadRibbonBar1" runat="server" OnClientButtonClicking="OnClientButtonClicking">
-	        <telerik:RibbonBarTab Text="Home">
-	            <telerik:RibbonBarGroup Text="Clipboard" EnableLauncher="true">
-	                <Items>
-	                    <telerik:RibbonBarButton Size="Medium" Text="Cut" ImageUrl="icons/Cut.png" />
-	                    <telerik:RibbonBarButton Size="Medium" Text="Copy" ImageUrl="icons/Copy.png" />
-	                </Items>
-	            </telerik:RibbonBarGroup>
-	        </telerik:RibbonBarTab>
-	    </telerik:RadRibbonBar>
+<telerik:RadRibbonBar ID="RadRibbonBar1" runat="server" OnClientButtonClicking="OnClientButtonClicking">
+    <telerik:RibbonBarTab Text="Home">
+        <telerik:RibbonBarGroup Text="Clipboard" EnableLauncher="true">
+            <Items>
+                <telerik:RibbonBarButton Size="Medium" Text="Cut" ImageUrl="icons/Cut.png" />
+                <telerik:RibbonBarButton Size="Medium" Text="Copy" ImageUrl="icons/Copy.png" />
+            </Items>
+        </telerik:RibbonBarGroup>
+    </telerik:RibbonBarTab>
+</telerik:RadRibbonBar>
 ````
 
 
@@ -55,36 +55,35 @@ The event handler receives two parameters:
 
 * **get_enabled()** - returns **true** if the RadRibbonBar is enabled and **flase** when it is disabled.
 
-````JavaScript
-	        
-	    <script type="text/javascript">
-			function OnClientButtonClicking(sender, args) {
-				var button = args.get_button();
-				button.set_enabled(false);			
-			}
-		
-		</script>
+````JavaScript	        
+<script type="text/javascript">
+	function OnClientButtonClicking(sender, args) {
+		var button = args.get_button();
+		button.set_enabled(false);			
+	}
+
+</script>
 ````
 
 
 
 ````ASPNET
-	    <telerik:RadRibbonBar ID="RadRibbonBar1" runat="server" OnClientButtonClicking="OnClientButtonClicking">
-	        <telerik:RibbonBarTab Text="Home">
-	            <telerik:RibbonBarGroup Text="Clipboard" EnableLauncher="true">
-	                <Items>
-	                    <telerik:RibbonBarButton Size="Medium" Text="Cut" ImageUrl="icons/Cut.png" />
-	                    <telerik:RibbonBarButton Size="Medium" Text="Copy" ImageUrl="icons/Copy.png" />
-	                </Items>
-	            </telerik:RibbonBarGroup>
-	        </telerik:RibbonBarTab>
-	    </telerik:RadRibbonBar>
+<telerik:RadRibbonBar ID="RadRibbonBar1" runat="server" OnClientButtonClicking="OnClientButtonClicking">
+    <telerik:RibbonBarTab Text="Home">
+        <telerik:RibbonBarGroup Text="Clipboard" EnableLauncher="true">
+            <Items>
+                <telerik:RibbonBarButton Size="Medium" Text="Cut" ImageUrl="icons/Cut.png" />
+                <telerik:RibbonBarButton Size="Medium" Text="Copy" ImageUrl="icons/Copy.png" />
+            </Items>
+        </telerik:RibbonBarGroup>
+    </telerik:RibbonBarTab>
+</telerik:RadRibbonBar>
 ````
 
 
 
 # See Also
 
- * [Overview]({%slug ribbonbar/client-side-programming/overview%})
+ * [Client-Side Programming Overview]({%slug ribbonbar/client-side-programming/overview%})
 
- * [Overview]({%slug ribbonbar/client-side-programming/events/overview%})
+ * [Client-Side Events Overview]({%slug ribbonbar/client-side-programming/events/overview%})

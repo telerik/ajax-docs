@@ -42,36 +42,33 @@ The event handler receives two arguments:
 The following example shows the **OnDateSelected** event for **RadCalendar**:
 
 ````ASPNET
-	<script type="text/javascript">
-	    function DateSelected(sender, eventArgs) {
-	        var date = eventArgs.get_renderDay().get_date();
-	        var dfi = sender.DateTimeFormatInfo;
-	        var formattedDate = dfi.FormatDate(date, dfi.ShortDatePattern);
-	        alert(formattedDate + " was just " + 
-	        (eventArgs.get_renderDay().get_isSelected() ? "selected. " : "unselected. "));
-	    }
-	</script>
-	<telerik:RadCalendar ID="RadCalendar1" runat="server">
-	    <ClientEvents OnDateSelected="DateSelected" />
-	</telerik:RadCalendar>			
+<telerik:RadCalendar ID="RadCalendar1" runat="server">
+    <ClientEvents OnDateSelected="dateSelected" />
+</telerik:RadCalendar>			
 ````
-
+````JavaScript
+function dateSelected(sender, eventArgs) {
+	var date = eventArgs.get_renderDay().get_date();
+	var dfi = sender.DateTimeFormatInfo;
+	var formattedDate = dfi.FormatDate(date, dfi.ShortDatePattern);
+	
+	alert(formattedDate + " was just " + (eventArgs.get_renderDay().get_isSelected() ? "selected. " : "unselected. "));
+}
+````
 
 
 The following example shows the **OnDateSelected** event for **RadDatePicker**. The **OnDateSelected** event works the same way for **RadTimePicker** and **RadDateTimePicker**.
 
 ````ASPNET
-	 <script type="text/javascript">
-	     function DateSelected(sender, eventArgs) {
-	         alert("The date was just changed from " +
-	        eventArgs.get_oldValue() + " to " + eventArgs.get_newValue());
-	     }
-	</script>
-	<telerik:RadDatePicker ID="RadDatePicker1" runat="server">
-	    <ClientEvents OnDateSelected="DateSelected" />
-	</telerik:RadDatePicker>		
+<telerik:RadDatePicker ID="RadDatePicker1" runat="server">
+    <ClientEvents OnDateSelected="dateSelected" />
+</telerik:RadDatePicker>		
 ````
-
+````JavaScript
+function dateSelected(sender, eventArgs) {
+	alert("The date was just changed from " + eventArgs.get_oldValue() + " to " + eventArgs.get_newValue());
+}
+````
 
 
 # See Also

@@ -51,41 +51,41 @@ The Section 508 standards are listed on the official government site:
 Here are the code snippets from the aforementioned sample:
 
 ````ASP.NET
-	  <head runat="server">
-	    <link type="text/css" rel="stylesheet" href="Skins/Sunset/Grid.Sunset.css" />
-	    <style type="text/css">.RadGrid_<%= MyGrid1.Skin %> th input
-	      {
-	           border:0px;         
-	           background-color: Transparent;         
-	           font-weight:bold;         
-	           cursor: pointer;         
-	           color:White;         
-	           text-align:left;        
-	      }        
-	      .RadGrid_<%= MyGrid1.Skin %> th, .RadGrid_<%= MyGrid1.Skin %> td         
-	      {
-	          white-space:nowrap;        
-	      }
-	    </style>
-	  </head>
-	  <body class="BODY">
-	    <form runat="server" id="mainForm" method="post" style="width: 100%;">
-	    <div>
-	      <telerik:MySection508Grid ID="MyGrid1" Skin="Sunset" DataSourceID="SqlDataSource1"
-	        AllowPaging="true" AllowSorting="true" runat="server" OnColumnCreated="MyGrid1_ColumnCreated">
-	        <mastertableview caption="Customers" summary="Customers">              
-	           <PagerTemplate>                
-	                      Change page:              
-	              <asp:Button ID="Button1" ToolTip="Previous Page" CommandName="Page" CommandArgument="Prev"CssClass="rgPagePrev" runat="server" />                    
-	              <asp:Button ID="Button2" ToolTip="Next Page" CommandName="Page" CommandArgument="Next" CssClass="rgPageNext" runat="server" />
-	           </PagerTemplate>         
-	        </mastertableview>
-	      </telerik:MySection508Grid>
-	      <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
-	        ProviderName="System.Data.SqlClient" SelectCommand="SELECT CustomerID, CompanyName, ContactName, ContactTitle, Address FROM Customers" />
-	    </div>
-	    </form>
-	  </body>
+<head runat="server">
+  <link type="text/css" rel="stylesheet" href="Skins/Sunset/Grid.Sunset.css" />
+  <style type="text/css">.RadGrid_<%= MyGrid1.Skin %> th input
+    {
+         border:0px;         
+         background-color: Transparent;         
+         font-weight:bold;         
+         cursor: pointer;         
+         color:White;         
+         text-align:left;        
+    }        
+    .RadGrid_<%= MyGrid1.Skin %> th, .RadGrid_<%= MyGrid1.Skin %> td         
+    {
+        white-space:nowrap;        
+    }
+  </style>
+</head>
+<body class="BODY">
+  <form runat="server" id="mainForm" method="post" style="width: 100%;">
+  <div>
+    <telerik:MySection508Grid ID="MyGrid1" Skin="Sunset" DataSourceID="SqlDataSource1"
+      AllowPaging="true" AllowSorting="true" runat="server" OnColumnCreated="MyGrid1_ColumnCreated">
+      <mastertableview caption="Customers" summary="Customers">              
+         <PagerTemplate>                
+                    Change page:              
+            <asp:Button ID="Button1" ToolTip="Previous Page" CommandName="Page" CommandArgument="Prev"CssClass="rgPagePrev" runat="server" />                    
+            <asp:Button ID="Button2" ToolTip="Next Page" CommandName="Page" CommandArgument="Next" CssClass="rgPageNext" runat="server" />
+         </PagerTemplate>         
+      </mastertableview>
+    </telerik:MySection508Grid>
+    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
+      ProviderName="System.Data.SqlClient" SelectCommand="SELECT CustomerID, CompanyName, ContactName, ContactTitle, Address FROM Customers" />
+  </div>
+  </form>
+</body>
 ````
 
 
@@ -93,55 +93,54 @@ Here are the code snippets from the aforementioned sample:
 
 
 ````C#
-	    protected void MyGrid1_ColumnCreated(object sender, GridColumnCreatedEventArgs e)
-	    {     
-	        e.Column.HeaderButtonType = GridHeaderButtonType.PushButton;
-	    }			
+protected void MyGrid1_ColumnCreated(object sender, GridColumnCreatedEventArgs e)
+{     
+    e.Column.HeaderButtonType = GridHeaderButtonType.PushButton;
+}			
 ````
 ````VB
-	    Protected Sub MyGrid1_ColumnCreated(ByVal sender As Object, ByVal e As Web.UI.GridColumnCreatedEventArgs) Handles MyGrid1.ColumnCreated
-	        e.Column.HeaderButtonType = Web.UI.GridHeaderButtonType.PushButton
-	    End Sub
+Protected Sub MyGrid1_ColumnCreated(ByVal sender As Object, ByVal e As Web.UI.GridColumnCreatedEventArgs) Handles MyGrid1.ColumnCreated
+    e.Column.HeaderButtonType = Web.UI.GridHeaderButtonType.PushButton
+End Sub
 ````
 
 
 
 
 ````C#
-	
-	using Telerik.Web.UI;
-	namespace Telerik.Web.UI
-	{    
-	    public class MySection508Grid : RadGrid
-	    {       
-	        public MySection508Grid()
-	        {
-	        }    
-	        protected override void RegisterScriptControl()
-	        {                
-	        }
-	        protected override void RegisterScriptDescriptors()
-	        {            
-	        }
-	        protected override void RegisterCssReferences()
-	        {                 
-	        }
-	    }
-	}			
+using Telerik.Web.UI;
+namespace Telerik.Web.UI
+{    
+    public class MySection508Grid : RadGrid
+    {       
+        public MySection508Grid()
+        {
+        }    
+        protected override void RegisterScriptControl()
+        {                
+        }
+        protected override void RegisterScriptDescriptors()
+        {            
+        }
+        protected override void RegisterCssReferences()
+        {                 
+        }
+    }
+}			
 ````
 ````VB
-	Imports Telerik.Web.UI
-	Namespace Telerik.Web.UI
-	 Public Class MySection508Grid Inherits RadGrid
-	            Public Sub New()
-	            End Sub
-	            Protected Overloads Overrides Sub RegisterScriptControl()
-	            End Sub
-	            Protected Overloads Overrides Sub RegisterScriptDescriptors()
-	            End Sub
-	            Protected Overloads Overrides Sub RegisterCssReferences()
-	            End Sub
-	        End Class
-	    End Namespace
+Imports Telerik.Web.UI
+Namespace Telerik.Web.UI
+ Public Class MySection508Grid Inherits RadGrid
+            Public Sub New()
+            End Sub
+            Protected Overloads Overrides Sub RegisterScriptControl()
+            End Sub
+            Protected Overloads Overrides Sub RegisterScriptDescriptors()
+            End Sub
+            Protected Overloads Overrides Sub RegisterCssReferences()
+            End Sub
+        End Class
+    End Namespace
 ````
 

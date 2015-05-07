@@ -21,9 +21,9 @@ To add a column editor declaratively, add an instance of the column editor to th
 Assign the properties of the column editor to customize it how you want it:
 
 ````ASP.NET
-	  <telerik:GridTextBoxColumnEditor ID="TextEditor1" runat="server">
-	    <TextBoxStyle BackColor="#edffc3" BorderColor="#ecbb0d" BorderStyle="Solid" ForeColor="#7fa822" />
-	  </telerik:GridTextBoxColumnEditor>
+<telerik:GridTextBoxColumnEditor ID="TextEditor1" runat="server">
+  <TextBoxStyle BackColor="#edffc3" BorderColor="#ecbb0d" BorderStyle="Solid" ForeColor="#7fa822" />
+</telerik:GridTextBoxColumnEditor>
 ````
 
 
@@ -31,9 +31,9 @@ Assign the properties of the column editor to customize it how you want it:
 Assign the ID of the column editor to the column you want to attach it to:
 
 ````ASP.NET
-	  <telerik:GridBoundColumn ColumnEditorID="TextEditor1" DataField="ShipName" EditFormHeaderTextFormat="{0} - Customized text editor"
-	    HeaderText="Ship Name" UniqueName="ShipName">
-	  </telerik:GridBoundColumn>
+<telerik:GridBoundColumn ColumnEditorID="TextEditor1" DataField="ShipName" EditFormHeaderTextFormat="{0} - Customized text editor"
+  HeaderText="Ship Name" UniqueName="ShipName">
+</telerik:GridBoundColumn>
 ````
 
 
@@ -51,39 +51,37 @@ If you want to assign declarative custom editors at runtime, you need to instant
 
 
 ````ASP.NET
-	  <asp:PlaceHolder ID="PlaceHolder1" runat="server" />
-	  <telerik:RadGrid ID="RadGrid1" runat="server" Width="97%" AutoGenerateColumns="False">
-	    <MasterTableView>
-	      <Columns>
-	        <telerik:GridDropDownColumn UniqueName="DropDownListColumn" ListTextField="ContactName"
-	          ListValueField="ContactName" DataSourceID="SqlDataSource2" HeaderText="DropDown Column"
-	          DataField="ContactName" AllowSorting="true" ColumnEditorID="ddEditor1">
-	        </telerik:GridDropDownColumn>
-	      </Columns>
-	    </MasterTableView></telerik:RadGrid>
+<asp:PlaceHolder ID="PlaceHolder1" runat="server" />
+<telerik:RadGrid ID="RadGrid1" runat="server" Width="97%" AutoGenerateColumns="False">
+  <MasterTableView>
+    <Columns>
+      <telerik:GridDropDownColumn UniqueName="DropDownListColumn" ListTextField="ContactName"
+        ListValueField="ContactName" DataSourceID="SqlDataSource2" HeaderText="DropDown Column"
+        DataField="ContactName" AllowSorting="true" ColumnEditorID="ddEditor1">
+      </telerik:GridDropDownColumn>
+    </Columns>
+  </MasterTableView></telerik:RadGrid>
 ````
-````C#
-	
-	    protected void Page_Init(object sender, EventArgs e)
-	    {
-	        GridDropDownListColumnEditor ddEditor1 = new GridDropDownListColumnEditor();
-	        ddEditor1.ID = "ddEditor1";
-	        ddEditor1.DropDownStyle.BorderColor = System.Drawing.Color.Coral;
-	        ddEditor1.DropDownStyle.BorderStyle = BorderStyle.Solid;
-	        ddEditor1.DropDownStyle.BackColor = System.Drawing.Color.DeepSkyBlue;
-	        PlaceHolder1.Controls.Add(ddEditor1);
-	    }
-	
+````C#	
+protected void Page_Init(object sender, EventArgs e)
+{
+    GridDropDownListColumnEditor ddEditor1 = new GridDropDownListColumnEditor();
+    ddEditor1.ID = "ddEditor1";
+    ddEditor1.DropDownStyle.BorderColor = System.Drawing.Color.Coral;
+    ddEditor1.DropDownStyle.BorderStyle = BorderStyle.Solid;
+    ddEditor1.DropDownStyle.BackColor = System.Drawing.Color.DeepSkyBlue;
+    PlaceHolder1.Controls.Add(ddEditor1);
+}
 ````
 ````VB
-	    Protected Sub Page_Init(ByVal sender As Object, ByVal e As EventArgs) Handles MyBase.Init
-	        Dim ddEditor1 As New GridDropDownListColumnEditor()
-	        ddEditor1.ID = "ddEditor1"
-	        ddEditor1.DropDownStyle.BorderColor = System.Drawing.Color.Coral
-	        ddEditor1.DropDownStyle.BorderStyle = BorderStyle.Solid
-	        ddEditor1.DropDownStyle.BackColor = System.Drawing.Color.DeepSkyBlue
-	        PlaceHolder1.Controls.Add(ddEditor1)
-	    End Sub
+Protected Sub Page_Init(ByVal sender As Object, ByVal e As EventArgs) Handles MyBase.Init
+    Dim ddEditor1 As New GridDropDownListColumnEditor()
+    ddEditor1.ID = "ddEditor1"
+    ddEditor1.DropDownStyle.BorderColor = System.Drawing.Color.Coral
+    ddEditor1.DropDownStyle.BorderStyle = BorderStyle.Solid
+    ddEditor1.DropDownStyle.BackColor = System.Drawing.Color.DeepSkyBlue
+    PlaceHolder1.Controls.Add(ddEditor1)
+End Sub
 ````
 
 

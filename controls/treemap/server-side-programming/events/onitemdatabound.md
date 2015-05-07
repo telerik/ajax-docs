@@ -16,7 +16,7 @@ The following article demonstrates the usage of the **ItemDataBound** server-sid
 
 ## 
 
-The **ItemDataBound** event occurs for each new item, that is added to the Items collection of the **RadTreeMap**, when it is bound. This event only occurs if the items are loaded from a data source (the **DataSource**or **DataSourceID** property is set).
+The **ItemDataBound** event occurs for each new item, that is added to the Items collection of the **RadTreeMap**, when it is bound. This event only occurs if the items are loaded from a data source (the **DataSource** or **DataSourceID** property is set).
 
 The **ItemDataBound** event handler receives two arguments:
 
@@ -30,22 +30,18 @@ Example 1: Demonstrates how to set a red color, if the currently evaluated item 
 
 
 
-````C#
-	
-	    protected void TreeMap1_ItemDataBound(object sender, TreeMapItemDataBoundEventArguments e)
-	    {
-	        if (e.Item.Text == "Important Item")
-	            e.Item.Color = Color.Red;
-	    }
-	
+````C#	
+protected void TreeMap1_ItemDataBound(object sender, TreeMapItemDataBoundEventArguments e)
+{
+    if (e.Item.Text == "Important Item")
+        e.Item.Color = Color.Red;
+}	
 ````
-````VB
-	
-	    Protected Sub TreeMap1_ItemDataBound(sender As Object, e As TreeMapItemDataBoundEventArguments)
-	        If e.Item.Text = "Important Item" Then
-	            e.Item.Color = Color.Red
-	        End If
-	    End Sub
-	
+````VB	
+Protected Sub TreeMap1_ItemDataBound(sender As Object, e As TreeMapItemDataBoundEventArguments)
+    If e.Item.Text = "Important Item" Then
+        e.Item.Color = Color.Red
+    End If
+End Sub	
 ````
 

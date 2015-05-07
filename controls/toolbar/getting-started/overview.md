@@ -10,97 +10,77 @@ position: 0
 
 # Getting Started Overview
 
-
-
 ## 
 
-This tutorial will walk you through creating a __RadToolBar__ and shows how to:
+This tutorial will walk you through creating a **RadToolBar** and shows how to:
 
-* Use the __RadToolBar Item Editor__ to build a simple toolbar.
+* Use the **RadToolBar Item Editor** to build a simple toolbar.
 
 * Use different types of toolbar buttons.
 
 * Apply a skin to the toolbar to change its look & feel.
 
-1. Drag a __RadToolBar__ component from the toolbox onto your Web page. The __RadToolBar__[ Smart Tag ](5BB964CF-AA36-443D-824B-60964E411B25) should appear automatically:
+1. Drag a **RadToolBar** component from the toolbox onto your Web page. The **RadToolBar** [Smart Tag](5BB964CF-AA36-443D-824B-60964E411B25) should appear automatically:
 >caption 
 
 ![toolbar smarttag](images/toolbar_smarttag.png)
 
-1. On the Smart Tag, choose __Edit Items.__ The [RadToolBar Item Editor]({%slug toolbar/design-time/radtoolbar-item-editor%}) appears:
+1. On the Smart Tag, choose **Edit Items.** The [RadToolBar Item Editor]({%slug toolbar/design-time/radtoolbar-item-editor%}) appears:
 >caption 
 
 ![toolbar itembuilderempty](images/toolbar_itembuilderempty.png)
 
-1. Click the __Add RadToolBarButton__ button (
->caption 
-
-![ToolBar Add Button](images/toolbar_addtoolbutton.png) to add a button to your toolbar.
+1. Click the **Add RadToolBarButton** button (![ToolBar Add Button](images/toolbar_addtoolbutton.png)) to add a button to your toolbar.
 
 1. In the properties pane on the right of the item editor, set the following properties for the button you added:
 
-* Set the __Text__ property to "A".
+* Set the **Text** property to "A".
 
-* Set the __CheckOnClick__ property to __True__. This makes the button have two states, "on" (checked) and "off" (unchecked).
+* Set the **CheckOnClick** property to **True**. This makes the button have two states, "on" (checked) and "off" (unchecked).
 
-* Set the __Checked__ property to __True__. This sets this button's state to "on".
+* Set the **Checked** property to **True**. This sets this button's state to "on".
 
-* Set the __Group__ property to "Group1". This makes the button part of a group that act like radio buttons.
+* Set the **Group** property to "Group1". This makes the button part of a group that act like radio buttons.
 
-1. Click the __Add RadToolBarButton__ button two more times to add two more buttons to the toolbar. Set their properties as follows:
+1. Click the **Add RadToolBarButton** button two more times to add two more buttons to the toolbar. Set their properties as follows:
 
-* Set the __Text__ property to ""B" and "C", respectively.
+* Set the **Text** property to ""B" and "C", respectively.
 
-* Set the __CheckOnClick__ property to True.
+* Set the **CheckOnClick** property to True.
 
-* Set the __Group__ property to "Group1".The item editor should now look like the following:
->caption 
+* Set the **Group** property to "Group1".The item editor should now look like the following:(![toolbar itembuilder 3buttons](images/toolbar_itembuilder3buttons.png))
 
-![toolbar itembuilder 3buttons](images/toolbar_itembuilder3buttons.png)
+1. Click the **Add RadToolBarDropDown** button (![ToolBar Add Drop Down Button](images/toolbar_adddropdownbutton.png)) to add a drop-down button to the toolbar. With the drop-down button selected, use the properties pane to change its **Text** property to "Details".
 
-1. Click the __Add RadToolBarDropDown__ button ( 
->caption 
+1. With the "Details" button selected, click the **Add RadToolBarButton to drop-down** button (![ToolBar Add Child Button](images/toolbar_addchildbutton.png)) to add a button to the drop-down list of the "Details" button. Select the button you added to the list and set its **Text** property to "One".
 
-![ToolBar Add Drop Down Button](images/toolbar_adddropdownbutton.png)) to add a drop-down button to the toolbar. With the drop-down button selected, use the properties pane to change its __Text__ property to "Details".
+1. Select the "Details" button again and click the **Add RadToolBarButton to drop-down** button two more times to add two more buttons to the drop-down list.
 
-1. With the "Details" button selected, click the __Add RadToolBarButton to drop-down__ button ( 
->caption 
+* On the first of these (the second button in the drop-down list), set the **IsSeparator** property to **True** and the **Text** property to an empty string.The item builder should now look like the following:(![toolbar itembuildergroup&dropdown](images/toolbar_itembuildergroup&dropdown.png))
 
-![ToolBar Add Child Button](images/toolbar_addchildbutton.png)) to add a button to the drop-down list of the "Details" button. Select the button you added to the list and set its __Text__ property to "One".
+1. Click the **Add RadToolBarSplitButton** button (![ToolBar Add Split Button](images/toolbar_addsplitbutton.png)) to add a split button to the toolbar.
 
-1. Select the "Details" button again and click the __Add RadToolBarButton to drop-down__ button two more times to add two more buttons to the drop-down list.
+* Set its **Text** property to "Add Item".
 
-* On the first of these (the second button in the drop-down list), set the __IsSeparator__ property to __True__ and the __Text__ property to an empty string.The item builder should now look like the following:
->caption 
+* Set its **EnableDefaultButton** property to **False**.
 
-![toolbar itembuildergroup&dropdown](images/toolbar_itembuildergroup&dropdown.png)
+1. With the "Add Item" button selected, click the **Add RadToolBarButton to drop-down** button two times to add two child buttons to the drop-down list of the split button.
 
-1. Click the __Add RadToolBarSplitButton__ button ( 
->caption 
+* On the first, set the **Text** property to "Red" and the **ForeColor** property to "Red".
 
-![ToolBar Add Split Button](images/toolbar_addsplitbutton.png) ) to add a split button to the toolbar.
-
-* Set its __Text__ property to "Add Item".
-
-* Set its __EnableDefaultButton__ property to __False__.
-
-1. With the "Add Item" button selected, click the __Add RadToolBarButton to drop-down__ button two times to add two child buttons to the drop-down list of the split button.
-
-* On the first, set the __Text__ property to "Red" and the __ForeColor__ property to "Red".
-
-* On the second, set the __Text__ property to "Blue" and the __ForeColor__ property to "Blue".The item builder should look like the following:
+* On the second, set the **Text** property to "Blue" and the **ForeColor** property to "Blue".The item builder should look like the following:
 >caption 
 
 ![toolbar itembuildergroupdropdownandsplit](images/toolbar_itembuildergroupdropdownandsplit.png)
 
 1. Click Ok to exit.
 
-1. In the __RadToolBar__ Smart Tag, use the __Skin__ drop-down to change the [skin]({%slug toolbar/appearance-and-styling/skins%}) for the __RadToolBar__ to "Hay":
+1. In the **RadToolBar** Smart Tag, use the **Skin** drop-down to change the [skin]({%slug toolbar/appearance-and-styling/skins%}) for the **RadToolBar** to "Hay":
 >caption 
 
 ![toolbar chooseskin](images/toolbar_chooseskin.png)
 
-1. Still in the Smart Tag, click the __Edit Templates__ link to apply a template to one of the toolbar buttons:
+1. Still in the Smart Tag, click the **Edit Templates** link to apply a template to one of the toolbar buttons:
 >caption 
 
 ![toolbar edittemplates](images/toolbar_edittemplates.png)
@@ -110,12 +90,12 @@ This tutorial will walk you through creating a __RadToolBar__ and shows how to:
 
 ![ToolBar Template](images/toolbar_templateforchild3.gif)
 
-1. Drag a __RadDatePicker__ from the toolbox onto the Template Design Surface and set its __Skin__ property to "Inox":
+1. Drag a **RadDatePicker** from the toolbox onto the Template Design Surface and set its **Skin** property to "Inox":
 >caption 
 
 ![ToolBar Date Picker Template](images/toolbar_datepickertemplate.png)
 
-1. Choose __End Template Editing__ from the __RadToolBar__ Smart Tag:
+1. Choose **End Template Editing** from the **RadToolBar** Smart Tag:
 >caption 
 
 ![ToolBar End Template Editing](images/toolbar_endtemplateediting.png)

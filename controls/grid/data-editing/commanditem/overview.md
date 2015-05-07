@@ -61,11 +61,11 @@ To enable the **CommandItem**, you need to use the **CommandItemDisplay** proper
 Basically, there are two groups of properties, pertaining to the Command Item. One of them is set in the tag of the **MasterTableView**, and the other one, as properties for the **RadGrid** control. Additionally, there is a group of style settings, which can be set through the **CommandItemStyle** tag of the RadGrid control (and which are also available as properties of **RadGrid**, and the **MasterTableView**). This is demonstrated in the code snippet below:
 
 ````ASP.NET
-	<CommandItemStyleBackColor="#FFC0C0" BorderColor="#FFE0C0" BorderStyle="Dotted"
-	BorderWidth="1px"Font-Bold="True" Font-Italic="True" Font-Names="Arial Black"
-	Font-Overline="True"Font-Size="Small" Font-Strikeout="True" Font-Underline="True"
-	ForeColor="#404040"Height="40px" HorizontalAlign="Left" VerticalAlign="Middle"
-	Width="800px"Wrap="True" />			
+<CommandItemStyleBackColor="#FFC0C0" BorderColor="#FFE0C0" BorderStyle="Dotted"
+BorderWidth="1px"Font-Bold="True" Font-Italic="True" Font-Names="Arial Black"
+Font-Overline="True"Font-Size="Small" Font-Strikeout="True" Font-Underline="True"
+ForeColor="#404040"Height="40px" HorizontalAlign="Left" VerticalAlign="Middle"
+Width="800px"Wrap="True" />			
 ````
 
 
@@ -73,10 +73,10 @@ Basically, there are two groups of properties, pertaining to the Command Item. O
 The same settings are available as properties of the grid control:
 
 ````ASP.NET
-	<telerik:RadGrid
-	 CommandItemStyle-BackColor="lightblue"
-	 CommandItemStyle-Font-Bold="true"	
-	 ...		
+<telerik:RadGrid
+ CommandItemStyle-BackColor="lightblue"
+ CommandItemStyle-Font-Bold="true"	
+ ...		
 ````
 
 
@@ -84,9 +84,9 @@ The same settings are available as properties of the grid control:
 The style settings can also be set through the **MasterTableView** declaration:
 
 ````ASP.NET
-	<telerik:RadGrid        
-	   ID="RadGrid1" runat="server" AllowSorting="True" DataSourceID="SqlDataSource1" GridLines="None">        
-	      <MasterTableView CommandItemDisplay="Top" CommandItemStyle-BackColor="lightblue"  CommandItemStyle-Font-Bold="true">...			
+<telerik:RadGrid        
+   ID="RadGrid1" runat="server" AllowSorting="True" DataSourceID="SqlDataSource1" GridLines="None">        
+      <MasterTableView CommandItemDisplay="Top" CommandItemStyle-BackColor="lightblue"  CommandItemStyle-Font-Bold="true">...			
 ````
 
 
@@ -94,19 +94,19 @@ The style settings can also be set through the **MasterTableView** declaration:
 There is one additional tag, the **CommandItemSettings**, which includes settings for the commandItem’s image paths, button text and the options to show or hide the default command buttons (Add New Record, Refresh and the four export buttons).
 
 ````ASP.NET
-	<MasterTableView
-	  CommandItemDisplay="Top"           
-	  AutoGenerateColumns="False"
-	  DataKeyNames="CustomerID"  
-	  DataSourceID="AccessDataSource1">                             
-	  <CommandItemSettings
-	    AddNewRecordImageUrl="Image1.jpg"
-	    AddNewRecordText="AddNewRecordCustomText"
-	    RefreshImageUrl="Image2.jpg"
-	    RefreshText="RefreshCustomtext"
-	    ShowExportToExcelButton="true"
-	    ShowExportToCsvButton="true" />               
-	</MasterTableView>  			
+<MasterTableView
+  CommandItemDisplay="Top"           
+  AutoGenerateColumns="False"
+  DataKeyNames="CustomerID"  
+  DataSourceID="AccessDataSource1">                             
+  <CommandItemSettings
+    AddNewRecordImageUrl="Image1.jpg"
+    AddNewRecordText="AddNewRecordCustomText"
+    RefreshImageUrl="Image2.jpg"
+    RefreshText="RefreshCustomtext"
+    ShowExportToExcelButton="true"
+    ShowExportToCsvButton="true" />               
+</MasterTableView>  			
 ````
 
 
@@ -114,17 +114,17 @@ There is one additional tag, the **CommandItemSettings**, which includes setting
 These settings can also be included directly as settings of the **MasterTableView** declaration of **RadGrid**:
 
 ````ASP.NET
-	<MasterTableView
-	  CommandItemSettings-AddNewRecordImageUrl="Image1.jpg"
-	  CommandItemSettings-AddNewRecordText="AddNewRecordCustomText"
-	  CommandItemSettings-RefreshImageUrl="Image2.jpg"
-	  CommandItemSettings-RefreshText="RefreshCustomtext"
-	  CommandItemSettings-ShowExportToPdfButton="true"
-	  CommandItemDisplay="Top"              
-	  AutoGenerateColumns="False"
-	  DataKeyNames="CustomerID"
-	  DataSourceID="AccessDataSource1">
-	</MasterTableView>
+<MasterTableView
+  CommandItemSettings-AddNewRecordImageUrl="Image1.jpg"
+  CommandItemSettings-AddNewRecordText="AddNewRecordCustomText"
+  CommandItemSettings-RefreshImageUrl="Image2.jpg"
+  CommandItemSettings-RefreshText="RefreshCustomtext"
+  CommandItemSettings-ShowExportToPdfButton="true"
+  CommandItemDisplay="Top"              
+  AutoGenerateColumns="False"
+  DataKeyNames="CustomerID"
+  DataSourceID="AccessDataSource1">
+</MasterTableView>
 ````
 
 

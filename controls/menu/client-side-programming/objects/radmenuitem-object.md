@@ -10,8 +10,6 @@ position: 1
 
 # RadMenuItem Object
 
-
-
 ## 
 
 The **RadMenuItem** object is returned by the **getItem** method of the **[RadMenuItemCollection object]({%slug menu/client-side-programming/objects/radmenuitemcollection-object%})**. It is also exposed by the eventArgs of many [client-side events]({%slug menu/client-side-programming/events/overview%}). The following table lists the most important methods:
@@ -24,12 +22,10 @@ The **RadMenuItem** object is returned by the **getItem** method of the **[RadMe
 | **disable** |none|none|Disables the item.|
 
 ````JavaScript
-	var menu = $find("<%= RadMenu1.ClientID %>");
-	var menuItem = menu.findItemByText("Paris");
-	menuItem.disable();			
+var menu = $find("<%= RadMenu1.ClientID %>");
+var menuItem = menu.findItemByText("Paris");
+menuItem.disable();			
 ````
-
-
 
 
 >caption  
@@ -38,13 +34,10 @@ The **RadMenuItem** object is returned by the **getItem** method of the **[RadMe
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
-	var menu = $find("<%= RadMenu1.ClientID %>");
-	var menuItem = menu.findItemByText("Paris");
-	menuItem.enable();		
+var menu = $find("<%= RadMenu1.ClientID %>");
+var menuItem = menu.findItemByText("Paris");
+menuItem.enable();		
 ````
-
-
-
 
 >caption  
 
@@ -55,13 +48,10 @@ The **RadMenuItem** object is returned by the **getItem** method of the **[RadMe
 | **focus** |none|none|Moves keyboard focus to the item.|
 
 ````JavaScript
-	var menu = $find("<%= RadMenu1.ClientID %>");
-	var menuItem = menu.findItemByText("Paris");
-	menuItem.focus();	
+var menu = $find("<%= RadMenu1.ClientID %>");
+var menuItem = menu.findItemByText("Paris");
+menuItem.focus();	
 ````
-
-
-
 
 >caption  
 
@@ -69,12 +59,10 @@ The **RadMenuItem** object is returned by the **getItem** method of the **[RadMe
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
-	var menu = $find("<%= RadMenu1.ClientID %>");
-	var menuItem = menu.findItemByText("Paris");
-	menuItem.blur();
+var menu = $find("<%= RadMenu1.ClientID %>");
+var menuItem = menu.findItemByText("Paris");
+menuItem.blur();
 ````
-
-
 
 
 >caption  
@@ -98,17 +86,17 @@ The **RadMenuItem** object is returned by the **getItem** method of the **[RadMe
 | **get_attributes** |(none)|Collection|Returns the collection of custom attributes for the item.|
 
 ````JavaScript
-	var menu = $find("<%= RadMenu1.ClientID %>");
-	var foundItem = menu.findItemByAttribute("Population", "0");
-	var attributes = foundItem.get_attributes();
-	var size = attributes.getAttribute("size");
-	if (size) {
-	    attributes.setAttribute("Population", size);
-	    attributes.removeAttribute("size");
-	}
-	else {
-	    attributes.setAttribute("Population", "Unknown");
-	}			
+var menu = $find("<%= RadMenu1.ClientID %>");
+var foundItem = menu.findItemByAttribute("Population", "0");
+var attributes = foundItem.get_attributes();
+var size = attributes.getAttribute("size");
+if (size) {
+    attributes.setAttribute("Population", size);
+    attributes.removeAttribute("size");
+}
+else {
+    attributes.setAttribute("Population", "Unknown");
+}			
 ````
 
 
@@ -119,7 +107,7 @@ The **RadMenuItem** object is returned by the **getItem** method of the **[RadMe
 |  **open**  | none | none | Expands the item and reveals its children, if any. |
 | ------ | ------ | ------ | ------ |
 | **close** |none|none|Collapses the item, if it is expanded.|
-| **click** |none|none|Performs a click on the menu item. It can cause postback, but it will not redirect to another page. See[this example]({%slug menu/how-to/use-radconfirm-to-confirm-menuitem-click%}).|
+| **click** |none|none|Performs a click on the menu item. It can cause postback, but it will not redirect to another page. See [this example]({%slug menu/how-to/use-radconfirm-to-confirm-menuitem-click%}).|
 | **get_visible** |none|boolean|Returns **true** if the items is visible or **false** if the item is invisible.|
 | **set_visible** |boolean|none|Sets the visibility of the item|
 | **show** |none|none|Shows the item if it was set invisible on the client. The same as **set_visible(true)** |

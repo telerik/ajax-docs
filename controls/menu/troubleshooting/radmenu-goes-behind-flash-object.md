@@ -10,8 +10,6 @@ position: 1
 
 # RadMenu Goes Behind Flash Object
 
-
-
 ## 
 
 **Q:** Why does my RadMenu goes behind flash objects in Firefox browser?
@@ -21,15 +19,8 @@ position: 1
 To the Embed tag, add the following attribute:
 
 ````ASPNET
-	     
-	
-	<embed ... wmode="opaque" ...>
-				
+<embed ... wmode="opaque" ...>			
 ````
-
-
-
-
 
 Here is a couple of articles for additional information on Flash and W-MODE options:
 

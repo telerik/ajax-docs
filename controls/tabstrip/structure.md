@@ -10,8 +10,6 @@ position: 1
 
 # Structure
 
-
-
 ## 
 
 The structure of the **RadTabStrip** control is as follows:
@@ -33,27 +31,26 @@ If the tab strip does not have room to display all of the tabs at one level, and
 If the tabs are created at design time, the hierarchy is reflected in the ASP.NET declaration of the tab strip:
 
 ````ASPNET
-	<telerik:RadTabStrip ID="RadTabStrip1" runat="server" >
-	 <Tabs>
-	   <telerik:RadTab
-	        runat="server"
-	        Text="Tab1"
-	        PerTabScrolling="True"
-	        ScrollChildren="True"
-	        Selected="True">
-	     <Tabs>
-	        <telerik:RadTab runat="server" Text="Child Tab 1" />
-	        <telerik:RadTab runat="server" Text="Child Tab 2" Selected="True" />
-	        <telerik:RadTab runat="server" Text="Child Tab 3" />
-	        <telerik:RadTab runat="server" Text="Child Tab 4" />
-	        <telerik:RadTab runat="server" Text="Child Tab 5" />
-	     </Tabs>
-	   </telerik:RadTab>
-	   <telerik:RadTab runat="server" Text="Tab2" />
-	   <telerik:RadTab runat="server" Text="Tab3" />
-	 </Tabs>
-	</telerik:RadTabStrip> 
-				
+<telerik:RadTabStrip ID="RadTabStrip1" runat="server" >
+ <Tabs>
+   <telerik:RadTab
+        runat="server"
+        Text="Tab1"
+        PerTabScrolling="True"
+        ScrollChildren="True"
+        Selected="True">
+     <Tabs>
+        <telerik:RadTab runat="server" Text="Child Tab 1" />
+        <telerik:RadTab runat="server" Text="Child Tab 2" Selected="True" />
+        <telerik:RadTab runat="server" Text="Child Tab 3" />
+        <telerik:RadTab runat="server" Text="Child Tab 4" />
+        <telerik:RadTab runat="server" Text="Child Tab 5" />
+     </Tabs>
+   </telerik:RadTab>
+   <telerik:RadTab runat="server" Text="Tab2" />
+   <telerik:RadTab runat="server" Text="Tab3" />
+ </Tabs>
+</telerik:RadTabStrip> 				
 ````
 
 

@@ -10,8 +10,6 @@ position: 18
 
 # OnClientContextMenu
 
-
-
 ## 
 
 The **OnClientContextMenu** client-side event occurs when the user right-clicks an item in the toolbar.
@@ -29,21 +27,20 @@ The event handler receives two parameters:
 You can use this event to respond when the user right-clicks an item:
 
 ````ASPNET
-	
-	    <script type="text/javascript">
-	        function contextmenu(toolbar, args) {
-	            var attributes = args.get_item().get_attributes();
-	            attributes.setAttribute("shownMenu", "true");
-	        }
-	    </script>
-	
-	    <telerik:radtoolbar id="RadToolBar1" runat="server" onclientcontextmenu="contextmenu">  
-	        <Items>    
-	        <telerik:RadToolBarButton Text="Button1" />     
-	        <telerik:RadToolBarButton Text="Button2" />    
-	        <telerik:RadToolBarButton Text="Button3" />
-	         </Items>
-	     </telerik:radtoolbar>
+<script type="text/javascript">
+    function contextmenu(toolbar, args) {
+        var attributes = args.get_item().get_attributes();
+        attributes.setAttribute("shownMenu", "true");
+    }
+</script>
+
+<telerik:radtoolbar id="RadToolBar1" runat="server" onclientcontextmenu="contextmenu">  
+<Items>    
+	<telerik:RadToolBarButton Text="Button1" />     
+	<telerik:RadToolBarButton Text="Button2" />    
+	<telerik:RadToolBarButton Text="Button3" />
+</Items>
+ </telerik:radtoolbar>
 ````
 
 

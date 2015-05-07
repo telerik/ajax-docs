@@ -29,13 +29,13 @@ To set a keyboard shortcut to a menu item, simply set the **AccessKey** property
 ![Access Keys](images/panelbar_accesskeys.png)
 
 ````ASPNET
-	    <telerik:radpanelbar id="RadPanelBar1" runat="server" skin="Metro">  
-	    <Items>    
-	        <telerik:RadPanelItem  runat="server" Text="Personal" AccessKey="P" />    
-	        <telerik:RadPanelItem  runat="server" Text="Education" AccessKey="E" />    
-	        <telerik:RadPanelItem  runat="server" Text="Job History" AccessKey="H" />  
-	    </Items>
-	    </telerik:radpanelbar>
+<telerik:radpanelbar id="RadPanelBar1" runat="server" skin="Metro">  
+	<Items>    
+		<telerik:RadPanelItem  runat="server" Text="Personal" AccessKey="P" />    
+		<telerik:RadPanelItem  runat="server" Text="Education" AccessKey="E" />    
+		<telerik:RadPanelItem  runat="server" Text="Job History" AccessKey="H" />  
+	</Items>
+</telerik:radpanelbar>
 ````
 
 
@@ -56,7 +56,7 @@ If a panel item has no child items, then pressing the [ENTER] key when the item 
 
 To collapse a group of child panel items, use the [ESC] when the parent item has focus.
 
->note Collapsing items using the [ESC] key does not always work. It depends on the[ExpandMode property]({%slug panelbar/radpanelbar-items/expanding-and-collapsing-items%}).
+>note Collapsing items using the [ESC] key does not always work. It depends on the [ExpandMode property]({%slug panelbar/radpanelbar-items/expanding-and-collapsing-items%}).
 >
 
 

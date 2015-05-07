@@ -25,25 +25,25 @@ When you use **EditForms** edit mode you may prefer to hide the currently edited
 
 
 ````C#
-	    protected void RadGrid1_PreRender(object sender, System.EventArgs e)
-	    {
-	        foreach (GridItem item in RadGrid1.MasterTableView.Items)
-	        {
-	            if (item is GridDataItem && item.Edit)
-	            {
-	                item.Visible = false;
-	            }
-	        }
-	    }
+protected void RadGrid1_PreRender(object sender, System.EventArgs e)
+{
+    foreach (GridItem item in RadGrid1.MasterTableView.Items)
+    {
+        if (item is GridDataItem && item.Edit)
+        {
+            item.Visible = false;
+        }
+    }
+}
 ````
 ````VB
-	    Protected Sub RadGrid1_PreRender(ByVal sender As Object, ByVal e As System.EventArgs)
-	        Dim item As GridItem
-	        For Each item In RadGrid1.MasterTableView.Items
-	            If TypeOf item Is GridDataItem And item.Edit Then
-	                item.Visible = False
-	            End If
-	        Next item
-	    End Sub
+Protected Sub RadGrid1_PreRender(ByVal sender As Object, ByVal e As System.EventArgs)
+    Dim item As GridItem
+    For Each item In RadGrid1.MasterTableView.Items
+        If TypeOf item Is GridDataItem And item.Edit Then
+            item.Visible = False
+        End If
+    Next item
+End Sub
 ````
 

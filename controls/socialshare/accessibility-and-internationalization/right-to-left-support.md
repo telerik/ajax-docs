@@ -12,35 +12,33 @@ position: 1
 
 
 
-## 
+**RadSocialShare** fully supports right-to-left (RTL) language locales. It is created and added to the page as a child of the form element and in order to turn on the RTL support you should set **dir=rtl to the html or body** element.
 
-The **RadSocialShare** fully supports right-to-left (RTL) language locales. It is created and added to the page as a child of the form element and in order to turn on the RTL support you should set **dir=rtl to the html or body** element.
-
-````ASPNET
-	        html
-	        {
-	            direction: rtl;
-	        } 
+````CSS
+html
+{
+    direction: rtl;
+} 
 ````
 
 
 
-````ASPNET
-	        <telerik:RadSocialShare runat="server" ID="RadSocialShare1" UrlToShare="http://www.telerik.com/products/aspnet-ajax.aspx" Skin="Sunset">
-	            <MainButtons>
-	                <telerik:RadSocialButton SocialNetType="ShareOnFacebook" />
-	                <telerik:RadSocialButton SocialNetType="ShareOnTwitter" />
-	                <telerik:RadSocialButton SocialNetType="StumbleUpon" />
-	                <telerik:RadSocialButton SocialNetType="Tumblr" />
-	                <telerik:RadSocialButton SocialNetType="MailTo" />
-	                <telerik:RadSocialButton SocialNetType="SendEmail" />
-	                <telerik:RadCompactButton />
-	            </MainButtons>
-	        </telerik:RadSocialShare>
+````ASP.NET
+<telerik:RadSocialShare runat="server" ID="RadSocialShare1" UrlToShare="http://www.telerik.com/products/aspnet-ajax.aspx" Skin="Sunset">
+    <MainButtons>
+        <telerik:RadSocialButton SocialNetType="ShareOnFacebook" />
+        <telerik:RadSocialButton SocialNetType="ShareOnTwitter" />
+        <telerik:RadSocialButton SocialNetType="StumbleUpon" />
+        <telerik:RadSocialButton SocialNetType="Tumblr" />
+        <telerik:RadSocialButton SocialNetType="MailTo" />
+        <telerik:RadSocialButton SocialNetType="SendEmail" />
+        <telerik:RadCompactButton />
+    </MainButtons>
+</telerik:RadSocialShare>
 ````
 
 ![radsocialshare-rtl-screenshot](images/radsocialshare-rtl-screenshot.png)
 
 # See Also
 
- * [See this live in an online demo](http://demos.telerik.com/aspnet-ajax/socialshare/examples/righttoleft/defaultcs.aspx)
+ * [Live demo: RadSocialShare RTL Support](http://demos.telerik.com/aspnet-ajax/socialshare/examples/righttoleft/defaultcs.aspx)

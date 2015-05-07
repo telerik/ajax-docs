@@ -14,7 +14,7 @@ position: 4
 
 Styles for Telerik controls are defined using Cascading Style Sheet (CSS) syntax. Each style consists of a selector that identifies an HTML element to be styled, and property/value pairs that describe each of the style specifics, e.g. color, padding, margins, etc. For example, the **table.RadCalendar_Default** style defines the default width and font styles for the entire calendar control:
 
-````XML
+````CSS
 table.RadCalendar_Default
 {
     border-collapse:separate;
@@ -32,7 +32,7 @@ See [CSS Skin Selectors]({%slug calendar/appearance-and-styling/css-skin-selecto
 
 The typical HTML output of a **RadCalendar** control is the following (some HTML attributes have been removed for simplicity):
 
-````XML
+````HTML
 <div id="RadCalendar1_wrapper">
     <table id="RadCalendar1" class="RadCalendar RadCalendar_Windows7">
         <thead>
@@ -143,7 +143,7 @@ The typical HTML output of a **RadCalendar** control is the following (some HTML
 
 The typical HTML output of a **RadTimeView** control is the following:
 
-````XML
+````HTML
 <div id="RadTimePicker1_timeView_wrapper">
     <div id="RadTimePicker1_timeView">
         <table class="RadCalendarTimeView RadCalendarTimeView_Windows7">
@@ -182,7 +182,7 @@ The typical HTML output of a **RadTimeView** control is the following:
 
 The typical HTML output of a **RadDateTimePicker** control is the following:
 
-````XML
+````HTML
 <div class="RadPicker RadPicker_Windows7">
 <input type="text" value="" class="rdfd_" name="RadDateTimePicker1" id="RadDateTimePicker1" />
 <table class="rcTable">

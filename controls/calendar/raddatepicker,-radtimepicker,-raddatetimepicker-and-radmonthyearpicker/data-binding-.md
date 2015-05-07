@@ -19,6 +19,7 @@ When embedding **RadDatePicker**, **RadTimePicker**, **RadDateTimePicker** and *
 >note 
 In addition to calling **Eval** and **Bind** methods to perform data binding in a data-binding expression, you can call any publicly scoped code within the *<%# and %>* delimiters to execute that code and return a value during page processing.
 >
+
 ![Data-binding the picker control](images/calendar_databound.png)
 
 The following example demonstrates how to bind a **RadDatePicker** control inside a RadGrid, as shown above. The **RadDateTimePicker**, **RadTimePicker** and **RadMonthYearPicker** controls work the same way:

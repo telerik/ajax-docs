@@ -10,8 +10,6 @@ position: 12
 
 # OnClientDropDownClosed
 
-
-
 ## 
 
 The **OnClientDropDownClosed** client-side event occurs immediately after the drop-down has closed.
@@ -28,27 +26,26 @@ The event handler receives two parameters:
 
 You can use this event to respond when the list of child buttons closes.
 
-````ASPNET
-	
-	    <script>
-	        function OnClientDropDownClosed(sender, args) {
-	            alert(args.get_item().get_text());
-	        }       
-	    </script>
-	
-	    <telerik:radtoolbar id="RadToolBar1" runat="server" orientation="Horizontal" onclientdropdownclosed="OnClientDropDownClosed">     
-	    <CollapseAnimation Duration="200" Type="OutQuint" />     
-	    <Items>        
-	        <telerik:RadToolBarButton Text="button1" runat="server">
-	        </telerik:RadToolBarButton>        
-	        <telerik:RadToolBarDropDown Text="dropdown" runat="server">            
-	            <Buttons>                
-	                <telerik:RadToolBarButton Text="Button2" runat="server">
-	                </telerik:RadToolBarButton>            
-	            </Buttons>        
-	        </telerik:RadToolBarDropDown>     
-	     </Items>
-	    </telerik:radtoolbar>
+````ASPNET	
+<script>
+    function OnClientDropDownClosed(sender, args) {
+        alert(args.get_item().get_text());
+    }       
+</script>
+
+<telerik:radtoolbar id="RadToolBar1" runat="server" orientation="Horizontal" onclientdropdownclosed="OnClientDropDownClosed">     
+<CollapseAnimation Duration="200" Type="OutQuint" />     
+<Items>        
+    <telerik:RadToolBarButton Text="button1" runat="server">
+    </telerik:RadToolBarButton>        
+    <telerik:RadToolBarDropDown Text="dropdown" runat="server">            
+        <Buttons>                
+            <telerik:RadToolBarButton Text="Button2" runat="server">
+            </telerik:RadToolBarButton>            
+        </Buttons>        
+    </telerik:RadToolBarDropDown>     
+ </Items>
+</telerik:radtoolbar>
 ````
 
 

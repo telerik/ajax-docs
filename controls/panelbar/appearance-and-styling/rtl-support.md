@@ -24,32 +24,32 @@ position: 10
 
 ````ASPNET
 	     
-		<telerik:RadPanelBar
-	       ID="RadPanelBar1" runat="server"
-	       Skin="Office2010Silver"
-	       dir="rtl">
-	     <Items>
-	       <telerik:RadPanelItem runat="server" Text="One" >
-	         <Items>
-	           <telerik:RadPanelItem runat="server" Text="i" />
-	           <telerik:RadPanelItem runat="server" Text="ii" />
-	           <telerik:RadPanelItem runat="server" Text="iii" />
-	         </Items>
-	       </telerik:RadPanelItem>
-	       <telerik:RadPanelItem runat="server" Text="Two" >
-	         <Items>
-	           <telerik:RadPanelItem runat="server" Text="1" />
-	           <telerik:RadPanelItem runat="server" Text="2" />
-	         </Items>
-	       </telerik:RadPanelItem>
-	       <telerik:RadPanelItem runat="server" Text="Three">
-	         <Items>
-	           <telerik:RadPanelItem runat="server" Text="a" />
-	           <telerik:RadPanelItem runat="server" Text="b" />
-	         </Items>
-	       </telerik:RadPanelItem>
-	     </Items>
-	    </telerik:RadPanelBar> 
+<telerik:RadPanelBar
+   ID="RadPanelBar1" runat="server"
+   Skin="Office2010Silver"
+   dir="rtl">
+ <Items>
+   <telerik:RadPanelItem runat="server" Text="One" >
+     <Items>
+       <telerik:RadPanelItem runat="server" Text="i" />
+       <telerik:RadPanelItem runat="server" Text="ii" />
+       <telerik:RadPanelItem runat="server" Text="iii" />
+     </Items>
+   </telerik:RadPanelItem>
+   <telerik:RadPanelItem runat="server" Text="Two" >
+     <Items>
+       <telerik:RadPanelItem runat="server" Text="1" />
+       <telerik:RadPanelItem runat="server" Text="2" />
+     </Items>
+   </telerik:RadPanelItem>
+   <telerik:RadPanelItem runat="server" Text="Three">
+     <Items>
+       <telerik:RadPanelItem runat="server" Text="a" />
+       <telerik:RadPanelItem runat="server" Text="b" />
+     </Items>
+   </telerik:RadPanelItem>
+ </Items>
+</telerik:RadPanelBar> 
 				
 ````
 

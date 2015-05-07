@@ -28,32 +28,32 @@ To enable virtual scrolling for browsing large record sets,
 
 1. Bind the grid using the **NeedDataSource** event, and in the event handler, use the **CurrentPageIndex** property to determine which subset of the records to fetch.
 
-````C#
-	  <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
-	    <AjaxSettings>
-	      <telerik:AjaxSetting AjaxControlID="RadGrid1">
-	        <UpdatedControls>
-	          <telerik:AjaxUpdatedControl ControlID="RadGrid1" LoadingPanelID="RadAjaxLoadingPanel1" />
-	        </UpdatedControls>
-	      </telerik:AjaxSetting>
-	    </AjaxSettings>
-	  </telerik:RadAjaxManager>
-	
-	  <telerik:RadAjaxLoadingPanel ID="RadAjaxLoadingPanel1" runat="server" Height="75px"
-	    Width="75px" Transparency="25">
-	    <img alt="Loading..." src='<%= RadAjaxLoadingPanel.GetWebResourceUrl(Page, "Telerik.Web.UI.Skins.Default.Ajax.loading.gif") %>'
-	      style="border: 0;" /></telerik:RadAjaxLoadingPanel>
-	
-	  <telerik:RadGrid ID="RadGrid1" runat="server" Width="97%" Skin="Silk" AllowSorting="True"
-	    AllowPaging="True" PageSize="14" AllowCustomPaging="true" VirtualItemCount="100000"
-	    OnNeedDataSource="RadGrid1_NeedDataSource">
-	    <PagerStyle Mode="NumericPages" />
-	    <MasterTableView TableLayout="Fixed" />
-	    <ClientSettings>
-	      <Scrolling AllowScroll="True" EnableVirtualScrollPaging="True" UseStaticHeaders="True"
-	        SaveScrollPosition="True" />
-	    </ClientSettings>
-	  </telerik:RadGrid>
+````ASP.NET
+<telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
+  <AjaxSettings>
+    <telerik:AjaxSetting AjaxControlID="RadGrid1">
+      <UpdatedControls>
+        <telerik:AjaxUpdatedControl ControlID="RadGrid1" LoadingPanelID="RadAjaxLoadingPanel1" />
+      </UpdatedControls>
+    </telerik:AjaxSetting>
+  </AjaxSettings>
+</telerik:RadAjaxManager>
+
+<telerik:RadAjaxLoadingPanel ID="RadAjaxLoadingPanel1" runat="server" Height="75px"
+  Width="75px" Transparency="25">
+  <img alt="Loading..." src='<%= RadAjaxLoadingPanel.GetWebResourceUrl(Page, "Telerik.Web.UI.Skins.Default.Ajax.loading.gif") %>'
+    style="border: 0;" /></telerik:RadAjaxLoadingPanel>
+
+<telerik:RadGrid ID="RadGrid1" runat="server" Width="97%" Skin="Silk" AllowSorting="True"
+  AllowPaging="True" PageSize="14" AllowCustomPaging="true" VirtualItemCount="100000"
+  OnNeedDataSource="RadGrid1_NeedDataSource">
+  <PagerStyle Mode="NumericPages" />
+  <MasterTableView TableLayout="Fixed" />
+  <ClientSettings>
+    <Scrolling AllowScroll="True" EnableVirtualScrollPaging="True" UseStaticHeaders="True"
+      SaveScrollPosition="True" />
+  </ClientSettings>
+</telerik:RadGrid>
 ````
 
 

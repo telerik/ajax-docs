@@ -10,8 +10,6 @@ position: 5
 
 # Using DataBindings
 
-
-
 ## 
 
 The **DataTextField**, **DataValueField**, and **DataNavigateUrlField** properties let you map the fields of data items to the **Text**, **Value**, and **NavigateUrl** properties of the menu items to which they are bound. By default, any other menu item properties must be mapped using an **[ItemDataBound event handler]({%slug menu/server-side-programming/itemdatabound%})**. However, as an alternate approach, you can use the **DataBindings** collection to declaratively supply the mapping for any or all of the following **RadMenuItem** properties:
@@ -49,15 +47,14 @@ The properties of each item in the collection specify how the **RadMenuItem** pr
 * The **DataMember** property specifies the table from which to map items. This property lets you use different tables from the same **DataSet** to supply values at different levels of the menu.
 
 ````ASPNET
-	    <telerik:RadMenu runat="server" ID="RadMenu1" DataSourceID="SqlDataSource1" DataFieldID="id"
-	        DataFieldParentID="parentID">
-	        <DataBindings>
-	            <telerik:RadMenuItemBinding TextField="Category" />
-	            <telerik:RadMenuItemBinding FormatString="Made of {0}" TextField="Material" Depth="1" />
-	        </DataBindings>
-	    </telerik:RadMenu>
+<telerik:RadMenu runat="server" ID="RadMenu1" DataSourceID="SqlDataSource1" DataFieldID="id"
+	DataFieldParentID="parentID">
+	<DataBindings>
+		<telerik:RadMenuItemBinding TextField="Category" />
+		<telerik:RadMenuItemBinding FormatString="Made of {0}" TextField="Material" Depth="1" />
+	</DataBindings>
+</telerik:RadMenu>
 ````
-
 
 
 for a live example of using **DataBindings** with **RadMenu**, see [Data Bindings](http://demos.telerik.com/aspnet-ajax/Menu/Examples/Programming/DataBindings/DefaultCS.aspx).

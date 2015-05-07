@@ -31,19 +31,17 @@ The **RadContextMenu** control represents a context menu or popup menu. It is si
 The following example shows a context menu that is attached to all **<img>** elements on the Web page:
 
 ````ASPNET
-	    <telerik:RadContextMenu ID="SetAsDesktop" runat="server" Skin="Vista" OnClientShowing="showingSetAsDesktop"
-	        OnClientItemClicked="setAsDesktopItemClicked">
-	        <Targets>
-	            <telerik:ContextMenuTagNameTarget TagName="img" />
-	        </Targets>
-	        <Items>
-	            <telerik:RadMenuItem Text="Set as desktop" Value="D" />
-	            <telerik:RadMenuItem Text="Open in a new window" Value="W" />
-	        </Items>
-	    </telerik:RadContextMenu>
+<telerik:RadContextMenu ID="SetAsDesktop" runat="server" Skin="Vista" OnClientShowing="showingSetAsDesktop"
+    OnClientItemClicked="setAsDesktopItemClicked">
+    <Targets>
+        <telerik:ContextMenuTagNameTarget TagName="img" />
+    </Targets>
+    <Items>
+        <telerik:RadMenuItem Text="Set as desktop" Value="D" />
+        <telerik:RadMenuItem Text="Open in a new window" Value="W" />
+    </Items>
+</telerik:RadContextMenu>
 ````
-
-
 
 >note For the targets to work in the Opera Browser, **RadContextMenu** needs right-clicks allowed. This is done by using *"Tools -> Preferences -> Advanced -> JavaScript options -> Allow script to receive right clicks"* . In addition, because of browser limitations, on right-click both **RadContextMenu** and the standard browser context menu are displayed. A workaround to the latter problem is using the ESC key to hide the default browser context menu.
 >
@@ -70,28 +68,26 @@ To use **RadContextMenu** as a popup menu, simply omit the **<Targets>** section
 The following example uses the **show()** method to display a context menu when the mouse hovers over an image by using the **onmouseover** event of the **<img>** element:
 
 ````ASPNET
-	    <telerik:RadContextMenu ID="RadContextMenu1" runat="server" Skin="Vista">
-	        <Items>
-	            <telerik:RadMenuItem Text="Trees" />
-	            <telerik:RadMenuItem Text="Sunset" />
-	            <telerik:RadMenuItem Text="Mountains" />
-	        </Items>
-	    </telerik:RadContextMenu>
-	    <span class="legend">Hover this image to display the popup menu</span>
-	    <img src="Images/landscape.gif" onmouseover="showMenu(event)" />
-	
-	    <script type="text/javascript">
-	        function showMenu(e) {
-	            var contextMenu = $find("<%= RadContextMenu1.ClientID %>");
-	            if ((!e.relatedTarget) || (!$telerik.isDescendantOrSelf(contextMenu.get_element(), e.relatedTarget))) {
-	                contextMenu.show(e);
-	            }
-	            $telerik.cancelRawEvent(e);
-	        }
-	    </script>
+<telerik:RadContextMenu ID="RadContextMenu1" runat="server" Skin="Vista">
+    <Items>
+        <telerik:RadMenuItem Text="Trees" />
+        <telerik:RadMenuItem Text="Sunset" />
+        <telerik:RadMenuItem Text="Mountains" />
+    </Items>
+</telerik:RadContextMenu>
+<span class="legend">Hover this image to display the popup menu</span>
+<img src="Images/landscape.gif" onmouseover="showMenu(event)" />
+
+<script type="text/javascript">
+    function showMenu(e) {
+        var contextMenu = $find("<%= RadContextMenu1.ClientID %>");
+        if ((!e.relatedTarget) || (!$telerik.isDescendantOrSelf(contextMenu.get_element(), e.relatedTarget))) {
+            contextMenu.show(e);
+        }
+        $telerik.cancelRawEvent(e);
+    }
+</script>
 ````
-
-
 
 For a live example of using **RadContextMenu** as a popup menu, see [Popup menu](http://demos.telerik.com/aspnet-ajax/Menu/Examples/ContextMenu/PopupMenu/DefaultCS.aspx).
 

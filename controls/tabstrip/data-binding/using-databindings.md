@@ -10,8 +10,6 @@ position: 6
 
 # Using DataBindings
 
-
-
 ## 
 
 The **DataTextField**, **DataValueField**, and **DataNavigateUrlField** properties let you map the fields of data items to the **Text**, **Value**, and **NavigateUrl** properties of the tabs to which they are bound. By default, any other tab properties must be mapped using an [TabDataBound event handler]({%slug tabstrip/server-side-programming/tabdatabound%}). However, as an alternate approach, you can use the **DataBindings** collection to declaratively supply the mapping for any or all of the following **RadTab** properties:
@@ -48,9 +46,8 @@ The properties of each item in the collection specify how the **RadTab** propert
 
 * The **DataMember** property specifies the table from which to map tabs. This property lets you use different tables from the same **DataSet** to supply values at different levels of the tab strip.
 
-````ASPNET
-	 
-	 <telerik:RadTabStrip
+````ASPNET	 
+ <telerik:RadTabStrip
 	runat="server"
 	ID="RadTabStrip1"
 	DataSourceID="SqlDataSource1"
@@ -60,8 +57,7 @@ The properties of each item in the collection specify how the **RadTab** propert
 	   <telerik:RadTabBinding TextField="Category" />
 	   <telerik:RadTabBinding FormatString="Made of {0}" TextField="Material" Depth="1" />
 	</DataBindings>
-	</telerik:RadTabStrip> 
-	 
+</telerik:RadTabStrip> 	 
 ````
 
 

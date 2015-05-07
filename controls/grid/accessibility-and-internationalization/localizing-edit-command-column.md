@@ -27,15 +27,15 @@ In case of in-place editing, you need to set the following properties for GridEd
 * **CancelText**
 
 ````ASP.NET
-	    <MasterTableView EditMode="InPlace">
-	      ...
-	      <Columns>
-	        ...
-	        <telerik:GridEditCommandColumn UniqueName="EditCommandColumn" CancelText="Cancel"
-	          UpdateText="Update" InsertText="Insert" EditText="Edit">
-	        </telerik:GridEditCommandColumn>
-	      </Columns>
-	    </MasterTableView>
+<MasterTableView EditMode="InPlace">
+  ...
+  <Columns>
+    ...
+    <telerik:GridEditCommandColumn UniqueName="EditCommandColumn" CancelText="Cancel"
+      UpdateText="Update" InsertText="Insert" EditText="Edit">
+    </telerik:GridEditCommandColumn>
+  </Columns>
+</MasterTableView>
 ````
 
 
@@ -51,19 +51,19 @@ In case of editing in forms, you need to set the following properties for **Edit
 * **CancelText**
 
 ````ASP.NET
-	    <MasterTableView>
-	      <Columns>
-	        ...
-	        <telerik:GridEditCommandColumn UniqueName="EditCommandColumn" EditText="Edit">
-	        </telerik:GridEditCommandColumn>
-	      </Columns>
-	      ...
-	      <EditFormSettings>
-	        <EditColumn UniqueName="EditCommandColumn" CancelText="Cancel" UpdateText="Update"
-	          InsertText="Insert">
-	        </EditColumn>
-	      </EditFormSettings>
-	    </MasterTableView>
+<MasterTableView>
+  <Columns>
+    ...
+    <telerik:GridEditCommandColumn UniqueName="EditCommandColumn" EditText="Edit">
+    </telerik:GridEditCommandColumn>
+  </Columns>
+  ...
+  <EditFormSettings>
+    <EditColumn UniqueName="EditCommandColumn" CancelText="Cancel" UpdateText="Update"
+      InsertText="Insert">
+    </EditColumn>
+  </EditFormSettings>
+</MasterTableView>
 ````
 
 

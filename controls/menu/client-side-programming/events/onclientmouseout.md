@@ -10,8 +10,6 @@ position: 6
 
 # OnClientMouseOut
 
-
-
 ## 
 
 The **OnClientMouseOut**client-side event occurs when the mouse moves off an item in the menu.
@@ -29,22 +27,21 @@ The event handler receives two parameters:
 You can use this event to respond when the mouse moves off an item:
 
 ````ASPNET
-	    <script type="text/javascript">
-	        function markItem(menu, args) {
-	            var attributes = args.get_item().get_attributes();
-	            attributes.setAttribute("visited", "true");
-	        }
-	    </script>
-	
-	    <telerik:RadMenu ID="RadMenu1" runat="server" Flow="Horizontal" OnClientMouseOut="markItem">
-	        <Items>
-	            <telerik:RadMenuItem runat="server" ExpandMode="ClientSide" Text="Item 1" visited="false" />
-	            <telerik:RadMenuItem runat="server" ExpandMode="ClientSide" Text="Item 2" visited="false" />
-	            <telerik:RadMenuItem runat="server" ExpandMode="ClientSide" Text="Item 3" visited="false" />
-	        </Items>
-	    </telerik:RadMenu>
-````
+<script type="text/javascript">
+    function markItem(menu, args) {
+        var attributes = args.get_item().get_attributes();
+        attributes.setAttribute("visited", "true");
+    }
+</script>
 
+<telerik:RadMenu ID="RadMenu1" runat="server" Flow="Horizontal" OnClientMouseOut="markItem">
+    <Items>
+        <telerik:RadMenuItem runat="server" ExpandMode="ClientSide" Text="Item 1" visited="false" />
+        <telerik:RadMenuItem runat="server" ExpandMode="ClientSide" Text="Item 2" visited="false" />
+        <telerik:RadMenuItem runat="server" ExpandMode="ClientSide" Text="Item 3" visited="false" />
+    </Items>
+</telerik:RadMenu>
+````
 
 
 # See Also

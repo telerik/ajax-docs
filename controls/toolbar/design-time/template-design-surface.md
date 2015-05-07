@@ -10,13 +10,11 @@ position: 2
 
 # Template Design Surface
 
-
-
 ## 
 
 The **Template Design Surface** lets you design templates for the buttons that appear in the toolbar. There are two ways to display the Template Design Surface:
 
-* Choose **Edit Templates** from the **RadToolBar**[Smart Tag](5BB964CF-AA36-443D-824B-60964E411B25).
+* Choose **Edit Templates** from the **RadToolBar** [Smart Tag](5BB964CF-AA36-443D-824B-60964E411B25).
 
 * Choose **Edit Template** from the **RadToolBar** context menu and select the type of template you want to edit.
 

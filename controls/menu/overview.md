@@ -1,6 +1,6 @@
 ---
-title: Overview
-page_title: RadMenu Overview | UI for ASP.NET AJAX Documentation
+title: Menu Overview
+page_title: Overview | RadMenu for ASP.NET AJAX Documentation
 description: Overview
 slug: menu/overview
 tags: overview
@@ -16,9 +16,9 @@ position: 0
 
 ![RadMenu overview](images/menu_overview.png)
 
-__Telerik RadMenu for ASP.NET AJAX__ is a flexible navigation component for use in ASP.NET applications.
+**Telerik RadMenu for ASP.NET AJAX** is a flexible navigation component for use in ASP.NET applications.
 
-__Telerik RadContextMenu__ is a related control that shares the powerful features of __RadMenu__, but which acts as a context menu or popup menu. Using __RadMenu__ and __RadContextMenu__, you get
+**Telerik RadContextMenu** is a related control that shares the powerful features of **RadMenu**, but which acts as a context menu or popup menu. Using **RadMenu** and **RadContextMenu**, you get
 
 * A [client-side API]({%slug menu/client-side-programming/overview%}) that includes the ability to add, remove and update menu items and have these changes persist after a postback to the server.
 
@@ -34,7 +34,7 @@ __Telerik RadContextMenu__ is a related control that shares the powerful feature
 
 * [Loading Items from a Web Service]({%slug menu/data-binding/web-service-binding%}).
 
-* [Binding to all ASP.NET declarative DataSource components]({%slug menu/data-binding/overview%}), including __SiteMapDataSource__.
+* [Binding to all ASP.NET declarative DataSource components]({%slug menu/data-binding/overview%}), including **SiteMapDataSource**.
 
 * Extensive [keyboard support]({%slug menu/accessibility-and-internationalization/keyboard-support%}), covering both web (access keys and tab) and windows (arrows).
 
@@ -62,9 +62,9 @@ __Telerik RadContextMenu__ is a related control that shares the powerful feature
 
 * [Compliance to multiple standards](4524F21C-03F9-4066-86A0-832B181B62B1).
 
-* __Overlay support__. RadMenu can display its items over IE windowed objects suchHTML select boxes, Flash movies, and so on. This built-in feature does not need to be set explicitly through a property.
+* **Overlay support**. RadMenu can display its items over IE windowed objects suchHTML select boxes, Flash movies, and so on. This built-in feature does not need to be set explicitly through a property.
 
-* __Screen boundary detection__.The list of child items expands to the opposite direction when necessary to prevent screen boundaries from being crossed.
+* **Screen boundary detection**.The list of child items expands to the opposite direction when necessary to prevent screen boundaries from being crossed.
 
 * [Cross-page postbacks]({%slug menu/functionality/cross-page-postback%}), which let you direct postbacks from the menu to a different Web page.
 

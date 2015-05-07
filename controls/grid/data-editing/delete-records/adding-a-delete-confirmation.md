@@ -41,16 +41,16 @@ In this case you need to implement a different approach (without setting the **C
 
 
 ````ASP.NET
-	<telerik:RadGrid ID="RadGrid1" runat="server">
-	  <MasterTableView AutoGenerateColumns="False">
-	    <Columns>
-	      <telerik:GridBoundColumn HeaderText="ContactName" DataField="ContactName" UniqueName="ContactName">
-	      </telerik:GridBoundColumn>
-	      <telerik:GridButtonColumn CommandName="Delete" Text="Delete" UniqueName="DeleteColumn">
-	      </telerik:GridButtonColumn>
-	    </Columns>
-	  </MasterTableView>
-	</telerik:RadGrid></pre>
+<telerik:RadGrid ID="RadGrid1" runat="server">
+  <MasterTableView AutoGenerateColumns="False">
+    <Columns>
+      <telerik:GridBoundColumn HeaderText="ContactName" DataField="ContactName" UniqueName="ContactName">
+      </telerik:GridBoundColumn>
+      <telerik:GridButtonColumn CommandName="Delete" Text="Delete" UniqueName="DeleteColumn">
+      </telerik:GridButtonColumn>
+    </Columns>
+  </MasterTableView>
+</telerik:RadGrid></pre>
 ````
 ````C#
 	    private void RadGrid1_ItemDataBound(object sender, Telerik.Web.UI.GridItemEventArgs e)
@@ -67,16 +67,16 @@ In this case you need to implement a different approach (without setting the **C
 	    }
 ````
 ````VB
-	    Private Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemDataBound
-	        If TypeOf e.Item Is GridDataItem Then
-	            Dim dataItem As GridDataItem = CType(e.Item, GridDataItem)
-	
-	            Dim contactName As String = dataItem("ContactName").Text
-	
-	            Dim button As LinkButton = CType(dataItem("DeleteColumn").Controls(0), LinkButton)
-	            button.Attributes("onclick") = "return confirm('Are you sure you want to delete " & contactName & "?')"
-	        End If
-	    End Sub 'RadGrid1_ItemDataBound
+Private Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemDataBound
+    If TypeOf e.Item Is GridDataItem Then
+        Dim dataItem As GridDataItem = CType(e.Item, GridDataItem)
+
+        Dim contactName As String = dataItem("ContactName").Text
+
+        Dim button As LinkButton = CType(dataItem("DeleteColumn").Controls(0), LinkButton)
+        button.Attributes("onclick") = "return confirm('Are you sure you want to delete " & contactName & "?')"
+    End If
+End Sub 'RadGrid1_ItemDataBound
 ````
 
 
@@ -91,28 +91,28 @@ In case you would like to display a confirmation dialog to prompt the user wheth
 Here is an example usage:
 
 ````ASP.NET
-	<telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="AccessDataSource1" OnNeedDataSource="RadGrid1_NeedDataSource">
-	  <MasterTableView AutoGenerateColumns="False" DataKeyNames="CustomerID" DataSourceID="AccessDataSource1">
-	    <Columns>
-	      <telerik:GridBoundColumn DataField="CustomerID" HeaderText="CustomerID" ReadOnly="True"
-	        SortExpression="CustomerID" UniqueName="CustomerID">
-	      </telerik:GridBoundColumn>
-	      <telerik:GridBoundColumn DataField="CompanyName" HeaderText="CompanyName" SortExpression="CompanyName"
-	        UniqueName="CompanyName">
-	      </telerik:GridBoundColumn>
-	      <telerik:GridBoundColumn DataField="ContactName" HeaderText="ContactName" SortExpression="ContactName"
-	        UniqueName="ContactName">
-	      </telerik:GridBoundColumn>
-	      <telerik:GridTemplateColumn UniqueName="TemplateColumn">
-	        <ItemTemplate>
-	          <asp:ImageButton ID="ImageButton1" runat="server" AlternateText="Delete Customer"
-	            OnClientClick="javascript:if(!confirm('This action will delete the selected customer and all of his/her orders. Are you sure?')){return false;}"
-	            ImageUrl="~/RadControls/Grid/Skins/Default/Delete.gif" />
-	        </ItemTemplate>
-	      </telerik:GridTemplateColumn>
-	    </Columns>
-	  </MasterTableView>
-	</telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="AccessDataSource1" OnNeedDataSource="RadGrid1_NeedDataSource">
+  <MasterTableView AutoGenerateColumns="False" DataKeyNames="CustomerID" DataSourceID="AccessDataSource1">
+    <Columns>
+      <telerik:GridBoundColumn DataField="CustomerID" HeaderText="CustomerID" ReadOnly="True"
+        SortExpression="CustomerID" UniqueName="CustomerID">
+      </telerik:GridBoundColumn>
+      <telerik:GridBoundColumn DataField="CompanyName" HeaderText="CompanyName" SortExpression="CompanyName"
+        UniqueName="CompanyName">
+      </telerik:GridBoundColumn>
+      <telerik:GridBoundColumn DataField="ContactName" HeaderText="ContactName" SortExpression="ContactName"
+        UniqueName="ContactName">
+      </telerik:GridBoundColumn>
+      <telerik:GridTemplateColumn UniqueName="TemplateColumn">
+        <ItemTemplate>
+          <asp:ImageButton ID="ImageButton1" runat="server" AlternateText="Delete Customer"
+            OnClientClick="javascript:if(!confirm('This action will delete the selected customer and all of his/her orders. Are you sure?')){return false;}"
+            ImageUrl="~/RadControls/Grid/Skins/Default/Delete.gif" />
+        </ItemTemplate>
+      </telerik:GridTemplateColumn>
+    </Columns>
+  </MasterTableView>
+</telerik:RadGrid>
 ````
 
 

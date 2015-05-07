@@ -11,7 +11,6 @@ position: 1
 # Colors
 
 
-
 The following article demonstrates the usage of the **Colors** property of the **RadTreeMap**.
 
 ## 
@@ -23,62 +22,63 @@ In the example bellow, you could examine how several colors are assigned to the 
 
 
 ````ASPNET
-	           <telerik:RadTreeMap runat="server" ID="TreeMap1"  Height="250" Width="400" AlgorithmType="Horizontal">
-	                <Items>
-	                    <telerik:TreeMapItem Text="Parent Item">
-	                        <Items>
-	                            <telerik:TreeMapItem Text="Item 1" Value="6">
-	                                <Items>
-	                                    <telerik:TreeMapItem Text="Sub Item 1.1" Value="2"></telerik:TreeMapItem>
-	                                    <telerik:TreeMapItem Text="Sub Item 1.2" Value="2"></telerik:TreeMapItem>
-	                                    <telerik:TreeMapItem Text="Sub Item 1.3" Value="1"></telerik:TreeMapItem>
-	                                </Items>
-	                            </telerik:TreeMapItem>
-	                            <telerik:TreeMapItem Text="Item 2" Value="4">
-	                                <Items>
-	                                    <telerik:TreeMapItem Text="Sub Item 2.1" Value="5"></telerik:TreeMapItem>
-	                                    <telerik:TreeMapItem Text="Sub Item 2.2" Value="5"></telerik:TreeMapItem>
-	                                    <telerik:TreeMapItem Text="Sub Item 2.3" Value="3"></telerik:TreeMapItem>
-	                                    <telerik:TreeMapItem Text="Sub Item 2.5" Value="2"></telerik:TreeMapItem>
-	                                </Items>
-	                            </telerik:TreeMapItem>
-	                            <telerik:TreeMapItem Text="Item 3" Value="3">
-	                                <Items>
-	                                    <telerik:TreeMapItem Text="Sub Item 3.1" Value="2"></telerik:TreeMapItem>
-	                                    <telerik:TreeMapItem Text="Sub Item 3.2" Value="2"></telerik:TreeMapItem>
-	                                    <telerik:TreeMapItem Text="Sub Item 3.4" Value="1"></telerik:TreeMapItem>
-	                                </Items>
-	                            </telerik:TreeMapItem>
-	                        </Items>
-	                    </telerik:TreeMapItem>
-	                </Items>
-	            </telerik:RadTreeMap>
+<telerik:RadTreeMap runat="server" ID="TreeMap1"  Height="250" Width="400" AlgorithmType="Horizontal">
+    <Items>
+        <telerik:TreeMapItem Text="Parent Item">
+            <Items>
+                <telerik:TreeMapItem Text="Item 1" Value="6">
+                    <Items>
+                        <telerik:TreeMapItem Text="Sub Item 1.1" Value="2"></telerik:TreeMapItem>
+                        <telerik:TreeMapItem Text="Sub Item 1.2" Value="2"></telerik:TreeMapItem>
+                        <telerik:TreeMapItem Text="Sub Item 1.3" Value="1"></telerik:TreeMapItem>
+                    </Items>
+                </telerik:TreeMapItem>
+                <telerik:TreeMapItem Text="Item 2" Value="4">
+                    <Items>
+                        <telerik:TreeMapItem Text="Sub Item 2.1" Value="5"></telerik:TreeMapItem>
+                        <telerik:TreeMapItem Text="Sub Item 2.2" Value="5"></telerik:TreeMapItem>
+                        <telerik:TreeMapItem Text="Sub Item 2.3" Value="3"></telerik:TreeMapItem>
+                        <telerik:TreeMapItem Text="Sub Item 2.5" Value="2"></telerik:TreeMapItem>
+                    </Items>
+                </telerik:TreeMapItem>
+                <telerik:TreeMapItem Text="Item 3" Value="3">
+                    <Items>
+                        <telerik:TreeMapItem Text="Sub Item 3.1" Value="2"></telerik:TreeMapItem>
+                        <telerik:TreeMapItem Text="Sub Item 3.2" Value="2"></telerik:TreeMapItem>
+                        <telerik:TreeMapItem Text="Sub Item 3.4" Value="1"></telerik:TreeMapItem>
+                    </Items>
+                </telerik:TreeMapItem>
+            </Items>
+        </telerik:TreeMapItem>
+    </Items>
+</telerik:RadTreeMap>
 ````
+
 ````C#
-	    protected void Page_Load(object sender, EventArgs e)
-	    {
-	        TreeMap1.Colors.Add(Color.Red); 
-	        TreeMap1.Colors.Add(Color.Green);
-	        TreeMap1.Colors.Add(Color.Blue);
-	
-	        // Another way to populate the Colors collection
-	        //TreeMap1.Colors.Add(ColorTranslator.FromHtml("Red"));
-	        //TreeMap1.Colors.Add(ColorTranslator.FromHtml("Green"));
-	        //TreeMap1.Colors.Add(ColorTranslator.FromHtml("Blue"));
-	    }
+protected void Page_Load(object sender, EventArgs e)
+{
+    TreeMap1.Colors.Add(Color.Red); 
+    TreeMap1.Colors.Add(Color.Green);
+    TreeMap1.Colors.Add(Color.Blue);
+
+    // Another way to populate the Colors collection
+    //TreeMap1.Colors.Add(ColorTranslator.FromHtml("Red"));
+    //TreeMap1.Colors.Add(ColorTranslator.FromHtml("Green"));
+    //TreeMap1.Colors.Add(ColorTranslator.FromHtml("Blue"));
+}
 ````
 ````VB
-	    Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
-	
-	        TreeMap1.Colors.Add(Color.Red)
-	        TreeMap1.Colors.Add(Color.Green)
-	        TreeMap1.Colors.Add(Color.Blue)
-	
-	        ' Another way to populate the Colors collection
-	        'TreeMap1.Colors.Add(ColorTranslator.FromHtml("Red"))
-	        'TreeMap1.Colors.Add(ColorTranslator.FromHtml("Green"))
-	        'TreeMap1.Colors.Add(ColorTranslator.FromHtml("Blue"))
-	    End Sub
+Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
+
+    TreeMap1.Colors.Add(Color.Red)
+    TreeMap1.Colors.Add(Color.Green)
+    TreeMap1.Colors.Add(Color.Blue)
+
+    ' Another way to populate the Colors collection
+    'TreeMap1.Colors.Add(ColorTranslator.FromHtml("Red"))
+    'TreeMap1.Colors.Add(ColorTranslator.FromHtml("Green"))
+    'TreeMap1.Colors.Add(ColorTranslator.FromHtml("Blue"))
+End Sub
 ````
 
 

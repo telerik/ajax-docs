@@ -10,8 +10,6 @@ position: 4
 
 # Load All Items on Initial Page Load
 
-
-
 ## 
 
 **Q:** How can I prevent a delay in the page load when I have a RadMenu with a large number of items?
@@ -23,22 +21,18 @@ You could avoid this delay, or more specifically 'move' it to the initial page l
 The first approach uses the **pageLoad** function as shown below:
 
 ````JavaScript
-	    function pageLoad(){ 
-	        var menu = $find("<%= RadMenu1.ClientID %>");
-	        //initialize all items
-	        var items = menu.get_allItems();
-	    }	
+function pageLoad(){ 
+    var menu = $find("<%= RadMenu1.ClientID %>");
+    //initialize all items
+    var items = menu.get_allItems();
+}	
 ````
-
-
-
 
 
 The second approach uses the [OnClientLoad]({%slug menu/client-side-programming/events/onclientload%}) event of a single RadMenu:
 
 ````ASPNET
-	    <telerik:RadMenu ID="RadMenu1" runat="server" 
-	        OnClientLoad="(function(sender, e){ sender.get_allItems(); })" />
+<telerik:RadMenu ID="RadMenu1" runat="server" OnClientLoad="(function(sender, e){ sender.get_allItems(); })" />
 ````
 
 

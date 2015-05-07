@@ -27,45 +27,45 @@ There are two cases when you want to change the default color of links in **Grid
 
 
 ````ASP.NET
-	  <html>
-	  <head>
-	    <title>Customize hyperlinks in Telerik RadGrid</title>
-	    <style>
-	      div.RadGrid_Default .rgRow a,
-	      div.RadGrid_Default .rgAltRow a
-	      {
-	        color: brown;
-	      }
-	      div.RadGrid_Default .rgRow a:hover,
-	      div.RadGrid_Default .rgRow a:visited,
-	      div.RadGrid_Default .rgAltRow a:hover,
-	      div.RadGrid_Default .rgAltRow a:visited
-	      {
-	        color: orange;
-	        font-size: 15px;
-	      }
-	    </style>
-	  </head>
-	  <body>
-	    <form id="Form1" method="post" runat="server">
-	    <telerik:RadGrid ID="RadGrid1" CssClass="RadGrid" runat="server" AutoGenerateColumns="False"
-	      Skin="Default">
-	      <MasterTableView>
-	        <Columns>
-	          <telerik:GridBoundColumn UniqueName="ContactName" HeaderText="Contact Name" DataField="ContactName">
-	          </telerik:GridBoundColumn>
-	          <telerik:GridBoundColumn UniqueName="Address" HeaderText="Address" DataField="Address">
-	          </telerik:GridBoundColumn>
-	          <telerik:GridHyperLinkColumn NavigateUrl="http://www.sharepointcontrols.com" UniqueName="HyperLinkColumn"
-	            HeaderText="Button Column" Text="link button">
-	          </telerik:GridHyperLinkColumn>
-	        </Columns>
-	      </MasterTableView>
-	    </telerik:RadGrid>
-	    <a href="http://www.sharepointcontrols.com">go to our mcmscontrols site</a>
-	    </form>
-	  </body>
-	  </html>
+<html>
+<head>
+  <title>Customize hyperlinks in Telerik RadGrid</title>
+  <style>
+    div.RadGrid_Default .rgRow a,
+    div.RadGrid_Default .rgAltRow a
+    {
+      color: brown;
+    }
+    div.RadGrid_Default .rgRow a:hover,
+    div.RadGrid_Default .rgRow a:visited,
+    div.RadGrid_Default .rgAltRow a:hover,
+    div.RadGrid_Default .rgAltRow a:visited
+    {
+      color: orange;
+      font-size: 15px;
+    }
+  </style>
+</head>
+<body>
+  <form id="Form1" method="post" runat="server">
+  <telerik:RadGrid ID="RadGrid1" CssClass="RadGrid" runat="server" AutoGenerateColumns="False"
+    Skin="Default">
+    <MasterTableView>
+      <Columns>
+        <telerik:GridBoundColumn UniqueName="ContactName" HeaderText="Contact Name" DataField="ContactName">
+        </telerik:GridBoundColumn>
+        <telerik:GridBoundColumn UniqueName="Address" HeaderText="Address" DataField="Address">
+        </telerik:GridBoundColumn>
+        <telerik:GridHyperLinkColumn NavigateUrl="http://www.sharepointcontrols.com" UniqueName="HyperLinkColumn"
+          HeaderText="Button Column" Text="link button">
+        </telerik:GridHyperLinkColumn>
+      </Columns>
+    </MasterTableView>
+  </telerik:RadGrid>
+  <a href="http://www.sharepointcontrols.com">go to our mcms controls site</a>
+  </form>
+</body>
+</html>
 ````
 
 
@@ -79,42 +79,42 @@ There are two cases when you want to change the default color of links in **Grid
 * When RadGrid has Skin property set to an empty string("").
 
 ````ASP.NET
-	  <html>
-	  <head>
-	    <title>Customize hyperlinks in Telerik RadGrid</title>
-	    <style>
-	      .RadGrid a     
-	      {
-	        color: brown;
-	      }
-	      .RadGrid  a:hover,
-	      .RadGrid  a:visited     
-	      {
-	        color: orange;
-	        font-size: 15px;
-	      }
-	    </style>
-	  </head>
-	  <body>
-	    <form id="Form2" method="post" runat="server">
-	    <telerik:RadGrid ID="RadGrid1" CssClass="RadGrid" runat="server" AutoGenerateColumns="False"
-	      Skin="">
-	      <MasterTableView>
-	        <Columns>
-	          <telerik:GridBoundColumn UniqueName="ContactName" HeaderText="Contact Name" DataField="ContactName">
-	          </telerik:GridBoundColumn>
-	          <telerik:GridBoundColumn UniqueName="Address" HeaderText="Address" DataField="Address">
-	          </telerik:GridBoundColumn>
-	          <telerik:GridHyperLinkColumn NavigateUrl="http://www.sharepointcontrols.com" UniqueName="HyperLinkColumn"
-	            HeaderText="Button Column" Text="link button">
-	          </telerik:GridHyperLinkColumn>
-	        </Columns>
-	      </MasterTableView>
-	    </telerik:RadGrid>
-	    <a href="http://www.sharepointcontrols.com">go to our mcmscontrols site</a>
-	    </form>
-	  </body>
-	  </html>
+<html>
+<head>
+  <title>Customize hyperlinks in Telerik RadGrid</title>
+  <style>
+    .RadGrid a     
+    {
+      color: brown;
+    }
+    .RadGrid  a:hover,
+    .RadGrid  a:visited     
+    {
+      color: orange;
+      font-size: 15px;
+    }
+  </style>
+</head>
+<body>
+  <form id="Form2" method="post" runat="server">
+  <telerik:RadGrid ID="RadGrid1" CssClass="RadGrid" runat="server" AutoGenerateColumns="False"
+    Skin="">
+    <MasterTableView>
+      <Columns>
+        <telerik:GridBoundColumn UniqueName="ContactName" HeaderText="Contact Name" DataField="ContactName">
+        </telerik:GridBoundColumn>
+        <telerik:GridBoundColumn UniqueName="Address" HeaderText="Address" DataField="Address">
+        </telerik:GridBoundColumn>
+        <telerik:GridHyperLinkColumn NavigateUrl="http://www.sharepointcontrols.com" UniqueName="HyperLinkColumn"
+          HeaderText="Button Column" Text="link button">
+        </telerik:GridHyperLinkColumn>
+      </Columns>
+    </MasterTableView>
+  </telerik:RadGrid>
+  <a href="http://www.sharepointcontrols.com">go to our mcmscontrols site</a>
+  </form>
+</body>
+</html>
 ````
 
 

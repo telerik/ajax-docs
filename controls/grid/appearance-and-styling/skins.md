@@ -37,7 +37,7 @@ Except setting the **Skin** property to one of the built-in skins you can use it
 
 ## Creating Custom Skins for RadGrid
 
-A developer can create custom skins to use in **RadGrid**. They are not embedded so the control cannot register them automatically.If you use a custom skin you need to set the **Skin** property, and the **EnableEmbeddedSkins** property of thecontrol to **false**. If you do not do so, the following exception will be thrown saying that there is no embedded skin matching the**Skin** property:
+A developer can create custom skins to use in **RadGrid**. They are not embedded so the control cannot register them automatically.If you use a custom skin you need to set the **Skin** property, and the **EnableEmbeddedSkins** property of the control to **false**. If you do not do so, the following exception will be thrown saying that there is no embedded skin matching the**Skin** property:
 
 * Telerik.Web.UI.RadGrid with ID='RadGrid1' was unable to find embedded skin with name **'MySkin'**. Please, make sure that you spelled the skin name correctly, or if you want to use a custom skin, set EnableEmbeddedSkins=false. *
 

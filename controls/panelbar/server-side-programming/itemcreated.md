@@ -32,17 +32,17 @@ Use an **ItemCreated** event handler to initialize items as they are added to th
 
 ````C#
 	
-	    protected void RadPanelBar1_ItemCreated(object sender, RadPanelBarEventArgs e) 
-	    { 
-	        e.Item.ToolTip = e.Item.Text; 
-	    }
+protected void RadPanelBar1_ItemCreated(object sender, RadPanelBarEventArgs e) 
+{ 
+    e.Item.ToolTip = e.Item.Text; 
+}
 	
 ````
 ````VB.NET
 	
-	    Protected Sub RadPanelBar1_ItemCreated(ByVal sender As Object, ByVal e As RadPanelBarEventArgs)
-	        e.Item.ToolTip = e.Item.Text
-	    End Sub
+Protected Sub RadPanelBar1_ItemCreated(ByVal sender As Object, ByVal e As RadPanelBarEventArgs)
+    e.Item.ToolTip = e.Item.Text
+End Sub
 	
 ````
 

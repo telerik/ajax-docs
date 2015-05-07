@@ -33,22 +33,22 @@ As mentioned above, the **RadTreeMap** supports only **ClientTemplate**. This is
 
 
 ````ASPNET
-	        <telerik:radtreemap runat="server"
-	            id="TreeMap1"
-	            datasourceid="SqlDataSource1"
-	            datakeynames="Rank,Pay"
-	            datafieldid="ID"
-	            datafieldparentid="ParentID"
-	            datatextfield="Name"
-	            datavaluefield="Value">
-	            <ClientItemTemplate>
-	                <div>#:dataItem.Rank #</div>
-	                <div>#:text#</div>
-	                <div>#:dataItem.Pay#</div>
-	            </ClientItemTemplate>
-	        </telerik:radtreemap>
-	        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:CustomConnectionString %>"
-	            SelectCommand="SELECT ID, ParentID, Name, Rank, Pay, Value FROM [TopPaidAthletes]"></asp:SqlDataSource>
+<telerik:radtreemap runat="server"
+    id="TreeMap1"
+    datasourceid="SqlDataSource1"
+    datakeynames="Rank,Pay"
+    datafieldid="ID"
+    datafieldparentid="ParentID"
+    datatextfield="Name"
+    datavaluefield="Value">
+    <ClientItemTemplate>
+        <div>#:dataItem.Rank #</div>
+        <div>#:text#</div>
+        <div>#:dataItem.Pay#</div>
+    </ClientItemTemplate>
+</telerik:radtreemap>
+<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:CustomConnectionString %>"
+    SelectCommand="SELECT ID, ParentID, Name, Rank, Pay, Value FROM [TopPaidAthletes]"></asp:SqlDataSource>
 ````
 
 

@@ -10,8 +10,6 @@ position: 2
 
 # Creating a Simple Context Menu
 
-
-
 ## 
 
 This tutorial will walk you through creating a simple **RadContextMenu** and shows how to:
@@ -20,7 +18,8 @@ This tutorial will walk you through creating a simple **RadContextMenu** and sho
 
 * Use the Targets collection to attach the context menu to another control.
 
-1. Drag a **RadContextMenu** component from the toolbox onto your Web page. The **RadContextMenu**[Smart Tag]({%slug menu/design-time/smart-tag%}) should appear automatically:![RadMenu Smart Tag](images/menu_smarttag.png)
+1. Drag a **RadContextMenu** component from the toolbox onto your Web page. The **RadContextMenu** [Smart Tag]({%slug menu/design-time/smart-tag%}) should appear automatically: 
+![RadMenu Smart Tag](images/menu_smarttag.png)
 
 1. On the Smart Tag, choose **Edit Items.** The [RadMenu Item Builder]({%slug menu/design-time/radmenu-item-builder%}) appears:![Contextmenu ItemBuilder](images/menu_contextmenuitembuilder.png)
 

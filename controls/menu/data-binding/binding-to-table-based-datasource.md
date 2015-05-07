@@ -10,13 +10,11 @@ position: 3
 
 # Binding to Table-Based DataSource
 
-
-
 ## 
 
 Table-based **DataSource** components, such as **SqlDataSource** and **AccessDataSource** can be used to bind the menu declaratively at design time. As with [binding to a DataSet, DataTable, or DataView]({%slug menu/data-binding/binding-to-datatable%}), you can use the *ID-ParentID* relation to establish a hierarchy among the menu items.
 
->note The[Binding to a Data Source]({%slug menu/getting-started/binding-to-a-data-source%})tutorial gives step-by-step instructions for binding **RadMenu** to an **AccessDataSource** .
+>note The [Binding to a Data Source]({%slug menu/getting-started/binding-to-a-data-source%})tutorial gives step-by-step instructions for binding **RadMenu** to an **AccessDataSource**.
 >
 
 
@@ -39,34 +37,28 @@ To bind to a table-based DataSource component:
 
 1. Bind any additional properties of the menu items using the **[ItemDataBound event]({%slug menu/server-side-programming/itemdatabound%})**:
 
-
-
 ````C#
-	    protected void RadMenu1_ItemDataBound(object sender, Telerik.Web.UI.RadMenuEventArgs e) 
-	    { 
-	        e.Item.ToolTip = (string)DataBinder.Eval(e.Item.DataItem, "ToolTip"); 
-	    }
+protected void RadMenu1_ItemDataBound(object sender, Telerik.Web.UI.RadMenuEventArgs e) 
+{ 
+	e.Item.ToolTip = (string)DataBinder.Eval(e.Item.DataItem, "ToolTip"); 
+}
 ````
 ````VB.NET
-	    Protected Sub RadMenu1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.RadMenuEventArgs) Handles RadMenu1.ItemDataBound
-	        e.Item.ToolTip = CStr(DataBinder.Eval(e.Item.DataItem, "ToolTip"))
-	    End Sub
+Protected Sub RadMenu1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.RadMenuEventArgs) Handles RadMenu1.ItemDataBound
+	e.Item.ToolTip = CStr(DataBinder.Eval(e.Item.DataItem, "ToolTip"))
+End Sub
 ````
-
 
 The resulting declaration looks something like the following:
 
 ````ASPNET
-	    <telerik:RadMenu runat="server" ID="RadMenu1" DataSourceID="SqlDataSource1" DataFieldID="id"
-	        DataFieldParentID="parentID" DataTextField="Targetname" DataNavigatUrlField="target"
-	        OnItemDataBound="RadMenu1_ItemDataBound">
-	    </telerik:RadMenu>
-	    <asp:SqlDataSource runat="server" ID="SqlDataSource1" ConnectionString="Persist Security Info=False;Integrated Security=true;Initial Catalog=MyDB;server=(local)"
-	        ProviderName="System.Data.SqlClient" SelectCommand="SELECT id, Targetname, target, tooltip, parentId from MenuTable" />
+<telerik:RadMenu runat="server" ID="RadMenu1" DataSourceID="SqlDataSource1" DataFieldID="id"
+	DataFieldParentID="parentID" DataTextField="Targetname" DataNavigatUrlField="target"
+	OnItemDataBound="RadMenu1_ItemDataBound">
+</telerik:RadMenu>
+<asp:SqlDataSource runat="server" ID="SqlDataSource1" ConnectionString="Persist Security Info=False;Integrated Security=true;Initial Catalog=MyDB;server=(local)"
+	ProviderName="System.Data.SqlClient" SelectCommand="SELECT id, Targetname, target, tooltip, parentId from MenuTable" />
 ````
-
-
-
 
 
 # See Also

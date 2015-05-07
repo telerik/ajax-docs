@@ -10,8 +10,6 @@ position: 2
 
 # Adding Images to Tabs
 
-
-
 ## 
 
 Each **RadTab** has a set of properties you can use to add images to the tab. You can simply add a single image to each tab, or you can add separate images that reflect the state of the tab.
@@ -32,11 +30,8 @@ To set the image properties at design time, use the [RadTabStrip Item Builder]({
 
 The following example uses the **ImageUrl** and **SelectedImageUrl** properties to create a **RadTabStrip** that adds images to the top-level items:
 
-````ASPNET
-	 
-	 <telerik:RadTabStrip
-	 ID="RadTabStrip1" runat="server"
-	 Skin="Office2007">
+````ASPNET	 
+ <telerik:RadTabStrip ID="RadTabStrip1" runat="server">
 	 <Tabs>
 	   <telerik:RadTab runat="server"
 	     Text=" Documents A-F"
@@ -91,8 +86,7 @@ The following example uses the **ImageUrl** and **SelectedImageUrl** properties 
 	     </Tabs>
 	   </telerik:RadTab>
 	 </Tabs>
-	</telerik:RadTabStrip> 
-	 
+</telerik:RadTabStrip> 	 
 ````
 
 

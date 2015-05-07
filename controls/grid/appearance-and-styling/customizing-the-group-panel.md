@@ -14,7 +14,7 @@ position: 11
 
 ## GroupPanel Customization
 
-If grouping is enabled, Telerik RadGrid will allow grouping by column(s). You need todrag-and-drop the headers of one or more columns on the group panel to define the grouping.
+If grouping is enabled, Telerik RadGrid will allow grouping by column(s). You need to drag-and-drop the headers of one or more columns on the group panel to define the grouping.
 
 ![](images/grd_GroupIng_forStyles.png)
 

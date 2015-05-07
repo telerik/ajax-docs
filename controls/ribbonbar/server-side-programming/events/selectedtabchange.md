@@ -22,9 +22,9 @@ The event handler function receives two arguments:
 
 1. An EventArgs object has the following properties:
 
-* **Tab** - the currently selected tab.
+	* **Tab** - the currently selected tab.
 
-* **PreviouslySelectedTab** - the previously selected tab.
+	* **PreviouslySelectedTab** - the previously selected tab.
 
 The following example demonstrates how to use the SelectedTabChange event to determine the new and the previously selected tab.
 
@@ -32,24 +32,23 @@ The following example demonstrates how to use the SelectedTabChange event to det
 
 ````C#
 	
-	    protected void RadRibbonBar1_SelectedTabChange(object sender, RibbonBarSelectedTabChangeEventArgs e)
-	    {
-	        string message = string.Format("Tab {0} was selected.", e.Tab.Text);
-	        string details = string.Format("Previosly selected tab was: {0}", e.PreviouslySelectedTab.Text);
-	
-	        textBox1.Text = string.Format("{0} {1}", message, details);
-	    }
+protected void RadRibbonBar1_SelectedTabChange(object sender, RibbonBarSelectedTabChangeEventArgs e)
+{
+    string message = string.Format("Tab {0} was selected.", e.Tab.Text);
+    string details = string.Format("Previosly selected tab was: {0}", e.PreviouslySelectedTab.Text);
+
+    textBox1.Text = string.Format("{0} {1}", message, details);
+}
 	
 ````
 ````VB.NET
 	
-		Protected Sub RadRibbonBar1_SelectedTabChange(ByVal sender As Object, ByVal e As RibbonBarSelectedTabChangeEventArgs)
-			Dim message As String = String.Format("Tab {0} was selected.", e.Tab.Text)
-			Dim details As String = String.Format("Previosly selected tab was: {0}", e.PreviouslySelectedTab.Text)
-	
-			textBox1.Text = String.Format("{0} {1}", message, details)
-		End Sub
-	
+Protected Sub RadRibbonBar1_SelectedTabChange(ByVal sender As Object, ByVal e As RibbonBarSelectedTabChangeEventArgs)
+	Dim message As String = String.Format("Tab {0} was selected.", e.Tab.Text)
+	Dim details As String = String.Format("Previosly selected tab was: {0}", e.PreviouslySelectedTab.Text)
+
+	textBox1.Text = String.Format("{0} {1}", message, details)
+End Sub
 	
 ````
 
@@ -58,4 +57,4 @@ The following example demonstrates how to use the SelectedTabChange event to det
 
  * [Online Demo](http://demos.telerik.com/aspnet-ajax/ribbonbar/examples/events/serverside/defaultcs.aspx)
 
- * [Overview]({%slug ribbonbar/server-side-programming/events/overview%})
+ * [Server-side Events Overview]({%slug ribbonbar/server-side-programming/events/overview%})

@@ -21,46 +21,45 @@ In the example below we assume that the **Bool** column in the grid data source 
 
 
 ````ASP.NET
-	  <telerik:RadGrid ID="RadGrid1" runat="server">
-	    <MasterTableView AutoGenerateColumns="False">
-	      <Columns>
-	        <telerik:GridBoundColumn HeaderText="Contact name" DataField="ContactName" UniqueName="Contact name">
-	        </telerik:GridBoundColumn>
-	        <telerik:GridBoundColumn HeaderText="Contact title" DataField="ContactTitle" UniqueName="ContactTitle">
-	        </telerik:GridBoundColumn>
-	        <telerik:GridBoundColumn HeaderText="City" DataField="City" UniqueName="City">
-	        </telerik:GridBoundColumn>
-	        <telerik:GridEditCommandColumn UniqueName="EditCommandColumn">
-	        </telerik:GridEditCommandColumn>
-	        <telerik:GridCheckBoxColumn DataField="Bool" ReadOnly="True" UniqueName="CheckBoxColumn"
-	          Display="True">
-	        </telerik:GridCheckBoxColumn>
-	      </Columns>
-	    </MasterTableView>
-	  </telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" runat="server">
+  <MasterTableView AutoGenerateColumns="False">
+    <Columns>
+      <telerik:GridBoundColumn HeaderText="Contact name" DataField="ContactName" UniqueName="Contact name">
+      </telerik:GridBoundColumn>
+      <telerik:GridBoundColumn HeaderText="Contact title" DataField="ContactTitle" UniqueName="ContactTitle">
+      </telerik:GridBoundColumn>
+      <telerik:GridBoundColumn HeaderText="City" DataField="City" UniqueName="City">
+      </telerik:GridBoundColumn>
+      <telerik:GridEditCommandColumn UniqueName="EditCommandColumn">
+      </telerik:GridEditCommandColumn>
+      <telerik:GridCheckBoxColumn DataField="Bool" ReadOnly="True" UniqueName="CheckBoxColumn"
+        Display="True">
+      </telerik:GridCheckBoxColumn>
+    </Columns>
+  </MasterTableView>
+</telerik:RadGrid>
 ````
-````C#
-	
-	    private void RadGrid1_ItemDataBound(object sender, Telerik.Web.UI.GridItemEventArgs e)
-	    {
-	        if (e.Item is GridDataItem)
-	        {
-	            GridDataItem dataItem = e.Item as GridDataItem;
-	            if (!(dataItem["CheckBoxColumn"].Controls[0] as CheckBox).Checked)
-	            {
-	                (dataItem["EditCommandColumn"].Controls[0] as LinkButton).Enabled = false;
-	            }
-	        }
-	    }
+````C#	
+private void RadGrid1_ItemDataBound(object sender, Telerik.Web.UI.GridItemEventArgs e)
+{
+    if (e.Item is GridDataItem)
+    {
+        GridDataItem dataItem = e.Item as GridDataItem;
+        if (!(dataItem["CheckBoxColumn"].Controls[0] as CheckBox).Checked)
+        {
+            (dataItem["EditCommandColumn"].Controls[0] as LinkButton).Enabled = false;
+        }
+    }
+}
 ````
 ````VB
-	    Private Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs)
-	        If TypeOf e.Item Is GridDataItem Then
-	            Dim dataItem As GridDataItem = CType(e.Item, GridDataItem)
-	            If Not CType(dataItem("CheckBoxColumn").Controls(0), CheckBox).Checked Then
-	                CType(dataItem("EditCommandColumn").Controls(0), LinkButton).Enabled = False
-	            End If
-	        End If
-	    End Sub
+Private Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs)
+    If TypeOf e.Item Is GridDataItem Then
+        Dim dataItem As GridDataItem = CType(e.Item, GridDataItem)
+        If Not CType(dataItem("CheckBoxColumn").Controls(0), CheckBox).Checked Then
+            CType(dataItem("EditCommandColumn").Controls(0), LinkButton).Enabled = False
+        End If
+    End If
+End Sub
 ````
 

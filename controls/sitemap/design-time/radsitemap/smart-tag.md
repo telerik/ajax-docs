@@ -62,7 +62,7 @@ Using the bound **RadSiteMap** Smart Tag you can perform the following:
 
 * **Configure Data Source...** opens the standard Windows [Data Source Configuration Wizard](http://msdn2.microsoft.com/en-us/library/ms247282(VS.80).aspx), where you can configure the currently bound data source component.
 
-* **Refresh Schema**refreshed the schema for the currently bound data source component.
+* **Refresh Schema** refreshed the schema for the currently bound data source component.
 
 * **Edit RadSiteMap Databindings**... opens the [NavigationItemBinding Collection Editor]({%slug sitemap/design-time/radsitemap/navigationitembinding-collection-editor-%}), where you can specify databindings to map between the fields in the data source and **RadSiteMapItem**properties.
 

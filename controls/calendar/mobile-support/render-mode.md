@@ -27,7 +27,7 @@ The same mode should be selected for all RadCalendar controls on the entire page
 
 Rendering: (*Metro skin*)
 
-````ASPNET
+````HTML
 <div id="RadCalendar1_wrapper">
     <table cellspacing="0" class="RadCalendar RadCalendar_Metro" summary="Calendar control which enables the selection of dates." id="RadCalendar1">
         <caption>
@@ -97,7 +97,7 @@ Not all controls support **Lightweight** render mode.
 
 Rendering: (*Metro skin*)
 
-````ASPNET
+````HTML
 <div class="RadCalendar RadCalendar_Metro" id="RadCalendar1_wrapper">
     <div class="rcTitlebar">
         <!-- Navigation part-->

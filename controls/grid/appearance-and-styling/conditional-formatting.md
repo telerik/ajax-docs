@@ -23,39 +23,39 @@ The example below shows how to use conditional formatting in a sample mailbox im
 
 
 ````C#
-	    protected void RadGrid1_ItemDataBound(object sender, Telerik.Web.UI.GridItemEventArgs e)
-	    {
-	        //Is it a GridDataItem
-	        if (e.Item is GridDataItem)
-	        {
-	            //Get the instance of the right type
-	            GridDataItem dataBoundItem = e.Item as GridDataItem;
-	
-	            //Check the formatting condition
-	            if (int.Parse(dataBoundItem["Size"].Text) > 100)
-	            {
-	                dataBoundItem["Received"].ForeColor = Color.Red;
-	                dataBoundItem["Received"].Font.Bold = true;
-	                //Customize more...
-	            }
-	        }
-	    }
+protected void RadGrid1_ItemDataBound(object sender, Telerik.Web.UI.GridItemEventArgs e)
+{
+    //Is it a GridDataItem
+    if (e.Item is GridDataItem)
+    {
+        //Get the instance of the right type
+        GridDataItem dataBoundItem = e.Item as GridDataItem;
+
+        //Check the formatting condition
+        if (int.Parse(dataBoundItem["Size"].Text) > 100)
+        {
+            dataBoundItem["Received"].ForeColor = Color.Red;
+            dataBoundItem["Received"].Font.Bold = true;
+            //Customize more...
+        }
+    }
+}
 ````
 ````VB
-	    Protected Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs)
-	        'Is it a GridDataItem
-	        If (TypeOf (e.Item) Is GridDataItem) Then
-	            'Get the instance of the right type
-	            Dim dataBoundItem As GridDataItem = e.Item
-	
-	            'Check the formatting condition
-	            If (Integer.Parse(dataBoundItem("Size").Text) > GridItemType.Footer) Then
-	                dataBoundItem("Received").ForeColor = Color.Red
-	                dataBoundItem("Received").Font.Bold = True
-	                'Customize more...
-	            End If
-	        End If
-	    End Sub
+Protected Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs)
+    'Is it a GridDataItem
+    If (TypeOf (e.Item) Is GridDataItem) Then
+        'Get the instance of the right type
+        Dim dataBoundItem As GridDataItem = e.Item
+
+        'Check the formatting condition
+        If (Integer.Parse(dataBoundItem("Size").Text) > GridItemType.Footer) Then
+            dataBoundItem("Received").ForeColor = Color.Red
+            dataBoundItem("Received").Font.Bold = True
+            'Customize more...
+        End If
+    End If
+End Sub
 ````
 
 
@@ -65,16 +65,17 @@ The example below shows how to use conditional formatting in a sample mailbox im
 
 Below is an example which will alter the look and feel for items which has text **Mexico** in their **Country** column:
 
-````ASP.NET
-	  <pre xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">
-	<style type="text/css">
-	  .MyMexicoRowClass
-	  {
-	    background-color: aqua;
-	    font-size: 16px;
-	    font-family: Arial;
-	  }
-	</style>        </pre>
+````CSS
+  <pre xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">
+<style type="text/css">
+  .MyMexicoRowClass
+  {
+    background-color: aqua;
+    font-size: 16px;
+    font-family: Arial;
+  }
+</style>       
+</pre>
 ````
 
 
@@ -84,24 +85,24 @@ And in the code-behind:
 
 
 ````C#
-	    protected void RadGrid1_ItemDataBound(object sender, Telerik.Web.UI.GridItemEventArgs e)
-	    {
-	        if (e.Item is GridDataItem)
-	        {
-	            GridDataItem dataItem = e.Item as GridDataItem;
-	            if (dataItem["Country"].Text == "Mexico")
-	                dataItem.CssClass = "MyMexicoRowClass";
-	        }
-	    }
+protected void RadGrid1_ItemDataBound(object sender, Telerik.Web.UI.GridItemEventArgs e)
+{
+    if (e.Item is GridDataItem)
+    {
+        GridDataItem dataItem = e.Item as GridDataItem;
+        if (dataItem["Country"].Text == "Mexico")
+            dataItem.CssClass = "MyMexicoRowClass";
+    }
+}
 ````
 ````VB
-	    Protected Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemDataBound
-	        If (TypeOf e.Item Is GridDataItem) Then
-	            Dim dataItem As GridDataItem = CType(e.Item, GridDataItem)
-	            If (dataItem("Country").Text = "Mexico") Then
-	                dataItem.CssClass = "MyMexicoRowClass"
-	            End If
-	        End If
-	    End Sub
+Protected Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemDataBound
+    If (TypeOf e.Item Is GridDataItem) Then
+        Dim dataItem As GridDataItem = CType(e.Item, GridDataItem)
+        If (dataItem("Country").Text = "Mexico") Then
+            dataItem.CssClass = "MyMexicoRowClass"
+        End If
+    End If
+End Sub
 ````
 

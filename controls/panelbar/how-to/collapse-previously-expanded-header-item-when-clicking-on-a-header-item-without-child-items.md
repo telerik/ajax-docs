@@ -14,40 +14,40 @@ position: 0
 
 ## 
 
-You could easily achieve your goal by hooking on the **OnClientItemClicked** event of the panelbar and use the following JS code:
+You could easily achieve your goal by hooking on the **OnClientItemClicked** event of the PanelBar and use the following JS code:
 
 ````JavaScript
-	   <script language="javascript">
-	        function collapseRoots(sender, args) {
-	            if (args.get_item().get_items().get_count() < 1 && args.get_item().get_parent().get_parent() == null) {
-	                for (var i = 0; i < sender.get_items().get_count(); i++) {
-	                    sender.get_items().getItem(0).collapse();
-	                }
-	            }
-	        }    
-	     </script>
+<script language="javascript">
+    function collapseRoots(sender, args) {
+        if (args.get_item().get_items().get_count() < 1 && args.get_item().get_parent().get_parent() == null) {
+            for (var i = 0; i < sender.get_items().get_count(); i++) {
+                sender.get_items().getItem(0).collapse();
+            }
+        }
+    }    
+</script>
 ````
 
 
 
 ````ASPNET
-	    <telerik:radpanelbar id="RadPanelBar1" runat="server" expandmode="SingleExpandedItem"
-	        onclientitemclicked="collapseRoots">        
-	        <CollapseAnimation Duration="100" Type="None" />        
-	        <Items>           
-	             <telerik:RadPanelItem runat="server" Text="Root RadPanelItem1">                
-	             <Items>                    
-	                 <telerik:RadPanelItem runat="server" Text="Child RadPanelItem 1">                    
-	                 </telerik:RadPanelItem>                    
-	                 <telerik:RadPanelItem runat="server" Text="Child RadPanelItem 2">                    
-	                 </telerik:RadPanelItem>               
-	              </Items>            
-	              </telerik:RadPanelItem>            
-	              <telerik:RadPanelItem runat="server" Text="Root RadPanelItem2">            
-	              </telerik:RadPanelItem>        
-	          </Items>        
-	          <ExpandAnimation Duration="100" Type="None" />   
-	          </telerik:radpanelbar>
+<telerik:radpanelbar id="RadPanelBar1" runat="server" expandmode="SingleExpandedItem"
+    onclientitemclicked="collapseRoots">        
+    <CollapseAnimation Duration="100" Type="None" />        
+    <Items>           
+        <telerik:RadPanelItem runat="server" Text="Root RadPanelItem1">                
+			<Items>                    
+				<telerik:RadPanelItem runat="server" Text="Child RadPanelItem 1">                    
+				</telerik:RadPanelItem>                    
+				<telerik:RadPanelItem runat="server" Text="Child RadPanelItem 2">                    
+				</telerik:RadPanelItem>               
+			</Items>            
+        </telerik:RadPanelItem>            
+        <telerik:RadPanelItem runat="server" Text="Root RadPanelItem2">            
+        </telerik:RadPanelItem>        
+	</Items>        
+	<ExpandAnimation Duration="100" Type="None" />   
+</telerik:radpanelbar>
 ````
 
 

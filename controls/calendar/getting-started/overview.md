@@ -1,5 +1,5 @@
 ---
-title: Getting Started Overview
+title: Overview
 page_title: Overview | RadCalendar for ASP.NET AJAX Documentation
 description: Overview
 slug: calendar/getting-started/overview
@@ -68,12 +68,11 @@ This tutorial will walk you through creating a Web page that uses **RadCalendar*
 4. Also under the **Calendar** property, set the **ShowOtherMonthDays** property to **False**, so that the appearance matches the other **RadCalendar** control on the page.
 
 5. Locate the **DateInput** property. This lets you configure the embedded **RadDateInput** control. Change the following properties for the embedded **RadDateInput** control:
-
     * Set the value of the **DisplayDateFormat** property to "dddd, MMM d, yyyy".This tells the **RadDateInput** control how to format its value when it does not have input focus(when the user is not editing its value.)
-
     * Set the **EmptyMessage** property to " Enter a Date ". This tells the**RadDateInput** control to display the specified prompt when its value has not been set.
+    
     ![Setting EmptyMessage](images/GettingStarted_AddingRadCalendar010_RadDatePickerDateInputProperties.png)
-
+    
 6. Set the **MinDate** and **MaxDate** properties to specify the range of valid dates that the user can enter into the **RadDatePicker** control**.
 ![Setting min and max date](images/GettingStarted_AddingRadCalendar011_MinMaxDate.png)
 
@@ -87,12 +86,10 @@ This tutorial will walk you through creating a Web page that uses **RadCalendar*
 3. In the **Behavior** section of the properties pane, locate the **Calendar** property. As you did with the **RadDatePicker** control, set the **Calendar.CalendarTableStyle.BackColor** property to "#DDEEFF" and the **Calendar. ShowOtherMonthDays** property to **False**.
 
 4. Locate the **DateInput** property. This lets you configure the embedded **RadDateInput** control. Change the following properties for the embedded **RadDateInput** control:
-
     * Set the value of the **DateFormat** property to "M/d/yyyy h:mm tt". This tells the **RadDateInput** control how to format its value when it has input control (when the user can edit its value).
-
     * Set the value of the **DisplayDateFormat** property to "MMM d, yyyy h:mm tt". This tells the **RadDateInput** control how to format its value when it does not have input focus (when the user is not editing its value.)
-
     * Set the **EmptyMessage** property to " Enter a date and time ". This tells the **RadDateInput** control to display the specified prompt when its value has not been set.
+    
     ![Setting empty message](images/GettingStarted_AddingRadDateTimePicker_RadDateTimePickerDateInputProperties.png)
 
 5. Expand the **TimeView** property. This lets you configure the properties of the embedded **RadTimeView** control that acts as a popup for choosing time values. Set its **BackColor** property to "#DDEEFF". This gives it the time selection popup the same background color that we gave the popup **RadCalendar** control.
@@ -106,12 +103,10 @@ This tutorial will walk you through creating a Web page that uses **RadCalendar*
 ![Setting a skin](images/GettingStarted_AddingRadTimePicker.png)
 
 3. In the **Behavior** section of the properties pane, expand the **DateInput** property and configure the embedded **RadDateInput** control:
-
     * Set the **DateFormat** property to "h:mm tt". This is the format string for when embedded **RadDateInput** control has focus (when the user can enter its value).
-
     * Set the **DisplayDateFormat** property to "HH:mm". This causes the embedded **RadDateInput** control to format its value using a 24-hour clock when it does not have focus.
-
     * Set the **EmptyMessage** property to " Enter a Time ", providing a prompt when the value of the **RadTimePicker** control has not been set.
+    
     ![Setting empty message](images/GettingStarted_AddingRadTimePicker_DateInputProperties.png)
 
 4. Expand the **TimeView** property. This lets you configure the properties of the embedded **RadTimeView** control that acts as a popup for choosing time values. Set its **BackColor** property to "#DDEEFF", just like you did for the **RadDateTimePicker** control.

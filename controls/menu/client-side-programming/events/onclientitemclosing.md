@@ -10,8 +10,6 @@ position: 9
 
 # OnClientItemClosing
 
-
-
 ## 
 
 The **OnClientItemClosing** client-side event occurs when the menu item is about to contract, hiding its child items.
@@ -33,21 +31,21 @@ The event handler receives two parameters:
 You can use this event to control when menu items can contract, or reset the child items to a known state as the menu closes:
 
 ````ASPNET
-	    <script type="text/javascript">
-	        function ItemClosing(menu, args) {
-	            var status = $get("hdCurrentStatus");
-	            var item = args.get_item();
-	            if (status.value == "")
-	                args.set_cancel(true);    
-	     }
-	    </script>
-	
-	    <telerik:RadMenu ID="RadMenu1" runat="server" Flow="Horizontal" OnClientItemClosing="ItemClosing">
-	        <Items>
-	            ...
-	        </Items>
-	    </telerik:RadMenu>
-	    <input type="hidden" id="hdCurrentStatus" />
+<script type="text/javascript">
+    function ItemClosing(menu, args) {
+        var status = $get("hdCurrentStatus");
+        var item = args.get_item();
+        if (status.value == "")
+            args.set_cancel(true);    
+ }
+</script>
+
+<telerik:RadMenu ID="RadMenu1" runat="server" Flow="Horizontal" OnClientItemClosing="ItemClosing">
+    <Items>
+        ...
+    </Items>
+</telerik:RadMenu>
+<input type="hidden" id="hdCurrentStatus" />
 ````
 
 

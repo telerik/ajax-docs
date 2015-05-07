@@ -45,17 +45,17 @@ The **RadInput** controls support a number of client-side events that let you re
 To use these events, simply write a javascript function that can be called when the event occurs. Then assign the name of the javascript function as the value of the the corresponding property.
 
 ````ASPNET
-	    <script type="text/javascript">
-	        function OnMaskError(sender, args)
-	        {
-	            var message = "Invalid character - " + args.get_newValue();
-	            alert(message);
-	        }
-	    </script>
-	    <telerik:RadMaskedTextBox ID="RadMaskedTextBox1" runat="server" PromptChar="_" Mask="(###) ###-#####"
-	        Skin="Web20">
-	        <ClientEvents OnError="OnMaskError" />
-	    </telerik:RadMaskedTextBox>
+<script type="text/javascript">
+	function OnMaskError(sender, args)
+	{
+		var message = "Invalid character - " + args.get_newValue();
+		alert(message);
+	}
+</script>
+<telerik:RadMaskedTextBox ID="RadMaskedTextBox1" runat="server" PromptChar="_" Mask="(###) ###-#####"
+	Skin="Web20">
+	<ClientEvents OnError="OnMaskError" />
+</telerik:RadMaskedTextBox>
 ````
 
 
@@ -63,21 +63,20 @@ To use these events, simply write a javascript function that can be called when 
 You can also assign event handlers in client-side code. When using the client-side API, pass a reference to the event handler rather than its name. One advantage of using the client-side API is that you can attach multiple event handlers to one event using the standard MS AJAX convention:
 
 ````JavaScript
-	        function onClickHandler1()
-	        {
-	            alert("First handler called");
-	        }
-	        function onClickHandler2()
-	        {
-	            alert("Second handler called");
-	        }
-	        function pageLoad()
-	        {
-	            var inputControl = $find('<%=RadInput1.ClientID%>');
-	            inputControl.add_buttonClick(OnClickHandler1);
-	            inputControl.add_buttonClick(OnClickHandler2);
-	        }
-	
+function onClickHandler1()
+{
+	alert("First handler called");
+}
+function onClickHandler2()
+{
+	alert("Second handler called");
+}
+function pageLoad()
+{
+	var inputControl = $find('<%=RadInput1.ClientID%>');
+	inputControl.add_buttonClick(OnClickHandler1);
+	inputControl.add_buttonClick(OnClickHandler2);
+}
 ````
 
 
@@ -85,14 +84,11 @@ You can also assign event handlers in client-side code. When using the client-si
 Another advantage of the client-side API is that you can detach an event handler dynamically:
 
 ````JavaScript
-	
-	
-	        function removeOnClick2()
-	        {
-	            var inputControl = $find('<%=RadInput1.ClientID%>');
-	            inputControl.remove_buttonClick(OnClickHandler2);
-	        }
-	
+function removeOnClick2()
+{
+	var inputControl = $find('<%=RadInput1.ClientID%>');
+	inputControl.remove_buttonClick(OnClickHandler2);
+}
 ````
 
 

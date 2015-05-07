@@ -19,66 +19,65 @@ In some editing scenarios you may need to display different edit forms for Teler
 
 
 ````ASP.NET
-	  <telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1" AutoGenerateColumns="False"
-	    Width="100%" AllowSorting="True" AllowPaging="True">
-	    <MasterTableView CommandItemDisplay="Top">
-	      <EditFormSettings UserControlName="EmployeeDetailsVB.ascx" EditFormType="WebUserControl">
-	        <EditColumn UniqueName="EditCommandColumn1">
-	        </EditColumn>
-	      </EditFormSettings>
-	      <Columns>
-	        <telerik:GridEditCommandColumn UniqueName="EditCommandColumn">
-	        </telerik:GridEditCommandColumn>
-	        <telerik:GridBoundColumn HeaderText="TOC" DataField="TitleOfCourtesy" UniqueName="TitleOfCourtesy">
-	          <HeaderStyle Width="60px"></HeaderStyle>
-	        </telerik:GridBoundColumn>
-	        <telerik:GridBoundColumn HeaderText="FirstName" DataField="FirstName" UniqueName="FirstName">
-	        </telerik:GridBoundColumn>
-	        <telerik:GridBoundColumn HeaderText="LastName" DataField="LastName" UniqueName="LastName">
-	        </telerik:GridBoundColumn>
-	        <telerik:GridBoundColumn HeaderText="Hire Date" DataField="HireDate" UniqueName="HireDate">
-	        </telerik:GridBoundColumn>
-	        <telerik:GridBoundColumn HeaderText="Title" DataField="Title" UniqueName="Title">
-	        </telerik:GridBoundColumn>
-	      </Columns>
-	    </MasterTableView>
-	  </telerik:RadGrid>
-	  <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
-	     SelectCommand="SELECT * FROM [Orders]"></asp:SqlDataSource>
+<telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1" AutoGenerateColumns="False"
+  Width="100%" AllowSorting="True" AllowPaging="True">
+  <MasterTableView CommandItemDisplay="Top">
+    <EditFormSettings UserControlName="EmployeeDetailsVB.ascx" EditFormType="WebUserControl">
+      <EditColumn UniqueName="EditCommandColumn1">
+      </EditColumn>
+    </EditFormSettings>
+    <Columns>
+      <telerik:GridEditCommandColumn UniqueName="EditCommandColumn">
+      </telerik:GridEditCommandColumn>
+      <telerik:GridBoundColumn HeaderText="TOC" DataField="TitleOfCourtesy" UniqueName="TitleOfCourtesy">
+        <HeaderStyle Width="60px"></HeaderStyle>
+      </telerik:GridBoundColumn>
+      <telerik:GridBoundColumn HeaderText="FirstName" DataField="FirstName" UniqueName="FirstName">
+      </telerik:GridBoundColumn>
+      <telerik:GridBoundColumn HeaderText="LastName" DataField="LastName" UniqueName="LastName">
+      </telerik:GridBoundColumn>
+      <telerik:GridBoundColumn HeaderText="Hire Date" DataField="HireDate" UniqueName="HireDate">
+      </telerik:GridBoundColumn>
+      <telerik:GridBoundColumn HeaderText="Title" DataField="Title" UniqueName="Title">
+      </telerik:GridBoundColumn>
+    </Columns>
+  </MasterTableView>
+</telerik:RadGrid>
+<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
+   SelectCommand="SELECT * FROM [Orders]"></asp:SqlDataSource>
 ````
 ````VB
-	    Protected Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As Telerik.Web.UI.GridCommandEventArgs) Handles RadGrid1.ItemCommand
-	        If (e.CommandName = RadGrid.InitInsertCommandName) Then
-	            e.Canceled = True
-	            RadGrid1.EditIndexes.Clear()
-	
-	            e.Item.OwnerTableView.EditFormSettings.UserControlName = "MyInsertFormUserControl.ascx"
-	            e.Item.OwnerTableView.InsertItem()
-	
-	        ElseIf (e.CommandName = RadGrid.EditCommandName) Then
-	            e.Item.OwnerTableView.IsItemInserted = False
-	            e.Item.OwnerTableView.EditFormSettings.UserControlName = "EmployeeDetailsVB.ascx"
-	        End If
-	    End Sub
+Protected Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As Telerik.Web.UI.GridCommandEventArgs) Handles RadGrid1.ItemCommand
+    If (e.CommandName = RadGrid.InitInsertCommandName) Then
+        e.Canceled = True
+        RadGrid1.EditIndexes.Clear()
+
+        e.Item.OwnerTableView.EditFormSettings.UserControlName = "MyInsertFormUserControl.ascx"
+        e.Item.OwnerTableView.InsertItem()
+
+    ElseIf (e.CommandName = RadGrid.EditCommandName) Then
+        e.Item.OwnerTableView.IsItemInserted = False
+        e.Item.OwnerTableView.EditFormSettings.UserControlName = "EmployeeDetailsVB.ascx"
+    End If
+End Sub
 ````
-````C#
-	
-	    protected void RadGrid1_ItemCommand(object source, Telerik.Web.UI.GridCommandEventArgs e)
-	    {
-	        if (e.CommandName == RadGrid.InitInsertCommandName)
-	        {
-	            e.Canceled = true;
-	            RadGrid1.EditIndexes.Clear();
-	
-	            e.Item.OwnerTableView.EditFormSettings.UserControlName = "MyInsertFormUserControl.ascx";
-	            e.Item.OwnerTableView.InsertItem();
-	        }
-	        else if (e.CommandName == RadGrid.EditCommandName)
-	        {
-	            e.Item.OwnerTableView.IsItemInserted = false;
-	            e.Item.OwnerTableView.EditFormSettings.UserControlName = "EmployeeDetailsVB.ascx";
-	        }
-	    }
+````C#	
+protected void RadGrid1_ItemCommand(object source, Telerik.Web.UI.GridCommandEventArgs e)
+{
+    if (e.CommandName == RadGrid.InitInsertCommandName)
+    {
+        e.Canceled = true;
+        RadGrid1.EditIndexes.Clear();
+
+        e.Item.OwnerTableView.EditFormSettings.UserControlName = "MyInsertFormUserControl.ascx";
+        e.Item.OwnerTableView.InsertItem();
+    }
+    else if (e.CommandName == RadGrid.EditCommandName)
+    {
+        e.Item.OwnerTableView.IsItemInserted = false;
+        e.Item.OwnerTableView.EditFormSettings.UserControlName = "EmployeeDetailsVB.ascx";
+    }
+}
 ````
 
 

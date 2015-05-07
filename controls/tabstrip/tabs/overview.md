@@ -1,5 +1,5 @@
 ---
-title: Tabs Overview
+title: Overview
 page_title: Overview | RadTabStrip for ASP.NET AJAX Documentation
 description: Overview
 slug: tabstrip/tabs/overview
@@ -9,8 +9,6 @@ position: 0
 ---
 
 # Tabs Overview
-
-
 
 The tabs inside **RadTabStrip** have a few important properties, which are listed below:
 
@@ -36,7 +34,7 @@ The tabs inside **RadTabStrip** have a few important properties, which are liste
 
 * **ScrollChildren**, **PerTabScrolling**, **ScrollButtonsPosition**, and **ScrollPosition** specify how the tab [scrolls its child items]({%slug tabstrip/tabs/scrolling-tabs%}) when there is not enough room to display them all.
 
-* **CssClass**, **SelectedCssClass**, **DisabledCssClass**, **HoveredCssClass**, and **ChildGroupCssClass**[control the appearance of the tab]({%slug tabstrip/appearance-and-styling/setting-the-css-class-of-tabs%}) when it is in its normal state, selected, disabled, under the mouse, and the appearance of its group of child items, respectively.
+* **CssClass**, **SelectedCssClass**, **DisabledCssClass**, **HoveredCssClass**, and **ChildGroupCssClass** [control the appearance of the tab]({%slug tabstrip/appearance-and-styling/setting-the-css-class-of-tabs%}) when it is in its normal state, selected, disabled, under the mouse, and the appearance of its group of child items, respectively.
 
 * **ImageUrl**, **SelectedImageUrl**, **DisabledImageUrl**, and **HoveredImageUrl** let you [specify an image]({%slug tabstrip/appearance-and-styling/adding-images-to-tabs%}) that appears on the left of the tab text when it is in its normal state, selected, disabled, and when the mouse hovers over it, respectively.
 

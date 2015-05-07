@@ -26,10 +26,10 @@ position: 2
 | **get_element** |DOM element|none|Returns the associated DOM element of the Item.|
 | **get_groups** |RibbonBarGroupCollection|none|Returns the collection of all groups in the Tab.|
 | **get_hierarchicalIndex** |integer|none|Returns the hierarchical index of the Item.|
-| **get_index** |integer|none|Retuns the index of the tab in the collection of all tabs.|
-| **get_labelElement** |DOM element|none|Returns the <a> DOM element containing the Tab's text element.|
-| **get_textElement** |DOM element|none|Returns the <span> DOM element containing the Tab's text.|
-| **get_pageView** |DOM element|none|Returns the <div> DOM element containing the groups of the Tab's groups.|
+| **get_index** |integer|none|Returns the index of the tab in the collection of all tabs.|
+| **get_labelElement** |DOM element|none|Returns the `<a>` DOM element containing the Tab's text element.|
+| **get_textElement** |DOM element|none|Returns the `<span>` DOM element containing the Tab's text.|
+| **get_pageView** |DOM element|none|Returns the `<div>` DOM element containing the groups of the Tab's groups.|
 | **get_text** |string|none|Returns the text of the tab.|
 | **set_text** |none|string|Sets the text property of the tab.|
 | **get_value** |string|none|Returns the value of the tab.|

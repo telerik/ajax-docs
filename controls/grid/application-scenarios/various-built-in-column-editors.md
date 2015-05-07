@@ -37,102 +37,100 @@ Here are the relevant code snippets from the online demo:
 
 
 ````ASP.NET
-	  <asp:ScriptManager ID="ScriptManager" runat="server" />
-	  <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
-	    <AjaxSettings>
-	      <telerik:AjaxSetting AjaxControlID="RadGrid1">
-	        <UpdatedControls>
-	          <telerik:AjaxUpdatedControl ControlID="RadGrid1" LoadingPanelID="RadAjaxLoadingPanel1" />
-	        </UpdatedControls>
-	      </telerik:AjaxSetting>
-	    </AjaxSettings>
-	  </telerik:RadAjaxManager>
-	  <telerik:RadAjaxLoadingPanel ID="RadAjaxLoadingPanel1" runat="server" Height="75px"
-	    Width="75px" Transparency="20">
-	    <img alt="Loading..." src='<%= RadAjaxLoadingPanel.GetWebResourceUrl(Page, "Telerik.Web.UI.Skins.Default.Ajax.loading.gif") %>'
-	      style="border: 0;" />
-	  </telerik:RadAjaxLoadingPanel>
-	  <telerik:GridNumericColumnEditor ID="GridNumericColumnEditor1" runat="server">
-	    <NumericTextBox MaxLength="4" EmptyMessage="Ext.">
-	      <NumberFormat GroupSeparator="" />
-	    </NumericTextBox>
-	  </telerik:GridNumericColumnEditor>
-	  <telerik:RadGrid DataSourceID="SqlDataSource1" Skin="Vista" AllowAutomaticDeletes="true"
-	    AllowAutomaticInserts="true" AllowAutomaticUpdates="true" ID="RadGrid1" runat="server">
-	    <MasterTableView DataKeyNames="EmployeeID" Width="100%" CommandItemDisplay="Top"
-	      AutoGenerateColumns="false">
-	      <Columns>
-	        <telerik:GridEditCommandColumn UniqueName="EditCommandColumn">
-	          <ItemStyle Width="50px" />
-	        </telerik:GridEditCommandColumn>
-	        <telerik:GridHTMLEditorColumn UniqueName="Notes" SortExpression="Notes" HeaderText="Notes"
-	          DataField="Notes">
-	        </telerik:GridHTMLEditorColumn>
-	        <telerik:GridDropDownColumn DataSourceID="XmlDataSource1" ListTextField="Text" ListValueField="Value"
-	          UniqueName="TitleOfCourtesy" SortExpression="TitleOfCourtesy" HeaderText="Title"
-	          DropDownControlType="RadComboBox" DataField="TitleOfCourtesy">
-	        </telerik:GridDropDownColumn>
-	        <telerik:GridDropDownColumn DataSourceID="XmlDataSource2" ListTextField="Text" ListValueField="Value"
-	          UniqueName="City" SortExpression="City" HeaderText="City" DataField="City" DropDownControlType="RadComboBox">
-	        </telerik:GridDropDownColumn>
-	        <telerik:GridMaskedColumn Mask="(###) ###-####" UniqueName="HomePhone" SortExpression="HomePhone"
-	          HeaderText="HomePhone" DataField="HomePhone">
-	          <ItemStyle Width="100px" />
-	        </telerik:GridMaskedColumn>
-	        <telerik:GridNumericColumn UniqueName="Extension" SortExpression="Extension" HeaderText="Extension"
-	          DataField="Extension" ColumnEditorID="GridNumericColumnEditor1">
-	        </telerik:GridNumericColumn>
-	        <telerik:GridDateTimeColumn UniqueName="HireDate" PickerType="DateTimePicker" HeaderText="HireDate"
-	          DataField="HireDate">
-	          <ItemStyle Width="120px" />
-	        </telerik:GridDateTimeColumn>
-	      </Columns>
-	    </MasterTableView>
-	  </telerik:RadGrid>
-	  <!-- content end -->
-	  <asp:SqlDataSource ID="SqlDataSource1" UpdateCommand="update Employees set Notes=@Notes, TitleOfCourtesy=@TitleOfCourtesy, City=@City, HomePhone=@HomePhone, Extension=@Extension, HireDate=@HireDate where EmployeeID=@EmployeeID"
-	    SelectCommand="SELECT top 3 * FROM Employees" InsertCommand="insert into Employees (Notes, TitleOfCourtesy, City, HomePhone, Extension, HireDate) values(@Notes, @TitleOfCourtesy, @City, @HomePhone, @Extension, @HireDate)"
-	    runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>">        
-	  </asp:SqlDataSource>
-	  <asp:XmlDataSource ID="XmlDataSource1" runat="server">
-	    <Data>                
-	      <Items>                      
-	        <Item Value="Ms" Text="Ms."/>
-	        <Item Value="Dr" Text="Dr."/>
-	        <Item Value="Mrs" Text="Mrs."/>                      
-	        <Item Value="Mr" Text="Mr."/>                
-	      </Items>            
-	    </Data>
-	  </asp:XmlDataSource>
-	  <asp:XmlDataSource ID="XmlDataSource2" runat="server">
-	    <Data>                
-	      <Items>                      
-	        <Item Value="Seattle" Text="Seattle"/>                      
-	        <Item Value="Tacoma" Text="Tacoma"/>                     
-	        <Item Value="Redmond" Text="Redmond"/>                      
-	        <Item Value="London" Text="London"/>                      
-	        <Item Value="Sofia" Text="Sofia"/>                
-	      </Items>            
-	    </Data>
-	  </asp:XmlDataSource>
+<asp:ScriptManager ID="ScriptManager" runat="server" />
+<telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
+  <AjaxSettings>
+    <telerik:AjaxSetting AjaxControlID="RadGrid1">
+      <UpdatedControls>
+        <telerik:AjaxUpdatedControl ControlID="RadGrid1" LoadingPanelID="RadAjaxLoadingPanel1" />
+      </UpdatedControls>
+    </telerik:AjaxSetting>
+  </AjaxSettings>
+</telerik:RadAjaxManager>
+<telerik:RadAjaxLoadingPanel ID="RadAjaxLoadingPanel1" runat="server" Height="75px"
+  Width="75px" Transparency="20">
+  <img alt="Loading..." src='<%= RadAjaxLoadingPanel.GetWebResourceUrl(Page, "Telerik.Web.UI.Skins.Default.Ajax.loading.gif") %>'
+    style="border: 0;" />
+</telerik:RadAjaxLoadingPanel>
+<telerik:GridNumericColumnEditor ID="GridNumericColumnEditor1" runat="server">
+  <NumericTextBox MaxLength="4" EmptyMessage="Ext.">
+    <NumberFormat GroupSeparator="" />
+  </NumericTextBox>
+</telerik:GridNumericColumnEditor>
+<telerik:RadGrid DataSourceID="SqlDataSource1" Skin="Vista" AllowAutomaticDeletes="true"
+  AllowAutomaticInserts="true" AllowAutomaticUpdates="true" ID="RadGrid1" runat="server">
+  <MasterTableView DataKeyNames="EmployeeID" Width="100%" CommandItemDisplay="Top"
+    AutoGenerateColumns="false">
+    <Columns>
+      <telerik:GridEditCommandColumn UniqueName="EditCommandColumn">
+        <ItemStyle Width="50px" />
+      </telerik:GridEditCommandColumn>
+      <telerik:GridHTMLEditorColumn UniqueName="Notes" SortExpression="Notes" HeaderText="Notes"
+        DataField="Notes">
+      </telerik:GridHTMLEditorColumn>
+      <telerik:GridDropDownColumn DataSourceID="XmlDataSource1" ListTextField="Text" ListValueField="Value"
+        UniqueName="TitleOfCourtesy" SortExpression="TitleOfCourtesy" HeaderText="Title"
+        DropDownControlType="RadComboBox" DataField="TitleOfCourtesy">
+      </telerik:GridDropDownColumn>
+      <telerik:GridDropDownColumn DataSourceID="XmlDataSource2" ListTextField="Text" ListValueField="Value"
+        UniqueName="City" SortExpression="City" HeaderText="City" DataField="City" DropDownControlType="RadComboBox">
+      </telerik:GridDropDownColumn>
+      <telerik:GridMaskedColumn Mask="(###) ###-####" UniqueName="HomePhone" SortExpression="HomePhone"
+        HeaderText="HomePhone" DataField="HomePhone">
+        <ItemStyle Width="100px" />
+      </telerik:GridMaskedColumn>
+      <telerik:GridNumericColumn UniqueName="Extension" SortExpression="Extension" HeaderText="Extension"
+        DataField="Extension" ColumnEditorID="GridNumericColumnEditor1">
+      </telerik:GridNumericColumn>
+      <telerik:GridDateTimeColumn UniqueName="HireDate" PickerType="DateTimePicker" HeaderText="HireDate"
+        DataField="HireDate">
+        <ItemStyle Width="120px" />
+      </telerik:GridDateTimeColumn>
+    </Columns>
+  </MasterTableView>
+</telerik:RadGrid>
+<!-- content end -->
+<asp:SqlDataSource ID="SqlDataSource1" UpdateCommand="update Employees set Notes=@Notes, TitleOfCourtesy=@TitleOfCourtesy, City=@City, HomePhone=@HomePhone, Extension=@Extension, HireDate=@HireDate where EmployeeID=@EmployeeID"
+  SelectCommand="SELECT top 3 * FROM Employees" InsertCommand="insert into Employees (Notes, TitleOfCourtesy, City, HomePhone, Extension, HireDate) values(@Notes, @TitleOfCourtesy, @City, @HomePhone, @Extension, @HireDate)"
+  runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>">        
+</asp:SqlDataSource>
+<asp:XmlDataSource ID="XmlDataSource1" runat="server">
+  <Data>                
+    <Items>                      
+      <Item Value="Ms" Text="Ms."/>
+      <Item Value="Dr" Text="Dr."/>
+      <Item Value="Mrs" Text="Mrs."/>                      
+      <Item Value="Mr" Text="Mr."/>                
+    </Items>            
+  </Data>
+</asp:XmlDataSource>
+<asp:XmlDataSource ID="XmlDataSource2" runat="server">
+  <Data>                
+    <Items>                      
+      <Item Value="Seattle" Text="Seattle"/>                      
+      <Item Value="Tacoma" Text="Tacoma"/>                     
+      <Item Value="Redmond" Text="Redmond"/>                      
+      <Item Value="London" Text="London"/>                      
+      <Item Value="Sofia" Text="Sofia"/>                
+    </Items>            
+  </Data>
+</asp:XmlDataSource>
 ````
-````C#
-	
-	    protected void Page_Load(object sender, EventArgs e)
-	    {
-	        if (!Page.IsPostBack)
-	        {
-	            RadGrid1.EditIndexes.Add(0);
-	        }
-	    }
-	
+````C#	
+protected void Page_Load(object sender, EventArgs e)
+{
+    if (!Page.IsPostBack)
+    {
+        RadGrid1.EditIndexes.Add(0);
+    }
+}
 ````
 ````VB
-	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
-	        If Not Page.IsPostBack Then
-	            RadGrid1.EditIndexes.Add(0)
-	        End If
-	    End Sub
+Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
+    If Not Page.IsPostBack Then
+        RadGrid1.EditIndexes.Add(0)
+    End If
+End Sub
 ````
 
 

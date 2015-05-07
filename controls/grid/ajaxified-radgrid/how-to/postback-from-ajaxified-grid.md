@@ -25,7 +25,7 @@ If you want to perform postback instead of callback when the grid is AJAX-enable
 1. **eventArgs** is an optional argument for the event that lets you pass data to the server.The following example shows how to call the **doPostBack** function, passing information about the currently clicked row of a grid:
 
 ````JavaScript
-	    doPostBack("<%= RadGrid1.UniqueID   %>", "RowClicked:" + this.Rows[index].ItemIndex);
+doPostBack("<%= RadGrid1.UniqueID   %>", "RowClicked:" + this.Rows[index].ItemIndex);
 ````
 
 
@@ -34,28 +34,26 @@ If you want to perform postback instead of callback when the grid is AJAX-enable
 
 
 
-````C#
-	
-	    protected override void RaisePostBackEvent(IPostBackEventHandler source, string eventArgument)
-	    {
-	        base.RaisePostBackEvent(source, eventArgument);
-	
-	        if (source == RadGrid1 && eventArgument.IndexOf("RowClicked") != -1)
-	        {
-	            GridDataItem item = RadGrid1.Items[int.Parse(eventArgument.Split(':')[1])];
-	            Response.Write(String.Format("CustomerID:{0}", item.GetDataKeyValue("CustomerID")));
-	        }
-	    }
-	
+````C#	
+protected override void RaisePostBackEvent(IPostBackEventHandler source, string eventArgument)
+{
+    base.RaisePostBackEvent(source, eventArgument);
+
+    if (source == RadGrid1 && eventArgument.IndexOf("RowClicked") != -1)
+    {
+        GridDataItem item = RadGrid1.Items[int.Parse(eventArgument.Split(':')[1])];
+        Response.Write(String.Format("CustomerID:{0}", item.GetDataKeyValue("CustomerID")));
+    }
+}
 ````
 ````VB
-	    Protected Overrides Sub RaisePostBackEvent(ByVal source As IPostBackEventHandler, ByVal eventArgument As String)
-	        MyBase.RaisePostBackEvent([source], eventArgument)
-	        If ([source] Is RadGrid1) And (eventArgument.IndexOf("RowClicked") <> -1) Then
-	            Dim item As GridDataItem = RadGrid1.Items(Integer.Parse(eventArgument.Split(":"c)(1)))
-	            Response.Write([String].Format("CustomerID:{0}",
-	            item.GetDataKeyValue("CustomerID")))
-	        End If
-	    End Sub
+Protected Overrides Sub RaisePostBackEvent(ByVal source As IPostBackEventHandler, ByVal eventArgument As String)
+    MyBase.RaisePostBackEvent([source], eventArgument)
+    If ([source] Is RadGrid1) And (eventArgument.IndexOf("RowClicked") <> -1) Then
+        Dim item As GridDataItem = RadGrid1.Items(Integer.Parse(eventArgument.Split(":"c)(1)))
+        Response.Write([String].Format("CustomerID:{0}",
+        item.GetDataKeyValue("CustomerID")))
+    End If
+End Sub
 ````
 

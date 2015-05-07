@@ -10,8 +10,6 @@ position: 4
 
 # Design Time Support for RadMultiPage
 
-
-
 ## 
 
 To create a **RadMultiPage** control at design time:
@@ -22,7 +20,7 @@ To create a **RadMultiPage** control at design time:
 
 1. Drag and drop instances of the **RadPageView** control from the toolbox onto the multi-page.
 
-1. Click the **Add RadPageView** link in the **RadMultiPage**[Smart Tag]({%slug tabstrip/design-time/smart-tag%}).
+1. Click the **Add RadPageView** link in the **RadMultiPage** [Smart Tag]({%slug tabstrip/design-time/smart-tag%}).
 
 ![Multipage Design time](images/tabstrip_multipage_design_time2.gif)
 
@@ -31,20 +29,20 @@ To create a **RadMultiPage** control at design time:
 You can also declare the **RadPageView** controls declaratively in the ASPX file:
 
 ````ASPNET
-	<telerik:RadMultiPage ID="RadMultiPage1" runat="server" >
-	 <telerik:RadPageView ID="RadPageView1" runat="server">
-	   ...
-	 </telerik:RadPageView>
-	 <telerik:RadPageView ID="RadPageView2" runat="server">
-	   ...
-	 </telerik:RadPageView>
-	 <telerik:RadPageView ID="RadPageView3" runat="server">
-	   ...
-	 </telerik:RadPageView>
-	 <telerik:RadPageView ID="RadPageView4" runat="server">
-	   ...
-	 </telerik:RadPageView>
-	</telerik:RadMultiPage> 
+<telerik:RadMultiPage ID="RadMultiPage1" runat="server" >
+ <telerik:RadPageView ID="RadPageView1" runat="server">
+   ...
+ </telerik:RadPageView>
+ <telerik:RadPageView ID="RadPageView2" runat="server">
+   ...
+ </telerik:RadPageView>
+ <telerik:RadPageView ID="RadPageView3" runat="server">
+   ...
+ </telerik:RadPageView>
+ <telerik:RadPageView ID="RadPageView4" runat="server">
+   ...
+ </telerik:RadPageView>
+</telerik:RadMultiPage> 
 ````
 
 

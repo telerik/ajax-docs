@@ -39,54 +39,54 @@ The following code illustrates this technique on a two-level hierarchy.
 
 
 ````C#
-	  <script type="text/javascript">
-	  function RowSelecting(sender, eventArgs) {
-	      var tableView = eventArgs.get_tableView();
-	      if (eventArgs.get_tableView().get_name() != "Customers") {
-	        if (tableView.get_selectedItems().length == 1) {
-	          for (var i = 0; i < tableView.get_dataItems().length; i++) {
-	            if (tableView.get_dataItems()[i].get_selected()) {
-	              tableView.selectItem(tableView.get_dataItems()[i].get_element(), false);
-	            }
-	          }
-	        }
-	      }
-	    }
-	  </script>
-	  <telerik:RadGrid ID="RadGrid1" runat="server" AllowMultiRowEdit="true" AllowSorting="true"
-	    DataSourceID="SqlDataSource1" AllowPaging="true" PageSize="3" AllowMultiRowSelection="true"
-	    OnItemCommand="RadGrid1_ItemCommand">
-	    <MasterTableView DataKeyNames="CustomerID" Name="Customers">
-	      <Columns>
-	        <telerik:GridEditCommandColumn />
-	      </Columns>
-	      <DetailTables>
-	        <telerik:GridTableView DataKeyNames="OrderID,CustomerID" DataSourceID="SqlDataSource2"
-	          Name="Orders">
-	          <ParentTableRelation>
-	            <telerik:GridRelationFields DetailKeyField="CustomerID" MasterKeyField="CustomerID" />
-	          </ParentTableRelation>
-	          <Columns>
-	            <telerik:GridEditCommandColumn />
-	          </Columns>
-	        </telerik:GridTableView>
-	      </DetailTables>
-	    </MasterTableView>
-	    <ClientSettings>
-	      <Selecting AllowRowSelect="true" EnableDragToSelectRows="true" />
-	      <ClientEvents OnRowSelecting="RowSelecting" />
-	    </ClientSettings>
-	  </telerik:RadGrid>
-	  <asp:SqlDataSource ID="SqlDataSource1" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
-	    ProviderName="System.Data.SqlClient" SelectCommand="SELECT * FROM Customers"
-	    runat="server"></asp:SqlDataSource>
-	  <asp:SqlDataSource ID="SqlDataSource2" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
-	    ProviderName="System.Data.SqlClient" SelectCommand="SELECT * FROM Orders Where CustomerID = @CustomerID"
-	    runat="server">
-	    <SelectParameters>
-	      <asp:Parameter Name="CustomerID" SessionField="CustomerID" Type="string" />
-	    </SelectParameters>
-	  </asp:SqlDataSource>
+<script type="text/javascript">
+function RowSelecting(sender, eventArgs) {
+    var tableView = eventArgs.get_tableView();
+    if (eventArgs.get_tableView().get_name() != "Customers") {
+      if (tableView.get_selectedItems().length == 1) {
+        for (var i = 0; i < tableView.get_dataItems().length; i++) {
+          if (tableView.get_dataItems()[i].get_selected()) {
+            tableView.selectItem(tableView.get_dataItems()[i].get_element(), false);
+          }
+        }
+      }
+    }
+  }
+</script>
+<telerik:RadGrid ID="RadGrid1" runat="server" AllowMultiRowEdit="true" AllowSorting="true"
+  DataSourceID="SqlDataSource1" AllowPaging="true" PageSize="3" AllowMultiRowSelection="true"
+  OnItemCommand="RadGrid1_ItemCommand">
+  <MasterTableView DataKeyNames="CustomerID" Name="Customers">
+    <Columns>
+      <telerik:GridEditCommandColumn />
+    </Columns>
+    <DetailTables>
+      <telerik:GridTableView DataKeyNames="OrderID,CustomerID" DataSourceID="SqlDataSource2"
+        Name="Orders">
+        <ParentTableRelation>
+          <telerik:GridRelationFields DetailKeyField="CustomerID" MasterKeyField="CustomerID" />
+        </ParentTableRelation>
+        <Columns>
+          <telerik:GridEditCommandColumn />
+        </Columns>
+      </telerik:GridTableView>
+    </DetailTables>
+  </MasterTableView>
+  <ClientSettings>
+    <Selecting AllowRowSelect="true" EnableDragToSelectRows="true" />
+    <ClientEvents OnRowSelecting="RowSelecting" />
+  </ClientSettings>
+</telerik:RadGrid>
+<asp:SqlDataSource ID="SqlDataSource1" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
+  ProviderName="System.Data.SqlClient" SelectCommand="SELECT * FROM Customers"
+  runat="server"></asp:SqlDataSource>
+<asp:SqlDataSource ID="SqlDataSource2" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
+  ProviderName="System.Data.SqlClient" SelectCommand="SELECT * FROM Orders Where CustomerID = @CustomerID"
+  runat="server">
+  <SelectParameters>
+    <asp:Parameter Name="CustomerID" SessionField="CustomerID" Type="string" />
+  </SelectParameters>
+</asp:SqlDataSource>
 ````
 
 
@@ -94,25 +94,25 @@ The following code illustrates this technique on a two-level hierarchy.
 
 
 ````C#
-	    protected void RadGrid1_ItemCommand(object source, Telerik.Web.UI.GridCommandEventArgs e)
-	    {
-	        if (e.CommandName == RadGrid.EditCommandName && e.Item.OwnerTableView.Name != "Customers")
-	        {
-	            foreach (GridItem item in e.Item.OwnerTableView.Items)
-	            {
-	                item.Edit = false;
-	            }
-	        }
-	    }
+protected void RadGrid1_ItemCommand(object source, Telerik.Web.UI.GridCommandEventArgs e)
+{
+    if (e.CommandName == RadGrid.EditCommandName && e.Item.OwnerTableView.Name != "Customers")
+    {
+        foreach (GridItem item in e.Item.OwnerTableView.Items)
+        {
+            item.Edit = false;
+        }
+    }
+}
 ````
 ````VB
-	    Protected Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As Telerik.Web.UI.GridCommandEventArgs) Handles RadGrid1.ItemCommand
-	        If e.CommandName = RadGrid.EditCommandName AndAlso Not e.Item.OwnerTableView.Name = "Customers" Then
-	            Dim item As GridItem
-	            For Each item In e.Item.OwnerTableView.Items
-	                item.Edit = False
-	            Next
-	        End If
-	    End Sub
+Protected Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As Telerik.Web.UI.GridCommandEventArgs) Handles RadGrid1.ItemCommand
+    If e.CommandName = RadGrid.EditCommandName AndAlso Not e.Item.OwnerTableView.Name = "Customers" Then
+        Dim item As GridItem
+        For Each item In e.Item.OwnerTableView.Items
+            item.Edit = False
+        Next
+    End If
+End Sub
 ````
 

@@ -10,13 +10,11 @@ position: 3
 
 # Binding to Table-Based DataSource Components
 
-
-
 ## 
 
 Table-based **DataSource** components, such as **SqlDataSource** and **AccessDataSource** can be used to bind the tab strip declaratively in design time. As with [binding to a DataSet, DataTable, or DataView]({%slug tabstrip/data-binding/binding-to-datatable%}), you can use the *ID-ParentID* relation to establish a hierarchy among the tabs.
 
->note The[Binding to a Data Source]({%slug tabstrip/getting-started/binding-to-a-data-source%})tutorial gives step-by-step instructions for binding **RadTabStrip** to an **AccessDataSource** .
+>note The [Binding to a Data Source]({%slug tabstrip/getting-started/binding-to-a-data-source%}) tutorial gives step-by-step instructions for binding **RadTabStrip** to an **AccessDataSource** .
 >
 
 
@@ -39,53 +37,38 @@ To bind to a table-based DataSource component:
 
 1. Bind any additional properties of the tabs using the **[TabDataBound event]({%slug tabstrip/server-side-programming/tabdatabound%})**:
 
-
-
 ````C#
-	 
-	
-	void RadTabStrip1_TabDataBound( object sender, RadTabStripEventArgs e)
-	{
-	  e.Tab.ToolTip = "Read more about" + (string)DataBinder.Eval(e.Tab.DataItem, "Text");
-	 
-	} 
-	
-				
+void RadTabStrip1_TabDataBound( object sender, RadTabStripEventArgs e)
+{
+  e.Tab.ToolTip = "Read more about" + (string)DataBinder.Eval(e.Tab.DataItem, "Text");
+} 				
 ````
 ````VB.NET
-	     
-	Private Sub RadTabStrip1_TabDataBound(ByVal sender As Object, ByVal e As RadTabStripEventArgs) Handles RadTabStrip1.TabDataBound
-	    e.Tab.ToolTip = "Read more about" + DirectCast(DataBinder.Eval(e.Tab.DataItem, "Text"), String)
-	End Sub  
-	
-	
-	
-	
+Private Sub RadTabStrip1_TabDataBound(ByVal sender As Object, ByVal e As RadTabStripEventArgs) Handles RadTabStrip1.TabDataBound
+    e.Tab.ToolTip = "Read more about" + DirectCast(DataBinder.Eval(e.Tab.DataItem, "Text"), String)
+End Sub  
 ````
-
 
 The resulting declaration looks something like the following:
 
-````ASPNET
-	 
-	 <telerik:RadTabStrip
-	      runat="server"
-	      ID="RadTabStrip1"
-	      DataSourceID="SqlDataSource1"
-	      DataFieldID="id"
-	      DataFieldParentID ="parentID"
-	      DataTextField="Targetname"
-	      DataNavigatUrlField ="target"
-	      OnTabDataBound ="RadTabStrip1_TabDataBound">
-	</telerik:RadTabStrip>
-	<asp:SqlDataSource
-	      runat="server"
-	      ID="SqlDataSource1"
-	      ConnectionString ="Persist Security Info=False;Integrated Security=true;Initial Catalog=MyDB;server=(local)"
-	      ProviderName="System.Data.SqlClient"
-	      SelectCommand="SELECT id, Targetname, target, tooltip, parentId from TabStripTable" /> 
+````ASPNET	 
+ <telerik:RadTabStrip
+      runat="server"
+      ID="RadTabStrip1"
+      DataSourceID="SqlDataSource1"
+      DataFieldID="id"
+      DataFieldParentID ="parentID"
+      DataTextField="Targetname"
+      DataNavigatUrlField ="target"
+      OnTabDataBound ="RadTabStrip1_TabDataBound">
+</telerik:RadTabStrip>
+<asp:SqlDataSource
+      runat="server"
+      ID="SqlDataSource1"
+      ConnectionString ="Persist Security Info=False;Integrated Security=true;Initial Catalog=MyDB;server=(local)"
+      ProviderName="System.Data.SqlClient"
+      SelectCommand="SELECT id, Targetname, target, tooltip, parentId from TabStripTable" /> 
 ````
-
 
 
 # See Also

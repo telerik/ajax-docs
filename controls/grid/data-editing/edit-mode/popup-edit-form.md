@@ -18,36 +18,36 @@ position: 2
 Below is the markup, used in the example:
 
 ````ASP.NET
-	        <telerik:RadGrid ID="RadGrid1" AutoGenerateEditColumn="True" runat="server" AllowAutomaticDeletes="True"
-	            Skin="Silk" DataSourceID="SqlDataSource1" AllowPaging="True" CellSpacing="0" GridLines="None"
-	            OnItemDataBound="RadGrid1_ItemDataBound">
-	            <PagerStyle Mode="NextPrevAndNumeric" />
-	            <MasterTableView EditMode="PopUp" CommandItemDisplay="Top" DataKeyNames="CustomerID"
-	                AutoGenerateColumns="True">
-	                <CommandItemSettings ExportToPdfText="Export to PDF"></CommandItemSettings>
-	                <RowIndicatorColumn Visible="True" FilterControlAltText="Filter RowIndicator column">
-	                </RowIndicatorColumn>
-	                <ExpandCollapseColumn Visible="True" FilterControlAltText="Filter ExpandColumn column">
-	                </ExpandCollapseColumn>
-	                <EditFormSettings InsertCaption="Add new item" CaptionFormatString="Edit CustomerID: {0}"
-	                    CaptionDataField="CustomerID">
-	                    <EditColumn FilterControlAltText="Filter EditCommandColumn column">
-	                    </EditColumn>
-	                </EditFormSettings>
-	            </MasterTableView>
-	            <FilterMenu EnableImageSprites="False">
-	                <WebServiceSettings>
-	                    <ODataSettings InitialContainerName="">
-	                    </ODataSettings>
-	                </WebServiceSettings>
-	            </FilterMenu>
-	            <HeaderContextMenu CssClass="GridContextMenu GridContextMenu_Hay">
-	                <WebServiceSettings>
-	                    <ODataSettings InitialContainerName="">
-	                    </ODataSettings>
-	                </WebServiceSettings>
-	            </HeaderContextMenu>
-	        </telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" AutoGenerateEditColumn="True" runat="server" AllowAutomaticDeletes="True"
+    Skin="Silk" DataSourceID="SqlDataSource1" AllowPaging="True" CellSpacing="0" GridLines="None"
+    OnItemDataBound="RadGrid1_ItemDataBound">
+    <PagerStyle Mode="NextPrevAndNumeric" />
+    <MasterTableView EditMode="PopUp" CommandItemDisplay="Top" DataKeyNames="CustomerID"
+        AutoGenerateColumns="True">
+        <CommandItemSettings ExportToPdfText="Export to PDF"></CommandItemSettings>
+        <RowIndicatorColumn Visible="True" FilterControlAltText="Filter RowIndicator column">
+        </RowIndicatorColumn>
+        <ExpandCollapseColumn Visible="True" FilterControlAltText="Filter ExpandColumn column">
+        </ExpandCollapseColumn>
+        <EditFormSettings InsertCaption="Add new item" CaptionFormatString="Edit CustomerID: {0}"
+            CaptionDataField="CustomerID">
+            <EditColumn FilterControlAltText="Filter EditCommandColumn column">
+            </EditColumn>
+        </EditFormSettings>
+    </MasterTableView>
+    <FilterMenu EnableImageSprites="False">
+        <WebServiceSettings>
+            <ODataSettings InitialContainerName="">
+            </ODataSettings>
+        </WebServiceSettings>
+    </FilterMenu>
+    <HeaderContextMenu CssClass="GridContextMenu GridContextMenu_Hay">
+        <WebServiceSettings>
+            <ODataSettings InitialContainerName="">
+            </ODataSettings>
+        </WebServiceSettings>
+    </HeaderContextMenu>
+</telerik:RadGrid>
 ````
 
 
@@ -67,12 +67,12 @@ The Popup EditForm settings are controlled through the **PopUpSettings** propert
 In order to change the titlebar text appearance, please use the following CSS selector ("SkinName" should be replaced with the actual skin name):
 
 ````ASP.NET
-	    <style type="text/css">
-	        div.RadGrid_[SkinName] .rgEditForm .rgHeader
-	        {
-	            /*your custom styles here*/
-	        }
-	    </style>
+<style type="text/css">
+    div.RadGrid_[SkinName] .rgEditForm .rgHeader
+    {
+        /*your custom styles here*/
+    }
+</style>
 ````
 
 
@@ -96,46 +96,46 @@ This method is used the same way as the regular Focus method with the only diffe
 
 
 ````C#
-	    protected void RadGrid1_ItemDataBound(object sender, GridItemEventArgs e)
-	    {
-	        if (e.Item is GridEditableItem && e.Item.IsInEditMode)
-	        {
-	            GridEditableItem editItem = (GridEditableItem)e.Item;
-	            TextBox nameBox = (TextBox)editItem["CustomerID"].Controls[0];
-	            //nameBox.Focus();
-	            nameBox.Focus(100);
-	        }
-	    }
+protected void RadGrid1_ItemDataBound(object sender, GridItemEventArgs e)
+{
+    if (e.Item is GridEditableItem && e.Item.IsInEditMode)
+    {
+        GridEditableItem editItem = (GridEditableItem)e.Item;
+        TextBox nameBox = (TextBox)editItem["CustomerID"].Controls[0];
+        //nameBox.Focus();
+        nameBox.Focus(100);
+    }
+}
 ````
 ````VB
-	    Protected Sub RadGrid1_ItemDataBound(sender As Object, e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemDataBound
-	        If TypeOf e.Item Is GridEditableItem AndAlso e.Item.IsInEditMode Then
-	            Dim editItem As GridEditableItem = DirectCast(e.Item, GridEditableItem)
-	            Dim nameBox As TextBox = DirectCast(editItem("CustomerID").Controls(0), TextBox)
-	            'nameBox.Focus()
-	            nameBox.Focus(100)
-	        End If
-	    End Sub
-	#End Region
-	End Class
-	
-	#Region "pop-up-edit-form_1"
-	Module ControlExtensions
-	    <Extension()>
-	    Public Sub Focus(control As Control, delay As Integer)
-	        If control Is Nothing Then
-	            Throw New ArgumentNullException("control")
-	        End If
-	        If delay < 0 Then
-	            Throw New ArgumentOutOfRangeException("delay")
-	        End If
-	
-	        control.Focus()
-	
-	        ScriptManager.RegisterStartupScript(control, control.[GetType](), "focus", [String].Format("setTimeout(""WebForm_AutoFocus('{0}')"", {1});", control.ClientID, delay), True)
-	    End Sub
-	End Module
-	#End Region
+    Protected Sub RadGrid1_ItemDataBound(sender As Object, e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemDataBound
+        If TypeOf e.Item Is GridEditableItem AndAlso e.Item.IsInEditMode Then
+            Dim editItem As GridEditableItem = DirectCast(e.Item, GridEditableItem)
+            Dim nameBox As TextBox = DirectCast(editItem("CustomerID").Controls(0), TextBox)
+            'nameBox.Focus()
+            nameBox.Focus(100)
+        End If
+    End Sub
+#End Region
+End Class
+
+#Region "pop-up-edit-form_1"
+Module ControlExtensions
+    <Extension()>
+    Public Sub Focus(control As Control, delay As Integer)
+        If control Is Nothing Then
+            Throw New ArgumentNullException("control")
+        End If
+        If delay < 0 Then
+            Throw New ArgumentOutOfRangeException("delay")
+        End If
+
+        control.Focus()
+
+        ScriptManager.RegisterStartupScript(control, control.[GetType](), "focus", [String].Format("setTimeout(""WebForm_AutoFocus('{0}')"", {1});", control.ClientID, delay), True)
+    End Sub
+End Module
+#End Region
 ````
 
 

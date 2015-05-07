@@ -12,7 +12,7 @@ position: 6
 
 
 
-## 
+
 
 **OnLinkedInShare** - fires when the LinkedInShare button is clicked for sharing the page in LinedIn.
 

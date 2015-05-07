@@ -35,8 +35,10 @@ When the calendar is in multi view mode, the **TitleAlign** property controls th
 >
 
 
-The following screen shots show the effects of the **TitleFormat**, **DateRangeSeparator** and **TitleAlign** properties:
-![Using TitleAlign and TitleFormat properties](images/SingleviewTitle.png)![Using the DateRangeSeparator](images/titlerange.png)
+The following screenshots show the effects of the **TitleFormat**, **DateRangeSeparator** and **TitleAlign** properties:
+![Using TitleAlign and TitleFormat properties](images/SingleviewTitle.png)
+
+![Using the DateRangeSeparator](images/titlerange.png)
 
 ## Title Customization
 

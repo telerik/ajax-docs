@@ -17,6 +17,7 @@ position: 4
 >note 
 When using Multi-view mode, it is a good idea to use the **CalendarTableStyle** property to provide some separation between the individual calendar views. For more information on style properties, see [Styles]({%slug calendar/appearance-and-styling/styles%}).
 >
+
 ![RadCalendar in multiview mode](images/MultiViewMode.png)
 
 The code below shows the configuration of the multi-view calendar shown above:

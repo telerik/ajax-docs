@@ -10,8 +10,6 @@ position: 5
 
 # PageViewCreated 
 
-
-
 ## 
 
 **RadMultiPage** exposes a single server-side event - the **PageViewCreated** event.
@@ -29,32 +27,23 @@ Use a **PageViewCreated** event handler to add controls to the Controls collecti
 >caution The **ID** s of the controls that will be added to the **Controls** collection of the page views should be set upon each postback to the same value. Otherwise, different ID will be set to these controls on each postback and this might lead to ViewState problems
 >
 
-
-
-
 ````C#
-	     
-	
-	protected void RadMultiPage1_PageViewCreated(object sender, RadMultiPageEventArgs e)
-	{
-	   string userControlName = e.PageView.ID + "CS.ascx";
-	  
-	   Control userControl = Page.LoadControl(userControlName);
-	   userControl.ID = e.PageView.ID + "_userControl";
-	  
-	   e.PageView.Controls.Add(userControl);
-	} 
-	
-				
+protected void RadMultiPage1_PageViewCreated(object sender, RadMultiPageEventArgs e)
+{
+   string userControlName = e.PageView.ID + "CS.ascx";
+  
+   Control userControl = Page.LoadControl(userControlName);
+   userControl.ID = e.PageView.ID + "_userControl";
+  
+   e.PageView.Controls.Add(userControl);
+} 				
 ````
-````VB.NET
-	
-	Protected Sub RadMultiPage1_PageViewCreated(ByVal sender As Object, ByVal e As RadMultiPageEventArgs)
-	    Dim userControlName As String = e.PageView.ID + "VB.ascx"
-	    Dim userControl As Control = Page.LoadControl(userControlName)
-	    userControl.ID = e.PageView.ID + "_userControl"
-	    e.PageView.Controls.Add(userControl)
-	End Sub 
-				
+````VB.NET	
+Protected Sub RadMultiPage1_PageViewCreated(ByVal sender As Object, ByVal e As RadMultiPageEventArgs)
+    Dim userControlName As String = e.PageView.ID + "VB.ascx"
+    Dim userControl As Control = Page.LoadControl(userControlName)
+    userControl.ID = e.PageView.ID + "_userControl"
+    e.PageView.Controls.Add(userControl)
+End Sub 				
 ````
 

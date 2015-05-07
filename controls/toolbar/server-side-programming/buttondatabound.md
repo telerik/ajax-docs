@@ -10,8 +10,6 @@ position: 3
 
 # ButtonDataBound
 
-
-
 ## 
 
 The **ButtonDataBound** event occurs for each new button that is added to the **Items** collection of the toolbar when it is bound. This event only occurs if the buttons are loaded from a data source (the **DataSource** or **DataSourceID** property is set).
@@ -35,27 +33,22 @@ The **ButtonDataBound** event handler receives two arguments:
 Use the **ButtonDataBound** event handler to make changes to items as they are bound to the data. For example, you can set custom attributes based on other fields in the DataItem:
 
 
-
-````C#
-	     
-	    protected void RadToolBar1_ButtonDataBound(object sender, RadToolBarButtonEventArgs e)
-	    {   
-	        DataRowView dataSourceRow = (DataRowView) e.Item.DataItem;     
-	        //set custom attributes from the datasource:     
-	        e.Button.Attributes["customAttribute1"] = dataSourceRow["CustomAttribute1"].ToString();     
-	    }
-				
+````C#	     
+protected void RadToolBar1_ButtonDataBound(object sender, RadToolBarButtonEventArgs e)
+{   
+    DataRowView dataSourceRow = (DataRowView) e.Item.DataItem;     
+    //set custom attributes from the datasource:     
+    e.Button.Attributes["customAttribute1"] = dataSourceRow["CustomAttribute1"].ToString();     
+}				
 ````
-````VB.NET
-	     
-	    Protected Sub RadToolBar1_ButtonDataBound(ByVal sender As Object, ByVal e As RadToolBarButtonEventArgs)
-	
-	        Dim dataSourceRow As DataRowView = DirectCast(e.Item.DataItem, DataRowView)
-	        'set custom attributes from the datasource: 
-	        e.Button.Attributes("customAttribute1") = dataSourceRow("CustomAttribute1").ToString()
-	
-	    End Sub
-	
+````VB.NET	     
+Protected Sub RadToolBar1_ButtonDataBound(ByVal sender As Object, ByVal e As RadToolBarButtonEventArgs)
+
+    Dim dataSourceRow As DataRowView = DirectCast(e.Item.DataItem, DataRowView)
+    'set custom attributes from the datasource: 
+    e.Button.Attributes("customAttribute1") = dataSourceRow("CustomAttribute1").ToString()
+
+End Sub	
 ````
 
 

@@ -10,8 +10,6 @@ position: 2
 
 # TabCreated
 
-
-
 ## 
 
 **TabCreated** occurs every time a new tab is added to **Tabs** collection of the **RadTabStrip** instance or to the **Tabs** collection of a tab in the tab strip. **TabCreated** occurs for all tabs, not just those that result from data binding (when the **DataSource** or **DataSourceID** property is set).If the tab strip is bound to a data source, this event occurs *before* any data binding: that is, before any properties have been set to reflect the data from the data source.
@@ -28,23 +26,15 @@ The **TabCreated** event handler receives two arguments:
 
 Use an **TabCreated** event handler to initialize tabs as they are added to the tab strip when it is not data bound (for example, when they are [loaded from an XML file]({%slug tabstrip/tabs/loading-tabs-from-xml%})).
 
-
-
-
-
-````C#
-	
-	protected void RadTabStrip1_TabCreated(object sender, RadTabStripEventArgs e)
-	{
-	   e.Tab.ToolTip = e.Tab.Text;
-	} 
-				
+````C#	
+protected void RadTabStrip1_TabCreated(object sender, RadTabStripEventArgs e)
+{
+   e.Tab.ToolTip = e.Tab.Text;
+} 				
 ````
-````VB.NET
-	
-	Protected Sub RadTabStrip1_TabCreated(ByVal sender As Object, ByVal e As RadTabStripEventArgs)
-	 e.Tab.ToolTip = e.Tab.Text
-	End Sub 
-	
+````VB.NET	
+Protected Sub RadTabStrip1_TabCreated(ByVal sender As Object, ByVal e As RadTabStripEventArgs)
+ e.Tab.ToolTip = e.Tab.Text
+End Sub 	
 ````
 

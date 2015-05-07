@@ -10,8 +10,6 @@ position: 20
 
 # OnClientMouseOut
 
-
-
 ## 
 
 The **OnClientMouseOut** client-side event occurs when the mouse moves off an item in the toolbar.
@@ -28,22 +26,21 @@ The event handler receives two parameters:
 
 You can use this event to respond when the mouse moves off an item:
 
-````ASPNET
-	
-	    <script type="text/javascript">
-	        function markItem(toolbar, args) {
-	            var attributes = args.get_item().get_attributes();
-	            attributes.setAttribute("visited", "true");
-	        }
-	      </script>
-	
-	    <telerik:radtoolbar id="RadToolBar1" runat="server" onclientmouseout="markItem">  
-	        <Items>    
-	        <telerik:RadToolBarButton Text="Button1" />     
-	        <telerik:RadToolBarButton Text="Button2" />    
-	        <telerik:RadToolBarButton Text="Button3" /> 
-	        </Items>
-	    </telerik:radtoolbar>
+````ASPNET	
+<script type="text/javascript">
+    function markItem(toolbar, args) {
+        var attributes = args.get_item().get_attributes();
+        attributes.setAttribute("visited", "true");
+    }
+  </script>
+
+<telerik:radtoolbar id="RadToolBar1" runat="server" onclientmouseout="markItem">  
+<Items>    
+	<telerik:RadToolBarButton Text="Button1" />     
+	<telerik:RadToolBarButton Text="Button2" />    
+	<telerik:RadToolBarButton Text="Button3" /> 
+</Items>
+</telerik:radtoolbar>
 ````
 
 

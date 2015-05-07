@@ -26,22 +26,22 @@ Generally, responsive design means that the page and its content are able to ada
 **Example 1:** How to increase the font size of a RadWizard as shown in Figure 1.
 
 ````ASPNET
-	    <style type="text/css">
-	        div.RadWizard {
-	            font-size: 24px;
-	        }
-	    </style>
-	    <telerik:RadWizard ID="RadWizard3" runat="server">
-	        <WizardSteps>
-	            <telerik:RadWizardStep Title="Name">
-	                <telerik:RadTextBox ID="RadTextBox1" Label="First Name:" runat="server"></telerik:RadTextBox>
-	                <br />
-	                <telerik:RadTextBox ID="RadTextBox2" Label="Last Name:" runat="server"></telerik:RadTextBox>
-	            </telerik:RadWizardStep>
-	            <telerik:RadWizardStep Title="Address">
-	            </telerik:RadWizardStep>
-	        </WizardSteps>
-	    </telerik:RadWizard>
+<style type="text/css">
+	div.RadWizard {
+		font-size: 24px;
+	}
+</style>
+<telerik:RadWizard ID="RadWizard3" runat="server">
+	<WizardSteps>
+		<telerik:RadWizardStep Title="Name">
+			<telerik:RadTextBox ID="RadTextBox1" Label="First Name:" runat="server"></telerik:RadTextBox>
+			<br />
+			<telerik:RadTextBox ID="RadTextBox2" Label="Last Name:" runat="server"></telerik:RadTextBox>
+		</telerik:RadWizardStep>
+		<telerik:RadWizardStep Title="Address">
+		</telerik:RadWizardStep>
+	</WizardSteps>
+</telerik:RadWizard>
 ````
 
 
@@ -56,17 +56,17 @@ You can set the **Width** and **Height** properties of the **RadWizard** in **pe
 **Example 2**: Markup and CSS that provide a fluid RadWizard that changes size with the browser viewport
 
 ````ASPNET
-	     <telerik:RadWizard ID="RadWizard4" runat="server" Width="100%">
-	        <WizardSteps>
-	            <telerik:RadWizardStep Title="Name">
-	                <telerik:RadTextBox ID="RadTextBox3" Label="First Name:" runat="server"></telerik:RadTextBox>
-	                <br />
-	                <telerik:RadTextBox ID="RadTextBox4" Label="Last Name:" runat="server"></telerik:RadTextBox>
-	            </telerik:RadWizardStep>
-	            <telerik:RadWizardStep Title="Address">
-	            </telerik:RadWizardStep>
-	        </WizardSteps>
-	    </telerik:RadWizard>
+ <telerik:RadWizard ID="RadWizard4" runat="server" Width="100%">
+	<WizardSteps>
+		<telerik:RadWizardStep Title="Name">
+			<telerik:RadTextBox ID="RadTextBox3" Label="First Name:" runat="server"></telerik:RadTextBox>
+			<br />
+			<telerik:RadTextBox ID="RadTextBox4" Label="Last Name:" runat="server"></telerik:RadTextBox>
+		</telerik:RadWizardStep>
+		<telerik:RadWizardStep Title="Address">
+		</telerik:RadWizardStep>
+	</WizardSteps>
+</telerik:RadWizard>
 ````
 
 

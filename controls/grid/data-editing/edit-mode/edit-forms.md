@@ -17,13 +17,13 @@ To display the grid column editors in an auto-generated form when the grid switc
 When **EditMode** is "EditForms", the edit form appears immediately below the item that is being edited:
 
 ````ASP.NET
-	  <telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1">
-	    <MasterTableView EditMode="EditForms" DataSourceID="SqlDataSource1">
-	      <Columns>
-	        <telerik:GridEditCommandColumn />
-	      </Columns>
-	    </MasterTableView>
-	  </telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1">
+  <MasterTableView EditMode="EditForms" DataSourceID="SqlDataSource1">
+    <Columns>
+      <telerik:GridEditCommandColumn />
+    </Columns>
+  </MasterTableView>
+</telerik:RadGrid>
 ````
 
 
@@ -33,13 +33,13 @@ When **EditMode** is "EditForms", the edit form appears immediately below the it
 When **EditMode** is "PopUp", the edit form appears in a popup window above the grid:
 
 ````ASP.NET
-	  <telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1">
-	    <MasterTableView EditMode="PopUp" DataSourceID="SqlDataSource1">
-	      <Columns>
-	        <telerik:GridEditCommandColumn />
-	      </Columns>
-	    </MasterTableView>
-	  </telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1">
+  <MasterTableView EditMode="PopUp" DataSourceID="SqlDataSource1">
+    <Columns>
+      <telerik:GridEditCommandColumn />
+    </Columns>
+  </MasterTableView>
+</telerik:RadGrid>
 ````
 
 
@@ -55,34 +55,34 @@ When **EditMode** is "EditForms" or "PopUp", the grid row is of type **GridDataI
 
 
 ````C#
-	private void RadGrid1_ItemCreated(object sender, Telerik.Web.UI.GridItemEventArgs e)
-	{   
-	    if(e.Item is GridDataItem)   
-	    {    
-	        //the item is in regular mode 
-	        GridDataItem dataItem = e.Item as GridDataItem;   
-	        //do something here 
-	    }
-	    else if (e.Item is GridEditableItem && e.Item.IsInEditMode)
-	    {   
-	        //the item is in edit mode    
-	        GridEditableItem editedItem = e.Item as GridEditableItem;    
-	        //do something here  
-	    }
-	}			
+private void RadGrid1_ItemCreated(object sender, Telerik.Web.UI.GridItemEventArgs e)
+{   
+    if(e.Item is GridDataItem)   
+    {    
+        //the item is in regular mode 
+        GridDataItem dataItem = e.Item as GridDataItem;   
+        //do something here 
+    }
+    else if (e.Item is GridEditableItem && e.Item.IsInEditMode)
+    {   
+        //the item is in edit mode    
+        GridEditableItem editedItem = e.Item as GridEditableItem;    
+        //do something here  
+    }
+}			
 ````
 ````VB
-	    Private Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemCreated
-	        If (TypeOf e.Item Is GridDataItem) Then
-	            'the item is in regular mode 
-	            Dim dataItem As GridDataItem = CType(e.Item, GridDataItem)
-	            'do something here 
-	        ElseIf (TypeOf e.Item Is GridEditableItem AndAlso e.Item.IsInEditMode) Then
-	            'the item is in edit mode 
-	            Dim editedItem As GridEditableItem = CType(e.Item, GridEditableItem)
-	            'do something here
-	        End If
-	    End Sub
+Private Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemCreated
+    If (TypeOf e.Item Is GridDataItem) Then
+        'the item is in regular mode 
+        Dim dataItem As GridDataItem = CType(e.Item, GridDataItem)
+        'do something here 
+    ElseIf (TypeOf e.Item Is GridEditableItem AndAlso e.Item.IsInEditMode) Then
+        'the item is in edit mode 
+        Dim editedItem As GridEditableItem = CType(e.Item, GridEditableItem)
+        'do something here
+    End If
+End Sub
 ````
 
 
@@ -93,34 +93,34 @@ You can also use the **ParentItem** property of **GridEditFormItem** to access t
 
 
 ````C#
-	if(e.Item is GridDataItem)
-	{ 
-	    //find the edit form item  
-	    GridEditFormItem formItem = (e.Item as GridDataItem).EditFormItem as GridEditFormItem;
-	    //get the cell which wraps the controls inside the edit form 
-	    TableCell cell = formItem.EditFormCell as TableCell;
-	}
-	if (e.Item is GridEditableItem)
-	{ 
-	    //cast the item to GridEditFormItem 
-	    GridEditFormItem formItem = e.Item as GridEditFormItem;
-	    //reference its parent data item 
-	    GridDataItem dataItem = formItem.ParentItem as GridDataItem;
-	}			
+if(e.Item is GridDataItem)
+{ 
+    //find the edit form item  
+    GridEditFormItem formItem = (e.Item as GridDataItem).EditFormItem as GridEditFormItem;
+    //get the cell which wraps the controls inside the edit form 
+    TableCell cell = formItem.EditFormCell as TableCell;
+}
+if (e.Item is GridEditableItem)
+{ 
+    //cast the item to GridEditFormItem 
+    GridEditFormItem formItem = e.Item as GridEditFormItem;
+    //reference its parent data item 
+    GridDataItem dataItem = formItem.ParentItem as GridDataItem;
+}			
 ````
 ````VB
-	        If (TypeOf e.Item Is GridDataItem) Then
-	            'find the edit form item
-	            Dim formItem As GridEditFormItem = CType(CType(e.Item, GridDataItem).EditFormItem, GridEditFormItem)
-	            'get the cell which wraps the controls inside the edit form
-	            Dim cell As TableCell = CType(formItem.EditFormCell, TableCell)
-	        End If
-	        If (TypeOf e.Item Is GridEditableItem) Then
-	            'cast the item to GridEditFormItem
-	            Dim formItem As GridEditFormItem = CType(e.Item, GridEditFormItem)
-	            'reference its parent data item
-	            Dim dataItem As GridDataItem = CType(formItem.ParentItem, GridDataItem)
-	        End If
+If (TypeOf e.Item Is GridDataItem) Then
+    'find the edit form item
+    Dim formItem As GridEditFormItem = CType(CType(e.Item, GridDataItem).EditFormItem, GridEditFormItem)
+    'get the cell which wraps the controls inside the edit form
+    Dim cell As TableCell = CType(formItem.EditFormCell, TableCell)
+End If
+If (TypeOf e.Item Is GridEditableItem) Then
+    'cast the item to GridEditFormItem
+    Dim formItem As GridEditFormItem = CType(e.Item, GridEditFormItem)
+    'reference its parent data item
+    Dim dataItem As GridDataItem = CType(formItem.ParentItem, GridDataItem)
+End If
 ````
 
 
@@ -135,22 +135,22 @@ To support all edit modes in an application, check the table view's **EditMode**
 
 
 ````C#
-	foreach (GridDataItem item in RadGrid1.EditItems)
-	{
-	 GridEditableItem itemToEdit =
-	   (item.OwnerTableView.EditMode == GridEditMode.InPlace)
-	     ? item : (GridEditableItem) item.EditFormItem;
-	 //perform further operations
-	}
+foreach (GridDataItem item in RadGrid1.EditItems)
+{
+ GridEditableItem itemToEdit =
+   (item.OwnerTableView.EditMode == GridEditMode.InPlace)
+     ? item : (GridEditableItem) item.EditFormItem;
+ //perform further operations
+}
 ````
 ````VB
-	    Dim item As GridDataItem
-	    For Each item In RadGrid1.EditItems
-	        Dim itemToEdit As GridEditableItem = _
-	        (IIf item.OwnerTableView.EditMode = GridEditMode.InPlace Then _
-	        CType(item, GridEditableItem) _
-	        Else CType(item.EditFormItem, GridEditableItem))
-	    'perform further operations
-	    Next item
+Dim item As GridDataItem
+For Each item In RadGrid1.EditItems
+    Dim itemToEdit As GridEditableItem = _
+    (IIf item.OwnerTableView.EditMode = GridEditMode.InPlace Then _
+    CType(item, GridEditableItem) _
+    Else CType(item.EditFormItem, GridEditableItem))
+'perform further operations
+Next item
 ````
 

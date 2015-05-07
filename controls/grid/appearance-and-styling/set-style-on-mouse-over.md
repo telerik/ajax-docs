@@ -16,12 +16,12 @@ position: 6
 
 Sometimes, it may be necessary to style a given row/header in Telerik RadGrid, whenever the user hovers with the mouse over it. With RadGrid this functionality is easily achievable. The control provides a CSS class like *GridRowOver_<SkinName>*. Such style is present under each embedded skin and defines the visual appearance of the hovered grid row. For example:
 
-````ASP.NET
-	.GridRowOver_[SkinName]
-	{
-	background-color: orange;
-	cursor:pointer;
-	}
+````CSS
+.GridRowOver_[SkinName]
+{
+background-color: orange;
+cursor:pointer;
+}
 ````
 
 
@@ -38,27 +38,27 @@ If you want to attain the same functionality without the built-in feature of Rad
 
 2. Create a style class, in the head section of the .aspx code, which will be used to style the active row/header. This may look something like this:
 
-````ASP.NET
-	  <style type="text/css">
-	    .RowMouseOver td
-	    {
-	      background-color: lightblue !important;
-	    }
-	    .RowMouseOut
-	    {
-	      /*this style is taken from the corresponding skin's GridRow_[SkinName] class - GridRow_Default in our case*/
-	      background: #f7f7f7;
-	    }
-	    .HeaderMouseOver
-	    {
-	      background-color: lightblue !important;
-	    }
-	    .HeaderMouseOut
-	    {
-	      /*this style is taken from the corresponding skin's th.GridHeader class - th.GridHeader_Default in our case*/
-	      background: white url('Img/GridHeaderBg.gif') repeat-x bottom;
-	    }
-	  </style>
+````CSS
+<style type="text/css">
+  .RowMouseOver td
+  {
+    background-color: lightblue !important;
+  }
+  .RowMouseOut
+  {
+    /*this style is taken from the corresponding skin's GridRow_[SkinName] class - GridRow_Default in our case*/
+    background: #f7f7f7;
+  }
+  .HeaderMouseOver
+  {
+    background-color: lightblue !important;
+  }
+  .HeaderMouseOut
+  {
+    /*this style is taken from the corresponding skin's th.GridHeader class - th.GridHeader_Default in our case*/
+    background: white url('Img/GridHeaderBg.gif') repeat-x bottom;
+  }
+</style>
 ````
 
 
@@ -66,30 +66,30 @@ If you want to attain the same functionality without the built-in feature of Rad
 3. This particular approach relies on the **OnRowMouseOver**, **OnRowMouseOut**, **OnColumnMouseOver** and **OnColumnMouseOut** client-side functions, to use the style mentioned above. Declare these functions in the **ClientSettings ->ClientEvents** section of the grid declaration like this:
 
 ````ASP.NET
-	            <ClientSettings>
-	                <ClientEvents OnRowMouseOver="RowMouseOver" OnRowMouseOut="RowMouseOut" OnColumnMouseOver="ColumnMouseOver"
-	                    OnColumnMouseOut="ColumnMouseOut" />
-	            </ClientSettings>
+<ClientSettings>
+    <ClientEvents OnRowMouseOver="RowMouseOver" OnRowMouseOut="RowMouseOut" OnColumnMouseOver="ColumnMouseOver"
+        OnColumnMouseOut="ColumnMouseOut" />
+</ClientSettings>
 ````
 
 
 
 4. Before the grid tag on the page or in the head section, include the client-side JavaScript functions mentioned above:
 
-````ASP.NET
-	  <script type="text/javascript">
-	    function RowMouseOver(sender, eventArgs) {
-	      $get(eventArgs.get_id()).className = "RowMouseOver";
-	    }
-	    function RowMouseOut(sender, eventArgs) {
-	      $get(eventArgs.get_id()).className = "RowMouseOut";
-	    }
-	    function ColumnMouseOver(sender, eventArgs) {
-	      eventArgs.get_gridColumn().get_element().className = "HeaderMouseOver";
-	    }
-	    function ColumnMouseOut(sender, eventArgs) {
-	      eventArgs.get_gridColumn().get_element().className = "HeaderMouseOut";
-	    }</script>
+````JavaScript
+<script type="text/javascript">
+function RowMouseOver(sender, eventArgs) {
+  $get(eventArgs.get_id()).className = "RowMouseOver";
+}
+function RowMouseOut(sender, eventArgs) {
+  $get(eventArgs.get_id()).className = "RowMouseOut";
+}
+function ColumnMouseOver(sender, eventArgs) {
+  eventArgs.get_gridColumn().get_element().className = "HeaderMouseOver";
+}
+function ColumnMouseOut(sender, eventArgs) {
+  eventArgs.get_gridColumn().get_element().className = "HeaderMouseOut";
+}</script>
 ````
 
 

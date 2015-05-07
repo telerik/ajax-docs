@@ -14,7 +14,7 @@ position: 3
 
 ## 
 
-The **OnDayRender**client-side event handler is called for every calendar day cell when the calendar is rendered as a result of client-side navigation. This event mimics the server-side **DayRender** event, giving final control over the output of a specific calendar day cell. This event can be used to apply changes to the calendar cells when the user navigates that are identical to the server-side event handler applied to the cells in the initial view.
+The **OnDayRender** client-side event handler is called for every calendar day cell when the calendar is rendered as a result of client-side navigation. This event mimics the server-side **DayRender** event, giving final control over the output of a specific calendar day cell. This event can be used to apply changes to the calendar cells when the user navigates that are identical to the server-side event handler applied to the cells in the initial view.
 
 >note The **OnDayRender** event is supported by: **RadCalendar** .
 >
@@ -33,31 +33,35 @@ The event handler receives two arguments:
 | **get_date()** |Array object||Returns the triplet for the date the cell represents.|
 | **get_cell()** |Cell element||Returns object for the cell being rendered.|
 
-The following example uses the **OnDayRender**event to change the text for the non-current month and for dates that fall outside the selectable range. It also changes the background color on weekend days:
+The following example uses the **OnDayRender** event to change the text for the non-current month and for dates that fall outside the selectable range. It also changes the background color on weekend days:
 
 ````ASPNET
-	<script type="text/javascript">
-	    function RenderADay(sender, eventArgs) {
-	        var cell = eventArgs.get_cell();
-	        var day = eventArgs.get_renderDay();
-	        if (day) {
-	            var view = day.RadCalendarView;
-	            if (eventArgs.get_date()[1] != view._MonthStartDate[1]) {
-	                cell.innerText = "(" + cell.innerText + ")";
-	            }
-	
-	            if (day.get_isWeekend())
-	                cell.style.backgroundColor = "#efefef";
-	        }
-	        else
-	            cell.innerText = "";
-	    }
-	</script>
-	<telerik:RadCalendar ID="RadCalendar1" runat="server">
-	    <ClientEvents OnDayRender="RenderADay" />
-	</telerik:RadCalendar>  			
+<telerik:RadCalendar ID="RadCalendar1" runat="server">
+    <ClientEvents OnDayRender="dayRender" />
+</telerik:RadCalendar>  			
 ````
+````JavaScript
+function dayRender(sender, eventArgs) {
+	var cell = eventArgs.get_cell();
+	var day = eventArgs.get_renderDay();
+	var view;
+	
+	if (day) {
+		view = day.RadCalendarView;
+		
+		if (eventArgs.get_date()[1] != view._MonthStartDate[1]) {
+			cell.innerText = "(" + cell.innerText + ")";
+		}
 
+		if (day.get_isWeekend()) {
+			cell.style.backgroundColor = "#efefef";
+		}
+	}
+	else {
+		cell.innerText = "";
+	}
+}
+````
 
 
 # See Also

@@ -10,8 +10,6 @@ position: 5
 
 # OnClientMouseOver
 
-
-
 ## 
 
 The **OnClientMouseOver**client-side event occurs when the mouse moves over an item in the menu.
@@ -29,20 +27,20 @@ The event handler receives two parameters:
 You can use this event to respond when the mouse is over an item:
 
 ````ASPNET
-	    <script type="text/javascript">
-	        function ShowItem(menu, args) {
-	            var label = document.getElementById("Label1");
-	            label.innerText = args.get_item().get_text();
-	        }
-	    </script>
-	    <telerik:RadMenu ID="RadMenu1" runat="server" Flow="Horizontal" OnClientMouseOver="ShowItem">
-	        <Items>
-	            ...
-	        </Items>
-	    </telerik:RadMenu>
-	    <br />
-	    <br />
-	    <asp:Label ID="Label1" runat="server" Text=""></asp:Label>
+<script type="text/javascript">
+    function ShowItem(menu, args) {
+        var label = document.getElementById("Label1");
+        label.innerText = args.get_item().get_text();
+    }
+</script>
+<telerik:RadMenu ID="RadMenu1" runat="server" Flow="Horizontal" OnClientMouseOver="ShowItem">
+    <Items>
+        ...
+    </Items>
+</telerik:RadMenu>
+<br />
+<br />
+<asp:Label ID="Label1" runat="server" Text=""></asp:Label>
 ````
 
 

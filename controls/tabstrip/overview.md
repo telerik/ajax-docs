@@ -10,13 +10,11 @@ position: 0
 
 # TabStrip Overview
 
-
-
 ## 
 
-__Telerik RadTabStrip__is an easy and flexible navigation component that can be used in ASP.NET AJAX applications.It also can be used in a combination with the[Telerik RadMultiPage]({%slug tabstrip/radmultipage/overview%}) so that the user can easily manage the content of pagesthat are selected fron the __RadTabStrip__.
+**Telerik RadTabStrip** is an easy and flexible navigation component that can be used in ASP.NET AJAX applications.It also can be used in a combination with the [Telerik RadMultiPage]({%slug tabstrip/radmultipage/overview%}) so that the user can easily manage the content of pagesthat are selected fron the **RadTabStrip**.
 
-Using __RadTabStrip__, you get:
+Using **RadTabStrip**, you get:
 
 * A [client-side API]({%slug tabstrip/client-side-programming/overview%}) that includes the ability to add, remove and update tabs. One can also have these changes persist after a postback to the server.
 

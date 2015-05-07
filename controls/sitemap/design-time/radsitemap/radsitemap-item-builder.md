@@ -14,7 +14,7 @@ position: 1
 
 The **RadSiteMap Item Builder** lets you populate your sitemap with a hierarchy of items that do not come from a separate data source. There are two ways to bring up the RadSiteMap Item Builder:
 
-* From the **RadSiteMap**[Smart Tag]({%slug sitemap/design-time/radsitemap/smart-tag%}), click on the **Build RadSiteMap** link.
+* From the **RadSiteMap** [Smart Tag]({%slug sitemap/design-time/radsitemap/smart-tag%}), click on the **Build RadSiteMap** link.
 
 * Right-click on the **RadSiteMap** component and select **Build RadSiteMap** from its context menu.
 
@@ -29,10 +29,7 @@ The **RadSiteMap Item builder** lets you add, rearrange, configure, and delete s
 ![RadSiteMap iItem Builder Toolbar](images/sitemap_itembuildertoolbar.png)
 
 
-
 The following table describes the controls in the tool bar:
-
-
 
 
 | Button | Function |
@@ -51,7 +48,7 @@ The following table describes the controls in the tool bar:
 
 * **Text** is the text of the item as it appears in the sitemap.
 
-* **ToolTip**is the text of a tooltip that appears when the user hovers the mouse over the item.
+* **ToolTip** is the text of a tooltip that appears when the user hovers the mouse over the item.
 
 * **Enabled** controls whether the item is initially enabled or disabled.
 

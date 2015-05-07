@@ -36,21 +36,19 @@ The event handler receives two arguments:
 The following example uses the **OnDateSelecting** event to confirm a change of selection and cancel the change if the user does not confirm:
 
 ````ASPNET
-	<script type="text/javascript">
-	    function ConfirmChange(sender, eventArgs) {
-	        var date = eventArgs.get_renderDay().get_date();
-	        var dfi = sender.DateTimeFormatInfo;
-	        var formattedDate = dfi.FormatDate(date, dfi.ShortDatePattern);
-	        eventArgs.set_cancel(!confirm("Are you sure you want to " +
-	        (eventArgs.get_isSelecting() ? "select " : "unselect ") +
-	        formattedDate + "?"));
-	    }
-	</script>
-	<telerik:RadCalendar ID="RadCalendar1" runat="server">
-	    <ClientEvents OnDateSelecting="ConfirmChange" />
-	</telerik:RadCalendar>
+<telerik:RadCalendar ID="RadCalendar1" runat="server">
+    <ClientEvents OnDateSelecting="confirmChange" />
+</telerik:RadCalendar>
 ````
-
+````JavaScript
+function confirmChange(sender, eventArgs) {
+	var date = eventArgs.get_renderDay().get_date();
+	var dfi = sender.DateTimeFormatInfo;
+	var formattedDate = dfi.FormatDate(date, dfi.ShortDatePattern);
+	
+	eventArgs.set_cancel(!confirm("Are you sure you want to " +	(eventArgs.get_isSelecting() ? "select " : "unselect ") + formattedDate + "?"));
+}
+````
 
 
 # See Also

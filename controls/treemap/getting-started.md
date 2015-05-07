@@ -11,7 +11,6 @@ position: 1
 # Getting Started
 
 
-
 The following article demonstrates how you can add a **RadTreeMap** control with three steps. The end result will be similar to **Figure 1**:
 >caption Figure 1: RadTreeMap data visualization with three easy steps.
 
@@ -23,7 +22,7 @@ The following article demonstrates how you can add a **RadTreeMap** control with
 
 ## 
 
-To add a **RadTreeMap** control into the page, you can simply drag it from the Visual Studio Toolbox into an ASP.NET page with correctly set ScriptManager control. Or you can paste the markup from**Example 1** into the form element.
+To add a **RadTreeMap** control into the page, you can simply drag it from the Visual Studio Toolbox into an ASP.NET page with correctly set ScriptManager control. Or you can paste the markup from **Example 1** into the form element.
 
 1. Add a **ScriptManager** control on the Web Form.
 
@@ -34,40 +33,38 @@ To add a **RadTreeMap** control into the page, you can simply drag it from the V
 **Example 1**: Simple declaration of a **RadTreeMap** control.
 
 
-
 ````ASPNET
-	        <telerik:radtreemap runat="server" id="RadTreeMap1" height="250" width="400">
-	                <Items>
-	                    <telerik:TreeMapItem Text="Parent Item">
-	                        <Items>
-	                            <telerik:TreeMapItem Text="Item 1" Value="6">
-	                                <Items>
-	                                    <telerik:TreeMapItem Text="Sub Item 1.1" Value="2"></telerik:TreeMapItem>
-	                                    <telerik:TreeMapItem Text="Sub Item 1.2" Value="2"></telerik:TreeMapItem>
-	                                    <telerik:TreeMapItem Text="Sub Item 1.3" Value="1"></telerik:TreeMapItem>
-	                                </Items>
-	                            </telerik:TreeMapItem>
-	                            <telerik:TreeMapItem Text="Item 2" Value="4">
-	                                <Items>
-	                                    <telerik:TreeMapItem Text="Sub Item 2.1" Value="5"></telerik:TreeMapItem>
-	                                    <telerik:TreeMapItem Text="Sub Item 2.2" Value="5"></telerik:TreeMapItem>
-	                                    <telerik:TreeMapItem Text="Sub Item 2.3" Value="3"></telerik:TreeMapItem>
-	                                    <telerik:TreeMapItem Text="Sub Item 2.5" Value="2"></telerik:TreeMapItem>
-	                                </Items>
-	                            </telerik:TreeMapItem>
-	                            <telerik:TreeMapItem Text="Item 3" Value="3">
-	                                <Items>
-	                                    <telerik:TreeMapItem Text="Sub Item 3.1" Value="2"></telerik:TreeMapItem>
-	                                    <telerik:TreeMapItem Text="Sub Item 3.2" Value="2"></telerik:TreeMapItem>
-	                                    <telerik:TreeMapItem Text="Sub Item 3.4" Value="1"></telerik:TreeMapItem>
-	                                </Items>
-	                            </telerik:TreeMapItem>
-	                        </Items>
-	                    </telerik:TreeMapItem>
-	                </Items>
-	            </telerik:radtreemap>
+<telerik:radtreemap runat="server" id="RadTreeMap1" height="250" width="400">
+    <Items>
+        <telerik:TreeMapItem Text="Parent Item">
+            <Items>
+                <telerik:TreeMapItem Text="Item 1" Value="6">
+                    <Items>
+                        <telerik:TreeMapItem Text="Sub Item 1.1" Value="2"></telerik:TreeMapItem>
+                        <telerik:TreeMapItem Text="Sub Item 1.2" Value="2"></telerik:TreeMapItem>
+                        <telerik:TreeMapItem Text="Sub Item 1.3" Value="1"></telerik:TreeMapItem>
+                    </Items>
+                </telerik:TreeMapItem>
+                <telerik:TreeMapItem Text="Item 2" Value="4">
+                    <Items>
+                        <telerik:TreeMapItem Text="Sub Item 2.1" Value="5"></telerik:TreeMapItem>
+                        <telerik:TreeMapItem Text="Sub Item 2.2" Value="5"></telerik:TreeMapItem>
+                        <telerik:TreeMapItem Text="Sub Item 2.3" Value="3"></telerik:TreeMapItem>
+                        <telerik:TreeMapItem Text="Sub Item 2.5" Value="2"></telerik:TreeMapItem>
+                    </Items>
+                </telerik:TreeMapItem>
+                <telerik:TreeMapItem Text="Item 3" Value="3">
+                    <Items>
+                        <telerik:TreeMapItem Text="Sub Item 3.1" Value="2"></telerik:TreeMapItem>
+                        <telerik:TreeMapItem Text="Sub Item 3.2" Value="2"></telerik:TreeMapItem>
+                        <telerik:TreeMapItem Text="Sub Item 3.4" Value="1"></telerik:TreeMapItem>
+                    </Items>
+                </telerik:TreeMapItem>
+            </Items>
+        </telerik:TreeMapItem>
+    </Items>
+</telerik:radtreemap>
 ````
-
 
 >note All **RadTreeMapItems** should have one **Parent** item.
 >

@@ -24,27 +24,27 @@ The client-side **OnLoad** event handler receives one argument:
 
 **Example 1**: Handle the **RadWizard**'s client-side **Load** event.
 
-````JavaScript
-	        <script type="text/javascript">
-	            function OnClientLoad(sender) {
-	                var wizard = sender;
-	                var stepsNumber = wizard.get_wizardSteps().get_count()
-	                alert("The wizard client-side object is fully loaded and the number of wizard steps are  " + stepsNumber);
-	            }
-	        </script>
-	
-	        <telerik:RadWizard ID="RadWizard1" runat="server" OnClientLoad="OnClientLoad">
-	            <WizardSteps>
-	                <telerik:RadWizardStep Title="Step1">
-	                    <telerik:RadTextBox ID="RadTextBox2" runat="server"></telerik:RadTextBox>
-	                    <telerik:RadTextBox ID="RadTextBox1" runat="server"></telerik:RadTextBox>
-	                </telerik:RadWizardStep>
-	                <telerik:RadWizardStep Title="Step2">
-	                    <telerik:RadTextBox ID="RadTextBox3" runat="server"></telerik:RadTextBox>
-	                    <telerik:RadTextBox ID="RadTextBox4" runat="server"></telerik:RadTextBox>
-	                </telerik:RadWizardStep>
-	            </WizardSteps>
-	        </telerik:RadWizard>
+````ASPNET
+<script type="text/javascript">
+	function OnClientLoad(sender) {
+		var wizard = sender;
+		var stepsNumber = wizard.get_wizardSteps().get_count()
+		alert("The wizard client-side object is fully loaded and the number of wizard steps are  " + stepsNumber);
+	}
+</script>
+
+<telerik:RadWizard ID="RadWizard1" runat="server" OnClientLoad="OnClientLoad">
+	<WizardSteps>
+		<telerik:RadWizardStep Title="Step1">
+			<telerik:RadTextBox ID="RadTextBox2" runat="server"></telerik:RadTextBox>
+			<telerik:RadTextBox ID="RadTextBox1" runat="server"></telerik:RadTextBox>
+		</telerik:RadWizardStep>
+		<telerik:RadWizardStep Title="Step2">
+			<telerik:RadTextBox ID="RadTextBox3" runat="server"></telerik:RadTextBox>
+			<telerik:RadTextBox ID="RadTextBox4" runat="server"></telerik:RadTextBox>
+		</telerik:RadWizardStep>
+	</WizardSteps>
+</telerik:RadWizard>
 ````
 
 

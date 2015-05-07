@@ -26,15 +26,15 @@ On **RadNumericTextBox** and **RadDateInput**, the following two parameters are 
 
 * **eventArgs** has the following methods:
 
-* **set_cancel()** lets you tell the input control to cancel the event that caused the error.
+	* **set_cancel()** lets you tell the input control to cancel the event that caused the error.
 
-* **get_inputText()** returns the value that the user tried to assign to the input control, except in the case when **RadNumericTextBox** detects an invalid character, in which case it returns the current value of the numeric text box.
+	* **get_inputText()** returns the value that the user tried to assign to the input control, except in the case when **RadNumericTextBox** detects an invalid character, in which case it returns the current value of the numeric text box.
 
-* **get_reason()** returns a value indicating the type of error that was detected.The possible values are:
+	* **get_reason()** returns a value indicating the type of error that was detected.The possible values are:
 
-1. Parsing error.
+		1. Parsing error.
 
-1. Out of range.
+		1. Out of range.
 
 >note When **RadDateInput** cannot parse the value that the user entered, it raises two **OnError** events -- the first with the reason set to 1 (Parsing error) and the second with the reason set to 2 (Out of range).
 >
@@ -46,61 +46,61 @@ On **RadMaskedTextBox**, the following two parameters are passed to the event ha
 
 * **eventArgs** has the following methods:
 
-* **set_cancel()** lets you tell the masked text box to cancel the event that caused the error.
+	* **set_cancel()** lets you tell the masked text box to cancel the event that caused the error.
 
-* **get_newValue()** returns the invalid value that the user tried to assign to a mask part.
+	* **get_newValue()** returns the invalid value that the user tried to assign to a mask part.
 
-* **get_oldValue()**returns the value that was assigned to the mask part before the error.
+	* **get_oldValue()**returns the value that was assigned to the mask part before the error.
 
-* **get_currentPart()** returns the client-side object of the mask part that detected the error.
+	* **get_currentPart()** returns the client-side object of the mask part that detected the error.
 
 The following example uses the **OnError** event to raise an alert when an error is detected:
 
 ````ASPNET
-	    <telerik:RadMaskedTextBox ID="RadMaskedTextBox1" runat="server" Mask="(###) ###-#####">
-	        <ClientEvents OnError="HandleError" />
-	    </telerik:RadMaskedTextBox>
-	    <telerik:RadTextBox ID="RadTextBox1" runat="server">
-	        <ClientEvents OnError="HandleError" />
-	    </telerik:RadTextBox>
-	    <telerik:RadNumericTextBox ID="RadNumericTextBox1" runat="server" MaxValue="10" MinValue="0">
-	        <Clientevents onerror="HandleError" />
-	    </telerik:RadNumericTextBox>
+<telerik:RadMaskedTextBox ID="RadMaskedTextBox1" runat="server" Mask="(###) ###-#####">
+	<ClientEvents OnError="HandleError" />
+</telerik:RadMaskedTextBox>
+<telerik:RadTextBox ID="RadTextBox1" runat="server">
+	<ClientEvents OnError="HandleError" />
+</telerik:RadTextBox>
+<telerik:RadNumericTextBox ID="RadNumericTextBox1" runat="server" MaxValue="10" MinValue="0">
+	<Clientevents onerror="HandleError" />
+</telerik:RadNumericTextBox>
 ````
 
 
 
 ````JavaScript
-	    <script type="text/javascript">
-	        function HandleError(sender, eventArgs)
-	        {
-	            if (sender.get_id() == "<%= RadMaskedTextBox1.ClientID %>")
-	            {
-	                alert("Invalid value: " + eventArgs.get_newValue());
-	                var part = eventArgs.get_currentPart();
-	                if (part)
-	                {
-	                    sender.set_cursorPosition(part.offset);
-	                }
-	            }
-	            else
-	            {
-	                switch (eventArgs.get_reason())
-	                {
-	                    case 1: // Parsing error     
-	                        if (sender.get_id() == "<%= RadNumericTextBox1.ClientID %>")
-	                            alert("Invalid character!");
-	                        else
-	                            alert("Value could not be parsed: " + eventArgs.get_inputText());
-	                        break;
-	                    case 2: // Out of range
-	                        alert("Value out of range: " + eventArgs.get_inputText());
-	                        break;
-	                }
-	            }
-	            eventArgs.set_cancel(true);
-	        }
-	    </script>
+<script type="text/javascript">
+	function HandleError(sender, eventArgs)
+	{
+		if (sender.get_id() == "<%= RadMaskedTextBox1.ClientID %>")
+		{
+			alert("Invalid value: " + eventArgs.get_newValue());
+			var part = eventArgs.get_currentPart();
+			if (part)
+			{
+				sender.set_cursorPosition(part.offset);
+			}
+		}
+		else
+		{
+			switch (eventArgs.get_reason())
+			{
+				case 1: // Parsing error     
+					if (sender.get_id() == "<%= RadNumericTextBox1.ClientID %>")
+						alert("Invalid character!");
+					else
+						alert("Value could not be parsed: " + eventArgs.get_inputText());
+					break;
+				case 2: // Out of range
+					alert("Value out of range: " + eventArgs.get_inputText());
+					break;
+			}
+		}
+		eventArgs.set_cancel(true);
+	}
+</script>
 ````
 
 

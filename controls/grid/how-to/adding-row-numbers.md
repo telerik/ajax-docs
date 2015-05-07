@@ -27,42 +27,40 @@ In the example code below the item index is presented in MS Label control which 
 
 
 ````ASP.NET
-	  <telerik:RadGrid ID="RadGrid1" DataSourceID="SqlDataSource1" AllowSorting="True"
-	    Skin="Vista" runat="server" Width="95%" OnItemDataBound="RadGrid1_ItemDataBound">
-	    <MasterTableView>
-	      <Columns>
-	        <telerik:GridTemplateColumn UniqueName="TemplateColumn" HeaderText="Row number">
-	          <ItemTemplate>
-	            <asp:Label ID="numberLabel" runat="server" Width="30px" />
-	          </ItemTemplate>
-	          <HeaderStyle Width="30px" />
-	        </telerik:GridTemplateColumn>
-	      </Columns>
-	    </MasterTableView>
-	  </telerik:RadGrid>
-	  <br />
-	  <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
-	        SelectCommand="SELECT [CustomerID], [CompanyName], [ContactName], [ContactTitle], [Address], [City], [Region], [PostalCode] FROM [Customers]">
-	  </asp:SqlDataSource>
+<telerik:RadGrid ID="RadGrid1" DataSourceID="SqlDataSource1" AllowSorting="True"
+  Skin="Vista" runat="server" Width="95%" OnItemDataBound="RadGrid1_ItemDataBound">
+  <MasterTableView>
+    <Columns>
+      <telerik:GridTemplateColumn UniqueName="TemplateColumn" HeaderText="Row number">
+        <ItemTemplate>
+          <asp:Label ID="numberLabel" runat="server" Width="30px" />
+        </ItemTemplate>
+        <HeaderStyle Width="30px" />
+      </telerik:GridTemplateColumn>
+    </Columns>
+  </MasterTableView>
+</telerik:RadGrid>
+<br />
+<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
+      SelectCommand="SELECT [CustomerID], [CompanyName], [ContactName], [ContactTitle], [Address], [City], [Region], [PostalCode] FROM [Customers]">
+</asp:SqlDataSource>
 ````
-````C#
-	
-	    protected void RadGrid1_ItemDataBound(object sender, Telerik.Web.UI.GridItemEventArgs e)
-	    {
-	        if (e.Item is GridDataItem && e.Item.OwnerTableView.DataSourceID == "AccessDataSource1")
-	        {
-	            Label lbl = e.Item.FindControl("numberLabel") as Label;
-	            lbl.Text = (e.Item.ItemIndex + 1).ToString();
-	        }
-	    }
-	
+````C#	
+protected void RadGrid1_ItemDataBound(object sender, Telerik.Web.UI.GridItemEventArgs e)
+{
+    if (e.Item is GridDataItem && e.Item.OwnerTableView.DataSourceID == "AccessDataSource1")
+    {
+        Label lbl = e.Item.FindControl("numberLabel") as Label;
+        lbl.Text = (e.Item.ItemIndex + 1).ToString();
+    }
+}
 ````
 ````VB
-	    Protected Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs)
-	        If (TypeOf e.Item Is GridDataItem AndAlso e.Item.OwnerTableView.DataSourceID = "AccessDataSource1") Then
-	            Dim lbl As Label = CType(e.Item.FindControl("numberLabel"), Label)
-	            lbl.Text = (e.Item.ItemIndex + 1).ToString
-	        End If
-	    End Sub
+Protected Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs)
+    If (TypeOf e.Item Is GridDataItem AndAlso e.Item.OwnerTableView.DataSourceID = "AccessDataSource1") Then
+        Dim lbl As Label = CType(e.Item.FindControl("numberLabel"), Label)
+        lbl.Text = (e.Item.ItemIndex + 1).ToString
+    End If
+End Sub
 ````
 

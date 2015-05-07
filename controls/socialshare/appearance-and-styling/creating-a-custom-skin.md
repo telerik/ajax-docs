@@ -28,26 +28,29 @@ Each of the controls included in the Telerik UI for ASP.NET AJAX suite is styled
 
 1. When you are finished you should have **Skins/MyCustomSkin/SocialShare.MyCustomSkin.css** and **Skins/MyCustomSkin/SocialShare**. The last folder contains the images for **MyCustomSkin**
 
-1. In order to support multiple skins of **RadSocialShare** on a single page, the wrapping skin-specific class is coined by the name of the control, **RadSocialShare** plus underscore ("_") plus **SkinName**, i.e.**.RadSocialShare_Default**, so in order to create a custom skin out of the Default skin, we should rename all occurrences of "**Default**" in SocialShare.MyCustomSkin.css to "**MyCustomSkin**" as shown below:![radsocialshare-find-and-replace](images/radsocialshare-find-and-replace.gif)
+1. In order to support multiple skins of **RadSocialShare** on a single page, the wrapping skin-specific class is coined by the name of the control, **RadSocialShare** plus underscore ("_") plus **SkinName**, i.e., **.RadSocialShare_Default**, so in order to create a custom skin out of the Default skin, we should rename all occurrences of "**Default**" in SocialShare.MyCustomSkin.css to "**MyCustomSkin**" as shown below:
+
+	![radsocialshare-find-and-replace](images/radsocialshare-find-and-replace.gif)
 
 1. Add a new server declaration of **RadSocialShare** on your page, and set **Skin="MyCustomSkin" and EnableEmbeddedSkins="false"**:
 
-````ASPNET
+	__ASP.NET__
+
 	    <telerik:RadSocialShare ID="ssh1" runat="server" EnableEmbeddedSkins="false" Skin="MyCustomSkin">
 	    </telerik:RadSocialShare>
-````
 
 
 
-1. Register **SocialShare.MyCustomSkin.css** in the <head>…</head> section of your webpage.In order to have the CSS applied correctly, the base stylesheet should come first in the DOM:
+1. Register **SocialShare.MyCustomSkin.css** in the `<head>…</head>` section of your webpage.In order to have the CSS applied correctly, the base stylesheet should come first in the DOM:
 
-````ASPNET
+	__HTML__
+
 	    <link href="Skins/MyCustomSkin/SocialShare.MyCustomSkin.css" rel="stylesheet" type="text/css" />
-````
 
-Make sure the path to the files is correct; otherwise the skin will not apply.
 
-1. Reload the page, and if the steps 0-8 have been followed correctly, you will see **RadSocialShare**running a custom **Default** skin set as an external resource
+	Make sure the path to the files is correct; otherwise the skin will not apply.
+
+1. Reload the page, and if the steps 0-8 have been followed correctly, you will see **RadSocialShare** running a custom **Default** skin set as an external resource
 
 ## Modifying the Image Sprites to Achieve Totally New Looks for the Skin
 
@@ -55,32 +58,41 @@ Each skin of **RadSocialShare** consists of one image sprite common for all embe
 
 1. Copy the sprite from **Skins/Common/SocialShare/** and paste it to **Skins/MyCustomSkin/SocialShare** folder.
 
-1. As in the embedded skin the background image url is set in the base stylesheet, you have to override it in **SocialShare.MyCustomSkin.css**:
+1. As in the embedded skin the background image URL is set in the base stylesheet, you have to override it in **SocialShare.MyCustomSkin.css**:
 
-````ASPNET
+	__CSS__
+
 	    .RadSocialShare_MyCustomSkin .sshIcon
 	    {
 	        background-image:url(SocialShare/SocialShareSprite.png);
 	    }
-````
 
 
-
-
-
-Explained below is a simple method for modifying the image sprites of **RadSocialShare** withAdobe© PhotoShop to achieve new looks without creating a new design:
+Explained below is a simple method for modifying the image sprites of **RadSocialShare** with Adobe© PhotoShop to achieve new looks without creating a new design:
 
 1. Drag **SocialShareSprite.png** in Adobe© PhotoShop
 
-1. From the menu bar select Image » Mode » RGB Color to prepare the images for editing (convert from optimized Indexed Color to RGB Color):![radsocialshare-rgb](images/radsocialshare-rgb.gif)
+1. From the menu bar select Image » Mode » RGB Color to prepare the images for editing (convert from optimized Indexed Color to RGB Color):
 
-1. Press Set Foreground Color in PhotoShop's toolbox to invoke the color picker dialog:![radsocialshare-foreground](images/radsocialshare-foreground.gif)
+	![radsocialshare-rgb](images/radsocialshare-rgb.gif)
 
-1. Select a color that you like from the color dialog and then close it:![radsocialshare-select-color](images/radsocialshare-select-color.gif)
+1. Press Set Foreground Color in PhotoShop's toolbox to invoke the color picker dialog:
 
-1. Choose the image you will modify, and select Image » Adjustments Hue » / Saturation to open the Hue / Saturation dialog of Adobe© PhotoShop:![radsocialshare-choose-hue](images/radsocialshare-choose-hue.gif)
+	![radsocialshare-foreground](images/radsocialshare-foreground.gif)
 
-1. Check the colorize checkbox in the Hue / Saturation dialog, and the image you have selected will be immediately colorized in the hue you have selected from the toolbox:![radsocialshare-saturated](images/radsocialshare-saturated.gif)You may then play with the Hue, Saturation and Lightness sliders to fine tune or further modify the image
+1. Select a color that you like from the color dialog and then close it:
+
+	![radsocialshare-select-color](images/radsocialshare-select-color.gif)
+
+1. Choose the image you will modify, and select Image » Adjustments Hue » / Saturation to open the Hue / Saturation dialog of Adobe© PhotoShop:
+
+	![radsocialshare-choose-hue](images/radsocialshare-choose-hue.gif)
+
+1. Check the colorize checkbox in the Hue / Saturation dialog, and the image you have selected will be immediately colorized in the hue you have selected from the toolbox:
+
+	![radsocialshare-saturated](images/radsocialshare-saturated.gif)
+
+	You may then play with the Hue, Saturation and Lightness sliders to fine tune or further modify the image
 
 1. Press "OK" when you are finished
 
@@ -90,7 +102,7 @@ Explained below is a simple method for modifying the image sprites of **RadSocia
 
 1. Repeat Steps 5 - 9 for each of the remaining images
 
-1. Once you are ready, save your work and reload the page. You will have a brand-new skin based on Telerik's**Default** skin of **RadSocialShare**
+1. Once you are ready, save your work and reload the page. You will have a brand-new skin based on Telerik's **Default** skin of **RadSocialShare**
 
 1. This is not mandatory, but you could decide to change **RadSocialShare** background and border colors to match the newly colorized sprite
 

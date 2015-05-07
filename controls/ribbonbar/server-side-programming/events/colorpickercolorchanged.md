@@ -22,8 +22,8 @@ The event handler function receives two arguments:
 
 1. An **EventArgs** object.This object has a number of properties for handling the request for new items
 
-* **ColorPicker** – the ColorPicker which fired the event.
+	* **ColorPicker** – the ColorPicker which fired the event.
 
-* **Group** – the group in which the DropDown is placed.
+	* **Group** – the group in which the DropDown is placed.
 
-* **Color** – the new selected color of the ColorPicker.
+	* **Color** – the new selected color of the ColorPicker.

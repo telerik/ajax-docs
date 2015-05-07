@@ -21,28 +21,30 @@ This is extended version of the previous case.Here is the new part:You click "Ad
 
 
 ````C#
-	    protected void RadGrid1_ItemCommand(object source, Telerik.Web.UI.GridCommandEventArgs e)
-	    {
-	        RadGrid grid = (source as RadGrid);
-	        if (e.CommandName == RadGrid.InitInsertCommandName)
-	        {
-	            grid.MasterTableView.ClearEditItems();
-	        }
-	        if (e.CommandName == RadGrid.EditCommandName)
-	        {
-	            e.Item.OwnerTableView.IsItemInserted = false;
-	        }
-	    } 
+protected void RadGrid1_ItemCommand(object source, Telerik.Web.UI.GridCommandEventArgs e)
+{
+    RadGrid grid = (source as RadGrid);
+    if (e.CommandName == RadGrid.InitInsertCommandName)
+    {
+        grid.MasterTableView.ClearEditItems();
+    }
+    if (e.CommandName == RadGrid.EditCommandName)
+    {
+        e.Item.OwnerTableView.IsItemInserted = false;
+    }
+} 
 ````
 ````VB
-	    Protected Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As Telerik.Web.UI.GridCommandEventArgs)
-	        Dim grid As RadGrid = CType(source, RadGrid)
-	        If (e.CommandName = RadGrid.InitInsertCommandName) Then
-	            grid.MasterTableView.ClearEditItems()
-	        End If
-	        If (e.CommandName = RadGrid.EditCommandName) Then
-	            e.Item.OwnerTableView.IsItemInserted = False
-	        End If
-	    End Sub
+Protected Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As Telerik.Web.UI.GridCommandEventArgs)
+    Dim grid As RadGrid = CType(source, RadGrid)
+    If (e.CommandName = RadGrid.InitInsertCommandName) Then
+        grid.MasterTableView.ClearEditItems()
+    End If
+    If (e.CommandName = RadGrid.EditCommandName) Then
+        e.Item.OwnerTableView.IsItemInserted = False
+    End If
+End Sub
 ````
+
+
 

@@ -22,19 +22,19 @@ The event handler receives two parameters:
 
 1. An eventArgs parameter containing the following methods:
 
-* **get_item** returns a reference to the **RadPanelItem** that has been collapsed.
+	* **get_item** returns a reference to the **RadPanelItem** that has been collapsed.
 
-* **get_domEvent()** returns the DOM event object.
+	* **get_domEvent()** returns the DOM event object.
 
 ````ASPNET
-	    <script>
-	        function OnClientItemCollapse(sender, args) {
-	            alert("The " + args.get_item().get_text() + " item has been collapsed");
-	        }           
-	     </script>
-	    <telerik:radpanelbar id="RadPanelBar1" runat="server" onclientitemcollapse="OnClientItemCollapse">
-	      ...
-	      </telerik:radpanelbar>
+<script>
+    function OnClientItemCollapse(sender, args) {
+        alert("The " + args.get_item().get_text() + " item has been collapsed");
+    }           
+</script>
+<telerik:radpanelbar id="RadPanelBar1" runat="server" onclientitemcollapse="OnClientItemCollapse">
+  ...
+</telerik:radpanelbar>
 ````
 
 

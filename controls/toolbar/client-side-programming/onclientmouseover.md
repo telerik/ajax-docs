@@ -10,8 +10,6 @@ position: 19
 
 # OnClientMouseOver
 
-
-
 ## 
 
 The **OnClientMouseOver** client-side event occurs when the mouse moves over an item in the toolbar.
@@ -28,26 +26,25 @@ The event handler receives two parameters:
 
 You can use this event to respond when the mouse is over an item:
 
-````ASPNET
-	
-	    <script type="text/javascript">
-	        function ShowItem(toolbar, args) 
-	        {
-	            var label = document.getElementById("Label1");
-	            label.innerText = args.get_item().get_text();
-	        }
-	    </script>
-	
-	    <telerik:radtoolbar id="RadToolBar1" runat="server" onclientmouseover="ShowItem">  
-	        <Items>    
-	        <telerik:RadToolBarButton Text="Button1" />     
-	        <telerik:RadToolBarButton Text="Button2" />    
-	        <telerik:RadToolBarButton Text="Button3" /> 
-	        </Items>
-	    </telerik:radtoolbar>
-	    <br />
-	    <br />
-	    <asp:Label ID="Label1" runat="server" Text=""></asp:Label>
+````ASPNET	
+<script type="text/javascript">
+    function ShowItem(toolbar, args) 
+    {
+        var label = document.getElementById("Label1");
+        label.innerText = args.get_item().get_text();
+    }
+</script>
+
+<telerik:radtoolbar id="RadToolBar1" runat="server" onclientmouseover="ShowItem">  
+    <Items>    
+    <telerik:RadToolBarButton Text="Button1" />     
+    <telerik:RadToolBarButton Text="Button2" />    
+    <telerik:RadToolBarButton Text="Button3" /> 
+    </Items>
+</telerik:radtoolbar>
+<br />
+<br />
+<asp:Label ID="Label1" runat="server" Text=""></asp:Label>
 ````
 
 

@@ -19,19 +19,19 @@ This appearance customization is not supported out-of-the-box in the current ver
 For declarative columns the code be as below:
 
 ````ASP.NET
-	  <telerik:RadGrid ID="RadGrid1" runat="server">
-	    <MasterTableView AutoGenerateColumns="false">
-	      <telerik:GridBoundColumn UniqueName="ContactName" HeaderText="Contact name" DataField="ContactName"
-	        DataFormatString="<nobr>{0}</nobr>" />
-	      <telerik:GridBoundColumn UniqueName="ContactTitle" HeaderText="Contact title" DataField="ContactTitle"
-	        DataFormatString="<nobr>{0}</nobr>" />
-	      <telerik:GridBoundColumn UniqueName="CompanyName" HeaderText="Company name" DataField="CompanyName"
-	        DataFormatString="<nobr>{0}</nobr>" />
-	      <telerik:GridBoundColumn UniqueName="Country" HeaderText="Country" DataField="Country"
-	        DataFormatString="<nobr>{0}</nobr>" />
-	      <telerik:GridBoundColumn UniqueName="City" HeaderText="City" DataField="City" DataFormatString="<nobr>{0}</nobr>" />
-	    </MasterTableView>
-	  </telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" runat="server">
+  <MasterTableView AutoGenerateColumns="false">
+    <telerik:GridBoundColumn UniqueName="ContactName" HeaderText="Contact name" DataField="ContactName"
+      DataFormatString="<nobr>{0}</nobr>" />
+    <telerik:GridBoundColumn UniqueName="ContactTitle" HeaderText="Contact title" DataField="ContactTitle"
+      DataFormatString="<nobr>{0}</nobr>" />
+    <telerik:GridBoundColumn UniqueName="CompanyName" HeaderText="Company name" DataField="CompanyName"
+      DataFormatString="<nobr>{0}</nobr>" />
+    <telerik:GridBoundColumn UniqueName="Country" HeaderText="Country" DataField="Country"
+      DataFormatString="<nobr>{0}</nobr>" />
+    <telerik:GridBoundColumn UniqueName="City" HeaderText="City" DataField="City" DataFormatString="<nobr>{0}</nobr>" />
+  </MasterTableView>
+</telerik:RadGrid>
 ````
 
 
@@ -41,22 +41,22 @@ For auto-generated column subscribe to the **ColumnCreated** event and set the *
 
 
 ````C#
-	    protected void RadGrid1_ColumnCreated(object sender, GridColumnCreatedEventArgs e)
-	    {
-	        //add more column types to the conditional check if needed
-	        if (e.Column is GridBoundColumn)
-	        {
-	            (e.Column as GridBoundColumn).DataFormatString = "<nobr>{0}</nobr>";
-	        }
-	    }
+protected void RadGrid1_ColumnCreated(object sender, GridColumnCreatedEventArgs e)
+{
+    //add more column types to the conditional check if needed
+    if (e.Column is GridBoundColumn)
+    {
+        (e.Column as GridBoundColumn).DataFormatString = "<nobr>{0}</nobr>";
+    }
+}
 ````
 ````VB
-	    Protected Sub RadGrid1_ColumnCreated(ByVal sender As Object, ByVal e As GridColumnCreatedEventArgs) Handles RadGrid1.ColumnCreated
-	        'add more column types to the conditional check if needed
-	        If (TypeOf e.Column Is GridBoundColumn) Then
-	            CType(e.Column, GridBoundColumn).DataFormatString = "<nobr>{0}</nobr>"
-	        End If
-	    End Sub
+Protected Sub RadGrid1_ColumnCreated(ByVal sender As Object, ByVal e As GridColumnCreatedEventArgs) Handles RadGrid1.ColumnCreated
+    'add more column types to the conditional check if needed
+    If (TypeOf e.Column Is GridBoundColumn) Then
+        CType(e.Column, GridBoundColumn).DataFormatString = "<nobr>{0}</nobr>"
+    End If
+End Sub
 ````
 
 
@@ -65,41 +65,41 @@ In the code-behind (just data-binding):
 
 
 ````C#
-	    private void RadGrid1_NeedDataSource(object source, Telerik.Web.UI.GridNeedDataSourceEventArgs e)
-	    {
-	        OleDbConnection MyOleDbConnection = new OleDbConnection("Provider=Microsoft.Jet.OLEDB.4.0; Data Source=" + Server.MapPath("~/Grid/Data/Access/Nwind.mdb"));
-	        OleDbDataAdapter MyOleDbDataAdapter = new OleDbDataAdapter();
-	        MyOleDbDataAdapter.SelectCommand = new OleDbCommand("SELECT TOP 10 CompanyName, ContactName, ContactTitle, Country, City FROM Customers", MyOleDbConnection);
-	        DataTable myDataTable = new DataTable();
-	        MyOleDbConnection.Open();
-	        try
-	        {
-	            MyOleDbDataAdapter.Fill(myDataTable);
-	        }
-	        finally
-	        {
-	            MyOleDbConnection.Close();
-	        }
-	        RadGrid1.DataSource = myDataTable.DefaultView;
-	    }
+private void RadGrid1_NeedDataSource(object source, Telerik.Web.UI.GridNeedDataSourceEventArgs e)
+{
+    OleDbConnection MyOleDbConnection = new OleDbConnection("Provider=Microsoft.Jet.OLEDB.4.0; Data Source=" + Server.MapPath("~/Grid/Data/Access/Nwind.mdb"));
+    OleDbDataAdapter MyOleDbDataAdapter = new OleDbDataAdapter();
+    MyOleDbDataAdapter.SelectCommand = new OleDbCommand("SELECT TOP 10 CompanyName, ContactName, ContactTitle, Country, City FROM Customers", MyOleDbConnection);
+    DataTable myDataTable = new DataTable();
+    MyOleDbConnection.Open();
+    try
+    {
+        MyOleDbDataAdapter.Fill(myDataTable);
+    }
+    finally
+    {
+        MyOleDbConnection.Close();
+    }
+    RadGrid1.DataSource = myDataTable.DefaultView;
+}
 ````
 ````VB
-	    Private Sub RadGrid1_NeedDataSource(ByVal [source] As Object, ByVal e As Telerik.Web.UI.GridNeedDataSourceEventArgs) Handles RadGrid1.NeedDataSource
-	        Dim MyOleDbConnection As New OleDbConnection("Provider=Microsoft.Jet.OLEDB.4.0; Data Source=" + Server.MapPath("~/Grid/Data/Access/Nwind.mdb"))
-	        Dim MyOleDbDataAdapter As New OleDbDataAdapter()
-	        MyOleDbDataAdapter.SelectCommand = New OleDbCommand("SELECT TOP 10 CompanyName, ContactName, ContactTitle, Country, City FROM Customers", MyOleDbConnection)
-	
-	        Dim myDataTable As New DataTable()
-	
-	        MyOleDbConnection.Open()
-	        Try
-	            MyOleDbDataAdapter.Fill(myDataTable)
-	        Finally
-	            MyOleDbConnection.Close()
-	        End Try
-	
-	        RadGrid1.DataSource = myDataTable.DefaultView
-	    End Sub
+Private Sub RadGrid1_NeedDataSource(ByVal [source] As Object, ByVal e As Telerik.Web.UI.GridNeedDataSourceEventArgs) Handles RadGrid1.NeedDataSource
+    Dim MyOleDbConnection As New OleDbConnection("Provider=Microsoft.Jet.OLEDB.4.0; Data Source=" + Server.MapPath("~/Grid/Data/Access/Nwind.mdb"))
+    Dim MyOleDbDataAdapter As New OleDbDataAdapter()
+    MyOleDbDataAdapter.SelectCommand = New OleDbCommand("SELECT TOP 10 CompanyName, ContactName, ContactTitle, Country, City FROM Customers", MyOleDbConnection)
+
+    Dim myDataTable As New DataTable()
+
+    MyOleDbConnection.Open()
+    Try
+        MyOleDbDataAdapter.Fill(myDataTable)
+    Finally
+        MyOleDbConnection.Close()
+    End Try
+
+    RadGrid1.DataSource = myDataTable.DefaultView
+End Sub
 ````
 
 

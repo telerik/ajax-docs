@@ -36,21 +36,23 @@ The event handler receives two arguments:
 The following example uses the **OnColumnHeaderClick** event to confirm the selection:
 
 ````ASPNET
-	<script type="text/javascript">
-	    function ConfirmColumnSelection(sender, eventArgs) {
-	        var msg = "Do you want to change the selection for column " + eventArgs.get_index();
-	        var title = eventArgs.get_domElement().title;
-	        if (title != "")
-	            msg = msg + " (" + title + ")";
-	        msg = msg + "?";
-	        eventArgs.set_cancel(!confirm(msg));
-	    }
-	</script>
-	<telerik:RadCalendar ID="RadCalendar1" runat="server">
-	 <ClientEvents OnColumnHeaderClick="ConfirmColumnSelection" />
-	</telerik:RadCalendar>
+<telerik:RadCalendar ID="RadCalendar1" runat="server">
+	<ClientEvents OnColumnHeaderClick="confirmColumnSelection" />
+</telerik:RadCalendar>
 ````
+````JavaScript
+function confirmColumnSelection(sender, eventArgs) {
+	var msg = "Do you want to change the selection for column " + eventArgs.get_index();
+	var title = eventArgs.get_domElement().title;
 
+	if (title != "") {
+		msg = msg + " (" + title + ")";
+	}
+
+	msg = msg + "?";
+	eventArgs.set_cancel(!confirm(msg));
+}
+````
 
 
 # See Also

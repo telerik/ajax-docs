@@ -10,8 +10,6 @@ position: 3
 
 # ItemDataBound
 
-
-
 ## 
 
 **ItamDataBound** occurs for each item in the menu immediately after it has been bound to a data source. This event only occurs when the application sets the **DataSource** property and calls the **DataBind** method explicitly, or when the **DataSourceID** property is set at design time. The event occurs immediately after the item properties have been set to reflect the values in the data source.
@@ -29,23 +27,20 @@ The **ItemDataBound** event handler receives two arguments:
 Use an **ItemDataBound** event handler to initialize the properties of menu items to reflect values from the data source that are not mapped automatically using the **DataTextField**, **DataValueField**, and **DataNavigateUrlField** properties:
 
 
-
-
-
 ````C#
-	    protected void RadMenu1_ItemDataBound(object sender, RadMenuEventArgs e) 
-	    { 
-	        DataRowView row = (DataRowView)e.Item.DataItem; 
-	        e.Item.Enabled = Boolean.Parse(row["Available"].ToString()); 
-	        e.Item.ToolTip = "Learn more about " + e.Item.Text; 
-	    }
+protected void RadMenu1_ItemDataBound(object sender, RadMenuEventArgs e) 
+{ 
+    DataRowView row = (DataRowView)e.Item.DataItem; 
+    e.Item.Enabled = Boolean.Parse(row["Available"].ToString()); 
+    e.Item.ToolTip = "Learn more about " + e.Item.Text; 
+}
 ````
 ````VB.NET
-	    Protected Sub RadMenu1_ItemDataBound(ByVal sender As Object, ByVal e As RadMenuEventArgs) Handles RadMenu1.ItemDataBound
-	        Dim row As DataRowView = DirectCast(e.Item.DataItem, DataRowView)
-	        e.Item.Enabled = [Boolean].Parse(row("Available").ToString())
-	        e.Item.ToolTip = "Learn more about " + e.Item.Text
-	    End Sub
+Protected Sub RadMenu1_ItemDataBound(ByVal sender As Object, ByVal e As RadMenuEventArgs) Handles RadMenu1.ItemDataBound
+    Dim row As DataRowView = DirectCast(e.Item.DataItem, DataRowView)
+    e.Item.Enabled = [Boolean].Parse(row("Available").ToString())
+    e.Item.ToolTip = "Learn more about " + e.Item.Text
+End Sub
 ````
 
 

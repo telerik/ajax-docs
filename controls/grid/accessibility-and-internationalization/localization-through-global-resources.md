@@ -27,7 +27,7 @@ To change the current language/resource you should set the **Culture** property 
 
 
 ````ASP.NET
-							<telerik:RadGrid ID="RadGrid1"    runat="server"    Culture="en-US" ... </telerik:RadGrid>			
+<telerik:RadGrid ID="RadGrid1"    runat="server"    Culture="en-US" ... </telerik:RadGrid>			
 ````
 
 
@@ -44,7 +44,7 @@ Here is how to localize your **RadGrid** in simple steps:
 
 ## Creating/Modifying resource files
 
-The resource files are represented in a human-readible format (XML) and can be easily modified either in the built-in Visual Studio resource editor or directly in the file, by hand.
+The resource files are represented in a human-readable format (XML) and can be easily modified either in the built-in Visual Studio resource editor or directly in the file, by hand.
 
 ![Editing Resource Files](images/Editing_ResourceFiles.png)
 

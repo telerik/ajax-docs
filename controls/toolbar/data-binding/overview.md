@@ -11,8 +11,7 @@ position: 0
 # Data Binding Overview
 
 
-
-__RadToolBar__ fully supports binding to various types of data sources:
+**RadToolBar** fully supports binding to various types of data sources:
 
 * [DataTable, DataSet, DataView]({%slug toolbar/data-binding/binding-to-datatable%})
 
@@ -20,7 +19,7 @@ __RadToolBar__ fully supports binding to various types of data sources:
 
 * [Array, ArrayList]({%slug toolbar/data-binding/binding-to-array-or-arraylist-%})
 
->note Data sources can support both hierarchical and non-hierarchical structures. However, __RadToolBar__ only works with a flat structure.
+>note Data sources can support both hierarchical and non-hierarchical structures. However, **RadToolBar** only works with a flat structure.
 >
 
 
@@ -28,43 +27,42 @@ __RadToolBar__ fully supports binding to various types of data sources:
 
 The following properties and methods are used when binding the toolbar to a data source:
 
-* __DataSource__ property - Set to an instance of your data source. This is mandatory when binding the toolbar at runtime.
+* **DataSource** property - Set to an instance of your data source. This is mandatory when binding the toolbar at runtime.
 
-* __DataSourceID__ property - Set to the ID of your data source. This is mandatory when binding the toolbar declaratively.
+* **DataSourceID** property - Set to the ID of your data source. This is mandatory when binding the toolbar declaratively.
 
-* __DataMember__ property - If the data source is a __DataSet__ and __DataMember__ is set, then the toolbar is bound to the __DataTable__ with the respective name in the __DataSet__. If __DataMember__ is not set, the toolbar is bound to the first __DataTable__ in the __DataSet__.
+* **DataMember** property - If the data source is a **DataSet** and **DataMember** is set, then the toolbar is bound to the **DataTable** with the respective name in the **DataSet**. If **DataMember** is not set, the toolbar is bound to the first **DataTable** in the **DataSet**.
 
-* __DataTextField__ property - This is the field name from the data source to bind to the __Text__ property.
+* **DataTextField** property - This is the field name from the data source to bind to the **Text** property.
 
-* __DataValueField__ property - This is the field name from the data source to bind to the __Value__ property.
+* **DataValueField** property - This is the field name from the data source to bind to the **Value** property.
 
-* __DataBind__ method - Call this method after you have set the aforementioned properties when binding at runtime. This method is mandatory for binding at runtime.
+* **DataBind** method - Call this method after you have set the aforementioned properties when binding at runtime. This method is mandatory for binding at runtime.
 
->note Note, that unlike RadMenu or RadPanelbar, RadToolBar does not have __DataFieldId__ and __DataFieldParentId__ properties to establish items' hierarchy such as in a DropDown button.
+>note Note, that unlike RadMenu or RadPanelbar, RadToolBar does not have **DataFieldId** and **DataFieldParentId** properties to establish items' hierarchy such as in a DropDown button.
 >
 
 
->note If you need to map additional fields from the Data Source to properties of the toolbar button, you can use the __ButtonDataBound__ event. See[Binding To ASP DataSource Components]({%slug toolbar/data-binding/binding-to-asp-datasource-components%})for an example.
+>note If you need to map additional fields from the Data Source to properties of the toolbar button, you can use the **ButtonDataBound** event. See [Binding To ASP DataSource Components]({%slug toolbar/data-binding/binding-to-asp-datasource-components%}) for an example.
 >
 
 
 ## Appending Data Bound Items
 
-__RadToolBar__ exposes the __AppendDataBoundItems__ property (__False__ by default). If you bind the toolbar using the __DataBind__ method, all toolbar buttons are automatically cleared.
+**RadToolBar** exposes the **AppendDataBoundItems** property (**False** by default). If you bind the toolbar using the **DataBind** method, all toolbar buttons are automatically cleared.
 
-Setting __AppendDataBoundItems__ to __True__ preserves the buttons that are already present in the toolbar. This lets you bind __RadToolBar__ to multiple data sources or use both unbound and bound modes.
+Setting **AppendDataBoundItems** to **True** preserves the buttons that are already present in the toolbar. This lets you bind **RadToolBar** to multiple data sources or use both unbound and bound modes.
 
 ## Using Templates with Data-bound Buttons
 
 You can also use templates with a data-bound toolbar. To bind template buttons to column values, use DataBinder.Eval expressions in the template's definition:
 
 ````C#
-	    <%# DataBinder.Eval(Container.DataItem, "ColumnName") %>
+<%# DataBinder.Eval(Container.DataItem, "ColumnName") %>
 ````
 
 
-
-Note that you use __Container.DataItem__ to access the toolbar button when it is in a bound mode. The toolbar button must already be bound before template binding can work.
+Note that you use **Container.DataItem** to access the toolbar button when it is in a bound mode. The toolbar button must already be bound before template binding can work.
 
 # See Also
 

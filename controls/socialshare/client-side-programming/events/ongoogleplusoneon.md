@@ -12,7 +12,7 @@ position: 5
 
 
 
-## 
+
 
 **OnGooglePlusOneOn** - fires when the GooglePlus button is clicked for approval.
 

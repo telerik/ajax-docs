@@ -37,45 +37,40 @@ Client side changes are available on the server side after postback. You can use
 The code snippet below enumerates through all operations in the ClientChanges collection and utilizes both the **Item** and **Type** properties. For a complete demo, please see the client-side [Add/Remove/Disable Items](http://demos.telerik.com/aspnet-ajax/menu/examples/programming/addremovedisableitemsclientside/defaultcs.aspx) example.
 
 
-
-
-
-````C#
-	     
-	foreach (ClientOperation<RadMenuItem> operation in RadMenu1.ClientChanges)
-	{ 
-	    RadMenuItem item = operation.Item;
-	    switch (operation.Type) 
-	    {  
-	        case ClientOperationType.Insert:
-	            break;  
-	        case ClientOperationType.Remove:
-	            break;  
-	        case ClientOperationType.Update:   
-	            UpdateClientOperation<RadMenuItem> update = operation as UpdateClientOperation<RadMenuItem>;   
-	            break;  
-	        case ClientOperationType.Clear:   
-	            break; 
-	    } 
-	}		
+````C#	     
+foreach (ClientOperation<RadMenuItem> operation in RadMenu1.ClientChanges)
+{ 
+    RadMenuItem item = operation.Item;
+    switch (operation.Type) 
+    {  
+        case ClientOperationType.Insert:
+            break;  
+        case ClientOperationType.Remove:
+            break;  
+        case ClientOperationType.Update:   
+            UpdateClientOperation<RadMenuItem> update = operation as UpdateClientOperation<RadMenuItem>;   
+            break;  
+        case ClientOperationType.Clear:   
+            break; 
+    } 
+}		
 ````
 ````VB.NET
-	For Each operation As ClientOperation(Of RadMenuItem) In RadMenu1.ClientChanges
-	    Dim item As RadMenuItem = operation.Item
-	    Select Case operation.Type
-	        Case ClientOperationType.Insert
-	            Exit Select
-	        Case ClientOperationType.Remove
-	            Exit Select
-	        Case ClientOperationType.Update
-	    Dim update As UpdateClientOperation(Of RadMenuItem) = TryCast(operation, UpdateClientOperation(Of RadMenuItem))
-	           Exit Select
-	        Case ClientOperationType.Clear
-	            Exit Select
-	    End Select
-	Next 
+For Each operation As ClientOperation(Of RadMenuItem) In RadMenu1.ClientChanges
+    Dim item As RadMenuItem = operation.Item
+    Select Case operation.Type
+        Case ClientOperationType.Insert
+            Exit Select
+        Case ClientOperationType.Remove
+            Exit Select
+        Case ClientOperationType.Update
+    Dim update As UpdateClientOperation(Of RadMenuItem) = TryCast(operation, UpdateClientOperation(Of RadMenuItem))
+           Exit Select
+        Case ClientOperationType.Clear
+            Exit Select
+    End Select
+Next 
 ````
-
 
 # See Also
 

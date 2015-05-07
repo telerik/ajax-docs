@@ -10,8 +10,6 @@ position: 1
 
 # Render Modes
 
-
-
 ## 
 
 **RadMenu** has three different render modes that can change the actual HTML markup that is rendered. They are exposed via the **RenderMode** property that can have four possible values - **Classic**, **Lightweight** and **Auto**. This functionality was introduced in the **Q2 2013** version.
@@ -39,30 +37,26 @@ There are two ways to set the RenderMode for the RadMenu:
 When the **RenderMode** property is set in the markup you can type in a string, when set in the code-behind it takes a member of the Telerik.Web.UI.RenderMode enum. For example:
 
 ````ASPNET
-	    <telerik:RadMenu RenderMode="Lightweight" runat="server" ID="RadMenu1"> </telerik:RadMenu>
-	    
+<telerik:RadMenu RenderMode="Lightweight" runat="server" ID="RadMenu1"> </telerik:RadMenu>	    
 ````
-
-
 
 A **global setting** in the web.config file that will affect the entire application, unless a concrete value is specified for RadMenu instance:
 
 * Change render mode for all RadMenus in your application:
 
 ````ASPNET
-	         <appSettings>
-	           <add key="Telerik.Web.UI.RenderMode" value="lightweight" />
-	        </appSettings>
+<appSettings>
+   <add key="Telerik.Web.UI.RenderMode" value="lightweight" />
+</appSettings>
 ````
-
 
 
 * Change render mode for all controls in your application:
 
 ````ASPNET
-	        <appSettings>
-	            <add key="Telerik.Web.UI.Menu.RenderMode" value="lightweight" />
-	      </appSettings>
+<appSettings>
+    <add key="Telerik.Web.UI.Menu.RenderMode" value="lightweight" />
+</appSettings>
 ````
 
 

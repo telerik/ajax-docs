@@ -12,7 +12,6 @@ position: 1
 
 
 
-## 
 
 The main elements of the **RadSocialShare** control are:![radsocialshare-structure](images/radsocialshare-structure.png)
 

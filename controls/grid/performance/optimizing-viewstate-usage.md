@@ -27,108 +27,108 @@ Although [simple DataBinding](http://www.telerik.com/help/aspnet-ajax/grid-simpl
 
 
 ````ASP.NET
-	        <telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="True" CellSpacing="0"
-	            EnableViewState="false" GridLines="None">
-	        </telerik:RadGrid>
-	        <asp:Button Text="Postback" ID="Button1" runat="server" />
+<telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="True" CellSpacing="0"
+    EnableViewState="false" GridLines="None">
+</telerik:RadGrid>
+<asp:Button Text="Postback" ID="Button1" runat="server" />
 ````
 ````C#
-	public partial class Default_Cs : System.Web.UI.Page
-	{
-	    protected void Page_Load(object sender, EventArgs e)
-	    {
-	        if (!Page.IsPostBack)
-	        {
-	            RadGrid1.DataSource = MasterData();
-	            RadGrid1.DataBind();
-	        }
-	
-	    }
-	
-	    protected void Page_Init(object sender, EventArgs e)
-	    {
-	        if (Page.IsPostBack)
-	        {
-	            RadGrid1.DataSource = MasterData();
-	            RadGrid1.DataBind();
-	        }
-	    }
-	
-	    public List<MasterItem> MasterData()
-	    {
-	        List<MasterItem> masterItems = new List<MasterItem>();
-	        for (int i = 0; i < 6; i++)
-	        {
-	            masterItems.Add(new MasterItem(i, "Master_Value_" + i.ToString()));
-	        }
-	        return masterItems;
-	    }
-	}
-	
-	public class MasterItem
-	{
-	    public int MasterItemID { get; set; }
-	    public string MasterItemValue { get; set; }
-	    public MasterItem(int masterItemID, string masterItemValue)
-	    {
-	        MasterItemID = masterItemID;
-	        MasterItemValue = masterItemValue;
-	    }
-	}
+public partial class Default_Cs : System.Web.UI.Page
+{
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        if (!Page.IsPostBack)
+        {
+            RadGrid1.DataSource = MasterData();
+            RadGrid1.DataBind();
+        }
+
+    }
+
+    protected void Page_Init(object sender, EventArgs e)
+    {
+        if (Page.IsPostBack)
+        {
+            RadGrid1.DataSource = MasterData();
+            RadGrid1.DataBind();
+        }
+    }
+
+    public List<MasterItem> MasterData()
+    {
+        List<MasterItem> masterItems = new List<MasterItem>();
+        for (int i = 0; i < 6; i++)
+        {
+            masterItems.Add(new MasterItem(i, "Master_Value_" + i.ToString()));
+        }
+        return masterItems;
+    }
+}
+
+public class MasterItem
+{
+    public int MasterItemID { get; set; }
+    public string MasterItemValue { get; set; }
+    public MasterItem(int masterItemID, string masterItemValue)
+    {
+        MasterItemID = masterItemID;
+        MasterItemValue = masterItemValue;
+    }
+}
 ````
 ````VB
-	Partial Class Default_VB
-	    Inherits System.Web.UI.Page
-	
-	    Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
-	        If Not Page.IsPostBack Then
-	            RadGrid1.DataSource = MasterData()
-	            RadGrid1.DataBind()
-	        End If
-	
-	    End Sub
-	
-	    Protected Sub Page_Init(sender As Object, e As EventArgs) Handles Me.Init
-	        If Page.IsPostBack Then
-	            RadGrid1.DataSource = MasterData()
-	            RadGrid1.DataBind()
-	        End If
-	    End Sub
-	
-	
-	    Public Function MasterData() As List(Of MasterItem)
-	        Dim masterItems As New List(Of MasterItem)()
-	        For i As Integer = 0 To 5
-	            masterItems.Add(New MasterItem(i, "Master_Value_" + i.ToString()))
-	        Next
-	        Return masterItems
-	    End Function
-	End Class
-	
-	Public Class MasterItem
-	    Public Property MasterItemID() As Integer
-	        Get
-	            Return m_MasterItemID
-	        End Get
-	        Set(value As Integer)
-	            m_MasterItemID = Value
-	        End Set
-	    End Property
-	    Private m_MasterItemID As Integer
-	    Public Property MasterItemValue() As String
-	        Get
-	            Return m_MasterItemValue
-	        End Get
-	        Set(value As String)
-	            m_MasterItemValue = Value
-	        End Set
-	    End Property
-	    Private m_MasterItemValue As String
-	    Public Sub New(masterItemID**1 As Integer, masterItemValue**2 As String)
-	        MasterItemID = masterItemID**1
-	        MasterItemValue = masterItemValue**2
-	    End Sub
-	End Class
+Partial Class Default_VB
+    Inherits System.Web.UI.Page
+
+    Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
+        If Not Page.IsPostBack Then
+            RadGrid1.DataSource = MasterData()
+            RadGrid1.DataBind()
+        End If
+
+    End Sub
+
+    Protected Sub Page_Init(sender As Object, e As EventArgs) Handles Me.Init
+        If Page.IsPostBack Then
+            RadGrid1.DataSource = MasterData()
+            RadGrid1.DataBind()
+        End If
+    End Sub
+
+
+    Public Function MasterData() As List(Of MasterItem)
+        Dim masterItems As New List(Of MasterItem)()
+        For i As Integer = 0 To 5
+            masterItems.Add(New MasterItem(i, "Master_Value_" + i.ToString()))
+        Next
+        Return masterItems
+    End Function
+End Class
+
+Public Class MasterItem
+    Public Property MasterItemID() As Integer
+        Get
+            Return m_MasterItemID
+        End Get
+        Set(value As Integer)
+            m_MasterItemID = Value
+        End Set
+    End Property
+    Private m_MasterItemID As Integer
+    Public Property MasterItemValue() As String
+        Get
+            Return m_MasterItemValue
+        End Get
+        Set(value As String)
+            m_MasterItemValue = Value
+        End Set
+    End Property
+    Private m_MasterItemValue As String
+    Public Sub New(masterItemID**1 As Integer, masterItemValue**2 As String)
+        MasterItemID = masterItemID**1
+        MasterItemValue = masterItemValue**2
+    End Sub
+End Class
 ````
 
 
@@ -160,6 +160,6 @@ Some operations in Telerik RadGrid like data extraction through the **ExtractVal
 
 * GroupByExpressions are not persisted on Rebind and postback.
 
-* Expanded state of items in hierarchy. This basically means that you could not use more than one level of hierarchy, unlesss you save the expanded settings manually.
+* Expanded state of items in hierarchy. This basically means that you could not use more than one level of hierarchy, unless you save the expanded settings manually.
 
 If you would like to retain the expanded state of items or server-side selection with **ViewState** disabled, you may consider using the approach depicted in [this code library entry](http://www.telerik.com/community/code-library/aspnet-ajax/grid/retain-expanded-selected-state-in-hierarchy-on-rebind.aspx) (applicable for explicit rebinds or **ViewState** switched off) or [this knowledge base article](http://www.telerik.com/support/kb/aspnet-ajax/grid/using-nopersistence-in-datasourcepersistancemode-of-gridtableview.aspx) . An alternative solution would be to turn on the **ViewState** of the grid and optimize its performance by using **RadCompression** and its page adapters as explained in [this article](http://www.telerik.com/help/aspnet-ajax/radcompression.html).

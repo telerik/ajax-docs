@@ -10,8 +10,6 @@ position: 1
 
 # Get the Previously Selected Tab
 
-
-
 ## 
 
 If you need to get the previously selected tab you can use the approach described below:
@@ -26,82 +24,70 @@ If you need to get the previously selected tab you can use the approach describe
 
 **Example**
 
-````ASPNET
-	
-	<form id="form1" runat="server">
-	   <asp:ScriptManager ID="ScriptManager1" runat="server">
-	   </asp:ScriptManager>
-	   <asp:HiddenField ID="previousTabHidden" runat="Server" />
-	   <script type="text/javascript">
-	   function OnSelecting(sender, args)
-	   {
-	       $get("<%= previousTabHidden.ClientID%>").value = sender.get_selectedTab().get_text();
-	   }
-	   </script>
-	   <telerik:RadTabStrip ID="RadTabStrip1" runat="server" Skin="Outlook" SelectedIndex="3" AutoPostBack="true" OnTabClick="RadTabStrip1_TabClick" OnClientTabSelecting="OnSelecting">
-	       <Tabs>
-	           <telerik:RadTab Text="Advanced">
-	           </telerik:RadTab>
-	           <telerik:RadTab Text="Automatic Updates">
-	           </telerik:RadTab>
-	           <telerik:RadTab Text="Remote">
-	           </telerik:RadTab>
-	           <telerik:RadTab Text="General">
-	           </telerik:RadTab>
-	           <telerik:RadTab Text="Computer Name">
-	           </telerik:RadTab>
-	           <telerik:RadTab Text="Hardware">
-	           </telerik:RadTab>
-	       </Tabs>
-	   </telerik:RadTabStrip>
-	</form> 
-	
+````ASPNET	
+<form id="form1" runat="server">
+   <asp:ScriptManager ID="ScriptManager1" runat="server">
+   </asp:ScriptManager>
+   <asp:HiddenField ID="previousTabHidden" runat="Server" />
+   <script type="text/javascript">
+   function OnSelecting(sender, args)
+   {
+       $get("<%= previousTabHidden.ClientID%>").value = sender.get_selectedTab().get_text();
+   }
+   </script>
+   <telerik:RadTabStrip ID="RadTabStrip1" runat="server" Skin="Outlook" SelectedIndex="3" AutoPostBack="true" OnTabClick="RadTabStrip1_TabClick" OnClientTabSelecting="OnSelecting">
+       <Tabs>
+           <telerik:RadTab Text="Advanced">
+           </telerik:RadTab>
+           <telerik:RadTab Text="Automatic Updates">
+           </telerik:RadTab>
+           <telerik:RadTab Text="Remote">
+           </telerik:RadTab>
+           <telerik:RadTab Text="General">
+           </telerik:RadTab>
+           <telerik:RadTab Text="Computer Name">
+           </telerik:RadTab>
+           <telerik:RadTab Text="Hardware">
+           </telerik:RadTab>
+       </Tabs>
+   </telerik:RadTabStrip>
+</form> 	
 ````
 
-
-
-
-
-
-
-````C#
-	
-	RadTab lastClickedTab = null;
-	protected void Page_Load(object sender, EventArgs e)
-	{
-	   if (Page.IsPostBack)
-	   {
-	       if (Request.Form["**EVENTTARGET"] == RadTabStrip1.UniqueID)
-	       {
-	           //locate the selected tab by using the value of the hidden field
-	           //The code below will be executed only if the postback is fired by the tabstrip
-	           lastClickedTab = RadTabStrip1.FindTabByText(previousTabHidden.Value);
-	       }
-	   }
-	}
-	protected void RadTabStrip1_TabClick(object sender, Telerik.Web.UI.RadTabStripEventArgs e)
-	{
-	   Response.Write("You clicked " + e.Tab.Text);
-	   Response.Write("</br> Previous clicked tab was " + lastClickedTab.Text);
-	} 
-	
+````C#	
+RadTab lastClickedTab = null;
+protected void Page_Load(object sender, EventArgs e)
+{
+   if (Page.IsPostBack)
+   {
+       if (Request.Form["**EVENTTARGET"] == RadTabStrip1.UniqueID)
+       {
+           //locate the selected tab by using the value of the hidden field
+           //The code below will be executed only if the postback is fired by the tabstrip
+           lastClickedTab = RadTabStrip1.FindTabByText(previousTabHidden.Value);
+       }
+   }
+}
+protected void RadTabStrip1_TabClick(object sender, Telerik.Web.UI.RadTabStripEventArgs e)
+{
+   Response.Write("You clicked " + e.Tab.Text);
+   Response.Write("</br> Previous clicked tab was " + lastClickedTab.Text);
+} 	
 ````
-````VB.NET
-	
-	Private lastClickedTab As RadTab = Nothing
-	Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
-	    If Page.IsPostBack Then
-	        If Request.Form("**EVENTTARGET") = RadTabStrip1.UniqueID Then
-	            'locate the selected tab by using the value of the hidden field
-	            'The code below will be executed only if the postback is fired by the tabstrip
-	            lastClickedTab = RadTabStrip1.FindTabByText(previousTabHidden.Value)
-	        End If
-	    End If
-	End Sub
-	Protected Sub RadTabStrip1_TabClick(ByVal sender As Object, ByVal e As Telerik.Web.UI.RadTabStripEventArgs)
-	    Response.Write("You clicked " + e.Tab.Text)
-	    Response.Write("</br> Previous clicked tab was " + lastClickedTab.Text)
-	End Sub 
-				
+````VB.NET	
+Private lastClickedTab As RadTab = Nothing
+Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
+    If Page.IsPostBack Then
+        If Request.Form("**EVENTTARGET") = RadTabStrip1.UniqueID Then
+            'locate the selected tab by using the value of the hidden field
+            'The code below will be executed only if the postback is fired by the tabstrip
+            lastClickedTab = RadTabStrip1.FindTabByText(previousTabHidden.Value)
+        End If
+    End If
+End Sub
+Protected Sub RadTabStrip1_TabClick(ByVal sender As Object, ByVal e As Telerik.Web.UI.RadTabStripEventArgs)
+    Response.Write("You clicked " + e.Tab.Text)
+    Response.Write("</br> Previous clicked tab was " + lastClickedTab.Text)
+End Sub 				
 ````
 

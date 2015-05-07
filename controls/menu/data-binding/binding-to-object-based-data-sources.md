@@ -10,13 +10,11 @@ position: 1
 
 # Binding to Object-Based Data Sources
 
-
-
-You can bind **RadMenu** to an object-based data source such as **ObjectDataSource**,**LinqDataSource** or any class that implements the **IEnumerable** interface.
+You can bind **RadMenu** to an object-based data source such as **ObjectDataSource**, **LinqDataSource** or any class that implements the **IEnumerable** interface.
 
 ## Binding to ObjectDataSource
 
->note To see this type of data binding in action, please visit the[Declarative Data Sources](http://demos.telerik.com/aspnet-ajax/Menu/Examples/Programming/DeclarativeDataSources/DefaultCS.aspx)live demo.
+>note To see this type of data binding in action, please visit the [Declarative Data Sources](http://demos.telerik.com/aspnet-ajax/Menu/Examples/Programming/DeclarativeDataSources/DefaultCS.aspx) live demo.
 >
 
 
@@ -42,162 +40,157 @@ To map additional properties from the object to other properties of the respecti
 The following example shows a **RadMenu** bound declaratively to an **ObjectDataSource**:
 
 ````ASPNET
-	    <telerik:RadMenu ID="RadMenu1" runat="server" Flow="Horizontal" DataSourceID="ObjectDataSource1">
-	    </telerik:RadMenu>
-	    <asp:ObjectDataSource ID="ObjectDataSource1" runat="server" SelectMethod="GetSiteData"
-	        TypeName="SiteDataItem">
-	    </asp:ObjectDataSource>
+<telerik:RadMenu ID="RadMenu1" runat="server" Flow="Horizontal" DataSourceID="ObjectDataSource1">
+</telerik:RadMenu>
+<asp:ObjectDataSource ID="ObjectDataSource1" runat="server" SelectMethod="GetSiteData"
+	TypeName="SiteDataItem">
+</asp:ObjectDataSource>
 ````
-
-
 
 The **ObjectDataSource** component is configured to use the **SiteDataItem** business object. The **SiteDataItem** class is defined below:
 
-
-
 ````C#
-	using System.Collections.Generic;
-	
-	public class SiteDataItem{ 
-	    private string _text; 
-	    private string _url; 
-	    private int _id; 
-	    private int _parentId;
-	
-	    public string Text
-	    {  
-	        get 
-	        { 
-	            return _text; 
-	        }  
-	        set 
-	        { 
-	            _text = value;
-	        } 
-	    }
-	
-	    public string Url 
-	    {  
-	        get 
-	        { 
-	            return _url; 
-	        }  
-	        set 
-	        { 
-	            _url = value;
-	        } 
-	    }
-	    public int ID 
-	    {  
-	        get 
-	        { 
-	            return _id;
-	        }  
-	        set 
-	        { 
-	            _id = value;
-	        } 
-	    }
-	    public int ParentID 
-	    {  
-	        get 
-	        { 
-	            return _parentId;
-	        } 
-	        set 
-	        { 
-	            _parentId = value;
-	        } 
-	    }
-	    public SiteDataItem(int id, int parentId, string text, string url)
-	    {  
-	        _id = id;
-	        _parentId = parentId;
-	        _text = text;
-	        _url = url;
-	    }
-	
-	    public static List<SiteDataItem> GetSiteData() 
-	    {  
-	        List<SiteDataItem> siteData = new List<SiteDataItem>();
-	        siteData.Add(new SiteDataItem(1, 0, "All Sites", ""));  
-	        siteData.Add(new SiteDataItem(2, 1, "Search Engines", ""));
-	        siteData.Add(new SiteDataItem(3, 1, "News Sites", ""));
-	        siteData.Add(new SiteDataItem(4, 2, "Yahoo", "http://www.yahoo.com"));
-	        siteData.Add(new SiteDataItem(5, 2, "MSN", "http://www.msn.com"));  
-	        siteData.Add(new SiteDataItem(6, 2, "Google", "http://www.google.com"));  
-	        siteData.Add(new SiteDataItem(7, 3, "CNN", "http://www.cnn.com"));  
-	        siteData.Add(new SiteDataItem(8, 3, "BBC", "http://www.bbc.co.uk"));  
-	        siteData.Add(new SiteDataItem(9, 3, "FOX", "http://www.foxnews.com"));
-	        return siteData; 
-	    }
-	}		
+using System.Collections.Generic;
+
+public class SiteDataItem{ 
+	private string _text; 
+	private string _url; 
+	private int _id; 
+	private int _parentId;
+
+	public string Text
+	{  
+		get 
+		{ 
+			return _text; 
+		}  
+		set 
+		{ 
+			_text = value;
+		} 
+	}
+
+	public string Url 
+	{  
+		get 
+		{ 
+			return _url; 
+		}  
+		set 
+		{ 
+			_url = value;
+		} 
+	}
+	public int ID 
+	{  
+		get 
+		{ 
+			return _id;
+		}  
+		set 
+		{ 
+			_id = value;
+		} 
+	}
+	public int ParentID 
+	{  
+		get 
+		{ 
+			return _parentId;
+		} 
+		set 
+		{ 
+			_parentId = value;
+		} 
+	}
+	public SiteDataItem(int id, int parentId, string text, string url)
+	{  
+		_id = id;
+		_parentId = parentId;
+		_text = text;
+		_url = url;
+	}
+
+	public static List<SiteDataItem> GetSiteData() 
+	{  
+		List<SiteDataItem> siteData = new List<SiteDataItem>();
+		siteData.Add(new SiteDataItem(1, 0, "All Sites", ""));  
+		siteData.Add(new SiteDataItem(2, 1, "Search Engines", ""));
+		siteData.Add(new SiteDataItem(3, 1, "News Sites", ""));
+		siteData.Add(new SiteDataItem(4, 2, "Yahoo", "http://www.yahoo.com"));
+		siteData.Add(new SiteDataItem(5, 2, "MSN", "http://www.msn.com"));  
+		siteData.Add(new SiteDataItem(6, 2, "Google", "http://www.google.com"));  
+		siteData.Add(new SiteDataItem(7, 3, "CNN", "http://www.cnn.com"));  
+		siteData.Add(new SiteDataItem(8, 3, "BBC", "http://www.bbc.co.uk"));  
+		siteData.Add(new SiteDataItem(9, 3, "FOX", "http://www.foxnews.com"));
+		return siteData; 
+	}
+}		
 ````
 ````VB.NET
-	    Imports System.Collections.Generic
-	    Public Class SiteDataItem
-	        Private _text As String
-	        Private _url As String
-	        Private _id As Integer
-	        Private _parentId As Integer
-	        Public Property Text() As String
-	            Get
-	                Return _text
-	            End Get
-	            Set(ByVal value As String)
-	                _text = value
-	            End Set
-	        End Property
-	        Public Property Url() As String
-	            Get
-	                Return _url
-	            End Get
-	            Set(ByVal value As String)
-	                _url = value
-	            End Set
-	        End Property
-	        Public Property ID() As Integer
-	            Get
-	                Return _id
-	            End Get
-	            Set(ByVal value As Integer)
-	                _id = value
-	            End Set
-	        End Property
-	        Public Property ParentID() As Integer
-	            Get
-	                Return _parentId
-	            End Get
-	            Set(ByVal value As Integer)
-	                _parentId = value
-	            End Set
-	        End Property
-	        Public Sub New(ByVal id As Integer, ByVal parentId As Integer, ByVal text As String, ByVal url As String)
-	            _id = id
-	            _parentId = parentId
-	            _text = text
-	            _url = url
-	        End Sub
-	        Public Shared Function GetSiteData() As List(Of SiteDataItem)
-	            Dim siteData As New List(Of SiteDataItem)()
-	            siteData.Add(New SiteDataItem(1, 0, "All Sites", ""))
-	            siteData.Add(New SiteDataItem(2, 1, "Search Engines", ""))
-	            siteData.Add(New SiteDataItem(3, 1, "News Sites", ""))
-	            siteData.Add(New SiteDataItem(4, 2, "Yahoo", "http://www.yahoo.com"))
-	            siteData.Add(New SiteDataItem(5, 2, "MSN", "http://www.msn.com"))
-	            siteData.Add(New SiteDataItem(6, 2, "Google", "http://www.google.com"))
-	            siteData.Add(New SiteDataItem(7, 3, "CNN", "http://www.cnn.com"))
-	            siteData.Add(New SiteDataItem(8, 3, "BBC", "http://www.bbc.co.uk"))
-	            siteData.Add(New SiteDataItem(9, 3, "FOX", "http://www.foxnews.com"))
-	            Return siteData
-	        End Function
-	    End Class
+Imports System.Collections.Generic
+Public Class SiteDataItem
+	Private _text As String
+	Private _url As String
+	Private _id As Integer
+	Private _parentId As Integer
+	Public Property Text() As String
+		Get
+			Return _text
+		End Get
+		Set(ByVal value As String)
+			_text = value
+		End Set
+	End Property
+	Public Property Url() As String
+		Get
+			Return _url
+		End Get
+		Set(ByVal value As String)
+			_url = value
+		End Set
+	End Property
+	Public Property ID() As Integer
+		Get
+			Return _id
+		End Get
+		Set(ByVal value As Integer)
+			_id = value
+		End Set
+	End Property
+	Public Property ParentID() As Integer
+		Get
+			Return _parentId
+		End Get
+		Set(ByVal value As Integer)
+			_parentId = value
+		End Set
+	End Property
+	Public Sub New(ByVal id As Integer, ByVal parentId As Integer, ByVal text As String, ByVal url As String)
+		_id = id
+		_parentId = parentId
+		_text = text
+		_url = url
+	End Sub
+	Public Shared Function GetSiteData() As List(Of SiteDataItem)
+		Dim siteData As New List(Of SiteDataItem)()
+		siteData.Add(New SiteDataItem(1, 0, "All Sites", ""))
+		siteData.Add(New SiteDataItem(2, 1, "Search Engines", ""))
+		siteData.Add(New SiteDataItem(3, 1, "News Sites", ""))
+		siteData.Add(New SiteDataItem(4, 2, "Yahoo", "http://www.yahoo.com"))
+		siteData.Add(New SiteDataItem(5, 2, "MSN", "http://www.msn.com"))
+		siteData.Add(New SiteDataItem(6, 2, "Google", "http://www.google.com"))
+		siteData.Add(New SiteDataItem(7, 3, "CNN", "http://www.cnn.com"))
+		siteData.Add(New SiteDataItem(8, 3, "BBC", "http://www.bbc.co.uk"))
+		siteData.Add(New SiteDataItem(9, 3, "FOX", "http://www.foxnews.com"))
+		Return siteData
+	End Function
+End Class
 ````
-
 
 ## Binding to an object that implements IEnumerable
 
->note To see this type of data binding in action, please visit the[Hierarchical Data Binding](http://demos.telerik.com/aspnet-ajax/Menu/Examples/Programming/HierarchicalBinding/DefaultCS.aspx)live demo.
+>note To see this type of data binding in action, please visit the [Hierarchical Data Binding](http://demos.telerik.com/aspnet-ajax/Menu/Examples/Programming/HierarchicalBinding/DefaultCS.aspx) live demo.
 >
 
 
@@ -216,60 +209,59 @@ To bind directly to a collection, you must bind the menu at runtime, using the f
 The following example shows a menu bound to an **ArrayList**. The list contains **SiteDataItem** objects with the same definition as in the **ObjectDataSource** example, only that their **ParentID** property is of nullable type - **int?**:
 
 
-
 ````C#
-	    private ArrayList GenerateSiteData()
-	    {  
-	        ArrayList siteData = new ArrayList();  
-	        siteData.Add(new SiteDataItem(1, null, "All Sites", ""));  
-	        siteData.Add(new SiteDataItem(2, 1, "Search Engines", "")); 
-	        siteData.Add(new SiteDataItem(3, 1, "News Sites", "")); 
-	        siteData.Add(new SiteDataItem(4, 2, "Yahoo", "http://www.yahoo.com"));  
-	        siteData.Add(new SiteDataItem(5, 2, "MSN", "http://www.msn.com"));  
-	        siteData.Add(new SiteDataItem(6, 2, "Google", "http://www.google.com"));  
-	        siteData.Add(new SiteDataItem(7, 3, "CNN", "http://www.cnn.com"));  
-	        siteData.Add(new SiteDataItem(8, 3, "BBC", "http://www.bbc.co.uk"));
-	        siteData.Add(new SiteDataItem(9, 3, "FOX", "http://www.foxnews.com"));
-	        return siteData;
-	    }
-	    protected void Page_Load(object sender, EventArgs e)
-	    {  
-	        if (!IsPostBack)
-	        {    
-	            RadMenu1.DataTextField = "Text";
-	            RadMenu1.DataNavigateUrlField = "Url";
-	            RadMenu1.DataFieldID = "ID";    
-	            RadMenu1.DataFieldParentID = "ParentID";    
-	            RadMenu1.DataSource = GenerateSiteData();    
-	            RadMenu1.DataBind();  
-	        }
-	    }	
+private ArrayList GenerateSiteData()
+{  
+	ArrayList siteData = new ArrayList();  
+	siteData.Add(new SiteDataItem(1, null, "All Sites", ""));  
+	siteData.Add(new SiteDataItem(2, 1, "Search Engines", "")); 
+	siteData.Add(new SiteDataItem(3, 1, "News Sites", "")); 
+	siteData.Add(new SiteDataItem(4, 2, "Yahoo", "http://www.yahoo.com"));  
+	siteData.Add(new SiteDataItem(5, 2, "MSN", "http://www.msn.com"));  
+	siteData.Add(new SiteDataItem(6, 2, "Google", "http://www.google.com"));  
+	siteData.Add(new SiteDataItem(7, 3, "CNN", "http://www.cnn.com"));  
+	siteData.Add(new SiteDataItem(8, 3, "BBC", "http://www.bbc.co.uk"));
+	siteData.Add(new SiteDataItem(9, 3, "FOX", "http://www.foxnews.com"));
+	return siteData;
+}
+protected void Page_Load(object sender, EventArgs e)
+{  
+	if (!IsPostBack)
+	{    
+		RadMenu1.DataTextField = "Text";
+		RadMenu1.DataNavigateUrlField = "Url";
+		RadMenu1.DataFieldID = "ID";    
+		RadMenu1.DataFieldParentID = "ParentID";    
+		RadMenu1.DataSource = GenerateSiteData();    
+		RadMenu1.DataBind();  
+	}
+}	
 ````
 ````VB.NET
-	    Private Function GenerateSiteData() As ArrayList
-	        Dim siteData As New ArrayList()
-	        siteData.Add(New SiteDataItem(1, Nothing, "All Sites", ""))
-	        siteData.Add(New SiteDataItem(2, 1, "Search Engines", ""))
-	        siteData.Add(New SiteDataItem(3, 1, "News Sites", ""))
-	        siteData.Add(New SiteDataItem(4, 2, "Yahoo", "http://www.yahoo.com"))
-	        siteData.Add(New SiteDataItem(5, 2, "MSN", "http://www.msn.com"))
-	        siteData.Add(New SiteDataItem(6, 2, "Google", "http://www.google.com"))
-	        siteData.Add(New SiteDataItem(7, 3, "CNN", "http://www.cnn.com"))
-	        siteData.Add(New SiteDataItem(8, 3, "BBC", "http://www.bbc.co.uk"))
-	        siteData.Add(New SiteDataItem(9, 3, "FOX", "http://www.foxnews.com"))
-	        Return siteData
-	    End Function
-	
-	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
-	        If Not IsPostBack Then
-	            RadMenu1.DataTextField = "Text"
-	            RadMenu1.DataNavigateUrlField = "Url"
-	            RadMenu1.DataFieldID = "ID"
-	            RadMenu1.DataFieldParentID = "ParentID"
-	            RadMenu1.DataSource = GenerateSiteData()
-	            RadMenu1.DataBind()
-	        End If
-	    End Sub
+Private Function GenerateSiteData() As ArrayList
+	Dim siteData As New ArrayList()
+	siteData.Add(New SiteDataItem(1, Nothing, "All Sites", ""))
+	siteData.Add(New SiteDataItem(2, 1, "Search Engines", ""))
+	siteData.Add(New SiteDataItem(3, 1, "News Sites", ""))
+	siteData.Add(New SiteDataItem(4, 2, "Yahoo", "http://www.yahoo.com"))
+	siteData.Add(New SiteDataItem(5, 2, "MSN", "http://www.msn.com"))
+	siteData.Add(New SiteDataItem(6, 2, "Google", "http://www.google.com"))
+	siteData.Add(New SiteDataItem(7, 3, "CNN", "http://www.cnn.com"))
+	siteData.Add(New SiteDataItem(8, 3, "BBC", "http://www.bbc.co.uk"))
+	siteData.Add(New SiteDataItem(9, 3, "FOX", "http://www.foxnews.com"))
+	Return siteData
+End Function
+
+Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
+	If Not IsPostBack Then
+		RadMenu1.DataTextField = "Text"
+		RadMenu1.DataNavigateUrlField = "Url"
+		RadMenu1.DataFieldID = "ID"
+		RadMenu1.DataFieldParentID = "ParentID"
+		RadMenu1.DataSource = GenerateSiteData()
+		RadMenu1.DataBind()
+	End If
+End Sub
 ````
 
 

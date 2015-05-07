@@ -14,7 +14,7 @@ position: 3
 
 ## 
 
-The **NavigationItemBinding Collection Editor**lets you specify how to map the fields from a declarative data source to the properties of the items in your sitemap. To use the **NavigationItemBinding Collection Builder**, you must first set the **DataSourceID** property. Once the sitemap is bound to a data source, There are two ways to display the NavigationItemBinding Collection Builder:
+The **NavigationItemBinding Collection Editor** lets you specify how to map the fields from a declarative data source to the properties of the items in your sitemap. To use the **NavigationItemBinding Collection Builder**, you must first set the **DataSourceID** property. Once the sitemap is bound to a data source, There are two ways to display the NavigationItemBinding Collection Builder:
 
 * Right-click on the RadSiteMap control and choose **Edit RadSiteMap Databindings** from the context menu.
 

@@ -26,7 +26,7 @@ position: 0
 
 * [Any object that implements the IEnumerable interface]({%slug tabstrip/data-binding/binding-to-object-based-data-sources%}).
 
-To bind the tab strip to a data source, specify the data source as the value of the**DataSource** property and call the **DataBind** method. If you are using declarative data sources such as **AccessDataSource** or **SiteMapDataSource**, use the **DataSourceID** property instead of the **DataSource** property.
+To bind the tab strip to a data source, specify the data source as the value of the **DataSource** property and call the **DataBind** method. If you are using declarative data sources such as **AccessDataSource** or **SiteMapDataSource**, use the **DataSourceID** property instead of the **DataSource** property.
 
 Usually, you also want to do one or more of the following:
 
@@ -49,18 +49,15 @@ Usually, you also want to do one or more of the following:
 
 
 ````C#
-	void RadTabStrip1_TabDataBound(object sender, RadTabStripEventArgs e)
-	{
-	   e.Tab.ToolTip = "Read more about" + (string)DataBinder.Eval(e.Tab.DataItem, "Text");
-	  
-	} 
-				
+void RadTabStrip1_TabDataBound(object sender, RadTabStripEventArgs e)
+{
+   e.Tab.ToolTip = "Read more about" + (string)DataBinder.Eval(e.Tab.DataItem, "Text");  
+} 				
 ````
 ````VB.NET
-	Private Sub RadTabStrip1_TabDataBound(ByVal sender As Object, ByVal e As RadTabStripEventArgs)
-	    e.Tab.ToolTip = "Read more about" + DirectCast(DataBinder.Eval(e.Tab.DataItem, "Text"), String)
-	End Sub 
-				
+Private Sub RadTabStrip1_TabDataBound(ByVal sender As Object, ByVal e As RadTabStripEventArgs)
+    e.Tab.ToolTip = "Read more about" + DirectCast(DataBinder.Eval(e.Tab.DataItem, "Text"), String)
+End Sub 				
 ````
 
 
@@ -106,10 +103,8 @@ RadTabStrip exposes the **MaxDataBindDepth** property. This property is used to 
 
 You can use [templates]({%slug tabstrip/templates/overview%}) with a data-bound tab strip. To bind template tabs to column values, use DataBinder.Eval expressions in the template's definition:
 
-````ASPNET
-	     
-		<%# DataBinder.Eval(Container.DataItem, "ColumnName") %>
-				
+````ASPNET     
+<%# DataBinder.Eval(Container.DataItem, "ColumnName") %>				
 ````
 
 

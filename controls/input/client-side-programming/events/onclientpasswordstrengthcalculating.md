@@ -31,28 +31,28 @@ Four properties are exposed through the event arguments:
 * **set_indicatorText** - sets the text that will be used in the indicator element instead of the correspondading one from TextStrengthDescriptions.
 
 ````ASPNET
-	    <telerik:RadTextBox runat="server" ID="RadTextBox1" Text="Enter Password" TextMode="Password">
-	        <PasswordStrengthSettings ShowIndicator="true" OnClientPasswordStrengthCalculating="CalculatingStrength" />
-	    </telerik:RadTextBox>    
+<telerik:RadTextBox runat="server" ID="RadTextBox1" Text="Enter Password" TextMode="Password">
+	<PasswordStrengthSettings ShowIndicator="true" OnClientPasswordStrengthCalculating="CalculatingStrength" />
+</telerik:RadTextBox>    
 ````
 
 
 
 ````JavaScript
-	    <script type="text/javascript">
-	        function CalculatingStrength(sender, args) {
-	            if (args.get_passwordText() == "Enter Password") {
-	                //Manually set strength Score depending on the input text.
-	                args.set_indicatorText("Custom text");
-	                args.set_strengthScore(0);
-	            }
-	            else {
-	                var calculatedScore = args.get_strengthScore();
-	                //Changing the indicator text depending on the calculated score.
-	                args.set_indicatorText("Score: (" + calculatedScore + "/100)");
-	            }
-	        }
-	    </script>
+<script type="text/javascript">
+	function CalculatingStrength(sender, args) {
+		if (args.get_passwordText() == "Enter Password") {
+			//Manually set strength Score depending on the input text.
+			args.set_indicatorText("Custom text");
+			args.set_strengthScore(0);
+		}
+		else {
+			var calculatedScore = args.get_strengthScore();
+			//Changing the indicator text depending on the calculated score.
+			args.set_indicatorText("Score: (" + calculatedScore + "/100)");
+		}
+	}
+</script>
 ````
 
 

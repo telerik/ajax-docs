@@ -12,9 +12,9 @@ position: 9
 
 
 
-## 
 
-**OnTweet** - fires when the Tweet button is clicked in the sharing popup (i.e. after the actual tweet is posted). Does not fire immediately after the Tweet Standard button is clicked in the RadSocialShare control. Scripts from Twitter return the information about this event and its behavior cannot be changed.
+
+**OnTweet** - fires when the Tweet button is clicked in the sharing popup (i.e., after the actual tweet is posted). Does not fire immediately after the Tweet Standard button is clicked in the **RadSocialShare** control. Scripts from Twitter return the information about this event and its behavior cannot be changed.
 
 The event handler receives two parameters:
 

@@ -10,8 +10,6 @@ position: 8
 
 # OnClientItemOpened
 
-
-
 ## 
 
 The **OnClientItemOpened** client-side event occurs immediately after an item in the menu expands to show its child items.
@@ -28,38 +26,36 @@ The event handler receives two parameters:
 
 You can use this event to initialize the list of child items:
 
-````ASPNET
-	
-	    <script type="text/javascript">
-	    function ItemOpened(menu, args) {
-	        var d = new Date();
-	        var item = args.get_item();
-	        var str = "";
-	        if (item.get_text() == "Date") {
-	            str = d.toLocaleDateString();
-	        } else if (item.get_text() == "Time") {
-	            str = d.toLocaleTimeString();
-	        }
-	        item.get_items().getItem(0).set_text(str);
-	    }
-	    </script>
-	
-	    <telerik:RadMenu ID="RadMenu1" runat="server" Flow="Horizontal" OnClientItemOpened="ItemOpened">
-	        <Items>
-	            <telerik:RadMenuItem runat="server" ExpandMode="ClientSide" Text="Time">
-	                <Items>
-	                    <telerik:RadMenuItem runat="server" ExpandMode="ClientSide" />
-	                </Items>
-	            </telerik:RadMenuItem>
-	            <telerik:RadMenuItem runat="server" ExpandMode="ClientSide" Text="Date">
-	                <Items>
-	                    <telerik:RadMenuItem runat="server" ExpandMode="ClientSide" />
-	                </Items>
-	            </telerik:RadMenuItem>
-	        </Items>
-	    </telerik:RadMenu>
-````
+````ASPNET	
+<script type="text/javascript">
+function ItemOpened(menu, args) {
+    var d = new Date();
+    var item = args.get_item();
+    var str = "";
+    if (item.get_text() == "Date") {
+        str = d.toLocaleDateString();
+    } else if (item.get_text() == "Time") {
+        str = d.toLocaleTimeString();
+    }
+    item.get_items().getItem(0).set_text(str);
+}
+</script>
 
+<telerik:RadMenu ID="RadMenu1" runat="server" Flow="Horizontal" OnClientItemOpened="ItemOpened">
+    <Items>
+        <telerik:RadMenuItem runat="server" ExpandMode="ClientSide" Text="Time">
+            <Items>
+                <telerik:RadMenuItem runat="server" ExpandMode="ClientSide" />
+            </Items>
+        </telerik:RadMenuItem>
+        <telerik:RadMenuItem runat="server" ExpandMode="ClientSide" Text="Date">
+            <Items>
+                <telerik:RadMenuItem runat="server" ExpandMode="ClientSide" />
+            </Items>
+        </telerik:RadMenuItem>
+    </Items>
+</telerik:RadMenu>
+````
 
 
 # See Also

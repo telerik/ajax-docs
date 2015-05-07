@@ -10,8 +10,6 @@ position: 17
 
 # OnClientCheckedStateChanging
 
-
-
 ## 
 
 The **OnClientCheckedStateChanging** client-side event occurs before a button has been checked.
@@ -36,24 +34,22 @@ The event handler receives two parameters:
 
 You can use this event to respond when a button has been checked.
 
-````ASPNET
-	     
-		<script type="text/javascript">
-		    function checkedStateChanging(sender, args) {
-		        args.set_cancel(true);
-		    }        
-		</script> 
-		<telerik:RadToolBar ID="RadToolBar1" runat="server" OnClientCheckedStateChanging="checkedStateChanging">    
-		<Items>        
-		    <telerik:RadToolBarButton Text="Button1" CheckOnClick="true">
-		    </telerik:RadToolBarButton>        
-		    <telerik:RadToolBarButton Text="Button1" CheckOnClick="true">
-		    </telerik:RadToolBarButton>        
-		    <telerik:RadToolBarButton Text="Button1" CheckOnClick="true">
-		    </telerik:RadToolBarButton>    
-		</Items>
-		</telerik:RadToolBar>
-				
+````ASPNET	     
+<script type="text/javascript">
+    function checkedStateChanging(sender, args) {
+        args.set_cancel(true);
+    }        
+</script> 
+<telerik:RadToolBar ID="RadToolBar1" runat="server" OnClientCheckedStateChanging="checkedStateChanging">    
+<Items>        
+    <telerik:RadToolBarButton Text="Button1" CheckOnClick="true">
+    </telerik:RadToolBarButton>        
+    <telerik:RadToolBarButton Text="Button1" CheckOnClick="true">
+    </telerik:RadToolBarButton>        
+    <telerik:RadToolBarButton Text="Button1" CheckOnClick="true">
+    </telerik:RadToolBarButton>    
+</Items>
+</telerik:RadToolBar>				
 ````
 
 

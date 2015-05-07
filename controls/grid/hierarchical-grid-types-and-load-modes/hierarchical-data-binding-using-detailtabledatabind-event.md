@@ -53,36 +53,33 @@ The following examples show some possible ways to filter the detail data source.
 
 
 ````C#
-	
-	
-	    private void RadGrid1_DetailTableDataBind(object source, Telerik.Web.UI.GridDetailTableDataBindEventArgs e)
-	    {
-	        GridDataItem parentItem = e.DetailTableView.ParentItem as GridDataItem;
-	        if (parentItem.Edit)
-	        {
-	            return;
-	        }
-	        if (e.DetailTableView.DataMember == "OrderDetails")
-	        {
-	            dsNWind1.OrderDetails.Clear();
-	            daOrderDetails.SelectCommand.CommandText = "Select * from [Order Details] where OrderID = " + parentItem["OrderID"].Text;
-	            daOrderDetails.Fill(dsNWind1.OrderDetails);
-	        }
-	    }
-	
+private void RadGrid1_DetailTableDataBind(object source, Telerik.Web.UI.GridDetailTableDataBindEventArgs e)
+{
+    GridDataItem parentItem = e.DetailTableView.ParentItem as GridDataItem;
+    if (parentItem.Edit)
+    {
+        return;
+    }
+    if (e.DetailTableView.DataMember == "OrderDetails")
+    {
+        dsNWind1.OrderDetails.Clear();
+        daOrderDetails.SelectCommand.CommandText = "Select * from [Order Details] where OrderID = " + parentItem["OrderID"].Text;
+        daOrderDetails.Fill(dsNWind1.OrderDetails);
+    }
+}
 ````
 ````VB
-	    Private Sub RadGrid1_DetailTableDataBind(ByVal source As Object, ByVal e As GridDetailTableDataBindEventArgs) Handles RadGrid1.DetailTableDataBind
-	        Dim parentItem As GridDataItem = CType(e.DetailTableView.ParentItem, GridDataItem)
-	        If parentItem.Edit Then
-	            Return
-	        End If
-	        If (e.DetailTableView.DataMember = "OrderDetails") Then
-	            dsNWind1.OrderDetails.Clear()
-	            daOrderDetails.SelectCommand.CommandText = "Select * from [Order Details] where OrderID = " + parentItem("OrderID").Text
-	            daOrderDetails.Fill(dsNWind1.OrderDetails)
-	        End If
-	    End Sub
+Private Sub RadGrid1_DetailTableDataBind(ByVal source As Object, ByVal e As GridDetailTableDataBindEventArgs) Handles RadGrid1.DetailTableDataBind
+    Dim parentItem As GridDataItem = CType(e.DetailTableView.ParentItem, GridDataItem)
+    If parentItem.Edit Then
+        Return
+    End If
+    If (e.DetailTableView.DataMember = "OrderDetails") Then
+        dsNWind1.OrderDetails.Clear()
+        daOrderDetails.SelectCommand.CommandText = "Select * from [Order Details] where OrderID = " + parentItem("OrderID").Text
+        daOrderDetails.Fill(dsNWind1.OrderDetails)
+    End If
+End Sub
 ````
 
 
@@ -91,34 +88,31 @@ The following examples show some possible ways to filter the detail data source.
 
 
 ````C#
-	
-	
-	    private void RadGrid1_DetailTableDataBind(object source, Telerik.Web.UI.GridDetailTableDataBindEventArgs e)
-	    {
-	        GridDataItem parentItem = e.DetailTableView.ParentItem as GridDataItem;
-	        if (parentItem.Edit)
-	        {
-	            return;
-	        }
-	        if (e.DetailTableView.DataMember == "OrderDetails")
-	        {
-	            DataSet ds = (DataSet)e.DetailTableView.DataSource;
-	            e.DetailTableView.DataSource = ds.Tables["OrderDetails"].Select("CustomerID = '" + parentItem["CustomerID"].Text + "'");
-	        }
-	    }
-	
+private void RadGrid1_DetailTableDataBind(object source, Telerik.Web.UI.GridDetailTableDataBindEventArgs e)
+{
+    GridDataItem parentItem = e.DetailTableView.ParentItem as GridDataItem;
+    if (parentItem.Edit)
+    {
+        return;
+    }
+    if (e.DetailTableView.DataMember == "OrderDetails")
+    {
+        DataSet ds = (DataSet)e.DetailTableView.DataSource;
+        e.DetailTableView.DataSource = ds.Tables["OrderDetails"].Select("CustomerID = '" + parentItem["CustomerID"].Text + "'");
+    }
+}
 ````
 ````VB
-	    Private Sub RadGrid1_DetailTableDataBind(ByVal source As Object, ByVal e As GridDetailTableDataBindEventArgs) Handles RadGrid1.DetailTableDataBind
-	        Dim parentItem As GridDataItem = CType(e.DetailTableView.ParentItem, GridDataItem)
-	        If parentItem.Edit Then
-	            Return
-	        End If
-	        If (e.DetailTableView.DataMember = "OrderDetails") Then
-	            Dim ds As DataSet = CType(e.DetailTableView.DataSource, DataSet)
-	            e.DetailTableView.DataSource = ds.Tables("OrderDetails").Select("CustomerID = '" + parentItem("CustomerID").Text + "'")
-	        End If
-	    End Sub
+Private Sub RadGrid1_DetailTableDataBind(ByVal source As Object, ByVal e As GridDetailTableDataBindEventArgs) Handles RadGrid1.DetailTableDataBind
+    Dim parentItem As GridDataItem = CType(e.DetailTableView.ParentItem, GridDataItem)
+    If parentItem.Edit Then
+        Return
+    End If
+    If (e.DetailTableView.DataMember = "OrderDetails") Then
+        Dim ds As DataSet = CType(e.DetailTableView.DataSource, DataSet)
+        e.DetailTableView.DataSource = ds.Tables("OrderDetails").Select("CustomerID = '" + parentItem("CustomerID").Text + "'")
+    End If
+End Sub
 ````
 
 
@@ -127,38 +121,34 @@ The following examples show some possible ways to filter the detail data source.
 
 
 ````C#
-	
-	
-	    private void RadGrid1_DetailTableDataBind(object source, Telerik.Web.UI.GridDetailTableDataBindEventArgs e)
-	    {
-	        GridDataItem parentItem = e.DetailTableView.ParentItem as GridDataItem;
-	        if (parentItem.Edit)
-	        {
-	            return;
-	        }
-	        if (e.DetailTableView.DataMember == "OrderDetails")
-	        {
-	            DataSet ds = (DataSet)e.DetailTableView.DataSource;
-	            DataView dv = ds.Tables["OrderDetails"].DefaultView;
-	            dv.RowFilter = "CustomerID = '" + parentItem["CustomerID"].Text + "'";
-	            e.DetailTableView.DataSource = dv;
-	        }
-	    }
-	
+private void RadGrid1_DetailTableDataBind(object source, Telerik.Web.UI.GridDetailTableDataBindEventArgs e)
+{
+    GridDataItem parentItem = e.DetailTableView.ParentItem as GridDataItem;
+    if (parentItem.Edit)
+    {
+        return;
+    }
+    if (e.DetailTableView.DataMember == "OrderDetails")
+    {
+        DataSet ds = (DataSet)e.DetailTableView.DataSource;
+        DataView dv = ds.Tables["OrderDetails"].DefaultView;
+        dv.RowFilter = "CustomerID = '" + parentItem["CustomerID"].Text + "'";
+        e.DetailTableView.DataSource = dv;
+    }
+}
 ````
 ````VB
-	    Private Sub RadGrid1_DetailTableDataBind(ByVal source As Object, ByVal e As GridDetailTableDataBindEventArgs) Handles RadGrid1.DetailTableDataBind
-	        Dim parentItem As GridDataItem = CType(e.DetailTableView.ParentItem, GridDataItem)
-	        If parentItem.Edit Then
-	            Return
-	        End If
-	        If (e.DetailTableView.DataMember = "OrderDetails") Then
-	            Dim ds As DataSet = CType(e.DetailTableView.DataSource, DataSet)
-	            Dim dv As DataView = ds.Tables("OrderDetails").DefaultView
-	            dv.RowFilter = "CustomerID = '" + parentItem("CustomerID").Text + "'"
-	            e.DetailTableView.DataSource = dv
-	        End If
-	    End Sub
-	
+Private Sub RadGrid1_DetailTableDataBind(ByVal source As Object, ByVal e As GridDetailTableDataBindEventArgs) Handles RadGrid1.DetailTableDataBind
+    Dim parentItem As GridDataItem = CType(e.DetailTableView.ParentItem, GridDataItem)
+    If parentItem.Edit Then
+        Return
+    End If
+    If (e.DetailTableView.DataMember = "OrderDetails") Then
+        Dim ds As DataSet = CType(e.DetailTableView.DataSource, DataSet)
+        Dim dv As DataView = ds.Tables("OrderDetails").DefaultView
+        dv.RowFilter = "CustomerID = '" + parentItem("CustomerID").Text + "'"
+        e.DetailTableView.DataSource = dv
+    End If
+End Sub
 ````
 

@@ -8,11 +8,9 @@ published: True
 position: 0
 ---
 
-# Events Overview
+# Client-side Events Overview
 
 
-
-## 
 
 The **RadSocialShare** control offers many client-side events that you can use together with its [client-side API]({%slug socialshare/client-side-programming/radsocialshare-object%}) to control its behavior. These events are set through a number of properties whose value is the name of a JavaScript function that executes when the specific client-side event occurs. The available events are are listed below.
 

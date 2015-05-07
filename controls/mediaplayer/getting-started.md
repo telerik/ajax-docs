@@ -12,7 +12,8 @@ position: 1
 
 
 
-**RadMediaPlayer** is a new addition to the Telerik's control kit for ASP.NET AJAX. And as a part of the UI bundle, it possesses the main feature of every rad control - provides the developer a useful and convenient tool designed for achieving fascinating results in a sharp time frame.![Media-Player-Overview-Image](images/mediaplayer-overview-image.png)
+**RadMediaPlayer** is a new addition to the Telerik's control kit for ASP.NET AJAX. And as a part of the UI bundle, it possesses the main feature of every rad control - provides the developer a useful and convenient tool designed for achieving fascinating results in a sharp time frame.
+![Media-Player-Overview-Image](images/mediaplayer-overview-image.png)
 
 **RadMediaPlayer** can be used for presenting video and audio files from static sources or streaming online YouTube clips to enrich your web site with dynamic content in a user-friendly interface.
 

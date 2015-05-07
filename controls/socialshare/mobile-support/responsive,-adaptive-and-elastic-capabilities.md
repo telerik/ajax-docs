@@ -27,24 +27,24 @@ Elements that use images or images sprites, however, cannot be increased in size
 
 The following sample shows how to increase the font size of a RadSocialShare and the effect can be seen in comparison in Figure 1.
 
-````ASPNET
-		<style type="text/css">
-			div.RadSocialShare {
-				font-size: 18px !important;
-			}
-		</style>
-		<telerik:RadSocialShare runat="server" ID="ssh1" EnableEmbeddedSkins="true" Skin="Silk" Width="100%" Height="200px">
-			<MainButtons>
-				<telerik:RadSocialButton SocialNetType="Blogger" />
-				<telerik:RadSocialButton SocialNetType="ShareOnTwitter" ToolTip="Tweet this" />
-				<telerik:RadSocialButton SocialNetType="Delicious" ToolTip="Share on Delicious" />
-				<telerik:RadSocialButton SocialNetType="MySpace" ToolTip="Share on MySpace" />
-				<telerik:RadSocialButton SocialNetType="Tumblr" ToolTip="Share on Tumblr" />
-				<telerik:RadSocialButton SocialNetType="ShareOnTwitter" ToolTip="Tweet this" />
-				<telerik:RadSocialButton SocialNetType="GoogleBookmarks" ToolTip="Share on GoogleBookmarks" />
-				<telerik:RadCompactButton />
-			</MainButtons>
-		</telerik:RadSocialShare>
+````ASP.NET
+<style type="text/css">
+	div.RadSocialShare {
+		font-size: 18px !important;
+	}
+</style>
+<telerik:RadSocialShare runat="server" ID="ssh1" EnableEmbeddedSkins="true" Skin="Silk" Width="100%" Height="200px">
+	<MainButtons>
+		<telerik:RadSocialButton SocialNetType="Blogger" />
+		<telerik:RadSocialButton SocialNetType="ShareOnTwitter" ToolTip="Tweet this" />
+		<telerik:RadSocialButton SocialNetType="Delicious" ToolTip="Share on Delicious" />
+		<telerik:RadSocialButton SocialNetType="MySpace" ToolTip="Share on MySpace" />
+		<telerik:RadSocialButton SocialNetType="Tumblr" ToolTip="Share on Tumblr" />
+		<telerik:RadSocialButton SocialNetType="ShareOnTwitter" ToolTip="Tweet this" />
+		<telerik:RadSocialButton SocialNetType="GoogleBookmarks" ToolTip="Share on GoogleBookmarks" />
+		<telerik:RadCompactButton />
+	</MainButtons>
+</telerik:RadSocialShare>
 ````
 
 

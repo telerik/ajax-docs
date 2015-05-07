@@ -12,13 +12,13 @@ position: 4
 
 
 
-**RadTabStrip** uses **skins** to control the overall look-and-feel of the tab strip. A skin is a set of images and a CSS stylesheet that can be applied to the tab strip elements (items, images, etc.) and defines their look and feel. To apply a skin to the tab strip, set its **Skin** property, either using the properties pane or the **RadTabStrip**[Smart Tag]({%slug tabstrip/design-time/smart-tag%}).
+**RadTabStrip** uses **skins** to control the overall look-and-feel of the tab strip. A skin is a set of images and a CSS stylesheet that can be applied to the tab strip elements (items, images, etc.) and defines their look and feel. To apply a skin to the tab strip, set its **Skin** property, either using the properties pane or the **RadTabStrip** [Smart Tag]({%slug tabstrip/design-time/smart-tag%}).
 
 **RadTabStrip** is installed with a number of common skins:
 
 ![](images/tabstrip_skins_thumb.png)
 
->note The **Hay** , **Forest** , **Sitefinity** and **Transparent** skins are obsolete and have been removed from the Telerik.Web.UI.Skins.dll assembly as of **Q1 2014** .You can find more information on the matter in[this blog post](http://blogs.telerik.com/aspnet-ajax/posts/13-04-11/6-telerik-asp.net-ajax-skins-going-obsolete).
+>note The **Hay**, **Forest**, **Sitefinity** and **Transparent** skins are obsolete and have been removed from the Telerik.Web.UI.Skins.dll assembly as of **Q1 2014**. You can find more information on the matter in [this blog post](http://blogs.telerik.com/aspnet-ajax/posts/13-04-11/6-telerik-asp.net-ajax-skins-going-obsolete).
 >
 
 

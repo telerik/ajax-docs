@@ -13,13 +13,15 @@ position: 3
 
 
 The Smart Tag of **RadSocialShare** lets you easily select the available buttons, change the skin for your control or quickly get help. You can display the Smart Tag by right clicking on a **RadSocialShare** control and choosing "Show Smart Tag", or by clicking the small rightward-pointing arrow located in the upper right corner of the control.
->caption 
+
 
 ![socialshare-smart-tag](images/socialshare-smart-tag.png)
 
 ## Configurator For The Button Lists
 
-The built-in visual designer allows you to easily add the buttons you wish to the **RadSocialShare** control and it will create the needed markup for you.![radsocialshare-smart-tag-designer](images/radsocialshare-smart-tag-designer.png)
+The built-in visual designer allows you to easily add the buttons you wish to the **RadSocialShare** control and it will create the needed markup for you.
+
+![radsocialshare-smart-tag-designer](images/radsocialshare-smart-tag-designer.png)
 
 The left column lets you choose which of the [Button Collections]({%slug socialshare/configuring-buttons/collections%}) you will modify. By default the **MainButtons** collection is selected.
 
@@ -29,7 +31,7 @@ You can add a [Styled Button]({%slug socialshare/configuring-buttons/styled%}) b
 
 You can choose which network the button connects to by directly typing the [Standard Buttons]({%slug socialshare/configuring-buttons/standard%})'s name (or **SocialNetType** property for the [Styled Button]({%slug socialshare/configuring-buttons/styled%})) in the list, or you can select this from the dropdown in the right pane where you can choose all other options.
 
-If you type in a name that does not exist as a possible value for these properties the input will not be taken and the button will be reset to its previous state. Note that the names are case-sensitive. By default the **GoogleBookmarks**[Styled Button]({%slug socialshare/configuring-buttons/styled%}) is added as it is the first one in the aphpabetical order.
+If you type in a name that does not exist as a possible value for these properties the input will not be taken and the button will be reset to its previous state. Note that the names are case-sensitive. By default the **GoogleBookmarks** [Styled Button]({%slug socialshare/configuring-buttons/styled%}) is added as it is the first one in the alphabetical order.
 
 If the button type is changed via the properties pane this change is automatically reflected in its name in the list and vice versa.
 

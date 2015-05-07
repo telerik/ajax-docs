@@ -26,31 +26,30 @@ In general expanding and collapsing RadPanelItems is entirely a client-side func
 
 Below you can find several workarounds to enable the server side ItemClick event when expanding/collapsing a RadPanelItem.
 
-1. Hide the expand/collapse handle using css:
+* Hide the expand/collapse handle using css:
 
-````XML
-	        .rpExpandHandle
-	        {
-	            display: none !important;
-	        }
+````CSS
+.rpExpandHandle {
+    display: none !important;
+}
 ````
 
 
 
-1. Force a PostBack of the page when a RadPanelItem is clicked:
+* Force a PostBack of the page when a RadPanelItem is clicked:
 
 ````ASPNET
-	        function onClientCollapseExpand(sender, args) {
-	            var handler = $telerik.$('span.rpExpandHandle');
-	            //get the clicked handler element
-	            if (handler) {
-	                //perform postback
-	                **doPostBack();
-	            }
-	            else {
-	                //do something else
-	            }
-	        }
+function onClientCollapseExpand(sender, args) {
+    var handler = $telerik.$('span.rpExpandHandle');
+    //get the clicked handler element
+    if (handler) {
+        //perform postback
+        **doPostBack();
+    }
+    else {
+        //do something else
+    }
+}
 ````
 
 

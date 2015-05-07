@@ -21,46 +21,46 @@ position: 0
 Given the following markup there are some examples of how you can get different elements of the RadRibbonBard control.
 
 ````ASPNET
-	    <telerik:RadRibbonBar runat="server" ID="RadRibbonBar1" OnClientLoad="OnClientLoad"
-				OnClientButtonClicking="OnClientButtonClicking">
-				<telerik:RibbonBarTab Text="Tab0" Value="Tab0Value">
-					<telerik:RibbonBarGroup Text="Group0" Value="Group0Value">
-						<Items>
-							<telerik:RibbonBarButton Text="RibbonBarButton0" Size="Medium" Value="RibbonBarButton0Value" />
-							<telerik:RibbonBarButton Text="RibbonBarButton1" Size="Medium" Value="RibbonBarButton1Value" />
-							<telerik:RibbonBarButton Text="RibbonBarButton2" Size="Medium" Value="RibbonBarButton2Value" />
-						</Items>
-					</telerik:RibbonBarGroup>
-				</telerik:RibbonBarTab>
-				<telerik:RibbonBarTab Text="Tab1" Value="Tab1Value">
-					<telerik:RibbonBarGroup Text="Group1" Value="Group1Value">
-						<Items>
-							<telerik:RibbonBarMenu ID="RibbonBarMenu" Text="RibbonBarMenu1">
-								<Items>
-									<telerik:RibbonBarMenuItem Text="RibbonBarMenuItem0" Value="0">
-									</telerik:RibbonBarMenuItem>
-									<telerik:RibbonBarMenuItem Text="RibbonBarMenuItem1" Value="1">
-									</telerik:RibbonBarMenuItem>
-									<telerik:RibbonBarMenuItem Text="RibbonBarMenuItem2" Value="2">
-									</telerik:RibbonBarMenuItem>
-								</Items>
-							</telerik:RibbonBarMenu>
-						</Items>
-					</telerik:RibbonBarGroup>
-				</telerik:RibbonBarTab>
-				<telerik:RibbonBarTab Text="Tab2" Value="Tab2Value">
-					<telerik:RibbonBarGroup Text="Group2" Value="Group2Value">
-						<Items>
-							<telerik:RibbonBarToggleList>
-								<ToggleButtons>
-									<telerik:RibbonBarToggleButton Size="Medium" Text="RibbonBarToggleButton0"  Value="RibbonBarToggleButton0Value"/>
-									<telerik:RibbonBarToggleButton Size="Medium" Text="RibbonBarToggleButton1"  Value="RibbonBarToggleButton1Value"/>
-								</ToggleButtons>
-							</telerik:RibbonBarToggleList>
-						</Items>
-					</telerik:RibbonBarGroup>
-				</telerik:RibbonBarTab>
-			</telerik:RadRibbonBar>
+<telerik:RadRibbonBar runat="server" ID="RadRibbonBar1" OnClientLoad="OnClientLoad"
+	OnClientButtonClicking="OnClientButtonClicking">
+	<telerik:RibbonBarTab Text="Tab0" Value="Tab0Value">
+		<telerik:RibbonBarGroup Text="Group0" Value="Group0Value">
+			<Items>
+				<telerik:RibbonBarButton Text="RibbonBarButton0" Size="Medium" Value="RibbonBarButton0Value" />
+				<telerik:RibbonBarButton Text="RibbonBarButton1" Size="Medium" Value="RibbonBarButton1Value" />
+				<telerik:RibbonBarButton Text="RibbonBarButton2" Size="Medium" Value="RibbonBarButton2Value" />
+			</Items>
+		</telerik:RibbonBarGroup>
+	</telerik:RibbonBarTab>
+	<telerik:RibbonBarTab Text="Tab1" Value="Tab1Value">
+		<telerik:RibbonBarGroup Text="Group1" Value="Group1Value">
+			<Items>
+				<telerik:RibbonBarMenu ID="RibbonBarMenu" Text="RibbonBarMenu1">
+					<Items>
+						<telerik:RibbonBarMenuItem Text="RibbonBarMenuItem0" Value="0">
+						</telerik:RibbonBarMenuItem>
+						<telerik:RibbonBarMenuItem Text="RibbonBarMenuItem1" Value="1">
+						</telerik:RibbonBarMenuItem>
+						<telerik:RibbonBarMenuItem Text="RibbonBarMenuItem2" Value="2">
+						</telerik:RibbonBarMenuItem>
+					</Items>
+				</telerik:RibbonBarMenu>
+			</Items>
+		</telerik:RibbonBarGroup>
+	</telerik:RibbonBarTab>
+	<telerik:RibbonBarTab Text="Tab2" Value="Tab2Value">
+		<telerik:RibbonBarGroup Text="Group2" Value="Group2Value">
+			<Items>
+				<telerik:RibbonBarToggleList>
+					<ToggleButtons>
+						<telerik:RibbonBarToggleButton Size="Medium" Text="RibbonBarToggleButton0"  Value="RibbonBarToggleButton0Value"/>
+						<telerik:RibbonBarToggleButton Size="Medium" Text="RibbonBarToggleButton1"  Value="RibbonBarToggleButton1Value"/>
+					</ToggleButtons>
+				</telerik:RibbonBarToggleList>
+			</Items>
+		</telerik:RibbonBarGroup>
+	</telerik:RibbonBarTab>
+</telerik:RadRibbonBar>
 ````
 
 
@@ -71,10 +71,9 @@ RadRibbonBar creates a client-side object with the **ClientID** of the ribbonbar
 
 ````JavaScript
 	
-	        var ribbonBar = $find("<%= RadRibbonBar1.ClientID %>");
-	        // or...
-	        var ribbonbar = $find("RadRibbonBar1");
-	
+var ribbonBar = $find("<%= RadRibbonBar1.ClientID %>");
+// or...
+var ribbonbar = $find("RadRibbonBar1");	
 	
 ````
 
@@ -86,12 +85,13 @@ Once you have the client-side object of **RadRibbonBar**, you can use the **find
 
 ````JavaScript
 	          
-	        function OnClientLoad(sender, args) {
-	
-				var ribbonbar = $find("RadRibbonBar1");
-				var tab0 = ribbonbar.findTabByValue("Tab0Value");
-				tab0.set_text("NewTab0");
-			}
+function OnClientLoad(sender, args) {
+
+	var ribbonbar = $find("RadRibbonBar1");
+	var tab0 = ribbonbar.findTabByValue("Tab0Value");
+	tab0.set_text("NewTab0");
+}
+
 ````
 
 
@@ -101,16 +101,17 @@ Once you have the client-side object of **RadRibbonBar**, you can use the **find
 Now that you have the RibbonBarTab object you can easily get the **Group** object directly from the ribbonbar using the **findGroupByValue()** method.
 
 ````JavaScript
-			 function OnClientLoad(sender, args) {
-	
-				var ribbonbar = $find("RadRibbonBar1");
-				var tab0 = ribbonbar.findTabByValue("Tab0Value");
-				tab0.set_text("NewTab0");
-	
-				var group0 = ribbonbar.findGroupByValue("Group0Value");
-				group0.set_text("NewGroup0");
-	
-			}
+
+function OnClientLoad(sender, args) {
+
+	var ribbonbar = $find("RadRibbonBar1");
+	var tab0 = ribbonbar.findTabByValue("Tab0Value");
+	tab0.set_text("NewTab0");
+
+	var group0 = ribbonbar.findGroupByValue("Group0Value");
+	group0.set_text("NewGroup0");
+}
+
 ````
 
 
@@ -120,13 +121,13 @@ Now that you have the RibbonBarTab object you can easily get the **Group** objec
 By using the **findButtonByValue()** method you could get the instance of a particular **RibbonBarButton** :
 
 ````JavaScript
-	function OnClientLoad(sender, args) {
-	
-				var ribbonbar = $find("RadRibbonBar1");
-				var button0 = ribbonbar.findButtonByValue("RibbonBarButton0Value");
-				button0.set_enabled(false);
-				
-			}	
+
+function OnClientLoad(sender, args) {
+
+	var ribbonbar = $find("RadRibbonBar1");
+	var button0 = ribbonbar.findButtonByValue("RibbonBarButton0Value");
+	button0.set_enabled(false);	
+}	
 			
 ````
 
@@ -137,18 +138,19 @@ By using the **findButtonByValue()** method you could get the instance of a part
 Also using the **findToggleButtonByValue()** method you can find a particular button in the **RibbonBarToggleList** collection
 
 ````JavaScript
-			function OnClientLoad(sender, args) {
-	
-				var ribbonbar = $find("RadRibbonBar1");
-				var togglebutton = ribbonbar.findToggleButtonByValue("RibbonBarToggleButton0Value");
-				togglebutton.set_enabled(false);
-				}
+
+function OnClientLoad(sender, args) {
+
+	var ribbonbar = $find("RadRibbonBar1");
+	var togglebutton = ribbonbar.findToggleButtonByValue("RibbonBarToggleButton0Value");
+	togglebutton.set_enabled(false);
+}
 	
 ````
 
 
 
->note You can not operate with the RibbonBarToggleList byitself. In other words if you intend to disable the RibbonBarToggleListyou will not be able to do so since it does not render as an object. Instead you will need to disable each RibbonBarToggleButton individually.The same apply for the RibbonBarMenu as well.
+>note You can not operate with the RibbonBarToggleList by itself. In other words if you intend to disable the RibbonBarToggleList you will not be able to do so since it does not render as an object. Instead you will need to disable each RibbonBarToggleButton individually. The same apply for the RibbonBarMenu as well.
 >
 
 
@@ -156,13 +158,12 @@ Also using the **findToggleButtonByValue()** method you can find a particular bu
 
 ````JavaScript
 	
-	function OnClientLoad(sender, args) {
-	
-				var ribbonbar = $find("RadRibbonBar1");
-				var menuItem = ribbonbar.findMenuItemByValue("0");
-				menuItem.set_enabled(false);
-				
-			}
+function OnClientLoad(sender, args) {
+
+	var ribbonbar = $find("RadRibbonBar1");
+	var menuItem = ribbonbar.findMenuItemByValue("0");
+	menuItem.set_enabled(false);				
+}
 	
 ````
 
@@ -174,18 +175,17 @@ Also using the **findToggleButtonByValue()** method you can find a particular bu
 
 ````JavaScript
 				
-				function OnClientLoad(sender, args) {
-	
-				var ribbonbar = $find("RadRibbonBar1");
-				var tab0 = ribbonbar.get_tabs().getTab(0);
-				//tab0.set_text("NewTab0");
-				var group0 = tab0.get_groups().getGroup(0);
-				//group0.set_text("NewGroup0");
-				var item0 = group0.get_items().getItem(0);
-				//returns the text of the first button in the first group of the first tab
-				alert(item0.get_text());
-	
-			}
+function OnClientLoad(sender, args) {
+
+	var ribbonbar = $find("RadRibbonBar1");
+	var tab0 = ribbonbar.get_tabs().getTab(0);
+	//tab0.set_text("NewTab0");
+	var group0 = tab0.get_groups().getGroup(0);
+	//group0.set_text("NewGroup0");
+	var item0 = group0.get_items().getItem(0);
+	//returns the text of the first button in the first group of the first tab
+	alert(item0.get_text());
+}
 	
 ````
 
@@ -197,9 +197,9 @@ Several client side events occur immediately before the ribbonbar performs some 
 
 ````JavaScript
 	
-	        function OnClientButtonClicking(sender, args) {
-	            args.set_cancel(true);
-	        }
+function OnClientButtonClicking(sender, args) {
+    args.set_cancel(true);
+}
 	
 ````
 
@@ -209,4 +209,4 @@ Several client side events occur immediately before the ribbonbar performs some 
 
  * [Client Events](http://demos.telerik.com/aspnet-ajax/RibbonBar/Examples/Events/ClientSide/DefaultCS.aspx)
 
- * [Overview]({%slug ribbonbar/client-side-programming/events/overview%})
+ * [Client-side Events Overview]({%slug ribbonbar/client-side-programming/events/overview%})

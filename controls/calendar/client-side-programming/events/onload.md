@@ -14,7 +14,7 @@ position: 2
 
 ## 
 
-The **OnLoad**client-side event handler is called when the calendar is loaded on the client.
+The **OnLoad** client-side event handler is called when the calendar is loaded on the client.
 
 >note The **OnLoad** event is supported by: **RadCalendar** .
 >
@@ -26,24 +26,28 @@ The event handler receives one argument:
 
 
 
-The following example uses the **OnLoad**event to navigate to december when the page loads:
+The following example uses the **OnLoad** event to navigate to December when the page loads:
 
 ````ASPNET
-	 <script type="text/javascript">
-	     function moveToDecember(sender) {
-	         var todaysDate = new Date();
-	         if (todaysDate.getMonth() != 11)
-	             var triplet = [todaysDate.getFullYear() - 1, 12, 25];
-	         else
-	             var triplet = [todaysDate.getFullYear(), 12, 25];
-	         sender.navigateToDate(triplet);
-	     }
-	</script>
-	<telerik:RadCalendar ID="RadCalendar1" runat="server">
-	    <ClientEvents OnLoad="moveToDecember"  />
-	</telerik:RadCalendar>			
+<telerik:RadCalendar ID="RadCalendar1" runat="server">
+    <ClientEvents OnLoad="navigateToDecember"  />
+</telerik:RadCalendar>			
 ````
-
+````JavaScript
+function navigateToDecember(sender) {
+	var todaysDate = new Date();
+	var triplet;
+	
+	if (todaysDate.getMonth() != 11) {
+		triplet = [todaysDate.getFullYear() - 1, 12, 25];
+	}
+	else {
+		triplet = [todaysDate.getFullYear(), 12, 25];
+	}
+		
+	sender.navigateToDate(triplet);
+}
+````
 
 
 

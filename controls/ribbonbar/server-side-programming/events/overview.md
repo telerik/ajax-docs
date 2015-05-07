@@ -14,7 +14,7 @@ position: 0
 
 ## 
 
-**RadRibbonBar**supports a number of server-side events that let you respond to complex actions at the server.
+**RadRibbonBar** supports a number of server-side events that let you respond to complex actions at the server.
 
 * [ApplicationMenuItemClick]({%slug ribbonbar/server-side-programming/events/applicationmenuitemclick%}): Occurs when the user clicks on application menu item.
 

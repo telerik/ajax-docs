@@ -21,11 +21,9 @@ To define a shared popup control at design time,
 1. Drag and drop a **RadCalendar** or **RadTimeView** control onto the Web Page that contains your **RadDatePicker**, **RadTimePicker** and/or **RadDateTimePicker** controls.
 
 2. Set the properties of the **RadCalendar** or **RadTimeView** control to configure the popup. Unlike the embedded popup controls that are automatically created when you are not using a shared calendar or time view, the external **RadCalendar** or **RadTimeView** control does not inherit any properties (such as **Skin** or **RangeMaxDate** and **RangeMinDate**) from the parent control that uses it.
-
 >caution 
 Do not set the **AutoPostBack** property to **True** . A popup control cannot work properly if it causes postbacks.
 >
-
 
 3. Set the **SharedCalendarID** property of all **RadDatePicker** and **RadDateTimePicker** controls to the **ID** property of the **RadCalendar** control and/or set the **SharedTimeViewID** property of all **RadDateTimePicker** and **RadTimePicker** controls to the **ID** property of the **RadTimeView** control.
 

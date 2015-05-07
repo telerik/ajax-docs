@@ -14,7 +14,7 @@ position: 5
 
 ## 
 
-__RadPanelBar__ supports a number of client-side events that let you customize the behavior of the panel bar:
+**RadPanelBar** supports a number of client-side events that let you customize the behavior of the panel bar:
 
 * [OnClientItemClicking]({%slug panelbar/client-side-programming/onclientitemclicking%}) occurs when the user clicks on an item before the panel bar responds to the click
 
@@ -36,30 +36,27 @@ __RadPanelBar__ supports a number of client-side events that let you customize t
 
 * [OnClientContextMenu]({%slug panelbar/client-side-programming/onclientcontextmenu%}) occurs when the user right-clicks on an item in the panel bar.
 
-To use these events, simply write a javascript function that can be called when the event occurs. Then assign the name of the javascript function as the value of the the corresponding __RadPanelBar__ property.
+To use these events, simply write a javascript function that can be called when the event occurs. Then assign the name of the javascript function as the value of the the corresponding **RadPanelBar** property.
 
 ````ASPNET
-	    <script> 
-	    function OnClientItemClicking(sender, args) 
-	    {    
-	    var item = eventArgs.get_item();    
-	    var navigateUrl = item.get_navigateUrl();    
-	    if (navigateUrl && navigateUrl != "#")    
-	    {       
-	    var proceed = confirm("Navigate to "+ navigateUrl + " ?");       
-	    if (!proceed)       
-	    {          
-	        eventArgs.set_cancel(true);       
-	    }       
-	    else       
-	    {         
-	     eventArgs.set_cancel(false);       
-	     } 
-	     }
-	     </script>
-	    <telerik:radpanelbar id="RadPanelBar1" runat="server" onclientitemclicking="OnClientItemClicking">
-	    ...
-	    </telerik:radpanelbar>
+<script> 
+	function OnClientItemClicking(sender, args) {    
+		var item = eventArgs.get_item();    
+		var navigateUrl = item.get_navigateUrl();    
+		if (navigateUrl && navigateUrl != "#") {       
+			var proceed = confirm("Navigate to "+ navigateUrl + " ?");       
+			if (!proceed) {          
+				eventArgs.set_cancel(true);       
+			}       
+			else {         
+				eventArgs.set_cancel(false);       
+			} 
+		}
+	}
+</script>
+<telerik:radpanelbar id="RadPanelBar1" runat="server" onclientitemclicking="OnClientItemClicking">
+...
+</telerik:radpanelbar>
 ````
 
 
@@ -68,22 +65,22 @@ You can also assign event handlers in client-side code. When using the client-si
 
 ````JavaScript
 	     
-		function onClickedHandler1()
-	    { 
-	        alert("First handler called");
-	    }
-	    
-	    function onClickedHandler2()
-	    {
-	        alert("Second handler called");
-	    }
-	    
-	    function pageLoad()
-	    { 
-	        var panelBar = $find("<%=RadPanelBar1.ClientID%>");  
-	        panelBar.add_itemClicked(OnClickedHandler1);
-	        panelBar.add_itemClicked(OnClickedHandler2);
-	    }
+function onClickedHandler1()
+{ 
+    alert("First handler called");
+}
+
+function onClickedHandler2()
+{
+    alert("Second handler called");
+}
+
+function pageLoad()
+{ 
+    var panelBar = $find("<%=RadPanelBar1.ClientID%>");  
+    panelBar.add_itemClicked(OnClickedHandler1);
+    panelBar.add_itemClicked(OnClickedHandler2);
+}
 				
 ````
 
@@ -93,17 +90,16 @@ Another advantage of the client-side API is that you can detach an event handler
 
 ````JavaScript
 	     
-		function removeOnClicked2()
-	    {
-	         var panelBar = $find("<%=RadPanelBar1.ClientID%>"); 
-	         panelBar.remove_itemClicked(OnClickedHandler2);
-	     }
+function removeOnClicked2() {
+    var panelBar = $find("<%=RadPanelBar1.ClientID%>"); 
+    panelBar.remove_itemClicked(OnClickedHandler2);
+}
 				
 ````
 
 
 
-Note that on the client-side, the names of events are slightly different than on the server side. The following table shows the correspondance between client-side and server-side names:
+Note that on the client-side, the names of events are slightly different than on the server side. The following table shows the correspondence between client-side and server-side names:
 
 
 | Server-Side Name | Client-SideName | Methods to add and Remove |
@@ -121,7 +117,7 @@ Note that on the client-side, the names of events are slightly different than on
 
 # See Also
 
- * [Overview]({%slug panelbar/client-side-programming/overview%})
+ * [Client Side Overview]({%slug panelbar/client-side-programming/overview%})
 
  * [RadPanelBar Object]({%slug panelbar/client-side-programming/radpanelbar-object%})
 

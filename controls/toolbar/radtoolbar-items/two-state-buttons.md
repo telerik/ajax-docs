@@ -10,8 +10,6 @@ position: 4
 
 # Two State Buttons
 
-
-
 ## 
 
 **RadToolBarButton** supports use as a two-state button, where the button can be "on" (checked) or "off" (unchecked). The checked state has an appearance distinct from other buttons in the toolbar to reflect its state.
@@ -29,21 +27,21 @@ The following example illustrates how to create both types of two-state buttons:
 ![ToolBar Checked Buttons](images/toolbar_checkedbuttons.png)
 
 ````ASPNET
-	    <telerik:RadToolBar ID="RadToolBar1" runat="server" Skin="Hay">
-	        <Items>
-	            <telerik:RadToolBarButton runat="server" ImageUrl="~/Images/bold.gif" AllowSelfUnCheck="True"
-	                CheckOnClick="True" />
-	            <telerik:RadToolBarButton runat="server" ImageUrl="~/Images/Italic.gif" AllowSelfUnCheck="True"
-	                CheckOnClick="True" />
-	            <telerik:RadToolBarButton runat="server" ImageUrl="~/Images/underline.gif" AllowSelfUnCheck="True"
-	                CheckOnClick="True" />
-	            <telerik:RadToolBarButton runat="server" Enabled="False" Text="|" />
-	            <telerik:RadToolBarButton runat="server" Checked="True" CheckOnClick="True" Group="Justify"
-	                ImageUrl="~/Images/LJ.gif" />
-	            <telerik:RadToolBarButton runat="server" CheckOnClick="True" Group="Justify" ImageUrl="~/Images/J.gif" />
-	            <telerik:RadToolBarButton runat="server" CheckOnClick="True" ImageUrl="~/Images/RJ.gif" />
-	        </Items>
-	    </telerik:RadToolBar>
+<telerik:RadToolBar ID="RadToolBar1" runat="server" Skin="Hay">
+    <Items>
+        <telerik:RadToolBarButton runat="server" ImageUrl="~/Images/bold.gif" AllowSelfUnCheck="True"
+            CheckOnClick="True" />
+        <telerik:RadToolBarButton runat="server" ImageUrl="~/Images/Italic.gif" AllowSelfUnCheck="True"
+            CheckOnClick="True" />
+        <telerik:RadToolBarButton runat="server" ImageUrl="~/Images/underline.gif" AllowSelfUnCheck="True"
+            CheckOnClick="True" />
+        <telerik:RadToolBarButton runat="server" Enabled="False" Text="|" />
+        <telerik:RadToolBarButton runat="server" Checked="True" CheckOnClick="True" Group="Justify"
+            ImageUrl="~/Images/LJ.gif" />
+        <telerik:RadToolBarButton runat="server" CheckOnClick="True" Group="Justify" ImageUrl="~/Images/J.gif" />
+        <telerik:RadToolBarButton runat="server" CheckOnClick="True" ImageUrl="~/Images/RJ.gif" />
+    </Items>
+</telerik:RadToolBar>
 ````
 
 

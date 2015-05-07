@@ -10,10 +10,6 @@ position: 5
 
 # Change Mouse Pointer on MenuItem Hover
 
-
-
-
-
 ## 
 
 This example shows how to change the mouse pointer to a "hand" pointer on menu item hover.
@@ -21,12 +17,12 @@ This example shows how to change the mouse pointer to a "hand" pointer on menu i
 You need to add this CSS rule in the <HEAD> section of the page:
 
 ````ASPNET
-	    <style type="text/css">
-	        .RadMenu_Default .rmLink:hover
-	        {
-	            cursor: pointer;
-	        }
-	    </style>
+<style type="text/css">
+    .RadMenu_Default .rmLink:hover
+    {
+        cursor: pointer;
+    }
+</style>
 ````
 
 

@@ -35,8 +35,8 @@ There are two ways to configure the rendering mode of the controls:
 * Setting the **RenderMode** property in the markup as a string, or setting it in the code-behind with a member	of the **Telerik.Web.UI.RenderMode** enum.Following is an example for setting the **RenderMode** property in the markup:
 
 ````ASP.NET
-			<telerik:RadGrid ID="RadGrid1" runat="server" RenderMode="Lightweight">
-			</telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" runat="server" RenderMode="Lightweight">
+</telerik:RadGrid>
 ````
 
 
@@ -44,9 +44,9 @@ There are two ways to configure the rendering mode of the controls:
 * A **global setting in the web.config** file that will affect the entire application, unless a concrete value is specifiedfor a given control instance:
 
 ````ASP.NET
-			<appSettings>
-				<add key="Telerik.Web.UI.Grid.RenderMode" value="Lightweight" />
-			</appSettings>
+<appSettings>
+	<add key="Telerik.Web.UI.Grid.RenderMode" value="Lightweight" />
+</appSettings>
 ````
 
 

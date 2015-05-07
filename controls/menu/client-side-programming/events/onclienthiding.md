@@ -10,10 +10,6 @@ position: 18
 
 # OnClientHiding
 
-
-
-
-
 ## 
 
 (**RadContextMenu** only) The **OnClientHiding** client-side event occurs when the context menu is about to disappear.
@@ -33,21 +29,21 @@ The event handler receives two parameters:
 You can use this event to control when context menu can disappear:
 
 ````ASPNET
-	    <script type="text/javascript">
-	        function OnClientHiding(menu, args) {
-	            var target = args.get_targetElement();
-	            if (target) {
-	                if (target.value == "")
-	                    args.set_cancel(true);
-	            }
-	        }
-	     </script>
-	
-	    <telerik:RadContextMenu ID="RadContextMenu1" runat="server" OnClientHiding="OnClientHiding">
-	        <Items>
-	            ...
-	        </Items>
-	    </telerik:RadContextMenu>
+<script type="text/javascript">
+    function OnClientHiding(menu, args) {
+        var target = args.get_targetElement();
+        if (target) {
+            if (target.value == "")
+                args.set_cancel(true);
+        }
+    }
+ </script>
+
+<telerik:RadContextMenu ID="RadContextMenu1" runat="server" OnClientHiding="OnClientHiding">
+    <Items>
+        ...
+    </Items>
+</telerik:RadContextMenu>
 ````
 
 

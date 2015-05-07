@@ -10,10 +10,6 @@ position: 3
 
 # Layout of Child Items
 
-
-
-
-
 ## 
 
 By default, when the user expands a menu item from a horizontal layout, the child items appear immediately below it, stacked vertically. When the user expands a menu item from a vertical layout, the child items appear immediately beside it, stacked vertically:
@@ -57,46 +53,44 @@ Similarly, when **Flow** is **Horizontal**, and **Width** is too small to fit al
 The following **RadMenu** declaration shows how the **GroupSettings** is attached to the parent menu item. It gives all items that have children an **ExpandDirection** of **Down**, a **Flow** of **Horizontal**, and an **OffsetX** of 10 pixels:
 
 ````ASPNET
-	    <telerik:RadMenu ID="RadMenu1" runat="server" Flow="Horizontal" Skin="Vista">
-	        <Items>
-	            <telerik:RadMenuItem runat="server" Text="Root Item 1">
-	                <Items>
-	                    <telerik:RadMenuItem runat="server" Text="Child Item 1.1">
-	                        <GroupSettings ExpandDirection="Down" Flow="Horizontal" OffsetX="10" />
-	                        <Items>
-	                            <telerik:RadMenuItem runat="server" Text="Child Item 1.1.1">
-	                                <GroupSettings ExpandDirection="Auto" Flow="Vertical" />
-	                            </telerik:RadMenuItem>
-	                            <telerik:RadMenuItem runat="server" Text="Child Item 1.1.2">
-	                                <GroupSettings ExpandDirection="Auto" Flow="Vertical" />
-	                            </telerik:RadMenuItem>
-	                        </Items>
-	                    </telerik:RadMenuItem>
-	                    <telerik:RadMenuItem runat="server" Text="Child Item 1.2">
-	                        <GroupSettings ExpandDirection="Auto" Flow="Vertical" />
-	                    </telerik:RadMenuItem>
-	                    <telerik:RadMenuItem runat="server" Text="Child Item 1.3">
-	                        <GroupSettings ExpandDirection="Auto" Flow="Vertical" />
-	                    </telerik:RadMenuItem>
-	                </Items>
-	                <GroupSettings ExpandDirection="Down" Flow="Horizontal" OffsetX="10" />
-	            </telerik:RadMenuItem>
-	            <telerik:RadMenuItem runat="server" Text="Root Item 2">
-	                <Items>
-	                    <telerik:RadMenuItem runat="server" Text="Child Item 2.1">
-	                        <GroupSettings ExpandDirection="Auto" Flow="Vertical" />
-	                    </telerik:RadMenuItem>
-	                    <telerik:RadMenuItem runat="server" Text="Child Item 2.2">
-	                        <GroupSettings ExpandDirection="Auto" Flow="Vertical" />
-	                    </telerik:RadMenuItem>
-	                </Items>
-	                <GroupSettings ExpandDirection="Down" Flow="Horizontal" OffsetX="10" />
-	            </telerik:RadMenuItem>
-	        </Items>
-	    </telerik:RadMenu>
+<telerik:RadMenu ID="RadMenu1" runat="server" Flow="Horizontal" Skin="Vista">
+    <Items>
+        <telerik:RadMenuItem runat="server" Text="Root Item 1">
+            <Items>
+                <telerik:RadMenuItem runat="server" Text="Child Item 1.1">
+                    <GroupSettings ExpandDirection="Down" Flow="Horizontal" OffsetX="10" />
+                    <Items>
+                        <telerik:RadMenuItem runat="server" Text="Child Item 1.1.1">
+                            <GroupSettings ExpandDirection="Auto" Flow="Vertical" />
+                        </telerik:RadMenuItem>
+                        <telerik:RadMenuItem runat="server" Text="Child Item 1.1.2">
+                            <GroupSettings ExpandDirection="Auto" Flow="Vertical" />
+                        </telerik:RadMenuItem>
+                    </Items>
+                </telerik:RadMenuItem>
+                <telerik:RadMenuItem runat="server" Text="Child Item 1.2">
+                    <GroupSettings ExpandDirection="Auto" Flow="Vertical" />
+                </telerik:RadMenuItem>
+                <telerik:RadMenuItem runat="server" Text="Child Item 1.3">
+                    <GroupSettings ExpandDirection="Auto" Flow="Vertical" />
+                </telerik:RadMenuItem>
+            </Items>
+            <GroupSettings ExpandDirection="Down" Flow="Horizontal" OffsetX="10" />
+        </telerik:RadMenuItem>
+        <telerik:RadMenuItem runat="server" Text="Root Item 2">
+            <Items>
+                <telerik:RadMenuItem runat="server" Text="Child Item 2.1">
+                    <GroupSettings ExpandDirection="Auto" Flow="Vertical" />
+                </telerik:RadMenuItem>
+                <telerik:RadMenuItem runat="server" Text="Child Item 2.2">
+                    <GroupSettings ExpandDirection="Auto" Flow="Vertical" />
+                </telerik:RadMenuItem>
+            </Items>
+            <GroupSettings ExpandDirection="Down" Flow="Horizontal" OffsetX="10" />
+        </telerik:RadMenuItem>
+    </Items>
+</telerik:RadMenu>
 ````
-
-
 
 This produces the following menu:
 

@@ -30,7 +30,6 @@ If the **SelectMethod** returns a collection of strings, those strings are autom
 > 
 
 Example:
- 
 **ID**  **ParentID** 
 1  (null)
 2  1

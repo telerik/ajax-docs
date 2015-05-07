@@ -10,10 +10,6 @@ position: 5
 
 # Animations
 
-
-
-
-
 ## 
 
 The **ExpandAnimation** and **CollapseAnimation** properties let you apply animated effects when child menu items appear and disappear. Each property is of type **Telerik.Web.UI.AnimationSettings**, which has two fields:
@@ -83,14 +79,12 @@ The **ExpandAnimation** and **CollapseAnimation** properties let you apply anima
 By default, the children of a menu item are displayed when the user hovers the mouse over the parent item.When the mouse moves over a new parent item, the original submenu collapses and the children of the new parent menu item are displayed. The **ExpandDelay** and **CollapseDelay** properties specify the time, in milliseconds, after the mouse enters or exits a parent item until the list of child items begins to expand or collapse.
 
 
-
 ````ASPNET
-	    <telerik:RadMenu ID="RadMenu1" runat="server">
-	        <ExpandAnimation Type="OutQuart" Duration="300" />
-	        <CollapseAnimation Type="OutQuint" Duration="200" />
-	    </telerik:RadMenu>
+<telerik:RadMenu ID="RadMenu1" runat="server">
+    <ExpandAnimation Type="OutQuart" Duration="300" />
+    <CollapseAnimation Type="OutQuint" Duration="200" />
+</telerik:RadMenu>
 ````
-
 
 
 >tip You can stop the animation by setting Type to "None".

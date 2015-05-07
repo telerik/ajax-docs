@@ -26,23 +26,23 @@ Generally, responsive design means that the page and its content are able to ada
 The following sample shows how to increase the font size of a RadMenu and the effect can be seen in comparison in Figure 1.
 
 ````ASPNET
-	    <style type="text/css">
-	        div.RadMenu {
-	            font-size: 18px;
-	        }
-	    </style>
-	    <telerik:RadMenu ID="RadMenu1" runat="server" RenderMode="Lightweight" >
-	            <Items>
-	                <telerik:RadMenuItem Text="File">
-	                    <Items>
-	                        <telerik:RadMenuItem Text="New"></telerik:RadMenuItem>
-	                        <telerik:RadMenuItem Text="Open"></telerik:RadMenuItem>
-	                        <telerik:RadMenuItem Text="Save"></telerik:RadMenuItem>
-	                        <telerik:RadMenuItem Text="Save As..."></telerik:RadMenuItem>
-	                    </Items>
-	                </telerik:RadMenuItem>
-	            </Items>
-	        </telerik:RadMenu>
+<style type="text/css">
+    div.RadMenu {
+        font-size: 18px;
+    }
+</style>
+<telerik:RadMenu ID="RadMenu1" runat="server" RenderMode="Lightweight" >
+    <Items>
+        <telerik:RadMenuItem Text="File">
+            <Items>
+                <telerik:RadMenuItem Text="New"></telerik:RadMenuItem>
+                <telerik:RadMenuItem Text="Open"></telerik:RadMenuItem>
+                <telerik:RadMenuItem Text="Save"></telerik:RadMenuItem>
+                <telerik:RadMenuItem Text="Save As..."></telerik:RadMenuItem>
+            </Items>
+        </telerik:RadMenuItem>
+    </Items>
+</telerik:RadMenu>
 ````
 
 

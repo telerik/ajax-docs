@@ -27,7 +27,7 @@ A number of properties let you control the look and feel of the **RadCalendar** 
 
 Here is an example using the **ImagesPath** property:
 
-````XML
+````ASPNET
 <telerik:RadDateTimePicker EnableEmbeddedSkins="false" ImagesPath="~/Images" ID="RadDateTimePicker1" runat="server">
 </telerik:RadDateTimePicker>
 ````

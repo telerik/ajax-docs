@@ -10,15 +10,9 @@ position: 0
 
 # Migrating Skins from RadMenu ASP.NET to ASP.NET AJAX
 
-
-
-
-
 ## 
 
 Since RadMenu for ASP.NET AJAX inherits its rendering from RadMenu for ASP.NET "Classic", it is rather easy to migrate a skin. The only change in the CSS class names is the control-specific prefix ("rm") and the capitalization of the first letter of the "Classic" class names afterwards. The following table lists all class names in the "Classic" version of RadMenu and their equivalents in the RadMenu for ASP.NET AJAX:
-
-
 
 
 | RadMenu "Classic" class name | RadMenu for ASP.NET AJAX class name |

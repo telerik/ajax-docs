@@ -26,37 +26,37 @@ This parent element can be the **BODY**, the **HTML** element, or just a simple 
 **Example 1**: Putting the **Telerik RadWizard** in Right-to-Left mode
 
 ````ASPNET
-	           <telerik:RadWizard runat="server" ID="RadWizard9" Width="800px" Height="360px" DisplayCancelButton="true" dir="rtl">
-	        <WizardSteps>
-	            <telerik:RadWizardStep ID="RadWizardStep2" Title="Name" StepType="Start">
-	                <telerik:RadTextBox runat="server" ID="RadTextBox19" Label="First Name" LabelWidth="105px" Width="400px">
-	                </telerik:RadTextBox>
-	                <br />
-	                <telerik:RadTextBox runat="server" ID="RadTextBox20" Label="Middle Name" LabelWidth="105px" Width="400px"></telerik:RadTextBox>
-	                <br />
-	                <telerik:RadTextBox runat="server" ID="RadTextBox21" Label="Last Name" LabelWidth="105px" Width="400px"></telerik:RadTextBox>
-	            </telerik:RadWizardStep>
-	            <telerik:RadWizardStep ID="RadWizardStep3" Title="Address" DisplayCancelButton="false">
-	                <telerik:RadTextBox runat="server" ID="RadTextBox22" Label="Country" LabelWidth="105px" Width="400px"></telerik:RadTextBox>
-	                <br />
-	                <telerik:RadTextBox runat="server" ID="RadTextBox23" Label="City" LabelWidth="105px" Width="400px"></telerik:RadTextBox>
-	                <br />
-	                <telerik:RadTextBox runat="server" ID="RadTextBox24" Label="Address" LabelWidth="105px" Width="400px"></telerik:RadTextBox>
-	            </telerik:RadWizardStep>
-	            <telerik:RadWizardStep ID="RadWizardStep4" Title="Other" StepType="Finish">
-	                <telerik:RadTextBox runat="server" ID="RadTextBox25" Label="Hobby" LabelWidth="105px" Width="400px"></telerik:RadTextBox>
-	                <br />
-	                <telerik:RadTextBox runat="server" ID="RadTextBox26" Label="Music" LabelWidth="105px" Width="400px"></telerik:RadTextBox>
-	                <br />
-	                <telerik:RadTextBox runat="server" ID="RadTextBox27" Label="Sport" LabelWidth="105px" Width="400px"></telerik:RadTextBox>
-	            </telerik:RadWizardStep>
-	            <telerik:RadWizardStep ID="RadWizardStep5" StepType="Complete">
-	                <asp:Label ID="Label5" runat="server" Text="Values filled" Font-Bold="true" />
-	                <br />
-	                <asp:Label ID="Label6" runat="server" />
-	            </telerik:RadWizardStep>
-	        </WizardSteps>
-	    </telerik:RadWizard>
+<telerik:RadWizard runat="server" ID="RadWizard9" Width="800px" Height="360px" DisplayCancelButton="true" dir="rtl">
+	<WizardSteps>
+		<telerik:RadWizardStep ID="RadWizardStep2" Title="Name" StepType="Start">
+			<telerik:RadTextBox runat="server" ID="RadTextBox19" Label="First Name" LabelWidth="105px" Width="400px">
+			</telerik:RadTextBox>
+			<br />
+			<telerik:RadTextBox runat="server" ID="RadTextBox20" Label="Middle Name" LabelWidth="105px" Width="400px"></telerik:RadTextBox>
+			<br />
+			<telerik:RadTextBox runat="server" ID="RadTextBox21" Label="Last Name" LabelWidth="105px" Width="400px"></telerik:RadTextBox>
+		</telerik:RadWizardStep>
+		<telerik:RadWizardStep ID="RadWizardStep3" Title="Address" DisplayCancelButton="false">
+			<telerik:RadTextBox runat="server" ID="RadTextBox22" Label="Country" LabelWidth="105px" Width="400px"></telerik:RadTextBox>
+			<br />
+			<telerik:RadTextBox runat="server" ID="RadTextBox23" Label="City" LabelWidth="105px" Width="400px"></telerik:RadTextBox>
+			<br />
+			<telerik:RadTextBox runat="server" ID="RadTextBox24" Label="Address" LabelWidth="105px" Width="400px"></telerik:RadTextBox>
+		</telerik:RadWizardStep>
+		<telerik:RadWizardStep ID="RadWizardStep4" Title="Other" StepType="Finish">
+			<telerik:RadTextBox runat="server" ID="RadTextBox25" Label="Hobby" LabelWidth="105px" Width="400px"></telerik:RadTextBox>
+			<br />
+			<telerik:RadTextBox runat="server" ID="RadTextBox26" Label="Music" LabelWidth="105px" Width="400px"></telerik:RadTextBox>
+			<br />
+			<telerik:RadTextBox runat="server" ID="RadTextBox27" Label="Sport" LabelWidth="105px" Width="400px"></telerik:RadTextBox>
+		</telerik:RadWizardStep>
+		<telerik:RadWizardStep ID="RadWizardStep5" StepType="Complete">
+			<asp:Label ID="Label5" runat="server" Text="Values filled" Font-Bold="true" />
+			<br />
+			<asp:Label ID="Label6" runat="server" />
+		</telerik:RadWizardStep>
+	</WizardSteps>
+</telerik:RadWizard>
 ````
 
 

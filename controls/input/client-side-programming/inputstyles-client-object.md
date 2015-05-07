@@ -34,30 +34,30 @@ The following table lists the properties of the InputStyles client object:
 This example demonstrates how the **InputStyles** object could be used to modify the appearance of an input control:
 
 ````JavaScript
-	            <script type="text/javascript">
-	                function toggleModes(checkBox) {
-	                    var textBox = $find("<%= RadTextBox1.ClientID %>");
-	                    if (checkBox.checked) {
-	                        textBox.get_styles().EnabledStyle[0] += "background-color: Gray; color: White;";
-	                        textBox.get_styles().FocusedStyle[0] += "background-color: #AAA; color: White; border: 1px dashed DarkGreen;";
-	                        textBox.get_styles().HoveredStyle[0] += "background-color: #AAA; color: White;";
-	                        textBox.updateCssClass();
-	                    }
-	                    else {
-	                        textBox.get_styles().EnabledStyle[0] = "";
-	                        textBox.get_styles().FocusedStyle[0] = "";
-	                        textBox.get_styles().HoveredStyle[0] = "";
-	                        textBox.updateCssClass();
-	                    }
-	                }
-	        </script>
+<script type="text/javascript">
+	function toggleModes(checkBox) {
+		var textBox = $find("<%= RadTextBox1.ClientID %>");
+		if (checkBox.checked) {
+			textBox.get_styles().EnabledStyle[0] += "background-color: Gray; color: White;";
+			textBox.get_styles().FocusedStyle[0] += "background-color: #AAA; color: White; border: 1px dashed DarkGreen;";
+			textBox.get_styles().HoveredStyle[0] += "background-color: #AAA; color: White;";
+			textBox.updateCssClass();
+		}
+		else {
+			textBox.get_styles().EnabledStyle[0] = "";
+			textBox.get_styles().FocusedStyle[0] = "";
+			textBox.get_styles().HoveredStyle[0] = "";
+			textBox.updateCssClass();
+		}
+	}
+</script>
 ````
 
 
 
 ````ASPNET
-	        <telerik:RadTextBox ID="RadTextBox1" runat="server"></telerik:RadTextBox>
-	        <asp:CheckBox ID="CheckBox1" runat="server" onclick="toggleModes(this);" Text="Dark Mode On" />
+<telerik:RadTextBox ID="RadTextBox1" runat="server"></telerik:RadTextBox>
+<asp:CheckBox ID="CheckBox1" runat="server" onclick="toggleModes(this);" Text="Dark Mode On" />
 ````
 
 

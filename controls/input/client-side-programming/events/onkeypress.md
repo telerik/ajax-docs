@@ -26,33 +26,33 @@ Two parameters are passed to the event handler:
 
 * **eventArgs** has the following methods:
 
-* **set_cancel()** lets you prevent the key press from entering a new character into the input control. 
+	* **set_cancel()** lets you prevent the key press from entering a new character into the input control. 
 
-* **get_keyCode()** returns the key code for the key that was pressed.
+	* **get_keyCode()** returns the key code for the key that was pressed.
 
-* **get_keyCharacter()** returns the character that is about to be entered into the input control in response to the key press.
+	* **get_keyCharacter()** returns the character that is about to be entered into the input control in response to the key press.
 
-* **get_domEvent()** returns the DOM event object for the key press.
+	* **get_domEvent()** returns the DOM event object for the key press.
 
 The following example uses the **OnKeyPress** event to limit input to the letters 'a' to 'z' and 'A' to 'Z':
 
 ````ASPNET
-	    <telerik:RadTextBox ID="RadTextBox1" runat="server">
-	        <ClientEvents OnKeyPress="AlphabetOnly" />
-	    </telerik:RadTextBox>
+<telerik:RadTextBox ID="RadTextBox1" runat="server">
+	<ClientEvents OnKeyPress="AlphabetOnly" />
+</telerik:RadTextBox>
 ````
 
 
 
 ````JavaScript
-	    <script type="text/javascript">
-	        function AlphabetOnly(sender, eventArgs)
-	        {
-	            var c = eventArgs.get_keyCode();
-	            if ((c < 65) || (c > 90 && c < 97) || (c > 122))
-	                eventArgs.set_cancel(true);
-	        }
-	    </script>
+<script type="text/javascript">
+	function AlphabetOnly(sender, eventArgs)
+	{
+		var c = eventArgs.get_keyCode();
+		if ((c < 65) || (c > 90 && c < 97) || (c > 122))
+			eventArgs.set_cancel(true);
+	}
+</script>
 ````
 
 

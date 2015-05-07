@@ -27,38 +27,38 @@ After update/cancel operation, the rest of the grid records will show up on the 
 
 
 ````ASP.NET
-	  <telerik:RadGrid ID="RadGrid1" runat="server">
-	    <MasterTableView AutoGenerateColumns="True">
-	      <Columns>
-	        <telerik:GridEditCommandColumn UniqueName="EditCommandColumn" />
-	      </Columns>
-	    </MasterTableView>
-	  </telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" runat="server">
+  <MasterTableView AutoGenerateColumns="True">
+    <Columns>
+      <telerik:GridEditCommandColumn UniqueName="EditCommandColumn" />
+    </Columns>
+  </MasterTableView>
+</telerik:RadGrid>
 ````
 ````C#
-	    private void RadGrid1_PreRender(object sender, System.EventArgs e)
-	    {
-	        if (RadGrid1.EditItems.Count > 0)
-	        {
-	            foreach (GridDataItem item in RadGrid1.MasterTableView.Items)
-	            {
-	                if (item != RadGrid1.EditItems[0])
-	                {
-	                    item.Visible = false;
-	                }
-	            }
-	        }
-	    }
+private void RadGrid1_PreRender(object sender, System.EventArgs e)
+{
+    if (RadGrid1.EditItems.Count > 0)
+    {
+        foreach (GridDataItem item in RadGrid1.MasterTableView.Items)
+        {
+            if (item != RadGrid1.EditItems[0])
+            {
+                item.Visible = false;
+            }
+        }
+    }
+}
 ````
 ````VB
-	    Protected Sub RadGrid1_PreRender(ByVal sender As Object, ByVal e As System.EventArgs) Handles RadGrid1.PreRender
-	        If (RadGrid1.EditItems.Count > 0) Then
-	            For Each item As GridDataItem In RadGrid1.MasterTableView.Items
-	                If (Not item Is RadGrid1.EditItems(0)) Then
-	                    item.Visible = False
-	                End If
-	            Next
-	        End If
-	    End Sub
+Protected Sub RadGrid1_PreRender(ByVal sender As Object, ByVal e As System.EventArgs) Handles RadGrid1.PreRender
+    If (RadGrid1.EditItems.Count > 0) Then
+        For Each item As GridDataItem In RadGrid1.MasterTableView.Items
+            If (Not item Is RadGrid1.EditItems(0)) Then
+                item.Visible = False
+            End If
+        Next
+    End If
+End Sub
 ````
 

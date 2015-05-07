@@ -33,18 +33,18 @@ Then you can add instances of your custom grid control on the page:
 But the **GridTableView**, **GridBoundColumn** etc. classes are defined in the **Telerik.Web.UI** assembly. That is why the declaration in your grid body should have the following syntax:
 
 ````ASP.NET
-	<mytelerik:InheritedGrid ... >
-	    <MasterTableView>
-	        <Columns>
-	            <telerik:GridBoundColumn ...>
-	            </telerik: GridBoundColumn>
-	        </Columns>
-	        <DetailTables>
-	            <telerik:GridTableView ...>
-	            </telerik:GridTableView>
-	        </DetailTables>
-	    <MasterTableView>
-	</mytelerik:InheritedGrid>          
+<mytelerik:InheritedGrid ... >
+    <MasterTableView>
+        <Columns>
+            <telerik:GridBoundColumn ...>
+            </telerik: GridBoundColumn>
+        </Columns>
+        <DetailTables>
+            <telerik:GridTableView ...>
+            </telerik:GridTableView>
+        </DetailTables>
+    <MasterTableView>
+</mytelerik:InheritedGrid>          
 ````
 
 
@@ -56,65 +56,60 @@ If you would like to inherit the GridTableView object for your grid, here are so
 
 
 ````ASP.NET
-	<%@ Register Namespace="MyNamespace" TagPrefix="my" %>
-	 ...
-	        <my:MyGrid ID="MyGrid1" runat="server" OnNeedDataSource="MyGrid1_NeedDataSource">
-	            <MasterTableView>
-	                <DetailTables>
-	                    <my:MyGridTableView />
-	                </DetailTables>
-	            </MasterTableView>
-	        </my:MyGrid>			
+<%@ Register Namespace="MyNamespace" TagPrefix="my" %>
+ ...
+        <my:MyGrid ID="MyGrid1" runat="server" OnNeedDataSource="MyGrid1_NeedDataSource">
+            <MasterTableView>
+                <DetailTables>
+                    <my:MyGridTableView />
+                </DetailTables>
+            </MasterTableView>
+        </my:MyGrid>			
 ````
 ````C#
-	     
-	
-	namespace MyNamespace
-	{
-	    public class MyGrid : RadGrid
-	    {
-	            public override GridTableView CreateTableView()
-	            {
-	                return new MyGridTableView(this);
-	            }
-	    }
-	
-	    public class MyGridTableView : GridTableView
-	    {
-	            public MyGridTableView()
-	            {
-	                //
-	            }
-	
-	            public MyGridTableView(RadGrid owner) : base(owner)
-	            {
-	                //
-	            }
-	    }
-	}
-				
+namespace MyNamespace
+{
+    public class MyGrid : RadGrid
+    {
+            public override GridTableView CreateTableView()
+            {
+                return new MyGridTableView(this);
+            }
+    }
+
+    public class MyGridTableView : GridTableView
+    {
+            public MyGridTableView()
+            {
+                //
+            }
+
+            public MyGridTableView(RadGrid owner) : base(owner)
+            {
+                //
+            }
+    }
+}
+			
 ````
 ````VB
-	
-	
-	Namespace MyNamespace
-	 Public Class MyGrid  Inherits RadGrid
-	            Public Overloads Overrides Function CreateTableView() As GridTableView
-	                Return New MyGridTableView(Me)
-	            End Function
-	        End Class
-	
-	 Public Class MyGridTableView  Inherits GridTableView
-	            Public Sub New()
-	                '
-	            End Sub
-	
-	  Public Sub New(ByVal owner As RadGrid)   MyBase.New(owner)
-	                '
-	            End Sub
-	        End Class
-	    End Namespace
-	
+Namespace MyNamespace
+ Public Class MyGrid  Inherits RadGrid
+            Public Overloads Overrides Function CreateTableView() As GridTableView
+                Return New MyGridTableView(Me)
+            End Function
+        End Class
+
+ Public Class MyGridTableView  Inherits GridTableView
+            Public Sub New()
+                '
+            End Sub
+
+  Public Sub New(ByVal owner As RadGrid)   MyBase.New(owner)
+                '
+            End Sub
+        End Class
+    End Namespace
 ````
 
 

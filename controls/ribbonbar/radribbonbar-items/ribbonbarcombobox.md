@@ -46,7 +46,7 @@ The **RibbonBarComboBox** has a few important properties, which are listed below
 
 * **get_selected()** - gets the selected state of the item.
 
-* **set_selected()**- sets the selected state of the item.
+* **set_selected()** - sets the selected state of the item.
 
 * **select()** - selects an item.
 

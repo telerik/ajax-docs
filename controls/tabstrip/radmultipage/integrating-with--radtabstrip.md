@@ -10,8 +10,6 @@ position: 5
 
 # Integrating with  RadTabStrip
 
-
-
 ## 
 
 Even if **RadMultiPage** and **RadTabStrip** can be used independently of each other, these controls are best used together. When **RadMultiPage** is used with **RadTabStrip**, it represents the content area of **RadTabStrip**.
@@ -34,44 +32,41 @@ Additionally, each tab in **RadTabStrip** has a property named **PageViewID**, w
 
 Here is an example definition of **RadTabStrip** connected to a **RadMultiPage**:
 
-````ASPNET
-	
-	<telerik:RadTabStrip ID="RadTabStrip1" SelectedIndex="0" runat="server" MultiPageID="RadMultiPage1" skin="Outlook" CssClass="NoBg">
-	 <Tabs>
-	   <telerik:RadTab runat="server" Text="Root RadTab1" PageViewID="PageView1">
-	   </telerik:RadTab>
-	   <telerik:RadTab runat="server" Text="Root RadTab2" PageViewID="PageView2">
-	   </telerik:RadTab>
-	   <telerik:RadTab runat="server" Text="Root RadTab3" PageViewID="PageView3">
-	   </telerik:RadTab>
-	 </Tabs>
-	</telerik:RadTabStrip>
-	<telerik:RadMultiPage id="RadMultiPage1" runat="server" SelectedIndex="0" Width="400">
-	  <telerik:RadPageView id="PageView1" runat="server">
-	      Name: John Smith<br />
-	      Birthday: October 20th 1976<br />
-	      Marital Status: Single
-	      <br />
-	  </telerik:RadPageView>
-	  <telerik:RadPageView id="PageView2" runat="server">
-	      ...
-	      Content of the Pageview2
-	      ...
-	  </telerik:RadPageView>
-	  <telerik:RadPageView id="PageView3" runat="server" ContentUrl="http://www.telerik.com">
-	      This text is never shown
-	  </telerik:RadPageView>
-	</telerik:RadMultiPage> 
-	
+````ASPNET	
+<telerik:RadTabStrip ID="RadTabStrip1" SelectedIndex="0" runat="server" MultiPageID="RadMultiPage1" skin="Outlook" CssClass="NoBg">
+ <Tabs>
+   <telerik:RadTab runat="server" Text="Root RadTab1" PageViewID="PageView1">
+   </telerik:RadTab>
+   <telerik:RadTab runat="server" Text="Root RadTab2" PageViewID="PageView2">
+   </telerik:RadTab>
+   <telerik:RadTab runat="server" Text="Root RadTab3" PageViewID="PageView3">
+   </telerik:RadTab>
+ </Tabs>
+</telerik:RadTabStrip>
+<telerik:RadMultiPage id="RadMultiPage1" runat="server" SelectedIndex="0" Width="400">
+  <telerik:RadPageView id="PageView1" runat="server">
+      Name: John Smith<br />
+      Birthday: October 20th 1976<br />
+      Marital Status: Single
+      <br />
+  </telerik:RadPageView>
+  <telerik:RadPageView id="PageView2" runat="server">
+      ...
+      Content of the Pageview2
+      ...
+  </telerik:RadPageView>
+  <telerik:RadPageView id="PageView3" runat="server" ContentUrl="http://www.telerik.com">
+      This text is never shown
+  </telerik:RadPageView>
+</telerik:RadMultiPage> 	
 ````
-
 
 
 >caution Note that the order of the pages is reversed: the first tab switches to the last page, and the last tab switches to the first page. This is to illustrate that you can assign any page to any tab.
 >
 
 
-You can load any external content into a **RadPageView**control by setting the **ContentUrl** property to the URL for the source of the content. Take a look at the "*Pageview3*" from the example above.
+You can load any external content into a **RadPageView** control by setting the **ContentUrl** property to the URL for the source of the content. Take a look at the "*Pageview3*" from the example above.
 
 >caution If the **RadPageView** control contains any controls or text, they are discarded when you set the **ContentUrl** property.
 >

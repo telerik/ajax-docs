@@ -22,12 +22,12 @@ The event handler receives two parameters:
 
 1. An eventArgs parameter containing the following methods:
 
-* **get_group()** returns a reference to the ribbonbar group that was clicked. In this case it is **RibbonBarGroup**.
+	* **get_group()** returns a reference to the ribbonbar group that was clicked. In this case it is **RibbonBarGroup**.
 
-* **set_cancel()** lets you prevent the ribbonbar from responding to the mouse click.
+	* **set_cancel()** lets you prevent the ribbonbar from responding to the mouse click.
 
 # See Also
 
- * [Overview]({%slug ribbonbar/client-side-programming/overview%})
+ * [Client-Side Programming Overview]({%slug ribbonbar/client-side-programming/overview%})
 
- * [Overview]({%slug ribbonbar/client-side-programming/events/overview%})
+ * [Client-Side Events Overview]({%slug ribbonbar/client-side-programming/events/overview%})

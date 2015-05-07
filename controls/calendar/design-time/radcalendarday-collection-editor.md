@@ -42,7 +42,7 @@ If you set the **Repeatable** property for a special day to anything other than 
 
 Following is a sample illustrating the use of the **Repeatable** property:
 
-````XML
+````ASPNET
 <telerik:RadCalendar ID="RadCalendar1" runat="server" FocusedDate="1.2008">
     <SpecialDays>
         <telerik:RadCalendarDay Date="2008/01/21" Repeatable="WeekDayWeekNumberAndMonth" IsSelectable="false" >

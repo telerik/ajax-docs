@@ -11,79 +11,63 @@ position: 0
 # Client-side Programming Overview
 
 
-
-__RadTabStrip__ provides a flexible client-side API. You can easily interact with the tab strip in the browser using the tab strip client-side object. In addition to a variety of [client-side events]({%slug tabstrip/client-side-programming/events%}), the client-side object model lets you achieve complicated tasks while avoiding unnecessary post-backs.
+**RadTabStrip** provides a flexible client-side API. You can easily interact with the tab strip in the browser using the tab strip client-side object. In addition to a variety of [client-side events]({%slug tabstrip/client-side-programming/events%}), the client-side object model lets you achieve complicated tasks while avoiding unnecessary post-backs.
 
 ## Getting the RadTabStrip client-side object
 
-__RadTabStrip__ creates a client-side object with the ClientID of the tab strip. You can obtain the reference using the following JavaScript code:
+**RadTabStrip** creates a client-side object with the ClientID of the tab strip. You can obtain the reference using the following JavaScript code:
 
-````JavaScript
-	     
-	var tabStrip = $find("<%= RadTabStrip1.ClientID %>");
-				
+````JavaScript	     
+var tabStrip = $find("<%= RadTabStrip1.ClientID %>");				
 ````
-
-
 
 ## Getting the instance of a particular RadTab
 
-Once you have the client-side object of __RadTabStrip__, you can use the __findTabByText()__ method to get the instance of a particular tab:
+Once you have the client-side object of **RadTabStrip**, you can use the **findTabByText()** method to get the instance of a particular tab:
 
-````JavaScript
-	     
-	var tabStrip= $find("<%= RadTabStrip1.ClientID %>");
-	var tab = tabStrip.findTabByText(text);
-				
+````JavaScript     
+var tabStrip= $find("<%= RadTabStrip1.ClientID %>");
+var tab = tabStrip.findTabByText(text);			
 ````
 
-
-
-You can also use the __findTabByValue()__ method to get a specific tab by its value.
+You can also use the **findTabByValue()** method to get a specific tab by its value.
 
 ## Cancelling an action
 
-Several client side events occur immediately before the tab strip performs some action. Most of these events all have names that end in "-ing". You can use these events to cancel the tab strip action by using the cancel property of the __eventArgs__ passed to the handler:
+Several client side events occur immediately before the tab strip performs some action. Most of these events all have names that end in "-ing". You can use these events to cancel the tab strip action by using the cancel property of the **eventArgs** passed to the handler:
 
 ````JavaScript
-	     
-	
-	function OnClientTabSelecting(sender, eventArgs)
-	{
-	 eventArgs.set_cancel(true);
-	} 
-				
+function OnClientTabSelecting(sender, eventArgs)
+{
+	eventArgs.set_cancel(true);
+} 				
 ````
-
-
 
 ## Calling a client-side method
 
-When you get the instance of the __RadTabStrip__ object, you can call client-side methods to perform certain tasks. Consider the following examples:
+When you get the instance of the **RadTabStrip** object, you can call client-side methods to perform certain tasks. Consider the following examples:
 
-* __select()__
+* **select()**
 
-````JavaScript
-	     
-	function selectTab(text)
+````JavaScript	     
+function selectTab(text)
+{
+	var tabStrip = $find("<%= RadTabStrip1.ClientID %>");
+	var tab = tabStrip.findTabByText(text);
+	if (tab)
 	{
-	 var tabStrip = $find("<%= RadTabStrip1.ClientID %>");
-	 var tab = tabStrip.findTabByText(text);
-	 if (tab)
-	 {
-	   tab.select();
-	 }
-	 else
-	 {
-	   alert("Tab with text '" + text + "' not found.");
-	 }
-	} 
+		tab.select();
+	}
+	else
+	{
+		alert("Tab with text '" + text + "' not found.");
+	}
+} 
 				
 ````
 
 
-
-* __unselect()__
+* **unselect()**
 
 ````JavaScript
 	     
@@ -104,8 +88,7 @@ When you get the instance of the __RadTabStrip__ object, you can call client-sid
 ````
 
 
-
-* __disable()__
+* **disable()**
 
 ````JavaScript
 	     
@@ -125,44 +108,35 @@ When you get the instance of the __RadTabStrip__ object, you can call client-sid
 				
 ````
 
+* **enable()**
 
-
-* __enable()__
-
-````JavaScript
-	     
-	function enableAll()
+````JavaScript	     
+function enableAll()
+{
+	var tabStrip = $find("<%= RadTabStrip1.ClientID %>");
+	for (var i = 0; i < tabStrip.get_allTabs().length; i++)
 	{
-	 var tabStrip = $find("<%= RadTabStrip1.ClientID %>");
-	 for (var i = 0; i < tabStrip.get_allTabs().length; i++)
-	 {
-	   tabstrip.get_allTabs()[i].enable();
-	 }
-	} 
-				
+		tabstrip.get_allTabs()[i].enable();
+	}
+} 				
 ````
-
 
 
 ## Preserving Changes
 
-By default, changes made in client-side code do not persist over a post-back to the server. To preserve changes, you must use the __trackChanges__ and __commitChanges__ methods:
+By default, changes made in client-side code do not persist over a post-back to the server. To preserve changes, you must use the **trackChanges** and **commitChanges** methods:
 
-````JavaScript
-	     
-	function addNewTab()
-	{  
-	 var tabStrip = $find("<%= RadTabStrip1.ClientID %>");
-	 var tab = new Telerik.Web.UI.RadTab();
-	 tab.set_text("New Tab");
-	 tabStrip.trackChanges();
-	 tabStrip.get_tabs().add(tab);
-	 tabStrip.commitChanges();       
-	} 
-				
+````JavaScript	     
+function addNewTab()
+{  
+	var tabStrip = $find("<%= RadTabStrip1.ClientID %>");
+	var tab = new Telerik.Web.UI.RadTab();
+	tab.set_text("New Tab");
+	tabStrip.trackChanges();
+	tabStrip.get_tabs().add(tab);
+	tabStrip.commitChanges();       
+} 				
 ````
-
-
 
 # See Also
 

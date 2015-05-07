@@ -22,21 +22,21 @@ The event handler receives two parameters:
 
 1. An eventArgs parameter containing the following method:
 
-* **get_item()**: retrieves a reference to the clicked item.
+	* **get_item()**: retrieves a reference to the clicked item.
 
-* **get_domEvent()**: returns the DOM event object for the mouse click.
+	* **get_domEvent()**: returns the DOM event object for the mouse click.
 
 ````ASPNET
-	    <script>
-	        function OnClientContextMenu(sender, args) {
-	            alert("The " + args.get_item().get_text() + " has been right-clicked");
-	        }
-	    </script>
-	    <telerik:radpanelbar id="RadPanelBar1" runat="server" onclientcontextmenu="OnClientContextMenu">       
-	    <Items>       
-	     ...    
-	    </Items>
-	    </telerik:radpanelbar>
+<script>
+    function OnClientContextMenu(sender, args) {
+        alert("The " + args.get_item().get_text() + " has been right-clicked");
+    }
+</script>
+<telerik:radpanelbar id="RadPanelBar1" runat="server" onclientcontextmenu="OnClientContextMenu">       
+	<Items>       
+	 ...    
+	</Items>
+</telerik:radpanelbar>
 ````
 
 
