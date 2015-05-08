@@ -10,13 +10,7 @@ position: 0
 
 # Building RadCharts
 
-
-
 >caution  **RadChart** has been replaced by[RadHtmlChart](http://www.telerik.com/products/aspnet-ajax/html-chart.aspx), Telerik's client-side charting component.	If you are considering **RadChart** for new development, examine the[RadHtmlChart documentation](ffd58685-7423-4c50-9554-f92c70a75138)and[online demos](http://demos.telerik.com/aspnet-ajax/htmlchart/examples/overview/defaultcs.aspx)first to see if it will fit your development needs.	If you are already using **RadChart** in your projects, you can migrate to **RadHtmlChart** by following these articles:[Migrating Series](2f393f28-bc31-459c-92aa-c3599785f6cc),[Migrating Axes](3f1bea81-87b9-4324-b0d2-d13131031048),[Migrating Date Axes](93226130-bc3c-4c53-862a-f9e17b2eb7dd),[Migrating Databinding](d6c5e2f1-280c-4fb0-b5b0-2f507697511d),[Feature parity](010dc716-ce38-480b-9157-572e0f140169).	Support for **RadChart** is discontinued as of **Q3 2014** , but the control will remain in the assembly so it can still be used.	We encourage you to use **RadHtmlChart** for new development.
->
-
-
-## 
 
 To provide flexibility and best ease-of-use, Telerik provides multiple avenues to populate RadChart. There are four main techniques for building the chart: interactively at design-time, declaratively in the ASP.NET HTML markup, programmatically at runtime and by data binding.
 
@@ -24,7 +18,7 @@ In simple scenarios or to test out a design you can use the design-time interfac
 
 If your design style leans towards working with the ASP.NET HTML code directly you can declaratively define your chart series and chart series items.
 
-Most business applications display some sort of database data so RadChart fully supports binding data sources to labels and data elements. RadChart also supports data binding to the X-Axis. In addition to database data, RadChart can bind to XML. RadChart binds to ObjectDataSource to support enterprise multi-tier scenarios.And of course you can bind your chart to arrays, collections, generic lists of simple types and lists of objects.
+Most business applications display some sort of database data so RadChart fully supports binding data sources to labels and data elements. RadChart also supports data binding to the X-Axis. In addition to database data, RadChart can bind to XML. RadChart binds to ObjectDataSource to support enterprise multi-tier scenarios. And of course you can bind your chart to arrays, collections, generic lists of simple types and lists of objects.
 
 To create and populate the RadChart, [ChartSeries]({%slug chart/understanding-radchart-elements/series-overview%}) and [ChartSeriesItem]({%slug chart/understanding-radchart-elements/series-items%}) collections:
 

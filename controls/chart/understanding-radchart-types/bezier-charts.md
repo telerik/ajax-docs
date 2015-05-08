@@ -14,7 +14,7 @@ position: 6
 
 The Bezier chart is often used for modelling data by interpolating data points, through which curved lines pass.
 
-To draw a Bezier chart series you add (1 + 3 x N) items to a series.So you can have 4 data points or 7, 10, 13, etc.The simplest set of data would be 4 data points: two end points and two "control points" that control the position and amount of curvature in the line between the two end points.See the figures below for examples. Each of the data points must have a X and Y value.
+To draw a Bezier chart series you add (1 + 3 x N) items to a series. So you can have 4 data points or 7, 10, 13, etc. The simplest set of data would be 4 data points: two end points and two "control points" that control the position and amount of curvature in the line between the two end points. See the figures below for examples. Each of the data points must have a X and Y value.
 
 To create a simple vertical Bezier Chart set the SeriesOrientation property to **Vertical**. Set the RadChart DefaultType property or ChartSeries.Type to **Bezier**. Create a series and add four chart items with X and Y values.
 

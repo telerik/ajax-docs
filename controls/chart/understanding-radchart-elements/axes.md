@@ -10,14 +10,9 @@ position: 2
 
 # Axes
 
-
-
 >caution  **RadChart** has been replaced by[RadHtmlChart](http://www.telerik.com/products/aspnet-ajax/html-chart.aspx), Telerik's client-side charting component.	If you are considering **RadChart** for new development, examine the[RadHtmlChart documentation](ffd58685-7423-4c50-9554-f92c70a75138)and[online demos](http://demos.telerik.com/aspnet-ajax/htmlchart/examples/overview/defaultcs.aspx)first to see if it will fit your development needs.	If you are already using **RadChart** in your projects, you can migrate to **RadHtmlChart** by following these articles:[Migrating Series](2f393f28-bc31-459c-92aa-c3599785f6cc),[Migrating Axes](3f1bea81-87b9-4324-b0d2-d13131031048),[Migrating Date Axes](93226130-bc3c-4c53-862a-f9e17b2eb7dd),[Migrating Databinding](d6c5e2f1-280c-4fb0-b5b0-2f507697511d),[Feature parity](010dc716-ce38-480b-9157-572e0f140169).	Support for **RadChart** is discontinued as of **Q3 2014** , but the control will remain in the assembly so it can still be used.	We encourage you to use **RadHtmlChart** for new development.
->
-
 
 X and Y axes are included in all chart types but the [Pie]({%slug chart/understanding-radchart-types/pie-charts%}) chart. Typically the YAxis displays values and the XAxis displays categories.For example, the YAxis might show "items sold" or "revenue", while the XAxis might show "Months" or "Products". The X axis can also display values. A second "Y" axis property YAxis2 is provided for displaying a second scale of measurements.
->caption 
 
 ![XAxis, YAxis and YAxis2](images/radchart-understandingelements003.png)
 
@@ -36,7 +31,6 @@ Each axis has:
 * Item labels below the axis line
 
 The example below shows a sample X-axis with several appearance related properties customized.
->caption 
 
 ![Axis Elements](images/radchart-understandingelements002.png)
 
@@ -49,21 +43,14 @@ The RadChart PlotArea property has sub properties XAxis, YAxis and YAxis2. Each 
 * TextAppearance handles the axis item label text, most notably TextAppearance.TextProperties controls font properties and color.
 
 >note Axis properties can be set from the Properties Window of Visual Studio, in the XML configuration file, or through the API. Properties for the X and Y axis are identical except where noted.
->
-
 
 ## Formatting Axis
 
 You can modify the overall appearance of an axes by changing the AutoScale and AutoShrink properties.These properties when set to true cause the axis to expand and shrink to accommodate dynamically added and removed items. This is useful when the number of items changes on-the-fly.
 
 >tip Turn AutoScale off if you want complete control over labeling of an axis.
->
-
-
-
 
 ## Formatting Axis Labels
->caption 
 
 ![Axis Positioning](images/radchart-understandingelements004.png)
 
@@ -82,10 +69,6 @@ To display a range of values along an axis, specify for the ChartAxis a starting
 * Items is populated with with 3 ChartAxisItem objects where the Appearance.Text property contains "Non-Smokers", "Social Smokers" and "Heavy Smokers".
 
 You can control the size and position of the labels using the axis **Appearance.LabelAppearance Dimensions** and **Position** properties.
-
-
-
-
 
 ## Unique YAxis and YAxis2 Properties
 

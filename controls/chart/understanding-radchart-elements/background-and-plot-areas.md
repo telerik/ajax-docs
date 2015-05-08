@@ -10,11 +10,7 @@ position: 1
 
 # Background and Plot Areas
 
-
-
 >caution  **RadChart** has been replaced by[RadHtmlChart](http://www.telerik.com/products/aspnet-ajax/html-chart.aspx), Telerik's client-side charting component.	If you are considering **RadChart** for new development, examine the[RadHtmlChart documentation](ffd58685-7423-4c50-9554-f92c70a75138)and[online demos](http://demos.telerik.com/aspnet-ajax/htmlchart/examples/overview/defaultcs.aspx)first to see if it will fit your development needs.	If you are already using **RadChart** in your projects, you can migrate to **RadHtmlChart** by following these articles:[Migrating Series](2f393f28-bc31-459c-92aa-c3599785f6cc),[Migrating Axes](3f1bea81-87b9-4324-b0d2-d13131031048),[Migrating Date Axes](93226130-bc3c-4c53-862a-f9e17b2eb7dd),[Migrating Databinding](d6c5e2f1-280c-4fb0-b5b0-2f507697511d),[Feature parity](010dc716-ce38-480b-9157-572e0f140169).	Support for **RadChart** is discontinued as of **Q3 2014** , but the control will remain in the assembly so it can still be used.	We encourage you to use **RadHtmlChart** for new development.
->
-
 
 ## Chart Background
 
@@ -36,16 +32,11 @@ The plot area is the working rectangular area between X and Y axes where data is
 
 * XAxis, YAxis, and YAxis2 properties. These axis properties control the scale and appearance of both axes. See the [Axes]({%slug chart/understanding-radchart-elements/axes%}) topic for more information.
 
-* [DataTable]({%slug chart/understanding-radchart-elements/data-table%}): Displays a spreadsheet style table of the data in the chart, typically just below the chart itself.See the [DataTable]({%slug chart/understanding-radchart-elements/data-table%}) topic for more information.
+* [DataTable]({%slug chart/understanding-radchart-elements/data-table%}): Displays a spreadsheet style table of the data in the chart, typically just below the chart itself. See the [DataTable]({%slug chart/understanding-radchart-elements/data-table%}) topic for more information.
 
 * [EmptySeriesMessage](CC5AF201-9BF3-4696-BC86-0D46A61F7C0B): The predefined message that displays in the PlotArea when there is no series data defined for the chart.
 
 * [MarkedZones](9D3B011D-12DF-44A4-8E94-1EAF25E616C1): Areas in the background of the chart that can be defined, labeled and filled. [MarkedZones](9D3B011D-12DF-44A4-8E94-1EAF25E616C1) are used to highlight or group areas on the chart.
-
-
-
-
->caption 
 
 ![RadChart Background and Plot Area](images/radchart-understandingelements001.png)
 
@@ -57,7 +48,7 @@ Like the RadChart as a whole, PlotArea has an Appearance property allowing custo
 
 * FillStyle controls the fill color and type (solid, hatched, image, gradient).
 
-* The Dimensions property provides control of **Width**, **Height**, **Margins**, **Paddings** and if you want the dimensions to Autosize**.**
+* The Dimensions property provides control of **Width**, **Height**, **Margins**, **Paddings** and if you want the dimensions to **Autosize**.
 
 * SeriesPalette is a property of the chart that lets you to choose a predefined skin color palette for each series.This can help provide a distinct look to differentiate each series.
 
