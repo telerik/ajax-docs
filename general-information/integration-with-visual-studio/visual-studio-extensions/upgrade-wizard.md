@@ -14,9 +14,9 @@ position: 4
 
 ## 
 
-An important feature in the Telerik Visual Studio Extensions is the __Project Upgrade Wizard__. It can facilitatethe process of upgrading the Telerik UI for ASP.NET AJAX to the latest version in your project.
+An important feature in the Telerik Visual Studio Extensions is the **Project Upgrade Wizard**. It can facilitate the process of upgrading the Telerik UI for ASP.NET AJAX to the latest version in your project.
 
-To start the Upgrade Wizard go to __Telerik__ > __UI for ASP.NET AJAX__ > __Upgrade Wizard__ in the Visual Studio menu.
+To start the Upgrade Wizard go to **Telerik** > **UI for ASP.NET AJAX** > **Upgrade Wizard** in the Visual Studio menu.
 
 On the first screen of the wizard is described what will be upgraded:
 >caption Figure 1: The first screen of the Upgrade Wizard
@@ -25,9 +25,9 @@ On the first screen of the wizard is described what will be upgraded:
 
 In addition to the pure assembly reference change, the Upgrade Wizard provides several important features:
 
-* Check and retrieve the latest available __Telerik UI for ASP.NET AJAX__ release;
+* Check and retrieve the latest available **Telerik UI for ASP.NET AJAX** release;
 
-* Change the version of __Telerik UI for ASP.NET AJAX__ the project uses.
+* Change the version of **Telerik UI for ASP.NET AJAX** the project uses.
 
 On the next step the wizard lists all projects from the solution, which use Telerik UI for ASP.NET AJAX.You can choose which projects will be updated (it is recommended to upgrade all projects to the chosen version),the version which they will be upgraded to and whether or not all binaries should get copied to your solution folder(useful when utilizing a build server or working on a project collaboratively):
 >caption Figure 2: Choose the projects the Upgrade Wizard will work on
@@ -38,14 +38,14 @@ On the next step the wizard lists all projects from the solution, which use Tele
 >
 
 
->note The __Add referenced assemblies to solution__ option is not available for Visual Studio web site projects or when using GAC based distributions.
+>note The **Add referenced assemblies to solution** option is not available for Visual Studio web site projects or when using GAC based distributions.
 >
 
 
 The following page of the upgrade wizard suggests you three options for the project resources:
 
 >note 
-* In case *non-embedded*  __Skins__ and/or __Scripts__ folders are detected in the root of a project selected for upgrade they will be automatically updated in accordance with the selected controls version.>
+* In case *non-embedded*  **Skins** and/or **Scripts** folders are detected in the root of a project selected for upgrade they will be automatically updated in accordance with the selected controls version.>
 
 >caption Figure 3: Choose which files to upgrade
 
@@ -73,8 +73,8 @@ After choosing the preferred options and pressing the Finish button, the Upgrade
 The reason for the described exception is the displacement of the embedded skins from Telerik.Web.UI to Telerik.Web.UI.Skins, introduced with the Q3 2011 release.
 
 >note 
-* The Telerik UI for ASP.NET AJAX distribution selection screen lists all the versions that can be detected automatically. These are versions, installed by using the Windows Installer MSI package (marked with __[Install Folder]__ ), versions, downloaded earlier by the Upgrade Wizard (marked with __[Download]__ ) and versions, available in the GAC (marked with __[GAC]__ ). Hotfixes, downloaded manually cannot be detected. You could use the __Browse__ button to navigate to the __Telerik.Web.UI__ assembly of a manually downloaded version.
-* The Telerik UI for ASP.NET AJAX version signature is defined by the year, number of Q, month, day and .NET Framework version of the release. For example version 2012.1.215 means Q1 2012, which is released on February 15, 2012. In additon to this signature, you will find an indication whether the release is a trial ( __Trial__ ) or purchased ( __Dev__ ) version.
+* The Telerik UI for ASP.NET AJAX distribution selection screen lists all the versions that can be detected automatically. These are versions, installed by using the Windows Installer MSI package (marked with **[Install Folder]** ), versions, downloaded earlier by the Upgrade Wizard (marked with **[Download]** ) and versions, available in the GAC (marked with **[GAC]** ). Hotfixes, downloaded manually cannot be detected. You could use the **Browse** button to navigate to the **Telerik.Web.UI** assembly of a manually downloaded version.
+* The Telerik UI for ASP.NET AJAX version signature is defined by the year, number of Q, month, day and .NET Framework version of the release. For example version 2012.1.215 means Q1 2012, which is released on February 15, 2012. In addition to this signature, you will find an indication whether the release is a trial ( **Trial** ) or purchased ( **Dev** ) version.
 * The distribution, downloaded by the Upgrade Wizard contains only the "hotfix" files, e.g. the barebone files, needed for a project to run correctly. It does not contain the documentation or the Live Examples.
 * A Visual Studio restart will be required in order to update your toolbox. If the automatic restart fails, a restart should be initiated manually in order to complete the toolbox upgrade.>
 

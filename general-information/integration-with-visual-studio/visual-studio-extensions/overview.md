@@ -1,7 +1,7 @@
 ---
-title: Visual Studio Extensions Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
-description: Overview
+title: Overview
+page_title: Visual Studio Extensions Overview | UI for ASP.NET AJAX Documentation
+description: 
 slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/overview
 tags: overview
 published: True
@@ -30,19 +30,13 @@ Visual Studio Extensions for Telerik UI for ASP.NET AJAX are distributed with th
 
 The Visual Studio Extensions can be accessed through the Telerik | Telerik UI for ASP.NET AJAX menu which has different menu items depending on the selected project in Visual Studio. The extensions can be accessed through the context menu of a web project as well.
 
-
 >caption No selected project in Visual Studio
-
 ![Telerik menu - create new project](images/introduction-vsx_overview_menucreate.png)
 
-
 >caption Selected project in Visual Studio is Standard Web Project (Web Site or Web Application)
-
 ![Telerik menu - convert project](images/introduction-vsx_overview_menuconvert.png)
 
-
 >caption Selected project in Visual Studio is Telerik Web Project (Web Site or Web Application)
-
 ![Telerik menu - configure project](images/introduction-vsx_overview_menuconfigure.png)
 
 When installed, the extensions add several project templates to the New Project dialog of Visual Studio:

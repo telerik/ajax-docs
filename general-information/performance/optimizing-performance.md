@@ -27,8 +27,7 @@ In this article we will go ahead and summarize the most important performance in
 [Optimization Tips: Optimizing Custom Skins](http://blogs.telerik.com/ToddAnglin/Posts/08-06-24/Optimization_Tips_Optimizing_Custom_Skins.aspx)
 
 
-
-__RadGrid__
+**RadGrid**
 
 * server-side: The grid itself cannot cause server-side performance problems related to controls creations and/or render. There might be some possible problems with controls inside grid templates.
 
@@ -48,9 +47,7 @@ __RadGrid__
 
 
 
-
-
-__RadEditor__
+**RadEditor**
 
 Some optimization features introduced in the ASP.NET AJAX version are:
 
@@ -64,7 +61,7 @@ Some optimization features introduced in the ASP.NET AJAX version are:
 
 Nonetheless, there are two scenarios where performance can degrade:
 
-1. Having many editors on the page(10, 20 or even 30. More common in MOSS scenarios).RadEditor for ASP.NET AJAX initializes about 3-4 times faster than the Classic version on the client side.Nonetheless, having 30 instances of the editor is bound to cause a delay. However, this delay can be greatly reduced and brought to almost nothing– by setting a ToolProviderID (so that many editors share the same toolbar and no additional markup is sent on client), as well as set the ToolbarMode property – non default toolbars use lazy initialization and are initialized not when the page loads, but when an editor is first used (e.g. the user clicks in the content area). The following example demonstrates these two features:[http://demos.telerik.com/aspnet-ajax/Editor/Examples/ToolProvider/DefaultCS.](http://demos.telerik.com/aspnet-ajax/Editor/Examples/ToolProvider/DefaultCS.aspx)
+1. Having many editors on the page(10, 20 or even 30. More common in MOSS scenarios).RadEditor for ASP.NET AJAX initializes about 3-4 times faster than the Classic version on the client side.Nonetheless, having 30 instances of the editor is bound to cause a delay. However, this delay can be greatly reduced and brought to almost nothing– by setting a ToolProviderID (so that many editors share the same toolbar and no additional markup is sent on client), as well as set the ToolbarMode property – non default toolbars use lazy initialization and are initialized not when the page loads, but when an editor is first used (e.g. the user clicks in the content area). The following example demonstrates these two features: [http://demos.telerik.com/aspnet-ajax/Editor/Examples/ToolProvider/DefaultCS.](http://demos.telerik.com/aspnet-ajax/Editor/Examples/ToolProvider/DefaultCS.aspx)
 
 1. Loading too much content into the editor (100K and more).This is done very rarely, but sometimes we get contacted about slow performance of the editor. Problem is not addressable – it is inherent. When having to deal with so much content, the browser eats lots of memory to provide for storing the editor states needed by the Undo/Redo, the Undo/Redo itself starts executing slowly due to the huge content.
 
@@ -72,7 +69,7 @@ Nonetheless, there are two scenarios where performance can degrade:
 
 
 
-__RadTreeView__
+**RadTreeView**
 
 The biggest challenge here is to deliver acceptable performance when dealing with lots of nodes (hundreds and thousands). To do so RadTreeView supports:
 
@@ -82,17 +79,17 @@ The biggest challenge here is to deliver acceptable performance when dealing wit
 
 1. [Client-side (via ASP.NET Callbacks)](http://demos.telerik.com/aspnet-ajax/TreeView/Examples/Programming/ClientLoadOnDemandSql/DefaultCS.aspx)This is technique is easier for the developer to implement however may not be a top performer because the whole ViewState is submitted on every request.
 
-1. [Server-side (regular postbacks which can be ajaxified)](http://demos.telerik.com/aspnet-ajax/TreeView/Examples/Programming/LoadOnDemandSql/DefaultCS.aspx)Worst performance. Mostly added for backwards compatibility. Full page update can be avoided by wrapping the treeview inside update panel.
+1. [Server-side (regular postbacks which can be ajaxified)](http://demos.telerik.com/aspnet-ajax/TreeView/Examples/Programming/LoadOnDemandSql/DefaultCS.aspx) Worst performance. Mostly added for backwards compatibility. Full page update can be avoided by wrapping the treeview inside update panel.
 
-1. [Web-services](http://demos.telerik.com/aspnet-ajax/TreeView/Examples/Programming/WebService/DefaultCS.aspx)Web services provide best performance because they completely skip the heavy page lifecycle and don’t require sending huge ViewState strings.All types of load on demand keep logging the nodes created on demand. This however introduces a delay after numerous loads on demand requests since the log grows bigger. This is required by customers who want the nodes created on demand do be persisted after postback (or those nodes need to fire server-side events - click, drag and drop etc). This means that after some time all load on demand schemes (without server-side) get slower. Fortunately, there is a property __PersistLoadOnDemandNodes__which controls this behavior.
+1. [Web-services](http://demos.telerik.com/aspnet-ajax/TreeView/Examples/Programming/WebService/DefaultCS.aspx)Web services provide best performance because they completely skip the heavy page lifecycle and don’t require sending huge ViewState strings.All types of load on demand keep logging the nodes created on demand. This however introduces a delay after numerous loads on demand requests since the log grows bigger. This is required by customers who want the nodes created on demand do be persisted after postback (or those nodes need to fire server-side events - click, drag and drop etc). This means that after some time all load on demand schemes (without server-side) get slower. Fortunately, there is a property **PersistLoadOnDemandNodes** which controls this behavior.
 
-* Initialization of the client objectRadTreeView supports on demand initialization of nodes which are not visible (their parent nodes are collapsed). This is transparent to the user. However, invoking the client-side API (e.g. get_allNodes()) can force full client-side initialization which is a time consuming operation in case of a few hundred nodes. Also logging client side changes which need to be reflected on the server (checking a node, selecting a node) from the client-side API can be slow with lots of nodes. 4. JSONRadTreeView (as well as most of our ASP.NET AJAX controls) renders some JavaScript code in JSON format required to initialize the nodes. At the time being the text of the node is not serialized in by default which saves lots of output. A QSF example demonstrating web-service load on demand with disabled viewstate will demonstrate the top performance achievable with RadTreeView.Also the[performance section of the help](C9F49BCB-8F85-4249-815F-1CFA6464FCE4) provides some further insights.
-
-
+* Initialization of the client objectRadTreeView supports on demand initialization of nodes which are not visible (their parent nodes are collapsed). This is transparent to the user. However, invoking the client-side API (e.g. get_allNodes()) can force full client-side initialization which is a time consuming operation in case of a few hundred nodes. Also logging client side changes which need to be reflected on the server (checking a node, selecting a node) from the client-side API can be slow with lots of nodes. 4. JSONRadTreeView (as well as most of our ASP.NET AJAX controls) renders some JavaScript code in JSON format required to initialize the nodes. At the time being the text of the node is not serialized in by default which saves lots of output. A QSF example demonstrating web-service load on demand with disabled viewstate will demonstrate the top performance achievable with RadTreeView.Also the [performance section of the help](C9F49BCB-8F85-4249-815F-1CFA6464FCE4) provides some further insights.
 
 
 
-__RadComboBox__
+
+
+**RadComboBox**
 
 Again performance might degrade with lots of items and lots of combobox instances. This is addressed by using load on demand.
 
@@ -108,19 +105,19 @@ Again performance might degrade with lots of items and lots of combobox instance
 
 
 
-__RadMenu__
+**RadMenu**
 
 It supports [web service load on demand](http://demos.telerik.com/aspnet-ajax/Menu/Examples/Programming/WebService/DefaultCS.aspx) and lazy initialization (transparent for the user). RadMenu can seamlessly work with disabled ViewState.
 
-__RadTabStrip__
+**RadTabStrip**
 
-Having lots of page views (inside RadMultiPage) can slow down switching between tabs. Also it generates lots of HTML (because of the controls contained in the pageviews). To tackle this problem we have an[online example](http://demos.telerik.com/aspnet-ajax/TabStrip/Examples/ApplicationScenarios/LoadOnDemand/DefaultCS.aspx) demonstrating how to load pageviews on demand via AJAX.The multipage also has a property “RenderSelectedPageOnly” which does exactly what it says. In this case switching to a new page view requires postback. __RadAjaxManager & RadAjaxPanel__Performance problems can be caused by large updating areas with lots of HTML (especially tables), JavaScript files, JavaScript components and CSS. More info:[Optimizing client-side performance](7956CE09-A038-4465-9FE6-602125EBB685)
-
-
+Having lots of page views (inside RadMultiPage) can slow down switching between tabs. Also it generates lots of HTML (because of the controls contained in the pageviews). To tackle this problem we have an [online example](http://demos.telerik.com/aspnet-ajax/TabStrip/Examples/ApplicationScenarios/LoadOnDemand/DefaultCS.aspx) demonstrating how to load pageviews on demand via AJAX.The multipage also has a property “RenderSelectedPageOnly” which does exactly what it says. In this case switching to a new page view requires postback. **RadAjaxManager & RadAjaxPanel** performance problems can be caused by large updating areas with lots of HTML (especially tables), JavaScript files, JavaScript components and CSS. More info:[Optimizing client-side performance](7956CE09-A038-4465-9FE6-602125EBB685)
 
 
 
-__RadDatePicker, RadDateTimePicker and RadTimePicker__
+
+
+**RadDatePicker, RadDateTimePicker and RadTimePicker**
 
 Performance problems can be caused by using the picker in list controls. An example how to optimize this can be found here:
 
@@ -128,7 +125,7 @@ Performance problems can be caused by using the picker in list controls. An exam
 
 
 
-__RadDateInput, RadNumericInput, RadMaskedTextBox and RadTextBox__
+**RadDateInput, RadNumericInput, RadMaskedTextBox and RadTextBox**
 
 Performance problems can be caused by using these controls in templates of list controls. A better idea is to create an outside edit form similar to this example:
 
@@ -138,15 +135,15 @@ Performance problems can be caused by using these controls in templates of list 
 
 
 
-__RadToolTip__
+**RadToolTip**
 
-RadTooltip RadTooltipManager are quite lightweight and generally there are no problems with performance. However, in templated scenarios the number of tooltip controls on the page can easily go out of hand. We have seen scenarios involving 1000+ tooltips on a single page. Since each of them needs to be initialized on client page load, the system takes a lot of time to do it, especially If <compilation debug=true>. In such scenarios there is a better approach to the tooltips – and that is using a couple of lines of client-side code that will create a tooltip only when the user needs to see it. The following demo demonstrates this approach:[http://demos.telerik.com/aspnet-ajax/ToolTip/Examples/RadToolTipManagerClientAPI/DefaultCS.](http://demos.telerik.com/aspnet-ajax/ToolTip/Examples/RadToolTipManagerClientAPI/DefaultCS.aspx)aspx
+RadTooltip RadTooltipManager are quite lightweight and generally there are no problems with performance. However, in templated scenarios the number of tooltip controls on the page can easily go out of hand. We have seen scenarios involving 1000+ tooltips on a single page. Since each of them needs to be initialized on client page load, the system takes a lot of time to do it, especially If <compilation debug=true>. In such scenarios there is a better approach to the tooltips – and that is using a couple of lines of client-side code that will create a tooltip only when the user needs to see it. The following demo demonstrates this approach: [http://demos.telerik.com/aspnet-ajax/ToolTip/Examples/RadToolTipManagerClientAPI/DefaultCS.aspx](http://demos.telerik.com/aspnet-ajax/ToolTip/Examples/RadToolTipManagerClientAPI/DefaultCS.aspx)
 
-__RadSplitter__
+**RadSplitter**
 
 A brand new mechanism for updating RadSplitter's child controls was introduced that is many times faster than the old one which traversed every single HTML element to test whether it is a Telerik control.
 
-__RadScheduler__
+**RadScheduler**
 
 * Data-binding: We recommend that customers bind RadScheduler only with appointments that are visible in the currently selected view. This makes performance a non-issue, as the views are limited to a few thousand appointments at maximum.
 
@@ -160,25 +157,25 @@ __RadScheduler__
 
 * Number of requests: On-demand loading of scripts generates a few additional requests. Other than that, the number is rather low, as skins contain very little number of images. Using RadScriptManager and RadStyleSheetManager reduces the number even further.
 
-__RadHtmlChart__
+**RadHtmlChart**
 
-The __RadHtmlChart__ renders SVG in modern browsers and VML in older browsers that do not support SVG (i.e., IE8 and below), that are essentially forms of an XML document. This means that the chart's image will be created by numerous elements (i.e., XML nodes) and rendering them may take some time for the browser. In scenarios where the chart has many components like series items, x/y axes labels, major and/or minor grid lines (i.e., path and text elements for the rendering) and the animation is enabled (it is enabled by default), the overall rendering time may be increased because the browser will have to draw too many elements and animate them.
+The **RadHtmlChart** renders SVG in modern browsers and VML in older browsers that do not support SVG (i.e., IE8 and below), that are essentially forms of an XML document. This means that the chart's image will be created by numerous elements (i.e., XML nodes) and rendering them may take some time for the browser. In scenarios where the chart has many components like series items, x/y axes labels, major and/or minor grid lines (i.e., path and text elements for the rendering) and the animation is enabled (it is enabled by default), the overall rendering time may be increased because the browser will have to draw too many elements and animate them.
 
 The performance also greatly depends on the performance of the machine and the browser. Slower browsers like IE7 and IE8, especially when used on slower machines, may not meet all your needs. This can be aggravated by the presence of many charts on the page and the page's load time will increase proportionately.
 
-The way to improve the rendering speed of the chart is to remove the most numerous elements that can slow down the browser. There are several things you could do in order to speed up the __RadHtmlChart__'s client-side rendering:
+The way to improve the rendering speed of the chart is to remove the most numerous elements that can slow down the browser. There are several things you could do in order to speed up the **RadHtmlChart**'s client-side rendering:
 
-* Disable the chart's animation by setting the __Transitions__ property to __false__. By doing so, the browser will not have to animate the thousands of XML nodes in the chart image.
+* Disable the chart's animation by setting the **Transitions** property to **false**. By doing so, the browser will not have to animate the thousands of XML nodes in the chart image.
 
-* Hide the MinorGridLines and/or MajorGridLines of the X and/or Y axes by setting the __[YAxis/XAxis].[MinorGridLines/MajorGridLines].Visible__ property to __false__.
+* Hide the MinorGridLines and/or MajorGridLines of the X and/or Y axes by setting the **[YAxis/XAxis].[MinorGridLines/MajorGridLines].Visible** property to **false**.
 
-* Hide the series' labels by setting the __[Series Object].LabelsAppearance.Visible__ property to __false__. When there are thousand of items the labels would be hardly readable and are likely to only create visual clutter.
+* Hide the series' labels by setting the **[Series Object].LabelsAppearance.Visible** property to **false**. When there are thousand of items the labels would be hardly readable and are likely to only create visual clutter.
 
-* Hide the X and/or Y axes' labels by setting the __[YAxis/XAxis].LabelsAppearance.Visible__ property to __false__. You can also set a higher value for the axes labels step through the __[YAxis/XAxis].LabelsAppearance.Step__ property.
+* Hide the X and/or Y axes' labels by setting the **[YAxis/XAxis].LabelsAppearance.Visible** property to **false**. You can also set a higher value for the axes labels step through the **[YAxis/XAxis].LabelsAppearance.Step** property.
 
 You can see an example of an optimized chart configuration in [RadHtmlChart Performance Optimizations](905e0bc7-6ae6-4b15-82c5-c07e42dcd0ab) help article.
 
-__RadScriptManager and RadStyleSheetManager__
+**RadScriptManager and RadStyleSheetManager**
 
 By default each Telerik control serves a set of files (javascript code and stylesheets) needed for proper client-side operation and look.
 
@@ -188,4 +185,4 @@ Usually this problem is overcome by disabling the automatic script and styleshee
 
 This approach is not the best for a number of reasons:- you must extract the files from the assembly for each control release;- files become too large to be maintainable (or you have to write a script to merge the source files);- the number of the merged files you need to maintain can become very large depending on the control sets you have on different pages;
 
-With the newly added[RadScriptManager](2EF524B5-D6BE-47BE-9960-01EF7B786F85) and[RadStyleSheetManager](A2D2BFE9-F3FE-48F8-A3E6-5254D7491104) controls, Telerik UI for ASP.NET AJAX suite gives developers the advantage of a simple drag-and-drop to achieve the combination of resources to a single request. All you need is to add a [RadScriptManager](2EF524B5-D6BE-47BE-9960-01EF7B786F85) to your page instead of the default ScriptManager and the javascript files will get combined into a single file. Putting an additional control –[RadStyleSheetManager](A2D2BFE9-F3FE-48F8-A3E6-5254D7491104) to the page makes the stylesheet requests combined into a single request.Both controls need an HttpHandler to be declared in the application's configuration file to operate properly. The handler can easily added using the Smart Tags of the controls.
+With the newly added [RadScriptManager](2EF524B5-D6BE-47BE-9960-01EF7B786F85) and [RadStyleSheetManager](A2D2BFE9-F3FE-48F8-A3E6-5254D7491104) controls, Telerik UI for ASP.NET AJAX suite gives developers the advantage of a simple drag-and-drop to achieve the combination of resources to a single request. All you need is to add a [RadScriptManager](2EF524B5-D6BE-47BE-9960-01EF7B786F85) to your page instead of the default ScriptManager and the javascript files will get combined into a single file. Putting an additional control – [RadStyleSheetManager](A2D2BFE9-F3FE-48F8-A3E6-5254D7491104) to the page makes the stylesheet requests combined into a single request.Both controls need an HttpHandler to be declared in the application's configuration file to operate properly. The handler can easily added using the Smart Tags of the controls.

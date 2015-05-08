@@ -22,15 +22,13 @@ This article describes common issues related to the design-time rendering of the
 
 * [Design-time Issues with Visual Studio 2008](#design-time-issues-with-visual-studio-2008)
 
->note The __Telerik.Web.Design.dll__ assembly is installed in the GAC by the automated installer of the Telerik UI for ASP.NET AJAX suite.Some of the design-time issues described below may require you to modify the GAC in order to remove duplicate assemblies.
+>note The **Telerik.Web.Design.dll** assembly is installed in the GAC by the automated installer of the Telerik UI for ASP.NET AJAX suite.Some of the design-time issues described below may require you to modify the GAC in order to remove duplicate assemblies.
 >
 
 
 ## Unknown server tag/Could not load file or assembly errors
 
-Problem: When a project using Telerik controls is open and a page is loaded, a page displays the "Unknown Server Tag" or "Could not load file or assembly 'Telerik.Web.UI, version='XXXXX'..." error.
->caption 
-
+Problem: When a project using Telerik controls is open and a page is loaded, a page displays the *"Unknown Server Tag"* or *"Could not load file or assembly 'Telerik.Web.UI, version='XXXXX'..."* error.
 ![Unknown server tag](images/introduction-unknownservertag.png)
 
 Reason: This error usually happens when the project does not contain a reference to the Telerik.Web.UI assembly, or the reference is broken.Possible causes for the errors:
@@ -49,7 +47,11 @@ Solutions:
 
 1. Manually: By editing the web.config and/or the ASPX/ASCX/Master/UserControl files to reflect the assembly version change. You can also skip to specify the exact assembly version to prevent future conflicts.
 
-1. Automatically: By using the Property Pages. You will still need to update the <%@ Register Assembly="Telerik.Web.UI"… %> directives in your pages manually.![Property pages](images/introduction-launch_propertypages.png)![Telerik.Web.UI project reference](images/introduction-telerik.web.ui.reference_added_as_bin_reference.png)Note: To avoid the need to manually modify the <%@ Register Assembly="Telerik.Web.UI"… %> directives, we recommend that you register the tagprefix in the web.config instead, as shown in the screenshot below.![Telerik TagPrefix registration](images/introduction-telerik_tagprefix_registration.png)
+1. Automatically: By using the Property Pages. You will still need to update the `<%@ Register Assembly="Telerik.Web.UI"… %>` directives in your pages manually.
+![Property pages](images/introduction-launch_propertypages.png)
+![Telerik.Web.UI project reference](images/introduction-telerik.web.ui.reference_added_as_bin_reference.png)
+Note: To avoid the need to manually modify the `<%@ Register Assembly="Telerik.Web.UI"… %>` directives, we recommend that you register the tag prefix in the web.config instead, as shown in the screenshot below.
+![Telerik TagPrefix registration](images/introduction-telerik_tagprefix_registration.png)
 
 1. Bin reference:
 
@@ -59,11 +61,11 @@ Solutions:
 
 ## An unhandled exception has occurred. [A][control type] cannot be cast to [B][control type]
 
-__Error Message__: Design time displays error rendering control (Error: "An unhandled exception has occurred.[A][control type] cannot be cast to [B][control type]. Type A originates from 'Telerik.Web.UI, Version=[Version], Culture=neutral,PublicKeyToken=121fae78165ba3d4' in the context 'LoadNeither' at location '[location1]'. Type B originates from 'Telerik.Web.UI,Version=[Version], Culture=neutral, PublicKeyToken=121fae78165ba3d4' in the context 'LoadNeither' at location '[location2]'.")
+**Error Message**: Design time displays error rendering control *(Error: "An unhandled exception has occurred.[A][control type] cannot be cast to [B][control type]. Type A originates from 'Telerik.Web.UI, Version=[Version], Culture=neutral,PublicKeyToken=121fae78165ba3d4' in the context 'LoadNeither' at location '[location1]'. Type B originates from 'Telerik.Web.UI,Version=[Version], Culture=neutral, PublicKeyToken=121fae78165ba3d4' in the context 'LoadNeither' at location '[location2]'.")*
 
 ![Error Rendering Control](images/introduction-design_time_error_type3.png)
 
-__Reasons__: Using the Trial and the Dev variations of the Telerik controls assembly (having the same version)in a single instance of Visual Studio.
+**Reasons**: Using the Trial and the Dev variations of the Telerik controls assembly (having the same version)in a single instance of Visual Studio.
 
 1. A typical scenario:
 
@@ -81,7 +83,7 @@ __Reasons__: Using the Trial and the Dev variations of the Telerik controls asse
 
 The reason for the error is that the .NET Framework cannot distinguish the Dev assembly from the Trial one.Once one assembly loaded in the Visual Studio AppDomain, it cannot be unloaded until the IDE gets closed.
 
-__Suggested solution__:
+**Suggested solution**:
 
 Restart Visual Studio between the reload one of the two projects
 
@@ -91,51 +93,43 @@ Restart Visual Studio between the reload one of the two projects
 
 ## Visual Studio crashes if the project uses Microsoft Report Viewer when designing a local report (.rdlc) and adding a dataset.
 
-__Error Message__: System.IO.FileNotFoundException: Could not load file or assembly 'Microsoft.AnalysisServices.AdomdClient, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91' or one of its dependencies. The system cannot find the file specified.
+**Error Message**: System.IO.FileNotFoundException: Could not load file or assembly 'Microsoft.AnalysisServices.AdomdClient, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91' or one of its dependencies. The system cannot find the file specified.
 
-__Reasons__: We are required to refer an assembly with a specific version which in this case is __Version=10.0.0.0__. In case of missing this exact assembly version locally or in the GAC folder the above exception is thrown and Visual Studio crashes.Please note that Microsoft.AnalysisServices.AdomdClient assembly Version=10.0.0.0 comes with Microsoft SQL Server 2008 R2 SP2 Feature Pack but the Microsoft SQL Server 2012 Feature Pack will install Microsoft.AnalysisServices.AdomdClient assembly with __Version=11.0.0.0__.
+**Reasons**: We are required to refer an assembly with a specific version which in this case is **Version=10.0.0.0**. In case of missing this exact assembly version locally or in the GAC folder the above exception is thrown and Visual Studio crashes.Please note that Microsoft.AnalysisServices.AdomdClient assembly Version=10.0.0.0 comes with Microsoft SQL Server 2008 R2 SP2 Feature Pack but the Microsoft SQL Server 2012 Feature Pack will install Microsoft.AnalysisServices.AdomdClient assembly with **Version=11.0.0.0**.
 
-__Suggested solution__:
+**Suggested solution**:
 
 A valid workaround is to install this assembly Version=10.0.0.0 which comes with the Microsoft SQL Server 2008 R2 SP2 Feature Pack and it is distributed free [here](http://www.microsoft.com/en-us/download/details.aspx?id=30440).
 
 ## Design-time Issues with Visual Studio 2008
 
-Starting from __Q1 2009__ (Version 2009.1.311) there is a brand new assembly installed in your GAC - __Telerik.Web.Design.dll__. We decided to separate the design-time code from the web control implementation code. The reasons are many - better separation of concerns, less assembly references for the main assembly (Telerik.Web.UI.dll). We now have the freedom to extend the design time capabilities of Telerik UI for ASP.NET Ajax without bloating the main control assembly.
+Starting from **Q1 2009** (Version 2009.1.311) there is a brand new assembly installed in your GAC - **Telerik.Web.Design.dll**. We decided to separate the design-time code from the web control implementation code. The reasons are many - better separation of concerns, less assembly references for the main assembly (Telerik.Web.UI.dll). We now have the freedom to extend the design time capabilities of Telerik UI for ASP.NET Ajax without bloating the main control assembly.
 
 Why didn't we make it that way from the beginning? The only reason is that Visual Studio 2008 had a problem with loading GAC-ed design-time assemblies of control libraries deployed in the BIN folder of a web site. Strangely enough the problem didn't appear in Visual Studio 2005. The good news is that this bug has been fixed in Visual Studio 2008 SP1! The problem does not exist in Visual Studio 2010 RC and Visual Studio 2012 as well.
 
-If you for some reason cannot upgrade to __Visual Studio 2008 SP1__ you might face the following exception after upgrading to Telerik UI for ASP.NET Ajax Q1 2009 or later:
+If you for some reason cannot upgrade to **Visual Studio 2008 SP1** you might face the following exception after upgrading to Telerik UI for ASP.NET Ajax Q1 2009 or later:
 
-__Error Creating Control__ - Telerik control
+* **Error Creating Control** - Telerik control
 
-Failed to create designer ...
+* Failed to create designer ...
 
+Below is a screenshot of two ways this error gets represented to the end user:
+![](images/introduction-design_time_error_type2.png)
 
-
-Below is a screenshot of two ways this error gets represented to the end user:![](images/introduction-design_time_error_type2.png)
-
-
->caption  
-
-| ![](images/introduction-hs_note.gif) |  __Important__ : The instructions below are not applicable if you used the __Telerik UI for ASP.NET AJAX__ installer to setup __Telerik controls__ on your machine and you have __Visual Studio 2005__ and/or __Visual Studio 2008 SP1__ and/or __Visual Studio 2010__ and/or __Visual Studio 2012__ . The design time should work properly out of the box with that setup. |
-| ------ | ------ |
-
->note The __Telerik.Web.Design__ assembly contains the Visual Studio designers of the controls. You don't need to add a reference to it into your project.
+>note  **Important** : The instructions below are not applicable if you used the **Telerik UI for ASP.NET AJAX** installer to setup **Telerik controls** on your machine and you have **Visual Studio 2005** and/or **Visual Studio 2008 SP1** and/or **Visual Studio 2010** and/or **Visual Studio 2012** . The design time should work properly out of the box with that setup.
 >
 
-
-
-
+>note The **Telerik.Web.Design** assembly contains the Visual Studio designers of the controls. You don't need to add a reference to it into your project.
+>
 
 
 There are three ways to solve this problem (apart from the obvious upgrade to Visual Studio 2008 SP1):
 
-1. Bin-deploy the design-time assemblyThis solution would work only in case you have __not installed__ Telerik UI for ASP.NET Ajax using the provided setup program. Assemblies installed by a setup program cannot be removed from GAC until the program is uninstalled.This approach is suitable when using only the dll-s from a zip (be that a hotfix or latest internal build).
+### Bin-deploy the design-time assemblyThis solution would work only in case you have **not installed** Telerik UI for ASP.NET Ajax using the provided setup program. Assemblies installed by a setup program cannot be removed from GAC until the program is uninstalled.This approach is suitable when using only the dll-s from a zip (be that a hotfix or latest internal build).
 
 * Remove Telerik.Web.Design.dll from the GAC (this would fail if you have installed RadCotnrols for ASP.NET Ajax via the installer)
 
-* Copy Telerik.Web.Design.dll to your project's BIN subfolder. Ensure that the version of the Telerik.Web.Design assembly is the same as the version of the Telerik.Web.UI assembly. __Don't add a reference to the Telerik.Web.Design assembly, perform a simple Windows Explorer-copy.__
+* Copy Telerik.Web.Design.dll to your project's BIN subfolder. Ensure that the version of the Telerik.Web.Design assembly is the same as the version of the Telerik.Web.UI assembly. **Don't add a reference to the Telerik.Web.Design assembly, perform a simple Windows Explorer-copy.**
 
 * Restart Visual Studio
 
@@ -143,7 +137,7 @@ There are three ways to solve this problem (apart from the obvious upgrade to Vi
 >
 
 
-1. GAC-deploy the control library assembly
+### GAC-deploy the control library assembly
 
 * Add Telerik.Web.UI.dll in the GAC (see details in [this topic]({%slug introduction/deployment/using-the-global-assembly-cache%}))
 
@@ -152,21 +146,19 @@ There are three ways to solve this problem (apart from the obvious upgrade to Vi
 * Make sure you have the following line in your web.config:
 
 ````XML
-	<add assembly="Telerik.Web.UI, Version=2009.1.311.35, Culture=neutral, PublicKeyToken=121FAE78165BA3D4"/> 
+<add assembly="Telerik.Web.UI, Version=2009.1.311.35, Culture=neutral, PublicKeyToken=121FAE78165BA3D4"/> 
 ````
-
-
 
 * Restart Visual Studio
 
-1. Copy Telerik.Web.UI.dll to c:\Program Files\Microsoft Visual Studio 9.0\Common7\IDE\PublicAssemblies and restart Visual Studio.
+### Copy Telerik.Web.UI.dll to *c:\Program Files\Microsoft Visual Studio 9.0\Common7\IDE\PublicAssemblies* and restart Visual Studio.
 
->note Using the third approach (copying the __Telerik.Web.UI__ assembly to the __[VisualStudioInstallationFolder]\Common7\IDE\PublicAssemblies__ folder) could itself cause the problem described above. If you open a project, using a different version of the __Telerik.Web.UI__ assembly than the one in the __PublicAssemblies__ folder, the IDE could display an InvalidCast error message. It is suggested that you ensure the version of the __Telerik.Web.UI__ assembly used by your project and its version in the __PublicAssemblies__ folder are the same before loading the IDE.
+>note Using the third approach (copying the **Telerik.Web.UI** assembly to the **[VisualStudioInstallationFolder]\Common7\IDE\PublicAssemblies** folder) could itself cause the problem described above. If you open a project, using a different version of the **Telerik.Web.UI** assembly than the one in the **PublicAssemblies** folder, the IDE could display an InvalidCast error message. It is suggested that you ensure the version of the **Telerik.Web.UI** assembly used by your project and its version in the **PublicAssemblies** folder are the same before loading the IDE.
 >This instance of the error usually happens when upgrading Telerik UI for ASP.NET AJAX.
 >
 
 
-# See Also
+### See Also
 
  * [General Troubleshooting]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/troubleshooting/general-troubleshooting%})
 

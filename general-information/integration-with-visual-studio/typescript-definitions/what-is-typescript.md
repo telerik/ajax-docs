@@ -12,12 +12,12 @@ position: 0
 
 
 
-__TypeScript__ is a language that can be considered a superset of JavaScript.	It provides types and casting to JavaScript which make writing JavaScript	similar to writing C# (including providing advanced intellisense).	The TypeScript code is translated to JavaScript by the IDE. You can read more about it in the [typescriptlang.org](http://www.typescriptlang.org/) site.
+**TypeScript** is a language that can be considered a superset of JavaScript.	It provides types and casting to JavaScript which make writing JavaScript	similar to writing C# (including providing advanced intellisense).	The TypeScript code is translated to JavaScript by the IDE. You can read more about it in the [typescriptlang.org](http://www.typescriptlang.org/) site.
 >caption Figure 1: Using TypeScript language in a Telerik web application.
 
 ![typescript-use-ts-file-in-page](images/typescript-use-ts-file-in-page.png)
 
-TypeScript infers the object types and in order to work with custom objects (like the client-side objects of the Telerik controls),	it needs to have __definition files__ for them. They are similar to vsdoc files and markdown documentation.
+TypeScript infers the object types and in order to work with custom objects (like the client-side objects of the Telerik controls),	it needs to have **definition files** for them. They are similar to vsdoc files and markdown documentation.
 
 ## 
 
@@ -31,6 +31,6 @@ You can learn more about using TypeScript for the Telerik UI for ASP.NET AJAX su
 
 * [Use TypeScript for Controls Using Kendo UI]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/typescript-definitions/use-typescript-for-controls-using-kendo-ui%})
 
-# See Also
+### See Also
 
  * [How to Use JavaScript Intellisense for the Telerik Controls]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/how-to-use-javascript-intellisense-for-the-telerik-controls%})

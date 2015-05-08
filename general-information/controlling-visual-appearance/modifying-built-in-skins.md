@@ -38,7 +38,7 @@ The easiest way to discover which CSS rule is responsible for a given control st
 
 ## CSS Selectors and CSS Specificity
 
-The CSS knowledge required to modify (override) embedded skins includes familiarity with the different types of __CSS selectors__ and the notion of __CSS specificity__.
+The CSS knowledge required to modify (override) embedded skins includes familiarity with the different types of **CSS selectors** and the notion of **CSS specificity**.
 
 [CSS Selectors Tutorial](http://css.maxdesign.com.au/selectutorial/)
 

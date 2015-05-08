@@ -16,7 +16,7 @@ Skins use Cascading Style Sheets (CSS) to define a control's visual appearance. 
 
 ## Automatic skin registration
 
-If the __Skin__ property is set to some built-in skin and __EnableEmbeddedSkins__ is set to __true__ (the default value) the control will automatically register the CSS file.
+If the **Skin** property is set to some built-in skin and **EnableEmbeddedSkins** is set to **true** (the default value) the control will automatically register the CSS file.
 
 ## Manual skin registration
 
@@ -27,53 +27,43 @@ If the user needs a custom or a modified skin, the CSS file should be registered
 To register declaratively the skin CSS please follow these steps:
 
 1. Copy the CSS file and all required resources (e.g. images) in your application folder. The example below is for RadScheduler for ASP.NET AJAX:
->caption 
-
 ![Skin registration](images/introduction-skin_solution_explorer.png)
 
 1. Drag-and-drop the CSS file into your page. You should end up with the following HTML:
-
 ````XML
-	<head id="Head1" runat="server">
-	   <title>Untitled Page</title>
-	   <link href="Windows7/Scheduler.Windows7.css" rel="stylesheet" type="text/css" />
-	</head> 
+<head id="Head1" runat="server">
+   <title>Untitled Page</title>
+   <link href="Windows7/Scheduler.Windows7.css" rel="stylesheet" type="text/css" />
+</head> 
 ````
 
-
-
-1. Optionally you can make the "href" attribute of the <link> tag application relative - insert a tilde "~/" - and add*runat="server":*
-
+1. Optionally you can make the "href" attribute of the `<link>` tag application relative - insert a tilde "~/" - and add *runat="server":*
 ````XML
-	<head id="Head2" runat="server">
-	   <title>Untitled Page</title>
-	   <link id="Link1" href="~/Windows7/Scheduler.Windows7.css" rel="stylesheet" type="text/css" runat="server" />
-	</head> 
+<head id="Head2" runat="server">
+   <title>Untitled Page</title>
+   <link id="Link1" href="~/Windows7/Scheduler.Windows7.css" rel="stylesheet" type="text/css" runat="server" />
+</head> 
 ````
-
 
 
 ## Programmatic registration
 
-You can register the CSS file of the skin by adding a HtmlLink control in the Header property of your Page. The <head> tag should include the 'runat="server"' attribute.
-
-
-
+You can register the CSS file of the skin by adding a HtmlLink control in the Header property of your Page. The `<head>` tag should include the 'runat="server"' attribute.
 
 
 ````C#
-	HtmlLink link = new HtmlLink();
-	link.Href = "~/Windows7/Scheduler.Windows7.css";
-	link.Attributes.Add("type", "text/css");
-	link.Attributes.Add("rel", "stylesheet");
-	Page.Header.Controls.Add(link);
+HtmlLink link = new HtmlLink();
+link.Href = "~/Windows7/Scheduler.Windows7.css";
+link.Attributes.Add("type", "text/css");
+link.Attributes.Add("rel", "stylesheet");
+Page.Header.Controls.Add(link);
 ````
-````VB.NET
-		Dim link As New HtmlLink
-		link.Href = "~/Windows7/Scheduler.Windows7.css"
-		link.Attributes.Add("type", "text/css")
-		link.Attributes.Add("rel", "stylesheet")
-		Page.Header.Controls.Add(link) 
+````VB
+Dim link As New HtmlLink
+link.Href = "~/Windows7/Scheduler.Windows7.css"
+link.Attributes.Add("type", "text/css")
+link.Attributes.Add("rel", "stylesheet")
+Page.Header.Controls.Add(link) 
 ````
 
 
@@ -88,22 +78,19 @@ The [RadStyleSheetManager](http://www.telerik.com/help/aspnet-ajax/radstylesheet
 * you can register a built-in skin CSS file for a control, that is not present on the page - the control can be added to the page later, or you may want to use the built-in skin for generic HTML content;
 
 
-
 Here is how to register a Telerik control's built-in skin:
 
 
-
-````ASPNET
-	<telerik:RadStyleSheetManager ID="RadStyleSheetManager1" runat="server">
-	   <StyleSheets>
-	       <telerik:StyleSheetReference Name="Telerik.Web.UI.Skins.Vista.Grid.Vista.css" Assembly="Telerik.Web.UI" />
-	   </StyleSheets>
-	</telerik:RadStyleSheetManager> 
+````ASP.NET
+<telerik:RadStyleSheetManager ID="RadStyleSheetManager1" runat="server">
+   <StyleSheets>
+       <telerik:StyleSheetReference Name="Telerik.Web.UI.Skins.Vista.Grid.Vista.css" Assembly="Telerik.Web.UI" />
+   </StyleSheets>
+</telerik:RadStyleSheetManager> 
 ````
 
 
-
-The general pattern for the Telerik controls built-in stylesheets' names is: __Telerik.Web.UI.Skins.__*SkinName*__.__*ControlName*__.__*SkinName*__.css__.
+The general pattern for the Telerik controls built-in stylesheets' names is: **Telerik.Web.UI.Skins._SkinName_._ControlName_._SkinName_.css**.
 
 For more information about registering custom embedded skins, please refer to the following forum thread: [Tool for Embedding Custom Skins into an Assembly](http://www.telerik.com/community/forums/aspnet-ajax/style-builder/tool-for-embedding-custom-skins-into-an-assembly.aspx)
 
@@ -113,7 +100,7 @@ For more information about registering custom embedded skins, please refer to th
 
 
 
-* If you need to register a common skin for all Telerik controls in your website or web application, add the following lines in the __web.config__ file:
+* If you need to register a common skin for all Telerik controls in your website or web application, add the following lines in the **web.config** file:
 
 ````XML
 	<appSettings>
@@ -124,7 +111,7 @@ For more information about registering custom embedded skins, please refer to th
 
 
 
-Just change __Silk__ to the name of the desired skin.
+Just change **Silk** to the name of the desired skin.
 
 
 
@@ -139,7 +126,7 @@ Just change __Silk__ to the name of the desired skin.
 
 
 
-Just change __Menu__ to the name of the control you want - TreeView, ComboBox, Upload, etc. and __Glow__ to the skin name you want.
+Just change **Menu** to the name of the control you want - TreeView, ComboBox, Upload, etc. and **Glow** to the skin name you want.
 
 
 

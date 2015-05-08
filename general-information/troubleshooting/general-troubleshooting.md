@@ -50,46 +50,44 @@ Here is a list with the main sections:
 
 *Problem:*
 
-__Error message "'Telerik' is undefined" when running a website on IIS 7+ Integrated mode.__
+**Error message "'Telerik' is undefined" when running a website on IIS 7+ Integrated mode.**
 
 *Suggested Solution:*
 
-When in integrated mode, IIS7 reads the application configuration from the __<system.webServer>__ section group in the application configuration file, but not the __<system.web>__ section group. Since Visual Studio 2005 does not provide "native" support for IIS7, the __RadScriptManager__ registration cannot be automatically added to the __system.webServer__.
+When in integrated mode, IIS7 reads the application configuration from the **<system.webServer>** section group in the application configuration file, but not the **<system.web>** section group. Since Visual Studio 2005 does not provide "native" support for IIS7, the **RadScriptManager** registration cannot be automatically added to the **system.webServer**.
 
-To solve the problem you should manually add the __HttpHandler registration__ to the __system.webServer__ section group. There are two cases:
+To solve the problem you should manually add the **HttpHandler registration** to the **system.webServer** section group. There are two cases:
 
-* Telerik.Web.UI.dll is in the __GAC__:
+* Telerik.Web.UI.dll is in the **GAC**:
 
 ````XML
-	<system.webServer>
+<system.webServer>
+…
+	<handlers>
 	…
-		<handlers>
-		…
-			<add name="Telerik.Web.UI.WebResource"  path="Telerik.Web.UI.WebResource.axd" verb="*" type="Telerik.Web.UI.WebResource, Telerik.Web.UI, Version=[ASSEMBLY_VERSION], Culture=neutral, PublicKeyToken=121fae78165ba3d4" />
-		…
-		</handlers>
-	</system.webServer> 
+		<add name="Telerik.Web.UI.WebResource"  path="Telerik.Web.UI.WebResource.axd" verb="*" type="Telerik.Web.UI.WebResource, Telerik.Web.UI, Version=[ASSEMBLY_VERSION], Culture=neutral, PublicKeyToken=121fae78165ba3d4" />
+	…
+	</handlers>
+</system.webServer> 
 ````
 
 
-
->caution You need to replace [ __ASSEMBLY_VERSION__ ] with the exact version of your DLL.
+>caution You need to replace [ **ASSEMBLY_VERSION** ] with the exact version of your DLL.
 >
 
 
-* Telerik.Web.UI.dll is __not in the GAC__:
+* Telerik.Web.UI.dll is **not in the GAC**:
 
 ````XML
-	<system.webServer>
+<system.webServer>
+…
+	<handlers>
 	…
-		<handlers>
-		…
-			<add name="Telerik.Web.UI.WebResource"  path="Telerik.Web.UI.WebResource.axd" verb="*" type="Telerik.Web.UI.WebResource, Telerik.Web.UI" />
-		…
-		</handlers>
-	</system.webServer> 
+		<add name="Telerik.Web.UI.WebResource"  path="Telerik.Web.UI.WebResource.axd" verb="*" type="Telerik.Web.UI.WebResource, Telerik.Web.UI" />
+	…
+	</handlers>
+</system.webServer> 
 ````
-
 
 
 Additional information is available in this blog post: [Web Resources demystified](http://blogs.telerik.com/aspnet-ajax/posts/08-07-18/web-resources-demystified-part-3-troubleshooting.aspx).
@@ -98,45 +96,44 @@ Additional information is available in this blog post: [Web Resources demystifie
 
 *Problem:*
 
-__Error message, "The type 'System.Web.UI.IScriptControl' is defined in an assembly that is not referenced. You must add a reference to assembly 'System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'"__
+**Error message, "The type 'System.Web.UI.IScriptControl' is defined in an assembly that is not referenced. You must add a reference to assembly 'System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'"**
 
 *Suggested Solution:*
 
-This error occurs when you have added a control from Telerik UI for ASP.NET AJAX but your application is not configured to use ASP.NET AJAX. To fix it, you need to follow the steps described at [http://www.asp.net/ajax/documentation/live/ConfiguringASPNETAJAX.aspx](http://www.asp.net/ajax/documentation/live/ConfiguringASPNETAJAX.aspx) (read the topic called __Adding ASP.NET AJAX Configuration Elements to an Existing Web Site__).
+This error occurs when you have added a control from Telerik UI for ASP.NET AJAX but your application is not configured to use ASP.NET AJAX. To fix it, you need to follow the steps described at [http://www.asp.net/ajax/documentation/live/ConfiguringASPNETAJAX.aspx](http://www.asp.net/ajax/documentation/live/ConfiguringASPNETAJAX.aspx) (read the topic called **Adding ASP.NET AJAX Configuration Elements to an Existing Web Site**).
 
 ## Error message, "The control with ID '[ControlID]' requires a ScriptManager on the page. The ScriptManager must appear before any controls that need it."
 
 *Problem:*
 
-__Error message, "The control with ID '[ControlID]' requires a ScriptManager on the page. The ScriptManager must appear before any controls that need it."__
+**Error message, "The control with ID '[ControlID]' requires a ScriptManager on the page. The ScriptManager must appear before any controls that need it."**
 
 *Suggested Solution:*
 
-This error occurs when you have added a control from Telerik UI for ASP.NET AJAX to a page that does not contain a __ScriptManager__ control. To resolve this error, please add a __ScriptManager__ control to your page:
+This error occurs when you have added a control from Telerik UI for ASP.NET AJAX to a page that does not contain a **ScriptManager** control. To resolve this error, please add a **ScriptManager** control to your page:
 
-````ASPNET
-	<asp:ScriptManager ID="ScriptManager1" runat="server" /> 
+````ASP.NET
+<asp:ScriptManager ID="ScriptManager1" runat="server" /> 
 ````
 
 
-
-If you are using master pages, you can add the __ScriptManager__ control there. The __ScriptManager__ control must precede all controls from the Telerik UI for ASP.NET AJAX suite. For further details about the __ScriptManager__ control, you can read this article [http://msdn.microsoft.com/en-us/library/bb398863(v=vs.100).aspx](http://msdn.microsoft.com/en-us/library/bb398863(v=vs.100).aspx).
+If you are using master pages, you can add the **ScriptManager** control there. The **ScriptManager** control must precede all controls from the Telerik UI for ASP.NET AJAX suite. For further details about the **ScriptManager** control, you can read this article [http://msdn.microsoft.com/en-us/library/bb398863(v=vs.100).aspx](http://msdn.microsoft.com/en-us/library/bb398863(v=vs.100).aspx).
 
 ## Error message, "Microsoft JScript runtime error: 'Sys' is undefined"
 
 *Problem:*
 
-__Error message, "Microsoft JScript runtime error: 'Sys' is undefined"__
+**Error message, "Microsoft JScript runtime error: 'Sys' is undefined"**
 
 *Suggested Solution:*
 
-This error occurs when you have added a control from Telerik UI for ASP.NET AJAX but your application is not configured to use ASP.NET AJAX. To fix it, you need to follow the steps described at [http://www.asp.net/ajax/documentation/live/ConfiguringASPNETAJAX.aspx](http://www.asp.net/ajax/documentation/live/ConfiguringASPNETAJAX.aspx) (read the topic called __Adding ASP.NET AJAX Configuration Elements to an Existing Web Site__).
+This error occurs when you have added a control from Telerik UI for ASP.NET AJAX but your application is not configured to use ASP.NET AJAX. To fix it, you need to follow the steps described at [http://www.asp.net/ajax/documentation/live/ConfiguringASPNETAJAX.aspx](http://www.asp.net/ajax/documentation/live/ConfiguringASPNETAJAX.aspx) (read the topic called **Adding ASP.NET AJAX Configuration Elements to an Existing Web Site**).
 
 ## Error message, "The Controls collection cannot be modified because the control contains code blocks"
 
 *Problem:*
 
-__Error message, "The Controls collection cannot be modified because the control contains code blocks".__
+**Error message, "The Controls collection cannot be modified because the control contains code blocks".**
 
 *Suggested Solution:*
 
@@ -144,45 +141,43 @@ If you receive exceptions such as "System.Web.HttpException: The Controls collec
 
 Incorrect:
 
-````ASPNET
-	<head id="Head1" runat="server">
-	  <script type="text/javascript">
-	  var grid = $find('<%= RadGrid1.ClientID %>');
-	  ...
-	  </script>
-	</head>
-	<body>
-	...
-	</body> 
+````ASP.NET
+<head id="Head1" runat="server">
+  <script type="text/javascript">
+  var grid = $find('<%= RadGrid1.ClientID %>');
+  ...
+  </script>
+</head>
+<body>
+...
+</body> 
 ````
-
-
 
 Correct:
 
-````ASPNET
-	<head id="Head2" runat="server">
-	<telerik:RadCodeBlock id="RadCodeBlock1" runat="server">
-	   <script type="text/javascript">
-	       var grid = $find('<%= RadGrid1.ClientID %>');
-	       ...
-	   </script>
-	</telerik:RadCodeBlock>
-	</head>
-	<body>
-	...
-	</body>
-	or
-	<head id="Head3" runat="server">
-	</head>
-	<body>
-	   <telerik:RadCodeBlock id="RadCodeBlock1" runat="server">
-	   <script type="text/javascript">
-	       var grid = $find('<%= RadGrid1.ClientID %>');
-	       ...
-	   </script>
-	   </telerik:RadCodeBlock>
-	</body>   
+````ASP.NET
+<head id="Head2" runat="server">
+<telerik:RadCodeBlock id="RadCodeBlock1" runat="server">
+   <script type="text/javascript">
+       var grid = $find('<%= RadGrid1.ClientID %>');
+       ...
+   </script>
+</telerik:RadCodeBlock>
+</head>
+<body>
+...
+</body>
+or
+<head id="Head3" runat="server">
+</head>
+<body>
+   <telerik:RadCodeBlock id="RadCodeBlock1" runat="server">
+   <script type="text/javascript">
+       var grid = $find('<%= RadGrid1.ClientID %>');
+       ...
+   </script>
+   </telerik:RadCodeBlock>
+</body>   
 ````
 
 
@@ -191,50 +186,50 @@ Correct:
 
 *Problem:*
 
-__Telerik control stylesheet is not registered after an AJAX request (inside MS UpdatePanel) when the control is not initially visible on the page__
+**Telerik control stylesheet is not registered after an AJAX request (inside MS UpdatePanel) when the control is not initially visible on the page**
 
 *Suggested Solution:*
 
 If the control is initially invisible and is shown after an ASP.NET AJAX update, you should manually register all the required CSS files in the head tag of your page. Otherwise, the control will not be displayed correctly. The easiest way to do this is through a LINK element:
 
-	<link href="<my_path_to_stylesheet>" rel="stylesheet" runat="server" > 
+	`<link href="<my_path_to_stylesheet>" rel="stylesheet" runat="server" >` 
 
 
 
-Alternatively, replace the MS UpdatePanel with __RadAjaxPanel__ or ajaxify the control via __RadAjaxManager__. Thus the stylesheet should be applied properly after an AJAX request even if the __Telerik control__ is initially invisible.
+Alternatively, replace the MS UpdatePanel with **RadAjaxPanel** or ajaxify the control via **RadAjaxManager**. Thus the stylesheet should be applied properly after an AJAX request even if the **Telerik control** is initially invisible.
 
 ## Using the Telerik controls with RadScriptManager on your login page throws an error
 
 *Problem:*
 
-__Using the Telerik controls with RadScriptManager on your login page throws one of the following errors:__
+**Using the Telerik controls with RadScriptManager on your login page throws one of the following errors:**
 
-* __ASP.NET Ajax client-side framework failed to load__
+* **ASP.NET Ajax client-side framework failed to load**
 
-* __'Sys' is undefined__
+* **'Sys' is undefined**
 
-* __"Telerik.Web.UI" is undefined__
+* **"Telerik.Web.UI" is undefined**
 
 *Cause:*
 
-As the website denies access to all pages to unauthorized users, access to the __Telerik.Web.UI.WebResource.axd__ handler is unauthorized. This causes the handler to serve the content of the login page instead of the combined scripts, hence the error.
+As the website denies access to all pages to unauthorized users, access to the **Telerik.Web.UI.WebResource.axd** handler is unauthorized. This causes the handler to serve the content of the login page instead of the combined scripts, hence the error.
 
 *Suggested Solution:*
 
-Add a __<location>__ section to the application configuration file to allow access to __Telerik.Web.UI.WebResource.axd__ to all users, like:
+Add a **`<location>`** section to the application configuration file to allow access to **Telerik.Web.UI.WebResource.axd** to all users, like:
 
 ````XML
-	<configuration>
-	...
-	<location path="Telerik.Web.UI.WebResource.axd">
-	   <system.web>
-	     <authorization>
-	       <allow users="*"/>
-	     </authorization>
-	   </system.web>
-	 </location>
-	...
-	</configuration> 
+<configuration>
+...
+<location path="Telerik.Web.UI.WebResource.axd">
+   <system.web>
+     <authorization>
+       <allow users="*"/>
+     </authorization>
+   </system.web>
+ </location>
+...
+</configuration> 
 ````
 
 
@@ -243,13 +238,13 @@ Add a __<location>__ section to the application configuration file to allow acce
 
 *Problem:*
 
-__Design-Time error on a page using Telerik controls:__
+**Design-Time error on a page using Telerik controls:**
 
-__Error Creating Control -____'Property'__
+**Error Creating Control -** **'Property'**
 
 *Cause:*
 
-If the __Telerik.Web.UI.dll__ assembly is updated while a page using __Telerik controls__ is in Design-time, VisualStudio creates two different versions of the assembly; hence two different versions of the same __Telerik controls__ are available.
+If the **Telerik.Web.UI.dll** assembly is updated while a page using **Telerik controls** is in Design-time, VisualStudio creates two different versions of the assembly; hence two different versions of the same **Telerik controls** are available.
 
 *Suggested Solution:*
 
@@ -259,9 +254,9 @@ Restart Visual Studio.
 
 *Problem:*
 
-When you drag a __Telerik control__ from the Toolbox to the design surface, you get this error message:
+When you drag a **Telerik control** from the Toolbox to the design surface, you get this error message:
 
-__Error creating control. Unable to cast object of type 'Telerik.Web.UI.Radxxx' to type 'Telerik.Web.UI.ControlItemContainer"__
+**Error creating control. Unable to cast object of type 'Telerik.Web.UI.Radxxx' to type 'Telerik.Web.UI.ControlItemContainer"**
 
 *Suggested Solution:*
 
@@ -269,11 +264,11 @@ Please check the following links for different solution options: [link 1](http:/
 
 *Problem:*
 
-__Design-time error on a page using Telerik controls after upgrading to Q1 2009__
+**Design-time error on a page using Telerik controls after upgrading to Q1 2009**
 
-__Error creating control -__
+**Error creating control -**
 
-__Failed to create designer "Telerik.Web.UI.ControlName..."__
+**Failed to create designer "Telerik.Web.UI.ControlName..."**
 
 *Cause:*
 
@@ -299,7 +294,7 @@ Visual Studio 2008 has a problem with loading GAC-ed design-time assemblies of c
 
 * Restart Visual Studio
 
-1. Copy __Telerik.Web.UI.dll__ to __C:\Program Files\Microsoft Visual Studio 9.0\Common7\IDE\PublicAssemblies__ and restart Visual Studio.
+1. Copy **Telerik.Web.UI.dll** to **C:\Program Files\Microsoft Visual Studio 9.0\Common7\IDE\PublicAssemblies** and restart Visual Studio.
 
 
 
@@ -309,7 +304,7 @@ You can find more issues and solutions steps in the [Design-time Troubleshooting
 
 *Problem:*
 
-__System.IO.FileLoadException: Could not load file or assembly 'Telerik.Web.UI, Version=xxxx.x.xxx.xx, Culture=neutral, PublicKeyToken=xxxxxxxxxxxxxxxx' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)__
+**System.IO.FileLoadException: Could not load file or assembly 'Telerik.Web.UI, Version=xxxx.x.xxx.xx, Culture=neutral, PublicKeyToken=xxxxxxxxxxxxxxxx' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)**
 
 *Cause:*
 
@@ -323,22 +318,22 @@ Update the reference in the web.config to match the version of the deployed asse
 
 *Problem:*
 
-__Telerik controls do not work if a Compression Module is used in the project/web site.__
+**Telerik controls do not work if a Compression Module is used in the project/web site.**
 
 *Cause:*
 
-Double compression of web resources: Web resources requested by the __Telerik controls__ are compressed twice: once by the Script/RadScript/RadStyleSheet- Manager and once by the Compression Module.
+Double compression of web resources: Web resources requested by the **Telerik controls** are compressed twice: once by the Script/RadScript/RadStyleSheet- Manager and once by the Compression Module.
 
 *Suggested Solution:*
 
-Skip compression for the requested resource in the Compression Module. If the __OutputCompression__ property of RadScriptManager/RadStyleSheetManager is set to __Disabled__, you can configure the Compression Module to compress __Telerik.Web.UI.WebResource.axd__.
+Skip compression for the requested resource in the Compression Module. If the **OutputCompression** property of RadScriptManager/RadStyleSheetManager is set to **Disabled**, you can configure the Compression Module to compress **Telerik.Web.UI.WebResource.axd**.
 
 
 
 
 >caption  
 
-|  __Control__  |  __Requested Resources__  |
+|  **Control**  |  **Requested Resources**  |
 | ------ | ------ |
 |ScriptManager|WebResource.axdScriptResource.axd|
 |RadScriptManager|Telerik.Web.UI.WebResource.axd|
@@ -348,27 +343,27 @@ Skip compression for the requested resource in the Compression Module. If the __
 
 *Problem:*
 
-__Security Exception__
+**Security Exception**
 
-__Description:__The application attempted to perform an operation not allowed by the security policy. To grant this application the required permission, please contact your system administrator or change the application's trust level in the configuration file. __Exception Details:__System.Security.SecurityException:Request for the permission of type 'System.Web.AspNetHostingPermission,...
+**Description:** The application attempted to perform an operation not allowed by the security policy. To grant this application the required permission, please contact your system administrator or change the application's trust level in the configuration file. **Exception Details:** *System.Security.SecurityException:Request for the permission of type 'System.Web.AspNetHostingPermission,...*
 
 *Cause:*
 
-Microsoft changed the default setting of the __Load User Profile__ setting of the application pools in Windows 7 and Windows 2008 (previously the setting was __True__, in IIS7.5 it is __False__).
+Microsoft changed the default setting of the **Load User Profile** setting of the application pools in Windows 7 and Windows 2008 (previously the setting was **True**, in IIS7.5 it is **False**).
 
 *Suggested Solution:*
 
-Open the __Advanced Settings__ of the Application Pool and set the __Load User Profile__ property to __True__.
+Open the **Advanced Settings** of the Application Pool and set the **Load User Profile** property to **True**.
 
 ## Setting ClientIDMode property to Static breaks the Telerik controls functionality
 
 *Problem:*
 
-__Setting ClientIDMode property to Static breaks the Telerik controls functionality__
+**Setting ClientIDMode property to Static breaks the Telerik controls functionality**
 
 *Suggested Solution:*
 
-Please note that using __ClientIDMode=Static__ mode __for Telerik AJAX controls is not supported__. You should use __AutoID__ mode for the Telerik controls on the page especially when they are performing AJAX requests. Microsoft recommends using __ClientIDMode="Static"__ only for static controls. The Telerik controls, on the other hand, are controls with complex hierarchies of child controls and templates so setting their ClientID mode to static will break their functionality.
+Please note that using **ClientIDMode=Static** mode **for Telerik AJAX controls is not supported**. You should use **AutoID** mode for the Telerik controls on the page especially when they are performing AJAX requests. Microsoft recommends using **ClientIDMode="Static"** only for static controls. The Telerik controls, on the other hand, are controls with complex hierarchies of child controls and templates so setting their ClientID mode to static will break their functionality.
 
 ## Telerik controls are incompatible with Ajax Control Toolkit
 
@@ -378,15 +373,15 @@ The AJAX Toolkit Team announced that standard script manager can no longer be us
 
 [http://ajaxcontroltoolkit.codeplex.com/releases/view/112805](http://ajaxcontroltoolkit.codeplex.com/releases/view/112805)
 
-Since the __RadScriptManager__ is based on the standard asp:ScriptManager, this change makes it not compatible, too. Therefore, to use both of the Telerik UI and AJAX Toolkit control bundles simultaneously within the same project, you have to use the __ToolkitScriptManager__.
+Since the **RadScriptManager** is based on the standard asp:ScriptManager, this change makes it not compatible, too. Therefore, to use both of the Telerik UI and AJAX Toolkit control bundles simultaneously within the same project, you have to use the **ToolkitScriptManager**.
 
-Upon using the toolkit manager, you can come across an error when using an UpdatePanel. We’ve found out that this is due to the __ToolkitScriptManager__ having a bug with script combining. The bug is fixed one day after the release:
+Upon using the toolkit manager, you can come across an error when using an UpdatePanel. We’ve found out that this is due to the **ToolkitScriptManager** having a bug with script combining. The bug is fixed one day after the release:
 
 [http://ajaxcontroltoolkit.codeplex.com/workitem/27517](http://ajaxcontroltoolkit.codeplex.com/workitem/27517)
 
 [http://ajaxcontroltoolkit.codeplex.com/releases/view/116091](http://ajaxcontroltoolkit.codeplex.com/releases/view/116091)
 
-The problem can be reproduced in release mode when scripts are combined and after an AJAX request. The temporary workaround is to set the __CombineScripts__ property in the __ToolkitScriptManager__ tag to __false__. The issue is not reproducible into debug mode, because the script combining logic works only in release mode.
+The problem can be reproduced in release mode when scripts are combined and after an AJAX request. The temporary workaround is to set the **CombineScripts** property in the **ToolkitScriptManager** tag to **false**. The issue is not reproducible into debug mode, because the script combining logic works only in release mode.
 
 You can find additional information about the Telerik controls and AJAX Control Toolkit history in the following article:
 
@@ -394,9 +389,9 @@ You can find additional information about the Telerik controls and AJAX Control 
 
 ## Telerik controls integration with Kendo UI widgets
 
-There are certain Telerik controls like RadHtmlChart, RadGauge, RadDiagram, RadMap, RadGannt, RadTreeMap, RadClientDataSource, RadClientExportManagerwhich are ASP.NET server-side wrappers of Kendo UI widgets. These controls already load jQuery and Kendo UI widget specific JavaScript files, soyou must ensure there aren't any script conflicts by using the same jQuery and Kendo UI versions for both suites. More information is available in the[RadHtmlChart Integration With KendoUI Widgets](80f05187-cf53-4f47-abb2-5d654024f064) help article.
+There are certain Telerik controls like RadHtmlChart, RadGauge, RadDiagram, RadMap, RadGannt, RadTreeMap, RadClientDataSource, RadClientExportManagerwhich are ASP.NET server-side wrappers of Kendo UI widgets. These controls already load jQuery and Kendo UI widget specific JavaScript files, soyou must ensure there aren't any script conflicts by using the same jQuery and Kendo UI versions for both suites. More information is available in the [RadHtmlChart Integration With KendoUI Widgets](80f05187-cf53-4f47-abb2-5d654024f064) help article.
 
-# See Also
+### See Also
 
  * [Design-time Troubleshooting]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/troubleshooting/design-time-troubleshooting%})
 

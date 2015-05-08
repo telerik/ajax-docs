@@ -20,33 +20,29 @@ position: 1
 >
 
 
-The __Telerik UI For ASP.NET AJAX__ offer intellisense information for the __code-behind__ out of the box as Visual Studio automatically loads the needed information from our assembly. It can display it without any futher configuration, because the type of the variables is known.
+The **Telerik UI For ASP.NET AJAX** offer intellisense information for the **code-behind** out of the box as Visual Studio automatically loads the needed information from our assembly. It can display it without any further configuration, because the type of the variables is known.
 
-The case with __JavaScript__ is a bit more complex, because it is a weakly typed programming language, i.e. a variable does not need a type to function and thus Visual Studio cannot know what information to load for it.
+The case with **JavaScript** is a bit more complex, because it is a weakly typed programming language, i.e. a variable does not need a type to function and thus Visual Studio cannot know what information to load for it.
 
-You can overcome this difficulty by casting the objects which hold references to the __Telerik controls__ to their respective type by using the method each control provides in the [Telerik static client library](71D00FDE-F1BE-4854-AEBC-6CE83DEEE95C), for example:
+You can overcome this difficulty by casting the objects which hold references to the **Telerik controls** to their respective type by using the method each control provides in the [Telerik static client library](71D00FDE-F1BE-4854-AEBC-6CE83DEEE95C), for example:
 
 ````JavaScript
-	    <telerik:RadScriptManager runat="server" ID="rsm1"></telerik:RadScriptManager>
-	    <telerik:RadWindow runat="server" ID="RadWindow1"></telerik:RadWindow>
-	    <script type="text/javascript">
-	        var oWnd = $find("RadWindow1");
-	        oWnd = $telerik.toWindow(oWnd);
-	    </script>
+<telerik:RadScriptManager runat="server" ID="rsm1"></telerik:RadScriptManager>
+<telerik:RadWindow runat="server" ID="RadWindow1"></telerik:RadWindow>
+<script type="text/javascript">
+    var oWnd = $find("RadWindow1");
+    oWnd = $telerik.toWindow(oWnd);
+</script>
 ````
 
-
-
-A similar approach allows Visual Studio to show the intellisense for this variable:![introduction-javascript-intellisnse-demo](images/introduction-javascript-intellisnse-demo.png)
+A similar approach allows Visual Studio to show the intellisense for this variable:
+![introduction-javascript-intellisnse-demo](images/introduction-javascript-intellisnse-demo.png)
 
 >tip This cast is not needed for production environment, it is useful for development and would not yield any benefit when the site is live - it will work just as well without it, it is actually an extra operation.
 >
 
-
->note If you are using Visual Studio 2008, you will need to install its Service Pack 1 to get support for`-vsdoc.js`files that contain the JavaScript intellisence. You can find mode information on the matter in the[VS2008 SP1 Hotfix to Support "-vsdoc.js" IntelliSense Doc Files](http://blogs.msdn.com/b/webdev/archive/2008/11/07/hotfix-to-enable-vsdoc-js-intellisense-doc-files-is-now-available.aspx)blog post.
+>note If you are using Visual Studio 2008, you will need to install its Service Pack 1 to get support for `-vsdoc.js`files that contain the JavaScript intellisence. You can find mode information on the matter in the [VS2008 SP1 Hotfix to Support "-vsdoc.js" IntelliSense Doc Files](http://blogs.msdn.com/b/webdev/archive/2008/11/07/hotfix-to-enable-vsdoc-js-intellisense-doc-files-is-now-available.aspx) blog post.
 >
-
-
 
 >caption A list with the available methods
 
@@ -108,5 +104,3 @@ A similar approach allows Visual Studio to show the intellisense for this variab
 |$telerik.toWindow(object)|Casts the passed object to a RadWindow|
 |$telerik.toWindowManager(object)|Casts the passed object to a RadWindowManager|
 |$telerik.toXmlHttpPanel(object)|Casts the passed object to a RadXmlHttpPanel|
-
-# See Also[Telerik static client library](71D00FDE-F1BE-4854-AEBC-6CE83DEEE95C)

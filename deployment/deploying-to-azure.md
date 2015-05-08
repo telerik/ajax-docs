@@ -24,7 +24,7 @@ Deploying a project that uses the Telerik UI for ASP.NET AJAX to Windows Azure i
 
 ## Common Issues
 
-__WebResource requests are not returned, which results in missing CSS files and/or scripts.__
+**WebResource requests are not returned, which results in missing CSS files and/or scripts.**
 
 This can often seem like an intermittent problem - i.e. after some deployment attempts the Telerik controls will work, after some - they will not.
 

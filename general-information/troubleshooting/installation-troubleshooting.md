@@ -26,7 +26,7 @@ This article lists common installation problems and their solutions. You can go 
 
 *Problem:*
 
-__Error message "This installation package could not be opened. Contact the Application vendor to verify that this is a valid windows installer package"__
+**Error message "This installation package could not be opened. Contact the Application vendor to verify that this is a valid windows installer package"**
 
 *Reason:*
 
@@ -44,7 +44,7 @@ Log in to your Telerik account and download the Telerik UI for ASP.NET AJAX inst
 
 *Problem:*
 
-__"Installation Error" screen during the installation.__
+**"Installation Error" screen during the installation.**
 
 *Reason:*
 
@@ -84,7 +84,7 @@ Please, check the [Troubleshooting]({%slug introduction/radcontrols-for-asp.net-
 
 *Problem:*
 
-__Error message: "A Network Error Occurred While Attempting to Read from the File"__
+**Error message: "A Network Error Occurred While Attempting to Read from the File"**
 
 *Reason:*
 
@@ -92,9 +92,9 @@ Attempt to modify or repair through an installation file with name different fro
 
 * Example Scenario:
 
-* __Telerik.Web.UI_2011_1_215_Dev (1).msi__ is installed;
+* **Telerik.Web.UI_2011_1_215_Dev (1).msi** is installed;
 
-* A repair or modify on the installation is initiated from __Telerik.Web.UI_2011_1_215_Dev.msi__;
+* A repair or modify on the installation is initiated from **Telerik.Web.UI_2011_1_215_Dev.msi**;
 
 * The wizard fails and the error message is shown.
 
@@ -102,7 +102,7 @@ Attempt to modify or repair through an installation file with name different fro
 
 Reinstall the product using the correct installation package
 
-* Open __Add or Remove Programs__ from *Control Panel;*
+* Open **Add or Remove Programs** from *Control Panel;*
 
 * Remove product installed by *Telerik.Web.UI_2011_1_215_Dev (1).msi*;
 
@@ -112,7 +112,7 @@ Reinstall the product using the correct installation package
 
 *Problem:*
 
-__Error message: "There is a problem with this Windows Installer package. A program required for this install to complete could not be run. Contact your support personnel or package vendor."__
+**Error message: "There is a problem with this Windows Installer package. A program required for this install to complete could not be run. Contact your support personnel or package vendor."**
 
 *Reason:*
 
@@ -136,15 +136,15 @@ Resetting the Visual Studio 2010 help system:
 
 1. Open C:\Program Files\Microsoft Help Viewer\v1.0\HelpLibManager.exe.config
 
-1. Set the __FirstTimeRun__ value to __True__
+1. Set the **FirstTimeRun** value to **True**
 
-1. Open the "Help Library Manager" tool (__Visual Studio main menu -> Help -> Manage Help Settings__)
+1. Open the "Help Library Manager" tool (**Visual Studio main menu -> Help -> Manage Help Settings**)
 
-1. Select __Choose online or local help__
+1. Select **Choose online or local help**
 
-1. Select __I want to use local help__
+1. Select **I want to use local help**
 
-1. Try viewing the VS 2010 Help (__Visual Studio main menu -> Help -> View Help__)
+1. Try viewing the VS 2010 Help (**Visual Studio main menu -> Help -> View Help**)
 
 *Suggested solution 2:*
 

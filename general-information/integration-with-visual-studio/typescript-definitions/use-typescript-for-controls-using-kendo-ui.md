@@ -12,23 +12,23 @@ position: 4
 
 
 
-This article explains how to use the __Kendo TypeScript definitions__	with controls from the UI for ASP.NET AJAX suite that use __Kendo UI__ widgets.
+This article explains how to use the **Kendo TypeScript definitions**	with controls from the UI for ASP.NET AJAX suite that use **Kendo UI** widgets.
 
 ## Getting a Reference to the Client-side Object of Kendo Widgets
 
-By design, every control from the UI for ASP.NE T AJAX suite thatintegrates a __Kendo__ widget, exposes the client-side __get_kendoWidget__ method,which returns a reference to the widget object.
+By design, every control from the UI for ASP.NE T AJAX suite that integrates a **Kendo** widget, exposes the client-side **get_kendoWidget** method,which returns a reference to the widget object.
 
->note Exception to that rule is[RadClientDataSource](1ef67ca5-56c3-42a5-acd9-d4add74507c7)in versions prior to __Q2 2015__ .	In older version it exposes the __get_dataSourceObject__ method to return the reference to the __Kendo__ DataSource object.
+>note Exception to that rule is [RadClientDataSource](1ef67ca5-56c3-42a5-acd9-d4add74507c7)in versions prior to **Q2 2015** .	In older version it exposes the **get_dataSourceObject** method to return the reference to the **Kendo** DataSource object.
 >
 
 
 ## How to use Intellisense
 
-The __get_kendoWidget__ method returns an object of type *`Object`*.In order to have the __Kendo__ intellisense, you should cast it to the proper type.
+The **get_kendoWidget** method returns an object of type *`Object`*.In order to have the **Kendo** intellisense, you should cast it to the proper type.
 
 ````JavaScript
-					var sparklineChart = <Telerik.Web.UI.RadHtmlChart>$find("SparklineChart");
-					var kendoSparkline = <kendo.dataviz.ui.Sparkline>sparklineChart.get_kendoWidget();
+var sparklineChart = <Telerik.Web.UI.RadHtmlChart>$find("SparklineChart");
+var kendoSparkline = <kendo.dataviz.ui.Sparkline>sparklineChart.get_kendoWidget();
 ````
 
 
@@ -36,9 +36,9 @@ The __get_kendoWidget__ method returns an object of type *`Object`*.In order to 
 
 ![typescript-using-kendo-intellisense](images/typescript-using-kendo-intellisense.png)
 
-Once the type casting is done, you can utilize anyavailable client-side method exposed by the __Kendo__ widget.You can find more details about the widgets’ API in the [Kendo API reference](http://docs.telerik.com/kendo-ui/introduction).
+Once the type casting is done, you can utilize any available client-side method exposed by the **Kendo** widget.You can find more details about the widgets’ API in the [Kendo API reference](http://docs.telerik.com/kendo-ui/introduction).
 
-# See Also
+### See Also
 
  * [Add TypeScript Definitions for Controls Using Kendo UI]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/typescript-definitions/add-typescript-definitions-for-controls-using-kendo-ui%})
 
