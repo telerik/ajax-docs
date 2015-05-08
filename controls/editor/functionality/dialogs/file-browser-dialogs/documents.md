@@ -10,10 +10,6 @@ position: 2
 
 # Documents
 
-
-
-## 
-
 Functionality:
 
 Using the Document Manager dialog, RadEditor users can:
@@ -29,8 +25,6 @@ Properties to set:
 The behavior of the Document Manager dialog is controlled by the following properties:
 
 
->caption  
-
 |  **Property**  |  **Description**  |
 | ------ | ------ |
 | **ViewPaths** |A string array which contains the paths where the RadEditor will look for documents. The default value is an empty array. These folders will be visible in the file browser part of the dialog.|
@@ -41,50 +35,46 @@ The behavior of the Document Manager dialog is controlled by the following prope
 
 In order for a folder to be visible in the file browser, it must be present in the ViewPaths array. The users will be able to browse its subfolders since they inherit the permissions. If it is needed to grant permission for deleting or uploading documents into a specific folder, it must be present in the corresponding array - DeletePaths or UploadPaths. These permissions are also inherited by the subfolders.The application root folder can be substituted with the "~" (tilde) character. It is possible to use paths relative to the root. For example, in order to access Document files located in another web application.
 
-Example:
+**Example 1** and **Example 2** demonstrate the relationship between the folder structure and the property settings:
 
-The example below demonstrates the relationship between the folder structure and the property settings:
+The users will be able to browse all subfolders of the "~/Documents" folder. They will be able to upload documents to the "~/Documents/New" folder and all its subfolders and delete documents from "~/Documents/New/Articles" and "~/Documents/New/News".
 
-The users will be able to browse all subfolders of the "~/Documents" folder. They will be able to upload documents to the "~/Documents/New" folder and all its subfolders and delete documents from "~/Documents/New/Articles" and "~/Documents/New/News".**Setting Document manager properties inline:**
+>caption Example 1: Setting Document manager properties inline.
 
-````XML
-	    <telerik:RadEditor runat="server" ID="RadEditor1">
-	        <DocumentManager ViewPaths="~/Documents" UploadPaths="~/Documents/New" DeletePaths="~/Documents/New/Articles,~/Documents/New/News" />
-	    </telerik:RadEditor>
+````ASP.NET
+<telerik:RadEditor runat="server" ID="RadEditor1">
+	<DocumentManager ViewPaths="~/Documents" UploadPaths="~/Documents/New" DeletePaths="~/Documents/New/Articles,~/Documents/New/News" />
+</telerik:RadEditor>
 ````
 
 
 
-**Setting the DocumentManager properties in CodeBehind:**
+>caption Example 2: Setting Document manager properties in CodeBehind.
 
 
 
 ````C#
-	
-	        string[] viewDocuments = new string[] { "~/Documents" }; 
-	        string[] uploadDocuments = new string[] { "~/Documents/New" }; 
-	        string[] deleteDocuments = new string[] { "~/Documents/New/Articles", "~/Documents/New/News" }; 
-	        
-	        if (!IsPostBack) 
-	        { 
-	            RadEditor1.DocumentManager.ViewPaths = viewDocuments; 
-	            RadEditor1.DocumentManager.UploadPaths = uploadDocuments; 
-	            RadEditor1.DocumentManager.DeletePaths = deleteDocuments; 
-	        }
-	
+string[] viewDocuments = new string[] { "~/Documents" }; 
+string[] uploadDocuments = new string[] { "~/Documents/New" }; 
+string[] deleteDocuments = new string[] { "~/Documents/New/Articles", "~/Documents/New/News" }; 
+
+if (!IsPostBack) 
+{ 
+	RadEditor1.DocumentManager.ViewPaths = viewDocuments; 
+	RadEditor1.DocumentManager.UploadPaths = uploadDocuments; 
+	RadEditor1.DocumentManager.DeletePaths = deleteDocuments; 
+}
 ````
 ````VB
-	
-	        Dim viewDocuments As String() = New String() {"~/Documents"}
-	        Dim uploadDocuments As String() = New String() {"~/Documents/New"}
-	        Dim deleteDocuments As String() = New String() {"~/Documents/New/Articles", "~/Documents/New/News"}
-	
-	        If Not IsPostBack Then
-	            RadEditor1.DocumentManager.ViewPaths = viewDocuments
-	            RadEditor1.DocumentManager.UploadPaths = uploadDocuments
-	            RadEditor1.DocumentsManager.DeletePaths = deleteDocuments
-	        End If
-	
+Dim viewDocuments As String() = New String() {"~/Documents"}
+Dim uploadDocuments As String() = New String() {"~/Documents/New"}
+Dim deleteDocuments As String() = New String() {"~/Documents/New/Articles", "~/Documents/New/News"}
+
+If Not IsPostBack Then
+	RadEditor1.DocumentManager.ViewPaths = viewDocuments
+	RadEditor1.DocumentManager.UploadPaths = uploadDocuments
+	RadEditor1.DocumentsManager.DeletePaths = deleteDocuments
+End If
 ````
 
 
@@ -92,26 +82,19 @@ Note that the viewDocuments, uploadDocuments and deleteDocuments variables are s
 
 * a subdirectory of your web application
 
-* directory placed in the root of IIS - you can set this folder by using the / forward slash symbol, e.g.RadEditor1.DocumentManager.ViewPaths = new String []{"/Documents"};
+* directory placed in the root of IIS - you can set this folder by using the / forward slash symbol, e.g. `RadEditor1.DocumentManager.ViewPaths = new String []{"/Documents"};`
 
 * a virtual directory of your web application that has a physical path pointing outside of your web application.
 
 
->caption  
-
-| 
->caption 
-
-![](images/editor-hs_note.gif) | The Links inserted via the **DocumentManager** have **relative paths** . In scenarios when **absolute paths** are needed enable the **MakeUrlsAbsolute** client-side filter of RadEditor:
-
+>important The Links inserted via the **DocumentManager** have **relative paths**. In scenarios when **absolute paths** are needed enable the **MakeUrlsAbsolute** client-side filter of RadEditor:
 * via the codebehind: RadEditor1.EnableFilter(EditorFilters. **MakeUrlsAbsolute** );
-
-* inline: <telerik:RadEditor ID="RadEditor1" **ContentFilters="MakeUrlsAbsolute"** runat="server" /> |
-| ------ | ------ |
+* inline: `<telerik:RadEditor ID="RadEditor1" **ContentFilters="MakeUrlsAbsolute"** runat="server" />` 
 
 
 
-# See Also
+
+## See Also
 
  * [Set Properties]({%slug editor/getting-started/set-properties%})
 

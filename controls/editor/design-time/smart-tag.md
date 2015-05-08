@@ -10,9 +10,8 @@ position: 0
 
 # Smart Tag
 
+The Smart Tag of **RadEditor** lets you configure your control or quickly get help. You can display	the Smart Tag by right clicking on a **RadEditor** control and choosing "Show Smart Tag", or clicking the small rightward-pointing arrow located in the upper right corner of the control. You can see how the Smart Tag opened in **Figure 1**.
 
-
-The Smart Tag of **RadEditor** lets you configure your control or quickly get help. You can display	the Smart Tag by right clicking on a **RadEditor** control and choosing "Show Smart Tag",or clicking the small rightward-pointing arrow located in the upper right corner of the control. You can see how the Smart Tag opened in **Figure 1**.
 >caption Figure 1: Shows the opened Smart Tag
 
 ![editor-design-time-smart-tag](images/editor-design-time-smart-tag/editor-design-time-smart-tag.png)
@@ -22,23 +21,14 @@ The Smart Tag of **RadEditor** lets you configure your control or quickly get he
 **Open** opens the wizard where you could configure RadEditor's:
 
 * **Tools**
-
 * **Dialog Managers**
-
 * **Fonts**
-
 * **Font Sizes**
-
 * **Real Font Sizes**
-
 * **Paragraphs**
-
 * **CSS Styles**
-
 * **External CSS Files**
-
 * **Custom Links**
-
 * **Colors**
 
 ## Ajax Resources
@@ -53,11 +43,9 @@ The **Skin** drop-down displays a list of available [skins]({%slug editor/appear
 
 ## Copy Built-in Dialogs to the Project
 
-Gets the User Control files of the RadEditor built-in dialogs from the used Telerik UI for ASP.NET AJAX suite andadds them into the project RadEditorDialogs folder.Additionally [the ExternalDialogsPath property]({%slug editor/functionality/dialogs/externaldialogspath-property%}) is set with the path to this folder.
+Gets the User Control files of the RadEditor built-in dialogs from the used Telerik UI for ASP.NET AJAX suite and adds them into the project RadEditorDialogs folder.Additionally [the ExternalDialogsPath property]({%slug editor/functionality/dialogs/externaldialogspath-property%}) is set with the path to this folder.
 
->warning Note that this option will override the already existing files in the RadEditorDialogs folder.If additional dialog customizations are done, it is recommended to backup the files before this action.
->
-
+>warning Note that this option will override the already existing files in the RadEditorDialogs folder. If additional dialog customizations are done, it is recommended to backup the files before this action.
 
 ## Learning Center
 

@@ -10,8 +10,6 @@ position: 7
 
 # Custom FileBrowserContentProvider
 
-
-
 FileBrowserContentProvider provides the ability for using different files sources for the FileBrowser dialogs ([Document Manager]({%slug editor/functionality/dialogs/file-browser-dialogs/documents%}), [Flash Manager]({%slug editor/functionality/dialogs/file-browser-dialogs/flash%}), [Image Manager]({%slug editor/functionality/dialogs/file-browser-dialogs/images%}), [Media Manager]({%slug editor/functionality/dialogs/file-browser-dialogs/media%}) and [Template Manager]({%slug editor/functionality/dialogs/file-browser-dialogs/templates%})).
 
 ## Implementing a Custom FileBrowserContentProvider
@@ -28,51 +26,46 @@ The steps to implement a custom **FileBrowserContentProvider** are:
 
 1. Set the dialog's property *[ContentProviderTypeName](http://www.telerik.com/help/aspnet-ajax/p_telerik_web_ui_filemanagerdialogconfiguration_contentprovidertypename.html)* e.g. *RadEditor1.ImageManager.ContentProviderTypeName* = "**DatabaseFileBrowser, EditorWebApp"** where the value of the property [ContentProviderTypeName](http://www.telerik.com/help/aspnet-ajax/p_telerik_web_ui_filemanagerdialogconfiguration_contentprovidertypename.html) should be the qualified assembly name of your custom content provider. The general format of the assembly name should be **"Full.Class.Name.Including.The.Namespace, Assembly.Name"**. For example if your content provider class is in a separate project and is declared like this:
 
+	**C#**
 
-
-````C#
-	     
-	
-	using Telerik.Web.UI.Widgets;
-	
-	namespace RadEditorCustomProvider
-	{
-	    public class MyContentProvider : FileBrowserContentProvider  
-	    {    
-	        //...override base methods  
-	    }
-	}
+		using Telerik.Web.UI.Widgets;
+		
+		namespace RadEditorCustomProvider
+		{
+			public class MyContentProvider : FileBrowserContentProvider  
+			{    
+				//...override base methods  
+			}
+		}
 				
-````
-````VB
+	**VB**
 	
+		Imports Telerik.Web.UI.Widgets
+		
+		Namespace RadEditorCustomProvider
+		
+		
+				Public Class MyContentProvider
+					Inherits FileBrowserContentProvider
+					' ...override base methods 
+				End Class
+		
+		End Namespace
 	
-	Imports Telerik.Web.UI.Widgets
-	
-	Namespace RadEditorCustomProvider
-	
-	
-	        Public Class MyContentProvider
-	            Inherits FileBrowserContentProvider
-	            ' ...override base methods 
-	        End Class
-	
-	    End Namespace
-	
-````
-
 
 ...when it is compiled in the **ContentProviders.dll** assembly, you should set the following value:
 
-RadEditor1.ImageManager.ContentProviderTypeName = "ContentProviders.RadEditor.DatabaseContentProvider,ContentProviders"
+`RadEditor1.ImageManager.ContentProviderTypeName = "ContentProviders.RadEditor.DatabaseContentProvider,ContentProviders"`
 
 In .NET 2.0 web sites (as opposed to web application projects0, the code is not explicitly compiled into an assembly and that's why you should use App_Code instead of Assembly.Name:
 
-RadEditor1.ImageManager.ContentProviderTypeName = "ContentProviders.RadEditor.DatabaseContentProvider, App_Code"
+`RadEditor1.ImageManager.ContentProviderTypeName = "ContentProviders.RadEditor.DatabaseContentProvider, App_Code"`
 
 If the assembly where the class is defined will be located in the Global Assembly Cache (GAC), you should include the full assembly name, version, public key token, etc.
 
-However, there is an easier way to set the value of this property from the code-behind which will work in all cases :RadEditor1.ImageManager.ContentProviderTypeName = typeof(DatabaseContentProvider).AssemblyQualifiedName
+However, there is an easier way to set the value of this property from the code-behind which will work in all cases:
+
+`RadEditor1.ImageManager.ContentProviderTypeName = typeof(DatabaseContentProvider).AssemblyQualifiedName`
 
 ## FileBrowserContentProvider Architecture
 
@@ -103,45 +96,34 @@ To get started implementing FileBrowserContentProvider:
 1. In C# projects:
 
 1. right-click the **FileBrowserContentProvider** declaration and select **Implement Abstract Class** from the context menu.
->caption 
 
-![](images/editor-dialogs006.png)This step will create all the methods that can be implemented:
->caption 
+	![](images/editor-dialogs006.png)
+	
+	This step will create all the methods that can be implemented:
 
-![](images/editor-dialogs007.png)
+	![](images/editor-dialogs007.png)
 
 1. Add a constructor with the signature shown in the code example below. The constructor provides basic dialog and path information.The "Context" parameter allows you to access the current HTTP state including the HTTP Request object:
 
-````C#
+	**C#**
 	     
-	
-	public MyFileBrowserContentProvider(HttpContext context, string[] searchPatterns, string[] viewPaths, string[] uploadPaths, string[] deletePaths, string selectedUrl, string selectedItemTag)    
-	    :    base(context, searchPatterns, viewPaths, uploadPaths, deletePaths, selectedUrl, selectedItemTag)
-	{
-	}
+		public MyFileBrowserContentProvider(HttpContext context, string[] searchPatterns, string[] viewPaths, string[] uploadPaths, string[] deletePaths, string selectedUrl, string selectedItemTag)    
+			:    base(context, searchPatterns, viewPaths, uploadPaths, deletePaths, selectedUrl, selectedItemTag)
+		{
+		}
 				
-````
+	in VB.NET:
 
+	**VB**
 
+		Imports Telerik.Web.UI.Widgets
 
-In VB.NET:
-
-1. The class can be constructed in a similar manner to the example below:
-
-````VB
-	
-	
-	Imports Telerik.Web.UI.Widgets
-	
-	    Public MustInherit Class MyFileBrowserContentProvider
-	        Inherits FileBrowserContentProvider
-	        Public Sub New(ByVal context As HttpContext, ByVal searchPatterns As String(), ByVal viewPaths As String(), ByVal uploadPaths As String(), ByVal deletePaths As String(), ByVal selectedUrl As String, ByVal selectedItemTag As String)
-	            MyBase.New(context, searchPatterns, viewPaths, uploadPaths, deletePaths, selectedUrl, selectedItemTag)
-	        End Sub
-	    End Class
-	
-````
-
+			Public MustInherit Class MyFileBrowserContentProvider
+				Inherits FileBrowserContentProvider
+				Public Sub New(ByVal context As HttpContext, ByVal searchPatterns As String(), ByVal viewPaths As String(), ByVal uploadPaths As String(), ByVal deletePaths As String(), ByVal selectedUrl As String, ByVal selectedItemTag As String)
+					MyBase.New(context, searchPatterns, viewPaths, uploadPaths, deletePaths, selectedUrl, selectedItemTag)
+			End Sub
+		End Class
 
 
 From this starting point you can implement the FileBrowserContentProvider methods to suit your particular purpose. See [Custom File Dialogs Content Provider LiveDemo](http://demos.telerik.com/aspnet-ajax/editor/examples/dbfilebrowsercontentprovider/defaultcs.aspx) for a running example.
@@ -164,151 +146,53 @@ Some important details aimed at reducing the overall time needed by developers t
 
 The sample implementation is using a database for information storage, and a single physical directory as a file storage. The screenshots below explain the relationship between the actions that can be taken in the editor (using the [Custom File Dialogs Content Provider LiveDemo](http://demos.telerik.com/aspnet-ajax/editor/examples/dbfilebrowsercontentprovider/defaultcs.aspx)) and the methods that must be implemented in your **FileBrowserContentProvider** descendant implementation:
 
-
-
-
->caption  
-
 | User Action | Method called | Screenshot |
 | ------ | ------ | ------ |
-|Initial load of file browser dialog|
-
-
-
-````C#
-	     
-		DirectoryItem ResolveRootDirectoryAsTree(
-	            string path)
-				
-````
-````VB
-	
-		ResolveRootDirectoryAsTree( _
-		    ByVal path As String) As DirectoryItem
-	
-````
-|
->caption 
-
-![](images/editor-dialogs005.png)|
-|Press the Delete button when a directory is selected|
-
-
-
-````C#
-	     
-		string DeleteDirectory(string path)
-				
-````
-````VB
-	
-	    DeleteDirectory( _ 
-	        ByVal path As String) As String
-	
-````
-|
->caption 
-
-![](images/editor-dialogs009.png)|
-|Press the Delete button when a file is selected|
-
-
-
-````C#
-	     
-		string DeleteFile(string path)
-				
-````
-````VB
-	
-	    DeleteFile( _ 
-	        ByVal path As String) As String
-	
-````
-|
->caption 
-
-![](images/editor-dialogs008.png)|
-|Uploading a file|
-
-
-
-````C#
-	     
-		string StoreFile(
-	            Telerik.Web.UI.UploadedFile file,  
-	            string path,  
-	            string name,  
-	            params string[] arguments)
-				
-````
-````VB
-	
-		StoreFile( _ 
-		    ByVal file As Telerik.Web.UI.UploadedFile, _
-		    ByVal path As String, _
-		    ByVal name As String, _
-		    ParamArray arguments As String() _ 
-		) As String
-	
-````
-|
->caption 
-
-![](images/editor-dialogs011.png)|
-|Previewing a selected file|This functionality should be implemented in cooperation with the customFileBrowserContentProvider. For example, if files are to be served by a special handler, the handler shouldbe aware how to process the URL and serve the file.|
->caption 
-
-![](images/editor-dialogs013.png)|
+|Initial load of file browser dialog|`DirectoryItem ResolveRootDirectoryAsTree(string path)`|![](images/editor-dialogs005.png)|
+|Press the Delete button when a directory is selected|`string DeleteDirectory(string path)`|![](images/editor-dialogs009.png)|
+|Press the Delete button when a file is selected|`string DeleteFile(string path)`|![](images/editor-dialogs008.png)|
+|Uploading a file|`string StoreFile(Telerik.Web.UI.UploadedFile file, string path, string name, params string[] arguments)`|![](images/editor-dialogs011.png)|
+|Previewing a selected file|This functionality should be implemented in cooperation with the customFileBrowserContentProvider. For example, if files are to be served by a special handler, the handler shouldbe aware how to process the URL and serve the file.|![](images/editor-dialogs013.png)|
 
 >caution The compilator will not complain if the FileBrowserContentProvider's methods bellow are not overridden, but it is highly recommended to override them as well:
->
-
-
-
 
 ````C#
-	     
-	
-	public override bool CheckDeletePermissions(
-	            string folderPath)
-	{  
-	    return base.CheckDeletePermissions(folderPath);
-	}
-	
-	public override bool CheckWritePermissions(
-	            string folderPath)
-	{  
-	    return base.CheckWritePermissions(folderPath);
-	}
-	
-	//Introduced in the 2010.2.826 version of the control
-	public override bool CheckReadPermissions(
-	            string folderPath)
-	{  
-	    return base.CheckReadPermissions(folderPath);
-	}
+public override bool CheckDeletePermissions(
+			string folderPath)
+{  
+	return base.CheckDeletePermissions(folderPath);
+}
+
+public override bool CheckWritePermissions(
+			string folderPath)
+{  
+	return base.CheckWritePermissions(folderPath);
+}
+
+//Introduced in the 2010.2.826 version of the control
+public override bool CheckReadPermissions(
+			string folderPath)
+{  
+	return base.CheckReadPermissions(folderPath);
+}
 				
 ````
 ````VB
-	
-	
-	    Public Overrides Function CheckDeletePermissions(ByVal folderPath As String) As Boolean
-	        Return MyBase.CheckDeletePermissions(folderPath)
-	    End Function
-	
-	    Public Overrides Function CheckWritePermissions(ByVal folderPath As String) As Boolean
-	        Return MyBase.CheckWritePermissions(folderPath)
-	    End Function
-	
-	    ' Introduced in the 2010.2.826 version of the control
-	    Public Overrides Function CheckReadPermissions(ByVal folderPath As String) As Boolean
-	        Return MyBase.CheckReadPermissions(folderPath)
-	    End Function
-	
+Public Overrides Function CheckDeletePermissions(ByVal folderPath As String) As Boolean
+	Return MyBase.CheckDeletePermissions(folderPath)
+End Function
+
+Public Overrides Function CheckWritePermissions(ByVal folderPath As String) As Boolean
+	Return MyBase.CheckWritePermissions(folderPath)
+End Function
+
+' Introduced in the 2010.2.826 version of the control
+Public Overrides Function CheckReadPermissions(ByVal folderPath As String) As Boolean
+	Return MyBase.CheckReadPermissions(folderPath)
+End Function
 ````
 
 
-# See Also
+## See Also
 
  * [Custom File Dialogs Content Provider LiveDemo](http://demos.telerik.com/aspnet-ajax/editor/examples/dbfilebrowsercontentprovider/defaultcs.aspx)

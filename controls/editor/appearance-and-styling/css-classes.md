@@ -10,12 +10,7 @@ position: 3
 
 # CSS Classes
 
-
-
 ## Skin - Specific CSS
-
-
->caption  
 
 |  **CSS Class**  |  **Description**  |
 | ------ | ------ |
@@ -122,7 +117,6 @@ position: 3
 |.RadWindow.RadWindow_Default.reToolbarWindow td.rwWindowContent|This rule styles RadWindow's content cell, which is used in the floating and show on focus toolbar modes|
 
 ## Editor Commands
-
 
 |  **CSS Class**  |  **Description**  |
 | ------ | ------ |
@@ -268,8 +262,6 @@ position: 3
 ## Apply CSS Class Dropdown
 
 
->caption  
-
 |  **CSS Class**  |  **Description**  |
 | ------ | ------ |
 |.reApplyClass td|Apply class to TD|
@@ -293,8 +285,6 @@ position: 3
 
 ## Light Dialogs
 
-
->caption  
 
 |  **CSS Class**  |  **Description**  |
 | ------ | ------ |

@@ -10,10 +10,6 @@ position: 6
 
 # Silverlight Manager
 
-
-
-## 
-
 Functionality:
 
 Using the Silverlight Manager dialog the users of RadEditor can:
@@ -28,9 +24,6 @@ Properties to set:
 
 The behavior of the Silverlight Manager dialog is controlled by the following properties:
 
-
->caption  
-
 |  **Property**  |  **Description**  |
 | ------ | ------ |
 | **ViewPaths** |A string array which contains the paths where the RadEditor will look for xap files. The default value is an empty array. These folders will be visible in the file browser part of the dialog.|
@@ -41,45 +34,43 @@ The behavior of the Silverlight Manager dialog is controlled by the following pr
 
 In order for a folder to be visible in the file browser, it must be present in the ViewPaths array. The users will be able to browse its subfolders since they inherit the permissions. If it is needed to grant permission for deleting or uploading xap files into a specific folder, it must be present in the corresponding array - DeletePaths or UploadPaths. These permissions are also inherited by the subfolders.The application root folder can be substituted with the "~" (tilde) character. It is possible to use paths relative to the root. For example, in order to access xap files located in another web application.
 
-Example:
+**Example 1** and **Example 2** demonstrate the relationship between the folder structure and the property settings:
 
-The example below demonstrates the relationship between the folder structure and the property settings:
+With the settings above, the users will be able to browse all subfolders of the "~/Files" folder. They will be able to upload xap files to the "~/Files/New" folder and all its subfolders and delete xap files from "~/Files/New/Articles" and "~/Files/New/News".
 
-With the settings above, the users will be able to browse all subfolders of the "~/Files" folder. They will be able to upload xap files to the "~/Files/New" folder and all its subfolders and delete xap files from "~/Files/New/Articles" and "~/Files/New/News".**Setting Silverlight manager properties inline:**
+>caption Example 1: Setting Silverlight manager properties inline:
 
-````ASPNET
-	<telerik:radeditor runat="server" ID="RadEditor1">  
-	   <SilverlightManager ViewPaths="~/Files" UploadPaths="~/Files/New" DeletePaths="~/Files/New/Articles,~/Files/New/News" />
-	</telerik:radeditor> 
+````ASP.NET
+<telerik:radeditor runat="server" ID="RadEditor1">  
+   <SilverlightManager ViewPaths="~/Files" UploadPaths="~/Files/New" DeletePaths="~/Files/New/Articles,~/Files/New/News" />
+</telerik:radeditor> 
 ````
 
 
 
-**Setting Silverlight manager properties in CodeBehind:**
-
-
+>caption Setting Silverlight manager properties in CodeBehind
 
 ````C#
-	string[] viewFiles = new string[] { "~/Files" };
-	string[] uploadFiles = new string[] { "~/Files/New" };
-	string[] deleteFiles = new string[] { "~/Files/New/Articles", "~/Files/New/News" };
-	
-	if (!IsPostBack)
-	{
-	   RadEditor1.SilverlightManager.ViewPaths = viewFiles;
-	   RadEditor1.SilverlightManager.UploadPaths = uploadFiles;
-	   RadEditor1.SilverlightManager.DeletePaths = deleteFiles;
-	} 
+string[] viewFiles = new string[] { "~/Files" };
+string[] uploadFiles = new string[] { "~/Files/New" };
+string[] deleteFiles = new string[] { "~/Files/New/Articles", "~/Files/New/News" };
+
+if (!IsPostBack)
+{
+   RadEditor1.SilverlightManager.ViewPaths = viewFiles;
+   RadEditor1.SilverlightManager.UploadPaths = uploadFiles;
+   RadEditor1.SilverlightManager.DeletePaths = deleteFiles;
+} 
 ````
-````VB.NET
-		Dim viewFiles As String() = New String() {"~/Files"}
-		Dim uploadFiles As String() = New String() {"~/Files/New"}
-		Dim deleteFiles As String() = New String() {"~/Files/New/Articles", "~/Files/New/News"}
-		If Not IsPostBack Then
-		 RadEditor1.SilverlightManager.ViewPaths = viewFiles
-		 RadEditor1.SilverlightManager.UploadPaths = uploadFiles
-		 RadEditor1.SilverlightManager.DeletePaths = deleteFiles
-		End If 
+````VB
+Dim viewFiles As String() = New String() {"~/Files"}
+Dim uploadFiles As String() = New String() {"~/Files/New"}
+Dim deleteFiles As String() = New String() {"~/Files/New/Articles", "~/Files/New/News"}
+If Not IsPostBack Then
+ RadEditor1.SilverlightManager.ViewPaths = viewFiles
+ RadEditor1.SilverlightManager.UploadPaths = uploadFiles
+ RadEditor1.SilverlightManager.DeletePaths = deleteFiles
+End If 
 ````
 
 
@@ -87,6 +78,6 @@ Note that the viewFiles, uploadFiles and deleteFiles variables are string arrays
 
 * a subdirectory of your web application
 
-* directory placed in the root of IIS - you can set this folder by using the / forward slash symbol, e.g.RadEditor1.SilverlightManager.ViewPaths = new String []{"/Files"};
+* directory placed in the root of IIS - you can set this folder by using the / forward slash symbol, e.g. `RadEditor1.SilverlightManager.ViewPaths = new String []{"/Files"};`
 
 * a virtual directory of your web application that has a physical path pointing outside of your web application.

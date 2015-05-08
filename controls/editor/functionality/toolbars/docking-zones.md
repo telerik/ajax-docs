@@ -10,10 +10,6 @@ position: 3
 
 # Docking Zones
 
-
-
-## 
-
 The RadEditor Toolbar position can be changed by using the **DockingZone** attribute which can have the following values:
 
 1. **Left**
@@ -27,7 +23,6 @@ The RadEditor Toolbar position can be changed by using the **DockingZone** attri
 1. **Module**
 
 1. The **id** of outer html element
->caption 
 
 ![](images/editor-dockingzone.png)
 
@@ -36,12 +31,12 @@ Here is an example how to:
 * Set Toolbar position in the RadEditor declaration:
 
 ````XML
-	    <tools>   
-	        <telerik:EditorToolGroup DockingZone="Left">        
-	            <telerik:EditorTool Name="AjaxSpellCheck" />        
-	            .................   
-	        </telerik:EditorToolGroup> 
-	    </tools>
+<tools>   
+	<telerik:EditorToolGroup DockingZone="Left">        
+		<telerik:EditorTool Name="AjaxSpellCheck" />        
+		.................   
+	</telerik:EditorToolGroup> 
+</tools>
 ````
 
 
@@ -49,10 +44,10 @@ Here is an example how to:
 * Set Toolbar position in the ToolsFile
 
 ````XML
-	    <tools enabled="true" dockingzone="Bottom">    
-	        <tool name="Bold" />    
-	        .....................
-	    </tools>
+<tools enabled="true" dockingzone="Bottom">    
+	<tool name="Bold" />    
+	.....................
+</tools>
 ````
 
 
@@ -62,19 +57,15 @@ Here is an example how to:
 
 
 ````C#
-	
-	        EditorToolGroup toolgroupLeft = new EditorToolGroup(); 
-	        toolgroupLeft.Attributes["DockingZone"] = "Left"; 
-	        editor.Tools.Add(toolgroupLeft); 
-	        toolgroupLeft.Tools.Add(new EditorTool("Bold"));
-	
+EditorToolGroup toolgroupLeft = new EditorToolGroup(); 
+toolgroupLeft.Attributes["DockingZone"] = "Left"; 
+editor.Tools.Add(toolgroupLeft); 
+toolgroupLeft.Tools.Add(new EditorTool("Bold"));
 ````
 ````VB
-	
-	        Dim toolgroupLeft As New EditorToolGroup()
-	        toolgroupLeft.Attributes("DockingZone") = "Left"
-	        editor.Tools.Add(toolgroupLeft)
-	        toolgroupLeft.Tools.Add(New EditorTool("Bold"))
-	
+Dim toolgroupLeft As New EditorToolGroup()
+toolgroupLeft.Attributes("DockingZone") = "Left"
+editor.Tools.Add(toolgroupLeft)
+toolgroupLeft.Tools.Add(New EditorTool("Bold"))
 ````
 

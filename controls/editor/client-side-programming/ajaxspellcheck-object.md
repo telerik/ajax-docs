@@ -10,39 +10,23 @@ position: 5
 
 # AjaxSpellCheck Object
 
-
-
 The AjaxSpellCheck object exposes the following public methods and properties to control its behavior:
 
-## 
-
-AjaxSpellCheck Client-Side Methods
+>caption AjaxSpellCheck Client-Side Methods
 
 
 | Name | Parameters | Return Type | Description |
 | ------ | ------ | ------ | ------ |
-|addCustomWord|`String`||Adds a custom word to the collection.The method takes the following arguments:
-
-1. word - The word to be added.|
-|cancelSpellCheck|`Boolean`||Stops the spell checking and retrieves the original state of the content.The method takes the following arguments:
-
-1. raiseEvent? - Indicates whether to raise the spellCheckEnd event.|
-|finishSpellCheck|`Boolean`||Stops the spell checking and updates the content.The method takes the following arguments:
-
-1. raiseEvent? - Indicates whether to raise the spellCheckEnd event.|
+|addCustomWord|`String`||Adds a custom word to the collection.The method takes the following arguments: **word** - The word to be added.|
+|cancelSpellCheck|`Boolean`||Stops the spell checking and retrieves the original state of the content.The method takes the following arguments: **raiseEvent?** - Indicates whether to raise the spellCheckEnd event.|
+|finishSpellCheck|`Boolean`||Stops the spell checking and updates the content.The method takes the following arguments: **raiseEvent?** - Indicates whether to raise the spellCheckEnd event.|
 |get_editor||Telerik.Web.UI.RadEditor|Returns the RadEditor instance.|
 |get_language||String|Gets the language used by the Spell-Check service.|
-|set_editor|`Telerik.Web.UI.RadEditor`||Sets the RadEditor instance.The method takes the following arguments:
-
-1. editor - The RadEditor instance.|
-|set_language|`String`||Sets the language used by the Spell-Check service.The method takes the following arguments:
-
-1. language - The language.|
+|set_editor|`Telerik.Web.UI.RadEditor`||Sets the RadEditor instance.The method takes the following arguments: **editor** - The RadEditor instance.|
+|set_language|`String`||Sets the language used by the Spell-Check service.The method takes the following arguments: **language** - The language.|
 |spellCheck|||Performs a spell check on the content.|
 
-## 
-
-AjaxSpellCheck Client-Side Methods for attaching/detaching client-side event handlers
+>caption AjaxSpellCheck Client-Side Methods for attaching/detaching client-side event handlers
 
 
 | Name | Arguments | Description |

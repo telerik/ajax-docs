@@ -10,16 +10,7 @@ position: 7
 
 # get_mode
 
-
-
-## 
-
-
-
 Returns the editor's mode:
-
-
->caption  
 
 |  **function**  **get_mode()**  |  |  |
 | ------ | ------ | ------ |
@@ -29,33 +20,33 @@ Returns the editor's mode:
 
 The following example demonstrates how to check the current mode of Telerik RadEditor:
 
-````ASPNET
-	    <script type="text/javascript">
-	        function OnClientLoad(editor, args)
-	        {     
-	            editor.add_modeChange(function(sender, args)     
-	            {        
-	                var mode = sender.get_mode();                             
-	                switch (mode)        
-	                {           
-	                    case 1:            
-	                        alert( "We are in Design mode");            
-	                        //do something            
-	                        break;           
-	                    case 2:            
-	                        alert( "We are in Html mode");            
-	                        //do something            
-	                        break;           
-	                    case 4:            
-	                        alert( "We are in Preview mode");
-	                        //do something            
-	                        break;
-	                }
-	            });
-	        }
-	    </script>
-	    <telerik:radeditor runat="server" OnClientLoad="OnClientLoad" ID="RadEditor1">
-	    </telerik:radeditor>
+````ASP.NET
+<script type="text/javascript">
+	function OnClientLoad(editor, args)
+	{     
+		editor.add_modeChange(function(sender, args)     
+		{        
+			var mode = sender.get_mode();                             
+			switch (mode)        
+			{           
+				case 1:            
+					alert( "We are in Design mode");            
+					//do something            
+					break;           
+				case 2:            
+					alert( "We are in Html mode");            
+					//do something            
+					break;           
+				case 4:            
+					alert( "We are in Preview mode");
+					//do something            
+					break;
+			}
+		});
+	}
+</script>
+<telerik:radeditor runat="server" OnClientLoad="OnClientLoad" ID="RadEditor1">
+</telerik:radeditor>
 ````
 
 

@@ -18,17 +18,17 @@ Depending on the case, sometimes it is necessary to remove some of the tools fro
 
 To disable a specific command shortcut attach a function to the OnCommandExecuting handler and check for the name of the current executing command. If it is a command that is in the exclude list, then just cancel the execution of the command. Here is how to do it with the command **Bold** for example:
 
-````ASPNET
-	    <script type="text/javascript">
-	        function OnClientCommandExecuting(editor, args)
-	        {
-	            //If commandName is Bold - then cancel execution
-	            if ("Bold" == args.get_commandName()) 
-	                args.set_cancel(true);
-	        }
-	    </script>
-	    <telerik:RadEditor ID="RadEditor1" OnClientCommandExecuting="OnClientCommandExecuting" runat="server">
-	    </telerik:RadEditor>
+````ASP.NET
+<script type="text/javascript">
+	function OnClientCommandExecuting(editor, args)
+	{
+		//If commandName is Bold - then cancel execution
+		if ("Bold" == args.get_commandName()) 
+			args.set_cancel(true);
+	}
+</script>
+<telerik:RadEditor ID="RadEditor1" OnClientCommandExecuting="OnClientCommandExecuting" runat="server">
+</telerik:RadEditor>
 ````
 
 

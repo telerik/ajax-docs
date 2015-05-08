@@ -16,7 +16,7 @@ position: 7
 
 PROBLEM 
 
-When cutting and pasting tabbed text from Word into Telerik RadEditor, it replaces all the tabs with a series of "**&nbsp;**".
+When cutting and pasting tabbed text from Word into Telerik RadEditor, it replaces all the tabs with a series of `&nbsp;`.
 
 REASON
 

@@ -10,10 +10,6 @@ position: 1
 
 # Images
 
-
-
-## 
-
 **Functionality:**
 
 Using the Image Manager dialog the users of RadEditor can:
@@ -29,11 +25,6 @@ Using the Image Manager dialog the users of RadEditor can:
 The behavior of the Image Manager dialog is controlled by the following properties:
 
 >note Starting from Q1 2012, the Image Manager has a new default thumbnail mode, which shows the files as icons in the central area of the dialog. The old grid mode can be restored by setting the ViewMode property to "Grid".
->
-
-
-
->caption  
 
 |  **Property**  |  **Description**  |
 | ------ | ------ |
@@ -46,54 +37,50 @@ The behavior of the Image Manager dialog is controlled by the following properti
 
 In order for a folder to be visible in the file browser, it must be present in the ViewPaths array. The users will be able to browse its subfolders since they inherit the permissions. If it is needed to grant permission for deleting or uploading images into a specific folder, it must be present in the corresponding array - DeletePaths or UploadPaths. These permissions are also inherited by the subfolders.The application root folder can be substituted with the "~" (tilde) character. It is possible to use paths relative to the root. For example, in order to access images located in another web application.
 
-**Example:**
+**Example 1** and **Example 2** demonstrate the relationship between the folder structure and the property settings:
 
-The example below demonstrates the relationship between the folder structure and the property settings:
+With the settings above, the users will be able to browse all subfolders of the "~/images" folder. They will be able to upload images to the "~/Images/New" folder and all its subfolders and delete images from "~/Images/New/Articles" and "~/Images/New/News".
 
-With the settings above, the users will be able to browse all subfolders of the "~/images" folder. They will be able to upload images to the "~/Images/New" folder and all its subfolders and delete images from "~/Images/New/Articles" and "~/Images/New/News".**Setting Image manager properties inline:**
+>caption Example 1: Setting Image manager properties inline.
 
-````XML
-	    <telerik:RadEditor runat="server" ID="RadEditor1">
-	        <ImageManager ViewPaths="~/Images" UploadPaths="~/Images/New" DeletePaths="~/Images/New/Articles,~/Images/New/News" />
-	    </telerik:RadEditor>
+````ASP.NET
+<telerik:RadEditor runat="server" ID="RadEditor1">
+	<ImageManager ViewPaths="~/Images" UploadPaths="~/Images/New" DeletePaths="~/Images/New/Articles,~/Images/New/News" />
+</telerik:RadEditor>
 ````
 
 
 
-**Setting Image manager properties in CodeBehind:**
-
-
+>caption Example 2: Setting Image manager properties in CodeBehind.
 
 ````C#
 	
-	        string[] viewImages = new string[] { "~/Images" };
-	        string[] uploadImages = new string[] { "~/Images/New" };
-	        string[] deleteImages = new string[] { "~/Images/New/Articles", "~/Images/New/News" };
-	
-	        if (!IsPostBack)
-	        {
-	            RadEditor1.ImageManager.ViewPaths = viewImages;
-	            RadEditor1.ImageManager.UploadPaths = uploadImages;
-	            RadEditor1.ImageManager.DeletePaths = deleteImages;
-	            //to change the View mode to Grid use the below syntax
-	            RadEditor1.ImageManager.ViewMode = Telerik.Web.UI.Editor.DialogControls.ImageManagerViewMode.Grid;
-	        } 
+string[] viewImages = new string[] { "~/Images" };
+string[] uploadImages = new string[] { "~/Images/New" };
+string[] deleteImages = new string[] { "~/Images/New/Articles", "~/Images/New/News" };
+
+if (!IsPostBack)
+{
+	RadEditor1.ImageManager.ViewPaths = viewImages;
+	RadEditor1.ImageManager.UploadPaths = uploadImages;
+	RadEditor1.ImageManager.DeletePaths = deleteImages;
+	//to change the View mode to Grid use the below syntax
+	RadEditor1.ImageManager.ViewMode = Telerik.Web.UI.Editor.DialogControls.ImageManagerViewMode.Grid;
+} 
 	
 ````
 ````VB
-	
-	        Dim viewImages As String() = New String() {"~/Images"}
-	        Dim uploadImages As String() = New String() {"~/Images/New"}
-	        Dim deleteImages As String() = New String() {"~/Images/New/Articles", "~/Images/New/News"}
-	
-	        If Not IsPostBack Then
-	            RadEditor1.ImageManager.ViewPaths = viewImages
-	            RadEditor1.ImageManager.UploadPaths = uploadImages
-	            RadEditor1.ImageManager.DeletePaths = deleteImages
-	            'to change the View mode to Grid use the below syntax
-	            RadEditor1.ImageManager.ViewMode = Telerik.Web.UI.Editor.DialogControls.ImageManagerViewMode.Grid
-	        End If
-	
+Dim viewImages As String() = New String() {"~/Images"}
+Dim uploadImages As String() = New String() {"~/Images/New"}
+Dim deleteImages As String() = New String() {"~/Images/New/Articles", "~/Images/New/News"}
+
+If Not IsPostBack Then
+	RadEditor1.ImageManager.ViewPaths = viewImages
+	RadEditor1.ImageManager.UploadPaths = uploadImages
+	RadEditor1.ImageManager.DeletePaths = deleteImages
+	'to change the View mode to Grid use the below syntax
+	RadEditor1.ImageManager.ViewMode = Telerik.Web.UI.Editor.DialogControls.ImageManagerViewMode.Grid
+End If
 ````
 
 
@@ -101,26 +88,23 @@ Note that the viewImages, uploadImages and deleteImages variables are string arr
 
 * a subdirectory of your web application
 
-* directory placed in the root of IIS - you can set this folder by using the / forward slash symbol, e.g.RadEditor1.ImageManager.ViewPaths = new String []{"/Images"};
+* directory placed in the root of IIS - you can set this folder by using the / forward slash symbol, e.g. `RadEditor1.ImageManager.ViewPaths = new String []{"/Images"};`
 
 * a virtual directory of your web application that has a physical path pointing outside of your web application.
 
->note You should also grant full ASPNET account permissions over the Images Folders on Win XP computers with IIS 5.1. On Win 2003 servers with IIS 6.0 you should grant full NETWORK SERVICE account permissions over the Images Folder.
->
-
+>note You should also grant full ASP.NET account permissions over the Images Folders on Win XP computers with IIS 5.1. On Win 2003 servers with IIS 6.0 you should grant full NETWORK SERVICE account permissions over the Images Folder.
 
 >note The Images inserted via the ImageManager have **relative paths** . In scenarios when **absolute paths** are needed enable the **MakeUrlsAbsolute** client-side filter of RadEditor:
 >
 * via the codebehind: RadEditor1.EnableFilter(EditorFilters. **MakeUrlsAbsolute** );
-* inline: <telerik:RadEditor ID="RadEditor1" **ContentFilters="MakeUrlsAbsolute"** runat="server" />>
-
+* inline: `<telerik:RadEditor ID="RadEditor1" **ContentFilters="MakeUrlsAbsolute"** runat="server" />`
+>
 
 The **Image manager** offers a new feature named **Image Editor**, which provides the ability to resize, flip, rotate, crop, rename the selected image element as well as set its opacity:
->caption 
 
 ![Image Editor](images/editor-imagemanager.png)
 
-# See Also
+## See Also
 
  * [Set Properties]({%slug editor/getting-started/set-properties%})
 

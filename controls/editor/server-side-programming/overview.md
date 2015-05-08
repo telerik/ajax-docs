@@ -10,12 +10,7 @@ position: 0
 
 # Server-side Programming Overview
 
-
-
 ## Public Properties
-
-
->caption  
 
 |  **Name**  |  **Description**  |
 | ------ | ------ |
@@ -123,9 +118,6 @@ position: 0
 
 ## Public Methods
 
-
->caption  
-
 |  **Name**  |  **Description**  |
 | ------ | ------ |
 |ApplyStyle|(Inherited from System.Web.UI.WebControls.WebControl )|
@@ -157,8 +149,6 @@ position: 0
 
 ## Public Events
 
-
->caption  
 
 |  **Name**  |  **Description**  |
 | ------ | ------ |

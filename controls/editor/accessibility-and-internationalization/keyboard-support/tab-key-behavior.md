@@ -10,15 +10,11 @@ position: 2
 
 # Tab Key Behavior
 
-
-
 This help article describes the default behavior of the **tab key** in **RadEditor** and explains how to control it and obtain consistent behavior between browsers.
-
-## 
 
 The Tab key behaves differently among different browsers in RadEditor (**Table 1**). This is so because the tabbing functionality relies on the browsers' internal commands by default.
 
-**Table 1**: RadEditor tab key behavior in different browsers according to the cursor position.
+>caption Table 1: RadEditor tab key behavior in different browsers according to the cursor position.
 
 
 | Browser | Table | List | Div/Span/P |
@@ -29,34 +25,34 @@ The Tab key behaves differently among different browsers in RadEditor (**Table 1
 
 You can select the behavior of IE browser and apply it to the rest (**Example 1**).
 
-**Example 1**: Make the RadEditor tab key behavior from IE (**Table 1**) apply to all browsers.
+>caption Example 1: Make the RadEditor tab key behavior from IE (**Table 1**) apply to all browsers.
 
 
 
 ````JavaScript
-	    	function OnClientLoad(editor, args) {
-	    		var shortcutManager = editor.get_shortCutManager();
-	    		if (shortcutManager.findShortCutByName("InsertTabMozilla")) {
-	    			shortcutManager.removeShortCut("InsertTabMozilla");
-	    			editor.addShortCut("InsertTab", "TAB");
-	    		}
-	    	}
+function OnClientLoad(editor, args) {
+	var shortcutManager = editor.get_shortCutManager();
+	if (shortcutManager.findShortCutByName("InsertTabMozilla")) {
+		shortcutManager.removeShortCut("InsertTabMozilla");
+		editor.addShortCut("InsertTab", "TAB");
+	}
+}
 ````
 ````ASPNET
-			<telerik:RadEditor ID="RadEditor1" runat="server" OnClientLoad="OnClientLoad">
-				<Content>
-					<p>some paragraph</p>
-					<ul>
-						<li>item 1</li>
-						<li>item 2</li>
-						<li>item 3</li>
-					</ul>
-				</Content>
-			</telerik:RadEditor>
+<telerik:RadEditor ID="RadEditor1" runat="server" OnClientLoad="OnClientLoad">
+	<Content>
+		<p>some paragraph</p>
+		<ul>
+			<li>item 1</li>
+			<li>item 2</li>
+			<li>item 3</li>
+		</ul>
+	</Content>
+</telerik:RadEditor>
 ````
 
 
-# See Also
+## See Also
 
  * [Overview]({%slug editor/accessibility-and-internationalization/keyboard-support/overview%})
 

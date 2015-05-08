@@ -10,24 +10,16 @@ position: 1
 
 # Disable Context Menu 
 
-
-
-## 
-
-To disable RadEditor context menus, use code-behind to locate the context menu and set it **Enabled**property to false.
+To disable RadEditor context menus, use code-behind to locate the context menu and set it **Enabled** property to false.
 
 
 
 ````C#
-	
-	        RadEditor1.ContextMenus.FindByTagName("A").Enabled = false; 
-	        RadEditor1.ContextMenus.FindByTagName("P").Enabled = false;
-	
+RadEditor1.ContextMenus.FindByTagName("A").Enabled = false; 
+RadEditor1.ContextMenus.FindByTagName("P").Enabled = false;
 ````
 ````VB
-	
-	        RadEditor1.ContextMenus.FindByTagName("A").Enabled = False
-	        RadEditor1.ContextMenus.FindByTagName("P").Enabled = False
-	
+RadEditor1.ContextMenus.FindByTagName("A").Enabled = False
+RadEditor1.ContextMenus.FindByTagName("P").Enabled = False
 ````
 

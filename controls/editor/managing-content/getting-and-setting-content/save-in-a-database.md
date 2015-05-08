@@ -10,10 +10,7 @@ position: 3
 
 # Save in a Database
 
-
-
 The example below demonstrates displaying database content to a RadEditor and saving changes to the database.
->caption 
 
 ![](images/editor-content001.png)
 
@@ -23,7 +20,7 @@ In a new AJAX Enabled Web Application:
 
 ## Add Data File
 
-1. Locate the Access database file "email.mdb" in the \**<Controls Installation Folder>\Live Demos\App_Data.**
+1. Locate the Access database file "email.mdb" in the **\[Controls Installation Folder]\Live Demos\App_Data.**
 
 1. In the Solution Explorer, copy the "email.mdb" file to the project's **App_Data** folder.
 
@@ -63,37 +60,34 @@ In a new AJAX Enabled Web Application:
 
 1. The ASP.NET markup for the steps so far should look something like the example below:
 
-````ASPNET
-	<telerik:RadComboBox
-	   ID="RadComboBox1"
-	   runat="server"
-	   AutoPostBack="True"
-	   OnSelectedIndexChanged="RadComboBox1_SelectedIndexChanged"
-	   Skin="Vista"
-	   AllowCustomText="True">
-	</telerik:RadComboBox>
-	<asp:Button ID="btnNew" runat="server" OnClick="btnNew_Click" Text="New" />
-	<asp:Button ID="btnSave" runat="server" Text="Save" OnClick="btnSave_Click" /><br />
-	<telerik:RadEditor ID="RadEditor1" runat="server" Skin="Vista" Width="500px" Height="400px">               
-	   <Tools>
-	       <telerik:EditorToolGroup>
-	           <telerik:EditorTool Name="Bold" />
-	           <telerik:EditorTool Name="Italic" />
-	           <telerik:EditorTool Name="Underline" />
-	       </telerik:EditorToolGroup>
-	   </Tools>
-	</telerik:RadEditor> 
+````ASP.NET
+<telerik:RadComboBox
+   ID="RadComboBox1"
+   runat="server"
+   AutoPostBack="True"
+   OnSelectedIndexChanged="RadComboBox1_SelectedIndexChanged"
+   Skin="Vista"
+   AllowCustomText="True">
+</telerik:RadComboBox>
+<asp:Button ID="btnNew" runat="server" OnClick="btnNew_Click" Text="New" />
+<asp:Button ID="btnSave" runat="server" Text="Save" OnClick="btnSave_Click" /><br />
+<telerik:RadEditor ID="RadEditor1" runat="server" Skin="Vista" Width="500px" Height="400px">               
+   <Tools>
+	   <telerik:EditorToolGroup>
+		   <telerik:EditorTool Name="Bold" />
+		   <telerik:EditorTool Name="Italic" />
+		   <telerik:EditorTool Name="Underline" />
+	   </telerik:EditorToolGroup>
+   </Tools>
+</telerik:RadEditor> 
 ````
-
-
 
 ## Handle Events in Code-Behind
 
 1. In the designer, double-click the surface of the web page to navigate to the Page_Load event handler. Replace the event handler with the following code:
 
-
-
-````C#
+	**C#**
+		
 		protected void Page_Load(object sender, EventArgs e)
 		{
 			if (!IsPostBack)
@@ -101,21 +95,19 @@ In a new AJAX Enabled Web Application:
 				ReadAllEmail();
 			}
 		} 
-````
-````VB.NET
+
+	**VB**
+		
 		Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
 			If Not IsPostBack Then
 				ReadAllEmail()
 			End If
 		End Sub
-````
-
 
 1. Add a series of helper methods to create a connection to the Access database, update, insert and read records:
 
-
-
-````C#
+	**C#**
+		
 		// Helper Methods
 		// Returns a connection to the Access Database
 		private OleDbConnection CreateConnection()
@@ -167,8 +159,9 @@ In a new AJAX Enabled Web Application:
 			command.ExecuteNonQuery();
 			connection.Close();
 		} 
-````
-````VB.NET
+
+	**VB**
+		
 		' Helper Methods
 		' Returns a connection to the Access Database
 		Private Function CreateConnection() As OleDbConnection
@@ -212,52 +205,50 @@ In a new AJAX Enabled Web Application:
 			command.ExecuteNonQuery()
 			connection.Close()
 		End Sub
-````
-
 
 1. In the designer, double-click the RadComboBox control to create a **SelectedIndexChanged** event handler. Replace the event handler with the code below. In this snippet, the **SelectedValue** contains the ID for the selected record.
 
 
 
-````C#
+	**C#**
+		
 		protected void RadComboBox1_SelectedIndexChanged(object o, Telerik.Web.UI.RadComboBoxSelectedIndexChangedEventArgs e)
 		{
 			RadEditor1.Content = ReadEmail((o as RadComboBox).SelectedValue);
 		} 
-````
-````VB.NET
+
+	**VB**
+		
 		Protected Sub RadComboBox1_SelectedIndexChanged(ByVal o As Object, ByVal e As Telerik.Web.UI.RadComboBoxSelectedIndexChangedEventArgs) _
 		Handles RadComboBox1.SelectedIndexChanged
 			RadEditor1.Content = ReadEmail((TryCast(o, RadComboBox)).SelectedValue)
 		End Sub
-````
 
 
 1. In the designer, double-click the "btnNew" Button control to create a **Click** event handler. Replace the event handler with the code below.
 
-
-
-````C#
+	**C#**
+		
 		protected void btnNew_Click(object sender, EventArgs e)
 		{
 			RadComboBox1.SelectedIndex = -1;
 			RadEditor1.Content = "";
 		} 
-````
-````VB.NET
+
+	**VB**
+	
 		Protected Sub btnNew_Click(ByVal sender As Object, ByVal e As EventArgs) _
 		Handles btnNew.Click
 			RadComboBox1.SelectedIndex = -1
 			RadEditor1.Content = ""
 		End Sub
-````
-
 
 1. In the designer, double-click the "btnSave" Button control to create a **Click** event handler. Replace the event handler with the code below.
 
 
 
-````C#
+	**C#**
+		
 		protected void btnSave_Click(object sender, EventArgs e)
 		{
 			if (RadComboBox1.SelectedIndex == -1)
@@ -269,8 +260,9 @@ In a new AJAX Enabled Web Application:
 					RadEditor1.Content);
 			ReadAllEmail();
 		} 	
-````
-````VB.NET
+
+	**VB**
+		
 		Protected Sub btnSave_Click(ByVal sender As Object, ByVal e As EventArgs) _
 		Handles btnSave.Click
 			If RadComboBox1.SelectedIndex = -1 Then
@@ -280,11 +272,10 @@ In a new AJAX Enabled Web Application:
 			End If
 			ReadAllEmail()
 		End Sub
-````
 
 
 1. Press **F5** to run the application. As you change selections in the RadComboBox list, the content of the RadEditor should change in unison. Make changes to content and click the save button. Navigate to and from the edited record to verify that the content has been saved to the database.
 
-# See Also
+## See Also
 
  * [Save In Database](http://demos.telerik.com/aspnet/prometheus/Editor/Examples/SaveInDatabase/DefaultCS.aspx)

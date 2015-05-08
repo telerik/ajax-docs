@@ -10,10 +10,6 @@ position: 4
 
 # Blank Dialogs Problem
 
-
-
-## 
-
 **Problem:**
 
 The RadEditor dialogs are loaded empty or throw an error: "The page cannot be found"

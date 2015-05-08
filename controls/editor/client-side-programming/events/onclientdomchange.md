@@ -10,26 +10,13 @@ position: 5
 
 # OnClientDomChange
 
-
-
-## 
-
-
-
-The **OnClientDomChange** event is useful in scenarios where the developer wants to customize the linkobject returned by the Hyperlink, Document Manager and Insert Link dialog before it is getting inserted in the content area.For example the developer can apply or remove styles, attributes and/or append other HTML elements to the returned by the dialog link.
-
-
-
-
->caption  
+The **OnClientDomChange** event is useful in scenarios where the developer wants to customize the link object returned by the Hyperlink, Document Manager and Insert Link dialog before it is getting inserted in the content area.For example the developer can apply or remove styles, attributes and/or append other HTML elements to the returned by the dialog link.
 
 |  **function OnClientDomChange(editor, args)**  |  |  |
 | ------ | ------ | ------ |
 | **editor** | **object** |Returns a reference to RadEditor client object|
 | **args** | **object** |Returns the needed information about the event|
 
-
->caption  
 
 |  **args parameter methods**  |  |
 | ------ | ------ |
@@ -53,31 +40,31 @@ Tools supporting the OnClientDomChange event:
 
 * InsertLink
 
-**Example:**The code below demonstrates how to check whether the inserted link through the Link Manager has a "**title**" attribute set and if it doesn't then urge the user to enter a **title** via the browser's prompt dialog:
+>caption Example: The code below demonstrates how to check whether the inserted link through the Link Manager has a "**title**" attribute set and if it doesn't then urge the user to enter a **title** via the browser's prompt dialog:
 
-````ASPNET
-		<script type="text/javascript">
-			function OnClientDomChange(editor, args) {
-	
-				var commandName = args.get_commandName();
-				var value = args.get_value();
-	
-				if (commandName == "LinkManager") {
-					var link = value;
-					//See if the inserted link has a title attribute and if not prompt the user to set
-					if (!link.title) {
-						var titleAttribute = prompt("No tooltip specified. Please specify a title attribute for the link", "");
-						link.setAttribute("title", titleAttribute);
-					}
-				}
+````ASP.NET
+<script type="text/javascript">
+	function OnClientDomChange(editor, args) {
+
+		var commandName = args.get_commandName();
+		var value = args.get_value();
+
+		if (commandName == "LinkManager") {
+			var link = value;
+			//See if the inserted link has a title attribute and if not prompt the user to set
+			if (!link.title) {
+				var titleAttribute = prompt("No tooltip specified. Please specify a title attribute for the link", "");
+				link.setAttribute("title", titleAttribute);
 			}
-		</script>
-		<telerik:RadEditor runat="server" OnClientDomChange="OnClientDomChange" ID="RadEditor1"></telerik:RadRditor>
-		</telerik:RadEditor>
+		}
+	}
+</script>
+<telerik:RadEditor runat="server" OnClientDomChange="OnClientDomChange" ID="RadEditor1"></telerik:RadRditor>
+</telerik:RadEditor>
 ````
 
 
 
-# See Also
+## See Also
 
  * [OnClientDomChange Live Example](http://demos.telerik.com/aspnet/prometheus/Editor/Examples/OnClientDomChange/DefaultCS.aspx)

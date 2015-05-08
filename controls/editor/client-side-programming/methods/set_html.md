@@ -10,11 +10,7 @@ position: 12
 
 # set_html
 
-
-
 You can find here more details about the usage of the client-side **set_html()** method.
-
-## 
 
 The method can accept 4 parameters:
 
@@ -34,19 +30,19 @@ The table below shows more details about their purpose:
 
 The example below demonstrates how to clean the content in the content area from a standard input button:
 
-````ASPNET
-	<telerik:radeditor runat="server" ID="RadEditor1">
-	   <Content>
-	       Here is sample content!
-	   </Content>
-	</telerik:radeditor>
-	<input type="button" value="reset" onclick="ResetContent();return false;" />
-	<script type="text/javascript">
-		function ResetContent() {
-			var editor = $find("<%=RadEditor1.ClientID%>"); //get a reference to RadEditor client object
-			editor.set_html(""); //reset the content
-		}
-	</script> 
+````ASP.NET
+<telerik:radeditor runat="server" ID="RadEditor1">
+   <Content>
+	   Here is sample content!
+   </Content>
+</telerik:radeditor>
+<input type="button" value="reset" onclick="ResetContent();return false;" />
+<script type="text/javascript">
+	function ResetContent() {
+		var editor = $find("<%=RadEditor1.ClientID%>"); //get a reference to RadEditor client object
+		editor.set_html(""); //reset the content
+	}
+</script> 
 ````
 
 

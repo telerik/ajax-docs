@@ -10,13 +10,9 @@ position: 11
 
 # ModulesManager Object
 
-
-
 The ModulesManager object exposes the following public methods and properties to control its behavior:
 
-## 
-
-ModulesManager Client-Side Methods
+>caption ModulesManager Client-Side Methods
 
 
 | Name | Parameters | Return Type | Description |
@@ -24,6 +20,4 @@ ModulesManager Client-Side Methods
 |get_modules||Array|Returns the modules collection.|
 |getModuleByName||Telerik.Web.UI.Editor.Modules.ModuleBase|Initializes the modules manager.|
 |initialize|||Initializes the modules manager.|
-|setModulesVisible|`Boolean`||Sets the visibility states of the modules.The method takes the following arguments:
-
-1. bVisible - Indicates whether to show or hide the modules.|
+|setModulesVisible|`Boolean`||Sets the visibility states of the modules.The method takes the following arguments: **bVisible** - Indicates whether to show or hide the modules.|

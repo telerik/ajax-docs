@@ -10,28 +10,13 @@ position: 4
 
 # OnClientCommandExecuted
 
-
-
-## 
-
-
-
 This event is fired after a command is executed.
-
-
-
-
->caption  
 
 |  **function OnClientCommandExecuted(editor, args)**  |  |  |
 | ------ | ------ | ------ |
 | **editor** | **object** |Returns a reference to RadEditor client object|
 | **args** | **object** |Returns the needed information about the event|
 
-
-
-
->caption  
 
 |  **args parameter methods**  |  |
 | ------ | ------ |
@@ -40,18 +25,16 @@ This event is fired after a command is executed.
 | **args.set_value()** |Sets the new content to be pasted in RadEditor|
 | **args.get_cancel(true)** |Cancels the command execution|
 
-````ASPNET
-	     
-	
-	<script type="text/javascript">
-	    function OnClientCommandExecuted(editor, args)
-	    {
-	        alert("Executed command was " + args.get_commandName());
-	    }
-	</script>
-	<telerik:radeditor runat="server" ID="RadEditor1" OnClientCommandExecuted="OnClientCommandExecuted">
-	</telerik:radeditor>
-				
+````ASP.NET	 
+
+<script type="text/javascript">
+	function OnClientCommandExecuted(editor, args)
+	{
+		alert("Executed command was " + args.get_commandName());
+	}
+</script>
+<telerik:radeditor runat="server" ID="RadEditor1" OnClientCommandExecuted="OnClientCommandExecuted">
+</telerik:radeditor>			
 ````
 
 

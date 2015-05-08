@@ -10,14 +10,8 @@ position: 18
 
 # showDialog
 
-
-
-## 
-
 Shows a dialog with the supplied arguments.
-
-
->caption  
+ 
 
 |  **showDialog : function(dialogName, argument, callbackFunction)**  |  |  |
 | ------ | ------ | ------ |
@@ -25,7 +19,7 @@ Shows a dialog with the supplied arguments.
 | **argument** |object|dialog argument|
 | **callbackFunction** |integer|a reference or the name of the function to be executed when the dialog is closed;The dialog should return a value when closing in order for the callback function to be executed.|
 
-# See Also
+## See Also
 
  * [Custom Dialogs]({%slug editor/functionality/dialogs/custom-dialogs%})
 

@@ -11,18 +11,15 @@ position: 4
 # getting width
 
 
-
-## 
-
 To get the width of the editor, first get the editor's HTML element, then retrieve the style.width.
 
 ````JavaScript
-	
-	        function onClientLoad(editor, args)
-	        {
-	            alert('Editor width is: ' + editor.get_element().style.width); 
-	        }
-	
+function onClientLoad(editor, args)
+{
+	alert('Editor width is: ' + editor.get_element().style.width); 
+}
 ````
+
+
 
 

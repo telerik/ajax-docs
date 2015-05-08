@@ -10,12 +10,7 @@ position: 4
 
 # Dialogs' CSS Classes
 
-
-
 ## General Dialogs Specific CSS
-
-
->caption  
 
 |  **CSS Class**  |  **Description**  |
 | ------ | ------ |
@@ -25,9 +20,6 @@ position: 4
 |fieldset|Same as above|
 
 ## Image Manager Toolbar Icons
-
-
->caption  
 
 |  **CSS Class**  |  **Description**  |
 | ------ | ------ |
@@ -46,9 +38,6 @@ position: 4
 
 ## Custom Settings for RadTabStrip
 
-
->caption  
-
 |  **CSS Class**  |  **Description**  |
 | ------ | ------ |
 |.RadTabStrip ul|RadTabStrip unordered list|
@@ -60,9 +49,6 @@ position: 4
 |.reBottomcell|RadEditor bottom cell|
 
 ## Link Manager
-
-
->caption  
 
 |  **CSS Class**  |  **Description**  |
 | ------ | ------ |
@@ -78,9 +64,6 @@ position: 4
 
 ## Constrain Proportions Button
 
-
->caption  
-
 |  **CSS Class**  |  **Description**  |
 | ------ | ------ |
 |.ConstrainProportions button|Constrain proportions button|
@@ -88,17 +71,12 @@ position: 4
 
 ## Format Code Block
 
-
->caption  
-
 |  **CSS Class**  |  **Description**  |
 | ------ | ------ |
 |.FormatCodeBlock input|Format code block input|
 
 ## Table Wizard SpinBox
 
-
->caption  
 
 |  **CSS Class**  |  **Description**  |
 | ------ | ------ |
@@ -110,9 +88,7 @@ position: 4
 |.reTableWizardSpinBox .reTableWizardSpinBox_Decrease|Table wizard spinbox decrease|
 
 ## Table Design
-
-
->caption  
+ 
 
 |  **CSS Class**  |  **Description**  |
 | ------ | ------ |
@@ -122,9 +98,7 @@ position: 4
 |.tableDesign .selectedCell|Table design selected cell|
 
 ## Table Properties Toolbar
-
-
->caption  
+  
 
 |  **CSS Class**  |  **Description**  |
 | ------ | ------ |
@@ -147,9 +121,7 @@ position: 4
 |.tblBorderPropsToolbar .textinput|Table properties toolbar text input|
 
 ## Bordered Table
-
-
->caption  
+ 
 
 |  **CSS Class**  |  **Description**  |
 | ------ | ------ |
@@ -162,18 +134,12 @@ position: 4
 
 ## Dialog Label
 
-
->caption  
-
 |  **CSS Class**  |  **Description**  |
 | ------ | ------ |
 |.reDialogLabel span|RadEditor dialog label span|
 |.reDialogLabelShort span|RadEditor dialog label short span|
 
 ## Controls Layout
-
-
->caption  
 
 |  **CSS Class**  |  **Description**  |
 | ------ | ------ |
@@ -182,9 +148,6 @@ position: 4
 |.reControlsLayout .reControlCell|RadEditor Controls Layout control cell|
 
 ## Find and Replace Dialog
-
-
->caption  
 
 |  **CSS Class**  |  **Description**  |
 | ------ | ------ |
@@ -200,16 +163,12 @@ position: 4
 ## Set Image Properties
 
 
->caption  
-
 |  **CSS Class**  |  **Description**  |
 | ------ | ------ |
 |.ImageProperties .reImageDialogCaller input|Image properties dialog caller input|
 
 ## Help Dialog
-
-
->caption  
+ 
 
 |  **CSS Class**  |  **Description**  |
 | ------ | ------ |
@@ -222,17 +181,13 @@ position: 4
 ## Page Properties
 
 
->caption  
-
 |  **CSS Class**  |  **Description**  |
 | ------ | ------ |
 |.PageProperties .reImageDialogCaller input|Page properties image dialog caller input|
 |.PageProperties .reImageDialogCaller .reTool|Page properties image dialog caller RadEditor tool|
 
 ## About Dialog
-
-
->caption  
+ 
 
 |  **CSS Class**  |  **Description**  |
 | ------ | ------ |
@@ -246,8 +201,6 @@ position: 4
 ## Image Dialog Caller
 
 
->caption  
-
 |  **CSS Class**  |  **Description**  |
 | ------ | ------ |
 |.reImageDialogCaller|Image dialog caller content|
@@ -256,18 +209,13 @@ position: 4
 |#ImageMap_AreaTarget|Image map area target|
 
 ## File Manager Dialogs
-
-
->caption  
+  
 
 |  **CSS Class**  |  **Description**  |
 | ------ | ------ |
 |.RadFileExplorer|RadFile Explorer content - The RadEditor dialogs are using some of the other controls from the Telerik UI for ASP.NET AJAX and inherits their CSS, it is necessary to overwrite some general styles to avoid unwanted behavior.|
 
 ## Image Editor Toolbar Item
-
-
->caption  
 
 |  **CSS Class**  |  **Description**  |
 | ------ | ------ |
@@ -279,9 +227,7 @@ position: 4
 |.radfe_addressBox, .RadSplitter, .FileExplorerPlaceholder|The RadEditor dialogs are using some of the other controls from the Telerik UI for ASP.NET AJAX and inherits their CSS, it is necessary to overwrite some general styles to avoid unwanted behavior.|
 
 ## Image Properties Pane in Image Manager Dialog
-
-
->caption  
+ 
 
 |  **CSS Class**  |  **Description**  |
 | ------ | ------ |
@@ -297,9 +243,7 @@ position: 4
 |.DialogSeparator|Manager dialog seprator|
 
 ## Flash Manager
-
-
->caption  
+ 
 
 |  **CSS Class**  |  **Description**  |
 | ------ | ------ |
@@ -307,9 +251,7 @@ position: 4
 |.mediaPreviewer select|Media previewer select|
 
 ## Link Manager
-
-
->caption  
+  
 
 |  **CSS Class**  |  **Description**  |
 | ------ | ------ |
@@ -331,8 +273,6 @@ position: 4
 ## Insert Table Dialog Test Table
 
 
->caption  
-
 |  **CSS Class**  |  **Description**  |
 | ------ | ------ |
 |.tblBorderTestTable|Table Dialog test TABLE|
@@ -342,7 +282,6 @@ position: 4
 ## Upload Container
 
 
->caption  
 
 |  **CSS Class**  |  **Description**  |
 | ------ | ------ |

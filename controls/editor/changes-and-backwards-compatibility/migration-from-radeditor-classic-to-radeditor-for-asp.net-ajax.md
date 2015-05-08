@@ -11,7 +11,6 @@ position: 1
 # Migration from RadEditor Classic to RadEditor for ASP.NET AJAX
 
 
-
 ## Migration from RadEditor Classic to RadEditor for ASP.NET AJAX
 
 You can find below the list of steps to migrate your web applications from the classic RadEditor to RadEditor for ASP.NET AJAX:
@@ -22,7 +21,7 @@ You can find below the list of steps to migrate your web applications from the c
 
 1. If your web application is not using ASP.NET AJAX you need to configure it to do so. Detailed instructions can be found at [http://ajax.asp.net/docs/ConfiguringASPNETAJAX.aspx](http://ajax.asp.net/docs/ConfiguringASPNETAJAX.aspx) (check the topic called Adding ASP.NET AJAX Configuration Elements to an Existing Web Site)
 
-1. Add a ScriptManager control to the page (or user control) in which you are going to add any control from the Telerik UI for ASP.NET AJAX suite. <asp:ScriptManager ID="ScriptManager1" runat="server" />If your page is a content page you can add the ScriptManager control in your master page. For further details about the ScriptManager control you can check [http://ajax.asp.net/docs/overview/ScriptManagerOverview.aspx](http://ajax.asp.net/docs/overview/ScriptManagerOverview.aspx).
+1. Add a ScriptManager control to the page (or user control) in which you are going to add any control from the Telerik UI for ASP.NET AJAX suite. `<asp:ScriptManager ID="ScriptManager1" runat="server" />` If your page is a content page you can add the ScriptManager control in your master page. For further details about the ScriptManager control you can check [http://ajax.asp.net/docs/overview/ScriptManagerOverview.aspx](http://ajax.asp.net/docs/overview/ScriptManagerOverview.aspx).
 
 1. Drag and drop a control from the Telerik UI for ASP.NET AJAX package or manually copy the Telerik.Web.UI.dll in the Bin folder.
 
@@ -45,11 +44,6 @@ You can find below the list of steps to migrate your web applications from the c
 **Changes in RadEditor for ASP.NET AJAX**
 
 **Server-Side API:** There have been big changes made here but we tried to provide as much backward compatibility as possible and keep the client-side API.The table below shows all the changed/removed and new properties in new RadEditor for ASP.NET AJAX:
-
-
-
-
->caption  
 
 |  **Old Name**  |  **New Name**  |  **Type**  | Status |
 | ------ | ------ | ------ | ------ |
@@ -83,9 +77,6 @@ You can find below the list of steps to migrate your web applications from the c
 | **StripFormattingOnPaste** | **StripFormattingOptions** |enum| **Changed** |
 
 **Client-Side API:** All important properties are kept. Some of the unimportant properties have been removed. We have strived to provide maximal backward compatibility for an easy transition to the new editor.
-
-
->caption  
 
 |  **Old Name**  |  **New Name**  |  **Type**  |  ** **Change** **  |
 | ------ | ------ | ------ | ------ |

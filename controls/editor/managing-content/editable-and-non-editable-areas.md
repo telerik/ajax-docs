@@ -10,25 +10,21 @@ position: 7
 
 # Editable and Non-Editable Areas
 
-
-
 To Define editable and non-editable regions in RadEditor, you should place several DIV or SPAN element containers in the editor content area. After that, set the **unselectable="on"** attribute to their tags in order to prohibit selection of these elements. You should also set the **contentEditable** attribute to "**false**" to put these elements in non-editable mode.
 
 Here is an example:
 
-````XML
-	    <div style="border: red 1px solid;" contenteditable="false" unselectable="on">
-	        Non Editable AREA
-	        <div style="border: green 1px solid;" contenteditable="true" unselectable="off">
-	            <!--Content name="info" -->
-	            Editable REGION...
-	            <!--/Content -->
-	        </div>
-	        Non Editable AREA
-	    </div>
+````HTML
+<div style="border: red 1px solid;" contenteditable="false" unselectable="on">
+	Non Editable AREA
+	<div style="border: green 1px solid;" contenteditable="true" unselectable="off">
+		<!--Content name="info" -->
+		Editable REGION...
+		<!--/Content -->
+	</div>
+	Non Editable AREA
+</div>
 ````
-
-
 
 The end result will be as follows:
 
@@ -40,18 +36,12 @@ To disable the content editing in Firefox (Mozilla) use the [-moz-user-select: n
 
 The following sample code provides a simple "Hello, World!" text which prevents the user from selecting the content:
 
-````XML
-	    <span style="-moz-user-select: none;">Hello, World!</span>
+````HTML
+<span style="-moz-user-select: none;">Hello, World!</span>
 ````
-
-
-
-## 
 
 Legal Values of the -moz-user-select css property
 
-
->caption  
 
 | Value | Description |
 | ------ | ------ |

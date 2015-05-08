@@ -10,44 +10,38 @@ position: 2
 
 # fire
 
-
-
-## 
-
 Executes RadEditor commands.
 
+`function fire(COMMAND_NAME, args)`
 
->caption  
-
-|  **function fire(COMMAND_NAME, args)**  |  |  |
+|  argument  | type | description |
 | ------ | ------ | ------ |
-| **COMMAND_NAME** | **string** |The command name represents the name of the tool as it is specified in the inner <telerik:EditorTool tag, in the codebehind or in ToolsFile.xml.|
+| **COMMAND_NAME** | **string** |The command name represents the name of the tool as it is specified in the inner `<telerik:EditorTool` tag, in the code behind or in ToolsFile.xml.|
 | **args** | **object** |Returns the needed information about the event|
 
 The example below demonstrates how to add a custom MyBold button to the editor's toolbar and when pressed to fire the editor's bold command:
 
-````ASPNET
-	    <telerik:RadEditor ID="RadEditor1" runat="server">
-	        <Tools>
-	            <telerik:EditorToolGroup>
-	                <telerik:EditorTool Name="MyBold" ShowText="true" ShowIcon="false" />
-	            </telerik:EditorToolGroup>
-	        </Tools>
-	    </telerik:RadEditor>
-	    <script type="text/javascript">
-	        Telerik.Web.UI.Editor.CommandList["MyBold"] = function (commandName, editor, args)
-	        {
-	            editor.fire("Bold");
-	        };
-	    </script>
+````ASP.NET
+<telerik:RadEditor ID="RadEditor1" runat="server">
+	<Tools>
+		<telerik:EditorToolGroup>
+			<telerik:EditorTool Name="MyBold" ShowText="true" ShowIcon="false" />
+		</telerik:EditorToolGroup>
+	</Tools>
+</telerik:RadEditor>
+<script type="text/javascript">
+	Telerik.Web.UI.Editor.CommandList["MyBold"] = function (commandName, editor, args)
+	{
+		editor.fire("Bold");
+	};
+</script>
 ````
 
 
 
 >note The custom command should be placed BELOW the editor declaration.
->
 
 
-# See Also
+## See Also
 
  * [Custom Dialogs]({%slug editor/functionality/dialogs/custom-dialogs%})

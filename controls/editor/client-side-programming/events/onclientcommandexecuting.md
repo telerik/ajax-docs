@@ -10,22 +10,13 @@ position: 3
 
 # OnClientCommandExecuting
 
-
-
-## 
-
 This event is fired just before a command is executed.
-
-
->caption  
 
 |  **function OnClientCommandExecuting(editor, args)**  |  |  |
 | ------ | ------ | ------ |
 | **editor** | **object** |Returns a reference to RadEditor client object|
 | **args** | **object** |Returns the needed information about the event|
 
-
->caption  
 
 |  **args parameter methods**  |  |
 | ------ | ------ |
@@ -37,26 +28,26 @@ This event is fired just before a command is executed.
 
 The following example demonstrates how to alert the selected dropdown item name and value:
 
-````ASPNET
-	    <script type="text/javascript">
-	        function OnClientCommandExecuting(editor, args)
-	        {    
-	            //The command name    
-	            var commandName = args.get_commandName();               
-	            //The tool that initiated the command    
-	            var tool = args.get_tool();                   
-	            //The selected value [if command is coming from a dropdown]    
-	            var value = args.get_value();           
-	
-	            //Perform some action     
-	            var message = "OnClientCommandExecuting.\nSelected value: " + value;                                           
-	            var answer = confirm(message + "\nExecute command " + commandName +"?");
-	            //Cancel the command execution by calling args.set_cancel(true);    
-	            args.set_cancel(!answer);
-	        }
-	    </script>
-	    <telerik:RadEditor runat="server" ID="RadEditor1" OnClientCommandExecuting="OnClientCommandExecuting">
-	    </telerik:RadEditor>
+````ASP.NET
+<script type="text/javascript">
+	function OnClientCommandExecuting(editor, args)
+	{    
+		//The command name    
+		var commandName = args.get_commandName();               
+		//The tool that initiated the command    
+		var tool = args.get_tool();                   
+		//The selected value [if command is coming from a dropdown]    
+		var value = args.get_value();           
+
+		//Perform some action     
+		var message = "OnClientCommandExecuting.\nSelected value: " + value;                                           
+		var answer = confirm(message + "\nExecute command " + commandName +"?");
+		//Cancel the command execution by calling args.set_cancel(true);    
+		args.set_cancel(!answer);
+	}
+</script>
+<telerik:RadEditor runat="server" ID="RadEditor1" OnClientCommandExecuting="OnClientCommandExecuting">
+</telerik:RadEditor>
 ````
 
 

@@ -10,13 +10,7 @@ position: 0
 
 # Editor Overview
 
-
-
-## 
->caption 
-
 ![](images/editor-productlogolight.gif)
->caption 
 
 ![](images/radeditorpreview.png)
 
@@ -48,7 +42,7 @@ Thank you for choosing **Telerik RadEditor for ASP.NET AJAX! RadEditor for ASP.N
 
 * Ability to have editors with different skins on the same page
 
-# See Also
+## See Also
 
  * [Overview]({%slug editor/getting-started/overview%})
 

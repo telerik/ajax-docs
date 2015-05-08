@@ -10,10 +10,6 @@ position: 0
 
 # Dialogs Overview
 
-
-
-## 
-
 RadEditor offers FileBrowser dialogs such as
 
 * Image Manager
@@ -36,25 +32,26 @@ These dialogs are enabled by default. Dialog visibility can be toggled using the
 
 RadEditor offers FileBrowser dialogs such as ImageManager, FlashManager and DocumentManager as well as others such as the HyperlinkManager, the About and Help dialogs.
 
-To enable dialogs, use the Smart Tag __Enable RadEditor Dialogs__ option.
->caption 
+To enable dialogs, use the Smart Tag **Enable RadEditor Dialogs** option.
 
 ![](images/editor-ataglance001.png)
 
 Running the Smart Tag option will add the following web.config HttpHandler entry:
 
+>caption web.config sample
+
 ````XML
-	    <httpHandlers>  
-	        ...  
-	        <add path="Telerik.Web.UI.DialogHandler.aspx" verb="*" type="Telerik.Web.UI.DialogHandler" validate="false" />
-	    </httpHandlers>
-	    ...
-	    <system.webServer>    
-	        <handlers>      
-	            ...      
-	            <add name="Telerik_Web_UI_DialogHandler_aspx" verb="*" preCondition="integratedMode" path="Telerik.Web.UI.DialogHandler.aspx" type="Telerik.Web.UI.DialogHandler" />    
-	        </handlers>  
-	    </system.webServer>
+<httpHandlers>  
+	...  
+	<add path="Telerik.Web.UI.DialogHandler.aspx" verb="*" type="Telerik.Web.UI.DialogHandler" validate="false" />
+</httpHandlers>
+...
+<system.webServer>    
+	<handlers>      
+		...      
+		<add name="Telerik_Web_UI_DialogHandler_aspx" verb="*" preCondition="integratedMode" path="Telerik.Web.UI.DialogHandler.aspx" type="Telerik.Web.UI.DialogHandler" />    
+	</handlers>  
+</system.webServer>
 ````
 
 

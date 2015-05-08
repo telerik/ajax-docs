@@ -10,14 +10,8 @@ position: 6
 
 # OnClientModeChange
 
-
-
-## 
-
 This event is fired before the mode is changed.
 
-
->caption  
 
 |  **function OnClientModeChange(editor, args)**  |  |  |
 | ------ | ------ | ------ |
@@ -26,29 +20,29 @@ This event is fired before the mode is changed.
 
 The following example demonstrates how to check the current mode of Telerik RadEditor:
 
-````XML
-	<script type="text/javascript">
-	    function OnClientModeChange(editor, args)
-	    {
-	        var mode = editor.get_mode();
-	        switch (mode)
-	        {
-	            case 1:
-	                alert("We are in Design mode");
-	                //do something
-	                break;
-	            case 2:
-	                alert("We are in Html mode");
-	                //do something
-	                break;
-	            case 4:
-	                alert("We are in Preview mode");
-	                //do something
-	                break;
-	        }
-	    }
-	</script>
-	<telerik:radeditor runat="server" OnClientModeChange="OnClientModeChange" ID="RadEditor1"></telerik:radeditor>   
+````ASP.NET
+<script type="text/javascript">
+	function OnClientModeChange(editor, args)
+	{
+		var mode = editor.get_mode();
+		switch (mode)
+		{
+			case 1:
+				alert("We are in Design mode");
+				//do something
+				break;
+			case 2:
+				alert("We are in Html mode");
+				//do something
+				break;
+			case 4:
+				alert("We are in Preview mode");
+				//do something
+				break;
+		}
+	}
+</script>
+<telerik:radeditor runat="server" OnClientModeChange="OnClientModeChange" ID="RadEditor1"></telerik:radeditor>   
 ````
 
 

@@ -9,47 +9,38 @@ position: 6
 ---
 
 # get_html
-
-
-
-## 
-
-
-
 Returns the editor content as HTML.
 
+`function get_html(isFiltered)` 
 
->caption  
-
-|  **function**  **get_html(isFiltered)**  |  |  |
+|  argument  | type | description |
 | ------ | ------ | ------ |
 | **isFiltered** | **bool** |if set to **true** , the returned HTML content will be modified by the RadEditor client filters|
 
 
-
 The example below demonstrates how to limit the content length in the editor:
 
-````ASPNET
-	<script type="text/javascript">
-	    var limitNum = 10;
-	    var message = 'You are not able to type more than ' + limitNum + ' symbols!';
-	    function OnClientLoad(editor, args)
-	    {
-	        var oFun = function ()
-	        {
-	            var oValue = editor.get_html(true); //get the HTML content
-	            if (oValue.length > limitNum)
-	            {
-	                editor.set_html(oValue.substring(0, limitNum));
-	                alert(message);
-	            }
-	        };
-	        editor.attachEventHandler("onkeyup", oFun);
-	        editor.attachEventHandler("onkeydown", oFun);
-	
-	    }
-	</script>
-	<telerik:radeditor runat="server" OnClientLoad="OnClientLoad" ID="RadEditor1"></telerik:radeditor> 
+````ASP.NET
+<script type="text/javascript">
+	var limitNum = 10;
+	var message = 'You are not able to type more than ' + limitNum + ' symbols!';
+	function OnClientLoad(editor, args)
+	{
+		var oFun = function ()
+		{
+			var oValue = editor.get_html(true); //get the HTML content
+			if (oValue.length > limitNum)
+			{
+				editor.set_html(oValue.substring(0, limitNum));
+				alert(message);
+			}
+		};
+		editor.attachEventHandler("onkeyup", oFun);
+		editor.attachEventHandler("onkeydown", oFun);
+
+	}
+</script>
+<telerik:radeditor runat="server" OnClientLoad="OnClientLoad" ID="RadEditor1"></telerik:radeditor> 
 ````
 
 

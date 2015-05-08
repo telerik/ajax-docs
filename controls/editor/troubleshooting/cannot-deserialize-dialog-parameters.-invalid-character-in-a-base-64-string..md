@@ -10,14 +10,9 @@ position: 5
 
 # Cannot Deserialize Dialog Parameters. Invalid character in a Base-64 string.
 
-
-
-## 
-
 **Error:**
 
 Cannot Deserialize Dialog Parameters. Invalid character in a Base-64 string.
->caption 
 
 ![](images/editor-radspellerror.jpg)
 
@@ -30,9 +25,9 @@ A specific encryption key could be forced for the editor/spell dialogs with the 
 You can use any combination of letters and numbers - the key has no specific format. 46 bytes is 46 characters. For example you can use **2u4kjbfoiuhtk2lh4bgl4i2gbvhjbajhbk3jhtrgkjhrtgkjf324** as a key value
 
 ````XML
-	    <appSettings>
-	        <add key="Telerik.Web.UI.DialogParametersEncryptionKey" value="2C23234234D4566DC4AD6A-63D6-4db9-A3FB-3adfasd6846D"/> 
-	    </appSettings>
+<appSettings>
+	<add key="Telerik.Web.UI.DialogParametersEncryptionKey" value="2C23234234D4566DC4AD6A-63D6-4db9-A3FB-3adfasd6846D"/> 
+</appSettings>
 ````
 
 

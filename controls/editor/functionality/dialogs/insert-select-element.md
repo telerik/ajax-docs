@@ -10,11 +10,9 @@ position: 3
 
 # Insert Select Element
 
+**Insert Select dialog** offers a way to easily create or edit `<select>` dropdowns in RadEditor. It consists of two panels - the first one is for **adding and removing options elements** while the second one is for **setting up the properties** of the drop-down list:
 
-
-## 
-
-**Insert Select dialog** offers a way to easily create or edit **<select>**dropdowns in RadEditor. It consists of two panels - the first one is for **adding and removing options elements** while the second one is for **setting up the properties** of the drop-down list:![editor-insertselect](images/editor-insertselect.png)
+![editor-insertselect](images/editor-insertselect.png)
 
 **Add/Remove Options** Panel:
 
@@ -32,7 +30,7 @@ position: 3
 
 * **Width/Height** - Specifies the height and the width of the drop-down list (in pixels or percent)
 
-* **Style builder** - Opens another dialog that allows for fine tuningthe appearance of the drop-down list (e.g. borders, alignment, spacing, etc.)
+* **Style builder** - Opens another dialog that allows for fine tuning the appearance of the drop-down list (e.g. borders, alignment, spacing, etc.)
 
 * **CSS Class** - Specifies Select CSS class and style. This property should be used only by advanced users
 

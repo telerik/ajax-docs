@@ -10,14 +10,11 @@ position: 12
 
 # Insert Table
 
-
-
 RadEditor offers two ways for creating tables. The best approach depends on your preferences and the table complexity:
 
 * For simple tables we recommend the click-and-drag Table Builder 
 
 * For more complex tables, the Table Wizard is more appropriate.
->caption 
 
 ![](images/editor-dropdowns017.png)
 
@@ -51,7 +48,7 @@ This tab allows you to configure table dimensions and layout by setting one or m
 
 * **Cell padding** - Increases or decreases the space between the content and the border of a cell.
 
-* **CSS Class Layout** - Styles the entire table by using a predefined layout. For more information see the[Table Properties CSS Class Layout toolOnline Demo](http://demos.telerik.com/aspnet-ajax/editor/examples/tablelayoutcssfile/defaultcs.aspx).
+* **CSS Class Layout** - Styles the entire table by using a predefined layout. For more information see the [Table Properties CSS Class Layout toolOnline Demo](http://demos.telerik.com/aspnet-ajax/editor/examples/tablelayoutcssfile/defaultcs.aspx).
 
 * **Style Builder** - Opens another dialog that allows for fine tuning of the various table properties (e.g. borders,alignment, spacing, etc.).
 
@@ -72,7 +69,6 @@ The Accessibility tab allows you to adjust the number of heading rows and column
 ## Table Tools
 
 The Insert Table dropdown includes tools for setting alignment and borders.
->caption 
 
 ![](images/editor-dropdowns018.png)
 

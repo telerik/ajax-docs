@@ -10,10 +10,6 @@ position: 0
 
 # Keyboard Support Overview
 
-
-
-## 
-
 RadEditor for ASP.NET AJAX is a fully keyboard navigable component. This includes shortcuts to open and operate with drop-downs, tools and dialogs, achieving true full keyboard accessibility.
 
 * Use **F10**- focus goes on toolbars
@@ -58,59 +54,48 @@ RadEditor for ASP.NET AJAX is a fully keyboard navigable component. This include
 
 You can assign a shortcut to all editor's buttons and dropdowns by using the **ShortCut** attribute of the inner telerik:EditorTool tag of the RadEditor:
 
-````ASPNET
-	    <telerik:RadEditor ID="RadEditor1" runat="server">
-	        <Tools>
-	            <telerik:EditorToolGroup>
-	                <telerik:EditorTool Name="Cut" ShortCut="Ctrl+X" />
-	                <telerik:EditorTool Name="Copy" ShortCut="Ctrl+C" />
-	                <telerik:EditorTool Name="Paste" ShortCut="Ctrl+V" />
-	            </telerik:EditorToolGroup>
-	        </Tools>
-	    </telerik:RadEditor>
+````ASP.NET
+<telerik:RadEditor ID="RadEditor1" runat="server">
+	<Tools>
+		<telerik:EditorToolGroup>
+			<telerik:EditorTool Name="Cut" ShortCut="Ctrl+X" />
+			<telerik:EditorTool Name="Copy" ShortCut="Ctrl+C" />
+			<telerik:EditorTool Name="Paste" ShortCut="Ctrl+V" />
+		</telerik:EditorToolGroup>
+	</Tools>
+</telerik:RadEditor>
 ````
-
-
 
 or in the CodeBehind:
 
 
-
 ````C#
-	     
-	
-	using Telerik.Web.UI;
-	...
-	EditorToolGroup main = new EditorToolGroup();
-	RadEditor1.Tools.Add(main);
-	EditorTool cut = new EditorTool();
-	cut.Name = "Cut";
-	cut.ShortCut = "CTRL+X";
-	main.Tools.Add(cut); 
-				
-````
+using Telerik.Web.UI;
+...
+EditorToolGroup main = new EditorToolGroup();
+RadEditor1.Tools.Add(main);
+EditorTool cut = new EditorTool();
+cut.Name = "Cut";
+cut.ShortCut = "CTRL+X";
+main.Tools.Add(cut); ````
 ````VB
-	
-	Imports Telerik.Web.UI
-	...
-	    Dim main As New EditorToolGroup()
-	RadEditor1.Tools.Add(main)
-	    Dim cut As New EditorTool()
-	cut.Name = "Cut"
-	cut.ShortCut = "CTRL+X"
-	main.Tools.Add(cut) 
-				
+Imports Telerik.Web.UI
+...
+	Dim main As New EditorToolGroup()
+RadEditor1.Tools.Add(main)
+	Dim cut As New EditorTool()
+cut.Name = "Cut"
+cut.ShortCut = "CTRL+X"
+main.Tools.Add(cut) 
 ````
 
 
-or using the **ShortCut** attribute of the **<tool>** item in the ToolsFile.xml file:
+or using the **ShortCut** attribute of the `<tool>` item in the ToolsFile.xml file:
 
 ````XML
-	    <tool name="Cut" shortcut="CTRL+X" />
-	    <tool name="Copy" shortcut="CTRL+C" />
-	    <tool name="Paste" shortcut="CTRL+V" />
+<tool name="Cut" shortcut="CTRL+X" />
+<tool name="Copy" shortcut="CTRL+C" />
+<tool name="Paste" shortcut="CTRL+V" />
 ````
-
-
 
 The shortcut mechanism will override the default shortcut of the browser, like **Ctrl+N, Ctrl+F, Ctrl+P**, so you can use those combinations for custom purposes.

@@ -10,19 +10,13 @@ position: 1
 
 # ContentAreaMode Property
 
-
-
-## 
-
 **ContentAreaMode** - This property specifies if the content area element of RadEditor is editable IFRAME or DIV. There are two values available for the property: "**Iframe**" and "**Div**". The default value is "Iframe".
-
-
 
 These are the main differences between Div and Iframe content area modes:
 
-* When "Iframe" mode is used the content area has a separate document, which does not automaticallyinherit the current page style sheets. In this mode the parent page CSS styles are manually copiedto the document of the Iframe element. This might decrease the loading performance of the controlif multiple styles are defined. In "Div" mode all the styles from the parent page are automatically applied to the content.
+* When "Iframe" mode is used the content area has a separate document, which does not automatically inherit the current page style sheets. In this mode the parent page CSS styles are manually copied to the document of the Iframe element. This might decrease the loading performance of the control if multiple styles are defined. In "Div" mode all the styles from the parent page are automatically applied to the content.
 
-* You cannot edit a[full HTML page](http://demos.telerik.com/aspnet-ajax/editor/examples/completehtmlsupport/defaultcs.aspx)in "Div" mode because the <html>element cannot be nested inside a <div> element.
+* You cannot edit a [full HTML page](http://demos.telerik.com/aspnet-ajax/editor/examples/completehtmlsupport/defaultcs.aspx)in "Div" mode because the `<html>` element cannot be nested inside a `<div>` element.
 
 * In "Div" mode the content area is part of the current page, which provides better support for https and document.domain cross server scripting.
 
@@ -36,6 +30,6 @@ These are the main differences between Div and Iframe content area modes:
 
 Div mode should be used by experienced users only who know and understand the benefits and the potential problems that may occur.
 
-# See Also
+## See Also
 
  * [ContentAreaMode='DIV' Property Demo](http://demos.telerik.com/aspnet-ajax/editor/examples/accessibleeditor/defaultcs.aspx)

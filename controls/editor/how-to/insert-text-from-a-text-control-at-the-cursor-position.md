@@ -10,35 +10,27 @@ position: 4
 
 # Insert Text from a Text Control at the Cursor Position
 
-
-
-## 
-
-
-
 The example below demonstrates how to insert text at the cursor position in RadEditor when a button is clicked:
 
 1. Add a textbox to your page:
 
-````ASPNET
-	    <telerik:RadEditor runat="server" ID="RadEditor1">
-	    </telerik:RadEditor>
-	    <asp:TextBox ID="TextBox1" runat="server" Height="97px"></asp:TextBox>
-````
-
-
+	**ASP.NET**
+	
+		<telerik:RadEditor runat="server" ID="RadEditor1">
+		</telerik:RadEditor>
+		<asp:TextBox ID="TextBox1" runat="server" Height="97px"></asp:TextBox>
 
 1. Add a button to execute the paste command:
 
-````ASPNET
-	    <input id="Insert" type="button" value="<--Insert" onclick="PasteTextInEditor(Form1.TextBox1.value);" />
-````
+	**ASP.NET**
 
+		<input id="Insert" type="button" value="<--Insert" onclick="PasteTextInEditor(Form1.TextBox1.value);" />
 
 
 1. Include the **PasteTextInEditor** method in your ascx/aspx file. Use the **pasteHtml** method to paste the content from the textbox:
 
-````XML
+	**ASP.NET**
+	
 	    <script type="text/javascript">
 	        function PasteTextInEditor(text)
 	        {
@@ -46,8 +38,6 @@ The example below demonstrates how to insert text at the cursor position in RadE
 	            editor.pasteHtml(text); //PasteHtml is a method from the editor client side API
 	        }
 	    </script>
-````
-
 
 
 1. Test the solution.

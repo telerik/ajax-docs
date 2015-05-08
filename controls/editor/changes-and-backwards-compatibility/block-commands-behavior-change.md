@@ -10,8 +10,6 @@ position: 2
 
 # Block Commands Behavior Change
 
-
-
 ## What has changed
 
 Beginning Q2 2013, in order to improve the consistency across different browsers and achieve stronger coherence with the desktop text editing applications,we have introduced major changes in the behavior of a number of RadEditor's commands handling the manipulation of block elements.	The so called Block Commands take care of	user actions which have to do with the editing, alignment, and justification of different block elements, such aslists, paragraphs, tables, etc. Common scenarios include inserting lists, aligning, and indenting/outdenting.
@@ -31,13 +29,9 @@ In order to ease the transition between the old and the new behavior of the comm
 
 This can be achieved by referencing the **LegacyCommands.js** script file which resides in**Telerik.Web.UI.Editor.RadEditor.Commands** namespace, as illustrated in the example below.
 
-````ASPNET
-			<asp:ScriptManager runat="server" ID="ScriptManager1"></asp:ScriptManager>
-			<script type="text/javascript" src='<%= Page.ClientScript.GetWebResourceUrl(typeof(RadEditor), "Telerik.Web.UI.Editor.RadEditor.Commands.LegacyCommands.js") %>'></script>
+````ASP.NET
+<asp:ScriptManager runat="server" ID="ScriptManager1"></asp:ScriptManager>
+<script type="text/javascript" src='<%= Page.ClientScript.GetWebResourceUrl(typeof(RadEditor), "Telerik.Web.UI.Editor.RadEditor.Commands.LegacyCommands.js") %>'></script>
 ````
 
-
-
 >note Please, note that the **LegacyCommand.js** script file has to be included **after** the page's Script Manager in order to override thedefault commands.
->
-

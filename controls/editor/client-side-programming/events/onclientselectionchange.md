@@ -10,14 +10,7 @@ position: 8
 
 # OnClientSelectionChange
 
-
-
-## 
-
 The OnClientSelectionChange event signals that the selection within the editor content area has changed.
-
-
->caption  
 
 |  **function OnClientSelectionChange(editor, args)**  |  |  |
 | ------ | ------ | ------ |
@@ -26,21 +19,19 @@ The OnClientSelectionChange event signals that the selection within the editor c
 
 The example below alerts the editor content when the user clicks inside the content area or makes a selection:
 
-````ASPNET
-	     
-	<script type="text/javascript">
-	    function OnClientSelectionChange(editor, args)
-	    {
-	        alert("selection changed" + editor.getSelectionHtml());
-	    }
-	</script>
-	<telerik:radeditor runat="server" ID="RadEditor1"
-	    OnClientSelectionChange="OnClientSelectionChange">
-	    <Content>
-	         <strong>Sample Content</strong>
-	    </Content>
-	</telerik:radeditor> 
-				
+````ASP.NET	 
+<script type="text/javascript">
+	function OnClientSelectionChange(editor, args)
+	{
+		alert("selection changed" + editor.getSelectionHtml());
+	}
+</script>
+<telerik:radeditor runat="server" ID="RadEditor1"
+	OnClientSelectionChange="OnClientSelectionChange">
+	<Content>
+		 <strong>Sample Content</strong>
+	</Content>
+</telerik:radeditor> 			
 ````
 
 

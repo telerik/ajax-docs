@@ -10,20 +10,12 @@ position: 5
 
 # Provide Good Color Contrasts for Content
 
-
-
-## 
-
 Accessibility is an important part of web design. By choosing the right colors, you can ensure that all visitors to your site can read your content. The user can change the color appearance of text in RadEditor"s content area using the ForeColor and BackColor tools. The W3C recommendations define three levels of conformance to their guidelines. Priority 1, 2 and 3. Their 2.0 color contrast algorithms utilize two of these-- Priority 2 (AA), and Priority 3 (AAA). Whether or not you need to reach an AAA conformance depends on your target audience.
 
 You can find below examples of contents with various contrast ratios.
 
 **Content with contrast ratio, which passes at 3:1**
 
-
-
-
->caption  
 
 | Text Color HEX | Background color: #000033 | Contrast |
 | ------ | ------ | ------ |
@@ -35,9 +27,6 @@ You can find below examples of contents with various contrast ratios.
 |#C0F|Sample|4.78|
 
 **Content with contrast ratio, which passes at 4.5:1**
-
-
->caption  
 
 | Text Color HEX | Background color: #000033 | Contrast |
 | ------ | ------ | ------ |
@@ -51,8 +40,6 @@ You can find below examples of contents with various contrast ratios.
 **Content with perfect color contrast ratio, which passes at 7:1**
 
 
->caption  
-
 | Text Color HEX | Background color: #000033 | Contrast |
 | ------ | ------ | ------ |
 |#6F0|Sample|15.14|
@@ -65,8 +52,6 @@ You can find below examples of contents with various contrast ratios.
 **Content demonstrating bad color contrast rating**
 
 
->caption  
-
 | Text Color HEX | Background color: #000033 | Contrast |
 | ------ | ------ | ------ |
 |#000|Sample|1.05|
@@ -78,15 +63,13 @@ You can find below examples of contents with various contrast ratios.
 
 Another way to apply color decoration to HTML content is through CSS stylesheet. Here is an example, which provides good color contrast based on CSS that can be applied to the content area of RadEditor:
 
-````XML
-	    <style type="text/css">
-	        body
-	        {
-	            font-size: 18px;
-	            color: #99ff99;
-	            background-color: #333333;
-	        }
-	    </style>
+````CSS
+body
+{
+	font-size: 18px;
+	color: #99ff99;
+	background-color: #333333;
+}
 ````
 
 

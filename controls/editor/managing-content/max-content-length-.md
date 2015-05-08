@@ -10,28 +10,24 @@ position: 6
 
 # Max Content Length 
 
-
-
 ## Max Content Length
 
 RadEditor offers the ability to specify the max characters length that will be submitted to the server by setting the **MaxTextLength** and **MaxHtmlLength** properties. This is very useful in database scenarios when the max content length of RadEditor should be set to not exceed the specified characters length of the database field.
 
 
 
-````XML
-	    <telerik:RadEditor runat="server" MaxTextLength="150" ID="RadEditor1">
-	        <Modules>
-	            <telerik:EditorModule Name="RadEditorStatistics" Visible="true" />
-	        </Modules>
-	    </telerik:RadEditor>
+````ASP.NET
+<telerik:RadEditor runat="server" MaxTextLength="150" ID="RadEditor1">
+	<Modules>
+		<telerik:EditorModule Name="RadEditorStatistics" Visible="true" />
+	</Modules>
+</telerik:RadEditor>
 ````
-
-
 
 **MaxTextLength** property restricts only the text length of the content without checking the HTML markup, while the **MaxHtmlLength** property restricts the content along with the HTML markup.
 
 Note: In order to not decrease typing, editing and pasting performance both properties check the characters length only when submitting the content.
 
-# See Also
+## See Also
 
  * [Max Content Length](http://demos.telerik.com/aspnet-ajax-beta/Editor/Examples/maxcontentlength/defaultcs.aspx)

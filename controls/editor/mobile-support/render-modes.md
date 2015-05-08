@@ -10,8 +10,6 @@ position: 1
 
 # Render Modes
 
-
-
 **RadEditor** has two different render modes that can change the actual HTML markup that is rendered.	They are exposed via the **RenderMode** property that can have four	possible values - **Classic**, **Lightweight**, **Mobile** and **Auto**.	This functionality was introduced in the **Q3 2014** version.
 
 The possible options are:
@@ -24,12 +22,11 @@ The possible options are:
 
 * **Auto**—this mode makes each control choose the appropriate rendering mode according to the used	browser—**Classic** or **Lightweight**. This functionality was added in Q3 2013.
 
->important RadEditor and its child controls (RadWindow and RadToolBar), as well as the other controls included in the Telerik UI for ASP.NET AJAX suite that utilize render modes, support only one type of render mode per page.This includes mode being set for a standalone RadEditor, RadToolBar, RadWindow and RadWindowManager. All such controls must have the same RenderMode on a given page.This also includes instances from user controls and master pages.
->
+>important RadEditor and its child controls (RadWindow and RadToolBar), as well as the other controls included in the Telerik UI for ASP.NET AJAX suite that utilize render modes, support only one type of render mode per page.This includes mode being set for a standalone RadEditor, RadToolBar, RadWindow and RadWindowManager. All such controls must have the same RenderMode on a given page. This also includes instances from user controls and master pages.
+
 
 
 >note The RibbonBar ToolbarMode is supported only with the RadEditor's Classic rendering mode.
->
 
 
 ## Setting Render Mode
@@ -38,33 +35,26 @@ There are two ways to configure the rendering mode of the controls:
 
 * The **RenderMode property** in the markup or in the code-behind that can be used for a particular instance:
 
-````ASPNET
-			<telerik:RadEditor ID="RadEditor1" runat="server" RenderMode="Lightweight">
-			</telerik:RadEditor>
+````ASP.NET
+<telerik:RadEditor ID="RadEditor1" runat="server" RenderMode="Lightweight">
+</telerik:RadEditor>
 ````
-
-
-
 
 
 ````C#
-	
-			RadEditor1.RenderMode = Telerik.Web.UI.RenderMode.Lightweight;
-	
+RadEditor1.RenderMode = Telerik.Web.UI.RenderMode.Lightweight;
 ````
-````VB.NET
-	
-			RadEditor1.RenderMode = Telerik.Web.UI.RenderMode.Lightweight
-	
+````V	
+RadEditor1.RenderMode = Telerik.Web.UI.RenderMode.Lightweight	
 ````
 
 
-* A **global setting in the web.config** file that will affect the entire application, unless a concrete value is specifiedfor a given control instance:
+* A **global setting in the web.config** file that will affect the entire application, unless a concrete value is specified for a given control instance:
 
 ````XML
-			<appSettings>
-				<add key="Telerik.Web.UI.Editor.RenderMode" value="lightweight" />
-			</appSettings>
+<appSettings>
+	<add key="Telerik.Web.UI.Editor.RenderMode" value="lightweight" />
+</appSettings>
 ````
 
 

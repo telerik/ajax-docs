@@ -10,10 +10,6 @@ position: 4
 
 # Toolbars and Menus
 
-
-
-## 
-
 1. **Toolbars -** You can fully customize the UI of RadEditor using its Tools collection. The collection contains the tools that are placed on the toolbar. You can arrange tools in **Groups** and **ToolStrips**:
 
 1. **Groups** are the RadEditor's abstraction for Toolbars. Groups usually contain tools with similar or related functionality. You can find more information about toolbars in the following article: [Introduction to Toolbars]({%slug editor/functionality/toolbars/overview%}).
@@ -22,7 +18,7 @@ position: 4
 
 1. **Context sensitive buttons** - some of the buttons on the Telerik RadEditor toolbars will change their state in real time to reflect the actual state of the cursor selection (i.e. bold, justification, etc.) Some buttons will be enabled if certain action can be performed with the current cursor selection (e.g. Unlink is enabled only if you have selected a hyperlink, Redo is not available if you haven't undone any action first). You can find more information how to add buttons to the toolbars [here]({%slug editor/functionality/toolbars/buttons/add-standard-buttons%}) and [here]({%slug editor/functionality/toolbars/buttons/add-your-own-buttons%}).
 
-1. **Advanced Tools -**RadEditor takes the user experience even closer to desktop word processors, thanks to its advanced tools:
+1. **Advanced Tools** - RadEditor takes the user experience even closer to desktop word processors, thanks to its advanced tools:
 
 1. Multilevel **Undo/Redo** feature with action trails. They allow you to see the past actions and undo/redo one or more of them at once, just like in Microsoft Word
 
@@ -39,9 +35,8 @@ position: 4
 1. **ForeColor**/**BackColor** tools with color pickers - allows to apply the desired background and foreground colors to a selection.
 
 1. **Context menus**- RadEditor for ASP.NET AJAX provides context menus, which can be customized depending on the currently selected HTML element, e.g. you could have different context menus for IMG elements and TABLE elements. The context menus are available for Gecko-based browsers as well. You can also disable the context menus for certain elements (e.g. for tables).
->caption 
-
-![Context Menu](images/editor-contextmenu.png)
+	
+	![Context Menu](images/editor-contextmenu.png)
 
 1. **Keyboard support** - All UI elements of RadEditor for ASP.NET AJAX are fully accessible from the keyboard. This includes shortcuts to directly activate the tools on the toolbar and keyboard navigation within the toolbars:
 
@@ -53,7 +48,7 @@ position: 4
 
 1. Press **Enter** to activate the selected button or dropdown item
 
-# See Also
+## See Also
 
  * [Manage Content]({%slug editor/getting-started/manage-content%})
 

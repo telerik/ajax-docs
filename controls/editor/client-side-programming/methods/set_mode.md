@@ -11,13 +11,8 @@ position: 15
 # set_mode
 
 
-
-## 
-
 Sets RadEditor for ASP.NET AJAX in Html, Preview or Design mode
 
-
->caption  
 
 |  **function**  **set_mode (value)**  |  |  |
 | ------ | ------ | ------ |
@@ -27,13 +22,13 @@ Sets RadEditor for ASP.NET AJAX in Html, Preview or Design mode
 
 The following example will set the editor in Html mode on page load
 
-````ASPNET
-	<script type="text/javascript">
-		function OnClientLoad(editor, args) {
-			editor.set_mode(2);
-		}
-	</script>
-	<telerik:radeditor runat="server" id="RadEditor1" OnClientLoad="OnClientLoad"></telerik:radeditor> 
+````ASP.NET
+<script type="text/javascript">
+	function OnClientLoad(editor, args) {
+		editor.set_mode(2);
+	}
+</script>
+<telerik:radeditor runat="server" id="RadEditor1" OnClientLoad="OnClientLoad"></telerik:radeditor> 
 ````
 
 
