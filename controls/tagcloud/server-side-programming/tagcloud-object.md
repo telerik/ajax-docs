@@ -14,11 +14,6 @@ position: 0
 
 ## RadTagCloud's properties
 
-
-
-
->caption  
-
 | Name | Type | Description |
 | ------ | ------ | ------ |
 | **AutoPostBack** |bool|Gets or sets a value indicating whether a postback to the server automatically occurs when the user interacts with the control.|
@@ -30,11 +25,7 @@ position: 0
 | **DataToolTipFormatString** |string|Gets or sets the formatting string used to control how data bound to the ToolTip property of the TagCloud item is displayed.|
 | **DataValueField** |string|Gets or sets the field of the data source that provides the value content of the TagCloud items.|
 | **DataWeightField** |string|Gets or sets the field of the data source that provides the weight of the TagCloud items.|
-| **Distribution** |enum
-
-1. Linear
-
-1. Logarithmic|Gets or sets a value indicating how the font-size will be distributed among the different words (items).|
+| **Distribution** |enum: **Linear**, **Logarithmic** |Gets or sets a value indicating how the font-size will be distributed among the different words (items).|
 | **MinFontSize** |unit|Gets or sets the font-size to the least important (frequent) item. Used as a lower bound for automatic distribution of the font-size among the tags.|
 | **MaxFontSize** |unit|Gets or sets the font-size to the most important (frequent) item. Used as an upper bound for automatic distribution of the font-size among the tags.|
 | **MinColor** |System.Drawing.Color|Gets or sets the fore color to the least important (frequent) item. Used as a lower bound for automatic coloring of the tags.|
@@ -44,36 +35,13 @@ position: 0
 | **TakeTopWeightedItems** |bool|Should be used with **MaxNumberOfItems** property. Gets or sets a bool value indicating whether the [ **MaxNumberOfItems** ] visible items will be the ones with the biggest weight, or the ones that occur first in the DataSource. The default value is **false** (i.e. the items are the first that appear in the DataSource).|
 | **PostBackUrl** |string|The URL to post to when an item is clicked.|
 | **RenderItemWeight** |bool|Gets or sets a bool value indicating whether the item weight will be rendered. It is rendered right next to the item's text.|
-| **Sorting** |enum
-
-1. NotSorted
-
-1. AlphabeticAsc
-
-1. AlphabeticDsc
-
-1. WeightedAsc
-
-1. WeightedDsc|Gets or sets a value indicating how the TagCloud items will be sorted.|
-| **Target** |string|Gets or sets the target window or frame to display the new content when the TagCloud item is clicked.Values must begin with a letter in the range of **a** through **z** (case-insensitive) except for the following values:
-
-*  **_blank** - renders the content in a new window without frames;
-
-*  **_parent** - renders the content in the immediate frameset parent;
-
-*  **_search** - renders the content in the search pane;
-
-*  **_self** - renders the content in the frame with focus;
-
-*  **_top** - renders the content in the full window without frames;|
+| **Sorting** |enum: **NotSorted**, **AlphabeticAsc**, **AlphabeticDsc**, **WeightedAsc**, **WeightedDsc** |Gets or sets a value indicating how the TagCloud items will be sorted.|
+| **Target** |string|Gets or sets the target window or frame to display the new content when the TagCloud item is clicked.Values must begin with a letter in the range of **a** through **z** (case-insensitive) except for the following values: **_blank** - renders the content in a new window without frames; **_parent** - renders the content in the immediate frameset parent; **_search** - renders the content in the search pane; **_self** - renders the content in the frame with focus; **_top** - renders the content in the full window without frames;|
 | **OnClientItemClicking** |string|Sets the name of the javascript function called when an item is clicked.|
 | **OnClientItemClicked** |string|Sets the name of the javascript function called after an item is clicked.|
 | **OnClientLoad** |string|Sets the name of the javascript function called when the control loads.|
 
 ## Events
-
-
->caption  
 
 | Name | Description |
 | ------ | ------ |
@@ -83,9 +51,6 @@ position: 0
 
 
 ## RadTagCloudItem
-
-
->caption  
 
 | Name | Type | Description |
 | ------ | ------ | ------ |

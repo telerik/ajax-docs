@@ -10,17 +10,11 @@ position: 1
 
 # TagCloudItem Object
 
-
-
 You can find in this help article information how to get the **RadTagCloudItem** client-side object and use its properties and methods.
-
-## 
 
 You can get instance of the **RadTagCloudItem** client-side object using the appropriate methods of the	[RadTagCould]({%slug tagcloud/client-side-programming/tagcloud-object%}) object (e.g., via the **get_items()** method).
 
-## 
-
-Methods
+## Methods
 
 
 | Name | Parameters | Return Type | Description |

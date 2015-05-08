@@ -32,26 +32,26 @@ To use the elasticity of the RadTagCloud change the font size of the control's e
 Example 1: The font size of **RadTagCloud** is set to 20px.
 
 ````ASPNET
-	        <style type="text/css">
-	            div.RadTagCloud {
-	                font-size: 20px;
-	            }
-	        </style>
-	        <telerik:RadTagCloud ID="RadTagCloud1" runat="server" Width="400px">
-	            <Items>
-	                <telerik:RadTagCloudItem Text="ASP.NET" Weight="12"></telerik:RadTagCloudItem>
-	                <telerik:RadTagCloudItem Text="AJAX" Weight="134"></telerik:RadTagCloudItem>
-	                <telerik:RadTagCloudItem Text="VB" Weight="56"></telerik:RadTagCloudItem>
-	                <telerik:RadTagCloudItem Text="C#" Weight="38"></telerik:RadTagCloudItem>
-	                <telerik:RadTagCloudItem Text="Web" Weight="73"></telerik:RadTagCloudItem>
-	                <telerik:RadTagCloudItem Text="jQuery" Weight="23"></telerik:RadTagCloudItem>
-	                <telerik:RadTagCloudItem Text=".NET" Weight="78"></telerik:RadTagCloudItem>
-	                <telerik:RadTagCloudItem Text="Code" Weight="50"></telerik:RadTagCloudItem>
-	                <telerik:RadTagCloudItem Text="UI" Weight="80"></telerik:RadTagCloudItem>
-	                <telerik:RadTagCloudItem Text="Unit" Weight="20"></telerik:RadTagCloudItem>
-	                <telerik:RadTagCloudItem Text="Class" Weight="50"></telerik:RadTagCloudItem>
-	            </Items>
-	        </telerik:RadTagCloud>
+<style type="text/css">
+	div.RadTagCloud {
+		font-size: 20px;
+	}
+</style>
+<telerik:RadTagCloud ID="RadTagCloud1" runat="server" Width="400px">
+	<Items>
+		<telerik:RadTagCloudItem Text="ASP.NET" Weight="12"></telerik:RadTagCloudItem>
+		<telerik:RadTagCloudItem Text="AJAX" Weight="134"></telerik:RadTagCloudItem>
+		<telerik:RadTagCloudItem Text="VB" Weight="56"></telerik:RadTagCloudItem>
+		<telerik:RadTagCloudItem Text="C#" Weight="38"></telerik:RadTagCloudItem>
+		<telerik:RadTagCloudItem Text="Web" Weight="73"></telerik:RadTagCloudItem>
+		<telerik:RadTagCloudItem Text="jQuery" Weight="23"></telerik:RadTagCloudItem>
+		<telerik:RadTagCloudItem Text=".NET" Weight="78"></telerik:RadTagCloudItem>
+		<telerik:RadTagCloudItem Text="Code" Weight="50"></telerik:RadTagCloudItem>
+		<telerik:RadTagCloudItem Text="UI" Weight="80"></telerik:RadTagCloudItem>
+		<telerik:RadTagCloudItem Text="Unit" Weight="20"></telerik:RadTagCloudItem>
+		<telerik:RadTagCloudItem Text="Class" Weight="50"></telerik:RadTagCloudItem>
+	</Items>
+</telerik:RadTagCloud>
 ````
 
 

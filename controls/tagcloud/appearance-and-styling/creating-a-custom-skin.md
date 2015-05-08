@@ -33,29 +33,24 @@ In order to explain better the CSS classes of **RadTagCloud**, we will use both 
 1. When you are finished you should have: **Skins/TagCloud.css**, **Skins/MyCustomSkin/** and **TagCloud.MyCustomSkin**.
 
 1. In order to support multiple skins of RadTagCloud on a single page, the wrapping skin-specific class is coined by the name of the control, **RadTagCloud** plus underscore ("_") plus SkinName, i.e . **RadTagCloud _Default**, so in order to create a custom skin out of the Default skin, we should rename all occurrences of "Default" in TagCloud.MyCustomSkin.css to "MyCustomSkin" as shown below:
->caption 
 
-![Renaming Classes](images/tagcloudclassrenaming.gif)
+	![Renaming Classes](images/tagcloudclassrenaming.gif)
 
 1. Put a new server declaration of RadTagCloud on your page, and set **Skin="MyCustomSkin"**, **EnableEmbeddedSkins="false"** and **EnableEmbeddedBasestylesheet="false"**:
 
-````ASPNET
-	    <telerik:RadTagCloud>
-	        Id="RadTagCloud1" runat="server" Skin="MyCustomSkin" EnableEmbeddedSkins="false"
-	        EnableEmbeddedBasestylesheet="false"</telerik:RadTagCloud>
-````
+	**ASPNET**
+	
+		<telerik:RadTagCloud>
+			Id="RadTagCloud1" runat="server" Skin="MyCustomSkin" EnableEmbeddedSkins="false"
+			EnableEmbeddedBasestylesheet="false"</telerik:RadTagCloud>
 
+1. Register **TagCloud.css** and **TagCloud.MyCustomSkin.css** in the <head>...</head> section of your web page. In order to have the CSS applied correctly, the base stylesheet should come first in the DOM:**Important:** Make sure the path to the files is correct, otherwise the skin will not apply.
 
-
-1. Register **TagCloud.css** and **TagCloud.MyCustomSkin.css** in the <head>...</head> section of your web page. In order to have the CSS applied correctly, the base stylesheet should come first in the DOM:**Important:**Make sure the path to the files is correct, otherwise the skin will not apply.
-
-````HTML
-	    <link rel="stylesheet" type="text/css" href="Skins/TagCloud.css"></link>
-	    <link rel="stylesheet" type="text/css" href="Skins/MyCustomSkin/TagCloud.MyCustomSkin.css">
-	    </link>
-````
-
-
+	**HTML**
+	
+		<link rel="stylesheet" type="text/css" href="Skins/TagCloud.css"></link>
+		<link rel="stylesheet" type="text/css" href="Skins/MyCustomSkin/TagCloud.MyCustomSkin.css">
+		</link>
 
 1. Reload the page, and if the steps 1-9 have been followed correctly, you will see a **RadTagCloud** running a custom **MyCustomSkin** skin set as an external resource.
 

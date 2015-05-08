@@ -12,9 +12,7 @@ position: 6
 
 
 
-The **OnClientItemsRequestFailed** is fired when the request to the web service is failed.The event arguments provide information about the error message and allow the developer to cancel the error alert and process the error otherwise
-
-## 
+The **OnClientItemsRequestFailed** is fired when the request to the web service is failed.The event arguments provide information about the error message and allow the developer to cancel the error alert and process the error otherwise.
 
 The event handler receives two arguments:
 

@@ -22,38 +22,37 @@ The event handler receives two parameters:
 
 1. **Event arguments**–event arguments object of type **Sys.EventArgs**, that exposes the following properties and methods:
 
-
 | Name | Parameters | Return Type | Description |
 | ------ | ------ | ------ | ------ |
 |get_item||RadTagCloudItem|Returns the client-side object of the clicked item.|
 |get_dataItem||Object|Returns the fetched client-side object bound to the item.|
 
-**Example 1:** Shows how you can use the **OnClientItemDataBound**event to hide items upon client-side programmatic rule base on the data fetched from the data source.
+**Example 1:** Shows how you can use the **OnClientItemDataBound** event to hide items upon client-side programmatic rule base on the data fetched from the data source.
 
 ````ASPNET
-			<script type="text/javascript">
-				function OnClientItemDataBound(sender, args) {
-					var item = args.get_item();
-					var dataItem = args.get_dataItem();
-					var isItemDiscontinued = dataItem.Discontinued;
-	
-					// Hides the items that are discontinued
-					item.set_visible(!isItemDiscontinued);
-				}
-			</script>
-	
-			<telerik:RadTagCloud ID="tagCloud" runat="server" 
-				ClientDataSourceID="tagsDataSource" DataTextField="ProductName"
-				DataWeightField="UnitPrice" RenderItemWeight="true" OnClientItemDataBound="OnClientItemDataBound" >
-			</telerik:RadTagCloud>
-	
-			<telerik:RadClientDataSource ID="TagsDataSource" runat="server">
-				<DataSource>
-					<WebServiceDataSourceSettings BaseUrl="http://demos.telerik.com/kendo-ui/service/">
-						<Select Url="Products" DataType="JSONP" />
-					</WebServiceDataSourceSettings>
-				</DataSource>
-			</telerik:RadClientDataSource>
+<script type="text/javascript">
+	function OnClientItemDataBound(sender, args) {
+		var item = args.get_item();
+		var dataItem = args.get_dataItem();
+		var isItemDiscontinued = dataItem.Discontinued;
+
+		// Hides the items that are discontinued
+		item.set_visible(!isItemDiscontinued);
+	}
+</script>
+
+<telerik:RadTagCloud ID="tagCloud" runat="server" 
+	ClientDataSourceID="tagsDataSource" DataTextField="ProductName"
+	DataWeightField="UnitPrice" RenderItemWeight="true" OnClientItemDataBound="OnClientItemDataBound" >
+</telerik:RadTagCloud>
+
+<telerik:RadClientDataSource ID="TagsDataSource" runat="server">
+	<DataSource>
+		<WebServiceDataSourceSettings BaseUrl="http://demos.telerik.com/kendo-ui/service/">
+			<Select Url="Products" DataType="JSONP" />
+		</WebServiceDataSourceSettings>
+	</DataSource>
+</telerik:RadClientDataSource>
 ````
 
 

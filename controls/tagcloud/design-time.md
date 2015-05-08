@@ -13,13 +13,13 @@ position: 3
 
 
 The Smart Tag of **RadTagCloud** lets you easily change the skin for your control or quickly get help. You can display the Smart Tag by right clicking on a **RadTagCloud** control and choosing "Show Smart Tag", or clicking the small rightward-pointing arrow located in the upper right corner of the control.
->caption 
 
 ![tagcloud-smart-tag](images/tagcloud-smart-tag.png)
 
 ## Choosing DataSource
 
-The Smart Tag of the **RadTagCloud** begins with the datasource configuration. You can either choose an already existing declarative datasource controlfrom the list, or add a new one:![tagcloud-smart-tag-data](images/tagcloud-smart-tag-data.png)
+The Smart Tag of the **RadTagCloud** begins with the datasource configuration. You can either choose an already existing declarative datasource control from the list, or add a new one:
+![tagcloud-smart-tag-data](images/tagcloud-smart-tag-data.png)
 
 ## Ajax Resources
 
@@ -29,8 +29,7 @@ The Smart Tag of the **RadTagCloud** begins with the datasource configuration. Y
 
 ## Edit Items
 
-The visual Item Editor offered by the **RadTagCloud** allows you to quickly and codelessly declare and setup the items in the**RadTagCloud**, as well as to set values for each item's properties - *TabIndex, NavigateUrl, Text, ToolTip, Value, Weight*:
->caption 
+The visual Item Editor offered by the **RadTagCloud** allows you to quickly and codelessly declare and setup the items in the **RadTagCloud**, as well as to set values for each item's properties - *TabIndex, NavigateUrl, Text, ToolTip, Value, Weight*:
 
 ![tagcloud-smart-tag-1](images/tagcloud-smart-tag-1.png)
 

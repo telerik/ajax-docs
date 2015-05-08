@@ -19,19 +19,17 @@ You can find in this help article information how to get the **RadTagCloud** cli
 RadTagCloud creates a client-side object with the ClientID of the tagCloud. You can obtain the reference using the following JavaScript code:
 
 ````JavaScript
-	    var tagCloud = $find("<%= RadTagCloud1.ClientID %>");
+var tagCloud = $find("<%= RadTagCloud1.ClientID %>");
 ````
 
 
 
-## 
-
-Methods
+## Methods
 
 
 | Name | Parameters | Return Type | Description |
 | ------ | ------ | ------ | ------ |
-|addTagCloudItem|RadTagCloudItem||Creates, renders a new[TagCloudItem]({%slug tagcloud/client-side-programming/tagclouditem-object%})item and inserts it in the get_items Array.|
+|addTagCloudItem|RadTagCloudItem||Creates, renders a new [TagCloudItem]({%slug tagcloud/client-side-programming/tagclouditem-object%}) item and inserts it in the get_items Array.|
 |dataBind|||Data binds the data of the RadTagCloud.|
 |get_appendClientDataBoundItems||Boolean|Gets whether data bound items will be appended to the TagCloud.|
 |get_clientDataSource||Telerik.Web.UI.RadClientDataSource|Gets the RadClientDataSource that is associated with the TagCloud.|
@@ -56,9 +54,7 @@ Methods
 
 
 
-## 
-
-Events
+## Events
 
 
 | Name | Parameters | Return Type | Description |

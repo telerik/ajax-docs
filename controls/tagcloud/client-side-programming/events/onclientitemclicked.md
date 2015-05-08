@@ -12,9 +12,7 @@ position: 3
 
 
 
-The **OnClientItemClicked** event occurs when an item of the **RadTagCloud** control is clicked,	immediately after the [OnClientItemClicking]({%slug tagcloud/client-side-programming/events/onclientitemclicking%}) event.
-
-## 
+The **OnClientItemClicked** event occurs when an item of the **RadTagCloud** control is clicked, immediately after the [OnClientItemClicking]({%slug tagcloud/client-side-programming/events/onclientitemclicking%}) event.
 
 The event handler receives two parameters:
 
@@ -27,24 +25,24 @@ The event handler receives two parameters:
 | ------ | ------ | ------ | ------ |
 |get_item||RadTagCloudItem|Returns the client-side object of the clicked item.|
 
-**Example 1:** Shows how you can use the **OnClientItemClicked**event to alert the text of the clicked item.
+**Example 1:** Shows how you can use the **OnClientItemClicked** event to alert the text of the clicked item.
 
 ````ASPNET
-			<telerik:RadTagCloud runat="server" ID="RadTagCloud1" OnClientItemClicked="OnClientItemClicked">
-				<Items>
-					<telerik:RadTagCloudItem Text="Item 1" />
-					<telerik:RadTagCloudItem Text="Item 2" />s
-				</Items>
-			</telerik:RadTagCloud>
-	
-			<script type="text/javascript">
-				function OnClientItemClicked(sender, args) {
-					var item = args.get_item();
-					var text = item.get_text();
-	
-					alert("Item with text \"" + text + "\" was clicked!");
-				}
-			</script>
+<telerik:RadTagCloud runat="server" ID="RadTagCloud1" OnClientItemClicked="OnClientItemClicked">
+	<Items>
+		<telerik:RadTagCloudItem Text="Item 1" />
+		<telerik:RadTagCloudItem Text="Item 2" />s
+	</Items>
+</telerik:RadTagCloud>
+
+<script type="text/javascript">
+	function OnClientItemClicked(sender, args) {
+		var item = args.get_item();
+		var text = item.get_text();
+
+		alert("Item with text \"" + text + "\" was clicked!");
+	}
+</script>
 ````
 
 

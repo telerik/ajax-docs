@@ -14,8 +14,6 @@ position: 5
 
 The **OnClientItemsRequested** is fired when the requested items from the Web Service are successfully loaded.
 
-## 
-
 The event handler receives two arguments:
 
 * **Sender**–the [TagCould object]({%slug tagcloud/client-side-programming/tagcloud-object%}) that fired the event.

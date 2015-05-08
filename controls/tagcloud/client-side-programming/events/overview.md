@@ -14,8 +14,6 @@ position: 0
 
 **RadTagCloud** provides a rich set of client-side events which allow easy and flexible use in a wide range of application scenarios:
 
-## 
-
 * [OnClientLoad]({%slug tagcloud/client-side-programming/events/onclientload%})–raised when the **RadTagCloud** object is loaded on the page.
 
 * [OnClientItemClicking]({%slug tagcloud/client-side-programming/events/onclientitemclicking%})–occurs when an item of the **RadTagCloud** control is clicked,immediately after the mouse button is released.
