@@ -18,7 +18,7 @@ No matter which control you would chose, the updated via AJAX controls would ren
 
 **UpdatePanelsRenderMode** - You can set this property to the RadAjaxManager itself to control the render mode for all AJAX-enabled controls. UpdatePanelsRenderMode has two possible values: Block (the default value) and Inline. Example 1 shows setting the UpdatePanelsRenderMode value to Inline.
 
-````XML
+````ASP.NET
 <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server" UpdatePanelsRenderMode="Inline">
 	<AjaxSettings>
 	    <telerik:AjaxSetting AjaxControlID="Button1">
@@ -35,7 +35,7 @@ No matter which control you would chose, the updated via AJAX controls would ren
 
 **UpdatePanelRenderMode** - You can set this property for a particular AjaxUpdatedControl setting in the RadAjaxManager. Its default value is Block. You can change it to Inline as shown in Example 2.
 
-````XML
+````ASP.NET
 <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
 	<AjaxSettings>
 	    telerik:AjaxSetting AjaxControlID="Button1">
@@ -52,7 +52,7 @@ No matter which control you would chose, the updated via AJAX controls would ren
 
 **RenderMode** - You can change the render mode of controls wrapped in RadAjaxPanel control by setting its RenderMode property to Inline (see Example 3) or Block (the default value).
 
-````XML
+````ASP.NET
 <telerik:RadAjaxPanel ID="RadAjaxPanel1" runat="server" RenderMode="Inline">
 	 <asp:Button ID="Button1" runat="server" Text="AJAX" />
 	 <asp:Label ID="Label1" runat="server" Text="Label1" />
@@ -90,7 +90,7 @@ End Sub
 >
 
 
-````XML
+````ASP.NET
 <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server" UpdatePanelsRenderMode="Inline">
 	<AjaxSettings>
 	    <telerik:AjaxSetting AjaxControlID="Button1">

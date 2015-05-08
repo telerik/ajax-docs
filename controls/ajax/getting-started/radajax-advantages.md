@@ -22,7 +22,7 @@ The click-and-Go™ technology of **Telerik RadAjax** for ASP.NET AJAX allows yo
 
 1. Add Microsoft ASP.NET AJAX to your project.
 
-1. Drop a[RadAjaxManager]({%slug ajax/radajaxmanager/overview%}) to your form.
+1. Drop a [RadAjaxManager]({%slug ajax/radajaxmanager/overview %}) to your form.
 
 1. Define the AJAX relations using a single dialogue in Visual Studio.
 
@@ -61,7 +61,7 @@ Once the AJAX Manager is placed on the form you need to use its configuration di
 
 * "Message Body" UpdatePanel - Trigger 2: The needs to be updated when the **calendar** is clicked
 
-* "E-mail list" UpdatePanel - Trigger 1: Theneeds to be updated when the **calendar** is clicked
+* "E-mail list" UpdatePanel - Trigger 1: The needs to be updated when the **calendar** is clicked
 
 
 

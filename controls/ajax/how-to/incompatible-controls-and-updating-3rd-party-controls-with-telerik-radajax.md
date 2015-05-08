@@ -12,11 +12,11 @@ position: 6
 
 
 
-Basically you should first check if the control is MS AJAX compatible (MS AJAX is the MS framework for ajax-enabling controls). If the control works with it, it will most likely work without problems with our AJAX framework as well. Technical difficulties may occur when updating 3rd party controls which use **JavaScript code on client-side outside of the updating area**. As controls are not aware that they are being updated by AJAX (rather than a postback), they cannot restore their client-side functionality as the HTML element is being replaced by a new object. Things to check for:
+Basically you should first check if the control is MS AJAX compatible (MS AJAX is the MS framework for ajax-enabling controls). If the control works with it, it will most likely work without problems with our AJAX framework as well. Technical difficulties may occur when updating 3rd party controls which use **JavaScript code on client-side outside of the updating area** . As controls are not aware that they are being updated by AJAX (rather than a postback), they cannot restore their client-side functionality as the HTML element is being replaced by a new object. Things to check for:
 
 1. The control, which is to be updated via AJAX request should be aware of this fact. This means that it has to be pre-modified to work with **XmlHttpRequests**. This should be done by its vendor, so please contact the control's vendor for help on the issue.
 
->note All Telerik RadControls for ASP.NET have been modified and are ready to be used with **T** elerik's AJAX controls.
+>note All Telerik RadControls for ASP.NET have been modified and are ready to be used with **Telerik's AJAX controls** .
 >
 
 

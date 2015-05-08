@@ -22,32 +22,32 @@ When your application is running in Medium trust and you want to use RadAjax on 
 
 ````C#
 	  
-	    public partial class MyPage: System.We.UI.Page {}
-	    //should be changed to:
-	    public partial class MyPage: Telerik.Web.UI.RadAjaxPage {}
+public partial class MyPage: System.We.UI.Page {}
+//should be changed to:
+public partial class MyPage: Telerik.Web.UI.RadAjaxPage {}
 				
 ````
-````VB.NET
-	    Partial Public Class MyPage
-	        Inherits System.We.UI.Page
-	    End Class
-	    'should be changed to:
-	    Partial Public Class MyPage
-	        Inherits Telerik.Web.UI.RadAjaxPage
-	    End Class
+````VB
+Partial Public Class MyPage
+	Inherits System.We.UI.Page
+End Class
+'should be changed to:
+Partial Public Class MyPage
+	Inherits Telerik.Web.UI.RadAjaxPage
+End Class
 ````
 
 
-1. Set the **RestoreOriginalDelegate** property of the RadAjax control to **false**:
+1. Set the **RestoreOriginalDelegate** property of the RadAjax control to **false** :
 
-````ASPNET
-	    <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server" RestoreOriginalRenderDelegate="false">
-	    </telerik:RadAjaxManager>
+````ASP.NET
+<telerik:RadAjaxManager ID="RadAjaxManager1" runat="server" RestoreOriginalRenderDelegate="false">
+</telerik:RadAjaxManager>
 	
-	    Or
+Or
 	
-	    <telerik:RadAjaxPanel ID="RadAjaxPanel1" runat="server" RestoreOriginalRenderDelegate="false">
-	    </telerik:RadAjaxPanel>
+<telerik:RadAjaxPanel ID="RadAjaxPanel1" runat="server" RestoreOriginalRenderDelegate="false">
+</telerik:RadAjaxPanel>
 ````
 
 
@@ -57,32 +57,32 @@ When your application is running in Medium trust and you want to use RadAjax on 
 
 
 ````C#
-	    public class MyPage : System.Web.UI.Page, Telerik.Web.UI.IRadAjaxPage
-	    {
-	        private System.Web.UI.RenderMethod _onRenderDelegate;
-	        #region IRadAjaxPage Members
-	        public void AttachOnRender(System.Web.UI.RenderMethod renderMethod)
-	        {
-	            _onRenderDelegate = renderMethod;
-	        }
+public class MyPage : System.Web.UI.Page, Telerik.Web.UI.IRadAjaxPage
+{
+	private System.Web.UI.RenderMethod _onRenderDelegate;
+	#region IRadAjaxPage Members
+	public void AttachOnRender(System.Web.UI.RenderMethod renderMethod)
+	{
+	    _onRenderDelegate = renderMethod;
+	}
 ````
-````VB.NET
-	    Public Class MyPage
-	        Inherits System.Web.UI.Page
-	        Implements Telerik.Web.UI.IRadAjaxPage
-	        Private _onRenderDelegate As System.Web.UI.RenderMethod
+````VB
+Public Class MyPage
+	Inherits System.Web.UI.Page
+	Implements Telerik.Web.UI.IRadAjaxPage
+	Private _onRenderDelegate As System.Web.UI.RenderMethod
 	
-	        Public Sub AttachOnRender(ByVal renderMethod As System.Web.UI.RenderMethod)
-	            _onRenderDelegate = renderMethod
-	        End Sub
+	Public Sub AttachOnRender(ByVal renderMethod As System.Web.UI.RenderMethod)
+	    _onRenderDelegate = renderMethod
+	End Sub
 	
-	        Protected Overloads Overrides Sub Render(ByVal writer As System.Web.UI.HtmlTextWriter)
-	            If Not _onRenderDelegate Is Nothing Then
-	                _onRenderDelegate(writer, Me)
-	            End If
-	            MyBase.Render(writer)
-	        End Sub
-	    End Class
+	Protected Overloads Overrides Sub Render(ByVal writer As System.Web.UI.HtmlTextWriter)
+	    If Not _onRenderDelegate Is Nothing Then
+	        _onRenderDelegate(writer, Me)
+	    End If
+	    MyBase.Render(writer)
+	End Sub
+End Class
 ````
 
 

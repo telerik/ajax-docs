@@ -14,17 +14,17 @@ position: 10
 
 ## 
 
-If you want to invoke download for a file from an AJAX-enabled control (either placed in **RadAjaxPanel**or ajaxified by **RadAjaxManager**), you cannot use the normal **response.WriteFile** function.
+If you want to invoke download for a file from an AJAX-enabled control (either placed in **RadAjaxPanel**or ajaxified by **RadAjaxManager** ), you cannot use the normal **response.WriteFile** function.
 
 
 
 ````C#
 	
-	        Response.WriteFile("~/Your_File");
+Response.WriteFile("~/Your_File");
 	        
 ````
-````VB.NET
-	        Response.WriteFile("~/Your_File")
+````VB
+Response.WriteFile("~/Your_File")
 ````
 
 
@@ -35,18 +35,17 @@ Instead you can use the **ResponseScripts** collection of the **RadAjax** contro
 
 
 ````C#
-	
-	        RadAjaxPanel1.ResponseScripts.Add(String.Format(@"window.location.href = ""{0}"";", "http://yoursite.com/Your_File"));
+RadAjaxPanel1.ResponseScripts.Add(String.Format(@"window.location.href = ""{0}"";", "http://yoursite.com/Your_File"));
 	
 ````
-````VB.NET
-	        RadAjaxPanel1.ResponseScripts.Add(String.Format("window.location.href = ""{0}"";", "http://yoursite.com/Your_File"))
+````VB
+RadAjaxPanel1.ResponseScripts.Add(String.Format("window.location.href = ""{0}"";", "http://yoursite.com/Your_File"))
 ````
 
 
 The **ResponseScripts** collection will be executed after ajax request completes.
 
-# See Also
+## See Also
 
  * [Known Reasons for Error Messages]({%slug ajax/troubleshooting/known-reasons-for-error-messages%})
 

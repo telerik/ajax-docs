@@ -23,28 +23,29 @@ You may want to disable control during an AJAX update, so the users won't be abl
 Example 1: Prevent the interaction with a control during an AJAX request.
 
 ````ASPNET
-	    <script type="text/javascript">
-	        function RequestStart(sender, args) {
-	            args.EventTargetElement.disabled = true;
-	        }
-	        function ResponseEnd(sender, args) {
-	            args.EventTargetElement.disabled = false;
-	        }        
-	    </script>
-	    <asp:Button ID="btnUpdate" runat="server" Text="Update" />
-	    <asp:Label ID="Label1" runat="server"></asp:Label>
-	    <telerik:RadScriptManager ID="RadScriptManager1" runat="server">
-	    </telerik:RadScriptManager>
-	    <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
-	        <AjaxSettings>
-	            <telerik:AjaxSetting AjaxControlID="btnUpdate">
-	                <UpdatedControls>
-	                    <telerik:AjaxUpdatedControl ControlID="Label1" />
-	                </UpdatedControls>
-	            </telerik:AjaxSetting>
-	        </AjaxSettings>
-	        <ClientEvents OnRequestStart="RequestStart" OnResponseEnd="ResponseEnd" />
-	    </telerik:RadAjaxManager>
+<script type="text/javascript">
+	function RequestStart(sender, args) {
+	    args.EventTargetElement.disabled = true;
+	}
+	function ResponseEnd(sender, args) {
+	    args.EventTargetElement.disabled = false;
+	}        
+</script>
+
+<asp:Button ID="btnUpdate" runat="server" Text="Update" />
+<asp:Label ID="Label1" runat="server"></asp:Label>
+<telerik:RadScriptManager ID="RadScriptManager1" runat="server">
+</telerik:RadScriptManager>
+<telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
+	<AjaxSettings>
+	<telerik:AjaxSetting AjaxControlID="btnUpdate">
+	    <UpdatedControls>
+	         <telerik:AjaxUpdatedControl ControlID="Label1" />
+	    </UpdatedControls>
+	</telerik:AjaxSetting>
+	</AjaxSettings>
+<ClientEvents OnRequestStart="RequestStart" OnResponseEnd="ResponseEnd" />
+</telerik:RadAjaxManager>
 ````
 
 
@@ -59,24 +60,24 @@ Example 2: Notify the user that an action is in progress.
 
 ````JavaScript
 	
-	        var AjaxIsActive = false;
-	        function RequestStart() {
-	            if (!AjaxIsActive) {
-	                AjaxIsActive = true;
-	            }
-	            else {
-	                alert('Wait for ajax to finish'); return false;
-	            }
-	        }
-	        function ResponseEnd() {
-	            AjaxIsActive = false;
-	        }
+var AjaxIsActive = false;
+	function RequestStart() {
+     if (!AjaxIsActive) {
+	 AjaxIsActive = true;
+	}
+	else {
+	alert('Wait for ajax to finish'); return false;
+	 }
+	}
+	function ResponseEnd() {
+	jaxIsActive = false;
+	}
 	
 ````
 
 
 
-# See Also
+## See Also
 
  * [OnRequestStart]({%slug ajax/client-side-programming/events/onrequeststart%})
 
