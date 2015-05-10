@@ -18,18 +18,18 @@ Starting with **Q3 2010 SP1 (version 2010.3.1215) RadStyleSheetManager** has the
 
 You can specify one or more folders from your project that host the external style sheets.
 
->caution The folder paths must be relative to the root of the application, e.g. *' **~/** path_to_folder'* .
+>caution The folder paths must be relative to the root of the application, e.g. **'~/path_to_folder'** .
 >
 
 
 ### Configuration
 
-Add the following<appSetting/> entry in your *web.config*:
+Add the following `<appSetting/>` entry in your *web.config*:
 
 ````ASPNET
-	    <appsettings>   
-	        <add key="Telerik.Web.UI.StyleSheetFolders" value="~/App_Themes/; ~/StyleSheets/" />
-	    </appsettings>
+<appsettings>   
+    <add key="Telerik.Web.UI.StyleSheetFolders" value="~/App_Themes/; ~/StyleSheets/" />
+</appsettings>
 ````
 
 
@@ -39,17 +39,17 @@ Add the following<appSetting/> entry in your *web.config*:
 Register the external style sheets in **RadStyleSheetManager**. The paths to the files can be relative to the root or to the folder containing the current page.
 
 ````ASPNET
-	    <telerik:RadStyleSheetManager id="RadStyleSheetManager1" runat="server">
-	        <StyleSheets>
-	            <telerik:StyleSheetReference Path="~/App_Themes/main.css" />
-	            <telerik:StyleSheetReference Path="../../StyleSheets/StyleSheet.css" />
-	        </StyleSheets>
-	    </telerik:RadStyleSheetManager>
+<telerik:RadStyleSheetManager id="RadStyleSheetManager1" runat="server">
+    <StyleSheets>
+        <telerik:StyleSheetReference Path="~/App_Themes/main.css" />
+        <telerik:StyleSheetReference Path="../../StyleSheets/StyleSheet.css" />
+    </StyleSheets>
+</telerik:RadStyleSheetManager>
 ````
 
 
 
->note If an external style sheet, which is not in one of the folder designated in the configuraton, an exception will be thrown.
+>note If an external style sheet, which is not in one of the folder designated in the configuration, an exception will be thrown.
 >
 
 

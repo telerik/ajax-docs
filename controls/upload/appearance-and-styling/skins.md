@@ -12,25 +12,25 @@ position: 3
 
 
 
->caution  **RadUpload** has been replaced by[RadAsyncUpload](http://demos.telerik.com/aspnet-ajax/asyncupload/examples/overview/defaultcs.aspx), Telerik’s next-generation ASP.NET upload component. If you are considering Telerik’s Upload control for new development, check out the[ documentation of RadAsyncUpload ](http://www.telerik.com/help/aspnet-ajax/asyncupload-overview.html)or the[control’s product page](http://www.telerik.com/products/aspnet-ajax/asyncupload.aspx). If you are already using **RadUpload** in your projects, you may be interested in reading how easy the transition to RadAsyncUpload is and how you can benefit from it[in this blog post](http://blogs.telerik.com/blogs/12-12-05/the-case-of-telerik-s-new-old-asp.net-ajax-upload-control-radasyncupload). The official support for **RadUpload** has been discontinued in June 2013 (Q2’13), although it is still be available in the suite. We deeply believe that **RadAsyncUpload** can better serve your upload needs and we kindly ask you to transition to it to make sure you take advantage of its support and the new features we constantly add to it.
+>caution  **RadUpload** has been replaced by [RadAsyncUpload](http://demos.telerik.com/aspnet-ajax/asyncupload/examples/overview/defaultcs.aspx), Telerik’s next-generation ASP.NET upload component. If you are considering Telerik’s Upload control for new development, check out the [documentation of RadAsyncUpload ](http://www.telerik.com/help/aspnet-ajax/asyncupload-overview.html) or the [control’s product page](http://www.telerik.com/products/aspnet-ajax/asyncupload.aspx). If you are already using **RadUpload** in your projects, you may be interested in reading how easy the transition to RadAsyncUpload is and how you can benefit from it [in this blog post](http://blogs.telerik.com/blogs/12-12-05/the-case-of-telerik-s-new-old-asp.net-ajax-upload-control-radasyncupload). The official support for **RadUpload** has been discontinued in June 2013 (Q2’13), although it is still be available in the suite. We deeply believe that **RadAsyncUpload** can better serve your upload needs and we kindly ask you to transition to it to make sure you take advantage of its support and the new features we constantly add to it.
 >
 
 
-**RadUpload** and **RadProgressArea** use **skins** to controltheir overall look-and-feel. A skin is a set of images and a CSS stylesheet that can be applied to the control elements (items,images, etc.) and defines their look and feel. To apply a skin to a **RadUpload** or**RadProgressArea** control, set its **Skin** property, either using the propertiespane or the control's [Smart Tag]({%slug upload/design-time%}).
+**RadUpload** and **RadProgressArea** use **skins** to control their overall look-and-feel. A skin is a set of images and a CSS stylesheet that can be applied to the control elements (items,images, etc.) and defines their look and feel. To apply a skin to a **RadUpload** or **RadProgressArea** control, set its **Skin** property, either using the property's pane or the control's [Smart Tag]({%slug upload/design-time%}).
 
 **RadUpload** and **RadProgressArea** are installed with a number of preset skins:
 
 ![Skins Thumb](images/upload_skins_thumb.png)
 
->note Since Q1 2013 three new skins have been added for RadUpload(BlackMetroTouch, Glow and Silk).
+>note Since Q1 2013 three new skins have been added for RadUpload (BlackMetroTouch, Glow and Silk).
 >
 
 
 ## Not using skins
 
-If you do not set the **Skin** property, **RadUpload** and **RadProgressArea**automatically use the "Default" skin. If you do not want to use a skin with your control, set its **Skin** property to anempty string and set the **EnableEmbeddedSkins** property to **False**.
+If you do not set the **Skin** property, **RadUpload** and **RadProgressArea** automatically use the "Default" skin. If you do not want to use a skin with your control, set its **Skin** property to an empty string and set the **EnableEmbeddedSkins** property to **False**.
 
-On **RadUpload**, you can also eliminate the skin from the file input area alone by setting the**EnableFileInputSkinning** property. For information about this property, see[File Input Appearance]({%slug upload/appearance-and-styling/file-input-appearance%}).
+On **RadUpload**, you can also eliminate the skin from the file input area alone by setting the **EnableFileInputSkinning** property. For information about this property, see [File Input Appearance]({%slug upload/appearance-and-styling/file-input-appearance%}).
 
 ## Customizing Skins
 

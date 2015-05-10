@@ -43,33 +43,33 @@ Using the Content Delivery Network has a number of advantages:
 2. Set the **CdnSettings-TelerikCdn** property of the RadStyleSheetManager to Enabled:
 
 ````ASPNET
-	    <telerik:RadStyleSheetManager 
-	        ID="RadStyleSheetManager1" 
-	        runat="server" 
-	        CdnSettings-TelerikCdn="Enabled" />
+<telerik:RadStyleSheetManager 
+    ID="RadStyleSheetManager1" 
+    runat="server" 
+    CdnSettings-TelerikCdn="Enabled" />
 ````
 
 
 
-Another way to set that property is to use the composite **<CdnSettings>** property of RadStyleSheetManager:
+Another way to set that property is to use the composite **`<CdnSettings>`** property of RadStyleSheetManager:
 
 ````ASPNET
-	    <telerik:RadStyleSheetManager 
-	        ID="RadStyleSheetManager1" 
-	        runat="server">
-	        <CdnSettings TelerikCdn="Enabled" />
-	    </telerik:RadStyleSheetManager>
+<telerik:RadStyleSheetManager 
+    ID="RadStyleSheetManager1" 
+    runat="server">
+    <CdnSettings TelerikCdn="Enabled" />
+</telerik:RadStyleSheetManager>
 ````
 
 
 
-Moreover, you can enable the CDN support **globally** by adding the following keys in the <appSettings> section of your web.config file:
+Moreover, you can enable the CDN support **globally** by adding the following keys in the `<appSettings>` section of your web.config file:
 
 ````XML
-	    <appsettings>   
-	        <add key="Telerik.ScriptManager.TelerikCdn" value="Enabled" />   
-	        <add key="Telerik.StyleSheetManager.TelerikCdn" value="Enabled" />
-	    </appsettings>
+<appsettings>   
+    <add key="Telerik.ScriptManager.TelerikCdn" value="Enabled" />   
+    <add key="Telerik.StyleSheetManager.TelerikCdn" value="Enabled" />
+</appsettings>
 ````
 
 
@@ -104,29 +104,29 @@ Let's add some RadControls on the page (RadMenu, RadTabStrip, RadListBox) and Ra
 
 1. The needed CSS files are loaded from the CDN network. If the browser supports compression (the request has **Accept-Encoding** HTTP header set to *gzip,deflate*) then the files are served **compressed**. The compression is done before uploading of the files to the CDN network, so there are no CPU cycles on the server to compress at run-time. If the browser is **IE6** then the files are served **uncompressed** (from another URL) that is because earlier versions of the browser has problems with decompressing the output.
 
-Here is how the html output look like:
+	Here is how the html output look like:
 
-````HTML
-	    <link href="http://aspnet-skins.telerikstatic.com/ajaxz/2009.3.1203/Menu.css" type="text/css"
-	        rel="stylesheet" class="Telerik_stylesheet" />
-	    <link href="http://aspnet-skins.telerikstatic.com/ajaxz/2009.3.1203/Outlook/Menu.Outlook.css"
-	        type="text/css" rel="stylesheet" class="Telerik_stylesheet" />
-	    <link href="http://aspnet-skins.telerikstatic.com/ajaxz/2009.3.1203/TabStrip.css"
-	        type="text/css" rel="stylesheet" class="Telerik_stylesheet" />
-	    <link href="http://aspnet-skins.telerikstatic.com/ajaxz/2009.3.1203/Default/TabStrip.Default.css"
-	        type="text/css" rel="stylesheet" class="Telerik_stylesheet" />
-	    <link href="http://aspnet-skins.telerikstatic.com/ajaxz/2009.3.1203/ListBox.css"
-	        type="text/css" rel="stylesheet" class="Telerik_stylesheet" />
-	    <link href="http://aspnet-skins.telerikstatic.com/ajaxz/2009.3.1203/Hay/ListBox.Hay.css"
-	        type="text/css" rel="stylesheet" class="Telerik_stylesheet" />
-````
+	````HTML
+	<link href="http://aspnet-skins.telerikstatic.com/ajaxz/2009.3.1203/Menu.css" type="text/css"
+		rel="stylesheet" class="Telerik_stylesheet" />
+	<link href="http://aspnet-skins.telerikstatic.com/ajaxz/2009.3.1203/Outlook/Menu.Outlook.css"
+		type="text/css" rel="stylesheet" class="Telerik_stylesheet" />
+	<link href="http://aspnet-skins.telerikstatic.com/ajaxz/2009.3.1203/TabStrip.css"
+		type="text/css" rel="stylesheet" class="Telerik_stylesheet" />
+	<link href="http://aspnet-skins.telerikstatic.com/ajaxz/2009.3.1203/Default/TabStrip.Default.css"
+		type="text/css" rel="stylesheet" class="Telerik_stylesheet" />
+	<link href="http://aspnet-skins.telerikstatic.com/ajaxz/2009.3.1203/ListBox.css"
+		type="text/css" rel="stylesheet" class="Telerik_stylesheet" />
+	<link href="http://aspnet-skins.telerikstatic.com/ajaxz/2009.3.1203/Hay/ListBox.Hay.css"
+		type="text/css" rel="stylesheet" class="Telerik_stylesheet" />
+	````
 
 
 
 2. If you open any of the css files (e.g. Menu.Outlook.css) you will notice that the url to the sprite images is very short and simple:
 
 ````XML
-	    background-image: url('Menu/rmSprite.png');
+background-image: url('Menu/rmSprite.png');
 ````
 
 
@@ -134,7 +134,7 @@ Here is how the html output look like:
 There is no more long web resource urls like this:
 
 ````XML
-	    background-image: url('/RadControlsWebSite2GAC/WebResource.axd?d=hgwy1jK8IjC5j7HbbfVh_E6saCEiqXDW9eAimnKa_bS60KBM4_SI-KvArO1mPviVyV_axd&t=633954571805516704');
+background-image: url('/RadControlsWebSite2GAC/WebResource.axd?d=hgwy1jK8IjC5j7HbbfVh_E6saCEiqXDW9eAimnKa_bS60KBM4_SI-KvArO1mPviVyV_axd&t=633954571805516704');
 ````
 
 

@@ -38,25 +38,25 @@ As the **RadStyleSheetManager** control uses ASP.NET 2.0 WebResource capabilitie
 
 Similar to RadScriptManager, **RadStyleSheetManager** combines all the requests (to the "stylesheet resource files" on the page) into a single one, reducing the page load time and traffic. The difference is that it does not replace the ScriptManager, but instead works together with it.
 
-**RadStyleSheetManager** outputs a **<link>** tag with a specific URL, making a request to an HttpHandler, which serves the combined scripts.
+**RadStyleSheetManager** outputs a **`<link>`** tag with a specific URL, making a request to an HttpHandler, which serves the combined scripts.
 
 RadStyleSheetManager also needs the HttpHandler to be registered in the application's configuration file, e.g.
 
 ````XML
-		<configuration>
-			<system.web>
-				<httpHandlers>
-					<add path="Telerik.Web.UI.WebResource.axd" verb="*" type="Telerik.Web.UI.WebResource, Telerik.Web.UI" validate="false" />
-				</httpHandlers>
-			</system.web>
-		</configuration>
+<configuration>
+	<system.web>
+		<httpHandlers>
+			<add path="Telerik.Web.UI.WebResource.axd" verb="*" type="Telerik.Web.UI.WebResource, Telerik.Web.UI" validate="false" />
+		</httpHandlers>
+	</system.web>
+</configuration>
 ````
 
 
 
-The actual URL of the HttpHandler can be changed using the **HttpHandlerUrlhttp://www.telerik.com/help/aspnet-ajax/p_telerik_web_ui_radstylesheetmanager_httphandlerurl.html** property of the control.
+The actual URL of the HttpHandler can be changed using the [HttpHandlerUrl](http://www.telerik.com/help/aspnet-ajax/p_telerik_web_ui_radstylesheetmanager_httphandlerurl.html) property of the control.
 
-If the stylesheet combination is not needed for some reason (e.g. debugging) it can be disabled by setting the **EnableStyleSheetCombinehttp://www.telerik.com/help/aspnet-ajax/p_telerik_web_ui_radstylesheetmanager_enablestylesheetcombine.html** property to *false*.
+If the stylesheet combination is not needed for some reason (e.g. debugging) it can be disabled by setting the [EnableStyleSheetCombine](http://www.telerik.com/help/aspnet-ajax/p_telerik_web_ui_radstylesheetmanager_enablestylesheetcombine.html) property to *false*.
 
 
 
@@ -66,146 +66,143 @@ If the stylesheet combination is not needed for some reason (e.g. debugging) it 
 
 1. Adding an assembly as a WebResource:
 
-1. Add a new project of type **Class Library** to the solution and call it **TelerikCustomSkins**;
+	1. Add a new project of type **Class Library** to the solution and call it **TelerikCustomSkins**;
 
-1. Add a StyleSheet file to the **TelerikCustomSkins**project and call it **TelerikSkinForComboBox**;
+	1. Add a StyleSheet file to the **TelerikCustomSkins** project and call it **TelerikSkinForComboBox**;
 
-1. Set it to be an EmbeddedResource (using the Visual Studio Properties pane). **Right-click** the css file -> **Properties** ->choose **Embedded Resource** for **Build Action**;
+	1. Set it to be an EmbeddedResource (using the Visual Studio Properties pane). **Right-click** the css file -> **Properties** ->choose **Embedded Resource** for **Build Action**;
 
-1. Rename **Class1.cs** to **TelerikSkin.cs** in the TelerikCustomSkins project (this is a cosmetic step to create more meaningful names for the files used in this guide);
+	1. Rename **Class1.cs** to **TelerikSkin.cs** in the TelerikCustomSkins project (this is a cosmetic step to create more meaningful names for the files used in this guide);
 
-1. Declare **TelerikSkinForComboBox.css** as a WebResource by adding the **WebResource** assembly attribute to the TelerikSkin.cs code file:
-
-
-
-````C#
-	using System;
-	using System.Collections.Generic;
-	using System.Linq;
-	using System.Text;
-	using System.Web.UI;
-	
-	[assembly: WebResource("TelerikCustomSkins.TelerikSkinForComboBox.css", "text/css")]
-	namespace TelerikCustomSkins 
-	{ 
-	    public class TelerikSkin 
-	    { 
-	    } 
-	}
-	
-````
-````VB.NET
-	Imports System
-	Imports System.Collections.Generic
-	Imports System.Linq
-	Imports System.Text
-	Imports System.Web.UI
-	
-	<Assembly: WebResource("TelerikCustomSkins.TelerikSkinForComboBox.css", "text/css")> 
-	Namespace TelerikCustomSkins
-	    Public Class TelerikSkin
-	    End Class
-	End Namespace
-	
-````
-
-
-1. Copy the content of [My Telerik.Web.UI installation]\Skins\Telerik -> **ComboBox.Telerik.css** to the **TelerikSkinForComboBox.css** file.
-
-1. If the skin css file uses images, which you want to store as WebResources, you need to:
-
-1. Copy the images to **TelerikCustomSkins** project. For the RadComboBox Telerik skin, the images are located at [My Telerik.Web.UI installation]\Skins\Telerik\**ComboBox**. Let's create a **ComboBox_Images** folder to store the images.
-
-1. Set the images as EmbeddedResources (using the Visual Studio Properties pane);
-
-1. Declare an assembly WebResource attribute for each image by adding the WebResource assembly attribute to the TelerikSkin.cs code file:
+	1. Declare **TelerikSkinForComboBox.css** as a WebResource by adding the **WebResource** assembly attribute to the TelerikSkin.cs code file:
 
 
 
-````C#
-	using System.Web.UI;
-	[assembly: WebResource("TelerikCustomSkins.TelerikSkinForComboBox.css", "text/css")]
-	[assembly: WebResource("TelerikCustomSkins.ComboBox_Images.rcbArrowCell.gif", "image/gif")]
-	[assembly: WebResource("TelerikCustomSkins.ComboBox_Images.rcbBg.gif", "image/gif")]
-	[assembly: WebResource("TelerikCustomSkins.ComboBox_Images.rcbDropDownBg.gif", "image/gif")]
-	[assembly: WebResource("TelerikCustomSkins.ComboBox_Images.rcbMoreResults.gif", "image/gif")]
-	[assembly: WebResource("TelerikCustomSkins.ComboBox_Images.Telerik.gif", "image/gif")]
-	
-	namespace TelerikCustomSkins 
-	{ 
-	    public class TelerikSkin 
-	    { 
-	    } 
-	}
+		````C#
+		using System;
+		using System.Collections.Generic;
+		using System.Linq;
+		using System.Text;
+		using System.Web.UI;
+		
+		[assembly: WebResource("TelerikCustomSkins.TelerikSkinForComboBox.css", "text/css")]
+		namespace TelerikCustomSkins 
+		{ 
+			public class TelerikSkin 
+			{ 
+			} 
+		}
+			
+		````
+		````VB.NET
+		Imports System
+		Imports System.Collections.Generic
+		Imports System.Linq
+		Imports System.Text
+		Imports System.Web.UI
+		
+		<Assembly: WebResource("TelerikCustomSkins.TelerikSkinForComboBox.css", "text/css")> 
+		Namespace TelerikCustomSkins
+			Public Class TelerikSkin
+			End Class
+		End Namespace
+			
+		````
+
+
+	1. Copy the content of [My Telerik.Web.UI installation]\Skins\Telerik -> **ComboBox.Telerik.css** to the **TelerikSkinForComboBox.css** file.
+
+	1. If the skin css file uses images, which you want to store as WebResources, you need to:
+
+		1. Copy the images to **TelerikCustomSkins** project. For the RadComboBox Telerik skin, the images are located at [My Telerik.Web.UI installation]\Skins\Telerik\ComboBox. Let's create a **ComboBox_Images** folder to store the images.
+
+		1. Set the images as EmbeddedResources (using the Visual Studio Properties pane);
+
+		1. Declare an assembly WebResource attribute for each image by adding the WebResource assembly attribute to the TelerikSkin.cs code file:
+
+
+
+			````C#
+			using System.Web.UI;
+			[assembly: WebResource("TelerikCustomSkins.TelerikSkinForComboBox.css", "text/css")]
+			[assembly: WebResource("TelerikCustomSkins.ComboBox_Images.rcbArrowCell.gif", "image/gif")]
+			[assembly: WebResource("TelerikCustomSkins.ComboBox_Images.rcbBg.gif", "image/gif")]
+			[assembly: WebResource("TelerikCustomSkins.ComboBox_Images.rcbDropDownBg.gif", "image/gif")]
+			[assembly: WebResource("TelerikCustomSkins.ComboBox_Images.rcbMoreResults.gif", "image/gif")]
+			[assembly: WebResource("TelerikCustomSkins.ComboBox_Images.Telerik.gif", "image/gif")]
+			
+			namespace TelerikCustomSkins 
+			{ 
+				public class TelerikSkin 
+				{ 
+				} 
+			}
+							
+			````
+			````VB.NET
+			Imports System.Web.UI
+			<Assembly: WebResource("TelerikCustomSkins.TelerikSkinForComboBox.css", "text/css")> 
+			<Assembly: WebResource("TelerikCustomSkins.ComboBox_Images.rcbArrowCell.gif", "image/gif")> 
+			<Assembly: WebResource("TelerikCustomSkins.ComboBox_Images.rcbBg.gif", "image/gif")> 
+			<Assembly: WebResource("TelerikCustomSkins.ComboBox_Images.rcbDropDownBg.gif", "image/gif")> 
+			<Assembly: WebResource("TelerikCustomSkins.ComboBox_Images.rcbMoreResults.gif", "image/gif")> 
+			<Assembly: WebResource("TelerikCustomSkins.ComboBox_Images.Telerik.gif", "image/gif")> 
+			
+			Namespace TelerikCustomSkins
+				Public Class TelerikSkin
+				End Class
+			End Namespace
 				
-````
-````VB.NET
-	Imports System.Web.UI
-	<Assembly: WebResource("TelerikCustomSkins.TelerikSkinForComboBox.css", "text/css")> 
-	<Assembly: WebResource("TelerikCustomSkins.ComboBox_Images.rcbArrowCell.gif", "image/gif")> 
-	<Assembly: WebResource("TelerikCustomSkins.ComboBox_Images.rcbBg.gif", "image/gif")> 
-	<Assembly: WebResource("TelerikCustomSkins.ComboBox_Images.rcbDropDownBg.gif", "image/gif")> 
-	<Assembly: WebResource("TelerikCustomSkins.ComboBox_Images.rcbMoreResults.gif", "image/gif")> 
-	<Assembly: WebResource("TelerikCustomSkins.ComboBox_Images.Telerik.gif", "image/gif")> 
-	
-	Namespace TelerikCustomSkins
-	    Public Class TelerikSkin
-	    End Class
-	End Namespace
-	
-````
+			````
 
 
->note Note that ComboBox_Images is the folder which contains the skin images.
->
+			>note Note that ComboBox_Images is the folder which contains the skin images.
+			>
 
 
->caution In **Visual Basic** the name of the folder is[not honored](http://msdn.microsoft.com/en-us/library/aa289232(VS.71).aspx)so you need to be careful with the embedded resource name
->
+			>caution In **Visual Basic** the name of the folder is [not honored](http://msdn.microsoft.com/en-us/library/aa289232(VS.71).aspx) so you need to be careful with the embedded resource name
+			>
 
 
-1. Modify the CSS class declararion’s url attribute to contain the webresource path, e.g..imageBg
+			1. Modify the CSS class declaration’s url attribute to contain the web resource path, e.g..imageBg
 
-````XML
-	        
-	        .RadComboBox_Telerik .rcbArrowCell
-	        {
-	            border: 0;
-	            padding: 0;
-	            width: 23px;
-	            background: transparent url('<%=WebResource("TelerikCustomSkins.ComboBox_Images.rcbArrowCell.gif")%>') no-repeat;
-	        }
-	        
-````
+				````CSS
+							
+				.RadComboBox_Telerik .rcbArrowCell
+				{
+					border: 0;
+					padding: 0;
+					width: 23px;
+					background: transparent url('<%=WebResource("TelerikCustomSkins.ComboBox_Images.rcbArrowCell.gif")%>') no-repeat;
+				}
+							
+				````
 
 
 
 1. Add System.Web as reference for the **TelerikCustomSkins**project and build the project. 
->caption 
-
-
 
 1. Add the **TelerikCustomSkins** project as reference to your web site and Build the entire solution.
 
 1. Add a StyleSheetReference to the StyleSheets property of RadStyleSheetManager, providing the full StyleSheet resource name and the Assembly it is located in, e.g
 
-````ASPNET
-	    <telerik:RadStyleSheetManager ID="RadStyleSheetManager1" runat="server">
-	        <StyleSheets>
-	            <telerik:StyleSheetReference Name="TelerikCustomSkins.TelerikSkinForComboBox.css"
-	                Assembly="TelerikCustomSkins"></telerik:StyleSheetReference>
-	        </StyleSheets>
-	    </telerik:RadStyleSheetManager>
-````
+	````ASPNET
+	<telerik:RadStyleSheetManager ID="RadStyleSheetManager1" runat="server">
+		<StyleSheets>
+			<telerik:StyleSheetReference Name="TelerikCustomSkins.TelerikSkinForComboBox.css"
+				Assembly="TelerikCustomSkins"></telerik:StyleSheetReference>
+		</StyleSheets>
+	</telerik:RadStyleSheetManager>
+	````
 
 
 
 1. Test the page by adding RadComboBox with Skin="Telerik" and **EnableEmbeddedSkins**="**False**"**.**The expected result is that the Telerik skin is successfully applied to RadCombobBox.
 
-````ASPNET
-	    <telerik:RadComboBox ID="RadComboBox1" Skin="Telerik" EnableEmbeddedSkins="False"
-	        runat="server">
-````
+	````ASPNET
+	<telerik:RadComboBox ID="RadComboBox1" Skin="Telerik" EnableEmbeddedSkins="False"
+		runat="server">
+	````
 
 
 
