@@ -10,10 +10,7 @@ position: 3
 
 # Design Time
 
-
-
-You can display the Smart Tag by right clicking on a **RadSpell**control and choosing "Show Smart Tag" or by clicking the small rightward pointing arrow at the upper right of the control.
->caption 
+You can display the Smart Tag by right clicking on a **RadSpell** control and choosing "Show Smart Tag" or by clicking the small rightward pointing arrow at the upper right of the control.
 
 ![spell-design-smart-tag](images/spell-design-smart-tag.png)
 

@@ -10,8 +10,6 @@ position: 0
 
 # Client-side Programming Overview
 
-
-
 RadSpell provides a flexible client-side API that allows you to interact with the spell checker on the client.
 
 ## Getting the RadSpell client-side object
@@ -19,13 +17,8 @@ RadSpell provides a flexible client-side API that allows you to interact with th
 **RadSpell ClientID**
 
 ````JavaScript
-	     
-	
-	var spell = $find("<%= RadSpell1.ClientID %>");
-				
+var spell = $find("<%= RadSpell1.ClientID %>");
 ````
-
-
 
 ## Client-Side Properties
 
@@ -36,9 +29,9 @@ RadSpell1.get_[PROPERTY_NAME];RadSpell1.set_[PROPERTY_NAME];
 For example to get/set the **ControlToCheck** property using the client-side object:
 
 ````JavaScript
-	var spell = $find('<%= RadSpell1.ClientID %>');
-	spell.set_controlToCheck("<%= TextBox1.ClientID %>");
-	spell.startSpellCheck();
+var spell = $find('<%= RadSpell1.ClientID %>');
+spell.set_controlToCheck("<%= TextBox1.ClientID %>");
+spell.startSpellCheck();
 ````
 
 

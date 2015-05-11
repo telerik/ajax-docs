@@ -10,12 +10,7 @@ position: 2
 
 # CSS Classes
 
-
-
 ## RadSpell CSS Selectors
-
-
->caption  
 
 | CSS Class | Description |
 | ------ | ------ |
@@ -35,9 +30,6 @@ position: 2
 
 ## RadSpell Heading
 
-
->caption  
-
 | CSS Class | Description |
 | ------ | ------ |
 |.RadSpell h3|RadSpell H3|
@@ -46,12 +38,7 @@ position: 2
 |.RadSpell h3 span|RadSpell H3 SPAN element|
 |.RadSpell h4|RadSpell H4|
 
-
-
 ## RadSpell Buttons
-
-
->caption  
 
 | CSS Class | Description |
 | ------ | ------ |

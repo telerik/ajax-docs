@@ -10,8 +10,6 @@ position: 1
 
 # Ignoring Words and Fragments
 
-
-
 RadSpell can be configured to ignore certain words or text fragments by setting the **WordIgnoreOptions** and **FragmentIgnoreOptions** properties:
 
 **WordIgnoreOptions**
@@ -42,47 +40,43 @@ RadSpell can be configured to ignore certain words or text fragments by setting 
 
 The example below demonstrates how to set multiple **WordIgnoreOptions** and multiple **FragmentIgnoreOptions**
 
-````ASPNET
-	<asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
-	<telerik:RadSpell
-	   ID="RadSpell1"
-	   runat="server"
-	   ControlToCheck="TextBox1"            
-	   WordIgnoreOptions="UPPERCASE,RepeatedWords"
-	   FragmentIgnoreOptions="EmailAddresses,Urls"
-	/> 
+````ASP.NET
+<asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+<telerik:RadSpell
+   ID="RadSpell1"
+   runat="server"
+   ControlToCheck="TextBox1"            
+   WordIgnoreOptions="UPPERCASE,RepeatedWords"
+   FragmentIgnoreOptions="EmailAddresses,Urls"
+/> 
 ````
-
-
-
-
 
 ````C#
-	using System;
-	using Telerik.Web.UI;
-	namespace RadSpel003
-	{
-	   public partial class _Default : System.Web.UI.Page
+using System;
+using Telerik.Web.UI;
+namespace RadSpel003
+{
+   public partial class _Default : System.Web.UI.Page
+   {
+	   protected void Page_Load(object sender, EventArgs e)
 	   {
-	       protected void Page_Load(object sender, EventArgs e)
-	       {
-	           RadSpell1.WordIgnoreOptions = WordIgnoreOptions.UPPERCASE | WordIgnoreOptions.RepeatedWords;
-	           RadSpell1.FragmentIgnoreOptions = FragmentIgnoreOptions.EmailAddresses | FragmentIgnoreOptions.Urls;
-	       }
+		   RadSpell1.WordIgnoreOptions = WordIgnoreOptions.UPPERCASE | WordIgnoreOptions.RepeatedWords;
+		   RadSpell1.FragmentIgnoreOptions = FragmentIgnoreOptions.EmailAddresses | FragmentIgnoreOptions.Urls;
 	   }
-	} 	
+   }
+} 	
 ````
-````VB.NET
-	Imports System
-	Imports Telerik.Web.UI
-	namespace RadSpel003
-			Partial Public Class _Default
-				Inherits System.Web.UI.Page
-				Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
-					RadSpell1.WordIgnoreOptions = WordIgnoreOptions.UPPERCASE Or WordIgnoreOptions.RepeatedWords
-					RadSpell1.FragmentIgnoreOptions = FragmentIgnoreOptions.EmailAddresses Or FragmentIgnoreOptions.Urls
-				End Sub
-			End Class
-		End Namespace
+````VB
+Imports System
+Imports Telerik.Web.UI
+namespace RadSpel003
+	Partial Public Class _Default
+		Inherits System.Web.UI.Page
+		Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
+			RadSpell1.WordIgnoreOptions = WordIgnoreOptions.UPPERCASE Or WordIgnoreOptions.RepeatedWords
+			RadSpell1.FragmentIgnoreOptions = FragmentIgnoreOptions.EmailAddresses Or FragmentIgnoreOptions.Urls
+		End Sub
+	End Class
+End Namespace
 ````
 

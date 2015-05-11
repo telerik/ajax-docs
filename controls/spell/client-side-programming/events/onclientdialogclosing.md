@@ -10,11 +10,7 @@ position: 3
 
 # OnClientDialogClosing
 
-
-
-## 
-
-The **OnClientDialogClosing**client-side event occurs just before the spell check dialog closes. The event handler receives parameters:
+The **OnClientDialogClosing** client-side event occurs just before the spell check dialog closes. The event handler receives parameters:
 
 1. The spell checker instance that fired the event.
 
@@ -22,20 +18,20 @@ The **OnClientDialogClosing**client-side event occurs just before the spell chec
 
 The example below displays an alert that the dialog is closing.
 
-````ASPNET
-	function dialogClosing (sender, args)
-	{
-	   alert('Dialog is closing');
-	}
-	...   
-	       
-	<telerik:RadSpell
-	   ID="RadSpell1"
-	   runat="server"
-	   ButtonType="PushButton"
-	   ControlToCheck="TextBox1"
-	   OnClientDialogClosing="dialogClosing"
-	/> 
+````ASP.NET
+function dialogClosing (sender, args)
+{
+   alert('Dialog is closing');
+}
+...   
+	   
+<telerik:RadSpell
+   ID="RadSpell1"
+   runat="server"
+   ButtonType="PushButton"
+   ControlToCheck="TextBox1"
+   OnClientDialogClosing="dialogClosing"
+/> 
 ````
 
 

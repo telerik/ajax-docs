@@ -10,8 +10,6 @@ position: 5
 
 # Spellchecking Multiple Text Areas
 
-
-
 ## Scenario
 
 How to spell-check multiple text-areas at once using a custom text source.
@@ -33,8 +31,6 @@ To spell check multiple text sources:
 * Call the RadSpell client object set_textSource() method, passing the new custom text source object instance.
 
 >note HtmlElementTextSource is defined in the Telerik.Web.UI.Spell assembly, and registered for availability to JavaScript within RadSpell.js. RadSpell.js is normally a resource and not visible to you, but you can find the JavaScript source in the Telerik UI for ASP.NET AJAX installation directory under "\scripts".
->
-
 
 This general approach can be used not just for TextBoxes, but for spell checking any combination of controls on a web page.
 
@@ -49,55 +45,53 @@ This general approach can be used not just for TextBoxes, but for spell checking
 ![](images/spell-howto001.png)
 
 ````JavaScript
-	<telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
-	   <script type="text/javascript">
-	       function MultipleTextSource(sources)
-	       {
-	         this.sources = sources;
-	         this.get_text = function()
-	         {
-	            var texts = [];
-	            for (var i = 0; i < this.sources.length; i++)
-	            {
-	               texts[texts.length] = this.sources[i].get_text();
-	            }
-	            return texts.join("<controlSeparator><br/></controlSeparator>");
-	         }
-	         this.set_text = function(text)
-	         {
-	            var texts = text.split("<controlSeparator><br/></controlSeparator>");
-	            for (var i = 0; i < this.sources.length; i++)
-	            {
-	               this.sources[i].set_text(texts[i]);
-	            }
-	         }
-	       }
-	       function spellCheck()
-	       {    
-	           var sources =
-	               [
-	               new Telerik.Web.UI.Spell.HtmlElementTextSource($get('TextBox1')),
-	               new Telerik.Web.UI.Spell.HtmlElementTextSource($get('TextBox2')),
-	               new Telerik.Web.UI.Spell.HtmlElementTextSource($get('TextBox3'))
-	               ];
-	           var spell = $find('<%= RadSpell1.ClientID %>');
-	           spell.set_textSource(new MultipleTextSource(sources));
-	           spell.startSpellCheck();
-	       }
-	   </script>
-	</telerik:RadCodeBlock> 
+<telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
+   <script type="text/javascript">
+	   function MultipleTextSource(sources)
+	   {
+		 this.sources = sources;
+		 this.get_text = function()
+		 {
+			var texts = [];
+			for (var i = 0; i < this.sources.length; i++)
+			{
+			   texts[texts.length] = this.sources[i].get_text();
+			}
+			return texts.join("<controlSeparator><br/></controlSeparator>");
+		 }
+		 this.set_text = function(text)
+		 {
+			var texts = text.split("<controlSeparator><br/></controlSeparator>");
+			for (var i = 0; i < this.sources.length; i++)
+			{
+			   this.sources[i].set_text(texts[i]);
+			}
+		 }
+	   }
+	   function spellCheck()
+	   {    
+		   var sources =
+			   [
+			   new Telerik.Web.UI.Spell.HtmlElementTextSource($get('TextBox1')),
+			   new Telerik.Web.UI.Spell.HtmlElementTextSource($get('TextBox2')),
+			   new Telerik.Web.UI.Spell.HtmlElementTextSource($get('TextBox3'))
+			   ];
+		   var spell = $find('<%= RadSpell1.ClientID %>');
+		   spell.set_textSource(new MultipleTextSource(sources));
+		   spell.startSpellCheck();
+	   }
+   </script>
+</telerik:RadCodeBlock> 
 ````
 
-
-
-````ASPNET
-	<asp:ScriptManager ID="Scriptmanager1" runat="server">
-	</asp:ScriptManager>
-	<asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
-	<asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
-	<asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
-	<telerik:RadSpell ID="RadSpell1" runat="server" ButtonType="None" />
-	<input id="Button1" type="button" value="Spell Check All" onclick="spellCheck();" /> 
+````ASP.NET
+<asp:ScriptManager ID="Scriptmanager1" runat="server">
+</asp:ScriptManager>
+<asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+<asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+<asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
+<telerik:RadSpell ID="RadSpell1" runat="server" ButtonType="None" />
+<input id="Button1" type="button" value="Spell Check All" onclick="spellCheck();" /> 
 ````
 
 

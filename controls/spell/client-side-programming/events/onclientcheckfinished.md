@@ -10,16 +10,11 @@ position: 1
 
 # OnClientCheckFinished
 
-
-
-## 
-
-The **OnClientCheckFinished**client-side event occurs after the spell check is complete. The event handler receives parameters:
+The **OnClientCheckFinished** client-side event occurs after the spell check is complete. The event handler receives parameters:
 
 1. sender—the [RadSpell]({%slug spell/client-side-programming/radspell-object%}) that fired the event.
 
 1. Event arguments—an event arguments object of type **SpellClientCheckFinishedEventArgs** that exposes the following properties and methods:
-
 
 | Name | Parameters | Return Type | Description |
 | ------ | ------ | ------ | ------ |
@@ -27,22 +22,22 @@ The **OnClientCheckFinished**client-side event occurs after the spell check is c
 
 The example below cancels the built-in complete message and displays a completion message in a div instead.
 
-````ASPNET
-	function checkFinished (sender, args)
-	{
-	   args.suppressCompleteMessage(true);
-	   $get('statusDiv').innerHTML = 'Spell check is complete';
-	}
-	...
-	<div runat="server" id="statusDiv" />        
-	       
-	<telerik:RadSpell
-	   ID="RadSpell1"
-	   runat="server"
-	   ButtonType="PushButton"
-	   ControlToCheck="TextBox1"
-	   OnClientCheckFinished="checkFinished"
-	/>     
+````ASP.NET
+function checkFinished (sender, args)
+{
+   args.suppressCompleteMessage(true);
+   $get('statusDiv').innerHTML = 'Spell check is complete';
+}
+...
+<div runat="server" id="statusDiv" />        
+	   
+<telerik:RadSpell
+   ID="RadSpell1"
+   runat="server"
+   ButtonType="PushButton"
+   ControlToCheck="TextBox1"
+   OnClientCheckFinished="checkFinished"
+/>     
 ````
 
 

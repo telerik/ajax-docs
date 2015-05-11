@@ -10,8 +10,6 @@ position: 1
 
 # Launching on Client-side Event
 
-
-
 ## Scenario
 
 How to launch the spellchecker on various client-side events.
@@ -24,33 +22,25 @@ Follow the steps below to achieve this scenario:
 
 1. We will assume that the TextBox control you want to check has ID of "TextBox1".
 
-2. Set the **RadSpell ButtonType** property to **None**. This will hide the default spellcheck button from the form:
+1. Set the **RadSpell ButtonType** property to **None**. This will hide the default spellcheck button from the form:
 
-````ASPNET
-	     
-							<telerik:radspell id="RadSpell1" runat="server" controltocheck="TextBox1" buttontype="None" /> 
-				
-````
+	**ASP.NET**
 
+		<telerik:radspell id="RadSpell1" runat="server" controltocheck="TextBox1" buttontype="None" /> 			
 
+1. Add a JavaScript function to the web page that starts the spellchecker. In this example the function is called "spellCheck()".
 
-3. Add a JavaScript function to the web page that starts the spellchecker. In this example the function is called "spellCheck()".
+	**JavaScript**
 
-````JavaScript
-	    	function spellCheck() {
-	    		var spell = $find('<%= RadSpell1.ClientID %>');
-	    		spell.startSpellCheck();
-	    	}	
-````
+		function spellCheck() {
+			var spell = $find('<%= RadSpell1.ClientID %>');
+			spell.startSpellCheck();
+		}	
 
+1. Make the TextBox control **onBlur** client-side handler call the new spellCheck() function:
 
+	**ASP.NET**
+	
+		<asp:TextBox id="TextBox1" onblur="javascript: spellCheck();" runat="server">this is a mistakr</asp:TextBox> 			
 
-4. Make the TextBox control **onBlur** client-side handler call the new spellCheck() function:
-
-````ASPNET
-	     
-							<asp:TextBox id="TextBox1" onblur="javascript: spellCheck();" runat="server">this is a mistakr</asp:TextBox> 
-				
-````
-
-
+		

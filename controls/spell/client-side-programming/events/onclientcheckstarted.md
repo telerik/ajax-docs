@@ -10,11 +10,7 @@ position: 0
 
 # OnClientCheckStarted
 
-
-
-## 
-
-The **OnClientCheckStarted**client-side event occurs when the spell check begins and before the spell check dialog appears.
+The **OnClientCheckStarted** client-side event occurs when the spell check begins and before the spell check dialog appears.
 
 The event handler receives parameters:
 
@@ -26,22 +22,22 @@ The event handler receives parameters:
 
 The example below displays the discontinues the spell check if the contents of "TextBox1" contain the string [www.telerik.com](http://www.telerik.com).
 
-````ASPNET
-	function checkStarted (sender, args)
-	{
-	   if ($get("<%= TextBox1.ClientID %>").value == 'www.telerik.com')
-	   {
-	       args.set_cancel(true);
-	   }
-	}
-	...
-	<telerik:RadSpell
-	   ID="RadSpell1"
-	   runat="server"
-	   ButtonType="PushButton"
-	   ControlToCheck="TextBox1"
-	   OnClientCheckStarted="checkStarted"
-	/>  
+````ASP.NET
+function checkStarted (sender, args)
+{
+   if ($get("<%= TextBox1.ClientID %>").value == 'www.telerik.com')
+   {
+	   args.set_cancel(true);
+   }
+}
+...
+<telerik:RadSpell
+   ID="RadSpell1"
+   runat="server"
+   ButtonType="PushButton"
+   ControlToCheck="TextBox1"
+   OnClientCheckStarted="checkStarted"
+/>  
 ````
 
 

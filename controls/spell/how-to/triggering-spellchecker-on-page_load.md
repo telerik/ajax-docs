@@ -10,8 +10,6 @@ position: 2
 
 # Triggering Spellchecker on Page_Load
 
-
-
 ## Scenario
 
 How to trigger the spellchecker on Page_Load.
@@ -22,17 +20,17 @@ You can trigger the spellcheck on **Page_Load**, but you have to use a client-si
 
 1) Set the spellcheck **ButtonType** property to "None"
 
-2) Set the <body> **OnLoad** event like this:
+2) Set the body **OnLoad** event like this:
 
-````ASPNET
-	<body onload="setTimeout(function() { $find('<%= RadSpell1.ClientID %>').startSpellCheck(); }, 100);">  
-	   <form id="form2" runat="server">
-	       <asp:ScriptManager ID="ScriptManager1" runat="server">
-	       </asp:ScriptManager>
-	       <asp:TextBox ID="TextBox1" runat="server" Text="baad speeleng"></asp:TextBox>
-	       <telerik:RadSpell ID="RadSpell1" runat="server" ControlToCheck="TextBox1" ButtonType="None"/>
-	   </form>
-	</body> 
+````ASP.NET
+<body onload="setTimeout(function() { $find('<%= RadSpell1.ClientID %>').startSpellCheck(); }, 100);">  
+   <form id="form2" runat="server">
+	   <asp:ScriptManager ID="ScriptManager1" runat="server">
+	   </asp:ScriptManager>
+	   <asp:TextBox ID="TextBox1" runat="server" Text="baad speeleng"></asp:TextBox>
+	   <telerik:RadSpell ID="RadSpell1" runat="server" ControlToCheck="TextBox1" ButtonType="None"/>
+   </form>
+</body> 
 ````
 
 
