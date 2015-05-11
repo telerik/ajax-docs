@@ -10,11 +10,7 @@ position: 11
 
 # OnClientDataBound
 
-
-
 This article demonstrates how the **OnClientDataBound** event can be used to trigger a logic when the data binding of the **RadRortator** is finished.
-
-## 
 
 The event handler receives only one parameter. The **RadRotator** instance that fired the event.
 
@@ -22,30 +18,28 @@ The event handler receives only one parameter. The **RadRotator** instance that 
 
 **Example 1**: Using the **OnClientDataBound** event.
 
-````ASPNET
-		<telerik:RadClientDataSource runat="server" ID="RadClientDataSource1" PageSize="5" AllowPaging="true">
-			<DataSource>
-				<WebServiceDataSourceSettings BaseUrl="http://demos.kendoui.com/service/">
-					<Select Url="Products" DataType="JSONP" />
-				</WebServiceDataSourceSettings>
-			</DataSource>
-		</telerik:RadClientDataSource>
-	
-		<telerik:RadRotator runat="server" ID="Rotator" ClientDataSourceID="RadClientDataSource1"
-			OnClientDataBound="OnClientDataBound">
-			<ClientTemplate>
-	        <span class="productName">#= ProductName #</span>
-			</ClientTemplate>
-		</telerik:RadRotator>
-	
-		<script type="text/javascript">
-			function OnClientDataBound(sender) {
-				alert("RadRotator control is data bound!");
-			}
-		</script>
+````ASP.NET
+<telerik:RadClientDataSource runat="server" ID="RadClientDataSource1" PageSize="5" AllowPaging="true">
+	<DataSource>
+		<WebServiceDataSourceSettings BaseUrl="http://demos.kendoui.com/service/">
+			<Select Url="Products" DataType="JSONP" />
+		</WebServiceDataSourceSettings>
+	</DataSource>
+</telerik:RadClientDataSource>
+
+<telerik:RadRotator runat="server" ID="Rotator" ClientDataSourceID="RadClientDataSource1"
+	OnClientDataBound="OnClientDataBound">
+	<ClientTemplate>
+	<span class="productName">#= ProductName #</span>
+	</ClientTemplate>
+</telerik:RadRotator>
+
+<script type="text/javascript">
+	function OnClientDataBound(sender) {
+		alert("RadRotator control is data bound!");
+	}
+</script>
 ````
-
-
 
 # See Also
 

@@ -10,10 +10,6 @@ position: 1
 
 # OnClientLoad
 
-
-
-## 
-
 The **OnClientLoad** client-side event occurs after the RadRotator loads on the page.
 
 The event handler receives two parameters:
@@ -24,18 +20,18 @@ The event handler receives two parameters:
 
 This event can be used for executing custom code when the RadRotator is loaded. The example below sets the ScrollDuration of the rotator control to 500.
 
-````ASPNET
-	    <script type="text/javascript">
-	    	function OnClientLoad(sender, eventArgs) {
-	    		sender.set_scrollDuration(500);
-	    	}
-		</script>
-		<telerik:RadRotator ID="RadRotator1" runat="server" ScrollDirection="Left" Height="113px"
-			ItemHeight="113px" Width="150px" ItemWidth="150px" OnClientLoad="OnClientLoad">
-			<ItemTemplate>
-				<img src=".........." alt="" />
-			</ItemTemplate>
-		</telerik:RadRotator>
+````ASP.NET
+<script type="text/javascript">
+	function OnClientLoad(sender, eventArgs) {
+		sender.set_scrollDuration(500);
+	}
+</script>
+<telerik:RadRotator ID="RadRotator1" runat="server" ScrollDirection="Left" Height="113px"
+	ItemHeight="113px" Width="150px" ItemWidth="150px" OnClientLoad="OnClientLoad">
+	<ItemTemplate>
+		<img src=".........." alt="" />
+	</ItemTemplate>
+</telerik:RadRotator>
 ````
 
 

@@ -10,8 +10,6 @@ position: 1
 
 # Changes and Backward Compatibility
 
-
-
 ## Telerik RadRotator for ASP.NET AJAX
 
 A complete list of all changes can be found on Release History page: [http://www.telerik.com/products/aspnet-ajax/whats-new/release-history.aspx](http://www.telerik.com/products/aspnet-ajax/whats-new/release-history.aspx)
@@ -36,14 +34,8 @@ RadRotator for ASP.NET AJAX which is part of the Q3 2009 release is fully backwa
 
 RadRotator for ASP.NET AJAX which is part of the Q3 2008 release is fully backwards compatible with its previous version (Q2 2008).
 
-
-
-
-
 ## Important:
 
 **RadRotator for ASP.NET AJAX** is built upon a new logic which improves the experience and at the same time reduces the number of properties needed to configure the control. There are two major reasons for the new architecture being very different from RadRotator for ASP.NET. The new version is built upon the MS AJAX convention rules and programming model and the second reason is that we plan to add several new important reasons to the control which would not have been possible to integrate in an elegant manner with the old logic.
-
-
 
 **RadRotator for ASP.NET AJAX** is not compatible with RadRotator for ASP.NET, however its simplified configuration logic will allow users to easily replace the old version with the new one. The controls is yet to be further improved and new features will be added, providing even better experience in the future.

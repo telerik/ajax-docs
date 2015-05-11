@@ -10,16 +10,13 @@ position: 3
 
 # Design Time
 
-
-
 The Smart Tag of **RadRotator** lets you easily change the skin for your control or quickly get help. You can display the Smart Tag by right clicking on a **RadRotator** control and choosing "Show Smart Tag", or clicking the small rightward-pointing arrow located in the upper right corner of the control.
->caption 
 
 ![rotator-smart-tag](images/rotator-smart-tag.png)
 
 ## Choosing DataSource
 
-The Smart Tag of the RadRotator begins with the datasource configuration. You can either choose an already existing declarative datasource controlfrom the list, or add a new one:![rotator-smart-tag-data](images/rotator-smart-tag-data.png)
+The Smart Tag of the RadRotator begins with the data source configuration. You can either choose an already existing declarative data source control from the list, or add a new one:![rotator-smart-tag-data](images/rotator-smart-tag-data.png)
 
 ## Ajax Resources
 
@@ -40,8 +37,9 @@ The **Skin** drop-down displays a list of available [skins]({%slug rotator/appea
 ## Edit the template
 
 At the bottom you can find the Edit Templates link that allows you to modify the ContentTemplate of the rotator and add rich content as well. When you click that link you can type text or drag controls in the content template that opens in the RadRotator placeholder. When you are done you need to click the End Template Editing link in the Smart Tag.
->caption 
 
 ![rotator-smart-tag-1](images/rotator-smart-tag-1.png)
 
-# See Also[Skins](fd0403c7-49e2-4a03-b65f-d530778ebaaa)
+# See Also
+
+[Skins]({%slug rotator/appearance-and-styling/skins%})

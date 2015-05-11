@@ -10,10 +10,6 @@ position: 0
 
 # RadRotator Types
 
-
-
-## 
-
 **RadRotator for ASP.NET AJAX** offers 6 types that allow you to change its look and functionality with a single property - **RotatorType**:
 
 1. **AutomaticAdvance** - Items are scrolled automatically in the desired direction. Each item is shown for a specific amount of time.

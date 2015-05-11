@@ -1,5 +1,5 @@
 ---
-title: Events Overview
+title: Overview
 page_title: Overview | RadRotator for ASP.NET AJAX Documentation
 description: Overview
 slug: rotator/client-side-programming/events/overview
@@ -9,10 +9,6 @@ position: 0
 ---
 
 # Events Overview
-
-
-
-## 
 
 **RadRotator** provides the following client-side events:
 
@@ -38,50 +34,45 @@ position: 0
 
 The event handler method for any of the events can be set on the server and on the client.
 
-**Server-side**
+## Server-side
 
 To handle the desired event, the user must set the respective property to the name of the JavaScript function handling the event. Here is an example:
 
-````ASPNET
-		<script type="text/javascript">
-			function OnClientItemClicked(sender, eventArgs) {
-				alert("RadRotator was clicked.");
-			}
-		</script>
-		<telerik:RadRotator ID="RadRotator1" runat="server" ScrollDirection="Left" Height="113px"
-			ItemHeight="113px" Width="150px" ItemWidth="150px" OnClientItemClicked="OnClientItemClicked">
-			<ItemTemplate>
-				<img src=".........." alt="" />
-			</ItemTemplate>
-		</telerik:RadRotator>
-	
+````ASP.NET
+<script type="text/javascript">
+	function OnClientItemClicked(sender, eventArgs) {
+		alert("RadRotator was clicked.");
+	}
+</script>
+<telerik:RadRotator ID="RadRotator1" runat="server" ScrollDirection="Left" Height="113px"
+	ItemHeight="113px" Width="150px" ItemWidth="150px" OnClientItemClicked="OnClientItemClicked">
+	<ItemTemplate>
+		<img src=".........." alt="" />
+	</ItemTemplate>
+</telerik:RadRotator>
 ````
 
-
-
-**Client-side**
+## Client-side
 
 To handle the desired event, the user should use the respective **add_<eventName>(handlerFunction)** to attach the desired handler (i.e. **add_clicked** for the clicked event), where the parameter *handlerFunction* should be of type **function**. To remove a handler that has been added previously, the respective **remove_<eventName>(handlerFunction)** should be used. Here is an example showing how to add handler on the client:
 
-````ASPNET
-		<script type="text/javascript">
-			function Click(rotator, args) {
-				alert("Rotator was clicked");
-			}
-			function pageLoad() {
-				var rotator = $find("<%=RadRotator1.ClientID %>");
-				rotator.add_itemClicked(Click);
-			}
-		</script>
-		<telerik:RadRotator ID="RadRotator1" runat="server" ScrollDirection="Left" Height="113px"
-			ItemHeight="113px" Width="150px" ItemWidth="150px">
-			<ItemTemplate>
-				<img src=".........." alt="" />
-			</ItemTemplate>
-		</telerik:RadRotator>
+````ASP.NET
+<script type="text/javascript">
+	function Click(rotator, args) {
+		alert("Rotator was clicked");
+	}
+	function pageLoad() {
+		var rotator = $find("<%=RadRotator1.ClientID %>");
+		rotator.add_itemClicked(Click);
+	}
+</script>
+<telerik:RadRotator ID="RadRotator1" runat="server" ScrollDirection="Left" Height="113px"
+	ItemHeight="113px" Width="150px" ItemWidth="150px">
+	<ItemTemplate>
+		<img src=".........." alt="" />
+	</ItemTemplate>
+</telerik:RadRotator>
 ````
-
-
 
 # See Also
 

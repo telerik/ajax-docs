@@ -10,11 +10,7 @@ position: 2
 
 # Load On Demand
 
-
-
-## 
-
-The RadRotator supports **Load On Demand** functionality through a WebService.To enable this feature you should create a WebService that will control the displaying items and attach it to the RadRotator control.The inner property **WebServiceSettings** of the RadRotator has two properties for this purpose:
+The RadRotator supports **Load On Demand** functionality through a WebService. To enable this feature you should create a WebService that will control the displaying items and attach it to the RadRotator control. The inner property **WebServiceSettings** of the RadRotator has two properties for this purpose:
 
 * **Path** - sets the location of the WebService file;
 
@@ -24,102 +20,76 @@ Since the RadRotator functionality is entirely controlled by the WebMethod, you 
 
 Below you can find an example of the setup that is used with enabled **Load on Demand**:
 
-````ASPNET
-	    <telerik:RadRotator ID="RadRotator1" runat="server" Width="220px" Height="135px"
-	       ItemHeight="135" ItemWidth="110" CssClass="positionCenter" ScrollDuration="500" >
-	       <WebServiceSettings Path="RotatorWebService.asmx" Method="GetRotatorData" />
-	    </telerik:RadRotator>
+````ASP.NET
+<telerik:RadRotator ID="RadRotator1" runat="server" Width="220px" Height="135px"
+   ItemHeight="135" ItemWidth="110" CssClass="positionCenter" ScrollDuration="500" >
+   <WebServiceSettings Path="RotatorWebService.asmx" Method="GetRotatorData" />
+</telerik:RadRotator>
 ````
-
-
 
 The attached WebService should have the following signature:
 
-
-
 ````C#
-		[ScriptService]
-		public class WebServiceName : WebService
-		{
-			[WebMethod]
-			public RadRotatorItemData[] GetRotatorData(int itemIndex, string argument)
-			{
-				List<RadRotatorItemData> result = new List<RadRotatorItemData>();
-				//.......
-				RadRotatorItemData item = new RadRotatorItemData();
-				item.Html = myCustomHtml;
-				result.Add(item);
-				//.......
-				return result.ToArray();
-			}
-		}
-	
+[ScriptService]
+public class WebServiceName : WebService
+{
+	[WebMethod]
+	public RadRotatorItemData[] GetRotatorData(int itemIndex, string argument)
+	{
+		List<RadRotatorItemData> result = new List<RadRotatorItemData>();
+		//.......
+		RadRotatorItemData item = new RadRotatorItemData();
+		item.Html = myCustomHtml;
+		result.Add(item);
+		//.......
+		return result.ToArray();
+	}
+}
 ````
 ````VB
-		<ScriptService()> _
-		Public Class WebServiceName
-			Inherits WebService
-			<WebMethod()> _
-			Public Function GetRotatorData(itemIndex As Integer) As RadRotatorItemData()
-				Dim result As New List(Of RadRotatorItemData)()
-				'.......
-				Dim item As New RadRotatorItemData()
-				item.Html = myCustomHtml
-				result.Add(item)
-				'.......
-				Return result.ToArray()
-			End Function
-		End Class
-	#End Region
-	
-	#Region "rotator-load-on-demand-VB_1"
-		<WebMethod()> _
-		Public Function GetRotatorData(itemIndex As Integer, argument As String) As RadRotatorItemData()
-			'.......
-		End Function
-	#End Region
-	
-	End Class
+<ScriptService()> _
+Public Class WebServiceName
+	Inherits WebService
+	<WebMethod()> _
+	Public Function GetRotatorData(itemIndex As Integer) As RadRotatorItemData()
+		Dim result As New List(Of RadRotatorItemData)()
+		'.......
+		Dim item As New RadRotatorItemData()
+		item.Html = myCustomHtml
+		result.Add(item)
+		'.......
+		Return result.ToArray()
+	End Function
+End Class
 ````
-
-
 
 The HTML, which should be rendered in the item, is assigned to the Html property of the **RadRotatorItemData** object.
 
 There is an option for passing an argument to the WebService method. This can be achieved via the RadRotator’s client event **OnClientItemsRequesting**. The argument is sent in the handler of this event, as demonstrated below:
 
-````ASPNET
-		<script type="text/javascript">
-			function OnClientItemsRequesting(sender, args) {
-				args.set_argument("Item");
-			}
-		</script>
+````ASP.NET
+<script type="text/javascript">
+	function OnClientItemsRequesting(sender, args) {
+		args.set_argument("Item");
+	}
+</script>
 ````
-
-
 
 The passed argument can be accessed through the **argument** parameter of the WebService method.
 
-
-
 ````C#
-		[WebMethod]
-		public RadRotatorItemData[] GetRotatorData(int itemIndex, string argument)
-		{
-			//.......
-		}
+[WebMethod]
+public RadRotatorItemData[] GetRotatorData(int itemIndex, string argument)
+{
+	//.......
+}
 ````
 ````VB
-		<WebMethod()> _
-		Public Function GetRotatorData(itemIndex As Integer, argument As String) As RadRotatorItemData()
-			'.......
-		End Function
-	#End Region
-	
-	End Class
+<WebMethod()> _
+Public Function GetRotatorData(itemIndex As Integer, argument As String) As RadRotatorItemData()
+	'.......
+End Function	
 ````
-
-
 
 There are three client events that are related to the **Load On Demand** functionality:
 

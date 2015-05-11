@@ -10,12 +10,7 @@ position: 4
 
 # CSS Classes
 
-
-
 ## Common CSS
-
-
->caption  
 
 | CSS Class | Description |
 | ------ | ------ |
@@ -32,15 +27,12 @@ position: 4
 |.rrButton.rrButtonRight|Scroll Right Button|
 |.rrButton.rrButtonDown|Scroll Down Button|
 |.rrButton.rrButtonLeft|Scroll Left Button|
-|.rrButton.rrButtonDisabled|Disabled scroll buttin in which the dosabled appearance is achieved with opacity|
+|.rrButton.rrButtonDisabled|Disabled scroll button in which the disabled appearance is achieved with opacity|
 |.rrNoBorder .rrClipRegion|The Wrapping class of RadRotator`s items list in no-bordered RadRotator|
 |html* .rrVerticalList li|Special setting for RadRotator`s vertical list for Internet Explorer 6|
 |||
 
 ## Skin - Specific CSS
-
-
->caption  
 
 | CSS Class | Description |
 | ------ | ------ |

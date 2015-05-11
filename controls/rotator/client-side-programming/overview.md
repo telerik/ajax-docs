@@ -10,16 +10,7 @@ position: 0
 
 # Client-side Programming Overview
 
-
-
-## 
-
 **RadRotator for ASP.NET AJAX** offers a rich Client-Side API that allows you to control the look and the behavior of the control on the client with JavaScript.
-
-
-
-
->caption  
 
 | Method | Description |
 | ------ | ------ |
@@ -33,11 +24,7 @@ position: 0
 | **add_load** |Sets a name of a JavaScript function to be called when the rotator is loaded.|
 | **add_mouseOut(function_name)** |Sets a reference to the JavaScript function to be called after the mouse leaves a item.|
 | **add_mouseOver(function_name)** |Sets a reference to the JavaScript function to be called when the mouse hovers a item.|
-| **addRotatorItem** |Creates and adds a new item to the RadRotator's client-side item collection. The item will not exist in the rotator's items collection on the serverThis method accepts two parameters:
-
-*  **radRotatorItemData** - an object that has a property named *Html* . The HTML markup of the new item should be specified in this property. If this parameter is not set, an empty item will be added in the RadRotator.
-
-*  **index** - the position, in which the item will be added. If this parameter is not specified, the new item will be added at the last position.|
+| **addRotatorItem** |Creates and adds a new item to the RadRotator's client-side item collection. The item will not exist in the rotator's items collection on the serverThis method accepts two parameters: **radRotatorItemData** - an object that has a property named *Html* . The HTML markup of the new item should be specified in this property. If this parameter is not set, an empty item will be added in the RadRotator.; **index** - the position, in which the item will be added. If this parameter is not specified, the new item will be added at the last position.|
 | **clearItems** |Clears all items in the RadRotator's client-side items collection. The items will not be removed in the rotator's items collection on the server|
 | **dataBind** |Binds the data of the **RadRotator** |
 | **get_appendClientDataBoundItems** |Gets whether data bound items will be appended to the Rotator|
@@ -64,7 +51,7 @@ position: 0
 | **isVertical** |Returns a Boolean that indicates if the rotator is verticalr|
 | **isViewportScrollMode** |Returns a Boolean that indicates if the rotator is scrolling item by item or it is scrolling the whole viewport|
 | **isVisible** |Returns a Boolean that indicates if the rotator is visible.|
-| **loadItemsFromWebService** |Manually requests new data for a RadRotator that uses[load-on-demand]({%slug rotator/functionality/load-on-demand%}).|
+| **loadItemsFromWebService** |Manually requests new data for a RadRotator that uses [load-on-demand]({%slug rotator/functionality/load-on-demand%}).|
 | **pause** |Pauses the animation|
 | **remove_buttonClick** |Removes the reference|
 | **remove_buttonOut** |Removes the reference|
@@ -76,9 +63,7 @@ position: 0
 | **remove_load** |Removes the reference.|
 | **remove_mouseOut(function_name)** |Removes the Javascript function identified by function_reference.|
 | **remove_mouseOver(function_name)** |Removes the Javascript function identified by function_reference.|
-| **removeRotatorItem** |Removes an item from the RadRotator's client-side items collection. The removed item will exist in the rotator's items collection on the serverThis method accepts one parameter:
-
-*  **index** - the position of the item that will be removed. If this parameter is not specified, the last item from the collection will be removed.|
+| **removeRotatorItem** |Removes an item from the RadRotator's client-side items collection. The removed item will exist in the rotator's items collection on the serverThis method accepts one parameter: **index** - the position of the item that will be removed. If this parameter is not specified, the last item from the collection will be removed.|
 | **repaint** |Redraw the rotator|
 | **resume** |Resumes the paused animation|
 | **set_appendClientDataBoundItems(value)** |Sets whether data bound items will be appended to the Rotator|
@@ -97,12 +82,7 @@ position: 0
 | **stop** |Stops the animation|
 | **stopViewportAnimation** |If an item is partially shown and the rotator is paused, calling this function will force the rotator to fully display the item.|
 
-
-
 **RadTicker for ASP.NET AJAX** methods:
-
-
->caption  
 
 | Method | Description |
 | ------ | ------ |
