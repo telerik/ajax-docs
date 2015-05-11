@@ -21,15 +21,15 @@ Method which fires the Update command for the **RadListView** edited item corres
 | ------ | ------ | ------ |
 | **index** |Integer|The edited item corresponding to the **index** will be updated.|
 
-````ASPNET
-	    <telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
-	        <script type="text/javascript">
-	            function UpdateFirstItem() {
-	                var listView = $find("<%= RadListView1.ClientID %>");
-	                listView.updateItem(0);
-	            } 
-	        </script>
-	    </telerik:RadCodeBlock>
+````ASP.NET
+<telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
+    <script type="text/javascript">
+        function UpdateFirstItem() {
+            var listView = $find("<%= RadListView1.ClientID %>");
+            listView.updateItem(0);
+        } 
+    </script>
+</telerik:RadCodeBlock>
 ````
 
 

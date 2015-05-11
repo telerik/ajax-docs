@@ -23,15 +23,15 @@ Method which fires the Delete command for the **RadListView** item corresponding
 | ------ | ------ | ------ |
 | **index** |Integer|The item corresponding to the **index** will be deleted.|
 
-````ASPNET
-	    <telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
-	        <script type="text/javascript">
-	            function DeleteFirstItem() {
-	                var listView = $find("<%= RadListView1.ClientID %>");
-	                listView.deleteItem(0);
-	            } 
-	        </script>
-	    </telerik:RadCodeBlock>
+````ASP.NET
+<telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
+    <script type="text/javascript">
+        function DeleteFirstItem() {
+            var listView = $find("<%= RadListView1.ClientID %>");
+            listView.deleteItem(0);
+        } 
+    </script>
+</telerik:RadCodeBlock>
 ````
 
 

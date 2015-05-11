@@ -12,6 +12,6 @@ position: 2
 
 
 
-## 
+##  
 
-Returns the page count for the respective **RadListView**object.
+Returns the page count for the respective **RadListView** object.

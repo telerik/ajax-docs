@@ -16,41 +16,41 @@ RadListView is a renderless component and provides complete control over its app
 
 ## Grid
 
-The Grid layout presents the RadListView data in a <table>. Each table column corresponds to a datafield. Each datafield name is displayed in a header cell (<th>). Each data item is represented by a table row (<tr>).
+The Grid layout presents the RadListView data in a `<table>`. Each table column corresponds to a datafield. Each datafield name is displayed in a header cell (`<th>`). Each data item is represented by a table row (`<tr>`).
 
 ````XML
-	    <div class="RadListView RadListView_Forest">
-	        <table cellspacing="0" style="width: 100%;">
-	            <thead>
-	                <tr class="rlvHeader">
-	                    <th>
-	                        ProductID
-	                    </th>
-	                    <th>
-	                        ProductName
-	                    </th>
-	                </tr>
-	            </thead>
-	            <tbody>
-	                <tr class="rlvI">
-	                    <td>
-	                        ...item content...
-	                    </td>
-	                    <td>
-	                        ...item content...
-	                    </td>
-	                </tr>
-	                <tr class="rlvA">
-	                    <td>
-	                        ...item content...
-	                    </td>
-	                    <td>
-	                        ...item content...
-	                    </td>
-	                </tr>
-	            </tbody>
-	        </table>
-	    </div>
+<div class="RadListView RadListView_Forest">
+    <table cellspacing="0" style="width: 100%;">
+        <thead>
+            <tr class="rlvHeader">
+                <th>
+                    ProductID
+                </th>
+                <th>
+                    ProductName
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="rlvI">
+                <td>
+                    ...item content...
+                </td>
+                <td>
+                    ...item content...
+                </td>
+            </tr>
+            <tr class="rlvA">
+                <td>
+                    ...item content...
+                </td>
+                <td>
+                    ...item content...
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
 ````
 
 
@@ -60,16 +60,16 @@ The Grid layout presents the RadListView data in a <table>. Each table column co
 The Floated Tiles layout present the RadListView data in boxes (tiles), which arrange automatically, depending on the available horizontal space. Note that since the tiles (<div> elements) are floated with a CSS style, they should have explicit width and height, otherwise they will resize according to their content and the resulting layout may not look good - the tiles will have different sizes and will not be aligned. The same width, height, margin and padding styles can be defined for all tiles in Visual Studio design time when choosing the layout.
 
 ````XML
-	    <div class="RadListView RadListViewFloated RadListView_Forest">
-	        <div class="rlvFloated rlvAutoScroll">
-	            <div style="height: 120px; width: 120px; margin: 5px; padding-left: 15px;" class="rlvI">
-	                ...item content...
-	            </div>
-	            <div style="height: 120px; width: 120px; margin: 5px; padding-left: 15px;" class="rlvA">
-	                ...item content...
-	            </div>
-	        </div>
-	    </div>
+<div class="RadListView RadListViewFloated RadListView_Forest">
+    <div class="rlvFloated rlvAutoScroll">
+        <div style="height: 120px; width: 120px; margin: 5px; padding-left: 15px;" class="rlvI">
+            ...item content...
+        </div>
+        <div style="height: 120px; width: 120px; margin: 5px; padding-left: 15px;" class="rlvA">
+            ...item content...
+        </div>
+    </div>
+</div>
 ````
 
 
@@ -79,14 +79,14 @@ The Floated Tiles layout present the RadListView data in boxes (tiles), which ar
 The Flow layout presents the RadListView data in blocks one below the other. Each block is represented by a <div> element.
 
 ````XML
-	    <div class="RadListView RadListView_Forest">
-	        <div class="rlvI">
-	            ...item content...
-	        </div>
-	        <div class="rlvA">
-	            ...item content...
-	        </div>
-	    </div>
+<div class="RadListView RadListView_Forest">
+    <div class="rlvI">
+        ...item content...
+    </div>
+    <div class="rlvA">
+        ...item content...
+    </div>
+</div>
 ````
 
 
@@ -96,35 +96,35 @@ The Flow layout presents the RadListView data in blocks one below the other. Eac
 The Single Row layout presents the RadListView data in a table with only one row, regardless of the number of items. Each item is represented by a table cell (<td>).
 
 ````XML
-	    <div class="RadListView RadListView_Forest">
-	        <table cellspacing="0">
-	            <tbody>
-	                <tr>
-	                    <td class="rlvI">
-	                        ...item content...
-	                    </td>
-	                    <td class="rlvA">
-	                        ...item content...
-	                    </td>
-	                </tr>
-	            </tbody>
-	        </table>
-	    </div>
+<div class="RadListView RadListView_Forest">
+    <table cellspacing="0">
+        <tbody>
+            <tr>
+                <td class="rlvI">
+                    ...item content...
+                </td>
+                <td class="rlvA">
+                    ...item content...
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
 ````
 
 
 
 ## Unordered List or Ordered List
 
-The Unordered and Ordered List layouts present the RadListView data in the respective HTML elements - <ul> or <ol>. Each data item is represented by a list item - <li>.
+The Unordered and Ordered List layouts present the RadListView data in the respective HTML elements - `<ul>` or `<ol>`. Each data item is represented by a list item - `<li>`.
 
 ````XML
-	    <div class="RadListView RadListView_Forest">
-	        <ul>
-	            <li class="rlvI">...item content... </li>
-	            <li class="rlvA">...item content... </li>
-	        </ul>
-	    </div>
+<div class="RadListView RadListView_Forest">
+    <ul>
+        <li class="rlvI">...item content... </li>
+        <li class="rlvA">...item content... </li>
+    </ul>
+</div>
 ````
 
 

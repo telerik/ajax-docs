@@ -12,6 +12,6 @@ position: 4
 
 
 
-## 
+##  
 
-Sets the page size for the respective **RadListView**object.
+Sets the page size for the respective **RadListView** object.

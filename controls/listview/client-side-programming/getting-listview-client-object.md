@@ -18,33 +18,33 @@ To get reference of the RadListView client-side object, you can use one of the f
 
 * Using the **$find(id)** method (shortcut for the findComponent() method) of the ASP.NET AJAX framework:
 
-````ASPNET
-	    <telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
-	        <script type="text/javascript">
-	            function GetListView() {
-	                var listview = $find("<%= RadListView1.ClientID %>");
-	            }
-	        </script>
-	    </telerik:RadCodeBlock>
+````ASP.NET
+<telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
+    <script type="text/javascript">
+        function GetListView() {
+            var listview = $find("<%= RadListView1.ClientID %>");
+        }
+    </script>
+</telerik:RadCodeBlock>
 ````
 
 
 
 * Subscribing for the **OnListViewCreated** client-side event of the control. In its handler the sender argument references the listview client object:
 
-````ASPNET
-	    <telerik:RadCodeBlock ID="RadCodeBlock2" runat="server">
-	        <script type="text/javascript">
-	            var listView = null; function ListViewCreated(sender, eventArgs) {
-	                listView = sender;
-	            }
-	        </script>
-	    </telerik:RadCodeBlock>
-	    <telerik:RadListView ID="RadListView1" runat="server">
-	        <ClientSettings>
-	            <ClientEvents OnListViewCreated="ListViewCreated" />
-	        </ClientSettings>
-	    </telerik:RadListView>
+````ASP.NET
+<telerik:RadCodeBlock ID="RadCodeBlock2" runat="server">
+    <script type="text/javascript">
+        var listView = null; function ListViewCreated(sender, eventArgs) {
+            listView = sender;
+        }
+    </script>
+</telerik:RadCodeBlock>
+<telerik:RadListView ID="RadListView1" runat="server">
+    <ClientSettings>
+        <ClientEvents OnListViewCreated="ListViewCreated" />
+    </ClientSettings>
+</telerik:RadListView>
 ````
 
 

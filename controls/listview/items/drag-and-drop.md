@@ -28,36 +28,36 @@ To enable Items Drag & Drop in RadListView:
 >
 
 
-````C#
-	<telerik:RadListView ID="RadListView1" runat="server" DataSourceID="SqlDataSource1"
-	    OnItemDrop="RadListView1_ItemDrop" ItemPlaceholderID="TrackContainer" DataKeyNames="TrackID"
-	    ClientDataKeyNames="TrackID" EnableEmbeddedSkins="false" Skin="">
-	    <ClientSettings AllowItemsDragDrop="true">
-	        <ClientEvents OnItemDropping="trackDropping" />
-	    </ClientSettings>
-	    <LayoutTemplate>
-	        <asp:PlaceHolder ID="TrackContainer" runat="server"></asp:PlaceHolder>
-	    </LayoutTemplate> 
-	
-	    <ItemTemplate>
-	        <div class="track rlvI">
-	            <telerik:RadListViewItemDragHandle ID="RadListViewItemDragHandle1" runat="server"
-	                ToolTip="Drag to organize" />
-	            <div class="info">
-	                <h3>
-	                    <%# Eval("Track") %>&nbsp;<%# Eval("Title") %>
-	                </h3>
-	                <div class="artist">
-	                    <%# Eval("Artist") %>
-	                </div>
-	                <div class="album">
-	                    <%# Eval("Album") %>
-	                    <%# Eval("Year").ToString() != "" ? "(" + Eval("Year").ToString() + ")" : "" %>
-	                </div>
-	            </div>
-	        </div>
-	    </ItemTemplate>
-	</telerik:RadListView> 			
+````ASP.NET
+<telerik:RadListView ID="RadListView1" runat="server" DataSourceID="SqlDataSource1"
+    OnItemDrop="RadListView1_ItemDrop" ItemPlaceholderID="TrackContainer" DataKeyNames="TrackID"
+    ClientDataKeyNames="TrackID" EnableEmbeddedSkins="false" Skin="">
+    <ClientSettings AllowItemsDragDrop="true">
+        <ClientEvents OnItemDropping="trackDropping" />
+    </ClientSettings>
+    <LayoutTemplate>
+        <asp:PlaceHolder ID="TrackContainer" runat="server"></asp:PlaceHolder>
+    </LayoutTemplate>
+
+    <ItemTemplate>
+        <div class="track rlvI">
+            <telerik:RadListViewItemDragHandle ID="RadListViewItemDragHandle1" runat="server"
+                ToolTip="Drag to organize" />
+            <div class="info">
+                <h3>
+                    <%# Eval("Track") %>&nbsp;<%# Eval("Title") %>
+                </h3>
+                <div class="artist">
+                    <%# Eval("Artist") %>
+                </div>
+                <div class="album">
+                    <%# Eval("Album") %>
+                    <%# Eval("Year").ToString() != "" ? "(" + Eval("Year").ToString() + ")" : "" %>
+                </div>
+            </div>
+        </div>
+    </ItemTemplate>
+</telerik:RadListView>
 ````
 
 
@@ -81,14 +81,14 @@ On the client-side, RadListView provides 4 client events you can use:
 All client events, except for OnItemDragging, pass the dragged item display index as well as any client data key values to the event handler through the second (**args**) parameter. Additionally, the OnItemDropping and OnItemDropped events also pass the destination HTML element inside the args object.
 
 ````JavaScript
-	function trackDropping(sender, args)
-	{
-	    var dest = args.get_destinationElement();
-	    if (!dest || !dest.id || dest.id.indexOf("GenreLink") < 0)
-	    {
-	        args.set_cancel(true);
-	    }
-	}			
+function trackDropping(sender, args)
+{
+    var dest = args.get_destinationElement();
+    if (!dest || !dest.id || dest.id.indexOf("GenreLink") < 0)
+    {
+        args.set_cancel(true);
+    }
+}
 ````
 
 
@@ -105,15 +105,15 @@ where **[RadListViewClientID]** is the ClientID of the RadListView instance, whi
 
 For example, if you have a generic **<div>** container in your RadListView ItemTemplate that you want to turn into a drag handle, you can use the following markup:
 
-````ASPNET
-	<telerik:RadListView ID="RadListView1" runat="server">
-	    <ItemTemplate>
-	        <div class="rlvI">
-	            <div class="rlvDrag" onmousedown="Telerik.Web.UI.RadListView.HandleDrag(event, '<%# Container.OwnerListView.ClientID %>', <%# Container.DisplayIndex%>)">
-	            </div>
-	            <div>
-	    </ItemTemplate>
-	</telerik:RadListView>
+````ASP.NET
+<telerik:RadListView ID="RadListView1" runat="server">
+    <ItemTemplate>
+        <div class="rlvI">
+            <div class="rlvDrag" onmousedown="Telerik.Web.UI.RadListView.HandleDrag(event, '<%# Container.OwnerListView.ClientID %>', <%# Container.DisplayIndex%>)">
+            </div>
+            <div>
+    </ItemTemplate>
+</telerik:RadListView>
 ````
 
 

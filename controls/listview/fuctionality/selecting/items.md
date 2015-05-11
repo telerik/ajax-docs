@@ -30,17 +30,17 @@ There are several ways to select/deselect an item in **RadListView**:
 >
 
 
-````ASPNET
-	    <itemtemplate>
-	       <asp:LinkButton ID="SelectButton1" Text="Select" CommandName="Select" runat="server" />
-	       <asp:LinkButton ID="DeselectButton1" Text="Deselect" CommandName="Deselect" runat="server" />
-	         ...
-	    </itemtemplate>
-	    <alternatingitemtemplate>
-	        <asp:LinkButton ID="SelectButton2" Text="Select" CommandName="Select" runat="server" />
-	       <asp:LinkButton ID="DeselectButton2" Text="Deselect" CommandName="Deselect" runat="server" />
-	        ...
-	    </alternatingitemtemplate>
+````ASP.NET
+<itemtemplate>
+   <asp:LinkButton ID="SelectButton1" Text="Select" CommandName="Select" runat="server" />
+   <asp:LinkButton ID="DeselectButton1" Text="Deselect" CommandName="Deselect" runat="server" />
+     ...
+</itemtemplate>
+<alternatingitemtemplate>
+    <asp:LinkButton ID="SelectButton2" Text="Select" CommandName="Select" runat="server" />
+   <asp:LinkButton ID="DeselectButton2" Text="Deselect" CommandName="Deselect" runat="server" />
+    ...
+</alternatingitemtemplate>
 ````
 
 
@@ -70,16 +70,16 @@ Brief description of the selection-related properties/methods:
 
 A simplified code-snippet is shown below:
 
-````ASPNET
-	    <telerik:radlistview id="RadListView1" runat="server">
-	        ...
-	        <ItemTemplate>
-	            <asp:Label ID="lbl1" Text='<%# Bind("UserName") %>' runat="server">        </asp:Label>
-	        </ItemTemplate>
-	        <SelectedItemTemplate>
-	            <asp:Label ID="lbl2" Text='<%# Bind("UserName") %>' runat="server" BackColor="Gray">        </asp:Label>
-	        </SelectedItemTemplate>
-	        ...</telerik:radlistview>
+````ASP.NET
+<telerik:radlistview id="RadListView1" runat="server">
+    ...
+    <ItemTemplate>
+        <asp:Label ID="lbl1" Text='<%# Bind("UserName") %>' runat="server">        </asp:Label>
+    </ItemTemplate>
+    <SelectedItemTemplate>
+        <asp:Label ID="lbl2" Text='<%# Bind("UserName") %>' runat="server" BackColor="Gray">        </asp:Label>
+    </SelectedItemTemplate>
+    ...</telerik:radlistview>
 ````
 
 
@@ -93,49 +93,49 @@ There are various way to access/extract values from the items in **RadListView**
 
 
 ````C#
-	    protected void RadListView1_ItemDataBound(object sender, RadListViewItemEventArgs e)
-	    {
-	        if (e.Item is RadListViewDataItem)
-	        {
-	            RadListViewDataItem item = e.Item as RadListViewDataItem;
-	            if (item.Selected)
-	            {
-	                string myValue = item.GetDataKeyValue("myValue").ToString();
-	            }
-	        }
-	    }
+protected void RadListView1_ItemDataBound(object sender, RadListViewItemEventArgs e)
+{
+    if (e.Item is RadListViewDataItem)
+    {
+        RadListViewDataItem item = e.Item as RadListViewDataItem;
+        if (item.Selected)
+        {
+            string myValue = item.GetDataKeyValue("myValue").ToString();
+        }
+    }
+}
 ````
-````VB.NET
-	    Protected Sub RadListView1_ItemDataBound(ByVal sender As Object, ByVal e As RadListViewItemEventArgs) Handles RadListView1.ItemDataBound
-	        If TypeOf e.Item Is RadListViewDataItem Then
-	            Dim item As RadListViewDataItem = TryCast(e.Item, RadListViewDataItem)
-	            If item.Selected Then
-	                Dim myValue As String = item.GetDataKeyValue("myValue").ToString()
-	            End If
-	        End If
-	    End Sub
+````VB
+Protected Sub RadListView1_ItemDataBound(ByVal sender As Object, ByVal e As RadListViewItemEventArgs) Handles RadListView1.ItemDataBound
+    If TypeOf e.Item Is RadListViewDataItem Then
+        Dim item As RadListViewDataItem = TryCast(e.Item, RadListViewDataItem)
+        If item.Selected Then
+            Dim myValue As String = item.GetDataKeyValue("myValue").ToString()
+        End If
+    End If
+End Sub
 ````
 
 
 
 
 ````C#
-	    protected void RadListView1_ItemCommand(object sender, RadListViewCommandEventArgs e)
-	    {
-	        if (e.CommandName == RadListView.SelectCommandName)
-	        {
-	            RadListViewDataItem item = e.ListViewItem as RadListViewDataItem;
-	            string myValue = item.GetDataKeyValue("myValue").ToString();
-	        }
-	    }
+protected void RadListView1_ItemCommand(object sender, RadListViewCommandEventArgs e)
+{
+    if (e.CommandName == RadListView.SelectCommandName)
+    {
+        RadListViewDataItem item = e.ListViewItem as RadListViewDataItem;
+        string myValue = item.GetDataKeyValue("myValue").ToString();
+    }
+}
 ````
-````VB.NET
-	    Protected Sub RadListView1_ItemCommand(ByVal sender As Object, ByVal e As RadListViewCommandEventArgs) Handles RadListView1.ItemCommand
-	        If e.CommandName = RadListView.SelectCommandName Then
-	            Dim item As RadListViewDataItem = TryCast(e.ListViewItem, RadListViewDataItem)
-	            Dim myValue As String = item.GetDataKeyValue("myValue").ToString()
-	        End If
-	    End Sub
+````VB
+Protected Sub RadListView1_ItemCommand(ByVal sender As Object, ByVal e As RadListViewCommandEventArgs) Handles RadListView1.ItemCommand
+    If e.CommandName = RadListView.SelectCommandName Then
+        Dim item As RadListViewDataItem = TryCast(e.ListViewItem, RadListViewDataItem)
+        Dim myValue As String = item.GetDataKeyValue("myValue").ToString()
+    End If
+End Sub
 ````
 
 
@@ -144,55 +144,55 @@ There are various way to access/extract values from the items in **RadListView**
 
 
 ````C#
-	    protected void RadListView1_ItemDataBound(object sender, RadListViewItemEventArgs e)
-	    {
-	        if (e.Item is RadListViewDataItem)
-	        {
-	            RadListViewDataItem item = e.Item as RadListViewDataItem;
-	            if (item.Selected)
-	            {
-	                Hashtable table = new Hashtable();
-	                (e.Item as RadListViewDataItem).ExtractValues(table);
-	                string myValue = table["myValue"].ToString();
-	            }
-	        }
-	    }
+protected void RadListView1_ItemDataBound(object sender, RadListViewItemEventArgs e)
+{
+    if (e.Item is RadListViewDataItem)
+    {
+        RadListViewDataItem item = e.Item as RadListViewDataItem;
+        if (item.Selected)
+        {
+            Hashtable table = new Hashtable();
+            (e.Item as RadListViewDataItem).ExtractValues(table);
+            string myValue = table["myValue"].ToString();
+        }
+    }
+}
 ````
-````VB.NET
-	    Protected Sub RadListView1_ItemDataBound(ByVal sender As Object, ByVal e As RadListViewItemEventArgs) Handles RadListView1.ItemDataBound
-	        If TypeOf e.Item Is RadListViewDataItem Then
-	            Dim item As RadListViewDataItem = TryCast(e.Item, RadListViewDataItem)
-	            If item.Selected Then
-	                Dim table As New Hashtable()
-	                (TryCast(e.Item, RadListViewDataItem)).ExtractValues(table)   
-	                Dim myValue As String = table("myValue").ToString()
-	            End If
-	        End If
-	    End Sub
+````VB
+Protected Sub RadListView1_ItemDataBound(ByVal sender As Object, ByVal e As RadListViewItemEventArgs) Handles RadListView1.ItemDataBound
+    If TypeOf e.Item Is RadListViewDataItem Then
+        Dim item As RadListViewDataItem = TryCast(e.Item, RadListViewDataItem)
+        If item.Selected Then
+            Dim table As New Hashtable()
+            (TryCast(e.Item, RadListViewDataItem)).ExtractValues(table)
+            Dim myValue As String = table("myValue").ToString()
+        End If
+    End If
+End Sub
 ````
 
 
 
 
 ````C#
-	    protected void RadListView1_ItemCommand(object sender, RadListViewCommandEventArgs e)
-	    {
-	        if (e.CommandName == RadListView.SelectCommandName)
-	        {
-	            Hashtable table = new Hashtable();
-	            (e.ListViewItem as RadListViewDataItem).ExtractValues(table);
-	            string myValue = table["myValue"].ToString();
-	        }
-	    }
+protected void RadListView1_ItemCommand(object sender, RadListViewCommandEventArgs e)
+{
+    if (e.CommandName == RadListView.SelectCommandName)
+    {
+        Hashtable table = new Hashtable();
+        (e.ListViewItem as RadListViewDataItem).ExtractValues(table);
+        string myValue = table["myValue"].ToString();
+    }
+}
 ````
-````VB.NET
-	    Protected Sub RadListView1_ItemCommand(ByVal sender As Object, ByVal e As RadListViewCommandEventArgs) Handles RadListView1.ItemCommand
-	        If e.CommandName = RadListView.SelectCommandName Then
-	            Dim table As New Hashtable()
-	            (TryCast(e.ListViewItem, RadListViewDataItem)).ExtractValues(table)  
-	            Dim myValue As String = table("myValue").ToString()
-	        End If
-	    End Sub
+````VB
+Protected Sub RadListView1_ItemCommand(ByVal sender As Object, ByVal e As RadListViewCommandEventArgs) Handles RadListView1.ItemCommand
+    If e.CommandName = RadListView.SelectCommandName Then
+        Dim table As New Hashtable()
+        (TryCast(e.ListViewItem, RadListViewDataItem)).ExtractValues(table)  
+        Dim myValue As String = table("myValue").ToString()
+    End If
+End Sub
 ````
 
 
@@ -203,31 +203,31 @@ Similar to the previous example but uses **ExtractValuesFromItem**. A major adva
 
 
 ````C#
-	    protected void RadListView1_ItemDataBound(object sender, RadListViewItemEventArgs e)
-	    {
-	        if (e.Item is RadListViewDataItem)
-	        {
-	            RadListViewDataItem item = e.Item as RadListViewDataItem;
-	            if (item.Selected)
-	            {
-	                Hashtable table = new Hashtable();
-	                e.Item.OwnerListView.ExtractValuesFromItem(table, e.Item as RadListViewDataItem, true);
-	                string myValue = table["myValue"].ToString();
-	            }
-	        }
-	    }
+protected void RadListView1_ItemDataBound(object sender, RadListViewItemEventArgs e)
+{
+    if (e.Item is RadListViewDataItem)
+    {
+        RadListViewDataItem item = e.Item as RadListViewDataItem;
+        if (item.Selected)
+        {
+            Hashtable table = new Hashtable();
+            e.Item.OwnerListView.ExtractValuesFromItem(table, e.Item as RadListViewDataItem, true);
+            string myValue = table["myValue"].ToString();
+        }
+    }
+}
 ````
-````VB.NET
-	    Protected Sub RadListView1_ItemDataBound(ByVal sender As Object, ByVal e As RadListViewItemEventArgs) Handles RadListView1.ItemDataBound
-	        If TypeOf e.Item Is RadListViewDataItem Then
-	            Dim item As RadListViewDataItem = TryCast(e.Item, RadListViewDataItem)
-	            If item.Selected Then
-	                Dim table As New Hashtable()
-	                e.Item.OwnerListView.ExtractValuesFromItem(table, TryCast(e.Item, RadListViewDataItem), True)
-	                Dim myValue As String = table("myValue").ToString()
-	            End If
-	        End If
-	    End Sub
+````VB
+Protected Sub RadListView1_ItemDataBound(ByVal sender As Object, ByVal e As RadListViewItemEventArgs) Handles RadListView1.ItemDataBound
+    If TypeOf e.Item Is RadListViewDataItem Then
+        Dim item As RadListViewDataItem = TryCast(e.Item, RadListViewDataItem)
+        If item.Selected Then
+            Dim table As New Hashtable()
+            e.Item.OwnerListView.ExtractValuesFromItem(table, TryCast(e.Item, RadListViewDataItem), True)
+            Dim myValue As String = table("myValue").ToString()
+        End If
+    End If
+End Sub
 ````
 
 
@@ -236,27 +236,27 @@ Similar to the previous example but uses **ExtractValuesFromItem**. A major adva
 
 
 ````C#
-	    protected void RadListView1_ItemDataBound(object sender, RadListViewItemEventArgs e)
-	    {
-	        if (e.Item is RadListViewDataItem)
-	        {
-	            RadListViewDataItem item = e.Item as RadListViewDataItem;
-	            if (item.Selected)
-	            {
-	                string myValue = DataBinder.Eval(item.DataItem, "myValue").ToString();
-	            }
-	        }
-	    }
+protected void RadListView1_ItemDataBound(object sender, RadListViewItemEventArgs e)
+{
+    if (e.Item is RadListViewDataItem)
+    {
+        RadListViewDataItem item = e.Item as RadListViewDataItem;
+        if (item.Selected)
+        {
+            string myValue = DataBinder.Eval(item.DataItem, "myValue").ToString();
+        }
+    }
+}
 ````
-````VB.NET
-	    Protected Sub RadListView1_ItemDataBound(ByVal sender As Object, ByVal e As RadListViewItemEventArgs) Handles RadListView1.ItemDataBound
-	        If TypeOf e.Item Is RadListViewDataItem Then
-	            Then Dim item As RadListViewDataItem = TryCast(e.Item, RadListViewDataItem)
-	            If item.Selected Then
-	                Dim myValue As String = DataBinder.Eval(item.DataItem, "myValue").ToString()
-	            End If
-	        End If
-	    End Sub
+````VB
+Protected Sub RadListView1_ItemDataBound(ByVal sender As Object, ByVal e As RadListViewItemEventArgs) Handles RadListView1.ItemDataBound
+    If TypeOf e.Item Is RadListViewDataItem Then
+        Then Dim item As RadListViewDataItem = TryCast(e.Item, RadListViewDataItem)
+        If item.Selected Then
+            Dim myValue As String = DataBinder.Eval(item.DataItem, "myValue").ToString()
+        End If
+    End If
+End Sub
 ````
 
 

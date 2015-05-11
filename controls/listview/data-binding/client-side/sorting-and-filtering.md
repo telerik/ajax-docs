@@ -14,9 +14,11 @@ position: 3
 
 This article will introduce you to the specifics related to client-side sorting and filtering in RadListView, including description of the control's behavior during these operations and the API exposed for controlling them.
 
-* **Sortinghttp://www.telerik.com/help/aspnet-ajax/listview-clientside-sorting-filtering.html#Section1_self**
+* **Sorting
+http://www.telerik.com/help/aspnet-ajax/listview-clientside-sorting-filtering.html#Section1_self**
 
-* **Filteringhttp://www.telerik.com/help/aspnet-ajax/listview-clientside-sorting-filtering.html#Section2_self**
+* **Filtering
+http://www.telerik.com/help/aspnet-ajax/listview-clientside-sorting-filtering.html#Section2_self**
 
 ## Sorting a client-side bound RadListView
 
@@ -53,7 +55,7 @@ The **to[Format]** methods in the **RadListViewSortExpressions** match the **Sor
 
 For filtering, RadListView exposes the **get_filterExpressions()**, **filter()** and **clearFilter()** APIs.
 
-The **filter()** method adds a filter expresion to RadListView and rebinds it. If any previous filters exist, the new filter expression is added with an **AND** logical operator.
+The **filter()** method adds a filter expression to RadListView and rebinds it. If any previous filters exist, the new filter expression is added with an **AND** logical operator.
 
 The **clearFilter()** method removes a filter expression by specified field name as a first parameter. If the parameter is omitted, all filter expressions are removed. RadListView automatically rebinds when **clearFilter()** is called.
 
@@ -103,10 +105,10 @@ The items of this collection are of type **Telerik.Web.UI.RadListViewFilterExpre
 
 Of particular interest in the **RadListViewFilterExpressions** set of APIs is the **build()** method of the **RadListViewFilterExpressions** class. build() returns a fluent expression builder instance that can be used for building hierarchical filter expressions connected by logical operators. Using this builder, you can quickly add filter expressions in RadListView:
 
-	
+
           listView.get_filterExpressions().build().equalTo("CategoryID", 4).and().greaterThan("UnitPrice", 47);
           listView.rebind();
-        
+
 
 
 
@@ -137,7 +139,7 @@ Here follows a list of all methods exposed by the **Telerik.Web.UI.RadListViewFi
 | **lessThan(fieldName, filterValue)** |Builds a filter expression for a "LessThan" filter.|
 | **lessThanOrEqualTo(fieldName, filterValue)** |>Builds a filter expression for a "LessThanOrEqualTo" filter.|
 
->note The methods below have a single arguments:
+>note The methods below have a single argument:
 > **fieldName** : the field name of the expression.
 >
 
@@ -169,7 +171,7 @@ Here follows a list of all methods exposed by the **Telerik.Web.UI.RadListViewFi
 | **and()** |Groups filter expressions with an AND operator.|
 | **or()** |Groups filter expressions with an OR operator.|
 
-## 
+##  
 
 >note It is highly recommended to enable VS Intellisense for Javascript when building filter expressions, so that all fluent expression builder methods are available with Intellisense.
 >
@@ -177,7 +179,7 @@ Here follows a list of all methods exposed by the **Telerik.Web.UI.RadListViewFi
 
 Using the fluent expression builder and the conversion methods of the filter collection, we can add complex nested filter sub-expressions and describe non-trivial filtering requirements:
 
-	
+
           listView.get_filterExpressions()
           .clear()
           .build()
@@ -192,13 +194,13 @@ Using the fluent expression builder and the conversion methods of the filter col
           .startsWith("ProductName", "I");
           });
           listView.rebind();
-        
+
 
 
 
 The above filter expression can be converted to various formats and sent to a web service for data filtration:#_List_
 
-	
+
           [{
           "filter":"Or",
           "expressions":
@@ -221,25 +223,25 @@ The above filter expression can be converted to various formats and sent to a we
           }
           ]
           }]
-        
+
 
 #_Linq_
 
-	
+
           "((UnitPrice > 25 && UnitsInStock < 40) || (Discontinued <> true && ProductName.StartsWith("I")))"
-        
+
 
 #_Sql_
 
-	
+
           "(([UnitPrice] > 25 AND [UnitsInStock] < 40) OR ([Discontinued] <> true AND [ProductName] LIKE 'I%'))"
-        
+
 
 #_OData_
 
-	
+
           "((UnitPrice gt 25 and UnitsInStock lt 40) or (Discontinued ne true and startswith(ProductName,'I') eq true))"
-        
+
 
 
 
@@ -247,6 +249,6 @@ The above filter expression can be converted to various formats and sent to a we
 >
 
 
-# See Also
+## See Also
 
  * [Overview]({%slug listview/data-binding/client-side/overview%})

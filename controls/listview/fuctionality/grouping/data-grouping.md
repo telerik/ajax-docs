@@ -32,127 +32,125 @@ You could take advantage of the following features of the DataGrouping functiona
 
 * Server-side event for the purpose of custom calculation of the aggregates
 
-Using the code below you will enable the RadListView DataGrouping feature following the listed fucntionalities.
+Using the code below you will enable the RadListView DataGrouping feature following the listed functionalities.
 
-````ASPNET
-	        <telerik:RadListView ID="RadListView1" runat="server" ItemPlaceholderID="DataGroupPlaceHolder3"
-	            InsertItemPosition="AfterDataGroups" DataSourceID="SqlDataSource1" AllowMultiFieldSorting="True"
-	            AllowPaging="True" GroupAggregatesScope="AllItems" DataKeyNames="Classification">
-	            <ItemTemplate>
-	                <br />
-	                <div class="rlvI">
-	                    <div class="category model">
-	                        Model:
-	                        <%#Eval("Model")%>
-	                    </div>
-	                    <div class="category">
-	                        Classification:
-	                        <%#Eval("Classification")%>
-	                    </div>
-	                    <div class="category">
-	                        Year:<%#Eval("Year")%></div>
-	                    <div class="category">
-	                        Fuel Type:
-	                        <%#Eval("Fuel")%>
-	                    </div>
-	                    <div class="category">
-	                        Booking Price:
-	                        <%#Eval("Price")%>
-	                    </div>
-	                    <div style="clear: both">
-	                    </div>
-	                </div>
-	            </ItemTemplate>
-	            <%--Setting the DataGroups in the DataGroups tag--%>
-	            <DataGroups>
-	            <%--In each ListViewDataGroup GroupdFiled should be set.--%>
-	                <telerik:ListViewDataGroup GroupField="BrandName" DataGroupPlaceholderID="DataGroupPlaceHolder1"
-	                    SortOrder="Ascending">
-	                    <DataGroupTemplate>
-	                        <asp:Panel runat="server" ID="Panel3" GroupingText='<%# (Container as RadListViewDataGroupItem).DataGroupKey %>'>
-	                            <asp:PlaceHolder runat="server" ID="DataGroupPlaceHolder2"></asp:PlaceHolder>
-	                            <asp:Label runat="server" ID="Label39" Text='<%# "Lower booking price: " + (Container as RadListViewDataGroupItem).AggregatesValues["Price"].ToString() %>'>
-	                            </asp:Label>
-	                        </asp:Panel>
-	                    </DataGroupTemplate>
-	                   <%-- Set the aggregate by specific DataField in the GroupAggregate tags--%>
-	                    <GroupAggregates>
-	                        <telerik:ListViewDataGroupAggregate Aggregate="Min" DataField="Price" />
-	                    </GroupAggregates>
-	                </telerik:ListViewDataGroup>
-	                     <telerik:ListViewDataGroup GroupField="Classification" DataGroupPlaceholderID="DataGroupPlaceHolder2">
-	                    <DataGroupTemplate>
-	                        <asp:Panel runat="server" ID="Panel2" GroupingText='<%# (Container as RadListViewDataGroupItem).DataGroupKey %>'>
-	                            <asp:Panel runat="server" ID="DataGroupPlaceHolder3">
-	                            </asp:Panel>
-	                        </asp:Panel>
-	                    </DataGroupTemplate>
-	                </telerik:ListViewDataGroup>
-	            </DataGroups>
-	        </telerik:RadListView>
-	
-	    <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:TelerikConnectionString %>"
-	        SelectCommand="SELECT [BrandName], [Model], [Classification], [Year], [Fuel], [Price] FROM [Cars]"/>
-	
+````ASP.NET
+<telerik:RadListView ID="RadListView1" runat="server" ItemPlaceholderID="DataGroupPlaceHolder3"
+    InsertItemPosition="AfterDataGroups" DataSourceID="SqlDataSource1" AllowMultiFieldSorting="True"
+    AllowPaging="True" GroupAggregatesScope="AllItems" DataKeyNames="Classification">
+    <ItemTemplate>
+        <br />
+        <div class="rlvI">
+            <div class="category model">
+                Model:
+                <%#Eval("Model")%>
+            </div>
+            <div class="category">
+                Classification:
+                <%#Eval("Classification")%>
+            </div>
+            <div class="category">
+                Year:<%#Eval("Year")%></div>
+            <div class="category">
+                Fuel Type:
+                <%#Eval("Fuel")%>
+            </div>
+            <div class="category">
+                Booking Price:
+                <%#Eval("Price")%>
+            </div>
+            <div style="clear: both">
+            </div>
+        </div>
+    </ItemTemplate>
+    <%--Setting the DataGroups in the DataGroups tag--%>
+    <DataGroups>
+    <%--In each ListViewDataGroup GroupdFiled should be set.--%>
+        <telerik:ListViewDataGroup GroupField="BrandName" DataGroupPlaceholderID="DataGroupPlaceHolder1"
+            SortOrder="Ascending">
+            <DataGroupTemplate>
+                <asp:Panel runat="server" ID="Panel3" GroupingText='<%# (Container as RadListViewDataGroupItem).DataGroupKey %>'>
+                    <asp:PlaceHolder runat="server" ID="DataGroupPlaceHolder2"></asp:PlaceHolder>
+                    <asp:Label runat="server" ID="Label39" Text='<%# "Lower booking price: " + (Container as RadListViewDataGroupItem).AggregatesValues["Price"].ToString() %>'>
+                    </asp:Label>
+                </asp:Panel>
+            </DataGroupTemplate>
+           <%-- Set the aggregate by specific DataField in the GroupAggregate tags--%>
+            <GroupAggregates>
+                <telerik:ListViewDataGroupAggregate Aggregate="Min" DataField="Price" />
+            </GroupAggregates>
+        </telerik:ListViewDataGroup>
+             <telerik:ListViewDataGroup GroupField="Classification" DataGroupPlaceholderID="DataGroupPlaceHolder2">
+            <DataGroupTemplate>
+                <asp:Panel runat="server" ID="Panel2" GroupingText='<%# (Container as RadListViewDataGroupItem).DataGroupKey %>'>
+                    <asp:Panel runat="server" ID="DataGroupPlaceHolder3">
+                    </asp:Panel>
+                </asp:Panel>
+            </DataGroupTemplate>
+        </telerik:ListViewDataGroup>
+    </DataGroups>
+</telerik:RadListView>
+<asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:TelerikConnectionString %>"
+    SelectCommand="SELECT [BrandName], [Model], [Classification], [Year], [Fuel], [Price] FROM [Cars]"/>
 ````
 
 
 
 Using the aggregate function on a specific aggregate field, you could set aggregates for specific groups. The aggregate value could be accessed using **AggregatesValues** property.
 
-````ASPNET
-	             <telerik:ListViewDataGroup GroupField="BrandName" DataGroupPlaceholderID="DataGroupPlaceHolder1"
-	                    SortOrder="Ascending">
-	                    <DataGroupTemplate>
-	                        <asp:Panel runat="server" ID="Panel1" GroupingText='<%# (Container as RadListViewDataGroupItem).DataGroupKey %>'>
-	                            <asp:PlaceHolder runat="server" ID="PlaceHolder1"></asp:PlaceHolder>
-	                            <asp:Label runat="server" ID="Label1" Text='<%# "Lower booking price: " + (Container as RadListViewDataGroupItem).AggregatesValues["Price"].ToString() %>'>
-	                            </asp:Label>
-	                        </asp:Panel>
-	                    </DataGroupTemplate>
-	                   <%-- Set the aggregate by specific DataField in the GroupAggregate tags--%>
-	                    <GroupAggregates>
-	                        <telerik:ListViewDataGroupAggregate Aggregate="Min" DataField="Price" />
-	                    </GroupAggregates>
-	                </telerik:ListViewDataGroup>         
+````ASP.NET
+<telerik:ListViewDataGroup GroupField="BrandName" DataGroupPlaceholderID="DataGroupPlaceHolder1"
+    SortOrder="Ascending">
+    <DataGroupTemplate>
+        <asp:Panel runat="server" ID="Panel1" GroupingText='<%# (Container as RadListViewDataGroupItem).DataGroupKey %>'>
+            <asp:PlaceHolder runat="server" ID="PlaceHolder1"></asp:PlaceHolder>
+            <asp:Label runat="server" ID="Label1" Text='<%# "Lower booking price: " + (Container as RadListViewDataGroupItem).AggregatesValues["Price"].ToString() %>'>
+            </asp:Label>
+        </asp:Panel>
+    </DataGroupTemplate>
+   <%-- Set the aggregate by specific DataField in the GroupAggregate tags--%>
+    <GroupAggregates>
+        <telerik:ListViewDataGroupAggregate Aggregate="Min" DataField="Price" />
+    </GroupAggregates>
+</telerik:ListViewDataGroup>
 ````
 
 
 
 ## Nested groups
 
-You could achive grouping in sevrela levels by nesting the **ListViewDataGroups**.
+You could achieve grouping in several levels by nesting the **ListViewDataGroups**.
 
-Note that the **DataGroupPlaceHolderID** of each nested group should be set to be the PlaceHolder of its direct parrent group. Finelly the **ItemPlaceholderID** of the RadListView control should be set to the container's ID od the most inner group.
+Note that the **DataGroupPlaceHolderID** of each nested group should be set to be the PlaceHolder of its direct parent group. Finally, the **ItemPlaceholderID** of the RadListView control should be set to the container's ID od the most inner group.
 
 The example bellow presents two levels of grouping
 
-````ASPNET
-	                          <telerik:RadListView ID="RadListView1" runat="server" ItemPlaceholderID="DataGroupPlaceHolder3"
-	            InsertItemPosition="AfterDataGroups" DataSourceID="SqlDataSource1" AllowMultiFieldSorting="True"
-	            AllowPaging="True" GroupAggregatesScope="AllItems" DataKeyNames="Classification">
-	              <DataGroups>
-	      
-	                <telerik:ListViewDataGroup GroupField="BrandName" DataGroupPlaceholderID="DataGroupPlaceHolder1"
-	                    SortOrder="Ascending">
-	                    <DataGroupTemplate>
-	                        <asp:Panel runat="server" ID="Panel4" GroupingText='<%# (Container as RadListViewDataGroupItem).DataGroupKey %>'>
-	                            <asp:PlaceHolder runat="server"  ID="DataGroupPlaceHolder2"></asp:PlaceHolder>
-	                        </asp:Panel>
-	                    </DataGroupTemplate>
-	                   <%-- Set the aggregate by specific DataField in the GroupAggregate tags--%>
-	                </telerik:ListViewDataGroup>
-	                     <telerik:ListViewDataGroup GroupField="Classification" DataGroupPlaceholderID="DataGroupPlaceHolder2">
-	                    <DataGroupTemplate>
-	                        <asp:Panel runat="server" ID="Panel5" GroupingText='<%# (Container as RadListViewDataGroupItem).DataGroupKey %>'>
-	                            <asp:Panel runat="server" ID="DataGroupPlaceHolder3">
-	                            </asp:Panel>
-	                           
-	                        </asp:Panel>
-	                    </DataGroupTemplate>
-	                </telerik:ListViewDataGroup>
-	            </DataGroups> 
-	            </telerik:RadListView>
+````ASP.NET
+<telerik:RadListView ID="RadListView1" runat="server" ItemPlaceholderID="DataGroupPlaceHolder3"
+ InsertItemPosition="AfterDataGroups" DataSourceID="SqlDataSource1" AllowMultiFieldSorting="True"
+ AllowPaging="True" GroupAggregatesScope="AllItems" DataKeyNames="Classification">
+   <DataGroups>
+
+     <telerik:ListViewDataGroup GroupField="BrandName" DataGroupPlaceholderID="DataGroupPlaceHolder1"
+         SortOrder="Ascending">
+         <DataGroupTemplate>
+             <asp:Panel runat="server" ID="Panel4" GroupingText='<%# (Container as RadListViewDataGroupItem).DataGroupKey %>'>
+                 <asp:PlaceHolder runat="server"  ID="DataGroupPlaceHolder2"></asp:PlaceHolder>
+             </asp:Panel>
+         </DataGroupTemplate>
+        <%-- Set the aggregate by specific DataField in the GroupAggregate tags--%>
+     </telerik:ListViewDataGroup>
+          <telerik:ListViewDataGroup GroupField="Classification" DataGroupPlaceholderID="DataGroupPlaceHolder2">
+         <DataGroupTemplate>
+             <asp:Panel runat="server" ID="Panel5" GroupingText='<%# (Container as RadListViewDataGroupItem).DataGroupKey %>'>
+                 <asp:Panel runat="server" ID="DataGroupPlaceHolder3">
+                 </asp:Panel>
+
+             </asp:Panel>
+         </DataGroupTemplate>
+     </telerik:ListViewDataGroup>
+ </DataGroups>
+</telerik:RadListView>
 ````
 
 

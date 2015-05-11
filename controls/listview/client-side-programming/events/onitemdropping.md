@@ -12,7 +12,7 @@ position: 5
 
 
 
-## 
+##  
 
 This client-side event is fired when a RadListView item is about to be dropped after dragging.
 
@@ -24,27 +24,26 @@ This client-side event is fired when a RadListView item is about to be dropped a
 
 Example:
 
-````ASPNET
-	        <telerik:RadListView ID="RadListView1" runat="server" ClientDataKeyNames="Title, Artist">
-	            <ClientSettings AllowItemsDragDrop="true">
-	                <ClientEvents OnItemDropping="ItemDropping" />
-	            </ClientSettings>
-	        </telerik:RadListView>
+````ASP.NET
+<telerik:RadListView ID="RadListView1" runat="server" ClientDataKeyNames="Title, Artist">
+    <ClientSettings AllowItemsDragDrop="true">
+        <ClientEvents OnItemDropping="ItemDropping" />
+    </ClientSettings>
+</telerik:RadListView>
 ````
 
 
 
 ````JavaScript
-	        function ItemDropping(sender, eventArgs) {
-	            var dest = eventArgs.get_destinationElement();
-	            if (!dest || !dest.id || dest.id.indexOf("DestinationPanel") < 0) {
-	                eventArgs.set_cancel(true);
-	            }
-	        }
+function ItemDropping(sender, eventArgs) {
+    var dest = eventArgs.get_destinationElement();
+    if (!dest || !dest.id || dest.id.indexOf("DestinationPanel") < 0) {
+        eventArgs.set_cancel(true);
+    }
+}
 ````
 
 
 
->caution To get or set property values for client API properties, you must call property accessor methods that are named with the get_ and set_ prefixes. For example, to get or set a value for a property such as[cancel](http://msdn.microsoft.com/en-us/library/bb310859.aspx), you call the get_cancel() or set_cancel().
+>caution To get or set property values for client API properties, you must call property accessor methods that are named with the get_ and set_ prefixes. For example, to get or set a value for a property such as [cancel](http://msdn.microsoft.com/en-us/library/bb310859.aspx), you call the get_cancel() or set_cancel().
 >
-

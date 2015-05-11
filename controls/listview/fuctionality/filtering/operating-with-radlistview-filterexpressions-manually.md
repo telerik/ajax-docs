@@ -51,46 +51,42 @@ Here are some examples illustrating how you can use the above types to create fi
 
 
 ````C#
-	     
-	
-	        RadListViewContainsFilterExpression expression1 = new
-	        RadListViewContainsFilterExpression("CustomerID");
-	        expression1.CurrentValue =
-	        "ALFKI";             
-	        RadListView1.FilterExpressions.Add(expression1);
-	        RadListView1.FilterExpressions.Add(new
-	        RadListViewGreaterThanFilterExpression<DateTime>("ShippedDate") {
-	        CurrentValue = DateTime.Parse("7/10/1996") });
-	        RadListView1.FilterExpressions.Add(
-	            new
-	        RadListViewGroupFilterExpression(RadListViewGroupFilterOperator.Or)
-	            {
-	                Expressions =
-	                {
-	                    new
-	        RadListViewGreaterThanFilterExpression<DateTime>("ShippedDate"){CurrentValue
-	        = DateTime.Parse("7/10/1996")},
-	                    new
-	        RadListViewEqualToFilterExpression<int>("OrderID"){CurrentValue =
-	        42}                   
-	                }
-	            }
-	        );
-	
-				
+RadListViewContainsFilterExpression expression1 = new
+RadListViewContainsFilterExpression("CustomerID");
+expression1.CurrentValue =
+"ALFKI";
+RadListView1.FilterExpressions.Add(expression1);
+RadListView1.FilterExpressions.Add(new
+RadListViewGreaterThanFilterExpression<DateTime>("ShippedDate") {
+CurrentValue = DateTime.Parse("7/10/1996") });
+RadListView1.FilterExpressions.Add(
+    new
+RadListViewGroupFilterExpression(RadListViewGroupFilterOperator.Or)
+    {
+        Expressions =
+        {
+            new
+RadListViewGreaterThanFilterExpression<DateTime>("ShippedDate"){CurrentValue
+= DateTime.Parse("7/10/1996")},
+            new
+RadListViewEqualToFilterExpression<int>("OrderID"){CurrentValue =
+42}
+        }
+    }
+);
 ````
-````VB.NET
-	    Dim expression1 As RadListViewContainsFilterExpression = New RadListViewContainsFilterExpression("CustomerID")
-	    expression1.CurrentValue = "ALFKI"
-	    RadListView1.FilterExpressions.Add(expression1)
-	    RadListView1.FilterExpressions.Add(New RadListViewGreaterThanFilterExpression(Of DateTime)("ShippedDate") 
-	        With _{.CurrentValue = DateTime.Parse("7/10/1996")})
-	    Dim group = New RadListViewGroupFilterExpression(RadListViewGroupFilterOperator.Or)
-	    With group
-	        .Expressions.Add(New RadListViewGreaterThanFilterExpression(Of DateTime)("ShippedDate") With {.CurrentValue = DateTime.Parse("7/10/1996")})
-	        .Expressions.Add(New RadListViewEqualToFilterExpression(Of Integer)("OrderID") With {.CurrentValue = 42})
-	    End With
-	    RadListView1.FilterExpressions.Add(group) 
+````VB
+Dim expression1 As RadListViewContainsFilterExpression = New RadListViewContainsFilterExpression("CustomerID")
+expression1.CurrentValue = "ALFKI"
+RadListView1.FilterExpressions.Add(expression1)
+RadListView1.FilterExpressions.Add(New RadListViewGreaterThanFilterExpression(Of DateTime)("ShippedDate")
+    With _{.CurrentValue = DateTime.Parse("7/10/1996")})
+Dim group = New RadListViewGroupFilterExpression(RadListViewGroupFilterOperator.Or)
+With group
+    .Expressions.Add(New RadListViewGreaterThanFilterExpression(Of DateTime)("ShippedDate") With {.CurrentValue = DateTime.Parse("7/10/1996")})
+    .Expressions.Add(New RadListViewEqualToFilterExpression(Of Integer)("OrderID") With {.CurrentValue = 42})
+End With
+RadListView1.FilterExpressions.Add(group)
 ````
 
 
@@ -125,20 +121,14 @@ The following examples illustrate how you can use the BuildExpression() methods 
 
 
 ````C#
-	     
-	
-	        RadListView1.FilterExpressions.BuildExpression()
-	
-	        .GreaterThan("ShippedDate", DateTime.Parse("7/10/1996"))
-	
-	        .Or().EqualTo("OrderID", 42).Build();
-	
-				
+RadListView1.FilterExpressions.BuildExpression()
+.GreaterThan("ShippedDate", DateTime.Parse("7/10/1996"))
+.Or().EqualTo("OrderID", 42).Build();
 ````
-````VB.NET
-	    RadListView1.FilterExpressions.BuildExpression()
-	            .GreaterThan("ShippedDate", DateTime.Parse("7/10/1996"))
-	            .Or().EqualTo("OrderID", 42).Build() 
+````VB
+RadListView1.FilterExpressions.BuildExpression()
+        .GreaterThan("ShippedDate", DateTime.Parse("7/10/1996"))
+        .Or().EqualTo("OrderID", 42).Build()
 ````
 
 
@@ -149,33 +139,21 @@ The following examples illustrate how you can use the BuildExpression() methods 
 
 
 ````C#
-	     
-	
-	        RadListView1.FilterExpressions
-	
-	        .BuildExpression(expression => expression
-	
-	        .GreaterThan("ShippedDate", DateTime.Parse("7/10/1996"))
-	
-	        .Or().EqualTo("OrderID", 42)
-	
-	        .And().Group(group =>
-	
-	        group.IsNotEmpty("ShipCountry")
-	
-	        .And().Contains("ShipCountry", "G")
-	
-	        )
-	
-	        );
-	
-				
+RadListView1.FilterExpressions
+.BuildExpression(expression => expression
+.GreaterThan("ShippedDate", DateTime.Parse("7/10/1996"))
+.Or().EqualTo("OrderID", 42)
+.And().Group(group =>
+group.IsNotEmpty("ShipCountry")
+.And().Contains("ShipCountry", "G")
+)
+);
 ````
-````VB.NET
-	    RadListView1.FilterExpressions.BuildExpression(Function(expression As RadListViewFilterExpressionFluentBuilder)
-	      expression.GreaterThan("ShippedDate", DateTime.Parse("7/10/1996")) _
-	        .Or().EqualTo("OrderID", 42).And().Group(Function(group As RadListViewFilterExpressionFluentBuilder) _
-	          group.IsNotEmpty("ShipCountry").And().Contains("ShipCountry", "G")))			
+````VB
+ RadListView1.FilterExpressions.BuildExpression(Function(expression As RadListViewFilterExpressionFluentBuilder)
+   expression.GreaterThan("ShippedDate", DateTime.Parse("7/10/1996")) _
+     .Or().EqualTo("OrderID", 42).And().Group(Function(group As RadListViewFilterExpressionFluentBuilder) _
+       group.IsNotEmpty("ShipCountry").And().Contains("ShipCountry", "G")))
 ````
 
 

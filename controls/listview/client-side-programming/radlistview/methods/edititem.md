@@ -21,15 +21,15 @@ Method which switches the **RadListView** item corresponding to the index passed
 | ------ | ------ | ------ |
 | **index** |Integer|The item corresponding to the **index** will be switched in edit mode.|
 
-````ASPNET
-	    <telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
-	        <script type="text/javascript">
-	            function EditFirstItem() {
-	                var listView = $find("<%= RadListView1.ClientID %>");
-	                listView.editItem(0);
-	            } 
-	        </script>
-	    </telerik:RadCodeBlock>
+````ASP.NET
+<telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
+    <script type="text/javascript">
+        function EditFirstItem() {
+            var listView = $find("<%= RadListView1.ClientID %>");
+            listView.editItem(0);
+        } 
+    </script>
+</telerik:RadCodeBlock>
 ````
 
 

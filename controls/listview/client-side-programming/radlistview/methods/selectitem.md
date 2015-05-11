@@ -21,15 +21,15 @@ Method which selects the **RadListView** item corresponding to the index passed 
 | ------ | ------ | ------ |
 | **index** |Integer|The item corresponding to the **index** will be selected.|
 
-````ASPNET
-	    <telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
-	        <script type="text/javascript">
-	            function SelectFirstItem() {
-	                var listView = $find("<%= RadListView1.ClientID %>");
-	                listView.selectItem(0);
-	            }
-	        </script>
-	    </telerik:RadCodeBlock>
+````ASP.NET
+<telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
+    <script type="text/javascript">
+        function SelectFirstItem() {
+            var listView = $find("<%= RadListView1.ClientID %>");
+            listView.selectItem(0);
+        }
+    </script>
+</telerik:RadCodeBlock>
 ````
 
 

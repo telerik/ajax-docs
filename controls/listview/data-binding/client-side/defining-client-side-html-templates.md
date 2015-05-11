@@ -77,99 +77,100 @@ Additionally, each *data template* gets the following fields in its binding cont
 
 Equipped with the data and functions in the context of the HTML templates, you can implement complex rendering scenarios. You can see a few examples below:
 
-````ASPNET
-	<ItemTemplate>
-	    <tr class="rlvI #= isSelected ? 'rlvISel' : '' #">
-	        <td>
-	            #= ProductName #
-	        </td>                       
-	    </tr>
-	</ItemTemplate>
+````ASP.NET
+<ItemTemplate>
+    <tr class="rlvI #= isSelected ? 'rlvISel' : '' #">
+        <td>
+            #= ProductName #
+        </td>
+    </tr>
+</ItemTemplate>
 ````
 
 
 
-````ASPNET
-	<ItemTemplate>
-	    <tr class="rlvI #= isSelected ? 'rlvISel' : '' #">
-	        <td>
-	            #= format(ShipDate, "d") #
-	        </td>
-	        <td>
-	            #= format(Price, "C2") #
-	        </td>
-	    </tr>
-	</ItemTemplate>
+````ASP.NET
+<ItemTemplate>
+    <tr class="rlvI #= isSelected ? 'rlvISel' : '' #">
+        <td>
+            #= format(ShipDate, "d") #
+        </td>
+        <td>
+            #= format(Price, "C2") #
+        </td>
+    </tr>
+</ItemTemplate>
 ````
 
 
 
-````ASPNET
-	<LayoutTemplate>
-	    <table>
-	        <thead>
-	            <tr>
-	                <th>
-	                    <a href="javascript:void(0);" 
-	                    	title="#= owner.get_sortExpressions().getSortOrder('ProductID') #" 
-	                    	onclick="$find('#= owner.get_id() #').sort('ProductID');">ProductID</a>
-	                </th>					
-	            </tr>
-	        </thead>
-	        <tbody id="itemPlaceHolder">
-	        </tbody>
-	    </table>
-	</LayoutTemplate>
+````ASP.NET
+<LayoutTemplate>
+    <table>
+        <thead>
+            <tr>
+                <th>
+                    <a href="javascript:void(0);"
+                    	title="#= owner.get_sortExpressions().getSortOrder('ProductID') #"
+                    	onclick="$find('#= owner.get_id() #').sort('ProductID');">ProductID</a>
+                </th>
+            </tr>
+        </thead>
+        <tbody id="itemPlaceHolder">
+        </tbody>
+    </table>
+</LayoutTemplate>
 ````
 
 
 
-````ASPNET
-	<LayoutTemplate>                  
-	    <div id="pager">
-	        <div>
-	            <button onclick="$find('#=owner.get_id() #').page('First')" />
-	            <button onclick="$find('#=owner.get_id() #').page('Prev')" />
-	        </div>
-	        <div>
-	            <button onclick="$find('#=owner.get_id() #').page('Next')" />
-	            <button onclick="$find('#=owner.get_id() #').page('Last')" />
-	        </div>
-	    </div>
-	</LayoutTemplate>
+````ASP.NET
+<LayoutTemplate>
+    <div id="pager">
+        <div>
+            <button onclick="$find('#=owner.get_id() #').page('First')" />
+            <button onclick="$find('#=owner.get_id() #').page('Prev')" />
+        </div>
+        <div>
+            <button onclick="$find('#=owner.get_id() #').page('Next')" />
+            <button onclick="$find('#=owner.get_id() #').page('Last')" />
+        </div>
+    </div>
+</LayoutTemplate>
 ````
 
 
 
 
 
-````ASPNET
-	<LayoutTemplate>
-	    <div id="Div1" class="RadDataPager RadDataPager_Default" style="border:none">
-	        ...
-	        <div class="rdpWrap rdpNumPart">
-	            #= renderNumericPager(owner) #
-	        </div>
-	        ...
-	    </div>
-	</LayoutTemplate>
+````ASP.NET
+<LayoutTemplate>
+    <div id="Div1" class="RadDataPager RadDataPager_Default" style="border:none">
+        ...
+        <div class="rdpWrap rdpNumPart">
+            #= renderNumericPager(owner) #
+        </div>
+        ...
+    </div>
+</LayoutTemplate>
 ````
 ````JavaScript
-	<script type="text/javascript">
-	    function renderNumericPager(listView) {
-	        var index = listView.get_currentPageIndex();
-	        var pageCount = listView.get_pageCount();
-	        var buttons = [];
-	
-	        for (var i = 0; i < pageCount; i++) {
-	            buttons.push(String.format("<a href='javascript:void(0);' {0} onclick='$find(\"{1}\").page({2});'><span>{2}</span></a>",
-	                i === index ? "class='rdpCurrentPage'" : "",
-	                listView.get_id(),
-	                i + 1));
-	        }
-	
-	        return buttons.join("\r\n");
-	    }
-	</script>
+<script type="text/javascript">
+    function renderNumericPager(listView) {
+        var index = listView.get_currentPageIndex();
+        var pageCount = listView.get_pageCount();
+        var buttons = [];
+
+        for (var i = 0; i < pageCount; i++) {
+            buttons.push(String.format("<a href='javascript:void(0);' {0} onclick='$find(\"{1}\").page({2});'><span>{2}</span></a>",
+                i === index ? "class='rdpCurrentPage'" : "",
+                listView.get_id(),
+                i + 1));
+        }
+
+        return buttons.join("\r\n");
+    }
+</script>
 ````
 
+ 

@@ -14,7 +14,8 @@ position: 0
 
 The predefined layouts of RadListView, which in turn have a predefined HTML rendering, enable you to use the control's embedded skins to achieve a consistent look of RadListView with the other Telerik controls on the page.
 
-Below is a set of some of the Telerik RadListView skins:![RadListView Skins](images/listview_skins.png)
+Below is a set of some of the Telerik RadListView skins:
+![RadListView Skins](images/listview_skins.png)
 
 >note The **Hay** , **Forest** , **Sitefinity** and **Transparent** skins are obsolete and have been removed from the Telerik.Web.UI.Skins.dll assembly as of **Q1 2014** .You can find more information on the matter in[this blog post](http://blogs.telerik.com/aspnet-ajax/posts/13-04-11/6-telerik-asp.net-ajax-skins-going-obsolete).
 >
@@ -24,7 +25,7 @@ Below is a set of some of the Telerik RadListView skins:![RadListView Skins](ima
 
 The predefined layouts of RadListView are generated in design time and the CSS class, which carries the skin information is hard-coded in the LayoutTemplate. So, in order to change the control's skin at runtime, you need to use a binding expression for the skin-specific CSS class:
 
-````ASPNET
+````ASP.NET
 	    <telerik:RadListView ID="RadListView1" runat="server">
 	        <LayoutTemplate>
 	            <div class="RadListView RadListView_<%#Container.Skin %>">

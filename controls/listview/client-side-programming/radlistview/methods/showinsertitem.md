@@ -21,19 +21,19 @@ Method which fires the InitInsert command for the respective **RadListView** obj
 | ------ | ------ | ------ |
 | **RadListViewInsertItemPosition** |Integer or String.Empty|The insert item will be displayed at the corresponding position.|
 
-````ASPNET
-	    <telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
-	        <script type="text/javascript">
-	            function OpenInsertItemAsFirstItem() {
-	                var listView = $find("<%= RadListView1.ClientID %>");
-	                listView.showInsertItem(1);
-	            }
-	            function OpenInsertItemAsLastItem() {
-	                var listView = $find("<%= RadListView1.ClientID %>");
-	                listView.showInsertItem(0);
-	            } 
-	        </script>
-	    </telerik:RadCodeBlock>
+````ASP.NET
+<telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
+    <script type="text/javascript">
+        function OpenInsertItemAsFirstItem() {
+            var listView = $find("<%= RadListView1.ClientID %>");
+            listView.showInsertItem(1);
+        }
+        function OpenInsertItemAsLastItem() {
+            var listView = $find("<%= RadListView1.ClientID %>");
+            listView.showInsertItem(0);
+        } 
+    </script>
+</telerik:RadCodeBlock>
 ````
 
 

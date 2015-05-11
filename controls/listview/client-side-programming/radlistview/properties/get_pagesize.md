@@ -14,4 +14,4 @@ position: 3
 
 ## 
 
-Returns the page size for the respective **RadListView**object.
+Returns the page size for the respective **RadListView** object.

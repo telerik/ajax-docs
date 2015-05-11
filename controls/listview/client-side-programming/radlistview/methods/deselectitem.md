@@ -23,15 +23,15 @@ Method which deselects the **RadListView** item corresponding to the index passe
 | ------ | ------ | ------ |
 | **index** |Integer|The item corresponding to the **index** will be deselected.|
 
-````ASPNET
-	    <telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
-	        <script type="text/javascript">
-	            function DeselectFirstItem() {
-	                var listView = $find("<%= RadListView1.ClientID %>");
-	                listView.deselectItem(0);
-	            }
-	        </script>
-	    </telerik:RadCodeBlock>
+````ASP.NET
+<telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
+    <script type="text/javascript">
+        function DeselectFirstItem() {
+            var listView = $find("<%= RadListView1.ClientID %>");
+            listView.deselectItem(0);
+        }
+    </script>
+</telerik:RadCodeBlock>
 ````
 
 

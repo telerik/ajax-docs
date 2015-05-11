@@ -30,7 +30,7 @@ When custom paging is enabled, RadListView fires its server-side **PageIndexChan
 
 Custom paging can be used both with declarative data source controls (using the **DataSourceID** property) or when binding through the **NeedDataSource** event. Additionally, firing the Page event from code using **RadListViewItem.FireCommand()**also works with custom paging.
 
->note RadListView also supports another option for custom paging, i.e. when using[declarative binding]({%slug listview/data-binding/server-side/net-3.5-data-source-controls%})to an ObjectDataSource that supports its own paging.
+>note RadListView also supports another option for custom paging, i.e. when using [declarative binding]({%slug listview/data-binding/server-side/net-3.5-data-source-controls%}) to an ObjectDataSource that supports its own paging.
 >
 
 

@@ -12,7 +12,7 @@ position: 0
 
 
 
-There are many cases where one would like to manipulate the RadListView insert/update/regular modes manually. The samples in this topic illustrate how you can switch between the differnt modes of the RadListView control.
+There are many cases where one would like to manipulate the RadListView insert/update/regular modes manually. The samples in this topic illustrate how you can switch between the different modes of the RadListView control.
 
 ## Insert to Update mode and Update to Insert mode
 
@@ -21,109 +21,109 @@ One of the most common scenario is to display items in edit mode or the insert i
 
 
 ````C#
-	    protected void RadListView1_ItemCommand(object sender, RadListViewCommandEventArgs e)
-	    {
-	        if (e.CommandName == RadListView.EditCommandName)
-	        {
-	            RadListView1.InsertItemPosition = RadListViewInsertItemPosition.None;
-	        }
-	        if (e.CommandName == RadListView.InitInsertCommandName)
-	        {
-	            RadListView1.EditIndexes.Clear();
-	        }
-	    }
+protected void RadListView1_ItemCommand(object sender, RadListViewCommandEventArgs e)
+{
+    if (e.CommandName == RadListView.EditCommandName)
+    {
+        RadListView1.InsertItemPosition = RadListViewInsertItemPosition.None;
+    }
+    if (e.CommandName == RadListView.InitInsertCommandName)
+    {
+        RadListView1.EditIndexes.Clear();
+    }
+}
 ````
-````VB.NET
-	    Protected Sub RadListView1_ItemCommand(sender As Object, e As RadListViewCommandEventArgs)
-	        If e.CommandName = RadListView.EditCommandName Then
-	            RadListView1.InsertItemPosition = RadListViewInsertItemPosition.None
-	        End If
-	        If e.CommandName = RadListView.InitInsertCommandName Then
-	            RadListView1.EditIndexes.Clear()
-	        End If
-	    End Sub
-	#End Region
-	
-	#Region "listview-switch-insert-update-regular-modes_4"
-	    Protected Sub btnAddNewRecord_Click(sender As Object, e As EventArgs)
-	        RadListView1.InsertItemPosition = RadListViewInsertItemPosition.FirstItem
-	    End Sub
-	#End Region
-	
-	#Region "listview-switch-insert-update-regular-modes_5"
-	    Protected Sub btnAddNewRecord1_Click(sender As Object, e As EventArgs)
-	        RadListView1.ShowInsertItem()
-	    End Sub
-	#End Region
-	
-	#Region "listview-switch-insert-update-regular-modes_6"
-	    Protected Sub btnCancelInsert_Click(sender As Object, e As EventArgs)
-	        RadListView1.ShowInsertItem(RadListViewInsertItemPosition.None)
-	        'OR
-	        RadListView1.InsertItemPosition = RadListViewInsertItemPosition.None
-	        'OR
-	        RadListView1.InsertItem.FireCommandEvent("Cancel", "")
-	    End Sub
-	#End Region
-	
-	#Region "listview-switch-insert-update-regular-modes_7"
-	    Protected Sub Page_Load(sender As Object, e As EventArgs)
-	        If Not IsPostBack Then
-	            RadListView1.EditIndexes.Add(0)
-	        End If
-	    End Sub
-	#End Region
-	
-	#Region "listview-switch-insert-update-regular-modes_8"
-	    Protected Sub RadListView1_PreRender(sender As Object, e As EventArgs)
-	        If Not IsPostBack Then
-	            For Each item As RadListViewDataItem In RadListView1.Items
-	                item.Edit = True
-	            Next
-	            RadListView1.Rebind()
-	        End If
-	    End Sub
-	#End Region
-	
-	#Region "listview-switch-insert-update-regular-modes_10"
-	    Protected Sub btnClearEditedItems_Click(sender As Object, e As EventArgs)
-	        RadListView1.EditIndexes.Clear()
-	        RadListView1.Rebind()
-	    End Sub
-	#End Region
-	
-	    Protected Sub RadListView1_NeedDataSource(sender As Object, e As RadListViewNeedDataSourceEventArgs)
-	        Dim data As New List(Of MyItem)()
-	        For i As Integer = 1 To 10
-	            data.Add(New MyItem(i, "Item" + i.ToString()))
-	        Next
-	        TryCast(sender, RadListView).DataSource = data
-	    End Sub
-	    Private Class MyItem
-	        Public Property ID() As Integer
-	            Get
-	                Return m_ID
-	            End Get
-	            Set(value As Integer)
-	                m_ID = value
-	            End Set
-	        End Property
-	        Private m_ID As Integer
-	        Public Property Text() As String
-	            Get
-	                Return m_Text
-	            End Get
-	            Set(value As String)
-	                m_Text = value
-	            End Set
-	        End Property
-	        Private m_Text As String
-	        Public Sub New(_id As Integer, _text As String)
-	            ID = _id
-	            Text = _text
-	        End Sub
-	    End Class
-	End Class
+````VB
+    Protected Sub RadListView1_ItemCommand(sender As Object, e As RadListViewCommandEventArgs)
+        If e.CommandName = RadListView.EditCommandName Then
+            RadListView1.InsertItemPosition = RadListViewInsertItemPosition.None
+        End If
+        If e.CommandName = RadListView.InitInsertCommandName Then
+            RadListView1.EditIndexes.Clear()
+        End If
+    End Sub
+ #End Region
+
+ #Region "listview-switch-insert-update-regular-modes_4"
+    Protected Sub btnAddNewRecord_Click(sender As Object, e As EventArgs)
+        RadListView1.InsertItemPosition = RadListViewInsertItemPosition.FirstItem
+    End Sub
+ #End Region
+
+ #Region "listview-switch-insert-update-regular-modes_5"
+    Protected Sub btnAddNewRecord1_Click(sender As Object, e As EventArgs)
+        RadListView1.ShowInsertItem()
+    End Sub
+ #End Region
+
+ #Region "listview-switch-insert-update-regular-modes_6"
+    Protected Sub btnCancelInsert_Click(sender As Object, e As EventArgs)
+        RadListView1.ShowInsertItem(RadListViewInsertItemPosition.None)
+        'OR
+        RadListView1.InsertItemPosition = RadListViewInsertItemPosition.None
+        'OR
+        RadListView1.InsertItem.FireCommandEvent("Cancel", "")
+    End Sub
+ #End Region
+
+ #Region "listview-switch-insert-update-regular-modes_7"
+    Protected Sub Page_Load(sender As Object, e As EventArgs)
+        If Not IsPostBack Then
+            RadListView1.EditIndexes.Add(0)
+        End If
+    End Sub
+ #End Region
+
+ #Region "listview-switch-insert-update-regular-modes_8"
+    Protected Sub RadListView1_PreRender(sender As Object, e As EventArgs)
+        If Not IsPostBack Then
+            For Each item As RadListViewDataItem In RadListView1.Items
+                item.Edit = True
+            Next
+            RadListView1.Rebind()
+        End If
+    End Sub
+ #End Region
+
+ #Region "listview-switch-insert-update-regular-modes_10"
+    Protected Sub btnClearEditedItems_Click(sender As Object, e As EventArgs)
+        RadListView1.EditIndexes.Clear()
+        RadListView1.Rebind()
+    End Sub
+ #End Region
+
+    Protected Sub RadListView1_NeedDataSource(sender As Object, e As RadListViewNeedDataSourceEventArgs)
+        Dim data As New List(Of MyItem)()
+        For i As Integer = 1 To 10
+            data.Add(New MyItem(i, "Item" + i.ToString()))
+        Next
+        TryCast(sender, RadListView).DataSource = data
+    End Sub
+    Private Class MyItem
+        Public Property ID() As Integer
+            Get
+                Return m_ID
+            End Get
+            Set(value As Integer)
+                m_ID = value
+            End Set
+        End Property
+        Private m_ID As Integer
+        Public Property Text() As String
+            Get
+                Return m_Text
+            End Get
+            Set(value As String)
+                m_Text = value
+            End Set
+        End Property
+        Private m_Text As String
+        Public Sub New(_id As Integer, _text As String)
+            ID = _id
+            Text = _text
+        End Sub
+    End Class
+End Class
 ````
 
 
@@ -134,16 +134,16 @@ There are three different approaches you can follow when you need to show the Ra
 
 1. Add button with **CommandName** set to **"InitInsert"**
 
-````ASPNET
-	            <asp:Button ID="Button1" runat="server" CommandName="InitInsert" Text="Add New Record" />
+````ASP.NET
+<asp:Button ID="Button1" runat="server" CommandName="InitInsert" Text="Add New Record" />
 ````
 
 
 
 1. Using the **InsertItemPosition** property
 
-````ASPNET
-	            <asp:Button ID="btnAddNewRecord" runat="server" Text="Add New Record" OnClick="btnAddNewRecord_Click" />
+````ASP.NET
+<asp:Button ID="btnAddNewRecord" runat="server" Text="Add New Record" OnClick="btnAddNewRecord_Click" />
 ````
 
 
@@ -151,99 +151,99 @@ There are three different approaches you can follow when you need to show the Ra
 
 
 ````C#
-	    protected void btnAddNewRecord_Click(object sender, EventArgs e)
-	    {
-	        RadListView1.InsertItemPosition = RadListViewInsertItemPosition.FirstItem;
-	    }
+protected void btnAddNewRecord_Click(object sender, EventArgs e)
+{
+    RadListView1.InsertItemPosition = RadListViewInsertItemPosition.FirstItem;
+}
 ````
-````VB.NET
+````VB
 	    Protected Sub btnAddNewRecord_Click(sender As Object, e As EventArgs)
-	        RadListView1.InsertItemPosition = RadListViewInsertItemPosition.FirstItem
-	    End Sub
-	#End Region
-	
-	#Region "listview-switch-insert-update-regular-modes_5"
-	    Protected Sub btnAddNewRecord1_Click(sender As Object, e As EventArgs)
-	        RadListView1.ShowInsertItem()
-	    End Sub
-	#End Region
-	
-	#Region "listview-switch-insert-update-regular-modes_6"
-	    Protected Sub btnCancelInsert_Click(sender As Object, e As EventArgs)
-	        RadListView1.ShowInsertItem(RadListViewInsertItemPosition.None)
-	        'OR
-	        RadListView1.InsertItemPosition = RadListViewInsertItemPosition.None
-	        'OR
-	        RadListView1.InsertItem.FireCommandEvent("Cancel", "")
-	    End Sub
-	#End Region
-	
-	#Region "listview-switch-insert-update-regular-modes_7"
-	    Protected Sub Page_Load(sender As Object, e As EventArgs)
-	        If Not IsPostBack Then
-	            RadListView1.EditIndexes.Add(0)
-	        End If
-	    End Sub
-	#End Region
-	
-	#Region "listview-switch-insert-update-regular-modes_8"
-	    Protected Sub RadListView1_PreRender(sender As Object, e As EventArgs)
-	        If Not IsPostBack Then
-	            For Each item As RadListViewDataItem In RadListView1.Items
-	                item.Edit = True
-	            Next
-	            RadListView1.Rebind()
-	        End If
-	    End Sub
-	#End Region
-	
-	#Region "listview-switch-insert-update-regular-modes_10"
-	    Protected Sub btnClearEditedItems_Click(sender As Object, e As EventArgs)
-	        RadListView1.EditIndexes.Clear()
-	        RadListView1.Rebind()
-	    End Sub
-	#End Region
-	
-	    Protected Sub RadListView1_NeedDataSource(sender As Object, e As RadListViewNeedDataSourceEventArgs)
-	        Dim data As New List(Of MyItem)()
-	        For i As Integer = 1 To 10
-	            data.Add(New MyItem(i, "Item" + i.ToString()))
-	        Next
-	        TryCast(sender, RadListView).DataSource = data
-	    End Sub
-	    Private Class MyItem
-	        Public Property ID() As Integer
-	            Get
-	                Return m_ID
-	            End Get
-	            Set(value As Integer)
-	                m_ID = value
-	            End Set
-	        End Property
-	        Private m_ID As Integer
-	        Public Property Text() As String
-	            Get
-	                Return m_Text
-	            End Get
-	            Set(value As String)
-	                m_Text = value
-	            End Set
-	        End Property
-	        Private m_Text As String
-	        Public Sub New(_id As Integer, _text As String)
-	            ID = _id
-	            Text = _text
-	        End Sub
-	    End Class
-	End Class
+        RadListView1.InsertItemPosition = RadListViewInsertItemPosition.FirstItem
+    End Sub
+ #End Region
+
+ #Region "listview-switch-insert-update-regular-modes_5"
+    Protected Sub btnAddNewRecord1_Click(sender As Object, e As EventArgs)
+        RadListView1.ShowInsertItem()
+    End Sub
+ #End Region
+
+ #Region "listview-switch-insert-update-regular-modes_6"
+    Protected Sub btnCancelInsert_Click(sender As Object, e As EventArgs)
+        RadListView1.ShowInsertItem(RadListViewInsertItemPosition.None)
+        'OR
+        RadListView1.InsertItemPosition = RadListViewInsertItemPosition.None
+        'OR
+        RadListView1.InsertItem.FireCommandEvent("Cancel", "")
+    End Sub
+ #End Region
+
+ #Region "listview-switch-insert-update-regular-modes_7"
+    Protected Sub Page_Load(sender As Object, e As EventArgs)
+        If Not IsPostBack Then
+            RadListView1.EditIndexes.Add(0)
+        End If
+    End Sub
+ #End Region
+
+ #Region "listview-switch-insert-update-regular-modes_8"
+    Protected Sub RadListView1_PreRender(sender As Object, e As EventArgs)
+        If Not IsPostBack Then
+            For Each item As RadListViewDataItem In RadListView1.Items
+                item.Edit = True
+            Next
+            RadListView1.Rebind()
+        End If
+    End Sub
+ #End Region
+
+ #Region "listview-switch-insert-update-regular-modes_10"
+    Protected Sub btnClearEditedItems_Click(sender As Object, e As EventArgs)
+        RadListView1.EditIndexes.Clear()
+        RadListView1.Rebind()
+    End Sub
+ #End Region
+
+    Protected Sub RadListView1_NeedDataSource(sender As Object, e As RadListViewNeedDataSourceEventArgs)
+        Dim data As New List(Of MyItem)()
+        For i As Integer = 1 To 10
+            data.Add(New MyItem(i, "Item" + i.ToString()))
+        Next
+        TryCast(sender, RadListView).DataSource = data
+    End Sub
+    Private Class MyItem
+        Public Property ID() As Integer
+            Get
+                Return m_ID
+            End Get
+            Set(value As Integer)
+                m_ID = value
+            End Set
+        End Property
+        Private m_ID As Integer
+        Public Property Text() As String
+            Get
+                Return m_Text
+            End Get
+            Set(value As String)
+                m_Text = value
+            End Set
+        End Property
+        Private m_Text As String
+        Public Sub New(_id As Integer, _text As String)
+            ID = _id
+            Text = _text
+        End Sub
+    End Class
+End Class
 ````
 
 
 
 1. Calling the **ShowInsertItem()** method
 
-````ASPNET
-	            <asp:Button ID="btnAddNewRecord1" runat="server" Text="Add New Record" OnClick="btnAddNewRecord1_Click" />
+````ASP.NET
+<asp:Button ID="btnAddNewRecord1" runat="server" Text="Add New Record" OnClick="btnAddNewRecord1_Click" />
 ````
 
 
@@ -251,85 +251,85 @@ There are three different approaches you can follow when you need to show the Ra
 
 
 ````C#
-	    protected void btnAddNewRecord1_Click(object sender, EventArgs e)
-	    {
-	        RadListView1.ShowInsertItem();
-	    }
+protected void btnAddNewRecord1_Click(object sender, EventArgs e)
+{
+    RadListView1.ShowInsertItem();
+}
 ````
-````VB.NET
-	    Protected Sub btnAddNewRecord1_Click(sender As Object, e As EventArgs)
-	        RadListView1.ShowInsertItem()
-	    End Sub
-	#End Region
-	
-	#Region "listview-switch-insert-update-regular-modes_6"
-	    Protected Sub btnCancelInsert_Click(sender As Object, e As EventArgs)
-	        RadListView1.ShowInsertItem(RadListViewInsertItemPosition.None)
-	        'OR
-	        RadListView1.InsertItemPosition = RadListViewInsertItemPosition.None
-	        'OR
-	        RadListView1.InsertItem.FireCommandEvent("Cancel", "")
-	    End Sub
-	#End Region
-	
-	#Region "listview-switch-insert-update-regular-modes_7"
-	    Protected Sub Page_Load(sender As Object, e As EventArgs)
-	        If Not IsPostBack Then
-	            RadListView1.EditIndexes.Add(0)
-	        End If
-	    End Sub
-	#End Region
-	
-	#Region "listview-switch-insert-update-regular-modes_8"
-	    Protected Sub RadListView1_PreRender(sender As Object, e As EventArgs)
-	        If Not IsPostBack Then
-	            For Each item As RadListViewDataItem In RadListView1.Items
-	                item.Edit = True
-	            Next
-	            RadListView1.Rebind()
-	        End If
-	    End Sub
-	#End Region
-	
-	#Region "listview-switch-insert-update-regular-modes_10"
-	    Protected Sub btnClearEditedItems_Click(sender As Object, e As EventArgs)
-	        RadListView1.EditIndexes.Clear()
-	        RadListView1.Rebind()
-	    End Sub
-	#End Region
-	
-	    Protected Sub RadListView1_NeedDataSource(sender As Object, e As RadListViewNeedDataSourceEventArgs)
-	        Dim data As New List(Of MyItem)()
-	        For i As Integer = 1 To 10
-	            data.Add(New MyItem(i, "Item" + i.ToString()))
-	        Next
-	        TryCast(sender, RadListView).DataSource = data
-	    End Sub
-	    Private Class MyItem
-	        Public Property ID() As Integer
-	            Get
-	                Return m_ID
-	            End Get
-	            Set(value As Integer)
-	                m_ID = value
-	            End Set
-	        End Property
-	        Private m_ID As Integer
-	        Public Property Text() As String
-	            Get
-	                Return m_Text
-	            End Get
-	            Set(value As String)
-	                m_Text = value
-	            End Set
-	        End Property
-	        Private m_Text As String
-	        Public Sub New(_id As Integer, _text As String)
-	            ID = _id
-	            Text = _text
-	        End Sub
-	    End Class
-	End Class
+````VB
+    Protected Sub btnAddNewRecord1_Click(sender As Object, e As EventArgs)
+        RadListView1.ShowInsertItem()
+    End Sub
+ #End Region
+
+ #Region "listview-switch-insert-update-regular-modes_6"
+    Protected Sub btnCancelInsert_Click(sender As Object, e As EventArgs)
+        RadListView1.ShowInsertItem(RadListViewInsertItemPosition.None)
+        'OR
+        RadListView1.InsertItemPosition = RadListViewInsertItemPosition.None
+        'OR
+        RadListView1.InsertItem.FireCommandEvent("Cancel", "")
+    End Sub
+ #End Region
+
+ #Region "listview-switch-insert-update-regular-modes_7"
+    Protected Sub Page_Load(sender As Object, e As EventArgs)
+        If Not IsPostBack Then
+            RadListView1.EditIndexes.Add(0)
+        End If
+    End Sub
+ #End Region
+
+ #Region "listview-switch-insert-update-regular-modes_8"
+    Protected Sub RadListView1_PreRender(sender As Object, e As EventArgs)
+        If Not IsPostBack Then
+            For Each item As RadListViewDataItem In RadListView1.Items
+                item.Edit = True
+            Next
+            RadListView1.Rebind()
+        End If
+    End Sub
+ #End Region
+
+ #Region "listview-switch-insert-update-regular-modes_10"
+    Protected Sub btnClearEditedItems_Click(sender As Object, e As EventArgs)
+        RadListView1.EditIndexes.Clear()
+        RadListView1.Rebind()
+    End Sub
+ #End Region
+
+    Protected Sub RadListView1_NeedDataSource(sender As Object, e As RadListViewNeedDataSourceEventArgs)
+        Dim data As New List(Of MyItem)()
+        For i As Integer = 1 To 10
+            data.Add(New MyItem(i, "Item" + i.ToString()))
+        Next
+        TryCast(sender, RadListView).DataSource = data
+    End Sub
+    Private Class MyItem
+        Public Property ID() As Integer
+            Get
+                Return m_ID
+            End Get
+            Set(value As Integer)
+                m_ID = value
+            End Set
+        End Property
+        Private m_ID As Integer
+        Public Property Text() As String
+            Get
+                Return m_Text
+            End Get
+            Set(value As String)
+                m_Text = value
+            End Set
+        End Property
+        Private m_Text As String
+        Public Sub New(_id As Integer, _text As String)
+            ID = _id
+            Text = _text
+        End Sub
+    End Class
+End Class
 ````
 
 
@@ -341,83 +341,83 @@ For closing the insert form you can use the below code:
 
 
 ````C#
-	    protected void btnCancelInsert_Click(object sender, EventArgs e)
-	    {
-	        RadListView1.ShowInsertItem(RadListViewInsertItemPosition.None);
-	        //OR
-	        RadListView1.InsertItemPosition = RadListViewInsertItemPosition.None;
-	        //OR
-	        RadListView1.InsertItem.FireCommandEvent("Cancel", "");
-	    }
+protected void btnCancelInsert_Click(object sender, EventArgs e)
+{
+    RadListView1.ShowInsertItem(RadListViewInsertItemPosition.None);
+    //OR
+    RadListView1.InsertItemPosition = RadListViewInsertItemPosition.None;
+    //OR
+    RadListView1.InsertItem.FireCommandEvent("Cancel", "");
+}
 ````
-````VB.NET
-	    Protected Sub btnCancelInsert_Click(sender As Object, e As EventArgs)
-	        RadListView1.ShowInsertItem(RadListViewInsertItemPosition.None)
-	        'OR
-	        RadListView1.InsertItemPosition = RadListViewInsertItemPosition.None
-	        'OR
-	        RadListView1.InsertItem.FireCommandEvent("Cancel", "")
-	    End Sub
-	#End Region
-	
-	#Region "listview-switch-insert-update-regular-modes_7"
-	    Protected Sub Page_Load(sender As Object, e As EventArgs)
-	        If Not IsPostBack Then
-	            RadListView1.EditIndexes.Add(0)
-	        End If
-	    End Sub
-	#End Region
-	
-	#Region "listview-switch-insert-update-regular-modes_8"
-	    Protected Sub RadListView1_PreRender(sender As Object, e As EventArgs)
-	        If Not IsPostBack Then
-	            For Each item As RadListViewDataItem In RadListView1.Items
-	                item.Edit = True
-	            Next
-	            RadListView1.Rebind()
-	        End If
-	    End Sub
-	#End Region
-	
-	#Region "listview-switch-insert-update-regular-modes_10"
-	    Protected Sub btnClearEditedItems_Click(sender As Object, e As EventArgs)
-	        RadListView1.EditIndexes.Clear()
-	        RadListView1.Rebind()
-	    End Sub
-	#End Region
-	
-	    Protected Sub RadListView1_NeedDataSource(sender As Object, e As RadListViewNeedDataSourceEventArgs)
-	        Dim data As New List(Of MyItem)()
-	        For i As Integer = 1 To 10
-	            data.Add(New MyItem(i, "Item" + i.ToString()))
-	        Next
-	        TryCast(sender, RadListView).DataSource = data
-	    End Sub
-	    Private Class MyItem
-	        Public Property ID() As Integer
-	            Get
-	                Return m_ID
-	            End Get
-	            Set(value As Integer)
-	                m_ID = value
-	            End Set
-	        End Property
-	        Private m_ID As Integer
-	        Public Property Text() As String
-	            Get
-	                Return m_Text
-	            End Get
-	            Set(value As String)
-	                m_Text = value
-	            End Set
-	        End Property
-	        Private m_Text As String
-	        Public Sub New(_id As Integer, _text As String)
-	            ID = _id
-	            Text = _text
-	        End Sub
-	    End Class
-	End Class
+````VB
+    Protected Sub btnCancelInsert_Click(sender As Object, e As EventArgs)
+        RadListView1.ShowInsertItem(RadListViewInsertItemPosition.None)
+        'OR
+        RadListView1.InsertItemPosition = RadListViewInsertItemPosition.None
+        'OR
+        RadListView1.InsertItem.FireCommandEvent("Cancel", "")
+    End Sub
+ #End Region
+
+ #Region "listview-switch-insert-update-regular-modes_7"
+    Protected Sub Page_Load(sender As Object, e As EventArgs)
+        If Not IsPostBack Then
+            RadListView1.EditIndexes.Add(0)
+        End If
+    End Sub
+ #End Region
+
+ #Region "listview-switch-insert-update-regular-modes_8"
+    Protected Sub RadListView1_PreRender(sender As Object, e As EventArgs)
+        If Not IsPostBack Then
+            For Each item As RadListViewDataItem In RadListView1.Items
+                item.Edit = True
+            Next
+            RadListView1.Rebind()
+        End If
+    End Sub
+ #End Region
+
+ #Region "listview-switch-insert-update-regular-modes_10"
+    Protected Sub btnClearEditedItems_Click(sender As Object, e As EventArgs)
+        RadListView1.EditIndexes.Clear()
+        RadListView1.Rebind()
+    End Sub
+ #End Region
+
+    Protected Sub RadListView1_NeedDataSource(sender As Object, e As RadListViewNeedDataSourceEventArgs)
+        Dim data As New List(Of MyItem)()
+        For i As Integer = 1 To 10
+            data.Add(New MyItem(i, "Item" + i.ToString()))
+        Next
+        TryCast(sender, RadListView).DataSource = data
+    End Sub
+    Private Class MyItem
+        Public Property ID() As Integer
+            Get
+                Return m_ID
+            End Get
+            Set(value As Integer)
+                m_ID = value
+            End Set
+        End Property
+        Private m_ID As Integer
+        Public Property Text() As String
+            Get
+                Return m_Text
+            End Get
+            Set(value As String)
+                m_Text = value
+            End Set
+        End Property
+        Private m_Text As String
+        Public Sub New(_id As Integer, _text As String)
+            ID = _id
+            Text = _text
+        End Sub
+    End Class
+End Class
 ````
 
 
@@ -431,72 +431,72 @@ To turn an item or multiple items in edit mode, you might choose between the fol
 
 
 ````C#
-	    protected void Page_Load(object sender, EventArgs e)
-	    {
-	        if (!IsPostBack)
-	        {
-	            RadListView1.EditIndexes.Add(0);
-	        }
-	    }
+protected void Page_Load(object sender, EventArgs e)
+{
+    if (!IsPostBack)
+    {
+        RadListView1.EditIndexes.Add(0);
+    }
+}
 ````
-````VB.NET
-	    Protected Sub Page_Load(sender As Object, e As EventArgs)
-	        If Not IsPostBack Then
-	            RadListView1.EditIndexes.Add(0)
-	        End If
-	    End Sub
-	#End Region
-	
-	#Region "listview-switch-insert-update-regular-modes_8"
-	    Protected Sub RadListView1_PreRender(sender As Object, e As EventArgs)
-	        If Not IsPostBack Then
-	            For Each item As RadListViewDataItem In RadListView1.Items
-	                item.Edit = True
-	            Next
-	            RadListView1.Rebind()
-	        End If
-	    End Sub
-	#End Region
-	
-	#Region "listview-switch-insert-update-regular-modes_10"
-	    Protected Sub btnClearEditedItems_Click(sender As Object, e As EventArgs)
-	        RadListView1.EditIndexes.Clear()
-	        RadListView1.Rebind()
-	    End Sub
-	#End Region
-	
-	    Protected Sub RadListView1_NeedDataSource(sender As Object, e As RadListViewNeedDataSourceEventArgs)
-	        Dim data As New List(Of MyItem)()
-	        For i As Integer = 1 To 10
-	            data.Add(New MyItem(i, "Item" + i.ToString()))
-	        Next
-	        TryCast(sender, RadListView).DataSource = data
-	    End Sub
-	    Private Class MyItem
-	        Public Property ID() As Integer
-	            Get
-	                Return m_ID
-	            End Get
-	            Set(value As Integer)
-	                m_ID = value
-	            End Set
-	        End Property
-	        Private m_ID As Integer
-	        Public Property Text() As String
-	            Get
-	                Return m_Text
-	            End Get
-	            Set(value As String)
-	                m_Text = value
-	            End Set
-	        End Property
-	        Private m_Text As String
-	        Public Sub New(_id As Integer, _text As String)
-	            ID = _id
-	            Text = _text
-	        End Sub
-	    End Class
-	End Class
+````VB
+    Protected Sub Page_Load(sender As Object, e As EventArgs)
+        If Not IsPostBack Then
+            RadListView1.EditIndexes.Add(0)
+        End If
+    End Sub
+ #End Region
+
+ #Region "listview-switch-insert-update-regular-modes_8"
+    Protected Sub RadListView1_PreRender(sender As Object, e As EventArgs)
+        If Not IsPostBack Then
+            For Each item As RadListViewDataItem In RadListView1.Items
+                item.Edit = True
+            Next
+            RadListView1.Rebind()
+        End If
+    End Sub
+ #End Region
+
+ #Region "listview-switch-insert-update-regular-modes_10"
+    Protected Sub btnClearEditedItems_Click(sender As Object, e As EventArgs)
+        RadListView1.EditIndexes.Clear()
+        RadListView1.Rebind()
+    End Sub
+ #End Region
+
+    Protected Sub RadListView1_NeedDataSource(sender As Object, e As RadListViewNeedDataSourceEventArgs)
+        Dim data As New List(Of MyItem)()
+        For i As Integer = 1 To 10
+            data.Add(New MyItem(i, "Item" + i.ToString()))
+        Next
+        TryCast(sender, RadListView).DataSource = data
+    End Sub
+    Private Class MyItem
+        Public Property ID() As Integer
+            Get
+                Return m_ID
+            End Get
+            Set(value As Integer)
+                m_ID = value
+            End Set
+        End Property
+        Private m_ID As Integer
+        Public Property Text() As String
+            Get
+                Return m_Text
+            End Get
+            Set(value As String)
+                m_Text = value
+            End Set
+        End Property
+        Private m_Text As String
+        Public Sub New(_id As Integer, _text As String)
+            ID = _id
+            Text = _text
+        End Sub
+    End Class
+End Class
 ````
 
 
@@ -506,68 +506,68 @@ To turn an item or multiple items in edit mode, you might choose between the fol
 
 
 ````C#
-	    protected void RadListView1_PreRender(object sender, EventArgs e)
-	    {
-	        if (!IsPostBack)
-	        {
-	            foreach (RadListViewDataItem item in RadListView1.Items)
-	            {
-	                item.Edit = true;
-	            }
-	            RadListView1.Rebind();
-	        }
-	    }
+protected void RadListView1_PreRender(object sender, EventArgs e)
+{
+    if (!IsPostBack)
+    {
+        foreach (RadListViewDataItem item in RadListView1.Items)
+        {
+            item.Edit = true;
+        }
+        RadListView1.Rebind();
+    }
+}
 ````
-````VB.NET
-	    Protected Sub RadListView1_PreRender(sender As Object, e As EventArgs)
-	        If Not IsPostBack Then
-	            For Each item As RadListViewDataItem In RadListView1.Items
-	                item.Edit = True
-	            Next
-	            RadListView1.Rebind()
-	        End If
-	    End Sub
-	#End Region
-	
-	#Region "listview-switch-insert-update-regular-modes_10"
-	    Protected Sub btnClearEditedItems_Click(sender As Object, e As EventArgs)
-	        RadListView1.EditIndexes.Clear()
-	        RadListView1.Rebind()
-	    End Sub
-	#End Region
-	
-	    Protected Sub RadListView1_NeedDataSource(sender As Object, e As RadListViewNeedDataSourceEventArgs)
-	        Dim data As New List(Of MyItem)()
-	        For i As Integer = 1 To 10
-	            data.Add(New MyItem(i, "Item" + i.ToString()))
-	        Next
-	        TryCast(sender, RadListView).DataSource = data
-	    End Sub
-	    Private Class MyItem
-	        Public Property ID() As Integer
-	            Get
-	                Return m_ID
-	            End Get
-	            Set(value As Integer)
-	                m_ID = value
-	            End Set
-	        End Property
-	        Private m_ID As Integer
-	        Public Property Text() As String
-	            Get
-	                Return m_Text
-	            End Get
-	            Set(value As String)
-	                m_Text = value
-	            End Set
-	        End Property
-	        Private m_Text As String
-	        Public Sub New(_id As Integer, _text As String)
-	            ID = _id
-	            Text = _text
-	        End Sub
-	    End Class
-	End Class
+````VB
+    Protected Sub RadListView1_PreRender(sender As Object, e As EventArgs)
+        If Not IsPostBack Then
+            For Each item As RadListViewDataItem In RadListView1.Items
+                item.Edit = True
+            Next
+            RadListView1.Rebind()
+        End If
+    End Sub
+ #End Region
+
+ #Region "listview-switch-insert-update-regular-modes_10"
+    Protected Sub btnClearEditedItems_Click(sender As Object, e As EventArgs)
+        RadListView1.EditIndexes.Clear()
+        RadListView1.Rebind()
+    End Sub
+ #End Region
+
+    Protected Sub RadListView1_NeedDataSource(sender As Object, e As RadListViewNeedDataSourceEventArgs)
+        Dim data As New List(Of MyItem)()
+        For i As Integer = 1 To 10
+            data.Add(New MyItem(i, "Item" + i.ToString()))
+        Next
+        TryCast(sender, RadListView).DataSource = data
+    End Sub
+    Private Class MyItem
+        Public Property ID() As Integer
+            Get
+                Return m_ID
+            End Get
+            Set(value As Integer)
+                m_ID = value
+            End Set
+        End Property
+        Private m_ID As Integer
+        Public Property Text() As String
+            Get
+                Return m_Text
+            End Get
+            Set(value As String)
+                m_Text = value
+            End Set
+        End Property
+        Private m_Text As String
+        Public Sub New(_id As Integer, _text As String)
+            ID = _id
+            Text = _text
+        End Sub
+    End Class
+End Class
 ````
 
 
@@ -576,8 +576,8 @@ To turn an item or multiple items in edit mode, you might choose between the fol
 
 Another case is where you need to close all edited items on external button click:
 
-````ASPNET
-	            <asp:Button ID="btnClearEditedItems" runat="server" Text="Clear Edited Items" OnClick="btnClearEditedItems_Click" />
+````ASP.NET
+<asp:Button ID="btnClearEditedItems" runat="server" Text="Clear Edited Items" OnClick="btnClearEditedItems_Click" />
 ````
 
 
@@ -585,51 +585,51 @@ Another case is where you need to close all edited items on external button clic
 
 
 ````C#
-	    protected void btnClearEditedItems_Click(object sender, EventArgs e)
-	    {
-	        RadListView1.EditIndexes.Clear();
-	        RadListView1.Rebind();
-	    }
+protected void btnClearEditedItems_Click(object sender, EventArgs e)
+{
+    RadListView1.EditIndexes.Clear();
+    RadListView1.Rebind();
+}
 ````
-````VB.NET
-	    Protected Sub btnClearEditedItems_Click(sender As Object, e As EventArgs)
-	        RadListView1.EditIndexes.Clear()
-	        RadListView1.Rebind()
-	    End Sub
-	#End Region
-	
-	    Protected Sub RadListView1_NeedDataSource(sender As Object, e As RadListViewNeedDataSourceEventArgs)
-	        Dim data As New List(Of MyItem)()
-	        For i As Integer = 1 To 10
-	            data.Add(New MyItem(i, "Item" + i.ToString()))
-	        Next
-	        TryCast(sender, RadListView).DataSource = data
-	    End Sub
-	    Private Class MyItem
-	        Public Property ID() As Integer
-	            Get
-	                Return m_ID
-	            End Get
-	            Set(value As Integer)
-	                m_ID = value
-	            End Set
-	        End Property
-	        Private m_ID As Integer
-	        Public Property Text() As String
-	            Get
-	                Return m_Text
-	            End Get
-	            Set(value As String)
-	                m_Text = value
-	            End Set
-	        End Property
-	        Private m_Text As String
-	        Public Sub New(_id As Integer, _text As String)
-	            ID = _id
-	            Text = _text
-	        End Sub
-	    End Class
-	End Class
+````VB
+    Protected Sub btnClearEditedItems_Click(sender As Object, e As EventArgs)
+        RadListView1.EditIndexes.Clear()
+        RadListView1.Rebind()
+    End Sub
+ #End Region
+
+    Protected Sub RadListView1_NeedDataSource(sender As Object, e As RadListViewNeedDataSourceEventArgs)
+        Dim data As New List(Of MyItem)()
+        For i As Integer = 1 To 10
+            data.Add(New MyItem(i, "Item" + i.ToString()))
+        Next
+        TryCast(sender, RadListView).DataSource = data
+    End Sub
+    Private Class MyItem
+        Public Property ID() As Integer
+            Get
+                Return m_ID
+            End Get
+            Set(value As Integer)
+                m_ID = value
+            End Set
+        End Property
+        Private m_ID As Integer
+        Public Property Text() As String
+            Get
+                Return m_Text
+            End Get
+            Set(value As String)
+                m_Text = value
+            End Set
+        End Property
+        Private m_Text As String
+        Public Sub New(_id As Integer, _text As String)
+            ID = _id
+            Text = _text
+        End Sub
+    End Class
+End Class
 ````
 
-
+ 

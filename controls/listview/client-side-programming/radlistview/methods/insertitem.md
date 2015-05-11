@@ -21,15 +21,15 @@ Method which fired the PerformInsert command for the respective **RadListView** 
 | ------ |
 ||
 
-````ASPNET
-	    <telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
-	        <script type="text/javascript">
-	            function InsertNewItem() {
-	                var listView = $find("<%= RadListView1.ClientID %>");
-	                listView.insertItem();
-	            } 
-	        </script>
-	    </telerik:RadCodeBlock>
+````ASP.NET
+<telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
+    <script type="text/javascript">
+        function InsertNewItem() {
+            var listView = $find("<%= RadListView1.ClientID %>");
+            listView.insertItem();
+        } 
+    </script>
+</telerik:RadCodeBlock>
 ````
 
 

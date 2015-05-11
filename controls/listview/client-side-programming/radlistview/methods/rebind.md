@@ -21,15 +21,15 @@ Method which will force rebind of the RadListView and will refresh its state.
 | ------ |
 ||
 
-````ASPNET
-	    <telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
-	        <script type="text/javascript">
-	            function RefreshRadListView() {
-	                var listView = $find("<%= RadListView1.ClientID %>");
-	                listView.rebind();
-	            } 
-	        </script>
-	    </telerik:RadCodeBlock>
+````ASP.NET
+<telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
+    <script type="text/javascript">
+        function RefreshRadListView() {
+            var listView = $find("<%= RadListView1.ClientID %>");
+            listView.rebind();
+        } 
+    </script>
+</telerik:RadCodeBlock>
 ````
 
 

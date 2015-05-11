@@ -29,200 +29,200 @@ Refer to the [respective online demo](http://demos.telerik.com/aspnet-ajax/listv
 
 
 ````C#
-	    <asp:ScriptManager ID="ScriptManager1" runat="server" />
-	    <telerik:RadFormDecorator ID="RadFormDecorator1" runat="server" />
-	    <h3>
-	        SqlDataSource</h3>
-	    <telerik:RadListView ID="RadListView1" DataSourceID="SqlDataSource1" runat="server"
-	        ItemPlaceholderID="ProductItemContainer" DataKeyNames="CategoryID">
-	        <LayoutTemplate>
-	            <fieldset>
-	                <legend>Products</legend>
-	                <asp:PlaceHolder ID="ProductItemContainer" runat="server" />
-	            </fieldset>
-	        </LayoutTemplate>
-	        <ItemTemplate>
-	            <fieldset style="float: left; width: 200px;">
-	                <legend>Category name:
-	                    <%# Eval("CategoryName") %></legend>
-	                <table cellpadding="0" cellspacing="0">
-	                    <tr>
-	                        <td style="width: 75%">
-	                            <table cellpadding="0" cellspacing="0">
-	                                <tr>
-	                                    <td>
-	                                        <%# Eval("Description")%>
-	                                    </td>
-	                                </tr>
-	                            </table>
-	                        </td>
-	                        <td align="right" style="width: 25%">
-	                            <telerik:RadBinaryImage ID="RadBinaryImage1" runat="server" AlternateText="Category Photo"
-	                                Style="margin-left: 10px" ToolTip="Category Photo" Width="90px" Height="110px"
-	                                ResizeMode="Fit" DataValue='<%# Eval("Picture") %>' />
-	                        </td>
-	                    </tr>
-	                </table>
-	            </fieldset>
-	        </ItemTemplate>
-	    </telerik:RadListView>
-	    <table cellpadding="0" cellspacing="0">
-	        <tr>
-	            <td>
-	                <h3>
-	                    XmlDataSource</h3>
-	                <telerik:RadListView ID="RadListView2" runat="server" DataSourceID="XmlDataSource1"
-	                    ItemPlaceholderID="CityItemsHolder">
-	                    <LayoutTemplate>
-	                        <fieldset>
-	                            <legend>Cities</legend>
-	                            <asp:Panel ID="CityItemsHolder" runat="server" />
-	                        </fieldset>
-	                    </LayoutTemplate>
-	                    <ItemTemplate>
-	                        <span>
-	                            <%#Eval("Text") %></span>
-	                    </ItemTemplate>
-	                    <ItemSeparatorTemplate>
-	                        <span style="color: Olive; font-weight: bold;">&nbsp;&nbsp;&nbsp;::&nbsp;&nbsp;&nbsp;</span>
-	                    </ItemSeparatorTemplate>
-	                </telerik:RadListView>
-	            </td>
-	            <td>
-	                <h3>
-	                    ObjectDataSource</h3>
-	                <telerik:RadListView ID="RadListView3" runat="server" DataSourceID="ObjectDataSource1"
-	                    ItemPlaceholderID="ShippersHolder">
-	                    <LayoutTemplate>
-	                        <fieldset style="width: 300px;">
-	                            <legend>Shippers</legend>
-	                            <asp:Panel ID="ShippersHolder" runat="server" />
-	                        </fieldset>
-	                    </LayoutTemplate>
-	                    <ItemTemplate>
-	                        <table width="100%">
-	                            <colgroup>
-	                                <col title="Shipper name" />
-	                                <col title="Phone" />
-	                            </colgroup>
-	                            <tr>
-	                                <td style="width: 50%">
-	                                    <%# Eval("CompanyName") %>
-	                                </td>
-	                                <td style="width: 50%">
-	                                    <%# Eval("Phone") %>
-	                                </td>
-	                            </tr>
-	                        </table>
-	                    </ItemTemplate>
-	                </telerik:RadListView>
-	            </td>
-	        </tr>
-	    </table>
-	    <br />
-	    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
-	        ProviderName="System.Data.SqlClient" SelectCommand="SELECT CategoryID, CategoryName, Description, Picture FROM Categories" />
-	    <asp:ObjectDataSource ID="ObjectDataSource1" runat="server" TypeName="ShippersDataSetTableAdapters.ShippersTableAdapter"
-	        SelectMethod="GetData" />
-	    <asp:XmlDataSource ID="XmlDataSource1" runat="server" DataFile="~/ListView/Examples/DataBinding/NET2DataSourceControls/ListView.xml" />
+<asp:ScriptManager ID="ScriptManager1" runat="server" />
+<telerik:RadFormDecorator ID="RadFormDecorator1" runat="server" />
+<h3>
+    SqlDataSource</h3>
+<telerik:RadListView ID="RadListView1" DataSourceID="SqlDataSource1" runat="server"
+    ItemPlaceholderID="ProductItemContainer" DataKeyNames="CategoryID">
+    <LayoutTemplate>
+        <fieldset>
+            <legend>Products</legend>
+            <asp:PlaceHolder ID="ProductItemContainer" runat="server" />
+        </fieldset>
+    </LayoutTemplate>
+    <ItemTemplate>
+        <fieldset style="float: left; width: 200px;">
+            <legend>Category name:
+                <%# Eval("CategoryName") %></legend>
+            <table cellpadding="0" cellspacing="0">
+                <tr>
+                    <td style="width: 75%">
+                        <table cellpadding="0" cellspacing="0">
+                            <tr>
+                                <td>
+                                    <%# Eval("Description")%>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td align="right" style="width: 25%">
+                        <telerik:RadBinaryImage ID="RadBinaryImage1" runat="server" AlternateText="Category Photo"
+                            Style="margin-left: 10px" ToolTip="Category Photo" Width="90px" Height="110px"
+                            ResizeMode="Fit" DataValue='<%# Eval("Picture") %>' />
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </ItemTemplate>
+</telerik:RadListView>
+<table cellpadding="0" cellspacing="0">
+    <tr>
+        <td>
+            <h3>
+                XmlDataSource</h3>
+            <telerik:RadListView ID="RadListView2" runat="server" DataSourceID="XmlDataSource1"
+                ItemPlaceholderID="CityItemsHolder">
+                <LayoutTemplate>
+                    <fieldset>
+                        <legend>Cities</legend>
+                        <asp:Panel ID="CityItemsHolder" runat="server" />
+                    </fieldset>
+                </LayoutTemplate>
+                <ItemTemplate>
+                    <span>
+                        <%#Eval("Text") %></span>
+                </ItemTemplate>
+                <ItemSeparatorTemplate>
+                    <span style="color: Olive; font-weight: bold;">&nbsp;&nbsp;&nbsp;::&nbsp;&nbsp;&nbsp;</span>
+                </ItemSeparatorTemplate>
+            </telerik:RadListView>
+        </td>
+        <td>
+            <h3>
+                ObjectDataSource</h3>
+            <telerik:RadListView ID="RadListView3" runat="server" DataSourceID="ObjectDataSource1"
+                ItemPlaceholderID="ShippersHolder">
+                <LayoutTemplate>
+                    <fieldset style="width: 300px;">
+                        <legend>Shippers</legend>
+                        <asp:Panel ID="ShippersHolder" runat="server" />
+                    </fieldset>
+                </LayoutTemplate>
+                <ItemTemplate>
+                    <table width="100%">
+                        <colgroup>
+                            <col title="Shipper name" />
+                            <col title="Phone" />
+                        </colgroup>
+                        <tr>
+                            <td style="width: 50%">
+                                <%# Eval("CompanyName") %>
+                            </td>
+                            <td style="width: 50%">
+                                <%# Eval("Phone") %>
+                            </td>
+                        </tr>
+                    </table>
+                </ItemTemplate>
+            </telerik:RadListView>
+        </td>
+    </tr>
+</table>
+<br />
+<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
+    ProviderName="System.Data.SqlClient" SelectCommand="SELECT CategoryID, CategoryName, Description, Picture FROM Categories" />
+<asp:ObjectDataSource ID="ObjectDataSource1" runat="server" TypeName="ShippersDataSetTableAdapters.ShippersTableAdapter"
+    SelectMethod="GetData" />
+<asp:XmlDataSource ID="XmlDataSource1" runat="server" DataFile="~/ListView/Examples/DataBinding/NET2DataSourceControls/ListView.xml" />
 ````
-````VB.NET
-	    <asp:ScriptManager ID="ScriptManager1" runat="server" />
-	    <telerik:RadFormDecorator ID="RadFormDecorator1" runat="server" />
-	    <h3>
-	        SqlDataSource</h3>
-	    <telerik:RadListView ID="RadListView1" DataSourceID="SqlDataSource1" runat="server"
-	        ItemPlaceholderID="ProductItemContainer" DataKeyNames="CategoryID">
-	        <LayoutTemplate>
-	            <fieldset>
-	                <legend>Products</legend>
-	                <asp:PlaceHolder ID="ProductItemContainer" runat="server" />
-	            </fieldset>
-	        </LayoutTemplate>
-	        <ItemTemplate>
-	            <fieldset style="float: left; width: 200px;">
-	                <legend>Category name:
-	                    <%# Eval("CategoryName") %></legend>
-	                <table cellpadding="0" cellspacing="0">
-	                    <tr>
-	                        <td style="width: 75%">
-	                            <table cellpadding="0" cellspacing="0">
-	                                <tr>
-	                                    <td>
-	                                        <%# Eval("Description")%>
-	                                    </td>
-	                                </tr>
-	                            </table>
-	                        </td>
-	                        <td align="right" style="width: 25%">
-	                            <telerik:RadBinaryImage ID="RadBinaryImage1" runat="server" AlternateText="Category Photo"
-	                                Style="margin-left: 10px" ToolTip="Category Photo" Width="90px" Height="110px"
-	                                ResizeMode="Fit" DataValue='<%# Eval("Picture") %>' />
-	                        </td>
-	                    </tr>
-	                </table>
-	            </fieldset>
-	        </ItemTemplate>
-	    </telerik:RadListView>
-	    <table cellpadding="0" cellspacing="0">
-	        <tr>
-	            <td>
-	                <h3>
-	                    XmlDataSource</h3>
-	                <telerik:RadListView ID="RadListView2" runat="server" DataSourceID="XmlDataSource1"
-	                    ItemPlaceholderID="CityItemsHolder">
-	                    <LayoutTemplate>
-	                        <fieldset>
-	                            <legend>Cities</legend>
-	                            <asp:Panel ID="CityItemsHolder" runat="server" />
-	                        </fieldset>
-	                    </LayoutTemplate>
-	                    <ItemTemplate>
-	                        <span>
-	                            <%#Eval("Text") %></span>
-	                    </ItemTemplate>
-	                    <ItemSeparatorTemplate>
-	                        <span style="color: Olive; font-weight: bold;">&nbsp;&nbsp;&nbsp;::&nbsp;&nbsp;&nbsp;</span>
-	                    </ItemSeparatorTemplate>
-	                </telerik:RadListView>
-	            </td>
-	            <td>
-	                <h3>
-	                    ObjectDataSource</h3>
-	                <telerik:RadListView ID="RadListView3" runat="server" DataSourceID="ObjectDataSource1"
-	                    ItemPlaceholderID="ShippersHolder">
-	                    <LayoutTemplate>
-	                        <fieldset style="width: 300px;">
-	                            <legend>Shippers</legend>
-	                            <asp:Panel ID="ShippersHolder" runat="server" />
-	                        </fieldset>
-	                    </LayoutTemplate>
-	                    <ItemTemplate>
-	                        <table width="100%">
-	                            <colgroup>
-	                                <col title="Shipper name" />
-	                                <col title="Phone" />
-	                            </colgroup>
-	                            <tr>
-	                                <td style="width: 50%">
-	                                    <%# Eval("CompanyName") %>
-	                                </td>
-	                                <td style="width: 50%">
-	                                    <%# Eval("Phone") %>
-	                                </td>
-	                            </tr>
-	                        </table>
-	                    </ItemTemplate>
-	                </telerik:RadListView>
-	            </td>
-	        </tr>
-	    </table>
-	    <br />
-	    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
-	        ProviderName="System.Data.SqlClient" SelectCommand="SELECT CategoryID, CategoryName, Description, Picture FROM Categories" />
-	    <asp:ObjectDataSource ID="ObjectDataSource1" runat="server" TypeName="ShippersDataSetTableAdapters.ShippersTableAdapter"
-	        SelectMethod="GetData" />
-	    <asp:XmlDataSource ID="XmlDataSource1" runat="server" DataFile="~/ListView/Examples/DataBinding/NET2DataSourceControls/ListView.xml" />
+````VB
+<asp:ScriptManager ID="ScriptManager1" runat="server" />
+<telerik:RadFormDecorator ID="RadFormDecorator1" runat="server" />
+<h3>
+    SqlDataSource</h3>
+<telerik:RadListView ID="RadListView1" DataSourceID="SqlDataSource1" runat="server"
+    ItemPlaceholderID="ProductItemContainer" DataKeyNames="CategoryID">
+    <LayoutTemplate>
+        <fieldset>
+            <legend>Products</legend>
+            <asp:PlaceHolder ID="ProductItemContainer" runat="server" />
+        </fieldset>
+    </LayoutTemplate>
+    <ItemTemplate>
+        <fieldset style="float: left; width: 200px;">
+            <legend>Category name:
+                <%# Eval("CategoryName") %></legend>
+            <table cellpadding="0" cellspacing="0">
+                <tr>
+                    <td style="width: 75%">
+                        <table cellpadding="0" cellspacing="0">
+                            <tr>
+                                <td>
+                                    <%# Eval("Description")%>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td align="right" style="width: 25%">
+                        <telerik:RadBinaryImage ID="RadBinaryImage1" runat="server" AlternateText="Category Photo"
+                            Style="margin-left: 10px" ToolTip="Category Photo" Width="90px" Height="110px"
+                            ResizeMode="Fit" DataValue='<%# Eval("Picture") %>' />
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </ItemTemplate>
+</telerik:RadListView>
+<table cellpadding="0" cellspacing="0">
+    <tr>
+        <td>
+            <h3>
+                XmlDataSource</h3>
+            <telerik:RadListView ID="RadListView2" runat="server" DataSourceID="XmlDataSource1"
+                ItemPlaceholderID="CityItemsHolder">
+                <LayoutTemplate>
+                    <fieldset>
+                        <legend>Cities</legend>
+                        <asp:Panel ID="CityItemsHolder" runat="server" />
+                    </fieldset>
+                </LayoutTemplate>
+                <ItemTemplate>
+                    <span>
+                        <%#Eval("Text") %></span>
+                </ItemTemplate>
+                <ItemSeparatorTemplate>
+                    <span style="color: Olive; font-weight: bold;">&nbsp;&nbsp;&nbsp;::&nbsp;&nbsp;&nbsp;</span>
+                </ItemSeparatorTemplate>
+            </telerik:RadListView>
+        </td>
+        <td>
+            <h3>
+                ObjectDataSource</h3>
+            <telerik:RadListView ID="RadListView3" runat="server" DataSourceID="ObjectDataSource1"
+                ItemPlaceholderID="ShippersHolder">
+                <LayoutTemplate>
+                    <fieldset style="width: 300px;">
+                        <legend>Shippers</legend>
+                        <asp:Panel ID="ShippersHolder" runat="server" />
+                    </fieldset>
+                </LayoutTemplate>
+                <ItemTemplate>
+                    <table width="100%">
+                        <colgroup>
+                            <col title="Shipper name" />
+                            <col title="Phone" />
+                        </colgroup>
+                        <tr>
+                            <td style="width: 50%">
+                                <%# Eval("CompanyName") %>
+                            </td>
+                            <td style="width: 50%">
+                                <%# Eval("Phone") %>
+                            </td>
+                        </tr>
+                    </table>
+                </ItemTemplate>
+            </telerik:RadListView>
+        </td>
+    </tr>
+</table>
+<br />
+<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
+    ProviderName="System.Data.SqlClient" SelectCommand="SELECT CategoryID, CategoryName, Description, Picture FROM Categories" />
+<asp:ObjectDataSource ID="ObjectDataSource1" runat="server" TypeName="ShippersDataSetTableAdapters.ShippersTableAdapter"
+    SelectMethod="GetData" />
+<asp:XmlDataSource ID="XmlDataSource1" runat="server" DataFile="~/ListView/Examples/DataBinding/NET2DataSourceControls/ListView.xml" />
 ````
 
 

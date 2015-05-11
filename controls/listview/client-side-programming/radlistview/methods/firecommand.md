@@ -12,21 +12,21 @@ position: 0
 
 
 
-## 
+##  
 
 Method which triggers specific command for the RadListView when executed. The method is called for the RadListView client instance. The method arguments are the command which will be processed and its corresponding arguments.
 
-This method can be used to invoke custom commands along with a single string argument which can be accessed lateron using the **OnItemCommand** server event.
+This method can be used to invoke custom commands along with a single string argument which can be accessed later on using the **OnItemCommand** server event.
 
-````ASPNET
-	    <telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
-	        <script type="text/javascript">
-	            function FireChangePageSizeCommand() {
-	                var listView = $find("<%= RadListView1.ClientID %>");
-	                listView.fireCommand("ChangePageSize", 15);
-	            }
-	        </script>
-	    </telerik:RadCodeBlock>
+````ASP.NET
+<telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
+    <script type="text/javascript">
+        function FireChangePageSizeCommand() {
+            var listView = $find("<%= RadListView1.ClientID %>");
+            listView.fireCommand("ChangePageSize", 15);
+        }
+    </script>
+</telerik:RadCodeBlock>
 ````
 
 

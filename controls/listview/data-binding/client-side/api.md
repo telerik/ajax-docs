@@ -14,13 +14,17 @@ position: 4
 
 In this article you can find the client and server-side APIs exposed by RadListView for performing client-side binding and controlling the control behavior when bound this way.
 
-* **Server propertieshttp://www.telerik.com/help/aspnet-ajax/listview-clientside-binding-api.html#Section0_self**
+* **Server properties
+http://www.telerik.com/help/aspnet-ajax/listview-clientside-binding-api.html#Section0_self**
 
-* **Client propertieshttp://www.telerik.com/help/aspnet-ajax/listview-clientside-binding-api.html#Section1_self**
+* **Client properties
+http://www.telerik.com/help/aspnet-ajax/listview-clientside-binding-api.html#Section1_self**
 
-* **Client methodshttp://www.telerik.com/help/aspnet-ajax/listview-clientside-binding-api.html#Section2_self**
+* **Client methods
+http://www.telerik.com/help/aspnet-ajax/listview-clientside-binding-api.html#Section2_self**
 
-* **Client eventshttp://www.telerik.com/help/aspnet-ajax/listview-clientside-binding-api.html#Section3_self**
+* **Client events
+http://www.telerik.com/help/aspnet-ajax/listview-clientside-binding-api.html#Section3_self**
 
 ## Server properties
 
@@ -42,17 +46,17 @@ RadListView defines the following new properties in the **ClientSettings.DataBin
 | **DataService.Location** |web service location|
 | **DataService.DataPath** |path or method name to append to location when requesting data|
 | **DataService.CountPath** |path or method name to append to location when requesting item count|
-| **DataService.HttpMethod** |Post|Get; HTTP method to use when accessing web service. *Default: Post* |
+| **DataService.HttpMethod** |Post/Get; HTTP method to use when accessing web service. *Default: Post* |
 | **DataService.DataPropertyName** |field name in the JSON result containing the data array|
 | **DataService.CountPropertyName** |field name in the JSON result containing the item count|
-| **DataService.EnableCaching** |false|true; specifies if data caching is used. *Default: false* |
-| **DataService.ResponseType** |JSON|JSONP; specifies the response format. *Default: JSON* |
+| **DataService.EnableCaching** |false/true; specifies if data caching is used. *Default: false* |
+| **DataService.ResponseType** |JSON/JSONP; specifies the response format. *Default: JSON* |
 | **DataService.StartRowIndexParameterName** |request parameter name specifying start row index|
 | **DataService.MaximumRowsParameterName** |request parameter name specifying the maximum rows|
 | **DataService.SortParameterName** |request parameter name specifying sort expression|
-| **DataService.SortParameterType** |List|Linq|OData|Sql; specifies the format of the sort expression. *Default: List* |
+| **DataService.SortParameterType** |List/Linq/OData/Sql; specifies the format of the sort expression. *Default: List* |
 | **DataService.FilterParameterName** |request parameter name specifying filter expression|
-| **DataService.FilterParameterType** |List|Linq|OData|Sql; specifies the format of the filter expression. *Default: List* |
+| **DataService.FilterParameterType** |List/Linq/OData/Sql; specifies the format of the filter expression. *Default: List* |
 
 ## Client APIs
 
@@ -116,78 +120,14 @@ All events are exposed through the **RadListView.ClientSettings.ClientEvents** s
 
 |  ** *Event* **  |  ** *Description* **  |  ** *Arguments* **  |
 | ------ | ------ | ------ |
-| **OnCommand** |Raised for the following commants in RadListView: RebindListView, Edit Update, Delete, Cancel, InitInsert, PerformInsert, CancelInsert, Select, Deselect, Sort.
-
->note The client-side OnCommand RadListView event does not fire when the following client-side methods are called: **set_pageSize()** , s **et_currentPageIndex()** .
->
-|
-
-*  **get_cancel()** - indicates whether the event will be cancelled.
-
-*  **set_cancel(shouldCancel)** - cancels the event if called with true as an argument.
-
-*  **get_commandArgument()** - returns the the name of the command which is about to be processed.
-
-*  **get_commandName()** - returnsthe command argument(s) value(s).|
-| **OnDataBinding** |Raised when RadListView is databinding on the client-side. Calling dataBind() will fire this event.|
-
-*  **get_ajaxSettings()** - returns the settings for the ajax call to the data service.
-
-*  **get_cancel()** - indicates whether the event will be cancelled.
-
-*  **set_cancel(shouldCancel)** - cancels the event if called with true as an argument.
-
-*  **get_dataServiceSettings()** - returns the settings for using the data service.|
+| **OnCommand** |Raised for the following commants in RadListView: RebindListView, Edit Update, Delete, Cancel, InitInsert, PerformInsert, CancelInsert, Select, Deselect, Sort. Note: The client-side OnCommand RadListView event does not fire when the following client-side methods are called: **set_pageSize()**, **set_currentPageIndex()** .|<ul><li>**get_cancel()** - indicates whether the event will be cancelled.</li><li>  **set_cancel(shouldCancel)** - cancels the event if called with true as an argument.</li><li>  **get_commandArgument()** - returns the the name of the command which is about to be processed.</li><li>  **get_commandName()** - returnsthe command argument(s) value(s).</li><ul>|
+| **OnDataBinding** |Raised when RadListView is databinding on the client-side. Calling dataBind() will fire this event.|<ul><li>**get_ajaxSettings()** - returns the settings for the ajax call to the data service.</li><li>**get_cancel()** - indicates whether the event will be cancelled.</li><li>**set_cancel(shouldCancel)** - cancels the event if called with true as an argument.</li><li>**get_dataServiceSettings()** - returns the settings for using the data service.</li><ul>|
 | **OnDataBound** |Raised when RadListView has finished databinding.|N/A|
-| **OnDataBindingFailed** |Raised when automatic databinding to web services has failed.|
-
-*  **get_exception()** - returns the deserialized response text.
-
-*  **get_responseText()** - returns the response text from the service.|
-| **OnDataSourceResolved** |Raised when RadListView successfully receives data from a web service when automatic databinding to web services.|
-
-*  **get_data()** - returns the data from the resolved datasource.
-
-*  **set_data(data)** - sets the data for binding the listview.
-
-*  **get_response()** - the response from the web service.|
-| **OnItemDeselecting** |Raised before an item is deselected and its template rebound. Can be canceled.|
-
-*  **get_cancel()** - indicates whether the event will be cancelled.
-
-*  **set_cancel(shouldCancel)** - cancels the event if called with true as an argument.
-
-*  **get_itemIndex()** - returns the index of the item that is about to be deselected.|
-| **OnItemDeselected** |Raised after an item is deselected.|
-
-*  **get_itemIndex()** - returns the index of the item that is deselected.|
-| **OnItemSelecting** |Raised before an item is selected and its template rebound. Can be canceled.|
-
-*  **get_cancel()** - indicates whether the event will be cancelled.
-
-*  **set_cancel(shouldCancel)** - cancels the event if called with true as an argument.
-
-*  **get_itemIndex()** - returns the index of the item that is about to be selected.|
-| **OnItemSelected** |Raised after an item is selected.|
-
-*  **get_itemIndex()** - returns the index of the item that is selected.|
-| **OnTemplateCreated** |Raised for each template during databinding before the template is databound.|
-
-*  **get_context()** - returns the binding context of the template.
-
-*  **get_template()** - returns the template object.
-
-*  **set_template()** - sets the template object.
-
-*  **get_name()** - returns the name of the template.|
-| **OnTemplateDataBound** |Raised for each template during databinding after the template is databound and before the resulting HTML is added to the DOM.|
-
-*  **get_context()** - returns the binding context of the template
-
-*  **get_html()** - returns the HTML of the template
-
-*  **set_html()** - sets the HTML of the template
-
-*  **get_name()** - returns the name of the template
-
-*  **get_template()** - returns the template object|
+| **OnDataBindingFailed** |Raised when automatic databinding to web services has failed.|<ul><li>**get_exception()** - returns the deserialized response text.</li><li>**get_responseText()** - returns the response text from the service.</li><ul>|
+| **OnDataSourceResolved** |Raised when RadListView successfully receives data from a web service when automatic databinding to web services.|<ul><li>**get_data()** - returns the data from the resolved datasource.</li><li>**set_data(data)** - sets the data for binding the listview.</li><li>**get_response()** - the response from the web service.</li><ul>|
+| **OnItemDeselecting** |Raised before an item is deselected and its template rebound. Can be canceled.|<ul><li>**get_cancel()** - indicates whether the event will be cancelled.</li><li>**set_cancel(shouldCancel)** - cancels the event if called with true as an argument.</li><li>**get_itemIndex()** - returns the index of the item that is about to be deselected.</li><ul>|
+| **OnItemDeselected** |Raised after an item is deselected.|<ul><li>**get_itemIndex()** - returns the index of the item that is deselected.</li><ul>|
+| **OnItemSelecting** |Raised before an item is selected and its template rebound. Can be canceled.|<ul><li>**get_cancel()** - indicates whether the event will be cancelled.</li><li>**set_cancel(shouldCancel)** - cancels the event if called with true as an argument.</li><li>**get_itemIndex()** - returns the index of the item that is about to be selected.</li><ul>|
+| **OnItemSelected** |Raised after an item is selected.|<ul><li>**get_itemIndex()** - returns the index of the item that is selected.</li><ul>|
+| **OnTemplateCreated** |Raised for each template during databinding before the template is databound.|<ul><li>**get_context()** - returns the binding context of the template.</li><li>**get_template()** - returns the template object.</li><li>**set_template()** - sets the template object.</li><li>**get_name()** - returns the name of the template.</li><ul>|
+| **OnTemplateDataBound** |Raised for each template during databinding after the template is databound and before the resulting HTML is added to the DOM.|<ul><li>**get_context()** - returns the binding context of the template</li><li>**get_html()** - returns the HTML of the template</li><li>**set_html()** - sets the HTML of the template</li><li>**get_name()** - returns the name of the template</li><li>**get_template()** - returns the template object</li><ul>|

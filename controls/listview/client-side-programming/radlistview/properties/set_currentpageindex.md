@@ -12,6 +12,6 @@ position: 6
 
 
 
-## 
+##  
 
-Sets the current page index for the respective **RadListView**object.
+Sets the current page index for the respective **RadListView** object.

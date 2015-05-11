@@ -12,7 +12,7 @@ position: 1
 
 
 
-## 
+##  
 
 The API and event sequence of **RadListView** are quite similar to **MS ListView**. The sequence of the events is the following:
 
@@ -56,7 +56,7 @@ The API and event sequence of **RadListView** are quite similar to **MS ListView
 |ItemCreated|
 |Page.Load|
 |ItemCommand|
-|ItemEditing/ItemUpdating/ItemInserting/ItemDeleting/ItemCancelling,ItemEdited/ItemUpdated/ItemInserted/ItemDeleted/ItemCancelledorPageIndexChanged/PageSizeChanged/Sorting/ItemCommand|
+|ItemEditing/ItemUpdating/ItemInserting/ItemDeleting/ItemCancelling, ItemEdited/ItemUpdated/ItemInserted/ItemDeleted/ItemCancelledorPageIndexChanged/PageSizeChanged/Sorting/ItemCommand|
 |NeedDataSource|
 |For each Item:|
 |ItemCreated|
@@ -112,7 +112,7 @@ The API and event sequence of **RadListView** are quite similar to **MS ListView
 |ItemCreated|
 | **ItemDataBound** |
 |ItemCommand|
-|ItemEditing/ItemUpdating/ItemInserting/ItemDeleting/ItemCancelling,ItemEdited/ItemUpdated/ItemInserted/ItemDeleted/ItemCancelledorPageIndexChanged/PageSizeChanged/Sorting/ItemCommand|
+|ItemEditing/ItemUpdating/ItemInserting/ItemDeleting/ItemCancelling, ItemEdited/ItemUpdated/ItemInserted/ItemDeleted/ItemCancelledorPageIndexChanged/PageSizeChanged/Sorting/ItemCommand|
 | **NeedDataSource** |
 |For each Item in RadListView:|
 |ItemCreated|

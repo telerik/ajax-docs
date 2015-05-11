@@ -16,18 +16,18 @@ position: 1
 
 The property returns an **Array** of objects representing the values of the ClientDataKeyNames for the RadListView items.
 
-````ASPNET
-	    <telerik:RadListView ID="RadListView1" runat="server" ClientDataKeyNames="ID">
-	    </telerik:RadListView>
-	    <telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
-	        <script type="text/javascript">
-	            function GetClientDataKeyValueForFirstItem() {
-	                var clientDataKeyValues = $find("<%= RadListView1.ClientID %>").get_clientDataKeyValue();
-	                var itemIndex = 0; 
-	                var firstItemKeyValue = clientDataKeyValues[itemIndex]["ID"];
-	            }
-	        </script>
-	    </telerik:RadCodeBlock>
+````ASP.NET
+<telerik:RadListView ID="RadListView1" runat="server" ClientDataKeyNames="ID">
+</telerik:RadListView>
+<telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
+    <script type="text/javascript">
+        function GetClientDataKeyValueForFirstItem() {
+            var clientDataKeyValues = $find("<%= RadListView1.ClientID %>").get_clientDataKeyValue();
+            var itemIndex = 0; 
+            var firstItemKeyValue = clientDataKeyValues[itemIndex]["ID"];
+        }
+    </script>
+</telerik:RadCodeBlock>
 ````
 
 

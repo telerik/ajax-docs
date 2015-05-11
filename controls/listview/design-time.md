@@ -12,11 +12,17 @@ position: 3
 
 
 
-**RadListView's** rich design-time interface allows to configure the control's layout with ease. Even if you do not have any knowledge, the integrated **Layout editor** will help you choose predefined layout in codeless manner. You can open **RadListView's** Designer *window by clicking on the **SmartTag**.![Open Layout Editor](images/listview_gettingstarted8.jpg)
+**RadListView's** rich design-time interface allows to configure the control's layout with ease. Even if you do not have any knowledge, the integrated **Layout editor** will help you choose predefined layout in codeless manner. You can open **RadListView's** Designer *window by clicking on the **SmartTag**.
+![Open Layout Editor](images/listview_gettingstarted8.jpg)
 
 ## Layout editor
 
-The **Layout editor** allows you to configure the **RadListView** control. Apart from the item layout, the configuration window will help you enable/setup the desired set of options (*Paging*, *Sorting*, etc) and the default skin.![Functionality Window](images/listview_gettingstarted14.jpg)![Layouts and Appereance](images/listview_gettingstarted11.jpg)![listview gettingstarted 14 generalsettings](images/listview_gettingstarted14_generalsettings.jpg)
+The **Layout editor** allows you to configure the **RadListView** control. Apart from the item layout, the configuration window will help you enable/setup the desired set of options (*Paging*, *Sorting*, etc) and the default skin.
+![Functionality Window](images/listview_gettingstarted14.jpg)
+
+![Layouts and Appearance](images/listview_gettingstarted11.jpg)
+
+![listview gettingstarted 14 generalsettings](images/listview_gettingstarted14_generalsettings.jpg)
 
 For more information about the layouts, please visit the following links:
 
