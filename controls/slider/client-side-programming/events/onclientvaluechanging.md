@@ -10,10 +10,6 @@ position: 10
 
 # OnClientValueChanging
 
-
-
-## 
-
 The **OnClientValueChanging** client-side event occurs before the value property changes.
 
 The event handler receives parameters:
@@ -32,20 +28,20 @@ The event handler receives parameters:
 
 The example below displays the new and old values.
 
-````ASPNET
-	    <script type="text/javascript">
-	    function clientBeforeValueChange(sender, eventArgs)
-	    { 
-	        var myDiv = document.getElementById("myDiv");
-	        myDiv.innerHTML = "Old value is:" + eventArgs.get_oldValue() + " New value:" + eventArgs.get_newValue();
-	        eventArgs.set_cancel(true); 
-	    } 
-	    </script>
-	
-	    <div id="myDiv">
-	    </div>
-	    
-	    <telerik:radslider id="RadSlider1" runat="server" onclientvaluechanging="clientBeforeValueChange" />
+````ASP.NET
+<script type="text/javascript">
+function clientBeforeValueChange(sender, eventArgs)
+{ 
+	var myDiv = document.getElementById("myDiv");
+	myDiv.innerHTML = "Old value is:" + eventArgs.get_oldValue() + " New value:" + eventArgs.get_newValue();
+	eventArgs.set_cancel(true); 
+} 
+</script>
+
+<div id="myDiv">
+</div>
+
+<telerik:radslider id="RadSlider1" runat="server" onclientvaluechanging="clientBeforeValueChange" />
 ````
 
 

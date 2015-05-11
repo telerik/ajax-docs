@@ -10,10 +10,6 @@ position: 3
 
 # Localization
 
-
-
-## 
-
 The **RadSlider** has three tooltips that may require localization - on the increase/decrease buttons and on the drag handle. The strings that will be displayed can be controlled with the following properties:
 
 * **DecreaseText** - the tooltip for the decrease button

@@ -10,11 +10,11 @@ position: 0
 
 # Slider Overview
 
-
-
 ## Slider Elements
 
-**RadSlider** was designed to be as simple as possible and consists of the following elements:![](images/slider-overview001.png)
+**RadSlider** was designed to be as simple as possible and consists of the following elements:
+
+![](images/slider-overview001.png)
 
 * **Increase handle:** Increases the value of the slider by a single step.
 
@@ -54,7 +54,7 @@ The state of the RadSlider is automatically persisted across partial and full po
 
 The two drag handles of RadSlider can be moved simultaneously when the control is used in a mobile touch device by pressing both of them and dragging.
 
-# See Also
+## See Also
 
  * [Behavior]({%slug slider/getting-started/behavior%})
 

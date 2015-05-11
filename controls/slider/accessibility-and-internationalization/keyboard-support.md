@@ -10,13 +10,11 @@ position: 1
 
 # Keyboard Support
 
-
-
 ## Ways to activate the slider:
 
-You can focus the a dragHandle (thumb) of the slider using the **Tab**key or, alternatively, you can use a shortcut if you set the **AccessKey**property (press "**Alt + AccessKey**" ("**Shift + Alt + AccessKey**" for Firefox and "**Shift + Esc**" and then **AccessKey**for Opera). Press **Tab**to move the focus to the other dragHandle (thumb) of the slider, in case you have set IsSelectionRangeEnabled to "true".
+You can focus the a dragHandle (thumb) of the slider using the **Tab** key or, alternatively, you can use a shortcut if you set the **AccessKey** property (press "**Alt + AccessKey**" ("**Shift + Alt + AccessKey**" for Firefox and "**Shift + Esc**" and then **AccessKey** for Opera). Press **Tab** to move the focus to the other dragHandle (thumb) of the slider, in case you have set IsSelectionRangeEnabled to "true".
 
-Note: By default tab-access is disabled in Safari. To enable it, check "Preferences > Advanced > Press tab to highlight each item on a page".
+Note: By default tab-access is disabled in Safari. To enable it, check "Preferences &gt; Advanced &gt; Press tab to highlight each item on a page".
 
 ## Supported keys and how they control the behavior of RadSlider:
 

@@ -10,11 +10,7 @@ position: 6
 
 # OnClientSlideRange
 
-
-
-## 
-
-The **OnClientSlideRange**client-side event occurs as the user is sliding the selected region of RadSlider, thus changingboth **SelectionStart** and **SelectionEnd** values. The properties **EnableDragRange**	and **IsSelectionRangeEnabled** of RadSlider should be set to **true** in order to enable the sliding region of the control.
+The **OnClientSlideRange** client-side event occurs as the user is sliding the selected region of RadSlider, thus changing both **SelectionStart** and **SelectionEnd** values. The properties **EnableDragRange**	and **IsSelectionRangeEnabled** of RadSlider should be set to **true** in order to enable the sliding region of the control.
 
 The event handler receives two parameters:
 
@@ -24,16 +20,16 @@ The event handler receives two parameters:
 
 The example below updates a span tag with the slider selection start and selection end value as it changes.
 
-````ASPNET
-	    <script type="text/javascript">
-	       function clientSlideRange(sender, eventArgs)
-	       {
-	        	var message = document.getElementById("message");
-	        	message.innerHTML = "Selection start: " + sender.get_selectionStart() + "; Selection end: " + sender.get_selectionEnd() + ";";
-	       }
-	    </script>
-	    <span id="message"></span>
-	    <telerik:RadSlider ID="RadSlider2" runat="server" EnableDragRange="true" IsSelectionRangeEnabled="true" OnClientSlideRange="clientSlideRange" />
+````ASP.NET
+<script type="text/javascript">
+   function clientSlideRange(sender, eventArgs)
+   {
+		var message = document.getElementById("message");
+		message.innerHTML = "Selection start: " + sender.get_selectionStart() + "; Selection end: " + sender.get_selectionEnd() + ";";
+   }
+</script>
+<span id="message"></span>
+<telerik:RadSlider ID="RadSlider2" runat="server" EnableDragRange="true" IsSelectionRangeEnabled="true" OnClientSlideRange="clientSlideRange" />
 ````
 
 

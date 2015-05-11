@@ -10,24 +10,20 @@ position: 0
 
 # Skins
 
-
-
-To make customizing the appearance of **RadSlider**as easy as possible, the control uses **skins.** A skin is a set of images and a CSS stylesheet that are applied to the HTML elements which make up the RadSlider control, defining the look and feel.
+To make customizing the appearance of **RadSlider**as easy as possible, the control uses **skins**. A skin is a set of images and a CSS stylesheet that are applied to the HTML elements which make up the RadSlider control, defining the look and feel.
 
 To apply a skin, set the **Skin** property of the **RadSlider**control. Set the **Skin** property using the Properties Window or the control's [Smart Tag]({%slug slider/design-time%}).
 
-**RadSlider**is installed with a number of preset skins. These are shown below:
->caption 
+**RadSlider** is installed with a number of preset skins. These are shown below:
 
 ![radslider-skins](images/radslider-skins.png)
 
->note The **Hay** , **Forest** , **Sitefinity** and **Transparent** skins are obsolete and have been removed from the Telerik.Web.UI.Skins.dll assembly as of **Q1 2014** .	You can find more information on the matter in[this blog post](http://blogs.telerik.com/aspnet-ajax/posts/13-04-11/6-telerik-asp.net-ajax-skins-going-obsolete).
->
+>note The **Hay** , **Forest** , **Sitefinity** and **Transparent** skins are obsolete and have been removed from the Telerik.Web.UI.Skins.dll assembly as of **Q1 2014** .	You can find more information on the matter in [this blog post](http://blogs.telerik.com/aspnet-ajax/posts/13-04-11/6-telerik-asp.net-ajax-skins-going-obsolete).
 
 
 ## Customizing Skins
 
-You can tweak the existing skins, or create your own. Each skin has two main elements: images and a stylesheet. When creating your own, it is a good idea to start with the stylesheet for an existing skin and alter that. See the [Tutorial: Creating a Custom Skin]({%slug slider/appearance-and-styling/tutorial:-creating-a-custom-skin%}) topic for a step-by-step walk through. To use your own skin
+You can tweak the existing skins, or create your own. Each skin has two main elements: images and a stylesheet. When creating your own, it is a good idea to start with the stylesheet for an existing skin and alter that. See the [Tutorial: Creating a Custom Skin]({%slug slider/appearance-and-styling/tutorial-creating-custom-skin%}) topic for a step-by-step walk through. To use your own skin
 
 1. Add the new CSS file to your project.
 
@@ -39,9 +35,9 @@ The stylesheet for a **RadSlider**skin has the name **RadSlider.[SkinName].css**
 
 For information on the CSS File structure, see the [Understanding the Skin CSS File]({%slug slider/appearance-and-styling/understanding-the-skin-css-file%}) topic.
 
-# See Also
+## See Also
 
- * [Tutorial: Creating a Custom Skin]({%slug slider/appearance-and-styling/tutorial:-creating-a-custom-skin%})
+ * [Tutorial: Creating a Custom Skin]({%slug slider/appearance-and-styling/tutorial-creating-custom-skin%})
 
  * [Understanding the Skin CSS File]({%slug slider/appearance-and-styling/understanding-the-skin-css-file%})
 

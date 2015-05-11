@@ -11,10 +11,7 @@ position: 2
 # OnClientLoad
 
 
-
-## 
-
-The **OnClientLoad**client-side event occurs after the slider loads on the page.
+The **OnClientLoad** client-side event occurs after the slider loads on the page.
 
 The event handler receives parameters:
 
@@ -24,14 +21,14 @@ The event handler receives parameters:
 
 The example below sets the value of the slider at 50.
 
-````ASPNET
-	    <script type="text/javascript">
-	        function clientLoaded(sender, eventArgs)
-	        {
-	            sender.set_value(50);
-	        }
-	    </script>
-	    <telerik:radslider id="RadSlider1" runat="server" onclientload="clientLoaded" />
+````ASP.NET
+<script type="text/javascript">
+	function clientLoaded(sender, eventArgs)
+	{
+		sender.set_value(50);
+	}
+</script>
+<telerik:radslider id="RadSlider1" runat="server" onclientload="clientLoaded" />
 ````
 
 

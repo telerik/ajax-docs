@@ -10,18 +10,18 @@ position: 1
 
 # Structure
 
-
-
 ## Slider Elements
 
-**RadSlider** was designed to be as simple as possible and consists of the following elements:![](images/slider-overview001.png)
+**RadSlider** was designed to be as simple as possible and consists of the following elements:
 
-* **Increase handle:** Increases the value of the slider by a single step.
+![](images/slider-overview001.png)
 
-* **Selected region:** Visualizes the selected range.
+* **Increase handle**: Increases the value of the slider by a single step.
 
-* **Drag handle:** Changes the value of the slider by dragging the handle with the mouse.
+* **Selected region**: Visualizes the selected range.
 
-* **Track:** Visualizes the slider and changes its value when clicked.
+* **Drag handle**: Changes the value of the slider by dragging the handle with the mouse.
 
-* **Decrease handle:** Decreases the value of the slider by a single step.
+* **Track**: Visualizes the slider and changes its value when clicked.
+
+* **Decrease handle**: Decreases the value of the slider by a single step.

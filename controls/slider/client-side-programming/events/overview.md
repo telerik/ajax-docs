@@ -10,10 +10,6 @@ position: 0
 
 # Events Overview
 
-
-
-## 
-
 __RadSlider__ supports a number of client-side events that let you customize behavior:
 
 * [OnClientItemsCreated]({%slug slider/client-side-programming/events/onclientitemscreated%})
@@ -38,7 +34,7 @@ __RadSlider__ supports a number of client-side events that let you customize beh
 
 
 
-# See Also
+## See Also
 
  * [OnClientItemsCreated]({%slug slider/client-side-programming/events/onclientitemscreated%})
 

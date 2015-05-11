@@ -10,15 +10,11 @@ position: 1
 
 # Changes And Backward Compatibility
 
-
-
 ## What is new in Telerik RadSlider for ASP.NET AJAX
 
 A complete list of all changes can be found on Release History page:
 
 [http://www.telerik.com/products/aspnet-ajax/whats-new/release-history.aspx](http://www.telerik.com/products/aspnet-ajax/whats-new/release-history.aspx)
-
-
 
 ## Telerik RadSlider for ASP.NET AJAX Q2 2010 BETA
 
@@ -48,11 +44,6 @@ The new release brings the following changes:
 
 ## Client event names changes
 
-
-
-
->caption  
-
 | loaded | load |
 | ------ | ------ |
 |valueChange|valueChanged|
@@ -60,20 +51,12 @@ The new release brings the following changes:
 
 ## Server-side properties
 
-
-
-
->caption  
-
 | OnClientLoaded | OnClientLoad |
 | ------ | ------ |
 |OnClientValueChange|OnClientValueChanged|
 |OnClientBeforeValueChange|OnClientValueChanging|
 
 ## Client-side API changes
-
-
->caption  
 
 | add_loaded | add_load |
 | ------ | ------ |
@@ -95,16 +78,13 @@ The new release brings the following changes:
 
 * Refactoring of the CSS code to achieve better understanding, easier maintenance and handle problems with global styles
 
-* Changes to the CSS classes, so now all controls for ASP.NET AJAX comply with a common naming conventionFor example:was:**radslider RadSlider_Default**now:**RadSlider RadSlider_Default**
+* Changes to the CSS classes, so now all controls for ASP.NET AJAX comply with a common naming convention. For example, was: **radslider RadSlider_Default**; now: **RadSlider RadSlider_Default**
 
 
 
 ## Telerik RadSlider for ASP.NET AJAX Q3 2008 and before
 
 Some of the RadSlider's properties are obsolete and new ones which offer the same functionality should be used. You can find them along with the new ones below:
-
-
->caption  
 
 |  **Obsolete property**  |  **Actual property**  |
 | ------ | ------ |
@@ -113,9 +93,6 @@ Some of the RadSlider's properties are obsolete and new ones which offer the sam
 |Length|Width/Height (depending on Orientation)|
 
 Some new properties were introduced - the table below contains them along with a short explanation.
-
-
->caption  
 
 |  **Property Name**  |  **Description**  |
 | ------ | ------ |

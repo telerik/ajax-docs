@@ -10,12 +10,7 @@ position: 0
 
 # Getting Started Overview
 
-
-
-## 
-
 The following tutorial demonstrates using RadSlider to interact with the month of a Standard ASP.NET Calendar control. The tutorial shows how to set minimum and maximum values, change the current slider value, respond to value changes and set the skin.
->caption 
 
 ![](images/slider-gettingstarted001.png)
 
@@ -26,39 +21,28 @@ The following tutorial demonstrates using RadSlider to interact with the month o
 1. Open the RadSlider [Smart Tag]({%slug slider/design-time%}) and select "Office2007" from the __Skin__ drop down list.
 
 1. In the Properties Window for the RadSlider set the following properties:
-
-* __AutoPostBack__ = __True__
-
-* __MinimumValue =__ 1
-
-* __MaximumValue__ = 12
+	* __AutoPostBack = True__
+	* __MinimumValue = 1__
+	* __MaximumValue = 12__
 
 1. In the Properties Window, click the Events button (). Double-click the [ValueChanged]({%slug slider/server-side-programming/events%}) event to create an event handler. Replace the event handler with the code below.
 
-
-
-````C#
+	**C#**
 	
 	    protected void RadSlider1_ValueChanged(object sender, EventArgs e)
 	    {
 	        Calendar1.VisibleDate = new DateTime(DateTime.Today.Year, (int)RadSlider1.Value, 1);
 	    } 
 				
-````
-````VB
+	**VB**
 	
 	    Protected Sub RadSlider1_ValueChanged(ByVal sender As Object, ByVal e As EventArgs)
 	        Calendar1.VisibleDate = New DateTime(DateTime.Today.Year, DirectCast(RadSlider1.Value, Integer), 1)
 	    End Sub
 	
-````
-
-
 1. Replace the Page_Load event handler with the code below:
 
-
-
-````C#
+	**C#**
 	
 	    protected void Page_Load(object sender, EventArgs e)
 	    {
@@ -68,8 +52,7 @@ The following tutorial demonstrates using RadSlider to interact with the month o
 	        }
 	    } 
 				
-````
-````VB
+	**VB**
 	
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
 	        If Not IsPostBack Then
@@ -77,12 +60,9 @@ The following tutorial demonstrates using RadSlider to interact with the month o
 	        End If
 	    End Sub
 	
-````
-
-
 1. Press __F5__ to run the application. Drag the slider and observe the change to the Calendar. Notice that you can't drag the slider outside the minimum and maximum values of 1..12.
 
-# See Also
+## See Also
 
  * [Design Time]({%slug slider/design-time%})
 

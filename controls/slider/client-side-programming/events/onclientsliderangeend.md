@@ -10,11 +10,7 @@ position: 8
 
 # OnClientSlideRangeEnd
 
-
-
-## 
-
-The **OnClientSlideRangeEnd** client-side event occurs when user releases the selected region of RadSlider after dragging it, thus changingboth **SelectionStart** and **SelectionEnd** values. The properties **EnableDragRange**and **IsSelectionRangeEnabled** of RadSlider should be set to **true** in order to enable the sliding region of the control.
+The **OnClientSlideRangeEnd** client-side event occurs when user releases the selected region of RadSlider after dragging it, thus changing both **SelectionStart** and **SelectionEnd** values. The properties **EnableDragRange** and **IsSelectionRangeEnabled** of RadSlider should be set to **true** in order to enable the sliding region of the control.
 
 The event handler receives two parameters:
 

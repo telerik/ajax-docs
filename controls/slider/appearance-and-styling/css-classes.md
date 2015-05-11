@@ -10,14 +10,7 @@ position: 4
 
 # CSS Classes
 
-
-
-## 
-
 The following table lists significant CSS selectors and descriptions for **RadSlider** style sheets. The CSS styles define the basic elements of the [RadSlider visual structure]({%slug slider/getting-started/structure%}).
-
-
->caption  
 
 | CSS Class | Description |
 | ------ | ------ |
@@ -45,8 +38,8 @@ The following table lists significant CSS selectors and descriptions for **RadSl
 |.RadSlider_SkinName .rslCenter .rslSmallTick|Decorates vertical slider small tick - TrackPosition=Center|
 |.RadSlider_SkinName .rslCenter .rslLargeTick|Decorates vertical slider large tick - TrackPosition=Center|
 
-# See Also
+## See Also
 
  * [Understanding the Skin CSS File]({%slug slider/appearance-and-styling/understanding-the-skin-css-file%})
 
- * [Tutorial: Creating a Custom Skin]({%slug slider/appearance-and-styling/tutorial:-creating-a-custom-skin%})
+ * [Tutorial: Creating a Custom Skin]({%slug slider/appearance-and-styling/tutorial-creating-custom-skin%})

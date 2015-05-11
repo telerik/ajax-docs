@@ -10,10 +10,6 @@ position: 1
 
 # OnClientItemsCreated
 
-
-
-## 
-
 The **OnClientItemsCreated** client-side event occurs when the items of the RadSlider control are created.
 
 The event handler receives two parameters:

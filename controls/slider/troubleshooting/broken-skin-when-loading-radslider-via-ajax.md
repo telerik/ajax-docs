@@ -10,40 +10,28 @@ position: 0
 
 # Broken Skin When Loading RadSlider via AJAX
 
-
-
-## 
-
 When the **RadSlider** in not initially visible on the page and it is loaded through AJAX, its skin may not be loaded correctly.The following code sample shows such a scenario:
 
-````ASPNET
-	    <telerik:RadAjaxPanel runat="server" ID="panUpdate">
-	    <asp:Panel runat="server" Visible="false" ID="Panel1">
-	         <telerik:RadSlider runat="server" ID="RadSlider1">
-	         </telerik:RadSlider>
-	    </asp:Panel>
-	    <asp:Button runat="server" ID="btnUpdate" Text="Update" OnClick="btnUpdate_Click" />
-	    </telerik:RadAjaxPanel>
+````ASP.NET
+<telerik:RadAjaxPanel runat="server" ID="panUpdate">
+<asp:Panel runat="server" Visible="false" ID="Panel1">
+	 <telerik:RadSlider runat="server" ID="RadSlider1">
+	 </telerik:RadSlider>
+</asp:Panel>
+<asp:Button runat="server" ID="btnUpdate" Text="Update" OnClick="btnUpdate_Click" />
+</telerik:RadAjaxPanel>
 ````
-
-
-
-
 
 ````C#
-	
-		protected void btnUpdate_Click(object sender, EventArgs e)
-		{
-			Panel1.Visible = true;
-		}
-				
+protected void btnUpdate_Click(object sender, EventArgs e)
+{
+	Panel1.Visible = true;
+}		
 ````
-````VB
-	
-		Protected Sub btnUpdate_Click(sender As Object, e As EventArgs)
-			Panel1.Visible = True
-		End Sub
-	
+````VB	
+Protected Sub btnUpdate_Click(sender As Object, e As EventArgs)
+	Panel1.Visible = True
+End Sub	
 ````
 
 
@@ -53,46 +41,43 @@ The way around this issue is to have the styles already loaded on the page. Ther
 
 * Using the **GetWebResourceUrl** method to load the styles:
 
-
-
 ````C#
-	    <head>
-			<title></title>
-			<link href='<%= Telerik.Web.SkinRegistrar.GetWebResourceUrl(this, typeof(RadSlider), "Telerik.Web.UI.Skins.Slider.css") %>' 
-	            rel="stylesheet" type="text/css" />
-			<link href='<%= Telerik.Web.SkinRegistrar.GetWebResourceUrl(this, typeof(RadSlider), "Telerik.Web.UI.Skins.Outlook.Slider.Outlook.css") %>' 
-	            rel="stylesheet" type="text/css" />
-		</head>
+<head>
+	<title></title>
+	<link href='<%= Telerik.Web.SkinRegistrar.GetWebResourceUrl(this, typeof(RadSlider), "Telerik.Web.UI.Skins.Slider.css") %>' 
+		rel="stylesheet" type="text/css" />
+	<link href='<%= Telerik.Web.SkinRegistrar.GetWebResourceUrl(this, typeof(RadSlider), "Telerik.Web.UI.Skins.Outlook.Slider.Outlook.css") %>' 
+		rel="stylesheet" type="text/css" />
+</head>
 ````
 ````VB
-	    <head>
-			<title></title>
-			<link href='<%= Telerik.Web.SkinRegistrar.GetWebResourceUrl(GetType(RadSlider), "Telerik.Web.UI.Skins.Slider.css")%>' 
-	            rel="stylesheet" type="text/css" />
-			<link href='<%= Telerik.Web.SkinRegistrar.GetWebResourceUrl(GetType(RadSlider), "Telerik.Web.UI.Skins.Outlook.Slider.Outlook.css")%>' 
-	            rel="stylesheet" type="text/css" />
-		</head>
+<head>
+	<title></title>
+	<link href='<%= Telerik.Web.SkinRegistrar.GetWebResourceUrl(GetType(RadSlider), "Telerik.Web.UI.Skins.Slider.css")%>' 
+		rel="stylesheet" type="text/css" />
+	<link href='<%= Telerik.Web.SkinRegistrar.GetWebResourceUrl(GetType(RadSlider), "Telerik.Web.UI.Skins.Outlook.Slider.Outlook.css")%>' 
+		rel="stylesheet" type="text/css" />
+</head>
 ````
 
+* Using the [RadStyleSheetManager]({% slug stylesheetmanager/overview %}) to load the styles. Note that all skins except Default are located in the Telerik.Web.UI.Skins assembly so the style sheet reference should point it when such skin is used:
 
-* Using the [RadStyleSheetManager](A2D2BFE9-F3FE-48F8-A3E6-5254D7491104) to load the styles. Note that all skins except Default are located in theTelerik.Web.UI.Skins assembly so the style sheet reference should point it when such skin is used:
-
-````ASPNET
-	    <telerik:RadStyleSheetManager ID="RadStyleSheetManager1" runat="server">
-	       <StyleSheets>
-	            <telerik:StyleSheetReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Skins.Slider.css" />
-	            <telerik:StyleSheetReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Skins.Default.Slider.Default.css" />
-	       </StyleSheets>
-	    </telerik:RadStyleSheetManager>
+````ASP.NET
+<telerik:RadStyleSheetManager ID="RadStyleSheetManager1" runat="server">
+   <StyleSheets>
+		<telerik:StyleSheetReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Skins.Slider.css" />
+		<telerik:StyleSheetReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Skins.Default.Slider.Default.css" />
+   </StyleSheets>
+</telerik:RadStyleSheetManager>
 ````
 
 
 
 Regardless of the approach you choose, you need to make sure that the control does not try to load the CSS on its own by preventing its	embedded base stylesheets and skin:
 
-````ASPNET
-	    <telerik:RadSlider runat="server" ID="RadSlider1" EnableEmbeddedBaseStylesheet="false" EnableEmbeddedSkins="false">
-	    </telerik:RadSlider>
+````ASP.NET
+<telerik:RadSlider runat="server" ID="RadSlider1" EnableEmbeddedBaseStylesheet="false" EnableEmbeddedSkins="false">
+</telerik:RadSlider>
 ````
 
 

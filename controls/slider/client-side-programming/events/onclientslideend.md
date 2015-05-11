@@ -10,11 +10,7 @@ position: 4
 
 # OnClientSlideEnd
 
-
-
-## 
-
-The **OnClientSlideEnd**client-side event occurs as the drag handle stops moving along the track.
+The **OnClientSlideEnd** client-side event occurs as the drag handle stops moving along the track.
 
 The event handler receives parameters:
 
@@ -24,14 +20,14 @@ The event handler receives parameters:
 
 The example below displays the value of the slider as the drag handle stops moving.
 
-````ASPNET
-	    <script type="text/javascript">
-	        function clientSlideEnd(sender, eventArgs)
-	        {
-	            alert('Value before the slide starts is: ' + sender.get_value());
-	        }
-	    </script>
-	    <telerik:radslider id="RadSlider1" runat="server" onclientslideend="clientSlideEnd" />
+````ASP.NET
+<script type="text/javascript">
+	function clientSlideEnd(sender, eventArgs)
+	{
+		alert('Value before the slide starts is: ' + sender.get_value());
+	}
+</script>
+<telerik:radslider id="RadSlider1" runat="server" onclientslideend="clientSlideEnd" />
 ````
 
 

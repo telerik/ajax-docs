@@ -10,11 +10,7 @@ position: 3
 
 # OnClientSlide
 
-
-
-## 
-
-The **OnClientSlide**client-side event occurs as the drag handle is moved along the track.
+The **OnClientSlide** client-side event occurs as the drag handle is moved along the track.
 
 The event handler receives parameters:
 
@@ -24,17 +20,17 @@ The event handler receives parameters:
 
 The example below updates a div tag with the slider value as it changes..
 
-````ASPNET
-	    <script type="text/javascript">
-	        function clientSlide(sender, eventArgs)
-	        {
-	            var myDiv = document.getElementById("myDiv")
-	            myDiv.innerHTML = sender.get_value();
-	        }
-	    </script>
-	    <div id="myDiv">
-	    </div>
-	    <telerik:radslider id="RadSlider1" runat="server" onclientslide="clientSlide" />
+````ASP.NET
+<script type="text/javascript">
+	function clientSlide(sender, eventArgs)
+	{
+		var myDiv = document.getElementById("myDiv")
+		myDiv.innerHTML = sender.get_value();
+	}
+</script>
+<div id="myDiv">
+</div>
+<telerik:radslider id="RadSlider1" runat="server" onclientslide="clientSlide" />
 ````
 
 

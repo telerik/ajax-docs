@@ -2,7 +2,7 @@ http://www.telerik.com/help/aspnet-ajax/slider-accessiblity.html http://docs.tel
 http://www.telerik.com/help/aspnet-ajax/slider-animation-duration.html http://docs.telerik.com/devtools/ajax/slider/getting-started/animation-duration
 http://www.telerik.com/help/aspnet-ajax/slider-appearance-controlling.html http://docs.telerik.com/devtools/ajax/slider/appearance-and-styling/controlling-appearance
 http://www.telerik.com/help/aspnet-ajax/slider-appearance-cssfile-selectors.html http://docs.telerik.com/devtools/ajax/slider/appearance-and-styling/css-classes
-http://www.telerik.com/help/aspnet-ajax/slider-appearance-custom-skin.html http://docs.telerik.com/devtools/ajax/slider/appearance-and-styling/tutorial:-creating-a-custom-skin
+http://www.telerik.com/help/aspnet-ajax/slider-appearance-custom-skin.html http://docs.telerik.com/devtools/aspnet-ajax/controls/slider/appearance-and-styling/tutorial-creating-custom-skin
 http://www.telerik.com/help/aspnet-ajax/slider-appearance-skins.html http://docs.telerik.com/devtools/ajax/slider/appearance-and-styling/skins
 http://www.telerik.com/help/aspnet-ajax/slider-appearance-understanding-css.html http://docs.telerik.com/devtools/ajax/slider/appearance-and-styling/understanding-the-skin-css-file
 http://www.telerik.com/help/aspnet-ajax/slider-behavior.html http://docs.telerik.com/devtools/ajax/slider/getting-started/behavior
