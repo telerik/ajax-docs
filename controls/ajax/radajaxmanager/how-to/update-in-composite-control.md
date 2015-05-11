@@ -22,38 +22,38 @@ The example below includes a single RadAjaxManager control on the page. Here is 
 
 ````C#
 	 
-	   TestComposite Tst1;
+TestComposite Tst1;
 	
-	   protected void Page_Load(object sender, EventArgs e)
-	   {
+protected void Page_Load(object sender, EventArgs e)
+{
 	       Tst1 = new TestComposite(RadAjaxManager1, "1");
 	       //set an ID of instantiated control!
 	       Tst1.ID = "tst1";
 	       this.form1.Controls.Add(Tst1);
-	   }
+}
 	
-	   protected void RadAjaxManager1_AjaxRequest(object sender, Telerik.Web.UI.AjaxRequestEventArgs e)
-	   {
+protected void RadAjaxManager1_AjaxRequest(object sender, Telerik.Web.UI.AjaxRequestEventArgs e)
+{
 	       //Update control from the composite on AJAX request
 	       Tst1.controLbl.Text = Tst1.controTB.Text;
-	   }
+}
 				
 ````
 ````VB
 	
-	    Private Tst1 As TestComposite
+Private Tst1 As TestComposite
 	
-	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
+Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
 	        Tst1 = New TestComposite(RadAjaxManager1, "1")
 	        'set an ID of instantiated control!
 	        Tst1.ID = "tst1"
 	        Me.form1.Controls.Add(Tst1)
-	    End Sub
+End Sub
 	
-	    Protected Sub RadAjaxManager1_AjaxRequest(ByVal sender As Object, ByVal e As Telerik.Web.UI.AjaxRequestEventArgs)
+Protected Sub RadAjaxManager1_AjaxRequest(ByVal sender As Object, ByVal e As Telerik.Web.UI.AjaxRequestEventArgs)
 	        'Update control from the composite on AJAX request
 	        Tst1.controLbl.Text = Tst1.controTB.Text
-	    End Sub
+End Sub
 ````
 
 
@@ -63,26 +63,26 @@ And the composite control class:
 
 ````C#
 	
-	    public class TestComposite : CompositeControl
-	    {
+public class TestComposite : CompositeControl
+{
 	        private Telerik.Web.UI.RadAjaxManager m_radAm;
 	        private string m_UniqueId;
 	        public TextBox MyTxt;
 	        public Label MyLbl;
 	
-	        public TestComposite(RadAjaxManager radAm, string UniqueId)
-	        {
+public TestComposite(RadAjaxManager radAm, string UniqueId)
+{
 	            m_radAm = radAm;
 	            m_UniqueId = UniqueId;
-	        }
+
 	
-	        protected override void RecreateChildControls()
-	        {
+protected override void RecreateChildControls()
+{
 	            EnsureChildControls();
-	        }
+}
 	
-	        protected override void CreateChildControls()
-	        {
+protected override void CreateChildControls()
+{
 	            MyTxt = new TextBox();
 	            MyLbl = new Label();
 	
@@ -101,53 +101,53 @@ And the composite control class:
 	
 	            //Add the ajax setting - this should be done after controls are added into controls collection
 	            m_radAm.AjaxSettings.AddAjaxSetting(m_radAm, MyLbl);
-	        }
+}
 	
-	        public TextBox controTB
-	        {
+public TextBox controTB
+{
 	            get
 	            {
 	                return MyTxt;
 	            }
-	        }
+}
 	
-	        public Label controLbl
-	        {
+public Label controLbl
+{
 	            get
 	            {
 	                return MyLbl;
 	            }
-	        }
+}
 	
-	        protected override void Render(HtmlTextWriter output)
-	        {
+protected override void Render(HtmlTextWriter output)
+{
 	            base.Render(output);
 	
 	            MyTxt.RenderControl(output);
 	            MyLbl.RenderControl(output);
 	
-	        }
-	    }  
+}
+}  
 				
 ````
 ````VB
-	    Public Class TestComposite
+Public Class TestComposite
 	        Inherits CompositeControl
 	        Private m_radAm As Telerik.Web.UI.RadAjaxManager
 	        Private m_UniqueId As String
 	        Public MyTxt As TextBox
 	        Public MyLbl As Label
 	
-	        Public Sub New(ByVal radAm As RadAjaxManager, ByVal UniqueId As String)
+Public Sub New(ByVal radAm As RadAjaxManager, ByVal UniqueId As String)
 	            m_radAm = radAm
 	            m_UniqueId = UniqueId
-	        End Sub
+End Sub
 	
-	        Protected Overrides Sub RecreateChildControls()
+Protected Overrides Sub RecreateChildControls()
 	            EnsureChildControls()
-	        End Sub
+End Sub
 	
-	        Protected Overrides Sub CreateChildControls()
+Protected Overrides Sub CreateChildControls()
 	            MyTxt = New TextBox()
 	            MyLbl = New Label()
 	
@@ -166,31 +166,31 @@ And the composite control class:
 	
 	            'Add the ajax setting - this should be done after controls are added into controls collection
 	            m_radAm.AjaxSettings.AddAjaxSetting(m_radAm, MyLbl)
-	        End Sub
+End Sub
 	
-	        Public ReadOnly Property controTB() As TextBox
+Public ReadOnly Property controTB() As TextBox
 	            Get
 	                Return MyTxt
 	            End Get
-	        End Property
+End Property
 	
-	        Public ReadOnly Property controLbl() As Label
+Public ReadOnly Property controLbl() As Label
 	            Get
 	                Return MyLbl
 	            End Get
-	        End Property
+End Property
 	
-	        Protected Overrides Sub Render(ByVal output As HtmlTextWriter)
+Protected Overrides Sub Render(ByVal output As HtmlTextWriter)
 	            MyBase.Render(output)
 	
 	            MyTxt.RenderControl(output)
 	            MyLbl.RenderControl(output)
 	
-	        End Sub
-	    End Class
+End Sub
+End Class
 ````
 
 
-# See Also
+## See Also
 
  * [Manually Add an AJAX Request]({%slug ajax/how-to/manually-add-an-ajax-request%})

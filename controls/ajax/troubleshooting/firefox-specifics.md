@@ -24,21 +24,21 @@ The [Mozilla Development Center](http://developer.mozilla.org/en/docs/Using_Fire
 
 ````C#
 	
-	    protected void Page_Load(object sender, EventArgs e)
-	    {
+protected void Page_Load(object sender, EventArgs e)
+	{
 	        if (Request.Browser.MSDomVersion.Major == 0) // Non IE Browser?
 	        {
 	            Response.Cache.SetNoStore(); // No client side cashing for non IE browsers
 	        }
-	    }
+	}
 				
 ````
-````VB.NET
-	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+````VB
+Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
 	        ' Non IE Browser?
 	        If (Request.Browser.MSDomVersion.Major = 0) Then
 	            Response.Cache.SetNoStore() ' No client side cashing for non IE browsers End IfEnd Sub
 	        End If
-	    End Sub
+End Sub
 ````
 

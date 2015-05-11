@@ -17,14 +17,14 @@ position: 5
 Changing the mouse cursor on Ajax update could be achieved using the client-side event of Telerik RadAjax controls. The easiest way is to use the following events script:
 
 ````JavaScript
-	    <script type="text/javascript">
+<script type="text/javascript">
 	        function OnRequestStart(sender, args) {
 	            document.body.style.cursor = "wait";
 	        }
 	        function OnResponseEnd(sender, args) {
 	            document.body.style.cursor = "default";
 	        }
-	    </script>
+</script>
 ````
 
 
@@ -32,20 +32,19 @@ Changing the mouse cursor on Ajax update could be achieved using the client-side
 Here is another solution using additional CSS classes:
 
 ````JavaScript
-	    <script type="text/javascript">
+<script type="text/javascript">
 	        function RequestStart(sender, args) {
 	            document.body.className = document.body.className.replace("Normal", "Wait");
 	        }
 	        function ResponseEnd(sender, args) {
 	            document.body.className = document.body.className.replace("Wait", "Normal");
-	        }
-	    </script>
+</script>
 ````
 
 
 
-````XML
-	    <style type="text/css">
+````CSS
+<style type="text/css">
 	        .Wait
 	        {
 	        }
@@ -68,7 +67,7 @@ Here is another solution using additional CSS classes:
 	        {
 	            cursor: default;
 	        }
-	    </style>
+</style>
 ````
 
 

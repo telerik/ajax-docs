@@ -12,14 +12,16 @@ position: 2
 
 
 
-This troubleshooting help article discusses four scenarios where **RadAjaxManager** is not able to locate some controls	on a page but they are still AJAX enabled and updated by **RadAjaxManager**.
+This troubleshooting help article discusses four scenarios where **RadAjaxManager** is not able to locate some controls	on a page but they are still AJAX enabled and updated by **RadAjaxManager** .
 
 ## 
 
-1. **Controls Are Placed in Cells of an asp:Table**The table cells need to have an ID set (**Example 1**) as well as runat="server" included and the designer will locate	all the controls within the tableExample 1: Setting the ID for table cells of an asp:Table and setting runat='server'.
+1. **Controls Are Placed in Cells of an asp:Table** The table cells need to have an ID set (**Example 1**) as well as runat="server" included and the designer will locate	all the controls within the table 
 
-````ASPNET
-	    <asp:Table ID="Table1" runat="server">
+Example 1: Setting the ID for table cells of an asp:Table and setting runat='server'.
+
+````ASP.NET
+<asp:Table ID="Table1" runat="server">
 	        <asp:TableRow runat="server" ID="rol_1">
 	            <asp:TableCell runat="server" ID="cell_11">
 	                <asp:Panel ID="Panel1" runat="server">
@@ -39,15 +41,17 @@ This troubleshooting help article discusses four scenarios where **RadAjaxManage
 	            <asp:TableCell runat="server" ID="cell_22"></asp:TableCell>
 	            <asp:TableCell runat="server" ID="cell_23"></asp:TableCell>
 	        </asp:TableRow>
-	    </asp:Table>
+</asp:Table>
 ````
 
-After the IDs of the table cells have IDs and the runat="server" set, then the button, check box and text box could be located by the	designer and you can add the AJAX settings shown in **Example 2**.Example 2: AJAXify the controls placed in cells of asp:Table.
+After the IDs of the table cells have IDs and the runat="server" set, then the button, check box and text box could be located by the	designer and you can add the AJAX settings shown in **Example 2** .
 
-````ASPNET
-	    <telerik:RadScriptManager ID="RadScriptManager1" runat="server">
-	    </telerik:RadScriptManager>
-	    <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
+Example 2: AJAXify the controls placed in cells of asp:Table.
+
+````ASP.NET
+<telerik:RadScriptManager ID="RadScriptManager1" runat="server">
+</telerik:RadScriptManager>
+<telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
 	        <AjaxSettings>
 	            <telerik:AjaxSetting AjaxControlID="Button1">
 	                <UpdatedControls>
@@ -60,18 +64,18 @@ After the IDs of the table cells have IDs and the runat="server" set, then the b
 	                </UpdatedControls>
 	            </telerik:AjaxSetting>
 	        </AjaxSettings>
-	    </telerik:RadAjaxManager>
+</telerik:RadAjaxManager>
 ````
 
 
 
-1. **Control Is Nested in a Template of a Composite Control.**Those templates may "hide" wrapped controls from the **RadAjaxManager** Designer. Telerik Support recommends addingAJAX settings [programmatically]({%slug ajax/radajaxmanager/how-to/add-ajaxsettings-programmatically%}) in such scenarios, which together with**FindControl** method usage, provides **RadAjaxManager** with the ability to AJAX-enable and updatecontrols at all "levels" of the application. For example, if the control you want to update is located within**RadDockableObject**(see [RadDock](http://www.Telerik.com/RadDock) web control),it could be found at runtime using RadDockableObject.FindControl("<controlID>") and then set it as updated control.	You can see this approach in the [AJAX RadDock online demo](http://demos.telerik.com/aspnet-ajax/dock/examples/overview/defaultcs.aspx).
+2. **Control Is Nested in a Template of a Composite Control.** Those templates may "hide" wrapped controls from the **RadAjaxManager** Designer. Telerik Support recommends addingAJAX settings [programmatically]({%slug ajax/radajaxmanager/how-to/add-ajaxsettings-programmatically%}) in such scenarios, which together with**FindControl** method usage, provides **RadAjaxManager** with the ability to AJAX-enable and update controls at all "levels" of the application. For example, if the control you want to update is located within**RadDockableObject**(see [RadDock](http://www.Telerik.com/RadDock) web control),it could be found at runtime using RadDockableObject.FindControl("<controlID>") and then set it as updated control.	You can see this approach in the [AJAX RadDock online demo](http://demos.telerik.com/aspnet-ajax/dock/examples/overview/defaultcs.aspx).
 
-1. **Controls are placed in a WebUserControl.**The previous case is valid here as well. You could use the same approach and add AJAX settings[dynamically]({%slug ajax/radajaxmanager/troubleshooting/controls-wrapped-in-ajaxpanel-and-added-to-ajaxmanager-settings%}).For example if the control is placed in a**WebUserControl**, it could be found at runtime using the WebUserControl1.FindControl("<controlID>") and then setit as an update control. See also [how to AJAX-enable user controls]({%slug ajax/radajaxmanager/how-to/radajax-and-webusercontrols%}).
+3. **Controls are placed in a WebUserControl.** The previous case is valid here as well. You could use the same approach and add AJAX settings[dynamically]({%slug ajax/radajaxmanager/troubleshooting/controls-wrapped-in-ajaxpanel-and-added-to-ajaxmanager-settings%}).For example if the control is placed in a**WebUserControl**, it could be found at runtime using the WebUserControl1.FindControl("<controlID>") and then set it as an update control. See also [how to AJAX-enable user controls]({%slug ajax/radajaxmanager/how-to/radajax-and-webusercontrols%}).
 
-1. **Controls are placed in a different content of MasterPage scenario.**You can follow the example of adding AJAX setting [programmatically]({%slug ajax/radajaxmanager/troubleshooting/controls-wrapped-in-ajaxpanel-and-added-to-ajaxmanager-settings%}) as thecontrols are hidden from the designer when placed in a content place holder. In this case you can find the control at runtime using theContentPlaceHolder1.FindControl("<controlID>") and then set it as an update control.
+4. **Controls are placed in a different content of MasterPage scenario.** You can follow the example of adding AJAX setting [programmatically]({%slug ajax/radajaxmanager/troubleshooting/controls-wrapped-in-ajaxpanel-and-added-to-ajaxmanager-settings%}) as thecontrols are hidden from the designer when placed in a content place holder. In this case you can find the control at runtime using theContentPlaceHolder1.FindControl("<controlID>") and then set it as an update control.
 
-# See Also
+## See Also
 
  * [Add AjaxSettings Programmatically]({%slug ajax/radajaxmanager/how-to/add-ajaxsettings-programmatically%})
 

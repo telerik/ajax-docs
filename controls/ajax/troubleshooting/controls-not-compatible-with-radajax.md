@@ -22,7 +22,7 @@ The following ASP.NET controls are not compatible with partial-page updates, and
 
 * [FileUpload](http://msdn2.microsoft.com/en-us/ysf0192b) controls when they are used to upload files as part of an asynchronous postback.
 
-* [GridView](http://msdn2.microsoft.com/en-us/4w7ya1ts) and [DetailsView](http://msdn2.microsoft.com/en-us/7z482d0y) controls when their **EnableSortingAndPagingCallbacks** property is set to **true**. The default is **false**.
+* [GridView](http://msdn2.microsoft.com/en-us/4w7ya1ts) and [DetailsView](http://msdn2.microsoft.com/en-us/7z482d0y) controls when their **EnableSortingAndPagingCallbacks** property is set to **true** . The default is **false** .
 
 * [Login](http://msdn2.microsoft.com/en-us/t863ehhh), [PasswordRecovery](http://msdn2.microsoft.com/en-us/t92zy5x0), [ChangePassword](http://msdn2.microsoft.com/en-us/s1xhe282), and [CreateUserWizard](http://msdn2.microsoft.com/en-us/6s8b6814) controls whose contents have not been converted to editable templates.
 
@@ -30,7 +30,7 @@ The following ASP.NET controls are not compatible with partial-page updates, and
 
 See a full list of controls that are not compatible with **RadAjax for ASP.NET AJAX** from the official Microsoft AJAX documentation [here (scroll about halfway down the article.))](http://msdn.microsoft.com/en-us/library/cc295545.aspx).
 
-# See Also
+## See Also
 
  * [Microsoft UpdatePanel Control](http://msdn.microsoft.com/en-us/library/cc295545.aspx)
 

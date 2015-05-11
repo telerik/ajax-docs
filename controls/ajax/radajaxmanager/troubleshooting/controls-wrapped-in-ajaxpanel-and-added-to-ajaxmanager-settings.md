@@ -18,48 +18,48 @@ position: 0
 >
 
 
-If the same control is placed in a **RadAjaxPanel** as well as included in **RadAjaxManager** settingsas an AJAXified control (i.e., it is AJAXified by both the **RadAjaxPanel** and **RadAjaxManager**),the **RadAjaxManager's** setting will not work. This is because the **RadAjaxPanel** AJAX-enables thatcontrol instead of the **RadAjaxManager**. **RadAjaxPanel** is designed to update only its content;therefore you cannot use the manager to update other controls outside of the panel from a control that has been AJAXfied by the manager but is insidethe **RadAjaxPanel**. **Example 1** will not work as expected.
+If the same control is placed in a **RadAjaxPanel** as well as included in **RadAjaxManager** settings as an AJAXified control (i.e., it is AJAXified by both the **RadAjaxPanel** and **RadAjaxManager**),the **RadAjaxManager's** setting will not work. This is because the **RadAjaxPanel** AJAX-enables that control instead of the **RadAjaxManager**. **RadAjaxPanel** is designed to update only its content;therefore you cannot use the manager to update other controls outside of the panel from a control that has been AJAXfied by the manager but is inside the **RadAjaxPanel**. **Example 1** will not work as expected.
 
 Example 1: Button1 on the RadAjaxManager won't update the label because the RadAjaxPanel only updates its own content.
 
-````ASPNET
-	    <telerik:RadScriptManager ID="RadScriptManager1" runat="server">
-	    </telerik:RadScriptManager>
-	    <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
-	        <AjaxSettings>
-	            <telerik:AjaxSetting AjaxControlID="Button1">
-	                <UpdatedControls>
-	                    <telerik:AjaxUpdatedControl ControlID="RadAjaxPanel" />
-	                    <telerik:AjaxUpdatedControl ControlID="Label1" />
-	                </UpdatedControls>
-	            </telerik:AjaxSetting>
-	        </AjaxSettings>
-	    </telerik:RadAjaxManager>
-	    <telerik:RadAjaxPanel ID="RadAjaxPanel" runat="server">
-	        <asp:Button ID="Button1" runat="server" Text="Update Button" />
-	        <asp:TextBox ID="TextBox1" runat="server" Text="Update me"></asp:TextBox>
-	    </telerik:RadAjaxPanel>
-	    <asp:Label ID="Label1" runat="server">Me too</asp:Label>
+````ASP.NET
+<telerik:RadScriptManager ID="RadScriptManager1" runat="server">
+</telerik:RadScriptManager>
+<telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
+	<AjaxSettings>
+	    <telerik:AjaxSetting AjaxControlID="Button1">
+	        <UpdatedControls>
+	            <telerik:AjaxUpdatedControl ControlID="RadAjaxPanel" />
+	            <telerik:AjaxUpdatedControl ControlID="Label1" />
+	        </UpdatedControls>
+	    </telerik:AjaxSetting>
+	</AjaxSettings>
+</telerik:RadAjaxManager>
+<telerik:RadAjaxPanel ID="RadAjaxPanel" runat="server">
+	<asp:Button ID="Button1" runat="server" Text="Update Button" />
+	<asp:TextBox ID="TextBox1" runat="server" Text="Update me"></asp:TextBox>
+</telerik:RadAjaxPanel>
+<asp:Label ID="Label1" runat="server">Me too</asp:Label>
 ````
 
 
 
-The **RadAjaxPanel** functionality can be simulated completely by the manager - simply replace the**RadAjaxPanel** from **Example 1** with an asp:Panel. As you can see in **Example 2**,the modified version of **Example 1** will perform the same task as if you use **RadAjaxPanel** instead of**RadAjaxManager**.
+The **RadAjaxPanel** functionality can be simulated completely by the manager - simply replace the **RadAjaxPanel** from **Example 1** with an asp:Panel. As you can see in **Example 2** ,the modified version of **Example 1** will perform the same task as if you use **RadAjaxPanel** instead of**RadAjaxManager** .
 
 Example 2: Both control inside the Panel1 will be AJAXified.
 
-````ASPNET
-	    <telerik:RadScriptManager ID="RadScriptManager1" runat="server">
-	    </telerik:RadScriptManager>
-	    <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
-	        <AjaxSettings>
-	            <telerik:AjaxSetting AjaxControlID="Panel1">
-	                <UpdatedControls>
-	                    <telerik:AjaxUpdatedControl ControlID="Panel1" />
-	                </UpdatedControls>
-	            </telerik:AjaxSetting>
-	        </AjaxSettings>
-	    </telerik:RadAjaxManager>
+````ASP.NET
+<telerik:RadScriptManager ID="RadScriptManager1" runat="server">
+</telerik:RadScriptManager>
+<telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
+	<AjaxSettings>
+	    <telerik:AjaxSetting AjaxControlID="Panel1">
+	        <UpdatedControls>
+	            <telerik:AjaxUpdatedControl ControlID="Panel1" />
+	        </UpdatedControls>
+	    </telerik:AjaxSetting>
+	</AjaxSettings>
+</telerik:RadAjaxManager>
 ````
 
 
@@ -68,31 +68,31 @@ Moreover, you are free from the limitation to update controls only within the bo
 
 Example 3: Showing the correct way to AJAXify controls when using RadAjaxManager.
 
-````ASPNET
-	    <telerik:RadScriptManager ID="RadScriptManager1" runat="server">
-	    </telerik:RadScriptManager>
-	    <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
-	        <AjaxSettings>
-	            <telerik:AjaxSetting AjaxControlID="Button1">
-	                <UpdatedControls>
-	                    <telerik:AjaxUpdatedControl ControlID="Panel1" />
-	                    <telerik:AjaxUpdatedControl ControlID="Label1" />
-	                </UpdatedControls>
-	            </telerik:AjaxSetting>
-	        </AjaxSettings>
-	    </telerik:RadAjaxManager>
-	    <asp:Panel ID="Panel" runat="server">
-	        <asp:Button ID="Button1" runat="server" Text="Update Button" />
-	        <asp:TextBox ID="TextBox1" runat="server" Text="Update me"></asp:TextBox>
-	    </asp:Panel>
-	    <asp:Label ID="Label1" runat="server">Me too</asp:Label>
+````ASP.NET
+<telerik:RadScriptManager ID="RadScriptManager1" runat="server">
+</telerik:RadScriptManager>
+<telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
+	<AjaxSettings>
+	    <telerik:AjaxSetting AjaxControlID="Button1">
+	        <UpdatedControls>
+	            <telerik:AjaxUpdatedControl ControlID="Panel1" />
+	            <telerik:AjaxUpdatedControl ControlID="Label1" />
+	        </UpdatedControls>
+	    </telerik:AjaxSetting>
+	</AjaxSettings>
+</telerik:RadAjaxManager>
+<asp:Panel ID="Panel" runat="server">
+<asp:Button ID="Button1" runat="server" Text="Update Button" />
+<asp:TextBox ID="TextBox1" runat="server" Text="Update me"></asp:TextBox>
+</asp:Panel>
+<asp:Label ID="Label1" runat="server">Me too</asp:Label>
 ````
 
 
 
-Keep in mind that you can switch the AJAXified "Button1" with "Panel1" if necessary. However, the refresh of the controls embeded in the panelcan take a bit longer compared to clicking an AJAXified button.
+Keep in mind that you can switch the AJAXified "Button1" with "Panel1" if necessary. However, the refresh of the controls embedded in the panel can take a bit longer compared to clicking an AJAXified button.
 
-# See Also
+## See Also
 
  * [Overview]({%slug ajax/radajaxmanager/overview%})
 

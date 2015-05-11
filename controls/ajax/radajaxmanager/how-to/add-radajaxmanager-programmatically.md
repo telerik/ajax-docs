@@ -19,19 +19,19 @@ There are some cases where you might need to create the RadAjaxManager control p
 
 
 ````C#
-	    protected void Page_Init(object sender, EventArgs e)
-	    {
-	        RadAjaxManager manager = new RadAjaxManager();
-	        manager.ID = "RadAjaxManager1";
-	        this.Page.Form.Controls.Add(manager);
-	    } 							
+protected void Page_Init(object sender, EventArgs e)
+{
+	RadAjaxManager manager = new RadAjaxManager();
+	manager.ID = "RadAjaxManager1";
+	this.Page.Form.Controls.Add(manager);
+} 							
 ````
-````VB.NET
-	    Protected Sub Page_Init(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Init
-	        Dim manager As New RadAjaxManager()
-	        manager.ID = "RadAjaxManager1"
-	        Me.Page.Form.Controls.Add(manager)
-	    End Sub
+````VB
+Protected Sub Page_Init(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Init
+	Dim manager As New RadAjaxManager()
+	manager.ID = "RadAjaxManager1"
+	Me.Page.Form.Controls.Add(manager)
+End Sub
 ````
 
 
@@ -42,27 +42,27 @@ Then, to access the RadAjaxManager instance you can call the **GetCurrent()** st
 
 
 ````C#
-	    protected void Page_Load(object sender, EventArgs e)
-	    {    
-	        RadAjaxManager manager = RadAjaxManager.GetCurrent(Page);
-	    }
+protected void Page_Load(object sender, EventArgs e)
+{    
+	RadAjaxManager manager = RadAjaxManager.GetCurrent(Page);
+}
 				
 ````
-````VB.NET
-	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
-	        Dim manager As RadAjaxManager = RadAjaxManager.GetCurrent(Page)
-	    End Sub
+````VB
+Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
+	Dim manager As RadAjaxManager = RadAjaxManager.GetCurrent(Page)
+End Sub
 ````
 
 
 ````JavaScript
-	    <telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
-	        <script type="text/javascript">
-	            function GetAjaxManager() {
-	                var manager = $find("<%= RadAjaxManager.GetCurrent(Page).ClientID %>")
-	            }
-	        </script>
-	    </telerik:RadCodeBlock>
+<telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
+	<script type="text/javascript">
+	    function GetAjaxManager() {
+	        var manager = $find("<%= RadAjaxManager.GetCurrent(Page).ClientID %>")
+	    }
+	</script>
+</telerik:RadCodeBlock>
 ````
 
 

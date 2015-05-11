@@ -18,15 +18,15 @@ The **AjaxSettingCreating** event handler receives two arguments:
 
 1. The **RadAjaxManager** control that owns the AjaxSettings collection that the setting is being added to. This argument is of type object, but can be cast to the **RadAjaxManager** type.
 
-1. An **AjaxSettingCreatingEventArgs** object with the following properties:
+2. An **AjaxSettingCreatingEventArgs** object with the following properties:
 
-* **Canceled**: This boolean property can be set true to abandon creating the AjaxSetting and will prevent the [OnAjaxSettingCreated]({%slug ajax/server-side-programming/events/onajaxsettingcreated%}) event from firing.
+* **Canceled** : This boolean property can be set true to abandon creating the AjaxSetting and will prevent the [OnAjaxSettingCreated]({%slug ajax/server-side-programming/events/onajaxsettingcreated%}) event from firing.
 
-* **Initiator**: A reference to the object that triggered the AJAX request.
+* **Initiator** : A reference to the object that triggered the AJAX request.
 
-* **Updated**: A reference to the object that will be updated by the AJAX request.
+* **Updated** : A reference to the object that will be updated by the AJAX request.
 
-* **UpdatePanel**: A reference to the underlying MS AJAX UpdatePanel.
+* **UpdatePanel** : A reference to the underlying MS AJAX UpdatePanel.
 
 ## Example
 
@@ -34,15 +34,15 @@ The **AjaxSettingCreating** event handler receives two arguments:
 
 ````C#
 	
-	    protected void RadAjaxManager1_AjaxSettingCreating(object sender, AjaxSettingCreatingEventArgs e)
-	    {
-	        e.Canceled = (e.Initiator == Button1) & (e.Updated == Label1);
-	    }
+protected void RadAjaxManager1_AjaxSettingCreating(object sender, AjaxSettingCreatingEventArgs e)
+{
+	e.Canceled = (e.Initiator == Button1) & (e.Updated == Label1);
+}
 				
 ````
-````VB.NET
-	    Protected Sub RadAjaxManager1_AjaxSettingCreating(ByVal sender As Object, ByVal e As AjaxSettingCreatingEventArgs)
-	        e.Canceled = IIf((e.Initiator Is Button1) And (e.Updated Is Label1), True, False)
-	    End Sub
+````VB
+Protected Sub RadAjaxManager1_AjaxSettingCreating(ByVal sender As Object, ByVal e As AjaxSettingCreatingEventArgs)
+	e.Canceled = IIf((e.Initiator Is Button1) And (e.Updated Is Label1), True, False)
+End Sub
 ````
 

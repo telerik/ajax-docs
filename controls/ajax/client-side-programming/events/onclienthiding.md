@@ -22,13 +22,13 @@ Two parameters are passed to the event handler with the following methods:
 
 * **eventArgs** has the following methods:
 
-* **set_cancelNativeDisplay()** lets you cancel the default behavior of theRadAjaxLoadingPanel. Calling **set_cancelNativeDisplay(true)** prevents the default behavior and allows you to implement custom hide animation for the loading panel.
+* **set_cancelNativeDisplay()** lets you cancel the default behaviour of theRadAjaxLoadingPanel. Calling **set_cancelNativeDisplay(true)** prevents the default behaviour and allows you to implement custom hide animation for the loading panel.
 
 * **get_loadingElement()** gets the DOM element of the RadAjaxLoadingPanel.
 
 * **get_updatedElement()** gets the DOM element of the ajax updated control, over which the loading panel is about to be displayed.
 
-# See Also
+## See Also
 
  * [Animation]({%slug ajax/radajaxloadingpanel/animation%})
 

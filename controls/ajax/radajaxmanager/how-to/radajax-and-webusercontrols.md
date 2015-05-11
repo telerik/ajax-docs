@@ -19,22 +19,22 @@ RadAjax for ASP.NET AJAX Manager allows a single instance of the control on the 
 Since the release of RadAjax for ASP.NET AJAX from May 2007, there is a new, **RadAjaxManagerProxy**[control]({%slug ajax/radajaxmanagerproxy/overview%}). The new control can be added inside a WebUserControl and configured the same way as the manager to AJAX-enable the user control completely codeless:
 
 ````ASPNET
-	    <telerik:RadAjaxManagerProxy ID="AjaxManagerProxy1" runat="server">
-	        <AjaxSettings>
-	            <telerik:AjaxSetting AjaxControlID="DropDownList1">
-	                <UpdatedControls>
-	                    <telerik:AjaxUpdatedControl ControlID="DetailsView1" />
-	                    <telerik:AjaxUpdatedControl ControlID="GridView1" />
-	                </UpdatedControls>
-	            </telerik:AjaxSetting>
-	            <telerik:AjaxSetting AjaxControlID="GridView1">
-	                <UpdatedControls>
-	                    <telerik:AjaxUpdatedControl ControlID="GridView1" />
-	                    <telerik:AjaxUpdatedControl ControlID="DetailsView1" />
-	                </UpdatedControls>
-	            </telerik:AjaxSetting>
-	        </AjaxSettings>
-	    </telerik:RadAjaxManagerProxy>
+<telerik:RadAjaxManagerProxy ID="AjaxManagerProxy1" runat="server">
+	<AjaxSettings>
+	    <telerik:AjaxSetting AjaxControlID="DropDownList1">
+	        <UpdatedControls>
+	            <telerik:AjaxUpdatedControl ControlID="DetailsView1" />
+	            <telerik:AjaxUpdatedControl ControlID="GridView1" />
+	        </UpdatedControls>
+	    </telerik:AjaxSetting>
+	    <telerik:AjaxSetting AjaxControlID="GridView1">
+	        <UpdatedControls>
+	            <telerik:AjaxUpdatedControl ControlID="GridView1" />
+	            <telerik:AjaxUpdatedControl ControlID="DetailsView1" />
+	        </UpdatedControls>
+	    </telerik:AjaxSetting>
+	</AjaxSettings>
+</telerik:RadAjaxManagerProxy>
 ````
 
 
@@ -49,8 +49,8 @@ Since the release of RadAjax for ASP.NET AJAX from May 2007, there is a new, **R
 
 Should you need the server or client-side RadAjaxManager functionality (like **ResponseScripts** collection, **ajaxRequest** function) you can get the "master" manager instance via Server-Side **GetCurrent** method from the user control code-behind:
 
-````ASPNET
-	    RadAjaxManager.GetCurrent(Page);
+````ASP.NET
+RadAjaxManager.GetCurrent(Page);
 ````
 
 
@@ -58,13 +58,13 @@ Should you need the server or client-side RadAjaxManager functionality (like **R
 Use server-side code block in a JS function inside your WebUserControl to call the master manager ajaxRequest function:
 
 ````JavaScript
-	    <telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
-	        <script type="text/javascript">
-	            function myUserControlClickHandler() {
-	                $find("<%= RadAjaxManager.GetCurrent(Page).ClientID %>").ajaxRequest("content");
-	            }
-	        </script>
-	    </telerik:RadCodeBlock>
+<telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
+	<script type="text/javascript">
+	    function myUserControlClickHandler() {
+	        $find("<%= RadAjaxManager.GetCurrent(Page).ClientID %>").ajaxRequest("content");
+	    }
+	</script>
+</telerik:RadCodeBlock>
 ````
 
 
@@ -73,21 +73,21 @@ As to the AJAX settings, the old RadAjax approach, **adding AJAX settings progra
 
 **ASPX:**
 
-````ASPNET
-	    <form id="Form1" method="post" runat="server">
-	    <telerik:RadScriptManager ID="RadScriptManager1" runat="server">
-	    </telerik:RadScriptManager>
-	    <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
-	    </telerik:RadAjaxManager>
-	    <uc1:webusercontrol1 id="WebUserControl1" runat="server"></uc1:webusercontrol1>
-	    </form>
+````ASP.NET
+<form id="Form1" method="post" runat="server">
+<telerik:RadScriptManager ID="RadScriptManager1" runat="server">
+</telerik:RadScriptManager>
+<telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
+</telerik:RadAjaxManager>
+<uc1:webusercontrol1 id="WebUserControl1" runat="server"></uc1:webusercontrol1>
+</form>
 ````
 
 
 
-````ASPNET
-	    <asp:Button ID="Button1" Text="Button" runat="server"></asp:Button>
-	    <asp:Label ID="Label1" runat="server">Label</asp:Label>
+````ASP.NET
+<asp:Button ID="Button1" Text="Button" runat="server"></asp:Button>
+<asp:Label ID="Label1" runat="server">Label</asp:Label>
 ````
 
 
@@ -98,8 +98,8 @@ And in the code-behind:
 
 ````C#
 	
-	    protected void Page_Load(object sender, EventArgs e)
-	    {
+protected void Page_Load(object sender, EventArgs e)
+{
 	        //Get the WebUserControl
 	        UserControl MyControl = (UserControl)Page.FindControl("WebUserControl1");
 	
@@ -109,11 +109,11 @@ And in the code-behind:
 	
 	        //Add the necessary AJAX setting programmatically
 	        RadAjaxManager1.AjaxSettings.AddAjaxSetting(MyButton, MyLabel);
-	    }
+}
 				
 ````
-````VB.NET
-	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
+````VB
+Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
 	        'Get the WebUserControl
 	        Dim MyControl As UserControl = CType(Page.FindControl("WebUserControl1"), UserControl)
 	
@@ -123,26 +123,26 @@ And in the code-behind:
 	
 	        'Add the necessary AJAX setting programmatically
 	        RadAjaxManager1.AjaxSettings.AddAjaxSetting(MyButton, MyLabel)
-	    End Sub 'Page_Load  
+End Sub 'Page_Load  
 ````
 
 
 
 
 ````C#
-	    protected void Button1_Click(object sender, System.EventArgs e)
-	    {
+protected void Button1_Click(object sender, System.EventArgs e)
+{
 	        Label1.Text = DateTime.Now.ToLongTimeString();
-	    }
+}
 ````
-````VB.NET
-	    Protected Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
+````VB
+Protected Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
 	        Label1.Text = DateTime.Now
-	    End Sub
+End Sub
 ````
 
 
-# See Also
+## See Also
 
  * [Load User Controls]({%slug ajax/how-to/load-user-controls%})
 

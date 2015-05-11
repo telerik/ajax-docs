@@ -20,23 +20,23 @@ This help article describes how to work with **RadAjaxManagerProxy** controls an
 
 **Example 1**: **RadAjaxManagerProxy** sample configuration.
 
-````ASPNET
-	    <telerik:RadAjaxManagerProxy ID="RadAjaxManagerProxy1" runat="server">
-	        <AjaxSettings>
-	            <telerik:AjaxSetting AjaxControlID="DropDownList1">
-	                <UpdatedControls>
-	                    <telerik:AjaxUpdatedControl ControlID="DetailsView1" />
-	                    <telerik:AjaxUpdatedControl ControlID="GridView1" />
-	                </UpdatedControls>
-	            </telerik:AjaxSetting>
-	            <telerik:AjaxSetting AjaxControlID="GridView1">
-	                <UpdatedControls>
-	                    <telerik:AjaxUpdatedControl ControlID="GridView1" />
-	                    <telerik:AjaxUpdatedControl ControlID="DetailsView1" />
-	                </UpdatedControls>
-	            </telerik:AjaxSetting>
-	        </AjaxSettings>
-	    </telerik:RadAjaxManagerProxy>
+````ASP.NET
+<telerik:RadAjaxManagerProxy ID="RadAjaxManagerProxy1" runat="server">
+	<AjaxSettings>
+	    <telerik:AjaxSetting AjaxControlID="DropDownList1">
+	        <UpdatedControls>
+	        <telerik:AjaxUpdatedControl ControlID="DetailsView1" />
+	            <telerik:AjaxUpdatedControl ControlID="GridView1" />
+	        </UpdatedControls>
+	    </telerik:AjaxSetting>
+	    <telerik:AjaxSetting AjaxControlID="GridView1">
+	        <UpdatedControls>
+	            <telerik:AjaxUpdatedControl ControlID="GridView1" />
+	            <telerik:AjaxUpdatedControl ControlID="DetailsView1" />
+	        </UpdatedControls>
+	    </telerik:AjaxSetting>
+	</AjaxSettings>
+</telerik:RadAjaxManagerProxy>
 ````
 
 
@@ -46,13 +46,13 @@ Using the **RadAjaxManagerProxy** makes design-time configuration easier. The **
 **Example 2**: Getting instance of **RadAjaxManager** and firing an Ajax request.
 
 ````JavaScript
-	    <telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
-	        <script type="text/javascript">
-	            function myUserControlClickHandler() {
-	                $find("<%= RadAjaxManager.GetCurrent(Page).ClientID %>").ajaxRequest("content");
-	            }
-	        </script>
-	    </telerik:RadCodeBlock>
+<telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
+	<script type="text/javascript">
+	    function myUserControlClickHandler() {
+	        find("<%= RadAjaxManager.GetCurrent(Page).ClientID %>").ajaxRequest("content");
+	    }
+	</script>
+ </telerik:RadCodeBlock>
 ````
 
 
@@ -61,35 +61,35 @@ Using the **RadAjaxManagerProxy** makes design-time configuration easier. The **
 >
 
 
-If you need to handle the master manager events in the user control or content page, you can attach event handlers to the **RadAjaxManager** as shown in **Example 3**.
+If you need to handle the master manager events in the user control or content page, you can attach event handlers to the **RadAjaxManager** as shown in **Example 3** .
 
 **Example 3**: Attaching event handlers to a **RadAjaxManager** in a ContentPage
 
 
 
 ````C#
-	    protected void Page_Load(object sender, EventArgs e)
+protected void Page_Load(object sender, EventArgs e)
 	    {
 	        RadAjaxManager manager = RadAjaxManager.GetCurrent(Page);
 	        manager.ClientEvents.OnRequestStart = "onRequestStart";
 	        manager.ClientEvents.OnResponseEnd = "onResponseEnd";
 	        manager.AjaxRequest += new RadAjaxControl.AjaxRequestDelegate(manager_AjaxRequest);
 	    }
-	    protected void manager_AjaxRequest(object sender, Telerik.Web.UI.AjaxRequestEventArgs e)
+protected void manager_AjaxRequest(object sender, Telerik.Web.UI.AjaxRequestEventArgs e)
 	    {
 	        //handle the manager AjaxRequest event here
 	    }	
 ````
-````VB.NET
-	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
+````VB
+Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
 	        Dim manager As RadAjaxManager = RadAjaxManager.GetCurrent(Page)
 	        manager.ClientEvents.OnRequestStart = "onRequestStart"
 	        manager.ClientEvents.OnResponseEnd = "onResponseEnd"
 	        AddHandler manager.AjaxRequest, AddressOf manager_AjaxRequest
-	    End Sub
-	    Protected Sub manager_AjaxRequest(ByVal sender As Object, ByVal e As Telerik.Web.UI.AjaxRequestEventArgs)
+End Sub
+Protected Sub manager_AjaxRequest(ByVal sender As Object, ByVal e As Telerik.Web.UI.AjaxRequestEventArgs)
 	        'handle the manager AjaxRequest event here
-	    End Sub
+End Sub
 ````
 
 
@@ -97,7 +97,7 @@ If you need to handle the master manager events in the user control or content p
 >
 
 
-# See Also
+## See Also
 
  * [Overview]({%slug ajax/radajaxmanager/overview%})
 

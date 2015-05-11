@@ -14,13 +14,13 @@ position: 2
 
 ## 
 
-The **OnResponseEnd**client-side event handler is called when a request is received from the server. The event can not be canceled.
+The **OnResponseEnd** client-side event handler is called when a request is received from the server. The event can not be cancelled.
 
 Two parameters are passed to the event handler with the following methods:
 
-* **sender** - The instance of the client-side **RadAjaxManager**/**RadAjaxPanel** object.
+* **sender** - The instance of the client-side **RadAjaxManager** /**RadAjaxPanel** object.
 
-* **eventArgs**, which has the following methods:
+* **eventArgs** , which has the following methods:
 
 * **get_eventTarget()** - Gets the **UniqueID** of the element that had raised the request.
 
@@ -30,21 +30,21 @@ Two parameters are passed to the event handler with the following methods:
 
 The following example displays the control that initiated the request.
 
-````ASPNET
-	    <script type="text/javascript">
-	        function responseEnd(sender, eventArgs) {
-	            alert('Response end initiated by: ' + eventArgs.get_eventTarget());
-	        }
-	    </script>
-	    <telerik:RadScriptManager ID="RadScriptManager1" runat="server">
-	    </telerik:RadScriptManager>
-	    <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
-	        <ClientEvents OnResponseEnd="responseEnd" />
-	    </telerik:RadAjaxManager>
+````ASP.NET
+<script type="text/javascript">
+	function responseEnd(sender, eventArgs) {
+	    alert('Response end initiated by: ' + eventArgs.get_eventTarget());
+	}
+</script>
+<telerik:RadScriptManager ID="RadScriptManager1" runat="server">
+</telerik:RadScriptManager>
+<telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
+	<ClientEvents OnResponseEnd="responseEnd" />
+</telerik:RadAjaxManager>
 ````
 
 
 
-# See Also
+## See Also
 
  * [Overview]({%slug ajax/client-side-programming/overview%})

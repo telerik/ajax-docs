@@ -14,37 +14,37 @@ position: 4
 
 ## 
 
-In order to assign different client-events to different AJAX-enabled controls, you can use the approach shown in **Example 1**.
+In order to assign different client-events to different AJAX-enabled controls, you can use the approach shown in **Example 1** .
 
 **Example 1: You can determine the target control of the AJAX request using the client-side events of the RadAjaxManager.**
 
-````ASPNET
-	    <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
-	        <AjaxSettings>
-	            <telerik:AjaxSetting AjaxControlID="Button1">
-	                <UpdatedControls>
-	                    <telerik:AjaxUpdatedControl ControlID="Label1" />
-	                </UpdatedControls>
-	            </telerik:AjaxSetting>
-	            <telerik:AjaxSetting AjaxControlID="DropDownList1">
-	                <UpdatedControls>
-	                    <telerik:AjaxUpdatedControl ControlID="Label1" />
-	                </UpdatedControls>
-	            </telerik:AjaxSetting>
-	        </AjaxSettings>
-	        <ClientEvents OnRequestStart="Start" OnResponseEnd="End" />
-	    </telerik:RadAjaxManager>
-	    <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Button" />
-	    <asp:DropDownList ID="DropDownList1" runat="server" AutoPostBack="True" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged">
-	        <asp:ListItem>111</asp:ListItem>
-	        <asp:ListItem>222</asp:ListItem>
-	    </asp:DropDownList>
+````ASP.NET
+<telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
+	<AjaxSettings>
+	    <telerik:AjaxSetting AjaxControlID="Button1">
+	        <UpdatedControls>
+	            <telerik:AjaxUpdatedControl ControlID="Label1" />
+	         </UpdatedControls>
+	    </telerik:AjaxSetting>
+	    <telerik:AjaxSetting AjaxControlID="DropDownList1">
+	        <UpdatedControls>
+	            <telerik:AjaxUpdatedControl ControlID="Label1" />
+	        </UpdatedControls>
+	    </telerik:AjaxSetting>
+	</AjaxSettings>
+	<ClientEvents OnRequestStart="Start" OnResponseEnd="End" />
+</telerik:RadAjaxManager>
+<asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Button" />
+<asp:DropDownList ID="DropDownList1" runat="server" AutoPostBack="True" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged">
+	<asp:ListItem>111</asp:ListItem>
+	<asp:ListItem>222</asp:ListItem>
+</asp:DropDownList>
 ````
 
 
 
 ````JavaScript
-	    <telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
+<telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
 	        <script type="text/javascript">
 	
 	            function Start(sender, arguments) {
@@ -63,14 +63,14 @@ In order to assign different client-events to different AJAX-enabled controls, y
 	                }
 	            }
 	        </script>
-	    </telerik:RadCodeBlock>
+</telerik:RadCodeBlock>
 ````
 
 
 
-This way the **DropDownList** and the **Button** will have different client-events although they are using the same **RadAjaxManager** or **RadAjaxPanel**.
+This way the **DropDownList** and the **Button** will have different client-events although they are using the same **RadAjaxManager** or **RadAjaxPanel** .
 
-# See Also
+## See Also
 
  * [Overview]({%slug ajax/client-side-programming/overview%})
 

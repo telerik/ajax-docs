@@ -18,18 +18,18 @@ Sometimes you may want to ajaxify *particular* controls (residing in template co
 
 
 
-````ASPNET
-	    <asp:ScriptManager ID="ScriptManager" runat="server" />
-	    <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
-	        <AjaxSettings>
-	            <telerik:AjaxSetting AjaxControlID="GridView1">
-	                <UpdatedControls>
-	                    <telerik:AjaxUpdatedControl ControlID="GridView1" />
-	                    <telerik:AjaxUpdatedControl ControlID="TextBox" />
-	                </UpdatedControls>
-	            </telerik:AjaxSetting>
-	        </AjaxSettings>
-	    </telerik:RadAjaxManager>
+````ASP.NET
+<asp:ScriptManager ID="ScriptManager" runat="server" />
+<telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
+	<AjaxSettings>
+	    <telerik:AjaxSetting AjaxControlID="GridView1">
+	        <UpdatedControls>
+	            <telerik:AjaxUpdatedControl ControlID="GridView1" />
+	            <telerik:AjaxUpdatedControl ControlID="TextBox" />
+	        </UpdatedControls>
+	    </telerik:AjaxSetting>
+	</AjaxSettings>
+</telerik:RadAjaxManager>
 ````
 
 
@@ -46,12 +46,12 @@ The GridView in the sample contains one template and one button column. The Imag
 
 
 
-````ASPNET
-	    <asp:TextBox ID="TextBox1" runat="server" Width="400px" Text="not updated"></asp:TextBox>
-	    <asp:ScriptManager ID="ScriptManager" runat="server" />
-	    <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
-	    </telerik:RadAjaxManager>
-	    <asp:GridView ID="GridView1" DataSourceID="AccessDataSource1" AllowPaging="true"
+````ASP.NET
+<asp:TextBox ID="TextBox1" runat="server" Width="400px" Text="not updated"></asp:TextBox>
+<asp:ScriptManager ID="ScriptManager" runat="server" />
+<telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
+</telerik:RadAjaxManager>
+<asp:GridView ID="GridView1" DataSourceID="AccessDataSource1" AllowPaging="true"
 	        runat="server">
 	        <Columns>
 	            <asp:TemplateField HeaderText="TemplateField">
@@ -63,52 +63,52 @@ The GridView in the sample contains one template and one button column. The Imag
 	            <asp:ButtonField ButtonType="Button" HeaderText="ButtonField" CommandName="Test"
 	                Text="Button" ImageUrl="arrow.gif" />
 	        </Columns>
-	    </asp:GridView>
-	    <asp:AccessDataSource ID="AccessDataSource1" DataFile="~/Grid/Data/Access/Nwind.mdb"
-	        runat="server" SelectCommand="SELECT * FROM [Customers]"></asp:AccessDataSource>
+</asp:GridView>
+<asp:AccessDataSource ID="AccessDataSource1" DataFile="~/Grid/Data/Access/Nwind.mdb"
+	runat="server" SelectCommand="SELECT * FROM [Customers]"></asp:AccessDataSource>
 ````
 ````C#
 	
-	    protected void GridView1_RowCreated(object sender, System.Web.UI.WebControls.GridViewRowEventArgs e)
+protected void GridView1_RowCreated(object sender, System.Web.UI.WebControls.GridViewRowEventArgs e)
+{
+	if (e.Row.RowType == DataControlRowType.DataRow)
 	    {
-	        if (e.Row.RowType == DataControlRowType.DataRow)
-	        {
-	            e.Row.PreRender += new System.EventHandler(Row_PreRender);
-	        }
+	        e.Row.PreRender += new System.EventHandler(Row_PreRender);
 	    }
+}
 	
-	    protected void GridView1_RowCommand(object sender, System.Web.UI.WebControls.GridViewCommandEventArgs e)
-	    {
-	        TextBox1.Text = string.Format("CommandName:{0}, CommandArgument:{1}", e.CommandName, e.CommandArgument);
-	    }
+protected void GridView1_RowCommand(object sender, System.Web.UI.WebControls.GridViewCommandEventArgs e)
+{
+	TextBox1.Text = string.Format("CommandName:{0}, CommandArgument:{1}", e.CommandName, e.CommandArgument);
+}
 	
-	    protected void Row_PreRender(object sender, System.EventArgs e)
-	    {
-	        ImageButton ImageButton1 = ((ImageButton)(((Control)(sender)).FindControl("ImageButton1")));
-	        RadAjaxManager1.AjaxSettings.AddAjaxSetting(ImageButton1, TextBox1);
-	    }
+protected void Row_PreRender(object sender, System.EventArgs e)
+{
+	ImageButton ImageButton1 = ((ImageButton)(((Control)(sender)).FindControl("ImageButton1")));
+	RadAjaxManager1.AjaxSettings.AddAjaxSetting(ImageButton1, TextBox1);
+}
 				
 ````
-````VB.NET
-	    Protected Sub GridView1_RowCreated(ByVal sender As Object, ByVal e As System.Web.UI.WebControls.GridViewRowEventArgs) Handles GridView1.RowCreated
+````VB
+Protected Sub GridView1_RowCreated(ByVal sender As Object, ByVal e As System.Web.UI.WebControls.GridViewRowEventArgs) Handles GridView1.RowCreated
 	        If e.Row.RowType = DataControlRowType.DataRow Then
 	            AddHandler e.Row.PreRender, AddressOf Row_PreRender
 	        End If
-	    End Sub
+End Sub
 	
-	    Protected Sub GridView1_RowCommand(ByVal sender As Object, ByVal e As System.Web.UI.WebControls.GridViewCommandEventArgs) Handles GridView1.RowCommand
+Protected Sub GridView1_RowCommand(ByVal sender As Object, ByVal e As System.Web.UI.WebControls.GridViewCommandEventArgs) Handles GridView1.RowCommand
 	        TextBox1.Text = String.Format("CommandName:{0}, CommandArgument:{1}", e.CommandName, e.CommandArgument)
-	    End Sub
+End Sub
 	
-	    Protected Sub Row_PreRender(ByVal sender As Object, ByVal e As System.EventArgs)
+Protected Sub Row_PreRender(ByVal sender As Object, ByVal e As System.EventArgs)
 	        Dim ImageButton1 As ImageButton = CType(CType(sender, Control).FindControl("ImageButton1"), ImageButton)
 	        RadAjaxManager1.AjaxSettings.AddAjaxSetting(ImageButton1, TextBox1)
-	    End Sub
+End Sub
 	
 	
 ````
 
 
-# See Also
+## See Also
 
  * [Ajaxifying particular controls in Telerik RadGrid template column with RadAjaxManager](http://www.Telerik.com/support/kb/article/b454K-ted-b454T-ceh.aspx)

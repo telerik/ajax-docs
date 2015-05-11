@@ -14,32 +14,32 @@ position: 3
 
 ## 
 
-If you want to perform a single postback instead of an AJAX request, **arguments.EnableAjax** should be **false**.
+If you want to perform a single postback instead of an AJAX request, **arguments.EnableAjax** should be **false** .
 
 In the code-behind:
 
 
 
 ````C#
-	        if (!RadAjaxManager1.EnableAJAX)
-	        {
-	            RadAjaxManager1.ClientEvents.OnRequestStart = "OnRequestStart";
-	        }
+if (!RadAjaxManager1.EnableAJAX)
+	{
+	     RadAjaxManager1.ClientEvents.OnRequestStart = "OnRequestStart";
+	}
 	
 ````
 ````VB
-	        If Not RadAjaxManager1.EnableAJAX Then
-	            RadAjaxManager1.ClientEvents.OnRequestStart = "OnRequestStart"
-	        End If
+ If Not RadAjaxManager1.EnableAJAX Then
+	    RadAjaxManager1.ClientEvents.OnRequestStart = "OnRequestStart"
+End If
 ````
 
 
 On the client:
 
 ````JavaScript
-	        function OnRequestStart(sender, args) {
-	            args.set_enableAjax(false); 
-	        }
+function OnRequestStart(sender, args) {
+	args.set_enableAjax(false); 
+}
 ````
 
 
@@ -50,15 +50,15 @@ This approach is useful only when you want to perform a single postback. If you 
 
 ````C#
 	
-	        RadAjaxManager1.EnableAJAX = Page.Request.Browser.SupportsXmlHttp;
+RadAjaxManager1.EnableAJAX = Page.Request.Browser.SupportsXmlHttp;
 	
 ````
 ````VB
-	        RadAjaxManager1.EnableAJAX = Page.Request.Browser.SupportsXmlHttp
+RadAjaxManager1.EnableAJAX = Page.Request.Browser.SupportsXmlHttp
 ````
 
 
-# See Also
+## See Also
 
  * [Cancel AJAX  Request]({%slug ajax/client-side-programming/how-to/cancel-ajax--request%})
 

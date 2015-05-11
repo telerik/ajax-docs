@@ -16,16 +16,16 @@ You may need to provide a confirmation dialog to the user and initiate an AJAX r
 
 ## 
 
-````ASPNET
-	    <asp:ImageButton ID="ImageButton1" runat="server" OnClientClick="return confirm('Are you sure?');" />
+````ASP.NET
+<asp:ImageButton ID="ImageButton1" runat="server" OnClientClick="return confirm('Are you sure?');" />
 ````
 
 
 
 The **OnClientClick** should be changed a bit to work with AJAX when the button is AJAX-enabled by added the necessaryAJAX setting to **RadAjaxManager** or when the button is placed within a **RadAjaxPanel** control.
 
-````ASPNET
-	    <asp:ImageButton ID="ImageButton2" runat="server" OnClientClick="if (!confirm('Are you sure?')) return false;" />
+````ASP.NET
+<asp:ImageButton ID="ImageButton2" runat="server" OnClientClick="if (!confirm('Are you sure?')) return false;" />
 ````
 
 
@@ -35,8 +35,8 @@ Alternatively, you can use the **OnRequestStart** client-side event to implement
 Example 1: Displays confirmation message by using OnRequestStart client-side event.
 
 ````JavaScript
-	    <telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
-	    <script type="text/javascript">
+<telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
+<script type="text/javascript">
 	        function OnRequestStart(ajaxControl, eventArgs) {
 	            var eventTarget = eventArgs.get_eventTarget(); 
 	            if (eventTarget == "<%= ImageButton1.UniqueID %>") {
@@ -46,13 +46,13 @@ Example 1: Displays confirmation message by using OnRequestStart client-side eve
 	                return false;
 	            }
 	        }
-	    </script>
-	    </telerik:RadCodeBlock>
+</script>
+</telerik:RadCodeBlock>
 ````
 
 
 
-# See Also
+## See Also
 
  * [Cancel AJAX  Request]({%slug ajax/client-side-programming/how-to/cancel-ajax--request%})
 

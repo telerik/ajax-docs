@@ -17,8 +17,8 @@ position: 0
 You can cancel an AJAX request in the **OnRequestStart** client-side event handler of your RadAjaxManager/RadAjaxPanel.Calling **set_cancel(true)** prevents the request from continuing.
 
 ````JavaScript
-	    <telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
-	        <script type='text/javascript'>
+<telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
+	<script type='text/javascript'>
 	            function OnRequestStart(ajaxPanel, eventArgs) {
 	                var eventTarget = eventArgs.get_eventTarget();
 	                if (eventTarget == "<%= Button1.UniqueID %>") {
@@ -43,13 +43,13 @@ You can cancel an AJAX request in the **OnRequestStart** client-side event handl
 	                }
 	                return true;
 	            }
-	        </script>
-	    </telerik:RadCodeBlock>
+	 </script>
+</telerik:RadCodeBlock>
 ````
 
 
 
-# See Also
+## See Also
 
  * [Client Confirmation and AJAX]({%slug ajax/client-side-programming/how-to/client-confirmation-and-ajax%})
 

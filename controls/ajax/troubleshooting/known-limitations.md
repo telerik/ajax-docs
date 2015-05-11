@@ -17,62 +17,64 @@ Here is a list of all known **RadAjax** limitations:
 ## 
 
 1. **RadAjax and Standard Validators**
- **RadAjax** controls fully support server and client-side validation with the standard validators. However, when the page uses **ValidationSummary** control with a **CustomValidator**,it performs server-side validation, so you need to wrap it in an **ASP:Panel** and add the panel to the **UpdatedControls** collection in the AJAX settings when the page is AJAX-enabled with **RadAjaxManager**, or add the **ValidationSummary** control in the **RadAjaxPanel**control if such is used for the page ajaxification. **Example 1** shows how to do this.**Example 1**: Using the **ValidationSummary** control with **RadAjaxManager**.
+ **RadAjax** controls fully support server and client-side validation with the standard validators. However, when the page uses **ValidationSummary** control with a **CustomValidator** ,it performs server-side validation, so you need to wrap it in an **ASP:Panel** and add the panel to the **UpdatedControls** collection in the AJAX settings when the page is AJAX-enabled with **RadAjaxManager** , or add the **ValidationSummary** control in the **RadAjaxPanel** control if such is used for the page ajaxification. **Example 1** shows how to do this.
+ 
+ **Example 1** : Using the **ValidationSummary** control with **RadAjaxManager** .
 
-````ASPNET
-	    <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
-	        <AjaxSettings>
-	            <telerik:AjaxSetting AjaxControlID="btnValidate">
-	                <UpdatedControls>
-	                    <telerik:AjaxUpdatedControl ControlID="TextBox1" />
-	                    <telerik:AjaxUpdatedControl ControlID="pnlValidationSummary" />
-	                </UpdatedControls>
-	            </telerik:AjaxSetting>
-	        </AjaxSettings>
-	    </telerik:RadAjaxManager>
-	    <asp:TextBox ID="TextBox1" runat="server" />
-	    <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="TextBox1"
-	        Display="None" ErrorMessage="Required Field" />
-	    <asp:Button ID="btnValidate" runat="server" />
-	    <asp:Panel ID="pnlValidatorSummary" runat="server">
-	        <asp:ValidationSummary ID="ValidationSummary1" runat="server" />
-	    </asp:Panel>
+````ASP.NET
+<telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
+	<AjaxSettings>
+	    <telerik:AjaxSetting AjaxControlID="btnValidate">
+	        <UpdatedControls>
+	            <telerik:AjaxUpdatedControl ControlID="TextBox1" />
+	            <telerik:AjaxUpdatedControl ControlID="pnlValidationSummary" />
+	        </UpdatedControls>
+	    </telerik:AjaxSetting>
+	</AjaxSettings>
+</telerik:RadAjaxManager>
+<asp:TextBox ID="TextBox1" runat="server" />
+<asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="TextBox1"
+	 Display="None" ErrorMessage="Required Field" />
+<asp:Button ID="btnValidate" runat="server" />
+<asp:Panel ID="pnlValidatorSummary" runat="server">
+	asp:ValidationSummary ID="ValidationSummary1" runat="server" />
+</asp:Panel>
 ````
 
 
 
-1. **RadAjaxTimer control**Telerik decided not to include a Timer control in **RadAjax for ASP.NET AJAX**, because the Timer control is a postback control and does not include AJAX capabilities by itself. In addition, Microsoft included a Timer control in Microsoft AJAX that offers basic functionality, and you canuse the "Classic" Timer as shown in[this online demo](http://demos.telerik.com/aspnet-ajax/ajax/examples/common/ajaxifytimer/defaultcs.aspx) which illustrates sample approach.
+2. **RadAjaxTimer control** Telerik decided not to include a Timer control in **RadAjax for ASP.NET AJAX** , because the Timer control is a postback control and does not include AJAX capabilities by itself. In addition, Microsoft included a Timer control in Microsoft AJAX that offers basic functionality, and you cause the "Classic" Timer as shown in[this online demo](http://demos.telerik.com/aspnet-ajax/ajax/examples/common/ajaxifytimer/defaultcs.aspx) which illustrates sample approach.
 
-1. **Ajaxified control postbacks when there are no updated controls**The following **RadAjaxManager** setting will not ajaxify the button:
+3. **Ajaxified control postbacks when there are no updated controls**The following **RadAjaxManager** setting will not ajaxify the button:
 
-````ASPNET
-	    <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
-	        <AjaxSettings>
-	            <telerik:AjaxSetting AjaxControlID="Button1">                
-	            </telerik:AjaxSetting>
-	        </AjaxSettings>
-	    </telerik:RadAjaxManager>
+````ASP.NET
+<telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
+	<AjaxSettings>
+	    <telerik:AjaxSetting AjaxControlID="Button1">                
+	    </telerik:AjaxSetting>
+	 </AjaxSettings>
+</telerik:RadAjaxManager>
 ````
 
-You can work around this limitation by adding a control to be updated. For example, we could add the the same control (the initiator)as **UpdatedControl**:
+You can work around this limitation by adding a control to be updated. For example, we could add the the same control (the initiator)as **UpdatedControl** :
 
-````ASPNET
-	    <UpdatedControls>
-	        <telerik:AjaxUpdatedControl ControlID="Button1" />
-	    </UpdatedControls>
+````ASP.NET
+<UpdatedControls>
+	<telerik:AjaxUpdatedControl ControlID="Button1" />
+</UpdatedControls>
 ````
 
 
 
-1. **RadAjaxManager and RadAjaxPanel in the same application**There are some known issues when using both the **RadAjaxManager** and the **RadAjaxPanel**in some complex applications, for example, those with a master page or WebUserControls. However, a single **RadAjaxManager**(and no panels) in the master/main page could handle these scenarios.
+4. **RadAjaxManager and RadAjaxPanel in the same application** There are some known issues when using both the **RadAjaxManager** and the **RadAjaxPanel** in some complex applications, for example, those with a master page or WebUserControls. However, a single **RadAjaxManager**(and no panels) in the master/main page could handle these scenarios.
 
-1. **Client-Side events OnRequestSent and OnResponseReceived missing**Telerik removed these events in **RadAjax for ASP.NET AJAX**. There is no way to "simulate" them due to the way ASP.NET AJAX works.Please use [OnRequestStart]({%slug ajax/client-side-programming/events/onrequeststart%}) and [OnResponseEnd]({%slug ajax/client-side-programming/events/onresponseend%}) for your needs.
+5. **Client-Side events OnRequestSent and OnResponseReceived missing** Telerik removed these events in **RadAjax for ASP.NET AJAX**. There is no way to "simulate" them due to the way ASP.NET AJAX works.Please use [OnRequestStart]({%slug ajax/client-side-programming/events/onrequeststart%}) and [OnResponseEnd]({%slug ajax/client-side-programming/events/onresponseend%}) for your needs.
 
-1. **Various controls not supported by the Microsoft AJAX framework**You can find a full list of controls that are not compatible with **RadAjax for ASP.NET AJAX**[here]({%slug ajax/how-to/incompatible-controls-and-updating-3rd-party-controls-with-telerik-radajax%}).
+6. **Various controls not supported by the Microsoft AJAX framework** You can find a full list of controls that are not compatible with **RadAjax for ASP.NET AJAX**[here]({%slug ajax/how-to/incompatible-controls-and-updating-3rd-party-controls-with-telerik-radajax%}).
 
-1. **AJAX requests may not work in all scenarios when setting the RestoreOriginalRenderDelegate property to false or inheriting from RadAjaxPage (to support Medium trust in DNN/SharePoint)** Please be aware of this fact when configuring **RadAjaxManager** or **RadAjaxPanel** for your particular project schema.
+7. **AJAX requests may not work in all scenarios when setting the RestoreOriginalRenderDelegate property to false or inheriting from RadAjaxPage (to support Medium trust in DNN/SharePoint)** Please be aware of this fact when configuring **RadAjaxManager** or **RadAjaxPanel** for your particular project schema.
 
-# See Also
+## See Also
 
  * [Changes and Backwards Compatibility]({%slug ajax/changes-and-backwards-compatibility%})
 

@@ -28,7 +28,9 @@ The main features of **RadAjaxPanel** are:
 
 ## RadAjaxPanel Usage
 
-In Visual Studio at design time, if you want to Ajax-enable web controls on a page just add a **RadAjaxPanel** to your page and then drag the controls you want to make callbacks into the **RadAjaxPanel**. Those controls will start performing callbacks instead of postbacks. **Figure 1** shows a typical usage scenario. A standard ASP.NET Calendar control is placed in a **RadAjaxPanel**. On the web form there is also a [loading panel]({%slug ajax/radajaxloadingpanel/overview%}) control that will be shown in place of the **RadAjaxPanel** during the AJAX request.![AJAX Panel (Design-time)](images/ajaxpanel.PNG)
+In Visual Studio at design time, if you want to Ajax-enable web controls on a page just add a **RadAjaxPanel** to your page and then drag the controls you want to make callbacks into the **RadAjaxPanel**. Those controls will start performing callbacks instead of postbacks. **Figure 1** shows a typical usage scenario. A standard ASP.NET Calendar control is placed in a **RadAjaxPanel**. On the web form there is also a [loading panel]({%slug ajax/radajaxloadingpanel/overview%}) control that will be shown in place of the **RadAjaxPanel** during the AJAX request.
+
+![AJAX Panel (Design-time)](images/ajaxpanel.PNG)
 
 >caution The whole **RadAjaxPanel** (with **ALL** controls inside) is updated when one of the controls makes an AJAX request. Thus, if you put the whole page into a **RadAjaxPanel** , this may cause -reduced- performance, as -all- controls within the panel will be updated, -not- just the AJAX initiator.Placing the whole page into a **RadAjaxPanel** is usable when you have a relatively small number of controls on the page.
 >
@@ -36,25 +38,25 @@ In Visual Studio at design time, if you want to Ajax-enable web controls on a pa
 
 **Out-of-Panel Update**
 
-There are cases when you may want to update the controls inside a **RadAjaxPanel** by triggering a callback externally from other control on the page.The following approach is not recommended as **RadAjaxManager** can handle any complex scenarios. You can use asp:Panel controls and link them via **RadAjaxManager**'s settings. The same Panel may be set as both AJAX initiator and updated control, which will cause functionality similar to **RadAjaxPanel**.
+There are cases when you may want to update the controls inside a **RadAjaxPanel** by triggering a callback externally from other control on the page.The following approach is not recommended as **RadAjaxManager** can handle any complex scenarios. You can use asp:Panel controls and link them via **RadAjaxManager**'s settings. The same Panel may be set as both AJAX initiator and updated control, which will cause functionality similar to **RadAjaxPanel** .
 
-You need to call the**$find(<%RadAjaxPanel1.ClientID%>).ajaxRequest()** method (passing the necessaryinformation as parameters to it) and then override the **RaisePostBackEvent** method or handle theRadAjaxPanel **AjaxRequest** server-side event to apply the changes. **Example 1** shows a sample implementation, which changes the background color of the panel.
+You need to call the**$find(<%RadAjaxPanel1.ClientID%>).ajaxRequest()** method (passing the necessary information as parameters to it) and then override the **RaisePostBackEvent** method or handle theRadAjaxPanel **AjaxRequest** server-side event to apply the changes. **Example 1** shows a sample implementation, which changes the background color of the panel.
 
 **Example 1**: Use external control to update **RadAjaxPanel**
 
-````ASPNET
-	    <telerik:RadScriptManager ID="RadScriptManager1" runat="server">
-	    </telerik:RadScriptManager>
-	    <telerik:RadAjaxPanel ID="RadAjaxPanel1" runat="server" OnAjaxRequest="RadAjaxPanel1_AjaxRequest">
-	    </telerik:RadAjaxPanel>
-	    <telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
-	        <script type="text/javascript">
-	            function invokeAjaxrequest() {
-	                $find("<%= RadAjaxPanel1.ClientID%>").ajaxRequestWithTarget("<%= RadAjaxPanel1.UniqueID %>", "ChangeColor");
-	            }
-	        </script>
-	    </telerik:RadCodeBlock>
-	    <input type="button" value="Change color" onclick="invokeAjaxRequest();" />
+````ASP.NET
+<telerik:RadScriptManager ID="RadScriptManager1" runat="server">
+</telerik:RadScriptManager>
+<telerik:RadAjaxPanel ID="RadAjaxPanel1" runat="server" OnAjaxRequest="RadAjaxPanel1_AjaxRequest">
+</telerik:RadAjaxPanel>
+<telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
+	<script type="text/javascript">
+	     function invokeAjaxrequest() {
+	        $find("<%= RadAjaxPanel1.ClientID%>").ajaxRequestWithTarget("<%= RadAjaxPanel1.UniqueID %>", "ChangeColor");
+	    }
+	</script>
+</telerik:RadCodeBlock>
+<input type="button" value="Change color" onclick="invokeAjaxRequest();" />
 ````
 
 
@@ -65,8 +67,8 @@ And in the code-behind:
 
 ````C#
 	
-	    protected void RadAjaxPanel1_AjaxRequest(object sender, AjaxRequestEventArgs e)
-	    {
+protected void RadAjaxPanel1_AjaxRequest(object sender, AjaxRequestEventArgs e)
+{
 	        switch (e.Argument)
 	        {
 	            case "ChangeColor":
@@ -75,16 +77,16 @@ And in the code-behind:
 	            default:
 	                break;
 	        }
-	    } 
+} 
 				
 ````
-````VB.NET
-	    Protected Sub RadAjaxPanel1_AjaxRequest(sender As Object, e As AjaxRequestEventArgs)
+````VB
+Protected Sub RadAjaxPanel1_AjaxRequest(sender As Object, e As AjaxRequestEventArgs)
 	        Select Case e.Argument
 	            Case "ChangeColor"
 	                RadAjaxPanel1.BackColor = System.Drawing.Color.Maroon
 	        End Select
-	    End Sub
+End Sub
 ````
 
 
@@ -97,7 +99,7 @@ You can use any external control to force **RadAjaxPanel** to perform an AJAX re
 
 
 
-|  ****doPostBack(eventTarget, eventArgument)** or **$find("<%=RadAjaxPanel1.ClientID%>").ajaxRequestWithTarget(eventTarget, eventArgument)**  |  |
+|  **_doPostBack(eventTarget, eventArgument)** or **$find("<%=RadAjaxPanel1.ClientID%>").ajaxRequestWithTarget(eventTarget, eventArgument)**  |  |
 | ------ | ------ |
 | **eventTarget** |The control that should raise the postback event. You should use the control's **UniqueID** .|
 | **eventArgument** |This is an optional argument for the event|
@@ -115,7 +117,7 @@ You can use any external control to force **RadAjaxPanel** to perform an AJAX re
 
 When either of these functions is called on the client it can be handled in the AjaxRequest event handler on the server.
 
-# See Also
+## See Also
 
  * [Overview]({%slug ajax/radajaxmanager/overview%})
 
