@@ -12,7 +12,7 @@ position: 6
 
 
 
->caution  **RadUpload** has been replaced by[RadAsyncUpload](http://demos.telerik.com/aspnet-ajax/asyncupload/examples/overview/defaultcs.aspx), Telerik’s next-generation ASP.NET upload component. If you are considering Telerik’s Upload control for new development, check out the[ documentation of RadAsyncUpload ](http://www.telerik.com/help/aspnet-ajax/asyncupload-overview.html)or the[control’s product page](http://www.telerik.com/products/aspnet-ajax/asyncupload.aspx). If you are already using **RadUpload** in your projects, you may be interested in reading how easy the transition to RadAsyncUpload is and how you can benefit from it[in this blog post](http://blogs.telerik.com/blogs/12-12-05/the-case-of-telerik-s-new-old-asp.net-ajax-upload-control-radasyncupload). The official support for **RadUpload** has been discontinued in June 2013 (Q2’13), although it is still be available in the suite. We deeply believe that **RadAsyncUpload** can better serve your upload needs and we kindly ask you to transition to it to make sure you take advantage of its support and the new features we constantly add to it.
+>caution  **RadUpload** has been replaced by [RadAsyncUpload](http://demos.telerik.com/aspnet-ajax/asyncupload/examples/overview/defaultcs.aspx), Telerik’s next-generation ASP.NET upload component. If you are considering Telerik’s Upload control for new development, check out the [documentation of RadAsyncUpload ](http://www.telerik.com/help/aspnet-ajax/asyncupload-overview.html) or the [control’s product page](http://www.telerik.com/products/aspnet-ajax/asyncupload.aspx). If you are already using **RadUpload** in your projects, you may be interested in reading how easy the transition to RadAsyncUpload is and how you can benefit from it [in this blog post](http://blogs.telerik.com/blogs/12-12-05/the-case-of-telerik-s-new-old-asp.net-ajax-upload-control-radasyncupload). The official support for **RadUpload** has been discontinued in June 2013 (Q2’13), although it is still be available in the suite. We deeply believe that **RadAsyncUpload** can better serve your upload needs and we kindly ask you to transition to it to make sure you take advantage of its support and the new features we constantly add to it.
 >
 
 
@@ -52,7 +52,7 @@ The resolutions of each cause follow:
 
 1. Add **RadProgressManager** to the page. You will need the **RadUploadHttpModule** and **RadUploadProgressHandler** registrations as well.
 
-1. **RadUpload** and any other upload control which uses **<input type=file>** html elements is unable to upload files with AJAX calls. For more information and workarounds, see [Uploading Files with AJAX]({%slug upload/uploading-files/uploading-files-with-ajax%}).
+1. **RadUpload** and any other upload control which uses **`<input type=file>`** html elements is unable to upload files with AJAX calls. For more information and workarounds, see [Uploading Files with AJAX]({%slug upload/uploading-files/uploading-files-with-ajax%}).
 
 1. Configure your URL rewriter to exclude the path "/Telerik.RadUploadProgressHandler.ashx" from rewriting.
 
