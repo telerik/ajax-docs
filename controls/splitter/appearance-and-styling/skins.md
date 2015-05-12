@@ -10,21 +10,20 @@ position: 1
 
 # Skins
 
-
-
-**RadSplitter**uses **skins** to control its overall look-and-feel. A skin is a set of images and a CSS stylesheet that can be applied to the control elements (items, images, etc.) and defines their look and feel. The **RadSplitter**skin affects the appearance of any **RadPane**, **RadSplitBar**, **RadSlidingZone**, and **RadSlidingPane** controls nested inside the splitter. You can however, assign a different skin to any nested splitters.
+**RadSplitter**uses **skins** to control its overall look-and-feel. A skin is a set of images and a CSS stylesheet that can be applied to the control elements (items, images, etc.) and defines their look and feel. The **RadSplitter** skin affects the appearance of any **RadPane**, **RadSplitBar**, **RadSlidingZone**, and **RadSlidingPane** controls nested inside the splitter. You can however, assign a different skin to any nested splitters.
 
 To apply a skin to a **RadSplitter**control, set its **Skin** property, either using the properties pane or the [Smart Tag]({%slug splitter/design-time%}).
 
-**RadSplitter** is installed with a number of preset skins. These are shown below:![radsplitter-skins](images/radsplitter-skins.png)
+**RadSplitter** is installed with a number of preset skins. These are shown below:
 
->note The **Hay** , **Forest** , **Sitefinity** and **Transparent** skins are obsolete and have been removed from the Telerik.Web.UI.Skins.dll assembly as of **Q1 2014** .You can find more information on the matter in[this blog post](http://blogs.telerik.com/aspnet-ajax/posts/13-04-11/6-telerik-asp.net-ajax-skins-going-obsolete).
->
+![radsplitter-skins](images/radsplitter-skins.png)
+
+>note The **Hay** , **Forest** , **Sitefinity** and **Transparent** skins are obsolete and have been removed from the Telerik.Web.UI.Skins.dll assembly as of **Q1 2014** .You can find more information on the matter in [this blog post](http://blogs.telerik.com/aspnet-ajax/posts/13-04-11/6-telerik-asp.net-ajax-skins-going-obsolete).
 
 
 ## Customizing Skins
 
-You can tweak the existing skins or create your own. Each skin has two main elements: images and a stylesheet. When creating your own, it is a good idea to start with the stylesheet for an existing skin and alter that. See [Tutorial: Creating a Custom Skin]({%slug splitter/appearance-and-styling/tutorial:-creating-a-custom-skin%}) for a step-by-step walk through. To use your own skin
+You can tweak the existing skins or create your own. Each skin has two main elements: images and a stylesheet. When creating your own, it is a good idea to start with the stylesheet for an existing skin and alter that. See [Creating a Custom Skin]({%slug splitter/appearance-and-styling/create-a-custom-skin%}) for a step-by-step walk through. To use your own skin
 
 1. Add the new CSS file to your project.
 

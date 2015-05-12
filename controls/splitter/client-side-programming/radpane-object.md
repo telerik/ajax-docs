@@ -10,14 +10,8 @@ position: 2
 
 # RadPane Object
 
-
-
-## 
-
 The following table lists the important **RadPane** client-side methods:
 
-
->caption  
 
 |  **Name**  |  **Parameters**  |  **Return Type**  |  **Description**  |
 | ------ | ------ | ------ | ------ |
@@ -57,22 +51,20 @@ The following table lists the important **RadPane** client-side methods:
 | **get_index** |none|integer|Returns the position of the pane within its parent splitter.|
 | **print** |Array|none|Prints the content of the pane. If the pane is not displaying external content, the printed content is formatted using the cssFiles whose paths are specified by the array elements.|
 | **get_splitter** |none|[RadSplitter]({%slug splitter/client-side-programming/radsplitter-object%})|Returns the splitter to which the pane belongs.|
-| **getScrollPos** |none|position|Returns the left and top positions of the scroll pane. The return value has two properties: **left** and **top** .
-
-````JavaScript
-	
-	    var scrollPos = pane.getScrollPos();
-	    var leftPos = scrollPos.left;
-	    var topPos = scrollPos.top;
-				
-````
-
-|
+| **getScrollPos** |none|position|Returns the left and top positions of the scroll pane. The return value has two properties: **left** and **top**. See **Example 1**.|
 | **setScrollPos** |integer, integer|none|Sets the left and top scrolling positions of the pane.|
 | **get_scrolling** |none|[Telerik.Web.UI.SplitterPaneScrolling](http://www.telerik.com/help/aspnet-ajax/t_telerik_web_ui_splitterpanescrolling.html)|Returns the value of the Scrolling property of the control.|
 | **set_scrolling** |[Telerik.Web.UI.SplitterPaneScrolling](http://www.telerik.com/help/aspnet-ajax/t_telerik_web_ui_splitterpanescrolling.html)|none|Sets new value for the Scrolling property of the control.|
 
-# See Also
+>caption Example 1: Using client-side getScrollPos() method.
+
+````JavaScript	
+var scrollPos = pane.getScrollPos();
+var leftPos = scrollPos.left;
+var topPos = scrollPos.top;				
+````
+
+## See Also
 
  * [Overview]({%slug splitter/client-side-programming/overview%})
 

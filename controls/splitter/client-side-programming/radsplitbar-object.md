@@ -11,13 +11,8 @@ position: 3
 # RadSplitBar Object
 
 
-
-## 
-
 The following table lists the important **RadSplitBar** client-side methods:
-
-
->caption  
+ 
 
 |  **Name**  |  **Parameters**  |  **Return Type**  |  **Description**  |
 | ------ | ------ | ------ | ------ |
@@ -34,17 +29,9 @@ The following table lists the important **RadSplitBar** client-side methods:
 | **set_enableResize** |boolean|none|Sets whether the user can drag the split bar to resize panes in the splitter.|
 | **get_resizeStep** |none|integer|Returns the step size for resize operations.|
 | **set_resizeStep** |integer|none|Sets the step size for resize operations.|
-| **get_collapseMode** |none|integer|Returns the collapse mode as follows
-
-* 1: None
-
-* 2: Forward
-
-* 3: Backward
-
-* 4: None|
+| **get_collapseMode** |none|integer|Returns the collapse mode as follows: 1-None; 2-Forward; 3-Backward; 4-None.|
 | **set_collapseMode** |integer|none|Sets the collapse mode of the split bar.|
 
-# See Also
+## See Also
 
  * [Overview]({%slug splitter/client-side-programming/overview%})

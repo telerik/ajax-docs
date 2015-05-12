@@ -10,8 +10,6 @@ position: 0
 
 # Controlling Appearance
 
-
-
 ## Layout
 
 **RadSplitter** controls provide you with tremendous flexibility in the layout of a Web page:

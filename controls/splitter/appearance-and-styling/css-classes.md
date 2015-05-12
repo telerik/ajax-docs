@@ -10,14 +10,7 @@ position: 2
 
 # CSS Classes
 
-
-
-## 
-
 The following table lists the CSS selectors and descriptions for **RadSplitter** style sheets.
-
-
->caption  
 
 |  **Class Name**  |  **Element**  |  **Description**  |
 | ------ | ------ | ------ |

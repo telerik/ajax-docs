@@ -2,7 +2,7 @@ http://www.telerik.com/help/aspnet-ajax/splitter-accessibility-support.html http
 http://www.telerik.com/help/aspnet-ajax/splitter-appearance-controlling-appearance.html http://docs.telerik.com/devtools/ajax/splitter/appearance-and-styling/controlling-appearance
 http://www.telerik.com/help/aspnet-ajax/splitter-appearance-css-file.html http://docs.telerik.com/devtools/ajax/splitter/appearance-and-styling/understanding-the-skin-css-file
 http://www.telerik.com/help/aspnet-ajax/splitter-appearance-css-selectors.html http://docs.telerik.com/devtools/ajax/splitter/appearance-and-styling/css-classes
-http://www.telerik.com/help/aspnet-ajax/splitter-appearance-custom-skin.html http://docs.telerik.com/devtools/ajax/splitter/appearance-and-styling/tutorial:-creating-a-custom-skin
+http://www.telerik.com/help/aspnet-ajax/splitter-appearance-custom-skin.html http://docs.telerik.com/devtools/ajax/splitter/appearance-and-styling/create-a-custom-skin
 http://www.telerik.com/help/aspnet-ajax/splitter-appearance-skins.html http://docs.telerik.com/devtools/ajax/splitter/appearance-and-styling/skins
 http://www.telerik.com/help/aspnet-ajax/splitter-appearance-strings.html http://docs.telerik.com/devtools/ajax/splitter/accessibility-and-internationalization/changing-the-strings-in-the-user-interface
 http://www.telerik.com/help/aspnet-ajax/splitter-changes-and-backwards-compatibility.html http://docs.telerik.com/devtools/ajax/splitter/changes-and-backward-compatibility

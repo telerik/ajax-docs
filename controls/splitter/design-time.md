@@ -10,10 +10,7 @@ position: 3
 
 # Design Time
 
-
-
 The Smart Tag allows easy access to frequently needed tasks. You can display the **Smart Tag** by right clicking on a control in the design window, and choosing **Show Smart Tag** from its context menu.
->caption 
 
 ![splitter-design-smart-tag](images/splitter-design-smart-tag.png)
 
@@ -39,13 +36,8 @@ Links navigate you directly to **RadSplitter** examples, help, or code library.
 
 The Smart Tag for the **RadPane**, **RadSlidingZone**, or **RadSlidingPane** control contains only the AJAX resources links. These controls inherit their skin from the parent **RadSplitter** control. For links to examples, help, or code library, use the **Learning center** of the parent **RadSplitter** control.
 
-
->caption 
-
 ![splitter-pane-smart-tag](images/splitter-pane-smart-tag.png)
->caption 
 
 ![splitter-sliding-zone-smart-tag](images/splitter-sliding-zone-smart-tag.png)
->caption 
 
 ![splitter-sliding-pane-smart-tag](images/splitter-sliding-pane-smart-tag.png)

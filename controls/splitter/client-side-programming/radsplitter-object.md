@@ -10,14 +10,7 @@ position: 1
 
 # RadSplitter Object
 
-
-
-## 
-
 The following table lists the important **RadSplitter** client-side methods:
-
-
->caption  
 
 |  **Name**  |  **Parameters**  |  **Return Type**  |  **Description**  |
 | ------ | ------ | ------ | ------ |
@@ -45,17 +38,11 @@ The following table lists the important **RadSplitter** client-side methods:
 | **isNested** |none|boolean|Returns **true** if the splitter is nested as the only control inside a **RadPane** control, **false** otherwise.|
 | **get_liveResize** |none|boolean|Returns **true** if the splitter resizes panes in live mode, **false** if a separate drag image appears during resize operations.|
 | **set_liveResize** |boolean|none|Sets whether the splitter resizes panes in live mode.|
-| **get_resizeMode** |none|integer|Returns the resize mode of the splitter, where
-
-* 1 = AdjacentPane
-
-* 2 = Proportional
-
-* 3 = EndPane|
+| **get_resizeMode** |none|integer|Returns the resize mode of the splitter, where: 1 = AdjacentPane; 2 = Proportional; 3 = EndPane|
 | **set_resizeMode** |integer|none|Sets the resize mode of the splitter.|
 
-# See Also
+## See Also
 
- * [Overview]({%slug splitter/client-side-programming/overview%})
+ * [Client-side Programming Overview]({%slug splitter/client-side-programming/overview%})
 
- * [Overview]({%slug splitter/client-side-programming/events/overview%})
+ * [Client-side Events Overview]({%slug splitter/client-side-programming/events/overview%})

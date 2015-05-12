@@ -10,14 +10,7 @@ position: 4
 
 # RadSlidingZone Object
 
-
-
-## 
-
 The following table lists the important **RadSlidingZone** client-side methods:
-
-
->caption  
 
 |  **Name**  |  **Parameters**  |  **Return Type**  |  **Description**  |
 | ------ | ------ | ------ | ------ |
@@ -44,7 +37,7 @@ The following table lists the important **RadSlidingZone** client-side methods:
 | **set_resizeStep** |integer|none|Sets the resize step for the resizable border on sliding panes inside the sliding zone.|
 | **getTabsContainer** |none|HTML element|Returns the DOM element for the pane that holds the sliding zone tabs.|
 
-# See Also
+## See Also
 
  * [Overview]({%slug splitter/client-side-programming/overview%})
 

@@ -10,10 +10,7 @@ position: 2
 
 # Structure
 
-
-
 The **RadSplitter** control defines a region that can be divided into resizable frame-like regions called panes, as shown below:
->caption 
 
 ![](images/splitter-structure.png)
 
@@ -43,46 +40,44 @@ A sliding pane, like a regular pane, can contain any HTML elements, including AS
 
 The ASP.NET declaration for the **RadSplitter** shown above is as follows:
 
-````ASPNET
-	     
-	<telerik:RadSplitter ID="RadSplitter1" runat="server" Skin="Office2007">
-	 <telerik:RadPane ID="LeftPane" runat="server">
-	    Left Pane
+````ASP.NET	     
+<telerik:RadSplitter ID="RadSplitter1" runat="server" Skin="Office2007">
+ <telerik:RadPane ID="LeftPane" runat="server">
+	Left Pane
+ </telerik:RadPane>
+ <telerik:RadSplitBar ID="RadSplitBar1" runat="server" CollapseMode="Both" />
+ <telerik:RadPane ID="MiddlePane" runat="server" Scrolling="None">
+   Middle Pane
+   <telerik:RadSplitter ID="NestedSplitter" runat="server"
+						Orientation="Horizontal" Skin="Office2007" >
+	 <telerik:RadPane ID="TopPane" runat="server">
+	   Top Pane
 	 </telerik:RadPane>
-	 <telerik:RadSplitBar ID="RadSplitBar1" runat="server" CollapseMode="Both" />
-	 <telerik:RadPane ID="MiddlePane" runat="server" Scrolling="None">
-	   Middle Pane
-	   <telerik:RadSplitter ID="NestedSplitter" runat="server"
-	                        Orientation="Horizontal" Skin="Office2007" >
-	     <telerik:RadPane ID="TopPane" runat="server">
-	       Top Pane
-	     </telerik:RadPane>
-	     <telerik:RadSplitBar ID="RadSplitBar3" runat="server" CollapseMode="Both" />
-	     <telerik:RadPane ID="BottomPane" runat="server">
-	       Bottom Pane
-	     </telerik:RadPane>
-	   </telerik:RadSplitter>
+	 <telerik:RadSplitBar ID="RadSplitBar3" runat="server" CollapseMode="Both" />
+	 <telerik:RadPane ID="BottomPane" runat="server">
+	   Bottom Pane
 	 </telerik:RadPane>
-	 <telerik:RadSplitBar ID="RadSplitBar2" runat="server" CollapseMode="Both" />
-	 <telerik:RadPane ID="RightPane" runat="server">
-	   Right Pane                           
-	   <telerik:RadSlidingZone ID="RadSlidingZone1" runat="server" SlideDirection="Bottom">
-	     <telerik:RadSlidingPane ID="RadSlidingPane1" runat="server" Title="Sliding Pane 1">
-	       Sliding Pane1
-	     </telerik:RadSlidingPane>
-	     <telerik:RadSlidingPane ID="RadSlidingPane2" runat="server" Title="Sliding Pane 2">
-	       Sliding Pane 2
-	     </telerik:RadSlidingPane>
-	   </telerik:RadSlidingZone>
-	 </telerik:RadPane>
-	</telerik:RadSplitter> 
-				
+   </telerik:RadSplitter>
+ </telerik:RadPane>
+ <telerik:RadSplitBar ID="RadSplitBar2" runat="server" CollapseMode="Both" />
+ <telerik:RadPane ID="RightPane" runat="server">
+   Right Pane                           
+   <telerik:RadSlidingZone ID="RadSlidingZone1" runat="server" SlideDirection="Bottom">
+	 <telerik:RadSlidingPane ID="RadSlidingPane1" runat="server" Title="Sliding Pane 1">
+	   Sliding Pane1
+	 </telerik:RadSlidingPane>
+	 <telerik:RadSlidingPane ID="RadSlidingPane2" runat="server" Title="Sliding Pane 2">
+	   Sliding Pane 2
+	 </telerik:RadSlidingPane>
+   </telerik:RadSlidingZone>
+ </telerik:RadPane>
+</telerik:RadSplitter> 				
 ````
 
 
 
-# See Also
+## See Also
 
- * [Creating Splitter Programatically]({%slug splitter/server-side-programming/creating-splitter-programatically%})
+ * [Creating Splitter Programmatically]({%slug splitter/server-side-programming/creating-splitter-programmatically%})
 
  * [Creating SlidingZone Programmatically]({%slug splitter/server-side-programming/creating-slidingzone-programmatically%})

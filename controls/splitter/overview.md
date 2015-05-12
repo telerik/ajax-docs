@@ -10,11 +10,7 @@ position: 0
 
 # Splitter Overview
 
-
-
-## 
-
-Telerik __RadSplitter for ASP.NET AJAX__ is a flexible UI component for managing the size and the layout of Web page content. __RadSplitter__ divides the layout of a Web page into frame-like regions called panes. Layouts can be conveniently enhanced further with sliding panes: dockable panels with resizable areas just as in Visual Studio, but boosted with ASP.NET AJAX capabilities.__RadSplitter__ offers the following features:
+Telerik __RadSplitter for ASP.NET AJAX__ is a flexible UI component for managing the size and the layout of Web page content. __RadSplitter__ divides the layout of a Web page into frame-like regions called panes. Layouts can be conveniently enhanced further with sliding panes: dockable panels with resizable areas just as in Visual Studio, but boosted with ASP.NET AJAX capabilities. __RadSplitter__ offers the following features:
 
 * [Content Resizing.]({%slug splitter/panes/resizing%}) Drag a split bar to resize the content area of the panes. You can define the maximum and minimum size of panes, and configure the way panes are resized when the user drags on a split bar, including specifying which panes are resized, setting the resize step size, allowing "live" resizes, and more.
 
@@ -49,14 +45,13 @@ Telerik __RadSplitter for ASP.NET AJAX__ is a flexible UI component for managing
 * [Client-side API]({%slug splitter/client-side-programming/overview%}). __RadSplitter__ has a rich client-side API that lets you customize the behavior of the splitter without postbacks, and numerous [client events]({%slug splitter/client-side-programming/events/overview%}) to give you every opportunity to respond to the changes that users make.
 
 * __Cross-browser support__. __RadSplitter__ supports all major browsers, including Internet Explorer 5.5 and above, Netscape 7.0 and above, Mozilla 1.0 and above,Firefox 1.0 and above, Opera 8.0 and above, and Safari 2.0.4 and above.
->caption 
 
 ![](images/radsplitter.png)
 
-# See Also
+## See Also
 
  * [Structure]({%slug splitter/getting-started/structure%})
 
  * [Overview]({%slug splitter/getting-started/overview%})
 
- * [Creating Splitter Programatically]({%slug splitter/server-side-programming/creating-splitter-programatically%})[](4EE429D3-33AB-488B-8706-844FA79A9C2B)
+ * [Creating Splitter Programmatically]({%slug splitter/server-side-programming/creating-splitter-programmatically%})

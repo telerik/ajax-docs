@@ -10,14 +10,7 @@ position: 5
 
 # RadSlidingPane Object
 
-
-
-## 
-
 The following table lists the important **RadSlidingPane** client-side methods:
-
-
->caption  
 
 |  **Name**  |  **Parameters**  |  **Return Type**  |  **Description**  |
 | ------ | ------ | ------ | ------ |
@@ -42,21 +35,9 @@ The following table lists the important **RadSlidingPane** client-side methods:
 | **set_maxWidth** |integer|none|Sets the maximum width of the pane.|
 | **get_maxHeight** |none|integer|Returns the maximum height of the pane.|
 | **set_maxHeight** |integer|none|Sets the maximum height of the pane.|
-| **get_collapsed** |none|boolean|Returns whether the pane is collapsed.
-
->note To collapse a pane, use the collapsePane method of the parent sliding zone.
->
-|
-| **get_expanded** |none|boolean|Returns whether the pane is expanded.
-
->note To expand a pane, use the expandPane method of the parent sliding zone.
->
-|
-| **get_docked** |none|boolean|Returns whether the pane is docked.
-
->note To dock a pane, use the dockPane method of the parent sliding zone.
->
-|
+| **get_collapsed** |none|boolean|Returns whether the pane is collapsed. *Note to collapse a pane, use the collapsePane method of the parent sliding zone.*|
+| **get_expanded** |none|boolean|Returns whether the pane is expanded. *Note to expand a pane, use the expandPane method of the parent sliding zone.*|
+| **get_docked** |none|boolean|Returns whether the pane is docked. *Note to dock a pane, use the dockPane method of the parent sliding zone.*|
 | **get_enableResize** |none|boolean|Returns whether the pane has a resizable border.|
 | **set_enableResize** |boolean|none|Returns whether the pane has a resizable border.|
 | **get_enableDock** |none|boolean|Returns whether the pane can be docked.|
@@ -74,7 +55,7 @@ The following table lists the important **RadSlidingPane** client-side methods:
 | **getDockIconElement** |none|HTML element|Returns the DOM element for the <img> that represents the dock icon.|
 | **getUndockIconElement** |none|HTML element|Returns the DOM element for the <img> that represents the undock icon.|
 
-# See Also
+## See Also
 
  * [Overview]({%slug splitter/client-side-programming/overview%})
 
