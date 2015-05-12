@@ -12,9 +12,8 @@ position: 2
 
 
 
-## 
 
-How the tooltip becomes visible on the screen can be controlled with the **Animation**property. Possible values are:
+How the tooltip becomes visible on the screen can be controlled with the **Animation** property. Possible values are:
 
 * None
 
@@ -26,7 +25,7 @@ How the tooltip becomes visible on the screen can be controlled with the **Anima
 
 * FlyIn
 
-For a live demonstration showing tooltips with all possible Animation values see [Animation](http://demos.telerik.com/aspnet-ajax/ToolTip/Examples/Animation/DefaultCS.aspx).
+For a live demonstration showing tooltips with all possible Animation values see the [Animation](http://demos.telerik.com/aspnet-ajax/ToolTip/Examples/Animation/DefaultCS.aspx) live demo.
 
 # See Also
 

@@ -12,7 +12,6 @@ position: 0
 
 
 
-## 
 
 There are a number of ways you can customize the look & feel of your tooltips:
 
@@ -22,7 +21,7 @@ There are a number of ways you can customize the look & feel of your tooltips:
 
 * To change the way the tooltip initially becomes visible, use the [Animation]({%slug tooltip/appearance-and-styling/animation%}) property.
 
-* To change the look of an individual aspect of the tooltip, use its **CssClass** property and set up CSS styles as needed.
+* To change the look of an individual aspect of the tooltip, use its **CssClass** property and set up CSS rules as needed.
 
 * To change the initial position of the tooltip use the [Position]({%slug tooltip/getting-started/positioning%}) property which is an enumerator.
 

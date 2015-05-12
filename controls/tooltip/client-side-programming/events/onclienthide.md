@@ -12,7 +12,6 @@ position: 5
 
 
 
-## 
 
 The **OnClientHide** client-side event occurs as the tooltip is hidden. The event cannot be canceled.
 
@@ -22,18 +21,18 @@ The event handler receives parameters:
 
 1. Event arguments.
 
-In the example below, when the mouse passes out of "Button1", clientHide() displays an alert box with the text of the tool tip.
+In the example below, when the mouse passes out of "Button1", `clientHide()` displays an alert box with the text of the tool tip.
 
-````ASPNET
-	    <script type="text/javascript">
-	        function clientHide(sender, eventArgs)
-	        {
-	            alert("OnClientHide tool tip: " + sender.get_text());
-	        }
-	    </script>
-	    <telerik:RadToolTip ID="RadToolTip1" runat="server" Skin="Inox" TargetControlID="Button1"
-	        IsClientID="true" OnClientHide="clientHide" Text="text">
-	    </telerik:RadToolTip>
+````ASP.NET
+<script type="text/javascript">
+    function clientHide(sender, eventArgs)
+    {
+        alert("OnClientHide tool tip: " + sender.get_text());
+    }
+</script>
+<telerik:RadToolTip ID="RadToolTip1" runat="server" Skin="Inox" TargetControlID="Button1"
+    IsClientID="true" OnClientHide="clientHide" Text="text">
+</telerik:RadToolTip>
 ````
 
 

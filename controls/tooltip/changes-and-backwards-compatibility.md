@@ -12,11 +12,7 @@ position: 1
 
 
 
-## 
-
-Telerik RadToolTip for ASP.NET AJAX A complete list of all changes can be found on Release History page:
-
-[http://www.telerik.com/products/aspnet-ajax/whats-new/release-history.aspx](http://www.telerik.com/products/aspnet-ajax/whats-new/release-history.aspx)
+A complete list of all changes can be found on Release History page: [http://www.telerik.com/products/aspnet-ajax/whats-new/release-history.aspx](http://www.telerik.com/products/aspnet-ajax/whats-new/release-history.aspx)
 
 ## Telerik RadToolTip for ASP.NET AJAX Q3 2009 SP1
 
@@ -36,23 +32,21 @@ RadToolTip for ASP.NET AJAX which is part of the Q2 2009 release is fully backwa
 
 * Refactoring of the CSS code to achieve better understanding, easier maintenance and handle problems with global styles
 
-* Changes to the CSS classes, so now all controls for ASP.NET AJAX comply with a common naming conventionFor examplewas:**radtooltip_Default**now:**RadToolTip_Default**
+* Changes to the CSS classes, so now all controls for ASP.NET AJAX comply with a common naming convention. For example: **`radtooltip_Default`** is now: **`RadToolTip_Default`**
 
-* The**ManualClose**and**Sticky** properties are obsolete, a new property is introduced to control the event on which the tooltip should hide -**HideEvent.** The **HideEvent** property is an enum and can take the following values, which names describe the effect when they are set:
+* The **ManualClose** and **Sticky** properties are obsolete, a new property is introduced to control the event on which the tooltip should hide - **HideEvent**. The **HideEvent** property is an enum and can take the following values, which names describe the effect when they are set:
 
-* **Default**
+	* **Default**
+	
+	* **FromCode**
+	
+	* **LeaveTargetAndToolTip**
+	
+	* **LeaveToolTip**
+	
+	* **ManualClose**
 
-* **FromCode**
-
-* **LeaveTargetAndToolTip**
-
-* **LeaveToolTip**
-
-* **ManualClose**
-
-**An online demo about the HideEvent property is available below:**
-
-**http://demos.telerik.com/aspnet-ajax/tooltip/examples/hideevent/defaultcs.aspxhttp://demos.telerik.com/aspnet-ajax/tooltip/examples/hideevent/defaultcs.aspx**
+**An online demo about the HideEvent property is available online:** **http://demos.telerik.com/aspnet-ajax/tooltip/examples/hideevent/defaultcs.aspx**
 
 
 ## Telerik RadToolTip for ASP.NET AJAX Q3 2008

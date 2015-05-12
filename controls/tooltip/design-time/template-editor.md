@@ -12,25 +12,26 @@ position: 2
 
 
 
-## 
+
 
 The template editor appears as the lower area in the RadToolTip at design-time. You can drag controls from the toolbox to the RadToolTip Template Editor:
->caption 
+
 
 ![](images/tooltip-design003.png)
 
 Elements placed in the template editor will show up within the ASP.NET markup RadToolTip tags:
 
-````ASPNET
-	    <telerik:RadToolTip ID="RadToolTip1" runat="server" TargetControlID="HyperLink1"
+````ASP.NET
+<telerik:RadToolTip ID="RadToolTip1" runat="server" TargetControlID="HyperLink1"
 	        Position="BottomCenter">
-	        My Content:<asp:Button ID="Button1" runat="server" Text="Button" /></telerik:RadToolTip>
+	My Content:<asp:Button ID="Button1" runat="server" Text="Button" />
+</telerik:RadToolTip>
 ````
 
 
 
 The template content will display in the tooltip at runtime:
->caption 
+
 
 ![](images/tooltip-design004.png)
 

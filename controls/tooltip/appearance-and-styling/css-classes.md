@@ -76,7 +76,7 @@ position: 3
 | **.RadToolTip_rtl .rtCalloutMiddleRight** |RadToolTip right to left callout middle right button|
 | **div.RadToolTip_rtl .rtShadow** |RadToolTIp Shadows Enabled – the selectors are the same, and the only difference is that the cascade is made via the **.rtShadow** class.|
 
-# See Also[](09C9E617-F53F-4A6F-8335-065A6A4D9775)
+# See Also
 
  * [Tutorial: Creating a Custom Skin]({%slug tooltip/appearance-and-styling/tutorial:-creating-a-custom-skin%})
 

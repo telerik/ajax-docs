@@ -25,49 +25,44 @@ The possible options are:
 * **Auto** - this mode makes each control choose the appropriate rendering mode according to the used	browser - **Classic** or **Lightweight**. This functionality was added in Q3 2013.
 
 >important RadToolTip and RadToolTipManager, as well as the other Telerik controls that utilize render modes, support only one type of render mode per page.This includes mode being set for a standalone RadToolTip and RadToolTipManager. All such controls must have the same RenderMode on a given page.This also includes instances from user controls and master pages.
->
+
 
 
 >note A RadToolTip created by a RadToolTipManager will inherit the manager's render mode.
->
 
 
-## 
+
+
 
 There are two ways to configure the rendering mode of the controls:
 
 * The **RenderMode property** in the markup or in the code-behind that can be used for a particular instance:
 
-````ASPNET
+	__ASP.NET__
+
 		<telerik:RadToolTip ID="RadToolTip1" runat="server" RenderMode="Lightweight">
 		</telerik:RadToolTip>
 		<telerik:RadToolTipManager ID="RadToolTipManager1" runat="server" RenderMode="Lightweight">
 		</telerik:RadToolTipManager>
-````
 
 
+	__C#__
 
+		RadToolTip1.RenderMode = Telerik.Web.UI.RenderMode.Lightweight;
+		RadToolTipManager1.RenderMode = Telerik.Web.UI.RenderMode.Lightweight;
 
+	__VB__
 
-````C#
-			RadToolTip1.RenderMode = Telerik.Web.UI.RenderMode.Lightweight;
-			RadToolTipManager1.RenderMode = Telerik.Web.UI.RenderMode.Lightweight;
-````
-````VB.NET
-			RadToolTip1.RenderMode = Telerik.Web.UI.RenderMode.Lightweight
-			RadToolTipManager1.RenderMode = Telerik.Web.UI.RenderMode.Lightweight
-	#End Region
-	End Class
-
+		RadToolTip1.RenderMode = Telerik.Web.UI.RenderMode.Lightweight
+		RadToolTipManager1.RenderMode = Telerik.Web.UI.RenderMode.Lightweight
 
 
 
 * A **global setting in the web.config** file that will affect the entire application, unless a concrete value is specifiedfor a given control instance:
 
-````XML
+	__XML__
+		
 		<appSettings>
 			<add key="Telerik.Web.UI.ToolTip.RenderMode" value="Lightweight" />
 		</appSettings>
-````
-
 

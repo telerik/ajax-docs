@@ -12,11 +12,11 @@ position: 4
 
 
 
-## 
+
 
 The RadToolTip **ShowEvent** property controls the type of event that triggers the showing of a tooltip. The possible values are:
 
-* **OnMouseOver**(Default): RadToolTip appears on mouse over the target control
+* **OnMouseOver** (Default): RadToolTip appears on mouse over the target control
 
 * **OnClick**: RadToolTip appears on clicking with the left button of the mouse on the target control
 
@@ -24,7 +24,7 @@ The RadToolTip **ShowEvent** property controls the type of event that triggers t
 
 * **OnFocus**: RadToolTip appears on focus of the target control
 
-For a live demo of this property see [Show On Event](http://demos.telerik.com/aspnet-ajax/ToolTip/Examples/ShowEvent/DefaultCS.aspx).
+For a live demo of this property see [Show On Event](http://demos.telerik.com/aspnet-ajax/tooltip/examples/showevent/defaultcs.aspx).
 
 # See Also
 

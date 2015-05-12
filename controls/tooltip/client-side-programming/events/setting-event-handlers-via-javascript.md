@@ -11,20 +11,18 @@ position: 1
 # Setting Event Handlers via JavaScript
 
 
-
-## 
+You can use the client-side API of the RadToolTip and RadToolTipManager controls to modify the event handlers they call.
+ 
 
 When using the client-side API, pass a reference to the event handler rather than its name. One advantage of using the client-side API is that you can attach multiple event handlers to one event using the standard MS AJAX convention:
 
 ````JavaScript
-	
-	        function addEvents()
-	        {
-	            var radToolTip1 = $find("<%= RadToolTip1.ClientID %>");
-	            radToolTip1.add_show(clientShow1);
-	            radToolTip1.add_show(clientShow2);
-	        }
-	
+function addEvents()
+{
+    var radToolTip1 = $find("<%= RadToolTip1.ClientID %>");
+    radToolTip1.add_show(clientShow1);
+    radToolTip1.add_show(clientShow2);
+}
 ````
 
 
@@ -32,13 +30,11 @@ When using the client-side API, pass a reference to the event handler rather tha
 Another advantage of the client-side API is that you can detach an event handler dynamically:
 
 ````JavaScript
-	
-	        function removeEvents()
-	        {
-	            var radToolTip1 = $find("<%= RadToolTip1.ClientID %>");
-	            radToolTip1.remove_show(clientShow);
-	        }
-	
+function removeEvents()
+{
+    var radToolTip1 = $find("<%= RadToolTip1.ClientID %>");
+    radToolTip1.remove_show(clientShow);
+}
 ````
 
 

@@ -12,34 +12,28 @@ position: 1
 
 
 
-## 
 
-The **TargetControlID**property specifies the ID of the element that should be 'tooltipified'. It can be set declaratively on the page:
+The **TargetControlID** property specifies the ID of the element that should be 'tooltipified'. It can be set declaratively on the page:
 
-````ASPNET
-	    <telerik:RadToolTip ID="RadToolTip1" runat="server" TargetControlID="Button1" IsClientID="true">
-	    </telerik:RadToolTip>
+````ASP.NET
+<telerik:RadToolTip ID="RadToolTip1" runat="server" TargetControlID="Button1" IsClientID="true">
+</telerik:RadToolTip>
 ````
 
 
-
-...and in the code-behind:
+or in the code-behind:
 
 
 
 ````C#
-	
-			Button button1 = new Button(); 
-			button1.ID = "Button1"; 
-			RadToolTip1.TargetControlID = button1.ID;
-	
+Button button1 = new Button(); 
+button1.ID = "Button1"; 
+RadToolTip1.TargetControlID = button1.ID;
 ````
-````VB.NET
-	
-	        Dim button1 As New Button()
-	        button1.ID = "Button1"
-	        RadToolTip1.TargetControlID = button1.ID
-	
+````VB
+Dim button1 As New Button()
+button1.ID = "Button1"
+RadToolTip1.TargetControlID = button1.ID
 ````
 
 
@@ -48,20 +42,16 @@ By default, **RadToolTip** assumes a server ID. If the ID is client-side, as in 
 
 
 ````C#
-	
-			Button button1 = new Button();
-			button1.ID = "Button1"; 
-			RadToolTip1.TargetControlID = button1.ClientID; 
-			RadToolTip1.IsClientID = true;
-	
+Button button1 = new Button();
+button1.ID = "Button1"; 
+RadToolTip1.TargetControlID = button1.ClientID; 
+RadToolTip1.IsClientID = true;
 ````
-````VB.NET
-	
-	        Dim button1 As New Button()
-	        button1.ID = "Button1"
-	        RadToolTip1.TargetControlID = button1.ClientID
-	        RadToolTip1.IsClientID = True
-	
+````VB
+Dim button1 As New Button()
+button1.ID = "Button1"
+RadToolTip1.TargetControlID = button1.ClientID
+RadToolTip1.IsClientID = True
 ````
 
 

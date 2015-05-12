@@ -12,12 +12,11 @@ position: 7
 
 
 
-## 
 
 Use "sticky" functionality when the tooltip should behave like a menu, dropdown, or a context menu. It prevents the tooltip from hiding when the mouse moves away from the target element and tooltip, so content in the tooltip itself can be selected. The tooltip will close when the mouse moves out of the target element and out of the tooltip itself.
 
 To make the RadToolTip sticky, set the **HideEvent="LeaveToolTip"**.
->caption 
+
 
 ![](images/tooltip-stickytooltip.png)
 

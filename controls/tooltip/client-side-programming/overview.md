@@ -12,29 +12,25 @@ position: 0
 
 
 
-The **RadToolTip**and **RadToolTipManager**objects provide a client-side API that lets you interact with the controls in client-side code. In addition to a full set of [client-side events]({%slug tooltip/client-side-programming/events/overview%}), the client-side object model lets you manipulate tool tips while avoiding unnecessary post-backs.
+The **RadToolTip** and **RadToolTipManager** objects provide a client-side API that lets you interact with the controls in client-side code. In addition to a full set of [client-side events]({%slug tooltip/client-side-programming/events/overview%}), the client-side object model lets you manipulate tool tips while avoiding unnecessary post-backs.
 
 ## Getting the RadToolTip and RadToolTipManager Client-side Objects
 
-**RadToolTip**and **RadToolTipManager**create a client-side object with the **ClientID** of the control. You can obtain the reference to these objects using the following JavaScript code:
+**RadToolTip** and **RadToolTipManager** create a client-side object with the **ClientID** of the control. You can obtain the reference to these objects using the following JavaScript code:
 
 ````JavaScript
-	
-	        var radToolTip = $find("<%= RadToolTip1.ClientID %>");
-	        var radToolTipManager = $find("<%= RadToolTipManager1.ClientID %>");
-	
+var radToolTip = $find("<%= RadToolTip1.ClientID %>");
+var radToolTipManager = $find("<%= RadToolTipManager1.ClientID %>");
 ````
 
 
 
 ## Get the Currently Active Tooltip
 
-You can get the tooltip that is currently active (shown)by using the using the following method:
+You can get the tooltip that is currently active (shown) by using the using the following method:
 
 ````JavaScript
-	
-	        var activeTooltip = Telerik.Web.UI.RadToolTip.getCurrent();
-	
+var activeTooltip = Telerik.Web.UI.RadToolTip.getCurrent();
 ````
 
 
@@ -46,12 +42,10 @@ You can use this to close the current tooltip according to your logic (e.g., a b
 Some client-side events occur immediately before **RadToolTip** or **RadToolTipManager** performs some action. You can use these events to cancel the impending action by using the cancel property of the eventArgs passed to the handler:
 
 ````JavaScript
-	
-	        function clientBeforeShow(sender, eventArgs)
-	        {
-	            eventArgs.set_cancel(true);
-	        }
-	
+function clientBeforeShow(sender, eventArgs)
+{
+    eventArgs.set_cancel(true);
+}
 ````
 
 
