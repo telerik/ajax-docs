@@ -12,9 +12,9 @@ position: 0
 
 
 
-## 
 
-Telerik **RadXmlHttpPanel**is a panel that can load content on demand using web services or ASP.NET callbacks. It can replace UpdatePanel, or RadAjaxPanel, in certain scenarios where no ViewState and control lifecycle execution is required. In these cases it will deliver much better performance compared to UpdatePanel or RadAjaxPanel.
+
+Telerik **RadXmlHttpPanel** is a panel that can load content on demand using web services or ASP.NET callbacks. It can replace UpdatePanel, or RadAjaxPanel, in certain scenarios where no ViewState and control lifecycle execution is required. In these cases it will deliver much better performance compared to UpdatePanel or RadAjaxPanel.
 
 Partial page updates with AJAX are flexible and can be used in just about any scenario. However, when AJAX is used, the server-side page goes through its full page lifecycle. The whole control tree is created, all event handlers are executed, the ViewState is processed and updated, and sent back to the client. On the other hand, callbacks and web services can also be used for partial page updates, but carry a much smaller (or even no additional) overhead.
 

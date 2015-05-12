@@ -5,7 +5,7 @@ description: Troubleshooting
 slug: xmlhttppanel/troubleshooting
 tags: troubleshooting
 published: True
-position: 5
+position: 60
 ---
 
 # Troubleshooting
@@ -14,15 +14,15 @@ position: 5
 
 ## Compatibility issues with RadScriptManager and RadStyleSheetManager
 
-The **RadXmlHttpPanel** has known compatibility issues with **RadScriptManager** and **RadStyleSheetManager**.Both managers combine all the requests (**RadScriptManager** combines the requests to the JavaScript assembly resource files and **RadStyleSheetManager** combines the ones to stylesheet resource files of all **Telerik controls** present on the page),into a single request.
+The **RadXmlHttpPanel** has known compatibility issues with **RadScriptManager** and **RadStyleSheetManager**. Both managers combine all the requests (**RadScriptManager** combines the requests to the JavaScript assembly resource files and **RadStyleSheetManager** combines the ones to stylesheet resource files of all **Telerik controls** present on the page),into a single request.
 
-Because the page does not go through its normal life cycle, after the **Telerik controls** have been updated by the **RadXmlHttpPanel**, the controls’ scripts and stylesheets need to be evaluated and applied, respectively. This, however cannot be done if the scripts (and the stylesheets) are combined into a single file - the **RadXmlHttpPanel**cannot find the right scripts and styles for the respective **Telerik control**. That is why there might be client-script errors and the styles will not be applied correctly if the **RadXmlHttpPanel**is used together with the **RadStyleSheetManager**and the **RadScriptManager**.
+Because the page does not go through its normal life cycle, after the **Telerik controls** have been updated by the **RadXmlHttpPanel**, the controls’ scripts and stylesheets need to be evaluated and applied, respectively. This, however cannot be done if the scripts (and the stylesheets) are combined into a single file - the **RadXmlHttpPanel** cannot find the right scripts and styles for the respective **Telerik control**. That is why there might be client-script errors and the styles will not be applied correctly if the **RadXmlHttpPanel** is used together with the **RadStyleSheetManager** and the **RadScriptManager**.
 
 There are 2 ways to solve this problem:
 
-1. use the Microsoft AJAX ScriptManager controlOR
+* use the Microsoft AJAX ScriptManager control
 
-1. set **EnableScriptCombine="false"** for **RadScriptManager** and **EnableStyleSheetCombine="false"** to **RadStyleSheetManager**.
+* OR, set **EnableScriptCombine="false"** for **RadScriptManager** and **EnableStyleSheetCombine="false"** to **RadStyleSheetManager**.
 
 
 

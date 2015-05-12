@@ -8,13 +8,13 @@ published: True
 position: 0
 ---
 
-# Events Overview
+# Client-side Events Overview
 
 
 
-## 
 
-**RadXmlHttpPanel** offers a set of client-side events that let the developer apply the needed logic through the control's[Client-side API]({%slug xmlhttppanel/client-side-programming/xmlhttppanel-object%}):
+
+**RadXmlHttpPanel** offers a set of client-side events that let the developer apply the needed logic through the control's [Client-side API]({%slug xmlhttppanel/client-side-programming/xmlhttppanel-object%}):
 
 * **[OnClientResponseEnding]({%slug xmlhttppanel/client-side-programming/events/onclientresponseending%})**—occurs before the data (content) is pasted into the RadXmlHttpPanel.
 
@@ -26,4 +26,3 @@ position: 0
 
  * [Overview]({%slug xmlhttppanel/client-side-programming/overview%})
 
- * [Overview]({%slug xmlhttppanel/client-side-programming/overview%})

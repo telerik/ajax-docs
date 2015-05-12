@@ -12,7 +12,7 @@ position: 1
 
 
 
-## 
+
 
 The **RadXmlHttpPanel** object exposes the following public properties to control its behavior:
 
@@ -21,9 +21,9 @@ The **RadXmlHttpPanel** object exposes the following public properties to contro
 
 | Method | Description |
 | ------ | ------ |
-| **get_value()** |Returns the value that is passed to the RadXmlHttpPanel|
+| **get_value()** |Returns the value that is passed to the RadXmlHttpPanel.|
 | **set_value(value)** |passes a value to the RadXmlHttpPanel depending on which content is loaded inside the RadXmlHttpPanel and initiates a partial page request.|
-| **get_element()** |returns the DOM element for this control|
+| **get_element()** |returns the DOM element for this control.|
 | **set_html(content)** |sets a custom HTML content to the RadXmlHttpPanel.|
 
 # See Also

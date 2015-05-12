@@ -12,6 +12,5 @@ position: 1
 
 
 
-## 
 
 The **OnClientResponseEnded** occurs immediately after the data (content) is pasted into the **RadXmlHttpPanel**. This client-side event is subsequent to the **OnClientResponseEnding** event.The event handler receives a single parameter: the instance of the RadXmlHttpPanel control firing the event.

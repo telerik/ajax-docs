@@ -12,7 +12,7 @@ position: 0
 
 
 
-## 
+
 
 **RadXmlHttpPanel** provides the following server-side properties:
 
@@ -26,4 +26,4 @@ position: 0
 | **WebMethodPath** |Gets or sets a string value that indicates the virtual path of the WebService used by the RadXmlHttpPanel.|
 | **WebMethodName** |Gets or sets a string value that indicates the WebService method used by the RadXmlHttpPanel.|
 | **EnableClientScriptEvaluation** |Gets or sets a boolean value indicating whether or not the client scripts loaded by the Telerik controls hosted inside the RadXmlHttpPanel should be executed.|
-| **RenderMode** |Gets or sets a value that indicates how the content of an RadXmlHttpPanel control will be wrapped on a page|
+| **RenderMode** |Gets or sets a value that indicates how the content of an RadXmlHttpPanel control will be wrapped on a page.|
