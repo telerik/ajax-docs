@@ -1,5 +1,5 @@
 ---
-title: Icons Overview
+title: Overview
 page_title: Overview | RadButton for ASP.NET AJAX Documentation
 description: Overview
 slug: button/button-types/icons/overview

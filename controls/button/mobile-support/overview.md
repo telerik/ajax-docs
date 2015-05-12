@@ -1,5 +1,5 @@
 ---
-title: Mobile Support Overview
+title: Overview
 page_title: Overview | RadButton for ASP.NET AJAX Documentation
 description: Overview
 slug: button/mobile-support/overview

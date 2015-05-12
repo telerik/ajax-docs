@@ -1,7 +1,7 @@
 http://www.telerik.com/help/aspnet-ajax/button-accessibility-support.html http://docs.telerik.com/devtools/ajax/button/accessibility-and-internationalization/wcag-2.0-and-section-508-accessibility-compliance
 http://www.telerik.com/help/aspnet-ajax/button-appearance-primary-and-secondary-action-buttons.html http://docs.telerik.com/devtools/ajax/button/appearance-and-styling/primary-and-secondary-action-buttons
 http://www.telerik.com/help/aspnet-ajax/button-appearance-skins.html http://docs.telerik.com/devtools/ajax/button/appearance-and-styling/skins
-http://www.telerik.com/help/aspnet-ajax/button-changes-and-back-compatibility.html http://docs.telerik.com/devtools/ajax/button/changes-and-backward-compatibility/overview
+http://www.telerik.com/help/aspnet-ajax/button-changes-and-back-compatibility.html http://docs.telerik.com/devtools/ajax/button/changes-and-backward-compatibility
 http://www.telerik.com/help/aspnet-ajax/button-client-side-basics.html http://docs.telerik.com/devtools/ajax/button/client-side-programming/overview
 http://www.telerik.com/help/aspnet-ajax/button-client-side-events-overview.html http://docs.telerik.com/devtools/ajax/button/client-side-programming/events/overview
 http://www.telerik.com/help/aspnet-ajax/button-clientside-click-event-not-handled.html http://docs.telerik.com/devtools/ajax/button/troubleshooting/client-side-click-event-handler-is-not-executed
@@ -40,4 +40,4 @@ http://www.telerik.com/help/aspnet-ajax/button-use-navigate-url-with-standard-bu
 http://www.telerik.com/help/aspnet-ajax/button-validation-with-postback-confirm.html http://docs.telerik.com/devtools/ajax/button/how-to/radbutton-validation-and-client-side-event-handlers
 http://www.telerik.com/help/aspnet-ajax/button_appearancecssfileselectors.html http://docs.telerik.com/devtools/ajax/button/appearance-and-styling/css-classes
 http://www.telerik.com/help/aspnet-ajax/button_appearancecustomskin.html http://docs.telerik.com/devtools/ajax/button/appearance-and-styling/creating-a-custom-skin
-http://www.telerik.com/help/aspnet-ajax/button_overview.html http://docs.telerik.com/devtools/ajax/button/telerik's-asp.net-button-overview
+http://www.telerik.com/help/aspnet-ajax/button_overview.html http://docs.telerik.com/devtools/ajax/button/overview
