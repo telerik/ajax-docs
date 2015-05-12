@@ -1,4 +1,4 @@
-﻿---
+---
 title: Creating a Custom LightWeight Skin
 page_title: Creating a Custom LightWeight Skin | RadButton for ASP.NET AJAX Documentation
 description: Creating a Custom LightWeight Skin
@@ -9,7 +9,6 @@ position: 3
 ---
 
 # Creating a Custom LightWeight Skin
-
 
 
 ## RadButton Custom Skin with LightWeight RenderMode
@@ -45,7 +44,7 @@ As of **Q1 2015** RadButton has a [LightWeight render mode]({%slug button/mobile
 1. Add a new server declaration of **RadButton** on your page, and set **Skin="MyCustomSkin"**and **EnableEmbeddedSkins="false"**:
 
 ````ASP.NET
-			<telerik:RadButton ID="RadButton1" runat="server" EnableEmbeddedSkins="false" Skin="MyCustomSkin" />
+<telerik:RadButton ID="RadButton1" runat="server" EnableEmbeddedSkins="false" Skin="MyCustomSkin" />
 ````
 
 
@@ -53,7 +52,7 @@ As of **Q1 2015** RadButton has a [LightWeight render mode]({%slug button/mobile
 1. Register **Button.MyCustomSkin.css** in the head section of your web page. In order to have the CSS applied correctly, the base stylesheet should come first in the DOM:
 
 ````ASP.NET
-			<link href="Skins/MyCustomSkin/Button.MyCustomSkin.css" rel="stylesheet" type="text/css" />
+<link href="Skins/MyCustomSkin/Button.MyCustomSkin.css" rel="stylesheet" type="text/css" />
 ````
 
 
@@ -69,75 +68,73 @@ As of **Q1 2015** RadButton has a [LightWeight render mode]({%slug button/mobile
 Below is shown how to modify the CSS in order not only to change some colors and background colors, but also some base layout settings such as font size, element height, border-radius etc.
 
 ````ASP.NET
-	<!DOCTYPE html>
-	
-	<html xmlns="http://www.w3.org/1999/xhtml">
-	<head runat="server">
-		<title></title>
-		<style>
-			/* Button normal state */
-			.RadButton.RadButton_Default.rbButton,
-			.RadButton.RadButton_Default.rbButton .rbSplitPart {
-				background-color: #80078e;
-				background-image: linear-gradient(#4f0258, #80078e 100%);
-				border-color: #6b536e;
-				color: #fff;
-			}
-	
-			/* Button hovered state */
-			.RadButton.RadButton_Default.rbButton.rbHovered,
-			.RadButton.RadButton_Default.rbButton .rbSplitPart.rbHovered {
-				background-color: #660283;
-				background-image: linear-gradient(#660283, #f2ddf8 100%);
-				border-color: #47035a;
-				color: #3a0470;
-			}
-	
-			/* Check and radio normal state */
-			.RadButton.RadButton_Default.rbToggleButton .rbIcon:before, 
-			.RadButton.RadButton_Default.rbCheckBox .rbIcon:before, 
-			.RadButton.RadButton_Default.rbRadioButton .rbIcon:before {
-				color: #9f50f0;
-			}
-	
-			/* Check and radio hovered state */
-			.RadButton.RadButton_Default.rbToggleButton.rbHovered .rbIcon:before, 
-			.RadButton.RadButton_Default.rbCheckBox.rbHovered .rbIcon:before, 
-			.RadButton.RadButton_Default.rbRadioButton.rbHovered .rbIcon:before {
-				color: #530d9a;
-			}
-		</style>
-	</head>
-	<body>
-		<form id="form1" runat="server">
-			<asp:ScriptManager runat="server"></asp:ScriptManager>
-			<telerik:RadButton runat="server" Text="Button" RenderMode="Lightweight"></telerik:RadButton>
-			<telerik:RadButton runat="server" Text="Link Button" RenderMode="Lightweight" ButtonType="LinkButton"></telerik:RadButton>
-			<telerik:RadButton runat="server" Text="Split Button Right" RenderMode="Lightweight" EnableSplitButton="true" SplitButtonPosition="Right"></telerik:RadButton>
-			<telerik:RadButton runat="server" Text="Split Button Left" RenderMode="Lightweight" EnableSplitButton="true" SplitButtonPosition="Left"></telerik:RadButton>
-			<telerik:RadButton runat="server" RenderMode="Lightweight" Text="Icon Left">
-				<Icon PrimaryIconCssClass="rbPrint" />
-			</telerik:RadButton>
-			<telerik:RadButton runat="server" RenderMode="Lightweight" Text="Icon Left">
-				<Icon SecondaryIconCssClass="rbCancel" />
-			</telerik:RadButton>
-			<telerik:RadButton runat="server" RenderMode="Lightweight" Text="Icon Left">
-				<Icon PrimaryIconCssClass="rbPrevious" />
-				<Icon SecondaryIconCssClass="rbNext" />
-			</telerik:RadButton>
-			<telerik:RadButton ID="RadButton22" runat="server" ToggleType="CheckBox" ButtonType="ToggleButton"
-				GroupName="Radios" AutoPostBack="false" RenderMode="Lightweight">
-				<ToggleStates>
-					<telerik:RadButtonToggleState Text="Checked"></telerik:RadButtonToggleState>
-					<telerik:RadButtonToggleState Text="UnChecked"></telerik:RadButtonToggleState>
-				</ToggleStates>
-			</telerik:RadButton>
-		</form>
-	</body>
-	</html>
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+	<title></title>
+	<style>
+		/* Button normal state */
+		.RadButton.RadButton_Default.rbButton,
+		.RadButton.RadButton_Default.rbButton .rbSplitPart {
+			background-color: #80078e;
+			background-image: linear-gradient(#4f0258, #80078e 100%);
+			border-color: #6b536e;
+			color: #fff;
+		}
+
+		/* Button hovered state */
+		.RadButton.RadButton_Default.rbButton.rbHovered,
+		.RadButton.RadButton_Default.rbButton .rbSplitPart.rbHovered {
+			background-color: #660283;
+			background-image: linear-gradient(#660283, #f2ddf8 100%);
+			border-color: #47035a;
+			color: #3a0470;
+		}
+
+		/* Check and radio normal state */
+		.RadButton.RadButton_Default.rbToggleButton .rbIcon:before, 
+		.RadButton.RadButton_Default.rbCheckBox .rbIcon:before, 
+		.RadButton.RadButton_Default.rbRadioButton .rbIcon:before {
+			color: #9f50f0;
+		}
+
+		/* Check and radio hovered state */
+		.RadButton.RadButton_Default.rbToggleButton.rbHovered .rbIcon:before, 
+		.RadButton.RadButton_Default.rbCheckBox.rbHovered .rbIcon:before, 
+		.RadButton.RadButton_Default.rbRadioButton.rbHovered .rbIcon:before {
+			color: #530d9a;
+		}
+	</style>
+</head>
+<body>
+	<form id="form1" runat="server">
+		<asp:ScriptManager runat="server"></asp:ScriptManager>
+		<telerik:RadButton runat="server" Text="Button" RenderMode="Lightweight"></telerik:RadButton>
+		<telerik:RadButton runat="server" Text="Link Button" RenderMode="Lightweight" ButtonType="LinkButton"></telerik:RadButton>
+		<telerik:RadButton runat="server" Text="Split Button Right" RenderMode="Lightweight" EnableSplitButton="true" SplitButtonPosition="Right"></telerik:RadButton>
+		<telerik:RadButton runat="server" Text="Split Button Left" RenderMode="Lightweight" EnableSplitButton="true" SplitButtonPosition="Left"></telerik:RadButton>
+		<telerik:RadButton runat="server" RenderMode="Lightweight" Text="Icon Left">
+			<Icon PrimaryIconCssClass="rbPrint" />
+		</telerik:RadButton>
+		<telerik:RadButton runat="server" RenderMode="Lightweight" Text="Icon Left">
+			<Icon SecondaryIconCssClass="rbCancel" />
+		</telerik:RadButton>
+		<telerik:RadButton runat="server" RenderMode="Lightweight" Text="Icon Left">
+			<Icon PrimaryIconCssClass="rbPrevious" />
+			<Icon SecondaryIconCssClass="rbNext" />
+		</telerik:RadButton>
+		<telerik:RadButton ID="RadButton22" runat="server" ToggleType="CheckBox" ButtonType="ToggleButton"
+			GroupName="Radios" AutoPostBack="false" RenderMode="Lightweight">
+			<ToggleStates>
+				<telerik:RadButtonToggleState Text="Checked"></telerik:RadButtonToggleState>
+				<telerik:RadButtonToggleState Text="UnChecked"></telerik:RadButtonToggleState>
+			</ToggleStates>
+		</telerik:RadButton>
+	</form>
+</body>
+</html>
 ````
-
-
 
 ## See Also
 
