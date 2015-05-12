@@ -6,7 +6,7 @@ slug: treelist/data-binding/net-3.5-data-source-controls
 tags: .net,3.5,data,source,controls
 published: True
 position: 2
-previous_url: treelist/data-binding/.net-3.5-data-source-controls
+previous_url: controls/treelist/data-binding/.net-3.5-data-source-controls
 ---
 
 # .NET 3.5 Data Source Controls

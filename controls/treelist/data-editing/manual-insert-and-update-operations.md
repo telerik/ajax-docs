@@ -6,7 +6,7 @@ slug: treelist/data-editing/manual-insert-and-update-operations
 tags: manual,insert/update,operations
 published: True
 position: 3
-previous_url: treelist/data-editing/manual-insert/update-operations
+previous_url: controls/treelist/data-editing/manual-insert/update-operations
 ---
 
 # Manual Insert/Update Operations

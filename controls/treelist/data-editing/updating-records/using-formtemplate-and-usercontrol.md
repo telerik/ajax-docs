@@ -6,7 +6,7 @@ slug: treelist/data-editing/updating-records/using-formtemplate-and-usercontrol
 tags: using,formtemplate/usercontrol
 published: True
 position: 1
-previous_url: treelist/data-editing/updating-records/using-formtemplate/usercontrol
+previous_url: controls/treelist/data-editing/updating-records/using-formtemplate/usercontrol
 ---
 
 # Using FormTemplate/UserControl
