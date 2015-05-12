@@ -32,7 +32,7 @@ protected void RadColorPicker1_ColorChanged(object sender, EventArgs e)
 		RadColorPicker1.SelectedColor.GetBrightness());
 } 
 ````
-````VB.NET
+````VB
 Protected Sub RadColorPicker1_ColorChanged(ByVal sender As Object, ByVal e As EventArgs)
 	Dim colorName As String = System.Drawing.ColorTranslator.ToHtml(RadColorPicker1.SelectedColor)
 	Label1.Text = String.Format("Color: {0} Hue: {1} Saturation: {2} Brightness {3}", colorName, RadColorPicker1.SelectedColor.GetHue(), RadColorPicker1.SelectedColor.GetSaturation(), RadColorPicker1.SelectedColor.GetBrightness())

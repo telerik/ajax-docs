@@ -10,8 +10,6 @@ position: 3
 
 # Localization
 
-
-
 **RadColorPicker** provides a mechanism for quick and easy localization based on the native ASP.NET localization. All tab and button labels are obtained from the resource files located in the WebSite's App_GlobalResources directory, so that the language of the **RadColorPicker** is automatically switched to the culture and UI culture of the Web page.
 
 Each of the localization strings can be modified at runtime using the **Localization** server property. This saves the need to create a new localization file to change a single string.
@@ -35,16 +33,12 @@ Each of the localization strings can be modified at runtime using the **Localiza
 </telerik:RadColorPicker>
 ````
 
-
-
 Or via the code-behind:
-
-
 
 ````C#
 RadColorPicker1.Localization.WebPaletteTabText = "Palette";
 ````
-````VB.NET
+````VB
 RadColorPicker1.Localization.WebPaletteTabText = "Palette"
 ````
 

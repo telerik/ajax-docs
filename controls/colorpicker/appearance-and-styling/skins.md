@@ -35,7 +35,7 @@ You can tweak the existing skins, or create your own. Each skin has two main ele
 
 1. Set the **EnableEmbeddedSkins** property of the controls that use the skin to **False**.
 
-The stylesheet for a **RadColorPicker**skin has the name **ColorPicker.[SkinName].css** and can be found in the **...Skins/[SkinName]** directory. The images are found in the **...Skins/[SkinName]/ColorPicker** directory. For example, the stylesheet for the "Black" skin is called ColorPicker.Black.css and is located in the ...Skins/Black directory.The images are found in the ...Skins/Black/ColorPicker directory. The images are referenced by name from within the stylesheet.
+The stylesheet for a **RadColorPicker** skin has the name **ColorPicker.[SkinName].css** and can be found in the **...Skins/[SkinName]** directory. The images are found in the **...Skins/[SkinName]/ColorPicker** directory. For example, the stylesheet for the "Black" skin is called ColorPicker.Black.css and is located in the ...Skins/Black directory.The images are found in the ...Skins/Black/ColorPicker directory. The images are referenced by name from within the stylesheet.
 
 For information on the CSS File structure, see the [Understanding the Skin CSS File]({%slug colorpicker/appearance-and-styling/understanding-the-skin-css-file%}) topic.
 

@@ -42,7 +42,7 @@ namespace ColorPicker
    }
 } 
 ````
-````VB.NET
+````VB
 Imports System
 Imports System.Web.UI
 Imports System.Web.UI.HtmlControls

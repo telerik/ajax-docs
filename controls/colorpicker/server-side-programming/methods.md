@@ -10,15 +10,9 @@ position: 0
 
 # Methods
 
-
-
-
-RadColorPicker has a number of methods that return [preset palette colors]({%slug colorpicker/functionality/color-presets%}), one method for each member of the **ColorPreset** enumeration. Use these methods to return a collection of **ColorPickerItem.**The example below enumerates the collection returned by **GetStandardColors()** method.
-
+RadColorPicker has a number of methods that return [preset palette colors]({%slug colorpicker/functionality/color-presets%}), one method for each member of the **ColorPreset** enumeration. Use these methods to return a collection of **ColorPickerItem.** The example below enumerates the collection returned by **GetStandardColors()** method.
 
 ![](images/radcolorpicker017.png)
-
-
 
 ````C#
 using System;
@@ -45,7 +39,7 @@ namespace ColorPicker
    }
 } 
 ````
-````VB.NET
+````VB
 Imports System
 Imports System.Web.UI
 Imports System.Web.UI.HtmlControls

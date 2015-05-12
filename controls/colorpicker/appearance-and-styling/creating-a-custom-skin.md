@@ -50,7 +50,7 @@ See [Understanding the Skin CSS File]({%slug colorpicker/appearance-and-styling/
 
 1. Press **Control-H** to invoke the Find and Replace dialog.
 
-1. Set **Find what:** to "_Default", **Replace with:** to "_MySkin", and **Look in:**to **Current Document**.
+1. Set **Find what:** to "_Default", **Replace with:** to "_MySkin", and **Look in:** to **Current Document**.
 
 1. Click the **Replace All** button.
 
