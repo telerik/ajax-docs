@@ -18,7 +18,8 @@ The __Visual StyleBuilder__ offers two main paths - creating a new skin from an 
 >
 ![introduction-stylebuilder-create-new-or-edit-existing-skin](images/introduction-stylebuilder-create-new-or-edit-existing-skin.png)
 
-Once the option for creating a new custom skin is selected a new page appears that allows you to select the starting parameters:![introduction-stylebuilder-choose-name-controls-base-skin](images/introduction-stylebuilder-choose-name-controls-base-skin.png)
+Once the option for creating a new custom skin is selected a new page appears that allows you to select the starting parameters:
+![introduction-stylebuilder-choose-name-controls-base-skin](images/introduction-stylebuilder-choose-name-controls-base-skin.png)
 
 1. Choose the name the custom skin will have. It will be used in the CSS selectors and should be given to the control's Skin property to use it.
 
@@ -48,7 +49,7 @@ Once the option for creating a new custom skin is selected a new page appears th
 
 ## Basic Skin Modifications
 
-The first thing that can be done easily is to change the overall colour the skin will use:![introduction-stylebuilder-base-color-change](images/introduction-stylebuilder-base-color-change.png)
+The first thing that can be done easily is to change the overall color the skin will use:![introduction-stylebuilder-base-color-change](images/introduction-stylebuilder-base-color-change.png)
 
 1. The skin name that was chosen in the previous step.
 
@@ -74,7 +75,7 @@ The first thing that can be done easily is to change the overall colour the skin
 
 1. The preview pane shows the end result from the changes in real-time.
 
-1. Toggle between the two color editing modes - basic colour choice and advanced modifications on the color.
+1. Toggle between the two color editing modes - basic color choice and advanced modifications on the color.
 
 1. Use the textbox to enter a hex color or the color picker to choose one with a visual interface.
 
