@@ -20,7 +20,7 @@ The event **CaptchaValidate** is fired before the control is validated. This eve
 
 The following example demonstrates a RadCaptcha that is validated if the sum of the digits, displayed in the code, is entered in the input. For this purpose the property **CancelDefaultValidation** is set to **true** and the new validation logic is implemented in the **CaptchaValidate** event handler. Finally, **IsValid** is set according to the result of the validation.
 
-````ASPNET
+````ASP.NET
 <telerik:RadCaptcha ID="RadCaptcha1" runat="server" ValidationGroup="CaptchaValidation" ErrorMessage="Page not valid. The code you entered is not valid."
 	CaptchaTextBoxCssClass="textBox" OnCaptchaValidate="RadCaptcha1_CaptchaValidate">
 	<CaptchaImage ImageCssClass="imageClass" BackgroundColor="#dff3ff" TextColor="Black"

@@ -12,7 +12,7 @@ position: 1
 
 The **RadCaptcha** fully supports right-to-left (RTL) language locales. In order to turn on the RTL support you should set **dir=rtl to the html or body** element or at least to its parent element. You can also use the **direction:rtl** CSS property.
 
-````ASPNET
+````ASP.NET
 <div dir="rtl">
 	<telerik:RadCaptcha ID="RadCaptcha1" runat="server" ErrorMessage="Page not valid. The code you entered is not valid"
 		ValidationGroup="Group">

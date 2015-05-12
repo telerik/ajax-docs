@@ -1,5 +1,5 @@
 ---
-title: Changes and Backward Compatibility Overview
+title: Overview
 page_title: Overview | RadCaptcha for ASP.NET AJAX Documentation
 description: Overview
 slug: captcha/changes-and-backward-compatibility/overview

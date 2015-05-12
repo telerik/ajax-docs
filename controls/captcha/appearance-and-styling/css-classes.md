@@ -92,7 +92,7 @@ This class gets applied to the Captcha’s textbox for entering the code, when t
 
 All of the above examples will apply the presented CSS code to all the instances of the RadCaptcha control on the page. In case you want to style only a specific RadCaptcha control, then the control should be placed inside another element and a CSS class applied to the element. So the following CSS will be applied only to “RadCaptcha1”.
 
-````ASPNET
+````ASP.NET
 <style type="text/css">
 	.customClass .rcInvalid
 	{
