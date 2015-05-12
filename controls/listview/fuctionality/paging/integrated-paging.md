@@ -31,7 +31,7 @@ The command names are listed bellow:
 | **Next** |Indicates that the end user chose to navigate to the next page in the grid|
 | **Prev** |Indicates that the end user chose to navigate to the previous page in the grid|
 | **Last** |Indicates that the end user chose to navigate to the last page in the grid|
-| **<NumericValue>** |<NumericValue> should be replaced with number that points to the page to which the control should navigate to|
+| **`<NumericValue>`** |<NumericValue> should be replaced with number that points to the page to which the control should navigate to|
 
 * **ChangePageSizeCommandName** represents the ChangePageSize command name fires **RadListView.PageSizeChanged** event. It can be raised by link/push/image buttons residing in the RadListView body when its **AllowPaging** property is set to true. Their **CommandName** should be set to **'ChangePageSize'** and **CommandArgument** must be the actual number representing the new page size that will be set.
 
@@ -201,4 +201,4 @@ The following declaration demonstrates how to use the internal event bubbling me
 </telerik:RadListView>
 ````
 
- 
+  

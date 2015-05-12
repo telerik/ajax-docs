@@ -12,7 +12,7 @@ position: 0
 
 
 
-## 
+##   
 
 **RadListView** offers the Items Drag & Drop capability, allowing you to easily implement scenarios that require dragging and moving data items on the page. For an online sample project, please check the [RadListView Items Drag & Drop demo](http://demos.telerik.com/aspnet-ajax/listview/examples/itemdragdrop/defaultcs.aspx).
 
@@ -103,7 +103,7 @@ As of version **Q2 2010 SP1** of Telerik controls, RadListView supports custom d
 
 where **[RadListViewClientID]** is the ClientID of the RadListView instance, while **[ItemDisplayIndex]** is the ListViewDataItem.DisplayIndex of the current item.
 
-For example, if you have a generic **<div>** container in your RadListView ItemTemplate that you want to turn into a drag handle, you can use the following markup:
+For example, if you have a generic **`<div>`** container in your RadListView ItemTemplate that you want to turn into a drag handle, you can use the following markup:
 
 ````ASP.NET
 <telerik:RadListView ID="RadListView1" runat="server">

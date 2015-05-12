@@ -12,10 +12,9 @@ position: 4
 
 
 
-##  
+##    
 
 This client-side event is fired when a RadListView item is dragged.
-
 
 >caption  
 

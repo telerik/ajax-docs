@@ -12,7 +12,7 @@ position: 0
 
 
 
-##
+##  
 
 RadListView allows you to define your custom type of layout to display the necessary information in a suitable format. Thus you are able to output not only plain data from the listview's source but also images streamed from binary field in the data source or stored physically in the web site's folder structure. This type of presentation is useful when you would like to accompany the actual data with visual elements when displayed in the RadListView's items.
 
@@ -80,4 +80,4 @@ The code snippets from the demo are provided below for further reference:
 </form>
 ````
 
- 
+  

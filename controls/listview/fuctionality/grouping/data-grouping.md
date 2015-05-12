@@ -177,16 +177,16 @@ Several new properties have been exposed for the DataGrouping functionality:
 
 * **Unsupported data sources/bindings**
 
-* XMLDataSource
+  * XMLDataSource
 
-* SQLDataReader
+  * SQLDataReader
 
-* Simple databinding
+  * Simple databinding
 
-* Client-side binding
+  * Client-side binding
 
 * **Unsupported features**
 
-* Custom paging/sorting/filtering
+  * Custom paging/sorting/filtering
 
-* Simple (old) grouping-results in the "ItemPlaceHolder not specified" error
+  * Simple (old) grouping-results in the "ItemPlaceHolder not specified" error

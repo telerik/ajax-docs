@@ -26,7 +26,7 @@ Once it is bound to a **DataSource** control that supports Insert, Update, and D
 
 You also need to set the **DataKeyNames** property of the RadListView control so that the insert, update, and delete operations perform as expected.
 
-##
+##  
 
 LinqDataSource:
 
@@ -232,7 +232,7 @@ LinqDataSource:
 
 
 
-##
+##  
 
 EntityDataSource:
 
@@ -379,6 +379,6 @@ EntityDataSource:
 
 ## Additional resources
 
-* **LinqDataSource:**[ http://msdn2.microsoft.com/en-us/library/bb547113.aspx ](http://msdn2.microsoft.com/en-us/library/bb547113.aspx)
+* **LinqDataSource:** [ http://msdn2.microsoft.com/en-us/library/bb547113.aspx ](http://msdn2.microsoft.com/en-us/library/bb547113.aspx)
 
-* **EntityDataSource:**[http://msdn.microsoft.com/en-us/library/cc488502.aspx](http://msdn.microsoft.com/en-us/library/cc488502.aspx)
+* **EntityDataSource:** [http://msdn.microsoft.com/en-us/library/cc488502.aspx](http://msdn.microsoft.com/en-us/library/cc488502.aspx)
