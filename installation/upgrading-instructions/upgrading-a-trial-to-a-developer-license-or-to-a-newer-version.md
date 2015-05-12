@@ -36,7 +36,7 @@ You can find concrete information about your case in the distinct sections of th
 
 ## Upgrade to a Newer Version of Telerik UI for ASP.NET AJAX
 
-__To upgrade the Telerik controls__, you only need to __replace the__ with their newer versions and update their references. The instructions below assume you have already[installed]({%slug introduction/installation/which-file-do-i-need-to-install?%}) the new version.
+**To upgrade the Telerik controls**, you only need to **replace the** with their newer versions and update their references. The instructions below assume you have already [installed]({%slug introduction/installation/which-file-do-i-need-to-install?%}) the new version.
 
 There are two ways to perform an upgrade:
 
@@ -54,15 +54,15 @@ You simply need to replace the assembly references with the new ones. Here follo
 
 1. Backup your project (a simple copy to another folder is usually enough, and using a source control system makes this redundant).
 
-1. __Delete the old Telerik.Web.UI.* references__ from the project and close it. This includes the	[Skins and Design assemblies]({%slug introduction/installation/included-assemblies%}).
+1. **Delete the old Telerik.Web.UI.* references** from the project and close it. This includes the	[Skins and Design assemblies]({%slug introduction/installation/included-assemblies%}).
 
-1. __Open the Bin folder__ of your project in Windows Explorer and __delete the old Telerik.Web.UI.* assemblies__.
+1. **Open the Bin folder** of your project in Windows Explorer and **delete the old Telerik.Web.UI.* assemblies**.
 
-1. __Copy the new assemblies__ from the new installation's Bin40 folder (for .NET 4.0; for .NET 3.5 you need Bin35 and Bin45 for .NET 4.5) and. In case you are using a [hotfix]({%slug introduction/installation/using-the-hotfix-(dlls-and-scripts/skins-only)%}), go to the folder where you unzipped it.
+1. **Copy the new assemblies** from the new installation's Bin40 folder (for .NET 4.0; for .NET 3.5 you need Bin35 and Bin45 for .NET 4.5) and. In case you are using a [hotfix]({%slug introduction/installation/using-the-hotfix-(dlls-and-scripts/skins-only)%}), go to the folder where you unzipped it.
 
-1. __Paste the new assemblies in the Bin folder__ of your project in Windows Explorer.
+1. **Paste the new assemblies in the Bin folder** of your project in Windows Explorer.
 
-1. __Add references to the Telerik assemblies in the project__ in Visual Studio.
+1. **Add references to the Telerik assemblies in the project** in Visual Studio.
 
 1. Make sure you have all the [necessary web.config registrations]({%slug general-information/web-config-settings-overview%})
 
@@ -72,7 +72,7 @@ As with any ASP.NET Project, it is often helpful to clear the ASP Temporary file
 
 The difference between the trial and licensed version of the Telerik controls is built-in the assemblies themselves.You do not need license keys or activations.
 
-Once you have a licensed package, simply __follow the steps from the__.
+Once you have a licensed package, simply **follow the steps from the**.
 
 ## Upgrading Troubleshooting
 
@@ -90,31 +90,30 @@ Sometimes the .NET Framework caches the old Telerik.Web.UI.dll and therefore the
 
 * Terminate the IIS process (from the Windows Task Manager) and close Visual Studio.
 
-* Clean up the Temporary ASP.NET Files from *<sysdrive>:\Windows\Microsoft.NET\Framework[64]\<vernum>\Temporary ASP.NET Files*.
+* Clean up the Temporary ASP.NET Files from *`<sysdrive>:\Windows\Microsoft.NET\Framework[64]\<vernum>\Temporary ASP.NET Files`*.
 
 * Delete your browser cache. For example, these are the steps for IE: Tools -> Internet Options -> Delete Files.
 
-* Clean up the Windows WebSite Cache from *<sysdrive>:\Users\<UserName>\AppData\Local\Microsoft\WebsiteCache*.	The location of this cache may vary from one operating system to the next.
+* Clean up the Windows WebSite Cache from *`<sysdrive>:\Users\<UserName>\AppData\Local\Microsoft\WebsiteCache*.	The location of this cache may vary from one operating system to the next.
 
-* Clean up the Visual Studio Backup from *<sysdrive>:\Users\<UserName>\Documents\Visual Studio <vsVersion>\Backup Files*.This location depends on your VS settings and installation.
+* Clean up the Visual Studio Backup from *`<sysdrive>:\Users\<UserName>\Documents\Visual Studio <vsVersion>\Backup Files`*. This location depends on your VS settings and installation.
 
-* Clean up the Project Assemblies cache from *<sysdrive>:\Users\<UserName>\AppData\Local\Microsoft\Visual Studio\<vsVersion>\ProjectAssemblies*.The location of this cache may vary from one operating system to the next.
+* Clean up the Project Assemblies cache from *`<sysdrive>:\Users\<UserName>\AppData\Local\Microsoft\Visual Studio\<vsVersion>\ProjectAssemblies`*.The location of this cache may vary from one operating system to the next.
 
 ### I Still Get the Copyright Message
 
 The copyright message appears only when the Web Application/Web Site uses the trial version of Telerik.Web.UI.dll.The Developer versions of Telerik's controls do not throw copyright messages.
 
-To remove it, make sure you have downloaded the proper, Developer "DLL and Scripts only" file. You will recognize it bythe *Dev* abbreviation in the file name. More details on determining which dlls are in use can be found in this blog post.
+To remove it, make sure you have downloaded the proper, Developer "DLL and Scripts only" file. You will recognize it by the *Dev* abbreviation in the file name. More details on determining which dlls are in use can be found in this blog post.
 
-You can see how the file information of a trial version of the Telerik.Web.UI.dll assembly in __Figure 1__.Alternatively, you can see the same information in by double clicking the assembly in VS and exploring its properties as shown in __Figure 2__.
+You can see how the file information of a trial version of the Telerik.Web.UI.dll assembly in **Figure 1**. Alternatively, you can see the same information in by double clicking the assembly in VS and exploring its properties as shown in **Figure 2**.
 >caption Figure 1: The Properties dialog of a trial Telerik.Web.UI.dll file shows a "Trial Version" text.
-
 ![trial-version-file-properties](images/trial-version-file-properties.png)
->caption Figure 2: The Properties dialog of a Dev Telerik.Web.UI.dll file in Visual Studio do not have the Trial keyword.
 
+>caption Figure 2: The Properties dialog of a Dev Telerik.Web.UI.dll file in Visual Studio do not have the Trial keyword.
 ![dev-version-vs-properties](images/dev-version-vs-properties.png)
 
-# See Also
+## See Also
 
  * [Which File Do I Need to Install?]({%slug introduction/installation/which-file-do-i-need-to-install?%})
 

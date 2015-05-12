@@ -51,13 +51,13 @@ To use RadEditor in custom MOSS solutions, you can use the MOSSRadEditor base cl
 
 
 
-It is important to add references to the __Telerik.Web.UI.dll__ and __RadEditorSharePoint.dll__ files. To do so, you need to follow these steps:
+It is important to add references to the **Telerik.Web.UI.dll** and **RadEditorSharePoint.dll** files. To do so, you need to follow these steps:
 
 1. Open the RadEditor for MOSS distribution.
 
-1. Rename __RadEditorMOSS.wsp__ to __RadEditorMOSS.cab__ and open the file with Windows Cabinet Viewer.
+1. Rename **RadEditorMOSS.wsp** to **RadEditorMOSS.cab** and open the file with Windows Cabinet Viewer.
 
-1. Copy __Telerik.Web.UI.dll and RadEditorSharePoint.dll__to a convenient place on your disk.
+1. Copy **Telerik.Web.UI.dll and RadEditorSharePoint.dll**to a convenient place on your disk.
 
 1. Add the references to the files in your MOSS project.
 

@@ -18,27 +18,27 @@ Functionality:
 
 Using the Template Manager dialog the users of RadEditor can:
 
-* __insert templates__ in the editor's content area
+* **insert templates** in the editor's content area
 
-* __upload new templates__, which will be available for inserting.
+* **upload new templates**, which will be available for inserting.
 
-* __delete templates__
+* **delete templates**
 
 Properties to set: 
 
 The behavior of the Template Manager dialog is controlled by the following properties:
 
-* __TemplatePaths -__ by using this property you can set which MOSS's libraries to be included into the TemplatePaths collection and shown in the Template Manager dialog. By default, all the libraries from the current site are included in the TemplatePaths collection. If you set the Template Path starting with "/" it will refer the sites collection root.
+* **TemplatePaths -** by using this property you can set which MOSS's libraries to be included into the TemplatePaths collection and shown in the Template Manager dialog. By default, all the libraries from the current site are included in the TemplatePaths collection. If you set the Template Path starting with "/" it will refer the sites collection root.
 
-* __TemplateFilters__ - a string array which contains the file extension filters that controls which files are shown in the Template Manager dialog. The * character can be used as a wildcard in the extension, for example __*.ht*__ will match __*.htm__, __*.html__ and any other extension which starts with __ht__.
+* **TemplateFilters** - a string array which contains the file extension filters that controls which files are shown in the Template Manager dialog. The * character can be used as a wildcard in the extension, for example ***.ht*** will match ***.htm**, ***.html** and any other extension which starts with **ht**.
 
-* __MaxTemplateSize__ - The maximum template file size in bytes, allowed for uploading. The default value is 2048000 bytes.
+* **MaxTemplateSize** - The maximum template file size in bytes, allowed for uploading. The default value is 2048000 bytes.
 
-__For example:__
+**For example:**
 
-The files which properties need to be modified are __ConfigFile.xml / ListConfigFile.xml__, located in the following folder:
+The files which properties need to be modified are **ConfigFile.xml / ListConfigFile.xml**, located in the following folder:
 
-/Program Files/Common Files/Microsoft Shared/web server extensions/wpresources/RadEditorSharePoint/5.x.x.0__1f131a624888eeed/Resources/
+/Program Files/Common Files/Microsoft Shared/web server extensions/wpresources/RadEditorSharePoint/5.x.x.0**1f131a624888eeed/Resources/
 
 ````XML
 	    <configuration>

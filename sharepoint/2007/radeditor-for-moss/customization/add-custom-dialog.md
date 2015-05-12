@@ -16,7 +16,7 @@ position: 5
 
 Bellow are the exact steps that demonstrate how to add your custom dialog when using RadEditor for MOSS:
 
-1. Open the respective ToolsFile situated in the /Program Files/Common Files/Microsoft Shared/web server extensions/wpresources/RadEditorSharePoint/5.x.x.0__1f131a624888eeed/Resources folder and add the custom button that will open the dialog e.g.<tool name="CustomDialog" />
+1. Open the respective ToolsFile situated in the /Program Files/Common Files/Microsoft Shared/web server extensions/wpresources/RadEditorSharePoint/5.x.x.0**1f131a624888eeed/Resources folder and add the custom button that will open the dialog e.g.<tool name="CustomDialog" />
 
 1. To improve the button's appearance, add image file for it, by setting the following CSS class in corresponding Master page:
 
@@ -35,7 +35,7 @@ Bellow are the exact steps that demonstrate how to add your custom dialog when u
 
 
 
-1. Open the \wpresources\RadEditorSharePoint\5.x.x.0__1f131a624888eeed\Resources\MOSSEditorTools.js file and provide a command with the same name in the editor's global commands array, which will call the __showExternalDialog(url, argument, width, height, callbackFunction, callbackArgs, title, modal, behaviors, showStatusbar, showTitlebar)__ function:
+1. Open the \wpresources\RadEditorSharePoint\5.x.x.0**1f131a624888eeed\Resources\MOSSEditorTools.js file and provide a command with the same name in the editor's global commands array, which will call the **showExternalDialog(url, argument, width, height, callbackFunction, callbackArgs, title, modal, behaviors, showStatusbar, showTitlebar)** function:
 
 ````JavaScript
 	        Telerik.Web.UI.Editor.CommandList["CustomDialog"] = function (commandName, editor, args)
@@ -46,7 +46,7 @@ Bellow are the exact steps that demonstrate how to add your custom dialog when u
 	            }
 	
 	            var arg = editor.get_html();
-	            editor.showExternalDialog('/_wpresources/RadEditorSharePoint/5.x.x.0__1f131a624888eeed/Resources/Dialogs/CustomDialog.aspx',
+	            editor.showExternalDialog('/_wpresources/RadEditorSharePoint/5.x.x.0**1f131a624888eeed/Resources/Dialogs/CustomDialog.aspx',
 	       arg,
 	       600,
 	       400,
@@ -62,13 +62,13 @@ Bellow are the exact steps that demonstrate how to add your custom dialog when u
 
 
 
-1. Put your custom dialog in the /Program Files/Common Files/Microsoft Shared/web server extensions/wpresources/RadEditorSharePoint/5.x.x.0__1f131a624888eeed/Resources/Dialogs folder and make sure that can be accessed.
+1. Put your custom dialog in the /Program Files/Common Files/Microsoft Shared/web server extensions/wpresources/RadEditorSharePoint/5.x.x.0**1f131a624888eeed/Resources/Dialogs folder and make sure that can be accessed.
 
 1. Clear the browser's cache and test the behavior.
 
 Bellow is a sample custom dialog's source:
 
-````ASPNET
+````ASP.NET
 	
 	    <%@ page language="C#" autoeventwireup="true" %>
 	

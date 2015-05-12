@@ -34,26 +34,25 @@ In order to execute you custom code called when RadEditor's Client-Side event is
 
 1. Set the desired event in the respective ConfigFile
 
-1. Put your custom code in the \wpresources\RadEditorSharePoint\6.x.x.x__1f131a624888eeed\Resources\SPEditorTools.js
+1. Put your custom code in the *\wpresources\RadEditorSharePoint\6.x.x.x__1f131a624888eeed\Resources\SPEditorTools.js*
 
-__For example:__
+**For example:**
 
-Open the \wpresources\RadEditorSharePoint\6.x.x.x__1f131a624888eeed\Resources\__ConfigFile.xml__ and attach the editor's OnClientLoad event to your custom OnClientLoad function e.g.
+Open the _\wpresources\RadEditorSharePoint\6.x.x.x__1f131a624888eeed\Resources\**ConfigFile.xml**_ and attach the editor's **OnClientLoad** event to your custom OnClientLoad function e.g.
 
-<property name="__OnClientLoad__">OnClientLoad</property>
+`<property name="**OnClientLoad**">OnClientLoad</property>`
 
-Next, open the \wpresources\RadEditorSharePoint\6.x.x.x__1f131a624888eeed\Resources\__SPEditorTools.js__ and set your custom __OnClientLoad__function e.g.
+Next, open the _\wpresources\RadEditorSharePoint\6.x.x.x__1f131a624888eeed\Resources\**SPEditorTools.js**_ and set your custom **OnClientLoad** function e.g.
 
 ````JavaScript
-	        function OnClientLoad(editor, args)
-	        {
-	            editor.attachEventHandler("onkeydown", function (e)
-	            {
-	                alert("Content area key down " + e.keyCode); 
-	            });
-	        }
+function OnClientLoad(editor, args)
+{
+    editor.attachEventHandler("onkeydown", function (e)
+    {
+        alert("Content area key down " + e.keyCode); 
+    });
+}
 ````
-
 
 
 Clear the browser's cache and test what the result is.

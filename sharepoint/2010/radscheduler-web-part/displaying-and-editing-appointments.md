@@ -22,6 +22,8 @@ If a SPList type of data source has been chosen – the available lists compatib
 >
 ![SPRad Scheduler-Data SourceSPList](images/SPRadScheduler-DataSourceSPList.gif)
 
-In case the user decides to use an Exchange Calendar to populate the control – they are asked to enter the necessary server URL, domain and credentials.![SPRad Scheduler-Data Source Exhange](images/SPRadScheduler-DataSourceExhange.gif)
+In case the user decides to use an Exchange Calendar to populate the control – they are asked to enter the necessary server URL, domain and credentials.
+![SPRad Scheduler-Data Source Exhange](images/SPRadScheduler-DataSourceExhange.gif)
 
-Upon the selection of a data source the web part will make a post back in order to retrieve the necessary data and display the appointments. Afterwards, the user can insert a new appointment or edit the appointments easily by double-clicking a control cell or using the Context Menu after right-click.![SPRad Sheduler-Editing](images/SPRadSheduler-Editing.gif)
+Upon the selection of a data source the web part will make a post back in order to retrieve the necessary data and display the appointments. Afterwards, the user can insert a new appointment or edit the appointments easily by double-clicking a control cell or using the Context Menu after right-click.
+![SPRad Sheduler-Editing](images/SPRadSheduler-Editing.gif)

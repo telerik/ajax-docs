@@ -18,11 +18,11 @@ Telerik RadEditor for MOSS can be easily used as a cross-browser rich-text edito
 
 ## Using the new feature
 
->note  __NOTE:__ Once the RadEditor for MOSS features are activated they will affect only the current site. You need to activate the RadEditor features for each site individually. If you want to change the scope of the features, see the following article -[Change the RadEditor features scope]({%slug sharepoint/2007/radeditor-for-moss/configuration/change-the-radeditor-features-scope%})
+>note  **NOTE:** Once the RadEditor for MOSS features are activated they will affect only the current site. You need to activate the RadEditor features for each site individually. If you want to change the scope of the features, see the following article -[Change the RadEditor features scope]({%slug sharepoint/2007/radeditor-for-moss/configuration/change-the-radeditor-features-scope%})
 >
 
 
-1. From the __Site Actions__ menu go to __Site Settings > Modify All Site Settings__
+1. From the **Site Actions** menu go to **Site Settings > Modify All Site Settings**
 >caption 
 
 ![](images/4_Lists1_thumb.png)
@@ -32,16 +32,16 @@ Telerik RadEditor for MOSS can be easily used as a cross-browser rich-text edito
 
 ![](images/SiteFeaturesMoss_thumb.png)
 
-1. Scroll to the bottom of the list and activate the __Use RadEditor to edit HMTL fields__ feature.
+1. Scroll to the bottom of the list and activate the **Use RadEditor to edit HMTL fields** feature.
 >caption 
 
 ![](images/SiteFeaturesMoss2_thumb.png)
 
-1. __IMPORTANT!__ If you still see the default editor or a simple textbox after you activate the RadEditor feature(s), you might need to open a command prompt window and type __iisreset__ to reset the Internet Information Server. This will prevent problems caused by caching.
+1. **IMPORTANT!** If you still see the default editor or a simple textbox after you activate the RadEditor feature(s), you might need to open a command prompt window and type **iisreset** to reset the Internet Information Server. This will prevent problems caused by caching.
 
 ## UsingSharePoint Designer
 
-1. Open a page in the __Microsoft Office SharePoint Designer 2007__. Select the page you wish to modify and choose __Edit Page Layout__.
+1. Open a page in the **Microsoft Office SharePoint Designer 2007**. Select the page you wish to modify and choose **Edit Page Layout**.
 >caption 
 
 ![](images/5_WCM1_thumb.png)
@@ -53,12 +53,12 @@ Telerik RadEditor for MOSS can be easily used as a cross-browser rich-text edito
          
       ](images/5_WCM2_thumb.png)
 
-1. Replace the tag of the default editor __<PublishingWebControls:RichHtmlField ... >__with the RadEditor tag:< telerik:RadHtmlField id="Content" FieldName="..." runat="server"></telerik:RadHtmlField>
+1. Replace the tag of the default editor **<PublishingWebControls:RichHtmlField ... >**with the RadEditor tag:< telerik:RadHtmlField id="Content" FieldName="..." runat="server"></telerik:RadHtmlField>
 >caption 
 
 ![](images/5_WCM3_thumb.png)
 
-# See Also
+## See Also
 
  * [Using the RadEditor WebPart]({%slug sharepoint/2007/radeditor-for-moss/installation-and-deployment/using-the-radeditor-webpart%})
 

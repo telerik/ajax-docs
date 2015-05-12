@@ -16,7 +16,7 @@ position: 4
 
 Bellow are the exact steps that demonstrate how to add a custom dropdown when using RadEditor for MOSS:
 
-1. Open the respective ToolsFile situated in the /Program Files/Common Files/Microsoft Shared/web server extensions/wpresources/RadEditorSharePoint/5.x.x.0__1f131a624888eeed/Resources folder and add the custom dropdown's declaration e.g.
+1. Open the respective ToolsFile situated in the /Program Files/Common Files/Microsoft Shared/web server extensions/wpresources/RadEditorSharePoint/5.x.x.0**1f131a624888eeed/Resources folder and add the custom dropdown's declaration e.g.
 
 ````XML
 	    <tool name="CustomDropdown" type="dropdown">
@@ -28,7 +28,7 @@ Bellow are the exact steps that demonstrate how to add a custom dropdown when us
 
 
 
-1. Next, open the /Program Files/Common Files/Microsoft Shared/web server extensions/wpresources/RadEditorSharePoint/5.x.x.0__1f131a624888eeed/Resources/MOSSEditorTools.js file and add the dropdown's command:
+1. Next, open the /Program Files/Common Files/Microsoft Shared/web server extensions/wpresources/RadEditorSharePoint/5.x.x.0**1f131a624888eeed/Resources/MOSSEditorTools.js file and add the dropdown's command:
 
 ````JavaScript
 	        Telerik.Web.UI.Editor.CommandList["CustomDropdown"] = function (commandName, editor,

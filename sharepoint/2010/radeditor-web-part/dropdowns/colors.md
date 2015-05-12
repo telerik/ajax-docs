@@ -13,37 +13,34 @@ position: 4
 
 
 ## 
->caption 
-
 ![](images/DropDowns007.png)
->caption 
 
 ![](images/DropDowns008.png)
 
-The RadEditor __Colors__ dropdown displays a predefined set of colors by default and displays for the Font and Fill color drop downs. All colors are held in the __Colors__ collection. You can predefine the colors in the Colors collection by modifying the __ToolsFile.xml / ListToolsFile.xml__ files, located in the following folder:
+The RadEditor **Colors** dropdown displays a predefined set of colors by default and displays for the Font and Fill color drop downs. All colors are held in the **Colors** collection. You can predefine the colors in the Colors collection by modifying the **ToolsFile.xml / ListToolsFile.xml** files, located in the following folder:
 
-/Program Files/Common Files/Microsoft Shared/web server extensions/wpresources/RadEditorSharePoint/6.x.x.0__1f131a624888eeed/Resources/
+_/Program Files/Common Files/Microsoft Shared/web server extensions/wpresources/RadEditorSharePoint/6.x.x.0__1f131a624888eeed/Resources/_
 
-__For example:__
+**For example:**
 
 ````XML
-	    <root>  
-	        <tools name="MainToolbar" enabled="true">    
-	            <tool name="BackColor" />    
-	            <tool name="ForeColor" />  
-	        </tools>  
-	        <colors>   
-	            <color Title ="My color" value="#FF00EE" />   
-	            <color value="#840012" />    
-	            <color value="#0000AA" />    
-	            <color value="#95AA34" />  
-	        </colors>
-	    </root>
+<root>  
+    <tools name="MainToolbar" enabled="true">    
+        <tool name="BackColor" />    
+        <tool name="ForeColor" />  
+    </tools>  
+    <colors>   
+        <color Title ="My color" value="#FF00EE" />   
+        <color value="#840012" />    
+        <color value="#0000AA" />    
+        <color value="#95AA34" />  
+    </colors>
+</root>
 ````
 
 
 
-__Here is the default set of colors:__
+**Here is the default set of colors:**
 
 "","#ffcccc","#ffcc99","#ffff99","#ffffcc","#99ff99","#99ffff","#ccffff","#ccccff","#ffccff","#cccccc","#ff6666","#ff9966",
 

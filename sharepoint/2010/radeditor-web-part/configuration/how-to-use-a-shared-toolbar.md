@@ -18,10 +18,10 @@ The new RadEditor for SharePoint 2010 has a feature, which can improve load time
 
 
 
-If you want to take advantage of the shared toolbar feature, you simply need to set the __UseSharedToolbar__ editor property to __True__ in the configuration file (see [Set Properties Via Config File]({%slug sharepoint/2010/radeditor-web-part/configuration/set-properties-via-config-file%})):
+If you want to take advantage of the shared toolbar feature, you simply need to set the **UseSharedToolbar** editor property to **True** in the configuration file (see [Set Properties Via Config File]({%slug sharepoint/2010/radeditor-web-part/configuration/set-properties-via-config-file%})):
 
 ````XML
-	    <property name="UseSharedToolbar">true</property>
+<property name="UseSharedToolbar">true</property>
 ````
 
 
@@ -33,11 +33,8 @@ After you set the property to true, the editor will automatically check if there
 If you want to further improve the loading time of the page, make sure that the editor toolbar mode is not Default - i.e. use ShowOnFocus or PageTop:
 
 ````XML
-	    <property name="ToolbarMode">PageTop</property>
+<property name="ToolbarMode">PageTop</property>
 ````
 
-
-
-<property name="ToolbarMode">PageTop</property>
 
 This way each editor's toolbar will be initialized only after you click in its content area and not when the page loads.

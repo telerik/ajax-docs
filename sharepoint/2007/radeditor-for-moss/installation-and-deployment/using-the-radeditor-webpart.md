@@ -30,7 +30,7 @@ Follow the steps below to add a new RadEditor Web Part to a given page.
 
 ![](images/3_WbPart2_thumb.png)
 
-1. Browse to the *Telerik RadEditor for MOSS* web part in the __Miscellaneous__ category, check it and click the Add button.
+1. Browse to the *Telerik RadEditor for MOSS* web part in the **Miscellaneous** category, check it and click the Add button.
 >caption 
 
 ![](images/3_WbPart3_thumb.png)
@@ -47,12 +47,12 @@ Follow the steps below to add a new RadEditor Web Part to a given page.
          
       ](images/3_WbPart6_thumb.png)
 
-1. Once you are done editing the content, click the __Ok__ button in the RadEditor options panel.
+1. Once you are done editing the content, click the **Ok** button in the RadEditor options panel.
 >caption 
 
 ![](images/3_WbPart5b_thumb.png)
 
-# See Also
+## See Also
 
  * [Migrating default rich-text editor Web Parts]({%slug sharepoint/2007/radeditor-for-moss/migration-and-upgrade/migrating-default-rich-text-editor-web-parts%})
 

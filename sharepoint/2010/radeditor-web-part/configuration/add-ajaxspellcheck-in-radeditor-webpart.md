@@ -14,12 +14,12 @@ position: 7
 
 ## 
 
-To enable the __AjaxSpellCheck__ tool, you need to modify the __ToolsFile.xml__ which is located in the following folder:
+To enable the **AjaxSpellCheck** tool, you need to modify the **ToolsFile.xml** which is located in the following folder:
 
-/Program Files/Common Files/Microsoft Shared/web server extensions/wpresources/RadEditorSharePoint/6.0.0.0__1f131a624888eeed/Resources/
+/Program Files/Common Files/Microsoft Shared/web server extensions/wpresources/RadEditorSharePoint/6.0.0.0**1f131a624888eeed/Resources/
 
 and add the following tool:
 
-__<tool name="AjaxSpellCheck"/>__
+**`<tool name="AjaxSpellCheck"/>`**
 
-To enable the __AjaxSpellCheck__tool in List (Blog) scenario, open the __ListToolsFile.xml__file and add the following tag:__<tool name="AjaxSpellCheck"/>__
+To enable the **AjaxSpellCheck** tool in List (Blog) scenario, open the **ListToolsFile.xml** file and add the following tag:**`<tool name="AjaxSpellCheck"/>`**

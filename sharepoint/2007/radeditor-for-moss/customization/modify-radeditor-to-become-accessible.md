@@ -16,22 +16,22 @@ position: 7
 
 To achieve this, please follow the steps below:
 
-1. On the SharePoint server, open__C:\Program Files\Common Files\Microsoft Shared\web server extensions\wpresources\RadEditorSharePoint\5.x.x.x__1f131a624888eeed\Resources__
+1. On the SharePoint server, open**C:\Program Files\Common Files\Microsoft Shared\web server extensions\wpresources\RadEditorSharePoint\5.x.x.x**1f131a624888eeed\Resources**
 
 >note The 5.x.x.x number in the path is the version of the MOSS RadEditor that you have.
 >
 
 
-1. Copy the __EditorDialogs__ folder from [this link](http://www.telerik.com/documents/EditorDialogs.zip) to the __Resources__ folder
+1. Copy the **EditorDialogs** folder from [this link](http://www.telerik.com/documents/EditorDialogs.zip) to the **Resources** folder
 
-1. Open the __ConfigFile.xml__file (if you are using RadEditor in Web Part scenario) and/or __ListConfigFile.xml__ (for List scenario) from the Resources folder and add the following properties:
+1. Open the **ConfigFile.xml**file (if you are using RadEditor in Web Part scenario) and/or **ListConfigFile.xml** (for List scenario) from the Resources folder and add the following properties:
 
 ````XML
 	    <configuration>
 	        ........
 	        <property name="OnClientLoad">OnClientLoad</property>
 	        <property name="NewLineBr">false</property>
-	        <property name="ExternalDialogsPath">/_wpresources/RadEditorSharePoint/5.x.x.x__1f131a624888eeed/Resources/EditorDialogs/</property>
+	        <property name="ExternalDialogsPath">/_wpresources/RadEditorSharePoint/5.x.x.x**1f131a624888eeed/Resources/EditorDialogs/</property>
 	        <property name="EditModes">Design</property>
 	        ........
 	    </configuration>
@@ -43,7 +43,7 @@ To achieve this, please follow the steps below:
 >
 
 
-1. Open the ToolsFile.xml file from the Resources folder and change it to the following (the same changes apply to __ListToolsFile.xml__if you are using RadEditor in Lists scenario):
+1. Open the ToolsFile.xml file from the Resources folder and change it to the following (the same changes apply to **ListToolsFile.xml**if you are using RadEditor in Lists scenario):
 
 ````XML
 	    <root>
@@ -84,6 +84,6 @@ To achieve this, please follow the steps below:
 
 
 
-1. Download the zipped __rnib.js__file from [this link](http://www.telerik.com/documents/rnib.zip) and append its content at the end of the __MOSSEditorTools.js__file in the __Resources__folder.
+1. Download the zipped **rnib.js**file from [this link](http://www.telerik.com/documents/rnib.zip) and append its content at the end of the **MOSSEditorTools.js**file in the **Resources**folder.
 
 1. Test RadEditor - try the keyboard shortcut Ctrl+H to open the help menu

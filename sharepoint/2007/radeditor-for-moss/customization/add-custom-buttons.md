@@ -16,9 +16,9 @@ position: 3
 
 Bellow are the exact steps that demonstrate how to add your custom button when using RadEditor for MOSS:
 
-1. Open the respective ToolsFile situated in the /Program Files/Common Files/Microsoft Shared/web server extensions/wpresources/RadEditorSharePoint/5.x.x.0__1f131a624888eeed/Resources folder and add the custom button's declaration e.g.<tool name="CustomCommand1" />
+1. Open the respective ToolsFile situated in the /Program Files/Common Files/Microsoft Shared/web server extensions/wpresources/RadEditorSharePoint/5.x.x.0**1f131a624888eeed/Resources folder and add the custom button's declaration e.g.<tool name="CustomCommand1" />
 
-1. Next, open the /Program Files/Common Files/Microsoft Shared/web server extensions/wpresources/RadEditorSharePoint/5.x.x.0__1f131a624888eeed/Resources/MOSSEditorTools.js and add the custom tool's command:
+1. Next, open the /Program Files/Common Files/Microsoft Shared/web server extensions/wpresources/RadEditorSharePoint/5.x.x.0**1f131a624888eeed/Resources/MOSSEditorTools.js and add the custom tool's command:
 
 ````JavaScript
 	        Telerik.Web.UI.Editor.CommandList["CustomCommand1"] = function (commandName, editor, args)

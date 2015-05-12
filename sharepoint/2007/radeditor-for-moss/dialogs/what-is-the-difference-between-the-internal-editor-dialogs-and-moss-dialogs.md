@@ -41,7 +41,7 @@ Here are the corresponding tool names:
 
 >caption  
 
-|  __Built in dialog__  |  __Asset Picker__  |
+|  **Built in dialog**  |  **Asset Picker**  |
 | ------ | ------ |
 |LinkManager|MOSSLinkManager|
 |ImageManager|MOSSImageManager|

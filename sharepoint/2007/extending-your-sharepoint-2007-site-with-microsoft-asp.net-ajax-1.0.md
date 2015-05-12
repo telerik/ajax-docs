@@ -22,7 +22,7 @@ Download and install ASP.NET Ajax from [here](http://www.microsoft.com/downloads
 
 After ASP.NET Ajax has been installed you need to modify the web.config file of your MOSS web site with a few Ajax specific entries. Typically, the web.config file is located in c:\inetpub\wwwroot\wss\virtualdirectories\80
 
-1. Add the following __<sectionGroup>__ element in the __<configSections>__ tag:
+1. Add the following **<sectionGroup>** element in the **<configSections>** tag:
 
 ````XML
 	    <sectionGroup name="system.web.extensions" type="System.Web.Configuration.SystemWebExtensionsSectionGroup, System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
@@ -39,7 +39,7 @@ After ASP.NET Ajax has been installed you need to modify the web.config file of 
 
 
 
-1. Add the following __<controls>__ section as a child of the __<system.web>/<pages>__ tag:
+1. Add the following **<controls>** section as a child of the **<system.web>/<pages>** tag:
 
 ````XML
 	    <controls>
@@ -49,7 +49,7 @@ After ASP.NET Ajax has been installed you need to modify the web.config file of 
 
 
 
-1. Add the following tag to the __<assemblies>__ tag, within the __<compilation>__ element:
+1. Add the following tag to the **<assemblies>** tag, within the **<compilation>** element:
 
 ````XML
 	    <add assembly="System.Web.Extensions, Version=1.0.61025.0,Culture=neutral, PublicKeyToken=31bf3856ad364e35"/>
@@ -57,7 +57,7 @@ After ASP.NET Ajax has been installed you need to modify the web.config file of 
 
 
 
-1. Register the following HTTP handlers at the end of the__<httpHandlers>__ section:
+1. Register the following HTTP handlers at the end of the**<httpHandlers>** section:
 
 ````XML
 	    <add verb="*" path="*.asmx" validate="false" type="System.Web.Script.Services.ScriptHandlerFactory, System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"/>
@@ -67,7 +67,7 @@ After ASP.NET Ajax has been installed you need to modify the web.config file of 
 
 
 
-1. Add the following HTTP module registration to the __<httpModules>__ section beneath any existing modules:
+1. Add the following HTTP module registration to the **<httpModules>** section beneath any existing modules:
 
 ````XML
 	    <add name="ScriptModule" type="System.Web.Handlers.ScriptModule, System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"/>
@@ -75,7 +75,7 @@ After ASP.NET Ajax has been installed you need to modify the web.config file of 
 
 
 
-1. Add a SafeControl entry for the System.Web.UI namespace from the System.Web.Extensions assembly within the __<SharePoint>/<SafeControls>__ section:
+1. Add a SafeControl entry for the System.Web.UI namespace from the System.Web.Extensions assembly within the **<SharePoint>/<SafeControls>** section:
 
 ````XML
 	    <SafeControl Assembly="System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" 
@@ -84,7 +84,7 @@ After ASP.NET Ajax has been installed you need to modify the web.config file of 
 
 
 
-1. Finally, add the following configuration tags at the bottom of web.config, just before the end of the __<configuration>__ tag:
+1. Finally, add the following configuration tags at the bottom of web.config, just before the end of the **<configuration>** tag:
 
 ````XML
 	    <system.web.extensions>
@@ -123,6 +123,6 @@ After ASP.NET Ajax has been installed you need to modify the web.config file of 
 
 
 
-# See Also
+## See Also
 
  * [Extending your SharePoint 2007 site with Microsoft ASP.NET AJAX 3.5]({%slug sharepoint/2007/extending-your-sharepoint-2007-site-with-microsoft-asp.net-ajax-3.5%})

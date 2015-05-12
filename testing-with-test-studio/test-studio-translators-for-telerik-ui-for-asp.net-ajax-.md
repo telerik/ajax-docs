@@ -46,8 +46,9 @@ Telerik controls translators have a base group of intrinsic translators that are
 
 ## The Translator Advantage
 
-Test Studio translators allow more control and flexibility in testing Telerik UI for ASP.NET AJAX, and make testing these controls faster and easier. Because the translator exposes variables and actions specific to the control, you can save time in building verifications and reduce the number of steps to automatecomplex actions. For example, clicking the ‘Next Page’ button on a RadGrid records a special ‘load next page’ step. If you want to alter this step to load a different page, you can do so from a menu in the Steps Pane.![Steps pane](images/introduction-teststudio-translators-steps-pane.png)
+Test Studio translators allow more control and flexibility in testing Telerik UI for ASP.NET AJAX, and make testing these controls faster and easier. Because the translator exposes variables and actions specific to the control, you can save time in building verifications and reduce the number of steps to automate complex actions. For example, clicking the ‘Next Page’ button on a RadGrid records a special ‘load next page’ step. If you want to alter this step to load a different page, you can do so from a menu in the Steps Pane.![Steps pane](images/introduction-teststudio-translators-steps-pane.png)
 
-You can also perform verifications against properties that are not reflected directly in the DOM, like whether or not the RadGrid contents are sorted by a particular column.![Verifications](images/introduction-teststudio-translators-verifications.png)
+You can also perform verifications against properties that are not reflected directly in the DOM, like whether or not the RadGrid contents are sorted by a particular column.
+![Verifications](images/introduction-teststudio-translators-verifications.png)
 
 These are just two of the many scenarios where translators make testing controls easier. Using [Telerik UI for ASP.NET AJAX translators for Test Studio](http://www.telerik.com/automated-testing-tools/support/documentation/user-guide/recording-tests/translators/html-for-aspnet-ajax/radcalendar.aspx), you can gain more control over actions and verifications while spending less time building and maintaining your tests.

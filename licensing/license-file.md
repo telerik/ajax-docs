@@ -12,7 +12,7 @@ position: 2
 
 
 
-As of __Q1 2015__, the __Telerik UI for ASP.NET AJAX__ suite	uses the standard .NET licensing mechanism, which means that using the controls in design-time	causes Visual Studio to add a __license.licx__ to the solution.	This file is used only in design-mode and is not needed for deployment explicitly. The .NET framework (lc.exe) will	embed it in the assembly your WebApplication will be built for deployment.
+As of **Q1 2015**, the **Telerik UI for ASP.NET AJAX** suite	uses the standard .NET licensing mechanism, which means that using the controls in design-time	causes Visual Studio to add a **license.licx** to the solution.	This file is used only in design-mode and is not needed for deployment explicitly. The .NET framework (lc.exe) will	embed it in the assembly your WebApplication will be built for deployment.
 
 The license file is maintained by Visual Studio and contains information about all licensed components in the application (including non-Telerik products).
 
@@ -26,7 +26,7 @@ If you are working under source control, once the file is created, it will be de
 
 ## 
 
-# See Also
+## See Also
 
  * [License Agreement]({%slug introduction/licensing/license-agreement%})
 

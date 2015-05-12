@@ -12,7 +12,7 @@ position: 2
 
 
 
-In order to extend your SharePoint 2007 site with Microsoft __ASP.NET AJAX 3.5__, you need to perform the following steps:
+In order to extend your SharePoint 2007 site with Microsoft **ASP.NET AJAX 3.5**, you need to perform the following steps:
 
 ## Install .NET Framework 3.5
 
@@ -20,13 +20,13 @@ Download and install .NET Framework 3.5 SP1 from [here](http://www.microsoft.com
 
 ## Modify your web.config file
 
->tip Before you continue reading you can check this KB article by __Michael Raizman__ :[SharePoint Feature to Extend SharePoint Site with AJAX 3.5 and Telerik Rad Controls](http://www.codeproject.com/KB/sharepoint/SharePoint_Telerik.aspx)
+>tip Before you continue reading you can check this KB article by **Michael Raizman** :[SharePoint Feature to Extend SharePoint Site with AJAX 3.5 and Telerik Rad Controls](http://www.codeproject.com/KB/sharepoint/SharePoint_Telerik.aspx)
 >
 
 
-After __ASP.NET 3.5__ has been installed you need to modify the __web.config__ file of your MOSS web site with a few Ajax specific entries. Typically, the web.config file is located in __c:\inetpub\wwwroot\wss\virtualdirectories\80__
+After **ASP.NET 3.5** has been installed you need to modify the **web.config** file of your MOSS web site with a few Ajax specific entries. Typically, the web.config file is located in **c:\inetpub\wwwroot\wss\virtualdirectories\80**
 
-1. Add the following __<sectionGroup>__ element in the __<configSections>__ tag:
+1. Add the following **<sectionGroup>** element in the **<configSections>** tag:
 
 ````XML
 	    <sectionGroup name="system.web.extensions" type="System.Web.Configuration.SystemWebExtensionsSectionGroup,
@@ -57,7 +57,7 @@ After __ASP.NET 3.5__ has been installed you need to modify the __web.config__ f
 
 
 
-2. Add the following __<controls>__ section as a child of the __<system.web>/<pages>__ tag:
+2. Add the following **<controls>** section as a child of the **<system.web>/<pages>** tag:
 
 ````XML
 	    <controls>
@@ -70,7 +70,7 @@ After __ASP.NET 3.5__ has been installed you need to modify the __web.config__ f
 
 
 
-3. Add the following tag to the __<assemblies>__ tag, within the __<compilation>__ element:
+3. Add the following tag to the **<assemblies>** tag, within the **<compilation>** element:
 
 ````XML
 	    <add assembly="System.Core, Version=3.5.0.0, Culture=neutral, PublicKeyToken=B77A5C561934E089"/>
@@ -81,7 +81,7 @@ After __ASP.NET 3.5__ has been installed you need to modify the __web.config__ f
 
 
 
-4. Register the following HTTP handlers at the end of the__<httpHandlers>__ section:
+4. Register the following HTTP handlers at the end of the**<httpHandlers>** section:
 
 ````XML
 	    <add verb="*" path="*.asmx" validate="false" type="System.Web.Script.Services.ScriptHandlerFactory,
@@ -94,7 +94,7 @@ After __ASP.NET 3.5__ has been installed you need to modify the __web.config__ f
 
 
 
-5. Add the following HTTP module registration to the __<httpModules>__ section beneath any existing modules:
+5. Add the following HTTP module registration to the **<httpModules>** section beneath any existing modules:
 
 ````XML
 	    <add name="ScriptModule" type="System.Web.Handlers.ScriptModule, System.Web.Extensions, 
@@ -103,7 +103,7 @@ After __ASP.NET 3.5__ has been installed you need to modify the __web.config__ f
 
 
 
-6. Add a SafeControl entry for the System.Web.UI namespace from the System.Web.Extensions assembly within the __<SharePoint>/<SafeControls>__ section:
+6. Add a SafeControl entry for the System.Web.UI namespace from the System.Web.Extensions assembly within the **<SharePoint>/<SafeControls>** section:
 
 ````XML
 	    <SafeControl Assembly="System.Web.Silverlight,
@@ -131,7 +131,7 @@ After __ASP.NET 3.5__ has been installed you need to modify the __web.config__ f
 
 
 
-8. Finally, add the following configuration tags at the bottom of web.config, just before the end of the __<configuration>__ tag:
+8. Finally, add the following configuration tags at the bottom of web.config, just before the end of the **<configuration>** tag:
 
 ````XML
 	    <system.web.extensions>
@@ -176,6 +176,6 @@ After __ASP.NET 3.5__ has been installed you need to modify the __web.config__ f
 
 
 
-# See Also
+## See Also
 
  * [Extending your SharePoint 2007 site with Microsoft ASP.NET AJAX 1.0]({%slug sharepoint/2007/extending-your-sharepoint-2007-site-with-microsoft-asp.net-ajax-1.0%})

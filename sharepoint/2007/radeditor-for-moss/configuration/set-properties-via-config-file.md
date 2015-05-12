@@ -14,15 +14,15 @@ position: 0
 
 ## 
 
-You can set certain properties for __RadEditor__ by modifying the respective __ConfigFile__.
+You can set certain properties for **RadEditor** by modifying the respective **ConfigFile**.
 
-__Web Part and WCM scenario__
+**Web Part and WCM scenario**
 
-You need to modify the __ConfigFile.xml__ which is located in the following folder:
+You need to modify the **ConfigFile.xml** which is located in the following folder:
 
-/Program Files/Common Files/Microsoft Shared/web server extensions/wpresources/RadEditorSharePoint/5.x.x.0__1f131a624888eeed/Resources/
+/Program Files/Common Files/Microsoft Shared/web server extensions/wpresources/RadEditorSharePoint/5.x.x.0**1f131a624888eeed/Resources/
 
-For example you can set the __ImagesPaths__ property here:
+For example you can set the **ImagesPaths** property here:
 
 ````XML
 	    <property name="ImagesPaths">
@@ -32,8 +32,8 @@ For example you can set the __ImagesPaths__ property here:
 
 
 
-The same approach is used when setting __FlashPaths__, __DocumentsPaths__, __MediaPaths__ etc. properties. If these properties are not set, by default RadEditor will load all local libraries (local to the current site). For more information, see [Image Manager]({%slug sharepoint/2007/radeditor-for-moss/dialogs/image-manager%})
+The same approach is used when setting **FlashPaths**, **DocumentsPaths**, **MediaPaths** etc. properties. If these properties are not set, by default RadEditor will load all local libraries (local to the current site). For more information, see [Image Manager]({%slug sharepoint/2007/radeditor-for-moss/dialogs/image-manager%})
 
-__SharePoint forms scenario (Lists, Wikis, Blogs, etc.)__
+**SharePoint forms scenario (Lists, Wikis, Blogs, etc.)**
 
-You need to modify the __ListConfigFile.xml__ located in the same folder.
+You need to modify the **ListConfigFile.xml** located in the same folder.

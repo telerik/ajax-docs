@@ -14,13 +14,13 @@ position: 1
 
 ## 
 
-__Follow the steps below to upgrade RadEditor v4.x to RadEditor v5.x:__
+**Follow the steps below to upgrade RadEditor v4.x to RadEditor v5.x:**
 
 1. Uninstall the 4.x RadEditor for MOSS solution (remember to back up your custom settings/code before uninstalling)
 
 1. Install the 5.x RadEditor solution
 
-1. WCM - add a __bindingRedirect__element in the __web.config__:
+1. WCM - add a **bindingRedirect**element in the **web.config**:
 
 ````XML
 	    <dependentAssembly>
@@ -33,7 +33,7 @@ __Follow the steps below to upgrade RadEditor v4.x to RadEditor v5.x:__
 
 1. Lists - re-activate the List Editor feature on at least one site and recycle the SharePoint web application (restart IIS)
 
-1. Web Parts - add a SafeControl element for the old version of the editor in the __web.config__.For example, if you are upgrading from version 4.54:
+1. Web Parts - add a SafeControl element for the old version of the editor in the **web.config**.For example, if you are upgrading from version 4.54:
 
 ````XML
 	    <SafeControl Assembly="RadEditorSharePoint, Version=4.5.4.0, Culture=neutral,
@@ -43,6 +43,6 @@ __Follow the steps below to upgrade RadEditor v4.x to RadEditor v5.x:__
 
 
 
-__Known issues:__
+**Known issues:**
 
 The new RadEditor control has been developed to work exclusively in pages with XHTML doctype. By default, the MOSS pages do not use a doctype. This means that there will be minimal visual glitches with the editor. We have fixed most of them by overriding some of the styles in the editor skins.

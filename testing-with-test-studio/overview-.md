@@ -1,6 +1,6 @@
 ---
 title: Overview 
-page_title: Overview  | UI for ASP.NET AJAX Documentation
+page_title: Testing with Test Studio Overview  | UI for ASP.NET AJAX Documentation
 description: Overview 
 slug: introduction/testing-with-test-studio/overview-
 tags: overview,
@@ -16,7 +16,8 @@ position: 0
 
 Test Studio’s plugin for Visual Studio enables developers and testers comfortable writing code to work in the environment where they’re most productive. Telerik’s testing plugin features a robust built-in recorder that outputs functional tests in code, which you can directly customize or extend in Visual Studio. Build tests for advanced AJAX-powered applications – test dynamic pages, AJAX requests and operations, JavaScript calls and more.
 
-Here is a screenshot of a Test Studio UI sample test:![Overview](images/introduction-teststudio-overview.PNG)
+Here is a screenshot of a Test Studio UI sample test:
+![Overview](images/introduction-teststudio-overview.PNG)
 
 Highlights:
 
@@ -36,7 +37,7 @@ Highlights:
 
 * Standalone app for QAs that’s compatible with the Visual Studio plugin
 
-# See Also
+## See Also
 
  * [Visual Studio plugin](http://www.telerik.com/automated-testing-tools/visual-studio-plug-in-benefits.aspx)
 

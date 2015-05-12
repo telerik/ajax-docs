@@ -29,6 +29,4 @@ You can set the ConfigFile and ToolsFile properties of the RadEditor for SharePi
 
 >caption 
 
-![
-         
-      ](images/configfileWCM_thumb.PNG)
+![setting config file](images/configfileWCM_thumb.PNG)

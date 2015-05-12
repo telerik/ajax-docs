@@ -18,11 +18,11 @@ Follow the steps below to install Telerik RadEditor for MOSS on your SharePoint 
 
 1. Extend your MOSS site with [ASP.NET AJAX 1.0]({%slug sharepoint/2007/extending-your-sharepoint-2007-site-with-microsoft-asp.net-ajax-1.0%}) or [ASP.NET AJAX 3.5]({%slug sharepoint/2007/extending-your-sharepoint-2007-site-with-microsoft-asp.net-ajax-3.5%})
 
-2. Extract the contents of __RadEditorMOSS_5_x_x_Dev.zip__or (__RadEditorMOSS_5_x_x_Trial.zip____-__if you are using the trial version) to a folder of your choice on the MOSS server.
+2. Extract the contents of **RadEditorMOSS_5_x_x_Dev.zip**or (**RadEditorMOSS_5_x_x_Trial.zip****-**if you are using the trial version) to a folder of your choice on the MOSS server.
 
 3. Open a command prompt window.
 
-4. Run the __stsadm.exe__ utility to install __RadEditorMOSS__solution. By default __stsadm.exe__ can be found in __[Program Files]\Common Files\Microsoft Shared\web server extensions\12\BIN__.
+4. Run the **stsadm.exe** utility to install **RadEditorMOSS**solution. By default **stsadm.exe** can be found in **[Program Files]\Common Files\Microsoft Shared\web server extensions\12\BIN**.
 
 Use the following syntax:
 
@@ -31,22 +31,22 @@ Use the following syntax:
 
 ![](images/1_cmd_thumb.png)![](images/hs_enlarge.gif)
 
-5. Open the SharePoint __Central Administration__ page.
+5. Open the SharePoint **Central Administration** page.
 >caption 
 
 ![](images/2_CentrAdmin_1_thumb.png)![](images/hs_enlarge.gif)
 
-6. Go to the __Operations__ page and click on __Solution Management__.
+6. Go to the **Operations** page and click on **Solution Management**.
 >caption 
 
 ![](images/2_CentrAdmin_2_thumb.png)![](images/hs_enlarge.gif)
 
-7. You should see the __radeditormoss.wsp__ solution in the list. Click on the name link to go to the __Solution Properties__ page.
+7. You should see the **radeditormoss.wsp** solution in the list. Click on the name link to go to the **Solution Properties** page.
 >caption 
 
 ![](images/2_CentrAdmin_3_thumb.png)![](images/hs_enlarge.gif)
 
-8. Select __Deploy Solution__.
+8. Select **Deploy Solution**.
 >caption 
 
 ![](images/2_CentrAdmin_4_thumb.png)![](images/hs_enlarge.gif)
@@ -63,6 +63,6 @@ Use the following syntax:
 
 ![](images/2_CentrAdmin_6_thumb.png)![](images/hs_enlarge.gif)
 
->note  __Note__ : If you see the following exception - "Request for permission of type..." when you try to open a page containing the editor, then you might need to modify the web.config of your SharePoint application and set the Trust level to at least Medium level. This can happen if you choose to deploy the editor solution to a single site (in the BIN folder) instead of to all sites (in the GAC).
+>note  **Note** : If you see the following exception - "Request for permission of type..." when you try to open a page containing the editor, then you might need to modify the web.config of your SharePoint application and set the Trust level to at least Medium level. This can happen if you choose to deploy the editor solution to a single site (in the BIN folder) instead of to all sites (in the GAC).
 >
 

@@ -14,11 +14,11 @@ position: 6
 
 ## 
 
-__Web Part and WCM scenario__
+**Web Part and WCM scenario**
 
-You need to modify the __ToolsFile.xml__ which is located in the following folder:
+You need to modify the **ToolsFile.xml** which is located in the following folder:
 
-/Program Files/Common Files/Microsoft Shared/web server extensions/wpresources/RadEditorSharePoint/5.x.x.0__1f131a624888eeed/Resources/
+/Program Files/Common Files/Microsoft Shared/web server extensions/wpresources/RadEditorSharePoint/5.x.x.0**1f131a624888eeed/Resources/
 
 and add the following tools:
 
@@ -29,10 +29,10 @@ and add the following tools:
 
 
 
->caution in the WCM scenario you will also need to add / set the __AllowSpecialTags__ property to true. You can set it in the current page using SharePoint Designer.[Click here]({%slug sharepoint/2007/radeditor-for-moss/configuration/setting-configfile-and-toolsfile-properties-for-the-wcm-field%})for more information
+>caution in the WCM scenario you will also need to add / set the **AllowSpecialTags** property to true. You can set it in the current page using SharePoint Designer.[Click here]({%slug sharepoint/2007/radeditor-for-moss/configuration/setting-configfile-and-toolsfile-properties-for-the-wcm-field%})for more information
 >
 
 
-__SharePoint forms scenario (Lists, Wikis, Blogs, etc.)__
+**SharePoint forms scenario (Lists, Wikis, Blogs, etc.)**
 
 You cannot enter Media / Flash files in such scenarios. There RadEditor does not have control over the presentation view which means that we cannot control the output when it is not in edit mode.

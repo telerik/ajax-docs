@@ -18,13 +18,13 @@ It is possible to have unique configuration files (one for lists and one for web
 
 If your web has an UID *{a63cff5e-cdf5-48d0-898d-f9a24d299f06}*, then its custom configuration files should have the following names:
 
-__ConfigFile{a63cff5e-cdf5-48d0-898d-f9a24d299f06}.xml__
+**ConfigFile{a63cff5e-cdf5-48d0-898d-f9a24d299f06}.xml**
 
-__ListConfigFile{a63cff5e-cdf5-48d0-898d-f9a24d299f06}.xml__
+**ListConfigFile{a63cff5e-cdf5-48d0-898d-f9a24d299f06}.xml**
 
-__ToolsFile{a63cff5e-cdf5-48d0-898d-f9a24d299f06}.xml__
+**ToolsFile{a63cff5e-cdf5-48d0-898d-f9a24d299f06}.xml**
 
-__ListToolsFile{a63cff5e-cdf5-48d0-898d-f9a24d299f06}.xml__
+**ListToolsFile{a63cff5e-cdf5-48d0-898d-f9a24d299f06}.xml**
 
 Note, that this approach is useful in web part and list scenarios. For the WCM scenario, you can already set the configuration files properties through SharePoint Designer - [Setting ConfigFile and ToolsFile properties for the WCM field]({%slug sharepoint/2007/radeditor-for-moss/configuration/setting-configfile-and-toolsfile-properties-for-the-wcm-field%})
 

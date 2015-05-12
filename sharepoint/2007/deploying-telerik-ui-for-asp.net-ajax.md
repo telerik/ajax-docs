@@ -20,22 +20,22 @@ This section outlines the required steps that need to be taken to deploy Telerik
 
 1. First you need to install Telerik.Web.UI.dll and Telerik.Web.Design.dll in the GAC (Global Assembly Cache) of your SharePoint server. There are two ways to do this:
 
-a. Drag and drop __Telerik.Web.UI.dll__ and __Telerik.Web.Design.dll__into C:\Windows\Assembly (in Windows Explorer)
+a. Drag and drop **Telerik.Web.UI.dll** and **Telerik.Web.Design.dll**into C:\Windows\Assembly (in Windows Explorer)
 >caption 
 
 ![
          
       ](images/sharepoint_gac_registration_thumb.png)
 
-b. Open Visual Studio 2005/2008/2010 Command Prompt and run the following commands (assuming Telerik.Web.UI.dll and Telerik.Web.Design.dll are in c:\Telerik)__gacutil -i c:\Telerik\Telerik.Web.UI.dll__
+b. Open Visual Studio 2005/2008/2010 Command Prompt and run the following commands (assuming Telerik.Web.UI.dll and Telerik.Web.Design.dll are in c:\Telerik)**gacutil -i c:\Telerik\Telerik.Web.UI.dll**
 
-__gacutil -i c:\Telerik\Telerik.Web.Design.dll__
+**gacutil -i c:\Telerik\Telerik.Web.Design.dll**
 
->note If you use version prior to __Q1 2009__ you need to install merely __Telerik.Web.UI.dll__ in the GAC (Telerik.Web.Design.dll is IL merged in this version).
+>note If you use version prior to **Q1 2009** you need to install merely **Telerik.Web.UI.dll** in the GAC (Telerik.Web.Design.dll is IL merged in this version).
 >
 
 
-2. Next you should tell SharePoint that the controls from the Telerik.Web.UI.dll (and Telerik.Web.Design.dll) are safe to use. To do so you should add a few __<SafeControl>__ entries within the __<SafeControls>__ section in your web.config:
+2. Next you should tell SharePoint that the controls from the Telerik.Web.UI.dll (and Telerik.Web.Design.dll) are safe to use. To do so you should add a few **<SafeControl>** entries within the **<SafeControls>** section in your web.config:
 
 
 
@@ -48,7 +48,7 @@ __gacutil -i c:\Telerik\Telerik.Web.Design.dll__
 
 
 
->note Note that the version of the assembly is specified in each __<SafeControl>__ tag. If deploying a different version of Telerik UI for ASP.NET AJAX, ensure that the version number is correct here.
+>note Note that the version of the assembly is specified in each **<SafeControl>** tag. If deploying a different version of Telerik UI for ASP.NET AJAX, ensure that the version number is correct here.
 >
 
 
@@ -91,7 +91,7 @@ __gacutil -i c:\Telerik\Telerik.Web.Design.dll__
 
 
 
-4. [*Optional*] In order to use __RadEditor for SharePoint__and the .NET 3.5 version of Telerik UI for ASP.NET AJAX you need to paste the following __<dependentAssembly>__ elements in the __<assemblyBinding>__ tag in the web.config file:
+4. [*Optional*] In order to use **RadEditor for SharePoint**and the .NET 3.5 version of Telerik UI for ASP.NET AJAX you need to paste the following **<dependentAssembly>** elements in the **<assemblyBinding>** tag in the web.config file:
 
 ````XML
 	    <dependentAssembly>

@@ -17,7 +17,7 @@ position: 5
 
 ![](images/DropDowns010.png)
 
-The CSS class dropdown of RadEditor displays all classes defined in the page or from external CSS files. The dropdown is populated from the __CssClasses__Collection. By default RadEditor for MOSS uses the same CSS files as the default rich-text editor. Those files are __HtmlEditorTableFormats__.__css__ and __HtmlEditorCustomStyles.css,__ which are located in the following folder:
+The CSS class dropdown of RadEditor displays all classes defined in the page or from external CSS files. The dropdown is populated from the **CssClasses**Collection. By default RadEditor for MOSS uses the same CSS files as the default rich-text editor. Those files are **HtmlEditorTableFormats**.**css** and **HtmlEditorCustomStyles.css,** which are located in the following folder:
 
 /Program Files/Common Files/Microsoft Shared/web server extensions/12/Template/Layouts/1033/Styles
 
@@ -25,11 +25,11 @@ The CSS class dropdown of RadEditor displays all classes defined in the page or 
 >
 
 
-__For example:__
+**For example:**
 
-The files which properties need to be modified are __ToolsFile.xml / ListToolsFile.xml__, located in the following folder:
+The files which properties need to be modified are **ToolsFile.xml / ListToolsFile.xml**, located in the following folder:
 
-/Program Files/Common Files/Microsoft Shared/web server extensions/wpresources/RadEditorSharePoint/5.x.x.0__1f131a624888eeed/Resources/
+/Program Files/Common Files/Microsoft Shared/web server extensions/wpresources/RadEditorSharePoint/5.x.x.0**1f131a624888eeed/Resources/
 
 ````XML
 	    <root>  

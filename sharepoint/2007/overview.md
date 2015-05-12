@@ -16,9 +16,9 @@ position: 0
 >
 
 
-With the release of __Windows SharePoint Services (WSS)__ v3 and __Microsoft Office SharePoint Server 2007__, Microsoft has implemented significant architectural changes in the SharePoint platform, which simplify the task of customizing the user interface.
+With the release of **Windows SharePoint Services (WSS)** v3 and **Microsoft Office SharePoint Server 2007**, Microsoft has implemented significant architectural changes in the SharePoint platform, which simplify the task of customizing the user interface.
 
-Most of these improvements are because of the __WSS v3__, unlike its predecessor, which is built on top of the .NET 3.0 Framework bringing the native capabilities of ASP.NET 2.0 directly to the SharePoint platform. One such ASP.NET 2.0 concept that is leveraged by WSS v3 is the __navigation provider model__.
+Most of these improvements are because of the **WSS v3**, unlike its predecessor, which is built on top of the .NET 3.0 Framework bringing the native capabilities of ASP.NET 2.0 directly to the SharePoint platform. One such ASP.NET 2.0 concept that is leveraged by WSS v3 is the **navigation provider model**.
 
 ## The Navigation Provider Model
 
@@ -26,7 +26,7 @@ The navigation provider model separates the navigation hierarchy (the data porti
 
 The role of the site-map data source is to abstract the navigation hierarchy from the underlying system (such as SharePoint) to make it transparent to the navigation control. This allows developers to easily snap ASP.NET 2.0 navigation provider model compatible controls into a SharePoint site by simply configuring them to receive the navigation hierarchy from the provided SharePoint site-map data sources.
 
-This section demonstrates how to incorporate Telerik UI for ASP.NET AJAX in a SharePoint 2007/2010 site. Using __RadMenu__, __RadPanelbar__, __RadSiteMap__, __RadTreeView__ or __RadTabStrip__ as navigation controls bound to SharePoint sitemaps is easy and codeless process. We also provide:
+This section demonstrates how to incorporate Telerik UI for ASP.NET AJAX in a SharePoint 2007/2010 site. Using **RadMenu**, **RadPanelbar**, **RadSiteMap**, **RadTreeView** or **RadTabStrip** as navigation controls bound to SharePoint sitemaps is easy and codeless process. We also provide:
 
 * Native SharePoint 2007 webpart for RadEditor
 
@@ -38,7 +38,7 @@ Using other controls from the Telerik UI for ASP.NET AJAX suite in SharePoint ma
 
 Telerik UI for ASP.NET AJAX leverage the client and server side platform provided by ASP.NET Ajax. Note that you need to install/configure ASP.NET Ajax 1.0 or 3.5 prior to deploying Telerik UI for ASP.NET AJAX to your SharePoint 2007 site. SharePoint 2010 does not require separate install because it is shipped by default with the .NET 35 version of the ASP.NET Ajax framework.
 
-# See Also
+## See Also
 
  * [Extending your SharePoint 2007 site with Microsoft ASP.NET AJAX 1.0]({%slug sharepoint/2007/extending-your-sharepoint-2007-site-with-microsoft-asp.net-ajax-1.0%})
 

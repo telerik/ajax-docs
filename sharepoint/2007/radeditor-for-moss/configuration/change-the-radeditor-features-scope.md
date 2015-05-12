@@ -18,36 +18,36 @@ Q: How do I change the scope of the RadEditor features so they can be activated 
 
 A: You need to remove the features, change their scope, and finally install them again. First open a command prompt on the server and execute the following commands to remove the features:
 
-C:\>__stsadm -o uninstallfeature -name RadEditorFeatureRichHtml -force__
+C:\>**stsadm -o uninstallfeature -name RadEditorFeatureRichHtml -force**
 
 Operation completed successfully.
 
-C:\>__stsadm -o uninstallfeature -name RadEditorFeatureRichText -force__
+C:\>**stsadm -o uninstallfeature -name RadEditorFeatureRichText -force**
 
 Operation completed successfully.
 
 Then open the feature definition files and change the scope attribute from "Web" to "Site". The files you need to edit are:
 
-__C:\Program Files\Common Files\Microsoft Shared\web server extensions\12\TEMPLATE\FEATURES\RadEditorFeatureRichHtml\Feature.xml__
+**C:\Program Files\Common Files\Microsoft Shared\web server extensions\12\TEMPLATE\FEATURES\RadEditorFeatureRichHtml\Feature.xml**
 
 and
 
-__C:\Program Files\Common Files\Microsoft Shared\web server extensions\12\TEMPLATE\FEATURES\RadEditorFeatureRichText\Feature.xml__
+**C:\Program Files\Common Files\Microsoft Shared\web server extensions\12\TEMPLATE\FEATURES\RadEditorFeatureRichText\Feature.xml**
 
 Open them with a text editor and change the line:
 
-__Scope="Web"__
+**Scope="Web"**
 
 to
 
-__Scope="Site"__
+**Scope="Site"**
 
 Save the changed .xml files and install the features again:
 
-C:\>__stsadm -o installfeature -name RadEditorFeatureRichHtml -force__
+C:\>**stsadm -o installfeature -name RadEditorFeatureRichHtml -force**
 
 Operation completed successfully.
 
-C:\>__stsadm -o installfeature -name RadEditorFeatureRichText -force__
+C:\>**stsadm -o installfeature -name RadEditorFeatureRichText -force**
 
 Operation completed successfully.

@@ -20,47 +20,47 @@ The assemblies come sorted in several folders so that you can use the appropriat
 
 The Telerik UI for ASP.NET AJAX product consists of the assemblies in the list below. You can find them in the root of the installation (both[automated]({%slug introduction/installation/installing-the-telerik-controls-from-msi-file%}) and inthe [zip archive]({%slug introduction/installation/installing-the-telerik-controls-from-zip-file%})) and in the	[internal builds archives]({%slug introduction/installation/using-the-hotfix-(dlls-and-scripts/skins-only)%}).
 
-* __Telerik.Web.UI.dll__—the core assembly from the suite where the actual controls are located. It also contains the *Default* skin.
+* **Telerik.Web.UI.dll** — the core assembly from the suite where the actual controls are located. It also contains the *Default* skin.
 
-* __Telerik.Web.UI.Skins.dll__—this assembly has all the skins the suite offers (except the *Default* one).If you use only the Default skin, or you only use custom skins, you do not need this assembly.
+* **Telerik.Web.UI.Skins.dll** — this assembly has all the skins the suite offers (except the *Default* one).If you use only the Default skin, or you only use custom skins, you do not need this assembly.
 
-* __Telerik.Web.Design.dll__—this assembly contains the Visual Studio Design surface code for the suite. The configuration wizards you can accessfrom the controls' Smart Tags are also there. It is only needed if you use the controls in the Design mode in VS and it is not needed in the deployed application.The automated installation adds this assembly to the GAC.
+* **Telerik.Web.Design.dll** — this assembly contains the Visual Studio Design surface code for the suite. The configuration wizards you can access from the controls' Smart Tags are also there. It is only needed if you use the controls in the Design mode in VS and it is not needed in the deployed application.The automated installation adds this assembly to the GAC.
 
-* __Telerik.Web.Device.Detection.dll__—the [Telerik Device Detection framework](d65b4c42-ab7e-44de-9342-d3c698009d8b)that can help you determine the screen resolution of the device that requested the page while processing the request on the server. It is used by the Telerik controlsto determine the [RenderMode](c952abb4-e952-44fa-9e05-70aac40c04d5) when it is set to Auto.
+* **Telerik.Web.Device.Detection.dll** — the [Telerik Device Detection framework](d65b4c42-ab7e-44de-9342-d3c698009d8b)that can help you determine the screen resolution of the device that requested the page while processing the request on the server. It is used by the Telerik controlsto determine the [RenderMode](c952abb4-e952-44fa-9e05-70aac40c04d5) when it is set to Auto.
 
 ## Telerik ZIP Library
 
 This is a cross-platform library that lets you load, create and update Zip archives on the fly with easy to use API.
 
-You can find its assembly in the __AdditionalLibraries__ folder in the Telerik UI for ASP.NET AJAX installation (automated and manual) and in the internal builds archive.It supports .NET 4 and .NET 4.5, so depending on the target framework of your project, you need to take the assembly from the *Bin40*or *Bin45* folder respectively.
+You can find its assembly in the **AdditionalLibraries** folder in the Telerik UI for ASP.NET AJAX installation (automated and manual) and in the internal builds archive.It supports .NET 4 and .NET 4.5, so depending on the target framework of your project, you need to take the assembly from the *Bin40*or *Bin45* folder respectively.
 
-* __Telerik.Windows.Zip.dll__—the assembly of the Telerik Zip Library.
+* **Telerik.Windows.Zip.dll** — the assembly of the Telerik Zip Library.
 
 You can read more about it in its documentation: [Getting started with RadZipLibrary](http://www.telerik.com/help/silverlight/radziplibrary-gettingstarted.html).
 
 ## Telerik Document Processing Libraries
 
-The Telerik document processing libraries are a set of assemblies that let you import and exportcontent between different formats.
+The Telerik document processing libraries are a set of assemblies that let you import and export content between different formats.
 
-You can find the needed assemblies in the __AdditionalLibraries__ folder in the Telerik UI for ASP.NET AJAX installation (automated and manual) and in the internal builds archive.It supports .NET 4 and .NET 4.5, so depending on the target framework of your project, you need to take the assembly from the *Bin40*or *Bin45* folder respectively.
+You can find the needed assemblies in the **AdditionalLibraries** folder in the Telerik UI for ASP.NET AJAX installation (automated and manual) and in the internal builds archive.It supports .NET 4 and .NET 4.5, so depending on the target framework of your project, you need to take the assembly from the *Bin40*or *Bin45* folder respectively.
 
-* __Telerik.Windows.Documents.Core.dll__—the main assembly from the Telerik document processing libraries. You always need it when you intend to use the library.
+* **Telerik.Windows.Documents.Core.dll** — the main assembly from the Telerik document processing libraries. You always need it when you intend to use the library.
 
-* __Telerik.Windows.Documents.Flow.dll__—part of the words (text) processing library. It is needed for processing HTML, DOCX, RTF and TXT documents.
+* **Telerik.Windows.Documents.Flow.dll** — part of the words (text) processing library. It is needed for processing HTML, DOCX, RTF and TXT documents.
 
-* __Telerik.Windows.Zip.dll__—needed for working with zipped formats (DOCX, XLSX) and PDF.
+* **Telerik.Windows.Zip.dll** — needed for working with zipped formats (DOCX, XLSX) and PDF.
 
-* __Telerik.Windows.Documents.Flow.FormatProviders.Pdf__—allows exporting of flow documents (DOCX, RTF) to PDF.
+* **Telerik.Windows.Documents.Flow.FormatProviders.Pdf** — allows exporting of flow documents (DOCX, RTF) to PDF.
 
-* __Telerik.Windows.Documents.Spreadsheet.dll__—the main assembly for the spreadsheet processing. It is needed for processing XLSX, CSV, TXT documents.
+* **Telerik.Windows.Documents.Spreadsheet.dll** — the main assembly for the spreadsheet processing. It is needed for processing XLSX, CSV, TXT documents.
 
-* __Telerik.Windows.Maths.dll__—the assembly needed for mathematical operations with the spreadsheet processing. It is needed for processing XLSX, CSV, TXT documents.
+* **Telerik.Windows.Maths.dll** — the assembly needed for mathematical operations with the spreadsheet processing. It is needed for processing XLSX, CSV, TXT documents.
 
-* __Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.dll__—this assembly is needed for processing XLSX documents.
+* **Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.dll** — this assembly is needed for processing XLSX documents.
 
-* __Telerik.Windows.Documents.Fixed.dll__—this assembly is needed for processing PDF documents.
+* **Telerik.Windows.Documents.Fixed.dll** — this assembly is needed for processing PDF documents.
 
-* __Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf.dll__—this assembly is needed for processing PDF documents.
+* **Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf.dll** — this assembly is needed for processing PDF documents.
 
 You can find more information on working with the Telerik document processing libraries in the following articles:
 
@@ -90,7 +90,7 @@ You can find more information on working with the Telerik document processing li
 
 * [PDF format provider](01174622-214c-47a0-a47f-b0e2b990b216)
 
-# See Also
+## See Also
 
  * [Telerik ZIP library](http://www.telerik.com/products/silverlight/zip-library.aspx)
 

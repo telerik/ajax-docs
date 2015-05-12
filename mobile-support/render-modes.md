@@ -81,88 +81,87 @@ Some controls from the UI for ASP.NET AJAX suite	can produce different (usually 
 
 If you are extending the Telerik controls that support render modes through a property (i.e., they are not lightweight by design, for example), you need to addseveral properties to your class that will provide this functionality:
 
-__Example 1__: Properties that enable you to use RenderModes for controls inherited from the Telerik controls.
+**Example 1**: Properties that enable you to use RenderModes for controls inherited from the Telerik controls.
 
 
 
 ````C#
-	public class BaseScheduler : RadScheduler
+public class BaseScheduler : RadScheduler
+{
+	public BaseScheduler()
 	{
-		public BaseScheduler()
+		SetDefaultValues();
+	}
+
+	private void SetDefaultValues()
+	{
+		if (DesignMode)
 		{
-			SetDefaultValues();
-		}
-	
-		private void SetDefaultValues()
-		{
-			if (DesignMode)
-			{
-				return;
-			}
-		}
-	
-		//only add this property if the base control implements Lightweight rendering via the RenderMode property
-		protected override bool SupportsLightweightRendering
-		{
-			get
-			{
-				return true;
-			}
-		}
-	
-		//only add this property if the base control implements Adaptive (Mobile) rendering via the RenderMode property
-		protected override bool SupportsAdaptiveRendering
-		{
-			get
-			{
-				return true;
-			}
-		}
-	
-		//only add this property if the base control implements Native rendering via the RenderMode property
-		protected override bool SupportsNativeRendering
-		{
-			get
-			{
-				return true;
-			}
+			return;
 		}
 	}
+
+	//only add this property if the base control implements Lightweight rendering via the RenderMode property
+	protected override bool SupportsLightweightRendering
+	{
+		get
+		{
+			return true;
+		}
+	}
+
+	//only add this property if the base control implements Adaptive (Mobile) rendering via the RenderMode property
+	protected override bool SupportsAdaptiveRendering
+	{
+		get
+		{
+			return true;
+		}
+	}
+
+	//only add this property if the base control implements Native rendering via the RenderMode property
+	protected override bool SupportsNativeRendering
+	{
+		get
+		{
+			return true;
+		}
+	}
+}
 ````
 ````VB
-	
-	Public Class BaseScheduler
-		Inherits RadScheduler
-		Public Sub New()
-			SetDefaultValues()
-		End Sub
-	
-		Private Sub SetDefaultValues()
-			If DesignMode Then
-				Return
-			End If
-		End Sub
-	
-		'only add this property if the base control implements Lightweight rendering via the RenderMode property
-		Protected Overrides ReadOnly Property SupportsLightweightRendering() As Boolean
-			Get
-				Return True
-			End Get
-		End Property
-	
-		'only add this property if the base control implements Adaptive (Mobile) rendering via the RenderMode property
-		Protected Overrides ReadOnly Property SupportsAdaptiveRendering() As Boolean
-			Get
-				Return True
-			End Get
-		End Property
-	
-		'only add this property if the base control implements Native rendering via the RenderMode property
-		Protected Overrides ReadOnly Property SupportsNativeRendering() As Boolean
-			Get
-				Return True
-			End Get
-		End Property
-	End Class
+Public Class BaseScheduler
+	Inherits RadScheduler
+	Public Sub New()
+		SetDefaultValues()
+	End Sub
+
+	Private Sub SetDefaultValues()
+		If DesignMode Then
+			Return
+		End If
+	End Sub
+
+	'only add this property if the base control implements Lightweight rendering via the RenderMode property
+	Protected Overrides ReadOnly Property SupportsLightweightRendering() As Boolean
+		Get
+			Return True
+		End Get
+	End Property
+
+	'only add this property if the base control implements Adaptive (Mobile) rendering via the RenderMode property
+	Protected Overrides ReadOnly Property SupportsAdaptiveRendering() As Boolean
+		Get
+			Return True
+		End Get
+	End Property
+
+	'only add this property if the base control implements Native rendering via the RenderMode property
+	Protected Overrides ReadOnly Property SupportsNativeRendering() As Boolean
+		Get
+			Return True
+		End Get
+	End Property
+End Class
 ````
 

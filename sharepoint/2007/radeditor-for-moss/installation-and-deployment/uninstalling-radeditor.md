@@ -14,7 +14,7 @@ position: 5
 
 ## 
 
-In order to uninstall RadEditor for MOSS you need to first perform the following preliminary tasks. Note that these tasks are needed __ONLY__if you do not plan to upgrade to a newer version of RadEditor for MOSS (e.g. you wish to use only the default MOSS editor again):
+In order to uninstall RadEditor for MOSS you need to first perform the following preliminary tasks. Note that these tasks are needed **ONLY**if you do not plan to upgrade to a newer version of RadEditor for MOSS (e.g. you wish to use only the default MOSS editor again):
 
 1. Revert to the default rich-text editor in Web Content Management scenario (do the reverse actions of the ones described in [Using RadEditor in Web Content Management scenario]({%slug sharepoint/2007/radeditor-for-moss/installation-and-deployment/using-radeditor-in-web-content-management-scenario%})).
 
@@ -52,12 +52,12 @@ In order to uninstall RadEditor for MOSS you need to first perform the following
 
 Once you have performed steps 1 and 2 as described above, please do the following to uninstall Telerik RadEditor from your MOSS 2007 site:
 
-1. Open your SharePoing site in the browser. From the __Site Actions__ menu go to __Site Settings > Modify All Site Settings__
+1. Open your SharePoing site in the browser. From the **Site Actions** menu go to **Site Settings > Modify All Site Settings**
 >caption 
 
 ![](images/4_Lists1_thumb.png)
 
-1. Click __Site features__ link from the Site Administration column.
+1. Click **Site features** link from the Site Administration column.
 >caption 
 
 ![](images/SiteFeaturesMoss_thumb.png)
@@ -67,19 +67,19 @@ Once you have performed steps 1 and 2 as described above, please do the followin
 
 ![](images/SiteFeaturesMoss2_thumb.png)
 
-1. Open the SharePoint __Central Administration__ page.
+1. Open the SharePoint **Central Administration** page.
 
-1. Go to the __Operations__ page and click on __Solution Management__.
+1. Go to the **Operations** page and click on **Solution Management**.
 >caption 
 
 ![](images/2_CentrAdmin_2_thumb.png)
 
-1. You should see the __radeditormoss.wsp__ solution in the list. Click on the name link to go to the __Solution Properties__ page.
+1. You should see the **radeditormoss.wsp** solution in the list. Click on the name link to go to the **Solution Properties** page.
 >caption 
 
 ![](images/2_CentrAdmin_6_thumb.png)
 
-1. Choose __Retract Solution__. On the next page choose when and from which solutions to retract the RadEditor. Then click __Ok__.
+1. Choose **Retract Solution**. On the next page choose when and from which solutions to retract the RadEditor. Then click **Ok**.
 >caption 
 
 ![](images/6_Uninstall_2_thumb.png)
@@ -89,13 +89,13 @@ Once you have performed steps 1 and 2 as described above, please do the followin
 
 ![](images/2_CentrAdmin_3_thumb.png)
 
-1. Click the name link to open the __Solution Properties__ page again. This time click the __Remove Solution__ button. Then confirm in the dialog box. The solution should be removed from the farm and a confirmation screen will be displayed.
+1. Click the name link to open the **Solution Properties** page again. This time click the **Remove Solution** button. Then confirm in the dialog box. The solution should be removed from the farm and a confirmation screen will be displayed.
 >caption 
 
 ![](images/6_Uninstall_4_thumb.png)
 
-1. To prevent errors caused by caching, open a command prompt window and type __iisreset__ to reset the Internet Information Server.
+1. To prevent errors caused by caching, open a command prompt window and type **iisreset** to reset the Internet Information Server.
 
-# See Also
+## See Also
 
  * [Using RadEditor in Web Content Management scenario]({%slug sharepoint/2007/radeditor-for-moss/installation-and-deployment/using-radeditor-in-web-content-management-scenario%})

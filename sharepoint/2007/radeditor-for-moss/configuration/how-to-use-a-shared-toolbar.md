@@ -16,7 +16,7 @@ position: 6
 
 The new RadEditor for MOSS 5.x has a feature, which can improve load times on pages with two or more active editors of the same type. For example, if you have a publishing layout with more than one content field and all HTML content fields have the same configuration. Another example of many editors is a list with two or more fields of type "Multiple lines of text".
 
-If you want to take advantage of the shared toolbar feature, you simply need to set the __UseSharedToolbar__ editor property to __True__ in the configuration file (see [Set Properties Via Config File]({%slug sharepoint/2007/radeditor-for-moss/configuration/set-properties-via-config-file%})):
+If you want to take advantage of the shared toolbar feature, you simply need to set the **UseSharedToolbar** editor property to **True** in the configuration file (see [Set Properties Via Config File]({%slug sharepoint/2007/radeditor-for-moss/configuration/set-properties-via-config-file%})):
 
 <property name="UseSharedToolbar">true</property>
 

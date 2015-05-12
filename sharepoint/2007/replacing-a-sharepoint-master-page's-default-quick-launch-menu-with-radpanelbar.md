@@ -22,7 +22,7 @@ In order to substitute the Quick launch UI of the SharePoint master page, follow
 
 1. Launch Office SharePoint designer and open the desired SharePoint site
 
-1. Within the Folder List tool window expand the tree until the master pages folder is visible. A typical location is __http://server_name/_catalogs/masterpage__
+1. Within the Folder List tool window expand the tree until the master pages folder is visible. A typical location is **http://server_name/_catalogs/masterpage**
 >caption 
 
 ![](images/moss2.gif)
@@ -31,7 +31,7 @@ In order to substitute the Quick launch UI of the SharePoint master page, follow
 
 1. Insert the following @Register directive in the default.master page:
 
-````ASPNET
+````ASP.NET
 	<%@ Register TagPrefix="telerik" Namespace="Telerik.Web.UI" Assembly="Telerik.Web.UI, Version=x.x.x.x, Culture=neutral, PublicKeyToken=121fae78165ba3d4" %>
 ````
 
@@ -43,7 +43,7 @@ In order to substitute the Quick launch UI of the SharePoint master page, follow
 
 1. Delete or comment the markup of the default menu control and insert the RadPanelbar definition as specified below:
 
-````ASPNET
+````ASP.NET
 	    <%--
 	        <SharePoint:AspMenu
 	           id="QuickLaunchMenu"

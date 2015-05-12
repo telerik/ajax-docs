@@ -20,7 +20,7 @@ In general, there are 2 approaches for uninstalling Telerik controls for SharePo
 
 1. By using SharePoint’s Central Administration page.
 
-The information below provides details about the second approach. __Still, we strongly recommend following points 1 to 3 (inclusive) from the "____uninstall Telerik RadEditor from your SharePoint 2010 site" section, when uninstalling the controls via the MS Windows Control Panel applet__.
+The information below provides details about the second approach. **Still, we strongly recommend following points 1 to 3 (inclusive) from the "uninstall Telerik RadEditor from your SharePoint 2010 site" section, when uninstalling the controls via the MS Windows Control Panel applet**.
 
 In order to uninstall RadEditor for MOSS you need to first perform the following preliminary tasks. Note that these tasks are needed ONLY if you do not plan to upgrade to a newer version of RadEditor for MOSS (e.g. you wish to use only the default MOSS editor again):
 
@@ -29,22 +29,16 @@ In order to uninstall RadEditor for MOSS you need to first perform the following
 1. Open the page(s) in which you have used RadEditor for MOSS.
 
 1. Replace the RadEditor tags (telerik:RadHtmlField) with the default editor tags:
-
 ````XML
-	    <publishingwebcontrols:richhtmlfield runat="server" id="Content" fieldname="..." />
+<publishingwebcontrols:richhtmlfield runat="server" id="Content" fieldname="..." />
 ````
-
-
 
 1. Remove the RadEditor registration line from the top of the page:
-
 ````XML
-	    <%@ register tagprefix="telerik" namespace="Telerik.SharePoint.FieldEditor" assembly="RadEditorSharePoint, Version=x.x.x.x, Culture=neutral, PublicKeyToken=1f131a624888eeed" %>
+<%@ register tagprefix="telerik" namespace="Telerik.SharePoint.FieldEditor" assembly="RadEditorSharePoint, Version=x.x.x.x, Culture=neutral, PublicKeyToken=1f131a624888eeed" %>
 ````
 
-
-
-1. 2. Replace all instances of the RadEditor Web Part with the default rich-text editor Web Part:
+Replace all instances of the RadEditor Web Part with the default rich-text editor Web Part:
 
 1. Open a given page for editing
 
@@ -56,62 +50,30 @@ In order to uninstall RadEditor for MOSS you need to first perform the following
 
 1. Paste to copied content inside the Web Part and save it
 
-1. Repeat steps b-e for all RadEditor Web Parts on the pageOnce you have performed steps 1 and 2 as described above, please do the following to __uninstall Telerik RadEditor from your SharePoint 2010 site__:
+1. Repeat steps b-e for all RadEditor Web Parts on the pageOnce you have performed steps 1 and 2 as described above, please do the following to **uninstall Telerik RadEditor from your SharePoint 2010 site**:
 
 1. Open your SharePoing site in the browser. From the Site Actions menu go to Site Settings
->caption 
-
-![
-         
-      ](images/pic1_thumb.png)
+![](images/pic1_thumb.png)
 
 1. Click Manage site features link from the Site Actions column.
->caption 
-
-![
-         
-      ](images/pic2_thumb.png)
+![](images/pic2_thumb.png)
 
 1. Scroll to the bottom of the list and deactivate the RadEditor features.
->caption 
-
-![
-         
-      ](images/Pic3_thumb.png)
+![](images/Pic3_thumb.png)
 
 1. Open the SharePoint Central Administration page.
 
 1. Go to the System Settings and click on Manage farm solutions link from the Farm Management column.
->caption 
-
-![
-         
-      ](images/Pic5_thumb.png)
+![](images/Pic5_thumb.png)
 
 1. You should see the radcontrolssp.wsp solution in the list. Click on the name link to go to the Solution Properties page.
->caption 
-
-![
-         
-      ](images/Pic6_thumb.png)
+![](images/Pic6_thumb.png)
 
 1. Choose Retract Solution. On the next page choose when and from which solutions to retract the RadEditor. Then click Ok.
->caption 
-
-![
-         
-      ](images/Pic7_thumb.png)
+![](images/Pic7_thumb.png)
 
 1. Wait a few minutes. Then refresh the page. The retraction process should be over and you should see the following screen:
->caption 
-
-![
-         
-      ](images/pic8_thumb.png)
+![](images/pic8_thumb.png)
 
 1. Click the name link to open the Solution Properties page again. This time click the Remove Solution button. Then confirm in the dialog box. The solution should be removed from the farm and a confirmation screen will be displayed.
->caption 
-
-![
-         
-      ](images/Pic9_thumb.png)
+![](images/Pic9_thumb.png)

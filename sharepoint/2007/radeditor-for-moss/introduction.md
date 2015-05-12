@@ -27,7 +27,7 @@ RadEditor for Microsoft Office SharePoint Server extends the web content authori
 
 * Rich-HTML field in Web Content Management (publishing) scenarios
 
-__Important details:__
+**Important details:**
 
 RadEditor for SharePoint is a modified version of the Telerik RadEditor control and it is built on top of the RadEditor for ASP.NET AJAX. The tight integration with ASP.NET AJAX and powerful new capabilities of the suite features the new WYSIWYG Editor as a flexible and lightweight component. Among the hottest features are:
 
@@ -49,7 +49,7 @@ RadEditor for SharePoint is a modified version of the Telerik RadEditor control 
 
 * Ability to have editors with different skins on the same page
 
-# See Also
+## See Also
 
  * [Installing RadEditor in a MOSS 2007 farm]({%slug sharepoint/2007/radeditor-for-moss/installation-and-deployment/installing-radeditor-in-a-moss-2007-farm%})
 

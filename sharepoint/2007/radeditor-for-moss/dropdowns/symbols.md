@@ -17,11 +17,11 @@ position: 7
 
 ![](images/DropDowns013.png)
 
-The RadEditor Symbols dropdown by default displays a predefined set of symbols. They are kept in the Symbols Collection. You can easily predefine the Symbols collection by modifying the __ToolsFile.xml / ListToolsFile.xml__ files, located in the following folder:
+The RadEditor Symbols dropdown by default displays a predefined set of symbols. They are kept in the Symbols Collection. You can easily predefine the Symbols collection by modifying the **ToolsFile.xml / ListToolsFile.xml** files, located in the following folder:
 
-/Program Files/Common Files/Microsoft Shared/web server extensions/wpresources/RadEditorSharePoint/5.x.x.0__1f131a624888eeed/Resources/
+/Program Files/Common Files/Microsoft Shared/web server extensions/wpresources/RadEditorSharePoint/5.x.x.0**1f131a624888eeed/Resources/
 
-__For example:__
+**For example:**
 
 ````XML
 	    <root>

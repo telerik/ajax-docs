@@ -17,11 +17,11 @@ position: 0
 
 
 
-The WYSIWYG Fonts dropdown of RadEditor display a predefined set of fonts which by default are: Arial, Comic Sans MS, Courier New, Tahoma, Times New Roman and Verdana. All fonts are set using the FontNames Collection.You can predefine the FontNames Collection by modifying the __ToolsFile.xml / ListToolsFile.xml__ files, located in the following folder:
+The WYSIWYG Fonts dropdown of RadEditor display a predefined set of fonts which by default are: Arial, Comic Sans MS, Courier New, Tahoma, Times New Roman and Verdana. All fonts are set using the FontNames Collection.You can predefine the FontNames Collection by modifying the **ToolsFile.xml / ListToolsFile.xml** files, located in the following folder:
 
-/Program Files/Common Files/Microsoft Shared/web server extensions/wpresources/RadEditorSharePoint/5.x.x.0__1f131a624888eeed/Resources/
+/Program Files/Common Files/Microsoft Shared/web server extensions/wpresources/RadEditorSharePoint/5.x.x.0**1f131a624888eeed/Resources/
 
-__For example:__
+**For example:**
 
 ````XML
 	    <root>
@@ -46,7 +46,7 @@ __For example:__
 
 RadEditor is powerful enough to be used in any language you like: English, Bulgarian, Russian, Hindi, Vietnamese, Chinese, Japanese, Korean, etc.
 
-You'll need to set the proper encoding in the aspx files with the editor. You can use the following encoding:__<?xml version="1.0" encoding="utf-8" ?>__, which will make the editor compatible with Western Europe languages, Cyrillic, Greek, Asian, Arab, Chinese, Japanese, etc characters.
+You'll need to set the proper encoding in the aspx files with the editor. You can use the following encoding:**<?xml version="1.0" encoding="utf-8" ?>**, which will make the editor compatible with Western Europe languages, Cyrillic, Greek, Asian, Arab, Chinese, Japanese, etc characters.
 
 >note If the characters are displayed properly by the browser on the same page where the editor is, they should be displayed properly in the editor as well.
 >

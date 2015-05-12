@@ -13,8 +13,6 @@ position: 6
 
 
 ## 
->caption 
-
 ![](images/DropDowns011.png)
 
 The RadEditor Custom Links dropdown is a convenient tool for inserting pre-defined hyperlinks. These usually be one of two link types:
@@ -25,32 +23,32 @@ The RadEditor Custom Links dropdown is a convenient tool for inserting pre-defin
 
 
 
-Custom links are kept in the __Links__ collection. You easily predefine the Links Collection by modifying the __ToolsFile.xml / ListToolsFile.xml__ files, located in the following folder:
+Custom links are kept in the **Links** collection. You easily predefine the Links Collection by modifying the **ToolsFile.xml / ListToolsFile.xml** files, located in the following folder:
 
-/Program Files/Common Files/Microsoft Shared/web server extensions/wpresources/RadEditorSharePoint/6.x.x.0__1f131a624888eeed/Resources/
+_/Program Files/Common Files/Microsoft Shared/web server extensions/wpresources/RadEditorSharePoint/6.x.x.0__1f131a624888eeed/Resources/_
 
-__For example:__
+**For example:**
 
 ````XML
-	    <root>
-	     <tools name="MainToolbar" enabled="true">
-	       <tool name="InsertCustomLink" />
-	     </tools>
-	     <links>
-	       <link name="Telerik" href="http://www.telerik.com">
-	         <link name="Products" href="http://www.telerik.com/products">
-	           <link name="Telerik UI for ASP.NET AJAX suite" href="http://www.telerik.com/radcontrols" />
-	           <link name="Telerik RadNavigation suite" href="http://www.telerik.com/radnavigation" />
-	           <link name="Telerik RadEditor" href="http://www.telerik.com/radeditor">
-	             <link name="QSF" href="http://www.telerik.com/Telerik RadEditor"/>
-	           </link>
-	         </link>
-	         <link name="Purchase" href="http://www.telerik.com/purchase" />
-	         <link name="Support" href="http://www.telerik.com/support" />
-	         <link name="Client.Net" href="http://www.telerik.com/clientnet" />
-	       </link>
-	     </links>
-	    </root>
+<root>
+ <tools name="MainToolbar" enabled="true">
+   <tool name="InsertCustomLink" />
+ </tools>
+ <links>
+   <link name="Telerik" href="http://www.telerik.com">
+     <link name="Products" href="http://www.telerik.com/products">
+       <link name="Telerik UI for ASP.NET AJAX suite" href="http://www.telerik.com/radcontrols" />
+       <link name="Telerik RadNavigation suite" href="http://www.telerik.com/radnavigation" />
+       <link name="Telerik RadEditor" href="http://www.telerik.com/radeditor">
+         <link name="QSF" href="http://www.telerik.com/Telerik RadEditor"/>
+       </link>
+     </link>
+     <link name="Purchase" href="http://www.telerik.com/purchase" />
+     <link name="Support" href="http://www.telerik.com/support" />
+     <link name="Client.Net" href="http://www.telerik.com/clientnet" />
+   </link>
+ </links>
+</root>
 ````
 
 

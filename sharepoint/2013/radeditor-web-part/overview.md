@@ -1,6 +1,6 @@
 ---
-title: RadEditor Web Part Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: RadEditor Web Part Overview | UI for ASP.NET AJAX Documentation
 description: Overview
 slug: sharepoint/2013/radeditor-web-part/overview
 tags: overview
@@ -30,7 +30,7 @@ RadEditor for Microsoft Office SharePoint Server extends the web content authori
 >
 
 
-__Important details:__
+**Important details:**
 
 RadEditor for SharePoint is a modified version of the Telerik RadEditor control and it is built on top of the RadEditor for ASP.NET AJAX. The tight integration with ASP.NET AJAX and powerful new capabilities of the suite features the new WYSIWYG Editor as a flexible and lightweight component. Among the hottest features are:
 

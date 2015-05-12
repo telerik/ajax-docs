@@ -17,11 +17,11 @@ position: 1
 
 ## Adding Font Sizes
 
-You can populate the __FontSizes__ dropdown by modifying the __ToolsFile.xml / ListToolsFile.xml__ files, located in the following folder:
+You can populate the **FontSizes** dropdown by modifying the **ToolsFile.xml / ListToolsFile.xml** files, located in the following folder:
 
-/Program Files/Common Files/Microsoft Shared/web server extensions/wpresources/RadEditorSharePoint/5.x.x.0__1f131a624888eeed/Resources/
+/Program Files/Common Files/Microsoft Shared/web server extensions/wpresources/RadEditorSharePoint/5.x.x.0**1f131a624888eeed/Resources/
 
-__For example:__
+**For example:**
 
 ````XML
 	    <root>
