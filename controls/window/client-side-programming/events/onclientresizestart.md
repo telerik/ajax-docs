@@ -10,10 +10,6 @@ position: 13
 
 # OnClientResizeStart
 
-
-
-## 
-
 The **OnClientResizeStart** event of the **RadWindow** fires when the user is about to start resizing the popup.You can cancel the event to prevent the user from resizing the control by calling the `set_canel(true)` method theevent arguments object exposes. You can also entirely disable resizing through the	[Behaviors]({%slug window/getting-started/user-interaction-with-the-window%}) property of the **RadWindow**.
 
 The event handler receives the following arguments:
@@ -26,11 +22,9 @@ The event handler receives the following arguments:
 | Name | Parameters | Return Type | Description |
 | ------ | ------ | ------ | ------ |
 |get_cancel||boolean|Gets a value indicating whether the event is going to be cancelled.|
-|set_cancel|boolean||Sets a value indicating whether the event is going to be cancelled.Pass *true* to cancel the event.The method takes the following arguments:
+|set_cancel|boolean||Sets a value indicating whether the event is going to be cancelled.Pass *true* to cancel the event. The method takes the following arguments: **boolean**—a value that indicates whether the event is to be cancelled.|
 
-1. boolean—a value that indicates whether the event is to be cancelled.|
-
-# See Also
+## See Also
 
  * [Overview]({%slug window/client-side-programming/events/overview%})
 

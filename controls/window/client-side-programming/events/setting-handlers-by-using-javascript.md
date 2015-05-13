@@ -10,12 +10,7 @@ position: 1
 
 # Setting Handlers by Using JavaScript
 
-
-
-## 
-
 You can add or remove client-side event handlers from the **RadWindow** control through its client-side API:
-
 
 | Name | Description |
 | ------ | ------ |
@@ -47,127 +42,122 @@ You can add or remove client-side event handlers from the **RadWindow** control 
 | **remove_show** |Removes a function declared with the **add_show** function.|
 
 >note Calling an **add_<event>** method multiple times will *add* the function multiple times for execution. This means that if you do not dispose the RadWindow instance event handlers can be added multiple times which is not always desired. Often add_close() is called when a RadWindow is shown. To avoid such behavior you should either call remove_close() in the OnClientClose event hander that was just attached, or use a global flag to check if the handler is already added, or use the DestroyOnClose functionality to dispose the instance when it is closed.
->
-
 
 You can set client events for **RadWindow** on the client via JavaScript by using the corresponding methods. The example below is based on the [Client Side Events demo](http://demos.telerik.com/aspnet-ajax/Window/Examples/ClientSideEvents/DefaultCS.aspx) and shows how to set client event-handlers.
 
 ````JavaScript
-	    <form id="form1" runat="server">
-	    <telerik:RadScriptManager ID="RadScriptManager1" runat="server">
-	    </telerik:RadScriptManager>
-	    <script type="text/javascript">
-	        function openAndSet()
-	        {
-	            var oWnd = $find("<%= RadWindow1.ClientID %>");
-	            oWnd.show();
-	            //set a function to be called when RadWindow's command is executed
-	            oWnd.add_command(OnClientCommand);
-	            //set a function to be called when RadWindow's resizing is finished
-	            oWnd.add_resizeEnd(OnClientResizeEnd);
-	            //set a function to be called when RadWindow is being resized
-	            oWnd.add_resizeStart(OnClientResizeStart);
-	            //set a function that to called when RadWindow's dragging starts
-	            oWnd.add_dragStart(OnClientDragStart);
-	            //set a function to be called when RadWindow's dragging ends
-	            oWnd.add_dragEnd(OnClientDragEnd);
-	            //set a function to be called when the content page in the RadWindow is loaded
-	            oWnd.add_pageLoad(OnClientPageLoad);
-	            //set a function to be called when RadWindow is activated
-	            oWnd.add_activate(OnClientActivate);
-	            //set a function to be called before the RadWIndow is closed
-	            oWnd.add_beforeClose(OnClientBeforeClose);
-	            //set a function to be called when RadWindow is closed
-	            oWnd.add_close(OnClientClose);
-	            //set a function to be called when RadWindow is shown
-	            oWnd.add_show(OnClientShow);
-	            //set a function to be called when the RadWindow is autosized
-	            oWnd.add_autoSizeEnd(OnClientAutoSizeEnd);
-	        }
+<form id="form1" runat="server">
+<telerik:RadScriptManager ID="RadScriptManager1" runat="server">
+</telerik:RadScriptManager>
+<script type="text/javascript">
+	function openAndSet()
+	{
+		var oWnd = $find("<%= RadWindow1.ClientID %>");
+		oWnd.show();
+		//set a function to be called when RadWindow's command is executed
+		oWnd.add_command(OnClientCommand);
+		//set a function to be called when RadWindow's resizing is finished
+		oWnd.add_resizeEnd(OnClientResizeEnd);
+		//set a function to be called when RadWindow is being resized
+		oWnd.add_resizeStart(OnClientResizeStart);
+		//set a function that to called when RadWindow's dragging starts
+		oWnd.add_dragStart(OnClientDragStart);
+		//set a function to be called when RadWindow's dragging ends
+		oWnd.add_dragEnd(OnClientDragEnd);
+		//set a function to be called when the content page in the RadWindow is loaded
+		oWnd.add_pageLoad(OnClientPageLoad);
+		//set a function to be called when RadWindow is activated
+		oWnd.add_activate(OnClientActivate);
+		//set a function to be called before the RadWIndow is closed
+		oWnd.add_beforeClose(OnClientBeforeClose);
+		//set a function to be called when RadWindow is closed
+		oWnd.add_close(OnClientClose);
+		//set a function to be called when RadWindow is shown
+		oWnd.add_show(OnClientShow);
+		//set a function to be called when the RadWindow is autosized
+		oWnd.add_autoSizeEnd(OnClientAutoSizeEnd);
+	}
+
+	function OnClientCommand(sender, eventArgs)
+	{
+		logEvent("<strong>OnClientCommand</strong>: Command is " + eventArgs.get_commandName());
+	}
 	
-	        function OnClientCommand(sender, eventArgs)
-	        {
-	            logEvent("<strong>OnClientCommand</strong>: Command is " + eventArgs.get_commandName());
-	        }
-	        
-	        function OnClientResizeEnd(sender, eventArgs)
-	        {
-	            logEvent("<strong>OnClientResizeEnd</strong>: RadWindow is resize ended");
-	        }
-	
-	        function OnClientResizeStart(sender, eventArgs)
-	        {
-	            logEvent("<strong>OnClientResizeEnd</strong>: RadWindow is resize started");
-	        }
-	
-	        function OnClientDragStart(sender, eventArgs)
-	        {
-	            logEvent("<strong>OnClientDragStart</strong>: RadWindow drag started");
-	        }
-	
-	        function OnClientDragEnd(sender, eventArgs)
-	        {
-	            logEvent("<strong>OnClientDragEnd</strong>: RadWindow drag ended");
-	        }
-	
-	        function OnClientPageLoad(sender, eventArgs)
-	        {
-	            logEvent("<strong>OnClientPageLoad</strong>: RadWindow completed loading the page");
-	        }
-	
-	        function OnClientActivate(sender, eventArgs)
-	        {
-	            LogEvent("<strong>OnClientActivate</strong>: RadWindow is activated.");
-	        }
-	
-	        function OnClientBeforeClose(sender, eventArgs)
-	        {
-	            logEvent("<strong>OnClientBeforeClose</strong>: RadWindow is closing.");
-	        }
-	
-	        function OnClientClose(sender, eventArgs)
-	        {
-	            logEvent("<strong>OnClientClose</strong>: RadWindow is closed");
-	        }
-	
-	        function OnClientshow(sender, eventArgs)
-	        {
-	            logEvent("<strong>OnClientShow</strong>: RadWindow is shown.");
-	        }
-	
-	        function OnClientBeforeShow(sender, eventArgs)
-	        {
-	            logEvent("<strong>OnClientBeforeShow</strong>: RadWindow is showing.");
-	        }
-	
-	        function OnClientAutoSizeEnd(sender, eventArgs)
-	        {
-	            logEvent("<strong>OnClientAutoSizeEnd</strong>: RadWindow is autosized.");
-	        }
-	        /**************************************************
-	        Helper
-	        *************************************************/
-	        function LogEvent(eventString)
-	        {
-	            var d = new Date();
-	            var dateStr = d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds();
-	            document.getElementById("eventConsole").innerHTML = "[" + dateStr + "] " + eventString + "<br/>" + document.getElementById("eventConsole").innerHTML;
-	        }
-	    </script>
-	    <telerik:RadWindow ID="RadWindow1" runat="server" NavigateUrl="Dialog.aspx">
-	    </telerik:RadWindow>
-	    <button onclick="openAndSet(); return false">
-	        Open RadWindow and set events</button>
-	    <br />
-	    <div id="eventConsole" class="module" style="margin-top: 4px; height: 300px; overflow: auto;
-	        width: 500px;">
-	    </div>
+	function OnClientResizeEnd(sender, eventArgs)
+	{
+		logEvent("<strong>OnClientResizeEnd</strong>: RadWindow is resize ended");
+	}
+
+	function OnClientResizeStart(sender, eventArgs)
+	{
+		logEvent("<strong>OnClientResizeEnd</strong>: RadWindow is resize started");
+	}
+
+	function OnClientDragStart(sender, eventArgs)
+	{
+		logEvent("<strong>OnClientDragStart</strong>: RadWindow drag started");
+	}
+
+	function OnClientDragEnd(sender, eventArgs)
+	{
+		logEvent("<strong>OnClientDragEnd</strong>: RadWindow drag ended");
+	}
+
+	function OnClientPageLoad(sender, eventArgs)
+	{
+		logEvent("<strong>OnClientPageLoad</strong>: RadWindow completed loading the page");
+	}
+
+	function OnClientActivate(sender, eventArgs)
+	{
+		LogEvent("<strong>OnClientActivate</strong>: RadWindow is activated.");
+	}
+
+	function OnClientBeforeClose(sender, eventArgs)
+	{
+		logEvent("<strong>OnClientBeforeClose</strong>: RadWindow is closing.");
+	}
+
+	function OnClientClose(sender, eventArgs)
+	{
+		logEvent("<strong>OnClientClose</strong>: RadWindow is closed");
+	}
+
+	function OnClientshow(sender, eventArgs)
+	{
+		logEvent("<strong>OnClientShow</strong>: RadWindow is shown.");
+	}
+
+	function OnClientBeforeShow(sender, eventArgs)
+	{
+		logEvent("<strong>OnClientBeforeShow</strong>: RadWindow is showing.");
+	}
+
+	function OnClientAutoSizeEnd(sender, eventArgs)
+	{
+		logEvent("<strong>OnClientAutoSizeEnd</strong>: RadWindow is autosized.");
+	}
+	/**************************************************
+	Helper
+	*************************************************/
+	function LogEvent(eventString)
+	{
+		var d = new Date();
+		var dateStr = d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds();
+		document.getElementById("eventConsole").innerHTML = "[" + dateStr + "] " + eventString + "<br/>" + document.getElementById("eventConsole").innerHTML;
+	}
+</script>
+<telerik:RadWindow ID="RadWindow1" runat="server" NavigateUrl="Dialog.aspx">
+</telerik:RadWindow>
+<button onclick="openAndSet(); return false">
+	Open RadWindow and set events</button>
+<br />
+<div id="eventConsole" class="module" style="margin-top: 4px; height: 300px; overflow: auto;
+	width: 500px;">
+</div>
 ````
 
 
-
-
-
-# See Also
+## See Also
 
  * [Overview]({%slug window/client-side-programming/events/overview%})

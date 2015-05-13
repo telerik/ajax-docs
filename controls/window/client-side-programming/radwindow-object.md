@@ -10,18 +10,13 @@ position: 1
 
 # RadWindow Object
 
-
-
-The **RadWindow** client-side object has a number of client-side properties and methods that you can use to manipulate the windows in the browser. They are listed below.	There are also a number of [client-side events]({%slug window/client-side-programming/events/overview%}) that you can use those methods in to produce the logic required by your scenario.	At the end of the article you will also find a basic example of their use. You can also create instances dynamically through the	[RadWindowManager client-side object]({%slug window/client-side-programming/radwindowmanager-object%}).
+The **RadWindow** client-side object has a number of client-side properties and methods that you can use to manipulate the windows in the browser. They are listed below.	There are also a number of [client-side events]({%slug window/client-side-programming/events/overview%}) that you can use those methods in to produce the logic required by your scenario.	At the end of the article you will also find a basic example of their use. You can also create instances dynamically through the [RadWindowManager client-side object]({%slug window/client-side-programming/radwindowmanager-object%}).
 
 This article contains the following sections:
 
 * [Getters/Setters for the Public Properties](#getters/setters-for-the-public-properties)
-
 * [Methods that Check a Condition or Invoke a Certain Behavior](#methods-that-check-a-condition-or-invoke-a-certain-behavior)
-
 * [Methods for Modifying Client-side Event Handlers Dynamically](#methods-for-modifying-client-side-event-handlers-dynamically)
-
 * [Examples](#examples)
 
 ## Getters/Setters for the Public Properties
@@ -186,58 +181,57 @@ You can read more on the subject in the [Setting Client Event Handlers by Using 
 
 ## Examples
 
-````JavaScript
-	
-	        // UseRadWindow shows how to get a reference to a RadWindow
-	        // and use it to call various methods.
-	        function UseRadWindow()
-	        {
-	            var oWnd = $find("<%= DialogWindow.ClientID %>");
-	            oWnd.show();
-	            oWnd.setSize(400, 400);
-	            oWnd.setUrl("http://www.yahoo.com");
-	            oWnd.minimize();
-	            oWnd.maximize();
-	            oWnd.restore();
-	        }
-	        // ShowWindow illustrates another way to get a reference
-	        // to a RadWindow and set properties based on UI elements.
-	        function ShowWindow()
-	        {
-	            var manager = GetRadWindowManager();
-	            // txtShowWindow is the id of a textarea on the page.
-	            var txtShowWindow = document.getElementById("txtShowWindow");
-	            var window1 = manager.getWindowByName("RadWindow1");
-	            window1.setUrl(txtShowWindow.value);
-	            window1.set_title(txtShowWindow.value);
-	            window1.show();
-	        }
-	
-	        //Open a RadWindow and set a function to be called
-	        //when the RadWindow is closed.
-	        function openWindow()
-	        {
-	            //Get a reference to the window.
-	            var oWnd = $find("<%= RadWindow1.ClientID %>");
-	            //Set its NavigateUrl.
-	            oWnd.setUrl("http://www.telerik.com");
-	            //Add the name of the function to be executed when RadWindow is closed.
-	            oWnd.add_close(OnClientClose);
-	            //Show the window.
-	            oWnd.show();
-	        }
-	        function OnClientClose(oWnd, eventArgs)
-	        {
-	            //Your code here.
-	            //Remove the OnClientClose function to avoid
-	            //adding it for a second time when the window is shown again.
-	            oWnd.remove_close(OnClientClose);
-	        }
+````JavaScript	
+// UseRadWindow shows how to get a reference to a RadWindow
+// and use it to call various methods.
+function UseRadWindow()
+{
+	var oWnd = $find("<%= DialogWindow.ClientID %>");
+	oWnd.show();
+	oWnd.setSize(400, 400);
+	oWnd.setUrl("http://www.yahoo.com");
+	oWnd.minimize();
+	oWnd.maximize();
+	oWnd.restore();
+}
+// ShowWindow illustrates another way to get a reference
+// to a RadWindow and set properties based on UI elements.
+function ShowWindow()
+{
+	var manager = GetRadWindowManager();
+	// txtShowWindow is the id of a textarea on the page.
+	var txtShowWindow = document.getElementById("txtShowWindow");
+	var window1 = manager.getWindowByName("RadWindow1");
+	window1.setUrl(txtShowWindow.value);
+	window1.set_title(txtShowWindow.value);
+	window1.show();
+}
+
+//Open a RadWindow and set a function to be called
+//when the RadWindow is closed.
+function openWindow()
+{
+	//Get a reference to the window.
+	var oWnd = $find("<%= RadWindow1.ClientID %>");
+	//Set its NavigateUrl.
+	oWnd.setUrl("http://www.telerik.com");
+	//Add the name of the function to be executed when RadWindow is closed.
+	oWnd.add_close(OnClientClose);
+	//Show the window.
+	oWnd.show();
+}
+function OnClientClose(oWnd, eventArgs)
+{
+	//Your code here.
+	//Remove the OnClientClose function to avoid
+	//adding it for a second time when the window is shown again.
+	oWnd.remove_close(OnClientClose);
+}
 ````
 
 
 
-# See Also
+## See Also
 
  * [RadWindowManager Object]({%slug window/client-side-programming/radwindowmanager-object%})
 

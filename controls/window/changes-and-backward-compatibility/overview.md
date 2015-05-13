@@ -10,39 +10,27 @@ position: 0
 
 # Changes And Backward Compatibility Overview
 
-
-
 ## Telerik RadWindow for ASP.NET AJAX
 
-* A complete list of all changes can be found on Release History page:[http://www.telerik.com/products/aspnet-ajax/whats-new/release-history.aspx](http://www.telerik.com/products/aspnet-ajax/whats-new/release-history.aspx)
+A complete list of all changes can be found on Release History page: [http://www.telerik.com/products/aspnet-ajax/whats-new/release-history.aspx](http://www.telerik.com/products/aspnet-ajax/whats-new/release-history.aspx)
 
 ## Telerik RadWindow for ASP.NET AJAX Q2 2010
 
 When the RadWindow's *ContentTemplate* element is used, then the control will not call its DataBind() method. This method is called in order to evaluate the databinding expressions that set RadWindow's properties. For example, setting the RadWindow's *OpenerElementID* property using the code shown bellow will not not work if the *ContentTemplate* element is used.
 
-````ASPNET
-	    <telerik:RadWindow 
-	        ID="RadWindowDetails" 
-	        runat="server" 
-	        OpenerElementID="<%# ButtonOpenWindow.ClientID %>">
-	    </telerik:RadWindow>
+````ASP.NET
+<telerik:RadWindow 
+	ID="RadWindowDetails" 
+	runat="server" 
+	OpenerElementID="<%# ButtonOpenWindow.ClientID %>">
+</telerik:RadWindow>
 ````
 
-
-
-
-
-A complete list of all changes can be found on Release History page:
-
-[ http://www.telerik.com/products/aspnet-ajax/whats-new/release-history.aspx ](http://www.telerik.com/products/aspnet-ajax/whats-new/release-history.aspx)
-
-
+A complete list of all changes can be found on Release History page: [http://www.telerik.com/products/aspnet-ajax/whats-new/release-history.aspx](http://www.telerik.com/products/aspnet-ajax/whats-new/release-history.aspx)
 
 ## Telerik RadWindow for ASP.NET AJAX Q1 2010
 
 With the new version, the controls in the RadWindow's ContentTemplate are available to the page without using FindControl method. This could lead to problems if you have declared controls with the same ID in the RadWindow's content template and in the page.
-
-
 
 ## Telerik RadWindow for ASP.NET AJAX Q3 2009
 
@@ -78,10 +66,6 @@ RadWindow for ASP.NET AJAX which is part of the Q3 2008 release is fully backwar
 
 RadWindow for ASP.NET AJAX which is part of the Q2 2008 release is fully backwards compatible with its previous version (Q1 2008).
 
-
-
-
-
 ## Important - differences between RadWindow for ASP.NET and RadWindow for ASP.NET AJAX:
 
 __RadWindow for ASP.NET AJAX__ control has changed slightly, because of moving to the ASP.NET Ajax framework and to the Telerik.Web.UI suite. A number of property and method names have changed, and a few properties and methods have been removed.
@@ -90,96 +74,84 @@ __RadWindow for ASP.NET AJAX__ control has changed slightly, because of moving t
 
 * The following properties have been removed:
 
-
->caption  
-
-|  __Class__  |  __Property__  |
-| ------ | ------ |
-|RadWindowManager|UseClassicWindows|
-|RadWindowManager|SingleNonMinimizedWindow|
-|RadWindow|Splash|
+	|  __Class__  |  __Property__  |
+	| ------ | ------ |
+	|RadWindowManager|UseClassicWindows|
+	|RadWindowManager|SingleNonMinimizedWindow|
+	|RadWindow|Splash|
 
 * For both classes, the following property names have changed:
-
-
->caption  
-
-|  __Old name__  |  __New name__  |
-| ------ | ------ |
-|Behavior|Behaviors|
-|InitialBehavior|InitialBehaviors|
-
+	
+	|  __Old name__  |  __New name__  |
+	| ------ | ------ |
+	|Behavior|Behaviors|
+	|InitialBehavior|InitialBehaviors|
+	
 * On the client-side, the API is completely changed to match the naming convention of the new framework. The following property names are changed:In __RadWindowManager__ class:
 
-
->caption  
-
-|  __Old name__  |  __New name__  |
-| ------ | ------ |
-|Open|open|
-|GetWindowByName|getWindowByName|
-|GetWindowById|getWindowById|
-|GetActiveWindow|getActiveWindow|
-|GetWindowObjects|get_windows|
-|GetWindows|GetWindows|
-|Cascade|cascade|
-|Tile|tile|
-|RestoreAll|restoreAll|
-|MaximizeAll|maximizeAll|
-|MinimizeAll|minimizeAll|
-|ShowAll|showAll|
-|CloseAll|closeAll|
-|CloseActiveWindow|closeActiveWindow|
-|MinimizeActiveWindow|minimizeActiveWindow|
-|RestoreActiveWindow|restoreActiveWindow|
+	|  __Old name__  |  __New name__  |
+	| ------ | ------ |
+	|Open|open|
+	|GetWindowByName|getWindowByName|
+	|GetWindowById|getWindowById|
+	|GetActiveWindow|getActiveWindow|
+	|GetWindowObjects|get_windows|
+	|GetWindows|GetWindows|
+	|Cascade|cascade|
+	|Tile|tile|
+	|RestoreAll|restoreAll|
+	|MaximizeAll|maximizeAll|
+	|MinimizeAll|minimizeAll|
+	|ShowAll|showAll|
+	|CloseAll|closeAll|
+	|CloseActiveWindow|closeActiveWindow|
+	|MinimizeActiveWindow|minimizeActiveWindow|
+	|RestoreActiveWindow|restoreActiveWindow|
 
 * In __RadWindow__ class:
 
+	|  __Old name__  |  __New name__  |
+	| ------ | ------ |
+	|GetWindowManager|get_windowManager|
+	|GetContentFrame|get_contentFrame|
+	|GetLeftPosition - removed|N/A|
+	|GetTopPosition - removed|N/A|
+	|GetTitlebar - removed|N/A|
+	|GetStatusbar - removed|N/A|
+	|SetOpenerElementId|set_openerElementID|
+	|SetStatus|set_status|
+	|GetStatus|get_status|
+	|SetModal|set_modal|
+	|SetWidth|set_width|
+	|SetHeight|set_height|
+	|GetWidth|get_width|
+	|GetHeight|get_height|
+	|SetOffsetElementId|set_offsetElementID|
+	|SetTitle|set_title|
+	|MoveTo|moveTo|
+	|Center|center|
+	|SetSize|setSize|
+	|Show|show|
+	|Hide|hide|
+	|GetUrl|get_navigateUrl|
+	|SetUrl|setUrl|
+	|Reload|reload|
+	|SetActive|setActive|
+	|Minimize|minimize|
+	|Restore|restore|
+	|Maximize|maximize|
+	|Close|close|
+	|TogglePin|togglePin|
+	|IsMaximized|isMaximized|
+	|IsMinimized|isMinimized|
+	|IsModal|isModal|
+	|IsClosed|isClosed|
+	|IsPinned|isPinned|
+	|IsVisible|isVisible|
+	|IsActive|isActive|
+	|IsBehaviorEnabled|isBehaviorEnabled|
 
->caption  
-
-|  __Old name__  |  __New name__  |
-| ------ | ------ |
-|GetWindowManager|get_windowManager|
-|GetContentFrame|get_contentFrame|
-|GetLeftPosition - removed|N/A|
-|GetTopPosition - removed|N/A|
-|GetTitlebar - removed|N/A|
-|GetStatusbar - removed|N/A|
-|SetOpenerElementId|set_openerElementID|
-|SetStatus|set_status|
-|GetStatus|get_status|
-|SetModal|set_modal|
-|SetWidth|set_width|
-|SetHeight|set_height|
-|GetWidth|get_width|
-|GetHeight|get_height|
-|SetOffsetElementId|set_offsetElementID|
-|SetTitle|set_title|
-|MoveTo|moveTo|
-|Center|center|
-|SetSize|setSize|
-|Show|show|
-|Hide|hide|
-|GetUrl|get_navigateUrl|
-|SetUrl|setUrl|
-|Reload|reload|
-|SetActive|setActive|
-|Minimize|minimize|
-|Restore|restore|
-|Maximize|maximize|
-|Close|close|
-|TogglePin|togglePin|
-|IsMaximized|isMaximized|
-|IsMinimized|isMinimized|
-|IsModal|isModal|
-|IsClosed|isClosed|
-|IsPinned|isPinned|
-|IsVisible|isVisible|
-|IsActive|isActive|
-|IsBehaviorEnabled|isBehaviorEnabled|
-
-# See Also
+## See Also
 
  * [RadWindow Object]({%slug window/client-side-programming/radwindow-object%})
 

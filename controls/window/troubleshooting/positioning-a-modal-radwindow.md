@@ -10,43 +10,37 @@ position: 8
 
 # Positioning a Modal RadWindow
 
-
-
-## 
-
 By design, when a **RadWindow** is **Modal** (i.e. its Modal property is set to true - either in its own declaration,or in the declaration of the RadWindowManager that contains it) it always shows up positioned in the **center** of the browser window.
 
-This means that setting its **Left** and/or **Top** properties will not have a visual effect and the desired positionwill not be applied.
+This means that setting its **Left** and/or **Top** properties will not have a visual effect and the desired position will not be applied.
 
-In order to get a custom position for a modal RadWindow the **CenterIfModal** property or the **OnClientShow** client-side event must be used together with its[Client-side API]({%slug window/client-side-programming/radwindow-object%}) to move the RadWindow after it shows.
+In order to get a custom position for a modal RadWindow the **CenterIfModal** property or the **OnClientShow** client-side event must be used together with its [Client-side API]({%slug window/client-side-programming/radwindow-object%}) to move the RadWindow after it shows.
 
 ## Using Q1 2013 and newer versions
 
 The **CenterIfModal** property is available and setting it to false will have the RadWindow honor the Left and Top.Its default value is true to preserve the original behavior of the control.
 
-````ASPNET
-		<telerik:RadWindow ID="RadWindow1" runat="server" CenterIfModal="false" Left="20"
-			Top="20" Modal="true" VisibleOnPageLoad="true">
-		</telerik:RadWindow>
+````ASP.NET
+<telerik:RadWindow ID="RadWindow1" runat="server" CenterIfModal="false" Left="20"
+	Top="20" Modal="true" VisibleOnPageLoad="true">
+</telerik:RadWindow>
 ````
-
-
 
 ## All versions - using Client-side events and API
 
 The following example shows how the Left and Top properties can be retrieved and the RadWindow moved after it shows:
 
-````ASPNET
-		<telerik:RadWindow runat="server" ID="RadWindow1" Modal="true" OnClientShow="setCustomPosition"
-			Left="10px" Top="10px">
-		</telerik:RadWindow>
-		<asp:Button ID="Button6" Text="text" runat="server" />
-		<script type="text/javascript">
-			function setCustomPosition(sender, args)
-			{
-				sender.moveTo(sender.get_left(), sender.get_top());
-			}
-		</script>
+````ASP.NET
+<telerik:RadWindow runat="server" ID="RadWindow1" Modal="true" OnClientShow="setCustomPosition"
+	Left="10px" Top="10px">
+</telerik:RadWindow>
+<asp:Button ID="Button6" Text="text" runat="server" />
+<script type="text/javascript">
+	function setCustomPosition(sender, args)
+	{
+		sender.moveTo(sender.get_left(), sender.get_top());
+	}
+</script>
 ````
 
 

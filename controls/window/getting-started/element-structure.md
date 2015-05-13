@@ -10,14 +10,7 @@ position: 1
 
 # Element Structure
 
-
-
-## 
-
 **RadWindow** controls contain a title bar, which displays the icon, title, and title bar buttons, a content window, and a status bar. These are all configurable using the properties of **RadWindow**.
-
-
->caption 
 
 ![](images/window.png)
 

@@ -10,10 +10,6 @@ position: 7
 
 # Initial Window State
 
-
-
-## 
-
 Use the **InitialBehaviors** property to control the state of the window when it first appears. **InitialBehaviors** controls whether the window appears maximized, minimized, and/or pinned.
 
 **InitialBehaviors** is a collection of Telerik.Web.UI.WindowBehaviors values, just like the **Behaviors** property. However, not all possible values make sense for **InitialBehaviors**. For example, if you set **InitialBehaviors** to "Resize", the value has no effect.
@@ -36,26 +32,13 @@ The value of **InitialBehaviors** is not limited to the values that make up the 
 
 You can also set the **InitialBehaviors** property from the codebehind:
 
-````C#
-	     
-							RadWindow1.InitialBehaviors = Telerik.Web.UI.WindowBehaviors.Pinned | Telerik.Web.UI.WindowBehaviors.Minimize;
-				
+````C#	     
+RadWindow1.InitialBehaviors = Telerik.Web.UI.WindowBehaviors.Pinned | Telerik.Web.UI.WindowBehaviors.Minimize;				
+````
+````VB	     
+RadWindow1.InitialBehaviors = Telerik.Web.UI.WindowBehaviors.Pinned Or Telerik.Web.UI.WindowBehaviors.Minimize				
 ````
 
-
-
-
-
-````VB.NET
-	     
-							RadWindow1.InitialBehaviors = Telerik.Web.UI.WindowBehaviors.Pinned _                           Or Telerik.Web.UI.WindowBehaviors.Minimize
-				
-````
-
-
-
-
-
-# See Also
+## See Also
 
  * [User Interaction With The Window]({%slug window/getting-started/user-interaction-with-the-window%})

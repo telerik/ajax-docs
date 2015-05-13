@@ -10,8 +10,6 @@ position: 2
 
 # RadWindowManager Object
 
-
-
 This help article explains the client-side API of the **RadWindowManager**. It can be used to:
 
 * provide of a reference to the currently active [window]({%slug window/client-side-programming/radwindow-object%})
@@ -19,9 +17,6 @@ This help article explains the client-side API of the **RadWindowManager**. It c
 * [open and create new windows]({%slug window/getting-started/opening-windows%})
 
 * produce the [alert/confirm/prompt dialogs]({%slug window/alert,-confirm,-prompt-dialogs/overview%})
-
-
-
 
 >caption RadWindowManager client-side methods
 
@@ -49,33 +44,31 @@ This help article explains the client-side API of the **RadWindowManager**. It c
 ## Examples
 
 ````JavaScript
-	        function UseWindowManager()
-	        {
-	            //Getting rad window manager
-	            var oManager = GetRadWindowManager();
-	            //Get an existing window DialogWindow using getWindowByName
-	            var oWnd = oManager.getWindowByName("DialogWindow");
-	            oWnd.setUrl("http://www.google.com");
-	            //Call GetActiveWindow to get the active window
-	            var oActive = oManager.getActiveWindow();
-	            oActive.center();
-	            //Open a new window using using default settings
-	            var oNew = oManager.open("http://www.google.com","NewWindow");
-	            // cause all windows to cascade
-	            oManager.cascade();
-	            // list all windows in a textarea with id txtShowWindows
-	            var txtShowWindows = document.getElementById("txtShowWindows");
-	            var windows = oManager.get_windows();
-	            for (var i = 0; i < windows.length; i++)
-	            {
-	                txtShowWindows.value += windows[i].get_name() + ": " + windows[i].get_navigateUrl() + "\n";
-	            }
-	        }
+function UseWindowManager()
+{
+	//Getting rad window manager
+	var oManager = GetRadWindowManager();
+	//Get an existing window DialogWindow using getWindowByName
+	var oWnd = oManager.getWindowByName("DialogWindow");
+	oWnd.setUrl("http://www.google.com");
+	//Call GetActiveWindow to get the active window
+	var oActive = oManager.getActiveWindow();
+	oActive.center();
+	//Open a new window using using default settings
+	var oNew = oManager.open("http://www.google.com","NewWindow");
+	// cause all windows to cascade
+	oManager.cascade();
+	// list all windows in a textarea with id txtShowWindows
+	var txtShowWindows = document.getElementById("txtShowWindows");
+	var windows = oManager.get_windows();
+	for (var i = 0; i < windows.length; i++)
+	{
+		txtShowWindows.value += windows[i].get_name() + ": " + windows[i].get_navigateUrl() + "\n";
+	}
+}
 ````
 
-
-
-# See Also
+## See Also
 
  * [RadWindow Object]({%slug window/client-side-programming/radwindow-object%})
 

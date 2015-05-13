@@ -26,7 +26,7 @@ http://www.telerik.com/help/aspnet-ajax/window-client-side-events-onclientresize
 http://www.telerik.com/help/aspnet-ajax/window-client-side-events-onclientresizestart.html http://docs.telerik.com/devtools/ajax/window/client-side-programming/events/onclientresizestart
 http://www.telerik.com/help/aspnet-ajax/window-client-side-events-onclientshow.html http://docs.telerik.com/devtools/ajax/window/client-side-programming/events/onclientshow
 http://www.telerik.com/help/aspnet-ajax/window-controls-container.html http://docs.telerik.com/devtools/ajax/window/getting-started/using-radwindow-as-controls-container
-http://www.telerik.com/help/aspnet-ajax/window-creating-custom-lightweight-skin.html http://docs.telerik.com/devtools/ajax/window/appearance-and-styling/tutorial:-creating-custom-lightweight-skin
+http://www.telerik.com/help/aspnet-ajax/window-creating-custom-lightweight-skin.html http://docs.telerik.com/devtools/ajax/window/appearance-and-styling/creating-custom-lightweight-skin
 http://www.telerik.com/help/aspnet-ajax/window-design-radwindow-collection-editor.html http://docs.telerik.com/devtools/ajax/window/design-time/visual-configuration-manager
 http://www.telerik.com/help/aspnet-ajax/window-design-radwindow-manager.html http://docs.telerik.com/devtools/ajax/window/getting-started/radwindowmanager
 http://www.telerik.com/help/aspnet-ajax/window-design-smart-tag.html http://docs.telerik.com/devtools/ajax/window/design-time/smart-tag

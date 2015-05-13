@@ -10,10 +10,6 @@ position: 6
 
 # User Interaction With The Window
 
-
-
-## 
-
 Use the **Behaviors** property to determine how the user can interact with the **RadWindow** object. **Behaviors** controls whether the user can move or resize the window, whether it has maximize and minimize buttons, whether it can be pinned, and whether there is a close button on the title bar.
 
 Here are the **Behaviors**' property values:
@@ -37,28 +33,20 @@ Here are the **Behaviors**' property values:
 * **Default** - Default object behavior: all of the above.
 
 To specify a combination of behaviors (other than the default), combine **Behaviors** values. For example, if you want to let the user close the window using a button on the title bar, and to move the window by dragging it, but do not want any other buttons on the title bar, set **Behaviors="Close, Move"**:
->caption 
 
 ![](images/window-behaviors.png)
 
-You can also set the **Behaviors** property from the codebehind:
+You can also set the **Behaviors** property from the code behind:
 
 
 
-````C#
-	     
-							RadWindow1.Behaviors = Telerik.Web.UI.WindowBehaviors.Move | Telerik.Web.UI.WindowBehaviors.Close;
-				
+````C#	     
+RadWindow1.Behaviors = Telerik.Web.UI.WindowBehaviors.Move | Telerik.Web.UI.WindowBehaviors.Close;				
 ````
-````VB.NET
-	     
-							RadWindow1.Behaviors = Telerik.Web.UI.WindowBehaviors.Move Or _ Telerik.Web.UI.WindowBehaviors.Close
-				
+````VB	     
+RadWindow1.Behaviors = Telerik.Web.UI.WindowBehaviors.Move Or Telerik.Web.UI.WindowBehaviors.Close				
 ````
 
-
-
-
-# See Also
+## See Also
 
  * [Initial Window State]({%slug window/getting-started/initial-window-state%})

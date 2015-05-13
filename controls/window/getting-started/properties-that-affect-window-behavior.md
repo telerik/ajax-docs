@@ -10,10 +10,6 @@ position: 4
 
 # Properties that Affect Window Behavior
 
-
-
-## 
-
 Both **RadWindowManager** and **RadWindow** have a number of properties that affect the way the windows behave. You can set default values for these properties in the **RadWindowManager** object, and then override those values for individual windows by changing the value in the **RadWindow** object.
 
 * The **VisibleOnPageLoad**, **OffsetElementID**, **Top**, **Left**, and **OpenerElementID** properties affect the way the window is first shown. These properties are described in [Showing and Positioning]({%slug window/getting-started/showing-and-positioning%}).

@@ -10,8 +10,6 @@ position: 1
 
 # RadWindow CSS Classes and Their Use
 
-
-
 ## RadWindow for ASP.NET AJAX CSS Classes and Their Use
 
 ## Abstract
@@ -39,29 +37,24 @@ In order to explain better the CSS classes of RadWindow, we will use both Window
 1. When you are finished you should have: Skins/Window.css, Skins/MyCustomSkin/Window.MyCustomSkin.css and Skins/MyCustomSkin/Window. The last folder contains the images for MyCustomSkin.
 
 1. In order to support multiple skins of RadWindow on a single page, the wrapping skin-specific class is coined by the name of the control, RadWindow plus underscore ("_") plus SkinName, i.e **.RadWindow_Default**, so in order to create a custom skin out of the Default skin, we should rename all occurrences of "**Default**" in Window.MyCustomSkin.css to "**MyCustomSkin**" as shown below:
->caption 
 
-![Window CSS Classes Batch Rename](images/window-cssclassesbatchrename.gif)
+	![Window CSS Classes Batch Rename](images/window-cssclassesbatchrename.gif)
 
 1. Put a new server declaration of RadWindow on your page, and set **Skin="MyCustomSkin", EnableEmbeddedSkins="false"** and **EnableEmbeddedBasestylesheet="false"**:
 
-````ASPNET
-	    <telerik:RadWindow ID="RadWindow1" runat="server" NavigateUrl="http://www.google.com"
-	        Title="Google" Skin="MyCustomSkin" EnableEmbeddedSkins="false" EnableEmbeddedBaseStylesheet="false"
-	        VisibleOnPageLoad="true">
-	    </telerik:RadWindow>
-````
-
-
+	**ASP.NET**
+	
+		<telerik:RadWindow ID="RadWindow1" runat="server" NavigateUrl="http://www.google.com"
+			Title="Google" Skin="MyCustomSkin" EnableEmbeddedSkins="false" EnableEmbeddedBaseStylesheet="false"
+			VisibleOnPageLoad="true">
+		</telerik:RadWindow>
 
 1. Register **Window.css** and **Window.MyCustomSkin.css** in the <head>...</head> section of your web page. In order to have the CSS applied correctly, the base stylesheet should come first in the DOM:
 
-````XML
-	    <link rel="stylesheet" type="text/css" href="Skins/Window.css"></link>
-	    <link rel="stylesheet" type="text/css" href="Skins/MyCustomSkin/Window.MyCustomSkin.css"></link>
-````
-
-
+	**ASP.NET**
+	
+		<link rel="stylesheet" type="text/css" href="Skins/Window.css"></link>
+		<link rel="stylesheet" type="text/css" href="Skins/MyCustomSkin/Window.MyCustomSkin.css"></link>
 
 1. Make sure the path to the files is correct, otherwise the skin will not apply.
 
@@ -70,9 +63,6 @@ In order to explain better the CSS classes of RadWindow, we will use both Window
 Explanation of the CSS Classes
 
 Main CSS Classes
-
-
->caption  
 
 | CSS Class | Description |
 | ------ | ------ |
@@ -193,10 +183,7 @@ Main CSS Classes
 |div.RadWindow.rwNoTitleBar.rwInactiveWindow table.rwShadow td.rwTitlebar|Styles Titlebar shadowed Window when VisibleTitlebar is set to false|
 |div.RadWindow.rwNoTitleBar.rwInactiveWindow table.rwShadow td.rwTopRight|Styles top right shadowed Window corner when VisibleTitlebar is set to false|
 
-CSS for window`s top cornerswhen visible title bar is set to false
-
-
->caption  
+CSS for window's top corners when visible title bar is set to false
 
 | CSS Class | Description |
 | ------ | ------ |
@@ -206,9 +193,6 @@ CSS for window`s top cornerswhen visible title bar is set to false
 |div.RadWindow.rwNoTitleBar div.rwTopResize|RadWindow’s title bar top resize|
 
 Skin Specific Selectors
-
-
->caption  
 
 | CSS Class | Description |
 | ------ | ------ |
@@ -230,125 +214,95 @@ The Skin Stylesheet - Window.MyCustomSkin.css
 Each skin of RadWindow consists of three [image sprites](http://www.alistapart.com/articles/sprites/), that are contained in the Skins/SkinName/Window folder. These are:
 
 1. CommandButtonSprites.gif - the images for RadWindow's buttons, as well as their hover states:
->caption 
 
-![RadWindow Command Sprites Images](images/window-commandbuttonsprites.gif)On the first row is the normal state of the buttons, on the second - the hovered state. In the CSS they are selected from the sprite via the [background-position](http://www.w3schools.com/css/pr_background-position.asp) property.
+	![RadWindow Command Sprites Images](images/window-commandbuttonsprites.gif)On the first row is the normal state of the buttons, on the second - the hovered state. In the CSS they are selected from the sprite via the [background-position](http://www.w3schools.com/css/pr_background-position.asp) property.
 
 1. WindowHorizontalSprites.gif* - the images for RadWindow's horizontal parts and the images for the "OK" and "Cancel" buttons of RadAlert, RadPrompt and RadConfirm:
->caption 
+	
+	![RadWindow Horizontal Sprite](images/windowhorizontalsprites_rotated.gif)* - for this example WindowHorizontalSprites.gif has been rotated 90° CCW
 
-![RadWindow Horizontal Sprite](images/windowhorizontalsprites_rotated.gif)* - for this example WindowHorizontalSprites.gif has been rotated 90° CCW
-
-1. WindowVerticalSprites.gif - the images for the vertical sides of RadWindow
->caption 
-
-![RadWindow Vertical Sprite](images/windowverticalsprites.gif)
+1. WindowVerticalSprites.gif - the images for the vertical sides of RadWindow	
+	
+	![RadWindow Vertical Sprite](images/windowverticalsprites.gif)
 
 1. Classes that use WindowHorizontalSprites.gif. Their use has already been explained in **The Base Stylesheet - Window.css**
 
-````XML
+	**CSS**
 	        
-	        .RadWindow_MyCustomSkin .rwTopLeft, 
-	        .RadWindow_MyCustomSkin .rwTopRight, 
-	        .RadWindow_MyCustomSkin .rwTitlebar, 
-	        .RadWindow_MyCustomSkin .rwFooterLeft, 
-	        .RadWindow_MyCustomSkin .rwFooterRight, 
-	        .RadWindow_MyCustomSkin .rwFooterCenter, 
-	        .RadWindow_MyCustomSkin .rwTopResize, 
-	        .RadWindow_MyCustomSkin .rwStatusbar div, 
-	        .RadWindow_MyCustomSkin .rwStatusbar, 
-	        .RadWindow_MyCustomSkin .rwPopupButton, 
-	        .RadWindow_MyCustomSkin .rwPopupButton span, 
-	        .RadWindow_MyCustomSkin.rwMinimizedWindow .rwCorner
-	        {
-	            background-image: url('Window/WindowHorizontalSprites.gif');
-	        }
-	        
-````
-
-
+		.RadWindow_MyCustomSkin .rwTopLeft, 
+		.RadWindow_MyCustomSkin .rwTopRight, 
+		.RadWindow_MyCustomSkin .rwTitlebar, 
+		.RadWindow_MyCustomSkin .rwFooterLeft, 
+		.RadWindow_MyCustomSkin .rwFooterRight, 
+		.RadWindow_MyCustomSkin .rwFooterCenter, 
+		.RadWindow_MyCustomSkin .rwTopResize, 
+		.RadWindow_MyCustomSkin .rwStatusbar div, 
+		.RadWindow_MyCustomSkin .rwStatusbar, 
+		.RadWindow_MyCustomSkin .rwPopupButton, 
+		.RadWindow_MyCustomSkin .rwPopupButton span, 
+		.RadWindow_MyCustomSkin.rwMinimizedWindow .rwCorner
+		{
+			background-image: url('Window/WindowHorizontalSprites.gif');
+		}
 
 1. Classes that use WindowVerticalSprites.gif. Their use has already been explained in **The Base Stylesheet - Window.css**
 
-````XML
+	**CSS**
 	        
-	        .RadWindow_MyCustomSkin .rwBodyLeft, .RadWindow_MyCustomSkin .rwBodyRight, .RadWindow_MyCustomSkin .rwStatusbarRow .rwCorner
-	        {
-	            background-image: url('Window/WindowVerticalSprites.gif');
-	        }
-	        
-````
-
-
+		.RadWindow_MyCustomSkin .rwBodyLeft, .RadWindow_MyCustomSkin .rwBodyRight, .RadWindow_MyCustomSkin .rwStatusbarRow .rwCorner
+		{
+			background-image: url('Window/WindowVerticalSprites.gif');
+		}
 
 1. RadWindow Statusbar Input
 
-````XML
+	**CSS**
 	        
-	        .RadWindow_MyCustomSkin .rwStatusbar input
-	        {
-	            background-color: #f7f3e9;
-	        }
-	        
-````
-
-
+		.RadWindow_MyCustomSkin .rwStatusbar input
+		{
+			background-color: #f7f3e9;
+		}
 
 1. Classes that use CommandButtonSprites.gif. Their use has already been explained in **The Base Stylesheet - Window.css**
 
-````XML
-	        
-	        .RadWindow_MyCustomSkin .rwControlButtons a
-	        {
-	            background-image: url('Window/CommandButtonSprites.gif');
-	        }
-	        
-````
+	**CSS**	        
 
-
+		.RadWindow_MyCustomSkin .rwControlButtons a
+		{
+			background-image: url('Window/CommandButtonSprites.gif');
+		}
 
 1. RadWindow Icon
 
-````XML
+	**CSS**
 	        
-	        .RadWindow_MyCustomSkin a.rwIcon
-	        {
-	            background-image: url('Window/WindowHorizontalSprites.gif');
-	        }
-	        
-````
-
-
+		.RadWindow_MyCustomSkin a.rwIcon
+		{
+			background-image: url('Window/WindowHorizontalSprites.gif');
+		}
 
 1. RadWindow Titlebar Text
 
-````XML
+	**CSS**
 	        
-	        div.RadWindow_MyCustomSkin .rwTitlebarControls em
-	        {
-	            color: black;
-	        }
+		div.RadWindow_MyCustomSkin .rwTitlebarControls em
+		{
+			color: black;
+		}
 	        
-````
-
-
-
 Understanding the Image Sprites
 
 Below are visual schemes of the image sprites that are used to skin RadWindow.
 
 WindowHorizontalSprites.gif
->caption 
 
 ![RadWindow Horizontal Sprite](images/window_windowhorizontalsprites_explained.png)
 
 WindowVerticalSprites.gif
->caption 
 
 ![RadWindow Vertical Sprite](images/windowverticalsprites_explained.gif)
 
 CommandButtonSprites.gif
->caption 
 
 ![RadWindow Commands Sprite](images/window-commandbuttonsprites_explained.gif)
 
@@ -359,29 +313,24 @@ Explained below is a simple method for modifying the image sprites of RadWindow 
 1. Drag CommandButtonSprites.gif, WindowHorizontalSprites.gif and WindowVerticalSprites.gif in [Adobe© PhotoShop](http://adobe.com)
 
 1. From the menu bar select **Image » Mode » RGB Color** to prepare the images for editing (convert from optimized **Indexed Color** to **RGB Color**):
->caption 
 
-![Convert from Indexed to RGB Color](images/window-indexedtorgb.gif)
+	![Convert from Indexed to RGB Color](images/window-indexedtorgb.gif)
 
 1. Press **Set Foreground Color** in PhotoShop's toolbox to invoke the color picker dialog:
->caption 
 
-![Adobe PhotoShop Toolbox](images/window-presstoolbox.gif)
+	![Adobe PhotoShop Toolbox](images/window-presstoolbox.gif)
 
 1. Select a color that you like from the color dialog and then close it:
->caption 
 
-![Adobe PhotoShop ColorPicker](images/window-colorpicker.gif)
+	![Adobe PhotoShop ColorPicker](images/window-colorpicker.gif)
 
 1. Choose the first image you will modify, for example WindowHorizontalSprites.gif, and select **Image » Adjustments Hue » / Saturation to open the Hue / Saturation** dialog of [Adobe© PhotoShop](http://adobe.com):
->caption 
 
-![Choose Hue and Saturation](images/window-choosehue.gif)
+	![Choose Hue and Saturation](images/window-choosehue.gif)
 
 1. Check the **colorize** checkbox in the Hue / Saturation dialog, and the image you have selected will be immediately colorized in the hue you have selected from the toolbox:
->caption 
 
-![Colorize](images/window-colorize.gif)You may then play with the Hue, Saturation and Lightness sliders to fine tune or further modify the image. Make sure you memorize the values of the sliders, as you will need to add the same settings to all three images in order to achieve consistent looks
+	![Colorize](images/window-colorize.gif)You may then play with the Hue, Saturation and Lightness sliders to fine tune or further modify the image. Make sure you memorize the values of the sliders, as you will need to add the same settings to all three images in order to achieve consistent looks
 
 1. Press "OK" when you are finished
 
@@ -392,9 +341,8 @@ Explained below is a simple method for modifying the image sprites of RadWindow 
 1. Repeat Steps 5 - 9 for each of the remaining images
 
 1. After you are over and done with this, save your work and reload the page. You will have a brand new skin based on [Telerik](http://www.telerik.com)'s Default skin of RadWindow.
->caption 
 
-![RadWindow Before](images/radwindowbefore.gif)
->caption 
+	![RadWindow Before](images/radwindowbefore.gif)
 
-![RadWindow After](images/radwindowafter.gif)
+
+	![RadWindow After](images/radwindowafter.gif)

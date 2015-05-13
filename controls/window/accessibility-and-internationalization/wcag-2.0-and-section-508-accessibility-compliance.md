@@ -10,15 +10,11 @@ position: 4
 
 # WCAG 2.0 and Section 508 Accessibility Compliance
 
-
-
-## 
-
-The interface of **RadWindow for ASP.NET AJAX** is level AAA accessible (in compliance with the W3C Web Accessibility Guidelines 2.0) as well as Section 508 compliant. It passes the check of the[WAVE](http://wave.webaim.org/)automated content compliance tool for Section 508 and WCAG 2.0 - Compliance Level AAA.
+The interface of **RadWindow for ASP.NET AJAX** is level AAA accessible (in compliance with the W3C Web Accessibility Guidelines 2.0) as well as Section 508 compliant. It passes the check of the [WAVE](http://wave.webaim.org/) automated content compliance tool for Section 508 and WCAG 2.0 - Compliance Level AAA.
 
 It offers [Keyboard support]({%slug window/accessibility-and-internationalization/keyboard-support%}) and [WAI-ARIA support]({%slug window/accessibility-and-internationalization/wai-aria-support%}) as well.
 
-# See Also
+## See Also
 
  * [Section 508](http://www.section508.gov/)
 

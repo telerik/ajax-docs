@@ -10,14 +10,7 @@ position: 0
 
 # Properties
 
-
-
 ## RadWindow and RadWindowManager common properties:
-
-
-
-
-
 
 >caption RadWindow and RadWindowManager common properties
 
@@ -30,7 +23,7 @@ position: 0
 | **Behavior** |Obsolete. Use **Behaviors** instead.|
 | **Behaviors** |Gets or sets a value indicating the allowed behaviors of this RadWindow/RadWindowManager - if resizing, maximizing, minimizing, etc. is available. Each behavior is added to a comma separated list in the markup and with a logical OR statement in the code-behind. The property takes a combination of members of the the Telerik.Web.UI.WindowBehaviors enumerator.|
 | **CenterIfModal** |Specifies whether a modal RadWindow is centered automatically or not. True by default. If set to false the Top and Left properties can take effect even for a modal RadWindow.|
-| **ClientCallBackFunction** |This property is obsolete. Please use OnClientClose instead. For more information visit the[Using RadWindow as a Dialog]({%slug window/how-to/using-radwindow-as-a-dialog%})topic. (Inherited from RadWindowBase)Gets or sets the client callback function that will be called when a window dialog is being closed.|
+| **ClientCallBackFunction** |This property is obsolete. Please use OnClientClose instead. For more information visit the [Using RadWindow as a Dialog]({%slug window/how-to/using-radwindow-as-a-dialog%}) topic. (Inherited from RadWindowBase) Gets or sets the client callback function that will be called when a window dialog is being closed.|
 | **ClientID** |(Inherited from System.Web.UI.Control)|
 | **Controls** |(Inherited from System.Web.UI.Control)|
 | **ControlStyle** |(Inherited from System.Web.UI.WebControls.WebControl)|
@@ -92,7 +85,7 @@ position: 0
 | **TemplateControl** |(Inherited from System.Web.UI.Control)|
 | **TemplateSourceDirectory** |(Inherited from System.Web.UI.Control)|
 | **Title** |Get/Set a title for the window (Inherited from RadWindowBase)|
-| **Top** |Gets or sets the vertical distance (in pixels) from the top edge of browser viewport, or from the top left corner of the OffsetElement (if set).. It is not applicable for a Modal RadWindow, which is always centered.|
+| **Top** |Gets or sets the vertical distance (in pixels) from the top edge of browser viewport, or from the top left corner of the OffsetElement (if set). It is not applicable for a Modal RadWindow, which is always centered.|
 | **UniqueID** |(Inherited from System.Web.UI.Control)|
 | **Visible** |(Inherited from RadWebControl)|
 | **VisibleOnPageLoad** |Gets or sets a value indicating whether the window will open automatically when its parent [aspx] page is loaded on the client. Used for showing RadWindow from server. (Inherited from RadWindowBase)|
@@ -100,10 +93,7 @@ position: 0
 | **VisibleTitlebar** |Gets or sets a value indicating whether the window has a titlebar visible. (Inherited from RadWindowBase)|
 | **Width** |Get/Set the Width of the RadWindow in pixels.|
 
-
-
 ## RadWindow specific properties:
-
 
 >caption RadWindow specific properties
 
@@ -113,74 +103,27 @@ position: 0
 | **ContentContainer** |Gets the control, where the ContentTemplate will be instantiated in. You can add controls programmatically here. If you add controls to the ContentContainer the NavigateUrl property will be ignored.|
 | **ContentTemplate** |Gets or sets the System.Web.UI.ITemplate that contains the controls which will be placed in the control content area.You cannot set this property twice, or when you added controls to the ContentContainer. If you set ContentTemplate, the NavigateUrl property will be ignored.|
 
-
-
-
-
-
-
 ## RadWindowManager specific properties:
-
 
 >caption RadWindowManager specific properties
 
 | Name | Description |
 | ------ | ------ |
-| **AlertTemplate** |This property allows to specify the HTML for the alert popup, which will override the default alert template. More information on the subject can be found in the[Changing the Dialog Templates]({%slug window/alert,-confirm,-prompt-dialogs/how-to-change-the-dialog-templates%})topic.|
-| **ConfirmTemplate** |This property allows to specify the HTML for the confirm popup, which will override the default confirm template. More information on the subject can be found in the[Changing the Dialog Templates]({%slug window/alert,-confirm,-prompt-dialogs/how-to-change-the-dialog-templates%})topic.|
-| **PromptTemplate** |This property allows to specify the HTML for the prompt popup, which will override the default prompt template. More information on the subject can be found in the[Changing the Dialog Templates]({%slug window/alert,-confirm,-prompt-dialogs/how-to-change-the-dialog-templates%})topic.|
+| **AlertTemplate** |This property allows to specify the HTML for the alert popup, which will override the default alert template. More information on the subject can be found in the [Changing the Dialog Templates]({%slug window/alert,-confirm,-prompt-dialogs/how-to-change-the-dialog-templates%}) topic.|
+| **ConfirmTemplate** |This property allows to specify the HTML for the confirm popup, which will override the default confirm template. More information on the subject can be found in the [Changing the Dialog Templates]({%slug window/alert,-confirm,-prompt-dialogs/how-to-change-the-dialog-templates%}) topic.|
+| **PromptTemplate** |This property allows to specify the HTML for the prompt popup, which will override the default prompt template. More information on the subject can be found in the [Changing the Dialog Templates]({%slug window/alert,-confirm,-prompt-dialogs/how-to-change-the-dialog-templates%}) topic.|
 | **Windows** |Gets a collection of RadWindow objects|
-
-
 
 ## RadWindow and RadWindowManager common enumerations
 
 
 | Name | Values |
 | ------ | ------ |
-| **Telerik.Web.UI.WindowAnimation** |
+| **Telerik.Web.UI.WindowAnimation** |**None**; **Resize**; **Fade**; **Slide**; **FlyIn**;|
+| **Telerik.Web.UI.WindowAutoSizeBehaviors** | **Width**; **WidthProportional**; **Height**; **HeightProportional**;  **Default = WidthProportional Or HeightProportional**|
+| **Telerik.Web.UI.WindowBehaviors** | **None**; **Resize**; **Minimize**; **Close**; **Pin**; **Maximize**; **Move**; **Reload**; **Default = (Minimize Or Maximize Or Close Or Pin Or Resize Or Move Or Reload)**|
 
-* None
-
-* Resize
-
-* Fade
-
-* Slide
-
-* FlyIn|
-| **Telerik.Web.UI.WindowAutoSizeBehaviors** |
-
-* Width
-
-* WidthProportional
-
-* Height
-
-* HeightProportional
-
-* Default = WidthProportional | HeightProportional|
-| **Telerik.Web.UI.WindowBehaviors** |
-
-* None
-
-* Resize
-
-* Minimize
-
-* Close
-
-* Pin
-
-* Maximize
-
-* Move
-
-* Reload
-
-* Default = (Minimize | Maximize | Close | Pin | Resize | Move | Reload)|
-
-# See Also
+## See Also
 
  * [How to Change the Dialog Templates]({%slug window/alert,-confirm,-prompt-dialogs/how-to-change-the-dialog-templates%})
 

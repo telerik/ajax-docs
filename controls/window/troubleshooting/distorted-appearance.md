@@ -10,9 +10,9 @@ position: 9
 
 # Distorted Appearance
 
+Sometimes the appearance of a RadWindow popup seems distorted with what is commonly described as "lines", "boxes" or "space".	The issue is most often seen in the titlebar and statusbar, for example:
 
-
-Sometimes the appearance of a RadWindow popup seems distorted with what is commonly described as "lines", "boxes" or "space".	The issue is most often seen in the titlebar and statusbar, for example:![window-distorted radwindow](images/window-distorted_radwindow.png)
+![window-distorted radwindow](images/window-distorted_radwindow.png)
 
 ## Cause for the problem
 
@@ -20,16 +20,14 @@ Such behavior is not isolated to RadWindow, but can manifest with many other con
 
 UI controls rely on a complex HTML markup structure to create the layout expected from them and this is done with a set of CSS rules.This means that changing the default values the controls expect can cause problems with them. The screenshot above was created with the following markup:
 
-````ASPNET
-		<style type="text/css">
-			td { padding: 10px; }
-			li { margin: 5px; }
-		</style>
-		<telerik:RadWindow ID="RadWindow1" runat="server" VisibleOnPageLoad="true" Skin="Black">
-		</telerik:RadWindow>
+````ASP.NET
+<style type="text/css">
+	td { padding: 10px; }
+	li { margin: 5px; }
+</style>
+<telerik:RadWindow ID="RadWindow1" runat="server" VisibleOnPageLoad="true" Skin="Black">
+</telerik:RadWindow>
 ````
-
-
 
 Selectors that can cause similar problems can include elements like *table, tr, td, ul, li, etc.*
 
