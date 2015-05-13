@@ -180,4 +180,4 @@ Here are quick links to the control-specific sections of our documentation:
 Telerik UI for ASP.NET AJAX works on the .NET v3.5, 4.0 and 4.5 frameworks.
 
 
-If you need further assistance you can post your question in the [UI for ASP.NET AJAX forums](http://www.telerik.com/community/forums/aspnet-ajax.aspx)or use the [online ticketing system](http://www.telerik.com/account/support-tickets/available-support-list.aspx)
+If you need further assistance you can post your question in the [UI for ASP.NET AJAX forums](http://www.telerik.com/community/forums/aspnet-ajax.aspx) or use the [online ticketing system](http://www.telerik.com/account/support-tickets/available-support-list.aspx).
