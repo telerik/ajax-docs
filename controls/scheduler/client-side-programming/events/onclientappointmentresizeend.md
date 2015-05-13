@@ -37,23 +37,23 @@ Two parameters are passed to the event handler:
 This example cancels the resize if the user tried to resize an appointment's series:
 
 ````ASPNET
-	
-	<script type="text/javascript">   
-	  function OnClientAppointmentResizeEnd(sender, eventArgs)
-	  {                                  
-	      if(eventArgs.get_editingRecurringSeries())
-	           eventArgs.set_cancel(true);
-	      else
-	          alert("Appointment start time: " + eventArgs.get_newStartTime() + ", Appointment end time: " + eventArgs.get_newEndTime());
-	  }
-	
-	</script>
-	<telerik:RadScheduler
-	 ID="RadScheduler1"
-	 runat="server"  
-	 OnClientAppointmentResizeEnd="OnClientAppointmentResizeEnd"
-	 DataSourceID="AppointmentsDS" />       
-		
+
+<script type="text/javascript">   
+function OnClientAppointmentResizeEnd(sender, eventArgs)
+{                                  
+	  if(eventArgs.get_editingRecurringSeries())
+		   eventArgs.set_cancel(true);
+	  else
+		  alert("Appointment start time: " + eventArgs.get_newStartTime() + ", Appointment end time: " + eventArgs.get_newEndTime());
+}
+
+</script>
+<telerik:RadScheduler
+ID="RadScheduler1"
+runat="server"  
+OnClientAppointmentResizeEnd="OnClientAppointmentResizeEnd"
+DataSourceID="AppointmentsDS" />       
+
 ````
 
 

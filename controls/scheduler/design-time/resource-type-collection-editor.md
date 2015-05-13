@@ -30,7 +30,7 @@ To display the Resource Type Collection Editor, open the property pane for **Rad
 
 * Select individual resource types to change the properties that tell the scheduler where to look up information about the resource type.
 
-![Resource Type Collection Editor](images/scheduler_resourcetypecollectioneditor.png)
+	![Resource Type Collection Editor](images/scheduler_resourcetypecollectioneditor.png)
 
 For each resource type,
 

@@ -34,19 +34,19 @@ This example prevents the user from inserting appointments that have already hap
 
 ````JavaScript
 	
-	<script type="text/javascript">   
-	  function OnClientAppointmentInserting(sender, eventArgs)
-	  {
-	     var now = new Date();
-	     if (eventArgs.get_startTime() < now)
-	         eventArgs.set_cancel(true);
-	  }
-	</script>
-	<telerik:RadScheduler
-	 ID="RadScheduler1"
-	 runat="server"  
-	 OnClientAppointmentInserting="OnClientAppointmentInserting"
-	 DataSourceID="AppointmentsDS" /> 
+<script type="text/javascript">   
+function OnClientAppointmentInserting(sender, eventArgs)
+{
+	 var now = new Date();
+	 if (eventArgs.get_startTime() < now)
+		 eventArgs.set_cancel(true);
+}
+</script>
+<telerik:RadScheduler
+ ID="RadScheduler1"
+ runat="server"  
+ OnClientAppointmentInserting="OnClientAppointmentInserting"
+ DataSourceID="AppointmentsDS" /> 
 		
 ````
 

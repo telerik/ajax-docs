@@ -12,9 +12,7 @@ position: 2
 
 
 
-## Week View
-
-The **Week view** is a standard table list, which shows appointments for specific week. Each day represents a vertical column with header showing its date formatted by the **ColumnHeaderDateFormat** property. Similarly to the**Day view** the **Week View** has also two different approaches for showing time slots representing the available hours:
+The **Week view** is a standard table list, which shows appointments for specific week. Each day represents a vertical column with header showing its date formatted by the **ColumnHeaderDateFormat** property. Similarly to the **Day view** the **Week View** has also two different approaches for showing time slots representing the available hours:
 
 * Business hours (default) - shows only the working hours (by default those values are from 9 am to 5 pm). Those values can be modified by the **WorkDayStartTime** and **WorkDayEndTime** properties.
 
@@ -42,7 +40,7 @@ The **All day** row is a special row positioned at the top (when enabled) to sho
 
 * **ShowInsertArea**- When enabled it keeps an extra space in each row where user to double click and have the ability to add an appointment.
 
-* **ShowFullTime**- When enabled it shows entire day hours ( from midnight to 23 o'clock including) instead of the business hours which is the default behavior.
+* **ShowFullTime**- When enabled it shows entire day hours (from midnight to 23 o'clock including) instead of the business hours which is the default behavior.
 
 * **FirstDayOfWeek**- The default first day of each week is Sunday andlast day is Saturday. When you set a new value only for **FirstDayOfWeek** it keeps last day to be Saturday, so some weekdays might be missing if **LastDayOfWeek** is not set explicitly.
 

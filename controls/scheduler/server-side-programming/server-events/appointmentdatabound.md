@@ -18,7 +18,7 @@ The **AppointmentDataBound** event occurs when an appointment has been added to 
 
 * **sender** is the scheduler control.
 
-* **e** is an object of type **SchedulerEventArgs**.It has an Appointment property that lets you access the appointment that was just loaded.
+* **e** is an object of type **SchedulerEventArgs**. It has an Appointment property that lets you access the appointment that was just loaded.
 
 You can use this event to make adjustments to the appointments as they are loaded.
 
@@ -30,17 +30,17 @@ You can use this event to make adjustments to the appointments as they are loade
 
 ````C#
 	
-	    protected void RadScheduler1_AppointmentDataBound(object sender, SchedulerEventArgs e)
-	    {
-	        e.Appointment.Start = e.Appointment.Start.AddHours(1);
-	    } 
+protected void RadScheduler1_AppointmentDataBound(object sender, SchedulerEventArgs e)
+{
+	e.Appointment.Start = e.Appointment.Start.AddHours(1);
+} 
 	
 ````
 ````VB.NET
 	
-	    Protected Sub RadScheduler1_AppointmentDataBound(ByVal sender As Object, ByVal e As SchedulerEventArgs) Handles RadScheduler1.AppointmentDataBound
-	        e.Appointment.Start = e.Appointment.Start.AddHours(1)
-	    End Sub
+Protected Sub RadScheduler1_AppointmentDataBound(ByVal sender As Object, ByVal e As SchedulerEventArgs) Handles RadScheduler1.AppointmentDataBound
+	e.Appointment.Start = e.Appointment.Start.AddHours(1)
+End Sub
 	
 ````
 

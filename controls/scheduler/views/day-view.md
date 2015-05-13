@@ -12,8 +12,6 @@ position: 1
 
 
 
-## Day View
-
 The **Day View** is a standard table list, which shows all appointments for a specific day. Each row represents a time span controlled by **MinutesPerRow** property. One specific feature in **Day** and **Week View** is the **All day** row. This is a special row positioned at the top of the calendar area (when enabled) to show the appointmentsfor the entire day. This is an easy and quick access to your all day appointments without occupying the entire calendar area.
 
 ## Day View Settings:

@@ -34,24 +34,24 @@ The **AppointmentCancelingEdit** event occurs when the user clicks the cancel bu
 
 ````C#
 	
-	    protected void RadScheduler1_AppointmentCancelingEdit(object sender, AppointmentCancelingEditEventArgs e)
-	    {
-	        if (e.Appointment.Subject == String.Empty)
-	        {
-	            e.Cancel = true;
-	        }
-	    } 
+protected void RadScheduler1_AppointmentCancelingEdit(object sender, AppointmentCancelingEditEventArgs e)
+{
+	if (e.Appointment.Subject == String.Empty)
+	{
+		e.Cancel = true;
+	}
+} 
 	
 ````
 ````VB.NET
 	
-	    Sub RadScheduler1_AppointmentCancelingEdit(ByVal sender As Object, _
-	                            ByVal e As AppointmentCancelingEditEventArgs) _
-	                         Handles RadScheduler1.AppointmentCancelingEdit
-	        If e.Appointment.Subject = String.Empty Then
-	            e.Cancel = True
-	        End If
-	    End Sub
+Sub RadScheduler1_AppointmentCancelingEdit(ByVal sender As Object, _
+						ByVal e As AppointmentCancelingEditEventArgs) _
+					 Handles RadScheduler1.AppointmentCancelingEdit
+	If e.Appointment.Subject = String.Empty Then
+		e.Cancel = True
+	End If
+End Sub
 	
 ````
 

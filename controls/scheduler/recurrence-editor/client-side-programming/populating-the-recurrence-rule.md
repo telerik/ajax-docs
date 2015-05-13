@@ -18,9 +18,9 @@ The recurrence editor can be populated from a **RecurrenceRule** object
 
 ````JavaScript
 	    
-	    var rrule = Telerik.Web.UI.RecurrenceRule.parse(appointment.get_recurrenceRule());
-	    var editor = $find("RecurrenceEditor1");
-	    editor.set_recurrenceRule(rrule);  
+var rrule = Telerik.Web.UI.RecurrenceRule.parse(appointment.get_recurrenceRule());
+var editor = $find("RecurrenceEditor1");
+editor.set_recurrenceRule(rrule);  
 	
 ````
 

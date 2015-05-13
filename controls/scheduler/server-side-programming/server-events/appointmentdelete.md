@@ -32,23 +32,23 @@ The **AppointmentDelete** event occurs just before the scheduler calls its data 
 
 ````C#
 	
-	    protected void RadScheduler1_AppointmentDelete(object sender, SchedulerCancelEventArgs e)
-	    {
-	        if (e.Appointment.Attributes["ReadOnly"] == "true")
-	        {
-	            e.Cancel = true;
-	        }
-	    } 
+protected void RadScheduler1_AppointmentDelete(object sender, SchedulerCancelEventArgs e)
+{
+	if (e.Appointment.Attributes["ReadOnly"] == "true")
+	{
+		e.Cancel = true;
+	}
+} 
 	
 ````
 ````VB.NET
 	
-	    Protected Sub RadScheduler1_AppointmentDelete(ByVal sender As Object, _
-	       ByVal e As SchedulerCancelEventArgs) Handles RadScheduelr1.AppointmentDelete
-	        If e.Appointment.Attributes("ReadOnly") = "true" Then
-	            e.Cancel = True
-	        End If
-	    End Sub
+Protected Sub RadScheduler1_AppointmentDelete(ByVal sender As Object, _
+   ByVal e As SchedulerCancelEventArgs) Handles RadScheduelr1.AppointmentDelete
+	If e.Appointment.Attributes("ReadOnly") = "true" Then
+		e.Cancel = True
+	End If
+End Sub
 	
 ````
 

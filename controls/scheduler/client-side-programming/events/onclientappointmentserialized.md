@@ -22,9 +22,9 @@ Two parameters are passed to the handler:
 
 * **eventArgs** with two properties:
 
-* **get_appointment() -**the appointment that is about to be updated.
+	* **get_appointment()** - the appointment that is about to be updated.
 
-* **set_data() -** the appointment data such as Subject, Start and End properties.
+	* **set_data()** - the appointment data such as Subject, Start and End properties.
 
 This event cannot be cancelled.
 

@@ -34,13 +34,13 @@ Here is a step-by-step tutorial on how to bind RadScheduler to Web Services:
 
 ````ASPNET
 	
-	<form id="form2" runat="server">   
-	   <asp:ScriptManager ID="ScriptManager1" runat="server">
-	   </asp:ScriptManager>
-	   <telerik:RadScheduler ID="RadScheduler1" runat="server" Height=""
-	       HoursPanelTimeFormat="htt" ValidationGroup="RadScheduler1">
-	   </telerik:RadScheduler>
-	</form>      
+<form id="form2" runat="server">   
+   <asp:ScriptManager ID="ScriptManager1" runat="server">
+   </asp:ScriptManager>
+   <telerik:RadScheduler ID="RadScheduler1" runat="server" Height=""
+	   HoursPanelTimeFormat="htt" ValidationGroup="RadScheduler1">
+   </telerik:RadScheduler>
+</form>      
 	
 ````
 
@@ -60,67 +60,67 @@ This will automatically add **SchedulerWebService.cs** in the **App_Code** folde
 
 ````C#
 	     
-	using System.Collections.Generic;
-	using System.Web.Script.Services;
-	using System.Web.Services;
-	using Telerik.Web.UI;
-	[WebService]
-	[WebServiceBinding(ConformsTo = WsiProfiles.BasicProfile1_1)]
-	[ScriptService]
-	public class SchedulerWebService : WebService
+using System.Collections.Generic;
+using System.Web.Script.Services;
+using System.Web.Services;
+using Telerik.Web.UI;
+[WebService]
+[WebServiceBinding(ConformsTo = WsiProfiles.BasicProfile1_1)]
+[ScriptService]
+public class SchedulerWebService : WebService
+{
+	private WebServiceAppointmentController _controller;
+
+	/// <summary>
+	/// The WebServiceAppointmentController class is used as a facade to the SchedulerProvider.
+	/// </summary>
+	private WebServiceAppointmentController Controller
 	{
-	    private WebServiceAppointmentController _controller;
-	
-	    /// <summary>
-	    /// The WebServiceAppointmentController class is used as a facade to the SchedulerProvider.
-	    /// </summary>
-	    private WebServiceAppointmentController Controller
-	    {
-	     get
-	     {
-	      if (_controller == null)
-	      {
-	       _controller = new WebServiceAppointmentController(new XmlSchedulerProvider(Server.MapPath("~/App_Data/Appointments_Outlook.xml"), true));
-	      }
-	      return _controller;
-	     }
-	    }
-	    [WebMethod]
-	    public IEnumerable<AppointmentData> GetAppointments(SchedulerInfo schedulerInfo)
-	    {
-	     return Controller.GetAppointments(schedulerInfo);
-	    }
-	    [WebMethod]
-	    public IEnumerable<AppointmentData> InsertAppointment(SchedulerInfo schedulerInfo, AppointmentData appointmentData)
-	    {
-	     return Controller.InsertAppointment(schedulerInfo, appointmentData);
-	    }
-	    [WebMethod]
-	    public IEnumerable<AppointmentData> UpdateAppointment(SchedulerInfo schedulerInfo, AppointmentData appointmentData)
-	    {
-	     return Controller.UpdateAppointment(schedulerInfo, appointmentData);
-	    }
-	    [WebMethod]
-	    public IEnumerable<AppointmentData> CreateRecurrenceException(SchedulerInfo schedulerInfo, AppointmentData recurrenceExceptionData)
-	    {
-	     return Controller.CreateRecurrenceException(schedulerInfo, recurrenceExceptionData);
-	    }
-	    [WebMethod]
-	    public IEnumerable<AppointmentData> RemoveRecurrenceExceptions(SchedulerInfo schedulerInfo, AppointmentData masterAppointmentData)
-	    {
-	     return Controller.RemoveRecurrenceExceptions(schedulerInfo, masterAppointmentData);
-	    }
-	    [WebMethod]
-	    public IEnumerable<AppointmentData> DeleteAppointment(SchedulerInfo schedulerInfo, AppointmentData appointmentData, bool deleteSeries)
-	    {
-	     return Controller.DeleteAppointment(schedulerInfo, appointmentData, deleteSeries);
-	    }
-	    [WebMethod]
-	    public IEnumerable<ResourceData> GetResources(SchedulerInfo schedulerInfo)
-	    {
-	     return Controller.GetResources(schedulerInfo);
-	    }
-	} 
+	 get
+	 {
+	  if (_controller == null)
+	  {
+	   _controller = new WebServiceAppointmentController(new XmlSchedulerProvider(Server.MapPath("~/App_Data/Appointments_Outlook.xml"), true));
+	  }
+	  return _controller;
+	 }
+	}
+	[WebMethod]
+	public IEnumerable<AppointmentData> GetAppointments(SchedulerInfo schedulerInfo)
+	{
+	 return Controller.GetAppointments(schedulerInfo);
+	}
+	[WebMethod]
+	public IEnumerable<AppointmentData> InsertAppointment(SchedulerInfo schedulerInfo, AppointmentData appointmentData)
+	{
+	 return Controller.InsertAppointment(schedulerInfo, appointmentData);
+	}
+	[WebMethod]
+	public IEnumerable<AppointmentData> UpdateAppointment(SchedulerInfo schedulerInfo, AppointmentData appointmentData)
+	{
+	 return Controller.UpdateAppointment(schedulerInfo, appointmentData);
+	}
+	[WebMethod]
+	public IEnumerable<AppointmentData> CreateRecurrenceException(SchedulerInfo schedulerInfo, AppointmentData recurrenceExceptionData)
+	{
+	 return Controller.CreateRecurrenceException(schedulerInfo, recurrenceExceptionData);
+	}
+	[WebMethod]
+	public IEnumerable<AppointmentData> RemoveRecurrenceExceptions(SchedulerInfo schedulerInfo, AppointmentData masterAppointmentData)
+	{
+	 return Controller.RemoveRecurrenceExceptions(schedulerInfo, masterAppointmentData);
+	}
+	[WebMethod]
+	public IEnumerable<AppointmentData> DeleteAppointment(SchedulerInfo schedulerInfo, AppointmentData appointmentData, bool deleteSeries)
+	{
+	 return Controller.DeleteAppointment(schedulerInfo, appointmentData, deleteSeries);
+	}
+	[WebMethod]
+	public IEnumerable<ResourceData> GetResources(SchedulerInfo schedulerInfo)
+	{
+	 return Controller.GetResources(schedulerInfo);
+	}
+} 
 		
 ````
 
@@ -138,10 +138,10 @@ This file contains sample data for the XmlSchedulerProvider.
 
 ````ASPNET
 	
-	<telerik:RadScheduler runat="server" ID="RadScheduler1" SelectedView="WeekView" SelectedDate="2009-02-02"
-	  TimeZoneOffset="03:00:00" StartEditingInAdvancedForm="false">
-	  <WebServiceSettings Path="SchedulerWebService.asmx" ResourcePopulationMode="ServerSide" />
-	</telerik:RadScheduler> 
+<telerik:RadScheduler runat="server" ID="RadScheduler1" SelectedView="WeekView" SelectedDate="2009-02-02"
+  TimeZoneOffset="03:00:00" StartEditingInAdvancedForm="false">
+  <WebServiceSettings Path="SchedulerWebService.asmx" ResourcePopulationMode="ServerSide" />
+</telerik:RadScheduler> 
 	
 ````
 
@@ -153,7 +153,7 @@ In addition you can find a full sample project for **"Web Services with Custom P
 
 1. **Scenario Wizard** appears with different scenarios. Choose **"Web Service with Custom Provider"**: ![RadScheduler Scenario Wizard](images/scheduler_scenariowizard1.png)
 
-1. Follow the wizard by pressing**"Next"** button and finally press **"Finish"**. A new .aspx page will be added to your project, depending on your choice in the Scenario Wizard. All necessary references will be added to your project.
+1. Follow the wizard by pressing **"Next"** button and finally press **"Finish"**. A new .aspx page will be added to your project, depending on your choice in the Scenario Wizard. All necessary references will be added to your project.
 
 1. Press **Ctrl+F5** and run the application.
 

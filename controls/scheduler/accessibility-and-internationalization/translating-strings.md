@@ -20,9 +20,9 @@ The **Localization** property specifies the strings that appear in the runtime u
 
 ````ASPNET
 	
-	<telerik:RadScheduler ID="RadScheduler1" runat="server">
-	  <Localization AdvancedDay="Work Day" />
-	</telerik:RadScheduler>     
+<telerik:RadScheduler ID="RadScheduler1" runat="server">
+  <Localization AdvancedDay="Work Day" />
+</telerik:RadScheduler>     
 							
 ````
 
@@ -43,10 +43,8 @@ To create a global resource file to localize the scheduler:
 1. Copy the default resource **RadScheduler.Main.resx** file into it. This file can be found in the App_GlobalResources folder of the directory where you installed the RadControls.
 
 1. Make a copy of the file and rename the copy so that its name contains the Culture Identifier. The resource files used by RadScheduler follow a strict naming convention:**RadScheduler.Main.<Culture Identifier>.resx**
-
 >note The **Culture Identifier** consists of a language code followed by a dash and the country code.Example: “en-US”, “fr-CA” and so on.
->
-For example RadScheduler.Main.fr-CA.resx. Both files should be present in the App_GlobalResources folder:![localization files](images/scheduler_localizationfiles.png)
+>For example RadScheduler.Main.fr-CA.resx. Both files should be present in the App_GlobalResources folder:![localization files](images/scheduler_localizationfiles.png)
 
 1. Edit the strings using the Visual Studio editor or your favorite text editor. Customize strings just as you would set the **Localization** property .![edit global resources](images/scheduler_editglobalresources.png)
 

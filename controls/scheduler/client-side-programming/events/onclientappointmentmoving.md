@@ -22,8 +22,6 @@ Two parameters are passed to the event handler:
 
 * **eventArgs** has the following methods:
 
-* 
-
 * **get_appointment()** that returns the appointment instance.
 
 * **get_targetSlot()** returns the Time Slot on which the mouse is located at this moment.

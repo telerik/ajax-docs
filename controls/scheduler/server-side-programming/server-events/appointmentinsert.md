@@ -32,23 +32,23 @@ The **AppointmentInsert** event occurs when an appointment is about to be insert
 
 ````C#
 	
-	    protected void RadScheduler1_AppointmentInsert(object sender, SchedulerCancelEventArgs e)
-	    {
-	        if (e.Appointment.Subject == String.Empty)
-	        {
-	            e.Cancel = true;
-	        }
-	    }
+protected void RadScheduler1_AppointmentInsert(object sender, SchedulerCancelEventArgs e)
+{
+	if (e.Appointment.Subject == String.Empty)
+	{
+		e.Cancel = true;
+	}
+}
 	
 ````
 ````VB.NET
 	
-	    Protected Sub RadScheduler1_AppointmentInsert(ByVal sender As Object, _
-	       ByVal e As SchedulerCancelEventArgs) Handles RadScheduler1.AppointmentInsert
-	        If e.Appointment.Subject = String.Empty Then
-	            e.Cancel = True
-	        End If
-	    End Sub
+Protected Sub RadScheduler1_AppointmentInsert(ByVal sender As Object, _
+   ByVal e As SchedulerCancelEventArgs) Handles RadScheduler1.AppointmentInsert
+	If e.Appointment.Subject = String.Empty Then
+		e.Cancel = True
+	End If
+End Sub
 	
 ````
 

@@ -32,10 +32,10 @@ The tables below lists the most important, public properties of the SchedulerApp
 
 ````JavaScript
 	     
-	 function OnClientAppointmentClick(sender, args) {
-	                var contextMenu = args.get_appointment().get_contextMenu();
-	                contextMenu.show(args.get_domEvent());
-	            }
+ function OnClientAppointmentClick(sender, args) {
+	var contextMenu = args.get_appointment().get_contextMenu();
+	contextMenu.show(args.get_domEvent());
+}
 				
 ````
 
@@ -63,24 +63,24 @@ The tables below lists the most important, public properties of the SchedulerApp
 
 ````JavaScript
 	
-	function OnClientAppointmentClick(sender, args) {
-	            var appointment = args.get_appointment();
-	            appointment.set_allowEdit(true);
-	            var description = appointment.get_description();
-	            if (appointment.get_recurrenceState() == Telerik.Web.UI.RecurrenceState.NotRecurring) {
-	                appointment.set_description("This appointment is not recurring.");
-	            }
-	            else if (appointment.get_recurrenceState() == Telerik.Web.UI.RecurrenceState.Master) {
-	                var rrule = appointment.get_recurrenceRule();
-	                appointment.set_description(rrule);
-	            }
-	            else if (appointment.get_recurrenceState() == Telerik.Web.UI.RecurrenceState.Occurrence) {
-	                appointment.set_description("This is an occurence.");
-	            }
-	            else if (appointment.get_recurrenceState() == Telerik.Web.UI.RecurrenceState.Exception) {
-	                appointment.set_description("This is an exception.");
-	            }            
-	}      
+function OnClientAppointmentClick(sender, args) {
+	var appointment = args.get_appointment();
+	appointment.set_allowEdit(true);
+	var description = appointment.get_description();
+	if (appointment.get_recurrenceState() == Telerik.Web.UI.RecurrenceState.NotRecurring) {
+		appointment.set_description("This appointment is not recurring.");
+	}
+	else if (appointment.get_recurrenceState() == Telerik.Web.UI.RecurrenceState.Master) {
+		var rrule = appointment.get_recurrenceRule();
+		appointment.set_description(rrule);
+	}
+	else if (appointment.get_recurrenceState() == Telerik.Web.UI.RecurrenceState.Occurrence) {
+		appointment.set_description("This is an occurence.");
+	}
+	else if (appointment.get_recurrenceState() == Telerik.Web.UI.RecurrenceState.Exception) {
+		appointment.set_description("This is an exception.");
+	}            
+}      
 	
 ````
 
@@ -101,12 +101,12 @@ The tables below lists the most important, public properties of the SchedulerApp
 
 ````JavaScript
 	
-	function onClientAppointmentClick(sender, args)
-	{
-	             var appointment = args.get_appointment();
-	             var newAppointment = app.clone();
-	             sender.insertAppointment(newAppointment);
-	}      
+function onClientAppointmentClick(sender, args)
+{
+	 var appointment = args.get_appointment();
+	 var newAppointment = app.clone();
+	 sender.insertAppointment(newAppointment);
+}      
 	
 ````
 
@@ -118,20 +118,21 @@ The tables below lists the most important, public properties of the SchedulerApp
 
 ````JavaScript
 	
-	 function OnClientAppointmentClick(sender, args) {
-	            var appointment = args.get_appointment();
-	            var subject = appointment.get_subject();
-	            appointment.set_subject("new" + subject);
-	            var start = appointment.get_start();
-	            var newStart = new Date(start);
-	            newStart.setMinutes(newStart.getMinutes() - 45);
-	            app.set_start(newStart);
-	            var end = appointment.get_end();
-	            var newEnd = new Date(end);
-	            newEnd.setMinutes(newEnd.getMinutes() + 45);
-	            appointment.set_end(newEnd);
-	            sender.updateAppointment(appointment);
-	}      
+function OnClientAppointmentClick(sender, args) 
+{
+	var appointment = args.get_appointment();
+	var subject = appointment.get_subject();
+	appointment.set_subject("new" + subject);
+	var start = appointment.get_start();
+	var newStart = new Date(start);
+	newStart.setMinutes(newStart.getMinutes() - 45);
+	app.set_start(newStart);
+	var end = appointment.get_end();
+	var newEnd = new Date(end);
+	newEnd.setMinutes(newEnd.getMinutes() + 45);
+	appointment.set_end(newEnd);
+	sender.updateAppointment(appointment);
+}      
 	
 ````
 
@@ -143,18 +144,19 @@ The tables below lists the most important, public properties of the SchedulerApp
 
 ````JavaScript
 	
-	function OnClientAppointmentDataBound(sender, args) {
-	            var appointment = args.get_appointment();
-	            appointment.set_backColor("red");
-	            appointment.get_attributes().setAttribute("Loacation", "Sofia");
-	            appointment.set_description("description");
-	            appointment.set_borderColor("red");
-	            appointment.set_borderStyle("dotted");
-	            appointment.set_borderWidth(1);
-	            appointment.set_allowDelete(false);
-	            appointment.set_allowEdit(false);
-	
-	        }    
+function OnClientAppointmentDataBound(sender, args) 
+{
+	var appointment = args.get_appointment();
+	appointment.set_backColor("red");
+	appointment.get_attributes().setAttribute("Loacation", "Sofia");
+	appointment.set_description("description");
+	appointment.set_borderColor("red");
+	appointment.set_borderStyle("dotted");
+	appointment.set_borderWidth(1);
+	appointment.set_allowDelete(false);
+	appointment.set_allowEdit(false);
+
+}    
 	
 ````
 

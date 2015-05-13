@@ -36,29 +36,29 @@ In this example, the appearance of the appointment is changed based on a custom 
 
 ````C#
 	
-	    protected void RadScheduler1_AppointmentCreated(object sender, Telerik.Web.UI.AppointmentCreatedEventArgs e)
-	    {
-	        Label moderatorLabel = (Label)e.Container.FindControl("Moderator");
-	        moderatorLabel.Text = e.Appointment.Attributes["Moderator"];
-	
-	        switch (e.Appointment.Attributes["Moderator"])
-	        {
-	            case "McGregor":
-	                e.Appointment.CssClass = "McGregorStyle";
-	                break;
-	            case "John Doe":
-	                e.Appointment.CssClass = "JDStyle";
-	                break;
-	            case "Smith":
-	                e.Appointment.CssClass = "SmithStyle";
-	                break;
-	            case "Anderson":
-	                e.Appointment.CssClass = "AndersonStyle";
-	                break;
-	            default:
-	                break;
-	        }
-	    } 
+protected void RadScheduler1_AppointmentCreated(object sender, Telerik.Web.UI.AppointmentCreatedEventArgs e)
+{
+	Label moderatorLabel = (Label)e.Container.FindControl("Moderator");
+	moderatorLabel.Text = e.Appointment.Attributes["Moderator"];
+
+	switch (e.Appointment.Attributes["Moderator"])
+	{
+		case "McGregor":
+			e.Appointment.CssClass = "McGregorStyle";
+			break;
+		case "John Doe":
+			e.Appointment.CssClass = "JDStyle";
+			break;
+		case "Smith":
+			e.Appointment.CssClass = "SmithStyle";
+			break;
+		case "Anderson":
+			e.Appointment.CssClass = "AndersonStyle";
+			break;
+		default:
+			break;
+	}
+} 
 	
 ````
 ````VB.NET

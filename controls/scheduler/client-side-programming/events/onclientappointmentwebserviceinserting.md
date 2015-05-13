@@ -22,8 +22,8 @@ Two parameters are passed to the handler:
 
 * **eventArgs** with two properties:
 
-* **get_appointment() -**the appointment that is about to be inserted.
+	* **get_appointment()** -the appointment that is about to be inserted.
 
-* **set_cancel() -** set to true cancel the operation.
+	* **set_cancel()** - set to true cancel the operation.
 
 This event can be cancelled.

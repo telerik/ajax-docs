@@ -25,18 +25,18 @@ As of Q3 2013 SP1 we introduced the **AllowPaging** property, which allows you t
 The following example shows the differences when the exported to PDF RadScheduler has paging enabled and when the AllowPaging property is set to false (see Figure 1).
 
 ````ASPNET
-	                <ExportSettings OpenInNewWindow="true" FileName="SchedulerExport">
-	                    <Pdf 
-	                        PageTitle="Schedule" 
-	                        Author="Telerik"
-	
-	                        AllowPaging="true"
-	
-	                        Creator="Telerik" 
-	                        Title="Schedule"
-	                        PaperSize="A4">
-	                    </Pdf>                    
-	                </ExportSettings>
+<ExportSettings OpenInNewWindow="true" FileName="SchedulerExport">
+	<Pdf 
+		PageTitle="Schedule" 
+		Author="Telerik"
+
+		AllowPaging="true"
+
+		Creator="Telerik" 
+		Title="Schedule"
+		PaperSize="A4">
+	</Pdf>                    
+</ExportSettings>
 ````
 
 
@@ -52,18 +52,18 @@ Page Orientation shows what kind of page layout will be used for exporting the R
 The following example shows the differences between the exported document when the RadScheduler property **PaperOrientation** is set to Landscape or Portrait (see Figure 2).
 
 ````ASPNET
-	            <ExportSettings OpenInNewWindow="true" FileName="SchedulerExport">
-	                <Pdf 
-	                    PageTitle="Schedule" 
-	                    Author="Telerik"
-	
-	                    PaperOrientation="Portrait"
-	
-	                    PaperSize="A4"                    
-	                    Creator="Telerik" 
-	                    Title="Schedule">
-	                </Pdf>                    
-	            </ExportSettings>
+<ExportSettings OpenInNewWindow="true" FileName="SchedulerExport">
+	<Pdf 
+		PageTitle="Schedule" 
+		Author="Telerik"
+
+		PaperOrientation="Portrait"
+
+		PaperSize="A4"                    
+		Creator="Telerik" 
+		Title="Schedule">
+	</Pdf>                    
+</ExportSettings>
 ````
 
 
@@ -83,22 +83,22 @@ Page size dimensions give user ability to control the page margins, width or hei
 The following example shows how you can set left, right, upper and bottom margin and an "A5" format for the page standard.
 
 ````ASPNET
-	            <ExportSettings OpenInNewWindow="true" FileName="SchedulerExport">
-	                <Pdf 
-	                    PageTitle="Schedule" 
-	                    Author="Telerik"
-	
-	                    PaperSize="A5"
-	                    PageLeftMargin="40mm"
-	                    PageRightMargin="40mm"
-	                    PageBottomMargin="40mm"
-	                    PageTopMargin="40mm"
-	
-	                    Creator="Telerik" 
-	                    Title="Schedule">
-	                </Pdf>                    
-	            </ExportSettings>
-	        </telerik:RadScheduler>
+<ExportSettings OpenInNewWindow="true" FileName="SchedulerExport">
+	<Pdf 
+		PageTitle="Schedule" 
+		Author="Telerik"
+
+		PaperSize="A5"
+		PageLeftMargin="40mm"
+		PageRightMargin="40mm"
+		PageBottomMargin="40mm"
+		PageTopMargin="40mm"
+
+		Creator="Telerik" 
+		Title="Schedule">
+	</Pdf>                    
+</ExportSettings>
+</telerik:RadScheduler>
 ````
 
 

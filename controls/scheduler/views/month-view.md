@@ -12,8 +12,6 @@ position: 3
 
 
 
-## Month View
-
 The **Month View** is a standard cell list, which shows all appointments for a specific month. Each cell represents a separate day.
 
 ## Month View Settings

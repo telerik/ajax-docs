@@ -32,18 +32,18 @@ This example stops the deletion if the user is about to delete an appointment's 
 
 ````ASPNET
 	
-	<script type="text/javascript">   
-	  function OnClientAppointmentDeleting(sender, eventArgs)
-	  {
-	    if(eventArgs.get_editingRecurringSeries())
-	          eventArgs.set_cancel(true);
-	  }
-	</script>
-	<telerik:RadScheduler
-	 ID="RadScheduler1"
-	 runat="server"  
-	 OnClientAppointmentDeleting="OnClientAppointmentDeleting"
-	 DataSourceID = "AppointmentsDS" />
+<script type="text/javascript">   
+function OnClientAppointmentDeleting(sender, eventArgs)
+{
+	if(eventArgs.get_editingRecurringSeries())
+		  eventArgs.set_cancel(true);
+}
+</script>
+<telerik:RadScheduler
+ ID="RadScheduler1"
+ runat="server"  
+ OnClientAppointmentDeleting="OnClientAppointmentDeleting"
+ DataSourceID = "AppointmentsDS" />
 	
 ````
 

@@ -22,7 +22,7 @@ The **OnClientRecurrenceActionDialogClosed** client-side event is called when th
 
 * **get_editSeries()** returns **True** if the user has selected to edit the series, **False** if the user has selected to edit a single occurrence of an appointment.
 
-* **get_recurrenceAction()**returns **1** for **edit**, **2** for **delete**, **3** for **resize**, and **4** for **move**.
+* **get_recurrenceAction()** returns **1** for **edit**, **2** for **delete**, **3** for **resize**, and **4** for **move**.
 
 ## Example
 
@@ -30,31 +30,31 @@ This example alerts what action will follow after the dialog is closed:
 
 ````ASPNET
 	
-	<script type="text/javascript">
-	   function OnClientRecurrenceActionDialogClosed(sender, eventArgs)
+<script type="text/javascript">
+   function OnClientRecurrenceActionDialogClosed(sender, eventArgs)
+   {           
+	   switch(eventArgs.get_recurrenceAction())
 	   {           
-	       switch(eventArgs.get_recurrenceAction())
-	       {           
-	           case Telerik.Web.UI.RecurrenceAction.Edit:
-	               alert("The appointment will be edited");
-	               break;    
-	           case Telerik.Web.UI.RecurrenceAction.Delete:
-	               alert("The appointment will be deleted");
-	               break;
-	           case Telerik.Web.UI.RecurrenceAction.Resize:
-	               alert("The appointment will be resized");
-	               break;
-	           case Telerik.Web.UI.RecurrenceAction.Move:
-	               alert("The appointment will be moved");
-	               break;
-	       }            
-	   }        
-	</script>
-	<telerik:RadScheduler
-	   ID="RadScheduler1"
-	   runat="server"  
-	   OnClientRecurrenceActionDialogClosed="OnClientRecurrenceActionDialogClosed"
-	   DataSourceID="AppointmentsDS" /> 
+		   case Telerik.Web.UI.RecurrenceAction.Edit:
+			   alert("The appointment will be edited");
+			   break;    
+		   case Telerik.Web.UI.RecurrenceAction.Delete:
+			   alert("The appointment will be deleted");
+			   break;
+		   case Telerik.Web.UI.RecurrenceAction.Resize:
+			   alert("The appointment will be resized");
+			   break;
+		   case Telerik.Web.UI.RecurrenceAction.Move:
+			   alert("The appointment will be moved");
+			   break;
+	   }            
+   }        
+</script>
+<telerik:RadScheduler
+   ID="RadScheduler1"
+   runat="server"  
+   OnClientRecurrenceActionDialogClosed="OnClientRecurrenceActionDialogClosed"
+   DataSourceID="AppointmentsDS" /> 
 		
 ````
 

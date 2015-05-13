@@ -24,18 +24,18 @@ When adding appointments to the scheduler programmatically, you must converttime
 
 ````C#
 	
-	DateTime start = DateTime.Now.ToUniversalTime();
-	DateTime end = start.AddHours(1);
-	Appointment apt = new Appointment("1", start, end, "Do it now.");
-	RadScheduler1.InsertAppointment(apt);  
+DateTime start = DateTime.Now.ToUniversalTime();
+DateTime end = start.AddHours(1);
+Appointment apt = new Appointment("1", start, end, "Do it now.");
+RadScheduler1.InsertAppointment(apt);  
 				
 ````
 ````VB.NET
 	
-	    Dim start As DateTime = DateTime.Now.ToUniversalTime()
-	    Dim [end] As DateTime = start.AddHours(1)
-	    Dim apt As New Appointment("1", start, [end], "Do it now.")
-	    RadScheduler1.InsertAppointment(apt)  
+Dim start As DateTime = DateTime.Now.ToUniversalTime()
+Dim [end] As DateTime = start.AddHours(1)
+Dim apt As New Appointment("1", start, [end], "Do it now.")
+RadScheduler1.InsertAppointment(apt)  
 	
 ````
 

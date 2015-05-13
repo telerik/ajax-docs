@@ -22,6 +22,6 @@ Two parameters are passed to the handler:
 
 * **eventArgs** with one property:
 
-* **get_appointment() -**the appointment that has been rendered.
+* **get_appointment()** -the appointment that has been rendered.
 
 This event cannot be cancelled.

@@ -18,7 +18,7 @@ The Inline Insert/Edit Form can be resized by the end-user for improved usabilit
 
 ````ASPNET
 	     
-							<telerik:RadScheduler ... MinimumInlineFormWidth="200" MinimumInlineFormHeight="200" />
+<telerik:RadScheduler ... MinimumInlineFormWidth="200" MinimumInlineFormHeight="200" />
 				
 ````
 

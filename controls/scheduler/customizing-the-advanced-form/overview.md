@@ -32,4 +32,3 @@ There are several ways to customize the advanced form:
 
 For some light-weight, minor tweaks, such as changing the style of the Subject's label, hiding the all-day checkbox,or adding some custom validation, we recommend using the first two methods - handling FormCreated and using javascriptand CSS. For heavy-weight customization, it is best to use the Advanced Templates or replace the advanced form with acustom one using the approach from the External Edit with RadDock demo.
 
-# See Also

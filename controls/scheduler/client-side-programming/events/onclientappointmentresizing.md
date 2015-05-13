@@ -32,28 +32,28 @@ This example displays a message giving the name and duration of the resizing eve
 
 ````ASPNET
 	
-	<script type="text/javascript">   
-	  function OnClientAppointmentResizing(sender, eventArgs)
-	  {
-	     var apt = eventArgs.get_appointment();
-	     var startStr = apt.get_start();
-	     var endStr = apt.get_end();
-	     LogEvent(apt.get_subject()+ ":" + startStr + " to " + endStr);
-	  }
-	  function LogEvent(eventString)
-	  {
-	      var d = new Date();
-	      var dateStr = d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds() + "." + d.getMilliseconds();
-	      var console = document.getElementById("eventConsole");
-	     console.innerHTML = "[" + dateStr + "] " + eventString + "<br/ >" + console.innerHTML;
-	  }
-	</script>
-	<div id="eventConsole" style="OVERFLOW:auto; WIDTH:698px; LINE-HEIGHT:1.5;HEIGHT:150px;" class="module" />
-	<telerik:RadScheduler
-	 ID="RadScheduler1"
-	 runat="server"  
-	 OnClientAppointmentResizing="OnClientAppointmentResizing"
-	 DataSourceID="AppointmentsDS" /> 
+<script type="text/javascript">   
+function OnClientAppointmentResizing(sender, eventArgs)
+{
+	var apt = eventArgs.get_appointment();
+	var startStr = apt.get_start();
+	var endStr = apt.get_end();
+	LogEvent(apt.get_subject()+ ":" + startStr + " to " + endStr);
+}
+function LogEvent(eventString)
+{
+	var d = new Date();
+	var dateStr = d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds() + "." + d.getMilliseconds();
+	var console = document.getElementById("eventConsole");
+	console.innerHTML = "[" + dateStr + "] " + eventString + "<br/ >" + console.innerHTML;
+}
+</script>
+<div id="eventConsole" style="OVERFLOW:auto; WIDTH:698px; LINE-HEIGHT:1.5;HEIGHT:150px;" class="module" />
+<telerik:RadScheduler
+ID="RadScheduler1"
+runat="server"  
+OnClientAppointmentResizing="OnClientAppointmentResizing"
+DataSourceID="AppointmentsDS" /> 
 	
 ````
 

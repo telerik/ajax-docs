@@ -12,8 +12,6 @@ position: 0
 
 
 
-## Overview
-
 **RadScheduler** displays appointments in six basic views:**Day view, Week view, Month view, Timeline view, Multi-Day and Agenda view**. The **SelectedView** property specifies which of these views the scheduler uses when it first appears (loads). By default, the user can move between**Day, Week, Month, Timeline, and Multi-Day** views using the view tabs. You can remove these controls and prevent the user from changing the view, by setting the **ShowViewTabs** property to **false**. You can remove specific view tab by setting the **UserSelectable** property to **false**.
 
 >caution If you try to restrict the **RadScheduler** to **Month view** , be aware that it allows the user to toggle into **Day View** using the **more...** link whenever the number of appointments in a day exceeds the limit that is set by the **MonthVisibleAppointmentsPerDay** property. To prevent this, however you can use the[NavigationCommand]({%slug scheduler/server-side-programming/server-events/navigationcommand%})event and set your desired logic.
@@ -36,7 +34,7 @@ In this section you may find all common properties that are shared among all vie
 
 If custom [Resources]({%slug scheduler/design-time/custom-resources-and-attributes%}) are defined, the data shown in the RadScheduler can be grouped by Resources. Resource Grouping is available in **all views**. To enable it, you must set the **GroupBy** property to the name of the Resource by which you want data to be grouped. Grouping is available only by one Resource with an exception for the special 'Date' Resource. If you set the **GroupBy** property to **"Date,[ResourceName]"**, data will be grouped by the specified Resource as well as by Date.
 
-In addition, you can set the **GroupingDirection**property to **Horizontal**or **Vertical** to specify the direction of the grouping (as the property name implies). This functionality is also available in **all views**.
+In addition, you can set the **GroupingDirection** property to **Horizontal** or **Vertical** to specify the direction of the grouping (as the property name implies). This functionality is also available in **all views**.
 
 ## All available RadScheduler views
 

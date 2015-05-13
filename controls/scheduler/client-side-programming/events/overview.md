@@ -104,32 +104,32 @@ To use these events, simply write a JavaScript function that can be called when 
 
 ````JavaScript
 	     
-	<script type="text/javascript">   
-	  function OnClientAppointmentInserting(sender, eventArgs)
-	  {
-	     var now = new Date();
-	     if (eventArgs.get_startTime() < now)
-	         eventArgs.set_cancel(true);
-	  }
-	</script>
+<script type="text/javascript">   
+  function OnClientAppointmentInserting(sender, eventArgs)
+  {
+	 var now = new Date();
+	 if (eventArgs.get_startTime() < now)
+		 eventArgs.set_cancel(true);
+  }
+</script>
 	
 	// #region client-side-programming-events_1
 	
-	function onClickHandler1()
-	{
-	 alert("First handler occurs");
-	}
-	function onClickHandler2()
-	{
-	 alert("Second handler occurs");
-	}
-	function pageLoad()
-	{
+function onClickHandler1()
+{
+	alert("First handler occurs");
+}
+function onClickHandler2()
+{
+	alert("Second handler occurs");
+}
+function pageLoad()
+{
 	 var Scheduler = $find("<%= RadScheduler1.ClientID %>");
 	 
 	 Scheduler.add_timeSlotClick(OnClickHandler1);
 	 Scheduler.add_timeSlotClick(OnClickHandler2);
-	}      
+}      
 	
 ````
 
@@ -139,21 +139,21 @@ You can also assign event handlers in client-side code. When using the client-si
 
 ````JavaScript
 	
-	function onClickHandler1()
-	{
-	 alert("First handler occurs");
-	}
-	function onClickHandler2()
-	{
-	 alert("Second handler occurs");
-	}
-	function pageLoad()
-	{
+function onClickHandler1()
+{
+	alert("First handler occurs");
+}
+function onClickHandler2()
+{
+	alert("Second handler occurs");
+}
+function pageLoad()
+{
 	 var Scheduler = $find("<%= RadScheduler1.ClientID %>");
 	 
 	 Scheduler.add_timeSlotClick(OnClickHandler1);
 	 Scheduler.add_timeSlotClick(OnClickHandler2);
-	}      
+}      
 	
 ````
 
@@ -163,11 +163,11 @@ Another advantage of the client-side API is that you can detach an event handler
 
 ````JavaScript
 	
-	function removeOnClick2()
-	{
+function removeOnClick2()
+{
 	 var Scheduler = $find("<%= RadScheduler1.ClientID %>");
 	 Scheduler.remove_timeSlotClick(OnClickHandler2);
-	}       
+}       
 	
 ````
 

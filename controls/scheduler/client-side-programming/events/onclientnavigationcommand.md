@@ -22,11 +22,11 @@ Two parameters are passed to the handler:
 
 * **eventArgs** with three properties:
 
-* **get_command() -**the navigation command that is being processed.
+	* **get_command()** - the navigation command that is being processed.
 
-* **get_selectedDate()** - the date that RadScheduler will navigate to.
+	* **get_selectedDate()** - the date that RadScheduler will navigate to.
 
-* **set_cancel() -** set to true to cancel the operation.
+	* **set_cancel()** - set to true to cancel the operation.
 
 This event can be cancelled.
 

@@ -44,24 +44,24 @@ This example prevents the user from updating an appointment using the edit form 
 
 ````C#
 	
-	    protected void RadScheduler1_FormCreating(object sender, SchedulerFormCreatingEventArgs e)
-	    {
-	        if (e.Appointment.Subject == String.Empty &&
-	            e.Mode == SchedulerFormMode.AdvancedEdit)
-	            e.Cancel = true;
-	    }
+protected void RadScheduler1_FormCreating(object sender, SchedulerFormCreatingEventArgs e)
+{
+	if (e.Appointment.Subject == String.Empty &&
+		e.Mode == SchedulerFormMode.AdvancedEdit)
+		e.Cancel = true;
+}
 	   
 ````
 ````VB.NET
 	
-	    Protected Sub RadScheduler1_FormCreating(ByVal sender As Object, _
-	                           ByVal e As SchedulerFormCreatingEventArgs) _
-	          Handles RadScheduler1.FormCreating
-	        If e.Appointment.Subject = [String].Empty AndAlso
-	           e.Mode = SchedulerFormMode.AdvancedEdit Then
-	            e.Cancel = True
-	        End If
-	    End Sub
+Protected Sub RadScheduler1_FormCreating(ByVal sender As Object, _
+					   ByVal e As SchedulerFormCreatingEventArgs) _
+	  Handles RadScheduler1.FormCreating
+	If e.Appointment.Subject = [String].Empty AndAlso
+	   e.Mode = SchedulerFormMode.AdvancedEdit Then
+		e.Cancel = True
+	End If
+End Sub
 	
 	
 	

@@ -20,10 +20,10 @@ The **OccurenceDelete** event occurs when a single occurrence is deleted,but no 
 
 * **sender** is the scheduler control.
 
-* **e** is an object of type **OccurrenceDeleteEventArgs**.It has the following properties
+* **e** is an object of type **OccurrenceDeleteEventArgs**. It has the following properties
 
-* **Appointment -**the Master appointment;
+* **Appointment** - the Master appointment;
 
-* **OccurrenceAppointment -**the Occurrence that is about to be deleted;
+* **OccurrenceAppointment** - the Occurrence that is about to be deleted;
 
-* **Cancel -**if set to true, cancels the event;
+* **Cancel** - if set to true, cancels the event;

@@ -30,22 +30,22 @@ The code sample below sets a "Disabled" css style for time slots which have one 
 
 ````C#
 	
-	    protected void RadScheduler1_TimeSlotCreated(object sender, Telerik.Web.UI.TimeSlotCreatedEventArgs e)
-	    {
-	        if (e.TimeSlot.Appointments.Count > 0)
-	        {
-	            e.TimeSlot.CssClass = "Disabled";
-	        }
-	    }  
+protected void RadScheduler1_TimeSlotCreated(object sender, Telerik.Web.UI.TimeSlotCreatedEventArgs e)
+{
+	if (e.TimeSlot.Appointments.Count > 0)
+	{
+		e.TimeSlot.CssClass = "Disabled";
+	}
+}  
 	
 ````
 ````VB.NET
 	
-	    Protected Sub RadScheduler1_TimeSlotCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.TimeSlotCreatedEventArgs)
-	        If e.TimeSlot.Appointments.Count > 0 Then
-	            e.TimeSlot.CssClass = "Disabled"
-	        End If
-	    End Sub
+Protected Sub RadScheduler1_TimeSlotCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.TimeSlotCreatedEventArgs)
+	If e.TimeSlot.Appointments.Count > 0 Then
+		e.TimeSlot.CssClass = "Disabled"
+	End If
+End Sub
 	
 ````
 

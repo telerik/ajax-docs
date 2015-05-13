@@ -22,15 +22,15 @@ position: 1
 
 ````ASPNET
 	 
-	 <AppointmentTemplate>
-	 <%# Eval("Subject") %>
-	 <div style="text-align: right;">
-	    <span style="cursor: pointer; cursor: hand;">
-	      <asp:ImageButton runat="server" ID="Button1" ImageUrl="Outlook.gif" AlternateText="Export to iCalendar"
-	      CommandName="Export" OnClientClick="Export(this, event); return false;" />
-	    </span>
-	 </div>
-	</AppointmentTemplate>
+ <AppointmentTemplate>
+ <%# Eval("Subject") %>
+ <div style="text-align: right;">
+	<span style="cursor: pointer; cursor: hand;">
+	  <asp:ImageButton runat="server" ID="Button1" ImageUrl="Outlook.gif" AlternateText="Export to iCalendar"
+	  CommandName="Export" OnClientClick="Export(this, event); return false;" />
+	</span>
+ </div>
+</AppointmentTemplate>
 	
 ````
 
@@ -41,35 +41,33 @@ position: 1
 
 
 ````C#
-	
-	    private void WriteCalendar(string data)
-	    {
-	        HttpResponse response = Page.Response;
-	        response.Clear();
-	        response.Buffer = true;
-	        response.ContentType = "text/calendar";
-	        response.ContentEncoding = Encoding.UTF8;
-	        response.Charset = "utf-8";
-	        response.AddHeader("Content-Disposition", "attachment;filename=\"RadSchedulerExport.ics\"");
-	        response.Write(data);
-	        response.End();
-	    } 
+private void WriteCalendar(string data)
+{
+	HttpResponse response = Page.Response;
+	response.Clear();
+	response.Buffer = true;
+	response.ContentType = "text/calendar";
+	response.ContentEncoding = Encoding.UTF8;
+	response.Charset = "utf-8";
+	response.AddHeader("Content-Disposition", "attachment;filename=\"RadSchedulerExport.ics\"");
+	response.Write(data);
+	response.End();
+} 
 	
 ````
 ````VB.NET
-	
-	    Private Sub WriteCalendar(ByVal data As String)
-	        Dim response As HttpResponse = Page.Response
-	        response.Clear()
-	        response.Buffer = True
-	        response.ContentType = "text/calendar"
-	        response.ContentEncoding = Encoding.UTF8
-	        response.Charset = "utf-8"
-	        response.AddHeader("Content-Disposition", _
-	                  "attachment;filename=""RadSchedulerExport.ics""")
-	        response.Write(data)
-	        response.[End]()
-	    End Sub
+Private Sub WriteCalendar(ByVal data As String)
+	Dim response As HttpResponse = Page.Response
+	response.Clear()
+	response.Buffer = True
+	response.ContentType = "text/calendar"
+	response.ContentEncoding = Encoding.UTF8
+	response.Charset = "utf-8"
+	response.AddHeader("Content-Disposition", _
+			  "attachment;filename=""RadSchedulerExport.ics""")
+	response.Write(data)
+	response.[End]()
+End Sub
 	
 ````
 
@@ -80,25 +78,25 @@ position: 1
 
 ````C#
 	
-	    protected void RadScheduler1_AppointmentCommand(object sender, AppointmentCommandEventArgs e)
-	    {
-	        if (e.CommandName == "Export")
-	        {
-	            //exporting a single appointment that supports time zones
-	            WriteCalendar(RadScheduler.ExportToICalendar(e.Container.Appointment, true));
-	        }
-	    }  
+protected void RadScheduler1_AppointmentCommand(object sender, AppointmentCommandEventArgs e)
+{
+	if (e.CommandName == "Export")
+	{
+		//exporting a single appointment that supports time zones
+		WriteCalendar(RadScheduler.ExportToICalendar(e.Container.Appointment, true));
+	}
+}  
 	
 ````
 ````VB.NET
 	
-	    Protected Sub RadScheduler1_AppointmentCommand(ByVal sender As Object,
-	    ByVal e As AppointmentCommandEventArgs) Handles RadScheduler1.AppointmentCommand
-	        If e.CommandName = "Export" Then
-	            'exporting a single appointment that supports time zones
-	            WriteCalendar(RadScheduler.ExportToICalendar(e.Container.Appointment, True))
-	        End If
-	    End Sub
+Protected Sub RadScheduler1_AppointmentCommand(ByVal sender As Object,
+ByVal e As AppointmentCommandEventArgs) Handles RadScheduler1.AppointmentCommand
+	If e.CommandName = "Export" Then
+		'exporting a single appointment that supports time zones
+		WriteCalendar(RadScheduler.ExportToICalendar(e.Container.Appointment, True))
+	End If
+End Sub
 	
 ````
 
@@ -108,16 +106,14 @@ position: 1
 
 
 ````C#
-	
-	    protected void Button1_Click(object sender, ImageClickEventArgs e)
-	    {
-	        //exporting a collection of appointments that do not support time zones
-	        WriteCalendar(RadScheduler.ExportToICalendar(RadScheduler1.Appointments, false));
-	    }
+protected void Button1_Click(object sender, ImageClickEventArgs e)
+{
+	//exporting a collection of appointments that do not support time zones
+	WriteCalendar(RadScheduler.ExportToICalendar(RadScheduler1.Appointments, false));
+}
 	
 ````
 ````VB.NET
-	
 	    Protected Sub Button1_Click(ByVal sender As Object,
 	     ByVal e As ImageClickEventArgs) Handles Button1.Click
 	        'exporting a collection of appointments that do not support time zones

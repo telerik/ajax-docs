@@ -22,7 +22,7 @@ Two parameters are passed to the event handler:
 
 * **get_domEvent()** - returns the raw DOM event sent by the browser.
 
-* **get_isAllDay()** - returns **True** if the Time Slot is the 'All Day' slot (Day and Week View only) or**False** if the Time Slot is a regular one.
+* **get_isAllDay()** - returns **True** if the Time Slot is the 'All Day' slot (Day and Week View only) or **False** if the Time Slot is a regular one.
 
 * **get_targetSlot()** - returns the Time Slot which is right-clicked.
 

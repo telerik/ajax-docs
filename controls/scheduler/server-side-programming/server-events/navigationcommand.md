@@ -57,25 +57,23 @@ This example disables the "today" button, while still allowing a switch to Day v
 
 ````C#
 	
-	
-	    protected void RadScheduler1_NavigationCommand(object sender, SchedulerNavigationCommandEventArgs e)
-	    {
-	        if (e.Command == SchedulerNavigationCommand.SwitchToSelectedDay && RadScheduler1.SelectedView == SchedulerViewType.DayView) 
-	            e.Cancel = true;
-	    }
+protected void RadScheduler1_NavigationCommand(object sender, SchedulerNavigationCommandEventArgs e)
+{
+	if (e.Command == SchedulerNavigationCommand.SwitchToSelectedDay && RadScheduler1.SelectedView == SchedulerViewType.DayView) 
+		e.Cancel = true;
+}
 	
 ````
 ````VB.NET
 	
-	    Protected Sub RadScheduler1_NavigationCommand(ByVal sender As Object, _
-	                         ByVal e As SchedulerNavigationCommandEventArgs) _
-	                                   Handles RadScheduler1.NavigationCommand
-	        If e.Command = SchedulerNavigationCommand.SwitchToSelectedDay AndAlso _
-	                      RadScheduler1.SelectedView = SchedulerViewType.DayView Then
-	            e.Cancel = True
-	        End If
-	    End Sub
-	
+Protected Sub RadScheduler1_NavigationCommand(ByVal sender As Object, _
+					 ByVal e As SchedulerNavigationCommandEventArgs) _
+							   Handles RadScheduler1.NavigationCommand
+	If e.Command = SchedulerNavigationCommand.SwitchToSelectedDay AndAlso _
+				  RadScheduler1.SelectedView = SchedulerViewType.DayView Then
+		e.Cancel = True
+	End If
+End Sub
 	
 	
 ````

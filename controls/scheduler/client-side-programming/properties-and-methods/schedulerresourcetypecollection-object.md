@@ -43,19 +43,20 @@ The tables below lists all public properties and the most important methods of t
 
 ````JavaScript
 	     
-	 function clientFormCreated(scheduler, args) {
-	            var mode = args.get_mode();
-	            if (mode == Telerik.Web.UI.SchedulerFormMode.AdvancedInsert ||
-	    mode == Telerik.Web.UI.SchedulerFormMode.AdvancedEdit) {
-	                //Alerts all resource types on AdvancedInsert/Edit Form created.
-	                var a = new Telerik.Web.UI.ResourceType();
-	                a.set_name("New ResourceType");
-	                scheduler.get_resourceTypes().add(a);
-	                scheduler.get_resourceTypes().forEach(function (type) {
-	                    alert(type.get_name());
-	                });
-	            }
-	        }
+function clientFormCreated(scheduler, args) 
+{
+	var mode = args.get_mode();
+	if (mode == Telerik.Web.UI.SchedulerFormMode.AdvancedInsert ||
+		mode == Telerik.Web.UI.SchedulerFormMode.AdvancedEdit) {
+		//Alerts all resource types on AdvancedInsert/Edit Form created.
+		var a = new Telerik.Web.UI.ResourceType();
+		a.set_name("New ResourceType");
+		scheduler.get_resourceTypes().add(a);
+		scheduler.get_resourceTypes().forEach(function (type) {
+			alert(type.get_name());
+		});
+	}
+}
 				
 ````
 

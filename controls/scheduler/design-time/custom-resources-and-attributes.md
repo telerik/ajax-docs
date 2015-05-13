@@ -22,15 +22,17 @@ Custom resources let you associate additional information with your appointments
 
 1. In the **RadScheduler**'s properties pane of the designer, click the ellipsis button on the **ResourceTypes** property. This displays the [Resource Type Collection Editor]({%slug scheduler/design-time/resource-type-collection-editor%}).
 
-1. In the **Resource Type Collection Editor**, define your custom resource by supplying the information **RadScheduler** needs to bind to the list of resource type values.![Resource Type Collection Editor](images/scheduler_resourcetypecollectioneditor.png)
+1. In the **Resource Type Collection Editor**, define your custom resource by supplying the information **RadScheduler** needs to bind to the list of resource type values.
+![Resource Type Collection Editor](images/scheduler_resourcetypecollectioneditor.png)
 
-1. You can customize the appearance of the resource in the edit form by **EnableResourceEditing** property of the **RadScheduler**. By default it is **"True"**.![Resource Edit Form](images/scheduler_resourceeditform.png)
+1. You can customize the appearance of the resource in the edit form by **EnableResourceEditing** property of the **RadScheduler**. By default it is **"True"**.
+![Resource Edit Form](images/scheduler_resourceeditform.png)
 
 >caution Be sure that your insert and update statements accept a parameter with the name of the custom resource.
 >
 
 
->note The resources you define in the Resource Type Collection Editor are not used if the **RadScheduler** gets its data from a[data provider]({%slug scheduler/data-binding/providers/using-a-data-provider%}). When using a data provider, **RadScheduler** gets information about the available data from the provider instead.
+>note The resources you define in the Resource Type Collection Editor are not used if the **RadScheduler** gets its data from a [data provider]({%slug scheduler/data-binding/providers/using-a-data-provider%}). When using a data provider, **RadScheduler** gets information about the available data from the provider instead.
 >
 
 
@@ -42,9 +44,11 @@ Custom attributes are simple text values that your data source stores with the a
 
 1. In the **RadScheduler**'s properties pane of the designer, click the ellipsis button on the **CustomAttributeNames** property. This displays the string collection editor.
 
-1. In the string collection editor, specify the names of the custom attributes you want to add. These are the names of the fields for the custom attributes in the data supplied by the Select statement of your data source. They are also the names of the parameters for the values that the scheduler passes to the Insert and Update statements of your data source.![Custom Attributes](images/scheduler_customattributes.png)
+1. In the string collection editor, specify the names of the custom attributes you want to add. These are the names of the fields for the custom attributes in the data supplied by the Select statement of your data source. They are also the names of the parameters for the values that the scheduler passes to the Insert and Update statements of your data source.
+![Custom Attributes](images/scheduler_customattributes.png)
 
-1. Set the **AdvancedForm-EnableCustomAttributeEditing** property to **True**. This causes controls for the custom attributes to appear in the advanced edit form of the scheduler:![Custom Attribute Editor](images/scheduler_customattributeeditor.png)
+1. Set the **AdvancedForm-EnableCustomAttributeEditing** property to **True**. This causes controls for the custom attributes to appear in the advanced edit form of the scheduler:
+![Custom Attribute Editor](images/scheduler_customattributeeditor.png)
 
 >caution If you enable custom attribute editing, be sure that your insert and update statements accept a parameter with the name of the custom attribute.
 >

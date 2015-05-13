@@ -22,7 +22,7 @@ Two parameters are passed to the handler:
 
 * **eventArgs** with one property:
 
-* **get_result()-**the object received from the server.
+* **get_result()** - the object received from the server.
 
 This event cannot be cancelled.
 

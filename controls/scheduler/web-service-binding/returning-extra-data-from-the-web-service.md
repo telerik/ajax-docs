@@ -18,7 +18,7 @@ The Web Service methods normally return only a list with the current appointment
 
 ````C#
 	
-	public IEnumerable<AppointmentData> GetAppointments(SchedulerInfo schedulerInfo) 
+public IEnumerable<AppointmentData> GetAppointments(SchedulerInfo schedulerInfo) 
 			
 ````
 
@@ -28,10 +28,10 @@ You might want to extend this result with information that concerns your applica
 
 ````C#
 	
-	public interface ISchedulerOperationResult<T> where T : IAppointmentData
-	{
+public interface ISchedulerOperationResult<T> where T : IAppointmentData
+{
 	IEnumerable<T> Appointments { get; set; }
-	} 
+} 
 		
 ````
 
@@ -49,15 +49,15 @@ We start by implementing ISchedulerOperationResult:
 
 ````C#
 	     
-	public class SchedulerResult : SchedulerOperationResult<AppointmentData>
+public class SchedulerResult : SchedulerOperationResult<AppointmentData>
+{
+	private int _code;
+	public int Code
 	{
-	    private int _code;
-	    public int Code
-	    {
-	     get { return _code; }
-	     set { _code = value; }
-	    }
+	 get { return _code; }
+	 set { _code = value; }
 	}
+}
 				
 ````
 
@@ -67,13 +67,13 @@ Then we can define the GetAppointments method:
 
 ````C#
 	
-	public SchedulerResult GetAppointments(SchedulerInfo schedulerInfo)
-	{
+public SchedulerResult GetAppointments(SchedulerInfo schedulerInfo)
+{
 	SchedulerResult result = new SchedulerResult();
 	result.Appointments = Controller.GetAppointments<AppointmentData>(schedulerInfo);
 	result.Code = 1;
 	return result;
-	}
+}
 	
 ````
 
@@ -83,16 +83,16 @@ You can then access the Code from the client-side requestSuccess event:
 
 ````ASPNET
 	     
-	<script type="text/javascript">
+<script type="text/javascript">
 	function requestSuccess(s, e)
 	{
 	 alert("Code: " + e.get_result().Code);
 	}
-	</script>
-	<telerik:RadScheduler runat="server" ID="RadScheduler1" ...
-	OnClientRequestSuccess="requestSuccess">
-	<WebServiceSettings Path="~/SchedulerDataService.asmx" />
-	</telerik:RadScheduler>
+</script>
+<telerik:RadScheduler runat="server" ID="RadScheduler1" ...
+OnClientRequestSuccess="requestSuccess">
+<WebServiceSettings Path="~/SchedulerDataService.asmx" />
+</telerik:RadScheduler>
 				
 ````
 

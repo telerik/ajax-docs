@@ -20,12 +20,12 @@ Two parameters are passed to the handler:
 
 * **sender** - the scheduler client object;
 
-* **eventArgs** with two properties:
+* **eventArgs** with three properties:
 
-* **get_appointment() -**the appointment that is about to be deleted.
+	* **get_appointment()** - the appointment that is about to be deleted.
 
-* **get_editingRecurringSeries**() - indicates whether the recurring series are being deleted.
+	* **get_editingRecurringSeries**() - indicates whether the recurring series are being deleted.
 
-* **set_cancel() -** set to true cancel the operation.
+	* **set_cancel()** - set to true cancel the operation.
 
 This event can be cancelled.

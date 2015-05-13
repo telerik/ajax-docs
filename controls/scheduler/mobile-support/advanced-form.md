@@ -11,9 +11,6 @@ position: 5
 # Advanced Form
 
 
-
-## Advanced Form
-
 This help article will guide you through the process of creating or editing an appointment using the RadScheduler advanced form. In general you will use the advanced form in the same manner as with the default render mode. The difference is the form layout structure which is now more convenient for use on smaller screens. The following image shows the default advanced insert form. The subject, start and end fields are mandatory in order to create an appointment. When you are ready to insert or save changes to your appointment you can simply click on save button located in the upper right corner. The cancel button will close the advanced form without inserting/editing the appointment. One difference in the AdvancedEditForm is the addition of a delete button.
 >caption Figure 1. Advanced Edit Form
 

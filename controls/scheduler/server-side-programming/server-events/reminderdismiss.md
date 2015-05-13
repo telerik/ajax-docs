@@ -12,9 +12,6 @@ position: 23
 
 
 
-## 
-
-
 
 The ReminderDismiss event occurs when a reminder has been dismissed.
 
@@ -34,17 +31,17 @@ The operation can be cancelled by setting the **Cancel** property of the event a
 
 ````C#
 	
-	    protected void RadScheduler1_ReminderDismiss(object sender, ReminderDismissEventArgs e)
-	    {
-	        e.Cancel = true;
-	    }
+protected void RadScheduler1_ReminderDismiss(object sender, ReminderDismissEventArgs e)
+{
+	e.Cancel = true;
+}
 	
 ````
-````VB.NET
+````VB
 	
-	    Protected Sub RadScheduler1_ReminderDismiss(ByVal sender As Object, ByVal e As ReminderDismissEventArgs)
-	        e.Cancel = True
-	    End Sub
+Protected Sub RadScheduler1_ReminderDismiss(ByVal sender As Object, ByVal e As ReminderDismissEventArgs)
+	e.Cancel = True
+End Sub
 	
 ````
 

@@ -18,7 +18,7 @@ The **RecurrenceExceptionCreated** event occurs when the user creates an excepti
 
 * **sender** is the scheduler control.
 
-* **e** is an object of type **RecurrenceExceptionCreatedEventArgs**.It has four properties:- **Appointment**- the master appointment;- **ExceptionAppointment**- the newly created exception appointment;- **OccurenceAppointment**- the original occurrencebefore the exception was created;- **Cancel** is a boolean value that lets you prevent the creation of the exception;
+* **e** is an object of type **RecurrenceExceptionCreatedEventArgs**. It has four properties:- **Appointment**- the master appointment;- **ExceptionAppointment**- the newly created exception appointment;- **OccurenceAppointment**- the original occurrencebefore the exception was created;- **Cancel** is a boolean value that lets you prevent the creation of the exception;
 
 ## Example
 
@@ -28,17 +28,17 @@ The **RecurrenceExceptionCreated** event occurs when the user creates an excepti
 
 ````C#
 	
-	    protected void RadScheduler1_RecurrenceExceptionCreated(object sender, Telerik.Web.UI.RecurrenceExceptionCreatedEventArgs e)
-	    {
-	        Response.Write("An exception with subject: " + e.ExceptionAppointment.Subject + " was created");
-	    } 
+protected void RadScheduler1_RecurrenceExceptionCreated(object sender, Telerik.Web.UI.RecurrenceExceptionCreatedEventArgs e)
+{
+	Response.Write("An exception with subject: " + e.ExceptionAppointment.Subject + " was created");
+} 
 	
 ````
 ````VB.NET
 	
-	    Protected Sub RadScheduler1_RecurrenceExceptionCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.RecurrenceExceptionCreatedEventArgs)
-	        Response.Write("An exception with subject: " + e.ExceptionAppointment.Subject + " was created")
-	    End Sub
+Protected Sub RadScheduler1_RecurrenceExceptionCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.RecurrenceExceptionCreatedEventArgs)
+	Response.Write("An exception with subject: " + e.ExceptionAppointment.Subject + " was created")
+End Sub
 	
 ````
 

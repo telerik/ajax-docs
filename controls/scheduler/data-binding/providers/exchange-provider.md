@@ -32,15 +32,15 @@ For example:
 
 ````C#
 	
-	    protected void Page_Init(object sender, EventArgs e)
-	    {
-	        ExchangeSchedulerProvider provider =
-	            new ExchangeSchedulerProvider(@"https://yourURL.com/EWS/Exchange.asmx", "username", "password", "domain", "CalendarName");
-	
-	        // Alternatively, you can pass in existing credentials (NetworkCredential object):
-	        // new ExchangeSchedulerProvider("https://dc1.litwareinc.com/EWS/Exchange.asmx", credentials);
-	        RadScheduler1.Provider = provider;
-	    }  
+protected void Page_Init(object sender, EventArgs e)
+{
+	ExchangeSchedulerProvider provider =
+		new ExchangeSchedulerProvider(@"https://yourURL.com/EWS/Exchange.asmx", "username", "password", "domain", "CalendarName");
+
+	// Alternatively, you can pass in existing credentials (NetworkCredential object):
+	// new ExchangeSchedulerProvider("https://dc1.litwareinc.com/EWS/Exchange.asmx", credentials);
+	RadScheduler1.Provider = provider;
+}  
 	
 ````
 
@@ -50,15 +50,15 @@ You can configure the provider entirely declaratively. First you need to add the
 
 ````XML
 	
-	<configuration>
-	   <configSections>
-	       <sectionGroup name="telerik.web.ui">
-	           <section name="radScheduler"
-	type="Telerik.Web.UI.RadSchedulerConfigurationSection, Telerik.Web.UI, PublicKeyToken=121fae78165ba3d4"
-	allowDefinition="MachineToApplication" requirePermission="false"/>
-	       </sectionGroup>
-	   </configSections>
-	</configuration> 
+<configuration>
+   <configSections>
+	   <sectionGroup name="telerik.web.ui">
+		   <section name="radScheduler"
+type="Telerik.Web.UI.RadSchedulerConfigurationSection, Telerik.Web.UI, PublicKeyToken=121fae78165ba3d4"
+allowDefinition="MachineToApplication" requirePermission="false"/>
+	   </sectionGroup>
+   </configSections>
+</configuration> 
 	
 ````
 
@@ -68,17 +68,17 @@ Then add the provider section itself. Be sure to specify the correct server URL,
 
 ````XML
 	
-	<configuration>
-	   <telerik.web.ui>
-	       <radScheduler defaultAppointmentProvider="Integrated">
-	           <appointmentProviders>
-	               <add  name="ExchangeSchedulerProvider" type="Telerik.Web.Examples.Scheduler.ExchangeSchedulerProvider"
-	serverUrl="https://dc1.litwareinc.com/EWS/Exchange.asmx"
-	username="wl" password="pass@word1" domain="litwareinc" />
-	           </appointmentProviders>
-	       </radScheduler>
-	   </telerik.web.ui>
-	</configuration> 
+<configuration>
+   <telerik.web.ui>
+	   <radScheduler defaultAppointmentProvider="Integrated">
+		   <appointmentProviders>
+			   <add  name="ExchangeSchedulerProvider" type="Telerik.Web.Examples.Scheduler.ExchangeSchedulerProvider"
+serverUrl="https://dc1.litwareinc.com/EWS/Exchange.asmx"
+username="wl" password="pass@word1" domain="litwareinc" />
+		   </appointmentProviders>
+	   </radScheduler>
+   </telerik.web.ui>
+</configuration> 
 	
 ````
 
@@ -88,9 +88,9 @@ The provider is now set up and will be shared by all RadScheduler instances that
 
 ````ASPNET
 	
-	<telerik:RadScheduler runat="server" ID="RadScheduler1"
-	ProviderName="ExchangeSchedulerProvider">
-	</telerik:RadScheduler>  
+<telerik:RadScheduler runat="server" ID="RadScheduler1"
+ProviderName="ExchangeSchedulerProvider">
+</telerik:RadScheduler>  
 	
 ````
 

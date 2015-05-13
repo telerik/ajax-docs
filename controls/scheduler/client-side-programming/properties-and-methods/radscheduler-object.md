@@ -44,20 +44,21 @@ The tables below lists the most important, public properties and methods of the 
 |get_resources()|None|Telerik.Web.UI.[SchedulerResourceCollection]({%slug scheduler/client-side-programming/properties-and-methods/schedulerappointment-object%})|Gets all resources of all resource types defined for RadScheduler.|
 |get_resourceTypes()|None|Telerik.Web.UI.ResourceTypeCollection|Gets all resource types defined for RadScheduler.
 
+
 ````JavaScript
-	function clientFormCreated(scheduler, args)
+function clientFormCreated(scheduler, args)
+{
+	var mode = args.get_mode();
+	if (mode == Telerik.Web.UI.SchedulerFormMode.AdvancedInsert ||
+	mode == Telerik.Web.UI.SchedulerFormMode.AdvancedEdit)
 	{
-		var mode = args.get_mode();
-		if (mode == Telerik.Web.UI.SchedulerFormMode.AdvancedInsert ||
-	    mode == Telerik.Web.UI.SchedulerFormMode.AdvancedEdit)
+		//Alerts all resource types on AdvancedInsert/Edit Form created.  
+		scheduler.get_resourceTypes().forEach(function (type)
 		{
-			//Alerts all resource types on AdvancedInsert/Edit Form created.  
-			scheduler.get_resourceTypes().forEach(function (type)
-			{
-				alert(type.get_name());
-			});
-		}
-	} 
+			alert(type.get_name());
+		});
+	}
+} 
 ````
 
 |
@@ -78,9 +79,9 @@ The tables below lists the most important, public properties and methods of the 
 
 
 ````ASP.NET
-	<telerik:RadScheduler runat="server" ID="RadScheduler1" 
-		GroupBy="Date, User" GroupingDirection="Horizontal">
-	</telerik:RadScheduler>
+<telerik:RadScheduler runat="server" ID="RadScheduler1" 
+	GroupBy="Date, User" GroupingDirection="Horizontal">
+</telerik:RadScheduler>
 ````
 
 |
@@ -92,19 +93,19 @@ The tables below lists the most important, public properties and methods of the 
 
 
 ````JavaScript
-	function pageLoad()
+function pageLoad()
+{
+	var scheduler = $find('<%=RadScheduler1.ClientID %>');
+	// Are we using Web Service data binding?
+	if (!scheduler.get_webServiceSettings().get_isEmpty())
 	{
-		var scheduler = $find('<%=RadScheduler1.ClientID %>');
-		// Are we using Web Service data binding?
-		if (!scheduler.get_webServiceSettings().get_isEmpty())
-		{
-			scheduler.set_selectedDate(new Date());
-		}
-		else
-		{
-			alert("RadScheduler is not bound to Web Service!");
-		}
+		scheduler.set_selectedDate(new Date());
 	}
+	else
+	{
+		alert("RadScheduler is not bound to Web Service!");
+	}
+}
 ````
 
 |
@@ -123,14 +124,14 @@ The tables below lists the most important, public properties and methods of the 
 |Gets the type of the currently selected View.
 
 ````JavaScript
-	function pageLoad()
+function pageLoad()
+{ 
+	var scheduler = $find('<%=RadScheduler1.ClientID %>'); 
+	if (scheduler.get_selectedView() == Telerik.Web.UI.SchedulerViewType.DayView) 
 	{ 
-		var scheduler = $find('<%=RadScheduler1.ClientID %>'); 
-		if (scheduler.get_selectedView() == Telerik.Web.UI.SchedulerViewType.DayView) 
-		{ 
-			alert("The selected view is DayView"); 
-		} 
-	}
+		alert("The selected view is DayView"); 
+	} 
+}
 ````
 
 |
@@ -141,25 +142,25 @@ The tables below lists the most important, public properties and methods of the 
 
 
 ````JavaScript
-	function pageLoad()
+function pageLoad()
+{
+	var scheduler = $find('<%=RadScheduler1.ClientID %>');
+	// Are we using Web Service data binding?
+	if (!scheduler.get_webServiceSettings().get_isEmpty())
 	{
-		var scheduler = $find('<%=RadScheduler1.ClientID %>');
-		// Are we using Web Service data binding?
-		if (!scheduler.get_webServiceSettings().get_isEmpty())
+		var currentView = scheduler.get_selectedView();
+		if (currentView != Telerik.Web.UI.SchedulerViewType.TimelineView)
 		{
-			var currentView = scheduler.get_selectedView();
-			if (currentView != Telerik.Web.UI.SchedulerViewType.TimelineView)
-			{
-			  alert("The Scheduler's currently selected view will be" + 
-					"automatically changed to TimelineView after closing the dialog!");
-			  scheduler.set_selectedView(Telerik.Web.UI.SchedulerViewType.TimelineView);
-			}
-		}
-		else
-		{
-			alert("RadScheduler is not bound to Web Service!");
+		  alert("The Scheduler's currently selected view will be" + 
+				"automatically changed to TimelineView after closing the dialog!");
+		  scheduler.set_selectedView(Telerik.Web.UI.SchedulerViewType.TimelineView);
 		}
 	}
+	else
+	{
+		alert("RadScheduler is not bound to Web Service!");
+	}
+}
 ````
 
 |
@@ -262,90 +263,90 @@ The tables below lists the most important, public properties and methods of the 
 |showInsertFormAt()|Telerik.Web.UI.[ISchedulerTimeSlot]({%slug scheduler/client-side-programming/properties-and-methods/schedulertimeslot-and-schedulermodel-object%})|None|Shows the in-line insert form at the clicked TimeSlot, equivalently to the TimeSlot's double-clicking. When showing the form, the corresponding FormCreating, AppointmentCreated and FormCreated server-side events are fired.
 
 ````JavaScript
-	function onClientTimeSlotClick(sender, eventArgs)
-	{
-		var targetSlot = eventArgs.get_targetSlot();
-		sender.showInsertFormAt(targetSlot);
-	}		
+function onClientTimeSlotClick(sender, eventArgs)
+{
+	var targetSlot = eventArgs.get_targetSlot();
+	sender.showInsertFormAt(targetSlot);
+}		
 ````
 
 |
 |insertAppointment()|Telerik.Web.UI.[SchedulerAppointment]({%slug scheduler/client-side-programming/properties-and-methods/schedulerappointment-object%})|None|Inserts an appointment.
 
 ````JavaScript
-	function onClientTimeSlotClick(sender, eventArgs)
-	{
-		var newAppointment = new Telerik.Web.UI.SchedulerAppointment();
-	
-		var startTime = eventArgs.get_targetSlot().get_startTime();
-	
-		var endTime = new Date(startTime);
-		endTime.setMinutes(endTime.getMinutes() + 45);
-	
-		newAppointment.set_start(startTime);
-		newAppointment.set_end(endTime);
-		newAppointment.set_subject("Manually Inserted Appointment");
-	
-		sender.insertAppointment(newAppointment);
-	}
+function onClientTimeSlotClick(sender, eventArgs)
+{
+	var newAppointment = new Telerik.Web.UI.SchedulerAppointment();
+
+	var startTime = eventArgs.get_targetSlot().get_startTime();
+
+	var endTime = new Date(startTime);
+	endTime.setMinutes(endTime.getMinutes() + 45);
+
+	newAppointment.set_start(startTime);
+	newAppointment.set_end(endTime);
+	newAppointment.set_subject("Manually Inserted Appointment");
+
+	sender.insertAppointment(newAppointment);
+}
 ````
 
 |
 |updateAppointment()|Telerik.Web.UI.[SchedulerAppointment,]({%slug scheduler/client-side-programming/properties-and-methods/schedulerappointment-object%})Boolean (optional)|None|Updates the specified appointment.The second parameter is optional and if set to **true** , the method will update all appointments in the recurrence series; otherwise an exception will be created for the updated appointment.
 
 ````JavaScript
-	function onClientAppointmentClick(sender, eventArgs)
-	{
-		var appointment = eventArgs.get_appointment();
-		var newEnd = new Date(appointment.get_end());
-		newEnd.setMinutes(newEnd.getMinutes() + 45);
-		appointment.set_end(newEnd);
-		sender.updateAppointment(appointment, false);
-	}
+function onClientAppointmentClick(sender, eventArgs)
+{
+	var appointment = eventArgs.get_appointment();
+	var newEnd = new Date(appointment.get_end());
+	newEnd.setMinutes(newEnd.getMinutes() + 45);
+	appointment.set_end(newEnd);
+	sender.updateAppointment(appointment, false);
+}
 ````
 
 |
 |editAppointment()|Telerik.Web.UI.[SchedulerAppointment,]({%slug scheduler/client-side-programming/properties-and-methods/schedulerappointment-object%})Boolean (optional)|None|Opens the AdvancedEditForm for the specified appointment; Identical to double-clicking an appointment. When opening the form, the corresponding FormCreating and FormCreated server-side events are fired.The second parameter is optional and if set to **true** , the method will edit all appointments in the recurrence series; otherwise an exception will be created for the edited appointment.
 
 ````JavaScript
-	function onClientAppointmentClick(sender, eventArgs)
-	{
-		var appointment = eventArgs.get_appointment();
-		sender.editAppointment(appointment);
-	} 
+function onClientAppointmentClick(sender, eventArgs)
+{
+	var appointment = eventArgs.get_appointment();
+	sender.editAppointment(appointment);
+} 
 ````
 
 |
 |editAppointmentWithConfirmation()|Telerik.Web.UI.[SchedulerAppointment]({%slug scheduler/client-side-programming/properties-and-methods/schedulerappointment-object%})|None|Opens the AdvancedEditForm for the specified appointment; Identical to double-clicking an appointment. When opening the form, the corresponding FormCreating and FormCreated server-side events are fired.This method is identical to **editAppointment** , but the user is presented with a confirmation dialog if the appointment is recurring.
 
 ````JavaScript
-	function onClientAppointmentClick(sender, eventArgs)
-	{
-		var appointment = eventArgs.get_appointment();
-		sender.editAppointmentWithConfirmation(appointment);
-	} 
+function onClientAppointmentClick(sender, eventArgs)
+{
+	var appointment = eventArgs.get_appointment();
+	sender.editAppointmentWithConfirmation(appointment);
+} 
 ````
 
 |
 |deleteAppointment()|Telerik.Web.UI.[SchedulerAppointment,]({%slug scheduler/client-side-programming/properties-and-methods/schedulerappointment-object%})Boolean (optional)|None|Deletes the specified appointment.The second parameter - deleteSeries - is optional and if set to **true** ,the method will delete all appointments in the recurrence series; otherwise only the specified appointment will be deleted.
 
 ````JavaScript
-	function onClientAppointmentClick(sender, eventArgs)
-	{
-		var appointment = eventArgs.get_appointment();
-		sender.deleteAppointment(appointment);
-	}
+function onClientAppointmentClick(sender, eventArgs)
+{
+	var appointment = eventArgs.get_appointment();
+	sender.deleteAppointment(appointment);
+}
 ````
 
 |
 |deleteAppointmentWithConfirmation()|Telerik.Web.UI.[SchedulerAppointment]({%slug scheduler/client-side-programming/properties-and-methods/schedulerappointment-object%})|None|Deletes the specified appointment.A confirmation dialog is displayed, before deleting the appointment.
 
 ````JavaScript
-	function onClientAppointmentClick(sender, eventArgs)
-	{
-		var appointment = eventArgs.get_appointment();
-		sender.deleteAppointmentWithConfirmation(appointment);
-	}
+function onClientAppointmentClick(sender, eventArgs)
+{
+	var appointment = eventArgs.get_appointment();
+	sender.deleteAppointmentWithConfirmation(appointment);
+}
 ````
 
 |
@@ -354,49 +355,49 @@ The tables below lists the most important, public properties and methods of the 
 |add_ *[eventName]* ()|Method Name|None|Adds an event handler.
 
 ````JavaScript
-	function pageLoad()
+function pageLoad()
+{
+	var scheduler = $find("<%=RadScheduler1.ClientID %>");
+	scheduler.add_appointmentClick(function (sender, args)
 	{
-		var scheduler = $find("<%=RadScheduler1.ClientID %>");
-		scheduler.add_appointmentClick(function (sender, args)
-		{
-			alert("You have clicked the  '"+ 
-				args.get_appointment().get_subject() +  "'  appointment" );
-		});
-	}
+		alert("You have clicked the  '"+ 
+			args.get_appointment().get_subject() +  "'  appointment" );
+	});
+}
 ````
 
 |
 |remove_ *[eventName]* ()|Method Name|None|Removes an event handler.
 
 ````JavaScript
-	function pageLoad()
-	{
-		var scheduler = $find("<%=RadScheduler1.ClientID %>");
-		scheduler.add_appointmentClick(appointmentClick);
-	}
-	
-	function appointmentClick(sender, args)
-	{
-		alert("You have clicked the  '" + args.get_appointment().get_subject() + "'  appointment");
-		sender.remove_appointmentClick(appointmentClick);
-	}
+function pageLoad()
+{
+	var scheduler = $find("<%=RadScheduler1.ClientID %>");
+	scheduler.add_appointmentClick(appointmentClick);
+}
+
+function appointmentClick(sender, args)
+{
+	alert("You have clicked the  '" + args.get_appointment().get_subject() + "'  appointment");
+	sender.remove_appointmentClick(appointmentClick);
+}
 ````
 
 |
 |rebind()|None|None|When RadScheduler is in Client Side binding mode (Web Services), this method can be used to refresh the control and display the appointments.
 
 ````JavaScript
-	function OnClientSelectedIndexChanged(sender, args)
-	{
-		teacherID = args.get_item().get_value();
-		var scheduler = $find('<%=RadScheduler1.ClientID %>');
-		scheduler.rebind();
-	}
-	
-	function OnClientAppointmentsPopulating(sender, eventArgs)
-	{
-		eventArgs.get_schedulerInfo().TeacherID = teacherID;
-	}
+function OnClientSelectedIndexChanged(sender, args)
+{
+	teacherID = args.get_item().get_value();
+	var scheduler = $find('<%=RadScheduler1.ClientID %>');
+	scheduler.rebind();
+}
+
+function OnClientAppointmentsPopulating(sender, eventArgs)
+{
+	eventArgs.get_schedulerInfo().TeacherID = teacherID;
+}
 ````
 
 

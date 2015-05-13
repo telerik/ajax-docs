@@ -28,21 +28,21 @@ Prerquisites
 
 ````C#
 	
-	public class MySchedulerInfo : SchedulerInfo
+public class MySchedulerInfo : SchedulerInfo
+{
+	public string User { get; set; }
+	public MySchedulerInfo(ISchedulerInfo baseInfo, string user)
+	   : base(baseInfo)
 	{
-	   public string User { get; set; }
-	   public MySchedulerInfo(ISchedulerInfo baseInfo, string user)
-	       : base(baseInfo)
-	   {
-	       User = user;
-	   }
-	}  
+	   User = user;
+	}
+}  
 				
 ````
 ````VB.NET
 	     
-	Public Class MySchedulerInfo
-	 Inherits SchedulerInfo
+Public Class MySchedulerInfo
+ Inherits SchedulerInfo
 	 Public Property User() As String
 	  Get
 	   Return m_User
@@ -56,7 +56,7 @@ Prerquisites
 	  MyBase.New(baseInfo)
 	  User = userParam
 	 End Sub
-	End Class  
+End Class  
 				
 ````
 
@@ -85,17 +85,17 @@ For example:
 
 ````C#
 	
-	protected void RadScheduler1_AppointmentsPopulating(object sender, AppointmentsPopulatingEventArgs e)
-	{
-	   e.SchedulerInfo = new MySchedulerInfo(e.SchedulerInfo, User.Identity.Name);
-	}
-	
+protected void RadScheduler1_AppointmentsPopulating(object sender, AppointmentsPopulatingEventArgs e)
+{
+	e.SchedulerInfo = new MySchedulerInfo(e.SchedulerInfo, User.Identity.Name);
+}
+
 ````
 ````VB.NET
 	
-	Protected Sub RadScheduler1_AppointmentsPopulating(sender As Object, e As AppointmentsPopulatingEventArgs)
-	 e.SchedulerInfo = New MySchedulerInfo(e.SchedulerInfo, User.Identity.Name)
-	End Sub  
+Protected Sub RadScheduler1_AppointmentsPopulating(sender As Object, e As AppointmentsPopulatingEventArgs)
+	e.SchedulerInfo = New MySchedulerInfo(e.SchedulerInfo, User.Identity.Name)
+End Sub  
 	
 ````
 
@@ -106,22 +106,22 @@ For example:
 
 ````C#
 	
-	public override IEnumerable<Appointment> GetAppointments(ISchedulerInfo schedulerInfo)
-	{
-	   var myInfo = schedulerInfo as MySchedulerInfo;
-	   
-	   // Access myInfo.User
-	   // ...
-	}     
+public override IEnumerable<Appointment> GetAppointments(ISchedulerInfo schedulerInfo)
+{
+	var myInfo = schedulerInfo as MySchedulerInfo;
+
+	// Access myInfo.User
+	// ...
+}     
 		
 ````
 ````VB.NET
 	     
-	Public Overrides Function GetAppointments(schedulerInfo As ISchedulerInfo) As IEnumerable(Of Appointment)
-	 Dim myInfo = TryCast(schedulerInfo, MySchedulerInfo)
-	 ' Access myInfo.User
-	 ' ...
-	End Function  
+Public Overrides Function GetAppointments(schedulerInfo As ISchedulerInfo) As IEnumerable(Of Appointment)
+	Dim myInfo = TryCast(schedulerInfo, MySchedulerInfo)
+	' Access myInfo.User
+	' ...
+End Function  
 				
 ````
 
@@ -138,24 +138,24 @@ For example:
 
 ````C#
 	
-	public override IEnumerable<Appointment> GetAppointments(ISchedulerInfo schedulerInfo)
-	{
-	   var myInfo = schedulerInfo as MySchedulerInfo;
-	   
-	   // Access myInfo.User
-	   // ...
-	} 
+public override IEnumerable<Appointment> GetAppointments(ISchedulerInfo schedulerInfo)
+{
+	var myInfo = schedulerInfo as MySchedulerInfo;
+
+	// Access myInfo.User
+	// ...
+} 
 	
 ````
 ````VB.NET
 	     
-	Getting MySchedulerInfo from GetAppointments Copy Code 
-	
-	Public Overrides Function GetAppointments(schedulerInfo As ISchedulerInfo) As IEnumerable(Of Appointment)
-	 Dim myInfo = TryCast(schedulerInfo, MySchedulerInfo)
-	 ' Access myInfo.User
-	 ' ...
-	End Function  
+Getting MySchedulerInfo from GetAppointments Copy Code 
+
+Public Overrides Function GetAppointments(schedulerInfo As ISchedulerInfo) As IEnumerable(Of Appointment)
+ Dim myInfo = TryCast(schedulerInfo, MySchedulerInfo)
+ ' Access myInfo.User
+ ' ...
+End Function  
 				
 ````
 

@@ -12,7 +12,7 @@ position: 0
 
 
 
-The **RadScheduler** Smart Tag allows easy access to frequently needed tasks.You can display the Smart Tag by right clicking on a **RadScheduler** control in the designwindow, and choosing **Show Smart Tag**. Using the **RadScheduler**Smart Tag you can perform the following:
+The **RadScheduler** Smart Tag allows easy access to frequently needed tasks.You can display the Smart Tag by right clicking on a **RadScheduler** control in the designwindow, and choosing **Show Smart Tag**. Using the **RadScheduler** Smart Tag you can perform the following:
 
 ## RadScheduler Tasks
 

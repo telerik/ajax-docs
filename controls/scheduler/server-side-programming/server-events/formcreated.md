@@ -18,7 +18,7 @@ The **FormCreated** event occurs when the edit form or in-line editor has just b
 
 * **sender** is the scheduler control.
 
-* **e** is an object of type **SchedulerFormCreatedEventArgs**.It has the following properties:
+* **e** is an object of type **SchedulerFormCreatedEventArgs**. It has the following properties:
 
 * **Appointment** is the appointment that is about to be inserted or updated using an editor.
 
@@ -34,26 +34,26 @@ You can use this event to make modifications to the editor template.
 
 ````C#
 	
-	    protected void RadScheduler1_FormCreated(object sender, SchedulerFormCreatedEventArgs e)
-	    {
-	        if (e.Container.Mode == SchedulerFormMode.Insert)
-	        {
-	            Label startDate = (Label)e.Container.FindControl("StartDate");
-	            startDate.Text = e.Container.Appointment.Start.ToString();
-	        }
-	    }
+protected void RadScheduler1_FormCreated(object sender, SchedulerFormCreatedEventArgs e)
+{
+	if (e.Container.Mode == SchedulerFormMode.Insert)
+	{
+		Label startDate = (Label)e.Container.FindControl("StartDate");
+		startDate.Text = e.Container.Appointment.Start.ToString();
+	}
+}
 	
 ````
 ````VB.NET
 	
-	    Protected Sub RadScheduler1_FormCreated(ByVal sender As Object, _
-	     ByVal e As SchedulerFormCreatedEventArgs) Handles RadScheduler1.FormCreated
-	        If e.Container.Mode = SchedulerFormMode.Insert Then
-	            Dim startDate As Label = _
-	                   CType(e.Container.FindControl("StartDate"), Label)
-	            startDate.Text = e.Container.Appointment.Start.ToString()
-	        End If
-	    End Sub
+Protected Sub RadScheduler1_FormCreated(ByVal sender As Object, _
+ ByVal e As SchedulerFormCreatedEventArgs) Handles RadScheduler1.FormCreated
+	If e.Container.Mode = SchedulerFormMode.Insert Then
+		Dim startDate As Label = _
+			   CType(e.Container.FindControl("StartDate"), Label)
+		startDate.Text = e.Container.Appointment.Start.ToString()
+	End If
+End Sub
 	
 ````
 

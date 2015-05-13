@@ -32,18 +32,18 @@ This example prevents the user from editing an appointment's series:
 
 ````ASPNET
 	
-	<script type="text/javascript">   
-	  function OnClientAppointmentEditing(sender, eventArgs)
-	  {
-	    if(eventArgs.get_editingRecurringSeries())
-	          eventArgs.set_cancel(true);
-	  }
-	</script>
-	<telerik:RadScheduler
-	 ID="RadScheduler1"
-	 runat="server"  
-	 OnClientAppointmentEditing="OnClientAppointmentEditing"
-	 DataSourceID="AppointmentsDS" />     
+<script type="text/javascript">   
+function OnClientAppointmentEditing(sender, eventArgs)
+{
+	if(eventArgs.get_editingRecurringSeries())
+		  eventArgs.set_cancel(true);
+}
+</script>
+<telerik:RadScheduler
+ ID="RadScheduler1"
+ runat="server"  
+ OnClientAppointmentEditing="OnClientAppointmentEditing"
+ DataSourceID="AppointmentsDS" />     
 	
 ````
 

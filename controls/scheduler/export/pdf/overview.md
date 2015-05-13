@@ -22,7 +22,7 @@ You can configure the exporting settings for the scheduler through the **RadSche
 
 * **OpenInNewWindow** - open the exported scheduler in a new page.
 
-There is an additional sub-category **(Pdf)**for the **ExportSettings** dedicated on various configuration settings for the exported .pdf document. Below is a list of them:
+There is an additional sub-category **(Pdf)** for the **ExportSettings** dedicated on various configuration settings for the exported .pdf document. Below is a list of them:
 
 As of Q3 2013 SP1 two properties are introduced for this section:**StyleSheets** and **AllowPaging**.
 
@@ -76,35 +76,32 @@ Here is an example of how to apply these settings:
 
 ````ASPNET
 	
-	<ExportSettings OpenInNewWindow="true" FileName="SchedulerExport">
-	  <Pdf PageTitle="Schedule" Author="Telerik" Creator="Telerik" Title="Schedule" />
-	 </ExportSettings>
+<ExportSettings OpenInNewWindow="true" FileName="SchedulerExport">
+	<Pdf PageTitle="Schedule" Author="Telerik" Creator="Telerik" Title="Schedule" />
+ </ExportSettings>
 	
 	
 ````
-
 
 
 
 
 ````C#
 	
-		protected void RadButton1_Click(object sender, EventArgs e)
-		{
-			RadScheduler1.ExportToPdf();
-			RadScheduler1.ExportSettings.Pdf.PageTitle = "New Title";
-		} 
+protected void RadButton1_Click(object sender, EventArgs e)
+{
+	RadScheduler1.ExportToPdf();
+	RadScheduler1.ExportSettings.Pdf.PageTitle = "New Title";
+} 
 	
 	
 ````
 ````VB.NET
-		Protected Sub RadButton1_Click(ByVal sender As Object, ByVal e As EventArgs)
-			RadScheduler1.ExportToPdf()
-			RadScheduler1.ExportSettings.Pdf.PageTitle = "New Title"
-	
-		End Sub
-	
-	
+Protected Sub RadButton1_Click(ByVal sender As Object, ByVal e As EventArgs)
+	RadScheduler1.ExportToPdf()
+	RadScheduler1.ExportSettings.Pdf.PageTitle = "New Title"
+End Sub
+		
 	
 ````
 

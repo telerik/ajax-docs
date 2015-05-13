@@ -22,9 +22,9 @@ Two parameters are passed to the handler:
 
 * **eventArgs** with two properties:
 
-* **get_appointment() -**the master appointment that represents the recurrence series.
+	* **get_appointment()** -the master appointment that represents the recurrence series.
 
-* **set_cancel() -** set to true cancel the operation.
+	* **set_cancel()** - set to true cancel the operation.
 
 This event can be cancelled.
 

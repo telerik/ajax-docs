@@ -18,7 +18,7 @@ In order to properly handle time zones, **RadScheduler** uses the **TimeZoneInfo
 
 * Correctly evaluating recurrence rules with respect to Daylight Saving Time.
 
-To overcome these problems **RadScheduler** defines the **TimeZoneID** property. It uses **TimeZoneInfoProvider**capable of returning correct **LocalToUTC** and **UTCToLocal** information depending on the **TimeZone RadScheduler** should be operating under. If **TimeZoneID** is not set initially, the default time zone is (UTC). In addition to this a **DataTimeZone** field is added to enable eachAppointment to be set in different timezone. The provider and the specific settings in each TimeZone are responsible for all **DateTime** related calculations.
+To overcome these problems **RadScheduler** defines the **TimeZoneID** property. It uses **TimeZoneInfoProvider** capable of returning correct **LocalToUTC** and **UTCToLocal** information depending on the **TimeZone RadScheduler** should be operating under. If **TimeZoneID** is not set initially, the default time zone is (UTC). In addition to this a **DataTimeZone** field is added to enable eachAppointment to be set in different timezone. The provider and the specific settings in each TimeZone are responsible for all **DateTime** related calculations.
 
 ![scheduler timezones](images/scheduler_timezones.png)
 

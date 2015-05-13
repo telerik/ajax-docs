@@ -48,19 +48,19 @@ You can use this event to perform custom actions when a navigation action has be
 
 ````C#
 	
-	    protected void RadScheduler1_NavigationComplete(object sender, SchedulerNavigationCompleteEventArgs e) 
-	    { 
-	        Label1.Text = RadScheduler1.SelectedDate.ToString(); 
-	    }
+protected void RadScheduler1_NavigationComplete(object sender, SchedulerNavigationCompleteEventArgs e) 
+{ 
+	Label1.Text = RadScheduler1.SelectedDate.ToString(); 
+}
 	
 ````
 ````VB.NET
 	
-	    Protected Sub RadScheduler1_NavigationComplete(ByVal sender As Object, _
-	               ByVal e As SchedulerNavigationCompleteEventArgs) _
-	           Handles RadScheduler1.NavigationComplete
-	        Label1.Text = RadScheduler1.SelectedDate.ToString()
-	    End Sub
+Protected Sub RadScheduler1_NavigationComplete(ByVal sender As Object, _
+		   ByVal e As SchedulerNavigationCompleteEventArgs) _
+	   Handles RadScheduler1.NavigationComplete
+	Label1.Text = RadScheduler1.SelectedDate.ToString()
+End Sub
 	
 ````
 

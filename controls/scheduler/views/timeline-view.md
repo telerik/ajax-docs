@@ -12,8 +12,6 @@ position: 4
 
 
 
-## Timeline View
-
 The **Timeline View** allows you to display a variable number of slots and define the duration of those slots. You can also group time slots under the same column header using the **Time label span** property.
 
 ## Timeline View Settings:

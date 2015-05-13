@@ -34,33 +34,33 @@ The Q3 2010 version of RadScheduler introduces a number of important changes tha
 
 ````C#
 	
-	public abstract class SchedulerProviderBase : ProviderBase
-	{
-	   // New methods
-	   public virtual IEnumerable<Appointment> GetAppointments(ISchedulerInfo schedulerInfo);
-	   public virtual void Insert(ISchedulerInfo schedulerInfo, Appointment appointmentToInsert);
-	   public virtual void Update(ISchedulerInfo schedulerInfo, Appointment appointmentToUpdate);
-	   public virtual void Delete(ISchedulerInfo schedulerInfo, Appointment appointmentToDelete);
-	   
-	   // Replaces both GetResourceTypes and GetResourcesByType
-	   public virtual IDictionary<ResourceType, IEnumerable<Resource>> GetResources(ISchedulerInfo schedulerInfo);
-	   // No change - returns a thread-safe wrapper of this provider instance
-	   public virtual SchedulerProviderBase Synchronized();
-	   // Legacy methods - used to be abstract
-	   public virtual IEnumerable<Appointment> GetAppointments(RadScheduler owner);
-	   public virtual IEnumerable<ResourceType> GetResourceTypes(RadScheduler owner);
-	   public virtual IEnumerable<Resource> GetResourcesByType(RadScheduler owner, string resourceType);
-	   public virtual void Insert(RadScheduler owner, Appointment appointmentToInsert);
-	   public virtual void Update(RadScheduler owner, Appointment appointmentToUpdate);
-	   public virtual void Delete(RadScheduler owner, Appointment appointmentToDelete);
-	} 
+public abstract class SchedulerProviderBase : ProviderBase
+{
+	// New methods
+	public virtual IEnumerable<Appointment> GetAppointments(ISchedulerInfo schedulerInfo);
+	public virtual void Insert(ISchedulerInfo schedulerInfo, Appointment appointmentToInsert);
+	public virtual void Update(ISchedulerInfo schedulerInfo, Appointment appointmentToUpdate);
+	public virtual void Delete(ISchedulerInfo schedulerInfo, Appointment appointmentToDelete);
+
+	// Replaces both GetResourceTypes and GetResourcesByType
+	public virtual IDictionary<ResourceType, IEnumerable<Resource>> GetResources(ISchedulerInfo schedulerInfo);
+	// No change - returns a thread-safe wrapper of this provider instance
+	public virtual SchedulerProviderBase Synchronized();
+	// Legacy methods - used to be abstract
+	public virtual IEnumerable<Appointment> GetAppointments(RadScheduler owner);
+	public virtual IEnumerable<ResourceType> GetResourceTypes(RadScheduler owner);
+	public virtual IEnumerable<Resource> GetResourcesByType(RadScheduler owner, string resourceType);
+	public virtual void Insert(RadScheduler owner, Appointment appointmentToInsert);
+	public virtual void Update(RadScheduler owner, Appointment appointmentToUpdate);
+	public virtual void Delete(RadScheduler owner, Appointment appointmentToDelete);
+} 
 	
 ````
 ````VB.NET
 	     
-	Public MustInherit Class SchedulerProviderBase
-	 Inherits ProviderBase
-	 ' New methods
+Public MustInherit Class SchedulerProviderBase
+ Inherits ProviderBase
+ ' New methods
 	 Public Overridable Function GetAppointments(schedulerInfo As ISchedulerInfo) As IEnumerable(Of Appointment)
 	 End Function
 	 Public Overridable Sub Insert(schedulerInfo As ISchedulerInfo, appointmentToInsert As Appointment)
@@ -88,7 +88,7 @@ The Q3 2010 version of RadScheduler introduces a number of important changes tha
 	 End Sub
 	 Public Overridable Sub Delete(owner As RadScheduler, appointmentToDelete As Appointment)
 	 End Sub
-	End Class 
+End Class 
 	
 ````
 

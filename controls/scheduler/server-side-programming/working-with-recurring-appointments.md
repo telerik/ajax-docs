@@ -38,84 +38,82 @@ Here is an example using the **HourlyRecurrenceRule** class:
 
 
 
-
-
 ````C#
 	     
-	using System;
-	using Telerik.Web.UI;
-	namespace RecurrenceExamples
-	{
-	  class ParsingExample
-	  {
-	       static void Main()
-	      {
-	           // Create a sample appointment that starts at 6/1/2007 3:30 PM and lasts half an hour.
-	           Appointment recurringAppointment =
-	             new Appointment("1",
-	               Convert.ToDateTime("6/1/2007 3:30 PM").ToUniversalTime(),
-	               Convert.ToDateTime( "6/1/2007 4:00 PM").ToUniversalTime(),
-	               "Sample appointment");
-	           // Create a recurrence range, that specifies a limit of 10 occurrences for the appointment.
-	           RecurrenceRange range = new RecurrenceRange();
-	           range.Start = recurringAppointment.Start;
-	           range.EventDuration = recurringAppointment.End - recurringAppointment.Start;
-	           range.MaxOccurrences = 10;
-	           // Create a recurrence rule to repeat the appointment every 2 hours.
-	           HourlyRecurrenceRule rrule = new HourlyRecurrenceRule(2, range);
-	           Console.WriteLine("The appointment recurs at the following times");
-	           foreach (DateTime occurrence in rrule.Occurrences)
-	           {
-	              Console.WriteLine( "\t{0}", occurrence);
-	           }
-	           Console.WriteLine();
-	           // Prints the string representation of the recurrence rule:
-	           string rruleAsString = rrule.ToString();
-	           Console.WriteLine("Recurrence rule:\n\n{0}\n", rruleAsString);
-	           // The string representation can be stored in a database, etc.
-	           // ...
-	           // Then it can be reconstructed using TryParse method:
-	           RecurrenceRule parsedRule;
-	           RecurrenceRule.TryParse(rruleAsString, out parsedRule);
-	           Console.WriteLine("After parsing (should be the same):\n\n{0}", parsedRule);
-	      }
-	  }
-	} 
+using System;
+using Telerik.Web.UI;
+namespace RecurrenceExamples
+{
+class ParsingExample
+{
+   static void Main()
+  {
+	   // Create a sample appointment that starts at 6/1/2007 3:30 PM and lasts half an hour.
+	   Appointment recurringAppointment =
+		 new Appointment("1",
+		   Convert.ToDateTime("6/1/2007 3:30 PM").ToUniversalTime(),
+		   Convert.ToDateTime( "6/1/2007 4:00 PM").ToUniversalTime(),
+		   "Sample appointment");
+	   // Create a recurrence range, that specifies a limit of 10 occurrences for the appointment.
+	   RecurrenceRange range = new RecurrenceRange();
+	   range.Start = recurringAppointment.Start;
+	   range.EventDuration = recurringAppointment.End - recurringAppointment.Start;
+	   range.MaxOccurrences = 10;
+	   // Create a recurrence rule to repeat the appointment every 2 hours.
+	   HourlyRecurrenceRule rrule = new HourlyRecurrenceRule(2, range);
+	   Console.WriteLine("The appointment recurs at the following times");
+	   foreach (DateTime occurrence in rrule.Occurrences)
+	   {
+		  Console.WriteLine( "\t{0}", occurrence);
+	   }
+	   Console.WriteLine();
+	   // Prints the string representation of the recurrence rule:
+	   string rruleAsString = rrule.ToString();
+	   Console.WriteLine("Recurrence rule:\n\n{0}\n", rruleAsString);
+	   // The string representation can be stored in a database, etc.
+	   // ...
+	   // Then it can be reconstructed using TryParse method:
+	   RecurrenceRule parsedRule;
+	   RecurrenceRule.TryParse(rruleAsString, out parsedRule);
+	   Console.WriteLine("After parsing (should be the same):\n\n{0}", parsedRule);
+  }
+}
+} 
 				
 ````
 ````VB.NET
 	
-	    Imports System
-	    Imports Telerik.Web.UI
-	    Namespace RecurrenceExamples
-	        Class ParsingExample
-	            Shared Sub Main()
-	                ' Create a sample appointment that starts at 6/1/2007 3:30 PM and lasts half an hour.
-	                Dim recurringAppointment As New Appointment("1", Convert.ToDateTime("6/1/2007 3:30 PM").ToUniversalTime(), Convert.ToDateTime("6/1/2007 4:00 PM").ToUniversalTime(), "Sample appointment")
-	                ' Create a recurrence range, that specifies a limit of 10 occurrences for the appointment.
-	                Dim range As New RecurrenceRange()
-	                range.Start = recurringAppointment.Start
-	                range.EventDuration = recurringAppointment.[End] - recurringAppointment.Start
-	                range.MaxOccurrences = 10
-	                ' Create a recurrence rule to repeat the appointment every 2 hours.
-	                Dim rrule As New HourlyRecurrenceRule(2, range)
-	                Console.WriteLine("The appointment recurs at the following times")
-	                For Each occurrence As DateTime In rrule.Occurrences
-	                    Console.WriteLine("" & Chr(9) & "{0}", occurrence)
-	                Next
-	                Console.WriteLine()
-	                ' Prints the string representation of the recurrence rule:
-	                Dim rruleAsString As String = rrule.ToString()
-	                Console.WriteLine("Recurrence rule:" & Chr(10) & "" & Chr(10) & "{0}" & Chr(10) & "", rruleAsString)
-	                ' The string representation can be stored in a database, etc.
-	                ' ...
-	                ' Then it can be reconstructed using TryParse method:
-	                Dim parsedRule As RecurrenceRule
-	                RecurrenceRule.TryParse(rruleAsString, parsedRule)
-	                Console.WriteLine("After parsing (should be the same):" & Chr(10) & "" & Chr(10) & "{0}", parsedRule)
-	            End Sub
-	        End Class
-	    End Namespace
+Imports System
+Imports Telerik.Web.UI
+Namespace RecurrenceExamples
+	Class ParsingExample
+		Shared Sub Main()
+			' Create a sample appointment that starts at 6/1/2007 3:30 PM and lasts half an hour.
+			Dim recurringAppointment As New Appointment("1", Convert.ToDateTime("6/1/2007 3:30 PM").ToUniversalTime(), Convert.ToDateTime("6/1/2007 4:00 PM").ToUniversalTime(), "Sample appointment")
+			' Create a recurrence range, that specifies a limit of 10 occurrences for the appointment.
+			Dim range As New RecurrenceRange()
+			range.Start = recurringAppointment.Start
+			range.EventDuration = recurringAppointment.[End] - recurringAppointment.Start
+			range.MaxOccurrences = 10
+			' Create a recurrence rule to repeat the appointment every 2 hours.
+			Dim rrule As New HourlyRecurrenceRule(2, range)
+			Console.WriteLine("The appointment recurs at the following times")
+			For Each occurrence As DateTime In rrule.Occurrences
+				Console.WriteLine("" & Chr(9) & "{0}", occurrence)
+			Next
+			Console.WriteLine()
+			' Prints the string representation of the recurrence rule:
+			Dim rruleAsString As String = rrule.ToString()
+			Console.WriteLine("Recurrence rule:" & Chr(10) & "" & Chr(10) & "{0}" & Chr(10) & "", rruleAsString)
+			' The string representation can be stored in a database, etc.
+			' ...
+			' Then it can be reconstructed using TryParse method:
+			Dim parsedRule As RecurrenceRule
+			RecurrenceRule.TryParse(rruleAsString, parsedRule)
+			Console.WriteLine("After parsing (should be the same):" & Chr(10) & "" & Chr(10) & "{0}", parsedRule)
+		End Sub
+	End Class
+End Namespace
 	
 ````
 

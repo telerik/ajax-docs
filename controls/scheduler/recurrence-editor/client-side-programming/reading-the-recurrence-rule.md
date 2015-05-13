@@ -24,12 +24,12 @@ The following example builds the recurrence rule by reading the Start and End da
 
 ````JavaScript
 	     
-	var editor = $find("RecurrenceEditor1");
-	var startDate = $find("StartDate").get_selectedDate();
-	var endDate = $find("EndDate").get_selectedDate();
-	editor.set_startDate(startDate);editor.set_endDate(endDate);       
-	var rrule = editor.get_recurrenceRule();
-	// ...
+var editor = $find("RecurrenceEditor1");
+var startDate = $find("StartDate").get_selectedDate();
+var endDate = $find("EndDate").get_selectedDate();
+editor.set_startDate(startDate);editor.set_endDate(endDate);       
+var rrule = editor.get_recurrenceRule();
+
 				
 ````
 

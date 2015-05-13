@@ -16,13 +16,13 @@ Declarative data source controls, which were introduced in ASP.NET 2.0, let you 
 
 ## Example
 
-The example below shows how to bind RadScheduler to a SQLDataSource component at design time, and demonstrates how to set up user-defined resources:
+The example below shows how to bind RadScheduler to a SqlDataSource component at design time, and demonstrates how to set up user-defined resources:
 
 ## Setting up the data source
 
 1. Drag a SqlDataSource component from the toolbox onto your page.![SqlDataSource](images/scheduler_sqldatasource.png)
 
-1. The Smart Tag for the **SQLDataSource** component should automatically come up.If it does not, right click on the **SQLDataSource** component and choose **Show Smart Tag**.On the Smart Tag, choose **Configure Data Source...**
+1. The Smart Tag for the **SQLDataSource** component should automatically come up.If it does not, right click on the **SqlDataSource** component and choose **Show Smart Tag**. On the Smart Tag, choose **Configure Data Source...**
 
 1. The **Configure Data Source** Wizard appears.
 
@@ -30,13 +30,14 @@ The example below shows how to bind RadScheduler to a SQLDataSource component at
 
 1. Click **Next** to continue. Save the connection string, and choose **Next** again.![connection string](images/scheduler_connectionstring.png)
 
-1. Configure the **SELECT** statement. Check the columns for the appointment information andclick the "**Advanced..."**button.Select the first option to auto-generate statements forINSERT, UPDATE, DELETE and SELECT![configure select](images/scheduler_configureselect.png)
+1. Configure the **SELECT** statement. Check the columns for the appointment information andclick the "**Advanced..."** button.Select the first option to auto-generate statements forINSERT, UPDATE, DELETE and SELECT![configure select](images/scheduler_configureselect.png)
 
 1. Click **Next**, test the Query, and finish the data source configuration byclicking the **Finish** button:![test query](images/scheduler_testquery.png)
 
 ## Setting up the Scheduler
 
-1. Drag a **RadScheduler** control onto your page. The Smart Tag should automatically come up. If it does not, right click on the **RadScheduler** control and choose **Show Smart Tag**.On the Smart Tag, choose **Configure Data Source...**![Smart Tag](images/scheduler_smarttag.png)
+1. Drag a **RadScheduler** control onto your page. The Smart Tag should automatically come up. If it does not, right click on the **RadScheduler** control and choose **Show Smart Tag**.On the Smart Tag, choose **Configure Data Source...**<br/>
+![Smart Tag](images/scheduler_smarttag.png)
 
 1. Select your SQLDataSource as the data source, and specify the fields for the key, start time, end time,subject, recurrence storage, and recurrence parent key as shown below. Then click OK.![SQL Config Wizard](images/scheduler_sqlconfigwizard.png)
 

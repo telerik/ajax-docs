@@ -33,13 +33,13 @@ The tables below list all public properties and methods of the both client-side 
 
 ````JavaScript
 	     
-	function clientTimeSlotClick(sender, eventArgs)
-	{
+function clientTimeSlotClick(sender, eventArgs)
+{
 	var resource = null;
 	var timeSlot = eventArgs.get_targetSlot();
 	if (timeSlot.get_resource)
-	 resource = timeSlot.get_resource();
-	}
+	resource = timeSlot.get_resource();
+}
 				
 ````
 

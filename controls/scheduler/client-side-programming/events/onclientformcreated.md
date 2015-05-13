@@ -26,6 +26,6 @@ Two parameters are passed to the event handler:
 
 * **get_formElement()** - returns a reference to the form DOM element.
 
-* **get_mode() -**Enum of type Telerik.Web.UI.SchedulerFormMode.
+* **get_mode()** - Enum of type Telerik.Web.UI.SchedulerFormMode.
 
 

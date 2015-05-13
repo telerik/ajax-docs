@@ -20,8 +20,6 @@ Two parameters are passed to the event handler:
 
 * **eventArgs** has the following methods:
 
-* 
-
 * **get_appointment()** that returns the appointment instance.
 
 * **get_editingRecurringSeries()** returns **True** if the user is trying to move a series to which the appointment belongs, **False** if the user is trying to move a single occurrence of an appointment.
@@ -30,7 +28,7 @@ Two parameters are passed to the event handler:
 
 * **get_targetSlot()** returns the Time Slot on which the mouse is located at this moment.
 
-* **set_cancel()** lets you permit or block the moving of the appointment.Calling **set_cancel(true)** aborts the moving operation, while **set_cancel(false)**allows the scheduler to proceed with moving the appointment.
+* **set_cancel()** lets you permit or block the moving of the appointment.Calling **set_cancel(true)** aborts the moving operation, while **set_cancel(false)** allows the scheduler to proceed with moving the appointment.
 
 ## Example
 
@@ -38,17 +36,17 @@ This example alerts the new start time of the moved appointment:
 
 ````ASPNET
 	
-	<script type="text/javascript">
-	       function OnClientAppointmentMoveEnd(sender, eventArgs)
-	       {
-	           alert("New start time: " + eventArgs.get_newStartTime());
-	       }       
-	</script>
-	<telerik:RadScheduler
-	 ID="RadScheduler1"
-	 runat="server"
-	 OnClientAppointmentMoveEnd="OnClientAppointmentMoveEnd"
-	 DataSourceID="AppointmentsDS" />      
+<script type="text/javascript">
+	function OnClientAppointmentMoveEnd(sender, eventArgs)
+	{
+	   alert("New start time: " + eventArgs.get_newStartTime());
+	}       
+</script>
+<telerik:RadScheduler
+ ID="RadScheduler1"
+ runat="server"
+ OnClientAppointmentMoveEnd="OnClientAppointmentMoveEnd"
+ DataSourceID="AppointmentsDS" />      
 			
 ````
 

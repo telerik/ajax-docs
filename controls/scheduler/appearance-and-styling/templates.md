@@ -34,11 +34,11 @@ There are five types of templates that can be used with **RadScheduler**:
 
 ````JavaScript
 	 
-	 <AppointmentTemplate>
-	   <div class="rsCustomAppointmentContainer <%# Eval("AppointmentType.Text") %>">
-	       <h2><%# Eval("Subject") %></h2>
-	   </div>
-	</AppointmentTemplate>    
+ <AppointmentTemplate>
+   <div class="rsCustomAppointmentContainer <%# Eval("AppointmentType.Text") %>">
+	   <h2><%# Eval("Subject") %></h2>
+   </div>
+</AppointmentTemplate>    
 	     	
 ````
 
@@ -50,28 +50,28 @@ There are five types of templates that can be used with **RadScheduler**:
 
 ````ASPNET
 	     
-	<InlineInsertTemplate>
-	   <div id="InlineInsertTemplate" class="rsCustomAppointmentContainer <%# Eval("AppointmentType.Text") %>">
-	       <asp:TextBox ID="TextBox1" runat="server" Text='<%# Bind("Subject") %>' Width="90%" TextMode="MultiLine" Height="20px"></asp:TextBox>
-	 
-	       <asp:LinkButton ID="LinkButton1" runat="server" CommandName="Insert">
-	           <asp:Image runat="server" ID="Image1" ImageUrl="Images/ok.gif" AlternateText="insert" />
-	       </asp:LinkButton>
-	 
-	       <asp:LinkButton ID="LinkButton2" runat="server" CausesValidation="False" CommandName="Cancel">
-	       <asp:Image runat="server" ID="Image6" ImageUrl="Images/cancel.gif" AlternateText="cancel" />
-	       </asp:LinkButton>
-	 
-	       <div class="inline-label">Color code:</div>
-	 
-	       <asp:RadioButtonList runat="server" ID="RadioButtonList1" DataValueField="ID" CssClass="AppointmentTypeSelectorTable"
-	  DataSourceID="AppointmentTypesDataSource" SelectedValue='<%# Bind("AppointmentTypeID") %>' DataTextField="Keyword"
-	  RepeatDirection="Horizontal" DataTextFormatString="<span class='AppointmentTypeSelector rsAptType_{0}' onclick='onAppointmentTypeSelectorClick'></span>">
-	       </asp:RadioButtonList>
-	 
-	       <asp:LinkButton ID="LinkButton3" runat="server" CommandName="More" CssClass="rsAdvancedEditLink">Advanced</asp:LinkButton>
-	   </div>
-	</InlineInsertTemplate>  
+<InlineInsertTemplate>
+   <div id="InlineInsertTemplate" class="rsCustomAppointmentContainer <%# Eval("AppointmentType.Text") %>">
+	   <asp:TextBox ID="TextBox1" runat="server" Text='<%# Bind("Subject") %>' Width="90%" TextMode="MultiLine" Height="20px"></asp:TextBox>
+ 
+	   <asp:LinkButton ID="LinkButton1" runat="server" CommandName="Insert">
+		   <asp:Image runat="server" ID="Image1" ImageUrl="Images/ok.gif" AlternateText="insert" />
+	   </asp:LinkButton>
+ 
+	   <asp:LinkButton ID="LinkButton2" runat="server" CausesValidation="False" CommandName="Cancel">
+	   <asp:Image runat="server" ID="Image6" ImageUrl="Images/cancel.gif" AlternateText="cancel" />
+	   </asp:LinkButton>
+ 
+	   <div class="inline-label">Color code:</div>
+ 
+	   <asp:RadioButtonList runat="server" ID="RadioButtonList1" DataValueField="ID" CssClass="AppointmentTypeSelectorTable"
+  DataSourceID="AppointmentTypesDataSource" SelectedValue='<%# Bind("AppointmentTypeID") %>' DataTextField="Keyword"
+  RepeatDirection="Horizontal" DataTextFormatString="<span class='AppointmentTypeSelector rsAptType_{0}' onclick='onAppointmentTypeSelectorClick'></span>">
+	   </asp:RadioButtonList>
+ 
+	   <asp:LinkButton ID="LinkButton3" runat="server" CommandName="More" CssClass="rsAdvancedEditLink">Advanced</asp:LinkButton>
+   </div>
+</InlineInsertTemplate>  
 		
 ````
 
@@ -85,29 +85,28 @@ This template is more complicated, including a text box for entering the appoint
 
 ````C#
 	
-	    protected void RadScheduler1_FormCreated(object sender,
-	                                       SchedulerFormCreatedEventArgs e)
-	    {
-	        if (e.Container.Mode == SchedulerFormMode.Insert)
-	        {
-	            RadioButtonList list =
-	              (RadioButtonList)e.Container.FindControl("AppointmentTypeRadioButtonList");
-	            list.SelectedIndex = 0;
-	        }
-	    }  
+protected void RadScheduler1_FormCreated(object sender, SchedulerFormCreatedEventArgs e)
+{
+	if (e.Container.Mode == SchedulerFormMode.Insert)
+	{
+		RadioButtonList list =
+		  (RadioButtonList)e.Container.FindControl("AppointmentTypeRadioButtonList");
+		list.SelectedIndex = 0;
+	}
+}  
 	    
 ````
 ````VB.NET
 	
-	    Protected Sub RadScheduler1_FormCreated(ByVal sender As Object, _
-	                               ByVal e As SchedulerFormCreatedEventArgs)
-	        If e.Container.Mode = SchedulerFormMode.Insert Then
-	            Dim list As RadioButtonList = _
-	                DirectCast(e.Container.FindControl("AppointmentTypeRadioButtonList"),  _
-	                                                    RadioButtonList)
-	            list.SelectedIndex = 0
-	        End If
-	    End Sub
+Protected Sub RadScheduler1_FormCreated(ByVal sender As Object, _
+						   ByVal e As SchedulerFormCreatedEventArgs)
+	If e.Container.Mode = SchedulerFormMode.Insert Then
+		Dim list As RadioButtonList = _
+			DirectCast(e.Container.FindControl("AppointmentTypeRadioButtonList"),  _
+												RadioButtonList)
+		list.SelectedIndex = 0
+	End If
+End Sub
 	
 ````
 
@@ -120,28 +119,28 @@ The result of the above code is shown below:
 
 ````ASPNET
 	
-	<InlineEditTemplate>
-	   <div id="InlineEditTemplate" class="rsCustomAppointmentContainer <%# Eval("AppointmentType.Text") %>">
-	       <asp:TextBox ID="TitleTextBox" runat="server" Text='<%# Bind("Subject") %>' Width="90%" TextMode="MultiLine" Height="20px"></asp:TextBox>
-	 
-	       <asp:LinkButton ID="LinkButton4" runat="server" CommandName="Update">
-	           <asp:Image runat="server" ID="Image3" ImageUrl="Images/ok.gif" AlternateText="update" />
-	       </asp:LinkButton>
-	 
-	       <asp:LinkButton ID="LinkButton5" runat="server" CausesValidation="False" CommandName="Cancel">
-	           <asp:Image runat="server" ID="Image7" ImageUrl="Images/cancel.gif" AlternateText="cancel" />
-	       </asp:LinkButton>
-	 
-	       <div class="inline-label">Color code:</div>
-	 
-	       <asp:RadioButtonList runat="server" ID="RadioButtonList2" DataValueField="ID" CssClass="AppointmentTypeSelectorTable"
-	  DataSourceID="AppointmentTypesDataSource" SelectedValue='<%# Bind("AppointmentTypeID") %>' DataTextField="Keyword"
-	  RepeatDirection="Horizontal" DataTextFormatString="<span class='AppointmentTypeSelector rsAptType_{0}' onclick='onAppointmentTypeSelectorClick'></span>">
-	       </asp:RadioButtonList>
-	 
-	       <asp:LinkButton ID="InsertMoreButton" runat="server" CommandName="More" CssClass="rsAdvancedEditLink">Advanced</asp:LinkButton>
-	   </div>
-	</InlineEditTemplate>     
+<InlineEditTemplate>
+   <div id="InlineEditTemplate" class="rsCustomAppointmentContainer <%# Eval("AppointmentType.Text") %>">
+	   <asp:TextBox ID="TitleTextBox" runat="server" Text='<%# Bind("Subject") %>' Width="90%" TextMode="MultiLine" Height="20px"></asp:TextBox>
+ 
+	   <asp:LinkButton ID="LinkButton4" runat="server" CommandName="Update">
+		   <asp:Image runat="server" ID="Image3" ImageUrl="Images/ok.gif" AlternateText="update" />
+	   </asp:LinkButton>
+ 
+	   <asp:LinkButton ID="LinkButton5" runat="server" CausesValidation="False" CommandName="Cancel">
+		   <asp:Image runat="server" ID="Image7" ImageUrl="Images/cancel.gif" AlternateText="cancel" />
+	   </asp:LinkButton>
+ 
+	   <div class="inline-label">Color code:</div>
+ 
+	   <asp:RadioButtonList runat="server" ID="RadioButtonList2" DataValueField="ID" CssClass="AppointmentTypeSelectorTable"
+  DataSourceID="AppointmentTypesDataSource" SelectedValue='<%# Bind("AppointmentTypeID") %>' DataTextField="Keyword"
+  RepeatDirection="Horizontal" DataTextFormatString="<span class='AppointmentTypeSelector rsAptType_{0}' onclick='onAppointmentTypeSelectorClick'></span>">
+	   </asp:RadioButtonList>
+ 
+	   <asp:LinkButton ID="InsertMoreButton" runat="server" CommandName="More" CssClass="rsAdvancedEditLink">Advanced</asp:LinkButton>
+   </div>
+</InlineEditTemplate>     
 			
 ````
 
@@ -155,47 +154,47 @@ The edit template is similar to the insert template, except that it does not nee
 
 ````ASPNET
 	
-	<AdvancedInsertTemplate>
-	   <div id="Div1">
-	       <div id="Div2" class="technical">
-	           <div class="qsfexAdvEditControlWrapper">
-	               <asp:Label ID="Label1" AssociatedControlID="TitleTextBox" runat="server" CssClass="inline-label">Description</asp:Label>
-	               <asp:TextBox ID="TextBox2" Rows="5" Columns="20" runat="server" Text='<%# Bind("Subject") %>' Width="95%" TextMode="MultiLine"></asp:TextBox><br />
-	           </div>
-	   
-	           <div class="qsfexAdvEditControlWrapper">
-	               <asp:Label ID="Label2" AssociatedControlID="StartInput" runat="server" CssClass="inline-label">Start time:</asp:Label>
-	               <telerik:RadDateInput ID="StartInput" SelectedDate='<%# Bind("Start") %>' runat="server"></telerik:RadDateInput><br />
-	           </div>
-	  
-	           <div class="qsfexAdvEditControlWrapper">
-	               <asp:Label ID="Label3" AssociatedControlID="EndInput" runat="server" CssClass="inline-label">End time:</asp:Label>
-	               <telerik:RadDateInput ID="EndInput" SelectedDate='<%# Bind("End") %>' runat="server"></telerik:RadDateInput><br />
-	           </div>
-	  
-	           <div class="qsfexAdvEditControlWrapper">
-	               <div class="inline-label">Color code:</div>
-	               <div id="Div3">
-	                   <asp:RadioButtonList runat="server" ID="RadioButtonList3" DataValueField="ID" CssClass="AppointmentTypeSelectorTable"
-	     DataSourceID="AppointmentTypesDataSource" SelectedValue='<%# Bind("AppointmentTypeID") %>' DataTextField="Keyword"
-	     RepeatDirection="Horizontal" DataTextFormatString="<span class='AppointmentTypeSelector rsAptType_{0}' onclick='onAppointmentTypeSelectorClick'></span>">
-	                   </asp:RadioButtonList>
-	               </div>
-	           </div>
-	  
-	           <div class="qsfexAdvEditControlWrapper">
-	               <asp:CheckBox ID="CheckBox1" runat="server" Text="Repeat for 10 days" />
-	           </div>
-	  
-	           <div class="qsfexAdvEditControlWrapper" style="text-align: right">
-	               <asp:LinkButton ID="InsertButton" runat="server" CommandName="Insert">
-	               <asp:Image runat="server" ID="Image4" ImageUrl="Images/ok.gif" AlternateText="update" /></asp:LinkButton>
-	               <asp:LinkButton ID="InsertCancelButton" runat="server" CausesValidation="False" CommandName="Cancel">
-	               <asp:Image runat="server" ID="Image5" ImageUrl="Images/cancel.gif" AlternateText="cancel" /></asp:LinkButton>
-	           </div>
-	       </div>
+<AdvancedInsertTemplate>
+   <div id="Div1">
+	   <div id="Div2" class="technical">
+		   <div class="qsfexAdvEditControlWrapper">
+			   <asp:Label ID="Label1" AssociatedControlID="TitleTextBox" runat="server" CssClass="inline-label">Description</asp:Label>
+			   <asp:TextBox ID="TextBox2" Rows="5" Columns="20" runat="server" Text='<%# Bind("Subject") %>' Width="95%" TextMode="MultiLine"></asp:TextBox><br />
+		   </div>
+   
+		   <div class="qsfexAdvEditControlWrapper">
+			   <asp:Label ID="Label2" AssociatedControlID="StartInput" runat="server" CssClass="inline-label">Start time:</asp:Label>
+			   <telerik:RadDateInput ID="StartInput" SelectedDate='<%# Bind("Start") %>' runat="server"></telerik:RadDateInput><br />
+		   </div>
+  
+		   <div class="qsfexAdvEditControlWrapper">
+			   <asp:Label ID="Label3" AssociatedControlID="EndInput" runat="server" CssClass="inline-label">End time:</asp:Label>
+			   <telerik:RadDateInput ID="EndInput" SelectedDate='<%# Bind("End") %>' runat="server"></telerik:RadDateInput><br />
+		   </div>
+  
+		   <div class="qsfexAdvEditControlWrapper">
+			   <div class="inline-label">Color code:</div>
+			   <div id="Div3">
+				   <asp:RadioButtonList runat="server" ID="RadioButtonList3" DataValueField="ID" CssClass="AppointmentTypeSelectorTable"
+	 DataSourceID="AppointmentTypesDataSource" SelectedValue='<%# Bind("AppointmentTypeID") %>' DataTextField="Keyword"
+	 RepeatDirection="Horizontal" DataTextFormatString="<span class='AppointmentTypeSelector rsAptType_{0}' onclick='onAppointmentTypeSelectorClick'></span>">
+				   </asp:RadioButtonList>
+			   </div>
+		   </div>
+  
+		   <div class="qsfexAdvEditControlWrapper">
+			   <asp:CheckBox ID="CheckBox1" runat="server" Text="Repeat for 10 days" />
+		   </div>
+  
+		   <div class="qsfexAdvEditControlWrapper" style="text-align: right">
+			   <asp:LinkButton ID="InsertButton" runat="server" CommandName="Insert">
+			   <asp:Image runat="server" ID="Image4" ImageUrl="Images/ok.gif" AlternateText="update" /></asp:LinkButton>
+			   <asp:LinkButton ID="InsertCancelButton" runat="server" CausesValidation="False" CommandName="Cancel">
+			   <asp:Image runat="server" ID="Image5" ImageUrl="Images/cancel.gif" AlternateText="cancel" /></asp:LinkButton>
+		   </div>
 	   </div>
-	</AdvancedInsertTemplate>
+   </div>
+</AdvancedInsertTemplate>
 		
 ````
 
@@ -209,50 +208,50 @@ The edit template is similar to the insert template, except that it does not nee
 
 ````C#
 	
-	    protected void RadScheduler1_FormCreated(object sender, SchedulerFormCreatedEventArgs e)
-	    {
-	        RadScheduler scheduler = (RadScheduler)sender;
-	        if (e.Container.Mode == SchedulerFormMode.Insert ||
-	        e.Container.Mode == SchedulerFormMode.AdvancedInsert)
-	        {
-	            RadioButtonList list = (RadioButtonList)e.Container.FindControl("AppointmentTypeRadioButtonList");
-	            list.SelectedIndex = 0;
-	        }
-	        if (e.Container.Mode == SchedulerFormMode.AdvancedInsert)
-	        {
-	            TextBox subjectBox = (TextBox)e.Container.FindControl("SubjectTextBox");
-	            subjectBox.Text = e.Appointment.Subject;
-	            RadDateInput startInput = (RadDateInput)e.Container.FindControl("StartInput");
-	            startInput.DateFormat = scheduler.EditFormDateFormat + " " + scheduler.EditFormTimeFormat;
-	            startInput.SelectedDate = RadScheduler1.DisplayToUtc(e.Appointment.Start);
-	            RadDateInput endInput = (RadDateInput)e.Container.FindControl("EndInput");
-	            endInput.DateFormat = scheduler.EditFormDateFormat + " " + scheduler.EditFormTimeFormat;
-	            endInput.SelectedDate = RadScheduler1.DisplayToUtc(e.Appointment.End);
-	        }
-	    } 
+protected void RadScheduler1_FormCreated(object sender, SchedulerFormCreatedEventArgs e)
+{
+	RadScheduler scheduler = (RadScheduler)sender;
+	if (e.Container.Mode == SchedulerFormMode.Insert ||
+	e.Container.Mode == SchedulerFormMode.AdvancedInsert)
+	{
+		RadioButtonList list = (RadioButtonList)e.Container.FindControl("AppointmentTypeRadioButtonList");
+		list.SelectedIndex = 0;
+	}
+	if (e.Container.Mode == SchedulerFormMode.AdvancedInsert)
+	{
+		TextBox subjectBox = (TextBox)e.Container.FindControl("SubjectTextBox");
+		subjectBox.Text = e.Appointment.Subject;
+		RadDateInput startInput = (RadDateInput)e.Container.FindControl("StartInput");
+		startInput.DateFormat = scheduler.EditFormDateFormat + " " + scheduler.EditFormTimeFormat;
+		startInput.SelectedDate = RadScheduler1.DisplayToUtc(e.Appointment.Start);
+		RadDateInput endInput = (RadDateInput)e.Container.FindControl("EndInput");
+		endInput.DateFormat = scheduler.EditFormDateFormat + " " + scheduler.EditFormTimeFormat;
+		endInput.SelectedDate = RadScheduler1.DisplayToUtc(e.Appointment.End);
+	}
+} 
 	
 ````
 ````VB.NET
 	
-	    Protected Sub RadScheduler1_FormCreated(ByVal sender As Object, ByVal e As SchedulerFormCreatedEventArgs)
-	        Dim scheduler As RadScheduler = CType(sender, RadScheduler)
-	        If ((e.Container.Mode = SchedulerFormMode.Insert) _
-	           OrElse (e.Container.Mode = SchedulerFormMode.AdvancedInsert)) Then
-	            Dim list As RadioButtonList = CType(e.Container.FindControl("AppointmentTypeRadioButtonList"), RadioButtonList)
-	            list.SelectedIndex = 0
-	        End If
-	        If ((e.Container.Mode = SchedulerFormMode.AdvancedInsert) _
-	           OrElse (e.Container.Mode = SchedulerFormMode.AdvancedEdit)) Then
-	            Dim subjectBox As TextBox = CType(e.Container.FindControl("SubjectTextBox"), TextBox)
-	            subjectBox.Text = e.Appointment.Subject
-	            Dim startInput As RadDateInput = CType(e.Container.FindControl("StartInput"), RadDateInput)
-	            startInput.DateFormat = (scheduler.EditFormDateFormat + (" " + scheduler.EditFormTimeFormat))
-	            startInput.SelectedDate = RadScheduler1.DisplayToUtc(e.Appointment.Start)
-	            Dim endInput As RadDateInput = CType(e.Container.FindControl("EndInput"), RadDateInput)
-	            endInput.DateFormat = (scheduler.EditFormDateFormat + (" " + scheduler.EditFormTimeFormat))
-	            endInput.SelectedDate = RadScheduler1.DisplayToUtc(e.Appointment.End)
-	        End If
-	    End Sub
+Protected Sub RadScheduler1_FormCreated(ByVal sender As Object, ByVal e As SchedulerFormCreatedEventArgs)
+	Dim scheduler As RadScheduler = CType(sender, RadScheduler)
+	If ((e.Container.Mode = SchedulerFormMode.Insert) _
+	   OrElse (e.Container.Mode = SchedulerFormMode.AdvancedInsert)) Then
+		Dim list As RadioButtonList = CType(e.Container.FindControl("AppointmentTypeRadioButtonList"), RadioButtonList)
+		list.SelectedIndex = 0
+	End If
+	If ((e.Container.Mode = SchedulerFormMode.AdvancedInsert) _
+	   OrElse (e.Container.Mode = SchedulerFormMode.AdvancedEdit)) Then
+		Dim subjectBox As TextBox = CType(e.Container.FindControl("SubjectTextBox"), TextBox)
+		subjectBox.Text = e.Appointment.Subject
+		Dim startInput As RadDateInput = CType(e.Container.FindControl("StartInput"), RadDateInput)
+		startInput.DateFormat = (scheduler.EditFormDateFormat + (" " + scheduler.EditFormTimeFormat))
+		startInput.SelectedDate = RadScheduler1.DisplayToUtc(e.Appointment.Start)
+		Dim endInput As RadDateInput = CType(e.Container.FindControl("EndInput"), RadDateInput)
+		endInput.DateFormat = (scheduler.EditFormDateFormat + (" " + scheduler.EditFormTimeFormat))
+		endInput.SelectedDate = RadScheduler1.DisplayToUtc(e.Appointment.End)
+	End If
+End Sub
 	
 ````
 
@@ -265,41 +264,41 @@ In addition, we need to add an **AppointmentCommand** event handler to create th
 
 ````C#
 	
-	    protected void RadScheduler1_AppointmentCommand(object sender, AppointmentCommandEventArgs e)
-	    {
-	        if (e.CommandName == "Insert")
-	        {
-	            CheckBox repeatCheck = (CheckBox)e.Container.FindControl("RepeatCheckBox");
-	            if (repeatCheck != null && repeatCheck.Checked)
-	            {
-	                RecurrenceRange range = new RecurrenceRange();
-	                range.Start = RadScheduler1.DisplayToUtc(e.Container.Appointment.Start);
-	                range.EventDuration = e.Container.Appointment.Duration;
-	                range.MaxOccurrences = 10;
-	                DailyRecurrenceRule rule = new DailyRecurrenceRule(1, range);
-	                e.Container.Appointment.RecurrenceRule = rule.ToString();
-	            }
-	        }
-	    }
+protected void RadScheduler1_AppointmentCommand(object sender, AppointmentCommandEventArgs e)
+{
+	if (e.CommandName == "Insert")
+	{
+		CheckBox repeatCheck = (CheckBox)e.Container.FindControl("RepeatCheckBox");
+		if (repeatCheck != null && repeatCheck.Checked)
+		{
+			RecurrenceRange range = new RecurrenceRange();
+			range.Start = RadScheduler1.DisplayToUtc(e.Container.Appointment.Start);
+			range.EventDuration = e.Container.Appointment.Duration;
+			range.MaxOccurrences = 10;
+			DailyRecurrenceRule rule = new DailyRecurrenceRule(1, range);
+			e.Container.Appointment.RecurrenceRule = rule.ToString();
+		}
+	}
+}
 	    
 ````
 ````VB.NET
 	
-	    Protected Sub RadScheduler1_AppointmentCommand(ByVal sender As Object, _
-	     ByVal e As AppointmentCommandEventArgs) _
-	            Handles RadScheduler1.AppointmentCommand
-	        If e.CommandName = "Insert" Then
-	            Dim repeatCheck As CheckBox = DirectCast(e.Container.FindControl("RepeatCheckBox"), CheckBox)
-	            If repeatCheck <> Nothing AndAlso repeatCheck.Checked Then
-	                Dim range As New RecurrenceRange()
-	                range.Start = RadScheduler1.DisplayToUtc(e.Container.Appointment.Start)
-	                range.EventDuration = e.Container.Appointment.Duration
-	                range.MaxOccurrences = 10
-	                Dim rule As New DailyRecurrenceRule(1, range)
-	                e.Container.Appointment.RecurrenceRule = rule.ToString()
-	            End If
-	        End If
-	    End Sub
+Protected Sub RadScheduler1_AppointmentCommand(ByVal sender As Object, _
+ ByVal e As AppointmentCommandEventArgs) _
+		Handles RadScheduler1.AppointmentCommand
+	If e.CommandName = "Insert" Then
+		Dim repeatCheck As CheckBox = DirectCast(e.Container.FindControl("RepeatCheckBox"), CheckBox)
+		If repeatCheck <> Nothing AndAlso repeatCheck.Checked Then
+			Dim range As New RecurrenceRange()
+			range.Start = RadScheduler1.DisplayToUtc(e.Container.Appointment.Start)
+			range.EventDuration = e.Container.Appointment.Duration
+			range.MaxOccurrences = 10
+			Dim rule As New DailyRecurrenceRule(1, range)
+			e.Container.Appointment.RecurrenceRule = rule.ToString()
+		End If
+	End If
+End Sub
 	
 ````
 
@@ -310,47 +309,47 @@ The result of the above code is shown below:![Advanced insert template](images/s
 
 ````ASPNET
 	
-	<AdvancedEditTemplate>
-	<div id="qsfexAdvEditWrapper">
-	 <div id="qsfexAdvEditInnerWrapper" class='<%# Eval("AppointmentType.Text") %>'>
-	  <div class="qsfexAdvEditControlWrapper">
-	   <asp:Label ID="Label4" AssociatedControlID="TitleTextBox" runat="server" CssClass="inline-label">Description</asp:Label>
-	   <asp:TextBox ID="SubjectTextBox" Rows="5" Columns="20" runat="server" Text='<%# Bind("Subject") %>' Width="95%" TextMode="MultiLine"></asp:TextBox><br />
-	  </div>
-	   
-	  <div class="qsfexAdvEditControlWrapper">
-	   <asp:Label ID="Label5" AssociatedControlID="StartInput" runat="server" CssClass="inline-label">Start time:</asp:Label>
-	   <telerik:RadDateInput ID="StartInput" SelectedDate='<%# Bind("Start") %>' runat="server"></telerik:RadDateInput><br />
-	  </div>
-	  
-	  <div class="qsfexAdvEditControlWrapper">
-	   <asp:Label ID="Label6" AssociatedControlID="EndInput" runat="server" CssClass="inline-label">End time:</asp:Label>
-	   <telerik:RadDateInput ID="EndInput" SelectedDate='<%# Bind("End") %>' runat="server"></telerik:RadDateInput><br />
-	  </div>
-	  
-	  <div class="qsfexAdvEditControlWrapper">
-	   <div class="inline-label">Color code:</div>
-	   <div id="qsfexAdvEditColorCodeChooser">
-	    <asp:RadioButtonList runat="server" ID="AppointmentTypeRadioButtonList" DataValueField="ID" CssClass="AppointmentTypeSelectorTable"
-	     DataSourceID="AppointmentTypesDataSource" SelectedValue='<%# Bind("AppointmentTypeID") %>' DataTextField="Keyword"
-	     RepeatDirection="Horizontal" DataTextFormatString="<span class='AppointmentTypeSelector rsAptType_{0}' onclick='onAppointmentTypeSelectorClick'></span>">
-	    </asp:RadioButtonList>
-	   </div>
-	  </div>
-	  
-	  <div class="qsfexAdvEditControlWrapper">
-	   <asp:CheckBox ID="RepeatCheckBox" runat="server" Text="Repeat for 10 days" />
-	  </div>
-	  
-	  <div class="qsfexAdvEditControlWrapper" style="text-align: right">
-	   <asp:LinkButton ID="UpdateButton" runat="server" CommandName="Update">
-	    <asp:Image runat="server" ID="insertImage" ImageUrl="Images/ok.gif" AlternateText="update" /></asp:LinkButton>
-	   <asp:LinkButton ID="UpdateCancelButton" runat="server" CausesValidation="False" CommandName="Cancel">
-	    <asp:Image runat="server" ID="Image2" ImageUrl="Images/cancel.gif" AlternateText="cancel" /></asp:LinkButton>
-	  </div>
-	 </div>
-	</div>
-	</AdvancedEditTemplate>     
+<AdvancedEditTemplate>
+<div id="qsfexAdvEditWrapper">
+ <div id="qsfexAdvEditInnerWrapper" class='<%# Eval("AppointmentType.Text") %>'>
+  <div class="qsfexAdvEditControlWrapper">
+   <asp:Label ID="Label4" AssociatedControlID="TitleTextBox" runat="server" CssClass="inline-label">Description</asp:Label>
+   <asp:TextBox ID="SubjectTextBox" Rows="5" Columns="20" runat="server" Text='<%# Bind("Subject") %>' Width="95%" TextMode="MultiLine"></asp:TextBox><br />
+  </div>
+   
+  <div class="qsfexAdvEditControlWrapper">
+   <asp:Label ID="Label5" AssociatedControlID="StartInput" runat="server" CssClass="inline-label">Start time:</asp:Label>
+   <telerik:RadDateInput ID="StartInput" SelectedDate='<%# Bind("Start") %>' runat="server"></telerik:RadDateInput><br />
+  </div>
+  
+  <div class="qsfexAdvEditControlWrapper">
+   <asp:Label ID="Label6" AssociatedControlID="EndInput" runat="server" CssClass="inline-label">End time:</asp:Label>
+   <telerik:RadDateInput ID="EndInput" SelectedDate='<%# Bind("End") %>' runat="server"></telerik:RadDateInput><br />
+  </div>
+  
+  <div class="qsfexAdvEditControlWrapper">
+   <div class="inline-label">Color code:</div>
+   <div id="qsfexAdvEditColorCodeChooser">
+	<asp:RadioButtonList runat="server" ID="AppointmentTypeRadioButtonList" DataValueField="ID" CssClass="AppointmentTypeSelectorTable"
+	 DataSourceID="AppointmentTypesDataSource" SelectedValue='<%# Bind("AppointmentTypeID") %>' DataTextField="Keyword"
+	 RepeatDirection="Horizontal" DataTextFormatString="<span class='AppointmentTypeSelector rsAptType_{0}' onclick='onAppointmentTypeSelectorClick'></span>">
+	</asp:RadioButtonList>
+   </div>
+  </div>
+  
+  <div class="qsfexAdvEditControlWrapper">
+   <asp:CheckBox ID="RepeatCheckBox" runat="server" Text="Repeat for 10 days" />
+  </div>
+  
+  <div class="qsfexAdvEditControlWrapper" style="text-align: right">
+   <asp:LinkButton ID="UpdateButton" runat="server" CommandName="Update">
+	<asp:Image runat="server" ID="insertImage" ImageUrl="Images/ok.gif" AlternateText="update" /></asp:LinkButton>
+   <asp:LinkButton ID="UpdateCancelButton" runat="server" CausesValidation="False" CommandName="Cancel">
+	<asp:Image runat="server" ID="Image2" ImageUrl="Images/cancel.gif" AlternateText="cancel" /></asp:LinkButton>
+  </div>
+ </div>
+</div>
+</AdvancedEditTemplate>     
 			
 ````
 
@@ -364,61 +363,60 @@ The result of the above code is shown below:![Advanced insert template](images/s
 
 ````C#
 	
-	    protected void RadScheduler1_FormCreated(object sender,
-	                                       SchedulerFormCreatedEventArgs e)
-	    {
-	        if (e.Container.Mode == SchedulerFormMode.Insert ||
-	            e.Container.Mode == SchedulerFormMode.AdvancedInsert)
-	        {
-	            RadioButtonList list =
-	                      (RadioButtonList)e.Container.FindControl("UsersRadioButtonList");
-	            list.SelectedIndex = 0;
-	        }
-	        if (e.Container.Mode == SchedulerFormMode.AdvancedInsert ||
-	            e.Container.Mode == SchedulerFormMode.AdvancedEdit)
-	        {
-	            TextBox subjectBox = (TextBox)e.Container.FindControl("SubjectTextBox");
-	            subjectBox.Text = e.Appointment.Subject;
-	            RadDateInput startInput = (RadDateInput)e.Container.FindControl("StartInput");
-	            startInput.DateFormat = RadScheduler1.EditFormDateFormat + " " + RadScheduler1.EditFormTimeFormat;
-	            startInput.SelectedDate = RadScheduler1.DisplayToUtc(e.Appointment.Start);
-	            RadDateInput endInput = (RadDateInput)e.Container.FindControl("EndInput");
-	            endInput.DateFormat = RadScheduler1.EditFormDateFormat + " " + RadScheduler1.EditFormTimeFormat;
-	            endInput.SelectedDate = RadScheduler1.DisplayToUtc(e.Appointment.End);
-	        }
-	    }
+protected void RadScheduler1_FormCreated(object sender, SchedulerFormCreatedEventArgs e)
+{
+	if (e.Container.Mode == SchedulerFormMode.Insert ||
+		e.Container.Mode == SchedulerFormMode.AdvancedInsert)
+	{
+		RadioButtonList list =
+				  (RadioButtonList)e.Container.FindControl("UsersRadioButtonList");
+		list.SelectedIndex = 0;
+	}
+	if (e.Container.Mode == SchedulerFormMode.AdvancedInsert ||
+		e.Container.Mode == SchedulerFormMode.AdvancedEdit)
+	{
+		TextBox subjectBox = (TextBox)e.Container.FindControl("SubjectTextBox");
+		subjectBox.Text = e.Appointment.Subject;
+		RadDateInput startInput = (RadDateInput)e.Container.FindControl("StartInput");
+		startInput.DateFormat = RadScheduler1.EditFormDateFormat + " " + RadScheduler1.EditFormTimeFormat;
+		startInput.SelectedDate = RadScheduler1.DisplayToUtc(e.Appointment.Start);
+		RadDateInput endInput = (RadDateInput)e.Container.FindControl("EndInput");
+		endInput.DateFormat = RadScheduler1.EditFormDateFormat + " " + RadScheduler1.EditFormTimeFormat;
+		endInput.SelectedDate = RadScheduler1.DisplayToUtc(e.Appointment.End);
+	}
+}
 	
 ````
 ````VB.NET
 	
-	    Protected Sub RadScheduler1_FormCreated(ByVal sender As Object, _
-	                         ByVal e As SchedulerFormCreatedEventArgs) _
-	                         Handles RadScheduler1.FormCreated
-	        If e.Container.Mode = SchedulerFormMode.Insert _
-	           OrElse e.Container.Mode = SchedulerFormMode.AdvancedInsert Then
-	            Dim list As RadioButtonList = _
-	              DirectCast(e.Container.FindControl("UsersRadioButtonList"), RadioButtonList)
-	            list.SelectedIndex = 0
-	        End If
-	        If e.Container.Mode = SchedulerFormMode.AdvancedInsert _
-	            OrElse e.Container.Mode = SchedulerFormMode.AdvancedEdit Then
-	            Dim subjectBox As TextBox = _
-	              DirectCast(e.Container.FindControl("SubjectTextBox"), TextBox)
-	            subjectBox.Text = e.Appointment.Subject
-	            Dim startInput As RadDateInput = _
-	              DirectCast(e.Container.FindControl("StartInput"), RadDateInput)
-	            startInput.DateFormat = RadScheduler1.EditFormDateFormat + " " + _
-	              RadScheduler1.EditFormTimeFormat
-	            startInput.SelectedDate = _
-	              RadScheduler1.DisplayToUtc(e.Appointment.Start)
-	            Dim endInput As RadDateInput = _
-	              DirectCast(e.Container.FindControl("EndInput"), RadDateInput)
-	            endInput.DateFormat = RadScheduler1.EditFormDateFormat + " " + _
-	              RadScheduler1.EditFormTimeFormat
-	            endInput.SelectedDate = RadScheduler1.DisplayToUtc(e.Appointment.[End])
-	        End If
-	    End Sub
-	
+Protected Sub RadScheduler1_FormCreated(ByVal sender As Object, _
+					 ByVal e As SchedulerFormCreatedEventArgs) _
+					 Handles RadScheduler1.FormCreated
+	If e.Container.Mode = SchedulerFormMode.Insert _
+	   OrElse e.Container.Mode = SchedulerFormMode.AdvancedInsert Then
+		Dim list As RadioButtonList = _
+		  DirectCast(e.Container.FindControl("UsersRadioButtonList"), RadioButtonList)
+		list.SelectedIndex = 0
+	End If
+	If e.Container.Mode = SchedulerFormMode.AdvancedInsert _
+		OrElse e.Container.Mode = SchedulerFormMode.AdvancedEdit Then
+		Dim subjectBox As TextBox = _
+		  DirectCast(e.Container.FindControl("SubjectTextBox"), TextBox)
+		subjectBox.Text = e.Appointment.Subject
+		Dim startInput As RadDateInput = _
+		  DirectCast(e.Container.FindControl("StartInput"), RadDateInput)
+		startInput.DateFormat = RadScheduler1.EditFormDateFormat + " " + _
+		  RadScheduler1.EditFormTimeFormat
+		startInput.SelectedDate = _
+		  RadScheduler1.DisplayToUtc(e.Appointment.Start)
+		Dim endInput As RadDateInput = _
+		  DirectCast(e.Container.FindControl("EndInput"), RadDateInput)
+		endInput.DateFormat = RadScheduler1.EditFormDateFormat + " " + _
+		  RadScheduler1.EditFormTimeFormat
+		endInput.SelectedDate = RadScheduler1.DisplayToUtc(e.Appointment.[End])
+	End If
+End Sub
+
 ````
 
 

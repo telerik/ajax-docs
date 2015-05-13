@@ -27,23 +27,23 @@ The following example builds the recurrence rule by reading the Start and End da
 ````C#
 	     
 	
-	protected void SaveButton_Click(object sender, EventArgs e)
-	{    
-	    RecurrenceEditor1.StartDate = StartDate.SelectedDate.Value;    
-	    RecurrenceEditor1.EndDate = EndDate.SelectedDate.Value;
-	    // Read the recurrence rule    RecurrenceRule rrule = RecurrenceEditor1.RecurrenceRule;
-	    // Or directly as string    string rruleText = RecurrenceEditor1.RecurrenceRuleText;
-	}
+protected void SaveButton_Click(object sender, EventArgs e)
+{    
+	RecurrenceEditor1.StartDate = StartDate.SelectedDate.Value;    
+	RecurrenceEditor1.EndDate = EndDate.SelectedDate.Value;
+	// Read the recurrence rule    RecurrenceRule rrule = RecurrenceEditor1.RecurrenceRule;
+	// Or directly as string    string rruleText = RecurrenceEditor1.RecurrenceRuleText;
+}
 				
 ````
 ````VB.NET
 	     
 	
-	    Protected Sub SaveButton_Click(ByVal sender As Object, ByVal e As EventArgs)
-	        RecurrenceEditor1.StartDate = StartDate.SelectedDate.Value
-	        RecurrenceEditor1.EndDate = EndDate.SelectedDate.Value
-	        ' Read the recurrence rule Dim rrule As RecurrenceRule = RecurrenceEditor1.RecurrenceRule
-	        ' Or directly as string Dim rruleText As String = RecurrenceEditor1.RecurrenceRuleTextEnd Sub
-	
+Protected Sub SaveButton_Click(ByVal sender As Object, ByVal e As EventArgs)
+	RecurrenceEditor1.StartDate = StartDate.SelectedDate.Value
+	RecurrenceEditor1.EndDate = EndDate.SelectedDate.Value
+	' Read the recurrence rule Dim rrule As RecurrenceRule = RecurrenceEditor1.RecurrenceRule
+	' Or directly as string Dim rruleText As String = RecurrenceEditor1.RecurrenceRuleTextEnd Sub
+End Sub	
 ````
 

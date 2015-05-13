@@ -44,26 +44,26 @@ The tables below lists all public properties and the most important methods of t
 | **removeAt()** |Int|None|Removes the Resource at the specified index from the collection.|
 
 ````JavaScript
-	        function OnClientAppointmentClick(sender, args) {
-	            var appointment = args.get_appointment();
-	            var resources = appointment.get_resources();
-	            resources.forEach(function (res) {
-	                alert(res.get_type());
-	                alert(res.get_text());
-	            });
-	            if (resources.get_count() != 0) {
-	                resources.getResourceByType("Room").set_key("2");
-	                sender.updateAppointment(appointment, false);
-	            }
-	            else {
-	                appointment.get_resources().clear();
-	                //Find the resource corresponding to the clicked item
-	                var room = sender.get_resources().getResourceByTypeAndKey("Room", "2");
-	                //Add it to the appointment resources collection
-	                appointment.get_resources().add(room);
-	                sender.updateAppointment(appointment, false);
-	            }
-	       } 
+function OnClientAppointmentClick(sender, args) {
+	var appointment = args.get_appointment();
+	var resources = appointment.get_resources();
+	resources.forEach(function (res) {
+		alert(res.get_type());
+		alert(res.get_text());
+	});
+	if (resources.get_count() != 0) {
+		resources.getResourceByType("Room").set_key("2");
+		sender.updateAppointment(appointment, false);
+	}
+	else {
+		appointment.get_resources().clear();
+		//Find the resource corresponding to the clicked item
+		var room = sender.get_resources().getResourceByTypeAndKey("Room", "2");
+		//Add it to the appointment resources collection
+		appointment.get_resources().add(room);
+		sender.updateAppointment(appointment, false);
+	}
+} 
 ````
 
 

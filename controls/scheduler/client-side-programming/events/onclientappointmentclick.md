@@ -24,18 +24,18 @@ Two parameters are passed to the event handler:
 
 ````ASPNET
 	
-	<script type="text/javascript">   
-	  function OnClientAppointmentClick(sender, eventArgs)
-	  {
-	    var apt = eventArgs.get_appointment();
-	    alert("You clicked on an appointment with the subject: " + apt.get_subject());
-	  }
-	</script>
-	<telerik:RadScheduler
-	 ID="RadScheduler1"
-	 runat="server"  
-	 OnClientAppointmentClick="OnClientAppointmentClick"
-	 DataSourceID="AppointmentsDS" />
+<script type="text/javascript">   
+function OnClientAppointmentClick(sender, eventArgs)
+{
+	var apt = eventArgs.get_appointment();
+	alert("You clicked on an appointment with the subject: " + apt.get_subject());
+}
+</script>
+<telerik:RadScheduler
+ ID="RadScheduler1"
+ runat="server"  
+ OnClientAppointmentClick="OnClientAppointmentClick"
+ DataSourceID="AppointmentsDS" />
 	
 ````
 

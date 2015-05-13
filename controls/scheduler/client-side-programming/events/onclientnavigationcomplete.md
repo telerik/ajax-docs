@@ -22,7 +22,7 @@ Two parameters are passed to the handler:
 
 * **eventArgs** with one property:
 
-* **get_command() -**the navigation command that is completed;
+	* **get_command()** - the navigation command that is completed;
 
 This event cannot be cancelled.
 

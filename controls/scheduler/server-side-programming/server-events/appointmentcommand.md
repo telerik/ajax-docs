@@ -34,22 +34,22 @@ The **AppointmentCommand** event occurs when the user clicks any button in the a
 
 ````C#
 	
-	    protected void RadScheduler1_AppointmentCommand(object sender, AppointmentCommandEventArgs e)
-	    {
-	        if (e.CommandName == "Delete")
-	        {
-	            Delete(e.Container.Appointment);
-	        }
-	    }
+protected void RadScheduler1_AppointmentCommand(object sender, AppointmentCommandEventArgs e)
+{
+	if (e.CommandName == "Delete")
+	{
+		Delete(e.Container.Appointment);
+	}
+}
 	
 ````
 ````VB.NET
 	
-	    Protected Sub RadScheduler1_AppointmentCommand(ByVal sender As Object, ByVal e As AppointmentCommandEventArgs) Handles RadScheduler1.AppointmentCommand
-	        If e.CommandName = "Delete" Then
-	            Delete(e.Container.Appointment)
-	        End If
-	    End Sub
+Protected Sub RadScheduler1_AppointmentCommand(ByVal sender As Object, ByVal e As AppointmentCommandEventArgs) Handles RadScheduler1.AppointmentCommand
+	If e.CommandName = "Delete" Then
+		Delete(e.Container.Appointment)
+	End If
+End Sub
 	
 ````
 

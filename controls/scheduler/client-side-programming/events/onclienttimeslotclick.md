@@ -32,17 +32,17 @@ Two parameters are passed to the event handler:
 
 ````ASPNET
 	
-	<script type="text/javascript">   
-	  function OnClientTimeSlotClick(sender, eventArgs)
-	  {
-	     alert(eventArgs.get_time());
-	  }
-	</script>
-	<telerik:RadScheduler
-	 ID="RadScheduler1"
-	 runat="server"  
-	 OnClientTimeSlotClick="OnClientTimeSlotClick"
-	 DataSourceID="AppointmentsDS" />
+<script type="text/javascript">   
+function OnClientTimeSlotClick(sender, eventArgs)
+{
+	alert(eventArgs.get_time());
+}
+</script>
+<telerik:RadScheduler
+ID="RadScheduler1"
+runat="server"  
+OnClientTimeSlotClick="OnClientTimeSlotClick"
+DataSourceID="AppointmentsDS" />
 	
 ````
 

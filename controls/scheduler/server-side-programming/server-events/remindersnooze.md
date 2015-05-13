@@ -32,17 +32,17 @@ The operation can be cancelled by setting the **Cancel** property of the event a
 
 ````C#
 	
-	    protected void RadScheduler1_ReminderSnooze(object sender, ReminderSnoozeEventArgs e) 
-	    { 
-	        e.Cancel = true; 
-	    }
+protected void RadScheduler1_ReminderSnooze(object sender, ReminderSnoozeEventArgs e) 
+{ 
+	e.Cancel = true; 
+}
 	
 ````
-````VB.NET
+````VB
 	
-	    Protected Sub RadScheduler1_ReminderSnooze(ByVal sender As Object, ByVal e As ReminderSnoozeEventArgs)
-	        e.Cancel = True
-	    End Sub
+Protected Sub RadScheduler1_ReminderSnooze(ByVal sender As Object, ByVal e As ReminderSnoozeEventArgs)
+	e.Cancel = True
+End Sub
 	
 ````
 

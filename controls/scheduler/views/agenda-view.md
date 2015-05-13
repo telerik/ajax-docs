@@ -12,8 +12,6 @@ position: 6
 
 
 
-## Agenda View
-
 As of Q3 2013 the new **Agenda View** is introduced for the **RadScheduler** control.
 
 The **Agenda View** is a table structured like a simple list, which lists appointments for a specific period of time that is defined by the property **NumberOfDays**.
@@ -52,5 +50,4 @@ The **Agenda View** is a table structured like a simple list, which lists appoin
 
 * Grouped by Date, Resource (**Vertical**)![scheduler-views-agendaview-verticalgroupingbydateandresource](images/scheduler-views-agendaview-verticalgroupingbydateandresource.png)
 
-# See Also>
      

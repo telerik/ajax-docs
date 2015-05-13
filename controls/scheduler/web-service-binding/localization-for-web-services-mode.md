@@ -26,7 +26,7 @@ are required as listed below:
 RadScriptManager on the page:
 
 ````ASPNET
-	    <asp:ScriptManager ID="ScriptManager1" runat="server" EnableScriptGlobalization="true" />
+<asp:ScriptManager ID="ScriptManager1" runat="server" EnableScriptGlobalization="true" />
 ````
 
 
@@ -35,7 +35,7 @@ RadScriptManager on the page:
 directive. For example:
 
 ````XML
-	    <globalization culture="fr-CA" />
+<globalization culture="fr-CA" />
 ````
 
 
@@ -44,7 +44,7 @@ or
 
 ````ASPNET
 	
-	    <%@ Page Language="C#" Culture="fr-CA" AutoEventWireup="true" %>
+<%@ Page Language="C#" Culture="fr-CA" AutoEventWireup="true" %>
 	
 ````
 
@@ -55,9 +55,9 @@ RadScheduler.
 
 ````ASPNET
 	  
-	    <telerik:RadScheduler runat="server" ID="RadScheduler1" Culture="fr-CA">
-	    <WebServiceSettings Path="~/SchedulerDataService.asmx" />
-	    </telerik:RadScheduler>  
+<telerik:RadScheduler runat="server" ID="RadScheduler1" Culture="fr-CA">
+<WebServiceSettings Path="~/SchedulerDataService.asmx" />
+</telerik:RadScheduler>  
 	
 ````
 

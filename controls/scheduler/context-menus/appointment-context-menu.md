@@ -16,7 +16,7 @@ position: 0
 
 With Q3 2009, RadScheduler gives you the option to enable a default appointment context menu.
 
-If **AppointmentContextMenuSettings**-**EnableDefault** is set to **true**,right-clicking on an appointment will display a default context menu with two action items - "Edit" and "Delete". The default appointment context menu is disabled by default.
+If **AppointmentContextMenuSettings**-**EnableDefault** is set to **true**, right-clicking on an appointment will display a default context menu with two action items - **Edit** and **Delete**. The default appointment context menu is disabled by default.
 
 You can use the AppointmentContextMenuSettings to also style the menu through a [skin registration](CC071FB0-3F19-408A-8AEA-7A82330F6831), or to [disable its embedded resources](F02D3323-FFA7-46E6-A4DE-303D5EF15A43):
 
@@ -32,30 +32,28 @@ The default appointment context menu can be customized declaratively:
 
 ````ASPNET
 	
-	<telerik:RadScheduler ID="RadScheduler1" runat="server">
-	   <AppointmentContextMenus>
-	       <telerik:RadSchedulerContextMenu runat="server" ID="ContextMenu1">
-	           <Items>
-	               <telerik:RadMenuItem Text="Open" Value="CommandEdit" />
-	               <telerik:RadMenuItem IsSeparator="True" />
-	               <telerik:RadMenuItem Text="Categorize">
-	                   <Items>
-	                       <telerik:RadMenuItem Text="Development" Value="1" />
-	                       <telerik:RadMenuItem Text="Marketing" Value="2" />
-	                       <telerik:RadMenuItem Text="Personal" Value="3" />
-	                       <telerik:RadMenuItem Text="Work" Value="4" />
-	                   </Items>
-	               </telerik:RadMenuItem>
-	               <telerik:RadMenuItem IsSeparator="True" />
-	               <telerik:RadMenuItem Text="Delete" Value="CommandDelete" />
-	           </Items>
-	       </telerik:RadSchedulerContextMenu>
-	   </AppointmentContextMenus>
-	</telerik:RadScheduler>      
+<telerik:RadScheduler ID="RadScheduler1" runat="server">
+   <AppointmentContextMenus>
+	   <telerik:RadSchedulerContextMenu runat="server" ID="ContextMenu1">
+		   <Items>
+			   <telerik:RadMenuItem Text="Open" Value="CommandEdit" />
+			   <telerik:RadMenuItem IsSeparator="True" />
+			   <telerik:RadMenuItem Text="Categorize">
+				   <Items>
+					   <telerik:RadMenuItem Text="Development" Value="1" />
+					   <telerik:RadMenuItem Text="Marketing" Value="2" />
+					   <telerik:RadMenuItem Text="Personal" Value="3" />
+					   <telerik:RadMenuItem Text="Work" Value="4" />
+				   </Items>
+			   </telerik:RadMenuItem>
+			   <telerik:RadMenuItem IsSeparator="True" />
+			   <telerik:RadMenuItem Text="Delete" Value="CommandDelete" />
+		   </Items>
+	   </telerik:RadSchedulerContextMenu>
+   </AppointmentContextMenus>
+</telerik:RadScheduler>      
 	
 ````
-
-
 
 
 
@@ -91,17 +89,17 @@ If more than one appointment context menu is declared, you can specify which one
 
 ````C#
 	
-	    protected void RadScheduler1_AppointmentDataBound(object sender, SchedulerEventArgs e)
-	    {
-	        e.Appointment.ContextMenuID = "SchedulerAppointmentContextMenu2";
-	    } 
+protected void RadScheduler1_AppointmentDataBound(object sender, SchedulerEventArgs e)
+{
+	e.Appointment.ContextMenuID = "SchedulerAppointmentContextMenu2";
+} 
 	
 ````
 ````VB.NET
 	
-	    Protected Sub RadScheduler1_AppointmentDataBound(ByVal sender As Object, ByVal e As SchedulerEventArgs)
-	        e.Appointment.ContextMenuID = "SchedulerAppointmentContextMenu2"
-	    End Sub
+Protected Sub RadScheduler1_AppointmentDataBound(ByVal sender As Object, ByVal e As SchedulerEventArgs)
+	e.Appointment.ContextMenuID = "SchedulerAppointmentContextMenu2"
+End Sub
 		
 ````
 

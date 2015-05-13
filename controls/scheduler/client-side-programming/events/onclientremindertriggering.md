@@ -22,10 +22,10 @@ Two parameters are passed to the handler:
 
 * **eventArgs**, with three properties:
 
-* get_appointment(), the instance of the appointment.
+	* **get_appointment()** - the instance of the appointment.
 
-* get_reminder(), the reminder.
+	* **get_reminder()** - the reminder.
 
-* set_cancel(), used to cancel the event.
+	* **set_cancel()** - used to cancel the event.
 
 This event can be cancelled. Doing so effectively ignores the reminder.

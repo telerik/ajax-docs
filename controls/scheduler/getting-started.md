@@ -28,7 +28,7 @@ This tutorial will walk you through creating a **RadScheduler** and shows how to
 
 Firstly, you need to add an .xml file which will act as a repository for allappointments that are created and displayed.
 
-1. Download the Appointments.xml file from the App_Data folder in the local path where your RadControls areinstalled. For example:**C:\Program Files (x86)\Telerik\RadControls for ASP.NET AJAX Q3 2010\Live Demos\App_Data.**
+1. Download the Appointments.xml file from the App_Data folder in the local path where your RadControls areinstalled. For example: **C:\Program Files (x86)\Telerik\RadControls for ASP.NET AJAX Q3 2010\Live Demos\App_Data.**
 
 1. In the Solution Explorer, right click on the App_Data folder and paste the downloaded file.
 
@@ -40,17 +40,17 @@ Firstly, you need to add an .xml file which will act as a repository for allappo
 
 ````C#
 	
-	   protected void Page_Init(object sender, EventArgs e)
-	{
-		RadScheduler1.Provider = new XmlSchedulerProvider(Server.MapPath("~/App_Data/Appointments.xml"), true);
-	}
+protected void Page_Init(object sender, EventArgs e)
+{
+	RadScheduler1.Provider = new XmlSchedulerProvider(Server.MapPath("~/App_Data/Appointments.xml"), true);
+}
 	
 	
 ````
 ````VB.NET
-	    Protected Sub Page_Init(ByVal sender As Object, ByVal e As EventArgs)
-	        RadScheduler1.Provider = New XmlSchedulerProvider(Server.MapPath("~/App_Data/Appointments.xml"), True)
-	    End Sub
+Protected Sub Page_Init(ByVal sender As Object, ByVal e As EventArgs)
+	RadScheduler1.Provider = New XmlSchedulerProvider(Server.MapPath("~/App_Data/Appointments.xml"), True)
+End Sub
 ````
 This code creates and sets a new provider to RadScheduler. Please note that you'll need to replace "RadScheduler1" with the ID of your RadScheduler instance. Also replace the name of the .xml file with the name of your .xml file. The second parameter in the **XmlSchedulerProvider** constructor is of type **boolean** and is called **persistChanges**. Please set it to **"true"** if you need any changes to be committed to the xml file.
 
@@ -118,13 +118,13 @@ When RadScheduler is bound to XmlProvider, attributes as well as the appointment
 
 ````XML
 	 
-	 <Appointment>
-	<ID>3</ID>
-	<Subject>My first appointment</Subject>
-	<Start>2010-11-11T00:00Z</Start>
-	<End>2010-11-12T00:00Z</End>
-	<Attribute Key="Materials" Value="some materials" />
-	</Appointment>
+<Appointment>
+    <ID>3</ID>
+    <Subject>My first appointment</Subject>
+    <Start>2010-11-11T00:00Z</Start>
+    <End>2010-11-12T00:00Z</End>
+    <Attribute Key="Materials" Value="some materials" />
+</Appointment>
 	
 ````
 
@@ -135,20 +135,20 @@ When RadScheduler is bound to XmlProvider, attributes as well as the appointment
 Custom resources let you associate additional information with your appointments, where the information for each field can be selected from a limited number of possibilities. That is, a custom resource acts like an enumerated type.Please follow this model when you create Resources in your .xml file:
 
 ````XML
-	<Resources>
-	<Calendar>
-	<Key>1</Key>
-	<Text>Development</Text>
-	</Calendar>
-	<Calendar>
-	<Key>2</Key>
-	<Text>Marketing</Text>
-	</Calendar>
-	<Calendar>
-	<Key>3</Key>
-	<Text>Personal</Text>
-	</Calendar>
-	</Resources>
+<Resources>
+    <Calendar>
+        <Key>1</Key>
+        <Text>Development</Text>
+    </Calendar>
+    <Calendar>
+        <Key>2</Key>
+        <Text>Marketing</Text>
+    </Calendar>
+    <Calendar>
+        <Key>3</Key>
+        <Text>Personal</Text>
+    </Calendar>
+</Resources>
 	
 ````
 
@@ -168,6 +168,6 @@ The purpose of Scenario Templates is to let you quickly start using RadControls 
 
 1. **Scenario Wizard** appears with different scenarios. Choose **"XmlProvider"**:![Rad Scheduler Scenario Wizard](images/scheduler_scenariowizard.png)
 
-1. Follow the wizard by pressing **"Next"** button and finally press**"Finish"**. A new .aspx page will be added to your project, depending on your choice in the Scenario Wizard. All necessary references will be added to your project.
+1. Follow the wizard by pressing **"Next"** button and finally press **"Finish"**. A new .aspx page will be added to your project, depending on your choice in the Scenario Wizard. All necessary references will be added to your project.
 
 1. Press **Ctrl+F5** and run the application.

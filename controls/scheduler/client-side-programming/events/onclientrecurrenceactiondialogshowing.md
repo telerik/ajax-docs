@@ -22,7 +22,7 @@ Two parameters are passed to the event handler:
 
 * **get_appointment()** that returns the appointment instance.
 
-* **get_recurrenceAction()**returns **1** for**edit**, **2** for **delete**, **3** for**resize**, and **4** for **move**.
+* **get_recurrenceAction()** returns **1** for**edit**, **2** for **delete**, **3** for **resize**, and **4** for **move**.
 
 * **set_cancel()** lets you permit or block the showing of the recurrence action dialog of the appointment. Calling **set_cancel(true)** suppresses the showing of the dialog, while **set_cancel(false)** allows the scheduler to proceed with showing the dialog.
 
@@ -34,22 +34,22 @@ This example shows how to suppress the "Edit this occurrence" or "Edit Series" d
 
 ````ASPNET
 	 
-	 <script type="text/javascript">
-	   function OnClientRecurrenceActionDialogShowing(sender, eventArgs)
-	   {
-	       eventArgs.set_cancel(true);   
-	       //Edit this instance only:   
-	       //eventArgs.set_editSeries(false);   
-	              
-	       //Edit the entire series:   
-	       eventArgs.set_editSeries(true);
-	   }        
-	</script>
-	<telerik:RadScheduler
-	   ID="RadScheduler1"
-	   runat="server"  
-	   OnClientRecurrenceActionDialogShowing ="OnClientRecurrenceActionDialogShowing"
-	   DataSourceID="AppointmentsDS" />
+<script type="text/javascript">
+function OnClientRecurrenceActionDialogShowing(sender, eventArgs)
+{
+	eventArgs.set_cancel(true);   
+	//Edit this instance only:   
+	//eventArgs.set_editSeries(false);   
+		  
+	//Edit the entire series:   
+	eventArgs.set_editSeries(true);
+}        
+</script>
+<telerik:RadScheduler
+   ID="RadScheduler1"
+   runat="server"  
+   OnClientRecurrenceActionDialogShowing ="OnClientRecurrenceActionDialogShowing"
+   DataSourceID="AppointmentsDS" />
 	
 ````
 

@@ -30,11 +30,11 @@ You have to set the mode to either **ServerSide** or **Manual** in order to enab
 
 ````ASPNET
 	
-	<telerik:RadScheduler runat="server" ID="RadScheduler1" Skin="Vista"
-	   SelectedView="DayView" SelectedDate="2009-04-18">
-	   <DayView GroupBy="User" />
-	   <WebServiceSettings Path="~/SchedulerDataService.asmx" ResourcePopulationMode="Manual" />
-	</telerik:RadScheduler>
+<telerik:RadScheduler runat="server" ID="RadScheduler1" Skin="Vista"
+   SelectedView="DayView" SelectedDate="2009-04-18">
+   <DayView GroupBy="User" />
+   <WebServiceSettings Path="~/SchedulerDataService.asmx" ResourcePopulationMode="Manual" />
+</telerik:RadScheduler>
 			
 ````
 
@@ -42,13 +42,13 @@ You have to set the mode to either **ServerSide** or **Manual** in order to enab
 
 ````C#
 	
-	protected void Page_Load(object sender, EventArgs e)
-	{
-	    RadScheduler1.ResourceTypes.Add(new ResourceType("User"));
-	    RadScheduler1.Resources.Add(new Resource("User", "1", "Alex"));
-	    RadScheduler1.Resources.Add(new Resource("User", "2", "Bob"));
-	    RadScheduler1.Resources.Add(new Resource("User", "3", "Charlie"));
-	}       
+protected void Page_Load(object sender, EventArgs e)
+{
+	RadScheduler1.ResourceTypes.Add(new ResourceType("User"));
+	RadScheduler1.Resources.Add(new Resource("User", "1", "Alex"));
+	RadScheduler1.Resources.Add(new Resource("User", "2", "Bob"));
+	RadScheduler1.Resources.Add(new Resource("User", "3", "Charlie"));
+}       
 	
 ````
 
@@ -62,16 +62,16 @@ You need to implement ISchedulerInfo first:
 
 ````C#
 	
-	public class MySchedulerInfo : SchedulerInfo
-	{
-	   private int _userId;
-	   public int UserId
-	   {
-	       get { return _userId; }
-	       set { _userId = value; }
-	   }
-	}
-				
+public class MySchedulerInfo : SchedulerInfo
+{
+   private int _userId;
+   public int UserId
+   {
+	   get { return _userId; }
+	   set { _userId = value; }
+   }
+}
+			
 ````
 
 
@@ -80,15 +80,15 @@ Then you can to handle the ResourcesPopulating event and replace the original sc
 
 ````C#
 	
-	protected void RadScheduler1_OnResourcesPopulating(object sender, ResourcesPopulatingEventArgs args)
-	{
-	    MySchedulerInfo info = new MySchedulerInfo();
-	    info.ViewStart = args.SchedulerInfo.ViewStart;
-	    info.ViewEnd = args.SchedulerInfo.ViewEnd;
-	    info.UserId = 100;
-	
-	    args.SchedulerInfo = info;
-	}  
+protected void RadScheduler1_OnResourcesPopulating(object sender, ResourcesPopulatingEventArgs args)
+{
+	MySchedulerInfo info = new MySchedulerInfo();
+	info.ViewStart = args.SchedulerInfo.ViewStart;
+	info.ViewEnd = args.SchedulerInfo.ViewEnd;
+	info.UserId = 100;
+
+	args.SchedulerInfo = info;
+}  
 	
 ````
 
@@ -98,13 +98,13 @@ Finally, the GetResources method can use the data like this:
 
 ````C#
 	
-	[WebMethod]
-	public IEnumerable<ResourceData> GetResources(MySchedulerInfo schedulerInfo)
-	{
-	    int userId = schedulerInfo.UserId;
-	    // ...
-	    return Controller.GetResources(schedulerInfo);
-	} 
+[WebMethod]
+public IEnumerable<ResourceData> GetResources(MySchedulerInfo schedulerInfo)
+{
+	int userId = schedulerInfo.UserId;
+	// ...
+	return Controller.GetResources(schedulerInfo);
+} 
 				
 ````
 

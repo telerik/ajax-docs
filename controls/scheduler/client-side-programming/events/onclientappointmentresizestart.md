@@ -30,19 +30,19 @@ This example prevents the user from resizing the "Planning Session" appointment 
 
 ````ASPNET
 	
-	<script type="text/javascript">   
-	  function OnClientAppointmentResizeStart(sender, eventArgs)
-	  {
-	     var apt = eventArgs.get_Appointment();
-	     if (apt.get_subject() == "Planning Session")
-	         eventArgs.set_cancel(true);
-	  }
-	</script>
-	<telerik:RadScheduler
-	 ID="RadScheduler1"
-	 runat="server"  
-	 OnClientAppointmentResizeStart="OnClientAppointmentResizeStart"
-	 DataSourceID="AppointmentsDS" /> 
+<script type="text/javascript">   
+function OnClientAppointmentResizeStart(sender, eventArgs)
+{
+	 var apt = eventArgs.get_Appointment();
+	 if (apt.get_subject() == "Planning Session")
+		 eventArgs.set_cancel(true);
+}
+</script>
+<telerik:RadScheduler
+ ID="RadScheduler1"
+ runat="server"  
+ OnClientAppointmentResizeStart="OnClientAppointmentResizeStart"
+ DataSourceID="AppointmentsDS" /> 
 			
 ````
 

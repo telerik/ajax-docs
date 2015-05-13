@@ -26,14 +26,14 @@ This example shows how to declaratively bind **RadScheduler** to one of the supp
 
 ````XML
 	
-	<configSections>
-	 <sectionGroup name="telerik.web.ui">
-	    <section name="radScheduler"
-	             type="Telerik.Web.UI.RadSchedulerConfigurationSection,
-	                   Telerik.Web.UI, PublicKeyToken=121fae78165ba3d4"
-	             allowDefinition="MachineToApplication" />
-	 </sectionGroup>
-	</configSections>
+<configSections>
+ <sectionGroup name="telerik.web.ui">
+	<section name="radScheduler"
+			 type="Telerik.Web.UI.RadSchedulerConfigurationSection,
+				   Telerik.Web.UI, PublicKeyToken=121fae78165ba3d4"
+			 allowDefinition="MachineToApplication" />
+ </sectionGroup>
+</configSections>
 	
 ````
 
@@ -47,16 +47,16 @@ This example shows how to declaratively bind **RadScheduler** to one of the supp
 
 ````XML
 	
-	<telerik.web.ui>
-	  <radScheduler defaultAppointmentProvider="Integrated">
-	      <appointmentProviders>
-	          <add name="XmlSchedulerProvider1"
-	               type="Telerik.Web.UI.XmlSchedulerProvider"
-	               fileName="~/App_Data/Appointments.xml"
-	               persistChanges="true"/>
-	      </appointmentProviders>
-	  </radScheduler>
-	</telerik.web.ui>       
+<telerik.web.ui>
+  <radScheduler defaultAppointmentProvider="Integrated">
+	  <appointmentProviders>
+		  <add name="XmlSchedulerProvider1"
+			   type="Telerik.Web.UI.XmlSchedulerProvider"
+			   fileName="~/App_Data/Appointments.xml"
+			   persistChanges="true"/>
+	  </appointmentProviders>
+  </radScheduler>
+</telerik.web.ui>       
 	
 ````
 
