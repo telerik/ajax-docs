@@ -12,26 +12,29 @@ position: 3
 
 
 
-## 
 
-**RadTileList** supports **drag-and-drop** for **reordering of the tiles** and for**moving tiles from one group to another**. This includes **creating a new group**. The tiles arereordered in realtime around the tile that is being dragged.
+**RadTileList** supports **drag-and-drop** for **reordering of the tiles** and for **moving tiles from one group to another**. This includes **creating a new group**. The tiles are reordered in realtime around the tile that is being dragged.
 
-The drag-and-drop functionality is enabled by setting the TileList's **EnableDragAndDrop** property to**true**. Its default value is *false*.
+The drag-and-drop functionality is enabled by setting the TileList's **EnableDragAndDrop** property to **true**. Its default value is *false*.
 
 >note If the end user reorders the tiles this new order will be persisted across postbacks.
->
+
 
 
 For desktop devices the left mouse button is pressed and held down over the tile to start dragging it.
 
-For mobile devices press and hold over the tile for a second and an indicator will appear that shows the tile can be[selected]({%slug tilelist/functionality/selecting%}) and if it is not dragged only a little upward	or downward to trigger selection dragging will be initiated (e.g. when the selection threshold is exceeded).
+For mobile devices press and hold over the tile for a second and an indicator will appear that shows the tile can be [selected]({%slug tilelist/functionality/selecting%}) and if it is not dragged only a little upward	or downward to trigger selection, dragging will be initiated (i.e., when the selection threshold is exceeded).
 
-To create a new tile group drag the tile to the gap between two existing groups or to the end of the control. When themouse pointer or finger is above the gap large border will appear that indicates a new group will be created there:![tile List-drag-drop-new-group-indicator](images/tileList-drag-drop-new-group-indicator.jpg)
+To create a new tile group drag the tile to the gap between two existing groups or to the end of the control. When the mouse pointer or finger is above the gap large border will appear that indicates a new group will be created there:
 
->tip You can use the[RadPersistenceFramework](8fc21445-ae36-4444-9e27-954d3cb99750)to store the order and selected state of tiles for your end users, so they can customize the appearance of their TileList.
->
+>caption Figure 1: Creating a new group by dragging a tile over the gap between the existing groups.
+
+![tile List-drag-drop-new-group-indicator](images/tileList-drag-drop-new-group-indicator.jpg)
+
+>tip You can use the [RadPersistenceFramework]({%slug persistenceframework/overview%}) to store the order and selected state of tiles for your end users, so they can customize the appearance of their TileList.
 
 
->tip If you want to capture certain events in the tiles' content (e.g., input elements in a RadContentTemplateTile),	you need to prevent the mousedown event bubbling for these elements because otherwise it will initiate a tile drag and get cancelled.	You can find examples in the[Drag and Drop with ContentTemplateTile that has input elements](http://www.telerik.com/support/kb/aspnet-ajax/tilelist/details/drag-and-drop-with-contenttemplatetile-input-elements)KB article.
->
+
+>tip If you want to capture certain events in the tiles' content (e.g., input elements in a RadContentTemplateTile), you need to prevent the mousedown event bubbling for these elements because otherwise it will initiate a tile drag and get cancelled. You can find examples in the [Drag and Drop with ContentTemplateTile that has input elements](http://www.telerik.com/support/kb/aspnet-ajax/tilelist/details/drag-and-drop-with-contenttemplatetile-input-elements) KB article.
+
 

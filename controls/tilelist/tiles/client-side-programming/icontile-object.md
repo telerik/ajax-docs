@@ -1,6 +1,6 @@
 ---
 title: IconTile Object
-page_title: IconTile Object | RadTileList for ASP.NET AJAX Documentation
+page_title: IconTile Object | RadTile for ASP.NET AJAX Documentation
 description: IconTile Object
 slug: tilelist/tiles/client-side-programming/icontile-object
 tags: icontile,object
@@ -12,12 +12,9 @@ position: 3
 
 
 
-## 
-
 This article explains the client-side properties and methods **[RadIconTile]({%slug tilelist/tiles/icon-tile%})** exposes.
 
 >note  **RadIconTile** inherits the **[RadBaseTile]({%slug tilelist/tiles/client-side-programming/basetile-object%})** type and has the API it provides in addition to the IconTile specific methods.
->
 
 
 At the moment, RadIconTile does not expose any specific methods or properties.

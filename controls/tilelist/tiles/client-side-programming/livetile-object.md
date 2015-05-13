@@ -1,6 +1,6 @@
 ---
 title: LiveTile Object
-page_title: LiveTile Object | RadTileList for ASP.NET AJAX Documentation
+page_title: LiveTile Object | RadTile for ASP.NET AJAX Documentation
 description: LiveTile Object
 slug: tilelist/tiles/client-side-programming/livetile-object
 tags: livetile,object
@@ -12,16 +12,16 @@ position: 6
 
 
 
-## 
+
 
 This article explains the client-side properties and methods **[RadLiveTile]({%slug tilelist/tiles/live-tile/overview%})** exposes.
 
 >note  **RadLiveTile** inherits the **[RadBaseTile]({%slug tilelist/tiles/client-side-programming/basetile-object%})** type and has the API it provides in addition to the LiveTile specific methods.
->
 
 
 
->caption 	RadLiveTile Client-Side Methods
+
+>caption RadLiveTile Client-Side Methods
 
 | Name | Parameters | Return Type | Description |
 | ------ | ------ | ------ | ------ |
@@ -33,7 +33,7 @@ This article explains the client-side properties and methods **[RadLiveTile]({%s
 |set_value()|string||Sets the Value property that is sent as a parameter to the webservice.|
 
 
->caption 	RadLiveTile Client-side Methods for Working With Events
+>caption RadLiveTile Client-side Methods for Working With Events
 
 | Name | Parameters | Description |
 | ------ | ------ | ------ |

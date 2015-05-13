@@ -12,14 +12,14 @@ position: 1
 
 
 
-## 
+
 
 A `TileGroupCollection` is obtained by calling the `get_groups()` methodfrom the [RadTileList client-side API]({%slug tilelist/client-side-programming/tilelist-object%}).
 
 The **Telerik.Web.UI.TileList.TileGroupCollection** object exposes the following public methods and properties to control its behavior:
 
 
->caption 	TileGroupCollection Client-Side Methods
+>caption TileGroupCollection Client-Side Methods
 
 | Name | Parameters | Return Type | Description |
 | ------ | ------ | ------ | ------ |

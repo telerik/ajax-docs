@@ -1,6 +1,6 @@
 ---
 title: OnClientTemplateDataBound
-page_title: OnClientTemplateDataBound | RadTileList for ASP.NET AJAX Documentation
+page_title: OnClientTemplateDataBound | RadTile for ASP.NET AJAX Documentation
 description: OnClientTemplateDataBound
 slug: tilelist/tiles/client-side-programming/events/livetile-specific/onclienttemplatedatabound
 tags: onclienttemplatedatabound
@@ -12,9 +12,8 @@ position: 3
 
 
 
-## 
 
-The **OnClientTemplateDataBound** event is fired by the **RadLiveTile** when the data from a successful requestis evaluated and placed in its **ClientTemplate**. It can be used to change the information according to some custom logic or just for notification about the successof the operation.
+The **OnClientTemplateDataBound** event is fired by the **RadLiveTile** when the data from a successful request is evaluated and placed in its **ClientTemplate**. It can be used to change the information according to some custom logic or just for notification about the success of the operation.
 
 The event handler receives two arguments:
 
@@ -35,27 +34,27 @@ The event handler receives two arguments:
 The following example shows how to obtain and how to change the HTML that will be rendered in the tile:
 
 ````JavaScript
-		<script type="text/javascript">
-			function OnClientTemplateDataBound(sender, args)
-			{
-				//modify the template that will be rendered in the tile
-				var updatedHtml = "<div style=\"position: absolute; top: " + Math.floor(Math.random() * 101) + "px; left: " + Math.floor(Math.random() * 101)
-					+ "\">" + args.get_html() + "</div>";
-				args.set_html(updatedHtml);
-			}
-		</script>
-		<div id="log"></div>
-		<telerik:RadLiveTile OnClientTemplateDataBound="OnClientTemplateDataBound" ID="RadLiveTile1"
-							 runat="server" UpdateInterval="7000">
-			<WebServiceSettings Path="TrafficInformation.asmx" Method="GetTrafficDataPerPerson"></WebServiceSettings>
-			<ClientTemplateAnimationSettings Animation="None" AnimationDuration="1000" Easing="" />
-			<ClientTemplate>
-				<div style="width:150px; height: 150px;">
-					<img alt="" src="Img/Customers/#= CustomerID #.jpg" />
-					<div style="color:black; font-weight: bold; position: absolute; bottom: 5px;">Violations: #= Violations #</div>
-					</div>
-			</ClientTemplate>
-		</telerik:RadLiveTile>
+<script type="text/javascript">
+	function OnClientTemplateDataBound(sender, args)
+	{
+		//modify the template that will be rendered in the tile
+		var updatedHtml = "<div style=\"position: absolute; top: " + Math.floor(Math.random() * 101) + "px; left: " + Math.floor(Math.random() * 101)
+			+ "\">" + args.get_html() + "</div>";
+		args.set_html(updatedHtml);
+	}
+</script>
+<div id="log"></div>
+<telerik:RadLiveTile OnClientTemplateDataBound="OnClientTemplateDataBound" ID="RadLiveTile1"
+					 runat="server" UpdateInterval="7000">
+	<WebServiceSettings Path="TrafficInformation.asmx" Method="GetTrafficDataPerPerson"></WebServiceSettings>
+	<ClientTemplateAnimationSettings Animation="None" AnimationDuration="1000" Easing="" />
+	<ClientTemplate>
+		<div style="width:150px; height: 150px;">
+			<img alt="" src="Img/Customers/#= CustomerID #.jpg" />
+			<div style="color:black; font-weight: bold; position: absolute; bottom: 5px;">Violations: #= Violations #</div>
+			</div>
+	</ClientTemplate>
+</telerik:RadLiveTile>
 ````
 
 

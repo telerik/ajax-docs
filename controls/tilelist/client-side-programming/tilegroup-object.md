@@ -12,14 +12,14 @@ position: 2
 
 
 
-## 
 
-A `TileGroup` object is obtained by calling the `getItem()` method of a[TileGroupCollection]({%slug tilelist/client-side-programming/tilegroupcollection-object%}).
+
+A `TileGroup` object is obtained by calling the `getItem()` method of a [TileGroupCollection]({%slug tilelist/client-side-programming/tilegroupcollection-object%}).
 
 The **Telerik.Web.UI.TileList.TileGroup** object exposes the following public methods and properties to control its behavior:
 
 
->caption 	TileGroup Client-Side Methods
+>caption TileGroup Client-Side Methods
 
 | Name | Parameters | Return Type | Description |
 | ------ | ------ | ------ | ------ |

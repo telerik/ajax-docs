@@ -1,6 +1,6 @@
 ---
 title: OnClientDataLoaded
-page_title: OnClientDataLoaded | RadTileList for ASP.NET AJAX Documentation
+page_title: OnClientDataLoaded | RadTile for ASP.NET AJAX Documentation
 description: OnClientDataLoaded
 slug: tilelist/tiles/client-side-programming/events/livetile-specific/onclientdataloaded
 tags: onclientdataloaded
@@ -12,9 +12,8 @@ position: 0
 
 
 
-## 
 
-The **OnClientDataLoaded** event is fired by the **RadLiveTile** when its data request hasreturned successfully. It can be used to change the information according to some custom logic or just for notification about the successof the operation.
+The **OnClientDataLoaded** event is fired by the **RadLiveTile** when its data request has returned successfully. It can be used to change the information according to some custom logic or just for notification about the success of the operation.
 
 The event handler receives two arguments:
 
@@ -33,28 +32,28 @@ The event handler receives two arguments:
 The following example shows how some data can be modified according to a condition so it is presented to the user in a more	meaningful manner:
 
 ````JavaScript
-		<script type="text/javascript">
-			function OnClientDataLoaded(sender, args)
-			{
-				var data = args.get_data();
-				if (data.Violations == 0)
-				{
-					data.Violations = "No traffic violations.";
-				}
-				args.set_data(data);
-			}
-		</script>
-		<telerik:RadLiveTile OnClientDataLoaded="OnClientDataLoaded" ID="RadLiveTile1"
-							 runat="server" UpdateInterval="7000">
-			<WebServiceSettings Path="TrafficInformation.asmx" Method="GetTrafficDataPerPerson"></WebServiceSettings>
-			<ClientTemplateAnimationSettings Animation="None" AnimationDuration="1000" Easing="" />
-			<ClientTemplate>
-				<div style="width:150px; height: 150px;">
-					<img alt="" src="Img/Customers/#= CustomerID #.jpg" />
-					<div style="color:black; font-weight: bold; position: absolute; bottom: 5px;">Violations: #= Violations #</div>
-					</div>
-			</ClientTemplate>
-		</telerik:RadLiveTile>
+<script type="text/javascript">
+	function OnClientDataLoaded(sender, args)
+	{
+		var data = args.get_data();
+		if (data.Violations == 0)
+		{
+			data.Violations = "No traffic violations.";
+		}
+		args.set_data(data);
+	}
+</script>
+<telerik:RadLiveTile OnClientDataLoaded="OnClientDataLoaded" ID="RadLiveTile1"
+					 runat="server" UpdateInterval="7000">
+	<WebServiceSettings Path="TrafficInformation.asmx" Method="GetTrafficDataPerPerson"></WebServiceSettings>
+	<ClientTemplateAnimationSettings Animation="None" AnimationDuration="1000" Easing="" />
+	<ClientTemplate>
+		<div style="width:150px; height: 150px;">
+			<img alt="" src="Img/Customers/#= CustomerID #.jpg" />
+			<div style="color:black; font-weight: bold; position: absolute; bottom: 5px;">Violations: #= Violations #</div>
+			</div>
+	</ClientTemplate>
+</telerik:RadLiveTile>
 ````
 
 

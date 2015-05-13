@@ -12,10 +12,10 @@ position: 0
 
 
 
-## 
 
-Telerik's **TileList** control satisfies the requirements of **Section 508** and those for**Level A** according to the **W3C Web Content Accessibility Guidelines (WCAG) 2.0**.
 
-**RadTileList**is tested with the **WAVE** and **Compliance Sheriff** automated tools.
+Telerik's **TileList** control satisfies the requirements of **Section 508** and those for **Level A** according to the **W3C Web Content Accessibility Guidelines (WCAG) 2.0**.
 
-By itself, **RadTileList** generates as little markup as possible.When creating content, the developer should make sure that content is accessible to persons with disabilities. This is most important for[Live Tiles]({%slug tilelist/tiles/live-tile/overview%}),[ContentTemplate Tiles]({%slug tilelist/tiles/contenttemplate-tile%}) and the[PeekTemplate]({%slug tilelist/tiles/peek-template%}) where the entire content is designed by the developer.
+**RadTileList** is tested with the **WAVE** and **Compliance Sheriff** automated tools.
+
+By itself, **RadTileList** generates as little markup as possible. When creating content, the developer should make sure that content is accessible to persons with disabilities. This is most important for [Live Tiles]({%slug tilelist/tiles/live-tile/overview%}), [ContentTemplate Tiles]({%slug tilelist/tiles/contenttemplate-tile%}) and the [PeekTemplate]({%slug tilelist/tiles/peek-template%}) where the entire content is designed by the developer.

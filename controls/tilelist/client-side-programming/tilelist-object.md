@@ -11,23 +11,22 @@ position: 0
 # TileList Object
 
 
-
-## 
+ 
 
 The **RadTileList** object exposes the following public methods and properties to control its behavior:
 
 
->caption 	Helper Methods
+>caption Helper Methods
 
 | Name | Parameters | ReturnType | Description |
 | ------ | ------ | ------ | ------ |
 |$telerik.findTileList(id, parent)|String, object|RadTileList|Finds a RadTileList instance. The first passed parameter is the string that contains ID of the RadTileList to find and the second one is the component or element that contains it.|
 |$telerik.toTileList(object)||RadTileList|Casts an object to a RadTileList instance.|
 
-To see how to work dynamically with client-side event handlers examine the[Client-side Events Overview help article]({%slug tilelist/client-side-programming/client-side-events/overview%}).
+To see how to work dynamically with client-side event handlers examine the [Client-side Events Overview help article]({%slug tilelist/client-side-programming/client-side-events/overview%}).
 
 
->caption 	RadTileList Client-Side Methods
+>caption RadTileList Client-Side Methods
 
 | Name | Parameters | Return Type | Description |
 | ------ | ------ | ------ | ------ |
@@ -40,26 +39,12 @@ To see how to work dynamically with client-side event handlers examine the[Clien
 |get_clientDataSourceID()||string|Returns the client ID of RadClientDataSource object to which the TileList is data bound.|
 |get_dataSource()||Array|Returns the array to which the TileList is data bound.|
 |get_element()||DOM object|Returns the TileList's main HTML element.|
-|get_enableDragAndDrop()||bool|Returns a value indicating whether the[drag and drop functionality]({%slug tilelist/functionality/drag-and-drop%})is enabled.|
+|get_enableDragAndDrop()||bool|Returns a value indicating whether the [drag and drop functionality]({%slug tilelist/functionality/drag-and-drop%}) is enabled.|
 |get_groups()||[TileGroupCollection]({%slug tilelist/client-side-programming/tilegroupcollection-object%})|Returns Telerik.Web.UI.TileList.TileGroupCollection collection containing all Telerik.Web.UI.TileList.TileGroup items in RadTileList.|
 |get_height()||String|Returns the height of the RadTileList element.|
-|get_scrollingMode()||Int|Returns RadTileList scrollbar mode, where:
-
-* 1 = Auto mode
-
-* 2 = None mode
-
-* 4 = Native mode
-
-* 8 = Accelerate mode|
+|get_scrollingMode()||Int|Returns RadTileList scrollbar mode, where: 1 = Auto mode, 2 = None mode, 4 = Native mode, 8 = Accelerate mode.|
 |get_selectedTiles()||Array|Returns Array containing all selected tiles in RadTileList.|
-|get_selectionMode()||Int|Returns selection mode of RadTileList, where:
-
-* 1 = None mode
-
-* 2 = Single mode
-
-* 4 = Multiple mode|
+|get_selectionMode()||Int|Returns selection mode of RadTileList, where: 1 = None mode, 2 = Single mode, 4 = Multiple mode.|
 |get_tileByAllTilesIndex(index)|Int|[RadBaseTile]({%slug tilelist/tiles/client-side-programming/basetile-object%})|Returns a tile by the index in the Array returned by the get_allTiles method.|
 |get_tileByName(name)|String|[RadBaseTile]({%slug tilelist/tiles/client-side-programming/basetile-object%})|Returns the first tile, which has Name property set equal to the name parameter.|
 |get_tileRows()||int|Returns the number of tile rows in which the tiles are distributed.|
@@ -72,22 +57,8 @@ To see how to work dynamically with client-side event handlers examine the[Clien
 |set_dataSource(data)|Array||Sets the the array to which the TileList is data bound.|
 |set_enableDragAndDrop(value)|bool||Sets a value indicating whether a drag and drop functionality is enabled.|
 |set_height(value)|String/int||Sets the height of the RadTileList element.|
-|set_scrollingMode(value)|Int||Sets the RadTileList[scrolling mode]({%slug tilelist/functionality/scrolling%}).	The`Telerik.Web.UI.TileList.TileListScrollingMode`enum can be used	instead of an integer, where:
-
-* 1 = Telerik.Web.UI.TileList.TileListScrollingMode. **Auto** mode
-
-* 2 = Telerik.Web.UI.TileList.TileListScrollingMode. **None** mode
-
-* 4 = Telerik.Web.UI.TileList.TileListScrollingMode. **Native** mode
-
-* 8 = Telerik.Web.UI.TileList.TileListScrollingMode. **Accelerated** mode|
-|set_selectionMode(value)|Int||Sets the[selection mode]({%slug tilelist/functionality/selecting%})of RadTileList.	The`Telerik.Web.UI.TileList.TileListSelectionMode`enum can be used	instead of an integer, where:
-
-* 1 = Telerik.Web.UI.TileList.TileListSelectionMode. **None** mode
-
-* 2 = Telerik.Web.UI.TileList.TileListSelectionMode. **Single** mode
-
-* 4 = Telerik.Web.UI.TileList.TileListSelectionMode. **Multiple** mode|
+|set_scrollingMode(value)|Int||Sets the RadTileList [scrolling mode]({%slug tilelist/functionality/scrolling%}). The`Telerik.Web.UI.TileList.TileListScrollingMode` enum can be used	instead of an integer, where: 1 = Telerik.Web.UI.TileList.TileListScrollingMode.**Auto** mode, 2 = Telerik.Web.UI.TileList.TileListScrollingMode.**None** mode, 4 = Telerik.Web.UI.TileList.TileListScrollingMode.**Native** mode, 8 = Telerik.Web.UI.TileList.TileListScrollingMode.**Accelerated** mode.|
+|set_selectionMode(value)|Int||Sets the [selection mode]({%slug tilelist/functionality/selecting%})of RadTileList. The`Telerik.Web.UI.TileList.TileListSelectionMode` enum can be used	instead of an integer, where: 1 = Telerik.Web.UI.TileList.TileListSelectionMode.**None** mode, 2 = Telerik.Web.UI.TileList.TileListSelectionMode.**Single** mode, 4 = Telerik.Web.UI.TileList.TileListSelectionMode.**Multiple** mode.|
 |set_width(value)|String/int||Sets the width of the RadTileList element.|
 
 

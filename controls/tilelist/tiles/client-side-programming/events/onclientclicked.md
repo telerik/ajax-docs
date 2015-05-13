@@ -1,6 +1,6 @@
 ---
 title: OnClientClicked
-page_title: OnClientClicked | RadTileList for ASP.NET AJAX Documentation
+page_title: OnClientClicked | RadTile for ASP.NET AJAX Documentation
 description: OnClientClicked
 slug: tilelist/tiles/client-side-programming/events/onclientclicked
 tags: onclientclicked
@@ -11,8 +11,6 @@ position: 1
 # OnClientClicked
 
 
-
-## 
 
 The **OnClientClicked** event is raised after a [Tile]({%slug tilelist/tiles/overview%}) is clicked and therefore after the [OnClientClicking event]({%slug tilelist/tiles/client-side-programming/events/onclientclicking%}) and before the [server-side OnClick event]({%slug tilelist/tiles/server-side-programming/events/onclick%}). It is *not* cancellable. If the OnClientClicking event is cancelled it will not be fired.
 
@@ -32,31 +30,31 @@ The event handler receives two arguments:
 |  **Name**  |  **Return type**  |  **Arguments**  |  **Description**  |
 | ------ | ------ | ------ | ------ |
 |get_cancel()|bool||Gets a value that indicates whether the event is cancelled.|
-|get_newValue()|string||Gets the current URL the tile will navigate to. It could have been changed dynamically in the[OnClientClicking event]({%slug tilelist/tiles/client-side-programming/events/onclientclicking%}).|
+|get_newValue()|string||Gets the current URL the tile will navigate to. It could have been changed dynamically in the [OnClientClicking event]({%slug tilelist/tiles/client-side-programming/events/onclientclicking%}).|
 |get_oldValue()|string||Gets the original NavigateUrl of the clicked tile. It can be used to compare the current and original values.|
 |set_cancel(value)||bool|Sets whether the event will be cancelled (if true is passed).|
 
 The following example shows how to get and set the **navigateURL** property of a Tile in the **OnClientClicked** event.
 
 ````JavaScript
-	        <telerik:RadTextTile ID="Tile1" runat="server" Name="Sample Text Tile" Text="Lorem ipsum dolor sit amet" Title-Text="Sample"
-	            OnClientClicked="OnClientClicked">
-	        </telerik:RadTextTile>
-	
-	        <script type="text/javascript">
-	            function OnClientClicked(tile, args) {
-	                var url = args.get_oldValue();
-	
-	                //confirm navigation if url has been specified
-	                if (url != "") {
-	                    confirm(String.format('Page will navigate to {0}', url));
-	                }
-	                    //request navigation url to be set
-	                else {
-	                    tile.set_navigateUrl(prompt("No url specified. Please enter a navigation url:"));
-	                }
-	            }
-	        </script>
+<telerik:RadTextTile ID="Tile1" runat="server" Name="Sample Text Tile" Text="Lorem ipsum dolor sit amet" Title-Text="Sample"
+    OnClientClicked="OnClientClicked">
+</telerik:RadTextTile>
+
+<script type="text/javascript">
+    function OnClientClicked(tile, args) {
+        var url = args.get_oldValue();
+
+        //confirm navigation if url has been specified
+        if (url != "") {
+            confirm(String.format('Page will navigate to {0}', url));
+        }
+            //request navigation url to be set
+        else {
+            tile.set_navigateUrl(prompt("No url specified. Please enter a navigation url:"));
+        }
+    }
+</script>
 ````
 
 
@@ -64,24 +62,24 @@ The following example shows how to get and set the **navigateURL** property of a
 The code snippet below shows how to use the **OnClientClicked** event to check if the navigation URL of a Tile has been set to a new value.
 
 ````JavaScript
-	        <telerik:RadTextTile ID="Tile1" runat="server" Name="Sample Text Tile" Text="Lorem ipsum dolor sit amet" Title-Text="Sample"
-	            OnClientClicking="OnClientClicking" OnClientClicked="OnClientClicked" NavigateUrl="http://demos.telerik.com">
-	        </telerik:RadTextTile>
-	
-	        <script type="text/javascript">
-	            function OnClientClicking(tile, args) {
-	                args.set_value("http://www.telerik.com");
-	                alert("New Navigation URL set to \'http//:www.telerik.com\'.");
-	            }
-	
-	            function OnClientClicked(tile, args) {
-	                var oldValue = args.get_oldValue();
-	                var newValue = args.get_newValue();
-	                if (oldValue != newValue) {
-	                    alert(String.format("Navigation URL changed from \'{0}\' to \'{1}\'.", oldValue, newValue));
-	                }
-	            }
-	        </script>
+<telerik:RadTextTile ID="Tile1" runat="server" Name="Sample Text Tile" Text="Lorem ipsum dolor sit amet" Title-Text="Sample"
+    OnClientClicking="OnClientClicking" OnClientClicked="OnClientClicked" NavigateUrl="http://demos.telerik.com">
+</telerik:RadTextTile>
+
+<script type="text/javascript">
+    function OnClientClicking(tile, args) {
+        args.set_value("http://www.telerik.com");
+        alert("New Navigation URL set to \'http//:www.telerik.com\'.");
+    }
+
+    function OnClientClicked(tile, args) {
+        var oldValue = args.get_oldValue();
+        var newValue = args.get_newValue();
+        if (oldValue != newValue) {
+            alert(String.format("Navigation URL changed from \'{0}\' to \'{1}\'.", oldValue, newValue));
+        }
+    }
+</script>
 ````
 
 

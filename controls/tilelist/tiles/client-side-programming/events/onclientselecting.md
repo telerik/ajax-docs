@@ -1,6 +1,6 @@
 ---
 title: OnClientSelecting
-page_title: OnClientSelecting | RadTileList for ASP.NET AJAX Documentation
+page_title: OnClientSelecting | RadTile for ASP.NET AJAX Documentation
 description: OnClientSelecting
 slug: tilelist/tiles/client-side-programming/events/onclientselecting
 tags: onclientselecting
@@ -11,8 +11,6 @@ position: 3
 # OnClientSelecting
 
 
-
-## 
 
 The **OnClientSelecting** event is raised just before a [Tile]({%slug tilelist/tiles/overview%}) is [selected]({%slug tilelist/functionality/selecting%}). It is cancellable and precedes the [OnClientSelected event]({%slug tilelist/tiles/client-side-programming/events/onclientselected%}). If it is cancelled the **OnClientSelected** event is not raised.
 
@@ -37,18 +35,18 @@ The event handler receives two arguments:
 The following example shows how to get information about a tile using the **OnClientSelecting** event of the **Tile**. Note that the event is cancellable and that selection is performed by right-clicking on a tile.
 
 ````JavaScript
-	        <telerik:RadTextTile ID="Tile1" runat="server" Name="Sample Text Tile" Text="Lorem ipsum dolor sit amet" Title-Text="Sample"
-	             OnClientSelecting="OnClientSelecting" EnableSelection="true">
-	        </telerik:RadTextTile>
-	
-	        <script type="text/javascript">
-	            function OnClientSelecting(tile, args) {
-	                var response = confirm(String.format("Toggle the selection of {0}?", tile.get_name()));
-	                if (!response) {
-	                    args.set_cancel(true);
-	                }
-	            }
-	        </script>
+<telerik:RadTextTile ID="Tile1" runat="server" Name="Sample Text Tile" Text="Lorem ipsum dolor sit amet" Title-Text="Sample"
+     OnClientSelecting="OnClientSelecting" EnableSelection="true">
+</telerik:RadTextTile>
+
+<script type="text/javascript">
+    function OnClientSelecting(tile, args) {
+        var response = confirm(String.format("Toggle the selection of {0}?", tile.get_name()));
+        if (!response) {
+            args.set_cancel(true);
+        }
+    }
+</script>
 ````
 
 

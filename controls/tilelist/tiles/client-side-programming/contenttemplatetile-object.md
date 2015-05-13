@@ -1,6 +1,6 @@
 ---
 title: ContentTemplateTile Object
-page_title: ContentTemplateTile Object | RadTileList for ASP.NET AJAX Documentation
+page_title: ContentTemplateTile Object | RadTile for ASP.NET AJAX Documentation
 description: ContentTemplateTile Object
 slug: tilelist/tiles/client-side-programming/contenttemplatetile-object
 tags: contenttemplatetile,object
@@ -12,7 +12,6 @@ position: 2
 
 
 
-## 
 
 This article explains the client-side properties and methods **[RadContentTemplateTile]({%slug tilelist/tiles/contenttemplate-tile%})** exposes.
 

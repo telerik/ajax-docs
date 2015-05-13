@@ -1,6 +1,6 @@
 ---
 title: TextTile Object
-page_title: TextTile Object | RadTileList for ASP.NET AJAX Documentation
+page_title: TextTile Object | RadTile for ASP.NET AJAX Documentation
 description: TextTile Object
 slug: tilelist/tiles/client-side-programming/texttile-object
 tags: texttile,object
@@ -12,16 +12,14 @@ position: 7
 
 
 
-## 
-
 This article explains the client-side properties and methods **[RadTextTile]({%slug tilelist/tiles/text-tile%})** exposes.
 
 >note  **RadTextTile** inherits the **[RadBaseTile]({%slug tilelist/tiles/client-side-programming/basetile-object%})** type and has the API it provides in addition to the TextTile specific methods.
->
 
 
 
->caption 	RadTextTile Client-Side Methods
+
+>caption RadTextTile Client-Side Methods
 
 | Name | Parameters | Return Type | Description |
 | ------ | ------ | ------ | ------ |

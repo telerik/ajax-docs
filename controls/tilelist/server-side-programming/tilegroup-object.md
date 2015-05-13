@@ -12,17 +12,17 @@ position: 1
 
 
 
-## 
 
-A **TileGroup** object is obtained from the [TileList Object]({%slug tilelist/server-side-programming/tilelist-object%})though its **Groups** collection which offers an enumerator.
+
+A **TileGroup** object is obtained from the [TileList Object]({%slug tilelist/server-side-programming/tilelist-object%}) though its **Groups** collection which offers an enumerator.
 
 
 >caption Public methods
 
 |  **Name**  |  **Return type**  |  **Description**  |
 | ------ | ------ | ------ |
-| **GetAllTiles** |List<Telerik.Web.UI.RadBaseTile>|Gets all tiles inside the group.|
-| **GetSelectedTiles** |List<Telerik.Web.UI.RadBaseTile>|Gets the selected tiles from the group.|
+| **GetAllTiles** |`List<Telerik.Web.UI.RadBaseTile>`|Gets all tiles inside the group.|
+| **GetSelectedTiles** |`List<Telerik.Web.UI.RadBaseTile>`|Gets the selected tiles from the group.|
 
 
 >caption Public properties
@@ -30,4 +30,4 @@ A **TileGroup** object is obtained from the [TileList Object]({%slug tilelist/se
 |  **Name**  |  **Return type**  |  **Description**  |
 | ------ | ------ | ------ |
 | **Name** |string|Gets or sets the Name of the group.|
-| **Tiles** |Telerik.Web.UI.BaseTileCollection|Gets the children of the group. The collection can be modified by adding/removing tiles.|
+| **Tiles** |`Telerik.Web.UI.BaseTileCollection`|Gets the children of the group. The collection can be modified by adding/removing tiles.|
