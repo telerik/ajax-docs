@@ -27,7 +27,7 @@ For instance, if you need to alter the Black skin of the RadGrid Control you wil
 Here follows an example how several controls that are used together should look like when archived. Having more than one control does not change the structure of the archive,	the needed files and folders are merely added. This allows for skinning several controls at a time.
 ![introduction-stylebuilder-archive-structure](images/introduction-stylebuilder-archive-structure.png)
 
->tip Make sure that the files inside have no custom permissions and attributes - i.e. they should *not* be read-only,access to them should *not* be explicitly limited to given users on the local machine, etc. Having files that cannot be accessed or modified means the Visual StyleBuilder cannot work with them and cannot generate the new archive.
+>tip Make sure that the files inside have no custom permissions and attributes - i.e. they should *not* be read-only, access to them should *not* be explicitly limited to given users on the local machine, etc. Having files that cannot be accessed or modified means the Visual StyleBuilder cannot work with them and cannot generate the new archive.
 >
 
 

@@ -12,7 +12,7 @@ position: 1
 
 
 
-The __Visual StyleBuilder__ offers two main paths - creating a new skin from an existing one or	[editing an already existing custom skin]({%slug introduction/visual-stylebuilder/edit-existing-skin%}).
+The **Visual StyleBuilder** offers two main paths - creating a new skin from an existing one or	[editing an already existing custom skin]({%slug introduction/visual-stylebuilder/edit-existing-skin%}).
 
 >important The Visual StyleBuilder tool can be used only for editing the skin-specific stylesheets of the controls. This means that fonts, colours,images can be modified and small changes to paddings and margins can be made, but the base stylesheet will not be altered or included inthe resulting package.
 >
