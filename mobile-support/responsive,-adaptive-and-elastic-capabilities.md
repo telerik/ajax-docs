@@ -57,7 +57,7 @@ A control can hardly be considered responsive by itself, because this heavily de
 |Grid|No|Yes|No|[Yes](acbdbc51-e93d-43f2-aa4a-a83f0f352d87)|
 |ImageEditor|No|Yes|No|No|
 |ImageGallery|Yes|Yes|No|No|
-|Input|Yes|Yes|N/A|No|
+|Input|Yes|No|N/A|No|
 |LightBox|Yes|Yes|No|Yes|
 |ListBox|Yes|Yes|N/A|N/A|
 |ListView|No|Yes|No|No|
