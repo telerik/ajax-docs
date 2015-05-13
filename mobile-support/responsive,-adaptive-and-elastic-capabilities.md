@@ -27,7 +27,7 @@ A control can hardly be considered responsive by itself, because this heavily de
 * **Adaptive** — an adaptive control can change its HTML rendering and layout according to the device it is displayed on. Usually, at least one mode is optimized for mobile devices.
 
 
->caption Table 1: A list with the responsive capabilities the controls from the UI for ASP.NET AJAX suite offer. 
+>caption Table 1: A list with the responsive capabilities the controls from the UI for ASP.NET AJAX suite offer.
 
 | Control | Elastic | Fluid | Responsive | Adaptive |
 | ------ | ------ | ------ | ------ | ------ |
@@ -102,7 +102,7 @@ A control can hardly be considered responsive by itself, because this heavily de
 
 **Example 1** provides the CSS selectors that let you resize the supported controls' UI elements via a font-size change. You can find detailed explanations on how this feature is supported in each control in **Table 1** above. **Example 2** shows the selectors used for *RadFormDecorator*. For more information, see the [Elastic capabilities in RadFormDecorator](e139b982-5e30-48fb-9b98-845d8b74d8ed) help article.
 
-**Example 1:** CSS selectors to enable the elastic design capabilities of the controls in the UI for ASP.NET AJAX suite
+**Example 1:** CSS selectors to make avail of the elastic design capabilities of the controls in the UI for ASP.NET AJAX suite
 
 ````CSS
 /* AutoCompleteBox */ html .RadAutoCompleteBox, html .RadAutoCompleteBoxPopup,
@@ -121,6 +121,7 @@ A control can hardly be considered responsive by itself, because this heavily de
 /* Filter */ html .RadFilter, html .RadMenu,
 /* Gantt */ html .RadGantt,
 /* ImageGallery */ html .RadImageGallery,
+/* Input */ html .RadInput,
 /* LightBox */ html .RadLightBox,
 /* ListBox */ html .RadListBox,
 /* Map */ html .RadMap,
@@ -148,7 +149,7 @@ A control can hardly be considered responsive by itself, because this heavily de
 
 
 
-**Example 2:** CSS selectors to enable elastic design capabilities for elements decorated by RadFormDecorator
+**Example 2:** CSS selectors to make avail of elastic design capabilities for elements decorated by RadFormDecorator
 
 ````JavaScript
 /* FormDecorator */
@@ -203,3 +204,5 @@ html.RadForm .rfdRadioUnchecked .rfdToggleImage
 }
 ````
 
+
+   
