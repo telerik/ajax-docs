@@ -80,6 +80,3 @@ Here is a list of the required steps to perform:
 
 1. Click the "Get Assembly" button.
 
->note Note that the current version of the **Skin's Assembly Builder** tool does not work with **3.5** version of **Telerik.Web.UI** . Therefore you should use **4.0** or **4.5** version of the controls.
->
-
