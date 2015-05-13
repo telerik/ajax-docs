@@ -289,6 +289,15 @@ The following example shows the declaration of a **GridCheckBoxColumn**:
 >note See the section below for a comparison between **GridCheckBoxColumn** and a template column that contains a check box.
 >
 
+**GridCheckBoxColumn** also provides **StringTrueValue** and **StringFalseValue** properties to use when binding the column to a String type field, which may contain "Yes" or "No", "1" or "0", etc.
+
+````ASP.NET
+<telerik:GridCheckBoxColumn DataField="StringField" DataType="System.Boolean"
+    FilterControlAltText="Filter StringField column" HeaderText="StringField"
+    SortExpression="StringField" UniqueName="StringField" StringFalseValue="Yes"
+    StringTrueValue="No">
+</telerik:GridCheckBoxColumn>
+````
 
 ## GridClientSelectColumn
 
@@ -505,15 +514,15 @@ The following syntax of the binding expressions is supported:
 
 ````ASP.NET
 <telerik:GridTemplateColumn HeaderText="Check/UnCheck" UniqueName="TemplateColumn">
-  <EditItemTemplate>    
-      <asp:CheckBox id="editChkBox" runat="server"      
-      Checked='<%# Bind("Bool") %>'>     
-      </asp:CheckBox>   
+  <EditItemTemplate>
+      <asp:CheckBox id="editChkBox" runat="server"
+      Checked='<%# Bind("Bool") %>'>
+      </asp:CheckBox>
   </EditItemTemplate>
-  <ItemTemplate>      
-      <asp:CheckBox id="defaultChkBox" runat="server"      
-      Checked='<%# Eval("Bool") %>'>    
-      </asp:CheckBox>   
+  <ItemTemplate>
+      <asp:CheckBox id="defaultChkBox" runat="server"
+      Checked='<%# Eval("Bool") %>'>
+      </asp:CheckBox>
   </ItemTemplate>
 </telerik:GridTemplateColumn>
 ````
@@ -571,7 +580,7 @@ if (e.CommandName == RadGrid.DownloadAttachmentCommandName)
     GridDownloadAttachmentCommandEventArgs args = e as GridDownloadAttachmentCommandEventArgs;
     string fileName = args.FileName;
     int attachmentId = (int)args.AttachmentKeyValues["ID"];
-}			
+}
 ````
 
 
@@ -588,7 +597,7 @@ protected void DownloadButton_Click(object sender, EventArgs e)
     parameters["FileName"] = fileName;
     parameters["ID"] = attachmentId;
     RadGrid1.Items[0].FireCommandEvent(RadGrid.DownloadAttachmentCommandName, parameters);
-}			
+}
 ````
 
 
