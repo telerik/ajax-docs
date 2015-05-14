@@ -78,7 +78,9 @@ position: 3
 
 # See Also
 
- * [Tutorial: Creating a Custom Skin]({%slug tooltip/appearance-and-styling/tutorial:-creating-a-custom-skin%})
+ * [Tutorial: Creating a Custom Lightweight Skin]({%slug tooltip/appearance-and-styling/tutorial-creating-custom-lightweight-skin%})
+
+ * [Tutorial: Creating a Custom Classic Skin]({%slug tooltip/appearance-and-styling/tutorial-creating-custom-classic-skin%})
 
  * [Skins]({%slug tooltip/appearance-and-styling/skins%})
 
