@@ -34,19 +34,19 @@ The following properties and methods are used when binding the **RadTreeView** t
 
 * **DataMember** property: If the data source is a **DataSet** and **DataMember** is set, then the **RadTreeView** is bound to the **DataTable** with the respective name in the **DataSet**. If **DataMember** is not set, the **RadTreeView** is bound to the first **DataTable** in the **DataSet**.
 
-* **DataFieldID**property: This is the field name from the data source used to uniquely identify each row. This field is required when [binding to hierarchical data]({%slug treeview/data-binding/binding-to-hierarchical-data%}).
+* **DataFieldID** property: This is the field name from the data source used to uniquely identify each row. This field is required when [binding to hierarchical data]({%slug treeview/data-binding/binding-to-hierarchical-data%}).
 
-* **DataFieldParentID**property: This is the field name from the data source used to identify the row for the parent node. This field is required when [binding to hierarchical data]({%slug treeview/data-binding/binding-to-hierarchical-data%}).
+* **DataFieldParentID** property: This is the field name from the data source used to identify the row for the parent node. This field is required when [binding to hierarchical data]({%slug treeview/data-binding/binding-to-hierarchical-data%}).
 
-* **DataTextField property:**This is the field name from the data source that populates each Node's**Text** property during binding.
+* **DataTextField** property: This is the field name from the data source that populates each Node's **Text** property during binding.
 
 * **DataValueField** property: This is the field name from the data source that populates each Node's **Value** property during binding.
 
-* **DataNavigateUrlField**property: This is the field name from the data source that populates each Node's **NavigateUrlField**property during binding.
+* **DataNavigateUrlField** property: This is the field name from the data source that populates each Node's **NavigateUrlField** property during binding.
 
 * **DataBind** method: Call this method after you have set the aforementioned properties when binding at runtime. This method is mandatory for binding at runtime.
 
->note If you need to map additional fields from the Data Source to properties of the **RadTreeView** Node, you can use the **[NodeDataBound event]({%slug treeview/data-binding/using-additional-columns%})** .
+>note If you need to map additional fields from the Data Source to properties of the **RadTreeView** Node, you can use the [NodeDataBound event]({%slug treeview/data-binding/using-additional-columns%}).
 >
 
 
@@ -56,16 +56,14 @@ The following properties and methods are used when binding the **RadTreeView** t
 
 ## Binding depth
 
-**RadTreeView** exposes the **MaxDataBindDepth** property. This property is used to determine the binding depth. If for example you want to bind only the first two levels of the TreeView, you should set this property to **2**. The default value of the **MaxDataBindDepth** property is **-1**, which means that all Nodes will be bound. Marking the TreeView instance with **MaxDataBindDepth="0"** will NOT bind any Nodes.
+**RadTreeView** exposes the **MaxDataBindDepth** property. This property is used to determine the binding depth. If for example you want to bind only the first two levels of the TreeView, you should set this property to **2**. The default value of the **MaxDataBindDepth** property is **-1**, which means that all Nodes will be bound. Marking the **TreeView** instance with **MaxDataBindDepth="0"** will NOT bind any Nodes.
 
 ## Using Templates with Data-bound Items
 
-You can also use [Templates]({%slug treeview/templates/overview%}) with a data-bound **RadTreeView**. To bind template items to column values, use DataBinder.Eval expressions in the Template's definition:
+You can also use [Templates]({%slug treeview/templates/overview%}) with a data-bound **RadTreeView**. To bind template items to column values, use **DataBinder.Eval** expressions in the Template's definition:
 
 ````ASPNET
-	     
-		<%# DataBinder.Eval(Container.DataItem, "ColumnName") %>
-				
+<%# DataBinder.Eval(Container.DataItem, "ColumnName") %>
 ````
 
 

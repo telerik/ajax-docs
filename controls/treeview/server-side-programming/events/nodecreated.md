@@ -14,30 +14,26 @@ position: 6
 
 ## 
 
-The NodeCreated event fires when new Nodes are created and added to the RadTreeView. The **RadTreeNodeEventArgs** provides a reference to the newly created Node.
+The **NodeCreated** event fires when new Nodes are created and added to the **RadTreeView**. The **RadTreeNodeEventArgs** provides a reference to the newly created Node.
 
 
 
 ````C#
-	     
-		protected void RadTreeView1_NodeCreated(object sender, Telerik.Web.UI.RadTreeNodeEventArgs e)
-	    {    
-	        e.Node.Text = "NodeCreated fired";
-	    }
-				
+protected void RadTreeView1_NodeCreated(object sender, Telerik.Web.UI.RadTreeNodeEventArgs e)
+{    
+    e.Node.Text = "NodeCreated fired";
+}	
 ````
 ````VB.NET
-	     
-	    Protected Sub RadTreeView1_NodeCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.RadTreeNodeEventArgs)
-	        e.Node.Text = "NodeCreated fired"
-	    End Sub
-	
+Protected Sub RadTreeView1_NodeCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.RadTreeNodeEventArgs)
+    e.Node.Text = "NodeCreated fired"
+End Sub
 ````
 
 
 # See Also
 
- * [Overview]({%slug treeview/server-side-programming/events/overview%})
+ * [Server-side events Overview]({%slug treeview/server-side-programming/events/overview%})
 
  * [NodeCheck]({%slug treeview/server-side-programming/events/nodecheck%})
 

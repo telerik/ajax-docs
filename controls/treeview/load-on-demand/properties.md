@@ -32,3 +32,5 @@ position: 6
 ![RadTreeView Load on Demand](images/treeview_loadondemandproperties.png)
 
 * When the **PersistLoadOnDemandNodes**property is **True** (the default), nodes populated through load-on-demand are persisted on the server automatically.
+
+

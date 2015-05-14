@@ -14,30 +14,27 @@ position: 1
 
 ## 
 
-The **OnClientLoad** event fires after the RadTreeView client-side object has been fully initialized.
+The **OnClientLoad** event fires after the **RadTreeView** client-side object has been fully initialized.
 
 The event handler has two parameters:
 
-1. The treeview instance that fired the event.
+1. The **TreeView** instance that fired the event.
 
 1. An empty event arguments object.
 
-The example below demonstrates handling the **OnClientLoad** event and displaying the id of the initialized RadTreeView object to the user:
+The example below demonstrates handling the **OnClientLoad** event and displaying the id of the initialized **RadTreeView** object to the user:
 
 ````ASPNET
-	
-	    <script type="text/javascript">
-	
-	        function onLoad(sender, eventArgs) 
-	        {
-	            alert(sender.get_id());
-	        }
-	    </script>
-	
-	    <telerik:RadTreeView ID="RadTreeView1" 
-	                         runat="server" 
-	                         OnClientLoad="onLoad">
-	    </telerik:RadTreeView>
+<telerik:RadTreeView ID="RadTreeView1" 
+                     runat="server" 
+                     OnClientLoad="onLoad">
+</telerik:RadTreeView>
+````
+````JavaScript
+function onLoad(sender, eventArgs) 
+{
+	alert(sender.get_id());
+}
 ````
 
 

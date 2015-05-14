@@ -14,26 +14,21 @@ position: 20
 
 ## 
 
-Normally, you [set the ToolTip]({%slug treeview/radtreeview-nodes/overview%}) property of the node server-side. Here is how you can set the tooltip at the client using javascript:
+Normally, you [set the ToolTip]({%slug treeview/radtreeview-nodes/overview%}) property of the node server-side. Here is how you can set the tooltip at the client using JavaScript:
 
 ````JavaScript
-	     
-		node.set_toolTip("my custom tooltip set with javascript");
-				
+node.set_toolTip("my custom tooltip set with javascript");	
 ````
 
 
 
-````JavaScript
-	     
-	
-	    node.get_textElement().title = "my custom tooltip set with javascript";
-				
+````JavaScript	
+node.get_textElement().title = "my custom tooltip set with javascript";	
 ````
 
 
 
-In the above code snippets **node** is a reference to a node of the treeview.
+In the above code snippets **node** is a reference to a node of the **TreeView**.
 
 # See Also
 

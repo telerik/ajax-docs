@@ -18,7 +18,7 @@ The **OnClientNodeClicked** client-side event occurs when the end user navigates
 
 The event handler receives parameters:
 
-1. The treeview instance that fired the event.
+1. The **TreeView** instance that fired the event.
 
 1. Event arguments with function:
 
@@ -28,19 +28,16 @@ The event handler receives parameters:
 
 The example below displays the text for the clicked node.
 
-````ASPNET
-	
-	    <script type="text/javascript" language="javascript">
-	        function ClientNodeClicked(sender, eventArgs) {
-	            var node = eventArgs.get_node();
-	            alert("You clicked " + node.get_text());
-	        }
-	    </script>
-	
-	    <telerik:RadTreeView ID="RadTreeView1" runat="server" OnClientNodeClicked="ClientNodeClicked">
-	    </telerik:RadTreeView>
+````ASPNET	
+<telerik:RadTreeView ID="RadTreeView1" runat="server" OnClientNodeClicked="ClientNodeClicked">
+</telerik:RadTreeView>
 ````
-
+````JavaScript
+function ClientNodeClicked(sender, eventArgs) {
+	var node = eventArgs.get_node();
+	alert("You clicked " + node.get_text());
+}
+````
 
 
 # See Also

@@ -14,21 +14,19 @@ position: 3
 
 ## 
 
-The built-in Context Menu of RadTreeView allows you to add Items at the client-side. The example below shows how to add a child Item upon clicking an existing Item:
-
-**JavaScript Example**
+The built-in Context Menu of **RadTreeView** allows you to add Items at the client-side. The example below shows how to add a child Item upon clicking an existing Item:
 
 ````JavaScript
-	      function OnClientContextMenuItemClicked(sender, eventArgs)
-	        {  
-	          var item = eventArgs.get_menuItem();
-	          var menu = item.get_menu();            
-	          sender.trackChanges();
-	          var newItem = new Telerik.Web.UI.RadMenuItem();
-	          newItem.set_text("Client-side added item");
-	          item.get_items().add(newItem);
-	          sender.commitChanges();
-	        }
+function OnClientContextMenuItemClicked(sender, eventArgs)
+{  
+  var item = eventArgs.get_menuItem();
+  var menu = item.get_menu();            
+  sender.trackChanges();
+  var newItem = new Telerik.Web.UI.RadMenuItem();
+  newItem.set_text("Client-side added item");
+  item.get_items().add(newItem);
+  sender.commitChanges();
+}
 ````
 
 

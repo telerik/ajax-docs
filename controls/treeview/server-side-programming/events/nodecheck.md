@@ -19,25 +19,21 @@ When the user selects or unselects a Node checkbox, the **NodeCheck** event fire
 
 
 ````C#
-	     
-		protected void RadTreeView1_NodeCheck(object sender, Telerik.Web.UI.RadTreeNodeEventArgs e)
-	    {    
-	        e.Node.Text = e.Node.Checked.ToString();
-	    }
-				
+protected void RadTreeView1_NodeCheck(object sender, Telerik.Web.UI.RadTreeNodeEventArgs e)
+{    
+    e.Node.Text = e.Node.Checked.ToString();
+}	
 ````
 ````VB.NET
-	     
-	    Protected Sub RadTreeView1_NodeCheck(ByVal sender As Object, ByVal e As Telerik.Web.UI.RadTreeNodeEventArgs)
-	        e.Node.Text = e.Node.Checked.ToString()
-	    End Sub
-	
+Protected Sub RadTreeView1_NodeCheck(ByVal sender As Object, ByVal e As Telerik.Web.UI.RadTreeNodeEventArgs)
+    e.Node.Text = e.Node.Checked.ToString()
+End Sub
 ````
 
 
 # See Also
 
- * [Overview]({%slug treeview/server-side-programming/events/overview%})
+ * [Server-side events Overview]({%slug treeview/server-side-programming/events/overview%})
 
  * [NodeClick]({%slug treeview/server-side-programming/events/nodeclick%})
 

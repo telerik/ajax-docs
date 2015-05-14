@@ -16,29 +16,27 @@ position: 4
 
 
 
-To reduce the space between the nodes, you should use the following css rules:
+To reduce the space between the nodes, you should use the following CSS rules:
 
 
 
-````ASPNET
-	div.RadTreeView {
-	  line-height: 16px;
-	}
-	
-	div.RadTreeView .rtSp {
-	  height: 14px;
-	}
-	
-	div.RadTreeView .rtHover .rtIn,
-	div.RadTreeView .rtSelected .rtIn {
-	
-	  padding: 0px 1px 0px;
-	}
-	
-	div.RadTreeView .rtIn {
-	
-	  padding: 1px 2px 1px;
-	} 			
+````CSS
+div.RadTreeView {
+  line-height: 16px;
+}
+
+div.RadTreeView .rtSp {
+  height: 14px;
+}
+
+div.RadTreeView .rtHover .rtIn,
+div.RadTreeView .rtSelected .rtIn {
+  padding: 0px 1px 0px;
+}
+
+div.RadTreeView .rtIn {
+  padding: 1px 2px 1px;
+} 			
 ````
 
 

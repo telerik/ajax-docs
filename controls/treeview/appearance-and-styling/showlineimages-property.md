@@ -12,20 +12,14 @@ position: 8
 
 
 
-## 
-
-The existence of lines connecting Nodes is controlled by the **ShowLineImages** property (default is **True**). Setting **ShowLineImages** to **False**hides connecting images and shows only the +/- icons. You can also hide the line images by changing the RadTreeView [Skin](A2ACD8E0-A5F3-4093-A5DA-FF45D737F6FA).
+The existence of lines connecting Nodes is controlled by the **ShowLineImages** property (default is **True**). Setting **ShowLineImages** to **False**hides connecting images and shows only the +/- icons. You can also hide the line images by changing **RadTreeView** [Skin](A2ACD8E0-A5F3-4093-A5DA-FF45D737F6FA).
 
 **ShowLineImages** = True
 
-
->caption 
 
 ![RadTreeView Show Line Images True](images/treeview_appearanceshowlineimagestrue.png)
 
 **ShowLineImages** = False
 
-
->caption 
 
 ![RadTreeView Show Line Images Flase](images/treeview_appearanceshowlineimagesfalse.png)

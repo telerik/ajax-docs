@@ -18,7 +18,7 @@ The **OnClientNodeAnimationEnd** event fires when the node is expanded / collaps
 
 The event handler has two parameters:
 
-1. The treeview instance that fired the event.
+1. The **TreeView** instance that fired the event.
 
 1. Event arguments with functions:
 

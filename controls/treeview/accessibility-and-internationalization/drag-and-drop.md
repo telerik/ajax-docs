@@ -25,8 +25,6 @@ Nodes can be dragged:
 * From the TreeView to ASP.NET Controls.
 
 
->caption 
-
 ![RadTreeView Usability Drag and Drop](images/treeview_usabilitydragandrop.png)
 
-Depending on the property settings of RadTreeView, multiple items may be dragged at one time.
+Depending on the property settings of **RadTreeView**, multiple items may be dragged at one time.

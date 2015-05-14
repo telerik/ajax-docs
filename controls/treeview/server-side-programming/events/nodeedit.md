@@ -14,32 +14,28 @@ position: 3
 
 ## 
 
-The **NodeEdit** event fires when the user clicks the **Enter** key after [editing a Node]({%slug treeview/accessibility-and-internationalization/keyboard-support%}). The **RadTreeNodeEditEventArgs** passed to the event handler provides a reference to the edited Node and a **Text** property. Set the RadTreeView **AllowNodeEditing** to enable the ability to edit. Edited nodes don't automatically persist user changes.
+The **NodeEdit** event fires when the user clicks the **Enter** key after [editing a Node]({%slug treeview/accessibility-and-internationalization/keyboard-support%}). The **RadTreeNodeEditEventArgs** passed to the event handler provides a reference to the edited Node and a **Text** property. Set the **AllowNodeEditing** property of **RadTreeView** to enable editing. Edited nodes do not automatically persist user changes.
 
 In the example below the "old" text is represented by e.Node.Text and the "new" text entered by the user as e.Text. The new text is assigned to the Node.
 
 
 
 ````C#
-	     
-		protected void RadTreeView1_NodeEdit(object sender, Telerik.Web.UI.RadTreeNodeEditEventArgs e)
-	    {    
-	        e.Node.Text = e.Text;
-	    }
-				
+protected void RadTreeView1_NodeEdit(object sender, Telerik.Web.UI.RadTreeNodeEditEventArgs e)
+{    
+    e.Node.Text = e.Text;
+}
 ````
 ````VB.NET
-	     
-	    Protected Sub RadTreeView1_NodeEdit(ByVal sender As Object, ByVal e As Telerik.Web.UI.RadTreeNodeEditEventArgs)
-	        e.Node.Text = e.Text
-	    End Sub
-	
+Protected Sub RadTreeView1_NodeEdit(ByVal sender As Object, ByVal e As Telerik.Web.UI.RadTreeNodeEditEventArgs)
+    e.Node.Text = e.Text
+End Sub
 ````
 
 
 # See Also
 
- * [Overview]({%slug treeview/server-side-programming/events/overview%})
+ * [Server-side events Overview]({%slug treeview/server-side-programming/events/overview%})
 
  * [NodeCheck]({%slug treeview/server-side-programming/events/nodecheck%})
 

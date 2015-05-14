@@ -24,42 +24,33 @@ You receive an error message like "Stop running the script" or "A script is caus
 
 You can use one of the solutions below:
 
-1. Disable debugging in your **web.config** file:
-
-Note that this is the **recommended** setting for a **production environment**.
+* Disable debugging in your **web.config** file. Note that this is the **recommended** setting for a **production environment**.
 
 ````XML
-	        <compilation debug="false">
-				
+<compilation debug="false">
 ````
-
 
 
 Or, use the second approach described below.
 
 
-
-2. Set the **ScriptMode** property of the ScriptManager / RadScriiptManager to "**Release**":
+* Set the **ScriptMode** property of  **ScriptManager** / **RadScriiptManager** to "**Release**":
 
 ````ASPNET
-	     
-			<asp:ScriptManager ID="ScriptManager1"     
-			                   runat="server"     
-			                   ScriptMode="release">
-			</asp:ScriptManager>
-				
+<asp:ScriptManager ID="ScriptManager1"     
+                   runat="server"     
+                   ScriptMode="release">
+</asp:ScriptManager>
 ````
 
 
 
 ````ASPNET
-	     
-	
-	        <telerik:RadScriptManager ID="RadScriptManager1"     
-	                                  ScriptMode="Release"    
-	                                  runat="server">
-	        </telerik:RadScriptManager>
-				
+<telerik:RadScriptManager ID="RadScriptManager1"     
+                          ScriptMode="Release"    
+                          runat="server">
+</telerik:RadScriptManager>
 ````
+
 
 

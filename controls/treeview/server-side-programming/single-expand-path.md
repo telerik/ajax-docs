@@ -14,4 +14,4 @@ position: 6
 
 ## 
 
-The RadTreeView **SingleExpandPath** property, when set to **True**, automatically collapses Nodes that are not on the path of the currently expanded Node. Use the **SingleExpandPath**property when you need to conserve screen space and make navigating Nodes easier.
+When set to **True** the **SingleExpandPath** property of **RadTreeView** automatically collapses Nodes that are not on the path of the currently expanded Node. Use the **SingleExpandPath**property when you need to conserve screen space and make navigating Nodes easier.

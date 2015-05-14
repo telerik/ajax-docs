@@ -14,23 +14,20 @@ position: 11
 
 ## 
 
-To scroll to the selected TreeNode after an ajax request has occurred you should use the **OnEndRequest** client-side event of MS.NET AJAX and select the node in the OnEndRequest event handler, like:
+To scroll to the selected **TreeNode** after an AJAX request has occurred you should use the **OnEndRequest** client-side event of MS.NET AJAX and select the node in the **OnEndRequest** event handler, like:
 
-````ASPNET
+````JavaScript	
+var prm = Sys.WebForms.PageRequestManager.getInstance();
+prm.add_endRequest(OnEndRequest);
+
+function OnEndRequest(sender, args) {
+    var tree = $find("<%= RadTreeView1.ClientID %>");
+    var selectedNode = tree.get_selectedNode();
 	
-	    <script type="text/javascript">
-	
-	        var prm = Sys.WebForms.PageRequestManager.getInstance();
-	        prm.add_endRequest(OnEndRequest);
-	        function OnEndRequest(sender, args) {
-	            var tree = $find("<%= RadTreeView1.ClientID %>");
-	            var selectedNode = tree.get_selectedNode();
-	            if (selectedNode != null) {
-	                selectedNode.scrollIntoView();
-	            }
-	        }
-	    </script>
-	
+    if (selectedNode != null) {
+        selectedNode.scrollIntoView();
+    }
+}
 ````
 
 

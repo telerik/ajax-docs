@@ -14,31 +14,27 @@ position: 22
 
 ## 
 
-In [load on demand]({%slug treeview/load-on-demand/overview%}) scenario when you expand the parent node and load its nodes the expand mode of the parent node is changed to **ClientSide**. This means that if you collapse that node and expand it again - no request will be made to the web service and the NodeExpand server event will not fire.
+In [load on demand]({%slug treeview/load-on-demand/overview%}) scenario when you expand the parent node and load its nodes the expand mode of the parent node is changed to **ClientSide**. This means that if you collapse that node and expand it again - no request will be made to the web service and the **NodeExpand** server event will not fire.
 
-Sometimes you may need to refresh the nodes that are already added via load on demand - for example because the datasource has changed. Here is how:
+Sometimes you may need to refresh the nodes that are already added via load on demand - for example because the DataSource has changed. Here is how:
 
 1. Collapse the parent node using the [collapse()]({%slug treeview/client-side-programming/objects/radtreenode%}) method:
 
 ````JavaScript
-	     
-		node.collapse()
-				
+node.collapse()
 ````
 
 
 
-2. Clear its nodes and set its expand mode to either ServerSideCallBack or WebService:
+2. Clear its nodes and set its expand mode to either **ServerSideCallBack** or **WebService**:
 
 ````JavaScript
-	
-		node.get_treeView().trackChanges();
-		node.get_nodes().clear();
-		node.set_expandMode(Telerik.Web.UI.TreeNodeExpandMode.WebService);
-		node.get_treeView().commitChanges();
-				
+node.get_treeView().trackChanges();
+node.get_nodes().clear();
+node.set_expandMode(Telerik.Web.UI.TreeNodeExpandMode.WebService);
+node.get_treeView().commitChanges();
 ````
 
 
 
-Here I am using node.get_treeView() method to get a reference to the treeview client object, but if you already have a reference to that object (e.g. via the **sender** object in the client events) you can use that.
+Here I am using **node.get_treeView()** method to get a reference to the **TreeView** client object, but if you already have a reference to that object (e.g. via the **sender** object in the client events) you can use that.

@@ -21,21 +21,21 @@ position: 5
 
 ## Causes and Solutions
 
-Telerik RadTreeView cannot find its JavaScript code. The necessary code is fetched either from the **WebResource.axd** file or from files located in the project's folder, depending on the control's settings.
+Telerik **RadTreeView** cannot find its JavaScript code. The necessary code is fetched either from the **WebResource.axd** file or from files located in the project's folder, depending on the control's settings.
 
 ## Case 1: EnableEmbeddedScripts property of Telerik RadTreeView is set to false:
 
-* The control's scripts are not referenced - first, copy the needed script files from the installation directory of RadControls for ASP.NET AJAX in the project's directory; then reference them from the ScriptManager like this:
+* The control's scripts are not referenced - first, copy the needed script files from the installation directory of RadControls for ASP.NET AJAX in the project's directory; then reference them from the **ScriptManager** like this:
 
 ````ASPNET
-	    <asp:ScriptManager ID="ScriptManager1" runat="server">
-	        <Scripts>
-	            <asp:ScriptReference Path="~/Scripts/Common/Core.js" />
-	            <asp:ScriptReference Path="~/Scripts/Common/Animation/AnimationScripts.js" />
-	            <asp:ScriptReference Path="~/Scripts/Common/Navigation/NavigationScripts.js" />
-	            <asp:ScriptReference Path="~/Scripts/TreeView/RadTreeViewScripts.js" />
-	        </Scripts>
-	    </asp:ScriptManager>
+<asp:ScriptManager ID="ScriptManager1" runat="server">
+    <Scripts>
+        <asp:ScriptReference Path="~/Scripts/Common/Core.js" />
+        <asp:ScriptReference Path="~/Scripts/Common/Animation/AnimationScripts.js" />
+        <asp:ScriptReference Path="~/Scripts/Common/Navigation/NavigationScripts.js" />
+        <asp:ScriptReference Path="~/Scripts/TreeView/RadTreeViewScripts.js" />
+    </Scripts>
+</asp:ScriptManager>
 ````
 
 
@@ -50,7 +50,7 @@ Telerik RadTreeView cannot find its JavaScript code. The necessary code is fetch
 
 ![](images/treeview_hs_enlarge.gif)
 
-The solution is to make sure that the file is intact, and it is in the location specified by the **Path** property of the ScriptManager. If the file is accessible you will be able to view it or download it:
+The solution is to make sure that the file is intact, and it is in the location specified by the **Path** property of the **ScriptManager**. If the file is accessible you will be able to view it or download it:
 
 
 >caption 
@@ -59,7 +59,7 @@ The solution is to make sure that the file is intact, and it is in the location 
 
 ## Case 2: EnableEmbeddedScripts property of Telerik RadTreeView is set to true (Default case)
 
-In this case Telerik RadTreeView will search for its JavaScript code embedded in the **WebResource.axd** and **ScriptResource.axd** as part of the **DLL** of the control's suite.
+In this case **RadTreeView** will search for its JavaScript code embedded in the **WebResource.axd** and **ScriptResource.axd** as part of the **DLL** of the control's suite.
 
 The following articles discuss possible causes and solutions of the problem:
 

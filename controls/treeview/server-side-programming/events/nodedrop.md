@@ -20,7 +20,7 @@ When a Node is dropped onto another Node, between other Nodes or onto an HTML el
 
 * **DestDragNode**: The Node being dropped onto.
 
-* **DraggedNodes**: A collection of RadTreeNodes that are being dragged. This could be useful when **MultipleSelect** is **True**.
+* **DraggedNodes**: A collection of **RadTreeNodes** that are being dragged. This could be useful when **MultipleSelect** is **True**.
 
 * **DropPosition**: Indicates the relationship of the Nodes being dropped and will be a **RadTreeViewDropPosition** enumeration value **Above**, **Below** or **Over**.
 
@@ -31,21 +31,21 @@ See [Drag and Drop Overview]({%slug treeview/drag-and-drop/overview%}) for more 
 
 
 ````C#
-	    protected void RadTreeView1_NodeDrop(object sender, Telerik.Web.UI.RadTreeNodeDragDropEventArgs e)
-	    {
-	        e.DestDragNode.Nodes.Add(e.SourceDragNode);
-	    } 		
+protected void RadTreeView1_NodeDrop(object sender, Telerik.Web.UI.RadTreeNodeDragDropEventArgs e)
+{
+    e.DestDragNode.Nodes.Add(e.SourceDragNode);
+} 		
 ````
 ````VB.NET
-	    Protected Sub RadTreeView1_NodeDrop(ByVal sender As Object, ByVal e As Telerik.Web.UI.RadTreeNodeDragDropEventArgs)
-	        e.DestDragNode.Nodes.Add(e.SourceDragNode)
-	    End Sub
+Protected Sub RadTreeView1_NodeDrop(ByVal sender As Object, ByVal e As Telerik.Web.UI.RadTreeNodeDragDropEventArgs)
+    e.DestDragNode.Nodes.Add(e.SourceDragNode)
+End Sub
 ````
 
 
 # See Also
 
- * [Overview]({%slug treeview/server-side-programming/events/overview%})
+ * [Server-side events Overview]({%slug treeview/server-side-programming/events/overview%})
 
  * [NodeCheck]({%slug treeview/server-side-programming/events/nodecheck%})
 

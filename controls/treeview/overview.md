@@ -12,31 +12,34 @@ position: 0
 
 
 
-__Telerik RadTreeView for ASP.NET AJAX__ is the supercharged treeview component for ASP.NET, combining highly-efficient rendering and AJAX Load on Demand support for superior performance. Added to this are SEO compliance, full drag-and-drop capabilities, and nearly codeless development experience.
+**Telerik RadTreeView for ASP.NET AJAX** is the supercharged treeview component for ASP.NET, combining highly-efficient rendering and AJAX Load on Demand support for superior performance. Added to this are SEO compliance, full drag-and-drop capabilities, and nearly codeless development experience.
 
 ## Key Features
 
 * [Simple rendering]({%slug treeview/web-pages/rendering%}) for minimal HTML output.
 
-* [Template Support]({%slug treeview/templates/overview%}) for complex user interface design not already handled by default RadTreeView behavior.![RadTreeView Template Support](images/treeview_templatesupport.png)
+* [Template Support]({%slug treeview/templates/overview%}) for complex user interface design not already handled by default **RadTreeView** behavior.
+![RadTreeView Template Support](images/treeview_templatesupport.png)
 
-* [Customizable appearance]({%slug treeview/appearance-and-styling/controlling-appearance%}) through [skins](A2ACD8E0-A5F3-4093-A5DA-FF45D737F6FA).![Customizable Appearance](images/treeview_customizableappearance.png)
+* [Customizable appearance]({%slug treeview/appearance-and-styling/controlling-appearance%}) through [skins](A2ACD8E0-A5F3-4093-A5DA-FF45D737F6FA).
+![Customizable Appearance](images/treeview_customizableappearance.png)
 
 * Flexible binding mechanism, including
 
-* [declarative binding]({%slug treeview/radtreeview-nodes/creating-node-structure-in-line%})
+    * [declarative binding]({%slug treeview/radtreeview-nodes/creating-node-structure-in-line%})
 
-* [binding to different types of data source components]({%slug treeview/data-binding/binding-to-asp.net-datasource-components%})
+    * [binding to different types of data source components]({%slug treeview/data-binding/binding-to-asp.net-datasource-components%})
 
-* [populating from XML]({%slug treeview/data-binding/loading-xml-content%})
+    * [populating from XML]({%slug treeview/data-binding/loading-xml-content%})
 
-* [populating items through a WebService]({%slug treeview/load-on-demand/web-service-binding%}).
+    * [populating items through a WebService]({%slug treeview/load-on-demand/web-service-binding%}).
 
-* A rich [client–side API]({%slug treeview/client-side-programming/overview%}) that includes the ability to add, delete and update RadTreeView nodes and allow the changes to persist server-side.
+* A rich [client–side API]({%slug treeview/client-side-programming/overview%}) that includes the ability to add, delete and update **RadTreeView** nodes and allow the changes to persist server-side.
 
-* AJAX based [Load-on-demand]({%slug treeview/load-on-demand/overview%}) support for faster performance when the RadTreeView has many items.
+* AJAX based [Load-on-demand]({%slug treeview/load-on-demand/overview%}) support for faster performance when the **RadTreeView** has many items.
 
-* [Enhanced Drag & Drop Behavior]({%slug treeview/drag-and-drop/overview%}) allows dragging onto other nodes, between other nodes, to other trees and onto any HTML element.![RadTreeView Enhanced Drag & Drop Behavior](images/treeview_enhanceddragdropbehaviorpng.png)
+* [Enhanced Drag & Drop Behavior]({%slug treeview/drag-and-drop/overview%}) allows dragging onto other nodes, between other nodes, to other trees and onto any HTML element.
+![RadTreeView Enhanced Drag & Drop Behavior](images/treeview_enhanceddragdropbehaviorpng.png)
 
 * [XHTML and Accessibility standards compliancy](11CA1B9F-1291-479A-9D49-ECDB63F4D912)
 
@@ -44,7 +47,8 @@ __Telerik RadTreeView for ASP.NET AJAX__ is the supercharged treeview component 
 
 * Extensive design-time support
 
-* [Built-in Context Menus]({%slug treeview/context-menus/overview%})![RadTreeView Build-in Context Menus](images/treeview_buildincontextmenuspng.png)
+* [Built-in Context Menus]({%slug treeview/context-menus/overview%})
+![RadTreeView Build-in Context Menus](images/treeview_buildincontextmenuspng.png)
 
 * [Expand Animation]({%slug treeview/appearance-and-styling/animation%})
 
@@ -59,7 +63,7 @@ __Telerik RadTreeView for ASP.NET AJAX__ is the supercharged treeview component 
 
 * [Check box support]({%slug treeview/checkboxes/overview%})
 
-* [Cross-page postbacks]({%slug treeview/web-pages/cross-page-postbacks%}) which let you direct postbacks from the node of a RadTreeView to a different Web page.
+* [Cross-page postbacks]({%slug treeview/web-pages/cross-page-postbacks%}) which let you direct postbacks from the node of a **RadTreeView** to a different Web Page.
 
 * [Keyboard support]({%slug treeview/accessibility-and-internationalization/keyboard-support%}) for easy navigation.
 

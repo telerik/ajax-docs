@@ -16,13 +16,13 @@ position: 7
 
 The **OnClientNodeExpanded** client-side event occurs after a parent node expands to display child nodes.
 
->caution Calling the client-side **expand()** or **set_expanded(true)** method does not fire **OnClientNodeExpanding** and **OnClientNodeExpanded** client-side events. More information is available[[!] here]({%slug treeview/troubleshooting/expanding-nodes%}).
+>caution Calling the client-side **expand()** or **set_expanded(true)** method does not fire **OnClientNodeExpanding** and **OnClientNodeExpanded** client-side events. More information is available [here]({%slug treeview/troubleshooting/expanding-nodes%}).
 >
 
 
 The event handler receives parameters:
 
-1. The treeview instance that fired the event.
+1. The **TreeView** instance that fired the event.
 
 1. Event arguments with functions:
 
@@ -33,21 +33,19 @@ The event handler receives parameters:
 The example below displays the text for the parent node and a count of child nodes.
 
 ````ASPNET
-	
-	    <script type="text/javascript" language="javascript">
-	        function ClientNodeExpanded(sender, eventArgs) {
-	            var node = eventArgs.get_node();
-	            alert("Parent node " +
-	                    node.get_text() +
-	                    " is expanded to show " +
-	                    node.get_nodes().get_count()
-	                    + " child nodes");
-	        }
-	    </script>
-	
-	    <telerik:RadTreeView ID="RadTreeView1" runat="server" 
-	                         OnClientNodeExpanded="ClientNodeExpanded">
-	    </telerik:RadTreeView>
+<telerik:RadTreeView ID="RadTreeView1" runat="server" 
+                     OnClientNodeExpanded="ClientNodeExpanded">
+</telerik:RadTreeView>
+````
+````JavaScript
+function ClientNodeExpanded(sender, eventArgs) {
+	var node = eventArgs.get_node();
+	alert("Parent node " +
+			node.get_text() +
+			" is expanded to show " +
+			node.get_nodes().get_count()
+			+ " child nodes");
+}
 ````
 
 

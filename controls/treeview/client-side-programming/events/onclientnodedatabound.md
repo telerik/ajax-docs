@@ -18,28 +18,26 @@ The **OnClientDataBound** event is added in **Q3 2008** release and fires when a
 
 The event handler receives the following parameters:
 
-1. The RadTreeView instance that fired the event.
+1. The **RadTreeView** instance that fired the event.
 
 1. Event arguments with functions:
 
-* **get_dataItem() -**gets a reference to the **DataItem** (**RadTreeNodeData** or any other serializable custom class) that the current Node is being bound to.
+* **get_dataItem()** - gets a reference to the **DataItem** (**RadTreeNodeData** or any other serializable custom class) that the current Node is being bound to.
 
-* **get_domEvent()** - **undefined**for this event.
+* **get_domEvent()** - **undefined** for this event.
 
 * **get_node()** - gets a reference to the **Node** that is being bound.
 
 The following example shows how a value is extracted from the **DataItem** and set as a Custom Attribute to Nodes loaded via a Web Service.
 
-````JavaScript
-	
-	        function onNodeDataBound(sender, eventArgs) {
-	            var node = eventArgs.get_node();
-	            var dataItem = eventArgs.get_dataItem();
-	            var CustomAttribute = dataItem.CustomAttribute;
-	
-	            node.get_attributes().setAttribute("CustomAttribute", CustomAttribute);
-	        }
-				
+````JavaScript	
+function onNodeDataBound(sender, eventArgs) {
+    var node = eventArgs.get_node();
+    var dataItem = eventArgs.get_dataItem();
+    var CustomAttribute = dataItem.CustomAttribute;
+
+    node.get_attributes().setAttribute("CustomAttribute", CustomAttribute);
+}
 ````
 
 

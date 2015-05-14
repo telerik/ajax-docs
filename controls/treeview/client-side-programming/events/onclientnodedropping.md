@@ -18,7 +18,7 @@ The **OnClientNodeDropping** client-side event is called before nodes are droppe
 
 The event handler receives parameters:
 
-1. The treeview instance that fired the event.
+1. The **TreeView** instance that fired the event.
 
 1. Event arguments with functions:
 
@@ -30,38 +30,13 @@ The event handler receives parameters:
 
 * **get_sourceNode()** retrieves the node being dropped.
 
-* **get_sourceNodes()** retrieves an array of nodes being dropped. It is useful when the RadTreeView **MultipleSelect** property is **True**.
+* **get_sourceNodes()** retrieves an array of nodes being dropped. It is useful when the **RadTreeView** **MultipleSelect** property is **True**.
 
-* **set_cancel()** - call this function to specify wether the event should be canceled (true) or not (false).
+* **set_cancel()** - call this function to specify whether the event should be canceled (true) or not (false).
 
 * **get_domEvent()** retrieves a DOM event object of the node dropping.
 
 The example below demonstrates preventing a node from being dropped between levels and also displays information from each of the eventArgs functions.
-
-````JavaScript
-	
-	    <script type="text/javascript" language="javascript">
-	
-	        function ClientNodeDropping(sender, eventArgs) {
-	            if (eventArgs.get_sourceNode().get_level() != eventArgs.get_destNode().get_level()) {
-	                alert("You cannot drag nodes between levels");
-	                eventArgs.set_cancel(true);
-	            }
-	            else {
-	                alert("The source node is: " + eventArgs.get_sourceNode().get_text() + "\n" +
-	                //if MultipleSelect = True
-	               "The number of source nodes: " + eventArgs.get_sourceNodes().length + "\n" +
-	               "The destination node is: " + eventArgs.get_destNode().get_text() + "\n" +
-	               "The HTML element is: " + eventArgs.get_htmlElement().innerHTML + "\n" +
-	               "The drop position is: " + eventArgs.get_dropPosition()
-	                );
-	            }
-	        }
-	        
-	    </script>
-````
-
-
 
 ````ASPNET
 	    <telerik:RadTreeView ID="RadTreeView1" 
@@ -71,5 +46,23 @@ The example below demonstrates preventing a node from being dropped between leve
 	                         OnClientNodeDropping="ClientNodeDropping">
 	    </telerik:RadTreeView>
 ````
+````JavaScript
+function ClientNodeDropping(sender, eventArgs) {
+    if (eventArgs.get_sourceNode().get_level() != eventArgs.get_destNode().get_level()) {
+        alert("You cannot drag nodes between levels");
+        eventArgs.set_cancel(true);
+    }
+    else {
+        alert("The source node is: " + eventArgs.get_sourceNode().get_text() + "\n" +
+        //if MultipleSelect = True
+       "The number of source nodes: " + eventArgs.get_sourceNodes().length + "\n" +
+       "The destination node is: " + eventArgs.get_destNode().get_text() + "\n" +
+       "The HTML element is: " + eventArgs.get_htmlElement().innerHTML + "\n" +
+       "The drop position is: " + eventArgs.get_dropPosition()
+        );
+    }
+}
+````
+
 
 

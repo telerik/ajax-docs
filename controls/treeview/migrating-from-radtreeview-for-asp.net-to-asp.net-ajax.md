@@ -18,7 +18,7 @@ position: 4
 
 
 
-## RadTreeView
+### RadTreeView
 
 
 
@@ -43,7 +43,7 @@ position: 4
 
 
 
-## RadTreeNode
+### RadTreeNode
 
 
 
@@ -86,7 +86,7 @@ position: 4
 
 
 
-## RadTreeNodeCollection New Methods
+### RadTreeNodeCollection New Methods
 
 See [RadTreeNodeCollection Object]({%slug treeview/client-side-programming/objects/radtreenodecollection%}) for more details.
 
@@ -110,7 +110,7 @@ See [RadTreeNodeCollection Object]({%slug treeview/client-side-programming/objec
 
 
 
-## RadTreeView Changes
+### RadTreeView Changes
 
 
 
@@ -144,7 +144,7 @@ See [RadTreeNodeCollection Object]({%slug treeview/client-side-programming/objec
 
 
 
-## RadTreeView Deleted Methods and Properties
+### RadTreeView Deleted Methods and Properties
 
 
 
@@ -167,7 +167,7 @@ See [RadTreeNodeCollection Object]({%slug treeview/client-side-programming/objec
 |LoadingMessageCssClass|Now controlled by the skin css styles|
 |AfterClientFocus|Use the 'onfocus' attribute for the same purpose.|
 
-## RadTreeView Changed Return Types
+### RadTreeView Changed Return Types
 
 
 >caption  
@@ -181,25 +181,19 @@ See [RadTreeNodeCollection Object]({%slug treeview/client-side-programming/objec
 
 
 
-## RadTreeViewEventHandler
+### RadTreeViewEventHandler
 
 
 
 RadTreeViewEventHandler has been split into other delegates:
 
 1. **RadTreeViewEventHandler** is used by the following events:
-
-* NodeClick
-
-* NodeDataBound
-
-* NodeCreated
-
-* NodeExpand
-
-* NodeCollapse
-
-* NodeCheck
+    * NodeClick
+    * NodeDataBound
+    * NodeCreated
+    * NodeExpand
+    * NodeCollapse
+    * NodeCheck
 
 1. **RadTreeViewDragDropEventHandler** is used only by the NodeDrop event
 
@@ -207,7 +201,7 @@ RadTreeViewEventHandler has been split into other delegates:
 
 
 
-## RadTreeNode Changes
+### RadTreeNode Changes
 
 
 
@@ -227,38 +221,28 @@ RadTreeViewEventHandler has been split into other delegates:
 
 
 
-## RadTreeNodeEventArgs
+### RadTreeNodeEventArgs
 
 
 
 That class has been split into other classes:
 
 1. **RadTreeNodeEventArgs** contains only one property - Node. It is used by the following events:
-
-* NodeClick
-
-* NodeDataBound
-
-* NodeCreated
-
-* NodeExpand
-
-* NodeCollapse
-
-* NodeCheck
+    * NodeClick
+    * NodeDataBound
+    * NodeCreated
+    * NodeExpand
+    * NodeCollapse
+    * NodeCheck
 
 1. **RadTreeNodeDragDropEventArgs** is used solely by the NodeDrop event. It contains the following properties:
-
-* SourceDragNode
-
-* DestDragNode
-
-* DropPosition
-
-* HtmlElementID
+    * SourceDragNode
+    * DestDragNode
+    * DropPosition
+    * HtmlElementID
 
 1. **RadTreeNodeEditEventArgs** is used solely by the NodeEdit event. It contains the following properties
+    * Node
+    * Text
 
-* Node
 
-* Text

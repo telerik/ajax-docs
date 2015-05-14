@@ -16,28 +16,24 @@ position: 0
 
 To redirect to another web page based on clicking a Context Menu, set the **OnClientContextMenuClicking** property to a JavaScript function that takes two arguments:
 
-* **sender:**a reference to the RadTreeView
+* **sender:** a reference to the **RadTreeView**
 
-* **eventArgs:**contains a reference to the clicked Menu Item, the Node under the Context Menu and the **set_cancel()** function used for aborting the Context Menu click.
+* **eventArgs:** contains a reference to the clicked Menu Item, the Node under the Context Menu and the **set_cancel()** function used for aborting the Context Menu click.
 
 The example below gets the Context Menu Item and sets the window url.
 
 ````ASPNET
-	
-	    <script type="text/javascript" language="javascript">
-	
-	        function clientContextMenuClicking(sender, eventArgs) {
-	            var menuItem = eventArgs.get_menuItem();
-	            window.location.href = "http://en.wikipedia.org/wiki/" + menuItem.get_text();
-	        }
-	    </script>
-	
-	    ...
-	    <telerik:RadTreeView ID="RadTreeView1" runat="server" 
-	                         EnableDragAndDrop="True" 
-	                         OnClientContextMenuItemClicking="clientContextMenuClicking"
-	                         Skin="Vista">
-	    </telerik:RadTreeView>
+<telerik:RadTreeView ID="RadTreeView1" runat="server" 
+                     EnableDragAndDrop="True" 
+                     OnClientContextMenuItemClicking="clientContextMenuClicking"
+                     Skin="Vista">
+</telerik:RadTreeView>
+````
+````JavaScript
+function clientContextMenuClicking(sender, eventArgs) {
+	var menuItem = eventArgs.get_menuItem();
+	window.location.href = "http://en.wikipedia.org/wiki/" + menuItem.get_text();
+}
 ````
 
 

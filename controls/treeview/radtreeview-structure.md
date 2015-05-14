@@ -14,8 +14,8 @@ position: 1
 
 ## 
 
-The structure of a RadTreeView is as follows:
+The structure of **RadTreeView** is as follows:
 
 ![RadTreeView Structure](images/treeview_structure.png)
 
-The tree consists of a hierarchical structure of nodes linked together with line images. Each node may display Expand or Collapse buttons if the node contains child nodes. Depending on the property settings of the RadTreeView and the node, nodes may be edited, selected or have checkboxes.
+The tree consists of a hierarchical structure of nodes linked together with line images. Each node may display Expand or Collapse buttons if the node contains child nodes. Depending on the property settings of the **RadTreeView** and the node, nodes may be edited, selected or have checkboxes.

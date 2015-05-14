@@ -14,7 +14,7 @@ position: 0
 
 ## 
 
-__RadTreeView__supports a number of server-side events that let you respond to complex actions at the server.
+**RadTreeView** supports a number of server-side events that let you respond to complex actions at the server.
 
 * [NodeCheck]({%slug treeview/server-side-programming/events/nodecheck%}): Occurs when the user checks or un-checks a Node checkbox.
 

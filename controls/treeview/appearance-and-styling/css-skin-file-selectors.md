@@ -14,10 +14,10 @@ position: 5
 
 ## 
 
-The following table lists significant CSS selectors and descriptions for RadTreeView style sheets.
+The following table lists significant CSS selectors and descriptions for **RadTreeView** style sheets.
 
 
-|  **CSS Selector**  |  **Description**  |
+|  CSS Selector  |  Description  |
 | ------ | ------ |
 |RadTreeView_Telerik|The default style for the <div> tag that contains the control representation.|
 |rtPlus, rtMinus|Applied to the plus and minus (expand and collapse) buttons.|

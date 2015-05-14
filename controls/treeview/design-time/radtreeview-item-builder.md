@@ -20,46 +20,31 @@ The **RadTreeView Item Builder** lets you add, edit, delete and set properties f
 
 ## RadTreeView Item Builder
 
-* 
->caption 
 
-![RadTreeView Add Root Item](images/treeview_designaddroot.png) Click the Add Root Item button to append a top-level node.
+![RadTreeView Item Builder Designer](images/treeview_itembuilderdesigner.png)
 
-* 
->caption 
 
-![RadTreeView Add Child Item](images/treeview_designaddchild.png) Click the Add Child Item button to append a child node to a currently selected node.
+* Click the Add Root Item button to append a top-level node.
+![RadTreeView Add Root Item](images/treeview_designaddroot.png) 
 
-* 
->caption 
+* Click the Add Child Item button to append a child node to a currently selected node.
+![RadTreeView Add Child Item](images/treeview_designaddchild.png) 
 
-![RadTreeView Remove Item](images/treeview_designdelete.png) Click the Remove Item button to delete the currently selected node.
+* Click the Remove Item button to delete the currently selected node.
+![RadTreeView Remove Item](images/treeview_designdelete.png) 
 
-* 
->caption 
+* Use the Promote button to make the selected node a sibling of its parent.
+![RadTreeView Promote Button](images/treeview_designpromote.png) 
 
-![RadTreeView Promote Button](images/treeview_designpromote.png) Use the Promote button to make the selected node a sibling of its parent.
+* Use the Demote button to make the selected node a child of its preceding sibling.
+![RadTreeView Demote Button](images/treeview_designdemote.png) 
 
-* 
->caption 
 
-![RadTreeView Demote Button](images/treeview_designdemote.png) Use the Demote button to make the selected node a child of its preceding sibling.
 
 * Select individual nodes to change their properties using the property pane on the right of the **RadTreeView Item Builder**.
 
-* 
->caption 
-
-![RadTreeView Property Buttons](images/treeview_designpropertybuttons.png) Use the sorting controls button above the property pane to sort the properties by category or alphabetically.
-
-
-
-
-
-
->caption 
-
-![RadTreeView Item Builder Designer](images/treeview_itembuilderdesigner.png)
+* Use the sorting controls button above the property pane to sort the properties by category or alphabetically.
+![RadTreeView Property Buttons](images/treeview_designpropertybuttons.png) 
 
 
 
@@ -78,3 +63,5 @@ Key properties for each node are:
 * ExpandMode
 
 * ContextMenuID
+
+

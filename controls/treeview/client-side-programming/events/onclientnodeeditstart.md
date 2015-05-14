@@ -20,7 +20,7 @@ You can use this event to set any properties of the **input** area of the edited
 
 The event handler receives parameters:
 
-1. The treeview instance that fired the event.
+1. The **TreeView** instance that fired the event.
 
 1. Event arguments with functions:
 
@@ -46,56 +46,47 @@ We will achieve the following: when you edit a node like **Drafts (2)** you will
 
 
 ````ASPNET
-	    <telerik:RadTreeView ID="RadTreeView1" 
-	                         OnClientNodeEditStart="OnClientNodeEditStartHandler"
-	                         OnClientNodeEdited="OnClientNodeEditedHandler" 
-	                         Skin="Office2007" 
-	                         AllowNodeEditing="true"
-	                         runat="server">
-	        ...
-	    </telerik:RadTreeView>
+<telerik:RadTreeView ID="RadTreeView1" 
+    OnClientNodeEditStart="OnClientNodeEditStartHandler"
+    OnClientNodeEdited="OnClientNodeEditedHandler" 
+    Skin="Office2007" 
+    AllowNodeEditing="true"
+    runat="server">
+...
+</telerik:RadTreeView>
 ````
-
-
-
-
-
 ````JavaScript
-	    <script type="text/javascript">        
-	        
-	        //will hold the (n) text of the node being edited
-	        var nodeCountInfo = "";
-	        
-	        function OnClientNodeEditStartHandler(sender, eventArgs) {
-	            //get the node
-	            var node = eventArgs.get_node();
-	            //get a reference to the INPUT area of the edited node
-	            var textInput = node.get_inputElement();
-	            //set the width property of the INPUT
-	            textInput.width = "150";
-	
-	            //match the (n) string
-	            var regExpCount = /\(\d+\)/;
-	            var matches = regExpCount.exec(node.get_text());
-	            if (matches) {
-	                //save the matched text for later use in the OnClientNodeEdited event
-	                nodeCountInfo = matches[0];
-	                //remove the count number from the text of the edited node
-	                textInput.value = node.get_text().replace(nodeCountInfo, "");
-	            }
-	        }
-	        
-	        function OnClientNodeEditedHandler(sender, eventArgs) {
-	            var node = eventArgs.get_node();
-	
-	            sender.trackChanges();
-	            //use the nodeCountInfo to restore the (n) string
-	            node.set_text(node.get_text() + nodeCountInfo);
-	            sender.commitChanges();
-	            nodeCountInfo = "";
-	        }
-	        
-		  </script>		
+//will hold the (n) text of the node being edited
+var nodeCountInfo = "";
+
+function OnClientNodeEditStartHandler(sender, eventArgs) {
+    //get the node
+    var node = eventArgs.get_node();
+    //get a reference to the INPUT area of the edited node
+    var textInput = node.get_inputElement();
+    //set the width property of the INPUT
+    textInput.width = "150";
+
+    //match the (n) string
+    var regExpCount = /\(\d+\)/;
+    var matches = regExpCount.exec(node.get_text());
+    if (matches) {
+        //save the matched text for later use in the OnClientNodeEdited event
+        nodeCountInfo = matches[0];
+        //remove the count number from the text of the edited node
+        textInput.value = node.get_text().replace(nodeCountInfo, "");
+    }
+}
+
+function OnClientNodeEditedHandler(sender, eventArgs) {
+    var node = eventArgs.get_node();
+
+    sender.trackChanges();
+    //use the nodeCountInfo to restore the (n) string
+    node.set_text(node.get_text() + nodeCountInfo);
+    sender.commitChanges();
+    nodeCountInfo = "";
+}	
 ````
 
 

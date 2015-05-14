@@ -14,43 +14,41 @@ position: 3
 
 ## 
 
-By default, RadTreeView expands a node by clicking the plus button or by double clicking the parent node. You can change this behavior by handling the **OnClientNodeClicked**event, getting a reference to the clicked on node and calling the **RadTreeNode toggle()**function. You can tailor this behavior to only occur when particular nodes are clicked by [checking the node text, value, category or attributes]({%slug treeview/client-side-programming/objects/radtreenode%}).
+By default, **RadTreeView** expands a node by clicking the plus button or by double clicking the parent node. You can change this behavior by handling the **OnClientNodeClicked** event, getting a reference to the clicked on node and calling the **RadTreeNode toggle()** function. You can tailor this behavior to only occur when particular nodes are clicked by [checking the node text, value, category or attributes]({%slug treeview/client-side-programming/objects/radtreenode%}).
 
 ````ASPNET
-	
-	    <script language="javascript">
-	        function ClientNodeClicked(sender, eventArgs) {
-	            var node = eventArgs.get_node();
-	            node.toggle();
-	        }
-	    </script>
-	
-	    <telerik:RadTreeView ID="RadTreeView1" runat="server" OnClientNodeClicked="ClientNodeClicked">
-	        <Nodes>
-	            <telerik:RadTreeNode runat="server" ExpandMode="ClientSide" Text="Search" ImageUrl="~/images/search.ico"
-	                Expanded="True" Value="1">
-	                <Nodes>
-	                    <telerik:RadTreeNode runat="server" ExpandMode="ClientSide" Text="Documents" ImageUrl="~/images/search4doc.ico"
-	                        Category="NoDragging">
-	                    </telerik:RadTreeNode>
-	                    <telerik:RadTreeNode runat="server" ExpandMode="ClientSide" Text="Files" ImageUrl="~/images/search4Files.ico">
-	                    </telerik:RadTreeNode>
-	                    <telerik:RadTreeNode runat="server" ExpandMode="ClientSide" Text="People" ImageUrl="~/images/search4people.ico">
-	                    </telerik:RadTreeNode>
-	                    <telerik:RadTreeNode runat="server" ExpandMode="ClientSide" Text="Printers" ImageUrl="~/images/search4printer.ico">
-	                    </telerik:RadTreeNode>
-	                    <telerik:RadTreeNode runat="server" ExpandMode="ClientSide" Text="Web" ImageUrl="~/images/searchweb.ico"
-	                        Category="NonCheckable">
-	                    </telerik:RadTreeNode>
-	                    <telerik:RadTreeNode runat="server" ExpandMode="ServerSideCallback" Text="Recent Searches">
-	                    </telerik:RadTreeNode>
-	                    <telerik:RadTreeNode runat="server" ExpandMode="ServerSideCallback" Text="Network Locations"
-	                        ContextMenuID="SearchMenu">
-	                    </telerik:RadTreeNode>
-	                </Nodes>
-	            </telerik:RadTreeNode>
-	        </Nodes>
-	    </telerik:RadTreeView>
+<telerik:RadTreeView ID="RadTreeView1" runat="server" OnClientNodeClicked="ClientNodeClicked">
+    <Nodes>
+        <telerik:RadTreeNode runat="server" ExpandMode="ClientSide" Text="Search" ImageUrl="~/images/search.ico"
+            Expanded="True" Value="1">
+            <Nodes>
+                <telerik:RadTreeNode runat="server" ExpandMode="ClientSide" Text="Documents" ImageUrl="~/images/search4doc.ico"
+                    Category="NoDragging">
+                </telerik:RadTreeNode>
+                <telerik:RadTreeNode runat="server" ExpandMode="ClientSide" Text="Files" ImageUrl="~/images/search4Files.ico">
+                </telerik:RadTreeNode>
+                <telerik:RadTreeNode runat="server" ExpandMode="ClientSide" Text="People" ImageUrl="~/images/search4people.ico">
+                </telerik:RadTreeNode>
+                <telerik:RadTreeNode runat="server" ExpandMode="ClientSide" Text="Printers" ImageUrl="~/images/search4printer.ico">
+                </telerik:RadTreeNode>
+                <telerik:RadTreeNode runat="server" ExpandMode="ClientSide" Text="Web" ImageUrl="~/images/searchweb.ico"
+                    Category="NonCheckable">
+                </telerik:RadTreeNode>
+                <telerik:RadTreeNode runat="server" ExpandMode="ServerSideCallback" Text="Recent Searches">
+                </telerik:RadTreeNode>
+                <telerik:RadTreeNode runat="server" ExpandMode="ServerSideCallback" Text="Network Locations"
+                    ContextMenuID="SearchMenu">
+                </telerik:RadTreeNode>
+            </Nodes>
+        </telerik:RadTreeNode>
+    </Nodes>
+</telerik:RadTreeView>
+````
+````JavaScript
+function ClientNodeClicked(sender, eventArgs) {
+	var node = eventArgs.get_node();
+	node.toggle();
+}
 ````
 
 

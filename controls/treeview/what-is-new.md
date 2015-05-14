@@ -26,7 +26,7 @@ Since Q2 2010 all new functionalities are listed in the control's Release Notes 
 
 ## What's New in RadTreeView for ASP.NET AJAX Q1 2010 (Version Number: 2010.1.309)
 
-* Replaced the RadTreeView loading icons
+* Replaced the **RadTreeView** loading icons
 
 ## What's New in RadTreeView for ASP.NET AJAX Q3 SP2 2009 (Version Number 2009.3.1314)
 
@@ -58,7 +58,7 @@ Since Q2 2010 all new functionalities are listed in the control's Release Notes 
 
 * New common skin: [Simple](A2ACD8E0-A5F3-4093-A5DA-FF45D737F6FA)
 
-* Added support to render properly in callback / MVC / webservice scenarios
+* Added support to render properly in callback / MVC / Web Service scenarios
 
 * [Bug-fixes](http://www.telerik.com/products/aspnet-ajax/whats-new/release-history/q1-2009-sp2-version-2009-1-527.aspx)
 
@@ -80,25 +80,25 @@ Since Q2 2010 all new functionalities are listed in the control's Release Notes 
 
 ## What's New in RadTreeView for ASP.NET AJAX Q3 SP1 2008 (Version Number 2008.3.1125):
 
-* Improved performance when CheckChildNodes is set to true (no more timeouts in Internet Explorer)
+* Improved performance when **CheckChildNodes** is set to true (no more timeouts in Internet Explorer)
 
-* Improved performance and memory usage of GetAllNodes/FindNodeByText/FindNodeByValue server-side methods
+* Improved performance and memory usage of **GetAllNodes** /**FindNodeByText** /**FindNodeByValue** server-side methods
 
 
 
 ## What's New in RadTreeView for ASP.NET AJAX Q3 2008 (Version Number 2008.3.1105):
 
-* [Integrated validation]({%slug treeview/accessibility-and-internationalization/validation%}) for RadTreeView selection.
+* [Integrated validation]({%slug treeview/accessibility-and-internationalization/validation%}) for **RadTreeView** selection.
 
 * Improved client-side initialization time.
 
 * Improved WebService load on demand performance.
 
-* Added **ContentCssClass** property which is applied at the DIV tag of a RadTreeNode.
+* Added **ContentCssClass** property which is applied at the DIV tag of a **RadTreeNode**.
 
-* Added new server side methods **FindNodeByText**, **FindNodeByValue**which have a second argument *ignoreCase* which indicates whether the comparison is case-sensitive (**true**) or case-insensitive (**false**).
+* Added new server side methods **FindNodeByText**, **FindNodeByValue** which have a second argument *ignoreCase* which indicates whether the comparison is case-sensitive (**true**) or case-insensitive (**false**).
 
-* Added a new server side method **FindNode**which has one argument *match *of type [Predicate Generic Delegate](http://msdn.microsoft.com/en-us/library/bfcke1bz(VS.80).aspx). This method can be used to find a Node by some custom criteria.
+* Added a new server side method **FindNode** which has one argument *match* of type [Predicate Generic Delegate](http://msdn.microsoft.com/en-us/library/bfcke1bz(VS.80).aspx). This method can be used to find a Node by some custom criteria.
 
 * Added protected virtual methods for server-side events – **OnNodeDataBound**, **OnNodeClick**, etc.
 
@@ -118,15 +118,15 @@ Since Q2 2010 all new functionalities are listed in the control's Release Notes 
 
 ## What's New in RadTreeView for ASP.NET AJAX Q2 (Version Number 2008.2.723):
 
-* Added [ClientChanges]({%slug treeview/client-side-programming/accessing-client-changes-on-the-server-side%}) property to the RadTreeView class. Now client-side changes are available on the server side after postback.
+* Added [ClientChanges]({%slug treeview/client-side-programming/accessing-client-changes-on-the-server-side%}) property to the **RadTreeView** class. Now client-side changes are available on the server side after postback.
 
-* Added [findControl]({%slug treeview/client-side-programming/objects/radtreenode%}) client-side method of RadTreeNode class.
+* Added [findControl]({%slug treeview/client-side-programming/objects/radtreenode%}) client-side method of **RadTreeNode** class.
 
 ## What's New in RadTreeView for ASP.NET AJAX Q2 Futures (Version Number 2008.1.707):
 
-* [Tri-State CheckBoxes]({%slug treeview/checkboxes/tri-state/tri-state-checkboxes-overview%}) - allows for CheckBoxes of RadTreeView to have three states: **Checked, Unchecked**and **Indeterminate**. The Tri-State behavior of RadTreeView can be controlled by the two new properties:
+* [Tri-State CheckBoxes]({%slug treeview/checkboxes/tri-state/tri-state-checkboxes-overview%}) - allows for **CheckBoxes** of **RadTreeView** to have three states: **Checked, Unchecked**and **Indeterminate**. The Tri-State behavior of **RadTreeView** can be controlled by the two new properties:
 
-* **TriStateCheckBoxes** - enables the "Tri-State" CheckBoxes (the **CheckBoxes** property must be also enabled for this functionality to work)
+* **TriStateCheckBoxes** - enables the "Tri-State" **CheckBoxes** (the **CheckBoxes** property must be also enabled for this functionality to work)
 
 * **CheckChildNodes** - when enabled all child Nodes of a Node are automatically: Checked if their parent has been Checked and Unchecked if their parent has been Unchecked
 

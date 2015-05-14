@@ -12,20 +12,16 @@ position: 7
 
 
 
-## 
+**RadTreeView** supports right-to-left (RTL) language locales. Set the **dir** attribute of the page HTML or div tag to "rtl".
 
-RadTreeView supports right-to-left (RTL) language locales. Set the **dir**attribute of the page HTML or div tag to "rtl".
-
-
->caption 
 
 ![RadTreeView Right-to-Left](images/treeview_appearancesupport.png)
 
 ````ASPNET
-	    <div dir="rtl">
-	        <telerik:RadTreeView ID="RadTreeView1" runat="server" Skin="Telerik">
-	            <Nodes>
-	                . . .
+<div dir="rtl">
+    <telerik:RadTreeView ID="RadTreeView1" runat="server" Skin="Telerik">
+        <Nodes>
+            . . .
 ````
 
 

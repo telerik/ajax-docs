@@ -24,7 +24,7 @@ The **OnClientNodePopulationFailed** client-side event occurs when:
 
 The event handler receives parameters:
 
-1. The treeview instance that fired the event.
+1. The **TreeView** instance that fired the event.
 
 1. Event arguments with functions:
 
@@ -32,43 +32,42 @@ The event handler receives parameters:
 
 * **get_errorMessage()** retrieves the exception message text.
 
-* **set_cancel()** - call this function to specify wether the event should be canceled (true) or not (false). Canceling of the event will prevent the exception from propagating.
+* **set_cancel()** - call this function to specify whether the event should be canceled (true) or not (false). Canceling of the event will prevent the exception from propagating.
 
 * **get_domEvent()** retrieves a DOM event object.
 
 In the example below an exception is raised in the server-side [NodeExpand]({%slug treeview/server-side-programming/events/nodeexpand%}) event handler
 
 ````ASPNET
-	
-	    <script type="text/javascript" language="javascript">
-	        function ClientNodePopulationFailed(sender, eventArgs) {
-	        
-	            var node = eventArgs.get_node();
-	            var message = eventArgs.get_errorMessage();
-	            alert("OnClientNodePopulationFailed fired for node " +
-	                node.get_text() +
-	                " with message[" +
-	                message + "]");
-	           eventArgs.set_cancel(true);
-	        }
-	    </script>
-	
-	    <telerik:RadTreeView ID="RadTreeView1" runat="server" OnClientNodePopulationFailed="ClientNodePopulationFailed"
-	        OnNodeExpand="RadTreeView1_NodeExpand">
-	        <Nodes>
-	            <telerik:RadTreeNode runat="server" ExpandMode="ClientSide" Text="Search" ImageUrl="~/images/search.ico"
-	                Expanded="True" Value="1">
-	                <Nodes>
-	                    <telerik:RadTreeNode runat="server" ExpandMode="ServerSideCallBack" Text="Recent Searches">
-	                    </telerik:RadTreeNode>
-	                    <telerik:RadTreeNode runat="server" ExpandMode="ServerSideCallBack" Text="Network Locations">
-	                    </telerik:RadTreeNode>
-	                </Nodes>
-	            </telerik:RadTreeNode>
-	        </Nodes>
-	    </telerik:RadTreeView>
+<telerik:RadTreeView ID="RadTreeView1" runat="server" OnClientNodePopulationFailed="ClientNodePopulationFailed"
+    OnNodeExpand="RadTreeView1_NodeExpand">
+    <Nodes>
+        <telerik:RadTreeNode runat="server" ExpandMode="ClientSide" Text="Search" ImageUrl="~/images/search.ico"
+            Expanded="True" Value="1">
+            <Nodes>
+                <telerik:RadTreeNode runat="server" ExpandMode="ServerSideCallBack" Text="Recent Searches">
+                </telerik:RadTreeNode>
+                <telerik:RadTreeNode runat="server" ExpandMode="ServerSideCallBack" Text="Network Locations">
+                </telerik:RadTreeNode>
+            </Nodes>
+        </telerik:RadTreeNode>
+    </Nodes>
+</telerik:RadTreeView>
 ````
+````JavaScript
+function ClientNodePopulationFailed(sender, eventArgs) {
 
+	var node = eventArgs.get_node();
+	var message = eventArgs.get_errorMessage();
+	
+	alert("OnClientNodePopulationFailed fired for node " +
+		node.get_text() +
+		" with message[" +
+		message + "]");
+		
+	eventArgs.set_cancel(true);
+}
+````
 
 
 
@@ -80,27 +79,22 @@ In the example below an exception is raised in the server-side [NodeExpand]({%sl
 
 
 
-The server **NodeExpand** event handler for the RadTreeView defined above:
+The server **NodeExpand** event handler for the **RadTreeView** defined above:
 
 
 
-````C#
-	     
-	
-	protected void RadTreeView1_NodeExpand(object sender, Telerik.Web.UI.RadTreeNodeEventArgs e)
-	{    
-	    throw new ApplicationException("An error occurred while attempting to populate " + e.Node.Text);
-	}
-				
+````C#	
+protected void RadTreeView1_NodeExpand(object sender, Telerik.Web.UI.RadTreeNodeEventArgs e)
+{    
+    throw new ApplicationException("An error occurred while attempting to populate " + e.Node.Text);
+}
 ````
 ````VB.NET
-	     
-	
-	    Protected Sub RadTreeView1_NodeExpand(ByVal sender As Object, ByVal e As Telerik.Web.UI.RadTreeNodeEventArgs)
-	        Throw New ApplicationException("An error occurred while attempting to populate " + e.Node.Text)
-	    End Sub
-	
+Protected Sub RadTreeView1_NodeExpand(ByVal sender As Object, ByVal e As Telerik.Web.UI.RadTreeNodeEventArgs)
+    Throw New ApplicationException("An error occurred while attempting to populate " + e.Node.Text)
+End Sub
 ````
+
 
 
 # See Also

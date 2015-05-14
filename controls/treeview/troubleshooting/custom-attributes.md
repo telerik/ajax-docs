@@ -16,7 +16,7 @@ position: 12
 
 **PROBLEM**
 
-The get_attributes().getAttribute(attributeName) method does not work.
+The **get_attributes().getAttribute(attributeName)** method does not work.
 
 
 
@@ -25,10 +25,7 @@ The get_attributes().getAttribute(attributeName) method does not work.
 By design all custom attributes which are **valid html attributes** (such as "type", "onclick" etc) are rendered as **html attributes** and are not serialized in the attributes collection. You can still access them on the server-side though. If you need to access them on the client-side you can use this code:
 
 ````JavaScript
-	     
-	
-	var myValidHtmlCustomAttribute = node.get_textElement().getAttribute('type');
-				
+var myValidHtmlCustomAttribute = node.get_textElement().getAttribute('type');
 ````
 
 
@@ -185,7 +182,7 @@ Avoid using names of custom attributes which are valid html attributes. These in
 
 "ontimeerror",
 
-"_designerregion"
+"*_designerregion*"
 
 # See Also
 
