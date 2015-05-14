@@ -12,13 +12,13 @@ position: 0
 
 
 
-## 
+##  
 
 Q3 2013 release of UI for ASP.NET AJAX introduces the highly requested RadMediaPlayer - a video/audio player supporting HTML5 media formats and offering tight integration with media providers, such as YouTube.
 
 RadMediaPlayer uses the build-in HTML5 `<video>` and `<audio>` element functionality to bring powerful media capabilities to your apps without the necessity of installing additional plug-ins. It provides a quick and easy to setup way to deliver rich media web experience for websites, blogs, online TV channels, e-commerce pages, etc.
 
-For older browsers which don't support HTML5 natively, Internet Explorer 8 and 7 in particular, the player provides a Flash fallback method to play the video or audio file by rendering a Flash object.
+For older browsers which don't support HTML5 natively, Internet Explorer 8 and 7 in particular, the player provides a Flash fallback method to play the video or audio file by rendering a Flash object. This improvement enables the RadMediaPlayer to support FLV video format on all browsers.
 ![Media-Player-Overview-Image](images/mediaplayer-overview-image.png)
 
 **Key Features**

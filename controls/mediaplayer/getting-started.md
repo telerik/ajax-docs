@@ -24,7 +24,7 @@ Configuring **RadMediaPlayer** is a quite straightforward and not time-consuming
 1. Drag a RadMediaPlayer control from the toolbox onto your Web page. Its [Smart Tag]({%slug mediaplayer/design-time%}) should appear automatically:
 ![Media-Player-Design-Time1](images/mediaplayer-designtime1.png)
 
-2. First, we need some sources. To be consistent with all of the major browsers supporting HTML5, we need to prepare different formats of the same video source. The browsers are capable to choose their "favorite" video format out of our source collection. Here is a short definition of the three supported formats and their compliance with the major browsers:
+2. First, we need some sources. To be consistent with all of the major browsers supporting HTML5, you may provide different formats of the videos. The browsers are capable to choose their "favorite" video format out of our source collection. Here is a short definition of the three supported formats and their compliance with the major browsers:
 
 * **MP4** - MPEG 4 files with H264 video codec and AAC audio codec.
 
@@ -38,9 +38,13 @@ Configuring **RadMediaPlayer** is a quite straightforward and not time-consuming
 |Internet Explorer|YES|NO|NO|
 |Chrome|YES|YES|YES|
 |Firefox|YES|YES|YES|
-|Opera|NO|YES|YES|
+|Opera|YES|YES|YES|
 
 You can find additional and updated information about the supported HTML5 formats [here](http://www.w3schools.com/html/html5_video.asp).
+
+>note
+For older browsers which don't support HTML5 natively, Internet Explorer 8 and 7 in particular, the player provides a Flash fallback method to play the video or audio file by rendering a Flash object. This improvement enables the RadMediaPlayer to support FLV video format on all browsers.
+>
 
 3. Once we finish assembling our sources, it's time to add their respective MIME settings to the Web Config file of our web site:
 
@@ -73,7 +77,7 @@ You can find additional and updated information about the supported HTML5 format
 **RadMediaPlayer** also provides an effortless way of embedding audio files to your web sites:
 ![Media-Player-Getting-Started-5](images/mediaplayer-getting-started-5.png)
 
-Since the player is tightly dependent on the audio functionality provided by the browsers which support HTML5 standard, it requires multiple sources with different formats to work on cross-browser environment:
+Since the player is tightly dependent on the audio functionality provided by the browsers which support HTML5 standard, you should have in mind the different formats when working on cross-browser environment:
 
 
 |  **Browser**  |  **MP3**  |  **Wav**  |  **Ogg**  |
@@ -81,7 +85,7 @@ Since the player is tightly dependent on the audio functionality provided by the
 |Internet Explorer|YES|NO|NO|
 |Chrome|YES|YES|YES|
 |Firefox|YES|YES|YES|
-|Opera|NO|YES|YES|
+|Opera|YES|YES|YES|
 
 You can find additional and updated information about the supported HTML5 formats [here](http://www.w3schools.com/html/html5_audio.asp).
 
