@@ -1,7 +1,7 @@
 http://www.telerik.com/help/aspnet-ajax/formdecorator-changes-and-backward-compatibility.html http://docs.telerik.com/devtools/ajax/formdecorator/changes-and-backward-compatibility
 http://www.telerik.com/help/aspnet-ajax/formdecorator-client-side-api.html http://docs.telerik.com/devtools/ajax/formdecorator/client-side-programming/overview
-http://www.telerik.com/help/aspnet-ajax/formdecorator-creating-custom-lightweight-skin.html http://docs.telerik.com/devtools/ajax/formdecorator/appearance-and-styling/tutorial:-create-lightweight-custom-skins
-http://www.telerik.com/help/aspnet-ajax/formdecorator-creating-custom-skins.html http://docs.telerik.com/devtools/ajax/formdecorator/appearance-and-styling/tutorial:-create-custom-skins
+http://www.telerik.com/help/aspnet-ajax/formdecorator-creating-custom-lightweight-skin.html http://docs.telerik.com/devtools/ajax/formdecorator/appearance-and-styling/tutorial-creating-custom-lightweight-skin
+http://www.telerik.com/help/aspnet-ajax/formdecorator-creating-custom-skins.html http://docs.telerik.com/devtools/ajax/formdecorator/appearance-and-styling/tutorial-creating-custom-classic-skin
 http://www.telerik.com/help/aspnet-ajax/formdecorator-css-classes.html http://docs.telerik.com/devtools/ajax/formdecorator/appearance-and-styling/css-classes
 http://www.telerik.com/help/aspnet-ajax/formdecorator-decorating-radwindow.html http://docs.telerik.com/devtools/ajax/formdecorator/how-to/decorating-radwindow-when-decorationzoneid-is-set
 http://www.telerik.com/help/aspnet-ajax/formdecorator-design-smart-tag.html http://docs.telerik.com/devtools/ajax/formdecorator/design-time
