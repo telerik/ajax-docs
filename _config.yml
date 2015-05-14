@@ -1058,6 +1058,9 @@ navigation:
     "*pagelayout/structure":
         title: "Structure"
         position: 4
+    "*pagelayout/creating-responsive-design":
+        title: "Creating Responsive Design"
+        position: 3		
     "*panelbar/templates":
         title: "Templates"
         position: 6

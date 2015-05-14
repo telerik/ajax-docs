@@ -14,7 +14,6 @@ position: 2
 
 The following article describes the meaning of the **viewport breakpoints** for **RadPageLayout** and their usage.
 
-## Viewport Breakpoints
 
 In responsive web design, **viewport breakpoints** are browser dimensions (usually just widths) that set the active range of a given media query. Once the browser dimensions are within that range, the styles associated with that media query will apply. In other words, without the breakpoints (and media queries) sites could be just fluid, but with breakpoints (and media queries), we can change the actual layout.
 
@@ -40,8 +39,8 @@ The following table describes the resolutions and the corresponding viewport bre
 |max-width: 360px|extra small resolutions (or xs)|mobile phone (viewed in portrait)|
 |min-width: 361px / max-width: 768px|small resolutions (or sm)|mobile phone (viewed in landscape) / tablet (viewed in portrait)|
 |min-width: 769px / max-width: 1024px|medium resolutions (or md)|tablet (viewed in landscape)|
-|min-width: 1025px / max-width: 1366px|large resolutions (or lg)|laptop|
-|min-width: 1367px|extra large resolutions (or xl)|desktop|
+|min-width: 1025px / max-width: 1280px|large resolutions (or lg)|laptop|
+|min-width: 1281px|extra large resolutions (or xl)|desktop|
 
 >note The described devices types for the corresponding resolutions and screen size are approximate.
 >
