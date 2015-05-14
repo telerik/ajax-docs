@@ -294,8 +294,8 @@ The following example shows the declaration of a **GridCheckBoxColumn**:
 ````ASP.NET
 <telerik:GridCheckBoxColumn DataField="StringField" DataType="System.Boolean"
     FilterControlAltText="Filter StringField column" HeaderText="StringField"
-    SortExpression="StringField" UniqueName="StringField" StringFalseValue="Yes"
-    StringTrueValue="No">
+    SortExpression="StringField" UniqueName="StringField" StringFalseValue="No"
+    StringTrueValue="Yes">
 </telerik:GridCheckBoxColumn>
 ````
 
