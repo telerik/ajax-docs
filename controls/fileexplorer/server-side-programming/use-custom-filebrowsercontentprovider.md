@@ -274,7 +274,7 @@ Public Class myNewProvider
 End Class
 ````
 
-* Set the **RadFileExplorer's** property **Configuration**.**ContentProviderTypeName**to the fully qualified assembly name of your custom content provider. The general format of the assembly name should be **"Full.Class.Name.Including.The.Namespace, Assembly.Name"**. For example:
+* Set the **RadFileExplorer's** property **Configuration.ContentProviderTypeName** to the fully qualified assembly name of your custom content provider. The general format of the assembly name should be **"Full.Class.Name.Including.The.Namespace, Assembly.Name"**. For example:
 
 ````C#
 RadFileExplorer1.Configuration.ContentProviderTypeName = typeof(ExtendedFileProvider).AssemblyQualifiedName;
@@ -393,7 +393,7 @@ Below you can see the order of calling the various methods of FileBrowserContent
 
 1. new virtual location
 
-*Sample:string path: "/FileExplorerCustomProvider/NewFolder/NewSubFolder" string newPath: "/FileExplorerCustomProvider/NewSubFolder" Returns: string.Empty (operation successful) *
+*Sample:string path: "/FileExplorerCustomProvider/NewFolder/NewSubFolder" string newPath: "/FileExplorerCustomProvider/NewSubFolder" Returns: string.Empty (operation successful)*
 
 **DisplayMode:** This property is obsolete. You do not need to override it.
 

@@ -18,47 +18,47 @@ All the shortcuts are controlled through the RadFileExplorer.**KeyboardShortcuts
 
 * The non-alphanumeric and modifier keys are set by using their corresponding string keyword. The keywords are fixed and created to be intuitive, so if you want to use the "Space" key to focus the grid, you should simply set the RadFileExplorer.**KeyboardShortcuts.FocusGrid** property to the string "space", or "SPACE", or "Space". Letter case is **ignored**. Here is the full list of keywords for the respective keys (upper case used for convenience):
 
-* ENTER - corresponds to the "Enter" key
+	* ENTER - corresponds to the "Enter" key
 
-* HOME - corresponds to the "Home" key
+	* HOME - corresponds to the "Home" key
 
-* END - corresponds to the "End" key
+	* END - corresponds to the "End" key
 
-* LEFT - corresponds to the "Left" arrow key
+	* LEFT - corresponds to the "Left" arrow key
 
-* RIGHT - corresponds to the "Right" arrow key
+	* RIGHT - corresponds to the "Right" arrow key
 
-* UP - corresponds to the "Up" arrow key
+	* UP - corresponds to the "Up" arrow key
 
-* DOWN - corresponds to the "Down" arrow key
+	* DOWN - corresponds to the "Down" arrow key
 
-* PAGEUP - corresponds to the "Page Up" key
+	* PAGEUP - corresponds to the "Page Up" key
 
-* PAGEDOWN - corresponds to the "Page Down" key
+	* PAGEDOWN - corresponds to the "Page Down" key
 
-* SPACE - corresponds to the "Spacebar" key
+	* SPACE - corresponds to the "Spacebar" key
 
-* TAB - corresponds to the "Tab" key
+	* TAB - corresponds to the "Tab" key
 
-* BACK - corresponds to the "Backspace" key
+	* BACK - corresponds to the "Backspace" key
 
-* CONTEXT - corresponds to the ["(Context) Menu"](http://en.wikipedia.org/wiki/Menu_key) key
+	* CONTEXT - corresponds to the ["(Context) Menu"](http://en.wikipedia.org/wiki/Menu_key) key
 
-* ESCAPE оr ESC - correspond to the "Escape" key
+	* ESCAPE оr ESC - correspond to the "Escape" key
 
-* DELETE or DEL - correspond to the "Delete" key
+	* DELETE or DEL - correspond to the "Delete" key
 
-* INSERT or INS - correspond to the "Insert" key
+	* INSERT or INS - correspond to the "Insert" key
 
-* PLUS - corresponds to the "+" key
+	* PLUS - corresponds to the "+" key
 
-* CTRL - corresponds to the "Ctrl" key
+	* CTRL - corresponds to the "Ctrl" key
 
-* ALT - corresponds to the "Alt" key
+	* ALT - corresponds to the "Alt" key
 
-* SHIFT - corresponds to the "Shift" key
+	* SHIFT - corresponds to the "Shift" key
 
-* F1, F2, through F12 - correspond to "f1", "f2", through "f12" keys (function keys)
+	* F1, F2, through F12 - correspond to "f1", "f2", through "f12" keys (function keys)
 
 * The modifier keys can be combined with the alphanumeric keys, to use a keyboard shortcut combination for executing a certain action. This is done by concatenating the shortcuts keywords with the "+" sign. Example, setting RadFileExplorer.**KeyboardShortcuts.FocusFileExplorer="CTRL+2"** will focus the control when pressing "Ctrl + 2".
 

@@ -77,7 +77,7 @@ position: 1
 | **.RadFileExplorer .RadTreeView .rtIn** |FileExplorer RadTreeView inner|
 | **.RadFileExplorer .rtTemplate** |FileExplorer RadTreeView template|
 | **.RadFileExplorer .RadTreeView .rfeFileExtension** |FileExplorer RadTreeView file explorer file extension|
-| ** + html .RadFileExplorer .rtLoadingBefore** |FileExplorer RadTreeView loading before IE7 fix|
+| **+ html .RadFileExplorer .rtLoadingBefore** |FileExplorer RadTreeView loading before IE7 fix|
 
 ## RadFileExplorer File Extensions
 
