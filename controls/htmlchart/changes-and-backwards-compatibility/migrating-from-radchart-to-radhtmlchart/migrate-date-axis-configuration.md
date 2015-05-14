@@ -26,7 +26,7 @@ The term date axis refers to an axis from a chart that can display discrete or c
 
 1. You can set a desired **CustomFormat** for the XAxis (e.g., "M/dd/yyyy").
 
-**Example 1** illustrates how to configure a date axis in**RadChart** that displays discrete data in **Figure 1**.
+**Example 1** illustrates how to configure a date axis in **RadChart** that displays discrete data in **Figure 1**.
 
 >caption Figure 1: Display discrete data with date axis in RadChart.
 
@@ -115,11 +115,11 @@ End Function
 
 **RadHtmlChart** does support date axis out of the box. The DateTime format of the x-axis items is automatically recognized and no additional configuration is needed.
 
-1. In order to display discrete data in **RadHtmlChart** you must set the x-axis **Type** property to**Category**.
+1. In order to display discrete data in **RadHtmlChart** you must set the x-axis **Type** property to **Category**.
 
 1. The format of the x-axis items labels is controlled through the **XAxis.LabelsAppearance.DataFormatString** property(e.g., **DataFormatString**="M/dd/yyyy").
 
-**Example 2** illustrates how to configure a date axis in**RadHtmlChart** that displays discrete data in **Figure 2**.
+**Example 2** illustrates how to configure a date axis in **RadHtmlChart** that displays discrete data in **Figure 2**.
 
 >caption Figure 2: Display discrete data with date axis in RadHtmlChart.
 
@@ -292,7 +292,7 @@ End Function
 
 1. The format of the x-axis items labels is controlled through the **XAxis.LabelsAppearance.DataFormatString** property (e.g., **DataFormatString**="M/dd/yyyy").
 
-**Example 4** illustrates how to configure a date axis in**RadHtmlChart** that displays continuous data in **Figure 4**.
+**Example 4** illustrates how to configure a date axis in **RadHtmlChart** that displays continuous data in **Figure 4**.
 
 >caption Figure 4: Display continuous data with date axis in RadHtmlChart.
 

@@ -10,13 +10,13 @@ position: 5
 
 # Candlestick Chart
 
-The **CandlestickChart** describes the price movements of a financial instrument (e.g security or currency) over time.It is a combination of [BarChart]({%slug htmlchart/chart-types/bar-chart%}) and [LineChart]({%slug htmlchart/chart-types/line-chart%}) where each SeriesItem (a Candlestick) displays the **Open, High, Low** and **Close** prices for a single day. A Candlestick consists of:
+The **CandlestickChart** describes the price movements of a financial instrument (e.g security or currency) over time. It is a combination of [BarChart]({%slug htmlchart/chart-types/bar-chart%}) and [LineChart]({%slug htmlchart/chart-types/line-chart%}) where each SeriesItem (a Candlestick) displays the **Open, High, Low** and **Close** prices for a single day. A Candlestick consists of:
 
 * **Body** - the wide part of the CandlestickSeriesItem that shows the Open and Close prices.
 
-* If the Close price is higher than the Open price, the body is called **Hollow** (usually colored white or green)and the **BackgroundColor** property of the **CandlestickSeries -> Appearance -> FillStyle** inner tag controls its color.
+	* If the Close price is higher than the Open price, the body is called **Hollow** (usually colored white or green)and the **BackgroundColor** property of the **CandlestickSeries -> Appearance -> FillStyle** inner tag controls its color.
 
-* If, however, the Close price is lower than the Open price, the body is called **Filled** (usually colored black or red) and the **DownColor** property of the CandlestickSeries tag controls its color.
+	* If, however, the Close price is lower than the Open price, the body is called **Filled** (usually colored black or red) and the **DownColor** property of the CandlestickSeries tag controls its color.
 
 * **Wicks** - the **long thin lines** located above and below the body, also called **shadows** that show the High and Low prices. The High price is represented by the top of the **Upper Wick**, while the bottom of the **Lower Wick** indicates the Low price. 
 	
@@ -38,7 +38,7 @@ The CandlestickChart can be fully customized:
 
 	* The inner tags of the axis tag can control the major and minor grid lines in terms of colour and size and the labels can have a DataFormatString, position and visibility set through each inner tag's properties
 
-* The title, background colors and legend are controlled via the inner properties of the **RadHtmlChart** control and are common for all charts.More information on the matter is available in the [Server-side API]({%slug htmlchart/server-side-programming/basic-configuration%})and in the [Element structure]({%slug htmlchart/radhtmlchart-structure%}) articles.
+* The title, background colors and legend are controlled via the inner properties of the **RadHtmlChart** control and are common for all charts. More information on the matter is available in the [Server-side API]({%slug htmlchart/server-side-programming/basic-configuration%}) and in the [Element structure]({%slug htmlchart/radhtmlchart-structure%}) articles.
 
 The chart from the image above is created with the code below:
 

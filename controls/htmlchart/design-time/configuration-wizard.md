@@ -67,7 +67,7 @@ The Legend, Title tab (**Figure 7**) allows you to set the global properties of 
 
 ## Navigator
 
-If you want to take advantage of the [Data Navigation]({%slug htmlchart/functionality/data-navigation%})functionality, you can create and customize a Navigator pane from the Navigator tab (**Figure 8**).
+If you want to take advantage of the [Data Navigation]({%slug htmlchart/functionality/data-navigation%}) functionality, you can create and customize a Navigator pane from the Navigator tab (**Figure 8**).
 
 >note This functionality is available only for a Stock layout.
 

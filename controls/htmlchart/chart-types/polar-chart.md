@@ -10,7 +10,7 @@ position: 11
 
 # Polar Chart
 
-The **Polar** chart shows data in a circular plot area in polar coordinates where each data point is represented by a distance/radius and an angle, beginning of the coordinate system.A point's location in the polar coordinate systems is defined by the **Value** property of the **PolarSeriesItem**, which determines the radial coordinate (the radius) and the **Angle** property, which determines the angular coordinate. **Polar** charts are useful for visualizing scientific data like precipitation/heat distribution in the Earth's poles and other multivariate data.
+The **Polar** chart shows data in a circular plot area in polar coordinates where each data point is represented by a distance/radius and an angle, beginning of the coordinate system. A point's location in the polar coordinate systems is defined by the **Value** property of the **PolarSeriesItem**, which determines the radial coordinate (the radius) and the **Angle** property, which determines the angular coordinate. **Polar** charts are useful for visualizing scientific data like precipitation/heat distribution in the Earth's poles and other multivariate data.
 
 **RadHtmlChart** supports three types of Polar series. They are only different in the graphical primitives that are drawn.The primitives are a polyline, polygon and point.
 
