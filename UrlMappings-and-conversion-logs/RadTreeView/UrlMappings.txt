@@ -1,7 +1,5 @@
 http://www.telerik.com/help/aspnet-ajax/treeview-changes-and-backward-compatibility.html http://docs.telerik.com/devtools/ajax/treeview/changes-and-backward-compatibility
 http://www.telerik.com/help/aspnet-ajax/treeview-what-is-new.html http://docs.telerik.com/devtools/ajax/treeview/what-is-new
-http://www.telerik.com/help/aspnet-ajax/treview-data-binding-data-bindings.html http://docs.telerik.com/devtools/ajax/treeview/!not-referenced-topics!/data-bindings
-http://www.telerik.com/help/aspnet-ajax/treview-design-navigation-item-binding-collection-editor.html http://docs.telerik.com/devtools/ajax/treeview/!not-referenced-topics!/navigationitembinding-collection-editor
 http://www.telerik.com/help/aspnet-ajax/treview-overview-migrating.html http://docs.telerik.com/devtools/ajax/treeview/migrating-from-radtreeview-for-asp.net-to-asp.net-ajax
 http://www.telerik.com/help/aspnet-ajax/treeview-accessibility-drag-and-drop.html http://docs.telerik.com/devtools/ajax/treeview/accessibility-and-internationalization/drag-and-drop
 http://www.telerik.com/help/aspnet-ajax/treeview-accessibility-multiple-nodes.html http://docs.telerik.com/devtools/ajax/treeview/accessibility-and-internationalization/multi-node-selection
@@ -61,13 +59,14 @@ http://www.telerik.com/help/aspnet-ajax/treeview-load-on-demand-web-service-tuto
 http://www.telerik.com/help/aspnet-ajax/treeview-load-on-demand-webservice.html http://docs.telerik.com/devtools/ajax/treeview/load-on-demand/web-service-binding
 http://www.telerik.com/help/aspnet-ajax/treeview-overview-structure.html http://docs.telerik.com/devtools/ajax/treeview/radtreeview-structure
 http://www.telerik.com/help/aspnet-ajax/treeview-overview.html http://docs.telerik.com/devtools/ajax/treeview/overview
+http://www.telerik.com/help/aspnet-ajax/treview-overview-compliance.html http://docs.telerik.com/devtools/ajax/treeview/standards-compliance
 http://www.telerik.com/help/aspnet-ajax/treeview-nodes-design.html http://docs.telerik.com/devtools/ajax/treeview/radtreeview-nodes/creating-node-structure-in-line
 http://www.telerik.com/help/aspnet-ajax/treeview-nodes-overview.html http://docs.telerik.com/devtools/ajax/treeview/radtreeview-nodes/overview
 http://www.telerik.com/help/aspnet-ajax/treeview-nodes-working-client.html http://docs.telerik.com/devtools/ajax/treeview/radtreeview-nodes/working-with-nodes-at-the-client
 http://www.telerik.com/help/aspnet-ajax/treeview-nodes-working-server.html http://docs.telerik.com/devtools/ajax/treeview/radtreeview-nodes/working-with-nodes-at-the-server
 http://www.telerik.com/help/aspnet-ajax/treeview-server-events.html http://docs.telerik.com/devtools/ajax/treeview/server-side-programming/events/overview
 http://www.telerik.com/help/aspnet-ajax/treeview-server-nodes-controls.html http://docs.telerik.com/devtools/ajax/treeview/server-side-programming/using-the-node-controls-collection
-http://www.telerik.com/help/aspnet-ajax/treeview-server-nodes-finding-tutorial.html http://docs.telerik.com/devtools/ajax/treeview/server-side-programming/tutorial:-finding-nodes
+http://www.telerik.com/help/aspnet-ajax/treeview-server-nodes-finding-tutorial.html http://docs.telerik.com/devtools/ajax/treeview/server-side-programming/tutorial-on-finding-nodes
 http://www.telerik.com/help/aspnet-ajax/treeview-server-nodes-finding.html http://docs.telerik.com/devtools/ajax/treeview/server-side-programming/finding-nodes-at-runtime
 http://www.telerik.com/help/aspnet-ajax/treeview-server-nodes-navigating.html http://docs.telerik.com/devtools/ajax/treeview/server-side-programming/navigating-to-a-url
 http://www.telerik.com/help/aspnet-ajax/treeview-server-nodes-traversing.html http://docs.telerik.com/devtools/ajax/treeview/server-side-programming/traversing-nodes

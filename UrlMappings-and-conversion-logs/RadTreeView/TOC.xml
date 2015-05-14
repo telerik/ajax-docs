@@ -234,8 +234,4 @@
     <Article title="Load On Demand Expand on Server-side NodeClick" slug="treeview/troubleshooting/load-on-demand-expand-on-server-side-nodeclick" />
     <Article title="ClientTemplate Gets Lost on PostBack " slug="treeview/troubleshooting/clienttemplate-gets-lost-on-postback-" />
   </Folder>
-  <Folder title="!Not Referenced topics!" path="treeview/!not-referenced-topics!">
-    <Article title="NavigationItemBinding Collection Editor" slug="treeview/!not-referenced-topics!/navigationitembinding-collection-editor" />
-    <Article title="Data Bindings" slug="treeview/!not-referenced-topics!/data-bindings" />
-  </Folder>
 </Content>
