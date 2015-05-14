@@ -42,7 +42,7 @@ To customize the tooltips for the built-in commands, use the following propertie
 
 * The **ExpandText** property specifies the tooltip for the **ExpandCollapse** command when the RadDock control is collapsed.
 
-* The**CloseText** property specifies the tooltip for the **Close** command.
+* The **CloseText** property specifies the tooltip for the **Close** command.
 
 >tip These properties are marked with the **LocalizableAttribute** and can be automatically localized by the .NET Framework if the application contains the proper resource strings. For more information about the integrated in the .NET Framework localization capabilities, see the following MSDN article:
 >[http://msdn2.microsoft.com/en-us/library/ms228208(VS.80).aspx](http://msdn2.microsoft.com/en-us/library/ms228208(VS.80).aspx)
@@ -55,7 +55,7 @@ To customize the tooltips for custom commands, use the **Text** and **AlternateT
 
 The following example shows a **RadDock** control with customized tooltips:
 
-````AS0.PNET
+````ASP.NET
 <telerik:RadDock
    ID="RadDock1"
    runat="server"

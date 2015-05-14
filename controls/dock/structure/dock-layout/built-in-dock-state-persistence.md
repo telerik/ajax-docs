@@ -10,19 +10,15 @@ position: 0
 
 # Built-in Dock State Persistence
 
+Since the Q1 2013 release of Telerik UI for ASP.NET AJAX, the RadDockLayout provides a built-in long-term persistence of RadDocks’ states. This means that the layout of the docks can be saved when a page is closed and opened, without necessarily handling the server-side events [SaveDockLayout]({%slug dock/server-side-programming/events/savedocklayout%}) and [LoadDockLayout]({%slug dock/server-side-programming/events/loaddocklayout%}) of RadDockLayout.
 
-
-
-
-Since the Q1 2013 release of Telerik UI for ASP.NET AJAX, the RadDockLayout provides a built-in long-term persistence of RadDocks’ states. This means that the layout of the docks can be saved when a page is closed and opened, without necessarily handling the server-side events [SaveDockLayout]({%slug dock/server-side-programming/events/savedocklayout%}) and [LoadDockLayout]({%slug dock/server-side-programming/events/loaddocklayout%})of RadDockLayout.
-
-The built-in dock state persistance is enabled by setting the property **EnableLayoutPersistence** to**true**. There are several options for the data repository that will be used for storing the state:
+The built-in dock state persistence is enabled by setting the property **EnableLayoutPersistence** to **true**. There are several options for the data repository that will be used for storing the state:
 
 * **Cookies** - The dock state is stored in a cookie. This provider is enabled by setting the property **LayoutPersistenceRepositoryType** to **Cookies**. It is not recommended for use when there are a lot of docks on the page due to the [4KB size limit of a cookie](http://coursesweb.net/javascript/cookies).If this limit is exceeded, the state of the controls will not be persisted correctly.
 
-* **FileSystem** - The dock state is stored in a file that resides in the **App_Data** folder of the project. This provider is enabled by setting the property **LayoutPersistenceRepositoryType** to**FileSystem**. If the property **LayoutRepositoryID** (described below) is configured, its value willbe used for naming the file with the state data.
+* **FileSystem** - The dock state is stored in a file that resides in the **App_Data** folder of the project. This provider is enabled by setting the property **LayoutPersistenceRepositoryType** to **FileSystem**. If the property **LayoutRepositoryID** (described below) is configured, its value will be used for naming the file with the state data.
 
-* **Custom** - The dock state is stored in a custom storage provider. This provider is enabled by setting theproperty **LayoutPersistenceRepositoryType** to **Custom**, creating a class that implements the interface**IStateStorageProvider** and setting an instance of this class to the property **StorageProvider** of RadDockLayout. The methods **LoadStateFromStorage** and **SaveStateToStorage** of the interface need to be implemented. This is demonstrated in the following code sample that uses the database table **DockStates**:
+* **Custom** - The dock state is stored in a custom storage provider. This provider is enabled by setting the property **LayoutPersistenceRepositoryType** to **Custom**, creating a class that implements the interface**IStateStorageProvider** and setting an instance of this class to the property **StorageProvider** of RadDockLayout. The methods **LoadStateFromStorage** and **SaveStateToStorage** of the interface need to be implemented. This is demonstrated in the following code sample that uses the database table **DockStates**:
 
 
 ````ASP.NET
