@@ -54,7 +54,7 @@ The following table lists the fields of the progress context that you can set:
 
 This example shows how to use **RadProgressArea** to display the progress of a custom process:![upload custom progress monitor](images/progress_monitor.png)
 
-The **RadProgressManager** has **SuppressMissingHttpModuleError**set to "true", and the **RadProgressArea** hides the primary progress indicators and **Speed** indicator, as these all provide units to the value that reflect size:
+The **RadProgressManager** has **SuppressMissingHttpModuleError** set to "true", and the **RadProgressArea** hides the primary progress indicators and **Speed** indicator, as these all provide units to the value that reflect size:
 
 ````ASPNET
 <telerik:radprogressmanager id="RadProgressManager1" runat="server" />
@@ -72,7 +72,7 @@ The **RadProgressManager** has **SuppressMissingHttpModuleError**set to "true", 
 
 
 
-In the **Page_Load** event handler, the **Localization**property is set to reflect the new process:
+In the **Page_Load** event handler, the **Localization** property is set to reflect the new process:
 
 
 

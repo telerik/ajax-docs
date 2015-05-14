@@ -32,7 +32,7 @@ The event handler receives two parameters:
 
 	* **get_fileInputField** returns the file input field that is about to be cleared.
 
-	* **get_row** returns the row that is about to be cleared (<LI> element)
+	* **get_row** returns the row that is about to be cleared (`<LI>` element)
 
 	* **get_rowIndex** returns the index of the row
 

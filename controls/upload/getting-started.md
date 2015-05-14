@@ -45,17 +45,16 @@ Before you can use any of the **RadUpload** progress-monitoring controls, you mu
 1. Under the **`<system.web>`** element locate the **`<httpModules>`** element. Add it if it does not exist.
 
 1. In the **`<httpModules>`** element add the following tag:
-
+	
 	````XML
 	<add name="RadUploadModule" type="Telerik.Web.UI.RadUploadHttpModule, Telerik.Web.UI" />
 	````
-
+	
 	This registers the **RadUploadHttpModule** type, which enables **RadProgressManager** to manage the upload progress.
-
+	
 	>note If the **controls** assembly is added in **GAC** you must specify the full assembly qualified path of the **RadUploadHttpModule** type. See the [Configuration](FAFFEB65-66D2-4CFE-8F40-E4BA471540A9) article for details.
 	>
-
-
+	
 1. Under the **`<system.web>`** element, locate the **`<httpHandlers>`** element. Add it if it does not exist.
 
 1. In the **`<httpHandlers>`** element, add the following tag:
@@ -88,7 +87,6 @@ Before you can use any of the **RadUpload** progress-monitoring controls, you mu
 
 	>note If the **controls** assembly is added in **GAC** you must specify the full assembly qualified path of the **RadUploadProgressHandler** type. See [RadUploadProgressHandler](FAFFEB65-66D2-4CFE-8F40-E4BA471540A9) for details.
 	>
-
 
 1. At this point, your Web.config should look as follows:
 
@@ -147,7 +145,6 @@ Before you can use any of the **RadUpload** progress-monitoring controls, you mu
 	>note By default, your application can upload at most 4 megabytes of data over all the files uploaded in a single postback.
 	>
 
-
 1. In the Solution Explorer, add a new folder called "Files" where the uploaded files will be placed:
 
 	![Target Folder](images/upload_files_folder.png)
@@ -195,7 +192,7 @@ If the user tries to upload a lot of large files, the process can take a while. 
 	* Use the **Add** button to add new file input areas.
 
 	* Click the check box next to an item and click the **Delete** button to remove the selected input area.
-
+	
 1. When you have selected a number of files, including some with invalid extensions, click the **Submit** button to upload the files. The progress dialog appears:
 
 	![Progress Dialog](images/upload_progress_dialog.png)
