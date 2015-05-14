@@ -18,13 +18,13 @@ Since the popup calendar in RadScheduler is RadCalendar, its client-side object 
 
 ````JavaScript
 	     
-	<script type="text/javascript">
-	function pageLoad()
-	{       
-	   var schedulerPopupCalendar = $find('<%= RadScheduler1.ClientID + "_SelectedDateCalendar" %>');
-	   alert(schedulerPopupCalendar.get_id());
-	}        
-	</script> 
+<script type="text/javascript">
+function pageLoad()
+{       
+   var schedulerPopupCalendar = $find('<%= RadScheduler1.ClientID + "_SelectedDateCalendar" %>');
+   alert(schedulerPopupCalendar.get_id());
+}        
+</script> 
 				
 ````
 

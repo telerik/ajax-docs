@@ -36,24 +36,24 @@ You can use the **OnClientAppointmentEditing** and **OnClientAppointmentInsertin
 
 ````C#
 	
-	    protected void RadAjaxManager1_AjaxRequest(object sender, AjaxRequestEventArgs e)
-	    {
-	        if (e.Argument == "RebindScheduler")
-	        {
-	            RadScheduler1.Rebind();
-	        }
-	    }
+protected void RadAjaxManager1_AjaxRequest(object sender, AjaxRequestEventArgs e)
+{
+	if (e.Argument == "RebindScheduler")
+	{
+		RadScheduler1.Rebind();
+	}
+}
 	    
 ````
 ````VB.NET
 	
-	    Protected Sub RadAjaxManager1_AjaxRequest( _
-	                    ByVal sender As Object, _
-	                    ByVal e As AjaxRequestEventArgs)
-	        If e.Argument = "RebindScheduler" Then
-	            RadScheduler1.Rebind()
-	        End If
-	    End Sub
+Protected Sub RadAjaxManager1_AjaxRequest( _
+				ByVal sender As Object, _
+				ByVal e As AjaxRequestEventArgs)
+	If e.Argument = "RebindScheduler" Then
+		RadScheduler1.Rebind()
+	End If
+End Sub
 	
 ````
 
@@ -62,61 +62,59 @@ You can use the **OnClientAppointmentEditing** and **OnClientAppointmentInsertin
 
 ````JavaScript
 	
-	<!--  
-	   function AppointmentEditing(sender, eventArgs)
-	   {
-	     var apt = eventArgs.get_appointment();
-	     window.radopen("AdvancedForm.aspx?Mode=Edit&AppointmentId=" + apt.ID, "AdvancedForm");
-	     eventArgs.set_cancel(true);
-	  }
-	  
-	  function AppointmentInserting(sender, eventArgs)
-	  {
-	     var start = formatDate(eventArgs.get_startTime());
-	     var isAllDay = eventArgs.get_isAllDay();
-	     // New appointment
-	     window.radopen("AdvancedForm.aspx?Mode=Insert&Start=" + start + "&IsAllDay=" + isAllDay, "AdvancedForm");   
-	     eventArgs.set_cancel(true);
-	  }
-	  
-	  function formatDate(date)
-	  {
-	   var year = padNumber(date.getUTCFullYear(), 4);
-	   var month = padNumber(date.getUTCMonth() + 1, 2);
-	   var day = padNumber(date.getUTCDate(), 2);
-	   var hour = padNumber(date.getUTCHours(), 2);
-	   var minute = padNumber(date.getUTCMinutes(), 2);
-	   
-	   return year + month + day + hour + minute;
-	  }
-	  
-	  function padNumber(number, totalDigits)
-	  {
-	   number = number.toString();
-	   var padding = '';
-	   if (totalDigits > number.length)
-	   {
-	     for (i = 0; i < (totalDigits - number.length); i++)
-	     {
-	       padding += '0';
-	     }
-	   }
-	   
-	   return padding + number.toString();
-	  }
-	  
-	  function refreshScheduler()
-	  {
-	     var ajaxManager = $find("RadAjaxManager1");
-	     ajaxManager.ajaxRequest('RebindScheduler');
-	  }
-	  -->      
+function AppointmentEditing(sender, eventArgs)
+{
+	 var apt = eventArgs.get_appointment();
+	 window.radopen("AdvancedForm.aspx?Mode=Edit&AppointmentId=" + apt.ID, "AdvancedForm");
+	 eventArgs.set_cancel(true);
+}
+
+function AppointmentInserting(sender, eventArgs)
+{
+	 var start = formatDate(eventArgs.get_startTime());
+	 var isAllDay = eventArgs.get_isAllDay();
+	 // New appointment
+	 window.radopen("AdvancedForm.aspx?Mode=Insert&Start=" + start + "&IsAllDay=" + isAllDay, "AdvancedForm");   
+	 eventArgs.set_cancel(true);
+}
+
+function formatDate(date)
+{
+	var year = padNumber(date.getUTCFullYear(), 4);
+	var month = padNumber(date.getUTCMonth() + 1, 2);
+	var day = padNumber(date.getUTCDate(), 2);
+	var hour = padNumber(date.getUTCHours(), 2);
+	var minute = padNumber(date.getUTCMinutes(), 2);
+
+	return year + month + day + hour + minute;
+}
+
+function padNumber(number, totalDigits)
+{
+	number = number.toString();
+	var padding = '';
+	if (totalDigits > number.length)
+	{
+	 for (i = 0; i < (totalDigits - number.length); i++)
+	 {
+	   padding += '0';
+	 }
+	}
+
+	return padding + number.toString();
+}
+
+function refreshScheduler()
+{
+	 var ajaxManager = $find("RadAjaxManager1");
+	 ajaxManager.ajaxRequest('RebindScheduler');
+}
 	
 ````
 
 
 
-1. Set the **OnClientAppointmentEditing** property of your **RadScheduler** to "**AppointmentEditing**" and the**OnClientAppointmentInserting** property to "**AppointmentInserting**". These two javascript functions are defined in the javascript you added to your page.They call **window.radopen()** to open a **RadWindow** with content defined by **AdvancedForm.aspx**. **AdvancedForm.aspx** is a Web Form that takes information about the appointment from the URL. It uses four query parameters: **Mode**,which is "Insert" or "Edit" depending on whether the form is inserting a new appointment or editing an existing one; **AppointmentId**, which is the keyfor the appointment to edit; **Start**, which is the start time for an inserted appointment;and **IsAllDay**, which indicates whetheran inserted appointment should begin as an all-day event. **AdvancedForm.aspx** has its own reference to the data source that the scheduler uses, and usesthat data source to obtain information about the appointment to be edited, as well as to save any changes made by the user. For more information on **AdvancedForm.aspx**,see the Quick Start demo.
+1. Set the **OnClientAppointmentEditing** property of your **RadScheduler** to "**AppointmentEditing**" and the **OnClientAppointmentInserting** property to "**AppointmentInserting**". These two javascript functions are defined in the javascript you added to your page.They call **window.radopen()** to open a **RadWindow** with content defined by **AdvancedForm.aspx**. **AdvancedForm.aspx** is a Web Form that takes information about the appointment from the URL. It uses four query parameters: **Mode**, which is "Insert" or "Edit" depending on whether the form is inserting a new appointment or editing an existing one; **AppointmentId**, which is the keyfor the appointment to edit; **Start**, which is the start time for an inserted appointment;and **IsAllDay**, which indicates whetheran inserted appointment should begin as an all-day event. **AdvancedForm.aspx** has its own reference to the data source that the scheduler uses, and usesthat data source to obtain information about the appointment to be edited, as well as to save any changes made by the user. For more information on **AdvancedForm.aspx**, see the Quick Start demo.
 
 >note The **AppointmentEditing** and **AppointmentInserting** functions call eventArgs.set_cancel(true) to prevent the scheduler from editing or inserting the appointment: this is handled by the edit form instead.
 >
@@ -132,11 +130,11 @@ You can use the **OnClientAppointmentEditing** and **OnClientAppointmentInsertin
 
 * Set the**Modal** property to **True**
 
-* Set the **VisibleStatusBar** property to**False**
+* Set the **VisibleStatusBar** property to **False**
 
 * Set the **Behaviors** property to "Close"
 
-* Set the **OnClientClose** property to the "refreshScheduler"function from the javascript you added to your page. The refreshScheduler function causes the AJAX manager to trigger a rebind of the scheduler to reflectthe changes made in the new edit form.
+* Set the **OnClientClose** property to the "refreshScheduler" function from the javascript you added to your page. The refreshScheduler function causes the AJAX manager to trigger a rebind of the scheduler to reflectthe changes made in the new edit form.
 
 
 

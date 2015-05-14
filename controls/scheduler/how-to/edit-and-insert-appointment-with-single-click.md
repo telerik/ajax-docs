@@ -21,11 +21,11 @@ You need to subscribe to the [OnClientTimeSlotClick]({%slug scheduler/client-sid
 ````JavaScript
 	
 	
-	        function insertAppointment(sender, e) {
-	            var slot = sender.get_activeModel().getTimeSlotFromDomElement(e.get_domEvent().target);
-	            sender.showInsertFormAt(slot);
-	        }
-	
+function insertAppointment(sender, e) {
+	var slot = sender.get_activeModel().getTimeSlotFromDomElement(e.get_domEvent().target);
+	sender.showInsertFormAt(slot);
+}
+
 ````
 
 
@@ -39,10 +39,10 @@ You need to subscribe to the [OnClientAppointmentClick]({%slug scheduler/client-
 ````JavaScript
 	
 	
-	        function editAppointment(sender, e) {
-	            var apt = e.get_appointment();
-	            sender.editAppointmentWithConfirmation(apt);
-	        }
+function editAppointment(sender, e) {
+	var apt = e.get_appointment();
+	sender.editAppointmentWithConfirmation(apt);
+}
 	
 ````
 

@@ -60,14 +60,11 @@ Suggested solution:
 
 ````ASPNET
 	
-	<system.webServer>
-		
-		<handlers>
-		
-			<add name="Telerik.Web.UI.WebResource"  path="Telerik.Web.UI.WebResource.axd" verb="*" type="Telerik.Web.UI.WebResource, Telerik.Web.UI, Version=[ASSEMBLY_VERSION], Culture=neutral, PublicKeyToken=121fae78165ba3d4" />
-		
-		</handlers>
-	</system.webServer>
+<system.webServer>
+	<handlers>
+		<add name="Telerik.Web.UI.WebResource"  path="Telerik.Web.UI.WebResource.axd" verb="*" type="Telerik.Web.UI.WebResource, Telerik.Web.UI, Version=[ASSEMBLY_VERSION], Culture=neutral, PublicKeyToken=121fae78165ba3d4" />
+	</handlers>
+</system.webServer>
 	
 ````
 
@@ -79,13 +76,13 @@ Where [ASSEMBLY_VERSION] is the exact version of your Telerik.Web.UI.dll.
 
 ````ASPNET
 	
-	<location path="Telerik.Web.UI.WebResource.axd">
-		<system.web>
-			<authorization>
-				<allow users="?"/>
-			</authorization>
-		</system.web>
-	</location>
+<location path="Telerik.Web.UI.WebResource.axd">
+	<system.web>
+		<authorization>
+			<allow users="?"/>
+		</authorization>
+	</system.web>
+</location>
 	
 ````
 

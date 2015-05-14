@@ -26,26 +26,26 @@ Here are the steps:
 
 ````C#
 	     
-	    protected void RadScheduler1_FormCreated(object sender, SchedulerFormCreatedEventArgs e)
-	    {    
-	        RadDatePicker startDate = e.Container.FindControl("StartDate") as RadDatePicker;    
-	        if (startDate != null)    
-	        {        
-	            // advanced form is shown        
-	            startDate.ClientEvents.OnDateSelected = "changeEndDate";    
-	        }
-	    }
+protected void RadScheduler1_FormCreated(object sender, SchedulerFormCreatedEventArgs e)
+{    
+	RadDatePicker startDate = e.Container.FindControl("StartDate") as RadDatePicker;    
+	if (startDate != null)    
+	{        
+		// advanced form is shown        
+		startDate.ClientEvents.OnDateSelected = "changeEndDate";    
+	}
+}
 				
 ````
 ````VB.NET
 	
-	    Protected Sub RadScheduler1_FormCreated(ByVal sender As Object, ByVal e As SchedulerFormCreatedEventArgs)
-	        Dim startDate As RadDatePicker = TryCast(e.Container.FindControl("StartDate"), RadDatePicker)
-	        If startDate IsNot Nothing Then
-	            ' advanced form is shown  
-	            startDate.ClientEvents.OnDateSelected = "changeEndDate"
-	        End If
-	    End Sub
+Protected Sub RadScheduler1_FormCreated(ByVal sender As Object, ByVal e As SchedulerFormCreatedEventArgs)
+	Dim startDate As RadDatePicker = TryCast(e.Container.FindControl("StartDate"), RadDatePicker)
+	If startDate IsNot Nothing Then
+		' advanced form is shown  
+		startDate.ClientEvents.OnDateSelected = "changeEndDate"
+	End If
+End Sub
 	
 ````
 
@@ -54,14 +54,14 @@ Here are the steps:
 
 ````JavaScript
 	     
-	        <telerik:RadScriptBlock ID="RadScriptBlock1" runat="server">
-	            function changeEndDate(sender, e)
-	            {    
-	                var endDatePickerID = sender.get_id().replace("StartDate", "EndDate");    
-	                var endDatePicker = $find(endDatePickerID);    
-	                endDatePicker.set_selectedDate(sender.get_selectedDate());
-	            }
-	        </telerik:RadScriptBlock>
+<telerik:RadScriptBlock ID="RadScriptBlock1" runat="server">
+function changeEndDate(sender, e)
+{    
+	var endDatePickerID = sender.get_id().replace("StartDate", "EndDate");    
+	var endDatePicker = $find(endDatePickerID);    
+	endDatePicker.set_selectedDate(sender.get_selectedDate());
+}
+</telerik:RadScriptBlock>
 				
 ````
 

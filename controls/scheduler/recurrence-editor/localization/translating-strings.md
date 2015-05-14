@@ -41,10 +41,11 @@ To create a global resource file to localize the control:
 1. Copy the default resource **RadSchedulerRecurrenceEditor.resx** file into it. This file canbe found in the App_GlobalResources folder of the directory where you installed the RadControls.
 
 1. Make a copy of the file and rename the copy so that its name contains the Culture Identifier. The resourcefiles used by control follow a strict naming convention:**RadSchedulerRecurrenceEditor.<Culture Identifier>.resx**
->note The **Culture Identifier** consists of a language code followed by a dash and thecountry code.Example: “en-US”, “fr-CA” and so on.
->
-For example RadSchedulerRecurrenceEditor.fr-CA.resx. Both files should be present in the App_GlobalResources folder:![Recurrence Editor Resource](images/scheduler_recurrenceeditorresource.png)
-1. Edit the strings using the Visual Studio editor or your favorite text editor. Customize strings just as you would setthe **Localization** property.![Recurrence Editor Resource](images/scheduler_recurrenceeditorresourceedit.png)
+>note The **Culture Identifier** consists of a language code followed by a dash and thecountry code.Example: “en-US”, “fr-CA” and so on.<br />
+For example RadSchedulerRecurrenceEditor.fr-CA.resx. Both files should be present in the App_GlobalResources folder:![Recurrence Editor Resource](images/scheduler_recurrenceeditorresource.png)<br />
+
+1. Edit the strings using the Visual Studio editor or your favorite text editor. Customize strings just as you would setthe **Localization** property.
+![Recurrence Editor Resource](images/scheduler_recurrenceeditorresourceedit.png)
 
 You can now switch the scheduler so that it uses your new resource file by setting the active culture:
 ![Culture property](images/scheduler_cultureproperty.png)

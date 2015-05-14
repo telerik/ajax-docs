@@ -22,12 +22,12 @@ In Month View the Today Cell has the **rsTodayCell** class applied to it. So cha
 
 ````CSS
 	    
-	    div.RadScheduler_[skinName] .rsMonthView .rsTodayCell
-	    {
-	    background-color: #CCFF00;
-	    color: #000;
-	    border: 1px solid #000;
-	    }  
+div.RadScheduler_[skinName] .rsMonthView .rsTodayCell
+{
+	background-color: #CCFF00;
+	color: #000;
+	border: 1px solid #000;
+}  
 	
 ````
 

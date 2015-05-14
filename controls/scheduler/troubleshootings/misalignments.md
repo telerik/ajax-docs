@@ -21,12 +21,12 @@ Here is how it usually looks like in the discribed scenario:
 
 
 ````ASPNET
-	    <style type="text/css">
-	        .rsHidden
-	        {
-	            display: block !important;
-	        }
-	    </style>
+<style type="text/css">
+	.rsHidden
+	{
+		display: block !important;
+	}
+</style>
 ````
 
 
@@ -42,26 +42,26 @@ Here is how it usually looks like in the discribed scenario:
 You need to add the following **CSS** to improve this behavior:
 
 ````ASPNET
-	    <style type="text/css">
-	        div.RadScheduler .rsHorizontalHeaderTable, div.RadScheduler .rsContentTable, div.RadScheduler .rsAllDayTable
-	        {
-	            width: /*\**/ 100%\9 !important;
-	        }
-	        * + html div.RadScheduler .rsHorizontalHeaderTable, * + html div.RadScheduler .rsContentTable, * + html div.RadScheduler .rsAllDayTable
-	        {
-	            width: auto !important;
-	        }
-	        
-	        .RadScheduler .rsTopWrap tr.rsHidden
-	        {
-	            display: block;
-	        }
-	        
-	        * + html .RadScheduler .rsVerticalHeaderTable tr.rsMainHeader div.rsMainHeader
-	        {
-	            width: auto;
-	        }
-	    </style>
+<style type="text/css">
+	div.RadScheduler .rsHorizontalHeaderTable, div.RadScheduler .rsContentTable, div.RadScheduler .rsAllDayTable
+	{
+		width: /*\**/ 100%\9 !important;
+	}
+	* + html div.RadScheduler .rsHorizontalHeaderTable, * + html div.RadScheduler .rsContentTable, * + html div.RadScheduler .rsAllDayTable
+	{
+		width: auto !important;
+	}
+	
+	.RadScheduler .rsTopWrap tr.rsHidden
+	{
+		display: block;
+	}
+	
+	* + html .RadScheduler .rsVerticalHeaderTable tr.rsMainHeader div.rsMainHeader
+	{
+		width: auto;
+	}
+</style>
 ````
 
 
@@ -75,17 +75,17 @@ This issue is observed sometimes when the **RadScheduler** is grouped by resourc
 Here bellow is shown a possible workaround with **JavaScript**:
 
 ````JavaScript
-	    <script type="text/javascript">
-	        function pageLoad() {
-	            var $ = $telerik.$;
-	            var rsVerticalHeaderTableTh = $(".rsVerticalHeaderTable th");
-	            var rsAllDayTableTr = $(".rsAllDayTable tr");
-	            rsAllDayTableTr.each(function(index, elem) {
-	                var h = $(elem).height() - 1;
-	                rsVerticalHeaderTableTh[index].style.cssText = "height:" + h + "px";
-	            });
-	        }
-	    </script>
+<script type="text/javascript">
+	function pageLoad() {
+		var $ = $telerik.$;
+		var rsVerticalHeaderTableTh = $(".rsVerticalHeaderTable th");
+		var rsAllDayTableTr = $(".rsAllDayTable tr");
+		rsAllDayTableTr.each(function(index, elem) {
+			var h = $(elem).height() - 1;
+			rsVerticalHeaderTableTh[index].style.cssText = "height:" + h + "px";
+		});
+	}
+</script>
 ````
 
 

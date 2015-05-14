@@ -24,47 +24,44 @@ This example shows how to declaratively bind **RadScheduler** to one of the supp
 
 1. Using the Solution Explorer, double click on the Web.config file. Locate the <configSections> tag at the very top. **RadScheduler** is designed to be used with providers configured in a custom section of the web.config file. The custom section requires a handler that is included in the Telerik.Web.UI assembly. Add a <section> for this handler to the <configSections> of your Web.config file:
 
-````XML
+	**XML**
 	
-<configSections>
- <sectionGroup name="telerik.web.ui">
-	<section name="radScheduler"
-			 type="Telerik.Web.UI.RadSchedulerConfigurationSection,
-				   Telerik.Web.UI, PublicKeyToken=121fae78165ba3d4"
-			 allowDefinition="MachineToApplication" />
- </sectionGroup>
-</configSections>
+		<configSections>
+		 <sectionGroup name="telerik.web.ui">
+			<section name="radScheduler"
+					 type="Telerik.Web.UI.RadSchedulerConfigurationSection,
+						   Telerik.Web.UI, PublicKeyToken=121fae78165ba3d4"
+					 allowDefinition="MachineToApplication" />
+		 </sectionGroup>
+		</configSections>
 	
-````
 
 
-
->note The PublicKeyToken varies in different versions on RadControls. You can use[JustDecompile](http://www.telerik.com/products/decompiler.aspx), to see the PublicKeyToken for your version.Additionally, if the assembly is added to your GAC, you can see its Public Key Token there as well.
+>note The PublicKeyToken varies in different versions on RadControls. You can use [JustDecompile](http://www.telerik.com/products/decompiler.aspx), to see the PublicKeyToken for your version.Additionally, if the assembly is added to your GAC, you can see its Public Key Token there as well.
 >
 
 
 1. Now that you have declared a handler, add the <telerik.web.ui> section to your Web.config file (if it is not already there), and in the <telerik.web.ui> section, declare the provider:
 
-````XML
+	**XML**
+			
+		<telerik.web.ui>
+		  <radScheduler defaultAppointmentProvider="Integrated">
+			  <appointmentProviders>
+				  <add name="XmlSchedulerProvider1"
+					   type="Telerik.Web.UI.XmlSchedulerProvider"
+					   fileName="~/App_Data/Appointments.xml"
+					   persistChanges="true"/>
+			  </appointmentProviders>
+		  </radScheduler>
+		</telerik.web.ui>       
 	
-<telerik.web.ui>
-  <radScheduler defaultAppointmentProvider="Integrated">
-	  <appointmentProviders>
-		  <add name="XmlSchedulerProvider1"
-			   type="Telerik.Web.UI.XmlSchedulerProvider"
-			   fileName="~/App_Data/Appointments.xml"
-			   persistChanges="true"/>
-	  </appointmentProviders>
-  </radScheduler>
-</telerik.web.ui>       
-	
-````
-
 
 
 1. Now that the provider will be loaded into your application, select your **RadScheduler** in the designer and set its **ProviderName** property to "XmlSchedulerProvider1".
 
 1. Locate the Appointments.xml file, which can be found in "Live Demos\App_Data" folder, and copy it to the App_Data folder of your project.
+
 
 You have now bound your scheduler using the **ProviderName** property. Run the application and note the custom resources supplied by the provider. Note, too, that unlike when binding using the **DataSource** or **DataSourceID** properties, you did not need to set the **DataKeyField**, **DataSubjectField**, **DataStartField**, **DataEndField**, **DataRecurrenceField DataReminderField**, and **DataRecurrenceParentKeyField** properties.
 

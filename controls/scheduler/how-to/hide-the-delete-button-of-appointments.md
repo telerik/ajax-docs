@@ -18,10 +18,10 @@ One could hide the Delete button of Appointments either by setting the **AllowDe
 
 ````CSS
 	     
-	.rsAptDelete
-	{
+.rsAptDelete
+{
 	display: none;
-	}
+}
 				
 ````
 

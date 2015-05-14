@@ -21,24 +21,24 @@ In order to run the **RadScheduler** in anonymous authorization disabled environ
 Example 1: Configure WCF service to enable the CredentialsTransportation.
 
 ````XML
-	<system.servicemodel>
-	    <bindings>
-	      <basicHttpBinding>
-	        <binding>
-	          <security mode="TransportCredentialOnly">
-	            <transport clientCredentialType="Windows" />
-	          </security>
-	        </binding>
-	      </basicHttpBinding>
-	      <webHttpBinding>
-	        <binding>
-	          <security mode="TransportCredentialOnly">
-	            <transport clientCredentialType="Windows" />
-	          </security>
-	        </binding>
-	      </webHttpBinding>
-	    </bindings>
-	</system.servicemodel>
+<system.servicemodel>
+	<bindings>
+	  <basicHttpBinding>
+		<binding>
+		  <security mode="TransportCredentialOnly">
+			<transport clientCredentialType="Windows" />
+		  </security>
+		</binding>
+	  </basicHttpBinding>
+	  <webHttpBinding>
+		<binding>
+		  <security mode="TransportCredentialOnly">
+			<transport clientCredentialType="Windows" />
+		  </security>
+		</binding>
+	  </webHttpBinding>
+	</bindings>
+</system.servicemodel>
 ````
 
 

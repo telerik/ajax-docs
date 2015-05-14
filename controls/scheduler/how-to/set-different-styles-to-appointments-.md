@@ -32,23 +32,23 @@ For example:
 
 ````C#
 	
-	    protected void RadScheduler1_AppointmentDataBound(object sender, SchedulerEventArgs e)
-	    {
-	        e.Appointment.BackColor = System.Drawing.Color.Yellow;
-	        e.Appointment.BorderColor = System.Drawing.Color.Red;
-	        e.Appointment.BorderStyle = BorderStyle.Dotted;
-	        e.Appointment.BorderWidth = Unit.Pixel(2);
-	    }
+protected void RadScheduler1_AppointmentDataBound(object sender, SchedulerEventArgs e)
+{
+	e.Appointment.BackColor = System.Drawing.Color.Yellow;
+	e.Appointment.BorderColor = System.Drawing.Color.Red;
+	e.Appointment.BorderStyle = BorderStyle.Dotted;
+	e.Appointment.BorderWidth = Unit.Pixel(2);
+}
 	
 ````
 ````VB.NET
 	
-	    Protected Sub RadScheduler1_AppointmentDataBound(ByVal sender As Object, ByVal e As SchedulerEventArgs)
-	        e.Appointment.BackColor = System.Drawing.Color.Yellow
-	        e.Appointment.BorderColor = System.Drawing.Color.Red
-	        e.Appointment.BorderStyle = BorderStyle.Dotted
-	        e.Appointment.BorderWidth = Unit.Pixel(2)
-	    End Sub
+Protected Sub RadScheduler1_AppointmentDataBound(ByVal sender As Object, ByVal e As SchedulerEventArgs)
+	e.Appointment.BackColor = System.Drawing.Color.Yellow
+	e.Appointment.BorderColor = System.Drawing.Color.Red
+	e.Appointment.BorderStyle = BorderStyle.Dotted
+	e.Appointment.BorderWidth = Unit.Pixel(2)
+End Sub
 	
 ````
 
@@ -90,17 +90,17 @@ You can handle the **AppointmentDataBound** event and use a custom condition bas
 ````C#
 	
 	
-	    protected void RadScheduler1_AppointmentDataBound(object sender, Telerik.Web.UI.SchedulerEventArgs e)
-	    {
-	        e.Appointment.CssClass = "rsCategory" + e.Appointment.Subject;
-	    }
+protected void RadScheduler1_AppointmentDataBound(object sender, Telerik.Web.UI.SchedulerEventArgs e)
+{
+	e.Appointment.CssClass = "rsCategory" + e.Appointment.Subject;
+}
 	
 ````
 ````VB.NET
 	
-	    Protected Sub RadScheduler1_AppointmentDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.SchedulerEventArgs) Handles RadScheduler1.AppointmentDataBound
-	        e.Appointment.CssClass = "rsCategory" + e.Appointment.Subject
-	    End Sub
+Protected Sub RadScheduler1_AppointmentDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.SchedulerEventArgs) Handles RadScheduler1.AppointmentDataBound
+	e.Appointment.CssClass = "rsCategory" + e.Appointment.Subject
+End Sub
 	
 ````
 
@@ -109,22 +109,22 @@ This code causes RadScheduler to render the value of the CssClass property that 
 
 ````HTML
 	
-	<div class="rsWrap" style="z-index: 14;">
-	   <div id="RadScheduler1_22_0" class="rsApt rsCategoryGreen" style="height: 46px; width: 90%;
-	       left: 0%;" title="Green">
-	       <div class="rsAptOut">
-	           <div class="rsAptMid">
-	               <div class="rsAptIn">
-	                   <div class="rsAptContent">
-	                       Green <a class="rsAptDelete" href="#" style="visibility: hidden;">delete</a>
-	                   </div>
-	               </div>
-	               <div class="rsAptResize" style="z-index: 80;">
-	               </div>
-	           </div>
-	       </div>
+<div class="rsWrap" style="z-index: 14;">
+   <div id="RadScheduler1_22_0" class="rsApt rsCategoryGreen" style="height: 46px; width: 90%;
+	   left: 0%;" title="Green">
+	   <div class="rsAptOut">
+		   <div class="rsAptMid">
+			   <div class="rsAptIn">
+				   <div class="rsAptContent">
+					   Green <a class="rsAptDelete" href="#" style="visibility: hidden;">delete</a>
+				   </div>
+			   </div>
+			   <div class="rsAptResize" style="z-index: 80;">
+			   </div>
+		   </div>
 	   </div>
-	</div>      
+   </div>
+</div>      
 	
 ````
 
@@ -134,13 +134,13 @@ The style is applied to the appointment thanks to the following CSS rule which i
 
 ````CSS
 	
-	.RadScheduler .rsCategoryGreen .rsAptContent,
-	.RadScheduler .rsCategoryGreen .rsAptMid .rsAptIn,
-	.RadScheduler .rsCategoryGreen .rsAptMid,
-	.RadScheduler .rsCategoryGreen .rsAptOut
-	{
-	  background-image: url('Scheduler/rsAppointmentGreenBg.png');
-	}       
+.RadScheduler .rsCategoryGreen .rsAptContent,
+.RadScheduler .rsCategoryGreen .rsAptMid .rsAptIn,
+.RadScheduler .rsCategoryGreen .rsAptMid,
+.RadScheduler .rsCategoryGreen .rsAptOut
+{
+  background-image: url('Scheduler/rsAppointmentGreenBg.png');
+}       
 	
 ````
 
@@ -154,11 +154,11 @@ The CssClass property can be set declaratively for resources using the new **Res
 
 ````ASPNET
 	
-	<ResourceStyles>
-	 <telerik:ResourceStyleMapping Type="User" Text="Alex" ApplyCssClass="rsCategoryBlue" />
-	 <telerik:ResourceStyleMapping Type="User" Text="Bob" ApplyCssClass="rsCategoryOrange" />
-	 <telerik:ResourceStyleMapping Type="User" Text="Charlie" ApplyCssClass="rsCategoryGreen" />
-	</ResourceStyles>  
+<ResourceStyles>
+ <telerik:ResourceStyleMapping Type="User" Text="Alex" ApplyCssClass="rsCategoryBlue" />
+ <telerik:ResourceStyleMapping Type="User" Text="Bob" ApplyCssClass="rsCategoryOrange" />
+ <telerik:ResourceStyleMapping Type="User" Text="Charlie" ApplyCssClass="rsCategoryGreen" />
+</ResourceStyles>  
 	
 ````
 
@@ -172,47 +172,47 @@ An illustration of this method can be seen in the [Defining Resources](http://de
 
 ````C#
 	
-	    protected void RadScheduler1_AppointmentDataBound(object sender, Telerik.Web.UI.SchedulerEventArgs e)
-	    {
-	        if (e.Appointment.Resources.GetResourceByType("User") != null)
-	        {
-	            switch (e.Appointment.Resources.GetResourceByType("User").Text)
-	            {
-	                case "Alex":
-	                    e.Appointment.CssClass = "rsCategoryBlue";
-	                    break;
-	                case "Bob":
-	                    e.Appointment.CssClass = "rsCategoryOrange";
-	                    break;
-	                case "Charlie":
-	                    e.Appointment.CssClass = "rsCategoryGreen";
-	                    break;
-	                default:
-	                    break;
-	            }
-	        }
-	    }
+protected void RadScheduler1_AppointmentDataBound(object sender, Telerik.Web.UI.SchedulerEventArgs e)
+{
+	if (e.Appointment.Resources.GetResourceByType("User") != null)
+	{
+		switch (e.Appointment.Resources.GetResourceByType("User").Text)
+		{
+			case "Alex":
+				e.Appointment.CssClass = "rsCategoryBlue";
+				break;
+			case "Bob":
+				e.Appointment.CssClass = "rsCategoryOrange";
+				break;
+			case "Charlie":
+				e.Appointment.CssClass = "rsCategoryGreen";
+				break;
+			default:
+				break;
+		}
+	}
+}
 	
 ````
 ````VB.NET
 	
-	    Protected Sub RadScheduler1_AppointmentDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.SchedulerEventArgs)
-	        If e.Appointment.Resources.GetResourceByType("User") <> Nothing Then
-	            Select Case e.Appointment.Resources.GetResourceByType("User").Text
-	                Case "Alex"
-	                    e.Appointment.CssClass = "rsCategoryBlue"
-	                    Exit Select
-	                Case "Bob"
-	                    e.Appointment.CssClass = "rsCategoryOrange"
-	                    Exit Select
-	                Case "Charlie"
-	                    e.Appointment.CssClass = "rsCategoryGreen"
-	                    Exit Select
-	                Case Else
-	                    Exit Select
-	            End Select
-	        End If
-	    End Sub
+Protected Sub RadScheduler1_AppointmentDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.SchedulerEventArgs)
+	If e.Appointment.Resources.GetResourceByType("User") <> Nothing Then
+		Select Case e.Appointment.Resources.GetResourceByType("User").Text
+			Case "Alex"
+				e.Appointment.CssClass = "rsCategoryBlue"
+				Exit Select
+			Case "Bob"
+				e.Appointment.CssClass = "rsCategoryOrange"
+				Exit Select
+			Case "Charlie"
+				e.Appointment.CssClass = "rsCategoryGreen"
+				Exit Select
+			Case Else
+				Exit Select
+		End Select
+	End If
+End Sub
 	
 ````
 
@@ -227,20 +227,20 @@ If you need to use your own custom style for the appointments, here is how to pr
 
 ````CSS
 	
-	<style type="text/css">
-	   .RadScheduler .MyCustomAppointmentStyle .rsAptContent,
-	   .RadScheduler .MyCustomAppointmentStyle .rsAptMid .rsAptIn,
-	   .RadScheduler .MyCustomAppointmentStyle .rsAptMid,
-	   .RadScheduler .MyCustomAppointmentStyle .rsAptOut
-	   {
-	    background-image: url('Scheduler/MyCustomBackgroundImage.png');
-	   }
-	   .RadScheduler .MyCustomAppointmentStyle .rsAptContent
-	   {
-	    /*font style*/
-	    color: Blue;
-	   }
-	</style>  
+<style type="text/css">
+   .RadScheduler .MyCustomAppointmentStyle .rsAptContent,
+   .RadScheduler .MyCustomAppointmentStyle .rsAptMid .rsAptIn,
+   .RadScheduler .MyCustomAppointmentStyle .rsAptMid,
+   .RadScheduler .MyCustomAppointmentStyle .rsAptOut
+   {
+	background-image: url('Scheduler/MyCustomBackgroundImage.png');
+   }
+   .RadScheduler .MyCustomAppointmentStyle .rsAptContent
+   {
+	/*font style*/
+	color: Blue;
+   }
+</style>  
 				
 ````
 
@@ -254,17 +254,17 @@ If you need to use your own custom style for the appointments, here is how to pr
 
 ````C#
 	
-	    protected void RadScheduler1_AppointmentDataBound(object sender, Telerik.Web.UI.SchedulerEventArgs e)
-	    {
-	        e.Appointment.CssClass = "MyCustomAppointmentStyle";
-	    }  
+protected void RadScheduler1_AppointmentDataBound(object sender, Telerik.Web.UI.SchedulerEventArgs e)
+{
+	e.Appointment.CssClass = "MyCustomAppointmentStyle";
+}  
 	    
 ````
 ````VB.NET
 	
-	    Protected Sub RadScheduler1_AppointmentDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.SchedulerEventArgs) Handles RadScheduler1.AppointmentDataBound
-	        e.Appointment.CssClass = "MyCustomAppointmentStyle"
-	    End Sub
+Protected Sub RadScheduler1_AppointmentDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.SchedulerEventArgs) Handles RadScheduler1.AppointmentDataBound
+	e.Appointment.CssClass = "MyCustomAppointmentStyle"
+End Sub
 	
 ````
 

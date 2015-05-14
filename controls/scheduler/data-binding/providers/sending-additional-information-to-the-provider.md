@@ -65,100 +65,85 @@ End Class
 
 1. Send the customized MySchedulerInfo to RadScheduler in one of the following events:
 
+	* AppointmentsPopulating
+
+	* ResourcesPopulating
+
+	* AppointmentInsert
+
+	* AppointmentUpdate
+
+	* AppointmentDelete
 
 
-* AppointmentsPopulating
+	For example:
 
-* ResourcesPopulating
-
-* AppointmentInsert
-
-* AppointmentUpdate
-
-* AppointmentDelete
-
-
-
-For example:
-
-
-
-````C#
+	**C#**
 	
-protected void RadScheduler1_AppointmentsPopulating(object sender, AppointmentsPopulatingEventArgs e)
-{
-	e.SchedulerInfo = new MySchedulerInfo(e.SchedulerInfo, User.Identity.Name);
-}
+		protected void RadScheduler1_AppointmentsPopulating(object sender, AppointmentsPopulatingEventArgs e)
+		{
+			e.SchedulerInfo = new MySchedulerInfo(e.SchedulerInfo, User.Identity.Name);
+		}
 
-````
-````VB.NET
+	**VB**
 	
-Protected Sub RadScheduler1_AppointmentsPopulating(sender As Object, e As AppointmentsPopulatingEventArgs)
-	e.SchedulerInfo = New MySchedulerInfo(e.SchedulerInfo, User.Identity.Name)
-End Sub  
+		Protected Sub RadScheduler1_AppointmentsPopulating(sender As Object, e As AppointmentsPopulatingEventArgs)
+			e.SchedulerInfo = New MySchedulerInfo(e.SchedulerInfo, User.Identity.Name)
+		End Sub  
 	
-````
-
 
 2. Cast the schedulerInfo to MySchedulerInfo in the corresponding provider method
 
-
-
-````C#
+	**C#**
 	
-public override IEnumerable<Appointment> GetAppointments(ISchedulerInfo schedulerInfo)
-{
-	var myInfo = schedulerInfo as MySchedulerInfo;
+		public override IEnumerable<Appointment> GetAppointments(ISchedulerInfo schedulerInfo)
+		{
+			var myInfo = schedulerInfo as MySchedulerInfo;
 
-	// Access myInfo.User
-	// ...
-}     
+			// Access myInfo.User
+			// ...
+		}     
 		
-````
-````VB.NET
-	     
-Public Overrides Function GetAppointments(schedulerInfo As ISchedulerInfo) As IEnumerable(Of Appointment)
-	Dim myInfo = TryCast(schedulerInfo, MySchedulerInfo)
-	' Access myInfo.User
-	' ...
-End Function  
-				
-````
 
+	**VB**
+	     
+		Public Overrides Function GetAppointments(schedulerInfo As ISchedulerInfo) As IEnumerable(Of Appointment)
+			Dim myInfo = TryCast(schedulerInfo, MySchedulerInfo)
+			' Access myInfo.User
+			' ...
+		End Function  
+				
 
 ## Sending additional information when using web-service data binding
 
-1.Follow the instructions in [Sending additional information to the Web Service]({%slug scheduler/web-service-binding/sending-additional-information-to-the-web-service%})
+
+1. Follow the instructions in [Sending additional information to the Web Service]({%slug scheduler/web-service-binding/sending-additional-information-to-the-web-service%})
 
 
+1. Cast the schedulerInfo to MySchedulerInfo in the corresponding provider method
 
-2. Cast the schedulerInfo to MySchedulerInfo in the corresponding provider method
-
-
-
-````C#
+	**C#**
 	
-public override IEnumerable<Appointment> GetAppointments(ISchedulerInfo schedulerInfo)
-{
-	var myInfo = schedulerInfo as MySchedulerInfo;
+		public override IEnumerable<Appointment> GetAppointments(ISchedulerInfo schedulerInfo)
+		{
+			var myInfo = schedulerInfo as MySchedulerInfo;
 
-	// Access myInfo.User
-	// ...
-} 
+			// Access myInfo.User
+			// ...
+		} 
 	
-````
-````VB.NET
+
+	**VB**
 	     
-Getting MySchedulerInfo from GetAppointments Copy Code 
+		Getting MySchedulerInfo from GetAppointments Copy Code 
 
-Public Overrides Function GetAppointments(schedulerInfo As ISchedulerInfo) As IEnumerable(Of Appointment)
- Dim myInfo = TryCast(schedulerInfo, MySchedulerInfo)
- ' Access myInfo.User
- ' ...
-End Function  
-				
-````
-
+		Public Overrides Function GetAppointments(schedulerInfo As ISchedulerInfo) As IEnumerable(Of Appointment)
+		 Dim myInfo = TryCast(schedulerInfo, MySchedulerInfo)
+		 ' Access myInfo.User
+		 ' ...
+		End Function  
+						
+		
 
 # See Also
 

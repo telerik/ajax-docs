@@ -66,16 +66,16 @@ The advanced form looks like this:
 
 ````ASPNET
 	
-	<label>Color: </label>
-	<telerik:RadColorPicker ID="AppointmentColorPicker" CssClass="rsAdvResourceValue" NoColorText="transparent" ShowIcon="true" PaletteModes="HSV"
-	   runat="server">
-	</telerik:RadColorPicker>     	
+<label>Color: </label>
+<telerik:RadColorPicker ID="AppointmentColorPicker" CssClass="rsAdvResourceValue" NoColorText="transparent" ShowIcon="true" PaletteModes="HSV"
+   runat="server">
+</telerik:RadColorPicker>     	
 	
 ````
 
 
 
-3. Expose an **AppointmentColor**property using the RadColorpicker control added in step 2 above.
+3. Expose an **AppointmentColor** property using the RadColorpicker control added in step 2 above.
 
 In code behind of **AdvancedForm**.ascx add the following code in the "Attributes and resources" region:
 
@@ -85,38 +85,38 @@ In code behind of **AdvancedForm**.ascx add the following code in the "Attribute
 
 ````C#
 	
-	    // Attributes and resources
-	    [Bindable(BindableSupport.Yes, BindingDirection.TwoWay)]
-	    public string AppointmentColor
-	    {
-	        get
-	        {
-	            return AppointmentColorPicker.SelectedColor.ToArgb().ToString();
-	        }
-	        set
-	        {
-	            int argbValue;
-	            if (int.TryParse(value, out argbValue))
-	                AppointmentColorPicker.SelectedColor = Color.FromArgb(argbValue);
-	        }
-	    } 
+// Attributes and resources
+[Bindable(BindableSupport.Yes, BindingDirection.TwoWay)]
+public string AppointmentColor
+{
+	get
+	{
+		return AppointmentColorPicker.SelectedColor.ToArgb().ToString();
+	}
+	set
+	{
+		int argbValue;
+		if (int.TryParse(value, out argbValue))
+			AppointmentColorPicker.SelectedColor = Color.FromArgb(argbValue);
+	}
+} 
 	
 ````
 ````VB.NET
 	
-	    ' Attributes and resources
-	    <Bindable(BindableSupport.Yes, BindingDirection.TwoWay)> _
-	    Public Property AppointmentColor() As String
-	        Get
-	            Return AppointmentColorPicker.SelectedColor.ToArgb().ToString()
-	        End Get
-	        Set(ByVal value As String)
-	            Dim argbValue As Integer
-	            If Integer.TryParse(value, argbValue) Then
-	                AppointmentColorPicker.SelectedColor = Color.FromArgb(argbValue)
-	            End If
-	        End Set
-	    End Property
+' Attributes and resources
+<Bindable(BindableSupport.Yes, BindingDirection.TwoWay)> _
+Public Property AppointmentColor() As String
+	Get
+		Return AppointmentColorPicker.SelectedColor.ToArgb().ToString()
+	End Get
+	Set(ByVal value As String)
+		Dim argbValue As Integer
+		If Integer.TryParse(value, argbValue) Then
+			AppointmentColorPicker.SelectedColor = Color.FromArgb(argbValue)
+		End If
+	End Set
+End Property
 	
 ````
 
@@ -139,30 +139,30 @@ optionally -
 
 ````JavaScript
 	
-	<telerik:RadScheduler runat="server" ID="RadScheduler1" Width="750px" SelectedDate="2009-03-30"
-	   DayStartTime="08:00:00" DayEndTime="18:00:00" CustomAttributeNames="AppointmentColor" Localization-AdvancedDescription="Subject"
-	   TimeZoneOffset="03:00:00" OnDataBound="RadScheduler1_DataBound" OnAppointmentDataBound="RadScheduler1_AppointmentDataBound"
-	   OnClientFormCreated="schedulerFormCreated">
-	   <AdvancedForm Modal="true" />
-	   <AppointmentTemplate>
-	  <div class="rsAptSubject">
-	   <%# Eval("Subject") %>
-	  </div>
-	  <%# Eval("Description") %>
-	 </AppointmentTemplate>
-	   <AdvancedEditTemplate>
-	       <scheduler:AdvancedForm runat="server" ID="AdvancedEditForm1" Mode="Edit" Subject='<%# Bind("Subject") %>'
-	           Start='<%# Bind("Start") %>' End='<%# Bind("End") %>' AppointmentColor='<%# Bind("AppointmentColor") %>'
-	           RecurrenceRuleText='<%# Bind("RecurrenceRule") %>' UserID='<%# Bind("User") %>'
-	           RoomID='<%# Bind("Room") %>' />
-	   </AdvancedEditTemplate>
-	   <AdvancedInsertTemplate>
-	       <scheduler:AdvancedForm runat="server" ID="AdvancedInsertForm1" Mode="Insert" Subject='<%# Bind("Subject") %>'
-	           Start='<%# Bind("Start") %>' End='<%# Bind("End") %>' AppointmentColor='<%# Bind("AppointmentColor") %>'
-	           RecurrenceRuleText='<%# Bind("RecurrenceRule") %>' UserID='<%# Bind("User") %>'
-	           RoomID='<%# Bind("Room") %>' />
-	   </AdvancedInsertTemplate>
-	</telerik:RadScheduler>      
+<telerik:RadScheduler runat="server" ID="RadScheduler1" Width="750px" SelectedDate="2009-03-30"
+   DayStartTime="08:00:00" DayEndTime="18:00:00" CustomAttributeNames="AppointmentColor" Localization-AdvancedDescription="Subject"
+   TimeZoneOffset="03:00:00" OnDataBound="RadScheduler1_DataBound" OnAppointmentDataBound="RadScheduler1_AppointmentDataBound"
+   OnClientFormCreated="schedulerFormCreated">
+   <AdvancedForm Modal="true" />
+   <AppointmentTemplate>
+  <div class="rsAptSubject">
+   <%# Eval("Subject") %>
+  </div>
+  <%# Eval("Description") %>
+ </AppointmentTemplate>
+   <AdvancedEditTemplate>
+	   <scheduler:AdvancedForm runat="server" ID="AdvancedEditForm1" Mode="Edit" Subject='<%# Bind("Subject") %>'
+		   Start='<%# Bind("Start") %>' End='<%# Bind("End") %>' AppointmentColor='<%# Bind("AppointmentColor") %>'
+		   RecurrenceRuleText='<%# Bind("RecurrenceRule") %>' UserID='<%# Bind("User") %>'
+		   RoomID='<%# Bind("Room") %>' />
+   </AdvancedEditTemplate>
+   <AdvancedInsertTemplate>
+	   <scheduler:AdvancedForm runat="server" ID="AdvancedInsertForm1" Mode="Insert" Subject='<%# Bind("Subject") %>'
+		   Start='<%# Bind("Start") %>' End='<%# Bind("End") %>' AppointmentColor='<%# Bind("AppointmentColor") %>'
+		   RecurrenceRuleText='<%# Bind("RecurrenceRule") %>' UserID='<%# Bind("User") %>'
+		   RoomID='<%# Bind("Room") %>' />
+   </AdvancedInsertTemplate>
+</telerik:RadScheduler>      
 	
 ````
 
@@ -170,27 +170,27 @@ optionally -
 
 ````CSS
 	     
-	<style type="text/css">
-	   .RadScheduler .rsAptSubject
-	   {
-	       text-align: left;
-	       padding: 4px 0 1px;
-	       margin: 0 0 3px;
-	       font-size: 12px;
-	       font-weight: bold;
-	       color: #369;
-	       height: 17px;
-	       border-bottom: 1px solid #99DEFD;
-	       width: 100%;
-	   }  
-	.RadScheduler .rsAdvancedEdit .RadColorPicker label
-	{
-	 text-align: left;
-	 display: block;
-	 padding: 0;
-	}   
+<style type="text/css">
+.RadScheduler .rsAptSubject
+{
+   text-align: left;
+   padding: 4px 0 1px;
+   margin: 0 0 3px;
+   font-size: 12px;
+   font-weight: bold;
+   color: #369;
+   height: 17px;
+   border-bottom: 1px solid #99DEFD;
+   width: 100%;
+}  
+.RadScheduler .rsAdvancedEdit .RadColorPicker label
+{
+ text-align: left;
+ display: block;
+ padding: 0;
+}   
 	  
-	</style>  
+</style>  
 				
 ````
 
@@ -204,32 +204,32 @@ optionally -
 
 ````C#
 	
-	    protected void RadScheduler1_AppointmentDataBound(object sender, SchedulerEventArgs e)
-	    {
-	        int AppointmentArgbColorValue;
-	        if (int.TryParse(e.Appointment.Attributes["AppointmentColor"], out AppointmentArgbColorValue))
-	        {
-	            e.Appointment.BackColor = Color.FromArgb(AppointmentArgbColorValue);
-	            e.Appointment.BorderColor = Color.Black;
-	            e.Appointment.BorderStyle = BorderStyle.Solid;
-	            e.Appointment.BorderWidth = Unit.Pixel(1);
-	        }
-	        e.Appointment.ToolTip = e.Appointment.Subject + ": " + e.Appointment.Description;
-	    }
+protected void RadScheduler1_AppointmentDataBound(object sender, SchedulerEventArgs e)
+{
+	int AppointmentArgbColorValue;
+	if (int.TryParse(e.Appointment.Attributes["AppointmentColor"], out AppointmentArgbColorValue))
+	{
+		e.Appointment.BackColor = Color.FromArgb(AppointmentArgbColorValue);
+		e.Appointment.BorderColor = Color.Black;
+		e.Appointment.BorderStyle = BorderStyle.Solid;
+		e.Appointment.BorderWidth = Unit.Pixel(1);
+	}
+	e.Appointment.ToolTip = e.Appointment.Subject + ": " + e.Appointment.Description;
+}
 	
 ````
 ````VB.NET
 	
-	    Protected Sub RadScheduler1_AppointmentDataBound(ByVal sender As Object, ByVal e As SchedulerEventArgs)
-	        Dim AppointmentArgbColorValue As Integer
-	        If Integer.TryParse(e.Appointment.Attributes("AppointmentColor"), AppointmentArgbColorValue) Then
-	            e.Appointment.BackColor = Color.FromArgb(AppointmentArgbColorValue)
-	            e.Appointment.BorderColor = Color.Black
-	            e.Appointment.BorderStyle = BorderStyle.Solid
-	            e.Appointment.BorderWidth = Unit.Pixel(1)
-	        End If
-	        e.Appointment.ToolTip = e.Appointment.Subject + ": " + e.Appointment.Description
-	    End Sub
+Protected Sub RadScheduler1_AppointmentDataBound(ByVal sender As Object, ByVal e As SchedulerEventArgs)
+	Dim AppointmentArgbColorValue As Integer
+	If Integer.TryParse(e.Appointment.Attributes("AppointmentColor"), AppointmentArgbColorValue) Then
+		e.Appointment.BackColor = Color.FromArgb(AppointmentArgbColorValue)
+		e.Appointment.BorderColor = Color.Black
+		e.Appointment.BorderStyle = BorderStyle.Solid
+		e.Appointment.BorderWidth = Unit.Pixel(1)
+	End If
+	e.Appointment.ToolTip = e.Appointment.Subject + ": " + e.Appointment.Description
+End Sub
 	
 ````
 
@@ -242,53 +242,53 @@ optionally -
 
 ````ASPNET
 	     
-	<asp:ScriptManager ID="ScriptManager1" runat="server">
-	   <Scripts>
-	       <asp:ScriptReference Path="~/Modified_AddedDescription/CS/AdvancedForm.js" />
-	   </Scripts>
-	</asp:ScriptManager>
-	
-	<script type="text/javascript">
-	   //<![CDATA[
-	     // Dictionary containing the advanced template client object
-	     // for a given RadScheduler instance (the control ID is used as key).
-	     var schedulerTemplates = {};
-	 
-	     function schedulerFormCreated(scheduler, eventArgs) {
-	         // Create a client-side object only for the advanced templates
-	         var mode = eventArgs.get_mode();
-	         if (mode == Telerik.Web.UI.SchedulerFormMode.AdvancedInsert ||
-	    mode == Telerik.Web.UI.SchedulerFormMode.AdvancedEdit) {
-	             // Initialize the client-side object for the advanced form
-	             var formElement = eventArgs.get_formElement();
-	             var templateKey = scheduler.get_id() + "_" + mode;             
-	             var advancedTemplate = schedulerTemplates[templateKey];                      
-	             if (!advancedTemplate)
-	             {
-	                 // Initialize the template for this RadScheduler instance
-	                 // and cache it in the schedulerTemplates dictionary
-	                    var schedulerElement = scheduler.get_element();
-	                    var isModal = scheduler.get_advancedFormSettings().modal;
-	                    advancedTemplate = new window.SchedulerAdvancedTemplate(schedulerElement, formElement, isModal);
-	                    advancedTemplate.initialize();
-	                    
-	                    schedulerTemplates[templateKey] = advancedTemplate;
-	             }
-	             // Are we using Web Service data binding?
-	             if (!scheduler.get_webServiceSettings().get_isEmpty()) {
-	                 // Populate the form with the appointment data
-	                 var apt = eventArgs.get_appointment();
-	                 var isInsert = mode == Telerik.Web.UI.SchedulerFormMode.AdvancedInsert;
-	                 var editSeries = eventArgs.get_editingRecurringSeries();
-	                 advancedTemplate.populate(apt, isInsert, editSeries);
-	             }
-	         }
-	     }
-	
-	   //]]>
-	</script>
-	<telerik:RadScheduler runat="server" ID="RadScheduler1"
-	 OnClientFormCreated="schedulerFormCreated" .../>
+<asp:ScriptManager ID="ScriptManager1" runat="server">
+   <Scripts>
+	   <asp:ScriptReference Path="~/Modified_AddedDescription/CS/AdvancedForm.js" />
+   </Scripts>
+</asp:ScriptManager>
+
+<script type="text/javascript">
+   //<![CDATA[
+	 // Dictionary containing the advanced template client object
+	 // for a given RadScheduler instance (the control ID is used as key).
+	 var schedulerTemplates = {};
+ 
+	 function schedulerFormCreated(scheduler, eventArgs) {
+		 // Create a client-side object only for the advanced templates
+		 var mode = eventArgs.get_mode();
+		 if (mode == Telerik.Web.UI.SchedulerFormMode.AdvancedInsert ||
+	mode == Telerik.Web.UI.SchedulerFormMode.AdvancedEdit) {
+			 // Initialize the client-side object for the advanced form
+			 var formElement = eventArgs.get_formElement();
+			 var templateKey = scheduler.get_id() + "_" + mode;             
+			 var advancedTemplate = schedulerTemplates[templateKey];                      
+			 if (!advancedTemplate)
+			 {
+				 // Initialize the template for this RadScheduler instance
+				 // and cache it in the schedulerTemplates dictionary
+					var schedulerElement = scheduler.get_element();
+					var isModal = scheduler.get_advancedFormSettings().modal;
+					advancedTemplate = new window.SchedulerAdvancedTemplate(schedulerElement, formElement, isModal);
+					advancedTemplate.initialize();
+					
+					schedulerTemplates[templateKey] = advancedTemplate;
+			 }
+			 // Are we using Web Service data binding?
+			 if (!scheduler.get_webServiceSettings().get_isEmpty()) {
+				 // Populate the form with the appointment data
+				 var apt = eventArgs.get_appointment();
+				 var isInsert = mode == Telerik.Web.UI.SchedulerFormMode.AdvancedInsert;
+				 var editSeries = eventArgs.get_editingRecurringSeries();
+				 advancedTemplate.populate(apt, isInsert, editSeries);
+			 }
+		 }
+	 }
+
+   //]]>
+</script>
+<telerik:RadScheduler runat="server" ID="RadScheduler1"
+ OnClientFormCreated="schedulerFormCreated" .../>
 				
 ````
 
@@ -304,7 +304,7 @@ The AdvancedForm.js will automatically handle resources and custom attributes de
 
 ````ASPNET
 	     
-	<scheduler:ResourceControl runat="server" ID="ResRoom" Type="Room" Label="Room:" Skin='<%# Owner.Skin %>' />
+<scheduler:ResourceControl runat="server" ID="ResRoom" Type="Room" Label="Room:" Skin='<%# Owner.Skin %>' />
 				
 ````
 
@@ -314,7 +314,7 @@ The AdvancedForm.js will automatically handle resources and custom attributes de
 
 ````ASPNET
 	     
-	<telerik:RadTextBox runat="server" ID="AttrDescription"  Label='Annotation:' Width="100%" Skin='<%# Owner.Skin %>' />
+<telerik:RadTextBox runat="server" ID="AttrDescription"  Label='Annotation:' Width="100%" Skin='<%# Owner.Skin %>' />
 				
 ````
 
@@ -329,11 +329,11 @@ In this tutorial, we will show how to add to the advanced form a RadColorPicker 
 3. In **AdvancedForm**.**ascx** add the following code right above the Custom Attributes panel:
 
 ````ASPNET
-	
-	<label>Color: </label>
-	<telerik:RadColorPicker ID="AppointmentColorPicker" CssClass="rsAdvResourceValue" NoColorText="transparent" ShowIcon="true" PaletteModes="HSV"
-	   runat="server">
-	</telerik:RadColorPicker>     
+
+<label>Color: </label>
+<telerik:RadColorPicker ID="AppointmentColorPicker" CssClass="rsAdvResourceValue" NoColorText="transparent" ShowIcon="true" PaletteModes="HSV"
+   runat="server">
+</telerik:RadColorPicker>     
 	
 ````
 
@@ -345,38 +345,38 @@ In this tutorial, we will show how to add to the advanced form a RadColorPicker 
 
 ````C#
 	
-	    // Attributes and resources
-	    [Bindable(BindableSupport.Yes, BindingDirection.TwoWay)]
-	    public string AppointmentColor
-	    {
-	        get
-	        {
-	            return AppointmentColorPicker.SelectedColor.ToArgb().ToString();
-	        }
-	        set
-	        {
-	            int argbValue;
-	            if (int.TryParse(value, out argbValue))
-	                AppointmentColorPicker.SelectedColor = Color.FromArgb(argbValue);
-	        }
-	    } 
+// Attributes and resources
+[Bindable(BindableSupport.Yes, BindingDirection.TwoWay)]
+public string AppointmentColor
+{
+	get
+	{
+		return AppointmentColorPicker.SelectedColor.ToArgb().ToString();
+	}
+	set
+	{
+		int argbValue;
+		if (int.TryParse(value, out argbValue))
+			AppointmentColorPicker.SelectedColor = Color.FromArgb(argbValue);
+	}
+} 
 	
 ````
 ````VB.NET
 	
-	    ' Attributes and resources
-	    <Bindable(BindableSupport.Yes, BindingDirection.TwoWay)> _
-	    Public Property AppointmentColor() As String
-	        Get
-	            Return AppointmentColorPicker.SelectedColor.ToArgb().ToString()
-	        End Get
-	        Set(ByVal value As String)
-	            Dim argbValue As Integer
-	            If Integer.TryParse(value, argbValue) Then
-	                AppointmentColorPicker.SelectedColor = Color.FromArgb(argbValue)
-	            End If
-	        End Set
-	    End Property
+' Attributes and resources
+<Bindable(BindableSupport.Yes, BindingDirection.TwoWay)> _
+Public Property AppointmentColor() As String
+	Get
+		Return AppointmentColorPicker.SelectedColor.ToArgb().ToString()
+	End Get
+	Set(ByVal value As String)
+		Dim argbValue As Integer
+		If Integer.TryParse(value, argbValue) Then
+			AppointmentColorPicker.SelectedColor = Color.FromArgb(argbValue)
+		End If
+	End Set
+End Property
 	
 ````
 
@@ -385,10 +385,10 @@ In this tutorial, we will show how to add to the advanced form a RadColorPicker 
 
 ````JavaScript
 	
-	_getAppointmentColorPicker: function() {
-	       return $find(this._templateId + "_AppointmentColorPicker");
-	   }      
-			
+_getAppointmentColorPicker: function() {
+   return $find(this._templateId + "_AppointmentColorPicker");
+}      
+	
 ````
 
 
@@ -397,15 +397,15 @@ In this tutorial, we will show how to add to the advanced form a RadColorPicker 
 
 ````JavaScript
 	
-	_saveAppointmentColor: function(apt) {
-	   var template = this;
-	   var aptAttributes = apt.get_attributes();
-	   var appointmentColorPicker = this._getAppointmentColorPicker();       
-	   if (!appointmentColorPicker)
-	       return;
-	   aptAttributes.removeAttribute("AppointmentColor");
-	   aptAttributes.setAttribute("AppointmentColor",   appointmentColorPicker.get_selectedColor());
-	}       
+_saveAppointmentColor: function(apt) {
+   var template = this;
+   var aptAttributes = apt.get_attributes();
+   var appointmentColorPicker = this._getAppointmentColorPicker();       
+   if (!appointmentColorPicker)
+	   return;
+   aptAttributes.removeAttribute("AppointmentColor");
+   aptAttributes.setAttribute("AppointmentColor",   appointmentColorPicker.get_selectedColor());
+}       
 		
 ````
 
@@ -415,12 +415,12 @@ In this tutorial, we will show how to add to the advanced form a RadColorPicker 
 
 ````JavaScript
 	     
-	populate: function(apt, isInsert, editSeries) {
-	 * * *
-	  this._getAppointmentColorPicker().set_selectedColor(apt.get_attributes().getAttribute("AppointmentColor"));
-	       
-	 * * *
-	}
+populate: function(apt, isInsert, editSeries) {
+ * * *
+  this._getAppointmentColorPicker().set_selectedColor(apt.get_attributes().getAttribute("AppointmentColor"));
+	   
+ * * *
+}
 				
 ````
 
@@ -430,12 +430,12 @@ In this tutorial, we will show how to add to the advanced form a RadColorPicker 
 
 ````JavaScript
 	
-	_saveClicked : function ()
-	{
-	 * * *    
-	   this._saveAppointmentColor(apt);
-	 * * *
-	}       
+_saveClicked : function ()
+{
+ * * *    
+   this._saveAppointmentColor(apt);
+ * * *
+}       
 			
 ````
 
@@ -445,22 +445,22 @@ In this tutorial, we will show how to add to the advanced form a RadColorPicker 
 
 ````JavaScript
 	
-	function OnClientAppointmentDataBound(sender, eventArgs) {
-	   var app = eventArgs.get_appointment();
-	   //debugger;
-	   var backColor = app.get_attributes().getAttribute("AppointmentColor");
+function OnClientAppointmentDataBound(sender, eventArgs) {
+   var app = eventArgs.get_appointment();
+   //debugger;
+   var backColor = app.get_attributes().getAttribute("AppointmentColor");
+   
+   if (backColor)
+	   app.set_backColor(backColor);
 	   
-	   if (backColor)
-	       app.set_backColor(backColor);
-	       
-	   app.set_borderColor("black");
-	   app.set_borderWidth("1");
-	 }
-	//]]>
-	</script>
-	<telerik:RadScheduler runat="server" ID="RadScheduler1"      
-	    OnClientAppointmentDataBound="OnClientAppointmentDataBound">
-	</telerik:RadScheduler>     
+   app.set_borderColor("black");
+   app.set_borderWidth("1");
+ }
+//]]>
+</script>
+<telerik:RadScheduler runat="server" ID="RadScheduler1"      
+	OnClientAppointmentDataBound="OnClientAppointmentDataBound">
+</telerik:RadScheduler>     
 	
 ````
 
@@ -470,12 +470,12 @@ In this tutorial, we will show how to add to the advanced form a RadColorPicker 
 
 ````CSS
 	 
-	 .RadScheduler .rsAdvancedEdit .RadColorPicker label
-	{
-	   text-align: left;
-	   display: block;
-	   padding: 0;
-	}
+.RadScheduler .rsAdvancedEdit .RadColorPicker label
+{
+	text-align: left;
+	display: block;
+	padding: 0;
+}
 				
 ````
 
