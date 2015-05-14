@@ -1,7 +1,7 @@
 http://www.telerik.com/help/aspnet-ajax/tooltip-accessibility.html http://docs.telerik.com/devtools/ajax/tooltip/accessibility-and-internationalization/wcag-2.0-and-section-508-accessibility-compliance
 http://www.telerik.com/help/aspnet-ajax/tooltip-appearance-animation.html http://docs.telerik.com/devtools/ajax/tooltip/appearance-and-styling/animation
 http://www.telerik.com/help/aspnet-ajax/tooltip-appearance-controlling.html http://docs.telerik.com/devtools/ajax/tooltip/appearance-and-styling/controlling-appearance
-http://www.telerik.com/help/aspnet-ajax/tooltip-appearance-creating-custom-skin.html http://docs.telerik.com/devtools/ajax/tooltip/appearance-and-styling/tutorial:-creating-a-custom-skin
+http://www.telerik.com/help/aspnet-ajax/tooltip-appearance-creating-custom-skin.html http://docs.telerik.com/devtools/ajax/tooltip/appearance-and-styling/tutorial-creating-custom-classic-skin
 http://www.telerik.com/help/aspnet-ajax/tooltip-appearance-css-selectors.html http://docs.telerik.com/devtools/ajax/tooltip/appearance-and-styling/css-classes
 http://www.telerik.com/help/aspnet-ajax/tooltip-appearance-skins.html http://docs.telerik.com/devtools/ajax/tooltip/appearance-and-styling/skins
 http://www.telerik.com/help/aspnet-ajax/tooltip-changes-and-backward-compatibility.html http://docs.telerik.com/devtools/ajax/tooltip/changes-and-backwards-compatibility
@@ -18,7 +18,7 @@ http://www.telerik.com/help/aspnet-ajax/tooltip-controlling-delay.html http://do
 http://www.telerik.com/help/aspnet-ajax/tooltip-controlling-position.html http://docs.telerik.com/devtools/ajax/tooltip/getting-started/positioning
 http://www.telerik.com/help/aspnet-ajax/tooltip-controlling-show.html http://docs.telerik.com/devtools/ajax/tooltip/getting-started/showevent
 http://www.telerik.com/help/aspnet-ajax/tooltip-controlling-sticky.html http://docs.telerik.com/devtools/ajax/tooltip/getting-started/sticky-tooltips
-http://www.telerik.com/help/aspnet-ajax/tooltip-creating-custom-lightweight-skin.html http://docs.telerik.com/devtools/ajax/tooltip/appearance-and-styling/tutorial:-creating-a-custom-lightweight-skin
+http://www.telerik.com/help/aspnet-ajax/tooltip-creating-custom-lightweight-skin.html http://docs.telerik.com/devtools/ajax/tooltip/appearance-and-styling/tutorial-creating-custom-lightweight-skin
 http://www.telerik.com/help/aspnet-ajax/tooltip-design-smart-tag.html http://docs.telerik.com/devtools/ajax/tooltip/design-time/smart-tag
 http://www.telerik.com/help/aspnet-ajax/tooltip-design-target-controls.html http://docs.telerik.com/devtools/ajax/tooltip/design-time/tooltiptargetcontrol-collection-editor
 http://www.telerik.com/help/aspnet-ajax/tooltip-design-template.html http://docs.telerik.com/devtools/ajax/tooltip/design-time/template-editor
