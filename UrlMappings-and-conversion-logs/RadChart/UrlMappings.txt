@@ -32,10 +32,10 @@ http://www.telerik.com/help/aspnet-ajax/chart-getting-started-create-data-bound.
 http://www.telerik.com/help/aspnet-ajax/chart-getting-started-static-data.html http://docs.telerik.com/devtools/ajax/chart/getting-started/create-bar-chart-with-simple-static-data
 http://www.telerik.com/help/aspnet-ajax/chart-gridlines.html http://docs.telerik.com/devtools/ajax/chart/understanding-radchart-elements/gridlines
 http://www.telerik.com/help/aspnet-ajax/chart-grouping-databound-items.html http://docs.telerik.com/devtools/ajax/chart/building-radcharts/grouping-databound-items
-http://www.telerik.com/help/aspnet-ajax/chart-how-to-add-axis-labels-programmatically.html http://docs.telerik.com/devtools/ajax/chart/how-to/how-do-i-add-axis-labels-programmatically?
-http://www.telerik.com/help/aspnet-ajax/chart-how-to-assign-individual-colors-to-bars.html http://docs.telerik.com/devtools/ajax/chart/how-to/how-do-i-assign-individual-colors-to-bars?
-http://www.telerik.com/help/aspnet-ajax/chart-how-to-display-transparent-colors.html http://docs.telerik.com/devtools/ajax/chart/how-to/how-do-i-make-colors-display-with-partial-transparency?
-http://www.telerik.com/help/aspnet-ajax/chart-how-to-extend-yaxis.html http://docs.telerik.com/devtools/ajax/chart/how-to/how-do-i-extend-the-displayable-area-for-yaxis-data?
+http://www.telerik.com/help/aspnet-ajax/chart-how-to-add-axis-labels-programmatically.html http://docs.telerik.com/devtools/ajax/chart/how-to/add-axis-labels-programmatically
+http://www.telerik.com/help/aspnet-ajax/chart-how-to-assign-individual-colors-to-bars.html http://docs.telerik.com/devtools/ajax/chart/how-to/assign-individual-colors-to-bars
+http://www.telerik.com/help/aspnet-ajax/chart-how-to-display-transparent-colors.html http://docs.telerik.com/devtools/ajax/chart/how-to/make-colors-display-with-partial-transparency
+http://www.telerik.com/help/aspnet-ajax/chart-how-to-extend-yaxis.html http://docs.telerik.com/devtools/ajax/chart/how-to/extend-displayable-area-yaxis-data
 http://www.telerik.com/help/aspnet-ajax/chart-image-maps.html http://docs.telerik.com/devtools/ajax/chart/advanced-topics/image-maps
 http://www.telerik.com/help/aspnet-ajax/chart-intelligent-labels.html http://docs.telerik.com/devtools/ajax/chart/features/intelligent-labels
 http://www.telerik.com/help/aspnet-ajax/chart-legend.html http://docs.telerik.com/devtools/ajax/chart/understanding-radchart-elements/legends
