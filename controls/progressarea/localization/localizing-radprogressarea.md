@@ -64,24 +64,18 @@ The primary means for localization in ASP.NET is to use resource files. Resource
 
 To create a global resource file to localize the progress area follow these steps:
 
-1. Create the **App_GlobalResources** folder in the root of your web application. 2. Copy the default resource **Examples\progressarea-localization\.resx** file into it. This file can be found in the **App_GlobalResources** folder of the directory where you installed the RadControls. 3. Make a copy of the file and rename the copy so that its name contains the Culture Identifier. The resource files used by **Examples\progressarea-localization\** follow a strict naming convention:
-
-**Examples\progressarea-localization\.<Culture Identifier>.resx**
-
->note The **Culture Identifier** consists of a language code followed by a dash and the country code.Example: “en-US”, “fr-CA” and so on.
->
-
-
-For example Examples\progressarea-localization\.fr-CA.resx. Both files should be present in the App_GlobalResources folder:
-
-![upload localization appfolder area](images/progressarea_localization_appfolder.png)
-
-
+1. Create the **App_GlobalResources** folder in the root of your web application. 
+2. Copy the default resource **Examples\progressarea-localization\.resx** file into it. This file can be found in the **App_GlobalResources** folder of the directory where you installed the RadControls. 
+3. Make a copy of the file and rename the copy so that its name contains the Culture Identifier. The resource files used by **Examples\progressarea-localization\** follow a strict naming convention:
+	**Examples\progressarea-localization\.<Culture Identifier>.resx**
+	>note The **Culture Identifier** consists of a language code followed by a dash and the country code.Example: “en-US”, “fr-CA” and so on.
+	>
+	For example Examples\progressarea-localization\.fr-CA.resx. Both files should be present in the App_GlobalResources folder:
+	![upload localization appfolder area](images/progressarea_localization_appfolder.png)
 
 4. Edit the strings using the Visual Studio editor or your favorite text editor. Customize strings just as you would set the **Localization** property.
 
-![upload localization editresourcefile area](images/progressarea_localization_editresourcefile.png)
-
+	![upload localization editresourcefile area](images/progressarea_localization_editresourcefile.png)
 
 
 >caution Make sure that the **ReservedResource** message is preserved. It is used for identification purposes and is never displayed.

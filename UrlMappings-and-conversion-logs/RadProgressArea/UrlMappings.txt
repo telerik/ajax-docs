@@ -3,7 +3,7 @@ http://www.telerik.com/help/aspnet-ajax/progressarea-configuring.html http://doc
 http://www.telerik.com/help/aspnet-ajax/progressarea-customprogress.html http://docs.telerik.com/devtools/ajax/progressarea/custom-progress
 http://www.telerik.com/help/aspnet-ajax/progressarea-known-limitations.html http://docs.telerik.com/devtools/ajax/progressarea/known-limitations
 http://www.telerik.com/help/aspnet-ajax/progressarea-overview.html http://docs.telerik.com/devtools/ajax/progressarea/overview
-http://www.telerik.com/help/aspnet-ajax/progressarea-radurid.html http://docs.telerik.com/devtools/ajax/progressarea/what-is-radurid?
+http://www.telerik.com/help/aspnet-ajax/progressarea-radurid.html http://docs.telerik.com/devtools/ajax/progressarea/what-is-radurid
 http://www.telerik.com/help/aspnet-ajax/progressarea-structure.html http://docs.telerik.com/devtools/ajax/progressarea/structure
 http://www.telerik.com/help/aspnet-ajax/progressarea-template.html http://docs.telerik.com/devtools/ajax/progressarea/progress-template
 http://www.telerik.com/help/aspnet-ajax/progressarea-using.html http://docs.telerik.com/devtools/ajax/progressarea/getting-started
