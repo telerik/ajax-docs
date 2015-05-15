@@ -83,6 +83,15 @@ End Sub
 >note With the .NET 3.5 build of RadGrid for ASP.NET AJAX and LINQ filter expressions enabled (EnableLinqExpressions = true), the filter expressions set for the grid either internally by its filtering mechanism or manually in code should conform to the LINQ expression syntax instead of the old T-SQL syntax. Only thus they will be evaluated properly by the control.
 >
 
+>note From **Q2 2015** version of **UI for ASP.NET** we introduce a new method on the *GridTableView* object called **GetEntitySqlFilterExpression**. The method allows you to get the filter expression in the Entity SQL syntax. However you still need to enable the **EnableLinqExpressions** property in order to use this method. Otherwise you will receive an exception. The code snippet below demonstrates how to use the method.
+>
+
+````C#
+string EntitySQL = RadGrid5.MasterTableView.GetEntitySqlFilterExpression();
+````
+````VB
+Dim EntitySQL As String = RadGrid5.MasterTableView.GetEntitySqlFilterExpression()
+````
 
 The value of the FilterExpression for the grid is a string, including vital information concerning the field (column) which needs to be filtered, along with the value entered by the end user in the filter text box, and the filter option chosen. Internally, the filter expression is created in accordance with the T-SQL syntax (in case we are using the .NET 2.0 built of the control), or follow the newer LINQ expression syntax (when using the .NET 3.5 version).
 
@@ -90,8 +99,8 @@ In most cases the programmer does not need to worry about these details, since t
 
 The following table shows the representation of the grid FilterExpression for each filter function when the filter value type is **string** or **numeric**. To make it practical, it assumes that we are filtering a string column named **CustomerID** by a value of '**ALFKI**' and a column of a numeric type, called **OrderID** by a value of **'10248'** accordingly.
 
-*Note*: In some of the expressions additional parameters are used. For example in this filter function: **@"<DataType>(it[""<DataField>""])= {numeric value}";**the particular DataType is **Int32**:
-
+>note In some of the expressions additional parameters are used. For example in this filter function: **@"<DataType>(it[""<DataField>""])= {numeric value}";** the particular DataType is **Int32**:
+>
 
 >caption  
 
