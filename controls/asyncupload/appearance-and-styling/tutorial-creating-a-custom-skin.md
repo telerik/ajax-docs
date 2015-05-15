@@ -132,14 +132,14 @@ End Sub
 
 1. The skin CSS class that is applied to the \<div\> element which represents the rendered **RadAsyncUpload** control is **RadUpload_Green**. (This is also the class applied to the \<div\> element for **RadProgressArea**.) All other style definitions in the CSS files are qualified by this class. Within that top-level \<div\> element is an unordered list \<ul\> element, that handles the layout of the **RadAsyncUpload** control. This \<ul\> element has the **ruInputs** class applied. The default skin does not have a selector for the **ruInputs** class alone, which is why the default skin does not show the outlines of the entire **RadAsyncUpload** control. Add such a selector to your style sheet, giving it the following rules:
 
-````ASPNET
+````CSS
 .RadUpload_Green .ruInputs { background:#cbecb0; padding: 5px 0 5px 5px;}
 ````
 
 
 1. The input area is actually a composite of a standard file input element sitting over a text box and button control that together simulate a file input element. This is done so that the skin CSS file has more control over [styling the input area](C20E27FF-BE09-4381-BCF6-EE31EF611C42). The **ruFakeInput** class is applied to the text box.Locate the rule for this element and change the border color to "green" and the background to "#eeffee":
 
-````ASPNET
+````CSS
 .RadUpload_Green .ruFakeInput 
 { 
     height:19px; 
@@ -152,7 +152,7 @@ End Sub
 
 1. All of the buttons in the **RadAsyncUpload** control (and the **RadProgressArea** control, as well) have the **ruButton** class applied. Locate the selector for this class and add a green border, change the background from a URL to "#88ff88" and change the color to "green":
 
-````ASPNET
+````CSS
 .RadUpload_Green .ruButton 
 { 
     width:68px; 
@@ -171,8 +171,8 @@ End Sub
 
 1. The Add and Remove buttons appear inside a separate <li> element with the **ruActions** class applied. Locate the **.RadUpload_Green .ruActions .ruButton** selector. Remove the background rule from this class definition:
 
-````ASPNET
-	    .RadUpload_Green .ruActions .ruButton { width:115px; margin:0 0.8em 0 0;}
+````CSS
+    .RadUpload_Green .ruActions .ruButton { width:115px; margin:0 0.8em 0 0;}
 ````
 
 1. Press F5 to run the application. The **RadAsyncUpload** control has its new appearance. Select a file and click the **Submit** button. Note that some of your changes affect the **Cancel** button in the progress dialog as well:
@@ -181,31 +181,31 @@ End Sub
 
 1. Like the **RadAsyncUpload** control, the **RadProgressArea** control is laid out using a \<div\> element with the **RadAsyncUpload_Green** class applied, and within that by a \<ul\> element. In the case of **RadProgressArea**, however, the \<ul\> element has the **ruProgress** class applied instead of the **ruInputs** class. Locate the rule for this class, change the background color to "#efe", change the border to green, and reduce its width to 4px:
 
-````ASPNET
+````CSS
 .RadUpload_Green .ruProgress { border:4px solid Green; background:#efe; padding:15px;}
 ````
 
 1. Locate the **RadAsyncUpload_Green .ruProgress li** selector. This class is applied to the rows of the Progress dialog box. Change the color to "green":
 
-````ASPNET
+````CSS
 .RadUpload_Green .ruProgress li { margin:0 0 0.8em; color:green;}
 ````
 
 1. Each row in the Progress dialog box has its own style class, which is assigned to the <li> element. Locate the element for the row with the current file name, which has the **ruCurrentFile** class (**.radAsyncUpload_Green .ruProgress li.ruCurrentFile**). Change the color to "#0b0" and reduce the font-size to 14px:
 
-````ASPNET
+````CSS
 .RadUpload_Green .ruProgress li.ruCurrentFile { margin:0 0 0.3em; font-size:14px; color:#0b0;}
 ````
 
 1. The name of the current file is rendered using a <span> element inside the <li> element for the row. Locate the **.radUpload_Green .ruProgress li.ruCurrentFile span** selector. Use this rule to change the color to green and reduce the font size to 14 px:
 
-````ASPNET
+````CSSS
 .RadUpload_Green .ruProgress li.ruCurrentFile span { font-size:14px; color:green;}
 ````
 
 1. The progress bars are rendered using two nested \<div\> elements. The outer \<div\> has the **ruBar** class applied. Locate the **.RadUpload_Green .ruProgress .ruBar** selector. Change the border to green and add a white background:
 
-````ASPNET
+````CSS
 .RadUpload_Green .ruProgress .ruBar 
 { 
     margin-bottom:0.4em; 

@@ -26,8 +26,8 @@ This help article describes the differences between **RadAsyncUpload** and **Rad
 |Client side events for upload completed and upload failed|No client events for upload completed or failed|
 |Extension and size validation are done on the client|You need a page postback to validate the file|
 |Requires anonymous access to the **Telerik.Web.UI.WebResource.axd** handler|Can upload files with disabled anonymous access|
-| **SERVER SIDE:** <br> :New Event: **FileUploaded** <br> Removed Events: **Validating** , **FileExists** <br> New Properties: **TemporaryFolder** , **TemporaryFileExpiration** <br> Removed Properties: **InvalidFiles** , **TargetPhysicalFolder** , **ReadOnlyInputs** ||
-| **CLIENT SIDE:** <br> New Events: **OnClientFileUploading** , **OnClientFileUploaded** , **OnClientFileUploadFailed** , **OnClientValidationFailed** , **OnClientUploadProgress** , **OnClientFileUploadRemoved** , **OnClientFileUploadRemoving** <br> Removed Event: **OnClientClearing** , **OnClientDeleting** ||
+| **SERVER SIDE:** <br> :New Event: **FileUploaded** <br> Removed Events: **Validating**, **FileExists** <br> New Properties: **TemporaryFolder**, **TemporaryFileExpiration** <br> Removed Properties: **InvalidFiles**, **TargetPhysicalFolder**, **ReadOnlyInputs** ||
+| **CLIENT SIDE:** <br> New Events: **OnClientFileUploading**, **OnClientFileUploaded**, **OnClientFileUploadFailed**, **OnClientValidationFailed**, **OnClientUploadProgress**, **OnClientFileUploadRemoved**, **OnClientFileUploadRemoving** <br> Removed Event: **OnClientClearing**, **OnClientDeleting** ||
 
 # See Also
 

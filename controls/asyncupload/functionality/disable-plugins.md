@@ -19,7 +19,7 @@ When setting **DisablePlugins** property to **true RadAsyncUpload** does not use
 
 Here is how you can set the property in the markup of your page:
 
-````ASPNET
+````ASP.NET
 <telerik:RadAsyncUpload runat="server" ID="RadAsyncUpload1" DisablePlugins="true"></telerik:RadAsyncUpload>
 ````
 
