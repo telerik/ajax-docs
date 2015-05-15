@@ -8,11 +8,7 @@ published: True
 position: 0
 ---
 
-# Search Context Overview
-
-
-
-## Overview
+# Overview
 
 **Search Context functionality** was added from Q2 2013 in order to provide context for the search operation. The search context is represented as a simple drop-down giving a choice to select a context item. This feature improves the performance and usability when searching in large data sets.
 

@@ -19,13 +19,13 @@ The event handler receives two parameters:
 
 1. An event arguments parameter that contains the following properties:
 
-* **DataSource** -returns a reference to the DataSource control.
+	* **DataSource** -returns a reference to the DataSource control.
 
-* **FilterString** -returns the text that is typed in the SearchBox.
+	* **FilterString** -returns the text that is typed in the SearchBox.
 
-* **SelectedContextItem** -returns the selected context item in the SearchContext.
+	* **SelectedContextItem** -returns the selected context item in the SearchContext.
 
-* **UserContext** -returns the userContext object of type IDictionary that is passed through the [OnClientDataRequesting]({%slug searchbox/client-side-programming/events/onclientdatarequesting%}) event.
+	* **UserContext** -returns the userContext object of type IDictionary that is passed through the [OnClientDataRequesting]({%slug searchbox/client-side-programming/events/onclientdatarequesting%}) event.
 
 Here is a sample code demonstrating how this event can be used:
 

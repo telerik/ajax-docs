@@ -1,6 +1,6 @@
 ---
 title: Overview
-page_title: Data Binding Overview | RadSearchBox for ASP.NET AJAX Documentation
+page_title: Overview | RadSearchBox for ASP.NET AJAX Documentation
 description: Overview
 slug: searchbox/data-binding/overview
 tags: overview
@@ -8,7 +8,7 @@ published: True
 position: 0
 ---
 
-# Data Binding Overview
+# Overview
 
 
 
