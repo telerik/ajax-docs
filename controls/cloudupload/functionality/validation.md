@@ -16,10 +16,9 @@ position: 2
 
 **RadCloudUpload** offers an easy way to validate the size and the file type of the uploaded file. To enable it just set **MaxFileSize** and **AllowedFileExtensions**. If selected file doesn't pass any of them then **OnClientValidationFailed** will be fired.#_ASPX_
 
-````ASPNET		
-<telerik:RadCloudUpload ID="RadCloudUpload2" runat="server" ProviderType="Everlive"
-OnClientValidationFailed="OnClientValidationFailed" AllowedFileExtensions=".png,.jpg"
-MaxFileSize="500 kB"></telerik:RadCloudUpload>
+````ASP.NET		
+<telerik:RadCloudUpload ID="RadCloudUpload2" runat="server" ProviderType="Everlive" OnClientValidationFailed="OnClientValidationFailed" AllowedFileExtensions=".png,.jpg" MaxFileSize="500 kB">
+</telerik:RadCloudUpload>
 ````                
 
 ````JavaScript	
@@ -34,7 +33,7 @@ function OnClientValidationFailed(sender, args) {
 
 ## Validate the Maximum Number of Uploaded Files
 
-````ASPNET	
+````ASP.NET	
 <telerik:RadCloudUpload ID="RadCloudUpload2" runat="server" ProviderType="Everlive"
 MultipleFileSelection="Automatic" OnClientFileUploading="OnClientFileUploading">
 </telerik:RadCloudUpload>

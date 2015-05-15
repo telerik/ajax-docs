@@ -28,7 +28,7 @@ The event handler receives two parameters:
 
 * **get_cancel** returns **true** if the event has been canceled.
 
-````XML
+````ASP.NET
 <telerik:RadGantt runat="server" id="RadGantt1" OnClientTaskMoveEnd="OnClientTaskMoveEnd">
 </telerik:RadGantt>
 ````

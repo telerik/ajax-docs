@@ -30,7 +30,7 @@ The event handler receives two parameters:
 
 * **get_isFailed** returns a boolean value, specifying if the file, which is about to be removed had passed the validation.
 
-````ASPNET
+````ASP.NET
 <telerik:RadCloudUpload runat="server" ID="RadCloudUpload1" OnClientFileUploadRemoving="onClientFileUploadRemoving" ...>
 </telerik:RadCloudUpload>
 ````

@@ -22,11 +22,10 @@ The event handler receives one parameter:
 
 This event is helpful if you need to get the client-side instance of the **RadCloudUpload**. Hook the **OnClientLoad** event and get the client-side instance of the control as demonstrated in the example below. This technique can be used to retrieve the RadCloudUpload instance for use elsewhere.
 
-````ASPNET
+````ASP.NET
 <telerik:RadCloudUpload runat="server" ID="RadCloudUpload1" OnClientLoad="onClientLoad" ...>
 </telerik:RadCloudUpload>
 ````
-
 
 
 ````JavaScript

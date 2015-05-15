@@ -26,7 +26,7 @@ The event handler receives two parameters:
 
 * **get_row** returns the created row from the **FileListPanel** section (`<LI>` element)
 
-````ASPNET
+````ASP.NET
 <telerik:RadCloudUpload runat="server" ID="RadCloudUpload1" OnClientFileUploaded="onClientFileUploaded" ...>
 </telerik:RadCloudUpload>
 ````

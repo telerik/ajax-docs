@@ -18,7 +18,7 @@ Figure 1: The figure below demonstrates the tables for the RadGantt with enabled
 
 You can use the following script to generate Gantt Resources database:
 
-````XML
+````SQL
 CREATE DATABASE [Resources]
 GO
 

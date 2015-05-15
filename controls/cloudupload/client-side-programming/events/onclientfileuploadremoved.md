@@ -24,7 +24,7 @@ The event handler receives two parameters:
 
 * **get_fileName** The name of the file that has been removed from the uploaded files collection.
 
-````ASPNET
+````ASP.NET
 <telerik:RadCloudUpload runat="server" ID="RadCloudUpload1" OnClientFileUploadRemoved="OnClientFileUploadRemoved" ...></telerik:RadCloudUpload>
 ````
 

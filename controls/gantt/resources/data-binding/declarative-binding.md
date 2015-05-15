@@ -29,7 +29,7 @@ The below listed steps demonstrate how to implement Resources Data Binding withi
 After performing the above steps you should get a configuration similar to the demonstrated below.
 
 
-````ASPNET
+````ASP.NET
 <telerik:RadGantt runat="server" ID="RadGantt1"
     DataSourceID="TasksDataSource"
     DependenciesDataSourceID="DependenciesDataSource"

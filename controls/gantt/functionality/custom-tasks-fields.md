@@ -11,7 +11,7 @@ position: 5
 # Custom Tasks Fields
 
 
-With the 2014 Q2 SP1 version you can now use **Custom Task** objects to populate the **Gantt**,providing you with the ability to add user defined Properties to be shown in the control. In order to use a custom Task class you haveto create a custom Provider, like the one shown in [this help article]({%slug gantt/data-binding/providers/custom-entityframework-provider%}). Sample Code Library can be downloaded from [ here ]( http://www.telerik.com/support/code-library/gantt-custom-columns ).
+With the 2014 Q2 SP1 version you can now use **Custom Task** objects to populate the **Gantt**,providing you with the ability to add user defined Properties to be shown in the control. In order to use a custom Task class you haveto create a custom Provider, like the one shown in [this help article]({%slug gantt/data-binding/providers/custom-entityframework-provider%}). Sample Code Library can be downloaded from [here](http://www.telerik.com/support/code-library/gantt-custom-columns).
 
 ![gantt-custom-tasks-field](images/gantt-custom-tasks-field.png)
 
@@ -239,7 +239,7 @@ To add new **Custom Task Field** you will have to:
 
 * In the Markup:
 
-````ASPNET
+````ASP.NET
 <telerik:RadGantt runat="server" ID="RadGantt1" SelectedView="WeekView" AutoGenerateColumns="false">
     <Columns>
         <telerik:GanttBoundColumn DataField="ID" Width="90px"></telerik:GanttBoundColumn>

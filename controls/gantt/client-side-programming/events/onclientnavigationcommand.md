@@ -26,7 +26,7 @@ The event handler receives two parameters:
 
 * **get_view** returns the name of the selected view.
 
-````XML
+````ASP.NET
 <telerik:RadGantt runat="server" id="RadGantt1" OnClientNavigationCommand="OnClientNavigationCommand">
 </telerik:RadGantt>
 ````

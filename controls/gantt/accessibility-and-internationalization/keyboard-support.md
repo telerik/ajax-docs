@@ -12,12 +12,11 @@ position: 2
 
 **RadGantt** introduces keyboard support. In order to activate it, you must set the **KeyboardNavigationSettings**:
 
-````ASPNET
+````ASP.NET
 <telerik:RadGantt ID="RadGantt1" runat="server">
     <KeyboardNavigationSettings FocusKey="W" CommandKey="Alt" />
 </telerik:RadGantt>              
 ````
-
 
 
 >note Some key combination are reserved by the browsers for default actions and they cannot be used. Ex. Ctrl + D adds current page to favorites/bookmarks.

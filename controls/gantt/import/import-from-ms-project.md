@@ -14,18 +14,18 @@ position: 0
 
 ## Example
 
-Following code shows how to import [MS Project XML data](http://msdn.microsoft.com/en-us/library/bb968652(v=office.12).aspx)into **RadGantt** and save it using the [Gantt's XML Provider]({%slug gantt/data-binding/server-side-binding/programmatic-binding-/xml-provider%}).
+Following code shows how to import [MS Project XML data](http://msdn.microsoft.com/en-us/library/bb968652(v=office.12).aspx) into **RadGantt** and save it using the [Gantt's XML Provider]({%slug gantt/data-binding/server-side-binding/programmatic-binding-/xml-provider%}).
 
 1. Add simple **RadGantt** definition in the page markup.
 
-````ASPNET
+````ASP.NET
 <telerik:RadGantt runat="server" ID="RadGantt1" SelectedView="MonthView"></telerik:RadGantt>
 <asp:Button ID="btnImport" Text="Import Tasks" runat="server" OnClick="btnImport_Click" />
 ````
 
 1. Configure **RadGantt** control to use an empty provider.
 
->note For the purpose of this demo a[XmlGanttProvider]({%slug gantt/data-binding/server-side-binding/programmatic-binding-/xml-provider%}). is used. But the import functionality works with all supported data binding options of the **RadGantt** control.
+>note For the purpose of this demo a [XmlGanttProvider]({%slug gantt/data-binding/server-side-binding/programmatic-binding-/xml-provider%}) is used. But the import functionality works with all supported data binding options of the **RadGantt** control.
 >
 
 

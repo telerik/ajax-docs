@@ -10,7 +10,7 @@ position: 6
 
 # DependencyInsert
 
-The **RadGantt DependencyInsert** is fired when a [dependency]({%slug gantt/structure/layout%})'s collection is about to be inserted in the database.
+The **RadGantt DependencyInsert** is fired when a [dependency's]({%slug gantt/structure/layout%}) collection is about to be inserted in the database.
 
 **DependencyInsert** event handler receives two parameters:
 
@@ -20,7 +20,7 @@ The **RadGantt DependencyInsert** is fired when a [dependency]({%slug gantt/stru
 
 ## Example
 
-````ASPNET
+````ASP.NET
 <telerik:RadGantt ID="RadGantt1" runat="server" OnDependencyInsert="RadGantt1_DependencyInsert"></telerik:RadGantt>
 ````
 

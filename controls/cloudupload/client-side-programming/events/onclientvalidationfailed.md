@@ -28,7 +28,7 @@ The event handler receives two parameters:
 
 You could raise an alert, showing the user the validation error message from the control's localization.
 
-````ASPNET
+````ASP.NET
 <telerik:RadCloudUpload runat="server" ID="RadCloudUpload1" OnClientValidationFailed="onClientValidationFailed" AllowedFileExtensions=".xslt" ...>
 </telerik:RadCloudUpload>
 ````

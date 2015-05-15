@@ -21,8 +21,8 @@ The **RadGantt ColumnCreated** is fired after a [TreeList]({%slug gantt/structur
 
 ## Example
 
-````ASPNET
-	    <telerik:RadGantt ID="RadGantt1" runat="server" OnColumnCreated="RadGantt1_ColumnCreated"></telerik:RadGantt>
+````ASP.NET
+<telerik:RadGantt ID="RadGantt1" runat="server" OnColumnCreated="RadGantt1_ColumnCreated"></telerik:RadGantt>
 ````
 
 ````C#

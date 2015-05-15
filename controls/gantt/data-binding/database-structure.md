@@ -10,13 +10,13 @@ position: 0
 
 # Database Structure
 
-The **Gantt**'s data can be stored within a Database with tables for the [Tasks]({%slug gantt/structure/tasks%}) and[Dependencies]({%slug gantt/structure/dependencies%}). Below is shown a sample database with all required fields.
+The **Gantt**'s data can be stored within a Database with tables for the [Tasks]({%slug gantt/structure/tasks%}) and [Dependencies]({%slug gantt/structure/dependencies%}). Below is shown a sample database with all required fields.
 
 ## Tasks![gantt-database-structure-1](images/gantt-database-structure-1.png)
 
 You can use the following script to add the Gantt's Tasks table to an existing database:
 
-````XML	
+````SQL	
 USE [DBNAME]
 GO
 
@@ -55,7 +55,7 @@ GO
 
 Here is a simpler example without support for resources:
 
-````XML
+````SQL
 --CREATE DEPENDENCIES TABLE
 SET ANSI_NULLS ON
 GO

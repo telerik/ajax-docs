@@ -30,7 +30,7 @@ The event handler receives two parameters:
 
 * **get_end** returns the end time of the current task.
 
-````XML
+````ASP.NET
 <telerik:RadGantt runat="server" id="RadGantt1" OnClientTaskResizing="OnClientTaskResizing">
 </telerik:RadGantt>
 ````

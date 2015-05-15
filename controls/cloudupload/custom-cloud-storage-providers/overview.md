@@ -12,7 +12,7 @@ position: 0
 
 
 
-Custom Cloud Storage Providers were added for the first time in **Q1 2014**. They extend the existing **Cloud Storage Providers** ([ Amazon S3 ]({%slug cloudupload/cloud-storage-providers/amazon-s3%}) , [Azure Blob Storage]({%slug cloudupload/cloud-storage-providers/azure-blob-storage%}) and [ Telerik Backend Services ]({%slug cloudupload/cloud-storage-providers/telerik-backend-services%}) ) as offer creating of some custom functionalities, which cannot be achieved with the standard providers. For example they allow dynamically setting Security Credentials from the Code-Behind and switching between the different Providers.
+Custom Cloud Storage Providers were added for the first time in **Q1 2014**. They extend the existing **Cloud Storage Providers** ([Amazon S3]({%slug cloudupload/cloud-storage-providers/amazon-s3%}) , [Azure Blob Storage]({%slug cloudupload/cloud-storage-providers/azure-blob-storage%}) and [Telerik Backend Services]({%slug cloudupload/cloud-storage-providers/telerik-backend-services%})) as offer creating of some custom functionalities, which cannot be achieved with the standard providers. For example they allow dynamically setting Security Credentials from the Code-Behind and switching between the different Providers.
 
 ## Custom Providers
 

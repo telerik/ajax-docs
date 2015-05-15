@@ -22,9 +22,9 @@ In order to implement a custom provider for the **RadGantt** you would need to c
 
 In the custom class you should implement the Get, Update, Delete and Insert methods using the EntityFramework DBContenxt for both Task and Dependencies objects. 
 
->note  **The Dependency** object should not implement an Update method, as it does not possess such functionality. In addition, the methods should return object of type **Task** and **Dependency** .
+>note  **The Dependency** object should not implement an Update method, as it does not possess such functionality. In addition, the methods should return object of type **Task** and **Dependency**.
 >
 
-1. Provide the **RadGantt** control with the newly created custom provider at the Page_Load in the following manner : 
+1. Provide the **RadGantt** control with the newly created custom provider at the Page_Load in the following manner: 
 
 [Here](http://www.telerik.com/support/code-library/radganttcustomentityprovider-a3e011e74a6b) you could find a code library with a runnable sample project, created base of the above instructions.
