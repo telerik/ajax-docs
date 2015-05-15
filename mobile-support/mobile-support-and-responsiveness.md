@@ -90,7 +90,7 @@ The controls have been adapted to be able to handle gestures from touch enabled 
 
 Among the gestures added to controls are:
 
-* **Grid** — drag the scroll the div or swipe the page with two active points to go to the next/previous page.
+* **Grid** — drag to scroll the tableview or perform swipe with two active points to go to the next/previous page.
 
 * **ImageGallery** — swipe to navigate the images.
 

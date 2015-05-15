@@ -16,7 +16,7 @@ position: 3
 
 Some controls from the UI for ASP.NET AJAX suite can react to touch gestures in order to perform a certain action according to the control specifics.A tap gesture is available for any clickable element.Controls where scrolling is needed and available react to the scrolling gestures.Here follows a list with the controls that handle specific gestures, and the actions they perform.
 
-* **Grid** — drag the scroll the div or swipe the page with two active points to go to the next/previous page.
+* **Grid** — drag to scroll the tableview or perform swipe with two active points to go to the next/previous page.
 
 * **ImageGallery** — swipe to navigate the images, thumbnails and show/hide the thumbnails area;tap and hold to toggle the slideshow feature;	double tap to enter/exit full screen mode; tap on an image to navigate to the page pointed by the **NavigateUrl** property.
 
