@@ -28,8 +28,8 @@ http://www.telerik.com/help/aspnet-ajax/chart-data-binding.html http://docs.tele
 http://www.telerik.com/help/aspnet-ajax/chart-default-label-value.html http://docs.telerik.com/devtools/ajax/chart/understanding-radchart-elements/defaultlabelvalue
 http://www.telerik.com/help/aspnet-ajax/chart-drill-down.html http://docs.telerik.com/devtools/ajax/chart/advanced-topics/drill-down
 http://www.telerik.com/help/aspnet-ajax/chart-empty-values.html http://docs.telerik.com/devtools/ajax/chart/features/empty-values
-http://www.telerik.com/help/aspnet-ajax/chart-getting-started-create-data-bound.html http://docs.telerik.com/devtools/ajax/chart/getting-started/quick-start:-create-a-data-bound-chart
-http://www.telerik.com/help/aspnet-ajax/chart-getting-started-static-data.html http://docs.telerik.com/devtools/ajax/chart/getting-started/quick-start:-create-a-bar-chart-with-simple-static-data
+http://www.telerik.com/help/aspnet-ajax/chart-getting-started-create-data-bound.html http://docs.telerik.com/devtools/ajax/chart/getting-started/create-data-bound-chart
+http://www.telerik.com/help/aspnet-ajax/chart-getting-started-static-data.html http://docs.telerik.com/devtools/ajax/chart/getting-started/create-bar-chart-with-simple-static-data
 http://www.telerik.com/help/aspnet-ajax/chart-gridlines.html http://docs.telerik.com/devtools/ajax/chart/understanding-radchart-elements/gridlines
 http://www.telerik.com/help/aspnet-ajax/chart-grouping-databound-items.html http://docs.telerik.com/devtools/ajax/chart/building-radcharts/grouping-databound-items
 http://www.telerik.com/help/aspnet-ajax/chart-how-to-add-axis-labels-programmatically.html http://docs.telerik.com/devtools/ajax/chart/how-to/how-do-i-add-axis-labels-programmatically?
