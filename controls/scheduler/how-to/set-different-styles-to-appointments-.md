@@ -225,48 +225,38 @@ If you need to use your own custom style for the appointments, here is how to pr
 
 2. Include the following css rule in the head of your page:
 
-````CSS
+	**CSS**
 	
-<style type="text/css">
-   .RadScheduler .MyCustomAppointmentStyle .rsAptContent,
-   .RadScheduler .MyCustomAppointmentStyle .rsAptMid .rsAptIn,
-   .RadScheduler .MyCustomAppointmentStyle .rsAptMid,
-   .RadScheduler .MyCustomAppointmentStyle .rsAptOut
-   {
-	background-image: url('Scheduler/MyCustomBackgroundImage.png');
-   }
-   .RadScheduler .MyCustomAppointmentStyle .rsAptContent
-   {
-	/*font style*/
-	color: Blue;
-   }
-</style>  
+		<style type="text/css">
+		   .RadScheduler .MyCustomAppointmentStyle .rsAptContent,
+		   .RadScheduler .MyCustomAppointmentStyle .rsAptMid .rsAptIn,
+		   .RadScheduler .MyCustomAppointmentStyle .rsAptMid,
+		   .RadScheduler .MyCustomAppointmentStyle .rsAptOut
+		   {
+			background-image: url('Scheduler/MyCustomBackgroundImage.png');
+		   }
+		   .RadScheduler .MyCustomAppointmentStyle .rsAptContent
+		   {
+			/*font style*/
+			color: Blue;
+		   }
+		</style>  
 				
-````
-
-
-
 3. Set the appointment **CssClass** property:
 
-
-
-
-
-````C#
+	**C#**
 	
-protected void RadScheduler1_AppointmentDataBound(object sender, Telerik.Web.UI.SchedulerEventArgs e)
-{
-	e.Appointment.CssClass = "MyCustomAppointmentStyle";
-}  
+		protected void RadScheduler1_AppointmentDataBound(object sender, Telerik.Web.UI.SchedulerEventArgs e)
+		{
+			e.Appointment.CssClass = "MyCustomAppointmentStyle";
+		}  
 	    
-````
-````VB.NET
-	
-Protected Sub RadScheduler1_AppointmentDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.SchedulerEventArgs) Handles RadScheduler1.AppointmentDataBound
-	e.Appointment.CssClass = "MyCustomAppointmentStyle"
-End Sub
-	
-````
 
+	**VB**
+			
+		Protected Sub RadScheduler1_AppointmentDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.SchedulerEventArgs) Handles RadScheduler1.AppointmentDataBound
+			e.Appointment.CssClass = "MyCustomAppointmentStyle"
+		End Sub
+	
 
 The background images for the appointment styles can be found in your local installation of the Telerik.Web.UI suit -> *Skins\Common\Scheduler* and the cssrules are defined in **Scheduler.css** in the Skins folder.

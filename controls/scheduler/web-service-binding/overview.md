@@ -50,9 +50,7 @@ Here is a step-by-step tutorial on how to bind RadScheduler to Web Services:
 	This will automatically add **SchedulerWebService.cs** in the **App_Code** folder.
 
 4. In the SchedulerWebService.cs file define:
-
 	* A Controller property of type WebServiceAppointmentController. This class is used as a wrapper for the Data Provider.
-
 	* Public methods for creating, updating and deleting appointments, as shown below:
 
 	**C#**
@@ -118,7 +116,6 @@ Here is a step-by-step tutorial on how to bind RadScheduler to Web Services:
 			 return Controller.GetResources(schedulerInfo);
 			}
 		} 
-		
 
 5. Copy the **Appointments_Outlook.xml** file to the App_Data folder of your web site. It’s located at:**
 

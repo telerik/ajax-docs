@@ -58,37 +58,30 @@ Suggested solution:
 
 1. This problem appears on export when the Telerik.Web.UI .dllis referenced trough the GAC and the assembly version is different from the WebResource.axdversion registered in the web.config file. Please check you web.configfor proper handler registration in the following section:
 
-````ASPNET
+	**ASP.NET**
 	
-<system.webServer>
-	<handlers>
-		<add name="Telerik.Web.UI.WebResource"  path="Telerik.Web.UI.WebResource.axd" verb="*" type="Telerik.Web.UI.WebResource, Telerik.Web.UI, Version=[ASSEMBLY_VERSION], Culture=neutral, PublicKeyToken=121fae78165ba3d4" />
-	</handlers>
-</system.webServer>
+		<system.webServer>
+			<handlers>
+				<add name="Telerik.Web.UI.WebResource"  path="Telerik.Web.UI.WebResource.axd" verb="*" type="Telerik.Web.UI.WebResource, Telerik.Web.UI, Version=[ASSEMBLY_VERSION], Culture=neutral, PublicKeyToken=121fae78165ba3d4" />
+			</handlers>
+		</system.webServer>
 	
-````
 
-
-
-Where [ASSEMBLY_VERSION] is the exact version of your Telerik.Web.UI.dll.
+	Where [ASSEMBLY_VERSION] is the exact version of your Telerik.Web.UI.dll.
 
 2. If you are using Forms authentication please add the following section to your web.config file:
 
-````ASPNET
+	**ASPNET**
 	
-<location path="Telerik.Web.UI.WebResource.axd">
-	<system.web>
-		<authorization>
-			<allow users="?"/>
-		</authorization>
-	</system.web>
-</location>
+		<location path="Telerik.Web.UI.WebResource.axd">
+			<system.web>
+				<authorization>
+					<allow users="?"/>
+				</authorization>
+			</system.web>
+		</location>
 	
-````
-
-
-
-Problem:
+	Problem:
 
 **An error occurred while parsing EntityName. Line 1246, position 58or '' is an unexpected token. The expected token is ';'. Line 131, position 10.**
 

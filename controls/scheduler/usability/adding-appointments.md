@@ -12,8 +12,6 @@ position: 1
 
 
 
-## 
-
 To create an appointment using **RadScheduler**:
 
 1. Double-click on the time when you want the appointment to occur. In Day, Week, or MultiDay view, you can double-click on a specific starting time, or you can double-click in the All Day row to create an all-day event. In Month and Timeline view, appointments always start out as all-day events.
@@ -49,7 +47,7 @@ To create an appointment using **RadScheduler**:
 		![Daily Occurence](images/scheduler_dailyoccurrence.png)
 	* For weekly appointments, indicate the number of weeks between each repeat, and the days of the week on which the appointment occurs for each repeat:<br />
 		![Weekly Occurence](images/scheduler_weeklyoccurrence.png)
-	* For monthly appointments, specify which day of the month the appointment occurs, and the number of months between each recurrence:
+	* For monthly appointments, specify which day of the month the appointment occurs, and the number of months between each recurrence:<br />
 		![Monthly Recurrence](images/scheduler_monthlyrecurrence.png)
 	* For yearly appointments, specify the day and month of each year that the appointment occurs:
 		![Yearly Occurence](images/scheduler_yearlyoccurrence.png) 				

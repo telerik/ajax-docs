@@ -64,15 +64,10 @@ End Class
 ## Sending additional information when using server-side data binding
 
 1. Send the customized MySchedulerInfo to RadScheduler in one of the following events:
-
 	* AppointmentsPopulating
-
 	* ResourcesPopulating
-
 	* AppointmentInsert
-
 	* AppointmentUpdate
-
 	* AppointmentDelete
 
 
