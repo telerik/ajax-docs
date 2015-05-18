@@ -18,7 +18,7 @@ The **OnClientNodeCollapsed** client-side event occurs after the user clicks the
 
 The event handler receives parameters:
 
-1. The treeview instance that fired the event.
+1. The **TreeView** instance that fired the event.
 
 1. Event arguments with functions:
 
@@ -29,21 +29,16 @@ The event handler receives parameters:
 The example below demonstrates retrieving a reference to the collapsed parent node.
 
 ````ASPNET
-	     
-	
-	<script type="text/javascript" language="javascript">
-	
-	    function ClientNodeCollapsed(sender, eventArgs) {
-	        var node = eventArgs.get_node();
-	        alert(node.get_text() + " has collapsed");
-	    }
-	    
-	</script>
-	<telerik:RadTreeView ID="RadTreeView1" 
-	                 runat="server"  
-	                 OnClientNodeCollapsed="ClientNodeCollapsed">
-	</telerik:RadTreeView>
-			
+<telerik:RadTreeView ID="RadTreeView1" 
+     runat="server"  
+     OnClientNodeCollapsed="ClientNodeCollapsed">
+</telerik:RadTreeView>			
+````
+````JavaScript
+function ClientNodeCollapsed(sender, eventArgs) {
+	var node = eventArgs.get_node();
+	alert(node.get_text() + " has collapsed");
+}
 ````
 
 

@@ -19,29 +19,25 @@ When the user clicks the minus button next to a Node that has child Nodes, the *
 
 
 ````C#
-	     
-		protected void RadTreeView1_NodeCollapse(object sender, Telerik.Web.UI.RadTreeNodeEventArgs e)
-	    {    
-	        e.Node.Text = "NodeCollapse fired for this node";
-	    }
-				
+protected void RadTreeView1_NodeCollapse(object sender, Telerik.Web.UI.RadTreeNodeEventArgs e)
+{    
+    e.Node.Text = "NodeCollapse fired for this node";
+}
 ````
 ````VB.NET
-	     
-	    Protected Sub RadTreeView1_NodeCollapse(ByVal sender As Object, ByVal e As Telerik.Web.UI.RadTreeNodeEventArgs)
-	        e.Node.Text = "NodeCollapse fired for this node"
-	    End Sub
-	
+Protected Sub RadTreeView1_NodeCollapse(ByVal sender As Object, ByVal e As Telerik.Web.UI.RadTreeNodeEventArgs)
+    e.Node.Text = "NodeCollapse fired for this node"
+End Sub
 ````
 
 
->note Every collapse of a node **causes a postback** if the ExpandMode is set to ServerSide.
+>note Every collapse of a node **causes a postback** if the **ExpandMode** is set to **ServerSide**.
 >
 
 
 # See Also
 
- * [Overview]({%slug treeview/server-side-programming/events/overview%})
+ * [Server-side events Overview]({%slug treeview/server-side-programming/events/overview%})
 
  * [NodeCheck]({%slug treeview/server-side-programming/events/nodecheck%})
 

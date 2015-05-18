@@ -16,14 +16,12 @@ position: 9
 
 The client-side API of Telerik RadTreeView for ASP.NET AJAX provides the **get_textElement()** function that returns the instance of the text element of a particular node.
 
-For example, the following Javascript changes the first node of the treeview to "new text":
+For example, the following JavaScript changes the first node of the TreeView to "new text":
 
 ````JavaScript
-	
-	        //RadTreeView1 is the server-side treeview object
-	        var tree = $find("<%= RadTreeView1.ClientID %>");
-	        tree.get_nodes().getNode(0).get_textElement().innerHTML = "new text"; 
-				
+//RadTreeView1 is the server-side treeview object
+var tree = $find("<%= RadTreeView1.ClientID %>");
+tree.get_nodes().getNode(0).get_textElement().innerHTML = "new text"; 
 ````
 
 

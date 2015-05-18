@@ -23,11 +23,11 @@ The **RadFileExplorer** control exposes a number or properties that can be used 
 |UploadPaths|A string array|This property is used in order to Assigns Upload (or write) permission for specific folders and their children folders|
 |DeletePaths|A string array|This property is used in order to Assigns Delete permission for specific folders and their children (files and folders)|
 |ContentProviderTypeName|System.String|Sets the AssemblyQualifiedName of a custom FileBrowserContentProvider that will be used in order to load the content in RadFileExplorer|
-|MaxUploadFileSize|Int32|Sets the allowed file upload size.[This article](3544C667-22D4-403B-91E4-43BC8CA94778)shows how to upload large files.|
-|SearchPatterns|A string array|An array of[ wildcards for search ](http://msdn.microsoft.com/en-us/library/wz42302f.aspx)||
+|MaxUploadFileSize|Int32|Sets the allowed file upload size. [This article](3544C667-22D4-403B-91E4-43BC8CA94778) shows how to upload large files.|
+|SearchPatterns|A string array|An array of [wildcards for search ](http://msdn.microsoft.com/en-us/library/wz42302f.aspx)||
 |AllowPaging|Boolean|Enables or disables paging in the embedded RadGrid|
 |PageSize|Int32|Sets the PageSize of the embedded RadGrid. This property takes effect only when AllowPaging="true" is set|
-|DisplayUpFolderItem|Boolean|Show or hide thefolder in the embedded RadGrid|
+|DisplayUpFolderItem|Boolean|Show or hide the folder in the embedded RadGrid|
 |EnableCopy|Boolean|Allow or deny copy|
 |EnableCreateNewFolder|Boolean|Allow or deny creating a new folder. If a custom provider is used, then the provider's CanCreateDirectory should be overridden as well|
 |ExplorerMode|An enum of type: Telerik.Web.UI.FileExplorer.FileExplorerMode|Allows FileTree mode, where the files and folders are shown in the TreeView. The grid in this mode is not visible|

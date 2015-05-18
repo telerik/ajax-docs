@@ -14,24 +14,20 @@ position: 1
 
 ## 
 
-The **DataItem** property is available only during databinding in the **[NodeDataBound]({%slug treeview/server-side-programming/events/nodedatabound%})** event:
+The **DataItem** property is available only during data binding in the [NodeDataBound]({%slug treeview/server-side-programming/events/nodedatabound%}) event:
 
 
 
-````C#
-	
-	    protected void RadTreeView1_NodeDataBound(object o, RadTreeNodeEventArgs e)
-	    {
-	        DataRowView dataSourceRow = (DataRowView)e.Node.DataItem;
-	    }
-	
+````C#	
+protected void RadTreeView1_NodeDataBound(object o, RadTreeNodeEventArgs e)
+{
+    DataRowView dataSourceRow = (DataRowView)e.Node.DataItem;
+}
 ````
 ````VB.NET
-	
-	    Protected Sub RadTreeView1_NodeDataBound(ByVal o As Object, ByVal e As RadTreeNodeEventArgs)
-	        Dim dataSourceRow As DataRowView = CType(e.Node.DataItem, DataRowView)
-	    End Sub
-	
+Protected Sub RadTreeView1_NodeDataBound(ByVal o As Object, ByVal e As RadTreeNodeEventArgs)
+    Dim dataSourceRow As DataRowView = CType(e.Node.DataItem, DataRowView)
+End Sub
 ````
 
 

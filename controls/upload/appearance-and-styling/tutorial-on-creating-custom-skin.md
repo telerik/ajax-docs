@@ -49,9 +49,7 @@ See [Understanding the Skin CSS File]({%slug upload/appearance-and-styling/under
 	````XML
 	<add verb="*" path="Telerik.RadUploadProgressHandler.ashx" type="Telerik.Web.UI.RadUploadProgressHandler, Telerik.Web.UI" />
 	````
-
-
-
+	
 1. At this point, your Web.config should look as follows:
 
 	````XML
@@ -141,8 +139,7 @@ See [Understanding the Skin CSS File]({%slug upload/appearance-and-styling/under
 	End Sub
 		
 	````
-
-
+	
 1. Run the application. Select a file and click the submit button. The new "Green" skin should look just like the default skin:
 
 	![Default Skin](images/upload_default_skin.png)
@@ -211,17 +208,15 @@ See [Understanding the Skin CSS File]({%slug upload/appearance-and-styling/under
 
 		1. The Add and Delete buttons appear inside a separate `<li>` element with the **ruActions** class applied. Therefore if you need to modify them you have to add the **div.RadUpload_Green .ruActions .ruButton** selector. In order to change the text color, the width and the margin, for example, add the following class definition:
 
-		````ASPNET
-		div.RadUpload_Green .ruActions .ruButton {
-		
-			width:115px;
-			margin:0 0.8em 0 0;
-			color: #000;
-		
-		}
-		````
-
-
+			````ASPNET
+			div.RadUpload_Green .ruActions .ruButton {
+			
+				width:115px;
+				margin:0 0.8em 0 0;
+				color: #000;
+			
+			}
+			````
 
 		1. Run the application. The RadUpload control has its new appearance. Select a file and click the submit button. Note that some of your changes affect the cancel button in the progress dialog as well:
 		
@@ -235,33 +230,25 @@ See [Understanding the Skin CSS File]({%slug upload/appearance-and-styling/under
 	.RadUpload_Green .ruProgress { border:4px solid Green; background:#efe; padding:15px;}
 	````
 
-
-
 1. Locate the **RadUpload_Green .ruProgress li** selector. This class is applied to the rows of the progress dialog. Change the color to "green":
 
 	````ASPNET
 	.RadUpload_Green .ruProgress li { margin:0 0 0.8em; color:green;}
 	````
-
-
-
+	
 1. Each row in the progress dialog has its own style class, which is assigned to the `<li>` element. Locate the element for the row with the current file name, which has the **ruCurrentFile** class (**.radUpload_Green .ruProgress li.ruCurrentFile**). Change the color to "#0b0" and reduce the font-size to 14px:
 
 	````ASPNET
 	.RadUpload_Green .ruProgress li.ruCurrentFile { margin:0 0 0.3em; font-size:14px;
 	color:#0b0;}
 	````
-
-
-
+	
 1. The name of the current file is rendered using a `<li>` element for the row. Locate the **.radUpload_Green .ruProgress li.ruCurrentFile** selector. Use this rule to change the color to green and reduce the font size to 14 px:
 
 	````ASPNET
 	.RadUpload_Green .ruProgress li.ruCurrentFile { font-size:14px; color:green;}
 	````
-
-
-
+	
 1. The progress bars are rendered using two nested `<div>` elements. The outer `<div>` has the **ruBar** class applied. Locate the **.RadUpload_Green .ruProgress .ruBar** selector. Change the border to green and add a white background:
 
 	````ASPNET
@@ -271,9 +258,7 @@ See [Understanding the Skin CSS File]({%slug upload/appearance-and-styling/under
 		background: white;
 	}
 	````
-
-
-
+	
 1. In order to alter the progress area, you need to locate the following class selector **.RadUploadProgressArea_Green .ruProgress .ruBar div** and apply the desired color for the background:
 
 	````ASPNET
@@ -282,9 +267,7 @@ See [Understanding the Skin CSS File]({%slug upload/appearance-and-styling/under
 		background-color: green;
 	}
 	````
-
-
-
+	
 1. Run the application to see the effect of your changes:
 
 	![Green Skin](images/upload_green_skin.png)

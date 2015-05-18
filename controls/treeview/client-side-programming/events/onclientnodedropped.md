@@ -18,36 +18,32 @@ The **OnClientNodeDropped** client-side event is called after node(s) are droppe
 
 The event handler receives parameters:
 
-1. The treeview instance that fired the event.
+1. The **TreeView** instance that fired the event.
 
 1. Event arguments with functions:
 
-* **get_sourceNode()** retrieves the node being dropped. When the RadTreeView **MultipleSelect** property is **True**, **get_sourceNode()** refers to the first node selected.
+* **get_sourceNode()** retrieves the node being dropped. When the **RadTreeView** **MultipleSelect** property is **True**, **get_sourceNode()** refers to the first node selected.
 
-* **get_sourceNodes()** retrieves an array of nodes being dropped if the RadTreeView **MultipleSelect** property is **True**.
+* **get_sourceNodes()** retrieves an array of nodes being dropped if the **RadTreeView** **MultipleSelect** property is **True**.
 
 * **get_domEvent()** retrieves a DOM event object of the node dropping.
 
 The example below displays information for the dropped source nodes.
 
 ````ASPNET
-	
-	    <script type="text/javascript" language="javascript">
-	
-	        function ClientNodeDropped(sender, eventArgs) {
-	            alert("The source node is: " + eventArgs.get_sourceNode().get_text() + "\n" +
-	            //if MultipleSelect = True
-	                  "The number of source nodes: " + eventArgs.get_sourceNodes().length + "\n");
-	        }
-	    
-	    </script>
-	
-	    <telerik:RadTreeView ID="RadTreeView1" 
-	                         runat="server" 
-	                         EnableDragAndDrop="true" 
-	                         MultipleSelect="true"
-	                         OnClientNodeDropped="ClientNodeDropped">
-	    </telerik:RadTreeView>
+<telerik:RadTreeView ID="RadTreeView1" 
+                     runat="server" 
+                     EnableDragAndDrop="true" 
+                     MultipleSelect="true"
+                     OnClientNodeDropped="ClientNodeDropped">
+</telerik:RadTreeView>
+````
+````JavaScript
+function ClientNodeDropped(sender, eventArgs) {
+	alert("The source node is: " + eventArgs.get_sourceNode().get_text() + "\n" +
+	//if MultipleSelect = True
+		"The number of source nodes: " + eventArgs.get_sourceNodes().length + "\n");
+}
 ````
 
 

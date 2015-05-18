@@ -14,39 +14,35 @@ position: 0
 
 ## 
 
-Telerik RadTreeView does not support text-wrapping by default. You can, however, use one of the following approaches to accomplish the task:
+**RadTreeView** does not support text-wrapping by default. However, you can use one of the following approaches to accomplish the task:
 
-* Add line breaks to the text of the TreeNodes:
-
-````ASPNET
-	    <telerik:RadTreeNode runat="server" Text="Root<br>Node"/> 
+* Add line breaks to the text of the **TreeNodes**:
+	````ASPNET
+<telerik:RadTreeNode runat="server" Text="Root<br>Node"/> 
 ````
 
 
 
 * To wrap all TreeNodes' Text add the following style to the page:
-
-````ASPNET
-	    <style type="text/css">
-	     #RadTreeView1 div
-	     {
-	        style="white-space: normal;"
-	     }
-	    </style>
+	````CSS
+#RadTreeView1 div
+{
+	white-space: normal;
+}
 ````
 
-If the TreeView resides in a naming container, you can get the name of the div tag from the HTML OutPut of the page.
+If the **TreeView** resides in a naming container, you can get the name of the div tag from the HTML output of the page.
 
-Another way of applying the style is putting the style directly to the TreeView or TreeNode definition like this:
+Another way of applying the style is putting the style directly to the **TreeView** or **TreeNode** definition like this:
 
 ````ASPNET
-	    <telerik:RadTreeView ID="RadTreeView1" runat="server" Style="white-space: normal;" />
+<telerik:RadTreeView ID="RadTreeView1" runat="server" Style="white-space: normal;" />
 ````
 
 
 
 ````ASPNET
-	    <telerik:RadTreeNode runat="server" Text="Root Node" style="white-space: normal;">
+<telerik:RadTreeNode runat="server" Text="Root Node" style="white-space: normal;">
 ````
 
 

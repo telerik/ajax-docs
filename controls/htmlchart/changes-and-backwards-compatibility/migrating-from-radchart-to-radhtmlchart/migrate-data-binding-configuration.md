@@ -199,9 +199,9 @@ End Function
 
 Data-bound specific properties in **RadChart** are configured in the **ChartSeries** object:
 
-* The corresponding x-axis related properties are**DataXColumn** and **DataXColumn2**.
+* The corresponding x-axis related properties are **DataXColumn** and **DataXColumn2**.
 
-* The corresponding y-axis related properties are**DataYColumn**, **DataYColumn2**, **DataYColumn3** and **DataYColumn4**.
+* The corresponding y-axis related properties are **DataYColumn**, **DataYColumn2**, **DataYColumn3** and **DataYColumn4**.
 
 The code in **Example 3** illustrates how to bind continuous data in a Point series with **RadChart** and is shown in **Figure 3**.
 

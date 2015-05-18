@@ -26,11 +26,10 @@ The event handler receives two parameters:
 
 * **set_cancel** lets you cancel the event and prevent items from being uploaded
 
-````ASPNET
+````ASP.NET
 <telerik:RadCloudUpload runat="server" ID="RadCloudUpload1" OnClientFilesSelecting="onClientFilesSelecting" MultipleFileSelection="Automatic" ...>
 </telerik:RadCloudUpload>
 ````
-
 
 
 ````JavaScript

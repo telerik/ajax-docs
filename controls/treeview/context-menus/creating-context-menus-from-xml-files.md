@@ -14,24 +14,19 @@ position: 4
 
 ## 
 
-The **ContextMenus** property in RadTreeView for ASP.NET AJAX is a collection of RadTreeViewContextMenu objects. The RadTreeViewContextMenu control inherits the RadContextMenu, which in turn inherits RadMenu.
+The **ContextMenus** property in **RadTreeView** for ASP.NET AJAX is a collection of **RadTreeViewContextMenu** objects. The **RadTreeViewContextMenu** control inherits the **RadContextMenu**, which in turn inherits **RadMenu**.
 
-The easiest way to populate a RadTreeViewContextMenu from an XML document is using the following syntax:
+The easiest way to populate a **RadTreeViewContextMenu** from an XML document is using the following syntax:
 
 
 
 ````C#
-	     
-		RadTreeView1.ContextMenus.Add(new RadTreeViewContextMenu());
-	    RadTreeView1.ContextMenus[0].LoadContentFile("~/MyContextMenuContentFile.xml");
-				
+RadTreeView1.ContextMenus.Add(new RadTreeViewContextMenu());
+RadTreeView1.ContextMenus[0].LoadContentFile("~/MyContextMenuContentFile.xml");
 ````
-````VB.NET
-	     
-	
-	RadTreeView1.ContextMenus.Add(new RadTreeViewContextMenu())
-	RadTreeView1.ContextMenus(0).LoadContentFile("~/MyContextMenuContentFile.xml")
-				
+````VB.NET	
+RadTreeView1.ContextMenus.Add(new RadTreeViewContextMenu())
+RadTreeView1.ContextMenus(0).LoadContentFile("~/MyContextMenuContentFile.xml")
 ````
 
 

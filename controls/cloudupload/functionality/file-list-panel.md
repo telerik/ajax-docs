@@ -28,7 +28,7 @@ position: 1
 | **RenderButtonText** |bool|When set to true enables rendering of text on the buttons.|
 | **ShowEmptyFileListPanel** |bool|Gets or sets the whether the file list panel will be displayed when no files are uploaded.|
 
-````ASPNET
+````ASP.NET
 <telerik:RadCloudUpload ID="RadCloudUpload1" runat="server" ProviderType="Azure" MultipleFileSelection="Automatic">
 	<FileListPanelSettings PanelContainerSelector="#fileList" Height="250px" MaxHeight="300px" Width="450px" RenderButtonText="true" ShowEmptyFileListPanel="true" />
 </telerik:RadCloudUpload>

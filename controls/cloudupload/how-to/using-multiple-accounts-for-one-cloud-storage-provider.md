@@ -22,18 +22,17 @@ In some scenarios it is needed to upload files in multiple accounts or container
 
 1. Change the allow definition for the **RadCloudUpload** section in the web.config of the root folder to "Everywhere":
 
-	````XML
-	<?xml version="1.0"?>
-	<configuration>
-		<configSections>
-			<sectionGroup name="telerik.web.ui">
-				<section name="radCloudUpload" type="Telerik.Web.UI.CloudUploadConfigurationSection" allowDefinition="Everywhere" requirePermission="false"/>
-			</sectionGroup>
-		</configSections>
-		...
-	</configuration>
-	````
-
+	**XML**
+	
+		<?xml version="1.0"?>
+		<configuration>
+			<configSections>
+				<sectionGroup name="telerik.web.ui">
+					<section name="radCloudUpload" type="Telerik.Web.UI.CloudUploadConfigurationSection" allowDefinition="Everywhere" requirePermission="false"/>
+				</sectionGroup>
+			</configSections>
+			...
+		</configuration>
 
 
 2. Create a new folder
@@ -42,27 +41,28 @@ In some scenarios it is needed to upload files in multiple accounts or container
 
 4. Add new Custom Handler
 
-5. Add new configuration file![cloud-upload-multiple 1](images/cloud-upload-multiple1.png)
+5. Add new configuration file
+![cloud-upload-multiple 1](images/cloud-upload-multiple1.png)
 
 6. Configure the web.config in the newly added folder:
 
-	````XML
-	<?xml version="1.0" ?>
-	<configuration>
-	<system.web>
-	</system.web>
-	<telerik.web.ui>
-		<radCloudUpload>
-			<storageProviders>
-				<!--Remove the existing provider from the web.config of the root folder.
-				If it is not set then the next row is not needed.-->
-				<remove name="Amazon"/>
-				<add name="Amazon" type="Telerik.Web.UI.AmazonS3Provider" accessKey="" secretKey="" bucketName="" subFolderStructure="" uncommitedFilesExpirationPeriod="2" />
-			</storageProviders>
-		</radCloudUpload>
-	</telerik.web.ui>
-	</configuration>
-	````
+	**XML**
+	
+		<?xml version="1.0" ?>
+		<configuration>
+		<system.web>
+		</system.web>
+		<telerik.web.ui>
+			<radCloudUpload>
+				<storageProviders>
+					<!--Remove the existing provider from the web.config of the root folder.
+					If it is not set then the next row is not needed.-->
+					<remove name="Amazon"/>
+					<add name="Amazon" type="Telerik.Web.UI.AmazonS3Provider" accessKey="" secretKey="" bucketName="" subFolderStructure="" uncommitedFilesExpirationPeriod="2" />
+				</storageProviders>
+			</radCloudUpload>
+		</telerik.web.ui>
+		</configuration>
 
 
 
@@ -70,36 +70,36 @@ In some scenarios it is needed to upload files in multiple accounts or container
 
 
 
-	````C#
-	<%@ WebHandler Language="C#" Class="Handler" %>
-	using System;
-	using System.Web;
-	using Telerik.Web.UI;
+	**C#**
+		
+		<%@ WebHandler Language="C#" Class="Handler" %>
+		using System;
+		using System.Web;
+		using Telerik.Web.UI;
+	
+		public class Handler : CloudUploadHandler
+		{
+		}
+	**VB.NET**
+		
+		<%@ WebHandler Language="VB" Class="Handler" %>
+	
+		Imports System
+		Imports System.Web
+		Imports Telerik.Web.UI
+	
+		Public Class Handler : Inherits CloudUploadHandler
+		End Class
 
-	public class Handler : CloudUploadHandler
-	{
-	}
-	````
-	````VB.NET
-	<%@ WebHandler Language="VB" Class="Handler" %>
-
-	Imports System
-	Imports System.Web
-	Imports Telerik.Web.UI
-
-	Public Class Handler : Inherits CloudUploadHandler
-	End Class
-	````
 
 
 8. Add **RadCloudUpload** control to the form and configure it to use the added custom handler:
 
-	````ASPNET
-	<telerik:RadCloudUpload ID="RadCloudUpload2" runat="server" ProviderType="Amazon" HttpHandlerUrl="~/AmazonS3Bucket1/Handler.ashx">
-	</telerik:RadCloudUpload>
-	````
-
-
+	**ASP.NET**
+	
+		<telerik:RadCloudUpload ID="RadCloudUpload2" runat="server" ProviderType="Amazon" HttpHandlerUrl="~/AmazonS3Bucket1/Handler.ashx">
+		</telerik:RadCloudUpload>
+	
 
 # See Also
 

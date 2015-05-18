@@ -40,9 +40,9 @@ You add series via the **Series** tag inside the **PlotArea** tag. The inner tag
 
 * **Series Item** - This is the unit of data that is passed to the series. A series item defines the value of the chart:
 
-* At the given point for numeric series (e.g., Scatter, ScatterLine and Bubble).
+	* At the given point for numeric series (e.g., Scatter, ScatterLine and Bubble).
 
-* For the given x-axis item for category series (e.g., Area, Bar, Column, Line, etc.,).For line charts, series items define the spots through which the line passes.
+	* For the given x-axis item for category series (e.g., Area, Bar, Column, Line, etc.,).For line charts, series items define the spots through which the line passes.
 
 * **Series Item Label** - This is the text next to each series item that shows the value it holds. You can modify this label	with a format string to show a pattern related to this value.
 
@@ -167,9 +167,9 @@ The axes are two perpendicular lines that define the scale of the chart and show
 </telerik:RadHtmlChart>
 ````
 
-**Figure 2** (showing the Pie chart) is the result of the markup shown in**Example 2**. Most of the properties are set just to show their position in the markup.**Example 2**is taken from the [Pie Chart online demo](http://demos.telerik.com/aspnet-ajax/htmlchart/examples/charttypes/piechart/defaultcs.aspx) of the RadHtmlChart.
+**Figure 2** (showing the Pie chart) is the result of the markup shown in **Example 2**. Most of the properties are set just to show their position in the markup.**Example 2** is taken from the [Pie Chart online demo](http://demos.telerik.com/aspnet-ajax/htmlchart/examples/charttypes/piechart/defaultcs.aspx) of the RadHtmlChart.
 
->caption Example 2: This markup shows how to use a**RadHtmlChart** to create the Pie chart shown in **Figure 2**.
+>caption Example 2: This markup shows how to use a **RadHtmlChart** to create the Pie chart shown in **Figure 2**.
 
 ````ASP.NET
 <telerik:RadHtmlChart runat="server" ID="PieChart1" Width="800" Height="500"

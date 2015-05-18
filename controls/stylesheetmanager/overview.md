@@ -164,19 +164,19 @@ If the stylesheet combination is not needed for some reason (e.g. debugging) it 
 			>
 
 
-			1. Modify the CSS class declaration’s url attribute to contain the web resource path, e.g..imageBg
+		1. Modify the CSS class declaration’s url attribute to contain the web resource path, e.g..imageBg
 
-				````CSS
-							
-				.RadComboBox_Telerik .rcbArrowCell
-				{
-					border: 0;
-					padding: 0;
-					width: 23px;
-					background: transparent url('<%=WebResource("TelerikCustomSkins.ComboBox_Images.rcbArrowCell.gif")%>') no-repeat;
-				}
-							
-				````
+			````CSS
+						
+			.RadComboBox_Telerik .rcbArrowCell
+			{
+				border: 0;
+				padding: 0;
+				width: 23px;
+				background: transparent url('<%=WebResource("TelerikCustomSkins.ComboBox_Images.rcbArrowCell.gif")%>') no-repeat;
+			}
+						
+			````
 
 
 
@@ -194,8 +194,6 @@ If the stylesheet combination is not needed for some reason (e.g. debugging) it 
 		</StyleSheets>
 	</telerik:RadStyleSheetManager>
 	````
-
-
 
 1. Test the page by adding RadComboBox with Skin="Telerik" and **EnableEmbeddedSkins**="**False**"**.**The expected result is that the Telerik skin is successfully applied to RadCombobBox.
 

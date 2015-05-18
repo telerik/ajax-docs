@@ -14,7 +14,7 @@ position: 5
 
 This tutorial will demonstrate localizing the RadChart title, series name and chart series item labels. The example will use local resources and use implicit expressions to bind them. See [Multi-Language Support for RadChart]({%slug chart/advanced-topics/multi-language-support-for-radchart%}) for an overview of localization options.
 
-1. Create a simple ASP.NET AJAX enabled RadChart application. See Quick Start: [Create a Bar Chart with Simple Static Data]({%slug chart/getting-started/quick-start:-create-a-bar-chart-with-simple-static-data%}) for an example. The following steps assume the web page is named "default.aspx".
+1. Create a simple ASP.NET AJAX enabled RadChart application. See Quick Start: [Create a Bar Chart with Simple Static Data]({%slug chart/getting-started/create-bar-chart-with-simple-static-data%}) for an example. The following steps assume the web page is named "default.aspx".
 
 1. Paste the following ASP.NET HTML definition of the chart:
 

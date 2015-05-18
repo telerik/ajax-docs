@@ -12,13 +12,13 @@ position: 7
 
 
 
-In order to use [RadProgressArea]({%slug progressarea/getting-started%}),you need to add **RadProgressManager** (as long as RadProgressArea) to yourpage and must register **RadUploadProgressHandler** and **RadUploadHttpModule** in your application **web.config** file.
+In order to use [RadProgressArea]({%slug progressarea/getting-started%}),you need to add **RadProgressManager** (as long as RadProgressArea) to your page and must register **RadUploadProgressHandler** and **RadUploadHttpModule** in your application **web.config** file.
 
 >note As of Q3 SP1 2008 (2008.3.1125), you can use the **SmartTag** of the **RadProgressManager** to add all settings.
 >
 
 
->caution  **RadProgressManager** displays error messages if it is unable to findRadUploadHttpModule. **RadUploadHttpModule** is incompatible with the ASP.NETapplication trace and **RadUploadHttpModule** is incompatible with other similarmodules that handle file uploads.
+>caution  **RadProgressManager** displays error messages if it is unable to findRadUploadHttpModule. **RadUploadHttpModule** is incompatible with the ASP.NETapplication trace and **RadUploadHttpModule** is incompatible with other similar modules that handle file uploads.
 >
 
 
@@ -30,7 +30,7 @@ In order to use [RadProgressArea]({%slug progressarea/getting-started%}),you nee
 
 
 
-* Register **RadUploadHttpModule** - add the following line in the **<httpModules>** section of your web.config file:
+* Register **RadUploadHttpModule** - add the following line in the **`<httpModules>`** section of your web.config file:
 
 ````XML
 <add name="RadUploadModule" type="Telerik.Web.UI.RadUploadHttpModule" />
@@ -38,7 +38,7 @@ In order to use [RadProgressArea]({%slug progressarea/getting-started%}),you nee
 
 
 
-now the **<httpModules>** section is likely to look like this:
+now the **`<httpModules>`** section is likely to look like this:
 
 ````XML
 <httpmodules>  
@@ -50,7 +50,7 @@ now the **<httpModules>** section is likely to look like this:
 
 
 
-* Register **RadUploadProgressHandler** - add the following line in the**<httpHandlers>** section of your web.config file:
+* Register **RadUploadProgressHandler** - add the following line in the**`<httpHandlers>`** section of your web.config file:
 
 ````XML
 <pre xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">
@@ -61,7 +61,7 @@ now the **<httpModules>** section is likely to look like this:
 
 
 
-now the **<httpHandlers>** section is likely to look like this:
+now the **`<httpHandlers>`** section is likely to look like this:
 
 ````XML
 <httpHandlers>
@@ -78,7 +78,7 @@ now the **<httpHandlers>** section is likely to look like this:
 
 
 
->note It is not necessary the ashx page in the **path** attribute above to exist, but you shouldensure that the framework is configured to skip the ASHX file existence check.
+>note It is not necessary the ashx page in the **path** attribute above to exist, but you should ensure that the framework is configured to skip the ASHX file existence check.
 >
 
 
@@ -86,7 +86,7 @@ now the **<httpHandlers>** section is likely to look like this:
 
 
 
-* Register **RadUploadHttpModule** - add the following line in the **<modules>** section (within **<system.webServer>** section)of your web.config file:
+* Register **RadUploadHttpModule** - add the following line in the **`<modules>`** section (within **<system.webServer>** section) of your web.config file:
 
 ````XML
 <!-- *******  Register the RadUploadModule for IIS 7  ****** -->
@@ -95,7 +95,7 @@ now the **<httpHandlers>** section is likely to look like this:
 
 
 
-* Register **RadUploadProgressHandler** - add the following line in the **<handlers>**section (within **<system.webServer>** section) of your web.config file:
+* Register **RadUploadProgressHandler** - add the following line in the **`<handlers>`**section (within **`<system.webServer>`** section) of your web.config file:
 
 ````XML
 <!-- *******  Register the RadUploadProgressHandler for IIS 7  ****** -->
@@ -105,11 +105,11 @@ now the **<httpHandlers>** section is likely to look like this:
 
 
 
->note It is not necessary the ashx page in the **path** attribute above to exist, but you should ensurethat the framework is configured to skip the ASHX file existence check.
+>note It is not necessary the ashx page in the **path** attribute above to exist, but you should ensure that the framework is configured to skip the ASHX file existence check.
 >
 
 
-Now the **<system.webServer>** section could look like this:
+Now the **`<system.webServer>`** section could look like this:
 
 ````XML
 <system.webserver>
@@ -140,7 +140,7 @@ Now the **<system.webServer>** section could look like this:
 
 * Open the file C:\Windows\System32\inetsrv\config\ **applicationHost.config** and find the line:
 
-<section name="requestFiltering" overrideModeDefault="Deny" />
+`<section name="requestFiltering" overrideModeDefault="Deny" />`
 
 Set the **overrideModeDefault** property to **Allow**. So now the line should look like:
 
@@ -152,7 +152,7 @@ Set the **overrideModeDefault** property to **Allow**. So now the line should lo
 
 ## Forms Authentication
 
-If your application uses **Forms Authentication**, you must make an additional change to the **<location>** section. **RadProgressManager** looks for **RadUploadProgressHandler** in the root directory of your application (e.g. http://YourServerName/ApplicationName/Telerik.RadUploadProgressHandler.ashx).
+If your application uses **Forms Authentication**, you must make an additional change to the **`<location>`** section. **RadProgressManager** looks for **RadUploadProgressHandler** in the root directory of your application (e.g. http://YourServerName/ApplicationName/Telerik.RadUploadProgressHandler.ashx).
 
 To ensure its proper operation, you must allow access to unauthenticated users for the path to **RadUploadProgressHandler**. Put the following lines in your application web.config:
 
@@ -176,7 +176,7 @@ If you are using **URL rewriter** you should **exclude** the following path from
 
 ## Submitting large pages
 
-When the ViewState of the page is relatively large and the connection speed is not that fast sometimes the Progress area is visible and loads by itself on postback. It is caused because the Progress areaindicates sending of the larger request to the server. In order to prevent this behavior you should:
+When the ViewState of the page is relatively large and the connection speed is not that fast sometimes the Progress area is visible and loads by itself on postback. It is caused because the Progress area indicates sending of the larger request to the server. In order to prevent this behavior you should:
 
 1. Go to the web.config of your web-site.
 

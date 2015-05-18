@@ -14,7 +14,7 @@ position: 0
 
 As a part of Q2 2013 **RadAsyncUpload** control introduced fully built-in keyboard support. The following code snippet describes how you can use the keyboard support with the **RadAsyncUpload** control.
 
-````ASPNET
+````ASP.NET
 <telerik:RadAsyncUpload ID="RadAsyncUpload1" runat="server" AccessKey="P" TabIndex="1"/>
 ````
 

@@ -56,7 +56,7 @@ The setup of a **Stock** chart layout with a Data Navigation requires that you:
 		* **MonthsFormat**
 		* **YearsFormat** 
 		
-	You can find the list with the standard and custom format strings that can be used in[Format Dates]({%slug htmlchart/appearance-and-styling/format-dates%}) help article.
+	You can find the list with the standard and custom format strings that can be used in [Format Dates]({%slug htmlchart/appearance-and-styling/format-dates%}) help article.
 
 * Configure the [Navigator pane]({%slug htmlchart/server-side-programming/navigator-configuration%}):
 

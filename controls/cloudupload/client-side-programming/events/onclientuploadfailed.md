@@ -26,7 +26,7 @@ The event handler receives two parameters:
 
 One useful case for using this event is to check the error message.
 
-````ASPNET
+````ASP.NET
 <telerik:RadCloudUpload runat="server" ID="RadCloudUpload1" OnClientUploadFailed="onClientUploadFailed">
 </telerik:RadCloudUpload>
 ````

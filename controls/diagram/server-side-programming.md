@@ -5,7 +5,7 @@ description: Server-side Programming
 slug: diagram/server-side-programming
 tags: server-side,programming
 published: True
-position: 8
+position: 46
 ---
 
 # Server-side Programming

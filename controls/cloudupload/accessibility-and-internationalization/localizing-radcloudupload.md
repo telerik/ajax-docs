@@ -11,24 +11,21 @@ position: 0
 # Localizing RadCloudUpload
 
 
-
 The localization support for **RadCloudUpload** lets you completely translate the user interface, or simply adapt a few strings.
 
 ## Localization Property
 
 The **Localization** property specifies the strings that appear in the runtime user interface of **RadCloudUpload**. By changing the values of each named sub-property, you change the appearance of the string the control uses:
 
-````ASPNET
-	            <telerik:RadCloudUpload runat="server" ID="RadCloudUpload1" Localization-SelectButtonText="SelectFile"...>
-	            </telerik:RadCloudUpload>
+````ASP.NET
+<telerik:RadCloudUpload runat="server" ID="RadCloudUpload1" Localization-SelectButtonText="SelectFile"...>
+</telerik:RadCloudUpload>
 ````
 
 ![clouduplaod-localization 0](images/clouduplaod-localization0.png)
 
 >note This technique is useful when customizing some of the messages of a particular instance. The messages are not shared between upload instances. A complete translation using this approach is not appropriate.
 >
-
-
 
 
 

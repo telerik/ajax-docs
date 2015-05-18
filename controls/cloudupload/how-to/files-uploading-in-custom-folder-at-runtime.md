@@ -22,13 +22,10 @@ To accomplish this scenario the **RadCloudUpload** needs to be configured to use
 >
 
 
-````ASPNET
+````ASP.NET
 <telerik:RadCloudUpload runat="server" ProviderType="Azure" MultipleFileSelection="Automatic" HttpHandlerUrl="~/UploadToCustomFolderHandler.ashx">
 </telerik:RadCloudUpload>
 ````
-
-
-
 
 
 ````C#

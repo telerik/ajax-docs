@@ -14,9 +14,7 @@ position: 2
 
 ## 
 
-Depending on the property settings of the RadTreeView, multiple nodes can be selected at one time by holding down the control or shift key and clicking multiple nodes with the mouse. A second click on a selected node will unselect that node.
+Depending on the property settings of the **RadTreeView**, multiple nodes can be selected at one time by holding down the control or shift key and clicking multiple nodes with the mouse. A second click on a selected node will unselect that node.
 
-
->caption 
 
 ![RadTreeView Multi-Node Selection](images/treeview_usabilitymultinodeselection.png)

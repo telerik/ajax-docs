@@ -14,41 +14,35 @@ position: 0
 
 ## The Properties of RadTreeView nodes
 
-RadTreeNode objects have a few important properties, which are listed below:
+**RadTreeNode** objects have a few important properties, which are listed below:
 
 * **Text** is the string that the user sees displayed in each node of the tree.
 
 * **ToolTip** is a string that appears in the tooltip window when the user hovers the mouse over a node in the tree.
-
 >note Setting the tooltip can enable an accessibility feature: Special accessibility readers like JAWS can pronounce the tooltip of the highlighted item.
 >
 
+* **Value** is the value associated with the node. It determines the value of the **RadTreeNode** **Value** property.
 
-* **Value** is the value associated with the node. It determines the value of the RadTreeNode's **Value** property.
-
-* **Selected** lets you specify which node is initially selected when the RadTreeView first appears.
-
->note If the RadTreeView MultipleSelect property is set to False (the default), only one node can be selected at a time. If you set Selected to True for a node, the Selected property of all other nodes is automatically set to False.
+* **Selected** lets you specify which node is initially selected when the **RadTreeView** first appears.
+>note If the **MultipleSelect** property of **RadTreeView** is set to **False** (the default), only one node can be selected at a time. If you set Selected to True for a node, the Selected property of all other nodes is automatically set to False.
 >
-
 
 * **Enabled** determines whether the user can select the node.
 
-* **CssClass, DisabledCssClass, HoveredCssClass, SelectedCss** are the names of CSS styles to be applied to the treeview node depending on its state. The style can be declared in the CSS file of the applied [skin](A2ACD8E0-A5F3-4093-A5DA-FF45D737F6FA).
-
->note You can also customize the appearance of items using[templates]({%slug treeview/templates/overview%}).
+* **CssClass, DisabledCssClass, HoveredCssClass, SelectedCss** are the names of CSS styles to be applied to the TreeView node depending on its state. The style can be declared in the CSS file of the applied [Skin](A2ACD8E0-A5F3-4093-A5DA-FF45D737F6FA).
+>note You can also customize the appearance of items using [templates]({%slug treeview/templates/overview%}).
 >
 
-
-* **Checkable** determines if a node displays a checkbox. This property is used in conjunction with the RadTreeView **CheckBoxes** property which enables checkboxes for the entire tree. **Checked** determines if the checkbox is currently checked. See the [Checkboxes Overview]({%slug treeview/checkboxes/overview%}) topic for more information.
+* **Checkable** determines if a node displays a checkbox. This property is used in conjunction with the **RadTreeView** **CheckBoxes** property which enables checkboxes for the entire tree. **Checked** determines if the checkbox is currently checked. See the [Checkboxes Overview]({%slug treeview/checkboxes/overview%}) topic for more information.
 
 * **Category** allows the node to be a member of an arbitrary group, for example "Customers", "Employees" or "Products".
 
-* **NavigateUrl** is a web address that will be navigated to when the node is clicked. Target supports standard HTML targets (i.e. _self, _blank, _top, _parent). For example, set the NavigateUrl to http://www.telerik.com and Target to "_blank" to display the Telerik site in a new browser window.
+* **NavigateUrl** is a web address that will be navigated to when the node is clicked. Target supports standard HTML targets (i.e. *_self*, *_blank*, *_top*, *_parent*). For example, set the NavigateUrl to http://www.telerik.com and Target to *_blank* to display the Telerik site in a new browser window.
 
 * **Level** is an integer value that indicates the node distance from the root node: the root node Level property is zero, children of the root nodes have a level property of "1" and so on.
 
-In addition to the built-in properties, you can add your own [Custom Attributes]({%slug treeview/custom-attributes/custom-attributes-overview%}) to treeview nodes to expand their functionality.
+In addition to the built-in properties, you can add your own [Custom Attributes]({%slug treeview/custom-attributes/custom-attributes-overview%}) to TreeView nodes to expand their functionality.
 
 ## Populating RadTreeView
 

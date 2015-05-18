@@ -14,11 +14,11 @@ position: 22
 
 ## 
 
-The **OnClientMouseOver**client-side event occurs when the mouse cursor passes over a node.
+The **OnClientMouseOver** client-side event occurs when the mouse cursor passes over a node.
 
 The event handler receives parameters:
 
-1. The treeview instance that fired the event.
+1. The **TreeView** instance that fired the event.
 
 1. Event arguments with functions:
 
@@ -29,23 +29,19 @@ The event handler receives parameters:
 The example below retrieves text of the node the mouse is passing over and displays the text in a div.
 
 ````ASPNET
-	
-	    <script type="text/javascript" language="javascript">
-	
-	        function ClientMouseOver(sender, eventArgs) {
-	            var node = eventArgs.get_node();
-	            var myDiv = document.getElementById("myDiv");
-	            myDiv.innerHTML = "OnClientMouseOver: " + node.get_text();
-	        }
-	    </script>
-	
-	    <telerik:RadTreeView ID="RadTreeView1" runat="server" OnClientMouseOver="ClientMouseOver">
-	    </telerik:RadTreeView>
-	    <br />
-	    <div id="myDiv" style="width: 489px; height: 100px">
-	    </div>
+<telerik:RadTreeView ID="RadTreeView1" runat="server" OnClientMouseOver="ClientMouseOver">
+</telerik:RadTreeView>
+<br />
+<div id="myDiv" style="width: 489px; height: 100px">
+</div>
 ````
-
+````JavaScript
+function ClientMouseOver(sender, eventArgs) {
+	var node = eventArgs.get_node();
+	var myDiv = document.getElementById("myDiv");
+	myDiv.innerHTML = "OnClientMouseOver: " + node.get_text();
+}
+````
 
 
 # See Also

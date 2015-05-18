@@ -34,7 +34,7 @@ You can fully customize the Scatter chart:
 
 	* The inner tags of the axis tag can control the major and minor grid lines in terms of color and sizeand the labels can have a **DataFormatString**, position and visibility set through each inner tag's properties.
 
-* The title, background colors and legend are controlled via the inner properties of the **RadHtmlChart** control and are common for all charts.You can find more information in the [Server-side API]({%slug htmlchart/server-side-programming/basic-configuration%})and in the [Element structure]({%slug htmlchart/radhtmlchart-structure%}) articles.
+* The title, background colors and legend are controlled via the inner properties of the **RadHtmlChart** control and are common for all charts. You can find more information in the [Server-side API]({%slug htmlchart/server-side-programming/basic-configuration%})and in the [Element structure]({%slug htmlchart/radhtmlchart-structure%}) articles.
 
 The Scatter chart in **Figure 1** is created with the code in **Example 1**:
 

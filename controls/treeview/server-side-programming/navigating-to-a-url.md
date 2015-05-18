@@ -12,7 +12,7 @@ position: 5
 
 
 
-RadTreeView allows three types of **Node** actions:
+**RadTreeView** allows three types of **Node** actions:
 
 * URL navigation (**NavigateUrl** attribute)
 
@@ -38,19 +38,19 @@ RadTreeView fully supports frames, as well. You can set URL Navigation for a spe
 
 
 ````C#
-	RadTreeNode myNode = new RadTreeNode ();
-	myNode.NavigateUrl = "auctions.aspx?id=4";
-	myNode.Target = "contentFrame"; 		
+RadTreeNode myNode = new RadTreeNode ();
+myNode.NavigateUrl = "auctions.aspx?id=4";
+myNode.Target = "contentFrame"; 		
 ````
 ````VB.NET
-	    Dim myNode As New RadTreeNode()
-	    myNode.NavigateUrl = "auctions.aspx?id=4"
-	    myNode.Target = "contentFrame" 
+Dim myNode As New RadTreeNode()
+myNode.NavigateUrl = "auctions.aspx?id=4"
+myNode.Target = "contentFrame" 
 ````
 
 
 ````ASPNET
-	    <node text="MyLabel" navigateurl="auctions.aspx?id=4" target="contentFrame" />
+<node text="MyLabel" navigateurl="auctions.aspx?id=4" target="contentFrame" />
 ````
 
 

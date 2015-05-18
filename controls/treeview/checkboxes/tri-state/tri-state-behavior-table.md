@@ -1,5 +1,5 @@
 ---
-title: Tri-State-Behavior Table
+title: Behavior Table
 page_title: Tri-State-Behavior Table | RadTreeView for ASP.NET AJAX Documentation
 description: Tri-State-Behavior Table
 slug: treeview/checkboxes/tri-state/tri-state-behavior-table
@@ -8,13 +8,13 @@ published: True
 position: 2
 ---
 
-# Tri-State-Behavior Table
+# Behavior Table
 
 
 
 ## 
 
-Due to the specifics behind the Tri-State functionality the behavior of RadTreeView can be different in some cases. Below is a table describing these differences:
+Due to the specifics behind the Tri-State functionality the behavior of **RadTreeView** can be different in some cases. Below is a table describing these differences:
 
 
 >caption  
@@ -29,6 +29,6 @@ Due to the specifics behind the Tri-State functionality the behavior of RadTreeV
 
 
 
->tip  To override this behavior, that is to determine the state of the child Node's CheckBoxes based on the state of their parent Node's CheckBox, please see the[Inherit the the Checked state of the parent Node when loading Nodes on demand]({%slug treeview/application-scenarios/checkboxes/inherit-the-the-checked-state-of-the-parent-node-in-load-on-demand%})topic.
+>tip  To override this behavior, that is to determine the state of the child Node's CheckBoxes based on the state of their parent Node's CheckBox, please see the [Inherit the the Checked state of the parent Node when loading Nodes on demand]({%slug treeview/application-scenarios/checkboxes/inherit-the-the-checked-state-of-the-parent-node-in-load-on-demand%})topic.
 >
 

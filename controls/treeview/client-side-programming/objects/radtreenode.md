@@ -14,9 +14,9 @@ position: 1
 
 ## 
 
-The table below lists the most important function of the RadTreeNode object.
+The table below lists the most important function of the **RadTreeNode** object.
 
->caution When setting a property to a node via the methods below, first make sure that the node is **already added** to the treeview to prevent javascript errors on the page.
+>caution When setting a property to a node via the methods below, first make sure that the node is **already added** to the **TreeView** to prevent **JavaScript** errors on the page.
 >
 
 
@@ -32,19 +32,17 @@ The table below lists the most important function of the RadTreeNode object.
 | **get_previousNode** |none|RadTreeNode|Gets an instance of the previous sibling of a Node.|
 
 ````JavaScript
-	     
-	function GetPreviousNode()
-	{
-	   var tree = $find("<%= RadTreeView1.ClientID %>");
-	   var node = tree.findNodeByText("Child RadTreeNode 2");
-	   if(node)
-	   {
-	       var prevNode = node.get_previousNode();
-	       prevNode.get_parent().expand();
-	       prevNode.select();
-	   }
-	}
-				
+function GetPreviousNode()
+{
+   var tree = $find("<%= RadTreeView1.ClientID %>");
+   var node = tree.findNodeByText("Child RadTreeNode 2");
+   if(node)
+   {
+       var prevNode = node.get_previousNode();
+       prevNode.get_parent().expand();
+       prevNode.select();
+   }
+}
 ````
 
 
@@ -56,18 +54,17 @@ The table below lists the most important function of the RadTreeNode object.
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
-	     
-	function GetNextNode()
-	{
-	   var tree = $find("<%= RadTreeView1.ClientID %>");
-	   var node = tree.findNodeByText("Child RadTreeNode 1");
-	   if(node)
-	   {
-	       var prevNode = node.get_nextNode();
-	       prevNode.get_parent().expand();
-	       prevNode.select();
-	   }
-	}		
+function GetNextNode()
+{
+   var tree = $find("<%= RadTreeView1.ClientID %>");
+   var node = tree.findNodeByText("Child RadTreeNode 1");
+   if(node)
+   {
+       var prevNode = node.get_nextNode();
+       prevNode.get_parent().expand();
+       prevNode.select();
+   }
+}		
 ````
 
 
@@ -79,19 +76,16 @@ The table below lists the most important function of the RadTreeNode object.
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
-	function ExpandNode()
-	{
-	   var tree = $find("<%= RadTreeView1.ClientID %>");
-	   var node = tree.findNodeByText("Root Node 1");
-	   if(node)
-	   {
-	       node.expand();
-	       //node.collapse();
-	   }
-	}     
-	
-	        //node.collapse();    }}
-				
+function ExpandNode()
+{
+   var tree = $find("<%= RadTreeView1.ClientID %>");
+   var node = tree.findNodeByText("Root Node 1");
+   if(node)
+   {
+       node.expand();
+       //node.collapse();
+   }
+}     
 ````
 
 
@@ -103,22 +97,22 @@ The table below lists the most important function of the RadTreeNode object.
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
-	function SetExpanded()
-	{
-	   var tree = $find("<%= RadTreeView1.ClientID %>");
-	   var node = tree.findNodeByText("Root Node 1");
-	   if(node)
-	   {
-	       if(node.get_expanded())    
-	       {       
-	           node.set_expanded(false);    
-	       }    
-	       else    
-	       {       
-	           node.set_expanded(true);     
-	       }          
-	   }
-	}		
+function SetExpanded()
+{
+   var tree = $find("<%= RadTreeView1.ClientID %>");
+   var node = tree.findNodeByText("Root Node 1");
+   if(node)
+   {
+       if(node.get_expanded())    
+       {       
+           node.set_expanded(false);    
+       }    
+       else    
+       {       
+           node.set_expanded(true);     
+       }          
+   }
+}		
 ````
 
 
@@ -130,15 +124,15 @@ The table below lists the most important function of the RadTreeNode object.
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
-	function ToggleNode()
-	{
-	   var tree = $find("<%= RadTreeView1.ClientID %>");
-	   var node = tree.findNodeByText("Root Node 1");
-	   if(node)
-	   {
-	       node.toggle();
-	   }
-	}		
+function ToggleNode()
+{
+   var tree = $find("<%= RadTreeView1.ClientID %>");
+   var node = tree.findNodeByText("Root Node 1");
+   if(node)
+   {
+       node.toggle();
+   }
+}		
 ````
 
 
@@ -150,16 +144,16 @@ The table below lists the most important function of the RadTreeNode object.
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
-	function HighlightNode()
-	{
-	   var tree = $find("<%= RadTreeView1.ClientID %>");
-	   var node = tree.findNodeByText("Root Node 1");
-	   if(node)
-	   {
-	       node.highlight();
-	       //node.unhighlight();
-	   }
-	}		
+function HighlightNode()
+{
+   var tree = $find("<%= RadTreeView1.ClientID %>");
+   var node = tree.findNodeByText("Root Node 1");
+   if(node)
+   {
+       node.highlight();
+       //node.unhighlight();
+   }
+}		
 ````
 
 
@@ -171,22 +165,22 @@ The table below lists the most important function of the RadTreeNode object.
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
-	function SelectNode()
-	{
-	   var tree= $find("<%= RadTreeView1.ClientID %>");
-	   var node = tree.findNodeByText("Root Node 1");
-	   if (node)
-	   {
-	       if (node.get_selected())
-	       {
-	           node.unselect();
-	       }
-	       else
-	       {
-	           node.select();
-	       }
-	   }  
-	}		
+function SelectNode()
+{
+   var tree= $find("<%= RadTreeView1.ClientID %>");
+   var node = tree.findNodeByText("Root Node 1");
+   if (node)
+   {
+       if (node.get_selected())
+       {
+           node.unselect();
+       }
+       else
+       {
+           node.select();
+       }
+   }  
+}		
 ````
 
 
@@ -198,22 +192,22 @@ The table below lists the most important function of the RadTreeNode object.
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
-	function SetSelected()
-	{
-	   var tree = $find("<%= RadTreeView1.ClientID %>");
-	   var node = tree.findNodeByText("Root Node 1");
-	   if(node)
-	   {
-	       if(node.get_selected())    
-	       {       
-	           node.set_selected(false);    
-	       }    
-	       else    
-	       {       
-	           node.set_selected(true);     
-	       }          
-	   }
-	}
+function SetSelected()
+{
+   var tree = $find("<%= RadTreeView1.ClientID %>");
+   var node = tree.findNodeByText("Root Node 1");
+   if(node)
+   {
+       if(node.get_selected())    
+       {       
+           node.set_selected(false);    
+       }    
+       else    
+       {       
+           node.set_selected(true);     
+       }          
+   }
+}
 ````
 
 
@@ -225,23 +219,22 @@ The table below lists the most important function of the RadTreeNode object.
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
-	     
-	function SetEnabled()
-	{
-	   var tree = $find("<%= RadTreeView1.ClientID %>");
-	   var node = tree.findNodeByText("Root Node 1");
-	   if(node)
-	   {
-	       if(node.get_enabled())    
-	       {        
-	           node.disable();     
-	       }    
-	       else    
-	       {          
-	           node.enable();
-	       }          
-	   }
-	}	
+function SetEnabled()
+{
+   var tree = $find("<%= RadTreeView1.ClientID %>");
+   var node = tree.findNodeByText("Root Node 1");
+   if(node)
+   {
+       if(node.get_enabled())    
+       {        
+           node.disable();     
+       }    
+       else    
+       {          
+           node.enable();
+       }          
+   }
+}	
 ````
 
 
@@ -253,24 +246,24 @@ The table below lists the most important function of the RadTreeNode object.
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
-	function SetEnabled()
-	{
-	   var tree = $find("<%= RadTreeView1.ClientID %>");
-	   var node = tree.findNodeByText("Root Node 1");
-	   if(node)
-	   {
-	       if(node.get_enabled())    
-	       {       
-	           node.set_enabled(false);
-	           //node.disable();     
-	       }    
-	       else    
-	       {       
-	           node.set_enabled(true);     
-	           //node.enable();
-	       }          
-	   }
-	}		
+function SetEnabled()
+{
+   var tree = $find("<%= RadTreeView1.ClientID %>");
+   var node = tree.findNodeByText("Root Node 1");
+   if(node)
+   {
+       if(node.get_enabled())    
+       {       
+           node.set_enabled(false);
+           //node.disable();     
+       }    
+       else    
+       {       
+           node.set_enabled(true);     
+           //node.enable();
+       }          
+   }
+}		
 ````
 
 
@@ -282,24 +275,24 @@ The table below lists the most important function of the RadTreeNode object.
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
-	function SetChecked()
-	{
-	   var tree = $find("<%= RadTreeView1.ClientID %>");
-	   var node = tree.findNodeByText("Root Node 1");
-	   if(node)
-	   {
-	       if(node.get_checked())    
-	       {       
-	           //node.set_checked(false);      
-	           node.uncheck();      
-	       }    
-	       else    
-	       {       
-	           //node.set_checked(true);
-	           node.check();
-	       }          
-	   }
-	}		
+function SetChecked()
+{
+   var tree = $find("<%= RadTreeView1.ClientID %>");
+   var node = tree.findNodeByText("Root Node 1");
+   if(node)
+   {
+       if(node.get_checked())    
+       {       
+           //node.set_checked(false);      
+           node.uncheck();      
+       }    
+       else    
+       {       
+           //node.set_checked(true);
+           node.check();
+       }          
+   }
+}		
 ````
 
 
@@ -311,25 +304,24 @@ The table below lists the most important function of the RadTreeNode object.
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
-	     
-	function SetChecked()
-	{
-	   var tree = $find("<%= RadTreeView1.ClientID %>");
-	   var node = tree.findNodeByText("Root Node 1");
-	   if(node)
-	   {
-	       if(node.get_checked())    
-	       {        
-	           node.set_checked(false);      
-	           //node.uncheck();      
-	       }    
-	       else    
-	       {       
-	           node.set_checked(true);
-	           //node.check();
-	       }          
-	   }
-	}		
+function SetChecked()
+{
+   var tree = $find("<%= RadTreeView1.ClientID %>");
+   var node = tree.findNodeByText("Root Node 1");
+   if(node)
+   {
+       if(node.get_checked())    
+       {        
+           node.set_checked(false);      
+           //node.uncheck();      
+       }    
+       else    
+       {       
+           node.set_checked(true);
+           //node.check();
+       }          
+   }
+}		
 ````
 
 
@@ -342,17 +334,16 @@ The table below lists the most important function of the RadTreeNode object.
 | **startEdit** |none|none|Allows the Node to be edited. This is equivalent to the user[clicking the Node twice or pressing F2]({%slug treeview/accessibility-and-internationalization/keyboard-support%}).|
 
 ````JavaScript
-	     
-	function Edit()
-	{
-	   var tree = $find("<%= RadTreeView1.ClientID %>");
-	   var node = tree.findNodeByText("Root Node 1");
-	   if(node)
-	   {
-	       node.set_text("Rename this node");
-	       node.startEdit();         
-	   }
-	}		
+function Edit()
+{
+   var tree = $find("<%= RadTreeView1.ClientID %>");
+   var node = tree.findNodeByText("Root Node 1");
+   if(node)
+   {
+       node.set_text("Rename this node");
+       node.startEdit();         
+   }
+}		
 ````
 
 
@@ -364,33 +355,33 @@ The table below lists the most important function of the RadTreeNode object.
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
-	var text;
-	function Edit()
-	{
-	   var tree = $find("<%= RadTreeView1.ClientID %>");
-	   var node = tree.findNodeByText("Root Node 1");
-	   if(node)
-	   {
-	       text = node.get_text();
-	       node.startEdit();         
-	   }
-	}
-	function EndEdit()
-	{
-	   var tree = $find("<%= RadTreeView1.ClientID %>");
-	   var node = tree.findNodeByText("Root Node 1");
-	   if(node)
-	   {
-	       if (node.get_text() != text)
-	       {
-	           node.endEdit();        
-	       }
-	       else
-	       {
-	           alert("no changes were made");
-	       }
-	   }
-	}		
+var text;
+function Edit()
+{
+   var tree = $find("<%= RadTreeView1.ClientID %>");
+   var node = tree.findNodeByText("Root Node 1");
+   if(node)
+   {
+       text = node.get_text();
+       node.startEdit();         
+   }
+}
+function EndEdit()
+{
+   var tree = $find("<%= RadTreeView1.ClientID %>");
+   var node = tree.findNodeByText("Root Node 1");
+   if(node)
+   {
+       if (node.get_text() != text)
+       {
+           node.endEdit();        
+       }
+       else
+       {
+           alert("no changes were made");
+       }
+   }
+}		
 ````
 
 
@@ -402,15 +393,15 @@ The table below lists the most important function of the RadTreeNode object.
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
-	function GetCheckBoxElement()
-	{
-	   var tree = $find("<%= RadTreeView1.ClientID %>");
-	   var node = tree.findNodeByText("Root Node 1");
-	   if(node)
-	   {
-	       alert(node.get_checkBoxElement().className);
-	   }
-	}		
+function GetCheckBoxElement()
+{
+   var tree = $find("<%= RadTreeView1.ClientID %>");
+   var node = tree.findNodeByText("Root Node 1");
+   if(node)
+   {
+       alert(node.get_checkBoxElement().className);
+   }
+}		
 ````
 
 
@@ -422,15 +413,15 @@ The table below lists the most important function of the RadTreeNode object.
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
-	 function ScrollNode()
-	{
-	   var tree = $find("<%= RadTreeView1.ClientID %>");
-	   var node = tree.findNodeByText("My Node");
-	   if(node)
-	   {
-	       node.scrollIntoView();
-	   }
-	}		
+function ScrollNode()
+{
+   var tree = $find("<%= RadTreeView1.ClientID %>");
+   var node = tree.findNodeByText("My Node");
+   if(node)
+   {
+       node.scrollIntoView();
+   }
+}		
 ````
 
 
@@ -442,15 +433,15 @@ The table below lists the most important function of the RadTreeNode object.
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
-	function GetImageElement()
-	{
-	   var tree = $find("<%= RadTreeView1.ClientID %>");       
-	   var node = tree.get_selectedNode();
-	   if(node)
-	   {
-	       alert(node.get_imageElement().src);
-	   }
-	}		
+function GetImageElement()
+{
+   var tree = $find("<%= RadTreeView1.ClientID %>");       
+   var node = tree.get_selectedNode();
+   if(node)
+   {
+       alert(node.get_imageElement().src);
+   }
+}		
 ````
 
 
@@ -462,16 +453,15 @@ The table below lists the most important function of the RadTreeNode object.
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
-	     
-	function GetTextElement()
-	{
-	   var tree = $find("<%= RadTreeView1.ClientID %>");       
-	   var node = tree.get_selectedNode();
-	   if(node)
-	   {
-	       alert(node.get_textElement().innerHTML);
-	   }
-	}		
+function GetTextElement()
+{
+   var tree = $find("<%= RadTreeView1.ClientID %>");       
+   var node = tree.get_selectedNode();
+   if(node)
+   {
+       alert(node.get_textElement().innerHTML);
+   }
+}		
 ````
 
 
@@ -483,16 +473,15 @@ The table below lists the most important function of the RadTreeNode object.
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
-	     
-	function GetText()
-	{
-	   var tree = $find("<%= RadTreeView1.ClientID %>");       
-	   var node = tree.get_selectedNode();
-	   if(node)
-	   {
-	       alert(node.get_text());
-	   }
-	}		
+function GetText()
+{
+   var tree = $find("<%= RadTreeView1.ClientID %>");       
+   var node = tree.get_selectedNode();
+   if(node)
+   {
+       alert(node.get_text());
+   }
+}		
 ````
 
 
@@ -506,16 +495,15 @@ The table below lists the most important function of the RadTreeNode object.
 | **set_value** |string|none|Sets the value of the Node.|
 
 ````JavaScript
-	     
-	function GetValue()
-	{
-	   var tree = $find("<%= RadTreeView1.ClientID %>");       
-	   var node = tree.get_selectedNode();
-	   if(node)
-	   {
-	       alert(node.get_value());
-	   }
-	}		
+function GetValue()
+{
+   var tree = $find("<%= RadTreeView1.ClientID %>");       
+   var node = tree.get_selectedNode();
+   if(node)
+   {
+       alert(node.get_value());
+   }
+}		
 ````
 
 
@@ -528,16 +516,15 @@ The table below lists the most important function of the RadTreeNode object.
 | **set_category** |string|none|Sets the category of the Node.|
 
 ````JavaScript
-	     
-	function GetCategory()
-	{
-	   var tree = $find("<%= RadTreeView1.ClientID %>");       
-	   var node = tree.get_selectedNode();
-	   if(node)
-	   {
-	       alert(node.get_category());
-	   }
-	}		
+function GetCategory()
+{
+   var tree = $find("<%= RadTreeView1.ClientID %>");       
+   var node = tree.get_selectedNode();
+   if(node)
+   {
+       alert(node.get_category());
+   }
+}		
 ````
 
 
@@ -550,23 +537,22 @@ The table below lists the most important function of the RadTreeNode object.
 | **get_enabled** |none|bool|Gets the enabled state of the Node. The Node is enabled if get_enabled() returns true.|
 
 ````JavaScript
-	     
-	function GetEnabled()
-	{
-	   var tree = $find("<%= RadTreeView1.ClientID %>");
-	   var node = tree.findNodeByText("Root Node 1");
-	   if(node)
-	   {
-	       if(node.get_enabled())    
-	       {       
-	           node.set_enabled(false);   
-	       }    
-	       else    
-	       {       
-	           node.set_enabled(true);      
-	       }          
-	   }
-	}		
+function GetEnabled()
+{
+   var tree = $find("<%= RadTreeView1.ClientID %>");
+   var node = tree.findNodeByText("Root Node 1");
+   if(node)
+   {
+       if(node.get_enabled())    
+       {       
+           node.set_enabled(false);   
+       }    
+       else    
+       {       
+           node.set_enabled(true);      
+       }          
+   }
+}		
 ````
 
 
@@ -578,23 +564,22 @@ The table below lists the most important function of the RadTreeNode object.
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
-	     
-	function GetExpanded()
-	{
-	   var tree = $find("<%= RadTreeView1.ClientID %>");
-	   var node = tree.findNodeByText("Root Node 1");
-	   if(node)
-	   {
-	       if(node.get_expanded())    
-	       {       
-	           node.set_expanded(false);    
-	       }    
-	       else    
-	       {       
-	           node.set_expanded(true);     
-	       }          
-	   }
-	}		
+function GetExpanded()
+{
+   var tree = $find("<%= RadTreeView1.ClientID %>");
+   var node = tree.findNodeByText("Root Node 1");
+   if(node)
+   {
+       if(node.get_expanded())    
+       {       
+           node.set_expanded(false);    
+       }    
+       else    
+       {       
+           node.set_expanded(true);     
+       }          
+   }
+}		
 ````
 
 
@@ -606,23 +591,22 @@ The table below lists the most important function of the RadTreeNode object.
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
-	     
-	function GetChecked()
-	{
-	   var tree = $find("<%= RadTreeView1.ClientID %>");
-	   var node = tree.findNodeByText("Root Node 1");
-	   if(node)
-	   {
-	       if(node.get_checked())    
-	       {       
-	           node.set_checked(false);          
-	       }    
-	       else    
-	       {       
-	           node.set_checked(true);
-	       }          
-	   }
-	}		
+function GetChecked()
+{
+   var tree = $find("<%= RadTreeView1.ClientID %>");
+   var node = tree.findNodeByText("Root Node 1");
+   if(node)
+   {
+       if(node.get_checked())    
+       {       
+           node.set_checked(false);          
+       }    
+       else    
+       {       
+           node.set_checked(true);
+       }          
+   }
+}		
 ````
 
 
@@ -634,23 +618,22 @@ The table below lists the most important function of the RadTreeNode object.
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
-	     
-	function GetSelected()
-	{
-	   var tree = $find("<%= RadTreeView1.ClientID %>");
-	   var node = tree.findNodeByText("Root Node 1");
-	   if(node)
-	   {
-	       if(node.get_selected())    
-	       {       
-	           node.set_selected(false);    
-	       }    
-	       else    
-	       {       
-	           node.set_selected(true);     
-	       }          
-	   }
-	}		
+function GetSelected()
+{
+   var tree = $find("<%= RadTreeView1.ClientID %>");
+   var node = tree.findNodeByText("Root Node 1");
+   if(node)
+   {
+       if(node.get_selected())    
+       {       
+           node.set_selected(false);    
+       }    
+       else    
+       {       
+           node.set_selected(true);     
+       }          
+   }
+}		
 ````
 
 
@@ -662,17 +645,16 @@ The table below lists the most important function of the RadTreeNode object.
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
-	     
-	function GetNodes()
-	{
-	   var tree = $find("<%= RadTreeView1.ClientID %>");
-	   var node0 = tree.get_nodes().getNode(0);
-	   for (var i=0; i < node0.get_nodes().get_count();i++)  
-	   {        
-	       var node = node0.get_nodes().getNode(i);        
-	       alert(node.get_text());  
-	   }
-	}		
+function GetNodes()
+{
+   var tree = $find("<%= RadTreeView1.ClientID %>");
+   var node0 = tree.get_nodes().getNode(0);
+   for (var i=0; i < node0.get_nodes().get_count();i++)  
+   {        
+       var node = node0.get_nodes().getNode(i);        
+       alert(node.get_text());  
+   }
+}		
 ````
 
 
@@ -684,17 +666,16 @@ The table below lists the most important function of the RadTreeNode object.
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
-	     
-	function GetNodes()
-	{
-	   var tree = $find("<%= RadTreeView1.ClientID %>");
-	   var allNodes = tree.get_nodes().getNode(0).get_allNodes();
-	   for (var i=0; i < allNodes.length; i++)  
-	   {        
-	       var node = allNodes[i];        
-	       alert(node.get_text());  
-	   }
-	}		
+function GetNodes()
+{
+   var tree = $find("<%= RadTreeView1.ClientID %>");
+   var allNodes = tree.get_nodes().getNode(0).get_allNodes();
+   for (var i=0; i < allNodes.length; i++)  
+   {        
+       var node = allNodes[i];        
+       alert(node.get_text());  
+   }
+}		
 ````
 
 
@@ -706,14 +687,13 @@ The table below lists the most important function of the RadTreeNode object.
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
-	     
-	function GetParent()
-	{
-	   var tree= $find("<%= RadTreeView1.ClientID %>");
-	   var node = tree.findNodeByAttribute("MyCustomAttribute", "Some Value");
-	   node.get_parent().expand();
-	   node.select();
-	}		
+function GetParent()
+{
+   var tree= $find("<%= RadTreeView1.ClientID %>");
+   var node = tree.findNodeByAttribute("MyCustomAttribute", "Some Value");
+   node.get_parent().expand();
+   node.select();
+}		
 ````
 
 
@@ -725,25 +705,25 @@ The table below lists the most important function of the RadTreeNode object.
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
-	function GetTreeView(node) {
-	    if (node) {
-	        var tree = node.get_treeView();
-	        var nodeText = node.get_text();
-	
-	        tree.trackChanges();
-	        // remove duplicates of node
-	        var foundNode = tree.findNodeByText(nodeText);
-	        while (foundNode) {
-	            tree.get_nodes().remove(foundNode)
-	            foundNode = tree.findNodeByText(nodeText);
-	        }
-	
-	        // add selected node back in
-	        tree.get_nodes().add(node);
-	
-	        tree.commitChanges();
-	    }
-	}		
+function GetTreeView(node) {
+    if (node) {
+        var tree = node.get_treeView();
+        var nodeText = node.get_text();
+
+        tree.trackChanges();
+        // remove duplicates of node
+        var foundNode = tree.findNodeByText(nodeText);
+        while (foundNode) {
+            tree.get_nodes().remove(foundNode)
+            foundNode = tree.findNodeByText(nodeText);
+        }
+
+        // add selected node back in
+        tree.get_nodes().add(node);
+
+        tree.commitChanges();
+    }
+}		
 ````
 
 
@@ -755,13 +735,13 @@ The table below lists the most important function of the RadTreeNode object.
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
-	function GetNodeElement() {
-	    var tree = $find("<%= RadTreeView1.ClientID %>");
-	    var node = tree.get_selectedNode();
-	    if (node) {
-	        alert(node.get_element().innerHTML);
-	    }
-	}
+function GetNodeElement() {
+    var tree = $find("<%= RadTreeView1.ClientID %>");
+    var node = tree.get_selectedNode();
+    if (node) {
+        alert(node.get_element().innerHTML);
+    }
+}
 ````
 
 
@@ -773,15 +753,15 @@ The table below lists the most important function of the RadTreeNode object.
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
-	function GetContextMenu() {
-	    var tree = $find("<%= RadTreeView1.ClientID %>");
-	    var node = tree.get_selectedNode();
-	    if (node) {
-	        var menu = node.get_contextMenu();
-	        if (menu)
-	            menu.hide();
-	    }
-	}			
+function GetContextMenu() {
+    var tree = $find("<%= RadTreeView1.ClientID %>");
+    var node = tree.get_selectedNode();
+    if (node) {
+        var menu = node.get_contextMenu();
+        if (menu)
+            menu.hide();
+    }
+}			
 ````
 
 
@@ -794,13 +774,13 @@ The table below lists the most important function of the RadTreeNode object.
 | **set_navigateUrl** |String|none|Sets the URL of the Node. Works only if the NavigateUrl property has been set at the server-side beforehand or if the Node is not added at the client-side.|
 
 ````JavaScript
-	function setNavigateUrlToTheSelectedNode() {
-	    var tree = $find("<%= RadTreeView1.ClientID %>");
-	    var node = tree.get_selectedNode();
-	    if (node) {
-	        node.set_navigateUrl("http://www.example.com");
-	    }
-	}			
+function setNavigateUrlToTheSelectedNode() {
+    var tree = $find("<%= RadTreeView1.ClientID %>");
+    var node = tree.get_selectedNode();
+    if (node) {
+        node.set_navigateUrl("http://www.example.com");
+    }
+}			
 ````
 
 
@@ -812,16 +792,16 @@ The table below lists the most important function of the RadTreeNode object.
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
-	function getCustomAttributes() {
-	    var tree = $find("<%= RadTreeView1.ClientID %>");
-	    var node = tree.get_selectedNode();
-	    if (node) {
-	        var attributes = node.get_attributes();
-	        attributes.setAttribute("AttributeName", AttributeValue);
-	        var attribute1 = attributes.getAttribute("AttributeName");
-	
-	    }
-	}		
+function getCustomAttributes() {
+    var tree = $find("<%= RadTreeView1.ClientID %>");
+    var node = tree.get_selectedNode();
+    if (node) {
+        var attributes = node.get_attributes();
+        attributes.setAttribute("AttributeName", AttributeValue);
+        var attribute1 = attributes.getAttribute("AttributeName");
+
+    }
+}		
 ````
 
 
@@ -860,10 +840,7 @@ The table below lists the most important function of the RadTreeNode object.
 | **showLoadingStatus** |statusText, position|none|Shows the loading message at the specified position. The available positions are: Telerik.Web.UI.TreeViewLoadingStatusPosition.BelowNodeText Telerik.Web.UI.TreeViewLoadingStatusPosition.AfterNodeText Telerik.Web.UI.TreeViewLoadingStatusPosition.BeforeNodeText|
 
 ````JavaScript
-	     
-	
-	node.showLoadingStatus("Loading…", Telerik.Web.UI.TreeViewLoadingStatusPosition.BelowNodeText);
-				
+node.showLoadingStatus("Loading…", Telerik.Web.UI.TreeViewLoadingStatusPosition.BelowNodeText);
 ````
 
 
@@ -881,10 +858,7 @@ The table below lists the most important function of the RadTreeNode object.
 | **set_visible** |Boolean|none|Sets the visibility of the item.|
 
 ````JavaScript
-	     
-	
-	node.set_expandMode(Telerik.Web.UI.TreeNodeExpandMode.WebService);
-				
+node.set_expandMode(Telerik.Web.UI.TreeNodeExpandMode.WebService);
 ````
 
 
@@ -900,6 +874,8 @@ The table below lists the most important function of the RadTreeNode object.
 | **get_allowDrop** |none|Boolean|True, if dropping is allowed, false otherwise.|
 | **set_allowDrop** |Boolean|none|Enables/Disables dragging.|
 | **get_index** |none|int|Returns the index of the node in the nodes collection of its parent.|
+
+
 
 # See Also
 

@@ -32,7 +32,7 @@ The following list shows the most common areas and elements of the Area chart th
 
 * The name that is shown in the legend is set via the **Name** property of the **AreaSeries**.
 
-* The position of each item on the y-axis is controlled by its **Y** property of the **CategorySeriesItem**and each **CategorySeriesItem** is placed with regard to one **AxisItem** on the x-axis.
+* The position of each item on the y-axis is controlled by its **Y** property of the **CategorySeriesItem** and each **CategorySeriesItem** is placed with regard to one **AxisItem** on the x-axis.
 
 * Each item can have a label and a tooltip that follow the common pattern defined in the **DataFormatString** property of the **LabelsAppearance** and **TooltipsAppearance** sections of the series.The format string uses the **Y** of the item. You can create more complex content via the [ClientTemplate]({%slug htmlchart/changes-and-backwards-compatibility/important-changes-regarding-data-binding-datetime-parsable-string-fields%}) of the tooltips and labels.
 
@@ -46,7 +46,7 @@ The following list shows the most common areas and elements of the Area chart th
 
 * If some values are missing (i.e., they are null/Nothing) from the series data, you can have the chart work around this by setting the **MissingValues** property of the series to the desired behavior: interpolate, missing or gap.
 
-* The title, background colors and legend are controlled via the inner properties of the **RadHtmlChart** control and are common for all charts.You can find more information in the [Server-side API]({%slug htmlchart/server-side-programming/basic-configuration%})and in the [Element structure]({%slug htmlchart/radhtmlchart-structure%}) articles.
+* The title, background colors and legend are controlled via the inner properties of the **RadHtmlChart** control and are common for all charts.You can find more information in the [Server-side API]({%slug htmlchart/server-side-programming/basic-configuration%}) and in the [Element structure]({%slug htmlchart/radhtmlchart-structure%}) articles.
 
 >tip Not all properties are necessary. The **RadHtmlChart** will match the axes to the values if you do not declare explicit values, steps and tick properties (although the Items for axes that need them are necessary).
 

@@ -14,32 +14,26 @@ position: 9
 
 ## Problem
 
-When you load a lot of nodes via WebService you receive an
-error "**Maximum length exceeded**".
+When you load a lot of nodes via **WebService** you receive an error "**Maximum length exceeded**".
 
 
 
 ## Solution
 
-Extend the **maxJsonLength** property, by adding the following
-section to your web.config file, at the configuration level, after the
-system.web node:
+Extend the **maxJsonLength** property, by adding the following section to your web.config file, at the configuration level, after the system.web node:
 
 
 
 ````XML
-	     
-	
-	        
-	        <system.web.extensions>
-	            <scripting>
-	                <webServices>
-	
-	        <jsonSerialization maxJsonLength="5000000" />
-	                </webServices>
-	            </scripting>
-	        </system.web.extensions>
-	
+<system.web.extensions>
+    <scripting>
+        <webServices>
+
+<jsonSerialization maxJsonLength="5000000" />
+        </webServices>
+    </scripting>
+</system.web.extensions>
+
 				
 ````
 

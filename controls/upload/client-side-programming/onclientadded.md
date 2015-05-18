@@ -30,7 +30,7 @@ The event handler receives two parameters:
 
 1. An eventArgs parameter containing the following method:
 
-	* **get_row**returns the row that was just added.
+	* **get_row** returns the row that was just added.
 
 	* **get_rowIndex** returns the index of the row
 

@@ -31,7 +31,9 @@ There are a number of ways you can customize the look & feel of your tooltips:
 
  * [Skins]({%slug tooltip/appearance-and-styling/skins%})
 
- * [Tutorial: Creating a Custom Skin]({%slug tooltip/appearance-and-styling/tutorial:-creating-a-custom-skin%})[](09C9E617-F53F-4A6F-8335-065A6A4D9775)
+ * [Tutorial: Creating a Custom Lightweight Skin]({%slug tooltip/appearance-and-styling/tutorial-creating-custom-lightweight-skin%})
+
+ * [Tutorial: Creating a Custom Classic Skin]({%slug tooltip/appearance-and-styling/tutorial-creating-custom-classic-skin%})
 
  * [CSS Classes]({%slug tooltip/appearance-and-styling/css-classes%})
 

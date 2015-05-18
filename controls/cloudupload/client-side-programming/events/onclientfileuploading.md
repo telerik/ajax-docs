@@ -28,7 +28,7 @@ The event handler receives two parameters:
 
 * **set_cancel** cancel the upload process
 
-````ASPNET
+````ASP.NET
 <telerik:RadCloudUpload runat="server" ID="RadCloudUpload1" OnClientFileUploading="onClientFileUploading" ...>
 </telerik:RadCloudUpload>
 ````

@@ -22,7 +22,7 @@ A Load On Demand TreeView for which:
 
 * The **NodeClick** server-side event is handled.
 
-* A Node is expanded when clicked (in either the **OnClientNodeClicking** or **OnClientNodeClicked**event handlers).
+* A Node is expanded when clicked (in either the **OnClientNodeClicking** or **OnClientNodeClicked** event handlers).
 
 **Problem:**
 
@@ -37,31 +37,29 @@ Due to timing issues in case **ExpandMode** for the clicked Node is:
 Ensure that the **NodeClick** event fires after the Node finishes loading its Nodes:
 
 1. Expand the Node in the **OnClientNodeClicking** event handler. If the Node's **ExpandMode** is **ServerSideCallBack** or **WebService** and the Node does not have children, cancel the event. Below is an example:
+	````JavaScript
+function onClientNodeClicking(sender, eventArgs){
 
-````JavaScript
-	    function onClientNodeClicking(sender, eventArgs){
-	    
-	        var node = eventArgs.get_node();
-	
-	        if ((node.get_expandMode() > 1) &&
-	         (node.get_nodes().get_count() == 0))
-	        {
-	         eventArgs.set_cancel(true);
-	        }
-	
-	        node.expand();
-	    }
+    var node = eventArgs.get_node();
+
+    if ((node.get_expandMode() > 1) &&
+     (node.get_nodes().get_count() == 0))
+    {
+     eventArgs.set_cancel(true);
+    }
+
+    node.expand();
+}
 ````
 
 
 
-1. Handle the **OnClientNodePopulated**event and select the expanded Node in the event handler, like this:
+1. Handle the **OnClientNodePopulated** event and select the expanded Node in the event handler, like this:
+	````JavaScript
+function onClientNodePopulated(sender, eventArgs){ 
 
-````JavaScript
-	    function onClientNodePopulated(sender, eventArgs){ 
-	    
-	        eventArgs.get_node().select();
-	    }
+    eventArgs.get_node().select();
+}
 ````
 
 

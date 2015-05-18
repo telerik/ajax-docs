@@ -2,15 +2,13 @@
 title: Security
 page_title: Security | RadAsyncUpload for ASP.NET AJAX Documentation
 description: Security
-slug: asyncupload/security
+slug: asyncupload-security
 tags: security
 published: True
 position: 14
 ---
 
 # Security
-
-
 
 ## 
 

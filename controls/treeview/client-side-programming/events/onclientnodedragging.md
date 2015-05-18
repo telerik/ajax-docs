@@ -14,11 +14,11 @@ position: 14
 
 ## 
 
-The **OnClientNodeDragging** client-side event is called each time the user moves the mouse while dragging a node. Note: You can use this event to change the mouse cursor so that user knows where they can drag a node, i.e. only over a grid, editor or another treeview, etc.
+The **OnClientNodeDragging** client-side event is called each time the user moves the mouse while dragging a node. Note: You can use this event to change the mouse cursor so that user knows where they can drag a node, i.e. only over a grid, editor or another **TreeView**, etc.
 
 The event handler receives parameters:
 
-1. The treeview instance that fired the event.
+1. The **TreeView** instance that fired the event.
 
 1. Event arguments with functions:
 
@@ -28,29 +28,26 @@ The event handler receives parameters:
 
 * **get_domEvent()** retrieves the browser event.
 
-* **set_cancel()**- call this function to specify wether the event should be canceled (true) or not (false).
+* **set_cancel()**- call this function to specify whether the event should be canceled (true) or not (false).
 
 * **get_sourceNodes()** returns an array of all the nodes being dragged (Useful when **MultipleSelect** is *True*).
 
 The example below demonstrates getting the current x and y coordinates of the mouse while the node is being dragged.
 
 ````ASPNET
-	
-	    <script type="text/javascript" language="javascript">
-	    
-	        function ClientNodeDragging(sender, eventArgs) {
-	            var domEvent = eventArgs.get_domEvent();
-	            var node = eventArgs.get_node();
-	
-	            node.set_text("Dragging X:" + domEvent.offsetX + " Y:" + domEvent.offsetY);
-	        }
-	    </script>
-	
-	    <telerik:RadTreeView ID="RadTreeView1" 
-	                         runat="server" 
-	                         EnableDragAndDrop="True" 
-	                         OnClientNodeDragging="ClientNodeDragging">
-	    </telerik:RadTreeView>
+<telerik:RadTreeView ID="RadTreeView1" 
+                     runat="server" 
+                     EnableDragAndDrop="True" 
+                     OnClientNodeDragging="ClientNodeDragging">
+</telerik:RadTreeView>
+````
+````JavaScript
+function ClientNodeDragging(sender, eventArgs) {
+	var domEvent = eventArgs.get_domEvent();
+	var node = eventArgs.get_node();
+
+	node.set_text("Dragging X:" + domEvent.offsetX + " Y:" + domEvent.offsetY);
+}
 ````
 
 

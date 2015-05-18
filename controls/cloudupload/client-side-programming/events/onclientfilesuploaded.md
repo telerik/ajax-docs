@@ -20,7 +20,7 @@ The event handler receives one parameter
 
 1. The instance of the **RadCloudUpload** control firing the event.
 
-````ASPNET
+````ASP.NET
 <telerik:RadCloudUpload runat="server" ID="RadCloudUpload1" OnClientFilesUploaded="onClientFilesUploaded" MultipleFileSelection="Automatic" ...></telerik:RadCloudUpload>
 ````
 

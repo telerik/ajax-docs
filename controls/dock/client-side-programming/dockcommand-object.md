@@ -13,7 +13,7 @@ position: 3
 
 
 
-The following table lists the most important methods of the client-side **DockCommand**object:
+The following table lists the most important methods of the client-side **DockCommand** object:
 
 
 |  **Name**  |  **Parameters**  |  **Return Type**  |  **Description**  |

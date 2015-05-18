@@ -126,7 +126,7 @@ private void RadGrid1_ItemCommand(object source, Telerik.Web.UI.GridCommandEvent
 
         if (changedRows.Length != 1)
         {
-            this.Label1.Text += "Unbale to locate the Employee for updating.";
+            this.Label1.Text += "Unable to locate the Employee for updating.";
             e.Canceled = true;
             return;
         }

@@ -22,7 +22,7 @@ Binding the control by using the **DataSourceViewProvider** is achievable by fol
 
 The following example illustrates a possible realization of the above mentioned.
 
-````ASPNET
+````ASP.NET
 <telerik:RadGantt ID="RadGantt1" runat="server" DataSourceID="SqlDataSource1" DependenciesDataSourceID="SqlDataSource2">
     <DataBindings>
         <TasksDataBindings IdField="ID" ParentIdField="ParentID" StartField="Start" EndField="End" TitleField="Title" PercentCompleteField="PercentComplete" />

@@ -16,7 +16,7 @@ This article illustrates how to migrate the configuration of Y and X axes from *
 
 ### Configuring RadChart Y-axis
 
-You can configure the y-axis in **RadChart** through the **YAxis** element of the **PlotArea**.If you want the **MinValue**, **MaxValue** and **Step** properties of the axisto take effect, you must explicitly set the **AutoScale** property to **false**. You can also fine-tune the minor and major grid lines of the axis through the **MinorGridLines** and **MajorGridLines** objects exposed by the **PlotArea.YAxis.Appearance** tag. **Example 1** illustrates how to configure the y-axis in **RadChart**.
+You can configure the y-axis in **RadChart** through the **YAxis** element of the **PlotArea**. If you want the **MinValue**, **MaxValue** and **Step** properties of the axisto take effect, you must explicitly set the **AutoScale** property to **false**. You can also fine-tune the minor and major grid lines of the axis through the **MinorGridLines** and **MajorGridLines** objects exposed by the **PlotArea.YAxis.Appearance** tag. **Example 1** illustrates how to configure the y-axis in **RadChart**.
 
 >caption Example 1: Configure **MinValue**, **MaxValue** and **Step** properties as well as the **MinorGridLines** and **MajorGridLines** objects of the y-axis in **RadChart**.
 
@@ -72,7 +72,7 @@ You can configure the y-axis in **RadHtmlChart** through the **YAxis** element o
 
 ### Configuring RadChart X-axis
 
-You can configure the x-axis in **RadChart** through the **XAxis** element of the **PlotArea**.If you want to set labels for the x-axis items, you must specify the **TextBlock.Text** property of each **ChartAxisItem** object from the **XAxis.Items** collection.If you want the x-axis settings to take effect, you must explicitly set the **AutoScale** property to **false**. **Example 3** illustrates how to configure the x-axis in **RadChart**.
+You can configure the x-axis in **RadChart** through the **XAxis** element of the **PlotArea**. If you want to set labels for the x-axis items, you must specify the **TextBlock.Text** property of each **ChartAxisItem** object from the **XAxis.Items** collection. If you want the x-axis settings to take effect, you must explicitly set the **AutoScale** property to **false**. **Example 3** illustrates how to configure the x-axis in **RadChart**.
 
 >caption Example 3: Setting labels to the x-axis items in **RadChart**.
 
@@ -107,7 +107,7 @@ You can configure the x-axis in **RadChart** through the **XAxis** element of th
 
 ### Configuring RadHtmlChart X-axis
 
-You can configure the x-axis in **RadHtmlChart** through the **XAxis** element of the **PlotArea**. If you want to set labels for the x-axis items, you must specify the **LabelText** property of each**AxisItem** object from the **XAxis.Items** collection.No additional configuration is required for the x-axis labels to take effect. **Example 4** illustrates how to configure the x-axis in **RadHtmlChart**.
+You can configure the x-axis in **RadHtmlChart** through the **XAxis** element of the **PlotArea**. If you want to set labels for the x-axis items, you must specify the **LabelText** property of each **AxisItem** object from the **XAxis.Items** collection. No additional configuration is required for the x-axis labels to take effect. **Example 4** illustrates how to configure the x-axis in **RadHtmlChart**.
 
 >caption Example 4: Setting labels to the x-axis items in **RadHtmlChart**.
 

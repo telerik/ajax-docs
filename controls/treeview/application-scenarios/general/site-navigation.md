@@ -14,39 +14,34 @@ position: 0
 
 ## 
 
-One of the most common scenarios, in which the treeview can be used, is navigating through pages using tha treeview control. However, due to the page redirect performed by clicking on a node, the treeview state is lost and the current node loses its selected state.
+One of the most common scenarios, in which the **TreeView** can be used, is navigating through pages using the **TreeView** control. However, due to the page redirect performed by clicking on a node, the **TreeView** state is lost and the current node loses its selected state.
 
 This example shows how to overcome this limitation using the **RadTreeView.FindNodeByUrl()** method in conjunction with **RadTreeNode.ExpandParentNodes()**.
 
 Please review the code for more details.
 
 ````ASPNET
-	    <form id="form1" runat="server">
-	    <asp:ScriptManager ID="ScriptManager1" runat="server">
-	    </asp:ScriptManager>
-	    <telerik:RadTreeView ID="RadTreeView1" runat="server">
-	        <Nodes>
-	            <telerik:RadTreeNode runat="server" Text="Root RadTreeNode1">
-	                <Nodes>
-	                    <telerik:RadTreeNode runat="server" Text="Child 1" NavigateUrl="Default.aspx">
-	                    </telerik:RadTreeNode>
-	                    <telerik:RadTreeNode runat="server" Text="Child 2" NavigateUrl="Default2.aspx">
-	                    </telerik:RadTreeNode>
-	                </Nodes>
-	            </telerik:RadTreeNode>
-	        </Nodes>
-	        <CollapseAnimation Type="OutQuint" Duration="100"></CollapseAnimation>
-	        <ExpandAnimation Duration="100"></ExpandAnimation>
-	    </telerik:RadTreeView>
-	    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-	    </asp:ContentPlaceHolder>
-	    </form>
+<form id="form1" runat="server">
+<asp:ScriptManager ID="ScriptManager1" runat="server">
+</asp:ScriptManager>
+<telerik:RadTreeView ID="RadTreeView1" runat="server">
+    <Nodes>
+        <telerik:RadTreeNode runat="server" Text="Root RadTreeNode1">
+            <Nodes>
+                <telerik:RadTreeNode runat="server" Text="Child 1" NavigateUrl="Default.aspx">
+                </telerik:RadTreeNode>
+                <telerik:RadTreeNode runat="server" Text="Child 2" NavigateUrl="Default2.aspx">
+                </telerik:RadTreeNode>
+            </Nodes>
+        </telerik:RadTreeNode>
+    </Nodes>
+    <CollapseAnimation Type="OutQuint" Duration="100"></CollapseAnimation>
+    <ExpandAnimation Duration="100"></ExpandAnimation>
+</telerik:RadTreeView>
+<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+</asp:ContentPlaceHolder>
+</form>
 ````
-
-
-
-
-
 ````C#
 	using System;
 	using System.Data;

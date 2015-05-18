@@ -26,7 +26,7 @@ The event handler receives two parameters:
 
 * **get_fileName** returns the name of the file selected
 
-````ASPNET
+````ASP.NET
 <telerik:RadCloudUpload runat="server" ID="RadCloudUpload1" OnClientFileSelected="onClientFilesSelected" ...>
 </telerik:RadCloudUpload>
 ````

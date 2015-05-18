@@ -32,7 +32,7 @@ There are two ways to configure the rendering mode of the controls:
 
 * The property **RenderMode** of RadAsyncUpload can be used to set the render mode of a particular instance of the control:
 
-````ASPNET
+````ASP.NET
 <telerik:RadAsyncUpload runat="server" ID="RadAsyncUpload1" RenderMode="Lightweight">
 </telerik:RadAsyncUpload>
 ````

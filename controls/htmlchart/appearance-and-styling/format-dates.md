@@ -14,9 +14,9 @@ The way the dates are shown on the axis labels, series labels and series tooltip
 
 * **Series Labels** and **Series Tooltips** - {0} and/or {1} placeholders are used to denote the corresponding SeriesItem's **X** and/or **Y** value in the **DateFormatString** followed by ":" and the desired date specifier(e.g., `DataFormatString="{1} units are ordered on {0:d}"`).
 
-* **Axis Labels** - Only the desired date specifier must be set in the**DateFormatString** property,as placeholders are not applicable (e.g., **DataFormatString="y"**).
+* **Axis Labels** - Only the desired date specifier must be set in the **DateFormatString** property,as placeholders are not applicable (e.g., **DataFormatString="y"**).
 
->note Date formats can be used inside the **Client Templates** . You can find more information	in the[Formatting Numbers]({%slug htmlchart/appearance-and-styling/format-numbers%})article, in the section, *Formatting Labels and Tooltips by Using their Client Templates*.
+>note Date formats can be used inside the **Client Templates** . You can find more information	in the [Formatting Numbers]({%slug htmlchart/appearance-and-styling/format-numbers%}) article, in the section, *Formatting Labels and Tooltips by Using their Client Templates*.
 
 **Table 1** lists standard date format specifiers with descriptions. **Figure 1** shows formatting the d, m|M and D pattern while **Example 1** shows the markup to create the figure.
 

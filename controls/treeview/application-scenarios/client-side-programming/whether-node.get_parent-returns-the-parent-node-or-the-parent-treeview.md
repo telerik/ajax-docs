@@ -14,19 +14,17 @@ position: 18
 
 ## 
 
-Use the following code to check whether a node or a treeview instance is returned by the **get_parent()** method:
+Use the following code to check whether a node or a TreeView instance is returned by the **get_parent()** method:
 
 
 
 ````JavaScript
 	     
 	
-	// node is root node and get_parent() returns the parent treeview
+	// node is root node and get_parent() returns the parent TreeView
 	if (node.get_parent() == node.get_treeView())    
 				
 ````
-
-
 
 
 
@@ -35,10 +33,8 @@ or test the node level for zero:
 
 
 ````JavaScript
-	     
-	//node is a root node  
-	if (node.get_level() == 0) 
-				
+//node is a root node  
+if (node.get_level() == 0) 	
 ````
 
 

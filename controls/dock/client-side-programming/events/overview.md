@@ -97,12 +97,12 @@ function removeCommandHandler()
 
 
 
-Note that on the client-side, the names of events are slightly different than on the server side. The following table shows the correspondance between client-side and server-side names:
+Note that on the client-side, the names of events are slightly different than on the server side. The following table shows the correspondence between client-side and server-side names:
 
 
 
 
-| Server-Side Name | Client-SideName | Methods to add and Remove |
+| Server-Side Name | Client-Side Name | Methods to add and Remove |
 | ------ | ------ | ------ |
 |OnClientCommand|command|add_command, remove_command|
 |OnClientDockPositionChanging|dockPositionChanging|add_dockPositionChanging, remove_dockPositionChanging|

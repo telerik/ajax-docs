@@ -36,7 +36,7 @@ You can customize the Bar chart in several ways:
 
 * Setting the **Stacked** property of the first series stacks them all next to each other.Series that will be stacked in separate clusters	must have the same cluster name set in their [GroupName]({%slug htmlchart/functionality/stacked-series%}) property.
 
-* The title, background colors and legend are controlled via the inner properties of the **RadHtmlChart** control and are common for all charts.You can find more information in the [Server-side Programming Basic Configuration]({%slug htmlchart/server-side-programming/basic-configuration%})and in the [Element structure]({%slug htmlchart/radhtmlchart-structure%}) articles.
+* The title, background colors and legend are controlled via the inner properties of the **RadHtmlChart** control and are common for all charts. You can find more information in the [Server-side Programming Basic Configuration]({%slug htmlchart/server-side-programming/basic-configuration%}) and in the [Element structure]({%slug htmlchart/radhtmlchart-structure%}) articles.
 
 **Example 1** shows how to set properties and generate **Figure 1**.
 

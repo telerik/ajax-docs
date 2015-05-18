@@ -16,22 +16,18 @@ position: 12
 
 You can use the following JavaScript code to achieve the desired effect:
 
-````ASPNET
-	
-	    <script type="text/javascript">
-	        function resizeTree() {
-	            var treeDiv = document.getElementById("RadTreeView1");
-	            var intCompensate = 6;
-	            var documentObj = document.documentElement;
-	            if ((window.opera) || (document.all && (!(document.compatMode && document.compatMode == "CSS1Compat")))) 
-	            {
-	                documentObj = document.body;
-	            }
-	
-	            treeDiv.style.height = (parseInt(documentObj.clientHeight) - intCompensate) + "px";
-	        }
-	    </script>
-	
+````JavaScript
+function resizeTree() {
+    var treeDiv = document.getElementById("RadTreeView1");
+    var intCompensate = 6;
+    var documentObj = document.documentElement;
+    if ((window.opera) || (document.all && (!(document.compatMode && document.compatMode == "CSS1Compat")))) 
+    {
+        documentObj = document.body;
+    }
+
+    treeDiv.style.height = (parseInt(documentObj.clientHeight) - intCompensate) + "px";
+}	
 ````
 
 
@@ -39,12 +35,12 @@ You can use the following JavaScript code to achieve the desired effect:
 Add the following attributes to the **<body>** tag of the page:
 
 ````ASPNET
-	    <body ms_positioning="GridLayout" onload="resizeTree()" onresize="resizeTree()" topmargin="0"
-	        leftmargin="0" bottommargin="0">
+<body ms_positioning="GridLayout" onload="resizeTree()" onresize="resizeTree()" topmargin="0"
+    leftmargin="0" bottommargin="0">
 ````
 
 
 
->note Please take into account that you should use the correct client-side ID of the TreeView control. In this case it is RadTreeView1. The best way to get the client-side ID of the treeview is to get it from the HTML output of the page where the TreeView resides.
+>note Please take into account that you should use the correct client-side ID of the **TreeView** control. In this case it is RadTreeView1. The best way to get the client-side ID of the **TreeView** is to get it from the HTML output of the page where the **TreeView** resides.
 >
 

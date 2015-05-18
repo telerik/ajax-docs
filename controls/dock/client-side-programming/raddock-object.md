@@ -29,9 +29,7 @@ The following table lists the most important methods of the client-side **RadDoc
 | **set_autoPostBack** |boolean|none|Sets the value indicating whether the control initiates a postback when the user moves it with the mouse.|
 | **get_uniqueID** |none|string|Returns the **UniqueID** of the control.|
 | **get_dockZoneID** |none|string|Returns the **ID** of the docking zone in which the control is docked. If the control is floating, **get_dockZoneID** returns null.|
-| **get_index** |none|int|Returns the (0-offset) docking position of the control within its parent docking zone. Tip: to change the docking position of the control, use the **dock** method of the parent docking zone.
-
-|
+| **get_index** |none|int|Returns the (0-offset) docking position of the control within its parent docking zone. Tip: to change the docking position of the control, use the **dock** method of the parent docking zone.|
 | **get_parent** |none|Object|If the control is docked, returns the object for the parent docking zone.|
 | **get_title** |none|string|Returns the title string of the control.|
 | **set_title** |string|none|Sets the title string of the control.|
@@ -56,8 +54,8 @@ The following table lists the most important methods of the client-side **RadDoc
 | **get_enableDrag** |none|boolean|Indicates whether the user can drag the control to a new location.|
 | **set_enableDrag** |boolean|none|Sets a value enabling or disabling the ability of the user to drag the control to a new location.|
 | **get_element** |none|HTML element|Returns the DOM element for this control.|
-| **add_<Event>** e.g. **add_command** |Event handler|none|Adds a client-side event handler for a specific event.|
-| **remove_<Event>** e.g. **remove_command** |Event handler|none|Removes a client-side event handler for a specific event.|
+| **add_`<Event>`** e.g. **add_command** |Event handler|none|Adds a client-side event handler for a specific event.|
+| **remove_`<Event>`** e.g. **remove_command** |Event handler|none|Removes a client-side event handler for a specific event.|
 | **doPostBack** |none|none|Causes a server-side **DockPositionChanged** event if the current position of the control differs from the position it had the last time the page was loaded.|
 | **conditionalPostback** |none|none|calls **doPostBack** if the **AutoPostBack** property is **true** .|
 | **get_resizable** |none|boolean|Gets the bool value indicating whether the control can be resized.|

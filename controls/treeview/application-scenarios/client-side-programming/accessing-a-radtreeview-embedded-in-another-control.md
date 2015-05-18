@@ -14,25 +14,18 @@ position: 5
 
 ## 
 
-To find a RadTreeView client-side instance when embedded in another control, use server side functionality to locate the RadTreeView ClientID. In the following example the RadTreeView is embedded in a RadMenu item template.
+To find a **RadTreeView** client-side instance when embedded in another control, use server side functionality to locate the **RadTreeView ClientID**. In the following example the **RadTreeView** is embedded in a **RadMenu** item template.
 
 ````ASPNET
-	    <telerik:RadMenu ID="RadMenu1" runat="server">
-	        <ItemTemplate>
-	            <telerik:RadTreeView ID="RadTreeView1" runat="server">
-	            </telerik:RadTreeView>
-	        </ItemTemplate>
-	    </telerik:RadMenu>
+<telerik:RadMenu ID="RadMenu1" runat="server">
+    <ItemTemplate>
+        <telerik:RadTreeView ID="RadTreeView1" runat="server">
+        </telerik:RadTreeView>
+    </ItemTemplate>
+</telerik:RadMenu>
 ````
-
-
-
 ````JavaScript
-	
-	    <script type="text/javascript">
-	        var tree = $find('<%=RadMenu1.Items[0].FindControl("RadTreeView1").ClientID %>');  
-	    </script>
-	
+var tree = $find('<%=RadMenu1.Items[0].FindControl("RadTreeView1").ClientID %>');  
 ````
 
 

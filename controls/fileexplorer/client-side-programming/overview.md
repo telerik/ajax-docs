@@ -35,8 +35,8 @@ position: 0
 | **add_copy(eventHandler)** |Set the name of the JavaScript function called when the user tries to copy a file or folder.|
 | **remove_copy(eventHandler)** |Removes the function declared in the add_copy() method.|
 | **createNewDirectory(path, newName)** |Creates a new directory. The *path* parameter should be a virtual path. In case that the second parameter is not specified a radprompt dialog appears and asks for the new name.|
-| **deleteItem(item, showConfirmDialog)** |Deletes an item (folder or file). The parameter is of type **Telerik.Web.UI.FileExplorerItemType.File** or **Telerik.Web.UI.FileExplorerItemType.Directory** The second parameter is optional and indicates whether to show the confirmation dialog or delete the file immediately. The default value is * **true** * |
-| **deleteItem(path, showConfirmDialog)** |Deletes an item. The parameter is the virtual path to the item; it starts with the / **RootProjectFolder** /PathToTheItem.The second parameter is optional and indicates whether to show the confirmation dialog or delete the file immediately. The default value is * **true** * |
+| **deleteItem(item, showConfirmDialog)** |Deletes an item (folder or file). The parameter is of type **Telerik.Web.UI.FileExplorerItemType.File** or **Telerik.Web.UI.FileExplorerItemType.Directory** The second parameter is optional and indicates whether to show the confirmation dialog or delete the file immediately. The default value is ***true*** |
+| **deleteItem(path, showConfirmDialog)** |Deletes an item. The parameter is the virtual path to the item; it starts with the / **RootProjectFolder** /PathToTheItem.The second parameter is optional and indicates whether to show the confirmation dialog or delete the file immediately. The default value is ***true*** |
 | **get_currentDirectory()** |Returns a string value that represents the path to the currently selected directory. The returned path is a virtual path, such as /RootProjectFolder/SelectedDir|
 | **set_currentDirectory(value,addToStack)** |Change the currently selected directory. The first parameter is the new path, relevant to the root path of the project : /RootProjectFolder/NewPath. The second parameter accepts a Boolean value that determines whether the current change of the directory to be stored in the Previous – Next stack|
 | **get_currentPermissions()** |Returns the permissions of the currently selected folder in the TreeView|
@@ -60,7 +60,7 @@ position: 0
 | **get_selectedItems()** |Returns an array of the selected item on the Grid items. The items are of type **Telerik.Web.UI.FileExplorerItem** |
 | **open(item)** |Opens the item in a new RadWindow if it is a file. Else, opens the folder in the RadGrid.The parameter is optional and if not specified the current selected item will be used.|
 | **clearFolderCache()** |Clears the cached data on the browser|
-| **deleteSelectedItems(showConfirmDialog)** |Performs delete operation for all of the currently selected items on the Grid. ** *showConfirmDialog -* ** this parameter is optional and indicates whether to show the confirmation dialog or delete the files immediately. The default value is * **true** * |
+| **deleteSelectedItems(showConfirmDialog)** |Performs delete operation for all of the currently selected items on the Grid. ***showConfirmDialog*** - this parameter is optional and indicates whether to show the confirmation dialog or delete the files immediately. The default value is ***true*** |
 | **get_toolbar()** |Returns a reference to the **RadToolBar** object.|
 | **get_tree()** |Returns a reference to the **RadTreeView** object.|
 | **loadFolder(path,addToStack)** |Loads a new folder and sets the focus on it. The second parameter accepts a Boolean value that determines whether the current change of the directory to be stored in the Previous – Next stack|

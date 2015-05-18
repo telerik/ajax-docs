@@ -14,7 +14,7 @@ position: 0
 
 ## 
 
-__RadTreeView__ supports a number of client-side events that let you customize behavior:
+**RadTreeView** supports a number of client-side events that let you customize behavior:
 
 * [OnClientContextMenuItemClicked]({%slug treeview/client-side-programming/events/onclientcontextmenuitemclicked%}): occurs when the user clicks a context menu item for a node.
 
@@ -26,7 +26,7 @@ __RadTreeView__ supports a number of client-side events that let you customize b
 
 * [OnClientDoubleClick]({%slug treeview/client-side-programming/events/onclientdoubleclick%}): occurs when a node is double-clicked with the mouse.
 
-* [OnClientKeyPressing]({%slug treeview/client-side-programming/events/onclientkeypressing%}): occurs when any key is pressed while the treeview is having the focus.
+* [OnClientKeyPressing]({%slug treeview/client-side-programming/events/onclientkeypressing%}): occurs when any key is pressed while the **TreeView** is having the focus.
 
 * [OnClientMouseOut]({%slug treeview/client-side-programming/events/onclientmouseout%}): occurs when the mouse leaves the area of a node.
 
@@ -46,7 +46,7 @@ __RadTreeView__ supports a number of client-side events that let you customize b
 
 * [OnClientNodeDataBound]({%slug treeview/client-side-programming/events/onclientnodedatabound%}): occurs when a Node is being created during Web Service Load on Demand.
 
-* [OnClientTemplateDataBound]({%slug treeview/client-side-programming/events/onclienttemplatedatabound%}): occurs after the client template is being bound against the dataitem.
+* [OnClientTemplateDataBound]({%slug treeview/client-side-programming/events/onclienttemplatedatabound%}): occurs after the client template is being bound against the DataItem.
 
 * [OnClientNodeDragging]({%slug treeview/client-side-programming/events/onclientnodedragging%}): occurs while a node is being dragged.
 
@@ -60,7 +60,7 @@ __RadTreeView__ supports a number of client-side events that let you customize b
 
 * [OnClientNodeEdited]({%slug treeview/client-side-programming/events/onclientnodeedited%}): occurs when a node has been edited by the end user.
 
-* [OnClientNodeEditing]({%slug treeview/client-side-programming/events/onclientnodeediting%}): occurs after the user has finished editing but before the OnClientNodeEdited event.
+* [OnClientNodeEditing]({%slug treeview/client-side-programming/events/onclientnodeediting%}): occurs after the user has finished editing but before the **OnClientNodeEdited** event.
 
 * [OnClientNodeExpanded]({%slug treeview/client-side-programming/events/onclientnodeexpanded%}): occurs after a parent node has expanded to display its child nodes.
 
@@ -72,47 +72,36 @@ __RadTreeView__ supports a number of client-side events that let you customize b
 
 * [OnClientNodePopulationFailed]({%slug treeview/client-side-programming/events/onclientnodepopulationfailed%}): occurs when an error occurs on the server in a load-on-demand operation.
 
-* [OnClientLoad]({%slug treeview/client-side-programming/events/onclientload%}): occurs after the RadTreeView client-side object has been fully initialized.
+* [OnClientLoad]({%slug treeview/client-side-programming/events/onclientload%}): occurs after the **RadTreeView** client-side object has been fully initialized.
 
 * [OnClientNodeAnimationEnd]({%slug treeview/client-side-programming/events/onclientnodeanimationend%}): occurs when the node is expanded / collapsed and after the animation has finished
 
-To use these events, write a javascript function that can be called when an event occurs. Then assign the name of the javascript function as the value of the corresponding __RadTreeView__event property.
+To use these events, write a javascript function that can be called when an event occurs. Then assign the name of the JavaScript function as the value of the corresponding **RadTreeView** event property.
 
 ````ASPNET
-	     
-	
-	<script type="text/javascript" language="javascript">
-	    function ClientNodeClicked(sender, eventArgs) 
-	    {
-	        var node = eventArgs.get_node();
-	        alert("You clicked " + node.get_text());
-	
-	    }
-	    
-	</script>
-	
-	<telerik:RadTreeView 
-	            ID="RadTreeView1" 
-	            runat="server"  
-	            OnClientNodeClicked="ClientNodeClicked">
-	            </telerik:RadTreeView
-				
+<telerik:RadTreeView 
+    ID="RadTreeView1" 
+    runat="server"  
+    OnClientNodeClicked="ClientNodeClicked">
+</telerik:RadTreeView>
 ````
-
+````JavaScript
+function ClientNodeClicked(sender, eventArgs) 
+{
+	var node = eventArgs.get_node();
+	alert("You clicked " + node.get_text());
+}
+````
 
 
 You can also assign event handlers in client-side code:
 
 ````JavaScript
-	
-	<script language="javascript" type="text/javascript">
-	function AssignEventHandler()
-	{
-	      var tree = $find("<%= RadTreeView1.ClientID %>");
-	      tree.add_nodeClicked(ClientNodeClicked);
-	}   
-	</script> 		
-	
+function AssignEventHandler()
+{
+	var tree = $find("<%= RadTreeView1.ClientID %>");
+	tree.add_nodeClicked(ClientNodeClicked);
+}	
 ````
 
 
@@ -120,13 +109,11 @@ You can also assign event handlers in client-side code:
 Another advantage of the client-side API is that you can detach an event handler dynamically:
 
 ````JavaScript
-	
-	function removeOnClicked2()
-	{
-	     var tree = $find("<%= RadTreeView1.ClientID %>");
-	     tree.remove_nodeClicked(ClientNodeClicked);
-	}		
-	
+function removeOnClicked2()
+{
+	var tree = $find("<%= RadTreeView1.ClientID %>");
+	tree.remove_nodeClicked(ClientNodeClicked);
+}	
 ````
 
 

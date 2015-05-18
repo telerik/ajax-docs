@@ -14,7 +14,7 @@ position: 0
 
 ## 
 
-The table below lists the most important functions of the client-side RadTreeView object. Many significant functions for performing common tasks such as adding, inserting and removing Nodes are actually performed using the [RadTreeNodeCollection object]({%slug treeview/client-side-programming/objects/radtreenodecollection%}).
+The table below lists the most important functions of the client-side **RadTreeView** object. Many significant functions for performing common tasks such as adding, inserting and removing Nodes are actually performed using the [RadTreeNodeCollection object]({%slug treeview/client-side-programming/objects/radtreenodecollection%}).
 
 
 
@@ -24,21 +24,21 @@ The table below lists the most important functions of the client-side RadTreeVie
 | Name | Parameters | Return Type | Description |
 | ------ | ------ | ------ | ------ |
 | **trackChanges** |none|none|Starts tracking changes made to the TreeView that will be preserved on the server.|
-| **commitChanges** |none|none|Writes the changes to the TreeView that were made since a previous call to trackChanges, so that they are preserved on the server as well.|
+| **commitChanges** |none|none|Writes the changes to the **TreeView** that were made since a previous call to **trackChanges**, so that they are preserved on the server as well.|
 
->tip Client side changes are available on the server side after postback. You can use the[ClientChanges]({%slug treeview/client-side-programming/accessing-client-changes-on-the-server-side%})property to access them.
+>tip Client side changes are available on the server side after postback. You can use the [ClientChanges]({%slug treeview/client-side-programming/accessing-client-changes-on-the-server-side%})property to access them.
 >
 
 
 ````JavaScript
-	        function AddNode() {
-	            var tree = $find("<%= RadTreeView1.ClientID %>");
-	            tree.trackChanges();
-	            var node = new Telerik.Web.UI.RadTreeNode();
-	            node.set_text("New Node");
-	            tree.get_nodes().add(node);
-	            tree.commitChanges();
-	        }		
+function AddNode() {
+    var tree = $find("<%= RadTreeView1.ClientID %>");
+    tree.trackChanges();
+    var node = new Telerik.Web.UI.RadTreeNode();
+    node.set_text("New Node");
+    tree.get_nodes().add(node);
+    tree.commitChanges();
+}		
 ````
 
 
@@ -50,11 +50,11 @@ The table below lists the most important functions of the client-side RadTreeVie
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
-	        function FindNode() {
-	            var tree = $find("<%= RadTreeView1.ClientID %>");
-	            var node = tree.findNodeByText("Child RadTreeNode 1");
-	            node.select();
-	        }		
+function FindNode() {
+    var tree = $find("<%= RadTreeView1.ClientID %>");
+    var node = tree.findNodeByText("Child RadTreeNode 1");
+    node.select();
+}		
 ````
 
 
@@ -66,12 +66,12 @@ The table below lists the most important functions of the client-side RadTreeVie
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
-	        function FindNode() {
-	            var tree = $find("<%= RadTreeView1.ClientID %>");
-	            var node = tree.findNodeByValue("3");
-	            node.get_parent().expand();
-	            node.select();
-	        }		
+function FindNode() {
+    var tree = $find("<%= RadTreeView1.ClientID %>");
+    var node = tree.findNodeByValue("3");
+    node.get_parent().expand();
+    node.select();
+}		
 ````
 
 
@@ -83,12 +83,12 @@ The table below lists the most important functions of the client-side RadTreeVie
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
-	        function FindNode() {
-	            var tree = $find("<%= RadTreeView1.ClientID %>");
-	            var node = tree.findNodeByAttribute("MyCustomAttribute", "Some Value");
-	            node.get_parent().expand();
-	            node.select();
-	        }			
+function FindNode() {
+    var tree = $find("<%= RadTreeView1.ClientID %>");
+    var node = tree.findNodeByAttribute("MyCustomAttribute", "Some Value");
+    node.get_parent().expand();
+    node.select();
+}			
 ````
 
 
@@ -102,13 +102,13 @@ The table below lists the most important functions of the client-side RadTreeVie
 | **get_selectedNodes** |none|Array|Gets an Array of all selected Nodes (useful when MultipleSelect property is on).|
 
 ````JavaScript
-	        function GetSelectedNodes() {
-	            var tree = $find("<%= RadTreeView1.ClientID %>");
-	            var nodes = tree.get_selectedNodes();
-	            for (var i = 0; i < nodes.length; i++) {
-	                alert(nodes[i].get_text());
-	            }
-	        }		
+function GetSelectedNodes() {
+    var tree = $find("<%= RadTreeView1.ClientID %>");
+    var nodes = tree.get_selectedNodes();
+    for (var i = 0; i < nodes.length; i++) {
+        alert(nodes[i].get_text());
+    }
+}		
 ````
 
 
@@ -120,10 +120,10 @@ The table below lists the most important functions of the client-side RadTreeVie
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
-	        function UnSelectAllNodes() {
-	            var tree = $find("<%= RadTreeView1.ClientID %>");
-	            tree.unselectAllNodes();
-	        }			
+function UnSelectAllNodes() {
+    var tree = $find("<%= RadTreeView1.ClientID %>");
+    tree.unselectAllNodes();
+}			
 ````
 
 
@@ -135,13 +135,13 @@ The table below lists the most important functions of the client-side RadTreeVie
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
-	        function GetNodes() {
-	            var tree = $find("<%= RadTreeView1.ClientID %>");
-	            for (var i = 0; i < tree.get_nodes().get_count(); i++) {
-	                var node = tree.get_nodes().getNode(i);
-	                alert(node.get_text());
-	            }
-	        }		
+function GetNodes() {
+    var tree = $find("<%= RadTreeView1.ClientID %>");
+    for (var i = 0; i < tree.get_nodes().get_count(); i++) {
+        var node = tree.get_nodes().getNode(i);
+        alert(node.get_text());
+    }
+}		
 ````
 
 
@@ -153,13 +153,13 @@ The table below lists the most important functions of the client-side RadTreeVie
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
-	        function GetNodes() {
-	            var tree = $find("<%= RadTreeView1.ClientID %>");
-	            var nodes = tree.get_allNodes();
-	            for (var i = 0; i < nodes.length; i++) {
-	                alert(nodes[i].get_text());
-	            }
-	        }		
+function GetNodes() {
+    var tree = $find("<%= RadTreeView1.ClientID %>");
+    var nodes = tree.get_allNodes();
+    for (var i = 0; i < nodes.length; i++) {
+        alert(nodes[i].get_text());
+    }
+}		
 ````
 
 
@@ -171,12 +171,12 @@ The table below lists the most important functions of the client-side RadTreeVie
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
-	        function GetSelectedNode() {
-	            var tree = $find("<%= RadTreeView1.ClientID %>");
-	            if (tree.get_selectedNode() != null) {
-	                alert(tree.get_selectedNode().get_text());
-	            }
-	        }		
+function GetSelectedNode() {
+    var tree = $find("<%= RadTreeView1.ClientID %>");
+    if (tree.get_selectedNode() != null) {
+        alert(tree.get_selectedNode().get_text());
+    }
+}		
 ````
 
 
@@ -188,10 +188,10 @@ The table below lists the most important functions of the client-side RadTreeVie
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
-	        function GetID() {
-	            var tree = $find("<%= RadTreeView1.ClientID %>");
-	            alert(tree.get_id());
-	        }		
+function GetID() {
+    var tree = $find("<%= RadTreeView1.ClientID %>");
+    alert(tree.get_id());
+}		
 ````
 
 
@@ -203,10 +203,10 @@ The table below lists the most important functions of the client-side RadTreeVie
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
-	        function GetElement() {
-	            var tree = $find("<%= RadTreeView1.ClientID %>");
-	            alert(tree.get_element().innerHTML);
-	        }		
+function GetElement() {
+    var tree = $find("<%= RadTreeView1.ClientID %>");
+    alert(tree.get_element().innerHTML);
+}		
 ````
 
 
@@ -219,15 +219,15 @@ The table below lists the most important functions of the client-side RadTreeVie
 | **set_enabled** |Boolean|none|Enables/Disables the TreeView.|
 
 ````JavaScript
-	        function disableTreeView() {
-	            var tree = $find("<%= RadTreeView1.ClientID %>");
-	            if (tree.get_enabled()) {
-	                tree.set_enabled(false);
-	            }
-	            else {
-	                tree.set_enabled(true);
-	            }
-	        }		
+function disableTreeView() {
+    var tree = $find("<%= RadTreeView1.ClientID %>");
+    if (tree.get_enabled()) {
+        tree.set_enabled(false);
+    }
+    else {
+        tree.set_enabled(true);
+    }
+}		
 ````
 
 
@@ -240,10 +240,10 @@ The table below lists the most important functions of the client-side RadTreeVie
 | **set_loadingMessage** |String|none|Sets a loading message to the TreeView.|
 
 ````JavaScript
-	        function pageLoad() {
-	            var tree = $find("<%= RadTreeView1.ClientID %>");
-	            tree.set_loadingMessage("loading");
-	        }	
+function pageLoad() {
+    var tree = $find("<%= RadTreeView1.ClientID %>");
+    tree.set_loadingMessage("loading");
+}	
 ````
 
 
@@ -276,30 +276,30 @@ The table below lists the most important functions of the client-side RadTreeVie
 | **bulkUpdateWith** |function|none|Bulks update operations over the current TreeView instance, executed in the passed function. bulkUpdateWith is one of the many performance optimizations made on RadTreeView and basically allows the users to perform multiple changes in the TreeView instance (add/remove/expand/collapse/select/unselect/check/uncheck nodes and so on) as a single update over the inner state representation.|
 
 ````JavaScript
-	function updateTreeView(tree)
-	{
-	    tree.bulkUpdateWith(func);
-	}
-	
-	function func()
-	{
-	    var tree = $find("RadTreeView1");
-	    var nodes = tree.get_nodes();
-	    var nodesCount = nodes.get_count();
-	    
-	    for (var i = 0; i < nodesCount; i++)
-	    {
-	        var node = nodes.getNode(i);
-	        // add a childNode
-	        var childNode = new Telerik.Web.UI.RadTreeNode();
-	        childNode.set_text("childNode");
-	        node.get_nodes().add(childNode);
-	        // perform other changes on the node
-	        node.set_expanded(true);
-	        node.set_checked(true);
-	        node.set_selected(true);
-	    }
-	}
+function updateTreeView(tree)
+{
+    tree.bulkUpdateWith(func);
+}
+
+function func()
+{
+    var tree = $find("RadTreeView1");
+    var nodes = tree.get_nodes();
+    var nodesCount = nodes.get_count();
+    
+    for (var i = 0; i < nodesCount; i++)
+    {
+        var node = nodes.getNode(i);
+        // add a childNode
+        var childNode = new Telerik.Web.UI.RadTreeNode();
+        childNode.set_text("childNode");
+        node.get_nodes().add(childNode);
+        // perform other changes on the node
+        node.set_expanded(true);
+        node.set_checked(true);
+        node.set_selected(true);
+    }
+}
 ````
 
 

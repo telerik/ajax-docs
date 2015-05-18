@@ -18,7 +18,7 @@ The **OnClientNodeEdited** client-side event is called after editing is complete
 
 The event handler receives parameters:
 
-1. The treeview instance that fired the event.
+1. The **TreeView** instance that fired the event.
 
 1. Event arguments with functions:
 
@@ -28,26 +28,18 @@ The event handler receives parameters:
 
 The example below displays the new node text just after the user has finished editing it.
 
-````JavaScript
-	
-	    <script type="text/javascript" language="javascript">
-	    
-	        function ClientNodeEdited(sender, eventArgs) {
-	            var node = eventArgs.get_node();
-	            alert("The new node text is " + node.get_text());
-	        }
-	       
-	    </script>
-````
-
-
-
 ````ASPNET
-	    <telerik:RadTreeView ID="RadTreeView1" 
-	                         runat="server" 
-	                         AllowNodeEditing="true" 
-	                         OnClientNodeEdited="ClientNodeEdited">
-	    </telerik:RadTreeView>
+<telerik:RadTreeView ID="RadTreeView1" 
+    runat="server" 
+    AllowNodeEditing="true" 
+    OnClientNodeEdited="ClientNodeEdited">
+</telerik:RadTreeView>
+````
+````JavaScript
+function ClientNodeEdited(sender, eventArgs) {
+    var node = eventArgs.get_node();
+    alert("The new node text is " + node.get_text());
+}
 ````
 
 

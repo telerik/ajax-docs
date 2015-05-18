@@ -14,30 +14,26 @@ position: 8
 
 ## 
 
-When the user clicks a Node, the **NodeClick** event fires. Use the **RadTreeNodeEventArgs. Node** property to get or set the clicked-on Node properties.
+When the user clicks a Node, the **NodeClick** event fires. Use the **RadTreeNodeEventArgs.Node** property to get or set the clicked-on Node properties.
 
 
 
 ````C#
-	     
-		protected void RadTreeView1_NodeClick(object sender, Telerik.Web.UI.RadTreeNodeEventArgs e)
-	    {    
-	        e.Node.Text = "NodeClick fired for this node";
-	    }
-				
+protected void RadTreeView1_NodeClick(object sender, Telerik.Web.UI.RadTreeNodeEventArgs e)
+{    
+    e.Node.Text = "NodeClick fired for this node";
+}
 ````
 ````VB.NET
-	     
-	    Protected Sub RadTreeView1_NodeClick(ByVal sender As Object, ByVal e As Telerik.Web.UI.RadTreeNodeEventArgs)
-	        e.Node.Text = "NodeClick fired for this node"
-	    End Sub
-	
+Protected Sub RadTreeView1_NodeClick(ByVal sender As Object, ByVal e As Telerik.Web.UI.RadTreeNodeEventArgs)
+    e.Node.Text = "NodeClick fired for this node"
+End Sub
 ````
 
 
 # See Also
 
- * [Overview]({%slug treeview/server-side-programming/events/overview%})
+ * [Server-side events Overview]({%slug treeview/server-side-programming/events/overview%})
 
  * [NodeCheck]({%slug treeview/server-side-programming/events/nodecheck%})
 

@@ -26,31 +26,27 @@ To overcome the problem you need to subscribe to the [OnClientNodeExpanding]({%s
 
 
 ````JavaScript
-	     
-	<script type="text/javascript">
-	var flag;
-	function OnClientNodeExpandingHandler(sender, e)
-	{
-	   var node = e.get_node();
-	   if (node.get_expandMode() > 0)
-	   {
-	       if (flag == 1)
-	       {
-	           e.set_cancel(true);
-	       }    
-	       else
-	       {
-	           flag = 1;
-	       }
-	   }
-	}
-	function OnClientNodePopulatedHandler(sender, e)
-	{
-	   flag = 0;
-	}
-	</script> 		
+var flag;
+function OnClientNodeExpandingHandler(sender, e)
+{
+   var node = e.get_node();
+   if (node.get_expandMode() > 0)
+   {
+       if (flag == 1)
+       {
+           e.set_cancel(true);
+       }    
+       else
+       {
+           flag = 1;
+       }
+   }
+}
+function OnClientNodePopulatedHandler(sender, e)
+{
+   flag = 0;
+}		
 ````
-
 
 
 

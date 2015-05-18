@@ -48,11 +48,11 @@ You can customize the Box Plot Chart:
 
 * You can customize the **Outliers**' appearance:
 
-	* The shape and background color is controlled via **MarkersType** and **BackgroundColor**properties exposed by the **OutliersAppearance** and **ExtremesAppearance** elements for light and extreme outliers, respectively.
+	* The shape and background color is controlled via **MarkersType** and **BackgroundColor** properties exposed by the **OutliersAppearance** and **ExtremesAppearance** elements for light and extreme outliers, respectively.
 
 	* The width and color of the border is controlled via **BorderAppearance.Color** and **BorderAppearance.Width** properties exposed by **OutliersAppearance** and **ExtremesAppearance** elements for light and extreme outliers, respectively.
 
-* Each item can have a tooltip with an already predefined pattern by design. You can modify the tooltip pattern through the**DataFormatString** property of the **TooltipsAppearance** sections of the series. The format string uses the **Lower**, **Q1**, **Median**, **Q3**, **Upper**, **Mean** and the corresponding **x-axis item's value**. *(Series Labels in BoxPlotSeries are not supported.)*
+* Each item can have a tooltip with an already predefined pattern by design. You can modify the tooltip pattern through the **DataFormatString** property of the **TooltipsAppearance** sections of the series. The format string uses the **Lower**, **Q1**, **Median**, **Q3**, **Upper**, **Mean** and the corresponding **x-axis item's value**. *(Series Labels in BoxPlotSeries are not supported.)*
 
 * The axes are also fully customizable - they automatically adjust their scale to accommodate the data that comes in and for finer tuning, there are numerous properties that can change each aspect:
 

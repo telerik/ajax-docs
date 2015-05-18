@@ -18,7 +18,7 @@ position: 5
 
 ## 
 
-**RadUpload**(and any other control that uses **`<input type=file>`** HTML elements for file selection and upload) automatically uploads all selected files when the user performs a postback. To prevent the automatic upload that occurs on a postback (for example in response to the click of another button on the Web page), you must clear the selected files before the postback occurs.
+**RadUpload** (and any other control that uses **`<input type=file>`** HTML elements for file selection and upload) automatically uploads all selected files when the user performs a postback. To prevent the automatic upload that occurs on a postback (for example in response to the click of another button on the Web page), you must clear the selected files before the postback occurs.
 
 The following example demonstrates this approach, using the **OnClientSubmitting** event handler.
 

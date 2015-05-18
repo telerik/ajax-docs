@@ -12,70 +12,69 @@ position: 6
 
 
 
-## 
 
-The **ExpandAnimation** and **CollapseAnimation** tags of RadTreeView are used to customize the way groups are expanded and collapsed. For each expand or collapse animation, you can specify **Type** and **Duration**:
+The **ExpandAnimation** and **CollapseAnimation** tags of **RadTreeView** are used to customize the way groups are expanded and collapsed. For each expand or collapse animation, you can specify **Type** and **Duration**:
 
 
 
 * The **Type** is chosen from a list of predefined animation effects:
 
-* Linear
+    * Linear
 
-* InQuad
+    * InQuad
 
-* OutQuad
+    * OutQuad
 
-* InOutQuad
+    * InOutQuad
 
-* InCubic
+    * InCubic
 
-* OutCubic
+    * OutCubic
 
-* InOutCubic
+    * InOutCubic
 
-* InQuart
+    * InQuart
 
-* OutQuart
+    * OutQuart
 
-* InOutQuart
+    * InOutQuart
 
-* InQuint
+    * InQuint
 
-* OutQuint
+    * OutQuint
 
-* InOutQuint
+    * InOutQuint
 
-* InSine
+    * InSine
 
-* OutSine
+    * OutSine
 
-* InOutSine
+    * InOutSine
 
-* InExpo
+    * InExpo
 
-* OutExpo
+    * OutExpo
 
-* InOutExpo
+    * InOutExpo
 
-* InBack
+    * InBack
 
-* OutBack
+    * OutBack
 
-* InOutBack
+    * InOutBack
 
-* InBounce
+    * InBounce
 
-* OutBounce
+    * OutBounce
 
-* InOutBounce
+    * InOutBounce
 
-* InElastic
+    * InElastic
 
-* OutElastic
+    * OutElastic
 
-* InOutElastic
+    * InOutElastic
 
-* The **Duration** is set in milliseconds and describes the amount of time to animate the expanding or collapsing of the RadTreeView.
+* The **Duration** is set in milliseconds and describes the amount of time to animate the expanding or collapsing of the **RadTreeView**.
 
 To disable expand animation effects, set the **Type** to **AnimationType.None**.

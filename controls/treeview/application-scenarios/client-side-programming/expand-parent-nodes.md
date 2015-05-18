@@ -16,30 +16,26 @@ position: 15
 
 To expand the parent Nodes of a certain Node, you could use the following approach:
 
-````ASPNET
-	
-	    <script language="javascript" type="text/javascript">        
-	        function pageLoad()
-	        {
-	             var tree = $find("<%= RadTreeView1.ClientID %>");
-	             var node = tree.findNodeByText("The Text Of The Needed Node");
-	             // or
-	             //var node = tree.findNodeByValue("The Value Of The Needed Node");  
-	             
-	             node = node.get_parent();
-	         
-	             while(node != null)
-	            {
-	              if (node.expand)
-	              {
-	               node.expand();
-	              }
-	          
-	             node = node.get_parent();
-	            }
-	        }
-	    </script>
-	
+````JavaScript
+function pageLoad()
+{
+     var tree = $find("<%= RadTreeView1.ClientID %>");
+     var node = tree.findNodeByText("The Text Of The Needed Node");
+     // or
+     //var node = tree.findNodeByValue("The Value Of The Needed Node");  
+     
+     node = node.get_parent();
+ 
+     while(node != null)
+    {
+      if (node.expand)
+      {
+       node.expand();
+      }
+  
+     node = node.get_parent();
+    }
+}
 ````
 
 

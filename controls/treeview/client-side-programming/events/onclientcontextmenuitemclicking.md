@@ -14,11 +14,11 @@ position: 27
 
 ## 
 
-The **OnClientContextMenuItemClicking** client-side event occurs when the user clicks a menu item, but before the **OnClientContextMenuItemClicked**event fires. The event is called just prior to postback or url redirection and can be canceled.
+The **OnClientContextMenuItemClicking** client-side event occurs when the user clicks a menu item, but before the **OnClientContextMenuItemClicked** event fires. The event is called just prior to postback or url redirection and can be canceled.
 
 The event handler receives parameters:
 
-1. The treeview instance that fired the event.
+1. The **TreeView** instance that fired the event.
 
 1. Event arguments with functions:
 
@@ -26,29 +26,26 @@ The event handler receives parameters:
 
 * **get_node()** retrieves a reference to the clicked on node.
 
-* **set_cancel()** call this function to specify wether the event should be canceled (true) or not (false).
+* **set_cancel()** call this function to specify whether the event should be canceled (true) or not (false).
 
 * **get_domEvent()** retrieves the DOM event object of the item click.
 
 The example below shows how to cancel the event if the text of the menu item is "Search"
 
-````ASPNET
-	
-	    <script type="text/javascript" language="javascript">
-	        function ClientContextMenuItemClicking(sender, eventArgs) {
-	            var node = eventArgs.get_node();
-	            var item = eventArgs.get_menuItem();
-	
-	            if ((item.get_text() == "Network Search") && (node.get_text() == "Printers")) {
-	                eventArgs.set_cancel(true);
-	            }
-	        }
-	    </script>
-	
-	    <telerik:RadTreeView ID="RadTreeView1" runat="server" OnClientContextMenuItemClicking="ClientContextMenuItemClicking">
-	    </telerik:RadTreeView>
+````ASPNET	
+<telerik:RadTreeView ID="RadTreeView1" runat="server" OnClientContextMenuItemClicking="ClientContextMenuItemClicking">
+</telerik:RadTreeView>
 ````
+````JavaScript
+function ClientContextMenuItemClicking(sender, eventArgs) {
+	var node = eventArgs.get_node();
+	var item = eventArgs.get_menuItem();
 
+	if ((item.get_text() == "Network Search") && (node.get_text() == "Printers")) {
+		eventArgs.set_cancel(true);
+	}
+}
+````
 
 
 # See Also

@@ -100,7 +100,7 @@ You can get the same JavaScript errors with a docked dock in the following scena
 
 1. Start dragging the dock while the request is still being processed. This is indicated by the *Processing...* text.
 
-1. When the server returns a response, you will receive an error**Two components with the same id 'RadDock1' can't be added to the application**
+1. When the server returns a response, you will receive an error **Two components with the same id 'RadDock1' can't be added to the application**
 
 1. Drop the dock in the dock zone and click the button again. This, as well as subsequent updates of the update panel, will result in **Invalid JSON primitive** error.
 

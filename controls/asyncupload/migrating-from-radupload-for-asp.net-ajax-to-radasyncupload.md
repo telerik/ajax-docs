@@ -19,13 +19,17 @@ To migrate a web application from **RadUpload for ASP.NET AJAX** to the new **Ra
 1. Make sure that you have registered the handler's URL in the web.config. This is done by using the Smart Tag of the **RadAsyncUpload**.
 
 1. Replace the old declaration:
-````ASPNET
-<telerik:RadUpload …></telerik:RadUpload> 
-````
-with the new one:
-````ASPNET
-<telerik:RadAsyncUpload …></telerik:RadAsyncUpload> 
-````
+
+	**ASP.NET**
+	
+		<telerik:RadUpload …></telerik:RadUpload> 
+	
+	with the new one:
+
+	**ASP.NET**
+	
+		<telerik:RadAsyncUpload …></telerik:RadAsyncUpload> 
+
 
 1. You can leave all old properties intact.
 

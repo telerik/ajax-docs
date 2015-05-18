@@ -20,7 +20,7 @@ The **RadGantt TaskDelete** is fired when a task's collection is about to be del
 
 ## Example
 
-````ASPNET
+````ASP.NET
 <telerik:RadGantt ID="RadGantt1" runat="server" OnTaskDelete="RadGantt1_TaskDelete"></telerik:RadGantt>
 ````
 

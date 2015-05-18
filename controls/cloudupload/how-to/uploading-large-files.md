@@ -44,17 +44,16 @@ To make modifications to your application for large file uploads, you need to:
 
 Modify the configuration file to allow uploads of files of up to 100MB and upload periods of up to 1 hour:
 
-````XML
-<configuration>
-	...
-	<system.web>
-
-	  <httpRuntime maxRequestLength="102400" executionTimeout= "3600" />
-	  ...
-	</system.web>
-</configuration>
+````XML	
+	<configuration>
+		...
+		<system.web>
+	
+		  <httpRuntime maxRequestLength="102400" executionTimeout= "3600" />
+		  ...
+		</system.web>
+	</configuration>
 ````
-
 
 
 >caution The configuration file sections and attributes are **case sensitive** . This means that the sections and attributes below will be incorrect if written using a case other than shown.
@@ -65,17 +64,17 @@ Modify the configuration file to allow uploads of files of up to 100MB and uploa
 
 1. Add these lines in the **Web.config** file:
 
-	````XML
-	<system.webserver>
-		...
-		<security>
-			<requestFiltering>
-				<requestLimits maxAllowedContentLength="1024000000" />
-			</requestFiltering>
-		</security>
-	</system.webserver>
-	````
-
+	**XML**
+	
+		<system.webserver>
+			...
+			<security>
+				<requestFiltering>
+					<requestLimits maxAllowedContentLength="1024000000" />
+				</requestFiltering>
+			</security>
+		</system.webserver>
+		
 
 
 2. Open the file **C:\Windows\System32\inetsrv\config\applicationHost.config** and find the line: `<section name="requestFiltering" overrideModeDefault="Deny" />`

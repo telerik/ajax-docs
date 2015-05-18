@@ -33,7 +33,7 @@ This tutorial will walk you through creating a Web page that uses **RadCloudUplo
 
 	![cloud-upload-getting-started 3](images/cloud-upload-getting-started3.png)
 
-	>caution All Cloud Storage Providers are depending on third party assemblies. To learn how to reference and configure them look at the[ Telerik Backend Services (formerly Everlive) ]({%slug cloudupload/cloud-storage-providers/telerik-backend-services%}),[ AmazonS3 ]({%slug cloudupload/cloud-storage-providers/amazon-s3%})or[ Azure ]({%slug cloudupload/cloud-storage-providers/azure-blob-storage%})Cloud Storages Sections.
+	>caution All Cloud Storage Providers are depending on third party assemblies. To learn how to reference and configure them look at the [Telerik Backend Services (formerly Everlive)]({%slug cloudupload/cloud-storage-providers/telerik-backend-services%}), [AmazonS3]({%slug cloudupload/cloud-storage-providers/amazon-s3%}) or [Azure]({%slug cloudupload/cloud-storage-providers/azure-blob-storage%}) Cloud Storages Sections.
 	>
 
 
