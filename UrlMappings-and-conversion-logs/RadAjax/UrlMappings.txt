@@ -23,7 +23,7 @@ http://www.telerik.com/help/aspnet-ajax/ajax-request-queuesize.html http://docs.
 http://www.telerik.com/help/aspnet-ajax/ajax-update-panels-render-mode.html http://docs.telerik.com/devtools/ajax/ajax/appearance-and-styling/render-modes
 http://www.telerik.com/help/aspnet-ajax/ajax-design-time.html http://docs.telerik.com/devtools/ajax/ajax/design-time
 http://www.telerik.com/help/aspnet-ajax/ajax-advantage1.html http://docs.telerik.com/devtools/ajax/ajax/getting-started/radajax-advantages
-http://www.telerik.com/help/aspnet-ajax/ajax-ajax.html http://docs.telerik.com/devtools/ajax/ajax/getting-started/what-is-ajax?
+http://www.telerik.com/help/aspnet-ajax/ajax-ajax.html http://docs.telerik.com/devtools/ajax/ajax/getting-started/what-is-ajax
 http://www.telerik.com/help/aspnet-ajax/ajax-getting-started.html http://docs.telerik.com/devtools/ajax/ajax/getting-started/ajax-enable-a-scenario-through-radajaxmanager-and-radajaxloadingpanel
 http://www.telerik.com/help/aspnet-ajax/ajax-client-side-performance.html http://docs.telerik.com/devtools/ajax/ajax/performance/optimizing-performance-using-radajaxmanager
 http://www.telerik.com/help/aspnet-ajax/ajax-center-loadingpanel.html http://docs.telerik.com/devtools/ajax/ajax/radajaxloadingpanel/how-to/center-the-loading-panel-on-the-screen
@@ -42,7 +42,7 @@ http://www.telerik.com/help/aspnet-ajax/ajax-controls-in-ajaxpanel-and-ajaxsetti
 http://www.telerik.com/help/aspnet-ajax/ajax-controls-not-shown-in-designer.html http://docs.telerik.com/devtools/ajax/ajax/radajaxmanager/troubleshooting/radajaxmanager-designer-does-not-locate-all-controls
 http://www.telerik.com/help/aspnet-ajax/ajax-force-controls-to-postback.html http://docs.telerik.com/devtools/ajax/ajax/radajaxmanager/troubleshooting/force-controls-in-an-ajax-enabled-container-to-perform-a-postback
 http://www.telerik.com/help/aspnet-ajax/ajax-layout-problem-updated-controls-on-new-line.html http://docs.telerik.com/devtools/ajax/ajax/radajaxmanager/troubleshooting/layout-problem:-updated-controls-appear-on-a-new-line
-http://www.telerik.com/help/aspnet-ajax/ajax-masterpage-update-everywhere.html http://docs.telerik.com/devtools/ajax/ajax/radajaxmanager/how-to/masterpages:-ajaxify-and-update-controls-in-master-and-content-page
+http://www.telerik.com/help/aspnet-ajax/ajax-masterpage-update-everywhere.html http://docs.telerik.com/devtools/ajax/ajax/radajaxmanager/how-to/ajaxify-and-update-controls-in-master-and-content-page
 http://www.telerik.com/help/aspnet-ajax/ajax-masterpage.html http://docs.telerik.com/devtools/ajax/ajax/radajaxmanager/how-to/radajax-and-masterpage
 http://www.telerik.com/help/aspnet-ajax/ajax-update-in-composite-control.html http://docs.telerik.com/devtools/ajax/ajax/radajaxmanager/how-to/update-in-composite-control
 http://www.telerik.com/help/aspnet-ajax/ajax-update-initiator-panels-only.html http://docs.telerik.com/devtools/ajax/ajax/radajaxmanager/how-to/update-initiator's-updatepanels-only

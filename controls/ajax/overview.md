@@ -40,7 +40,7 @@ Telerik UI for ASP.NET AJAX provides a universal, cross-browser approach for cre
 
 # See Also
 
- * [What is AJAX?]({%slug ajax/getting-started/what-is-ajax?%})
+ * [What is AJAX?]({%slug ajax/getting-started/what-is-ajax%})
 
  * [Overview]({%slug ajax/radajaxmanager/overview%})
 

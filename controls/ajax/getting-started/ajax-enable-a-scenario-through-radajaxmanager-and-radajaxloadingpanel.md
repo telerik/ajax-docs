@@ -47,6 +47,6 @@ This page walks through the basic steps required to AJAX-enable an application u
 
 ## See Also
 
- * [What is AJAX?]({%slug ajax/getting-started/what-is-ajax?%})[](251A6C11-CA84-419B-A65C-3A3329FB1FDD)[](700D89B9-A5C9-4281-8651-3CEB407C3648)
+ * [What is AJAX?]({%slug ajax/getting-started/what-is-ajax%})[](251A6C11-CA84-419B-A65C-3A3329FB1FDD)[](700D89B9-A5C9-4281-8651-3CEB407C3648)
 
  * [RadAjax Advantages]({%slug ajax/getting-started/radajax-advantages%})
