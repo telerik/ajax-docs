@@ -200,7 +200,7 @@ function DetachBlurHandler() {
 
 # See Also
 
- * [Overview]({%slug panelbar/client-side-programming/overview%})
+ * [Client-side Programming Overview]({%slug panelbar/client-side-programming/overview%})
 
  * [Events]({%slug panelbar/client-side-programming/events%})
 

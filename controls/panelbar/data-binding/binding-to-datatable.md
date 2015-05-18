@@ -110,7 +110,7 @@ End Sub
 ````
 
 
-1. Create an **[ItemDataBound event handler]({%slug panelbar/server-side-programming/itemdatabound%})** to set additional properties on the panel items: 
+* Create an **[ItemDataBound event handler]({%slug panelbar/server-side-programming/itemdatabound%})** to set additional properties on the panel items: 
 
 
 

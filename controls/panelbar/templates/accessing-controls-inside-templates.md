@@ -17,19 +17,19 @@ position: 3
 In order to access a control (a CheckBox in the particular example) embedded in a **HeaderTemplate** of a RadPanelBar control using server-side you can use the following code:
 
 ````ASPNET
-	    <telerik:RadButton runat="server" ID="button0" Text="UncheckCheckBox" OnClick="button0_Click">
-	        </telerik:RadButton> 
-	        <telerik:RadPanelBar ID="RadPanelBar0" runat="server">
-	        <Items>
-	            <telerik:RadPanelItem Text="PanleItem1">
-	                <HeaderTemplate>
-	                    <asp:CheckBox runat="server" ID="checkBox1" Text="CheckBox1" Checked="true" />
-	                </HeaderTemplate>
-	                <ContentTemplate>
-	                </ContentTemplate>
-	            </telerik:RadPanelItem>
-	        </Items>
-	    </telerik:RadPanelBar>
+<telerik:RadButton runat="server" ID="button0" Text="UncheckCheckBox" OnClick="button0_Click">
+    </telerik:RadButton> 
+    <telerik:RadPanelBar ID="RadPanelBar0" runat="server">
+    <Items>
+        <telerik:RadPanelItem Text="PanleItem1">
+            <HeaderTemplate>
+                <asp:CheckBox runat="server" ID="checkBox1" Text="CheckBox1" Checked="true" />
+            </HeaderTemplate>
+            <ContentTemplate>
+            </ContentTemplate>
+        </telerik:RadPanelItem>
+    </Items>
+</telerik:RadPanelBar>
 ````
 
 
@@ -40,20 +40,21 @@ In order to access a control (a CheckBox in the particular example) embedded in 
 
 ````C#
 	
-	    protected void button0_Click(object sender, EventArgs e)
-	    {
-	        RadPanelItem item = RadPanelBar0.Items[0];
-	        CheckBox CheckItem = item.Header.FindControl("checkBox1") as CheckBox;
-	        CheckItem.Checked = false;
-	    }
+protected void button0_Click(object sender, EventArgs e)
+{
+    RadPanelItem item = RadPanelBar0.Items[0];
+    CheckBox CheckItem = item.Header.FindControl("checkBox1") as CheckBox;
+    CheckItem.Checked = false;
+}
 	
 ````
 ````VB.NET
-	    Protected Sub button0_Click(sender As Object, e As EventArgs)
-	        Dim item As RadPanelItem = RadPanelBar0.Items(0)
-	        Dim CheckItem As CheckBox = TryCast(item.Header.FindControl("checkBox1"), CheckBox)
-	        CheckItem.Checked = False
-	    End Sub
+
+Protected Sub button0_Click(sender As Object, e As EventArgs)
+    Dim item As RadPanelItem = RadPanelBar0.Items(0)
+    Dim CheckItem As CheckBox = TryCast(item.Header.FindControl("checkBox1"), CheckBox)
+    CheckItem.Checked = False
+End Sub
 	
 ````
 
@@ -107,7 +108,7 @@ End Sub
 
 ````JavaScript
 	     
-	var datePicker = $find("<%= RadColorPicker1.ClientID %>");
+var datePicker = $find("<%= RadColorPicker1.ClientID %>");
 				
 ````
 
@@ -170,7 +171,6 @@ End Sub
 
 ````JavaScript
 	     
-	
 var panelbar = $find("<%= RadPanelBar1.ClientID %>");
 var item = panelbar.findItemByText("ColorPicker");
 var datePicker = item.findControl("RadColorPicker1");
@@ -191,6 +191,6 @@ var datePicker = $find('<%= RadPanelBar1.FindItemByText("ColorPicker").FindContr
 
 # See Also
 
- * [Overview]({%slug panelbar/templates/overview%})
+ * [Templates Overview]({%slug panelbar/templates/overview%})
 
  * [Adding Templates at Designtime]({%slug panelbar/templates/adding-templates-at-designtime%})

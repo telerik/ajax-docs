@@ -76,12 +76,10 @@ End Sub
 Typically, panels are hierarchical in structure. That is, they contain child panel items that are accessed through parent panel items. **RadPanelBar** reconstructs this hierarchy differently, depending on the type of data source:
 
 1. For inherently hierarchical data sources, **RadPanelBar** will **automatically** create the panel item hierarchy. Such data sources include
-
 	* XmlDataSource
-
 	* SiteMapDataSource
 
-1. For table-structured data sources, **RadPanelBar** uses the **ID** to **ParentID** relationship to establish a hierarchy. Such data sources include
+2. For table-structured data sources, **RadPanelBar** uses the **ID** to **ParentID** relationship to establish a hierarchy. Such data sources include
 
 	* DataSet, DataTable, and DataView
 
@@ -89,7 +87,7 @@ Typically, panels are hierarchical in structure. That is, they contain child pan
 
 	* AccessDataSource
 
-1. For object-based data sources, **RadPanelBar** uses the **ID** to **ParentID** relationship to establish a hierarchy. Such data sources include
+3. For object-based data sources, **RadPanelBar** uses the **ID** to **ParentID** relationship to establish a hierarchy. Such data sources include
 
 	* ObjectDataSource
 

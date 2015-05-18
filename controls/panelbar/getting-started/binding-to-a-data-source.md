@@ -49,13 +49,14 @@ This tutorial will show how to bind **RadPanelBar** to an **AccessDataSource**:
 	* Set the **DataFieldParentId** property to "ReportsTo".
 
 	* Set the **DataTextField** property to "FirstName":
-		![Data Fields](images/panelbar_datafields.png)
+	![Data Fields](images/panelbar_datafields.png)
 
 14. Run the application. The panel bar has a single root level item (for the one record with a null value in the "ReportsTo" field). When you expand this item, you can see level 1 items for every record that had Andrew's ID in the "ReportsTo" field. You can expand the item labelled "Steven" to see the level 2 items for records that had Steven's ID in the "ReportsTo" field:
-	![Bound PanelBar](images/panelbar_bound.png)
+	
+![Bound PanelBar](images/panelbar_bound.png)
 
 # See Also
 
- * [Overview]({%slug panelbar/data-binding/overview%})
+ * [Data Binding Overview]({%slug panelbar/data-binding/overview%})
 
- * [Overview]({%slug panelbar/getting-started/overview%})
+ * [Getting Started Overview]({%slug panelbar/getting-started/overview%})

@@ -59,4 +59,4 @@ The result is a hierarchy of panel items:
 
  * [Custom Attributes]({%slug panelbar/radpanelbar-items/custom-attributes%})
 
- * [Overview]({%slug panelbar/radpanelbar-items/overview%})
+ * [Items Overview]({%slug panelbar/radpanelbar-items/overview%})

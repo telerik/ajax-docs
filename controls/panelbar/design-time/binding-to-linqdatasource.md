@@ -44,4 +44,4 @@ Since the Q2 2008 SP1 release **RadPanelBar** supports hierarchical data binding
 
 # See Also
 
- * [Overview]({%slug panelbar/data-binding/overview%})
+ * [Data Binding Overview]({%slug panelbar/data-binding/overview%})

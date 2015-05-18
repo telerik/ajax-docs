@@ -44,4 +44,4 @@ For more information on the CSS File structure, see [Understanding the Skin CSS 
 
  * [Adding Images to Items]({%slug panelbar/appearance-and-styling/adding-images-to-items%})
 
- * [Overview]({%slug panelbar/templates/overview%})
+ * [Templates Overview]({%slug panelbar/templates/overview%})

@@ -192,4 +192,4 @@ End Sub
 
  * [Declaring Items Statically at Designtime]({%slug panelbar/radpanelbar-items/declaring-items-statically-at-designtime%})
 
- * [Overview]({%slug panelbar/data-binding/overview%})
+ * [Data Binding Overview]({%slug panelbar/data-binding/overview%})

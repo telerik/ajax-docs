@@ -96,6 +96,6 @@ function EnableItem() {
 
  * [Working With Items at the Server]({%slug panelbar/radpanelbar-items/working-with-items-at-the-server%})
 
- * [Overview]({%slug panelbar/radpanelbar-items/overview%})
+ * [Items Overview]({%slug panelbar/radpanelbar-items/overview%})
 
- * [Overview]({%slug panelbar/client-side-programming/overview%})
+ * [Client-side Programming Overview]({%slug panelbar/client-side-programming/overview%})

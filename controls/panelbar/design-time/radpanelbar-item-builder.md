@@ -73,4 +73,4 @@ When a panel item (either a root item or a child item) is selected, the properti
 
 # See Also
 
- * [Overview]({%slug panelbar/radpanelbar-items/overview%})
+ * [Items Overview]({%slug panelbar/radpanelbar-items/overview%})

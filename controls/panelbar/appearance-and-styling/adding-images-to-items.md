@@ -94,6 +94,6 @@ The following example uses the **ImageUrl** and **SelectedImageUrl** properties 
 
  * [Skins]({%slug panelbar/appearance-and-styling/skins%})
 
- * [Overview]({%slug panelbar/templates/overview%})
+ * [Templates Overview]({%slug panelbar/templates/overview%})
 
  * [Setting  the CSS Class of Items]({%slug panelbar/appearance-and-styling/setting--the-css-class-of-items%})

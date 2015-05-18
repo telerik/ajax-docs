@@ -168,6 +168,6 @@ End Sub
 
  * [Working With Items at the Client]({%slug panelbar/radpanelbar-items/working-with-items-at-the-client%})
 
- * [Overview]({%slug panelbar/radpanelbar-items/overview%})
+ * [Items Overview]({%slug panelbar/radpanelbar-items/overview%})
 
  * [Accessing Items]({%slug panelbar/server-side-programming/accessing-items%})

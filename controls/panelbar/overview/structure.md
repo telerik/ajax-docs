@@ -67,4 +67,4 @@ If the items are created at design time, the hierarchy is reflected in the ASP.N
 
  * [Declaring Items Statically at Designtime]({%slug panelbar/radpanelbar-items/declaring-items-statically-at-designtime%})
 
- * [Overview]({%slug panelbar/data-binding/overview%})
+ * [Data Binding Overview]({%slug panelbar/data-binding/overview%})

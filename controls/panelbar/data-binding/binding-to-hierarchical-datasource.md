@@ -60,7 +60,7 @@ Before adding the **SiteMapDataSource** control to your page, you need to add th
 
 ````
 
->caution The url must be unique for each node. Avoid using backslashes ('\') for your URLs. Backslashes may cause problems with some browsers. Instead, we use the slash character ('/').
+>caution The url must be unique for each node. Avoid using backslashes (`\`) for your URLs. Backslashes may cause problems with some browsers. Instead, we use the slash character (`/`).
 >
 
 
@@ -72,15 +72,15 @@ Before adding the **SiteMapDataSource** control to your page, you need to add th
 
 1. From the **RadPanelBar** property pane, set the **DataSourceID** to the **ID** of the **SiteMapDataSource** control.
 
-1. Each **siteMapNode** has three attributes which are mapped automatically to the respective properties:
+2. Each **siteMapNode** has three attributes which are mapped automatically to the respective properties:
 
-* **url** - Maps to the **NavigateUrl** property. The path can be either relative (using the ~/), or absolute.
+	* **url** - Maps to the **NavigateUrl** property. The path can be either relative (using the ~/), or absolute.
 
-* **title** - Maps to the **Text** property.
+	* **title** - Maps to the **Text** property.
 
-* **description** - Maps to the **ToolTip** property.
+	* **description** - Maps to the **ToolTip** property.
 
-1. To set additional properties or overwrite already populated fields, use the **ItemDataBound** event. The example below overwrites the **TooTip** property with the Text value of the item and sets the **Value** property to a concatenated string of [Text] + "_Value". 
+3. To set additional properties or overwrite already populated fields, use the **ItemDataBound** event. The example below overwrites the **TooTip** property with the Text value of the item and sets the **Value** property to a concatenated string of [Text] + "_Value". 
 
 
 

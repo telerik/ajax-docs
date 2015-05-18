@@ -33,6 +33,6 @@ When you have finished designing your template, choose **End Template Editing** 
 
 # See Also
 
- * [Overview]({%slug panelbar/templates/overview%})
+ * [Templates Overview]({%slug panelbar/templates/overview%})
 
  * [Adding Templates at Designtime]({%slug panelbar/templates/adding-templates-at-designtime%})

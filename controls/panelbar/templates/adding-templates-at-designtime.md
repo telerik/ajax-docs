@@ -134,4 +134,4 @@ This example shows how to use the [Template Design Surface]({%slug panelbar/desi
 
 # See Also
 
- * [Overview]({%slug panelbar/templates/overview%})
+ * [Templates Overview]({%slug panelbar/templates/overview%})
