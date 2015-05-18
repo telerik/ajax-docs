@@ -20,7 +20,7 @@ You can use this event to perform your own initialization to the menu when it is
 
 The following example illustrates the use of the **OnClientLoad** event handler for saving a reference to the client-side object:
 
-````ASPNET
+````ASP.NET
 <script type="text/javascript">
     var menu1;
     function StoreMenuClientObject(sender) {

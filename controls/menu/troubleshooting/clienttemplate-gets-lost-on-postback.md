@@ -18,7 +18,7 @@ When initially loading data form the web service the **ClientTemplates** are app
 >
 
 
-````ASPNET
+````ASP.NET
 <telerik:RadMenu runat="server" ID="RadMenu1" PersistLoadOnDemandItems="true" >
         <WebServiceSettings Path="MenuWcfService.svc" Method="LoadData" />
         <ClientItemTemplate>

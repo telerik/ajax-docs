@@ -26,7 +26,7 @@ The event handler receives two parameters:
 
 You can use this event to respond when the list of child items closes.
 
-````ASPNET
+````ASP.NET
 <script type="text/javascript">
     function ItemClosed(menu, args) {
         alert("Closing " + args.get_item().get_text());

@@ -50,7 +50,7 @@ You can use a small CSS class with the **white-space:normal** attribute to chang
 
 1. Add the CSS class definition to the <head> section of your Web page:
 
-````ASPNET
+````ASP.NET
 <head runat="server">
     <title>Untitled Page</title>
     <style>
@@ -64,7 +64,7 @@ You can use a small CSS class with the **white-space:normal** attribute to chang
 
 1. Set the **CssClass** property of any items with long text to your new class:
 
-````ASPNET
+````ASP.NET
 <telerik:RadMenu ID="RadMenu1" runat="server" Flow="Horizontal">
     <Items>
         <telerik:RadMenuItem runat="server" ExpandMode="ClientSide" Text="Root Item 1">
@@ -104,7 +104,7 @@ This continues the previous example to show how to change the appearance of item
 
 1. Add a new CSS class to your header to change the background of an item to red:
 
-````ASPNET
+````ASP.NET
 <head runat="server">
     <title>Untitled Page</title>
     <style>
@@ -123,7 +123,7 @@ This continues the previous example to show how to change the appearance of item
 
 1. Set the **ExpandedCssClass** property of all root level items to the new CSS class:
 
-````ASPNET
+````ASP.NET
 <telerik:RadMenu ID="RadMenu1" runat="server" Flow="Horizontal">
     <Items>
         <telerik:RadMenuItem runat="server" ExpandMode="ClientSide" Text="Root Item 1" ExpandedCssClass="RedItem">
@@ -163,7 +163,7 @@ There is no property to specify a CSS class for hovered items. To customize the 
 
 1. Add a new CSS rule for your WrappingItem CSS class:
 
-````ASPNET
+````ASP.NET
 <head runat="server">
     <title>Untitled Page</title>
     <style>

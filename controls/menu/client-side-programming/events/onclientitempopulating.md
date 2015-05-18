@@ -32,7 +32,7 @@ The event handler receives two parameters:
 
 You can use this event to conditionally cancel the call to fetch items or to pass context information to the Web service before the call:
 
-````ASPNET
+````ASP.NET
 <script type="text/javascript">
     function itemPopulating(sender, eventArgs) {
         var item = eventArgs.get_item();

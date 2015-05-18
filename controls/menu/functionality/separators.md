@@ -20,7 +20,7 @@ The example below shows menu with two separator items: one on the horizontally f
 
 ![RadMenu Separators](images/menu_separators.png)
 
-````ASPNET
+````ASP.NET
 <telerik:RadMenu ID="RadMenu1" runat="server" Flow="Horizontal" Skin="Outlook">
     <Items>
         <telerik:RadMenuItem runat="server" Text="Root Item 1">

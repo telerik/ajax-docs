@@ -44,7 +44,7 @@ You can use this event to tweak the child items that have just been added:
 </script>
 ````
 
-````ASPNET
+````ASP.NET
 <telerik:RadMenu ID="RadMenu1" runat="server" Skin="Default" OnClientItemPopulated="itemPopulated">
     <WebServiceSettings Path="ProductOfferings.asmx" Method="GetProductsByCategory" />
     <LoadingStatusTemplate>

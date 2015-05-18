@@ -52,7 +52,7 @@ position: 0
 
 To use these events, simply write a javascript function that can be called when the event occurs. Then assign the name of the javascript function as the value of the the corresponding **RadMenu** or **RadContextMenu** property.
 
-````ASPNET
+````ASP.NET
 <script type="text/javascript">
     function onClicking(sender, eventArgs) {
         var item = eventArgs.get_item();

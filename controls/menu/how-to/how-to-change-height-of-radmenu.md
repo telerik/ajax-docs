@@ -60,7 +60,7 @@ Now that we have an external skin of our own, we can start changing it to fit ou
 
 Now that we are done with the sprite images, a relatively easy part remains – fixing the skin CSS to support the new sprite height we have made. First thing you need to do is simply get the modified image and overwrite the current one that is located in the MySkin\Menu folder. Then switch to your editor and open the CSS file. Now we need to adjust the default height (that is 25px) of the RadMenu items. Add the following CSS rules somewhere in your CSS file, let’s say at the end:
 
-````ASPNET
+````ASP.NET
 /*changes line height for the root menu items*/
 .RadMenu_MySkin .rmHorizontal .rmRootLink span.rmText{
 	  height: 30px;

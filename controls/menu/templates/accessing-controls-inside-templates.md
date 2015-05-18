@@ -16,7 +16,7 @@ If your **RadMenu** has items with templates that have embedded controls, you ma
 
 For example, consider the following, very simple, menu:
 
-````ASPNET
+````ASP.NET
 <telerik:RadMenu ID="RadMenu1" runat="server" Flow="Horizontal">
     <Items>
         <telerik:RadMenuItem runat="server" ExpandMode="ClientSide" Text="Color">

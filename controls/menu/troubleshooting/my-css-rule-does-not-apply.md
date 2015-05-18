@@ -16,7 +16,7 @@ position: 2
 
 **A:** Most probably there is a more concrete CSS rule (usually defined in the skin) which overrides your settings. Let's assume you have defined a custom CSS class and you want to apply it to a specific menu item:
 
-````ASPNET
+````ASP.NET
 <style type="text/css">
     .MyItem
     {
@@ -33,7 +33,7 @@ position: 2
 
 The foreground color of that menu item won't change. There is a more concrete CSS rule in the skin which overrides the "color" CSS property:
 
-````ASPNET
+````ASP.NET
 .RadMenu_Default .rmLink { 
     line-height: 24px; 
     text-decoration: none;
@@ -45,7 +45,7 @@ To make your CSS setting apply you can use one of the following techniques:
 
 1. Make your CSS rule more concrete than the one from the skin:
 
-````ASPNET
+````ASP.NET
 .RadMenu_Default .rmRootGroup .MyItem { 
     color : red;
 }
@@ -53,7 +53,7 @@ To make your CSS setting apply you can use one of the following techniques:
 
 2. Use the "!important" modifier to force your setting:
 
-````ASPNET
+````ASP.NET
 .MyItem{ 
     color : red !important; 
  }

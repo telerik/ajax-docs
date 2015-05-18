@@ -14,7 +14,7 @@ position: 8
 
 Styles for RadControls are defined using Cascading Style Sheet (CSS) syntax. Each style consists of a selector that identifies an HTML element to be styled, and property/value pairs that describe each of the style specifics, e.g. color, padding, margins, etc. For example, the ".rmGroup" style will have a solid green border and white background:
 
-````ASPNET
+````ASP.NET
 .RadMenu_Green .rmGroup { border: 1px solid green; background-color: #fff;}
 ````
 

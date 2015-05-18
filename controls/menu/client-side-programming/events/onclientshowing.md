@@ -34,7 +34,7 @@ The event handler receives two parameters:
 
 You can use this event to initialize the context menu before it appears or to conditionally prevent the context menu from appearing:
 
-````ASPNET
+````ASP.NET
 <script type="text/javascript">
     function showContextMenu(menu, args) {
         var target = args.get_targetElement();

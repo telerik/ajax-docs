@@ -14,7 +14,7 @@ position: 4
 
 Often, when you use item templates, you want the controls in the template to display information associated with the menu item properties. For example, consider a simple menu with a check box in the item template:
 
-````ASPNET
+````ASP.NET
 <telerik:RadMenu ID="RadMenu1" runat="server" Flow="Horizontal" Skin="Gray">
     <Items>
         <telerik:RadMenuItem runat="server" ExpandMode="ClientSide" Text="Data">
@@ -51,7 +51,7 @@ When you run the application, the RadMenu items all show check boxes with no lab
 
 This is hardly useful! To override the **Text** property of the check box in the template, use a **DataBinder.Eval** statement:
 
-````ASPNET
+````ASP.NET
 <itemtemplate>    
     <asp:CheckBox ID="CheckBox1" runat="server" Text='<%# DataBinder.Eval(Container, "Text") %>'/>
 </itemtemplate>

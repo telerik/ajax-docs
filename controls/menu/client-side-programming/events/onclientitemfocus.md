@@ -26,7 +26,7 @@ The event handler receives two parameters:
 
 You can use this event to respond when an item receives focus. For example, the following event handler moves focus to the first child when a root level item receives focus:
 
-````ASPNET
+````ASP.NET
 <script type="text/javascript">
 function FocusItem(menu, args) {
     var item = args.get_item();

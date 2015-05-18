@@ -16,21 +16,21 @@ The **RadContextMenu** control represents a context menu or popup menu. It is si
 
 ## Attaching the context menu to targets
 
-* Add a **<Targets>** tag to the RadContextMenu declaration.
+* Add a **\<Targets\>** tag to the RadContextMenu declaration.
 
-* For each target, add a target tag between the **<Targets>** tag and is closing **</Targets>** tag. There are four types of target tags:
+* For each target, add a target tag between the **\<Targets\>** tag and is closing **\</Targets\>** tag. There are four types of target tags:
 
-* **<telerik:ContextMenuControlTarget>** identifies a target that is an ASP.NET control. This tag takes a single attribute, **ControlID**, which specifies the server-side ID of the target control.
+* **\<telerik:ContextMenuControlTarget\>** identifies a target that is an ASP.NET control. This tag takes a single attribute, **ControlID**, which specifies the server-side ID of the target control.
 
-* **<telerik:ContextMenuDocumentTarget>** identifies the document element of the Web page as a target. That is, the context menu appears wherever the user right-clicks on the page. This tag uses no additional attributes.
+* **\<telerik:ContextMenuDocumentTarget\>** identifies the document element of the Web page as a target. That is, the context menu appears wherever the user right-clicks on the page. This tag uses no additional attributes.
 
-* **<telerik:ContextMenuElementTarget>** identifies a target that is an HTML element. This tag takes a single attribute, **ElementID**, which is the client-side ID of the target element.
+* **\<telerik:ContextMenuElementTarget\>** identifies a target that is an HTML element. This tag takes a single attribute, **ElementID**, which is the client-side ID of the target element.
 
-* **<telerik:ContextMenuTagNameTarget>** identifies as a target all HTML elements on the page with a specified tag name.This tag takes a single attribute, **TagName**, which is the tag name of the target elements.
+* **\<telerik:ContextMenuTagNameTarget\>** identifies as a target all HTML elements on the page with a specified tag name.This tag takes a single attribute, **TagName**, which is the tag name of the target elements.
 
 The following example shows a context menu that is attached to all **<img>** elements on the Web page:
 
-````ASPNET
+````ASP.NET
 <telerik:RadContextMenu ID="SetAsDesktop" runat="server" Skin="Vista" OnClientShowing="showingSetAsDesktop"
     OnClientItemClicked="setAsDesktopItemClicked">
     <Targets>
@@ -67,7 +67,7 @@ To use **RadContextMenu** as a popup menu, simply omit the **<Targets>** section
 
 The following example uses the **show()** method to display a context menu when the mouse hovers over an image by using the **onmouseover** event of the **<img>** element:
 
-````ASPNET
+````ASP.NET
 <telerik:RadContextMenu ID="RadContextMenu1" runat="server" Skin="Vista">
     <Items>
         <telerik:RadMenuItem Text="Trees" />

@@ -25,7 +25,7 @@ Generally, responsive design means that the page and its content are able to ada
 
 The following sample shows how to increase the font size of a RadMenu and the effect can be seen in comparison in Figure 1.
 
-````ASPNET
+````ASP.NET
 <style type="text/css">
     div.RadMenu {
         font-size: 18px;

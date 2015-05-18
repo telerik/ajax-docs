@@ -33,7 +33,7 @@ The event handler receives two parameters:
 
 You can use this event to pre-process an item click or to cancel the default response:
 
-````ASPNET	
+````ASP.NET	
 <script type="text/javascript">
 function onClicking(sender, eventArgs) {
     var item = eventArgs.get_item();

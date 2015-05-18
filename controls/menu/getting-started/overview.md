@@ -22,7 +22,7 @@ This tutorial will walk you through creating a **RadMenu** and shows how to:
 
 ## Creating a menu using the RadMenu Item Builder
 
-1. Drag a **RadMenu** component from the toolbox onto your Web page. The **RadMenu**[Smart Tag]({%slug menu/design-time/smart-tag%}) should appear automatically:![RadMenu Smart Tag](images/menu_smarttag.png)
+1. Drag a **RadMenu** component from the toolbox onto your Web page. The **RadMenu** [Smart Tag]({%slug menu/design-time/smart-tag%}) should appear automatically:![RadMenu Smart Tag](images/menu_smarttag.png)
 
 1. On the Smart Tag, choose **Edit Items.** The [RadMenu Item Builder]({%slug menu/design-time/radmenu-item-builder%}) appears:![RadMenu ItemBuilder](images/menu_itembuilder.png)
 

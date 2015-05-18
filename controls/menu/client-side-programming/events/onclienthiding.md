@@ -28,7 +28,7 @@ The event handler receives two parameters:
 
 You can use this event to control when context menu can disappear:
 
-````ASPNET
+````ASP.NET
 <script type="text/javascript">
     function OnClientHiding(menu, args) {
         var target = args.get_targetElement();

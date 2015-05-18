@@ -36,7 +36,7 @@ There are two ways to set the RenderMode for the RadMenu:
 
 When the **RenderMode** property is set in the markup you can type in a string, when set in the code-behind it takes a member of the Telerik.Web.UI.RenderMode enum. For example:
 
-````ASPNET
+````ASP.NET
 <telerik:RadMenu RenderMode="Lightweight" runat="server" ID="RadMenu1"> </telerik:RadMenu>	    
 ````
 
@@ -44,7 +44,7 @@ A **global setting** in the web.config file that will affect the entire applicat
 
 * Change render mode for all RadMenus in your application:
 
-````ASPNET
+````ASP.NET
 <appSettings>
    <add key="Telerik.Web.UI.RenderMode" value="lightweight" />
 </appSettings>
@@ -53,7 +53,7 @@ A **global setting** in the web.config file that will affect the entire applicat
 
 * Change render mode for all controls in your application:
 
-````ASPNET
+````ASP.NET
 <appSettings>
     <add key="Telerik.Web.UI.Menu.RenderMode" value="lightweight" />
 </appSettings>

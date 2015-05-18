@@ -32,7 +32,7 @@ The event handler receives two parameters:
 
 You can use this event to substitute your own mechanism for responding to errors from the Web service. For example, the following example disables the problem item and substitutes a call to the **radalert** method so that the error message blends in to the look & feel of the Web site:
 
-````ASPNET
+````ASP.NET
 <script type="text/javascript">     
 function populationFailed(sender, eventArgs)  
 {     

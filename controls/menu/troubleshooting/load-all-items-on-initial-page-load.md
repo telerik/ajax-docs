@@ -31,7 +31,7 @@ function pageLoad(){
 
 The second approach uses the [OnClientLoad]({%slug menu/client-side-programming/events/onclientload%}) event of a single RadMenu:
 
-````ASPNET
+````ASP.NET
 <telerik:RadMenu ID="RadMenu1" runat="server" OnClientLoad="(function(sender, e){ sender.get_allItems(); })" />
 ````
 

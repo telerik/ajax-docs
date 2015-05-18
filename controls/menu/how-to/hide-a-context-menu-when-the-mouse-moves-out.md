@@ -16,7 +16,7 @@ This topic shows how to hide a RadContextMenu when mouse moves away.
 
 Let's have a square panel which is the target of the context menu - right clicking in the panel will show our menu. The goal is to hide the menu when the mouse moves out of the menu.
 
-````ASPNET
+````ASP.NET
 <asp:Panel Width="200px" Height="200px" BackColor="Aqua" runat="server" ID="pnl1">
 </asp:Panel>
 <telerik:RadContextMenu ID="RadContextMenu1" runat="server" OnClientShowing="OnClientShowingHandler"

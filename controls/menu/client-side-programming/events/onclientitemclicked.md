@@ -30,7 +30,7 @@ The event handler receives two parameters:
 
 You can use this event to respond when the user clicks on a menu item:
 
-````ASPNET	
+````ASP.NET	
 <script type="text/javascript">
     var clipboardEmpty = true;
     function copyPasterItemClicked(sender, args) {

@@ -16,7 +16,7 @@ This example shows how to change the mouse pointer to a "hand" pointer on menu i
 
 You need to add this CSS rule in the <HEAD> section of the page:
 
-````ASPNET
+````ASP.NET
 <style type="text/css">
     .RadMenu_Default .rmLink:hover
     {

@@ -16,7 +16,7 @@ position: 3
 
 In this version we modifed the RadMenu client scripts. In case that you are still using an older version of the controls and you want to disable the embedded scripts please refer to the code snippet below to simply add the required script files using the ScriptMnager.
 
-````ASPNET
+````ASP.NET
 	        <scripts>
 	            <asp:ScriptReference Path="~/Scripts/Common/Core.js" />
 	            <asp:ScriptReference Path="~/Scripts/Common/jQuery.js" />
@@ -30,7 +30,7 @@ In this version we modifed the RadMenu client scripts. In case that you are stil
 
 Please refer to the following code snippet if you use Q1 2014 version or newer:
 
-````ASPNET
+````ASP.NET
 	        <scripts>
 			    <asp:ScriptReference Path="~/Scripts/Common/Core.js" />
 	            <asp:ScriptReference Path="~/Scripts/Common/jQuery.js" />
@@ -114,7 +114,7 @@ Consider this XML fragment (from our XmlDefinition demo):
 
 In version prior to Q2 SP1 this was interpreted as:
 
-````ASPNET
+````ASP.NET
 	    <telerik:RadMenu Flow="Horizontal" ... />
 ````
 
@@ -122,7 +122,7 @@ In version prior to Q2 SP1 this was interpreted as:
 
 The new interpretation is:
 
-````ASPNET
+````ASP.NET
 	    <telerik:RadMenu ... />
 	        <DefaultGroupSettings Flow="Horizontal" />    			
 ````

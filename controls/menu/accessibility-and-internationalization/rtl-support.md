@@ -14,7 +14,7 @@ position: 2
 
 **RadMenu** includes support for right-to-left locales using the direction attribute. If you set **dir="rtl"** on the **RadMenu** objector to any parent HTML element, **RadMenu** reverses item order and aligns itself to the right side of its container:
 
-````ASPNET
+````ASP.NET
 <telerik:RadMenu ID="RadMenu1" runat="server" Skin="Outlook" dir="rtl">
     <Items>
         <telerik:RadMenuItem Text="File" AccessKey="F">

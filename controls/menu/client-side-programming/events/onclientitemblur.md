@@ -27,7 +27,7 @@ The event handler receives two parameters:
 
 You can use this event to respond when an item loses focus.
 
-````ASPNET
+````ASP.NET
 <script type="text/javascript">
     function BlurItem(menu, args) {
         alert("Leaving " + args.get_item().get_text());

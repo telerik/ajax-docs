@@ -30,7 +30,7 @@ The event handler receives two parameters:
 
 You can use this event to control when menu items can expand, or customize the child items before the menu expands:
 
-````ASPNET	
+````ASP.NET	
 <script type="text/javascript">
 function ItemOpening(menu, args) {
     var status = $get("hdCurrentStatus");

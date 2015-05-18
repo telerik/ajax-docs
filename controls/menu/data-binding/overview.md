@@ -47,19 +47,19 @@ Usually, you also want to do one or more of the following:
 
 1. If the data source contains fields that map to other properties of menu items or to [custom attributes]({%slug menu/radmenu-items/custom-attributes%}), use the **[ItemDataBound event]({%slug menu/server-side-programming/itemdatabound%})** to set those values:
 
+	**C#**
+	
+		protected void RadMenu1_ItemDataBound(object sender, Telerik.Web.UI.RadMenuEventArgs e) 
+		{ 
+			e.Item.ToolTip = "Read more about " + (string)DataBinder.Eval(e.Item.DataItem, "Text");
+		}
+		
+	**VB.NET**
+	
+		Protected Sub RadMenu1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.RadMenuEventArgs) Handles RadMenu1.ItemDataBound
+			e.Item.ToolTip = "Read more about " + _  CStr(DataBinder.Eval(e.Item.DataItem, "Text"))
+		End Sub
 
-
-````C#
-protected void RadMenu1_ItemDataBound(object sender, Telerik.Web.UI.RadMenuEventArgs e) 
-{ 
-	e.Item.ToolTip = "Read more about " + (string)DataBinder.Eval(e.Item.DataItem, "Text");
-}
-````
-````VB.NET
-Protected Sub RadMenu1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.RadMenuEventArgs) Handles RadMenu1.ItemDataBound
-	e.Item.ToolTip = "Read more about " + _  CStr(DataBinder.Eval(e.Item.DataItem, "Text"))
-End Sub
-````
 
 1. As an alternative to using the **ItemDataBound** event handler, you can use [DataBindings]({%slug menu/data-binding/using-databindings%}) to declaratively map fields from the data source to properties of menu items. The **DataBindings** collection also lets you map fields differently, based on the level of items.
 
@@ -103,7 +103,7 @@ RadMenu exposes the **MaxDataBindDepth** property. This property is used to dete
 
 You can use [templates]({%slug menu/templates/overview%}) with a data-bound menu. To bind template items to column values, use DataBinder.Eval expressions in the template's definition:
 
-````ASPNET
+````ASP.NET
 <%# DataBinder.Eval(Container.DataItem,  "ColumnName") %>
 ````
 

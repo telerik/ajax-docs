@@ -24,7 +24,7 @@ We will subscribe to the [OnClientItemClicking]({%slug menu/client-side-programm
 
 * show RadConfirm dialog. If the user clicks on OK button - we will invoke the **click()** method of the lastClickedItem menu item.
 
-````ASPNET
+````ASP.NET
 <telerik:RadMenu ID="RadMenu1" OnClientItemClicking="OnClientItemClickingHandler"
     runat="server" OnItemClick="RadMenu1_ItemClick">
     <Items>

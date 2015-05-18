@@ -15,7 +15,7 @@ position: 2
 
 Here is an example of how to show/hide the menu and menu item client-side.
 
-````ASPNET
+````ASP.NET
 <telerik:RadMenu ID="RadMenu1" runat="server">
     <Items>
         <telerik:RadMenuItem runat="server" Text="root 1">

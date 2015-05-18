@@ -38,7 +38,7 @@ At design time, add item templates to your **RadMenu** control usingthe [Templat
 
 ![content Template](images/contentTemplate.png)
 
->note In addition to the item templates, **RadMenu** also supports a **Loading Status** template, which acts as a placeholder for a child group that is[loaded from a Web service]({%slug menu/data-binding/web-service-binding%})while a request for items is being serviced.
+>note In addition to the item templates, **RadMenu** also supports a **Loading Status** template, which acts as a placeholder for a child group that is [loaded from a Web service]({%slug menu/data-binding/web-service-binding%}) while a request for items is being serviced.
 >
 
 

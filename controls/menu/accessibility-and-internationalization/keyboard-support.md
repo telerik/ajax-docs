@@ -29,7 +29,7 @@ To set a keyboard shortcut to a menu item, simply set the **AccessKey** property
 
 ![](images/menu_accesskeys.png)
 
-````ASPNET
+````ASP.NET
 <telerik:RadMenu ID="RadMenu1" runat="server" Flow="Horizontal" Skin="Inox">
     <Items>
         <telerik:RadMenuItem runat="server" ExpandMode="ClientSide" Text="Company" AccessKey="C">

@@ -32,7 +32,7 @@ To set the image properties at design time, use the [RadMenu Item Builder]({%slu
 
 The following example uses the **ImageUrl** and **HoveredImageUrl** properties to create a **RadMenu** that uses only images for items:
 
-````ASPNET
+````ASP.NET
 <telerik:radmenu id="RadMenu1" runat="server" skin="" flow="Horizontal">
 	<Items>
 	  <telerik:RadMenuItem
@@ -142,7 +142,7 @@ For a live example, see [Image Only](http://demos.telerik.com/aspnet-ajax/Menu/E
 
 Since Q3 2010 RadMenu provides support for sprites - two new properties have been added:EnableImageSprites for the whole menu and EnableImageSprite for every menu item. Their purpose is to replace the menu item image element with a sized span for easier use of sprites. CssClass property of the buttons should be set in order to apply the sprite background image:
 
-````ASPNET
+````ASP.NET
 <style type="text/css">
     .icon1 .rmLeftImage, .icon2 .rmLeftImage
     {

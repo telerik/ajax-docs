@@ -26,7 +26,7 @@ The event handler receives two parameters:
 
 You can use this event to initialize the context menu when it appears:
 
-````ASPNET
+````ASP.NET
 <script type="text/javascript">
     function initializeContextMenu(menu, args) {
         var target = args.get_targetElement();

@@ -19,7 +19,7 @@ It is easy to define the hierarchy of menu items statically at design time. You 
 
 Alternately, you can use the Source page to specify the items declaratively:
 
-````ASPNET
+````ASP.NET
 <telerik:RadMenu ID="RadMenu1" runat="server" Flow="Horizontal" Skin="Gray">
     <Items>
         <telerik:RadMenuItem runat="server" ExpandMode="ClientSide" Text="Root RadMenuItem1">

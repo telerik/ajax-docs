@@ -18,7 +18,7 @@ position: 3
 
 * You have not subscribed to the **OnItemClick** event. Here is the correct subscription:
 
-````ASPNET
+````ASP.NET
 <telerik:RadMenu ID="RadMenu1" runat="server" OnItemClick="RadMenu1_ItemClick">
 ````
 
@@ -31,7 +31,7 @@ protected void RadMenu1_ItemClick(object sender, Telerik.Web.UI.RadMenuEventArgs
 
 * You have set the **NavigateUrl** property of the menu item.
 
-````ASPNET
+````ASP.NET
 <telerik:RadMenu ID="RadMenu1" runat="server" OnItemClick="RadMenu1_ItemClick">
 	<items>                
     	<telerik:RadMenuItem runat="server"  Text="This item will not fire ItemClick event" NavigateUrl="myPage.aspx">

@@ -16,7 +16,7 @@ The example below shows how to dynamically create ContextMenu and apply it to a 
 
 ![RadContextMenu](images/menu_contextmenuruntime.png)
 
-````ASPNET
+````ASP.NET
  <telerik:RadTextBox ID="RadTextBox1" runat="server" Text="ContextMenu Target">
  </telerik:RadTextBox>
 ````

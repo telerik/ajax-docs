@@ -26,7 +26,7 @@ The event handler receives two parameters:
 
 You can use this event to respond when the mouse moves off an item:
 
-````ASPNET
+````ASP.NET
 <script type="text/javascript">
     function markItem(menu, args) {
         var attributes = args.get_item().get_attributes();

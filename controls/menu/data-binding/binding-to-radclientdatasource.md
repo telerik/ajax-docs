@@ -23,7 +23,7 @@ The code snippet below shows sample configuration of RadMenu bound to RadClientD
 >note Initially the RadMenu control requests only the root items data from the RadClientDataSource. In the example below it will check for all items data that have **ParentID** property value to null.
 >
 
-````ASPNET
+````ASP.NET
 <telerik:RadClientDataSource runat="server" ID="CD1">
 	<ClientEvents />
 	<DataSource>

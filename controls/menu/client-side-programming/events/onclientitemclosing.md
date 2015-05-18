@@ -30,7 +30,7 @@ The event handler receives two parameters:
 
 You can use this event to control when menu items can contract, or reset the child items to a known state as the menu closes:
 
-````ASPNET
+````ASP.NET
 <script type="text/javascript">
     function ItemClosing(menu, args) {
         var status = $get("hdCurrentStatus");

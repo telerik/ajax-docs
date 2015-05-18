@@ -57,7 +57,7 @@ When a menu item (either a root item or a child item) is selected, the propertie
 
 * **PostBack** specifies whether the item causes a postback.
 
-* **CssClass**, **ClickedCssClass**, **DisabledCssClass**, **ExpandedCssClas**, and **FocusedCssClass**[control the appearance of the menu item]({%slug menu/appearance-and-styling/setting--the-css-class-of-items%}) when it is in its normal state, clicked, disabled, expanded, and holds input focus, respectively.
+* **CssClass**, **ClickedCssClass**, **DisabledCssClass**, **ExpandedCssClas**, and **FocusedCssClass** [control the appearance of the menu item]({%slug menu/appearance-and-styling/setting--the-css-class-of-items%}) when it is in its normal state, clicked, disabled, expanded, and holds input focus, respectively.
 
 * **ImageUrl**, **ImageClickedUrl**, **DisabledImageUrl**, **ExpandedImageUrl**, and **HoveredImageUrl** let you [specify an image]({%slug menu/appearance-and-styling/adding-images-to-items%}) that appears on the left of the menu item when it is in its normal state, clicked, disabled, expanded, and when the mouse hovers over it, respectively.
 

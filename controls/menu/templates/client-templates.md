@@ -30,7 +30,7 @@ As of Q2 2012 RadMenu provides support for client templates. The template itself
 
 On the server the template will be presented as a string property of the control, named **ClientItemTemplate**. Below a static and dynamic definition of a client template is shown
 
-````ASPNET
+````ASP.NET
 <telerik:RadMenu ID="RadMenu1" runat="server">
     <Items>
         ...
@@ -91,7 +91,7 @@ Sample code for the usage of the new method is demonstrated below.
 
 * Adding item and then binding the Control’s template to it:
 
-````ASPNET
+````ASP.NET
 <telerik:RadMenu runat="server" ID="RadMenu1">
     <ClientItemTemplate>
         Template text: #= Text #
@@ -128,7 +128,7 @@ item.bindTemplate();
 
 * Bind the client template to an item rendered on the server:
 
-````ASPNET
+````ASP.NET
 <telerik:RadMenu runat="server" ID="RadMenu1">
     <Items>
         <telerik:RadMenuItem Text="item">

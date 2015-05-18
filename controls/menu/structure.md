@@ -26,7 +26,7 @@ The menu consists of a hierarchy of items. The items on one level are exposed wh
 
 If the items are created at design time, the hierarchy is reflected in the ASP.NET declaration of the menu:
 
-````ASPNET
+````ASP.NET
 <telerik:RadMenu ID="RadMenu1" runat="server" Flow="Horizontal">
 	<Items>
 		<telerik:RadMenuItem runat="server" Text="Root Item 1">

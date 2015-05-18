@@ -123,7 +123,7 @@ function OnClientItemPopulatedHandler(sender, e)
 
 Here is the menu declaration:
 
-````ASPNET
+````ASP.NET
 <asp:RadioButtonList ID="rblSuites" runat="server">
 	<asp:ListItem Selected="True">ASP.NET AJAX</asp:ListItem>
 	<asp:ListItem>WPF</asp:ListItem>

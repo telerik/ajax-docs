@@ -26,7 +26,7 @@ As of **Q3 2009**, **RadMenu** supports multi-column rendering of child items. T
 
 For all menu item groups:
 
-````ASPNET
+````ASP.NET
 <telerik:RadMenu runat="server" ID="RadMenu1" DataSourceID="SiteMapDataSource">
     <DefaultGroupSettings RepeatColumns="2" RepeatDirection="Vertical" />
 </telerik:RadMenu>
@@ -34,7 +34,7 @@ For all menu item groups:
 
 For a specific menu item group:
 
-````ASPNET
+````ASP.NET
 <items>    
     <telerik:RadMenuItem>        
         <GroupSettings RepeatColumns="2" RepeatDirection="Vertical" />    

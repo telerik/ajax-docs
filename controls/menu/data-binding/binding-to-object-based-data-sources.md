@@ -39,7 +39,7 @@ To map additional properties from the object to other properties of the respecti
 
 The following example shows a **RadMenu** bound declaratively to an **ObjectDataSource**:
 
-````ASPNET
+````ASP.NET
 <telerik:RadMenu ID="RadMenu1" runat="server" Flow="Horizontal" DataSourceID="ObjectDataSource1">
 </telerik:RadMenu>
 <asp:ObjectDataSource ID="ObjectDataSource1" runat="server" SelectMethod="GetSiteData"

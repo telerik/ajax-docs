@@ -14,7 +14,7 @@ position: 6
 
 Suppose you need to cache a user control which has a RadMenu control in it.
 
-````ASPNET
+````ASP.NET
 <%@ control language="C#" autoeventwireup="true" codefile="Menu.ascx.cs" inherits="Menu" %>
 <%@ outputcache duration="10" varybyparam="None" %>
 <%@ register assembly="Telerik.Web.UI" namespace="Telerik.Web.UI" tagprefix="telerik" %>
@@ -33,7 +33,7 @@ The reason for this is that when the aspx page postbacks, it receives the cached
 
 1. Register the common css file for the control and the skin specific css file in the head of the **aspx** page. For **RadMenu** with **Default** skin you need to register the following files:
 
-````ASPNET
+````ASP.NET
 <head runat="server">
     <link href="~/Skins/Menu.css" rel="stylesheet" type="text/css" />
     <link href="~/Skins/Default/Menu.Default.css" rel="stylesheet" type="text/css" />
@@ -52,7 +52,7 @@ The reason for this is that when the aspx page postbacks, it receives the cached
 
 3. Register th scripts with a script manager like this:
 
-````ASPNET
+````ASP.NET
 <asp:ScriptManager ID="ScriptManager1" runat="server">
     <Scripts>
         <asp:ScriptReference Path="~/Scripts/Common/Core.js" />

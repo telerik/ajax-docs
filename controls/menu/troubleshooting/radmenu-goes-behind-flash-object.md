@@ -18,7 +18,7 @@ position: 1
 
 To the Embed tag, add the following attribute:
 
-````ASPNET
+````ASP.NET
 <embed ... wmode="opaque" ...>			
 ````
 

@@ -16,7 +16,7 @@ This article describes how you can prevent a disabled menu item to open if you r
 
 Consider the following JavaScript approach to get the desired behavior.
 
-````ASPNET
+````ASP.NET
 <telerik:RadMenuItem runat="server"  
    Text="Disabled"  
    Enabled="false"  

@@ -26,7 +26,7 @@ The event handler receives two parameters:
 
 You can use this event to initialize the list of child items:
 
-````ASPNET	
+````ASP.NET	
 <script type="text/javascript">
 function ItemOpened(menu, args) {
     var d = new Date();

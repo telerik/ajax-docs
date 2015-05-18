@@ -79,7 +79,7 @@ The **ExpandAnimation** and **CollapseAnimation** properties let you apply anima
 By default, the children of a menu item are displayed when the user hovers the mouse over the parent item.When the mouse moves over a new parent item, the original submenu collapses and the children of the new parent menu item are displayed. The **ExpandDelay** and **CollapseDelay** properties specify the time, in milliseconds, after the mouse enters or exits a parent item until the list of child items begins to expand or collapse.
 
 
-````ASPNET
+````ASP.NET
 <telerik:RadMenu ID="RadMenu1" runat="server">
     <ExpandAnimation Type="OutQuart" Duration="300" />
     <CollapseAnimation Type="OutQuint" Duration="200" />

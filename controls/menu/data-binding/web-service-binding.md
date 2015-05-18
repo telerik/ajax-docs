@@ -42,7 +42,7 @@ The following example shows a **RadMenu** that fetches all child items from a We
 >
 
 
-````ASPNET
+````ASP.NET
 <telerik:RadMenu ID="RadMenu1" runat="server" Skin="Default">
 	<WebServiceSettings Path="ProductCategories.asmx" Method="GetMenuCategories" />
 	<LoadingStatusTemplate>

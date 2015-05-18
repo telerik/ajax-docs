@@ -30,7 +30,7 @@ You can use this event to respond when the context menu disappears:
 ````
 
 
-````ASPNET
+````ASP.NET
 <telerik:RadContextMenu ID="RadContextMenu1" runat="server" OnClientHidden="Goodbye">
     <Items>
         ...
