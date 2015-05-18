@@ -80,19 +80,13 @@ Typically, panels are hierarchical in structure. That is, they contain child pan
 	* SiteMapDataSource
 
 2. For table-structured data sources, **RadPanelBar** uses the **ID** to **ParentID** relationship to establish a hierarchy. Such data sources include
-
 	* DataSet, DataTable, and DataView
-
 	* SqlDataSource
-
 	* AccessDataSource
 
 3. For object-based data sources, **RadPanelBar** uses the **ID** to **ParentID** relationship to establish a hierarchy. Such data sources include
-
 	* ObjectDataSource
-
 	* LinqDataSource
-
 	* Any class that implements the **IEnumerable** interface such as List, Array, ArrayList, etc.
 
 ## Appending Data Bound Items

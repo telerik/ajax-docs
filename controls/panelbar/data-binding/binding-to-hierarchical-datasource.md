@@ -73,11 +73,8 @@ Before adding the **SiteMapDataSource** control to your page, you need to add th
 1. From the **RadPanelBar** property pane, set the **DataSourceID** to the **ID** of the **SiteMapDataSource** control.
 
 2. Each **siteMapNode** has three attributes which are mapped automatically to the respective properties:
-
 	* **url** - Maps to the **NavigateUrl** property. The path can be either relative (using the ~/), or absolute.
-
 	* **title** - Maps to the **Text** property.
-
 	* **description** - Maps to the **ToolTip** property.
 
 3. To set additional properties or overwrite already populated fields, use the **ItemDataBound** event. The example below overwrites the **TooTip** property with the Text value of the item and sets the **Value** property to a concatenated string of [Text] + "_Value". 
@@ -148,19 +145,20 @@ Consider the following example:
 
 1. Drag an instance of **XmlDataSource** onto your Web form and configure the control:
 
-1. Set the Data file to the XML file you just added.
+2. Set the Data file to the XML file you just added.
 
-1. Set the XPath expression to "/Items/Item". This removes the starting node of the XML file so that you can have multiple root-level panel items.![XML Data Source](images/panelbar_configurexmlsource.png)
+3. Set the XPath expression to "/Items/Item". This removes the starting node of the XML file so that you can have multiple root-level panel items.
+	![XML Data Source](images/panelbar_configurexmlsource.png)
 
-1. Set the **DataSourceID** of your RadPanelBar to the ID of the XmlDataSource or choose the XMLDataSource from the smart tag:![Set XML Data Source](images/panelbar_setxmldatasource.gif)
+4. Set the **DataSourceID** of your RadPanelBar to the ID of the XmlDataSource or choose the XMLDataSource from the smart tag:![Set XML Data Source](images/panelbar_setxmldatasource.gif)
 
-1. Map the **Text**, **Value** and **NavigateUrl** fields by setting the **DataTextField**, **DataValueField** and **DataNavigateUrlField** properties:![Configure Properties](images/panelbar_setxmldatasource1.png)
+5. Map the **Text**, **Value** and **NavigateUrl** fields by setting the **DataTextField**, **DataValueField** and **DataNavigateUrlField** properties:![Configure Properties](images/panelbar_setxmldatasource1.png)
 
 >note This example has no separate field for value, so it uses the Text field for the **Value** property, for illustrative purposes.
 >
 
 
-1. As with the SiteMapDataSource example above, you can map additional properties using the [ItemDataBound event]({%slug panelbar/server-side-programming/itemdatabound%}): 
+* As with the SiteMapDataSource example above, you can map additional properties using the [ItemDataBound event]({%slug panelbar/server-side-programming/itemdatabound%}): 
 
 
 
