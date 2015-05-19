@@ -143,7 +143,6 @@ http://www.telerik.com/help/aspnet-ajax/editor-using-newlinebr-property.html htt
 http://www.telerik.com/help/aspnet-ajax/editor-using-themes.html http://docs.telerik.com/devtools/ajax/editor/how-to/use-themes
 http://www.telerik.com/help/aspnet-ajax/editor-using-toolsfile.html http://docs.telerik.com/devtools/ajax/editor/functionality/toolbars/using-toolsfile.xml
 http://www.telerik.com/help/aspnet-ajax/editor-wai-aria-support.html http://docs.telerik.com/devtools/ajax/editor/accessibility-and-internationalization/standards-compliance/wai-aria-support
-http://www.telerik.com/help/aspnet-ajax/editor-whats-new.html http://docs.telerik.com/devtools/ajax/editor/changes-and-backwards-compatibility/what's-new
 http://www.telerik.com/help/aspnet-ajax/editor-xhtml-compliance.html http://docs.telerik.com/devtools/ajax/editor/accessibility-and-internationalization/standards-compliance/xhtml-compliance
 http://www.telerik.com/help/aspnet-ajax/editor-xhtml-validator.html http://docs.telerik.com/devtools/ajax/editor/functionality/dialogs/xhtml-validator
 http://www.telerik.com/help/aspnet-ajax/editorCannotDeserializeDialogParameters.html http://docs.telerik.com/devtools/ajax/editor/troubleshooting/cannot-deserialize-dialog-parameters.-invalid-character-in-a-base-64-string.
