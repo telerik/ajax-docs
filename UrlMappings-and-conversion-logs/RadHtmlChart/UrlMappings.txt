@@ -50,7 +50,7 @@ http://www.telerik.com/help/aspnet-ajax/htmlchart-server-side-api-configure-seri
 http://www.telerik.com/help/aspnet-ajax/htmlchart-server-side-api-configure-series.html http://docs.telerik.com/devtools/ajax/htmlchart/server-side-programming/series-configuration
 http://www.telerik.com/help/aspnet-ajax/htmlchart-server-side-api-overview.html http://docs.telerik.com/devtools/ajax/htmlchart/server-side-programming/overview
 http://www.telerik.com/help/aspnet-ajax/htmlchart-stacked-series.html http://docs.telerik.com/devtools/ajax/htmlchart/functionality/stacked-series
-http://www.telerik.com/help/aspnet-ajax/htmlchart-structure-elements.html http://docs.telerik.com/devtools/ajax/htmlchart/radhtmlchart-structure
+http://www.telerik.com/help/aspnet-ajax/htmlchart-structure-elements.html http://docs.telerik.com/devtools/ajax/htmlchart/structure
 http://www.telerik.com/help/aspnet-ajax/htmlchart-troubleshooting-common-issues.html http://docs.telerik.com/devtools/ajax/htmlchart/troubleshooting/common-issues
 http://www.telerik.com/help/aspnet-ajax/htmlchart-troubleshooting-escaping-special-symbols.html http://docs.telerik.com/devtools/ajax/htmlchart/troubleshooting/handle-special-symbols
 http://www.telerik.com/help/aspnet-ajax/htmlchart-troubleshooting-known-limitations.html http://docs.telerik.com/devtools/ajax/htmlchart/troubleshooting/known-issues/known-limitations

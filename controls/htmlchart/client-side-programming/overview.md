@@ -12,54 +12,58 @@ position: 0
 
 
 
-This help article lists the __RadHtmlChart__'s public client-side methods that let you access and modify the control's height, width, data source, transitions, etc.; shows how to reference and use the __RadHtmlChart__ client-side object (__Examples 1-2__); and provides an example about modifying the data source of __RadHtmlChart__ on the client (__Example 3__).
+This help article lists the **RadHtmlChart**'s public client-side methods that let you access and modify the control's height, width, data source, transitions, etc.; shows how to reference and use the **RadHtmlChart** client-side object (**Examples 1-2**); and provides an example about modifying the data source of **RadHtmlChart** on the client (**Example 3**).
 
-__RadHtmlChart__ for ASP.NET AJAX is based on the __Kendo UI Data Visualization Chart Widgethttp://demos.telerik.com/kendo-ui/area-charts/index__. Thus, it exposes the [client-side API and methods offered by the widget](http://docs.telerik.com/kendo-ui/api/dataviz/chart) and mainly provides a wrapper and API for working with the chart on the server (programmatic creation, data binding, declaring in the markup).
+**RadHtmlChart** for ASP.NET AJAX is based on the [Kendo UI Data Visualization Chart Widget](http://demos.telerik.com/kendo-ui/area-charts/index). Thus, it exposes the [client-side API and methods offered by the widget](http://docs.telerik.com/kendo-ui/api/dataviz/chart) and mainly provides a wrapper and API for working with the chart on the server (programmatic creation, data binding, declaring in the markup).
 
 ## Public Methods
 
 
-|  __Name__  |  __Description__  |
+|  **Name**  |  **Description**  |
 | ------ | ------ |
-| __getSVGString__ |Returns the SVG rendering of the control, regardless of the browser. Useful for [exporting scenarios](http://www.telerik.com/community/code-library/aspnet-ajax/html-chart/exporting-radhtmlchart-to-png-and-pdf.aspx).|
-| __loadData__ |Invokes a light callback to the server to obtain the __RadHtmlChart__ data. This is used when the server-side __InvokeLoadData__ property is set to __FromCode__ . In this case, the data is not sent to the client at all until this method is called.|
-| __repaint__ |Redraws the chart. Useful when the chart is in an invisible container that is shown on a certain condition, when a client-side databinding is performed or to replay the initial animation.|
-| __get_dataSourceJSON__ |Gets a stringified JSON object with the data source of a databound __RadHtmlChart__ . __Tip:__ You can parse this to a JSON object through a jQuery parseJSON method in order to manipulate it as an array.|
-| __get_height__ |Gets the height of the chart.|
-| __get_width__ |Gets the width of the chart.|
-| __get_transitions__ |Gets a boolean value indicating whether an animation is played when the chart is rendered.|
-| __set_dataSource__ |Databinds the __RadHtmlChart__ to the new data source that is passed as a parameter. This can be a JSON string or an array of JSON objects. The fields in the JSON objects must match the chart's properties – their names are set through the __DataFieldY__ , __ColorField__ , __NameField__ and __ExplodeField__ properties. In order to refresh the chart with the new data, the __repaint()__ method must be called.|
-| __set_height__ |Sets new height to the chart.|
-| __set_width__ |Sets new width to the chart.|
-| __set_transitions__ |Sets a boolean value indicating whether an animation is played when the chart is rendered.|
-| __get_kendoWidget__ |Gets a reference to the Kendo Chart widget.|
+| **getSVGString** |Returns the SVG rendering of the control, regardless of the browser. Useful for [exporting scenarios](http://www.telerik.com/community/code-library/aspnet-ajax/html-chart/exporting-radhtmlchart-to-png-and-pdf.aspx).|
+| **loadData** |Invokes a light callback to the server to obtain the **RadHtmlChart** data. This is used when the server-side **InvokeLoadData** property is set to **FromCode** . In this case, the data is not sent to the client at all until this method is called.|
+| **repaint** |Redraws the chart. Useful when the chart is in an invisible container that is shown on a certain condition, when a client-side databinding is performed or to replay the initial animation.|
+| **get_dataSourceJSON** |Gets a stringified JSON object with the data source of a databound **RadHtmlChart** . **Tip:** You can parse this to a JSON object through a jQuery parseJSON method in order to manipulate it as an array.|
+| **get_height** |Gets the height of the chart.|
+| **get_width** |Gets the width of the chart.|
+| **get_transitions** |Gets a boolean value indicating whether an animation is played when the chart is rendered.|
+| **set_dataSource** |Databinds the **RadHtmlChart** to the new data source that is passed as a parameter. This can be a JSON string or an array of JSON objects. The fields in the JSON objects must match the chart's properties – their names are set through the **DataFieldY** , **ColorField** , **NameField** and **ExplodeField** properties. In order to refresh the chart with the new data, the **repaint()** method must be called.|
+| **set_height** |Sets new height to the chart.|
+| **set_width** |Sets new width to the chart.|
+| **set_transitions** |Sets a boolean value indicating whether an animation is played when the chart is rendered.|
+| **get_kendoWidget** |Gets a reference to the Kendo Chart widget.|
 
-__RadHtmlChart__ for ASP.NET AJAX, through the Kendo widget, exposes the [Kendo Chart client-side methods](http://docs.telerik.com/kendo-ui/api/dataviz/chart#methods).
+**RadHtmlChart** for ASP.NET AJAX, through the Kendo widget, exposes the [Kendo Chart client-side methods](http://docs.telerik.com/kendo-ui/api/dataviz/chart#methods).
 
 ## Get Client-side Object Reference
 
 There are two ways to get a reference to the Kendo Chart widget in order to use its API:
 
-* Use the __get_kendoWidget__ method the __RadHtmlChart__ client-side object exposes. You can get the __RadHtmlChart__ object through the __$find()__ MS AJAX method.__Example 1:__ Get the Kendo Chart object through the get_kendoWidget method.
+* Use the **get_kendoWidget** method the **RadHtmlChart** client-side object exposes. You can get the **RadHtmlChart** object through the **$find()** MS AJAX method.
 
-````JavaScript
-var radHtmlChartObject = $find("<%=RadHtmlChart1.ClientID %>"); //the standard script control object
-var kendoChart = radHtmlChartObject.get_kendoWidget(); //the Kendo widget
-````
+	>caption **Example 1:** Get the Kendo Chart object through the get_kendoWidget method.
 
-* Use the standard Kendo approach for getting the widget through the data-attributes of the DOM element:__Example 2:__ Get the Kendo Chart object through the data attribute of the DOM object.
+	**JavaScript**
+	
+		var radHtmlChartObject = $find("<%=RadHtmlChart1.ClientID %>"); //the standard script control object
+		var kendoChart = radHtmlChartObject.get_kendoWidget(); //the Kendo widget
 
-````JavaScript
-var kendoChart = $telerik.$("#<%=RadHtmlChart1.ClientID %>").data("kendoChart");//the jQuery selector must get the RadHtmlChart wrapping div element
-````
+* Use the standard Kendo approach for getting the widget through the data-attributes of the DOM element:
 
->note  __RadHtmlChart__ is an IScriptControl based on MS AJAX and so it instantiates its client-side object (i.e., the Kendo Chart) during the`Sys.Application.Init`event. This means that the earliest event in which you can reference the chart widget is __Sys.Application.Load__ .
+	>caption **Example 2:** Get the Kendo Chart object through the data attribute of the DOM object.
+
+	**JavaScript**
+	
+		var kendoChart = $telerik.$("#<%=RadHtmlChart1.ClientID %>").data("kendoChart");//the jQuery selector must get the RadHtmlChart wrapping div element
+
+>note  **RadHtmlChart** is an IScriptControl based on MS AJAX and so it instantiates its client-side object (i.e., the Kendo Chart) during the`Sys.Application.Init`event. This means that the earliest event in which you can reference the chart widget is **Sys.Application.Load** .
 
 ## Modify the RadHtmlChart's Data Source on the Client
 
-__Example 3__ below demonstrates a way to change the data source of a __RadHtmlChart__ using its client-side API. Once you set the desired data source to the control, you have to invoke its __repaint()__ method, ensuring that the control will be redrawn with the new data.
+**Example 3** below demonstrates a way to change the data source of a **RadHtmlChart** using its client-side API. Once you set the desired data source to the control, you have to invoke its **repaint()** method, ensuring that the control will be redrawn with the new data.
 
->caption Example 3: Client-side change of __RadHtmlChart__'s data source.
+>caption Example 3: Client-side change of **RadHtmlChart**'s data source.
 
 ````ASP.NET
 <script type="text/javascript">

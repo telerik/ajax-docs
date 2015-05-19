@@ -33,13 +33,13 @@ position: 2
 |  **Name**  |  **Description**  |
 | ------ | ------ |
 | **Visible** |Defines whether the Selection Hint is displayed when moving the Range Selector. True or false.|
-| **DataFormatString** |The format string that will form the Selection Hint text. The {0} placeholder is used to denote the **From** date	while {1} placeholder is used to denote the **To** date (e.g. DataFormatString="From {0} to {1}"). More details on how	to format dates is available [Date Axis]({%slug htmlchart/functionality/axes/date-axis%})help article.|
+| **DataFormatString** |The format string that will form the Selection Hint text. The {0} placeholder is used to denote the **From** date	while {1} placeholder is used to denote the **To** date (e.g. DataFormatString="From {0} to {1}"). More details on how to format dates is available [Date Axis]({%slug htmlchart/functionality/axes/date-axis%}) help article.|
 
 ## Attribute properties in Navigator > Series
 
-The type of the series which can be used in the **Navigator** is[Area Series]({%slug htmlchart/chart-types/area-chart%}),[Column Series]({%slug htmlchart/chart-types/column-chart%}), [Line Series]({%slug htmlchart/chart-types/line-chart%}) and [Candlestick Series]({%slug htmlchart/chart-types/candlestick-chart%}).
+The type of the series which can be used in the **Navigator** is [Area Series]({%slug htmlchart/chart-types/area-chart%}), [Column Series]({%slug htmlchart/chart-types/column-chart%}), [Line Series]({%slug htmlchart/chart-types/line-chart%}) and [Candlestick Series]({%slug htmlchart/chart-types/candlestick-chart%}).
 
-All the listed properties in [Configuring Series]({%slug htmlchart/server-side-programming/series-configuration%})help article which are related to the above series types are also available and optional for the Navigator > Series.The exceptions are:
+All the listed properties in [Configuring Series]({%slug htmlchart/server-side-programming/series-configuration%}) help article which are related to the above series types are also available and optional for the Navigator > Series.The exceptions are:
 
 
 |  **Name**  |  **Comment**  |
@@ -49,7 +49,7 @@ All the listed properties in [Configuring Series]({%slug htmlchart/server-side-p
 
 ## Attribute properties in Navigator > XAxis
 
-All the listed properties in [Configuring Axes]({%slug htmlchart/server-side-programming/axes-configuration%})help article which are related to the XAxis are also available and optional for the Navigator > XAxis.The exceptions are:
+All the listed properties in [Configuring Axes]({%slug htmlchart/server-side-programming/axes-configuration%}) help article which are related to the XAxis are also available and optional for the Navigator > XAxis.The exceptions are:
 
 
 |  **Name**  |  **Comment**  |

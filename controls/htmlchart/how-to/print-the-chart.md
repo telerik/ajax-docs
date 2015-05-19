@@ -10,15 +10,15 @@ position: 1
 
 # Print the Chart
 
-The **RadHtmlChart** renders an **SVG** or **VML** element thatcannot be saved directly for printing as an image. In **Example 1** you will see how to force the browser to print only the chart and not the entire page.
+The **RadHtmlChart** renders an **SVG** or **VML** element that cannot be saved directly for printing as an image. In **Example 1** you will see how to force the browser to print only the chart and not the entire page.
 
 ## Print the HtmlChart's Content
 
-Printing anything from a web page ultimately relies on the browser printing engine and the **RadHtmlChart** is not an exception.**Example 1** shows how to use a little JavaScript and CSS to hide everything else on the page can so only the chart will show up.
+Printing anything from a web page ultimately relies on the browser printing engine and the **RadHtmlChart** is not an exception. **Example 1** shows how to use a little JavaScript and CSS to hide everything else on the page can so only the chart will show up.
 
->warning At the time of writing (7thof August, 2012) Safari has a bug with printing gradient images that affects the **RadHtmlChart** as it utilizes them heavily. This means that under Safari the **RadHtmlChart** will not print properly until they fix this problem. The issue can be tracked in [this URI](http://code.google.com/p/chromium/issues/detail?id=99458).
+>warning At the time of writing (7th of August, 2012) Safari has a bug with printing gradient images that affects the **RadHtmlChart** as it utilizes them heavily. This means that under Safari the **RadHtmlChart** will not print properly until they fix this problem. The issue can be tracked in [this URI](http://code.google.com/p/chromium/issues/detail?id=99458).
 
->caption Example 1**: Force the browser to print only the Chart's content but not the whole page.
+>caption **Example 1**: Force the browser to print only the Chart's content but not the whole page.
 
 ````ASP.NET 
 <div id="chartContainer" style="width: 800px; height: 500px">

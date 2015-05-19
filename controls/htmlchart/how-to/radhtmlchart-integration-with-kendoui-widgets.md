@@ -121,7 +121,7 @@ This can be done by loading a single jQuery and considering the following script
 1. **jQueryInclude.js** — a script that assigns the Telerik.Web.UI jQuery to the global $ and jQuery aliases.
 1. **jQueryPlugins.js** — additional JavaScript plugins required by the **RadHtmlChart**.
 1. **kendo.all.min.js** — the Kendo UI JavaScript library.
-1. **RadHtmlChart.js** — the **RadHtmlChart**'s specific scripts including the skins. It must be loaded after the**kendo.all.min.js** file, in order to prevent the **RadHtmlChart** skins from overriding by the Kendo UI themes.
+1. **RadHtmlChart.js** — the **RadHtmlChart**'s specific scripts including the skins. It must be loaded after the **kendo.all.min.js** file, in order to prevent the **RadHtmlChart** skins from overriding by the Kendo UI themes.
 1. If you are using **RadScriptManager**, set the **EnableScriptCombine** property to **false**.
 1. Set the **EnableEmbeddedScripts** property of the **RadHtmlChart** control to **false**
 

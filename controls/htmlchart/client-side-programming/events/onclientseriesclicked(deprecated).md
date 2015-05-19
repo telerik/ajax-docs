@@ -12,7 +12,7 @@ position: 1
 
 >caution  **OnClientSeriesClicked** client-side event has been deprecated since Q3 2014. Please, use [OnSeriesClick]({%slug htmlchart/client-side-programming/events/overview%}) instead.
 
-The **OnClientSeriesClicked** event occurs when the series in the RadHtmlChart are clicked. This article discussesthe objects of the **RadHtmlChart OnClientSeriesClicked** event and their properties and methods and then shows an example of how toretrieve properties when the event occurs (**Example 1**).
+The **OnClientSeriesClicked** event occurs when the series in the RadHtmlChart are clicked. This article discusses the objects of the **RadHtmlChart OnClientSeriesClicked** event and their properties and methods and then shows an example of how toretrieve properties when the event occurs (**Example 1**).
 
 The **OnClientSeriesClicked** event handler receives the following parameters:
 
@@ -21,34 +21,34 @@ The **OnClientSeriesClicked** event handler receives the following parameters:
 * An event arguments object that exposes the following properties and methods:
 
 	* **get_category()** - Returns the category of the clicked series.
-		* **PieSeries**/**DonutSeries** - Returns the **NameField** of the clicked item (orthe **Name** property of the **PieSeries**/**DonutSeries** item).
-		* **BubbleSeries, ScatterSeries** and **ScatterLineSeries** use a numerical x-axis instead of acategorical x-axis and therefore they return undefined because there is no category.
-		* **Other series types** - Returns the text of the x-axis label that correspondsto the clicked item.
+		* **PieSeries**/**DonutSeries** - Returns the **NameField** of the clicked item (or the **Name** property of the **PieSeries**/**DonutSeries** item).
+		* **BubbleSeries, ScatterSeries** and **ScatterLineSeries** use a numerical x-axis instead of a categorical x-axis and therefore they return undefined because there is no category.
+		* **Other series types** - Returns the text of the x-axis label that corresponds to the clicked item.
 
 	* **get_dataItem()** - Returns the data points of the clicked series:
 		* **BubbleSeries** - An object of the clicked item is returned. This object exposes three fields: **X**,**Y** and **Size**.For example: *args.get_dataItem().size* will return the **Size** of the clicked series item.
 		* **PieSeries/DonutSeries** - An object of the clicked item is returned. It exposes four fields: **Value**,**Category**, **Color** and **Explode**.For example: *args.get_dataItem().value* will return the **Value** of the clicked series item.
-		* **ScatterSeries** and **ScatterLineSeries** - An array withtwo elements is returned—the **X** and **Y** value of the item: *args.get_dataItem()[1]*will return the **Y** value of the item.
+		* **ScatterSeries** and **ScatterLineSeries** - An array with two elements is returned—the **X** and **Y** value of the item: *args.get_dataItem()[1]* will return the **Y** value of the item.
 		* **Other series types** - The **Y** value of the item.
 
 	* **get_seriesData()** - Returns the data points of the clicked series:
 		* **BubbleSeries** - An object for each item is returned. The object exposes three fields: **X**,**Y** and **Size**.For example: *args.get_seriesData()[2].size* will return the size of the third series item (if such item is available).
 		* **PieSeries/DonutSeries** - An object for each item is returned. It exposes four fields: **Value**,**Category**, **Color** and **Explode**.For example: *args.get_seriesData()[2].value* will return the value of the third series item (if such item is available).
-		* **ScatterSeries** and **ScatterLineSeries** - An array is returned with an element for each series item.Each array element exposes two fields: **[0]** and **[1]** for the **X** and**Y** value of the item: *args.get_seriesData()[2][0]*will return the **X** value of the third series item.
-		* **Other series types** - An array with the **Y** values of the items from the series is returned. For example:*args.get_seriesData()[0]* will return the **Y** value of the first item in the series.
+		* **ScatterSeries** and **ScatterLineSeries** - An array is returned with an element for each series item.Each array element exposes two fields: **[0]** and **[1]** for the **X** and **Y** value of the item: *args.get_seriesData()[2][0]* will return the **X** value of the third series item.
+		* **Other series types** - An array with the **Y** values of the items from the series is returned. For example: *args.get_seriesData()[0]* will return the **Y** value of the first item in the series.
 
-	* **get_seriesName()** - Returns the **Name** of the clicked series. It corresponds to the **Name**property of the series. If the series does not have a name set, *undefined* will be returned.
+	* **get_seriesName()** - Returns the **Name** of the clicked series. It corresponds to the **Name** property of the series. If the series does not have a name set, *undefined* will be returned.
 
 	* **get_seriesType()** - Returns the type of the clicked series (e.g., Bar, Pie, ScatterLine, and so on) as a string.
 
 	* **get_value()** - Returns the value of the clicked item.
-		* **BubbleSeries** - An object of the clicked item is returned. It exposes three fields: **X**,**Y** and **Size**.For example: *args.get_value().size* will return the size of the clicked series item.
-		* **ScatterSeries and ScatterLineSeries** - Returnsan object that exposes the **X** and **Y** fields for the **X**value and the **Y** value of the item. For example: *args.get_value().x* willreturn the **X** value of a scatter-type item.
+		* **BubbleSeries** - An object of the clicked item is returned. It exposes three fields: **X**,**Y** and **Size**. For example: *args.get_value().size* will return the size of the clicked series item.
+		* **ScatterSeries and ScatterLineSeries** - Returns an object that exposes the **X** and **Y** fields for the **X** value and the **Y** value of the item. For example: *args.get_value().x* will return the **X** value of a scatter-type item.
 		* **Other series types** - Returns the **Y** value of the clicked series item.
 
->important For data bound series, the **get_seriesData()** and **get_dataItem()** methodsreturn objects whose fields correspond to the columns from the	data source. For example, if the **ExplodeField** property of a PieSeries is set to "IsExploded" the **dataItem** will contain a	field named "IsExploded" that will hold the value from the row. See **Example 1** .
+>important For data bound series, the **get_seriesData()** and **get_dataItem()** methods return objects whose fields correspond to the columns from the	data source. For example, if the **ExplodeField** property of a PieSeries is set to "IsExploded" the **dataItem** will contain a	field named "IsExploded" that will hold the value from the row. See **Example 1** .
 
->caption Example 1: How do yo modify the **dataItem** in the event and reflect the changes in the chart? This example shows how to togglewhether the clicked item is exploded.
+>caption Example 1: How do yo modify the **dataItem** in the event and reflect the changes in the chart? This example shows how to toggle whether the clicked item is exploded.
 
 ````ASP.NET
 <telerik:RadHtmlChart runat="server" ID="PieChart1" Width="600" Height="400" Transitions="false"
@@ -109,7 +109,7 @@ Protected Function GetData() As DataTable
 End Function
 ````
 
->caption Example 2: The following example shows how to retreive some information about the clicked **RadHtmlChart** via the listed properties.
+>caption Example 2: The following example shows how to retrieve some information about the clicked **RadHtmlChart** via the listed properties.
 
 ````ASP.NET
 <script type="text/javascript">
@@ -140,7 +140,7 @@ End Function
 		<XAxis>
 			<Items>
 				<telerik:AxisItem LabelText="January" />
-				<telerik:AxisItem LabelText="Februrary" />
+				<telerik:AxisItem LabelText="February" />
 				<telerik:AxisItem LabelText="March" />
 				<telerik:AxisItem LabelText="April" />
 			</Items>

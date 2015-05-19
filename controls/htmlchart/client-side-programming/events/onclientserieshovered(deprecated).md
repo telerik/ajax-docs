@@ -34,8 +34,8 @@ The **OnClientSeriesHovered** event handler receives the following parameters:
 	* **get_seriesData()** - Returns the data points of the clicked series:
 		* **BubbleSeries** - An object for each item is returned. The object exposes three fields: **X**,	**Y** and **Size**.	For example: *args.get_seriesData()[2].size* will return the size of the third series item (if such item is available).
 		* **PieSeries/DonutSeries** - An object for each item is returned. It exposes four fields: **Value**,	**Category**, **Color** and **Explode**.	For example: *args.get_seriesData()[2].value* will return the value of the third series item (if such item is available).
-		* **ScatterSeries** and **ScatterLineSeries** - An array is returned with an element for each series item.Each array element exposes two fields: **[0]** and **[1]** for the **X** and**Y** value of the item: *args.get_seriesData()[2][0]*will return the **X** value of the third series item.
-		* **Other series types** - An array with the **Y** values of the items from the series is returned. For example:*args.get_seriesData()[0]* will return the **Y** value of the first item in the series.
+		* **ScatterSeries** and **ScatterLineSeries** - An array is returned with an element for each series item. Each array element exposes two fields: **[0]** and **[1]** for the **X** and **Y** value of the item: *args.get_seriesData()[2][0]* will return the **X** value of the third series item.
+		* **Other series types** - An array with the **Y** values of the items from the series is returned. For example: *args.get_seriesData()[0]* will return the **Y** value of the first item in the series.
 
 	* **get_seriesName()** - Returns the **Name** of the clicked series. It corresponds to the **Name**	property of the series. If the series does not have a name set, *undefined* will be returned.
 

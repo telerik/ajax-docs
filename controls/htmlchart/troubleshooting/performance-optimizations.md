@@ -18,7 +18,7 @@ The performance also greatly depends on the performance of the machine and the b
 
 ## How to Improve RadHtmlChart Performance
 
-The way to improve the rendering speed of the chart is to remove the most numerous elements that can slow down the browser. There are several things you could do in order to speed up the**RadHtmlChart**'s client-side rendering:
+The way to improve the rendering speed of the chart is to remove the most numerous elements that can slow down the browser. There are several things you could do in order to speed up the **RadHtmlChart**'s client-side rendering:
 
 * Disable the chart's animation by setting the **Transitions** property to **false**. By doing so, the browser will not have to animate the thousands of XML nodes in the chart image.
 * Hide the MinorGridLines and/or MajorGridLines of the X and/or Y axes by setting the **[YAxis/XAxis].[MinorGridLines/MajorGridLines].Visible** property to **false**.

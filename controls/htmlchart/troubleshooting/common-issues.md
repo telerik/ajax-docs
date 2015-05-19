@@ -12,14 +12,14 @@ position: 0
 
 This help article lists the most common issues one can face when using the **RadHtmlChart** control and offers possible solutions for them.
 
-1. [ Тooltips are hidden behind RadWindow and/or RadNotification. ](#тooltips-are-hidden-behind-radwindow-and/or-radnotification)
+1. [ Tooltips are hidden behind RadWindow or RadNotification. ](#tooltips-are-hidden-behind-radwindow-or-radnotification)
 1. [ Legend is not visible. ](#legend-is-not-visible)
-1. [ XAxis labels are cluttered/overlapping. ](#xaxis-labels-are-cluttered/overlapping)
+1. [ XAxis labels are cluttered or overlapping. ](#xaxis-labels-are-cluttered-or-overlapping)
 1. [ YAxis is not rescaled in a stock chart when changing the selection range. ](#yaxis-is-not-rescaled-in-a-stock-chart-when-changing-the-selection-range)
-1. [ There is a redundant space between pie/donut chart and its legend. ](#there-is-a-redundant-space-between-pie/donut-chart-and-its-legend)
+1. [ There is a redundant space between pie or donut chart and its legend. ](#there-is-a-redundant-space-between-pie-or-donut-chart-and-its-legend)
 1. [ RadHtmlChart cannot be bound to a data source that has special characters in its field names. ](#radhtmlchart-cannot-be-bound-to-a-data-source-that-has-special-characters-in-its-field-names)
 
-## Тooltips are Hidden Behind RadWindow and/or RadNotification
+## Tooltips are Hidden Behind RadWindow or RadNotification
 
 Solution: The chart's tooltip has a z-index of 1000 which is lower than the z-index of the **RadWindow**/**RadNotification**. You can ensure a higher z-index for the tooltips by overriding the default style:
 
@@ -37,9 +37,9 @@ You can find the list of Telerik UI controls with absolute positioning and their
 
 Solution: The chart's legend consists of series' names for all series except for the pie, donut and funnel series where the items' names are used. You must set the **Name** property of each series/item for them to show in the legend.
 
-## XAxis Labels are Cluttered/Overlapping
+## XAxis Labels are Cluttered or Overlapping
 
-Solution: This happens when the x-axis labels are either too long, or there are many labels on the x-axis (see the left chart in**Figure 1**). You can try one of the following steps (the fixed labels appearance is shown in the right chart in **Figure 1**):
+Solution: This happens when the x-axis labels are either too long, or there are many labels on the x-axis (see the left chart in **Figure 1**). You can try one of the following steps (the fixed labels appearance is shown in the right chart in **Figure 1**):
 
 * Render every n-th label through the **XAxis.LabelsAppearance.Step** property.
 * Rotate x-axis labels to a particular angle through the **XAxis.LabelsAppearance.RotationAngle** property.
@@ -139,7 +139,7 @@ End Sub
 
 Solution: The **YAxis.Name** property of the main **YAxis** is set but the series' **AxisName** property is not. You must either remove the main axis' **YAxis.Name** property declaration or associate it to the corresponding series **AxisName** property.
 
-## There is a Redundant Space Between Pie/Donut Chart and its Legend
+## There is a Redundant Space Between Pie or Donut Chart and its Legend
 
 Solution: You can either offset the legend (see an example in the [ADD legend positioning options for RadHtmlChart](http://feedback.telerik.com/Project/108/Feedback/Details/67001) feedback item) or set a negative value for the **Margin** property of the chart's **PlotArea** (see **Example 2**).
 

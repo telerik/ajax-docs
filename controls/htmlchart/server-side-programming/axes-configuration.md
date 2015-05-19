@@ -45,17 +45,17 @@ As of the Q3 2012 release, you can declare multiple y-axes in the **AdditionalYA
 
 *  **Numeric** - Sets a linear scale for the axis. Applicable for numeric and category series.
 
-*  **Log** - Sets a logarithmic scale for the axis. See[Logarithmic Axis]({%slug htmlchart/functionality/axes/logarithmic-axis%})help article for details. Applicable for numeric and category series. 
+*  **Log** - Sets a logarithmic scale for the axis. See [Logarithmic Axis]({%slug htmlchart/functionality/axes/logarithmic-axis%}) help article for details. Applicable for numeric and category series. 
 
 >caption List 2: **XAxis.Type** property values.
 
 *  **Auto** - Automatically detects the type of the axis. Applicable for numeric and category series.
 
-*  **Category** - Used for displaying discrete data. See[Date Axis]({%slug htmlchart/functionality/axes/date-axis%})help article for details. Applicable for category series.
+*  **Category** - Used for displaying discrete data. See [Date Axis]({%slug htmlchart/functionality/axes/date-axis%}) help article for details. Applicable for category series.
 
-*  **Date** - Used for displaying chronological data. See[Date Axis]({%slug htmlchart/functionality/axes/date-axis%})help article for details. Applicable for category series.
+*  **Date** - Used for displaying chronological data. See [Date Axis]({%slug htmlchart/functionality/axes/date-axis%}) help article for details. Applicable for category series.
 
-*  **Log** - Sets a logarithmic scale for the axis. See[Logarithmic Axis]({%slug htmlchart/functionality/axes/logarithmic-axis%})help article for details. Applicable for numeric series.
+*  **Log** - Sets a logarithmic scale for the axis. See [Logarithmic Axis]({%slug htmlchart/functionality/axes/logarithmic-axis%}) help article for details. Applicable for numeric series.
 
 ## Attribute Properties in [Axis] > LabelsAppearance
 

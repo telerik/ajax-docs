@@ -24,7 +24,7 @@ Since the purpose of the numeric series (i.e., **ScatterSeries**, **ScatterLineS
 
 You can do the following steps, in order to assign programmatically DateTime values to numeric series items.
 
-* Convert the .NET DateTime object to its JavaScript Date object representation. This conversion is necessary because JavaScript uses the Unix Epoch(* i.e., the number of seconds that have elapsed since 1/1/1970 at 12:00:00 AM*) as a base to track dates as the number of milliseconds from it to the actual date.
+* Convert the .NET DateTime object to its JavaScript Date object representation. This conversion is necessary because JavaScript uses the Unix Epoch(*i.e., the number of seconds that have elapsed since 1/1/1970 at 12:00:00 AM*) as a base to track dates as the number of milliseconds from it to the actual date.
 
 * Cast the converted value to decimal and pass it to the series item's **X** property.
 

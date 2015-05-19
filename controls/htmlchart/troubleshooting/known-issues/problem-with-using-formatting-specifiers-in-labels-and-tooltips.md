@@ -14,7 +14,7 @@ Specifying [date format strings](http://msdn.microsoft.com/en-us/library/az4se3k
 
 >note As of **Q3 2012** , the [ClientTemplate]({%slug htmlchart/functionality/clienttemplate/overview%}) property can expose additional columns for the series	labels and tooltips. With this you are able to specify a date set as a simple string.
 
-Nevertheless, there is a possible approach that will allow you to format the labels in a non-numerical x-axis. For example,let’s take the items in an x-axis whose labels should display a month given an object of type **DateTime**.Follow these steps to format the labels accordingly:
+Nevertheless, there is a possible approach that will allow you to format the labels in a non-numerical x-axis. For example,let’s take the items in an x-axis whose labels should display a month given an object of type **DateTime**. Follow these steps to format the labels accordingly:
 
 1. On the server side, iterate through the data source that is used for populating the x-axis items.
 1. Get the **DateTime** value of the current data source record.

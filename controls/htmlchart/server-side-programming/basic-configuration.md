@@ -19,9 +19,9 @@ position: 1
 | **DataSourceID** |Used to set a declarative data source to the **RadHtmlChart** control (e.g., SqlDataSource, LinqDataSource, EntityDataSource).|
 | **DataSource** |Used to set a programmatic data source to the **RadHtmlChart** control (e.g., a DataTable, List of custom objects, DataSet).|
 | **Height** |Get/set the height of the **RadHtmlChart** control in pixels.|
-| **InvokeLoadData** |Determines when the actual data will be loaded. Takes a member of the Telerik.Web.UI.HtmlChart.LoadDataInvocation enumeration: **AfterPageLoad** - The data is loaded just after the entire page is loaded via a lightweight callback. Its effect would be noticeable in larger (slower) pages; - **FromCode** - Data is loaded only when explicitly called via the[client-side API]({%slug htmlchart/client-side-programming/overview%})of the control	(the **loadData()** method) via a lightweight callback; - **OnPageLoad** - Data is loaded when the page is being loaded along with the rest of the controls. This is the only case where it is available in the page markup	and a callback is not performed.|
-| **OnClientSeriesClicked** |The name of the handler for the[OnClientSeriesClicked(deprecated)]({%slug htmlchart/client-side-programming/events/onclientseriesclicked(deprecated)%})client-side event.|
-| **OnClientSeriesHovered** |The name of the handler for the[OnClientSeriesHovered(deprecated)]({%slug htmlchart/client-side-programming/events/onclientserieshovered(deprecated)%})client-side event.|
+| **InvokeLoadData** |Determines when the actual data will be loaded. Takes a member of the Telerik.Web.UI.HtmlChart.LoadDataInvocation enumeration: **AfterPageLoad** - The data is loaded just after the entire page is loaded via a lightweight callback. Its effect would be noticeable in larger (slower) pages; - **FromCode** - Data is loaded only when explicitly called via the [client-side API]({%slug htmlchart/client-side-programming/overview%}) of the control	(the **loadData()** method) via a lightweight callback; - **OnPageLoad** - Data is loaded when the page is being loaded along with the rest of the controls. This is the only case where it is available in the page markup	and a callback is not performed.|
+| **OnClientSeriesClicked** |The name of the handler for the [OnClientSeriesClicked(deprecated)]({%slug htmlchart/client-side-programming/events/onclientseriesclicked(deprecated)%}) client-side event.|
+| **OnClientSeriesHovered** |The name of the handler for the [OnClientSeriesHovered(deprecated)]({%slug htmlchart/client-side-programming/events/onclientserieshovered(deprecated)%}) client-side event.|
 | **Layout** |A property indicating whether the chart will be rendered as Default, Sparkline or Stock chart.|
 | **RenderAs** |A property indicating whether the chart will be rendered as **Canvas**, **SVG** or **VML** . Setting the property to **Auto** will instruct the chart to automatically decide how to be rendered, based on the browser. This property is available since **Q1 2015** .|
 | **Transitions** |Get/set whether an animation is played when the chart is rendered.|
@@ -46,7 +46,7 @@ position: 1
 | **Align** |The alignment of the title according to the chart. An enumeration ( **Telerik.Web.UI.HtmlChart.ChartTitleAlign** )	with one of the following values: Left, Center or Right.|
 | **BackgroundColor** |The background color of the title area. Can take a common color name or a hex value.|
 | **Position** |The vertical position of the chart title. An enumeration ( **Telerik.Web.UI.HtmlChart.ChartTitlePosition** ) with the following values: Top or Bottom.|
-| **TextStyle** |Controls the appearance of the labels in this element. See the[Labels and Titles Font Settings]({%slug htmlchart/appearance-and-styling/labels-and-titles-font-settings%})article fordetailed information.|
+| **TextStyle** |Controls the appearance of the labels in this element. See the [Labels and Titles Font Settings]({%slug htmlchart/appearance-and-styling/labels-and-titles-font-settings%}) article for detailed information.|
 | **Visible** |Defines whether the chart title is shown. Values are True or False.|
 
 ## Attribute Properties in Main Tag > Legend > Appearance
@@ -56,7 +56,7 @@ position: 1
 | ------ | ------ |
 | **BackgroundColor** |The background color of the legend area. Can take a common color name or a hex value.|
 | **Position** |The position of the chart legend relative to the plot area. An enumeration (Telerik.Web.UI.HtmlChart.ChartLegendPosition)	with the following values: Bottom, Left, Right, Top.|
-| **TextStyle** |Controls the appearance of the labels in this element. See the[Labels and Titles Font Settings]({%slug htmlchart/appearance-and-styling/labels-and-titles-font-settings%})articlefor detailed information.|
+| **TextStyle** |Controls the appearance of the labels in this element. See the [Labels and Titles Font Settings]({%slug htmlchart/appearance-and-styling/labels-and-titles-font-settings%}) article for detailed information.|
 | **Visible** |Defines whether the chart legend is shown. Values are True or False.|
 
 ## Attribute Property in Main Tag > PlotArea > Appearance > FillStyle
@@ -90,10 +90,10 @@ For example:
 | ------ | ------ |
 | **BackgroundColor** |The background color of the tooltips for the items from this series. Can take a common color name or a hex value.	If it is not set explicitly the control will pick one according to currenly used Skin.|
 | **Color** |The text color of the tooltips for the items from this series. Can take a common color name or a hex value.	If it is not set explicitly the control will pick one according to the currently used Skin.|
-| **ClientTemplate** |A string for the client template that will be applied to the tooltips when they render.	It can use any column from the data source given to the chart through the following syntax: **#=dataItem.ColumnName#** where the string delimited inside #=.....#	is the expression to be evaluated. The tooltips are HTML so HTML can be used outside of the expression tags.	See[here]({%slug htmlchart/functionality/clienttemplate/overview%})for more information.|
+| **ClientTemplate** |A string for the client template that will be applied to the tooltips when they render.	It can use any column from the data source given to the chart through the following syntax: **#=dataItem.ColumnName#** where the string delimited inside #=.....#	is the expression to be evaluated. The tooltips are HTML so HTML can be used outside of the expression tags. See [here]({%slug htmlchart/functionality/clienttemplate/overview%}) for more information.|
 | **DataFormatString** |The format string that will form the labels' text. The **{0}** placeholder is	used to denote the **Y** value of the item. For the **ScatterSeries** and **ScatterLineSeries** you can use **{1}** for the **X** value.	Although **CandlestickSeries** ToolTips have already predefined pattern by design	it can be modified through **{0}** , **{1}** , **{2}** , **{3}** and **{4}** placeholders that denotes accordingly the Open, High, Low, Close and	the corresponding XAxis item's value.|
 | **Shared** |Defines whether the chart will display a single tooltip for every category. Values are True or False.|
-| **SharedTemplate** |A string for the shared template that will be applied to the tooltips when they render. It can use the **points** (the category points) and **category** (the category name) fields through the following syntax: **#= category #, #= points[0].series.name#, #= points[0].value #** where the string delimited inside #=.....#	is the expression to be evaluated. The tooltips are HTML so HTML can be used outside of the expression tags.	See[here]({%slug htmlchart/functionality/clienttemplate/overview%})for more information.|
+| **SharedTemplate** |A string for the shared template that will be applied to the tooltips when they render. It can use the **points** (the category points) and **category** (the category name) fields through the following syntax: **#= category #, #= points[0].series.name#, #= points[0].value #** where the string delimited inside #=.....#	is the expression to be evaluated. The tooltips are HTML so HTML can be used outside of the expression tags.	See [here]({%slug htmlchart/functionality/clienttemplate/overview%}) for more information.|
 | **Visible** |Defines whether the tooltips will be shown. Values are True or False.|
 
 ## See Also

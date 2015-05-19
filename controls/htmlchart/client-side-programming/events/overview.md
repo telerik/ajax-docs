@@ -1,7 +1,7 @@
 ---
-title: Events Overview
+title: Overview
 page_title: Overview | RadHtmlChart for ASP.NET AJAX Documentation
-description: Overview
+description: Events Overview
 slug: htmlchart/client-side-programming/events/overview
 tags: overview
 published: True
