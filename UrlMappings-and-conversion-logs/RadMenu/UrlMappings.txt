@@ -5,8 +5,8 @@ http://www.telerik.com/help/aspnet-ajax/menu-displaying-child-items.html http://
 http://www.telerik.com/help/aspnet-ajax/menu-keyboard-support.html http://docs.telerik.com/devtools/ajax/menu/accessibility-and-internationalization/keyboard-support
 http://www.telerik.com/help/aspnet-ajax/menu-appearance-animations.html http://docs.telerik.com/devtools/ajax/menu/functionality/animations
 http://www.telerik.com/help/aspnet-ajax/menu-appearance-controlling.html http://docs.telerik.com/devtools/ajax/menu/appearance-and-styling/layout-of-root-items-
-http://www.telerik.com/help/aspnet-ajax/menu-appearance-creating-custom-skins-sprite.html http://docs.telerik.com/devtools/ajax/menu/appearance-and-styling/tutorial:-creating-a-custom-skin-using-sprite
-http://www.telerik.com/help/aspnet-ajax/menu-appearance-creating-custom-skins.html http://docs.telerik.com/devtools/ajax/menu/appearance-and-styling/tutorial:-creating-a-custom-skin
+http://www.telerik.com/help/aspnet-ajax/menu-appearance-creating-custom-skins-sprite.html http://docs.telerik.com/devtools/ajax/menu/appearance-and-styling/creating-a-custom-skin-using-sprite
+http://www.telerik.com/help/aspnet-ajax/menu-appearance-creating-custom-skins.html http://docs.telerik.com/devtools/ajax/menu/appearance-and-styling/creating-a-custom-skin
 http://www.telerik.com/help/aspnet-ajax/menu-appearance-css-file.html http://docs.telerik.com/devtools/ajax/menu/appearance-and-styling/understanding-the-skin-css-file
 http://www.telerik.com/help/aspnet-ajax/menu-appearance-css-selectors.html http://docs.telerik.com/devtools/ajax/menu/appearance-and-styling/css-skin-file-selectors
 http://www.telerik.com/help/aspnet-ajax/menu-appearance-item-css-class.html http://docs.telerik.com/devtools/ajax/menu/appearance-and-styling/setting--the-css-class-of-items

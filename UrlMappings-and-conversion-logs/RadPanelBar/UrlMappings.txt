@@ -3,7 +3,7 @@ http://www.telerik.com/help/aspnet-ajax/panelbar-overview-migrating.html http://
 http://www.telerik.com/help/aspnet-ajax/panelbar-what-is-new.html http://docs.telerik.com/devtools/ajax/panelbar/what-is-new
 http://www.telerik.com/help/aspnet-ajax/panelbar-usability-keyboard-support.html http://docs.telerik.com/devtools/ajax/panelbar/accessibility-and-internationalization/keyboard-support
 http://www.telerik.com/help/aspnet-ajax/panelbar-appearance-animations.html http://docs.telerik.com/devtools/ajax/panelbar/appearance-and-styling/animations
-http://www.telerik.com/help/aspnet-ajax/panelbar-appearance-creating-custom-skins.html http://docs.telerik.com/devtools/ajax/panelbar/appearance-and-styling/tutorial:-creating-a-custom-skin
+http://www.telerik.com/help/aspnet-ajax/panelbar-appearance-creating-custom-skins.html http://docs.telerik.com/devtools/ajax/panelbar/appearance-and-styling/creating-a-custom-skin
 http://www.telerik.com/help/aspnet-ajax/panelbar-appearance-css-file.html http://docs.telerik.com/devtools/ajax/panelbar/appearance-and-styling/understanding-the-skin-css-file
 http://www.telerik.com/help/aspnet-ajax/panelbar-appearance-css-selectors.html http://docs.telerik.com/devtools/ajax/panelbar/appearance-and-styling/css-skin-file-selectors
 http://www.telerik.com/help/aspnet-ajax/panelbar-appearance-item-css-class.html http://docs.telerik.com/devtools/ajax/panelbar/appearance-and-styling/setting--the-css-class-of-items

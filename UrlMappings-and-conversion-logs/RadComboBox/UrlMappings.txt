@@ -2,6 +2,7 @@ http://www.telerik.com/help/aspnet-ajax/combobox-changes-and-backward-compatibil
 http://www.telerik.com/help/aspnet-ajax/combobox-overview-migrating.html http://docs.telerik.com/devtools/ajax/combobox/migrating-from-radcombobox-classic-to-asp.net-ajax-version
 http://www.telerik.com/help/aspnet-ajax/combobox-what-is-new.html http://docs.telerik.com/devtools/ajax/combobox/what-is-new
 http://www.telerik.com/help/aspnet-ajax/combobox-accessibility-compliance.html http://docs.telerik.com/devtools/ajax/combobox/accessibility-and-internationalization/wcag-2.0-and-section-508-accessibility-compliance
+http://www.telerik.com/help/aspnet-ajax/combobox-accessibility-mode.html http://docs.telerik.com/devtools/ajax/combobox/accessibility-and-internationalization/accessibility
 http://www.telerik.com/help/aspnet-ajax/combobox-behavior-keyboard-support.html http://docs.telerik.com/devtools/ajax/combobox/accessibility-and-internationalization/keyboard-support
 http://www.telerik.com/help/aspnet-ajax/combobox-behavior-rendering.html http://docs.telerik.com/devtools/ajax/combobox/accessibility-and-internationalization/rendering
 http://www.telerik.com/help/aspnet-ajax/combobox-localization.html http://docs.telerik.com/devtools/ajax/combobox/accessibility-and-internationalization/localization
@@ -50,7 +51,7 @@ http://www.telerik.com/help/aspnet-ajax/combobox-behavior-auto-complete.html htt
 http://www.telerik.com/help/aspnet-ajax/combobox-behavior-cross-page-postbacks.html http://docs.telerik.com/devtools/ajax/combobox/functionality/cross-page-postbacks
 http://www.telerik.com/help/aspnet-ajax/combobox-behavior-end-user-restriction.html http://docs.telerik.com/devtools/ajax/combobox/functionality/end-user-restriction
 http://www.telerik.com/help/aspnet-ajax/combobox-behavior-validation.html http://docs.telerik.com/devtools/ajax/combobox/functionality/validation
-http://www.telerik.com/help/aspnet-ajax/combobox-render-modes.html http://docs.telerik.com/devtools/ajax/combobox/mobile-support/render-modes
+http://www.telerik.com/help/aspnet-ajax/combobox-render-modes.html http://docs.telerik.com/devtools/ajax/combobox/functionality/render-modes
 http://www.telerik.com/help/aspnet-ajax/combobox-usability-checkboxes.html http://docs.telerik.com/devtools/ajax/combobox/functionality/checkbox-support
 http://www.telerik.com/help/aspnet-ajax/combobox-usability-filtering.html http://docs.telerik.com/devtools/ajax/combobox/functionality/filtering
 http://www.telerik.com/help/aspnet-ajax/combobox-usability-sorting.html http://docs.telerik.com/devtools/ajax/combobox/functionality/sorting
