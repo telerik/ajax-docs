@@ -1,5 +1,5 @@
 http://www.telerik.com/help/aspnet-ajax/dock-accessibility-support.html http://docs.telerik.com/devtools/ajax/dock/accessibility-and-internationalization/wcag-2.0-and-section-508-accessibility-compliance
-http://www.telerik.com/help/aspnet-ajax/dock-appearance-controlling-appearance.html http://docs.telerik.com/devtools/ajax/dock/appearance-and-styling/controlling-raddock's-appearance
+http://www.telerik.com/help/aspnet-ajax/dock-appearance-controlling-appearance.html http://docs.telerik.com/devtools/ajax/controls/dock/appearance-and-styling/controlling-raddock's-appearance
 http://www.telerik.com/help/aspnet-ajax/dock-appearance-css-selectors.html http://docs.telerik.com/devtools/ajax/dock/appearance-and-styling/css-classes
 http://www.telerik.com/help/aspnet-ajax/dock-appearance-skins.html http://docs.telerik.com/devtools/ajax/dock/appearance-and-styling/skins
 http://www.telerik.com/help/aspnet-ajax/dock-appearance-tutorial-custom-skin.html http://docs.telerik.com/devtools/ajax/dock/appearance-and-styling/dock/appearance-and-styling/creating-custom-classic-skin
