@@ -21,25 +21,18 @@ The **Load-On-Demand** feature of RadOrgChart allows child **Nodes** or **Groups
 If you want to start using Load on Demand you should set the **"LoadOnDemand"** enum property of the RadOrgChart control to one of the following values:
 
 1. **“None”**
-
 	* Default value
 
 2. **“Nodes”**
-
 	* allows the user to load **Nodes** on demand
-
 	* **EnableCollapsing** property is automatically set to **true**
 
 3. **“Groups”**
-
 	* allows the user to load **GroupItems** on demand
-
 	* **EnableGroupCollapsing** property is automatically set to **true** (in SimpleBinding there are no Groups, so it is not applicable)
 
 4. **“NodesAndGroups”**
-
 	* allows the user to load **Nodes** and **GroupItems** on demand
-
 	* **EnableCollapsing** and **EnableGroupCollapsing** properties are automatically set to true (in SimpleBinding there are no Groups, so only Nodes can be loaded)
 
 **Binding:**

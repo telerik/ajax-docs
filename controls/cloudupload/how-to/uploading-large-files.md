@@ -45,14 +45,14 @@ To make modifications to your application for large file uploads, you need to:
 Modify the configuration file to allow uploads of files of up to 100MB and upload periods of up to 1 hour:
 
 ````XML	
-	<configuration>
-		...
-		<system.web>
-	
-		  <httpRuntime maxRequestLength="102400" executionTimeout= "3600" />
-		  ...
-		</system.web>
-	</configuration>
+<configuration>
+	...
+	<system.web>
+
+	  <httpRuntime maxRequestLength="102400" executionTimeout= "3600" />
+	  ...
+	</system.web>
+</configuration>
 ````
 
 
@@ -66,14 +66,14 @@ Modify the configuration file to allow uploads of files of up to 100MB and uploa
 
 	**XML**
 	
-		<system.webserver>
-			...
-			<security>
-				<requestFiltering>
-					<requestLimits maxAllowedContentLength="1024000000" />
-				</requestFiltering>
-			</security>
-		</system.webserver>
+	<system.webserver>
+		...
+		<security>
+			<requestFiltering>
+				<requestLimits maxAllowedContentLength="1024000000" />
+			</requestFiltering>
+		</security>
+	</system.webserver>
 		
 
 

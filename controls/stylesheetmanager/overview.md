@@ -180,7 +180,7 @@ If the stylesheet combination is not needed for some reason (e.g. debugging) it 
 
 
 
-1. Add System.Web as reference for the **TelerikCustomSkins**project and build the project. 
+1. Add System.Web as reference for the **TelerikCustomSkins** project and build the project. 
 
 1. Add the **TelerikCustomSkins** project as reference to your web site and Build the entire solution.
 
@@ -195,7 +195,7 @@ If the stylesheet combination is not needed for some reason (e.g. debugging) it 
 	</telerik:RadStyleSheetManager>
 	````
 
-1. Test the page by adding RadComboBox with Skin="Telerik" and **EnableEmbeddedSkins**="**False**"**.**The expected result is that the Telerik skin is successfully applied to RadCombobBox.
+* Test the page by adding RadComboBox with Skin="Telerik" and **EnableEmbeddedSkins="False"**. The expected result is that the Telerik skin is successfully applied to RadCombobBox.
 
 	````ASPNET
 	<telerik:RadComboBox ID="RadComboBox1" Skin="Telerik" EnableEmbeddedSkins="False"
