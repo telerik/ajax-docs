@@ -72,4 +72,4 @@ A live example with *RadAjax *and **MasterPage** can be found [here](http://demo
 
  * [MasterPages: Ajaxify and Update Controls in Master and Content Page]({%slug ajax/radajaxmanager/how-to/ajaxify-and-update-controls-in-master-and-content-page%})
 
- * [MasterPages: Initiating Requests from one ContentPlaceHolder and Loading/Updating Controls in another]({%slug ajax/radajaxmanager/how-to/masterpages:-initiating-requests-from-one-contentplaceholder-and-loading/updating-controls-in-another%})
+ * [MasterPages: Initiating Requests from one ContentPlaceHolder and Loading/Updating Controls in another]({%slug ajax/radajaxmanager/how-to/initiating-requests-from-contentplaceholder%})

@@ -11,6 +11,7 @@ http://www.telerik.com/help/aspnet-ajax/ajax-add-ajaxrequest-to-client-event.htm
 http://www.telerik.com/help/aspnet-ajax/ajax-conditional-comments.html http://docs.telerik.com/devtools/ajax/ajax/how-to/how-to-use-css-conditional-comments-with-ajax
 http://www.telerik.com/help/aspnet-ajax/ajax-detect-ajax-browser-support.html http://docs.telerik.com/devtools/ajax/ajax/how-to/disable-ajax-when-client-browser-does-not-support-it
 http://www.telerik.com/help/aspnet-ajax/ajax-disable-controls-during-ajax.html http://docs.telerik.com/devtools/ajax/ajax/how-to/disable-controls-during-ajax
+http://www.telerik.com/help/aspnet-ajax/ajax-load-control-from-another-webusercontrol-in-different-masterpage-contentplaceholder.html http://docs.telerik.com/devtools/ajax/ajax/radajaxmanager/how-to/initiating-requests-from-contentplaceholder
 http://www.telerik.com/help/aspnet-ajax/ajax-download.html http://docs.telerik.com/devtools/ajax/ajax/how-to/download-files-with-ajaxified-control
 http://www.telerik.com/help/aspnet-ajax/ajax-EventName-property.html http://docs.telerik.com/devtools/ajax/ajax/how-to/eventname-property
 http://www.telerik.com/help/aspnet-ajax/ajax-exclude.html http://docs.telerik.com/devtools/ajax/ajax/how-to/exclude-controls-from-ajaxifying
