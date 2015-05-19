@@ -109,7 +109,7 @@ http://www.telerik.com/help/aspnet-ajax/moss-using-radeditor-in-list-items.html 
 http://www.telerik.com/help/aspnet-ajax/moss-using-radeditor-in-web-content-management-scenario.html http://docs.telerik.com/devtools/ajax/sharepoint/2007/radeditor-for-moss/installation-and-deployment/using-radeditor-in-web-content-management-scenario
 http://www.telerik.com/help/aspnet-ajax/moss-using-radeditor-webpart.html http://docs.telerik.com/devtools/ajax/sharepoint/2007/radeditor-for-moss/installation-and-deployment/using-the-radeditor-webpart
 http://www.telerik.com/help/aspnet-ajax/moss-using_radeditors_client-side_events_in_moss.html http://docs.telerik.com/devtools/ajax/sharepoint/2007/radeditor-for-moss/customization/using-radeditor's-client-side-events-in-moss
-http://www.telerik.com/help/aspnet-ajax/moss-what-is-new.html http://docs.telerik.com/devtools/ajax/sharepoint/2007/radeditor-for-moss/migration-and-upgrade/what's-new?
+http://www.telerik.com/help/aspnet-ajax/moss-what-is-new.html http://docs.telerik.com/devtools/ajax/sharepoint/2007/radeditor-for-moss/migration-and-upgrade/what-is-new
 http://www.telerik.com/help/aspnet-ajax/mosstemplatemanager.html http://docs.telerik.com/devtools/ajax/sharepoint/2007/radeditor-for-moss/dialogs/mosstemplatemanager
 http://www.telerik.com/help/aspnet-ajax/moss_externaldialogspath_property.html http://docs.telerik.com/devtools/ajax/sharepoint/2007/radeditor-for-moss/dialogs/externaldialogspath-property
 http://www.telerik.com/help/aspnet-ajax/sharepoint-known-issues.html http://docs.telerik.com/devtools/ajax/sharepoint/known-issues
