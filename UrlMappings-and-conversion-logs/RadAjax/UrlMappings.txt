@@ -42,7 +42,7 @@ http://www.telerik.com/help/aspnet-ajax/ajax-control-still-postbacks.html http:/
 http://www.telerik.com/help/aspnet-ajax/ajax-controls-in-ajaxpanel-and-ajaxsettings.html http://docs.telerik.com/devtools/ajax/ajax/radajaxmanager/troubleshooting/controls-wrapped-in-ajaxpanel-and-added-to-ajaxmanager-settings
 http://www.telerik.com/help/aspnet-ajax/ajax-controls-not-shown-in-designer.html http://docs.telerik.com/devtools/ajax/ajax/radajaxmanager/troubleshooting/radajaxmanager-designer-does-not-locate-all-controls
 http://www.telerik.com/help/aspnet-ajax/ajax-force-controls-to-postback.html http://docs.telerik.com/devtools/ajax/ajax/radajaxmanager/troubleshooting/force-controls-in-an-ajax-enabled-container-to-perform-a-postback
-http://www.telerik.com/help/aspnet-ajax/ajax-layout-problem-updated-controls-on-new-line.html http://docs.telerik.com/devtools/ajax/ajax/radajaxmanager/troubleshooting/layout-problem:-updated-controls-appear-on-a-new-line
+http://www.telerik.com/help/aspnet-ajax/ajax-layout-problem-updated-controls-on-new-line.html http://docs.telerik.com/devtools/ajax/ajax/radajaxmanager/troubleshooting/updated-controls-appear-on-a-new-line
 http://www.telerik.com/help/aspnet-ajax/ajax-masterpage-update-everywhere.html http://docs.telerik.com/devtools/ajax/ajax/radajaxmanager/how-to/ajaxify-and-update-controls-in-master-and-content-page
 http://www.telerik.com/help/aspnet-ajax/ajax-masterpage.html http://docs.telerik.com/devtools/ajax/ajax/radajaxmanager/how-to/radajax-and-masterpage
 http://www.telerik.com/help/aspnet-ajax/ajax-update-in-composite-control.html http://docs.telerik.com/devtools/ajax/ajax/radajaxmanager/how-to/update-in-composite-control
