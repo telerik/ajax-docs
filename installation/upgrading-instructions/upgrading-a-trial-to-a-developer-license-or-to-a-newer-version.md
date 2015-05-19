@@ -36,7 +36,7 @@ You can find concrete information about your case in the distinct sections of th
 
 ## Upgrade to a Newer Version of Telerik UI for ASP.NET AJAX
 
-**To upgrade the Telerik controls**, you only need to **replace the** with their newer versions and update their references. The instructions below assume you have already [installed]({%slug introduction/installation/which-file-do-i-need-to-install?%}) the new version.
+**To upgrade the Telerik controls**, you only need to **replace the** with their newer versions and update their references. The instructions below assume you have already [installed]({%slug installation/which-file-do-i-need-to-install%}) the new version.
 
 There are two ways to perform an upgrade:
 
@@ -115,7 +115,7 @@ You can see how the file information of a trial version of the Telerik.Web.UI.dl
 
 ## See Also
 
- * [Which File Do I Need to Install?]({%slug introduction/installation/which-file-do-i-need-to-install?%})
+ * [Which File Do I Need to Install?]({%slug installation/which-file-do-i-need-to-install%})
 
  * [Included Assemblies]({%slug introduction/installation/included-assemblies%})
 

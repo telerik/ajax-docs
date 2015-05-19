@@ -30,7 +30,7 @@ Here are quick links to the control-specific sections of our documentation:
 
 * [Barcode]({%slug barcode/overview%})
 
-* [Button]({%slug button/overview%})
+* [Button]({%slug button/telerik's-asp.net-button-overview%})
 
 * [BinaryImage]({%slug controls/radbinaryimage%})
 
@@ -84,7 +84,7 @@ Here are quick links to the control-specific sections of our documentation:
 
 * [ImageGallery]({%slug imagegallery/overview%})
 
-* [Input]({%slug Input/overview%})
+* [Input]({%slug input/overview%})
 
 * [LightBox]({%slug lightbox/overview%})
 
@@ -104,11 +104,11 @@ Here are quick links to the control-specific sections of our documentation:
 
 * [ODataDataSource]({%slug odatadatasource/overview%})
 
-* [OrgChart]({%slug orgchart/overview%})
+* [OrgChart]({%slug orgchart/overview/overview%})
 
 * [PageLayout]({%slug pagelayout/overview%})
 
-* [PanelBar]({%slug panelbar/overview%})
+* [PanelBar]({%slug panelbar/overview/overview%})
 
 * [PdfProcessing]({%slug pdfprocessing/overview%})
 

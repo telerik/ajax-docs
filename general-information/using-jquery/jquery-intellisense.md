@@ -157,6 +157,6 @@ Make sure that both jquery-telerik.js and jquery-telerik-vsdoc.js are in the sam
 
 ### See Also
 
- * [What is jQuery?]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/using-jquery/what-is-jquery?%})
+ * [What is jQuery?]({%slug general-information/using-jquery/what-is-jquery%})
 
  * [Using jQuery]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/using-jquery/using-jquery%})
