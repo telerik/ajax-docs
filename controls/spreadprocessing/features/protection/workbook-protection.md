@@ -52,6 +52,6 @@ __Example 2__ demonstrates how to unprotect a workbook:
 
 # See Also
 
- * [Whats is a Workbook?]({%slug spreadprocessing/working-with-workbooks/whats-is-a-workbook?%})
+ * [Whats is a Workbook?]({%slug spreadprocessing/working-with-workbooks/what-is-workbook%})
 
  * [Worksheet Protection]({%slug spreadprocessing/features/protection/worksheet-protection%})

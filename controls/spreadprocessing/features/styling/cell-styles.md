@@ -186,4 +186,4 @@ __Example 4__
 
  * [Document Themes]({%slug spreadprocessing/features/styling/document-themes%})
 
- * [Whats is a Workbook?]({%slug spreadprocessing/working-with-workbooks/whats-is-a-workbook?%})
+ * [Whats is a Workbook?]({%slug spreadprocessing/working-with-workbooks/what-is-workbook%})

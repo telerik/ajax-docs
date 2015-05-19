@@ -48,7 +48,7 @@ Additionally you might need to add references to the following __.NET__ assembli
 
 ## Creating a Workbook
 
-The document model allows you to instantiate a new [workbook]({%slug spreadprocessing/working-with-workbooks/whats-is-a-workbook?%}) and populate it with any data you want.
+The document model allows you to instantiate a new [workbook]({%slug spreadprocessing/working-with-workbooks/what-is-workbook%}) and populate it with any data you want.
 
 __Example 1__ shows how you can create a workbook and add a new worksheet to it.
 
@@ -90,7 +90,7 @@ __RadSpreadsheet__ is a UI control part of the Telerik UI for WPF/Silverlight su
 
 # See Also
 
- * [Whats is a Workbook?]({%slug spreadprocessing/working-with-workbooks/whats-is-a-workbook?%})
+ * [Whats is a Workbook?]({%slug spreadprocessing/working-with-workbooks/what-is-workbook%})
 
  * [What is a Worksheet?]({%slug spreadprocessing/working-with-worksheets/what-is-a-worksheet?%})
 
