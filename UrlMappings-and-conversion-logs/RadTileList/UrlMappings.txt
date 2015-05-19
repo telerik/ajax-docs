@@ -1,6 +1,6 @@
 http://www.telerik.com/help/aspnet-ajax/tilelist-accessibility-compliance.html http://docs.telerik.com/devtools/ajax/tilelist/accessibility-and-internationalization/wcag-2.0-and-section-508-accessibility-compliance
 http://www.telerik.com/help/aspnet-ajax/tilelist-appearance-css-classes.html http://docs.telerik.com/devtools/ajax/tilelist/appearance-and-styling/css-classes
-http://www.telerik.com/help/aspnet-ajax/tilelist-appearance-tutorial-custom-skin.html http://docs.telerik.com/devtools/ajax/tilelist/appearance-and-styling/tutorial:-creating-a-custom-skin
+http://www.telerik.com/help/aspnet-ajax/tilelist-appearance-tutorial-custom-skin.html http://docs.telerik.com/devtools/ajax/tilelist/appearance-and-styling/Tutorial-creating-custom-skin
 http://www.telerik.com/help/aspnet-ajax/tilelist-client-side-contenttemplatetile-api.html http://docs.telerik.com/devtools/ajax/tilelist/tiles/client-side-programming/contenttemplatetile-object
 http://www.telerik.com/help/aspnet-ajax/tilelist-client-side-data-binding.html http://docs.telerik.com/devtools/ajax/tilelist/data-binding/client-side-data-binding
 http://www.telerik.com/help/aspnet-ajax/tilelist-client-side-events-onclientload.html http://docs.telerik.com/devtools/ajax/tilelist/client-side-programming/client-side-events/onclientload
@@ -52,7 +52,7 @@ http://www.telerik.com/help/aspnet-ajax/tilelist-server-side-tile-object.html ht
 http://www.telerik.com/help/aspnet-ajax/tilelist-server-side-tilegroup-object.html http://docs.telerik.com/devtools/ajax/tilelist/server-side-programming/tilegroup-object
 http://www.telerik.com/help/aspnet-ajax/tilelist-server-side-tilelist-object.html http://docs.telerik.com/devtools/ajax/tilelist/server-side-programming/tilelist-object
 http://www.telerik.com/help/aspnet-ajax/tilelist-tiles-appearance-css-classes.html http://docs.telerik.com/devtools/ajax/tilelist/tiles/appearance-and-styling/css-classes
-http://www.telerik.com/help/aspnet-ajax/tilelist-tiles-appearance-tutorial-custom-skin.html http://docs.telerik.com/devtools/ajax/tilelist/tiles/appearance-and-styling/tutorial:-creating-a-custom-skin
+http://www.telerik.com/help/aspnet-ajax/tilelist-tiles-appearance-tutorial-custom-skin.html http://docs.telerik.com/devtools/ajax/tilelist/tiles/appearance-and-styling/tutorial-creating-custom-skin
 http://www.telerik.com/help/aspnet-ajax/tilelist-tiles-badge-and-title.html http://docs.telerik.com/devtools/ajax/tilelist/tiles/badge-and-title-elements
 http://www.telerik.com/help/aspnet-ajax/tilelist-tiles-client-side-events-livetile-onclientdataloaded.html http://docs.telerik.com/devtools/ajax/tilelist/tiles/client-side-programming/events/livetile-specific/onclientdataloaded
 http://www.telerik.com/help/aspnet-ajax/tilelist-tiles-client-side-events-livetile-onclientdataloading.html http://docs.telerik.com/devtools/ajax/tilelist/tiles/client-side-programming/events/livetile-specific/onclientdataloading
