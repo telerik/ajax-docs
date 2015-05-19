@@ -14,7 +14,7 @@ position: 5
 
 DESCRIPTION
 
-Here is some general info on how the browser works with <br /> and <p> tags.
+Here is some general info on how the browser works with `<br />` and `<p>` tags.
 
 Carriage returns (when pressing Enter) are not significant when it comes to HTML. It doesn't matter what is the amount of whitespace in the HTML code - it is automatically converted to a single space when your HTML document is displayed in a browser. For an example, if you put in your HTML file the following text:
 
@@ -24,7 +24,7 @@ In the browser it will be displayed as a single line (empty spaces and carriage 
 
 **Introducing Telerik RadEditor for ASP.NET AJAX. Improved user experience. Enhanced cross-browser support.**
 
-If you wish to enter line breaks, e.g. you want your text to be displayed on two or more lines, but not to start a new paragraph, you should use a <br /> tag. For an example:
+If you wish to enter line breaks, e.g. you want your text to be displayed on two or more lines, but not to start a new paragraph, you should use a `<br />` tag. For an example:
 
 **Introducing Telerik RadEditor for ASP.NET AJAX. `<br />` Improved user experience. `<br />` Enhanced cross-browser support.**
 

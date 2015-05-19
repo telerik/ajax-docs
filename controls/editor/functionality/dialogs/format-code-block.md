@@ -22,7 +22,7 @@ The RadEditor **Format Code Block Dialog** provides the ability to edit and form
 * Python
 * SQL
 
-Click the **Format Code**button, paste lines of text or code into the upper pane of the **Format Code**dialog, then select the format from the **Select Language** dropdown and finally click the **OK** button to insert the formatted content into the editor. The dialog also provides a **Preview** button which allows you to see how the formatted content will look (depending on the selected Language item in the dropdown) before insertion into the content area.
+Click the **Format Code** button, paste lines of text or code into the upper pane of the **Format Code** dialog, then select the format from the **Select Language** dropdown and finally click the **OK** button to insert the formatted content into the editor. The dialog also provides a **Preview** button which allows you to see how the formatted content will look (depending on the selected Language item in the dropdown) before insertion into the content area.
 
 To place the Format Code Block tool in the editor toolbar, you can add the FormatCodeBlock to the Tools collection at design-time or place the following ToolsFile declaration tag:
 

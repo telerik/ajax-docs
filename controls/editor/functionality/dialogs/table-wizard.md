@@ -24,9 +24,9 @@ This tab allows you to configure table dimensions and layout by setting one or m
 
 * **Width/Height** - Specifies the height and the width of the table (in pixels or percent).
 
-* **ID -**Setting an ID for a table gives some options for advanced table handling.
+* **ID** - Setting an ID for a table gives some options for advanced table handling.
 
-* **CSS Class**- Specifies table CSS class and style. This property should be used only by advanced users**.**
+* **CSS Class**- Specifies table CSS class and style. This property should be used only by advanced users.
 
 * **Background Color -** Sets the background color of the table.
 

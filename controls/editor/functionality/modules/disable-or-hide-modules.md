@@ -14,7 +14,7 @@ There are a couple of ways to hide or remove the RadEditor's modules: inline, vi
 
 1. **Inline** In order to **disable** a specific module inside the RadEditor declaration define the needed modules (built-in or custom) only, or set its **Enabled** property to **false**. To **hide** a specific module set its **Visible** property to **false**, e.g.:
 
-	**ASPNET**
+	**ASP.NET**
 	
 		<telerik:RadEditor ID="RadEditor1" runat="server">
 			<Modules>

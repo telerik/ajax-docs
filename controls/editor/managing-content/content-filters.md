@@ -30,7 +30,7 @@ The built-in filters are exposed by the **EditorFilters** enumeration. They are 
 |FixEnclosingP|This filter removes a paragraph if the whole content is inside it.|
 |IECleanAnchors|This filter removes the current page href from all anchor (#) links|
 |MozEmStrong|This filter changes b,strong and i,em in Mozilla browsers|
-|ConvertTags|This filter changes <b>, <i> and <strike> tags successively to <strong>, <em> and <del>.|
+|ConvertTags|This filter changes `<b>`, `<i>` and `<strike>` tags successively to `<strong>`, `<em>` and `<del>`.|
 |ConvertFontToSpan|This filter changes deprecated font tags to compliant span tags|
 |ConvertToXhtml|This filter converts the HTML from the editor content area to valid XHTML|
 |IndentHTMLContent|This filter indents the HTML content so it is more readable when you view the code|
@@ -70,17 +70,23 @@ For example to disable the RemoveScript server method of RadEditor, which strips
 
 There are two steps that you should take to implement a custom filter:
 
-1. Create a javascript function/class that implements one or more of the following filter methods -
+1. Create a JavaScript function/class that implements one or more of the following filter methods:
 
 	* **getDesignContent(content)** - Called when the editor is moving from some other mode to DESIGN mode
+	
 	* **getHtmlContent(content)** - Called when the editor is moving from some other state to HTML mode
+	
 	* **set_description(string)** - specifies a more detailed description for the module
+	
 	* **set_name(string)** - specifies the name of the module
+	
 	* **set_enabled(boolean)** - enable or disable the module depending on the boolean parameter
+	
 	* **set_isDom(boolean)** - specifies whether the filter will work with DOM objects or String, e.g. the boolean parameter specifies whether the content parameter of the getHtmlContent(content) and getDesignContent(content) functions will return DOM objects or String.The filter used in the [Custom Content Filters demo](http://demos.telerik.com/aspnet-ajax/editor/examples/contentfilters/defaultcs.aspx) is of type string and converts the lowercase letters to uppercase
+	
 	* **MyFilter.initializeBase(this)** - the initialization function of the module
-
-2. Register the filter with the editor. The best way to achieve this is to register an **OnClientLoad** function that instantiates the filter and adds it to the filters manager.
+	
+1. Register the filter with the editor. The best way to achieve this is to register an **OnClientLoad** function that instantiates the filter and adds it to the filters manager.
 
 ## Custom Filter Example
 

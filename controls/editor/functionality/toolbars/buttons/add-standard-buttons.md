@@ -113,7 +113,7 @@ You can use a theme to conveniently set the tools for a number of RadSpell insta
 
 ![](images/editor-buttons001.png)
 
-In your .skin file declare RadEditor with the tools that will be displayed in the RadEditor instances that use this theme.Set the **SkinId**property for the RadEditor. This will be referenced later in the RadEditor that uses the theme. In this example skin file the **SkinId** is "SomeTools".
+In your .skin file declare RadEditor with the tools that will be displayed in the RadEditor instances that use this theme. Set the **SkinId** property for the RadEditor. This will be referenced later in the RadEditor that uses the theme. In this example skin file the **SkinId** is "SomeTools".
 
 ````XML
 <%@ register tagprefix="telerik" namespace="Telerik.Web.UI" assembly="Telerik.Web.UI" %>

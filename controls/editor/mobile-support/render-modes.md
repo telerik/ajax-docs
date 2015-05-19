@@ -44,7 +44,7 @@ There are two ways to configure the rendering mode of the controls:
 ````C#
 RadEditor1.RenderMode = Telerik.Web.UI.RenderMode.Lightweight;
 ````
-````V	
+````VB
 RadEditor1.RenderMode = Telerik.Web.UI.RenderMode.Lightweight	
 ````
 

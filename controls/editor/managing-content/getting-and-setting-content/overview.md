@@ -1,7 +1,7 @@
 ---
-title: Getting and Setting Content Overview
+title: Overview
 page_title: Overview | RadEditor for ASP.NET AJAX Documentation
-description: Overview
+description: Getting and Setting Content Overview
 slug: editor/managing-content/getting-and-setting-content/overview
 tags: overview
 published: True
@@ -14,7 +14,7 @@ Most development tasks with RadEditor involve getting and setting content.
 
 ## Setting Content
 
-Use the **Content** property to set or get text content, including HTML markup. You can set the **Content**directly inline within the **<Content>** tag:
+Use the **Content** property to set or get text content, including HTML markup. You can set the **Content** directly inline within the **<Content>** tag:
 
 ````ASP.NET
 <telerik:RadEditor ID="RadEditor1" runat="server">

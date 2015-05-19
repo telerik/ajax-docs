@@ -106,11 +106,11 @@ Once the skin is set, you need to declare it in the RadEditor's declaration by u
 </telerik:RadEditor>
 ````
 
->note Note: More information on how to use ASP.NET 2.x Themes is available in[MSDN](http://msdn2.microsoft.com/en-us/library/wcyt4fxb(vs.80).aspx).
+>note Note: More information on how to use ASP.NET 2.x Themes is available in [MSDN](http://msdn2.microsoft.com/en-us/library/wcyt4fxb(vs.80).aspx).
 
 ## Declaring the custom CommandList that will be executed when the button is clicked:
 
-After adding the custom toolbar button(s) to the editor's toolbar, you should define their command. In your page with the editor (after the `<telerik:radeditor ...>` declaration),add the following:
+After adding the custom toolbar button(s) to the editor's toolbar, you should define their command. In your page with the editor (after the `<telerik:radeditor ...>` declaration), add the following:
 
 ````JavaScript
 Telerik.Web.UI.Editor.CommandList["Custom1"] = function (commandName, editor, args)

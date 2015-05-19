@@ -134,7 +134,7 @@ Some important details aimed at reducing the overall time needed by developers t
 
 1. Since the FileBrowserContentProvider class needs a number of parameters to be configured when created, it has no default constructor. This means that the subclass must explicitly define a similar constructor with the exact same number of arguments and it needs to explicitly make a call to the parent constructor.
 
-1. The DirectoryItem class has two properties **Files** and **Directories** of array type. These are read-only and cannot be replaced, once set. These properties also need to be set during the **DirectoryItem** construction phase**.** This could have some implications on the exact algorithm for building the file tree.
+1. The DirectoryItem class has two properties **Files** and **Directories** of array type. These are read-only and cannot be replaced, once set. These properties also need to be set during the **DirectoryItem** construction phase. This could have some implications on the exact algorithm for building the file tree.
 
 1. The information here is for the ImageManager, but is valid for each of the remaining file-browser dialogs:If the property editor property **ViewPaths** is not set, the **ResolveRootDirectoryAsTree** method will not be called at all! This is because it will be assumed that no directory browsing should be allowed for the particular user using the editor. The **ResolveRootDirectoryAsTree** is called for each item in the **ViewPaths** array.
 

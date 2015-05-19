@@ -41,7 +41,7 @@ You can attach to the browser event such as:
 </telerik:RadEditor>
 ````
 
-To attach to events such as **click**and **blur** for a given DHTML element use the RadEditor **addExternalHandler** function with the following syntax:
+To attach to events such as **click** and **blur** for a given DHTML element use the RadEditor **addExternalHandler** function with the following syntax:
 
 >caption  
 

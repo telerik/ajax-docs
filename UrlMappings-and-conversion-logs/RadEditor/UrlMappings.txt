@@ -168,7 +168,7 @@ http://www.telerik.com/help/aspnet-ajax/editor-export-to-pdf.html http://docs.te
 http://www.telerik.com/help/aspnet-ajax/editor-import-export-to-word.html http://docs.telerik.com/devtools/ajax/editor/functionality/import-and-export/import-and-export-to-word
 http://www.telerik.com/help/aspnet-ajax/editor-import-from-docx-and-rtf.html http://docs.telerik.com/devtools/ajax/editor/functionality/import-and-export/import-from-docx-and-rtf
 http://www.telerik.com/help/aspnet-ajax/editor-cleaning-word-formatting-on-pageload-and-onsubmit.html http://docs.telerik.com/devtools/ajax/editor/managing-content/pasting-content/clean-ms-word-formatting-on-page-load-and-on-submit
-http://www.telerik.com/help/aspnet-ajax/editor-cleaning-word-formatting.html http://docs.telerik.com/devtools/ajax/editor/managing-content/pasting-content/clean-ms-word-formatting-
+http://www.telerik.com/help/aspnet-ajax/editor-cleaning-word-formatting.html http://docs.telerik.com/devtools/ajax/editor/managing-content/pasting-content/clean-ms-word-formatting
 http://www.telerik.com/help/aspnet-ajax/editor-pasting-in-radeditor.html http://docs.telerik.com/devtools/ajax/editor/managing-content/pasting-content/overview
 http://www.telerik.com/help/aspnet-ajax/editor-client-side-events-overview.html http://docs.telerik.com/devtools/ajax/editor/client-side-programming/events/overview
 http://www.telerik.com/help/aspnet-ajax/editor-onclientcommandexecuted.html http://docs.telerik.com/devtools/ajax/editor/client-side-programming/events/onclientcommandexecuted

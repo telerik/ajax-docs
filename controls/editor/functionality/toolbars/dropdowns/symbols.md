@@ -61,7 +61,7 @@ RadEditor1.Symbols.Add("©")
 RadEditor1.Symbols.Add("®")
 ````
 
-When using the Symbols Collection **Add()**the Symbols dropdown will be reset, so the symbols you add will not be appended to the default set, but will rather create a new Symbol set. See the example below:
+When using the Symbols Collection **Add()** the Symbols dropdown will be reset, so the symbols you add will not be appended to the default set, but will rather create a new Symbol set. See the example below:
 
 |  **Default state**  |  **Programmatic population**  |
 | ------ | ------ |

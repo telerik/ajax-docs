@@ -28,7 +28,15 @@ Here is an example:
 
 The end result will be as follows:
 
- Non Editable AREAEditable REGION... Non Editable AREA 
+<div style="border: red 1px solid;" contenteditable="false" unselectable="on">
+	Non Editable AREA
+	<div style="border: green 1px solid;" contenteditable="true" unselectable="off">
+		<!--Content name="info" -->
+		Editable REGION...
+		<!--/Content -->
+	</div>
+	Non Editable AREA
+</div>
 
 You can find additional information in the following MSDN article: [UNSELECTABLE Attribute](http://msdn.microsoft.com/en-us/library/ms537840.aspx).
 

@@ -14,7 +14,7 @@ This help article treats the optimization of **RadEditor**'s performance when wo
 
 * [General Controls Optimizations](#general-controls-optimizations)
 * [Dialog Resources Optimizations](#dialog-resources-optimizations)
-* [Working With Large Content - Creating, Editing, Pasting, Loading and Saving Optimizations](#working-with-large-content---creating,-editing,-pasting,-loading-and-saving-optimizations)
+* [Working With Large Content - Creating, Editing, Pasting, Loading and Saving Optimizations](#working-with-large-content---creating-editing-pasting-loading-and-saving-optimizations)
 * [Toolbar Loading Optimizations](#toolbar-loading-optimizations)
 
 ## General Controls Optimizations
@@ -75,7 +75,7 @@ When multiple RadEditor instances are present on the same page, the size and the
 
 * **ToolProviderID** property that lets you share common tools among multiple instances of RadEditor.**ToolbarMode** property that lets you initialize the tools not at page load, but when an editor is to be used for the first time.
 
-More detailed information on the topic is available in [Toolbar Loading Optimizations]({%slug editor/performance/toolbar-loading-optimizations%})help article.
+More detailed information on the topic is available in [Toolbar Loading Optimizations]({%slug editor/performance/toolbar-loading-optimizations%}) help article.
 
 ## See Also
 

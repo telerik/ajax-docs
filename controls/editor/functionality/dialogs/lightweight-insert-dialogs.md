@@ -16,7 +16,7 @@ A light version of the three most used dialogs are currently present in RadEdito
 
 * **Insert Link Dialog** - the lighter version of the **Hyperlink Manager**.
 
-* **Insert Image** - the lighter version of the**Image Manager**with Image Editor.
+* **Insert Image** - the lighter version of the **Image Manager** with Image Editor.
 
 * **Insert Table** - the lighter version of the **Table Wizard**.
 
@@ -28,7 +28,7 @@ The rendered HTML and CSS in the Light Dialog code is lighter; it is loaded on t
 
 ## Insert Link Light Dialog
 
-The **Insert Link**dialog is a light version of the **Hyperlink Manager**. When enabled, its content is rendered on page load and as a result, the content is immediately shown when the dialog is opened,while Hyperlink Manager is loaded into an IFRAME tag and is much heavier. In order to have it decorated you should put a **RadFormDecorator** on the main page.
+The **Insert Link** dialog is a light version of the **Hyperlink Manager**. When enabled, its content is rendered on page load and as a result, the content is immediately shown when the dialog is opened,while Hyperlink Manager is loaded into an IFRAME tag and is much heavier. In order to have it decorated you should put a **RadFormDecorator** on the main page.
 
 The **Insert Link** light dialog has the most important properties to put a hyperlink in your document: **URL**, **Link Text** and **Target**. In the light dialog you also have a button (**All Properties…**) that allows you to switch from Insert Link dialog to Hyperlink Manager dialog if you need to access all hyperlink options.:
 
@@ -46,7 +46,7 @@ The **Insert Image** light dialog has the most important properties to put an im
 
 ## Insert Table Light Dialog
 
-The **Insert Table** dialog is a light version of **Table Wizard**.When enabled, its content is rendered on page load and as a result, the content is immediately shown when the dialog is opened, while Table Wizard is loaded into an IFRAME tag and is much heavier. In order to have it decorated you should put a **RadFormDecorator** on the main page.
+The **Insert Table** dialog is a light version of **Table Wizard**. When enabled, its content is rendered on page load and as a result, the content is immediately shown when the dialog is opened, while Table Wizard is loaded into an IFRAME tag and is much heavier. In order to have it decorated you should put a **RadFormDecorator** on the main page.
 
 The **Insert Table** light dialog has the most important properties to insert a table into your document: **Columns, Rows, Alignment, Cell Padding, Cell Spacing** and **Border**. In the light dialog you also have a button (**All Properties…**) that allows you to switch from Insert Table dialog to Table Wizard dialog if you decide you want to access all table properties options.
 

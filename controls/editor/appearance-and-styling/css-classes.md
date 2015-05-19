@@ -31,7 +31,7 @@ position: 3
 |.SkinName .reSpinBox a|RadEditor SpinBox link|
 |.reToolbar.SkinName .reSeparator|Horizontal toolbar separator|
 |.reToolbar.SkinName .reGrip|Horizontal toolbar toolbar grip – left and right|
-|.reTool span|This is where the icon of the respective command is loaded from “Common/CommandSpritesLight|IE6.png|gif file.|
+|.reTool span|This is where the icon of the respective command is loaded from “Common/CommandSpritesLight&#124;IE6.png&#124;gif file.|
 |.reDialog .reTool|Tool in a Dialog|
 |.reModule .reTool|Tool in a Module|
 |.reDialog .reTool:hover|Dialog hover state|

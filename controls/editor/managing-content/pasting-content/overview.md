@@ -1,7 +1,7 @@
 ---
-title: Pasting Content Overview
-page_title: Overview | RadEditor for ASP.NET AJAX Documentation
-description: Overview
+title: Overview
+page_title: Pasting Content Overview | RadEditor for ASP.NET AJAX Documentation
+description: Pasting Content Overview
 slug: editor/managing-content/pasting-content/overview
 tags: overview
 published: True
@@ -14,16 +14,16 @@ In this article you will find basic concepts of how **RadEditor** interacts with
 
 Here is a list with the sections in this article:
 
-1. [RadEditor and the Browser’s Clipboard](#radeditor-and-the-browser’s-clipboard) - Explains more about the browser dependency in pasting.
+1. [RadEditor and the Browser Clipboard](#radeditor-and-the-browser-clipboard) - Explains more about the browser dependency in pasting.
 1. [End-user Experience](#end-user-experience) - Demonstrates what happens by default, when user pastes content.
 1. [Using the StripFormattingOptions Property](#using-the-stripformattingoptions-property) - Shows how to configure the built-in on-paste actions.
 1. [Using the Built-in Clipboard Tools](#using-the-built-in-clipboard-tools) - Provides details about built-in tools which the user can use.
 
-## RadEditor and the Browser’s Clipboard
+## RadEditor and the Browser Clipboard
 
 Basically, the **RadEditor**’s paste functionality uses the browser’s DOM clipboard events.Therefore, any content pasted, is first processed by the browser. Images, HTML, MS Word, plain text etc., are data types that are first translated to HTML by the browser and then fetched viathe clipboard event’s data to the editor.
 
-Subsequently, the editor can execute logic (Using the StripFormattingOptions Property)that only transforms the received HTML content to improve the markup, in order to facilitate further changes by the **RadEditor** tools. You can find a simple diagram of how pasting works in**Figure 1**. As you can see, the **RadEditor**’s pasting functionality heavily depends on the clipboard data provided by the browser.
+Subsequently, the editor can execute logic (Using the StripFormattingOptions Property)that only transforms the received HTML content to improve the markup, in order to facilitate further changes by the **RadEditor** tools. You can find a simple diagram of how pasting works in **Figure 1**. As you can see, the **RadEditor**’s pasting functionality heavily depends on the clipboard data provided by the browser.
 
 >important When it comes to cross-application clipboard data transfers (e.g., pasting files, pasting from desktop applications etc.),	you should note that the **RadEditor** handles only the HTML content provided by the browser. Transferring complex data types should	be supported by the browser, so it can be provided as proper HTML to the **RadEditor** .
 
@@ -79,7 +79,7 @@ EditorStripFormattingOptions.ConvertWordLists Or EditorStripFormattingOptions.MS
 **RadEditor** provides a set of built-in tools that enable the user to interact with the browser’s clipboard. You can find the list below.
 
 >note The **Cut** , **Copy** and **Paste** tools use the native browser’s	client-side commands to trigger	the corresponding clipboard operation. Some browsers restrict such clipboard manipulations due	to security matters, and thus the tools to not apply any changes. In such cases, the **RadEditor** prompts the end-user to use the keyboard shortcut combination to cut, copy or paste content ( **Figure 3** ).
->More details about this security restriction is available in the[	Midas editor module security preferences MDN](https://developer.mozilla.org/en-US/docs/Midas/Security_preferences)article.
+>More details about this security restriction is available in the [	Midas editor module security preferences MDN](https://developer.mozilla.org/en-US/docs/Midas/Security_preferences) article.
 
 >caption Figure 3: Result when user tries to paste when clipboard manipulations are stopped by the browser.
 

@@ -97,7 +97,7 @@ Note that the viewImages, uploadImages and deleteImages variables are string arr
 >note The Images inserted via the ImageManager have **relative paths** . In scenarios when **absolute paths** are needed enable the **MakeUrlsAbsolute** client-side filter of RadEditor:
 >
 * via the codebehind: RadEditor1.EnableFilter(EditorFilters. **MakeUrlsAbsolute** );
-* inline: `<telerik:RadEditor ID="RadEditor1" **ContentFilters="MakeUrlsAbsolute"** runat="server" />`
+* inline: `<telerik:RadEditor ID="RadEditor1" ContentFilters="MakeUrlsAbsolute" runat="server" />`
 >
 
 The **Image manager** offers a new feature named **Image Editor**, which provides the ability to resize, flip, rotate, crop, rename the selected image element as well as set its opacity:

@@ -10,7 +10,7 @@ position: 6
 
 # XHTML Validator
 
-The **XhtmlValidator**dialog uses the W3C XHTML Validator Page to perform validation of the current editor content. The W3C service returns a compliance report right within the editor dialog. This feature eliminates the need for manual copy/pasting of the HTML and validation in a separate browser window.
+The **XhtmlValidator** dialog uses the W3C XHTML Validator Page to perform validation of the current editor content. The W3C service returns a compliance report right within the editor dialog. This feature eliminates the need for manual copy/pasting of the HTML and validation in a separate browser window.
 
 ![](images/editor-dialogs004.png)
 

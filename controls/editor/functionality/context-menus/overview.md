@@ -10,7 +10,7 @@ position: 0
 
 # Context Menus Overview
 
-__RadEditor__allows context menu customizations - you can change the default context menus for various HTML elements (e.g. different context menus for images, tables, paragraphs, hyperlinks etc.).
+**RadEditor** allows context menu customizations - you can change the default context menus for various HTML elements (e.g. different context menus for images, tables, paragraphs, hyperlinks etc.).
 
 The context menus are available in the ContextMenus Collection. You can define this collection in the ContextMenus section of RadEditor’s declaration:
 

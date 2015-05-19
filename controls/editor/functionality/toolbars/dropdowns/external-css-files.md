@@ -10,7 +10,7 @@ position: 7
 
 # External CSS Files
 
-By default RadEditor for ASP.NET AJAX uses the CSS classes available in the current page. However, it can be configured to load external CSS files instead. This scenario is very common for editors integrated in back-end administration areas which have one set of CSS classes, while other content is being saved in a database and displayed in the public area which has a different set of CSS classes.Thanks to the CssFiles property, you can specify a string array as the list of CSS files, which you need the editor to use. e.g.
+By default RadEditor for ASP.NET AJAX uses the CSS classes available in the current page. However, it can be configured to load external CSS files instead. This scenario is very common for editors integrated in back-end administration areas which have one set of CSS classes, while other content is being saved in a database and displayed in the public area which has a different set of CSS classes. Thanks to the CssFiles property, you can specify a string array as the list of CSS files, which you need the editor to use. e.g.
 
 ````ASP.NET
 <telerik:RadEditor runat="server" ID="RadEditor1">

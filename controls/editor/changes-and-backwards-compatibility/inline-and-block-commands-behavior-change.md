@@ -62,14 +62,14 @@ If the **NewLineMode** property is used with its default value ("Br") some known
 
 In order to ease the transition between the old and the new behavior of the commands and allow the developers to decide whether to implement or not the introduced breaking change,there is a built-in ability that offers the possibility of bringing back their old behavior.
 
-For the block commands this can be achieved by referencing the **LegacyCommands.js** script file which resides in**Telerik.Web.UI.Editor.RadEditor.Commands** namespace, as illustrated in the example below.
+For the block commands this can be achieved by referencing the **LegacyCommands.js** script file which resides in **Telerik.Web.UI.Editor.RadEditor.Commands** namespace, as illustrated in the example below.
 
 ````ASP.NET
 <asp:ScriptManager runat="server" ID="ScriptManager1"></asp:ScriptManager>
 <script type="text/javascript" src='<%= Page.ClientScript.GetWebResourceUrl(typeof(RadEditor), "Telerik.Web.UI.Editor.RadEditor.Commands.LegacyCommands.js") %>'></script>
 ````
 
-And for the inline commands - the **LegacyInlineCommands.js** script file which resides in**Telerik.Web.UI.Editor.RadEditor.Commands** namespace, as illustrated in the example below.
+And for the inline commands - the **LegacyInlineCommands.js** script file which resides in **Telerik.Web.UI.Editor.RadEditor.Commands** namespace, as illustrated in the example below.
 
 ````ASP.NET
 <asp:ScriptManager runat="server" ID="ScriptManager1"></asp:ScriptManager>

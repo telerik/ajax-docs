@@ -26,7 +26,7 @@ All dialogs have the ViewPaths, UploadPaths and deletePaths properties in common
 
 * **DeletePaths** - Specifies the paths from which users can delete files. To be visible, these paths should be a subset (or child paths) of a **ViewPaths** value.
 
-The example below shows **ViewPaths** in the parent "/Images" directory, **UploadPaths**located in a "/New" subdirectory and **DeletePaths** with two paths under "/New". This set of paths is defined for each of the FileBrowser dialogs:
+The example below shows **ViewPaths** in the parent "/Images" directory, **UploadPaths** located in a "/New" subdirectory and **DeletePaths** with two paths under "/New". This set of paths is defined for each of the FileBrowser dialogs:
 
 ````ASP.NET
 <telerik:RadEditor runat="server" ID="RadEditor1">
@@ -56,7 +56,7 @@ public override DirectoryItem ResolveRootDirectoryAsTree(string path)
 	string physicalPath = Context.Server.MapPath(path); ...
 	Hence, the easiest way to "feed" relative paths to the editor is not declarative, but uses a little bit of code, e.g.: */
 	
-	string path = **Page.ResolveUrl**("./images");
+	string path = Page.ResolveUrl("./images");
 }
 ````
 

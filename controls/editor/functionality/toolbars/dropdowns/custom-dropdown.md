@@ -87,7 +87,7 @@ Follow the steps below to create custom dropdown in-line in the editor's declara
 
 1. After adding the custom dropdown to the editor's toolbar, you should attach a function to the editor's OnClientCommandExecuting, the arguments of which will give you reference to the selected dropdown name and value.Once you obtain the selected item's value, you can modify it and paste it through the pasteHtml function in the content area, e.g.
 
-	**ASPNET**
+	**ASP.NET**
 		
 		<telerik:RadEditor runat="server" ID="RadEditor1" OnClientCommandExecuting="OnClientCommandExecuting">
 			<Tools>

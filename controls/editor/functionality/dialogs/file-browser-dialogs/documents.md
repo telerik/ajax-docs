@@ -89,7 +89,7 @@ Note that the viewDocuments, uploadDocuments and deleteDocuments variables are s
 
 >important The Links inserted via the **DocumentManager** have **relative paths**. In scenarios when **absolute paths** are needed enable the **MakeUrlsAbsolute** client-side filter of RadEditor:
 * via the codebehind: RadEditor1.EnableFilter(EditorFilters. **MakeUrlsAbsolute** );
-* inline: `<telerik:RadEditor ID="RadEditor1" **ContentFilters="MakeUrlsAbsolute"** runat="server" />` 
+* inline: `<telerik:RadEditor ID="RadEditor1" ContentFilters="MakeUrlsAbsolute" runat="server" />` 
 
 
 

@@ -14,7 +14,7 @@ With RadEditor you can create a new language pack or alter labels of an existing
 
 Localization strings are contained in resource (.resx) files. The resource files can be found in the installation directory under "\App_GlobalResources". There are three built-in localizations (English, French and German) which can be set through the **Language** property. For example to localize the editor in German set Language="de-DE".
 
-To create your own localizations for the editor, you need to create the**App_Global Resources** folder in the root of your web application and copy the English resx files into it.
+To create your own localizations for the editor, you need to create the **App_Global Resources** folder in the root of your web application and copy the English resx files into it.
 
 * **RadEditor.Dialogs.resx**
 

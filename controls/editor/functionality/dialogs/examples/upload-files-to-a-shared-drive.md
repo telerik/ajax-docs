@@ -12,7 +12,7 @@ position: 4
 
 Upload images and other files to a shared drive.
 
-**Scenario 1**: You will be able to upload any images located in a **virtual folder,** which is a subfolder of the web application, hosting the editor. This means that you need to create a virtual directory that is a subdirectory of the web application folder, which will point to the physical folder located on the other PC. You also have to set the needed ASPNET/NETWORK SERVICE permissions to this virtual directory.Here is an example which assumes that we have a domain environment and both computers are members of the same domain. The machine hosting the editor application must have IIS 6.0 installed.
+**Scenario 1**: You will be able to upload any images located in a **virtual folder,** which is a subfolder of the web application, hosting the editor. This means that you need to create a virtual directory that is a subdirectory of the web application folder, which will point to the physical folder located on the other PC. You also have to set the needed ASPNET/NETWORK SERVICE permissions to this virtual directory. Here is an example which assumes that we have a domain environment and both computers are members of the same domain. The machine hosting the editor application must have IIS 6.0 installed.
 
 >note This scenario does not work with IIS 5.1.
 

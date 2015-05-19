@@ -16,7 +16,7 @@ This help article treats the PDF export functionality of **RadEditor** and the c
 * [PDF Specific Settings](#pdf-specific-settings)
 * [OnExportContent Event](#onexportcontent-event)
 * [Using an External HTML to PDF Conversion Library](#using-an-external-html-to-pdf-conversion-library)
-* [Unsupported Features/Scenarios](#unsupported-features/scenarios)
+* [Unsupported Features and Scenarios](#unsupported-features-and-scenarios)
 
 ## How-to Export the RadEditor Content to a PDF File
 
@@ -78,8 +78,8 @@ End Sub
 
 >note The default page orientation for the *PDF* file is *Portrait.* You can easily switch to *Landscape* by modifying the *PageWidth* / *PageHeight* properties manually.
 >
-*  * **A4 Portrait** :* `<Pdf PageWidth="210mm" PageHeight="297mm" />`
-*  * **A4 Landscape** :* `<Pdf PageWidth="297mm" PageHeight="210mm" />`
+*  **A4 Portrait** : `<Pdf PageWidth="210mm" PageHeight="297mm" />`
+*  **A4 Landscape** : `<Pdf PageWidth="297mm" PageHeight="210mm" />`
 
 ## OnExportContent Event
 
@@ -319,7 +319,7 @@ Public MustInherit Class RadEditorExportTemplate
 End Class	
 ````
 
-Next, an instance of the Custom Pdf Export Template needs to be passed to the Editor. This can be done in the**Page_Load** event handler, for example, in the following way.
+Next, an instance of the Custom Pdf Export Template needs to be passed to the Editor. This can be done in the **Page_Load** event handler, for example, in the following way.
 
 
 ````C#
@@ -339,9 +339,9 @@ End Sub
 
 Last, but not least, by calling the **ExportToPDF()** the content will be exported using the newly defined	library instead of the default one.
 
-For more information on how to use an external library and a complete example with source code, refer to the[Using an external library for the export to PDF functionality in Telerik’s ASP.NET Editor](http://blogs.telerik.com/aspnet-ajax/posts/13-02-21/using-an-external-library-for-the-export-to-pdf-functionality-in-telerik-s-asp.net-editor) blog post.
+For more information on how to use an external library and a complete example with source code, refer to the [Using an external library for the export to PDF functionality in Telerik’s ASP.NET Editor](http://blogs.telerik.com/aspnet-ajax/posts/13-02-21/using-an-external-library-for-the-export-to-pdf-functionality-in-telerik-s-asp.net-editor) blog post.
 
-## Unsupported Features/Scenarios
+## Unsupported Features and Scenarios
 
 Although we are striving to constantly improve our products, there are some limitations in the current implementation of our PDF engine:
 

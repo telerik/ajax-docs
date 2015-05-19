@@ -1,7 +1,7 @@
 ---
-title: Keyboard Support Overview
-page_title: Overview | RadEditor for ASP.NET AJAX Documentation
-description: Overview
+title: Overview
+page_title: Keyboard Support Overview | RadEditor for ASP.NET AJAX Documentation
+description: Keyboard Support Overview
 slug: editor/accessibility-and-internationalization/keyboard-support/overview
 tags: overview
 published: True
@@ -22,35 +22,35 @@ RadEditor for ASP.NET AJAX is a fully keyboard navigable component. This include
 
 * built-in keyboard shortcuts - by default, RadEditor has the following shortcuts hardcoded internally:
 
-* Find Dialog - CTRL+F
+	* Find Dialog - CTRL+F
 
-* Toggle Full Screen Mode - F11
+	* Toggle Full Screen Mode - F11
 
-* Repeat Last Command - F4
+	* Repeat Last Command - F4
 
-* Hyperlink Manager Dialog - CTRL+K
+	* Hyperlink Manager Dialog - CTRL+K
 
-* Remove Hyperlink - CTRL+SHIFT+K
+	* Remove Hyperlink - CTRL+SHIFT+K
 
-* Image Manager Dialog - CTRL+G
+	* Image Manager Dialog - CTRL+G
 
-* Bold - CTRL+B
+	* Bold - CTRL+B
 
-* Italic - CTRL+I
+	* Italic - CTRL+I
 
-* Underline - CTRL+U
+	* Underline - CTRL+U
 
-* Undo - CTRL+Z
+	* Undo - CTRL+Z
 
-* Redo - CTRL+SHIFT+Z, CTRL+Y
+	* Redo - CTRL+SHIFT+Z, CTRL+Y
 
-* Cut - CTRL+X
+	* Cut - CTRL+X
 
-* Copy - CTRL+C
+	* Copy - CTRL+C
 
-* Paste - CTRL+V
+	* Paste - CTRL+V
 
-* Select All - CTRL+A
+	* Select All - CTRL+A
 
 You can assign a shortcut to all editor's buttons and dropdowns by using the **ShortCut** attribute of the inner telerik:EditorTool tag of the RadEditor:
 

@@ -20,7 +20,7 @@ The first thing to now is how to [get a reference to the client-side RadEditor i
 
 ## Getting a Reference to the Client-side Object
 
-You can get a reference to the editor using the[$find method](https://msdn.microsoft.com/en-us/library/vstudio/bb397441%28v=vs.100%29.aspx).
+You can get a reference to the editor using the [$find method](https://msdn.microsoft.com/en-us/library/vstudio/bb397441%28v=vs.100%29.aspx).
 
 It is always recommended to assure that the client-side id of the control is used. The best way for that is using the server tags (e.g., ` $find("<%= name.ClientID %>")`).
 
@@ -41,7 +41,7 @@ The following example showcases how to get a client-side reference to the RadEdi
 </script> 
 ````
 
-You can find more details about the client-side object creation in the more detailed[Getting a Reference to RadEditor]({%slug editor/client-side-programming/getting-a-reference-to-radeditor%}) article
+You can find more details about the client-side object creation in the more detailed [Getting a Reference to RadEditor]({%slug editor/client-side-programming/getting-a-reference-to-radeditor%}) article
 
 ## Handling Client-side Events
 

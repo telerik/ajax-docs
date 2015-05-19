@@ -1,7 +1,7 @@
 ---
-title: Creating Accessible Content Overview
-page_title: Overview | RadEditor for ASP.NET AJAX Documentation
-description: Overview
+title: Overview
+page_title: Creating Accessible Content Overview | RadEditor for ASP.NET AJAX Documentation
+description: Creating Accessible Content Overview
 slug: editor/accessibility-and-internationalization/creating-accessible-content/overview
 tags: overview
 published: True

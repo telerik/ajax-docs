@@ -29,7 +29,7 @@ Quick navigation:
 
 ## Enabling the Import Feature for DOCX and RTF
 
-The built-in implementation of this feature depends on the **Telerik document processing libraries**. Since the **Q2 2014** release, it comes with the installation of the **Telerik UI for ASP.NET AJAX** suite.You can see how to obtain the needed assemblies in the [Included Assemblies]({% slug introduction/installation/included-assemblies %}) article.
+The built-in implementation of this feature depends on the **Telerik document processing libraries**. Since the **Q2 2014** release, it comes with the installation of the **Telerik UI for ASP.NET AJAX** suite. You can see how to obtain the needed assemblies in the [Included Assemblies]({% slug introduction/installation/included-assemblies %}) article.
 
 To use the built-in **document processing libraries** integration with the **RadEditor** Export to Word feature,you need to add references to the following assemblies in your project:
 
@@ -78,7 +78,7 @@ End Sub
 
 You can fine tune the importing functionality by using the **ImportSettings** inner tag of the **RadEditor** control.The available configuration options are located in the **Docx** inner tag (for importing DOCX) and the **Rtf** one(for importing RTF).
 
-These setting are designed and implemented in the document processing libraries and more details about them are available in the [Settings](http://www.telerik.com/help/aspnet-ajax/radwordsprocessing-formats-and-conversion-html-settings.html) article of **HtmlFormatProvider** class.If you need more advanced control over the settings of the**HtmlFormatProvider** instance, you can use the **ImportContent** RadEditor event to implement the desired configurations.You can find an example in the [OnImportContent Event]({%slug editor/server-side-programming/events/onimportcontent%}) help article.
+These setting are designed and implemented in the document processing libraries and more details about them are available in the [Settings](http://www.telerik.com/help/aspnet-ajax/radwordsprocessing-formats-and-conversion-html-settings.html) article of **HtmlFormatProvider** class. If you need more advanced control over the settings of the **HtmlFormatProvider** instance, you can use the **ImportContent** RadEditor event to implement the desired configurations. You can find an example in the [OnImportContent Event]({%slug editor/server-side-programming/events/onimportcontent%}) help article.
 
 These lists explain the basics of the Import Settings RadEditor exposes:
 
@@ -86,13 +86,13 @@ These lists explain the basics of the Import Settings RadEditor exposes:
 
 * **DocumentLevel**—specifies the export scope of the document. By default, the generated HTML content is not a full HTML page (i.e., it does not begin with the `<html>` tag, but with generic tags like `<p>`). The available options are available through the **DocumentExportLevel** enumeration:
 * **Fragment**—this is the default value. Imports a fragment of the HTML document with—only the `<body>` tag of the content area.
-* **Document**—imports full HTML document. You can get a[full HTML page](http://idjemerenov/telerik.web.examples.dev/editor/examples/completehtmlsupport/defaultcs.aspx)in the editor (i.e., content that begins with the `<html>` tag)
+* **Document**—imports full HTML document. You can get a [full HTML page](http://idjemerenov/telerik.web.examples.dev/editor/examples/completehtmlsupport/defaultcs.aspx) in the editor (i.e., content that begins with the `<html>` tag)
 
 
 **Options related to the images:**
 
-* **ImagesMode**—controls how images are imported. The available options are as external file(s) or as embedded images.The embedded images are represented as[base64 images](http://en.wikipedia.org/wiki/Base64). As for the external images, they are automatically generated image files that are exported into a folder,defined via the **ImagesFolderPath** and **ImagesSourceBasePath**.
-* **ImagesFolderPath**—this property is used only when**ImagesMode** is set to **External**. It specifies the folder path where external images should be exported/uploaded.
+* **ImagesMode**—controls how images are imported. The available options are as external file(s) or as embedded images. The embedded images are represented as [base64 images](http://en.wikipedia.org/wiki/Base64). As for the external images, they are automatically generated image files that are exported into a folder, defined via the **ImagesFolderPath** and **ImagesSourceBasePath**.
+* **ImagesFolderPath**—this property is used only when **ImagesMode** is set to **External**. It specifies the folder path where external images should be exported/uploaded.
 * **ImagesSourceBasePath**—this property is used only when the **ImagesMode** is set to **External**.It specifies the base path for the "src" attribute of the imported image tags.
 
 **Options related to the styles:**

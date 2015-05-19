@@ -41,7 +41,7 @@ To use the built-in **document processing libraries** integration with the **Rad
 
 ## Exporting to an MS Word Document
 
-You can trigger an export to Word file action by calling the server-side **ExportToDocx()**method for DOCX **ExportToRtf()** method for RTF. **Example 1** illustrates their use.
+You can trigger an export to Word file action by calling the server-side **ExportToDocx()** method for DOCX **ExportToRtf()** method for RTF. **Example 1** illustrates their use.
 
 The default name of the exported file will be *RadEditorExport.docx* or *RadEditorExport.rtf*.Optionally, you can define it via the **FileName** property in the **ExportSettings** inner tag.You can read more about the available customization options in the [Defining Export Settings](#defining-export-settings) and [Using the Export Event](#using-export-event) sections.
 

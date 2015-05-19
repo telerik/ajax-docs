@@ -14,7 +14,7 @@ Due to designer requirements, the **RadEditor** dialogs should be resized to a n
 
 >caution As of the Q3 2013 release, setting a custom size for the built-in dialogs using the approach suggested in this article will not work as expected due to	improvements Telerik made to dialogs in **RadEditor** . You can find information about this subject in the ["The Autosize feature of the Built-in Dialogs is Enabled"]({%slug editor/changes-and-backwards-compatibility/the-autosize-feature-of-the-built-in-dialogs-is-enabled%}) article, in which an appropriate approach for resizing is also provided.
 
-As shown in **Example 1**, the **DialogDefinition** class of **RadEditor** provides the ability to change the initial size of **RadEditor** dialogs in the	**Page_PreRenderComplete** event. For example, to increase the size of the **LinkManager**dialog you can get a reference to it with the **GetDialogDefinition** method of the **DialogDefinition** class and then use the**Width** and **Height** properties to set the desired dimension:
+As shown in **Example 1**, the **DialogDefinition** class of **RadEditor** provides the ability to change the initial size of **RadEditor** dialogs in the	**Page_PreRenderComplete** event. For example, to increase the size of the **LinkManager** dialog you can get a reference to it with the **GetDialogDefinition** method of the **DialogDefinition** class and then use the **Width** and **Height** properties to set the desired dimension:
 
 >caption Example 1: Resizing the **LinkManager** dialog via the **DialogDefinition** class.
 

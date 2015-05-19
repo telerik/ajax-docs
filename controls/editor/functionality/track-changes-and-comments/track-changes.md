@@ -145,7 +145,7 @@ RadEditor1.TrackChangesSettings.UserCssId = "reU0"
 RadEditor1.TrackChangesSettings.CanAcceptTrackChanges = "true"
 ````
 
-Optionally, you can use a custom **UserCssId** value and define custom appearance for it. To do so you should implement a CSSfile with CSS rules like the ones in **Example 2**. This file should be imported into the RadEditor’s content area via the[CssFiles collection]({%slug editor/functionality/toolbars/dropdowns/external-css-files%}) or the[ContentAreaCssFile property]({%slug editor/managing-content/content-area-appearance/custom-stylization%}) only if the[ContentAreaMode property]({%slug editor/functionality/editor-views-and-modes/contentareamode-property%}) is set to Iframe. If the Div mode is set, theCSS file should be directly imported in the main page.
+Optionally, you can use a custom **UserCssId** value and define custom appearance for it. To do so you should implement a CSS file with CSS rules like the ones in **Example 2**. This file should be imported into the RadEditor’s content area via the [CssFiles collection]({%slug editor/functionality/toolbars/dropdowns/external-css-files%}) or the [ContentAreaCssFile property]({%slug editor/managing-content/content-area-appearance/custom-stylization%}) only if the [ContentAreaMode property]({%slug editor/functionality/editor-views-and-modes/contentareamode-property%}) is set to Iframe. If the Div mode is set, the CSS file should be directly imported in the main page.
 
 >caption Example 2: Custom styles for the reU10 UserCssId value
 

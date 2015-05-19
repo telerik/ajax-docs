@@ -22,7 +22,7 @@ RadEditor for ASP.NET AJAX introduces a property named **ToolbarMode**, which sp
 
 
 
-The **ToolbarMode**property is a **EditorToolbarMode**enumeration that can be set at runtime to:
+The **ToolbarMode** property is a **EditorToolbarMode** enumeration that can be set at runtime to:
 
 * Default
 * Floating
