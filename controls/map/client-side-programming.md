@@ -5,7 +5,7 @@ description: Client-side Programming
 slug: map/client-side-programming
 tags: client-side,programming
 published: True
-position: 8
+position: 51
 ---
 
 # Client-side Programming
