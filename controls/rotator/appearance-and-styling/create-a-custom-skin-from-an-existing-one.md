@@ -95,7 +95,7 @@ In order to explain better the CSS classes of RadRotator, we will use both Rotat
 
 * **html* .rrVerticalList li** - special setting for RadRotator's vertical list for Internet Explorer 6
 
-#### The Skin Stylesheet - Rotator.MyCustomSkin.css**
+#### The Skin Stylesheet - Rotator.MyCustomSkin.css
 
 Each skin of RadRotator consists of an [image sprite](http://www.alistapart.com/articles/sprites/), that is contained in the Skins/SkinName/Rotator folder:
 
@@ -163,7 +163,9 @@ Explained below is a simple method for modifying the image sprite of RadRotator'
 
 1. Check the **colorize** checkbox in the Hue / Saturation dialog, and the image you have selected will be immediately colorized in the hue you have selected from the toolbox:
 
-	![Colorize](images/rotator-colorize.gif)You may then play with the Hue, Saturation and Lightness sliders to fine tune or further modify the image. Make sure you memorize the values of the sliders, as you will need to add the same settings to all three images in order to achieve consistent looks
+	![Colorize](images/rotator-colorize.gif)
+	
+	You may then play with the Hue, Saturation and Lightness sliders to fine tune or further modify the image. Make sure you memorize the values of the sliders, as you will need to add the same settings to all three images in order to achieve consistent looks
 
 1. Press "OK" when you are finished
 

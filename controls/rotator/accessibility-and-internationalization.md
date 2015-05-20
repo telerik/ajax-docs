@@ -5,7 +5,7 @@ description: Accessibility and Internationalization
 slug: rotator/accessibility-and-internationalization
 tags: accessibility,and,internationalization
 published: True
-position: 8
+position: 41
 ---
 
 # Accessibility and Internationalization

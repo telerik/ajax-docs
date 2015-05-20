@@ -55,7 +55,7 @@ position: 0
 
 * **SlideShowAnimation** 
 
-	* Type-Accepts an Enum value of type *Telerik.Web.UI.Rotator.AnimationType.* This property takes effect when one RotatotType is set to **  *SlideShow* or *SlideShowButtons* .
+	* Type-Accepts an Enum value of type *Telerik.Web.UI.Rotator.AnimationType.* This property takes effect when one RotatotType is set to *SlideShow* or *SlideShowButtons* .
 
 	* Duration - Specifies the speed in milliseconds for animating the rotator items.
 

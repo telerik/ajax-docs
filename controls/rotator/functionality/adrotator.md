@@ -50,23 +50,23 @@ In some scenarios you might want to have direct control on which images are sele
 
 1. Inheriting the Telerik.Web.UI.**RadRotator** class and overriding the **GetBanners(string virtualPath, string allowedExtensions)** method, which should return a collection of type List<Telerik.Web.UI.Rotator.**BannerDataItem**>.The following steps will help you achieve this:
 
-1. In your project create a new class that inherits the **RadRotator** class.
+	1. In your project create a new class that inherits the **RadRotator** class.
 
-1. Override the **GetBanners** method in order to implement your logic for retrieving the rotator images. For example the method from **Example 1** will look for images not only in the currently specified directory, but also all the images in the subdirectories:
+	1. Override the **GetBanners** method in order to implement your logic for retrieving the rotator images. For example the method from **Example 1** will look for images not only in the currently specified directory, but also all the images in the subdirectories:
 
-1. Register the class you added on the page that you will use the custom RadRotator:
+	1. Register the class you added on the page that you will use the custom RadRotator:
 
-	**ASP.NET**
+		**ASP.NET**
 
-		<%@ Register Namespace="CustomWebControls" TagPrefix="webControls" %>
+			<%@ Register Namespace="CustomWebControls" TagPrefix="webControls" %>
 
-1. Add an instance of the custom control:
+	1. Add an instance of the custom control:
 
-	**ASP.NET**
-	
-		<webControls:CustomRotator runat="server" ID="RadRotator1" Width="320px" ItemWidth="160px"
-			Height="120px" ItemHeight="113px" BannersPath="~/Images">
-		</webControls:CustomRotator>
+		**ASP.NET**
+		
+			<webControls:CustomRotator runat="server" ID="RadRotator1" Width="320px" ItemWidth="160px"
+				Height="120px" ItemHeight="113px" BannersPath="~/Images">
+			</webControls:CustomRotator>
 		
 >caption **Example 1**: Override the RadRotator's GetBanners method.
 
