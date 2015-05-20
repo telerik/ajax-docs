@@ -1,1 +1,1 @@
-http://www.telerik.com/help/aspnet-ajax/mvc-integration-with-telerik-ui-for-aspnet-ajax.html http://docs.telerik.com/devtools/ajax/mvc/overview
+http://www.telerik.com/help/aspnet-ajax/mvc-integration-with-telerik-ui-for-aspnet-ajax.html http://docs.telerik.com/devtools/aspnet-ajax/mvc/overview
