@@ -16,7 +16,9 @@ position: 3
 
 **RadImageEditor** is fully localized using Global resources. The control comes with three built-in language packs, English, German and French, between you can easily switch be setting the **Language** property or setting **UICulture** property to the @Page directive. The **Language** property is with higher priority than the global **UICulture** setting.
 
-Similar to **RadGrid**, **RadEditor** and **RadScheduler**, you can use resx files to localize (or customize) the control’s localization strings with minimum efforts. The Telerik UI for ASP.NET AJAX suite’s installation wizard copies the built-in resource files in the **App_GlobalResources** folder in your local installation.![Resource Files Location](images/radimageeditor-resx-files-location.png)
+Similar to **RadGrid**, **RadEditor** and **RadScheduler**, you can use resx files to localize (or customize) the control’s localization strings with minimum efforts. The Telerik UI for ASP.NET AJAX suite’s installation wizard copies the built-in resource files in the **App_GlobalResources** folder in your local installation.
+
+![Resource Files Location](images/radimageeditor-resx-files-location.png)
 
 You can either create your own language pack or use an existing one (if available for your language).
 
@@ -32,27 +34,24 @@ The following steps demonstrate how to create a new language pack for **RadImage
 
 	>note Please note that you need to keep the original files in the folder as well
 
-
-
 1. Open the newly copied language specific resource file and modify the keys’ values
 
 	![Create New Language Resource Files](images/radimageeditor-create-new-lang-resx.png)
 
-	>caution Please do not modify/remove the ReservedResource key.>
-
+	>caution Please do not modify/remove the ReservedResource key.
 
 1. Set the RadImageEditor’s Language property to the corresponding language:
 
-	__ASP.NET__
+	**ASP.NET**
 
 		<telerik:RadImageEditor runat="server" ID="RadImageEditor1" Language="bg-BG">
 		</telerik:RadImageEditor>
 
-	__C#__
+	**C#**
 
 		RadImageEditor1.Language = "bg-BG";
 
-	__VB__
+	**VB**
 
 		RadImageEditor1.Language = "bg-BG"
 
