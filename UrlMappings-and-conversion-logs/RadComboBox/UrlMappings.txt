@@ -51,7 +51,7 @@ http://www.telerik.com/help/aspnet-ajax/combobox-behavior-auto-complete.html htt
 http://www.telerik.com/help/aspnet-ajax/combobox-behavior-cross-page-postbacks.html http://docs.telerik.com/devtools/ajax/combobox/functionality/cross-page-postbacks
 http://www.telerik.com/help/aspnet-ajax/combobox-behavior-end-user-restriction.html http://docs.telerik.com/devtools/ajax/combobox/functionality/end-user-restriction
 http://www.telerik.com/help/aspnet-ajax/combobox-behavior-validation.html http://docs.telerik.com/devtools/ajax/combobox/functionality/validation
-http://www.telerik.com/help/aspnet-ajax/combobox-render-modes.html http://docs.telerik.com/devtools/ajax/combobox/functionality/render-modes
+http://www.telerik.com/help/aspnet-ajax/combobox-render-modes.html http://docs.telerik.com/devtools/ajax/combobox/mobile-support/render-modes
 http://www.telerik.com/help/aspnet-ajax/combobox-usability-checkboxes.html http://docs.telerik.com/devtools/ajax/combobox/functionality/checkbox-support
 http://www.telerik.com/help/aspnet-ajax/combobox-usability-filtering.html http://docs.telerik.com/devtools/ajax/combobox/functionality/filtering
 http://www.telerik.com/help/aspnet-ajax/combobox-usability-sorting.html http://docs.telerik.com/devtools/ajax/combobox/functionality/sorting
