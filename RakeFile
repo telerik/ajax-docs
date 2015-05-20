@@ -1,30 +1,45 @@
 task :xaml_docs do 
   require "./helper_tools/submodules.rb"
-  submodule = Submodule.new("xaml_docs", "./helper_tools/submodules.yml")
-  submodule.init()
-  submodule.update()
-  submodule.map_folders()
-  submodule.destroy()
+  #submodule = Submodule.new("xaml_docs", "./helper_tools/submodules.yml")
+  #submodule.init()
+  #submodule.update()
+  #submodule.map_folders()
+  #submodule.destroy()
   
   # replace all {% if site.site_name == 'WPF' %} 
   # to {% if site.site_name == 'AJAX' %}
-  
+    
   original_regex = /{% if site.site_name == 'WPF' %}WPF|{% if site.site_name == 'WPF' %}/
   original_string = "{% if site.site_name == 'WPF' %}"
   replacement = "{% if site.site_name == 'AJAX' %}"
   
-  folders = submodule.get_target_folders()
-  folders.each do |folder|
-    files = Dir[folder + "**/*.md"]
-    files.each do |file|
-      content = File.read(file)
-      if content.include?(original_string)
-        #content = content.gsub(original, replacement)
-		content = content.gsub(original_regex){ |match|
-			match.end_with?("WPF") ? replacement + "AJAX" : replacement
+  # additionally, we need to change the page_title attributes of each article as per to our conventions
+  
+  mappings = [
+   { folder: "controls/wordsprocessing", title_add: " | RadWordsProcessing for ASP.NET AJAX Documentation" },
+   { folder: "controls/pdfprocessing", title_add: " | RadPdfProcessing for ASP.NET AJAX Documentation"},
+   { folder: "controls/ziplibrary", title_add: " | RadZipLibrary for ASP.NET AJAX Documentation"},
+   { folder: "controls/spreadprocessing", title_add: " | RadSpreadProcessing for ASP.NET AJAX Documentation"}
+  ]
+  
+  mappings.each do |map|
+	folder = map[:folder]
+	files = Dir[folder + "/**/*.md"]
+	
+	files.each do |file|
+		content = File.read(file)
+		
+		content = content.gsub(/page_title:.*/){ |match|
+			match.rstrip + map[:title_add]
 		}
-        File.write(file, content)
-      end
-    end
+		
+		if content.include?(original_string)
+			content = content.gsub(original_regex){ |match|
+				match.end_with?("WPF") ? replacement + "AJAX" : replacement
+			}
+		end
+		
+		File.write(file, content)
+	end
   end
 end
