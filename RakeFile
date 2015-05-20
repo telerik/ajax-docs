@@ -1,10 +1,10 @@
 task :xaml_docs do 
   require "./helper_tools/submodules.rb"
-  #submodule = Submodule.new("xaml_docs", "./helper_tools/submodules.yml")
-  #submodule.init()
-  #submodule.update()
-  #submodule.map_folders()
-  #submodule.destroy()
+  submodule = Submodule.new("xaml_docs", "./helper_tools/submodules.yml")
+  submodule.init()
+  submodule.update()
+  submodule.map_folders()
+  submodule.destroy()
   
   # replace all {% if site.site_name == 'WPF' %} 
   # to {% if site.site_name == 'AJAX' %}
