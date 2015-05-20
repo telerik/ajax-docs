@@ -80,6 +80,7 @@ Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
     RadAsyncUpload1.UploadConfiguration = config
 End Sub
 ````
+
 Then, in the handler, the sent information can be obtained in the following way:
 
 ````C#
