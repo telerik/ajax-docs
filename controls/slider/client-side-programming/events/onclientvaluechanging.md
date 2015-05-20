@@ -18,13 +18,13 @@ The event handler receives parameters:
 
 1. Event arguments with the following properties:
 
-* **get_oldValue**: returns the slider value just prior to the change.
+	* **get_oldValue**: returns the slider value just prior to the change.
 
-* **get_newValue**: returns the value that will be set after the change.
+	* **get_newValue**: returns the value that will be set after the change.
 
-* **set_cancel**: cancel the change of the value.
+	* **set_cancel**: cancel the change of the value.
 
-* **get_cancel**: returns a boolean that indicates whether the change of the value is cancelled.
+	* **get_cancel**: returns a boolean that indicates whether the change of the value is cancelled.
 
 The example below displays the new and old values.
 

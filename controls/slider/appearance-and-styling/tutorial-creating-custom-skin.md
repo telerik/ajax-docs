@@ -22,7 +22,7 @@ See [Understanding the Skin CSS File]({% slug slider/appearance-and-styling/unde
 
 ## Prepare the Project
 
-1. In a new AJAX enabled application web form, add a __RadSlider__. Set the __EnabledEmbeddedSkins__ property to __false__.
+1. In a new AJAX enabled application web form, add a **RadSlider**. Set the **EnabledEmbeddedSkins** property to **false**.
 
 1. In the Solution Explorer, create a new "MySkin" directory in your project.
 
@@ -42,11 +42,11 @@ See [Understanding the Skin CSS File]({% slug slider/appearance-and-styling/unde
 
 1. Open "Slider.MySkin.css" for editing in Visual Studio.
 
-1. Press __Control-H__ to invoke the Find and Replace dialog. 
+1. Press **Control-H** to invoke the Find and Replace dialog. 
 
 1. Set **Find what**: to "_Default", **Replace with**: to "_MySkin", and **Look in**: to **Current Document**.
 
-1. Click the __Replace All__ button. 
+1. Click the **Replace All** button. 
 
 1. ![](images/slider-appearance009.png)
 
@@ -58,13 +58,13 @@ See [Understanding the Skin CSS File]({% slug slider/appearance-and-styling/unde
 
 	![](images/slider-appearance011.png)
 	
-1. Change the __Skin__ property of your RadSlider control to "MySkin". 
+1. Change the **Skin** property of your RadSlider control to "MySkin". 
 
 1. Run the application. The new skin looks just like the Default skin:
 
 	![](images/slider-appearance002.png)
 	
-1. __Modify the Graphics__
+1. **Modify the Graphics**
 
 1. In MSPaint or other drawing tool of your choice, open the file "DragHandle.gif" for editing. This image contains the slider drag handle in three states. Change the coloring to use a blue color as a base and save the file. The coloring changes the image from this:
 
@@ -88,7 +88,7 @@ See [Understanding the Skin CSS File]({% slug slider/appearance-and-styling/unde
 
 	![](images/slider-appearance012.png)
 	
-1.  The selection and track areas are dark brown and white respectively. You will need to modify the stylesheet to alter the selection and track areas. Before starting to modifying the style sheet, take a look at this abbreviated DOM-tree of __RadSlider__:
+1.  The selection and track areas are dark brown and white respectively. You will need to modify the stylesheet to alter the selection and track areas. Before starting to modifying the style sheet, take a look at this abbreviated DOM-tree of **RadSlider**:
 
 	**HTML**
 	

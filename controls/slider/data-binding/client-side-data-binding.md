@@ -62,7 +62,7 @@ When you have already retrieved the desired data source from a web service or fr
 
 ## Using a RadClientDataSource Control for Data Binding
 
-The **RadClientDataSource** control allows you to connect to a web service and fetch data that you can bind to any appropriate Telerik control. After configuring the client data source, all you need is to set its **ID** to the **ClientDataSourceID**property of the slider control. You can see this approach in **Example 2** and the rendered result in **Figure 2**.
+The **RadClientDataSource** control allows you to connect to a web service and fetch data that you can bind to any appropriate Telerik control. After configuring the client data source, all you need is to set its **ID** to the **ClientDataSourceID** property of the slider control. You can see this approach in **Example 2** and the rendered result in **Figure 2**.
 
 >caption Figure 2: Slider that is data bound to RadClientDataSource.
 

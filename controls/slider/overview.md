@@ -44,11 +44,11 @@ RadSlider has three "handle" [visual elements]({%slug slider/getting-started/str
 
 ## Mouse Wheel Support
 
-Mouse wheel support is enabled through the **TrackMouseWheel** property (true by default) and further controlled by the **SmallChange**property.**SmallChange** represents the amount that the slider moves in response to the mouse wheel.
+Mouse wheel support is enabled through the **TrackMouseWheel** property (true by default) and further controlled by the **SmallChange** property. **SmallChange** represents the amount that the slider moves in response to the mouse wheel.
 
 ## State Persistence
 
-The state of the RadSlider is automatically persisted across partial and full postbacks. All the properties set on the client including the current **Value**property will be available in the code-behind and after page refresh, they will be persisted on the client.
+The state of the RadSlider is automatically persisted across partial and full postbacks. All the properties set on the client including the current **Value** property will be available in the code-behind and after page refresh, they will be persisted on the client.
 
 ## Multi-Touch Support
 

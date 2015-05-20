@@ -20,11 +20,11 @@ The event handler receives two parameters:
 
 * An event arguments object containing the following methods:
 
-* **get_dataItem()** - returns the client-side data object of the slider’s item.
+	* **get_dataItem()** - returns the client-side data object of the slider’s item.
 
-* **get_cancel()** - returns a boolean value that indicates whether the event was canceled. **True** means the event is canceled.
+	* **get_cancel()** - returns a boolean value that indicates whether the event was canceled. **True** means the event is canceled.
 
-* **set_cancel(** -sets a boolean value that indicates whether the event will be canceled. Setting **true**means the event will be canceled.
+	* **set_cancel(** -sets a boolean value that indicates whether the event will be canceled. Setting **true** means the event will be canceled.
 
 You can check in **Example 1** how this event can be used for canceling the data binding of items based on one of its parameters.
 

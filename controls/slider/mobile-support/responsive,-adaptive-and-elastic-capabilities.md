@@ -16,7 +16,7 @@ Generally, responsive design means that the page and its content are able to ada
 
 ## Elastic Design with RadSlider
 
-The **Lightweight RenderMode** of the slider supports changing the font size without breaking the control's appearance - if the new size is larger than the original, the elements in the control will simply increase their size as well to accommodate the text.This fluid layout is achieved by using em units for setting dimensions and paddings in the control, instead of px because em units are tied to the font size.This allows dimensions and sizes to scale with the font size.
+The **Lightweight RenderMode** of the slider supports changing the font size without breaking the control's appearance - if the new size is larger than the original, the elements in the control will simply increase their size as well to accommodate the text. This fluid layout is achieved by using em units for setting dimensions and paddings in the control, instead of px because em units are tied to the font size.This allows dimensions and sizes to scale with the font size.
 
 The following sample shows how to increase the font size of a slider and the effect can be seen in comparison in **Figure 1**.
 

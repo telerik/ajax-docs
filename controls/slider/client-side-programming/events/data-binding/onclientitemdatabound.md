@@ -20,9 +20,9 @@ The event handler receives two parameters:
 
 * An event arguments object containing the following methods:
 
-* **get_dataItem()** - returns the client-side data object of the slider’s item.
+	* **get_dataItem()** - returns the client-side data object of the slider’s item.
 
-* **get_sliderItem()** - returns the client-side object of the slider’s item.
+	* **get_sliderItem()** - returns the client-side object of the slider’s item.
 
 You can check in **Example 1** how this event can be used for modifying the text in the slider items after they are data bound.
 

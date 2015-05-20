@@ -18,9 +18,9 @@ The event handler receives parameters:
 
 1. Event arguments with the following properties:
 
-* **get_oldValue**: returns the slider Value just prior to the change.
+	* **get_oldValue**: returns the slider Value just prior to the change.
 
-* **get_newValue**: returns the slider Value after the change.
+	* **get_newValue**: returns the slider Value after the change.
 
 The example below displays the new and old values.
 

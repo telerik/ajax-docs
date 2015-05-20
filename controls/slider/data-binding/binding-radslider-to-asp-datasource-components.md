@@ -22,7 +22,7 @@ To control the data binding you should use the new **ItemBinding** inner propert
 
 In addition, you can also add the data bound items to already declared items by setting **AppendDataBoundItems="true"**.
 
-Below is demonstrated how a data source for a RadSlider can be configured. You can also refer to the[Databinding online demo](http://demos.telerik.com/aspnet-ajax/slider/examples/databinding/defaultcs.aspx), which contains a more detailed example of this feature.
+Below is demonstrated how a data source for a RadSlider can be configured. You can also refer to the [Databinding online demo](http://demos.telerik.com/aspnet-ajax/slider/examples/databinding/defaultcs.aspx), which contains a more detailed example of this feature.
 
 ````ASP.NET
 <telerik:RadSlider ID="slider" runat="server" DataSourceID="SqlDataSource1" Width="800"
