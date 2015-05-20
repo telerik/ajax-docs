@@ -1,6 +1,6 @@
 ---
 title: Paragraph
-page_title: Paragraph
+page_title: Paragraph | RadWordsProcessing for ASP.NET AJAX Documentation
 description: Paragraph
 slug: radwordsprocessing-model-paragraph
 tags: paragraph

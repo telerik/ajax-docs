@@ -1,6 +1,6 @@
 ---
 title: Compressing a Stream
-page_title: Compressing a Stream
+page_title: Compressing a Stream | RadZipLibrary for ASP.NET AJAX Documentation
 description: Compressing a Stream
 slug: radziplibrary-compress-stream
 tags: compressing,a,stream

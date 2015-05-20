@@ -1,6 +1,6 @@
 ---
 title: Shapes and Images
-page_title: Shapes and Images
+page_title: Shapes and Images | RadSpreadProcessing for ASP.NET AJAX Documentation
 description: Shapes and Images
 slug: radspreadprocessing-features-shapes-and-images
 tags: shapes,and,images

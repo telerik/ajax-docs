@@ -1,6 +1,6 @@
 ---
 title: Settings
-page_title: Settings
+page_title: Settings | RadSpreadProcessing for ASP.NET AJAX Documentation
 description: Settings
 slug: radspreadprocessing-formats-and-conversion-csv-settings
 tags: settings

@@ -1,6 +1,6 @@
 ---
 title: Path
-page_title: Path
+page_title: Path | RadPdfProcessing for ASP.NET AJAX Documentation
 description: Path
 slug: radpdfprocessing-model-path
 tags: path

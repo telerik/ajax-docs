@@ -1,6 +1,6 @@
 ---
 title: Getting Started
-page_title: Getting Started
+page_title: Getting Started | RadZipLibrary for ASP.NET AJAX Documentation
 description: Getting Started
 slug: radziplibrary-gettingstarted
 tags: getting,started

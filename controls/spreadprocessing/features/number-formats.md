@@ -1,6 +1,6 @@
 ---
 title: Number Formatting
-page_title: Number Formatting
+page_title: Number Formatting | RadSpreadProcessing for ASP.NET AJAX Documentation
 description: Number Formatting
 slug: radspreadprocessing-features-number-formats
 tags: number,formatting

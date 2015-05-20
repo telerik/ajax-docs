@@ -1,6 +1,6 @@
 ---
 title: Insert and Remove Rows and Columns
-page_title: Insert and Remove Rows and Columns
+page_title: Insert and Remove Rows and Columns | RadSpreadProcessing for ASP.NET AJAX Documentation
 description: Insert and Remove Rows and Columns
 slug: radspreadprocessing-working-with-rows-and-columns-insert-and-remove
 tags: insert,and,remove,rows,and,columns

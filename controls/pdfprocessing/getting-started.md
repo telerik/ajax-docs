@@ -1,6 +1,6 @@
 ---
 title: Getting Started
-page_title: Getting Started
+page_title: Getting Started | RadPdfProcessing for ASP.NET AJAX Documentation
 description: Getting Started
 slug: radpdfprocessing-getting-started
 tags: getting,started

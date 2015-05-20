@@ -1,6 +1,6 @@
 ---
 title: Get, Set and Clear Cell Properties
-page_title: Get, Set and Clear Cell Properties
+page_title: Get, Set and Clear Cell Properties | RadSpreadProcessing for ASP.NET AJAX Documentation
 description: Get, Set and Clear Cell Properties
 slug: radspreadprocessing-working-with-cells-get-set-clear-properties
 tags: get,,set,and,clear,cell,properties

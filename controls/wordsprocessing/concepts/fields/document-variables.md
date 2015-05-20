@@ -1,6 +1,6 @@
 ---
 title: Document Variables
-page_title: Document Variables
+page_title: Document Variables | RadWordsProcessing for ASP.NET AJAX Documentation
 description: Document Variables
 slug: radwordsprocessing-concepts-document-variables
 tags: document,variables

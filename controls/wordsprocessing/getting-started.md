@@ -1,6 +1,6 @@
 ---
 title: Getting Started
-page_title: Getting Started
+page_title: Getting Started | RadWordsProcessing for ASP.NET AJAX Documentation
 description: Getting Started
 slug: radwordsprocessing-getting-started
 tags: getting,started

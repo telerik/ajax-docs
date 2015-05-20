@@ -1,6 +1,6 @@
 ---
 title: Changes
-page_title: Changes
+page_title: Changes | RadWordsProcessing for ASP.NET AJAX Documentation
 description: Changes
 slug: radwordsprocessing-changes
 tags: changes

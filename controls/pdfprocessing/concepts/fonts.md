@@ -1,6 +1,6 @@
 ---
 title: Fonts
-page_title: Fonts
+page_title: Fonts | RadPdfProcessing for ASP.NET AJAX Documentation
 description: Fonts
 slug: radpdfprocessing-concepts-fonts
 tags: fonts
@@ -88,7 +88,7 @@ __Example 2__ shows how to create a font using the FontsRepository.
 
 >Creating a font that is not present in the repository with the code from __Example 2__ is going to fail.
 
-{% endif %}{% if site.site_name == 'WPF' %}
+{% endif %}{% if site.site_name == 'AJAX' %}
 
 >You can create fonts that are not explicitly registered. Creating a font that is not registered in the repository with the code from __Example 2__ tries to find the font from the ones installed on the machine.
 

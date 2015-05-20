@@ -1,6 +1,6 @@
 ---
 title: Text and Graphic Properties
-page_title: Text and Graphic Properties
+page_title: Text and Graphic Properties | RadPdfProcessing for ASP.NET AJAX Documentation
 description: Text and Graphic Properties
 slug: radpdfprocessing-editing-text-and-graphic-properties
 tags: text,and,graphic,properties

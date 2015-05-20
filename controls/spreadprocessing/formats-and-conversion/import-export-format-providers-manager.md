@@ -1,6 +1,6 @@
 ---
 title: Format Providers Manager
-page_title: Format Providers Manager
+page_title: Format Providers Manager | RadSpreadProcessing for ASP.NET AJAX Documentation
 description: Format Providers Manager
 slug: radspreadprocessing-formats-and-conversion-format-providers-manager
 tags: format,providers,manager
@@ -85,7 +85,7 @@ The format providers manager exposes an Import() method that takes one string ar
 
 The following example demonstrates how to present the user with an OpenFileDialog and try to import the selected file. Note that you can use the __GetOpenFileDialogFilter()__ method of the __FileDialogHelper__ class to constructs the correct filter for all registered format providers.
 
-{% if site.site_name == 'WPF' %}
+{% if site.site_name == 'AJAX' %}
 
 #### __C#__
 

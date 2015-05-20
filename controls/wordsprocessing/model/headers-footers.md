@@ -1,6 +1,6 @@
 ---
 title: Headers and Footers
-page_title: Headers and Footers
+page_title: Headers and Footers | RadWordsProcessing for ASP.NET AJAX Documentation
 description: Headers and Footers
 slug: radwordsprocessing-model-headers-footers
 tags: headers,and,footers

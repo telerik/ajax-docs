@@ -1,6 +1,6 @@
 ---
 title: Backward Compatibility
-page_title: Backward Compatibility
+page_title: Backward Compatibility | RadPdfProcessing for ASP.NET AJAX Documentation
 description: Backward Compatibility
 slug: radpdfprocessing-backward-compatibility
 tags: backward,compatibility

@@ -1,6 +1,6 @@
 ---
 title: Operator
-page_title: Operator
+page_title: Operator | RadSpreadProcessing for ASP.NET AJAX Documentation
 description: Operator
 slug: radspreadprocessing-features-formulas-operators
 tags: operator

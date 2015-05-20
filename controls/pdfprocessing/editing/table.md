@@ -1,6 +1,6 @@
 ---
 title: Table
-page_title: Table
+page_title: Table | RadPdfProcessing for ASP.NET AJAX Documentation
 description: Table
 slug: radpdfprocessing-editing-table
 tags: table

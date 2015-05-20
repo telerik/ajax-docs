@@ -1,6 +1,6 @@
 ---
 title: How to Comply with PDF/A Standard
-page_title: How to Comply with PDF/A Standard
+page_title: How to Comply with PDF/A Standard | RadPdfProcessing for ASP.NET AJAX Documentation
 description: How to Comply with PDF/A Standard
 slug: radpdfprocessing-howto-comply-with-pdfa-standard
 tags: pdfa,standard

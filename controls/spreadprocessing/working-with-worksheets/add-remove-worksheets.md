@@ -1,6 +1,6 @@
 ---
 title: Add and Remove Worksheets
-page_title: Add and Remove Worksheets
+page_title: Add and Remove Worksheets | RadSpreadProcessing for ASP.NET AJAX Documentation
 description: Add and Remove Worksheets
 slug: radspreadprocessing-working-with-worksheets-add-remove-worksheets
 tags: add,and,remove,worksheets

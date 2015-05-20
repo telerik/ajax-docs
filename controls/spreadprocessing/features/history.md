@@ -1,6 +1,6 @@
 ---
 title: History
-page_title: History
+page_title: History | RadSpreadProcessing for ASP.NET AJAX Documentation
 description: History
 slug: radspreadprocessing-features-history
 tags: history

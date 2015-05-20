@@ -1,6 +1,6 @@
 ---
 title: SDK Examples
-page_title: SDK Examples
+page_title: SDK Examples | RadWordsProcessing for ASP.NET AJAX Documentation
 description: SDK Examples
 slug: radwordsprocessing-sdk-examples
 tags: sdk,examples

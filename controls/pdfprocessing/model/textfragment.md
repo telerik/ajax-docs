@@ -1,6 +1,6 @@
 ---
 title: TextFragment
-page_title: TextFragment
+page_title: TextFragment | RadPdfProcessing for ASP.NET AJAX Documentation
 description: TextFragment
 slug: radpdfprocessing-model-textfragment
 tags: textfragment

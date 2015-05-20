@@ -1,6 +1,6 @@
 ---
 title: Workbook Protection
-page_title: Workbook Protection
+page_title: Workbook Protection | RadSpreadProcessing for ASP.NET AJAX Documentation
 description: Workbook Protection
 slug: radspreadprocessing-features-protection-workbook
 tags: workbook,protection

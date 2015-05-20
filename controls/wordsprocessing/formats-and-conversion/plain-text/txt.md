@@ -1,6 +1,6 @@
 ---
 title: Plain text
-page_title: Plain text
+page_title: Plain text | RadWordsProcessing for ASP.NET AJAX Documentation
 description: Plain text
 slug: radwordsprocessing-formats-and-conversion-txt
 tags: plain,text

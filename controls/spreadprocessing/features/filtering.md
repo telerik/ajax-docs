@@ -1,6 +1,6 @@
 ---
 title: Filtering
-page_title: Filtering
+page_title: Filtering | RadSpreadProcessing for ASP.NET AJAX Documentation
 description: Filtering
 slug: radspreadprocessing-features-filtering
 tags: filtering

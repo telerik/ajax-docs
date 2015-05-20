@@ -1,6 +1,6 @@
 ---
 title: FloatingImage
-page_title: FloatingImage
+page_title: FloatingImage | RadWordsProcessing for ASP.NET AJAX Documentation
 description: FloatingImage
 slug: radwordsprocessing-model-floatingimage
 tags: floatingimage

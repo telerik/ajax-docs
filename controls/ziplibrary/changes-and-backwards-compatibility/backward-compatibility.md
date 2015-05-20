@@ -1,6 +1,6 @@
 ---
 title: Backward Compatibility
-page_title: Backward Compatibility
+page_title: Backward Compatibility | RadZipLibrary for ASP.NET AJAX Documentation
 description: Backward Compatibility
 slug: radziplibrary-backward-compatibility
 tags: backward,compatibility

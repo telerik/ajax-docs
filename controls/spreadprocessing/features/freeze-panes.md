@@ -1,6 +1,6 @@
 ---
 title: Freeze Panes
-page_title: Freeze Panes
+page_title: Freeze Panes | RadSpreadProcessing for ASP.NET AJAX Documentation
 description: Freeze Panes
 slug: radspreadprocessing-features-freeze-panes
 tags: freeze,panes

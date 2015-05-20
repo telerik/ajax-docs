@@ -1,6 +1,6 @@
 ---
 title: Rtf
-page_title: Rtf
+page_title: Rtf | RadWordsProcessing for ASP.NET AJAX Documentation
 description: Rtf
 slug: radwordsprocessing-formats-and-conversion-rtf
 tags: rtf

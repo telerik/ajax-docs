@@ -1,6 +1,6 @@
 ---
 title: Grouping
-page_title: Grouping
+page_title: Grouping | RadSpreadProcessing for ASP.NET AJAX Documentation
 description: Grouping
 slug: radspreadprocessing-features-grouping
 tags: grouping

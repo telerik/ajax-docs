@@ -1,6 +1,6 @@
 ---
 title: Lists
-page_title: Lists
+page_title: Lists | RadWordsProcessing for ASP.NET AJAX Documentation
 description: Lists
 slug: radwordsprocessing-concepts-lists
 tags: lists

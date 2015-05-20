@@ -1,6 +1,6 @@
 ---
 title: Annotations and Destinations
-page_title: Annotations and Destinations
+page_title: Annotations and Destinations | RadPdfProcessing for ASP.NET AJAX Documentation
 description: Annotations and Destinations
 slug: radpdfprocessing-model-annotations-and-destinations
 tags: annotations,and,destinations

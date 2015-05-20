@@ -1,6 +1,6 @@
 ---
 title: Clipboard Support
-page_title: Clipboard Support
+page_title: Clipboard Support | RadSpreadProcessing for ASP.NET AJAX Documentation
 description: Clipboard Support
 slug: radspreadprocessing-features-clipboard-support
 tags: clipboard,support

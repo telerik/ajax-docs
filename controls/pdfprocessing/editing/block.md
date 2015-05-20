@@ -1,6 +1,6 @@
 ---
 title: Block
-page_title: Block
+page_title: Block | RadPdfProcessing for ASP.NET AJAX Documentation
 description: Block
 slug: radpdfprocessing-editing-block
 tags: block

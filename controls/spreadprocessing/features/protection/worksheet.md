@@ -1,6 +1,6 @@
 ---
 title: Worksheet Protection
-page_title: Worksheet Protection
+page_title: Worksheet Protection | RadSpreadProcessing for ASP.NET AJAX Documentation
 description: Worksheet Protection
 slug: radspreadprocessing-features-protection-worksheet
 tags: worksheet,protection

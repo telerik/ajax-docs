@@ -1,6 +1,6 @@
 ---
 title: Changes
-page_title: Changes
+page_title: Changes | RadZipLibrary for ASP.NET AJAX Documentation
 description: Changes
 slug: radziplibrary-changes
 tags: changes

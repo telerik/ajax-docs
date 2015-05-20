@@ -1,6 +1,6 @@
 ---
 title: Mail Merge
-page_title: Mail Merge
+page_title: Mail Merge | RadWordsProcessing for ASP.NET AJAX Documentation
 description: Mail Merge
 slug: radwordsprocessing-editing-mail-merge
 tags: mail,merge

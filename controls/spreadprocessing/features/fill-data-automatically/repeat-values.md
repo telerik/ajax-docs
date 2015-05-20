@@ -1,6 +1,6 @@
 ---
 title: Repeat Values
-page_title: Repeat Values
+page_title: Repeat Values | RadSpreadProcessing for ASP.NET AJAX Documentation
 description: Repeat Values
 slug: radspreadprocessing-features-fill-data-automatically-repeat-values
 tags: repeat,values

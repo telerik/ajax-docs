@@ -1,6 +1,6 @@
 ---
 title: Using DocxFormatProvider
-page_title: Using DocxFormatProvider
+page_title: Using DocxFormatProvider | RadWordsProcessing for ASP.NET AJAX Documentation
 description: Using DocxFormatProvider
 slug: radwordsprocessing-formats-and-conversion-docx-docxformatprovider
 tags: using,docxformatprovider

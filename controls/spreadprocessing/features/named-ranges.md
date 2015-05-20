@@ -1,6 +1,6 @@
 ---
 title: Names (Named Ranges)
-page_title: Names (Named Ranges)
+page_title: Names (Named Ranges) | RadSpreadProcessing for ASP.NET AJAX Documentation
 description: Names (Named Ranges)
 slug: radspreadprocessing-features-named-ranges
 tags: names,(named,ranges)

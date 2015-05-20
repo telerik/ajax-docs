@@ -1,6 +1,6 @@
 ---
 title: Resizing Rows and Columns
-page_title: Resizing Rows and Columns
+page_title: Resizing Rows and Columns | RadSpreadProcessing for ASP.NET AJAX Documentation
 description: Resizing Rows and Columns
 slug: radspreadprocessing-working-with-rows-and-columns-resizing
 tags: resizing,rows,and,columns

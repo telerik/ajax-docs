@@ -1,6 +1,6 @@
 ---
 title: Update ZipArchive
-page_title: Update ZipArchive
+page_title: Update ZipArchive | RadZipLibrary for ASP.NET AJAX Documentation
 description: Update ZipArchive
 slug: radziplibrary-update-ziparchive
 tags: update,ziparchive

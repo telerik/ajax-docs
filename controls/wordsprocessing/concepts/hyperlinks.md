@@ -1,6 +1,6 @@
 ---
 title: Hyperlinks
-page_title: Hyperlinks
+page_title: Hyperlinks | RadWordsProcessing for ASP.NET AJAX Documentation
 description: Hyperlinks
 slug: radwordsprocessing-concepts-hyperlinks
 tags: hyperlinks

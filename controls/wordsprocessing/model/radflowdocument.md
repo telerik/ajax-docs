@@ -1,6 +1,6 @@
 ---
 title: RadFlowDocument
-page_title: RadFlowDocument
+page_title: RadFlowDocument | RadWordsProcessing for ASP.NET AJAX Documentation
 description: RadFlowDocument
 slug: radwordsprocessing-model-radflowdocument
 tags: radflowdocument
