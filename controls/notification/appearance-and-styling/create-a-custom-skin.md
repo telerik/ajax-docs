@@ -16,7 +16,7 @@ position: 0
 
 Each of the controls included in the Telerik UI for ASP.NET AJAX suite is styled by two CSS files that are loaded in a certain order. The first one - ControlName.css, also called the base stylesheet, contains CSS properties and values that are common for all skins, i.e. it is layout-specific, not skin-specific. These are CSS float, padding, margin, font-size, font-family, etc. In the general case, when creating a custom skin for a control this file should not be edited, unless the custom skin needs different sizes, paddings or margins. The second file represents the actual skin of the control, and its name consists of the control name plus the skin name, i.e. Notification.Default.css. Upon creating a custom skin for the control, one should edit that particular file, as it contains skin-specific CSS properties, and references to images, colors, borders and backgrounds.
 
-The **RadNotification** control contains one more control from Telerik AJAX UI Suite:**RadContextMenu**which is also styled with two CSS files that are loaded in a certain order. In order to have custom RadNotification it will be necessary to customize also **RadContextMenu** ([Creating a custom skin for RadMenu]({%slug menu/appearance-and-styling/tutorial:creating-a-custom-skin%})).
+The **RadNotification** control contains one more control from Telerik AJAX UI Suite: **RadContextMenu** which is also styled with two CSS files that are loaded in a certain order. In order to have custom RadNotification it will be necessary to customize also **RadContextMenu** ([Creating a custom skin for RadMenu]({%slug menu/appearance-and-styling/tutorial:creating-a-custom-skin%})).
 
 ## Creating a Custom Skin for RadNotification for ASP.NET AJAX from an Existing One
 
@@ -36,7 +36,7 @@ The **RadNotification** control contains one more control from Telerik AJAX UI S
 
 1. Add a new server declaration of RadNotification on your page, and set **Skin="MyCustomSkin"** and **EnableEmbeddedSkins=”false”**:
 
-	__ASP.NET__
+	**ASP.NET**
 
 		    <telerik:RadNotification ID="RadNotification1" runat="server" Title="Title" EnableShadow="true"
 		        EnableRoundedCorners="true" EnableEmbeddedSkins="false" ShowTitleMenu="true"
@@ -49,7 +49,7 @@ The **RadNotification** control contains one more control from Telerik AJAX UI S
 
 1. Register **Notification.MyCustomSkin.css** in the head section of your webpage. In order to have the CSS applied correctly, the base stylesheet should come first in the DOM:
 
-	__HTML__
+	**HTML**
 
 	    <link href="Skins/MyCustomSkin/Notification.MyCustomSkin.css" rel="stylesheet" type="text/css" />
 

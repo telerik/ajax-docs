@@ -30,7 +30,7 @@ http://www.telerik.com/help/aspnet-ajax/notification-right-to-left-support.html 
 http://www.telerik.com/help/aspnet-ajax/notification-server-side-api.html http://docs.telerik.com/devtools/aspnet-ajax/controls/notification/server-side-programming/radnotification-object
 http://www.telerik.com/help/aspnet-ajax/notification-server-side-overview.html http://docs.telerik.com/devtools/aspnet-ajax/controls/notification/server-side-programming/overview
 http://www.telerik.com/help/aspnet-ajax/notification-setting-event-handlers-javascript.html http://docs.telerik.com/devtools/aspnet-ajax/controls/notification/client-side-programming/events/set-event-handlers-via-javascript
-http://www.telerik.com/help/aspnet-ajax/notification-structure.html http://docs.telerik.com/devtools/aspnet-ajax/controls/notification/getting-started/radnotification-structure
+http://www.telerik.com/help/aspnet-ajax/notification-structure.html http://docs.telerik.com/devtools/aspnet-ajax/controls/notification/getting-started/structure
 http://www.telerik.com/help/aspnet-ajax/notification-troubleshooting-audio-is-not-played-in-mobile-devices.html http://docs.telerik.com/devtools/aspnet-ajax/controls/notification/troubleshooting/notification-audio-is-not-played-in-mobile-devices
 http://www.telerik.com/help/aspnet-ajax/notification-troubleshooting-known-issues.html http://docs.telerik.com/devtools/aspnet-ajax/controls/notification/troubleshooting/known-issues
 http://www.telerik.com/help/aspnet-ajax/notification-wai-aria-support.html http://docs.telerik.com/devtools/aspnet-ajax/controls/notification/accessibility-and-internationalization/wai-aria-support

@@ -20,7 +20,7 @@ This help article lists the most common issues one can face when using the **Rad
 
 ## Using a ScriptControl (e.g. RadGrid) in the RadNotification with the RadScriptManager
 
-The RadScriptManager combines the scripts for the page into one file. The RadNotification control uses RadXmlHttpPanel internally to initiate its callbacksand it needs to re-evaluate the scripts for the controls inside. This presents a problem when all scripts are combiend in the same file, because the control cannotknow where the exact scripts are. This results in a JavaScript error being thrown when a callback is initiated. More information about this case is availablein [this help article](97553E94-46FD-4506-ACDA-37C4CD3677DA).
+The RadScriptManager combines the scripts for the page into one file. The RadNotification control uses RadXmlHttpPanel internally to initiate its callbacks and it needs to re-evaluate the scripts for the controls inside. This presents a problem when all scripts are combined in the same file, because the control cannot know where the exact scripts are. This results in a JavaScript error being thrown when a callback is initiated. More information about this case is available in [this help article](97553E94-46FD-4506-ACDA-37C4CD3677DA).
 
 There are three ways to avoid this behavior:
 
@@ -28,7 +28,7 @@ There are three ways to avoid this behavior:
 
 * Set the **EnableScriptCombine** property of the **RadScriptManager** to **false**
 
-* disable the script evaluation for the RadXmlHttpPanel in the[Sys.Application.Load event](http://msdn.microsoft.com/en-us/library/bb383829.aspx), e.g.:$find("<%=RadNotification1.ClientID %>")._xmlPanel.set_enableClientScriptEvaluation(false);.Note that this may cause some issues.
+* disable the script evaluation for the RadXmlHttpPanel in the [Sys.Application.Load event](http://msdn.microsoft.com/en-us/library/bb383829.aspx), e.g.`$find("<%=RadNotification1.ClientID %>")._xmlPanel.set_enableClientScriptEvaluation(false);`. Note that this may cause some issues.
 
 ## Notification Audio Is Not Played In Mobile Devices
 
