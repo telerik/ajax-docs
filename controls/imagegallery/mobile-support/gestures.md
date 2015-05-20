@@ -12,7 +12,7 @@ position: 1
 
 
 
-**RadImageGallery** for ASP.NET AJAX handles gestures from touch enabled screens.You can use tap, swipe, tap and hold and etc. to navigate through the images or turn on/off certain features of the control.
+**RadImageGallery** for ASP.NET AJAX handles gestures from touch enabled screens.You can use tap, swipe, tap and hold and etc. to navigate through the images or turn on/off certain features of the control. In addition the **ImageGalleryItem** exposes a **PreventDefaultGestures** property which determines whether the gestures are enabled or not for the currently viewed item. When set to false the tap and hold, swipe and double tap gestures performed over the **ImageArea** will not trigger an action.
 
 ## Image Navigation
 
@@ -31,7 +31,7 @@ Additionally you can swipe left or right over the thumbnails area to navigate to
 
 In the list provided below you can find the control features that can be turned on/off after performing a certain gesture.
 
-* Start/Pause the slideshow - Can be achieved either by tapping on the play slideshow button or performing a tap and hold over the main image
+* Start/Stop the slideshow - Can be achieved either by tapping on the play slideshow button or performing a tap and hold over the main image
 
 * Show/Hide the thumbnails area - Can be achieved by performing a swipe up/down over the main image of tapping on the show/hide thumbnails buttons
 
