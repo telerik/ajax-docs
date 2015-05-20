@@ -121,7 +121,7 @@ http://www.telerik.com/help/aspnet-ajax/editor-skinning-issues.html http://docs.
 http://www.telerik.com/help/aspnet-ajax/editor-standards-compliance-and-browser-support.html http://docs.telerik.com/devtools/ajax/editor/getting-started/standards-compliance-and-browser-support
 http://www.telerik.com/help/aspnet-ajax/editor-strip-formatting-tools.html http://docs.telerik.com/devtools/ajax/editor/functionality/toolbars/dropdowns/strip-formatting-tools
 http://www.telerik.com/help/aspnet-ajax/editor-stripping-image-and-anchor-paths.html http://docs.telerik.com/devtools/ajax/editor/functionality/dialogs/examples/strip-image-and-anchor-paths
-http://www.telerik.com/help/aspnet-ajax/editor-structure.html http://docs.telerik.com/devtools/ajax/editor/getting-started/radeditor-structure
+http://www.telerik.com/help/aspnet-ajax/editor-structure.html http://docs.telerik.com/devtools/ajax/editor/getting-started/structure
 http://www.telerik.com/help/aspnet-ajax/editor-symbols.html http://docs.telerik.com/devtools/ajax/editor/functionality/toolbars/dropdowns/symbols
 http://www.telerik.com/help/aspnet-ajax/editor-table-wizard.html http://docs.telerik.com/devtools/ajax/editor/functionality/dialogs/table-wizard
 http://www.telerik.com/help/aspnet-ajax/editor-tabs-replaced-on-paste.html http://docs.telerik.com/devtools/ajax/editor/troubleshooting/tabs-replaced-on-paste

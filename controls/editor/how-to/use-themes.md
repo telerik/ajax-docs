@@ -14,7 +14,7 @@ RadEditor can be configured to use **ASP.NET 2.0 Themes** in the same manner as 
 
 1. From the Solution Explorer, right-click the project and select **Add | Add ASP.NET Folder | App_Themes** from the context menu.
 
-1. Right-click the **App_Themes** folder and select **Add | New Item**from the context menu. Select the **Skin File** item type.
+1. Right-click the **App_Themes** folder and select **Add | New Item** from the context menu. Select the **Skin File** item type.
 
 1. ![](images/editor-settingproperties001.png)
 

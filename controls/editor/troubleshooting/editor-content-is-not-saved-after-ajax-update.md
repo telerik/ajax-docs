@@ -15,9 +15,9 @@ This help article describes an issue with the content saving of **RadEditor** af
 
 1. [Scenario Description - RadEditor Content is Not Saved After an AJAX Request](#scenario-description---radeditor-content-is-not-saved-after-an-ajax-request)
 1. [Resolutions](#resolutions)
-	* [telerik:RadButton initiates the request](#telerik:radbutton-initiates-the-request)
-	* [asp:Button initiates the request](#asp:button-initiates-the-request)
-	* [asp:ImageButton initiates the request](#asp:imagebutton-initiates-the-request)
+	* [telerik:RadButton initiates the request](#telerikradbutton-initiates-the-request)
+	* [asp:Button initiates the request](#aspbutton-initiates-the-request)
+	* [asp:ImageButton initiates the request](#aspimagebutton-initiates-the-request)
 
 ## Scenario Description - RadEditor Content is Not Saved After an AJAX Request
 

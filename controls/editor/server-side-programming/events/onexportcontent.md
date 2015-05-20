@@ -10,17 +10,15 @@ position: 0
 
 # OnExportContent
 
-The **OnExportContent** event fires just before the content from the **Telerik Editor** is exported.It provides access to the generated output, so that it could be used or modified upon further application requirements.
+The **OnExportContent** event fires just before the content from the **Telerik Editor** is exported. It provides access to the generated output, so that it could be used or modified upon further application requirements.
 
 The event handler receives two arguments:
 
 1. **Sender**–the **RadEditor** instance that raised the event.
 
-1. **Event arguments**–an object of type	[Telerik.Web.UI.EditorExportingArgs](http://www.telerik.com/help/aspnet-ajax/t_telerik_web_ui_editorexportingargs.html)exposes the string **ExportOutput** property, the[Telerik.Web.UI.ExportType ](www.telerik.com/help/aspnet-ajax/t_telerik_web_ui_exporttype.html)**ExportType** property and a **Boolean Cancel** property with which you can	cancel the sending of the file to the client (by default is set to *false*).
+1. **Event arguments**–an object of type [Telerik.Web.UI.EditorExportingArgs](http://www.telerik.com/help/aspnet-ajax/t_telerik_web_ui_editorexportingargs.html) exposes the string **ExportOutput** property, the [Telerik.Web.UI.ExportType ](www.telerik.com/help/aspnet-ajax/t_telerik_web_ui_exporttype.html) **ExportType** property and a **Boolean Cancel** property with which you can	cancel the sending of the file to the client (by default is set to *false*).
 
->caption Example 1: How to save the **ExportOutput** to a file on the server and prevent it from being sent to the client
-
-
+>caption Example 1: How to save the **ExportOutput** to a file on the server and prevent it from being sent to the client.
 
 ````ASP.NET
 <telerik:RadEditor runat="server" ID="RadEditor1" OnExportContent="RadEditor1_ExportContent" ContentFilters="DefaultFilters, PdfExportFilter">
@@ -88,10 +86,7 @@ Partial Class DefaultVB
 End Class
 ````
 
-
->caption Example 2: Dynamically adding header and footer elements to the exported document in the **OnExportContent** event
-
-
+>caption Example 2: Dynamically adding header and footer elements to the exported document in the **OnExportContent** event.
 
 ````ASP.NET
 <telerik:RadEditor runat="server" ID="RadEditor1" OnExportContent="RadEditor1_ExportContent" ContentFilters="DefaultFilters, PdfExportFilter"></telerik:RadEditor>

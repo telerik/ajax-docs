@@ -10,9 +10,9 @@ position: 0
 
 # Events Overview
 
-Here you can learn the basics of handling __RadEditor__'s client-side events.
+Here you can learn the basics of handling **RadEditor**'s client-side events.
 
-The rich set of client-side events exposed in __RadEditor__ providesflexibility—you can handle them for your project requirements or to manipulate the text being inserted and/or submitted.The available events are listed below. Each event-specific article offers concrete examples and explains the arguments each event handler receives:
+The rich set of client-side events exposed in **RadEditor** providesflexibility—you can handle them for your project requirements or to manipulate the text being inserted and/or submitted.The available events are listed below. Each event-specific article offers concrete examples and explains the arguments each event handler receives:
 
 * [OnClientInit]({%slug editor/client-side-programming/events/onclientinit%})
 
@@ -36,7 +36,7 @@ The rich set of client-side events exposed in __RadEditor__ providesflexibility�
 
 To attach an event you can use either of these two approaches:
 
-* On the server, you can use the dedicated properties -	__OnClient__. The examples below showcase this technique.
+* On the server, you can use the dedicated properties -	**OnClient[*EventName*]**. The examples below showcase this technique.
 
 >caption Example 1: Attaching a handler in the markup via the OnClientLoad property.
 
@@ -74,7 +74,7 @@ RadEditor1.OnClientLoad = "OnClientLoad";
 RadEditor1.OnClientLoad = "OnClientLoad"
 ````
 
-* On the client, to attach or detach event handlers, you should use the client-side add/remove methods - __add___, __remove___. You can find a full list of the methods for attaching and detaching events in the [RadEditor Object]({%slug editor/client-side-programming/radeditor-object%}) article.
+* On the client, to attach or detach event handlers, you should use the client-side add/remove methods - **add_[*EventName*]**, **remove_[*EventName*]**. You can find a full list of the methods for attaching and detaching events in the [RadEditor Object]({%slug editor/client-side-programming/radeditor-object%}) article.
 
 >caption Example 3: Attaching a handler via the client-side add_commandExecuted method.
 

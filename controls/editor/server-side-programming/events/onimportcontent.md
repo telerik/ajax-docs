@@ -16,9 +16,9 @@ The event handler receives two arguments:
 
 1. **Sender**–the **RadEditor** instance that raised the event.
 
-1. **Event arguments**–an object of type[Telerik.Web.UI.EditorImportingArgs](http://www.telerik.com/help/aspnet-ajax/t_telerik_web_ui_editorimportingargs.html)that exposes the	[HtmlFormatProvider](055c74e8-b87e-4c0f-b36c-b8210aab2055)and the[RadFlowDocument](dd4dbe18-3a7a-4b31-a1e4-2b2ff6fba91e)	instances with which you can programmatically control the settings or the content imported.
+1. **Event arguments**–an object of type [Telerik.Web.UI.EditorImportingArgs](http://www.telerik.com/help/aspnet-ajax/t_telerik_web_ui_editorimportingargs.html) that exposes the [HtmlFormatProvider](055c74e8-b87e-4c0f-b36c-b8210aab2055) and the [RadFlowDocument](dd4dbe18-3a7a-4b31-a1e4-2b2ff6fba91e) instances with which you can programmatically control the settings or the content imported.
 
->caption Example 1: Using the event to modify the ExportSettings of the HtmlFormatProvider instance
+>caption Example 1: Using the event to modify the ExportSettings of the HtmlFormatProvider instance.
 
 ````ASP.NET
 <telerik:RadEditor runat="server" ID="RadEditor1" OnImportContent="RadEditor1_ImportContent">
@@ -71,7 +71,7 @@ End Class
 ````
 
 
->caption Example 2: Adding an additional paragraph to the **RadFlowDocument** through the **OnImportContent** event
+>caption Example 2: Adding an additional paragraph to the **RadFlowDocument** through the **OnImportContent** event.
 
 ````ASP.NET
 <telerik:RadEditor runat="server" ID="RadEditor1" OnImportContent="RadEditor1_ImportContent">

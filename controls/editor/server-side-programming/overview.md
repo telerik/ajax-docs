@@ -136,8 +136,8 @@ position: 0
 |Focus|(Inherited from System.Web.UI.Control )|
 |GetEmbeddedSkinNames|Returns the names of all embedded skins. Used by Telerik.Web.Examples. (Inherited from RadWebControl)|
 |HasControls|(Inherited from System.Web.UI.Control )|
-|LoadDocxContent|Overloaded.More information about this method is available in the[Import from DOCX and RTF]({%slug editor/functionality/import-and-export/import-from-docx-and-rtf%})article.|
-|LoadRtfContent|Overloaded.More information about this method is available in the[Import from DOCX and RTF]({%slug editor/functionality/import-and-export/import-from-docx-and-rtf%})article.|
+|LoadDocxContent|Overloaded.More information about this method is available in the [Import from DOCX and RTF]({%slug editor/functionality/import-and-export/import-from-docx-and-rtf%}) article.|
+|LoadRtfContent|Overloaded.More information about this method is available in the [Import from DOCX and RTF]({%slug editor/functionality/import-and-export/import-from-docx-and-rtf%}) article.|
 |LoadToolsFile|Overloaded.|
 |MergeStyle|(Inherited from System.Web.UI.WebControls.WebControl )|
 |RenderControl|Overloaded. (Inherited from System.Web.UI.Control )|
