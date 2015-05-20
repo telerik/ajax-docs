@@ -5,7 +5,6 @@ http://www.telerik.com/help/aspnet-ajax/scriptmanager-combine-scripts.html http:
 http://www.telerik.com/help/aspnet-ajax/scriptmanager-disabling-embedded-jquery.html http://docs.telerik.com/devtools/ajax/scriptmanager/disabling-the-embedded-jquery
 http://www.telerik.com/help/aspnet-ajax/scriptmanager-script-combining.html http://docs.telerik.com/devtools/ajax/scriptmanager/script-combining
 http://www.telerik.com/help/aspnet-ajax/scriptmanager-script-grouping.html http://docs.telerik.com/devtools/ajax/scriptmanager/script-grouping
-http://www.telerik.com/help/aspnet-ajax/scriptmanager-what-is-new.html http://docs.telerik.com/devtools/ajax/scriptmanager/what-is-new?
 http://www.telerik.com/help/aspnet-ajax/scriptmanager.html http://docs.telerik.com/devtools/ajax/scriptmanager/overview
 http://www.telerik.com/help/aspnet-ajax/scriptmanager-troubleshooting-cdn.html http://docs.telerik.com/devtools/ajax/scriptmanager/troubleshooting/cdn
 http://www.telerik.com/help/aspnet-ajax/troubleshooting-RadScriptManager.html http://docs.telerik.com/devtools/ajax/scriptmanager/troubleshooting/overview
