@@ -26,7 +26,7 @@ In order to explain better the CSS classes of RadRating, we will use both **Rati
 
 1. In the skins folder create a new directory MyCustomSkin.
 
-1. Go to ~/[TelerikControlsInstallationFolder]/Skins and copy **Rating.css**in your Skins folder
+1. Go to ~/[TelerikControlsInstallationFolder]/Skins and copy **Rating.css** in your Skins folder
 
 1. Go to ~/[TelerikControlsInstallationFolder]/Skins/Default and copy **Rating.Default.css** and the **Skins/Default/Rating** folder in your Skins folder.
 
@@ -53,7 +53,7 @@ In order to explain better the CSS classes of RadRating, we will use both **Rati
 			EnableEmbeddedSkins="false"
 			EnableEmbeddedBaseStylesheet="false" />
 
-1. Register **Rating.css**and **Rating.MyCustomSkin.css**in the <head>...</head> section of your webpage. In order to have the CSS applied correctly, the base stylesheet should come first in the DOM:(Make sure the paths to the files are correct; otherwise the skin will not apply correctly)
+1. Register **Rating.css** and **Rating.MyCustomSkin.css** in the <head>...</head> section of your webpage. In order to have the CSS applied correctly, the base stylesheet should come first in the DOM:(Make sure the paths to the files are correct; otherwise the skin will not apply correctly)
 
 	**HTML**
 

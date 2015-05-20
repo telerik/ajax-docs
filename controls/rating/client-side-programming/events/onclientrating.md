@@ -10,7 +10,7 @@ position: 2
 
 # OnClientRating
 
-The **OnClientRating** event is raised just before you click an item of the **RadRating** control. It is cancellable and precedes the[OnClientRated event]({%slug rating/client-side-programming/events/onclientrated%}). If you cancel it the OnClientRated event is not raised, nor is a postback initiated if the**AutoPostBack** property is **true**.
+The **OnClientRating** event is raised just before you click an item of the **RadRating** control. It is cancellable and precedes the [OnClientRated event]({%slug rating/client-side-programming/events/onclientrated%}). If you cancel it the OnClientRated event is not raised, nor is a postback initiated if the **AutoPostBack** property is **true**.
 
 You can use this event to prevent the rating operation based on certain criteria (e.g. the user has rated already). Canceling this event will prevent setting the value of the rating control.
 
