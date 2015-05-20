@@ -1,6 +1,6 @@
 ---
 title: Section
-page_title: Section
+page_title: Section | RadWordsProcessing for ASP.NET AJAX Documentation
 description: Section
 slug: radwordsprocessing-model-section
 tags: section

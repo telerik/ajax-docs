@@ -1,6 +1,6 @@
 ---
 title: General Information
-page_title: General Information
+page_title: General Information | RadSpreadProcessing for ASP.NET AJAX Documentation
 description: General Information
 slug: radspreadprocessing-features-formulas-general-information
 tags: formulas

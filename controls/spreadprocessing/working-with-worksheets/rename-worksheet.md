@@ -1,6 +1,6 @@
 ---
 title: Rename a Worksheet
-page_title: Rename a Worksheet
+page_title: Rename a Worksheet | RadSpreadProcessing for ASP.NET AJAX Documentation
 description: Rename a Worksheet
 slug: radspreadprocessing-working-with-worksheets-rename-worksheet
 tags: rename,a,worksheet

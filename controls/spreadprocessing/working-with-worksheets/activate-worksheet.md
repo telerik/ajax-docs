@@ -1,6 +1,6 @@
 ---
 title: Activate a Worksheet
-page_title: Activate a Worksheet
+page_title: Activate a Worksheet | RadSpreadProcessing for ASP.NET AJAX Documentation
 description: Activate a Worksheet
 slug: radspreadprocessing-working-with-worksheets-activate-worksheet
 tags: activate,a,worksheet

@@ -1,6 +1,6 @@
 ---
 title: Using PdfFormatProvider
-page_title: Using PdfFormatProvider
+page_title: Using PdfFormatProvider | RadPdfProcessing for ASP.NET AJAX Documentation
 description: Using PdfFormatProvider
 slug: radpdfprocessing-formats-and-conversion-pdf-pdfformatprovider
 tags: using,pdfformatprovider

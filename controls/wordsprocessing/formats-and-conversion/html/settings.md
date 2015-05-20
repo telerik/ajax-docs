@@ -1,6 +1,6 @@
 ---
 title: Settings
-page_title: Settings
+page_title: Settings | RadWordsProcessing for ASP.NET AJAX Documentation
 description: Settings
 slug: radwordsprocessing-formats-and-conversion-html-settings
 tags: settings

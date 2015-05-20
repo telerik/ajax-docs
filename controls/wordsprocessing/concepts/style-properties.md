@@ -1,6 +1,6 @@
 ---
 title: Style Properties
-page_title: Style Properties
+page_title: Style Properties | RadWordsProcessing for ASP.NET AJAX Documentation
 description: Style Properties
 slug: radwordsprocessing-concepts-style-properties
 tags: style,properties

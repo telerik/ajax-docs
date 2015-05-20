@@ -1,6 +1,6 @@
 ---
 title: Accessing Cells of a Worksheet
-page_title: Accessing Cells of a Worksheet
+page_title: Accessing Cells of a Worksheet | RadSpreadProcessing for ASP.NET AJAX Documentation
 description: Accessing Cells of a Worksheet
 slug: radspreadprocessing-working-with-cells-accessing-cells-of-worksheet
 tags: accessing,cells,of,a,worksheet

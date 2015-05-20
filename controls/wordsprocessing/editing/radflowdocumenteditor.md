@@ -1,6 +1,6 @@
 ---
 title: RadFlowDocumentEditor
-page_title: RadFlowDocumentEditor
+page_title: RadFlowDocumentEditor | RadWordsProcessing for ASP.NET AJAX Documentation
 description: RadFlowDocumentEditor
 slug: radwordsprocessing-editing-radflowdocumenteditor
 tags: radflowdocumenteditor

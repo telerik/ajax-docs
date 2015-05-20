@@ -1,6 +1,6 @@
 ---
 title: Sorting
-page_title: Sorting
+page_title: Sorting | RadSpreadProcessing for ASP.NET AJAX Documentation
 description: Sorting
 slug: radspreadprocessing-features-sorting
 tags: sorting

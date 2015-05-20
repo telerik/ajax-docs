@@ -1,6 +1,6 @@
 ---
 title: Using HtmlFormatProvider
-page_title: Using HtmlFormatProvider
+page_title: Using HtmlFormatProvider | RadWordsProcessing for ASP.NET AJAX Documentation
 description: Using HtmlFormatProvider
 slug: radwordsprocessing-formats-and-conversion-html-htmlformatprovider
 tags: using,htmlformatprovider

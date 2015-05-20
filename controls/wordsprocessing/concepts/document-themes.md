@@ -1,6 +1,6 @@
 ---
 title: Document Themes
-page_title: Document Themes
+page_title: Document Themes | RadWordsProcessing for ASP.NET AJAX Documentation
 description: Document Themes
 slug: radwordsprocessing-concepts-document-themes
 tags: document,themes

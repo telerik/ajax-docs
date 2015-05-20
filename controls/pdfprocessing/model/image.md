@@ -1,6 +1,6 @@
 ---
 title: Image
-page_title: Image
+page_title: Image | RadPdfProcessing for ASP.NET AJAX Documentation
 description: Image
 slug: radpdfprocessing-model-image
 tags: image

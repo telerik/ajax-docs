@@ -1,6 +1,6 @@
 ---
 title: Features
-page_title: Features
+page_title: Features | RadPdfProcessing for ASP.NET AJAX Documentation
 description: Features
 slug: radpdfprocessing-formats-and-conversion-pdf-features
 tags: features

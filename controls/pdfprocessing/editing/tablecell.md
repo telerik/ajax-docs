@@ -1,6 +1,6 @@
 ---
 title: TableCell
-page_title: TableCell
+page_title: TableCell | RadPdfProcessing for ASP.NET AJAX Documentation
 description: TableCell
 slug: radpdfprocessing-editing-tablecell
 tags: tablecell

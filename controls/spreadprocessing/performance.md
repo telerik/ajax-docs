@@ -1,6 +1,6 @@
 ---
 title: Performance Tips and Tricks
-page_title: Performance Tips and Tricks
+page_title: Performance Tips and Tricks | RadSpreadProcessing for ASP.NET AJAX Documentation
 description: Performance Tips and Tricks
 slug: radspreadprocessing-performance
 tags: performance,tips,and,tricks

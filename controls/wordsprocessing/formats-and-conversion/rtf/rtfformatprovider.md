@@ -1,6 +1,6 @@
 ---
 title: Using RtfFormatProvider
-page_title: Using RtfFormatProvider
+page_title: Using RtfFormatProvider | RadWordsProcessing for ASP.NET AJAX Documentation
 description: Using RtfFormatProvider
 slug: radwordsprocessing-formats-and-conversion-rtf-rtfformatprovider
 tags: using,rtfformatprovider

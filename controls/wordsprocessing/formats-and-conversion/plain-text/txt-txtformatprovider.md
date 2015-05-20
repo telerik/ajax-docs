@@ -1,6 +1,6 @@
 ---
 title: Using TxtFormatProvider
-page_title: Using TxtFormatProvider
+page_title: Using TxtFormatProvider | RadWordsProcessing for ASP.NET AJAX Documentation
 description: Using TxtFormatProvider
 slug: radwordsprocessing-formats-and-conversion-txt-txtformatprovider
 tags: using,txtformatprovider

@@ -1,6 +1,6 @@
 ---
 title: FixedContentEditor
-page_title: FixedContentEditor
+page_title: FixedContentEditor | RadPdfProcessing for ASP.NET AJAX Documentation
 description: FixedContentEditor
 slug: radpdfprocessing-editing-fixedcontenteditor
 tags: fixedcontenteditor

@@ -1,6 +1,6 @@
 ---
 title: What is a Worksheet?
-page_title: What is a Worksheet?
+page_title: What is a Worksheet? | RadSpreadProcessing for ASP.NET AJAX Documentation
 description: What is a Worksheet?
 slug: radspreadprocessing-working-with-worksheets-what-is-worksheet
 tags: what,is,a,worksheet?

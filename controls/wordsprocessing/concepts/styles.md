@@ -1,6 +1,6 @@
 ---
 title: Styles
-page_title: Styles
+page_title: Styles | RadWordsProcessing for ASP.NET AJAX Documentation
 description: Styles
 slug: radwordsprocessing-concepts-styles
 tags: styles

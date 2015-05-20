@@ -1,6 +1,6 @@
 ---
 title: Comment
-page_title: Comment
+page_title: Comment | RadWordsProcessing for ASP.NET AJAX Documentation
 description: Comment
 slug: radwordsprocessing-model-comment
 tags: comment

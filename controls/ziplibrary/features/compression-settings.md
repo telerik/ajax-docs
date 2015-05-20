@@ -1,6 +1,6 @@
 ---
 title: Compression Settings
-page_title: Compression Settings
+page_title: Compression Settings | RadZipLibrary for ASP.NET AJAX Documentation
 description: Compression Settings
 slug: radziplibrary-compression-settings
 tags: compression,settings

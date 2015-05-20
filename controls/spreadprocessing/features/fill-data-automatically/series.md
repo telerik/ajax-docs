@@ -1,6 +1,6 @@
 ---
 title: Series
-page_title: Series
+page_title: Series | RadSpreadProcessing for ASP.NET AJAX Documentation
 description: Series
 slug: radspreadprocessing-features-fill-data-automatically-series
 tags: series

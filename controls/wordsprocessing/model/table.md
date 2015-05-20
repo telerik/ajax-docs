@@ -1,6 +1,6 @@
 ---
 title: Table
-page_title: Table
+page_title: Table | RadWordsProcessing for ASP.NET AJAX Documentation
 description: Table
 slug: radwordsprocessing-model-table
 tags: table

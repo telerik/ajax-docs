@@ -1,6 +1,6 @@
 ---
 title: Whats is a Workbook?
-page_title: Whats is a Workbook?
+page_title: Whats is a Workbook? | RadSpreadProcessing for ASP.NET AJAX Documentation
 description: Whats is a Workbook?
 slug: radspreadprocessing-working-wtih-workbooks-what-is-workbook
 tags: whats,is,a,workbook?

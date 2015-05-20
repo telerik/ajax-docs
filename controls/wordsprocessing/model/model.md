@@ -1,6 +1,6 @@
 ---
 title: Model Overview
-page_title: Model
+page_title: Model | RadWordsProcessing for ASP.NET AJAX Documentation
 description: Model
 slug: radwordsprocessing-model
 tags: model

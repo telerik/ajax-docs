@@ -1,6 +1,6 @@
 ---
 title: Errors
-page_title: Errors
+page_title: Errors | RadSpreadProcessing for ASP.NET AJAX Documentation
 description: Errors
 slug: radspreadprocessing-features-formulas-errors
 tags: errors

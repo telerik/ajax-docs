@@ -1,6 +1,6 @@
 ---
 title: Clone and Merge
-page_title: Clone and Merge
+page_title: Clone and Merge | RadWordsProcessing for ASP.NET AJAX Documentation
 description: Clone and Merge
 slug: radwordsprocessing-editing-clone-and-merge
 tags: clone,and,merge

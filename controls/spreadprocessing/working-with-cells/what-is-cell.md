@@ -1,6 +1,6 @@
 ---
 title: What is a Cell?
-page_title: What is a Cell?
+page_title: What is a Cell? | RadSpreadProcessing for ASP.NET AJAX Documentation
 description: What is a Cell?
 slug: radspreadprocessing-working-with-cells-what-is-cell
 tags: what,is,a,cell?

@@ -1,6 +1,6 @@
 ---
 title: RadFixedPage
-page_title: RadFixedPage
+page_title: RadFixedPage | RadPdfProcessing for ASP.NET AJAX Documentation
 description: RadFixedPage
 slug: radpdfprocessing-model-radfixedpage
 tags: radfixedpage

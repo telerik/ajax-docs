@@ -1,6 +1,6 @@
 ---
 title: Protect ZipArchive
-page_title: Protect ZipArchive
+page_title: Protect ZipArchive | RadZipLibrary for ASP.NET AJAX Documentation
 description: Protect ZipArchive
 slug: radziplibrary-protect-ziparchive
 tags: protect,ziparchive

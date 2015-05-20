@@ -1,6 +1,6 @@
 ---
 title: Functions
-page_title: Functions
+page_title: Functions | RadSpreadProcessing for ASP.NET AJAX Documentation
 description: Functions
 slug: radspreadprocessing-features-formulas-functions
 tags: functions

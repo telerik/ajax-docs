@@ -1,6 +1,6 @@
 ---
 title: FieldCharacter
-page_title: FieldCharacter
+page_title: FieldCharacter | RadWordsProcessing for ASP.NET AJAX Documentation
 description: FieldCharacter
 slug: radwordsprocessing-model-fieldcharacter
 tags: fieldcharacter

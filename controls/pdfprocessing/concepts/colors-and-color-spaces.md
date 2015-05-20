@@ -1,6 +1,6 @@
 ---
 title: Colors and Color Spaces
-page_title: Colors and Color Spaces
+page_title: Colors and Color Spaces | RadPdfProcessing for ASP.NET AJAX Documentation
 description: Colors and Color Spaces
 slug: radpdfprocessing-concepts-colors-and-color-spaces
 tags: colors,and,color,spaces

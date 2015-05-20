@@ -1,6 +1,6 @@
 ---
 title: Hyperlink
-page_title: Hyperlink
+page_title: Hyperlink | RadSpreadProcessing for ASP.NET AJAX Documentation
 description: Hyperlink
 slug: radspreadprocessing-features-hyperlink
 tags: hyperlink

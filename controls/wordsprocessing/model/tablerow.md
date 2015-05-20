@@ -1,6 +1,6 @@
 ---
 title: TableRow
-page_title: TableRow
+page_title: TableRow | RadWordsProcessing for ASP.NET AJAX Documentation
 description: TableRow
 slug: radwordsprocessing-model-tablerow
 tags: tablerow

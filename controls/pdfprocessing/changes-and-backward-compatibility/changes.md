@@ -1,6 +1,6 @@
 ---
 title: Changes
-page_title: Changes
+page_title: Changes | RadPdfProcessing for ASP.NET AJAX Documentation
 description: Changes
 slug: radpdfprocessing-changes
 tags: changes

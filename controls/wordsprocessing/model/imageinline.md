@@ -1,6 +1,6 @@
 ---
 title: ImageInline
-page_title: ImageInline
+page_title: ImageInline | RadWordsProcessing for ASP.NET AJAX Documentation
 description: ImageInline
 slug: radwordsprocessing-model-imageinline
 tags: imageinline

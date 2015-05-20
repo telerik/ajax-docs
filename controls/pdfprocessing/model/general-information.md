@@ -1,6 +1,6 @@
 ---
 title: General Information
-page_title: General Information
+page_title: General Information | RadPdfProcessing for ASP.NET AJAX Documentation
 description: General Information
 slug: radpdfprocessing-model-general-information
 tags: model

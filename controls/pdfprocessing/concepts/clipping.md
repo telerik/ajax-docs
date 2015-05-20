@@ -1,6 +1,6 @@
 ---
 title: Clipping
-page_title: Clipping
+page_title: Clipping | RadPdfProcessing for ASP.NET AJAX Documentation
 description: Clipping
 slug: radpdfprocessing-concepts-clipping
 tags: clipping

@@ -1,6 +1,6 @@
 ---
 title: Docx
-page_title: Docx
+page_title: Docx | RadWordsProcessing for ASP.NET AJAX Documentation
 description: Docx
 slug: radwordsprocessing-formats-and-conversion-docx
 tags: docx

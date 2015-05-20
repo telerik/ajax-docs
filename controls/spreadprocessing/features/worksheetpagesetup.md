@@ -1,6 +1,6 @@
 ---
 title: Worksheet Page Setup
-page_title: Worksheet Page Setup
+page_title: Worksheet Page Setup | RadSpreadProcessing for ASP.NET AJAX Documentation
 description: Worksheet Page Setup
 slug: radspreadprocessing-features-worksheetpagesetup
 tags: worksheet,page,setup

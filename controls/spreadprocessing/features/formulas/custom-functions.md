@@ -1,6 +1,6 @@
 ---
 title: Custom Functions
-page_title: Custom Functions
+page_title: Custom Functions | RadSpreadProcessing for ASP.NET AJAX Documentation
 description: Custom Functions
 slug: radspreadprocessing-features-formulas-custom-functions
 tags: custom,functions

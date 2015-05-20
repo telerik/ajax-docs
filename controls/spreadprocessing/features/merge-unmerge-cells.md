@@ -1,6 +1,6 @@
 ---
 title: Merge and Unmerge Cells
-page_title: Merge and Unmerge Cells
+page_title: Merge and Unmerge Cells | RadSpreadProcessing for ASP.NET AJAX Documentation
 description: Merge and Unmerge Cells
 slug: radspreadprocessing-features-merge-unmerge-cells
 tags: merge,and,unmerge,cells

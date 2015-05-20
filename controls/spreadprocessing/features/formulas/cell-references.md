@@ -1,6 +1,6 @@
 ---
 title: Cell References
-page_title: Cell References
+page_title: Cell References | RadSpreadProcessing for ASP.NET AJAX Documentation
 description: Cell References
 slug: radspreadprocessing-features-formulas-cell-references
 tags: cell,references

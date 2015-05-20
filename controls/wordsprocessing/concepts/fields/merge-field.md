@@ -1,6 +1,6 @@
 ---
 title: Merge Field
-page_title: Merge Field
+page_title: Merge Field | RadWordsProcessing for ASP.NET AJAX Documentation
 description: Merge Field
 slug: radwordsprocessing-concepts-merge-field
 tags: merge,field

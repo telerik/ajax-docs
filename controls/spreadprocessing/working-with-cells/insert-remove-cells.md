@@ -1,6 +1,6 @@
 ---
 title: Insert and Remove Cells
-page_title: Insert and Remove Cells
+page_title: Insert and Remove Cells | RadSpreadProcessing for ASP.NET AJAX Documentation
 description: Insert and Remove Cells
 slug: radspreadprocessing-working-with-cells-insert-remove-cells
 tags: insert,and,remove,cells

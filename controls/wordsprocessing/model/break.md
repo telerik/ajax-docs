@@ -1,6 +1,6 @@
 ---
 title: Break
-page_title: Break
+page_title: Break | RadWordsProcessing for ASP.NET AJAX Documentation
 description: Break
 slug: radwordsprocessing-model-break
 tags: break

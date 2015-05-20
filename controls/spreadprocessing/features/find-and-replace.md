@@ -1,6 +1,6 @@
 ---
 title: Find and Replace
-page_title: Find and Replace
+page_title: Find and Replace | RadSpreadProcessing for ASP.NET AJAX Documentation
 description: Find and Replace
 slug: radspreadprocessing-features-find-and-replace
 tags: find,and,replace

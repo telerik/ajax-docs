@@ -1,6 +1,6 @@
 ---
 title: ImageSource
-page_title: ImageSource
+page_title: ImageSource | RadPdfProcessing for ASP.NET AJAX Documentation
 description: ImageSource
 slug: radpdfprocessing-model-imagesource
 tags: imagesource

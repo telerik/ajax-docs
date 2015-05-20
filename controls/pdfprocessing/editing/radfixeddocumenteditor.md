@@ -1,6 +1,6 @@
 ---
 title: RadFixedDocumentEditor
-page_title: RadFixedDocumentEditor
+page_title: RadFixedDocumentEditor | RadPdfProcessing for ASP.NET AJAX Documentation
 description: RadFixedDocumentEditor
 slug: radpdfprocessing-editing-radfixeddocumenteditor
 tags: radfixeddocumenteditor

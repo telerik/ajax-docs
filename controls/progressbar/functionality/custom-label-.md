@@ -16,7 +16,7 @@ The RadProgressBar's **Label** is the message (word, number, percent) that displ
 
 ## Use the Default Progress Label
 
-By default, the ProgressBar's **Label** displays the current **Value** of the [progress indicator]({%slug progressbar/getting-started/element-structure%}), when the control’s**BarType** is either *Value* or *Percent*. You can hide the **Label** by setting the **ShowLabel** property to **false**.
+By default, the ProgressBar's **Label** displays the current **Value** of the [progress indicator]({%slug progressbar/getting-started/element-structure%}), when the control’s **BarType** is either *Value* or *Percent*. You can hide the **Label** by setting the **ShowLabel** property to **false**.
 
 >caption Figure 1: RadProgressBar with enabled and disabled Label visibility.
 

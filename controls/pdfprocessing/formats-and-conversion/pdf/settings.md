@@ -1,6 +1,6 @@
 ---
 title: Settings
-page_title: Settings
+page_title: Settings | RadPdfProcessing for ASP.NET AJAX Documentation
 description: Settings
 slug: radpdfprocessing-formats-and-conversion-pdf-settings
 tags: settings

@@ -28,7 +28,7 @@ Furthermore, if you cannot have a precise indication of the progress, you can us
 
 ## Percent
 
-The progress indicator in **Percent** mode (**Figure 1**) shows the progress as a part of the 100% the**MaxValue** property of the **ProgressBar** denotes.
+The progress indicator in **Percent** mode (**Figure 1**) shows the progress as a part of the 100% the **MaxValue** property of the **ProgressBar** denotes.
 
 You can also use the **RadProgressBar** in percent mode as a label which shows the completion of the task or some custom text. You can use a [custom label]({%slug progressbar/functionality/custom-label-%}) when the **RadProgressBar** is used in this mode.
 
@@ -66,7 +66,7 @@ The progress bar in **Value** mode (**Figure 2**) is similar to the Percent bar 
 
 ## Chunk
 
-The progress bar in **Chunk** mode (**Figure 3**) is divided in equal pieces (chunks) which display the completed discrete process steps. For example, if a form has 5required inputs or a wizard is completed in 5 steps, the progress bar should be defined in 5 chunks. If two steps are completed, the first two chunks should be filled(see**Figure 3** which is created by **Example 3**).
+The progress bar in **Chunk** mode (**Figure 3**) is divided in equal pieces (chunks) which display the completed discrete process steps. For example, if a form has 5required inputs or a wizard is completed in 5 steps, the progress bar should be defined in 5 chunks. If two steps are completed, the first two chunks should be filled(see **Figure 3** which is created by **Example 3**).
 
 >note If you want to set the current step trough the **Value** of the progress bar easily, you should set equal values to the control's **MaxValue** and **ChunksCount** properties. The default value of the **MaxValue** property is 100.
 

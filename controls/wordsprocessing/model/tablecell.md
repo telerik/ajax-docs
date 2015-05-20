@@ -1,6 +1,6 @@
 ---
 title: TableCell
-page_title: TableCell
+page_title: TableCell | RadWordsProcessing for ASP.NET AJAX Documentation
 description: TableCell
 slug: radwordsprocessing-model-tablecell
 tags: tablecell

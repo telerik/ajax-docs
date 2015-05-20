@@ -1,6 +1,6 @@
 ---
 title: List
-page_title: List
+page_title: List | RadPdfProcessing for ASP.NET AJAX Documentation
 description: List
 slug: radpdfprocessing-editing-list
 tags: list
