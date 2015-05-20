@@ -151,7 +151,7 @@ Simple markup demonstration of a custom shape stylization with the described set
 
 You can dynamically alter the look and behavior of the **Bubble** layer or implement some user-interaction capabilities by using the [client-side events of the RadMap control]({%slug map/client-side-programming%}) and changing the [style attributes of the shape](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/map#configuration-layerDefaults.bubble.style) according to your logic (**Example 4**).
 
->tip To manipulate the bubbles you should use the **Shape** related events, i.e.,[OnShapeCreated](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/map#events-shapeCreated),[OnShapeClick](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/map#events-shapeClick),[OnShapeMouseEnter](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/map#events-shapeMouseEnter) and [OnShapeMouseLeave](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/map#events-shapeMouseLeave).
+>tip To manipulate the bubbles you should use the **Shape** related events, i.e.,[OnShapeCreated](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/map#events-shapeCreated), [OnShapeClick](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/map#events-shapeClick), [OnShapeMouseEnter](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/map#events-shapeMouseEnter) and [OnShapeMouseLeave](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/map#events-shapeMouseLeave).
 
 In **Example 3**, you can see how the **OnShapeCreated** event is used to alter the fill-color of the bubbles based on the value of the shape objects. **Figure 3** shows the rendered map as a result of the custom implementation.
 

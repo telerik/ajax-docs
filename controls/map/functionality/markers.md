@@ -22,7 +22,7 @@ The markers in the **RadMap** are represented as a collection of objects. To add
 
 1. Add a **MapMarker** item;
 
-1. Use the **LocationSettings** inner tag and its **Latitude** and **Longitude**attributes to define the location of the marker.
+1. Use the **LocationSettings** inner tag and its **Latitude** and **Longitude** attributes to define the location of the marker.
 
 1. Optionally, you can set the **Shape** attribute to a desirable value (**Pin** or **PinTarget**);
 

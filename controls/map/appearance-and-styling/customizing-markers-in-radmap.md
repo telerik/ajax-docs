@@ -201,7 +201,7 @@ To make sure the tooltip looks as expected when its marker size is changed,you s
 
 After changing the height of the span element rendered by the **Marker**, in order to fine-tune the marker’s position, you should fine-tune the marker element’s top and left margins. The values that lead to the proper layout depend	on the differences between the original and the custom size used.
 
->tip : Use two Marker items—a default one and a custom one, set to the same coordinate position. This will help you to properly fine-tune the Marker’s position.
+>tip Use two Marker items—a default one and a custom one, set to the same coordinate position. This will help you to properly fine-tune the Marker’s position.
 
 >tip Use the browser’s HTML inspector to change the margin values, and directly see the results in the browser. This will enable you to easily distinguish the correct position.
 

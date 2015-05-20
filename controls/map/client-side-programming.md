@@ -65,7 +65,7 @@ There are two ways to get a reference to the Kendo Map widget in order to use it
 
 ## Client-side Events
 
-**RadMap** exposes the [Kendo Map client-side events](http://docs.telerik.com/kendo-ui/api/dataviz/map#events) in its markup (and, respectively, code-behind), via the **<ClientEvents>** inner tag (class). The event name is constructed by concatenating **On** with the **Kendo Map event name** in PascalCase.
+**RadMap** exposes the [Kendo Map client-side events](http://docs.telerik.com/kendo-ui/api/dataviz/map#events) in its markup (and, respectively, code-behind), via the `<ClientEvents>` inner tag (class). The event name is constructed by concatenating **On** with the **Kendo Map event name** in PascalCase.
 
 The server property only takes the handler function name as a string. The handler receives the Kendo Map event arguments. You can find examples of attaching and using the events in **Example 4**.
 

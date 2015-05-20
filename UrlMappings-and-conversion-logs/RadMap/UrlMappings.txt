@@ -4,7 +4,7 @@ http://www.telerik.com/help/aspnet-ajax/map-client-side-data-binding.html http:/
 http://www.telerik.com/help/aspnet-ajax/map-custom-markers.html http://docs.telerik.com/devtools/ajax/map/appearance-and-styling/customizing-markers-in-radmap
 http://www.telerik.com/help/aspnet-ajax/map-design-time.html http://docs.telerik.com/devtools/ajax/map/design-time
 http://www.telerik.com/help/aspnet-ajax/map-elastic-design.html http://docs.telerik.com/devtools/ajax/map/mobile-support/elastic-design
-http://www.telerik.com/help/aspnet-ajax/map-element-structure.html http://docs.telerik.com/devtools/ajax/map/getting-started/radmap-structure
+http://www.telerik.com/help/aspnet-ajax/map-element-structure.html http://docs.telerik.com/devtools/ajax/map/getting-started/structure
 http://www.telerik.com/help/aspnet-ajax/map-fluid-design.html http://docs.telerik.com/devtools/ajax/map/mobile-support/fluid-design
 http://www.telerik.com/help/aspnet-ajax/map-gestures-support.html http://docs.telerik.com/devtools/ajax/map/mobile-support/gestures-support
 http://www.telerik.com/help/aspnet-ajax/map-getting-started.html http://docs.telerik.com/devtools/ajax/map/getting-started/overview

@@ -66,4 +66,4 @@ For configuring the built-in RadMap controls through ControlsSettings, you can u
 
  * [Overview]({%slug map/overview%})
 
- * [Overview]({%slug map/getting-started/overview%})
+ * [Getting Started with RadMap]({%slug map/getting-started/overview%})
