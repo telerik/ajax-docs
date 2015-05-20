@@ -1,4 +1,3 @@
 http://www.telerik.com/help/aspnet-ajax/stylesheetmanager-cdn-support.html http://docs.telerik.com/devtools/ajax/stylesheetmanager/cdn-support/overview
 http://www.telerik.com/help/aspnet-ajax/stylesheetmanager-serving-external-style-sheets.html http://docs.telerik.com/devtools/ajax/stylesheetmanager/serving-external-style-sheets
-http://www.telerik.com/help/aspnet-ajax/stylesheetmanager-what-is-new.html http://docs.telerik.com/devtools/ajax/stylesheetmanager/what-is-new?
 http://www.telerik.com/help/aspnet-ajax/stylesheetmanager.html http://docs.telerik.com/devtools/ajax/stylesheetmanager/overview
