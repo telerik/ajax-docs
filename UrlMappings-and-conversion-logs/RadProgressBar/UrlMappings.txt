@@ -7,7 +7,7 @@ http://www.telerik.com/help/aspnet-ajax/progress-bar-client-side-events-value-ch
 http://www.telerik.com/help/aspnet-ajax/progress-bar-client-side-events.html http://docs.telerik.com/devtools/aspnet-ajax/controls/progressbar/client-side-programming/events/overview
 http://www.telerik.com/help/aspnet-ajax/progress-bar-custom-status-label.html http://docs.telerik.com/devtools/aspnet-ajax/controls/progressbar/functionality/custom-label-
 http://www.telerik.com/help/aspnet-ajax/progress-bar-elastic-design.html http://docs.telerik.com/devtools/aspnet-ajax/controls/progressbar/mobile-support/elastic-design
-http://www.telerik.com/help/aspnet-ajax/progress-bar-element-structure.html http://docs.telerik.com/devtools/aspnet-ajax/controls/progressbar/getting-started/element-structure
+http://www.telerik.com/help/aspnet-ajax/progress-bar-element-structure.html http://docs.telerik.com/devtools/aspnet-ajax/controls/progressbar/getting-started/structure
 http://www.telerik.com/help/aspnet-ajax/progress-bar-fluid-design.html http://docs.telerik.com/devtools/aspnet-ajax/controls/progressbar/mobile-support/fluid-design
 http://www.telerik.com/help/aspnet-ajax/progress-bar-getting-started.html http://docs.telerik.com/devtools/aspnet-ajax/controls/progressbar/getting-started/overview
 http://www.telerik.com/help/aspnet-ajax/progress-bar-overview.html http://docs.telerik.com/devtools/aspnet-ajax/controls/progressbar/overview
