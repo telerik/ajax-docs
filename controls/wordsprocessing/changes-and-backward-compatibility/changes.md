@@ -1,8 +1,8 @@
 ---
 title: Changes
-page_title: Changes | UI for ASP.NET AJAX Documentation
+page_title: Changes
 description: Changes
-slug: wordsprocessing/changes-and-backward-compatibility/changes
+slug: radwordsprocessing-changes
 tags: changes
 published: True
 position: 0
@@ -18,74 +18,100 @@ This topic will summarize the new functionality introduced in the library with h
 
 __What's New__
 
-* Mail Merge support, which can be used to generate documents from a template document (containing merge fields) and data source. [Read more.]({%slug wordsprocessing/editing/mail-merge%})
+* Mail Merge support, which can be used to generate documents from a template document (containing merge fields) and data source. [Read more.]({%slug radwordsprocessing-editing-mail-merge%})
 
-* Document Variables that enable users to define variables in the document and use document variable fields. [Read more.]({%slug wordsprocessing/concepts/fields/document-variables%})
+* Document Variables that enable users to define variables in the document and use document variable fields. [Read more.]({%slug radwordsprocessing-concepts-document-variables%})
 
 * Export of table styles to HTML.
+            
 
 * Import/export HTML preserving white spaces through non-breaking spaces.
+            
 
 * Import and export document theme to DOCX file format.
+            
 
 * Introduced lists export/import to HTML.
+            
 
 __What's Fixed__
 
 * Table border calculator is not working correctly for table with empty rows.
+            
 
 * 'Style' element is not correctly imported when it is outside the 'head' element.
+            
 
 * Incorrect export of nested table elements.
+            
 
 * Converted Border class to immutable type.
+            
 
 * Importing empty string causes exception.
+            
 
 * 'Class' attribute is exported when ExportSettings.StylesExportMode is None.
+            
 
 * NullReference exception is thrown when FieldResult is empty string or null.
+            
 
 * Properties of Paragraphs without StyleId are not exported when StylesExportMode is Inline.
+            
 
 * Importing HTML containing only an image causes exception.
+            
 
 * Line breaks are not exported to HTML.
+            
 
 * Underline is not exported to HTML.
+            
 
 * HtmlFormatProvider crashes when html element is present in the body.
+            
 
 * Support for negative indent.
+            
 
 * Table column's widths are not respected when importing from HTML and exporting to DOCX.
+            
 
 * Importing from HTML imports table borders as inside borders.
+            
 
 * StyleProperty.GetActualValue() throws exception when style is not added to a document.
+            
 
 * RestartAfterLevel property in ListLevel class has inappropriate default value.
+            
 
 * RestartAfterLevel does not work correctly when exported to RTF format.
+            
 
 * Style applied to div is applied over paragraphs after the div.
+            
 
 * Exporting to HTML document containing hyperlink with StylesExportMode Inline causes exception.
+            
 
 * When importing from HTML paragraph style is not respected.
+            
 
 * Default font size is not exported correctly to RTF.
+            
 
 ## What's New in 2014 Q2
 
-* [Html Import/Export](89a612ca-fd29-481b-8f81-1517e559029d)
+* [Html Import/Export]({%slug radwordsprocessing-formats-and-conversion-html%})
 
-* [Lists]({%slug wordsprocessing/concepts/lists%})
+* [Lists]({%slug radwordsprocessing-concepts-lists%})
 
-* [](86701896-bc1b-44f6-ac73-10b800e3c939)
+* [Break]({%slug radwordsprocessing-model-break%})
 
-* [Lists]({%slug wordsprocessing/concepts/lists%})
+* [Lists]({%slug radwordsprocessing-concepts-lists%})
 
-* [](55e5302a-61bc-4ead-8717-841d328ee057)
+* [Bookmark]({%slug radwordsprocessing-model-bookmark%})
 
-* [](cbb13cde-c94a-4cad-99db-b0d3ec316401)
+* [Comment]({%slug radwordsprocessing-model-comment%})
