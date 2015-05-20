@@ -2,7 +2,7 @@
 url: "http://docs.telerik.com/devtools/aspnet-ajax"
 site_name: AJAX
 # Exclude files which should not be in the output
-exclude: [README.md,Gemfile,Gemfile.lock,build/*,LICENSE,SlugLog.log,UrlMappings-and-conversion-logs/*,temp_exclude_result.tmp,generate_exlude.rb]
+exclude: [README.md,Gemfile,Gemfile.lock,build/*,LICENSE,SlugLog.log,UrlMappings-and-conversion-logs/*,temp_exclude_result.tmp,generate_exlude.rb, RakeFile, helper_tools/*]
 
 ## The application virtual path
 baseurl: "/devtools/aspnet-ajax"
@@ -1073,18 +1073,24 @@ navigation:
     "*panelbar/web-pages":
         title: "Web Pages"
         position: 9
-    "*pdfprocessing/changes-and-backward-compatibility":
-        title: "Changes and Backward Compatibility"
-        position: 3
+    "*pdfprocessing/model":
+        title: Model
+        position: 4
     "*pdfprocessing/formats-and-conversion":
-        title: "Formats and Conversion"
+        title: Formats and Conversion
         position: 5
+    "*pdfprocessing/formats-and-conversion/pdf":
+        title: Pdf
+        position: 0
     "*pdfprocessing/editing":
-        title: "Editing"
+        title: Editing
         position: 6
     "*pdfprocessing/concepts":
-        title: "Concepts"
+        title: Concepts
         position: 7
+    "*pdfprocessing/howto":
+        title: How To
+        position: 100
     "*pivotgrid/data-binding":
         title: "Data Binding"
         position: 3
@@ -1223,36 +1229,48 @@ navigation:
     "*splitter/sliding-zones":
         title: "Sliding Zones"
         position: 6
-    "*spreadprocessing/changes-and-backward-compatibility":
-        title: "Changes and Backward Compatibility"
-        position: 2
     "*spreadprocessing/working-with-workbooks":
-        title: "Working with Workbooks"
-        position: 3
+        title: Working with Workbooks
+        position: 3		
     "*spreadprocessing/working-with-worksheets":
-        title: "Working with Worksheets"
+        title: Working with Worksheets
         position: 4
     "*spreadprocessing/working-with-rows-and-columns":
-        title: "Working with Rows and Columns"
+        title: Working with Rows and Columns
         position: 5
     "*spreadprocessing/working-with-cells":
-        title: "Working with Cells"
+        title: Working with Cells
         position: 6
+    "*spreadprocessing/formats-and-conversion":
+        title: Formats and Conversion
+        position: 7
     "*spreadprocessing/features":
-        title: "Features"
+        title: Features
         position: 8
+    "*spreadprocessing/formats-and-conversion/xlsx":
+        title: Xlsx
+        position: 2
+    "*spreadprocessing/formats-and-conversion/pdf":
+        title: Pdf
+        position: 3
+    "*spreadprocessing/formats-and-conversion/csv":
+        title: Csv
+        position: 4
+    "*spreadprocessing/formats-and-conversion/txt":
+        title: Txt
+        position: 5
     "*spreadprocessing/features/fill-data-automatically":
-        title: "Fill Data Automatically"
+        title: Fill Data Automatically
         position: 0
+    "*spreadprocessing/features/formulas":
+        title: Formulas
+        position: 1
     "*spreadprocessing/features/protection":
-        title: "Protection"
+        title: Protection
         position: 2
     "*spreadprocessing/features/styling":
-        title: "Styling"
-        position: 3
-    "*stylesheetmanager/cdn-support":
-        title: "CDN Support"
-        position: 3
+        title: Styling
+        position: 3		
     "*tabstrip/templates":
         title: "Templates"
         position: 7
@@ -1445,18 +1463,39 @@ navigation:
     "*wizard/structure":
         title: "Structure"
         position: 3
-    "*wordsprocessing/changes-and-backward-compatibility":
-        title: "Changes and Backward Compatibility"
-        position: 2
-    "*wordsprocessing/editing":
-        title: "Editing"
+    "*wordsprocessing/model":
+        title: Model
+        position: 4
+    "*wordsprocessing/formats-and-conversion":
+        title: Formats and Conversion
         position: 5
-    "*wordsprocessing/concepts":
-        title: "Concepts"
+    "*wordsprocessing/editing":
+        title: Editing
         position: 6
+    "*wordsprocessing/concepts":
+        title: Concepts
+        position: 7
+    "*wordsprocessing/formats-and-conversion/docx":
+        title: Docx
+        position: 1
+    "*wordsprocessing/formats-and-conversion/rtf":
+        title: Rtf
+        position: 2
+    "*wordsprocessing/formats-and-conversion/html":
+        title: Html
+        position: 3
+    "*wordsprocessing/formats-and-conversion/pdf":
+        title: Pdf
+        position: 4	
+    "*wordsprocessing/formats-and-conversion/plain-text":
+        title: Plain text
+        position: 5
     "*wordsprocessing/concepts/fields":
-        title: "Fields"
+        title: Fields
         position: 0
+    "*ziplibrary/features":
+        title: Features
+        position: 4
 
 ## Assign layout and category per different paths
 defaults:
