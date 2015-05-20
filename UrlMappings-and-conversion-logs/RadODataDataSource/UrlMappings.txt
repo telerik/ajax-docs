@@ -1,11 +1,11 @@
-http://www.telerik.com/help/aspnet-ajax/odatadatasource-designtime.html http://docs.telerik.com/devtools/ajax/odatadatasource/design-time
-http://www.telerik.com/help/aspnet-ajax/odatadatasource-getting-started.html http://docs.telerik.com/devtools/ajax/odatadatasource/getting-started
-http://www.telerik.com/help/aspnet-ajax/odatadatasource-overview.html http://docs.telerik.com/devtools/ajax/odatadatasource/overview
-http://www.telerik.com/help/aspnet-ajax/odatadatasource-hierarchical-self-reference-binding-radtreeview .html http://docs.telerik.com/devtools/ajax/odatadatasource/how-to/hierarchical-self-reference-binding-of-radtreeview-
-http://www.telerik.com/help/aspnet-ajax/odatadatasource-manual-hierarchy-radtreeview.html http://docs.telerik.com/devtools/ajax/odatadatasource/how-to/manual-hierarchy-of-radtreeview
-http://www.telerik.com/help/aspnet-ajax/odatadatasource-client-side-evenets.html http://docs.telerik.com/devtools/ajax/odatadatasource/client-side-programming/events/overview
-http://www.telerik.com/help/aspnet-ajax/odatadatasource-datasource-client-side-api.html http://docs.telerik.com/devtools/ajax/odatadatasource/client-side-programming/objects/radodatadatasource-object
-http://www.telerik.com/help/aspnet-ajax/odatadatasource-model-client-side-api.html http://docs.telerik.com/devtools/ajax/odatadatasource/client-side-programming/objects/radodatadatasource-model-object
-http://www.telerik.com/help/aspnet-ajax/odatadatasource-onrequestfail.html http://docs.telerik.com/devtools/ajax/odatadatasource/client-side-programming/events/onrequestfail
-http://www.telerik.com/help/aspnet-ajax/odatadatasource-onrequesting.html http://docs.telerik.com/devtools/ajax/odatadatasource/client-side-programming/events/onrequesting
-http://www.telerik.com/help/aspnet-ajax/odatadatasource-onrequestsucceeded.html http://docs.telerik.com/devtools/ajax/odatadatasource/client-side-programming/events/onrequestsucceeded
+http://www.telerik.com/help/aspnet-ajax/odatadatasource-designtime.html http://docs.telerik.com/devtools/aspnet-ajax/controls/odatadatasource/design-time
+http://www.telerik.com/help/aspnet-ajax/odatadatasource-getting-started.html http://docs.telerik.com/devtools/aspnet-ajax/controls/odatadatasource/getting-started
+http://www.telerik.com/help/aspnet-ajax/odatadatasource-overview.html http://docs.telerik.com/devtools/aspnet-ajax/controls/odatadatasource/overview
+http://www.telerik.com/help/aspnet-ajax/odatadatasource-hierarchical-self-reference-binding-radtreeview.html http://docs.telerik.com/devtools/aspnet-ajax/controls/odatadatasource/how-to/hierarchical-self-reference-binding-of-radtreeview-
+http://www.telerik.com/help/aspnet-ajax/odatadatasource-manual-hierarchy-radtreeview.html http://docs.telerik.com/devtools/aspnet-ajax/controls/odatadatasource/how-to/manual-hierarchy-of-radtreeview
+http://www.telerik.com/help/aspnet-ajax/odatadatasource-client-side-evenets.html http://docs.telerik.com/devtools/aspnet-ajax/controls/odatadatasource/client-side-programming/events/overview
+http://www.telerik.com/help/aspnet-ajax/odatadatasource-datasource-client-side-api.html http://docs.telerik.com/devtools/aspnet-ajax/controls/odatadatasource/client-side-programming/objects/radodatadatasource-object
+http://www.telerik.com/help/aspnet-ajax/odatadatasource-model-client-side-api.html http://docs.telerik.com/devtools/aspnet-ajax/controls/odatadatasource/client-side-programming/objects/radodatadatasource-model-object
+http://www.telerik.com/help/aspnet-ajax/odatadatasource-onrequestfail.html http://docs.telerik.com/devtools/aspnet-ajax/controls/odatadatasource/client-side-programming/events/onrequestfail
+http://www.telerik.com/help/aspnet-ajax/odatadatasource-onrequesting.html http://docs.telerik.com/devtools/aspnet-ajax/controls/odatadatasource/client-side-programming/events/onrequesting
+http://www.telerik.com/help/aspnet-ajax/odatadatasource-onrequestsucceeded.html http://docs.telerik.com/devtools/aspnet-ajax/controls/odatadatasource/client-side-programming/events/onrequestsucceeded
