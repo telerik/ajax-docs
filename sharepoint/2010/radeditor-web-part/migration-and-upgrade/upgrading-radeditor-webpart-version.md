@@ -26,7 +26,7 @@ In SharePoint 2010 deployments use the following steps to upgrade an existing ve
     
 	![](images/upgradeB_thumb.png)
 
-1. Check the **web.config**file of your SharePoint 2010 site for a **SafeControl**element such as **<SafeControl Assembly="RadEditorSharePoint, Version=x.x.x.x, Culture=neutral, PublicKeyToken=1f131a624888eeed" Namespace="Telerik.SharePoint" TypeName="*" Safe="True" SafeAgainstScript="False" />**
+1. Check the **web.config**file of your SharePoint 2010 site for a **SafeControl** element such as `<SafeControl Assembly="RadEditorSharePoint, Version=x.x.x.x, Culture=neutral, PublicKeyToken=1f131a624888eeed" Namespace="Telerik.SharePoint" TypeName="*" Safe="True" SafeAgainstScript="False" />`
 
 	![](images/upgradeC_thumb.png)
 
@@ -34,7 +34,7 @@ In SharePoint 2010 deployments use the following steps to upgrade an existing ve
 
 1. Install the new version of Telerik controls For Sharepoint 2010 as described [here]({%slug sharepoint/2010/installation-and-deployment/installing-telerik-web-parts-for-sharepoint%}).
 
-1. Paste the following <dependentAssembly> element in the <assemblyBinding> tag in the web.config file:
+1. Paste the following `<dependentAssembly>` element in the `<assemblyBinding>` tag in the web.config file:
 
 	**XML**
     
@@ -50,7 +50,7 @@ In SharePoint 2010 deployments use the following steps to upgrade an existing ve
 			...
 		</runtime>
 	    
-    The **<old version>** here represents the old product version (**6.0.0.0**), while **<new version>** should be replaced     with the current version (**6.1.0.0** in this example):
+    The `<old version>` here represents the old product version (**6.0.0.0**), while `<new version>` should be replaced     with the current version (**6.1.0.0** in this example):
 
 	**XML**
     
@@ -59,14 +59,14 @@ In SharePoint 2010 deployments use the following steps to upgrade an existing ve
 			<bindingRedirect oldVersion="1.0.0.0-6.0.0.0" newVersion="6.1.0.0" />
 		</dependentAssembly>
 
-1. (Web Parts) To enable the RadEditor Web Parts, which were created with the previous version, open the web.config file of your SharePoint site and add the following line right above the **</SafeControls>** tag:
+1. (Web Parts) To enable the RadEditor Web Parts, which were created with the previous version, open the web.config file of your SharePoint site and add the following line right above the `</SafeControls>` tag:
 
 	**XML**
     
         <SafeControl Assembly="RadEditorSharePoint, Version=<old version>, Culture=neutral, PublicKeyToken=1f131a624888eeed"
 	    	Namespace="Telerik.SharePoint" Typename="*" Safe="True" />
 
-    In this case **<old version>** is **6.0.0.0**, so the **<SafeControl>** tag should look like this:
+    In this case `<old version>` is **6.0.0.0**, so the `<SafeControl>` tag should look like this:
 
 	**XML**
     
