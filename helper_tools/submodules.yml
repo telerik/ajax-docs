@@ -1,0 +1,11 @@
+# Configuration for the xaml_docs repo
+xaml_docs:
+ remote_ssh: "git@github.com:telerik/xaml-docs.git"
+ remote_ssl: "https://github.com/telerik/xaml-docs.git"
+ submodule_path: "xaml_docs"
+ mappings: [
+  { target: "controls/wordsprocessing", source: "controls/radwordsprocessing/." },
+  { target: "controls/pdfprocessing", source: "controls/radpdfprocessing/."},
+  { target: "controls/ziplibrary", source: "controls/radziplibrary/."},
+  { target: "controls/spreadprocessing", source: "controls/radspreadprocessing/."}
+ ]

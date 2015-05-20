@@ -1,0 +1,30 @@
+task :xaml_docs do 
+  require "./helper_tools/submodules.rb"
+  submodule = Submodule.new("xaml_docs", "./helper_tools/submodules.yml")
+  submodule.init()
+  submodule.update()
+  submodule.map_folders()
+  submodule.destroy()
+  
+  # replace all {% if site.site_name == 'WPF' %} 
+  # to {% if site.site_name == 'AJAX' %}
+  
+  original_regex = /{% if site.site_name == 'WPF' %}WPF|{% if site.site_name == 'WPF' %}/
+  original_string = "{% if site.site_name == 'WPF' %}"
+  replacement = "{% if site.site_name == 'AJAX' %}"
+  
+  folders = submodule.get_target_folders()
+  folders.each do |folder|
+    files = Dir[folder + "**/*.md"]
+    files.each do |file|
+      content = File.read(file)
+      if content.include?(original_string)
+        #content = content.gsub(original, replacement)
+		content = content.gsub(original_regex){ |match|
+			match.end_with?("WPF") ? replacement + "AJAX" : replacement
+		}
+        File.write(file, content)
+      end
+    end
+  end
+end
