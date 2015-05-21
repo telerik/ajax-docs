@@ -110,7 +110,7 @@ Here are quick links to the control-specific sections of our documentation:
 
 * [PanelBar]({%slug panelbar/overview/overview%})
 
-* [PdfProcessing]({%slug pdfprocessing/overview%})
+* [PdfProcessing]({%slug radpdfprocessing-overview%})
 
 * [PersistenceFramework]({%slug persistenceframework/overview%})
 
@@ -144,7 +144,7 @@ Here are quick links to the control-specific sections of our documentation:
 
 * [Splitter]({%slug splitter/overview%})
 
-* [SpreadProcessing]({%slug spreadprocessing/overview%})
+* [SpreadProcessing]({%slug radspreadprocessing-overview%})
 
 * [StyleSheetManager]({%slug stylesheetmanager/overview%})
 
@@ -170,11 +170,11 @@ Here are quick links to the control-specific sections of our documentation:
 
 * [Wizard]({%slug wizard/overview%})
 
-* [WordsProcessing]({%slug wordsprocessing/overview%})
+* [WordsProcessing]({%slug radwordsprocessing-overview%})
 
 * [XmlHttpPanel]({%slug xmlhttppanel/overview%})
 
-* [ZipLibrary]({%slug ziplibrary/overview%})
+* [ZipLibrary]({%slug radziplibrary-overview%})
 
 
 Telerik UI for ASP.NET AJAX works on the .NET v3.5, 4.0 and 4.5 frameworks.
