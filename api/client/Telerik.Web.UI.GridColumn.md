@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.GridColumn
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.GridColumn
 ---
 
 # Telerik.Web.UI.GridColumn : Sys.UI.Control 
+
+## Inheritance Hierarchy
+
+* Sys.UI.Control
+* *[Telerik.Web.UI.GridColumn]({%slug Telerik.Web.UI.GridColumn%})*
 
 ## Methods
 

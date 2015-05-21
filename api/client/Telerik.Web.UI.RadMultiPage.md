@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.RadMultiPage
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadMultiPage
 ---
 
 # Telerik.Web.UI.RadMultiPage : Telerik.Web.UI.RadWebControl 
+
+## Inheritance Hierarchy
+
+* [Telerik.Web.UI.RadWebControl]({%slug Telerik.Web.UI.RadWebControl%})
+* *[Telerik.Web.UI.RadMultiPage]({%slug Telerik.Web.UI.RadMultiPage%})*
 
 ## Methods
 

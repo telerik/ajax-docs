@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.Calendar.RenderDay
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.Calendar.RenderDay
 ---
 
 # Telerik.Web.UI.Calendar.RenderDay  
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.Calendar.RenderDay]({%slug Telerik.Web.UI.Calendar.RenderDay%})*
 
 ## Methods
 

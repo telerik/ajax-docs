@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.ISchedulerTimeSlot
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.ISchedulerTimeSlot
 ---
 
 # Telerik.Web.UI.ISchedulerTimeSlot  
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.ISchedulerTimeSlot]({%slug Telerik.Web.UI.ISchedulerTimeSlot%})*
 
 ## Methods
 

@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.RadPivotGrid
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadPivotGrid
 ---
 
 # Telerik.Web.UI.RadPivotGrid : Telerik.Web.UI.RadWebControl 
+
+## Inheritance Hierarchy
+
+* [Telerik.Web.UI.RadWebControl]({%slug Telerik.Web.UI.RadWebControl%})
+* *[Telerik.Web.UI.RadPivotGrid]({%slug Telerik.Web.UI.RadPivotGrid%})*
 
 ## Methods
 

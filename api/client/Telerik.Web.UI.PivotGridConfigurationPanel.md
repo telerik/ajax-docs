@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.PivotGridConfigurationPanel
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.PivotGridConfigurationPanel
 ---
 
 # Telerik.Web.UI.PivotGridConfigurationPanel : Sys.UI.Control 
+
+## Inheritance Hierarchy
+
+* Sys.UI.Control
+* *[Telerik.Web.UI.PivotGridConfigurationPanel]({%slug Telerik.Web.UI.PivotGridConfigurationPanel%})*
 
 ## Methods
 

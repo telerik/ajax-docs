@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.DataPagerPageIndexChangingEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.DataPagerPageIndexChangingEventArgs
 ---
 
 # Telerik.Web.UI.DataPagerPageIndexChangingEventArgs : Sys.CancelEventArgs 
+
+## Inheritance Hierarchy
+
+* Sys.CancelEventArgs
+* *[Telerik.Web.UI.DataPagerPageIndexChangingEventArgs]({%slug Telerik.Web.UI.DataPagerPageIndexChangingEventArgs%})*
 
 ## Methods
 

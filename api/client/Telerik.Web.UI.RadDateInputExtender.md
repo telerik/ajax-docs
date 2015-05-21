@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.RadDateInputExtender
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadDateInputExtender
 ---
 
 # Telerik.Web.UI.RadDateInputExtender  
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.RadDateInputExtender]({%slug Telerik.Web.UI.RadDateInputExtender%})*
 
 ## Methods
 

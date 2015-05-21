@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.DialogOpenEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.DialogOpenEventArgs
 ---
 
 # Telerik.Web.UI.DialogOpenEventArgs : Sys.EventArgs 
+
+## Inheritance Hierarchy
+
+* Sys.EventArgs
+* *[Telerik.Web.UI.DialogOpenEventArgs]({%slug Telerik.Web.UI.DialogOpenEventArgs%})*
 
 ## Methods
 

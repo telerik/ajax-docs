@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.AjaxRequestEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.AjaxRequestEventArgs
 ---
 
 # Telerik.Web.UI.AjaxRequestEventArgs : Sys.EventArgs 
+
+## Inheritance Hierarchy
+
+* Sys.EventArgs
+* *[Telerik.Web.UI.AjaxRequestEventArgs]({%slug Telerik.Web.UI.AjaxRequestEventArgs%})*
 
 ## Methods
 

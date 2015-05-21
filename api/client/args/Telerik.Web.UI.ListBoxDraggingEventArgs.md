@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.ListBoxDraggingEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.ListBoxDraggingEventArgs
 ---
 
 # Telerik.Web.UI.ListBoxDraggingEventArgs : Sys.CancelEventArgs 
+
+## Inheritance Hierarchy
+
+* Sys.CancelEventArgs
+* *[Telerik.Web.UI.ListBoxDraggingEventArgs]({%slug Telerik.Web.UI.ListBoxDraggingEventArgs%})*
 
 ## Methods
 

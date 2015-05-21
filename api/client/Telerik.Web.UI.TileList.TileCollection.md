@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.TileList.TileCollection
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.TileList.TileCollection
 ---
 
 # Telerik.Web.UI.TileList.TileCollection  
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.TileList.TileCollection]({%slug Telerik.Web.UI.TileList.TileCollection%})*
 
 ## Methods
 

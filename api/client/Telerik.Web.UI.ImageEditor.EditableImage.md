@@ -3,9 +3,14 @@ title: Telerik.Web.UI.ImageEditor.EditableImage
 page_title: Client-side API Reference
 description: Client-side API Reference
 static: true
+slug: Telerik.Web.UI.ImageEditor.EditableImage
 ---
 
 # Telerik.Web.UI.ImageEditor.EditableImage  
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.ImageEditor.EditableImage]({%slug Telerik.Web.UI.ImageEditor.EditableImage%})*
 
 ## Methods
 

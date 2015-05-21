@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.ListBoxDeletingEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.ListBoxDeletingEventArgs
 ---
 
 # Telerik.Web.UI.ListBoxDeletingEventArgs : Sys.CancelEventArgs 
+
+## Inheritance Hierarchy
+
+* Sys.CancelEventArgs
+* *[Telerik.Web.UI.ListBoxDeletingEventArgs]({%slug Telerik.Web.UI.ListBoxDeletingEventArgs%})*
 
 ## Methods
 

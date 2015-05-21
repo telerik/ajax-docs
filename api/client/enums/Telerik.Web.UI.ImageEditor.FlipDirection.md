@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.ImageEditor.FlipDirection
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.ImageEditor.FlipDirection
 ---
 
 # enum Telerik.Web.UI.ImageEditor.FlipDirection
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.ImageEditor.FlipDirection]({%slug Telerik.Web.UI.ImageEditor.FlipDirection%})*
 
 ## Fields
 

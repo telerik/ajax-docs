@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.RadRegExpTextBoxExtender
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadRegExpTextBoxExtender
 ---
 
 # Telerik.Web.UI.RadRegExpTextBoxExtender  
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.RadRegExpTextBoxExtender]({%slug Telerik.Web.UI.RadRegExpTextBoxExtender%})*
 
 ## Methods
 

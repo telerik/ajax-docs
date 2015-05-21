@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.PivotGridCommandCancelEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.PivotGridCommandCancelEventArgs
 ---
 
 # Telerik.Web.UI.PivotGridCommandCancelEventArgs : Sys.CancelEventArgs 
+
+## Inheritance Hierarchy
+
+* Sys.CancelEventArgs
+* *[Telerik.Web.UI.PivotGridCommandCancelEventArgs]({%slug Telerik.Web.UI.PivotGridCommandCancelEventArgs%})*
 
 ## Methods
 

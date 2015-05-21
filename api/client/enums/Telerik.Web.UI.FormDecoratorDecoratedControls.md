@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.FormDecoratorDecoratedControls
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.FormDecoratorDecoratedControls
 ---
 
 # enum Telerik.Web.UI.FormDecoratorDecoratedControls
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.FormDecoratorDecoratedControls]({%slug Telerik.Web.UI.FormDecoratorDecoratedControls%})*
 
 ## Fields
 

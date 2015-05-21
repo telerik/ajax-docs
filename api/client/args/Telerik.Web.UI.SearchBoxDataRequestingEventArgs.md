@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.SearchBoxDataRequestingEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.SearchBoxDataRequestingEventArgs
 ---
 
 # Telerik.Web.UI.SearchBoxDataRequestingEventArgs : Sys.CancelEventArgs
+
+## Inheritance Hierarchy
+
+* Sys.CancelEventArgs
+* *[Telerik.Web.UI.SearchBoxDataRequestingEventArgs]({%slug Telerik.Web.UI.SearchBoxDataRequestingEventArgs%})*
 
 ## Methods
 

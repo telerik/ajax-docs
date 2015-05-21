@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.RadContextMenu
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadContextMenu
 ---
 
 # Telerik.Web.UI.RadContextMenu : Telerik.Web.UI.RadMenu
+
+## Inheritance Hierarchy
+
+* [Telerik.Web.UI.RadMenu]({%slug Telerik.Web.UI.RadMenu%})
+* *[Telerik.Web.UI.RadContextMenu]({%slug Telerik.Web.UI.RadContextMenu%})*
 
 ##Events
 

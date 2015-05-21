@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.FilterMenuShownEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.FilterMenuShownEventArgs
 ---
 
 # Telerik.Web.UI.FilterMenuShownEventArgs
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.FilterMenuShownEventArgs]({%slug Telerik.Web.UI.FilterMenuShownEventArgs%})*
 
 ## Methods
 

@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.ClientDataSource.GroupExpression
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.ClientDataSource.GroupExpression
 ---
 
 # Telerik.Web.UI.ClientDataSource.GroupExpression  
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.ClientDataSource.GroupExpression]({%slug Telerik.Web.UI.ClientDataSource.GroupExpression%})*
 
 ## Methods
 

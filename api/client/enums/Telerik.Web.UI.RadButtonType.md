@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.RadButtonType
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadButtonType
 ---
 
 # enum Telerik.Web.UI.RadButtonType
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.RadButtonType]({%slug Telerik.Web.UI.RadButtonType%})*
 
 ## Fields
 

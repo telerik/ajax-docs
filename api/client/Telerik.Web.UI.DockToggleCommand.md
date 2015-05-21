@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.DockToggleCommand
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.DockToggleCommand
 ---
 
 # Telerik.Web.UI.DockToggleCommand : Telerik.Web.UI.DockCommand 
+
+## Inheritance Hierarchy
+
+* [Telerik.Web.UI.DockCommand]({%slug Telerik.Web.UI.DockCommand%})
+* *[Telerik.Web.UI.DockToggleCommand]({%slug Telerik.Web.UI.DockToggleCommand%})*
 
 ## Methods
 

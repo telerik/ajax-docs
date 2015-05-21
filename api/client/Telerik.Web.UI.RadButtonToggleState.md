@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.RadButtonToggleState
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadButtonToggleState
 ---
 
 # Telerik.Web.UI.RadButtonToggleState  
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.RadButtonToggleState]({%slug Telerik.Web.UI.RadButtonToggleState%})*
 
 ## Methods
 

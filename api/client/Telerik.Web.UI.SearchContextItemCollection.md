@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.SearchContextItemCollection
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.SearchContextItemCollection
 ---
 
 # Telerik.Web.UI.SearchContextItemCollection
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.SearchContextItemCollection]({%slug Telerik.Web.UI.SearchContextItemCollection%})*
 
 ## Methods
 

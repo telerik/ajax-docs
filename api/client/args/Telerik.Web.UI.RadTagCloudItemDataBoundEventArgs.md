@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.RadTagCloudItemDataBoundEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadTagCloudItemDataBoundEventArgs
 ---
 
 # Telerik.Web.UI.RadTagCloudItemDataBoundEventArgs : Sys.EventArgs
+
+## Inheritance Hierarchy
+
+* Sys.EventArgs
+* *[Telerik.Web.UI.RadTagCloudItemDataBoundEventArgs]({%slug Telerik.Web.UI.RadTagCloudItemDataBoundEventArgs%})*
 
 ## Methods
 

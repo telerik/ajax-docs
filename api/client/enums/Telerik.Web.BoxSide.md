@@ -2,9 +2,14 @@
 title: Telerik.Web.BoxSide
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.BoxSide
 ---
 
 # enum Telerik.Web.BoxSide
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.BoxSide]({%slug Telerik.Web.BoxSide%})*
 
 ## Fields
 

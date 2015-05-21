@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.RadTreeNodeCollection
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadTreeNodeCollection
 ---
 
 # Telerik.Web.UI.RadTreeNodeCollection : Telerik.Web.UI.ControlItemCollection<Telerik.Web.UI.RadTreeNode>
+
+## Inheritance Hierarchy
+
+* [Telerik.Web.UI.ControlItemCollection]({%slug Telerik.Web.UI.ControlItemCollection%})
+* *[Telerik.Web.UI.RadTreeNodeCollection]({%slug Telerik.Web.UI.RadTreeNodeCollection%})*
 
 ## Methods
 

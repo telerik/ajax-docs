@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.RadClientDataSource
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadClientDataSource
 ---
 
 # Telerik.Web.UI.RadClientDataSource : Sys.Component 
+
+## Inheritance Hierarchy
+
+* Sys.Component
+* *[Telerik.Web.UI.RadClientDataSource]({%slug Telerik.Web.UI.RadClientDataSource%})*
 
 ## Methods
 

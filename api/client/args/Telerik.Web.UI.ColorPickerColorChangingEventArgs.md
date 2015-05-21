@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.ColorPickerColorChangingEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.ColorPickerColorChangingEventArgs
 ---
 
 # Telerik.Web.UI.ColorPickerColorChangingEventArgs : Sys.CancelEventArgs 
+
+## Inheritance Hierarchy
+
+* Sys.CancelEventArgs
+* *[Telerik.Web.UI.ColorPickerColorChangingEventArgs]({%slug Telerik.Web.UI.ColorPickerColorChangingEventArgs%})*
 
 ## Methods
 

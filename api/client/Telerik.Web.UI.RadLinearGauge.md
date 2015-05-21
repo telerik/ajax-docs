@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.RadLinearGauge
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadLinearGauge
 ---
 
 # Telerik.Web.UI.RadLinearGauge : Telerik.Web.UI.RadGaugeControl 
+
+## Inheritance Hierarchy
+
+* [Telerik.Web.UI.RadGaugeControl]({%slug Telerik.Web.UI.RadGaugeControl%})
+* *[Telerik.Web.UI.RadLinearGauge]({%slug Telerik.Web.UI.RadLinearGauge%})*
 
 ## Methods
 

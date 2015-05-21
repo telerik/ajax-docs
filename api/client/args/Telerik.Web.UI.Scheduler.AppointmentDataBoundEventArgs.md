@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.Scheduler.AppointmentDataBoundEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.Scheduler.AppointmentDataBoundEventArgs
 ---
 
 # Telerik.Web.UI.Scheduler.AppointmentDataBoundEventArgs : Telerik.Web.UI.AppointmentEventArgs
+
+## Inheritance Hierarchy
+
+* [Telerik.Web.UI.AppointmentEventArgs]({%slug Telerik.Web.UI.AppointmentEventArgs%})
+* *[Telerik.Web.UI.Scheduler.AppointmentDataBoundEventArgs]({%slug Telerik.Web.UI.Scheduler.AppointmentDataBoundEventArgs%})*
 
 ## Methods
 

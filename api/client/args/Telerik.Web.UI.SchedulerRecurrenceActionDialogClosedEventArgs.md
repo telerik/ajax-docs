@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.SchedulerRecurrenceActionDialogClosedEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.SchedulerRecurrenceActionDialogClosedEventArgs
 ---
 
 # Telerik.Web.UI.SchedulerRecurrenceActionDialogClosedEventArgs : Telerik.Web.UI.AppointmentEventArgs
+
+## Inheritance Hierarchy
+
+* [Telerik.Web.UI.AppointmentEventArgs]({%slug Telerik.Web.UI.AppointmentEventArgs%})
+* *[Telerik.Web.UI.SchedulerRecurrenceActionDialogClosedEventArgs]({%slug Telerik.Web.UI.SchedulerRecurrenceActionDialogClosedEventArgs%})*
 
 ## Methods
 

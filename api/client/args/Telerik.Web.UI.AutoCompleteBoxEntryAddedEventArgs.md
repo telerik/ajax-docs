@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.AutoCompleteBoxEntryAddedEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.AutoCompleteBoxEntryAddedEventArgs
 ---
 
 # Telerik.Web.UI.AutoCompleteBoxEntryAddedEventArgs : Sys.EventArgs
+
+## Inheritance Hierarchy
+
+* Sys.EventArgs
+* *[Telerik.Web.UI.AutoCompleteBoxEntryAddedEventArgs]({%slug Telerik.Web.UI.AutoCompleteBoxEntryAddedEventArgs%})*
 
 ## Methods
 

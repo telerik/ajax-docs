@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.RibbonBarMenuItemClickedEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RibbonBarMenuItemClickedEventArgs
 ---
 
 # Telerik.Web.UI.RibbonBarMenuItemClickedEventArgs : Sys.CancelEventArgs
+
+## Inheritance Hierarchy
+
+* Sys.CancelEventArgs
+* *[Telerik.Web.UI.RibbonBarMenuItemClickedEventArgs]({%slug Telerik.Web.UI.RibbonBarMenuItemClickedEventArgs%})*
 
 ## Methods
 

@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.ListBoxItemDoubleClickingEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.ListBoxItemDoubleClickingEventArgs
 ---
 
 # Telerik.Web.UI.ListBoxItemDoubleClickingEventArgs : Sys.CancelEventArgs 
+
+## Inheritance Hierarchy
+
+* Sys.CancelEventArgs
+* *[Telerik.Web.UI.ListBoxItemDoubleClickingEventArgs]({%slug Telerik.Web.UI.ListBoxItemDoubleClickingEventArgs%})*
 
 ## Methods
 

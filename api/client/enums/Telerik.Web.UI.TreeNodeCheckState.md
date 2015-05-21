@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.TreeNodeCheckState
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.TreeNodeCheckState
 ---
 
 # enum Telerik.Web.UI.TreeNodeCheckState
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.TreeNodeCheckState]({%slug Telerik.Web.UI.TreeNodeCheckState%})*
 
 ## Fields
 

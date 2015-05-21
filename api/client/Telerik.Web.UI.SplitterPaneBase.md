@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.SplitterPaneBase
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.SplitterPaneBase
 ---
 
 # Telerik.Web.UI.SplitterPaneBase : Sys.UI.Control 
+
+## Inheritance Hierarchy
+
+* Sys.UI.Control
+* *[Telerik.Web.UI.SplitterPaneBase]({%slug Telerik.Web.UI.SplitterPaneBase%})*
 
 ## Methods
 

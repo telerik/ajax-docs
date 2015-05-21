@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.RadDateInput
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadDateInput
 ---
 
 # Telerik.Web.UI.RadDateInput : Telerik.Web.UI.RadInputControl 
+
+## Inheritance Hierarchy
+
+* [Telerik.Web.UI.RadInputControl]({%slug Telerik.Web.UI.RadInputControl%})
+* *[Telerik.Web.UI.RadDateInput]({%slug Telerik.Web.UI.RadDateInput%})*
 
 ## Methods
 

@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.RadAsyncUploadFileUploadingArguments
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadAsyncUploadFileUploadingArguments
 ---
 
 # Telerik.Web.UI.RadAsyncUploadFileUploadingArguments : Sys.CancelEventArgs 
+
+## Inheritance Hierarchy
+
+* Sys.CancelEventArgs
+* *[Telerik.Web.UI.RadAsyncUploadFileUploadingArguments]({%slug Telerik.Web.UI.RadAsyncUploadFileUploadingArguments%})*
 
 ## Methods
 

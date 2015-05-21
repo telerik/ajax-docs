@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.GridDataBindingEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.GridDataBindingEventArgs
 ---
 
 # Telerik.Web.UI.GridDataBindingEventArgs : Sys.CancelEventArgs 
+
+## Inheritance Hierarchy
+
+* Sys.CancelEventArgs
+* *[Telerik.Web.UI.GridDataBindingEventArgs]({%slug Telerik.Web.UI.GridDataBindingEventArgs%})*
 
 ## Methods
 

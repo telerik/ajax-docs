@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.GridDataSourceResolvedEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.GridDataSourceResolvedEventArgs
 ---
 
 # Telerik.Web.UI.GridDataSourceResolvedEventArgs : Sys.EventArgs 
+
+## Inheritance Hierarchy
+
+* Sys.EventArgs
+* *[Telerik.Web.UI.GridDataSourceResolvedEventArgs]({%slug Telerik.Web.UI.GridDataSourceResolvedEventArgs%})*
 
 ## Methods
 

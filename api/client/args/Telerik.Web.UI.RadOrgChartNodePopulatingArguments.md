@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.RadOrgChartNodePopulatingArguments
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadOrgChartNodePopulatingArguments
 ---
 
 # Telerik.Web.UI.RadOrgChartNodePopulatingArguments : Sys.CancelEventArgs 
+
+## Inheritance Hierarchy
+
+* Sys.CancelEventArgs
+* *[Telerik.Web.UI.RadOrgChartNodePopulatingArguments]({%slug Telerik.Web.UI.RadOrgChartNodePopulatingArguments%})*
 
 ## Methods
 

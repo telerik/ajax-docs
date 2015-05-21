@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.RadScheduler
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadScheduler
 ---
 
 # Telerik.Web.UI.RadScheduler : Telerik.Web.UI.RadWebControl 
+
+## Inheritance Hierarchy
+
+* [Telerik.Web.UI.RadWebControl]({%slug Telerik.Web.UI.RadWebControl%})
+* *[Telerik.Web.UI.RadScheduler]({%slug Telerik.Web.UI.RadScheduler%})*
 
 ## Methods
 

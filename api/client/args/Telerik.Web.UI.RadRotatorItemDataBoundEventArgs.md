@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.RadRotatorItemDataBoundEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadRotatorItemDataBoundEventArgs
 ---
 
 # Telerik.Web.UI.RadRotatorItemDataBoundEventArgs : Sys.EventArgs 
+
+## Inheritance Hierarchy
+
+* Sys.EventArgs
+* *[Telerik.Web.UI.RadRotatorItemDataBoundEventArgs]({%slug Telerik.Web.UI.RadRotatorItemDataBoundEventArgs%})*
 
 ## Methods
 

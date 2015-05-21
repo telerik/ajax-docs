@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.ListBoxTransferredEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.ListBoxTransferredEventArgs
 ---
 
 # Telerik.Web.UI.ListBoxTransferredEventArgs : Sys.EventArgs 
+
+## Inheritance Hierarchy
+
+* Sys.EventArgs
+* *[Telerik.Web.UI.ListBoxTransferredEventArgs]({%slug Telerik.Web.UI.ListBoxTransferredEventArgs%})*
 
 ## Methods
 

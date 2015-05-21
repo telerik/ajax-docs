@@ -3,9 +3,14 @@ title: Telerik.Web.UI.FileExplorerItem
 page_title: Client-side API Reference
 description: Client-side API Reference
 static: true
+slug: Telerik.Web.UI.FileExplorerItem
 ---
 
 # Telerik.Web.UI.FileExplorerItem  
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.FileExplorerItem]({%slug Telerik.Web.UI.FileExplorerItem%})*
 
 ## Methods
 

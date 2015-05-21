@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.GridDragDropCancelEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.GridDragDropCancelEventArgs
 ---
 
 # Telerik.Web.UI.GridDragDropCancelEventArgs : Sys.CancelEventArgs 
+
+## Inheritance Hierarchy
+
+* Sys.CancelEventArgs
+* *[Telerik.Web.UI.GridDragDropCancelEventArgs]({%slug Telerik.Web.UI.GridDragDropCancelEventArgs%})*
 
 ## Methods
 

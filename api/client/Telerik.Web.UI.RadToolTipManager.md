@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.RadToolTipManager
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadToolTipManager
 ---
 
 # Telerik.Web.UI.RadToolTipManager : Telerik.Web.UI.RadWebControl
+
+## Inheritance Hierarchy
+
+* [Telerik.Web.UI.RadWebControl]({%slug Telerik.Web.UI.RadWebControl%})
+* *[Telerik.Web.UI.RadToolTipManager]({%slug Telerik.Web.UI.RadToolTipManager%})*
 
 ## Methods
 

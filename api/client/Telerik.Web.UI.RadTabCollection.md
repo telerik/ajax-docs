@@ -3,9 +3,15 @@ title: Telerik.Web.UI.RadTabCollection
 page_title: Client-side API Reference
 description: Client-side API Reference
 static: true
+slug: Telerik.Web.UI.RadTabCollection
 ---
 
 # Telerik.Web.UI.RadTabCollection  : Telerik.Web.UI.ControlItemCollection<Telerik.Web.UI.RadTab>
+
+## Inheritance Hierarchy
+
+* [Telerik.Web.UI.ControlItemCollection]({%slug Telerik.Web.UI.ControlItemCollection%})
+* *[Telerik.Web.UI.RadTabCollection]({%slug Telerik.Web.UI.RadTabCollection%})*
 
 ## Methods
 

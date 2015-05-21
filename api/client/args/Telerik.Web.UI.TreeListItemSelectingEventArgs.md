@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.TreeListItemSelectingEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.TreeListItemSelectingEventArgs
 ---
 
 # Telerik.Web.UI.TreeListItemSelectingEventArgs : Sys.CancelEventArgs
+
+## Inheritance Hierarchy
+
+* Sys.CancelEventArgs
+* *[Telerik.Web.UI.TreeListItemSelectingEventArgs]({%slug Telerik.Web.UI.TreeListItemSelectingEventArgs%})*
 
 ## Methods
 

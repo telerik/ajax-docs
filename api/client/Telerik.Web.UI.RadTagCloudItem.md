@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.RadTagCloudItem
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadTagCloudItem
 ---
 
 # Telerik.Web.UI.RadTagCloudItem : Telerik.Web.UI.RadWebControl
+
+## Inheritance Hierarchy
+
+* [Telerik.Web.UI.RadWebControl]({%slug Telerik.Web.UI.RadWebControl%})
+* *[Telerik.Web.UI.RadTagCloudItem]({%slug Telerik.Web.UI.RadTagCloudItem%})*
 
 ## Methods
 

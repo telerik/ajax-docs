@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.ListBoxReorderedEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.ListBoxReorderedEventArgs
 ---
 
 # Telerik.Web.UI.ListBoxReorderedEventArgs : Sys.EventArgs 
+
+## Inheritance Hierarchy
+
+* Sys.EventArgs
+* *[Telerik.Web.UI.ListBoxReorderedEventArgs]({%slug Telerik.Web.UI.ListBoxReorderedEventArgs%})*
 
 ## Methods
 

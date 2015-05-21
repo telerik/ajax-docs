@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.GridColumnEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.GridColumnEventArgs
 ---
 
 # Telerik.Web.UI.GridColumnEventArgs : Sys.EventArgs 
+
+## Inheritance Hierarchy
+
+* Sys.EventArgs
+* *[Telerik.Web.UI.GridColumnEventArgs]({%slug Telerik.Web.UI.GridColumnEventArgs%})*
 
 ## Methods
 

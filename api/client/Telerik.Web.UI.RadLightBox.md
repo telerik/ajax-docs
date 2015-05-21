@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.RadLightBox
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadLightBox
 ---
 
 # Telerik.Web.UI.RadLightBox  
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.RadLightBox]({%slug Telerik.Web.UI.RadLightBox%})*
 
 ## Methods
 

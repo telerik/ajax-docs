@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.RadButtonCancelEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadButtonCancelEventArgs
 ---
 
 # Telerik.Web.UI.RadButtonCancelEventArgs : Sys.CancelEventArgs 
+
+## Inheritance Hierarchy
+
+* Sys.CancelEventArgs
+* *[Telerik.Web.UI.RadButtonCancelEventArgs]({%slug Telerik.Web.UI.RadButtonCancelEventArgs%})*
 
 ## Methods
 

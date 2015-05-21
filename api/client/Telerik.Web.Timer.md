@@ -2,9 +2,15 @@
 title: Telerik.Web.Timer
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.Timer
 ---
 
 # Telerik.Web.Timer : Sys.Component 
+
+## Inheritance Hierarchy
+
+* Sys.Component
+* *[Telerik.Web.Timer]({%slug Telerik.Web.Timer%})*
 
 ## Methods
 

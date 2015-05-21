@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.CloudUploadEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.CloudUploadEventArgs
 ---
 
 # Telerik.Web.UI.CloudUploadEventArgs : Sys.EventArgs 
+
+## Inheritance Hierarchy
+
+* Sys.EventArgs
+* *[Telerik.Web.UI.CloudUploadEventArgs]({%slug Telerik.Web.UI.CloudUploadEventArgs%})*
 
 ## Methods
 

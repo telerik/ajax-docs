@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.OrgChartNode
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.OrgChartNode
 ---
 
 # Telerik.Web.UI.OrgChartNode  
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.OrgChartNode]({%slug Telerik.Web.UI.OrgChartNode%})*
 
 ## Methods
 

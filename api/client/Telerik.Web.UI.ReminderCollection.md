@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.ReminderCollection
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.ReminderCollection
 ---
 
 # Telerik.Web.UI.ReminderCollection  
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.ReminderCollection]({%slug Telerik.Web.UI.ReminderCollection%})*
 
 ## Methods
 

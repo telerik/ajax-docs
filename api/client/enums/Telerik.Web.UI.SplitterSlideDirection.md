@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.SplitterSlideDirection
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.SplitterSlideDirection
 ---
 
 # enum Telerik.Web.UI.SplitterSlideDirection
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.SplitterSlideDirection]({%slug Telerik.Web.UI.SplitterSlideDirection%})*
 
 ## Fields
 

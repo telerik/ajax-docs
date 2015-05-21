@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.CalendarDayRenderEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.CalendarDayRenderEventArgs
 ---
 
 # Telerik.Web.UI.CalendarDayRenderEventArgs : Sys.EventArgs 
+
+## Inheritance Hierarchy
+
+* Sys.EventArgs
+* *[Telerik.Web.UI.CalendarDayRenderEventArgs]({%slug Telerik.Web.UI.CalendarDayRenderEventArgs%})*
 
 ## Methods
 

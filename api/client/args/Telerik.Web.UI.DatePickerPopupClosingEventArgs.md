@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.DatePickerPopupClosingEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.DatePickerPopupClosingEventArgs
 ---
 
 # Telerik.Web.UI.DatePickerPopupClosingEventArgs : Sys.CancelEventArgs 
+
+## Inheritance Hierarchy
+
+* Sys.CancelEventArgs
+* *[Telerik.Web.UI.DatePickerPopupClosingEventArgs]({%slug Telerik.Web.UI.DatePickerPopupClosingEventArgs%})*
 
 ## Methods
 

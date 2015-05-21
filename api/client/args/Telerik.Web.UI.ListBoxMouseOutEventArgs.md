@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.ListBoxMouseOutEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.ListBoxMouseOutEventArgs
 ---
 
 # Telerik.Web.UI.ListBoxMouseOutEventArgs : Sys.EventArgs 
+
+## Inheritance Hierarchy
+
+* Sys.EventArgs
+* *[Telerik.Web.UI.ListBoxMouseOutEventArgs]({%slug Telerik.Web.UI.ListBoxMouseOutEventArgs%})*
 
 ## Methods
 

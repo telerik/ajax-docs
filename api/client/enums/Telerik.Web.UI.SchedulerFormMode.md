@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.SchedulerFormMode
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.SchedulerFormMode
 ---
 
 # enum Telerik.Web.UI.SchedulerFormMode
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.SchedulerFormMode]({%slug Telerik.Web.UI.SchedulerFormMode%})*
 
 ## Fields
 

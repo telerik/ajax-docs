@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.Calendar.MonthYearFastNavigation
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.Calendar.MonthYearFastNavigation
 ---
 
 # Telerik.Web.UI.Calendar.MonthYearFastNavigation  
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.Calendar.MonthYearFastNavigation]({%slug Telerik.Web.UI.Calendar.MonthYearFastNavigation%})*
 
 ## Methods
 

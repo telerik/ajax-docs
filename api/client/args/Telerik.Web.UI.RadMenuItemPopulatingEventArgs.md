@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.RadMenuItemPopulatingEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadMenuItemPopulatingEventArgs
 ---
 
 # Telerik.Web.UI.RadMenuItemPopulatingEventArgs : Telerik.Web.UI.RadMenuItemCancelEventArgs
+
+## Inheritance Hierarchy
+
+* [Telerik.Web.UI.RadMenuItemCancelEventArgs]({%slug Telerik.Web.UI.RadMenuItemCancelEventArgs%})
+* *[Telerik.Web.UI.RadMenuItemPopulatingEventArgs]({%slug Telerik.Web.UI.RadMenuItemPopulatingEventArgs%})*
 
 ## Methods
 

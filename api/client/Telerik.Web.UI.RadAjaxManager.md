@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.RadAjaxManager
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadAjaxManager
 ---
 
 # Telerik.Web.UI.RadAjaxManager : Telerik.Web.UI.RadAjaxControl 
+
+## Inheritance Hierarchy
+
+* [Telerik.Web.UI.RadAjaxControl]({%slug Telerik.Web.UI.RadAjaxControl%})
+* *[Telerik.Web.UI.RadAjaxManager]({%slug Telerik.Web.UI.RadAjaxManager%})*
 
 ## Methods
 

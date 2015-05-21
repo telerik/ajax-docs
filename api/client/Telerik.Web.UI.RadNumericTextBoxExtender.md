@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.RadNumericTextBoxExtender
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadNumericTextBoxExtender
 ---
 
 # Telerik.Web.UI.RadNumericTextBoxExtender  
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.RadNumericTextBoxExtender]({%slug Telerik.Web.UI.RadNumericTextBoxExtender%})*
 
 ## Methods
 

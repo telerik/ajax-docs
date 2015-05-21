@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.RadWizard
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadWizard
 ---
 
 # Telerik.Web.UI.RadWizard : Telerik.Web.UI.RadWebControl 
+
+## Inheritance Hierarchy
+
+* [Telerik.Web.UI.RadWebControl]({%slug Telerik.Web.UI.RadWebControl%})
+* *[Telerik.Web.UI.RadWizard]({%slug Telerik.Web.UI.RadWizard%})*
 
 ## Events
 

@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.GridFilterExpressions
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.GridFilterExpressions
 ---
 
 # Telerik.Web.UI.GridFilterExpressions : Telerik.Web.UI.Collection 
+
+## Inheritance Hierarchy
+
+* [Telerik.Web.UI.Collection]({%slug Telerik.Web.UI.Collection%})
+* *[Telerik.Web.UI.GridFilterExpressions]({%slug Telerik.Web.UI.GridFilterExpressions%})*
 
 ## Methods
 

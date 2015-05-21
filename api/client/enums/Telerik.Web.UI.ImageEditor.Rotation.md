@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.ImageEditor.Rotation
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.ImageEditor.Rotation
 ---
 
 # enum Telerik.Web.UI.ImageEditor.Rotation
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.ImageEditor.Rotation]({%slug Telerik.Web.UI.ImageEditor.Rotation%})*
 
 ## Fields
 

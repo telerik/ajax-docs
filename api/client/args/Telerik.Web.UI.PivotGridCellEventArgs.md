@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.PivotGridCellEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.PivotGridCellEventArgs
 ---
 
 # Telerik.Web.UI.PivotGridCellEventArgs : Sys.EventArgs 
+
+## Inheritance Hierarchy
+
+* Sys.EventArgs
+* *[Telerik.Web.UI.PivotGridCellEventArgs]({%slug Telerik.Web.UI.PivotGridCellEventArgs%})*
 
 ## Methods
 

@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.EditorUpdateableDropDown
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.EditorUpdateableDropDown
 ---
 
 # Telerik.Web.UI.EditorUpdateableDropDown : Telerik.Web.UI.EditorDropDown
+
+## Inheritance Hierarchy
+
+* [Telerik.Web.UI.EditorDropDown]({%slug Telerik.Web.UI.EditorDropDown%})
+* *[Telerik.Web.UI.EditorUpdateableDropDown]({%slug Telerik.Web.UI.EditorUpdateableDropDown%})*
 
 ## Methods
 

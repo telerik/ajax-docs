@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.ODataDataSourceRequestingEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.ODataDataSourceRequestingEventArgs
 ---
 
 # Telerik.Web.UI.ODataDataSourceRequestingEventArgs : Sys.EventArgs 
+
+## Inheritance Hierarchy
+
+* Sys.EventArgs
+* *[Telerik.Web.UI.ODataDataSourceRequestingEventArgs]({%slug Telerik.Web.UI.ODataDataSourceRequestingEventArgs%})*
 
 ## Methods
 

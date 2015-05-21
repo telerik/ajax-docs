@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.RadWebControl
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadWebControl
 ---
 
 # Telerik.Web.UI.RadWebControl : Sys.UI.Control 
+
+## Inheritance Hierarchy
+
+* Sys.UI.Control
+* *[Telerik.Web.UI.RadWebControl]({%slug Telerik.Web.UI.RadWebControl%})*
 
 ## Methods
 

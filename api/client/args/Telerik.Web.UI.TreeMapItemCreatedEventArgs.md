@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.TreeMapItemCreatedEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.TreeMapItemCreatedEventArgs
 ---
 
 # Telerik.Web.UI.TreeMapItemCreatedEventArgs : Sys.EventArgs 
+
+## Inheritance Hierarchy
+
+* Sys.EventArgs
+* *[Telerik.Web.UI.TreeMapItemCreatedEventArgs]({%slug Telerik.Web.UI.TreeMapItemCreatedEventArgs%})*
 
 ## Methods
 

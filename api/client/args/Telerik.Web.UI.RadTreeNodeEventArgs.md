@@ -6,6 +6,11 @@ description: Client-side API Reference
 
 # Telerik.Web.UI.RadTreeNodeEventArgs : Sys.EventArgs
 
+## Inheritance Hierarchy
+
+* Sys.EventArgs
+* *[Telerik.Web.UI.RadTreeNodeEventArgs]({%slug Telerik.Web.UI.RadTreeNodeEventArgs%})*
+
 ## Methods
 
 ### get_node

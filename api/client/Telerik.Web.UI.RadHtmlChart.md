@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.RadHtmlChart
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadHtmlChart
 ---
 
 # Telerik.Web.UI.RadHtmlChart : Telerik.Web.UI.RadWebControl 
+
+## Inheritance Hierarchy
+
+* [Telerik.Web.UI.RadWebControl]({%slug Telerik.Web.UI.RadWebControl%})
+* *[Telerik.Web.UI.RadHtmlChart]({%slug Telerik.Web.UI.RadHtmlChart%})*
 
 ## Methods
 

@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.AutoCompleteBoxRequestedEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.AutoCompleteBoxRequestedEventArgs
 ---
 
 # Telerik.Web.UI.AutoCompleteBoxRequestedEventArgs : Sys.EventArgs
+
+## Inheritance Hierarchy
+
+* Sys.EventArgs
+* *[Telerik.Web.UI.AutoCompleteBoxRequestedEventArgs]({%slug Telerik.Web.UI.AutoCompleteBoxRequestedEventArgs%})*
 
 ## Methods
 

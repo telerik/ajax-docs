@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.DropDownListItemCollection
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.DropDownListItemCollection
 ---
 
 # Telerik.Web.UI.DropDownListItemCollection : Telerik.Web.UI.ControlItemCollection<Telerik.Web.UI.DropDownListItem>
+
+## Inheritance Hierarchy
+
+* [Telerik.Web.UI.ControlItemCollection]({%slug Telerik.Web.UI.ControlItemCollection%})
+* *[Telerik.Web.UI.DropDownListItemCollection]({%slug Telerik.Web.UI.DropDownListItemCollection%})*
 
 ## Methods
 

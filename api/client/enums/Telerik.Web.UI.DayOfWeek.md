@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.DayOfWeek
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.DayOfWeek
 ---
 
 # enum Telerik.Web.UI.DayOfWeek
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.DayOfWeek]({%slug Telerik.Web.UI.DayOfWeek%})*
 
 ## Fields
 

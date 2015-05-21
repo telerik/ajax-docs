@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.ToolTipScrolling
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.ToolTipScrolling
 ---
 
 # enum Telerik.Web.UI.ToolTipScrolling
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.ToolTipScrolling]({%slug Telerik.Web.UI.ToolTipScrolling%})*
 
 ## Fields
 

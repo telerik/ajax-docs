@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.RadDropDownList
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadDropDownList
 ---
 
 # Telerik.Web.UI.RadDropDownList : Telerik.Web.UI.ControlItemContainer 
+
+## Inheritance Hierarchy
+
+* [Telerik.Web.UI.ControlItemContainer]({%slug Telerik.Web.UI.ControlItemContainer%})
+* *[Telerik.Web.UI.RadDropDownList]({%slug Telerik.Web.UI.RadDropDownList%})*
 
 ## Methods
 

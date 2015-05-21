@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.Tile.PeekAnimationManager
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.Tile.PeekAnimationManager
 ---
 
 # Telerik.Web.UI.Tile.PeekAnimationManager  
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.Tile.PeekAnimationManager]({%slug Telerik.Web.UI.Tile.PeekAnimationManager%})*
 
 ## Methods
 

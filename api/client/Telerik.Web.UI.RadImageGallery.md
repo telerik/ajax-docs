@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.RadImageGalleryItem
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadImageGalleryItem
 ---
 
 # Telerik.Web.UI.RadImageGalleryItem
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.RadImageGalleryItem]({%slug Telerik.Web.UI.RadImageGalleryItem%})*
 
 ## Methods
 

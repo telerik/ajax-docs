@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.RadEditor
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadEditor
 ---
 
 # Telerik.Web.UI.RadEditor : Telerik.Web.UI.RadWebControl
+
+## Inheritance Hierarchy
+
+* [Telerik.Web.UI.RadWebControl]({%slug Telerik.Web.UI.RadWebControl%})
+* *[Telerik.Web.UI.RadEditor]({%slug Telerik.Web.UI.RadEditor%})*
 
 ## Methods
 

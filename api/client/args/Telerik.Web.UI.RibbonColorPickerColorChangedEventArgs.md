@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.RibbonColorPickerColorChangedEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RibbonColorPickerColorChangedEventArgs
 ---
 
 # Telerik.Web.UI.RibbonColorPickerColorChangedEventArgs
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.RibbonColorPickerColorChangedEventArgs]({%slug Telerik.Web.UI.RibbonColorPickerColorChangedEventArgs%})*
 
 ## Methods
 

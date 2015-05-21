@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.ImageEditorShortCut
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.ImageEditorShortCut
 ---
 
 # Telerik.Web.UI.ImageEditorShortCut  
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.ImageEditorShortCut]({%slug Telerik.Web.UI.ImageEditorShortCut%})*
 
 ## Methods
 

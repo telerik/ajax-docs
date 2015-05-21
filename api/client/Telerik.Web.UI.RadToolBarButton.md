@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.RadToolBarButton
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadToolBarButton
 ---
 
 # Telerik.Web.UI.RadToolBarButton : Telerik.Web.UI.RadToolBarItem 
+
+## Inheritance Hierarchy
+
+* [Telerik.Web.UI.RadToolBarItem]({%slug Telerik.Web.UI.RadToolBarItem%})
+* *[Telerik.Web.UI.RadToolBarButton]({%slug Telerik.Web.UI.RadToolBarButton%})*
 
 ## Methods
 

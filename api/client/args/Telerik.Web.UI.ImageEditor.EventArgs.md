@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.ImageEditor.EventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.ImageEditor.EventArgs
 ---
 
 # Telerik.Web.UI.ImageEditor.EventArgs : Sys.EventArgs 
+
+## Inheritance Hierarchy
+
+* Sys.EventArgs
+* *[Telerik.Web.UI.ImageEditor.EventArgs]({%slug Telerik.Web.UI.ImageEditor.EventArgs%})*
 
 ## Methods
 

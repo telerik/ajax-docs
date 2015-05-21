@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.RadToolTipManagerErrorEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadToolTipManagerErrorEventArgs
 ---
 
 # Telerik.Web.UI.RadToolTipManagerErrorEventArgs : Sys.EventArgs 
+
+## Inheritance Hierarchy
+
+* Sys.EventArgs
+* *[Telerik.Web.UI.RadToolTipManagerErrorEventArgs]({%slug Telerik.Web.UI.RadToolTipManagerErrorEventArgs%})*
 
 ## Methods
 

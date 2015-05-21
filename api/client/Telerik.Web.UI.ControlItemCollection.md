@@ -3,9 +3,14 @@ title: Telerik.Web.UI.ControlItemCollection
 page_title: Client-side API Reference
 description: Client-side API Reference
 generic: Telerik.Web.UI.ControlItem => TClass;
+slug: Telerik.Web.UI.ControlItemCollection
 ---
 
 # Telerik.Web.UI.ControlItemCollection<TClass extends Telerik.Web.UI.ControlItem>
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.ControlItemCollection]({%slug Telerik.Web.UI.ControlItemCollection%})*
 
 ## Methods
 

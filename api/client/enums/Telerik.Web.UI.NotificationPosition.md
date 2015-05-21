@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.NotificationPosition
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.NotificationPosition
 ---
 
 # enum Telerik.Web.UI.NotificationPosition
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.NotificationPosition]({%slug Telerik.Web.UI.NotificationPosition%})*
 
 ## Fields
 

@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.SliderTrackPosition
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.SliderTrackPosition
 ---
 
 # enum Telerik.Web.UI.SliderTrackPosition
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.SliderTrackPosition]({%slug Telerik.Web.UI.SliderTrackPosition%})*
 
 ## Fields
 

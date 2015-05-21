@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.ListBoxItemsRequestingEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.ListBoxItemsRequestingEventArgs
 ---
 
 # Telerik.Web.UI.ListBoxItemsRequestingEventArgs : Sys.CancelEventArgs 
+
+## Inheritance Hierarchy
+
+* Sys.CancelEventArgs
+* *[Telerik.Web.UI.ListBoxItemsRequestingEventArgs]({%slug Telerik.Web.UI.ListBoxItemsRequestingEventArgs%})*
 
 ## Methods
 

@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.RadAsyncUpload
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadAsyncUpload
 ---
 
 # Telerik.Web.UI.RadAsyncUpload : Telerik.Web.UI.RadWebControl
+
+## Inheritance Hierarchy
+
+* [Telerik.Web.UI.RadWebControl]({%slug Telerik.Web.UI.RadWebControl%})
+* *[Telerik.Web.UI.RadAsyncUpload]({%slug Telerik.Web.UI.RadAsyncUpload%})*
 
 ## Methods
 

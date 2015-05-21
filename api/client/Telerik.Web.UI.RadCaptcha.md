@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.RadCaptcha
 page_title: Client-side API Reference RadCaptcha Client-side API
 description: Client-side API Reference RadCaptcha Client-side API
+slug: Telerik.Web.UI.RadCaptcha
 ---
 
 # Telerik.Web.UI.RadCaptcha : Telerik.Web.UI.RadWebControl
+
+## Inheritance Hierarchy
+
+* [Telerik.Web.UI.RadWebControl]({%slug Telerik.Web.UI.RadWebControl%})
+* *[Telerik.Web.UI.RadCaptcha]({%slug Telerik.Web.UI.RadCaptcha%})*
 
 
 ##Events

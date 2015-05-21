@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.SliderEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.SliderEventArgs
 ---
 
 # Telerik.Web.UI.SliderEventArgs
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.SliderEventArgs]({%slug Telerik.Web.UI.SliderEventArgs%})*
 
 ## Methods
 

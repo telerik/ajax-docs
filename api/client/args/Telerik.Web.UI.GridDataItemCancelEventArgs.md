@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.GridDataItemCancelEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.GridDataItemCancelEventArgs
 ---
 
 # Telerik.Web.UI.GridDataItemCancelEventArgs : Sys.CancelEventArgs 
+
+## Inheritance Hierarchy
+
+* Sys.CancelEventArgs
+* *[Telerik.Web.UI.GridDataItemCancelEventArgs]({%slug Telerik.Web.UI.GridDataItemCancelEventArgs%})*
 
 ## Methods
 

@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.SocialDialogCancelEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.SocialDialogCancelEventArgs
 ---
 
 # Telerik.Web.UI.SocialDialogCancelEventArgs : Sys.CancelEventArgs 
+
+## Inheritance Hierarchy
+
+* Sys.CancelEventArgs
+* *[Telerik.Web.UI.SocialDialogCancelEventArgs]({%slug Telerik.Web.UI.SocialDialogCancelEventArgs%})*
 
 ## Methods
 

@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.RadMap
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadMap
 ---
 
 # Telerik.Web.UI.RadMapInitializeEventArgs : Sys.EventArgs
+
+## Inheritance Hierarchy
+
+* Sys.EventArgs
+* [Telerik.Web.UI.RadMapInitializeEventArgs]({%slug Telerik.Web.UI.RadMapInitializeEventArgs%})
 
 ## Methods
 

@@ -3,9 +3,14 @@ title: Telerik.Web.UI.RadSliderItem
 page_title: Client-side API Reference
 description: Client-side API Reference
 static: true
+slug: Telerik.Web.UI.RadSliderItem
 ---
 
 # Telerik.Web.UI.RadSliderItem  
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.RadSliderItem]({%slug Telerik.Web.UI.RadSliderItem%})*
 
 ## Methods
 

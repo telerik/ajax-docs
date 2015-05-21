@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.RadDockZone
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadDockZone
 ---
 
 # Telerik.Web.UI.RadDockZone : Telerik.Web.UI.RadWebControl 
+
+## Inheritance Hierarchy
+
+* [Telerik.Web.UI.RadWebControl]({%slug Telerik.Web.UI.RadWebControl%})
+* *[Telerik.Web.UI.RadDockZone]({%slug Telerik.Web.UI.RadDockZone%})*
 
 ## Methods
 

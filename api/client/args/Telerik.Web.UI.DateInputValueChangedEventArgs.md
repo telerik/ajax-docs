@@ -3,9 +3,14 @@ title: Telerik.Web.UI.DateInputValueChangedEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
 static: true
+slug: Telerik.Web.UI.DateInputValueChangedEventArgs
 ---
 
 # Telerik.Web.UI.DateInputValueChangedEventArgs  
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.DateInputValueChangedEventArgs]({%slug Telerik.Web.UI.DateInputValueChangedEventArgs%})*
 
 ## Methods
 

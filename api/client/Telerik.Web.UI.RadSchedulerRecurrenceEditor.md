@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.RadSchedulerRecurrenceEditor
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadSchedulerRecurrenceEditor
 ---
 
 # Telerik.Web.UI.RadSchedulerRecurrenceEditor : Telerik.Web.UI.RadWebControl
+
+## Inheritance Hierarchy
+
+* [Telerik.Web.UI.RadWebControl]({%slug Telerik.Web.UI.RadWebControl%})
+* *[Telerik.Web.UI.RadSchedulerRecurrenceEditor]({%slug Telerik.Web.UI.RadSchedulerRecurrenceEditor%})*
 
 ## Methods
 

@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.RadImageTile
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadImageTile
 ---
 
 # Telerik.Web.UI.RadImageTile : Telerik.Web.UI.RadBaseTile 
+
+## Inheritance Hierarchy
+
+* [Telerik.Web.UI.RadBaseTile]({%slug Telerik.Web.UI.RadBaseTile%})
+* *[Telerik.Web.UI.RadImageTile]({%slug Telerik.Web.UI.RadImageTile%})*
 
 ## Methods
 

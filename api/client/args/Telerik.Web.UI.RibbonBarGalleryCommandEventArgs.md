@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.RibbonBarGalleryCommandEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RibbonBarGalleryCommandEventArgs
 ---
 
 # Telerik.Web.UI.RibbonBarGalleryCommandEventArgs
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.RibbonBarGalleryCommandEventArgs]({%slug Telerik.Web.UI.RibbonBarGalleryCommandEventArgs%})*
 
 ## Methods
 

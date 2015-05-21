@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.ImageEditor.ImageChangeEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.ImageEditor.ImageChangeEventArgs
 ---
 
 # Telerik.Web.UI.ImageEditor.ImageChangeEventArgs : Telerik.Web.UI.ImageEditor.EventArgs 
+
+## Inheritance Hierarchy
+
+* [Telerik.Web.UI.ImageEditor.EventArgs]({%slug Telerik.Web.UI.ImageEditor.EventArgs%})
+* *[Telerik.Web.UI.ImageEditor.ImageChangeEventArgs]({%slug Telerik.Web.UI.ImageEditor.ImageChangeEventArgs%})*
 
 ## Methods
 

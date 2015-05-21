@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.RadRibbonBar
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadRibbonBar
 ---
 
 # Telerik.Web.UI.RadRibbonBar : Telerik.Web.UI.RadWebControl 
+
+## Inheritance Hierarchy
+
+* [Telerik.Web.UI.RadWebControl]({%slug Telerik.Web.UI.RadWebControl%})
+* *[Telerik.Web.UI.RadRibbonBar]({%slug Telerik.Web.UI.RadRibbonBar%})*
 
 ## Methods
 

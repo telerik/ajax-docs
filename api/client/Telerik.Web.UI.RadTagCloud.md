@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.RadTagCloud
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadTagCloud
 ---
 
 # Telerik.Web.UI.RadTagCloud : Telerik.Web.UI.RadWebControl
+
+## Inheritance Hierarchy
+
+* [Telerik.Web.UI.RadWebControl]({%slug Telerik.Web.UI.RadWebControl%})
+* *[Telerik.Web.UI.RadTagCloud]({%slug Telerik.Web.UI.RadTagCloud%})*
 
 ## Methods
 

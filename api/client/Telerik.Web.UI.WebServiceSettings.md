@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.WebServiceSettings
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.WebServiceSettings
 ---
 
 # Telerik.Web.UI.WebServiceSettings  
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.WebServiceSettings]({%slug Telerik.Web.UI.WebServiceSettings%})*
 
 ## Methods
 

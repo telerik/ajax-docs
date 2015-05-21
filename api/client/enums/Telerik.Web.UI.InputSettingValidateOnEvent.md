@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.InputSettingValidateOnEvent
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.InputSettingValidateOnEvent
 ---
 
 # enum Telerik.Web.UI.InputSettingValidateOnEvent
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.InputSettingValidateOnEvent]({%slug Telerik.Web.UI.InputSettingValidateOnEvent%})*
 
 ## Fields
 

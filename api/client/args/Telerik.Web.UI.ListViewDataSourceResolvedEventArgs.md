@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.ListViewDataSourceResolvedEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.ListViewDataSourceResolvedEventArgs
 ---
 
 # Telerik.Web.UI.ListViewDataSourceResolvedEventArgs : Sys.EventArgs
+
+## Inheritance Hierarchy
+
+* Sys.EventArgs
+* *[Telerik.Web.UI.ListViewDataSourceResolvedEventArgs]({%slug Telerik.Web.UI.ListViewDataSourceResolvedEventArgs%})*
 
 ## Methods
 

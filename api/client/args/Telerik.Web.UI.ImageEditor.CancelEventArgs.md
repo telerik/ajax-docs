@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.ImageEditor.CancelEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.ImageEditor.CancelEventArgs
 ---
 
 # Telerik.Web.UI.ImageEditor.CancelEventArgs : Sys.CancelEventArgs 
+
+## Inheritance Hierarchy
+
+* Sys.CancelEventArgs
+* *[Telerik.Web.UI.ImageEditor.CancelEventArgs]({%slug Telerik.Web.UI.ImageEditor.CancelEventArgs%})*
 
 ## Methods
 

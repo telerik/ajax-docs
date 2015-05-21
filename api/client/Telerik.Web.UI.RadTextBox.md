@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.RadTextBox
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadTextBox
 ---
 
 # Telerik.Web.UI.RadTextBox : Telerik.Web.UI.RadInputControl 
+
+## Inheritance Hierarchy
+
+* [Telerik.Web.UI.RadInputControl]({%slug Telerik.Web.UI.RadInputControl%})
+* *[Telerik.Web.UI.RadTextBox]({%slug Telerik.Web.UI.RadTextBox%})*
 
 ## Methods
 

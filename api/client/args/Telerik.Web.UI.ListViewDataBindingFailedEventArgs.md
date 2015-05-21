@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.ListViewDataBindingFailedEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.ListViewDataBindingFailedEventArgs
 ---
 
 # Telerik.Web.UI.ListViewDataBindingFailedEventArgs : Sys.EventArgs
+
+## Inheritance Hierarchy
+
+* Sys.EventArgs
+* *[Telerik.Web.UI.ListViewDataBindingFailedEventArgs]({%slug Telerik.Web.UI.ListViewDataBindingFailedEventArgs%})*
 
 ## Methods
 

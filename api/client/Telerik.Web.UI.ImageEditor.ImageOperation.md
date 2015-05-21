@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.ImageEditor.ImageOperation
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.ImageEditor.ImageOperation
 ---
 
 # Telerik.Web.UI.ImageEditor.ImageOperation  
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.ImageEditor.ImageOperation]({%slug Telerik.Web.UI.ImageEditor.ImageOperation%})*
 
 ## Methods
 

@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.RadSlidingPane
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadSlidingPane
 ---
 
 # Telerik.Web.UI.RadSlidingPane : Telerik.Web.UI.SplitterPaneBase 
+
+## Inheritance Hierarchy
+
+* [Telerik.Web.UI.SplitterPaneBase]({%slug Telerik.Web.UI.SplitterPaneBase%})
+* *[Telerik.Web.UI.RadSlidingPane]({%slug Telerik.Web.UI.RadSlidingPane%})*
 
 ## Methods
 

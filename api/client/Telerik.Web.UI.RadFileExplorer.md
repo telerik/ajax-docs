@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.RadFileExplorer
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadFileExplorer
 ---
 
 # Telerik.Web.UI.RadFileExplorer : Telerik.Web.UI.RadWebControl
+
+## Inheritance Hierarchy
+
+* [Telerik.Web.UI.RadWebControl]({%slug Telerik.Web.UI.RadWebControl%})
+* *[Telerik.Web.UI.RadFileExplorer]({%slug Telerik.Web.UI.RadFileExplorer%})*
 
 ## Methods
 

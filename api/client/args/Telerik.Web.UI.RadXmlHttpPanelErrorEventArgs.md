@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.RadXmlHttpPanelErrorEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadXmlHttpPanelErrorEventArgs
 ---
 
 # Telerik.Web.UI.RadXmlHttpPanelErrorEventArgs : Sys.EventArgs 
+
+## Inheritance Hierarchy
+
+* Sys.EventArgs
+* *[Telerik.Web.UI.RadXmlHttpPanelErrorEventArgs]({%slug Telerik.Web.UI.RadXmlHttpPanelErrorEventArgs%})*
 
 ## Methods
 

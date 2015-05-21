@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.TreeListColumnResizingEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.TreeListColumnResizingEventArgs
 ---
 
 # Telerik.Web.UI.TreeListColumnResizingEventArgs : Sys.CancelEventArgs
+
+## Inheritance Hierarchy
+
+* Sys.CancelEventArgs
+* *[Telerik.Web.UI.TreeListColumnResizingEventArgs]({%slug Telerik.Web.UI.TreeListColumnResizingEventArgs%})*
 
 ## Methods
 

@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.EditingOptions
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.EditingOptions
 ---
 
 # enum Telerik.Web.UI.EditingOptions
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.EditingOptions]({%slug Telerik.Web.UI.EditingOptions%})*
 
 ## Fields
 

@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.ListBoxMouseOverEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.ListBoxMouseOverEventArgs
 ---
 
 # Telerik.Web.UI.ListBoxMouseOverEventArgs : Sys.EventArgs 
+
+## Inheritance Hierarchy
+
+* Sys.EventArgs
+* *[Telerik.Web.UI.ListBoxMouseOverEventArgs]({%slug Telerik.Web.UI.ListBoxMouseOverEventArgs%})*
 
 ## Methods
 

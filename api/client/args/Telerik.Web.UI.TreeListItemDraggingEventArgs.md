@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.TreeListItemDraggingEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.TreeListItemDraggingEventArgs
 ---
 
 # Telerik.Web.UI.TreeListItemDraggingEventArgs : Sys.EventArgs
+
+## Inheritance Hierarchy
+
+* Sys.EventArgs
+* *[Telerik.Web.UI.TreeListItemDraggingEventArgs]({%slug Telerik.Web.UI.TreeListItemDraggingEventArgs%})*
 
 ## Methods
 

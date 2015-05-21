@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.RadProgressArea
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadProgressArea
 ---
 
 # Telerik.Web.UI.RadProgressArea : Telerik.Web.UI.RadWebControl
+
+## Inheritance Hierarchy
+
+* [Telerik.Web.UI.RadWebControl]({%slug Telerik.Web.UI.RadWebControl%})
+* *[Telerik.Web.UI.RadProgressArea]({%slug Telerik.Web.UI.RadProgressArea%})*
 
 ## Methods
 

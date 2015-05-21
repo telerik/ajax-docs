@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.RadInputComponent
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadInputComponent
 ---
 
 # Telerik.Web.UI.RadInputComponent : Sys.Component 
+
+## Inheritance Hierarchy
+
+* Sys.Component
+* *[Telerik.Web.UI.RadInputComponent]({%slug Telerik.Web.UI.RadInputComponent%})*
 
 ## Methods
 

@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.RibbonBarGroup
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RibbonBarGroup
 ---
 
 # Telerik.Web.UI.RibbonBarGroup : Telerik.Web.UI.RibbonBarChild 
+
+## Inheritance Hierarchy
+
+* [Telerik.Web.UI.RibbonBarChild]({%slug Telerik.Web.UI.RibbonBarChild%})
+* *[Telerik.Web.UI.RibbonBarGroup]({%slug Telerik.Web.UI.RibbonBarGroup%})*
 
 ## Methods
 

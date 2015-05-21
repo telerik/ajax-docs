@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.WindowAutoSizeBehaviors
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.WindowAutoSizeBehaviors
 ---
 
 # enum Telerik.Web.UI.WindowAutoSizeBehaviors
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.WindowAutoSizeBehaviors]({%slug Telerik.Web.UI.WindowAutoSizeBehaviors%})*
 
 ## Fields
 

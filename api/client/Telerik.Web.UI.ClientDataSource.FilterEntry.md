@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.ClientDataSource.FilterEntry
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.ClientDataSource.FilterEntry
 ---
 
 # Telerik.Web.UI.ClientDataSource.FilterEntry  
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.ClientDataSource.FilterEntry]({%slug Telerik.Web.UI.ClientDataSource.FilterEntry%})*
 
 ## Methods
 

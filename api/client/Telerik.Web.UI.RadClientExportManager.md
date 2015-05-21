@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.RadClientExportManager
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadClientExportManager
 ---
 
 # Telerik.Web.UI.RadClientExportManager : Telerik.Web.UI.RadWebControl 
+
+## Inheritance Hierarchy
+
+* [Telerik.Web.UI.RadWebControl]({%slug Telerik.Web.UI.RadWebControl%})
+* *[Telerik.Web.UI.RadClientExportManager]({%slug Telerik.Web.UI.RadClientExportManager%})*
 
 ## Events
 

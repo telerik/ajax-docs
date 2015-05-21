@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.Editor.FiltersManager
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.Editor.FiltersManager
 ---
 
 # Telerik.Web.UI.Editor.FiltersManager : Sys.Component 
+
+## Inheritance Hierarchy
+
+* Sys.Component
+* *[Telerik.Web.UI.Editor.FiltersManager]({%slug Telerik.Web.UI.Editor.FiltersManager%})*
 
 ## Methods
 

@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.TreeListItemDragStartedEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.TreeListItemDragStartedEventArgs
 ---
 
 # Telerik.Web.UI.TreeListItemDragStartedEventArgs : Sys.CancelEventArgs
+
+## Inheritance Hierarchy
+
+* Sys.CancelEventArgs
+* *[Telerik.Web.UI.TreeListItemDragStartedEventArgs]({%slug Telerik.Web.UI.TreeListItemDragStartedEventArgs%})*
 
 ## Methods
 

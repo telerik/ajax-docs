@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.RibbonBarButtonToggledEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RibbonBarButtonToggledEventArgs
 ---
 
 # Telerik.Web.UI.RibbonBarButtonToggledEventArgs
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.RibbonBarButtonToggledEventArgs]({%slug Telerik.Web.UI.RibbonBarButtonToggledEventArgs%})*
 
 ## Methods
 

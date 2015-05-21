@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.RatingPrecision
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RatingPrecision
 ---
 
 # enum Telerik.Web.UI.RatingPrecision
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.RatingPrecision]({%slug Telerik.Web.UI.RatingPrecision%})*
 
 ## Fields
 

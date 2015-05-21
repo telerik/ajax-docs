@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.InputValueChangingEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.InputValueChangingEventArgs
 ---
 
 # Telerik.Web.UI.InputValueChangingEventArgs : Telerik.Web.UI.InputValueChangedEventArgs 
+
+## Inheritance Hierarchy
+
+* [Telerik.Web.UI.InputValueChangedEventArgs]({%slug Telerik.Web.UI.InputValueChangedEventArgs%})
+* *[Telerik.Web.UI.InputValueChangingEventArgs]({%slug Telerik.Web.UI.InputValueChangingEventArgs%})*
 
 ## Methods
 

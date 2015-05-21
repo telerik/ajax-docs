@@ -3,9 +3,14 @@ title: Telerik.Web.CommonScripts
 page_title: Client-side API Reference
 description: Client-side API Reference
 static: true
+slug: Telerik.Web.CommonScripts
 ---
 
 # Telerik.Web.CommonScripts  
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.CommonScripts]({%slug Telerik.Web.CommonScripts%})*
 
 ## Methods
 

@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.ButtonToggleType
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.ButtonToggleType
 ---
 
 # enum Telerik.Web.UI.ButtonToggleType
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.ButtonToggleType]({%slug Telerik.Web.UI.ButtonToggleType%})*
 
 ## Fields
 

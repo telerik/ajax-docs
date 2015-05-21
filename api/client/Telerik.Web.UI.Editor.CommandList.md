@@ -3,9 +3,14 @@ title: Telerik.Web.UI.Editor.CommandList
 page_title: Client-side API Reference
 description: Client-side API Reference
 static: true
+slug: Telerik.Web.UI.Editor.CommandList
 ---
 
 # Telerik.Web.UI.Editor.CommandList
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.Editor.CommandList]({%slug Telerik.Web.UI.Editor.CommandList%})*
 
 ## Methods
 

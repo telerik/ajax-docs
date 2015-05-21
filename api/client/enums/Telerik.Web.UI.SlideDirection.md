@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.SlideDirection
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.SlideDirection
 ---
 
 # enum Telerik.Web.UI.SlideDirection
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.SlideDirection]({%slug Telerik.Web.UI.SlideDirection%})*
 
 ## Fields
 

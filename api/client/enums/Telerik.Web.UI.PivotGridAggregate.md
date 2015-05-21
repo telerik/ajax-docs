@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.PivotGridAggregate
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.PivotGridAggregate
 ---
 
 # enum Telerik.Web.UI.PivotGridAggregate
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.PivotGridAggregate]({%slug Telerik.Web.UI.PivotGridAggregate%})*
 
 ## Fields
 

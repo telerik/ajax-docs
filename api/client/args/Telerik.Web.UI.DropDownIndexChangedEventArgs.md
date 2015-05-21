@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.DropDownListIndexChangedEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.DropDownListIndexChangedEventArgs
 ---
 
 # Telerik.Web.UI.DropDownListIndexChangedEventArgs : Sys.EventArgs 
+
+## Inheritance Hierarchy
+
+* Sys.EventArgs
+* *[Telerik.Web.UI.DropDownListIndexChangedEventArgs]({%slug Telerik.Web.UI.DropDownListIndexChangedEventArgs%})*
 
 ## Methods
 

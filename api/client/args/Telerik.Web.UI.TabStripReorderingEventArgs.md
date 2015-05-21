@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.TabStripReorderedEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.TabStripReorderedEventArgs
 ---
 
 # Telerik.Web.UI.TabStripReorderingEventArgs : Telerik.Web.UI.RadTabStripCancelEventArgs
+
+## Inheritance Hierarchy
+
+* [Telerik.Web.UI.RadTabStripCancelEventArgs]({%slug Telerik.Web.UI.RadTabStripCancelEventArgs%})
+* [Telerik.Web.UI.TabStripReorderingEventArgs]({%slug Telerik.Web.UI.TabStripReorderingEventArgs%})
 
 ## Methods
 

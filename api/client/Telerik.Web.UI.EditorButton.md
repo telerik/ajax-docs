@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.EditorButton
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.EditorButton
 ---
 
 # Telerik.Web.UI.EditorButton : Sys.UI.Control 
+
+## Inheritance Hierarchy
+
+* Sys.UI.Control
+* *[Telerik.Web.UI.EditorButton]({%slug Telerik.Web.UI.EditorButton%})*
 
 ## Methods
 

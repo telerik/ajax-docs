@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.FileExplorer.FileListItemDraggingEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.FileExplorer.FileListItemDraggingEventArgs
 ---
 
 # Telerik.Web.UI.FileExplorer.FileListItemDraggingEventArgs : Sys.EventArgs 
+
+## Inheritance Hierarchy
+
+* Sys.EventArgs
+* *[Telerik.Web.UI.FileExplorer.FileListItemDraggingEventArgs]({%slug Telerik.Web.UI.FileExplorer.FileListItemDraggingEventArgs%})*
 
 ## Methods
 

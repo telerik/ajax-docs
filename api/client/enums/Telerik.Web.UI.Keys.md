@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.Keys
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.Keys
 ---
 
 # enum Telerik.Web.UI.Keys
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.Keys]({%slug Telerik.Web.UI.Keys%})*
 
 ## Fields
 

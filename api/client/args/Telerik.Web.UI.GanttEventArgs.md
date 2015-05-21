@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.GanttEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.GanttEventArgs
 ---
 
 # Telerik.Web.UI.GanttEventArgs : Sys.EventArgs 
+
+## Inheritance Hierarchy
+
+* Sys.EventArgs
+* *[Telerik.Web.UI.GanttEventArgs]({%slug Telerik.Web.UI.GanttEventArgs%})*
 
 ## Methods
 

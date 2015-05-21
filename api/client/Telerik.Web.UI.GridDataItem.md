@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.GridDataItem
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.GridDataItem
 ---
 
 # Telerik.Web.UI.GridDataItem : Sys.UI.Control 
+
+## Inheritance Hierarchy
+
+* Sys.UI.Control
+* *[Telerik.Web.UI.GridDataItem]({%slug Telerik.Web.UI.GridDataItem%})*
 
 ## Methods
 

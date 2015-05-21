@@ -2,9 +2,15 @@
 title: TTelerik.Web.UI.GanttNavigationCommandEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: TTelerik.Web.UI.GanttNavigationCommandEventArgs
 ---
 
 # Telerik.Web.UI.GanttNavigationCommandEventArgs: Sys.CancelEventArgs
+
+## Inheritance Hierarchy
+
+* Sys.CancelEventArgs
+* [Telerik.Web.UI.GanttNavigationCommandEventArgs]({%slug Telerik.Web.UI.GanttNavigationCommandEventArgs%})
 
 ## Methods
 

@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.RadPanelItemCollection
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadPanelItemCollection
 ---
 
 # Telerik.Web.UI.RadPanelItemCollection : Telerik.Web.UI.ControlItemCollection<Telerik.Web.UI.RadPanelItem>
+
+## Inheritance Hierarchy
+
+* [Telerik.Web.UI.ControlItemCollection]({%slug Telerik.Web.UI.ControlItemCollection%})
+* *[Telerik.Web.UI.RadPanelItemCollection]({%slug Telerik.Web.UI.RadPanelItemCollection%})*
 
 ## Methods
 

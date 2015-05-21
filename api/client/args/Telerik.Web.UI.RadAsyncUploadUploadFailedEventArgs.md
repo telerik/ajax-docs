@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.RadAsyncUploadUploadFailedEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadAsyncUploadUploadFailedEventArgs
 ---
 
 # Telerik.Web.UI.RadAsyncUploadUploadFailedEventArgs 
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.RadAsyncUploadUploadFailedEventArgs]({%slug Telerik.Web.UI.RadAsyncUploadUploadFailedEventArgs%})*
 
 ## Methods
 

@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.DockCommand
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.DockCommand
 ---
 
 # Telerik.Web.UI.DockCommand : Sys.UI.Control 
+
+## Inheritance Hierarchy
+
+* Sys.UI.Control
+* *[Telerik.Web.UI.DockCommand]({%slug Telerik.Web.UI.DockCommand%})*
 
 ## Methods
 

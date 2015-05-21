@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.RadAsyncUploadFileSelectedEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadAsyncUploadFileSelectedEventArgs
 ---
 
 # Telerik.Web.UI.RadAsyncUploadFileSelectedEventArgs : Telerik.Web.UI.RadAsyncUploadEventArgs
+
+## Inheritance Hierarchy
+
+* [Telerik.Web.UI.RadAsyncUploadEventArgs]({%slug Telerik.Web.UI.RadAsyncUploadEventArgs%})
+* *[Telerik.Web.UI.RadAsyncUploadFileSelectedEventArgs]({%slug Telerik.Web.UI.RadAsyncUploadFileSelectedEventArgs%})*
 
 ## Methods
 

@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.RadFileExplorerCopyEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadFileExplorerCopyEventArgs
 ---
 
 # Telerik.Web.UI.RadFileExplorerCopyEventArgs : Sys.CancelEventArgs 
+
+## Inheritance Hierarchy
+
+* Sys.CancelEventArgs
+* *[Telerik.Web.UI.RadFileExplorerCopyEventArgs]({%slug Telerik.Web.UI.RadFileExplorerCopyEventArgs%})*
 
 ## Methods
 

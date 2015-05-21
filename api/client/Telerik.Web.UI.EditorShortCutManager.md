@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.EditorShortCutManager
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.EditorShortCutManager
 ---
 
 # Telerik.Web.UI.EditorShortCutManager
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.EditorShortCutManager]({%slug Telerik.Web.UI.EditorShortCutManager%})*
 
 ## Methods
 

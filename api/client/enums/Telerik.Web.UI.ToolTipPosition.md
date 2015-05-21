@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.ToolTipPosition
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.ToolTipPosition
 ---
 
 # enum Telerik.Web.UI.ToolTipPosition
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.ToolTipPosition]({%slug Telerik.Web.UI.ToolTipPosition%})*
 
 ## Fields
 

@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.NotificationAnimation
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.NotificationAnimation
 ---
 
 # enum Telerik.Web.UI.NotificationAnimation
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.NotificationAnimation]({%slug Telerik.Web.UI.NotificationAnimation%})*
 
 ## Fields
 

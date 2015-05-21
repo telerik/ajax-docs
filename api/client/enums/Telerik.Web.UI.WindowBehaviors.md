@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.WindowBehaviors
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.WindowBehaviors
 ---
 
 # enum Telerik.Web.UI.WindowBehaviors
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.WindowBehaviors]({%slug Telerik.Web.UI.WindowBehaviors%})*
 
 ## Fields
 

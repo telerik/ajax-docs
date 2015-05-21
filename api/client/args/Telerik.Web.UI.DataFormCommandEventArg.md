@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.DataFormCommandEventArg
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.DataFormCommandEventArg
 ---
 
 # Telerik.Web.UI.DataFormCommandEventArg : Sys.CancelEventArgs 
+
+## Inheritance Hierarchy
+
+* Sys.CancelEventArgs
+* *[Telerik.Web.UI.DataFormCommandEventArg]({%slug Telerik.Web.UI.DataFormCommandEventArg%})*
 
 ## Methods
 

@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.GridFilterMenuShowingEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.GridFilterMenuShowingEventArgs
 ---
 
 # Telerik.Web.UI.GridFilterMenuShowingEventArgs : Sys.CancelEventArgs 
+
+## Inheritance Hierarchy
+
+* Sys.CancelEventArgs
+* *[Telerik.Web.UI.GridFilterMenuShowingEventArgs]({%slug Telerik.Web.UI.GridFilterMenuShowingEventArgs%})*
 
 ## Methods
 

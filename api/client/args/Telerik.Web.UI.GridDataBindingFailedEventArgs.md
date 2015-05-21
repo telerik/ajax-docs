@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.GridDataBindingFailedEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.GridDataBindingFailedEventArgs
 ---
 
 # Telerik.Web.UI.GridDataBindingFailedEventArgs : Sys.EventArgs 
+
+## Inheritance Hierarchy
+
+* Sys.EventArgs
+* *[Telerik.Web.UI.GridDataBindingFailedEventArgs]({%slug Telerik.Web.UI.GridDataBindingFailedEventArgs%})*
 
 ## Methods
 

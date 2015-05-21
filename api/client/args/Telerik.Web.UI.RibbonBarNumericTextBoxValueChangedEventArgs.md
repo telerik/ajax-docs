@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.RibbonBarNumericTextBoxValueChangedEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RibbonBarNumericTextBoxValueChangedEventArgs
 ---
 
 # Telerik.Web.UI.RibbonBarNumericTextBoxValueChangedEventArgs
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.RibbonBarNumericTextBoxValueChangedEventArgs]({%slug Telerik.Web.UI.RibbonBarNumericTextBoxValueChangedEventArgs%})*
 
 ## Methods
 

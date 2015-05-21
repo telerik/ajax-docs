@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.SchedulerTimeSlotContextMenuEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.SchedulerTimeSlotContextMenuEventArgs
 ---
 
 # Telerik.Web.UI.SchedulerTimeSlotContextMenuEventArgs : Sys.EventArgs
+
+## Inheritance Hierarchy
+
+* Sys.EventArgs
+* *[Telerik.Web.UI.SchedulerTimeSlotContextMenuEventArgs]({%slug Telerik.Web.UI.SchedulerTimeSlotContextMenuEventArgs%})*
 
 ## Methods
 

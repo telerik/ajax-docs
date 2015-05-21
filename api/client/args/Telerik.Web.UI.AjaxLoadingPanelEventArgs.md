@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.AjaxLoadingPanelEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.AjaxLoadingPanelEventArgs
 ---
 
 # Telerik.Web.UI.AjaxLoadingPanelEventArgs : Sys.EventArgs 
+
+## Inheritance Hierarchy
+
+* Sys.EventArgs
+* *[Telerik.Web.UI.AjaxLoadingPanelEventArgs]({%slug Telerik.Web.UI.AjaxLoadingPanelEventArgs%})*
 
 ## Methods
 

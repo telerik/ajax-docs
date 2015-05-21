@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.NotificationScrolling
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.NotificationScrolling
 ---
 
 # enum Telerik.Web.UI.NotificationScrolling
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.NotificationScrolling]({%slug Telerik.Web.UI.NotificationScrolling%})*
 
 ## Fields
 

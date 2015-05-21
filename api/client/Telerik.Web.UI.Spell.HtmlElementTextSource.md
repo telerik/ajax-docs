@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.Spell.HtmlElementTextSource
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.Spell.HtmlElementTextSource
 ---
 
 # Telerik.Web.UI.Spell.HtmlElementTextSource : Sys.UI.Control 
+
+## Inheritance Hierarchy
+
+* Sys.UI.Control
+* *[Telerik.Web.UI.Spell.HtmlElementTextSource]({%slug Telerik.Web.UI.Spell.HtmlElementTextSource%})*
 
 ## Methods
 

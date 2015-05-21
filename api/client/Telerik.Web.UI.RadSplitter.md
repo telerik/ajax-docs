@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.RadSplitter
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadSplitter
 ---
 
 # Telerik.Web.UI.RadSplitter : Telerik.Web.UI.RadWebControl
+
+## Inheritance Hierarchy
+
+* [Telerik.Web.UI.RadWebControl]({%slug Telerik.Web.UI.RadWebControl%})
+* *[Telerik.Web.UI.RadSplitter]({%slug Telerik.Web.UI.RadSplitter%})*
 
 ## Methods
 

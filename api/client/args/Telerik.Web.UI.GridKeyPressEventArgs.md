@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.GridKeyPressEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.GridKeyPressEventArgs
 ---
 
 # Telerik.Web.UI.GridKeyPressEventArgs : Sys.CancelEventArgs 
+
+## Inheritance Hierarchy
+
+* Sys.CancelEventArgs
+* *[Telerik.Web.UI.GridKeyPressEventArgs]({%slug Telerik.Web.UI.GridKeyPressEventArgs%})*
 
 ## Methods
 

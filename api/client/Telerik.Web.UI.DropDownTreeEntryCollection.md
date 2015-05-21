@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.DropDownTreeEntryCollection
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.DropDownTreeEntryCollection
 ---
 
 # Telerik.Web.UI.DropDownTreeEntryCollection  
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.DropDownTreeEntryCollection]({%slug Telerik.Web.UI.DropDownTreeEntryCollection%})*
 
 ## Methods
 

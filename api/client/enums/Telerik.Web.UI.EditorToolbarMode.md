@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.EditorToolbarMode
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.EditorToolbarMode
 ---
 
 # enum Telerik.Web.UI.EditorToolbarMode
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.EditorToolbarMode]({%slug Telerik.Web.UI.EditorToolbarMode%})*
 
 ## Fields
 

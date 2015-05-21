@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.RadDateTimePicker
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadDateTimePicker
 ---
 
 # Telerik.Web.UI.RadDateTimePicker : Telerik.Web.UI.RadDatePicker 
+
+## Inheritance Hierarchy
+
+* [Telerik.Web.UI.RadDatePicker]({%slug Telerik.Web.UI.RadDatePicker%})
+* *[Telerik.Web.UI.RadDateTimePicker]({%slug Telerik.Web.UI.RadDateTimePicker%})*
 
 ## Methods
 

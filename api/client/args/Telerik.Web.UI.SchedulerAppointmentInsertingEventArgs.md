@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.SchedulerAppointmentInsertingEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.SchedulerAppointmentInsertingEventArgs
 ---
 
 # Telerik.Web.UI.SchedulerAppointmentInsertingEventArgs : Sys.CancelEventArgs
+
+## Inheritance Hierarchy
+
+* Sys.CancelEventArgs
+* *[Telerik.Web.UI.SchedulerAppointmentInsertingEventArgs]({%slug Telerik.Web.UI.SchedulerAppointmentInsertingEventArgs%})*
 
 ## Methods
 

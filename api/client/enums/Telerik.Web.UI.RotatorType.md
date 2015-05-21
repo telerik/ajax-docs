@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.RotatorType
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RotatorType
 ---
 
 # enum Telerik.Web.UI.RotatorType
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.RotatorType]({%slug Telerik.Web.UI.RotatorType%})*
 
 ## Fields
 

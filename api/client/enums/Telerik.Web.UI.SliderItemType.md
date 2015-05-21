@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.SliderItemType
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.SliderItemType
 ---
 
 # enum Telerik.Web.UI.SliderItemType
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.SliderItemType]({%slug Telerik.Web.UI.SliderItemType%})*
 
 ## Fields
 

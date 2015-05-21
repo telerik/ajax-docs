@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.ListViewDataBindingEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.ListViewDataBindingEventArgs
 ---
 
 # Telerik.Web.UI.ListViewDataBindingEventArgs : Sys.CancelEventArgs
+
+## Inheritance Hierarchy
+
+* Sys.CancelEventArgs
+* *[Telerik.Web.UI.ListViewDataBindingEventArgs]({%slug Telerik.Web.UI.ListViewDataBindingEventArgs%})*
 
 ## Methods
 

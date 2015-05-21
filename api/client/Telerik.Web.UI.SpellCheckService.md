@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.SpellCheckService
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.SpellCheckService
 ---
 
 # Telerik.Web.UI.SpellCheckService : Sys.Component 
+
+## Inheritance Hierarchy
+
+* Sys.Component
+* *[Telerik.Web.UI.SpellCheckService]({%slug Telerik.Web.UI.SpellCheckService%})*
 
 ## Methods
 

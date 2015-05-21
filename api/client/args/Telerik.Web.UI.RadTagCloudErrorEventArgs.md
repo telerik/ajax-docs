@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.RadTagCloudErrorEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadTagCloudErrorEventArgs
 ---
 
 # Telerik.Web.UI.RadTagCloudErrorEventArgs : Sys.EventArgs
+
+## Inheritance Hierarchy
+
+* Sys.EventArgs
+* *[Telerik.Web.UI.RadTagCloudErrorEventArgs]({%slug Telerik.Web.UI.RadTagCloudErrorEventArgs%})*
 
 ## Methods
 

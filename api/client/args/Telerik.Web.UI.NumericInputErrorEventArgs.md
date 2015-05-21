@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.NumericInputErrorEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.NumericInputErrorEventArgs
 ---
 
 # Telerik.Web.UI.NumericInputErrorEventArgs : Telerik.Web.UI.InputErrorEventArgs 
+
+## Inheritance Hierarchy
+
+* [Telerik.Web.UI.InputErrorEventArgs]({%slug Telerik.Web.UI.InputErrorEventArgs%})
+* *[Telerik.Web.UI.NumericInputErrorEventArgs]({%slug Telerik.Web.UI.NumericInputErrorEventArgs%})*
 
 ## Methods
 

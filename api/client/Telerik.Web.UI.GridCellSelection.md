@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.GridCellSelection
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.GridCellSelection
 ---
 
 # Telerik.Web.UI.GridCellSelection : Sys.Component 
+
+## Inheritance Hierarchy
+
+* Sys.Component
+* *[Telerik.Web.UI.GridCellSelection]({%slug Telerik.Web.UI.GridCellSelection%})*
 
 ## Methods
 

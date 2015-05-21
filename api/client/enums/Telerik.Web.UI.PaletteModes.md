@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.PaletteModes
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.PaletteModes
 ---
 
 # enum Telerik.Web.UI.PaletteModes
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.PaletteModes]({%slug Telerik.Web.UI.PaletteModes%})*
 
 ## Fields
 

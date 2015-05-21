@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.ListViewItemSelectingEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.ListViewItemSelectingEventArgs
 ---
 
 # Telerik.Web.UI.ListViewItemSelectingEventArgs : Sys.CancelEventArgs
+
+## Inheritance Hierarchy
+
+* Sys.CancelEventArgs
+* *[Telerik.Web.UI.ListViewItemSelectingEventArgs]({%slug Telerik.Web.UI.ListViewItemSelectingEventArgs%})*
 
 ## Methods
 

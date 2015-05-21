@@ -6,6 +6,11 @@ description: Client-side API Reference RadDiagram Client-side API
 
 # Telerik.Web.UI.RadDiagram : Telerik.Web.UI.RadWebControl
 
+## Inheritance Hierarchy
+
+* [Telerik.Web.UI.RadWebControl]({%slug Telerik.Web.UI.RadWebControl%})
+* *[Telerik.Web.UI.RadDiagram]({%slug Telerik.Web.UI.RadDiagram%})*
+
 ## Methods
 
 ###  get_kendoWidget

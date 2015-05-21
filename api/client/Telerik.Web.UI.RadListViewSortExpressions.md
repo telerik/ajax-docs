@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.RadListViewSortExpressions
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadListViewSortExpressions
 ---
 
 # Telerik.Web.UI.RadListViewSortExpressions  
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.RadListViewSortExpressions]({%slug Telerik.Web.UI.RadListViewSortExpressions%})*
 
 ## Methods
 

@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.RadToolBarSplitButton
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadToolBarSplitButton
 ---
 
 # Telerik.Web.UI.RadToolBarSplitButton : Telerik.Web.UI.ControlItemContainer 
+
+## Inheritance Hierarchy
+
+* [Telerik.Web.UI.ControlItemContainer]({%slug Telerik.Web.UI.ControlItemContainer%})
+* *[Telerik.Web.UI.RadToolBarSplitButton]({%slug Telerik.Web.UI.RadToolBarSplitButton%})*
 
 ## Methods
 

@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.RadProgressBar
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadProgressBar
 ---
 
 # Telerik.Web.UI.RadProgressBar  
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.RadProgressBar]({%slug Telerik.Web.UI.RadProgressBar%})*
 
 ## Methods
 

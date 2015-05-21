@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.RadFileExplorerEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadFileExplorerEventArgs
 ---
 
 # Telerik.Web.UI.RadFileExplorerEventArgs : Sys.CancelEventArgs 
+
+## Inheritance Hierarchy
+
+* Sys.CancelEventArgs
+* *[Telerik.Web.UI.RadFileExplorerEventArgs]({%slug Telerik.Web.UI.RadFileExplorerEventArgs%})*
 
 ## Methods
 

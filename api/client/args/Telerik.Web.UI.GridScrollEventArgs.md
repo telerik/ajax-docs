@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.GridScrollEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.GridScrollEventArgs
 ---
 
 # Telerik.Web.UI.GridScrollEventArgs : Sys.EventArgs 
+
+## Inheritance Hierarchy
+
+* Sys.EventArgs
+* *[Telerik.Web.UI.GridScrollEventArgs]({%slug Telerik.Web.UI.GridScrollEventArgs%})*
 
 ## Methods
 

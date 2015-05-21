@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.CloudUploadFileUploadRemovingEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.CloudUploadFileUploadRemovingEventArgs
 ---
 
 # Telerik.Web.UI.CloudUploadFileUploadRemovingEventArgs : Telerik.Web.UI.CloudUploadCancelEventArgs
+
+## Inheritance Hierarchy
+
+* [Telerik.Web.UI.CloudUploadCancelEventArgs]({%slug Telerik.Web.UI.CloudUploadCancelEventArgs%})
+* *[Telerik.Web.UI.CloudUploadFileUploadRemovingEventArgs]({%slug Telerik.Web.UI.CloudUploadFileUploadRemovingEventArgs%})*
 
 ## Methods
 

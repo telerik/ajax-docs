@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.ListViewTemplateCreatedEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.ListViewTemplateCreatedEventArgs
 ---
 
 # Telerik.Web.UI.ListViewTemplateCreatedEventArgs : Sys.EventArgs
+
+## Inheritance Hierarchy
+
+* Sys.EventArgs
+* *[Telerik.Web.UI.ListViewTemplateCreatedEventArgs]({%slug Telerik.Web.UI.ListViewTemplateCreatedEventArgs%})*
 
 ## Methods
 

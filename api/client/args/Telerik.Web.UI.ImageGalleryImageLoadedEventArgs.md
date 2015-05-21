@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.ImageGalleryImageLoadedEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.ImageGalleryImageLoadedEventArgs
 ---
 
 # Telerik.Web.UI.ImageGalleryImageLoadedEventArgs : Sys.EventArgs 
+
+## Inheritance Hierarchy
+
+* Sys.EventArgs
+* *[Telerik.Web.UI.ImageGalleryImageLoadedEventArgs]({%slug Telerik.Web.UI.ImageGalleryImageLoadedEventArgs%})*
 
 ## Methods
 

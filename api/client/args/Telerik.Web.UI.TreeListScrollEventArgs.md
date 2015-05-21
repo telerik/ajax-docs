@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.TreeListScrollEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.TreeListScrollEventArgs
 ---
 
 # Telerik.Web.UI.TreeListScrollEventArgs : Sys.CancelEventArgs 
+
+## Inheritance Hierarchy
+
+* Sys.CancelEventArgs
+* *[Telerik.Web.UI.TreeListScrollEventArgs]({%slug Telerik.Web.UI.TreeListScrollEventArgs%})*
 
 ## Methods
 

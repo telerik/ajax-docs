@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.RadSearchBox
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadSearchBox
 ---
 
 # Telerik.Web.UI.RadSearchBox : Telerik.Web.UI.RadWebControl 
+
+## Inheritance Hierarchy
+
+* [Telerik.Web.UI.RadWebControl]({%slug Telerik.Web.UI.RadWebControl%})
+* *[Telerik.Web.UI.RadSearchBox]({%slug Telerik.Web.UI.RadSearchBox%})*
 
 ## Methods
 

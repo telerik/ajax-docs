@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.EditorFilters
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.EditorFilters
 ---
 
 # enum Telerik.Web.UI.EditorFilters
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.EditorFilters]({%slug Telerik.Web.UI.EditorFilters%})*
 
 ## Fields
 

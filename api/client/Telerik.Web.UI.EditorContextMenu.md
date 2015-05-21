@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.EditorContextMenu
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.EditorContextMenu
 ---
 
 # Telerik.Web.UI.EditorContextMenu : Telerik.Web.UI.EditorToolStrip
+
+## Inheritance Hierarchy
+
+* [Telerik.Web.UI.EditorToolStrip]({%slug Telerik.Web.UI.EditorToolStrip%})
+* *[Telerik.Web.UI.EditorContextMenu]({%slug Telerik.Web.UI.EditorContextMenu%})*
 
 ## Methods
 

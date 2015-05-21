@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.RibbonBarToggleButton
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RibbonBarToggleButton
 ---
 
 # Telerik.Web.UI.RibbonBarToggleButton  
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.RibbonBarToggleButton]({%slug Telerik.Web.UI.RibbonBarToggleButton%})*
 
 ## Methods
 

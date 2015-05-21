@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.RadButtonCheckedEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadButtonCheckedEventArgs
 ---
 
 # Telerik.Web.UI.RadButtonCheckedEventArgs : Telerik.Web.UI.RadButtonEventArgs 
+
+## Inheritance Hierarchy
+
+* [Telerik.Web.UI.RadButtonEventArgs]({%slug Telerik.Web.UI.RadButtonEventArgs%})
+* *[Telerik.Web.UI.RadButtonCheckedEventArgs]({%slug Telerik.Web.UI.RadButtonCheckedEventArgs%})*
 
 ## Methods
 

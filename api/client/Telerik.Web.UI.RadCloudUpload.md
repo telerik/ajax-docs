@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.RadCloudUpload
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadCloudUpload
 ---
 
 # Telerik.Web.UI.RadCloudUpload : Telerik.Web.UI.RadWebControl 
+
+## Inheritance Hierarchy
+
+* [Telerik.Web.UI.RadWebControl]({%slug Telerik.Web.UI.RadWebControl%})
+* *[Telerik.Web.UI.RadCloudUpload]({%slug Telerik.Web.UI.RadCloudUpload%})*
 
 ## Methods
 

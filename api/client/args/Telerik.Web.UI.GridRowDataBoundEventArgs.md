@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.GridRowDataBoundEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.GridRowDataBoundEventArgs
 ---
 
 # Telerik.Web.UI.GridRowDataBoundEventArgs
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.GridRowDataBoundEventArgs]({%slug Telerik.Web.UI.GridRowDataBoundEventArgs%})*
 
 ## Methods
 

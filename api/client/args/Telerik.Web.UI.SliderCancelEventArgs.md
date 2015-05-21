@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.SliderCancelEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.SliderCancelEventArgs
 ---
 
 # Telerik.Web.UI.SliderCancelEventArgs
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.SliderCancelEventArgs]({%slug Telerik.Web.UI.SliderCancelEventArgs%})*
 
 ## Methods
 

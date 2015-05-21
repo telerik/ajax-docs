@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.DockMode
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.DockMode
 ---
 
 # enum Telerik.Web.UI.DockMode
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.DockMode]({%slug Telerik.Web.UI.DockMode%})*
 
 ## Fields
 

@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.GridTableView
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.GridTableView
 ---
 
 # Telerik.Web.UI.GridTableView : Sys.UI.Control 
+
+## Inheritance Hierarchy
+
+* Sys.UI.Control
+* *[Telerik.Web.UI.GridTableView]({%slug Telerik.Web.UI.GridTableView%})*
 
 ## Methods
 

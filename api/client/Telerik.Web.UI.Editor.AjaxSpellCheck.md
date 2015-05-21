@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.Editor.AjaxSpellCheck
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.Editor.AjaxSpellCheck
 ---
 
 # Telerik.Web.UI.Editor.AjaxSpellCheck : Sys.UI.Control
+
+## Inheritance Hierarchy
+
+* Sys.UI.Control
+* *[Telerik.Web.UI.Editor.AjaxSpellCheck]({%slug Telerik.Web.UI.Editor.AjaxSpellCheck%})*
 
 ## Methods
 

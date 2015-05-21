@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.TreeListKeyPressEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.TreeListKeyPressEventArgs
 ---
 
 # Telerik.Web.UI.TreeListKeyPressEventArgs : Sys.CancelEventArgs
+
+## Inheritance Hierarchy
+
+* Sys.CancelEventArgs
+* *[Telerik.Web.UI.TreeListKeyPressEventArgs]({%slug Telerik.Web.UI.TreeListKeyPressEventArgs%})*
 
 ## Methods
 

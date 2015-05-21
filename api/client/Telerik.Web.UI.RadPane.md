@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.RadPane
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadPane
 ---
 
 # Telerik.Web.UI.RadPane : Telerik.Web.UI.SplitterPaneBase 
+
+## Inheritance Hierarchy
+
+* [Telerik.Web.UI.SplitterPaneBase]({%slug Telerik.Web.UI.SplitterPaneBase%})
+* *[Telerik.Web.UI.RadPane]({%slug Telerik.Web.UI.RadPane%})*
 
 ## Methods
 

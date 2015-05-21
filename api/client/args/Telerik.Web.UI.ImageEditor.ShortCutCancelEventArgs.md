@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.ImageEditor.ShortCutCancelEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.ImageEditor.ShortCutCancelEventArgs
 ---
 
 # Telerik.Web.UI.ImageEditor.ShortCutCancelEventArgs : Sys.CancelEventArgs 
+
+## Inheritance Hierarchy
+
+* Sys.CancelEventArgs
+* *[Telerik.Web.UI.ImageEditor.ShortCutCancelEventArgs]({%slug Telerik.Web.UI.ImageEditor.ShortCutCancelEventArgs%})*
 
 ## Methods
 

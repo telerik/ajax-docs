@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.RadPageView
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadPageView
 ---
 
 # Telerik.Web.UI.RadPageView  
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.RadPageView]({%slug Telerik.Web.UI.RadPageView%})*
 
 ## Methods
 

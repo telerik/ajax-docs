@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.OrgChartGroupItem
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.OrgChartGroupItem
 ---
 
 # Telerik.Web.UI.OrgChartGroupItem  
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.OrgChartGroupItem]({%slug Telerik.Web.UI.OrgChartGroupItem%})*
 
 ## Methods
 

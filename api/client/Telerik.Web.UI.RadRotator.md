@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.RadRotator
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadRotator
 ---
 
 # Telerik.Web.UI.RadRotator : Telerik.Web.UI.RadWebControl
+
+## Inheritance Hierarchy
+
+* [Telerik.Web.UI.RadWebControl]({%slug Telerik.Web.UI.RadWebControl%})
+* *[Telerik.Web.UI.RadRotator]({%slug Telerik.Web.UI.RadRotator%})*
 
 ## Methods
 

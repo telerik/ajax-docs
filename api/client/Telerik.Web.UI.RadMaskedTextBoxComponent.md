@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.RadMaskedTextBoxComponent
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadMaskedTextBoxComponent
 ---
 
 # Telerik.Web.UI.RadMaskedTextBoxComponent : Sys.Component 
+
+## Inheritance Hierarchy
+
+* Sys.Component
+* *[Telerik.Web.UI.RadMaskedTextBoxComponent]({%slug Telerik.Web.UI.RadMaskedTextBoxComponent%})*
 
 ## Methods
 

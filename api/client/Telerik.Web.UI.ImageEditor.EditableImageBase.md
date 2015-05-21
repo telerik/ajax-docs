@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.ImageEditor.EditableImageBase
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.ImageEditor.EditableImageBase
 ---
 
 # Telerik.Web.UI.ImageEditor.EditableImageBase : Sys.Component 
+
+## Inheritance Hierarchy
+
+* Sys.Component
+* *[Telerik.Web.UI.ImageEditor.EditableImageBase]({%slug Telerik.Web.UI.ImageEditor.EditableImageBase%})*
 
 ## Methods
 

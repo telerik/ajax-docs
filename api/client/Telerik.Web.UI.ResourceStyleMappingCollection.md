@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.ResourceStyleMappingCollection
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.ResourceStyleMappingCollection
 ---
 
 # Telerik.Web.UI.ResourceStyleMappingCollection  
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.ResourceStyleMappingCollection]({%slug Telerik.Web.UI.ResourceStyleMappingCollection%})*
 
 ## Methods
 

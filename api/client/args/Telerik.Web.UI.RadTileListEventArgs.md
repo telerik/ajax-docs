@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.RadTileListEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadTileListEventArgs
 ---
 
 # Telerik.Web.UI.RadTileListEventArgs : Sys.EventArgs 
+
+## Inheritance Hierarchy
+
+* Sys.EventArgs
+* *[Telerik.Web.UI.RadTileListEventArgs]({%slug Telerik.Web.UI.RadTileListEventArgs%})*
 
 ## Methods
 

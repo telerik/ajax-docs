@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.ComboBoxCheckAllCheckedEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.ComboBoxCheckAllCheckedEventArgs
 ---
 
 # Telerik.Web.UI.ComboBoxCheckAllCheckedEventArgs : Sys.EventArgs
+
+## Inheritance Hierarchy
+
+* Sys.EventArgs
+* *[Telerik.Web.UI.ComboBoxCheckAllCheckedEventArgs]({%slug Telerik.Web.UI.ComboBoxCheckAllCheckedEventArgs%})*
 
 ## Methods
 

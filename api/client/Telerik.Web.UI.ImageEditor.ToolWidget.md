@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.ImageEditor.ToolWidget
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.ImageEditor.ToolWidget
 ---
 
 # Telerik.Web.UI.ImageEditor.ToolWidget  
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.ImageEditor.ToolWidget]({%slug Telerik.Web.UI.ImageEditor.ToolWidget%})*
 
 ## Methods
 

@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.SchedulerAppointmentWebServiceDeleting
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.SchedulerAppointmentWebServiceDeleting
 ---
 
 # Telerik.Web.UI.SchedulerAppointmentWebServiceDeleting  : Telerik.Web.UI.SchedulerAppointmentCancelEventArgs
+
+## Inheritance Hierarchy
+
+* [Telerik.Web.UI.SchedulerAppointmentCancelEventArgs]({%slug Telerik.Web.UI.SchedulerAppointmentCancelEventArgs%})
+* *[Telerik.Web.UI.SchedulerAppointmentWebServiceDeleting]({%slug Telerik.Web.UI.SchedulerAppointmentWebServiceDeleting%})*
 
 ## Methods
 

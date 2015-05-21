@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.ListBoxSelectedIndexChangedEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.ListBoxSelectedIndexChangedEventArgs
 ---
 
 # Telerik.Web.UI.ListBoxSelectedIndexChangedEventArgs : Sys.EventArgs 
+
+## Inheritance Hierarchy
+
+* Sys.EventArgs
+* *[Telerik.Web.UI.ListBoxSelectedIndexChangedEventArgs]({%slug Telerik.Web.UI.ListBoxSelectedIndexChangedEventArgs%})*
 
 ## Methods
 

@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.ISchedulerModel
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.ISchedulerModel
 ---
 
 # Telerik.Web.UI.ISchedulerModel  
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.ISchedulerModel]({%slug Telerik.Web.UI.ISchedulerModel%})*
 
 ## Methods
 

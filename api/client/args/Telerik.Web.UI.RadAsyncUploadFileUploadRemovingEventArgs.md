@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.RadAsyncUploadFileUploadRemovingEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadAsyncUploadFileUploadRemovingEventArgs
 ---
 
 # Telerik.Web.UI.RadAsyncUploadFileUploadRemovingEventArgs : Sys.CancelEventArgs
+
+## Inheritance Hierarchy
+
+* Sys.CancelEventArgs
+* *[Telerik.Web.UI.RadAsyncUploadFileUploadRemovingEventArgs]({%slug Telerik.Web.UI.RadAsyncUploadFileUploadRemovingEventArgs%})*
 
 ## Methods
 

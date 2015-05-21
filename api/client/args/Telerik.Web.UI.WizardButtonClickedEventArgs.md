@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.WizardButtonClickedEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.WizardButtonClickedEventArgs
 ---
 
 # Telerik.Web.UI.WizardButtonClickedEventArgs : Sys.EventArgs
+
+## Inheritance Hierarchy
+
+* Sys.EventArgs
+* *[Telerik.Web.UI.WizardButtonClickedEventArgs]({%slug Telerik.Web.UI.WizardButtonClickedEventArgs%})*
 
 ## Methods
 

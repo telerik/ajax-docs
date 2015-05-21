@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.TreeListDataItem
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.TreeListDataItem
 ---
 
 # Telerik.Web.UI.TreeListDataItem : Sys.UI.Control 
+
+## Inheritance Hierarchy
+
+* Sys.UI.Control
+* *[Telerik.Web.UI.TreeListDataItem]({%slug Telerik.Web.UI.TreeListDataItem%})*
 
 ## Methods
 

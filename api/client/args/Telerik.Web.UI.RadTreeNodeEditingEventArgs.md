@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.RadTreeNodeEditingEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadTreeNodeEditingEventArgs
 ---
 
 # Telerik.Web.UI.RadTreeNodeEditingEventArgs : Telerik.Web.UI.RadTreeNodeCancelEventArgs
+
+## Inheritance Hierarchy
+
+* [Telerik.Web.UI.RadTreeNodeCancelEventArgs]({%slug Telerik.Web.UI.RadTreeNodeCancelEventArgs%})
+* *[Telerik.Web.UI.RadTreeNodeEditingEventArgs]({%slug Telerik.Web.UI.RadTreeNodeEditingEventArgs%})*
 
 ## Methods
 

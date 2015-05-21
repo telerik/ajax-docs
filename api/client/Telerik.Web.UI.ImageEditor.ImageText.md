@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.ImageEditor.ImageText
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.ImageEditor.ImageText
 ---
 
 # Telerik.Web.UI.ImageEditor.ImageText  
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.ImageEditor.ImageText]({%slug Telerik.Web.UI.ImageEditor.ImageText%})*
 
 ## Methods
 

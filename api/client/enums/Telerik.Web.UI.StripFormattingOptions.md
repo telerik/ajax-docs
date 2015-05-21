@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.StripFormattingOptions
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.StripFormattingOptions
 ---
 
 # enum Telerik.Web.UI.StripFormattingOptions
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.StripFormattingOptions]({%slug Telerik.Web.UI.StripFormattingOptions%})*
 
 ## Fields
 

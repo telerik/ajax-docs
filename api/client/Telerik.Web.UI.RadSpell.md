@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.RadSpell
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadSpell
 ---
 
 # Telerik.Web.UI.RadSpell  
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.RadSpell]({%slug Telerik.Web.UI.RadSpell%})*
 
 ## Methods
 

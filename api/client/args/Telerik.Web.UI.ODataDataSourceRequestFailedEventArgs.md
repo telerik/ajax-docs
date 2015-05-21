@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.ODataDataSourceRequestFailedEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.ODataDataSourceRequestFailedEventArgs
 ---
 
 # Telerik.Web.UI.ODataDataSourceRequestFailedEventArgs : Sys.EventArgs 
+
+## Inheritance Hierarchy
+
+* Sys.EventArgs
+* *[Telerik.Web.UI.ODataDataSourceRequestFailedEventArgs]({%slug Telerik.Web.UI.ODataDataSourceRequestFailedEventArgs%})*
 
 ## Methods
 

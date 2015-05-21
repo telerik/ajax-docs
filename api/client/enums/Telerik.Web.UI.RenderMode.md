@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.RenderMode
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RenderMode
 ---
 
 # enum Telerik.Web.UI.RenderMode
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.RenderMode]({%slug Telerik.Web.UI.RenderMode%})*
 
 ## Fields
 

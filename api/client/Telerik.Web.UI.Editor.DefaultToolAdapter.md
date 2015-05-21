@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.Editor.DefaultToolAdapter
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.Editor.DefaultToolAdapter
 ---
 
 # Telerik.Web.UI.Editor.DefaultToolAdapter : Sys.UI.Control 
+
+## Inheritance Hierarchy
+
+* Sys.UI.Control
+* *[Telerik.Web.UI.Editor.DefaultToolAdapter]({%slug Telerik.Web.UI.Editor.DefaultToolAdapter%})*
 
 ## Methods
 

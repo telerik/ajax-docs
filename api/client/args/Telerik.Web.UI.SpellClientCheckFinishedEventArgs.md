@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.SpellClientCheckFinishedEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.SpellClientCheckFinishedEventArgs
 ---
 
 # Telerik.Web.UI.SpellClientCheckFinishedEventArgs : Sys.EventArgs
+
+## Inheritance Hierarchy
+
+* Sys.EventArgs
+* *[Telerik.Web.UI.SpellClientCheckFinishedEventArgs]({%slug Telerik.Web.UI.SpellClientCheckFinishedEventArgs%})*
 
 
 ## Methods

@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.GridSortExpression
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.GridSortExpression
 ---
 
 # Telerik.Web.UI.GridSortExpression  
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.GridSortExpression]({%slug Telerik.Web.UI.GridSortExpression%})*
 
 ## Methods
 

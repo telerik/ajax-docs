@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.RadRegExpTextBoxComponent
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadRegExpTextBoxComponent
 ---
 
 # Telerik.Web.UI.RadRegExpTextBoxComponent : Sys.Component 
+
+## Inheritance Hierarchy
+
+* Sys.Component
+* *[Telerik.Web.UI.RadRegExpTextBoxComponent]({%slug Telerik.Web.UI.RadRegExpTextBoxComponent%})*
 
 ## Methods
 

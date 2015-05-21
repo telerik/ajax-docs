@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.PivotGridFieldZoneType
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.PivotGridFieldZoneType
 ---
 
 # enum Telerik.Web.UI.PivotGridFieldZoneType
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.PivotGridFieldZoneType]({%slug Telerik.Web.UI.PivotGridFieldZoneType%})*
 
 ## Fields
 

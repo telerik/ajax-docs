@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.FileExplorer.IFileListView
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.FileExplorer.IFileListView
 ---
 
 # Telerik.Web.UI.FileExplorer.IFileListView  
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.FileExplorer.IFileListView]({%slug Telerik.Web.UI.FileExplorer.IFileListView%})*
 
 ## Methods
 

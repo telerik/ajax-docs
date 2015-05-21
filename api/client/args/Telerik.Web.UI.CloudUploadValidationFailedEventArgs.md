@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.CloudUploadValidationFailedEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.CloudUploadValidationFailedEventArgs
 ---
 
 # Telerik.Web.UI.CloudUploadValidationFailedEventArgs : Sys.EventArgs 
+
+## Inheritance Hierarchy
+
+* Sys.EventArgs
+* *[Telerik.Web.UI.CloudUploadValidationFailedEventArgs]({%slug Telerik.Web.UI.CloudUploadValidationFailedEventArgs%})*
 
 ## Methods
 

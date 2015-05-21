@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.ListViewItemDragStartedEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.ListViewItemDragStartedEventArgs
 ---
 
 # Telerik.Web.UI.ListViewItemDragStartedEventArgs : Sys.CancelEventArgs
+
+## Inheritance Hierarchy
+
+* Sys.CancelEventArgs
+* *[Telerik.Web.UI.ListViewItemDragStartedEventArgs]({%slug Telerik.Web.UI.ListViewItemDragStartedEventArgs%})*
 
 ## Methods
 

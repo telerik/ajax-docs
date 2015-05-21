@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.SearchBoxSearchEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.SearchBoxSearchEventArgs
 ---
 
 # Telerik.Web.UI.SearchBoxSearchEventArgs : Sys.EventArgs
+
+## Inheritance Hierarchy
+
+* Sys.EventArgs
+* *[Telerik.Web.UI.SearchBoxSearchEventArgs]({%slug Telerik.Web.UI.SearchBoxSearchEventArgs%})*
 
 ## Methods
 

@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.FileExplorer.FileListSortEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.FileExplorer.FileListSortEventArgs
 ---
 
 # Telerik.Web.UI.FileExplorer.FileListSortEventArgs : Sys.EventArgs 
+
+## Inheritance Hierarchy
+
+* Sys.EventArgs
+* *[Telerik.Web.UI.FileExplorer.FileListSortEventArgs]({%slug Telerik.Web.UI.FileExplorer.FileListSortEventArgs%})*
 
 ## Methods
 

@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.RadAsyncUploadCancelEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadAsyncUploadCancelEventArgs
 ---
 
 # Telerik.Web.UI.RadAsyncUploadCancelEventArgs : Sys.CancelEventArgs
+
+## Inheritance Hierarchy
+
+* Sys.CancelEventArgs
+* *[Telerik.Web.UI.RadAsyncUploadCancelEventArgs]({%slug Telerik.Web.UI.RadAsyncUploadCancelEventArgs%})*
 
 ## Methods
 

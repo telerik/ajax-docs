@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.RadFilter
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadFilter
 ---
 
 # Telerik.Web.UI.RadFilter : Telerik.Web.UI.RadWebControl 
+
+## Inheritance Hierarchy
+
+* [Telerik.Web.UI.RadWebControl]({%slug Telerik.Web.UI.RadWebControl%})
+* *[Telerik.Web.UI.RadFilter]({%slug Telerik.Web.UI.RadFilter%})*
 
 ## Methods
 

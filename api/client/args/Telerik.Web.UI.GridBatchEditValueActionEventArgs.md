@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.GridBatchEditValueActionEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.GridBatchEditValueActionEventArgs
 ---
 
 # Telerik.Web.UI.GridBatchEditValueActionEventArgs : Telerik.Web.UI.GridBatchEditCancelEventArgs 
+
+## Inheritance Hierarchy
+
+* [Telerik.Web.UI.GridBatchEditCancelEventArgs]({%slug Telerik.Web.UI.GridBatchEditCancelEventArgs%})
+* *[Telerik.Web.UI.GridBatchEditValueActionEventArgs]({%slug Telerik.Web.UI.GridBatchEditValueActionEventArgs%})*
 
 ## Methods
 

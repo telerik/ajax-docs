@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.Editor.CommandBase
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.Editor.CommandBase
 ---
 
 # Telerik.Web.UI.Editor.CommandBase
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.Editor.CommandBase]({%slug Telerik.Web.UI.Editor.CommandBase%})*
 
 ## Methods
 

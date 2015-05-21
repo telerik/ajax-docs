@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.ProgressBarCancelEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.ProgressBarCancelEventArgs
 ---
 
 # Telerik.Web.UI.ProgressBarCancelEventArgs : Sys.CancelEventArgs 
+
+## Inheritance Hierarchy
+
+* Sys.CancelEventArgs
+* *[Telerik.Web.UI.ProgressBarCancelEventArgs]({%slug Telerik.Web.UI.ProgressBarCancelEventArgs%})*
 
 ## Methods
 

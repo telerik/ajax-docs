@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.MaskedTextBoxEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.MaskedTextBoxEventArgs
 ---
 
 # Telerik.Web.UI.MaskedTextBoxEventArgs : Sys.CancelEventArgs 
+
+## Inheritance Hierarchy
+
+* Sys.CancelEventArgs
+* *[Telerik.Web.UI.MaskedTextBoxEventArgs]({%slug Telerik.Web.UI.MaskedTextBoxEventArgs%})*
 
 ## Methods
 

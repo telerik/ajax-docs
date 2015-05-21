@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.PivotGridFieldSettings
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.PivotGridFieldSettings
 ---
 
 # Telerik.Web.UI.PivotGridFieldSettings : Sys.UI.Control 
+
+## Inheritance Hierarchy
+
+* Sys.UI.Control
+* *[Telerik.Web.UI.PivotGridFieldSettings]({%slug Telerik.Web.UI.PivotGridFieldSettings%})*
 
 ## Methods
 

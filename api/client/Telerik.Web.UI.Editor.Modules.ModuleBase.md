@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.Editor.Modules.ModuleBase
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.Editor.Modules.ModuleBase
 ---
 
 # Telerik.Web.UI.Editor.Modules.ModuleBase
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.Editor.Modules.ModuleBase]({%slug Telerik.Web.UI.Editor.Modules.ModuleBase%})*
 
 ## Methods
 

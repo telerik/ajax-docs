@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.SchedulerFormCreatedEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.SchedulerFormCreatedEventArgs
 ---
 
 # Telerik.Web.UI.SchedulerFormCreatedEventArgs : Telerik.Web.UI.AppointmentEventArgs
+
+## Inheritance Hierarchy
+
+* [Telerik.Web.UI.AppointmentEventArgs]({%slug Telerik.Web.UI.AppointmentEventArgs%})
+* *[Telerik.Web.UI.SchedulerFormCreatedEventArgs]({%slug Telerik.Web.UI.SchedulerFormCreatedEventArgs%})*
 
 ## Methods
 

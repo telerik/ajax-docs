@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.RadTileList
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadTileList
 ---
 
 # Telerik.Web.UI.RadTileList : Telerik.Web.UI.RadWebControl 
+
+## Inheritance Hierarchy
+
+* [Telerik.Web.UI.RadWebControl]({%slug Telerik.Web.UI.RadWebControl%})
+* *[Telerik.Web.UI.RadTileList]({%slug Telerik.Web.UI.RadTileList%})*
 
 ## Methods
 

@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.DataPagerPageSizeChangingEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.DataPagerPageSizeChangingEventArgs
 ---
 
 # Telerik.Web.UI.DataPagerPageSizeChangingEventArgs : Sys.CancelEventArgs 
+
+## Inheritance Hierarchy
+
+* Sys.CancelEventArgs
+* *[Telerik.Web.UI.DataPagerPageSizeChangingEventArgs]({%slug Telerik.Web.UI.DataPagerPageSizeChangingEventArgs%})*
 
 ## Methods
 

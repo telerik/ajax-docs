@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.RibbonBarSelectedTabChangingEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RibbonBarSelectedTabChangingEventArgs
 ---
 
 # Telerik.Web.UI.RibbonBarSelectedTabChangingEventArgs : Sys.CancelEventArgs
+
+## Inheritance Hierarchy
+
+* Sys.CancelEventArgs
+* *[Telerik.Web.UI.RibbonBarSelectedTabChangingEventArgs]({%slug Telerik.Web.UI.RibbonBarSelectedTabChangingEventArgs%})*
 
 ## Methods
 

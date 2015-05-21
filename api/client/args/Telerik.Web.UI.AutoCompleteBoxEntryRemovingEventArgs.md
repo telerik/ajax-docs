@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.AutoCompleteBoxEntryRemovingEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.AutoCompleteBoxEntryRemovingEventArgs
 ---
 
 # Telerik.Web.UI.AutoCompleteBoxEntryRemovingEventArgs : Sys.CancelEventArgs
+
+## Inheritance Hierarchy
+
+* Sys.CancelEventArgs
+* *[Telerik.Web.UI.AutoCompleteBoxEntryRemovingEventArgs]({%slug Telerik.Web.UI.AutoCompleteBoxEntryRemovingEventArgs%})*
 
 ## Methods
 

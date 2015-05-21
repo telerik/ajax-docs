@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.ClientDataSource.SortExpression
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.ClientDataSource.SortExpression
 ---
 
 # Telerik.Web.UI.ClientDataSource.SortExpression  
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.ClientDataSource.SortExpression]({%slug Telerik.Web.UI.ClientDataSource.SortExpression%})*
 
 ## Methods
 

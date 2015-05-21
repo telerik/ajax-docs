@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.RadTreeViewContextMenuEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadTreeViewContextMenuEventArgs
 ---
 
 # Telerik.Web.UI.RadTreeViewContextMenuEventArgs : Sys.EventArgs
+
+## Inheritance Hierarchy
+
+* Sys.EventArgs
+* *[Telerik.Web.UI.RadTreeViewContextMenuEventArgs]({%slug Telerik.Web.UI.RadTreeViewContextMenuEventArgs%})*
 
 ## Methods
 

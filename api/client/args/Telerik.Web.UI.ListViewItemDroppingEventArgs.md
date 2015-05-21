@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.ListViewItemDroppingEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.ListViewItemDroppingEventArgs
 ---
 
 # Telerik.Web.UI.ListViewItemDroppingEventArgs : Sys.CancelEventArgs
+
+## Inheritance Hierarchy
+
+* Sys.CancelEventArgs
+* *[Telerik.Web.UI.ListViewItemDroppingEventArgs]({%slug Telerik.Web.UI.ListViewItemDroppingEventArgs%})*
 
 ## Methods
 

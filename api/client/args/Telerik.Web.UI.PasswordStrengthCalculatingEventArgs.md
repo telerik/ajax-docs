@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.PasswordStrengthCalculatingEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.PasswordStrengthCalculatingEventArgs
 ---
 
 # Telerik.Web.UI.PasswordStrengthCalculatingEventArgs : Sys.EventArgs 
+
+## Inheritance Hierarchy
+
+* Sys.EventArgs
+* *[Telerik.Web.UI.PasswordStrengthCalculatingEventArgs]({%slug Telerik.Web.UI.PasswordStrengthCalculatingEventArgs%})*
 
 ## Methods
 

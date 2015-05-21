@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.SchedulerNavigationCommand
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.SchedulerNavigationCommand
 ---
 
 # enum Telerik.Web.UI.SchedulerNavigationCommand
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.SchedulerNavigationCommand]({%slug Telerik.Web.UI.SchedulerNavigationCommand%})*
 
 ## Fields
 

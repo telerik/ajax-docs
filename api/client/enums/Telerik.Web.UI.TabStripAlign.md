@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.TabStripAlign
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.TabStripAlign
 ---
 
 # enum Telerik.Web.UI.TabStripAlign
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.TabStripAlign]({%slug Telerik.Web.UI.TabStripAlign%})*
 
 ## Fields
 

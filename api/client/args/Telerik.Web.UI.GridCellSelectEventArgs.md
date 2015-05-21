@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.GridCellSelectEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.GridCellSelectEventArgs
 ---
 
 # Telerik.Web.UI.GridCellSelectEventArgs : Sys.EventArgs 
+
+## Inheritance Hierarchy
+
+* Sys.EventArgs
+* *[Telerik.Web.UI.GridCellSelectEventArgs]({%slug Telerik.Web.UI.GridCellSelectEventArgs%})*
 
 ## Methods
 

@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.EditorToolStrip
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.EditorToolStrip
 ---
 
 # Telerik.Web.UI.EditorToolStrip : Telerik.Web.UI.EditorSplitButton
+
+## Inheritance Hierarchy
+
+* [Telerik.Web.UI.EditorSplitButton]({%slug Telerik.Web.UI.EditorSplitButton%})
+* *[Telerik.Web.UI.EditorToolStrip]({%slug Telerik.Web.UI.EditorToolStrip%})*
 
 ## Methods
 

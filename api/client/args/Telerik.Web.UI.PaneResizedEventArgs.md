@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.PaneResizedEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.PaneResizedEventArgs
 ---
 
 # Telerik.Web.UI.PaneResizedEventArgs : Sys.EventArgs 
+
+## Inheritance Hierarchy
+
+* Sys.EventArgs
+* *[Telerik.Web.UI.PaneResizedEventArgs]({%slug Telerik.Web.UI.PaneResizedEventArgs%})*
 
 ## Methods
 

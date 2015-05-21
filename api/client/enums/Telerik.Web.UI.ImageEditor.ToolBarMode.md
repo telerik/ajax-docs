@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.ImageEditor.ToolBarMode
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.ImageEditor.ToolBarMode
 ---
 
 # enum Telerik.Web.UI.ImageEditor.ToolBarMode
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.ImageEditor.ToolBarMode]({%slug Telerik.Web.UI.ImageEditor.ToolBarMode%})*
 
 ## Fields
 

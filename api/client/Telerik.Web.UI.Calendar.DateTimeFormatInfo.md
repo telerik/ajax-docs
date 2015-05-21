@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.Calendar.DateTimeFormatInfo
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.Calendar.DateTimeFormatInfo
 ---
 
 # Telerik.Web.UI.Calendar.DateTimeFormatInfo  
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.Calendar.DateTimeFormatInfo]({%slug Telerik.Web.UI.Calendar.DateTimeFormatInfo%})*
 
 ## Methods
 

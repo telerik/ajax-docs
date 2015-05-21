@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.RadXmlHttpPanel
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadXmlHttpPanel
 ---
 
 # Telerik.Web.UI.RadXmlHttpPanel  
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.RadXmlHttpPanel]({%slug Telerik.Web.UI.RadXmlHttpPanel%})*
 
 ## Methods
 

@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.ControlItemContainer
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.ControlItemContainer
 ---
 
 # Telerik.Web.UI.ControlItemContainer : Telerik.Web.UI.RadWebControl
+
+## Inheritance Hierarchy
+
+* [Telerik.Web.UI.RadWebControl]({%slug Telerik.Web.UI.RadWebControl%})
+* *[Telerik.Web.UI.ControlItemContainer]({%slug Telerik.Web.UI.ControlItemContainer%})*
 
 ## Methods
 

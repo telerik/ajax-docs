@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.InputErrorEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.InputErrorEventArgs
 ---
 
 # Telerik.Web.UI.InputErrorEventArgs : Sys.CancelEventArgs 
+
+## Inheritance Hierarchy
+
+* Sys.CancelEventArgs
+* *[Telerik.Web.UI.InputErrorEventArgs]({%slug Telerik.Web.UI.InputErrorEventArgs%})*
 
 ## Methods
 

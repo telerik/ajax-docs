@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.SchedulerAppointmentResizeEndEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.SchedulerAppointmentResizeEndEventArgs
 ---
 
 # Telerik.Web.UI.SchedulerAppointmentResizeEndEventArgs : Telerik.Web.UI.SchedulerAppointmentCancelEventArgs
+
+## Inheritance Hierarchy
+
+* [Telerik.Web.UI.SchedulerAppointmentCancelEventArgs]({%slug Telerik.Web.UI.SchedulerAppointmentCancelEventArgs%})
+* *[Telerik.Web.UI.SchedulerAppointmentResizeEndEventArgs]({%slug Telerik.Web.UI.SchedulerAppointmentResizeEndEventArgs%})*
 
 ## Methods
 

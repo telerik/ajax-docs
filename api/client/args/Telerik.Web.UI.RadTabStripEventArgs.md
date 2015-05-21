@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.RadTabStripEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadTabStripEventArgs
 ---
 
 # Telerik.Web.UI.RadTabStripEventArgs: Sys.EventArgs 
+
+## Inheritance Hierarchy
+
+* Sys.EventArgs
+* *[Telerik.Web.UI.RadTabStripEventArgs]({%slug Telerik.Web.UI.RadTabStripEventArgs%})*
 
 ## Methods
 

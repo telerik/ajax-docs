@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.AttributeCollection
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.AttributeCollection
 ---
 
 # Telerik.Web.UI.AttributeCollection  
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.AttributeCollection]({%slug Telerik.Web.UI.AttributeCollection%})*
 
 ## Methods
 

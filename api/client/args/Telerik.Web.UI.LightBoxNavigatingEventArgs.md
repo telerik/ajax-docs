@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.LightBoxNavigatingEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.LightBoxNavigatingEventArgs
 ---
 
 # Telerik.Web.UI.LightBoxNavigatingEventArgs : Sys.CancelEventArgs 
+
+## Inheritance Hierarchy
+
+* Sys.CancelEventArgs
+* *[Telerik.Web.UI.LightBoxNavigatingEventArgs]({%slug Telerik.Web.UI.LightBoxNavigatingEventArgs%})*
 
 ## Methods
 

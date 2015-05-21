@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.AutoCompleteBoxEntry
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.AutoCompleteBoxEntry
 ---
 
 # Telerik.Web.UI.AutoCompleteBoxEntry  
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.AutoCompleteBoxEntry]({%slug Telerik.Web.UI.AutoCompleteBoxEntry%})*
 
 ## Methods
 

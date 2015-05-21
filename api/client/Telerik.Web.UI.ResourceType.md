@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.ResourceType
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.ResourceType
 ---
 
 # Telerik.Web.UI.ResourceType  
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.ResourceType]({%slug Telerik.Web.UI.ResourceType%})*
 
 ## Methods
 

@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.RibbonBarDropDownSelectedIndexChangingEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RibbonBarDropDownSelectedIndexChangingEventArgs
 ---
 
 # Telerik.Web.UI.RibbonBarDropDownSelectedIndexChangingEventArgs : Sys.CancelEventArgs
+
+## Inheritance Hierarchy
+
+* Sys.CancelEventArgs
+* *[Telerik.Web.UI.RibbonBarDropDownSelectedIndexChangingEventArgs]({%slug Telerik.Web.UI.RibbonBarDropDownSelectedIndexChangingEventArgs%})*
 
 ## Methods
 

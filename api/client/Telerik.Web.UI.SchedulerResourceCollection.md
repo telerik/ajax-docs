@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.SchedulerResourceCollection
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.SchedulerResourceCollection
 ---
 
 # Telerik.Web.UI.SchedulerResourceCollection  
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.SchedulerResourceCollection]({%slug Telerik.Web.UI.SchedulerResourceCollection%})*
 
 ## Methods
 

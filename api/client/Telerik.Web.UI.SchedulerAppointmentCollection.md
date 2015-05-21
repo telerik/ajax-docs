@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.SchedulerAppointmentCollection
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.SchedulerAppointmentCollection
 ---
 
 # Telerik.Web.UI.SchedulerAppointmentCollection  
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.SchedulerAppointmentCollection]({%slug Telerik.Web.UI.SchedulerAppointmentCollection%})*
 
 ## Methods
 

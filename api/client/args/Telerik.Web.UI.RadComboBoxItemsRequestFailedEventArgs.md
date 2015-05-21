@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.RadComboBoxItemsRequestFailedEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadComboBoxItemsRequestFailedEventArgs
 ---
 
 # Telerik.Web.UI.RadComboBoxItemsRequestFailedEventArgs : Sys.CancelEventArgs 
+
+## Inheritance Hierarchy
+
+* Sys.CancelEventArgs
+* *[Telerik.Web.UI.RadComboBoxItemsRequestFailedEventArgs]({%slug Telerik.Web.UI.RadComboBoxItemsRequestFailedEventArgs%})*
 
 ## Methods
 

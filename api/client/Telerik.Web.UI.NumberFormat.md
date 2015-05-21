@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.NumberFormat
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.NumberFormat
 ---
 
 # Telerik.Web.UI.NumberFormat  
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.NumberFormat]({%slug Telerik.Web.UI.NumberFormat%})*
 
 ## Methods
 

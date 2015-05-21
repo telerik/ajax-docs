@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.ListBoxItemDoubleClickedEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.ListBoxItemDoubleClickedEventArgs
 ---
 
 # Telerik.Web.UI.ListBoxItemDoubleClickedEventArgs : Sys.EventArgs 
+
+## Inheritance Hierarchy
+
+* Sys.EventArgs
+* *[Telerik.Web.UI.ListBoxItemDoubleClickedEventArgs]({%slug Telerik.Web.UI.ListBoxItemDoubleClickedEventArgs%})*
 
 ## Methods
 

@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.ToolBarImagePosition
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.ToolBarImagePosition
 ---
 
 # enum Telerik.Web.UI.ToolBarImagePosition
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.ToolBarImagePosition]({%slug Telerik.Web.UI.ToolBarImagePosition%})*
 
 ## Fields
 

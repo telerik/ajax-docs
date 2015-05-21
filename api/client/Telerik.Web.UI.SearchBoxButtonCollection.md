@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.SearchBoxButtonCollection
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.SearchBoxButtonCollection
 ---
 
 # Telerik.Web.UI.SearchBoxButtonCollection
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.SearchBoxButtonCollection]({%slug Telerik.Web.UI.SearchBoxButtonCollection%})*
 
 ## Methods
 

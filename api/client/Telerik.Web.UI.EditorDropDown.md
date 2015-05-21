@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.EditorDropDown
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.EditorDropDown
 ---
 
 # Telerik.Web.UI.EditorDropDown : Telerik.Web.UI.EditorButton
+
+## Inheritance Hierarchy
+
+* [Telerik.Web.UI.EditorButton]({%slug Telerik.Web.UI.EditorButton%})
+* *[Telerik.Web.UI.EditorDropDown]({%slug Telerik.Web.UI.EditorDropDown%})*
 
 ## Methods
 

@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.RadOrgChartGroupPopulatedArguments
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadOrgChartGroupPopulatedArguments
 ---
 
 # Telerik.Web.UI.RadOrgChartGroupPopulatedArguments : Sys.EventArgs 
+
+## Inheritance Hierarchy
+
+* Sys.EventArgs
+* *[Telerik.Web.UI.RadOrgChartGroupPopulatedArguments]({%slug Telerik.Web.UI.RadOrgChartGroupPopulatedArguments%})*
 
 ## Methods
 

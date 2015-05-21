@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.ListBoxDroppedEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.ListBoxDroppedEventArgs
 ---
 
 # Telerik.Web.UI.ListBoxDroppedEventArgs : Sys.EventArgs 
+
+## Inheritance Hierarchy
+
+* Sys.EventArgs
+* *[Telerik.Web.UI.ListBoxDroppedEventArgs]({%slug Telerik.Web.UI.ListBoxDroppedEventArgs%})*
 
 ## Methods
 

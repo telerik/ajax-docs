@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.RadInputExtender
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadInputExtender
 ---
 
 # Telerik.Web.UI.RadInputExtender  
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.RadInputExtender]({%slug Telerik.Web.UI.RadInputExtender%})*
 
 ## Methods
 

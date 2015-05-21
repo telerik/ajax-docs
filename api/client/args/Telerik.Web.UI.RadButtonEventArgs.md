@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.RadButtonEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadButtonEventArgs
 ---
 
 # Telerik.Web.UI.RadButtonEventArgs : Sys.EventArgs 
+
+## Inheritance Hierarchy
+
+* Sys.EventArgs
+* *[Telerik.Web.UI.RadButtonEventArgs]({%slug Telerik.Web.UI.RadButtonEventArgs%})*
 
 ## Methods
 

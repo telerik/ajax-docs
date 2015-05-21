@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.WindowCloseEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.WindowCloseEventArgs
 ---
 
 # Telerik.Web.UI.WindowCloseEventArgs : Sys.EventArgs 
+
+## Inheritance Hierarchy
+
+* Sys.EventArgs
+* *[Telerik.Web.UI.WindowCloseEventArgs]({%slug Telerik.Web.UI.WindowCloseEventArgs%})*
 
 ## Methods
 

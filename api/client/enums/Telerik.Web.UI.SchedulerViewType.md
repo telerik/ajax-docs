@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.SchedulerViewType
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.SchedulerViewType
 ---
 
 # enum Telerik.Web.UI.SchedulerViewType
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.SchedulerViewType]({%slug Telerik.Web.UI.SchedulerViewType%})*
 
 ## Fields
 

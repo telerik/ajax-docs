@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.AnimationType
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.AnimationType
 ---
 
 # enum Telerik.Web.UI.AnimationType
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.AnimationType]({%slug Telerik.Web.UI.AnimationType%})*
 
 ## Fields
 

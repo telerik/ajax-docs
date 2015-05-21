@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.Spell.MultipleHtmlElementsSource
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.Spell.MultipleHtmlElementsSource
 ---
 
 # Telerik.Web.UI.Spell.MultipleHtmlElementsSource : Sys.UI.Control 
+
+## Inheritance Hierarchy
+
+* Sys.UI.Control
+* *[Telerik.Web.UI.Spell.MultipleHtmlElementsSource]({%slug Telerik.Web.UI.Spell.MultipleHtmlElementsSource%})*
 
 ## Methods
 

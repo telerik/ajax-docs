@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.RadListViewUrlBuilder
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadListViewUrlBuilder
 ---
 
 # Telerik.Web.UI.RadListViewUrlBuilder  
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.RadListViewUrlBuilder]({%slug Telerik.Web.UI.RadListViewUrlBuilder%})*
 
 ## Methods
 

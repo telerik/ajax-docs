@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.RadTab
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadTab
 ---
 
 # Telerik.Web.UI.RadTab : Telerik.Web.UI.ControlItem 
+
+## Inheritance Hierarchy
+
+* [Telerik.Web.UI.ControlItem]({%slug Telerik.Web.UI.ControlItem%})
+* *[Telerik.Web.UI.RadTab]({%slug Telerik.Web.UI.RadTab%})*
 
 ## Methods
 

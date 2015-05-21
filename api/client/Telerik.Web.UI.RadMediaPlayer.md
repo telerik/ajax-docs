@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.RadMediaPlayer
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadMediaPlayer
 ---
 
 # Telerik.Web.UI.RadMediaPlayer  
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.RadMediaPlayer]({%slug Telerik.Web.UI.RadMediaPlayer%})*
 
 ## Methods
 

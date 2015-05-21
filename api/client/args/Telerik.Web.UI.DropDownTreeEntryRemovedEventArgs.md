@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.DropDownTreeEntryRemovedEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.DropDownTreeEntryRemovedEventArgs
 ---
 
 # Telerik.Web.UI.DropDownTreeEntryRemovedEventArgs : Sys.EventArgs 
+
+## Inheritance Hierarchy
+
+* Sys.EventArgs
+* *[Telerik.Web.UI.DropDownTreeEntryRemovedEventArgs]({%slug Telerik.Web.UI.DropDownTreeEntryRemovedEventArgs%})*
 
 ## Methods
 

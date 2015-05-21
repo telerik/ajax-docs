@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.RadComboBoxRequestEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadComboBoxRequestEventArgs
 ---
 
 # Telerik.Web.UI.RadComboBoxRequestEventArgs : Sys.EventArgs 
+
+## Inheritance Hierarchy
+
+* Sys.EventArgs
+* *[Telerik.Web.UI.RadComboBoxRequestEventArgs]({%slug Telerik.Web.UI.RadComboBoxRequestEventArgs%})*
 
 ## Methods
 

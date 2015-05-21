@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.InputManagerEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.InputManagerEventArgs
 ---
 
 # Telerik.Web.UI.InputManagerEventArgs : Sys.EventArgs 
+
+## Inheritance Hierarchy
+
+* Sys.EventArgs
+* *[Telerik.Web.UI.InputManagerEventArgs]({%slug Telerik.Web.UI.InputManagerEventArgs%})*
 
 ## Methods
 

@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.RibbonBarNumericTextBoxValueChangingEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RibbonBarNumericTextBoxValueChangingEventArgs
 ---
 
 # Telerik.Web.UI.RibbonBarNumericTextBoxValueChangingEventArgs : Sys.CancelEventArgs
+
+## Inheritance Hierarchy
+
+* Sys.CancelEventArgs
+* *[Telerik.Web.UI.RibbonBarNumericTextBoxValueChangingEventArgs]({%slug Telerik.Web.UI.RibbonBarNumericTextBoxValueChangingEventArgs%})*
 
 ## Methods
 

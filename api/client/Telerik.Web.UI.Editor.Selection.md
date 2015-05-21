@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.Editor.Selection
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.Editor.Selection
 ---
 
 # Telerik.Web.UI.Editor.Selection
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.Editor.Selection]({%slug Telerik.Web.UI.Editor.Selection%})*
 
 ## Methods
 

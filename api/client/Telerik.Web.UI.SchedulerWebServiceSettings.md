@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.SchedulerWebServiceSettings
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.SchedulerWebServiceSettings
 ---
 
 # Telerik.Web.UI.SchedulerWebServiceSettings : Telerik.Web.UI.WebServiceSettings 
+
+## Inheritance Hierarchy
+
+* [Telerik.Web.UI.WebServiceSettings]({%slug Telerik.Web.UI.WebServiceSettings%})
+* *[Telerik.Web.UI.SchedulerWebServiceSettings]({%slug Telerik.Web.UI.SchedulerWebServiceSettings%})*
 
 ## Methods
 

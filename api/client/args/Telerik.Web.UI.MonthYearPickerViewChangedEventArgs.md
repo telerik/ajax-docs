@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.MonthYearPickerViewChangedEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.MonthYearPickerViewChangedEventArgs
 ---
 
 # Telerik.Web.UI.MonthYearPickerViewChangedEventArgs : Sys.CancelEventArgs 
+
+## Inheritance Hierarchy
+
+* Sys.CancelEventArgs
+* *[Telerik.Web.UI.MonthYearPickerViewChangedEventArgs]({%slug Telerik.Web.UI.MonthYearPickerViewChangedEventArgs%})*
 
 ## Methods
 

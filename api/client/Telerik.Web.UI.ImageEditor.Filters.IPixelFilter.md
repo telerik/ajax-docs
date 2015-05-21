@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.ImageEditor.Filters.IPixelFilter
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.ImageEditor.Filters.IPixelFilter
 ---
 
 # Telerik.Web.UI.ImageEditor.Filters.IPixelFilter  
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.ImageEditor.Filters.IPixelFilter]({%slug Telerik.Web.UI.ImageEditor.Filters.IPixelFilter%})*
 
 ## Methods
 

@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.RadAsyncUploadProgressUpdatingEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadAsyncUploadProgressUpdatingEventArgs
 ---
 
 # Telerik.Web.UI.RadAsyncUploadProgressUpdatingEventArgs
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.RadAsyncUploadProgressUpdatingEventArgs]({%slug Telerik.Web.UI.RadAsyncUploadProgressUpdatingEventArgs%})*
 
 ## Methods
 

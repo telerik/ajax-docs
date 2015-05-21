@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.FileExplorer.FileList
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.FileExplorer.FileList
 ---
 
 # Telerik.Web.UI.FileExplorer.FileList : Sys.Component 
+
+## Inheritance Hierarchy
+
+* Sys.Component
+* *[Telerik.Web.UI.FileExplorer.FileList]({%slug Telerik.Web.UI.FileExplorer.FileList%})*
 
 ## Methods
 

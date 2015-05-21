@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.CalendarViewChangedEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.CalendarViewChangedEventArgs
 ---
 
 # Telerik.Web.UI.CalendarViewChangedEventArgs : Sys.EventArgs 
+
+## Inheritance Hierarchy
+
+* Sys.EventArgs
+* *[Telerik.Web.UI.CalendarViewChangedEventArgs]({%slug Telerik.Web.UI.CalendarViewChangedEventArgs%})*
 
 ## Methods
 

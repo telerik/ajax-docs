@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.PivotGridToolTipShowEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.PivotGridToolTipShowEventArgs
 ---
 
 # Telerik.Web.UI.PivotGridToolTipShowEventArgs : Sys.EventArgs 
+
+## Inheritance Hierarchy
+
+* Sys.EventArgs
+* *[Telerik.Web.UI.PivotGridToolTipShowEventArgs]({%slug Telerik.Web.UI.PivotGridToolTipShowEventArgs%})*
 
 ## Methods
 

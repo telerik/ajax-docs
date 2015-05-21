@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.CalendarDateSelectedEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.CalendarDateSelectedEventArgs
 ---
 
 # Telerik.Web.UI.CalendarDateSelectedEventArgs : Sys.EventArgs 
+
+## Inheritance Hierarchy
+
+* Sys.EventArgs
+* *[Telerik.Web.UI.CalendarDateSelectedEventArgs]({%slug Telerik.Web.UI.CalendarDateSelectedEventArgs%})*
 
 ## Methods
 

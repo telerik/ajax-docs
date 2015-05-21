@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.RadODataDataSource
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadODataDataSource
 ---
 
 # Telerik.Web.UI.RadODataDataSource  
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.RadODataDataSource]({%slug Telerik.Web.UI.RadODataDataSource%})*
 
 ## Methods
 

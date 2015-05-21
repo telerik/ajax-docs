@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.SchedulerTimeSlotClickEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.SchedulerTimeSlotClickEventArgs
 ---
 
 # Telerik.Web.UI.SchedulerTimeSlotClickEventArgs : Sys.EventArgs
+
+## Inheritance Hierarchy
+
+* Sys.EventArgs
+* *[Telerik.Web.UI.SchedulerTimeSlotClickEventArgs]({%slug Telerik.Web.UI.SchedulerTimeSlotClickEventArgs%})*
 
 ## Methods
 

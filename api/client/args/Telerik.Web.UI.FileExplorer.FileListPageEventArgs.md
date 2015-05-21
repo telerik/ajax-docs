@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.FileExplorer.FileListPageEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.FileExplorer.FileListPageEventArgs
 ---
 
 # Telerik.Web.UI.FileExplorer.FileListPageEventArgs : Sys.EventArgs 
+
+## Inheritance Hierarchy
+
+* Sys.EventArgs
+* *[Telerik.Web.UI.FileExplorer.FileListPageEventArgs]({%slug Telerik.Web.UI.FileExplorer.FileListPageEventArgs%})*
 
 ## Methods
 

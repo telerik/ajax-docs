@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.SplitterResizingEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.SplitterResizingEventArgs
 ---
 
 # Telerik.Web.UI.SplitterResizingEventArgs : Sys.CancelEventArgs 
+
+## Inheritance Hierarchy
+
+* Sys.CancelEventArgs
+* *[Telerik.Web.UI.SplitterResizingEventArgs]({%slug Telerik.Web.UI.SplitterResizingEventArgs%})*
 
 ## Methods
 

@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.GridCommandEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.GridCommandEventArgs
 ---
 
 # Telerik.Web.UI.GridCommandEventArgs : Sys.CancelEventArgs 
+
+## Inheritance Hierarchy
+
+* Sys.CancelEventArgs
+* *[Telerik.Web.UI.GridCommandEventArgs]({%slug Telerik.Web.UI.GridCommandEventArgs%})*
 
 ## Methods
 

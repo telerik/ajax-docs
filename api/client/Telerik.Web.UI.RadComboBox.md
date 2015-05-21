@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.RadComboBox
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadComboBox
 ---
 
 # Telerik.Web.UI.RadComboBox : Telerik.Web.UI.ControlItemContainer 
+
+## Inheritance Hierarchy
+
+* [Telerik.Web.UI.ControlItemContainer]({%slug Telerik.Web.UI.ControlItemContainer%})
+* *[Telerik.Web.UI.RadComboBox]({%slug Telerik.Web.UI.RadComboBox%})*
 
 ## Methods
 

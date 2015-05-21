@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.RadMaskedTextBoxExtender
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadMaskedTextBoxExtender
 ---
 
 # Telerik.Web.UI.RadMaskedTextBoxExtender  
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.RadMaskedTextBoxExtender]({%slug Telerik.Web.UI.RadMaskedTextBoxExtender%})*
 
 ## Methods
 

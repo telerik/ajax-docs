@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.TreeListItemDroppingEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.TreeListItemDroppingEventArgs
 ---
 
 # Telerik.Web.UI.TreeListItemDroppingEventArgs : Sys.CancelEventArgs
+
+## Inheritance Hierarchy
+
+* Sys.CancelEventArgs
+* *[Telerik.Web.UI.TreeListItemDroppingEventArgs]({%slug Telerik.Web.UI.TreeListItemDroppingEventArgs%})*
 
 ## Methods
 

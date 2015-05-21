@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.TagCloudSorting
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.TagCloudSorting
 ---
 
 # enum Telerik.Web.UI.TagCloudSorting
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.TagCloudSorting]({%slug Telerik.Web.UI.TagCloudSorting%})*
 
 ## Fields
 

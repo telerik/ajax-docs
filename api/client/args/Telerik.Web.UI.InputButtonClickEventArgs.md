@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.InputButtonClickEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.InputButtonClickEventArgs
 ---
 
 # Telerik.Web.UI.InputButtonClickEventArgs : Sys.CancelEventArgs 
+
+## Inheritance Hierarchy
+
+* Sys.CancelEventArgs
+* *[Telerik.Web.UI.InputButtonClickEventArgs]({%slug Telerik.Web.UI.InputButtonClickEventArgs%})*
 
 ## Methods
 

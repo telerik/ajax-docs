@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.RadListViewFilterExpression
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadListViewFilterExpression
 ---
 
 # Telerik.Web.UI.RadListViewFilterExpression  
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.RadListViewFilterExpression]({%slug Telerik.Web.UI.RadListViewFilterExpression%})*
 
 ## Methods
 

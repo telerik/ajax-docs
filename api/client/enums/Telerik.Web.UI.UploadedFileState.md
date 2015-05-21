@@ -2,9 +2,14 @@
 title: Telerik.Web.UI.UploadedFileState
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.UploadedFileState
 ---
 
 # enum Telerik.Web.UI.UploadedFileState
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.UploadedFileState]({%slug Telerik.Web.UI.UploadedFileState%})*
 
 ## Fields
 

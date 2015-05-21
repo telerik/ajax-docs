@@ -2,9 +2,15 @@
 title: Telerik.Web.UI.ImageEditor.EditableCanvas
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.ImageEditor.EditableCanvas
 ---
 
 # Telerik.Web.UI.ImageEditor.EditableCanvas : Telerik.Web.UI.ImageEditor.EditableImageBase 
+
+## Inheritance Hierarchy
+
+* [Telerik.Web.UI.ImageEditor.EditableImageBase]({%slug Telerik.Web.UI.ImageEditor.EditableImageBase%})
+* *[Telerik.Web.UI.ImageEditor.EditableCanvas]({%slug Telerik.Web.UI.ImageEditor.EditableCanvas%})*
 
 ## Methods
 
