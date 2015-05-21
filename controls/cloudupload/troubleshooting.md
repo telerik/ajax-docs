@@ -5,7 +5,7 @@ description: Telerik's ASP.NET CloudUpload Overview
 slug: cloudupload/troubleshooting
 tags: troubleshooting, cloudupload, asp.net
 published: True
-position: 50
+position: 60
 ---
 
 # CloudUpload Troubleshooting
@@ -41,15 +41,15 @@ More information regarding the different types of HTTP error codes can be found 
 Content
 
 
-1. Missing assembly reference 
+1. [Missing assembly reference](#missing-assembly-reference) 
 
-1. Missing or incorrect handler registration 
+1. [Missing or incorrect handler registration](#missing-handler-registration) 
 
-1. Configuring RadCloudUpload for Windows or Forms authentication 
+1. [Configuring RadCloudUpload for Windows or Forms authentication](#configuring-radcloudupload-for-windows-or-forms-authentication) 
 
-1. Missing or incorrect RadCloudUpload configuration 
+1. [Uploading large files](#increasing-the-maxrequestlength-size) 
 
-1. Extracting detailed error information
+1. [Extracting detailed error information](#extract-error-information)
 
 
 ## Missing Assembly Reference
@@ -132,3 +132,4 @@ Failures that occur during upload often lack detailed error information. In case
     }
 </script>
 ````
+
