@@ -43,3 +43,51 @@ task :xaml_docs do
 	end
   end
 end
+
+task :build_inheritance do 
+	require 'yaml'
+	config = YAML.load_file("helper_tools/build_inheritance.yml")
+	path = config["path"]
+	file_paths = config["files"]
+	override_inheritance = config["override_inheritance"]
+	override_slug = config["override_slug"]
+	title = "## Inheritance Hierarchy"
+	
+	files = file_paths.empty? ? Dir[path + "/**/*.md"] : file_paths.collect{ |file| file = Dir[path + "/**/#{file}"].first }
+	files.each do |file|
+		content = File.read(file)
+		file_config = YAML.load(content)
+		
+		generate_slug = file_config["slug"].nil? || override_slug
+		generate_inheritance = !content.include?(title) || override_inheritance
+		
+		next unless generate_slug || generate_inheritance
+		
+		if generate_slug
+			original_config = file_config.to_yaml
+			file_config["slug"] = file_config["title"]
+			content = content.gsub(original_config, file_config.to_yaml)
+		end
+		
+		if generate_inheritance
+			heading = content[/#.*/]
+			classes = heading.split(':').collect{|value| value = value.sub(/^#/, "").strip.sub(/^enum/, "").strip.sub(/<.*>/, "").strip }
+			classes.reverse!
+			list = classes.collect{|item| 
+				if !item[/^Sys/].nil? 
+					item = "* #{item}"
+				elsif item == file_config["title"]
+					item = "* *[#{item}]({%slug #{item}%})*"
+				else
+					item = "* [#{item}]({%slug #{item}%})"
+				end
+			} 
+			
+			list = list.join("\n")
+			append_index = content.index(heading) + heading.length
+			content = content.insert(append_index, "\n\n#{title}\n\n#{list}")
+		end
+		
+		File.write(file, content)
+	end
+end 
