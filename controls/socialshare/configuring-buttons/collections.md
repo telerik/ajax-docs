@@ -42,7 +42,7 @@ The buttons from the **CompactButtons** collection are shown in a **RadWindow** 
 
 The **<telerik:RadCompactButton />** in the **MainButtos collection** opens the popup centered and sized to that it fits the contents (the available buttons).It also has the properties from the [Styled Buttons]({%slug socialshare/configuring-buttons/styled%}) so that you can choose a different position and size.
 
-There is another option to show the **CompactButtons collection** - by declaring a **<telerik:RadSocialButton />**whose **SocialNetType** property is set to **CompactButton**. In that case the popup takes the dimensionsand position set for the rest of the social network popups and does not autosize to fit the contents.
+There is another option to show the **CompactButtons collection** - by declaring a **<telerik:RadSocialButton />** whose **SocialNetType** property is set to **CompactButton**. In that case the popup takes the dimensions and position set for the rest of the social network popups and does not autosize to fit the contents.
 
 See [this help article]({%slug socialshare/getting-started/structure%}) for more information on the structure of the **RadSocialShare**.
 

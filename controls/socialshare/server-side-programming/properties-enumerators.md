@@ -24,39 +24,39 @@ This is a list with the enumerators different properties of the **RadSocialShare
 
 * **SocialNetType** property of the RadSocialButton
 
-	* ShareOnTwitter - a Styled button for[www.Twitter.com](http://www.Twitter.com/)
+	* ShareOnTwitter - a Styled button for [www.Twitter.com](http://www.Twitter.com/)
 	
-	* LinkedIn - a Styled button for[www.LinkedIn.com](http://www.LinkedIn.com/)
+	* LinkedIn - a Styled button for [www.LinkedIn.com](http://www.LinkedIn.com/)
 	
-	* Delicious - a Styled button for[www.Delicious.com](http://www.Delicious.com/)
+	* Delicious - a Styled button for [www.Delicious.com](http://www.Delicious.com/)
 	
-	* Blogger - a Styled button for[www.Blogger.com](http://www.Blogger.com/)
+	* Blogger - a Styled button for [www.Blogger.com](http://www.Blogger.com/)
 	
 	* CompactButton - creates a Compact Styled button
 	
-	* Digg - a Styled button for[www.Digg.com](http://www.Digg.com/)
+	* Digg - a Styled button for [www.Digg.com](http://www.Digg.com/)
 	
 	* MailTo - creates a MailTo Styled button
 	
-	* Reddit - a Styled button for[www.Reddit.com](http://www.Reddit.com/)
+	* Reddit - a Styled button for [www.Reddit.com](http://www.Reddit.com/)
 	
 	* SendEmail - creates a SendEmail Styled button
 	
-	* StumbleUpon - a Styled button for[www.StumbleUpon.com](http://www.StumbleUpon.com/)
+	* StumbleUpon - a Styled button for [www.StumbleUpon.com](http://www.StumbleUpon.com/)
 	
-	* MySpace - a Styled button for[www.MySpace.com](http://www.MySpace.com/)
+	* MySpace - a Styled button for [www.MySpace.com](http://www.MySpace.com/)
 	
-	* Tumblr - a Styled button for[www.Tumblr.com](http://www.Tumblr.com/)
+	* Tumblr - a Styled button for [www.Tumblr.com](http://www.Tumblr.com/)
 	
-	* ShareOnFacebook - a Styled button for[www.facebook.com](http://www.facebook.com/)
+	* ShareOnFacebook - a Styled button for [www.facebook.com](http://www.facebook.com/)
 	
-	* ShareOnYammer - a Styled button for[www.yammer.com](http://www.yammer.com/)
+	* ShareOnYammer - a Styled button for [www.yammer.com](http://www.yammer.com/)
 	
-	* ShareOnPinterest - a Styled button for[www.pinterest.com](http://www.pinterest.com/)
+	* ShareOnPinterest - a Styled button for [www.pinterest.com](http://www.pinterest.com/)
 	
 	* ShareOnGooglePlus - a Styled button for [plus.google.com](https://plus.google.com/)
 	
-	* GoogleBookmarks - a Styled button for[www.google.com/bookmarks](http://www.google.com/bookmarks)
+	* GoogleBookmarks - a Styled button for [www.google.com/bookmarks](http://www.google.com/bookmarks)
 	
 	* Below are the values that create Standard buttons that have their own button type (an entire class).It is highly recommended that this special button is used instead of setting this property, as doing so will also allow you to configure themwith the properties they expose:
 	

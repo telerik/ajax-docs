@@ -20,9 +20,9 @@ Key features:
 
 * Easy [customization of the content the user shares]({%slug socialshare/functionality/controlling-posts%})
 
-* The current page or custom URL
+	* The current page or custom URL
 
-* The developer can preset the title of the post the user will share, this overriding the page's title / URL
+	* The developer can preset the title of the post the user will share, this overriding the page's title / URL
 
 * Two types of sharing buttons:
 
@@ -34,7 +34,7 @@ Key features:
 
 	* **Main Buttons** - these are always shown on the page and the social network is only a click away
 	
-	* **Compact Buttons** - If you do not want to overload the page with buttons deemed as rarely used you can leave the rest in a popup that gets opened viathe RadCompactButton.
+	* **Compact Buttons** - If you do not want to overload the page with buttons deemed as rarely used you can leave the rest in a popup that gets opened via the RadCompactButton.
 
 * [Visual Button Configurator]({%slug socialshare/design-time%}) that allows you toconfigure the button collections quickly and without writing a single line of code
 

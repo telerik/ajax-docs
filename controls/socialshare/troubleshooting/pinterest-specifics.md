@@ -30,14 +30,14 @@ For a **PinIt** button:
 For a **Follow** button:
 * UrlToShare is required. Its format must be **http://pinterest.com/USERNAME** 
 
-	>caution The proper visualization of the follow button requires the omission ofthe 'www' from the URL of the Pinterest account
+	>caution The proper visualization of the follow button requires the omission of the 'www' from the URL of the Pinterest account
 
 
 For a **PinPageImage** button:
 
 * No fields required.
 
-In order to pin an image, it must be in JPG, PNG or GIF format and its dimensions must be at least 201x201 px. More informationon pinning images is availabe in [What can I pin](https://help.pinterest.com/entries/22980352-What-can-I-pin-) help article and [How to Beat the Image Bias of Pinterest: Getting Pinned, Blocking Pins & Image Optimization Tips](http://blog.kissmetrics.com/image-bias-of-pinterest/) blog post.
+In order to pin an image, it must be in JPG, PNG or GIF format and its dimensions must be at least 201x201 px. More information on pinning images is available in [What can I pin](https://help.pinterest.com/entries/22980352-What-can-I-pin-) help article and [How to Beat the Image Bias of Pinterest: Getting Pinned, Blocking Pins & Image Optimization Tips](http://blog.kissmetrics.com/image-bias-of-pinterest/) blog post.
 
 ## Known issues
 
@@ -53,9 +53,9 @@ Pinterest Standard Buttons are created via external scripts from their network a
 
 ### JavaScript Errors
 
-* Standard button PinPageImage expects to have at least one image on the page. If no images are present on the page,the Pinterest’s javascript file throws an error in the console (e.g. *	NotFoundError:	Node was not found*).
+* Standard button PinPageImage expects to have at least one image on the page. If no images are present on the page, the Pinterest’s javascript file throws an error in the console (e.g. *NotFoundError:	Node was not found*).
 
-* When a Pinterest user profile is opened, a JavaScript error is thrown in different browsers (e.g. *	FireFox: TypeError: boardContainer[0] is undefined;	Chrome: Uncaught TypeError: Cannot read property 'offsetTop' of undefined;	IE: SCRIPT5007: Unable to get value of the property 'offsetTop': object is null or undefined*).
+* When a Pinterest user profile is opened, a JavaScript error is thrown in different browsers (e.g. *FireFox: TypeError: boardContainer[0] is undefined;	Chrome: Uncaught TypeError: Cannot read property 'offsetTop' of undefined;	IE: SCRIPT5007: Unable to get value of the property 'offsetTop': object is null or undefined*).
 
 # See Also
 
