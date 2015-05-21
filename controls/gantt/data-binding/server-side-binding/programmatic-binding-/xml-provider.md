@@ -128,4 +128,4 @@ The format of the XML file that contains the data should look similar to the bel
 
 # See Also
 
- * [Resource XML Provider]({%slug gantt/resoruces/data-binding/xml-provider-binding%})
+ * [Resource XML Provider]({%slug gantt/resources/data-binding/xml-provider-binding%})

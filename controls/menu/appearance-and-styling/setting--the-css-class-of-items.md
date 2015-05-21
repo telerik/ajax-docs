@@ -12,7 +12,7 @@ position: 4
 
 
 
-**RadMenuItem** objects have a number of properties whose value is the name of a CSS class. These properties let you alter the appearance of individual items in the menu without [using a custom skin]({%slug menu/appearance-and-styling/tutorial:-creating-a-custom-skin%}).
+**RadMenuItem** objects have a number of properties whose value is the name of a CSS class. These properties let you alter the appearance of individual items in the menu without [using a custom skin]({%slug menu/appearance-and-styling/creating-custom-skin%}).
 
 The CSS class properties are
 

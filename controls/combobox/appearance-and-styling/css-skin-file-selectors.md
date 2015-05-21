@@ -51,4 +51,4 @@ The following table lists significant CSS selectors and descriptions for RadComb
 
  * [Skins]({%slug combobox/appearance-and-styling/skins%})
 
- * [Tutorial: Creating a Custom Skin]({%slug combobox/appearance-and-styling/tutorial:-creating-a-custom-skin%})
+ * [Tutorial: Creating a Custom Skin]({%slug combobox/appearance-and-styling/tutorial-creating-a-custom-skin%})

@@ -14,7 +14,7 @@ The following article demonstrates how to implement **Resources Data Binding** w
 
 ## 
 
-In order to implement Resources Data Binding, you would need to have two additional underlying data tables then the standard **SQLDataSource** scenario. The one should be where the **Resources** are stored and the other additional table is where the **Assignments** (links between tasks and resources) are stored. For more information, navigate to the [DataBase Structure documentation]({%slug gantt/resoruces/data-binding/database-structure%}) article. In addition to the **Resources** feature, we have implemented a new column for visualization of the assigned resources in the **Treelist view - GanttResourceColumn**. This column should be defined in the **Columns** section of the **RadGantt**.
+In order to implement Resources Data Binding, you would need to have two additional underlying data tables then the standard **SQLDataSource** scenario. The one should be where the **Resources** are stored and the other additional table is where the **Assignments** (links between tasks and resources) are stored. For more information, navigate to the [DataBase Structure documentation]({%slug gantt/resources/data-binding/database-structure%}) article. In addition to the **Resources** feature, we have implemented a new column for visualization of the assigned resources in the **Treelist view - GanttResourceColumn**. This column should be defined in the **Columns** section of the **RadGantt**.
 
 The below listed steps demonstrate how to implement Resources Data Binding within SqlDataSource scenario:
 

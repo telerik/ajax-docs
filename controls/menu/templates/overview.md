@@ -12,7 +12,7 @@ position: 0
 
 ## 
 
-**RadMenu** items are extremely configurable. In addition to the preset [skins]({%slug menu/appearance-and-styling/appearance-skins%}), you can customize the appearance of menu items by [adding custom images]({%slug menu/appearance-and-styling/adding-images-to-items%}), using [CSS classes]({%slug menu/appearance-and-styling/setting--the-css-class-of-items%}), or [creating custom skins]({%slug menu/appearance-and-styling/tutorial:-creating-a-custom-skin%}). However, if you want to embed other HTML controls in a menu item, you must use templates. You can embed any content inside a **RadMenu** template, including:
+**RadMenu** items are extremely configurable. In addition to the preset [skins]({%slug menu/appearance-and-styling/appearance-skins%}), you can customize the appearance of menu items by [adding custom images]({%slug menu/appearance-and-styling/adding-images-to-items%}), using [CSS classes]({%slug menu/appearance-and-styling/setting--the-css-class-of-items%}), or [creating custom skins]({%slug menu/appearance-and-styling/creating-custom-skin%}). However, if you want to embed other HTML controls in a menu item, you must use templates. You can embed any content inside a **RadMenu** template, including:
 
 * HTML markup
 

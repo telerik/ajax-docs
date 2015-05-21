@@ -44,7 +44,7 @@ position: 0
 
 	* [Style sheet support for individual items]({%slug panelbar/appearance-and-styling/setting--the-css-class-of-items%}).
 
-	* The ability to create your own [custom skins]({%slug panelbar/appearance-and-styling/tutorial:-creating-a-custom-skin%}).
+	* The ability to create your own [custom skins]({%slug panelbar/appearance-and-styling/creating-a-custom-skin%}).
 
 	* Support for [right-to-left locales]({%slug panelbar/appearance-and-styling/rtl-support%}).
 

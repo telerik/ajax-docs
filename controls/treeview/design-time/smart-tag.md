@@ -62,7 +62,7 @@ When **RadTreeView** is bound, the Smart Tag looks like the following:
 
 * **Refresh Schema**refreshes the schema for the currently bound data source component.
 
-* **Edit RadTreeView Databindings**... opens the [NavigationItemBinding Collection Editor]({%slug treeview/!not-referenced-topics!/navigationitembinding-collection-editor%}), where you can specify [databindings]({%slug treeview/!not-referenced-topics!/data-bindings%}) to map between the fields in the data source and **RadTreeNode** properties.
+* **Edit RadTreeView Databindings**... opens the NavigationItemBinding Collection Editor, where you can specify databindings to map between the fields in the data source and **RadTreeNode** properties.
 
 * Once the Data Source is chosen, you can select each one of the following: **DataFieldID**, **DataFieldParentID**, **DataTextField**, **DataValueField** and **DataNavigationUrlField**. For the first two, you need to select the fields in the Data Source that will be used when creating the hierarchy of the **RadTreeView**. The rest will serve data respectively for the **Text, Value** and **NavigateUrl** properties of **RadTreeNodes**.
 

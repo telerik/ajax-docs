@@ -11,7 +11,7 @@ position: 2
 # XML Provider Binding
 
 
-This help article describes how use [Gantt Resources]({%slug gantt/resoruces/overview%}) with the built-in [Xml Provider]({%slug gantt/data-binding/server-side-binding/programmatic-binding-/xml-provider%}).
+This help article describes how use [Gantt Resources]({%slug gantt/resources/overview%}) with the built-in [Xml Provider]({%slug gantt/data-binding/server-side-binding/programmatic-binding-/xml-provider%}).
 
 There is not much difference in using XML Provider with Resources compared to using [Xml Provider]({%slug gantt/data-binding/server-side-binding/programmatic-binding-/xml-provider%}) without resources. Just set the **EnableResources** property of the Gantt to **true** and extend the XML file to support resources.
 

@@ -32,7 +32,7 @@ You can control the way buttons are rendered using the **ButtonSettings** proper
 
 * **AreaWidth** - sets the width of the buttons when their **position** is either Left or Right. Note that **AreaWidth** value plus the width of the listbox equals the **Width** property of the RadListBox.
 
-* **RenderButtonText** - When set to True (default is False) the text of the buttons is shown as well. To change the text of the buttons please see the [Localization]({%slug listbox/accessibility-and-internationalization-/localization%}) article.
+* **RenderButtonText** - When set to True (default is False) the text of the buttons is shown as well. To change the text of the buttons please see the [Localization]({%slug listbox/accessibility-and-internationalization/localization%}) article.
 
 ![Render button text](images/listbox_render_button_text.png)
 
@@ -58,4 +58,4 @@ You can control the way buttons are rendered using the **ButtonSettings** proper
 
  * [Drag and Drop]({%slug listbox/functionality/drag-and-drop%})
 
- * [Localization]({%slug listbox/accessibility-and-internationalization-/localization%})
+ * [Localization]({%slug listbox/accessibility-and-internationalization/localization%})

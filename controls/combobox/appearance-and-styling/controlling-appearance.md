@@ -66,4 +66,4 @@ To cause the drop-down list to expand on the page somewhere other than the defau
 
 # See Also
 
- * [Tutorial: Change the Appearance of the Input Element]({%slug combobox/appearance-and-styling/tutorial:-change-the-appearance-of-the-input-element%})
+ * [Tutorial: Change the Appearance of the Input Element]({%slug combobox/appearance-and-styling/change-the-appearance-of-the-input-element%})

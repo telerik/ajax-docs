@@ -17,4 +17,4 @@ The [Telerik XAML SDK repository](https://github.com/telerik/xaml-sdk/tree/mast
 * __[Html generator](https://github.com/telerik/xaml-sdk/tree/master/WordsProcessing/HtmlGenerator)__ - This example demonstrates how you can create a RadFlowDocument instance and export it to HTML. The demo gives you the ability to save the generated HTML or view it in a WebBrowser.
 
 
->You can also check the [SDK Samples Browser]({%slug sdk-samples-browser%}) that provides a more convenient approach in exploring and executing the examples in the Telerik XAML SDK repository. The SDK Samples Browser application is available for download from [this link](http://demos.telerik.com/xaml-sdkbrowser/).
+>You can also check the [SDK Samples Browser](http://docs.telerik.com/devtools/silverlight/sdk-samples-browser) that provides a more convenient approach in exploring and executing the examples in the Telerik XAML SDK repository. The SDK Samples Browser application is available for download from [this link](http://demos.telerik.com/xaml-sdkbrowser/).

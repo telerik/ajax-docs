@@ -28,13 +28,13 @@ The **Resources** are displayed next to the task that they are associated with i
 
 The **RadGantt** control allows the implementation of the **Resources** in each of its binding scenarios which are listed below:
 
-* [Declarative Data Binding (SqlDataSource)]({%slug gantt/resoruces/data-binding/declarative-binding%})
+* [Declarative Data Binding (SqlDataSource)]({%slug gantt/data-binding/server-side-binding/declarative-binding%})
 
-* [XML Provider Data Binding]({%slug gantt/resoruces/data-binding/xml-provider-binding%})
+* [XML Provider Data Binding]({%slug gantt/resources/data-binding/xml-provider-binding%})
 
-* [Web Service DataBinding]({%slug gantt/resoruces/data-binding/web-service-binding%})
+* [Web Service DataBinding]({%slug gantt/data-binding/client-side-binding/web-service-binding%})
 
-* [Custom EntityFramework Provider Data Binding]({%slug gantt/resoruces/data-binding/custom-entityframework-provider%})
+* [Custom EntityFramework Provider Data Binding]({%slug gantt/resources/data-binding/custom-entityframework-provider%})
 
 ## Editing Assignments
 

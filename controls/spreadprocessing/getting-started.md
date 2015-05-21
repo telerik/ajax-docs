@@ -100,7 +100,7 @@ The __RadSpreadProcessing__ library supports a variety of formats to which you c
 
 ## Using RadSpreadsheet
 
-__RadSpreadsheet__ is a UI control part of the Telerik UI for WPF/Silverlight suites. The document model explained in this section of the documentation and all its features are shared between the __RadSpreadProcessing__ library and __RadSpreadsheet__. [This help section]({%slug radspreadsheet-overview%}) contains information about all UI-specific features of __RadSpreadsheet__.
+__RadSpreadsheet__ is a UI control part of the Telerik UI for WPF/Silverlight suites. The document model explained in this section of the documentation and all its features are shared between the __RadSpreadProcessing__ library and __RadSpreadsheet__. [This help section]({%slug radspreadprocessing-overview%}) contains information about all UI-specific features of __RadSpreadsheet__.
         
 
 # See Also

@@ -50,7 +50,7 @@ position: 0
 
 * [Style sheet support for individual items]({%slug menu/appearance-and-styling/setting--the-css-class-of-items%}).
 
-* The ability to create your own [custom skins]({%slug menu/appearance-and-styling/tutorial:-creating-a-custom-skin%}).
+* The ability to create your own [custom skins]({%slug menu/appearance-and-styling/creating-custom-skin%}).
 
 * Support for [right-to-left locales]({%slug menu/accessibility-and-internationalization/rtl-support%}).
 

@@ -58,6 +58,6 @@ For a live example, see [Right to Left Support](http://demos.telerik.com/aspnet-
 
  * [Setting  the CSS Class of Items]({%slug menu/appearance-and-styling/setting--the-css-class-of-items%})
 
- * [Tutorial: Creating A Custom Skin]({%slug menu/appearance-and-styling/tutorial:-creating-a-custom-skin%})
+ * [Tutorial: Creating A Custom Skin]({%slug menu/appearance-and-styling/creating-custom-skin%})
 
  * [Overview]({%slug menu/templates/overview%})

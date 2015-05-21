@@ -161,4 +161,4 @@ End Sub
 
 # See Also
 
- * [How to Extend the RadAsyncUpload handler]({%slug asyncupload/application-scenarios/how-to-extend-the-radasyncupload-handler%})
+ * [How to Extend the RadAsyncUpload handler]({%slug asyncupload/how-to/how-to-extend-the-radasyncupload-handler%})

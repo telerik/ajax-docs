@@ -74,7 +74,7 @@ function ClearInvalidInputs() {
 |  **getID**  | string | string | Creates a new ID, based on the **RadAsyncUpload** ClientID, the supplied parameter, and the zero based index of the current row. |
 | ------ | ------ | ------ | ------ |
 
->caution This method must be used when[adding custom fields]({%slug asyncupload/application-scenarios/adding-information-to-uploaded-files%})to a **RadAsyncUpload** instance.
+>caution This method must be used when[adding custom fields]({%slug asyncupload/how-to/adding-information-to-uploaded-files%})to a **RadAsyncUpload** instance.
 >
 
 ````ASPNET

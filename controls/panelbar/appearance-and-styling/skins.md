@@ -26,7 +26,7 @@ To use the panel bar with no skin, set the **Skin** property to an empty string 
 
 ## Customizing Skins
 
-You can tweak the existing skins, or create your own. Each skin has two main elements: images and a stylesheet. When creating your own, it is a good idea to start with the stylesheet for an existing skin and alter that. See [Tutorial: Creating a Custom Skin]({%slug panelbar/appearance-and-styling/tutorial:-creating-a-custom-skin%}) for a step-by-step walk through. To use your own skin
+You can tweak the existing skins, or create your own. Each skin has two main elements: images and a stylesheet. When creating your own, it is a good idea to start with the stylesheet for an existing skin and alter that. See [Tutorial: Creating a Custom Skin]({%slug panelbar/appearance-and-styling/creating-a-custom-skin%}) for a step-by-step walk through. To use your own skin
 
 1. Add the new CSS file to your project.
 

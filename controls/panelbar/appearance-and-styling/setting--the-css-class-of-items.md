@@ -12,7 +12,7 @@ position: 3
 
 
 
-**RadPanelItem** objects have a number of properties whose value is the name of a CSS class. These properties let you alter the appearance of individual tabs in the tab strip without using a [custom skin]({%slug panelbar/appearance-and-styling/tutorial:-creating-a-custom-skin%}).
+**RadPanelItem** objects have a number of properties whose value is the name of a CSS class. These properties let you alter the appearance of individual tabs in the tab strip without using a [custom skin]({%slug panelbar/appearance-and-styling/creating-a-custom-skin%}).
 
 >caution Typically, the [Skin]({%slug panelbar/appearance-and-styling/skins%}) overrides some of the attributes set using the CSS class properties. If your CSS class does not achieve the desired effect, try using the **!important** modifier, or look at the [skin CSS file]({%slug panelbar/appearance-and-styling/understanding-the-skin-css-file%}) to understand what is happening.
 >

@@ -14,7 +14,7 @@ position: 2
 
 The server-side **FileUploaded** occurs after a file is uploaded and a postback is triggered.
 
->note When the [PostbackTriggers]({%slug asyncupload/application-scenarios/how-to-persist-uploaded-files%}) property of the **RadAsyncUpload** is set to a particular button, the **FileUploaded** event will fire only when that button is clicked.
+>note When the [PostbackTriggers]({%slug asyncupload/how-to/how-to-persist-uploaded-files%}) property of the **RadAsyncUpload** is set to a particular button, the **FileUploaded** event will fire only when that button is clicked.
 >
 
 The **FileUploaded** event handler receives two arguments:
@@ -27,7 +27,7 @@ The **FileUploaded** event handler receives two arguments:
 
 * **File** - Provides reference to the file uploaded.
 
-* **UploadResult** - A container object containing information sent from the **RadAsyncUpload** file handler. For additional information, visit [How to extend the RadAsyncUpload handler.]({%slug asyncupload/application-scenarios/how-to-extend-the-radasyncupload-handler%})
+* **UploadResult** - A container object containing information sent from the **RadAsyncUpload** file handler. For additional information, visit [How to extend the RadAsyncUpload handler.]({%slug asyncupload/how-to/how-to-extend-the-radasyncupload-handler%})
 
 
 The example below demonstrates how to prepare the previously uploaded file to send as an e-mail attachment:
@@ -66,6 +66,6 @@ End Sub
 
 [Getting Started]({%slug asyncupload/getting-started%})
 
-[How to extend the RadAsyncUpload handler]({%slug asyncupload/application-scenarios/how-to-extend-the-radasyncupload-handler%})
+[How to extend the RadAsyncUpload handler]({%slug asyncupload/how-to/how-to-extend-the-radasyncupload-handler%})
 
 [Server-Side Events]({%slug asyncupload/server-side-programming/events%})

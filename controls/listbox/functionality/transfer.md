@@ -38,6 +38,6 @@ Please check [this help topic]({%slug listbox/data-binding/automatic-database-up
 
  * [Button Settings]({%slug listbox/functionality/button-settings%})
 
- * [Localization]({%slug listbox/accessibility-and-internationalization-/localization%})
+ * [Localization]({%slug listbox/accessibility-and-internationalization/localization%})
 
  * [Transfer Demo](http://demos.telerik.com/aspnet-ajax/listbox/examples/functionality/transfer/defaultcs.aspx)

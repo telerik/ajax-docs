@@ -55,6 +55,6 @@ The following table lists the CSS selectors and descriptions for **RadMenu** sty
 
  * [Understanding the Skin CSS File]({%slug menu/appearance-and-styling/understanding-the-skin-css-file%})
 
- * [Tutorial: Creating A Custom Skin]({%slug menu/appearance-and-styling/tutorial:-creating-a-custom-skin%})
+ * [Tutorial: Creating A Custom Skin]({%slug menu/appearance-and-styling/creating-custom-skin%})
 
  * [Setting  the CSS Class of Items]({%slug menu/appearance-and-styling/setting--the-css-class-of-items%})

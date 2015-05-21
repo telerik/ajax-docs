@@ -10,7 +10,7 @@ position: 0
 
 # Database Structure
 
-To store **Gantt Resources** in a database it is needed to extend the [minimum requireddatabase structure]({%slug gantt/data-binding/database-structure%}). Two additional tables are needed. The first will keep the resources data and the second will keep the Assignments. *GanttResourceAssignments* table represents themany to many relationship between the [Tasks]({%slug gantt/structure/tasks%}) and [Resources]({%slug gantt/resoruces/overview%}).
+To store **Gantt Resources** in a database it is needed to extend the [minimum requireddatabase structure]({%slug gantt/data-binding/database-structure%}). Two additional tables are needed. The first will keep the resources data and the second will keep the Assignments. *GanttResourceAssignments* table represents themany to many relationship between the [Tasks]({%slug gantt/structure/tasks%}) and [Resources]({%slug gantt/resources/overview%}).
 
 ## MSSQL Database Schema
 
@@ -107,7 +107,7 @@ GO
 
  * [Tasks]({%slug gantt/structure/tasks%})
 
- * [Resources]({%slug gantt/resoruces/overview%})
+ * [Resources]({%slug gantt/resources/overview%})
 
  * [Dependencies]({%slug gantt/structure/dependencies%})
 

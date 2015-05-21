@@ -134,6 +134,6 @@ End Function
 
 # See Also
 
- * [Resources]({%slug gantt/resoruces/overview%})
+ * [Resources]({%slug gantt/resources/overview%})
 
  * [Custom Entity Provider]({%slug gantt/data-binding/providers/custom-entityframework-provider%})

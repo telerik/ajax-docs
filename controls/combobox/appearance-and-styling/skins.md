@@ -24,7 +24,7 @@ The control comes with a number of built-in skins:
 
 ## Customizing Skins
 
-You can tweak the existing skins, or create your own. Each skin has two main elements: images and a stylesheet. When creating your own, it is a good idea to start with the stylesheet of an existing skin and alter that. See the [Tutorial: Creating a Custom Skin]({%slug combobox/appearance-and-styling/tutorial:-creating-a-custom-skin%}) topic for a step-by-step walk through. To use your own skin
+You can tweak the existing skins, or create your own. Each skin has two main elements: images and a stylesheet. When creating your own, it is a good idea to start with the stylesheet of an existing skin and alter that. See the [Tutorial: Creating a Custom Skin]({%slug combobox/appearance-and-styling/tutorial-creating-a-custom-skin%}) topic for a step-by-step walk through. To use your own skin
 
 1. Add the new CSS file to your project.
 
@@ -237,10 +237,8 @@ The stylesheet for the "Black" skin is as follows:
 
  * [Overview]({%slug combobox/templates/overview%})
 
- * [Tutorial: Creating a Custom Skin]({%slug combobox/appearance-and-styling/tutorial:-creating-a-custom-skin%})
+ * [Tutorial: Creating a Custom Skin]({%slug combobox/appearance-and-styling/tutorial-creating-a-custom-skin%})
 
  * [Understanding the Skin CSS File]({%slug combobox/appearance-and-styling/understanding-the-skin-css-file%})
-
- * [Tutorial: Creating a Custom Skin]({%slug combobox/appearance-and-styling/tutorial:-creating-a-custom-skin%})
 
  * [Understanding the Skin CSS File]({%slug combobox/appearance-and-styling/understanding-the-skin-css-file%})

@@ -12,7 +12,7 @@ position: 0
 
 
 
-**RadPanelBar** items are extremely configurable. In addition to the preset [skins]({%slug panelbar/appearance-and-styling/skins%}), you can customize the appearance of panel items by [adding custom images]({%slug panelbar/appearance-and-styling/adding-images-to-items%}), using [CSS classes]({%slug panelbar/appearance-and-styling/setting--the-css-class-of-items%}), or [creating custom skins]({%slug panelbar/appearance-and-styling/tutorial:-creating-a-custom-skin%}). However, if you want to embed other HTML controls in a panel item, you must use templates. You can embed any content inside a **RadPanelItem** template, including:
+**RadPanelBar** items are extremely configurable. In addition to the preset [skins]({%slug panelbar/appearance-and-styling/skins%}), you can customize the appearance of panel items by [adding custom images]({%slug panelbar/appearance-and-styling/adding-images-to-items%}), using [CSS classes]({%slug panelbar/appearance-and-styling/setting--the-css-class-of-items%}), or [creating custom skins]({%slug panelbar/appearance-and-styling/creating-a-custom-skin%}). However, if you want to embed other HTML controls in a panel item, you must use templates. You can embed any content inside a **RadPanelItem** template, including:
 
 * HTML markup
 

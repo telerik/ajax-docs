@@ -45,6 +45,6 @@ The following table lists the CSS selectors and descriptions for **RadPanelBar**
 
  * [Understanding the Skin CSS File]({%slug panelbar/appearance-and-styling/understanding-the-skin-css-file%})
 
- * [Tutorial: Creating A Custom Skin]({%slug panelbar/appearance-and-styling/tutorial:-creating-a-custom-skin%})
+ * [Tutorial: Creating A Custom Skin]({%slug panelbar/appearance-and-styling/creating-a-custom-skin%})
 
  * [Setting  the CSS Class of Items]({%slug panelbar/appearance-and-styling/setting--the-css-class-of-items%})
