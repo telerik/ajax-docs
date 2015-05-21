@@ -97,12 +97,12 @@ Explained below is a simple method for modifying the image sprites of **RadImage
 1. Once you are ready, save your work and reload the page. You will have a brand new skin based on Telerik's **Default** skin of **RadImageEditor**.
 
 # See Also
-* [RadFormDecorator]({%slug controls/formdecorator%})
+* [RadFormDecorator]({%slug formdecorator/overview%})
 
-* [RadButton]({%slug controls/button%})
+* [RadButton]({%slug button/telerik's-asp.net-button-overview%})
 
-* [RadComboBox]({%slug controls/combobox%})
+* [RadComboBox]({%slug combobox/overview%})
  
-* [RadToolBar]({%slug controls/toolbar%})
+* [RadToolBar]({%slug toolbar/overview%})
  
-* [RadDock]({%slug controls/dock%})
+* [RadDock]({%slug dock/overview%})
