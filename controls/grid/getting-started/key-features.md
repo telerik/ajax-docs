@@ -14,7 +14,7 @@ position: 0
 
 ## ![](images/grd_radgrid_default_thumb.png)
 
-1. [Cross-Browser Support]({%slug grid/getting-started/browser-support%}) - Telerik RadGrid supports the full set of features on most popular browsers like Internet Explorer, Gecko-based browsers (Mozilla, Firefox, Netscape), Opera, Safari and Chrome.
+1. [Cross-Browser Support](http://www.telerik.com/aspnet-ajax/tech-sheets/browser-support) - Telerik RadGrid supports the full set of features on most popular browsers like Internet Explorer, Gecko-based browsers (Mozilla, Firefox, Netscape), Opera, Safari and Chrome.
 
 1. [Accessibility Support](http://www.telerik.com/help/aspnet-ajax/grid-accessibility-compliance.html) - RadGrid has **level A** W3C compliance and [Section 508 compliance](http://demos.telerik.com/aspnet-ajax/grid/examples/generalfeatures/accessibility/defaultcs.aspx) in conformance with the Section 508 standards listed on the [official government site](http://www.section508.gov/).
 
