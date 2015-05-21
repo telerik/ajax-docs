@@ -16,7 +16,7 @@ position: 0
 
 Each of the controls included in the Telerik UI for ASP.NET AJAX suite is styled by two CSS files that are loaded in a certain order. The first one - ControlName.css, also called the base stylesheet, contains CSS properties and values that are common for all skins, i.e. it is layout-specific, not skin-specific. These are CSS float, padding, margin, font-size, font-family, etc. In the general case, when creating a custom skin for a control this file should not be edited, unless the custom skin needs different sizes, paddings or margins. The second file represents the actual skin of the control, and its name consists of the control name plus the skin name, i.e. Notification.Default.css. Upon creating a custom skin for the control, one should edit that particular file, as it contains skin-specific CSS properties, and references to images, colors, borders and backgrounds.
 
-The **RadNotification** control contains one more control from Telerik AJAX UI Suite: **RadContextMenu** which is also styled with two CSS files that are loaded in a certain order. In order to have custom RadNotification it will be necessary to customize also **RadContextMenu** ([Creating a custom skin for RadMenu]({%slug menu/appearance-and-styling/tutorial:creating-a-custom-skin%})).
+The **RadNotification** control contains one more control from Telerik AJAX UI Suite: **RadContextMenu** which is also styled with two CSS files that are loaded in a certain order. In order to have custom RadNotification it will be necessary to customize also **RadContextMenu** ([Creating a custom skin for RadMenu]({%slug menu/appearance-and-styling/creating-custom-skin %})).
 
 ## Creating a Custom Skin for RadNotification for ASP.NET AJAX from an Existing One
 
