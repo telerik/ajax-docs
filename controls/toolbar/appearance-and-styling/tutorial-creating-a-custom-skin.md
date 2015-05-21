@@ -337,4 +337,4 @@ For more information about Cascading Style Sheets, see
 
  * [Skins]({%slug toolbar/appearance-and-styling/skins%})
 
- * [Setting  the CSS Class of Buttons]({%slug toolbar/appearance-and-styling/setting--the-css-class-of-buttons%})
+ * [Setting  the CSS Class of Buttons]({%slug toolbar/appearance-and-styling/setting-the-css-class-of-buttons%})

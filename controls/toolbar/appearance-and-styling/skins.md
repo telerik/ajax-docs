@@ -23,7 +23,7 @@ position: 3
 
 ## Using No Skin
 
-To use the toolbar with no skin, set the **Skin** property to an empty string and set the **EnableEmbeddedSkins** property to **False**. When using no skin, you will probably want to use your own [CSS classes]({%slug toolbar/appearance-and-styling/setting--the-css-class-of-buttons%}) to adjust the appearance of the toolbar.
+To use the toolbar with no skin, set the **Skin** property to an empty string and set the **EnableEmbeddedSkins** property to **False**. When using no skin, you will probably want to use your own [CSS classes]({%slug toolbar/appearance-and-styling/setting-the-css-class-of-buttons%}) to adjust the appearance of the toolbar.
 
 ## Customizing Skins
 
@@ -41,7 +41,7 @@ For more information on the CSS File structure, see [Understanding the Skin CSS 
 
 # See Also
 
- * [Setting  the CSS Class of Buttons]({%slug toolbar/appearance-and-styling/setting--the-css-class-of-buttons%})
+ * [Setting  the CSS Class of Buttons]({%slug toolbar/appearance-and-styling/setting-the-css-class-of-buttons%})
 
  * [Adding Images to Buttons]({%slug toolbar/appearance-and-styling/adding-images-to-buttons%})
 

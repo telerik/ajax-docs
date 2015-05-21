@@ -49,7 +49,7 @@ When a button is selected, the properties pane on the right of the **RadToolBar 
 
 * **Enabled** controls whether the button is initially enabled or disabled.
 
-* **CssClass**, **OuterCssClass**, **FocusedCssClass**, **DisabledCssClass**, **HoveredCssClass**, and **ClickedCssClass** [control the appearance of the button]({%slug toolbar/appearance-and-styling/setting--the-css-class-of-buttons%}) when it is in its normal state, has focus, is disabled, is under the mouse, and is clicked, respectively.(**RadToolBarButton** has an additional property, **CheckedCssClass**, for when it is checked).
+* **CssClass**, **OuterCssClass**, **FocusedCssClass**, **DisabledCssClass**, **HoveredCssClass**, and **ClickedCssClass** [control the appearance of the button]({%slug toolbar/appearance-and-styling/setting-the-css-class-of-buttons%}) when it is in its normal state, has focus, is disabled, is under the mouse, and is clicked, respectively.(**RadToolBarButton** has an additional property, **CheckedCssClass**, for when it is checked).
 
 * **ImageUrl**, **FocusedImageUrl**, **DisabledImageUrl**, **HoveredImageUrl**, and **ClickedImageUrl** let you [add an image]({%slug toolbar/appearance-and-styling/adding-images-to-buttons%}) that appears next to the button text when it is in its normal state, focused, disabled, under the mouse, or clicked, respectively. (**RadToolBarButton** has an additional property, **CheckedImageUrl**, for supplying an image when the button is checked.)
 

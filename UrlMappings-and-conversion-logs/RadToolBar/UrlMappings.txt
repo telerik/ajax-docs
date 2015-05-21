@@ -8,7 +8,7 @@ http://www.telerik.com/help/aspnet-ajax/toolbar-appearance-creating-custom-skins
 http://www.telerik.com/help/aspnet-ajax/toolbar-appearance-css-file.html http://docs.telerik.com/devtools/aspnet-ajax/controls/toolbar/appearance-and-styling/understanding-the-skin-css-file
 http://www.telerik.com/help/aspnet-ajax/toolbar-appearance-css-selectors.html http://docs.telerik.com/devtools/aspnet-ajax/controls/toolbar/appearance-and-styling/css-skin-file-selectors
 http://www.telerik.com/help/aspnet-ajax/toolbar-appearance-html-structure-explained.html http://docs.telerik.com/devtools/aspnet-ajax/controls/toolbar/appearance-and-styling/html-structure
-http://www.telerik.com/help/aspnet-ajax/toolbar-appearance-item-css-class.html http://docs.telerik.com/devtools/aspnet-ajax/controls/toolbar/appearance-and-styling/setting--the-css-class-of-buttons
+http://www.telerik.com/help/aspnet-ajax/toolbar-appearance-item-css-class.html http://docs.telerik.com/devtools/aspnet-ajax/controls/toolbar/appearance-and-styling/setting-the-css-class-of-buttons
 http://www.telerik.com/help/aspnet-ajax/toolbar-appearance-item-images.html http://docs.telerik.com/devtools/aspnet-ajax/controls/toolbar/appearance-and-styling/adding-images-to-buttons
 http://www.telerik.com/help/aspnet-ajax/toolbar-appearance-rtl.html http://docs.telerik.com/devtools/aspnet-ajax/controls/toolbar/appearance-and-styling/rtl-support
 http://www.telerik.com/help/aspnet-ajax/toolbar-appearance-separators.html http://docs.telerik.com/devtools/aspnet-ajax/controls/toolbar/appearance-and-styling/separators

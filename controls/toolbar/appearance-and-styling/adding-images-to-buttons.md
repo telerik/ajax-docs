@@ -158,4 +158,4 @@ will be rendered like this:
 
  * [Overview]({%slug toolbar/templates/overview%})
 
- * [Setting  the CSS Class of Buttons]({%slug toolbar/appearance-and-styling/setting--the-css-class-of-buttons%})
+ * [Setting  the CSS Class of Buttons]({%slug toolbar/appearance-and-styling/setting-the-css-class-of-buttons%})

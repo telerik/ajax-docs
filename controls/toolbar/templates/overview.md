@@ -14,7 +14,7 @@ position: 0
 
 ## 
 
-**RadToolBar** items are extremely configurable. In addition to the preset [skins]({%slug toolbar/appearance-and-styling/skins%}), you can customize the appearance of menu items by [adding custom images]({%slug toolbar/appearance-and-styling/adding-images-to-buttons%}), using [CSS classes]({%slug toolbar/appearance-and-styling/setting--the-css-class-of-buttons%}), or [creating custom skins]({%slug toolbar/appearance-and-styling/tutorial-creating-a-custom-skin%}). However, if you want to embed other HTML controls in a toolbar button, you must use templates. You can embed any content inside an item template, including:
+**RadToolBar** items are extremely configurable. In addition to the preset [skins]({%slug toolbar/appearance-and-styling/skins%}), you can customize the appearance of menu items by [adding custom images]({%slug toolbar/appearance-and-styling/adding-images-to-buttons%}), using [CSS classes]({%slug toolbar/appearance-and-styling/setting-the-css-class-of-buttons%}), or [creating custom skins]({%slug toolbar/appearance-and-styling/tutorial-creating-a-custom-skin%}). However, if you want to embed other HTML controls in a toolbar button, you must use templates. You can embed any content inside an item template, including:
 
 * HTML markup
 

@@ -180,4 +180,4 @@ The LI element for a separator has the **.rtbSeparator** class applied. Note tha
 
  * [Skins]({%slug toolbar/appearance-and-styling/skins%})
 
- * [Setting  the CSS Class of Buttons]({%slug toolbar/appearance-and-styling/setting--the-css-class-of-buttons%})
+ * [Setting  the CSS Class of Buttons]({%slug toolbar/appearance-and-styling/setting-the-css-class-of-buttons%})

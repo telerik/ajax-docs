@@ -55,4 +55,4 @@ The following table lists the CSS selectors and descriptions for **RadToolBar** 
 
  * [Tutorial Creating A Custom Skin]({%slug toolbar/appearance-and-styling/tutorial-creating-a-custom-skin%})
 
- * [Setting  the CSS Class of Buttons]({%slug toolbar/appearance-and-styling/setting--the-css-class-of-buttons%})
+ * [Setting  the CSS Class of Buttons]({%slug toolbar/appearance-and-styling/setting-the-css-class-of-buttons%})

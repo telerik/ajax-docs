@@ -42,7 +42,7 @@ position: 0
 
 * Built-in [skins]({%slug toolbar/appearance-and-styling/skins%}) to quickly change the look and feel.
 
-* [Style sheet support for individual items]({%slug toolbar/appearance-and-styling/setting--the-css-class-of-buttons%}).
+* [Style sheet support for individual items]({%slug toolbar/appearance-and-styling/setting-the-css-class-of-buttons%}).
 
 * The ability to create your own [custom skins]({%slug toolbar/appearance-and-styling/tutorial-creating-a-custom-skin%}).
 
