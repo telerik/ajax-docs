@@ -32,7 +32,7 @@ RadSpell can be configured to ignore certain words or text fragments by setting 
 
 * **Urls**: specifies to ignore Urls when spellchecking (e.g. 'http://www.telerik.com/Telerik RadSpell')
 
-* **EmailAddresses**: specifies to ignore Email addresses when spellchecking ([support@telerik.com](mailto:support@telerik.com))
+* **EmailAddresses**: specifies to ignore Email addresses when spellchecking (e.g., mail@example.com)
 
 * **All**: specifies to ignore all fragments above when spellchecking
 
