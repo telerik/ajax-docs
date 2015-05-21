@@ -36,4 +36,4 @@ RadSpell for ASP.NET AJAX is a cross-browser server control, which uses no-postb
 
 * Ability to check multiple controls at once
 
-If you need further assistance, please contact [clientservice@Telerik.com](mailto:clientservice@telerik.com)
+
