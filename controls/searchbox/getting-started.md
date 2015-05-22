@@ -18,7 +18,7 @@ position: 1
 
 	![searchbox drag from toolbox](images/searchbox_drag_from_toolbox.png)
 
-1. From the [Design-time Smart Tag]({%slug searchbox/design-time/design-time%}) choose the desired Data Source using the **Choose Data Source** field.
+1. From the [Design-time Smart Tag]({%slug searchbox/design-time%}) choose the desired Data Source using the **Choose Data Source** field.
 
 	![searchbox smart tag](images/searchbox_smart_tag.png)
 
