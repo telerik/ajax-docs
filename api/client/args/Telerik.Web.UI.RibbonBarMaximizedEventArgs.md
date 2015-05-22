@@ -1,8 +1,8 @@
 ---
-title: Telerik.Web.UI.RibbonBarMaximizedEventArgs
+title: Telerik.Web.UI.RibbonBarMaximizеdEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
-slug: Telerik.Web.UI.RibbonBarMaximizedEventArgs
+slug: Telerik.Web.UI.RibbonBarMaximizеdEventArgs
 ---
 
 # Telerik.Web.UI.RibbonBarMaximizеdEventArgs

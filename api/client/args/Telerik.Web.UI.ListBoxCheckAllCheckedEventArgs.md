@@ -1,8 +1,8 @@
 ---
-title: Telerik.Web.UI.ListBoxCheckAllCheckingEventArgs
+title: Telerik.Web.UI.ListBoxCheckAllCheckedEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
-slug: Telerik.Web.UI.ListBoxCheckAllCheckingEventArgs
+slug: Telerik.Web.UI.ListBoxCheckAllCheckedEventArgs
 ---
 
 # Telerik.Web.UI.ListBoxCheckAllCheckedEventArgs : Sys.EventArgs 

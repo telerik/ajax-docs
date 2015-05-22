@@ -1,8 +1,8 @@
 ---
-title: Telerik.Web.UI.GanttTaskMoveEndArgs
+title: Telerik.Web.UI.GanttTaskMoveEndEventArgs 
 page_title: Client-side API Reference
 description: Client-side API Reference
-slug: Telerik.Web.UI.GanttTaskMoveEndArgs
+slug: Telerik.Web.UI.GanttTaskMoveEndEventArgs 
 ---
 
 # Telerik.Web.UI.GanttTaskMoveEndEventArgs : Telerik.Web.UI.GanttCancelEventArgs

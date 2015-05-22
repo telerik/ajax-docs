@@ -5,11 +5,11 @@ description: Client-side API Reference
 slug: Telerik.Web.UI.RadMenuItemClickedEventArgs
 ---
 
-# Telerik.Web.UI.RadMenuItemClickedEventArgs : RadMenuItemEventArgs 
+# Telerik.Web.UI.RadMenuItemClickedEventArgs : Telerik.Web.UI.RadMenuItemEventArgs
 
 ## Inheritance Hierarchy
 
-* [RadMenuItemEventArgs]({%slug RadMenuItemEventArgs%})
+* [Telerik.Web.UI.RadMenuItemEventArgs]({%slug Telerik.Web.UI.RadMenuItemEventArgs%})
 * *[Telerik.Web.UI.RadMenuItemClickedEventArgs]({%slug Telerik.Web.UI.RadMenuItemClickedEventArgs%})*
 
 

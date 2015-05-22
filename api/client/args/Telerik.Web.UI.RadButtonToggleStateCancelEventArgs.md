@@ -1,8 +1,8 @@
 ---
-title: Telerik.Web.UI.RadButtonToggleStateEventArgs
+title: Telerik.Web.UI.RadButtonToggleStateCancelEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
-slug: Telerik.Web.UI.RadButtonToggleStateEventArgs
+slug: Telerik.Web.UI.RadButtonToggleStateCancelEventArgs
 ---
 
 # Telerik.Web.UI.RadButtonToggleStateCancelEventArgs : Telerik.Web.UI.RadButtonCheckedCancelEventArgs 

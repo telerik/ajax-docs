@@ -1,8 +1,8 @@
 ---
-title: Telerik.Web.UI.RadTileListEventArgs
+title: Telerik.Web.UI.RadLiveTileErrorEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
-slug: Telerik.Web.UI.RadTileListEventArgs
+slug: Telerik.Web.UI.RadLiveTileErrorEventArgs
 ---
 
 # Telerik.Web.UI.RadLiveTileErrorEventArgs : Sys.EventArgs 

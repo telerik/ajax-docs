@@ -1,8 +1,8 @@
 ---
-title: Telerik.Web.UI.TabStripReorderedEventArgs
+title: Telerik.Web.UI.TabStripReorderingEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
-slug: Telerik.Web.UI.TabStripReorderedEventArgs
+slug: Telerik.Web.UI.TabStripReorderingEventArgs
 ---
 
 # Telerik.Web.UI.TabStripReorderingEventArgs : Telerik.Web.UI.RadTabStripCancelEventArgs

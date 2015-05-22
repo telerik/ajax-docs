@@ -1,8 +1,8 @@
 ---
-title: Telerik.Web.UI.RadComboBoxItemDataBoundEventArgs
+title: Telerik.Web.UI.ListBoxItemDataBoundEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
-slug: Telerik.Web.UI.RadComboBoxItemDataBoundEventArgs
+slug: Telerik.Web.UI.ListBoxItemDataBoundEventArgs
 ---
 
 # Telerik.Web.UI.ListBoxItemDataBoundEventArgs : Sys.EventArgs 

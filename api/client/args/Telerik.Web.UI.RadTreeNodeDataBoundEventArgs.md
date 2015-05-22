@@ -1,7 +1,8 @@
 ---
-title: Telerik.Web.UI.RadTreeNodeDraggingEventArgs 
+title: Telerik.Web.UI.RadTreeNodeDataBoundEventArgs 
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadTreeNodeDataBoundEventArgs
 ---
 
 # Telerik.Web.UI.RadTreeNodeDataBoundEventArgs : Telerik.Web.UI.RadTreeNodeEventArgs

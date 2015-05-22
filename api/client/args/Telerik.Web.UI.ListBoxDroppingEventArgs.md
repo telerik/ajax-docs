@@ -1,8 +1,8 @@
 ---
-title: Telerik.Web.UI.ListBoxDragStartEventArgs
+title: Telerik.Web.UI.ListBoxDroppingEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
-slug: Telerik.Web.UI.ListBoxDragStartEventArgs
+slug: Telerik.Web.UI.ListBoxDroppingEventArgs
 ---
 
 # Telerik.Web.UI.ListBoxDroppingEventArgs : Sys.CancelEventArgs 

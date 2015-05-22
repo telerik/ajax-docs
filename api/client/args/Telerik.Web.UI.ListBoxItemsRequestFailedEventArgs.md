@@ -1,8 +1,8 @@
 ---
-title: Telerik.Web.UI.RadComboBoxItemsRequestFailedEventArgs
+title: Telerik.Web.UI.ListBoxItemsRequestFailedEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
-slug: Telerik.Web.UI.RadComboBoxItemsRequestFailedEventArgs
+slug: Telerik.Web.UI.ListBoxItemsRequestFailedEventArgs
 ---
 
 # Telerik.Web.UI.ListBoxItemsRequestFailedEventArgs: Sys.CancelEventArgs 

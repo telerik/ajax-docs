@@ -2,6 +2,7 @@
 title: Telerik.Web.UI.RadTreeNodeEventArgs 
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadTreeNodeEventArgs
 ---
 
 # Telerik.Web.UI.RadTreeNodeEventArgs : Sys.EventArgs

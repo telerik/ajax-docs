@@ -2,6 +2,7 @@
 title: Telerik.Web.UI.RadTreeNodeDraggingEventArgs 
 page_title: Client-side API Reference
 description: Client-side API Reference
+slug: Telerik.Web.UI.RadTreeNodeDraggingEventArgs
 ---
 
 # Telerik.Web.UI.RadTreeNodeDraggingEventArgs : Telerik.Web.UI.RadTreeNodeCancelEventArgs

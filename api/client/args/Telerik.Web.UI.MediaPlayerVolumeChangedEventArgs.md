@@ -1,8 +1,8 @@
 ---
-title: Telerik.Web.UI.SliderCancelEventArgs
+title: Telerik.Web.UI.MediaPlayerVolumeChangedEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
-slug: Telerik.Web.UI.SliderCancelEventArgs
+slug: Telerik.Web.UI.MediaPlayerVolumeChangedEventArgs
 ---
 
 # Telerik.Web.UI.MediaPlayerVolumeChangedEventArgs : Sys.EventArgs
