@@ -25,10 +25,20 @@ To enable static columns, set the **ClientSettings.Scrolling.FrozenColumnsCount*
 
 
 The following two screen shots show a grid with **FrozenColumnsCount** set to 2. Note that the first two columns do not scroll when the horizontal scroll bar is dragged:
-
 ![Frozen columns](images/grdFrozenColumns.PNG)
 
 For a live example demonstrating the frozen columns feature, see [Frozen columns](http://demos.telerik.com/aspnet-ajax/Grid/Examples/GeneralFeatures/FrozenColumns/DefaultCS.aspx).
+
+## Next and Prev Buttons
+
+As an alternative to the horizontal scroll, **RadGrid** also provides **Next** and **Prev** buttons for the user to navigate through the columns with single clicks or tapping.
+![Frozen columns 1](images/grid_frozenColumns_1.PNG)
+
+The buttons are contained in the **GridCommandItem**, which needs to be enabled explicitly in the corresponding GridTableView settings.
+````ASP.NET
+<MasterTableView CommandItemDisplay="Top">
+````
+
 
 ## Unsupported scenarios
 

@@ -12,7 +12,7 @@ position: 4
 
 
 
-## 
+##  
 
 In addition to displaying summaries/results from aggregates in the group header (see [this topic]({%slug grid/functionality/grouping/how-to/performing-calculations-in-group-header%})), RadGrid exposes group footers feature which provides the option to render footer under each group in the grid. The type of this footer item is **GridGroupFooterItem** . To enable this functionality merely set the **ShowGroupFooter** property of the respective GridTableView instance to true (its default value is false).
 ![grid grouping groupfooters](images/grid_grouping_groupfooters.jpg)
@@ -103,4 +103,22 @@ In order to specify how the group aggregates will be evaluated, specify in every
   SelectCommand="SELECT * FROM Products Where UnitPrice > 9.50" runat="server"></asp:SqlDataSource>
 ````
 
+## Aggregates with Paging Enabled
 
+By default, group aggregates are calculated only for the currently loaded records on the present page view.
+![grid grouping groupfooters 1](images/grid_grouping_groupfooters_1.png)
+
+In some cases it may prove more convenient to include all group records in the summarized calculation info. In such cases, the following property comes to play:
+````ASP.NET
+<GroupingSettings IgnorePagingForGroupAggregates="true" />
+````
+
+Enabling it will instruct the grid to include the information from all pages when calculating the group aggregates.
+![grid grouping groupfooters 2](images/grid_grouping_groupfooters_2.png)
+
+>note
+LINQ expressions must be enabled in order for the **IgnorePagingForGroupAggregates** to have effect. The **EnableLinqExpressions** property is enabled by default and there is no need to set it to True explicitly.
+>
+
+
+  
