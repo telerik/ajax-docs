@@ -5,7 +5,7 @@ description: Chart Image is not displayed in the page
 slug: chart/troubleshooting/chart-image-is-not-displayed-in-the-page
 tags: chart,image,is,not,displayed,in,the,page
 published: True
-position: 1
+position: 2
 ---
 
 # Chart Image is not displayed in the page

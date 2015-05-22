@@ -5,7 +5,7 @@ description: Tooltips not updated with AJAX in Webkit browsers
 slug: chart/troubleshooting/tooltips-not-updated-with-ajax-in-webkit-browsers
 tags: tooltips,not,updated,with,ajax,in,webkit,browsers
 published: True
-position: 2
+position: 3
 ---
 
 # Tooltips not updated with AJAX in Webkit browsers
