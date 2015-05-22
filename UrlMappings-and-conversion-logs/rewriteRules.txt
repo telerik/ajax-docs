@@ -4200,3 +4200,4 @@
 <redirect url="^/help/aspnet-ajax/ziplibrary-compression-settings\.html" to="http://${currentDocsDomain}/devtools/aspnet-ajax/controls/ziplibrary/functionality/compression-settings" />
 <redirect url="^/help/aspnet-ajax/ziplibrary-protect-ziparchive\.html" to="http://${currentDocsDomain}/devtools/aspnet-ajax/controls/ziplibrary/functionality/protect-ziparchive" />
 <redirect url="^/help/aspnet-ajax/ziplibrary-update-ziparchive\.html" to="http://${currentDocsDomain}/devtools/aspnet-ajax/controls/ziplibrary/functionality/update-ziparchive" />
+<redirect url="^/help/aspnet-ajax/(.*)\.html" to="http://${currentDocsDomain}/devtools/aspnet-ajax/introduction" />
