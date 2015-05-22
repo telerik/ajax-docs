@@ -30,9 +30,9 @@ RadSpell can be configured to ignore certain words or text fragments by setting 
 
 * **FileNames**: specifies to ignore filenames when spellchecking (e.g. 'C:\Temp\Document.doc')
 
-* **Urls**: specifies to ignore Urls when spellchecking (e.g. 'http://www.telerik.com/Telerik RadSpell')
+* **Urls**: specifies to ignore Urls when spellchecking (e.g. 'http://docs.telerik.com/devtools/aspnet-ajax/controls/spell/overview')
 
-* **EmailAddresses**: specifies to ignore Email addresses when spellchecking (e.g., mail@example.com)
+* **EmailAddresses**: specifies to ignore Email addresses when spellchecking ([sales@telerik.com](mailto:sales@telerik.com))
 
 * **All**: specifies to ignore all fragments above when spellchecking
 
@@ -79,4 +79,3 @@ namespace RadSpel003
 	End Class
 End Namespace
 ````
-

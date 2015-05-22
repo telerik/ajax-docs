@@ -16,8 +16,8 @@ The following table lists significant members of the client-side **RadSpell** ob
 
 | Name | Description | Example |
 | ------ | ------ | ------ |
-|get_clientTextSource|Gets the class of the client side text source object.||
-|set_clientTextSource|Sets the class of the client side text source object.| See **Example 1**.|
+|get_clientTextSource|Gets the class of the client side text source object.|See **Example 1**.|
+|set_clientTextSource|Sets the class of the client side text source object.||
 |get_controlToCheck|Gets the ID of the control to spell check.||
 |set_controlToCheck|Sets the ID of the control to spell check.| See **Example 2**.|
 |get_dialogOpener|Returns the instance of the client-side DialogOpener object that handles that dialog opening/parameter passing processes.||
@@ -30,11 +30,11 @@ The following table lists significant members of the client-side **RadSpell** ob
 |get_textSource|Returns the reference to the instance of the TextSource object that RadSpell is attached to.||
 |set_textSource|Attaches a custom TextSource object to the RadSpell object.| See **Example 6**.|
 
->caption **Example 1**: Utilize spell's set_clientTextSource() property.
+>caption **Example 1**: Utilize spell's get_clientTextSource() property.
 
 ````JavaScript
 var spell = $find('<%= RadSpell1.ClientID %>');
-alert(spell.get_selectedLanguage());		
+alert(spell.get_clientTextSource);		
 ````
 
 >caption **Example 2**: Utilize spell's set_controlToCheck() property.

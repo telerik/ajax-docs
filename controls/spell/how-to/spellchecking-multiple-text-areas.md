@@ -35,12 +35,12 @@ To spell check multiple text sources:
 This general approach can be used not just for TextBoxes, but for spell checking any combination of controls on a web page.
 
 >note At runtime the joined string might look like:
->"bad spelling 1<controlSeparator><br/></controlSeparator>bad spelling 2<controlSeparator><br/></controlSeparator>bad spelling 3"
+>"bad spelling 1`<controlSeparator><br/></controlSeparator>bad spelling 2<controlSeparator><br/></controlSeparator>bad spelling 3"`
 >But is displayed as in **Figure 1** .
->The "<controlSeparator>" tags are arbitrary and can be any unique string that is used to join in the get_text() method and parse back apart in the set_text() method. The "<br> tags are necessary to show each misspelling on a separate line in the "Not in Dictionary' section of the dialog.
+>The "<controlSeparator>" tags are arbitrary and can be any unique string that is used to join in the get_text() method and parse back apart in the set_text() method. The "`<br>` tags are necessary to show each misspelling on a separate line in the "Not in Dictionary' section of the dialog.
 >
 
->caption Figure 1: Errors shown from multiple text areas without the </controlSeparator> keyword
+>caption Figure 1: Errors shown from multiple text areas without the `</controlSeparator>` keyword
 
 ![](images/spell-howto001.png)
 
