@@ -128,10 +128,10 @@ position: 0
 | **ClientTemplate** |string|Gets/sets the HTML template that will be instantiated in the tile after live data request. This property is also exposed in an inner tag so that the string can be written in a more comfortable manner, like any other HTML content in Visual Studio. There is no intellisense, however, because this is still just a string value for a control property. See **Example 1**.|
 | **DataModelID** |string|Gets/sets the **DataModelID** of the OData service that is used for fetching data.|
 | **ODataDataSourceID** |string|Gets/sets the ID of the RadODataDataSource control that is used to fetch OData for the tile.|
-| **OnClientDataLoaded** |string|Gets/sets the name of the JavaScript function that handles the[OnClientDataLoaded event]({%slug tilelist/tiles/client-side-programming/events/livetile-specific/onclientdataloaded%}).|
-| **OnClientDataLoading** |string|Gets/sets the name of the JavaScript function that handles the[OnClientDataLoading event]({%slug tilelist/tiles/client-side-programming/events/livetile-specific/onclientdataloading%}).|
-| **OnClientDataLoadingError** |string|Gets/sets the name of the JavaScript function that handles the[OnClientDataLoadingError event]({%slug tilelist/tiles/client-side-programming/events/livetile-specific/onclientdataloadingerror%}).|
-| **OnClientTemplateDataBound** |string|Gets/sets the name of the JavaScript function that handles the[OnClientTemplateDataBound event]({%slug tilelist/tiles/client-side-programming/events/livetile-specific/onclienttemplatedatabound%}).|
+| **OnClientDataLoaded** |string|Gets/sets the name of the JavaScript function that handles the [OnClientDataLoaded event]({%slug tilelist/tiles/client-side-programming/events/livetile-specific/onclientdataloaded%}).|
+| **OnClientDataLoading** |string|Gets/sets the name of the JavaScript function that handles the [OnClientDataLoading event]({%slug tilelist/tiles/client-side-programming/events/livetile-specific/onclientdataloading%}).|
+| **OnClientDataLoadingError** |string|Gets/sets the name of the JavaScript function that handles the [OnClientDataLoadingError event]({%slug tilelist/tiles/client-side-programming/events/livetile-specific/onclientdataloadingerror%}).|
+| **OnClientTemplateDataBound** |string|Gets/sets the name of the JavaScript function that handles the [OnClientTemplateDataBound event]({%slug tilelist/tiles/client-side-programming/events/livetile-specific/onclienttemplatedatabound%}).|
 | **UpdateInterval** |int|Gets/sets the time (in milliseconds) that passes between the requests for data initiated by the LiveTile.|
 | **Value** |string|Gets or sets a string value which can be send as an argument on data request.|
 

@@ -96,4 +96,6 @@ The **RadTiles** expose the following public methods and properties to control t
 |remove_selected()|Function|Removes a handler for the selected tile client event.|
 |remove_selecting()|Function|Removes a handler for the selecting tile client event.|
 
-## RadTextTile Specific API
+# See Also
+
+ * [RadTextTile Specific API]({%slug tilelist/tiles/client-side-programming/texttile-object%})
