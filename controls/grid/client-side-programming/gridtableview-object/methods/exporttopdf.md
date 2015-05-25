@@ -24,11 +24,11 @@ Telerik RadGrid can export to PDF format.
 Example:
 
 ````JavaScript
-	        function ExportGrid() {
-	            var masterTable = $find("<%=RadGrid1.ClientID %>").get_masterTableView();
-	            masterTable.exportToPdf();
-	
-	        }  
+function ExportGrid() {
+    var masterTable = $find("<%=RadGrid1.ClientID %>").get_masterTableView();
+    masterTable.exportToPdf();
+
+}  
 ````
 
 

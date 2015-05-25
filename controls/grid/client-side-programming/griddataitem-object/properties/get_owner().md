@@ -17,27 +17,27 @@ position: 9
 Returns a client-side object of type **Telerik.Web.UI.GridTableView** which represents the parent of the current item.
 
 ````ASP.NET
-	        <telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="True"
-	            OnNeedDataSource="RadGrid1_NeedDataSource">
-	            <ClientSettings>
-	                <ClientEvents OnRowCreated="rowCreated" />
-	            </ClientSettings>
-	            <MasterTableView DataKeyNames="OrderID">
-	            </MasterTableView>
-	        </telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="True"
+    OnNeedDataSource="RadGrid1_NeedDataSource">
+    <ClientSettings>
+        <ClientEvents OnRowCreated="rowCreated" />
+    </ClientSettings>
+    <MasterTableView DataKeyNames="OrderID">
+    </MasterTableView>
+</telerik:RadGrid>
 ````
 
 
 
 ````JavaScript
-	            function rowCreated(sender, args) {
-	                var item = args.get_item();
-	                var tableView = item.get_owner();
-	
-	                if (tableView.get_id() == args.get_tableView().get_id()) {
-	                    alert("The table view can be accessed in two ways.");
-	                }
-	            }
+function rowCreated(sender, args) {
+    var item = args.get_item();
+    var tableView = item.get_owner();
+
+    if (tableView.get_id() == args.get_tableView().get_id()) {
+        alert("The table view can be accessed in two ways.");
+    }
+}
 ````
 
 

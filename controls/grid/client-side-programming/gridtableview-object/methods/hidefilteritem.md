@@ -24,10 +24,10 @@ Hides the filtering item in the respective GridTableView.
 Example:
 
 ````JavaScript
-	        function HideFilter() {
-	            var masterTable = $find("<%= RadGrid1.ClientID %>").get_masterTableView();
-	            masterTable.hideFilterItem();
-	        }
+function HideFilter() {
+    var masterTable = $find("<%= RadGrid1.ClientID %>").get_masterTableView();
+    masterTable.hideFilterItem();
+}
 ````
 
 

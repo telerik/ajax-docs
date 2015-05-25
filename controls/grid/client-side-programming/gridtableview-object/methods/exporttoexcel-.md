@@ -24,11 +24,11 @@ Telerik RadGrid can export to MS Excel 2003 or later.
 Example:
 
 ````JavaScript
-	        function ExportGrid() {
-	            var masterTable = $find("<%=RadGrid1.ClientID %>").get_masterTableView();
-	            masterTable.exportToExcel();
-	
-	        } 
+function ExportGrid() {
+    var masterTable = $find("<%=RadGrid1.ClientID %>").get_masterTableView();
+    masterTable.exportToExcel();
+
+} 
 ````
 
 

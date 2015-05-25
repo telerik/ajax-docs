@@ -19,10 +19,10 @@ This property is of type Boolean and returns whether the row with the specified 
 Example:
 
 ````JavaScript
-	        function CheckExpandedState() {
-	            var masterTable = $find("<%= RadGrid1.ClientID %>").get_masterTableView();
-	            alert(masterTable.get_dataItems()[2].get_expanded());
-	        }
+function CheckExpandedState() {
+    var masterTable = $find("<%= RadGrid1.ClientID %>").get_masterTableView();
+    alert(masterTable.get_dataItems()[2].get_expanded());
+}
 ````
 
 

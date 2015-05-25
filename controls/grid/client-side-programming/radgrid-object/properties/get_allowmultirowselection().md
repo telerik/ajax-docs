@@ -24,10 +24,10 @@ Property which returns a Boolean result that indicates if multiple row select is
 Example:
 
 ````JavaScript
-	        function getMultiRowSelection() {
-	            var grid = $find("<%=RadGrid1.ClientID %>");
-	            alert(grid.get_allowMultiRowSelection());     
-	        }       
+function getMultiRowSelection() {
+    var grid = $find("<%=RadGrid1.ClientID %>");
+    alert(grid.get_allowMultiRowSelection());     
+}       
 ````
 
 

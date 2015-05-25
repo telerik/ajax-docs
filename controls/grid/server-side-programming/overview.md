@@ -77,7 +77,7 @@ When working with Telerik RadGrid you will probably often use the following even
 || **PreRender** (inherited from **Control** )|Fired when the server control is about to render to its containing **Page** object.|
 || **Unload** (inherited from **Control** )|Fired when the server control is unloaded from the memory.|
 
->note RadGrid's ColumnCreating event is fired only for custom columns that inherit one of RadGrid's column types. Additionally, as this event is fired very early in RadGrid's lifecycle, it will not fire if the custom user-created column is placed declaratively in the .aspx page, as the markup is parsed at a later stage.
+>note RadGrid ColumnCreating event is fired only for custom columns that inherit one of RadGrid's column types. Additionally, as this event is fired very early in RadGrid's lifecycle, it will not fire if the custom user-created column is placed declaratively in the .aspx page, as the markup is parsed at a later stage.
 >Another peculiarity to note, is that the ColumnCreating event will fire only after a postback. It will not fire on initial page load (IsPostBack = false). The explanation for this is that the event is designed to service any needs to restore custom column properties from the viewstate or other source. Where these column properties are initially set when defining the custom column, this is not the case when the page posts back and RadGrid needs to load its properties from the viewstate. This is where the ColumnCreating event comes in, giving the ability to manually restore custom properties for the column.
 >
 

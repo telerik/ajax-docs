@@ -24,10 +24,10 @@ Method which switches all GridDataItems in edit mode.
 Example:
 
 ````JavaScript
-	        function EditAllRecords() {
-	            var masterTable = $find("<%= RadGrid1.ClientID %>").get_masterTableView();
-	            masterTable.editAllItems();
-	        }  
+function EditAllRecords() {
+    var masterTable = $find("<%= RadGrid1.ClientID %>").get_masterTableView();
+    masterTable.editAllItems();
+}  
 ````
 
 

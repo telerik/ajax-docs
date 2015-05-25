@@ -14,7 +14,7 @@ position: 49
 
 ## 
 
-Method which expands/collapses a group. It receives as a parameterthe closest data row to the group header or directly the group header. The method accepts an optional parameter called Options.It provides more control over the expand\collapse behavior.
+Method which expands/collapses a group. It receives as a parameter the closest data row to the group header or directly the group header. The method accepts an optional parameter called Options.It provides more control over the expand\collapse behavior.
 
 
 |  **"Options" parameter properties**  |  |
@@ -30,25 +30,25 @@ Method which expands/collapses a group. It receives as a parameterthe closest da
 Example:
 
 ````JavaScript
-	        function ToggleGroupUsingDataItem() {
-	            var masterTableView = $find("<%=RadGrid1.ClientID %>").get_masterTableView();
-	            var dataItems = masterTableView.get_dataItems();
-	            masterTableView.toggleGroup(dataItems[5].get_element(),
-	            {
-	                toggleChildren: false,
-	                toggleParents: true
-	            });
-	        }
-	
-	        function ToggleGroupUsingGroupHeader() {
-	            var masterTableView = $find("<%=RadGrid1.ClientID %>").get_masterTableView();
-	            var groupHeader = $telerik.getElementsByClassName(masterTableView.get_element(), "rgGroupHeader")[3];
-	            masterTableView.toggleGroup(groupHeader,
-	            {
-	                toggleChildren: false,
-	                toggleParents: true
-	            });
-	        }
+function ToggleGroupUsingDataItem() {
+    var masterTableView = $find("<%=RadGrid1.ClientID %>").get_masterTableView();
+    var dataItems = masterTableView.get_dataItems();
+    masterTableView.toggleGroup(dataItems[5].get_element(),
+    {
+        toggleChildren: false,
+        toggleParents: true
+    });
+}
+
+function ToggleGroupUsingGroupHeader() {
+    var masterTableView = $find("<%=RadGrid1.ClientID %>").get_masterTableView();
+    var groupHeader = $telerik.getElementsByClassName(masterTableView.get_element(), "rgGroupHeader")[3];
+    masterTableView.toggleGroup(groupHeader,
+    {
+        toggleChildren: false,
+        toggleParents: true
+    });
+}
 ````
 
 

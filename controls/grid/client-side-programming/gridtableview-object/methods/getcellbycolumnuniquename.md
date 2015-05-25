@@ -25,14 +25,14 @@ Gives you the cell specified by a row and a column unique name.
 In order to get the cell value, you need to use the innerHTML property:
 
 ````JavaScript
-	        function GetFirstItemContactNameCell() {
-	            var masterTable = $find("<%=RadGrid1.ClientID%>").get_masterTableView();
-	            var contactName = masterTable.getCellByColumnUniqueName(masterTable.get_dataItems()[0], "ContactName").innerHTML;
-	        }
+function GetFirstItemContactNameCell() {
+    var masterTable = $find("<%=RadGrid1.ClientID%>").get_masterTableView();
+    var contactName = masterTable.getCellByColumnUniqueName(masterTable.get_dataItems()[0], "ContactName").innerHTML;
+}
 ````
 
 
 
->note  **Note:** The **ShowHeader** attribute for the RadGrid/MasterTableView should be set to **true** in order to use this method.
+>note  The **ShowHeader** attribute for the RadGrid/MasterTableView should be set to **true** in order to use this method.
 >
 

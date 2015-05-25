@@ -24,12 +24,12 @@ Method which can be used to assign data source for the corresponding GridTableVi
 Example:
 
 ````JavaScript
-	        function assignDataSource()
-	        {
-	            var masterTable = $find("<%= RadGrid1.ClientID %>").get_masterTableView();
-	            masterTable.set_dataSource(<some_data_source_of_the_specified_type_above>);
-	            masterTable.dataBind();
-	        }
+function assignDataSource()
+{
+    var masterTable = $find("<%= RadGrid1.ClientID %>").get_masterTableView();
+    masterTable.set_dataSource(<some_data_source_of_the_specified_type_above>);
+    masterTable.dataBind();
+}
 ````
 
 

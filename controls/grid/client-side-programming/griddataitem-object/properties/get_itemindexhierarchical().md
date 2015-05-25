@@ -24,12 +24,12 @@ Property which retrieves the hierarchical index of a particular GridDataItem.
 Example:
 
 ````JavaScript
-	        function getItemIndexHierarchical() {
-	            var grid = $find("<%=RadGrid1.ClientID %>");
-	            var masterTableView = grid.get_masterTableView();
-	            var dataItems = masterTableView.get_dataItems();
-	            alert(dataItems[0].get_itemIndexHierarchical());            
-	        }       
+function getItemIndexHierarchical() {
+    var grid = $find("<%=RadGrid1.ClientID %>");
+    var masterTableView = grid.get_masterTableView();
+    var dataItems = masterTableView.get_dataItems();
+    alert(dataItems[0].get_itemIndexHierarchical());            
+}       
 ````
 
 

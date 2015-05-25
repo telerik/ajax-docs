@@ -24,10 +24,10 @@ Method which switches the grid in insert mode and displays the insertion form.
 Example:
 
 ````JavaScript
-	        function SwitchGridInInsertMode() {
-	            var masterTable = $find("<%= RadGrid1.ClientID %>").get_masterTableView();
-	            masterTable.showInsertItem();
-	        } 
+function SwitchGridInInsertMode() {
+    var masterTable = $find("<%= RadGrid1.ClientID %>").get_masterTableView();
+    masterTable.showInsertItem();
+} 
 ````
 
 

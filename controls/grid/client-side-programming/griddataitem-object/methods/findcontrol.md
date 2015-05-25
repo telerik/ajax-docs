@@ -24,29 +24,29 @@ This method takes control id for an argument and returns the corresponding clien
 Example:
 
 ````ASP.NET
-	    <telerik:RadGrid ID="RadGrid1" runat="server">
-	        <MasterTableView> 
-	            <Columns> 
-	                <telerik:GridTemplateColumn> 
-	                    <ItemTemplate> 
-	                        <telerik:RadTextBox ID="RadTextBox1" runat="server" /> 
-	                    </ItemTemplate> 
-	                </telerik:GridTemplateColumn> 
-	            </Columns> 
-	        </MasterTableView>
-	        <ClientSettings>
-	            <ClientEvents OnRowDataBound="RadGrid1_RowDataBound" />
-	        </ClientSettings>
-	    </telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" runat="server">
+    <MasterTableView> 
+        <Columns> 
+            <telerik:GridTemplateColumn> 
+                <ItemTemplate> 
+                    <telerik:RadTextBox ID="RadTextBox1" runat="server" /> 
+                </ItemTemplate> 
+            </telerik:GridTemplateColumn> 
+        </Columns> 
+    </MasterTableView>
+    <ClientSettings>
+        <ClientEvents OnRowDataBound="RadGrid1_RowDataBound" />
+    </ClientSettings>
+</telerik:RadGrid>
 ````
 
 
 
 ````JavaScript
-	        function RadGrid1_RowDataBound(sender, args) {
-	            var radTextBox1 = args.get_item().findControl("RadTextBox1");
-	            radTextBox1.set_value(args.get_dataItem()["TitleOfCourtesy"]);
-	        } 
+function RadGrid1_RowDataBound(sender, args) {
+    var radTextBox1 = args.get_item().findControl("RadTextBox1");
+    radTextBox1.set_value(args.get_dataItem()["TitleOfCourtesy"]);
+} 
 ````
 
 

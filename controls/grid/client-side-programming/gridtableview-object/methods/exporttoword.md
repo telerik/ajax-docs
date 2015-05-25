@@ -24,11 +24,11 @@ Telerik RadGrid can export to MS Word 2003 or later.
 Example:
 
 ````JavaScript
-	        function ExportGrid() {
-	            var masterTable = $find("<%=RadGrid1.ClientID %>").get_masterTableView();
-	            masterTable.exportToWord();
-	
-	        }
+function ExportGrid() {
+    var masterTable = $find("<%=RadGrid1.ClientID %>").get_masterTableView();
+    masterTable.exportToWord();
+
+}
 ````
 
 

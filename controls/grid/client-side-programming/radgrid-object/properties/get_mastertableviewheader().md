@@ -24,10 +24,10 @@ This property returns the MasterTableView header instance for the respective gri
 Example:
 
 ````JavaScript
-	        function getMasterTableViewHeader() {
-	            var grid = $find("<%=RadGrid1.ClientID %>");
-	            var masterTableViewHeader = grid.get_masterTableViewHeader();
-	        }
+function getMasterTableViewHeader() {
+    var grid = $find("<%=RadGrid1.ClientID %>");
+    var masterTableViewHeader = grid.get_masterTableViewHeader();
+}
 ````
 
 
@@ -37,9 +37,9 @@ Example:
 
 
 ````ASP.NET
-	        <clientsettings>
-	                <Scrolling AllowScroll="true" UseStaticHeaders="true" />
-	        </clientsettings>
+<clientsettings>
+        <Scrolling AllowScroll="true" UseStaticHeaders="true" />
+</clientsettings>
 ````
 
 

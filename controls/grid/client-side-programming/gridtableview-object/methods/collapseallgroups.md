@@ -19,10 +19,10 @@ Method which collapses all groups. It receives an optional parameter indicating 
 Example:
 
 ````JavaScript
-			function CollapseAllGroups() {
-	            var masterTableView = $find("<%=RadGrid1.ClientID %>").get_masterTableView();
-	            masterTableView.collapseAllGroups(2);
-	        }
+function CollapseAllGroups() {
+    var masterTableView = $find("<%=RadGrid1.ClientID %>").get_masterTableView();
+    masterTableView.collapseAllGroups(2);
+}
 ````
 
 

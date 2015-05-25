@@ -24,10 +24,10 @@ Cancels the edit mode for all grid items that are switched in edit mode prior to
 Example:
 
 ````JavaScript
-	        function CancelEditMode() {
-	            var masterTable = $find("<%= RadGrid1.ClientID %>").get_masterTableView();
-	            masterTable.cancelAll();
-	        }
+function CancelEditMode() {
+    var masterTable = $find("<%= RadGrid1.ClientID %>").get_masterTableView();
+    masterTable.cancelAll();
+}
 ````
 
 

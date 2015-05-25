@@ -33,16 +33,16 @@ Method which extracts the new values from the edited table row passed as an argu
 Example:
 
 ````JavaScript
-	        function GetFirstEditedItemNewValues() {
-	            var masterTable = $find("<%= RadGrid1.ClientID %>").get_masterTableView();
-	
-	            var newValues = masterTable.extractValuesFromItem(0);
-	            var newValuesSB = new Sys.StringBuilder();
-	
-	            for (var property in newValues) {
-	                newValuesSB.append(String.format("<b>{0}</b> : {1} <br/>", property, newValues[property]));
-	            }
-	        }
+function GetFirstEditedItemNewValues() {
+    var masterTable = $find("<%= RadGrid1.ClientID %>").get_masterTableView();
+
+    var newValues = masterTable.extractValuesFromItem(0);
+    var newValuesSB = new Sys.StringBuilder();
+
+    for (var property in newValues) {
+        newValuesSB.append(String.format("<b>{0}</b> : {1} <br/>", property, newValues[property]));
+    }
+}
 ````
 
 

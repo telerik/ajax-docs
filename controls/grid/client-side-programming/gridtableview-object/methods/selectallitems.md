@@ -28,11 +28,11 @@ Selects all items in the GridTableView for which the method is invoked.
 Example:
 
 ````JavaScript
-	        function SelectMasterTableItems() {
-	            var masterTable = $find("<%= RadGrid1.ClientID %>").get_masterTableView();
-	            //select all master table items
-	            masterTable.selectAllItems();
-	        }
+function SelectMasterTableItems() {
+    var masterTable = $find("<%= RadGrid1.ClientID %>").get_masterTableView();
+    //select all master table items
+    masterTable.selectAllItems();
+}
 ````
 
 

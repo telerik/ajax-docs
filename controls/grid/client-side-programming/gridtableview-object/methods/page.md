@@ -24,10 +24,10 @@ Method which triggers paging action with page command passed as an argument. All
 Example:
 
 ````JavaScript
-	        function TriggerPageCommand() {
-	            var masterTable = $find("<%= RadGrid1.ClientID %>").get_masterTableView();
-	            masterTable.page("Next");
-	        }
+function TriggerPageCommand() {
+    var masterTable = $find("<%= RadGrid1.ClientID %>").get_masterTableView();
+    masterTable.page("Next");
+}
 ````
 
 

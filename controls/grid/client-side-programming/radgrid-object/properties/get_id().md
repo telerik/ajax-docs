@@ -24,10 +24,10 @@ Property which returns the id of the grid client object.
 Example:
 
 ````JavaScript
-	        function getRadGridID() {
-	            var grid = $find("<%=RadGrid1.ClientID %>");
-	            var gridId = grid.get_id();            
-	        }
+function getRadGridID() {
+    var grid = $find("<%=RadGrid1.ClientID %>");
+    var gridId = grid.get_id();            
+}
 ````
 
 

@@ -14,41 +14,41 @@ position: 2
 
 ## 
 
-This property presents the **HTML TableRow element** - <tr> for the current item. Basically you can use it in cases when you needto get the **HTML TableRow element** on client.
+This property presents the **HTML TableRow element** - <tr> for the current item. Basically you can use it in cases when you need to get the **HTML TableRow element** on client.
 
 ````ASP.NET
-	        <script type="text/javascript">
-	            function onDataBound(sender, args) {
-	                var masterTableView = sender.get_masterTableView();
-	                alert("The HTML TableRow element of the first row: " + masterTableView.get_dataItems()[0].get_element());
-	            }
-	        </script>
-	        <telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="true" AllowSorting="true"
-	            AllowFilteringByColumn="true" PageSize="5">
-	            <MasterTableView ClientDataKeyNames="ProductID" CommandItemDisplay="Top">
-	                <Columns>
-	                    <telerik:GridBoundColumn DataField="ProductID" HeaderText="ProductID" UniqueName="ProductID"
-	                        DataType="System.Int32" Display="false" />
-	                    <telerik:GridBoundColumn DataField="ProductName" HeaderText="ProductName" UniqueName="ProductName"
-	                        DataType="System.String" />
-	                    <telerik:GridBoundColumn DataField="CategoryID" HeaderText="CategoryID" UniqueName="CategoryID"
-	                        DataType="System.Int32" />
-	                    <telerik:GridNumericColumn DataField="UnitPrice" DataType="System.Decimal" NumericType="Currency"
-	                        HeaderText="UnitPrice Numeric" SortExpression="UnitPrice">
-	                    </telerik:GridNumericColumn>
-	                    <telerik:GridNumericColumn DataField="UnitsInStock" HeaderText="UnitsInStock" UniqueName="UnitsInStock"
-	                        DataType="System.Int16" />
-	                    <telerik:GridCheckBoxColumn DataField="Discontinued" HeaderText="Discontinued" UniqueName="Discontinued"
-	                        DataType="System.Boolean" />
-	                </Columns>
-	            </MasterTableView>
-	            <ClientSettings>
-	                <ClientEvents OnDataBound="onDataBound" />
-	                <DataBinding Location="http://demos.kendoui.com/service/Northwind.svc" ResponseType="JSONP">
-	                    <DataService TableName="Products" Type="OData" />
-	                </DataBinding>
-	            </ClientSettings>
-	        </telerik:RadGrid>
+<script type="text/javascript">
+    function onDataBound(sender, args) {
+        var masterTableView = sender.get_masterTableView();
+        alert("The HTML TableRow element of the first row: " + masterTableView.get_dataItems()[0].get_element());
+    }
+</script>
+<telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="true" AllowSorting="true"
+    AllowFilteringByColumn="true" PageSize="5">
+    <MasterTableView ClientDataKeyNames="ProductID" CommandItemDisplay="Top">
+        <Columns>
+            <telerik:GridBoundColumn DataField="ProductID" HeaderText="ProductID" UniqueName="ProductID"
+                DataType="System.Int32" Display="false" />
+            <telerik:GridBoundColumn DataField="ProductName" HeaderText="ProductName" UniqueName="ProductName"
+                DataType="System.String" />
+            <telerik:GridBoundColumn DataField="CategoryID" HeaderText="CategoryID" UniqueName="CategoryID"
+                DataType="System.Int32" />
+            <telerik:GridNumericColumn DataField="UnitPrice" DataType="System.Decimal" NumericType="Currency"
+                HeaderText="UnitPrice Numeric" SortExpression="UnitPrice">
+            </telerik:GridNumericColumn>
+            <telerik:GridNumericColumn DataField="UnitsInStock" HeaderText="UnitsInStock" UniqueName="UnitsInStock"
+                DataType="System.Int16" />
+            <telerik:GridCheckBoxColumn DataField="Discontinued" HeaderText="Discontinued" UniqueName="Discontinued"
+                DataType="System.Boolean" />
+        </Columns>
+    </MasterTableView>
+    <ClientSettings>
+        <ClientEvents OnDataBound="onDataBound" />
+        <DataBinding Location="http://demos.kendoui.com/service/Northwind.svc" ResponseType="JSONP">
+            <DataService TableName="Products" Type="OData" />
+        </DataBinding>
+    </ClientSettings>
+</telerik:RadGrid>
 ````
 
 

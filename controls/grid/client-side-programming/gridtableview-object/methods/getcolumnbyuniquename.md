@@ -24,10 +24,10 @@ Returns a GridColumn object representing the column with the specified UniqueNam
 Example:
 
 ````JavaScript
-	        function FindColumnOnClient() {
-	            var grid = $find("<%= RadGrid1.ClientID %>");
-	            grid.get_masterTableView().getColumnByUniqueName("ProductName");
-	        } 
+function FindColumnOnClient() {
+    var grid = $find("<%= RadGrid1.ClientID %>");
+    grid.get_masterTableView().getColumnByUniqueName("ProductName");
+} 
 ````
 
 

@@ -25,10 +25,10 @@ Method which switches the table row passed as an argument or the row correspondi
 Example:
 
 ````JavaScript
-	        function EditFirstItem() {
-	            var masterTable = $find("<%= RadGrid1.ClientID %>").get_masterTableView();
-	            masterTable.editItem(masterTable.get_dataItems()[0].get_element());
-	        }  
+function EditFirstItem() {
+    var masterTable = $find("<%= RadGrid1.ClientID %>").get_masterTableView();
+    masterTable.editItem(masterTable.get_dataItems()[0].get_element());
+}  
 ````
 
 

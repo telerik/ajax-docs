@@ -29,12 +29,12 @@ Method which selects the table row passed as an argument or the row correspondin
 Example:
 
 ````JavaScript
-	        function SelectFirstItem() {
-	            var masterTable = $find("<%= RadGrid1.ClientID %>").get_masterTableView();
-	            //clear the previously selected items if necessary
-	            masterTable.clearSelectedItems();
-	            masterTable.selectItem(masterTable.get_dataItems()[0].get_element());
-	        } 
+function SelectFirstItem() {
+    var masterTable = $find("<%= RadGrid1.ClientID %>").get_masterTableView();
+    //clear the previously selected items if necessary
+    masterTable.clearSelectedItems();
+    masterTable.selectItem(masterTable.get_dataItems()[0].get_element());
+} 
 ````
 
 

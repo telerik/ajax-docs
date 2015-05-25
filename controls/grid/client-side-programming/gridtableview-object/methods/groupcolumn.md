@@ -24,10 +24,10 @@ Method which groups the grid by the column with UniqueName specified as an argum
 Example:
 
 ````JavaScript
-	        function GroupByColumn() {
-	            var masterTable = $find("<%= RadGrid1.ClientID %>").get_masterTableView();
-	            masterTable.groupColumn("Country");
-	        }
+function GroupByColumn() {
+    var masterTable = $find("<%= RadGrid1.ClientID %>").get_masterTableView();
+    masterTable.groupColumn("Country");
+}
 ````
 
 

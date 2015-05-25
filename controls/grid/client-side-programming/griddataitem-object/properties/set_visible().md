@@ -19,11 +19,11 @@ The method toggles the visibility of an item on and off. It takes a boolean valu
 Example:
 
 ````JavaScript
-	        function GridCreated() {
-	            var masterTable = $find("<%=RadGrid1.ClientID%>").get_masterTableView();
-	            var dataItem = masterTable.get_dataItems()[0]; 
-	            dataItem.set_visible(false);
-	        }
+function GridCreated() {
+    var masterTable = $find("<%=RadGrid1.ClientID%>").get_masterTableView();
+    var dataItem = masterTable.get_dataItems()[0]; 
+    dataItem.set_visible(false);
+}
 ````
 
 

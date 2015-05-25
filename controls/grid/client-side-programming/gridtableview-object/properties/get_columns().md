@@ -16,41 +16,43 @@ position: 3
 
 Property that returns a one-dimensional array of **Telerik.Web.UI.GridColumn** objects.
 
-The following example illustrates how you could cet the columns in the MasterTableView after the RadGrid is created:
+The following example illustrates how you could get the columns in the MasterTableView after the RadGrid is created:
 
 ````JavaScript
-	        <script type="text/javascript">
-	            function gridCreated(sender, args) {
-	                var grid = sender;
-	                var masterTableView = grid.get_masterTableView();
-	                var columns = masterTableView.get_columns();
-	
-	                // alerts "ID" and "Name"
-	                for (var i = 0; i < columns.length; i++) {
-	                    alert(columns[i].get_uniqueName());
-	                }
-	
-	            }
-	        </script>
-	
-	        <telerik:RadGrid runat="server" ID="RadGrid1"
-	            OnNeedDataSource="RadGrid1_NeedDataSource"
-	            AutoGenerateColumns="false"
-	            AllowPaging="true" PageSize="10">
-	
-	            <ClientSettings>
-	                <ClientEvents OnGridCreated="gridCreated" />
-	            </ClientSettings>
-	
-	            <MasterTableView DataKeyNames="ID">
-	                <Columns>
-	                    <telerik:GridBoundColumn DataField="ID" HeaderText="ID" UniqueName="ID">
-	                    </telerik:GridBoundColumn>
-	                    <telerik:GridBoundColumn DataField="Name" HeaderText="Name" UniqueName="Name">
-	                    </telerik:GridBoundColumn>
-	                </Columns>
-	            </MasterTableView>
-	        </telerik:RadGrid>
+<script type="text/javascript">
+    function gridCreated(sender, args) {
+        var grid = sender;
+        var masterTableView = grid.get_masterTableView();
+        var columns = masterTableView.get_columns();
+
+        // alerts "ID" and "Name"
+        for (var i = 0; i < columns.length; i++) {
+            alert(columns[i].get_uniqueName());
+        }
+
+    }
+</script>
+````
+
+````ASP.NET
+<telerik:RadGrid runat="server" ID="RadGrid1"
+    OnNeedDataSource="RadGrid1_NeedDataSource"
+    AutoGenerateColumns="false"
+    AllowPaging="true" PageSize="10">
+
+    <ClientSettings>
+        <ClientEvents OnGridCreated="gridCreated" />
+    </ClientSettings>
+
+    <MasterTableView DataKeyNames="ID">
+        <Columns>
+            <telerik:GridBoundColumn DataField="ID" HeaderText="ID" UniqueName="ID">
+            </telerik:GridBoundColumn>
+            <telerik:GridBoundColumn DataField="Name" HeaderText="Name" UniqueName="Name">
+            </telerik:GridBoundColumn>
+        </Columns>
+    </MasterTableView>
+</telerik:RadGrid>
 ````
 
 

@@ -24,10 +24,10 @@ This property returns the MasterTableView instance for the respective grid clien
 Example:
 
 ````JavaScript
-	        function getMasterTableView() {
-	            var grid = $find("<%=RadGrid1.ClientID %>");
-	            var masterTableView = grid.get_masterTableView();              
-	        }       
+function getMasterTableView() {
+    var grid = $find("<%=RadGrid1.ClientID %>");
+    var masterTableView = grid.get_masterTableView();              
+}       
 ````
 
 

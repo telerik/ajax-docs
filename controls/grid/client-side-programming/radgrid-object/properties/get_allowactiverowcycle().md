@@ -24,10 +24,10 @@ Property which returns the value for the respective server property of the contr
 Example:
 
 ````JavaScript
-	        function allowActiveRowCycle() {
-	            var grid = $find("<%=RadGrid1.ClientID %>");
-	            var activeRowCycle = grid.get_allowActiveRowCycle();
-	        }
+function allowActiveRowCycle() {
+    var grid = $find("<%=RadGrid1.ClientID %>");
+    var activeRowCycle = grid.get_allowActiveRowCycle();
+}
 ````
 
 

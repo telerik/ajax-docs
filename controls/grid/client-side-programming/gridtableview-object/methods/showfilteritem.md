@@ -24,10 +24,10 @@ Displays the filtering item in the respective GridTableView when it was hidden p
 Example:
 
 ````JavaScript
-	        function ShowFilter() {
-	            var masterTable = $find("<%= RadGrid1.ClientID %>").get_masterTableView();
-	            masterTable.showFilterItem();
-	        } 
+function ShowFilter() {
+    var masterTable = $find("<%= RadGrid1.ClientID %>").get_masterTableView();
+    masterTable.showFilterItem();
+} 
 ````
 
 

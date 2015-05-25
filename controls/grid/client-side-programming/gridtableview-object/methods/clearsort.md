@@ -24,17 +24,17 @@ Method which clears the sort expression for a specific column or all sort expres
 Example:
 
 ````JavaScript
-	        function clearSortExpressions() {
-	            var grid = $find("<%=RadGrid1.ClientID %>");
-	            var masterTableView = grid.get_masterTableView();
-	            masterTableView.clearSort();
-	        }
-	        
-	        function clearColumnSortExpression() {
-	            var grid = $find("<%=RadGrid1.ClientID %>");
-	            var masterTableView = grid.get_masterTableView();
-	            masterTableView.clearSort("CompanyName");
-	        }
+function clearSortExpressions() {
+    var grid = $find("<%=RadGrid1.ClientID %>");
+    var masterTableView = grid.get_masterTableView();
+    masterTableView.clearSort();
+}
+
+function clearColumnSortExpression() {
+    var grid = $find("<%=RadGrid1.ClientID %>");
+    var masterTableView = grid.get_masterTableView();
+    masterTableView.clearSort("CompanyName");
+}
 ````
 
 

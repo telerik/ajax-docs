@@ -26,10 +26,10 @@ Method which deletes all selected items in the grid.
 Example:
 
 ````JavaScript
-	        function DeleteSelectedGridItems() {
-	            var masterTable = $find("<%= RadGrid1.ClientID %>").get_masterTableView();
-	            masterTable.deleteSelectedItems();
-	        }
+function DeleteSelectedGridItems() {
+    var masterTable = $find("<%= RadGrid1.ClientID %>").get_masterTableView();
+    masterTable.deleteSelectedItems();
+}
 ````
 
 

@@ -25,10 +25,10 @@ Method which deselects the table row passed as an argument or the row correspond
 Example:
 
 ````JavaScript
-	        function DeselectFirstItem() {
-	            var masterTable = $find("<%= RadGrid1.ClientID %>").get_masterTableView();
-	            masterTable.deselectItem(masterTable.get_dataItems()[0].get_element());
-	        }  
+function DeselectFirstItem() {
+    var masterTable = $find("<%= RadGrid1.ClientID %>").get_masterTableView();
+    masterTable.deselectItem(masterTable.get_dataItems()[0].get_element());
+}  
 ````
 
 

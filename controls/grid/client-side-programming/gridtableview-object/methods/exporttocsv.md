@@ -24,11 +24,11 @@ Telerik RadGrid can export to CSV format (comma-separated values).
 Example:
 
 ````JavaScript
-	        function ExportGrid() {
-	            var masterTable = $find("<%=RadGrid1.ClientID %>").get_masterTableView();
-	            masterTable.exportToCsv();
-	
-	        } 
+function ExportGrid() {
+    var masterTable = $find("<%=RadGrid1.ClientID %>").get_masterTableView();
+    masterTable.exportToCsv();
+
+} 
 ````
 
 

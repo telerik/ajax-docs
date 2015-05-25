@@ -24,10 +24,10 @@ Method which inserts new table row to the grid. The new data will be taken from 
 Example:
 
 ````JavaScript
-	        function AddNewItem() {
-	            var masterTable = $find("<%= RadGrid1.ClientID %>").get_masterTableView();
-	            masterTable.insertItem();
-	        } 
+function AddNewItem() {
+    var masterTable = $find("<%= RadGrid1.ClientID %>").get_masterTableView();
+    masterTable.insertItem();
+} 
 ````
 
 

@@ -27,20 +27,20 @@ Method which triggers filter command for the column with *UniqueName* (set on th
 Example:
 
 ````JavaScript
-	        function RemoveFilter() {
-	            var masterTable = $find("<%= RadGrid1.ClientID %>").get_masterTableView();
-	            masterTable.filter("OrderID", "", Telerik.Web.UI.GridFilterFunction.NoFilter);
-	        }
-	
-	        function ApplyGreaterThanFilter() {
-	            var masterTable = $find("<%= RadGrid1.ClientID %>").get_masterTableView();
-	            masterTable.filter("OrderID", 10254, Telerik.Web.UI.GridFilterFunction.GreaterThan, true);
-	        }
-	
-	        function ApplyBetweenFilter() {
-	            var masterTable = $find("<%= RadGrid1.ClientID %>").get_masterTableView();
-	            masterTable.filter("OrderID", "10256 10260", Telerik.Web.UI.GridFilterFunction.Between, true);
-	        }
+function RemoveFilter() {
+    var masterTable = $find("<%= RadGrid1.ClientID %>").get_masterTableView();
+    masterTable.filter("OrderID", "", Telerik.Web.UI.GridFilterFunction.NoFilter);
+}
+
+function ApplyGreaterThanFilter() {
+    var masterTable = $find("<%= RadGrid1.ClientID %>").get_masterTableView();
+    masterTable.filter("OrderID", 10254, Telerik.Web.UI.GridFilterFunction.GreaterThan, true);
+}
+
+function ApplyBetweenFilter() {
+    var masterTable = $find("<%= RadGrid1.ClientID %>").get_masterTableView();
+    masterTable.filter("OrderID", "10256 10260", Telerik.Web.UI.GridFilterFunction.Between, true);
+}
 ````
 
 

@@ -24,10 +24,10 @@ Method which clears the active row in the grid. The setting will be persisted ac
 Example:
 
 ````JavaScript
-	        function clearActiveRowInGrid(sender, args) {
-	            var grid = $find("<%=RadGrid1.ClientID %>");
-	            grid.clearActiveRow();
-	        }
+function clearActiveRowInGrid(sender, args) {
+    var grid = $find("<%=RadGrid1.ClientID %>");
+    grid.clearActiveRow();
+}
 ````
 
 
@@ -37,9 +37,9 @@ Example:
 
 
 ````ASP.NET
-	        <ClientSettings AllowKeyboardNavigation="true">
-	            <Selecting AllowRowSelect="true" />
-	        </ClientSettings>
+<ClientSettings AllowKeyboardNavigation="true">
+    <Selecting AllowRowSelect="true" />
+</ClientSettings>
 ````
 
 

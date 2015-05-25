@@ -24,10 +24,10 @@ Method which clears the selected items in the grid (and all sub-levels in hierar
 Example:
 
 ````JavaScript
-	        function clearSelectedItems(sender, args) {
-	            var grid = $find("<%=RadGrid1.ClientID %>");
-	            grid.clearSelectedItems();
-	        }
+function clearSelectedItems(sender, args) {
+    var grid = $find("<%=RadGrid1.ClientID %>");
+    grid.clearSelectedItems();
+}
 ````
 
 
@@ -37,9 +37,9 @@ Example:
 
 
 ````ASP.NET
-	        <ClientSettings>
-	            <Selecting AllowRowSelect="true" />
-	        </ClientSettings>     
+<ClientSettings>
+    <Selecting AllowRowSelect="true" />
+</ClientSettings>     
 ````
 
 

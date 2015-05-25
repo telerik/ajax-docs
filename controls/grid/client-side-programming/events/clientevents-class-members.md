@@ -19,7 +19,7 @@ There are two ways to attach handler to a client-side event of RadGrid:
 * attach command string to event
 
 ````ASP.NET
-	    <ClientEvents OnGridCreating="alert('Creating RadGrid')">
+<ClientEvents OnGridCreating="alert('Creating RadGrid')">
 ````
 
 
@@ -27,12 +27,12 @@ There are two ways to attach handler to a client-side event of RadGrid:
 * attach function to event:
 
 ````JavaScript
-		<ClientEvents OnGridCreating = "GridCreating">
-	    <script type="text/javascript">
-	        function GridCreating(sender, eventArgs){
-	            alert("Creating grid with ClientID: " + sender.get_id());
-	        }
-	    </script>		
+<ClientEvents OnGridCreating = "GridCreating">
+<script type="text/javascript">
+    function GridCreating(sender, eventArgs){
+        alert("Creating grid with ClientID: " + sender.get_id());
+    }
+</script>		
 ````
 
 
@@ -40,11 +40,11 @@ There are two ways to attach handler to a client-side event of RadGrid:
 You can also attach handlers dynamically with the following code:
 
 ````JavaScript
-	grid.add_eventName(eventHandler);          
-	 
-	function eventHandler(sender, args) {
-	   //...
-	}	
+grid.add_eventName(eventHandler);          
+ 
+function eventHandler(sender, args) {
+   //...
+}	
 ````
 
 
@@ -52,7 +52,7 @@ You can also attach handlers dynamically with the following code:
 Here *eventName* is formed from the names in the table below by removing *On* and starting with a small letter. For example, attaching an event handler for *OnRowContextMenu* will look in the following way:
 
 ````JavaScript
-	grid.add_rowContextMenu(eventHandler);          
+grid.add_rowContextMenu(eventHandler);          
 ````
 
 
@@ -142,6 +142,6 @@ Inside each RadGrid client-side event handler the first argument passed (*sender
 | **[OnTableDestroying]({%slug grid/client-side-programming/events/events/ontabledestroying%})** | **String** |
 | **[OnScroll]({%slug grid/client-side-programming/events/events/onscroll%})** | **String** |
 
->caution Note that when the **ClientIDMode** property of the RadGrid control is set to **Static** , all row specific client-side events would not fire.
+>caution When the **ClientIDMode** property of the RadGrid control is set to **Static** , all row specific client-side events would not fire.
 >
 

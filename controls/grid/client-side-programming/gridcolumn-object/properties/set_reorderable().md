@@ -19,10 +19,10 @@ This methods takes a singe Boolean argument, specifying whether the column shoul
 Example:
 
 ````JavaScript
-	        function GridCreated() {
-	            var column1 = $find("RadGrid1").get_masterTableView().get_columns()[0];
-	            column1.set_reorderable(false);
-	        }
+function GridCreated() {
+    var column1 = $find("RadGrid1").get_masterTableView().get_columns()[0];
+    column1.set_reorderable(false);
+}
 ````
 
 

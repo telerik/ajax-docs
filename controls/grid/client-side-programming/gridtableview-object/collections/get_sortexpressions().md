@@ -19,31 +19,30 @@ A collection of **Telerik.Web.UI.GridSortExpression** objects. Represents the so
 Below is a sample code excerpt using OnCommand client event handler:
 
 ````ASP.NET
-	    <telerik:RadGrid ID="RadGrid1" runat="server">
-	        <ClientSettings>
-	            <clientEvents OnCommand="RaiseCommand" />
-	        </ClientSettings>
-	    </telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" runat="server">
+    <ClientSettings>
+        <clientEvents OnCommand="RaiseCommand" />
+    </ClientSettings>
+</telerik:RadGrid>
 ````
 
 
 
 ````JavaScript
-	        function RaiseCommand(sender, args) {
-	            args.set_cancel(true); //cancel the default command to prevent postback/ajax request
-	
-	            var sortExpressions = sender.get_masterTableView().get_sortExpressions();
-	
-	            //obtain the values from the GridSortExpression properties
-	            if (sortExpressions.length > 0) {
-	                var expression = sortExpressions._array[0];
-	                var fieldName = expression.get_fieldName();
-	                var sortOrder = expression.get_sortOrder();
-	            }
-	
-	            alert(sortExpressions.toString());
-	        }
-	
+function RaiseCommand(sender, args) {
+    args.set_cancel(true); //cancel the default command to prevent postback/ajax request
+
+    var sortExpressions = sender.get_masterTableView().get_sortExpressions();
+
+    //obtain the values from the GridSortExpression properties
+    if (sortExpressions.length > 0) {
+        var expression = sortExpressions._array[0];
+        var fieldName = expression.get_fieldName();
+        var sortOrder = expression.get_sortOrder();
+    }
+
+    alert(sortExpressions.toString());
+}
 ````
 
 

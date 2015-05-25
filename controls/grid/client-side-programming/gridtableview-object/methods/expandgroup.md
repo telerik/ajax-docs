@@ -30,24 +30,24 @@ Method which expands a group. It receives as a parameterthe closest data row to 
 Example:
 
 ````JavaScript
-	        function ExpandGroupUsingDataItem() {
-	            var masterTableView = $find("<%=RadGrid1.ClientID %>").get_masterTableView();
-	            masterTableView.expandGroup(masterTableView.get_dataItems()[4].get_element(),
-	            {
-	                expandChildren: false,
-	                findClosestGroup: true
-	            });
-	        }
-	
-	        function ExpandGroupUsingGroupHeader() {
-	            var masterTableView = $find("<%=RadGrid1.ClientID %>").get_masterTableView();
-	            var groupHeader = $telerik.getElementsByClassName(masterTableView.get_element(), "rgGroupHeader")[4];
-	            masterTableView.expandGroup(groupHeader,
-	            {
-	                expandChildren: false,
-	                expandParents: true
-	            });
-	        }
+function ExpandGroupUsingDataItem() {
+    var masterTableView = $find("<%=RadGrid1.ClientID %>").get_masterTableView();
+    masterTableView.expandGroup(masterTableView.get_dataItems()[4].get_element(),
+    {
+        expandChildren: false,
+        findClosestGroup: true
+    });
+}
+
+function ExpandGroupUsingGroupHeader() {
+    var masterTableView = $find("<%=RadGrid1.ClientID %>").get_masterTableView();
+    var groupHeader = $telerik.getElementsByClassName(masterTableView.get_element(), "rgGroupHeader")[4];
+    masterTableView.expandGroup(groupHeader,
+    {
+        expandChildren: false,
+        expandParents: true
+    });
+}
 ````
 
 

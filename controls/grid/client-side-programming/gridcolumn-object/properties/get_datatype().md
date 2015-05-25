@@ -28,11 +28,11 @@ Property which returns the data type of the corresponding column.
 Example:
 
 ````JavaScript
-	        function getFirstColumnDataType() {
-	            var masterTable = $find("<%= RadGrid1.ClientID %>").get_masterTableView();
-	            //determine the data type for the first grid column
-	            var dataType = masterTable.get_columns()[0].get_dataType();
-	        } 
+function getFirstColumnDataType() {
+    var masterTable = $find("<%= RadGrid1.ClientID %>").get_masterTableView();
+    //determine the data type for the first grid column
+    var dataType = masterTable.get_columns()[0].get_dataType();
+} 
 ````
 
 

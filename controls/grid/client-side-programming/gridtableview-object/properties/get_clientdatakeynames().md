@@ -22,11 +22,13 @@ One-dimensional array which holds the key fields set through the **ClientDataKey
 
 Example:
 
-````JavaScript
+````ASP.NET
 	<ClientSettings>
 	  <ClientEvents OnHierarchyExpanded="HierarchyExpanded" />
 	</ClientSettings>
-	
+````
+
+````JavaScript
 	function HierarchyExpanded(sender, args)
 	{  
 	    var firstClientDataKeyName = args.get_tableView().get_clientDataKeyNames()[0];

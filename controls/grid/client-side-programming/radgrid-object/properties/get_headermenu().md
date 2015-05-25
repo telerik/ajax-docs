@@ -24,10 +24,10 @@ Property which returns the client object of the [grid header context menu](http:
 Example:
 
 ````JavaScript
-	        function getHeaderContextMenu() {
-	            var grid = $find("<%=RadGrid1.ClientID %>");
-	            var headerContextMenu = grid.get_headerMenu();
-	        }
+function getHeaderContextMenu() {
+    var grid = $find("<%=RadGrid1.ClientID %>");
+    var headerContextMenu = grid.get_headerMenu();
+}
 ````
 
 

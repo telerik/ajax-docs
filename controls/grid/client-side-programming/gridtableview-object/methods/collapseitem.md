@@ -24,12 +24,12 @@ Method which collapses the table row with index passed as an argument.
 Example:
 
 ````JavaScript
-	        function CollapseFirstMasterTableViewItem() {
-	            $find("<%= RadGrid1.ClientID %>").get_masterTableView().collapseItem(0);
-	        }
-	        function CollapseFirstDetailTableFirstItem() {
-	            $find("<%= RadGrid1.Items[0].ChildItem.NestedTableViews[0].ClientID %>").collapseItem(0);
-	        }
+function CollapseFirstMasterTableViewItem() {
+    $find("<%= RadGrid1.ClientID %>").get_masterTableView().collapseItem(0);
+}
+function CollapseFirstDetailTableFirstItem() {
+    $find("<%= RadGrid1.Items[0].ChildItem.NestedTableViews[0].ClientID %>").collapseItem(0);
+}
 ````
 
 

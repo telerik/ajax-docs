@@ -24,11 +24,11 @@ Property which returns one-dimensional array representing a collection of client
 Example:
 
 ````JavaScript
-	        function getDetailTables() {
-	            var grid = $find("<%=RadGrid1.ClientID %>");
-	            //get all detail tables in the hierarchy
-	            var detailTablesArray = grid.get_detailTables();
-	        }
+function getDetailTables() {
+    var grid = $find("<%=RadGrid1.ClientID %>");
+    //get all detail tables in the hierarchy
+    var detailTablesArray = grid.get_detailTables();
+}
 ````
 
 

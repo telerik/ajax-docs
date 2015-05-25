@@ -24,10 +24,10 @@ Method which expands the table row with index passed as an argument. If the inde
 Example:
 
 ````JavaScript
-	        function ExpandFirstItem() {
-	            var masterTable = $find("<%= RadGrid1.ClientID %>").get_masterTableView();
-	            masterTable.expandItem(masterTable.get_dataItems()[0].get_element());
-	        }  
+function ExpandFirstItem() {
+    var masterTable = $find("<%= RadGrid1.ClientID %>").get_masterTableView();
+    masterTable.expandItem(masterTable.get_dataItems()[0].get_element());
+}  
 ````
 
 

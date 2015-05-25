@@ -24,11 +24,11 @@ Property which determines whether the grid is visible on the client or not (styl
 Example:
 
 ````JavaScript
-	        function getVisibleState(sender, args) {
-	            var grid = $find("<%=RadGrid1.ClientID %>");
-	            var isVisibleOnClient = grid.get_visible();
-	            alert(isVisibleOnClient);
-	        }
+function getVisibleState(sender, args) {
+    var grid = $find("<%=RadGrid1.ClientID %>");
+    var isVisibleOnClient = grid.get_visible();
+    alert(isVisibleOnClient);
+}
 ````
 
 

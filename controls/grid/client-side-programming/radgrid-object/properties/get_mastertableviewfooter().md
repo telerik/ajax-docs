@@ -24,10 +24,10 @@ This property returns the MasterTableView footer instance for the respective gri
 Example:
 
 ````JavaScript
-	        function getMasterTableViewFooter() {
-	            var grid = $find("<%=RadGrid1.ClientID %>");
-	            var masterTableViewFooter = grid.get_masterTableViewFooter();
-	        }
+function getMasterTableViewFooter() {
+    var grid = $find("<%=RadGrid1.ClientID %>");
+    var masterTableViewFooter = grid.get_masterTableViewFooter();
+}
 ````
 
 
@@ -37,9 +37,9 @@ Example:
 
 
 ````ASP.NET
-	        <clientsettings>
-	                <Scrolling AllowScroll="true" UseStaticHeaders="true" />
-	        </clientsettings>
+<clientsettings>
+        <Scrolling AllowScroll="true" UseStaticHeaders="true" />
+</clientsettings>
 ````
 
 

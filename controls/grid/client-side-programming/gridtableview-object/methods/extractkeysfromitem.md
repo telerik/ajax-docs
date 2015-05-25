@@ -33,16 +33,16 @@ Method which extracts the key values (added to the **ClientDataKeyNames** collec
 Example:
 
 ````JavaScript
-	        function GetFirstEditedItemKeyValues() {
-	            var masterTable = $find("<%= RadGrid1.ClientID %>").get_masterTableView();
-	
-	            var keyValues = masterTable.extractKeysFromItem(0);
-	            var keyValuesSB = new Sys.StringBuilder();
-	
-	            for (var property in keyValues) {
-	                keyValuesSB.append(String.format("<b>{0}</b> : {1} <br/>", property, keyValues[property]));
-	            }
-	        }
+function GetFirstEditedItemKeyValues() {
+    var masterTable = $find("<%= RadGrid1.ClientID %>").get_masterTableView();
+
+    var keyValues = masterTable.extractKeysFromItem(0);
+    var keyValuesSB = new Sys.StringBuilder();
+
+    for (var property in keyValues) {
+        keyValuesSB.append(String.format("<b>{0}</b> : {1} <br/>", property, keyValues[property]));
+    }
+}
 ````
 
 

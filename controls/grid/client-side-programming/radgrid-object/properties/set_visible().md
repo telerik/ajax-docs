@@ -24,18 +24,18 @@ Property which sets the grid as visible or not on the client (changing the *styl
 Example:
 
 ````JavaScript
-	        function ShowGrid() {
-	            var grid = $find("<%=RadGrid1.ClientID %>");
-	            grid.set_visible(true);
-	        }
-	        function HideGrid() {
-	            var grid = $find("<%=RadGrid1.ClientID %>");
-	            grid.set_visible(false);
-	        }
+function ShowGrid() {
+    var grid = $find("<%=RadGrid1.ClientID %>");
+    grid.set_visible(true);
+}
+function HideGrid() {
+    var grid = $find("<%=RadGrid1.ClientID %>");
+    grid.set_visible(false);
+}
 ````
 
 
 
->note Note that in case RadGrid is bound on the server and you change its visibility using this property, after postback either from outer control or when performing operations like paging, sorting, etc. in the grid its initial visibility will be restored. The grid will keep its current visibility only when using[client-side binding]({%slug grid/data-binding/understanding-data-binding/client-side-binding/client-side-binding%}).
+>note  In case RadGrid is bound on the server and you change its visibility using this property, after postback either from outer control or when performing operations like paging, sorting, etc. in the grid its initial visibility will be restored. The grid will keep its current visibility only when using[client-side binding]({%slug grid/data-binding/understanding-data-binding/client-side-binding/client-side-binding%}).
 >
 

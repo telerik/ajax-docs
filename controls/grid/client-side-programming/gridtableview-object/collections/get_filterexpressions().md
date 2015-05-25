@@ -23,27 +23,27 @@ Furthermore, you can also utilize the **toList()** javascript method in order to
 When the toString() method is executed over a particular **Telerik.Web.UI.GridFilterExpression** object, it will return SQL string representation of the expression using the **Telerik.Web.UI.GridFilterFunctionsSqlFormat** enumeration values:
 
 ````JavaScript
-	Telerik.Web.UI.GridFilterFunctionsSqlFormat = function()
-	{
-	    var _knownFilterFunctions = {};
-	    _knownFilterFunctions[Telerik.Web.UI.GridFilterFunction.Contains] = "[{0}] LIKE '%{1}%'";
-	    _knownFilterFunctions[Telerik.Web.UI.GridFilterFunction.DoesNotContain] = "[{0}] NOT LIKE '%{1}%'";
-	    _knownFilterFunctions[Telerik.Web.UI.GridFilterFunction.StartsWith] = "[{0}] LIKE '{1}%'";
-	    _knownFilterFunctions[Telerik.Web.UI.GridFilterFunction.EndsWith] = "[{0}] LIKE '%{1}'";
-	    _knownFilterFunctions[Telerik.Web.UI.GridFilterFunction.EqualTo] = "[{0}] = {1}";
-	    _knownFilterFunctions[Telerik.Web.UI.GridFilterFunction.NotEqualTo] = "[{0}] <> {1}";
-	    _knownFilterFunctions[Telerik.Web.UI.GridFilterFunction.GreaterThan] = "[{0}] > {1}";
-	    _knownFilterFunctions[Telerik.Web.UI.GridFilterFunction.LessThan] = "[{0}] < {1}";
-	    _knownFilterFunctions[Telerik.Web.UI.GridFilterFunction.GreaterThanOrEqualTo] = "[{0}] >= {1}";
-	    _knownFilterFunctions[Telerik.Web.UI.GridFilterFunction.LessThanOrEqualTo] = "[{0}] <= {1}";
-	    _knownFilterFunctions[Telerik.Web.UI.GridFilterFunction.Between] = "([{0}] >= {1}) AND ([{0}] <= {2})";
-	    _knownFilterFunctions[Telerik.Web.UI.GridFilterFunction.NotBetween] = "([{0}] < {1}) OR ([{0}] > {2})";
-	    _knownFilterFunctions[Telerik.Web.UI.GridFilterFunction.IsEmpty] = "[{0}] = ''";
-	    _knownFilterFunctions[Telerik.Web.UI.GridFilterFunction.NotIsEmpty] = "[{0}] <> ''";
-	    _knownFilterFunctions[Telerik.Web.UI.GridFilterFunction.IsNull] = "[{0}] IS NULL";
-	    _knownFilterFunctions[Telerik.Web.UI.GridFilterFunction.NotIsNull] = "NOT ([{0}] IS NULL)";
-	    return _knownFilterFunctions;
-	};			
+Telerik.Web.UI.GridFilterFunctionsSqlFormat = function()
+{
+    var _knownFilterFunctions = {};
+    _knownFilterFunctions[Telerik.Web.UI.GridFilterFunction.Contains] = "[{0}] LIKE '%{1}%'";
+    _knownFilterFunctions[Telerik.Web.UI.GridFilterFunction.DoesNotContain] = "[{0}] NOT LIKE '%{1}%'";
+    _knownFilterFunctions[Telerik.Web.UI.GridFilterFunction.StartsWith] = "[{0}] LIKE '{1}%'";
+    _knownFilterFunctions[Telerik.Web.UI.GridFilterFunction.EndsWith] = "[{0}] LIKE '%{1}'";
+    _knownFilterFunctions[Telerik.Web.UI.GridFilterFunction.EqualTo] = "[{0}] = {1}";
+    _knownFilterFunctions[Telerik.Web.UI.GridFilterFunction.NotEqualTo] = "[{0}] <> {1}";
+    _knownFilterFunctions[Telerik.Web.UI.GridFilterFunction.GreaterThan] = "[{0}] > {1}";
+    _knownFilterFunctions[Telerik.Web.UI.GridFilterFunction.LessThan] = "[{0}] < {1}";
+    _knownFilterFunctions[Telerik.Web.UI.GridFilterFunction.GreaterThanOrEqualTo] = "[{0}] >= {1}";
+    _knownFilterFunctions[Telerik.Web.UI.GridFilterFunction.LessThanOrEqualTo] = "[{0}] <= {1}";
+    _knownFilterFunctions[Telerik.Web.UI.GridFilterFunction.Between] = "([{0}] >= {1}) AND ([{0}] <= {2})";
+    _knownFilterFunctions[Telerik.Web.UI.GridFilterFunction.NotBetween] = "([{0}] < {1}) OR ([{0}] > {2})";
+    _knownFilterFunctions[Telerik.Web.UI.GridFilterFunction.IsEmpty] = "[{0}] = ''";
+    _knownFilterFunctions[Telerik.Web.UI.GridFilterFunction.NotIsEmpty] = "[{0}] <> ''";
+    _knownFilterFunctions[Telerik.Web.UI.GridFilterFunction.IsNull] = "[{0}] IS NULL";
+    _knownFilterFunctions[Telerik.Web.UI.GridFilterFunction.NotIsNull] = "NOT ([{0}] IS NULL)";
+    return _knownFilterFunctions;
+};			
 ````
 
 
@@ -55,16 +55,16 @@ Additionally, there is another method - **toDataService()**, which again can be 
 There is one more method - **toOql()** for filter expressions which can be used if you want to bind the grid client-side directly to Telerik OpenAccess OQL query. Here are some code blocks which illustrates sample approach:
 
 ````JavaScript
-	//attach the OnDataBinding client-side event of the gridfunction RadGrid1_DataBinding(sender, args)
-	{
-	            var tableView = sender.get_masterTableView();
-	
-	            var sortParameterName = sender.ClientSettings.DataBinding.SortParameterName;
-	            var filterParameterName = sender.ClientSettings.DataBinding.FilterParameterName;
-	
-	            args.get_methodArguments()[sortParameterName] = tableView.get_sortExpressions().toString();
-	            args.get_methodArguments()[filterParameterName] = tableView.get_filterExpressions().toOql();
-	}			
+//attach the OnDataBinding client-side event of the gridfunction RadGrid1_DataBinding(sender, args)
+{
+            var tableView = sender.get_masterTableView();
+
+            var sortParameterName = sender.ClientSettings.DataBinding.SortParameterName;
+            var filterParameterName = sender.ClientSettings.DataBinding.FilterParameterName;
+
+            args.get_methodArguments()[sortParameterName] = tableView.get_sortExpressions().toString();
+            args.get_methodArguments()[filterParameterName] = tableView.get_filterExpressions().toOql();
+}			
 ````
 
 

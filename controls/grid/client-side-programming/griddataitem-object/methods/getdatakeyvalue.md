@@ -16,6 +16,6 @@ position: 4
 
 Returns the dataKeyValue, associated with the GridDataItem.
 
->note Note that this column name has to be part of the ClientDataKeyNames array of the MasterTableView/GridTableView.
+>note  This column name has to be part of the ClientDataKeyNames array of the MasterTableView/GridTableView.
 >
 

@@ -24,10 +24,10 @@ Method which re-renders the grid on the client. Useful when you would like to re
 Example:
 
 ````JavaScript
-	        function repaintGrid(sender, args) {
-	            var grid = $find("<%=RadGrid1.ClientID %>");
-	            grid.repaint();
-	        }
+function repaintGrid(sender, args) {
+    var grid = $find("<%=RadGrid1.ClientID %>");
+    grid.repaint();
+}
 ````
 
 

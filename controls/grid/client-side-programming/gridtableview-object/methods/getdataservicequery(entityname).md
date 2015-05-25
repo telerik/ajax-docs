@@ -24,18 +24,18 @@ The method will automatically send a result (holding all filter and sort express
 Example:
 
 ````JavaScript
-	    <telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
-	    <script type="text/javascript">
-	         var northwindService = new Sys.Data.DataService("NorthwindDataService.svc");
-	         tableView = $find("<%= RadGrid1.ClientID %>").get_masterTableView();
-	         northwindService.query(tableView.getDataServiceQuery("Customers"), updateGrid);
-	
-	         function updateGrid(result) {
-	             tableView.set_dataSource(result);
-	             tableView.dataBind();
-	         }
-	     </script>
-	    </telerik:RadCodeBlock>
+<telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
+<script type="text/javascript">
+     var northwindService = new Sys.Data.DataService("NorthwindDataService.svc");
+     tableView = $find("<%= RadGrid1.ClientID %>").get_masterTableView();
+     northwindService.query(tableView.getDataServiceQuery("Customers"), updateGrid);
+
+     function updateGrid(result) {
+         tableView.set_dataSource(result);
+         tableView.dataBind();
+     }
+ </script>
+</telerik:RadCodeBlock>
 ````
 
 

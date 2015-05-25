@@ -30,24 +30,24 @@ Method which collapses a group. It receives as a parameterthe closest data row t
 Example:
 
 ````JavaScript
-	        function CollapseGroupUsingDataItem() {
-	            var masterTableView = $find("<%=RadGrid1.ClientID %>").get_masterTableView();
-	            masterTableView.collapseGroup(masterTableView.get_dataItems()[4].get_element(),
-	            {
-	                expandParents: true,
-	                expandChildren: false
-	            });
-	        }
-	
-	        function CollapseGroupUsingGroupHeader() {
-	            var masterTableView = $find("<%=RadGrid1.ClientID %>").get_masterTableView();
-	            var groupHeader = $telerik.getElementsByClassName(masterTableView.get_element(), "rgGroupHeader")[4];
-	            masterTableView.collapseGroup(groupHeader,
-	            {
-	                expandChildren: false,
-	                findClosestGroup: true
-	            });
-	        }
+function CollapseGroupUsingDataItem() {
+    var masterTableView = $find("<%=RadGrid1.ClientID %>").get_masterTableView();
+    masterTableView.collapseGroup(masterTableView.get_dataItems()[4].get_element(),
+    {
+        expandParents: true,
+        expandChildren: false
+    });
+}
+
+function CollapseGroupUsingGroupHeader() {
+    var masterTableView = $find("<%=RadGrid1.ClientID %>").get_masterTableView();
+    var groupHeader = $telerik.getElementsByClassName(masterTableView.get_element(), "rgGroupHeader")[4];
+    masterTableView.collapseGroup(groupHeader,
+    {
+        expandChildren: false,
+        findClosestGroup: true
+    });
+}
 ````
 
 

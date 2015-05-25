@@ -25,10 +25,10 @@ Method which deletes the table row passed as an argument or the row correspondin
 Example:
 
 ````JavaScript
-	        function DeleteFirstItem() {
-	            var masterTable = $find("<%= RadGrid1.ClientID %>").get_masterTableView();
-	            masterTable.deleteItem(masterTable.get_dataItems()[0].get_element());
-	        }
+function DeleteFirstItem() {
+    var masterTable = $find("<%= RadGrid1.ClientID %>").get_masterTableView();
+    masterTable.deleteItem(masterTable.get_dataItems()[0].get_element());
+}
 ````
 
 

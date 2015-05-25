@@ -19,10 +19,10 @@ The method takes a single Boolean argument, specifying whether or not the column
 Example:
 
 ````JavaScript
-	        function GridCreated() {
-	            var column1 = $find("RadGrid1").get_masterTableView().get_columns()[0];
-	            column1.set_resizable(false);
-	        }
+function GridCreated() {
+    var column1 = $find("RadGrid1").get_masterTableView().get_columns()[0];
+    column1.set_resizable(false);
+}
 ````
 
 

@@ -19,10 +19,10 @@ Method which expands all groups. It receives an optional parameter indicating wh
 Example:
 
 ````JavaScript
-	        function ExpandAllGroups() {
-	            var masterTableView = $find("<%=RadGrid1.ClientID %>").get_masterTableView();
-	            masterTableView.expandAllGroups(2);
-	        }
+function ExpandAllGroups() {
+    var masterTableView = $find("<%=RadGrid1.ClientID %>").get_masterTableView();
+    masterTableView.expandAllGroups(2);
+}
 ````
 
 

@@ -26,21 +26,21 @@ Method which allows you to display the header context menu explicitly for a give
 Example:
 
 ````JavaScript
-	    <telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
-	    <script type="text/javascript">
-	        function ShowFirstColumnHeaderMenu(ev) {
-	            var grid = $find("<%=RadGrid1.ClientID %>");
-	            //show the header context menu for the second column in the master table with 10 left/10 top offset
-	            grid.get_masterTableView().get_columns()[1].showHeaderMenu(ev, 10, 10);
-	        }
-	     </script>
-	    </telerik:RadCodeBlock>
-	    
-	    <telerik:RadGrid id="RadGrid1" runat="server">
-	        <MasterTableView EnableHeaderContextMenu="true">
-	        </MasterTableView>
-	    </telerik:RadGrid> 
-	    <input id="Button1" type="button" value="show header menu" onclick="ShowFirstColumnHeaderMenu(event);" />
+<telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
+<script type="text/javascript">
+    function ShowFirstColumnHeaderMenu(ev) {
+        var grid = $find("<%=RadGrid1.ClientID %>");
+        //show the header context menu for the second column in the master table with 10 left/10 top offset
+        grid.get_masterTableView().get_columns()[1].showHeaderMenu(ev, 10, 10);
+    }
+ </script>
+</telerik:RadCodeBlock>
+
+<telerik:RadGrid id="RadGrid1" runat="server">
+    <MasterTableView EnableHeaderContextMenu="true">
+    </MasterTableView>
+</telerik:RadGrid> 
+<input id="Button1" type="button" value="show header menu" onclick="ShowFirstColumnHeaderMenu(event);" />
 ````
 
 

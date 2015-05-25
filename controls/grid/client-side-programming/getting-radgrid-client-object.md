@@ -19,10 +19,10 @@ There are two possible means to reference the client grid object:
 * Using the **$find(id)** method (shortcut for the findComponent() method) of the ASP.NET AJAX framework:
 
 ````JavaScript
-	<telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
-	var grid = $find("<%=RadGrid1.ClientID %>");
-	//execute some logic here 
-	</telerik:RadCodeBlock>			
+<telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
+var grid = $find("<%=RadGrid1.ClientID %>");
+//execute some logic here 
+</telerik:RadCodeBlock>			
 ````
 
 

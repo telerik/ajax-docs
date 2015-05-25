@@ -24,10 +24,10 @@ Property which returns the DOM element of the div in which RadGrid is rendered.
 Example:
 
 ````JavaScript
-	        function getDivElement() {
-	            var grid = $find("<%=RadGrid1.ClientID %>");
-	            var gridDiv = grid.get_element();            
-	        }
+function getDivElement() {
+    var grid = $find("<%=RadGrid1.ClientID %>");
+    var gridDiv = grid.get_element();            
+}
 ````
 
 

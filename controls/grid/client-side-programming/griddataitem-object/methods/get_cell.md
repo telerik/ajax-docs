@@ -24,24 +24,24 @@ This method takes a column UniqueName and returns the corresponding client table
 Example:
 
 ````ASP.NET
-	    <telerik:RadGrid ID="RadGrid1" runat="server">
-	        <ClientSettings>
-	            <ClientEvents OnRowDataBound="RadGrid1_RowDataBound" />
-	        </ClientSettings>
-	    </telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" runat="server">
+    <ClientSettings>
+        <ClientEvents OnRowDataBound="RadGrid1_RowDataBound" />
+    </ClientSettings>
+</telerik:RadGrid>
 ````
 
 
 
 ````JavaScript
-	        function RadGrid1_RowDataBound(sender, args){
-	            // conditional formatting
-	            args.get_item().get_cell("TitleOfCourtesy").style.fontWeight = (args.get_dataItem()["TitleOfCourtesy"] == "Dr.") ? "bold" : "normal";
-	        } 
+function RadGrid1_RowDataBound(sender, args){
+    // conditional formatting
+    args.get_item().get_cell("TitleOfCourtesy").style.fontWeight = (args.get_dataItem()["TitleOfCourtesy"] == "Dr.") ? "bold" : "normal";
+} 
 ````
 
 
 
->note Note that get_cell() method works only with client-side binding.
+>note  get_cell() method works only with client-side binding.
 >
 

@@ -24,23 +24,23 @@ Method which clears the selected items for the respective **GridTableView** clie
 Example:
 
 ````JavaScript
-	        function clearSelectedItems(sender, args) {
-	            var grid = $find("<%=RadGrid1.ClientID %>");
-	            var masterTableView = grid.get_masterTableView();
-	            masterTableView.clearSelectedItems();
-	        }
+function clearSelectedItems(sender, args) {
+    var grid = $find("<%=RadGrid1.ClientID %>");
+    var masterTableView = grid.get_masterTableView();
+    masterTableView.clearSelectedItems();
+}
 ````
 
 
 
->note Please note that this method is only applicable whenRow Selection of RadGrid is enabled.
+>note  This method is only applicable when Row Selection of RadGrid is enabled.
 >
 
 
 ````ASP.NET
-	        <ClientSettings>
-	            <Selecting AllowRowSelect="true" />
-	        </ClientSettings>     
+<ClientSettings>
+    <Selecting AllowRowSelect="true" />
+</ClientSettings>     
 ````
 
 

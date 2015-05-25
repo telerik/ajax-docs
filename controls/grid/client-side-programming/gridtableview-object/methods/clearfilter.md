@@ -24,17 +24,17 @@ Method which clears the filter for a specific column or the whole filter express
 Example:
 
 ````JavaScript
-	        function clearFilterExpressions() {
-	            var grid = $find("<%=RadGrid1.ClientID %>");
-	            var masterTableView = grid.get_masterTableView();
-	            masterTableView.clearFilter();
-	        }
-	
-	        function clearColumnFilter() {
-	            var grid = $find("<%=RadGrid1.ClientID %>");
-	            var masterTableView = grid.get_masterTableView();
-	            masterTableView.clearFilter("CompanyName");
-	        }
+function clearFilterExpressions() {
+    var grid = $find("<%=RadGrid1.ClientID %>");
+    var masterTableView = grid.get_masterTableView();
+    masterTableView.clearFilter();
+}
+
+function clearColumnFilter() {
+    var grid = $find("<%=RadGrid1.ClientID %>");
+    var masterTableView = grid.get_masterTableView();
+    masterTableView.clearFilter("CompanyName");
+}
 ````
 
 

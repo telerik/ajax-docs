@@ -14,26 +14,26 @@ position: 5
 
 ## 
 
-Returns a String, representing the ClientID for the element. Can be used as an identificatorto save some of the records in a preserving collection.
+Returns a String, representing the ClientID for the element. Can be used as an identificator to save some of the records in a preserving collection.
 
 ````ASP.NET
-	        <telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="True"
-	            OnNeedDataSource="RadGrid1_NeedDataSource">
-	            <ClientSettings>
-	                <ClientEvents OnRowCreated="rowCreated" />
-	            </ClientSettings>
-	            <MasterTableView DataKeyNames="OrderID">
-	            </MasterTableView>
-	        </telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="True"
+    OnNeedDataSource="RadGrid1_NeedDataSource">
+    <ClientSettings>
+        <ClientEvents OnRowCreated="rowCreated" />
+    </ClientSettings>
+    <MasterTableView DataKeyNames="OrderID">
+    </MasterTableView>
+</telerik:RadGrid>
 ````
 
 
 
 ````JavaScript
-	            function rowCreated(sender, args) {
-	                var item = args.get_item();
-	                alert(item.get_id());
-	            }
+function rowCreated(sender, args) {
+    var item = args.get_item();
+    alert(item.get_id());
+}
 ````
 
 

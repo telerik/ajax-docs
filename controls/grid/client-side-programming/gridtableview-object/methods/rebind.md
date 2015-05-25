@@ -24,10 +24,10 @@ Method which will force rebind of the grid and will refresh its state using inte
 Example:
 
 ````JavaScript
-	        function RefreshGrid() {
-	            var masterTable = $find("<%= RadGrid1.ClientID %>").get_masterTableView();
-	            masterTable.rebind();
-	        }
+function RefreshGrid() {
+    var masterTable = $find("<%= RadGrid1.ClientID %>").get_masterTableView();
+    masterTable.rebind();
+}
 ````
 
 

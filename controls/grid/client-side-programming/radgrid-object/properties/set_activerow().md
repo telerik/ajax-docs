@@ -24,12 +24,12 @@ Property which marks the row passed as an argument as active and highlighted.
 Example:
 
 ````JavaScript
-	        function setActiveRow() {
-	            var grid = $find("<%=RadGrid1.ClientID %>");
-	            var masterTableView = grid.get_masterTableView();
-	            var dataItems = masterTableView.get_dataItems();
-	            grid.set_activeRow(dataItems[0].get_element());            
-	        }
+function setActiveRow() {
+    var grid = $find("<%=RadGrid1.ClientID %>");
+    var masterTableView = grid.get_masterTableView();
+    var dataItems = masterTableView.get_dataItems();
+    grid.set_activeRow(dataItems[0].get_element());            
+}
 ````
 
 

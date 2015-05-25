@@ -25,10 +25,10 @@ Method which cancels the update for the edited table row passed as an argument o
 Example:
 
 ````JavaScript
-	        function CancelUpdateForFirstItem() {
-	            var masterTable = $find("<%= RadGrid1.ClientID %>").get_masterTableView();
-	            masterTable.cancelUpdate(masterTable.get_dataItems()[0].get_element());
-	        }
+function CancelUpdateForFirstItem() {
+    var masterTable = $find("<%= RadGrid1.ClientID %>").get_masterTableView();
+    masterTable.cancelUpdate(masterTable.get_dataItems()[0].get_element());
+}
 ````
 
 

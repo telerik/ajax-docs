@@ -25,10 +25,10 @@ Method which updates the edited table row passed as an argument or the row corre
 Example:
 
 ````JavaScript
-	        function UpdateFirstItem() {
-	            var masterTable = $find("<%= RadGrid1.ClientID %>").get_masterTableView();
-	            masterTable.updateItem(masterTable.get_dataItems()[0].get_element());
-	        } 
+function UpdateFirstItem() {
+    var masterTable = $find("<%= RadGrid1.ClientID %>").get_masterTableView();
+    masterTable.updateItem(masterTable.get_dataItems()[0].get_element());
+} 
 ````
 
 

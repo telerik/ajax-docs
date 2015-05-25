@@ -24,12 +24,12 @@ Method which will force client rebind of the grid and will refresh its state whe
 Example:
 
 ````JavaScript
-	        function assignDataSourceAndRefresh()
-	        {
-	            var masterTable = $find("<%= RadGrid1.ClientID %>").get_masterTableView();
-	            masterTable.set_dataSource(<some_data_source_of_the_specified_type_above>);
-	            masterTable.dataBind();
-	        }
+function assignDataSourceAndRefresh()
+{
+    var masterTable = $find("<%= RadGrid1.ClientID %>").get_masterTableView();
+    masterTable.set_dataSource(<some_data_source_of_the_specified_type_above>);
+    masterTable.dataBind();
+}
 ````
 
 
