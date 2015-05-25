@@ -31,26 +31,26 @@ This event will be raised for each grid command which is about to be triggered (
 Example:
 
 ````ASP.NET
-	    <telerik:RadGrid ID="RadGrid1" runat="server">
-	        <ClientSettings>
-	            <ClientEvents OnCommand="RaiseCommand" />
-	        </ClientSettings>
-	    </telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" runat="server">
+    <ClientSettings>
+        <ClientEvents OnCommand="RaiseCommand" />
+    </ClientSettings>
+</telerik:RadGrid>
 ````
 
 
 
 ````JavaScript
-	        function RaiseCommand(sender, eventArgs)
-	        {
-	            //retrieve the current commandName and commandArgument
-	            var result = String.format("CommandName: {0}, CommandArgument: {1}", eventArgs.get_commandName(), eventArgs.get_commandArgument());
-	
-	            if (<some_custom_condition_not_met>)
-	            {
-	                eventArgs.set_cancel(true); //cancel the command
-	            }
-	        }
+function RaiseCommand(sender, eventArgs)
+{
+    //retrieve the current commandName and commandArgument
+    var result = String.format("CommandName: {0}, CommandArgument: {1}", eventArgs.get_commandName(), eventArgs.get_commandArgument());
+
+    if (<some_custom_condition_not_met>)
+    {
+        eventArgs.set_cancel(true); //cancel the command
+    }
+}
 ````
 
 

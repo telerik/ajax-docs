@@ -31,19 +31,19 @@ This event is fired after a column is moved right.
 Example:
 
 ````ASP.NET
-	    <telerik:RadGrid ID="RadGrid1" runat="server">
-	        <ClientSettings AllowColumnsReorder="true" ReorderColumnsOnClient="true" ColumnsReorderMethod="Reorder">
-	            <ClientEvents OnColumnMovedToRight="ColumnMovedToRight" />
-	        </ClientSettings>
-	    </telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" runat="server">
+    <ClientSettings AllowColumnsReorder="true" ReorderColumnsOnClient="true" ColumnsReorderMethod="Reorder">
+        <ClientEvents OnColumnMovedToRight="ColumnMovedToRight" />
+    </ClientSettings>
+</telerik:RadGrid>
 ````
 
 
 
 ````JavaScript
-	        function ColumnMovedToRight(sender, eventArgs) {
-	            alert("Column with index: " + eventArgs.get_gridColumn().get_element().cellIndex + " was moved to right");
-	        }
+function ColumnMovedToRight(sender, eventArgs) {
+    alert("Column with index: " + eventArgs.get_gridColumn().get_element().cellIndex + " was moved to right");
+}
 ````
 
 

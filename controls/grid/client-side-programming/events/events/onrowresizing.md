@@ -31,24 +31,24 @@ This event is fired before a row is resized.
 Example:
 
 ````ASP.NET
-	    <telerik:RadGrid ID="RadGrid1" runat="server">
-	        <ClientSettings>
-	            <Resizing AllowRowResize="true" />
-	            <ClientEvents OnRowResizing="RowResizing" />
-	        </ClientSettings>
-	    </telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" runat="server">
+    <ClientSettings>
+        <Resizing AllowRowResize="true" />
+        <ClientEvents OnRowResizing="RowResizing" />
+    </ClientSettings>
+</telerik:RadGrid>
 ````
 
 
 
 ````JavaScript
-	        function RowResizing(sender, eventArgs) {
-	            alert("Resizing row instance: " + eventArgs.get_itemIndexHierarchical());
-	        }
-	        //OR
-	        function RowResizing(sender, eventArgs) {
-	            eventArgs.set_cancel(true) //cancel event
-	        }
+function RowResizing(sender, eventArgs) {
+    alert("Resizing row instance: " + eventArgs.get_itemIndexHierarchical());
+}
+//OR
+function RowResizing(sender, eventArgs) {
+    eventArgs.set_cancel(true) //cancel event
+}
 ````
 
 

@@ -31,23 +31,23 @@ This event is fired before a column is hidden.
 Example:
 
 ````ASP.NET
-	    <telerik:RadGrid ID="RadGrid1" runat="server">
-	        <ClientSettings>
-	            <ClientEvents OnColumnHiding="ColumnHiding" />
-	        </ClientSettings>
-	    </telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" runat="server">
+    <ClientSettings>
+        <ClientEvents OnColumnHiding="ColumnHiding" />
+    </ClientSettings>
+</telerik:RadGrid>
 ````
 
 
 
 ````JavaScript
-	        function ColumnHiding(sender, eventArgs) {
-	            alert("Hiding column: " + eventArgs.get_gridColumn().get_element().cellIndex);
-	        }
-	        //OR
-	        function ColumnHiding(sender, eventArgs) {
-	            eventArgs.set_cancel(true) //cancel event
-	        }
+function ColumnHiding(sender, eventArgs) {
+    alert("Hiding column: " + eventArgs.get_gridColumn().get_element().cellIndex);
+}
+//OR
+function ColumnHiding(sender, eventArgs) {
+    eventArgs.set_cancel(true) //cancel event
+}
 ````
 
 

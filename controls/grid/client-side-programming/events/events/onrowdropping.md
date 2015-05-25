@@ -25,29 +25,29 @@ This event should be attached to identify the target element on which the dragge
 
 |  **Fired by**  | RadGrid |
 | ------ | ------ |
-| **Arguments** | **targetItemId** - the ClientID of the targer dataItem **targetItemIndexHierarchical** - the hierarchical index of the target GridDataItem **targetGridDataItem** - the dataItem over which the user is dropping. May be null if the dataItem has not been instantiated beforehand **targetItemTableView** - the GridTableView object, to which the target GridDataItem belongs **args.get_TargetDataKeyValue(columnName)** - a method that returns a data key value for the specified column name of the target dataItem **domEvent** - dom event **draggedItems** - an array of the dragged dataItems **destinationHtmlElement** - target html element **targetRadGrid** - the RadGrid object, to which the target GridDataItem belongs **dropPosition** - indicates the position of the drop indicator if the user is dropping over a RadGrid row - "above" or "below" it|
+| **Arguments** | **targetItemId** - the ClientID of the target dataItem **targetItemIndexHierarchical** - the hierarchical index of the target GridDataItem **targetGridDataItem** - the dataItem over which the user is dropping. May be null if the dataItem has not been instantiated beforehand **targetItemTableView** - the GridTableView object, to which the target GridDataItem belongs **args.get_TargetDataKeyValue(columnName)** - a method that returns a data key value for the specified column name of the target dataItem **domEvent** - dom event **draggedItems** - an array of the dragged dataItems **destinationHtmlElement** - target html element **targetRadGrid** - the RadGrid object, to which the target GridDataItem belongs **dropPosition** - indicates the position of the drop indicator if the user is dropping over a RadGrid row - "above" or "below" it|
 | **Can be canceled** |Yes, set eventArgs.set_cancel(true) to cancel|
 
 Example:
 
 ````ASP.NET
-	    <telerik:RadGrid ID="RadGrid1" runat="server">
-	        <ClientSettings>
-	            <ClientEvents OnRowDropping="RowDropping" />
-	        </ClientSettings>
-	    </telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" runat="server">
+    <ClientSettings>
+        <ClientEvents OnRowDropping="RowDropping" />
+    </ClientSettings>
+</telerik:RadGrid>
 ````
 
 
 
 ````JavaScript
-	        function RowDropping(sender, eventArgs) {
-	            alert("Dropped target element id is: " + eventArgs.get_destinationHtmlElement().id);
-	        }
-	        //OR
-	        function RowDropping(sender, eventArgs) {
-	            eventArgs.set_cancel(true) //cancel event
-	        }
+function RowDropping(sender, eventArgs) {
+    alert("Dropped target element id is: " + eventArgs.get_destinationHtmlElement().id);
+}
+//OR
+function RowDropping(sender, eventArgs) {
+    eventArgs.set_cancel(true) //cancel event
+}
 ````
 
 

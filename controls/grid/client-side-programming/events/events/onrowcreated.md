@@ -31,19 +31,19 @@ This event is fired after a row available at client-side is created.
 Example:
 
 ````ASP.NET
-	    <telerik:RadGrid ID="RadGrid1" runat="server">
-	        <ClientSettings>
-	            <ClientEvents OnRowCreated="RowCreated" />
-	        </ClientSettings>
-	    </telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" runat="server">
+    <ClientSettings>
+        <ClientEvents OnRowCreated="RowCreated" />
+    </ClientSettings>
+</telerik:RadGrid>
 ````
 
 
 
 ````JavaScript
-	        function RowCreated(sender, eventArgs) {
-	            alert("Row with ID: " + eventArgs.get_gridDataItem().get_element().rowIndex + " was created");
-	        }
+function RowCreated(sender, eventArgs) {
+    alert("Row with ID: " + eventArgs.get_gridDataItem().get_element().rowIndex + " was created");
+}
 ````
 
 

@@ -25,25 +25,25 @@ This event is fired before the active row is changed.
 
 |  **Fired by**  | RadGrid |
 | ------ | ------ |
-| **Arguments** | **DataKeyValue** - if the ClientDataKeyNames property of RadGrid is set, this property returns datakey value for the item that has raised the event **cancel** - gets or sets the canceled status of the event **domEvent** - returns the DOM event that was raised for the current event **gridDataItem** - returns the corresponding data item for the item that has raised the event **id** - returns the ID of the row that has raised the event **itemIndexHierarchical** - returns the hierarchical index of the grid item that has raised the event **tableView** - returns the owner TableView of the item that has raised the event|
+| **Arguments** | **DataKeyValue** - if the ClientDataKeyNames property of RadGrid is set, this property returns data key value for the item that has raised the event **cancel** - gets or sets the canceled status of the event **domEvent** - returns the DOM event that was raised for the current event **gridDataItem** - returns the corresponding data item for the item that has raised the event **id** - returns the ID of the row that has raised the event **itemIndexHierarchical** - returns the hierarchical index of the grid item that has raised the event **tableView** - returns the owner TableView of the item that has raised the event|
 | **Can be canceled.** |Yes, set eventArgs.set_cancel(true) to cancel.|
 
 Example:
 
 ````ASP.NET
-	    <telerik:RadGrid ID="RadGrid1" runat="server">
-	        <ClientSettings>
-	            <ClientEvents OnActiveRowChanging="ActiveRowChanging" />
-	        </ClientSettings>
-	    </telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" runat="server">
+    <ClientSettings>
+        <ClientEvents OnActiveRowChanging="ActiveRowChanging" />
+    </ClientSettings>
+</telerik:RadGrid>
 ````
 
 
 
 ````JavaScript
-	        function ActiveRowChanging(sender, eventArgs) {
-	            alert("The active row will change for grid with id" + sender.get_id());
-	        }
+function ActiveRowChanging(sender, eventArgs) {
+    alert("The active row will change for grid with id" + sender.get_id());
+}
 ````
 
 

@@ -31,22 +31,22 @@ This event is fired when a key is pressed.
 Example:
 
 ````ASP.NET
-	    <telerik:RadGrid ID="RadGrid1" runat="server">
-	        <ClientSettings>
-	            <ClientEvents OnKeyPress="KeyPress" />
-	        </ClientSettings>
-	    </telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" runat="server">
+    <ClientSettings>
+        <ClientEvents OnKeyPress="KeyPress" />
+    </ClientSettings>
+</telerik:RadGrid>
 ````
 
 
 
 ````JavaScript
-	        function KeyPress(sender, eventArgs) {
-	            alert("Key code: " + eventArgs.get_keyCode());
-	            alert("Is Shift pressed: " + eventArgs.get_isShiftPressed());
-	            alert("Is Ctrl pressed: " + eventArgs.get_isCtrlPressed());
-	            alert("Is Alt pressed: " + eventArgs.get_isAltPressed());
-	        }
+function KeyPress(sender, eventArgs) {
+    alert("Key code: " + eventArgs.get_keyCode());
+    alert("Is Shift pressed: " + eventArgs.get_isShiftPressed());
+    alert("Is Ctrl pressed: " + eventArgs.get_isCtrlPressed());
+    alert("Is Alt pressed: " + eventArgs.get_isAltPressed());
+}
 ````
 
 

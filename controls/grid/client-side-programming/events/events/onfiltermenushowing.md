@@ -25,24 +25,24 @@ This event is fired before the filtering menu is rendered.
 Example:
 
 ````ASP.NET
-	    <telerik:RadGrid ID="RadGrid1" runat="server">
-	        <ClientSettings>
-	            <ClientEvents OnFilterMenuShowing ="FilterMenuShowing" />
-	        </ClientSettings>
-	    </telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" runat="server">
+    <ClientSettings>
+        <ClientEvents OnFilterMenuShowing ="FilterMenuShowing" />
+    </ClientSettings>
+</telerik:RadGrid>
 ````
 
 
 
 ````JavaScript
-	        function FilterMenuShowing(sender, eventArgs) {
-	            if (eventArgs.get_gridColumn().get_uniqueName() == "ClientID") {
-	                eventArgs.get_menu().get_element().className = "MyClass";
-	            }
-	            else {
-	                eventArgs.get_menu().get_element().className = "";
-	            }
-	        }
+function FilterMenuShowing(sender, eventArgs) {
+    if (eventArgs.get_gridColumn().get_uniqueName() == "ClientID") {
+        eventArgs.get_menu().get_element().className = "MyClass";
+    }
+    else {
+        eventArgs.get_menu().get_element().className = "";
+    }
+}
 ````
 
 

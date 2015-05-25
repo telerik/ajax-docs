@@ -31,19 +31,19 @@ This event is fired before detail table creation.
 Example:
 
 ````ASP.NET
-	    <telerik:RadGrid ID="RadGrid1" runat="server">
-	        <ClientSettings>
-	            <ClientEvents OnTableCreating="TableCreating" />
-	        </ClientSettings>
-	    </telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" runat="server">
+    <ClientSettings>
+        <ClientEvents OnTableCreating="TableCreating" />
+    </ClientSettings>
+</telerik:RadGrid>
 ````
 
 
 
 ````JavaScript
-	        function TableCreating(sender, eventArgs) {
-	            alert("Creating  DetailTable");
-	        }
+function TableCreating(sender, eventArgs) {
+    alert("Creating  DetailTable");
+}
 ````
 
 

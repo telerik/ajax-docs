@@ -25,22 +25,20 @@ This event is fired before the header context menu is rendered.
 Example:
 
 ````ASP.NET
-	    <telerik:RadGrid ID="RadGrid1" runat="server">
-	        <ClientSettings>
-	            <ClientEvents OnHeaderMenuShowing ="HeaderMenuShowing" />
-	        </ClientSettings>
-	    </telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" runat="server">
+    <ClientSettings>
+        <ClientEvents OnHeaderMenuShowing ="HeaderMenuShowing" />
+    </ClientSettings>
+</telerik:RadGrid>
 ````
 
-
-
 ````JavaScript
-	        function HeaderMenuShowing(sender, eventArgs) {
-	            if (eventArgs.get_gridColumn().get_uniqueName() == "ContactName") {
-	                //hide the Clear sorting option from the header context menu of the column with name ContactName
-	                eventArgs.get_menu().get_items().getItem(2).get_element().style.display = "none";
-	            }
-	        }
+function HeaderMenuShowing(sender, eventArgs) {
+    if (eventArgs.get_gridColumn().get_uniqueName() == "ContactName") {
+        //hide the Clear sorting option from the header context menu of the column with name ContactName
+        eventArgs.get_menu().get_items().getItem(2).get_element().style.display = "none";
+    }
+}
 ````
 
 

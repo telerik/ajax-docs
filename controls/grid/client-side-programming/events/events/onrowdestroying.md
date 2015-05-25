@@ -31,19 +31,19 @@ This event is fired when a row object is destroyed.
 Example:
 
 ````ASP.NET
-	    <telerik:RadGrid ID="RadGrid1" runat="server">
-	        <ClientSettings>
-	            <ClientEvents OnRowDestroying="RowDestroying" />
-	        </ClientSettings>
-	    </telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" runat="server">
+    <ClientSettings>
+        <ClientEvents OnRowDestroying="RowDestroying" />
+    </ClientSettings>
+</telerik:RadGrid>
 ````
 
 
 
 ````JavaScript
-	        function RowDestroying(sender, eventArgs) {
-	            alert("Destroying row");
-	        }
+function RowDestroying(sender, eventArgs) {
+    alert("Destroying row");
+}
 ````
 
 

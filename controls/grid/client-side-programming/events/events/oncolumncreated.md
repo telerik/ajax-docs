@@ -31,20 +31,20 @@ This event is fired after a column is created at client-side .
 Example:
 
 ````ASP.NET
-	    <telerik:RadGrid ID="RadGrid1" runat="server">
-	        <ClientSettings>
-	            <ClientEvents OnColumnCreated="ColumnCreated" />
-	        </ClientSettings>
-	    </telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" runat="server">
+    <ClientSettings>
+        <ClientEvents OnColumnCreated="ColumnCreated" />
+    </ClientSettings>
+</telerik:RadGrid>
 ````
 
 
 
 ````JavaScript
-	        function ColumnCreated(sender, eventArgs) {
-	            var column = eventArgs.get_column();
-	            alert("Column with Index: " + column.get_uniqueName() + " was created");
-	        }
+function ColumnCreated(sender, eventArgs) {
+    var column = eventArgs.get_column();
+    alert("Column with Index: " + column.get_uniqueName() + " was created");
+}
 ````
 
 

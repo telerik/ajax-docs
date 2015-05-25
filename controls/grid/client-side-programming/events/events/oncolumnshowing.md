@@ -31,23 +31,23 @@ This event is fired before a column is shown.
 Example:
 
 ````ASP.NET
-	    <telerik:RadGrid ID="RadGrid1" runat="server">
-	        <ClientSettings>
-	            <ClientEvents OnColumnShowing="ColumnShowing" />
-	        </ClientSettings>
-	    </telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" runat="server">
+    <ClientSettings>
+        <ClientEvents OnColumnShowing="ColumnShowing" />
+    </ClientSettings>
+</telerik:RadGrid>
 ````
 
 
 
 ````JavaScript
-	        function ColumnShowing(sender, eventArgs) {
-	            alert("Showing column: " + eventArgs.get_gridColumn().get_element().cellIndex);
-	        }
-	        //OR
-	        function ColumnShowing(sender, eventArgs) {
-	            eventArgs.set_cancel(true) //cancel event
-	        }
+function ColumnShowing(sender, eventArgs) {
+    alert("Showing column: " + eventArgs.get_gridColumn().get_element().cellIndex);
+}
+//OR
+function ColumnShowing(sender, eventArgs) {
+    eventArgs.set_cancel(true) //cancel event
+}
 ````
 
 

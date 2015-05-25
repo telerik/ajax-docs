@@ -39,21 +39,21 @@ This event will be raised when the grid is about to be bound to data client-side
 Example:
 
 ````ASP.NET
-	    <telerik:RadGrid ID="RadGrid1" runat="server">
-	        <ClientSettings>
-	            <ClientEvents OnDataBinding="RadGrid1_DataBinding" />
-	        </ClientSettings>
-	    </telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" runat="server">
+    <ClientSettings>
+        <ClientEvents OnDataBinding="RadGrid1_DataBinding" />
+    </ClientSettings>
+</telerik:RadGrid>
 ````
 
 
 
 ````JavaScript
-	        function RadGrid1_DataBinding(sender, args)
-	        {
-	            sender.ClientSettings.DataBinding.SelectMethod = "MyGetDataMethodName";
-	            sender.ClientSettings.DataBinding.SelectCountMethod = "MyGetCountMethodName";
-	        }
+function RadGrid1_DataBinding(sender, args)
+{
+    sender.ClientSettings.DataBinding.SelectMethod = "MyGetDataMethodName";
+    sender.ClientSettings.DataBinding.SelectCountMethod = "MyGetCountMethodName";
+}
 ````
 
 

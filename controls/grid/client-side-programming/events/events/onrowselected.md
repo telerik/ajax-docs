@@ -31,20 +31,20 @@ This event is fired after row selection.
 Example:
 
 ````ASP.NET
-	    <telerik:RadGrid ID="RadGrid1" runat="server">
-	        <ClientSettings>
-	            <ClientEvents OnRowSelected="RowSelected" />
-	        </ClientSettings>
-	    </telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" runat="server">
+    <ClientSettings>
+        <ClientEvents OnRowSelected="RowSelected" />
+    </ClientSettings>
+</telerik:RadGrid>
 ````
 
 
 
 ````JavaScript
-	        function RowSelected(sender, eventArgs) {
-	            var e = eventArgs.get_domEvent();
-	            alert("Row: " + eventArgs.get_itemIndexHierarchical() + " selected.");
-	        }
+function RowSelected(sender, eventArgs) {
+    var e = eventArgs.get_domEvent();
+    alert("Row: " + eventArgs.get_itemIndexHierarchical() + " selected.");
+}
 ````
 
 

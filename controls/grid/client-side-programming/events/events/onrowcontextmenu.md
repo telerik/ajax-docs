@@ -31,19 +31,19 @@ This event is fired on Context menu call.
 Example:
 
 ````ASP.NET
-	    <telerik:RadGrid ID="RadGrid1" runat="server">
-	        <ClientSettings>
-	            <ClientEvents OnRowContextMenu="RowContextMenu" />
-	        </ClientSettings>
-	    </telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" runat="server">
+    <ClientSettings>
+        <ClientEvents OnRowContextMenu="RowContextMenu" />
+    </ClientSettings>
+</telerik:RadGrid>
 ````
 
 
 
 ````JavaScript
-	        function RowContextMenu(sender, eventArgs) {
-	            alert("Context menu on row: " + eventArgs.get_itemIndexHierarchical());
-	        }
+function RowContextMenu(sender, eventArgs) {
+    alert("Context menu on row: " + eventArgs.get_itemIndexHierarchical());
+}
 ````
 
 

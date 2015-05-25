@@ -31,23 +31,23 @@ This event is fired before row deselection.
 Example:
 
 ````ASP.NET
-	    <telerik:RadGrid ID="RadGrid1" runat="server">
-	        <ClientSettings>
-	            <ClientEvents OnRowDeselecting="RowDeselecting" />
-	        </ClientSettings>
-	    </telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" runat="server">
+    <ClientSettings>
+        <ClientEvents OnRowDeselecting="RowDeselecting" />
+    </ClientSettings>
+</telerik:RadGrid>
 ````
 
 
 
 ````JavaScript
-	        function RowDeselecting(rowObject) {
-	            alert("Deselecting row: " + eventArgs.get_itemIndexHierarchical());
-	        }
-	        //OR
-	        function RowDeselecting(rowObject) {
-	            eventArgs.set_cancel(true) //cancel event;
-	        }
+function RowDeselecting(rowObject) {
+    alert("Deselecting row: " + eventArgs.get_itemIndexHierarchical());
+}
+//OR
+function RowDeselecting(rowObject) {
+    eventArgs.set_cancel(true) //cancel event;
+}
 ````
 
 

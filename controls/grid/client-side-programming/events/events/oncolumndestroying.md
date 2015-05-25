@@ -31,19 +31,19 @@ This event is fired when a column object is destroyed.
 Example:
 
 ````ASP.NET
-	    <telerik:RadGrid ID="RadGrid1" runat="server">
-	        <ClientSettings>
-	            <ClientEvents OnColumnDestroying="ColumnDestroying" />
-	        </ClientSettings>
-	    </telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" runat="server">
+    <ClientSettings>
+        <ClientEvents OnColumnDestroying="ColumnDestroying" />
+    </ClientSettings>
+</telerik:RadGrid>
 ````
 
 
 
 ````JavaScript
-	        function ColumnDestroying(sender, eventArgs) {
-	            alert("Destroing column with Index: " + eventArgs.get_column().get_uniqueName());
-	        }
+function ColumnDestroying(sender, eventArgs) {
+    alert("Destroing column with Index: " + eventArgs.get_column().get_uniqueName());
+}
 ````
 
 

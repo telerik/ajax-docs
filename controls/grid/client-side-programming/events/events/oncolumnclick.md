@@ -31,19 +31,19 @@ This event is fired when a column is clicked.
 Example:
 
 ````ASP.NET
-	    <telerik:RadGrid ID="RadGrid1" runat="server">
-	        <ClientSettings>
-	            <ClientEvents OnColumnClick="ColumnClick" />
-	        </ClientSettings>
-	    </telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" runat="server">
+    <ClientSettings>
+        <ClientEvents OnColumnClick="ColumnClick" />
+    </ClientSettings>
+</telerik:RadGrid>
 ````
 
 
 
 ````JavaScript
-	        function ColumnClick(sender, eventArgs) {
-	            alert("Click on column-header: " + eventArgs.get_gridColumn().get_element().cellIndex);
-	        }
+function ColumnClick(sender, eventArgs) {
+    alert("Click on column-header: " + eventArgs.get_gridColumn().get_element().cellIndex);
+}
 ````
 
 

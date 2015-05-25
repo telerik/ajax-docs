@@ -31,19 +31,19 @@ This event is fired when a row is double-clicked.
 Example:
 
 ````ASP.NET
-	    <telerik:RadGrid ID="RadGrid1" runat="server">
-	        <ClientSettings>
-	            <ClientEvents OnRowDblClick="RowDblClick" />
-	        </ClientSettings>
-	    </telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" runat="server">
+    <ClientSettings>
+        <ClientEvents OnRowDblClick="RowDblClick" />
+    </ClientSettings>
+</telerik:RadGrid>
 ````
 
 
 
 ````JavaScript
-	        function RowDblClick(sender, eventArgs) {
-	            alert("DblClick on row instance: " + eventArgs.get_itemIndexHierarchical());
-	        }
+function RowDblClick(sender, eventArgs) {
+    alert("DblClick on row instance: " + eventArgs.get_itemIndexHierarchical());
+}
 ````
 
 

@@ -31,19 +31,17 @@ This event is fired when the group is shown.
 Example:
 
 ````ASP.NET
-	    <telerik:RadGrid ID="RadGrid1" runat="server">
-	        <ClientSettings>
-	            <ClientEvents OnGroupCollapsed="GroupCollapsed" />
-	        </ClientSettings>
-	    </telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" runat="server">
+    <ClientSettings>
+        <ClientEvents OnGroupCollapsed="GroupCollapsed" />
+    </ClientSettings>
+</telerik:RadGrid>
 ````
 
-
-
 ````JavaScript
-	        function GroupCollapsed(sender, eventArgs) {
-	            alert("GroupCollapsed is fired");
-	        }
+function GroupCollapsed(sender, eventArgs) {
+    alert("GroupCollapsed is fired");
+}
 ````
 
 

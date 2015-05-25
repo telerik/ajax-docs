@@ -33,19 +33,19 @@ This event is fired when the user right-clicks arbitrary column header.
 Example:
 
 ````ASP.NET
-	    <telerik:RadGrid ID="RadGrid1" runat="server">
-	        <ClientSettings>
-	            <ClientEvents OnColumnContextMenu="ColumnContextMenu" />
-	        </ClientSettings>
-	    </telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" runat="server">
+    <ClientSettings>
+        <ClientEvents OnColumnContextMenu="ColumnContextMenu" />
+    </ClientSettings>
+</telerik:RadGrid>
 ````
 
 
 
 ````JavaScript
-	        function ColumnContextMenu(sender, eventArgs) {
-	            alert("Context menu on column-header: " + eventArgs.get_gridColumn().get_element().cellIndex);
-	        }
+function ColumnContextMenu(sender, eventArgs) {
+    alert("Context menu on column-header: " + eventArgs.get_gridColumn().get_element().cellIndex);
+}
 ````
 
 

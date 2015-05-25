@@ -27,26 +27,24 @@ This event is fired when a cell is opening for edit
 Example:
 
 ````ASP.NET
-	         <telerik:radgrid id="RadGrid1" datasourceid="SqlDataSource1">
-	            <MasterTableView EditMode="Batch">
-	            </MasterTableView>
-	            <ClientSettings>
-	                <ClientEvents OnBatchEditOpening="BatchEditOpening"/>
-	            </ClientSettings>
-	        </telerik:radgrid>
+<telerik:radgrid id="RadGrid1" datasourceid="SqlDataSource1">
+    <MasterTableView EditMode="Batch">
+    </MasterTableView>
+    <ClientSettings>
+        <ClientEvents OnBatchEditOpening="BatchEditOpening"/>
+    </ClientSettings>
+</telerik:radgrid>
 ````
 
-
-
 ````JavaScript
-	        function BatchEditOpening(sender, args) {
-	            var row = args.get_row();
-	            var cell = args.get_cell();
-	            var tableView = args.get_tableView();
-	            var column = args.get_column();
-	            var columnUniqueName = args.get_columnUniqueName();
-	            var isCanceled = args.get_cancel();
-	        }
+function BatchEditOpening(sender, args) {
+    var row = args.get_row();
+    var cell = args.get_cell();
+    var tableView = args.get_tableView();
+    var column = args.get_column();
+    var columnUniqueName = args.get_columnUniqueName();
+    var isCanceled = args.get_cancel();
+}
 ````
 
 

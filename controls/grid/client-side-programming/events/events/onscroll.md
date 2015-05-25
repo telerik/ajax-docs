@@ -31,23 +31,23 @@ This event is fired when you scroll the grid.
 Example:
 
 ````ASP.NET
-	    <telerik:RadGrid ID="RadGrid1" runat="server">
-	        <ClientSettings>
-	            <ClientEvents OnScroll="Scroll" />
-	        </ClientSettings>
-	    </telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" runat="server">
+    <ClientSettings>
+        <ClientEvents OnScroll="Scroll" />
+    </ClientSettings>
+</telerik:RadGrid>
 ````
 
 
 
 ````JavaScript
-	        function Scroll(sender, eventArgs) {
-	            alert(eventArgs.get_scrollTop());
-	            alert(eventArgs.get_scrollLeft());
-	            alert(eventArgs.get_scrollControl());
-	            alert(eventArgs.get_isOnTop());
-	            alert(eventArgs.get_isOnBottom());
-	        }
+function Scroll(sender, eventArgs) {
+    alert(eventArgs.get_scrollTop());
+    alert(eventArgs.get_scrollLeft());
+    alert(eventArgs.get_scrollControl());
+    alert(eventArgs.get_isOnTop());
+    alert(eventArgs.get_isOnBottom());
+}
 ````
 
 

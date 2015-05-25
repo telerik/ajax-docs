@@ -31,19 +31,19 @@ This event is fired after a column is hidden.
 Example:
 
 ````ASP.NET
-	    <telerik:RadGrid ID="RadGrid1" runat="server">
-	        <ClientSettings>
-	            <ClientEvents  OnColumnHidden="ColumnHidden" />
-	        </ClientSettings>
-	    </telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" runat="server">
+    <ClientSettings>
+        <ClientEvents  OnColumnHidden="ColumnHidden" />
+    </ClientSettings>
+</telerik:RadGrid>
 ````
 
 
 
 ````JavaScript
-	        function ColumnHidden(sender, eventArgs) {
-	            alert("Column: " + eventArgs.get_gridColumn().get_element().cellIndex + " was hidden");
-	        }
+function ColumnHidden(sender, eventArgs) {
+    alert("Column: " + eventArgs.get_gridColumn().get_element().cellIndex + " was hidden");
+}
 ````
 
 

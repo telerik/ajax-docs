@@ -27,28 +27,28 @@ This event should be handled when multiple controls which contain an input eleme
 Example:
 
 ````ASP.NET
-	        <telerik:RadGrid ID="RadGrid1" DataSourceID="SqlDataSource1">
-	            <MasterTableView EditMode="Batch">
-	            </MasterTableView>
-	            <ClientSettings>
-	                <ClientEvents OnBatchEditSetCellValue="BatchEditSetCellValue"/>
-	            </ClientSettings>
-	        </telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" DataSourceID="SqlDataSource1">
+    <MasterTableView EditMode="Batch">
+    </MasterTableView>
+    <ClientSettings>
+        <ClientEvents OnBatchEditSetCellValue="BatchEditSetCellValue"/>
+    </ClientSettings>
+</telerik:RadGrid>
 ````
 
 
 
 ````JavaScript
-	        function BatchEditSetCellValue(sender, args) {
-	            var itemContainer = args.get_container(); 
-	            var cell = args.get_cell(); 
-	            var row = args.get_row(); 
-	            var column = args.get_column();
-	            var columnUniqueName = args.get_columnUniqueName();
-	            var currentlyEditedTable = args.get_tableView();
-	            var cellValue = args.get_value(); 
-	            var isEventCanceled=args.get_cancel();
-	        }
+function BatchEditSetCellValue(sender, args) {
+    var itemContainer = args.get_container(); 
+    var cell = args.get_cell(); 
+    var row = args.get_row(); 
+    var column = args.get_column();
+    var columnUniqueName = args.get_columnUniqueName();
+    var currentlyEditedTable = args.get_tableView();
+    var cellValue = args.get_value(); 
+    var isEventCanceled=args.get_cancel();
+}
 ````
 
 

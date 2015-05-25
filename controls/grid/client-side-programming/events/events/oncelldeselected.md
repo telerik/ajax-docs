@@ -25,32 +25,32 @@ This event is fired after a cell is deselected.
 
 |  **Fired by**  | RadGrid |
 | ------ | ------ |
-| **Arguments** | **cellIndexHierarchical** - returns the hierarchical index of the cell **column** - returns a reference to the corresponding[GridColumn]({%slug grid/client-side-programming/gridcolumn-object/gridcolumn-class-members%})object **gridDataItem** - returns a reference to the corresponding GridDataItem object **row** - returns a reference to the correspong table row element **tableView** - returns a reference to the corresponding GridTableView object **cancel** - gets or sets the canceled status of the event|
+| **Arguments** | **cellIndexHierarchical** - returns the hierarchical index of the cell **column** - returns a reference to the corresponding[GridColumn]({%slug grid/client-side-programming/gridcolumn-object/gridcolumn-class-members%})object **gridDataItem** - returns a reference to the corresponding GridDataItem object **row** - returns a reference to the corresponding table row element **tableView** - returns a reference to the corresponding GridTableView object **cancel** - gets or sets the cancelled status of the event|
 | **Can be canceled** |No|
 
 Example:
 
 ````JavaScript
-	        function cellDeselected(sender, args) {
-	            var selectedRow = args.get_row();
-	            var selectedColumn = args.get_column();
-	            var dataItem = args.get_gridDataItem();
-	            var tableView = args.get_tableView();
-	            var cellIndex = args.get_cellIndexHierarchical();            
-	            var output = String.format("The selected cell is located in column with name: " + selectedColumn.get_uniqueName() + " and in row with index: " +
-	             dataItem.get_itemIndexHierarchical() + ". This cell has index " + cellIndex + " and it is part from " + tableView.get_name() + ".");
-	            alert(output);
-	        }
+function cellDeselected(sender, args) {
+    var selectedRow = args.get_row();
+    var selectedColumn = args.get_column();
+    var dataItem = args.get_gridDataItem();
+    var tableView = args.get_tableView();
+    var cellIndex = args.get_cellIndexHierarchical();            
+    var output = String.format("The selected cell is located in column with name: " + selectedColumn.get_uniqueName() + " and in row with index: " +
+     dataItem.get_itemIndexHierarchical() + ". This cell has index " + cellIndex + " and it is part from " + tableView.get_name() + ".");
+    alert(output);
+}
 ````
 
 
 
 ````ASP.NET
-	        <ClientSettings>
-	                <Selecting CellSelectionMode="MultiCell" />
-	                <Scrolling AllowScroll="true" UseStaticHeaders="true" />
-	                <ClientEvents OnCellDeselecting="cellDeselected" />
-	        </ClientSettings>
+<ClientSettings>
+        <Selecting CellSelectionMode="MultiCell" />
+        <Scrolling AllowScroll="true" UseStaticHeaders="true" />
+        <ClientEvents OnCellDeselecting="cellDeselected" />
+</ClientSettings>
 ````
 
 
