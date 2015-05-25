@@ -26,6 +26,8 @@ position: 1
 
 >note The built-in icons work only when the embedded skins are used. If you externalize the skins or use a custom skin, you cannot set them via the above shorthand values. If you wish to use them in this case please examine the [Using the built-in icons with a custom skin](http://www.telerik.com/support/kb/aspnet-ajax/notification/using-the-built-in-icons-with-a-custom-skin.aspx) Knowledge Base article on the matter.
 
+The icons in the Lightweight RenderMode are font-icons and not `<img/>` tags.
+
 
 # See Also
 
