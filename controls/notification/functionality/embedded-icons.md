@@ -64,6 +64,7 @@ div.RadNotification .myFontIconCssClass:before
 	content: "\E043";
 }
 ````
+
 ````ASP.NET
 <telerik:RadNotification ID="RadNotification2" runat="server" VisibleOnPageLoad="true" Position="Center" Width="200" Height="200" RenderMode="Lightweight" AutoCloseDelay="0"
 	ContentIcon="myFontIconCssClass" >
@@ -71,15 +72,16 @@ div.RadNotification .myFontIconCssClass:before
 ````
 
 **Example 3**: Using a custom font for a RadNotification's icon. Note that the `fa fa-camera-retro` class is provided by the font author and contains the needed rules to create a font-icon with the appropriate symbol. What you need to do is to ensure that the `.rnIcon:before` element has the desired font applied (See **Example 5**).
-````ASP.NET
-<telerik:RadNotification ID="RadNotification1" runat="server" VisibleOnPageLoad="true" Position="Center" Width="200" Height="200" RenderMode="Lightweight" AutoCloseDelay="0"
-	TitleIcon="fa fa-camera-retro"></telerik:RadNotification>
-````
 ````CSS
 div.RadNotification .fa.fa-camera-retro.rnIcon:before
 {
 	font-family: "FontAwesome";
 }
+````
+
+````ASP.NET
+<telerik:RadNotification ID="RadNotification1" runat="server" VisibleOnPageLoad="true" Position="Center" Width="200" Height="200" RenderMode="Lightweight" AutoCloseDelay="0"
+	TitleIcon="fa fa-camera-retro"></telerik:RadNotification>
 ````
 
 
@@ -89,11 +91,6 @@ div.RadNotification .fa.fa-camera-retro.rnIcon:before
 ````
 
 **Example 5**: Using a custom font with your own CSS rules for selecting the content.
-````ASP.NET
-<telerik:RadNotification ID="RadNotification2" runat="server" VisibleOnPageLoad="true" Position="Center" Width="200" Height="200" RenderMode="Lightweight" AutoCloseDelay="0"
-				ContentIcon="myFontIconCssClass" >
-</telerik:RadNotification>
-````
 ````CSS
 div.RadNotification .myFontIconCssClass:before
 {
@@ -101,6 +98,13 @@ div.RadNotification .myFontIconCssClass:before
 	content: "\E043"; /* Apply your desired content according to your own font */
 }
 ````
+
+````ASP.NET
+<telerik:RadNotification ID="RadNotification2" runat="server" VisibleOnPageLoad="true" Position="Center" Width="200" Height="200" RenderMode="Lightweight" AutoCloseDelay="0"
+				ContentIcon="myFontIconCssClass" >
+</telerik:RadNotification>
+````
+
 
 # See Also
 
