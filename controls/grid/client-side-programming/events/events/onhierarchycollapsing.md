@@ -31,19 +31,17 @@ This event is fired when the hierarchy is being collapsed and the HierarchyLoadM
 Example:
 
 ````ASP.NET
-	    <telerik:RadGrid ID="RadGrid1" runat="server">
-	        <ClientSettings>
-	            <ClientEvents OnHierarchyCollapsing="HierarchyCollapsing" />
-	        </ClientSettings>
-	    </telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" runat="server">
+    <ClientSettings>
+        <ClientEvents OnHierarchyCollapsing="HierarchyCollapsing" />
+    </ClientSettings>
+</telerik:RadGrid>
 ````
 
-
-
 ````JavaScript
-	        function HierarchyCollapsing(sender, eventArgs) {
-	            alert("Row: " + eventArgs.get_itemIndexHierarchical() + " is being collapsed");
-	        }
+function HierarchyCollapsing(sender, eventArgs) {
+    alert("Row: " + eventArgs.get_itemIndexHierarchical() + " is being collapsed");
+}
 ````
 
 

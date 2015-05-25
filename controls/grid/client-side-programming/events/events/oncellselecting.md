@@ -25,29 +25,27 @@ This event is fired before a cell is selected.
 
 |  **Fired by**  | RadGrid |
 | ------ | ------ |
-| **Arguments** | **get_column** - returns a reference to the corresponding[GridColumn]({%slug grid/client-side-programming/gridcolumn-object/gridcolumn-class-members%})object **get_gridDataItem** - returns a reference to the corresponding GridDataItem object **get_row** - returns a reference to the correspong table row element **cancel** - gets or sets the canceled status of the event|
+| **Arguments** | **get_column** - returns a reference to the corresponding[GridColumn]({%slug grid/client-side-programming/gridcolumn-object/gridcolumn-class-members%})object **get_gridDataItem** - returns a reference to the corresponding GridDataItem object **get_row** - returns a reference to the corresponding table row element **cancel** - gets or sets the cancelled status of the event|
 | **Can be canceled** |Yes, set eventArgs.set_cancel(true) to cancel|
 
 Example:
 
 ````JavaScript
-	        function cellSelecting(sender, args) {
-	            var selectedRow = args.get_row();
-	            var selectedColumn = args.get_column();
-	            var dataItem = args.get_gridDataItem();
-	            var output = String.format("The selected cell is located in column with name: " + selectedColumn.get_uniqueName() + " and in row with index: " + dataItem.get_itemIndexHierarchical()+".");
-	            alert(output);
-	        }
+function cellSelecting(sender, args) {
+    var selectedRow = args.get_row();
+    var selectedColumn = args.get_column();
+    var dataItem = args.get_gridDataItem();
+    var output = String.format("The selected cell is located in column with name: " + selectedColumn.get_uniqueName() + " and in row with index: " + dataItem.get_itemIndexHierarchical()+".");
+    alert(output);
+}
 ````
 
-
-
 ````ASP.NET
-	        <ClientSettings>
-	            <Selecting CellSelectionMode="MultiCell" />
-	            <Scrolling AllowScroll="true" UseStaticHeaders="true" />
-	            <ClientEvents OnCellSelecting="cellSelecting" />
-	        </ClientSettings>
+<ClientSettings>
+    <Selecting CellSelectionMode="MultiCell" />
+    <Scrolling AllowScroll="true" UseStaticHeaders="true" />
+    <ClientEvents OnCellSelecting="cellSelecting" />
+</ClientSettings>
 ````
 
 

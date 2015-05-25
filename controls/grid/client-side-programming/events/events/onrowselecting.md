@@ -31,23 +31,23 @@ This event is fired before row selection.
 Example:
 
 ````ASP.NET
-	    <telerik:RadGrid ID="RadGrid1" runat="server">
-	        <ClientSettings>
-	            <ClientEvents OnRowSelecting="RowSelecting" />
-	        </ClientSettings>
-	    </telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" runat="server">
+    <ClientSettings>
+        <ClientEvents OnRowSelecting="RowSelecting" />
+    </ClientSettings>
+</telerik:RadGrid>
 ````
 
 
 
 ````JavaScript
-	        function RowSelecting(sender, eventArgs) {
-	            alert("Selecting row: " + eventArgs.get_itemIndexHierarchical());
-	        }
-	        //OR
-	        function RowSelecting(sender, eventArgs) {
-	            eventArgs.set_cancel(true) //cancel event
-	        }
+function RowSelecting(sender, eventArgs) {
+    alert("Selecting row: " + eventArgs.get_itemIndexHierarchical());
+}
+//OR
+function RowSelecting(sender, eventArgs) {
+    eventArgs.set_cancel(true) //cancel event
+}
 ````
 
 

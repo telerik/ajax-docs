@@ -27,25 +27,23 @@ This event is fired after a cell is opened for edit.
 Example:
 
 ````ASP.NET
-	        <telerik:radgrid id="RadGrid1" datasourceid="SqlDataSource1">
-	            <MasterTableView EditMode="Batch">
-	            </MasterTableView>
-	            <ClientSettings>
-	                <ClientEvents OnBatchEditOpened="BatchEditOpened"/>
-	            </ClientSettings>
-	        </telerik:radgrid>
+<telerik:radgrid id="RadGrid1" datasourceid="SqlDataSource1">
+    <MasterTableView EditMode="Batch">
+    </MasterTableView>
+    <ClientSettings>
+        <ClientEvents OnBatchEditOpened="BatchEditOpened"/>
+    </ClientSettings>
+</telerik:radgrid>
 ````
 
-
-
 ````JavaScript
-	        function BatchEditOpened(sender, args) {
-	            var row = args.get_row();
-	            var cell = args.get_cell();
-	            var tableView = args.get_tableView();
-	            var column = args.get_column();
-	            var columnUniqueName = args.get_columnUniqueName();
-	        }
+function BatchEditOpened(sender, args) {
+    var row = args.get_row();
+    var cell = args.get_cell();
+    var tableView = args.get_tableView();
+    var column = args.get_column();
+    var columnUniqueName = args.get_columnUniqueName();
+}
 ````
 
 

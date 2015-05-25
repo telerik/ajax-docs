@@ -31,19 +31,19 @@ This event is fired when a row is clicked.
 Example:
 
 ````ASP.NET
-	    <telerik:RadGrid ID="RadGrid1" runat="server">
-	        <ClientSettings>
-	            <ClientEvents OnRowClick="RowClick" />
-	        </ClientSettings>
-	    </telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" runat="server">
+    <ClientSettings>
+        <ClientEvents OnRowClick="RowClick" />
+    </ClientSettings>
+</telerik:RadGrid>
 ````
 
 
 
 ````JavaScript
-	        function RowClick(sender, eventArgs) {
-	            alert("Click on row instance: " + eventArgs.get_itemIndexHierarchical());
-	        }
+function RowClick(sender, eventArgs) {
+    alert("Click on row instance: " + eventArgs.get_itemIndexHierarchical());
+}
 ````
 
 

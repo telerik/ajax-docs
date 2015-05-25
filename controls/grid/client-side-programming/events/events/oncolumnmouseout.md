@@ -31,19 +31,17 @@ This event is fired when the mouse leaves a column.
 Example:
 
 ````ASP.NET
-	    <telerik:RadGrid ID="RadGrid1" runat="server">
-	        <ClientSettings>
-	            <ClientEvents OnColumnMouseOut="ColumnMouseOut" />
-	        </ClientSettings>
-	    </telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" runat="server">
+    <ClientSettings>
+        <ClientEvents OnColumnMouseOut="ColumnMouseOut" />
+    </ClientSettings>
+</telerik:RadGrid>
 ````
 
-
-
 ````JavaScript
-	        function ColumnMouseOut(sender, eventArgs) {
-	            alert("Mouse is out column-header: " + eventArgs.get_gridColumn().get_element().cellIndex);
-	        }
+function ColumnMouseOut(sender, eventArgs) {
+    alert("Mouse is out column-header: " + eventArgs.get_gridColumn().get_element().cellIndex);
+}
 ````
 
 

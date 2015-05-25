@@ -31,23 +31,23 @@ This event is fired before two columns are swapped.
 Example:
 
 ````ASP.NET
-	    <telerik:RadGrid ID="RadGrid1" runat="server">
-	        <ClientSettings>
-	            <ClientEvents OnColumnSwapping="ColumnSwapping" />
-	        </ClientSettings>
-	    </telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" runat="server">
+    <ClientSettings>
+        <ClientEvents OnColumnSwapping="ColumnSwapping" />
+    </ClientSettings>
+</telerik:RadGrid>
 ````
 
 
 
 ````JavaScript
-	        function ColumnSwapping(sender, eventArgs) {
-	            alert("Swapping columns with indices: " + eventArgs.get_gridSourceColumn().get_element().cellIndex + " and " + eventArgs.get_gridTargetColumn().get_element().cellIndex);
-	        }
-	        //OR
-	        function ColumnSwapping(sender, eventArgs) {
-	            eventArgs.set_cancel(true) //cancel event
-	        }
+function ColumnSwapping(sender, eventArgs) {
+    alert("Swapping columns with indices: " + eventArgs.get_gridSourceColumn().get_element().cellIndex + " and " + eventArgs.get_gridTargetColumn().get_element().cellIndex);
+}
+//OR
+function ColumnSwapping(sender, eventArgs) {
+    eventArgs.set_cancel(true) //cancel event
+}
 ````
 
 

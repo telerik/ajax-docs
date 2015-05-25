@@ -31,19 +31,19 @@ This event is fired when the hierarchy is being expanded and the HierarchyLoadMo
 Example:
 
 ````ASP.NET
-	    <telerik:RadGrid ID="RadGrid1" runat="server">
-	        <ClientSettings>
-	            <ClientEvents OnHierarchyExpanding="HierarchyExpanding" />
-	        </ClientSettings>
-	    </telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" runat="server">
+    <ClientSettings>
+        <ClientEvents OnHierarchyExpanding="HierarchyExpanding" />
+    </ClientSettings>
+</telerik:RadGrid>
 ````
 
 
 
 ````JavaScript
-	        function HierarchyExpanding(sender, eventArgs) {
-	            alert("Row: " + eventArgs.get_itemIndexHierarchical() + " is being expanded");
-	        }
+function HierarchyExpanding(sender, eventArgs) {
+    alert("Row: " + eventArgs.get_itemIndexHierarchical() + " is being expanded");
+}
 ````
 
 

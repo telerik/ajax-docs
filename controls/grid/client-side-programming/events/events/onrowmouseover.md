@@ -33,19 +33,19 @@ This event is fired when the mouse hovers a row.
 Example:
 
 ````ASP.NET
-	    <telerik:RadGrid ID="RadGrid1" runat="server">
-	        <ClientSettings>
-	            <ClientEvents OnRowMouseOver="RowMouseOver" />
-	        </ClientSettings>
-	    </telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" runat="server">
+    <ClientSettings>
+        <ClientEvents OnRowMouseOver="RowMouseOver" />
+    </ClientSettings>
+</telerik:RadGrid>
 ````
 
 
 
 ````JavaScript
-	        function RowMouseOver(sender, eventArgs) {
-	            alert("Mouse is over row: " + eventArgs.get_itemIndexHierarchical());
-	        }
+function RowMouseOver(sender, eventArgs) {
+    alert("Mouse is over row: " + eventArgs.get_itemIndexHierarchical());
+}
 ````
 
 

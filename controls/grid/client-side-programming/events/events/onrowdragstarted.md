@@ -31,23 +31,23 @@ This event can be intercepted if you want to perform some conditional check and 
 Example:
 
 ````ASP.NET
-	    <telerik:RadGrid ID="RadGrid1" runat="server">
-	        <ClientSettings>
-	            <ClientEvents OnRowDragStarted="RowDragStarted" />
-	        </ClientSettings>
-	    </telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" runat="server">
+    <ClientSettings>
+        <ClientEvents OnRowDragStarted="RowDragStarted" />
+    </ClientSettings>
+</telerik:RadGrid>
 ````
 
 
 
 ````JavaScript
-	        function RowDragStarted(sender, eventArgs) {
-	            alert("Dragged grid row id is: " + eventArgs.get_gridDataItem().get_id());
-	        }
-	        //OR
-	        function RowDragStarted(sender, eventArgs) {
-	            eventArgs.set_cancel(true) //cancel the event
-	        }
+function RowDragStarted(sender, eventArgs) {
+    alert("Dragged grid row id is: " + eventArgs.get_gridDataItem().get_id());
+}
+//OR
+function RowDragStarted(sender, eventArgs) {
+    eventArgs.set_cancel(true) //cancel the event
+}
 ````
 
 

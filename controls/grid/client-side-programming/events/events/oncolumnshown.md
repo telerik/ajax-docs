@@ -31,19 +31,19 @@ This event is fired after a column is shown.
 Example:
 
 ````ASP.NET
-	    <telerik:RadGrid ID="RadGrid1" runat="server">
-	        <ClientSettings>
-	            <ClientEvents OnColumnShown="ColumnShown" />
-	        </ClientSettings>
-	    </telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" runat="server">
+    <ClientSettings>
+        <ClientEvents OnColumnShown="ColumnShown" />
+    </ClientSettings>
+</telerik:RadGrid>
 ````
 
 
 
 ````JavaScript
-	        function ColumnShown(sender, eventArgs) {
-	            alert("Column: " + eventArgs.get_gridColumn().get_element().cellIndex + " was shown");
-	        }
+function ColumnShown(sender, eventArgs) {
+    alert("Column: " + eventArgs.get_gridColumn().get_element().cellIndex + " was shown");
+}
 ````
 
 

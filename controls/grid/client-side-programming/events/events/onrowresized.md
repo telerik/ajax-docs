@@ -33,21 +33,21 @@ This event is fired after a row is resized.
 Example:
 
 ````ASP.NET
-	    <telerik:RadGrid ID="RadGrid1" runat="server">
-	        <ClientSettings>
-	            <Resizing AllowRowResize="true" />
-	            <ClientEvents OnRowResized="RowResized" />
-	        </ClientSettings>
-	    </telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" runat="server">
+    <ClientSettings>
+        <Resizing AllowRowResize="true" />
+        <ClientEvents OnRowResized="RowResized" />
+    </ClientSettings>
+</telerik:RadGrid>
 ````
 
 
 
 ````JavaScript
-	        function RowResized(sender, eventArgs) {
-	            var e = eventArgs.get_domEvent();
-	            alert("Row instance: " + eventArgs.get_itemIndexHierarchical() + "  was resized");
-	        }
+function RowResized(sender, eventArgs) {
+    var e = eventArgs.get_domEvent();
+    alert("Row instance: " + eventArgs.get_itemIndexHierarchical() + "  was resized");
+}
 ````
 
 

@@ -31,19 +31,17 @@ This event is fired before a row is shown.
 Example:
 
 ````ASP.NET
-	    <telerik:RadGrid ID="RadGrid1" runat="server">
-	        <ClientSettings>
-	            <ClientEvents OnGroupExpanding="GroupExpanding" />
-	        </ClientSettings>
-	    </telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" runat="server">
+    <ClientSettings>
+        <ClientEvents OnGroupExpanding="GroupExpanding" />
+    </ClientSettings>
+</telerik:RadGrid>
 ````
 
-
-
 ````JavaScript
-	        function GroupExpanding(sender, eventArgs) {
-	            alert("GroupExpanding is fired");
-	        }
+function GroupExpanding(sender, eventArgs) {
+    alert("GroupExpanding is fired");
+}
 ````
 
 

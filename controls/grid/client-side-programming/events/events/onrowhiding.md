@@ -31,23 +31,23 @@ This event is fired before a row is hidden.
 Example:
 
 ````ASP.NET
-	    <telerik:RadGrid ID="RadGrid1" runat="server">
-	        <ClientSettings>
-	            <ClientEvents OnRowHiding="RowHiding" />
-	        </ClientSettings>
-	    </telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" runat="server">
+    <ClientSettings>
+        <ClientEvents OnRowHiding="RowHiding" />
+    </ClientSettings>
+</telerik:RadGrid>
 ````
 
 
 
 ````JavaScript
-	        function RowHiding(sender, eventArgs) {
-	            alert("Hiding row: " + eventArgs.get_itemIndexHierarchical());
-	        }
-	        //OR
-	        function RowHiding(sender, eventArgs) {
-	            eventArgs.set_cancel(true);  //cancel event
-	        }
+function RowHiding(sender, eventArgs) {
+    alert("Hiding row: " + eventArgs.get_itemIndexHierarchical());
+}
+//OR
+function RowHiding(sender, eventArgs) {
+    eventArgs.set_cancel(true);  //cancel event
+}
 ````
 
 

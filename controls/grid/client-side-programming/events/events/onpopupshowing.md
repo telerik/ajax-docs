@@ -31,23 +31,23 @@ This event fires when the pop-up edit form is being shown. The event could be ha
 Example:
 
 ````ASP.NET
-	    <telerik:RadGrid ID="RadGrid1" runat="server">
-	        <ClientSettings>
-	            <ClientEvents OnPopUpShowing ="PopUpShowing" />
-	        </ClientSettings>
-	    </telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" runat="server">
+    <ClientSettings>
+        <ClientEvents OnPopUpShowing ="PopUpShowing" />
+    </ClientSettings>
+</telerik:RadGrid>
 ````
 
 
 
 ````JavaScript
-	        function PopUpShowing(sender, eventArgs) {
-	            var popUp = eventArgs.get_popUp();
-	        }
-	        //OR
-	        function PopUpShowing(sender, eventArgs) {
-	            eventArgs.set_cancel(true);
-	        }
+function PopUpShowing(sender, eventArgs) {
+    var popUp = eventArgs.get_popUp();
+}
+//OR
+function PopUpShowing(sender, eventArgs) {
+    eventArgs.set_cancel(true);
+}
 ````
 
 

@@ -35,23 +35,23 @@ This event will be raised when the grid fails to bind to data client-side (after
 Example:
 
 ````ASP.NET
-	    <telerik:RadGrid ID="RadGrid1" runat="server">
-	        <ClientSettings>
-	            <ClientEvents OnDataBindingFailed="RadGrid1_DataBindingFailed" />
-	        </ClientSettings>
-	    </telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" runat="server">
+    <ClientSettings>
+        <ClientEvents OnDataBindingFailed="RadGrid1_DataBindingFailed" />
+    </ClientSettings>
+</telerik:RadGrid>
 ````
 
 
 
 ````JavaScript
-	        function RadGrid1_DataBindingFailed(sender, eventArgs)
-	        {
-	            var sb = new Sys.StringBuilder();
-	            sb.appendLine("<b>RadGrid1_DataBindingFailed. Reason:</b><br />");
-	            sb.appendLine(String.format("{0} : {1} : {2}", eventArgs.get_message(), eventArgs.get_stackTrace(), eventArgs.get_exceptionType()); 
-	            alert(sb.toString());
-	        }
+function RadGrid1_DataBindingFailed(sender, eventArgs)
+{
+    var sb = new Sys.StringBuilder();
+    sb.appendLine("<b>RadGrid1_DataBindingFailed. Reason:</b><br />");
+    sb.appendLine(String.format("{0} : {1} : {2}", eventArgs.get_message(), eventArgs.get_stackTrace(), eventArgs.get_exceptionType()); 
+    alert(sb.toString());
+}
 ````
 
 

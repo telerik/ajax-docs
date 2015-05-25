@@ -27,27 +27,27 @@ This event is fired once a cell has been edited.
 Example:
 
 ````ASP.NET
-	        <telerik:radgrid id="RadGrid1" datasourceid="SqlDataSource1">
-	            <MasterTableView EditMode="Batch">
-	            </MasterTableView>
-	            <ClientSettings>
-	                   <ClientEvents OnBatchEditCellValueChanged="BatchEditCellValueChanged"/>
-	            </ClientSettings>
-	        </telerik:radgrid>
+<telerik:radgrid id="RadGrid1" datasourceid="SqlDataSource1">
+    <MasterTableView EditMode="Batch">
+    </MasterTableView>
+    <ClientSettings>
+           <ClientEvents OnBatchEditCellValueChanged="BatchEditCellValueChanged"/>
+    </ClientSettings>
+</telerik:radgrid>
 ````
 
 
 
 ````JavaScript
-	        function BatchEditCellValueChanged(sender, args) {
-	            var row = args.get_row();
-	            var cell = args.get_cell();
-	            var tableView = args.get_tableView();
-	            var column = args.get_column();
-	            var columnUniqueName = args.get_columnUniqueName();
-	            var editorValue = args.get_editorValue();
-	            var cellValue = args.get_cellValue();
-	        }
+function BatchEditCellValueChanged(sender, args) {
+    var row = args.get_row();
+    var cell = args.get_cell();
+    var tableView = args.get_tableView();
+    var column = args.get_column();
+    var columnUniqueName = args.get_columnUniqueName();
+    var editorValue = args.get_editorValue();
+    var cellValue = args.get_cellValue();
+}
 ````
 
 

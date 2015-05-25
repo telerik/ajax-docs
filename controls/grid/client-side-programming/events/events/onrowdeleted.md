@@ -31,19 +31,19 @@ This event is fired after a row is deleted client-side (GridClientDeleteColumn).
 Example:
 
 ````ASP.NET
-	    <telerik:RadGrid ID="RadGrid1" runat="server">
-	        <ClientSettings>
-	            <ClientEvents OnRowDeleted="RowDeleted" />
-	        </ClientSettings>
-	    </telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" runat="server">
+    <ClientSettings>
+        <ClientEvents OnRowDeleted="RowDeleted" />
+    </ClientSettings>
+</telerik:RadGrid>
 ````
 
 
 
 ````JavaScript
-	        function RowDeleted(sender, eventArgs) {
-	            alert(eventArgs.getDataKeyValue("OrderID"));
-	        }
+function RowDeleted(sender, eventArgs) {
+    alert(eventArgs.getDataKeyValue("OrderID"));
+}
 ````
 
 

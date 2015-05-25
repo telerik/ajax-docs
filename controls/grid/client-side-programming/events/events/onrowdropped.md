@@ -31,19 +31,19 @@ This event can be handled if you would like to execute some extra code logic pri
 Example:
 
 ````ASP.NET
-	    <telerik:RadGrid ID="RadGrid1" runat="server">
-	        <ClientSettings>
-	            <ClientEvents OnRowDropped="RowDropped" />
-	        </ClientSettings>
-	    </telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" runat="server">
+    <ClientSettings>
+        <ClientEvents OnRowDropped="RowDropped" />
+    </ClientSettings>
+</telerik:RadGrid>
 ````
 
 
 
 ````JavaScript
-	        function RowDropped(sender, eventArgs) {
-	            alert("Dropped target element id is: " + eventArgs.get_destinationHtmlElement().id);
-	        }
+function RowDropped(sender, eventArgs) {
+    alert("Dropped target element id is: " + eventArgs.get_destinationHtmlElement().id);
+}
 ````
 
 

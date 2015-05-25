@@ -31,20 +31,20 @@ This event is fired after a detail table is created.
 Example:
 
 ````ASP.NET
-	    <telerik:RadGrid ID="RadGrid1" runat="server">
-	        <ClientSettings>
-	            <ClientEvents OnTableCreated="TableCreated" />
-	        </ClientSettings>
-	    </telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" runat="server">
+    <ClientSettings>
+        <ClientEvents OnTableCreated="TableCreated" />
+    </ClientSettings>
+</telerik:RadGrid>
 ````
 
 
 
 ````JavaScript
-	        function TableCreated(sender, eventArgs) {
-	            var tableView = eventArgs.get_tableView();
-	            alert("DetailTable with ClientID: " + tableView.get_id() + " was created");
-	        }
+function TableCreated(sender, eventArgs) {
+    var tableView = eventArgs.get_tableView();
+    alert("DetailTable with ClientID: " + tableView.get_id() + " was created");
+}
 ````
 
 

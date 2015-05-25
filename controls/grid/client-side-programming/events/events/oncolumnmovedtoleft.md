@@ -31,19 +31,19 @@ This event is fired after a column is moved left.
 Example:
 
 ````ASP.NET
-	    <telerik:RadGrid ID="RadGrid1" runat="server">
-	        <ClientSettings>
-	            <ClientEvents OnColumnMouseOver="ColumnMouseOver" />
-	        </ClientSettings>
-	    </telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" runat="server">
+    <ClientSettings>
+        <ClientEvents OnColumnMouseOver="ColumnMouseOver" />
+    </ClientSettings>
+</telerik:RadGrid>
 ````
 
 
 
 ````JavaScript
-	        function ColumnMouseOver(sender, eventArgs) {
-	            alert("Mouse is over column-header: " + eventArgs.get_gridColumn().get_element().cellIndex);
-	        }
+function ColumnMouseOver(sender, eventArgs) {
+    alert("Mouse is over column-header: " + eventArgs.get_gridColumn().get_element().cellIndex);
+}
 ````
 
 

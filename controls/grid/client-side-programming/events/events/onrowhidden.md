@@ -31,19 +31,19 @@ This event is fired after a row is hidden.
 Example:
 
 ````ASP.NET
-	    <telerik:RadGrid ID="RadGrid1" runat="server">
-	        <ClientSettings>
-	            <ClientEvents OnRowHidden="RowHidden" />
-	        </ClientSettings>
-	    </telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" runat="server">
+    <ClientSettings>
+        <ClientEvents OnRowHidden="RowHidden" />
+    </ClientSettings>
+</telerik:RadGrid>
 ````
 
 
 
 ````JavaScript
-	        function RowHidden(sender, eventArgs) {
-	            alert("Row: " + eventArgs.get_itemIndexHierarchical() + " was hidden");
-	        }
+function RowHidden(sender, eventArgs) {
+    alert("Row: " + eventArgs.get_itemIndexHierarchical() + " was hidden");
+}
 ````
 
 

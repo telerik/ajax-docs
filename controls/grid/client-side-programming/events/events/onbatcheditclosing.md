@@ -27,26 +27,26 @@ This event is fired when a cell is closing.
 Example:
 
 ````ASP.NET
-	        <telerik:radgrid id="RadGrid1" datasourceid="SqlDataSource1">
-	            <MasterTableView EditMode="Batch">
-	            </MasterTableView>
-	            <ClientSettings>
-	                 <ClientEvents OnBatchEditClosing="BatchEditClosing" />
-	            </ClientSettings>
-	        </telerik:radgrid>
+<telerik:radgrid id="RadGrid1" datasourceid="SqlDataSource1">
+    <MasterTableView EditMode="Batch">
+    </MasterTableView>
+    <ClientSettings>
+         <ClientEvents OnBatchEditClosing="BatchEditClosing" />
+    </ClientSettings>
+</telerik:radgrid>
 ````
 
 
 
 ````JavaScript
-	        function BatchEditClosing(sender, args) {
-	            var row = args.get_row();
-	            var cell = args.get_cell();
-	            var tableView = args.get_tableView();
-	            var column = args.get_column();
-	            var columnUniqueName = args.get_columnUniqueName();
-	            var isCanceled = args.get_cancel();
-	        }
+function BatchEditClosing(sender, args) {
+    var row = args.get_row();
+    var cell = args.get_cell();
+    var tableView = args.get_tableView();
+    var column = args.get_column();
+    var columnUniqueName = args.get_columnUniqueName();
+    var isCanceled = args.get_cancel();
+}
 ````
 
 

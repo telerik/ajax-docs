@@ -31,20 +31,20 @@ This event is fired after a column is resized.
 Example:
 
 ````ASP.NET
-	    <telerik:RadGrid ID="RadGrid1" runat="server">
-	        <ClientSettings>
-	            <Resizing AllowColumnResize="true" />
-	            <ClientEvents OnColumnResized="ColumnResized" />
-	        </ClientSettings>
-	    </telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" runat="server">
+    <ClientSettings>
+        <Resizing AllowColumnResize="true" />
+        <ClientEvents OnColumnResized="ColumnResized" />
+    </ClientSettings>
+</telerik:RadGrid>
 ````
 
 
 
 ````JavaScript
-	        function ColumnResized(sender, eventArgs) {
-	            alert("Column with Index: " + eventArgs.get_gridColumn().get_element().cellIndex + " was resized, width: " + eventArgs.get_gridColumn().get_element().offsetWidth);
-	        }
+function ColumnResized(sender, eventArgs) {
+    alert("Column with Index: " + eventArgs.get_gridColumn().get_element().cellIndex + " was resized, width: " + eventArgs.get_gridColumn().get_element().offsetWidth);
+}
 ````
 
 

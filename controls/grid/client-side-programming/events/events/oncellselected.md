@@ -31,26 +31,24 @@ This event is fired after a cell is selected.
 Example:
 
 ````JavaScript
-	        function cellSelected(sender, args) {
-	            var selectedRow = args.get_row();
-	            var selectedColumn = args.get_column();
-	            var dataItem = args.get_gridDataItem();
-	            var tableView = args.get_tableView();           
-	            var cellIndex = args.get_cellIndexHierarchical();
-	            var output = String.format("The selected cell is located in column with name: " + selectedColumn.get_uniqueName() + " and in row with index: " +
-	             dataItem.get_itemIndexHierarchical() +". This cell has index "+cellIndex +" and it is part from "+tableView.get_name()+".");
-	            alert(output);
-	        }
+function cellSelected(sender, args) {
+    var selectedRow = args.get_row();
+    var selectedColumn = args.get_column();
+    var dataItem = args.get_gridDataItem();
+    var tableView = args.get_tableView();           
+    var cellIndex = args.get_cellIndexHierarchical();
+    var output = String.format("The selected cell is located in column with name: " + selectedColumn.get_uniqueName() + " and in row with index: " +
+     dataItem.get_itemIndexHierarchical() +". This cell has index "+cellIndex +" and it is part from "+tableView.get_name()+".");
+    alert(output);
+}
 ````
 
-
-
 ````ASP.NET
-	        <ClientSettings>
-	            <Selecting CellSelectionMode="MultiCell" />
-	            <Scrolling AllowScroll="true" UseStaticHeaders="true" />
-	            <ClientEvents OnCellSelected="cellSelected" />
-	        </ClientSettings>
+<ClientSettings>
+    <Selecting CellSelectionMode="MultiCell" />
+    <Scrolling AllowScroll="true" UseStaticHeaders="true" />
+    <ClientEvents OnCellSelected="cellSelected" />
+</ClientSettings>
 ````
 
 

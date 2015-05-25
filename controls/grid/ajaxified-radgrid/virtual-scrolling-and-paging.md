@@ -16,7 +16,7 @@ When working with large data sets, it is convenient to use the **RadGrid** pagin
 
 ## Virtual scroll bar
 
-When scrolling with the virtual scroll bar, **RadGrid** can use either standard postbacks or AJAX requests (when AJAX callbacks are enabled using **RadAjaxManager**, **RadAjaxPanel**, or MS **UpdatePanel**). By using AJAX callbacks, the overall behavior is smooth, with no flicker.
+When scrolling with the virtual scroll bar, **RadGrid** can use either standard postbacks or AJAX requests (when AJAX call-backs are enabled using **RadAjaxManager**, **RadAjaxPanel**, or MS **UpdatePanel**). By using AJAX call-backs, the overall behavior is smooth, with no flicker.
 
 ![Virtual Paging/Scrolling](images/grd_VirtualPaging_markedup.png)
 

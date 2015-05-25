@@ -35,19 +35,17 @@ This event will be raised right after the grid is bound to data client-side.
 Example:
 
 ````ASP.NET
-	    <telerik:RadGrid ID="RadGrid1" runat="server">
-	        <ClientSettings>
-	            <ClientEvents OnDataBound="RadGrid1_DataBound" />
-	        </ClientSettings>
-	    </telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" runat="server">
+    <ClientSettings>
+        <ClientEvents OnDataBound="RadGrid1_DataBound" />
+    </ClientSettings>
+</telerik:RadGrid>
 ````
 
-
-
 ````JavaScript
-	        function RadGrid1_DataBound(sender, args) {
-	            alert("Grid with id: " + sender.get_element().id + " bound on the client");
-	        }
+function RadGrid1_DataBound(sender, args) {
+    alert("Grid with id: " + sender.get_element().id + " bound on the client");
+}
 ````
 
 

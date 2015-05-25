@@ -31,19 +31,17 @@ This event is fired before grid creation.
 Example:
 
 ````ASP.NET
-	    <telerik:RadGrid ID="RadGrid1" runat="server">
-	        <ClientSettings>
-	            <ClientEvents OnGridCreating="GridCreating" />
-	        </ClientSettings>
-	    </telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" runat="server">
+    <ClientSettings>
+        <ClientEvents OnGridCreating="GridCreating" />
+    </ClientSettings>
+</telerik:RadGrid>
 ````
 
-
-
 ````JavaScript
-	        function GridCreating(sender, eventArgs) {
-	            alert("Creating grid with ClientID: " + sender.get_id());
-	        }
+function GridCreating(sender, eventArgs) {
+    alert("Creating grid with ClientID: " + sender.get_id());
+}
 ````
 
 

@@ -31,19 +31,19 @@ This event is fired before a column is available at client-side creation.
 Example:
 
 ````ASP.NET
-	    <telerik:RadGrid ID="RadGrid1" runat="server">
-	        <ClientSettings>
-	            <ClientEvents OnColumnCreating="ColumnCreating" />
-	        </ClientSettings>
-	    </telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" runat="server">
+    <ClientSettings>
+        <ClientEvents OnColumnCreating="ColumnCreating" />
+    </ClientSettings>
+</telerik:RadGrid>
 ````
 
 
 
 ````JavaScript
-	        function ColumnCreating(sender, eventArgs){
-	            alert("Creating column");
-	        }
+function ColumnCreating(sender, eventArgs){
+    alert("Creating column");
+}
 ````
 
 

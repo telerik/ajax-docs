@@ -24,7 +24,7 @@ Telerik **RadGrid** provides the following objects on the client-side:
 | **[.get_masterTableViewHeader()]({%slug grid/client-side-programming/radgrid-object/properties/get_mastertableviewheader()%})** |Returns the master table header instance for the respective grid client object.|
 | **[.get_masterTableViewFooter()]({%slug grid/client-side-programming/radgrid-object/properties/get_mastertableviewfooter()%})** |Returns the master table footer instance for the respective grid client object.|
 | **[.get_detailTables()]({%slug grid/client-side-programming/radgrid-object/properties/get_detailtables()%})** |This collection represents the detail tables when you have a hierarchical structured grid. Every table is of type **GridTableView** .|
-| **[.get_editItems()]({%slug grid/client-side-programming/radgrid-object/properties/get_edititems()%})** |This property retrieves all **GridDataItem** objects that are in edit mode accross all grid tables.|
+| **[.get_editItems()]({%slug grid/client-side-programming/radgrid-object/properties/get_edititems()%})** |This property retrieves all **GridDataItem** objects that are in edit mode across all grid tables.|
 | **[.get_allowMultiRowSelection()]({%slug grid/client-side-programming/radgrid-object/properties/get_allowmultirowselection()%})** |This property is of type Boolean. When set to **true** , you can select multiple rows on the client.|
 | **[.set_activeRow()]({%slug grid/client-side-programming/radgrid-object/properties/set_activerow()%})** |Property which marks the row passed as an argument as active and highlighted.|
 | **[.get_element()]({%slug grid/client-side-programming/radgrid-object/properties/get_element()%})** |Property that returns the DOM element of the grid div.|
@@ -171,10 +171,10 @@ Inside each **RadGrid** client event handler the first argument passed (sender) 
 | ** **[OnBatchEditClosed]({%slug grid/client-side-programming/events/events/onbatcheditclosed%})** ** |This event is fired after the cell is closed.|
 | ** **[OnBatchEditCellValueChanging]({%slug grid/client-side-programming/events/events/onbatcheditcellvaluechanging%})** ** |This event is fired when a cell's value is being changed.|
 | ** **[OnBatchEditCellValueChanged]({%slug grid/client-side-programming/events/events/onbatcheditcellvaluechanged%})** ** |This event is fired once a cell has been edited.|
-| ** **[OnBatchEditGetCellValue]({%slug grid/client-side-programming/events/events/onbatcheditgetcellvalue%})** ** |This event is fired when the grid obtains the value from the editor in order to later set in in the HTML(Should be handled handled when multiplecontrols which contain an input element are placed inside the **EditItemTemplate** of a **GridTemplateColumn** ).|
-| ** **[OnBatchEditSetCellValue]({%slug grid/client-side-programming/events/events/onbatcheditsetcellvalue%})** ** |This event is fired when the grid obtains the value from the editor in order to later set in in the HTML(Should be handled handled when multiplecontrols which contain an input element are placed inside the **EditItemTemplate** of a **GridTemplateColumn** ).|
-| ** **[OnBatchEditSetEditorValue]({%slug grid/client-side-programming/events/events/onbatcheditseteditorvalue%})** ** |This event is fired when the grid obtains the value from the editor in order to later set in in the HTML(Should be handled handled when multiplecontrols which contain an input element are placed inside the **EditItemTemplate** of a **GridTemplateColumn** ).|
-| ** **[OnBatchEditGetEditorValue]({%slug grid/client-side-programming/events/events/onbatcheditgeteditorvalue%})** ** |This event is fired when the grid obtains the value from the editor in order to later set in in the HTML(Should be handled handled when multiplecontrols which contain an input element are placed inside the **EditItemTemplate** of a **GridTemplateColumn** ).|
+| ** **[OnBatchEditGetCellValue]({%slug grid/client-side-programming/events/events/onbatcheditgetcellvalue%})** ** |This event is fired when the grid obtains the value from the editor in order to later set in in the HTML(Should be handled handled when multiple controls which contain an input element are placed inside the **EditItemTemplate** of a **GridTemplateColumn** ).|
+| ** **[OnBatchEditSetCellValue]({%slug grid/client-side-programming/events/events/onbatcheditsetcellvalue%})** ** |This event is fired when the grid obtains the value from the editor in order to later set in in the HTML(Should be handled handled when multiple controls which contain an input element are placed inside the **EditItemTemplate** of a **GridTemplateColumn** ).|
+| ** **[OnBatchEditSetEditorValue]({%slug grid/client-side-programming/events/events/onbatcheditseteditorvalue%})** ** |This event is fired when the grid obtains the value from the editor in order to later set in in the HTML(Should be handled handled when multiple controls which contain an input element are placed inside the **EditItemTemplate** of a **GridTemplateColumn** ).|
+| ** **[OnBatchEditGetEditorValue]({%slug grid/client-side-programming/events/events/onbatcheditgeteditorvalue%})** ** |This event is fired when the grid obtains the value from the editor in order to later set in in the HTML(Should be handled handled when multiple controls which contain an input element are placed inside the **EditItemTemplate** of a **GridTemplateColumn** ).|
 || ** *Scrolling* ** |
 | ** **[OnScroll]({%slug grid/client-side-programming/events/events/onscroll%})** ** |This event is fired when you scroll the grid.|
 || ** *Command* ** |
@@ -190,7 +190,7 @@ You can refer to the elements of the **RadGridTable** using the functions below:
 
 ## Manipulating GridTableView Elements
 
-In thelist below you can find links to the **GridTableView**, **GridColumn** and **GridDataItem** classmembers articles that list the varioust methods and properties which you can use for execution additional logic.
+In the list below you can find links to the **GridTableView**, **GridColumn** and **GridDataItem** class members articles that list the various methods and properties which you can use for execution additional logic.
 
 * [GridTableView]({%slug grid/client-side-programming/gridtableview-object/gridtableview-class-members%})
 

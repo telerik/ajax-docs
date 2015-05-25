@@ -35,22 +35,20 @@ This event will be raised when the grid source is retrieved from a page method o
 Example:
 
 ````ASP.NET
-	    <telerik:RadGrid ID="RadGrid1" runat="server">
-	        <ClientSettings>
-	            <ClientEvents OnDataSourceResolved="RadGrid1_DataSourceResolved" />
-	        </ClientSettings>
-	    </telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" runat="server">
+    <ClientSettings>
+        <ClientEvents OnDataSourceResolved="RadGrid1_DataSourceResolved" />
+    </ClientSettings>
+</telerik:RadGrid>
 ````
 
-
-
 ````JavaScript
-	        function RadGrid1_DataSourceResolved(sender, eventArgs)
-	        {
-	            var gridData = eventArgs.get_data();
-	            //perform some custom actions prior to the binding being processed
-	            eventArgs.set_data(gridData);     
-	        }
+function RadGrid1_DataSourceResolved(sender, eventArgs)
+{
+    var gridData = eventArgs.get_data();
+    //perform some custom actions prior to the binding being processed
+    eventArgs.set_data(gridData);     
+}
 ````
 
 

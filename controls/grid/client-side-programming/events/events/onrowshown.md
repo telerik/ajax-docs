@@ -31,19 +31,19 @@ This event is fired when the row is shown.
 Example:
 
 ````ASP.NET
-	    <telerik:RadGrid ID="RadGrid1" runat="server">
-	        <ClientSettings>
-	            <ClientEvents OnRowShown="RowShown" />
-	        </ClientSettings>
-	    </telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" runat="server">
+    <ClientSettings>
+        <ClientEvents OnRowShown="RowShown" />
+    </ClientSettings>
+</telerik:RadGrid>
 ````
 
 
 
 ````JavaScript
-	        function RowShown(sender, eventArgs) {
-	            alert("Row: " + eventArgs.get_itemIndexHierarchical() + " was shown");
-	        }
+function RowShown(sender, eventArgs) {
+    alert("Row: " + eventArgs.get_itemIndexHierarchical() + " was shown");
+}
 ````
 
 

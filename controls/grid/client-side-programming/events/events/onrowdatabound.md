@@ -31,30 +31,30 @@ This event will be raised for each grid item which is about to be bound on the c
 Example:
 
 ````ASP.NET
-	    <telerik:RadGrid ID="RadGrid1" runat="server">
-	        <ClientSettings>
-	            <ClientEvents OnRowDataBound="RowDataBound" />
-	        </ClientSettings>
-	    </telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" runat="server">
+    <ClientSettings>
+        <ClientEvents OnRowDataBound="RowDataBound" />
+    </ClientSettings>
+</telerik:RadGrid>
 ````
 
 
 
 ````JavaScript
-	        function RowDataBound(sender, args) {
-	            // conditional formatting
-	            if (args.get_dataItem()["TitleOfCourtesy"] == "Dr.") {
-	                args.get_item().get_cell("TitleOfCourtesy").style.fontWeight = "bold";
-	            }
-	            var sb = new Sys.StringBuilder();
-	            sb.appendLine("<b>RowDataBound</b><br />");
-	            for (var item in args.get_dataItem()) {
-	                sb.appendLine(String.format("{0} : {1}<br />", item, args.get_dataItem()[item]));
-	            }
-	            sb.appendLine("<br />");
-	            sb.appendLine("<br />");
-	            $get("<%= Panel1.ClientID %>").innerHTML += sb.toString();
-	        }
+function RowDataBound(sender, args) {
+    // conditional formatting
+    if (args.get_dataItem()["TitleOfCourtesy"] == "Dr.") {
+        args.get_item().get_cell("TitleOfCourtesy").style.fontWeight = "bold";
+    }
+    var sb = new Sys.StringBuilder();
+    sb.appendLine("<b>RowDataBound</b><br />");
+    for (var item in args.get_dataItem()) {
+        sb.appendLine(String.format("{0} : {1}<br />", item, args.get_dataItem()[item]));
+    }
+    sb.appendLine("<br />");
+    sb.appendLine("<br />");
+    $get("<%= Panel1.ClientID %>").innerHTML += sb.toString();
+}
 ````
 
 

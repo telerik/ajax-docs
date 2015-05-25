@@ -31,19 +31,17 @@ This event is fired before a group is collapsed.
 Example:
 
 ````ASP.NET
-	    <telerik:RadGrid ID="RadGrid1" runat="server">
-	        <ClientSettings>
-	            <ClientEvents OnGroupCollapsing="GroupCollapsing" />
-	        </ClientSettings>
-	    </telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" runat="server">
+    <ClientSettings>
+        <ClientEvents OnGroupCollapsing="GroupCollapsing" />
+    </ClientSettings>
+</telerik:RadGrid>
 ````
 
-
-
 ````JavaScript
-	        function GroupCollapsing(sender, eventArgs) {
-	            alert("GroupCollapsing is being fired");
-	        }
+function GroupCollapsing(sender, eventArgs) {
+    alert("GroupCollapsing is being fired");
+}
 ````
 
 

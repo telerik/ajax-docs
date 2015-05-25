@@ -31,19 +31,19 @@ This event is fired when the mouse leaves a row.
 Example:
 
 ````ASP.NET
-	    <telerik:RadGrid ID="RadGrid1" runat="server">
-	        <ClientSettings>
-	            <ClientEvents OnRowMouseOut="RowMouseOut" />
-	        </ClientSettings>
-	    </telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" runat="server">
+    <ClientSettings>
+        <ClientEvents OnRowMouseOut="RowMouseOut" />
+    </ClientSettings>
+</telerik:RadGrid>
 ````
 
 
 
 ````JavaScript
-	        function RowMouseOut(sender, eventArgs) {
-	            alert("Mouse is out row: " + eventArgs.get_itemIndexHierarchical());
-	        }
+function RowMouseOut(sender, eventArgs) {
+    alert("Mouse is out row: " + eventArgs.get_itemIndexHierarchical());
+}
 ````
 
 

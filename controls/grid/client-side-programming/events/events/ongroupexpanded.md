@@ -31,19 +31,18 @@ This event is fired when the group has been expanded.
 Example:
 
 ````ASP.NET
-	    <telerik:RadGrid ID="RadGrid1" runat="server">
-	        <ClientSettings>
-	            <ClientEvents OnGroupExpanded="GroupExpanded" />
-	        </ClientSettings>
-	    </telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" runat="server">
+    <ClientSettings>
+        <ClientEvents OnGroupExpanded="GroupExpanded" />
+    </ClientSettings>
+</telerik:RadGrid>
 ````
 
 
-
 ````JavaScript
-	        function GroupExpanded(sender, eventArgs) {
-	            alert("GroupExpanded fired");
-	        }
+function GroupExpanded(sender, eventArgs) {
+    alert("GroupExpanded fired");
+}
 ````
 
 
