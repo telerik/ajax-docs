@@ -22,8 +22,8 @@ On **RadPane** and **RadSlidingPane**, the following two parameters are passed t
 	* **get_cancel()** returns whether the resize operation was cancelled.
 	* **get_delta()** returns the number of pixels by which the pane's size is changing. Negative values mean the pane is getting smaller; positive values mean the pane is getting larger.
 	* **get_resizeDirection()** returns a value indicating which side of the pane is being resized:
-		* 1: The side on the top or left of the pane (depending on the splitter orientation).
-		* 2: The side on the bottom or right of the pane (depending on the splitter orientation).
+		1. The side on the top or left of the pane (depending on the splitter orientation).
+		1. The side on the bottom or right of the pane (depending on the splitter orientation).
 
 	>note Because sliding panes have only a single resizable border, for **RadSlidingPane** , **get_resizeDirection()** returns null.
 
@@ -38,7 +38,8 @@ On **RadSplitter** the following two parameters are passed to the event handler:
 
 The following example uses the **OnClientResizing** event to prevent resizes that decrease the size of a pane:
 
-````JavaScript	     
+
+````ASP.NET     
 <script type="text/javascript">
 	function preventDecrease(sender, eventArgs) {
 		if (eventArgs.get_delta() < 0)

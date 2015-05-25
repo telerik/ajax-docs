@@ -10,7 +10,7 @@ position: 1
 
 # OnClientLoad
 
->caution  **OnClientLoaded** Client-side event has been deprecated. Please, use the[OnClientLoad]({%slug splitter/client-side-programming/events/onclientexpanding%})instead.
+>caution  **OnClientLoaded** Client-side event has been deprecated. Please, use the [OnClientLoad]({%slug splitter/client-side-programming/events/onclientexpanding%}) instead.
 
 The **OnClientLoad** client-side event handler is called when a **RadSplitter** or **RadSlidingZone** control is loaded on the client.
 
