@@ -224,17 +224,16 @@ End Class
 
 Since Q2 2012 the **RadToolTipManager** offers a property to facilitate caching - **EnableDataCaching**. It defaults to `false` to preserve the old behavior - a request is made for the content each time a tooltip is shown, including subsequent showings of the same tooltip.
 
-When **EnableDataCaching** is set to **true**, caching is enabled and only one requestwill be performed for each target, regardless of how many times the tooltip will be shown.
+When **EnableDataCaching** is set to **true**, caching is enabled and only one request will be performed for each target, regardless of how many times the tooltip will be shown.
 
-This can be useful in scenarios where the content that is loaded will not changeover time, e.g. static details about a product. This allows the initial page loadto be quick, because all the data for the tooltips will not be retrieved at thispoint, yet in the same time prevents excessive requests for the same data whichcan reduce the server load.
+This can be useful in scenarios where the content that is loaded will not changeover time, e.g. static details about a product. This allows the initial page load to be quick, because all the data for the tooltips will not be retrieved at this point, yet in the same time prevents excessive requests for the same data which can reduce the server load.
 
 You can see it in action in the [ToolTip - Cache Loaded Data](http://demos.telerik.com/aspnet-ajax/tooltip/examples/enabledatacaching/defaultcs.aspx) online demo.
 
 >important  When data caching is enabled **only simple HTML** content is supported for the tooltips.	This means that **controls that rely on postbacks and Telerik controls cannot be put** in the content.	There are several reasons for this:
+* The instance of the loaded user control on the server is the last one	that was requested. Therefore postbacks should not occur inside because they may be coming from	a tooltip that is cached, so the data on the server will no longer match what the tooltip will expect.	Should updates be necessary - caching can be disabled through JavaScript so requests start anew: `tooltipTipManagerReference.set_enableDataCaching(false);` can be used.
+* Only the HTML string of the content is preserved (i.e. cached), so all event handlers and ScriptControl instances	are going to be lost. The next time this HTML string is shown the styling may appear correctly but the	Telerik controls (or any script controls) will not work (e.g. a RadRotator will not rotate even on click of its buttons).
 >
-* The instance of the loaded user control on the server is the last one	that was requested. Therefore postbacks should not occur inside because they may be coming from	a tooltip that is cached, so the data on the server will no longer match what the tooltip will expect.	Should updates be necessary - caching can be disabled through JavaScript so requests start anew:	tooltipTipManagerReference.set_enableDataCaching(false); can be used.
-* Only the HTML string of the content is preserved (i.e. cached), so all event handlers and ScriptControl instances	are going to be lost. The next time this HTML string is shown the styling may appear correctly but the	Telerik controls (or any script controls) will not work (e.g. a RadRotator will not rotate even on click of its buttons).>
-
 
 # See Also
 

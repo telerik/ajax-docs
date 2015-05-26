@@ -25,7 +25,7 @@ position: 3
 
 * The **MouseTrailing** property when **True** causes the tooltip to follow the mouse. When **False** the tooltip stays in the initial position dictated by the [RelativeTo]({%slug tooltip/getting-started/positioning%}) property.
 
-* The **ShowCallout**property when True (the default) displays the [callout]({%slug tooltip/getting-started/radtooltip-structure%}) graphic on the tooltip.
+* The **ShowCallout** property when True (the default) displays the [callout]({%slug tooltip/getting-started/radtooltip-structure%}) graphic on the tooltip.
 
 * Use [ShowDelay and AutoCloseDelay]({%slug tooltip/getting-started/showdelay-and-autoclosedelay%}) to control the timing of tooltip opening and closing.
 
