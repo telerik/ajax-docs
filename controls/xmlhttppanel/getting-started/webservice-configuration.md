@@ -24,7 +24,7 @@ This article explains how to configure a WebService to work with RadXmlHttpPanel
 
 1. Create a method that returns a string and accepts a single parameter of type object. Mark the method as [WebMethod] i.e.
 
-	__C#__
+	**C#**
 
 		[WebMethod]
 		public string GetHTML(object context)
@@ -32,7 +32,7 @@ This article explains how to configure a WebService to work with RadXmlHttpPanel
 			return "Content updated by XmlHttpPanel using WebService at: " + DateTime.Now.ToString();
 		}
 
-	__VB__
+	**VB**
 
 		<WebMethod> _
 		Public Function GetHTML(context As Object) As String
@@ -40,13 +40,13 @@ This article explains how to configure a WebService to work with RadXmlHttpPanel
 		End Function
 
 
-The string returned from this method is the actual HTML content that will be pasted within the XmlHttpPanel.
+	The string returned from this method is the actual HTML content that will be pasted within the XmlHttpPanel.
 
 1. Set the **WebMethodPath** property to the “Web Service” (usually the .asmx file), and the **WebMethodName** to the method that will be called by the XmlHttpPanel (i.e. GetHTML).
 
 1. Create an `<input/>` that will call the `set_value()` method of the XmlHttpPanel. Here is how the page with the XMLHttpPanel and the WebService code-behind file should look when accomplishing the steps above:
 
-	__ASP.NET__
+	**ASP.NET**
 
 	    <asp:ScriptManager ID="ScriptManager1" runat="server">
 	    </asp:ScriptManager>
@@ -73,7 +73,7 @@ The string returned from this method is the actual HTML content that will be pas
 
 
 
-	__C#__
+	**C#**
 
 		using System;
 		using System.Collections.Generic;
@@ -113,7 +113,7 @@ The string returned from this method is the actual HTML content that will be pas
 
 
 
-	__VB__
+	**VB**
 
 		Imports System.Collections.Generic
 		Imports System.Linq

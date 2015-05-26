@@ -17,7 +17,7 @@ The **OnClientResponseError** occurs in the cases when an error (WebService or C
 
 The event handler receives two parameters:
 
-1. The instance of the **RadXmlHttpPanel**control in which the error occurred.
+1. The instance of the **RadXmlHttpPanel** control in which the error occurred.
 
 1. An eventArgs parameter containing the following properties and methods:
 
@@ -42,17 +42,11 @@ function OnClientResponseError(panel, args)
 }
 ````
 
-
-
 ````ASP.NET
 <input type="button" value="LoadRadCalendar" onclick="LoadCalendar()" />
 <telerik:RadXmlHttpPanel ID="RadXmlHttpPanel1" runat="server" OnServiceRequest="RadXmlHttpPanel1_ServiceRequest" OnClientResponseError="OnClientResponseError">
 </telerik:RadXmlHttpPanel>
 ````
-
-
-
-
 
 ````C#
 protected void RadXmlHttpPanel1_ServiceRequest(object sender, RadXmlHttpPanelEventArgs e)
