@@ -20,7 +20,6 @@ Deploying a project that uses the Telerik UI for ASP.NET AJAX to Windows Azure i
 
 * [Deploying Telerik UI for ASP.NET AJAX to Azure from Todd Anglin's blog](http://blogs.telerik.com/toddanglin/posts/09-04-17/deploying-radcontrols-to-azure.aspx)
 
-* [Telerik UI for ASP.NET AJAX and Azure video by Carl Bergenhem](http://tv.telerik.com/watch/aspnet-ajax/telerik-radcontrols-for-aspnet-ajax-azure)
 
 ## Common Issues
 
