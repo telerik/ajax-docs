@@ -10,7 +10,7 @@ position: 2
 
 # Examples
 
-It is possible to increase the flexibility of the RadWindowManager and RadWindow by configuring them dynamically in the code-behind, based on external conditions on the page.The code below shows:
+It is possible to increase the flexibility of the RadWindowManager and RadWindow by configuring them dynamically in the code-behind, based on external conditions on the page. The code below shows:
 
 * Looping through the **Windows** collection of a **RadWindowManager**
 
@@ -19,8 +19,6 @@ It is possible to increase the flexibility of the RadWindowManager and RadWindow
 * Creating a new **RadWindow** dynamically and adding it to the **RadWindowManager Windows** collection or as a separate control in the form (for ASP.NET AJAX feature only)
 
 * Retrieving a window from the **RadWindowManager Windows** collection and configuring it.
-
-
 
 ````C#
 private void Page_Load(object sender, System.EventArgs e)

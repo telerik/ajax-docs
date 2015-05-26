@@ -22,19 +22,19 @@ The article contains the following sections:
 
 ## The Different Contexts
 
-__RadWindow__ is usually used to load an entire page which means this page is placed inside an __iframe__.The iframe has its own context (i.e., *window* and *document* objects) that is independentof the main page context (where the RadWindow is declared and opened).
+**RadWindow** is usually used to load an entire page which means this page is placed inside an **iframe**. The iframe has its own context (i.e., *window* and *document* objects) that is independent of the main page context (where the RadWindow is declared and opened).
 
-For the purpose of this article, the page where the RadWindow markup resideswill be called __Main Page__ and the page loaded in the RadWindow will be called __Content Page__.
+For the purpose of this article, the page where the RadWindow markup resides will be called **Main Page** and the page loaded in the RadWindow will be called **Content Page**.
 
-Browsers create a strong separation between an iframeand the main frame, and you cannot drag, move or display objects and HTML elements out of the Content Page towards the Main Page or vice versa.
+Browsers create a strong separation between an iframe and the main frame, and you cannot drag, move or display objects and HTML elements out of the Content Page towards the Main Page or vice versa.
 
 It is important to distinguish between these contexts, because the ways to get a reference to the RadWindow object in either of them are different(and are explained below).
 
-It is also important to avoid adding event handlers from one context into the other (e.g., an OnClientClose handler should not be addedinside the Content Page). If you need to execute logic in the content page, you can [call a function]({%slug window/how-to/calling-functions-in-windows%})in it from a handler defined in the main page.
+It is also important to avoid adding event handlers from one context into the other (e.g., an OnClientClose handler should not be added inside the Content Page). If you need to execute logic in the content page, you can [call a function]({%slug window/how-to/calling-functions-in-windows%}) in it from a handler defined in the main page.
 
 ## Getting a Reference to a RadWindow from the Main Page
 
-The first thing you need to do with a popup is to show it. The [Opening Windows]({%slug window/getting-started/opening-windows%})article explains the different ways, and one of the easiest is to get a direct reference to the control and show it. Here are a few examples:
+The first thing you need to do with a popup is to show it. The [Opening Windows]({%slug window/getting-started/opening-windows%}) article explains the different ways, and one of the easiest is to get a direct reference to the control and show it. Here are a few examples:
 
 >caption Example 1: Get a reference to a RadWindow declared in the markup or in the Windows collection of a RadWindowManager.
 
@@ -70,9 +70,9 @@ The first thing you need to do with a popup is to show it. The [Opening Windows]
 
 ## Getting a Reference to a RadWindow from its Content Page
 
-In many cases you need to get a reference to the __RadWindow__ from the page that you loaded in it(e.g., via its *NavigateUrl* property, or through the arguments *radopen()* receives)in order to close the dialog, for example.
+In many cases you need to get a reference to the **RadWindow** from the page that you loaded in it(e.g., via its *NavigateUrl* property, or through the arguments *radopen()* receives) in order to close the dialog, for example.
 
-To get a reference to the __RadWindow client-side object from inside its content page__, you need to add the followingJavaScript function to the content page itself. Our code generates the object it accesses if possible (i.e., both pages are from the same domain).
+To get a reference to the **RadWindow client-side object from inside its content page**, you need to add the followingJavaScript function to the content page itself. Our code generates the object it accesses if possible (i.e., both pages are from the same domain).
 
 >caption Example 3: Getting a reference to a RadWindow from inside its content page.
 
@@ -93,17 +93,17 @@ To get a reference to the __RadWindow client-side object from inside its content
 </script>
 ````
 
->tip If you are using __DestroyOnClose__ , add a small __timeout__ around close().
+>tip If you are using **DestroyOnClose** , add a small **timeout** around close().
 
->tip If you need to close the dialog from its server code, you can[execute the JavaScript function from the server]({%slug window/troubleshooting/executing-javascript-code-from-server%}).
+>tip If you need to close the dialog from its server code, you can [execute the JavaScript function from the server]({%slug window/troubleshooting/executing-javascript-code-from-server%}).
 
 ## Getting a Reference to a RadWindow from Controls in its ContentTemplate
 
-The [ContentTemplate]({%slug window/getting-started/using-radwindow-as-controls-container%}) of the __RadWindow__ can be considered as a simple *div* element. It remains in the same context as the control declaration and to get a reference to it,you need to use the approach from the [Getting a Reference to a RadWindow from the Main Page](#getting-a-reference-to-a-radwindow-from-the-main-page)
+The [ContentTemplate]({%slug window/getting-started/using-radwindow-as-controls-container%}) of the **RadWindow** can be considered as a simple *div* element. It remains in the same context as the control declaration and to get a reference to it, you need to use the approach from the [Getting a Reference to a RadWindow from the Main Page](#getting-a-reference-to-a-radwindow-from-the-main-page)
 
-When user controls are loaded in the *ContentTemplate*, it is often simplest to define a JavaScript function witha meaningful name that will return the needed reference and place it right next to the RadWindow declaration. When NamingContainers are used,the server code blocks needed to get the proper ClientID of the controls are scoped to the concrete container (e.g., the user control),so defining a function that will return the RadWindow object in the user control itself will require traversing the Controls tree of the page,i.e., the user control would need to know in which page it is loaded. If a function that will return the needed reference exists in the global scope,you only need to know its name and call it from anywhere on the page or user controls.
+When user controls are loaded in the *ContentTemplate*, it is often simplest to define a JavaScript function with a meaningful name that will return the needed reference and place it right next to the RadWindow declaration. When NamingContainers are used,the server code blocks needed to get the proper ClientID of the controls are scoped to the concrete container (e.g., the user control), so defining a function that will return the RadWindow object in the user control itself will require traversing the Controls tree of the page,i.e., the user control would need to know in which page it is loaded. If a function that will return the needed reference exists in the global scope, you only need to know its name and call it from anywhere on the page or user controls.
 
->tip If you need to use AJAX in the ContentTemplate of a RadWindow, examine the[How to Use RadWindow with AJAX]({%slug window/how-to/how-to-use-radwindow-with-ajax%})help article.
+>tip If you need to use AJAX in the ContentTemplate of a RadWindow, examine the [How to Use RadWindow with AJAX]({%slug window/how-to/how-to-use-radwindow-with-ajax%}) help article.
 
 >caption Example 4: Getting a reference to a RadWindow from a user control loaded in its ContentTemplate
 
@@ -153,7 +153,7 @@ Once you know how to get a reference to the control, you can utilize its full po
 
 You may also find useful the [Common Issues]({%slug window/troubleshooting/common-issues%}) help article.
 
-A lot of the features of the control are showcased in its[online demos](http://demos.telerik.com/aspnet-ajax/window/examples/overview/defaultcs.aspx)where you can see it in action.
+A lot of the features of the control are showcased in its [online demos](http://demos.telerik.com/aspnet-ajax/window/examples/overview/defaultcs.aspx) where you can see it in action.
 
 ## See Also
 

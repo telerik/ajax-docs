@@ -18,7 +18,7 @@ However, there are some significant differences between **RadWindow** and **RadD
 
 * **RadWindow** windows are easy to [open from another HTML element]({%slug window/getting-started/showing-and-positioning%}), and can [act as the target of a link]({%slug window/how-to/using-the-target-attribute%}).
 
-* **RadDock** windows can be docked to docking regions on the page, where they still display their content. **RadWindow**does not support this same behavior. Instead, it allows for minimization into [minimize zones]({%slug window/getting-started/minimize-zone%}).
+* **RadDock** windows can be docked to docking regions on the page, where they still display their content. **RadWindow** does not support this same behavior. Instead, it allows for minimization into [minimize zones]({%slug window/getting-started/minimize-zone%}).
 
 * **RadWindow** supports an **OnClientPageLoad** event when the content in the window loads. Because **RadDock** does not load external content, it has no analogous event.
 

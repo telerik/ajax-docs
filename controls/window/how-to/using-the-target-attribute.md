@@ -12,7 +12,7 @@ position: 5
 
 The **RadWindow** objects on your page are automatically added to the frames collection of the browser. As a result, you can use the **RadWindow** objects as the target of a link, just as you link to any other frame or window.
 
-When you use the **RadWindow**as the target of a link, the link will not open unless the window is currently visible. You can prevent this limitation by adding an **onclick** attribute to the link in which you open the window.
+When you use the **RadWindow** as the target of a link, the link will not open unless the window is currently visible. You can prevent this limitation by adding an **onclick** attribute to the link in which you open the window.
 
 ## Example
 

@@ -20,7 +20,7 @@ The difficulty in this scenario is if you need to communicate with the parent pa
 
 ## When using the ContentTemplate
 
-When the **ContentTemplat**e of the **RadWindow** is used the controls inside are still a part of the main page while the **RadWindow** acts as any other [INaming container](http://msdn.microsoft.com/en-us/library/system.web.ui.inamingcontainer.aspx). The only major difference is that it renders as a direct child of the form element when it is first shown so that it can pop up above the other elements without inheriting any restrictions and limitations. If you wrap the entire **RadWindow** in an update panel with the concept that the controls inside will perform an AJAX request or will be updated by one will no longer work, as they will not be inside the update panel actually.
+When the **ContentTemplatе** of the **RadWindow** is used the controls inside are still a part of the main page while the **RadWindow** acts as any other [INaming container](http://msdn.microsoft.com/en-us/library/system.web.ui.inamingcontainer.aspx). The only major difference is that it renders as a direct child of the form element when it is first shown so that it can pop up above the other elements without inheriting any restrictions and limitations. If you wrap the entire **RadWindow** in an update panel with the concept that the controls inside will perform an AJAX request or will be updated by one will no longer work, as they will not be inside the update panel actually.
 
 What you should do in this scenario is to place the UpdatePanel (or **RadAjaxPanel**) inside the **ContentTemplate**. For example:
 

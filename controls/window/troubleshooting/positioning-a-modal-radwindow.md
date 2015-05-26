@@ -10,7 +10,7 @@ position: 8
 
 # Positioning a Modal RadWindow
 
-By design, when a **RadWindow** is **Modal** (i.e. its Modal property is set to true - either in its own declaration,or in the declaration of the RadWindowManager that contains it) it always shows up positioned in the **center** of the browser window.
+By design, when a **RadWindow** is **Modal** (i.e. its Modal property is set to true - either in its own declaration, or in the declaration of the RadWindowManager that contains it) it always shows up positioned in the **center** of the browser window.
 
 This means that setting its **Left** and/or **Top** properties will not have a visual effect and the desired position will not be applied.
 
@@ -18,7 +18,7 @@ In order to get a custom position for a modal RadWindow the **CenterIfModal** pr
 
 ## Using Q1 2013 and newer versions
 
-The **CenterIfModal** property is available and setting it to false will have the RadWindow honor the Left and Top.Its default value is true to preserve the original behavior of the control.
+The **CenterIfModal** property is available and setting it to false will have the RadWindow honor the Left and Top. Its default value is true to preserve the original behavior of the control.
 
 ````ASP.NET
 <telerik:RadWindow ID="RadWindow1" runat="server" CenterIfModal="false" Left="20"

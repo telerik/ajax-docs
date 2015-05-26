@@ -12,11 +12,11 @@ position: 3
 
 This article demonstrates how to enable and use the WAI-ARIA support of the **RadWindow** and **RadWindowManager** controls.
 
-The [WAI-ARIA Suite](http://www.w3.org/WAI/intro/aria)defines an approach to make web content and web applications more accessible to people with disabilities. **RadWindow** and **RadWindowManager** offer WAI-ARIA support.
+The [WAI-ARIA Suite](http://www.w3.org/WAI/intro/aria) defines an approach to make web content and web applications more accessible to people with disabilities. **RadWindow** and **RadWindowManager** offer WAI-ARIA support.
 
-In order to enable the WAI-ARIA support, set the **RadWindow** / **RadWindowManager** control's **EnableAriaSupport**property to **true** as shown in the example below.
+In order to enable the WAI-ARIA support, set the **RadWindow** / **RadWindowManager** control's **EnableAriaSupport** property to **true** as shown in the example below.
 
->caption Example 1**: Setting the **EnalbeAriaSupport** property for **RadWindow** and **RadWindowManager**
+>caption **Example 1**: Setting the **EnalbeAriaSupport** property for **RadWindow** and **RadWindowManager**
 
 ````ASP.NET
 <telerik:RadWindow EnableAriaSupport="true" runat="server" ID="RadWindow1"></telerik:RadWindow>

@@ -51,13 +51,13 @@ Protected Sub Button1_Click(sender As Object, e As EventArgs)
 End Sub
 ````
 
-As an alternative, you could use Literal, [Page.RegisterStartupScript](http://msdn.microsoft.com/en-us/library/system.web.ui.page.registerstartupscript.aspx), [Page.RegisterClientScriptBlock](http://msdn.microsoft.com/en-us/library/system.web.ui.page.registerclientscriptblock.aspx)or if you are using ASP.NET 2.x - [ClientScriptManager.RegisterStartupScript](http://msdn.microsoft.com/en-us/library/system.web.ui.clientscriptmanager.registerstartupscript.aspx)/ [ClientScriptManager.RegisterClientScriptBlock](http://msdn.microsoft.com/en-us/library/system.web.ui.clientscriptmanager.registerclientscriptblock.aspx)methods.
+As an alternative, you could use Literal, [Page.RegisterStartupScript](http://msdn.microsoft.com/en-us/library/system.web.ui.page.registerstartupscript.aspx), [Page.RegisterClientScriptBlock](http://msdn.microsoft.com/en-us/library/system.web.ui.page.registerclientscriptblock.aspx) or if you are using ASP.NET 2.x - [ClientScriptManager.RegisterStartupScript](http://msdn.microsoft.com/en-us/library/system.web.ui.clientscriptmanager.registerstartupscript.aspx) / [ClientScriptManager.RegisterClientScriptBlock](http://msdn.microsoft.com/en-us/library/system.web.ui.clientscriptmanager.registerclientscriptblock.aspx) methods.
 
 ## When using ASP.NET AJAX
 
 In ASP.NET AJAX environment however, you should take into consideration the fact that the ASP.NET AJAX controls are loaded after *window.onload* is fired. You can verify this by putting some ASP.NET AJAX controls and then examine the HTML of the rendered page.
 
-Again, there are several ways to ensure that the controls are loaded on the client before trying to use them. If you want to use the RegisterStartupScript() method, I would recommend to check the ASP.NET[AJAX’s Sys.Application.Load](http://www.asp.net/AJAX/Documentation/Live/ClientReference/Sys/ApplicationClass/SysApplicationLoadEvent.aspx) event. This event is raised after all scripts have been loaded on the page and the controls have been created and initialized. You need to make sure however, that the code that you will insert in the Load event will be executed only once and then removed, otherwise it will be called after every Ajax request. For example you could use the following logic:
+Again, there are several ways to ensure that the controls are loaded on the client before trying to use them. If you want to use the RegisterStartupScript() method, I would recommend to check the ASP.NET [AJAX’s Sys.Application.Load](http://www.asp.net/AJAX/Documentation/Live/ClientReference/Sys/ApplicationClass/SysApplicationLoadEvent.aspx) event. This event is raised after all scripts have been loaded on the page and the controls have been created and initialized. You need to make sure however, that the code that you will insert in the Load event will be executed only once and then removed, otherwise it will be called after every Ajax request. For example you could use the following logic:
 
 ````JavaScript
 function f()  
@@ -97,7 +97,7 @@ Protected Sub Button1_Click(sender As Object, e As EventArgs)
 End Sub
 ````
 
->tip If you are working with Ajax requests however, it is better to use the asp:Scriptmanager’s[RegisterStartupScript()](http://msdn.microsoft.com/en-us/library/system.web.ui.scriptmanager.registerstartupscript.aspx)method as shown below:
+>tip If you are working with Ajax requests however, it is better to use the asp:Scriptmanager’s [RegisterStartupScript()](http://msdn.microsoft.com/en-us/library/system.web.ui.scriptmanager.registerstartupscript.aspx) method as shown below:
 
 ````ASP.NET
 <form id="form4" runat="server">  
