@@ -1,5 +1,5 @@
 ---
-title: Delete Records Overview
+title: Overview
 page_title: Overview | RadGrid for ASP.NET AJAX Documentation
 description: Overview
 slug: grid/data-editing/delete-records/overview

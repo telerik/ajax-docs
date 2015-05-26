@@ -26,7 +26,7 @@ Simple data-binding can be used in simple cases when you do not require the grid
 
 * Paging
 
->note For advanced features such as those listed above, **RadGrid** must be bound using[declarative data sources]({%slug grid/data-binding/understanding-data-binding/server-side-binding/declarative-datasource%})or through the[NeedDataSource event]({%slug grid/data-binding/understanding-data-binding/server-side-binding/advanced-data-binding-(using-needdatasource-event)%}). When using declarative data sources or the **NeedDataSource** event, **RadGrid** can automatically accommodate the appropriate database operations without the need for you explicitly handle any sorting, paging, grouping, and so on.
+>note For advanced features such as those listed above, **RadGrid** must be bound using [declarative data sources]({%slug grid/data-binding/understanding-data-binding/server-side-binding/declarative-datasource%}) or through the [NeedDataSource event]({%slug grid/data-binding/understanding-data-binding/server-side-binding/advanced-data-binding-(using-needdatasource-event)%}). When using declarative data sources or the **NeedDataSource** event, **RadGrid** can automatically accommodate the appropriate database operations without the need for you explicitly handle any sorting, paging, grouping, and so on.
 >
 
 

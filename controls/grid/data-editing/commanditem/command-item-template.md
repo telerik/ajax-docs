@@ -14,7 +14,7 @@ position: 1
 
 In order to show the command item, you should set the **CommandItemDisplay** property of the **GridTableView**. The **CommandItemDisplay** property can take four values:	**None**, **Top**, **Bottom** and **TopAndBottom**, corresponding to the place where it will appear.	You can customize the command item content using the template of a **GridTableView.CommandItemTemplate**as shown in **Example 1**.
 
-**Example 1**: Shows how custom commands could be implemented via the**CommandItemTemplate**.
+**Example 1**: Shows how custom commands could be implemented via the **CommandItemTemplate**.
 
 ````ASP.NET
 <CommandItemTemplate>

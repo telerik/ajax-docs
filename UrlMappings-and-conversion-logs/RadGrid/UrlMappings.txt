@@ -233,11 +233,11 @@ http://www.telerik.com/help/aspnet-ajax/grid-styling-through-declarative-custom-
 http://www.telerik.com/help/aspnet-ajax/grid-switching-insert-add-modes.html http://docs.telerik.com/devtools/aspnet-ajax/controls/grid/data-editing/how-to/switch-between-edit-and-insert-modes
 http://www.telerik.com/help/aspnet-ajax/grid-updating-inplace-and-editforms.html http://docs.telerik.com/devtools/aspnet-ajax/controls/grid/data-editing/update-records/updating-values-using-inplace-and-editforms-modes
 http://www.telerik.com/help/aspnet-ajax/grid-updating-values-usercontrol-formtemplate.html http://docs.telerik.com/devtools/aspnet-ajax/controls/grid/data-editing/update-records/updating-values-using-usercontrol-and-formtemplate
-http://www.telerik.com/help/aspnet-ajax/grid-validation.html http://docs.telerik.com/devtools/aspnet-ajax/controls/grid/data-editing/validation/validation
+http://www.telerik.com/help/aspnet-ajax/grid-validation.html http://docs.telerik.com/devtools/aspnet-ajax/controls/grid/data-editing/validation
 http://www.telerik.com/help/aspnet-ajax/grid-mobile-support-overview.html http://docs.telerik.com/devtools/aspnet-ajax/controls/grid/mobile-support/overview
 http://www.telerik.com/help/aspnet-ajax/grid-render-modes.html http://docs.telerik.com/devtools/aspnet-ajax/controls/grid/mobile-support/render-modes
 http://www.telerik.com/help/aspnet-ajax/grid-accessing-default-pager-buttons.html http://docs.telerik.com/devtools/aspnet-ajax/controls/grid/functionality/paging/changing-the-default-pager/accessing-the-elements-of-advanced-type-pager
-http://www.telerik.com/help/aspnet-ajax/grid-alphabetic-paging.html http://docs.telerik.com/devtools/aspnet-ajax/controls/grid/functionality/paging/how-to/alphabetic-paging-in-telerik-radgrid
+http://www.telerik.com/help/aspnet-ajax/grid-alphabetic-paging.html http://www.telerik.com/support/code-library/custom-alpha-paging-for-radgrid
 http://www.telerik.com/help/aspnet-ajax/grid-basic-paging.html http://docs.telerik.com/devtools/aspnet-ajax/controls/grid/functionality/paging/overview
 http://www.telerik.com/help/aspnet-ajax/grid-custom-paging-through-objectdatasource-population.html http://docs.telerik.com/devtools/aspnet-ajax/controls/grid/functionality/paging/how-to/custom-paging-through-objectdatasource
 http://www.telerik.com/help/aspnet-ajax/grid-custom-paging.html http://docs.telerik.com/devtools/aspnet-ajax/controls/grid/functionality/paging/custom-paging
@@ -286,7 +286,7 @@ http://www.telerik.com/help/aspnet-ajax/grid-basic-sorting.html http://docs.tele
 http://www.telerik.com/help/aspnet-ajax/grid-controlling-sorting-modes.html http://docs.telerik.com/devtools/aspnet-ajax/controls/grid/functionality/sorting/controlling-sort-modes
 http://www.telerik.com/help/aspnet-ajax/grid-multi-column-sorting.html http://docs.telerik.com/devtools/aspnet-ajax/controls/grid/functionality/sorting/multi-column-sorting
 http://www.telerik.com/help/aspnet-ajax/grid-sorting-expressions.html http://docs.telerik.com/devtools/aspnet-ajax/controls/grid/functionality/sorting/sort-expressions
-http://www.telerik.com/help/aspnet-ajax/grid-sorting-for-hyperlink-template-columns.html http://docs.telerik.com/devtools/aspnet-ajax/controls/grid/functionality/sorting/gridhyperlinkcolumn/gridtemplatecolumn
+http://www.telerik.com/help/aspnet-ajax/grid-sorting-for-hyperlink-template-columns.html http://docs.telerik.com/devtools/aspnet-ajax/controls/grid/functionality/sorting/gridhyperlinkcolumn-and-gridtemplatecolumn
 http://www.telerik.com/help/aspnet-ajax/grid-inherit-columns.html http://docs.telerik.com/devtools/aspnet-ajax/controls/grid/inheritance/inheriting-grid-columns
 http://www.telerik.com/help/aspnet-ajax/grid-inheritance.html http://docs.telerik.com/devtools/aspnet-ajax/controls/grid/inheritance/inheriting-radgrid
 http://www.telerik.com/help/aspnet-ajax/grid-commands-that-invoke-rebind-implicitly.html http://docs.telerik.com/devtools/aspnet-ajax/controls/grid/control-lifecycle/commands-that-invoke-rebind-implicitly

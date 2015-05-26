@@ -14,7 +14,7 @@ position: 7
 
 The Styles section lets you fully customize the appearance of Telerik RadGrid. Here you can set the colors for the grid elements, the style for the strings and the element alignment.
 
->caution You can set the whole look and feel of the grid by using one of the provided skins or define your own. Set the Skin property or use the AutoFormat command in the Smart Tag to specify which skin will be used. See[Skins](http://www.telerik.com/help/aspnet-ajax/howskinswork.html)topic for details.
+>caution You can set the whole look and feel of the grid by using one of the provided skins or define your own. Set the Skin property or use the AutoFormat command in the Smart Tag to specify which skin will be used. See [Skins](http://www.telerik.com/help/aspnet-ajax/howskinswork.html)topic for details.
 >
 
 

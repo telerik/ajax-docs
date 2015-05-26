@@ -39,7 +39,7 @@ This tutorial shows how to:
 1. On the **Choose Your Data Connection** page, expand the drop-down list by clicking the little triangle on the right side and select the **Northwind.mdf** from the available options. Then click the **Next** button:
 ![grid gettingstarted 5](images/grid_gettingstarted5.png)
 
->note If you happen to encounter a **"Database schema could not be retrieved"** exception, please follow the guide in[this]({%slug grid/getting-started/visual-studio-2012-datasource-configuration%})help topic.
+>note If you happen to encounter a **"Database schema could not be retrieved"** exception, please follow the guide in [this]({%slug grid/getting-started/visual-studio-2012-datasource-configuration%}) help topic.
 >
 
 
@@ -85,7 +85,7 @@ This tutorial shows how to:
 1. Now add a **Label** control to the **ItemTemplate**.
 ![grid addcontrols 04 1](images/grid_addcontrols04_1.png)
 
-1. Select **Edit DataBindings** from the **RadDatePicker's Smart Tag**:
+1. Select **Edit DataBindings** from the **RadDatePicker's    Smart Tag**:
 ![Rad Grid grd addcontrols 05jpg](images/RadGrid_grd_addcontrols05jpg.png)
 
 1. In the **DataBindings** dialog:
@@ -102,7 +102,7 @@ This tutorial shows how to:
 1. Use a similar technique to bind the **Label** control:
 ![Rad Grid grd addcontrols 6jpg(images/RadGrid_grd_addcontrols6jpg.png)
 
-1. Use the **RadGrid's**[Smart Tag]({%slug grid/design-time-/smarttag%}) to end template editing:
+1. Use the **RadGrid's** [Smart Tag]({%slug grid/design-time-/smarttag%}) to end template editing:
 ![grid addcontrols 7jpg](images/grid_addcontrols7jpg.png)
 
 ## Enabling editing, paging, and change the Skin

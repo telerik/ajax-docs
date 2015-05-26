@@ -46,7 +46,8 @@ RadGrid declarative client-side data-binding is very similar to **ObjectDataSour
 
 
 
->caution  **Important: These methods should be marked with[WebMethod attribute](http://msdn.microsoft.com/en-us/library/byxd99hx(VS.71).aspx)** . Example:
+>caution  **Important: These methods should be marked with 
+[WebMethod attribute](http://msdn.microsoft.com/en-us/library/byxd99hx(VS.71).aspx)** . Example:
 >[WebMethod(EnableSession=true)]public List<MyBusinessObject> GetData(int startRowIndex, int maximumRows, List<GridSortExpression> sortExpression, List<GridFilterExpression> filterExpression){...}
 >
 

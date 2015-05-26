@@ -22,7 +22,6 @@ Editable columns inside a **RadGrid** control supply a default editor that enabl
 
 The following table lists the default column editors for each of the built-in editable column types:
 
-
 >caption  
 
 | Column type | Default column editor | Column editor base class |
@@ -36,7 +35,6 @@ The following table lists the default column editors for each of the built-in ed
 |GridHTMLEditorColumn|GridHTMLEditorColumnEditor|GridTextColumnEditor|
 |GridTemplateColumn|GridTemplateColumnEditor|GridColumnEditorBase|
 |GridBinaryImageColumn|GridBinaryImageColumnEditor|GridColumnEditorBase|
-
 
 
 >caution The purpose of column editors is to define the style of the controls in edit mode. Note that using column editors for modifying the functionality of the edit controls is not recommended.
