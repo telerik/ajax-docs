@@ -69,7 +69,7 @@ http://www.telerik.com/help/aspnet-ajax/chart-styling-skinning-example.html http
 http://www.telerik.com/help/aspnet-ajax/chart-title.html http://docs.telerik.com/devtools/aspnet-ajax/controls/chart/understanding-radchart-elements/titles
 http://www.telerik.com/help/aspnet-ajax/chart-tooltips-update-ajax-webkit-browsers.html http://docs.telerik.com/devtools/aspnet-ajax/controls/chart/troubleshooting/tooltips-not-updated-with-ajax-in-webkit-browsers
 http://www.telerik.com/help/aspnet-ajax/chart-troubleshoot-image-not-displayed-http-handler.html http://docs.telerik.com/devtools/aspnet-ajax/controls/chart/troubleshooting/chart-image-is-not-displayed-in-the-page
-http://www.telerik.com/help/aspnet-ajax/chart-troubleshoot-reference-assemblies.html http://docs.telerik.com/devtools/aspnet-ajax/controls/chart/troubleshooting/telerik.charting.<type>-in-both-telerik.charting.dll-and-radchart.net2.dll
+http://www.telerik.com/help/aspnet-ajax/chart-troubleshoot-reference-assemblies.html http://docs.telerik.com/devtools/aspnet-ajax/controls/chart/troubleshooting/telerik.charting-type-in-both-telerik.charting.dll-and-radchart.net2.dll
 http://www.telerik.com/help/aspnet-ajax/chart-types-area.html http://docs.telerik.com/devtools/aspnet-ajax/controls/chart/understanding-radchart-types/area-charts
 http://www.telerik.com/help/aspnet-ajax/chart-types-bar.html http://docs.telerik.com/devtools/aspnet-ajax/controls/chart/understanding-radchart-types/bar-charts
 http://www.telerik.com/help/aspnet-ajax/chart-types-bezier.html http://docs.telerik.com/devtools/aspnet-ajax/controls/chart/understanding-radchart-types/bezier-charts
