@@ -46,7 +46,7 @@ To bind to a DataSource component, you need to set the following properties:
 
 Here is an example that shows how to bind the tagCloud to an ObjectDataSource. In asimilar way the control can be bound to any of the above mentioned DataSource components.
 
-````ASPNET
+````ASP.NET
 <div>
 	<telerik:RadTagCloud ID="RadTagCloud2" runat="server" Width="400px" MaxFontSize="50px"
 		Sorting="AlphabeticAsc" DataSourceID="ObjectDataSource1" DataTextField="Text"
@@ -105,7 +105,7 @@ public class TagCloudDataItem
 	}
 }
 ````
-````VB.NET
+````VB
 ''' <summary>
 ''' This class is only for demonstration purposes. The class used in this example resides in the App_Code folder
 ''' </summary>

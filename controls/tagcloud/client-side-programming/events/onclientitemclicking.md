@@ -29,7 +29,7 @@ The event handler receives two parameters:
 
 **Example 1:** Shows how you can use the **OnClientItemClicking** event to cancel the [OnClientClicked]({%slug tagcloud/client-side-programming/events/onclientitemclicked%}) event firing upon programmatic rule.
 
-````ASPNET
+````ASP.NET
 <telerik:RadTagCloud runat="server" ID="RadTagCloud1" 
 	OnClientItemClicking="OnClientItemClicking" OnClientItemClicked="OnClientItemClicked">
 	<Items>

@@ -16,20 +16,16 @@ position: 2
 
 **RadTagCloud** can be bound to an **Array** or **ArrayList**. This example shows how to bind **RadTagCloud** to an **Array** and **ArrayList** at runtime
 
-The declaration of the **RadTagCloud** objects includes no **DataSourceID** property or \<Items\> section:
+The declaration of the **RadTagCloud** objects includes no **DataSourceID** property or `<Items>` section:
 
-````ASPNET
+````ASP.NET
 <telerik:RadTagCloud ID="RadTagCloud1" runat="server" Width="400px">
 </telerik:RadTagCloud>
 <telerik:RadTagCloud ID="RadTagCloud2" runat="server" Width="400px">
 </telerik:RadTagCloud>
 ````
 
-
-
 In the **Page_Load** event handler, create the **Array** and the **ArrayList**, and bind them to the **RadTagCloud** objects. You must call the **DataBind** method after setting the **DataSource** property.
-
-
 
 ````C#
 protected void Page_Load(object sender, EventArgs e)
@@ -57,7 +53,7 @@ private void BindToArrayList(RadTagCloud cloud)
 	cloud.DataBind();
 }
 ````
-````VB.NET
+````VB
 Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
 
 	If Not Page.IsPostBack Then

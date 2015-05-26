@@ -27,7 +27,7 @@ The event handler receives two parameters:
 
 **Example 1:** Shows how you can use the **OnClientItemClicked** event to alert the text of the clicked item.
 
-````ASPNET
+````ASP.NET
 <telerik:RadTagCloud runat="server" ID="RadTagCloud1" OnClientItemClicked="OnClientItemClicked">
 	<Items>
 		<telerik:RadTagCloudItem Text="Item 1" />

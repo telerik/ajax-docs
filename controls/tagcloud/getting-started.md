@@ -20,9 +20,9 @@ position: 2
 
 	![RadTagCloud](images/tagcloud_getting_started01.png)
 
-1. In the Source view of the .aspx page, find the definition of the TagCloud, and add the **<Items></Items>** inner property.
+1. In the Source view of the .aspx page, find the definition of the TagCloud, and add the `<Items></Items>` inner property.
 
-1. Add the following list of items between the opening and the closing tag of the <Items> property. Every item represents a country, with the Weight of the item equal representing the millions of people living there, and the NavigateUrl pointing to the country's Wikipedia article
+1. Add the following list of items between the opening and the closing tag of the `<Items>` property. Every item represents a country, with the Weight of the item equal representing the millions of people living there, and the NavigateUrl pointing to the country's Wikipedia article
 
 	````ASPNET
 	<telerik:RadTagCloud ID="RadTagCloud1" runat="server" Width="400px" MaxFontSize="50px">
