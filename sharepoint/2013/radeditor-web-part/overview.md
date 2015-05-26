@@ -12,7 +12,6 @@ position: 0
 
 
 
-## 
 
 ![](images/EditorLogoPr.gif)
 
@@ -27,7 +26,7 @@ RadEditor for Microsoft Office SharePoint Server extends the web content authori
 * Rich-HTML field in Web Content Management (publishing) scenarios
 
 >note The option for using the RadEditor to edit list items is not supported in the SharePoint Web Parts for ASP.NET AJAX for SharePoint 2013, because the template for thelist items' edit field in SharePoint 2013 is implemented entirely on the client, while the RadEditor is a server-side control.
->
+
 
 
 **Important details:**
