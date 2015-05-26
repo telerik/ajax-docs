@@ -2,7 +2,7 @@
 title: GridHyperLinkColumn/GridTemplateColumn
 page_title: GridHyperLinkColumn/GridTemplateColumn | RadGrid for ASP.NET AJAX Documentation
 description: GridHyperLinkColumn/GridTemplateColumn
-slug: grid/functionality/sorting/gridhyperlinkcolumn-and-gridtemplatecolumn
+slug: grid/functionality/sorting/gridhyperlinkcolumn/gridtemplatecolumn
 tags: gridhyperlinkcolumn/gridtemplatecolumn
 published: True
 position: 2
@@ -11,6 +11,8 @@ position: 2
 # GridHyperLinkColumn/GridTemplateColumn
 
 
+
+## 
 
 To enable sorting for **GridHyperLinkColumn** and **GridTemplateColumn**, you need to set appropriate **SortExpression** values for those columns.
 

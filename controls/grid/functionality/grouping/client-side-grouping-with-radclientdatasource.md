@@ -57,5 +57,3 @@ When client-side grouping is used, you can use the same approaches, as with serv
 
 
 The above example could be tested online in the following demo: [Grid - Grouping Client-Side with RadClientDataSource](http://demos.telerik.com/aspnet-ajax/Grid/Examples/functionality/grouping/clientdatasource-grouping/defaultcs.aspx)
-
- * [Overview]({%slug grid/functionality/grouping/overview%})

@@ -11,9 +11,6 @@ position: 5
 # Rebind Grid with EnableViewState = false
 
 
-
-## 
-
 This topic discusses how to call the **NeedDataSource** event after command execution with viewstate disabled (**EnableViewState = false**)
 
 The example provided below is for Delete command but the same stands for any other command type you invoke and handle in the ItemCommand/UpdateCommand/DeleteCommand/etc. handler of Telerik RadGrid.

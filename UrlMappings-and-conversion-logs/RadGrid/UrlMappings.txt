@@ -152,7 +152,7 @@ http://www.telerik.com/help/aspnet-ajax/grid-group-load-modes.html http://docs.t
 http://www.telerik.com/help/aspnet-ajax/grid-grouping-case-sensitive.html http://docs.telerik.com/devtools/aspnet-ajax/controls/grid/functionality/grouping/how-to/case-sensitive-grouping
 http://www.telerik.com/help/aspnet-ajax/grid-grouping-with-clientdatasource.html http://docs.telerik.com/devtools/aspnet-ajax/controls/grid/functionality/grouping/client-side-grouping-with-radclientdatasource
 http://www.telerik.com/help/aspnet-ajax/grid-perform-calculations-in-group-header.html http://docs.telerik.com/devtools/aspnet-ajax/controls/grid/functionality/grouping/how-to/performing-calculations-in-group-header
-http://www.telerik.com/help/aspnet-ajax/grid-prevent-groups-expansion.html http://docs.telerik.com/devtools/aspnet-ajax/controls/grid/functionality/grouping/how-to/hiding-the-expand/collapse-images
+http://www.telerik.com/help/aspnet-ajax/grid-prevent-groups-expansion.html http://docs.telerik.com/devtools/aspnet-ajax/controls/grid/functionality/grouping/how-to/hiding-the-expand-and-collapse-images
 http://www.telerik.com/help/aspnet-ajax/grid-set-group-by-expression-on-drag-and-drop.html http://docs.telerik.com/devtools/aspnet-ajax/controls/grid/functionality/grouping/how-to/set-groupbyexpression-on-drag-and-drop
 http://www.telerik.com/help/aspnet-ajax/grid-traverse-items-in-group-panel.html http://docs.telerik.com/devtools/aspnet-ajax/controls/grid/functionality/grouping/how-to/traversing-items-in-group-panel
 http://www.telerik.com/help/aspnet-ajax/grid-align-columns-in-hierarchy.html http://docs.telerik.com/devtools/aspnet-ajax/controls/grid/hierarchical-grid-types-and-load-modes/how-to/aligning-columns-in-each-level-of-hierarchical-grid
