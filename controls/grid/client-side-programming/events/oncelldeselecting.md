@@ -2,7 +2,7 @@
 title: OnCellDeselecting
 page_title: OnCellDeselecting | RadGrid for ASP.NET AJAX Documentation
 description: OnCellDeselecting
-slug: grid/client-side-programming/events/events/oncelldeselecting
+slug: grid/client-side-programming/events/oncelldeselecting
 tags: oncelldeselecting
 published: True
 position: 2

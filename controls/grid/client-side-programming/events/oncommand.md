@@ -2,7 +2,7 @@
 title: OnCommand
 page_title: OnCommand | RadGrid for ASP.NET AJAX Documentation
 description: OnCommand
-slug: grid/client-side-programming/events/events/oncommand
+slug: grid/client-side-programming/events/oncommand
 tags: oncommand
 published: True
 position: 26

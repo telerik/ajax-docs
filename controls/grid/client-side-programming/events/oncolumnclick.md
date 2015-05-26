@@ -2,7 +2,7 @@
 title: OnColumnClick
 page_title: OnColumnClick | RadGrid for ASP.NET AJAX Documentation
 description: OnColumnClick
-slug: grid/client-side-programming/events/events/oncolumnclick
+slug: grid/client-side-programming/events/oncolumnclick
 tags: oncolumnclick
 published: True
 position: 6

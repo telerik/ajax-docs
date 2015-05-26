@@ -2,7 +2,7 @@
 title: OnActiveRowChanged
 page_title: OnActiveRowChanged | RadGrid for ASP.NET AJAX Documentation
 description: OnActiveRowChanged
-slug: grid/client-side-programming/events/events/onactiverowchanged
+slug: grid/client-side-programming/events/onactiverowchanged
 tags: onactiverowchanged
 published: True
 position: 1

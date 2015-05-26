@@ -2,7 +2,7 @@
 title: OnGridCreated
 page_title: OnGridCreated | RadGrid for ASP.NET AJAX Documentation
 description: OnGridCreated
-slug: grid/client-side-programming/events/events/ongridcreated
+slug: grid/client-side-programming/events/ongridcreated
 tags: ongridcreated
 published: True
 position: 33

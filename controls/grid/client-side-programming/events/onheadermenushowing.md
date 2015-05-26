@@ -2,7 +2,7 @@
 title: OnHeaderMenuShowing
 page_title: OnHeaderMenuShowing | RadGrid for ASP.NET AJAX Documentation
 description: OnHeaderMenuShowing
-slug: grid/client-side-programming/events/events/onheadermenushowing
+slug: grid/client-side-programming/events/onheadermenushowing
 tags: onheadermenushowing
 published: True
 position: 39

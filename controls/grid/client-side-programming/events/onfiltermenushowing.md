@@ -2,7 +2,7 @@
 title: OnFilterMenuShowing
 page_title: OnFilterMenuShowing | RadGrid for ASP.NET AJAX Documentation
 description: OnFilterMenuShowing
-slug: grid/client-side-programming/events/events/onfiltermenushowing
+slug: grid/client-side-programming/events/onfiltermenushowing
 tags: onfiltermenushowing
 published: True
 position: 31

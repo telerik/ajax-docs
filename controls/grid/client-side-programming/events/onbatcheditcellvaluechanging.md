@@ -2,7 +2,7 @@
 title: OnBatchEditCellValueChanging
 page_title: OnBatchEditCellValueChanging | RadGrid for ASP.NET AJAX Documentation
 description: OnBatchEditCellValueChanging
-slug: grid/client-side-programming/events/events/onbatcheditcellvaluechanging
+slug: grid/client-side-programming/events/onbatcheditcellvaluechanging
 tags: onbatcheditcellvaluechanging
 published: True
 position: 81

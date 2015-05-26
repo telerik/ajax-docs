@@ -2,7 +2,7 @@
 title: OnGroupCollapsed
 page_title: OnGroupCollapsed | RadGrid for ASP.NET AJAX Documentation
 description: OnGroupCollapsed
-slug: grid/client-side-programming/events/events/ongroupcollapsed
+slug: grid/client-side-programming/events/ongroupcollapsed
 tags: ongroupcollapsed
 published: True
 position: 36

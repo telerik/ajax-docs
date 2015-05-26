@@ -2,7 +2,7 @@
 title: OnCellSelected
 page_title: OnCellSelected | RadGrid for ASP.NET AJAX Documentation
 description: OnCellSelected
-slug: grid/client-side-programming/events/events/oncellselected
+slug: grid/client-side-programming/events/oncellselected
 tags: oncellselected
 published: True
 position: 5

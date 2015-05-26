@@ -2,7 +2,7 @@
 title: OnDataBinding
 page_title: OnDataBinding | RadGrid for ASP.NET AJAX Documentation
 description: OnDataBinding
-slug: grid/client-side-programming/events/events/ondatabinding
+slug: grid/client-side-programming/events/ondatabinding
 tags: ondatabinding
 published: True
 position: 27

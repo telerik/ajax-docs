@@ -2,7 +2,7 @@
 title: OnKeyPress
 page_title: OnKeyPress | RadGrid for ASP.NET AJAX Documentation
 description: OnKeyPress
-slug: grid/client-side-programming/events/events/onkeypress
+slug: grid/client-side-programming/events/onkeypress
 tags: onkeypress
 published: True
 position: 44

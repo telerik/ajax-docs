@@ -2,7 +2,7 @@
 title: OnTableCreated
 page_title: OnTableCreated | RadGrid for ASP.NET AJAX Documentation
 description: OnTableCreated
-slug: grid/client-side-programming/events/events/ontablecreated
+slug: grid/client-side-programming/events/ontablecreated
 tags: ontablecreated
 published: True
 position: 74

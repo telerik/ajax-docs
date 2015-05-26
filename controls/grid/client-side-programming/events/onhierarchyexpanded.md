@@ -2,7 +2,7 @@
 title: OnHierarchyExpanded
 page_title: OnHierarchyExpanded | RadGrid for ASP.NET AJAX Documentation
 description: OnHierarchyExpanded
-slug: grid/client-side-programming/events/events/onhierarchyexpanded
+slug: grid/client-side-programming/events/onhierarchyexpanded
 tags: onhierarchyexpanded
 published: True
 position: 43

@@ -2,7 +2,7 @@
 title: OnRowDropping
 page_title: OnRowDropping | RadGrid for ASP.NET AJAX Documentation
 description: OnRowDropping
-slug: grid/client-side-programming/events/events/onrowdropping
+slug: grid/client-side-programming/events/onrowdropping
 tags: onrowdropping
 published: True
 position: 60

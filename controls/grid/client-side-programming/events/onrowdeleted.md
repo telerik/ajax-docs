@@ -2,7 +2,7 @@
 title: OnRowDeleted
 page_title: OnRowDeleted | RadGrid for ASP.NET AJAX Documentation
 description: OnRowDeleted
-slug: grid/client-side-programming/events/events/onrowdeleted
+slug: grid/client-side-programming/events/onrowdeleted
 tags: onrowdeleted
 published: True
 position: 55

@@ -2,7 +2,7 @@
 title: OnGroupExpanding
 page_title: OnGroupExpanding | RadGrid for ASP.NET AJAX Documentation
 description: OnGroupExpanding
-slug: grid/client-side-programming/events/events/ongroupexpanding
+slug: grid/client-side-programming/events/ongroupexpanding
 tags: ongroupexpanding
 published: True
 position: 37

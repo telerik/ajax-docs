@@ -2,7 +2,7 @@
 title: OnRowCreating
 page_title: OnRowCreating | RadGrid for ASP.NET AJAX Documentation
 description: OnRowCreating
-slug: grid/client-side-programming/events/events/onrowcreating
+slug: grid/client-side-programming/events/onrowcreating
 tags: onrowcreating
 published: True
 position: 50

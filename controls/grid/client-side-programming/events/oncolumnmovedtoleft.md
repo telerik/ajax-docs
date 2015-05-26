@@ -2,7 +2,7 @@
 title: OnColumnMovedToLeft
 page_title: OnColumnMovedToLeft | RadGrid for ASP.NET AJAX Documentation
 description: OnColumnMovedToLeft
-slug: grid/client-side-programming/events/events/oncolumnmovedtoleft
+slug: grid/client-side-programming/events/oncolumnmovedtoleft
 tags: oncolumnmovedtoleft
 published: True
 position: 17

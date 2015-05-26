@@ -2,7 +2,7 @@
 title: OnRowHidden
 page_title: OnRowHidden | RadGrid for ASP.NET AJAX Documentation
 description: OnRowHidden
-slug: grid/client-side-programming/events/events/onrowhidden
+slug: grid/client-side-programming/events/onrowhidden
 tags: onrowhidden
 published: True
 position: 63

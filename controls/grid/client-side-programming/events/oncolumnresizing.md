@@ -2,7 +2,7 @@
 title: OnColumnResizing
 page_title: OnColumnResizing | RadGrid for ASP.NET AJAX Documentation
 description: OnColumnResizing
-slug: grid/client-side-programming/events/events/oncolumnresizing
+slug: grid/client-side-programming/events/oncolumnresizing
 tags: oncolumnresizing
 published: True
 position: 20

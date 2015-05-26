@@ -2,7 +2,7 @@
 title: OnBatchEditGetEditorValue
 page_title: OnBatchEditGetEditorValue | RadGrid for ASP.NET AJAX Documentation
 description: OnBatchEditGetEditorValue
-slug: grid/client-side-programming/events/events/onbatcheditgeteditorvalue
+slug: grid/client-side-programming/events/onbatcheditgeteditorvalue
 tags: onbatcheditgeteditorvalue
 published: True
 position: 76

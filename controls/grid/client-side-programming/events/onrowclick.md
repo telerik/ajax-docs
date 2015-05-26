@@ -2,7 +2,7 @@
 title: OnRowClick
 page_title: OnRowClick | RadGrid for ASP.NET AJAX Documentation
 description: OnRowClick
-slug: grid/client-side-programming/events/events/onrowclick
+slug: grid/client-side-programming/events/onrowclick
 tags: onrowclick
 published: True
 position: 48

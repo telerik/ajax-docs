@@ -2,7 +2,7 @@
 title: OnRowMouseOver
 page_title: OnRowMouseOver | RadGrid for ASP.NET AJAX Documentation
 description: OnRowMouseOver
-slug: grid/client-side-programming/events/events/onrowmouseover
+slug: grid/client-side-programming/events/onrowmouseover
 tags: onrowmouseover
 published: True
 position: 65

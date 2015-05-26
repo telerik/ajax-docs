@@ -2,7 +2,7 @@
 title: OnScroll
 page_title: OnScroll | RadGrid for ASP.NET AJAX Documentation
 description: OnScroll
-slug: grid/client-side-programming/events/events/onscroll
+slug: grid/client-side-programming/events/onscroll
 tags: onscroll
 published: True
 position: 72

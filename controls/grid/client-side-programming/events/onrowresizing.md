@@ -2,7 +2,7 @@
 title: OnRowResizing
 page_title: OnRowResizing | RadGrid for ASP.NET AJAX Documentation
 description: OnRowResizing
-slug: grid/client-side-programming/events/events/onrowresizing
+slug: grid/client-side-programming/events/onrowresizing
 tags: onrowresizing
 published: True
 position: 66

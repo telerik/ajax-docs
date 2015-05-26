@@ -2,7 +2,7 @@
 title: OnBatchEditOpening
 page_title: OnBatchEditOpening | RadGrid for ASP.NET AJAX Documentation
 description: OnBatchEditOpening
-slug: grid/client-side-programming/events/events/onbatcheditopening
+slug: grid/client-side-programming/events/onbatcheditopening
 tags: onbatcheditopening
 published: True
 position: 85

@@ -2,7 +2,7 @@
 title: OnDataBindingFailed
 page_title: OnDataBindingFailed | RadGrid for ASP.NET AJAX Documentation
 description: OnDataBindingFailed
-slug: grid/client-side-programming/events/events/ondatabindingfailed
+slug: grid/client-side-programming/events/ondatabindingfailed
 tags: ondatabindingfailed
 published: True
 position: 28

@@ -2,7 +2,7 @@
 title: OnRowDragStarted
 page_title: OnRowDragStarted | RadGrid for ASP.NET AJAX Documentation
 description: OnRowDragStarted
-slug: grid/client-side-programming/events/events/onrowdragstarted
+slug: grid/client-side-programming/events/onrowdragstarted
 tags: onrowdragstarted
 published: True
 position: 59

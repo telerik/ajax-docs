@@ -2,7 +2,7 @@
 title: OnBatchEditGetCellValue
 page_title: OnBatchEditGetCellValue | RadGrid for ASP.NET AJAX Documentation
 description: OnBatchEditGetCellValue
-slug: grid/client-side-programming/events/events/onbatcheditgetcellvalue
+slug: grid/client-side-programming/events/onbatcheditgetcellvalue
 tags: onbatcheditgetcellvalue
 published: True
 position: 79

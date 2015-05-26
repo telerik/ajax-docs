@@ -2,7 +2,7 @@
 title: OnMasterTableViewCreating
 page_title: OnMasterTableViewCreating | RadGrid for ASP.NET AJAX Documentation
 description: OnMasterTableViewCreating
-slug: grid/client-side-programming/events/events/onmastertableviewcreating
+slug: grid/client-side-programming/events/onmastertableviewcreating
 tags: onmastertableviewcreating
 published: True
 position: 45

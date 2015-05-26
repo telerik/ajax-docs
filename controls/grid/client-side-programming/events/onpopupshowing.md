@@ -2,7 +2,7 @@
 title: OnPopUpShowing
 page_title: OnPopUpShowing | RadGrid for ASP.NET AJAX Documentation
 description: OnPopUpShowing
-slug: grid/client-side-programming/events/events/onpopupshowing
+slug: grid/client-side-programming/events/onpopupshowing
 tags: onpopupshowing
 published: True
 position: 47

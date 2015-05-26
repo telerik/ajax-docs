@@ -2,7 +2,7 @@
 title: OnRowMouseOut
 page_title: OnRowMouseOut | RadGrid for ASP.NET AJAX Documentation
 description: OnRowMouseOut
-slug: grid/client-side-programming/events/events/onrowmouseout
+slug: grid/client-side-programming/events/onrowmouseout
 tags: onrowmouseout
 published: True
 position: 64

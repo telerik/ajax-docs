@@ -2,7 +2,7 @@
 title: OnDataBound
 page_title: OnDataBound | RadGrid for ASP.NET AJAX Documentation
 description: OnDataBound
-slug: grid/client-side-programming/events/events/ondatabound
+slug: grid/client-side-programming/events/ondatabound
 tags: ondatabound
 published: True
 position: 29

@@ -2,7 +2,7 @@
 title: OnRowSelected
 page_title: OnRowSelected | RadGrid for ASP.NET AJAX Documentation
 description: OnRowSelected
-slug: grid/client-side-programming/events/events/onrowselected
+slug: grid/client-side-programming/events/onrowselected
 tags: onrowselected
 published: True
 position: 69
