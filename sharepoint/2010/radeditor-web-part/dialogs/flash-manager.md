@@ -10,10 +10,6 @@ position: 5
 
 # Flash Manager
 
-
-
-## 
-
 Functionality:
 
 Using the Flash Manager dialog the users of RadEditor can:
@@ -38,7 +34,7 @@ The behavior of the Flash Manager dialog is controlled by the following properti
 
 The files which properties need to be modified are **ConfigFile.xml / ListConfigFile.xml**, located in the following folder:
 
-/Program Files/Common Files/Microsoft Shared/web server extensions/wpresources/RadEditorSharePoint/6.x.x.0__1f131a624888eeed/Resources/
+_/Program Files/Common Files/Microsoft Shared/web server extensions/wpresources/RadEditorSharePoint/6.x.x.0__1f131a624888eeed/Resources/_
 
 ````XML
 <configuration> 
@@ -55,5 +51,4 @@ The files which properties need to be modified are **ConfigFile.xml / ListConfig
 ````
 
 >note Note that in SharePoint 2010 the Upload and Delete options depend on the current user's permissions for the desired library.
->
 

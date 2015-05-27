@@ -10,10 +10,6 @@ position: 0
 
 # Inserting Flash and Media Files
 
-
-
-## 
-
 **Web Part and WCM scenario**
 
 You need to modify the **ToolsFile.xml** which is located in the following folder:
@@ -25,7 +21,6 @@ and add the following tools:
 `<tool name="FlashManager" /><tool name="MediaManager" />`
 
 >caution in the WCM scenario you will also need to add / set the **AllowSpecialTags** property to true. You can set it in the current page using SharePoint Designer. [Click here]({%slug sharepoint/2007/radeditor-for-moss/configuration/setting-configfile-and-toolsfile-properties-for-the-wcm-field%}) for more information
->
 
 **SharePoint forms scenario (Lists, Blogs, etc.)**
 
