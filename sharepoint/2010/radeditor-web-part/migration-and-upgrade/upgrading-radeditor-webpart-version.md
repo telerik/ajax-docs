@@ -10,9 +10,7 @@ position: 1
 
 # Upgrading RadEditor WebPart Version
 
-## Upgrading to a newer version of RadEditor for SharePoint 2010
-
-Here is how to upgrade your RadEditor for SP2010 from a previous version to the latest one. In the instructions below we will upgrade from v6.0.0.0 to v6.1.0.0.
+This article explains how to upgrade to a newer version of RadEditor for SharePoint 2010. In the instructions below we will upgrade from v6.0.0.0 to v6.1.0.0.
 
 In SharePoint 2010 deployments use the following steps to upgrade an existing version of Telerik controls for Sharepoint 2010 to a newer version of Telerik controls for Sharepoint 2010:
 
