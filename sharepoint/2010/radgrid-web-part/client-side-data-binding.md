@@ -12,10 +12,10 @@ position: 4
 
 
 
-## 
+
 
 SPRadGrid provides the option of binding to SPLists and Excel files on the client. If you prefer a faster loading time and less features, you might as well take advantage of SPRadGrid's client-side binding functionality by switching it on from the tool part GridSettings panel:
->caption 
+
 
 ![](images/web_service_binding.png)
 

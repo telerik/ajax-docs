@@ -27,4 +27,4 @@ Add the following code:
 
 ## SharePoint forms scenario (Lists, Blogs, etc.)
 
-You need to modify the**ListConfigFile.xml**located in the same folder.
+You need to modify the **ListConfigFile.xml** located in the same folder.

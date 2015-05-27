@@ -12,7 +12,6 @@ position: 3
 
 
 
-## 
 
 In certain cases you might want to remove user's ability for editing the HTML source directly.
 

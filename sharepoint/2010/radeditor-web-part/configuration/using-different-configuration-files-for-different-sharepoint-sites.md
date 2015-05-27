@@ -11,8 +11,7 @@ position: 2
 # Using Different Configuration Files for Different SharePoint Sites
 
 
-
-## 
+ 
 
 It is possible to have unique configuration files (one for lists and one for web parts and publishing fields) for each SharePoint web on your server. Simply create a new configuration file and append the unique ID of the web to the file name. For example:
 

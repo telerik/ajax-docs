@@ -12,15 +12,14 @@ position: 4
 
 
 
-## 
 
 You can add/remove certain tools from the RadEditor toolbar by modifying the respective ToolsFile.
 
 For a full list of the supported tools in the RadEditor for SP2010, see the following help articles -
 
-* [Introduction to Toolbars](E6928FB8-E590-46F5-BE82-8D2C04243F5D)
+* [Introduction to Toolbars]({%slug editor/functionality/toolbars/overview%})
 
-* [Using the ToolsFile.xml](457F0D10-F4ED-41EA-A7F8-997C6D09B6D2)
+* [Using the ToolsFile.xml]({%slug editor/functionality/toolbars/using-toolsfile.xml%})
 
 **Content Editor Web Part and WCM (publishing) scenarios**
 

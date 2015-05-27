@@ -10,13 +10,11 @@ position: 0
 
 # Defining Custom CSS Styles
 
-
-
 This help article illustrates different ways to customize the content area of RadEditor for SharePoint 2010.
 
 * [Modify Existing Styles](#modify-existing-styles)
 
-* [Load Custom Styles Through the Default CssEditor.css File](#load-custom-styles-through-the-default-csseditor.css-file)
+* [Load Custom Styles Through the Default CssEditor.css File](#load-custom-styles-through-the-default-csseditorcss-file)
 
 * [Load Custom Styles Through the CssFiles Collection](#load-custom-styles-through-the-cssfiles-collection)
 
@@ -33,9 +31,6 @@ Telerik RadEditor uses the same CSS as the default rich-text editor. Those style
 By modifying this CSS file you can add, edit, and delete CSS styles which are displayed in the "Apply CSS class" dropdown and are applied to the editor's content. When defining styles you don't have to use Microsoft's naming convention with the **.ms-rteCustom** prefix.
 
 >caution This approach takes effect only for ContentAreaMode="Iframe". See **Table 1** for details.
->
-
-
 
 >caption Table 1: Scenarios in which HtmlEditorStyles.css styles take effect over editor content.
 
@@ -88,9 +83,6 @@ RadEditor for Share Point can be configured to load external CSS files as well. 
 More information you can find in the following online help article: [External CSS Files](88C1DD5C-6AF5-487F-B646-1321FADC0138).
 
 >caution This approach takes effect only for ContentAreaMode="Iframe". See **Table 3** for details.
->
-
-
 
 >caption  Table 3: Scenarios in which styles from the CssFiles collection take effect over editor content. 
 
@@ -102,11 +94,9 @@ More information you can find in the following online help article: [External CS
 Note that in some scenarios, it is useful to manually check what styles are applied to the editor's content before and after it is submitted. Thus, you can trace if some global styles are ruing your design. This can be easily done using [IE Dev Toolbar](http://www.microsoft.com/downloads/details.aspx?familyid=e59c3964-672d-4511-bb3e-2d5e1db91038&displaylang=en) or [FireBug](http://getfirebug.com/).
 
 >note Note the version number in the CSS file URL - this should be set to the RadEditor for Share Point version you have (e.g. 6.12.0.0).
->
-
 
 >note Similarly to the default rich-text editor the Telerik RadEditor for Share Point cannot load CSS files from the "Style Library" folder.
->
 
+## See Also
 
-## See Also[External CSS Files](88C1DD5C-6AF5-487F-B646-1321FADC0138)
+* [External CSS Files]({%slug editor/functionality/toolbars/dropdowns/external-css-files%})
