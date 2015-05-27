@@ -12,7 +12,6 @@ position: 7
 
 
 
-## 
 
 To enable the **AjaxSpellCheck** tool, you need to modify the **ToolsFile.xml** which is located in the following folder:
 

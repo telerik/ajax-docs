@@ -12,7 +12,7 @@ position: 5
 
 
 
-## 
+
 
 You can set the ConfigFile and ToolsFile properties of the RadEditor for SharePint2010 in the WCM field by using the SharePoint Designer. To do so:
 

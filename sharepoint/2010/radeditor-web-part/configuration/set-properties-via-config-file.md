@@ -12,7 +12,7 @@ position: 6
 
 
 
-## 
+
 
 You can set certain properties for **RadEditor** by modifying the respective **ConfigFile**.
 
