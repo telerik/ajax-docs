@@ -28,7 +28,7 @@ The free trial licenses of all Telerik products are **fully functional** and wil
 
 The trial licenses will occasionally display the following message on your webform:
 
-Telerik UI for ASP.NET AJAXtrial version. Copyright Telerik © 2002-2012. To remove this message, please,[purchase a developer version	](http://www.telerik.com/purchase.aspx).
+Telerik UI for ASP.NET AJAXtrial version. Copyright Telerik © 2002-2012. To remove this message, please, [purchase a developer version](http://www.telerik.com/purchase.aspx).
 
 ## See Also
 

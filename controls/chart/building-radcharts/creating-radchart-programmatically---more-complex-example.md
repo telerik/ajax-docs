@@ -85,7 +85,7 @@ radChart.PlotArea.YAxis.Appearance.Color = System.Drawing.Color.Red;
 // Add the series to the chart, chart to page.radChart.Series.Add(chartSeries);radChart.Series.Add(chartSeries2);this.Page.Controls.Add(radChart)
 	
 ````
-````VB.NET	
+````VB
 ' Define chart and title
 Dim radChart As New RadChart()
 radChart.ChartTitle.TextBlock.Text = "My RadChart"

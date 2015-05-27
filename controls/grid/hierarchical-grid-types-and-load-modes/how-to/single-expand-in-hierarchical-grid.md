@@ -1,5 +1,5 @@
 ---
-title: Single expand in hierarchical grid
+title: Single Expand in hierarchical grid
 page_title: Single expand in hierarchical grid | RadGrid for ASP.NET AJAX Documentation
 description: Single expand in hierarchical grid
 slug: grid/hierarchical-grid-types-and-load-modes/how-to/single-expand-in-hierarchical-grid
@@ -10,9 +10,6 @@ position: 2
 
 # Single expand in hierarchical grid
 
-
-
-## 
 
 In some particular scenarios you may want to allow single row expand at a time for each level in the grid hierarchy (due to user preference, custom development conventions, etc.). This feature is not built-in for Telerik RadGrid, however you can provide with only several lines of code. You merely need to:
 

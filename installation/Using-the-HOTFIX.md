@@ -29,7 +29,7 @@ The **HOTFIX** archive is a bare-bones upgrade option for our controls - it cont
 
 1. Log into your [Telerik account](http://www.telerik.com/account/default.aspx) and click on **Products & Subscriptions** from the top menu.
 
-1. In the dropdown that appears choose from your purchased products or trial downloads the Telerik UI for ASP.NET AJAX, and click on it. If you have purchased a collection you would need to click on it and the trial downloads page will show all trial downlads directly.
+1. In the dropdown that appears choose from your purchased products or trial downloads the Telerik UI for ASP.NET AJAX, and click on it. If you have purchased a collection you would need to click on it and the trial downloads page will show all trial downloads directly.
 
 1. Click on **Download Installer and other resources** (the Download link next to the suite if you are a trial user).You need to choose the Telerik UI for ASP.NET AJAX suite if you have purchased the collection and click its Browse all product files button.
 
@@ -43,7 +43,7 @@ The **HOTFIX** archive is a bare-bones upgrade option for our controls - it cont
 
 1. Close Visual Studio or any other IDE which may lock the old assembly.
 
-1. From the newly downloaded and unzipped files, copy the new DLL (located in the **binXX*** folder) to your web-application's **bin** folder. Replace the old dll. ***binXX** folder - contains the Telerik controls assemblies (.dll files), where **XX** represents the version of the .NET framework against which the assemblies are built.
+1. From the newly downloaded and unzipped files, copy the new DLL (located in the **binXX** folder) to your web-application's **bin** folder. Replace the old dll. **binXX** folder - contains the Telerik controls assemblies (.dll files), where **XX** represents the version of the .NET framework against which the assemblies are built.
 
 1. If you are using VS.NET, update the control's reference in your project to point to the new DLL.
 
@@ -56,16 +56,12 @@ The **HOTFIX** archive is a bare-bones upgrade option for our controls - it cont
 1. Run the project.
 
 1. If you still get the older version of Telerik UI for ASP.NET AJAX
-
-* Sometimes the .NET Framework wrongly caches the Telerik UI for ASP.NET AJAX's DLL and therefore the update may seem to have failed. Try the following to ensure that this is not the case:
-
-1. Terminate the aspnet_wp.exe process (from the Windows Task Manager)
-
-1. Open a Windows Explorer and navigate to C:\Windows(WINNT)\Microsoft.NET\Framework\v[YOUR_VERSION]\Temporary ASP.NET Files
-
-1. Delete all folders with names, corresponding to your Telerik projects, i.e. Telerik UI for ASP.NET AJAX, etc.
-* Delete your Visual Studio web project cache(s) - it should be located in C:\Documents and Settings\[YOUR USER]\VSWebCache.
-* Delete your browser cache: Tools -> Internet Options -> Delete Files....
+	* Sometimes the .NET Framework wrongly caches the Telerik UI for ASP.NET AJAX's DLL and therefore the update may seem to have failed. Try the following to ensure that this is not the case:
+		1. Terminate the aspnet_wp.exe process (from the Windows Task Manager)
+		1. Open a Windows Explorer and navigate to C:\Windows(WINNT)\Microsoft.NET\Framework\v[YOUR_VERSION]\Temporary ASP.NET Files
+		1. Delete all folders with names, corresponding to your Telerik projects, i.e. Telerik UI for ASP.NET AJAX, etc.
+	* Delete your Visual Studio web project cache(s) - it should be located in C:\Documents and Settings\[YOUR USER]\VSWebCache.
+	* Delete your browser cache: Tools -> Internet Options -> Delete Files....
 
 1. If you get a copyright message - the copyright message appears only when using the trial version of Telerik UI for ASP.NET AJAX (the Developer versions of Telerik's controls do not throw copyright messages).If you have purchased the control, then you have downloaded the wrong "DLLs only" file. Make sure you you download the proper, Developer "DLLs only" file. You will recognize it by the **Dev** abbreviation in the file name.
 

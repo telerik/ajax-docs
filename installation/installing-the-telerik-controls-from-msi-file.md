@@ -20,10 +20,8 @@ position: 2
 
 
 >caution  **Prerequisite** 
->In order to have Telerik UI for ASP.NET AJAX running, you will need to have[ASP.NET AJAX](http://ajax.asp.net/)installed on your development/production machine.
->See also[General ASP.NET AJAX Information](85BC8323-A04F-4A84-9E29-E1B2A122FC19).
+>In order to have Telerik UI for ASP.NET AJAX running, you will need to have [ASP.NET AJAX](http://ajax.asp.net/) installed on your development/production machine.
 >
-
 
 The **MSI** files are intended for easy and automatic installation of a product. The **MSI** installs the suite on your computer to a folder named **Telerik** in your Program Files, automatically creating the necessary virtual folders and projects. Additionally, it installs the help file(s) in the VS.NET IDE and in your local copy of [MSDN](http://msdn.microsoft.com/), if you have one installed.
 
@@ -55,7 +53,7 @@ To view running examples of the Telerik UI for ASP.NET AJAX functionality, you c
 
 * Load the Live Examples solution to your Visual Studio and start the project (F5). The fastest way to load the solution is using the Start Menu: **Telerik -> UI for ASP.NET AJAX QX YYYY -> Open Sample Web Site in Visual Studio**. VisualStudio will start the Live Demos locally using the integrated ASP.NET Development Server.
 
->note The Telerik UI for ASP.NET AJAX package adds the products automatically to the Visual Studio toolbox. To learn how to add them manually, see[Adding Telerik UI for ASP.NET AJAX to the Visual Studio 2008 Toolbox](3179F8A7-4F96-41E1-8B50-0D3A893DD890)for VS.NET 2008 or[Adding Telerik UI for ASP.NET AJAX to the Visual Studio 2010 Toolbox]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/adding-the-telerik-controls-to-the-visual-studio-toolbox%})for VS.NET 2010.
+>note The Telerik UI for ASP.NET AJAX package adds the products automatically to the Visual Studio toolbox. To learn how to add them manually, see the [Adding the Telerik Controls to the Visual Studio Toolbox]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/adding-the-telerik-controls-to-the-visual-studio-toolbox%}) article.
 >
 
 

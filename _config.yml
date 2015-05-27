@@ -470,33 +470,33 @@ navigation:
     "*calendar/templates":
         title: "Templates"
         position: 8
-    "*chart/client-side":
-        title: "Client-Side"
-        position: 2
     "*chart/features":
         title: "Features"
-        position: 3
+        position: 4
     "*chart/understanding-radchart-types":
         title: "Understanding RadChart Types"
-        position: 4
+        position: 5
     "*chart/understanding-radchart-elements":
         title: "Understanding RadChart Elements"
-        position: 5
+        position: 6
     "*chart/understanding-radchart-ui":
         title: "Understanding RadChart UI"
-        position: 6
+        position: 7
     "*chart/building-radcharts":
         title: "Building RadCharts"
-        position: 7
+        position: 8
     "*chart/styling-radcharts":
         title: "Styling RadCharts"
-        position: 8
+        position: 9
     "*chart/advanced-topics":
         title: "Advanced Topics"
-        position: 9
+        position: 10
     "*chart/standards-compliance":
         title: "Standards Compliance"
         position: 12
+    "*chart/client-side":
+        title: "Client-Side"
+        position: 13
     "*clientdatasource/client-side-programming/client-side-api":
         title: "Client-side API"
         position: 3
@@ -830,8 +830,8 @@ navigation:
     "*grid/asp.net-3.5-features":
         title: "ASP.NET 3.5 Features"
         position: 13
-    "*grid/visible/enabled-conventions":
-        title: "Visible/Enabled Conventions"
+    "*grid/visible-and-enabled-conventions":
+        title: "Visible and Enabled Conventions"
         position: 14
     "*grid/ajaxified-radgrid":
         title: "Ajaxified RadGrid"

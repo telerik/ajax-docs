@@ -33,7 +33,7 @@ Other Gantt chart issues:
 ````C#
 RadChart1.PlotArea.YAxis.Appearance.ValueFormat = Telerik.Charting.Styles.ChartValueFormat.ShortDate;
 ````
-````VB.NET
+````VB
 RadChart1.PlotArea.YAxis.Appearance.ValueFormat = Telerik.Charting.Styles.ChartValueFormat.ShortDate
 ````
 
