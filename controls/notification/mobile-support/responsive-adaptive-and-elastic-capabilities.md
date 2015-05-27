@@ -2,7 +2,7 @@
 title: Responsive, Adaptive and Elastic Capabilities
 page_title: Responsive, Adaptive and Elastic Capabilities | RadNotification for ASP.NET AJAX Documentation
 description: Responsive, Adaptive and Elastic Capabilities in RadNotification for ASP.NET AJAX
-slug: notification/mobile-support/responsive,-adaptive-and-elastic-capabilities
+slug: notification/mobile-support/responsive-adaptive-and-elastic-capabilities
 previous_url: controls/notification/mobile-support
 tags: mobile,support, responsive, adaptive, elastic, fluid, capabilities
 published: True
@@ -63,4 +63,7 @@ You can see this feature in the [Size in percent](http://demos.telerik.com/aspne
 </telerik:RadNotification>
 ````
 
+## See Also
+
+ * [Render Modes]({%slug notification/mobile-support/render-modes%}) 
 
