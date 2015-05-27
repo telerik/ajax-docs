@@ -16,13 +16,13 @@ This article explains how to upgrade the version of the Telerik UI for ASP.NET A
 
 You can find concrete information about your case in the distinct sections of this article:
 
-* [Upgrade to a Newer Version of Telerik UI for ASP.NET AJAX](#upgrade-to-a-newer-version-of-telerik-ui-for-asp.net-ajax)
+* [Upgrade to a Newer Version of Telerik UI for ASP.NET AJAX](#upgrade-to-a-newer-version-of-telerik-ui-for-aspnet-ajax)
 
 * [Automatically](#automatic-upgrade)
 
 * [Manually](#manual-upgrade)
 
-* [Upgrade From Trial to Licensed Version of Telerik UI for ASP.NET AJAX](#upgrade-from-trial-to-licensed-version-of-telerik-ui-for-asp.net-ajax)
+* [Upgrade From Trial to Licensed Version of Telerik UI for ASP.NET AJAX](#upgrade-from-trial-to-licensed-version-of-telerik-ui-for-aspnet-ajax)
 
 * [Upgrading Troubleshooting](#upgrading-troubleshooting)
 
@@ -70,7 +70,7 @@ As with any ASP.NET Project, it is often helpful to clear the ASP Temporary file
 
 ## Upgrade From Trial to Licensed Version of Telerik UI for ASP.NET AJAX
 
-The difference between the trial and licensed version of the Telerik controls is built-in the assemblies themselves.You do not need license keys or activations.
+The difference between the trial and licensed version of the Telerik controls is built-in the assemblies themselves. You do not need license keys or activations.
 
 Once you have a licensed package, simply **follow the steps from the**.
 
@@ -78,11 +78,11 @@ Once you have a licensed package, simply **follow the steps from the**.
 
 ### Installation Issues
 
-If you are having difficulties with installing the controls, examine the [Installation Troubleshooting]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/troubleshooting/installation-troubleshooting%}) article.In the meantime, you can download the [hotfix archive]({%slug introduction/installation/using-the-hotfix-(dlls-and-scripts/skins-only)%}) and	[upgrade the controls manually](#manual-upgrade).
+If you are having difficulties with installing the controls, examine the [Installation Troubleshooting]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/troubleshooting/installation-troubleshooting%}) article. In the meantime, you can download the [hotfix archive]({%slug introduction/installation/using-the-hotfix-(dlls-and-scripts/skins-only)%}) and	[upgrade the controls manually](#manual-upgrade).
 
 ### Referencing the Telerik Assemblies from the GAC
 
-When referencing assemblies from the GAC, the way those references are added to VS and the way the assemblies are placed in the GAC are slightlydifferent than the common BIN-deployment scenario. For example, you will need to add the Telerik assemblies to the GAC manually anduse fully qualified assembly names in the [handler registrations in the web.config]({%slug general-information/web-config-settings-overview%}).You can read more about handling assemblies in the GAC and their references in the[Using the Global Assembly Cache]({%slug introduction/deployment/using-the-global-assembly-cache%}) help article.
+When referencing assemblies from the GAC, the way those references are added to VS and the way the assemblies are placed in the GAC are slightly different than the common BIN-deployment scenario. For example, you will need to add the Telerik assemblies to the GAC manually and use fully qualified assembly names in the [handler registrations in the web.config]({%slug general-information/web-config-settings-overview%}). You can read more about handling assemblies in the GAC and their references in the [Using the Global Assembly Cache]({%slug introduction/deployment/using-the-global-assembly-cache%}) help article.
 
 ### I Still Get the Old Version
 
@@ -98,7 +98,7 @@ Sometimes the .NET Framework caches the old Telerik.Web.UI.dll and therefore the
 
 * Clean up the Visual Studio Backup from *`<sysdrive>:\Users\<UserName>\Documents\Visual Studio <vsVersion>\Backup Files`*. This location depends on your VS settings and installation.
 
-* Clean up the Project Assemblies cache from *`<sysdrive>:\Users\<UserName>\AppData\Local\Microsoft\Visual Studio\<vsVersion>\ProjectAssemblies`*.The location of this cache may vary from one operating system to the next.
+* Clean up the Project Assemblies cache from *`<sysdrive>:\Users\<UserName>\AppData\Local\Microsoft\Visual Studio\<vsVersion>\ProjectAssemblies`*. The location of this cache may vary from one operating system to the next.
 
 ### I Still Get the Copyright Message
 

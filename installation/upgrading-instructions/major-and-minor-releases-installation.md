@@ -24,27 +24,27 @@ Here are some sample scenarios:
 
 * Parallel major releases
 
-1. Install Q2 2011
+	1. Install Q2 2011
 
-1. Install Q3 2011
+	1. Install Q3 2011
 
-1. Install Q1 2012Result: all three versions (Q2 2011, Q3 2011 and Q1 2012) are installed in parallel on the machine.
+	1. Install Q1 2012Result: all three versions (Q2 2011, Q3 2011 and Q1 2012) are installed in parallel on the machine.
 
 * Minor releases from the same major release
 
-1. Install Q1 2012
+	1. Install Q1 2012
 
-1. Install Q1 2012 SP1
+	1. Install Q1 2012 SP1
 
-1. Install Q1 2012 SP2Result: only the latest version (Q1 2012 SP2) is installed on the machine.
+	1. Install Q1 2012 SP2Result: only the latest version (Q1 2012 SP2) is installed on the machine.
 
 * Minor releases from different major releases
 
-1. Install Q3 2011
+	1. Install Q3 2011
 
-1. Install Q3 2011 SP1
+	1. Install Q3 2011 SP1
 
-1. Install Q1 2012 SP1Result: Q3 2011 SP1 and Q1 2012 SP1 are installed on the machine.
+	1. Install Q1 2012 SP1Result: Q3 2011 SP1 and Q1 2012 SP1 are installed on the machine.
 
 >note Part of the Telerik UI for ASP.NET AJAX are the Visual Studio Extensions. Since the Visual Studio Extensions integrate into the Visual Studio IDE they don’t support parallel versions. When newer version is installed regardless of its type (major/minor) the Visual Studio Extensions get updated to the newer version.
 >

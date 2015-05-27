@@ -18,7 +18,7 @@ The assemblies come sorted in several folders so that you can use the appropriat
 
 ## Main Assemblies
 
-The Telerik UI for ASP.NET AJAX product consists of the assemblies in the list below. You can find them in the root of the installation (both[automated]({%slug introduction/installation/installing-the-telerik-controls-from-msi-file%}) and inthe [zip archive]({%slug introduction/installation/installing-the-telerik-controls-from-zip-file%})) and in the	[internal builds archives]({%slug introduction/installation/using-the-hotfix-(dlls-and-scripts/skins-only)%}).
+The Telerik UI for ASP.NET AJAX product consists of the assemblies in the list below. You can find them in the root of the installation (both [automated]({%slug introduction/installation/installing-the-telerik-controls-from-msi-file%}) and in the [zip archive]({%slug introduction/installation/installing-the-telerik-controls-from-zip-file%})) and in the	[internal builds archives]({%slug introduction/installation/using-the-hotfix-(dlls-and-scripts/skins-only)%}).
 
 * **Telerik.Web.UI.dll** — the core assembly from the suite where the actual controls are located. It also contains the *Default* skin.
 
@@ -26,13 +26,13 @@ The Telerik UI for ASP.NET AJAX product consists of the assemblies in the list b
 
 * **Telerik.Web.Design.dll** — this assembly contains the Visual Studio Design surface code for the suite. The configuration wizards you can access from the controls' Smart Tags are also there. It is only needed if you use the controls in the Design mode in VS and it is not needed in the deployed application.The automated installation adds this assembly to the GAC.
 
-* **Telerik.Web.Device.Detection.dll** — the [Telerik Device Detection framework](d65b4c42-ab7e-44de-9342-d3c698009d8b)that can help you determine the screen resolution of the device that requested the page while processing the request on the server. It is used by the Telerik controlsto determine the [RenderMode](c952abb4-e952-44fa-9e05-70aac40c04d5) when it is set to Auto.
+* **Telerik.Web.Device.Detection.dll** — the [Telerik Device Detection framework]({%slug controls/raddevicedetectionframework%}) that can help you determine the screen resolution of the device that requested the page while processing the request on the server. It is used by the Telerik controls to determine the [RenderMode]({%slug controls/render-modes%}) when it is set to Auto.
 
 ## Telerik ZIP Library
 
 This is a cross-platform library that lets you load, create and update Zip archives on the fly with easy to use API.
 
-You can find its assembly in the **AdditionalLibraries** folder in the Telerik UI for ASP.NET AJAX installation (automated and manual) and in the internal builds archive.It supports .NET 4 and .NET 4.5, so depending on the target framework of your project, you need to take the assembly from the *Bin40*or *Bin45* folder respectively.
+You can find its assembly in the **AdditionalLibraries** folder in the Telerik UI for ASP.NET AJAX installation (automated and manual) and in the internal builds archive.It supports .NET 4 and .NET 4.5, so depending on the target framework of your project, you need to take the assembly from the *Bin40* or *Bin45* folder respectively.
 
 * **Telerik.Windows.Zip.dll** — the assembly of the Telerik Zip Library.
 
@@ -42,7 +42,7 @@ You can read more about it in its documentation: [Getting started with RadZipLib
 
 The Telerik document processing libraries are a set of assemblies that let you import and export content between different formats.
 
-You can find the needed assemblies in the **AdditionalLibraries** folder in the Telerik UI for ASP.NET AJAX installation (automated and manual) and in the internal builds archive.It supports .NET 4 and .NET 4.5, so depending on the target framework of your project, you need to take the assembly from the *Bin40*or *Bin45* folder respectively.
+You can find the needed assemblies in the **AdditionalLibraries** folder in the Telerik UI for ASP.NET AJAX installation (automated and manual) and in the internal builds archive.It supports .NET 4 and .NET 4.5, so depending on the target framework of your project, you need to take the assembly from the *Bin40* or *Bin45* folder respectively.
 
 * **Telerik.Windows.Documents.Core.dll** — the main assembly from the Telerik document processing libraries. You always need it when you intend to use the library.
 
@@ -66,29 +66,29 @@ You can find more information on working with the Telerik document processing li
 
 * Words (text) processing
 
-* [DOCX format provider](22b1afac-592a-4009-b6ab-9e03776199e2)
+	* [DOCX format provider]({%slug radwordsprocessing-formats-and-conversion-docx-docxformatprovider%})
 
-* [HTML format provider](055c74e8-b87e-4c0f-b36c-b8210aab2055)
+	* [HTML format provider]({%slug radwordsprocessing-formats-and-conversion-html-htmlformatprovider%})
 
-* [RTF format provider](8d263b31-7336-4502-a790-34c2603cc768)
+	* [RTF format provider]({%slug radwordsprocessing-formats-and-conversion-rtf-rtfformatprovider%})
 
-* [TXT format provider](8e00e8b8-f957-4155-83d2-bf282539cb9e)
+	* [TXT format provider]({%slug radwordsprocessing-formats-and-conversion-txt-txtformatprovider%})
 
 * Spreadsheet processing
 
-* [Getting Started](15a3c2cb-4709-4285-925f-a9c9c5c9ce12)
+	* [Getting Started]({%slug radspreadprocessing-getting-started%})
 
-* [XLSX format provider](87deca9a-e006-4210-b5f4-173afd5756ee)
+	* [XLSX format provider]({%slug radspreadprocessing-formats-and-conversion-xlsx-xlsxformatprovider%})
 
-* [CSV format provider](5afe6e5c-2910-48ff-a8aa-73755e6f7214)
+	* [CSV format provider]({%slug radspreadprocessing-formats-and-conversion-csv-csvformatprovider%})
 
-* [PDF format provider](8d3a9e55-cea1-424e-ad74-42077be79264)
+	* [PDF format provider]({%slug radspreadprocessing-formats-and-conversion-pdf-pdfformatprovider%})
 
-* [TXT format provider](8b3ffa0b-3eec-4c3b-973d-617ae28954a8)
+	* [TXT format provider]({%slug radspreadprocessing-formats-and-conversion-txt-txtformatprovider%})
 
 * PDF processing
 
-* [PDF format provider](01174622-214c-47a0-a47f-b0e2b990b216)
+	* [PDF format provider]({%slug radpdfprocessing-formats-and-conversion-pdf-pdfformatprovider%})
 
 ## See Also
 
@@ -100,4 +100,8 @@ You can find more information on working with the Telerik document processing li
 
  * [Telerik Spreadsheet Processing Library](http://www.telerik.com/products/wpf/spreadsheet-processing.aspx)
 
- * [Telerik Device Detection Framework Overview](http://www.telerik.com/products/aspnet-ajax/device-detection-framework.aspx)[Telerik Device Detection Framework API](d65b4c42-ab7e-44de-9342-d3c698009d8b)[UI for ASP.NET AJAX Controls RenderModes Basics](c952abb4-e952-44fa-9e05-70aac40c04d5)
+ * [Telerik Device Detection Framework Overview](http://www.telerik.com/products/aspnet-ajax/device-detection-framework.aspx)
+ 
+ * [Telerik Device Detection Framework API]({%slug controls/raddevicedetectionframework%})
+ 
+ * [UI for ASP.NET AJAX Controls RenderModes Basics]({%slug controls/render-modes%})

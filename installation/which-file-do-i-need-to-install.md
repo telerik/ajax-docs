@@ -36,4 +36,4 @@ If you already have Telerik controls installed by the MSI package, you can safel
 
  * [Installing the Telerik Controls from ZIP File]({%slug introduction/installation/installing-the-telerik-controls-from-zip-file%})
 
- * [Using the HOTFIX (DLLs and Scripts/Skins Only)]({%slug introduction/installation/using-the-hotfix-(dlls-and-scripts/skins-only)%})
+ * [Using the HOTFIX (DLLs and Scripts/Skins Only]({%slug introduction/installation/using-the-hotfix-(dlls-and-scripts/skins-only)%})
