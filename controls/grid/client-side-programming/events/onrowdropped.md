@@ -20,7 +20,7 @@ Telerik.Web.UI.GridDataItemCancelEventArgs OnRowDropped Property
 >
 
 
-This event can be handled if you would like to execute some extra code logic prior to the server-side OnRowDrop event rising. This event cannot be cancelled and have the same set of arguments as the [OnRowDropping]({%slug grid/client-side-programming/events/events/onrowdropping%}) client event.
+This event can be handled if you would like to execute some extra code logic prior to the server-side OnRowDrop event rising. This event cannot be cancelled and have the same set of arguments as the [OnRowDropping]({%slug grid/client-side-programming/events/onrowdropping%}) client event.
 
 
 |  **Fired by**  | RadGrid |

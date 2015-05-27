@@ -20,7 +20,7 @@ Telerik.Web.UI.OnDataBindingFailed Property
 >
 
 
-This event will be raised when the grid fails to bind to data client-side (after the [OnDataBinding]({%slug grid/client-side-programming/events/events/ondatabinding%}) and before the [OnDataBound]({%slug grid/client-side-programming/events/events/ondatabound%}) client events). Can be used to get message or the stack trace/exception type of the generated error when the client-side binding fails.
+This event will be raised when the grid fails to bind to data client-side (after the [OnDataBinding]({%slug grid/client-side-programming/events/ondatabinding%}) and before the [OnDataBound]({%slug grid/client-side-programming/events/ondatabound%}) client events). Can be used to get message or the stack trace/exception type of the generated error when the client-side binding fails.
 
 >note Meaningful with declarative client-side data-binding only!
 >

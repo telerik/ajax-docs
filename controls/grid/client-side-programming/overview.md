@@ -76,109 +76,109 @@ Inside each **RadGrid** client event handler the first argument passed (sender) 
 
 |  **Event**  |  **Description**  |
 | ------ | ------ |
-| **[OnGridCreating]({%slug grid/client-side-programming/events/events/ongridcreating%})** |This event is fired before the grid is created.|
-| **[OnGridCreated]({%slug grid/client-side-programming/events/events/ongridcreated%})** |This event is fired after the grid is created.|
-| **[OnGridDestroying]({%slug grid/client-side-programming/events/events/ongriddestroying%})** |This event is fired when the **RadGrid** object is destroyed, (i.e. on each *window.onunload* ).|
-| **[OnMasterTableViewCreating]({%slug grid/client-side-programming/events/events/onmastertableviewcreating%})** |This event is fired before the **MasterTableView** is created.|
-| **[OnMasterTableViewCreated]({%slug grid/client-side-programming/events/events/onmastertableviewcreated%})** |This event is fired after the **MasterTableView** is created.|
+| **[OnGridCreating]({%slug grid/client-side-programming/events/ongridcreating%})** |This event is fired before the grid is created.|
+| **[OnGridCreated]({%slug grid/client-side-programming/events/ongridcreated%})** |This event is fired after the grid is created.|
+| **[OnGridDestroying]({%slug grid/client-side-programming/events/ongriddestroying%})** |This event is fired when the **RadGrid** object is destroyed, (i.e. on each *window.onunload* ).|
+| **[OnMasterTableViewCreating]({%slug grid/client-side-programming/events/onmastertableviewcreating%})** |This event is fired before the **MasterTableView** is created.|
+| **[OnMasterTableViewCreated]({%slug grid/client-side-programming/events/onmastertableviewcreated%})** |This event is fired after the **MasterTableView** is created.|
 || ** *Table Creation* ** |
-| **[OnTableCreating]({%slug grid/client-side-programming/events/events/ontablecreating%})** |This event is fired before the table is created.|
-| **[OnTableCreated]({%slug grid/client-side-programming/events/events/ontablecreated%})** |This event is fired after the table is created.|
-| **[OnTableDestroying]({%slug grid/client-side-programming/events/events/ontabledestroying%})** |This event is fired when table object is destroyed.|
+| **[OnTableCreating]({%slug grid/client-side-programming/events/ontablecreating%})** |This event is fired before the table is created.|
+| **[OnTableCreated]({%slug grid/client-side-programming/events/ontablecreated%})** |This event is fired after the table is created.|
+| **[OnTableDestroying]({%slug grid/client-side-programming/events/ontabledestroying%})** |This event is fired when table object is destroyed.|
 || * **Column Creation** * |
-| **[OnColumnCreating]({%slug grid/client-side-programming/events/events/oncolumncreating%})** |This event is fired before column is created on client-side.|
-| **[OnColumnCreated]({%slug grid/client-side-programming/events/events/oncolumncreated%})** |This event is fired after a column is created on client-side.|
-| **[OnColumnDestroying]({%slug grid/client-side-programming/events/events/oncolumndestroying%})** |This event is fired when a column object is destroyed.|
+| **[OnColumnCreating]({%slug grid/client-side-programming/events/oncolumncreating%})** |This event is fired before column is created on client-side.|
+| **[OnColumnCreated]({%slug grid/client-side-programming/events/oncolumncreated%})** |This event is fired after a column is created on client-side.|
+| **[OnColumnDestroying]({%slug grid/client-side-programming/events/oncolumndestroying%})** |This event is fired when a column object is destroyed.|
 || ** *Column Resizing* ** |
-| **[OnColumnResizing]({%slug grid/client-side-programming/events/events/oncolumnresizing%})** |This event is fired before a column is resized.|
-| **[OnColumnResized]({%slug grid/client-side-programming/events/events/oncolumnresized%})** |This event is fired after a column is resized.|
+| **[OnColumnResizing]({%slug grid/client-side-programming/events/oncolumnresizing%})** |This event is fired before a column is resized.|
+| **[OnColumnResized]({%slug grid/client-side-programming/events/oncolumnresized%})** |This event is fired after a column is resized.|
 || ** *Columns Ordering* ** |
-| **[OnColumnSwaping]({%slug grid/client-side-programming/events/events/oncolumnswapping%})** |This event is fired before two columns are swapped.|
-| **[OnColumnSwaped]({%slug grid/client-side-programming/events/events/oncolumnswapped%})** |This event is fired after two columns are swapped.|
-| **[OnColumnMovingToLeft]({%slug grid/client-side-programming/events/events/oncolumnmovingtoleft%})** |This event is fired before a column is moved to the left.|
-| **[OnColumnMovedToLeft]({%slug grid/client-side-programming/events/events/oncolumnmovedtoleft%})** |This event is fired after a column is moved to the left.|
-| **[OnColumnMovingToRight]({%slug grid/client-side-programming/events/events/oncolumnmovingtoright%})** |This event is fired before a column is moved to the right.|
-| **[OnColumnMovedToRight]({%slug grid/client-side-programming/events/events/oncolumnmovedtoright%})** |This event is fired after a column is moved to the right.|
+| **[OnColumnSwaping]({%slug grid/client-side-programming/events/oncolumnswapping%})** |This event is fired before two columns are swapped.|
+| **[OnColumnSwaped]({%slug grid/client-side-programming/events/oncolumnswapped%})** |This event is fired after two columns are swapped.|
+| **[OnColumnMovingToLeft]({%slug grid/client-side-programming/events/oncolumnmovingtoleft%})** |This event is fired before a column is moved to the left.|
+| **[OnColumnMovedToLeft]({%slug grid/client-side-programming/events/oncolumnmovedtoleft%})** |This event is fired after a column is moved to the left.|
+| **[OnColumnMovingToRight]({%slug grid/client-side-programming/events/oncolumnmovingtoright%})** |This event is fired before a column is moved to the right.|
+| **[OnColumnMovedToRight]({%slug grid/client-side-programming/events/oncolumnmovedtoright%})** |This event is fired after a column is moved to the right.|
 || ** *Row Creation* ** |
-| **[OnRowCreating]({%slug grid/client-side-programming/events/events/onrowcreating%})** |This event is fired before a row available client-side is created.|
-| **[OnRowCreated]({%slug grid/client-side-programming/events/events/onrowcreated%})** |This event is fired after a row available client-side is created.|
-| **[OnRowDestroying]({%slug grid/client-side-programming/events/events/onrowdestroying%})** |This event is fired when a row object is destroyed.|
+| **[OnRowCreating]({%slug grid/client-side-programming/events/onrowcreating%})** |This event is fired before a row available client-side is created.|
+| **[OnRowCreated]({%slug grid/client-side-programming/events/onrowcreated%})** |This event is fired after a row available client-side is created.|
+| **[OnRowDestroying]({%slug grid/client-side-programming/events/onrowdestroying%})** |This event is fired when a row object is destroyed.|
 || ** *Row Resizing* ** |
-| **[OnRowResizing]({%slug grid/client-side-programming/events/events/onrowresizing%})** |This event is fired before a row is resized.|
-| **[OnRowResized]({%slug grid/client-side-programming/events/events/onrowresized%})** |This event is fired after a row is resized.|
+| **[OnRowResizing]({%slug grid/client-side-programming/events/onrowresizing%})** |This event is fired before a row is resized.|
+| **[OnRowResized]({%slug grid/client-side-programming/events/onrowresized%})** |This event is fired after a row is resized.|
 || ** *Row Selection* ** |
-| **[OnRowSelecting]({%slug grid/client-side-programming/events/events/onrowselecting%})** |This event is fired before row selection.|
-| **[OnRowSelected]({%slug grid/client-side-programming/events/events/onrowselected%})** |This event is fired after row selection.|
-| **[OnRowDeselecting]({%slug grid/client-side-programming/events/events/onrowdeselecting%})** |This event is fired before row deselection.|
-| **[OnRowDeselected]({%slug grid/client-side-programming/events/events/onrowdeselected%})** |This event is fired after row deselection.|
+| **[OnRowSelecting]({%slug grid/client-side-programming/events/onrowselecting%})** |This event is fired before row selection.|
+| **[OnRowSelected]({%slug grid/client-side-programming/events/onrowselected%})** |This event is fired after row selection.|
+| **[OnRowDeselecting]({%slug grid/client-side-programming/events/onrowdeselecting%})** |This event is fired before row deselection.|
+| **[OnRowDeselected]({%slug grid/client-side-programming/events/onrowdeselected%})** |This event is fired after row deselection.|
 || ** *OnClick and OnDblClick Events* ** |
-| **[OnRowClick]({%slug grid/client-side-programming/events/events/onrowclick%})** |This event is fired when a row is clicked.|
-| **[OnRowDblClick]({%slug grid/client-side-programming/events/events/onrowdblclick%})** |This event is fired when a row is double-clicked.|
-| **[OnColumnClick]({%slug grid/client-side-programming/events/events/oncolumnclick%})** |This event is fired when a column is clicked.|
-| **[OnColumnDblClick]({%slug grid/client-side-programming/events/events/oncolumndblclick%})** |This event is fired when a column is double-clicked.|
+| **[OnRowClick]({%slug grid/client-side-programming/events/onrowclick%})** |This event is fired when a row is clicked.|
+| **[OnRowDblClick]({%slug grid/client-side-programming/events/onrowdblclick%})** |This event is fired when a row is double-clicked.|
+| **[OnColumnClick]({%slug grid/client-side-programming/events/oncolumnclick%})** |This event is fired when a column is clicked.|
+| **[OnColumnDblClick]({%slug grid/client-side-programming/events/oncolumndblclick%})** |This event is fired when a column is double-clicked.|
 || ** *Mouse Events* ** |
-| **[OnRowMouseOver]({%slug grid/client-side-programming/events/events/onrowmouseover%})** |This event is fired when the mouse hovers over a row.|
-| **[OnRowMouseOut]({%slug grid/client-side-programming/events/events/onrowmouseout%})** |This event is fired when the mouse leaves a row.|
-| **[OnColumnMouseOver]({%slug grid/client-side-programming/events/events/oncolumnmouseover%})** |This event is fired when the mouse hovers over a column.|
-| **[OnColumnMouseOut]({%slug grid/client-side-programming/events/events/oncolumnmouseout%})** |This event is fired when the mouse leaves a column.|
+| **[OnRowMouseOver]({%slug grid/client-side-programming/events/onrowmouseover%})** |This event is fired when the mouse hovers over a row.|
+| **[OnRowMouseOut]({%slug grid/client-side-programming/events/onrowmouseout%})** |This event is fired when the mouse leaves a row.|
+| **[OnColumnMouseOver]({%slug grid/client-side-programming/events/oncolumnmouseover%})** |This event is fired when the mouse hovers over a column.|
+| **[OnColumnMouseOut]({%slug grid/client-side-programming/events/oncolumnmouseout%})** |This event is fired when the mouse leaves a column.|
 || ** *Context Menus* ** |
-| **[OnColumnContextMenu]({%slug grid/client-side-programming/events/events/oncolumncontextmenu%})** |This event is fired when the context menu for a column is called.|
-| ** **[OnRowContextMenu]({%slug grid/client-side-programming/events/events/onrowcontextmenu%})** ** |This event is fired when the context menu for a row is called.|
+| **[OnColumnContextMenu]({%slug grid/client-side-programming/events/oncolumncontextmenu%})** |This event is fired when the context menu for a column is called.|
+| ** **[OnRowContextMenu]({%slug grid/client-side-programming/events/onrowcontextmenu%})** ** |This event is fired when the context menu for a row is called.|
 || ** *Column Visibility* ** |
-| **[OnColumnHiding]({%slug grid/client-side-programming/events/events/oncolumnhiding%})** |This event is fired before a column is hidden.|
-| **[OnColumnHidden]({%slug grid/client-side-programming/events/events/oncolumnhidden%})** |This event is fired after a column is hidden.|
+| **[OnColumnHiding]({%slug grid/client-side-programming/events/oncolumnhiding%})** |This event is fired before a column is hidden.|
+| **[OnColumnHidden]({%slug grid/client-side-programming/events/oncolumnhidden%})** |This event is fired after a column is hidden.|
 || ** *Row Visibility* ** |
-| ** **[OnRowHiding]({%slug grid/client-side-programming/events/events/onrowhiding%})** ** |This event is fired before a row is hidden.|
-| ** **[OnRowHidden]({%slug grid/client-side-programming/events/events/onrowhidden%})** ** |This event is fired after a row is hidden.|
+| ** **[OnRowHiding]({%slug grid/client-side-programming/events/onrowhiding%})** ** |This event is fired before a row is hidden.|
+| ** **[OnRowHidden]({%slug grid/client-side-programming/events/onrowhidden%})** ** |This event is fired after a row is hidden.|
 || ** *Row Deletion* ** |
-| ** **[OnRowDeleting]({%slug grid/client-side-programming/events/events/onrowdeleting%})** ** |This event is fired before a row is deleted (client-side delete).|
-| ** **[OnRowDeleted]({%slug grid/client-side-programming/events/events/onrowdeleted%})** ** |This event is fired after a row is deleted (client-side delete).|
-| ** **[OnRowDeleted]({%slug grid/client-side-programming/events/events/onrowdeleted%})** ** | ** *Hierarchy Expansion* ** |
-| ** **[OnHierarchyExpanding]({%slug grid/client-side-programming/events/events/onhierarchyexpanding%})** ** |This event is fired when the hierarchy is being expanded.|
-| ** **[OnHierarchyExpanded]({%slug grid/client-side-programming/events/events/onhierarchyexpanded%})** ** |This event is fired when the hierarchy has been expanded.|
-| ** **[OnHierarchyCollapsing]({%slug grid/client-side-programming/events/events/onhierarchycollapsing%})** ** |This event is fired when the hierarchy is being collapsed.|
-| ** **[OnHierarchyCollapsed]({%slug grid/client-side-programming/events/events/onhierarchycollapsed%})** ** |This event is fired when the hierarchy has been collapsed.|
-| ** **[OnRowDeleted]({%slug grid/client-side-programming/events/events/onrowdeleted%})** ** | ** *Group Expansion* ** |
-| ** **[OnGroupExpanding]({%slug grid/client-side-programming/events/events/ongroupexpanding%})** ** |This event is fired when the group is being expanded.|
-| ** **[OnGroupExpanded]({%slug grid/client-side-programming/events/events/ongroupexpanded%})** ** |This event is fired when the group has been expanded.|
-| ** **[OnGroupCollapsing]({%slug grid/client-side-programming/events/events/ongroupcollapsing%})** ** |This event is fired when the group is being collapsed.|
-| ** **[OnGroupCollapsed]({%slug grid/client-side-programming/events/events/ongroupcollapsed%})** ** |This event is fired when the group has been collapsed.|
+| ** **[OnRowDeleting]({%slug grid/client-side-programming/events/onrowdeleting%})** ** |This event is fired before a row is deleted (client-side delete).|
+| ** **[OnRowDeleted]({%slug grid/client-side-programming/events/onrowdeleted%})** ** |This event is fired after a row is deleted (client-side delete).|
+| ** **[OnRowDeleted]({%slug grid/client-side-programming/events/onrowdeleted%})** ** | ** *Hierarchy Expansion* ** |
+| ** **[OnHierarchyExpanding]({%slug grid/client-side-programming/events/onhierarchyexpanding%})** ** |This event is fired when the hierarchy is being expanded.|
+| ** **[OnHierarchyExpanded]({%slug grid/client-side-programming/events/onhierarchyexpanded%})** ** |This event is fired when the hierarchy has been expanded.|
+| ** **[OnHierarchyCollapsing]({%slug grid/client-side-programming/events/onhierarchycollapsing%})** ** |This event is fired when the hierarchy is being collapsed.|
+| ** **[OnHierarchyCollapsed]({%slug grid/client-side-programming/events/onhierarchycollapsed%})** ** |This event is fired when the hierarchy has been collapsed.|
+| ** **[OnRowDeleted]({%slug grid/client-side-programming/events/onrowdeleted%})** ** | ** *Group Expansion* ** |
+| ** **[OnGroupExpanding]({%slug grid/client-side-programming/events/ongroupexpanding%})** ** |This event is fired when the group is being expanded.|
+| ** **[OnGroupExpanded]({%slug grid/client-side-programming/events/ongroupexpanded%})** ** |This event is fired when the group has been expanded.|
+| ** **[OnGroupCollapsing]({%slug grid/client-side-programming/events/ongroupcollapsing%})** ** |This event is fired when the group is being collapsed.|
+| ** **[OnGroupCollapsed]({%slug grid/client-side-programming/events/ongroupcollapsed%})** ** |This event is fired when the group has been collapsed.|
 || ** *PopUp* ** |
-| ** **[OnPopUpShowing]({%slug grid/client-side-programming/events/events/onpopupshowing%})** ** |This event is fired when the pop-up edit form is being shown.|
+| ** **[OnPopUpShowing]({%slug grid/client-side-programming/events/onpopupshowing%})** ** |This event is fired when the pop-up edit form is being shown.|
 || ** *Column Showing* ** |
-| ** **[OnColumnShowing]({%slug grid/client-side-programming/events/events/oncolumnshowing%})** ** |This event is fired before a column is shown.|
-| ** **[OnColumnShown]({%slug grid/client-side-programming/events/events/oncolumnshown%})** ** |This event is fired after a column is shown.|
+| ** **[OnColumnShowing]({%slug grid/client-side-programming/events/oncolumnshowing%})** ** |This event is fired before a column is shown.|
+| ** **[OnColumnShown]({%slug grid/client-side-programming/events/oncolumnshown%})** ** |This event is fired after a column is shown.|
 || ** *Row Showing* ** |
-| ** **[OnRowShowing]({%slug grid/client-side-programming/events/events/onrowshowing%})** ** |This event is fired before a row is shown.|
-| ** **[OnRowShown]({%slug grid/client-side-programming/events/events/onrowshown%})** ** |This event is fired when the row is shown.|
+| ** **[OnRowShowing]({%slug grid/client-side-programming/events/onrowshowing%})** ** |This event is fired before a row is shown.|
+| ** **[OnRowShown]({%slug grid/client-side-programming/events/onrowshown%})** ** |This event is fired when the row is shown.|
 || ** *Row Drag and Drop* ** |
-| ** **[OnRowDragStarted]({%slug grid/client-side-programming/events/events/onrowdragstarted%})** ** |This event is fired when a row is about to be dragged.|
-| ** **[OnRowDropping]({%slug grid/client-side-programming/events/events/onrowdropping%})** ** |This event is fired before a row is dropped.|
-| ** **[OnRowDropped]({%slug grid/client-side-programming/events/events/onrowdropped%})** ** |This event is fired after a row is dropped.|
+| ** **[OnRowDragStarted]({%slug grid/client-side-programming/events/onrowdragstarted%})** ** |This event is fired when a row is about to be dragged.|
+| ** **[OnRowDropping]({%slug grid/client-side-programming/events/onrowdropping%})** ** |This event is fired before a row is dropped.|
+| ** **[OnRowDropped]({%slug grid/client-side-programming/events/onrowdropped%})** ** |This event is fired after a row is dropped.|
 || ** *Active Row Changing* ** |
-| ** **[OnActiveRowChanging]({%slug grid/client-side-programming/events/events/onactiverowchanging%})** ** |This event is fired before the active row is changed.|
-| ** **[OnActiveRowChanged]({%slug grid/client-side-programming/events/events/onactiverowchanged%})** ** |This event is fired after the active row is changed.|
+| ** **[OnActiveRowChanging]({%slug grid/client-side-programming/events/onactiverowchanging%})** ** |This event is fired before the active row is changed.|
+| ** **[OnActiveRowChanged]({%slug grid/client-side-programming/events/onactiverowchanged%})** ** |This event is fired after the active row is changed.|
 || ** *Filter Menu* ** |
-| ** **[OnFilterMenuShowing]({%slug grid/client-side-programming/events/events/onfiltermenushowing%})** ** |This event is fired before the filtering menu is rendered.|
+| ** **[OnFilterMenuShowing]({%slug grid/client-side-programming/events/onfiltermenushowing%})** ** |This event is fired before the filtering menu is rendered.|
 || ** *Data Binding* ** |
-| ** **[OnRowDataBound]({%slug grid/client-side-programming/events/events/onrowdatabound%})** ** |This event is fired when a row is about to be bound on the client.|
-| ** **[OnDataBinding]({%slug grid/client-side-programming/events/events/ondatabinding%})** ** |This event is fired when the grid is about to be bound on the client.|
-| ** **[OnDataBound]({%slug grid/client-side-programming/events/events/ondatabound%})** ** |This event is fired right after the grid is bound on the client.|
+| ** **[OnRowDataBound]({%slug grid/client-side-programming/events/onrowdatabound%})** ** |This event is fired when a row is about to be bound on the client.|
+| ** **[OnDataBinding]({%slug grid/client-side-programming/events/ondatabinding%})** ** |This event is fired when the grid is about to be bound on the client.|
+| ** **[OnDataBound]({%slug grid/client-side-programming/events/ondatabound%})** ** |This event is fired right after the grid is bound on the client.|
 || ** *Bating Editing* ** |
-| ** **[OnBatchEditOpening]({%slug grid/client-side-programming/events/events/onbatcheditopening%})** ** |This event is fired when a cell is opening for edit.|
-| ** **[OnBatchEditOpened]({%slug grid/client-side-programming/events/events/onbatcheditopened%})** ** |This event is fired after a cell is opened for edit.|
-| ** **[OnBatchEditClosing]({%slug grid/client-side-programming/events/events/onbatcheditclosing%})** ** |This event is fired when a cell is closing.|
-| ** **[OnBatchEditClosed]({%slug grid/client-side-programming/events/events/onbatcheditclosed%})** ** |This event is fired after the cell is closed.|
-| ** **[OnBatchEditCellValueChanging]({%slug grid/client-side-programming/events/events/onbatcheditcellvaluechanging%})** ** |This event is fired when a cell's value is being changed.|
-| ** **[OnBatchEditCellValueChanged]({%slug grid/client-side-programming/events/events/onbatcheditcellvaluechanged%})** ** |This event is fired once a cell has been edited.|
-| ** **[OnBatchEditGetCellValue]({%slug grid/client-side-programming/events/events/onbatcheditgetcellvalue%})** ** |This event is fired when the grid obtains the value from the editor in order to later set in in the HTML(Should be handled handled when multiple controls which contain an input element are placed inside the **EditItemTemplate** of a **GridTemplateColumn** ).|
-| ** **[OnBatchEditSetCellValue]({%slug grid/client-side-programming/events/events/onbatcheditsetcellvalue%})** ** |This event is fired when the grid obtains the value from the editor in order to later set in in the HTML(Should be handled handled when multiple controls which contain an input element are placed inside the **EditItemTemplate** of a **GridTemplateColumn** ).|
-| ** **[OnBatchEditSetEditorValue]({%slug grid/client-side-programming/events/events/onbatcheditseteditorvalue%})** ** |This event is fired when the grid obtains the value from the editor in order to later set in in the HTML(Should be handled handled when multiple controls which contain an input element are placed inside the **EditItemTemplate** of a **GridTemplateColumn** ).|
-| ** **[OnBatchEditGetEditorValue]({%slug grid/client-side-programming/events/events/onbatcheditgeteditorvalue%})** ** |This event is fired when the grid obtains the value from the editor in order to later set in in the HTML(Should be handled handled when multiple controls which contain an input element are placed inside the **EditItemTemplate** of a **GridTemplateColumn** ).|
+| ** **[OnBatchEditOpening]({%slug grid/client-side-programming/events/onbatcheditopening%})** ** |This event is fired when a cell is opening for edit.|
+| ** **[OnBatchEditOpened]({%slug grid/client-side-programming/events/onbatcheditopened%})** ** |This event is fired after a cell is opened for edit.|
+| ** **[OnBatchEditClosing]({%slug grid/client-side-programming/events/onbatcheditclosing%})** ** |This event is fired when a cell is closing.|
+| ** **[OnBatchEditClosed]({%slug grid/client-side-programming/events/onbatcheditclosed%})** ** |This event is fired after the cell is closed.|
+| ** **[OnBatchEditCellValueChanging]({%slug grid/client-side-programming/events/onbatcheditcellvaluechanging%})** ** |This event is fired when a cell's value is being changed.|
+| ** **[OnBatchEditCellValueChanged]({%slug grid/client-side-programming/events/onbatcheditcellvaluechanged%})** ** |This event is fired once a cell has been edited.|
+| ** **[OnBatchEditGetCellValue]({%slug grid/client-side-programming/events/onbatcheditgetcellvalue%})** ** |This event is fired when the grid obtains the value from the editor in order to later set in in the HTML(Should be handled handled when multiple controls which contain an input element are placed inside the **EditItemTemplate** of a **GridTemplateColumn** ).|
+| ** **[OnBatchEditSetCellValue]({%slug grid/client-side-programming/events/onbatcheditsetcellvalue%})** ** |This event is fired when the grid obtains the value from the editor in order to later set in in the HTML(Should be handled handled when multiple controls which contain an input element are placed inside the **EditItemTemplate** of a **GridTemplateColumn** ).|
+| ** **[OnBatchEditSetEditorValue]({%slug grid/client-side-programming/events/onbatcheditseteditorvalue%})** ** |This event is fired when the grid obtains the value from the editor in order to later set in in the HTML(Should be handled handled when multiple controls which contain an input element are placed inside the **EditItemTemplate** of a **GridTemplateColumn** ).|
+| ** **[OnBatchEditGetEditorValue]({%slug grid/client-side-programming/events/onbatcheditgeteditorvalue%})** ** |This event is fired when the grid obtains the value from the editor in order to later set in in the HTML(Should be handled handled when multiple controls which contain an input element are placed inside the **EditItemTemplate** of a **GridTemplateColumn** ).|
 || ** *Scrolling* ** |
-| ** **[OnScroll]({%slug grid/client-side-programming/events/events/onscroll%})** ** |This event is fired when you scroll the grid.|
+| ** **[OnScroll]({%slug grid/client-side-programming/events/onscroll%})** ** |This event is fired when you scroll the grid.|
 || ** *Command* ** |
-| ** **[OnCommand]({%slug grid/client-side-programming/events/events/oncommand%})** ** |This event is fired for each grid command which is about to be triggered (sorting, paging, filtering, editing, etc.) before postback/ajax request .|
+| ** **[OnCommand]({%slug grid/client-side-programming/events/oncommand%})** ** |This event is fired for each grid command which is about to be triggered (sorting, paging, filtering, editing, etc.) before postback/ajax request .|
 
 ## Obtaining GridTableView Elements
 
