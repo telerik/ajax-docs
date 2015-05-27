@@ -10,25 +10,21 @@ position: 1
 
 # Using Client-Side Events
 
-
-
-## 
-
 Telerik RadEditor's provides a very rich Client-Side API which is very useful when implementing some more complicated scenarios. Bellow are the editor's Client-Side events:
 
-* [OnClientLoad](9F38397E-C605-4164-9303-1482E1CC0617)
+* [OnClientLoad]({%slug editor/client-side-programming/events/onclientload%})
 
-* [OnClientCommandExecuting](625682A4-8E53-4E1A-A18E-237A0BE05A4B)
+* [OnClientCommandExecuting]({%slug editor/client-side-programming/events/onclientcommandexecuting%})
 
-* [OnClientCommandExecuted](09F2FCE1-1A8A-4E2B-A74C-7E8678BD8F38)
+* [OnClientCommandExecuted]({%slug editor/client-side-programming/events/onclientcommandexecuted%})
 
-* [OnClientModeChange](2C04E1EF-D7FF-4CB2-8FA1-B2355E9E94B1)
+* [OnClientModeChange]({%slug editor/client-side-programming/events/onclientmodechange%})
 
-* [OnClientPasteHtml](4250AC92-3D64-40FE-AB7D-D9CAB52B15B6)
+* [OnClientPasteHtml]({%slug editor/client-side-programming/events/onclientpastehtml%})
 
-* [OnClientSelectionChange](FE68835D-A909-4BE1-B2CF-89EC5F4E4E15)
+* [OnClientSelectionChange]({%slug editor/client-side-programming/events/onclientselectionchange%})
 
-* [OnClientSubmit](4D36939E-4AAE-46A4-8C9E-92C8DFE80E30)
+* [OnClientSubmit]({%slug editor/client-side-programming/events/onclientsubmit%})
 
 In order to execute you custom code called when RadEditor's Client-Side event is fired you need to:
 
@@ -40,7 +36,7 @@ In order to execute you custom code called when RadEditor's Client-Side event is
 
 Open the _\wpresources\RadEditorSharePoint\6.x.x.x__1f131a624888eeed\Resources\**ConfigFile.xml**_ and attach the editor's **OnClientLoad** event to your custom OnClientLoad function e.g.
 
-`<property name="**OnClientLoad**">OnClientLoad</property>`
+`<property name="OnClientLoad">OnClientLoad</property>`
 
 Next, open the _\wpresources\RadEditorSharePoint\6.x.x.x__1f131a624888eeed\Resources\**SPEditorTools.js**_ and set your custom **OnClientLoad** function e.g.
 
