@@ -10,9 +10,6 @@ position: 3
 
 # Paragraph Styles
 
-
-
-## 
 ![](images/DropDowns004.png)
 
 The Paragraph style dropdown of RadEditor displays a predefined set of styles by default. This set is defined by the **Paragraphs** collection. You can predefine the paragraphs in the **Paragraphs** collection by modifying the **ToolsFile.xml / ListToolsFile.xml** files, located in the following folder:

@@ -10,7 +10,6 @@ position: 1
 
 # Font Sizes
 
-
 ![](images/DropDowns003.png)
 
 ## Adding Font Sizes

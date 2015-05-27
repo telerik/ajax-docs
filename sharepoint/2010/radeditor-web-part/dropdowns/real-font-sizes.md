@@ -10,9 +10,6 @@ position: 2
 
 # Real Font Sizes
 
-
-
-## 
 ![](images/DropDowns002.png)
 
 The Real Font Sizes dropdown displays a predefined set of font sizes in pixels and points. The dropdown is populated from the RealFontSizes Collection. You can predefine the Real Font Sizes in the RealFontSizes Collection by modifying the **ToolsFile.xml / ListToolsFile.xml** files, located in the following folder:

@@ -10,9 +10,6 @@ position: 5
 
 # CSS Styles
 
-
-
-## 
 ![](images/DropDowns010.png)
 
 The CSS class dropdown of RadEditor displays all classes defined in the page or from external CSS files. The dropdown is populated from the **CssClasses**Collection. By default RadEditor for SP2010 uses the same CSS files as the default rich-text editor. Those files are **HtmlEditorTableFormats.css** and **HtmlEditorCustomStyles.css,** which are located in the following folder:
@@ -20,8 +17,6 @@ The CSS class dropdown of RadEditor displays all classes defined in the page or 
 _/Program Files/Common Files/Microsoft Shared/web server extensions/14/Template/Layouts/1033/Styles_
 
 >note The folder location can be different if you are not using US English version of SharePoint 2010. The 1033 number signifies the current culture and might be different for different language versions of SP2010.
->
-
 
 **For example:**
 

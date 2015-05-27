@@ -10,9 +10,6 @@ position: 4
 
 # Colors
 
-
-
-## 
 ![](images/DropDowns007.png)
 
 ![](images/DropDowns008.png)
