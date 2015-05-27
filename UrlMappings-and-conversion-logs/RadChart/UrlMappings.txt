@@ -5,7 +5,7 @@ http://www.telerik.com/help/aspnet-ajax/chart-axis-labels.html http://docs.teler
 http://www.telerik.com/help/aspnet-ajax/chart-axis-ticks.html http://docs.telerik.com/devtools/aspnet-ajax/controls/chart/understanding-radchart-elements/ticks
 http://www.telerik.com/help/aspnet-ajax/chart-background-plot-area.html http://docs.telerik.com/devtools/aspnet-ajax/controls/chart/understanding-radchart-elements/background-and-plot-areas
 http://www.telerik.com/help/aspnet-ajax/chart-bar-overlap-percent-widht.html http://docs.telerik.com/devtools/aspnet-ajax/controls/chart/understanding-radchart-elements/baroverlappercent-and-barwidthpercent
-http://www.telerik.com/help/aspnet-ajax/chart-basics.html http://docs.telerik.com/devtools/aspnet-ajax/controls/chart/understanding-radchart-elements/rad-chart-basics
+http://www.telerik.com/help/aspnet-ajax/chart-basics.html http://docs.telerik.com/devtools/aspnet-ajax/controls/chart/understanding-radchart-elements/overview
 http://www.telerik.com/help/aspnet-ajax/chart-buidling-data-bind-create-object.html http://docs.telerik.com/devtools/aspnet-ajax/controls/chart/building-radcharts/creating-an-object-that-can-be-consumed-by-objectdatasource
 http://www.telerik.com/help/aspnet-ajax/chart-building-bind-object-data-source-design-time.html http://docs.telerik.com/devtools/aspnet-ajax/controls/chart/building-radcharts/data-binding-radchart-to-objectdatasource-at-design-time
 http://www.telerik.com/help/aspnet-ajax/chart-building-bind-object-data-source-run-time.html http://docs.telerik.com/devtools/aspnet-ajax/controls/chart/building-radcharts/binding-to-objectdatasource-at-run-time
@@ -21,7 +21,7 @@ http://www.telerik.com/help/aspnet-ajax/chart-building-data-bind-xml.html http:/
 http://www.telerik.com/help/aspnet-ajax/chart-building-declarative-create.html http://docs.telerik.com/devtools/aspnet-ajax/controls/chart/building-radcharts/creating-radchart-declaratively
 http://www.telerik.com/help/aspnet-ajax/chart-building-programmatic-create-complex.html http://docs.telerik.com/devtools/aspnet-ajax/controls/chart/building-radcharts/creating-radchart-programmatically---more-complex-example
 http://www.telerik.com/help/aspnet-ajax/chart-building-programmatic-create.html http://docs.telerik.com/devtools/aspnet-ajax/controls/chart/building-radcharts/creating-radchart-programmatically
-http://www.telerik.com/help/aspnet-ajax/chart-building.html http://docs.telerik.com/devtools/aspnet-ajax/controls/chart/building-radcharts/building-radcharts
+http://www.telerik.com/help/aspnet-ajax/chart-building.html http://docs.telerik.com/devtools/aspnet-ajax/controls/chart/building-radcharts/overview
 http://www.telerik.com/help/aspnet-ajax/chart-chartoverview.html http://docs.telerik.com/devtools/aspnet-ajax/controls/chart/overview
 http://www.telerik.com/help/aspnet-ajax/chart-client-side-api.html http://docs.telerik.com/devtools/aspnet-ajax/controls/chart/client-side/client-side-api
 http://www.telerik.com/help/aspnet-ajax/chart-data-binding.html http://docs.telerik.com/devtools/aspnet-ajax/controls/chart/building-radcharts/data-binding-radchart
@@ -77,7 +77,7 @@ http://www.telerik.com/help/aspnet-ajax/chart-types-bubble.html http://docs.tele
 http://www.telerik.com/help/aspnet-ajax/chart-types-candle-stick.html http://docs.telerik.com/devtools/aspnet-ajax/controls/chart/understanding-radchart-types/candlestick-charts
 http://www.telerik.com/help/aspnet-ajax/chart-types-gantt.html http://docs.telerik.com/devtools/aspnet-ajax/controls/chart/understanding-radchart-types/gantt-charts
 http://www.telerik.com/help/aspnet-ajax/chart-types-line.html http://docs.telerik.com/devtools/aspnet-ajax/controls/chart/understanding-radchart-types/line-charts
-http://www.telerik.com/help/aspnet-ajax/chart-types-overview.html http://docs.telerik.com/devtools/aspnet-ajax/controls/chart/understanding-radchart-types/radchart-types-overview
+http://www.telerik.com/help/aspnet-ajax/chart-types-overview.html http://docs.telerik.com/devtools/aspnet-ajax/controls/chart/understanding-radchart-types/overview
 http://www.telerik.com/help/aspnet-ajax/chart-types-pie.html http://docs.telerik.com/devtools/aspnet-ajax/controls/chart/understanding-radchart-types/pie-charts
 http://www.telerik.com/help/aspnet-ajax/chart-types-point-scatter.html http://docs.telerik.com/devtools/aspnet-ajax/controls/chart/understanding-radchart-types/point-charts
 http://www.telerik.com/help/aspnet-ajax/chart-types-spline-area.html http://docs.telerik.com/devtools/aspnet-ajax/controls/chart/understanding-radchart-types/spline-area-charts

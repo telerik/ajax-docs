@@ -20,7 +20,7 @@ The **Data** tab is composed of areas:
 
 ## Choose Data Source
 
-**Choose Data Source** appears on the upper left hand portion of the screen. Select from an existing data source or select "<new data source" from the drop down list. If you have an existing data source selected, click the **Edit** button to reconfigure the data source in the **Configure Data Source Wizard**.
+**Choose Data Source** appears on the upper left hand portion of the screen. Select from an existing data source or select "new data source" from the drop down list. If you have an existing data source selected, click the **Edit** button to reconfigure the data source in the **Configure Data Source Wizard**.
 
 ## Group Column
 
@@ -36,7 +36,7 @@ If you bind to a data source the **Databind Series Elements** portion will be en
 
 ## Series Items
 
-For each series you select in the **Series** area list, you can add, edit, delete and reorder entries in the **Series Items** list. Use the plus and minus buttons to add and delete series items. Use the up and down arrows to move series items up or down in the list. For each item you can set the **Name**, **Label** and **X** and **Y** Values. X2 and Y2 values are enabled for [Gantt]({%slug chart/understanding-radchart-types/gantt-charts%}) and [Bubble]({%slug chart/understanding-radchart-types/bubble-charts%}) chart types. If you need to refine the behavior or appearance in more detail than provided by this Wizard page, use the Items collection of the RadChart[Series]({%slug chart/understanding-radchart-elements/series-overview%}) from the Property window.
+For each series you select in the **Series** area list, you can add, edit, delete and reorder entries in the **Series Items** list. Use the plus and minus buttons to add and delete series items. Use the up and down arrows to move series items up or down in the list. For each item you can set the **Name**, **Label** and **X** and **Y** Values. X2 and Y2 values are enabled for [Gantt]({%slug chart/understanding-radchart-types/gantt-charts%}) and [Bubble]({%slug chart/understanding-radchart-types/bubble-charts%}) chart types. If you need to refine the behavior or appearance in more detail than provided by this Wizard page, use the Items collection of the RadChart [Series]({%slug chart/understanding-radchart-elements/series-overview%}) from the Property window.
 
 ## Axis Labels
 

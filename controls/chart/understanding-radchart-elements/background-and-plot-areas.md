@@ -34,9 +34,9 @@ The plot area is the working rectangular area between X and Y axes where data is
 
 * [DataTable]({%slug chart/understanding-radchart-elements/data-table%}): Displays a spreadsheet style table of the data in the chart, typically just below the chart itself. See the [DataTable]({%slug chart/understanding-radchart-elements/data-table%}) topic for more information.
 
-* [EmptySeriesMessage](CC5AF201-9BF3-4696-BC86-0D46A61F7C0B): The predefined message that displays in the PlotArea when there is no series data defined for the chart.
+* EmptySeriesMessage: The predefined message that displays in the PlotArea when there is no series data defined for the chart.
 
-* [MarkedZones](9D3B011D-12DF-44A4-8E94-1EAF25E616C1): Areas in the background of the chart that can be defined, labeled and filled. [MarkedZones](9D3B011D-12DF-44A4-8E94-1EAF25E616C1) are used to highlight or group areas on the chart.
+* [MarkedZones]({%slug chart/features/marked-zones%}): Areas in the background of the chart that can be defined, labeled and filled. [MarkedZones]({%slug chart/features/marked-zones%}) are used to highlight or group areas on the chart.
 
 ![RadChart Background and Plot Area](images/radchart-understandingelements001.png)
 
