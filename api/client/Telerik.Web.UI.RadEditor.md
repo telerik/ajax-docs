@@ -1105,6 +1105,26 @@ Returns current language
 
 `String` 
 
+### zoomContent
+
+Zooms the RadEditor content similar to the Zoom command
+
+#### Parameters
+
+##### level `String`
+
+The zoom level is in percents with default value of "100%". Optional.
+
+#### Returns
+
+### refreshContentZoom
+
+Refreshes the zoomed content. Useful when content is resized outside the RadEditor API.
+
+#### Parameters
+
+#### Returns
+
 ## Events
 
 ### editReady
