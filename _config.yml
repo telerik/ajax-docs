@@ -830,8 +830,8 @@ navigation:
     "*grid/asp.net-3.5-features":
         title: "ASP.NET 3.5 Features"
         position: 13
-    "*grid/visible/enabled-conventions":
-        title: "Visible/Enabled Conventions"
+    "*grid/visible-and-enabled-conventions":
+        title: "Visible and Enabled Conventions"
         position: 14
     "*grid/ajaxified-radgrid":
         title: "Ajaxified RadGrid"

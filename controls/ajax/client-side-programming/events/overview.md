@@ -1,5 +1,5 @@
 ---
-title: Events Overview
+title: Overview
 page_title: Overview | RadAjax for ASP.NET AJAX Documentation
 description: Overview
 slug: ajax/client-side-programming/events/overview

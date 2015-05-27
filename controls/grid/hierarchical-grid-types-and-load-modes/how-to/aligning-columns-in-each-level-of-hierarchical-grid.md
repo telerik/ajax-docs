@@ -1,5 +1,5 @@
 ---
-title: Aligning columns in each level of hierarchical grid
+title: Aligning Columns in Each Level of Hierarchical Grid
 page_title: Aligning columns in each level of hierarchical grid | RadGrid for ASP.NET AJAX Documentation
 description: Aligning columns in each level of hierarchical grid
 slug: grid/hierarchical-grid-types-and-load-modes/how-to/aligning-columns-in-each-level-of-hierarchical-grid

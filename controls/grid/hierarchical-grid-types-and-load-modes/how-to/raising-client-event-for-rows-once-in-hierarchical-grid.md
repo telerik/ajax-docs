@@ -1,5 +1,5 @@
 ---
-title: Raising client event for rows once in hierarchical grid
+title: Raising Client Event for Rows
 page_title: Raising client event for rows once in hierarchical grid | RadGrid for ASP.NET AJAX Documentation
 description: Raising client event for rows once in hierarchical grid
 slug: grid/hierarchical-grid-types-and-load-modes/how-to/raising-client-event-for-rows-once-in-hierarchical-grid
