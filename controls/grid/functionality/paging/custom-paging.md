@@ -34,8 +34,8 @@ To use the custom paging mechanism:
 
 When you enable custom paging, **RadGrid** maintains the pager buttons, updating the pager item in response to user actions, and other presentation specifics. You need only provide the logic of fetching the desired set of records in the **NeedDataSource** event handler.
 
->note Another option for custom paging is possible when using[declarative binding]({%slug grid/data-binding/understanding-data-binding/server-side-binding/declarative-datasource%})to an **ObjectDataSource** that supports its own paging mechanism. This approach is described in[ Custom paging through ObjectDataSource population ]({%slug grid/functionality/paging/how-to/custom-paging-through-objectdatasource%}).
+>note Another option for custom paging is possible when using [declarative binding]({%slug grid/data-binding/understanding-data-binding/server-side-binding/declarative-datasource%}) to an **ObjectDataSource** that supports its own paging mechanism. This approach is described in [ Custom paging through ObjectDataSource population ]({%slug grid/functionality/paging/how-to/custom-paging-through-objectdatasource%}).
 >
 
 
-For a live example that demonstrates custom paging, see [Custom Paging](http://demos.telerik.com/aspnet-ajax/Grid/Examples/Programming/CustomPaging/DefaultCS.aspx).
+For a live example that demonstrates custom paging, see  [Custom Paging](http://demos.telerik.com/aspnet-ajax/Grid/Examples/Programming/CustomPaging/DefaultCS.aspx).

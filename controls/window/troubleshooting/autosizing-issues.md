@@ -18,7 +18,7 @@ The content placed in the **RadWindow** needs to have explicit dimensions set in
 
 ## Parent page doctype
 
-The controls from the Telerik UI for ASP.NET AJAX suite are designed to work with the XHTML 1.0 transitional doctype and it is recommended that it is used for the pagecontaining the **RadWindow**:
+The controls from the Telerik UI for ASP.NET AJAX suite are designed to work with the XHTML 1.0 transitional doctype and it is recommended that it is used for the page containing the **RadWindow**:
 
 ````ASP.NET
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -32,7 +32,7 @@ The page containing the **RadWindow** also needs to be valid HTML, as well as th
 
 ## Borders, paddings and margins
 
-There may be some issues with calculating dimensions when the top-level containers have margins or borders,so they may not be taken into account when calculating the size of its content. This also applies for paddings, as nesting elements when the parent has padding has similar effect. Therefore a good approach is to have a main container that has no borders, margins and paddings, yet has its dimensions set (or at least width). This also has to be extended to the html, body and form elements when an external page is loaded - i.e. that also need the paddings and margins removed:
+There may be some issues with calculating dimensions when the top-level containers have margins or borders, so they may not be taken into account when calculating the size of its content. This also applies for paddings, as nesting elements when the parent has padding has similar effect. Therefore a good approach is to have a main container that has no borders, margins and paddings, yet has its dimensions set (or at least width). This also has to be extended to the html, body and form elements when an external page is loaded - i.e. that also need the paddings and margins removed:
 
 ````ASP.NET
 html, body, form

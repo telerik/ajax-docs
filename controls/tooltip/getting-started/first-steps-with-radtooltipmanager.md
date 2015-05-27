@@ -26,7 +26,7 @@ In a ne1. w AJAX-Enabled Web Application, add two **TextBox** controls and one *
  
 1. Set the Button **Text** property to "Login" and the **ToolTip** property to "Click this button to login to the system".
  
-1. Add a **RadToolTipManager** control to the page and set**AutoTooltipify="true".**
+1. Add a **RadToolTipManager** control to the page and set **AutoTooltipify="true"**.
  
 1. Set the **Skin** property to **Office2007**.
  

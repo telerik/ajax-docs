@@ -58,7 +58,7 @@ To see how to work dynamically with client-side event handlers examine the [Clie
 |set_enableDragAndDrop(value)|bool||Sets a value indicating whether a drag and drop functionality is enabled.|
 |set_height(value)|String/int||Sets the height of the RadTileList element.|
 |set_scrollingMode(value)|Int||Sets the RadTileList [scrolling mode]({%slug tilelist/functionality/scrolling%}). The`Telerik.Web.UI.TileList.TileListScrollingMode` enum can be used	instead of an integer, where: 1 = Telerik.Web.UI.TileList.TileListScrollingMode.**Auto** mode, 2 = Telerik.Web.UI.TileList.TileListScrollingMode.**None** mode, 4 = Telerik.Web.UI.TileList.TileListScrollingMode.**Native** mode, 8 = Telerik.Web.UI.TileList.TileListScrollingMode.**Accelerated** mode.|
-|set_selectionMode(value)|Int||Sets the [selection mode]({%slug tilelist/functionality/selecting%})of RadTileList. The`Telerik.Web.UI.TileList.TileListSelectionMode` enum can be used	instead of an integer, where: 1 = Telerik.Web.UI.TileList.TileListSelectionMode.**None** mode, 2 = Telerik.Web.UI.TileList.TileListSelectionMode.**Single** mode, 4 = Telerik.Web.UI.TileList.TileListSelectionMode.**Multiple** mode.|
+|set_selectionMode(value)|Int||Sets the [selection mode]({%slug tilelist/functionality/selecting%}) of RadTileList. The`Telerik.Web.UI.TileList.TileListSelectionMode` enum can be used	instead of an integer, where: 1 = Telerik.Web.UI.TileList.TileListSelectionMode.**None** mode, 2 = Telerik.Web.UI.TileList.TileListSelectionMode.**Single** mode, 4 = Telerik.Web.UI.TileList.TileListSelectionMode.**Multiple** mode.|
 |set_width(value)|String/int||Sets the width of the RadTileList element.|
 
 

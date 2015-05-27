@@ -26,11 +26,13 @@ There are several approaches that can be taken to avoid this:
 
 It is sometimes rather difficult to track the markup of a complex site (e.g. a master page with content pages and user controls). In order to determine how many RadWindowManagers there are on the page the easiest way is to examine the rendered page in the browser (usually View Source after a right click) and look for the $create() statements at the end. Each of them corresponds to an AJAX-enabled control. Here follows a simple example. Note that it begins with the control type - Telerik.Web.UI.RadWindowManager. You can also see its server ID as the name property:
 
+**JavaScript**
+
 	Sys.Application.add_init(function() {
 
-	**$create(Telerik.Web.UI.RadWindowManager,**
+	$create(Telerik.Web.UI.RadWindowManager,
 
-	{"clientStateFieldID":"RadWindowManager1_ClientState","formID":"form1","iconUrl":"","minimizeIconUrl":"",**"name":"RadWindowManager1"**,"skin":"Default","windowControls":"[]"}, null, null, $get("RadWindowManager1"));
+	{"clientStateFieldID":"RadWindowManager1_ClientState","formID":"form1","iconUrl":"","minimizeIconUrl":"","name":"RadWindowManager1","skin":"Default","windowControls":"[]"}, null, null, $get("RadWindowManager1"));
 
 	});
 

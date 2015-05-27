@@ -68,6 +68,6 @@ Each pane of a splitter is a cell in the main table.The `<td>` elements that rep
 
 The split bar is also a cell in the main table. The `<td>` element that represents a split bar in the example has the **.resizeBarHorizontal** class applied.In a splitter with a vertical orientation, it would have the **.resizeBar** class applied instead.
 
-Inside the cell for the split bar is a `<div>` element with the**.collapseBarHorizontalWrapper** class applied. This is the region of the split bar set aside for collapse and expand controls. On a vertical split bar, it would have the **.collapseBarWrapper** class applied instead.
+Inside the cell for the split bar is a `<div>` element with the **.collapseBarHorizontalWrapper** class applied. This is the region of the split bar set aside for collapse and expand controls. On a vertical split bar, it would have the **.collapseBarWrapper** class applied instead.
 
 Inside the `<div>` with the **.collapseBarHorizontalWrapper** class are `<div>` elements for the actual collapse and expand buttons. They have the **.collapseBarHorizontalCollapse** and **.collapseBarHorizontalExpand** classes applied. (In a vertical split bar, these would be the **.collapseBarCollapse** and **.collapseBarExpand** classes.)

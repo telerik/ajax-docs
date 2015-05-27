@@ -92,7 +92,7 @@ http://www.telerik.com/help/aspnet-ajax/moss-sp2010-using-radeditor-webpart.html
 http://www.telerik.com/help/aspnet-ajax/moss-sp2010-using_radeditors_client-side_events_in_sharepoint.html http://docs.telerik.com/devtools/aspnet-ajax/sharepoint/2010/radeditor-web-part/customization/using-client-side-events
 http://www.telerik.com/help/aspnet-ajax/moss-sp2013-create-ajax-enabled-sharepoint-webpart-radcontrols.html http://docs.telerik.com/devtools/aspnet-ajax/sharepoint/2013/installation-and-deployment/create-an-ajax-enabled-sharepoint-webpart-with-telerik-controls
 http://www.telerik.com/help/aspnet-ajax/moss-sp2013-deploying-radcontrols.html http://docs.telerik.com/devtools/aspnet-ajax/sharepoint/2013/installation-and-deployment/deploying-telerik-ui-for-asp.net-ajax
-http://www.telerik.com/help/aspnet-ajax/moss-sp2013-editor-browser-support-and-limitations.html http://docs.telerik.com/devtools/aspnet-ajax/sharepoint/2013/radeditor-web-part/browser-support-and-limitations
+http://www.telerik.com/help/aspnet-ajax/moss-sp2013-editor-browser-support-and-limitations.html http://www.telerik.com/aspnet-ajax/tech-sheets/browser-support
 http://www.telerik.com/help/aspnet-ajax/moss-sp2013-moss-introduction.html http://docs.telerik.com/devtools/aspnet-ajax/sharepoint/2013/radeditor-web-part/overview
 http://www.telerik.com/help/aspnet-ajax/moss-sp2013-uninstalling-editor.html http://docs.telerik.com/devtools/aspnet-ajax/sharepoint/2013/radeditor-web-part/installation-and-deployment/uninstalling
 http://www.telerik.com/help/aspnet-ajax/moss-sp2013-using-radeditor-in-web-content-management-scenario.html http://docs.telerik.com/devtools/aspnet-ajax/sharepoint/2013/radeditor-web-part/installation-and-deployment/web-content-management-scenario

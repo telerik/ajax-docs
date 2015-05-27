@@ -16,7 +16,7 @@ A **RadImageAndTextTile** consists of an **image** that starts from the top left
 
 The image is chosen through the **ImageUrl** property of the tile and the text string is set in the	**Text** property.
 
-To accommodate the text the title is narrowed down and is designed to be used with an image instead of text.There are 44 pixels available to the left of the text and 2x10 of them are padding for the title, so the title image that will fit best is 24x24 pixels.
+To accommodate the text the title is narrowed down and is designed to be used with an image instead of text. There are 44 pixels available to the left of the text and 2x10 of them are padding for the title, so the title image that will fit best is 24x24 pixels.
 
 To the right, towards the badge, there are 35 pixels left available and the badge itself has a 10px offset from the end of the tile.
 

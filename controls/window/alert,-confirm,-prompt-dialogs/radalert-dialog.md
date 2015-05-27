@@ -59,9 +59,9 @@ RadWindowManager1.RadAlert("An <br /><b>html</b> string.<br />", 200, 100, "My A
 
 
 >tip If you change the default image the new one you provide should be 32px by 32px for best results. The string you pass to change the image URL can be:
+* an absolute URL, or a relative URL that can be resolved on the client (i.e. "~/" is *not* allowed). This will set the image the URL points to.
+* an empty string - this will remove the default image and leave the space empty.
+* null - the behavior is the same as if no argument is provided - i.e. the default image is kept.
 >
-* an absolute URL, or a relative URL that can be resolved on the client (i.e. "~/" is *not* allowed). This will set the image the URL points to
-* an empty string - this will remove the default image and leave the space empty
-* null - the behavior is the same as if no argument is provided - i.e. the default image is kept>
 
 The appearance of the alert dialog is controlled by two things: the **Skin** property of the **RadWindowManager**, and the values you pass in as arguments to **RadAlert**. The arguments can include the HTML string you pass in as a message, the width, the height, and the Title string. The **Skin** property controls not only the appearance of the popup's title bar, but also the layout of the dialog: its icon, button style, and so on. This dialog layout and appearance is controlled by the alert dialog template associated with the Skin. For details on how to customize the template, see [Templates]({%slug window/alert,-confirm,-prompt-dialogs/how-to-change-the-dialog-templates%}).

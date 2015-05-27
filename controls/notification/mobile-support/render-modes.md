@@ -61,6 +61,7 @@ There are two ways to configure the rendering mode of the controls:
 
 
 
+
 ## See Also
 
 * [Embedded Icons]({%slug notification/functionality/embedded-icons%}) 

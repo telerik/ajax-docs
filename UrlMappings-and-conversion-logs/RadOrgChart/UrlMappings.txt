@@ -18,7 +18,7 @@ http://www.telerik.com/help/aspnet-ajax/orgchart-expand-collapse.html http://doc
 http://www.telerik.com/help/aspnet-ajax/orgchart-horizontal-orientation.html http://docs.telerik.com/devtools/aspnet-ajax/controls/orgchart/functionality/horizontal-orientation
 http://www.telerik.com/help/aspnet-ajax/orgchart-load-on-demand.html http://docs.telerik.com/devtools/aspnet-ajax/controls/orgchart/functionality/load-on-demand
 http://www.telerik.com/help/aspnet-ajax/orgchart-rendered-fields.html http://docs.telerik.com/devtools/aspnet-ajax/controls/orgchart/functionality/rendered-fields
-http://www.telerik.com/help/aspnet-ajax/orgchart-xml-export-import.html http://docs.telerik.com/devtools/aspnet-ajax/controls/orgchart/functionality/xml-export-&-import
+http://www.telerik.com/help/aspnet-ajax/orgchart-xml-export-import.html http://docs.telerik.com/devtools/aspnet-ajax/controls/orgchart/functionality/xml-export-and-import
 http://www.telerik.com/help/aspnet-ajax/orgchart-mobile-support-render-modes.html http://docs.telerik.com/devtools/aspnet-ajax/controls/orgchart/mobile-support/render-modes
 http://www.telerik.com/help/aspnet-ajax/orgchart-nodes-and-items.html http://docs.telerik.com/devtools/aspnet-ajax/controls/orgchart/overview/nodes-and-items
 http://www.telerik.com/help/aspnet-ajax/orgchart-overview.html http://docs.telerik.com/devtools/aspnet-ajax/controls/orgchart/overview/overview

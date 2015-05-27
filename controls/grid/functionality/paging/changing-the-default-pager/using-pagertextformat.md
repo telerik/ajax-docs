@@ -18,19 +18,11 @@ You can set the format of the text that appears in the **Pager** using the **Pag
 
 Here is the format that should be used when **Mode** is "**NextPrev**":
 
-
->caption  
-
 | Change page: {4}|Page {0} of {1}, items {2} to {3} of {5} |
-| ------ |
 
 The rest of the grid pagers ("**NumericPages**", "**NextPrevAndNumeric**", "**Advanced**", "**NextPrevNumericAndAdvanced**" and "**Slider**") use a slightly different format:
 
-
->caption  
-
 | {4}|Page {0} of {1}, items {2} to {3} of {5} |
-| ------ |
 
 No matter which pager you choose, the meaning of the different parameters is as follows:
 

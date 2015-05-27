@@ -14,7 +14,7 @@ The **RadWindow** client-side object has a number of client-side properties and 
 
 This article contains the following sections:
 
-* [Getters/Setters for the Public Properties](#getters/setters-for-the-public-properties)
+* [Getters/Setters for the Public Properties](#getterssetters-for-the-public-properties)
 * [Methods that Check a Condition or Invoke a Certain Behavior](#methods-that-check-a-condition-or-invoke-a-certain-behavior)
 * [Methods for Modifying Client-side Event Handlers Dynamically](#methods-for-modifying-client-side-event-handlers-dynamically)
 * [Examples](#examples)
@@ -66,13 +66,13 @@ This article contains the following sections:
 | **get_visibleStatusbar** |Gets the visibility of the **RadWindow's** status bar.|
 | **get_visibleTitlebar** |Gets the visibility of the **RadWindow's** titlebar.|
 | **get_width** |Gets the value of the **RadWindow's** server Width property. To get the current dimensions, use the **getWindowBounds** method.|
-| **get_windowManager** |Returns a reference to the **RadWindowManager** . As an alternative, you can use the ASP.NET AJAX convention and use $find(),	for example: oManager = $find("<%=RadWindowManager1.ClientID%>");|
+| **get_windowManager** |Returns a reference to the **RadWindowManager** . As an alternative, you can use the ASP.NET AJAX convention and use $find(),	for example: `oManager = $find("<%=RadWindowManager1.ClientID%>");`|
 | **get_zindex** |Gets the Z-index of the **RadWindow** .|
 | **set_animation** |Sets the opening animation for the **RadWindow** . Takes an argument of type Telerik.Web.UI.WindowAnimation. Possible values are: **None** , **Resize** , **Fade** , **Slide** , **FlyIn** . For example:	oWnd.set_animation(Telerik.Web.UI.WindowAnimation.Slide);|
 | **set_animationDuration** |Sets the animation duration value for the **RadWindow** .|
 | **set_autoSize** |Sets a value that indicates whether the window should automatically resize itself according to its content or not.|
-| **set_autoSizeBehaviors** |Sets the **AutoSizeBehaviors** property of the **RadWindow** . Its argument must be a value or combination of values from the **Telerik.Web.UI.WindowAutoSizeBehaviors** enum. To set more than one behavior, use "+".	Possible values are **Width** , **WidthProportional** , **Height** , **HeightProportional** and **Default** . For example:	(Telerik.Web.UI.WindowAutoSizeBehaviors.Width + Telerik.Web.UI.WindowAutoSizeBehaviors.Height)|
-| **set_behaviors** |Sets the **Behaviors** property of the **RadWindow** . Its argument must be a value or combination of values from the **Telerik.Web.UI.WindowBehaviors** enum.	To set more than one behavior, use "+". Possible values are: **None** , **Resize** , **Minimize** , **Close** , **Pin** , **Maximize** , **Move** , **Reload** , **Default** .	For example: oWnd.set_behaviors(Telerik.Web.UI.WindowBehaviors.Move + Telerik.Web.UI.WindowBehaviors.Close)|
+| **set_autoSizeBehaviors** |Sets the **AutoSizeBehaviors** property of the **RadWindow** . Its argument must be a value or combination of values from the **Telerik.Web.UI.WindowAutoSizeBehaviors** enum. To set more than one behavior, use "+".	Possible values are **Width** , **WidthProportional** , **Height** , **HeightProportional** and **Default** . For example:	`(Telerik.Web.UI.WindowAutoSizeBehaviors.Width + Telerik.Web.UI.WindowAutoSizeBehaviors.Height)`|
+| **set_behaviors** |Sets the **Behaviors** property of the **RadWindow** . Its argument must be a value or combination of values from the **Telerik.Web.UI.WindowBehaviors** enum.	To set more than one behavior, use "+". Possible values are: **None** , **Resize** , **Minimize** , **Close** , **Pin** , **Maximize** , **Move** , **Reload** , **Default** .	For example: `oWnd.set_behaviors(Telerik.Web.UI.WindowBehaviors.Move + Telerik.Web.UI.WindowBehaviors.Close)`|
 | **set_centerIfModal** |Sets the **CenterIfModal** property. It is **True** by default, meaning a modal **RadWindow** will ignore the **Left** and **Top** properties. When set to **False** , these properties will be respected.	Can be useful in the **OnClientBeforeShow** event.|
 | **set_contentElement** |Sets the content element when the **RadWindow** is used as a controls container (i.e., its **ContentTemplate** ) and not with **NavigateUrl** . Takes a DOM object as a parameter.|
 | **set_cssClass** |Sets the class name (otherwise specified in the **CssClass** property).|
@@ -80,7 +80,7 @@ This article contains the following sections:
 | **set_enableShadow** |Sets a value indicating whether the **RadWindow** should have a shadow.|
 | **set_height** |Sets the **RadWindow** height in pixels.|
 | **set_iconUrl** |Sets the URL of the icon in the upper-left corner of the **RadWindow** title bar. The new image must also be 16x16 pixels in size for correct display.|
-| **set_initialBehaviors** |Sets the **InitialBehaviors** property of the **RadWindow** . Its argument must be a value or combination of values from the **Telerik.Web.UI.WindowBehaviors** enum.	To set more than one behavior, use "+". Possible values are: **None** , **Minimize** , **Pin** , **Maximize** and **Default** . For example:	oWnd.set_initialBehaviors(Telerik.Web.UI.WindowBehaviors.Pin + Telerik.Web.UI.WindowBehaviors.Maximize)|
+| **set_initialBehaviors** |Sets the **InitialBehaviors** property of the **RadWindow** . Its argument must be a value or combination of values from the **Telerik.Web.UI.WindowBehaviors** enum.	To set more than one behavior, use "+". Possible values are: **None** , **Minimize** , **Pin** , **Maximize** and **Default** . For example:	`oWnd.set_initialBehaviors(Telerik.Web.UI.WindowBehaviors.Pin + Telerik.Web.UI.WindowBehaviors.Maximize)`|
 | **set_keepInScreenBounds** |Sets a value indicating whether the **RadWindow** should show only in the visible viewport of the browser window.|
 | **set_left** |Sets the horizontal offset relative to its offset element in pixels. Corresponds to the **Left** server property.|
 | **set_maxHeight** |Sets the maximum height of the **RadWindow** in pixels.|
@@ -114,9 +114,9 @@ This article contains the following sections:
 | **addShortcut** |Adds the specified shortcut string to the given command. Takes two string parameters: the command and its shortcut.|
 | **autoSize** |Changes **RadWindow's** size to fit the content page. You cannot use the **autoSize** method with pages from other domains due to browsers' security restrictions.	You can optionally call the **autoSize** method with an argument set to **true** . This will make the autosizing perform an animation while adjusting the size.|
 | **center** |Centers the **RadWindow** in the middle of the page (or its restriction zone if set).|
-| **close** |Closes the **RadWindow** . Must be called from a **RadWindow** object, not from the window object when in a content page.	You can pass an argument to it that is easily obtained from the main page. See[this article]({%slug window/how-to/using-radwindow-as-a-dialog%})for details.|
+| **close** |Closes the **RadWindow** . Must be called from a **RadWindow** object, not from the window object when in a content page.	You can pass an argument to it that is easily obtained from the main page. See [this article]({%slug window/how-to/using-radwindow-as-a-dialog%}) for details.|
 | **getShortcutString** |Returns the last shortcut for the command that is passed as an argument (string).|
-| **getWindowBounds** |Returns the size and position of the **RadWindow** . For example:var bounds = oWnd.getWindowBounds();bounds.x; //returns the current left position of the RadWindowbounds.y; //returns the current top position of the RadWindowbounds.height; //returns the current height of the RadWindowbounds.width; //returns the current width of the RadWindow|
+| **getWindowBounds** |Returns the size and position of the **RadWindow** . For example: `var bounds = oWnd.getWindowBounds(); bounds.x; //returns the current left position of the RadWindow; bounds.y; //returns the current top position of the RadWindow; bounds.height; //returns the current height of the RadWindow; bounds.width; //returns the current width of the RadWindow`|
 | **hide** |Makes the **RadWindow** invisible.|
 | **isActive** |Returns **True** if the **RadWindow** is the currently active one.|
 | **isAutoSizeBehaviorEnabled** |Indicates whether a certain AutoSize behavior is enabled for the **RadWindow** . Takes an argument of type	Telerik.Web.UI.WindowAutoSizeBehaviors and returns a Boolean value.|

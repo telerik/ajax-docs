@@ -10,7 +10,7 @@ position: 9
 
 # OnClientDragStart
 
-The **OnClientDragStart** event of the **RadWindow** fires when the user starts dragging the popup.This action is also initiated by a click or a tap on the title bar.
+The **OnClientDragStart** event of the **RadWindow** fires when the user starts dragging the popup. This action is also initiated by a click or a tap on the title bar.
 
 The event handler receives the following arguments:
 

@@ -60,7 +60,7 @@ Use the **Locked** property of a **RadPane** control to lock the pane. When a pa
 
 * Collapse or expansion of other panes in the splitter.
 
->note The size of a locked pane can be changed only from the client-side API by using the **set_width()** or **set_height()** methods of the[RadPane client-side object]({%slug splitter/client-side-programming/radpane-object%}).
+>note The size of a locked pane can be changed only from the client-side API by using the **set_width()** or **set_height()** methods of the [RadPane client-side object]({%slug splitter/client-side-programming/radpane-object%}).
 
 ## LiveResize
 

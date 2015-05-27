@@ -106,7 +106,7 @@ div.RadNotification .myFontIconCssClass:before
 ````
 
 
-## See Also
+# See Also
 
  * [Notification Configurator](http://demos.telerik.com/aspnet-ajax/notification/examples/configurator/defaultcs.aspx)
 

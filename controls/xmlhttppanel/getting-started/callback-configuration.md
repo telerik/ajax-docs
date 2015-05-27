@@ -26,14 +26,14 @@ This article explains how to configure the RadXmlHttpPanel's callback:
 
 1. In the handler method, add the following code:
 
-	__C#__
+	**C#**
 	
 		protected void RadXmlHttpPanel1_ServiceRequest(object sender, Telerik.Web.UI.RadXmlHttpPanelEventArgs e)
 		{
 			Label1.Text = "Label updated by XmlHttpPanel callback at: " + DateTime.Now.ToString();
 		}
 
-	__VB__
+	**VB**
 
 		Protected Sub RadXmlHttpPanel1_ServiceRequest(sender As Object, e As Telerik.Web.UI.RadXmlHttpPanelEventArgs)
 			Label1.Text = "Label updated by XmlHttpPanel callback at: " + Now.ToString()
@@ -44,7 +44,7 @@ This article explains how to configure the RadXmlHttpPanel's callback:
 
 1. Create an `<input/>` of type button that will call the **set_value** client method of the XmlHttpPanel, on a button click. You can also access the callback value from the client on the server using the `e.Value` property in the ServiceRequest event. Here is how the page and its code-behind should look after completing the steps above:
 
-	__ASP.NET__
+	**ASP.NET**
 
 	    <telerik:RadScriptManager ID="RadScriptManager1" runat="server">
 	    </telerik:RadScriptManager>
@@ -65,7 +65,7 @@ This article explains how to configure the RadXmlHttpPanel's callback:
 	    </script>
 
 
-	__C#__
+	**C#**
 
 		protected void RadXmlHttpPanel1_ServiceRequest(object sender, Telerik.Web.UI.RadXmlHttpPanelEventArgs e)
 		{
@@ -74,7 +74,7 @@ This article explains how to configure the RadXmlHttpPanel's callback:
 			Label1.Text += "<br/> The returned value fron the client's set_value() function is: <strong>" + e.Value + "</strong>";
 		}
 
-	__VB__
+	**VB**
 
 	    Protected Sub RadXmlHttpPanel1_ServiceRequest(ByVal sender As Object, ByVal e As Telerik.Web.UI.RadXmlHttpPanelEventArgs)
 	        Label1.Text = "Label updated by XmlHttpPanel callback at: " + DateTime.Now.ToString()

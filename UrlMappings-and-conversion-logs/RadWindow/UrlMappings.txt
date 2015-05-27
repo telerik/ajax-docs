@@ -41,7 +41,7 @@ http://www.telerik.com/help/aspnet-ajax/window-localization.html http://docs.tel
 http://www.telerik.com/help/aspnet-ajax/window-overview-changes.html http://docs.telerik.com/devtools/aspnet-ajax/controls/window/changes-and-backward-compatibility/overview
 http://www.telerik.com/help/aspnet-ajax/window-overview-differences-from-telerik-raddock.html http://docs.telerik.com/devtools/aspnet-ajax/controls/window/getting-started/differences-from-raddock
 http://www.telerik.com/help/aspnet-ajax/window-overview-migrating-from-classic-to-prometheus.html http://docs.telerik.com/devtools/aspnet-ajax/controls/window/changes-and-backward-compatibility/migration-from-radwindow-for-asp.net-(classic)-to-radwindow-for-asp.net-ajax
-http://www.telerik.com/help/aspnet-ajax/window-overview-window-structure.html http://docs.telerik.com/devtools/aspnet-ajax/controls/window/getting-started/element-structure
+http://www.telerik.com/help/aspnet-ajax/window-overview-window-structure.html http://docs.telerik.com/devtools/aspnet-ajax/controls/window/getting-started/structure
 http://www.telerik.com/help/aspnet-ajax/window-overview.html http://docs.telerik.com/devtools/aspnet-ajax/controls/window/overview
 http://www.telerik.com/help/aspnet-ajax/window-programming-calling-functions.html http://docs.telerik.com/devtools/aspnet-ajax/controls/window/how-to/calling-functions-in-windows
 http://www.telerik.com/help/aspnet-ajax/window-programming-client-side-events.html http://docs.telerik.com/devtools/aspnet-ajax/controls/window/client-side-programming/events/overview

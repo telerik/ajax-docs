@@ -18,7 +18,7 @@ position: 0
 |  **Name**  |  **Type**  |  **Description**  |
 | ------ | ------ | ------ |
 | **AppendClientDataBoundItems** |bool|Gets or sets a bool value that indicates whether the tiles are cleared before client-side data binding.|
-| **AppendDataBoundItems** |bool|Gets or sets a bool value that indicates whether the tiles are cleared before data binding. See the [Defining structure help article]({%slug tilelist/data-binding/defining-structure%})for details.|
+| **AppendDataBoundItems** |bool|Gets or sets a bool value that indicates whether the tiles are cleared before data binding. See the [Defining structure help article]({%slug tilelist/data-binding/defining-structure%}) for details.|
 | **AutoPostBack** |bool|Gets or sets a value indicating whether a postback to the server automatically	occurs when the user changes the RadTileList selection or clicks on a tile.|
 | **ClientDataSourceID** |string|The ID of a **RadClientDataSource** control that RadTileList will use for client-side data binding. See the [Client-side Data Binding]({%slug tilelist/data-binding/client-side-data-binding%}) article for details.|
 | **DataBindings** ||This property exposes the databinding configuration of the control. More information on using it is available in the [Databinding Basics help article]({%slug tilelist/data-binding/overview%}).|

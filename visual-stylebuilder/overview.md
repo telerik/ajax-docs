@@ -11,9 +11,9 @@ position: 0
 # Visual StyleBuilder Overview
 
 
-## 
 
-The **Visual StyleBuilder** is a tool that can be used to create the base for custom skins for the Telerik controls.	It provides an interactive UI that helps in customizing the appearance of the skin. It can be found at [http://stylebuilder.telerik.com/](http://stylebuilder.telerik.com/).
+
+The **Visual StyleBuilder** is a tool that can be used to create the base for custom skins for the Telerik controls. It provides an interactive UI that helps in customizing the appearance of the skin. It can be found at [http://stylebuilder.telerik.com/](http://stylebuilder.telerik.com/).
 
 The main features in the tool are:
 
@@ -25,4 +25,6 @@ The main features in the tool are:
 
 * Editing an already existing skin that can be uploaded as an archive
 
-* Does not require installation, runs directly in your browser![introduction-stylebuilder-overview](images/introduction-stylebuilder-overview.png)
+* Does not require installation, runs directly in your browser
+
+![introduction-stylebuilder-overview](images/introduction-stylebuilder-overview.png)

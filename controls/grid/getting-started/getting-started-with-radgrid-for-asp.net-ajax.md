@@ -61,7 +61,7 @@ This tutorial will walk you through creating a Web page that contains a **RadGri
 
 ## Configuring the grid for paging, sorting, and scrolling
 
-1. From the **Skin** drop-down of the **RadGrid's**[Smart Tag]({%slug grid/design-time-/smarttag%}) choose the **Metro** skin:
+1. From the **Skin** drop-down of the **RadGrid's** [Smart Tag]({%slug grid/design-time-/smarttag%}) choose the **Metro** skin:
 ![grid gettingstarted 8](images/grid_gettingstarted8.JPG)
 
 1. In the **General Features** section, check the boxes to enable **paging**, **sorting**, and **scrolling**:
@@ -109,7 +109,7 @@ This tutorial will walk you through creating a Web page that contains a **RadGri
 * Additionally, you could change the **UniqueName** and **BackColor** of the column.
 ![grid gettingstarted 14 2](images/grid_gettingstarted14_2.png)
 
-1. Use the **RadGrid**[Smart Tag]({%slug grid/design-time-/smarttag%}) to enable **filtering** and **grouping**:
+1. Use the **RadGrid** [Smart Tag]({%slug grid/design-time-/smarttag%}) to enable **filtering** and **grouping**:
 ![grid gettingstarted 15JPG](images/grid_gettingstarted15JPG.png)
 
 1. Run the application to see the result of your changes. A select column appears as the first column of the grid. Each column now has a filter control at the top. A grouping panel appears at the top of the grid. Drag the header of the **PostalCode** column onto the grouping panel. The rows of the grid are now grouped by postal code, and an item for this group appears in the grouping panel that lets you change the sort order of the groups:

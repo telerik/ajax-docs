@@ -64,5 +64,6 @@ The following example illustrates this technique:
 ````
 
 
+## See Also
 
-[this code library thread](http://www.telerik.com/community/code-library/aspnet-ajax/grid/how-to-set-radgrid-height-client-side-with-javascript.aspx)
+[This code library thread](http://www.telerik.com/community/code-library/aspnet-ajax/grid/how-to-set-radgrid-height-client-side-with-javascript.aspx)

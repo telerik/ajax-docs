@@ -215,7 +215,9 @@ Each skin of RadWindow consists of three [image sprites](http://www.alistapart.c
 
 1. CommandButtonSprites.gif - the images for RadWindow's buttons, as well as their hover states:
 
-	![RadWindow Command Sprites Images](images/window-commandbuttonsprites.gif)On the first row is the normal state of the buttons, on the second - the hovered state. In the CSS they are selected from the sprite via the [background-position](http://www.w3schools.com/css/pr_background-position.asp) property.
+	![RadWindow Command Sprites Images](images/window-commandbuttonsprites.gif)
+	
+	On the first row is the normal state of the buttons, on the second - the hovered state. In the CSS they are selected from the sprite via the [background-position](http://www.w3schools.com/css/pr_background-position.asp) property.
 
 1. WindowHorizontalSprites.gif* - the images for RadWindow's horizontal parts and the images for the "OK" and "Cancel" buttons of RadAlert, RadPrompt and RadConfirm:
 	
@@ -330,7 +332,9 @@ Explained below is a simple method for modifying the image sprites of RadWindow 
 
 1. Check the **colorize** checkbox in the Hue / Saturation dialog, and the image you have selected will be immediately colorized in the hue you have selected from the toolbox:
 
-	![Colorize](images/window-colorize.gif)You may then play with the Hue, Saturation and Lightness sliders to fine tune or further modify the image. Make sure you memorize the values of the sliders, as you will need to add the same settings to all three images in order to achieve consistent looks
+	![Colorize](images/window-colorize.gif)
+	
+	You may then play with the Hue, Saturation and Lightness sliders to fine tune or further modify the image. Make sure you memorize the values of the sliders, as you will need to add the same settings to all three images in order to achieve consistent looks
 
 1. Press "OK" when you are finished
 

@@ -15,10 +15,10 @@ position: 4
 There are three sorting modes in **RadGrid**:
 
 * **Ascending**: When the user clicks once on the sort button in the column header, the table view sorts its items by that column's value, using an ascending sort order. An sorting indicator
-![SortAsc.gif](images/grd_SortAsc.gif)appears in the column header to indicate that the column is sorted ascending.
+![SortAsc.gif](images/grd_SortAsc.gif) appears in the column header to indicate that the column is sorted ascending.
 
 * **Descending**: When the user clicks on the sort button of a column that has a sort mode of "Ascending", the sort mode changes to "Descending". The sorting indicator changes to
-![SortDesc.gif](images/grd_SortDesc.gif)to indicate that column is sorted descending.
+![SortDesc.gif](images/grd_SortDesc.gif) to indicate that column is sorted descending.
 
 * **NoSort**: The user can remove the sort on a column by clicking the sort button of a column that has a sort mode of "Descending". When the sort mode is "NoSort", no sorting indicator appears in the column header.
 

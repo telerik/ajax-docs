@@ -46,7 +46,7 @@ This event fires in the following cases:
 
 The advantage of using the **NeedDataSource** event is that you have the flexibility of generating your data source in the code-behind, but you are freed from handling the logic of when and how data binding should take place. It is still your responsibility to properly construct a data source object and assign it to the **RadGrid's DataSource** property.
 
->caution  **Important:** You should never call the **Rebind** () method in a **NeedDataSource** event handler.You should never call **DataBind** () as well when using advanced data binding through **NeedDataSource** . For Microsoft **GridView** -like data binding, see[Simple Data-binding]({%slug grid/data-binding/understanding-data-binding/server-side-binding/simple-data-binding%}).
+>caution  **Important:** You should never call the **Rebind** () method in a **NeedDataSource** event handler.You should never call **DataBind** () as well when using advanced data binding through **NeedDataSource** . For Microsoft **GridView** -like data binding, see [Simple Data-binding]({%slug grid/data-binding/understanding-data-binding/server-side-binding/simple-data-binding%}).
 >
 
 

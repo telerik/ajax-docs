@@ -18,7 +18,7 @@ The Smart Tag for **RadWindow** lets you easily change the skin for your **RadWi
 
 ## Skin
 
-The **Skin** drop-down displays a list of available [skins]({%slug window/appearance-and-styling/skins%}) that you can applyto your **RadWindow**, along with an example of what the title bar looks like for each skin.Assign a skin by selecting the one you want from the list.
+The **Skin** drop-down displays a list of available [skins]({%slug window/appearance-and-styling/skins%}) that you can apply to your **RadWindow**, along with an example of what the title bar looks like for each skin. Assign a skin by selecting the one you want from the list.
 
 ## Learning Center
 
@@ -26,6 +26,6 @@ Links navigate you directly to **RadWindow** Help and support forums.
 
 ## RadWindowManager Smart Tag
 
-The Smart Tag for **RadWindowManager** is almost identical to that for **RadWindow**.It sets the **Skin** for the **RadWindowManager**, which controls the default behavior of all windows that the**RadWindowManager** contains, or lets you link to help for **RadWindowManager**. The only difference is that it also allows you to open the [visual Configuration Manager]({%slug window/design-time/visual-configuration-manager%}). You can display the Smart Tag by right clicking on a **RadWindowManager** control and choosing "Show Smart Tag".
+The Smart Tag for **RadWindowManager** is almost identical to that for **RadWindow**. It sets the **Skin** for the **RadWindowManager**, which controls the default behavior of all windows that the **RadWindowManager** contains, or lets you link to help for **RadWindowManager**. The only difference is that it also allows you to open the [visual Configuration Manager]({%slug window/design-time/visual-configuration-manager%}). You can display the Smart Tag by right clicking on a **RadWindowManager** control and choosing "Show Smart Tag".
 
 ![radwindowmanager-smart-tag](images/radwindowmanager-smart-tag.png)

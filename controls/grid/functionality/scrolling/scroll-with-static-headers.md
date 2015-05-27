@@ -11,9 +11,6 @@ position: 1
 # Scroll with Static Headers
 
 
-
-## 
-
 The most common problem when scrolling is losing the context of the current column. This context is supplied by the column header. **RadGrid** lets you keep the header at the top even when scrolling the grid. To enable this feature, set the **ClientSettings.Scrolling.UseStaticHeaders** property to **True**. (Its default value is **False**.)
 
 When **UseStaticHeaders** property is set to **True**, grid header and pager remain static, even when the grid is scrolled:

@@ -77,7 +77,7 @@ In addition, editable column types (column types that implement the **IGridEdita
 >
 
 
->note As of Q1 2013, a column with the **Visible** property set to **False** is no longer able to access the column cell's content. You can find additional information in this[forum thread.](http://www.telerik.com/community/forums/aspnet-ajax/grid/breaking-change-hidden-column-cell-text-is-not-persisted-in-viewstate.aspx)
+>note As of Q1 2013, a column with the **Visible** property set to **False** is no longer able to access the column cell's content. You can find additional information in this [forum thread.](http://www.telerik.com/community/forums/aspnet-ajax/grid/breaking-change-hidden-column-cell-text-is-not-persisted-in-viewstate.aspx)
 >
 
 
@@ -170,7 +170,7 @@ There are two types of button columns with pre-defined commands:
 
 * **Delete** - When a button in this column is pressed, the entire row is deleted.
 
-In addition, you can add a generic button column and specify what command it performs by setting the **CommandName** (and**CommandArgument**) properties. For details on using commands, see[Command Reference (Event Bubbling in Telerik RadGrid)]({%slug grid/control-lifecycle/command-reference-%}).
+In addition, you can add a generic button column and specify what command it performs by setting the **CommandName** (and**CommandArgument**) properties. For details on using commands, see [Command Reference (Event Bubbling in Telerik RadGrid)]({%slug grid/control-lifecycle/command-reference-%}).
 
 In addition to specifying the command a button performs, you can specify the type of button the column displays. The available buttons types are: **PushButton**, **LinkButton** and **ImageButton**. **Image 1** shows a grid with each of these types of button columns:
 

@@ -14,7 +14,7 @@ The **OnClientShow** event of the **RadWindow** fires when the popup shows. It f
 
 **RadWindow** renders its popup element with JavaScript when it is shown for the first time, so this is the earliest event in which you can manipulate it.
 
-You can use this event to change settings of the **RadWindow** that will affect its behavior, e.g., making sure it is always maximized (**Example 1**) or pinned (**Example 2**).The **OnClientShow** event is commonly used for [adding dynamic handlers]({%slug window/client-side-programming/events/setting-handlers-by-using-javascript%}) for other eventsthat may be needed only once (e.g., to [OnClientPageLoad]({%slug window/client-side-programming/events/onclientpageload%}) or to [OnClientClose]({%slug window/client-side-programming/events/onclientclose%}) - **Example 3**).
+You can use this event to change settings of the **RadWindow** that will affect its behavior, e.g., making sure it is always maximized (**Example 1**) or pinned (**Example 2**). The **OnClientShow** event is commonly used for [adding dynamic handlers]({%slug window/client-side-programming/events/setting-handlers-by-using-javascript%}) for other events that may be needed only once (e.g., to [OnClientPageLoad]({%slug window/client-side-programming/events/onclientpageload%}) or to [OnClientClose]({%slug window/client-side-programming/events/onclientclose%}) - **Example 3**).
 
 The event handler receives the following arguments:
 

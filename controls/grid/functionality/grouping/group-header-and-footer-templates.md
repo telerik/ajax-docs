@@ -26,7 +26,7 @@ It is specified inside the GroupHeaderTemplate tag of each GridTableView. In ord
 
 Keep in mind that only the values for the current group are available in its context, in other words - you can get the them only for the field that you are currently grouping by. You can use this fact for the purpose of controlling the visibility of controls inside the templates based on the field that you are grouping by.
 
->note When grouping by a **GridCalculatedColumn** 's values, you should access the totals using the field name with the string *"Result"* appended to it, e.g. if the column name is "TotalPrice", you should access AggregatesValues["TotalPriceResult"] in order to get the total.
+>note When grouping by a **GridCalculatedColumn** 's values, you should access the totals using the field name with the string *"Result"* appended to it, e.g. if the column name is "TotalPrice", you should access AggregatesValues ["TotalPriceResult"] in order to get the total.
 >
 
 

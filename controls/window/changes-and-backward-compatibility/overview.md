@@ -34,15 +34,15 @@ With the new version, the controls in the RadWindow's ContentTemplate are availa
 
 ## Telerik RadWindow for ASP.NET AJAX Q3 2009
 
-* When a __RadWindow__ is declared in__RadWindowManager__ it preserves its ViewState which was not so in previous versions. This could lead to backwards incompatibility when the __VisibleOnPageLoad__ property is used in this configuration with the idea to show the __RadWindow__ only once. Possible solutions for this case are the following ones:
+* When a **RadWindow** is declared in **RadWindowManager** it preserves its ViewState which was not so in previous versions. This could lead to backwards incompatibility when the **VisibleOnPageLoad** property is used in this configuration with the idea to show the **RadWindow** only once. Possible solutions for this case are the following ones:
 
-* Set __EnableViewState = "false"__ for the __RadWindowManager__
+* Set **EnableViewState = "false"** for the **RadWindowManager**
 
-* Reset the __VisibleOnPageLoad__ property to __false__ with code when suitable, depending on the particular scenario
+	* Reset the **VisibleOnPageLoad** property to **false** with code when suitable, depending on the particular scenario
 
-* Show the __RadWindow__ through registering a script from the server instead.
+	* Show the **RadWindow** through registering a script from the server instead.
 
-* The __ClientCallBackFunction__ property is removed and not used anymore. The arguments can be received in the OnClientClose function like shown in the [Using RadWindow as a Dialog]({%slug window/how-to/using-radwindow-as-a-dialog%}) article.
+	* The **ClientCallBackFunction** property is removed and not used anymore. The arguments can be received in the OnClientClose function like shown in the [Using RadWindow as a Dialog]({%slug window/how-to/using-radwindow-as-a-dialog%}) article.
 
 ## Telerik RadWindow for ASP.NET AJAX Q2 2009
 
@@ -54,7 +54,7 @@ RadWindow for ASP.NET AJAX which is part of the Q2 2009 release is fully backwar
 
 * Refactoring of the CSS code to achieve better understanding, easier maintenance and handle problems with global styles
 
-* Changes to the CSS classes, so now all controls for ASP.NET AJAX comply with a common naming conventionFor example was:__radwindow radwindow_Default__now:__RadWindow RadWindow_Default__
+* Changes to the CSS classes, so now all controls for ASP.NET AJAX comply with a common naming convention. For example was: **radwindow radwindow_Default** now: **RadWindow RadWindow_Default**
 
 ## Telerik RadWindow for ASP.NET AJAX Q3 2008
 
@@ -68,13 +68,13 @@ RadWindow for ASP.NET AJAX which is part of the Q2 2008 release is fully backwar
 
 ## Important - differences between RadWindow for ASP.NET and RadWindow for ASP.NET AJAX:
 
-__RadWindow for ASP.NET AJAX__ control has changed slightly, because of moving to the ASP.NET Ajax framework and to the Telerik.Web.UI suite. A number of property and method names have changed, and a few properties and methods have been removed.
+**RadWindow for ASP.NET AJAX** control has changed slightly, because of moving to the ASP.NET Ajax framework and to the Telerik.Web.UI suite. A number of property and method names have changed, and a few properties and methods have been removed.
 
-* On the Server-side, there have been some changes to the __RadWindowManager__ and __RadWindow__ classes:
+* On the Server-side, there have been some changes to the **RadWindowManager** and **RadWindow** classes:
 
 * The following properties have been removed:
 
-	|  __Class__  |  __Property__  |
+	|  **Class**  |  **Property**  |
 	| ------ | ------ |
 	|RadWindowManager|UseClassicWindows|
 	|RadWindowManager|SingleNonMinimizedWindow|
@@ -82,14 +82,14 @@ __RadWindow for ASP.NET AJAX__ control has changed slightly, because of moving t
 
 * For both classes, the following property names have changed:
 	
-	|  __Old name__  |  __New name__  |
+	|  **Old name**  |  **New name**  |
 	| ------ | ------ |
 	|Behavior|Behaviors|
 	|InitialBehavior|InitialBehaviors|
 	
-* On the client-side, the API is completely changed to match the naming convention of the new framework. The following property names are changed:In __RadWindowManager__ class:
+* On the client-side, the API is completely changed to match the naming convention of the new framework. The following property names are changed:In **RadWindowManager** class:
 
-	|  __Old name__  |  __New name__  |
+	|  **Old name**  |  **New name**  |
 	| ------ | ------ |
 	|Open|open|
 	|GetWindowByName|getWindowByName|
@@ -108,9 +108,9 @@ __RadWindow for ASP.NET AJAX__ control has changed slightly, because of moving t
 	|MinimizeActiveWindow|minimizeActiveWindow|
 	|RestoreActiveWindow|restoreActiveWindow|
 
-* In __RadWindow__ class:
+* In **RadWindow** class:
 
-	|  __Old name__  |  __New name__  |
+	|  **Old name**  |  **New name**  |
 	| ------ | ------ |
 	|GetWindowManager|get_windowManager|
 	|GetContentFrame|get_contentFrame|

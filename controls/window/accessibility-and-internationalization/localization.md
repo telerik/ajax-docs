@@ -38,7 +38,7 @@ RadWindow1.Localization.Maximize = "Maximize the RadWindow";
 
 ## Using the ASP.NET resource files
 
-You need to create the resource (*.resx) files in the **App_GlobalResources** folder of your web application and name them accordingly:**RadWindow.<language>.resx**. Then you need to point the **Localization** property to read the resource files:
+You need to create the resource (.resx) files in the **App_GlobalResources** folder of your web application and name them accordingly: **RadWindow.<language>.resx**. Then you need to point the **Localization** property to read the resource files:
 
 ````ASP.NET
 <telerik:RadWindow runat="server" ID="RadWindow1">

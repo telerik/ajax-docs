@@ -10,7 +10,7 @@ position: 6
 
 # OnClientClose
 
-The **OnClientClose** event fires when the **RadWindow** closes. You can use the event to pass data from the dialog page.It is subsequent to the [OnClientBeforeClose]({%slug window/client-side-programming/events/onclientbeforeclose%}) event.The close operation can be initiated from the user by clicking or tapping on the manual close button (X)in the top right-hand side corner of the title bar, or by the developer via calling the `close(optionalArguments)` [client-side method]({%slug window/client-side-programming/radwindow-object%}) of the control(e.g., through a custom Close button in the content (**Example 2**)).
+The **OnClientClose** event fires when the **RadWindow** closes. You can use the event to pass data from the dialog page.It is subsequent to the [OnClientBeforeClose]({%slug window/client-side-programming/events/onclientbeforeclose%}) event.The close operation can be initiated from the user by clicking or tapping on the manual close button (X) in the top right-hand side corner of the title bar, or by the developer via calling the `close(optionalArguments)` [client-side method]({%slug window/client-side-programming/radwindow-object%}) of the control(e.g., through a custom Close button in the content (**Example 2**)).
 
 You can use this event to [return data from the dialog page](http://demos.telerik.com/aspnet-ajax/window/examples/dialogreturnvalue/defaultcs.aspx)	and to [create parent-child relationships with other RadWindow instances](http://www.telerik.com/support/code-library/creating-parent-child-relationships-between-radwindows-and-passing-data-between-them).
 
@@ -25,7 +25,7 @@ The event handler receives the following arguments:
 | ------ | ------ | ------ | ------ |
 |get_argument||object|This is the argument passed to the `close()` method of the RadWindow by the developer.|
 
-To see how to get a reference to the **RadWindow**[client-side object]({%slug window/client-side-programming/radwindow-object%}),	examine the [Client-side Basics]({%slug window/client-side-programming/overview%}) help article.
+To see how to get a reference to the **RadWindow** [client-side object]({%slug window/client-side-programming/radwindow-object%}),	examine the [Client-side Basics]({%slug window/client-side-programming/overview%}) help article.
 
 >caption Example 1: Getting data passed from the dialog page (Example 2).
 

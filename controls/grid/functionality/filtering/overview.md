@@ -29,7 +29,7 @@ All filters in a single table are applied using AND operator. That is, only item
 
 You can use the **CurrentFilterFunction** and **CurrentFilterValue** properties of the **GridColumn** object to specify the default filter function and default filter value that appear in the filter text box.
 
->caution When you set these properties, **RadGrid** displays this value as an initial filter but does NOT perform the filtering. For information on applying an initial filter, see[Applying default filter on initial load]({%slug grid/functionality/filtering/how-to/apply-default-filter-on-initial-load%}).
+>caution When you set these properties, **RadGrid** displays this value as an initial filter but does NOT perform the filtering. For information on applying an initial filter, see [Applying default filter on initial load]({%slug grid/functionality/filtering/how-to/apply-default-filter-on-initial-load%}).
 >
 
 

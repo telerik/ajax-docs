@@ -205,7 +205,7 @@ See [Understanding the Skin CSS File]({% slug splitter/appearance-and-styling/un
 			border-bottom: 1px solid #313131;
 		}
 
-4. When a tab in the sliding zone is expanded to show its sliding pane, it has the **.paneTabContainerExpanded** or **.paneTabContainerExpandedHorizontal** class applied. Locate the selectors **.RadSplitter_Green .tabsContainer****.paneTabContainerExpanded,****.RadSplitter_Green .tabsContainer .paneTabContainerExpandedHorizontal**, and change the background and foreground colors from "#323232" and "#fff" to "#32ff32" and "green": 
+4. When a tab in the sliding zone is expanded to show its sliding pane, it has the **.paneTabContainerExpanded** or **.paneTabContainerExpandedHorizontal** class applied. Locate the selectors **.RadSplitter_Green .tabsContainer.paneTabContainerExpanded**, **.RadSplitter_Green .tabsContainer .paneTabContainerExpandedHorizontal**, and change the background and foreground colors from "#323232" and "#fff" to "#32ff32" and "green": 
 
 	**CSS**
 	
@@ -217,7 +217,7 @@ See [Understanding the Skin CSS File]({% slug splitter/appearance-and-styling/un
 		}
 
 
-5. When a sliding pane is docked, its tab in the sliding zone has the **.paneTabContainerDocked** or **.paneTabContainerDockedHorizontal** class applied. Locate the selctors **.RadSplitter_Green .paneTabContainerDocked** and **.RadSplitterGreen .paneTabContainerDockedHorizontal**, and change the background from "#e4e4e4" to "#32dd32": 
+5. When a sliding pane is docked, its tab in the sliding zone has the **.paneTabContainerDocked** or **.paneTabContainerDockedHorizontal** class applied. Locate the selectors **.RadSplitter_Green .paneTabContainerDocked** and **.RadSplitterGreen .paneTabContainerDockedHorizontal**, and change the background from "#e4e4e4" to "#32dd32": 
 
 	**CSS**
 	

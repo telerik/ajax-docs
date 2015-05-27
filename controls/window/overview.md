@@ -1,5 +1,5 @@
 ---
-title: Window Overview
+title: Overview
 page_title: Overview | RadWindow for ASP.NET AJAX Documentation
 description: Overview
 slug: window/overview
@@ -20,7 +20,7 @@ Telerik RadWindow lets you build customized dialog boxes and modal or non-modal 
 
 * **Built-in dialogs for alert, confirm, and prompt boxes can replace the browser dialogs** to blend into the look and feel of your Web site. The predefined [alert, confirm, and prompt dialogs]({%slug window/alert,-confirm,-prompt-dialogs/overview%}) offer you more control over the look and behavior of these dialogs.
 
-* **RadWindow objects are cached**so that once a window is loaded it is not destroyed when you hide it. The next time your application shows the window, there is no loading time. You can still execute initialization code and pre-set the elements in the window by adding an **OnClientShow** [event handler]({%slug window/client-side-programming/events/overview%}).
+* **RadWindow objects are cached** so that once a window is loaded it is not destroyed when you hide it. The next time your application shows the window, there is no loading time. You can still execute initialization code and pre-set the elements in the window by adding an **OnClientShow** [event handler]({%slug window/client-side-programming/events/overview%}).
 
 * **RadWindow supports a cross-browser look and feel on modal dialogs.** Creating cross-browser modal dialogs has always been a challenging task for developers, but RadWindow has built-in cross-browser support so you can do this simply by just setting the **Modal** property on your windows.
 

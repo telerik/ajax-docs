@@ -38,9 +38,9 @@ Both the **radopen()** function and the **GetRadWindowManager().open()** method 
 
 * **Name** - This is the ID of a particular (existing) **RadWindow** object to show. If this is given an argument of null, the function creates a new window with a random ID. If a window with the provided ID does not exist, a new one is created using this ID.
 
-* *Optional: content element**—a DOM element that will be placed in the [ContentTemplate]({%slug window/getting-started/using-radwindow-as-controls-container%}) of the control.If one is provided and an URL is passed, the URL will be ignored.The *content element* argument is only available in the `RadWindowManagerInstance.open()` method, but *not*in the `window.radopen()` method.
+* *Optional*: **content element** — a DOM element that will be placed in the [ContentTemplate]({%slug window/getting-started/using-radwindow-as-controls-container%}) of the control. If one is provided and an URL is passed, the URL will be ignored. The *content element* argument is only available in the `RadWindowManagerInstance.open()` method, but *not* in the `window.radopen()` method.
 
-* *Optional: Width, Height, Left, Top* - Since Q1 2013, these four additional parameters can be used to specify the dimensions and position of a popup even while opening it. If these parameters are not passed, the values from the **RadWindow's** declaration will be usedand in case they aren't specified or a dynamic instance is created, the dimensions will fall back to the default 300x300 pixels at the center of the screen.
+* *Optional*: **Width, Height, Left, Top** - Since Q1 2013, these four additional parameters can be used to specify the dimensions and position of a popup even while opening it. If these parameters are not passed, the values from the **RadWindow's** declaration will be used and in case they aren't specified or a dynamic instance is created, the dimensions will fall back to the default 300x300 pixels at the center of the screen.
 
 Both functions return a reference to the **RadWindow** object, so it can be additionally configured using the various [RadWindow methods]({%slug window/client-side-programming/radwindow-object%}). The following code illustrates the possibilities for using **radopen**. (Note, you could replace the call to **radopen()** with a call to **GetRadWindowManager().open()**).
 

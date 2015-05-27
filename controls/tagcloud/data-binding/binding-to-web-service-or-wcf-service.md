@@ -174,7 +174,7 @@ End Class
 	* Set the Method sub-property to the name of the method of the Web service that supplies child items.
 	* Set the UseHttpGet sub-property to True to change the default HTTP method (POST).
 	
-	**ASPNET**
+	**ASP.NET**
 	
 		<telerik:RadTagCloud ID="RadTagCloud1" runat="server" OnClientItemsRequesting="itemsRequesting" 
 			OnClientItemsRequested="itemsRequested"	OnClientItemsRequestFailed="itemsRequestFailed">
@@ -289,7 +289,7 @@ For a live example of using a Web service to populate items, see the [Web Servic
 	* Set the Path sub-property to the URL for the Web service.
 	* Set the Method sub-property to the name of the method of the WCF Web service that supplies child items.
 
-	**ASPNET**
+	**ASP.NET**
 	
 		<telerik:RadTagCloud ID="RadTagCloud1" runat="server"
 			OnClientItemsRequesting="itemsRequesting"
@@ -300,17 +300,15 @@ For a live example of using a Web service to populate items, see the [Web Servic
 
 	where the WCF WebService must be in the website, e.g.:
 
-	**ASPNET**
+	**ASP.NET**
 	
 		<%@ ServiceHost Language="C#" Debug="true" Service="TagCloudWcfService" CodeBehind="~/App_Code/TagCloudWcfService.cs" %>
 
 
 2. When the WebServiceSettings property is set, an empty context request will be initiated automatically. You can trigger request to the service by calling the *requestItems()* client-side method. This method has a single parameter, which is sent as an argument to the Web service method.
 >important It is important to know that all current items will be removed, before the new ones are populated.
->
 
 	>note Passing a value to a WCF service requires creating an object that will hold the data. This object will be serialized automatically. This object is received by the WCF WebService as a parameter of type IDictionary and you can access the value of the object you provided according to its name.
-	>
 
 	**JavaScript**
 
@@ -409,5 +407,5 @@ End Class
 ````
 
 >note The class that identifies an item is the same for both types of web services and is shown in the beginning of the article.
->
+
 For a live example of using a WCF Web service to populate items, see the [WCF Web Service demo](http://demos.telerik.com/aspnet-ajax/tagcloud/examples/wcfservice/defaultcs.aspx).

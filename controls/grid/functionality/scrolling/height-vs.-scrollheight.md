@@ -11,9 +11,6 @@ position: 2
 # Height vs. ScrollHeight
 
 
-
-## 
-
 RadGrid provides two properties for controlling its height declaratively or programmatically:
 
 * *RadGridInstance*.**Height**

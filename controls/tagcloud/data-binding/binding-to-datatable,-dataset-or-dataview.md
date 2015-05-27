@@ -10,15 +10,11 @@ position: 1
 
 # Binding to DataTable, DataSet or DataView
 
-
-
-## 
-
 **RadTagCloud** can be bound to a **DataTable**, **DataSet** and a **DataView**. This example shows binding to a **DataTable** object.
 
-The declaration of the **RadTagCloud** object includes no **DataSourceID** property or \<Items\> section:
+The declaration of the **RadTagCloud** object includes no **DataSourceID** property or `<Items>` section:
 
-````ASPNET
+````ASP.NET
 <telerik:RadTagCloud ID="RadTagCloud1" runat="server" Width="400px">
 </telerik:RadTagCloud>
 ````
@@ -46,7 +42,7 @@ private void BindToDataTable(RadTagCloud cloud)
 	cloud.DataBind();
 }
 ````
-````VB.NET
+````VB
 Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
 	If Not Page.IsPostBack Then
 		BindToDataTable(RadTagCloud1)

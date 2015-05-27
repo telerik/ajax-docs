@@ -10,11 +10,11 @@ position: 9
 
 # Using RadConfirm In Server Code
 
-The **RadConfirm** dialog is essentially a RadWindow, which means it is entirely a client-side object. It can be manipulated via JavaScript	on the client-side only. This means that when called from the server **it can be shown to the end user only once all the server code has ran and the response is received in the browser**. Logic that requires the user's confirmation during execution cannot be achieved directly with the **RadConfirm, nor with a standard confirm()** and thus it must be separated in two parts - the first one ends with the confirmation call, while the second part	receives the response and takes the necessary action. Ultimately this will require an additional request to the server to send the user's choice and this is done	in the **RadConfirm's callback function** because it receives the true/false result as an argument. There, depending on the result, a request can be	initiated to finish the work. There are different ways to achieve it, for example:
+The **RadConfirm** dialog is essentially a RadWindow, which means it is entirely a client-side object. It can be manipulated via JavaScript	on the client-side only. This means that when called from the server **it can be shown to the end user only once all the server code has ran and the response is received in the browser**. Logic that requires the user's confirmation during execution cannot be achieved directly with the **RadConfirm, nor with a standard confirm()** and thus it must be separated in two parts - the first one ends with the confirmation call, while the second part	receives the response and takes the necessary action. Ultimately this will require an additional request to the server to send the user's choice and this is done	in the **RadConfirm's callback function** because it receives the true/false result as an argument. There, depending on the result, a request can be initiated to finish the work. There are different ways to achieve it, for example:
 
 ## Initiating A Postback
 
-A hidden button with the desired event handler can be placed on the page and the **__doPostBack()** function can be used to call it.There are different ways to use it and some of them are listed in the[Confirm Server Clicks Online Demo](http://demos.telerik.com/aspnet-ajax/window/examples/confirmserverclicks/defaultcs.aspx)or in[this article in the net](http://www.codedigest.com/Articles/ASPNET/320_Doing_or_Raising_Postback_using**_doPostBack()_function_from_Javascript_in_AspNet.aspx). For example:
+A hidden button with the desired event handler can be placed on the page and the **__doPostBack()** function can be used to call it. There are different ways to use it and some of them are listed in the [Confirm Server Clicks Online Demo](http://demos.telerik.com/aspnet-ajax/window/examples/confirmserverclicks/defaultcs.aspx) or in [this article in the net](http://www.codedigest.com/Articles/ASPNET/320_Doing_or_Raising_Postback_using**_doPostBack()_function_from_Javascript_in_AspNet.aspx). For example:
 
 ````ASP.NET
 <telerik:RadWindowManager runat="server" ID="RadWindowManager1"></telerik:RadWindowManager>
@@ -25,7 +25,7 @@ A hidden button with the desired event handler can be placed on the page and the
 	{
 		if (arg) //the user clicked OK
 		{
-			**doPostBack("<%=HiddenButton.UniqueID %>", "");
+			__doPostBack("<%=HiddenButton.UniqueID %>", "");
 		}
 	}
 </script>
@@ -128,7 +128,7 @@ End Sub
 
 ## Using Page Methods
 
-An alternative is to use Page methods to finish the task as they also provide an easy feedback mechanism for the user.[This article](http://www.singingeels.com/Articles/Using_Page_Methods_in_ASPNET_AJAX.aspx)can be a good starting point for using them. Note that you need to set the **EnablePageMethods** property of the script manager to **true** to enable them and to also include a reference to **System.Web.Services**.
+An alternative is to use Page methods to finish the task as they also provide an easy feedback mechanism for the user. [This article](http://www.singingeels.com/Articles/Using_Page_Methods_in_ASPNET_AJAX.aspx) can be a good starting point for using them. Note that you need to set the **EnablePageMethods** property of the script manager to **true** to enable them and to also include a reference to **System.Web.Services**.
 
 
 
@@ -209,11 +209,11 @@ End Sub
 ````
 
 
-This approach allows you to pass more than one argument back to the server (depending on the number of arguments the server method's signature has)and to show feedback to the user easily, all encapsulated in a lightweight request.
+This approach allows you to pass more than one argument back to the server (depending on the number of arguments the server method's signature has) and to show feedback to the user easily, all encapsulated in a lightweight request.
 
 ## Using A Custom RadWindow And Its ContentTemplate
 
-Another approach is to use a RadWindow to mimic the built-in RadConfirm dialog - set its size, modality, behaviors (and other properties) as desired and copy the ConfirmTemplate from [this article]({%slug window/alert,-confirm,-prompt-dialogs/how-to-change-the-dialog-templates%}) inside its [ContentTemplate]({%slug window/getting-started/using-radwindow-as-controls-container%}) and modify it as desired.This allows for fine tuning of each aspect of the behavior of the dialog box and to also use any combination of the above logic. Also, handlers for the buttons can be added easily since server controls can be used in this case (for example RadButtons):
+Another approach is to use a RadWindow to mimic the built-in RadConfirm dialog - set its size, modality, behaviors (and other properties) as desired and copy the ConfirmTemplate from [this article]({%slug window/alert,-confirm,-prompt-dialogs/how-to-change-the-dialog-templates%}) inside its [ContentTemplate]({%slug window/getting-started/using-radwindow-as-controls-container%}) and modify it as desired. This allows for fine tuning of each aspect of the behavior of the dialog box and to also use any combination of the above logic. Also, handlers for the buttons can be added easily since server controls can be used in this case (for example RadButtons):
 
 
 
