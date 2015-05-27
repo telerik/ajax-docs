@@ -470,9 +470,6 @@ navigation:
     "*calendar/templates":
         title: "Templates"
         position: 8
-    "*chart/client-side":
-        title: "Client-Side"
-        position: 2
     "*chart/features":
         title: "Features"
         position: 3
@@ -497,6 +494,9 @@ navigation:
     "*chart/standards-compliance":
         title: "Standards Compliance"
         position: 12
+	"*chart/client-side":
+        title: "Client-Side"
+        position: 13
     "*clientdatasource/client-side-programming/client-side-api":
         title: "Client-side API"
         position: 3
