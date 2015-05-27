@@ -12,7 +12,7 @@ position: 0
 
 
 
-## 
+
 ![](images/EditorLogoPr.gif)
 
 Thank you for choosing Telerik RadEditor for SharePoint!
@@ -47,6 +47,3 @@ RadEditor for SharePoint is a modified version of the Telerik RadEditor control 
 
 * Ability to have editors with different skins on the same page
 
-## See Also
-
- * [Browser support and limitations]({%slug sharepoint/2010/radeditor-web-part/browser-support-and-limitations%})
