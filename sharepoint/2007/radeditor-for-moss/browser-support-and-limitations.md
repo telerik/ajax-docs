@@ -10,10 +10,6 @@ position: 1
 
 # Browser support and limitations
 
-
-
-## 
-
 RadEditor for ASP.NET AJAX for SharePoint supports the following browsers:
 
 * Internet Explorer 6+

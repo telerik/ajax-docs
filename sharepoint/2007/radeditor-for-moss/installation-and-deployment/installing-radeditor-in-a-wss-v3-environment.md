@@ -12,7 +12,7 @@ position: 1
 
 
 
-## 
+
 
 If you wish to install the RadEditor for MOSS in a WSS v3 environment, you need to follow the same deployment instructions as outlined in the [Installing RadEditor in a MOSS 2007 farm]({%slug sharepoint/2007/radeditor-for-moss/installation-and-deployment/installing-radeditor-in-a-moss-2007-farm%}) topic.
 

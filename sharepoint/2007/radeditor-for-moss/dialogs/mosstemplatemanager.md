@@ -10,10 +10,6 @@ position: 5
 
 # MOSSTemplateManager
 
-
-
-
-
 By using the **MOSSTemplateManager**tool the users can add items from the **Reusable Content** list to the content of **RadEditor for MOSS**. When the user clicks the MOSSTemplateManager toolbar button the standard **Select Reusable Content Web Page** dialog box opens and displays the contents of the **Reusable Content**list. Here the user can browse the list for the item that he wants to add.
 
 ## Usage in different scenarios:
@@ -26,6 +22,6 @@ By using the **MOSSTemplateManager**tool the users can add items from the **Reus
 
 ## Browser compatibility issues:
 
-The **MOSSTemplateManager**toolbar button opens the standard Select Reusable Content Web Page dialog. This dialog however is not compatible with FireFox.
+The **MOSSTemplateManager** toolbar button opens the standard Select Reusable Content Web Page dialog. This dialog however is not compatible with FireFox.
 
 

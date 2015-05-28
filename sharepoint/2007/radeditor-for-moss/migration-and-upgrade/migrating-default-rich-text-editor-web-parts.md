@@ -10,10 +10,6 @@ position: 2
 
 # Migrating default rich-text editor Web Parts
 
-
-
-## 
-
 In existing SharePoint 2007 applications you need to manually migrate the content of the default rich-text editor Web Part to Telerik RadEditor Web Part. Unfortunately, there is no supported way of doing that automatically.
 
 For each page where you have a rich-text editor Web Part you have to perform the following:

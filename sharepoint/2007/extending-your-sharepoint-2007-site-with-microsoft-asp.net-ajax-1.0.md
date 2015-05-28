@@ -20,11 +20,12 @@ Download and install ASP.NET Ajax from [here](http://www.microsoft.com/downloads
 
 ## Modify your web.config file
 
-After ASP.NET Ajax has been installed you need to modify the web.config file of your MOSS web site with a few Ajax specific entries. Typically, the web.config file is located in c:\inetpub\wwwroot\wss\virtualdirectories\80
+After ASP.NET Ajax has been installed you need to modify the web.config file of your MOSS web site with a few Ajax specific entries. Typically, the web.config file is located in `c:\inetpub\wwwroot\wss\virtualdirectories\80`
 
-1. Add the following **<sectionGroup>** element in the **<configSections>** tag:
+1. Add the following **`<sectionGroup>`** element in the **`<configSections>`** tag:
 
-````XML
+	**XML**
+
 	    <sectionGroup name="system.web.extensions" type="System.Web.Configuration.SystemWebExtensionsSectionGroup, System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
 	        <sectionGroup name="scripting" type="System.Web.Configuration.ScriptingSectionGroup, System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
 	            <section name="scriptResourceHandler" type="System.Web.Configuration.ScriptingScriptResourceHandlerSection, System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" requirePermission="false" allowDefinition="MachineToApplication"/>
@@ -35,58 +36,64 @@ After ASP.NET Ajax has been installed you need to modify the web.config file of 
 	            </sectionGroup>
 	        </sectionGroup>
 	    </sectionGroup>
-````
 
 
 
-1. Add the following **<controls>** section as a child of the **<system.web>/<pages>** tag:
 
-````XML
+1. Add the following **`<controls>`** section as a child of the **`<system.web>/<pages>`** tag:
+
+	**XML**
+
 	    <controls>
 	       <add tagPrefix="asp" namespace="System.Web.UI" assembly="System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
 	    </controls>
-````
 
 
 
-1. Add the following tag to the **<assemblies>** tag, within the **<compilation>** element:
 
-````XML
+1. Add the following tag to the **`<assemblies>`** tag, within the **`<compilation>`** element:
+
+	**XML**
+
 	    <add assembly="System.Web.Extensions, Version=1.0.61025.0,Culture=neutral, PublicKeyToken=31bf3856ad364e35"/>
-````
 
 
 
-1. Register the following HTTP handlers at the end of the**<httpHandlers>** section:
 
-````XML
+1. Register the following HTTP handlers at the end of the **`<httpHandlers>`** section:
+
+	**XML**
+
 	    <add verb="*" path="*.asmx" validate="false" type="System.Web.Script.Services.ScriptHandlerFactory, System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"/>
 	    <add verb="*" path="*_AppService.axd" validate="false" type="System.Web.Script.Services.ScriptHandlerFactory, System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"/>
 	    <add verb="GET,HEAD" path="ScriptResource.axd" type="System.Web.Handlers.ScriptResourceHandler, System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" validate="false"/>
-````
 
 
 
-1. Add the following HTTP module registration to the **<httpModules>** section beneath any existing modules:
 
-````XML
+1. Add the following HTTP module registration to the **`<httpModules>*`* section beneath any existing modules:
+
+	**XML**
+
 	    <add name="ScriptModule" type="System.Web.Handlers.ScriptModule, System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"/>
-````
 
 
 
-1. Add a SafeControl entry for the System.Web.UI namespace from the System.Web.Extensions assembly within the **<SharePoint>/<SafeControls>** section:
 
-````XML
+1. Add a SafeControl entry for the System.Web.UI namespace from the System.Web.Extensions assembly within the **`<SharePoint>/<SafeControls>`** section:
+
+	**XML**
+
 	    <SafeControl Assembly="System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" 
 	        Namespace="System.Web.UI" TypeName="*" Safe="True" />
-````
 
 
 
-1. Finally, add the following configuration tags at the bottom of web.config, just before the end of the **<configuration>** tag:
 
-````XML
+1. Finally, add the following configuration tags at the bottom of web.config, just before the end of the **`<configuration>`** tag:
+
+	**XML**
+
 	    <system.web.extensions>
 	       <scripting>
 	         <webServices>
@@ -119,7 +126,7 @@ After ASP.NET Ajax has been installed you need to modify the web.config file of 
 	         <add name="ScriptResource" preCondition="integratedMode" verb="GET,HEAD" path="ScriptResource.axd" type="System.Web.Handlers.ScriptResourceHandler, System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
 	       </handlers>
 	    </system.webServer>
-````
+
 
 
 

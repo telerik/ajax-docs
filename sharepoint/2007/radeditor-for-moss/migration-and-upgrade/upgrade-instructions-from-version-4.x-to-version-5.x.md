@@ -22,25 +22,23 @@ position: 1
 
 1. WCM - add a **bindingRedirect**element in the **web.config**:
 
-````XML
-	    <dependentAssembly>
-	         <assemblyIdentity name="RadEditorSharePoint" publicKeyToken="1f131a624888eeed" culture="neutral" />
-	         <bindingRedirect oldVersion="1.0.0.0-4.x.x.0" newVersion="5.x.x.0" />
-	    </dependentAssembly>
-````
-
+	**XML**
+	
+		<dependentAssembly>
+			 <assemblyIdentity name="RadEditorSharePoint" publicKeyToken="1f131a624888eeed" culture="neutral" />
+			 <bindingRedirect oldVersion="1.0.0.0-4.x.x.0" newVersion="5.x.x.0" />
+		</dependentAssembly>
 
 
 1. Lists - re-activate the List Editor feature on at least one site and recycle the SharePoint web application (restart IIS)
 
 1. Web Parts - add a SafeControl element for the old version of the editor in the **web.config**.For example, if you are upgrading from version 4.54:
 
-````XML
+	**XML**
+	
 	    <SafeControl Assembly="RadEditorSharePoint, Version=4.5.4.0, Culture=neutral,
 	        PublicKeyToken=1f131a624888eeed" Namespace="Telerik.SharePoint" TypeName="*"
 	        Safe="True" />
-````
-
 
 
 **Known issues:**

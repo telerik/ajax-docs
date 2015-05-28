@@ -20,15 +20,16 @@ Download and install .NET Framework 3.5 SP1 from [here](http://www.microsoft.com
 
 ## Modify your web.config file
 
->tip Before you continue reading you can check this KB article by **Michael Raizman** :[SharePoint Feature to Extend SharePoint Site with AJAX 3.5 and Telerik Rad Controls](http://www.codeproject.com/KB/sharepoint/SharePoint_Telerik.aspx)
->
+>tip Before you continue reading you can check this KB article by **Michael Raizman**: [SharePoint Feature to Extend SharePoint Site with AJAX 3.5 and Telerik Rad Controls](http://www.codeproject.com/KB/sharepoint/SharePoint_Telerik.aspx)
 
 
-After **ASP.NET 3.5** has been installed you need to modify the **web.config** file of your MOSS web site with a few Ajax specific entries. Typically, the web.config file is located in **c:\inetpub\wwwroot\wss\virtualdirectories\80**
 
-1. Add the following **<sectionGroup>** element in the **<configSections>** tag:
+After **ASP.NET 3.5** has been installed you need to modify the **web.config** file of your MOSS web site with a few Ajax specific entries. Typically, the web.config file is located in **`c:\inetpub\wwwroot\wss\virtualdirectories\80`**
 
-````XML
+1. Add the following **`<sectionGroup>`** element in the **`<configSections>`** tag:
+
+	**XML**
+
 	    <sectionGroup name="system.web.extensions" type="System.Web.Configuration.SystemWebExtensionsSectionGroup,
 	        System.Web.Extensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31BF3856AD364E35">
 	        <sectionGroup name="scripting" type="System.Web.Configuration.ScriptingSectionGroup,
@@ -53,72 +54,78 @@ After **ASP.NET 3.5** has been installed you need to modify the **web.config** f
 	            </sectionGroup>
 	        </sectionGroup>
 	    </sectionGroup>
-````
 
 
 
-2. Add the following **<controls>** section as a child of the **<system.web>/<pages>** tag:
 
-````XML
+2. Add the following **`<controls>`** section as a child of the **`<system.web>/<pages>`** tag:
+
+	**XML**
+
 	    <controls>
 	        <add tagPrefix="asp" namespace="System.Web.UI" assembly="System.Web.Extensions, Version=3.5.0.0, Culture=neutral,
 	            PublicKeyToken=31BF3856AD364E35"/>
 	        <add tagPrefix="asp" namespace="System.Web.UI.WebControls" assembly="System.Web.Extensions, Version=3.5.0.0, Culture=neutral,
 	            PublicKeyToken=31BF3856AD364E35"/>
 	    </controls>
-````
 
 
 
-3. Add the following tag to the **<assemblies>** tag, within the **<compilation>** element:
 
-````XML
+3. Add the following tag to the **`<assemblies>`** tag, within the **`<compilation>`** element:
+
+	**XML**
+
 	    <add assembly="System.Core, Version=3.5.0.0, Culture=neutral, PublicKeyToken=B77A5C561934E089"/>
 	    <add assembly="System.Web.Extensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31BF3856AD364E35"/>
 	    <add assembly="System.Data.DataSetExtensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=B77A5C561934E089"/>
 	    <add assembly="System.Xml.Linq, Version=3.5.0.0, Culture=neutral, PublicKeyToken=B77A5C561934E089"/>
-````
 
 
 
-4. Register the following HTTP handlers at the end of the**<httpHandlers>** section:
 
-````XML
+4. Register the following HTTP handlers at the end of the **`<httpHandlers>`** section:
+
+	**XML**
+
 	    <add verb="*" path="*.asmx" validate="false" type="System.Web.Script.Services.ScriptHandlerFactory,
 	       System.Web.Extensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31BF3856AD364E35"/>
 	    <add verb="*" path="*_AppService.axd" validate="false" type="System.Web.Script.Services.ScriptHandlerFactory,
 	       System.Web.Extensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31BF3856AD364E35"/>
 	    <add verb="GET,HEAD" path="ScriptResource.axd" type="System.Web.Handlers.ScriptResourceHandler,
 	       System.Web.Extensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31BF3856AD364E35" validate="false"/>    
-````
 
 
 
-5. Add the following HTTP module registration to the **<httpModules>** section beneath any existing modules:
 
-````XML
+5. Add the following HTTP module registration to the **`<httpModules>`** section beneath any existing modules:
+
+	**XML**
+
 	    <add name="ScriptModule" type="System.Web.Handlers.ScriptModule, System.Web.Extensions, 
 	        Version=3.5.0.0, Culture=neutral, PublicKeyToken=31BF3856AD364E35"/>    
-````
 
 
 
-6. Add a SafeControl entry for the System.Web.UI namespace from the System.Web.Extensions assembly within the **<SharePoint>/<SafeControls>** section:
 
-````XML
+6. Add a SafeControl entry for the System.Web.UI namespace from the System.Web.Extensions assembly within the **`<SharePoint>/<SafeControls>`** section:
+
+	**XML**
+
 	    <SafeControl Assembly="System.Web.Silverlight,
 	               Version=2.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
 	               Namespace="System.Web.UI.SilverlightControls" TypeName="*" Safe="True" />
 	    <SafeControl Assembly="System.Web.Extensions,
 	               Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
 	               Namespace="System.Web.UI" TypeName="*" Safe="True" />
-````
 
 
 
-7. Since the RadEditor dll files, which are in the wsp package, are complied for .NET 2.0 framework, you need to add the following code to the <runtime><assemblyBinding> section.
 
-````XML
+7. Since the RadEditor dll files, which are in the wsp package, are complied for .NET 2.0 framework, you need to add the following code to the `<runtime><assemblyBinding>` section.
+
+	**XML**
+
 	    <dependentAssembly>
 	        <assemblyIdentity name="System.Web.Extensions" publicKeyToken="31bf3856ad364e35"/>
 	        <bindingRedirect oldVersion="1.0.0.0-1.1.0.0" newVersion="3.5.0.0"/>
@@ -127,13 +134,14 @@ After **ASP.NET 3.5** has been installed you need to modify the **web.config** f
 	        <assemblyIdentity name="System.Web.Extensions.Design" publicKeyToken="31bf3856ad364e35"/>
 	        <bindingRedirect oldVersion="1.0.0.0-1.1.0.0" newVersion="3.5.0.0"/>
 	    </dependentAssembly>
-````
 
 
 
-8. Finally, add the following configuration tags at the bottom of web.config, just before the end of the **<configuration>** tag:
 
-````XML
+8. Finally, add the following configuration tags at the bottom of web.config, just before the end of the **`<configuration>`** tag:
+
+	**XML**
+
 	    <system.web.extensions>
 	        <scripting>
 	        <webServices>
@@ -172,7 +180,7 @@ After **ASP.NET 3.5** has been installed you need to modify the **web.config** f
 	           PublicKeyToken=31BF3856AD364E35" />
 	      </handlers>
 	   </system.webServer>
-````
+
 
 
 
