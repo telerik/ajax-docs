@@ -10,10 +10,6 @@ position: 8
 
 # Frequently Asked Questions
 
-
-
-## 
-
 **Editor Not Active**
 
 Q: The page with RadEditor opens but the editor content area is not active and none of the buttons have any effect. What is the problem?
@@ -47,11 +43,8 @@ A: The original idea of the editor is to keep the user experience as close as po
 Sometimes a deployment/retracting job will hang. If the job is not finished in a reasonable time period (10 min), then you need to check if the SharePoint Administration service is running. If the service is stopped then the solution job cannot be executed.
 
 Open the Services window from the Administrative Tools and locate the **Windows SharePoint Services Administration** service. Ensure that the service is in the Running state.
->caption 
 
-![
-         
-      ](images/2_CentralAdmin_7_thumb.PNG)
+![](images/2_CentralAdmin_7_thumb.PNG)
 
 **Get the UID of a SharePoint Web with RadEditor for MOSS**
 
@@ -59,18 +52,16 @@ We have provided an easy way for you to get the UID of a Web, using the RadEdito
 
 The new application setting must be called **RadEditorSaveGuids**. The value can be any string you want. For example:
 
-<appSettings>
+	<appSettings>
 
-<add key="RadEditorSaveGuids" value="1" />
+		<add key="RadEditorSaveGuids" value="1" />
 
-</appSettings>
+	</appSettings>
 
 Save the Web.config file and open the site in your browser. Finally, navigate to the site with RadEditor and open it for editing:
 >caption 
 
-![
-         
-      ](images/3_WbPart6_thumb.png)
+![](images/3_WbPart6_thumb.png)
 
 After that, open the RadControls\Editor\ folder and you should see a file, called guids.config. This file will contain the URL of the page you just opened, along with the Web UID and a timestamp. For example:
 
@@ -80,7 +71,7 @@ In the above example the file **\Program Files\Common Files\Microsoft Shared\web
 
 In this case the UID for the site is *{a63cff5e-cdf5-48d0-898d-f9a24d299f06}*.
 
-* Note: Remember to remove the **RadEditorSaveGuids** application setting when you no longer need it (i.e. after you find the UID you want). *
+>note: Remember to remove the **RadEditorSaveGuids** application setting when you no longer need it (i.e. after you find the UID you want).
 
 **Size of editing area in WCM scenario**
 
