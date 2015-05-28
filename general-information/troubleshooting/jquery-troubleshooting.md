@@ -18,11 +18,11 @@ The article contains the following sections:
 
 * [Unobtrusive Validation Basics](#unobtrusive-validation-basics)—this section explains what unobtrusive validation is and what it needs to work.
 
-* [How To Use Unobtrusive Validation In .NET 4.5 Web Forms Site / Web Forms Application With RadScriptManager](#how-to-use-unobtrusive-validation-in-.net-4.5-web-forms-site-/-web-forms-application-with-radscriptmanager)—this section explains how to use unobtrusive validation in a web site that is created with the .NET 4.5 **Web Forms Site** or **Web Forms Application** template of Visual Studio and uses **RadScriptManager**.
+* [How To Use Unobtrusive Validation In .NET 4.5 Web Forms Site / Web Forms Application With RadScriptManager](#how-to-use-unobtrusive-validation-in-net-45-web-forms-site--web-forms-application-with-radscriptmanager)—this section explains how to use unobtrusive validation in a web site that is created with the .NET 4.5 **Web Forms Site** or **Web Forms Application** template of Visual Studio and uses **RadScriptManager**.
 
-* [How To Use Unobtrusive Validation In .NET 4.5 Telerik Web Site / Telerik Web Application](#how-to-use-unobtrusive-validation-in-.net-4.5-telerik-web-site-/-telerik-web-application)—this section explains how to use unobtrusive validation in a web site that is created with the .NET 4.5 **Telerik Web Site** or **Telerik Web Application** template of Visual Studio.
+* [How To Use Unobtrusive Validation In .NET 4.5 Telerik Web Site / Telerik Web Application](#how-to-use-unobtrusive-validation-in-net-45-telerik-web-site--telerik-web-application)—this section explains how to use unobtrusive validation in a web site that is created with the .NET 4.5 **Telerik Web Site** or **Telerik Web Application** template of Visual Studio.
 
-* [ How To Use Unobtrusive Validation In .NET 4.5 Telerik Web Site / Telerik Web Application That Has jQuery Registered In RadScriptManager](#how-to-use-unobtrusive-validation-in-.net-4.5-telerik-web-site-/-telerik-web-application-that-has-jquery-registered-in-radscriptmanager) — this section explains how touse unobtrusive validation in a web site that is created with the .NET 4.5 **Telerik Web Site** or **Telerik Web Application** template of Visual Studio and has jQuery registered with the RadScriptManager via a **ScriptReference** with **Name** property set to **jquery**.
+* [How To Use Unobtrusive Validation In .NET 4.5 Telerik Web Site / Telerik Web Application That Has jQuery Registered In RadScriptManager](#how-to-use-unobtrusive-validation-in-net-45-telerik-web-site--telerik-web-application-that-has-jquery-registered-in-radscriptmanager) — this section explains how touse unobtrusive validation in a web site that is created with the .NET 4.5 **Telerik Web Site** or **Telerik Web Application** template of Visual Studio and has jQuery registered with the RadScriptManager via a **ScriptReference** with **Name** property set to **jquery**.
 
 ## Unobtrusive Validation Basics
 
@@ -44,12 +44,12 @@ The solution in this case is to ensure that only one version of jQuery is used i
 
 1. Set the **EnableEmbeddedjQuery** property of RadScriptManager to **false** to disable the jQuery that is embedded in Telerik.Web.UI thus preventing the removal of the **jquery** registration that comes with the web site project.
 
-1. Open **TOOLS**> **Library Package Manager** > **Package Manager Console** and run the following command to uninstal land unregister the version of jQuery that is provided with the Visual Studio template: *PM> Uninstall-Package AspNet.ScriptManager.jQuery -Version x.x.x* (x.x.x is the version of jQuery that comes installed with the web site).
+1. Open **TOOLS**> **Library Package Manager** > **Package Manager Console** and run the following command to uninstal land unregister the version of jQuery that is provided with the Visual Studio template: *`PM> Uninstall-Package AspNet.ScriptManager.jQuery -Version x.x.x`* (x.x.x is the version of jQuery that comes installed with the web site).
 
 1. In the Package Manager Console run the following command to install and register the version of jQuery that is specific for your current version of the Telerik controls (you can check it in the [Using jQuery]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/using-jquery/using-jquery%}) help article): *PM> Install-Package AspNet.ScriptManager.jQuery -Version x.x.x* (x.x.x is the version of jQuery that comes with the Telerik controls).
 
->note You can install another version than the one included in the Telerik controls, but this is not tested and we cannot guarantee full compatibility.
->
+	>note You can install another version than the one included in the Telerik controls, but this is not tested and we cannot guarantee full compatibility.
+
 
 
 You now have only one version of jQuery that is used throughout your web site and by the Telerik controls, so there should be no conflicts and the unobtrusive validation should work as expected.
@@ -60,7 +60,9 @@ When you create **.NET 4.5 Telerik Web Site**, the default web form has a RadScr
 
 You can follow the steps below to setup the unobtrusive validation:
 
-1. Open **TOOLS > Library Package Manager > Package Manager Console** and run the following command to install the Microsoft Ajax optimization bundlefor Web Forms with ScriptManager:*PM> Install-Package Microsoft.AspNet.ScriptManager.WebForms -Version x.x.x* (you can check the current version of this NuGet package [in its download page](https://www.nuget.org/packages/Microsoft.AspNet.ScriptManager.WebForms)).This will install the script files WebForms.js and WebUIValidation.js on the web site.
+1. Open **TOOLS > Library Package Manager > Package Manager Console** and run the following command to install the Microsoft Ajax optimization bundlefor Web Forms with ScriptManager:
+
+	*`PM> Install-Package Microsoft.AspNet.ScriptManager.WebForms -Version x.x.x`* (you can check the current version of this NuGet package [in its download page](https://www.nuget.org/packages/Microsoft.AspNet.ScriptManager.WebForms)).This will install the script files WebForms.js and WebUIValidation.js on the web site.
 
 1. Configure RadScriptManager as shown in **Example 1** to specify that jQuery is registered before the validation scripts.
 
@@ -80,7 +82,7 @@ You can follow the steps below to setup the unobtrusive validation:
 
 ## How To Use Unobtrusive Validation In .NET 4.5 Telerik Web Site / Telerik Web Application That Has jQuery Registered In RadScriptManager
 
-Even if you created a web site with the **.NET 4.5 Telerik Web Site** Visual Studio template, you can still have an additional jQuery version that is registered withRadScriptManager as **jquery**. This can happen, for example, if you installed the AspNet.ScriptManager.jQuery NuGet package. This puts you in situation similar to the one that is described in the [How To Use Unobtrusive Validation In .NET 4.5 Web Forms Site With RadScriptManager](#how-to-use-unobtrusive-validation-in-.net-4.5-web-forms-site-/-web-forms-application-with-radscriptmanager) section, because you have two registered versions of jQuery - one with the Telerik controls and one with the NuGet package.
+Even if you created a web site with the **.NET 4.5 Telerik Web Site** Visual Studio template, you can still have an additional jQuery version that is registered withRadScriptManager as **jquery**. This can happen, for example, if you installed the AspNet.ScriptManager.jQuery NuGet package. This puts you in situation similar to the one that is described in the [How To Use Unobtrusive Validation In .NET 4.5 Web Forms Site / Web Forms Application With RadScriptManager](#how-to-use-unobtrusive-validation-in-net-45-web-forms-site--web-forms-application-with-radscriptmanager) section, because you have two registered versions of jQuery - one with the Telerik controls and one with the NuGet package.
 
 The solution is also similar because you need to leave only one version of jQuery on the web site, however in this case the order for registering the scripts in RadScriptManager is not defined by the Visual Studio template so you need to configure it manually.
 
@@ -88,11 +90,12 @@ You can use the following steps to configure the unobtrusive validation when you
 
 1. Set the **EnableEmbeddedjQuery** property of RadScriptManager to **false** to disable the jQuery that is embedded in Telerik.Web.UI thus preventing the removal of the **jquery** registration that comes with the web site project.
 
-1. Open **TOOLS**> **Library Package Manager** > **Package Manager Console** and run the following command to uninstall and unregister the version of jQuery that comes with the web site: *PM> Uninstall-Package AspNet.ScriptManager.jQuery -Version x.x.x* (x.x.x is the version of jQuery that comes installed with the web site).
+1. Open **TOOLS**> **Library Package Manager** > **Package Manager Console** and run the following command to uninstall and unregister the version of jQuery that comes with the web site: *`PM> Uninstall-Package AspNet.ScriptManager.jQuery -Version x.x.x`* (x.x.x is the version of jQuery that comes installed with the web site).
 
-1. In the Package Manager Console run the following command to install and register the version of jQuery that is specific for your current version of the Telerik controls (you can check it in the [Using jQuery]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/using-jquery/using-jquery%}) help article): *PM> Install-Package AspNet.ScriptManager.jQuery -Version x.x.x* (x.x.x is the version of jQuery that comes with the Telerik controls).
->note You can install another version than the one included in the Telerik controls, but this is not tested and we cannot guarantee full compatibility.
->
+1. In the Package Manager Console run the following command to install and register the version of jQuery that is specific for your current version of the Telerik controls (you can check it in the [Using jQuery]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/using-jquery/using-jquery%}) help article): *`PM> Install-Package AspNet.ScriptManager.jQuery -Version x.x.x`* (x.x.x is the version of jQuery that comes with the Telerik controls).
+
+	>note You can install another version than the one included in the Telerik controls, but this is not tested and we cannot guarantee full compatibility.
+
 
 1. Run the following command in the Package Manager Console to install the Microsoft Ajax optimization bundlefor Web Forms with ScriptManager:*PM> Install-Package Microsoft.AspNet.ScriptManager.WebForms -Version x.x.x* (you can check the current version of this NuGet package [in its download page](https://www.nuget.org/packages/Microsoft.AspNet.ScriptManager.WebForms)).This will install the script files WebForms.js and WebUIValidation.js on the web site.
 
