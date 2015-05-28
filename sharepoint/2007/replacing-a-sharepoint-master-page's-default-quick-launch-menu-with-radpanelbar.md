@@ -12,7 +12,6 @@ position: 6
 
 
 
-## 
 
 This topic explains how to switch the SharePoint's Quick Launch menu in SharePoint site's default.master page with RadPanelbar. The control exposes advanced client and server-side capabilities from which your SharePoint site can benefit (without any extra coding).
 
@@ -23,17 +22,17 @@ In order to substitute the Quick launch UI of the SharePoint master page, follow
 1. Launch Office SharePoint designer and open the desired SharePoint site
 
 1. Within the Folder List tool window expand the tree until the master pages folder is visible. A typical location is **http://server_name/_catalogs/masterpage**
->caption 
 
-![](images/moss2.gif)
+	![](images/moss2.gif)
 
 1. Open the master page currently used by your site (e.g. default.master). If prompted to check out the file select “Yes”.
 
 1. Insert the following @Register directive in the default.master page:
 
-````ASP.NET
-	<%@ Register TagPrefix="telerik" Namespace="Telerik.Web.UI" Assembly="Telerik.Web.UI, Version=x.x.x.x, Culture=neutral, PublicKeyToken=121fae78165ba3d4" %>
-````
+	**ASP.NET**
+
+		<%@ Register TagPrefix="telerik" Namespace="Telerik.Web.UI" Assembly="Telerik.Web.UI, Version=x.x.x.x, Culture=neutral, PublicKeyToken=121fae78165ba3d4" %>
+
 
 
 
@@ -43,7 +42,8 @@ In order to substitute the Quick launch UI of the SharePoint master page, follow
 
 1. Delete or comment the markup of the default menu control and insert the RadPanelbar definition as specified below:
 
-````ASP.NET
+	**ASP.NET**
+
 	    <%--
 	        <SharePoint:AspMenu
 	           id="QuickLaunchMenu"
@@ -72,17 +72,18 @@ In order to substitute the Quick launch UI of the SharePoint master page, follow
 	    --%>
 	    <telerik:RadPanelBar ID="QuickLaunchPanelBar" runat="server" DataSourceID="QuickLaunchSiteMap"
 	        Skin="Windows7" />
-````
 
-Keep in mind that you need to set the same *DataSourceID *value for RadPanelbar to display the same site navigation structure in it.
+
+	Keep in mind that you need to set the same *DataSourceID *value for RadPanelbar to display the same site navigation structure in it.
 
 1. Find the SPNavigationManager control with id *QuickLaunchNavigationManager*, and alter its *QuickLaunchControlId *property to point to our RadPanelbar's id.
 
-````XML
-	        <sharepoint:spnavigationmanager id="QuickLaunchNavigationManager" runat="server"
+	**XML**
+
+		<sharepoint:spnavigationmanager id="QuickLaunchNavigationManager" runat="server"
 	            quicklaunchcontrolid="QuickLaunchPanelBar" containedcontrol="QuickLaunch" enableviewstate="false">
 	                ... 	
-````
+
 
 
 
