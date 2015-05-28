@@ -19,7 +19,7 @@ A big part of the appeal of jQuery is that it allows you to elegantly (and effic
 [Microsoft will be shipping jQuery with Visual Studio going forward.](http://weblogs.asp.net/scottgu/archive/2008/09/28/jquery-and-microsoft.aspx)
 
 
-You can find more information on the official web site ([(http://jquery.com](http://jquery.com)).
+You can find more information on the official web site ([http://jquery.com](http://jquery.com)).
 
 # Other Resources
 

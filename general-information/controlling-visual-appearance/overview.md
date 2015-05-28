@@ -22,9 +22,7 @@ The visual appearance of Telerik UI for ASP.NET AJAX is defined through "skins".
 
 To use a skin you just need to set the **Skin** property of the control to the designated skin name.Keep in mind that skin names are case-sensitive. You can set the Skin property declaratively, in design time or from code-behind.
 
->note  **Important !!!** 
->If you are using a custom skin, you need to set the **EnableEmbeddedSkins** property to **false** .	If you don't do that, the control will try to register an embedded skin with the specified name and will fail with an exception.	For more information you can check the[How skins work]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/how-skins-work%})and[Skin registration]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/skin-registration%})topics.
->
+>important If you are using a custom skin, you need to set the **EnableEmbeddedSkins** property to **false** .	If you don't do that, the control will try to register an embedded skin with the specified name and will fail with an exception. For more information you can check the [How skins work]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/how-skins-work%}) and [Skin registration]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/skin-registration%}) topics.
 
 ## Setting the skin from design time
 
@@ -38,30 +36,31 @@ To set the skin in design time you need to follow these steps:
 
 1. To use a built-in skin:
 
-1. Open the drop-down control which contains all built-in skins.
+	1. Open the drop-down control which contains all built-in skins.
 
-1. Select a value from the drop-down to set that skin.
-![](images/introduction-skinpropertygrid.png)
+	1. Select a value from the drop-down to set that skin.
+
+		![](images/introduction-skinpropertygrid.png)
 
 1. To use a custom (user-defined) skin:
 
-1. Register the CSS file(s) of the skin to the Page (unless they are placed in an ASP.NET theme folder).
+	1. Register the CSS file(s) of the skin to the Page (unless they are placed in an ASP.NET theme folder).
 
-1. Set the **EnableEmbeddedSkins** property to **false.**
+	1. Set the **EnableEmbeddedSkins** property to **false.**
 
-1. Type the name of the skin in the text box.
-![](images/introduction-skincustompropertygrid.png)
+	1. Type the name of the skin in the text box.
+
+		![](images/introduction-skincustompropertygrid.png)
 
 ## Setting the skin declaratively
 
 To set the skin declaratively you need to set the **Skin** attribute of the control tag. Keep in mind that it is case-sensitive.
 
-`<telerik:RadSlider ID="RadSlider1" **Skin="Outlook"** runat="server" />`
+`<telerik:RadSlider ID="RadSlider1" Skin="Outlook" runat="server" />`
 
 ## Setting the skin from code-behind
 
 To set the skin from code-behind you need to set the Skin property of the control to the designated value:
-
 
 ````C#
 <TelerikControl>.Skin = "Outlook";
@@ -69,7 +68,6 @@ To set the skin from code-behind you need to set the Skin property of the contro
 ````VB
 <TelerikControl>.Skin = "Outlook"				
 ````
-
 
 ## Setting the skin globally from web.config
 

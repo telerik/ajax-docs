@@ -34,7 +34,7 @@ Telerik.[Product].VSPackage which is part of the VSExtensions failed to load pro
 * Start a Visual Studio Command Prompt (*Start menu -> Microsoft Visual Studio 20xx -> Visual Studio Tools -> Visual Studio 20xx Command Prompt*);
 ![Visual Studio 2012 Command Prompt](images/introduction-vsx_troubleshooting_vsprompt.png)
 
-* type *devenv.exe /resetskippkgs *and hit Enter;
+* type *devenv.exe /resetskippkgs* and hit Enter;
 
 * Check the Telerik menu, or try to create new Telerik project (they should work properly);
 
@@ -57,6 +57,7 @@ If Visual Studio 2012 is used
 * Go toTools | Extensions and Updates (Visual Studio 2010: Tools | Extension Manager)
 
 * Select Telerik [Product] VSExtensions and press Uninstall button
+
 ![Uninstalling extension](images/introduction-vsx_troubleshooting_uninstall_extension.png)
 
 * Go to the Online Gallery and search for Telerik [Product] VSExtensions. Download the extensions and install them

@@ -41,26 +41,18 @@ Here is a list of the required steps to perform:
 1. Pick a name for your skin. We will use "MySkin" for the example.
 
 1. Rename the "Telerik" folder to "MySkin". Renaming is optional but will imply that the skin is a custom skin. Renaming the skin is required if you intend to use it together with an embedded skin with the same name on the same page.If you rename the folder it is a good idea to rename the CSS file as well, for example "ColorPicker.MySkin.css"
->caution  **Important !!!** 
->A similar CSS selector is used in all skins. The naming convention is .Rad[Control]_[Skin]. Here are a few examples:
->
-* .RadSlider_Inox
-* .RadColorPicker_Telerik>If you rename an existing skin, you must rename all skin suffixes in the CSS class names as follows:
->.ClassName_Telerik --> .ClassName_MySkin
->
-
+	
+	>important A similar CSS selector is used in all skins. The naming convention is .Rad[Control]_[Skin]. For example *.RadSlider_Inox* or *.RadColorPicker_Telerik*. If you rename an existing skin, you must rename all skin suffixes in the CSS class names as follows *.ClassName_Telerik --> .ClassName_MySkin*.
+	
 1. Register the CSS file in your page. See the [Skin Registration]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/skin-registration%}) topic for more details.
 
 1. Set the **Skin** property of your RadColorPicker to "**MySkin**". Then set the **EnableEmbeddedSkins** property to **false**.
->caution  **Important !!!** 
->If you don't set **EnableEmbeddedSkins** to **false** an exception will be thrown saying that RadColorPicker cannot find an embedded skin named "MySkin". For more information you can check the[How skins work]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/how-skins-work%})and[Skin registration]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/skin-registration%})topics.
->
+
+	>important If you don't set **EnableEmbeddedSkins** to **false** an exception will be thrown saying that RadColorPicker cannot find an embedded skin named "MySkin". For more information you can check the [How skins work]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/how-skins-work%}) and [Skin registration]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/skin-registration%}) topics.
 
 1. Modify CSS rules to match your visual requirements. Save the CSS file.
 
 1. Run the project. If all steps are performed correctly the RadColorPicker should use your newly defined skin.
-
-
 
 ## Create a Custom Skin dll from an Existing Custom Skin with Skin's Assembly Builder
 

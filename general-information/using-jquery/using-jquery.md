@@ -12,7 +12,7 @@ position: 1
 
 
 
-This help articles shows how to include and use embedded and external jQuery with Telerik UI for ASP.NET AJAX suitea nd lists the jQuery version history used by the controls.
+This help articles shows how to include and use embedded and external jQuery with Telerik UI for ASP.NET AJAX suite and lists the jQuery version history used by the controls.
 
 1. [Including jQuery](#including-jquery)
 
@@ -29,17 +29,18 @@ This help articles shows how to include and use embedded and external jQuery wit
 If you have any of the controls listed in the [Telerik UI Controls Using jQuery](#telerik-ui-controls-using-jquery) section (with the specified version or newer) on your page then the jQuery **is already included** and you can omit this paragraph. If not - follow these steps:
 
 1. Add a ScriptReference pointing to **Core.js** as we use a slightly customized version of jQuery which depends on Core.js.
-We have not modified the implementation of jQuery in any way. We have just appended a few more lines of JavaScript at the end of the file in order toavoid any version conflict and to include a few useful jQuery plugins.
-````ASP.NET
-	<asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Core.js" /> 
-````
+	
+	We have not modified the implementation of jQuery in any way. We have just appended a few more lines of JavaScript at the end of the file in order to avoid any version conflict and to include a few useful jQuery plugins.
+	
+	**ASP.NET**
+
+		<asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Core.js" /> 
 
 1. Add a ScriptReference pointing to **jQuery.js**
 
-````ASP.NET
-<asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQuery.js" /> 
-````
-
+	**ASP.NET**
+	
+		<asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQuery.js" /> 
 
 Here is how your RadScriptManager (or ScriptManager) should look like in the end:
 
@@ -52,12 +53,11 @@ Here is how your RadScriptManager (or ScriptManager) should look like in the end
 </telerik:RadScriptManager> 
 ````
 
-
 ## Including external jQuery
 
 You can disable the embedded jQuery library and include an external one. This lets you use your own version for the **$telerik.$** variable, which exposes the embedded jQuery library.
 
->note Embedding a custom jQuery is optional and you can do it if you want to utilize only one version throughout your site instead of having the version that comes with the Telerik controls and an additional one. You should be safe if you reference more versions, because the jQuery in our controls is accessed via a separate alias ( **$telerik.$** ), the purpose of which is to avoid conflicts.
+>note Embedding a custom jQuery is optional and you can do it if you want to utilize only one version throughout your site instead of having the version that comes with the Telerik controls and an additional one. You should be safe if you reference more versions, because the jQuery in our controls is accessed via a separate alias (**$telerik.$**), the purpose of which is to avoid conflicts.
 >
 
 You can disable the jQuery scripts our controls bring by default via the following steps:
@@ -70,7 +70,7 @@ You can disable the jQuery scripts our controls bring by default via the followi
 </head>
 ````
 
-1. Disable the embedded jQuery library as described in [Disabling the embedded jQuery](43f5f2f8-9c0f-4982-95db-fdafa058c347) help article.
+1. Disable the embedded jQuery library as described in [Disabling the embedded jQuery]({%slug scriptmanager/disabling-the-embedded-jquery%}) help article.
 
 1. Configure the ScriptReferences in **RadScriptManager** as shown in following sample. The script that integrates the external jQuery library in our client-side library is located in the file **jQueryExternal.js**.
 ````ASP.NET
@@ -101,7 +101,7 @@ Fortunately there are easy workarounds to enable back the **$ alias.** Choose on
 </script> 
 ````
 
-1.Using a self-calling anonymous function (**Example 1**):
+1. Using a self-calling anonymous function (**Example 1**):
 ````JavaScript
 <script type="text/javascript">
 	(function ($) {
@@ -198,7 +198,6 @@ Telerik UI for ASP.NET AJAX Q1 / Q2 2009 are using jQuery version 1.3.2
 ## Telerik UI Controls Using jQuery
 
 As of Q3 2008, the Telerik.Web.UI assembly includes the jQuery JavaScript library. **Table 1** shows a list of Telerik controls that are using jQuery.
-
 
 >caption Table 1: Telerik UI controls which use jQuery.
 

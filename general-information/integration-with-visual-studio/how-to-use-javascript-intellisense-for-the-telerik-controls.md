@@ -10,21 +10,15 @@ position: 1
 
 # How to Use JavaScript Intellisense for the Telerik Controls
 
-
-
-## 
-
 >note This article explains how to enable JavaScript intellisense for a given Telerik control's client-side properties and methods.
 >This intellisense is different than the default JavaScript intellisense Visual Studio offers and does not affect it.
->The jQuery and Telerik Static client library intellisense are also a separate feature and are described in[this help article]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/using-jquery/jquery-intellisense%}).
->
-
+>The jQuery and Telerik Static client library intellisense are also a separate feature and are described in [this help article]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/using-jquery/jquery-intellisense%}).
 
 The **Telerik UI For ASP.NET AJAX** offer intellisense information for the **code-behind** out of the box as Visual Studio automatically loads the needed information from our assembly. It can display it without any further configuration, because the type of the variables is known.
 
 The case with **JavaScript** is a bit more complex, because it is a weakly typed programming language, i.e. a variable does not need a type to function and thus Visual Studio cannot know what information to load for it.
 
-You can overcome this difficulty by casting the objects which hold references to the **Telerik controls** to their respective type by using the method each control provides in the [Telerik static client library](71D00FDE-F1BE-4854-AEBC-6CE83DEEE95C), for example:
+You can overcome this difficulty by casting the objects which hold references to the **Telerik controls** to their respective type by using the method each control provides in the [Telerik static client library]({%slug controls/telerik-static-client-library%}), for example:
 
 ````JavaScript
 <telerik:RadScriptManager runat="server" ID="rsm1"></telerik:RadScriptManager>

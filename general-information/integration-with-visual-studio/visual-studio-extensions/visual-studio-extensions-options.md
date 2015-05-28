@@ -15,6 +15,7 @@ position: 8
 The Visual Studio Extensions options dialog provides settings, so you can configure the Telerik Visual Studio Extensions to best suit your needs.
 
 It can be accessed through **Visual Studio | Telerik | VSExtensions Options**
+
 ![Options Menu](images/introduction-vsx_optionsdialog_menu.png)
 
 The Options dialog contains two sets of options that affect the **Telerik UI for ASP.NET AJAX** Visual Studio Extensions.
@@ -22,6 +23,7 @@ The Options dialog contains two sets of options that affect the **Telerik UI for
 ## General Settings
 
 The settings under the General category affect all of the installed **Telerik Visual Studio Extensions**.
+
 ![General Settings](images/introduction-vsx_optionsdialog_general.png)
 
 ### Project setup
@@ -39,28 +41,24 @@ The settings under the General category affect all of the installed **Telerik Vi
 **Notify me when a Telerik subscription I have is about to expire** – When enabled, you will receive reminders if any of your subscriptions expire within the next month.
 
 >note You can benefit subscription reminders only if you have saved your credentials in the [Latest Version Acquirer tool]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/automatic-latest-version-retrieval%}).
->
-
 
 ### Select a folder for downloads
 
 Configures the path where the extensions look for and store distributions.
 
 >note Changing the folder path will not move existing folder contents from your previous path. Please, move your previous folder contents manually in case you still want to use them.
->
-
 
 ## Telerik UI for ASP.NET AJAX Settings
 
-All settings falling under the AJAX category affect only the **Telerik UI for ASP.NET AJAX** Visual Studio Extensions.![AJAX Settings](images/introduction-vsx_optionsdialog_specific.png)
+All settings falling under the AJAX category affect only the **Telerik UI for ASP.NET AJAX** Visual Studio Extensions.
+
+![AJAX Settings](images/introduction-vsx_optionsdialog_specific.png)
 
 ### Project Health
 
 **Display warnings when possible design-time break detected** – When enabled, you will receive warnings if the **Telerik Visual Studio Extensions** detect specific conditions, known to cause design-time issues.
 
 >note The most common of the conditions is the absence of Service Pack 1 for Visual Studio 2008 ([read more]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/troubleshooting/design-time-troubleshooting%})).
->
-
 
 ### Latest version retrieval
 
@@ -68,4 +66,4 @@ All settings falling under the AJAX category affect only the **Telerik UI for AS
 
 ### Notifications
 
-**Show me a message when a newer version is available on** – When enabled, you will receive notifications if a new version of **Telerik UI for ASP.NET AJAX** is available on the Telerik website.
+**Show me a message when a newer version is available** – When enabled, you will receive notifications if a new version of **Telerik UI for ASP.NET AJAX** is available on the Telerik website.

@@ -48,12 +48,9 @@ If you have a custom skin, follow these steps:
 
 It is mandatory to set the **EnableEmbeddedSkins** property to **false** because "MySkin" is not one of the embedded skins. For more details see the [Creating a custom skin]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/creating-a-custom-skin%}) topic.
 
->caution  **Important !!!** 
->You **don't** need to manually register the CSS file of your custom skin when you are using ASP.NET themes. The framework will automatically register any CSS files found in the current theme folder (~/App_Themes/MyTheme).
->
-
+>important You **don't** need to manually register the CSS file of your custom skin when you are using ASP.NET themes. The framework will automatically register any CSS files found in the current theme folder (~/App_Themes/MyTheme).
 
 >caution  **Internet Explorer limitation** 
->Note that Internet Explorer is unable to handle more than 31 CSS files on a page. If the ASP.NET theme contains more CSS files, you must combine them in some way, otherwise some of them will not be applied at all. In order to combine embedded CSS files, you can use[RadStyleSheetManager](http://www.telerik.com/help/aspnet-ajax/radstylesheetmanager.html).
+>Note that Internet Explorer is unable to handle more than 31 CSS files on a page. If the ASP.NET theme contains more CSS files, you must combine them in some way, otherwise some of them will not be applied at all. In order to combine embedded CSS files, you can use [RadStyleSheetManager](http://www.telerik.com/help/aspnet-ajax/radstylesheetmanager.html).
 >
 

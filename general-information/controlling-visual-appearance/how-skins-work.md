@@ -10,10 +10,6 @@ position: 1
 
 # How Skins Work
 
-
-
-## Skin types
-
 ## Built-in skins
 
 These are the skins provided by Telerik. Since Q3 2011 they are embedded in the Telerik.Web.UI.Skins.dll assembly as web resources (they were previously in the Telerik.Web.UI.dll assembly). To use a built-in skin the developer only needs to set the **Skin** property of the control. Non-embedded versions of the built-in skins are provided in "*C:\Program Files\Telerik\UI for ASP.NET AJAX suiteversion\Skins*" and in the **/Skins/** folder inside the Telerik UI for ASP.NET AJAX installation ZIP archive. The complete list of embedded skins is available below:
@@ -58,13 +54,9 @@ These are the skins provided by Telerik. Since Q3 2011 they are embedded in the 
 
 1. **Windows7**
 
->important The **Bootstrap** skin has **no _font-size_** specified. This means that the Telerik UI for ASP.NET AJAX controls will inherit	the font-size setting from the page (or their nearest parent element). This facilitates	customizations on the skin and integrating it in existing templates.	Not all font-sizes may result in flawless appearance, however. The controls are tested with,	and designed for **14px Arial** font.
->
-
+>important The **Bootstrap** skin has **no _font-size_** specified. This means that the Telerik UI for ASP.NET AJAX controls will inherit the font-size setting from the page (or their nearest parent element). This facilitates	customizations on the skin and integrating it in existing templates. Not all font-sizes may result in flawless appearance, however. The controls are tested with, and designed for **14px Arial** font.
 
 >note The **Hay** , **Forest** , **Sitefinity** and **Transparent** skins are obsolete and have been removed from the Telerik.Web.UI.Skins.dll assembly as of **Q1 2014** .	You can find more information on the matter in [this blog post](http://blogs.telerik.com/aspnet-ajax/posts/13-04-11/6-telerik-asp.net-ajax-skins-going-obsolete).
->
-
 
 ## Custom skins
 
@@ -87,6 +79,7 @@ Usually, a Telerik control has some collection of CSS styles, which should be ap
 ## Skin folder structure
 
 A skin consists of a CSS file and images. Here is a typical skin folder structure:
+
 ![](images/introduction-skinfolderstructure.png)
 
 The CSS files are named in the following manner: **[Control].[Skin].css** e.g. **Slider.Glow.css**.
@@ -94,8 +87,6 @@ The CSS files are named in the following manner: **[Control].[Skin].css** e.g. *
 The images are stored in a folder named after the control.
 
 The base stylesheets (if present as non-embedded files) are stored in the parent folder of all skin folders and are named after the control - e.g. Slider.css
-
-
 
 >note For more information about Telerik controls skinning, we recommend watching the following video:
 >[Skinning - Deep Dive for the Telerik UI for ASP.NET AJAX](http://tv.telerik.com/aspnet/webinar/skinning-deep-dive-radcontrols-aspnet-ajax)

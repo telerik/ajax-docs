@@ -19,8 +19,6 @@ Separate sections below explain the cases for the different Visual Studio versio
 ## jQuery IntelliSense in VS 2012 and VS 2013 using Telerik UI for ASP.NET AJAX Q3 2012 or later
 
 >note IntelliSense will not work if **RadScriptManager** is used instead of ScriptManager. For all intents and purposes,the reference to the later seems to be hard coded in Visual Studio. So, when you write your code you can use the ScriptManagerto get the intellisense working and when ready - replace the ScriptManager with **RadScriptManager** .
->
-
 
 The following simple markup provides IntelliSense for the current page:
 
@@ -32,32 +30,31 @@ The following simple markup provides IntelliSense for the current page:
 </asp:ScriptManager>
 ````
 
-
-
 You can also enable it for all pages by creating a custom page and adding it to the VS settings:
 
 1. Create a sample aspx page (e.g. IntellisenseJSReference.aspx) with the following mark up:
 
-````ASP.NET
-<asp:ScriptManager runat="server" ID="ScriptManager3">
-   <Scripts>
-       <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Core.js" />
-       <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQuery.js" />
-       <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQueryInclude.js" />
-   </Scripts>
-</asp:ScriptManager> 
-````
-
+	**ASP.NET**
+	
+		<asp:ScriptManager runat="server" ID="ScriptManager3">
+		   <Scripts>
+			   <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Core.js" />
+			   <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQuery.js" />
+			   <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQueryInclude.js" />
+		   </Scripts>
+		</asp:ScriptManager> 
 
 1. Go to Tools -> Options, find TextEditor -> JavaScript -> IntelliSense -> References menu. Set Reference Group to Implicit(Web):
-![introduction-jquery-intellisense-vs 2012-common-page-1](images/introduction-jquery-intellisense-vs2012-common-page-1.png)
+
+	![introduction-jquery-intellisense-vs 2012-common-page-1](images/introduction-jquery-intellisense-vs2012-common-page-1.png)
 
 1. Add the created aspx page as a reference and click OK:
-![introduction-jquery-intellisense-vs 2012-common-page-2](images/introduction-jquery-intellisense-vs2012-common-page-2.png)
+
+	![introduction-jquery-intellisense-vs 2012-common-page-2](images/introduction-jquery-intellisense-vs2012-common-page-2.png)
 
 1. Go to sample page and test the javascript intellisense
-![introduction-jquery-intellisense-vs 2012-common-page-3](images/introduction-jquery-intellisense-vs2012-common-page-3.png)
 
+	![introduction-jquery-intellisense-vs 2012-common-page-3](images/introduction-jquery-intellisense-vs2012-common-page-3.png)
 
 ## jQuery IntelliSense in VS 2010 using Telerik UI for ASP.NET AJAX Q2 2011 SP1 or later
 
@@ -67,8 +64,6 @@ Since the Q2 2011 SP1 release of Telerik UI for ASP.NET AJAX, IntelliSense is au
 <telerik:RadScriptManager runat="server" ID="RadScriptManager1">
 </telerik:RadScriptManager> 
 ````
-
-
 
 If you have been using the script references before, you can safely remove them with the new release:
 
@@ -80,8 +75,6 @@ You no longer need these for jQuery intellisense
     <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQueryInclude.js" />
 </Scripts>
 ````
-
-
 
 ## jQuery IntelliSense in VS 2008 using Telerik UI for ASP.NET AJAX Q1 2011 or later
 
@@ -95,8 +88,6 @@ Since the Q1 2011 release of Telerik UI for ASP.NET AJAX, jQuery IntelliSense do
 </asp:ScriptManager>
 ````
 
-
-
 ## Enable jQuery Intellisense using Telerik UI for ASP.NET AJAX Q1 2009 SP1 or higher
 
 1. Install Visual Studio 2008 SP1
@@ -105,22 +96,20 @@ Since the Q1 2011 release of Telerik UI for ASP.NET AJAX, jQuery IntelliSense do
 
 3. Add the following script references in your page:
 
-````ASP.NET
-<asp:ScriptManager runat="server" ID="ScriptManager1">
-   <Scripts>
-       <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Core.js" />
-       <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQuery.js" />
-       <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQueryInclude.js" />
-   </Scripts>
-</asp:ScriptManager> 
-````
-
+	**ASP.NET**
+	
+		<asp:ScriptManager runat="server" ID="ScriptManager1">
+		   <Scripts>
+			   <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Core.js" />
+			   <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQuery.js" />
+			   <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQueryInclude.js" />
+		   </Scripts>
+		</asp:ScriptManager> 
 
 >note IntelliSense will not work if **RadScriptManager** is used instead of ScriptManager. For all intents and purposes, the reference to the later seems to be hard coded in Visual Studio. So, when you write your code you can use the ScriptManager to get the intellisense working and when ready - replace the ScriptManager with **RadScriptManager** 
->
-
 
 Here is a screenshot:
+
 ![](images/introduction-jqueryintellisense_each.png)
 
 ## Enable jQuery Intellisense using Telerik UI for ASP.NET AJAX version Q3 2008
@@ -133,27 +122,25 @@ Here is a screenshot:
 
 4. Add a new file to your project, **jquery-telerik.js**, with the following content:
 
-````JavaScript
-var jQuery = window.jQuery = window.$ = $telerik.$;
-````
+	**JavaScript**
+	
+		var jQuery = window.jQuery = window.$ = $telerik.$;
 
+	This will make jQuery accessible under its default alias - $.
 
-This will make jQuery accessible under its default alias - $.
-
-Make sure that both jquery-telerik.js and jquery-telerik-vsdoc.js are in the same folder.
+	Make sure that both jquery-telerik.js and jquery-telerik-vsdoc.js are in the same folder.
 
 5. Add script references for jQuery and the jquery-telerik.js file in the ScriptManager on the page:
 
-````ASP.NET
-<asp:ScriptManager ID="ScriptManager" runat="server">
-   <Scripts>
-       <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Core.js" />
-       <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQuery.js" />
-       <asp:ScriptReference Path="~/jquery-telerik.js" />
-   </Scripts>
-</asp:ScriptManager> 
-````
+	**ASP.NET**
 
+		<asp:ScriptManager ID="ScriptManager" runat="server">
+		   <Scripts>
+			   <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Core.js" />
+			   <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQuery.js" />
+			   <asp:ScriptReference Path="~/jquery-telerik.js" />
+		   </Scripts>
+		</asp:ScriptManager> 
 
 ### See Also
 

@@ -173,7 +173,7 @@ Here follows a list with all the available appSettings keys for the Telerik UI f
 
 * **Telerik.ScriptManager.TelerikCdn.BaseSecureUrl**—lets you configure the base secure (HTTPS) URL of the scripts CDN for the entire application. You can read more about this feature in the [Custom CDN Provider]({%slug scriptmanager/cdn-support/custom-cdn-provider%}) article. 
 
-* **Telerik.ScriptManager.TelerikCdn.BaseUrl**—lets you configure the base URL of the scripts CDN for the entire application. You can read more about this feature in the [Custom CDN Provider](s{%slug scriptmanager/cdn-support/custom-cdn-provider%}) article. 
+* **Telerik.ScriptManager.TelerikCdn.BaseUrl**—lets you configure the base URL of the scripts CDN for the entire application. You can read more about this feature in the [Custom CDN Provider]({%slug scriptmanager/cdn-support/custom-cdn-provider%}) article. 
 
 * **Telerik.ScriptManager.TelerikCdn.CombinedResource**—lets you configure whether to use one combined resource files (scripts) or let each control request its scripts separately. You can read more about this feature in the [Scripts CDN Overview]({%slug scriptmanager/cdn-support/overview%}) article. 
 
