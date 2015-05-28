@@ -11,16 +11,11 @@ position: 0
 # Defining custom CSS styles
 
 
-
-## 
-
-Telerik RadEditor uses the same CSS files as the default rich-text editor. Those files are **HtmlEditorTableFormats**.**css** and **HtmlEditorCustomStyles.css,** which are located in the following folder:
+Telerik RadEditor uses the same CSS files as the default rich-text editor. Those files are **HtmlEditorTableFormats.css** and **HtmlEditorCustomStyles.css,** which are located in the following folder:
 
 `/Program Files/Common Files/Microsoft Shared/web server extensions/12/Template/Layouts/1033/Styles`
 
 >note The folder location can be different if you are not using US English version of MOSS. The 1033 number signifies the current culture and might be different for different language versions of MOSS.
->
-
 
 By modifying these CSS files you can add, edit, and delete CSS styles which are displayed in the "Apply CSS class" dropdown and are applied to the editor's content. When defining styles you don't have to use Microsoft's naming convention with the **.ms-rteCustom** prefix.
 
@@ -36,24 +31,24 @@ The CssEditor.css file will also be automatically loaded in presentation mode (i
 
 and add the following line:
 
-@import url("/_wpresources/RadEditorSharePoint/5.x.x.0**1f131a624888eeed/Resources/CssEditor.css");
+`@import url("/_wpresources/RadEditorSharePoint/5.x.x.0**1f131a624888eeed/Resources/CssEditor.css");`
 
-RadEditor for MOSS can be configured to load external CSS files as well. Thanks to the CssFiles property, you can specify a list of CSS files, which you need the editor to use. In order to do this you need to modify the respective ToolsFile.xml or ListToolsFile.xml, which are located in the `/Program Files/Common Files/Microsoft Shared/web server extensions/wpresources/RadEditorSharePoint/5.x.x.0**1f131a624888eeed/Resources/` folder. For example if you create Styles1.css and Styles2.css files in the same folder the code that you need to add is:
+RadEditor for MOSS can be configured to load external CSS files as well. Thanks to the CssFiles property, you can specify a list of CSS files, which you need the editor to use. In order to do this you need to modify the respective ToolsFile.xml or ListToolsFile.xml, which are located in the `/Program Files/Common Files/Microsoft Shared/web server extensions/wpresources/RadEditorSharePoint/5.x.x.0**1f131a624888eeed/Resources/` folder. For example if you create **Styles1.css** and **Styles2.css** files in the same folder the code that you need to add is:
 
 ````XML
-	    <root>
-	        ....
-	        <cssFiles>
-	           <item name="/_wpresources/RadEditorSharePoint/5.x.x.0**1f131a624888eeed/Resources/Styles1.css" />
-	           <item name="/_wpresources/RadEditorSharePoint/5.x.x.0**1f131a624888eeed/Resources/Styles2.css" />
-	        </cssFiles>
-	        ...
-	    </root>
+<root>
+	....
+	<cssFiles>
+	   <item name="/_wpresources/RadEditorSharePoint/5.x.x.0**1f131a624888eeed/Resources/Styles1.css" />
+	   <item name="/_wpresources/RadEditorSharePoint/5.x.x.0**1f131a624888eeed/Resources/Styles2.css" />
+	</cssFiles>
+	...
+</root>
 ````
 
 
 
-More information you can find in the following online help article:[External CSS Files](88C1DD5C-6AF5-487F-B646-1321FADC0138).
+More information you can find in the following online help article: [External CSS Files]({%slug editor/functionality/toolbars/dropdowns/external-css-files%}).
 
 Note that in some scenarios, it is useful to manually check what styles are applied to the editor's content before and after it is submitted. Thus, you can trace if some global styles are ruing your design. This can be easily done using [IE Dev Toolbar](http://www.microsoft.com/downloads/details.aspx?familyid=e59c3964-672d-4511-bb3e-2d5e1db91038&displaylang=en) or [FireBug](http://getfirebug.com/).
 
