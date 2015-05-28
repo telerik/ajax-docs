@@ -10,10 +10,6 @@ position: 2
 
 # Setting ConfigFile and ToolsFile properties for the WCM field
 
-
-
-## 
-
 You can set the ConfigFile and ToolsFile properties of the RadEditor for MOSS in the WCM field by using the SharePoint Designer. To do so:
 
 1. Open SharePoint Designer and navigate to the desired page
@@ -26,9 +22,4 @@ You can set the ConfigFile and ToolsFile properties of the RadEditor for MOSS in
 
 1. Save/Check-In the file so the changes are applied to your site.
 
-
->caption 
-
-![
-         
-      ](images/configfileWCM_thumb.PNG)
+![](images/configfileWCM_thumb.PNG)
