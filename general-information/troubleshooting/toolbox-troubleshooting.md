@@ -14,7 +14,7 @@ position: 4
 
 This article explains the most common issues and their solutions related to the Visual Studio Toolbox and the Telerik UI for ASP.NET AJAX controls:
 
-* [The Telerik UI for ASP.NET AJAX controls do not appear in the toolbox](#the-telerik-ui-for-asp.net-ajax-controls-do-not-appear-in-the-toolbox)
+* [The Telerik UI for ASP.NET AJAX controls do not appear in the toolbox](#the-telerik-ui-for-aspnet-ajax-controls-do-not-appear-in-the-toolbox)
 
 * [The Toolbox Contains Old Item Registrations](#the-toolbox-contains-old-item-registrations)
 
@@ -24,7 +24,7 @@ This article explains the most common issues and their solutions related to the 
 
 *Problem:*
 
-**Telerik UI for ASP.NET AJAX do not appear in the toolbox**
+**Telerik UI for ASP.NET AJAX controls do not appear in the toolbox**
 
 *Reasons and Suggested solutions:*
 
@@ -63,7 +63,7 @@ Problem:
 
 *Suggested solution:*
 
-Unplug your wireless mouse. More information is available [here](http://blogs.telerik.com/kevinbabcock/posts/08-06-28/what_to_do_when_your_toolbox_is_devoid_of_radcontrols.aspx).
+Unplug your wireless mouse. More information is available [here](http://blogs.telerik.com/telerikreportingteam/posts/08-06-28/what-to-do-when-your-toolbox-is-devoid-of-radcontrols.aspx).
 
 ### See Also
 
