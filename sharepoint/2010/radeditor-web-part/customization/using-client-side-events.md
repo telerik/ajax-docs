@@ -53,4 +53,4 @@ function OnClientLoad(editor, args)
 
 Clear the browser's cache and test what the result is.
 
-For more information, about the editor's Client-Side API please review the Client-Side API Reference section of the [RadEditor for ASP.NET AJAX help](3E8A1A58-CF17-4DE4-8B96-4C89332D7486).
+For more information, about the editor's Client-Side API please review the Client-Side API Reference section of the [RadEditor for ASP.NET AJAX help]({%slug editor/overview%}).
