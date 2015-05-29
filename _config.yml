@@ -539,6 +539,9 @@ navigation:
     "*datapager/seo-paging":
         title: "SEO paging"
         position: 3
+	"*datapager/mobile-support/mobile-rendering":
+        title: "Mobile Render Mode"
+        position: 1
     "*datapager/defining-structure":
         title: "Defining Structure"
         position: 4
