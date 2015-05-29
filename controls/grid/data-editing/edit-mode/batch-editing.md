@@ -12,7 +12,7 @@ position: 4
 
 
 
-RadGrid's Batch editing functionality enables inline client-side editing and performing multiple changes before the user decides to either apply the changes or cancel them. The new feature is well integrated with existing RadGrid functionalities like automatic data source operations, hierarchy, selection, validation, template columns and event handling. The feature could be easily enabled by setting the **GridTableView.EditMode** to **Batch**. Additional properties for configuring the behavior of the functionality could be found in the **GridTableView.BatchEditingSettings** collection.
+**Batch Editing** functionality of **RadGrid** enables inline client-side editing and performing multiple changes before the user decides to either apply the changes or cancel them. The new feature is well integrated with existing RadGrid functionalities like automatic data source operations, hierarchy, selection, validation, template columns and event handling. The feature could be easily enabled by setting the **GridTableView.EditMode** to **Batch**. Additional properties for configuring the behavior of the functionality could be found in the **GridTableView.BatchEditingSettings** collection.
 
 ## Configuration
 
@@ -20,13 +20,13 @@ Below are listed some of the exposed properties which allow the user to configur
 
 * **GridTableView.BatchEditingSettings.EditType** – determines if the editing will be performed for the whole row or individually for each cell (the default value)
 
-* **GridTableView.BatchEditingSettings.SaveAllHierarchyLevels** – determines if the **SaveChanges** button will save the changes from the current GridTableView or for all the GridTableView's in the grid. When set to true the **saveAllChanges** method will be called instead of **saveChanges**"
+* **GridTableView.BatchEditingSettings.SaveAllHierarchyLevels** – determines if the **SaveChanges** button will save the changes from the current **GridTableView** or for all the **GridTableViews** in **RadGrid**. When set to true the **saveAllChanges** method will be called instead of **saveChanges**"
 
-* **GridtableView.BatchEditingSettings.OpenEditingEvent** – string value determining the event which will cause the cell\row to open for edit. The default value is “click”. Examples for event values – “dblclick”, “click”, “mousedown”, “mouseup”, “mouseover”.
+* **GridtableView.BatchEditingSettings.OpenEditingEvent** – string value determining the event which will cause the cell \ row to open for edit. The default value is “click”. Examples for event values – “dblclick”, “click”, “mousedown”, “mouseup”, “mouseover”.
 
 * **GridTableView.CommandItemSettings.ShowSaveChangesButton** – determines if a **SaveChanges** button will be created in the **GridCommandItem**
 
-* **GridTableView.CommandItemSettings.ShowCancelChangesButton** –determines if a **CancelChanges** button will be created in the **GridCommandItem**
+* **GridTableView.CommandItemSettings.ShowCancelChangesButton** – determines if a **CancelChanges** button will be created in the **GridCommandItem**
 
 * **GridTableView.CommandItemSettings.SaveChangesText** – gets or sets the **SaveChanges** button's text value
 
@@ -38,9 +38,9 @@ Below are listed some of the exposed properties which allow the user to configur
 
 ## Server-side API
 
-When RadGrid performs CRUD operations **ItemCommand, InsertCommand, DeleteCommand, UpdateCommand** events are fired. To continue	this trend when batch editing is enabled the events will be called multiple times for each operation made on the client.The event argument passed to the event handler will be of type **GridBatchEditingEventArgument** which contains **OldValues**and **NewValues** Hashtables. They hold the original values and the newly entered ones.
+When RadGrid performs CRUD operations **ItemCommand, InsertCommand, DeleteCommand, UpdateCommand** events are fired. To continue this trend when batch editing is enabled the events will be called multiple times for each operation made on the client.The event argument passed to the event handler will be of type **GridBatchEditingEventArgument** which contains **OldValues**and **NewValues** Hashtables. They hold the original values and the newly entered ones.
 
->note When automatic operations are enabled you could cancel the command bysetting the **e.Canceled** to **true** (May be used in validation scenarios).
+>note When automatic operations are enabled you could cancel the command by setting the **e.Canceled** to **true** (May be used in validation scenarios).
 >
 
 
@@ -65,7 +65,7 @@ End Sub
 ````
 
 
-Additionally, if you want more control over all commands that are executed you could subscribe to the **RadGrid.BatchEdit**event where you have the **e.Commands** which is a List of **GridBatchEditingCommand** objects. The collection could bemodified by adding, removing or modifying commands. Every command holds the old and modified values thus providing the user the capability to review all the changes at once.
+Additionally, if you want more control over all commands that are executed you could subscribe to the **RadGrid.BatchEdit**event where you have the **e.Commands** which is a List of **GridBatchEditingCommand** objects. The collection could be modified by adding, removing or modifying commands. Every command holds the old and modified values thus providing the user the capability to review all the changes at once.
 
 
 
@@ -95,7 +95,7 @@ End Sub
 >
 
 
-For example a button with **CommandName=”Edit”** will not perform a postback and instead will open it's parent row for editing. This is done by calling **RadGrid.get_batchEditingManager().openRowForEdit**and passing the appropriate arguments. All commands that will be changed and the client-side function that will	be called instead are listed below.
+For example a button with **CommandName=”Edit”** will not perform a postback and instead will open it's parent row for editing. This is done by calling **RadGrid.get_batchEditingManager().openRowForEdit** and passing the appropriate arguments. All commands that will be changed and the client-side function that will be called instead are listed below.
 
 
 |  **Server-side commands**  |  **Client-side command**  |
@@ -177,7 +177,7 @@ The client-side API exposes a number of methods which provide more control over 
 
 * **changeCellValue(cell, newCellValue)** – assigns a value to the respective cell
 
-When firing grid commands by using the **fireCommand** method some commands are detected, canceled and insteadtheir corresponding batch editing client-side functions are called. Below a list of the handled commands:
+When firing grid commands by using the **fireCommand** method some commands are detected, canceled and instead their corresponding batch editing client-side functions are called. Below a list of the handled commands:
 
 * **Cancel, CancelAll – cancelChanges**
 
@@ -189,11 +189,11 @@ When firing grid commands by using the **fireCommand** method some commands are 
 
 * **PerformInsert, Update, UpdateEdited – saveChanges**
 
-Additionally, you could subscribe to the **OnBatchEditCellValueChanging** event to access thenew value before it is applied and optionally cancel the action. The **OnBatchEditCellValueChanged**event on the other hand can be used to access the already changed value.
+Additionally, you could subscribe to the **OnBatchEditCellValueChanging** event to access the new value before it is applied and optionally cancel the action. The **OnBatchEditCellValueChanged**event on the other hand can be used to access the already changed value.
 
 ## Handling advanced templates
 
-When declaring **GridTemplateColumn** with custom **EditItemTemplate**, **RadGrid** will try to automatically	get\set the values in the editor control. For example if you have a nested input	element in a table as shown below, RadGrid's logic will find the input element and get\set it's	value.
+When declaring **GridTemplateColumn** with custom **EditItemTemplate**, **RadGrid** will try to automatically get \ set the values in the editor control. For example if you have a nested input element in a table as shown below, RadGrid's logic will find the input element and get \ set it's	value.
 
 >caution When the EditMode is set to Batch data binding expressions are not allowed in the EditItemTemplate. RadGrid will automatically set the editor's value.
 >
@@ -220,11 +220,11 @@ When declaring **GridTemplateColumn** with custom **EditItemTemplate**, **RadGri
 
 However, in a more complicated scenario (like multiple editor controls) where RadGrid	could not determine the right edit control. You could use the batch	editing client-side events where the values of the cell and editor could be set manually. A list	of all four events required for implementing this is shown below.
 
->note When handling particularevent the **args.set_cancel(true)** should be called to cancel the default code execution.
+>note When handling particular event the **args.set_cancel(true)** should be called to cancel the default code execution.
 >
 
 
-* **OnBatchEditGetCellValue** – gets the cell's control value and sets the value by using the **args.set_cancel** function
+* **OnBatchEditGetCellValue** – gets the cell's control value and sets the value by using the **args.set_value** function
 
 * **OnBatchEditSetCellValue** – sets the cell's control corresponding value by using the value returned from the **args.get_value** function
 
@@ -348,7 +348,7 @@ function SetEditorValue(sender, args)
 
 ## Validation
 
-Batch editing functionality supports validation by either using the **ColumnValidationSettings** or declaring a **GridTemplateColumn** and placing a validator in the template. Note that saving the changes or	opening other cells\rows for edit will be prevented when there is a validator that is not valid.
+Batch editing functionality supports validation by either using the **ColumnValidationSettings** or declaring a **GridTemplateColumn** and placing a validator in the template. Note that saving the changes or	opening other cells \ rows for edit will be prevented when there is a validator that is not valid.
 
 ## See Also
 
