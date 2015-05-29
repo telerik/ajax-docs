@@ -2,7 +2,7 @@
 title: Mobile Rendering Overview
 page_title: Overview | RadDataPager for ASP.NET AJAX Documentation
 description: Overview
-slug: grid/mobile-support/mobile-rendering/overview
+slug: datapager/mobile-support/mobile-rendering/overview
 tags: overview
 published: True
 position: 0
@@ -17,6 +17,7 @@ Since Q2 2015 Beta release of Telerik UI controls **RadDataPager** is optimized 
 The responsive attributes are:
 
 * **Hidden[Size]** attribute — These are **HiddenXs** , **HiddenSm** , **HiddenMd** , **HiddenLg** , **HiddenXl**
+
 | If set to "true" | Extra small device/<360px | Small device /<=768px | Medium device/<=1024px | Large device/<=1280px|
 | ------ | ------ | ------ | ------ | ------ |
 | HiddenXs |hidden|visible|visible|visible|
@@ -29,6 +30,7 @@ Example:
 <%--Hides the RadDataPagerPageSizeField under 768px--%>
 <telerik: RadDataPagerPageSizeField HiddenXs="true" HiddenSm="true"/>
 ````
+
 **Result:** Above 768px (in this case 780px) PageSize field is visible
 ![Responsive DataPager Ex1 Above 768px](images/Ex1Above780px.png)
 
@@ -36,7 +38,8 @@ Example:
 ![Responsive DataPager Ex1 Under 768px](images/Ex1Under780px.png)
 
 * **Trim[Size]** attribute  — only applicable for **RadDataPagerButtonField FieldType="Numeric"**. These are **TrimXs** , **TrimSm** , **TrimMd** , **TrimLg** , **TrimXl**
-| If set to "true" | Extra small device/<360px | Small device /<=768px | Medium device/<=1024px | Large device/<=1280px|
+
+| If set to "true" | Extra small device/<360px | Small device /<=768px | Medium device/<=1024px | Large device/<=1280px |
 | ------ | ------ | ------ | ------ | ------ |
 | TrimXs |trim|all visible|all visible|all visible|
 | TrimSm |all visible|trim|all visible|all visible|
@@ -47,8 +50,8 @@ Example:
 ````ASP.NET
 <%--Trims page numbers under 360px--%>
 <telerik:RadDataPagerButtonField FieldType="Numeric" TrimXs="true"></telerik:RadDataPagerButtonField>
-
 ````
+
 **Result:** Above 768px all page numbers are displayed
 ![Responsive DataPager Ex2 Above 768px](images/Ex2Above780px.png)
 
@@ -64,6 +67,7 @@ Example:
 <telerik:RadDataPagerButtonField FieldType="Numeric" HorizontalPositionMd="Center"></telerik:RadDataPagerButtonField> 
 <telerik:RadDataPagerButtonField FieldType="NextLast" HorizontalPositionMd="Right"></telerik:RadDataPagerButtonField>
 ````
+
 **Result:** 
 ![Responsive DataPager Ex3](images/Ex3.png)
 
