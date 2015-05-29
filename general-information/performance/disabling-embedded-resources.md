@@ -18,15 +18,13 @@ In some cases, you may want to avoid using WebResources, and you have two option
 
 * Use the CDN providers Telerik offers out of the box:
 
-* [Scripts CDN](3962E5BD-7414-41F5-82AA-8D144A9327AF)
+	* [Scripts CDN]({%slug scriptmanager/cdn-support/overview%})
 
-* [Stylesheets CDN](D7505CD2-4BB7-42D9-86E4-522D48085ABD)
+	* [Stylesheets CDN]({%slug stylesheetmanager/cdn-support/overview%})
 
 * Disable the embedded scripts for the controls and add the script files as static __*.js__ files to your application, as described below.
 
->tip It is faster and easier to [create a custom CDN provider](6E103F0E-3FE5-4A43-A196-025E9F6AB0BB). Doing so will still loadthe scripts from static files to allow better caching, yet no custom script references must be added in the ScriptManager,nor the EnableEmbeddedScripts property needs to be disabled for each control.
->
-
+>tip It is faster and easier to [create a custom CDN provider]({%slug scriptmanager/cdn-support/custom-cdn-provider%}). Doing so will still load the scripts from static files to allow better caching, yet no custom script references must be added in the ScriptManager, nor the EnableEmbeddedScripts property needs to be disabled for each control.
 
 This article contains the following sections:
 
@@ -40,7 +38,7 @@ This article contains the following sections:
 
 For custom deployment scenarios you can specify an alternative location for JavaScript files. To do so you should set the **EnableEmbeddedScripts** property to ***false***. Then, the JavaScript files will not be loaded from the assembly.
 
-You will also need to add a script reference for each JavaScript file through the ScriptManager or [RadScriptManager](2EF524B5-D6BE-47BE-9960-01EF7B786F85).
+You will also need to add a script reference for each JavaScript file through the ScriptManager or [RadScriptManager]({%slug scriptmanager/overview%}).
 
 A complete list of the JavaScript files used by Telerik UI for ASP.NET AJAX can be found below. You need to register only the JavaScript files required by the controls you are currently using. Common JavaScript files (e.g. Core.js) should be registered only once.
 
@@ -208,8 +206,9 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 </scripts>
 ````
 
->caution In **Q1 2014** we modifed the RadMenu scripts so please refer to our RadMenu [Changes and Backward Compatibility help article](C0880092-0E7C-4385-84A4-771D6FEE4ED5)for more information.
->Note **MobileMenuItem.js** is only needed when **RenderMode** is set to **"Auto"** or to **"Mobile"** .
+>caution In **Q1 2014** we modifed the RadMenu scripts so please refer to our RadMenu [Changes and Backward Compatibility]({%slug menu/changes-and-backward-compatibility%}) help article for more information.
+
+>note **MobileMenuItem.js** is only needed when **RenderMode** is set to **"Auto"** or to **"Mobile"** .
 > **RadMenuItem.js** is used when **RenderMode** is set to **"Auto"** , **"Classic"** or **"Lightweight"** .It does work in cooperation with **ClassicView.js** if the current render mode is classic and **LiteView.js** if the render mode is lightweight.
 >
 
@@ -427,7 +426,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 </scripts>
 ````
 
-*if you use features like filtering, context menus, etc. that utilize other Telerik controls likeRadContextMenu, RadDatePicker, RadComboBoxes, RadInput and so on, you need to register their client scripts explicitly as well*
+>note If you use features like filtering, context menus, etc. that utilize other Telerik controls like RadContextMenu, RadDatePicker, RadComboBoxes, RadInput and so on, you need to register their client scripts explicitly as well.
 
 
 * **RadHtmlChart**
@@ -548,8 +547,9 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 ````
 
 
->caution In **Q1 2014** we modified the RadMenu scripts so please refer to our RadMenu[Changes and Backward Compatibility help article](C0880092-0E7C-4385-84A4-771D6FEE4ED5)for more information.
->Note **MobileMenuItem.js** is only needed when **RenderMode** is set to **"Auto"** or to **"Mobile"** .
+>caution In **Q1 2014** we modified the RadMenu scripts so please refer to our RadMenu [Changes and Backward Compatibility]({%slug menu/changes-and-backward-compatibility%}) help article for more information.
+
+>note **MobileMenuItem.js** is only needed when **RenderMode** is set to **"Auto"** or to **"Mobile"** .
 > **RadMenuItem.js** is used when **RenderMode** is set to **"Auto"** , **"Classic"** or **"Lightweight"** .It does work in cooperation with **ClassicView.js** if the current render mode is classic and **LiteView.js** if the render mode is lightweight.
 >
 
@@ -656,7 +656,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 </scripts>
 ````
 
-*if you use features like filtering, context menus, etc. that utilize other Telerik controls likeRadContextMenu, RadDatePicker, RadComboBoxes, RadInput and so on, you need to register their client scripts explicitly as well
+>note If you use features like filtering, context menus, etc. that utilize other Telerik controls like RadContextMenu, RadDatePicker, RadComboBoxes, RadInput and so on, you need to register their client scripts explicitly as well.
 
 * **RadRating**
 
@@ -750,7 +750,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 </scripts>
 ````
 
->note Please note that in order to use the WebAPI which is introduced in the .NET 4.5 you have to include the **WebApiLoader.js** .
+>note Please note that in order to use the WebAPI which is introduced in the .NET 4.5 you have to include the **WebApiLoader.js**.
 >
 
 * **RadSearchBox**
@@ -825,18 +825,17 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 ````
 
 
->caution To add the spell dialog's script to the dialog (which is a separate page) you need one extra step - setting the **DialogsScriptFile** file. **<telerik:RadSpell DialogsScriptFile = "~/CombinedSpellScripts.js" ../>**  *To use this property you need at least Telerik UI for ASP.NET AJAX version Q3 2008 SP2, e.g. v. 2008.3.1314.xx* 
->The script file in fact needs to be a combination of 4 installation js files
+>caution To add the spell dialog's script to the dialog (which is a separate page) you need one extra step - setting the **DialogsScriptFile** file. `<telerik:RadSpell DialogsScriptFile = "~/CombinedSpellScripts.js" ../>`  *To use this property you need at least Telerik UI for ASP.NET AJAX version Q3 2008 SP2, e.g. v. 2008.3.1314.xx*. 
+>The script file in fact needs to be a combination of 4 installation js files.
 >
 
-1.Core.js
-1.SpellCheckService.js
-1.SpellDialog.js
-1.Dialogs/DialogControlInitializer.js
-1.FormDecorator/RadFormDecorator.js
-1.jQuery.js
-1.jQueryPlugins.js>
-
+1. Core.js
+1. SpellCheckService.js
+1. SpellDialog.js
+1. Dialogs/DialogControlInitializer.js
+1. FormDecorator/RadFormDecorator.js
+1. jQuery.js
+1. jQueryPlugins.js
 
 * **RadSplitter**
 
@@ -1034,9 +1033,9 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 
 If you, for some reason, need to disable the embedded skins of a Telerik control, you should set the **EnableEmbeddedSkins** and **EnableEmbeddedBaseStylesheet** properties to **false**. More information can be found at:
 
-[How skins work]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/how-skins-work%})
+* [How skins work]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/how-skins-work%})
 
-[Creating custom skins]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/creating-a-custom-skin%})
+* [Creating custom skins]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/creating-a-custom-skin%})
 
 
 
@@ -1070,8 +1069,10 @@ Just change the **Menu** with the name of the control you want - TreeView, Grid,
 
 >note The scripts/skins enable/disable is prioritized as follows:
 >
-* The settings applied at page level have top priority
-* The settings applied for a particular control in the web.config file are next in priority
-* The settings applied for all Telerik controls globally in the web.config file are last in priority>Hence the individual scripts/skins disabling for a particular control in the web.config will override the setting defined for all controls globally in the same file, while the page level scripts/skins disabling will override all relevant definitions from the web.config file.
+* The settings applied at page level have top priority.
+* The settings applied for a particular control in the web.config file are next in priority.
+* The settings applied for all Telerik controls globally in the web.config file are last in priority.
+>
+>Hence the individual scripts/skins disabling for a particular control in the web.config will override the setting defined for all controls globally in the same file, while the page level scripts/skins disabling will override all relevant definitions from the web.config file.
 >
 
