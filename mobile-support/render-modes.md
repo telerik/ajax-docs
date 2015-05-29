@@ -10,11 +10,7 @@ position: 2
 
 # Render Modes
 
-
-
-## 
-
-Some controls from the UI for ASP.NET AJAX suite	can produce different (usually more lightweight) markup and make styling easier through CSS3. Below you can find a list with the modeseach control supports. For more information on the feature and its benefits, examine the [Render modes](c952abb4-e952-44fa-9e05-70aac40c04d5) help article.
+Some controls from the UI for ASP.NET AJAX suite	can produce different (usually more lightweight) markup and make styling easier through CSS3. Below you can find a list with the modes each control supports. For more information on the feature and its benefits, examine the [Render modes]({%slug controls/render-modes%}) help article.
 
 
 | Control | Lightweight Rendering | Mobile Rendering |
@@ -23,65 +19,65 @@ Some controls from the UI for ASP.NET AJAX suite	can produce different (usually 
 |AutoCompleteBox|Yes (by design)|-|
 |AsyncUpload|Yes (render mode)|-|
 |BarCode|N/A|-|
-|Button|[Yes (render mode)](06c45065-7387-41e9-a946-ad3e03d7e272)|-|
+|Button|[Yes (render mode)]({%slug button/mobile-support/render-modes%})|-|
 |HtmlChart|N/A|-|
-|Calendar|[Yes (render mode)](9148371e-545f-44b9-bb87-995f2800af94)|-|
+|Calendar|[Yes (render mode)]({%slug calendar/mobile-support/render-mode%})|-|
 |Captcha|N/A|-|
 |ColorPicker|Yes (by design)|-|
-|Combobox|[Yes (render mode)](f080bb55-280f-438c-875e-75d2b66e1a2a)|-|
+|Combobox|[Yes (render mode)]({%slug combobox/mobile-support/render-modes%})|-|
 |DataForm|Yes (by design)|-|
 |DataPager|Yes (render mode)|-|
 |Diagram|Yes (by design)|-|
-|Dock|[Yes (render mode)](3e08c8b5-6e55-4de8-afa8-cf58c359bc36)|-|
+|Dock|[Yes (render mode)]({%slug dock/mobile-support/render-modes%})|-|
 |DropDownList|Yes (by design)|-|
 |DropDownTree|Yes (by design)|-|
-|Editor|[Yes (render mode)](602c3637-e718-45c3-898f-1dcdeaa30efb)|-|
+|Editor|[Yes (render mode)]({%slug editor/mobile-support/render-modes%})|-|
 |FileExplorer|N/A|-|
 |Filter|Yes (render mode)|-|
-|FormDecorator|[Yes (render mode)](c255bd0b-1e73-4b27-a82d-38a23e24e062)|-|
+|FormDecorator|[Yes (render mode)]({%slug formdecorator/mobile-support/render-modes%})|-|
 |Gantt|Yes (by design)|-|
 |Gauge|N/A|-|
-|Grid|[Yes (render mode)](7b39e022-7beb-477c-a0c3-2d25f5bc4053)|[Yes (render mode)](acbdbc51-e93d-43f2-aa4a-a83f0f352d87)|
+|Grid|[Yes (render mode)]({%slug grid/mobile-support/render-modes%})|[Yes (render mode)]({%slug grid/mobile-support/mobile-rendering/overview%})|
 |HtmlChart|Yes (by design)|-|
 |ImageEditor|Yes (child controls)|-|
 |ImageGallery|Yes (by design)|-|
-|Input|[Yes (render mode)](890db460-3115-4fae-8c24-7835ac5ce130)|-|
-|LightBox|Yes (by design)|[Yes (render mode)](336c28c2-2b66-45db-ab51-8c8bf348eb7e)|
-|ListBox|[Yes (render mode)](82d113b9-ed17-4bb2-adf0-23b055889edd)|-|
+|Input|[Yes (render mode)]({%slug input/mobile-support/render-modes%})|-|
+|LightBox|Yes (by design)|[Yes (render mode)]({%slug input/mobile-support/render-modes%})|
+|ListBox|[Yes (render mode)]({%slug listbox/functionality/render-modes%})|-|
 |Map|N/A|-|
-|MediaPlayer|Yes (by design)|[Yes (render mode)](a93cd001-c762-41c7-bc64-1942949eaa57)|
-|Menu|[Yes (render mode)](548bed68-1c8c-4f6a-b69f-2068c034f0fe)|[Yes (render mode)](591051a9-c177-47c5-b2c9-4e8a471f0db9)|
+|MediaPlayer|Yes (by design)|[Yes (render mode)]({%slug mediaplayer/mobile-support/overview%})|
+|Menu|[Yes (render mode)]({%slug menu/mobile-support/render-modes%})|[Yes (render mode)]({%slug menu/mobile-support/responsive-adaptive-and-elastic-capabilities%})|
 |Notification|Yes (by design)|-|
 |OrgChart|[Yes (render mode)](705fdd77-49cc-45ed-978f-4f2cdc8122f5)|-|
 |PanelBar|Yes (render mode)|-|
 |ProgressArea|-|-|
 |ProgressBar|Yes (by design)|-|
-|Rating|[Yes (by design)](c9d036ba-6306-4830-849c-11c73d02799c)|-|
+|Rating|[Yes (by design)]({%slug orgchart/mobile-support/render-modes%})|-|
 |RibbonBar|-|-|
 |Rotator|Yes (by design)|-|
 |SearchBox|Yes (by design)|-|
-|Scheduler|-|[Yes (render mode)](fd67cde8-8012-4ebd-9721-4118c96fa630)|
+|Scheduler|-|[Yes (render mode)]({%slug scheduler/mobile-support/render-modes%})|
 |SiteMap|-|-|
-|Slider|[Yes (by design)](bc5d0b2d-b8eb-45ca-9972-4a24a1b55630)|-|
+|Slider|[Yes (by design)]({%slug slider/mobile-support/render-modes%})|-|
 |SocialShare|Yes (by design)|-|
 |Spell|Yes (child control - Window)|-|
 |Splitter|N/A|-|
 |TabStrip|-|-|
 |TagCloud|Yes (by design)|-|
 |Ticker|Yes (by design)|-|
-|TileList|[Yes (by design)](0efa7db9-f867-4349-b63e-38c6bf2f5ccb)|-|
+|TileList|[Yes (by design)]({%slug tilelist/mobile-support/render-modes%})|-|
 |ToolBar|-|-|
-|ToolTip|[Yes(render mode)](baf24a05-9bc7-4e4d-97ef-7a5a474c1d54)|-|
+|ToolTip|[Yes(render mode)]({%slug tooltip/mobile-support/render-modes%})|-|
 |TreeList|Yes (render mode)|-|
 |TreeMap|Yes (by design)|-|
 |TreeView|Yes (render mode)|-|
-|Wizard|Yes (by design)|[Yes (render mode)](537eff50-2662-4a49-95fc-aeca9a3e8e0a)|
-|Window|[Yes (render mode)](7cc7bf77-6225-467b-a42c-d1ffd5b78e05)|-|
+|Wizard|Yes (by design)|[Yes (render mode)]({%slug wizard/mobile-support/mobile-rendering%})|
+|Window|[Yes (render mode)]({%slug window/mobile-support/render-modes%})|-|
 |XmlHttpPanel|N/A|-|
 
 If you are extending the Telerik controls that support render modes through a property (i.e., they are not lightweight by design, for example), you need to addseveral properties to your class that will provide this functionality:
 
-**Example 1**: Properties that enable you to use RenderModes for controls inherited from the Telerik controls.
+>caption Example 1: Properties that enable you to use RenderModes for controls inherited from the Telerik controls.
 
 
 

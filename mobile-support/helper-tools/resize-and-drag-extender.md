@@ -10,8 +10,6 @@ position: 1
 
 # Resize and Drag Extender
 
-
-
 ## Resize and Drag extender
 
 The ResizeExtender is a small client-side only control that enables resize and drag functionality on an HTML element in all browsers regardless if they are desktop or mobile (except the browsers that lack the needed desktop or touch events - Mobile Operas and IEs). It depends on Core.js and the built-in jQuery in Telerik UI for ASP.NET AJAX.
@@ -24,25 +22,22 @@ In order to use the ResizeExtender separately, follow these steps:
 
 1. Reference its external script libraries:
 
-````ASP.NET
-<telerik:RadScriptManager ID="RadScriptManager1" runat="server">
-    <scripts>
-        <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Core.js" />
-        <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQuery.js" />
-        <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQueryPlugins.js" />
-        <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Popup.PopupScripts.js" />
-    </scripts>
-</telerik:RadScriptManager>
-````
-
-
+	**ASP.NET**
+	
+		<telerik:RadScriptManager ID="RadScriptManager1" runat="server">
+			<scripts>
+				<asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Core.js" />
+				<asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQuery.js" />
+				<asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQueryPlugins.js" />
+				<asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Popup.PopupScripts.js" />
+			</scripts>
+		</telerik:RadScriptManager>
 
 1. Initialize a new instance of the ResizeExtender class, using the following arguments:
 
-````JavaScript
-var resizeExtender = new Telerik.Web.UI.ResizeExtender(jsOwner, element, handles, tableElement, document, moveCursorType, autoScrollEnabled, moveToMouseLocation);
-````
+	**JavaScript**
 
+		var resizeExtender = new Telerik.Web.UI.ResizeExtender(jsOwner, element, handles, tableElement, document, moveCursorType, autoScrollEnabled, moveToMouseLocation);
 
 The arguments that the constructor of the ResizeExtender class accepts are:
 
