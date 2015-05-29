@@ -12,12 +12,7 @@ position: 4
 
 
 
-## 
-
 **Technical guidelines for protecting Telerik UI for ASP.NET AJAX binaries when redistributed with other applications**
-
-
-
 
 
 We are providing the following suggestions to protect our IP (Intellectual Property) when redistribute our assemblies as a part of shrink-wrapped software (packaged products).
@@ -36,39 +31,39 @@ For brevity this document assumes that the source distribution ZIP file is extra
 
 1. Uncomment the following line:
 
-````C#
-public static void Validate()
-{
-   //Uncomment the following line
-   //ValidatePassPhrase();
-} 
-````
+	**Before**
+
+		public static void Validate()
+		{
+		   //Uncomment the following line
+		   //ValidatePassPhrase();
+		} 
 
 
 
-````C#
-public static void Validate()
-{
-   //Uncomment the following line
-   ValidatePassPhrase();
-} 
-````
+	**After**
+
+		public static void Validate()
+		{
+		   //Uncomment the following line
+		   ValidatePassPhrase();
+		} 
+
 
 
 
 1. Change the value of the ***ApplicationName*** constant to match the name of your application:
 
-````C#
-//Modify to match your application name
-private const string ApplicationName = "MyApp"; 
-````
+	**Before**
+
+		//Modify to match your application name
+		private const string ApplicationName = "MyApp"; 
 
 
+	**After**
 
-````C#
-//Modify to match your application name
-private const string ApplicationName = "Sample Application Name v2.0 (tm)"; 
-````
+		//Modify to match your application name
+		private const string ApplicationName = "Sample Application Name v2.0 (tm)"; 
 
 
 
@@ -77,16 +72,16 @@ private const string ApplicationName = "Sample Application Name v2.0 (tm)";
 1. In your application replace the existing reference to Telerik.Web.UI.dll with the one built from source code.
 
 1. If you run your application now you should see the following error message (“Sample Application Name v2.0 (tm)” will be replaced with the name of your application set in step 3):
-![](images/introduction-applicationisnotlicensed.jpg)
+
+	![](images/introduction-applicationisnotlicensed.jpg)
 
 1. Add the following code in the Page_Load method of your page code-behind class.
 
-````C#
-Application["Telerik.Web.UI.Key"] = "Sample Application Name v2.0 (tm)";
-````
+	**C#**
+
+	Application["Telerik.Web.UI.Key"] = "Sample Application Name v2.0 (tm)";
 
 
+	>important Instead of “Sample Application Name v2.0 (tm)” use the value of theApplicationName constant from step 3.
 
->note IMPORTANT!!! Instead of “Sample Application Name v2.0 (tm)” use the value of theApplicationName constant from step 3.
->
 
