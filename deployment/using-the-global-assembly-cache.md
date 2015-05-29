@@ -40,29 +40,29 @@ This article contains the following sections:
 
 * [Pros and Cons](#pros-and-cons)
 
-* [Add, Remove and View Assemblies in the GAC](#add,-remove-and-view-assemblies-in-the-gac)
+* [Add, Remove and View Assemblies in the GAC](#add-remove-and-view-assemblies-in-the-gac)
 
-* [View the Assemblies in the GAC](#view-the-assemblies-in-the-gac)
+	* [View the Assemblies in the GAC](#view-the-assemblies-in-the-gac)
 
-* [Add an Assembly to the GAC](#add-assembly-to-the-gac)
+	* [Add an Assembly to the GAC](#add-assembly-to-the-gac)
 
-* [Remove an Assembly from the GAC](#remove-an-assembly-from-the-gac)
+	* [Remove an Assembly from the GAC](#remove-an-assembly-from-the-gac)
 
 * [Referencing Assemblies from the GAC](#referencing-assemblies-from-the-gac)
 
-* [How GAC References Look](#how-gac-references-look)
+	* [How GAC References Look](#how-gac-references-look)
 
-* [How GAC References Look in a WebSite Type of Project](#in-a-website-type-of-project)
+		* [How GAC References Look in a WebSite Type of Project](#in-a-website-type-of-project)
 
-* [How GAC References Look in a WebApplication Type of Project](#in-a-webapplication-type-of-project)
+		* [How GAC References Look in a WebApplication Type of Project](#in-a-webapplication-type-of-project)
 
-* [Adding a Reference to an Assembly from the GAC](#adding-a-reference-to-an-assembly-from-the-gac)
+	* [Adding a Reference to an Assembly from the GAC](#adding-a-reference-to-an-assembly-from-the-gac)
 
-* [Adding a Reference to an Assembly from the GAC in a WebSite Type of Project](#in-a-website-type-of-project)
+		* [Adding a Reference to an Assembly from the GAC in a WebSite Type of Project](#in-a-website-type-of-project)
 
-* [Adding a Reference to an Assembly from the GAC in a WebApplication Type of Project](#in-a-webapplication-type-of-project)
+		* [Adding a Reference to an Assembly from the GAC in a WebApplication Type of Project](#in-a-webapplication-type-of-project)
 
-* [Troubleshooting GAC References](#troubleshooting-gac-references)
+	* [Troubleshooting GAC References](#troubleshooting-gac-references)
 
 ## What is the GAC
 
@@ -100,7 +100,7 @@ And one that can go in either category:
 
 ## Add, Remove and View Assemblies in the GAC
 
-First, you are going to need a tool from the .NET SDK that comes with Visual Studio – [gacutil.exe](http://msdn.microsoft.com/en-us/library/ex0ss12c%28v=VS.100%29.aspx). To run it go to -> All Programs -> Visual Studio <version> -> Visual Studio Tools -> run the [Visual Studio Command Prompt](http://msdn.microsoft.com/en-us/library/ms229859.aspx) (or Developer Command prompt, depending on the VS version you use.
+First, you are going to need a tool from the .NET SDK that comes with Visual Studio – [gacutil.exe](http://msdn.microsoft.com/en-us/library/ex0ss12c%28v=VS.100%29.aspx). To run it go to -> All Programs -> Visual Studio <version> -> Visual Studio Tools -> run the [Visual Studio Command Prompt](http://msdn.microsoft.com/en-us/library/ms229859.aspx) (or Developer Command prompt), depending on the VS version you use.
 
 ### View the Assemblies in the GAC
 
