@@ -32,7 +32,7 @@ http://www.telerik.com/help/aspnet-ajax/introduction-stylebuilder-edit-existing-
 http://www.telerik.com/help/aspnet-ajax/introduction-stylebuilder-fine-tuning-overview.html http://docs.telerik.com/devtools/aspnet-ajax/visual-stylebuilder/fine-tuning
 http://www.telerik.com/help/aspnet-ajax/introduction-stylebuilder-known-issues-tips-and-tricks.html http://docs.telerik.com/devtools/aspnet-ajax/visual-stylebuilder/known-issues,-tips-and-tricks
 http://www.telerik.com/help/aspnet-ajax/introduction-stylebuilder-overview.html http://docs.telerik.com/devtools/aspnet-ajax/visual-stylebuilder/overview
-http://www.telerik.com/help/aspnet-ajax/introduction-system-requirements.html http://docs.telerik.com/devtools/aspnet-ajax/general-information/system-requirements-and-browser-support
+http://www.telerik.com/help/aspnet-ajax/introduction-system-requirements.html http://docs.telerik.com/devtools/aspnet-ajax/general-information/technical-information
 http://www.telerik.com/help/aspnet-ajax/introduction-teststudio-overview.html http://docs.telerik.com/devtools/aspnet-ajax/testing-with-test-studio/overview
 http://www.telerik.com/help/aspnet-ajax/introduction-teststudio-translators-for-telerik-radcontrols.html http://docs.telerik.com/devtools/aspnet-ajax/testing-with-test-studio/test-studio-translators-for-telerik-ui-for-asp.net-ajax-
 http://www.telerik.com/help/aspnet-ajax/introduction-themes-how-to.html http://docs.telerik.com/devtools/aspnet-ajax/general-information/controlling-visual-appearance/using-skins-in-asp.net-themes
