@@ -20,11 +20,7 @@ position: 18
 
 * **RadAjaxLoadingPanel** control has new images for its build-in Skins. These new images are suitable for any background. The obsolete loading images which are not part of the RadAjaxLoadingPanel Skins are removed from the Telerik.Web.UI assembly.
 
-<<<<<<< HEAD
-* **RadTimeView** control can be used on a page standalone, without RadTimePicker/RadDateTimePicker added on the page. When you are using it with disabled embedded scripts, you need to reference the below script files as described [here]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/performance/disabling-embedded-resources%}).
-=======
 * **RadTimeView** control can be used on a page standalone, without RadTimePicker/RadDateTimePicker added on the page. When you are using it with disabled embedded scripts, you need to reference the below script files as described in the [Disabling Embedded Resources]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/performance/disabling-embedded-resources%}) article.
->>>>>>> origin/master
 
 * **RadGrid** has a base stylesheet file for its skins. Note that when you are using a custom skin with the latest release, you need to set the **EnableEmbeddedBaseStylesheet** property to **false**.
 
@@ -126,11 +122,7 @@ Customized advanced templates will not be styled correctly due to rendering chan
 
 * Default2006, Gray, Inox and SkyBlue skins are discontinued -- we are recommending the new Default skin for anyone that might have used the obsolete skins. If you decide that you still want the obsolete skins in your application please contact us in a support ticket.
 
-<<<<<<< HEAD
->note To apply the old embedded skins of Telerik UI for ASP.NET AJAX as external with versions of the control after Q1 2009 (2009.1.311), download them from [this location](http://www.telerik.com/support/skins.aspx) and follow the steps concerning how to register an external skin from [here]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/skin-registration%}) and [this]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/performance/disabling-embedded-resources%}) topic.
-=======
 >note To apply the old embedded skins of Telerik UI for ASP.NET AJAX as external with versions of the control after Q1 2009 (2009.1.311), download them from [this location](http://www.telerik.com/support/skins.aspx)and follow the steps concerning how to register an external skin from [here]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/skin-registration%}) and [this]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/performance/disabling-embedded-resources%})topic.
->>>>>>> origin/master
 >
 
 
