@@ -49,8 +49,6 @@ position: 0
 
 1. **Preserving the Grid State After Postback** - an unique feature of Telerik RadGrid is the ability to preserve its appearance, group-by state, sorting, current page, edit or selected state, and resizing after postbacks with minimum resource usage. This significantly improves the usability of the component.
 
-1. [Self-referencing hierarchy]({%slug grid/hierarchical-grid-types-and-load-modes/self-referencing-hierarchy%}) - Telerik RadGrid can generate hierarchical presentation from single source table (through id->parentid relation), thus providing treelist-like data presentation.
-
 1. [AJAX-based Virtual Scrolling]({%slug grid/functionality/scrolling/virtual-scrolling%}) - for instant navigation in large data structures.
 ![Virtual scrolling](images/GoogleStyleScroll.PNG)
 
@@ -78,7 +76,7 @@ position: 0
 ![Multi-Row Selection and Area Selection](images/grd_rg_features_1_08.gif)
 [See a live example at www.telerik.com](http://demos.telerik.com/aspnet-ajax/Grid/Examples/Programming/WebMail/DefaultCS.aspx)
 
-1. [Design-Time Support]({%slug grid/design-time-/overview%}) - Telerik RadGrid has full support for the design mode of Visual Studio .NET. This allows you to build, customize, and populate the grid in a convenient WYSIWYG environment.
+1. [Design-Time Support]({%slug grid/design-time/overview%}) - Telerik RadGrid has full support for the design mode of Visual Studio .NET. This allows you to build, customize, and populate the grid in a convenient WYSIWYG environment.
 
 1. **Extensive Client-side API** - Telerik RadGrid introduces a comprehensive client-side API, which enables you to resize, move, reorder, select, scroll columns on-the-fly and much more.
 

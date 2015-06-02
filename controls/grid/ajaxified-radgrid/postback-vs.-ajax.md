@@ -26,7 +26,7 @@ The following steps describe how to enable AJAX callbacks with **RadGrid**:
 
 * Set the **ShowStatusBar** property of the grid to **True**.
 
-1. From the **Ajax Resources** section of the **RadGrid**[Smart Tag]({%slug grid/design-time-/smarttag%}), click the **Add RadAjaxManager...** link. This displays the **RadAjax Property Builder**.
+1. From the **Ajax Resources** section of the **RadGrid**[Smart Tag]({%slug grid/design-time/smarttag%}), click the **Add RadAjaxManager...** link. This displays the **RadAjax Property Builder**.
 
 1. In the **RadAjax Property Builder**,
 

@@ -40,7 +40,7 @@ This tutorial will walk you through creating a Web page that contains a **RadGri
 1. Drag and drop a **RadGrid** control from the toolbox onto your Web page:
 ![grid gettingstarted 2](images/grid_gettingstarted2.JPG)
 
-1. Using the **RadGrid** [Smart Tag]({%slug grid/design-time-/smarttag%}) expand the drop-down list labelled Choose Data Source and select **<New data source...>**:
+1. Using the **RadGrid** [Smart Tag]({%slug grid/design-time/smarttag%}) expand the drop-down list labelled Choose Data Source and select **<New data source...>**:
 ![grid gettingstarted 03](images/grid_gettingstarted03.JPG)
 
 1. The **Data Source Configuration Wizard** appears. On the **Choose a Data Source Type** page, select **SQL Database** and click **OK**:
@@ -61,7 +61,7 @@ This tutorial will walk you through creating a Web page that contains a **RadGri
 
 ## Configuring the grid for paging, sorting, and scrolling
 
-1. From the **Skin** drop-down of the **RadGrid's** [Smart Tag]({%slug grid/design-time-/smarttag%}) choose the **Metro** skin:
+1. From the **Skin** drop-down of the **RadGrid's** [Smart Tag]({%slug grid/design-time/smarttag%}) choose the **Metro** skin:
 ![grid gettingstarted 8](images/grid_gettingstarted8.JPG)
 
 1. In the **General Features** section, check the boxes to enable **paging**, **sorting**, and **scrolling**:
@@ -70,7 +70,7 @@ This tutorial will walk you through creating a Web page that contains a **RadGri
 1. Still in the **Smart Tag** click the link labeled **Open Editor**:
 ![grid gettingstarted 10](images/grid_gettingstarted10.JPG)
 
-1. In the **RadGrid**[Editor]({%slug grid/design-time-/setting-radgrid%}):
+1. In the **RadGrid**[Editor]({%slug grid/design-time/setting-radgrid%}):
 
 * Select **RadGrid** from the **Configuration Manager**.
 
@@ -109,7 +109,7 @@ This tutorial will walk you through creating a Web page that contains a **RadGri
 * Additionally, you could change the **UniqueName** and **BackColor** of the column.
 ![grid gettingstarted 14 2](images/grid_gettingstarted14_2.png)
 
-1. Use the **RadGrid** [Smart Tag]({%slug grid/design-time-/smarttag%}) to enable **filtering** and **grouping**:
+1. Use the **RadGrid** [Smart Tag]({%slug grid/design-time/smarttag%}) to enable **filtering** and **grouping**:
 ![grid gettingstarted 15JPG](images/grid_gettingstarted15JPG.png)
 
 1. Run the application to see the result of your changes. A select column appears as the first column of the grid. Each column now has a filter control at the top. A grouping panel appears at the top of the grid. Drag the header of the **PostalCode** column onto the grouping panel. The rows of the grid are now grouped by postal code, and an item for this group appears in the grouping panel that lets you change the sort order of the groups:
@@ -130,7 +130,7 @@ This tutorial will walk you through creating a Web page that contains a **RadGri
 * In the right pane, set the **HeaderText** property to **TemplateColumn**.
 ![grid gettingstarted 17](images/grid_gettingstarted17.JPG)
 
-1. In the [Smart Tag]({%slug grid/design-time-/smarttag%}) select **Edit Templates** option:
+1. In the [Smart Tag]({%slug grid/design-time/smarttag%}) select **Edit Templates** option:
 ![grid gettingstarted 18](images/grid_gettingstarted18.png)
 
 1. In the drop-down list of the **Smart Tag** in Template Editing Mode, select the template column to bring up the template design surface for the template column:
