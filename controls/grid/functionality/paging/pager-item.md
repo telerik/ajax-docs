@@ -29,7 +29,7 @@ In addition to the usual item style properties such as **ForeColor**, **BackColo
 
 **PagerStyle.Mode** lets you specify what controls appear in the pager item to help users navigate through the pages. The **Mode** sub-property can be set to "NextPrev", "NumericPages", "NextPrevAndNumeric", "Advanced", "NextPrevNumericAndAdvanced", or "Slider".
 
->note The **Mode** property, (or any other properties controlling paging behavior) can be set using either the[RadGrid Property Builder]({%slug grid/design-time-/overview%}), or programmatically in the code-behind. Values set programmatically are persisted into the **ViewState** , providing consistency in the grid's page navigation.
+>note The **Mode** property, (or any other properties controlling paging behavior) can be set using either the[RadGrid Property Builder]({%slug grid/design-time/overview%}), or programmatically in the code-behind. Values set programmatically are persisted into the **ViewState** , providing consistency in the grid's page navigation.
 >
 
 
@@ -73,8 +73,7 @@ Slider
 When **Mode** is "Slider", the pager contains a slider control for changing pages:
 ![GridPagerMode.Slider](images/grd_PagerModeSlider.png)
 
-You can also customize the pager to provide an alphabetic mode. For details on how to do this, see [Alphabetic paging in RadGrid]({%slug grid/functionality/paging/how-to/alphabetic-paging-in-telerik-radgrid%}).
-
+You can also customize the pager to provide an alphabetic mode. 
 ## Pager button images
 
 By default, the appearance of the controls in the pager are taken from the current [Skin]({%slug grid/appearance-and-styling/skins%}). You can substitute your own images for these controls by setting one of the following sub-properties:

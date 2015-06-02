@@ -30,7 +30,7 @@ This tutorial shows how to:
 1. Drag and drop a **RadGrid** control from Visual Studio's toolbox onto your Web page:
 ![grid gettingstarted 2](images/grid_gettingstarted2.JPG)
 
-1. Using the **RadGrid's** [Smart Tag]({%slug grid/design-time-/smarttag%}), expand the drop-down listlabelled **Choose Data Source** and select **<New data source...>**:
+1. Using the **RadGrid's** [Smart Tag]({%slug grid/design-time/smarttag%}), expand the drop-down listlabelled **Choose Data Source** and select **<New data source...>**:
 ![grid gettingstarted 03](images/grid_gettingstarted03.JPG)
 
 1. The **Data Source Configuration Wizard** appears. On the **Choose a Data Source Type** page, select **SQL Database** andclick **OK**:
@@ -59,7 +59,7 @@ This tutorial shows how to:
 
 1. Using the RadGrid's Editor, add a template column to the grid:
 
-* Open **RadGrid's Configuration Wizard** from the [Smart Tag]({%slug grid/design-time-/smarttag%}).
+* Open **RadGrid's Configuration Wizard** from the [Smart Tag]({%slug grid/design-time/smarttag%}).
 ![grid gettingstarted 10](images/grid_gettingstarted10.JPG)
 
 * Select **MasterTableView** under **RadGrid** node.
@@ -73,7 +73,7 @@ This tutorial shows how to:
 * In the right pane, set the **HeaderText** property to **TemplateColumn**.
 ![grid gettingstarted 17](images/grid_gettingstarted17.JPG)
 
-1. Click **Edit Templates** from the **RadGrid's** [Smart Tag]({%slug grid/design-time-/smarttag%}):
+1. Click **Edit Templates** from the **RadGrid's** [Smart Tag]({%slug grid/design-time/smarttag%}):
 ![grid gettingstarted 18](images/grid_gettingstarted18.png)
 
 1. Choose the Template column that you wish to edit:
@@ -102,7 +102,7 @@ This tutorial shows how to:
 1. Use a similar technique to bind the **Label** control:
 ![Rad Grid grd addcontrols 6jpg(images/RadGrid_grd_addcontrols6jpg.png)
 
-1. Use the **RadGrid's** [Smart Tag]({%slug grid/design-time-/smarttag%}) to end template editing:
+1. Use the **RadGrid's** [Smart Tag]({%slug grid/design-time/smarttag%}) to end template editing:
 ![grid addcontrols 7jpg](images/grid_addcontrols7jpg.png)
 
 ## Enabling editing, paging, and change the Skin
@@ -119,7 +119,7 @@ This tutorial shows how to:
 1. Now select the **MasterTableView** node, then select **Paging** tab and change the **Page size** to **5** rows.
 ![grid addcontrols 11](images/grid_addcontrols11.png)
 
-1. From the **RadGrid's** [Smart Tag]({%slug grid/design-time-/smarttag%}) expand the drop-down list labeled **Skin** and choose **Metro** skin.
+1. From the **RadGrid's** [Smart Tag]({%slug grid/design-time/smarttag%}) expand the drop-down list labeled **Skin** and choose **Metro** skin.
 ![grid addcontrols 12](images/grid_addcontrols12.png)
 
 1. Run the application. Click the edit column to see the edit template you added. Note that if you edit a value in the grid, the database is updated:

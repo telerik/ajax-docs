@@ -244,4 +244,6 @@ As of Q3 2008, the Telerik.Web.UI assembly includes the jQuery JavaScript librar
 
  * [What is jQuery?]({%slug general-information/using-jquery/what-is-jquery%})
 
- * [jQuery Intellisense]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/using-jquery/jquery-intellisense%})[](43f5f2f8-9c0f-4982-95db-fdafa058c347)
+ * [jQuery Intellisense]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/using-jquery/jquery-intellisense%})
+ 
+ * [Disabling the Embedded jQuery]({%slug scriptmanager/disabling-the-embedded-jquery%})

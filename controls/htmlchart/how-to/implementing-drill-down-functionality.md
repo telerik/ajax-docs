@@ -92,7 +92,7 @@ End Sub
 ````
 
 		
-The AJAX requests in **Example 1** are implemented via the **RadAjaxManager** control. You can find more information about	it in [this](34C4A4F8-2422-41BD-80A2-1EB5034ADCBD) help article.
+The AJAX requests in **Example 1** are implemented via the **RadAjaxManager** control. You can find more information about	it in [this]({%slug ajax/client-side-programming/overview%}) help article.
 
 ## See Also
 

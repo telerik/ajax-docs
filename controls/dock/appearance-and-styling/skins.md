@@ -52,7 +52,7 @@ You can tweak the existing skins, or create your own. Each skin has two main ele
 
 The stylesheet for a **RadDock** skin has the name **RadDock.[SkinName].css** and can be found in the **...Skins/[SkinName]** directory. The images are found in the **...Skins/[SkinName]/Dock** directory. For example, the stylesheet for the "Black" skin is called Dock.Black.css and is located in the ...Skins/Black directory.The images are found in the ...Skins/Black/Dock directory. The images are referenced by name from within the stylesheet.
 
-For information on the CSS File structure, see the [Understanding the Skin CSS File](5443DCB5-CFA0-4E73-92AB-C1229973BBA8) topic.
+For information on the CSS File structure, see the Understanding the Skin CSS File topic.
 
 # See Also
 

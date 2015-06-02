@@ -80,7 +80,7 @@ RadEditor for Share Point can be configured to load external CSS files as well. 
 
 
 
-More information you can find in the following online help article: [External CSS Files](88C1DD5C-6AF5-487F-B646-1321FADC0138).
+More information you can find in the following online help article: [External CSS Files]({%slug editor/functionality/toolbars/dropdowns/external-css-files%}).
 
 >caution This approach takes effect only for ContentAreaMode="Iframe". See **Table 3** for details.
 

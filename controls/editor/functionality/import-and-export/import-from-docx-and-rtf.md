@@ -109,7 +109,7 @@ These lists explain the basics of the Import Settings RadEditor exposes:
 
 Importing content in the Editor raises the **ImportContent** event that can be handled to accommodate the concrete application requirements. Additional information about the event arguments and how you can use them to interact with the import functionality is available in the [OnImportContent Event]({%slug editor/server-side-programming/events/onimportcontent%}) article.
 
->caption Example 2: Adding an additional paragraph to the [RadFlowDocument](dd4dbe18-3a7a-4b31-a1e4-2b2ff6fba91e) through the **OnImportContent** event
+>caption Example 2: Adding an additional paragraph to the [RadFlowDocument]({%slug radwordsprocessing-model-radflowdocument%}) through the **OnImportContent** event
 
 ````ASPNET
 <telerik:RadEditor runat="server" ID="RadEditor1" OnImportContent="RadEditor1_ImportContent">

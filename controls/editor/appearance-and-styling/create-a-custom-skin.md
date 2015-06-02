@@ -32,7 +32,7 @@ In order to explain better the CSS classes of RadEditor, we will use both Editor
 
 1. Go to **~/[ControlsInstallationFolder]/Skins/Default** and copy **Editor.Default.css** and the **Skins/Default/Editor** folder in your **Skins** folder.
 
-	>important If the used **Telerik UI for ASP.NET AJAX** suite includes Lite and Mobile [Render Modes](e13d2a83-e66e-47f1-b14e-af0fbeee4a59) then it is recommended to include the corresponding skin folders	(e.g. **DefaultLite** and **DefaultMobile** ) and rename them accordingly to **MyCustomSkinLite** and **MyCustomSkinMobile** 
+	>important If the used **Telerik UI for ASP.NET AJAX** suite includes Lite and Mobile [Render Modes]({%slug controls/render-modes%}) then it is recommended to include the corresponding skin folders	(e.g. **DefaultLite** and **DefaultMobile** ) and rename them accordingly to **MyCustomSkinLite** and **MyCustomSkinMobile** 
 
 1. Rename Editor.**Default**.css to Editor.**MyCustomSkin**.css and the folder **Default** to **MyCustomSkin**.
 

@@ -79,4 +79,10 @@ There are controls and elements that allow you to resize them by dragging their 
 
  * [RadSlider Render Modes]({%slug slider/mobile-support/render-modes%})
 
- * [RadSlider Client Object]({%slug slider/client-side-programming/radslider-object%})[Responsive, Adaptive and Elastic Capabilities](42cd0275-a8fe-4ea1-90f8-f15e63b81568)[RadDock Overview](C179C43F-63DD-40BD-9964-867B4F9A303E)[RadWindow Overview](4639D3A8-3908-4C85-BCC7-06AADB4C8153)[RadSplitter Overview](61B3EBA1-3A5F-47E7-9FA8-ADA3B61C5414)
+ * [RadSlider Client Object]({%slug slider/client-side-programming/radslider-object%})
+ 
+ * [Responsive, Adaptive and Elastic Capabilities]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/mobile-support/responsive,-adaptive-and-elastic-capabilities%})
+ 
+ * [RadWindow Overview]({%slug window/overview%})
+ 
+ * [RadSplitter Overview]({%slug splitter/overview%})

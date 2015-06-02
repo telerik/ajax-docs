@@ -33,7 +33,7 @@ You can easily handle that situation by configuring RadScriptManager to use the 
 		</head>
 
 
-1. Configure the RadScriptManager as per the **Including external jQuery** section from the [Using jQuery](020D635F-654D-41FB-9BD0-258E4ED5B401) article.
+1. Configure the RadScriptManager as per the **Including external jQuery** section from the [Using jQuery]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/using-jquery/using-jquery%}) article.
 
 	**ASP.NET**
 	
@@ -111,7 +111,7 @@ See **Example 1** for details.
 
 ## Disable Embedded Resources of RadHtmlChart
 
-You can [Disable Embedded Scripts](F02D3323-FFA7-46E6-A4DE-303D5EF15A43) of RadHtmlChart and manually reference them for custom deployment scenarios. You should also ensure there are no jQuery / scripts conflicts when integrating RadHtmlChart with Kendo UI widgets in such a scenario.
+You can [Disable Embedded Scripts]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/performance/disabling-embedded-resources%}) of RadHtmlChart and manually reference them for custom deployment scenarios. You should also ensure there are no jQuery / scripts conflicts when integrating RadHtmlChart with Kendo UI widgets in such a scenario.
 
 This can be done by loading a single jQuery and considering the following scripts dependency order:
 
@@ -181,4 +181,8 @@ This can be done by loading a single jQuery and considering the following script
 
 ## See Also
 
- * [Kendo UI Components](http://docs.telerik.com/kendo-ui/introduction)[Using jQuery](020D635F-654D-41FB-9BD0-258E4ED5B401)[Disabling Embedded Resources](F02D3323-FFA7-46E6-A4DE-303D5EF15A43)
+ * [Kendo UI Components](http://docs.telerik.com/kendo-ui/introduction)
+ 
+ * [Using jQuery]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/using-jquery/using-jquery%})
+ 
+ * [Disabling Embedded Resources]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/performance/disabling-embedded-resources%})

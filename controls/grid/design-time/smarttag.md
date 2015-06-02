@@ -38,7 +38,7 @@ The smart tag lets you perform the following:
 >
 
 
-* The **Open Editor** link launches the [RadGrid Editor]({%slug grid/design-time-/setting-radgrid%}), where you can configure the grid, including all **GridTableView** objects that it contains. The **RadGrid Editor** helps organize the many child controls and functions of the **RadGrid** control.
+* The **Open Editor** link launches the [RadGrid Editor]({%slug grid/design-time/setting-radgrid%}), where you can configure the grid, including all **GridTableView** objects that it contains. The **RadGrid Editor** helps organize the many child controls and functions of the **RadGrid** control.
 
 ## General Features
 

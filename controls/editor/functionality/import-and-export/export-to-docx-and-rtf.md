@@ -223,9 +223,13 @@ End Class
 
  * [Import and Export to Word]({%slug editor/functionality/import-and-export/import-and-export-to-word%})
 
- * [Import from DOCX and RTF]({%slug editor/functionality/import-and-export/import-from-docx-and-rtf%})[](65112864-d4c8-4ad6-8e5a-26f28c32ea8f)
+ * [Import from DOCX and RTF]({%slug editor/functionality/import-and-export/import-from-docx-and-rtf%})
+ 
+ * [Included Assemblies]({%slug introduction/installation/included-assemblies%})
 
- * [Event: OnExportContent]({%slug editor/server-side-programming/events/onexportcontent%})[Telerik UI for WPF - RadFlowDocument](dd4dbe18-3a7a-4b31-a1e4-2b2ff6fba91e)
+ * [Event: OnExportContent]({%slug editor/server-side-programming/events/onexportcontent%})
+ 
+ * [Telerik UI for WPF - RadFlowDocument]({%slug radwordsprocessing-model-radflowdocument%})
 
  * [Live demo: Import and Export to DOCX](http://demos.telerik.com/aspnet-ajax/editor/examples/export-and-import-to-docx/defaultcs.aspx)
 

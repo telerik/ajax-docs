@@ -26,7 +26,11 @@ The possible options are:
 
 * Larger sizes of buttons, touch handles etc. for easier interaction;
 
+<<<<<<< HEAD
 * Greater padding of buttons, touch handles etc. for easier interaction; The first controls that supports this mode are [RadScheduler]({%slug scheduler/overview%}),	[RadMenu]({%slug menu/overview%}) and [RadTileList]({%slug tilelist/overview%}).Note that this mode is introduced in **Q1 2014**.
+=======
+* Greater padding of buttons, touch handles etc. for easier interaction;The first controls that supports this mode are [RadScheduler]({%slug scheduler/overview%}),	[RadMenu]({%slug menu/overview%}) and [RadTileList]({%slug tilelist/overview%}).Note that this mode is introduced in **Q1 2014**.
+>>>>>>> origin/master
 
 * **Auto** - this mode makes each control choose the appropriate rendering mode according to the used	browser - **Classic**, **Lightweight** or **Mobile**.The behavior of the affected controls depends also on the available render modes, for example in touch devices the mode will be changed automatically to **Mobile**, if it is supported. If it is not, the mode will fall back until it meets the best mode that fits the environment. This functionality was added in Q3 2013.
 
@@ -73,6 +77,11 @@ There are two ways to set the **RenderMode** of each **Telerik control**:
 Where `Menu` can be replaced with any control name, without `Rad`.
 
 # See Also
+<<<<<<< HEAD
+=======
+
+ * [List of the Controls that Support Alternative Render Modes]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/mobile-support/render-modes%})
+>>>>>>> origin/master
 
 * [List of the Controls that Support Alternative Render Modes]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/mobile-support/render-modes%})
 

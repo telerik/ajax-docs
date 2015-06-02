@@ -127,4 +127,4 @@ End Sub
 ````
 
 
-In order to hide the expand/collapse images in multiple nested levels, you will need to perform a recursive loop through each table in depth. How to traverse the grid items in such manner you can learn from [this topic]({%slug grid/hierarchical-grid-types-and-load-modes/traversing-detail-tables/items-in-telerik-radgrid%}).
+In order to hide the expand/collapse images in multiple nested levels, you will need to perform a recursive loop through each table in depth. How to traverse the grid items in such manner you can learn from [this topic]({%slug grid/hierarchical-grid-types-and-load-modes/traversing-detail-tables%}).

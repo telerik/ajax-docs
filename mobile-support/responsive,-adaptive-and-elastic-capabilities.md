@@ -47,7 +47,7 @@ A control can hardly be considered responsive by itself, because this heavily de
 |Editor|[Yes]({%slug editor/mobile-support/elastic-design%})|[Yes]({%slug editor/mobile-support/fluid-design%})|Yes|N/A|
 |FileExplorer|No|Yes|No|No|
 |Filter|Yes|No|No|No|
-|FormDecorator|[Yes]({%slug formdecorator/mobile-support/responsive,-adaptive-and-elastic-capabilities%})|[Yes]({%slug formdecorator/mobile-support/responsive,-adaptive-and-elastic-capabilities%})|[Yes](e139b982-5e30-48fb-9b98-845d8b74d8ed)|N/A|
+|FormDecorator|[Yes]({%slug formdecorator/mobile-support/responsive,-adaptive-and-elastic-capabilities%})|[Yes]({%slug formdecorator/mobile-support/responsive,-adaptive-and-elastic-capabilities%})|[Yes]({%slug formdecorator/mobile-support/responsive,-adaptive-and-elastic-capabilities%})|N/A|
 |Gantt|Yes|Yes|No|No|
 |Gauge|N/A|N/A|N/A|N/A|
 |Grid|No|Yes|No|[Yes]({%slug grid/mobile-support/mobile-rendering/overview%})|
@@ -71,7 +71,7 @@ A control can hardly be considered responsive by itself, because this heavily de
 |Rating|[Yes]({%slug rating/mobile-support/elastic-design%})|No|No|N/A|
 |RibbonBar|No|Yes|No|No|
 |Rotator|[Yes]({%slug rating/mobile-support/elastic-design%})|Yes|[Yes]({%slug rotator/mobile-support/overview%})|N/A|
-|Scheduler|No|Yes|N/A|[Yes]({%slug scheduler/mobile-support/responsive-adaptive-and-elastic-capabilitie%})|
+|Scheduler|No|Yes|N/A|[Yes]({%slug scheduler/mobile-support/responsive-adaptive-and-elastic-capabilities%})|
 |SearchBox|Yes|No|N/A|N/A|
 |SiteMap|Yes|Yes|N/A|N/A|
 |Slider|[Yes]({%slug slider/mobile-support/responsive,-adaptive-and-elastic-capabilities%})|[Yes]({%slug slider/mobile-support/responsive,-adaptive-and-elastic-capabilities%})|[Yes]({%slug slider/mobile-support/responsive,-adaptive-and-elastic-capabilities%})|N/A|
@@ -96,7 +96,7 @@ A control can hardly be considered responsive by itself, because this heavily de
 
 ## CSS Selectors for Elastic Design
 
-**Example 1** provides the CSS selectors that let you resize the supported controls' UI elements via a font-size change. You can find detailed explanations on how this feature is supported in each control in **Table 1** above. **Example 2** shows the selectors used for *RadFormDecorator*. For more information, see the [Elastic capabilities in RadFormDecorator](e139b982-5e30-48fb-9b98-845d8b74d8ed) help article.
+**Example 1** provides the CSS selectors that let you resize the supported controls' UI elements via a font-size change. You can find detailed explanations on how this feature is supported in each control in **Table 1** above. **Example 2** shows the selectors used for *RadFormDecorator*. For more information, see the [Elastic capabilities in RadFormDecorator]({%slug formdecorator/mobile-support/responsive,-adaptive-and-elastic-capabilities%}) help article.
 
 **Example 1:** CSS selectors to make avail of the elastic design capabilities of the controls in the UI for ASP.NET AJAX suite
 
