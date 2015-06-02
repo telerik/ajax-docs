@@ -32,7 +32,9 @@ position: 0
 
 * Rich Client-side API and events
 
-# See Also[Getting Started](f388c985-6f8f-4448-81c1-9ff4ddcc5f91)
+# See Also
+
+ * [Getting Started]({%slug clientdatasource/getting-started%})
 
  * [Service Configuration]({%slug clientdatasource/service-configuration%})
 

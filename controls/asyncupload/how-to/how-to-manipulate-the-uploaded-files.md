@@ -10,7 +10,7 @@ position: 5
 
 # How to Manipulate the Uploaded Files
 
-If you need to perform additional actions on uploaded files before saving them (for example, if you are using [custom fields](D672F55D-06A8-4DDF-84CB-E16A1DED90FC)), or if you want to manipulate them in memory without saving them, you can use the **RadAsyncUpload** server-side API. It will allow you to rename uploaded files or save them into a database, or other storage media.
+If you need to perform additional actions on uploaded files before saving them (for example, if you are using [custom fields]({%slug upload/how-to/adding-information-to-uploaded-files%})), or if you want to manipulate them in memory without saving them, you can use the **RadAsyncUpload** server-side API. It will allow you to rename uploaded files or save them into a database, or other storage media.
 
 >caution If you set the **TargetFolder** or **TargetPhysicalFolder** property and then use the server-side API to manipulate the uploaded files, you may end up with two copies of the uploaded files. Be aware that any valid files will already be saved to the target folder.
 >
@@ -36,8 +36,8 @@ If you need to perform additional actions on uploaded files before saving them (
 |GetNameWithoutExtension()|string|Returns the name of the uploaded file, without the file extension.|
 |GetExtension()|string|Returns the extension of the uploaded file, including the leading dot (".")|
 |SaveAs(string, [bool])|none|Save the file to the location specified by the first parameter. The optional second parameter specifies whether to overwrite an existing file if it is found.|
-|GetFieldValue(string)|string|Retrieves a[custom field](D672F55D-06A8-4DDF-84CB-E16A1DED90FC)added to the uploaded file.|
-|GetIsFieldChecked(string)|boolean|Retrieves whether a[custom check box](D672F55D-06A8-4DDF-84CB-E16A1DED90FC)added to the uploaded file was checked.|
+|GetFieldValue(string)|string|Retrieves a [custom field]({%slug upload/how-to/adding-information-to-uploaded-files%}) added to the uploaded file.|
+|GetIsFieldChecked(string)|boolean|Retrieves whether a [custom check box]({%slug upload/how-to/adding-information-to-uploaded-files%}) added to the uploaded file was checked.|
 
 ## Saving uploaded files
 

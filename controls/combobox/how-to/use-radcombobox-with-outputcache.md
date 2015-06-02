@@ -16,7 +16,7 @@ position: 10
 
 To use RadComboBox with OutputCache you need to manually register the javascript files that are used by the control and the skin's CSS file.
 
-1. **Register the javascript files**. To be sure which files are needed you can check the[Disabling the Embedded Resources](F02D3323-FFA7-46E6-A4DE-303D5EF15A43) help topic. You need those javascript files that are mentioned there. Here are they are for the Q2 2009 and later versions:
+1. **Register the javascript files**. To be sure which files are needed you can check the [Disabling the Embedded Resources]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/performance/disabling-embedded-resources%}) help topic. You need those javascript files that are mentioned there. Here are they are for the Q2 2009 and later versions:
 
 ````ASPNET
 <asp:RadScriptManager ID="RadScriptManager1" runat="server">

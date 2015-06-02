@@ -110,7 +110,7 @@ Since Q2 2010 all new functionalities are listed in the control's Release Notes 
 
 * [MaxHeight]({%slug combobox/appearance-and-styling/controlling-appearance%}) property added to allow the height of the dropdown list to vary depending on the number of items.
 
-* [AccessibilityMode](AD24C4D4-BED7-49E5-9470-5F19A9E5A45B) property added. If it is set to true noscript tag containing select html element will be rendered. This select will be displayed instead of RadComboBox if the javascript is disabled.
+* [AccessibilityMode]({%slug combobox/accessibility-and-internationalization/accessibility%}) property added. If it is set to true noscript tag containing select html element will be rendered. This select will be displayed instead of RadComboBox if the javascript is disabled.
 
 * **Better performance** - lazy initialized items. They are initialized when the dropdown is opened or they are accessed for the first time.
 

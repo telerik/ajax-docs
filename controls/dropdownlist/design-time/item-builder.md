@@ -56,4 +56,4 @@ For each **RadDropDownListItem**,
 
 * **Enabled** determines whether the user can select the item from the drop-down list.
 
-* **CssClass** is the name of a CSS style to be applied to the dropdownlist item. The style can be declared in the CSS file of the applied [skin](02F6B25B-299B-4415-BEAC-4B40BF8A3CF4).
+* **CssClass** is the name of a CSS style to be applied to the dropdownlist item. The style can be declared in the CSS file of the applied [skin]({%slug combobox/appearance-and-styling/skins%}).

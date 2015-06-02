@@ -18,7 +18,7 @@ When the RadComboBox is using WCF service to load items on demand the following 
 
 ## Solution
 
-A solution to this problem would be to either remove the [RadCompression](9230BCC0-D8C3-49F0-BF5E-137AAE1FF333) module or to exclude the requests to the WCF service handler from the scope of the RadCompression module. In order to implement the second solution the following lines of code should be added to the web config file:
+A solution to this problem would be to either remove the [RadCompression]({%slug controls/radcompression%}) module or to exclude the requests to the WCF service handler from the scope of the RadCompression module. In order to implement the second solution the following lines of code should be added to the web config file:
 
 ````ASPNET
 <configuration>
