@@ -55,6 +55,7 @@ position: 1
 |  **Name**  |  **Description**  |
 | ------ | ------ |
 | **BackgroundColor** |The background color of the legend area. Can take a common color name or a hex value.|
+| **Align** |The alignment of the chart legend relative to the position. Takes the following values - Start, Center and End.|
 | **Position** |The position of the chart legend relative to the plot area. An enumeration (Telerik.Web.UI.HtmlChart.ChartLegendPosition)	with the following values: Bottom, Left, Right, Top.|
 | **TextStyle** |Controls the appearance of the labels in this element. See the [Labels and Titles Font Settings]({%slug htmlchart/appearance-and-styling/labels-and-titles-font-settings%}) article for detailed information.|
 | **Visible** |Defines whether the chart legend is shown. Values are True or False.|
