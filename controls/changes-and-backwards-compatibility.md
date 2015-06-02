@@ -20,7 +20,7 @@ position: 18
 
 * **RadAjaxLoadingPanel** control has new images for its build-in Skins. These new images are suitable for any background. The obsolete loading images which are not part of the RadAjaxLoadingPanel Skins are removed from the Telerik.Web.UI assembly.
 
-* **RadTimeView** control can be used on a page standalone, without RadTimePicker/RadDateTimePicker added on the page. When you are using it with disabled embedded scripts, you need to reference the below script files as described [here](F02D3323-FFA7-46E6-A4DE-303D5EF15A43).
+* **RadTimeView** control can be used on a page standalone, without RadTimePicker/RadDateTimePicker added on the page. When you are using it with disabled embedded scripts, you need to reference the below script files as described [here]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/performance/disabling-embedded-resources%}).
 
 * **RadGrid** has a base stylesheet file for its skins. Note that when you are using a custom skin with the latest release, you need to set the **EnableEmbeddedBaseStylesheet** property to **false**.
 
@@ -122,11 +122,11 @@ Customized advanced templates will not be styled correctly due to rendering chan
 
 * Default2006, Gray, Inox and SkyBlue skins are discontinued -- we are recommending the new Default skin for anyone that might have used the obsolete skins. If you decide that you still want the obsolete skins in your application please contact us in a support ticket.
 
->note To apply the old embedded skins of Telerik UI for ASP.NET AJAX as external with versions of the control after Q1 2009 (2009.1.311), download them from [this location](http://www.telerik.com/support/skins.aspx)and follow the steps concerning how to register an external skin from [here](CC071FB0-3F19-408A-8AEA-7A82330F6831) and [this](F02D3323-FFA7-46E6-A4DE-303D5EF15A43)topic.
+>note To apply the old embedded skins of Telerik UI for ASP.NET AJAX as external with versions of the control after Q1 2009 (2009.1.311), download them from [this location](http://www.telerik.com/support/skins.aspx) and follow the steps concerning how to register an external skin from [here]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/skin-registration%}) and [this]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/performance/disabling-embedded-resources%}) topic.
 >
 
 
-* New Telerik.Web.Design.dll to separate the design-time code from the web control implementation code. If you do not have VS 2008 SP1 installed you might have design-time problems. For possible solutions please refer to this [blogpost](http://blogs.telerik.com/aspnet-ajax/posts/09-03-06/meet-telerik-web-design-dll.aspx) as well as the bottom paragraph of [this help topic](929D58A5-33FB-45FF-AF36-C58B15EE5776).
+* New Telerik.Web.Design.dll to separate the design-time code from the web control implementation code. If you do not have VS 2008 SP1 installed you might have design-time problems. For possible solutions please refer to this [blogpost](http://blogs.telerik.com/aspnet-ajax/posts/09-03-06/meet-telerik-web-design-dll.aspx) as well as the bottom paragraph of [this help topic]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/troubleshooting/general-troubleshooting%}).
 
 ## Telerik RadAjax for ASP.NET AJAX Q1 2009#
 ````ASPNET
@@ -142,7 +142,7 @@ Customized advanced templates will not be styled correctly due to rendering chan
 
 ## RadComboBox for ASP.NET AJAX Q1 2009
 
-* Animations are using the jQuery library now. If you have disabled the embedded scripts you need to manually register the jQuery.js and jQueryPlugins.js files as described here: [Disabling Embedded Resources](F02D3323-FFA7-46E6-A4DE-303D5EF15A43)
+* Animations are using the jQuery library now. If you have disabled the embedded scripts you need to manually register the jQuery.js and jQueryPlugins.js files as described here: [Disabling Embedded Resources]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/performance/disabling-embedded-resources%})
 
 ## Telerik RadGrid for ASP.NET AJAX Q1 2009
 
@@ -164,7 +164,7 @@ In this version of the control, a number of changes have been made with respect 
 
 * The Label, associated with the slider has a CSS class of "**rgSliderLabel**".
 
-* Embedded skins improvements - all grid skins received major improvements/enhancements. See [this topic](ECE2CB6F-3421-4459-8102-1AABD8CD81C2) from the documentation for more info about the changes and [this forum thread](http://www.telerik.com/community/forums/aspnet-ajax/grid/radgrid-q3-2008-skins-available-for-download.aspx) explaining how to apply the old skins as external if necessary. Below is the most important part of it: CSS Classes Description
+* Embedded skins improvements - all grid skins received major improvements/enhancements. See [this topic]({%slug grid/appearance-and-styling/modifying-existing-skins%}) from the documentation for more info about the changes and [this forum thread](http://www.telerik.com/community/forums/aspnet-ajax/grid/radgrid-q3-2008-skins-available-for-download.aspx) explaining how to apply the old skins as external if necessary. Below is the most important part of it: CSS Classes Description
 
  Each CSS class should have a suffix with the name of the skin, e.g. "**_Vista**" before the Q1 2009 release of the product. The table below shows the classes used by the embedded Telerik RadGrid Default skin (the non-embedded skins CSS classes signature conforms to the same concepts): 
 
@@ -256,11 +256,11 @@ In this version of the control, a number of changes have been made with respect 
 
 ## RadMenu for ASP.NET AJAX Q1 2009
 
-* Animations are using the jQuery library now. If you have disabled the embedded scripts you need to manually register the jQuery.js and jQueryPlugins.js files as described here: [Disabling Embedded Resources](F02D3323-FFA7-46E6-A4DE-303D5EF15A43)
+* Animations are using the jQuery library now. If you have disabled the embedded scripts you need to manually register the jQuery.js and jQueryPlugins.js files as described here: [Disabling Embedded Resources]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/performance/disabling-embedded-resources%})
 
 ## RadPanelBar for ASP.NET AJAX Q1 2009
 
-* Animations are using the jQuery library now. If you have disabled the embedded scripts you need to manually register the jQuery.js and jQueryPlugins.js files as described here: [Disabling Embedded Resources](F02D3323-FFA7-46E6-A4DE-303D5EF15A43)
+* Animations are using the jQuery library now. If you have disabled the embedded scripts you need to manually register the jQuery.js and jQueryPlugins.js files as described here: [Disabling Embedded Resources]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/performance/disabling-embedded-resources%})
 
 ## RadScheduler for ASP.NET AJAX Q1 2009
 

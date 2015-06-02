@@ -28,7 +28,7 @@ Once you have access to a client-side object, you can use it to call its client-
 
 ## Using RadAsyncUpload with jQuery Intellisense
 
-You can use [jQuery Intellisense](D3834762-E3C7-4505-9551-987B4CAF61B3) to get the client object of **RadAsyncUpload** as shown in this sample code:
+You can use [jQuery Intellisense]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/using-jquery/jquery-intellisense%}) to get the client object of **RadAsyncUpload** as shown in this sample code:
 
 ````JavaScript	
 function pageLoad() {

@@ -98,4 +98,6 @@ Keep in mind that you can switch the AJAXified "Button1" with "Panel1" if necess
 
  * [Overview]({%slug ajax/radajaxpanel/overview%})
 
- * [Known Reasons for Error Messages]({%slug ajax/troubleshooting/known-reasons-for-error-messages%})[](6DFFC156-E88F-48C8-A34F-D99B805AEEB3)
+ * [Known Reasons for Error Messages]({%slug ajax/troubleshooting/known-reasons-for-error-messages%})
+ 
+ * [Common Issues]({%slug ajax/troubleshooting/common-issues%})

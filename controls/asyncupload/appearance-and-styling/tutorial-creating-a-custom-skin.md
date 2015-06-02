@@ -20,7 +20,7 @@ to something a little greener:
 
 ![Green Skin](images/asyncupload_greenskin.png)
 
-See [Understanding the Skin CSS File](C086A5D1-D48F-4412-89D4-DFECEB9AB9E4) for more information on specific CSS file properties.
+See [Understanding the Skin CSS File]({%slug upload/appearance-and-styling/understanding-the-skin-css-file%}) for more information on specific CSS file properties.
 
 ## Prepare the Project
 
@@ -137,7 +137,7 @@ End Sub
 ````
 
 
-1. The input area is actually a composite of a standard file input element sitting over a text box and button control that together simulate a file input element. This is done so that the skin CSS file has more control over [styling the input area](C20E27FF-BE09-4381-BCF6-EE31EF611C42). The **ruFakeInput** class is applied to the text box.Locate the rule for this element and change the border color to "green" and the background to "#eeffee":
+1. The input area is actually a composite of a standard file input element sitting over a text box and button control that together simulate a file input element. This is done so that the skin CSS file has more control over [styling the input area]({%slug upload/appearance-and-styling/file-input-appearance%}). The **ruFakeInput** class is applied to the text box.Locate the rule for this element and change the border color to "green" and the background to "#eeffee":
 
 ````CSS
 .RadUpload_Green .ruFakeInput 
