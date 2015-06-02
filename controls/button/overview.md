@@ -22,4 +22,6 @@ The **RadButton** control (**Figure 1**) provides the features, that ASP.NET But
  
  * [RadButton Getting Started]({%slug button/getting-started%})
  
- * [Properties and Events]({%slug button/server-side-programming/properties-and-events%})[](4F3D6E83-A8FB-4DE9-9DDD-D007366B31B9)
+ * [Properties and Events]({%slug button/server-side-programming/properties-and-events%})
+ 
+ * [FormDecorator Overview]({%slug formdecorator/overview%})

@@ -36,7 +36,7 @@ As a result of the modification, these commands now exhibit behavior different f
 
 ## User Experience with RadEditor
 
-The users has already gained experience for text editing from desktop rich text editors (e.g. MS Word). For their convenience most of the known commands are implemented in the **RadEditor** control via different [tools]({%slug editor/functionality/toolbars/overview%}) and their [keyboard shortcuts](6C74ED39-DB39-45F5-ADD5-1CCA662C580A).
+The users has already gained experience for text editing from desktop rich text editors (e.g. MS Word). For their convenience most of the known commands are implemented in the **RadEditor** control via different [tools]({%slug editor/functionality/toolbars/overview%}) and their keyboard shortcuts.
 
 If the **NewLineMode** property is used with its default value ("Br") some known actions are somehow different in the **RadEditor**. You can find a list of them in the following table.
 

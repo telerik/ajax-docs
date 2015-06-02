@@ -46,7 +46,7 @@ function OnClientClose(oWnd)
 
 ## RadMenu overlaps RadWindow
 
-This behavior is expected – by design RadMenu has a higher z-Index value than the RadWindow control. This is needed in common cases where a [RestrictionZone](http://demos.telerik.com/aspnet-ajax/window/examples/restrictionzone/defaultcs.aspx) is used and the RadMenu control is above that zone. To render the RadWindow control above RadMenu, all you need to do is to change its z-Index, according to [this help article](A346ABA1-4892-4441-B66E-B4A8F7549BD0). There is a [KB article](http://www.telerik.com/support/kb/aspnet-ajax/window/show-radwindow-above-radmenu.aspx)on the same subject as well.
+This behavior is expected – by design RadMenu has a higher z-Index value than the RadWindow control. This is needed in common cases where a [RestrictionZone](http://demos.telerik.com/aspnet-ajax/window/examples/restrictionzone/defaultcs.aspx) is used and the RadMenu control is above that zone. To render the RadWindow control above RadMenu, all you need to do is to change its z-Index, according to [this help article]({%slug controls/controlling-absolute-positioning-with-z-index%}). There is a [KB article](http://www.telerik.com/support/kb/aspnet-ajax/window/show-radwindow-above-radmenu.aspx)on the same subject as well.
 
 ## Using OffsetElementID and Top / Left properties together
 
@@ -64,7 +64,7 @@ This could happen if you have set DestroyOnClose to true. When this property is 
 
 ## RadComboBox, RadCalendar, RadDatePicker, etc. are not visible when a RadWindow is maximized
 
-By default, when maximized, a **RadWindow** changes its z-index to a very high value (100 000) in order to ensure that it is the topmost control on the page. If its **ContentTemplate** is used then the controls inside are part of the main page and normal z-index rules apply to them as well. This means that they will be hidden behind the popup element of the RadWindow with its new value. You can find a list with the default z-index values in [this help article](A346ABA1-4892-4441-B66E-B4A8F7549BD0).
+By default, when maximized, a **RadWindow** changes its z-index to a very high value (100 000) in order to ensure that it is the topmost control on the page. If its **ContentTemplate** is used then the controls inside are part of the main page and normal z-index rules apply to them as well. This means that they will be hidden behind the popup element of the RadWindow with its new value. You can find a list with the default z-index values in [this help article]({%slug controls/controlling-absolute-positioning-with-z-index%}).
 
 There is an easy way to control this behavior - setting the **ShowOnTopWhenMaximized** property of the **RadWindow** to **false** will prevent this z-index increase and the control will behave the same way in maximized and non-maximized state. The default value of this property is **true**.
 

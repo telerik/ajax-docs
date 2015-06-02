@@ -16,7 +16,7 @@ The event handler receives two arguments:
 
 1. **Sender**–the **RadEditor** instance that raised the event.
 
-1. **Event arguments**–an object of type [Telerik.Web.UI.EditorImportingArgs](http://www.telerik.com/help/aspnet-ajax/t_telerik_web_ui_editorimportingargs.html) that exposes the [HtmlFormatProvider](055c74e8-b87e-4c0f-b36c-b8210aab2055) and the [RadFlowDocument](dd4dbe18-3a7a-4b31-a1e4-2b2ff6fba91e) instances with which you can programmatically control the settings or the content imported.
+1. **Event arguments**–an object of type [Telerik.Web.UI.EditorImportingArgs](http://www.telerik.com/help/aspnet-ajax/t_telerik_web_ui_editorimportingargs.html) that exposes the [HtmlFormatProvider]({%slug radwordsprocessing-formats-and-conversion-html-htmlformatprovider%}) and the [RadFlowDocument]({%slug radwordsprocessing-model-radflowdocument%}) instances with which you can programmatically control the settings or the content imported.
 
 >caption Example 1: Using the event to modify the ExportSettings of the HtmlFormatProvider instance.
 
@@ -140,4 +140,10 @@ End Class
 
  * [Import and Export to Word]({%slug editor/functionality/import-and-export/import-and-export-to-word%})
 
- * [Import from DOCX and RTF]({%slug editor/functionality/import-and-export/import-from-docx-and-rtf%})[Telerik Document Processing Libraries - Overview](d17653ff-fe96-41c5-8739-01671fb45fba)[HtmlFormatProvider](055c74e8-b87e-4c0f-b36c-b8210aab2055)[RadFlowDocument](dd4dbe18-3a7a-4b31-a1e4-2b2ff6fba91e)
+ * [Import from DOCX and RTF]({%slug editor/functionality/import-and-export/import-from-docx-and-rtf%})
+ 
+ * [Telerik Document Processing Libraries - Overview]({%slug introduction/installation/included-assemblies%})
+ 
+ * [HtmlFormatProvider]({%slug radwordsprocessing-formats-and-conversion-html-htmlformatprovider%})
+ 
+ * [RadFlowDocument]({%slug radwordsprocessing-model-radflowdocument%})

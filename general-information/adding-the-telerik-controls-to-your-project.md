@@ -39,7 +39,7 @@ To add Telerik UI for ASP.NET AJAX to an existing ASP.NET web application you ne
 
 	>tip If your page is a content page/user control you can add the ScriptManager control in your master/main page. For further details about the ScriptManager control you can check [http://www.asp.net/AJAX/Documentation/Live/overview/ScriptManagerOverview.aspx](http://www.asp.net/AJAX/Documentation/Live/overview/ScriptManagerOverview.aspx).
 
-	>tip Alternatively, you can use a [RadScriptManager](2EF524B5-D6BE-47BE-9960-01EF7B786F85) which extends the standard ScriptManager	control and adds more features to it.
+	>tip Alternatively, you can use a [RadScriptManager]({%slug scriptmanager/overview%}) which extends the standard ScriptManager	control and adds more features to it.
 
 ## Adding Telerik Controls to a WebForm
 

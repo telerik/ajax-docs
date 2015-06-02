@@ -98,4 +98,6 @@ The **RadClientDataSource** control allows you to connect to a web service and f
 
  * [RadTagCloud client-side]({%slug tagcloud/client-side-programming/tagcloud-object%})
 
- * [RadTagCloud server-side]({%slug tagcloud/client-side-programming/tagcloud-object%})[RadClientDataSource Overview](1ef67ca5-56c3-42a5-acd9-d4add74507c7)
+ * [RadTagCloud server-side]({%slug tagcloud/client-side-programming/tagcloud-object%})
+ 
+ * [RadClientDataSource Overview]({%slug clientdatasource/overview%})

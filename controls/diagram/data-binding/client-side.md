@@ -32,7 +32,7 @@ The shapes and connections data should be in a JSON format with the necessary fi
 
 * for **Connections**, you need fields with the exact names from [The fields of the connection model](http://docs.telerik.com/kendo-ui/dataviz/diagram/editing#the-fields-of-the-connection-model) article. These fields associate connections with the shapes.
 
-You can also map shapes and connections field names of the diagram to the field names from the JSON literals through the **FieldName** and **OriginalFieldName** properties of the ClientDataSource Model of the RadClientDataSource. More information is available in the [](4697ee29-7b2c-4ac2-9bfd-1236a73b6c2b) help article.
+You can also map shapes and connections field names of the diagram to the field names from the JSON literals through the **FieldName** and **OriginalFieldName** properties of the ClientDataSource Model of the RadClientDataSource. More information is available in the [Service Configuration]({%slug clientdatasource/service-configuration%}) help article.
 
 If you want to customize the shapes yourself, you can get the necessary data from the **dataItem** object and reconfigure the shapes in either of the following ways:
 

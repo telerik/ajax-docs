@@ -31,7 +31,7 @@ Solution: The chart's tooltip has a z-index of 1000 which is lower than the z-in
 </style>
 ````
 
-You can find the list of Telerik UI controls with absolute positioning and their default z-index in the [](A346ABA1-4892-4441-B66E-B4A8F7549BD0) help article.
+You can find the list of Telerik UI controls with absolute positioning and their default z-index in the [Controlling Absolute Positioning with z-index]({%slug controls/controlling-absolute-positioning-with-z-index%}) help article.
 
 ## Legend is Not Visible
 

@@ -409,7 +409,9 @@ Below you can see the order of calling the various methods of FileBrowserContent
 
 ## See Also
 
- * [Overview]({%slug fileexplorer/client-side-programming/overview%})[RadEditor's Custom FileBrowserContent Provider](E04CA8C6-F600-49EC-8414-F49C2698BEA5)
+ * [Overview]({%slug fileexplorer/client-side-programming/overview%})
+ 
+ * [RadEditor's Custom FileBrowserContent Provider]({%slug editor/functionality/dialogs/examples/custom-filebrowsercontentprovider%})
 
  * [Use RadFileExplorer with physical paths and different content types (KB article)](http://www.telerik.com/support/kb/aspnet-ajax/fileexplorer/physical-paths-and-different-content-types.aspx)
 

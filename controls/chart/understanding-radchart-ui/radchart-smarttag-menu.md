@@ -34,7 +34,7 @@ Here you can find the most significant properties for the chart without navigati
 
 **Data**:
 
-* **Chart series collection:** Click the ellipses button to display the ChartSeries Collection Editor dialog. From there you can manually add series and series items to your chart. See the [Populate RadChart at Design-Time](376FEBAE-ED48-4A54-AAAA-E95F2C34937C) topic for more information.
+* **Chart series collection:** Click the ellipses button to display the ChartSeries Collection Editor dialog. From there you can manually add series and series items to your chart. See the Populate RadChart at Design-Time topic for more information.
 
 * **Choose data source:** Click the drop down list to select or create a data source. For more information see the [Data Binding RadChart]({%slug chart/building-radcharts/data-binding-radchart%}) topic.
 

@@ -20,7 +20,7 @@ This help article lists the most common issues one can face when using the **Rad
 
 ## Using a ScriptControl (e.g. RadGrid) in the RadNotification with the RadScriptManager
 
-The RadScriptManager combines the scripts for the page into one file. The RadNotification control uses RadXmlHttpPanel internally to initiate its callbacks and it needs to re-evaluate the scripts for the controls inside. This presents a problem when all scripts are combined in the same file, because the control cannot know where the exact scripts are. This results in a JavaScript error being thrown when a callback is initiated. More information about this case is available in [this help article](97553E94-46FD-4506-ACDA-37C4CD3677DA).
+The RadScriptManager combines the scripts for the page into one file. The RadNotification control uses RadXmlHttpPanel internally to initiate its callbacks and it needs to re-evaluate the scripts for the controls inside. This presents a problem when all scripts are combined in the same file, because the control cannot know where the exact scripts are. This results in a JavaScript error being thrown when a callback is initiated. More information about this case is available in [this help article]({%slug xmlhttppanel/troubleshooting%}).
 
 There are three ways to avoid this behavior:
 

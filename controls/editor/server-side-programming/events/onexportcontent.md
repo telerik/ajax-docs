@@ -188,4 +188,8 @@ End Class
 
  * [Export to DOCX and RTF]({%slug editor/functionality/import-and-export/export-to-docx-and-rtf%})
 
- * [Export to PDF]({%slug editor/functionality/import-and-export/export-to-pdf%})[Telerik Document Processing Libraries - Overview](d17653ff-fe96-41c5-8739-01671fb45fba)[RadFlowDocument](dd4dbe18-3a7a-4b31-a1e4-2b2ff6fba91e)
+ * [Export to PDF]({%slug editor/functionality/import-and-export/export-to-pdf%})
+ 
+ * [Telerik Document Processing Libraries - Overview]({%slug radwordsprocessing-overview%})
+ 
+ * [RadFlowDocument]({%slug radwordsprocessing-model-radflowdocument%})

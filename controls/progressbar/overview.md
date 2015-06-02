@@ -28,7 +28,7 @@ The control offers a rich set of features:
 
 * Support for [indeterminate]({%slug progressbar/functionality/types%}) progress value.
 
-* [Horizontal and vertical](b0f9df16-c403-48c5-bc92-a82b88f07299) orientation.
+* [Horizontal and vertical]({%slug progressbar/getting-started/overview%}) orientation.
 
 * Animation effects.
 

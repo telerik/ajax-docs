@@ -50,6 +50,6 @@ In the Q2 2008 release we have introduced a new editor property named **DialogCs
 		@import url("ListBox.<CurrentSkin>.css");
 
 
-	>caution Since **2014 Q1** version the FormDecorator is set to [LightWeight Render Mode](c255bd0b-1e73-4b27-a82d-38a23e24e062). Due to that the `@import url("FormDecorator.<CurrentSkin>.css");` line should be replaced with the	one valid for the FormDecoratorLite - `@import url('../<CurrentSkin>Lite/FormDecorator.<CurrentSkin>.css');`.
+	>caution Since **2014 Q1** version the FormDecorator is set to [LightWeight Render Mode]({%slug formdecorator/mobile-support/render-modes%}). Due to that the `@import url("FormDecorator.<CurrentSkin>.css");` line should be replaced with the	one valid for the FormDecoratorLite - `@import url('../<CurrentSkin>Lite/FormDecorator.<CurrentSkin>.css');`.
 
 1. Set the editor's **DialogsCssFile**property to point to the **DialogCSS.css** e.g. `DialogsCssFile="~/Skins/Default/DialogCSS.css"`

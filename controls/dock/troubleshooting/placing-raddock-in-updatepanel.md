@@ -12,7 +12,7 @@ position: 0
 
 
 
-This article treats the most common issues related to placing **RadDock** in an **UpdatePanel**, [RadAjaxPanel](6b8eb9b2-e5b9-44ee-93e0-7cc55cffe577) or adding it as updated control in [RadAjaxManager](546BFFA1-0A6D-4ACF-83E2-02D9592E7857).
+This article treats the most common issues related to placing **RadDock** in an **UpdatePanel**, [RadAjaxPanel]({%slug ajax/radajaxpanel/overview%}) or adding it as updated control in [RadAjaxManager]({%slug ajax/radajaxmanager/overview%}).
 
 >note The focus of the article is the combination of RadDock and UpdatePanel, because this is the base scenario. Nevertheless, the included information and code samples are valid for RadAjaxPanel and RadAjaxManager as well.
 >
@@ -141,7 +141,7 @@ End Sub
 ````
 
 
-You can **avoid this error by preventing the dragging** of the dock while an AJAX request is processed. The [RadAjaxLoadingPanel](17E31C56-1D2D-4C8D-9A43-1BEF6D86E7F2) control, used in combination with RadAjaxPanel, is quite useful for this purpose (**Example 5**).
+You can **avoid this error by preventing the dragging** of the dock while an AJAX request is processed. The [RadAjaxLoadingPanel]({%slug ajax/radajaxloadingpanel/overview%}) control, used in combination with RadAjaxPanel, is quite useful for this purpose (**Example 5**).
 
 **Example 5**: Preventing the dragging of the dock by showing a loading panel.
 
@@ -224,7 +224,13 @@ The result should be similar to the implementation that is shown in **Example 7*
 
 # See Also
 
- * [Drag And Drop]({%slug dock/getting-started/drag-and-drop%})[RadAjaxPanel Overview](6b8eb9b2-e5b9-44ee-93e0-7cc55cffe577)[RadAjaxManager Overview](546BFFA1-0A6D-4ACF-83E2-02D9592E7857)[RadAjaxLoadingPanel Overview](17E31C56-1D2D-4C8D-9A43-1BEF6D86E7F2)
+ * [Drag And Drop]({%slug dock/getting-started/drag-and-drop%})
+ 
+ * [RadAjaxPanel Overview]({%slug ajax/radajaxpanel/overview%})
+ 
+ * [RadAjaxManager Overview]({%slug ajax/radajaxmanager/overview%})
+ 
+ * [RadAjaxLoadingPanel Overview]({%slug ajax/radajaxloadingpanel/overview%})
 
  * [RadDock OnClientDragStart event]({%slug dock/client-side-programming/events/onclientdragstart%})
 

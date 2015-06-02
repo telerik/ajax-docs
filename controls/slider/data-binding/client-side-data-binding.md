@@ -95,4 +95,6 @@ The **RadClientDataSource** control allows you to connect to a web service and f
 
  * [RadSlider OnClientItemDataBinding]({%slug slider/client-side-programming/events/data-binding/onclientitemdatabinding%})
 
- * [RadSlider OnClientItemDataBound]({%slug slider/client-side-programming/events/data-binding/onclientitemdatabound%})[RadClientDataSource Overview](1ef67ca5-56c3-42a5-acd9-d4add74507c7)
+ * [RadSlider OnClientItemDataBound]({%slug slider/client-side-programming/events/data-binding/onclientitemdatabound%})
+ 
+ * [RadClientDataSource Overview]({%slug clientdatasource/overview%})

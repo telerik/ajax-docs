@@ -22,7 +22,7 @@ There are several ways to call the RadAlert, which slightly differ in the produc
 
 * If you want the alert from the main page you would need to call a [JavaScript function that accesses the main window]({%slug window/how-to/calling-functions-in-windows%}). There are also numerous ways to do that and the one you use depends on the current scenario:
 	* You can output it from the server if the logic that requires the alert is only executed in the code-behind. How to do that is explained in [this blog post](http://blogs.telerik.com/aspnet-ajax/posts/09-05-05/executing-javascript-function-from-server-side-code.aspx).
-	* You can use the [RadAjaxManager's ReponseScripts collection](731C6710-AD5C-4057-AB00-6D523559A747) to execute the JavaScript function after an AJAX request.
+	* You can use the [RadAjaxManager's ReponseScripts collection]({%slug ajax/how-to/executing-custom-javascript-code-after-ajax-update%}) to execute the JavaScript function after an AJAX request.
 	* Of course, it can be initiated on the client by another JavaScript function or a button click, etc.
 
 The JavaScript function that checks whether the context is a RadWindow or not is based on the [Determine If A Page Is Loaded Inside A RadWindow]({%slug window/how-to/determine-if-a-page-is-loaded-inside-a-radwindow%}) help article. You can modify it to remove the check if you are certain that this page will alway be loaded inside a RadWindow. The function itself is as follows:
