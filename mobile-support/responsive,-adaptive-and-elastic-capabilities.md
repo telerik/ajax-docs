@@ -71,7 +71,7 @@ A control can hardly be considered responsive by itself, because this heavily de
 |Rating|[Yes]({%slug rating/mobile-support/elastic-design%})|No|No|N/A|
 |RibbonBar|No|Yes|No|No|
 |Rotator|[Yes]({%slug rating/mobile-support/elastic-design%})|Yes|[Yes]({%slug rotator/mobile-support/overview%})|N/A|
-|Scheduler|No|Yes|N/A|[Yes]({%slug scheduler/mobile-support/responsive-adaptive-and-elastic-capabilitie%})|
+|Scheduler|No|Yes|N/A|[Yes]({%slug scheduler/mobile-support/responsive-adaptive-and-elastic-capabilities%})|
 |SearchBox|Yes|No|N/A|N/A|
 |SiteMap|Yes|Yes|N/A|N/A|
 |Slider|[Yes]({%slug slider/mobile-support/responsive,-adaptive-and-elastic-capabilities%})|[Yes]({%slug slider/mobile-support/responsive,-adaptive-and-elastic-capabilities%})|[Yes]({%slug slider/mobile-support/responsive,-adaptive-and-elastic-capabilities%})|N/A|
