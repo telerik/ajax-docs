@@ -272,7 +272,7 @@ Dim tbl As New Table()
 [structure].Tables.Add(tbl)
 
 Dim cell1 = tbl.Cells(1, 1)
-cell1.Value = "First line text.\nSecond line text."
+cell1.Value = "First line text." & vbLf & "Second line text."
 cell1.TextWrap = True
 
 
