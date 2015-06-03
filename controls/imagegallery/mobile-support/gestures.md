@@ -5,7 +5,7 @@ description: Gestures
 slug: imagegallery/mobile-support/gestures
 tags: gestures
 published: True
-position: 1
+position: 3
 ---
 
 # Gestures
