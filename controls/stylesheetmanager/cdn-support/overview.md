@@ -74,7 +74,7 @@ Moreover, you can enable the CDN support **globally** by adding the following ke
 
 
 
-Note, that the first line will enable the CDN support for the [javascript files](3962E5BD-7414-41F5-82AA-8D144A9327AF).
+Note, that the first line will enable the CDN support for the [javascript files]({%slug scriptmanager/cdn-support/overview%}).
 
 ## How are my users affected?
 

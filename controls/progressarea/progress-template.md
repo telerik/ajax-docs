@@ -157,4 +157,5 @@ The following example shows a **RadProgressArea** with a progress template and *
 
 # See Also
 
- * [Configuraton]({%slug progressarea/configuraton%})[](CC285951-AF70-457C-9767-009843DEC3A1)
+ * [Configuraton]({%slug progressarea/configuraton%})
+ * [Tutorial Creating a Custom Skin]({%slug asyncupload/appearance-and-styling/tutorial-creating-a-custom-skin%})

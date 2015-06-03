@@ -21,7 +21,7 @@ position: 0
 * [Template Support]({%slug treeview/templates/overview%}) for complex user interface design not already handled by default **RadTreeView** behavior.
 ![RadTreeView Template Support](images/treeview_templatesupport.png)
 
-* [Customizable appearance]({%slug treeview/appearance-and-styling/controlling-appearance%}) through [skins](A2ACD8E0-A5F3-4093-A5DA-FF45D737F6FA).
+* [Customizable appearance]({%slug treeview/appearance-and-styling/controlling-appearance%}) through [skins]({%slug ribbonbar/appearance-and-styling/skins%}).
 ![Customizable Appearance](images/treeview_customizableappearance.png)
 
 * Flexible binding mechanism, including
@@ -41,7 +41,7 @@ position: 0
 * [Enhanced Drag & Drop Behavior]({%slug treeview/drag-and-drop/overview%}) allows dragging onto other nodes, between other nodes, to other trees and onto any HTML element.
 ![RadTreeView Enhanced Drag & Drop Behavior](images/treeview_enhanceddragdropbehaviorpng.png)
 
-* [XHTML and Accessibility standards compliancy](11CA1B9F-1291-479A-9D49-ECDB63F4D912)
+* [XHTML and Accessibility standards compliancy]({%slug treeview/standards-compliance%})
 
 * Search Engine Friendly
 

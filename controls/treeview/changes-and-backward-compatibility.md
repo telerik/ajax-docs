@@ -70,7 +70,7 @@ Since Q2 2010 all major changes for the controls are listed in the official Rele
 
 ## RadTreeView for ASP.NET AJAX Q3 2008 (Version Number 2008.3.1105)
 
-* Animations are using the jQuery library now. If you have disabled the embedded scripts you need to manually register the **jQuery.js** and **jQueryPlugins.js** files as described here: [ Disabling Embedded Resources ](F02D3323-FFA7-46E6-A4DE-303D5EF15A43)
+* Animations are using the jQuery library now. If you have disabled the embedded scripts you need to manually register the **jQuery.js** and **jQueryPlugins.js** files as described here: [ Disabling Embedded Resources ]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/performance/disabling-embedded-resources%})
 
 ## RadTreeView for ASP.NET AJAX Q2 2008 (Version Number 2008.2.723)
 

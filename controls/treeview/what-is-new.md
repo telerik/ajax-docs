@@ -34,11 +34,11 @@ Since Q2 2010 all new functionalities are listed in the control's Release Notes 
 
 ## What's New in RadTreeView for ASP.NET AJAX Q3 SP1 2009 (Version Number 2009.3.1208)
 
-* New Skin - [Windows7](A2ACD8E0-A5F3-4093-A5DA-FF45D737F6FA)
+* New Skin - Windows7
 
 ## What's New in RadTreeView for ASP.NET AJAX Q3 2009 (Version Number 2009.3.1103)
 
-* New Skin - [Sitefinity](A2ACD8E0-A5F3-4093-A5DA-FF45D737F6FA)
+* New Skin - Sitefinity
 
 * [Performance optimizations on the server](http://blogs.telerik.com/tsvetomirtsonev/posts/09-10-15/radcontrols_for_asp_net_ajax_-_now_with_more_speed.aspx)
 
@@ -56,7 +56,7 @@ Since Q2 2010 all new functionalities are listed in the control's Release Notes 
 
 * Compatibility with Visual Studio 2010 Beta 1
 
-* New common skin: [Simple](A2ACD8E0-A5F3-4093-A5DA-FF45D737F6FA)
+* New common skin - Simple
 
 * Added support to render properly in callback / MVC / Web Service scenarios
 

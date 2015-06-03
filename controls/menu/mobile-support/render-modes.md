@@ -27,9 +27,6 @@ The possible options are:
 >important RadMenu, as well as the other Telerik controls that utilize render modes, supports only one type of render mode per page. This includes mode being set for a standalone instance, and a programmatically created instance. All such controls must have the same RenderMode on a given page. This also includes instances from user controls and master pages.
 >
 
-
-More information about setting the RadMenu different render modes please check the [RenderMode section](5a6cafe3-2893-47c7-aec8-ebe8b89a892c).
-
 ## Setting the Render Modes
 
 There are two ways to set the RenderMode for the RadMenu:

@@ -20,7 +20,7 @@ This tutorial will walk you through creating a **RadToolBar** and shows how to:
 
 * Apply a skin to the toolbar to change its look & feel.
 
-1. Drag a **RadToolBar** component from the toolbox onto your Web page. The **RadToolBar** [Smart Tag](5BB964CF-AA36-443D-824B-60964E411B25) should appear automatically:
+1. Drag a **RadToolBar** component from the toolbox onto your Web page. The **RadToolBar** [Smart Tag]({%slug toolbar/design-time/smart-tag%}) should appear automatically:
 >caption 
 
 ![toolbar smarttag](images/toolbar_smarttag.png)

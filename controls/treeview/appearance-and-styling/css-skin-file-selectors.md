@@ -38,7 +38,9 @@ The following table lists significant CSS selectors and descriptions for **RadTr
 
 # See Also
 
- * [Controlling Appearance]({%slug treeview/appearance-and-styling/controlling-appearance%})[](A2ACD8E0-A5F3-4093-A5DA-FF45D737F6FA)
+ * [Controlling Appearance]({%slug treeview/appearance-and-styling/controlling-appearance%})
+ 
+ * [Skins]({%slug ribbonbar/appearance-and-styling/skins%})
 
  * [Tutorial on Creating a Custom Skin]({%slug treeview/appearance-and-styling/tutorial-on-creating-a-custom-skin%})
 

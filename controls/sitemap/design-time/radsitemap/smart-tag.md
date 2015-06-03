@@ -38,7 +38,7 @@ Using the unbound **RadSiteMap** Smart Tag you can perform the following:
 
 ## Skin
 
-The **Skin** drop-down lets you preview the built-in [skins](F027C770-2BB1-4942-8908-0E448B952734) and select one for your sitemap.
+The **Skin** drop-down lets you preview the built-in [skins]({%slug menu/appearance-and-styling/appearance-skins%}) and select one for your sitemap.
 
 ## Learning Center
 

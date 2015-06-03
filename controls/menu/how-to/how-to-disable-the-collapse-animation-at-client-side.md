@@ -18,7 +18,7 @@ This article describes how to hide the RadContextMenu and get a confirmation dia
 ![Hide RadContextMenu](images/menu_treecontext.png)
 
 
-To prevent this behavior you can disable the collapse animation of the context menu before we hide it. This way it will hide immediately. After that we can enable it again. To achieve that you need to subscribe to the [OnClientContextMenuItemClicking](B154D1F1-C612-4E34-9FD6-4193F8AB5697) (in case of a treeview's context menu) **or** [OnClientItemClicking]({%slug menu/client-side-programming/events/onclientitemclicking%}) event and define the event handlers as follows:
+To prevent this behavior you can disable the collapse animation of the context menu before we hide it. This way it will hide immediately. After that we can enable it again. To achieve that you need to subscribe to the [OnClientContextMenuItemClicking]({%slug treeview/client-side-programming/events/onclientcontextmenuitemclicking%}) (in case of a treeview's context menu) **or** [OnClientItemClicking]({%slug menu/client-side-programming/events/onclientitemclicking%}) event and define the event handlers as follows:
 
 ````JavaScript
 function OnClientContextMenuItemClicking(sender, e) {

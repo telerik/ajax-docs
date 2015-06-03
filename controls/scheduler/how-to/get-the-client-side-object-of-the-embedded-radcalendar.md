@@ -30,4 +30,4 @@ function pageLoad()
 
 
 
-The RadCalendar client object can be further operated with by using its[client-side API](99597141-EB9B-4441-A23D-82ECED22D020).
+The RadCalendar client object can be further operated with by using its [client-side API]({%slug calendar/client-side-programming/radcalendar-object%}).

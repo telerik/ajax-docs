@@ -60,8 +60,6 @@ position: 0
 
 * Lightweight markup (no tables).
 
-* [Compliance to multiple standards](4524F21C-03F9-4066-86A0-832B181B62B1).
-
 * **Overlay support**. RadMenu can display its items over IE windowed objects suchHTML select boxes, Flash movies, and so on. This built-in feature does not need to be set explicitly through a property.
 
 * **Screen boundary detection**.The list of child items expands to the opposite direction when necessary to prevent screen boundaries from being crossed.

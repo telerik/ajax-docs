@@ -36,7 +36,7 @@ Since Q2 2010 all major changes for the controls are listed in the official Rele
 
 * Three skins have been removed - Gray, Inox and SkyBlue.
 
-* Animations are using the jQuery library now. If you have disabled the embedded scripts you need to manually register the jQuery.js and jQueryPlugins.js files as described here: [ Disabling Embedded Resources ](F02D3323-FFA7-46E6-A4DE-303D5EF15A43)
+* Animations are using the jQuery library now. If you have disabled the embedded scripts you need to manually register the jQuery.js and jQueryPlugins.js files as described here: [ Disabling Embedded Resources ]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/performance/disabling-embedded-resources%})
 
 * Design-time code is placed in a new assembly - Telerik.Web.Design.dll. Read [this blog post](http://blogs.telerik.com/aspnet-ajax/posts/09-03-06/meet-telerik-web-design-dll.aspx) for more information.
 

@@ -56,8 +56,6 @@ Using **RadTabStrip**, you get:
 
 * Lightweight markup (no tables).
 
-* [Compliance to multiple standards](4524F21C-FAF9-4066-86A0-832B181B62B1).
-
 * [Cross-page postbacks]({%slug tabstrip/web-pages/cross-page-postback%}), which let you direct postbacks from the menu to a different Web page.
 
 * Support for [ASP.NET validation]({%slug tabstrip/web-pages/validation%}).

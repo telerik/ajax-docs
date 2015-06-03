@@ -14,7 +14,7 @@ position: 1
 
 The **RadToolBar Item Editor** lets you populate your toolbar with buttons. There are two ways to bring up the RadToolBar Item Editor:
 
-* From the **RadToolBar** [ Smart Tag ](5BB964CF-AA36-443D-824B-60964E411B25), click on the **Build RadToolBar** link.
+* From the **RadToolBar** [ Smart Tag ]({%slug toolbar/design-time/smart-tag%}), click on the **Build RadToolBar** link.
 
 * Right-click on the **RadToolBar** component and select **Build RadToolBar** from its context menu.
 

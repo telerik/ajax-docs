@@ -30,7 +30,7 @@ Using the **RadRibbonBar** Smart Tag you can perform the following:
 
 ## Skin
 
-The **Skin** drop-down lets you preview the built-in [skins](F027C770-AAB1-4942-8908-0E448B952734) and select one for your menu.
+The **Skin** drop-down lets you preview the built-in [skins]({%slug toolbar/appearance-and-styling/skins%}) and select one for your menu.
 
 ![RibbonBar Skins](images/ribbonbar_skins.png)
 

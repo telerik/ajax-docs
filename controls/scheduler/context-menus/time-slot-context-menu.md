@@ -16,7 +16,7 @@ With Q3 2009, RadScheduler gives you the option to enable a default time slot co
 
 If **TimeSlotContextMenuSettings-EnableDefault** is set to **true**, right-clicking on a time slot will display a context menu.The default time slot context menu is disabled by default.
 
-You can use the TimeSlotContextMenuSettings to also style the menu through a [skin registration](CC071FB0-3F19-408A-8AEA-7A82330F6831), or to [disable its embedded resources](F02D3323-FFA7-46E6-A4DE-303D5EF15A43):
+You can use the TimeSlotContextMenuSettings to also style the menu through a [skin registration]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/skin-registration%}), or to [disable its embedded resources]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/performance/disabling-embedded-resources%}):
 
 ![time slot context menu settings](images/scheduler_timeslotcontextmenusettings.png)
 

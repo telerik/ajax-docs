@@ -12,7 +12,7 @@ position: 0
 
 
 
-This article explains the **responsive design capabilities RadMenu offers**. The [Lightweight RenderMode](548bed68-1c8c-4f6a-b69f-2068c034f0fe) of RadMenu supports **elastic design since Q1 2014**.
+This article explains the **responsive design capabilities RadMenu offers**. The [Lightweight RenderMode]({%slug menu/mobile-support/render-modes%}) of RadMenu supports **elastic design since Q1 2014**.
 
 Generally, responsive design means that the page and its content are able to adapt to different screen resolutions without deteriorating the user experience. This often includes changing the font size and having dimensions set in percent.
 
@@ -64,4 +64,4 @@ As of Q1 2014 we introduced the **Mobile** rendering mode for the **RadMenu** co
 
 ![mobile renderingappearance](images/mobile_renderingappearance.png)
 
-More information about the functionalities that the RadMenu mobile render mode offers you can find [here](591051a9-c177-47c5-b2c9-4e8a471f0db9).
+More information about the functionalities that the RadMenu mobile render mode offers you can find [here]({%slug menu/mobile-support/render-modes%}).

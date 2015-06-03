@@ -11,7 +11,7 @@ position: 3
 # Skins
 
 
-**RadToolBar** uses **skins** to control the overall look-and-feel of the toolbar. A skin is a set of images and a CSS stylesheet that can be applied to the toolbar elements (items, images, etc.) and defines their look and feel. To apply a skin to the toolbar, set its **Skin** property, either using the properties pane or the **RadToolBar** [Smart Tag](5BB964CF-AA36-443D-824B-60964E411B25).
+**RadToolBar** uses **skins** to control the overall look-and-feel of the toolbar. A skin is a set of images and a CSS stylesheet that can be applied to the toolbar elements (items, images, etc.) and defines their look and feel. To apply a skin to the toolbar, set its **Skin** property, either using the properties pane or the **RadToolBar** [Smart Tag]({%slug toolbar/design-time/smart-tag%}).
 
 **RadToolBar** is installed with a number of built-in skins:
 

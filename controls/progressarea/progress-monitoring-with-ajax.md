@@ -14,7 +14,7 @@ position: 5
 
 ## 
 
-While uploads [cannot be done viaAjax](FAD82F72-C811-423F-9588-5F4D380E61AA), this is not true for **custom progress measurement**. There are several scenarios in monitoring custom progress via Ajax:
+While uploads [cannot be done via Ajax]({%slug upload/uploading-files/uploading-files-with-ajax%}), this is not true for **custom progress measurement**. There are several scenarios in monitoring custom progress via Ajax:
 
 1) Having RadProgressManager and RadProgressArea updated by the **RadAjaxManager/RadAjaxPanel/UpdatePanel** - RadProgressManager andRadProgressArea will be **recreated** (the progress area will flicker)when the Ajax call has finished. Due to this refresh the progress measurement (the progress-Ajax calls)will stop automatically.
 
