@@ -33,6 +33,7 @@ As of the Q3 2012 release, you can declare multiple y-axes in the **AdditionalYA
 | **MinorTickType** |The type of the ticks that mark the minor grid lines. An enumeration that is either **None** or **Outside** .|
 | **MinValue** |The minimal numerical value of the axis. The property takes effect only for a numerical axis. Chosen by the control according to the data if not set explicitly.|
 | **Name** |The Name of the y-axis that can be used in the **AxisName** property of each series to indicate which y-axis will be used by the particular series. Applicable when multiple y-axes are used. Can be left blank for the default y-axis.|
+| **NarrowRange** | A boolean property that indicates whether the automatic y-axis range snapping to 0 will be prevented.|
 | **Reversed** |Determines whether the axis will be reversed (i.e., the low values in the place of the high values).|
 | **StartAngle** | **PolarAreaSeries** , **PolarLineSeries** and **PolarScatterSeries** - The angle (degrees) where the 0 value is placed. Angles increase counter clockwise and zero is to the right. Negative values are acceptable. Default value is 90. **RadarAreaSeries** , **RadarColumnSeries** and **RadarLineSeries** - The angle (degrees) of the first category on the axis. Angles increase clockwise and zero is to the left. Negative values are acceptable. Default value is 0.|
 | **Step** |The step through which major grid lines and axis labels are placed. Chosen by the control according to the data if not set explicitly. Applicable for numeric axes only.|
