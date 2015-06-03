@@ -45,8 +45,13 @@ position: 1
 | ------ | ------ |
 | **Align** |The alignment of the title according to the chart. An enumeration ( **Telerik.Web.UI.HtmlChart.ChartTitleAlign** )	with one of the following values: Left, Center or Right.|
 | **BackgroundColor** |The background color of the title area. Can take a common color name or a hex value.|
-| **Position** |The vertical position of the chart title. An enumeration ( **Telerik.Web.UI.HtmlChart.ChartTitlePosition** ) with the following values: Top or Bottom.|
+| **Height** |The legend height when the legend orientation is set to Vertical.|
+| **OffsetX** |The X offset of the chart legend. The offset is relative to the current position of the legend.|
+| **OffsetY** |The Y offset of the chart legend. The offset is relative to the current position of the legend.|
+| **Orientation** |The orientation of the legend items. Takes Vertical (i.e., legend items are added vertically) and Horizontal (i.e., legend items are added horizontally) values.|
+| **Position** |The vertical position of the chart title. An enumeration ( **Telerik.Web.UI.HtmlChart.ChartTitlePosition** ) with the following values: Top, Bottom, Left, Right and Custom. Custom value positions the legend to the upper left corner and is used with **OffsetX** and **OffsetY** properties |
 | **TextStyle** |Controls the appearance of the labels in this element. See the [Labels and Titles Font Settings]({%slug htmlchart/appearance-and-styling/labels-and-titles-font-settings%}) article for detailed information.|
+| **Width**|The legend width when the legend orientation is set to Horizontal.|
 | **Visible** |Defines whether the chart title is shown. Values are True or False.|
 
 ## Attribute Properties in Main Tag > Legend > Appearance
