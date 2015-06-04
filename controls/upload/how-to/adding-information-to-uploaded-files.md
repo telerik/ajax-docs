@@ -157,6 +157,8 @@ End Sub
 ````
 
 
-# See Also[](FC66018F-9560-4F29-A685-C6DC5D9BF5C9)
+# See Also
 
- * [Additional Fields online example](http://demos.telerik.com/aspnet/prometheus/Upload/Examples/AdditionalFields/DefaultCS.aspx)
+* [How to Manipulate the Uploaded Files]({%slug asyncupload/how-to/how-to-manipulate-the-uploaded-files%})
+
+* [Additional Fields online example](http://demos.telerik.com/aspnet/prometheus/Upload/Examples/AdditionalFields/DefaultCS.aspx)

@@ -52,4 +52,5 @@ The following example uses the **OnClientSubmitting** event to prevent the postb
 
 # See Also
 
- * [How to Prevent Uploads]({%slug upload/how-to/how-to-prevent-uploads%})[](048DD8B2-210A-4239-8CBE-00B6082F1B78)
+ * [How to Prevent Uploads]({%slug upload/how-to/how-to-prevent-uploads%})
+ * [OnClientProgressStarted]({%slug progressarea/client-side-programming/onclientprogressstarted%})

@@ -28,9 +28,9 @@ You can use the **RadUpload** and **RadProgressManager** components, separately 
 
 In order to use **RadProgressManager**, you must configure your application using the **Web.config** file. There are two settings you should register:
 
-* [RadUploadHttpModule](FAFFEB65-66D2-4CFE-8F40-E4BA471540A9) - this HttpModule contains the core functionality of the progress manager.
+* [RadUploadHttpModule]({%slug progressarea/webconfing-configuraton%}) - this HttpModule contains the core functionality of the progress manager.
 
-* [RadUploadProgressHandler](FAFFEB65-66D2-4CFE-8F40-E4BA471540A9) - this HttpHandler is used by **RadProgressManager** for asynchronous progress updates.
+* [RadUploadProgressHandler]({%slug progressarea/webconfing-configuraton%}) - this HttpHandler is used by **RadProgressManager** for asynchronous progress updates.
 
 By default, you can upload files which size is up to 4MB. You can, however, [ configure your application for large uploads ]({%slug upload/uploading-files/uploading-large-files%}), to allow up to 2GB.
 
@@ -40,7 +40,7 @@ By default, you can upload files which size is up to 4MB. You can, however, [ co
 
 * [Automatic file saving]({%slug upload/how-to/auto-saving-to-a-target-folder%}) - **RadUpload** can automatically save your uploaded files to a selected folder with just a single property setting.
 
-* [File saving with server-side code](FC66018F-9560-4F29-A685-C6DC5D9BF5C9) - in complex situations, you can still manipulate uploaded files using server-side code while gaining the benefits of integrated file validation.
+* [File saving with server-side code]({%slug asyncupload/how-to/how-to-manipulate-the-uploaded-files%}) - in complex situations, you can still manipulate uploaded files using server-side code while gaining the benefits of integrated file validation.
 
 * [Integrated validation]({%slug upload/validation/integrated-validation%}) - **RadUpload** can automatically validate file extensions, mime-types, and the size of uploaded files.
 
@@ -52,4 +52,4 @@ By default, you can upload files which size is up to 4MB. You can, however, [ co
 
 ## Limitations
 
-**RadUpload** has a few [known limitations]({%slug upload/uploading-files/known-limitations%}), which you should know about. Here are the [known limitations](F507ECE7-6ED0-4F4C-A3E3-9A89D2137F84) of **RadProgressArea**.
+**RadUpload** has a few [known limitations]({%slug upload/uploading-files/known-limitations%}), which you should know about. Here are the [known limitations]({%slug progressarea/known-limitations%}) of **RadProgressArea**.

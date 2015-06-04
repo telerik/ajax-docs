@@ -22,7 +22,7 @@ Since Q2 2010 all new functionalities are listed in the control's Release Notes 
 
 ## What's New in RadUpload for ASP.NET AJAX Q1 2010
 
-* Added [RadAsyncUpload](51A42F59-76B9-42A9-BEE3-72E81A508D0D) control which allows asynchronous file uploads and works flawlessly in ajax panels.
+* Added [RadAsyncUpload]({%slug asyncupload/overview%}) control which allows asynchronous file uploads and works flawlessly in ajax panels.
 
 ## What's New in RadUpload for ASP.NET AJAX Q3 SP2 2009 (Version Number 2009.3.1314)
 
@@ -78,7 +78,7 @@ Since Q2 2010 all new functionalities are listed in the control's Release Notes 
 
 * RadProgressArea now works in Opera
 
-* [ RadProgressManager and RadProgressArea now support partial updates ](24460397-0E19-44D1-8EEE-A8459A54B179) – custom progress of partially updated controls can be monitored
+* [RadProgressManager and RadProgressArea now support partial updates]({%slug progressarea/progress-monitoring-with-ajax%}) – custom progress of partially updated controls can be monitored
 
 * The RadUpload client-side event arguments are now consistent; Now you have direct references to the **row,** the **file input** field and the **rowIndex**.
 
@@ -92,15 +92,15 @@ Since Q2 2010 all new functionalities are listed in the control's Release Notes 
 
 * [ New Localization for RadUpload using the Localization property or Global Resource Files ]({%slug upload/localization/localizing-radupload%})
 
-* [ New Localization for RadProgressArea using the Localization property or GlobalResource Files ](BCC18A1A-3EF6-44C2-A38B-D5BB8CE9BFD1)
+* [ New Localization for RadProgressArea using the Localization property or GlobalResource Files ]({%slug progressarea/localization/localizing-radprogressarea%})
 
-* **RadProgressArea** now works under Safari [with limited restrictions](F507ECE7-6ED0-4F4C-A3E3-9A89D2137F84)
+* **RadProgressArea** now works under Safari 
 
 * **Gray** skin has been added.
 
 * RadUpload’s **HttpModule** is reworked and now the control supports **IIS7** integrated mode.
 
-* **RadProgressContext**[ exposes named properties to ease the creation of a custom progress ](CA8786F9-D48D-4423-92EA-D2C8907D19BA).
+* **RadProgressContext** [ exposes named properties to ease the creation of a custom progress ]({%slug progressarea/custom-progress%}).
 
 # See Also
 

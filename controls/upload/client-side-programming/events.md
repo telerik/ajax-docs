@@ -34,15 +34,15 @@ position: 1
 
 ## RadProgressArea
 
-* [OnClientProgressUpdating](1273E21C-A0E8-4F54-A1EF-407C0A712F84) occurs immediately before the text indicators in the **RadProgressArea** dialog are updated.
+* [OnClientProgressUpdating]({%slug progressarea/client-side-programming/onclientprogressupdating%}) occurs immediately before the text indicators in the **RadProgressArea** dialog are updated.
 
-* [OnClientProgressBarUpdating](7E5BCE41-B12C-4B58-BD7F-8B21CA092561) occurs immediately before one of the progress bars in the **RadProgressArea** dialog is updated.
+* [OnClientProgressBarUpdating]({%slug progressarea/client-side-programming/onclientprogressbarupdating%}) occurs immediately before one of the progress bars in the **RadProgressArea** dialog is updated.
 
 ## RadProgressManager
 
-* [OnClientProgressUpdating](1273E21C-A0E8-4F54-A1EF-407C0A712F84) occurs immediately before any **RadProgressArea** dialogs on the page are updated.
+* [OnClientProgressUpdating]({%slug progressarea/client-side-programming/onclientprogressupdating%}) occurs immediately before any **RadProgressArea** dialogs on the page are updated.
 
-* [OnClientProgressStarted](048DD8B2-210A-4239-8CBE-00B6082F1B78) occurs when the progress manager starts monitoring the progress of a file upload operation.
+* [OnClientProgressStarted]({%slug progressarea/client-side-programming/onclientprogressstarted%}) occurs when the progress manager starts monitoring the progress of a file upload operation.
 
 * [OnClientSubmitting]({%slug upload/client-side-programming/onclientsubmitting%}) occurs when a postback that uploads files is about to occur.
 
@@ -132,4 +132,8 @@ Note that on the client-side, the names of events are slightly different than on
 
  * [Server-side Events]({%slug upload/server-side-programming/events%})
 
- * [RadUpload Object]({%slug upload/client-side-programming/radupload-object%})[](F07E2354-2B45-479D-983B-0CF4A70D4446)[](E9863C1B-4C24-456F-8640-BA6A83203777)
+ * [RadUpload Object]({%slug upload/client-side-programming/radupload-object%})
+ 
+ * [RadProgressArea Client Object]({%slug progressarea/client-side-programming/radprogressarea-client-object%})
+ 
+ * [RadProgressManager Client Object]({%slug progressarea/client-side-programming/radprogressmanager-client-object%})

@@ -18,8 +18,8 @@ position: 1
 
 ## 
 
-**RadUploadHttpModule** is the object, which "reads" the information about the current request progress and provides the information to the **RadUploadHttpHandler** through the [RadProgressContext](CA8786F9-D48D-4423-92EA-D2C8907D19BA) object.
+**RadUploadHttpModule** is the object, which "reads" the information about the current request progress and provides the information to the **RadUploadHttpHandler** through the [RadProgressContext]({%slug progressarea/custom-progress%}) object.
 
 RadUploadModule requires **ReflectionPermission** in order to operate correctly. This means that in normal circumstances you will have to run your application with **Full Trust** permission set, unless you create a [custom security policy](http://msdn2.microsoft.com/en-us/library/ms998326.aspx) that allows **ReflectionPermission**. If you are unable to set **Full Trust** or a custom security policy, the solution is to put the controls assembly in **GAC**.
 
-As a result, if you have [ registered the RadUploadHttpModule ](FAFFEB65-66D2-4CFE-8F40-E4BA471540A9) in the web.config (which is mandatory if you want to use the **RadProgressArea**) then you need to comply with the above trust levels.
+As a result, if you have [registered the RadUploadHttpModule]({%slug progressarea/webconfing-configuraton%}) in the web.config (which is mandatory if you want to use the **RadProgressArea**) then you need to comply with the above trust levels.

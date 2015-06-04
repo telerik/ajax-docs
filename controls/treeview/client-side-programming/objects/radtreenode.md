@@ -140,7 +140,7 @@ function ToggleNode()
 
 >caption  
 
-|  **highlight & unhighlight**  | none | none | Highlights or un-highlights a Node. Highlighted Nodes are visually emphasized. The specific display is dictated by the[Skin](A2ACD8E0-A5F3-4093-A5DA-FF45D737F6FA). |
+|  **highlight & unhighlight**  | none | none | Highlights or un-highlights a Node. Highlighted Nodes are visually emphasized. The specific display is dictated by the [Skin]({%slug ribbonbar/appearance-and-styling/skins%}). |
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
@@ -161,7 +161,7 @@ function HighlightNode()
 
 >caption  
 
-|  **select & unselect**  | none | none | Select or unselect a Node. Selecting a Node typically emphasizes the Node. The specific display is dictated by the[Skin](A2ACD8E0-A5F3-4093-A5DA-FF45D737F6FA). Highlighting and selecting have similar but not identical displays.If selecting a Node with a mouse does postback, calling the **select()** function will select the Node and do postback. |
+|  **select & unselect**  | none | none | Select or unselect a Node. Selecting a Node typically emphasizes the Node. The specific display is dictated by the [Skin]({%slug ribbonbar/appearance-and-styling/skins%}). Highlighting and selecting have similar but not identical displays.If selecting a Node with a mouse does postback, calling the **select()** function will select the Node and do postback. |
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
@@ -215,7 +215,7 @@ function SetSelected()
 
 >caption  
 
-|  **enable & disable**  | none | none | disable() makes a Node inactive and unclickable. Typically the Node is displayed in a lighter color dictated by the style setting of the[Skin](A2ACD8E0-A5F3-4093-A5DA-FF45D737F6FA). enable() returns the Node to a usable, clickable state. disable is a functionally equivalent to set_enabled(false) and enable() is equivalent to set_enabled(true). |
+|  **enable & disable**  | none | none | disable() makes a Node inactive and unclickable. Typically the Node is displayed in a lighter color dictated by the style setting of the [Skin]({%slug ribbonbar/appearance-and-styling/skins%}). enable() returns the Node to a usable, clickable state. disable is a functionally equivalent to set_enabled(false) and enable() is equivalent to set_enabled(true). |
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript

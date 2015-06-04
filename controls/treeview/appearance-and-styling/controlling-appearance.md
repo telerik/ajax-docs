@@ -25,7 +25,7 @@ To change the basic dimensions of the **RadTreeView**:
 
 ## Look and Feel
 
-* To change the overall look and feel of the **RadTreeView**, set the [Skin](A2ACD8E0-A5F3-4093-A5DA-FF45D737F6FA) property.
+* To change the overall look and feel of the **RadTreeView**, set the [Skin]({%slug ribbonbar/appearance-and-styling/skins%}) property.
 
 * To change the way the Nodes expand and collapse, use [Animation]({%slug treeview/appearance-and-styling/animation%}).
 

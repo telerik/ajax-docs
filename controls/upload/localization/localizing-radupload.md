@@ -93,6 +93,8 @@ You can now switch the upload so that it uses your new resource file by setting 
 
 ![Localization Choose Culture](images/upload_localization_culture.png)
 
-# See Also[](BCC18A1A-3EF6-44C2-A38B-D5BB8CE9BFD1)
+# See Also
 
- * [RadUpload RTL Support]({%slug upload/localization/radupload-rtl-support%})
+* [Localizing RadProgressArea]({%slug progressarea/localization/localizing-radprogressarea%})
+
+* [RadUpload RTL Support]({%slug upload/localization/radupload-rtl-support%})

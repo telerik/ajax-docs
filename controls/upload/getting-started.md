@@ -52,7 +52,7 @@ Before you can use any of the **RadUpload** progress-monitoring controls, you mu
 	
 	This registers the **RadUploadHttpModule** type, which enables **RadProgressManager** to manage the upload progress.
 	
-	>note If the **controls** assembly is added in **GAC** you must specify the full assembly qualified path of the **RadUploadHttpModule** type. See the [Configuration](FAFFEB65-66D2-4CFE-8F40-E4BA471540A9) article for details.
+	>note If the **controls** assembly is added in **GAC** you must specify the full assembly qualified path of the **RadUploadHttpModule** type. See the [Configuration]({%slug progressarea/webconfing-configuraton%}) article for details.
 	>
 	
 1. Under the **`<system.web>`** element, locate the **`<httpHandlers>`** element. Add it if it does not exist.
@@ -85,7 +85,7 @@ Before you can use any of the **RadUpload** progress-monitoring controls, you mu
 
 
 
-	>note If the **controls** assembly is added in **GAC** you must specify the full assembly qualified path of the **RadUploadProgressHandler** type. See [RadUploadProgressHandler](FAFFEB65-66D2-4CFE-8F40-E4BA471540A9) for details.
+	>note If the **controls** assembly is added in **GAC** you must specify the full assembly qualified path of the **RadUploadProgressHandler** type. See [RadUploadProgressHandler]({%slug progressarea/webconfing-configuraton%}) for details.
 	>
 
 1. At this point, your Web.config should look as follows:

@@ -34,7 +34,7 @@ See [Understanding the Skin CSS File]({%slug upload/appearance-and-styling/under
 
 1. Under the **`<system.web>`** element locate the **`<httpModules>`** element. Add it if it does not exist.
 
-1. In the **`<httpModules>`** element add the following tag to [register RadUploadHttpModule](FAFFEB65-66D2-4CFE-8F40-E4BA471540A9):
+1. In the **`<httpModules>`** element add the following tag to [register RadUploadHttpModule]({%slug progressarea/webconfing-configuraton%}):
 
 	````XML
 	<add name="RadUploadModule" type="Telerik.Web.UI.RadUploadHttpModule, Telerik.Web.UI" />
@@ -44,7 +44,7 @@ See [Understanding the Skin CSS File]({%slug upload/appearance-and-styling/under
 
 1. Under the **`<system.web>`** element, locate the **`<httpHandlers>`** element. Add it if it does not exist.
 
-1. In the **`<httpHandlers>`** element, add the following tag to [register RadUploadProgressHandler](FAFFEB65-66D2-4CFE-8F40-E4BA471540A9):
+1. In the **`<httpHandlers>`** element, add the following tag to [register RadUploadProgressHandler]({%slug progressarea/webconfing-configuraton%}):
 
 	````XML
 	<add verb="*" path="Telerik.RadUploadProgressHandler.ashx" type="Telerik.Web.UI.RadUploadProgressHandler, Telerik.Web.UI" />

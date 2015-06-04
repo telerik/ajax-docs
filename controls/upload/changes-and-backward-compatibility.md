@@ -62,7 +62,7 @@ Since Q2 2010 all major changes for the controls are listed in the official Rele
 
 ## Changes in Q2 2008 version (2008.2.723)
 
-* [ New Localization for RadProgressArea using the Localization property or GlobalResource Files ](BCC18A1A-3EF6-44C2-A38B-D5BB8CE9BFD1)
+* [ New Localization for RadProgressArea using the Localization property or GlobalResource Files ]({%slug progressarea/localization/localizing-radprogressarea%})
 
 RadProgressArea’s **Localization** property is **not a dictionary** anymore. Instead, the object contains strongly named properties
 

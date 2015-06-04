@@ -80,4 +80,6 @@ End Sub
 
 # See Also
 
- * [Auto Saving to a Target Folder]({%slug upload/how-to/auto-saving-to-a-target-folder%})[](FC66018F-9560-4F29-A685-C6DC5D9BF5C9)
+ * [Auto Saving to a Target Folder]({%slug upload/how-to/auto-saving-to-a-target-folder%})
+ 
+ * [How to Manipulate the Uploaded Files]({%slug asyncupload/how-to/how-to-manipulate-the-uploaded-files%})

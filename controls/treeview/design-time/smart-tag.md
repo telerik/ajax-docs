@@ -30,7 +30,7 @@ The **RadTreeView** Smart Tag allows easy access to frequently needed tasks. You
 
 ## Skin
 
-**Skin** lets you select from a list of available [skins](A2ACD8E0-A5F3-4093-A5DA-FF45D737F6FA) to customize the look of your **RadTreeView**.
+**Skin** lets you select from a list of available [skins]({%slug ribbonbar/appearance-and-styling/skins%}) to customize the look of your **RadTreeView**.
 
 ## Learning Center
 
@@ -68,6 +68,8 @@ When **RadTreeView** is bound, the Smart Tag looks like the following:
 
 * **Edit Templates** brings up the [template design surface]({%slug treeview/design-time/template-design-surface%}), where you can create or edit the [templates]({%slug treeview/templates/overview%}) your **RadTreeView**uses.
 
-# See Also[](A2ACD8E0-A5F3-4093-A5DA-FF45D737F6FA)
+# See Also
+
+ * [Skins]({%slug ribbonbar/appearance-and-styling/skins%})
 
  * [RadTreeView Item Builder]({%slug treeview/design-time/radtreeview-item-builder%})
