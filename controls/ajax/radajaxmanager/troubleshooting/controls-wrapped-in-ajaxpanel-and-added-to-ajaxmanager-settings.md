@@ -66,7 +66,7 @@ Example 2: Both control inside the Panel1 will be AJAXified.
 
 Moreover, you are free from the limitation to update controls only within the boundaries of the AJAX panel.	**Example 3** shows the entire solution of the problematic settings defined in the beginning of this article.
 
-Example 3: Showing the correct way to AJAXify controls when using RadAjaxManager.
+Example 3: Showing the correct way to Ajax-ify controls when using RadAjaxManager.
 
 ````ASP.NET
 <telerik:RadScriptManager ID="RadScriptManager1" runat="server">

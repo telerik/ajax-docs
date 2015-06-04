@@ -75,6 +75,6 @@ And in the code-behind:
 ````
 
 
-## See Also[](251A6C11-CA84-419B-A65C-3A3329FB1FDD)
+## See Also
 
  * [Update in Composite Control]({%slug ajax/radajaxmanager/how-to/update-in-composite-control%})
