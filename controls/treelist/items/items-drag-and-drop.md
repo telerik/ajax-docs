@@ -59,10 +59,10 @@ A convenient feature of the client-side API is that the control automatically de
 
 | Name | Type | Description |
 | ------ | ------ | ------ |
-| **OnItemDragStarted** |event|[](3ff831d8-b5e4-4276-ad35-29f55e0d675c)is fired when a drag action is started.|
-| **OnItemDragging** |event|[](5754cdc6-745d-4456-8ab8-b5ada8d38c9a)is fired when a TreeListDataItem is being dragged.|
-| **OnItemDropping** |event|[](2ed97033-2ca4-4466-bc40-e98c4b485e4c)is fired when a TreeListDataItem is being dropped.|
-| **OnItemDropped** |event|[](a76044a8-82fe-4b95-a909-3365e1770389)is fired when a TreeListDataItem has been dropped.|
+| **OnItemDragStarted** |event| fired when a drag action is started.|
+| **OnItemDragging** |event| fired when a TreeListDataItem is being dragged.|
+| **OnItemDropping** |event| fired when a TreeListDataItem is being dropped.|
+| **OnItemDropped** |event| fired when a TreeListDataItem has been dropped.|
 
 # See Also
 
