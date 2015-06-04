@@ -20,7 +20,7 @@ The possible options are:
 
 * **Lightweight**—this mode is currently not supported. If you set it, the mode will fall back automatically to **Classic**. Since the control is quite new it does not render any table elements and its classic rendering is enough lightweight. 
 
-* **Mobile**—this mode is supported since **Q2 2015** release and with it, the control will change to create a user experience tailored to the device screen size. In this mode, **RadImageGallery** is mobile-friendly and its touch zones are bigger and easier to select. You can find more detailed information about this render mode in Mobile Rendering help article.
+* **Mobile**—this mode is supported since **Q2 2015** release and with it, the control will change to create a user experience tailored to the device screen size. In this mode, **RadImageGallery** is mobile-friendly and its touch zones are bigger and easier to select. You can find more detailed information about this render mode in [Mobile Rendering]({%slug imagegallery/mobile-support/mobile-rendering%}) help article.
 
 * **Auto**—this mode makes each control choose the appropriate rendering mode according to the used	browser—**Classic** or **Lightweight**. This functionality was added in Q1 2015.
 
@@ -54,4 +54,7 @@ ImageGallery1.RenderMode = Telerik.Web.UI.RenderMode.Mobile
 </appSettings>
 ````
 
+# See Also
+
+ * [Mobile Rendering]({%slug imagegallery/mobile-support/mobile-rendering%})
    
