@@ -39,10 +39,7 @@ This tutorial shows how to:
 1. On the **Choose Your Data Connection** page, expand the drop-down list by clicking the little triangle on the right side and select the **Northwind.mdf** from the available options. Then click the **Next** button:
 ![grid gettingstarted 5](images/grid_gettingstarted5.png)
 
->note If you happen to encounter a **"Database schema could not be retrieved"** exception, please follow the guide in [this]({%slug grid/getting-started/visual-studio-2012-datasource-configuration%}) help topic.
->
-
-
+	_Note_: If you happen to encounter a **"Database schema could not be retrieved"** exception, please follow the guide in [this] ({%slug grid/getting-started/visual-studio-2012-datasource-configuration%}) help topic.
 1. On the **Configure Select Statement** page, select the Orders table from thedrop-down list, and select theOrderID, CustomerID, EmployeeID, and OrderDate fields and then click **Next** button:
 ![Configure Select Statement](images/grid_add-controls-to-template6.png)
 
