@@ -12,7 +12,7 @@ position: 5
 
 
 
-This help article describes the specifics of exporting a **RadGrid** control to **XLSX** and**DOCX** format, introduced by Microsoft in Office 2007. Both formats are supported since Q3 2014 and are based on the [Telerik document processing libraries](65112864-d4c8-4ad6-8e5a-26f28c32ea8f). In order to use this export formats, you have to set the **ExportSettings-Excel-Format** property to**Xlsx** and **ExportSettings-Word-Format** property to **Docx**.
+This help article describes the specifics of exporting a **RadGrid** control to **XLSX** and**DOCX** format, introduced by Microsoft in Office 2007. Both formats are supported since Q3 2014 and are based on the [Telerik document processing libraries]({%slug introduction/installation/included-assemblies%}). In order to use this export formats, you have to set the **ExportSettings-Excel-Format** property to**Xlsx** and **ExportSettings-Word-Format** property to **Docx**.
 
 ````ASP.NET
 <ExportSettings>

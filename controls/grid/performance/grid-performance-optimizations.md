@@ -40,9 +40,9 @@ When you present large number of records at once you will see delays in the grid
 
 1. When in need to allow the user to have Date input, you may consider using regular TextBox controls and the client-side API of RadDatePicker control.This approach optimizes the performance because the time needed for TextBox initialization is less than the time needed for RadDateInput initialization. [This](http://demos.telerik.com/aspnet-ajax/calendar/examples/datepicker/shareddatepicker/defaultcs.aspx?product=grid)is the demo application that illustrates this approach.
 
-1. You could use [RadAjaxManager](546BFFA1-0A6D-4ACF-83E2-02D9592E7857) and [RadAjaxPanel](98AA6439-D149-4F87-B60E-888CA1D89845) controls to Ajax-ify the Grid instance and thus to receive partial updates from the service only for the Grid instance,not the whole page.
+1. You could use [RadAjaxManager]({%slug ajax/radajaxmanager/overview%}) controls to Ajax-ify the Grid instance and thus to receive partial updates from the service only for the Grid instance,not the whole page.
 
-1. Finally could use [RadCompression ](9230BCC0-D8C3-49F0-BF5E-137AAE1FF333) to compress the responce from the server in case of Ajax and service responses.
+1. Finally could use [RadCompression ]({%slug controls/radcompression%}) to compress the responce from the server in case of Ajax and service responses.
 
 ## Steps to optimize the server performance:
 
@@ -62,7 +62,7 @@ When you present large number of records at once you will see delays in the grid
 
 1. If you have Grouping functinality enabled you could set the groups to be load on the client computer. [This]( http://demos.telerik.com/aspnet-ajax/grid/examples/groupby/grouploadmodeclient/defaultcs.aspx	)is the demo applciation that illustrate this feature.
 
-## See Also[](E20C1BC2-0E5F-47A9-A8A7-6EA3FD49F2F2)
+## See Also
 
  * [UI for ASP.NET Ajax(Performance section)](http://www.telerik.com/support/aspnet-ajax.aspx)
 

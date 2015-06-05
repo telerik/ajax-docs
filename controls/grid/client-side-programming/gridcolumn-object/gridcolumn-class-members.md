@@ -17,7 +17,7 @@ position: 0
 
 |  **Property**  |  **Return types**  |
 | ------ | ------ |
-| **[get_columnGroupName()](d5beb9cf-9445-4f41-a72f-17707c02c7c9)** |String|
+| **get_columnGroupName()** |String|
 | **[get_dataType()]({%slug grid/client-side-programming/gridcolumn-object/properties/get_datatype()%})** |String|
 | **[get_element()]({%slug grid/client-side-programming/gridcolumn-object/properties/get_element()%})** |HTML element|
 | **[get_owner()]({%slug grid/client-side-programming/gridcolumn-object/properties/get_owner()%})** |Telerik.Web.UI.RadGrid|
