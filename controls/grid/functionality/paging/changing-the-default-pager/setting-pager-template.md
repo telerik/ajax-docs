@@ -443,4 +443,4 @@ End Class
 
 For detailed information about how to create templates programmatically, see the following **MSDN** article:
 
-[http://msdn.microsoft.com/library/default.asp?url=/library/en-us/dv_vstechart/html/vbtchcreatingwebservercontroltemplatesprogrammatically.asp](http://msdn.microsoft.com/library/default.asp?url=/library/en-us/dv_vstechart/html/vbtchcreatingwebservercontroltemplatesprogrammatically.asp)
+[https://msdn.microsoft.com/en-us/library/aa289501%28v=vs.71%29.aspx](https://msdn.microsoft.com/en-us/library/aa289501%28v=vs.71%29.aspx)
