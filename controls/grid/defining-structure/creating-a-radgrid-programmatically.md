@@ -22,29 +22,28 @@ When defining the structure of a hierarchical grid (by either method), you shoul
 
 1. Create the **GridTableView** objects for every detail table. You do not need to create an object for the **MasterTableView** of the grid, as this is created automatically when the **RadGrid** itself is created.
 
-1. Add each detail table to the **DetailTables** collection of its parent table.
+2. Add each detail table to the **DetailTables** collection of its parent table.
 
-1. Ensure that each table in the grid has its own data source.
+3. Ensure that each table in the grid has its own data source.
 
-* If you are using declarative data sources, set the **DataSourceID** property of each table to the ID of a DataSource object. For each parent table, set the **DataKeyNames** property to an array containing the names of each field in the table's data source that is used to link to detail tables. For each detail table, add **GridRelationFields** objects to the **ParentTableRelation** collection, each of which specifies a link between a field in the detail table to a field in the **DataKeyNames** array of the parent table.
+	* If you are using declarative data sources, set the **DataSourceID** property of each table to the ID of a DataSource object. For each parent table, set the **DataKeyNames** property to an array containing the names of each field in the table's data source that is used to link to detail tables. For each detail table, add **GridRelationFields** objects to the **ParentTableRelation** collection, each of which specifies a link between a field in the detail table to a field in the **DataKeyNames** array of the parent table.
 
-* If you are not using declarative data sources, add event handlers for the **NeedDataSource** and **DetailTableDataBind** events. In the **DetailTableDataBind** event handler, you can determine which data source should be related to the current table view by checking whether the **GetDataKeyValue** method of the detail table's **ParentItem** returns a value.
+	* If you are not using declarative data sources, add event handlers for the **NeedDataSource** and **DetailTableDataBind** events. In the **DetailTableDataBind** event handler, you can determine which data source should be related to the current table view by checking whether the **GetDataKeyValue** method of the detail table's **ParentItem** returns a value.
 
 >note Hierarchical structure is not supported with simple data binding (calling **DataBind** ()).
 >
 
+<!--* **Dynamically defining the structure of a statically-declared grid http://www.telerik.com/help/aspnet-ajax/grid-programmatic-creation.html#Section1_self**
 
-* **Dynamically defining the structure of a statically-declared gridhttp://www.telerik.com/help/aspnet-ajax/grid-programmatic-creation.html#Section1_self**
+* **Creating the grid entirely in the code-behind http://www.telerik.com/help/aspnet-ajax/grid-programmatic-creation.html#Section2_self**
 
-* **Creating the grid entirely in the code-behindhttp://www.telerik.com/help/aspnet-ajax/grid-programmatic-creation.html#Section2_self**
+* **Creating a RadGrid on Page_Load http://www.telerik.com/help/aspnet-ajax/grid-programmatic-creation.html#Section21_self**
 
-* **Creating a RadGrid on Page_Loadhttp://www.telerik.com/help/aspnet-ajax/grid-programmatic-creation.html#Section21_self**
+* **Creating a RadGrid on Page_Init http://www.telerik.com/help/aspnet-ajax/grid-programmatic-creation.html#Section22_self**
 
-* **Creating a RadGrid on Page_Inithttp://www.telerik.com/help/aspnet-ajax/grid-programmatic-creation.html#Section22_self**
+* **Creating a hierarchical grid programmatically http://www.telerik.com/help/aspnet-ajax/grid-programmatic-creation.html#Section3_self**
 
-* **Creating a hierarchical grid programmaticallyhttp://www.telerik.com/help/aspnet-ajax/grid-programmatic-creation.html#Section3_self**
-
-* **Creating template columns programmaticallyhttp://www.telerik.com/help/aspnet-ajax/grid-programmatic-creation.html#Section4_self**
+* **Creating template columns programmatically http://www.telerik.com/help/aspnet-ajax/grid-programmatic-creation.html#Section4_self**-->
 
 ## Dynamically Defining the Structure of a Statically-declared Grid
 
@@ -52,8 +51,6 @@ To define the structure of a **RadGrid** control that is declared in the ASPX pa
 
 >note Be sure to check that **IsPostBack** is **False** . Otherwise, you will end up adding the same objects to the **RadGrid** multiple times.
 >
-
-
 
 
 ````ASP.NET
@@ -368,16 +365,15 @@ You should follow these basic steps in order to create hierarchical **RadGrid** 
 
 1. Create the grid dynamically in the **Page_Init** handler of the page by calling its constructor.
 
-1. Specify the preferred settings for your grid instance through its properties.
+2. Specify the preferred settings for your grid instance through its properties.
 
-1. Create columns for the grid dynamically. Keep in mind that you have to first set their properties and then add them to the **MasterTableView**/**GridTableView** collection (discussed in the  first paragraph  of this same topic). Thus, their **ViewState** will be properly persisted (as **LoadViewState** is raised after the **Init** event of the page).
+3. Create columns for the grid dynamically. Keep in mind that you have to first set their properties and then add them to the **MasterTableView**/**GridTableView** collection (discussed in the  first paragraph  of this same topic). Thus, their **ViewState** will be properly persisted (as **LoadViewState** is raised after the **Init** event of the page).
 
-1. Set the proper **ParentTableRelations** for the **GridTableViews** (along with their **MasterKeyField** and **DetailKeyField** attributes) and **DataKeyNames** for the **MasterTableView**/**GridTableViews** in the code-behind of the page.
+4. Set the proper **ParentTableRelations** for the **GridTableViews** (along with their **MasterKeyField** and **DetailKeyField** attributes) and **DataKeyNames** for the **MasterTableView**/**GridTableViews** in the code-behind of the page.
 
-1. Assign data sources (through the * DataSourceID * attribute) for each table in the grid hierarchy.If you do not want to use declarative relations, generate the data in the **NeedDataSource**/**DetailTableDataBind** handlers of the grid. On **DetailTableDataBind** you can determine which data source should be related to the currently bound **GridTableView** by checking its **Name/DataSourceID** property. Here, the **Name** property must have a unique value for each detail table (this value has to be defined previously by the developer) and the **DataSourceID** is the ID of the **DataSource** control responsible for the corresponding detail table content generation.
+5. Assign data sources (through the * DataSourceID * attribute) for each table in the grid hierarchy.If you do not want to use declarative relations, generate the data in the **NeedDataSource**/**DetailTableDataBind** handlers of the grid. On **DetailTableDataBind** you can determine which data source should be related to the currently bound **GridTableView** by checking its **Name/DataSourceID** property. Here, the **Name** property must have a unique value for each detail table (this value has to be defined previously by the developer) and the **DataSourceID** is the ID of the **DataSource** control responsible for the corresponding detail table content generation.
 
 Here is a complete source code sample:
-
 
 
 ````C#

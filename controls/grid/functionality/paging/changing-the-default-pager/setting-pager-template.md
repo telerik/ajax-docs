@@ -18,11 +18,11 @@ To create a pager template,
 
 1. Choose **Edit Templates** from the **RadGrid** [ Smart Tag]({%slug grid/design-time/smarttag%}).
 
-1. From the drop-down list of possible templates to edit, select the "PagerTemplate" for the **MasterTableView** or detail **GridTableView** of interest.
+2. From the drop-down list of possible templates to edit, select the "PagerTemplate" for the **MasterTableView** or detail **GridTableView** of interest.
 
-1. On the Template Design surface, drag and drop any controls from the toolbox, or add any HTML elements you want.
+3. On the Template Design surface, drag and drop any controls from the toolbox, or add any HTML elements you want.
 
-1. When you are finished, click **End Template Editing** from the Smart Tag.
+4. When you are finished, click **End Template Editing** from the Smart Tag.
 
 ## Binding controls inside a PagerTemplate
 
@@ -94,11 +94,11 @@ There are cases when you may want to access the controls inside your **PagerTemp
 
 1. Add a handler for the grid's **ItemCreated** event.
 
-1. In the **ItemCreated** event handler, check whether the currently bound item is **GridPagerItem**.
+2. In the **ItemCreated** event handler, check whether the currently bound item is **GridPagerItem**.
 
-1. Locate the desired control using the **FindControl** method of the command item.
+3. Locate the desired control using the **FindControl** method of the command item.
 
-1. Change the properties of the control instance as desired.
+4. Change the properties of the control instance as desired.
 
 In the example below, The **ItemCreated** event handler is used to change the **Text, CommandName** and **CommandArgument** properties for **LinkButton** controls inside the **PagerTemplate** object:
 

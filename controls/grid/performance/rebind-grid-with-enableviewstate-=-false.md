@@ -19,22 +19,21 @@ Basically, you assign data source for your grid in the **NeedDataSource** handle
 
 1. LoadViewState (the grid does not restore its state from the ViewState because of the NoPersistence mode)
 
-1. PageLoad
+2. PageLoad
 
-1. NeedDataSource (this is the moment when grid restores its state)
+3. NeedDataSource (this is the moment when grid restores its state)
 
-1. ItemCommand (CommandName = "Delete")
+4. ItemCommand (CommandName = "Delete")
 
-1. DeleteCommand
+5. DeleteCommand
 
-1. NeedDataSource (refresh the data after an item was deleted)
+6. NeedDataSource (refresh the data after an item was deleted)
 
 >note Note that in order to make 4 to happen, the recreation of the grid in 3 should be exactly the same as when the grid is data-bound on the previous postback. To ensure that 6 will be fired, you should have set the DataSource of Telerik RadGrid to null/Nothing in 4 or 5
 >
 
 
 Moreover, if you want to rebind the grid explicitly from postback event of an external control when **EnableViewState**is set to **False**, set the **DataSource** property of the control to **null/Nothing** and invoke the **Rebind**() method afterwards:
-
 
 
 ````C#

@@ -18,39 +18,40 @@ When using the advanced grid pager/slider, you can customize the properties of t
 
 1. Create a handler for the grid's **ItemCreated** event.
 
-1. In the event handler, check if **e.Item** is an instance of **GridPagerItem**.
+2. In the event handler, check if **e.Item** is an instance of **GridPagerItem**.
 
-1. Use the **FindControl** method of **e.Item** to locate the controls inside the pager. The following table lists the ID's of the controls in the pager when **Mode** is "NextPrevAndNumeric":
+3. Use the **FindControl** method of **e.Item** to locate the controls inside the pager. The following table lists the ID's of the controls in the pager when **Mode** is "NextPrevAndNumeric":
 
+	
+	|  **Control**  |  **Type**  |  **ID**  |
+	| ------ | ------ | ------ |
+	|"Page Size:" text|Label|ChangePageSizeLabel|
+	|"Page Size" combo box|RadComboBox|PageSizeComboBox|
 
-|  **Control**  |  **Type**  |  **ID**  |
-| ------ | ------ | ------ |
-|"Page Size:" text|Label|ChangePageSizeLabel|
-|"Page Size" combo box|RadComboBox|PageSizeComboBox|**Example**:
+	**Example**:
 
+	**C#**
 
-
-````C#
-	    protected void RadGrid1_ItemDataBound(object sender, GridItemEventArgs e)
+	protected void RadGrid1_ItemDataBound(object sender, GridItemEventArgs e)
+	{
+	    if (e.Item is GridPagerItem)
 	    {
-	        if (e.Item is GridPagerItem)
-	        {
-	            Label lblPageSize = (Label)e.Item.FindControl("ChangePageSizeLabel");
-	            lblPageSize.Text = "Number of items:";
-	        }
+	        Label lblPageSize = (Label)e.Item.FindControl("ChangePageSizeLabel");
+	        lblPageSize.Text = "Number of items:";
 	    }
-````
-````VB
-	    Protected Sub RadGrid1_ItemDataBound(sender As Object, e As GridItemEventArgs) Handles RadGrid1.ItemDataBound()
-	        If TypeOf e.Item Is GridPagerItem Then
-	            Dim lblPageSize As Label = DirectCast(e.Item.FindControl("ChangePageSizeLabel"), Label)
-	            lblPageSize.Text = "Number of items:"
-	        End If
-	    End Sub
-````
+	}
+
+	**VB**
+
+	Protected Sub RadGrid1_ItemDataBound(sender As Object, e As GridItemEventArgs) Handles RadGrid1.ItemDataBound()
+	    If TypeOf e.Item Is GridPagerItem Then
+	        Dim lblPageSize As Label = DirectCast(e.Item.FindControl("ChangePageSizeLabel"), Label)
+	        lblPageSize.Text = "Number of items:"
+	    End If
+	End Sub
 
 
-1. The following table lists the ID's of the controls in the pager when **Mode** is "Advanced" or "Slider":
+4. The following table lists the ID's of the controls in the pager when **Mode** is "Advanced" or "Slider":
 
 
 >caption  

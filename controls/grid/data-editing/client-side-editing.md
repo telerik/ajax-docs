@@ -29,7 +29,6 @@ The source for the grid is generated via web service (MyWebService.asmx).
 Below are the code snippets from the sample:
 
 
-
 ````ASP.NET
 <telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
 <script type="text/javascript">
@@ -316,6 +315,8 @@ Protected Sub RadGrid1_ColumnCreated(ByVal sender As Object, ByVal e As GridColu
     End If
 End Sub
 ````
+
+
 ````C#
 using System;
 using System.Collections.Generic;
@@ -436,6 +437,8 @@ Imports System.Web.UI
         End Function
     End Class
 ````
+
+
 ````C#
 public class EmployeesList : List<Employee>
 {
@@ -478,6 +481,8 @@ Public Class EmployeesList
     End Function
 End Class
 ````
+
+
 ````C#
 public class Employee
 {    

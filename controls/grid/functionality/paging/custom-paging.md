@@ -20,9 +20,9 @@ To use the custom paging mechanism:
 
 1. Set the grid or table view's **AllowPaging** and **AllowCustomPaging** properties to **True**.
 
-1. Set the table view's **VirtualItemCount** property to the total number of records that the grid can draw on. This allows the pager item to correctly represent the size of the pages you implement relative to the total number of records possible.
+2. Set the table view's **VirtualItemCount** property to the total number of records that the grid can draw on. This allows the pager item to correctly represent the size of the pages you implement relative to the total number of records possible.
 
-1. Bind your grid using [the NeedDataSource event]({%slug grid/data-binding/understanding-data-binding/server-side-binding/advanced-data-binding-(using-needdatasource-event)%}). In the **NeedDataSource** event handler, implement code logic to extract the desired fixed number of records, based on the **PageSize** and **CurrentPageIndex** properties of the grid or table view.
+3. Bind your grid using [the NeedDataSource event]({%slug grid/data-binding/understanding-data-binding/server-side-binding/advanced-data-binding-(using-needdatasource-event)%}). In the **NeedDataSource** event handler, implement code logic to extract the desired fixed number of records, based on the **PageSize** and **CurrentPageIndex** properties of the grid or table view.
 
 >caution  **PageSizeChanged** event fires twice when AllowPaging is true for the RadGrid. To workaround this behaviour you should disable paging for the grid and enable it for the MasterTableView only.
 >
