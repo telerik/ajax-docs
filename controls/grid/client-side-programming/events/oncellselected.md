@@ -16,7 +16,7 @@ position: 5
 
 Telerik.Web.UI.GridColumnEventArgs OnCellSelected Property
 
->note To get or set property values for client API properties, you must call property accessor methods that are named with the get_ and set_ prefixes. For example, to get or set a value for a property such as[cancel](http://msdn.microsoft.com/en-us/library/bb310859.aspx), you call the get_cancel or set_cancel.
+>note To get or set property values for client API properties, you must call property accessor methods that are named with the get_ and set_ prefixes. For example, to get or set a value for a property such as [cancel](http://msdn.microsoft.com/en-us/library/bb310859.aspx), you call the get_cancel or set_cancel.
 >
 
 
@@ -25,7 +25,7 @@ This event is fired after a cell is selected.
 
 |  **Fired by**  | RadGrid |
 | ------ | ------ |
-| **Arguments** | **cellIndexHierarchical** - returns the hierarchical index of the cell **column** - returns a reference to the corresponding[GridColumn]({%slug grid/client-side-programming/gridcolumn-object/gridcolumn-class-members%})object **gridDataItem** - returns a reference to the corresponding GridDataItem object **row** - returns a reference to the correspong table row element **tableView** - returns a reference to the corresponding GridTableView object **cancel** - gets or sets the canceled status of the event|
+| **Arguments** | **cellIndexHierarchical** - returns the hierarchical index of the cell **column** - returns a reference to the corresponding [GridColumn]({%slug grid/client-side-programming/gridcolumn-object/gridcolumn-class-members%}) object **gridDataItem** - returns a reference to the corresponding GridDataItem object **row** - returns a reference to the correspong table row element **tableView** - returns a reference to the corresponding GridTableView object **cancel** - gets or sets the canceled status of the event|
 | **Can be canceled** |No|
 
 Example:

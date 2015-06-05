@@ -12,11 +12,11 @@ position: 1
 
 
 
-This method resizes the column to fit the widest cell's content without wrapping. It also provides two **optional** parameters which can be used for further alteration:
+This method resizes the column to fit the widest cell's content without wrapping. It also provides two **optional**  parameters which can be used for further alteration:
 
 * **skipHeaderCell**: Determines whether the Headers should be ignored in the calculation for the column's new width.By default - **false**.
 
-* **includeAllHeaderRows**: This parameter has effect only if the **skipHeaderCell**is set to **false**. It determines whether the cells of the filter item should be considered in the calculation for the column's new width.By default - **false**, except when the **RadGrid** has structure with Multi-column headers configured.
+* **includeAllHeaderRows**: This parameter has effect only if the **skipHeaderCell** is set to **false**. It determines whether the cells of the filter item should be considered in the calculation for the column's new width.By default - **false**, except when the **RadGrid** has structure with Multi-column headers configured.
 
 ````JavaScript
 <telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
