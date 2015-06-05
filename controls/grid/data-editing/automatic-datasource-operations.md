@@ -120,7 +120,7 @@ You may also examine the resources below:
 
 [Insert/Update/Delete with stored procedures and SqlDataSource control](http://www.telerik.com/community/code-library/submission/b311D-tgcgc.aspx)
 
->note Automatic editing operations are not supported when the viewstate of the grid is disabled (EnableViewState = false). You will need to perform update/insert/delete manually with code as illustrated[here](http://www.telerik.com/community/code-library/submission/b311D-tgtkd.aspx).
+>note Automatic editing operations are not supported when the viewstate of the grid is disabled (EnableViewState = false). You will need to perform update/insert/delete manually.
 >
 
 
