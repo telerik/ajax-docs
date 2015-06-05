@@ -67,7 +67,7 @@ A control can hardly be considered responsive by itself, because this heavily de
 |Persistence Framework|N/A|N/A|N/A|N/A|
 |PivotGrid|No|Yes|No|No|
 |Progress Area|No|No|No|No|
-|Progress Bar|[Yes]({%slug progressbar/mobile-support/elastic-design%})|[Yes](%slug progressbar/mobile-support/fluid-design%})|[Yes](%slug progressbar/mobile-support/elastic-design%})|No|
+|Progress Bar|[Yes]({%slug progressbar/mobile-support/elastic-design%})|[Yes]({%slug progressbar/mobile-support/fluid-design%})|[Yes]({%slug progressbar/mobile-support/elastic-design%})|No|
 |Rating|[Yes]({%slug rating/mobile-support/elastic-design%})|No|No|N/A|
 |RibbonBar|No|Yes|No|No|
 |Rotator|[Yes]({%slug rating/mobile-support/elastic-design%})|Yes|[Yes]({%slug rotator/mobile-support/overview%})|N/A|
