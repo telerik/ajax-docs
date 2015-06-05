@@ -56,7 +56,7 @@ This tutorial will walk you through creating a **RadTabStrip** and shows how to:
 
 * Set its **Text** property to "Google".
 
-* Set its **NavigateUrl** property to "http://www.Google.com".The **RadTabStrip Item Builder** should now look like the following:
+* Set its **NavigateUrl** property to `http://www.Google.com`.The **RadTabStrip Item Builder** should now look like the following:
 ![Item Builder With Items](images/tabstrip_radtabstripitembuilderwithitems.png)
 
 1. Click OK to exit the **RadTabStrip Item Builder**.
