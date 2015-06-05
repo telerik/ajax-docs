@@ -30,7 +30,7 @@ See [Understanding the Skin CSS File]({%slug upload/appearance-and-styling/under
 
 * Under the **<system.web>** element, locate the **<httpModules>** element. Add it if it does not exist.
 
-* In the **<httpModules>** element, add the following tag to [ register RadUploadHttpModule ](http://www.telerik.com/help/aspnet-ajax/upload-configuration.html):
+* In the **<httpModules>** element, add the following tag to register RadUploadHttpModule:
 
 ````XML
 <add name="RadUploadModule" type="Telerik.Web.UI.RadUploadHttpModule, Telerik.Web.UI" />
@@ -40,7 +40,7 @@ See [Understanding the Skin CSS File]({%slug upload/appearance-and-styling/under
 
 * Under the **<system.web>** element, locate the **<httpHandlers>** element. Add it if it does not exist.
 
-* In the **<httpHandlers>** element, add the following tag to [ register RadUploadProgressHandler ](http://www.telerik.com/help/aspnet-ajax/upload-configuration.html):
+* In the **<httpHandlers>** element, add the following tag to register RadUploadProgressHandler:
 
 ````XML
 <add verb="*" path="Telerik.RadUploadProgressHandler.ashx" type="Telerik.Web.UI.RadUploadProgressHandler, Telerik.Web.UI" />
