@@ -18,21 +18,21 @@ You can replace the items in the filtering menu with your own custom options, an
 
 1. In the **Page_Init** event handler,
 
-1. Clear the **FilterMenu.Items** collection.
+2. Clear the **FilterMenu.Items** collection.
 
-1. Create your own menu items, setting their **Text** and **Value** properties to reflect your custom filtering options.
+3. Create your own menu items, setting their **Text** and **Value** properties to reflect your custom filtering options.
 
-1. Attach an **OnClick** event handler of the filtering menu (RadContextMenu).
+4. Attach an **OnClick** event handler of the filtering menu (RadContextMenu).
 
-1. In the **OnClick** event handler, filter the data based on your custom filter function. You can do this in two ways:
+5. In the **OnClick** event handler, filter the data based on your custom filter function. You can do this in two ways:
 
-* If the filter function is not one that is supported by the grid's built-in filtering mechanism, rebind the grid to a newly filtered data set.
+	* If the filter function is not one that is supported by the grid's built-in filtering mechanism, rebind the grid to a newly filtered data set.
 
-* If the filter function can be handled using the grid's built-in filtering mechanism,
+	* If the filter function can be handled using the grid's built-in filtering mechanism,
 
-1. Get a reference to the current **GridFilteringItem**.
+6. Get a reference to the current **GridFilteringItem**.
 
-1. Call its **FireComandEvent** method. The **FireCommandEvent** method takes two arguments, the event name ("Filter") and a pair containing the filter function name and column name.
+7. Call its **FireComandEvent** method. The **FireCommandEvent** method takes two arguments, the event name ("Filter") and a pair containing the filter function name and column name.
 
 The following example illustrates this technique by substituting a single filter item that uses one of the built-in filter functions:
 
@@ -44,8 +44,6 @@ The following example illustrates this technique by substituting a single filter
       SelectCommand="SELECT * FROM [Customers]" >
 </asp:SqlDataSource>
 ````
-
-
 
 In the code-behind:
 
@@ -66,9 +64,6 @@ protected void filterMenu_ItemClick(object sender, RadMenuEventArgs e)
     filterItem.FireCommandEvent("Filter", new Pair(e.Item.Value, e.Item.Attributes["columnUniqueName"]));
 }
 ````
-
-
-
 ````VB
   Protected Sub Page_Init(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Init
       RadGrid1.FilterMenu.Items.Clear()

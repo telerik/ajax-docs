@@ -40,24 +40,24 @@ Here is a list of the available command names in Telerik RadGrid:
 | **PerformInsertCommandName** |Fires **RadGrid.InsertCommand** event. Under .Net 2.0 Perfoms this command can perform automatic insert operation and close the insert item.|
 | **RebindGridCommandName** |By default grid renders [Refresh] image button in the **CommandItem** . Forces **RadGrid.Rebind** |
 | **SortCommandName** |Represents the Sort command name.By default it is fired by image buttons in the header item when Sorting is enabled. The argument for the **SortCommand** must be the **DataField** name for the **DataField** to be sorted.|
-| **ExportToExcelCommandName** |Exports grid data in Microsoft Excel ® format. You will need to[configure exporting settings]({%slug grid/functionality/exporting/overview%})for the grid through the **RadGrid.ExportSettings** section.|
-| **ExportToWordCommandName** |Exports grid data in Microsoft Word ® format. You will need to[configure exporting settings]({%slug grid/functionality/exporting/overview%})for the grid through the **RadGrid.ExportSettings** section.|
-| **ExportToPdfCommandName** |Exports grid data in PDF format. You will need to[configure exporting settings]({%slug grid/functionality/exporting/overview%})for the grid through the **RadGrid.ExportSettings** section.|
-| **ExportToCsvCommandName** |Exports grid data in CSV format (comma-separated values). You will need to[configure exporting settings]({%slug grid/functionality/exporting/overview%})for the grid through the **RadGrid.ExportSettings** section.|
+| **ExportToExcelCommandName** |Exports grid data in Microsoft Excel ® format. You will need to [configure exporting settings]({%slug grid/functionality/exporting/overview%}) for the grid through the **RadGrid.ExportSettings** section.|
+| **ExportToWordCommandName** |Exports grid data in Microsoft Word ® format. You will need to [configure exporting settings]({%slug grid/functionality/exporting/overview%}) for the grid through the **RadGrid.ExportSettings** section.|
+| **ExportToPdfCommandName** |Exports grid data in PDF format. You will need to [configure exporting settings]({%slug grid/functionality/exporting/overview%}) for the grid through the **RadGrid.ExportSettings** section.|
+| **ExportToCsvCommandName** |Exports grid data in CSV format (comma-separated values). You will need to [configure exporting settings]({%slug grid/functionality/exporting/overview%}) for the grid through the **RadGrid.ExportSettings** section.|
 |Fired by controls within **PagerItem** ||
-| **PageCommandName** |Represents the Page command name.See also:[Paging]({%slug grid/functionality/paging/overview%})|
+| **PageCommandName** |Represents the Page command name.See also: [Paging]({%slug grid/functionality/paging/overview%})|
 |Fired when the PageSize property is set and changed.||
 | **ChangePageSizeCommandName** |Fires **RadGrid.PageSizeChanged** event.|
 |Fired when choosing an option from the filter menu within **column header** ||
-| **FilterCommandName** |Represents the Filter command name.See also:[Operating with filter expression]({%slug grid/functionality/filtering/how-to/operate-with-the-filterexpression-manually%})|
+| **FilterCommandName** |Represents the Filter command name.See also: [Operating with filter expression]({%slug grid/functionality/filtering/how-to/operate-with-the-filterexpression-manually%})|
 |Batch commands||
 | **EditSelectedCommandName** |Switches the selected grid items in edit mode automatically|
 | **DeleteSelectedCommandName** |Fires **RadGrid.DeleteCommand** event for the selected rows. Under .Net 2.0 can perform automatic delete operation for the selected rows.|
 | **UpdateEditedCommandName** |Fires **Fires RadGrid.UpdateCommand** event for the edited rows. Under .Net 2.0 can perform automatic update operation for the edited rows and then sets **Item.Edit** to **false** |
 | **EditAllCommandName** |Command that triggers editing for all grid records ( **AllowMultiRowEdit** should be set to **true** ).|
 | **CancelAllCommandName** |Cancels the previously undertaken actions.|
-| **RowClick** |Command triggered when you click a row and have ClientSettings -> EnablePostBackOnRowClick set to true (see[this demo](http://demos.telerik.com/aspnet-ajax/grid/examples/programming/selectedvalue/defaultcs.aspx))|
-| **DownloadAttachmentCommandName** |Command triggered when a Download button in a GridAttachmentColumn is clicked for a GridDataItem (see[this demo](http://demos.telerik.com/aspnet-ajax/grid/examples/generalfeatures/gridattachmentcolumn/defaultcs.aspx))|
+| **RowClick** |Command triggered when you click a row and have ClientSettings -> EnablePostBackOnRowClick set to true (see [this demo](http://demos.telerik.com/aspnet-ajax/grid/examples/programming/selectedvalue/defaultcs.aspx))|
+| **DownloadAttachmentCommandName** |Command triggered when a Download button in a GridAttachmentColumn is clicked for a GridDataItem (see [this demo](http://demos.telerik.com/aspnet-ajax/grid/examples/generalfeatures/gridattachmentcolumn/defaultcs.aspx))|
 
 This examples can help you with this approach (look at the ASCX code):
 
