@@ -23,5 +23,3 @@ With the release of Q3 Service Pack 2012 the **HideFileInput** property is imple
 [Getting Started]({%slug asyncupload/getting-started%})
 
 [Skins]({%slug asyncupload/appearance-and-styling/skins%})
-
-[Keyboard Support](Cf3f05fb7-f840-4952-a0e6-a6b0d0ff7eb0)
