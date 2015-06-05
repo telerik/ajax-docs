@@ -99,4 +99,4 @@ areaSeries.SeriesItems.Add(40)
 
  * [Series Items Configuration]({%slug htmlchart/server-side-programming/series-items-configuration%})
 
- * [Introducing the SeriesItems Collection in RadHtmlChart for ASP.NET AJAX](http://blogs.telerik.com/aspnet-ajax/posts/13-06-04/introducing-the-seriesitems-collection-in-radhtmlchart-for-asp.net-ajax)
+ * [Introducing the SeriesItems Collection in RadHtmlChart for ASP.NET AJAX](http://www.telerik.com/blogs/introducing-the-seriesitems-collection-in-radhtmlchart-for-asp.net-ajax)
