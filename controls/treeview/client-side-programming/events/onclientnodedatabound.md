@@ -42,7 +42,7 @@ function onNodeDataBound(sender, eventArgs) {
 
 
 
->tip Another usage of the **DataItem** object is in client-side Templates that are about to be introduced with the next version of ASP.NET AJAX. See the following blog post for more details -[RadControls and ASP.NET Ajax 4.0 Preview](http://blogs.telerik.com/AtanasKorchev/Posts/08-07-23/RadControls_and_ASP_NET_Ajax_4_0_Preview.aspx?ReturnURL=/AtanasKorchev/Posts.aspx%3fPage%3d2).
+>tip Another usage of the **DataItem** object is in client-side Templates that are about to be introduced with the next version of ASP.NET AJAX. See the following blog post for more details -[RadControls and ASP.NET Ajax 4.0 Preview](http://www.telerik.com/blogs/radcontrols-and-asp-net-ajax-4-0-preview).
 >
 
 
