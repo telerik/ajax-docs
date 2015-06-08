@@ -145,46 +145,46 @@ And the respective extension method:
 
 
 ````C#
-	public static class ControlExtensions
-	{
-	    /// <summary>
-	    /// Set input focus to a control after the specified number of milliseconds.
-	    /// </summary>
-	    public static void Focus(this Control control, int delay)
-	    {
-	        if (control == null)
-	        {
-	            throw new ArgumentNullException("control");
-	        }
-	        if (delay < 0)
-	        {
-	            throw new ArgumentOutOfRangeException("delay");
-	        }
-	
-	        control.Focus();
-	
-	        ScriptManager.RegisterStartupScript(control, control.GetType(), "focus",
-	            String.Format("setTimeout(\"WebForm_AutoFocus('{0}')\", {1});", control.ClientID, delay), true);
-	    }
-	}
+public static class ControlExtensions
+{
+    /// <summary>
+    /// Set input focus to a control after the specified number of milliseconds.
+    /// </summary>
+    public static void Focus(this Control control, int delay)
+    {
+        if (control == null)
+        {
+            throw new ArgumentNullException("control");
+        }
+        if (delay < 0)
+        {
+            throw new ArgumentOutOfRangeException("delay");
+        }
+
+        control.Focus();
+
+        ScriptManager.RegisterStartupScript(control, control.GetType(), "focus",
+            String.Format("setTimeout(\"WebForm_AutoFocus('{0}')\", {1});", control.ClientID, delay), true);
+    }
+}
 ````
 ````VB
-	Module ControlExtensions
-	    <Extension()>
-	    Public Sub Focus(control As Control, delay As Integer)
-	        If control Is Nothing Then
-	            Throw New ArgumentNullException("control")
-	        End If
-	        If delay < 0 Then
-	            Throw New ArgumentOutOfRangeException("delay")
-	        End If
-	
-	        control.Focus()
-	
-	        ScriptManager.RegisterStartupScript(control, control.[GetType](), "focus", [String].Format("setTimeout(""WebForm_AutoFocus('{0}')"", {1});", control.ClientID, delay), True)
-	    End Sub
-	End Module
-	#End Region
+Module ControlExtensions
+    <Extension()>
+    Public Sub Focus(control As Control, delay As Integer)
+        If control Is Nothing Then
+            Throw New ArgumentNullException("control")
+        End If
+        If delay < 0 Then
+            Throw New ArgumentOutOfRangeException("delay")
+        End If
+
+        control.Focus()
+
+        ScriptManager.RegisterStartupScript(control, control.[GetType](), "focus", [String].Format("setTimeout(""WebForm_AutoFocus('{0}')"", {1});", control.ClientID, delay), True)
+    End Sub
+End Module
+#End Region
 ````
 
 

@@ -162,4 +162,4 @@ otherwise a server error is thrown: System.Web.HttpException: The Controls colle
 
 ## See Also
 
- * [Known Limitations]({%slug ajax/troubleshooting/known-limitations%})[](0543D13B-3745-43F0-B1B1-99A4E654AE2E)
+ * [Known Limitations]({%slug ajax/troubleshooting/known-limitations%})

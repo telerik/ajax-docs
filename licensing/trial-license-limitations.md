@@ -36,4 +36,4 @@ Telerik UI for ASP.NET AJAXtrial version. Copyright Telerik © 2002-2012. To rem
 
  * [Upgrading a Trial to a Developer License or to a Newer Version]({%slug introduction/installation/upgrading-instructions/upgrading-a-trial-to-a-developer-license-or-to-a-newer-version%})
 
- * [Blog Post: Upgrade the Version of Your Telerik ASP.NET Controls in 6 Easy Steps](http://blogs.telerik.com/aspnet-ajax/posts/12-12-21/upgrade-the-version-of-your-telerik-asp.net-controls-in-6-easy-steps)
+ * [Blog Post: Upgrade the Version of Your Telerik ASP.NET Controls in 6 Easy Steps](http://www.telerik.com/blogs/upgrade-the-version-of-your-telerik-asp.net-controls-in-6-easy-steps)

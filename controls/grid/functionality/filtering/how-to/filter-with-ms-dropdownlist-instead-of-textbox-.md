@@ -18,19 +18,19 @@ The following steps describe how to achieve this result:
 
 1. Create a custom column class that extends the default **GridBoundColumn**.
 
-1. In this custom column class, override the **SetupFilterControls** method to replace the filter text box and image button with a **DropDownList** control. Configure the **DropDownList** control as desired. At a minimum,
+2. In this custom column class, override the **SetupFilterControls** method to replace the filter text box and image button with a **DropDownList** control. Configure the **DropDownList** control as desired. At a minimum,
 
-* Set the **AutoPostBack** property to **True**.
+	* Set the **AutoPostBack** property to **True**.
 
-* Set the **ID** property to a unique value.
+	* Set the **ID** property to a unique value.
 
-* Bind the items list.
+	* Bind the items list.
 
-* Add a **SelectedIndexChanged** event handler.
+	* Add a **SelectedIndexChanged** event handler.
 
-1. Override the **SetCurrentFilterValueToControl** and **GetCurrentFilterValueFromControl** methods to set or get the **SelectedValue** of the drop-down list.
+3. Override the **SetCurrentFilterValueToControl** and **GetCurrentFilterValueFromControl** methods to set or get the **SelectedValue** of the drop-down list.
 
-1. In the **SelectedIndexChanged** event handler, get the **GridFilteringItem** of the grid and call its **FireCommandEvent** method to initiate a filter command.
+4. In the **SelectedIndexChanged** event handler, get the **GridFilteringItem** of the grid and call its **FireCommandEvent** method to initiate a filter command.
 
 ## Defining the custom column class
 
@@ -182,60 +182,55 @@ You can add instances of your custom column type **RadGrid** as follows:
 
 1. At the top of the the ASPX page, register the namespace for the custom column class. You do not need to add an Assembly attribute, unless the class is defined in another assembly:
 
-````ASP.NET
-<%@ register namespace="MyStuff" tagprefix="custom" %>
-````
+	**ASP.NET**
+	
+	<%@ register namespace="MyStuff" tagprefix="custom" %>
 
 
+2. You can now add instances of the column type in the declaration of your grid. Note that this example includes a command item with a "Clear" button to clear the selected filters:
 
-1. You can now add instances of the column type in the declaration of your grid. Note that this example includes a command item with a "Clear" button to clear the selected filters:
-
-````ASP.NET
-<telerik:RadGrid
-   ID="RadGrid1" runat="server"
-   AllowFilteringByColumn="True"
-   AllowPaging="True" PageSize="5"
-   DataSourceID="AccessDataSource1"
-   OnItemCommand="RadGrid1_ItemCommand">
- <MasterTableView
-    AutoGenerateColumns="False"
-    DataSourceID="AccessDataSource1"
-    CommandItemDisplay="Top">
-   <CommandItemTemplate>
-      <asp:LinkButton Runat="server" ID="LinkButton1"
-        Text="Clear Filters"
-        CommandName="ClearFilters" />
-   </CommandItemTemplate>
-   <Columns>
-     <custom:MyCustomFilteringColumn
-        HeaderText="Employee ID"
-        DataField="EmployeeID"
-        UniqueName="EmployeeID" />
-     <custom:MyCustomFilteringColumn
-        HeaderText="Customer ID"
-        DataField="CustomerID"
-        UniqueName="CustomerID" />
-     <telerik:GridBoundColumn
-        AllowFiltering="False"
-        HeaderText="Order ID"
-        DataField="OrderID"
-        UniqueName="OrderID" />
-   </Columns>
- </MasterTableView>
-</telerik:RadGrid>
-<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
-    SelectCommand="SELECT * FROM [Orders]">
-</asp:SqlDataSource>
-````
+	**ASP.NET**
+	<telerik:RadGrid
+	   ID="RadGrid1" runat="server"
+	   AllowFilteringByColumn="True"
+	   AllowPaging="True" PageSize="5"
+	   DataSourceID="AccessDataSource1"
+	   OnItemCommand="RadGrid1_ItemCommand">
+	 <MasterTableView
+	    AutoGenerateColumns="False"
+	    DataSourceID="AccessDataSource1"
+	    CommandItemDisplay="Top">
+	   <CommandItemTemplate>
+	      <asp:LinkButton Runat="server" ID="LinkButton1"
+	        Text="Clear Filters"
+	        CommandName="ClearFilters" />
+	   </CommandItemTemplate>
+	   <Columns>
+	     <custom:MyCustomFilteringColumn
+	        HeaderText="Employee ID"
+	        DataField="EmployeeID"
+	        UniqueName="EmployeeID" />
+	     <custom:MyCustomFilteringColumn
+	        HeaderText="Customer ID"
+	        DataField="CustomerID"
+	        UniqueName="CustomerID" />
+	     <telerik:GridBoundColumn
+	        AllowFiltering="False"
+	        HeaderText="Order ID"
+	        DataField="OrderID"
+	        UniqueName="OrderID" />
+	   </Columns>
+	 </MasterTableView>
+	</telerik:RadGrid>
+	<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
+	    SelectCommand="SELECT * FROM [Orders]">
+	</asp:SqlDataSource>
 
 
-
-1. The **MyCustomFilteringColumn** implementation requires a **ListDataSource**. You can set that in the **Page_Load** event handler. In addition, the grid definition above requires an implementation for the "ClearFilters" button:
+3. The **MyCustomFilteringColumn** implementation requires a **ListDataSource**. You can set that in the **Page_Load** event handler. In addition, the grid definition above requires an implementation for the "ClearFilters" button:
 
 >note This example sets the **ListDataSource** property in the **Page_Load** event handler. If you are binding your grid using the **NeedDataSource** event, it is more appropriate to set the **ListDataSource** in that event handler. (NeedDataSource does not occur when using declarative data binding.)
 >
-
-
 
 
 ````C#

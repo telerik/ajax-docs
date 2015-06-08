@@ -27,7 +27,7 @@ position: 0
 |Word|n/a|HTML|ExportToWord|RadGrid.ExportToWordCommandName|ExportToWord()|ExportToWord()|
 |CSV|n/a|text|ExportToCsv|RadGrid.ExportToCsvCommandName|ExportToCSV()|ExportToCsv()|
 
->note We strongly recommend that you use[Advanced Data Binding](http://http://www.telerik.com/help/aspnet-ajax/grid-advanced-data-binding.html)when exporting the **RadGrid** .
+>note We strongly recommend that you use [Advanced Data Binding](http://www.telerik.com/help/aspnet-ajax/grid-advanced-data-binding.html) when exporting the **RadGrid** .
 >
 
 
@@ -207,7 +207,7 @@ The following code-library project demonstrates how to export nested *RadGrids* 
 
 ## Export in SharePoint webpart
 
-There is a special flag ([_spFormOnSubmitCalled](http://www.bewise.fr/article/ptc/57/WSS-V3-Use-ASP-NET-AJAX-Framework-with-WSS-30.aspx)) in **SharePoint** that prevents the form to be submitted twice.The flag is set when the form is submitted and then cleared when the response is received. When using the exporting functionality,this flag won't be cleared because the response is redirected and therefore all further postbacks will be blocked. [Controls not functional after Export to Excel or Export to PDF of Telerik in Sharepoint Application page](http://www.faisalmb.com/blog/post/2010/01/28/Controls-not-functional-after-Export-to-Excel-or-Export-to-PDF-of-Telerik-in-Sharepoint-Application-page.aspx)
+There is a special flag (_spFormOnSubmitCalled) in **SharePoint** that prevents the form to be submitted twice.The flag is set when the form is submitted and then cleared when the response is received. When using the exporting functionality,this flag won't be cleared because the response is redirected and therefore all further postbacks will be blocked. [Controls not functional after Export to Excel or Export to PDF of Telerik in Sharepoint Application page](http://www.faisalmb.com/blog/post/2010/01/28/Controls-not-functional-after-Export-to-Excel-or-Export-to-PDF-of-Telerik-in-Sharepoint-Application-page.aspx)
 
 ## Export in web farm
 

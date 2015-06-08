@@ -30,7 +30,7 @@ position: 0
 
 * **Enabled** determines whether the user can select the node.
 
-* **CssClass, DisabledCssClass, HoveredCssClass, SelectedCss** are the names of CSS styles to be applied to the TreeView node depending on its state. The style can be declared in the CSS file of the applied [Skin](A2ACD8E0-A5F3-4093-A5DA-FF45D737F6FA).
+* **CssClass, DisabledCssClass, HoveredCssClass, SelectedCss** are the names of CSS styles to be applied to the TreeView node depending on its state. The style can be declared in the CSS file of the applied [Skin]({%slug ribbonbar/appearance-and-styling/skins%}).
 >note You can also customize the appearance of items using [templates]({%slug treeview/templates/overview%}).
 >
 

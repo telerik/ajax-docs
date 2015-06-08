@@ -30,7 +30,7 @@ To enable **RadUpload** to automatically save files to a folder, all you must do
 
 When you enable automatic file saving using the **TargetFolder** or **TargetPhysicalFolder** properties, files are saved to the target folder with their original names from the client computer. Some files may still not be saved to the specified folder:
 
-* If you are using the [integrated validation]({%slug upload/validation/integrated-validation%}), invalid files are not saved to the target folder. You can, however, still [access them using the server-side API](FC66018F-9560-4F29-A685-C6DC5D9BF5C9).
+* If you are using the [integrated validation]({%slug upload/validation/integrated-validation%}), invalid files are not saved to the target folder. You can, however, still [access them using the server-side API]({%slug upload/server-side-programming/validatingfile%}{%slug asyncupload/how-to/how-to-manipulate-the-uploaded-files%}).
 
 * By default, if a file with the same name as an uploaded file already exists in the target directory, **RadUpload** does not overwrite the existing file. There are two approaches you can take to deal with name clashes:
 

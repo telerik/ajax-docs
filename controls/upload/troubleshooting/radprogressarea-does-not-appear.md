@@ -48,7 +48,7 @@ There are several possible reasons for the problem:
 
 The resolutions of each cause follow:
 
-1. Add [RadUploadHttpModule](FAFFEB65-66D2-4CFE-8F40-E4BA471540A9) and [RadUploadProgressHandler](FAFFEB65-66D2-4CFE-8F40-E4BA471540A9) registrations in your **web.config**.
+1. Add [RadUploadHttpModule]({%slug progressarea/webconfing-configuraton%}) and [RadUploadProgressHandler]({%slug progressarea/webconfing-configuraton%}) registrations in your **web.config**.
 
 1. Add **RadProgressManager** to the page. You will need the **RadUploadHttpModule** and **RadUploadProgressHandler** registrations as well.
 

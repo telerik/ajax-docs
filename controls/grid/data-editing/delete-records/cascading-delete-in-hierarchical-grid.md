@@ -111,9 +111,6 @@ protected void RadGrid1_DeleteCommand(object source, GridCommandEventArgs e)
     }
 }
 ````
-
-
-
 ````VB
 Protected Sub RadGrid1_DeleteCommand(ByVal source As Object, ByVal e As GridCommandEventArgs)
     Dim masterPrKey As String
@@ -143,6 +140,6 @@ Protected Sub RadGrid1_DeleteCommand(ByVal source As Object, ByVal e As GridComm
 End Sub
 ````
 
-
-
 For hierarchical grids with multiple nested tables you will have to traverse the items in them recursively to accomplish this task (in a similar to the demonstrated manner).
+
+

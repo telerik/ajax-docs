@@ -44,7 +44,7 @@ Links navigate you directly to **RadUpload** examples, help, or code library. Yo
 
 ## RadProgressManager Smart Tag
 
-As of 2008 Q3 SP1 (2008.3.1125), RadProgressManager can automatically register the [RadUploadHttpModule and RadUploadProgressHandler](FAFFEB65-66D2-4CFE-8F40-E4BA471540A9) in the web.config file.
+As of 2008 Q3 SP1 (2008.3.1125), RadProgressManager can automatically register the [RadUploadHttpModule and RadUploadProgressHandler]({%slug progressarea/webconfing-configuraton%}) in the web.config file.
 
 ![RadProgressManager Smart Tag](images/upload_radprogressmanager_smart_tag.png)
 

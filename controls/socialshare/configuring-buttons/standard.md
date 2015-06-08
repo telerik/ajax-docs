@@ -180,7 +180,7 @@ Pinterest buttons are available since **Q1 2013 SP1**.To activate them you need 
 		>note The URL given to Pinterest must point to an **image** and not to a page like	all other networks.
 
 
-	* Follow button - the URL of the Pinterest account which is to be followed (e.g., [http://pinterest.com/USERNAME](http://pinterest.com/USERNAME)).
+	* Follow button - the URL of the Pinterest account which is to be followed (e.g., `http://pinterest.com/USERNAME`).
 
 		>note The proper visualization of the follow button requires the omission of the 'www' from the URL of	the Pinterest account.
 

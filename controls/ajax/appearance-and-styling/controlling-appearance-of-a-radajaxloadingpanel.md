@@ -18,7 +18,7 @@ This help article describes how to change the visual appearance of a **RadAjaxLo
 
 The principal visual aspect of **RadAjax** is the[RadAjaxLoadingPanel]({%slug ajax/radajaxloadingpanel/overview%}) that displays when AJAX-enabled controls update.You can control the appearance of **RadAjaxLoadingPanel** by the following methods:
 
-* Modify the markup within the <telerik:RadAjaxLoadingPanel> </telerik:RadAjaxLoadingPanel> tags.
+* Modify the markup within the `<telerik:RadAjaxLoadingPanel> </telerik:RadAjaxLoadingPanel>` tags.
 
 * Change the image that displays in the loading panel. **RadAjax** ships with a number of pre-defined animated "gif" images. To do this, you change the <src> tag path to one of the gif's in the installation directory: "\Telerik\RadControls for ASP.NET AJAXsuiteversion\Skins\Default\Ajax"
 

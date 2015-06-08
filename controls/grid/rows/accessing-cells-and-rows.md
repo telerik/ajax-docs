@@ -237,7 +237,7 @@ Dim textBox As TextBox = CType(userControl.FindControl("TextBox1"), TextBox)
 
 ## Accessing Cells in Client-Side Code
 
-You can access the cells client-side using the [getCellByColumnUniqueName]({%slug grid/client-side-programming/gridtableview-object/methods/getcellbycolumnuniquename%}) method of the **GridTableView** client-side object. For an example that uses this method to access cell values, see [Getting Cell Values for Selected Rows Client-side](3797B94B-07EE-416C-9E83-57AB21B39EFB).
+You can access the cells client-side using the [getCellByColumnUniqueName]({%slug grid/client-side-programming/gridtableview-object/methods/getcellbycolumnuniquename%}) method of the **GridTableView** client-side object. For an example that uses this method to access cell values, see [Getting Cell Values for Selected Rows Client-side]({%slug grid/overview%}).
 
 ## Accessing Table Views in a Hierarchical Grid
 

@@ -24,7 +24,7 @@ position: 0
 
 1. [Global item template](http://demos.telerik.com/ASPNET/Prometheus/Grid/Examples/GeneralFeatures/CardView/DefaultCS.aspx) - allows you to specify item template for each record in the grid and define custom layout to visualize the data in the control.
 
-1. [Integration with RadAjax and loading indicators](3211B7CB-2CFC-46E9-A150-8B52B227DC52) - dramatically improves the responsiveness of the component, simulates Windows-application like behavior, and minimizes the traffic to the server.
+1. [Integration with RadAjax and loading indicators]({%slug ajax/radajaxmanager/overview%}) - dramatically improves the responsiveness of the component, simulates Windows-application like behavior, and minimizes the traffic to the server.
 
 1. [Codeless data-binding]({%slug grid/data-editing/automatic-datasource-operations%}) - using the DataSourceControls introduced in ASP.NET 2.x/3x.
 

@@ -67,4 +67,4 @@ Each file in the collection is of type **UploadedFile**. The following table lis
 |GetFieldValue(string)|string|Retrieves a [custom field]({%slug upload/how-to/adding-information-to-uploaded-files%}) added to the uploaded file.|
 |GetIsFieldChecked(string)|boolean|Retrieves whether a [custom check box]({%slug upload/how-to/adding-information-to-uploaded-files%}) added to the uploaded file was checked.|
 
-For an example of using the **UploadedFile** object, see [Manipulating Uploaded Files](FC66018F-9560-4F29-A685-C6DC5D9BF5C9).
+For an example of using the **UploadedFile** object, see [Manipulating Uploaded Files]({%slug asyncupload/how-to/how-to-manipulate-the-uploaded-files%}).

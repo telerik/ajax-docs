@@ -74,8 +74,8 @@ position: 0
 | **[hideFilterItem]({%slug grid/client-side-programming/gridtableview-object/methods/hidefilteritem%})** |
 | **[hideItem]({%slug grid/client-side-programming/gridtableview-object/methods/hideitem%})** |
 | **[insertItem]({%slug grid/client-side-programming/gridtableview-object/methods/insertitem%})** |
-| **[moveColumnToLeft](9BECB17C-A271-4738-8C5F-266CAD93D020)** |
-| **[moveColumnToRight](F252A1E0-160B-4963-875E-4B91F6CFCF91)** |
+| **moveColumnToLeft** |
+| **moveColumnToRight** |
 | **[page]({%slug grid/client-side-programming/gridtableview-object/methods/page%})** |
 | **[rebind]({%slug grid/client-side-programming/gridtableview-object/methods/rebind%})** |
 | **[reorderColumns]({%slug grid/client-side-programming/gridtableview-object/methods/reordercolumns%})** |

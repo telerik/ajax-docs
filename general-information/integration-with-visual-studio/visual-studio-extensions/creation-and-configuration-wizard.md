@@ -30,7 +30,7 @@ The Project Configuration Wizard is called when:
 
 The Project Configuration Wizard’s first page lets you define settings related to Telerik controls:
 
-* **Telerik Assemblies** - Select the Telerik controls distribution to be used. You can choose from the detected assemblies (from an installation folder or from the GAC), or you can browse to an assemblies located somewhere on your hard drive (e.g. when you've downloaded a zip file from the [Latest Internal Builds](http://blogs.telerik.com/blogs/posts/09-01-07/download_latest_internal_builds.aspx) page).
+* **Telerik Assemblies** - Select the Telerik controls distribution to be used. You can choose from the detected assemblies (from an installation folder or from the GAC), or you can browse to an assemblies located somewhere on your hard drive (e.g. when you've downloaded a zip file from the [Latest Internal Builds](http://www.telerik.com/blogs/download-latest-internal-builds) page).
 
 * **Project type** – Select the Telerik project type. (option is only available in **New Project Wizard**).
 

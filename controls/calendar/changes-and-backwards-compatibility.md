@@ -72,7 +72,7 @@ An online demo, which shows how to use various controls with non-embedded skins 
 
 Client-side property **Owner** is renamed **get_owner()**. Property **Owner** is obsolete and will be removed in Q1 2009 release.
 
-All CSS classes have been renamed to use Telerik naming convention. For migration of custom skins, please refer to: [Migrating RadCalendar Skins Created Before Q3 2008](DB34CABC-6850-4082-8C5C-2C01F9B7D886).
+All CSS classes have been renamed to use Telerik naming convention. For migration of custom skins, please refer to: [Migrating RadCalendar Skins Created Before Q3 2008]({%slug calendar/appearance-and-styling/skin-migration%}).
 
 ## Telerik RadCalendar for ASP.NET AJAX Q2 2008
 

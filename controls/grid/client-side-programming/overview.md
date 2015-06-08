@@ -30,7 +30,7 @@ Telerik **RadGrid** provides the following objects on the client-side:
 | **[.get_element()]({%slug grid/client-side-programming/radgrid-object/properties/get_element()%})** |Property that returns the DOM element of the grid div.|
 | **[.get_id()]({%slug grid/client-side-programming/radgrid-object/properties/get_id()%})** |Property that returns the id of the grid client object.|
 | **[.get_selectedItems()]({%slug grid/client-side-programming/radgrid-object/properties/get_selecteditems()%})** |Property that returns an array of the grid rows selected on the client (and all sub-levels in the hierarchical grid structure).|
-| **[.get_headerMenu()]({%slug grid/client-side-programming/radgrid-object/properties/get_headermenu()%})** |Property that returns the client object of the[grid header context menu](http://demos.telerik.com/aspnet-ajax/grid/examples/generalfeatures/headercontextmenu/defaultcs.aspx). Useful when you would like to customize the items in it on the client (see the JavaScript logic at the top of[this help topic](http://www.telerik.com/help/aspnet-ajax/grdreducingfiltermenuoptions.html)for reference).|
+| **[.get_headerMenu()]({%slug grid/client-side-programming/radgrid-object/properties/get_headermenu()%})** |Property that returns the client object of the [grid header context menu](http://demos.telerik.com/aspnet-ajax/grid/examples/generalfeatures/headercontextmenu/defaultcs.aspx). Useful when you would like to customize the items in it on the client (see the JavaScript logic at the top of [this help topic](http://www.telerik.com/help/aspnet-ajax/grdreducingfiltermenuoptions.html) for reference).|
 | **[.get_allowActiveRow()]({%slug grid/client-side-programming/radgrid-object/properties/get_allowactiverowcycle()%})** |Property that returns the value for the respective server property of the control (ClientSettings -> KeyboardNavigationSettings -> AllowActiveRowCycle).|
 | **[.get_visible()]({%slug grid/client-side-programming/radgrid-object/properties/get_visible()%})** |Property that determines whether the grid is visible on the client or not (style="display:none").|
 | **[.set_visible()]({%slug grid/client-side-programming/radgrid-object/properties/set_visible()%})** |Property that sets the grid as visible or not on the client (changing the *style-> display* value of the grid div).|
@@ -63,7 +63,7 @@ Telerik **RadGrid** provides the following objects on the client-side:
 
 >note If you want to reference the client object of a grid row inside a client event handler of **RadGrid** , make sure that you attach the **RowCreated** event of the control specifying an empty event handler,
 >otherwise *eventArgs.get_gridDataItem()* will return null. This is due to performance reasons (avoiding the client serialization of grid items by default).
->An alternative method to reference a grid row client-side is through the[get_dataItems()]({%slug grid/client-side-programming/gridtableview-object/properties/get_dataitems()%})collection.
+>An alternative method to reference a grid row client-side is through the [get_dataItems()]({%slug grid/client-side-programming/gridtableview-object/properties/get_dataitems()%}) collection.
 >
 
 

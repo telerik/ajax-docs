@@ -52,4 +52,4 @@ function onItemDataBound(sender, eventArgs)
 
  * [Loading Items from a Web Service]({%slug combobox/load-on-demand/loading-items-from-a-web-service%})
 
- * [RadComboBox and ASP.NET AJAX 4.0 Preview – using client-side templates and webservice load on demand](http://blogs.telerik.com/veselinvasilev/posts/09-01-15/RadComboBox_and_ASP_NET_AJAX_4_0_Preview_ndash_using_client-side_templates_and_webservice_load_on_demand.aspx)
+ * [RadComboBox and ASP.NET AJAX 4.0 Preview – using client-side templates and webservice load on demand](http://www.telerik.com/blogs/radcombobox-and-asp-net-ajax-4-0-preview-ndash-using-client-side-templates-and-webservice-load-on-demand)

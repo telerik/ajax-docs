@@ -93,7 +93,7 @@ else
 | **get_navigateUrl** |none|string|Gets the URL of the Web page the tab launches.|
 | **set_navigateUrl** |string|none|Sets the navigateURL property of the tab. This is the URL of the Web page the tab launches.
 
->caution The **navigateUrl** property must be an absolute URL on the client side: e.g." *http://mydomain.com/default.aspx"* not *"default.aspx".* 
+>caution The **navigateUrl** property must be an absolute URL on the client side: e.g., `http://mydomain.com/default.aspx" not `default.aspx`. 
 >
 |
 | **get_imageUrl** |none|(string imageUrl)|Gets the URL of the image.|

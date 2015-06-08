@@ -41,7 +41,7 @@ Each of the controls included in the Telerik UI for ASP.NET AJAX suite is styled
 	__ASP.NET__
 
 		<telerik:raddock id="RadDock1" runat="server" title="RadDock" skin="MyCustomSkin"
-    enableembeddedskins="false" text="Lorem ipsum dolor sit amet..."> </telerik:raddock>
+			enableembeddedskins="false" text="Lorem ipsum dolor sit amet..."> </telerik:raddock>
 
 1. Register Dock.MyCustomSkin.css in the <head>...</head> section of your webpage. In order to have the CSS applied correctly, the base stylesheet should come first in the DOM:
 

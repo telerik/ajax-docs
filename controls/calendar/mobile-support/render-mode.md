@@ -133,6 +133,10 @@ Rendering: (*Metro skin*)
 
 The **Native** render mode option is inherited directly from **RenderMode** which is a global property for Telerik controls. However, since **RadCalendar** does not have a similar html element, the **Native** render mode will not have any effect.
 
+<!-- 
+
 # See Also
 
- * [Lightweight Rendering – Going deeper into HTML semantics and CSS3](http://blogs.telerik.com/aspnet-ajax/posts/13-03-08/radcontrols-for-asp.net-ajax-lightweight-rendering-semantic-html-and-css3)
+ * [Lightweight Rendering – Going deeper into HTML semantics and CSS3](http://blogs.telerik.com/aspnet-ajax/posts/13-03-08/radcontrols-for-asp.net-ajax-lightweight-rendering-semantic-html-and-css3) 
+ 
+ -->

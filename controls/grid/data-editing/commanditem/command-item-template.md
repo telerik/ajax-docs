@@ -149,11 +149,11 @@ There are cases in which you may want to access the controls inside your **Comma
 
 1. Subscribe to the **ItemCreated** event of **RadGrid**.
 
-1. Check whether the currently bound item is **GridCommandItem**.
+2. Check whether the currently bound item is **GridCommandItem**.
 
-1. Locate the respective control using the **FindControl** method of the command item.
+3. Locate the respective control using the **FindControl** method of the command item.
 
-1. Change its attributes according to your needs.
+4. Change its attributes according to your needs.
 
 **Example 5** shows how to change the **Text** and **CommandName** properties for a **LinkButton** insidethe **CommandItemTemplate** object.
 
@@ -279,9 +279,7 @@ protected void RadGrid1_ItemCreated(object sender, Telerik.Web.UI.GridItemEventA
 
 If you want to define a **CommandItemTemplate** programmatically, you need to design your custom class (holding the set of controls forthe **CommandItemTemplate**) which implements the**ITemplate** interface. Then you can assign an instance of this classto the **CommandItemTemplate** of the corresponding **GridTableView**.
 
-**Example 7** shows how to embed **LinkButtons** (for add record and refresh) in the **CommandItemTemplate** of the **MasterTableView** at runtime.
-
-**Example 7**: Programmatic creation of a custom class that defines the **CommandItemTemplate**.
+**Example 7** shows how to embed **LinkButtons** (for add record and refresh) in the **CommandItemTemplate** of the **MasterTableView** at runtime. It also demonstrates programmatic creation of a custom class that defines the **CommandItemTemplate**.
 
 
 

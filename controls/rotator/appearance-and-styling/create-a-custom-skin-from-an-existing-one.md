@@ -103,7 +103,7 @@ Each skin of RadRotator consists of an [image sprite](http://www.alistapart.com/
 
 	![Rotator Scroll Buttons Sprite Images](images/rotator-rotatorbuttons.gif)
 
-	Each button is a 20 x 20 pixels square. On the left row is the normal state of the buttons, on the second - the hovered state. In the CSS they are selected from the sprite via the [background-position](http://www.w3schools.com/css/pr_background-position.asp) property.
+	Each button is a 20 x 20 pixels square. On the left row is the normal state of the buttons, on the second - the hovered state. In the CSS they are selected from the sprite via the [background-position](http://www.w3schools.com/cssref/pr_background-position.asp) property.
 
 1. CSS Classes that are used in in **The Skin Stylesheet - Rotator.SkinName.css:**
 

@@ -52,9 +52,6 @@ Sometimes it is necessary to align an item in the GroupHeader of the grid, so th
    SelectCommand="SELECT * FROM Products Where UnitPrice > 9.50">
 </asp:SqlDataSource>  
 ````
-
-
-
 ````C#
 protected void RadGrid1_ItemCreated(object sender, GridItemEventArgs e)
 {
@@ -81,9 +78,6 @@ void Item_PreRender(object sender, EventArgs e)
     }
 }
 ````
-
-
-
 ````VB
 Protected Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As GridItemEventArgs)
     If TypeOf e.Item Is GridGroupHeaderItem Then

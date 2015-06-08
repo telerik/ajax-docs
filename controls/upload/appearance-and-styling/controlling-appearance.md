@@ -32,10 +32,10 @@ In addition to the skin, both controls are extremely configurable, letting you s
 
 ## RadProgressArea
 
-* Use the **ProgressIndicators** and **DisplayCancelbutton** properties to [configure RadProgressArea](38840C58-5CBE-449E-8F91-D9C5937769BE) to contain only those controls you want.
+* Use the **ProgressIndicators** and **DisplayCancelbutton** properties to [configure RadProgressArea]({%slug progressarea/configuraton%}) to contain only those controls you want.
 
-* Use the **Localization**property to [change the text](BCC18A1A-3EF6-44C2-A38B-D5BB8CE9BFD1) of the labels in the progress dialog.
+* Use the **Localization** property to [change the text]({%slug progressarea/localization/localizing-radprogressarea%}) of the labels in the progress dialog.
 
-* Use [progress templates](D1C46DCE-C13E-4850-8DB2-549FC00ED728) to add your own custom elements or rearrange the existing elements in the progress dialog.
+* Use [progress templates]({%slug progressarea/progress-template%}) to add your own custom elements or rearrange the existing elements in the progress dialog.
 
 * Use the **dir="rtl"** attribute to give the progress area a [right-to-left orientation]({%slug upload/localization/radupload-rtl-support%})

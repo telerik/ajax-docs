@@ -49,6 +49,6 @@ The **Indeterminate** state of a Node is not persisted. That is if a Node's Chec
 
 
 
->caution Tri-State CheckBoxes are actually rendered as <*span*> elements with predefined CSS styles. They are not styled by the [RadFormDectorator](4F3D6E83-A8FB-4DE9-9DDD-D007366B31B9)control. For more information, please read the [Tri-Sate client-side specifics]({%slug treeview/checkboxes/tri-state/tri-sate-client-side-specifics%}) topic.
+>caution Tri-State CheckBoxes are actually rendered as <*span*> elements with predefined CSS styles. They are not styled by the [RadFormDectorator]({%slug formdecorator/overview%}) control. For more information, please read the [Tri-Sate client-side specifics]({%slug treeview/checkboxes/tri-state/tri-sate-client-side-specifics%}) topic.
 >
 

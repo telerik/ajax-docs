@@ -66,7 +66,7 @@ function DeleteNode()
 
 ## Selecting Nodes
 
-Selecting typically highlights the node, depending on the styling of the **RadTreeView** [skin](A2ACD8E0-A5F3-4093-A5DA-FF45D737F6FA). The typical scenario for selecting a node programmatically is first locating the node, then calling the select() or unselect() functions.
+Selecting typically highlights the node, depending on the styling of the **RadTreeView** [skin]({%slug ribbonbar/appearance-and-styling/skins%}). The typical scenario for selecting a node programmatically is first locating the node, then calling the select() or unselect() functions.
 
 ````JavaScript
 function SelectNode()        
@@ -92,7 +92,7 @@ function SelectNode()
 
 ## Disabling/Enabling Nodes
 
-Disabling a node makes the node inactive and un-clickable. The appearance of the node is typically in a gray or other faint color, depending on the styling of the **RadTreeView** [Skin](A2ACD8E0-A5F3-4093-A5DA-FF45D737F6FA).
+Disabling a node makes the node inactive and un-clickable. The appearance of the node is typically in a grey or other faint color, depending on the styling of the **RadTreeView** [Skin]({%slug ribbonbar/appearance-and-styling/skins%}).
 
 ````ASPNET
 function ToggleNode()

@@ -85,7 +85,7 @@ Moreover, you can enable the CDN support **globally** by adding the following ke
 
 
 
-Note, that the second line will enable the [CDN support for the CSS and image files](D7505CD2-4BB7-42D9-86E4-522D48085ABD) for the skins.
+Note, that the second line will enable the [CDN support for the CSS and image files]({%slug stylesheetmanager/cdn-support/overview%}) for the skins.
 
 ## How are my users affected?
 

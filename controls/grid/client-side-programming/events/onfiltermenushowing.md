@@ -19,7 +19,7 @@ This event is fired before the filtering menu is rendered.
 
 |  **Fired by**  | RadGrid |
 | ------ | ------ |
-| **Arguments** | **menu** - filtering menu instance **tableView** - filtering menu instance **gridColumn** - current[GridColumn]({%slug grid/client-side-programming/gridcolumn-object/gridcolumn-class-members%})object **domEvent** - the original browser event|
+| **Arguments** | **menu** - filtering menu instance **tableView** - filtering menu instance **gridColumn** - current [GridColumn]({%slug grid/client-side-programming/gridcolumn-object/gridcolumn-class-members%}) object **domEvent** - the original browser event|
 | **Can be canceled** |Yes, set eventArgs.set_cancel(true) to cancel|
 
 Example:

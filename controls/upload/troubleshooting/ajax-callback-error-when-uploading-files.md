@@ -36,7 +36,7 @@ There are several possible reasons for this to happen:
 
 Here are the resolutions for the different cases:
 
-1. Handler not registered:Please, check if you have the [ Telerik.RadUploadProgressHandler.ashx registered in the application configuration file ](FAFFEB65-66D2-4CFE-8F40-E4BA471540A9). Please note, that the IIS7 Integrated Mode registration should be added to the `<system.webServer>` section.
+1. Handler not registered:Please, check if you have the [Telerik.RadUploadProgressHandler.ashx registered in the application configuration file ]({%slug progressarea/webconfing-configuraton%}). Please note, that the IIS7 Integrated Mode registration should be added to the `<system.webServer>` section.
 
 1. A server error has occurred:
 

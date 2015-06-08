@@ -25,7 +25,7 @@ You can enable the mobile layout of the control by setting the **RenderMode** pr
 
 To cover the rendering of both mobile and desktop devices, you can set the **RenderMode** property to **Auto**. This option will automatically decide how to render the control on a smartphone, tablet or PC.
 
-For more accurate device detection, you can reference the [Device Detection Framework](www.telerik.com/products/aspnet-ajax/device-detection-framework.aspx) , which ensures that the control is rendered with appropriate UI according to the device screen size.
+For more accurate device detection, you can reference the [Device Detection Framework](http://www.telerik.com/products/aspnet-ajax/device-detection-framework.aspx) , which ensures that the control is rendered with appropriate UI according to the device screen size.
 
 ## Viewport adjustment
 

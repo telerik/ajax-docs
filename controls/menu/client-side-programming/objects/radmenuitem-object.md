@@ -120,7 +120,7 @@ else {
 | **get_navigateUrl** |none|string|Gets the URL of the Web page the menu item launches.|
 | **set_navigateUrl** |string|none|Sets the navigateURL property of the item. This is the URL of the Web page the menu item launches.
 
->caution The **navigateUrl** property must be an absolute URL on the client side: e.g." *http://mydomain.com/default.aspx"* not *"default.aspx".* 
+>caution The **navigateUrl** property must be an absolute URL on the client side: e.g., `http://mydomain.com/default.aspx` not `default.aspx`. 
 >
 |
 | **set_imageUrl** |(string imageUrl)|none|Sets the URL of the image.|

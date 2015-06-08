@@ -79,7 +79,7 @@ function Enablepanel() {
 |  **get_enabled**  | none | boolean | True if the panel is enabled. To enable a panel, use the enable() method.|
 | **findItemByUrl** |(string URL)|[RadPanelItem]({%slug panelbar/client-side-programming/radpanelitem-object%})|Returns the first **RadPanelBarItem** object whose **NavigateUrl** property matches the parameter. |
 
->caution The **NavigateUrl** property is transformed to absolute URL on the client side, e.g. *"default.aspx"* is turned into: *http://mydomain.com/default.aspx.* 
+>caution The **NavigateUrl** property is transformed to absolute URL on the client side, e.g. *"default.aspx"* is turned into: `http://mydomain.com/default.aspx`. 
 >
 
 |  **Name**  |  **Parameters**  |  **Return Type**  |  **Description**  |

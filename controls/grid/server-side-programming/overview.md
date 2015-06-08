@@ -21,7 +21,7 @@ Following is a table of the most important properties you should be aware of whe
 | ------ | ------ |
 | **RadGrid.MasterTableView** |The main grid table - in the general case, when there is no hierarchy, only **RadGrid.MasterTableView** is rendered. You can think of this table as if it is the grid itself. **MasterTableView** and generally all table-views in the hierarchy use the style, client behavior and other settings applied to **RadGrid** , unless explicitly specified otherwise.|
 | **GridTableView.DetailTables** |This collection is used for defining the hierarchical structure of **RadGrid** .|
-| **RadGrid.ClientSettings** |Set various client-side appearance and behavior options. See[RadGridTable client-side API]({%slug grid/client-side-programming/overview%})for details.|
+| **RadGrid.ClientSettings** |Set various client-side appearance and behavior options. See [RadGridTable client-side API]({%slug grid/client-side-programming/overview%}) for details.|
 | **RadGrid.*Style** |Properties that control the visual appearance of **RadGrid** and all tables in the hierarchy.|
 | **GridDataTable.*Style properties** |Properties that control the visual appearance of **GridDataTable** and all tables in the hierarchy.|
 | **GridTableView.ColumnGroups** |A collection of type GridColumnGroupCollection which holds the multiheaders in the GridTableView|

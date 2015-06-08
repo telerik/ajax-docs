@@ -30,7 +30,7 @@ To migrate a Web application from **RadUpload** "Classic" to **RadUpload** for A
 
 1. Replace the classic RadUpload's declaration: `<radu:radupload id="RadUpload1" runat="server"/>` with the new RadUpload for ASP.NET AJAX declaration: `<telerik:radupload id="RadUpload1" runat="server"/>`
 
-1. Change the registration of the [RadUploadHttpModule and RadUploadProgressHandler](FAFFEB65-66D2-4CFE-8F40-E4BA471540A9) in the Web.config file if you have registered them before.
+1. Change the registration of the [RadUploadHttpModule and RadUploadProgressHandler]({%slug progressarea/webconfing-configuraton%}) in the Web.config file if you have registered them before.
 
 ## Differences between RadUpload "classic" and RadUpload for ASP.NET AJAX
 
@@ -137,4 +137,8 @@ The following table lists the changes to the methods of the **RadProgressArea** 
 
  * [Client-side Programming Overview]({%slug upload/client-side-programming/overview%})
 
- * [RadUpload Object]({%slug upload/client-side-programming/radupload-object%})[](F07E2354-2B45-479D-983B-0CF4A70D4446)[](E9863C1B-4C24-456F-8640-BA6A83203777)
+ * [RadUpload Object]({%slug upload/client-side-programming/radupload-object%})
+ 
+ * [RadProgressArea Client Object]({%slug progressarea/client-side-programming/radprogressarea-client-object%})
+ 
+ * [RadProgressManager Client Object]({%slug progressarea/client-side-programming/radprogressmanager-client-object%})

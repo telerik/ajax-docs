@@ -12,11 +12,11 @@ position: 4
 
 
 
-From **UI for ASP.NET AJAX Q2 2010**onwards,*RadGrid* supports built-in localization through Global resources. Similar to **RadEditor**and **RadScheduler**, you can use the resx files to localize the control with minimum efforts.
+From **UI for ASP.NET AJAX Q2 2010** onwards,*RadGrid* supports built-in localization through Global resources. Similar to **RadEditor**and **RadScheduler**, you can use the resx files to localize the control with minimum efforts.
 
 ## Using the resource file
 
-The resource files should be placed within the **App_GlobalResources**folder in your application. You can either create your own language pack (see below) or use an existing one (if available for your language). Telerik controls installation wizard automatically copies the built-in resources to the **App_GlobalResources** in your local installation.
+The resource files should be placed within the **App_GlobalResources** folder in your application. You can either create your own language pack (see below) or use an existing one (if available for your language). Telerik controls installation wizard automatically copies the built-in resources to the **App_GlobalResources** in your local installation.
 
 ![](images/GlobalResources_Folder.jpg)
 
@@ -36,9 +36,9 @@ Here is how to localize your **RadGrid** in simple steps:
 
 1. Create a new resource file or copy an existing one from the **App_GlobalResources** in your installation folder
 
-1. Add the resource file (**resx**) file to the **App_GlobalResources** folder in your application. Note that you should have two files as a bare minimum - **RadGrid.Main.resx** and the localization file itself - for example **RadGrid.Main.en-GB.resx**
+2. Add the resource file (**resx**) file to the **App_GlobalResources** folder in your application. Note that you should have two files as a bare minimum - **RadGrid.Main.resx** and the localization file itself - for example **RadGrid.Main.en-GB.resx**
 
-1. Set the **Culture** property to the corresponding language (for example: it-IT, en-GB, ja-JP and so on)
+3. Set the **Culture** property to the corresponding language (for example: it-IT, en-GB, ja-JP and so on)
 
 
 
@@ -56,9 +56,9 @@ The process of creating a new global resource follows the same pattern as in **R
 
 1. Make a copy of the **RadGrid.Main.resx** file and save it as **RadGrid.Main.YOURLANGUAGE.resx** (for example: **RadGrid.Main.ja-JP.resx**)
 
-1. Replace the default strings with the translated ones
+2. Replace the default strings with the translated ones
 
-1. Set the **Culture** property to the relevant language
+3. Set the **Culture** property to the relevant language
 
 >caution Please ** -do not- ** modify/remove the **ReservedResource** key.
 >

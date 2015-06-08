@@ -19,7 +19,7 @@ This event is fired before the header context menu is rendered.
 
 |  **Fired by**  | RadGrid |
 | ------ | ------ |
-| **Arguments** | **gridColumn** - current[GridColumn]({%slug grid/client-side-programming/gridcolumn-object/gridcolumn-class-members%})object **domEvent** - the original browser event **menu** - header menu instance|
+| **Arguments** | **gridColumn** - current [GridColumn]({%slug grid/client-side-programming/gridcolumn-object/gridcolumn-class-members%}) object **domEvent** - the original browser event **menu** - header menu instance|
 | **Can be canceled** |Yes|
 
 Example:

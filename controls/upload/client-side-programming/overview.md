@@ -117,4 +117,8 @@ function startPolling() {
 
 # See Also
 
- * [RadUpload Object]({%slug upload/client-side-programming/radupload-object%})[](F07E2354-2B45-479D-983B-0CF4A70D4446)[](E9863C1B-4C24-456F-8640-BA6A83203777)
+ * [RadUpload Object]({%slug upload/client-side-programming/radupload-object%})
+ 
+ * [RadProgressArea Client Object]({%slug progressarea/client-side-programming/radprogressarea-client-object%})
+ 
+ * [RadProgressManager Client Object]({%slug progressarea/client-side-programming/radprogressmanager-client-object%})

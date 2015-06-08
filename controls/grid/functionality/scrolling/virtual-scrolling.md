@@ -24,9 +24,9 @@ To enable virtual scrolling for browsing large record sets,
 
 1. Set the **ClientSettings.Scrolling.AllowScroll** and **ClientSettings.Scrolling.EnableVirtualScrollPaging** properties to **True**.
 
-1. Set the **AllowPaging** and **AllowCustomPaging** properties to **True**. Set the **VirtualItemCount** property to the total number of records in the data source.
+2. Set the **AllowPaging** and **AllowCustomPaging** properties to **True**. Set the **VirtualItemCount** property to the total number of records in the data source.
 
-1. Bind the grid using the **NeedDataSource** event, and in the event handler, use the **CurrentPageIndex** property to determine which subset of the records to fetch.
+3. Bind the grid using the **NeedDataSource** event, and in the event handler, use the **CurrentPageIndex** property to determine which subset of the records to fetch.
 
 
 
@@ -83,21 +83,21 @@ The following steps describe how to achieve this effect:
 
 1. Add a **RadGrid** control to your Web page.
 
-1. Bind it to a data source.
+2. Bind it to a data source.
 
-1. Enable **Paging** in the grid, but set the **PagerStyle.Visible** property to **False** so that the pager does not show.
+3. Enable **Paging** in the grid, but set the **PagerStyle.Visible** property to **False** so that the pager does not show.
 
-1. Enable Scrolling in the grid. Set the **ClientSettings.Scrolling.ScrollHeight** sufficiently small so that the scroll bar appears when the grid first loads.
+4. Enable Scrolling in the grid. Set the **ClientSettings.Scrolling.ScrollHeight** sufficiently small so that the scroll bar appears when the grid first loads.
 
-1. Add a **RadAjaxManager** and **RadAjaxLoadingPanel** to the Web page.
+5. Add a **RadAjaxManager** and **RadAjaxLoadingPanel** to the Web page.
 
-1. Configure the **RadAjaxManager** so that it lets **RadGrid** initiate AJAX requests. Set **RadGrid** as the control to update in response to those requests, and set the **LoadingPanelID** property for those updates to the ID of the **RadAjaxLoadingPanel**.
+6. Configure the **RadAjaxManager** so that it lets **RadGrid** initiate AJAX requests. Set **RadGrid** as the control to update in response to those requests, and set the **LoadingPanelID** property for those updates to the ID of the **RadAjaxLoadingPanel**.
 
-1. Add an **AjaxRequest** event handler to the **RadAjaxManager**. In the event handler, increase the **PageSize** property of the **RadGrid** and the call the grid's **Rebind** method. This increases the number of pages that the grid can display.
+7. Add an **AjaxRequest** event handler to the **RadAjaxManager**. In the event handler, increase the **PageSize** property of the **RadGrid** and the call the grid's **Rebind** method. This increases the number of pages that the grid can display.
 
-1. In the ASPX file, Add a **RadCodeBlock** with a javascript function (called "HandleScrolling" in the example below) to triggers an AJAX request when the grid's scroll bar is at the bottom. This AJAX request will cause the **AjaxRequest** event handler that you just added to execute and fetch more records.
+8. In the ASPX file, Add a **RadCodeBlock** with a javascript function (called "HandleScrolling" in the example below) to triggers an AJAX request when the grid's scroll bar is at the bottom. This AJAX request will cause the **AjaxRequest** event handler that you just added to execute and fetch more records.
 
-1. Assign the javascript function as the event handler for the **OnScroll** client event of the grid.
+9. Assign the javascript function as the event handler for the **OnScroll** client event of the grid.
 
 ````C#
 <telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">

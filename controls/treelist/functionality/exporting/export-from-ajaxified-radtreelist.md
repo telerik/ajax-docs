@@ -12,7 +12,7 @@ position: 1
 
 
 
-Generally speaking, the exporting feature of the control works with regular postbacks only. The reason is that the treelist prepares additional information available on postback when performing the export operation. When the action is performed through asynchronous requests, this information can not be passed through the *XMLHttpObject* - that is why the communication between the browser and the server fails. To bypass the limitation you can wire the [OnRequestStart](1DA8C181-3B68-4113-8F82-4A4F9076F5BF) event of the **RadAjaxPanel** or the **RadAjaxManager**, determine whether the target control is ajaxified and explicitly disable the AJAX in order to export with a regular postback:
+Generally speaking, the exporting feature of the control works with regular postbacks only. The reason is that the treelist prepares additional information available on postback when performing the export operation. When the action is performed through asynchronous requests, this information can not be passed through the *XMLHttpObject* - that is why the communication between the browser and the server fails. To bypass the limitation you can wire the [OnRequestStart]({%slug ajax/client-side-programming/events/onrequeststart%}) event of the **RadAjaxPanel** or the **RadAjaxManager**, determine whether the target control is ajaxified and explicitly disable the AJAX in order to export with a regular postback:
 
 
 

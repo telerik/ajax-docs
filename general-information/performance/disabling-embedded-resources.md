@@ -206,7 +206,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 </scripts>
 ````
 
->caution In **Q1 2014** we modifed the RadMenu scripts so please refer to our RadMenu [Changes and Backward Compatibility]({%slug menu/changes-and-backward-compatibility%}) help article for more information.
+>caution In **Q1 2014** we modifed the RadMenu scripts so please refer to our RadMenu [Changes and Backward Compatibility]({%slug menu/overview%}) help article for more information.
 
 >note **MobileMenuItem.js** is only needed when **RenderMode** is set to **"Auto"** or to **"Mobile"** .
 > **RadMenuItem.js** is used when **RenderMode** is set to **"Auto"** , **"Classic"** or **"Lightweight"** .It does work in cooperation with **ClassicView.js** if the current render mode is classic and **LiteView.js** if the render mode is lightweight.
@@ -547,7 +547,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 ````
 
 
->caution In **Q1 2014** we modified the RadMenu scripts so please refer to our RadMenu [Changes and Backward Compatibility]({%slug menu/changes-and-backward-compatibility%}) help article for more information.
+>caution In **Q1 2014** we modified the RadMenu scripts so please refer to our RadMenu [Changes and Backward Compatibility]({%slug menu/overview%}) help article for more information.
 
 >note **MobileMenuItem.js** is only needed when **RenderMode** is set to **"Auto"** or to **"Mobile"** .
 > **RadMenuItem.js** is used when **RenderMode** is set to **"Auto"** , **"Classic"** or **"Lightweight"** .It does work in cooperation with **ClassicView.js** if the current render mode is classic and **LiteView.js** if the render mode is lightweight.

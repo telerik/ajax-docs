@@ -47,4 +47,6 @@ This produces the following result:
 
 # See Also
 
- * [Localizing RadUpload]({%slug upload/localization/localizing-radupload%})[](BCC18A1A-3EF6-44C2-A38B-D5BB8CE9BFD1)
+* [Localizing RadUpload]({%slug upload/localization/localizing-radupload%})
+
+* [Localizing RadProgressArea]({%slug progressarea/localization/localizing-radprogressarea%})

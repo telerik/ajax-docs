@@ -18,9 +18,9 @@ In a **RadGrid** control with scrolling enabled, you can modify the default grid
 
 1. Create a handler for the client-side **GridCreated** event.
 
-1. In the **GridCreated** event handler, use the grid's **GridDataDiv** property to obtain a reference to the DOM element for the grid's scrollable region.
+2. In the **GridCreated** event handler, use the grid's **GridDataDiv** property to obtain a reference to the DOM element for the grid's scrollable region.
 
-1. Alter the **style.height** attribute of this DOM element to make it equal the height of the grid's container element. Note that if static headers are enabled you will have to take into account the header height.
+3. Alter the **style.height** attribute of this DOM element to make it equal the height of the grid's container element. Note that if static headers are enabled you will have to take into account the header height.
 
 The following example illustrates this technique:
 

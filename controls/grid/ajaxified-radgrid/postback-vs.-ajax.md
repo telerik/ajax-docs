@@ -22,19 +22,19 @@ The following steps describe how to enable AJAX callbacks with **RadGrid**:
 
 1. Provide a mechanism for giving the user feedback when AJAX callbacks are occurring. You can do this in one of two ways:
 
-* Add a **RadAjaxLoadingPanel** to the Web page.
+	* Add a **RadAjaxLoadingPanel** to the Web page.
 
-* Set the **ShowStatusBar** property of the grid to **True**.
+	* Set the **ShowStatusBar** property of the grid to **True**.
 
-1. From the **Ajax Resources** section of the **RadGrid**[Smart Tag]({%slug grid/design-time/smarttag%}), click the **Add RadAjaxManager...** link. This displays the **RadAjax Property Builder**.
+2. From the **Ajax Resources** section of the **RadGrid**[Smart Tag]({%slug grid/design-time/smarttag%}), click the **Add RadAjaxManager...** link. This displays the **RadAjax Property Builder**.
 
-1. In the **RadAjax Property Builder**,
+3. In the **RadAjax Property Builder**,
 
-1. Check the check box for the **RadGrid** control in the panel for controls that will initiate AJAX requests.
+4. Check the check box for the **RadGrid** control in the panel for controls that will initiate AJAX requests.
 
-1. Check the check box for the **RadGrid** control in the panel for controls that need to be updated by the respective AJAX requests.
+5. Check the check box for the **RadGrid** control in the panel for controls that need to be updated by the respective AJAX requests.
 
-1. If you are using a **RadAjaxLoadingPanel**, select the **RadGrid** control in the second panel and set the **LoadingPanelID** property in the third panel to the **ID** of your **RadAjaxLoadingPanel**.
+6. If you are using a **RadAjaxLoadingPanel**, select the **RadGrid** control in the second panel and set the **LoadingPanelID** property in the third panel to the **ID** of your **RadAjaxLoadingPanel**.
 
 ![](images/grd_AjaxManager.png)
 

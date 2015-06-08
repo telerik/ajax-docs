@@ -162,7 +162,7 @@ End Sub
 
 ## Selecting Nodes
 
-Setting the **RadTreeNode** **Selected** property typically highlights the node, depending on the styling of the **RadTreeView** [Skin](A2ACD8E0-A5F3-4093-A5DA-FF45D737F6FA). The typical scenario for selecting a node programmatically is first locating the node, then setting its **Selected** property. The example below uses a **LinkButton** to trigger finding a node with "Biography" in the text, then selects the node.
+Setting the **RadTreeNode** **Selected** property typically highlights the node, depending on the styling of the **RadTreeView** [Skin]({%slug ribbonbar/appearance-and-styling/skins%}). The typical scenario for selecting a node programmatically is first locating the node, then setting its **Selected** property. The example below uses a **LinkButton** to trigger finding a node with "Biography" in the text, then selects the node.
 
 ![RadTreeView Selecting Nodes](images/treeview_selectingingnodes.png)
 
@@ -190,7 +190,7 @@ End Sub
 
 ## Disabling/Enabling Nodes
 
-Setting the **RadTreeNode** **Enabled** property to false makes the node inactive and un-clickable. The appearance of the node is typically in a gray or other faint color, depending on the styling of the **RadTreeView** [Skin](A2ACD8E0-A5F3-4093-A5DA-FF45D737F6FA). The example below locates the "Books" node and disables all its child nodes.
+Setting the **RadTreeNode** **Enabled** property to false makes the node inactive and un-clickable. The appearance of the node is typically in a grey or other faint color, depending on the styling of the **RadTreeView** [Skin]({%slug ribbonbar/appearance-and-styling/skins%}). The example below locates the "Books" node and disables all its child nodes.
 
 
 >caption 

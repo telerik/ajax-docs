@@ -79,7 +79,7 @@ For information about how to reference controls inside grid rows and edit forms,
 
 ## Detecting edit/insert mode with in-place editing
 
-To determine whether edit or insert operation is in progress inside the ItemCreated/ItemDataBound handler of the grid (when having inplace editing), check whether the e.Item instance inside the handler is of type **GridEditableItem**or **GridDataInsertItem**respectively. Here are some code snippets which illustrate the approach in question:
+To determine whether edit or insert operation is in progress inside the ItemCreated/ItemDataBound handler of the grid (when having inplace editing), check whether the e.Item instance inside the handler is of type **GridEditableItem** or **GridDataInsertItem** respectively. Here are some code snippets which illustrate the approach in question:
 
 
 

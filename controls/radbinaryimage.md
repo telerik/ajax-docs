@@ -200,4 +200,4 @@ To avoid this behavior, you should store the binary image in the Session and con
 
 # See Also
 
- * [Integrating RadControls for ASP.NET AJAX in a WebFarm or WebGarden scenario](http://blogs.telerik.com/aspnet-ajax/posts/13-03-01/integrate-radcontrols-for-asp.net-ajax-in-a-webfarm-or-webgarden)
+ * [Integrating RadControls for ASP.NET AJAX in a WebFarm or WebGarden scenario](http://www.telerik.com/blogs/integrate-radcontrols-for-asp.net-ajax-in-a-webfarm-or-webgarden)

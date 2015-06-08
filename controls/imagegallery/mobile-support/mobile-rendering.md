@@ -34,3 +34,9 @@ When you change **RadImageGallery** **RenderMode** to **Mobile** or **Auto** the
 * **Image loading bar** – It is positioned at the top of the image.
 
 * **Image counter** (Image Slider mode) - It is positioned at the top of the image.
+
+# See Also
+
+ * [Render Modes]({%slug imagegallery/mobile-support/render-modes%})
+ 
+ * [Image Gallery Mobile Demo](http://demos.telerik.com/aspnet-ajax/image-gallery/mobile-examples/overview/default.aspx?name=Overview)
