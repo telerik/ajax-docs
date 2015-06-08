@@ -67,15 +67,11 @@ This tutorial will walk you through creating a Web page that contains a **RadGri
 1. Still in the **Smart Tag** click the link labeled **Open Editor**:
 ![grid gettingstarted 10](images/grid_gettingstarted10.JPG)
 
-1. In the **RadGrid**[Editor]({%slug grid/design-time/setting-radgrid%}):
-
-* Select **RadGrid** from the **Configuration Manager**.
-
-* On the right side, click **Styles** tab. Then select **RadGrid style**.
-
-* In the **Layout** section of the RadGrid's style editor, locate the **Width** property and set it to **720px**:
-![grid gettingstarted 11](images/grid_gettingstarted11.png)
-
+1. In the **RadGrid** [Editor]({%slug grid/design-time/setting-radgrid%}):
+	* Select **RadGrid** from the **Configuration Manager**.
+	* On the right side, click **Styles** tab. Then select **RadGrid style**.
+	* In the **Layout** section of the RadGrid's style editor, locate the **Width** property and set it to **720px**:<br/>			
+		![grid gettingstarted 11](images/grid_gettingstarted11.png)
 1. On the same window, just one tab above the **Styles** tab select **Paging tab**. Then on the right pane, set the **Page size** to **30** rows.
 ![grid gettingstarted 12](images/grid_gettingstarted12.png)
 
@@ -85,27 +81,17 @@ This tutorial will walk you through creating a Web page that contains a **RadGri
 ## Configuring the grid for selecting, filtering, and grouping
 
 1. Add a select column:
-
-* Open the **Editor**.
-
-* Select **MasterTableView** under **RadGrid** node.
-
-* Select **Columns** from the right pane.
-
-* Select **Button** column under **Available columns**.
-
-* Click the **"+"** button to add the button column.
-
-* Use the up arrow button to move it to the first position.
-
-* You need to customize the column a bit in order to work as a select column.
-
-* Set values to the **HeaderText**, **Text**, and **CommandName** properties.
-![grid gettingstarted 14 1](images/grid_gettingstarted14_1.png)
-
-* Additionally, you could change the **UniqueName** and **BackColor** of the column.
-![grid gettingstarted 14 2](images/grid_gettingstarted14_2.png)
-
+	* Open the **Editor**.
+	* Select **MasterTableView** under **RadGrid** node.
+	* Select **Columns** from the right pane.
+	* Select **Button** column under **Available columns**.
+	* Click the **"+"** button to add the button column.
+	* Use the up arrow button to move it to the first position.
+	* You need to customize the column a bit in order to work as a select column.
+	* Set values to the **HeaderText**, **Text**, and **CommandName** properties.<br/>
+		![grid gettingstarted 14 1](images/grid_gettingstarted14_1.png)
+	* Additionally, you could change the **UniqueName** and **BackColor** of the column.<br/>	
+		![grid gettingstarted 14 2](images/grid_gettingstarted14_2.png)
 1. Use the **RadGrid** [Smart Tag]({%slug grid/design-time/smarttag%}) to enable **filtering** and **grouping**:
 ![grid gettingstarted 15JPG](images/grid_gettingstarted15JPG.png)
 
@@ -115,18 +101,12 @@ This tutorial will walk you through creating a Web page that contains a **RadGri
 ## Adding Template columns
 
 1. Back in the Editor, add a template column to the grid:
-
-* Select **MasterTableView** under **RadGrid** node.
-
-* Select **Columns** from the right pane.
-
-* Select **Template** column under **Available columns**.
-
-* Click the **"+"** button to add the template column.
-
-* In the right pane, set the **HeaderText** property to **TemplateColumn**.
-![grid gettingstarted 17](images/grid_gettingstarted17.JPG)
-
+	* Select **MasterTableView** under **RadGrid** node.
+	* Select **Columns** from the right pane.
+	* Select **Template** column under **Available columns**.
+	* Click the **"+"** button to add the template column.
+	* In the right pane, set the **HeaderText** property to **TemplateColumn**.<br/>
+		![grid gettingstarted 17](images/grid_gettingstarted17.JPG)
 1. In the [Smart Tag]({%slug grid/design-time/smarttag%}) select **Edit Templates** option:
 ![grid gettingstarted 18](images/grid_gettingstarted18.png)
 

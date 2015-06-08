@@ -55,21 +55,14 @@ This tutorial shows how to:
 ## Adding Template columns
 
 1. Using the RadGrid's Editor, add a template column to the grid:
-
-* Open **RadGrid's Configuration Wizard** from the [Smart Tag]({%slug grid/design-time/smarttag%}).
-![grid gettingstarted 10](images/grid_gettingstarted10.JPG)
-
-* Select **MasterTableView** under **RadGrid** node.
-
-* Select **Columns** tab from the right pane.
-
-* Select **Template** column under **Available columns**.
-
-* Click the **"+"** button to add the template column.
-
-* In the right pane, set the **HeaderText** property to **TemplateColumn**.
-![grid gettingstarted 17](images/grid_gettingstarted17.JPG)
-
+	* Open **RadGrid's Configuration Wizard** from the [Smart Tag]({%slug grid/design-time/smarttag%}).<br/>
+		![grid gettingstarted 10](images/grid_gettingstarted10.JPG)
+	* Select **MasterTableView** under **RadGrid** node.
+	* Select **Columns** tab from the right pane.
+	* Select **Template** column under **Available columns**.
+	* Click the **"+"** button to add the template column.
+	* In the right pane, set the **HeaderText** property to **TemplateColumn**.<br/>
+		![grid gettingstarted 17](images/grid_gettingstarted17.JPG)
 1. Click **Edit Templates** from the **RadGrid's** [Smart Tag]({%slug grid/design-time/smarttag%}):
 ![grid gettingstarted 18](images/grid_gettingstarted18.png)
 
@@ -86,16 +79,11 @@ This tutorial shows how to:
 ![Rad Grid grd addcontrols 05jpg](images/RadGrid_grd_addcontrols05jpg.png)
 
 1. In the **DataBindings** dialog:
-
-* Check **Show all properties** to view the properties of the date picker.
-
-* Choose the **SelectedDate** property as the property to bind.
-
-* Choose the **OrderDate** field as the **Fieldbinding**.
-
-* Check the **Two-way data binding** box to enable the control to update the field value.
-![Rad Grid grd addcontrols 06jpg](images/RadGrid_grd_addcontrols06jpg.png)
-
+	* Check **Show all properties** to view the properties of the date picker.
+	* Choose the **SelectedDate** property as the property to bind.
+	* Choose the **OrderDate** field as the **Fieldbinding**.
+	* Check the **Two-way data binding** box to enable the control to update the field value.<br/>	
+		![Rad Grid grd addcontrols 06jpg](images/RadGrid_grd_addcontrols06jpg.png)
 1. Use a similar technique to bind the **Label** control:
 ![Rad Grid grd addcontrols 6jpg(images/RadGrid_grd_addcontrols6jpg.png)
 
