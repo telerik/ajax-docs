@@ -671,8 +671,8 @@ navigation:
     "*editor/performance":
         title: "Performance"
         position: 12
-    "*editor/mobile-support/mobile-rendering":
-        title: "Mobile Rendering"
+    "*editor/mobile-support/phone-layout":
+        title: "Phone Layout"
         position: 10	
     "*filter/filter-expressions":
         title: "Filter Expressions"
