@@ -18,21 +18,21 @@ You can find concrete information about your case in the distinct sections of th
 
 * [Upgrade to a Newer Version of Telerik UI for ASP.NET AJAX](#upgrade-to-a-newer-version-of-telerik-ui-for-aspnet-ajax)
 
-* [Automatically](#automatic-upgrade)
-
-* [Manually](#manual-upgrade)
+	* [Automatically](#automatic-upgrade)
+	
+	* [Manually](#manual-upgrade)
 
 * [Upgrade From Trial to Licensed Version of Telerik UI for ASP.NET AJAX](#upgrade-from-trial-to-licensed-version-of-telerik-ui-for-aspnet-ajax)
 
 * [Upgrading Troubleshooting](#upgrading-troubleshooting)
 
-* [Installation Issues](#installation-issues)
-
-* [Referencing the Telerik Assemblies from the GAC](#referencing-the-telerik-assemblies-from-the-gac)
-
-* [I Still Get the Old Version](#i-still-get-the-old-version)
-
-* [I Still Get the Copyright Message](#i-still-get-the-copyright-message)
+	* [Installation Issues](#installation-issues)
+	
+	* [Referencing the Telerik Assemblies from the GAC](#referencing-the-telerik-assemblies-from-the-gac)
+	
+	* [I Still Get the Old Version](#i-still-get-the-old-version)
+	
+	* [I Still Get the Copyright Message](#i-still-get-the-copyright-message)
 
 ## Upgrade to a Newer Version of Telerik UI for ASP.NET AJAX
 
