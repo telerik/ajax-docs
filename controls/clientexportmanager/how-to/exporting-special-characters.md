@@ -1,14 +1,14 @@
 ---
-title: Custom Fonts
-page_title: Custom Fonts | RadClientExportManager for ASP.NET AJAX Documentation
-description: Custom Fonts
-slug: clientexportmanager/how-to/custom-fonts
-tags: custom,fonts,ASCII,special,characters,pdf
+title: Exporting Special Characters
+page_title: Exporting Special Characters | RadClientExportManager for ASP.NET AJAX Documentation
+description: Exporting Special Characters
+slug: clientexportmanager/how-to/exporting-special-characters
+tags: custom,font,ASCII,special,characters,pdf
 published: True
 position: 3
 ---
 
-# Custom Fonts
+# Exporting Special Characters
 
 
 This article demonstrates how you can use custom fonts to export non-ASCII characters to PDF.
@@ -88,7 +88,7 @@ End Sub
 ````
 
 
-The non-ASCII characters are correctly exported and visible in the PDF file:
+The special characters are correctly exported and visible in the PDF file:
 
 ![Special Characters Exported](images/clientexportmanager-special-characters-exported.png)
 
