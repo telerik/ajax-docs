@@ -35,13 +35,13 @@ The following steps walk you through the entire process of creating an Excel doc
 
 	**C#**
 	
-	Workbook workbook = new Workbook();
-	Worksheet worksheet = workbook.Worksheets.Add();
+		Workbook workbook = new Workbook();
+		Worksheet worksheet = workbook.Worksheets.Add();
 	
 	**VB**
 	
-	Dim workbook As New Workbook()
-	Dim worksheet As Worksheet = workbook.Worksheets.Add()
+		Dim workbook As New Workbook()
+		Dim worksheet As Worksheet = workbook.Worksheets.Add()
 
 
 
@@ -49,46 +49,47 @@ The following steps walk you through the entire process of creating an Excel doc
 
 	**C#**
 	
-	private GridItemType[] supportedItemTypes = new GridItemType[] 
-	    { 
-	        GridItemType.Header, 
-	        GridItemType.AlternatingItem, 
-	        GridItemType.Item 
-	    };
+		private GridItemType[] supportedItemTypes = new GridItemType[] 
+		    { 
+		        GridItemType.Header, 
+		        GridItemType.AlternatingItem, 
+		        GridItemType.Item 
+		    };
 	**VB**
 	
-	Private supportedItemTypes As GridItemType() = New GridItemType() {GridItemType.Header, GridItemType.AlternatingItem, GridItemType.Item}
+		Private supportedItemTypes As GridItemType() = New GridItemType() {GridItemType.Header, GridItemType.AlternatingItem, GridItemType.Item}
 
 
 	**C#**
 	
-	foreach (GridItem item in RadGrid1.MasterTableView.GetItems(supportedItemTypes))
-	{
-	    int currentColumn = 0;
-	    foreach (System.Web.UI.WebControls.TableCell cell in item.Cells)
-	    {
-	        if (!cell.Visible)
-	            continue;
-	
-	        worksheet.Cells[currentRow, currentColumn].SetValue(cell.Text);
-	        currentColumn++;
-	    }
-	    currentRow++;
+		foreach (GridItem item in RadGrid1.MasterTableView.GetItems(supportedItemTypes))
+		{
+		    int currentColumn = 0;
+		    foreach (System.Web.UI.WebControls.TableCell cell in item.Cells)
+		    {
+		        if (!cell.Visible)
+		            continue;
+		
+		        worksheet.Cells[currentRow, currentColumn].SetValue(cell.Text);
+		        currentColumn++;
+		    }
+		    currentRow++;
 	}
 
 	**VB**
-	For Each item As GridItem In RadGrid1.MasterTableView.GetItems(supportedItemTypes)
-	Dim currentColumn As Integer = 0
-	    For Each cell As System.Web.UI.WebControls.TableCell In item.Cells
-		    If Not cell.Visible Then
-			    Continue For
-		    End If
-	
-		    worksheet.Cells(currentRow, currentColumn).SetValue(cell.Text)
-		    currentColumn += 1
-	    Next
-	    currentRow += 1
-	Next
+
+		For Each item As GridItem In RadGrid1.MasterTableView.GetItems(supportedItemTypes)
+		Dim currentColumn As Integer = 0
+		    For Each cell As System.Web.UI.WebControls.TableCell In item.Cells
+			    If Not cell.Visible Then
+				    Continue For
+			    End If
+		
+			    worksheet.Cells(currentRow, currentColumn).SetValue(cell.Text)
+			    currentColumn += 1
+		    Next
+		    currentRow += 1
+		Next
 
 
 3. After the worksheet is populated with data an instance of the **XlsxFormatProvider** is created and by calling its**Export** method a file is generated on the server.
@@ -250,66 +251,67 @@ The following steps walk you through the entire process of creating an Word docu
 
 	**C#**
 	
-	RadFlowDocument flowDoc = new RadFlowDocument();
-	Section section = flowDoc.Sections.AddSection();
-	Table table = section.Blocks.AddTable();
-	
+		RadFlowDocument flowDoc = new RadFlowDocument();
+		Section section = flowDoc.Sections.AddSection();
+		Table table = section.Blocks.AddTable();
+		
 	**VB**
 	
-	Dim flowDoc As New RadFlowDocument()
-	Dim section As Section = flowDoc.Sections.AddSection()
-	Dim table As Table = section.Blocks.AddTable()
+		Dim flowDoc As New RadFlowDocument()
+		Dim section As Section = flowDoc.Sections.AddSection()
+		Dim table As Table = section.Blocks.AddTable()
 
 
 2. Traverse all cells of each item which will be contained in the exported file and assign their text to the appropriate cell of the created Word table.In the following code snippet an enumeration with tree values is created which will help you get the items which need to be exported.
 
 	**C#**
 	
-	private GridItemType[] supportedItemTypes = new GridItemType[] 
-	    { 
-	        GridItemType.Header, 
-	        GridItemType.AlternatingItem, 
-	        GridItemType.Item 
-	    };
-	
+		private GridItemType[] supportedItemTypes = new GridItemType[] 
+		    { 
+		        GridItemType.Header, 
+		        GridItemType.AlternatingItem, 
+		        GridItemType.Item 
+		    };
+		
 	**VB**
 	
-	Private supportedItemTypes As GridItemType() = New GridItemType() {GridItemType.Header, GridItemType.AlternatingItem, GridItemType.Item}
-	
-	
+		Private supportedItemTypes As GridItemType() = New GridItemType() {GridItemType.Header, GridItemType.AlternatingItem, GridItemType.Item}
+		
+		
 	
 	
 	**C#**
-	foreach (GridItem item in RadGrid1.MasterTableView.GetItems(supportedItemTypes))
-	    {
-	        Telerik.Windows.Documents.Flow.Model.TableRow wordRow = null;
-	        wordRow = table.Rows.AddTableRow();
-	        foreach (System.Web.UI.WebControls.TableCell cell in item.Cells)
-	        {
-	            if (!cell.Visible)
-	                continue;
-	
-	            Telerik.Windows.Documents.Flow.Model.TableCell wordCell = wordRow.Cells.AddTableCell();
-	            Paragraph paragraph = wordCell.Blocks.AddParagraph();
-	            paragraph.Inlines.AddRun(cell.Text);
-	        }
-	    }
+
+		foreach (GridItem item in RadGrid1.MasterTableView.GetItems(supportedItemTypes))
+		    {
+		        Telerik.Windows.Documents.Flow.Model.TableRow wordRow = null;
+		        wordRow = table.Rows.AddTableRow();
+		        foreach (System.Web.UI.WebControls.TableCell cell in item.Cells)
+		        {
+		            if (!cell.Visible)
+		                continue;
+		
+		            Telerik.Windows.Documents.Flow.Model.TableCell wordCell = wordRow.Cells.AddTableCell();
+		            Paragraph paragraph = wordCell.Blocks.AddParagraph();
+		            paragraph.Inlines.AddRun(cell.Text);
+		        }
+		    }
 	
 	**VB**
 	
-	For Each item As GridItem In RadGrid1.MasterTableView.GetItems(supportedItemTypes)
-	Dim wordRow As Telerik.Windows.Documents.Flow.Model.TableRow = Nothing
-	    wordRow = table.Rows.AddTableRow()
-	    For Each cell As System.Web.UI.WebControls.TableCell In item.Cells
-		    If Not cell.Visible Then
-			    Continue For
-		    End If
-	
-	Dim wordCell As Telerik.Windows.Documents.Flow.Model.TableCell = wordRow.Cells.AddTableCell()
-	Dim paragraph As Paragraph = wordCell.Blocks.AddParagraph()
-		    paragraph.Inlines.AddRun(cell.Text)
-	    Next
-	Next
+		For Each item As GridItem In RadGrid1.MasterTableView.GetItems(supportedItemTypes)
+		Dim wordRow As Telerik.Windows.Documents.Flow.Model.TableRow = Nothing
+		    wordRow = table.Rows.AddTableRow()
+		    For Each cell As System.Web.UI.WebControls.TableCell In item.Cells
+			    If Not cell.Visible Then
+				    Continue For
+			    End If
+		
+		Dim wordCell As Telerik.Windows.Documents.Flow.Model.TableCell = wordRow.Cells.AddTableCell()
+		Dim paragraph As Paragraph = wordCell.Blocks.AddParagraph()
+			    paragraph.Inlines.AddRun(cell.Text)
+		    Next
+		Next
 
 
 

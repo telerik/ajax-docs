@@ -47,6 +47,8 @@ End Property
 ````
 
 
-Further information on this subject can be found in the MSDN articles linked below: [http://msdn.microsoft.com/en-us/library/aa479403.aspx](http://msdn.microsoft.com/en-us/library/aa479403.aspx)
+Further information on this subject can be found in the MSDN articles linked below:
+
+[http://msdn.microsoft.com/en-us/library/aa479403.aspx](http://msdn.microsoft.com/en-us/library/aa479403.aspx)
 
 [http://msdn.microsoft.com/en-us/library/system.web.ui.pagestatepersister(VS.80).aspx](http://msdn.microsoft.com/en-us/library/system.web.ui.pagestatepersister(VS.80).aspx)

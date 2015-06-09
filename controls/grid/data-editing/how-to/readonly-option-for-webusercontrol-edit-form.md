@@ -18,88 +18,92 @@ The "preview" functionality for user control edit form is easily achievable. To 
 1. Add **GridButtonColumn** to your grid instance with **CommandName = "Preview".**
 
 	**ASP.NET**
-	<MasterTableView CommandItemDisplay="Top" GridLines="None">
-	  <EditFormSettings UserControlName="EmployeeDetailsVB.ascx" EditFormType="WebUserControl">
-	      <EditColumn UniqueName="EditCommandColumn1">
-	      </EditColumn>
-	  </EditFormSettings>
-	  <Columns>
-	      <telerik:GridEditCommandColumn UniqueName="EditCommandColumn">
-	      </telerik:GridEditCommandColumn>
-	      <telerik:GridButtonColumn CommandName="Preview" Text="Preview" UniqueName="Preview">
-	      </telerik:GridButtonColumn>
-	      <telerik:GridBoundColumn HeaderText="TOC" DataField="TitleOfCourtesy" UniqueName="TitleOfCourtesy">
-	      </telerik:GridBoundColumn>
-	      <telerik:GridBoundColumn HeaderText="FirstName" DataField="FirstName" UniqueName="FirstName">
-	      </telerik:GridBoundColumn>
-	      <telerik:GridBoundColumn HeaderText="LastName" DataField="LastName" UniqueName="LastName">
-	      </telerik:GridBoundColumn>
-	      <telerik:GridBoundColumn HeaderText="Hire Date" DataField="HireDate" UniqueName="HireDate">
-	      </telerik:GridBoundColumn>
-	      <telerik:GridBoundColumn HeaderText="Title" DataField="Title" UniqueName="Title">
-	      </telerik:GridBoundColumn>
-	   </Columns>
-	</MasterTableView>
+
+		<MasterTableView CommandItemDisplay="Top" GridLines="None">
+		  <EditFormSettings UserControlName="EmployeeDetailsVB.ascx" EditFormType="WebUserControl">
+		      <EditColumn UniqueName="EditCommandColumn1">
+		      </EditColumn>
+		  </EditFormSettings>
+		  <Columns>
+		      <telerik:GridEditCommandColumn UniqueName="EditCommandColumn">
+		      </telerik:GridEditCommandColumn>
+		      <telerik:GridButtonColumn CommandName="Preview" Text="Preview" UniqueName="Preview">
+		      </telerik:GridButtonColumn>
+		      <telerik:GridBoundColumn HeaderText="TOC" DataField="TitleOfCourtesy" UniqueName="TitleOfCourtesy">
+		      </telerik:GridBoundColumn>
+		      <telerik:GridBoundColumn HeaderText="FirstName" DataField="FirstName" UniqueName="FirstName">
+		      </telerik:GridBoundColumn>
+		      <telerik:GridBoundColumn HeaderText="LastName" DataField="LastName" UniqueName="LastName">
+		      </telerik:GridBoundColumn>
+		      <telerik:GridBoundColumn HeaderText="Hire Date" DataField="HireDate" UniqueName="HireDate">
+		      </telerik:GridBoundColumn>
+		      <telerik:GridBoundColumn HeaderText="Title" DataField="Title" UniqueName="Title">
+		      </telerik:GridBoundColumn>
+		   </Columns>
+		</MasterTableView>
 
 2. Handle the **Preview** command execution in your **ItemCommand** event handler and call the **SetPreviewMode**() method to force the user control in preview mode:
 
 
 
 	**VB**
-	Private Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As Telerik.Web.UI.GridCommandEventArgs) Handles RadGrid1.ItemCommand
-	    If (e.CommandName = "Preview") Then
-	        e.Item.Edit = True
-	        e.Item.OwnerTableView.Rebind()
-	        Dim editItem As GridDataItem = e.Item.OwnerTableView.Items(e.Item.ItemIndex)
-	        Dim ucID = GridEditFormItem.EditFormUserControlID
-	        Dim MyUserControl As EmployeeDetailsVB = editItem.EditFormItem.FindControl(ucID)
-	        MyUserControl.SetPreviewMode()
-	    End If
-	End Sub
+
+		Private Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As Telerik.Web.UI.GridCommandEventArgs) Handles RadGrid1.ItemCommand
+		    If (e.CommandName = "Preview") Then
+		        e.Item.Edit = True
+		        e.Item.OwnerTableView.Rebind()
+		        Dim editItem As GridDataItem = e.Item.OwnerTableView.Items(e.Item.ItemIndex)
+		        Dim ucID = GridEditFormItem.EditFormUserControlID
+		        Dim MyUserControl As EmployeeDetailsVB = editItem.EditFormItem.FindControl(ucID)
+		        MyUserControl.SetPreviewMode()
+		    End If
+		End Sub
 
 	**C#**
-	private void RadGrid1_ItemCommand(object source, Telerik.Web.UI.GridCommandEventArgs e)
-	{
-	    if (e.CommandName == "Preview")
-	    {
-	        e.Item.Edit = true;
-	        e.Item.OwnerTableView.Rebind();
-	        GridDataItem editItem = e.Item.OwnerTableView.Items[e.Item.ItemIndex];
-	        string ucID = GridEditFormItem.EditFormUserControlID as string;
-	        EmployeeDetailsVB MyUserControl = editItem.EditFormItem.FindControl(ucID) as EmployeeDetailsVB;
-	        MyUserControl.SetPreviewMode();
-	    }
-	}
+
+		private void RadGrid1_ItemCommand(object source, Telerik.Web.UI.GridCommandEventArgs e)
+		{
+		    if (e.CommandName == "Preview")
+		    {
+		        e.Item.Edit = true;
+		        e.Item.OwnerTableView.Rebind();
+		        GridDataItem editItem = e.Item.OwnerTableView.Items[e.Item.ItemIndex];
+		        string ucID = GridEditFormItem.EditFormUserControlID as string;
+		        EmployeeDetailsVB MyUserControl = editItem.EditFormItem.FindControl(ucID) as EmployeeDetailsVB;
+		        MyUserControl.SetPreviewMode();
+		    }
+		}
 
 3. In the **code-behind of the user control disable all controls** which reside in the edit form (except the cancel button) and change the cancel button text to **Close.**
 
-````C#
-public void SetPreviewMode()
-{
-    btnUpdate.Visible = false;
-    foreach (Control ctrl in this.Controls)
-    {
-        if (ctrl is WebControl)
-        {
-            ((WebControl)(ctrl)).Enabled = false;
-        }
-    }
-    btnCancel.Enabled = true;
-    btnCancel.Text = "Close";
-}
-````
-````VB
-Public Sub SetPreviewMode()
-    btnUpdate.Visible = False
-    For Each ctrl As Control In Me.Controls
-        If (TypeOf ctrl Is WebControl) Then
-            CType(ctrl, WebControl).Enabled = False
-        End If
-    Next
-    btnCancel.Enabled = True
-    btnCancel.Text = "Close"
-End Sub
-````
+	**C#**
+	
+		public void SetPreviewMode()
+		{
+		    btnUpdate.Visible = false;
+		    foreach (Control ctrl in this.Controls)
+		    {
+		        if (ctrl is WebControl)
+		        {
+		            ((WebControl)(ctrl)).Enabled = false;
+		        }
+		    }
+		    btnCancel.Enabled = true;
+		    btnCancel.Text = "Close";
+		}
+
+	**VB**
+
+		Public Sub SetPreviewMode()
+		    btnUpdate.Visible = False
+		    For Each ctrl As Control In Me.Controls
+		        If (TypeOf ctrl Is WebControl) Then
+		            CType(ctrl, WebControl).Enabled = False
+		        End If
+		    Next
+		    btnCancel.Enabled = True
+		    btnCancel.Text = "Close"
+		End Sub
 
 
 

@@ -10,10 +10,6 @@ position: 1
 
 # Server Binding
 
-
-
-## 
-
 The following code snippet demonstrates how RadGrid can be integrated with the ASP.NET AJAX framework. The example features the following components:
 
 * RadGrid - displays the stock quote data.
@@ -42,6 +38,7 @@ function endRequest(sender, e) {
 }
 Sys.Application.notifyScriptLoaded();
 ````
+
 ````ASP.NET
 <?xml version="1.0" encoding="utf-8" ?>
 <quotes>  
@@ -54,6 +51,7 @@ Sys.Application.notifyScriptLoaded();
     <quote stockTicker="NOVL" lastTrade="3.5758" change="-0.166" lastUpdated="12/20/2006 17:07:52" dailyMaxRange="6.14" dailyMinRange="3.5758" />
 </quotes>
 ````
+
 ````ASP.NET
 <asp:ScriptManager ID="ScriptManager1" runat="server">
   <Scripts>
@@ -173,6 +171,8 @@ Protected Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As GridItem
     End If
 End Sub
 ````
+
+
 
 
 
