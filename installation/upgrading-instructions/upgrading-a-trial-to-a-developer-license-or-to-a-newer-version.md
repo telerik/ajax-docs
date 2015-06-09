@@ -68,6 +68,8 @@ You simply need to replace the assembly references with the new ones. Here follo
 
 As with any ASP.NET Project, it is often helpful to clear the ASP Temporary files and the browser cache.
 
+In the same manner (copy and replace), you may also want to upgrade any [other assemblies]({%slug introduction/installation/included-assemblies%}) you are using, as well as localization files (~/App_GlobalResources), dialogs (RadImageEditor, RadEditor), [TypeScript definitions]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/typescript-definitions/add-typescript-definitions-for-the-telerik-ui-for-asp.net-ajax-suite%}), etc. Make sure to save any modifications you have beforehand to avoid losing your work.
+
 ## Upgrade From Trial to Licensed Version of Telerik UI for ASP.NET AJAX
 
 The difference between the trial and licensed version of the Telerik controls is built-in the assemblies themselves. You do not need license keys or activations.
