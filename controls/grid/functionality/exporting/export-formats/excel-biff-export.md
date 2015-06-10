@@ -33,7 +33,7 @@ From Q3 2012 we provide a new export format which is based on the binary Excel f
 
 
 
->note From Q1 2013 SP1 the **DataFormatString** of the RadGrid columns is applied to the exported file when using BIFF format. Note that only the[custom numeric format strings](http://msdn.microsoft.com/en-us/library/0c899ak8%28v=vs.71%29.aspx)(Example 1)will work because in most scenarios they match the[Microsoft Excel’s custom numeric format](http://office.microsoft.com/en-gb/excel-help/create-a-custom-number-format-HP010342372.aspx). The built-in .NET[standard numeric format strings](http://msdn.microsoft.com/en-us/library/dwhawy9k%28v=vs.71%29.aspx)(Example 2) can still beused, but the output will not be as expected. It is important to note, that the exported file is based on the actual RadGridcells values. When DataFormatString is applied, these values will already be formatted which could be prevented by setting the **SuppressColumnDataFormatStrings** property to true.
+>note From Q1 2013 SP1 the **DataFormatString** of the RadGrid columns is applied to the exported file when using BIFF format. Note that only the [custom numeric format strings](http://msdn.microsoft.com/en-us/library/0c899ak8%28v=vs.71%29.aspx) (Example 1)will work because in most scenarios they match the [Microsoft Excel’s custom numeric format](http://office.microsoft.com/en-gb/excel-help/create-a-custom-number-format-HP010342372.aspx). The built-in .NET [standard numeric format strings](http://msdn.microsoft.com/en-us/library/dwhawy9k%28v=vs.71%29.aspx) (Example 2) can still be used, but the output will not be as expected. It is important to note, that the exported file is based on the actual RadGridcells values. When DataFormatString is applied, these values will already be formatted which could be prevented by setting the **SuppressColumnDataFormatStrings** property to true.
 >
 
 
@@ -77,7 +77,7 @@ RadGrid1.MasterTableView.GetColumn("Col1").Visible = False
 ````
 
 
->note From Q2 2013 we introduced a new propery named **Exportable** . This property allows you tochoose whether a certain column should be included in the exported file or not. By setting this property to **false** the related column will be excluded from the exported file. Its default value is true.
+>note From Q2 2013 we introduced a new property named **Exportable**. This property allows you to choose whether a certain column should be included in the exported file or not. By setting this property to **false** the related column will be excluded from the exported file. Its default value is true.
 >
 
 
