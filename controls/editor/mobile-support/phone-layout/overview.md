@@ -12,7 +12,7 @@ position: 0
 
 As of **Q2 2015**, **RadEditor** provides **Mobile** rendering, that is especially designed for mobile devices and facilitates the user experience with UI based on native mobile applications.
 
->caption Figure 1: RadEditor with Mobile rendering. 
+>caption Figure 1: RadEditor with Phone-optimized Mobile rendering. 
 
 ![](./images/mobile-editor.png)
 
