@@ -137,7 +137,7 @@ cell2.Style.ForeColor = Color.Tomato
 
 ## Image Support
 
-From Q3 2012 we provide image support when using BIFF Export. For this purpose there is a property called **AutoFitImages**.As the name says, when **AutoFitImages** property is enabled all the images in the grid will occupy the entire area of the cells at the exported excel file. In other words, any images that are bigger than the cell will be decreased and similarly the smaller ones size will be increased. Please have in mind that the width/height proportions will not be kept.
+From Q3 2012 we provide image support when using BIFF Export. For this purpose there is a property called **AutoFitImages**. As the name says, when **AutoFitImages** property is enabled all the images in the grid will occupy the entire area of the cells at the exported excel file. In other words, any images that are bigger than the cell will be decreased and similarly the smaller ones size will be increased. Please have in mind that the width/height proportions will not be kept.
 
 ## Modifying the Output
 

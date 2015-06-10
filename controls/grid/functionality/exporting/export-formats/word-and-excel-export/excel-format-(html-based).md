@@ -160,15 +160,15 @@ A list of the supported **ExcelWorkbook** properties is represented below.
 
 | ExcelWorkbook | Represents |
 | ------ | ------ |
-|<x:HideWorkbookTabs/>|Specifies whether the worksheet tabs in a workbook window are hidden.|
-|<x:HideHorizontalScrollBar/>|Specifies whether the horizontal scroll bar in a workbook window is hidden.|
-|<x:HideVerticalScrollBar/>|Specifies whether the vertical scroll bar in a workbook window is hidden.|
-|<x:WindowHeight> </x:WindowHeight>|Contains a value specifying the height in points of a workbook window.|
-|<x:WindowWidth> </x:WindowWidth>|Contains a value in points that specifies the width of a workbook window.|
-|<x:WindowTopX> </x:WindowTopX>|Contains a value in points that specifies the horizontal position of a workbook window relative to the left border of the application window.|
-|<x:WindowTopY> </x:WindowTopY>|Contains a value in points that specifies the vertical position of a workbook window relative to the top border of the application window.|
-|<x:ProtectStructure> </x:ProtectStructure>|This element contains the string constant **True** if the structure is protected, and the string constant **False** if the structure is not protected.|
-|<x:ProtectWindows> </x:ProtectWindows>|This element contains the string constant **True** if the windows are protected, and the string constant **False** if the windows are not protected.|
+|\<x:HideWorkbookTabs/\>|Specifies whether the worksheet tabs in a workbook window are hidden.|
+|\<x:HideHorizontalScrollBar/\>|Specifies whether the horizontal scroll bar in a workbook window is hidden.|
+|\<x:HideVerticalScrollBar/\>|Specifies whether the vertical scroll bar in a workbook window is hidden.|
+|\<x:WindowHeight\> \</x:WindowHeight\>|Contains a value specifying the height in points of a workbook window.|
+|\<x:WindowWidth\> \</x:WindowWidth\>|Contains a value in points that specifies the width of a workbook window.|
+|\<x:WindowTopX\> \</x:WindowTopX\>|Contains a value in points that specifies the horizontal position of a workbook window relative to the left border of the application window.|
+|\<x:WindowTopY\> \</x:WindowTopY\>|Contains a value in points that specifies the vertical position of a workbook window relative to the top border of the application window.|
+|\<x:ProtectStructure\> \</x:ProtectStructure\>|This element contains the string constant **True** if the structure is protected, and the string constant **False** if the structure is not protected.|
+|\<x:ProtectWindows\> \</x:ProtectWindows\>|This element contains the string constant **True** if the windows are protected, and the string constant **False** if the windows are not protected.|
 
 Example:
 
@@ -191,9 +191,9 @@ protected void RadGrid1_HTMLExporting(object sender, GridHTMLExportingEventArgs 
 ````
 ````VB
 	
-	    Protected Sub RadGrid1_HTMLExporting(sender As Object, e As GridHTMLExportingEventArgs)
-	        e.XmlOptions = "<xml><x:ExcelWorkbook><x:WindowHeight>8070</x:WindowHeight><x:WindowWidth>13260</x:WindowWidth><x:WindowTopX>240</x:WindowTopX><x:WindowTopY>75</x:WindowTopY><x:ProtectStructure>False</x:ProtectStructure><x:ProtectWindows>False</x:ProtectWindows></x:ExcelWorkbook></xml>"
-	    End Sub
+Protected Sub RadGrid1_HTMLExporting(sender As Object, e As GridHTMLExportingEventArgs)
+	e.XmlOptions = "<xml><x:ExcelWorkbook><x:WindowHeight>8070</x:WindowHeight><x:WindowWidth>13260</x:WindowWidth><x:WindowTopX>240</x:WindowTopX><x:WindowTopY>75</x:WindowTopY><x:ProtectStructure>False</x:ProtectStructure><x:ProtectWindows>False</x:ProtectWindows></x:ExcelWorkbook></xml>"
+End Sub
 	
 ````
 
@@ -205,45 +205,45 @@ A list of the supported **Print** properties is represented below.
 
 | Print | Represents |
 | ------ | ------ |
-|<x:ValidPrinterInfo/>|If this property is specified, printer properties contained in the subelements of the Print element are valid for the active printer.|
-|<x:PaperSizeIndex>9</x:PaperSizeIndex>|This element contains an integer index to the list of available paper sizes for a printer.|
-|<x:DraftQuality/>|Specifies whether a worksheet is printed in draft mode.|
-|<x:BlackAndWhite/>|Specifies whether a workbook, worksheet, or embedded chart is printed in black and white.|
-|<x:Gridlines/>|Specifies whether gridlines are printed.|
-|<x:RowColHeadings/>|Specifies whether row and column headings are printed.|
+|\<x:ValidPrinterInfo/\>|If this property is specified, printer properties contained in the subelements of the Print element are valid for the active printer.|
+|\<x:PaperSizeIndex\>9\</x:PaperSizeIndex\>|This element contains an integer index to the list of available paper sizes for a printer.|
+|\<x:DraftQuality/\>|Specifies whether a worksheet is printed in draft mode.|
+|\<x:BlackAndWhite/\>|Specifies whether a workbook, worksheet, or embedded chart is printed in black and white.|
+|\<x:Gridlines/\>|Specifies whether gridlines are printed.|
+|\<x:RowColHeadings/\>|Specifies whether row and column headings are printed.|
 
 Example:
 
 
 
 ````C#
-	    protected void RadGrid1_HTMLExporting(object sender, Telerik.Web.UI.GridHTMLExportingEventArgs e)
-	    {
-	        e.XmlOptions = @"<xml>
-	                        <x:ExcelWorkbook> 
-	                          <x:ExcelWorksheets>
-	                            <x:ExcelWorksheet>
-	                              <x:WorksheetOptions>
-	                                <x:Print>
-	                                  <x:ValidPrinterInfo/> 
-	                                  <x:PaperSizeIndex>9</x:PaperSizeIndex>
-	                                  <x:BlackAndWhite/> 
-	                                  <x:DraftQuality/> 
-	                                  <x:Gridlines/>
-	                                  <x:RowColHeadings/> 
-	                                </x:Print>
-	                              </x:WorksheetOptions>
-	                            </x:ExcelWorksheet>
-	                          </x:ExcelWorksheets>
-	                        </x:ExcelWorkbook>
-	                     </xml>";
-	    }
+protected void RadGrid1_HTMLExporting(object sender, Telerik.Web.UI.GridHTMLExportingEventArgs e)
+{
+	e.XmlOptions = @"<xml>
+					<x:ExcelWorkbook> 
+					  <x:ExcelWorksheets>
+						<x:ExcelWorksheet>
+						  <x:WorksheetOptions>
+							<x:Print>
+							  <x:ValidPrinterInfo/> 
+							  <x:PaperSizeIndex>9</x:PaperSizeIndex>
+							  <x:BlackAndWhite/> 
+							  <x:DraftQuality/> 
+							  <x:Gridlines/>
+							  <x:RowColHeadings/> 
+							</x:Print>
+						  </x:WorksheetOptions>
+						</x:ExcelWorksheet>
+					  </x:ExcelWorksheets>
+					</x:ExcelWorkbook>
+				 </xml>";
+}
 ````
 ````VB
 	
-	    Protected Sub RadGrid1_HTMLExporting(sender As Object, e As GridHTMLExportingEventArgs)
-	        e.XmlOptions = "<xml><x:ExcelWorkbook><x:ExcelWorksheets><x:ExcelWorksheet><x:WorksheetOptions><x:Print><x:ValidPrinterInfo/><x:PaperSizeIndex>9</x:PaperSizeIndex><x:BlackAndWhite/><x:DraftQuality/><x:RowColHeadings/></x:Print></x:WorksheetOptions></x:ExcelWorksheet></x:ExcelWorksheets></x:ExcelWorkbook></xml>"
-	    End Sub
+Protected Sub RadGrid1_HTMLExporting(sender As Object, e As GridHTMLExportingEventArgs)
+	e.XmlOptions = "<xml><x:ExcelWorkbook><x:ExcelWorksheets><x:ExcelWorksheet><x:WorksheetOptions><x:Print><x:ValidPrinterInfo/><x:PaperSizeIndex>9</x:PaperSizeIndex><x:BlackAndWhite/><x:DraftQuality/><x:RowColHeadings/></x:Print></x:WorksheetOptions></x:ExcelWorksheet></x:ExcelWorksheets></x:ExcelWorkbook></xml>"
+End Sub
 	
 ````
 
@@ -253,35 +253,35 @@ Another useful property is **RowBreak**. This property allows you to set a page 
 
 
 ````C#
-	    protected void RadGrid1_HTMLExporting(object sender, Telerik.Web.UI.GridHTMLExportingEventArgs e)
-	    {
-	        e.XmlOptions = @"<xml>
-	                    <x:ExcelWorkbook> 
-	                      <x:ExcelWorksheets>
-	                        <x:ExcelWorksheet>
-	                          <x:WorksheetOptions>
-	                            <x:Print>
-	                            </x:Print>
-	                          </x:WorksheetOptions>
-	                          <x:PageBreaks>
-	                            <x:RowBreaks>
-	                            <x:RowBreak><x:Row>3</x:Row></x:RowBreak>
-	                            <x:RowBreak><x:Row>5</x:Row></x:RowBreak>
-	                            <x:RowBreak><x:Row>7</x:Row></x:RowBreak>
-	                            <x:RowBreak><x:Row>10</x:Row></x:RowBreak>
-	                            </x:RowBreaks>
-	                          </x:PageBreaks>
-	                        </x:ExcelWorksheet>
-	                      </x:ExcelWorksheets>
-	                    </x:ExcelWorkbook>
-	                 </xml>";
-	    }
+protected void RadGrid1_HTMLExporting(object sender, Telerik.Web.UI.GridHTMLExportingEventArgs e)
+{
+	e.XmlOptions = @"<xml>
+				<x:ExcelWorkbook> 
+				  <x:ExcelWorksheets>
+					<x:ExcelWorksheet>
+					  <x:WorksheetOptions>
+						<x:Print>
+						</x:Print>
+					  </x:WorksheetOptions>
+					  <x:PageBreaks>
+						<x:RowBreaks>
+						<x:RowBreak><x:Row>3</x:Row></x:RowBreak>
+						<x:RowBreak><x:Row>5</x:Row></x:RowBreak>
+						<x:RowBreak><x:Row>7</x:Row></x:RowBreak>
+						<x:RowBreak><x:Row>10</x:Row></x:RowBreak>
+						</x:RowBreaks>
+					  </x:PageBreaks>
+					</x:ExcelWorksheet>
+				  </x:ExcelWorksheets>
+				</x:ExcelWorkbook>
+			 </xml>";
+}
 ````
 ````VB
 	
-	    Protected Sub RadGrid1_HTMLExporting(sender As Object, e As GridHTMLExportingEventArgs)
-	        e.XmlOptions = "<xml><x:ExcelWorkbook><x:ExcelWorksheets><x:ExcelWorksheet><x:WorksheetOptions><x:Print></x:Print></x:WorksheetOptions><x:PageBreaks><x:RowBreaks><x:RowBreak><x:Row>3</x:Row></x:RowBreak><x:RowBreak><x:Row>5</x:Row></x:RowBreak><x:RowBreak><x:Row>7</x:Row></x:RowBreak><x:RowBreak><x:Row>10</x:Row></x:RowBreak></x:RowBreaks></x:PageBreaks></x:ExcelWorksheet></x:ExcelWorksheets></x:ExcelWorkbook></xml>"
-	    End Sub
+Protected Sub RadGrid1_HTMLExporting(sender As Object, e As GridHTMLExportingEventArgs)
+	e.XmlOptions = "<xml><x:ExcelWorkbook><x:ExcelWorksheets><x:ExcelWorksheet><x:WorksheetOptions><x:Print></x:Print></x:WorksheetOptions><x:PageBreaks><x:RowBreaks><x:RowBreak><x:Row>3</x:Row></x:RowBreak><x:RowBreak><x:Row>5</x:Row></x:RowBreak><x:RowBreak><x:Row>7</x:Row></x:RowBreak><x:RowBreak><x:Row>10</x:Row></x:RowBreak></x:RowBreaks></x:PageBreaks></x:ExcelWorksheet></x:ExcelWorksheets></x:ExcelWorkbook></xml>"
+End Sub
 	
 ````
 

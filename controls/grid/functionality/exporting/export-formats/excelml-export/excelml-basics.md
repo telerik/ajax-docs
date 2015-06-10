@@ -14,9 +14,9 @@ position: 0
 
 ## Overview
 
-**ExcelML** is **XML-based** file format. It complies to the **Microsoft XMLSShttp://msdn.microsoft.com/en-us/library/aa140066(office.10).aspx** specification and is supported in *Microsoft Office 2003* and later. It is different from the rest of the export formats supported by **RadGrid**since its engine builds the output directly from the datasource and not from the page.
+**ExcelML** is **XML-based** file format. It complies to the **Microsoft XMLSShttp://msdn.microsoft.com/en-us/library/aa140066(office.10).aspx** specification and is supported in *Microsoft Office 2003* and later. It is different from the rest of the export formats supported by **RadGrid** since its engine builds the output directly from the datasource and not from the page.
 
->note  **ExcelML** format works best with *advanced data-binding* or *data source control.* You will receive " **NullReferenceException** " if you use *simple data-binding* and ! *IsPostBack* ( *Not IsPostBack* ) check.
+>note  **ExcelML** format works best with *advanced data-binding* or *data source control.* You will receive "**NullReferenceException**" if you use *simple data-binding* and ! *IsPostBack* ( *Not IsPostBack* ) check.
 >
 
 
@@ -45,7 +45,7 @@ The cause of this warning message is explained in details in the following blog 
 >
 
 
->note From Q2 2013 **ExcelML** supports exporting of **GridHyperLinkColumn** .It is important to know that when its *DataTextField* property is set, othercolumns bound to the same field are not exported. Also when *Text* property of the **GridHyperLinkColumn** is set and DataField is not defined, columns added to the *DataNavigateUrlFields* are not exported.
+>note From Q2 2013 **ExcelML** supports exporting of **GridHyperLinkColumn**. It is important to know that when its *DataTextField* property is set, other columns bound to the same field are not exported. Also when *Text* property of the **GridHyperLinkColumn** is set and DataField is not defined, columns added to the *DataNavigateUrlFields* are not exported.
 >
 
 
@@ -244,8 +244,6 @@ style.NumberFormat.Attributes("ss:Format") = "MM/dd"
 Each **StyleElement** has a **Borders** property (**BorderStylesCollection**) that contains the definition of each border. Border position should be specified using the **PositionType** enumeration:
 
 
->caption  
-
 | 0 | 1 | 2 | 3 | 4 |
 | ------ | ------ | ------ | ------ | ------ |
 |None|Left|Top|Right|Bottom|
@@ -315,19 +313,19 @@ End Sub
 ````
 
 
->note From Q2 2013 we introduced a new propery named **Exportable** . This property allows you tochoose whether a certain column should be included in the exported file or not. By setting this property to **false** the related column will be excluded from the exported file. Its default value is true.
+>note From Q2 2013 we introduced a new property named **Exportable**. This property allows you to choose whether a certain column should be included in the exported file or not. By setting this property to **false** the related column will be excluded from the exported file. Its default value is true.
 >
 
 
 ## Auto Filter
 
-**ExcelML** is the only excel format which provides build in **auto filter** functionality.To remove the filter controls from the header row set the Range property to empty string.(e.Worksheet.AutoFilter.Range = ""). By setting the range you could move the filter on a different place within the excel sheet.Only the data placed below the filtering dropdown menu will be included in the filter range. (Example: e.Worksheet.AutoFilter.Range = "R4C1: R4C5")
+**ExcelML** is the only excel format which provides build in **auto filter** functionality. To remove the filter controls from the header row set the Range property to empty string.(e.Worksheet.AutoFilter.Range = ""). By setting the range you could move the filter on a different place within the excel sheet. Only the data placed below the filtering dropdown menu will be included in the filter range. (Example: e.Worksheet.AutoFilter.Range = "R4C1: R4C5")
 
-Generally speaking, **R1C1** notation is another way to create cell references which uses numbers for both the rows and columns.R1C1 stands for row index and column index number. This notation is only useful in RadGrid for setting the AutoFilter range.
+Generally speaking, **R1C1** notation is another way to create cell references which uses numbers for both the rows and columns. R1C1 stands for row index and column index number. This notation is only useful in RadGrid for setting the AutoFilter range.
 
 ## Cells Protection
 
-**ExcelML** is one of the excel format which supports cells protection.When you enable the worksheet protection all the cells will be protected as the default state of the cells is “locked”.In order to unlock them you have to create a custom **StyleElement** and set its **IsProtected** property to **false**.Then you could apply this style to the cells which should be unlocked.
+**ExcelML** is one of the excel format which supports cells protection.When you enable the worksheet protection all the cells will be protected as the default state of the cells is “locked”. In order to unlock them you have to create a custom **StyleElement** and set its **IsProtected** property to **false**. Then you could apply this style to the cells which should be unlocked.
 
 The example below demonstrates how you could remove the protection on each second row:
 
@@ -381,7 +379,7 @@ End Sub
 
 ## Print option
 
-ExcelML export format provide two print options which allow you to modify the printed output. The first option is **FitHeight**	which specifies the maximum count of the pages in which the content is distributed to. Meaningful when FitToPage is *true*.The second one is **PaperSize** which specifies the paper size in a value from the PaperKind enumeration.
+ExcelML export format provide two print options which allow you to modify the printed output. The first option is **FitHeight**	which specifies the maximum count of the pages in which the content is distributed to. Meaningful when FitToPage is *true*. The second one is **PaperSize** which specifies the paper size in a value from the PaperKind enumeration.
 
 The following code snippet demonstrates how to use them.
 

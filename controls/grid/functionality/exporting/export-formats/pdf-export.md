@@ -48,7 +48,7 @@ This help article discuss different techniques which allow you to modify **RadGr
 
 * [Exceptions](#exceptions)
 
->note Note that *RadGrid* will render as an *XHTML* table and will convert that table to a *PDF* document. That requires that the rendered grid output is valid *XHTML* . If it is not, you will receive an exception that the export cannot be completed.
+>note Note that *RadGrid* will render as an *XHTML* table and will convert that table to a *PDF* document. That requires that the rendered grid output is valid *XHTML*. If it is not, you will receive an exception that the export cannot be completed.
 >The most common cause for bad *XHTML* are symbols like **<** , **>** , **&** that need to be replaced by the correct *XHTML* entity: **& l t ;** , **& g t ;** , **& a m p ;** respectively. Another frequent problem are unclosed tags.
 >
 
@@ -92,7 +92,7 @@ Although you can't modify the contents on **OnGridExporting**, you can use this 
 
 ## Appearance
 
-*RadGrid *does not export any external styles. That means that your skins will not appear in the generated file. Still, the inline styles are preserved and should be used instead. Different approaches could be used depending where *RadGrid* will rebind before export (when *IgnorePaging* is set to *true* or when you rebind manually).
+*RadGrid* does not export any external styles. That means that your skins will not appear in the generated file. Still, the inline styles are preserved and should be used instead. Different approaches could be used depending where *RadGrid* will rebind before export (when *IgnorePaging* is set to *true* or when you rebind manually).
 
 
 
@@ -145,13 +145,13 @@ End Sub
 ````
 
 
->note To center the text in the **GridHeaderItem** , you should set the appropriate style to each cell ( *TH* element) instead of the whole row.
+>note To center the text in the **GridHeaderItem** , you should set the appropriate style to each cell (*TH* element) instead of the whole row.
 >
 
 
 ## Hiding Columns
 
-You can use the **HideStructureColumns** property to hide *GridRowIndicatorColumn*, *GridExpandColumn* and *GridGroupSplitterColumn.* For the other columns types, you can use the following approach:
+You can use the **HideStructureColumns** property to hide *GridRowIndicatorColumn*, *GridExpandColumn* and *GridGroupSplitterColumn*. For the other columns types, you can use the following approach:
 
 
 
@@ -170,7 +170,7 @@ End Sub
 ````
 
 
->note From Q2 2013 we introduced a new propery named **Exportable** . This property allows you tochoose whether a certain column should be included in the exported file or not. By setting this property to **false** the related column will be excluded from the exported file. Its default value is true.
+>note From Q2 2013 we introduced a new property named **Exportable**. This property allows you to choose whether a certain column should be included in the exported file or not. By setting this property to **false** the related column will be excluded from the exported file. Its default value is true.
 >
 
 
@@ -179,8 +179,6 @@ End Sub
 There are two common ways to hide an item.
 
 * **Directly** - in the button handler when exporting from a button or on **ItemCommand** when exporting from the built-in buttons
-
-
 
 ````C#
 protected void RadGrid1_ItemCommand(object source, GridCommandEventArgs e)
@@ -251,7 +249,7 @@ End Sub
 
 By setting **BorderType, BorderStyle and BorderColor** properties you could customize the look of the grid's border into the exported file. They could be set to ExportSettings-Pdf.
 
-**BorderType** determines the border type that will be applied to the exported PDF file. The supported values are: *Separate, NoBorder, OuterBorders, AllBorders*. The selected border type will be applied for bothflat and hierarchical RadGrids. Note that the *Separate* value is left to avoid breaking changes andalso because of the fact that this functionality has a minor performance impact. When the **BorderType** isset to *Separate*, the **BorderColor**, and the **BorderStyle** properties will have no effect.
+**BorderType** determines the border type that will be applied to the exported PDF file. The supported values are: *Separate, NoBorder, OuterBorders, AllBorders*. The selected border type will be applied for both flat and hierarchical RadGrids. Note that the *Separate* value is left to avoid breaking changes and also because of the fact that this functionality has a minor performance impact. When the **BorderType** is set to *Separate*, the **BorderColor**, and the **BorderStyle** properties will have no effect.
 
 **BorderStyle** determines the style of the borders that will be applied to the exported PDF file.The supported values: *Medium, Thick, Thin*. Its default value is *Medium*.
 
@@ -340,13 +338,13 @@ There are a few rules that should be followed when exporting *HTML* tables to *P
 
 ## Exporting images / using third-party image-processing tools
 
-Our *PDF* engine can export all images nevertheless whether they use an **absolute**or **relative** path. The image can be stored on the local server or remotely. When using third-party image-processing tools like [ImageResizer.dll](http://nathanaeljones.com/products/asp-net-image-resizer/) or similar modules that use *HttpHandlers* and accept parameters via query strings, you should provide an **absolute** path to the resized image, otherwise *RadGrid* won't be able to find the image and will throw an error. Transparency is not supported.
+Our *PDF* engine can export all images nevertheless whether they use an **absolute** or **relative** path. The image can be stored on the local server or remotely. When using third-party image-processing tools like [ImageResizer.dll](http://nathanaeljones.com/products/asp-net-image-resizer/) or similar modules that use *HttpHandlers* and accept parameters via query strings, you should provide an **absolute** path to the resized image, otherwise *RadGrid* won't be able to find the image and will throw an error. Transparency is not supported.
 
 You can use the following approach if you need to set a background image to your *GridTableViews*:
 
 <MasterTableView style="background-image: url(yourimage)" />
 
->note In order to export images that are spanned over multiple columns you should invoke * **PrepareItemStyle** * on the corresponding grid item. Our[PDF export](http://demos.telerik.com/aspnet-ajax/grid/examples/generalfeatures/pdfexport/defaultcs.aspx)demo uses the depicted approach.
+>note In order to export images that are spanned over multiple columns you should invoke **PrepareItemStyle** on the corresponding grid item. Our[PDF export](http://demos.telerik.com/aspnet-ajax/grid/examples/generalfeatures/pdfexport/defaultcs.aspx)demo uses the depicted approach.
 >
 
 
@@ -460,7 +458,7 @@ From SP1 2013 Q2 we introduce a new property named **ContentFilter** which gives
 
 ## Content Encryption
 
-The PDF file generated by RadGrid has the content encryption enabled by default. This functionality is normally used forobfuscating the content especially when there is a UserPassword specified in the PDF settings. When the encryption isdisabled, the password will not have an effect. It is important to note that if FIPS validation is enforced the encryption is automatically disabled and can't be used. By default the content encryption is disabled.
+The PDF file generated by RadGrid has the content encryption enabled by default. This functionality is normally used for obfuscating the content especially when there is a UserPassword specified in the PDF settings. When the encryption is disabled, the password will not have an effect. It is important to note that if FIPS validation is enforced the encryption is automatically disabled and can't be used. By default the content encryption is disabled.
 
 ````ASP.NET
 <ExportSettings>
@@ -472,7 +470,7 @@ The PDF file generated by RadGrid has the content encryption enabled by default.
 
 ## Forced Text Wrapping
 
-Until now, the overflowing text was carried over the next lines only when there are whitespace characters inside. With the newly introduced **ForceTextWrap** property it is now possible to force the text wrapping evenwhen there are no whitespaces or separator characters. It is important to note that the forced mode will make the file size larger.
+Until now, the overflowing text was carried over the next lines only when there are whitespace characters inside. With the newly introduced **ForceTextWrap** property it is now possible to force the text wrapping even when there are no white spaces or separator characters. It is important to note that the forced mode will make the file size larger.
 
 ````ASP.NET
 <ExportSettings>
@@ -568,7 +566,7 @@ Most probably you have *DIV* element with specified dimensions or absolute posit
 
 * **Telerik.Web.Apoc.ApocException: internal-destination or external-destination must be specified in basic-link**
 
-*PDF* engine is trying to resolve *empty anchor**URL*. Please note, that the anchor links are supported only when valid *URL* is supplied. Example:
+*PDF* engine is trying to resolve *empty anchor* *URL*. Please note, that the anchor links are supported only when valid *URL* is supplied. Example:
 
 * **System.IndexOutOfRangeException: Index was outside the bounds of the array.	at Telerik.Web.Apoc.Fo.Flow.TableRow.CellArray.GetNextFreeCell(Int32 colNum)**
 

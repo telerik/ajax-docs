@@ -190,14 +190,14 @@ Below you could find a list with the supported sub-elements of the **DocumentPro
 
 | DocumentProperties | Represents |
 | ------ | ------ |
-|<o:Subject> </o:Subject>|Left-aligned data|
-|<o:Author> </o:Author>|String value specifying the author's name.|
-|<o:Keywords> </o:Keywords>|Comma-separated string values listing the document’s keywords.|
-|<o:Description> </o:Description>|Represents the document description.|
-|<o:LastAuthor> </o:LastAuthor>|The account name of the last person who made changes to the file.|
-|<o:Category> </o:Category>|The category of the document.|
-|<o:Manager> </o:Manager>|Manager’s name.|
-|<o:Company> </o:Company>|String value holding the name of the company.|
+|\<o:Subject\> \</o:Subject\>|Left-aligned data|
+|\<o:Author\> \</o:Author\>|String value specifying the author's name.|
+|\<o:Keywords\> \</o:Keywords\>|Comma-separated string values listing the document’s keywords.|
+|\<o:Description\> \</o:Description\>|Represents the document description.|
+|\<o:LastAuthor\> \</o:LastAuthor\>|The account name of the last person who made changes to the file.|
+|\<o:Category\> \</o:Category\>|The category of the document.|
+|\<o:Manager\> \</o:Manager\>|Manager’s name.|
+|\<o:Company\> \</o:Company\>|String value holding the name of the company.|
 
 A list of supported Word properties could be found [here]({%slug grid/functionality/exporting/export-formats/word-and-excel-export/word-format-(html-based)%}).
 
@@ -247,7 +247,7 @@ End Sub
 ````
 
 
->note From Q2 2013 we introduced a new propery named **Exportable** . This property allows you tochoose whether a certain column should be included in the exported file or not. By setting this property to **false** the related column will be excluded from the exported file. Its default value is true.
+>note From Q2 2013 we introduced a new property named **Exportable**. This property allows you to choose whether a certain column should be included in the exported file or not. By setting this property to **false** the related column will be excluded from the exported file. Its default value is true.
 >
 
 
