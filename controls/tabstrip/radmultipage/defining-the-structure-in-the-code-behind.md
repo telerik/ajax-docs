@@ -74,4 +74,4 @@ End Sub
 ````
 
 
-**See** a live example at: [Dynamic RadPageView](http://demos.telerik.com/aspnet-ajax/tabstrip/examples/applicationscenarios/dynamicpageview/defaultcs.aspx)
+**See** a live example at: [Dynamic RadPageView](http://demos.telerik.com/aspnet-ajax/tabstrip/examples/multipage/dynamic-pageview-creation/defaultcs.aspx)
