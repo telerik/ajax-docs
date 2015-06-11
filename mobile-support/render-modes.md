@@ -47,7 +47,7 @@ Some controls from the UI for ASP.NET AJAX suite	can produce different (usually 
 |Map|N/A|-|
 |MediaPlayer|Yes (by design)|[Yes (render mode)]({%slug mediaplayer/mobile-support/overview%})|
 |Menu|[Yes (render mode)]({%slug menu/mobile-support/render-modes%})|[Yes (render mode)]({%slug menu/mobile-support/responsive-adaptive-and-elastic-capabilities%})|
-|Notification|Yes (by design)|-|
+|Notification|[Yes (render mode)]({%slug notification/mobile-support/render-modes%})|-|
 |OrgChart|[Yes (render mode)]({%slug orgchart/mobile-support/render-modes%})|-|
 |PanelBar|Yes (render mode)|-|
 |ProgressArea|-|-|
