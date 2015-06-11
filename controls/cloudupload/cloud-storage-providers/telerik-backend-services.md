@@ -16,9 +16,9 @@ position: 2
 
 ## Adding References
 
-In order to be able to use the Telerik Backend Services Cloud Storage Provider, you would need the download the **dll files** from [here](https://www.everlive.com/Files/SDK/Windows/EverliveSDK.Windows.Net35.zip).
+In order to be able to use the Telerik Backend Services Cloud Storage Provider, you would need the download the **dll files** from [here](https://bs-static.cdn.telerik.com/sdk/latest/windows/EverliveSDK.Windows.Net35.zip).
 
->note Telerik Backend Services requires reference to **Telerik.Everlive.Sdk.dll** and **Newtonsoft.Json.dll** .
+>note Telerik Backend Services requires reference to **Telerik.Everlive.Sdk.Net35.dll**.
 >When Web Application is used the Copy Local property in the Reference Properties dialog box, available from the References pane of the Project Designer must be set to **True** .
 >
 
