@@ -14,7 +14,7 @@ position: 2
 
 ## 
 
-You can add **GridButtonColumn** columns to a grid to handle the selection and de-selection of grid rows. The **RadGrid**[Command API]({%slug grid/control-lifecycle/command-reference-%}) can automatically handle the select and de-select commands: you need only add the **GridButtonColumn** objects to the **Commands** collection and set their **CommandName** property:
+You can add **GridButtonColumn** columns to a grid to handle the selection and de-selection of grid rows. The **RadGrid** [Command API]({%slug grid/control-lifecycle/command-reference-%}) can automatically handle the select and de-select commands: you need only add the **GridButtonColumn** objects to the **Commands** collection and set their **CommandName** property:
 
 ![](images/SelectButtonColumns.png)
 

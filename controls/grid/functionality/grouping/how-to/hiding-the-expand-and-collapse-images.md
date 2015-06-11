@@ -15,15 +15,10 @@ position: 5
 You can disable the **GridGroupSplitterColumn** so that users can't collapse the groups in a grid. The following steps describe how to accomplish this:
 
 1. Set the grid's **ClientSettings.Resizing.AllowColumnResize** property to *True*.
-
 2. Add a **ColumnCreated** event handler to the grid. In the **ColumnCreated** event handler, when the column is a **GridGroupSplitterColumn**
-
 	* Set its *Width* property to *1px*.
-
 	* Set its *Resizable *property to *False**.**
-
 3. Remove the unwanted button on **ItemCreated**
-
 4. (**Optional**) If desired, change the style of the group header items (based on the group level) in the **ItemDataBound** event handler.
 
 Note that if the **GroupSplitterColumn** cells have side paddings (and they do when using embedded skins), you need to remove those paddings, otherwise the column cells will remain visible in *IE7* and below. One way to remove the paddings is to use **HeaderStyle-CssClass** and **ItemStyle-CssClass**, or (if using *RadGrid 2009.1+*) to use the native *CSS* class for the **GroupSplitterColumn** cells (note that a custom *CSS* class for the *RadGrid* is used, otherwise you will remove the paddings from all *RadGrids* on the page (or website):

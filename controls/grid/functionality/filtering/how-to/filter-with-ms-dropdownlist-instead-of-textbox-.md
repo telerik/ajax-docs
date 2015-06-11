@@ -16,19 +16,12 @@ You can create a custom column class that replaces the filter text box with a dr
 The following steps describe how to achieve this result:
 
 1. Create a custom column class that extends the default **GridBoundColumn**.
-
 2. In this custom column class, override the **SetupFilterControls** method to replace the filter text box and image button with a **DropDownList** control. Configure the **DropDownList** control as desired. At a minimum,
-
 	* Set the **AutoPostBack** property to **True**.
-
 	* Set the **ID** property to a unique value.
-
 	* Bind the items list.
-
 	* Add a **SelectedIndexChanged** event handler.
-
 3. Override the **SetCurrentFilterValueToControl** and **GetCurrentFilterValueFromControl** methods to set or get the **SelectedValue** of the drop-down list.
-
 4. In the **SelectedIndexChanged** event handler, get the **GridFilteringItem** of the grid and call its **FireCommandEvent** method to initiate a filter command.
 
 ## Defining the custom column class

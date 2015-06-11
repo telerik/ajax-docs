@@ -56,6 +56,6 @@ End Sub
 
 If you want to show a tooltip for the filter control, you can use the **FilterControlTooltip** property. Note that it is applicable for columns inheriting from GridBoundColumn.
 
-In order to change the filtering image or its tooltip, use the **FilterImageUrl**or **FilterImageToolTip**properties of the corresponding grid column (either declaratively or programmatically).
+In order to change the filtering image or its tooltip, use the **FilterImageUrl** or **FilterImageToolTip** properties of the corresponding grid column (either declaratively or programmatically).
 
 How to customize auto-generated/declarative columns in RadGrid at runtime you can learn from [this topic]({%slug grid/columns/using-columns%}) (paragraph Customizing columns programmatically).
