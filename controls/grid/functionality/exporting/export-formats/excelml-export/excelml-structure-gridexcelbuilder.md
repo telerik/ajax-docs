@@ -6,7 +6,7 @@ slug: grid/functionality/exporting/export-formats/excelml-export/excelml-structu
 tags: excelml,structure,/,gridexcelbuilder
 published: True
 position: 1
-previous_url: grid/functionality/exporting/export-formats/excelml-export/excelml-structure-/-gridexcelbuilder
+previous_url: controls/grid/functionality/exporting/export-formats/excelml-export/excelml-structure-/-gridexcelbuilder
 ---
 
 # ExcelML structure / GridExcelBuilder

@@ -6,6 +6,8 @@ slug: grid/functionality/sorting/gridhyperlinkcolumn-and-gridtemplatecolumn
 tags: gridhyperlinkcolumn/gridtemplatecolumn
 published: True
 position: 2
+
+previous_url: controls/grid/functionality/sorting/gridhyperlinkcolumn/gridhyperlinkcolumn-and-gridtemplatecolumn
 ---
 
 # GridHyperLinkColumn/GridTemplateColumn
