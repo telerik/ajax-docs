@@ -43,7 +43,7 @@ To enable ASP.NET AJAX with **RadGrid** for ASP.NET AJAX:
 To enable or disable ASP.NET AJAX with the **RadAjaxManager**, set its **EnableAJAX** property to **True** or **False** accordingly.
 
 >note ASP.NET AJAX is not a Telerik product.
->For further information about ASP.NET AJAX, refer to[ASP.NET AJAX Roadmap](http://msdn.microsoft.com/en-us/library/bb398822.aspx).
+>For further information about ASP.NET AJAX, refer to [ASP.NET AJAX Roadmap](http://msdn.microsoft.com/en-us/library/bb398822.aspx).
 >
 
 

@@ -19,17 +19,11 @@ position: 2
 To achieve this behavior,
 
 1. Add each linking field from the master table (typically the **primary key field** names) to the **DataKeyNames** array of the related grid's **MasterTableView.**
-
 2. On the data source for the "connected" grid, construct a **SelectParameter** of type **ControlParameter** for each linking field.
-
 	* The **ControlID** of the **SelectParameter** should point to the related grid.
-
 	* The **Name** property should match a field name that was added to the **DataKeyNames** property of the related grid's **MasterTableView**.
-
 	* The **PropertyName** property should be "SelectedValue".
-
 	* Optionally, you can set the **DefaultValue** and **Type** properties as well.
-
 3. Alternatively, define similar SelectParameter using **SelectedValues['<FieldName>']** where <FieldName> represents a column in the grid source.
 
 ![Related Grids](images/grd_RelatedGrids.png)

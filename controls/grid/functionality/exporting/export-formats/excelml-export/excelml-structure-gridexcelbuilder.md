@@ -118,7 +118,7 @@ protected void RadGrid1_ExcelMLExportRowCreated(object sender, GridExportExcelML
 
 **PageHeaderElement** - represents the **Page Header.**
 
-**PageFooterElement - **represents the **Page Footer.**
+**PageFooterElement** - represents the **Page Footer.**
 
 **PageLayoutElement** - contains various options to control the page layout.
 

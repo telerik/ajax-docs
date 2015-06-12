@@ -30,7 +30,7 @@ This tutorial shows how to:
 1. Drag and drop a **RadGrid** control from Visual Studio's toolbox onto your Web page:
 ![grid gettingstarted 2](images/grid_gettingstarted2.JPG)
 
-1. Using the **RadGrid's** [Smart Tag]({%slug grid/design-time/smarttag%}), expand the drop-down listlabelled **Choose Data Source** and select **<New data source...>**:
+1. Using the **RadGrid's** [Smart Tag]({%slug grid/design-time/smarttag%}), expand the drop-down listlabelled **Choose Data Source** and select **\<New data source...\>**:
 ![grid gettingstarted 03](images/grid_gettingstarted03.JPG)
 
 1. The **Data Source Configuration Wizard** appears. On the **Choose a Data Source Type** page, select **SQL Database** andclick **OK**:
@@ -70,7 +70,7 @@ This tutorial shows how to:
 ![Rad Grid grd addcontrols 03](images/RadGrid_grd_addcontrols03.png)
 
 1. Drag and drop a **RadDatePicker** control from Visual Studio's toolbox ontothe **EditItemTemplate**.
-![Rad Grid grd addcontrols 04jpg(images/RadGrid_grd_addcontrols04jpg.png)
+![Rad Grid grd addcontrols 04](images/RadGrid_grd_addcontrols04jpg.png)
 
 1. Now add a **Label** control to the **ItemTemplate**.
 ![grid addcontrols 04 1](images/grid_addcontrols04_1.png)
@@ -85,7 +85,7 @@ This tutorial shows how to:
 	* Check the **Two-way data binding** box to enable the control to update the field value.<br/>	
 		![Rad Grid grd addcontrols 06jpg](images/RadGrid_grd_addcontrols06jpg.png)
 1. Use a similar technique to bind the **Label** control:
-![Rad Grid grd addcontrols 6jpg(images/RadGrid_grd_addcontrols6jpg.png)
+![Rad Grid grd addcontrols 6jpg](images/RadGrid_grd_addcontrols6jpg.png)
 
 1. Use the **RadGrid's** [Smart Tag]({%slug grid/design-time/smarttag%}) to end template editing:
 ![grid addcontrols 7jpg](images/grid_addcontrols7jpg.png)

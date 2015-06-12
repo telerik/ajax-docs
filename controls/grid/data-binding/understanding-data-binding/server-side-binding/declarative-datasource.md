@@ -14,7 +14,7 @@ position: 2
 
 The simplest method of data-binding a **RadGrid** control is to use declarative data sources. The following steps describe how to use declarative data binding with a **RadGrid**:
 
-1. Create and configure the data source controls. **RadGrid** can be bound to any ASP.NET data source control, including **SqlDataSource**, **AccessDataSource**, **ObjectDataSource**, **XmlDataSource**, **EntityDataSource**, **OpenAccessDataSource,****LinqDataSource** and **ObjectContainerDataSource**.
+1. Create and configure the data source controls. **RadGrid** can be bound to any ASP.NET data source control, including **SqlDataSource**, **AccessDataSource**, **ObjectDataSource**, **XmlDataSource**, **EntityDataSource**, **OpenAccessDataSource**, **LinqDataSource** and **ObjectContainerDataSource**.
 
 1. At design time, Assign the **DataSourceID** property of the RadGrid (and of any detail tables) to the desired data source control.
 
@@ -60,7 +60,7 @@ For a tutorial that walks you through using the wizard to configure **SqlDataSou
 
 ## Assign the DataSourceID property
 
-Once you have set up the data source controls, you need to pair each **GridTableView** with the appropriate data source control. You must first assign a data source for the top-level table in the grid. To do this, set the **DataSourceID** property of the **RadGrid** control. You can do this using the **RadGrid**[ Smart Tag]({%slug grid/design-time/smarttag%}), or in the **RadGrid** Properties pane:
+Once you have set up the data source controls, you need to pair each **GridTableView** with the appropriate data source control. You must first assign a data source for the top-level table in the grid. To do this, set the **DataSourceID** property of the **RadGrid** control. You can do this using the **RadGrid** [Smart Tag]({%slug grid/design-time/smarttag%}), or in the **RadGrid** Properties pane:
 
 ![SetDataSource](images/grd_DataSourceControls_SetDataS.png)
 

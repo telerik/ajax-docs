@@ -26,7 +26,7 @@ This tutorial will walk you through creating a Web page that contains a hierarch
 1. Drag and drop a **RadGrid** control from the toolbox onto your Web page:
 ![grid gettingstarted 2](images/grid_gettingstarted2.JPG)
 
-1. Using the **RadGrid's**[Smart Tag]({%slug grid/design-time/smarttag%}) expand the drop-down list labelled Choose Data Source and select **<New data source...>**:
+1. Using the **RadGrid's** [Smart Tag]({%slug grid/design-time/smarttag%}) expand the drop-down list labelled Choose Data Source and select **<New data source...>**:
 ![grid gettingstarted 03](images/grid_gettingstarted03.JPG)
 
 1. The **Data Source Configuration Wizard** appears. On the **Choose a Data Source Type** page, select **SQL Database** and click **OK**:
@@ -35,17 +35,17 @@ This tutorial will walk you through creating a Web page that contains a hierarch
 1. On the **Choose Your Data Connection** page, expand the drop-down list by clicking the little triangle on the right side and select the **Northwind.mdf** from the available options. Then click the **Next** button:
 ![grid gettingstarted 5](images/grid_gettingstarted5.png)
 
-	_Note_: If you happen to encounter a "Database schema could not be retrieved" exception, please follow the guide in[this] ({%slug grid/getting-started/visual-studio-2012-datasource-configuration%}) help topic.
+	_Note_: If you happen to encounter a "Database schema could not be retrieved" exception, please follow the guide in [this] ({%slug grid/getting-started/visual-studio-2012-datasource-configuration%}) help topic.
 1. On the **Save the Connection String to the Application Configuration File** page, set name for the **Connection String** and then press **Next**:
 ![grid gettingstarted conn String](images/grid_gettingstarted_connString.png)
 
-1. On the **Configure the Select Statement** page, select the **Customers** table from the drop-down list, and select all**(*)** fields. Then choose **Next**:
+1. On the **Configure the Select Statement** page, select the **Customers** table from the drop-down list, and select all **(*)** fields. Then choose **Next**:
 ![Configure Select Statement](images/grid_hierarchy6.png)
 
 1. On the **Test Query** page, click the **Test Query** button to see the data. Then click **Finish** to exit the **Configure Data Source** wizard:
 ![grid hierarchy 7](images/grid_hierarchy7.png)
 
-1. Using **RadGrid's**[Smart Tag]({%slug grid/design-time/smarttag%}) add a second **DataSource** component to RadGrid.
+1. Using **RadGrid's** [Smart Tag]({%slug grid/design-time/smarttag%}) add a second **DataSource** component to RadGrid.
 ![Select DataSource](images/grid_hierarchy4_1.png)
 
 1. Choose the same database on the **Choose Your Data Connection** page of the wizard. Then click the **Next** button:
@@ -73,19 +73,19 @@ This tutorial will walk you through creating a Web page that contains a hierarch
 
 1. In the [ RadGrid Editor]({%slug grid/design-time/setting-radgrid%}),
 
-1. Select the **MasterTableView** in the **Grid hierarchy** tree view that you find in the upper left corner.
+	1. Select the **MasterTableView** in the **Grid hierarchy** tree view that you find in the upper left corner.
 
-1. Select **Columns** tab.
+	1. Select **Columns** tab.
 
-1. Remove any columns you do not want to display for the Master Table:
-![DeleteColumn](images/grid_hierarchy13.png)
+	1. Remove any columns you do not want to display for the Master Table:
+	![DeleteColumn](images/grid_hierarchy13.png)
 
 1. In **General** tab of the **MasterTableView** node make sure that the **DataKeyNames** list contains the string **CustomerID**. This column must be identified as a key name so that it can be used to link to detail tables:
 ![SetDataKeyNames](images/grid_hierarchy14.png)
 
 ## Creating and binding the first detail table
 
-1. In the **Grid hierarchy** tree view, click the "+" button while the **MasterTableView**is selected to add a Detail TableView.
+1. In the **Grid hierarchy** tree view, click the "+" button while the **MasterTableView** is selected to add a Detail TableView.
 ![Add Detail Table](images/grid_hierarchy15.png)
 
 1. Select the detail table under **MasterTableView** node.
@@ -113,13 +113,13 @@ This tutorial will walk you through creating a Web page that contains a hierarch
 
 1. Give the **RadGrid** a **DetailTableDataBind** event handler. This event handler
 
-1. Checks if the detail table has a datasource already.
+	1. Checks if the detail table has a datasource already.
 
-1. Creates a SELECT command based on the current value of the data key from the parent table (This is available because we set the **DataKeyNames** property of the parent table).
+	1. Creates a SELECT command based on the current value of the data key from the parent table (This is available because we set the **DataKeyNames** property of the parent table).
 
-1. Fills a **DataTable** using the dynamically created SELECT command.
+	1. Fills a **DataTable** using the dynamically created SELECT command.
 
-1. Assigns the data table as the **DataSource** of the detail table view we are binding:
+	1. Assigns the data table as the **DataSource** of the detail table view we are binding:
 
 	**C#**
 	

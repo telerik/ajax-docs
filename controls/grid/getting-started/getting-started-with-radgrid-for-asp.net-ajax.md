@@ -15,21 +15,13 @@ position: 6
 This tutorial will walk you through creating a Web page that contains a **RadGrid** control. It shows how to:
 
 * Bind the grid using a declarative data source.
-
 * Configure the grid to support the most common features including:
-
-* Paging
-
-* Sorting
-
-* Scrolling
-
-* Grouping
-
-* Filtering
-
-* Selecting
-
+	* Paging
+	* Sorting
+	* Scrolling
+	* Grouping
+	* Filtering
+	* Selecting
 * Add a template column for customized data display.
 
 ## Creating and Binding the Grid
@@ -40,7 +32,7 @@ This tutorial will walk you through creating a Web page that contains a **RadGri
 1. Drag and drop a **RadGrid** control from the toolbox onto your Web page:
 ![grid gettingstarted 2](images/grid_gettingstarted2.JPG)
 
-1. Using the **RadGrid** [Smart Tag]({%slug grid/design-time/smarttag%}) expand the drop-down list labelled Choose Data Source and select **<New data source...>**:
+1. Using the **RadGrid** [Smart Tag]({%slug grid/design-time/smarttag%}) expand the drop-down list labelled Choose Data Source and select **\<New data source...\>**:
 ![grid gettingstarted 03](images/grid_gettingstarted03.JPG)
 
 1. The **Data Source Configuration Wizard** appears. On the **Choose a Data Source Type** page, select **SQL Database** and click **OK**:
@@ -88,10 +80,10 @@ This tutorial will walk you through creating a Web page that contains a **RadGri
 	* Click the **"+"** button to add the button column.
 	* Use the up arrow button to move it to the first position.
 	* You need to customize the column a bit in order to work as a select column.
-	* Set values to the **HeaderText**, **Text**, and **CommandName** properties.<br/>
-		![grid gettingstarted 14 1](images/grid_gettingstarted14_1.png)
-	* Additionally, you could change the **UniqueName** and **BackColor** of the column.<br/>	
-		![grid gettingstarted 14 2](images/grid_gettingstarted14_2.png)
+		* Set values to the **HeaderText**, **Text**, and **CommandName** properties.<br/>
+			![grid gettingstarted 14 1](images/grid_gettingstarted14_1.png)
+		* Additionally, you could change the **UniqueName** and **BackColor** of the column.<br/>	
+			![grid gettingstarted 14 2](images/grid_gettingstarted14_2.png)
 1. Use the **RadGrid** [Smart Tag]({%slug grid/design-time/smarttag%}) to enable **filtering** and **grouping**:
 ![grid gettingstarted 15JPG](images/grid_gettingstarted15JPG.png)
 
