@@ -1,15 +1,15 @@
 ---
-title: Telerik.Web.UI.Editor.CommandStates
+title: Telerik.Web.UI.EditorNewLineModes
 page_title: Client-side API Reference
 description: Client-side API Reference
-slug: Telerik.Web.UI.Editor.CommandStates
+slug: Telerik.Web.UI.EditorNewLineModes
 ---
 
-# enum Telerik.Web.UI.Editor.CommandStates
+# enum Telerik.Web.UI.EditorNewLineModes
 
 ## Inheritance Hierarchy
 
-* *[Telerik.Web.UI.Editor.CommandStates]({%slug Telerik.Web.UI.Editor.CommandStates%})*
+* *[Telerik.Web.UI.EditorNewLineModes]({%slug Telerik.Web.UI.EditorNewLineModes%})*
 
 ## Fields
 
