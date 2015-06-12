@@ -57,10 +57,11 @@ The RadEditor object exposes the following public methods and properties to cont
 |getContextMenuByTagName|`String`|Telerik.Web.UI.EditorContextMenu|Returns a reference to the context menu objectThe method takes the following arguments: **tagName** - The Tag name of the context menu|
 |getCssArray||Array|Returns a collection of class names existing in the CSS files added to the Iframe's content area.|
 |getEditorSelectionRange||Object|Returns the current selection range.|
+|getHeaderToolByName|`String`|Telerik.Web.UI.EditorButton|Returns a reference to a specified header tool. The method takes the following arguments: **toolName** - The name of the tool|
 |[getSelectedElement]({%slug editor/client-side-programming/methods/selection/getselectedelement%})||Element|Returns a reference to the currently selected HTML element in the editor's content area|
 |[getSelection]({%slug editor/client-side-programming/methods/getselection%})||Telerik.Web.UI.Editor.Selection|Returns a reference to the current RadEditorSelection object|
 |[getSelectionHtml]({%slug editor/client-side-programming/methods/getselectionhtml%})||String|Returns the selected HTML.|
-|[getToolByName]({%slug editor/client-side-programming/methods/gettoolbyname%})|`String`|Telerik.Web.UI.EditorButton|Returns a reference to a specified toolThe method takes the following arguments: **toolName** - The name of the tool|
+|[getToolByName]({%slug editor/client-side-programming/methods/gettoolbyname%})|`String`|Telerik.Web.UI.EditorButton|Returns a reference to a specified tool. The method takes the following arguments: **toolName** - The name of the tool|
 |getToolState|`String`, `Object`|Telerik.Web.UI.EditingOptions|Returns current state of a toolThe method takes the following arguments: **toolName** - The name of the tool **range** - The selection range.|
 |getToolValue|`String`, `Object`|String|Returns current value of a tool.The method takes the following arguments: **toolName** - The name of the tool. **range** - The selection range.|
 |isFullScreen||Boolean|Indicates whether the RadEditor is in full screen mode.|
