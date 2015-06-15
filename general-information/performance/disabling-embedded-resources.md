@@ -157,6 +157,22 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 </scripts>
 ````
 
+* **RadClientExportManager**
+
+````ASP.NET
+<scripts>
+    <asp:ScriptReference Path="~/Scripts/Common/Core.js" />
+    <asp:ScriptReference Path="~/Scripts/Common/jQuery.js" />
+    <asp:ScriptReference Path="~/Scripts/Common/jQueryInclude.js" />
+    <asp:ScriptReference Path="~/Scripts/Common/jQueryPlugins.js" />
+    <asp:ScriptReference Path="~/Scripts/Common/HTML5UI/html5/core.js" />
+    <asp:ScriptReference Path="~/Scripts/Common/HTML5UI/html5/color.js" />
+    <asp:ScriptReference Path="~/Scripts/Common/HTML5UI/html5/pdf.js" />
+    <asp:ScriptReference Path="~/Scripts/Common/HTML5UI/html5/drawing.js" />
+    <asp:ScriptReference Path="~/Scripts/ClientExportManager/RadClientExportManagerScripts.js" />
+</scripts>
+````
+
 * **RadColorPicker**
 
 ````ASP.NET
