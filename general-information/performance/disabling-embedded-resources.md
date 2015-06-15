@@ -395,6 +395,48 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 </scripts>
 ````
 
+* **RadGantt** 
+
+````ASP.NET
+<Scripts>
+	<asp:ScriptReference Path="~/Temp/Scripts/Common/Core.js" />
+	<asp:ScriptReference Path="~/Temp/Scripts/Common/jQuery.js" />
+	<asp:ScriptReference Path="~/Temp/Scripts/Common/jQueryPlugins.js" />
+	<asp:ScriptReference Path="~/Temp/Scripts/Common/HTML5UI/html5/core.js" />
+	<asp:ScriptReference Path="~/Temp/Scripts/Common/HTML5UI/html5/dom.js" />
+	<asp:ScriptReference Path="~/Temp/Scripts/Common/HTML5UI/Data/html5/data.js" />
+	<asp:ScriptReference Path="~/Temp/Scripts/Common/HTML5UI/html5/columnsorter.js" />
+	<asp:ScriptReference Path="~/Temp/Scripts/Common/HTML5UI/html5/binder.js" />
+	<asp:ScriptReference Path="~/Temp/Scripts/Common/HTML5UI/html5/validator.js" />
+	<asp:ScriptReference Path="~/Temp/Scripts/Common/HTML5UI/html5/editable.js" />
+	<asp:ScriptReference Path="~/Temp/Scripts/Common/HTML5UI/html5/calendar.js" />
+	<asp:ScriptReference Path="~/Temp/Scripts/Common/HTML5UI/html5/popup.js" />
+	<asp:ScriptReference Path="~/Temp/Scripts/Common/HTML5UI/html5/datepicker.js" />
+	<asp:ScriptReference Path="~/Temp/Scripts/Common/HTML5UI/html5/timepicker.js" />
+	<asp:ScriptReference Path="~/Temp/Scripts/Common/HTML5UI/html5/datetimepicker.js" />
+	<asp:ScriptReference Path="~/Temp/Scripts/Common/HTML5UI/html5/userevents.js" />
+	<asp:ScriptReference Path="~/Temp/Scripts/Common/HTML5UI/html5/touch.js" />
+	<asp:ScriptReference Path="~/Temp/Scripts/Common/HTML5UI/html5/numerictextbox.js" />
+	<asp:ScriptReference Path="~/Temp/Scripts/Common/HTML5UI/html5/draganddrop.js" />
+	<asp:ScriptReference Path="~/Temp/Scripts/Common/HTML5UI/html5/resizable.js" />
+	<asp:ScriptReference Path="~/Temp/Scripts/Common/HTML5UI/html5/window.js" />
+	<!--Only needed when using resources-->
+	<asp:ScriptReference Path="~/Temp/Scripts/Common/HTML5UI/html5/list.js" />
+	<asp:ScriptReference Path="~/Temp/Scripts/Common/HTML5UI/html5/dropdownlist.js" />
+	<asp:ScriptReference Path="~/Temp/Scripts/Common/HTML5UI/html5/filtermenu.js" />
+	<asp:ScriptReference Path="~/Temp/Scripts/Common/HTML5UI/html5/grid.js" />
+	<!--Only needed for pdf export-->
+	<asp:ScriptReference Path="~/Temp/Scripts/Common/HTML5UI/html5/color.js" />
+	<asp:ScriptReference Path="~/Temp/Scripts/Common/HTML5UI/html5/drawing.js" />
+	<asp:ScriptReference Path="~/Temp/Scripts/Common/HTML5UI/html5/pdf.js" />
+	
+	<asp:ScriptReference Path="~/Temp/Scripts/Common/HTML5UI/html5/gantt/timeline.js" />
+	<asp:ScriptReference Path="~/Temp/Scripts/Common/HTML5UI/html5/gantt/list.js" />
+	<asp:ScriptReference Path="~/Temp/Scripts/Common/HTML5UI/html5/gantt.js" />
+	<asp:ScriptReference Path="~/Temp/Scripts/Gantt/RadGanttScripts.js" />
+</Scripts>
+````
+
 * **RadGauge** 
 
 ````ASP.NET
