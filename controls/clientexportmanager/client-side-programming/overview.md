@@ -42,7 +42,7 @@ The pdfSettings, imageSettings and svgSettings are JavaScript objects that conta
 ````JavaScript
 <script type="text/javascript">
 	var pdfSettings = {
-		filename: "PDF-Export",
+		fileName: "PDF-Export",
 		proxyURL: "http://www.proxy.com",
 		margin: { top: 25, left: 15, bottom: 10, right: 5 },
 		paperSize: "A4",
@@ -57,14 +57,14 @@ The pdfSettings, imageSettings and svgSettings are JavaScript objects that conta
 
 
 	var imageSettings = {
-		filename: "Image-Export",
+		fileName: "Image-Export",
 		proxyURL: "http://www.proxy.com",
 		width: 200,
 		heigh: 400,
 	};
 
 	var svgSettings = {
-		filename: "SVG-Export",
+		fileName: "SVG-Export",
 		proxyURL: "http://www.proxy.com",
 		raw: false
 	};
