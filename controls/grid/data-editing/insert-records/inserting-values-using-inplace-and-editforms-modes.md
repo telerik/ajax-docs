@@ -22,7 +22,7 @@ position: 0
 
 The code below demonstrates the both approaches about how to perform the insert operation in Telerik RadGrid when the user presses the **Insert** button from the insertion form (thus firing the **InsertCommand** event).
 
->note Note that we use the ViewState property (named GridSource) to update the grid source.
+>note Note that we use the ViewState property (named GridSource) to update the grid source. DataSourceHelperCS and DataSourceHelperVB are used to generate the source. You can use your own way to provide a sample source, e.g. use the widespread Northwind SQL table to [load the DataTable](grid/data-binding/understanding-data-binding/server-side-binding/advanced-data-binding-(using-needdatasource-event) or [generate a dummy DataTable](https://msdn.microsoft.com/en-us/library/system.data.datatable%28v=vs.110%29.aspx).
 >
 
 
@@ -120,7 +120,7 @@ private void RadGrid1_InsertCommand(object source, Telerik.Web.UI.GridCommandEve
 
 }
 ````
-````VB	
+````VB
 Private ReadOnly Property GridSource As DataTable
     Get
         Dim obj As Object = Me.ViewState("_gds")
@@ -175,7 +175,7 @@ End Sub
 
 
 
-````C#	
+````C#
 private DataTable GridSource
 {
     get
@@ -372,7 +372,7 @@ Below is a sample demonstration:
      SelectCommand="SELECT [CompanyName], [ContactName], [ContactTitle], [Country], [Bool] FROM [Customers]">
  </asp:SqlDataSource>
 ````
-````VB	
+````VB
   Protected Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As Telerik.Web.UI.GridCommandEventArgs) Handles RadGrid2.ItemCommand
       If (e.CommandName = RadGrid.InitInsertCommandName) Then
           'cancel the default operation

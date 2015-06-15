@@ -16,18 +16,17 @@ position: 8
 
 This property returns the MasterTableView instance for the respective grid client object.
 
-
-|  **get_masterTableView()**  |
-| ------ |
-||
+|  **get_masterTableView()**  |  |  |
+| ------ | ------ | ------ |
+| - |[Telerik.Web.UI.GridTableView Object]({%slug grid/client-side-programming/gridtableview-object/gridtableview-class-members%})|The main table.|
 
 Example:
 
 ````JavaScript
 function getMasterTableView() {
     var grid = $find("<%=RadGrid1.ClientID %>");
-    var masterTableView = grid.get_masterTableView();              
-}       
+    var masterTableView = grid.get_masterTableView();
+}
 ````
 
 

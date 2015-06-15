@@ -12,7 +12,7 @@ position: 1
 
 
 
-## 
+##   
 
 The key to the advanced data binding of a **RadGrid** control is handling the **NeedDataSource** event. **RadGrid** fires the **NeedDataSource** event each time it needs to be bound to a data source. If, at the time of the event, the **DataSource** property is not set to a valid data source object, the grid will not behave correctly.
 
