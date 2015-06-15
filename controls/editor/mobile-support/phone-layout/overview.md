@@ -21,7 +21,7 @@ Among with the mobile-optimized UI, the **Mobile** rendering provides:
 * Interactive fullscreen-editing layout;
 * Improved built-in tools and UI for optimal experience for the mobile browsers;
 * Full control over the selection, via built-in highlight functionality;
-* Contextual toolbar for tables, images and hypelinks;
+* Contextual toolbar for tables, images and hyperlinks;
 * Buttons to easily navigate through multiple tools, toggle the device's keyboard, switch to HTML mode, etc.;
 * Flexible design, enabling you to re-arrange the toolbars;
 * and many more features.
