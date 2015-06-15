@@ -77,4 +77,6 @@ End Class
 
 # See Also
 
- * [Save exported files on the server]({%slug clientexportmanager/how-to/save-exported-files%})
+* [Export in IE9 and Safari using a WCF service and ProxyURL](http://www.telerik.com/support/code-library/ie9-and-safari-compatibility)
+
+* [Save exported files on the server]({%slug clientexportmanager/how-to/save-exported-files%})
