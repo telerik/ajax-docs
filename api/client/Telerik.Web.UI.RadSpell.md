@@ -13,6 +13,20 @@ slug: Telerik.Web.UI.RadSpell
 
 ## Methods
 
+###  set_useClassicDialogs
+
+Determines what type of dialog the control should use - a RadWindow or a browser dialog.
+
+#### Parameters
+
+##### shouldUseBrowserDialog `Boolean`
+
+When true is passed, a browser dialog will be used. If false is passed, a RadWindow will be used.
+
+#### Returns
+
+`None` 
+
 ###  get_controlToCheck
 
 Gets the ID of the control to spell check.
