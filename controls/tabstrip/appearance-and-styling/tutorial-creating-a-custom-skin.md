@@ -17,6 +17,7 @@ The following tutorial demonstrates creating a custom **RadTabStrip** skin, usin
 
 to the following:
 
+![Css Final](images/tabstrip_cssfinal.png)
 
 See [Understanding the Skin CSS File]({%slug tabstrip/appearance-and-styling/understanding-the-skin-css-file%}) for more information on specific CSS file properties.
 
