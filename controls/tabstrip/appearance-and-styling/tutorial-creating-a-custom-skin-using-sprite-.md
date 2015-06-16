@@ -20,9 +20,9 @@ See [Sprite Guide]({%slug tabstrip/appearance-and-styling/sprite-guide%}) for mo
 
 ## Prepare the Project
 
-1. Drag a **RadTabStrip** from the toolbox onto a new AJAX-enabled application Web form.
+* Drag a **RadTabStrip** from the toolbox onto a new AJAX-enabled application Web form.
 
-1. Use the **RadTabStrip Item Builder** to add tabs to the tab strip, or add them in the HTML markup. Include two levels of tabs, and include a disabled tab:
+* Use the **RadTabStrip Item Builder** to add tabs to the tab strip, or add them in the HTML markup. Include two levels of tabs, and include a disabled tab:
 
 ````ASPNET	 
 <telerik:RadTabStrip ID="RadTabStrip1" runat="server" SelectedIndex="0">
@@ -47,23 +47,23 @@ See [Sprite Guide]({%slug tabstrip/appearance-and-styling/sprite-guide%}) for mo
 
 
 
-1. Copy the default **RadTabStrip** skin files from the installation directory to your project; copy both the \TabStrip directory that contains the images for this skin and the TabStrip.Default.css file that defines the skin styles.
+* Copy the default **RadTabStrip** skin files from the installation directory to your project; copy both the \TabStrip directory that contains the images for this skin and the TabStrip.Default.css file that defines the skin styles.
 
 >note The file path will typically be similar to this example: *\Program Files\Telerik\<Your Version of RadControls for ASPNET>\Skins\Default.* 
 >
 
 
-1. In the Solution Explorer, rename "TabStrip.Default.css" to "TabStrip.Green.css". The Solution Explorer should now look something like the following:![tabstrip solutionexplorer](images/tabstrip_solutionexplorer.png)
+* In the Solution Explorer, rename "TabStrip.Default.css" to "TabStrip.Green.css". The Solution Explorer should now look something like the following:![tabstrip solutionexplorer](images/tabstrip_solutionexplorer.png)
 
-1. Open TabStrip.Green.css and replace all instances of _Default with _Green. Then save the file:![tabstrip solutionfindandreplace](images/tabstrip_solutionfindandreplace.png)
+* Open TabStrip.Green.css and replace all instances of _Default with _Green. Then save the file:![tabstrip solutionfindandreplace](images/tabstrip_solutionfindandreplace.png)
 
-1. Drag the "TabStrip.Green.Css" file from the Solution Explorer onto your Web page. This automatically adds a reference to the page "<head>" tag as a "<link>" to the new stylesheet:![tabstrip link](images/tabstrip_link.png)
+* Drag the "TabStrip.Green.Css" file from the Solution Explorer onto your Web page. This automatically adds a reference to the page "<head>" tag as a "<link>" to the new stylesheet:![tabstrip link](images/tabstrip_link.png)
 
-1. Set the **EnableEmbeddedSkins** property of the **RadTabStrip** control to **False**.
+* Set the **EnableEmbeddedSkins** property of the **RadTabStrip** control to **False**.
 
-1. Change the **Skin** property of your **RadTabStrip** control to "Green".
+* Change the **Skin** property of your **RadTabStrip** control to "Green".
 
-1. Run the application. The new "Green" skin looks just like the Default skin:![tabstrip defaultlook](images/tabstrip_defaultlook.png)
+* Run the application. The new "Green" skin looks just like the Default skin:![tabstrip defaultlook](images/tabstrip_defaultlook.png)
 
 ## Applying the Sprite
 

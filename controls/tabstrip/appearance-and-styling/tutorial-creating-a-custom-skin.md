@@ -71,7 +71,7 @@ See [Understanding the Skin CSS File]({%slug tabstrip/appearance-and-styling/und
 
 ## Modifying the CSS file
 
-1. The first selector in the CSS file sets the "color" attribute for the **.rtsLI** and **.rtsLink** classes. These are the classes applied to the LI and A elements that represent a rendered tab. (Separator tabs get the **.rtsLI** class on an LI element, but have no A element with the **.rtsLink** class). Change the color to green, so that the text labels on tabs use a green font :
+* The first selector in the CSS file sets the "color" attribute for the **.rtsLI** and **.rtsLink** classes. These are the classes applied to the LI and A elements that represent a rendered tab. (Separator tabs get the **.rtsLI** class on an LI element, but have no A element with the **.rtsLink** class). Change the color to green, so that the text labels on tabs use a green font :
 
 ````ASPNET	
 .RadTabStrip_Green .rtsLI,
@@ -81,7 +81,7 @@ See [Understanding the Skin CSS File]({%slug tabstrip/appearance-and-styling/und
 } 	
 ````
 
-1. Locate the selector for the **.rtsIn** class. This class is applied to a SPAN that wraps the text and images that label the tabs. Change the padding attribute from "9px 20px 7px" to "0 5px 5px" to reduce the size of the tabs:
+* Locate the selector for the **.rtsIn** class. This class is applied to a SPAN that wraps the text and images that label the tabs. Change the padding attribute from "9px 20px 7px" to "0 5px 5px" to reduce the size of the tabs:
 
 ````ASPNET	     
 .RadTabStrip_Green .rtsIn
@@ -91,7 +91,7 @@ See [Understanding the Skin CSS File]({%slug tabstrip/appearance-and-styling/und
 } 				
 ````
 
-1. Locate the selector for the **.rtsDisabled** class (it is qualified by the **.RadTabStrip_Green**, **.RadTabStripLeft_Green**, **.RadTabStripRight_Green**, **.RadTabStripBottom_Green**, and **.RadTabStrip_Green_disabled** classes for additional specificity). Change the color attribute from "#ccc" to "#bcb", to give the disabled text a greener font:
+* Locate the selector for the **.rtsDisabled** class (it is qualified by the **.RadTabStrip_Green**, **.RadTabStripLeft_Green**, **.RadTabStripRight_Green**, **.RadTabStripBottom_Green**, and **.RadTabStrip_Green_disabled** classes for additional specificity). Change the color attribute from "#ccc" to "#bcb", to give the disabled text a greener font:
 
 ````ASPNET	
 .RadTabStrip_Green .rtsDisabled,
@@ -106,16 +106,16 @@ cursor: default;
 ````
 
 
-1. Locate the group of selectors that all begin with **.RadTabStripTop**. These are for tab strips with a "HorizontalTop" orientation. Within this group, locate the selector for **.rtsLink** and replace the background attribute (which loads an image) with "#aff1a1":
+* Locate the group of selectors that all begin with **.RadTabStripTop**. These are for tab strips with a "HorizontalTop" orientation. Within this group, locate the selector for **.rtsLink** and replace the background attribute (which loads an image) with "#aff1a1":
 
 ````ASPNET	     
 .RadTabStripTop_Green .rtsLink { background: #aff1a1; }				
 ````
 
 
-1. In the same group, delete the selectors **.rtsFirst .rtsLink**, **.rtsLast .rtsLink**, and **.rtsLast .rtsOut**. These classes provide the shape of the first and last tabs in the tab strip (with the .rtsOut class to handle the interior portion of the tab).
+* In the same group, delete the selectors **.rtsFirst .rtsLink**, **.rtsLast .rtsLink**, and **.rtsLast .rtsOut**. These classes provide the shape of the first and last tabs in the tab strip (with the .rtsOut class to handle the interior portion of the tab).
 
-1. Locate the remaining selectors that set a background image for the tabs. These are **.rtsSelected**, **.rtsSelected .rtsOut**, **.rtsFirst .rtsSelected**, **.rtsLast .rtsSelected**, and **.rtsLast .rtsSelected .rtsOut**. These apply to selected tabs, with qualifiers for the first and last tabs, and with the **.rtsOut** class added for the portion of the tab that contains images and text. Change the background attribute so that instead of a transparent color, it uses "#aff1a1":
+* Locate the remaining selectors that set a background image for the tabs. These are **.rtsSelected**, **.rtsSelected .rtsOut**, **.rtsFirst .rtsSelected**, **.rtsLast .rtsSelected**, and **.rtsLast .rtsSelected .rtsOut**. These apply to selected tabs, with qualifiers for the first and last tabs, and with the **.rtsOut** class added for the portion of the tab that contains images and text. Change the background attribute so that instead of a transparent color, it uses "#aff1a1":
 
 ````ASPNET
 .RadTabStripTop_Green .rtsSelected { background: #aff1a1 url('TabStrip/TabStripHStates.gif') no-repeat 0 -72px; }
@@ -125,15 +125,15 @@ cursor: default;
 .RadTabStripTop_Green .rtsLast .rtsSelected .rtsOut { background: #aff1a1 url('TabStrip/TabStripHStates.gif') no-repeat 0 -72px; } 
 ````
 
-1. Locate the group of selectors that all begin with **.RadTabStripTop**. These are for tab strips with a "HorizontalTop" orientation. Within this group, locate the selector for **.rtsLink** and replace the background attribute (which loads an image) with "#aff1a1":
+* Locate the group of selectors that all begin with **.RadTabStripTop**. These are for tab strips with a "HorizontalTop" orientation. Within this group, locate the selector for **.rtsLink** and replace the background attribute (which loads an image) with "#aff1a1":
 
 ````ASPNET	     
 .RadTabStripTop_Green .rtsLink { background: #aff1a1; }				
 ````
 
-1. The remaining selectors in the CSS file handle the appearance of the tabs for tab strips with other orientations. They work similarly to the group you just changed. If you were creating a real skin, you would want to make analagous changes to these rules as well, but for the purposes of this tutorial, we will skip them.
+* The remaining selectors in the CSS file handle the appearance of the tabs for tab strips with other orientations. They work similarly to the group you just changed. If you were creating a real skin, you would want to make analagous changes to these rules as well, but for the purposes of this tutorial, we will skip them.
 
-1. Run the application. The tab strip should now look as follows:
+* Run the application. The tab strip should now look as follows:
 ![Css Final](images/tabstrip_cssfinal.png)
 
 For more information about Cascading Style Sheets, see
