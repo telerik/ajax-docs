@@ -149,7 +149,7 @@ protected void btnDelete_Click(object sender, EventArgs e)
 ````
 ````VB.NET
 Protected Sub btnDelete_Click(ByVal sender As Object, ByVal e As EventArgs)
-    If RadTreeView1.SelectedNode <> Nothing Then
+    If RadTreeView1.SelectedNode IsNot Nothing Then
         RadTreeView1.SelectedNode.Remove()
         ' or ...
         'RadTreeView1.Nodes.Remove(RadTreeView1.SelectedNode)
@@ -181,7 +181,7 @@ protected void LinkButton1_Click(object sender, EventArgs e)
 ````VB.NET
 Protected Sub LinkButton1_Click(ByVal sender As Object, ByVal e As EventArgs)
     Dim node As RadTreeNode = RadTreeView2.FindNodeByText("Biography")
-    If node <> Nothing Then
+    If node IsNot Nothing Then
         node.Selected = True
     End If
 End Sub	
