@@ -14,6 +14,8 @@ Some controls from the UI for ASP.NET AJAX suite can react to touch gestures in 
 
 * [**Grid**]({%slug grid/mobile-support/mobile-rendering/overview%}) — drag to scroll the tableview or perform swipe with two active points to go to the next/previous page.
 
+* [**Editor**]({%slug editor/mobile-support/overview%}) - tap to activate a button (tool); drag to scroll (e.g., the content area or the list of tools). Double tap and pinch gestures are cancelled by the control to prevent zooming, both in the main editor view and in the dialogs.
+
 * [**ImageGallery**]({%slug imagegallery/mobile-support/gestures%}) — swipe to navigate the images, thumbnails and show/hide the thumbnails area;tap and hold to toggle the slideshow feature;	double tap to enter/exit full screen mode; tap on an image to navigate to the page pointed by the **NavigateUrl** property.
 
 * [**LightBox**]({%slug lightbox/mobile-support/gestures-support%}) — swipe to navigate the images or tap on the image to hide the **navigation arrows** (if visible) and the **description box** (when overlay mode is enabled).
