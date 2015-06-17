@@ -74,7 +74,7 @@ In the same manner (copy and replace), you may also want to upgrade any [other a
 
 The difference between the trial and licensed version of the Telerik controls is built-in the assemblies themselves. You do not need license keys or activations.
 
-Once you have a licensed package, simply **follow the steps from the**.
+Once you have a licensed package, simply **follow the steps from the [Upgrade to a Newer Version of Telerik UI for ASP.NET AJAX section](#upgrade-to-a-newer-version-of-telerik-ui-for-aspnet-ajax) to delete the trial assemblies and replace them with the developer versions**.
 
 ## Upgrading Troubleshooting
 
