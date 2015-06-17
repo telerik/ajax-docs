@@ -30,7 +30,7 @@ To bind the Navigation to a data source, specify the data source as the value of
 
 Usually, you also want to do one or more of the following:
 
-1. Set **Text**, **Value** or **NavigateUrl** properties using:
+1. Set **Text** or **NavigateUrl** properties using:
 
 1. **DataTextField** - specifies the field of the data source that provides the **Text** of the navigation nodes.If this field does not contain string values, you can use the **DataTextFormatString** property to ensure that field values are formatted the way you want.
 
