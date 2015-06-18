@@ -2,7 +2,7 @@
 title: Single Click Functionality 
 page_title: Single Click Functionality  | RadToolBar for ASP.NET AJAX Documentation
 description: Single Click Functionality 
-slug: toolbar/functiоnality/single-click-functionality
+slug: toolbar/functionality/single-click-functionality
 tags: single,click,functionality,
 published: True
 position: 0
