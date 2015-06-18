@@ -162,7 +162,7 @@ The default value for the **ForceExtractValue** property is "None", which means 
 
 Automatic operations through the **DataSource** control are not supported when you use standard **WebUserControl** as a custom edit form. If you are using a custom edit form, there are three options for implementing the data source operations:
 
-1. Make the user control class (which represents your user control) implement the *IBindableControl *interface as follows:
+1. Make the user control class (which represents your user control) implement the *IBindableControl* interface as follows:
 
 	**ASP.NET**
 
