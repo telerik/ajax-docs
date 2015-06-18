@@ -12,7 +12,7 @@ position: 6
 
 You can implement custom visualization of **legend items**, **axis titles**, **labels**, **markers** and **series** as of **Q2 2015**. To do this, set the corresponding element's **Visual** property to the **JavaScript function name** that will draw the object through the [Kendo Drawing API](http://demos.telerik.com/kendo-ui/drawing/index). You can read more about it in the [Kendo UI JavaScript API reference](http://docs.telerik.com/kendo-ui/api/javascript/drawing).
 
-The function that will create the custom visual receives arguments that provide context appropriate for the element that called it. This can include the `rect` ([kendo.geometry.Rect](http://docs.telerik.com/kendo-ui/api/javascript/geometry/rect)) that defines where the visual will be rendered, `createVisual` - the function that can be used to get a default visual, and various `options` depending on the item type.
+The function that will create the custom visual receives arguments that provide context appropriate for the element that called it. This can include the `rect` ([kendo.geometry.Rect](http://docs.telerik.com/kendo-ui/api/javascript/geometry/rect)) that defines where the visual will be rendered, `createVisual` - the function that can be used to get a default visual, and various `options` depending on the item type. You can find more examples in the Kendo UI online demos: [Line Charts - Custom Visuals](http://demos.telerik.com/kendo-ui/line-charts/visuals) and [Bar Charts - Custom Visuals](http://demos.telerik.com/kendo-ui/bar-charts/visuals).
 
 **Example 1** shows how you can customize the series and their legend items to create a 3D look. You can see it in action in the [HtmlChart - Custom Visuals](http://demos.telerik.com/aspnet-ajax/htmlchart/examples/functionality/visual/defaultcs.aspx) online demo.
 
@@ -222,4 +222,6 @@ The function that will create the custom visual receives arguments that provide 
  * [Live Demo: Kendo Drawing API](http://demos.telerik.com/kendo-ui/drawing/index)
 
  * [API Reference: Kendo Drawing API](http://docs.telerik.com/kendo-ui/api/javascript/drawing)
+
+ * [API Reference: Kendo Chart](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/chart)
 
