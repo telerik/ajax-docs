@@ -27,12 +27,16 @@ The function that will create the custom visual receives arguments that provide 
 
 	**ASP.NET**
 
-		<telerik:RadHtmlChart runat="server" ID="RadHtmlChart1" Width="600px" Height="400px">
+		<telerik:RadHtmlChart runat="server" ID="RadHtmlChart1" Width="800px" Height="400px">
 			<ClientEvents OnLoad="onChartLoad" />
+			<Legend>
+				<Appearance Position="Bottom" />
+				<Item Visual="legendItemVisual" />
+			</Legend>
 			<PlotArea>
 				<Series>
 					<telerik:ColumnSeries Name="Product 1">
-						<Appearance Visual="columnVisual" FillStyle-BackgroundColor="#ffcc00"></Appearance>
+						<Appearance Visual="columnVisual"></Appearance>
 						<LabelsAppearance Visible="false"></LabelsAppearance>
 						<TooltipsAppearance DataFormatString="{0:c}"></TooltipsAppearance>
 						<SeriesItems>
@@ -42,11 +46,10 @@ The function that will create the custom visual receives arguments that provide 
 						</SeriesItems>
 					</telerik:ColumnSeries>
 					<telerik:LineSeries Name="Target">
-						<Appearance FillStyle-BackgroundColor="#00B312"></Appearance>
+						<MarkersAppearance Visual="markersVisual" />
 						<LineAppearance Width="0" />
 						<LabelsAppearance Visible="false"></LabelsAppearance>
 						<TooltipsAppearance DataFormatString="{0:c}"></TooltipsAppearance>
-						<MarkersAppearance Visual="markersVisual" />
 						<SeriesItems>
 							<telerik:CategorySeriesItem Y="90000" />
 							<telerik:CategorySeriesItem Y="125000" />
@@ -54,12 +57,15 @@ The function that will create the custom visual receives arguments that provide 
 						</SeriesItems>
 					</telerik:LineSeries>
 				</Series>
-				<YAxis>
-					<MinorGridLines Visible="false" />
+				<YAxis Step="40000">
 					<LabelsAppearance DataFormatString="{0:c}" />
+					<MinorGridLines Visible="false" />
 				</YAxis>
 				<XAxis>
 					<MinorGridLines Visible="false" />
+					<LabelsAppearance>
+						<TextStyle Margin="10 0 0 0" />
+					</LabelsAppearance>
 					<Items>
 						<telerik:AxisItem LabelText="Q1" />
 						<telerik:AxisItem LabelText="Q2" />
@@ -69,16 +75,13 @@ The function that will create the custom visual receives arguments that provide 
 			</PlotArea>
 			<ChartTitle Text="Product sales for 2014">
 			</ChartTitle>
-			<Legend>
-				<Appearance Position="Bottom" />
-				<Item Visual="legendItemVisual" />
-			</Legend>
 		</telerik:RadHtmlChart>
+
 
 1. Add the scripts that will render the desired shapes:
 
 	**JavaScript**
-
+		
 		var drawing = kendo.drawing;
 		var geometry = kendo.geometry;
 		var columnWidth;
@@ -149,28 +152,30 @@ The function that will create the custom visual receives arguments that provide 
 		function onChartLoad(sender, args) {
 			var kendoChart = sender.get_kendoWidget();
 			kendoChart.options.seriesDefaults.highlight.toggle = seriesHighLight;
+			kendoChart.options.panes[0].clip = false;
 			kendoChart.redraw();
-		}
+		};
 		
 		function markersVisual(e) {
 			var center = e.rect.center();
 			var radius = (columnWidth || 70) / 2;
+			var color = e.options.border.color;
 			var path = new kendo.drawing.Path({
 				stroke: {
-					color: "#00B312",
-					width: 2
+					color: color,
+					width: 2.5
 				}
 			}).moveTo(center.x - radius, center.y)
-				.arc(180, 0, radius, 10, true);
+				.arc(180, 0, radius, 15, true);
 			return path;
-		}
+		};
 		
 		function columnVisual(e) {
 			var rect = e.rect;
 			if (!columnWidth)
 				columnWidth = rect.width();
 			return createColumn(rect, e.options.color);
-		}
+		};
 		
 		function legendItemVisual(e) {
 			var column;
@@ -193,7 +198,7 @@ The function that will create the custom visual receives arguments that provide 
 			if (e.series.name == "Target") {
 				column = new kendo.drawing.Path({
 					stroke: {
-						color: "#00B312",
+						color: color,
 						width: 2
 					}
 				}).moveTo(rect.x, rect.y)
