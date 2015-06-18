@@ -12,13 +12,15 @@ position: 1
 
 
 
-**RadScheduler** has two different render modes that can change the actual HTML markup that is rendered. They are exposed via the **RenderMode** property that can have three possible values - **Classic**, **Auto** and **Mobile**. This functionality was introduced in the **Q1 2014** version.
+**RadScheduler** has three different render modes that can change the actual HTML markup that is rendered. They are exposed via the **RenderMode** property that can have three possible values - **Classic**, **Auto**, **Lightweight** and **Mobile**. This functionality was introduced in the **Q1 2014** version.
 
 The possible options are:
 
 * **Classic** - this mode is the rendering that has been used before. It remains without changes and it is the default value of the property.
 
 * **Auto** - this mode makes each control choose the appropriate rendering mode according to the used browser - **Classic** or **Mobile**. This functionality was added in Q1 2014.
+
+* **Lightweight** - with this render mode, the control yields completely different markup making maximum use of CSS 3 and semantic HTML. This means that we have dropped the image gradients in favor of CSS gradients. As for the skins, the main goal of using the Lightweight render mode is that image gradients could be easily replaced by CSS gradients. Thus, the amount of data that the client browser should request is sensibly decreased. This functionality was added in **Q2 2015**.
 
 * **[Mobile]({%slug scheduler/mobile-support/responsive-adaptive-and-elastic-capabilities%})** -It is specifically designed to be used in mobile devices where its behavior is relatively different from the one on a desktop device.This functionality was added in Q1 2014.
 
