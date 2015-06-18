@@ -110,7 +110,7 @@ When in browser mode, the column looks and behaves like **GridBoundColumn**. It 
 
 To configure the column you can use these properties, valid for most of the other columns as well:
 
-* **EmptyDataText** - Sets or gets default text when the column is empty. Default value is "&nbsp;"
+* **EmptyDataText** - Sets or gets default text when the column is empty. Default value is "\&nbsp;"
 
 * **AllowSorting** - Gets or sets whether the column data can be sorted.
 
@@ -445,7 +445,7 @@ The following table lists the operators you can use in the expression of a calcu
 
 ## GridTemplateColumn
 
-**GridTemplateColumn** displays each cell in the column in accordance with a specified template. This lets you provide custom controls in the column. You can view and set the templates for this column type using the **Edit Templates** command on the **RadGrid**[ Smart Tag]({%slug grid/design-time/smarttag%}).
+**GridTemplateColumn** displays each cell in the column in accordance with a specified template. This lets you provide custom controls in the column. You can view and set the templates for this column type using the **Edit Templates** command on the **RadGrid** [Smart Tag]({%slug grid/design-time/smarttag%}).
 
 **Image 5**: Set templates for **GridTemplateColumn** using Smart Tag
 ![grid columntypes edittemplates](images/grid_columntypes_edittemplates.jpg)
@@ -569,7 +569,7 @@ When a download button is clicked in a **GridAttachmentColumn**, **RadGrid** fir
 
 * **AttachmentColumn** - Reference to the **GridAttachmentColumn** instance from which the download event is fired.
 
-* **AttachmentKeyValues** - A **Dictionary<string, object>** collection containing the data key values for the attachment's data source, as well as additional data*****.
+* **AttachmentKeyValues** - A **Dictionary<string, object>** collection containing the data key values for the attachment's data source, as well as additional data.
 
 * **FileName** - The file name that will be given to the downloaded attachment.
 
@@ -613,7 +613,7 @@ masterTable.fireCommand("DownloadAttachment", json);
 
 
 
->caution * The **AttachmentKeyValues** contains all entries for all the attachment keys, as well as two additional entries. The first contains the attachment's file name (with key "FileName"), while the second (with key "ColumnUniqueName" is the **UniqueName** of the **GridAttachmentColumn** instance. Omitting to specify the first entry will result in the attachment to be streamed as a file with a default name, while omitting to specify the **UniqueName** of the **GridAttachmentColumn** instance will cause the event to be fired from the first found **GridAttachmentColumn** in the parent **GridTableView's** columns collection. If more than one **GridAttachmentColumn** instance exists in the columns collection, specifying the correct column's unique name is essential.
+>caution The **AttachmentKeyValues** contains all entries for all the attachment keys, as well as two additional entries. The first contains the attachment's file name (with key "FileName"), while the second (with key "ColumnUniqueName" is the **UniqueName** of the **GridAttachmentColumn** instance. Omitting to specify the first entry will result in the attachment to be streamed as a file with a default name, while omitting to specify the **UniqueName** of the **GridAttachmentColumn** instance will cause the event to be fired from the first found **GridAttachmentColumn** in the parent **GridTableView's** columns collection. If more than one **GridAttachmentColumn** instance exists in the columns collection, specifying the correct column's unique name is essential.
 >
 
 

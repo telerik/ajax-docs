@@ -5,6 +5,10 @@ cd ../
 # Install latest Ruby gems (if any)
 bundle install --without development || { echo 'Installing Ruby gems failed.'; exit 1; }
 
+rm -rf '_site'
+mkdir '_site'
+echo > _site/web.config
+
 # Build the documentation
 bundle exec jekyll build --destination '_site' || { echo 'Building the documentation with Jekyll failed.'; exit 1; }
 

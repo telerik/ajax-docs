@@ -18,7 +18,7 @@ In number of cases it can be more convenient to have different edit/insert form 
 
 * when the command name passed through the **e.CommandName** argument is either **Edit**, **PerformInsert** or **Cancel**, hide the corresponding column in the grid and set it as read-only.
 
-* when the command name is **InitInsert**, cancel the default insert action and display the column editor for the hidden column by setting its **ReadOnly** property to **false**. The additional **Display="true"** setting is used when the **EditForm** attribute of the grid table is set to **InPlace**.****
+* when the command name is **InitInsert**, cancel the default insert action and display the column editor for the hidden column by setting its **ReadOnly** property to **false**. The additional **Display="true"** setting is used when the **EditForm** attribute of the grid table is set to **InPlace**.
 
 Note that you can extend the example to switch the visibility for multiple column editor instances on insert/update.
 
