@@ -18,7 +18,7 @@ This help articles shows how to include and use embedded and external jQuery wit
 
 1. [Including external jQuery](#including-external-jquery)
 
-1. [Using jQuery](#using-jquery)
+1. [Using the jQuery Brought by Telerik](#using-the-jquery-brought-by-telerik)
 
 1. [jQuery Version History in Telerik UI Controls](#jquery-version-history-in-telerik-ui-controls)
 
@@ -87,7 +87,7 @@ You can disable the jQuery scripts our controls bring by default via the followi
 >
 
 
-## Using jQuery
+## Using the jQuery Brought by Telerik
 
 After including the jQuery file you can start using it. There is a trick though - the jQuery object is available as **$telerik.$** instead of the default **$** or jQuery aliases. This is so to avoid compatibility issues with applications which already use (other versions of)jQuery. For more info you can check the [documentation of the noConflict	](http://docs.jquery.com/Core/jQuery.noConflict) method.
 
