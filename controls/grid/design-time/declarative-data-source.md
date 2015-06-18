@@ -40,11 +40,11 @@ The **SiteMapDataSource** control is associated to a data-bound control through 
 
 * **LinqDataSource**- Enables binding to an object or database using LINQ (Language Integrated Query).
 
-**LinqDataSource**supports a **ContextTypeName**property for specifying the object that encapsulates the data, with the **TableName** property to specify the field that returns the data collection.
+**LinqDataSource**supports a **ContextTypeName** property for specifying the object that encapsulates the data, with the **TableName** property to specify the field that returns the data collection.
 
 * **ObjectContainerDataSource**- Enables binding to an object with event-driven support for edits.
 
-**ObjectContainerDataSource**supports an **Instance**property for specifying the object that supplies the data. Events are raised for the SELECT, INSERT, DELETE, and UPDATE actions.
+**ObjectContainerDataSource** supports an **Instance** property for specifying the object that supplies the data. Events are raised for the SELECT, INSERT, DELETE, and UPDATE actions.
 
 ## Choosing the DataSource control
 
