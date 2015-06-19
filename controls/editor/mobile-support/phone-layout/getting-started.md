@@ -15,14 +15,14 @@ This article showcases the basic steps needed to get started with the **Phone La
 
 <div style="display:inline-block; margin-right:10px;">
 >caption Figure 1: Initial state of Phone Layout under a mobile device.
-
+<br/>
 <img alt="Phone Layout Editor - Initial state" src="./images/radeditor-not-editable.png" />
 </div>
 
 
 <div style="display:inline-block;">
 >caption Figure 2: Full screen (editable) mode of Phone Layout.
-
+<br/>
 <img alt="Phone Layout Editor - Initial state" src="./images/fullscreen-phone-layout.png" />
 </div>
 
