@@ -30,5 +30,5 @@ Among with the mobile-optimized UI, the **Mobile** rendering provides:
 
 ## See Also
 
-* [Phone Layout's Structure]()
-* [Getting Started with Phone Layout]()
+* [Getting Started with Phone Layout]({%slug editor/mobile-support/mobile-rendering/getting-started%})
+* [Element Structure]({%slug editor/mobile-support/mobile-rendering/elements-structure%})
