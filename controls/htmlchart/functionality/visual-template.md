@@ -14,9 +14,9 @@ You can implement custom visualization of **legend items**, **axis titles**, **l
 
 The function that will create the custom visual receives arguments that provide context appropriate for the element that called it. This can include the `rect` ([kendo.geometry.Rect](http://docs.telerik.com/kendo-ui/api/javascript/geometry/rect)) that defines where the visual will be rendered, `createVisual` - the function that can be used to get a default visual, and various `options` depending on the item type. You can find more examples in the Kendo UI online demos: [Line Charts - Custom Visuals](http://demos.telerik.com/kendo-ui/line-charts/visuals) and [Bar Charts - Custom Visuals](http://demos.telerik.com/kendo-ui/bar-charts/visuals).
 
-**Example 1** shows how you can customize the series and their legend items to create a 3D look. You can see it in action in the [HtmlChart - Custom Visuals](http://demos.telerik.com/aspnet-ajax/htmlchart/examples/functionality/visual/defaultcs.aspx) online demo.
+**Example 1** shows how you can customize the markers, series items and their legend items to create a 3D look. You can see it in action in the [HtmlChart - Custom Visuals](http://demos.telerik.com/aspnet-ajax/htmlchart/examples/functionality/visual-templates/defaultcs.aspx) online demo.
 
->caption Figure 1: A chart with custom visuals for its series and legend items. This is the result from Example 1.
+>caption Figure 1: A chart with custom visuals for its series, markers and legend items. This is the result from Example 1.
 
 ![Figure 1 - Custom Visual Template example](images/custom-visual-template-example.png)
 
@@ -82,17 +82,17 @@ The function that will create the custom visual receives arguments that provide 
 
 	**JavaScript**
 		
-		var drawing = kendo.drawing;
-		var geometry = kendo.geometry;
-		var columnWidth;
-		
+		var drawing = kendo.drawing,
+			geometry = kendo.geometry,
+			columnWidth;
+
 		function seriesHighLight(e) {
 			e.preventDefault();
 			if (e.series.name == "Product 1") {
 				e.visual.opacity(e.show ? 0.8 : 1);
 			}
 		}
-		
+
 		function createColumn(rect, color) {
 			var origin = rect.origin;
 			var center = rect.center();
@@ -114,10 +114,9 @@ The function that will create the custom visual receives arguments that provide 
 				}, {
 					offset: 1,
 					color: color
-				}
-				]
+				}]
 			});
-		
+
 			var path = new drawing.Path({
 				fill: gradient,
 				stroke: {
@@ -128,14 +127,14 @@ The function that will create the custom visual receives arguments that provide 
 				.arc(180, 0, radiusX, radiusY, true)
 				.lineTo(bottomRight.x, origin.y)
 				.arc(0, 180, radiusX, radiusY);
-		
+
 			var topArcGeometry = new geometry.Arc([center.x, origin.y], {
 				startAngle: 0,
 				endAngle: 360,
 				radiusX: radiusX,
 				radiusY: radiusY
 			});
-		
+
 			var topArc = new drawing.Arc(topArcGeometry, {
 				fill: {
 					color: color
@@ -148,15 +147,15 @@ The function that will create the custom visual receives arguments that provide 
 			group.append(path, topArc);
 			return group;
 		}
-		
-		function onChartLoad(sender, args) {
+
+		onChartLoad = function (sender, args) {
 			var kendoChart = sender.get_kendoWidget();
 			kendoChart.options.seriesDefaults.highlight.toggle = seriesHighLight;
 			kendoChart.options.panes[0].clip = false;
 			kendoChart.redraw();
 		};
-		
-		function markersVisual(e) {
+
+		markersVisual = function (e) {
 			var center = e.rect.center();
 			var radius = (columnWidth || 70) / 2;
 			var color = e.options.border.color;
@@ -166,20 +165,21 @@ The function that will create the custom visual receives arguments that provide 
 					width: 2.5
 				}
 			}).moveTo(center.x - radius, center.y)
-				.arc(180, 0, radius, 15, true);
+			.arc(180, 0, radius, 15, true);
 			return path;
 		};
-		
-		function columnVisual(e) {
+
+		columnVisual = function (e) {
 			var rect = e.rect;
 			if (!columnWidth)
 				columnWidth = rect.width();
 			return createColumn(rect, e.options.color);
 		};
-		
-		function legendItemVisual(e) {
+
+		legendItemVisual = function (e) {
 			var column;
 			var color = e.options.markers.background;
+			var legendLabelsColor = e.options.labels.color ? e.options.labels.color : "#000";
 			var rect = new geometry.Rect([0, 0], [120, 50]);
 			var layout = new drawing.Layout(rect, {
 				spacing: 5,
@@ -202,27 +202,26 @@ The function that will create the custom visual receives arguments that provide 
 						width: 2
 					}
 				}).moveTo(rect.x, rect.y)
-					.arc(180, 0, 10, 5, true);
+				.arc(180, 0, 10, 5, true);
 			} else {
 				column = createColumn(new geometry.Rect([0, 0], [15, 10]), color);
 			}
 			var label = new drawing.Text(e.series.name, [0, 0], {
 				fill: {
-					color: "#000"
+					color: legendLabelsColor
 				}
 			})
-		
+
 			layout.append(column, label);
 			layout.reflow();
 			var group = new drawing.Group().append(layout, overlay);
 			return group;
-		}
-
+		};
 
 
 ## See Also
 
- * [Live Demo: HtmlChart Custom Visuals](http://demos.telerik.com/aspnet-ajax/htmlchart/examples/functionality/visual/defaultcs.aspx)
+ * [Live Demo: HtmlChart Custom Visuals](http://demos.telerik.com/aspnet-ajax/htmlchart/examples/functionality/visual-templates/defaultcs.aspx)
 
  * [Live Demo: Kendo Drawing API](http://demos.telerik.com/kendo-ui/drawing/index)
 
