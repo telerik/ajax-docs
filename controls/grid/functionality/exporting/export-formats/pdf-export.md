@@ -24,11 +24,11 @@ This help article discuss different techniques which allow you to modify **RadGr
 
 * [Border support](#border-support)
 
-* [Fonts / Unicode support](#fonts-/-unicode-support)
+* [Fonts / Unicode support](#fonts--unicode-support)
 
 * [Exporting HTML tables](#exporting-html-tables)
 
-* [Exporting images / using third-party image-processing tools](#exporting-images-/-using-third-party-image-processing-tools)
+* [Exporting images / using third-party image-processing tools](#exporting-images--using-third-party-image-processing-tools)
 
 * [Resizing columns](#resizing-columns)
 
@@ -42,9 +42,9 @@ This help article discuss different techniques which allow you to modify **RadGr
 
 * [Content Encryption](#content-encryption)
 
-* [PDF Export Q & A](#pdf-export-q-&-a)
+* [PDF Export Q & A](#pdf-export-q--a)
 
-* [Unsupported features / scenarios](#unsupported-features-/-scenarios)
+* [Unsupported features / scenarios](#unsupported-features--scenarios)
 
 * [Exceptions](#exceptions)
 
