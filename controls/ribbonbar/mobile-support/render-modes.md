@@ -54,7 +54,7 @@ A **global setting** in the web.config file that will affect the entire applicat
 
 ````ASP.NET
 <appSettings>
-    <add key="Telerik.Web.UI.Menu.RenderMode" value="lightweight" />
+    <add key="Telerik.Web.UI.RibbonBar.RenderMode" value="lightweight" />
 </appSettings>
 ````
 
