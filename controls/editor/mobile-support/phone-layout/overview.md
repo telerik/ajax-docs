@@ -16,7 +16,7 @@ As of **Q2 2015**, **RadEditor** provides **Mobile** rendering, that is especial
 
 ![](./images/AdaptiveEditor_Presentation.png)
 
-Among the core features of the phone-layout Mobile rendering are:
+Among the core features of the Phone Layout **Mobile** rendering are:
 
 * Interactive fullscreen-editing;
 * Improved built-in tools and UI for optimal experience in mobile browsers;
