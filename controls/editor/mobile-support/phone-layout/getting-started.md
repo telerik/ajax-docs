@@ -27,6 +27,9 @@ This article showcases the basic steps needed to get started with the **Phone La
 </div>
 
 
+>important **Phone Layout** is supported only under browsers where [Flex Model](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Flexible_boxes) is available.
+
+
 You can utilize the **Phone Layout** by following these steps:
 
 1. Set up **RadEditor** on an ASP.NET page by following the general [Getting Started]({%slug editor/getting-started/overview%}) article.
