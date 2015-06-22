@@ -35,7 +35,7 @@ There are two ways to configure the rendering mode of the controls:
 
 ````ASPNET
 <telerik:RadTabStrip RenderMode="Lightweight" ID="RadTabStrip1" runat="server" >
-</telerik:RadScheduler>
+</telerik:RadTabStrip>
 ````
 
 
@@ -54,7 +54,7 @@ RadTabStrip1.RenderMode = Telerik.Web.UI.RenderMode.Lightweight
 
 ````XML
 <appSettings>
-  <add key="Telerik.Web.UI.RadTabStrip.RenderMode" value="Lightweight" />
+  <add key="Telerik.Web.UI.TabStrip.RenderMode" value="Lightweight" />
 </appSettings>
 ````
 
