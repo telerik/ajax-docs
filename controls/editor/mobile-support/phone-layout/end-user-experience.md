@@ -2,7 +2,7 @@
 title: End User Experience
 page_title: Phone Layout End User Experience | RadEditor for ASP.NET AJAX Documentation
 description: End User Experience
-slug: editor/mobile-support/mobile-rendering/end-user-experience
+slug: editor/mobile-support/phone-layout/end-user-experience
 tags: editor,support,mobile,rendering,end, user, experience, phone, layout
 published: True
 position: 3
@@ -62,9 +62,10 @@ To change the current tab, the user should press the **Tab Chooser** button (![]
 ![](./images/end-user-experience/changing-tab-1.png)![](./images/end-user-experience/changing-tab-2.png)
 
 
-Additionally, tabs can be configured to be shown only when a certain element is selected. This can be controlled via the **Context** property of the **EditorToolGroup** items. You can read more about that in the [Toolbar Configuration]({%slug editor/mobile-support/mobile-rendering/toolbar-configuration%}) article.
+Additionally, tabs can be configured to be shown only when a certain element is selected. This can be controlled via the **Context** property of the **EditorToolGroup** items. You can read more about that in the [Toolbar Configuration]({%slug editor/mobile-support/phone-layout/toolbar-configuration%}) article.
 
- In **Figure 6**, you can see how selecting an `<img>` element in the content and opening the **ToolZone**, automatically shows the built-in **Image** tab.
+In **Figure 6**, you can see how selecting an `<img>` element in the content and opening the **ToolZone**, automatically shows the built-in **Image** tab.
+
 
 >caption Figure 6: Working with contextual tabs.
 
@@ -82,9 +83,9 @@ The user can edit the content as HTML by switching to HTML mode. This is done by
 
 ## See Also
 
-* [Getting Started]({%slug editor/mobile-support/mobile-rendering/getting-started%})
-* [Elements Structure]({%slug editor/mobile-support/mobile-rendering/elements-structure%})
-* [Toolbar Configuration]({%slug editor/mobile-support/mobile-rendering/toolbar-configuration%})
+* [Getting Started]({%slug editor/mobile-support/phone-layout/getting-started%})
+* [Elements Structure]({%slug editor/mobile-support/phone-layout/elements-structure%})
+* [Toolbar Configuration]({%slug editor/mobile-support/phone-layout/toolbar-configuration%})
 
 <style>
 img{

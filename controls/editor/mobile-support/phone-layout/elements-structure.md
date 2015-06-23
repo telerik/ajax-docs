@@ -2,7 +2,7 @@
 title: Elements Structure
 page_title: Phone Layout Elements Structure | RadEditor for ASP.NET AJAX Documentation
 description: Mobile Rendering
-slug: editor/mobile-support/mobile-rendering/elements-structure
+slug: editor/mobile-support/phone-layout/elements-structure
 tags: editor,support,mobile,rendering,structure
 published: True
 position: 2
@@ -32,7 +32,7 @@ This article shows the default elements structure of a **RadEditor** with **Phon
 
 	* **Tools Navigator**
 	
-		* **Tab Chooser** - lets you navigate to different predefined set of tools (e.g., **Home**, **Insert**, **Table**, **Link**, **Image**). The **Insert** option (**Figure 2**) opens a list with the [mobile dialogs]({%slug editor/mobile-support/mobile-rendering/dialogs%}). The **Table**, **Link**, **Image** options open mobile dialogs to configure attributes for the corresponding HTML element.
+		* **Tab Chooser** - lets you navigate to different predefined set of tools (e.g., **Home**, **Insert**, **Table**, **Link**, **Image**). The **Insert** option (**Figure 2**) opens a list with the [mobile dialogs]({%slug editor/mobile-support/phone-layout/dialogs%}). The **Table**, **Link**, **Image** options open mobile dialogs to configure attributes for the corresponding HTML element.
 		
 			>caption **Figure 2**: Navigation to the mobile Insert Dialogs of RadEditor with Phone Layout.
 			
@@ -46,11 +46,11 @@ This article shows the default elements structure of a **RadEditor** with **Phon
 	
 	* **Color Pickers** - mobile color pickers to control the foreground, background and border colors of HTML elements.
 
-You can find the full description of all the tools from the toolbar in the [Toolbars Overview]({%slug editor/functionality/toolbars/overview%}) article. You can also customize the default toolbar of the mobile editor as shown in the [Phone Layout Toolbar Configuration]({%slug editor/mobile-support/mobile-rendering/toolbar-configuration%}) article.
+You can find the full description of all the tools from the toolbar in the [Toolbars Overview]({%slug editor/functionality/toolbars/overview%}) article. You can also customize the default toolbar of the mobile editor as shown in the [Phone Layout Toolbar Configuration]({%slug editor/mobile-support/phone-layout/toolbar-configuration%}) article.
 
 ## See Also
 
-* [Phone Layout Overview]({%slug editor/mobile-support/mobile-rendering/overview%})
-* [Phone Layout Dialogs]({%slug editor/mobile-support/mobile-rendering/dialogs%})
-* [Phone Layout ToolBar Configuration]({%slug editor/mobile-support/mobile-rendering/toolbar-configuration%})
+* [Phone Layout Overview]({%slug editor/mobile-support/phone-layout/overview%})
+* [Phone Layout Dialogs]({%slug editor/mobile-support/phone-layout/dialogs%})
+* [Phone Layout ToolBar Configuration]({%slug editor/mobile-support/phone-layout/toolbar-configuration%})
 * [Toolbars Overview]({%slug editor/functionality/toolbars/overview%})

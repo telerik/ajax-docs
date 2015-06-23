@@ -2,7 +2,7 @@
 title: Toolbar Configuration
 page_title: Phone Layout Toolbar Configuration | RadEditor for ASP.NET AJAX Documentation
 description: Toolbar Configuration
-slug: editor/mobile-support/mobile-rendering/toolbar-configuration
+slug: editor/mobile-support/phone-layout/toolbar-configuration
 tags: editor,support,mobile,rendering,toolbar,configuration
 published: True
 position: 4

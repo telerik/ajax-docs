@@ -2,7 +2,7 @@
 title: Overview
 page_title: Phone Layout Overview | RadEditor for ASP.NET AJAX Documentation
 description: Mobile Rendering
-slug: editor/mobile-support/mobile-rendering/overview
+slug: editor/mobile-support/phone-layout/overview
 tags: editor,support,mobile,rendering,overview
 published: True
 position: 0
@@ -30,5 +30,5 @@ Among the core features of the Phone Layout **Mobile** rendering are:
 
 ## See Also
 
-* [Getting Started with Phone Layout]({%slug editor/mobile-support/mobile-rendering/getting-started%})
-* [Element Structure]({%slug editor/mobile-support/mobile-rendering/elements-structure%})
+* [Getting Started with Phone Layout]({%slug editor/mobile-support/phone-layout/getting-started%})
+* [Element Structure]({%slug editor/mobile-support/phone-layout/elements-structure%})

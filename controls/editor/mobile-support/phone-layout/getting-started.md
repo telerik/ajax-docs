@@ -2,7 +2,7 @@
 title: Getting Started
 page_title: Phone Layout Getting Started | RadEditor for ASP.NET AJAX Documentation
 description: Getting Started
-slug: editor/mobile-support/mobile-rendering/getting-started
+slug: editor/mobile-support/phone-layout/getting-started
 tags: editor,support,mobile,rendering,overview, getting, started
 published: True
 position: 1
@@ -47,13 +47,13 @@ You can utilize the **Phone Layout** by following these steps:
 
 Initially, the **RadEditor** will load in **Preview** mode (**Figure 1**). Clicking the **Edit Content** button (![](./images/edit-contnet-button.png)) will enable editing and the **Phone Layout** will switch to full screen mode(**Figure 2**).
 
-You can find further details about using the **Phone Layout** as end-user in the [End User Experience]({%slug editor/mobile-support/mobile-rendering/end-user-experience%}) article.
+You can find further details about using the **Phone Layout** as end-user in the [End User Experience]({%slug editor/mobile-support/phone-layout/end-user-experience%}) article.
 
-You can continue reading the [Toolbar Configuration]({%slug editor/mobile-support/mobile-rendering/toolbar-configuration%}) article to learn how to rearrange, add or remove tools regarding **Phone Layout**.
+You can continue reading the [Toolbar Configuration]({%slug editor/mobile-support/phone-layout/toolbar-configuration%}) article to learn how to rearrange, add or remove tools regarding **Phone Layout**.
 
 ## See Also 
 
-* [Phone Layout Overview]({%slug editor/mobile-support/mobile-rendering/overview%})
-* [Element Structure]({%slug editor/mobile-support/mobile-rendering/elements-structure%})
-* [End User Experience]({%slug editor/mobile-support/mobile-rendering/end-user-experience%})
-* [Basic Configurations]({%slug editor/mobile-support/mobile-rendering/toolbar-configuration%}) 
+* [Phone Layout Overview]({%slug editor/mobile-support/phone-layout/overview%})
+* [Element Structure]({%slug editor/mobile-support/phone-layout/elements-structure%})
+* [End User Experience]({%slug editor/mobile-support/phone-layout/end-user-experience%})
+* [Basic Configurations]({%slug editor/mobile-support/phone-layout/toolbar-configuration%}) 
