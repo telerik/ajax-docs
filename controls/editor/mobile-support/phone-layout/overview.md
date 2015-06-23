@@ -16,13 +16,13 @@ As of **Q2 2015**, **RadEditor** provides **Mobile** rendering, that is especial
 
 ![](./images/AdaptiveEditor_Presentation.png)
 
-Among with the mobile-optimized UI, the **Mobile** rendering provides:
+Among the core features of the Phone Layout **Mobile** rendering are:
 
-* Interactive fullscreen-editing layout;
-* Improved built-in tools and UI for optimal experience for the mobile browsers;
+* Interactive fullscreen-editing;
+* Improved built-in tools and UI for optimal experience in mobile browsers;
 * Full control over the selection, via built-in highlight functionality;
 * Contextual toolbar for tables, images and hyperlinks;
-* Buttons to easily navigate through multiple tools, toggle the device's keyboard, switch to HTML mode, etc.;
+* Touch-optimized UI to easily navigate through multiple tools - toggle the device's keyboard, switch to HTML mode, etc.;
 * Flexible design, enabling you to re-arrange the toolbars;
 * and many more features.
 
