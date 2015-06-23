@@ -8,7 +8,7 @@ published: True
 position: 1
 ---
 
-# Phone Layout Elements Structure
+# Elements Structure
 
 You can find the default elements structure of the **RadEditor** with **Phone Layout** rendering in **Figure 1** and details on the phone specific elements below the figure.
 
