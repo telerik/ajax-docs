@@ -10,31 +10,44 @@ position: 3
 
 # End User Experience
 
-You can find here some basic examples how **Phone Layout** can be used by the end-user.  
+This article shows some basic examples how the end user can interact with the phone-optimized RadEditor control:
+
+* [Start Editing](#start-editing)
+
+* [Using the Tools](#using-the-tools)
+
+* [Using Tabs and Contextual Tabs](#using-tabs-and-contextual-tabs)
+
+* [Toggling HTML Mode](#toggling-html-mode)
+
+ 
 
 ## Start Editing
 
->caption Figure 1: Phone Layout in Preview mode.
+Initially, **RadEditor** is loaded in **Preview** mode (**Figure 1**). In order to start editing the content (full screen mode), the user should tap either the content, or the **Edit Content** button (![](./images/edit-contnet-button.png)). 
+
+>caption Figure 1: Phone Layout in Preview mode and how to start editing
 
 ![](./images/end-user-experience/preview-mode.png)
 
-Initially, **RadEditor** is loaded in **Preview** mode (**Figure 1**). In order to start editing the content (full screen mode), the user should tap either the content, or the **Edit Content** button (![](./images/edit-contnet-button.png)). 
+In full screen mode, user can edit the text and operate with the header tools.
 
->caption Figure 2: Full screen mode
+>caption Figure 2: Full screen mode where you can edit the content
 
 ![](./images/end-user-experience/full-screen-mode.png)
 
-In full screen mode, user can edit the text and operate with the header tools. 
+
 
 ## Using the Tools
+
+The **ToolZone** can be shown by pressing the **Toggle ToolZone** button from the Header Tools (![](./images/toggle-toolzone.png)). Using the tools will affect the current selection.
 
 >caption Figure 3: Toggling the ToolZone.
 
 ![](./images/end-user-experience/toggle-toolzone.png)
+ 
 
-The **ToolZone** can be shown by pressing the **Toggle ToolZone** button from the Header Tools (![](./images/toggle-toolzone.png)). Using the tools will affect the current selection. 
-
-The animation in **Figure 4** shows how user would be able to use the tools and edit or format the content.
+The animation in **Figure 4** shows how a user would be able to use the tools and edit or format the content.
 
 >caption Figure 4: User experience with content editing. 
 
@@ -42,13 +55,16 @@ The animation in **Figure 4** shows how user would be able to use the tools and 
 
 ## Using Tabs and Contextual Tabs
 
+To change the current tab, the user should press the **Tab Chooser** button (![](./images/toggle-toolzone.png)). As shown in **Figure 5**, a pop-up with all available tabs will be shown. Tapping on one of them, will load the corresponding tools from this tab into the **ToolZone**.
+
 >caption Figure 5: Changing the Tab.
 
 ![](./images/end-user-experience/changing-tab-1.png)![](./images/end-user-experience/changing-tab-2.png)
 
-To change the current tab, user should press the **Tab Chooser** button (![](./images/toggle-toolzone.png)). As shown in **Figure 5**, a pop-up with all available tabs will be shown. Tapping on one of them, will load the corresponding tools from this tab into the **ToolZone**.
 
-Additionally, tabs can be configured to be shown only when a certain element is selected. This can be controlled via the **Context** property of the **EditorToolGroup** items. You can read more about that in the [Toolbar Configuration]({%slug editor/mobile-support/mobile-rendering/toolbar-configuration%}) article. In **Figure 6**, you can see how selecting an `<img>` element in the content, opening the **ToolZone**, automatically shows the built-in **Image** tab.
+Additionally, tabs can be configured to be shown only when a certain element is selected. This can be controlled via the **Context** property of the **EditorToolGroup** items. You can read more about that in the [Toolbar Configuration]({%slug editor/mobile-support/mobile-rendering/toolbar-configuration%}) article.
+
+ In **Figure 6**, you can see how selecting an `<img>` element in the content and opening the **ToolZone**, automatically shows the built-in **Image** tab.
 
 >caption Figure 6: Working with contextual tabs.
 
@@ -56,11 +72,13 @@ Additionally, tabs can be configured to be shown only when a certain element is 
 
 ## Toggling HTML Mode
 
+The user can edit the content as HTML by switching to HTML mode. This is done by tapping  the **Toggle HTML** button (![](./images/html-mode-button.png)) from the header tools. This will show the content's HTML. Once user is done, tapping the same button will switch the mode back to Design. 
+
 >caption Figure 7: Toggling HTML mode.
 
 ![](./images/end-user-experience/html-mode.png)
 
-The user can edit the content as HTML by switching to HTML mode. This is done by tapping  the **Toggle HTML** button (![](./images/html-mode-button.png)) from the header tools. This will show the content's HTML. Once user is done, tapping the same button will switch the mode back to Design. 
+
 
 ## See Also
 
