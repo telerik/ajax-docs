@@ -14,16 +14,16 @@ position: 1
 This article showcases the basic steps needed to get started with the **Phone Layout** of **RadEditor** in your project. 
 
 <div style="display:inline-block; margin-right:10px;">
->caption Figure 1: Initial state of Phone Layout under a mobile device.
+>caption Figure 1: Preview mode of RadEditor <br />with Phone Layout under a mobile device.
 <br/>
-<img alt="Phone Layout Editor - Initial state" src="./images/radeditor-not-editable.png" />
+<img alt="Phone Layout Editor - Preview mode" src="./images/preview-mode.png" />
 </div>
 
 
 <div style="display:inline-block;">
->caption Figure 2: Full screen (editable) mode of Phone Layout.
+>caption Figure 2: Full screen (editable) mode <br />of RadEditor with Phone Layout.
 <br/>
-<img alt="Phone Layout Editor - Initial state" src="./images/fullscreen-phone-layout.png" />
+<img alt="Phone Layout Editor - Full screen mode" src="./images/full-screen-mode.png" />
 </div>
 
 
@@ -45,11 +45,11 @@ You can utilize the **Phone Layout** by following these steps:
 
 1. Run the created page under your phone's browser.
 
-Initially, the **RadEditor** will load in preview mode (**Figure 1**). Clicking the **Edit Content** button (![](./images/edit-contnet-button.png)) will enable editing and the **Phone Layout** will switch to full screen (**Figure 2**).
+Initially, the **RadEditor** will load in **Preview** mode (**Figure 1**). Clicking the **Edit Content** button (![](./images/edit-contnet-button.png)) will enable editing and the **Phone Layout** will switch to full screen mode(**Figure 2**).
 
-You can find further details about using the Phone Layout as end-user in the [End User Experience]({%slug editor/mobile-support/mobile-rendering/end-user-experience%}) article.
+You can find further details about using the **Phone Layout** as end-user in the [End User Experience]({%slug editor/mobile-support/mobile-rendering/end-user-experience%}) article.
 
-You can continue reading the [Basic Configurations]({%slug editor/mobile-support/mobile-rendering/toolbar-configuration%}) article to learn how to rearrange, add or remove tools regarding **Phone Layout**.
+You can continue reading the [Toolbar Configuration]({%slug editor/mobile-support/mobile-rendering/toolbar-configuration%}) article to learn how to rearrange, add or remove tools regarding **Phone Layout**.
 
 ## See Also 
 
