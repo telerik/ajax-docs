@@ -17,8 +17,6 @@ position: 1
 The **RadComboBoxItem** object is returned by the **getItem** method of the **RadComboBoxItemCollection** object. It is also exposed by the eventArgs of many client-side events (**eventArgs.get_item()**). The following table lists the most important methods:
 
 
->caption  
-
 |  **Name**  |  **Parameters**  |  **Return Type**  |  **Description**  |
 | ------ | ------ | ------ | ------ |
 | **highlight** |none|none|Highlights an item.|
@@ -26,23 +24,28 @@ The **RadComboBoxItem** object is returned by the **getItem** method of the **Ra
 | **select** |none|none|Selects an item.|
 | **disable** |none|none|Disables an item.|
 | **enable** |none|none|Enables an item.|
-| **get_comboBox** |none|object|Gets the parent RadComboBox control.
+| **get_comboBox** |none|object|Gets the parent RadComboBox control.|
+
 
 ````ASPNET
-	    <script language="javascript" type="text/javascript">
-	        function OnClientSelectedIndexChangingHandler(sender, eventArgs) {
-	            var item = eventArgs.get_item();
-	            var combo = item.get_comboBox();
-	        }
-	    </script>
-	
-	    <telerik:radcombobox id="RadComboBox1" 
-	        runat="server" 
-	        onclientselectedindexchanging="OnClientSelectedIndexChangingHandler">
-	    </telerik:radcombobox>
+
+<script language="javascript" type="text/javascript">
+    function OnClientSelectedIndexChangingHandler(sender, eventArgs) {
+        var item = eventArgs.get_item();
+        var combo = item.get_comboBox();
+    }
+</script>
+
+<telerik:radcombobox id="RadComboBox1" 
+    runat="server" 
+    onclientselectedindexchanging="OnClientSelectedIndexChangingHandler">
+</telerik:radcombobox>
+
 ````
 
-|
+
+|  **Name**  |  **Parameters**  |  **Return Type**  |  **Description**  |
+| ------ | ------ | ------ | ------ |
 | **get_highlighted** |none|boolean| **True** if the item is highlighted. To highlight an item use the **highlight** method.|
 | **get_index** |none|int|Gets the index of an item in the Items collection.|
 | **get_enabled** |none|boolean| **True** if the item is enabled. To enable an item use the **enable** method.|
@@ -55,21 +58,26 @@ The **RadComboBoxItem** object is returned by the **getItem** method of the **Ra
 | **get_isSeparator** |none|boolean|True if an item is separator (IsSeparator="True").|
 | **get_attributes** |none|collection|Returns a collection of custom attributes defined for an item.|
 | **getAttribute** |String|String|Returns a specific attribute from the Attributes collection.|
-| **setAttribute** |String, String|none|Adds an attribute to the Attributes collection.
+| **setAttribute** |String, String|none|Adds an attribute to the Attributes collection.|
+
+
 
 ````JavaScript
-	     var combo = $find("<%= RadComboBox2.ClientID %>");
-	     var item = combo.findItemByText("Apples");
-	
-	     //get a custom attribute called "Color"
-	     item.get_attributes().getAttribute("Color");
-	
-	     //set new custom attribute called "Size"
-	     item.get_attributes().setAttribute("Size", "2");
+
+var combo = $find("<%= RadComboBox2.ClientID %>");
+var item = combo.findItemByText("Apples");
+
+//get a custom attribute called "Color"
+item.get_attributes().getAttribute("Color");
+
+//set new custom attribute called "Size"
+item.get_attributes().setAttribute("Size", "2");
 	
 ````
 
-|
+
+|  **Name**  |  **Parameters**  |  **Return Type**  |  **Description**  |
+| ------ | ------ | ------ | ------ |
 | **get_visible** |none|boolean|True if the item is visible.|
 | **set_visible** |boolean|none|Sets the visibility of an item.|
 | **show** |none|none|Makes the item visible, same as set_visible(true).|
@@ -79,7 +87,9 @@ The **RadComboBoxItem** object is returned by the **getItem** method of the **Ra
 | **get_disabledImageUrl** |none|string|Returns the full path to the image of a disabled item.|
 | **set_disabledImageUrl** |string|none|Sets the **DisabledImageUrl** property of an item.|
 | **findControl** |string|object|Returns the object which is in the item template.|
-| **get_element** |none|HTML element|Returns the <LI> HTML element of an item.|
+| **get_element** |none|HTML element|Returns the `<LI>` HTML element of an item.|
+
+
 
 # See Also
 

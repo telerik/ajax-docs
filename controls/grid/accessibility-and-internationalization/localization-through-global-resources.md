@@ -11,8 +11,7 @@ position: 4
 # Localization through Global Resources
 
 
-
-From **UI for ASP.NET AJAX Q2 2010** onwards,*RadGrid* supports built-in localization through Global resources. Similar to **RadEditor**and **RadScheduler**, you can use the resx files to localize the control with minimum efforts.
+From **UI for ASP.NET AJAX Q2 2010** onwards,*RadGrid* supports built-in localization through Global resources. Similar to **RadEditor** and **RadScheduler**, you can use the resx files to localize the control with minimum efforts.
 
 ## Using the resource file
 

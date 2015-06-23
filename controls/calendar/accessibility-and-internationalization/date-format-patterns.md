@@ -44,7 +44,7 @@ The table below shows a list of patterns that can be combined to create date for
 |MMMM|The full name of the month.|
 |y|The year without the century. If the year without the century is less than 10, with no leading zero. (Only if used in the context of a longer pattern. A single "y" on its own represents the Month year pattern.)|
 |yy|the year without the century. If the year without the century is less than 10, with a leading zero.|
-|yyy|The year in four digits, including the century.|
+|yyyy|The year in four digits, including the century.|
 |gg|The period or era (e.g. "A.D."). This pattern is ignored if the date to be formatted does not have an associated period or era.|
 |h|The hour in a 12-hour clock. Single-digit hours have no leading zero.|
 |hh|The hour in a 12-hour clock. Single-digit hours have a leading zero.|

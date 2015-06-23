@@ -62,7 +62,7 @@ Protected Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As GridComman
         If command.Second.ToString = "CategoryddColumn" Then
             e.Canceled = True
             Dim filter As GridFilteringItem = CType(e.Item, GridFilteringItem)
- CType(filter("CategoryName").Controls(0), TextBox).Text = CType(filter("CategoryddColumn").Controls(0)), TextBox).Text   
+ CType(filter("CategoryName").Controls(0), TextBox).Text = CType(filter("CategoryddColumn").Controls(0), TextBox).Text   
             command.Second = "CategoryName"
             filter.FireCommandEvent("Filter", New Pair(command.First, "CategoryName"))
         End If

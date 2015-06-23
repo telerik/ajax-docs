@@ -19,28 +19,18 @@ The **RadGrid** filtering menu is implemented using a single object server-side,
 Suppose you want to remove a filtering option from the menu of a column while leaving it available in the menu of another column that has the same data type. You can accomplish this in the following way:
 
 1. Add a handler for the **Init** event of the grid. In the **Init** event handler,
-
-1. Remove the filtering function from the **FilterMenu** of the grid. This removes it from the menu of all the columns in the grid.
-
-1. Change the menu item for the "Custom" filtering function so that its text is the name of the filtering function you removed.
-
+	1. Remove the filtering function from the **FilterMenu** of the grid. This removes it from the menu of all the columns in the grid.
+	1. Change the menu item for the "Custom" filtering function so that its text is the name of the filtering function you removed.
 1. On any column that should allow the removed filtering function, set the **FilterListOptions** property to **VaryByDataTypeAllowCustom**. This adds a "Custom" option (which now looks like the removed filtering function) to the end of the filter menu for that column.
 
 1. Add a handler for the **ItemCommand** event of the grid. In the **ItemCommand** event handler,
-
-1. Identify commands from the filter menu by checking that the value of **e.CommandName** is **RadGrid.FilterCommandName**.
-
-1. The value of **e.CommandArgument** is a **Pair** object that contains the name of the filtering function and the **UniqueName** of the column.
-
-1. When the filtering function is "Custom", change it to the name of the filtering function you removed.
-
-1. As an alternate approach, when the filtering function is "Custom", you can
-
-* Set **e.Canceled** to **True** to cancel the default filtering.
-
-* Set the **FilterExpression** property of the table that contains the column to a valid filter expression. Be sure to honor any existing filter expression that is already set.
-
-* Rebind the grid to apply the filter expression.
+	1. Identify commands from the filter menu by checking that the value of **e.CommandName** is **RadGrid.FilterCommandName**.
+	1. The value of **e.CommandArgument** is a **Pair** object that contains the name of the filtering function and the **UniqueName** of the column.
+	1. When the filtering function is "Custom", change it to the name of the filtering function you removed.
+	1. As an alternate approach, when the filtering function is "Custom", you can
+		* Set **e.Canceled** to **True** to cancel the default filtering.
+		* Set the **FilterExpression** property of the table that contains the column to a valid filter expression. Be sure to honor any existing filter expression that is already set.
+		* Rebind the grid to apply the filter expression.
 
 ## Example 1: Changing the filter function name
 

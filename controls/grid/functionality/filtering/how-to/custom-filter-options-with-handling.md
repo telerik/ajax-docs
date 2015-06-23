@@ -17,22 +17,14 @@ position: 13
 You can replace the items in the filtering menu with your own custom options, and add an event handler filter the records based on your custom filter functions. To accomplish this goal:
 
 1. In the **Page_Init** event handler,
-
-2. Clear the **FilterMenu.Items** collection.
-
-3. Create your own menu items, setting their **Text** and **Value** properties to reflect your custom filtering options.
-
-4. Attach an **OnClick** event handler of the filtering menu (RadContextMenu).
-
-5. In the **OnClick** event handler, filter the data based on your custom filter function. You can do this in two ways:
-
+	1. Clear the **FilterMenu.Items** collection.	
+	2. Create your own menu items, setting their **Text** and **Value** properties to reflect your custom filtering options.
+	3. Attach an **OnClick** event handler of the filtering menu (RadContextMenu).
+2. In the **OnClick** event handler, filter the data based on your custom filter function. You can do this in two ways:
 	* If the filter function is not one that is supported by the grid's built-in filtering mechanism, rebind the grid to a newly filtered data set.
-
 	* If the filter function can be handled using the grid's built-in filtering mechanism,
-
-6. Get a reference to the current **GridFilteringItem**.
-
-7. Call its **FireComandEvent** method. The **FireCommandEvent** method takes two arguments, the event name ("Filter") and a pair containing the filter function name and column name.
+		1. Get a reference to the current **GridFilteringItem**.
+		2. Call its **FireComandEvent** method. The **FireCommandEvent** method takes two arguments, the event name ("Filter") and a pair containing the filter function name and column name.
 
 The following example illustrates this technique by substituting a single filter item that uses one of the built-in filter functions:
 

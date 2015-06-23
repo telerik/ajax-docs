@@ -18,6 +18,6 @@ To use filtering for detail tables you can either:
 
 * Set **RadGrid.AllowFilteringByColumn**. This enables filtering for all tables in the grid;
 
-* Set **GridTableView.AllowFilteringByColumn**for each table in which you want to enable filtering.
+* Set **GridTableView.AllowFilteringByColumn** for each table in which you want to enable filtering.
 
 ![DetailTable filtering](images/grd_DetailTableFiltering.png)

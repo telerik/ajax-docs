@@ -162,50 +162,51 @@ The default value for the **ForceExtractValue** property is "None", which means 
 
 Automatic operations through the **DataSource** control are not supported when you use standard **WebUserControl** as a custom edit form. If you are using a custom edit form, there are three options for implementing the data source operations:
 
-1. Make the user control class (which represents your user control) implement the *IBindableControl *interface as follows:
+1. Make the user control class (which represents your user control) implement the *IBindableControl* interface as follows:
 
 	**ASP.NET**
 
-	<telerik:RadGrid ID="RadGrid1" AllowSorting="true" AllowPaging="true" DataSourceID="SqlDataSource1"
-	  runat="server">
-	  <MasterTableView DataKeyNames="ProductID" AllowAutomaticDeletes="true" AllowAutomaticUpdates="true"
-	    AllowAutomaticInserts="true" AutoGenerateColumns="false" CommandItemDisplay="Top">
-	    <EditFormSettings EditFormType="WebUserControl" UserControlName="WebUserControl.ascx" />
-	    <Columns>
-	      <telerik:GridButtonColumn Text="Delete" CommandName="Delete" HeaderStyle-Width="30px" />
-	      <telerik:GridEditCommandColumn HeaderStyle-Width="30px" />
-	      <telerik:GridBoundColumn DataField="ProductID" HeaderText="ProductID" />
-	      <telerik:GridBoundColumn DataField="ProductName" HeaderText="ProductName" />
-	    </Columns>
-	  </MasterTableView>
-	</telerik:RadGrid>
+		<telerik:RadGrid ID="RadGrid1" AllowSorting="true" AllowPaging="true" DataSourceID="SqlDataSource1"
+		  runat="server">
+		  <MasterTableView DataKeyNames="ProductID" AllowAutomaticDeletes="true" AllowAutomaticUpdates="true"
+			AllowAutomaticInserts="true" AutoGenerateColumns="false" CommandItemDisplay="Top">
+			<EditFormSettings EditFormType="WebUserControl" UserControlName="WebUserControl.ascx" />
+			<Columns>
+			  <telerik:GridButtonColumn Text="Delete" CommandName="Delete" HeaderStyle-Width="30px" />
+			  <telerik:GridEditCommandColumn HeaderStyle-Width="30px" />
+			  <telerik:GridBoundColumn DataField="ProductID" HeaderText="ProductID" />
+			  <telerik:GridBoundColumn DataField="ProductName" HeaderText="ProductName" />
+			</Columns>
+		  </MasterTableView>
+		</telerik:RadGrid>
 
 
 	**ASP.NET**
 	
-	<%@ Control Language="C#" AutoEventWireup="true" CodeFile="WebUserControl.ascx.cs" Inherits="WebUserControl" %>
-	  <asp:TextBox ID="TextBox1" Text='<%# Bind("ProductName") %>' runat="server" />
-	  <asp:Button ID="Button1" Text="Update" CommandName="Update" runat="server" />
-	  <asp:Button ID="Button2" Text="Cancel" CommandName="Cancel" runat="server" />
+		<%@ Control Language="C#" AutoEventWireup="true" CodeFile="WebUserControl.ascx.cs" Inherits="WebUserControl" %>
+		  <asp:TextBox ID="TextBox1" Text='<%# Bind("ProductName") %>' runat="server" />
+		  <asp:Button ID="Button1" Text="Update" CommandName="Update" runat="server" />
+		  <asp:Button ID="Button2" Text="Cancel" CommandName="Cancel" runat="server" />
 
 	**C#**
 
-	public partial class WebUserControl : System.Web.UI.UserControl, IBindableControl
-	{
-	    public void ExtractValues(System.Collections.Specialized.IOrderedDictionary dictionary)
-	    {
-	        dictionary["ProductName"] = TextBox1.Text;
-	    }
-	}
+		public partial class WebUserControl : System.Web.UI.UserControl, IBindableControl
+		{
+			public void ExtractValues(System.Collections.Specialized.IOrderedDictionary dictionary)
+			{
+				dictionary["ProductName"] = TextBox1.Text;
+			}
+		}
+		
 	**VB**
 	
-	Partial Public Class WebUserControl
-	    Inherits System.Web.UI.UserControl
-	    Implements IBindableControl
-	    Public Sub ExtractValues(ByVal dictionary As System.Collections.Specialized.IOrderedDictionary)
-	        dictionary("ProductName") = TextBox1.Text
-	    End Sub
-	End Class
+		Partial Public Class WebUserControl
+			Inherits System.Web.UI.UserControl
+			Implements IBindableControl
+			Public Sub ExtractValues(ByVal dictionary As System.Collections.Specialized.IOrderedDictionary)
+				dictionary("ProductName") = TextBox1.Text
+			End Sub
+		End Class
 
 
 2. Use a template edit form (**FormTemplate**) instead of a **WebUserControl**. You can copy the template from the user control to the edit form template and modify the binding logic using the **Bind**() syntax (two-way binding) instead of **DataBinder.Eval** (one-way binding). For an example of this approach, see [Form template edit form.](http://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/TemplateFormUpdate/DefaultCS.aspx)

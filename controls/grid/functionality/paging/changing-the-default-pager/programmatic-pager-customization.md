@@ -19,13 +19,9 @@ You can replace the default pager programmatically with your own pager instance 
 To do this,
 
 1. Define your own class (such as the "MyPager" class in the following example) whose member variables are the controls you want displayed in the pager.
-
 	* Include a **GridPagingManager** in your custom class. This object can be used in your class implementation to access the information from the **PagerItem.Paging** object. You can assign an instance of this object in the constructor of your class.
-
 	* Include a **GridTableView** in your custom class for the table view that your pager operates on. You can assign an instance of this object in the constructor of your class.
-
 	* Add any visual controls to the custom class for the controls that appear in your pager. These can be textboxes, validators, LiteralControls for messages, and so on. The creation of these controls should follow the ASP.NET conventions (overriding the **CreateChildControls**() method to instantiate and add your pager controls to the **Controls** collection of the respective class instance).
-
 2. Create a handler for the grid's **ItemEvent** event. When the event is "GridInitializePagerItem", cancel the default pager initialization and add an instance of your own class to the **Controls** collection of the **PagerContentCell**.
 
 

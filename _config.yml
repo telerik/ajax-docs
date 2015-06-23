@@ -1276,7 +1276,10 @@ navigation:
         position: 2
     "*spreadprocessing/features/styling":
         title: Styling
-        position: 3		
+        position: 3	
+    "*stylesheetmanager/cdn-support":
+        title: CDN Support
+        position: 1			
     "*tabstrip/templates":
         title: "Templates"
         position: 7

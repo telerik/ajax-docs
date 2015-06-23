@@ -25,7 +25,7 @@ You must set the **DataKeyNames** property of every parent table view in the hie
 If multiple fields are needed for linking to child tables, you can list them in the ASPX file, separating their names with commas (but no spaces):
 
 ````ASP.NET
-<MasterTableView DataKeyNames="CustomerID, EmployeeID">			
+<MasterTableView DataKeyNames="CustomerID,EmployeeID">			
 ````
 
 

@@ -28,41 +28,43 @@ The following table lists the most important methods of the client-side **RadCom
 | Name | Parameters | Return Type | Description |
 | ------ | ------ | ------ | ------ |
 | **trackChanges** |none|none|Starts tracking changes made to **RadComboBox** that will be preserved over postbacks.|
-| **commitChanges** |none|none|Writes the changes to **RadComboBox** that were made since a previous call to **trackChanges** , so that they are preserved over postbacks.
+| **commitChanges** |none|none|Writes the changes to **RadComboBox** that were made since a previous call to **trackChanges** , so that they are preserved over postbacks.|
 
 ````JavaScript
-	
-	
-	        function AddNewItem() {
-	            var combo = $find("<%= RadComboBox1.ClientID %>");
-	            var comboItem = new Telerik.Web.UI.RadComboBoxItem();
-	            comboItem.set_text("item");
-	            combo.trackChanges();
-	            combo.get_items().add(comboItem);
-	            comboItem.select(); 
-	            combo.commitChanges();
-	        }
+		
+function AddNewItem() {
+    var combo = $find("<%= RadComboBox1.ClientID %>");
+    var comboItem = new Telerik.Web.UI.RadComboBoxItem();
+    comboItem.set_text("item");
+    combo.trackChanges();
+    combo.get_items().add(comboItem);
+    comboItem.select(); 
+    combo.commitChanges();
+}
 	
 ````
 
 
 
->tip Client-side changes are available on the server after postback. You can use the[ClientChanges]({%slug combobox/client-side-programming/accessing-client-changes-at-the-server%})property to access them.
+>tip Client-side changes are available on the server after postback. You can use the [ClientChanges]({%slug combobox/client-side-programming/accessing-client-changes-at-the-server%}) property to access them.
 >
-|
-| **set_text** |(string text)|none|Sets the text of the input field to the value of the specified parameter.
+
+| Name | Parameters | Return Type | Description |
+| ------ | ------ | ------ | ------ |
+| **set_text** |(string text)|none|Sets the text of the input field to the value of the specified parameter.|
+
 
 ````JavaScript
 	
-	
-	        function SetTextOfTheComboBox() {
-	            var combo = $find("<%= RadComboBox1.ClientID %>"); 
-	            combo.set_text("CustomText");
-	        }
+function SetTextOfTheComboBox() {
+    var combo = $find("<%= RadComboBox1.ClientID %>"); 
+    combo.set_text("CustomText");
+}
 	
 ````
 
-|
+| Name | Parameters | Return Type | Description |
+| ------ | ------ | ------ | ------ |
 | **get_text** |none|string|Gets the text of the input field.|
 | **get_checkedItems** |none|array|Gets an array of the checked **RadComboBoxItem** objects.|
 | **get_lastWord** |none|string|Gets the word after the last separator in the text of **RadComboBox** input field. If a separator is not set, returns the text itself.|
@@ -71,7 +73,7 @@ The following table lists the most important methods of the client-side **RadCom
 | **set_value** |(string value)|none|Sets the value of **RadComboBox** .|
 | **get_value** |none|string|Gets the value of **RadComboBox** .|
 | **showDropDown** |none|none|Opens the drop-down list.|
-| **set_closeDropDownOnBlur** |Boolean|none|If you call the **showDropDown** / **toggleDropDown** method on a button click, you will have to use **combo.set_closeDropDownOnBlur(false)** right before you call the **showDropDown** / **toggleDropDown** method, otherwise the drop-down area will flicker instead of open.Then, you should use **combo.set_closeDropDownOnBlur(true)** in the **OnClientBlur** event handler. You can see a demo at:[Add/Remove/Disable Items](http://demos.telerik.com/aspnet-ajax/combobox/examples/programming/addremovedisableitemsclientside/defaultcs.aspx)|
+| **set_closeDropDownOnBlur** |Boolean|none|If you call the **showDropDown** / **toggleDropDown** method on a button click, you will have to use **combo.set_closeDropDownOnBlur(false)** right before you call the **showDropDown** / **toggleDropDown** method, otherwise the drop-down area will flicker instead of open. Then, you should use **combo.set_closeDropDownOnBlur(true)** in the **OnClientBlur** event handler. You can see a demo at: [Add/Remove/Disable Items](http://demos.telerik.com/aspnet-ajax/combobox/examples/programming/addremovedisableitemsclientside/defaultcs.aspx)|
 | **hideDropDown** |none|none|Closes the drop-down list.|
 | **toggleDropDown** |none|none|Toggles the drop-down list.|
 | **enable** |none|none|Enables the **RadComboBox** .|
@@ -79,67 +81,73 @@ The following table lists the most important methods of the client-side **RadCom
 | **findItemByValue** |(string value)| **RadComboBoxItem** |Returns the first **RadComboBoxItem** object whose **Value** property equals the passed parameter.|
 | **findItemByText** |(string text)| **RadComboBoxItem** |Returns the first **RadComboBoxItem** object whose **Text** property equals the passed parameter.|
 | **clearItems** |none|none|Clears all items of **RadComboBox** .|
-| **clearSelection** |none|none|Clears the selection.
+| **clearSelection** |none|none|Clears the selection.|
 
 ````JavaScript
 	
-	        function ClearSelection() {
-	            var combo = $find("<%= RadComboBox1.ClientID %>");
-	            combo.clearSelection(); 
-	          }
+function ClearSelection() {
+    var combo = $find("<%= RadComboBox1.ClientID %>");
+    combo.clearSelection(); 
+}
 	
 ````
 
-|
-| **requestItems** |(string text, Boolean)|none|Initiates a[load-on-demand]({%slug combobox/load-on-demand/overview%})callback request with the specified text, causing the **ItemsRequested** server event to fire or a request to be sent to a web service. The second Boolean parameter instructs the **RadComboBox** to append the new items ( **True** ) or clear items ( **False** ).
+| Name | Parameters | Return Type | Description |
+| ------ | ------ | ------ | ------ |
+| **requestItems** |(string text, Boolean)|none|Initiates a [load-on-demand]({%slug combobox/load-on-demand/overview%})callback request with the specified text, causing the **ItemsRequested** server event to fire or a request to be sent to a web service. The second Boolean parameter instructs the **RadComboBox** to append the new items ( **True** ) or clear items ( **False** ).|
 
 ````ASPNET
 	    
-	   <script language="javascript" type="text/javascript">
-	    function AddItems() {
-	        var combo = $find("<%= RadComboBox1.ClientID %>"); 
-	        combo.requestItems("Item1", true);
-	    }
-	    </script>
-	
-	    <telerik:radcombobox 
-	        id="RadComboBox1" 
-	        runat="server"
-	        onitemsrequested="RadComboBox1_ItemsRequested">
-	    </telerik:radcombobox>
-	    <input id="Button1" type="button" value="button" onclick="AddItems()" />
+<script language="javascript" type="text/javascript">
+function AddItems() {
+    var combo = $find("<%= RadComboBox1.ClientID %>"); 
+    combo.requestItems("Item1", true);
+}
+</script>
+
+<telerik:radcombobox 
+    id="RadComboBox1" 
+    runat="server"
+    onitemsrequested="RadComboBox1_ItemsRequested">
+</telerik:radcombobox>
+<input id="Button1" type="button" value="button" onclick="AddItems()" />
 	
 ````
 
-|
+| Name | Parameters | Return Type | Description |
+| ------ | ------ | ------ | ------ |
 | **get_id** |none|string|Gets the server-side ID of the **RadComboBox** instance.|
 | **get_dropDownElement** |none|DOM object|Gets a reference to the drop-down list.|
-| **get_inputDomElement** |none|DOM object|Gets a reference to the input area.
+| **get_inputDomElement** |none|DOM object|Gets a reference to the input area.|
+
 
 ````JavaScript
 	
-	    function ChangeInputColor() {
-	        var combo = $find("<%= RadComboBox1.ClientID %>");
-	        var inputArea = combo.get_inputDomElement();
-	        inputArea.style.backgroundColor = "red" 
-	     }
+function ChangeInputColor() {
+    var combo = $find("<%= RadComboBox1.ClientID %>");
+    var inputArea = combo.get_inputDomElement();
+    inputArea.style.backgroundColor = "red" 
+}
 	
 ````
 
-|
-| **get_imageDomElement** |none|DOM object|Gets a reference to image element (drop-down toggle).
+| Name | Parameters | Return Type | Description |
+| ------ | ------ | ------ | ------ |
+| **get_imageDomElement** |none|DOM object|Gets a reference to image element (drop-down toggle).|
+
 
 ````JavaScript
 	
-	     function ChangeImageElement() {
-	         var combo = $find("<%= RadComboBox1.ClientID %>");
-	         var image = combo.get_imageDomElement();
-	         image.src = "MyImage.gif"; 
-	    }
+function ChangeImageElement() {
+    var combo = $find("<%= RadComboBox1.ClientID %>");
+    var image = combo.get_imageDomElement();
+    image.src = "MyImage.gif"; 
+}
 	
 ````
 
-|
+| Name | Parameters | Return Type | Description |
+| ------ | ------ | ------ | ------ |
 | **get_moreResultsBoxElement** |none|DOM object|Gets a reference to the **MoreResultsBox** image element.|
 | **get_moreResultsBoxMessageElement** |none|DOM object|Gets a reference to the **MoreResultsBox Message** element.|
 | **get_dropDownVisible** |none|Boolean| **True** if the drop-down is opened.|
@@ -149,7 +157,7 @@ The following table lists the most important methods of the client-side **RadCom
 | **get_items** |none| **RadComboBoxItemCollection** |Returns the items collection for **RadComboBox** .|
 | **get_enableItemCaching** |none|boolean| **True** if item caching is enabled (applicable in load-on-demand scenario).|
 | **set_enableItemCaching** |boolean|none|Enables/disables item caching (applicable in load-on-demand scenario).|
-| **attachDropDown** |none|none|Attach the drop down list to the input element if it is not aligned properly, especially when a postback fires from a templated item. Use it in this scenario:[ Ajaxified control in ItemTemplate does a full postback. ]({%slug combobox/troubleshooting/ajaxified-control-in-itemtemplate-does-a-full-postback%})|
+| **attachDropDown** |none|none|Attach the drop down list to the input element if it is not aligned properly, especially when a postback fires from a templated item. Use it in this scenario: [ Ajaxified control in ItemTemplate does a full postback. ]({%slug combobox/troubleshooting/ajaxified-control-in-itemtemplate-does-a-full-postback%})|
 | **get_visibleItems** |none|array|Returns all visible items.|
 | **setAllItemsVisible** |Boolean|none|Sets all items visible / invisible.|
 | **get_changeText** |none|Boolean| **True** if **ChangeTextOnKeyBoardNavigation** is **true** .|
@@ -158,7 +166,7 @@ The following table lists the most important methods of the client-side **RadCom
 | **set_enableTextSelection** |boolean|none|Sets the **EnableTextSelection** property.|
 | **get_markFirstMatch** |none|Boolean| **True** if **MarkFirstMatch** is **true** .|
 | **set_markFirstMatch** |Boolean|none|Sets the **MarkFirstMatch** property.|
-| **clearCache** |none|none|Clears the items cache if[EnableItemCaching]({%slug combobox/load-on-demand/caching-items%})is **True** .|
+| **clearCache** |none|none|Clears the items cache if [EnableItemCaching]({%slug combobox/load-on-demand/caching-items%}) is **True** .|
 | **get_highlightedItem** |none| **RadComboBoxItem** |Gets the currently highlighted item.|
 
 # See Also

@@ -26,8 +26,6 @@ In order to specify how the group aggregates will be evaluated, specify in every
 **GridAggregateFunction enumeration members**
 
 
->caption  
-
 |  **Member**  |  **Description**  |
 | ------ | ------ |
 | **Sum** |Returns the sum of all column values in the source|

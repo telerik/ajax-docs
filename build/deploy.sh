@@ -5,8 +5,12 @@ cd ../
 # Install latest Ruby gems (if any)
 bundle install --without development || { echo 'Installing Ruby gems failed.'; exit 1; }
 
+rm -rf '_site'
+mkdir '_site'
+echo > _site/web.config
+
 # Build the documentation
-bundle exec jekyll build || { echo 'Building the documentation with Jekyll failed.'; exit 1; }
+bundle exec jekyll build --destination '_site' || { echo 'Building the documentation with Jekyll failed.'; exit 1; }
 
 # Copy the _site directory to \\telerik.com\resources\AppDirector\Drops\AspnetAjax\AspnetAjax.Docs
 robocopy _site //telerik.com/Resources/AppDirector/Drops/AspnetAjax/AspnetAjax.Docs -purge -s

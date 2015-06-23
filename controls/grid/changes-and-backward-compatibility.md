@@ -26,7 +26,7 @@ RadGrid for ASP.NET AJAX which is part of the Q3 2009 release is fully backwards
 
 ## Telerik RadGrid for ASP.NET AJAX Q2 2009
 
-Setting **ClipCellContentOnResize="true"** now triggers a **Fixed TableLayout** for the MasterTableView (otherwise you will need to set it manually in order to make cell clipping work). As a result, you may experience unexpected fixed TableLayout when column resizing is enabled (since cell clipping is enabled by default). Please set **ClipCellContentOnResize="false"**in order to revert back to the old behavior.
+Setting **ClipCellContentOnResize="true"** now triggers a **Fixed TableLayout** for the MasterTableView (otherwise you will need to set it manually in order to make cell clipping work). As a result, you may experience unexpected fixed TableLayout when column resizing is enabled (since cell clipping is enabled by default). Please set **ClipCellContentOnResize="false"** in order to revert back to the old behavior.
 
 ## Telerik RadGrid for ASP.NET AJAX Q1 2009
 

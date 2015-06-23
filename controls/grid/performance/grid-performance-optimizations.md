@@ -23,21 +23,19 @@ When you present large number of records at once you will see delays in the grid
 
 	* 1px background images with **background-repeat: repeat-x**.
 
-	>note IE has a limit of 31 loaded stylesheets. This limit could be easily overcomed by referencing one stylesheet inside another.
-	>
-
+	_Note_: IE has a limit of 31 loaded stylesheets. This limit could be easily overcomed by referencing one stylesheet inside another.
 
 3. You could use RadInputManager to increase the client-side performance.Using this technique you will significantly decrease the input editors loading time since plain MS TextBoxes will be created(instead of the corresponding RadInput controls) and the data entered by the end user will be automatically filtered by RadInputManager,based on the input manager settings. The performance benefit can be quite significant:
 
 	* The same number of input controls will be loaded up to 10 times faster
 
-	* The maximum number of input controls allowed on the page can be 10 times greaterYou could check [this](http://demos.telerik.com/aspnet-ajax/input/examples/radinputmanager/dynamicinputfiltersettings/defaultcs.aspx?product=grid)online demo application for a sample code and performance overview.
+	* The maximum number of input controls allowed on the page can be 10 times greaterYou could check [this](http://demos.telerik.com/aspnet-ajax/input/examples/radinputmanager/dynamicinputfiltersettings/defaultcs.aspx?product=grid) online demo application for a sample code and performance overview.
 
-4. Use built-in/custom paging or virtual scrolling/paging and present only fixed setof records at a time - here are online examples for it:[Basic paging]( http://demos.telerik.com/aspnet-ajax/grid/examples/generalfeatures/paging/defaultcs.aspx	),[Virtual scrolling and paging]( http://demos.telerik.com/aspnet-ajax/grid/examples/client/virtualscrollpaging/defaultcs.aspx	)In case you have more than **100** records in a flat grid, it is recommended to turn on the build-in paging/custom paging of the grid.This will not only optimize the grid loading time but also will enrich the user experience, thus giving him/her the flexibility to easily navigate throughthe grid records.When you have a hierarchical grid, the best approach is to limit the items presented in each level at once to **10-15**at most (through the **PageSize** property of the **GridTableView** object).
+4. Use built-in/custom paging or virtual scrolling/paging and present only fixed setof records at a time - here are online examples for it: [Basic paging]( http://demos.telerik.com/aspnet-ajax/grid/examples/generalfeatures/paging/defaultcs.aspx	), [Virtual scrolling and paging]( http://demos.telerik.com/aspnet-ajax/grid/examples/client/virtualscrollpaging/defaultcs.aspx	). In case you have more than **100** records in a flat grid, it is recommended to turn on the build-in paging/custom paging of the grid.This will not only optimize the grid loading time but also will enrich the user experience, thus giving him/her the flexibility to easily navigate throughthe grid records.When you have a hierarchical grid, the best approach is to limit the items presented in each level at once to **10-15** at most (through the **PageSize** property of the **GridTableView** object).
 
 5. You could disable the ViewState of the control, this will reflect in less data transferred back and forth between the client and server. However,this optimization comes at cost ofsacrificing some functionality. You could check the lists of the functions that are not supported when the ViewState is disabled in [this]({%slug grid/performance/optimizing-viewstate-usage%}) help topic.Demo application that describes this functinoality could be found [here](http://demos.telerik.com/aspnet-ajax/grid/examples/programming/viewstate/defaultcs.aspx)
 
-6. When in need to allow the user to have Date input, you may consider using regular TextBox controls and the client-side API of RadDatePicker control.This approach optimizes the performance because the time needed for TextBox initialization is less than the time needed for RadDateInput initialization. [This](http://demos.telerik.com/aspnet-ajax/calendar/examples/datepicker/shareddatepicker/defaultcs.aspx?product=grid)is the demo application that illustrates this approach.
+6. When in need to allow the user to have Date input, you may consider using regular TextBox controls and the client-side API of RadDatePicker control.This approach optimizes the performance because the time needed for TextBox initialization is less than the time needed for RadDateInput initialization. [This](http://demos.telerik.com/aspnet-ajax/calendar/examples/datepicker/shareddatepicker/defaultcs.aspx?product=grid) is the demo application that illustrates this approach.
 
 7. You could use [RadAjaxManager]({%slug ajax/radajaxmanager/overview%}) controls to Ajax-ify the Grid instance and thus to receive partial updates from the service only for the Grid instance,not the whole page.
 

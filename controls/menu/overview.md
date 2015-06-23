@@ -1,5 +1,5 @@
 ---
-title: Menu Overview
+title: Overview
 page_title: Overview | RadMenu for ASP.NET AJAX Documentation
 description: Overview
 slug: menu/overview

@@ -12,13 +12,13 @@ position: 1
 
 
 
-## 
+##   
 
 The key to the advanced data binding of a **RadGrid** control is handling the **NeedDataSource** event. **RadGrid** fires the **NeedDataSource** event each time it needs to be bound to a data source. If, at the time of the event, the **DataSource** property is not set to a valid data source object, the grid will not behave correctly.
 
 This event fires in the following cases:
 
-* Immediately after **On_Load** if the grid has not yet been data-bound and there is no **ViewState** data. This means that if **MasterTableView**.**EnableViewState**has been set to **False**, the grid will bind each time the page loads, not only the first time.
+* Immediately after **On_Load** if the grid has not yet been data-bound and there is no **ViewState** data. This means that if **MasterTableView**. **EnableViewState** has been set to **False**, the grid will bind each time the page loads, not only the first time.
 
 * When a paging operation occurs.
 

@@ -21,28 +21,31 @@ There are several ways to work around this:
 
 * [Register a JavaScript function from the server-side]({%slug window/troubleshooting/executing-javascript-code-from-server%}) and do **not** use the **VisibleOnPageLoad** property, for example:
 
-````ASP.NET
-<telerik:RadWindow runat="server" ID="RadWindow1" NavigateUrl="http://google.com/"></telerik:RadWindow>
-<asp:Button ID="Button4" Text="open the RadWindow from the server" runat="server" OnClick="Button1_Click" />
-````
+	**ASP.NET**
 
-````C#
-protected void Button1_Click(object sender, EventArgs e)
-{
-	//business logic goes here
+		<telerik:RadWindow runat="server" ID="RadWindow1" NavigateUrl="http://google.com/"></telerik:RadWindow>
+		<asp:Button ID="Button4" Text="open the RadWindow from the server" runat="server" OnClick="Button1_Click" />
 
-	string script = "function f(){$find(\"" + RadWindow1.ClientID + "\").show(); Sys.Application.remove_load(f);}Sys.Application.add_load(f);";
-	ScriptManager.RegisterStartupScript(Page, Page.GetType(), "key", script, true);
-}
-````
-````VB
-Protected Sub Button1_Click(sender As Object, e As System.EventArgs) Handles Button1.Click
-	'business logic goes here
 
-	Dim script As String = "function f(){$find(""" + RadWindow1.ClientID + """).show(); Sys.Application.remove_load(f);}Sys.Application.add_load(f);"
-	ScriptManager.RegisterStartupScript(Page, Page.GetType(), "key", script, True)
-End Sub
-````
+	**C#**
+
+		protected void Button1_Click(object sender, EventArgs e)
+		{
+			//business logic goes here
+		
+			string script = "function f(){$find(\"" + RadWindow1.ClientID + "\").show(); Sys.Application.remove_load(f);}Sys.Application.add_load(f);";
+			ScriptManager.RegisterStartupScript(Page, Page.GetType(), "key", script, true);
+		}
+
+	**VB**
+
+		Protected Sub Button1_Click(sender As Object, e As System.EventArgs) Handles Button1.Click
+			'business logic goes here
+		
+			Dim script As String = "function f(){$find(""" + RadWindow1.ClientID + """).show(); Sys.Application.remove_load(f);}Sys.Application.add_load(f);"
+			ScriptManager.RegisterStartupScript(Page, Page.GetType(), "key", script, True)
+		End Sub
+
 
 * Reset the **VisibleOnPageLoad** property to **false** with code when suitable, depending on the particular scenario
 

@@ -24,23 +24,23 @@ The following steps describe how to import the structure of a grid:
 
 1. In the **Page_Init** event handler of your Web page
 
-1. Load an **XPathDocument** with the dummy XML file and an **XslCompiledTransform** object with the XSL file you created.
+	1. Load an **XPathDocument** with the dummy XML file and an **XslCompiledTransform** object with the XSL file you created.
 
-1. Create a **StringWriter**.
+	1. Create a **StringWriter**.
 
-1. With the **XslCompiledTransform** object, use the **StringWriter** to transform the XSL definition to the XML file. This loads the transformed XML file into the **StringWriter**.
+	1. With the **XslCompiledTransform** object, use the **StringWriter** to transform the XSL definition to the XML file. This loads the transformed XML file into the **StringWriter**.
 
-1. Create a **StringBuilder** object, and initialize it with the "<%@ Register >" directive for the Telerik.Web.UI assembly.
+	1. Create a **StringBuilder** object, and initialize it with the "<%@ Register >" directive for the Telerik.Web.UI assembly.
 
-1. Load the contents of the **StringWriter** (the grid structure) into your **StringBuilder** object.
+	1. Load the contents of the **StringWriter** (the grid structure) into your **StringBuilder** object.
 
-1. Using the **StringBuilder**, remove theXML file header and xmlns string.
+	1. Using the **StringBuilder**, remove theXML file header and xmlns string.
 
-1. Call **Page.ParseControl**, passing in the contents of the **StringBuilder**, to create an instance of the grid based on the structure that the **StringBuilder** contains.
+	1. Call **Page.ParseControl**, passing in the contents of the **StringBuilder**, to create an instance of the grid based on the structure that the **StringBuilder** contains.
 
-1. Add the grid instance to the **PlaceHolder** control in the ASPX file for the Web page.
+	1. Add the grid instance to the **PlaceHolder** control in the ASPX file for the Web page.
 
->note The grid should be loaded and added to the Web page in the **Page_Init** event handler.
+	>note The grid should be loaded and added to the Web page in the **Page_Init** event handler.
 >
 
 

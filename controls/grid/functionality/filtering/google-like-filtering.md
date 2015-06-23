@@ -20,9 +20,9 @@ Here is the list of actions needed to achieve this:
 
 * Extend the default **GridBoundColumn** to remove the default textbox and embed RadComboBox inside the filtering cell.
 
-* Configure the options for RadComboBox control as per your requirements (the essential parts are to set **ShowToggleImage = false**, **ID** for the combobox, **EnableLoadOnDemand=true, MarkFirstMatch = true**and attach the **ItemsRequested/SelectedIndexChanged** events). These operation should take place in the overridden **SetupFilterControls(TableCell cell)**method.
+* Configure the options for RadComboBox control as per your requirements (the essential parts are to set **ShowToggleImage = false**, **ID** for the combobox, **EnableLoadOnDemand=true, MarkFirstMatch = true** and attach the **ItemsRequested/SelectedIndexChanged** events). These operation should take place in the overridden **SetupFilterControls(TableCell cell)** method.
 
-* Override the **SetCurrentFilterValueToControl(TableCell cell) / GetCurrentFilterValueFromControl(TableCell cell)**methods to set/get the user input.
+* Override the **SetCurrentFilterValueToControl(TableCell cell) / GetCurrentFilterValueFromControl(TableCell cell)** methods to set/get the user input.
 
 * Filter the combobox items in the **ItemsRequested** handler depending on the **UniqueName** of the currently filtered column.
 
@@ -32,7 +32,7 @@ This example is expanded by enabling the AJAXmechanism of the grid along with it
 
 In addition, there is **Clear filter** button on the page which restores the initial grid content.
 
-**Note:** In this case search is performed for matches in the default grid source on each filter command. That is why each column's **CurrentFilterFunction** is set to **GridKnownFunction.NoFilter**and **CurrentFilterValue** to **String.Empty** on filter operation.
+**Note:** In this case search is performed for matches in the default grid source on each filter command. That is why each column's **CurrentFilterFunction** is set to **GridKnownFunction.NoFilter* *and **CurrentFilterValue** to **String.Empty** on filter operation.
 
 ![Google-like filtering](images/grdGoogleLikeFiltering.PNG)
 

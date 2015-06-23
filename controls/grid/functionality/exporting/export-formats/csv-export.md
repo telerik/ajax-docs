@@ -16,7 +16,7 @@ position: 0
 
 *CSV* format is based on a plain text - it is widely used to display simple tabular data.Due to its simplicity and portability, it can be seen in various platforms - web, desktop, mobile, embedded, etc.
 
-By default, *RadGrid's ** CSV* engine encloses all the data within double quotes to allow the usage of commas, new lines and so on.
+By default, RadGrid's *CSV* engine encloses all the data within double quotes to allow the usage of commas, new lines and so on.
 
 >note  **GridExporting** event allows the developer to change the generated file directly.This approach could be used to achieve some custom functionality that is not supported out of the box.For example you can use it to add header text to the output and then save it to *TXT* format(since it won't be valid *CSV* anymore).
 >
@@ -24,26 +24,26 @@ By default, *RadGrid's ** CSV* engine encloses all the data within double quotes
 
 ## 
 
->note Depending on your local settings, the default column separator might be a **comma** or a **semicolon** . **Excel** won't be able to properly separate the columns when thecolumn separator is not valid for the current culture.
+>note Depending on your local settings, the default column separator might be a **comma** or a **semicolon** . **Excel** won't be able to properly separate the columns when the column separator is not valid for the current culture.
 >
 
 
 ## 
 
->note Note, that if you set **ExportOnlyData="true"** , the contents (text) of all template columns will beremoved but the columns will be still visible in the exported file.
+>note Note, that if you set **ExportOnlyData="true"**, the contents (text) of all template columns will be removed but the columns will be still visible in the exported file.
 >
 
 
 ## CSV specific settings
 
-*RadGrid* exposes the following properties for customizing the output:
+**RadGrid** exposes the following properties for customizing the output:
 
 
 |  **Name**  |  **Options**  |  **Description**  |
 | ------ | ------ | ------ |
 |ColumnDelimiter|Colon, Comma, NewLine, Semicolon, Tab, VerticalBar|Used to specify the column delimiter|
 |RowDelimiter|Colon, Comma, NewLine, Semicolon, Tab, VerticalBar|Used to specify the row delimiter|
-|FileExtension|File extension string|Useful when the developer wishes to change the file extension. Since the *CSV* format is text-based,it is often saved as *TXT* instead of *CSV* |
+|FileExtension|File extension string|Useful when the developer wishes to change the file extension. Since the *CSV* format is text-based, it is often saved as *TXT* instead of *CSV* |
 |EncloseDataWithQuotes|True/False|Determines whether the exported values are enclosed with quotes.|
 
 ## 
@@ -58,15 +58,15 @@ By default, *RadGrid's ** CSV* engine encloses all the data within double quotes
 
 ## 
 
->note  **Microsoft Excel** parses the cell values automatically depending on the local settings.For example the string **19/05** might change to **19.May** automatically.The only workaround would be to insert a sign of equality ( **=** ) before the relevant string.For example: **"012"** should be modified as **="012"** .
+>note  **Microsoft Excel** parses the cell values automatically depending on the local settings.For example the string **19/05** might change to **19.May** automatically. The only workaround would be to insert a sign of equality ( **=** ) before the relevant string. For example: **"012"** should be modified as **="012"** .
 >
 
 
 ## Encoding support
 
-**UI for ASP.NET AJAX Q2 2009 SP1** and later fully supports *Unicode*symbols in both *left-to-right* and *right-to-left *modes.*RadGrid* automatically saves the file in**UTF-8** encoding.
+**UI for ASP.NET AJAX Q2 2009 SP1** and later fully supports *Unicode* symbols in both *left-to-right* and *right-to-left* modes. **RadGrid** automatically saves the file in **UTF-8** encoding.
 
->note If you open the **CSV** file in some editors, you will notice some strange characters at the beginning.This is[BOM (Byte Order Mark)](http://en.wikipedia.org/wiki/Byte_order_mark)header - it marks the file content as **Unicode** .These characters wouldn't be visible under normal circumstances.
+>note If you open the **CSV** file in some editors, you will notice some strange characters at the beginning. This is [BOM (Byte Order Mark)](http://en.wikipedia.org/wiki/Byte_order_mark) header - it marks the file content as **Unicode** .These characters wouldn't be visible under normal circumstances.
 >
 
 
@@ -86,7 +86,7 @@ Since **UI for ASP.NET AJAX Q3 2014 SP1** version, you are able to change the de
 
 * **Utf32** (UTF32 little endian)
 
-Along with **Encoding** property we introduce a possibility to disable the **BOM (Byte Order Mark)** header by setting **EnableBomHeader**. This property is of type boolean and accepts **True** (Default) and **False**values. You can find more information about **BOM** header in the following [article](http://en.wikipedia.org/wiki/Byte_order_mark).
+Along with **Encoding** property we introduce a possibility to disable the **BOM (Byte Order Mark)** header by setting **EnableBomHeader**. This property is of type boolean and accepts **True** (Default) and **False** values. You can find more information about **BOM** header in the following [article](http://en.wikipedia.org/wiki/Byte_order_mark).
 
 ````ASP.NET
 <telerik:RadGrid ID="RadGrid1" runat="server">
@@ -138,7 +138,7 @@ End Sub
 ````
 
 
-This approach won't work if your **RadGrid**rebinds before export. In such cases (for instance, whenusing **IgnorePaging="true"**) the developer should put the code on **ItemCreated**/**ItemDataBound**:
+This approach won't work if your **RadGrid** rebinds before export. In such cases (for instance, when using **IgnorePaging="true"**) the developer should put the code on **ItemCreated/ItemDataBound**:
 
 
 
@@ -175,13 +175,13 @@ End Sub
 ````
 
 
->note Note that you don't need to set **isExport="false"** explicitly because the changes we perform will affectonly the response streamed to the client. In other words, the user won't see any change to the actual page.
+>note Note that you don't need to set **isExport="false"** explicitly because the changes we perform will affect only the response streamed to the client. In other words, the user won't see any change to the actual page.
 >
 
 
 ## Exporting the selected rows only
 
-You can hide the unselected rows and export the rest in a manner similar to the example above. This approach is applicable alsofor *HTML Excel/Word* and *PDF.*
+You can hide the unselected rows and export the rest in a manner similar to the example above. This approach is applicable also for *HTML Excel/Word* and *PDF.*
 
 
 
@@ -204,7 +204,7 @@ End Sub
 
 ## Hiding columns
 
-You can use the **HideStructureColumns** property to hide *GridRowIndicatorColumn*, *GridExpandColumn* and *GridGroupSplitterColumn.* For the other columns types,you can use the following approach:
+You can use the **HideStructureColumns** property to hide *GridRowIndicatorColumn*, *GridExpandColumn* and *GridGroupSplitterColumn*. For the other columns types,you can use the following approach:
 
 
 
@@ -223,7 +223,7 @@ End Sub
 ````
 
 
->note From Q2 2013 we introduced a new propery named **Exportable** . This property allows you tochoose whether a certain column should be included in the exported file or not. By setting this property to **false** the related column will be excluded from the exported file. Its default value is true.
+>note From Q2 2013 we introduced a new property named **Exportable**. This property allows you to choose whether a certain column should be included in the exported file or not. By setting this property to **false** the related column will be excluded from the exported file. Its default value is true.
 >
 
 

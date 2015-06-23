@@ -32,23 +32,23 @@ When using the advanced grid pager/slider, you can customize the properties of t
 
 	**C#**
 
-	protected void RadGrid1_ItemDataBound(object sender, GridItemEventArgs e)
-	{
-	    if (e.Item is GridPagerItem)
-	    {
-	        Label lblPageSize = (Label)e.Item.FindControl("ChangePageSizeLabel");
-	        lblPageSize.Text = "Number of items:";
-	    }
-	}
+		protected void RadGrid1_ItemDataBound(object sender, GridItemEventArgs e)
+		{
+		    if (e.Item is GridPagerItem)
+		    {
+		        Label lblPageSize = (Label)e.Item.FindControl("ChangePageSizeLabel");
+		        lblPageSize.Text = "Number of items:";
+		    }
+		}
 
 	**VB**
 
-	Protected Sub RadGrid1_ItemDataBound(sender As Object, e As GridItemEventArgs) Handles RadGrid1.ItemDataBound()
-	    If TypeOf e.Item Is GridPagerItem Then
-	        Dim lblPageSize As Label = DirectCast(e.Item.FindControl("ChangePageSizeLabel"), Label)
-	        lblPageSize.Text = "Number of items:"
-	    End If
-	End Sub
+		Protected Sub RadGrid1_ItemDataBound(sender As Object, e As GridItemEventArgs) Handles RadGrid1.ItemDataBound()
+		    If TypeOf e.Item Is GridPagerItem Then
+		        Dim lblPageSize As Label = DirectCast(e.Item.FindControl("ChangePageSizeLabel"), Label)
+		        lblPageSize.Text = "Number of items:"
+		    End If
+		End Sub
 
 
 4. The following table lists the ID's of the controls in the pager when **Mode** is "Advanced" or "Slider":

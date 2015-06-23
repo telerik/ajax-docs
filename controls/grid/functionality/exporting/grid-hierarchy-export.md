@@ -18,7 +18,7 @@ By default when you set IgnorePaging to true and then export a parent table in h
 
 Until Q3 2013, you had to retain the expanded state manually when the control rebinds. Since Q3 2013 version, we introduced a new property named **RetainExpandStateOnRebind**. When you set enable it, the expanded items’ state will persist automatically.
 
->note The following[code-library](http://www.telerik.com/community/code-library/aspnet-ajax/grid/export-hierarchical-grid.aspx)example demonstrates how to persist the expanded state manually.
+>note The following [code-library](http://www.telerik.com/community/code-library/aspnet-ajax/grid/export-hierarchical-grid.aspx)example demonstrates how to persist the expanded state manually.
 >
 
 

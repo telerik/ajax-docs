@@ -28,7 +28,7 @@ Another way users can select multiple rows is by dragging around a set of rows. 
 
 ![Area Selection](images/grd_AreaSelect.png)
 
->caution When using the drag functionality to select multiple RadGrid rows, it is highly recommended to set the **margin** style of the < **form** > HTML element to **zero** . Otherwise a scrollbar flicker occurs during the selection in IE7 due to a browser-specific behavior.
+>caution When using the drag functionality to select multiple RadGrid rows, it is highly recommended to set the **margin** style of the **\<form\>** HTML element to **zero** . Otherwise a scrollbar flicker occurs during the selection in IE7 due to a browser-specific behavior.
 > **CSS** 
 >form{ margin: 0;}
 >

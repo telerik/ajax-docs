@@ -100,7 +100,7 @@ End Sub
 
 More info about how to set predefined values for different auto-generated column editors you can find at the end of [ this topic]({%slug grid/data-editing/insert-records/inserting-values-using-inplace-and-editforms-modes%})
 
-For custom edit forms (**WebUserControl/FormTemplate**) you can refer to the  last paragraph  in [this help topic]({%slug grid/data-editing/insert-records/inserting-values-using-usercontrol/formtemplate%}).
+For custom edit forms (**WebUserControl/FormTemplate**) you can refer to the  last paragraph  in [this help topic]({%slug grid/data-editing/insert-records/inserting-values-using-usercontrol-formtemplate%}).
 
 ## Error message "These columns don't currently have unique values"
 

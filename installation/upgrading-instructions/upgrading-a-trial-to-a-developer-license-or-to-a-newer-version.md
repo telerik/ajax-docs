@@ -18,25 +18,25 @@ You can find concrete information about your case in the distinct sections of th
 
 * [Upgrade to a Newer Version of Telerik UI for ASP.NET AJAX](#upgrade-to-a-newer-version-of-telerik-ui-for-aspnet-ajax)
 
-* [Automatically](#automatic-upgrade)
-
-* [Manually](#manual-upgrade)
+	* [Automatically](#automatic-upgrade)
+	
+	* [Manually](#manual-upgrade)
 
 * [Upgrade From Trial to Licensed Version of Telerik UI for ASP.NET AJAX](#upgrade-from-trial-to-licensed-version-of-telerik-ui-for-aspnet-ajax)
 
 * [Upgrading Troubleshooting](#upgrading-troubleshooting)
 
-* [Installation Issues](#installation-issues)
-
-* [Referencing the Telerik Assemblies from the GAC](#referencing-the-telerik-assemblies-from-the-gac)
-
-* [I Still Get the Old Version](#i-still-get-the-old-version)
-
-* [I Still Get the Copyright Message](#i-still-get-the-copyright-message)
+	* [Installation Issues](#installation-issues)
+	
+	* [Referencing the Telerik Assemblies from the GAC](#referencing-the-telerik-assemblies-from-the-gac)
+	
+	* [I Still Get the Old Version](#i-still-get-the-old-version)
+	
+	* [I Still Get the Copyright Message](#i-still-get-the-copyright-message)
 
 ## Upgrade to a Newer Version of Telerik UI for ASP.NET AJAX
 
-**To upgrade the Telerik controls**, you only need to **replace the** with their newer versions and update their references. The instructions below assume you have already [installed]({%slug installation/which-file-do-i-need-to-install%}) the new version.
+**To upgrade the Telerik controls**, you only need to **replace the [Telerik assemblies]({%slug introduction/installation/included-assemblies%}) the project references** with their newer versions and update their references. The instructions below assume you have already [installed]({%slug installation/which-file-do-i-need-to-install%}) the new version.
 
 There are two ways to perform an upgrade:
 
@@ -68,11 +68,13 @@ You simply need to replace the assembly references with the new ones. Here follo
 
 As with any ASP.NET Project, it is often helpful to clear the ASP Temporary files and the browser cache.
 
+In the same manner (copy and replace), you may also want to upgrade any [other assemblies]({%slug introduction/installation/included-assemblies%}) you are using, as well as localization files (~/App_GlobalResources), dialogs (RadImageEditor, RadEditor), [TypeScript definitions]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/typescript-definitions/add-typescript-definitions-for-the-telerik-ui-for-asp.net-ajax-suite%}), etc. Make sure to save any modifications you have beforehand to avoid losing your work.
+
 ## Upgrade From Trial to Licensed Version of Telerik UI for ASP.NET AJAX
 
 The difference between the trial and licensed version of the Telerik controls is built-in the assemblies themselves. You do not need license keys or activations.
 
-Once you have a licensed package, simply **follow the steps from the**.
+Once you have a licensed package, simply **follow the steps from the [Upgrade to a Newer Version of Telerik UI for ASP.NET AJAX section](#upgrade-to-a-newer-version-of-telerik-ui-for-aspnet-ajax) to delete the trial assemblies and replace them with the developer versions**.
 
 ## Upgrading Troubleshooting
 

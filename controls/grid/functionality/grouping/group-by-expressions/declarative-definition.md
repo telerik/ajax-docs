@@ -28,17 +28,17 @@ Both the **SelectFields** and the **GroupByFields** collections are collections 
 
 * **FieldName** specifies the name of a field in the data source. If the **GridGroupByField** is in the **SelectFields** collection, this is the field whose value (or aggregated value) is shown in the group header. If the **GridGroupByField** is in the **GroupByFields** collection, this is the field that is used to group values. Meaningful for items from the **SelectFields/GroupByFields** collections.
 
-* **FieldAlias** specifies an alias for representing the field's name. This appears as the name of the group in the group header and in the group panel, unless the **HeaderText** property is set. The **FieldAlias** value cannot contain blanks or reserved characters such as ",", "." and so on. Meaningful for items from the **SelectFields**collection only.
+* **FieldAlias** specifies an alias for representing the field's name. This appears as the name of the group in the group header and in the group panel, unless the **HeaderText** property is set. The **FieldAlias** value cannot contain blanks or reserved characters such as ",", "." and so on. Meaningful for items from the **SelectFields** collection only.
 
-* **Aggregate** specifies a **GridAggregateFunction** value. These include "Sum", "Min", "Max", "Last", "First", "Count", and "None". **Aggregate** is used for fields in the **SelectFields** collection to specify the way to aggregate values on the field for display in the group header. Meaningful for items from the **SelectFields**collection only.If you want to display aggregated values in the group footer rather than the header, you can use [column aggregates]({%slug grid/columns/aggregates%}).
+* **Aggregate** specifies a **GridAggregateFunction** value. These include "Sum", "Min", "Max", "Last", "First", "Count", and "None". **Aggregate** is used for fields in the **SelectFields** collection to specify the way to aggregate values on the field for display in the group header. Meaningful for items from the **SelectFields** collection only.If you want to display aggregated values in the group footer rather than the header, you can use [column aggregates]({%slug grid/columns/aggregates%}).
 
-* **HeaderText** specifies the name to use for the field when it appears in the group header and in the group panel. This property lets you specify a field name that includes blanks or reserved characters. This property is only used for fields in the **SelectFields** collection. Meaningful for items from the **SelectFields**collection only.
+* **HeaderText** specifies the name to use for the field when it appears in the group header and in the group panel. This property lets you specify a field name that includes blanks or reserved characters. This property is only used for fields in the **SelectFields** collection. Meaningful for items from the **SelectFields* *collection only.
 
-* **HeaderValueSeparator** specifies a string that appears in the group header between the header text and the value (or aggregated value). This property is only used for fields in the **SelectFields** collection. Meaningful for items from the **SelectFields**collection only.
+* **HeaderValueSeparator** specifies a string that appears in the group header between the header text and the value (or aggregated value). This property is only used for fields in the **SelectFields** collection. Meaningful for items from the **SelectFields** collection only.
 
-* **FormatString** specifies a format string for formatting field values when they appear in the group header. This property is only used for fields in the **SelectFields** collection. Meaningful for items from the **SelectFields**collection only.
+* **FormatString** specifies a format string for formatting field values when they appear in the group header. This property is only used for fields in the **SelectFields** collection. Meaningful for items from the **SelectFields** collection only.
 
-* **SortOrder** specifies how group values are sorted. Its value can be "Ascending" or "Descending". This property is only used for fields in the **GroupByFields** collection. Meaningful for items from the **GroupByFields**collection only.
+* **SortOrder** specifies how group values are sorted. Its value can be "Ascending" or "Descending". This property is only used for fields in the **GroupByFields** collection. Meaningful for items from the **GroupByFields** collection only.
 
 >caution The default value of the **SortOrder** property is "Ascending". Setting it to "None" will not affect the order in which the group items are displayed.
 >
@@ -104,7 +104,7 @@ These are the parts of the expression:
 The following example illustrates this syntax:
 
 ````C#
-	  Country, City, count(ContactName) Items Group By Country, City desc
+Country, City, count(ContactName) Items Group By Country, City desc
 ````
 
 

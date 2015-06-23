@@ -21,6 +21,7 @@ In order to get over this error, you should reconfigure the connection string th
 If you do not have the LocalDB option installed on your machine or if you do not want to use it, you cold use the following steps in order to start using the SQLExpress server again:
 
 * Once you get to the "Choose Your Data Connection" dialog, click the **"New Connection..."** button.
+![grid gettingstarted exception new Connection](images/grid_getting_started_new_connection.png)
 
 * After that the **"Add Connection"** dialog is displayed. Here you need to choose the server that will be used to host the database file.
 ![grid gettingstarted exception new Connection](images/grid_gettingstarted_exception_newConnection.png)

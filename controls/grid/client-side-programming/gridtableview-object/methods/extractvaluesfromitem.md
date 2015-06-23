@@ -27,7 +27,7 @@ Method which extracts the new values from the edited table row passed as an argu
 
 |  **extractValuesFromItem(gridItem) or extractValuesFromItem(index)**  |  |  |
 | ------ | ------ | ------ |
-| **gridItem** |HTML row object - <tr>|The editable row from which the new values will be extracted ( **GridDataItem** ).|
+| **gridItem** |HTML row object - &lt;tr&gt;|The editable row from which the new values will be extracted ( **GridDataItem** ).|
 | **index** |Integer|The editable row (corresponding to the **index** ) from which the new values will be extracted.|
 
 Example:

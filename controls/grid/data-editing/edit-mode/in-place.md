@@ -39,7 +39,7 @@ To display the grid column editors inline when the grid switches into edit mode,
 
 ## Relations between the edited item and the item in regular mode
 
-When **InPlace** editing is applied, the grid row is of type **GridDataItem** in regular mode and**GridEditableItem** in edit regime. Hence you can cast the item in the **ItemCreated** event (for example) to those types according to its current mode:
+When **InPlace** editing is applied, the grid row is of type **GridDataItem** in regular mode and **GridEditableItem** in edit regime. Hence you can cast the item in the **ItemCreated** event (for example) to those types according to its current mode:
 
 
 

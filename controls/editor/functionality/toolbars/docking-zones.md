@@ -12,60 +12,74 @@ position: 3
 
 The RadEditor Toolbar position can be changed by using the **DockingZone** attribute which can have the following values:
 
-1. **Left**
+* **Left**
 
-1. **Right**
+* **Right**
 
-1. **Top**
+* **Top**
 
-1. **Bottom**
+* **Bottom**
 
-1. **Module**
+* **Module**
 
-1. The **id** of outer html element
+* The **id** of an external html element
+
+>caption A RadEditor whose toolbars are positioned in the four built-in zones
 
 ![](images/editor-dockingzone.png)
 
-Here is an example how to:
+If an **external element** is used, it must have the following **CSS classes** applied: **`RadEditor`**, **`reCustomContainer`** (as of Q2 2015), **`<RadEditor Skin>`**. Here is an example with the Default skin: 
 
-* Set Toolbar position in the RadEditor declaration:
-
-````XML
-<tools>   
-	<telerik:EditorToolGroup DockingZone="Left">        
-		<telerik:EditorTool Name="AjaxSpellCheck" />        
-		.................   
-	</telerik:EditorToolGroup> 
-</tools>
+````HTML
+<div id="outerdiv" class="RadEditor reCustomContainer Default">
+</div>
 ````
 
+You can obtain the skin name dynamically from the RadEditor object through its `get_skin()` JavaScript method, as shown in the [Editor - Docking Zones online demo](http://demos.telerik.com/aspnet-ajax/editor/examples/dockingzone/defaultcs.aspx). 
+
+Here are a few examples of setting a custom toolbar position:
+
+* In the RadEditor declaration:
+
+	**ASP.NET**
+
+		<telerik:RadEditor ID="RadEditor1" runat="server">
+		    <Tools>
+		        <telerik:EditorToolGroup DockingZone="Left">
+		            <telerik:EditorTool Name="AjaxSpellCheck" />
+		            . . . .
+		        </telerik:EditorToolGroup>
+		    </Tools>
+		</telerik:RadEditor>
+
+* In the ToolsFile:
+
+	**XML**
+
+		<tools enabled="true" DockingZone="Bottom">
+		    <tool name="Bold" />
+		    . . . .
+		</tools>
+
+* In the code behind:
+
+	**C#**
+
+		EditorToolGroup toolgroupLeft = new EditorToolGroup(); 
+		toolgroupLeft.Attributes["DockingZone"] = "Left"; 
+		editor.Tools.Add(toolgroupLeft); 
+		toolgroupLeft.Tools.Add(new EditorTool("Bold"));
+
+	**VB**
+
+		Dim toolgroupLeft As New EditorToolGroup()
+		toolgroupLeft.Attributes("DockingZone") = "Left"
+		editor.Tools.Add(toolgroupLeft)
+		toolgroupLeft.Tools.Add(New EditorTool("Bold"))
 
 
-* Set Toolbar position in the ToolsFile
+## See Also
 
-````XML
-<tools enabled="true" dockingzone="Bottom">    
-	<tool name="Bold" />    
-	.....................
-</tools>
-````
+* [Live demo: Editor - Docking Zones](http://demos.telerik.com/aspnet-ajax/editor/examples/dockingzone/defaultcs.aspx)
 
-
-
-* Set the tools programmatically in the codebehind:
-
-
-
-````C#
-EditorToolGroup toolgroupLeft = new EditorToolGroup(); 
-toolgroupLeft.Attributes["DockingZone"] = "Left"; 
-editor.Tools.Add(toolgroupLeft); 
-toolgroupLeft.Tools.Add(new EditorTool("Bold"));
-````
-````VB
-Dim toolgroupLeft As New EditorToolGroup()
-toolgroupLeft.Attributes("DockingZone") = "Left"
-editor.Tools.Add(toolgroupLeft)
-toolgroupLeft.Tools.Add(New EditorTool("Bold"))
-````
 

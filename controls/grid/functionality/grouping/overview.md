@@ -32,6 +32,7 @@ You can also specify the position of the **GroupPanel** by setting the	**GroupPa
 ![radgrid-grouppanel-beforeheader](images/radgrid-grouppanel-beforeheader.png)
 
 **GroupPanelPosition - Bottom**
+![radgrid-grouppanel-beforeheader](images/radgrid-grouppanel-bottom.png)
 
 Users can use the sort indicator of the items in the group panel to specify the sort order of the grouping field.
 

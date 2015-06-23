@@ -39,7 +39,7 @@ A control can hardly be considered responsive by itself, because this heavily de
 |ColorPicker|No|No|No|No|
 |ComboBox|Yes|Yes|N/A|N/A|
 |DataForm|[Yes]({%slug dataform/mobile-support/fluid-and-elastic-capabilities%})|[Yes]({%slug dataform/mobile-support/fluid-and-elastic-capabilities%})|No|No|
-|DataPager|Yes|Yes|No|No|
+|DataPager|Yes|Yes|Yes|Yes|
 |Diagram|N/A|N/A|N/A|N/A|
 |Dock|[Yes]({%slug dock/mobile-support/responsive,-adaptive-and-elastic-capabilities%})|N/A|[Yes]({%slug dock/mobile-support/responsive,-adaptive-and-elastic-capabilities%})|N/A|
 |DropDownList|Yes|Yes|N/A|N/A|
@@ -52,7 +52,7 @@ A control can hardly be considered responsive by itself, because this heavily de
 |Gauge|N/A|N/A|N/A|N/A|
 |Grid|No|Yes|No|[Yes]({%slug grid/mobile-support/mobile-rendering/overview%})|
 |ImageEditor|No|Yes|No|No|
-|ImageGallery|Yes|Yes|No|No|
+|ImageGallery|Yes|Yes|Yes|Yes|
 |Input|Yes|No|N/A|No|
 |LightBox|Yes|Yes|No|Yes|
 |ListBox|Yes|Yes|N/A|N/A|

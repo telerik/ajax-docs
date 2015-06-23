@@ -29,10 +29,8 @@ In addition to the usual item style properties such as **ForeColor**, **BackColo
 
 **PagerStyle.Mode** lets you specify what controls appear in the pager item to help users navigate through the pages. The **Mode** sub-property can be set to "NextPrev", "NumericPages", "NextPrevAndNumeric", "Advanced", "NextPrevNumericAndAdvanced", or "Slider".
 
->note The **Mode** property, (or any other properties controlling paging behavior) can be set using either the[RadGrid Property Builder]({%slug grid/design-time/overview%}), or programmatically in the code-behind. Values set programmatically are persisted into the **ViewState** , providing consistency in the grid's page navigation.
+>note The **Mode** property, (or any other properties controlling paging behavior) can be set using either the [RadGrid Property Builder]({%slug grid/design-time/overview%}), or programmatically in the code-behind. Values set programmatically are persisted into the **ViewState** , providing consistency in the grid's page navigation.
 >
-
-
 
 
 >note The default (NextPrevAndNumeric) and the advanced grid pagers require the viewstate of the control to be enabled.
@@ -41,34 +39,35 @@ In addition to the usual item style properties such as **ForeColor**, **BackColo
 
 The following screen shots show how the pager looks for each of the **PagerStyle.Mode** values:
 
-NextPrev
+**NextPrev**
 
 When **Mode** is "NextPrev", the pager contains two buttons; a backward pointing arrow and a forward pointing arrow. These let the user move to the previous or next page:
 ![NextPrev pager](images/grd_PagerModeNextPrev.png)
 
-NumericPages
+**NumericPages**
 
 When **Mode** is "NumericPages", the pager contains link buttons with page numbers:
 ![Numeric pager](images/grd_PagerModeNumericPages.png)
 
 The **PagerStyle.PagebuttonCount** property specifies the number of link buttons appear in this list.
 
-NextPrevAndNumeric
+**NextPrevAndNumeric**
 
 When **Mode** is "NextPrevAndNumeric", the pager contains both the arrow buttons and the link buttons with page numbers:
 ![Default pager - NextPrevAndNumeric](images/grd_PagerModeNextPrevAndNumeric.png)
 
-Advanced
+**Advanced**
 
 When **Mode** is "Advanced", the pager contains text boxes that let the user enter a page number or a new page size:
 ![GridPagerMode.Advanced](images/grd_PagerModeAdvanced.png)
 
-NextPrevNumericAndAdvanced
+**NextPrevNumericAndAdvanced**
 
 When **Mode** is "NextPrevNumericAndAdvanced", the pager contains all of the controls available in both the "NextPrevAndNumeric" and "Advanced" modes:
+
 ![GridPagerMode.NextPrevNumericAndAdvanced](images/grd_PagerModeNextPrevNumericAndAdvanced.png)
 
-Slider
+**Slider**
 
 When **Mode** is "Slider", the pager contains a slider control for changing pages:
 ![GridPagerMode.Slider](images/grd_PagerModeSlider.png)

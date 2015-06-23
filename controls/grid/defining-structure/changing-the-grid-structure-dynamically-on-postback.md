@@ -22,7 +22,7 @@ The second approach will require changing the grid column structure programmatic
 
 * You must ensure that the entire grid, including its columns collection, is modified on **Page_Init** so that the control **ViewState** remains consistent. Otherwise, built-in features such as sorting, paging, and so on will not function as expected.
 
-* You should set the **EnableColumnViewState** property to **False**, so that the grid knows that the columns may vary at some stage of the page lifecycle.
+* You should set the **EnableColumnsViewState** property to **False**, so that the grid knows that the columns may vary at some stage of the page lifecycle.
 
 The following code snippets illustrate how to change the columns in a dynamically created grid, based on a drop-down list selection. Note that the code which constructs the grid fetches the selected value from the drop-down list by referencing the combobox using **Request.Form.Get(controlId)** method of the ASP.NET AJAX framework (an alternative solution would be to use the **Request.Form.Keys** collection to identify whether the combobox triggered the submit, more info on this approach can be gathered from [here](http://forums.asp.net/p/1159322/1912061.aspx)):
 

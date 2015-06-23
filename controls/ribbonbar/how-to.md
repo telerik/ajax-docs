@@ -5,7 +5,7 @@ description: How To
 slug: ribbonbar/how-to
 tags: application,scenarios
 published: True
-position: 9
+position: 3
 ---
 
 # How To

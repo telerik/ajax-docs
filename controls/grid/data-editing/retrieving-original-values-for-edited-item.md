@@ -14,7 +14,7 @@ position: 3
 
 ## 
 
-You can retrieve the old values for the edited item through the **SavedOldValues** property of the **GridEditableItem**(*which is **IDictionary** collection of key -> value pairs). The keys in this collection are the **UniqueNames** of the editable columns and the values are the cell content for the edited row before the edit operation. The new values which the user entered before triggering the Update command can be fetched calling the **ExtractValuesFromItem** method.
+You can retrieve the old values for the edited item through the **SavedOldValues** property of the **GridEditableItem**(which is **IDictionary** collection of key -> value pairs). The keys in this collection are the **UniqueNames** of the editable columns and the values are the cell content for the edited row before the edit operation. The new values which the user entered before triggering the Update command can be fetched calling the **ExtractValuesFromItem** method.
 
 Here is a sample code (note that this approach is applicable for auto-generated grid column editors):
 

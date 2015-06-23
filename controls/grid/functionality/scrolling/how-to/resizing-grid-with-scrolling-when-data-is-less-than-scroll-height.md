@@ -66,4 +66,4 @@ The following example illustrates this technique:
 
 ## See Also
 
-[This code library thread](http://www.telerik.com/community/code-library/aspnet-ajax/grid/how-to-set-radgrid-height-client-side-with-javascript.aspx)
+[How to set RadGrid height client-side with Javascript](http://www.telerik.com/community/code-library/aspnet-ajax/grid/how-to-set-radgrid-height-client-side-with-javascript.aspx)

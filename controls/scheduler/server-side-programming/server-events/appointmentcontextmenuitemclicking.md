@@ -14,7 +14,8 @@ position: 20
 
 ## 
 
-The **AppointmentContextMenuItemClicking** event occurs when an appointment context menu item is clicked, before processing default commands.
+The **AppointmentContextMenuItemClicking** event occurs when appointment context menu item is clicked, before processing default commands. 
+The event is not triggered in Web Service binding scernarios. 
 
 AppointmentContextMenuItemClicking has two parameters:
 

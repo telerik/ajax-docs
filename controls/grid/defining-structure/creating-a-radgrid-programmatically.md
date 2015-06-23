@@ -371,7 +371,7 @@ You should follow these basic steps in order to create hierarchical **RadGrid** 
 
 4. Set the proper **ParentTableRelations** for the **GridTableViews** (along with their **MasterKeyField** and **DetailKeyField** attributes) and **DataKeyNames** for the **MasterTableView**/**GridTableViews** in the code-behind of the page.
 
-5. Assign data sources (through the * DataSourceID * attribute) for each table in the grid hierarchy.If you do not want to use declarative relations, generate the data in the **NeedDataSource**/**DetailTableDataBind** handlers of the grid. On **DetailTableDataBind** you can determine which data source should be related to the currently bound **GridTableView** by checking its **Name/DataSourceID** property. Here, the **Name** property must have a unique value for each detail table (this value has to be defined previously by the developer) and the **DataSourceID** is the ID of the **DataSource** control responsible for the corresponding detail table content generation.
+5. Assign data sources (through the *DataSourceID* attribute) for each table in the grid hierarchy.If you do not want to use declarative relations, generate the data in the **NeedDataSource**/**DetailTableDataBind** handlers of the grid. On **DetailTableDataBind** you can determine which data source should be related to the currently bound **GridTableView** by checking its **Name/DataSourceID** property. Here, the **Name** property must have a unique value for each detail table (this value has to be defined previously by the developer) and the **DataSourceID** is the ID of the **DataSource** control responsible for the corresponding detail table content generation.
 
 Here is a complete source code sample:
 

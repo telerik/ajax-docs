@@ -16,9 +16,6 @@ position: 0
 
 *Telerik RadGrid* can export your data to the following formats:
 
-
->caption  
-
 |  **Format**  |  **Sub-format**  |  **Inner type**  |  **Command name**  |  **Predefined constants**  |  **Server-side method**  |  **Client-side method**  |
 | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
 |PDF|n/a|binary|ExportToPdf|RadGrid.ExportToPdfCommandName|ExportToPdf()|ExportToPdf()|
@@ -47,7 +44,7 @@ When you enable *IgnorePaging*, *RadGrid* will rebind before export in order to 
 
 By default, the exported file will be handled by the program associated with the appropriate file type.If you prefer to give the user the option to choose whether to save, open (inline) or cancel you should enable this property.
 
->note Even if you set **OpenInNewWindow="false"** , that doesn't guarantee that the file will be opened insidethe browser window. The way the exported file will be displayed inline depends on the *OS* / *browser* settings.The end-user could manage the file extensions with programs like[NirSoft's FileTypesMan](http://www.nirsoft.net/utils/file_types_manager.html). For browsers, other than *Internet Explorer* , you should use the built-in settings.
+>note Even if you set **OpenInNewWindow="false"**, that doesn't guarantee that the file will be opened inside the browser window. The way the exported file will be displayed inline depends on the *OS* / *browser* settings.The end-user could manage the file extensions with programs like [NirSoft's FileTypesMan](http://www.nirsoft.net/utils/file_types_manager.html). For browsers, other than *Internet Explorer* , you should use the built-in settings.
 >
 
 
@@ -55,7 +52,7 @@ By default, the exported file will be handled by the program associated with the
 
 This is helpful when you want to give a predefined name for your file. Please note that the file name can't be longer than 256 symbols.
 
-**Unicode** names are not supported out-of-the-box for **Internet Explorer 6** and **7**. Of course you can manually encode the file name and it will be shownproperly in the "**Save**" dialog (**OpenInNewWindow**="**true**").
+**Unicode** names are not supported out-of-the-box for **Internet Explorer 6** and **7**. Of course you can manually encode the file name and it will be shown properly in the "**Save**" dialog (**OpenInNewWindow**="**true**").
 
 **HttpUtility.UrlEncode("unicode string", System.Text.Encoding.UTF8);**
 
@@ -65,7 +62,7 @@ This is helpful when you want to give a predefined name for your file. Please no
 
 * **HideStructureColumns**
 
-Removes the structure columns - *GridRowIndicatorColumn*, *GridExpandColumn*as well as the first *GridGroupSplitterColumn*. Note that this property will affect only the firstlevel in hierarchical *RadGrids*.
+Removes the structure columns - *GridRowIndicatorColumn*, *GridExpandColumn* as well as the first *GridGroupSplitterColumn*. Note that this property will affect only the first level in hierarchical *RadGrids*.
 
 ````ASP.NET
 <ExportSettings
@@ -93,9 +90,9 @@ As the name says, this property gives you the ability to apply the item styles t
 
 ## OnGridExporting event
 
-This event is useable in many scenarios when you want to modify the output file - for example you may want to add some custom information above *RadGrid* or when you want to remove/add/replace parts of the content.The only limitation applies to the *PDF* export because by the time the**OnGridExporting** event is raised, the *PDF* is already generated.For more information, please visit the dedicated **PDF format topic** which introduces the**OnPdfExporting** event that is designed specifically for this format.
+This event is use able in many scenarios when you want to modify the output file - for example you may want to add some custom information above *RadGrid* or when you want to remove/add/replace parts of the content.The only limitation applies to the *PDF* export because by the time the **OnGridExporting** event is raised, the *PDF* is already generated.For more information, please visit the dedicated **PDF format topic** which introduces the**OnPdfExporting** event that is designed specifically for this format.
 
-Below is the barebone logic for **OnGridExporting** event:
+Below is the bare bone logic for **OnGridExporting** event:
 
 
 
@@ -156,11 +153,11 @@ End Sub
 
 ## Exporting a large amount of data
 
-We strongly recommend not to export large amounts of data since there is a chance to encounter an exception(*Timeout* or *OutOfMemory*) if more than one user tries to export the same data simultaneously. **RadGrid** is not suitable for such scenarios and therefore we suggest that you limitthe number of columns and rows. Also it is important to note that the hierarchy and the nested controls have a considerable effecton the performance in this scenario.
+We strongly recommend not to export large amounts of data since there is a chance to encounter an exception(*Timeout* or *OutOfMemory*) if more than one user tries to export the same data simultaneously. **RadGrid** is not suitable for such scenarios and therefore we suggest that you limit the number of columns and rows. Also it is important to note that the hierarchy and the nested controls have a considerable effect on the performance in this scenario.
 
 ## Export with custom paging
 
-When you have custom paging enabled for your grid, you need to set the *PageSize* property of the gridto be equal to the *VirtualItemCount* in order to export all records successfully with*IgnorePaging* set to true. Here is an example:
+When you have custom paging enabled for your grid, you need to set the *PageSize* property of the grid to be equal to the *VirtualItemCount* in order to export all records successfully with *IgnorePaging* set to true. Here is an example:
 
 
 
@@ -211,7 +208,7 @@ There is a special flag (_spFormOnSubmitCalled) in **SharePoint** that prevents 
 
 ## Export in web farm
 
-If you receive "Invalid ViewState" or similar exception in web farm scenario, you can try to copy the*machinekey *from your *web.config* to the*machine.config *of the web server.
+If you receive "Invalid ViewState" or similar exception in web farm scenario, you can try to copy the *machinekey* from your *web.config* to the *machine.config* of the web server.
 
 ## Export over SSL
 
@@ -220,7 +217,7 @@ You might receive the following error message when using the export feature over
 
 >caption  
 
-| " *Internet Explorer* cannot download ' *file'* from ' *server'* . *Internet Explorer* was not able to open this Internet site. The requested site is eitherunavailable or cannot be found. Please try again later." |
+| " *Internet Explorer* cannot download ' *file'* from ' *server'* . *Internet Explorer* was not able to open this Internet site. The requested site is either unavailable or cannot be found. Please try again later." |
 | ------ |
 
 In order to prevent this error add the following lines just before the exporting:

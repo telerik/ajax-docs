@@ -14,7 +14,7 @@ position: 18
 
 ## 
 
-The **TimeSlotContextMenuItemClicking** event occurs when a time slotcontext menu item is clicked, before processing default commands.
+The **TimeSlotContextMenuItemClicking** event occurs when a time slotcontext menu item is clicked, before processing default commands. The event is not triggered in Web Service binding scernarios. 
 
 TimeSlotContextMenuItemClicking has two parameters:
 

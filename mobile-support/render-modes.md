@@ -52,13 +52,13 @@ Some controls from the UI for ASP.NET AJAX suite	can produce different (usually 
 |PanelBar|Yes (render mode)|-|
 |ProgressArea|-|-|
 |ProgressBar|Yes (by design)|-|
-|Rating|[Yes (by design)]({%slug orgchart/mobile-support/render-modes%})|-|
+|Rating|[Yes (render mode)]({%slug rating/mobile-support/render-modes%})|-|
 |RibbonBar|-|-|
 |Rotator|Yes (by design)|-|
 |SearchBox|Yes (by design)|-|
 |Scheduler|-|[Yes (render mode)]({%slug scheduler/mobile-support/render-modes%})|
 |SiteMap|-|-|
-|Slider|[Yes (by design)]({%slug slider/mobile-support/render-modes%})|-|
+|Slider|[Yes (render mode)]({%slug slider/mobile-support/render-modes%})|-|
 |SocialShare|Yes (by design)|-|
 |Spell|Yes (child control - Window)|-|
 |Splitter|N/A|-|
