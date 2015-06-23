@@ -45,7 +45,7 @@ You can utilize the **Phone Layout** by following these steps:
 
 1. Run the created page under your phone's browser.
 
-Initially, the **RadEditor** will load in non-editable mode (**Figure 1**). Clicking the **Edit Content** button (![](./images/edit-contnet-button.png)) will enable editing and the **Phone Layout** will switch to full screen (**Figure 2**).
+Initially, the **RadEditor** will load in preview mode (**Figure 1**). Clicking the **Edit Content** button (![](./images/edit-contnet-button.png)) will enable editing and the **Phone Layout** will switch to full screen (**Figure 2**).
 
 You can find further details about using the Phone Layout as end-user in the [End User Experience]({%slug editor/mobile-support/mobile-rendering/end-user-experience%}) article.
 
