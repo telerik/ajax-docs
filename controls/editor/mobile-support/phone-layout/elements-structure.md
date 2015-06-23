@@ -10,7 +10,7 @@ position: 1
 
 # Phone Layout Elements Structure
 
-You can find the default elements structure of the RadEditor with Phone Layout rendering in **Figure 1** and details on the phone specific elements below the figure.
+You can find the default elements structure of the **RadEditor** with **Phone Layout** rendering in **Figure 1** and details on the phone specific elements below the figure.
 
 >caption **Figure 1**: Elements Structure of RadEditor with Phone-optimized Mobile rendering. 
 
@@ -20,7 +20,7 @@ You can find the default elements structure of the RadEditor with Phone Layout r
 
 	* **Edit Content** - A button that lets you start editing the content.
 	
-	* **Toggle Tool Zone** - A button that opens/closes the Tool Zone(Toolbar). You can use it to start/end formatting the selection or inserting HTML elements (e.g., hyperlinks, images, tables).
+	* **Toggle ToolZone** - A button that opens/closes the ToolZone(Toolbar). You can use it to start/end formatting the selection or inserting HTML elements (e.g., hyperlinks, images, tables).
 	
 	* **Toggle View Mode** - A button that toggles between Design and HTML viewing modes.
 	
@@ -28,7 +28,7 @@ You can find the default elements structure of the RadEditor with Phone Layout r
 	
 * **Content Area** - The place which stores and displays the content to edit.
 
-* **Tool Zone(Toolbar)** - The main toolbar used for formatting the selection and inserting HTML elements (e.g., hyperlinks, images, tables).
+* **ToolZone(Toolbar)** - The main toolbar used for formatting the selection and inserting HTML elements (e.g., hyperlinks, images, tables).
 
 	* **Tools Navigator**
 	
@@ -38,7 +38,7 @@ You can find the default elements structure of the RadEditor with Phone Layout r
 			
 			![Mobile Editor Insert Dialogs](./images/AJAX_RadEditor_Adaptive_InsertMode_2in1.png)
 		
-		* **Hide Tools Arrow** - Closes the current Tool Zone and navigates to the previous tab.
+		* **Hide Tools Arrow** - Closes the current ToolZone and navigates to the previous tab.
 		
 	* **DropDowns** - Various dropdowns for selecting predefined font names/sizes, CSS classes, paragraph styles, etc.
 	
