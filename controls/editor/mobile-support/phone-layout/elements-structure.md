@@ -5,7 +5,7 @@ description: Mobile Rendering
 slug: editor/mobile-support/mobile-rendering/elements-structure
 tags: editor,support,mobile,rendering,structure
 published: True
-position: 1
+position: 2
 ---
 
 # Elements Structure
