@@ -38,7 +38,7 @@ The animation in **Figure 4** shows how user would be able to use the tools and 
 
 >caption Figure 4: User experience with content editing. 
 
-![](./images/AdaptiveRadEditor_v2.gif)
+![](./images/end-user-experience/AdaptiveRadEditor_v4.gif)
 
 ## Using Tabs and Contextual Tabs
 
