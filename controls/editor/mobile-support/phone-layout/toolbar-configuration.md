@@ -10,7 +10,13 @@ position: 4
 
 # Toolbar Configuration
 
-This article explains some basic configuration scenarios, that will enable you to rearrange the tools and tabs shown in **RadEditor**'s **ToolZone**.
+This article explains some basic configuration options, that will enable you to rearrange the tools and tabs shown in **RadEditor**'s **ToolZone**:
+
+* [Configuring Header Tools](#configuring-header-tools)
+ 
+* [Configuring Tabs and Tools](#configuring-tabs-and-tools)
+
+* [Configuring Contextual Tabs](#configuring-contextual-tabs)
 
 ## Configuring Header Tools
 
