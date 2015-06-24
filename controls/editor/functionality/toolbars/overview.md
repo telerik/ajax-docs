@@ -70,6 +70,9 @@ The lists below show the icon image, the name of the tool, a description of what
 |![](images/editor-aboutdialog.gif)| **AboutDialog** |About Dialog - Shows the current version and credentials of Telerik **RadEditor** .|`<tool name="AboutDialog" />`|
 |![](images/editor-xhtmlvalidator.png)| **XhtmlValidator** |XhtmlValidator - Uses the W3C XHTML Validator Page to perform validation of the current editor content.|`<tool name="XhtmlValidator" />`|
 |![StyleBuilder](images/editor-stylebuilder.png)| **StyleBuilder** |StyleBuilder - Provides options to define cascading style sheet (CSS) style attributes.|`<tool name="StyleBuilder" />`|
+|![](./images/editor-toggle-toolzone.png)|**Toggle ToolZone** *(this button is [Phone-Layout-related]({%slug editor/mobile-support/phone-layout/overview%}))*|Toggles the ToolZone in RadEditor with Phone Layout|`<tool name"MobileEdit" />`|
+|![](./images/editor-toggle-html-mode.png)|**Toggle Edit Mode** *(this button is [Phone-Layout-related]({%slug editor/mobile-support/phone-layout/overview%}))*|Switches between Design and HTML mode in RadEditor with Phone Layout.|`<tool name"ToggleEditMode" />`|
+|![](./images/editor-toggle-screen-mode.png)|**Toggle Screen Mode** *(this button is [Phone-Layout-related]({%slug editor/mobile-support/phone-layout/overview%}))*|Exits the full screen mode in RadEditor with Phone layout.|`<tool name"ToggleScreenMode" />`|
 
 ## Insert and Manage Links, Tables, Special Characters, Images and Media
 

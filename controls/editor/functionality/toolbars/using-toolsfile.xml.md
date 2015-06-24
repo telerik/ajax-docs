@@ -10,46 +10,128 @@ position: 2
 
 # Using ToolsFile.xml
 
-RadEditor for ASP.NET AJAX can populate its toolbar tools and modules through a ToolsFile.xml. The **ToolsFile** must have a **valid** XML structure as shown below:
+This article shows how you can configure and fine-tune the **RadEditor** tools by using an XML file:
 
-You can also create your own ToolsFile.xml using the provided information below:
+* [ToolsFile XML structure](#toosfile-xml-structure)
+
+* [Adding Tools](#adding-tools)
+	* [Tools Collection](#tools-collectiontoolsandheadetools)
+	* [Tool Element](#tool-element---tool)
+		* [Example 1: Adding a plain Bold tool to the toolgroup.](#example-1)
+		* [Example 2: Assigning a keyboard shortcut for the Bold tool.](#example-2)
+		* [Example 3: Adding header tools.](#example-3)
+	
+* [Configuring Modules](#configuring-modules)
+
+* [Configuring Links](#configuring-links)
+
+* [Configuring Symbols](#configuring-symbols)
+
+* [Configuring Fonts](#configuring-fonts)
+
+* [Configuring CssClasses collection](#configuring-cssclasses-collection)
+
+* [Configuring Paragraphs](#configuring-paragraphs)
+
+* [Configuring Colors](#configuring-colors)
+
+* [Configuring Snippets](#configuring-snippets)
+
+* [Configuring Languages](#configuring-languages)
+
+* [Configuring Context Menus](#configuring-context-menus)
+
+## ToosFile XML structure
+
+The **ToolsFile** must have a **valid** XML structure as shown below:
 
 ````XML
 <root>
-	 <modules>
-			 <module />
-			 <module />
-	 </modules>
-	 <tools>
-			 <tool />
-			 <tool />
-			 ...
-	</tools>
-	<tools>
-			 <tool />
-			 ...
-	</tools>
-	 ...
-	<links>
-			<link />
-			<link />
-	</links>
-	<colors>
-			<color />
-			<color />
-	</colors>
+  <!-- The Modules collection -->
+  <modules>
+    <!-- Adding Module instances inside -->
+    <module />
+  </modules>
+  <!-- The HeaderTools collection -->
+  <headertools>
+    <!-- Adding header tool instances -->
+    <tool />
+  </headertools>
+  <!-- Adding ToolGrpoup collections to the Tools collection -->
+  <tools>
+    <!-- Adding tool instances -->
+    <tool />
+  </tools>
+  <!-- The Links collection -->
+  <links>
+    <!-- Adding a link instance -->
+    <link>
+      <!-- Adding a nested link instance -->
+      <link />
+    </link>
+  </links>
+  <!-- The Snippets collection -->
+  <snippets>
+    <!-- Adding snippet instance -->
+    <snippet>
+      <!-- HTML code -->
+    </snippet>
+  </snippets>
+  <!-- The Symbols collection -->
+  <symbols>
+    <!-- Adding a symbol instance -->
+    <symbol />
+  </symbols>
+  <!-- The FontNames collection-->
+  <fontNames>
+    <!-- Adding a font instance -->
+    <item />
+  </fontNames>
+  <!-- The Colors colleciton -->
+  <colors>
+    <!-- Adding a color instance -->
+    <color />
+  </colors>
+  <!-- The CssClasses collection -->
+  <classes>
+    <!-- Adding a class instance -->
+    <class />
+  </classes>
+  <!-- The Paragraph collection -->
+  <paragraphs>
+    <!-- Adding a paragraph instance -->
+    <paragraph />
+  </paragraphs>
+  <!-- The Languages collection -->
+  <languages>
+    <!-- Adding a language instance -->
+    <language />
+  </languages>
+  <!-- The Colors collection -->
+  <colors>
+    <!-- Adding a color instance -->
+    <color />
+  </colors>
 </root>
 ````
 
 ## Adding Tools
 
-### Tools Collection - `<tools>`
+### Tools Collection — &lt;tools&gt;&nbsp;and&nbsp;&lt;headertools&gt;
+
+>note **HeaderTools** collection is introduced with the release of the [Phone Layout of RadEditor]({%slug editor/mobile-support/phone-layout/overview%}). It is applicable only if **RadEditor** is rendered in [Mobile rendering]({%slug editor/mobile-support/render-modes%}). 
+
+The `headertools` element has no attributes. You can see how it can be configured and populated in the [Phone Layout Toolbar Configuration]({%slug editor/mobile-support/phone-layout/toolbar-configuration%}).
 
 >caption Attributes for the `<tools>` element.
 
 |Attribute|Description|
 | ------ | ------ |
 | **name** |This string will identify the toolbar.|
+| **tab** *|This string will set a name to the **Tab** in the **ToolZone** _([Phone Layout Toolbar Configuration]({%slug editor/mobile-support/phone-layout/toolbar-configuration%}))_.|
+| **context** *|Configures the contextual behavior of a **Tab** _([Phone Layout Toolbar Configuration]({%slug editor/mobile-support/phone-layout/toolbar-configuration%}))_.|
+
+&lowast; These attributes are related to [Phone Layout]({%slug editor/mobile-support/phone-layout/overview%}) configuration and are applicable only with [Mobile rendering]({%slug editor/mobile-support/render-modes%}).
 
 ### Tool Element - `<tool>`
 
@@ -62,8 +144,12 @@ You can also create your own ToolsFile.xml using the provided information below:
 |**showtext** |Specifies whether to display the button name next to its icon `<tool name="ImageManager" shortcut="Ctrl+G" showtext="true" />`|
 |**showicon** |Specifies whether to display the tools icon or not. Default value is true. `<tool name="ImageManager" shortcut="Ctrl+G" showicon="false" showtext="true" />`|
 |**separator**|Indicates whether a separator should appear at the current position. Possible values are boolean true or false, but if you do not want a separator	you simply should omit this property. When set to true it does not require the Name attribute to be set as well.|
+| **position** *|**Applicable only when tool is added to the HeaderTools collection**. Defines whether the tool to be added to the left or the right tool-group _([Phone Layout Toolbar Configuration]({%slug editor/mobile-support/phone-layout/toolbar-configuration%}))_.|
 
->caption Example 2: Adding a plain Bold tool to the toolgroup.
+&lowast; These attributes are related to [Phone Layout]({%slug editor/mobile-support/phone-layout/overview%}) configuration and are applicable only with [Mobile rendering]({%slug editor/mobile-support/render-modes%}).
+
+<a name="example-1"/>
+>caption Example 1: Adding a plain Bold tool to the toolgroup.
 
 ````XML
 <tools>
@@ -71,7 +157,8 @@ You can also create your own ToolsFile.xml using the provided information below:
 </tools>
 ````
 
->caption Example 1: Assigning a keyboard shortcut for the Bold tool.
+<a name="example-2"/>
+>caption Example 2: Assigning a keyboard shortcut for the Bold tool.
 
 ````XML
 <tools>
@@ -79,20 +166,19 @@ You can also create your own ToolsFile.xml using the provided information below:
 </tools>
 ````
 
->caption Available built-in tools 
+<a name="example-3"/>
+>caption Example 3: Adding header tools.
 
-|Tool Names| | | | | | |
-|------|------|------|------|------|------|------|
-|AboutDialog|FindAndReplace|Indent|InsertTime|Outdent|StrikeThrough|Unlink|
-|AbsolutePosition|FlashManager|InsertHorizontalRule|InsertUnorderedList|Paste|Subscript|Zoom|
-|ApplyClass|FontName|InsertCustomLink|Italic|PasteAsHtml|Superscript|XhtmlValidator|
-|BackColor|FontSize|InsertDate|JustifyCenter|PasteFromWord|TemplateManager||
-|Bold|ForeColor|InsertFormElement|JustifyFull|PasteFromWordNoFontsNoSizes|ToggleDocking|FormatCodeBlock|
-|Copy|FormatBlock|InsertOrderedList|JustifyLeft|PastePlainText|ToggleEditMode (This tool is designed to work only in [Inline editing mode]({%slug editor/functionality/editor-views-and-modes/inline-editing-mode%}))||
-|Custom|FormatStripper|InsertParagraph|JustifyRight|Print|ToggleScreenMode||
-|Cut|Help|InsertSnippet|LinkManager|Redo|ToggleTableBorder||
-|DecreaseSize|ImageManager|InsertSymbol|MediaManager|RepeatLastCommand|Underline||
-|DocumentManager|IncreaseSize|InsertTable|ModuleManager|AjaxSpellCheck|Undo|||
+````XML
+<headertools>
+	<tool name="Undo"/>
+	<tool name="Redo"/>
+	<tool name="MobileEdit" Position="Right"/>
+	<tool name="ToggleScreenMode" Position="Right"/>
+</headertools>
+````
+
+You can find a list of all available tools in the [Toolbars Overview]({%slug editor/functionality/toolbars/overview%}#radeditor-toolset-reference) article.
 
 ## Configuring Modules
 
@@ -101,7 +187,19 @@ You can also create your own ToolsFile.xml using the provided information below:
 |Attribute|Description|
 | ------ | ------ |
 | **name** *(required)*|The friendly name of the module. When in floating mode the name will appear in the tool's titlebar.|
+|**enabled**|Indicates whether the **Module** to be enabled or not.|
 | **visible** |(Indicates whether the module should appear in the toolbar or not. This module will be available client-side - the property defines only the visibility of the module. )|
+
+>caption Example 4: Configuring Modules
+
+````XML
+<modules>
+	<module name="RadEditorStatistics" enabled="true" visible="true" />
+	<module name="RadEditorDomInspector" enabled="true" visible="true" />
+	<module name="RadEditorNodeInspector" enabled="true" visible="true" />
+	<module name="RadEditorHtmlInspector" enabled="false" visible="false" />
+</modules>
+````
 
 ## Configuring Links
 
@@ -114,6 +212,18 @@ You can also create your own ToolsFile.xml using the provided information below:
 | **target** |The target window of the link|
 | **tooltip** |The tooltip for the link|
 
+
+>caption Example 5: Configuring Links
+
+````XML
+<links>
+	<link name="Telerik" href="http://www.telerik.com">
+		<link name="Products" href="http://www.telerik.com/products" />
+		<link name="Purchase" href="http://www.telerik.com/purchase" />
+	</link>
+</links>
+````
+
 ## Configuring Symbols
 
 >caption Attributes for the `<symbol>` element.
@@ -122,6 +232,14 @@ You can also create your own ToolsFile.xml using the provided information below:
 | ------ | ------ |
 | **value** *(required)*|The symbol to be displayed|
 
+>caption Example 6: Configuring Symbols
+
+````XML
+ <symbols>
+   <symbol value="\u20AC" />
+ </symbols>
+````
+
 ## Configuring Fonts
 
 >caption Attributes for the `<font>` element.
@@ -129,6 +247,14 @@ You can also create your own ToolsFile.xml using the provided information below:
 |Attribute|Description|
 | ------ | ------ |
 | **name** *(required)*|Font Name|
+
+>caption Example 7: Configuring Fonts
+
+````XML
+<fontNames>    
+    <item name="Arial" />     
+</fontNames>
+````
 
 ## Configuring CssClasses collection
 
@@ -139,6 +265,15 @@ You can also create your own ToolsFile.xml using the provided information below:
 | **name** *(required)*|Class Alias|
 | **value** *(required)*|Class Name|
 
+>caption Example 8: Configuring CssClasses collection
+
+````XML
+<classes>    
+    <class name="Clear Class" value="" />    
+    <class name="Links Class" value="a.link" />
+</classes>
+````
+
 ## Configuring Paragraphs
 
 >caption Attributes for the `<paragraph>` element.
@@ -148,6 +283,15 @@ You can also create your own ToolsFile.xml using the provided information below:
 | **name** *(required)*|Paragraph Alias|
 | **value** *(required)*|Paragraph Name|
 
+>caption Example 9: Configuring Paragraphs
+
+````XML
+<paragraphs>
+	<paragraph name="Normal" value="<p>" />
+	<paragraph name="<H1>Heading 1</H1>" value="<H1>" />
+</paragraphs>
+````
+
 ## Configuring Colors
 
 >caption Attributes for the `<color>` element.
@@ -155,6 +299,14 @@ You can also create your own ToolsFile.xml using the provided information below:
 |Attribute|Description|
 | ------ | ------ |
 | **value** *(required)*|Hex value of the color|
+
+>caption Example 10: Configuring Colors
+
+````XML
+<colors>    
+	<color value="#FF00EE" />     
+</colors>
+````
   
 ## Configuring Snippets
 
@@ -164,6 +316,21 @@ You can also create your own ToolsFile.xml using the provided information below:
 | ------ | ------ |
 | **name** *(required)*|Snippet Alias|
 
+>caption Example 11: Configuring Snippets
+
+````XML
+<snippets>     
+    <snippet name="Signature">      
+        <![CDATA[         
+            <strong>John Smith</strong>
+            <br>Sales Manager<br>         
+            ...         
+            ************************************************      
+         //]]>  
+    </snippet>
+</snippets>
+````
+
 ## Configuring Languages
 
 >caption Attributes for the `<language>` element.
@@ -172,6 +339,15 @@ You can also create your own ToolsFile.xml using the provided information below:
 | ------ | ------ |
 | **code** *(required)*|Language code|
 | **title** *(required)*|Language Title|
+
+>caption Example 12: Configuring Languages
+
+````XML
+<languages>
+  <langauge code="en-US" title="English" />
+  <langauge code="fr-FR" title="French" />
+</languages>
+````
 
 ## Configuring Context Menus
 
@@ -184,7 +360,7 @@ The **contextMenus** tag in the Tools file allows you to change the default or s
 | **forElement** *(required)*|The HTML element that will call this menu.|
 | **enabled** *(required)*|Defines if this context menu is switched.|
 
-The example below shows how to attach custom context menus for `<A>` and `<P>` elements.
+>caption Example 13: Configuring Context Menus
 
 ````XML
 <contextmenus>
@@ -202,10 +378,12 @@ The example below shows how to attach custom context menus for `<A>` and `<P>` e
 
 By editing the editor's ToolsFile.xml file you easily customize the editor's toolbar and add or remove toolbar buttons. In case you have multiple editor's on the same page, you can provide them with different set of tools by setting **ToolsFile** property to point to different ToolsFile.xml files:
 
+>caption Example 14: Using different ToolsFile xml files with multiple RadEditor on the page.
+
 ````ASP.NET
-<telerik:radeditor toolsfile="~/ToolsFile1.xml" id="RadEditor1" runat="server"></telerik:radeditor>
-<telerik:radeditor toolsfile="~/ToolsFile2.xml" id="RadEditor2" runat="server"></telerik:radeditor>
-<telerik:radeditor toolsfile="~/ToolsFile3.xml" id="RadEditor3" runat="server"></telerik:radeditor>
+<telerik:RadEditor ToolsFile="~/ToolsFile1.xml" ID="RadEditor2" runat="server"></telerik:RadEditor>
+<telerik:RadEditor ToolsFile="~/ToolsFile2.xml" ID="RadEditor3" runat="server"></telerik:RadEditor>
+<telerik:RadEditor ToolsFile="~/ToolsFile3.xml" ID="RadEditor4" runat="server"></telerik:RadEditor>
 ````
 
 ## See Also
