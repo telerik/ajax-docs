@@ -10,7 +10,7 @@ position: 4
 
 # Phone Layout Toolbar Configuration
 
-This article explains some basic configuration options, that will enable you to rearrange the tools and tabs shown in **RadEditor**'s **ToolZone**:
+This article explains some basic configuration options that will enable you to rearrange the tools and tabs shown in **RadEditor**'s **ToolZone**:
 
 * [Configuring Header Tools](#configuring-header-tools)
  
