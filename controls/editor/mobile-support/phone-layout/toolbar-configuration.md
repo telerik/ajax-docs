@@ -10,7 +10,7 @@ position: 4
 
 # Phone Layout Toolbar Configuration
 
-This article explains some basic configuration options, that will enable you to rearrange the tools and tabs shown in **RadEditor**'s **ToolZone**:
+This article explains some basic configuration options that will enable you to rearrange the tools and tabs shown in **RadEditor**'s **[ToolZone]({%slug editor/mobile-support/phone-layout/elements-structure%})**:
 
 * [Configuring Header Tools](#configuring-header-tools)
  
@@ -20,9 +20,9 @@ This article explains some basic configuration options, that will enable you to 
 
 ## Configuring Header Tools
 
-The header tools can be controlled via the **HeaderTools** collection of **RadEditor**. This collection can contain plain built-in or custom tools, by adding them as **EditorHeaderTool** item. The header tools are extended with an additional **Position** property, that instructs the tool to be show either in the left or the right tool-group. If a position is not configured it will show in the left tool-group by default.   
+The header tools can be controlled via the **HeaderTools** collection of **RadEditor**. This collection can contain plain built-in or custom tools, by adding them as **EditorHeaderTool** item. The header tools are extended with an additional **Position** property that instructs the tool to be shown either in the left- or the right-hand side tool group. If a position is not configured, it will show in the left tool group by default.   
 
->caption Figure 1: The output from the code examples in **Example 1**, **Example 2** and **Example 3**.
+>caption Figure 1: Customized header tools collection. The output from **Example 1**, **Example 2** or **Example 3**.
 
 ![](./images/rearranged-header-tools.png)
 
@@ -86,9 +86,9 @@ You can find a full list of the built-in tools in the [Toolbars Overview]({%slug
 
 ## Configuring Tabs and Tools
 
-In the following examples you can see how you can configure the **ToolZone** of **Phone Layout** with additional **Tabs** and **Tools**.
+In **Examples 2-6** you can see how you can configure the **ToolZone** of the **Phone Layout** with additional **Tabs** and **Tools**.
 
->caption Figure 2: The generated tabs and tools from the code in **Example 4**, **Example 5** and **Example 6**.
+>caption Figure 2: The tabs and tools generated from the code in **Example 4**, **Example 5** or **Example 6**.
 
 ![](./images/tab-tools-configuration.png)
 
@@ -189,15 +189,15 @@ RadEditor1.Tools.Add(myTab)
 </root>
 ````
 
-As shown, you can add tabs and tools with the same approach used in the plain **RadEditor** ([Add Standard Buttons]({%slug editor/functionality/toolbars/buttons/add-standard-buttons%})). Additionally, you should define the Tab property, so to configure a title for the **Tab**.
+As shown, you can add tabs and tools with the same approach used for the desktop-oriented **RadEditor** ([Add Standard Buttons]({%slug editor/functionality/toolbars/buttons/add-standard-buttons%})). Additionally, you should define the `Tab` property in order to configure a title for the **Tab**.
 
 You can find a full list of the built-in tools in the [Toolbars Overview]({%slug editor/functionality/toolbars/overview%}), and a full list of the elements and attributes for the ToolsFile's xml schema in [Using ToolsFile.xml]({%slug editor/functionality/toolbars/using-toolsfile.xml%}).
 
 ## Configuring Contextual Tabs
 
-Contextual tabs can be created by [adding a Tab](#configuring-tabs-and-tools). Next, set a CSS selector value to the **Context** property of the **EditorToolGroup**. By that, when user selects an element that fits the requirement of the given selector, the tab will be automatically selected and when the **ToolZone** is toggled, the tools from this tab will be shown. 
+Contextual tabs can be created by [adding a Tab](#configuring-tabs-and-tools). Next, set a **CSS selector** value to the **Context** property of the **EditorToolGroup**. By that, when the user selects an element that fits the requirement of the given selector, the tab will be automatically selected and when the **ToolZone** is shown, the tools from this tab will be shown.
 
->caption Figure 3: The contextual tab behavior implemented in **Example 7**, **Example 8** and **Example 9**.
+>caption Figure 3: The contextual tab behavior implemented in **Example 7**, **Example 8** or **Example 9**.
 
 ![](./images/contextual-tab.png)
 
