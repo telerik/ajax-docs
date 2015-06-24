@@ -8,7 +8,7 @@ published: True
 position: 4
 ---
 
-# Toolbar Configuration
+# Phone Layout Toolbar Configuration
 
 This article explains some basic configuration options, that will enable you to rearrange the tools and tabs shown in **RadEditor**'s **ToolZone**:
 

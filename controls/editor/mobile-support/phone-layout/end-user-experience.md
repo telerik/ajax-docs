@@ -8,7 +8,7 @@ published: True
 position: 3
 ---
 
-# End User Experience
+# Phone Layout End User Experience
 
 This article shows some basic examples how the end user can interact with the phone-optimized RadEditor control:
 

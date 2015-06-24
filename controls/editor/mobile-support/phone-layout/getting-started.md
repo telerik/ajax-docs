@@ -9,7 +9,7 @@ position: 1
 ---
    
 
-# Getting Started
+# Phone Layout Getting Started
 
 This article showcases the basic steps needed to get started with the **Phone Layout** of **RadEditor** in your project. 
 
