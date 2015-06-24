@@ -8,7 +8,7 @@ published: True
 position: 2
 ---
 
-# Elements Structure
+# Phone Layout Elements Structure
 
 This article shows the default elements structure of a **RadEditor** with **Phone Layout** rendering in **Figure 1** and offers details on the phone-specific elements below the figure.
 
@@ -22,7 +22,7 @@ This article shows the default elements structure of a **RadEditor** with **Phon
 	
 	* **Toggle ToolZone** - a button that opens/closes the ToolZone (Toolbar). You can use it to start/end formatting the selection or inserting HTML elements (e.g., hyperlinks, images, tables).
 	
-	* **Toggle HTML Mode** - a button that toggles between Design and HTML viewing modes.
+	* **Toggle HTML Mode** - a button that toggles between Design and HTML view modes.
 	
 	* **Exit Full Screen** - a button that turns off the full screen mode. You can press it when finished with the content editing.
 	
@@ -30,7 +30,7 @@ This article shows the default elements structure of a **RadEditor** with **Phon
 
 * **ToolZone (Toolbar)** - the main toolbar used for formatting the selection and inserting HTML elements (e.g., hyperlinks, images, tables).
 
-	* **Tools Navigator**
+	* **Tool Navigator**
 	
 		* **Tab Chooser** - lets you navigate to different predefined set of tools (e.g., **Home**, **Insert**, **Table**, **Link**, **Image**). The **Insert** option (**Figure 2**) opens a list with the [mobile dialogs]({%slug editor/mobile-support/phone-layout/dialogs%}). The **Table**, **Link**, **Image** options open mobile dialogs to configure attributes for the corresponding HTML element.
 		
@@ -38,7 +38,7 @@ This article shows the default elements structure of a **RadEditor** with **Phon
 			
 			![Mobile Editor Insert Dialogs](./images/AJAX_RadEditor_Adaptive_InsertMode_2in1.png)
 		
-		* **Hide Tools Arrow** - closes the current ToolZone and navigates to the previous tab.
+		* **Hide Tool Arrow** - closes the current ToolZone.
 		
 	* **DropDowns** - various dropdowns for selecting predefined font names/sizes, CSS classes, paragraph styles, etc.
 	
