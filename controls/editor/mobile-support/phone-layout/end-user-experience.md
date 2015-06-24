@@ -55,7 +55,7 @@ The animation in **Figure 4** shows how a user would be able to use the tools an
 
 ## Using Tabs and Contextual Tabs
 
-To change the current tab, the user should press the **Tab Chooser** button (![](./images/toggle-toolzone.png)). As shown in **Figure 5**, a pop-up with all available tabs will be shown. Tapping on one of them, will load the corresponding tools from this tab into the **ToolZone**.
+To change the current tab, the user should press the **Tab Chooser** button (![](./images/html-mode-button.png)). As shown in **Figure 5**, a pop-up with all available tabs will be shown. Tapping on one of them, will load the corresponding tools from this tab into the **ToolZone**.
 
 >caption Figure 5: Changing the Tab.
 
