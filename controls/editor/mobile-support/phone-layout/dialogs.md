@@ -30,9 +30,9 @@ To get a better user experience when inserting objects and configuring HTML attr
 
 * Larger controls are used (e.g., buttons, dropdowns, color pickers, etc.).
 
->caption **Figure 1**: RadEditor dialogs (Insert Link, Insert Image, Insert Table, Find and Replace) in mobile device.
+>caption **Figure 1**: RadEditor dialogs (Insert Table, Insert Image, Insert Link, Find and Replace) in mobile device.
 
-![RadEditor Mobile Dialogs](./images/mobile-dialogs-overview.png) 
+![RadEditor Mobile Dialogs](./images/AJAX_RadEditor_Adaptive_Dialogs.png) 
 
 ## Open Insert Dialogs
 
@@ -40,7 +40,7 @@ To open mobile insert dialogs you should initially open the ToolZone, pop-up the
 
 >caption **Figure 2**: Open RadEditor mobile dialogs.
 
-![Open RadEditor Mobile Dialogs](./images/mobile-dialogs-open.png)
+![Open RadEditor Mobile Dialogs](./images/AJAX_RadEditor_Adaptive_OpenMobileDialogs.png)
 
 Mobile dialogs are also used when editing attributes of selected HTML elements (e.g., **Table Property** and **Table Border** dialogs) and when performing find & replace operations.
 
