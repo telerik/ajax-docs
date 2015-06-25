@@ -26,12 +26,12 @@ Some controls from the UI for ASP.NET AJAX suite	can produce different (usually 
 |ColorPicker|Yes (by design)|-|
 |Combobox|[Yes (render mode)]({%slug combobox/mobile-support/render-modes%})|-|
 |DataForm|Yes (by design)|-|
-|DataPager|Yes (render mode)|-|
+|DataPager|Yes (render mode)|[Yes (render mode)]({%slug datapager/mobile-support/mobile-rendering/overview%})|
 |Diagram|Yes (by design)|-|
 |Dock|[Yes (render mode)]({%slug dock/mobile-support/render-modes%})|-|
 |DropDownList|Yes (by design)|-|
 |DropDownTree|Yes (by design)|-|
-|Editor|[Yes (render mode)]({%slug editor/mobile-support/render-modes%})|-|
+|Editor|[Yes (render mode)]({%slug editor/mobile-support/render-modes%})|[Yes (render mode)]({%slug editor/mobile-support/phone-layout/overview%})|
 |FileExplorer|N/A|-|
 |Filter|Yes (render mode)|-|
 |FormDecorator|[Yes (render mode)]({%slug formdecorator/mobile-support/render-modes%})|-|
@@ -40,7 +40,7 @@ Some controls from the UI for ASP.NET AJAX suite	can produce different (usually 
 |Grid|[Yes (render mode)]({%slug grid/mobile-support/render-modes%})|[Yes (render mode)]({%slug grid/mobile-support/mobile-rendering/overview%})|
 |HtmlChart|Yes (by design)|-|
 |ImageEditor|Yes (child controls)|-|
-|ImageGallery|Yes (by design)|-|
+|ImageGallery|Yes (by design)|[Yes (render mode)]({%slug imagegallery/mobile-support/mobile-rendering%})|
 |Input|[Yes (render mode)]({%slug input/mobile-support/render-modes%})|-|
 |LightBox|Yes (by design)|[Yes (render mode)]({%slug input/mobile-support/render-modes%})|
 |ListBox|[Yes (render mode)]({%slug listbox/functionality/render-modes%})|-|
