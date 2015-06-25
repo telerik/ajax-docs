@@ -20,6 +20,13 @@ This article shows some basic examples how the end user can interact with the ph
 
 * [Toggling HTML Mode](#toggling-html-mode)
 
+* [Using Built-in Mobile Dialogs](#using-built-in-mobile-dialogs)
+	* [Common Elements](#common-elements)
+	* [Hyperlink Manager](#hyperlink-manager)
+	* [File Browser Dialogs](#file-browser-dialogs)
+	* [Insert Table](#insert-table)
+	* [Find and Replace](#find-and-replace)
+
  
 
 ## Start Editing
@@ -79,13 +86,73 @@ The user can edit the content as HTML by switching to HTML mode. This is done by
 
 ![](./images/end-user-experience/html-mode.png)
 
+## Using Built-in Mobile Dialogs
 
+With the creation of the phone-optimized **RadEditor**, built-in dialogs also have been also re-designed in order to expose a more user-friendly UI under phone devices. You can learn more details about how to configure the built-in dialogs in the [Mobile Dialogs]({%slug editor/mobile-support/phone-layout/dialogs%}) article.
+
+### Common Elements
+
+All built-in dialogs have **OK**/**Insert** and **Cancel** buttons that are used to perform the dialog's action and to cancel operation. With the mobile-optimized dialogs, these buttons are placed at the top toolbar of the dialog. 
+
+>caption Figure 8: OK and Cancel buttons of the mobile-optimized built-in dialogs.  
+
+![](./images/end-user-experience/dialogs-header-tools.png)
+
+### Hyperlink Manager
+
+>caption Figure 9: Hyperlink Manager
+
+![](./images/end-user-experience/)
+
+* **Url** (text input)—the URL of the link to be inserted.
+* **Link Text** (text input)—the text of the link.
+* **Target** (select input)—the target attribute of the link. 
+
+### File Browser Dialogs
+
+>caption Figure 10: Image Manager/File Browser Dialog
+
+![](./images/end-user-experience/)
+
+* ![](./images/end-user-experience/upload-button.png) **Upload**—opens an UI for the user to upload a file *(available if __UploadPaths__ property is configured)
+ 
+* ![](./images/end-user-experience/delete-button.png) **Delete**—deletes the selected file *(available if __DeletePaths__ property is configured)*.
+ 
+* ![](./images/end-user-experience/list-button.png) **List View**—toggles the view mode to **List**.
+
+* ![](./images/end-user-experience/thumb-button.png) **Thumbnail View**—toggles the view mode to **Thumbnails**.
+
+### Insert Table
+
+>caption Figure 11: Insert Table
+
+![](./images/end-user-experience/)
+
+* ![](./images/end-user-experience/spin-button.png) **Increase/Decrease** (spin buttons)—enables the user to increase or decrease the value in the numeric text-box.
+
+* **Columns** (numeric text-box)—sets the number of the table's columns. 
+  
+* **Rows** (numeric text-box)— sets the number of the table's rows.
+ 
+* **Cell Padding** (numeric text-box)—adds a padding to the table's cells. 
+ 
+* **Cell Spacing** (numeric text-box)—adds spacing between the table's cells.
+
+### Find and Replace 
+
+>caption Figure 12: Find and Replace
+
+![](./images/end-user-experience/)
+
+* **Find** and **Find and Replace** (radio buttons)—Toggles between the two modes.
+* **Match Case** (check-box)—Defines whether to match the case.  
 
 ## See Also
 
 * [Getting Started]({%slug editor/mobile-support/phone-layout/getting-started%})
 * [Elements Structure]({%slug editor/mobile-support/phone-layout/elements-structure%})
 * [Toolbar Configuration]({%slug editor/mobile-support/phone-layout/toolbar-configuration%})
+* [Mobile Dialogs]({%slug editor/mobile-support/phone-layout/dialogs%})
 
 <style>
 img{
