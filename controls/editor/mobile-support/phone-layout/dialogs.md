@@ -48,13 +48,13 @@ Mobile dialogs are also used when editing attributes of selected HTML elements (
 
 Dialogs in the **mobile rendering** are configured just like the regular dialogs:
 
-* Define the `Telerik.Web.UI.DialogHandler` HTTP handler in the web.config file, as illustrated in the [Dialogs Overview]({%slug editor/functionality/dialogs/overview%}) article. *The full list of the required and optional web.config settings is available in the [web.config Settings Overview]({%slug general-information/web-config-settings-overview%}) article*.
+1. Define the `Telerik.Web.UI.DialogHandler` HTTP handler in the web.config file, as illustrated in the [Dialogs Overview]({%slug editor/functionality/dialogs/overview%}) article. *The full list of the required and optional web.config settings is available in the [web.config Settings Overview]({%slug general-information/web-config-settings-overview%}) article*.
 
-* Configure the view/upload/delete paths for the File Browser Dialogs, as illustrated in the [File Browser Dialogs Overview]({%slug editor/functionality/dialogs/file-browser-dialogs/overview%}) article.
+1. Configure the view/upload/delete paths for the File Browser Dialogs, as illustrated in the [File Browser Dialogs Overview]({%slug editor/functionality/dialogs/file-browser-dialogs/overview%}) article.
 
 ## Customize Built-in Dialogs
 
-You can customize the built-in mobile dialogs the way described in the [ExternalDialogsPath Property]({%slug editor/functionality/dialogs/externaldialogspath-property%}) help article. The only difference comes in the`Mobile` prefix, being added to .ascx file names of the mobile dialogs (e.g., `Telerik.Web.UI\Editor\DialogControls\MobileImageManager.ascx`). The mobile dialogs of **RadEditor** are also located in the same folder that holds the rest of the dialogs  - `Telerik.Web.UI\Editor\DialogControls\`.
+You can customize the built-in mobile dialogs the way described in the [ExternalDialogsPath Property]({%slug editor/functionality/dialogs/externaldialogspath-property%}) help article. The only difference comes in the`Mobile` prefix, being added to .ascx file names of the mobile dialogs (e.g., `[Installation_Directory]\EditorDialogs\MobileImageManager.ascx`). The mobile dialogs of **RadEditor** are also located in the same folder that holds the rest of the dialogs (e.g., `[Installation_Directory]\EditorDialogs\`).
 
 
 ## See Also
