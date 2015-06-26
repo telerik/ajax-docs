@@ -12,11 +12,13 @@ position: 1
 
 This help article lists the known limitations of RadEditor with **[phone layout]({%slug editor/mobile-support/phone-layout/overview%})**.
 
-* There is a jumping of the keyboard when switching between HTML and Design mode in iOS browsers.
+* There is a jumping of the editor when switching between HTML and Design mode or toggling the visibility of the Tool Zone in iOS browsers.
 
-* A custom highlighting command is used for iOS (most notable) and Android browsers.
+* A custom highlighting command is used for the selection in iOS (most notable) and Android browsers. The command simulates the selection highlight preserving when the Tool Zone is displayed. This resolves the *selection is lost when the current focus is changed* browser limitation. The custom highlighting command also prevents the native context tab from appearing.
 
-* Mobile RadEitor doesn't have an expected look and feel in Opera Mini browser under iOS.
+* Adaptive editor requires browsers that support Flexbox model. Therefore the editor may look broken in older mobile browsers that do not support Flexbox.
+
+* Right-to-left mode is not supported.
 
 ## See Also
 
