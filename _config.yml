@@ -674,9 +674,9 @@ navigation:
     "*editor/mobile-support/phone-layout":
         title: "Phone Layout"
         position: 10
-	"*editor/mobile-support/phone-layout/troubleshooting":
+    "*editor/mobile-support/phone-layout/troubleshooting":
         title: "Troubleshooting"
-        position: 10		
+        position: 10
     "*filter/filter-expressions":
         title: "Filter Expressions"
         position: 3
