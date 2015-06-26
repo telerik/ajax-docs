@@ -29,10 +29,11 @@ Generally, responsive design means that the page and its content are able to ada
 ````ASP.NET
 <style type="text/css">
 	div.RadEditor,
-	div.RadEditor .reToolbarWrapper,
-	div.RadEditor .reToolBar
-    div.reDropDownBody {
-		font-size: 14px;
+	div.RadEditor .reToolBarWrapper,
+	.reToolBarWrapper .reToolBar,
+	div.RadEditor .reToolBar div.reDropDownBody {
+	    font-size: 18px;
+	
 	}
 </style>
 
