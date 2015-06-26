@@ -12,11 +12,11 @@ position: 1
 
 
 
-There are many cases where you will need to create the RadTreeList control dynamically. In somescenarios you might want to declare it statically on the page and configure it with server-side code orbuild it entirely in code-behind. Both cases have a few requirements you should follow:
+There are many cases when you need to create the **RadTreeList** control dynamically. In some scenarios you might want to declare it statically on the page and configure it with server-side code or build it entirely in code-behind. Both cases have some requirements that you should follow:
 
-* **Create the RadTreeList entirely in code-behind** - here you should place allthe code in the **Page_Init** event handler. Note that the columns have to beadded to the Columns collection after their properties are set.This approach for creating the treelist should be used when *creating TreeListTemplateColumns dynamically* (as well as any other templates).
+* **Create the RadTreeList entirely in code-behind** - here you should place all the code in the **Page_Init** event handler. Note that the columns have to be added to the Columns collection after their properties are set.This approach for creating the TreeList should be used when *creating TreeListTemplateColumns dynamically* (as well as any other templates).
 
-* **Add the RadTreeList declaration statically in the page mark-up and configure itserver-side** - configuration is to be done in the **Page_Load** eventhandler and only on initial load (with Not IsPostBack condition) to avoid adding the same structuretwice. In contrast to the scenario above, columns have to be added to the Columns collection before their properties are set.
+* **Add the RadTreeList declaration statically in the page mark-up and configure itserver-side** - configuration is to be done in the **Page_Load** event handler and only on initial load (with Not IsPostBack condition) to avoid adding the same structure twice. In contrast to the scenario above, columns have to be added to the Columns collection before their properties are set.
 
 The samples bellow illustrate both approaches:
 
@@ -324,9 +324,9 @@ End Sub
 
 ## Creating template columns dynamically
 
-When creating a treelist dynamically that contains a template column, you must create the templates dynamically in	the code-behind and assign them to the ItemTemplate, EditItemTemplate, etc. properties of the column.
+When creating a TreeList dynamically that contains a template column, you must create the templates dynamically in	the code-behind and assign them to the **ItemTemplate**, **EditItemTemplate**, etc. properties of the column.
 
-To create an ItemTemplate dynamically, you must define a custom class that implements the **ITemplate** interface.	For an EditItemTemplate and InsertItemTemplate the class that you will build needs to implement **IBindableTemplate**. Then you can assignan instance of the class to the respective property of the TreeListTemplateColumn object.
+To create an **ItemTemplate** dynamically, you must define a custom class that implements the **ITemplate** interface.	For an **EditItemTemplate** and **InsertItemTemplate** the class that you will build needs to implement **IBindableTemplate**. Then you can assign an instance of the class to the respective property of the **TreeListTemplateColumn** object.
 
 >note Column templates must be added in the **Page_Init** event handler, so that the template controls can be added to the ViewState.
 >
