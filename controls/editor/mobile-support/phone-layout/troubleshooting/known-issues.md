@@ -12,7 +12,7 @@ position: 0
 
 This help article lists the known issues of RadEditor with **phone layout**.
 
-* Mobile RadEditor is not tested in Windows Phone devices and may suffer possible issues in such an environment.
+* The Mobile version of RadEditor is not tested on Windows Phone devices and may suffer possible issues in such an environment.
 
 ## See Also
 
