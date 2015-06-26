@@ -18,7 +18,7 @@ The possible options are:
 
 * **Lightweight**—this mode emphasizes on semantic HTML and CSS3. It reduces the amount of markup the control renders	and makes it easier to customize. This also reduces the number of image sprites required by the control and the other controls from the suite it uses.	All of this decreases the overall size and complexity of each skin, including custom ones.
 
-* **Mobile**—as of **Q2 2015**, a [phone-optimized layout]({%slug  editor/mobile-support/mobile-rendering/overview%}) is available. It targets small screens, uses font-icons and the *flex*-model for positioning and sizing.
+* **Mobile**—as of **Q2 2015**, a [phone-optimized layout]({%slug  editor/mobile-support/phone-layout/overview%}) is available. It targets small screens, uses font-icons and the *flex*-model for positioning and sizing.
 
 * **Auto**—this mode makes each control choose the appropriate rendering mode according to the used	browser—**Classic**, **Lightweight** or **Mobile**. This functionality was added in Q3 2013.
 
