@@ -21,25 +21,7 @@ This article shows how you can configure and fine-tune the **RadEditor** tools b
 		* [Example 2: Assigning a keyboard shortcut for the Bold tool.](#example-2)
 		* [Example 3: Adding header tools.](#example-3)
 	
-* [Configuring Modules](#configuring-modules)
-
-* [Configuring Links](#configuring-links)
-
-* [Configuring Symbols](#configuring-symbols)
-
-* [Configuring Fonts](#configuring-fonts)
-
-* [Configuring CssClasses collection](#configuring-cssclasses-collection)
-
-* [Configuring Paragraphs](#configuring-paragraphs)
-
-* [Configuring Colors](#configuring-colors)
-
-* [Configuring Snippets](#configuring-snippets)
-
-* [Configuring Languages](#configuring-languages)
-
-* [Configuring Context Menus](#configuring-context-menus)
+* [Configuring Various Tools](#configuring-various-tools)
 
 ## ToosFile XML structure
 
@@ -180,7 +162,9 @@ The `headertools` element has no attributes. You can see how it can be configure
 
 You can find a list of all available tools in the [Toolbars Overview]({%slug editor/functionality/toolbars/overview%}#radeditor-toolset-reference) article.
 
-## Configuring Modules
+## Configuring Various Tools
+
+### Modules
 
 >caption Attributes for the `<module>` element.
 
@@ -201,7 +185,7 @@ You can find a list of all available tools in the [Toolbars Overview]({%slug edi
 </modules>
 ````
 
-## Configuring Links
+### Links
 
 >caption Attributes for the `<link>` element.
 
@@ -224,7 +208,7 @@ You can find a list of all available tools in the [Toolbars Overview]({%slug edi
 </links>
 ````
 
-## Configuring Symbols
+### Symbols
 
 >caption Attributes for the `<symbol>` element.
 
@@ -240,7 +224,7 @@ You can find a list of all available tools in the [Toolbars Overview]({%slug edi
  </symbols>
 ````
 
-## Configuring Fonts
+### Fonts
 
 >caption Attributes for the `<font>` element.
 
@@ -256,7 +240,7 @@ You can find a list of all available tools in the [Toolbars Overview]({%slug edi
 </fontNames>
 ````
 
-## Configuring CssClasses collection
+### CssClasses collection
 
 >caption Attributes for the `<class>` element.
 
@@ -274,7 +258,7 @@ You can find a list of all available tools in the [Toolbars Overview]({%slug edi
 </classes>
 ````
 
-## Configuring Paragraphs
+### Paragraphs
 
 >caption Attributes for the `<paragraph>` element.
 
@@ -292,7 +276,7 @@ You can find a list of all available tools in the [Toolbars Overview]({%slug edi
 </paragraphs>
 ````
 
-## Configuring Colors
+### Colors
 
 >caption Attributes for the `<color>` element.
 
@@ -308,7 +292,7 @@ You can find a list of all available tools in the [Toolbars Overview]({%slug edi
 </colors>
 ````
   
-## Configuring Snippets
+### Snippets
 
 >caption Attributes for the `<snippet>` element.
 
@@ -331,7 +315,7 @@ You can find a list of all available tools in the [Toolbars Overview]({%slug edi
 </snippets>
 ````
 
-## Configuring Languages
+### Languages
 
 >caption Attributes for the `<language>` element.
 
@@ -349,7 +333,7 @@ You can find a list of all available tools in the [Toolbars Overview]({%slug edi
 </languages>
 ````
 
-## Configuring Context Menus
+### Context Menus
 
 The **contextMenus** tag in the Tools file allows you to change the default or specify custom context menus for different HTML elements.
 
