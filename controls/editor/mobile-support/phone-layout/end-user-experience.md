@@ -88,15 +88,17 @@ The user can edit the content as HTML by switching to HTML mode. This is done by
 
 ## Using Built-in Mobile Dialogs
 
-With the creation of the phone-optimized **RadEditor**, built-in dialogs also have been also re-designed in order to expose a more user-friendly UI under phone devices. You can learn more details about how to configure the built-in dialogs in the [Mobile Dialogs]({%slug editor/mobile-support/phone-layout/dialogs%}) article.
+With the creation of the phone-optimized **RadEditor**, the built-in dialogs also have also been re-designed in order to expose a more user-friendly UI under phone devices. You can learn more details about how to configure the built-in dialogs in the [Mobile Dialogs]({%slug editor/mobile-support/phone-layout/dialogs%}) article.
 
 >caption Figure 8: Built-in Mobile Dialogs (Insert Table, Insert Image, Insert Link, Find and Replace). 
 
 ![](./images/AJAX_RadEditor_Adaptive_Dialogs.png)
 
+The following sections explain the specific elements for each mobile dialog.
+
 ### Common Elements
 
-All built-in dialogs have **OK**/**Insert** and **Cancel** buttons that are used to perform the dialog's action and to cancel operation. With the mobile-optimized dialogs, these buttons are placed at the top toolbar of the dialog. 
+All built-in dialogs have **OK**/**Insert** and **Cancel** buttons that are used to perform the dialog's action and to cancel the operation. With the mobile-optimized dialogs, these buttons are placed at the top toolbar of the dialog. 
 
 >caption Figure 9: OK and Cancel buttons of the mobile-optimized built-in dialogs.  
 
@@ -110,9 +112,9 @@ All built-in dialogs have **OK**/**Insert** and **Cancel** buttons that are used
 
 ### File Browser Dialogs
 
-* ![](./images/end-user-experience/upload-button.png) **Upload**—opens an UI for the user to upload a file *(available if __UploadPaths__ property is configured)
+* ![](./images/end-user-experience/upload-button.png) **Upload**—opens an UI for the user to upload a file *(available if the __UploadPaths__ property is set)*.
  
-* ![](./images/end-user-experience/delete-button.png) **Delete**—deletes the selected file *(available if __DeletePaths__ property is configured)*.
+* ![](./images/end-user-experience/delete-button.png) **Delete**—deletes the selected file *(available if  the __DeletePaths__ property is set)*.
  
 * ![](./images/end-user-experience/list-button.png) **List View**—toggles the view mode to **List**.
 
