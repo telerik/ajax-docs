@@ -10,7 +10,7 @@ position: 1
 
 # Phone Layout Known Limitations
 
-This help article lists the known limitations of RadEditor with **phone layout**.
+This help article lists the known limitations of RadEditor with **[phone layout]({%slug editor/mobile-support/phone-layout/overview%})**.
 
 * There is a jumping of the keyboard when switching between HTML and Design mode in iOS browsers.
 
