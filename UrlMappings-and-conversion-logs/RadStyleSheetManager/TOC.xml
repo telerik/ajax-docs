@@ -1,8 +1,0 @@
-<Content>
-  <Article title="What is New?" slug="stylesheetmanager/what-is-new?" />
-  <Article title="Overview" slug="stylesheetmanager/overview" />
-  <Article title="Serving External Style Sheets" slug="stylesheetmanager/serving-external-style-sheets" />
-  <Folder title="CDN Support" path="stylesheetmanager/cdn-support">
-    <Article title="Overview" slug="stylesheetmanager/cdn-support/overview" />
-  </Folder>
-</Content>
