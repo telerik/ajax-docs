@@ -290,6 +290,20 @@ The name of the tool
 
 `Telerik.Web.UI.EditorButton` 
 
+### getHeaderToolByName
+
+Returns a reference to a specified header tool
+
+#### Parameters
+
+##### toolName `String`
+
+The name of the tool
+
+#### Returns
+
+`Telerik.Web.UI.EditorButton` 
+
 ### isVisible
 
 Returns Boolean value that represents if the Editor is visible on the page
