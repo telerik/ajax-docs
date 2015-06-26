@@ -14,7 +14,7 @@ This help article shows how to open, configure and customize the mobile dialogs 
 
 * [Advantages](#advantages)
 
-* [Open Insert Dialogs](#open-insert-dialogs)
+* [Open Built-in Dialogs](#open-built-in-dialogs)
 
 * [Configure Built-in Dialogs](#configure-built-in-dialogs)
 
@@ -34,9 +34,9 @@ To get better user experience when inserting objects and configuring HTML attrib
 
 ![RadEditor Mobile Dialogs](./images/AJAX_RadEditor_Adaptive_Dialogs.png) 
 
-## Open Insert Dialogs
+## Open Built-in Dialogs
 
-To open the mobile insert dialogs you should initially open the [ToolZone]({%slug editor/mobile-support/phone-layout/elements-structure%}), pop-up the Tab Chooser from the Tool Navigator and then select the **Insert** Tab. Then you will be provided with the list of the available dialogs (**Figure 2**).
+To open the mobile dialogs you should initially open the [ToolZone]({%slug editor/mobile-support/phone-layout/elements-structure%}), pop-up the Tab Chooser from the Tool Navigator and then select the **Insert** Tab. Then you will be provided with the list of the available dialogs (**Figure 2**).
 
 >caption **Figure 2**: Open RadEditor mobile dialogs.
 
@@ -44,13 +44,13 @@ To open the mobile insert dialogs you should initially open the [ToolZone]({%slu
 
 Mobile dialogs are also used when editing attributes of selected HTML elements (e.g., **Table Properties** and **Table Border** dialogs) and when performing find & replace operations.
 
+>note You can find more details on the end user experience of the mobile dialogs in the [Phone Layout End User Experience]({%slug editor/mobile-support/phone-layout/end-user-experience%}) article.
+
 ## Configure Built-in Dialogs
 
-Dialogs in the **mobile rendering** are configured just like the desktop-oriented dialogs:
+Dialogs in **mobile rendering** are configured just like the desktop-oriented dialogs. You should define the dialog HTTP handler according the [Dialogs Overview]({%slug editor/functionality/dialogs/overview%}) article. *The full list of the required and optional web.config settings is available in the [web.config Settings Overview]({%slug general-information/web-config-settings-overview%}) article*.
 
-* Define the `Telerik.Web.UI.DialogHandler` HTTP handler in the web.config file, as illustrated in the [Dialogs Overview]({%slug editor/functionality/dialogs/overview%}) article. *The full list of the required and optional web.config settings is available in the [web.config Settings Overview]({%slug general-information/web-config-settings-overview%}) article*.
-
-* Configure the view/upload/delete paths for the File Browser Dialogs, as illustrated in the [File Browser Dialogs Overview]({%slug editor/functionality/dialogs/file-browser-dialogs/overview%}) article.
+To setup the paths for the Insert dialogs follow the instruction from the [File Browser Dialogs Overview]({%slug editor/functionality/dialogs/file-browser-dialogs/overview%}) article.
 
 ## Customize Built-in Dialogs
 
