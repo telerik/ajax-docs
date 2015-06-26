@@ -54,4 +54,10 @@ Running the Smart Tag option will add the following web.config HttpHandler entry
 </system.webServer>
 ````
 
+>note You can find the full list of the required and optional web.config settings is available in the [web.config Settings Overview]({%slug general-information/web-config-settings-overview%}) article.
 
+## See Also
+
+* [File Browser Dialogs]({%slug editor/functionality/dialogs/file-browser-dialogs/overview%})
+
+* [web.config Settings Overview]({%slug general-information/web-config-settings-overview%})
