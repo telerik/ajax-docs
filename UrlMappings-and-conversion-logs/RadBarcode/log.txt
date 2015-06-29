@@ -1,7 +1,0 @@
-Converted file: c:\work\telerik.web.ui_scrum\dev\md\radbarcode\barcode\design-time.md
-Converted file: c:\work\telerik.web.ui_scrum\dev\md\radbarcode\barcode\outputtype.md
-Converted file: c:\work\telerik.web.ui_scrum\dev\md\radbarcode\barcode\overview.md
-Converted file: c:\work\telerik.web.ui_scrum\dev\md\radbarcode\barcode\qrcode.md
-Converted file: c:\work\telerik.web.ui_scrum\dev\md\radbarcode\barcode\specifications.md
-Converted file: c:\work\telerik.web.ui_scrum\dev\md\radbarcode\barcode\types.md
-Converted file: c:\work\telerik.web.ui_scrum\dev\md\radbarcode\barcode\wai-aria-support.md

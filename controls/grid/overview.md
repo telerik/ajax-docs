@@ -11,9 +11,6 @@ position: 0
 # Grid Overview
 
 
-
-## 
-
 Telerik **RadGrid** is designed to eliminate the typical trade off associated with ASP.NET grid controls — rich functionality at the expense of weight and performance. Thanks to its innovative architecture, **RadGrid** is extremely fast and generates very little output. Added to this is true cross-browser support — Internet Explorer, all Gecko-based browsers, and Opera.
 
 At the same time, **RadGrid** delivers top-of-the line features.
@@ -33,8 +30,6 @@ At the same time, **RadGrid** delivers top-of-the line features.
 * **Filtering for all built-in column types including an option for switching the default filter textboxes with other controls**
 
 * **Hierarchical grids with multiple tables at any level, templates for detail tables and self-referencing hierarchy**
-
-* **Item templates/Card View support**
 
 * **Outlook-style grouping for flat and hierarchical grids**
 

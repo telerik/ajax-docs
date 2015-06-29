@@ -131,9 +131,11 @@ Telerik.Web.UI.Editor.CommandList["Custom3"] = function (commandName, editor, ar
 
 If you add a custom tool and do not create a CommandList then when you click the button it will pop up a message that the command `<commandName>` is not implemented yet.
 
-The commands above will be rendered as buttons on the toolbar. To improve their appearance, you should provide image files for them and declare the following CSS classes in the page with the editor inside the HEAD tags or in external CSS file that you should import in the page with the editor with a LINK tag:
+The commands above will be rendered as buttons on the toolbar. To improve their appearance, you should provide image files for them and declare the following CSS classes in the page with the editor inside the HEAD tags or in external CSS file that you should import in the page with the editor with a LINK tag.
 
-````XML
+How to add your own icon to your custom button:
+
+````CSS
 <style type="text/css">
 	.reTool .<commandName>
 	{   
