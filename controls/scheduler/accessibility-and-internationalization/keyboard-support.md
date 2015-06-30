@@ -14,7 +14,7 @@ position: 4
 
 ## 
 
-As of **Q2 2011** RadScheduler introduces keyboars support. In order to activate it, appropriate TabIndex should be set.
+As of **Q2 2011** RadScheduler introduces keyboard support. In order to activate it, appropriate TabIndex should be set.
 
 The keyboard navigation has the following functionalities:
 
