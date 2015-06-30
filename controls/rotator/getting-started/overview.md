@@ -66,4 +66,3 @@ All of the explained logic stays the same if the *ScrollDirection="Up, Down"* is
 * You should always add 14px to the **Width** and the **Height** of **RadRotator** .
 * If the **RadRotator** is configured in a mode that uses control buttons (for example **Buttons** , **ButtonsOver** ) you should add 28px for every button (the buttons have dimensions: 28x28 pixels). In case the **RadRotator** has horizontal orientation the pixels are added to the **Width** property and in case the rotator control is oriented vertically, you should increase the **Height** property.
 
->important The **RadRotator** control does not support percent values and all of the above properties should be set in pixels.
