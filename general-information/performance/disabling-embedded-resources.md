@@ -94,16 +94,18 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 * **RadAsyncUpload**
 
 ````ASP.NET
-<scripts>
-	<asp:ScriptReference Path="~/Scripts/Common/Core.js" />
-	<asp:ScriptReference Path="~/Scripts/Upload/RadProgressManager.js" />
-	<asp:ScriptReference Path="~/Scripts/Common/jQuery.js" />
-	<asp:ScriptReference Path="~/Scripts/Common/jQueryPlugins.js" />
-	<asp:ScriptReference Path="~/Scripts/Upload/RadUpload.js" />
-	<asp:ScriptReference Path="~/Scripts/AsyncUpload/RadAsyncUpload.js" />
-	<asp:ScriptReference Path="~/Scripts/Common/Popup/PopupScripts.js" />
-	<asp:ScriptReference Path="~/Scripts/Upload/RadProgressArea.js" />
-</scripts>
+<Scripts>
+    <asp:ScriptReference Path="~/Scripts/Common/Core.js" />
+    <asp:ScriptReference Path="~/Scripts/Upload/RadProgressManager.js" />
+    <asp:ScriptReference Path="~/Scripts/Common/jQuery.js" />
+    <asp:ScriptReference Path="~/Scripts/Common/jQueryPlugins.js" />
+    <asp:ScriptReference Path="~/Scripts/Upload/RadUpload.js" />
+    <asp:ScriptReference Path="~/Scripts/AsyncUpload/RadAsyncUploadScripts.js" />
+    <asp:ScriptReference Path="~/Scripts/AsyncUpload/Views/LiteView.js" />
+    <asp:ScriptReference Path="~/Scripts/AsyncUpload/Views/ClassicView.js" />
+    <asp:ScriptReference Path="~/Scripts/Common/Popup/PopupScripts.js" />
+    <asp:ScriptReference Path="~/Scripts/Upload/RadProgressArea.js" />
+</Scripts>
 ````
 
 * **RadAutoCompleteBox**
