@@ -12,6 +12,14 @@ position: 2
 
 RadEditor provides 4 different ways to configure the toolbars:
 
+ * [Setting the tools in the RadEditor's declaration](#setting-the-tools-in-the-radeditors-declaration)
+ 
+ * [Setting the tools via the ToolsFile property - the same way as in the previous versions of the control](#setting-the-tools-via-the-toolsfile-property---the-same-way-as-in-the-previous-versions-of-the-control)
+ 
+ * [Setting the tools programmatically in the code-behind](#setting-the-tools-programmatically-in-the-code-behind)
+ 
+ * [Setting the tools by using Theme](#setting-the-tools-by-using-theme)
+
 ## Setting the tools in the RadEditor's declaration:
 
 ````ASP.NET
@@ -35,8 +43,6 @@ You can add any number of custom buttons using the sample code below. All you ne
 </telerik:RadEditor>
 ````
 
-
-
 ````XML
 <tools name="MainToolbar" enabled="true">  
 	<tool name="Custom1" />  
@@ -45,7 +51,7 @@ You can add any number of custom buttons using the sample code below. All you ne
 </tools>
 ````
 
-## Setting the tools programmatically in the codebehind:
+## Setting the tools programmatically in the code-behind:
 
 ````C#
 EditorToolGroup main = new EditorToolGroup();
@@ -131,33 +137,12 @@ Telerik.Web.UI.Editor.CommandList["Custom3"] = function (commandName, editor, ar
 
 If you add a custom tool and do not create a CommandList then when you click the button it will pop up a message that the command `<commandName>` is not implemented yet.
 
-The commands above will be rendered as buttons on the toolbar. To improve their appearance, you should provide image files for them and declare the following CSS classes in the page with the editor inside the HEAD tags or in external CSS file that you should import in the page with the editor with a LINK tag.
+The commands above will be rendered as buttons on the toolbar. To improve their appearance, you should provide image files or font icons, based on the [render mode]({%slug editor/mobile-support/render-modes%}) of the editor. You can find such an example in the ([Set Icons for Toolbar Button States]({%slug editor/functionality/toolbars/buttons/set-button-state%}#set-icons-for-toolbar-button-states)) help article.
 
-How to add your own icon to your custom button:
-
-````CSS
-<style type="text/css">
-	.reTool .<commandName>
-	{   
-		background-image: url(MyImage.gif);
-	}
-	.reTool .Custom1
-	{   
-		background-image: url(http://www.telerik.com/DEMOS/ASPNET/RadControls/Editor/Skins/Default/buttons/CustomDialog.gif);
-	}
-	.reTool .Custom2  
-	{
-		background-image: url(http://www.telerik.com/DEMOS/ASPNET/RadControls/Editor/Skins/Default/buttons/Custom.gif);
-	}
-	.reTool .Custom3
-	{   
-		background-image: url(http://www.telerik.com/DEMOS/ASPNET/RadControls/Editor/Skins/Default/buttons/CustomDialog.gif);
-	}
-</style>
-````
 
 ## See Also
 
  * [Adding Custom Tools](http://demos.telerik.com/aspnet-ajax/Editor/Examples/CustomTools/DefaultCS.aspx)
-
+ * [Set Button State]({%slug editor/functionality/toolbars/buttons/set-button-state%})
+ * [RadEditor Render Modes]({%slug editor/mobile-support/render-modes%})
  * [Server-Side API](http://demos.telerik.com/aspnet/prometheus/Editor/Examples/ServersideAPI/DefaultCS.aspx)
