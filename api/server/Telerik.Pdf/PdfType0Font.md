@@ -1,0 +1,112 @@
+---
+title: Telerik.Pdf.PdfType0Font
+page_title: Telerik.Pdf.PdfType0Font
+description: Telerik.Pdf.PdfType0Font
+---
+
+# Telerik.Pdf.PdfType0Font
+
+A Type 0 font is a composite font whose glyphs are obtained from a
+                font like object called a CIDFont (a descendant font).
+
+#### Remarks
+All versions of the PDF specification up to and including version 1.4
+                only support a single descendant font.
+
+## Inheritance Hierarchy
+
+* System.Object
+* Telerik.Pdf.PdfObject
+* Telerik.Pdf.PdfDictionary
+* Telerik.Pdf.PdfFont
+* Telerik.Pdf.PdfType0Font
+
+## Properties
+
+###  ToUnicode `PdfCMap`
+
+Sets the stream containing a CMap that maps character codes to 
+                unicode values.
+
+###  Descendant `PdfCIDFont`
+
+Sets the descendant font.
+
+###  Encoding `PdfName`
+
+Sets a value representing the character encoding.
+
+###  Name `PdfName`
+
+Returns the internal name used for this font.
+
+###  entries `Hashtable`
+
+###  Item `PdfObject`
+
+###  Keys `ICollection`
+
+###  Values `ICollection`
+
+###  Count `Int32`
+
+###  IsIndirect `Boolean`
+
+###  ObjectId `PdfObjectId`
+
+## Methods
+
+###  Add
+
+#### Returns
+
+`System.Void` 
+
+###  Clear
+
+#### Returns
+
+`System.Void` 
+
+###  Contains
+
+#### Returns
+
+`System.Boolean` 
+
+###  Remove
+
+#### Returns
+
+`System.Void` 
+
+###  GetEnumerator
+
+#### Returns
+
+`System.Collections.IEnumerator` 
+
+###  Write
+
+#### Returns
+
+`System.Void` 
+
+###  Write
+
+#### Returns
+
+`System.Void` 
+
+###  WriteIndirect
+
+#### Returns
+
+`System.Void` 
+
+###  GetReference
+
+#### Returns
+
+`Telerik.Pdf.PdfObjectReference` 
+
