@@ -16,7 +16,7 @@ slug: Telerik.Web.UI.SchedulerTimeSlotContextMenuEventArgs
 
 ### get_time
 
-Returns the time on which the user right-clicks in the Time Slot in Day View; returns Day Start Time in Week View.
+Returns the time on which the user right-clicks in the Time Slot.
 
 #### Parameters
 
@@ -26,7 +26,27 @@ Returns the time on which the user right-clicks in the Time Slot in Day View; re
 
 ### get_targetSlot
 
-Returns the instance of the time slot that the appointment has been resized to.
+Returns the instance of the time slot on which the user right-clicks.
+
+#### Parameters
+
+#### Returns
+
+`Telerik.Web.UI.ISchedulerTimeSlot`
+
+### get_startSlot
+
+Returns the instance of the first time slot in the slot selection.
+
+#### Parameters
+
+#### Returns
+
+`Telerik.Web.UI.ISchedulerTimeSlot`
+
+### get_endSlot
+
+Returns the instance of the last time slot in the slot selection.
 
 #### Parameters
 

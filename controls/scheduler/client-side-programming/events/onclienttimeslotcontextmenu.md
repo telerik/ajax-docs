@@ -26,6 +26,10 @@ Two parameters are passed to the event handler:
 
 * **get_targetSlot()** - returns the Time Slot which is right-clicked.
 
+* **get_startSlot()** - returns the first time slot in the slot selection.
+
+* **get_endSlot()** - returns the last time slot in the slot selection.
+
 * **get_time()** - returns the time on which the user right-clicks in the Time Slot in Day View; returns Day Start Time in Week View.
 
 # See Also

@@ -22,7 +22,11 @@ Two parameters are passed to the event handler:
 
 * **eventArgs** has the following methods:
 
-	* **get_slot()** - the instance of the time slot.
+	* **get_slot()** - the instance of the time slot, on which the context menu was shown.
+
+	* **get_startSlot()** - the instance of the first time slot in the slot selection.
+
+	* **get_endSlot()** - the instance of the last time slot in the slot selection.
 
 	* **get_item()** - the clicked menu item
 
