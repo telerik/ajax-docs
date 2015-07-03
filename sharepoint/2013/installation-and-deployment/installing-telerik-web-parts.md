@@ -36,6 +36,8 @@ Behind the scene the installer runs the SP PowerShell deployment commands that a
 		    Namespace="Telerik.Web.UI.Widgets" TypeName="*" Safe="True" SafeAgainstScript="False" />
 		<SafeControl Assembly="Telerik.Web.UI, Version=..., Culture=neutral, PublicKeyToken=121fae78165ba3d4"
 		    Namespace="Telerik.Web.Design" TypeName="*" Safe="True" SafeAgainstScript="False" />
+		<SafeControl Assembly="Telerik.Web.UI.Skins, Version=..., Culture=neutral, PublicKeyToken=121fae78165ba3d4"
+		    Namespace="Telerik.Web.UI" TypeName="*" Safe="True" SafeAgainstScript="False" />
 		<SafeControl Assembly="RadEditorSharePoint, Version=6.0.0.0, Culture=neutral, PublicKeyToken=1f131a624888eeed"
 		    Namespace="Telerik.SharePoint" TypeName="*" Safe="True" SafeAgainstScript="False" />
 		<SafeControl Assembly="RadEditorSharePoint, Version=6.0.0.0, Culture=neutral, PublicKeyToken=1f131a624888eeed"
