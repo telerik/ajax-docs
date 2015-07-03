@@ -76,8 +76,9 @@ This help article discuss different techniques which allow you to modify **RadGr
 
 >note The default page orientation for the *PDF* file is *Portrait.* You can easily switch to *Landscape* by modifying the *PageWidth* / *PageHeight* properties manually.
 >
-*  * **A4 Portrait** :* <Pdf PageWidth="210mm" PageHeight="297mm" />
-*  * **A4 Landscape** :* <Pdf PageWidth="297mm" PageHeight="210mm" />>
+*  * **A4 Portrait** :* \<Pdf PageWidth="210mm" PageHeight="297mm" /\>
+*  * **A4 Landscape** :* \<Pdf PageWidth="297mm" PageHeight="210mm" /\>
+>
 
 
 ## OnPdfExporting event
