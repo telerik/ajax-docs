@@ -56,8 +56,18 @@ Running the Smart Tag option will add the following web.config HttpHandler entry
 
 >note You can find the full list of the required and optional web.config settings is available in the [web.config Settings Overview]({%slug general-information/web-config-settings-overview%}) article.
 
+As of **Q2 2015**, new, phone-optimized UI is introduced in **RadEditor**—[Phone Layout of RadEditor]({%slug editor/mobile-support/phone-layout/overview%}). You can find more details about dialog-related optimizations in [Mobile Dialogs]({%slug editor/mobile-support/phone-layout/dialogs%}) article.    
+
 ## See Also
 
 * [File Browser Dialogs]({%slug editor/functionality/dialogs/file-browser-dialogs/overview%})
 
 * [web.config Settings Overview]({%slug general-information/web-config-settings-overview%})
+
+* [Phone Layout of RadEditor]({%slug editor/mobile-support/phone-layout/overview%})
+
+* [Phone Layout Getting Started]({%slug editor/mobile-support/phone-layout/getting-started%})
+
+* [Phone Layout Elements Structure]({%slug editor/mobile-support/phone-layout/elements-structure%})
+
+* [Mobile Dialogs]({%slug editor/mobile-support/phone-layout/dialogs%})

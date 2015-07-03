@@ -34,9 +34,11 @@ You can also configure the toolbar using an XML [ToolsFile]({%slug editor/functi
 
 You can group tools with similar logic in ToolStrips. You can find more information in the following	article: [How to create a ToolStrip]({%slug editor/functionality/toolbars/dropdowns/custom-toolstrip%}).
 
+As of **Q2 2015**, new, phone-optimized UI is introduced in **RadEditor**—[Phone Layout of RadEditor]({%slug editor/mobile-support/phone-layout/overview%}). You can find more details about toolbar-related optimizations in [Phone Layout Elements Structure]({%slug editor/mobile-support/phone-layout/elements-structure%}) article.   
+
 ## RadEditor Toolset Reference
 
-The lists below show the icon image, the name of the tool, a description of what the tool does, and the tagformat used to declare that tool in the ToolsFile.xml file.
+The lists below show the icon image, the name of the tool, a description of what the tool does, and the tag format used to declare that tool in the ToolsFile.xml file.
 
 ## General Buttons
 
@@ -174,3 +176,9 @@ Below is an example of a ToolsFile:
  * [Dialogs live example](http://demos.telerik.com/aspnet-ajax/editor/examples/built-in-dialogs/defaultcs.aspx)
 
  * [RadEditor End-User Manual](http://www.telerik.com/documents/RadEditorAjaxEndUserManual.pdf)
+
+ * [Phone Layout of RadEditor]({%slug editor/mobile-support/phone-layout/overview%})
+
+ * [Phone Layout Getting Started]({%slug editor/mobile-support/phone-layout/getting-started%})
+
+ * [Phone Layout Elements Structure]({%slug editor/mobile-support/phone-layout/elements-structure%})

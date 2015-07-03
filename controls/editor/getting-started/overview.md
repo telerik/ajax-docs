@@ -68,6 +68,10 @@ For further instructions on these matters, please follow [the Localization secti
 
 ![getting-started-Rad Editor-My List](images/editor-getting-started/getting-started-RadEditor-MyList.png)
 
+## Getting Started with Adaptive Editor
+
+If the application built needs be phone-optimized, you can consider using the [Phone Layout of RadEditor]({%slug editor/mobile-support/phone-layout/overview%}). To learn more about it, you can follow the [Phone Layout Getting Started]({%slug editor/mobile-support/phone-layout/getting-started%}) and [Phone Layout Elements Structure]({%slug editor/mobile-support/phone-layout/elements-structure%}) articles.
+
 ## See Also
 
  * [Set Properties]({%slug editor/getting-started/set-properties%})
@@ -83,3 +87,9 @@ For further instructions on these matters, please follow [the Localization secti
  * [Spellchecker Overview]({%slug editor/functionality/spellchecker/overview%})
 
  * [Dialogs Introduction]({%slug editor/functionality/dialogs/overview%})
+
+ * [Phone Layout of RadEditor]({%slug editor/mobile-support/phone-layout/overview%})
+
+ * [Phone Layout Getting Started]({%slug editor/mobile-support/phone-layout/getting-started%})
+
+ * [Phone Layout Elements Structure]({%slug editor/mobile-support/phone-layout/elements-structure%})
