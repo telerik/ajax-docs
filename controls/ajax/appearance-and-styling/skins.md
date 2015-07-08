@@ -16,8 +16,6 @@ This help article describes how **RadAjaxLoadingPanel** works with skins, shows 
 
 ## 
 
-As of Q1 2009, **RadAjaxLoadingPanel** supports skinning similar to all other controls in the UI for ASP.NET AJAX suite. You can change a **RadAjaxLoadingPanel's** skin by setting the **Skin** property to the name of the respective skin.
-
 >caution Unlike all other RadControls, for a **RadAjaxLoadingPanel** the **Skin** property's default value is "" (no skin). The main reason for this is backwards compatibility. If this was not the default setting, the appearance of all legacy loading panels will be spoiled and two loading images will appear.
 >
 
