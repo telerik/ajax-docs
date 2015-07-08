@@ -7,6 +7,8 @@ slug: Telerik.Web.UI.Editor.FindReplaceMobile
 
 # Telerik.Web.UI.Editor.FindReplaceMobile
 
+## Inheritance Hierarchy
+
 * [Telerik.Web.UI.RadWebControl]({%slug Telerik.Web.UI.RadWebControl%})
 * *[Telerik.Web.UI.Editor.FindReplaceMobile]({%slug Telerik.Web.UI.Editor.FindReplaceMobile%})*
 

@@ -7,6 +7,7 @@ slug: Telerik.Web.UI.Editor.FindReplaceManager
 
 # Telerik.Web.UI.Editor.FindReplaceManager
 
+## Inheritance Hierarchy
 
 * *[Telerik.Web.UI.Editor.FindReplaceManager]({%slug Telerik.Web.UI.Editor.FindReplaceManager%})*
 
