@@ -478,6 +478,16 @@ Toggles the full screen mode of RadEditor.
 
 `None` 
 
+### get_findReplaceOverlay
+
+Gets the Find/Replace overlay. This overlay currently only exists in the Mobile render mode of the Editor
+
+#### Parameters
+
+#### Returns
+
+`Telerik.Web.UI.Editor.FindReplaceMobile`
+
 ### validateMaxTextLength
 
 Validates the current length of the text. Optional String parameter can be added to validate with additional text without inserting it into the content.
