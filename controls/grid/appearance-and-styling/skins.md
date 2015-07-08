@@ -25,9 +25,6 @@ Generally, you can change the existing grid skins by setting the **Skin** proper
 The image below shows a thumbnail view of the embedded skins provided by Telerik. They are embedded in the Telerik.Web.UI.dll assembly as web resources.To use a built-in skin, the user only needs to set the **Skin** property of the control. Built-in skins are also provided in "C:\Program Files\Telerik\RadControls for ASP.NET AJAX Qx 20xx\Skins".
 ![RadGrid Skins](images/grid_skins.png)
 
->note The **Hay** , **Forest** , **Sitefinity** and **Transparent** skins are obsolete and have been removed from the Telerik.Web.UI.Skins.dll assembly as of **Q1 2014** .	You can find more information on the matter in[this blog post](http://blogs.telerik.com/aspnet-ajax/posts/13-04-11/6-telerik-asp.net-ajax-skins-going-obsolete).
->
-
 
 Except setting the **Skin** property to one of the built-in skins you can use it in the following ways:
 

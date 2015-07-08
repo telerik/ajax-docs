@@ -50,8 +50,6 @@ Here are the main features of the control:
 
 ![formdecorator skins thumb](images/formdecorator_skins_thumb.png)
 
->note The **Hay** , **Forest** , **Sitefinity** and **Transparent** skins are obsolete and have been removed from the Telerik.Web.UI.Skins.dll assembly as of **Q1 2014** .	You can find more information on the matter in [this blog post](http://www.telerik.com/blogs/6-telerik-asp.net-ajax-skins-going-obsolete).
-
 To decorate the form elements on a webpage:
 
 1. Register **Telerik.Web.UI** namespace tagprefix:

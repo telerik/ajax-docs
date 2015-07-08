@@ -18,8 +18,6 @@ To apply a skin to a **RadEditor** control, set its **Skin** property, either us
 
 ![radeditor-skins](images/radeditor-skins.png)
 
->note The **Hay** , **Forest** , **Sitefinity** and **Transparent** skins are obsolete and have been removed from the Telerik.Web.UI.Skins.dll assembly as of **Q1 2014** .	You can find more information on the matter in [this blog post](http://blogs.telerik.com/aspnet-ajax/posts/13-04-11/6-telerik-asp.net-ajax-skins-going-obsolete).
-
 
 ## Customizing Skins
 
