@@ -2454,3 +2454,399 @@ The command arguments.
 #### Returns
 
 `None` 
+
+### static MobileEdit 
+
+Toggles the ToolZone in RadEditor with Phone Layout
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static ImageSizeMargins 
+
+Sets the Size and Margins of the Selected Image
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static OpenLink 
+
+Opens the Selected Link
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static TopLeftCellAlign 
+
+Aligns the Selected Cell to Top-Left
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static TopCenterCellAlign 
+
+Aligns the Selected Cell to Top-Center
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static TopRightCellAlign 
+
+Aligns the Selected Cell to Top-Right
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static MiddleLeftCellAlign 
+
+Aligns the Selected Cell to Middle-Left
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static MiddleCenterCellAlign 
+
+Aligns the Selected Cell to Middle-Center
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static MiddleRightCellAlign 
+
+Aligns the Selected Cell to Middle-Right
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static BottomLeftCellAlign 
+
+Aligns the Selected Cell to Bottom-Left
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static BottomCenterCellAlign 
+
+Aligns the Selected Cell to Bottom-Center
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static BottomRightCellAlign 
+
+Aligns the Selected Cell to Bottom-Right
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static NoCellAlign 
+
+Removes the Alignment of the Selected Cell
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static ImageBorder 
+
+Sets Border of the Selected Image
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static CellBorder 
+
+Sets Border of the Selected Cell
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static TableBorder 
+
+Sets Border of the Selected Table
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static MobileTableProperties 
+
+Sets the Properties of the Selected Table for Phone Layout
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static InsertTableDialog 
+
+Inserts a Table in RadEditor
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
