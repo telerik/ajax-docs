@@ -34,7 +34,7 @@ You can also configure the toolbar using an XML [ToolsFile]({%slug editor/functi
 
 You can group tools with similar logic in ToolStrips. You can find more information in the following	article: [How to create a ToolStrip]({%slug editor/functionality/toolbars/dropdowns/custom-toolstrip%}).
 
-As of **Q2 2015**, new, phone-optimized UI is introduced in **RadEditor**—[Phone Layout of RadEditor]({%slug editor/mobile-support/phone-layout/overview%}). You can find more details about toolbar-related optimizations in [Phone Layout Elements Structure]({%slug editor/mobile-support/phone-layout/elements-structure%}) article.   
+As of **Q2 2015**, new phone-optimized UI is introduced in **RadEditor**—[Phone Layout of RadEditor]({%slug editor/mobile-support/phone-layout/overview%}). You can find more details about the toolbar-related optimizations in the [Phone Layout Elements Structure]({%slug editor/mobile-support/phone-layout/elements-structure%}) article.   
 
 ## RadEditor Toolset Reference
 
