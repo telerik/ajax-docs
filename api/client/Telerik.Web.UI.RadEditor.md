@@ -304,6 +304,26 @@ The name of the tool
 
 `Telerik.Web.UI.EditorButton` 
 
+### get_headerToolsContainer
+
+Returns a reference to the HeaderTools Container DOM element (available only for Mobile rendering)
+
+#### Parameters
+
+#### Returns
+
+`Element` 
+
+### get_headerContainer
+
+Returns a reference to the Preview Header Container DOM element (available only for Mobile rendering)
+
+#### Parameters
+
+#### Returns
+
+`Element` 
+
 ### isVisible
 
 Returns Boolean value that represents if the Editor is visible on the page
@@ -1358,5 +1378,19 @@ This event is fired when user has clicked outside an editor in Inline Edit mode.
 The RadEditor instance raised the event.
 
 ##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The event arguments.
+
+### orientationChange
+
+This event is fired when the mobile device orientation has changed in Mobile rendering.
+
+#### Event Data
+
+##### sender `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance raised the event.
+
+##### args `Telerik.Web.UI.Editor.OrientationEventArgs`
 
 The event arguments.
