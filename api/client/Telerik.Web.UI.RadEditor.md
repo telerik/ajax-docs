@@ -1151,6 +1151,8 @@ The zoom level is in percents with default value of "100%". Optional.
 
 #### Returns
 
+`None`
+
 ### refreshContentZoom
 
 Refreshes the zoomed content. Useful when content is resized outside the RadEditor API.
@@ -1158,6 +1160,8 @@ Refreshes the zoomed content. Useful when content is resized outside the RadEdit
 #### Parameters
 
 #### Returns
+
+`None`
 
 ## Events
 
