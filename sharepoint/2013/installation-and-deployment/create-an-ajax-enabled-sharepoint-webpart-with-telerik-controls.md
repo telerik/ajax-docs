@@ -39,7 +39,7 @@ The following steps describe the creation of the WebPart:
 		<telerik:RadRotator runat="server" ID="RadRotator1" Width="190px" Height="113px" 
 		    ItemWidth="150px" ItemHeight="113px" RotatorType="Buttons">
 		    <ItemTemplate>
-		        <img src='<%# Eval("ThumbnailOnForm") %>' />
+		        <img src='<%# Eval("AbsImageFolderPath") %>' />
 		    </ItemTemplate>
 		</telerik:RadRotator>
 
@@ -48,27 +48,41 @@ The following steps describe the creation of the WebPart:
 
 		protected void Page_Load(object sender, EventArgs e)
 		{
-		    using (var site = new SPSite("http://websitename"))
-		    {
-		        using (var web = site.OpenWeb())
-		        {
-		            var list = web.Lists["Images"];
-		            RadRotator1.DataSource = list.Items.GetDataTable();
-		            RadRotator1.DataBind();
-		        }
-		    }
+			string SiteURL = "http://websitename";
+			using (var site = new SPSite(SiteURL))
+			{
+				using (var web = site.OpenWeb())
+				{
+					var list = web.Lists["Images"];
+					DataTable imagesDT = list.Items.GetDataTable();
+
+					DataColumn absImageFolderPath = new DataColumn("AbsImageFolderPath");
+					absImageFolderPath.Expression = string.Format("'{1}'+{0}", "ThumbnailOnForm", SiteURL);
+					imagesDT.Columns.Add(absImageFolderPath);
+
+					RadRotator1.DataSource = imagesDT;
+					RadRotator1.DataBind();
+				}
+			}
 		}
 
 	**VB**
 
 		Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
-		    Using site = New SPSite("http://websitename")
-		        Using web = site.OpenWeb()
-		            Dim list = web.Lists("Images")
-		            RadRotator1.DataSource = list.Items.GetDataTable()
-		            RadRotator1.DataBind()
-		        End Using
-		    End Using
+			Dim SiteURL As String = "http://websitename"
+			Using site = New SPSite(SiteURL)
+				Using web = site.OpenWeb()
+					Dim list = web.Lists("Images")
+					Dim imagesDT As DataTable = list.Items.GetDataTable()
+
+					Dim absImageFolderPath As New DataColumn("AbsImageFolderPath")
+					absImageFolderPath.Expression = String.Format("'{1}'+{0}", "ThumbnailOnForm", SiteURL)
+					imagesDT.Columns.Add(absImageFolderPath)
+
+					RadRotator1.DataSource = imagesDT
+					RadRotator1.DataBind()
+				End Using
+			End Using
 		End Sub
 
 
