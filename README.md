@@ -19,7 +19,7 @@ You can generate a static web site from the Telerik UI for ASP.NET AJAX document
 
 ## License
 
-The Telerik UI for WPF/Silverlight Documentation is licensed under an MIT license. This license applies to the markdown (.md) files in this site **ONLY**, and does not convey, override or modify any existing licenses covering the runtime source and components of Telerik UI for WPF/Silverlight. For information about available licenses for the Telerik UI for WPF click [here](http://www.telerik.com/purchase/license-agreement/wpf-dlw-s) and for Telerik UI for Silverlight click [here](http://www.telerik.com/purchase/license-agreement/silverlight-dlw-s).
+The Telerik UI for ASP.NET AJAX Documentation is licensed under an MIT license. This license applies to the markdown (.md) files in this site **ONLY**, and does not convey, override or modify any existing licenses covering the runtime source and components of Telerik UI for ASP.NET AJAX. For information about available licenses for the Telerik UI for ASP.NET AJAX click [here](http://www.telerik.com/purchase/license-agreement/aspnet-ajax).
 
 ### MIT License
 
