@@ -785,6 +785,16 @@ Returns a reference to the RadEditor's content area's body element
 
 `Object` 
 
+### getDomRange
+
+Gets a reference to a DomRange object that represents the current selection in the RadEditor
+
+#### Parameters
+
+#### Returns
+
+`Telerik.Web.UI.Editor.DomRange`
+
 ### createRestorePoint
 
 You can store and restore the exact position of the cursor using createRestorePoint and select method. Use getSelection().getRange()instead of the obsolete createRestorePoint()
