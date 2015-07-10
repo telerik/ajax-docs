@@ -52,8 +52,6 @@ Another way of populating the Playlist collection is by using the YouTube Playli
 </telerik:RadMediaPlayer>
 ````
 
-
-
 ## Configuration Settings
 
 You can find the Playlist settings within the **RadMediaPlayer.PlaylistSettings** collection. Short description for each of the settings is given below.
@@ -69,6 +67,32 @@ You can find the Playlist settings within the **RadMediaPlayer.PlaylistSettings*
 * **Buttons:** The navigation of the Playlist area is done using two buttons on each side of the list, depending on its selected Position.
 
 * **ButtonsTrigger** Gets or sets a property determining when the Playlist buttons will trigger their scroll functionality. Note that the property is only applicable when the Mode of the Playlist is set to Buttons.
+
+## YouTube Playlist
+
+
+RadMediaPlayer automatically generates its Playlist for a source from a third-party provider, namely the Google YouTube, when the **YouTubePlaylist** property is set.
+
+````ASP.NET
+<telerik:RadMediaPlayer ID="RadMediaPlayer1" runat="server" Width="640px" Height="360px">
+    <PlaylistSettings YouTubePlaylist="PL2HUH5okl73JFq_QDyqVq9GCZ0Dd9L0OH" />
+</telerik:RadMediaPlayer>
+````
+
+Playing a YouTube Playlist also requires a YouTube API Key in the Web.Config file.
+
+````ASP.NET
+<appSettings>
+  ...
+  <add key ="YoutubeApiKey" value="YourKeyGoesHere"/>
+</appSettings>
+````
+
+If you have difficulties obtaining the key, you can generate your own key using the steps explained here by creating a new Google project:
+[Obtaining authorization credentials](https://developers.google.com/youtube/registering_an_application)
+
+
+Expand the **APIs & auth** option in the application tree - there you can enable the YouTube API in the **APIs** subsection and Create your Public API access Server key in the **Credentials** subsection.
 
 ## See Also
 
