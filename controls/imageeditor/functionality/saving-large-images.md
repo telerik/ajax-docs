@@ -10,7 +10,7 @@ position: 5
 
 # Saving Large Images
 
-By default **RadImageEditor** can save images with size up to ~2MB. This article explains how to configure the control (and its parent application) in order to enable saving for large images.
+This article explains how to configure the control (and its parent application) in order to enable saving for large images. By default **RadImageEditor** can save images with size up to ~2MB.
 
 
 ## Configure the Maximum Allowed JSON Length in RadImageEditor
