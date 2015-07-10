@@ -10,7 +10,7 @@ position: 5
 
 # Saving Large Images
 
-By default **RadImageEditor** can save images with size up to ~2MB. This article explains how to configure the control (and the its parent application) in order to enable saving for large images.
+By default **RadImageEditor** can save images with size up to ~2MB. This article explains how to configure the control (and its parent application) in order to enable saving for large images.
 
 
 ## Configure the Maximum Allowed JSON Length in RadImageEditor
@@ -25,7 +25,7 @@ When **RadImageEditor** is used in enabled **CanvasMode** (which is used by defa
 
 ## Configure the Maximum Allowed JSON Length for the Whole Application
 
-You will also need to make sure that the corresponding properties for the whole application also are configured to allow requests with bigger size (e.g. [maxRequestLength](https://msdn.microsoft.com/en-us/library/system.web.configuration.httpruntimesection.maxrequestlength%28v=vs.110%29.aspx) and [maxJsonLength](https://msdn.microsoft.com/en-us/library/vstudio/bb513882%28v=vs.100%29.aspx)):
+You will also need to make sure that the corresponding properties for the whole application also are configured to allow requests with bigger than the default length (e.g. [maxRequestLength](https://msdn.microsoft.com/en-us/library/system.web.configuration.httpruntimesection.maxrequestlength%28v=vs.110%29.aspx) and [maxJsonLength](https://msdn.microsoft.com/en-us/library/vstudio/bb513882%28v=vs.100%29.aspx)):
 
 ````ASP.NET
 <configuration>
@@ -44,7 +44,7 @@ You will also need to make sure that the corresponding properties for the whole 
 
 # See Also
 
- * [Overview]({%slug imageeditor/overview%})
+ * [ImageEditor Overview]({%slug imageeditor/overview%})
 
  * [MSDN HttpRuntimeSection.MaxRequestLength Property](https://msdn.microsoft.com/en-us/library/system.web.configuration.httpruntimesection.maxrequestlength%28v=vs.110%29.aspx)
 
