@@ -1,4 +1,3 @@
-
 ---
 title: Telerik.Web.UI.RadTreeNodeDroppingEventArgs 
 page_title: Client-side API Reference

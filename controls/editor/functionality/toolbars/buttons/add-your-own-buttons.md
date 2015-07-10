@@ -146,3 +146,4 @@ The commands above will be rendered as buttons on the toolbar. To improve their 
  * [Set Button State]({%slug editor/functionality/toolbars/buttons/set-button-state%})
  * [RadEditor Render Modes]({%slug editor/mobile-support/render-modes%})
  * [Server-Side API](http://demos.telerik.com/aspnet/prometheus/Editor/Examples/ServersideAPI/DefaultCS.aspx)
+ * [Show or hide the DOM Inspector module via an Editor tool](http://www.telerik.com/support/code-library/show-or-hide-the-dom-inspector-module-via-an-editor-tool)

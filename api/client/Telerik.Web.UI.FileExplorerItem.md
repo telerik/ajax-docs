@@ -22,6 +22,14 @@ slug: Telerik.Web.UI.FileExplorerItem
 
 `String` 
 
+### get_path
+
+#### Parameters
+
+#### Returns
+
+`String`
+
 ### isDirectory
 
 Returns a Boolean value that indicates whether the selected item is a folder or not

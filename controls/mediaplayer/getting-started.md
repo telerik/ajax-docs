@@ -101,10 +101,19 @@ Adding their respective MIME settings to the Web Config file of our web site can
 </system.webServer>
 ````
 
-
-
 For configuring the remaining settings of the **RadMediaPlayer** please refer to the **Playing Video File** section above.
 
 ## Playing YouTube Video
 
-You can easily enable users to play YouTube videos on your web site by including a RadMediaPlayer on your page and setting its source to the desired YouTube video link.
+You can easily enable users to play YouTube videos on your web site by including a RadMediaPlayer on your page and setting its **Source** to the desired YouTube video link.
+
+````ASP.NET
+<telerik:RadMediaPlayer ID="RadMediaPlayer1" runat="server" Width="640px" Height="360px"
+    Source="https://www.youtube.com/watch?v=rLtTuFbuf1c">
+</telerik:RadMediaPlayer>
+````
+
+Additional arguments, e.g. time, are not supported:
+[https://www.youtube.com/watch?t=115&v=rLtTuFbuf1c](https://www.youtube.com/watch?t=115&v=rLtTuFbuf1c)
+
+Playing a YouTube Playlist also requires a YouTube API Key in the Web.Config file. You can find additional details [here](http://docs.telerik.com/devtools/aspnet-ajax/controls/mediaplayer/functionality/playlist#youtube-playlist).

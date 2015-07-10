@@ -18,8 +18,6 @@ To apply a skin to a **RadButton** control, set its **Skin** property.
 
 ![radbutton-skins](images/radbutton-skins.png)
 
->note The **Hay** , **Forest** , **Sitefinity** and **Transparent** skins are obsolete and have been removed from the Telerik.Web.UI.Skins.dll assembly as of **Q1 2014** .	You can find more information on the matter in [this blog post](http://blogs.telerik.com/aspnet-ajax/posts/13-04-11/6-telerik-asp.net-ajax-skins-going-obsolete).
-
 ## Customizing Skins
 
 You can tweak the existing skins or create your own. Each skin has two main elements: images and a stylesheet. When creating your own, it is a good idea to start with the stylesheet for an existing skin and alter that. See [Creating a Custom Skin For RadButton]({%slug button/appearance-and-styling/creating-a-custom-skin%}) for a step-by-step walk through. To use your own skin

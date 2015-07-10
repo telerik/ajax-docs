@@ -34,6 +34,26 @@ Returns Boolean value that indicates whether the page is opened under Opera.
 
 `Boolean` 
 
+### isTouchDevice
+
+Returns Boolean value that indicates whether the page is opened under a Mobile Device.
+
+#### Parameters
+
+#### Returns
+
+`Boolean` 
+
+### isSafari
+
+Returns Boolean value that indicates whether the page is opened under Safari.
+
+#### Parameters
+
+#### Returns
+
+`Boolean`
+
 ### static addCssClasses
 
 Adds multiple css classes to a DomElement

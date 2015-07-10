@@ -304,6 +304,26 @@ The name of the tool
 
 `Telerik.Web.UI.EditorButton` 
 
+### get_headerToolsContainer
+
+Returns a reference to the HeaderTools Container DOM element (available only for Mobile rendering)
+
+#### Parameters
+
+#### Returns
+
+`Element` 
+
+### get_headerContainer
+
+Returns a reference to the Preview Header Container DOM element (available only for Mobile rendering)
+
+#### Parameters
+
+#### Returns
+
+`Element` 
+
 ### isVisible
 
 Returns Boolean value that represents if the Editor is visible on the page
@@ -477,6 +497,16 @@ Toggles the full screen mode of RadEditor.
 #### Returns
 
 `None` 
+
+### get_findReplaceOverlay
+
+Gets the Find/Replace overlay. This overlay currently only exists in the Mobile render mode of the Editor
+
+#### Parameters
+
+#### Returns
+
+`Telerik.Web.UI.Editor.FindReplaceMobile`
 
 ### validateMaxTextLength
 
@@ -774,6 +804,16 @@ Returns a reference to the RadEditor's content area's body element
 #### Returns
 
 `Object` 
+
+### getDomRange
+
+Gets a reference to a DomRange object that represents the current selection in the RadEditor
+
+#### Parameters
+
+#### Returns
+
+`Telerik.Web.UI.Editor.DomRange`
 
 ### createRestorePoint
 
@@ -1131,6 +1171,8 @@ The zoom level is in percents with default value of "100%". Optional.
 
 #### Returns
 
+`None`
+
 ### refreshContentZoom
 
 Refreshes the zoomed content. Useful when content is resized outside the RadEditor API.
@@ -1138,6 +1180,8 @@ Refreshes the zoomed content. Useful when content is resized outside the RadEdit
 #### Parameters
 
 #### Returns
+
+`None`
 
 ## Events
 
@@ -1334,5 +1378,19 @@ This event is fired when user has clicked outside an editor in Inline Edit mode.
 The RadEditor instance raised the event.
 
 ##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The event arguments.
+
+### orientationChange
+
+This event is fired when the mobile device orientation has changed in Mobile rendering.
+
+#### Event Data
+
+##### sender `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance raised the event.
+
+##### args `Telerik.Web.UI.Editor.OrientationEventArgs`
 
 The event arguments.

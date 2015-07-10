@@ -77,7 +77,6 @@ Note that when you set NestedView template at a given level the regular detail t
 
 Online demo representing the NestedView template feature of RadGrid can be viewed [here](http://demos.telerik.com/aspnet-ajax/Grid/Examples/Hierarchy/nestedviewtemplatedeclarativerelations/defaultcs.aspx).
 
-RadGrid gives you the ability to data bind the controls in a nested view template to a single item of a specified data source. You can have three modes of data binding the nested view template: ServerOnDemand, ServerBind or Client, which can be set through the HierarchyLoadMode property of the corresponding table view.
 
 To support this feature, RadGrid exposes an additional property for its table view objects called **NestedViewSettings**. The **NestedViewSettings** allow you to specify a data source object contained on the page to which the template should be bound, as well as a relation to the parent level. These two properties can be defined declaratively or programmatically through the **NestedViewSettings.DataSourceID** and **NestedViewSettings.ParentTableRelation** properties respectively. The **ParentTableRelation** is specified in the same way as the declarative relations for hierarchical tables.
 

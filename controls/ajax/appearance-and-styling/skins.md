@@ -14,9 +14,9 @@ position: 0
 
 This help article describes how **RadAjaxLoadingPanel** works with skins, shows a figure of the available skins, and describes how to work with transparency settings and the **BackgroundPosition** property.
 
-## 
-
 As of Q1 2009, **RadAjaxLoadingPanel** supports skinning similar to all other controls in the UI for ASP.NET AJAX suite. You can change a **RadAjaxLoadingPanel's** skin by setting the **Skin** property to the name of the respective skin.
+
+## 
 
 >caution Unlike all other RadControls, for a **RadAjaxLoadingPanel** the **Skin** property's default value is "" (no skin). The main reason for this is backwards compatibility. If this was not the default setting, the appearance of all legacy loading panels will be spoiled and two loading images will appear.
 >
@@ -27,9 +27,6 @@ As of Q1 2009, **RadAjaxLoadingPanel** supports skinning similar to all other co
 **Figure 1** shows the embedded skins and what they look like for the **RadAjaxLoadingPanel** . They are embedded in the Telerik.Web.UI.dll assembly as web resources. To use a built-in skin you only need to set the **Skin** property of the control. You can find built-in skins in this folder: "C:\Program Files\Telerik\UI for ASP.NET AJAX QX 20XX\Skins".
 
 **Figure 1:** This figure shows the **RadAjaxLoadingPanel** using each of the embedded skins.![RadAjax Skins](images/ajax_skins.png)
-
->note The **Hay** , **Forest** , **Sitefinity** and **Transparent** skins are obsolete and have been removed from the Telerik.Web.UI.Skins.dll assembly as of **Q1 2014** .You can find more information on the matter in[this blog post](http://blogs.telerik.com/aspnet-ajax/posts/13-04-11/6-telerik-asp.net-ajax-skins-going-obsolete).
->
 
 
 If the **Skin** property is set, the loading panel will NOT hide the updated control entirely, because transparency is applied by default from the skin. You can change this behaviour by setting **EnableSkinTransparency="false"** . Setting the **RadAjaxLoadingPanel** control's **Transparency** property will increase the actual visible transparency if the skin transparency is not disabled.

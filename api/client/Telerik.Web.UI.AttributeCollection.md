@@ -21,7 +21,7 @@ slug: Telerik.Web.UI.AttributeCollection
 
 #### Returns
 
-`String` 
+`Object` 
 
 ### get_count
 
@@ -47,7 +47,7 @@ slug: Telerik.Web.UI.AttributeCollection
 
 ##### key `String`
 
-##### value `String`
+##### value `Object`
 
 #### Returns
 

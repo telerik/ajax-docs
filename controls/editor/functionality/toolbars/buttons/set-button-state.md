@@ -65,6 +65,10 @@ To put the custom button in pressed state use oTool.setState(**1**);
 
 To set an icon for different states of the custom button use CSS selectors for the corresponding [render mode]({%slug editor/mobile-support/render-modes%}).
 
+ * [Classic RenderMode](#classic-rendermode)
+ * [Lightweight RenderMode](#lightweight-rendermode)
+ * [Mobile RenderMode](#mobile-rendermode)
+
 ### Classic RenderMode
 
 >caption **Example 2**: Generic CSS to prepare the states of a custom button when RenderMode="Classic".
@@ -91,32 +95,33 @@ To set an icon for different states of the custom button use CSS selectors for t
 
 where `skinName` corresponds to the Skin you are using and `commandName` is the Name of the custom button you have.
 
->caption **Example 3**: CSS rules for a button with name Custom1 that uses the images from Figures 1-3
+>caption **Example 3**: CSS rules for a button with name Custom1 that uses the images from Figures 1-3.
 
 
 ````CSS
 /*Active state*/
 .reToolbar.Default .Custom1
 {
-	background-image: url('http://demos.telerik.com/aspnet-ajax/editor/examples/customdialogs/Custom.gif');
+	background-image: url('http://docs.telerik.com/devtools/aspnet-ajax/controls/editor/functionality/toolbars/buttons/images/active-state-icon.png');
 }
 
 /*Hovered state*/
 .reToolbar.Default .Custom1:hover
 {
-	background-image: url('http://demos.telerik.com/aspnet-ajax/editor/examples/customdialogs/CustomDialog.gif');
+	background-image: url('http://docs.telerik.com/devtools/aspnet-ajax/controls/editor/functionality/toolbars/buttons/images/hovered-state-icon.png');
 }
 
 /*Selected state*/
 .reToolbar.Default .reTool_selected .Custom1
 {
-	background-image: url('http://demos.telerik.com/aspnet-ajax/editor/examples/customdialogs/Print.gif');
+	background-image: url('http://docs.telerik.com/devtools/aspnet-ajax/controls/editor/functionality/toolbars/buttons/images/selected-state-icon.png');
 }  
 ````
 
 
 >caption Figures 1-3: Three images that you can use for custom button states:
 
+![active state icon](images/active-state-icon.gif) ![hovered state icon](images/hovered-state-icon.gif) ![selected state icon](images/selected-state-icon.gif) 
 
 ### Lightweight RenderMode
 
@@ -143,7 +148,7 @@ where `skinName` corresponds to the Skin you are using and `commandName` is the 
 ````
 
 
->caption **Example 5**: CSS rules for a button with name Custom1 that uses font icons from the Telerik font
+>caption **Example 5**: CSS rules for a button with name Custom1 that uses font icons from the Telerik font.
 
 
 ````CSS
@@ -167,12 +172,12 @@ where `skinName` corresponds to the Skin you are using and `commandName` is the 
 ````
 
 
->tip: You can also set the font-family and use your own font-icons.
+>tip You can also set the font-family and use your own font-icons.
 
 
 ### Mobile RenderMode
 
->caption **Example 4**: Generic CSS to prepare the states of a custom button when RenderMode="Mobile".
+>caption **Example 6**: Generic CSS to prepare the states of a custom button when RenderMode="Mobile".
 
 ````CSS
 /*Active state*/
@@ -194,6 +199,9 @@ where `skinName` corresponds to the Skin you are using and `commandName` is the 
 }
 ````
 
+>caption **Example 7**: CSS rules for a button with name Custom1 that uses font icons from the Telerik font.
+
+
 ````CSS
 /*Active state*/
 .RadEditor_Default .reToolList .reIconCustom1:before
@@ -214,7 +222,7 @@ where `skinName` corresponds to the Skin you are using and `commandName` is the 
 }
 ````
 
->tip: You can also set the font-family and use your own font-icons.
+>tip You can also set the font-family and use your own font-icons.
 
 
 ## See Also

@@ -27,3 +27,13 @@ position: 1
 * **Modules -** The modules are special tools used to provide extra information such as Tag Inspector, Real TimeHTML Viewer, Statistics module etc for the RadEditor users . Currently, there are three modules shipped out-of-the box with the editor: Tag Inspector, Real Time HTML Inspector and Statistics Module.
 
 * **Editor Mode buttons -** they are used to switch between the editor's viewing modes: Design, HTML and Preview.
+
+If you are interested in examining the structure of the phone-optimized layout of **RadEditor** ([Phone Layout of RadEditor]({%slug editor/mobile-support/phone-layout/overview%})), you can examine the [Phone Layout Elements Structure]({%slug editor/mobile-support/phone-layout/elements-structure%}) article.
+
+## See Also
+
+ * [Phone Layout of RadEditor]({%slug editor/mobile-support/phone-layout/overview%})
+
+ * [Phone Layout Getting Started]({%slug editor/mobile-support/phone-layout/getting-started%})
+
+ * [Phone Layout Elements Structure]({%slug editor/mobile-support/phone-layout/elements-structure%})

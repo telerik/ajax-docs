@@ -16,5 +16,3 @@ Specify the skin to use by setting the **Skin** property of the **RadRotator** o
 
 **RadRotator** is installed with a number of preset skins:![RadRotator Skins](images/rotator-skins_thumb.png)
 
->note The **Hay** , **Forest** , **Sitefinity** and **Transparent** skins are obsolete and have been removed from the Telerik.Web.UI.Skins.dll assembly as of **Q1 2014** .You can find more information on the matter in [this blog post](http://blogs.telerik.com/aspnet-ajax/posts/13-04-11/6-telerik-asp.net-ajax-skins-going-obsolete).
-
