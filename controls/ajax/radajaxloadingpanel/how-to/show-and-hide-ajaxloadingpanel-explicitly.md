@@ -70,7 +70,23 @@ To display the loading panel over an element, just call the **Show** method clie
 	        Panel 2
 </asp:Panel>
 ````
+Note that you can also hide the LoadingPanel by using the **hideLoadingPanels()** method of the RadAjaxManager/RadAjaxPanel like this:
 
+````JavaScript
+<telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
+	<script type="text/javascript">
+	    var currentLoadingPanel = null;
+	    var currentUpdatedControl = null;
+		
+	    function ResponseEnd() {
+		ajaxManager = $find("<%= RadAjaxManager1.ClientID %>");
+	        //hide the loading panel without knowing the updated control
+	        if (currentLoadingPanel != null)
+	        ajaxManager.hideLoadingPanels();
+	            }
+	</script>
+</telerik:RadCodeBlock>
+````
 
 
 ## See Also
