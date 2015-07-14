@@ -25,7 +25,7 @@ This help article describes how to work with **RadAjaxManagerProxy** controls an
 	<AjaxSettings>
 	    <telerik:AjaxSetting AjaxControlID="DropDownList1">
 	        <UpdatedControls>
-	        <telerik:AjaxUpdatedControl ControlID="DetailsView1" />
+	            <telerik:AjaxUpdatedControl ControlID="DetailsView1" />
 	            <telerik:AjaxUpdatedControl ControlID="GridView1" />
 	        </UpdatedControls>
 	    </telerik:AjaxSetting>
