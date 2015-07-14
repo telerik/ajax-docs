@@ -1,16 +1,16 @@
 ---
-title: Telerik.Web.UI.RadButtonEventArgs
+title: Telerik.Web.UI.ButtonCancelEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
-slug: Telerik.Web.UI.RadButtonEventArgs
+slug: Telerik.Web.UI.ButtonCancelEventArgs
 ---
 
-# Telerik.Web.UI.RadButtonEventArgs : Sys.EventArgs 
+# Telerik.Web.UI.ButtonCancelEventArgs : Sys.CancelEventArgs 
 
 ## Inheritance Hierarchy
 
-* Sys.EventArgs
-* *[Telerik.Web.UI.RadButtonEventArgs]({%slug Telerik.Web.UI.RadButtonEventArgs%})*
+* Sys.CancelEventArgs
+* *[Telerik.Web.UI.ButtonCancelEventArgs]({%slug Telerik.Web.UI.ButtonCancelEventArgs%})*
 
 ## Methods
 
@@ -75,10 +75,23 @@ Returns the Sys.UI.DomEvent instance associated to the raised event.
 
 ###  IsSplitButtonClick
 
-Returns a boolean value that indicates whether the split button is clicked.
+Returns a boolean value that indicates whether the split button or the main button is clicked.
 
 #### Parameters
 
 #### Returns
 
 `Boolean` 
+
+###  get_isPageValid
+
+Returns the boolean value of the Page's Page_IsValid property.  
+
+#### Parameters
+
+#### Returns
+
+`Boolean` 
+
+
+

@@ -1,16 +1,16 @@
 ---
-title: Telerik.Web.UI.RadButtonCheckedCancelEventArgs
+title: Telerik.Web.UI.ButtonCheckedCancelEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
-slug: Telerik.Web.UI.RadButtonCheckedCancelEventArgs
+slug: Telerik.Web.UI.ButtonCheckedCancelEventArgs
 ---
 
-# Telerik.Web.UI.RadButtonCheckedCancelEventArgs : Telerik.Web.UI.RadButtonCancelEventArgs 
+# Telerik.Web.UI.ButtonCheckedCancelEventArgs : Telerik.Web.UI.ButtonCancelEventArgs 
 
 ## Inheritance Hierarchy
 
-* [Telerik.Web.UI.RadButtonCancelEventArgs]({%slug Telerik.Web.UI.RadButtonCancelEventArgs%})
-* *[Telerik.Web.UI.RadButtonCheckedCancelEventArgs]({%slug Telerik.Web.UI.RadButtonCheckedCancelEventArgs%})*
+* [Telerik.Web.UI.ButtonCancelEventArgs]({%slug Telerik.Web.UI.ButtonCancelEventArgs%})
+* *[Telerik.Web.UI.ButtonCheckedCancelEventArgs]({%slug Telerik.Web.UI.ButtonCheckedCancelEventArgs%})*
 
 ## Methods
 

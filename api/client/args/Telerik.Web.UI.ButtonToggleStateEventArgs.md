@@ -1,16 +1,16 @@
 ---
-title: Telerik.Web.UI.RadButtonToggleStateCancelEventArgs
+title: Telerik.Web.UI.ButtonToggleStateEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
-slug: Telerik.Web.UI.RadButtonToggleStateCancelEventArgs
+slug: Telerik.Web.UI.ButtonToggleStateEventArgs
 ---
 
-# Telerik.Web.UI.RadButtonToggleStateCancelEventArgs : Telerik.Web.UI.RadButtonCheckedCancelEventArgs 
+# Telerik.Web.UI.ButtonToggleStateEventArgs : Telerik.Web.UI.ButtonCheckedEventArgs 
 
 ## Inheritance Hierarchy
 
-* [Telerik.Web.UI.RadButtonCheckedCancelEventArgs]({%slug Telerik.Web.UI.RadButtonCheckedCancelEventArgs%})
-* [Telerik.Web.UI.RadButtonToggleStateCancelEventArgs]({%slug Telerik.Web.UI.RadButtonToggleStateCancelEventArgs%})
+* [Telerik.Web.UI.ButtonCheckedEventArgs]({%slug Telerik.Web.UI.ButtonCheckedEventArgs%})
+* *[Telerik.Web.UI.ButtonToggleStateEventArgs]({%slug Telerik.Web.UI.ButtonToggleStateEventArgs%})*
 
 ## Methods
 
