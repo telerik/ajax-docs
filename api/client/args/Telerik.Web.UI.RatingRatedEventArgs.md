@@ -1,16 +1,16 @@
 ---
-title: Telerik.Web.UI.RadRatingRatedEventArgs
+title: Telerik.Web.UI.RatingRatedEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
-slug: Telerik.Web.UI.RadRatingRatedEventArgs
+slug: Telerik.Web.UI.RatingRatedEventArgs
 ---
 
-# Telerik.Web.UI.RadRatingRatedEventArgs : Sys.EventArgs 
+# Telerik.Web.UI.RatingRatedEventArgs : Sys.EventArgs 
 
 ## Inheritance Hierarchy
 
 * Sys.EventArgs
-* *[Telerik.Web.UI.RadRatingRatedEventArgs]({%slug Telerik.Web.UI.RadRatingRatedEventArgs%})*
+* *[Telerik.Web.UI.RatingRatedEventArgs]({%slug Telerik.Web.UI.RatingRatedEventArgs%})*
 
 ## Methods
 
