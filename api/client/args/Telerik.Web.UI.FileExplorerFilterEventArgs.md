@@ -1,16 +1,16 @@
 ---
-title: Telerik.Web.UI.RadFileExplorerFilterEventArgs
+title: Telerik.Web.UI.FileExplorerFilterEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
-slug: Telerik.Web.UI.RadFileExplorerFilterEventArgs
+slug: Telerik.Web.UI.FileExplorerFilterEventArgs
 ---
 
-# Telerik.Web.UI.RadFileExplorerFilterEventArgs : Sys.CancelEventArgs 
+# Telerik.Web.UI.FileExplorerFilterEventArgs : Sys.CancelEventArgs 
 
 ## Inheritance Hierarchy
 
 * Sys.CancelEventArgs
-* *[Telerik.Web.UI.RadFileExplorerFilterEventArgs]({%slug Telerik.Web.UI.RadFileExplorerFilterEventArgs%})*
+* *[Telerik.Web.UI.FileExplorerFilterEventArgs]({%slug Telerik.Web.UI.FileExplorerFilterEventArgs%})*
 
 ## Methods
 
