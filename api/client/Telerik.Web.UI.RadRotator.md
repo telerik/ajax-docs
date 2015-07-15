@@ -790,7 +790,7 @@ The itemClicking event occurs when an item of the RadRotator control is clicked,
 
 The instance of the RadRotator raised the event.
 
-##### args `Telerik.Web.UI.RadRotatorCancelEventArgs`
+##### args `Telerik.Web.UI.RotatorCancelEventArgs`
 
 The event arguments.
 
@@ -804,7 +804,7 @@ The event itemClicked is subsequent to the itemClicking event and occurs when an
 
 The instance of the RadRotator raised the event.
 
-##### args `Telerik.Web.UI.RadRotatorEventArgs`
+##### args `Telerik.Web.UI.RotatorEventArgs`
 
 The event arguments.
 
@@ -818,7 +818,7 @@ The itemShowing event occurs when an item of the RadRotator control is about to 
 
 The instance of the RadRotator raised the event.
 
-##### args `Telerik.Web.UI.RadRotatorCancelEventArgs`
+##### args `Telerik.Web.UI.RotatorCancelEventArgs`
 
 The event arguments.
 
@@ -832,7 +832,7 @@ The itemShown event occurs when an item of the RadRotator control is shown. The 
 
 The instance of the RadRotator raised the event.
 
-##### args `Telerik.Web.UI.RadRotatorEventArgs`
+##### args `Telerik.Web.UI.RotatorEventArgs`
 
 The event arguments.
 
@@ -860,7 +860,7 @@ The itemsRequestFailed event is related to the Load On Demand functionality of t
 
 The instance of the RadRotator raised the event.
 
-#####  args `Telerik.Web.UI.RadRotatorErrorEventArgs`
+#####  args `Telerik.Web.UI.RotatorErrorEventArgs`
 
 The event arguments.
 
@@ -888,7 +888,7 @@ The mouseOut event is fired when the mouse pointer leaves the control.
 
 The instance of the RadRotator raised the event.
 
-#####  args `Telerik.Web.UI.RadRotatorEventArgs`
+#####  args `Telerik.Web.UI.RotatorEventArgs`
 
 The event arguments.
 
@@ -902,7 +902,7 @@ The mouseOver event is fired when the user moves the mouse pointer over the cont
 
 The instance of the RadRotator raised the event.
 
-#####  args `Telerik.Web.UI.RadRotatorEventArgs`
+#####  args `Telerik.Web.UI.RotatorEventArgs`
 
 The event arguments.
 
@@ -930,7 +930,7 @@ The itemDataBound event is raised when an item in the RadRotator is bound to the
 
 The instance of the RadRotator raised the event.
 
-#####  args `Telerik.Web.UI.RadRotatorItemDataBoundEventArgs`
+#####  args `Telerik.Web.UI.RotatorItemDataBoundEventArgs`
 
 The event arguments.
 
@@ -958,7 +958,7 @@ This event is raised when the user moves the mouse pointer over the rotator's bu
 
 The instance of the RadRotator raised the event.
 
-#####  args `Telerik.Web.UI.RadRotatorButtonEventArgs`
+#####  args `Telerik.Web.UI.RotatorButtonEventArgs`
 
 The event arguments.
 
@@ -972,7 +972,7 @@ This event is raised when the user moves the mouse pointer out of the rotator's 
 
 The instance of the RadRotator raised the event.
 
-#####  args `Telerik.Web.UI.RadRotatorButtonEventArgs`
+#####  args `Telerik.Web.UI.RotatorButtonEventArgs`
 
 The event arguments.
 
@@ -986,6 +986,6 @@ This event is raised when the user click the rotator's button.
 
 The instance of the RadRotator raised the event.
 
-#####  args `Telerik.Web.UI.RadRotatorButtonEventArgs`
+#####  args `Telerik.Web.UI.RotatorButtonEventArgs`
 
 The event arguments.
