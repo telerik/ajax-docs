@@ -1,15 +1,15 @@
 ---
-title: Telerik.Web.UI.RadSliderItemDataBoundEventArgs
+title: Telerik.Web.UI.SliderItemDataBoundEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
-slug: Telerik.Web.UI.RadSliderItemDataBoundEventArgs
+slug: Telerik.Web.UI.SliderItemDataBoundEventArgs
 ---
 
-# Telerik.Web.UI.RadSliderItemDataBoundEventArgs
+# Telerik.Web.UI.SliderItemDataBoundEventArgs
 
 ## Inheritance Hierarchy
 
-* *[Telerik.Web.UI.RadSliderItemDataBoundEventArgs]({%slug Telerik.Web.UI.RadSliderItemDataBoundEventArgs%})*
+* *[Telerik.Web.UI.SliderItemDataBoundEventArgs]({%slug Telerik.Web.UI.SliderItemDataBoundEventArgs%})*
 
 ## Methods
 

@@ -902,7 +902,7 @@ The itemDataBinding event is raised just before an item in the RadSlider is data
 
 The instance of the RadSlider raised the event.
 
-##### args `Telerik.Web.UI.RadSliderItemDataBindingEventArgs`
+##### args `Telerik.Web.UI.SliderItemDataBindingEventArgs`
 
 The event arguments. 
 
@@ -916,7 +916,7 @@ The itemDataBound event is raised when an item in the RadSlider is data-bound to
 
 The instance of the RadSlider raised the event.
 
-##### args `Telerik.Web.UI.RadSliderItemDataBoundEventArgs`
+##### args `Telerik.Web.UI.SliderItemDataBoundEventArgs`
 
 The event arguments. 
 
