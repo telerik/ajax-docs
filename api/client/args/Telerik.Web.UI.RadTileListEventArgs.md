@@ -1,16 +1,16 @@
 ---
-title: Telerik.Web.UI.RadTileListEventArgs
+title: Telerik.Web.UI.TileListEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
-slug: Telerik.Web.UI.RadTileListEventArgs
+slug: Telerik.Web.UI.TileListEventArgs
 ---
 
-# Telerik.Web.UI.RadTileListEventArgs : Sys.EventArgs 
+# Telerik.Web.UI.TileListEventArgs : Sys.EventArgs 
 
 ## Inheritance Hierarchy
 
 * Sys.EventArgs
-* *[Telerik.Web.UI.RadTileListEventArgs]({%slug Telerik.Web.UI.RadTileListEventArgs%})*
+* *[Telerik.Web.UI.TileListEventArgs]({%slug Telerik.Web.UI.TileListEventArgs%})*
 
 ## Methods
 

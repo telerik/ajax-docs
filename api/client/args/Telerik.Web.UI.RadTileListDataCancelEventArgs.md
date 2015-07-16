@@ -1,16 +1,16 @@
 ---
-title: Telerik.Web.UI.RadTileListDataCancelEventArgs
+title: Telerik.Web.UI.TileListDataCancelEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
-slug: Telerik.Web.UI.RadTileListDataCancelEventArgs
+slug: Telerik.Web.UI.TileListDataCancelEventArgs
 ---
 
-# Telerik.Web.UI.RadTileListDataCancelEventArgs : Sys.CancelEventArgs
+# Telerik.Web.UI.TileListDataCancelEventArgs : Sys.CancelEventArgs
 
 ## Inheritance Hierarchy
 
 * Sys.CancelEventArgs
-* *[Telerik.Web.UI.RadTileListDataCancelEventArgs]({%slug Telerik.Web.UI.RadTileListDataCancelEventArgs%})*
+* *[Telerik.Web.UI.TileListDataCancelEventArgs]({%slug Telerik.Web.UI.TileListDataCancelEventArgs%})*
 
 ## Methods
 

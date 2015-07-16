@@ -376,7 +376,7 @@ Occurs before a tile is initialized by the TileList.
 
 The RadTileList instance raised the event.
 
-##### args `Telerik.Web.UI.RadTileListDataCancelEventArgs`
+##### args `Telerik.Web.UI.TileListDataCancelEventArgs`
 
 The arguments of the TileCreating event.
 
@@ -404,7 +404,7 @@ Occurs when the tile is bound to the fetched data.
 
 The RadTileList instance raised the event.
 
-##### args `Telerik.Web.UI.RadTileListDataEventArgs`
+##### args `Telerik.Web.UI.TileListDataEventArgs`
 
 The arguments of the TileDataBound event.
 
@@ -432,7 +432,7 @@ Occurs after a tile is clicked and therefore after the OnClientTileClicking even
 
 The RadTileList instance raised the event.
 
-##### args `Telerik.Web.UI.RadTileListEventArgs`
+##### args `Telerik.Web.UI.TileListEventArgs`
 
 The arguments of the TileClicked event.
 
@@ -446,7 +446,7 @@ Raised just before a tile is clicked and therefore before the server-side OnTile
 
 The RadTileList instance raised the event.
 
-##### args `Telerik.Web.UI.RadTileListCancelEventArgs`
+##### args `Telerik.Web.UI.TileListCancelEventArgs`
 
 The arguments of the TileClicking event.
 
@@ -460,7 +460,7 @@ Occurs after a tile in the TileList is selected.
 
 The RadTileList instance raised the event.
 
-##### args `Telerik.Web.UI.RadTileListEventArgs`
+##### args `Telerik.Web.UI.TileListEventArgs`
 
 The arguments of the TileSelected event.
 
@@ -474,7 +474,7 @@ Occurs when a tile in the TileList is about to be selected. The event can be can
 
 The RadTileList instance raised the event.
 
-##### args `Telerik.Web.UI.RadTileListCancelEventArgs`
+##### args `Telerik.Web.UI.TileListCancelEventArgs`
 
 The arguments of the TileSelecting event.
 
