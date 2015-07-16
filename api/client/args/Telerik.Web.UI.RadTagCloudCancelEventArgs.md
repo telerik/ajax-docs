@@ -1,16 +1,16 @@
 ---
-title: Telerik.Web.UI.RadTagCloudCancelEventArgs
+title: Telerik.Web.UI.TagCloudCancelEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
-slug: Telerik.Web.UI.RadTagCloudCancelEventArgs
+slug: Telerik.Web.UI.TagCloudCancelEventArgs
 ---
 
-# Telerik.Web.UI.RadTagCloudCancelEventArgs : Sys.CancelEventArgs
+# Telerik.Web.UI.TagCloudCancelEventArgs : Sys.CancelEventArgs
 
 ## Inheritance Hierarchy
 
 * Sys.CancelEventArgs
-* *[Telerik.Web.UI.RadTagCloudCancelEventArgs]({%slug Telerik.Web.UI.RadTagCloudCancelEventArgs%})*
+* *[Telerik.Web.UI.TagCloudCancelEventArgs]({%slug Telerik.Web.UI.TagCloudCancelEventArgs%})*
 
 ## Methods
 

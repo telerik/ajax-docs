@@ -1,16 +1,16 @@
 ---
-title: Telerik.Web.UI.RadTagCloudErrorEventArgs
+title: Telerik.Web.UI.TagCloudErrorEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
-slug: Telerik.Web.UI.RadTagCloudErrorEventArgs
+slug: Telerik.Web.UI.TagCloudErrorEventArgs
 ---
 
-# Telerik.Web.UI.RadTagCloudErrorEventArgs : Sys.EventArgs
+# Telerik.Web.UI.TagCloudErrorEventArgs : Sys.EventArgs
 
 ## Inheritance Hierarchy
 
 * Sys.EventArgs
-* *[Telerik.Web.UI.RadTagCloudErrorEventArgs]({%slug Telerik.Web.UI.RadTagCloudErrorEventArgs%})*
+* *[Telerik.Web.UI.TagCloudErrorEventArgs]({%slug Telerik.Web.UI.TagCloudErrorEventArgs%})*
 
 ## Methods
 
