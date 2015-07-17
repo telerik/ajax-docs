@@ -1,16 +1,16 @@
 ---
-title: Telerik.Web.UI.RadXmlHttpPanelEventArgs
+title: Telerik.Web.UI.XmlHttpPanelEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
-slug: Telerik.Web.UI.RadXmlHttpPanelEventArgs
+slug: Telerik.Web.UI.XmlHttpPanelEventArgs
 ---
 
-# Telerik.Web.UI.RadXmlHttpPanelEventArgs : Sys.CancelEventArgs 
+# Telerik.Web.UI.XmlHttpPanelEventArgs : Sys.CancelEventArgs 
 
 ## Inheritance Hierarchy
 
 * Sys.CancelEventArgs
-* *[Telerik.Web.UI.RadXmlHttpPanelEventArgs]({%slug Telerik.Web.UI.RadXmlHttpPanelEventArgs%})*
+* *[Telerik.Web.UI.XmlHttpPanelEventArgs]({%slug Telerik.Web.UI.XmlHttpPanelEventArgs%})*
 
 ## Methods
 

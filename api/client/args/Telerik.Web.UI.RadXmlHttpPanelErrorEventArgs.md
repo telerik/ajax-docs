@@ -1,16 +1,16 @@
 ---
-title: Telerik.Web.UI.RadXmlHttpPanelErrorEventArgs
+title: Telerik.Web.UI.XmlHttpPanelErrorEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
-slug: Telerik.Web.UI.RadXmlHttpPanelErrorEventArgs
+slug: Telerik.Web.UI.XmlHttpPanelErrorEventArgs
 ---
 
-# Telerik.Web.UI.RadXmlHttpPanelErrorEventArgs : Sys.EventArgs 
+# Telerik.Web.UI.XmlHttpPanelErrorEventArgs : Sys.EventArgs 
 
 ## Inheritance Hierarchy
 
 * Sys.EventArgs
-* *[Telerik.Web.UI.RadXmlHttpPanelErrorEventArgs]({%slug Telerik.Web.UI.RadXmlHttpPanelErrorEventArgs%})*
+* *[Telerik.Web.UI.XmlHttpPanelErrorEventArgs]({%slug Telerik.Web.UI.XmlHttpPanelErrorEventArgs%})*
 
 ## Methods
 

@@ -716,7 +716,7 @@ The updateError event occurs if there has been an error when the RadNotification
 
 The instance of the RadNotification raised the event.
 
-##### args `Telerik.Web.UI.RadXmlHttpPanelErrorEventArgs`
+##### args `Telerik.Web.UI.XmlHttpPanelErrorEventArgs`
 
 The event arguments. 
 
@@ -730,7 +730,7 @@ The updating event occurs after the new content is received and just before it i
 
 The instance of the RadNotification raised the event.
 
-##### args `Telerik.Web.UI.RadXmlHttpPanelEventArgs`
+##### args `Telerik.Web.UI.XmlHttpPanelEventArgs`
 
 The event arguments. 
 

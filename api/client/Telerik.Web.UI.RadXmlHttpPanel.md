@@ -47,7 +47,7 @@ The responseEnding event replaces the existing responseEnd client-side event
 
 The instance of the RadXmlHttpPanel raised the event.
 
-##### args `Telerik.Web.UI.RadXmlHttpPanelEventArgs`
+##### args `Telerik.Web.UI.XmlHttpPanelEventArgs`
 
 The event arguments. 
 
@@ -76,6 +76,6 @@ The responseError occurs in the cases when an error (WebService or Callback erro
 
 The instance of the RadXmlHttpPanel raised the event.
 
-##### args `Telerik.Web.UI.RadXmlHttpPanelErrorEventArgs`
+##### args `Telerik.Web.UI.XmlHttpPanelErrorEventArgs`
 
 The event arguments. 
