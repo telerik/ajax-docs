@@ -104,7 +104,7 @@ The dataLoaded event occurs after the data request returns the data successfully
 
 Reference of the RadLiveTile instance raised the event.
 
-##### args `Telerik.Web.UI.RadLiveTileDataEventArgs`
+##### args `Telerik.Web.UI.LiveTileDataEventArgs`
 
 The event arguments.
 
@@ -118,7 +118,7 @@ The dataLoadingError event occurs after the data request returns error.
 
 Reference of the RadLiveTile instance raised the event.
 
-##### args `Telerik.Web.UI.RadLiveTileErrorEventArgs`
+##### args `Telerik.Web.UI.LiveTileErrorEventArgs`
 
 The event arguments.
 
@@ -132,7 +132,7 @@ The dataLoading client-side event occurs before the data request is executed.
 
 Reference of the RadLiveTile instance raised the event.
 
-##### args `Telerik.Web.UI.RadLiveTileCancelEventArgs`
+##### args `Telerik.Web.UI.LiveTileCancelEventArgs`
 
 The event arguments.
 
