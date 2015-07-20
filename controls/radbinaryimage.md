@@ -33,11 +33,7 @@ The most important properties of the **RadBinaryImage** control are presented in
 | **ImageUrl** |Applicable when no **DataValue** is specified to gracefully degrade to regular **ASP.NET**  **Image** mode. When null value is returned from the source, the **ImageUrl** property can be used to specify default image for **RadBinaryImage** |
 | **ImageAlign** |Specifies the image alignment inside its container.|
 | **ImageStorageLocation** |Gets or sets a value indicating where the binary image will be stored.|
-| **ResizeMode** |Specifies whether the image should be sized automatically if width and height of the image are set in pixels. Possible values are:
-| -  **Crop** | (the image will be trimmed)|
-| -  **Fill** | (the image will be sized to fill both given dimensions)|
-| - **Fit** | (the image will be sized to fit the given dimensions)|
-| -  **None** | (default)|
+| **ResizeMode** |Specifies whether the image should be sized automatically if width and height of the image are set in pixels. Possible values are **None**, **Crop**, **Fill**, **Fit**. |
 | **SavedImageName** |Sets image’s filename which will appear inside SaveAs browser dialog if image is saved|
 | **PersistDataIfNotVisible** |If set to true image data persistence is forced if the control is invisible.|
 | **VisibleWithoutSource** |Specifies whether the image will be rendered if a valid source is not present. The default value is **True** .|
@@ -146,14 +142,23 @@ Here is an [online demo](http://demos.telerik.com/aspnet-ajax/binaryimage/exampl
 ````
 
 
+## Resizing
+
+**RadBinaryImage** supports the following resizing modes set via the ResizeMode property.
+
+
+* **None** - Resizing is disabled (this is the default value).
+* **Crop** - The excessive width/height will be trimmed to match the output ratio and the rest will be scaled (resized) to match the target dimensions.
+* **Fit** - The image will be resized to fit inside target dimensions.
+* **Fill** - The image will be resized in to fill the target dimensions. Note that this can distort the image.
+
+
 ## WAI-ARIA Support
 
 The **RadBinaryImage** control offers **WAI-ARIA** support which can be easily enabled by setting the **EnableAriaSupport** server property to **true**.
 
 RadBinaryImage ARIA attributes are **lower case**. They are shown in the table below:
 
-
->caption  
 
 |  Control  |  Attributes  |
 | ------ | ------ |
