@@ -19,7 +19,7 @@ RadImageGallery control is a flexible control that provides different presentati
 There are four different **DisplayArea Modes** that could be set for the **ImageGallery** control. They determine the ImageArea appearance:
 
 * **Image** – This is the default mode when the **ThumbnailsArea** and the **ImageArea** are simultaneously visible.The image below presents all areas and sections in this mode.
-![Image-Gallery-Dispaly Mode Image](images/Image-Gallery-DispalyModeImage.png)When the **DisplayArea Mode** is set to **Image** you could specify different modes for the ThumnbailsArea which are listed below:
+![Image-Gallery-Dispaly Mode Image](images/Image-Gallery-DispalyModeImage.jpg)When the **DisplayArea Mode** is set to **Image** you could specify different modes for the ThumnbailsArea which are listed below:
 
 * **Thumbnails**- It is available for all DisplayArea Modes. This is the default **ThumbnailsArea Mode** which is also presented in the image above.
 

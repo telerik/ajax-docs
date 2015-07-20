@@ -21,7 +21,7 @@ The **RadImageGallery** designer provides a convenient **Smart Tag** that allows
 
 ## RadImageGallery Tasks
 
-* **Open Configuration Wizard:** - Opens the **RadImageGalleryWizardForm** window for furthercustomization of the control settings.
+* **Open Configuration Wizard:** - Opens the **RadImageGalleryWizardForm** window for further customization of the control settings.
 
 ## Ajax Resources
 
@@ -46,7 +46,7 @@ The wizard will smoothly guide you through the various settings and properties o
 **General Settings**
 ![Image Gallery Design Time 2](images/image-gallery-design-time2.png)
 
-* **Display Area Mode:** : Controls the mode that the **RadImageGallery** will operate in. The modedetermines the appearance and the way the entire control will work.
+* **Display Area Mode:** : Controls the mode that the **RadImageGallery** will operate in. The mode determines the appearance and the way the entire control will work.
 
 * **Loop Items:** If enabled, this will loop the items when the last/first one is reached.
 

@@ -12,8 +12,8 @@ position: 1
 
 
 
-**RadImageGallery** is the brand new member of the Teleriks control kit for ASP.NET AJAX. Like all controls in the suite itprovides an user friendly and convenient way for achieving fascinating results with little to no code.
-![image-gallery-getting-started-0](images/image-gallery-getting-started-0.png)
+**RadImageGallery** is the brand new member of the Teleriks control kit for ASP.NET AJAX. Like all controls in the suite it provides an user friendly and convenient way for achieving fascinating results with little to no code.
+![image-gallery-getting-started-0](images/image-gallery-getting-started-0.jpg)
 
 You can use **RadImageGallery** for viewing a collection of images from different data sources in different [DisplayAreaMode]({%slug imagegallery/functionality/modes%}). At the same time its responsive design, animations and full-screen support gratefully improve the end user experience.
 
