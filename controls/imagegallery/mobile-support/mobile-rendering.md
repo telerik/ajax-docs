@@ -13,11 +13,11 @@ position: 1
 Since Q2 2015 release of Telerik UI for ASP.NET controls **RadImageGallery** is optimized for touch devices and comes with built-in **Adaptive behavior**. When you access the control via a mobile device, **RadImageGallery** will change to create a user experience tailored to the device screen size. By tweaking the rendering and improving the gesture interactions, the mobile mode has been greatly optimized for touchscreen devices. There are three general modes supported:
 
 >caption Image (default) mode
-![Image-Gallery-Image-Mode](images/image-gallery-image-mode.png)
+![Image-Gallery-Image-Mode](images/image-gallery-image-mode.jpg)
 >caption Image Slider mode
-![Image-Gallery-Image-Slider-Mode](images/image-gallery-image-slider-mode.png)
+![Image-Gallery-Image-Slider-Mode](images/image-gallery-image-slider-mode.jpg)
 >caption Thumbnail Area mode
-![Image-Gallery-Thumbnail-Area-Mode](images/image-gallery-thumbnail-area-mode.png)
+![Image-Gallery-Thumbnail-Area-Mode](images/image-gallery-thumbnail-area-mode.jpg)
 
 # Mobile vs Auto render modes
 

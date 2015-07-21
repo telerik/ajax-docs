@@ -12,7 +12,7 @@ position: 1
 
 
 
-**RadImageGallery** provides an option to bind to a static collection and manually define your gallery items by specifyingeach one individually in the **RadImageGallery.Items** collection. This type of binding is ideal when the informationthat you want to display is not stored in a database and you want to add it manually.Each item has properties that define the image and thumbnail URL, description, title, width and height.**Example 1** shows how to bind a **RadImageGallery** to a static collection of images.**Figure1** shows the result.
+**RadImageGallery** provides an option to bind to a static collection and manually define your gallery items by specifying each one individually in the **RadImageGallery.Items** collection. This type of binding is ideal when the informationthat you want to display is not stored in a database and you want to add it manually.Each item has properties that define the image and thumbnail URL, description, title, width and height.**Example 1** shows how to bind a **RadImageGallery** to a static collection of images.**Figure1** shows the result.
 
 **The output of this sample is represented in Figure 1.**
 ````ASPNET
@@ -43,7 +43,7 @@ position: 1
 
 
 **This figure represents the thumbnail image, the title and the description of particular item from the ImageGallery.**
-![image-gallery-binding-to-static-collection](images/image-gallery-binding-to-static-collection.png)
+![image-gallery-binding-to-static-collection](images/image-gallery-binding-to-static-collection.jpg)
 
 # See Also
 
