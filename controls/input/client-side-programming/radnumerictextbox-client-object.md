@@ -23,8 +23,8 @@ Properties
 
 | Name | Parameters | Return Type | Description |
 | ------ | ------ | ------ | ------ |
-| **get_value** |none|number|Returns the value of the text box.|
-| **set_value** |number|none|Sets the value of the text box.|
+| **get_value** |none|number/string|Returns the value of the NumericTextBox. If there is no value or it is invalid an empty string is returned.|
+| **set_value** |number|none|Sets the value of the NumericTextBox. If the numeric value is passed as a string it is converted to number internally.|
 | **get_editValue** |none|string|Gets the value of the text box as it is formatted when the text box has focus.|
 | **get_displayValue** |none|string|Gets the value of the text box as it is formatted when the text box does not have focus.|
 | **get_textBoxValue** |none|string|Gets the text that is displayed in the text box.|
