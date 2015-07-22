@@ -68,6 +68,9 @@ The table below shows a list of patterns that can be combined to create custom p
 |t|The first character in the AM/PM designator. (Only if used in the context of a longer pattern. A single "t" on its own represents the short time pattern.)|
 |tt|The AM/PM designator.|
 
+>caution Since Q2 2015 SP1 release we have introduced a new property in **RadDateInput**, which is called **EnableSmartParsing**. When it is set to "false" (default value is "true") the automatic parsing/correction of the date/time entered is disabled.
+>
+
 # See Also
 
  * [Date Format Dialog]({%slug input/design-time/date-format-dialog%})

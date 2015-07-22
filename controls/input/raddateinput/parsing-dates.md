@@ -52,6 +52,9 @@ An important thing to note here is the way **RadDateInput** determines the end o
 
 * TimeOnly:Having a TimeOnly mode means that we do not have to care about the date part and we can relax the time separator requirement. In this mode "4 15 30 pm" will be interpreted as 4:15:30 PM or 16:15:30.
 
+>caution Since Q2 2015 SP1 release we have introduced a new property in **RadDateInput**, which is called **EnableSmartParsing**. When it is set to "false" (default value is "true") the automatic parsing/correction of the date/time entered is disabled.
+>
+
 ## Date evaluation
 
 The last step in date parsing is to take the entry and turn it into a real date. There are several rules that the control obeys:
