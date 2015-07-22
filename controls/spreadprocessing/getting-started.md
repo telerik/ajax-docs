@@ -87,20 +87,22 @@ The __RadSpreadProcessing__ library supports a variety of formats to which you c
 #### __[C#] Example 3: Export to Xlsx__
 
 {{region radspreadprocessing-getting-started_2}}
-    string fileName = "Hello.xlsx";
-    IWorkbookFormatProvider formatProvider = new XlsxFormatProvider();
 
-    using (FileStream input = new FileStream(fileName, FileMode.Open))
-    {
-        workbook = formatProvider.Import(input);
-    }
-	{{endregion}}
+	string fileName = "SampleFile.xlsx";
+	
+	IWorkbookFormatProvider formatProvider = new XlsxFormatProvider();
+	
+	using (FileStream output = new FileStream(fileName, FileMode.Create))
+	{
+	    formatProvider.Export(workbook, output);
+	}
+{{endregion}}
 
 
 
 ## Using RadSpreadsheet
 
-__RadSpreadsheet__ is a UI control part of the Telerik UI for WPF/Silverlight suites. The document model explained in this section of the documentation and all its features are shared between the __RadSpreadProcessing__ library and __RadSpreadsheet__. [This help section]({%slug radspreadprocessing-overview%}) contains information about all UI-specific features of __RadSpreadsheet__.
+__RadSpreadsheet__ is a UI control part of the Telerik UI for WPF/Silverlight suites. The document model explained in this section of the documentation and all its features are shared between the __RadSpreadProcessing__ library and __RadSpreadsheet__. [This help section]({%slug radspreadsheet-overview%}) contains information about all UI-specific features of __RadSpreadsheet__.
         
 
 # See Also
