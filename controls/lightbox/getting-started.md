@@ -4,7 +4,7 @@ page_title: Getting Started | UI for ASP.NET AJAX Documentation
 description: Getting Started
 slug: lightbox/getting-started
 tags: getting,started
-published: True
+published: Truecontrols
 position: 2
 ---
 
@@ -14,22 +14,20 @@ position: 2
 
 The following help article will walk you through the process of setting a RadLightBox.
 
-## Add RadLightBox and an Image to a Webpage
+## Configuring the control
 
 1. Create a new webpage in Visual Studio.
 
-1. Add a RadLightBox from the Telerik UI toolbar.
+1. Drag a RadLightBox control from the toolbox onto your Web page. It's Smart Tag should appear automatically.
 
-1. Add an Image control to the web page.
+	![lightbox-design-time](images/lightbox-design-time.png)
 
-## Configure the RadLightBox
+1. In the **General** section available after clicking **Open Configuration Wizard** you can select DataSource and set the **Title** and **Description** fields.
 
-1. Into the item collection of the RadLightBox add a new item and set the TargetControlID to the Image ID.
+	![lightbox-general-databinding](images/lightbox-general-databinding.png)
 
-1. Set ImageURL to point to the image, which will be displayed into the window.
+1. After we have selected our images source we need to configure the animations. This is achievable by clicking on the **Client Settings** section. As you can see now we can select a different animation to be performed when transitioning to the previous or next image and also a different animation when opening and closing the control.
 
-1. Add a title and description of the item that will provide descriptive information about the image.
-
-## Run and Test the Application
-
-1. Press F5 to compile and run the application.
+	![lightbox-client-settings-animation](images/lightbox-client-settings-animation.png)
+	
+That was it we now have a full-featured lightbox and are ready to go.
