@@ -235,7 +235,17 @@ Add a **`<location>`** section to the application configuration file to allow ac
 </configuration> 
 ````
 
+** Cause**:
 
+If a website was migrated from an older version of ASP.NET to the latest there might be a *preCondition* attribute added to the Telerik.Web.UI.WebResource.axd handler declaration stating that the runtime version is 2.0 
+
+```
+ preCondition="integratedMode,runtimeVersionv2.0"
+```
+
+** Suggested Solution**:
+
+Remove *runtimeVersionv2.0* from the handler declaration. 
 
 ## Design-Time error on a page using Telerik controls
 
@@ -252,8 +262,6 @@ If the **Telerik.Web.UI.dll** assembly is updated while a page using **Telerik c
 **Suggested Solution**:
 
 Restart Visual Studio.
-
-
 
 **Problem**:
 
