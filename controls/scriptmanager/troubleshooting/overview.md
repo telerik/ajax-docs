@@ -11,8 +11,25 @@ position: 0
 # Troubleshooting Overview
 
 
+Below are listed some common RadScriptManager related problems and their solutions.
 
-## 
+* [When using RadScriptManager with EnableScriptCombine=True the controls stop working as you get a JavaScript error](#when-using-radscriptmanager-with-enablescriptcombinetrue-the-controls-stop-working-as-you-get-a-javascript-error)
+
+* [Telerik.Web.UI.WebResource.axd' is missing in web.config. RadScriptManager requires a HttpHandler registration in web.config](#telerikwebuiwebresourceaxd-is-missing-in-webconfig-radscriptmanager-requires-a-httphandler-registration-in-webconfig)
+
+* [There is not RadScriptManagerProxy, what should I do?](#there-is-not-radscriptmanagerproxy-what-should-i-do)
+
+* [The RadScriptManager is incompatible with the Ajax Control Toolkit (Version number 40412 and higher)](#the-radscriptmanager-is-incompatible-with-the-ajax-control-toolkit-version-number-40412-and-higher)
+
+* [Using RadControls with RadScriptManager on your login page throws one of the following errors: ASP.NET Ajax client-side framework failed to load; 'Sys' is undefined; 'Telerik.Web.UI' is undefined](#using-radcontrols-with-radscriptmanager-on-your-login-page-throws-one-of-the-following-errors-aspnet-ajax-client-side-framework-failed-to-load-sys-is-undefined-telerikwebui-is-undefined)
+
+* [Getting 'Sys' is undefined error caused by 404 error in the WebResource.axd file when there are multiple handlers that contain *.axd in their path attribute (for example: ASPNET-ISAPI-1.1-AXD)](#getting-sys-is-undefined-error-caused-by-404-error-in-the-webresourceaxd-file-when-there-are-multiple-handlers-that-contain-axd-in-their-path-attribute-for-example-aspnet-isapi-11-axd)
+
+
+
+
+
+## When using RadScriptManager with EnableScriptCombine=True the controls stop working as you get a JavaScript error
 
 **Problem**: 
 
@@ -34,6 +51,8 @@ Resolution: Below are the respective resolutions for the problems, described abo
 
 
 
+## Telerik.Web.UI.WebResource.axd is missing in web.config. RadScriptManager requires a HttpHandler registration in web.config
+
 **Problem:**
 
 **You receive the following error even if you had already added the handler.**
@@ -49,6 +68,7 @@ Resolution:
 Set the **EnableHandlerDetection="false"** property of RadScriptManager.
 
 
+## There is not RadScriptManagerProxy, what should I do?
 
 **Problem:**
 
@@ -57,6 +77,9 @@ Set the **EnableHandlerDetection="false"** property of RadScriptManager.
 Resolution
 
 You can use the **ScriptManagerProxy**. Yes, place the RadScriptManager control on the page /master page and the **ScriptManagerControl** on the user control / content page.
+
+
+## The RadScriptManager is incompatible with the **Ajax Control Toolkit (Version number 40412 and higher)** 
 
 **Problem:**
 
@@ -105,6 +128,11 @@ Override the references to MicrosoftAjax.js and MicrosoftAjaxWebForms.js to poin
 
 The script files are obtained by building the ACT from source. Sample project, including the scripts for version 40412, is attached.
 
+
+
+## Using RadControls with RadScriptManager on your login page throws one of the following errors: ASP.NET Ajax client-side framework failed to load; 'Sys' is undefined; 'Telerik.Web.UI' is undefined
+
+
 **Problem:**
 
 **Using RadControls with RadScriptManager on your login page throws one of the following errors:**
@@ -139,7 +167,7 @@ Add a **<location>** section to the application configuration file to allow acce
 
 
 
-
+## Getting 'Sys' is undefined error caused by 404 error in the WebResource.axd file when there are multiple handlers that contain \*.axd in their path attribute (for example: ASPNET-ISAPI-1.1-AXD)
 
 **Problem:**
 
@@ -151,7 +179,7 @@ The issue is observed because all such handler must be placed at the end of the 
 
 **Current limitation:**
 
-**Gettng [NullReferenceException: Object not set to an instance of an object.] error when using RadScriptManager and loading scripts from assemlies with short names while with there is no error with a standard ScriptManager.**
+**Gettng [NullReferenceException: Object not set to an instance of an object.] error when using RadScriptManager and loading scripts from assemblies with short names while with there is no error with a standard ScriptManager.**
 
 Resolution
 
