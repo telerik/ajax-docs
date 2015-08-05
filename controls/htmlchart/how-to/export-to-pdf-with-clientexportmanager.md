@@ -14,14 +14,14 @@ With the use of [RadClientExportManager]({%slug clientexportmanager/overview%}) 
 
 The following steps will enable you to easily implement the export functionality (**Example 1** showcases a fully runnable example):
 
-1. Add the **RadClientExportManager** in the page's markup;
+1. Add the **RadClientExportManager** in the page's markup:
 
 	**ASP.NET**
 
 		<telerik:RadClientExportManager runat="server" ID="RadClientExportManager1">
 	    </telerik:RadClientExportManager>
 
-1. Add a button with a client-side click handler that will initiate the export;
+1. Add a button with a client-side click handler that will initiate the export:
 
 	**ASP.NET**
 
