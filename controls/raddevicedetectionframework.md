@@ -43,7 +43,7 @@ Imports Telerik.Web.Device.Detection
 | **GetScreenSize(string userAgent)** |Returns the screens size based on default screen ranges (in CSS pixels).The default ranges are:Small (to 600) CSS pixelsMedium (601-1024) CSS pixelsLarge (1025 - 1366) CSS pixelsExtraLarge (over 1366) CSS pixels|
 | **GetScreenSize(string userAgent, ScreenRanges screenRanges)** |Returns the screens size based on default screen ranges (in CSS pixels).The default ranges are:Small (to 600) CSS pixelsMedium (601-1024) CSS pixelsLarge (1025 - 1366) CSS pixelsExtraLarge (over 1366) CSS pixels|
 
-## Getting the Screen Size by User Agent String
+## Getting the Screen Dimensions by User Agent String
 
 
 
@@ -80,7 +80,7 @@ End Sub
 ````
 
 
-## Getting the Screen Dimensions by User Agent String
+## Getting the Screen Size by User Agent String
 
 
 
@@ -106,7 +106,7 @@ End Sub
 ````
 
 
-## Getting the Screen Dimensions by Custom Defined Ranges
+## Getting the Screen Size by Custom Defined Ranges
 
 
 
@@ -116,7 +116,7 @@ protected void Page_Load(object sender, EventArgs e)
     ScreenRanges customScreenRanges = new ScreenRanges();
     customScreenRanges.SmallScreenSizeRange = new ScreenRange(0, 100);
     customScreenRanges.MediumScreenSizeRange = new ScreenRange(101, 200);
-    customScreenRanges.ExtraLargeScreenSizeRange = new ScreenRange(201, 300);
+    customScreenRanges.LargeScreenSizeRange = new ScreenRange(201, 300);
     customScreenRanges.ExtraLargeScreenSizeRange = new ScreenRange(301, 400);
     DeviceScreenSize screenSize = Detector.GetScreenSize(Request.UserAgent,  customScreenRanges);
 
@@ -131,7 +131,7 @@ Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
     Dim customScreenRanges As New ScreenRanges()
     customScreenRanges.SmallScreenSizeRange = New ScreenRange(0, 100)
     customScreenRanges.MediumScreenSizeRange = New ScreenRange(101, 200)
-    customScreenRanges.ExtraLargeScreenSizeRange = New ScreenRange(201, 300)
+    customScreenRanges.LargeScreenSizeRange = New ScreenRange(201, 300)
     customScreenRanges.ExtraLargeScreenSizeRange = New ScreenRange(301, 400)
     Dim screenSize As DeviceScreenSize = Detector.GetScreenSize(Request.UserAgent, customScreenRanges)
 
