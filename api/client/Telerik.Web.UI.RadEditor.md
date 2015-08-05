@@ -684,6 +684,34 @@ Returns a reference to the RadEditor's content area element.
 
 `Element` 
 
+### findContent
+
+Find DOM elements within the content of the Editor control.
+
+#### Parameters
+
+##### selector `String`
+
+The selector defining the nodes to find. All kinds of jQuery selectors can be used.
+
+#### Returns
+
+`Object`
+
+### findContent
+
+Find DOM elements within the content of the Editor control.
+
+#### Parameters
+
+##### selector `Function`
+
+The selector defining the nodes to find. Selector is a conditional function (single parameter is node, returns Boolean value). If node matches the condition, then it is added in the result collection.
+
+#### Returns
+
+`Object`
+
 ### getCssArray
 
 Returns a collection of class names existing in the CSS files added to the Iframe's content area.
