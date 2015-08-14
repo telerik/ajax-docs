@@ -96,7 +96,7 @@ End Sub
 
  * [Passing Context Information to the Server ]({%slug combobox/load-on-demand/passing-context-information-to-the-server-%})
 
- * [ShowMoreResultsBox/Virtual Scrolling]({%slug combobox/load-on-demand/showmoreresultsbox/virtual-scrolling%})
+ * [ShowMoreResultsBox/Virtual Scrolling]({%slug combobox/load-on-demand/showmoreresultsbox-virtual-scrolling%})
 
  * [Caching Items]({%slug combobox/load-on-demand/caching-items%})
 
