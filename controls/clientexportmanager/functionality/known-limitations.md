@@ -32,6 +32,7 @@ The **RadClientExportManager** control's known limitations are listed below:
 
 * when the generated document is opened with Acrobat Reader and you try to use the **Save As** option from the file menu an error is thrown. "The document could not be saved. There was a problem reading(23)". The solution is to open Acrobat Reader options (Edit → Preferences) and in the "Documents" section uncheck “Save As optimizes for Fast Web View”, which is enabled by default. After this, **Save As** will work without errors.
 
+* exporting images from another domain requires the server to have the following header in its response: **Access-Control-Allow-Origin: `*`**, which will enable cross-origin requests. If the server does not have this header set access to the image will be denied and it will not be exported.
 
 
 # See Also
