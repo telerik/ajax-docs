@@ -111,10 +111,10 @@ The Circle objects then could be customized within the client-side **OnShapeCrea
 	//Customizing the Circle
 	function shapeCreated(e) {
 		//the radius will be available for altering only for Circle objects
-		if (e.shape.geometry && e.shape.geometry.radius) {
+		if (e.shape._geometry && e.shape._geometry.setRadius) {
 			e.shape.options.set("stroke.color", "#999999");
 			e.shape.options.set("fill.color", "#666666");
-			e.shape.geometry.radius = 10;
+			e.shape._geometry.setRadius(10);
 		}
 	}
 </script>
