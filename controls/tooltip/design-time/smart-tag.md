@@ -14,6 +14,7 @@ position: 0
 
 The Smart Tags for **RadToolTip** and **RadToolTipManager** are identical. They all let you easily change the skin for your control or quickly get help. You can display the Smart Tag by right clicking on a **RadToolTip** and **RadToolTipManager** control and choosing "Show Smart Tag", or clicking the small rightward-pointing arrow located in the upper right corner of the control.
 
+As of Q2 2015 we have improved the smart tags of our controls by displaying the most popular control specific properties and adding links to their important online resources:
 
 ![tooltip-smart-tag](images/tooltip-smart-tag.png)
 

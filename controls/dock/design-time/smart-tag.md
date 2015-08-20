@@ -14,6 +14,8 @@ position: 0
 
 The Smart Tags for **RadDock**, **RadDockZone**, and **RadDockLayout** are identical. They all let you easily change the skin for your control or quickly get help. You can display the Smart Tag by right clicking on a **RadDock**, **RadDockZone**, **or RadDockLayout** control and choosing "Show Smart Tag".
 
+As of Q2 2015 we have improved the smart tags of our controls by displaying the most popular control specific properties and adding links to their important online resources:
+
 ![dock-smart-tag](images/dock-smart-tag.png)
 
 ## Ajax Resources

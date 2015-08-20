@@ -11,6 +11,9 @@ position: 0
 # Design Time Overview
 
 **RadHtmlChart** offers design-time support as of **Q2 2012 SP2**. The	advanced features are accessed through the **Smart Tag** of the control	by clicking on the [Open Configuration Wizard]({%slug htmlchart/design-time/configuration-wizard%}) link shown in **Figure 1** between the **Layout** and **Ajax Resources** sections.
+
+As of Q2 2015 we have improved the smart tags of our controls by displaying the most popular control specific properties and adding links to their important online resources:
+
 >caption Figure 1: The Smart Tag shown in the top right corner of the RadHtmlChart lets you do some quick RadHtmlChart tasks such as choose a data source, change the width and height, open the Configuration Wizard, add Ajax resources, choose a skin for your RadHtmlChart, or jump to the learning center.
 
 ![htmlchart-design-time-overview](images/htmlchart-design-time-overview.png)
@@ -25,7 +28,7 @@ The basic functionality is similar to what other Telerik controls offer, startin
 
 ## Choose a Data Source for a RadHtmlChart
 
-The Smart Tag of **RadHtmlChart** begins with the data source configuration (**Figure2**). You can either choosean already existing declarative data source from the list, or add a new one.
+The Smart Tag of **RadHtmlChart** begins with the data source configuration (**Figure2**). You can either choose an already existing declarative data source from the list, or add a new one.
 
 >caption Figure 2: You can use the Data Source Configuration Wizard to set a data source for a RadHtmlChart.
 
@@ -47,7 +50,7 @@ You can add Ajax resources (**Figure 1**) to your **RadHtmlChart** by clicking t
 
 * The **Add RadAjaxManager...** link adds a **RadAjaxManager** component to your webpage, so you can configure partial postbacks through a comfortable control.
 
-* The **Replace ScriptManager with RadScriptManager** link replaces the default ScriptManager component that is usedfor AJAX-enabled websites with **RadScriptManager**. If there isn't a ScriptManager on the page this link will allow you to add one.
+* The **Replace ScriptManager with RadScriptManager** link replaces the default ScriptManager component that is used for AJAX-enabled websites with **RadScriptManager**. If there isn't a ScriptManager on the page this link will allow you to add one.
 
 * The **AddRadStyleSheetManager** link adds a **RadStyleSheetManager** to your web page.
 
