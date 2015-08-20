@@ -34,7 +34,7 @@ This help article describes the important changes of **RadFormDecorator** in **L
 </html>
 ````
 
->caption **Example 2**: Heading tags are styled by RadFormDecorator through an individual class, added to each heading tag since the Q3 2015 release.
+>caption **Example 2**: Heading tags have been styled by RadFormDecorator through an individual class, added to each heading tag since the Q3 2015 release.
 
 ````HTML
 <html class="RadForm RadForm_Default rfdRoundedCorners" xmlns="http://www.w3.org/1999/xhtml">
@@ -120,7 +120,7 @@ The default font-size metrics of decorated heading tags are changed from px to e
 
 ## Heading Tags with Custom Classes will not be Decorated
 
-When a custom class is applied to a heading tag it will be perceived as a custom styled element and hence **RadFormDecorator** will skip it from decoration. This behavior also resolves styles overriding issues when **RadFormDecorator** is integrated with other controls from the Telerik UI for ASP.NET AJAX suite. 
+When a custom class is applied to a heading tag it will be perceived as a customly styled element and hence **RadFormDecorator** will skip it from decoration. This behavior also resolves styles overriding issues when **RadFormDecorator** is integrated with other controls from the Telerik UI for ASP.NET AJAX suite. 
 
 ## See Also
 
