@@ -45,6 +45,8 @@ Here is a list with the main sections:
 
 * [Problem: Telerik controls integration with Kendo UI widgets](#telerik-controls-integration-with-kendo-ui-widgets)
 
+* [Problem: Unobtrusive Validation Basics](#unobtrusive-validation-basics)
+
 ## Error message "'Telerik' is undefined" when running a website on IIS 7+ Integrated mode
 
 **Problem**:
@@ -401,6 +403,14 @@ You can find additional information about the Telerik controls and AJAX Control 
 ## Telerik controls integration with Kendo UI widgets
 
 There are certain Telerik controls like RadHtmlChart, RadGauge, RadDiagram, RadMap, RadGannt, RadTreeMap, RadClientDataSource, RadClientExportManager which are ASP.NET server-side wrappers of Kendo UI widgets. These controls already load jQuery and Kendo UI widget specific JavaScript files, so you must ensure there aren't any script conflicts by using the same jQuery and Kendo UI versions for both suites. More information is available in the [RadHtmlChart Integration With KendoUI Widgets]({%slug htmlchart/how-to/radhtmlchart-integration-with-kendoui-widgets%}) help article.
+
+# Unobtrusive Validation Basics
+
+**Unobtrusive validation** is a type of validation that makes use of the data - HTML5 attributes and jQuery for validation purposes. It is enabled by default for all .NET 4.5 projects and it requires a jQuery library that is registered with the ScriptManager as **jquery**. You can easily add this registration by installing the [AspNet.ScriptManager.jQuery NuGet package](https://www.nuget.org/packages/AspNet.ScriptManager.jQuery/).
+
+In addition, when there is a ScriptManager control on the page, you need to instruct it to register jQuery before the two core script files that provide the unobtrusive validation (WebForms.js and WebUIValidation.js). You can find information about this requirement in the [Unobtrusive validation breaks with a Script Manager on the page](https://connect.microsoft.com/VisualStudio/feedback/details/748064/unobtrusive-validation-breaks-with-a-script-manager-on-the-page) Microsoft Connect feedback item.
+
+The unobtrusive validation is automatically configured when you create a web site via the **.NET 4.5 Web Forms Site** template of Visual Studio. If you use it with a RadScriptManager or in a Telerik web site or web application template, however, there are a few common scenarios that require additional modifications. You can find detailed information about them in [jQuery Troubleshooting]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/troubleshooting/jquery-troubleshooting%}) help article.
 
 ### See Also
 
