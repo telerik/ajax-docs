@@ -59,7 +59,10 @@ navigation:
         position: 12
     "visual-stylebuilder":
         title: "Visual StyleBuilder"
-        position: 16        
+        position: 16  	
+    "themebuilder":
+        title: "ThemeBuilder"
+        position: 17
     "mvc":
         title: "Integration with ASPNET MVC"
         position: 18
