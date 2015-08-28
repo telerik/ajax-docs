@@ -1,14 +1,14 @@
 ---
-title: Important Changes Regarding Decorating Headings with Lightweight RadFormDecorator
-page_title: Important Changes Regarding Decorating Headings with Lightweight RadFormDecorator | RadFormDecorator for ASP.NET AJAX Documentation
-description: Important Changes Regarding Decorating Headings with Lightweight RadFormDecorator
-slug: formdecorator/important-changes-decorating-headings-lightweight-radformdecorator
+title: Decorating Heading Tags
+page_title: Decorating Heading Tags | RadFormDecorator for ASP.NET AJAX Documentation
+description: Decorating Heading Tags
+slug: formdecorator/decorating-heading-tags
 tags: changes,and,backward,compatibility
 published: True
 position: 1
 ---
 
-# Important Changes Regarding Decorating Headings with Lightweight RadFormDecorator
+# Decorating Heading Tags
 
 This help article describes the important changes of **RadFormDecorator** in **Lightweight** mode that come with the **Q3 2015** release.
 
@@ -20,7 +20,7 @@ This help article describes the important changes of **RadFormDecorator** in **L
 
 ## Heading Stylization Cascades Through Individual Classes
 
-**RadFormDecorator** in **Lightweight** will not add a global **rfdHeading** class to the HTML tag anymore. From this time onwards, the CSS class **rfdHeading** will be added to each heading tag. You can find the rendered markup of decorated H4, H5 and H6 tags prior and after the change in **Example 1** and **Example 2**.
+**RadFormDecorator** in **Lightweight** will not add a global **rfdHeading** class to the HTML tag anymore. From this time onwards, the CSS class **rfdHeading** will be added to each heading tag. You can find the DOM structure of decorated H4, H5 and H6 tags prior and after the change in **Example 1** and **Example 2**.
 
 >caption **Example 1**: Heading tags are styled by RadFormDecorator through a  global class, added to the HTML tag prior to the Q3 2015 release.
 
