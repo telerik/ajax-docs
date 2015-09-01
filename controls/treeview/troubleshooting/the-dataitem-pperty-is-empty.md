@@ -8,7 +8,7 @@ published: True
 position: 1
 ---
 
-# The DataItem Pperty is Empty
+# The DataItem Property is Empty
 
 
 
