@@ -5,7 +5,7 @@ description: OnClientTaskMoving
 slug: gantt/client-side-programming/events/onclienttaskmoving
 tags: onclienttaskmoving
 published: True
-position: 2
+position: 3
 ---
 
 # OnClientTaskMoving

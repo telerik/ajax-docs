@@ -5,7 +5,7 @@ description: OnClientNavigationCommand
 slug: gantt/client-side-programming/events/onclientnavigationcommand
 tags: onclientnavigationcommand
 published: True
-position: 7
+position: 8
 ---
 
 # OnClientNavigationCommand
