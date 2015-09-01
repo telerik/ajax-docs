@@ -12,7 +12,7 @@ position: 4
 
 
 
-This article shows step by step how to prevent dual uploading of file, which has already been uploaded.
+This article shows step by step how to prevent dual uploading of a file which has already been uploaded.
 
 ## Prevent Dual Files Uploading
 
