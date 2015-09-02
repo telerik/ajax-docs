@@ -12,14 +12,24 @@ position: 6
 
 The CSS class dropdown of RadEditor displays all classes defined in the page or from [external CSS files]({%slug editor/functionality/toolbars/dropdowns/external-css-files%}) by default. The dropdown is populated from the **CssClasses**Collection. You can add to the CssClasses collection declaratively, programmatically and using the ToolsFile.
 
+>caption Figure 1: Apply CSS Class dropdown
+
 ![](images/editor-dropdowns010.png)
 
 ## Using the CssClasses Collection Declaratively
 
+>note As of **Q3 2015**, **Apply CSS Class** can apply classes to block elements. To instruct the tool to do so, you should add a CSS rule with a selector of this type—`[tag].[classname]`. For example, `p.red-background`. 
+
 In the RadEditor declaration, add **EditorCssClass** elements to **CssClasses**. In the example below all three CSS classes are listed along with a "Clear Class" entry. If the CssClasses tag is empty all available classes will be listed.
+
+>caption Example 1: Configuring Apply CSS Class dropdown.
 
 ````ASP.NET    
 <style>
+	p.red-background {
+	    background-color:red;
+	}
+
 	a.link
 	{  
 		 color: #0000ff;   
@@ -40,7 +50,8 @@ In the RadEditor declaration, add **EditorCssClass** elements to **CssClasses**.
 
 <telerik:RadEditor runat="server" ID="RadEditor1" Skin="WebBlue">    
 	<CssClasses>        
-		<telerik:EditorCssClass Name="Clear Class" Value="" />        
+		<telerik:EditorCssClass Name="Clear Class" Value="" /> 
+		<telerik:EditorCssClass Name="Paragraph-Red Background" Value="p.red-background" />        
 		<telerik:EditorCssClass Name="link" Value="a.link" />        
 		<telerik:EditorCssClass Name="img" Value=".img" />        
 		<telerik:EditorCssClass Name="redtext" Value=".redtext" />    
@@ -51,6 +62,8 @@ In the RadEditor declaration, add **EditorCssClass** elements to **CssClasses**.
 ## Using CssClasses Programmatically
 
 Use the **Add()** method to include classes in the CssClasses collection. In the example below, only the a.link and .img styles will be listed in the dropdown:
+
+>caption Example 2: Adding Classes programatically. 
 
 ````C#
 RadEditor1.CssClasses.Add("Links Class", "a.link");
@@ -74,6 +87,8 @@ Using the **Add()** method resets the CssClasses dropdown, so the CssClasses you
 ## Using the ToolsFile
 
 You can also populate the CSS class dropdown using the **ToolsFile**, as shown in the example below:
+
+>caption Example 3: Adding Classes via ToolsFile.xml file.
 
 ````XML  
 <root>  
@@ -104,7 +119,7 @@ You can also populate the CSS class dropdown using the **ToolsFile**, as shown i
 >
 >`RadEditor1.CssClasses.Add("Links class ", "a.link")`
 >
->then the item will be not populated, because the a.link will not exist on the page
+>then the item will not be populated, because the a.link will not exist on the page
 
 ## See Also
 
