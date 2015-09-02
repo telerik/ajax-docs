@@ -5,7 +5,7 @@ description: WCF Service
 slug: gantt/data-binding/client-side-binding/wcf-service
 tags: wcf,service
 published: False
-position: 1
+position: 2
 ---
 
 # WCF Service

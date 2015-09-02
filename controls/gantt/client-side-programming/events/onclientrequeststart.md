@@ -37,6 +37,8 @@ function OnClientRequestStart(sender, eventArgs) {
 }
 ````
 
+The event can be used to [send additional information to the Web Service]({%slug gantt/data-binding/client-side-binding/sending-additional-information-to-the-web-service%}).
+
 # See Also
 
  * [Client-Side Basics]({%slug gantt/client-side-programming/overview%})
