@@ -1286,6 +1286,9 @@ navigation:
     "*spreadprocessing/features/styling":
         title: Styling
         position: 3	
+    "*spreadsheet/structure":
+        title: "Structure"
+        position: 1
     "*stylesheetmanager/cdn-support":
         title: CDN Support
         position: 1			
