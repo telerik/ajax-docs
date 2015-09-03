@@ -1289,6 +1289,12 @@ navigation:
     "*spreadsheet/structure":
         title: "Structure"
         position: 1
+    "*spreadsheet/data-binding":
+        title: "Data Binding"
+        position: 2
+    "*spreadsheet/data-binding/providers":
+        title: "Providers"
+        position: 1
     "*stylesheetmanager/cdn-support":
         title: CDN Support
         position: 1			
