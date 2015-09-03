@@ -2,7 +2,7 @@
 url: "http://docs.telerik.com/devtools/aspnet-ajax"
 site_name: AJAX
 # Exclude files which should not be in the output
-exclude: [README.md,Gemfile,Gemfile.lock,build/*,LICENSE,SlugLog.log,UrlMappings-and-conversion-logs/*,temp_exclude_result.tmp,generate_exlude.rb, RakeFile, helper_tools/*]
+exclude: [README.md,Gemfile,Gemfile.lock,build/*,LICENSE,SlugLog.log,UrlMappings-and-conversion-logs/*,temp_exclude_result.tmp,generate_exlude.rb, RakeFile, helper_tools/*,api/,deployment/,general-information/,helper_tools/,installation/,licensing/,mobile-support/,mvc/,sharepoint/,testing-with-test-studio/,themebuilder/,visual-stylebuilder/,controls/ajax/,controls/asyncupload/,controls/autocompletebox/,controls/barcode/,controls/button/,controls/calendar/,controls/captcha/,controls/chart/,controls/clientdatasource/,controls/clientexportmanager/,controls/cloudupload/,controls/colorpicker/,controls/combobox/,controls/dataform/,controls/datapager/,controls/diagram/,controls/dock/,controls/dropdownlist/,controls/dropdowntree/,controls/editor/,controls/fileexplorer/,controls/filter/,controls/formdecorator/,controls/gantt/,controls/gauge/,controls/grid/,controls/htmlchart/,controls/imageeditor/,controls/imagegallery/,controls/input/,controls/lightbox/,controls/listbox/,controls/listview/,controls/map/,controls/mediaplayer/,controls/menu/,controls/navigation/,controls/notification/,controls/odatadatasource/,controls/orgchart/,controls/pagelayout/,controls/panelbar/,controls/pdfprocessing/,controls/persistenceframework/,controls/pivotgrid/,controls/progressarea/,controls/progressbar/,controls/rating/,controls/ribbonbar/,controls/rotator/,controls/scheduler/,controls/scriptmanager/,controls/searchbox/,controls/sitemap/,controls/slider/,controls/socialshare/,controls/spell/,controls/splitter/,controls/spreadprocessing/,controls/stylesheetmanager/,controls/tabstrip/,controls/tagcloud/,controls/tilelist/,controls/toolbar/,controls/tooltip/,controls/treelist/,controls/treemap/,controls/treeview/,controls/upload/,controls/window/,controls/wizard/,controls/wordsprocessing/,controls/xmlhttppanel/,controls/ziplibrary/]
 
 ## The application virtual path
 baseurl: "/devtools/aspnet-ajax"
@@ -311,6 +311,9 @@ navigation:
         position: 1
     "controls/spreadprocessing":
         title: "SpreadProcessing"
+        position: 1
+    "controls/spreadsheet":
+        title: "Spreadsheet"
         position: 1
     "controls/stylesheetmanager":
         title: "StyleSheet Manager"
