@@ -5,7 +5,7 @@ description: Open Link in a New Window on Double Click
 slug: editor/how-to/open-link-in-a-new-window-on-double-click
 tags: open,link,in,a,new,window,on,double,click
 published: True
-position: 6
+position: 7
 ---
 
 # Open Link in a New Window on Double Click

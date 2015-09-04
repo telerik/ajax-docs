@@ -5,7 +5,7 @@ description: Open Link in a New Window When Clicked
 slug: editor/how-to/open-link-in-a-new-window-when-clicked
 tags: open,link,in,a,new,window,when,clicked
 published: True
-position: 5
+position: 6
 ---
 
 # Open Link in a New Window When Clicked

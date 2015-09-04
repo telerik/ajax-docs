@@ -5,7 +5,7 @@ description: Print Content with Styles
 slug: editor/how-to/print-content-with-styles
 tags: print,content,with,styles
 published: True
-position: 2
+position: 3
 ---
 
 # Print Content with Styles
