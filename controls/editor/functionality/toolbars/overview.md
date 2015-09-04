@@ -45,7 +45,7 @@ The lists below show the icon image, the name of the tool, a description of what
 
 |  **Icon**  |  **Tool Name**  |  **Description**  |  **ToolsFile Declaration**  |
 | ------ | ------ | ------ | ------ |
-|![](images/editor-converttoupper.gif)| **ConvertToUpper** |Convert the text of the current selection to upper case, preserving the non-text elements such as	images and tables.|`<toolname="ConvertToUpper" />`|
+|![](images/editor-converttoupper.gif)| **ConvertToUpper** |Convert the text of the current selection to upper case, preserving the non-text elements such as	images and tables.|`<tool name="ConvertToUpper" />`|
 |![](images/editor-converttolower.gif)| **ConvertToLower** |Convert the text of the current selection to lower case, preserving the non-text	elements such as images and tables.|`<tool name="ConvertToLower" />`|
 |![](images/editor-fontsize.gif)| **RealFontSize** |Allows the user to apply to the current selection, the font size measured in pixels (px) or points (pt),	rather than a fixed-size 1 to 7 (as does the FontSize tool).|`<tool name="RealFontSize"/>`|
 |![](images/editor-togglescreenmode.gif)| **ToggleScreenMode** |Toggle Screen Mode - Switches Telerik **RadEditor** into full screen mode.|`<tool name="ToggleScreenMode" shortcut="F11"/>`|
