@@ -5,7 +5,7 @@ description: Default Font for Editable Content
 slug: editor/managing-content/content-area-appearance/default-font-for-editable-content
 tags: default,font,for,editable,content
 published: True
-position: 2
+position: 3
 ---
 
 # Default Font for Editable Content
