@@ -10,7 +10,9 @@ position: 6
 
 # CSS Styles
 
-The CSS class dropdown of RadEditor displays all classes defined in the page or from [external CSS files]({%slug editor/functionality/toolbars/dropdowns/external-css-files%}) by default. The dropdown is populated from the **CssClasses**Collection. You can add to the CssClasses collection declaratively, programmatically and using the ToolsFile.
+In this article you can learn about the usage and configuration of the **Apply Css Class** tool.
+
+The **Apply Css Class** dropdown of **RadEditor** displays all classes defined in the page or from [external CSS files]({%slug editor/functionality/toolbars/dropdowns/external-css-files%}). The dropdown is populated from the **CssClasses** Collection. You can add items to the **CssClasses** collection declaratively, programmatically and using the ToolsFile.
 
 >caption Figure 1: Apply CSS Class dropdown
 
@@ -20,7 +22,21 @@ The CSS class dropdown of RadEditor displays all classes defined in the page or 
 
 >note As of **Q3 2015**, **Apply CSS Class** can apply classes to block elements. To instruct the tool to do so, you should add a CSS rule with a selector of this type—`[tag].[classname]`. For example, `p.red-background`. 
 
-In the RadEditor declaration, add **EditorCssClass** elements to **CssClasses**. In the example below all three CSS classes are listed along with a "Clear Class" entry. If the CssClasses tag is empty all available classes will be listed.
+In the **RadEditor** declaration, add **EditorCssClass** elements to **CssClasses**. In the example below all three CSS classes are listed along with a "Clear Class" entry. If the **CssClasses** tag is empty all available classes will be listed.
+
+>important If your page does not contain any css classes and you try set an item in the dropdown with the CssClasses.Add syntax, e.g.
+>
+>`RadEditor1.CssClasses.Add("Links class ", "a.link")`
+>
+>then the item will not be populated, because the a.link will not exist on the page. 
+>
+>In order for a class to appear in the dropdown it should present either on the page's CSS or in a CSS file added in the **CssFiles** collection.
+
+>important Note that if you have CSS classes defined with the following syntax:
+>
+> `.Emphasis, p em{color: #A4CE3A; font-style: normal; }` 
+>
+>then the editor will parse and read only the `.Emphasis` class and will populate the **Apply Css Class** dropdown only with this class. If **RadEditor** starts to parse the strings after the comma, this will drastically decrease the editor performance and it will be loaded slower on the page.
 
 >caption Example 1: Configuring Apply CSS Class dropdown.
 
@@ -104,22 +120,7 @@ You can also populate the CSS class dropdown using the **ToolsFile**, as shown i
 </root>			
 ````
 
->note Bear in mind that RadEditor will persist its state (including the CSS classes set) between postbacks. In order to create a new set of CSS classes (e.g. for different users), you will need to clear it first. This can be done using **Remove()** and **Clear()** methods of CssClasses Collection.
-
-
->caution Please, note that if you have css classes defined with the following syntax:
->
-> `.Emphasis, p em{color: #A4CE3A; font-style: normal; }` 
->
->then the editor will parse and read only the .Emphasis class and will populate the "Apply Class" dropdown only with this class. If RadEditor starts to parse the strings after the comma, this will drastically decrease the editor performance and it will be loaded slower on the page.
-
-
-
->caution If your page does not contain any css classes and you try set an item in the dropdown with the CssClasses.Add syntax, e.g.
->
->`RadEditor1.CssClasses.Add("Links class ", "a.link")`
->
->then the item will not be populated, because the a.link will not exist on the page
+>note Bear in mind that **RadEditor** will persist its state (including the CSS classes set) between post backs. In order to create a new set of CSS classes (e.g. for different users), you will need to clear it first. This can be done using **Remove()** and **Clear()** methods of **CssClasses** collection.
 
 ## See Also
 
