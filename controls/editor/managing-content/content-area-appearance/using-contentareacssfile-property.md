@@ -25,7 +25,8 @@ At a first glance the approach below will give you the same results as if the [C
 
 1. Most important: Using the **ContentAreaCssFile** property will not prevent styles from the main page to decorate the content area of **RadEditor**;
 2. All styles from the **ContentAreaCssFile.css** file will not decorate the content in Preview mode;
-3. All styles form the **ContentAreaCssFile.css** file can be toggled via the [Show/Hide Border tool](#showhide-border-tool) (![](images/editor-toggletableborder.gif)).
+3. All styles form the **ContentAreaCssFile.css** file can be toggled via the [Show/Hide Border tool](#showhide-border-tool) (![](images/editor-toggletableborder.gif));
+4. Only a single external CSS file can be used for stylization.
 
 ## Basic Usage
 
