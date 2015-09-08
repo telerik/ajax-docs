@@ -123,6 +123,8 @@ On rare occasions, the `designer.cs`/`designer.vb` files may not be updated when
 * See if the issue occurs on another machine (e.g., a colleague). If not, compare the machines to try to find the difference that causes it.
 
 * When Visual Studio 2013 is used together with TFS and *Get Everything when a solution or project is opened* under *Options* > *Source Control* -> *Environment* is checked. The solution is to uncheck it and manually retrieve the latest version. This issue occurs with the native ASP.NET controls as well.
+ 
+* Try deleting your local copy of the project and get it anew from your source control.
 
 * Try deleting the contents of the `license.licx` file or the entire file so Visual Studio can generate it again.
 
