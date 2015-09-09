@@ -28,6 +28,8 @@ At a first glance the approach below will give you the same results as if the [C
 3. All styles form the **ContentAreaCssFile.css** file can be toggled via the [Show/Hide Border tool](#showhide-border-tool) (![](images/editor-toggletableborder.gif));
 4. Only a single external CSS file can be used for stylization.
 
+You can also compare the conceptual differences of **ContentAreaCssFile** and** CssFiles collection** usage here—[ContentAreaCssFile vs. CssFiles]({%slug editor/managing-content/content-area-appearance/contentareacssfile-vs-cssfil%}).
+
 ## Basic Usage
 
 >important This approach is available only when [ContentAreaMode]({%slug editor/functionality/editor-views-and-modes/contentareamode-property%}) is iframe. Using a content area rendered as a DIV element does not offer native capabilities to add external CSS files.
@@ -149,3 +151,5 @@ Results:
 * [CSS Styles]({%slug editor/functionality/toolbars/dropdowns/external-css-files%})
 
 * [External CSS Files]({%slug editor/managing-content/content-area-appearance/set-defaults%})
+
+* [ContentAreaCssFile vs. CssFiles]({%slug editor/managing-content/content-area-appearance/contentareacssfile-vs-cssfil%})

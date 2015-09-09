@@ -13,9 +13,11 @@ position: 0
 
 In this help article you can learn how to define your own default styles for the editable content area of **RadEditor**.
 
->important This approach is available only when [ContentAreaMode]({%slug editor/functionality/editor-views-and-modes/contentareamode-property%}) is iframe. Using a content area rendered as a DIV element does not offer native capabilities to add external CSS files.
+**RadEditor** offers the ability to easily apply various styles to its content area by using the [CssFiles collection]({%slug editor/functionality/toolbars/dropdowns/external-css-files%}) to add external CSS file/s and manually specify the CSS rules that you want to be loaded in the content area.
 
-**RadEditor** offers the ability to easily apply various styles to its content area by using the [CssFiles collection]({%slug editor/functionality/toolbars/dropdowns/external-css-files%}) to add external CSS file/s and manually specify the CSS rules that you want to be loaded in the content area. 
+Alternatively, you can also use the ContentAreaCssFile property for that. You can find out what are the relevant differences here—[ContentAreaCssFile vs. CssFiles]({%slug editor/managing-content/content-area-appearance/contentareacssfile-vs-cssfil%});
+
+>note This approach is available only when [ContentAreaMode]({%slug editor/functionality/editor-views-and-modes/contentareamode-property%}) is iframe. Using a content area rendered as a DIV element does not offer native capabilities to add external CSS files.
 
 For example, to set the editor to use white text on a black background as well as to change the default bullet / ordered lists shapes add an **EditorCssFile** item to the **CssFiles** collection that points to an external CSS file (e.g., **EditorContentArea.css**):
 
@@ -67,3 +69,5 @@ You can also style other elements in the editor's content area by using the resp
 * [CSS Styles]({%slug editor/functionality/toolbars/dropdowns/external-css-files%})
 
 * [External CSS Files]({%slug editor/managing-content/content-area-appearance/set-defaults%})
+
+* [ContentAreaCssFile vs. CssFiles]({%slug editor/managing-content/content-area-appearance/contentareacssfile-vs-cssfil%})
