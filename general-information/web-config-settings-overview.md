@@ -169,6 +169,8 @@ Here follows a list with all the available appSettings keys for the Telerik UI f
 
 * **Telerik.ScriptManager.EnableEmbeddedjQuery**—lets you disable the embedded jQuery that comes with the Telerik controls by setting it to false. You can read more about this feature in the [Disabling the Embedded jQuery]({%slug scriptmanager/disabling-the-embedded-jquery%}) article. 
 
+* **Telerik.ScriptManager.EnableHandlerEncryption**—lets you enable the Telerik WebResource request querystring encryption. You can read more about this feature in the [Encrypt Telerik WebResource Querystring]({%slug scriptmanager/encrypt-telerik-webresource-querystring%}) article. 
+
 * **Telerik.ScriptManager.TelerikCdn**—lets you enable the scripts CDN support in RadScriptManager globally for the application by setting it to true. You can read more about this feature in the [Scripts CDN Overview]({%slug scriptmanager/cdn-support/overview%}) article. 
 
 * **Telerik.ScriptManager.TelerikCdn.BaseSecureUrl**—lets you configure the base secure (HTTPS) URL of the scripts CDN for the entire application. You can read more about this feature in the [Custom CDN Provider]({%slug scriptmanager/cdn-support/custom-cdn-provider%}) article. 

@@ -1186,7 +1186,7 @@ navigation:
         position: 18
     "*scriptmanager/cdn-support":
         title: "CDN Support"
-        position: 7
+        position: 8
     "*searchbox/templates":
         title: "Templates"
         position: 3
