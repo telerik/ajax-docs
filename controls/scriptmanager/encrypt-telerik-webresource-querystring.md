@@ -10,7 +10,7 @@ position: 7
 
 # Encrypt Telerik WebResource Querystring
 
-You can choose to encrypt the querystring parameters that the Telerik WebResource request has in order to make them unreadable for a third party inspecting the network traffic.
+You can choose to encrypt the querystring parameters that the Telerik WebResource request has in order to make them unreadable for a third party inspecting the network traffic as of Q3 2015.
 
 This feature affects **RadScriptManager** and the **Telerik.Web.UI.WebResoruce.axd** handler.
 
