@@ -51,6 +51,8 @@ A complete list of the JavaScript files used by Telerik UI for ASP.NET AJAX can 
         <asp:ScriptReference Path="~/Scripts/Common/jQueryPlugins.js" />
         <asp:ScriptReference Path="~/Scripts/Common/Navigation/NavigationScripts.js" />
         <asp:ScriptReference Path="~/Scripts/ListBox/RadListBoxScripts.js" />
+		<asp:ScriptReference Path="~/Scripts/ListBox/Views/LiteView.js" />
+		<asp:ScriptReference Path="~/Scripts/ListBox/Views/ClassicView.js" />
         <asp:ScriptReference Path="~/Scripts/Common/TouchScrollExtender.js" />
     </Scripts>
 </telerik:RadScriptManager>
@@ -560,6 +562,8 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 	<asp:ScriptReference Path="~/Scripts/Common/jQueryPlugins.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/Navigation/NavigationScripts.js" />
 	<asp:ScriptReference Path="~/Scripts/ListBox/RadListBoxScripts.js" />
+	<asp:ScriptReference Path="~/Scripts/ListBox/Views/LiteView.js" />
+	<asp:ScriptReference Path="~/Scripts/ListBox/Views/ClassicView.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/TouchScrollExtender.js" />
 </scripts>
 ````
