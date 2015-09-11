@@ -18,7 +18,7 @@ The possible options are:
 
 * **Classic** - this is the default value. It preserves the original rendering and styling that has been used before, which	often means there are a lot of tables used to create layout, which results in nested elements and some markup that can be avoided.
 
-* **Lightweight** - this mode emphasizes on semantic HTML and CSS3. It reduces the amount of markup the control renders	(including the depth of the nested elements) and makes it easier to customize.	This also reduces the number of image sprites the control uses and the overall size and complexity of each skin, including custom ones.
+* **Lightweight** - this mode emphasizes on semantic HTML and CSS3. It reduces the amount of markup the control renders	(including the depth of the nested elements) and makes it easier to customize.	This also reduces the number of image sprites the control uses and the overall size and complexity of each skin, including custom ones. For seamless integration in any site, the lightweight controls inherit the font size and font family of the page as of Q3 2015. 
 
 * **Mobile** - this mode is an addition to the adaptive rendering of the Telerik controls. It is intended to utilize the best HTML, accordingly to the device on which the controls are being shown. This mode forces a layout that fits the needs of the touch environment.The differences of this mode are:
 
