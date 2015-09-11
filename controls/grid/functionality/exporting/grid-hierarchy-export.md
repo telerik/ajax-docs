@@ -25,6 +25,8 @@ Until Q3 2013, you had to retain the expanded state manually when the control re
 >note ExcelML format requires that the **HierarchyLoadMode** property be set to either *Client* or *ServerBind* . When you are using this export format, all items in the hierarchy will expand by default regardless of the state of the **RetainExpandStateOnRebind** property.
 >
 
+>note Since UI for ASP.NET AJAX Q3 2015 we have implement a new property named **IsExporting** which can be used instead of the old approach with a boolean flag. The property is accessible only from the server.
+>
 
 The mentioned below code snippet demonstrates a possible approach to persist the expanded state manually.
 

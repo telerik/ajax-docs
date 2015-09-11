@@ -122,7 +122,7 @@ protected void RadGrid1_ExcelMLExportRowCreated(object sender, GridExportExcelML
 
 **PageLayoutElement** - contains various options to control the page layout.
 
-**PageMarginsElement - **defines the page margins - top, bottom, left, right.
+**PageMarginsElement** - defines the page margins - top, bottom, left, right.
 
 ## PageHeaderElement / PageFooterElement
 

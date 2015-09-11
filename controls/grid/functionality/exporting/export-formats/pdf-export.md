@@ -76,8 +76,8 @@ This help article discuss different techniques which allow you to modify **RadGr
 
 >note The default page orientation for the *PDF* file is *Portrait.* You can easily switch to *Landscape* by modifying the *PageWidth* / *PageHeight* properties manually.
 >
-*  * **A4 Portrait** :* \<Pdf PageWidth="210mm" PageHeight="297mm" /\>
-*  * **A4 Landscape** :* \<Pdf PageWidth="297mm" PageHeight="210mm" /\>
+*  **A4 Portrait** : \<Pdf PageWidth="210mm" PageHeight="297mm" /\>
+*  **A4 Landscape** : \<Pdf PageWidth="297mm" PageHeight="210mm" /\>
 >
 
 
@@ -95,7 +95,8 @@ Although you can't modify the contents on **OnGridExporting**, you can use this 
 
 *RadGrid* does not export any external styles. That means that your skins will not appear in the generated file. Still, the inline styles are preserved and should be used instead. Different approaches could be used depending where *RadGrid* will rebind before export (when *IgnorePaging* is set to *true* or when you rebind manually).
 
-
+>note Since UI for ASP.NET AJAX Q3 2015 we have implement a new property named **IsExporting** which can be used instead of the old approach with a boolean flag. The property is accessible only from the server.
+>
 
 ````C#
 bool isExport = false;
@@ -146,7 +147,7 @@ End Sub
 ````
 
 
->note To center the text in the **GridHeaderItem** , you should set the appropriate style to each cell (*TH* element) instead of the whole row.
+>note To center the text in the **GridHeaderItem**, you should set the appropriate style to each cell (*TH* element) instead of the whole row.
 >
 
 

@@ -140,7 +140,8 @@ End Sub
 
 This approach won't work if your **RadGrid** rebinds before export. In such cases (for instance, when using **IgnorePaging="true"**) the developer should put the code on **ItemCreated/ItemDataBound**:
 
-
+>note Since UI for ASP.NET AJAX Q3 2015 we have implement a new property named **IsExporting** which can be used instead of the old approach with a boolean flag. The property is accessible only from the server.
+>
 
 ````C#
 bool isExport = false;
