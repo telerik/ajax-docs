@@ -5,7 +5,7 @@ description: Set Editor Background and Color
 slug: editor/managing-content/content-area-appearance/set-editor-background-and-color
 tags: set,editor,background,and,color
 published: True
-position: 4
+position: 5
 ---
 
 # Set Editor Background and Color
