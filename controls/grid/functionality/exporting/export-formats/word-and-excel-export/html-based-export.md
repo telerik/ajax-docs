@@ -323,6 +323,17 @@ Protected Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As GridItemEv
 End Sub
 ````
 
+## Default Cell Alignment
+
+You can specify a default alignment to all cells by using **DefaultCellAlignment**. This property is supported since **Q2 2015** and its default value is NotSet. Typical values include **Left**, **Right** and **Center**.
+
+````ASP.NET    
+<ExportSettings>
+    <Excel DefaultCellAlignment="Center" />
+</ExportSettings>
+````
+
+Additionally you can change the default alignment on **HtmlExporting** event.
 
 ## Resizing/Aligning Columns
 

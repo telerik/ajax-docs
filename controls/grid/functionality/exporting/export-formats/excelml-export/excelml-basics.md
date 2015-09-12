@@ -227,6 +227,18 @@ For more information about the number formats/borders, please visit the followin
 
 [XML Spreadsheet reference](http://msdn.microsoft.com/en-us/library/aa140066%28office.10%29.aspx)
 
+## Default Cell Alignment
+
+You can specify a default alignment to all cells by using **DefaultCellAlignment**. This property is supported since **Q2 2015** and its default value is NotSet. Typical values include **Left**, **Right** and **Center**.
+
+````ASP.NET    
+<ExportSettings>
+    <Excel DefaultCellAlignment="Center" />
+</ExportSettings>
+````
+
+Additionally you can change the default alignment on **ExcelMLStylesCreated** event.
+
 ## Number formats
 
 In addition to the predefined formats,you could add your own custom formats.
