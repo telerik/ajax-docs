@@ -12,7 +12,7 @@ position: 7
 
 In this help article you can see how to import external CSS files into the content area of **RadEditor** using **CssFiles** collection.
 
->important This approach is available only when [ContentAreaMode]({%slug editor/functionality/editor-views-and-modes/contentareamode-property%}) is iframe. Using a content area rendered as a DIV element does not offer native capabilities to add external CSS files.
+>note This approach is available only when [ContentAreaMode]({%slug editor/functionality/editor-views-and-modes/contentareamode-property%}) is iframe. Using a content area rendered as a DIV element does not offer native capabilities to add external CSS files. You can find out how to decorate the DIV content area here—[Decorating Div Content Area]({%slug editor/managing-content/content-area-appearance/decorating-div-contentareamode%}). 
 
 By default **RadEditor** uses the CSS styles available in the current page. Using the **CssFiles** collection, it can be configured to load external CSS files instead.
 
