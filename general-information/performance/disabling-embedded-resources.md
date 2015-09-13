@@ -598,6 +598,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 	<asp:ScriptReference Path="~/Scripts/Common/jQueryPlugins.js" />
     <asp:ScriptReference Path="~/Scripts/Common/Navigation/OverlayScript.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/Navigation/NavigationScripts.js" />
+	<asp:ScriptReference Path="~/Scripts/Common/AnimationFramework/AnimationFramework.js" />
 	<asp:ScriptReference Path="~/Scripts/Menu/RadMenuScripts.js" />
     <!-- RadMenuItem script is used when RenderMode is set to Classic or Lightweight. It works in cooperation with ClassicView.js or LiteView.js/-->
     <asp:ScriptReference Path="~/Scripts/Menu/MenuItem/RadMenuItem.js" />
