@@ -169,13 +169,15 @@ Here follows a list with all the available appSettings keys for the Telerik UI f
 
 * **Telerik.ScriptManager.EnableEmbeddedjQuery**—lets you disable the embedded jQuery that comes with the Telerik controls by setting it to false. You can read more about this feature in the [Disabling the Embedded jQuery]({%slug scriptmanager/disabling-the-embedded-jquery%}) article. 
 
+* **Telerik.ScriptManager.EnableHandlerEncryption**—lets you enable the Telerik WebResource request querystring encryption. You can read more about this feature in the [Encrypt Telerik WebResource Querystring]({%slug scriptmanager/encrypt-telerik-webresource-querystring%}) article. 
+
 * **Telerik.ScriptManager.TelerikCdn**—lets you enable the scripts CDN support in RadScriptManager globally for the application by setting it to true. You can read more about this feature in the [Scripts CDN Overview]({%slug scriptmanager/cdn-support/overview%}) article. 
 
 * **Telerik.ScriptManager.TelerikCdn.BaseSecureUrl**—lets you configure the base secure (HTTPS) URL of the scripts CDN for the entire application. You can read more about this feature in the [Custom CDN Provider]({%slug scriptmanager/cdn-support/custom-cdn-provider%}) article. 
 
 * **Telerik.ScriptManager.TelerikCdn.BaseUrl**—lets you configure the base URL of the scripts CDN for the entire application. You can read more about this feature in the [Custom CDN Provider]({%slug scriptmanager/cdn-support/custom-cdn-provider%}) article. 
 
-* **Telerik.ScriptManager.TelerikCdn.CombinedResource**—lets you configure whether to use one combined resource files (scripts) or let each control request its scripts separately. You can read more about this feature in the [Scripts CDN Overview]({%slug scriptmanager/cdn-support/overview%}) article. 
+* **Telerik.ScriptManager.TelerikCdn.CombinedResource**—lets you configure whether to use one combined resource files (scripts) or let each control request its scripts separately. You can read more about this feature in the [Scripts CDN Overview]({%slug scriptmanager/cdn-support/combined-request-for-telerik-controls%}) article. 
 
 * **Telerik.StyleSheetManager.TelerikCdn**—lets you enable the skins (css and images) CDN support in RadStyleSheetManager globally for the application by setting it to true. You can read more about this feature in the [Styles CDN Overview]({%slug stylesheetmanager/cdn-support/overview%}) article. 
 
@@ -183,7 +185,7 @@ Here follows a list with all the available appSettings keys for the Telerik UI f
 
 * **Telerik.StyleSheetManager.TelerikCdn.BaseUrl**—lets you configure the base URL of the skins (css and images) CDN for the entire application. You can read more about this feature in the [Styles CDN Overview]({%slug stylesheetmanager/cdn-support/overview%}) article. 
 
-* **Telerik.StyleSheetManager.TelerikCdn.CombinedResource**—lets you configure whether to use one combined resource files (styles) or let each control request its styles separately. You can read more about this feature in the [Styles CDN Overview]({%slug stylesheetmanager/cdn-support/overview%}) article. 
+* **Telerik.StyleSheetManager.TelerikCdn.CombinedResource**—lets you configure whether to use one combined resource files (styles) or let each control request its styles separately. You can read more about this feature in the [Styles CDN Overview]({%slug stylesheetmanager/cdn-support/combined-request-for-telerik-controls%}) article. 
 
 * **Telerik.Skin**—lets you choose the skin for all Telerik controls in the application by setting it to the desired string value. You can read more about using skins in the [Skin Registration]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/skin-registration%}) article. 
 
