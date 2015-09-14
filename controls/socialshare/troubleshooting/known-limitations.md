@@ -14,7 +14,7 @@ This article lists the known limitations of the **RadSocialShare** control.
 
 ## Tweet Event of a Twitter Button is not Fired Under IE
 
-When the end user posts their Tweet on Twitter, their scripts should return this information to the originating page. The **Example 1** will show an alert when this happens. This event is not raised in IE. **Example 2** shows how this issue can be reproduced with the pure HTML code Twitter provide. Until it is fixed officially, RadSocialShare cannot raise the event as well, because it depends on the scripts coming from Twitter.
+When the end user posts their Tweet on Twitter, their scripts should return this information to the originating page. The **Example 1** will show an alert when this happens. This event is not raised in IE. **Example 2** shows how to reproduce this issue with the pure HTML code Twitter provide. Until it is fixed officially, RadSocialShare cannot raise the event, because it depends on the scripts coming from Twitter.
 
 **Example 1**: Twitter does not raise the Tweet event with RadSocialShare.
 
