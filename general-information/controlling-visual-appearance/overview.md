@@ -18,7 +18,7 @@ The visual appearance of Telerik UI for ASP.NET AJAX is defined through "skins".
 >
 >This means that simple properties like `ForeColor`, `BackColor`, `BorderColor`, `BorderStyle`, etc., may not work for the Telerik controls. To change the way a control looks, you should use CSS.
 
->tip For seamless integration in any site, the controls that have `RenderMode=Lightweight` inherit the font size and font family of the page as of Q3 2015.
+
 
 ## Using a skin
 

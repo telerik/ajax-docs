@@ -18,7 +18,7 @@ A control can hardly be considered responsive by itself, because this heavily de
 
 * **Responsive** — the control will have the same HTML rendering in all resolutions, but CSS rules or JavaScript logic may reorder, resize or even hide certain elements from its UI to make it more suitable for the current dimensions.
 
-* **Elastic** — this means that a font-size change will resize the control elements accordingly. This is usually achieved by using `em` units for font-size and padding settings. **Example 1** at the end of this article shows the selectors for all controls that support elastic design. You can read more about each specific control in the articles linked in **Table 1**. For seamless integration in any site, the controls with `RenderMode=Lightweight` inherit the font size and font family of the page as of Q3 2015.
+* **Elastic** — this means that a font-size change will resize the control elements accordingly. This is usually achieved by using `em` units for font-size and padding settings. **Example 1** at the end of this article shows the selectors for all controls that support elastic design. You can read more about each specific control in the articles linked in **Table 1**.
 
 * **Adaptive** — an adaptive control can change its HTML rendering and layout according to the device it is displayed on. Usually, at least one mode is optimized for mobile devices.
 
