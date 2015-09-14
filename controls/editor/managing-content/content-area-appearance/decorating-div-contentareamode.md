@@ -10,17 +10,15 @@ position: 3
 
 # Decorating Div Content Area
 
-This help article explains how to decorate the content area of **RadEditor** when **ContentAreaMode** property is set to **Div**.
+This help article explains how to decorate the content area of **RadEditor** when the **ContentAreaMode** property is set to **Div**.
 
-As learned from [Setting Default Stylization]({%slug editor/managing-content/content-area-appearance/set-defaults%}) and [Using ContentAreaCssFile Property]({%slug editor/managing-content/content-area-appearance/using-contentareacssfile-property%}) articles, when **ContentAreaMode** is set to **Div**, external CSS files cannot decorate the content area.
+When **ContentAreaMode** is set to **Div**, external CSS files cannot decorate the content area. This is because the `<div>` element rendered as content area does not have a `<head>` element. Therefore, any styles that should decorate the content area should be loaded directly in the page, where **RadEditor** is loaded.
 
-This is because the `<div>` element rendered as content area does not have a `<head>` element. Therefore, any styles that should decorate the content area should be loaded directly in the page, where **RadEditor** is loaded. 
+To read more about decorating the editor's content area examine the [Setting Default Stylization]({%slug editor/managing-content/content-area-appearance/set-defaults%}) and [Using ContentAreaCssFile Property]({%slug editor/managing-content/content-area-appearance/using-contentareacssfile-property%}) articles. 
 
-The recommended approach is to target the elements in the content are using the **reContentArea** class and prevent the usage of global styles in the page.
+The recommended approach to style a DIV content area is to target the elements in the content are using the **reContentArea** class and prevent the usage of global styles in the page (**Example 1**).
 
-The following example shows how you can style the content are when the content area is rendered as `<div>` element.
-
->caption Figure 1: The result from the decoration in Example 1.
+>caption Figure 1: The result from the CSS rules in Example 1.
 
 ![](images/contentarea-div-decoration.png)
 
