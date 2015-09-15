@@ -12,7 +12,7 @@ position: 6
 
 In this article you can learn about the usage and configuration of the **Apply CSS Class** tool.
 
-The **Apply CSS Class** dropdown of **RadEditor** displays all classes defined in the page or from [external CSS files]({%slug editor/functionality/toolbars/dropdowns/external-css-files%}). The dropdown is populated from the **CssClasses** Collection. You can add items to the **CssClasses** collection declaratively, programmatically and using the ToolsFile.
+The **Apply CSS Class** dropdown of **RadEditor** displays all classes defined in the page or from [external CSS files]({%slug editor/functionality/toolbars/dropdowns/external-css-files%}). The dropdown is populated from the **CssClasses** collection. You can add items to the **CssClasses** collection declaratively, programmatically and using the ToolsFile.
 
 >caption Figure 1: Apply CSS Class dropdown
 
