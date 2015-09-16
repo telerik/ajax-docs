@@ -37,19 +37,19 @@ Applying the desired colors is pretty straightforward. The **Theme Builder** pro
 
 ![Theme Builder Create and Download 3](images/themebuilder-create-and-download-3.png)
 
-* **1:** Explain Primitives Column.
+**1. Primitives** column contains the various sections for structure elements.
 
-* **2:** Explain Properties Column.
+**2. Properties** column provides the applicable color customization options.
 
-* **3:** Explain Preview of Controls section.
+**3. Preview of Controls** keeps the main view of the controls.
 
-* **4:** Explain Collapse All Groups Button.
+**4. Collapse All Groups** button helps to expand/collapse all the control views on single action.
 
-* **5:** Explain Help Button.
+**5. Help** button navigates to the help resources for the app.
 
-* **6:** Explain Plus Button.
+**6. Plus** button enables you to dynamically add or remove controls to modify.
 
-* **7:** Explain Download Button.
+**7. Download** button is used after completion to download the archive holding the generated style files.
 
 ## Download and Apply in a Project
 
@@ -61,7 +61,7 @@ Add the new Theme folder in your application and follow the steps provided in th
 
 You can also find a runnable web site sample in the code-library below, which was specifically created using **Theme Builder** with the selected controls in the progress of this article - Grid, Rating and Calendar.
 
-[Theme Builder Sample Web Site](site goes here)
+[Theme Builder Sample Web Site](http://www.telerik.com/support/code-library/theme-builder-sample-web-site)
 
 ## See Also
 
