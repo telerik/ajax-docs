@@ -12,7 +12,7 @@ position: 0
 
 
 
-## 
+##  
 
 There are two ways to attach handler to a client-side event of RadGrid:
 
@@ -41,10 +41,10 @@ You can also attach handlers dynamically with the following code:
 
 ````JavaScript
 grid.add_eventName(eventHandler);          
- 
+
 function eventHandler(sender, args) {
    //...
-}	
+}
 ````
 
 
@@ -124,6 +124,7 @@ Inside each RadGrid client-side event handler the first argument passed (*sender
 | **[OnRowDeselecting]({%slug grid/client-side-programming/events/onrowdeselecting%})** | **String** |
 | **[OnRowDeselected]({%slug grid/client-side-programming/events/onrowdeselected%})** | **String** |
 | **[OnRowDestroying]({%slug grid/client-side-programming/events/onrowdestroying%})** | **String** |
+| **[OnRowDragging]({%slug grid/client-side-programming/events/onrowdragging%})** | **String** |
 | **[OnRowDragStarted]({%slug grid/client-side-programming/events/onrowdragstarted%})** | **String** |
 | **[OnRowDropping]({%slug grid/client-side-programming/events/onrowdropping%})** | **String** |
 | **[OnRowDropped]({%slug grid/client-side-programming/events/onrowdropped%})** | **String** |
@@ -144,4 +145,3 @@ Inside each RadGrid client-side event handler the first argument passed (*sender
 
 >caution When the **ClientIDMode** property of the RadGrid control is set to **Static** , all row specific client-side events would not fire.
 >
-

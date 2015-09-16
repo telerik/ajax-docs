@@ -5,14 +5,14 @@ description: OnRowDragStarted
 slug: grid/client-side-programming/events/onrowdragstarted
 tags: onrowdragstarted
 published: True
-position: 59
+position: 60
 ---
 
 # OnRowDragStarted
 
 
 
-## 
+##   
 
 Telerik.Web.UI.GridDataItemCancelEventArgs OnRowDragStarted Property
 
@@ -54,4 +54,3 @@ function RowDragStarted(sender, eventArgs) {
 
 >note get_gridDataItem() is not directly available on the client unless OnRowCreating/OnRowCreated events are hooked up. This is done for optimization purpose. If you need the rowIndex, you can use eventArgs.get_itemIndexHierarchical()
 >
-
