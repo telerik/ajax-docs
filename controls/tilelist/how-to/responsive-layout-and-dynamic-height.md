@@ -12,7 +12,7 @@ position: 0
 
 
 
-**RadTileList** offers [responsive layout]({%slug tilelist/mobile-support/responsive,-adaptive-and-elastic-capabilities%}) that lets it react to the viewport width. This is achieved via [CSS and media queries]({%slug tilelist/appearance-and-styling/css-for-responsive-layout%}) for smaller viewports.
+**RadTileList** offers [responsive layout]({%slug tilelist/mobile-support/responsive-capabilities%}) that lets it react to the viewport width. This is achieved via [CSS and media queries]({%slug tilelist/appearance-and-styling/css-for-responsive-layout%}) for smaller viewports.
 
 This article explains several key points you need to keep in mind when employing the control's responsive capabilities and offers examples	that show how to achieve some of the scenarios:
 
@@ -165,7 +165,7 @@ When **RadTileList** is nested in other controls/elements,you may need to use ev
 
 # See Also
 
- * [RadTileList Responsive Layout: Overview]({%slug tilelist/mobile-support/responsive,-adaptive-and-elastic-capabilities%})
+ * [RadTileList Responsive Layout: Overview]({%slug tilelist/mobile-support/responsive-capabilities%})
 
  * [RadTileList Responsive Layout: CSS Rules]({%slug tilelist/appearance-and-styling/css-for-responsive-layout%})
 

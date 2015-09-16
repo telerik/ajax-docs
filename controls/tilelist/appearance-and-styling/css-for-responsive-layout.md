@@ -12,13 +12,13 @@ position: 2
 
 
 
-This article shows the code that is used to achieve the [responsive layout]({%slug tilelist/mobile-support/responsive,-adaptive-and-elastic-capabilities%}) of the **RadTileList** control. Comments in the CSS code explain what each rule does so that you can use them as a base if you need to apply further modifications.
+This article shows the code that is used to achieve the [responsive layout]({%slug tilelist/mobile-support/responsive-capabilities%}) of the **RadTileList** control. Comments in the CSS code explain what each rule does so that you can use them as a base if you need to apply further modifications.
 
 ## Media Queries Trigger the TileList Layout Change
 
 [CSS media queries](http://www.w3.org/TR/css3-mediaqueries/) are used to detect the viewport size (and its change), so that appropriate CSS rules are applied to the **RadTileList**,its HTML elements and the **Tiles** themselves. Upon a viewport change, the **RadTileList** is notified through a JavaScript event so it can recalculate the available space and, if needed, reorder the tiles and change its HTML elements.
 
-Out of the box, two resolutions are used in the media queries to trigger the two additional layouts—768px and 480px. You can see examples of the layout with each of them in the [responsive layout article]({%slug tilelist/mobile-support/responsive,-adaptive-and-elastic-capabilities%}).
+Out of the box, two resolutions are used in the media queries to trigger the two additional layouts—768px and 480px. You can see examples of the layout with each of them in the [responsive layout article]({%slug tilelist/mobile-support/responsive-capabilities%}).
 
 ## CSS Changes the Tiles' Layout
 
@@ -151,7 +151,7 @@ All cascades for the responsive layout go through the `rtlistResponsive` class.
 
 # See Also
 
- * [Responsive Layout for RadTileList]({%slug tilelist/mobile-support/responsive,-adaptive-and-elastic-capabilities%})
+ * [Responsive Layout for RadTileList]({%slug tilelist/mobile-support/responsive-capabilities%})
 
  * [CSS Media Queries](http://www.w3.org/TR/css3-mediaqueries/)
 

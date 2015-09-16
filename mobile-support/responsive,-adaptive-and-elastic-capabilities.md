@@ -81,7 +81,7 @@ A control can hardly be considered responsive by itself, because this heavily de
 |TabStrip|No|No|N/A|N/A|
 |TagCloud|[Yes]({%slug tagcloud/mobile-support/resposnive,-adaptive-and-elastic-capabilities%})|N/A|[Yes]({%slug tagcloud/mobile-support/resposnive,-adaptive-and-elastic-capabilities%})|N/A|
 |Ticker|[Yes]({%slug rotator/mobile-support/radticker-elastic-capabilities%})|Yes|No|N/A|
-|TileList|No|[Yes]({%slug tilelist/mobile-support/responsive,-adaptive-and-elastic-capabilities%})|[Yes]({%slug tilelist/mobile-support/responsive,-adaptive-and-elastic-capabilities%})|[Yes]({%slug tilelist/mobile-support/responsive,-adaptive-and-elastic-capabilities%})|
+|TileList|[Yes]({%slug tilelist/mobile-support/elastic-capabilities%})|[Yes]({%slug tilelist/mobile-support/responsive-capabilities%})|[Yes]({%slug tilelist/mobile-support/responsive-capabilities%})|[Yes]({%slug tilelist/mobile-support/responsive-capabilities%})|
 |ToolBar|No|Yes|No|N/A|
 |ToolTip|[Yes]({%slug tooltip/mobile-support/responsive,-adaptive-and-elastic-capabilities%})|N/A|[Yes]({%slug tooltip/mobile-support/responsive,-adaptive-and-elastic-capabilities%})|N/A|
 |TreeMap|Yes|Yes|No|No|
