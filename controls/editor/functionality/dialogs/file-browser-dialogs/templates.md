@@ -10,6 +10,10 @@ position: 3
 
 # Templates
 
+This article explains how RadEditor dialog can reuse HTML documents as templates via the Template Manager dialog.
+
+Templates are HTML docuements (e.g., template.html) that either implement an entire HTML page or a portion of an HTML markup. Using the  Template Manager dialog, you can enable end-users to use, delete and upload HTML files so to be used as templates in the editor's content.
+
 Functionality:
 
 Using the Template Manager dialog the users of a RadEditor can:
