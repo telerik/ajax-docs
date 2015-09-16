@@ -62,7 +62,7 @@ RadEditor1.Snippets.Add("<img src='./RadControls/Editor/Skins/Default/Buttons/Cu
 
 ## Using the ToolsFile
 
-You can also populate the Custom links dropdown using the ToolsFile.xml file. For the HTML code to be interpreted correctly in the XML file, enclose the code in `<![CDATA[ //]]>` as shown in the example below:
+You can also populate the Custom links dropdown using the ToolsFile.xml file. For the HTML code to be interpreted correctly in the XML file, enclose the code in `<![CDATA[ ]]>` as shown in the example below:
 
 ![](images/editor-dropdowns016.png)
 
@@ -75,7 +75,7 @@ You can also populate the Custom links dropdown using the ToolsFile.xml file. Fo
 				Thank you for inquiring about ************. Your request will be processed in 48 hours and shipped at the address you have provided.
 				<b>Please, contact us if you have any problems.</b>
 			</div>
-		//]]>  
+		]]>  
 	</snippet>   
 	<snippet name="Signature">      
 		<![CDATA[         
@@ -83,7 +83,7 @@ You can also populate the Custom links dropdown using the ToolsFile.xml file. Fo
 			<br>Sales Manager<br>         
 			...         
 			************************************************      
-		 //]]>  
+		 ]]>  
 	</snippet>
 </snippets>
 ````
