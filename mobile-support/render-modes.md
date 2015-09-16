@@ -65,6 +65,7 @@ Some controls from the UI for ASP.NET AJAX suite	can produce different (usually 
 |TabStrip|-|-|
 |TagCloud|Yes (by design)|-|
 |Ticker|Yes (by design)|-|
+|Tile|[Yes (by design)]({%slug tilelist/tiles/mobile-support/render-modes%})|-|
 |TileList|[Yes (by design)]({%slug tilelist/mobile-support/render-modes%})|-|
 |ToolBar|-|-|
 |ToolTip|[Yes(render mode)]({%slug tooltip/mobile-support/render-modes%})|-|
