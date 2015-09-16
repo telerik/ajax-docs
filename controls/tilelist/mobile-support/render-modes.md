@@ -67,4 +67,6 @@ There are two ways to configure the rendering mode of the controls:
 
 * [Render Modes]({%slug controls/render-modes%})
 
- * [Responsive Capabilities]({%slug tilelist/mobile-support/responsive-capabilities%})
+* [Responsive Capabilities]({%slug tilelist/mobile-support/responsive-capabilities%})
+
+* [Elastic Capabilities]({%slug tilelist/mobile-support/elastic-capabilities%})
