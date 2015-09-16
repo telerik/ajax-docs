@@ -17,6 +17,7 @@ The **RadCalendar** controls support the **System.Globalization** namespace. Thi
 **RadCalendar** supports all the cultures in the System.Globalization namespace that are based on the **Gregorian** calendar.
 >
 
+For East Asian, Middle Eastern and other similar cultures, which have an alternative standard for a different Calendar implementation, **RadCalendar** supports their localization and native date and time value representation, but automatically uses the **Gregorian** calendar internally.
 
 ## CultureInfo
 
@@ -34,7 +35,7 @@ All **RadCalendar** controls let you associate a **CultureInfo** object with the
 |RadTimePicker|Culture|
 |RadDateTimePicker|Culture|
 
->note 
+>note
 On **RadDatePicker** , **RadTimePicker** and **RadDateTimePicker** you can assign a separate **CultureInfo** object to the embedded popup calendar and/or time view control, using the embedded calendar's **CultureInfo** property or the embedded time view's **Culture** property.
 >
 
@@ -55,7 +56,7 @@ The associated **CultureInfo** object controls:
 
 * The way **RadDatePicker**, **RadTimePicker** and **RadDateTimePicker** parse values that the user types into the input area.
 
->caution 
+>caution
 The **CultureInfo** property of **RadCalendar** does not affect the labels on the buttons in the month/year navigation popup. For information on localizing these strings, see[Localizing Strings]({%slug calendar/accessibility-and-internationalization/localizing-strings%}).
 >
 
