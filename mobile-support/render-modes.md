@@ -61,7 +61,7 @@ Some controls from the UI for ASP.NET AJAX suite	can produce different (usually 
 |Slider|[Yes (render mode)]({%slug slider/mobile-support/render-modes%})|-|
 |SocialShare|Yes (by design)|-|
 |Spell|Yes (child control - Window)|-|
-|Splitter|N/A|-|
+|Splitter|[Yes (render mode)]({%slug splitter/mobile-support/render-modes%})|-|
 |TabStrip|-|-|
 |TagCloud|Yes (by design)|-|
 |Ticker|Yes (by design)|-|

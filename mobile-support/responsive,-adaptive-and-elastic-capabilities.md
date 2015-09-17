@@ -77,7 +77,7 @@ A control can hardly be considered responsive by itself, because this heavily de
 |Slider|[Yes]({%slug slider/mobile-support/responsive,-adaptive-and-elastic-capabilities%})|[Yes]({%slug slider/mobile-support/responsive,-adaptive-and-elastic-capabilities%})|[Yes]({%slug slider/mobile-support/responsive,-adaptive-and-elastic-capabilities%})|N/A|
 |SocialShare|[Yes]({%slug socialshare/mobile-support/responsive,-adaptive-and-elastic-capabilities%})|No|No|No|
 |Spell|No|No|No|No|
-|Splitter|No|[Yes]({%slug splitter/layout/filling-the-entire-page%})|[Yes]({%slug splitter/layout/filling-the-entire-page%})|N/A|
+|Splitter|[Limited]({%slug splitter/mobile-support/elastic-design%})|[Yes]({%slug splitter/layout/filling-the-entire-page%})|[Yes]({%slug splitter/layout/filling-the-entire-page%})|N/A|
 |TabStrip|No|No|N/A|N/A|
 |TagCloud|[Yes]({%slug tagcloud/mobile-support/resposnive,-adaptive-and-elastic-capabilities%})|N/A|[Yes]({%slug tagcloud/mobile-support/resposnive,-adaptive-and-elastic-capabilities%})|N/A|
 |Ticker|[Yes]({%slug rotator/mobile-support/radticker-elastic-capabilities%})|Yes|No|N/A|
