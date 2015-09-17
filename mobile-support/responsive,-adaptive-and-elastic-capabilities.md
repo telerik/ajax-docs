@@ -51,7 +51,7 @@ A control can hardly be considered responsive by itself, because this heavily de
 |Gantt|Yes|Yes|No|No|
 |Gauge|N/A|N/A|N/A|N/A|
 |Grid|No|Yes|No|[Yes]({%slug grid/mobile-support/mobile-rendering/overview%})|
-|ImageEditor|No|Yes|No|No|
+|ImageEditor|[Limited]({%slug  imageeditor/mobile-support/elastic-design%})|Yes|No|No|
 |ImageGallery|Yes|Yes|Yes|Yes|
 |Input|Yes|No|N/A|No|
 |LightBox|Yes|Yes|No|Yes|

@@ -16,7 +16,7 @@ The possible options are:
 
 * **Classic**—this mode is the rendering that has been used before. It remains without changes and it is the default value of the property.	In this mode background images (in several sprites) are used to create the layout and the toolbar button icons.
 
-* **Lightweight**—this mode emphasizes on semantic HTML and CSS3 which makes it easier to customize. Image sprites are no longer used and the tool icons are font-icons from a font that is used in all Telerik controls. All of this decreases the overall size and complexity of each skin, including custom ones.
+* **Lightweight**—this mode emphasizes on semantic HTML and CSS3 which makes it easier to customize. Image sprites are no longer used and the tool icons are font-icons from a font that is used in all Telerik controls. All of this decreases the overall size and complexity of each skin, including custom ones. This mode also enables the [Elastic design]({%slug  imageeditor/mobile-support/elastic-design%}) of the control.
 
 * **Mobile**—this mode is currently not supported. If you set it, the mode will fall back automatically to **Lightweight**.
 
@@ -52,3 +52,6 @@ RadImageEditor1.RenderMode = Telerik.Web.UI.RenderMode.Lightweight
 ````
 
 
+## See Also
+
+* [Elastic design]({%slug  imageeditor/mobile-support/elastic-design%})
