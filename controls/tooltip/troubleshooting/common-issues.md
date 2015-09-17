@@ -30,6 +30,8 @@ position: 0
 
 * [Changing Borders and Fonts](#changing-borders-and-fonts)
 
+* [Controlling Scrolling](#controlling-scrolling)
+
 ## ToolTip is not Positioned Correctly
 
 By default the **RadToolTip** repositions itself so that it is always in the visible viewport. Sometimes, however,this does not happen. In that case make sure you have set all the necessary properties for its proper functioning: **Width, Height, Position,	RelativeTo, ShowEvent, HideEvent**. Usually at least **Width** is required so that the tooltip knows how big the popup needs to be in order to position it correctly on the screen. This is especially true for Load-On-Demandscenarios where the content is received after the tooltip is shown and it has no other way of calculating its position.
@@ -113,4 +115,8 @@ When the target is very small (for example a 16x16px button in a grid column) an
 Properties like Font, Font-Color, Border-Style, Border-Color, etc. are only inherited from System.Web.Control and are not implemented in the **RadToolTip**. This is due to the fact that they are rather simple properties and the effect they should have on a complex structure such as the **RadToolTip** is not clear. Therefore the **RadToolTip** comes with a number of predefined skins which have borders, appropriate for the overall look and feel of the skin so that they can match the rest of the theme/other Telerik controls on the page. If you need to change borders you would need to [create a custom skin]({%slug tooltip/appearance-and-styling/tutorial-creating-custom-lightweight-skin%}). The fonts can be controlled via CSS - you can either change them when you create your custom skin, or override the default CSS via your custom rules on the page. The needed classes can easily be inspected via a tool like Firebug or the IE Dev toolbar and also a list with them is available in [this help article]({%slug tooltip/appearance-and-styling/css-classes%}).
 
 >tip When using the [Lightweight RenderMode]({%slug tooltip/mobile-support/render-modes%}) styling is easier. Examining the	rendered HTML in the browser dev toolbar can show you which CSS rules to override without the creation of a custom skin.
+
+## Controlling Scrolling
+
+RadToolTip and RadToolTipManager expose the `ContentScrolling` property which controls the `overflow` CSS property of the content element of the tooltip. The purpose is to let the developer define `Width` and `Height` for the entire tooltip so the content overflows according to the `ContentScrolling` property, but certain **browser behaviors** limit this feature when `RenderMode` is `Classic`. In this case, the tooltip layout is created through a `<table>` element and browsers extend tables to fit their contents. Thus, to have control over the scrolling of the content, you should use `RenderMode="Lightweight"`.
 
