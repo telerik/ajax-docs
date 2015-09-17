@@ -36,7 +36,7 @@ A control can hardly be considered responsive by itself, because this heavily de
 |Captcha|N/A|No|N/A|N/A|
 |Chart (HTML5)|N/A|N/A (but [possible](http://demos.telerik.com/aspnet-ajax/htmlchart/examples/functionality/responsive-chart/defaultcs.aspx))|N/A (but [possible](http://demos.telerik.com/aspnet-ajax/htmlchart/examples/functionality/responsive-chart/defaultcs.aspx))|N/A|
 |Chart|N/A|N/A|N/A|N/A|
-|ColorPicker|No|No|No|No|
+|ColorPicker|[Yes]({%slug colorpicker/mobile-support/elastic-design%})|No|No|No|
 |ComboBox|Yes|Yes|N/A|N/A|
 |DataForm|[Yes]({%slug dataform/mobile-support/fluid-and-elastic-capabilities%})|[Yes]({%slug dataform/mobile-support/fluid-and-elastic-capabilities%})|No|No|
 |DataPager|Yes|Yes|Yes|Yes|
