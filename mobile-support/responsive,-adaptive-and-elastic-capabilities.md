@@ -75,7 +75,7 @@ A control can hardly be considered responsive by itself, because this heavily de
 |SearchBox|Yes|No|N/A|N/A|
 |SiteMap|Yes|Yes|N/A|N/A|
 |Slider|[Yes]({%slug slider/mobile-support/responsive,-adaptive-and-elastic-capabilities%})|[Yes]({%slug slider/mobile-support/responsive,-adaptive-and-elastic-capabilities%})|[Yes]({%slug slider/mobile-support/responsive,-adaptive-and-elastic-capabilities%})|N/A|
-|SocialShare|[Yes]({%slug socialshare/mobile-support/responsive,-adaptive-and-elastic-capabilities%})|No|No|No|
+|SocialShare|[Yes]({%slug socialshare/mobile-support/elastic-design%})|[Yes]({%slug socialshare/mobile-support/fluid-design%})|No|No|
 |Spell|No|No|No|No|
 |Splitter|[Limited]({%slug splitter/mobile-support/elastic-design%})|[Yes]({%slug splitter/layout/filling-the-entire-page%})|[Yes]({%slug splitter/layout/filling-the-entire-page%})|N/A|
 |TabStrip|No|No|N/A|N/A|
