@@ -87,7 +87,7 @@ The **$telerik** object provides the following set of static functions by topic:
 | **addExternalHandler**  **removeExternalHandler** | **element** (HTML DOM element) **eventName** (name of the event, e.g. "mouseover") **handler** (the event handler function)|none|Adds / Removes the event handler **handler** to the **element** 's **eventName** event. Can be used when attaching events to HTML elements in IFRAMEs where ASP.NET AJAX's **$addHandler** and **$remoevHandler** do not work|
 | **cancelRawEvent** | **e** (Event object)|false|Cancels the specified event from propagating|
 | *Element Animation* |||||
-| **transition** | **element** (the DOM element or jQuery object that will be animated) **properties** (an object of CSS properties and values that the animation will move toward) **duration** (a string or number determining how long the animation will run) **easing** (a string indicating which easing function to use for the transition) **complete** (a function to call once the animation is complete)|None|Performs a custom animation of a set of CSS properties.|
+| **transition** | **element** (the DOM element or jQuery object that will be animated) **properties** (an object of CSS properties and values that the animation will move toward) **duration** (a string or number determining how long the animation will run) **easing** (a string indicating which easing function to use for the transition) **complete** (a function to call once the animation is complete)|None|Performs a custom animation of a set of CSS properties. See [Transition Example](#transition-example).|
 | *Element Positioning* |||||
 | **containsPoint** | **rect** (Rectangle object with properties: x, y, width, height) **x** (X coordinate of the point) **y** (Y coordinate of the point)|Boolean|Checks whether a point with coordinates **x** and **y** is contained within a **rect** . The Rectangle object needs to provide properties: x, y, width, height|
 | **elementOverflowsLeft**  **elementOverflowsTop** | **element** (HTML DOM element) **cachedLocation** (Sys.UI.Point object. Optional. If a Point object is specified for this parameter, it will be accepted as the HTML element's current location)|Boolean|Checks if the specified HTML element overflows the screen with the specified screen size from left or top respectively|
@@ -139,5 +139,39 @@ The **$telerik** object provides the following set of static functions by topic:
 >note 
 > The "border-box" is the size of the content area *outside* of the borders and padding of an element. It does not include the margins around the element. 
 
+
+### Transition Example
+
+````ASP.NET
+<%-- Load manually the Animation framework's scripts if a control is not declared in the markup. --%>
+<%-- The Core and jQuery scripts are needed for the Animation framework's scripts --%>
+<telerik:RadScriptManager runat="server" ID="RSM1">
+    <Scripts>
+        <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Core.js" />
+        <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQuery.js" />
+
+        <telerik:RadScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.AnimationFramework.AnimationFramework.js" />
+        <telerik:RadScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Animation.AnimationScripts.js" />
+    </Scripts>
+</telerik:RadScriptManager>
+
+<div id="myDiv" style="width: 100px; height: 100px; background-color: gray; border: 1px solid black;"></div>
+
+<a href="#" onclick="moveDiv(); return false;">Apply margin-left</a>
+
+<script>
+    function moveDiv() {
+        $telerik.transition($get("myDiv"), { "margin-left": 500 }, 500, "easeIn", animationComplete);
+    }
+
+    function animationComplete(sender, args) {
+        alert("Animation completed!");
+    }
+</script>
+````
+
+## See Also
+
+* [Telerik.Web.CommonScripts - client-side API]({%slug Telerik.Web.CommonScripts%})
 
 
