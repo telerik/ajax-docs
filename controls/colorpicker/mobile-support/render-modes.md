@@ -19,7 +19,7 @@ The possible options for the **RenderMode** property are:
 
 * **Classic** - this mode is the rendering that is used by default. It remains without changes.
 
-* **Lightweight** - the control is [elastic]({%slug colorpicker/mobile-support/elastic-design%}) and CSS is used to generate colors and palettes instead of images.
+* **Lightweight** - the control is [elastic]({%slug colorpicker/mobile-support/elastic-design%}) and CSS is used to generate colors and palettes instead of images. This mode is available as of **Q3 2015**.
 
 * **Mobile** - this mode will be resolved to *Lightweight*.
 
