@@ -45,7 +45,7 @@ A control can hardly be considered responsive by itself, because this heavily de
 |DropDownList|Yes|Yes|N/A|N/A|
 |DropDownTree|Yes|Yes|N/A|N/A|
 |Editor|[Yes]({%slug editor/mobile-support/elastic-design%})|[Yes]({%slug editor/mobile-support/fluid-design%})|Yes|[Yes]({%slug editor/mobile-support/phone-layout/overview%})|
-|FileExplorer|No|Yes|No|No|
+|FileExplorer|[Limited]({%slug fileexplorer/mobile-support/elastic-design%})|Yes|No|No|
 |Filter|Yes|No|No|No|
 |FormDecorator|[Yes]({%slug formdecorator/mobile-support/responsive,-adaptive-and-elastic-capabilities%})|[Yes]({%slug formdecorator/mobile-support/responsive,-adaptive-and-elastic-capabilities%})|[Yes]({%slug formdecorator/mobile-support/responsive,-adaptive-and-elastic-capabilities%})|N/A|
 |Gantt|Yes|Yes|No|No|

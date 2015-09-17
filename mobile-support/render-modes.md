@@ -32,7 +32,7 @@ Some controls from the UI for ASP.NET AJAX suite	can produce different (usually 
 |DropDownList|Yes (by design)|-|
 |DropDownTree|Yes (by design)|-|
 |Editor|[Yes (render mode)]({%slug editor/mobile-support/render-modes%})|[Yes (render mode)]({%slug editor/mobile-support/phone-layout/overview%})|
-|FileExplorer|N/A|-|
+|FileExplorer|[Yes (render mode)]({%slug fileexplorer/mobile-support/render-modes%})|-|
 |Filter|Yes (render mode)|-|
 |FormDecorator|[Yes (render mode)]({%slug formdecorator/mobile-support/render-modes%})|-|
 |Gantt|Yes (by design)|-|
