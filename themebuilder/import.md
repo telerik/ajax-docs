@@ -2,17 +2,17 @@
 title: Import
 page_title: Import | UI for ASP.NET AJAX Documentation
 description: Import
-slug: introduction/themebuilder/import
+slug: theme-builder/import
 tags: import,theme
 published: True
-position: 1
+position: 2
 ---
 
 # Importing a Theme 
 
 
 
-The **ThemeBuilder** tool enables you to upload your own theme that you have created previously. You need to select the *Import existing theme* option.
+The **Theme Builder** tool enables you to upload your own theme that you have created previously. You need to select the *Import existing theme* option.
 
 >note You must upload both **ScssPrimitives.json** and **UsedControls.json** files in order for the imported theme to be recognized correctly.
 

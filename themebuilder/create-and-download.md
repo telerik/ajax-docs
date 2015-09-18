@@ -2,7 +2,7 @@
 title: Create and Download
 page_title: Create and Download | UI for ASP.NET AJAX Documentation
 description: Create and Download
-slug: introduction/themebuilder/overview
+slug: theme-builder/create-and-download
 tags: create,download
 published: True
 position: 1
