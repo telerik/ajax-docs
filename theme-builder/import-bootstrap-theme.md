@@ -49,5 +49,5 @@ The **Import Bootstrap Theme** functionality is currently in development and wit
 
 Currently the Twitter Bootstrap import will not work if you use formula (i.e. lighten(@gray-base, 20%)) as bootstrap variable. Import of Bootstrap theme that is SASS, LESS or CSS based is also not supported 
 
-We continue to collect your feedback and plan to greatly improve the Twitter Bootstrap theme conversion to Telerik Bootstrap themes. If you would like you can share your scenarios and custom Twitter Bootstrap themes with us at webforms@telerik.com (file://webforms@telerik.com/). 
+We continue to collect your feedback and plan to greatly improve the Twitter Bootstrap theme conversion to Telerik Bootstrap themes. If you would like you can share your scenarios and custom Twitter Bootstrap themes with us at [webforms@telerik.com](file://webforms@telerik.com/). 
 

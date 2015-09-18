@@ -23,11 +23,11 @@ The **Theme Builder** web-based tool can help you drastically reduce this effort
 
 First, you need to define a name for your new theme and then select one of the existing Skins to use as a base. Please choose the name carefully, because it won't be possible to change it later on without tweaking all the generated CSS rules.
 
-![Theme Builder Create and Download 1](images/themebuilder-create-and-download-1.png)
+![Theme Builder Create and Download 1](images/theme-builder-create-and-download-1.png)
 
 Next step is to choose the controls you want to generate a custom Theme for. For our basic sample, the selected controls are Grid, Rating and Calendar.
 
-![Theme Builder Create and Download 2](images/themebuilder-create-and-download-2.png)
+![Theme Builder Create and Download 2](images/theme-builder-create-and-download-2.png)
 
 Some of the controls have composite structures and include other child controls to provide the rich functionality they offer, e.g. RadGrid. Therefore, the **Theme Builder** adds these inner controls automatically so you don't bother finding them manually.
 
@@ -35,7 +35,7 @@ Some of the controls have composite structures and include other child controls 
 
 Applying the desired colors is pretty straightforward. The **Theme Builder** provides Color pickers for customizing the appearance of the controls and the changes can be observed on the fly thanks to the *Apply changes instantly* option.
 
-![Theme Builder Create and Download 3](images/themebuilder-create-and-download-3.png)
+![Theme Builder Create and Download 3](images/theme-builder-create-and-download-3.png)
 
 **1. Primitives** column contains the various sections for structure elements.
 
@@ -65,6 +65,6 @@ You can also find a runnable web site sample in the code-library below, which wa
 
 ## See Also
 
- * [Overview]({%slug introduction/themebuilder/overview%})
+ * [Overview]({%slug theme-builder/overview%})
 
- * [Importing a Theme]({%slug introduction/themebuilder/import%})
+ * [Importing a Theme]({%slug theme-builder/import%})
