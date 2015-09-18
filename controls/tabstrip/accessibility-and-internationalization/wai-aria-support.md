@@ -11,7 +11,7 @@ position: 1
 # WAI-ARIA Support
 
 
-This article demonstrates how to enable and use the WAI-ARIA support of the **RadTabStrip**.
+This article demonstrates how to enable and use the WAI-ARIA support of the **RadTabStrip** available for this control since 2015 Q3 release.
 
 The [WAI-ARIA Suite](http://www.w3.org/WAI/intro/aria) defines an approach to make Web content and Web applications more accessible to people with disabilities. In order to enable the WAI-ARIA support, set the **RadTabStrip**'s **EnableAriaSupport** property to **true** as shown in the example below.
 
