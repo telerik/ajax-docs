@@ -4,7 +4,6 @@ page_title: Elastic Design | RadSocialShare for ASP.NET AJAX Documentation
 description: Elastic Design
 slug: socialshare/mobile-support/elastic-design
 tags: elastic,design,social share
-previous_url: controls/socialshare/mobile-support/responsive,-adaptive-and-elastic-capabilities
 published: True
 position: 2
 ---
