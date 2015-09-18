@@ -45,6 +45,6 @@ You can set the **Width** and **Height** properties of the Tile in percent. This
 
 # See Also
 
-* [Render Modes]({%slug controls/tilelist/tiles/render-modes%})
+* [Render Modes]({%slug tilelist/tiles/mobile-support/render-modes%})
 
 * [Elastic Capabilities]({%slug tilelist/tiles/mobile-support/elastic-design%})
