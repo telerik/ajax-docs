@@ -4,7 +4,7 @@ page_title: Data Binding Overview | RadSpreadsheet for ASP.NET AJAX Documentatio
 description: Overview
 slug: spreadsheet/data-binding/overview
 tags: overview
-published: True
+published: False
 position: 0
 ---
 
