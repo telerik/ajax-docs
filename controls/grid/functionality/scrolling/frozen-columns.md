@@ -40,10 +40,10 @@ The buttons are contained in the **GridCommandItem**, which needs to be enabled 
 
 ##Frozen columns with Grouping
 
-When grouping is enabled in grid with frozen columns the first **GridGroupSplitterColumn** is counted as frozen. With Q3 2015 release a new **ClientSettings.Scrolling.CountGroupSplitterColumnAsFrozen** property is added which gives you the opportunity to count the GridGroupSplitterColumn or not. The default value of the property is **true**, which means that If you want to exclude GridGroupSplitterColumn from FrozenColumns count you need to set the property to **false**:
+When grouping is enabled in grid with frozen columns the first **GridGroupSplitterColumn** is counted as frozen. With Q3 2015 release a new **ClientSettings.Scrolling.CountGroupSplitterColumnAsFrozen** property is added which gives you the opportunity to count the GridGroupSplitterColumn or not. The default value of the property is **true**, which means the old behavior is preserved. If you want to exclude GridGroupSplitterColumn from FrozenColumns count you need to set this property to **false** as shown below:
 
 ````ASP.NET
-<Scrolling CountGroupSplitterColumnAsFrozen="false"AllowScroll="true"UseStaticHeaders="true"FrozenColumnsCount="2"/>
+<Scrolling CountGroupSplitterColumnAsFrozen="false" AllowScroll="true" UseStaticHeaders="true" FrozenColumnsCount="2"/>
 ````
 
 ## Unsupported scenarios
