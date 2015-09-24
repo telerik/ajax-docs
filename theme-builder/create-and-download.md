@@ -21,11 +21,11 @@ A theme dictates the overall look and feel of every product, be it a web site or
 
 The **Theme Builder** web-based tool can help you drastically reduce this effort and achieve the desired look and feel seamlessly, while enabling you to concentrate on the design and styling of your new theme.
 
-First, you need to define a name for your new theme and then select one of the existing Skins to use as a base. Please choose the name carefully, because it won't be possible to change it later on without tweaking all the generated CSS rules.
+First, you need to define a name for your new theme:
 
 ![Theme Builder Create and Download 1](images/theme-builder-create-and-download-1.png)
 
-Next step is to choose the controls you want to generate a custom Theme for. For our basic sample, the selected controls are Grid, Rating and Calendar.
+Then select one of the existing Skins to use as a base. Please choose the name carefully, because it won't be possible to change it later on without tweaking all the generated CSS rules. Next step is to choose the controls you want to generate a custom Theme for. For our basic sample, the selected controls are Grid, Calendar and Rating.
 
 ![Theme Builder Create and Download 2](images/theme-builder-create-and-download-2.png)
 
@@ -59,7 +59,7 @@ Add the new Theme folder in your application and follow the steps provided in th
 
 [Using a Custom Skin](http://docs.telerik.com/devtools/aspnet-ajax/controls/grid/appearance-and-styling/modifying-existing-skins#creating-a-custom-skin-basic-steps)
 
-You can also find a runnable web site sample in the code-library below, which was specifically created using **Theme Builder** with the selected controls in the progress of this article - Grid, Rating and Calendar.
+You can also find a runnable web site sample in the code-library below, which was specifically created using **Theme Builder** with the selected controls in the progress of this article - Grid, Calendar and Rating.
 
 [Theme Builder Sample Web Site](http://www.telerik.com/support/code-library/theme-builder-sample-web-site)
 
