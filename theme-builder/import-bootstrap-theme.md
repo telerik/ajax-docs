@@ -19,9 +19,6 @@ The **Import Bootstrap Theme** functionality is currently in development and wit
 
 ````
 {
-    //"$font-size": "@font-size-base",
-    //"$line-height": "@line-height-base",
-    //"$font-family": "@font-family-sans-serif",
     "$base-color": "@text-color",
     "$base-bg": "@body-bg",
     "$base-border": "@panel-default-border",
