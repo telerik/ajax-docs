@@ -11,7 +11,6 @@ position: 3
 # Frozen Columns
 
 
-
 When scrolling is enabled and you are using [static headers]({%slug grid/functionality/scrolling/scroll-with-static-headers%}), you can make **RadGrid** columns static as well. This can be useful when you want to ensure that the data in one or more columns is visible at all times but still allow a horizontal scroll bar for navigation.
 
 >note Static columns are not enabled unless the grid is using static headers.
@@ -39,10 +38,14 @@ The buttons are contained in the **GridCommandItem**, which needs to be enabled 
 <MasterTableView CommandItemDisplay="Top">
 ````
 
+##Frozen columns with Grouping
+
+When grouping is enabled in grid with frozen columns the first **GridGroupSplitterColumn** is counted as frozen. With Q3 2015 release a new **ClientSettings.Scrolling.CountGroupSplitterColumnAsFrozen** property is added which gives you the opportunity to count the GridGroupSplitterColumn or not. The default value of the property is **true**, which means that If you want to exclude GridGroupSplitterColumn from FrozenColumns count you need to set the property to **false**:
+
+````ASP.NET
+<Scrolling CountGroupSplitterColumnAsFrozen="false"AllowScroll="true"UseStaticHeaders="true"FrozenColumnsCount="2"/>
+````
 
 ## Unsupported scenarios
-
-There are several limitations that you should have in mind. They are caused by the complexity and specifics of the frozen columns feature, which is implemented by means of hiding and showing columns, instead of actually scrolling them.
-
 
 * When frozen columns are used, tabbing between the textboxes in an inline edit form is not supported out-of-the-box, because the frozen columns will be scrolled together with the non-frozen. In selected scenarios, this functionality can be achieved if you subscribe to the textboxes' focus events and scroll a specific <div> with Javascript. This \<div\> has a client ID of "**..._Frozen**" where "..." is the RadGrid client ID. When doing this, you should take into account the current scroll position, and the width of the column that should be hidden/shown.
