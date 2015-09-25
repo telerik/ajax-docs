@@ -743,6 +743,9 @@ navigation:
     "*grid/data-editing/edit-mode":
         title: "Edit Mode"
         position: 0
+    "*grid/data-editing/edit-mode/batch-editing":
+        title: "Batch Editing"
+        position: 0
     "*grid/data-editing/grid-editors":
         title: "Grid Editors"
         position: 1
