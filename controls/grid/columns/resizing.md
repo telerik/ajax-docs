@@ -85,10 +85,22 @@ With version Q3 2010, grid columns now support the **'resize to fit'** functiona
 
 |  **To resize the target column to its best fit, select 'Best Fit' from its header context menu, or double-click its resize handle**  |  **After the column is resized to its best fit, it is as wide as its widest cell content without wrapping.**  |
 | ------ | ------ |
-|![before resize to fit](images/grd_resizeToFit1.png)|
- ![after resize to fit](images/grd_resizeToFit2.png)|
+|![before resize to fit](images/grd_resizeToFit1.png)|![after resize to fit](images/grd_resizeToFit2.png)|
 
-## Example
+
+## Resize next column 
+
+Since Q3 2015 **RadGrid** includes next column resize mode. To enable it you need to set the **EnableNextColumnResize** property to **true**. When this mode is enabled only the width of the currently resized column and the one after it will be changed. The rest of the columns in **RadGrid** will not be resized.
+
+The following images show the columns before and after resizing with **EnableNextColumnResize** enabled.
+
+
+| Before | After |
+| ------ | ------ |
+|![before resize](images/grd_ResizeNextColumnStart.png)|![after resize](images/grd_ResizeNextColumnEnd.png)|
+
+
+## Configuring resizing modes
 
 You can set the resizing-related properties declaratively at design time:
 
