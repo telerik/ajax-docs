@@ -12,7 +12,9 @@ position: 0
 
 ##  
 
-**Telerik Theme Builder** for ASP.NET AJAX is a web application that comes with the ability to create new or customize existing themes for Telerik UI controls with Lightweight rendering. Just with a few clicks you can create your own custom theme with the same look and feel for all controls in the suite. The tool gives you complete control over the elements of the control’s skin along with access to its composite controls.  Once the skin is created and the new Theme looks as you expected in the Preview pane you can download it with one click and integrate it in your project.  
+**Telerik Theme Builder** for ASP.NET AJAX is a web application that comes with the ability to create new or customize existing themes for Telerik UI controls with **Lightweight** rendering. It can be found at [http://themebuilder.telerik.com/](http://themebuilder.telerik.com/).
+
+Just with a few clicks you can create your own custom theme with the same look and feel for all controls in the suite. The tool gives you complete control over the elements of the control’s skin along with access to its composite controls.  Once the skin is created and the new Theme looks as you expected in the Preview pane you can download it with one click and integrate it in your project.  
 
 ![Theme Builder Overview](images/theme-builder-overview.png)
 
