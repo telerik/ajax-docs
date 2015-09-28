@@ -24,7 +24,7 @@ Using the Content Delivery Network has a number of advantages:
 
 * **Reduced hosting expenses** – we host the resources for you so you can pay less
 
->note Note that the[RadScriptManager]({%slug scriptmanager/overview%}) does **NOT** combine the web resources needed for the Telerik controls in a single request when the **CDN** is enabled.
+>note Note that the [RadScriptManager]({%slug scriptmanager/overview%}) does **NOT** combine the web resources needed for the Telerik controls in a single request when the **CDN** is enabled.
 >
 
 
