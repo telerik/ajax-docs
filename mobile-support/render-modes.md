@@ -50,6 +50,7 @@ Some controls from the UI for ASP.NET AJAX suite	can produce different (usually 
 |Notification|[Yes (render mode)]({%slug notification/mobile-support/render-modes%})|-|
 |OrgChart|[Yes (render mode)]({%slug orgchart/mobile-support/render-modes%})|-|
 |PanelBar|Yes (render mode)|-|
+|PivotGrid|[Yes (render mode)]({%slug pivotgrid/mobile-support/render-modes%})|-|
 |ProgressArea|-|-|
 |ProgressBar|Yes (by design)|-|
 |Rating|[Yes (render mode)]({%slug rating/mobile-support/render-modes%})|-|
