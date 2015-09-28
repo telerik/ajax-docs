@@ -312,6 +312,9 @@ navigation:
     "controls/spreadprocessing":
         title: "SpreadProcessing"
         position: 1
+    "controls/spreadsheet":
+        title: "Spreadsheet"
+        position: 1
     "controls/stylesheetmanager":
         title: "StyleSheet Manager"
         position: 1
@@ -1286,6 +1289,15 @@ navigation:
     "*spreadprocessing/features/styling":
         title: Styling
         position: 3	
+    "*spreadsheet/structure":
+        title: "Structure"
+        position: 1
+    "*spreadsheet/data-binding":
+        title: "Data Binding"
+        position: 2
+    "*spreadsheet/data-binding/providers":
+        title: "Providers"
+        position: 1
     "*stylesheetmanager/cdn-support":
         title: CDN Support
         position: 1			
