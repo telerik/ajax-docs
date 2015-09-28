@@ -22,9 +22,9 @@ The **Apply CSS Class** dropdown of **RadEditor** displays all classes defined i
 
 >note As of **Q3 2015**, **Apply CSS Class** can apply classes to block elements. To instruct the tool to do so, you should add a CSS rule with a selector of this type—`[tag].[classname]`. For example, `p.red-background`. 
 
-In the **RadEditor** declaration, add **EditorCssClass** elements to **CssClasses**. In the example below all three CSS classes are listed along with a "Clear Class" entry. If the **CssClasses** tag is empty all available classes will be listed.
+In the **RadEditor** declaration, add **EditorCssClass** elements to **CssClasses**. In the example below, all three CSS classes are listed along with a "Clear Class" entry. If the **CssClasses** tag is empty, all available classes will be listed.
 
->important If your page does not contain any css classes and you try set an item in the dropdown with the CssClasses.Add syntax, e.g.
+>important If your page does not contain any css classes and you try set an item in the dropdown with the CssClasses.Add syntax, for example:
 >
 >`RadEditor1.CssClasses.Add("Links class ", "a.link")`
 >
@@ -90,7 +90,7 @@ RadEditor1.CssClasses.Add("Links Class", "a.link")
 RadEditor1.CssClasses.Add("Images Class", ".img")
 ````
 
->caution Make sure you specify the exact name of the class (i.e. " **a.link** " - not "a" or "link"; " **.img** " - not "img").
+>caution Make sure you specify the exact name of the class (i.e., " **a.link** " - not "a" or "link"; " **.img** " - not "img").
 
 Using the **Add()** method resets the CssClasses dropdown, so the CssClasses you add will not be appended to the default set, but will rather create a new CssClasses set. If the CssClasses collection is left empty, all available classes will be listed.
 
@@ -120,7 +120,7 @@ You can also populate the CSS class dropdown using the **ToolsFile**, as shown i
 </root>			
 ````
 
->note Bear in mind that **RadEditor** will persist its state (including the CSS classes set) between post backs. In order to create a new set of CSS classes (e.g. for different users), you will need to clear it first. This can be done using **Remove()** and **Clear()** methods of **CssClasses** collection.
+>note Bear in mind that **RadEditor** will persist its state (including the CSS classes set) between post backs. In order to create a new set of CSS classes (e.g. for different users), you will need to clear it first. This can be done using **Remove()** and **Clear()** methods of the **CssClasses** collection.
 
 ## See Also
 
