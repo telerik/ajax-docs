@@ -12,19 +12,17 @@ position: 2
 
 
 
-**RadPivotGrid** has three different render modes that can change the actual HTML markup that is rendered.Those render modes are exposed via the **RenderMode** property that accepts the following values -**Classic**, **Mobile**, **Lightweight** and **Auto**.
+**RadPivotGrid** has three different render modes that can change the actual HTML markup that is rendered. Those render modes are exposed via the **RenderMode** property that accepts the following values -**Classic**, **Mobile**, **Lightweight** and **Auto**.
 
 The possible options are:
 
 * **Classic** — this mode is the rendering that has been used before.It remains without changes and it is the default value of the property.	In this mode tables and background images (in several sprites) are used to create	the layout (including rounded corners and shadows).
 
-* **Lightweight** — this mode is supported since **Q1 2015 version** andemphasizes on semantic HTML and CSS3. It reduces the amount of markup the control renders	and makes it easier to customize. This also reduces the number of image sprites required by the control and the other controlsfrom the suite it uses. In addition, all table elements are removed from the layout of the control.	All of this decreases the overall size and complexity of each skin, including custom ones.
-
-* **Mobile** — this mode is supported since **Q3 2014 Beta** release	and with it, the control will change to create a user experience tailored to the device screen size.In this mode, **RadPivotGrid** is mobile-friendly and its touch zones are bigger and easier to select.
+* **Lightweight** — this mode is supported since **Q3 2015 version** andemphasizes on semantic HTML and CSS3. It reduces the amount of markup the control renders	and makes it easier to customize. This also reduces the number of image sprites required by the control and the other controlsfrom the suite it uses. In addition, all table elements are removed from the layout of the control.	All of this decreases the overall size and complexity of each skin, including custom ones.
 
 * **Auto** — this option will automatically decide how to render the control on a smartphone, tablet or PC and will switch	between **Classic** and **Mobile** render modes (depending on the used device).
 
->important RadPivotGrid and its child controls, as well as the other controls included in the	Telerik UI for ASP.NET AJAX suite that utilize render modes, support only one type of render mode per page.All such controls must have the same RenderMode on a given page.This also includes instances from user controls and master pages.
+>important RadPivotGrid and its child controls, as well as the other controls included in the Telerik UI for ASP.NET AJAX suite that utilize render modes, support only one type of render mode per page. All such controls must have the same RenderMode on a given page. This also includes instances from user controls and master pages.
 >
 
 
