@@ -43,6 +43,7 @@ Following are tables of the most important properties and events you should be a
 | **DefaultGroupOperation** |The default GroupOperation that will be set when a new RadFilterGroupExpressionItem is created.|
 | **SharedCalendar** |Gets the RadCalendar instance that will be used for all pickers in the current RadFilter instance.|
 | **OperationMode** |Gets or sets the operation mode of the RadFilter control.|
+| **UseBetweenValidation** |Enables or disables the validation when between filter expression is used. Validation should work for numeric field editors (all types - int, double, etc) and date field editors. For the latter case, only the DatePicker and DateTimePicker types are supported. TimePicker and None would not be validated.|
 
 ## Methods
 

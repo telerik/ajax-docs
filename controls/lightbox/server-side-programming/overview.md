@@ -58,6 +58,8 @@ position: 0
 | **ClientSettings-AnimationSettings-NextAnimationSettings**| **Easing** - Gets or sets the easing function. **Speed** - Gets or sets the period of time(in miliseconds) in which the animation will be performed.|
 | **ClientSettings-AnimationSettings-PrevAnimationSettings**| **Easing** - Gets or sets the easing function. **Speed** - Gets or sets the period of time(in miliseconds) in which the animation will be performed.|
 | **ClientSettings-AnimationSettings-ShowAnimationSettings**| **Easing** - Gets or sets the easing function. **Speed** - Gets or sets the period of time(in miliseconds) in which the animation will be performed.|
+| **ClientSettings-FullscreenMode-Emulation**| This mode is an emulation of fullscreen and it's the default value.|
+| **ClientSettings-FullscreenMode-Native**| This mode uses the HTML 5 fullscreen capability.|
 | **Items**| Static collection containing a list of images|
 | **Items-Title**| The title text of the item|
 | **Items-Description**|The image description of the item|
