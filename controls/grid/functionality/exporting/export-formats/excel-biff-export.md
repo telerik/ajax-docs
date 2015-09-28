@@ -134,6 +134,17 @@ Dim cell2 As xls.Cell = e.ExportStructure.Tables(0).Cells(3, 3)
 cell2.Style.ForeColor = Color.Tomato
 ````
 
+## Default Cell Alignment
+
+You can specify a default alignment to all cells by using **DefaultCellAlignment**. This property is supported since **Q2 2015** and its default value is NotSet. Typical values include **Left**, **Right** and **Center**.
+
+````ASP.NET    
+<ExportSettings>
+    <Excel DefaultCellAlignment="Center" />
+</ExportSettings>
+````
+
+Additionally you can change the default alignment on **OnInfrastructureExporting** event.
 
 ## Image Support
 
