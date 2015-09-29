@@ -65,7 +65,7 @@ A control can hardly be considered responsive by itself, because this heavily de
 |OrgChart|Yes|N/A|N/A|N/A|
 |PanelBar|Yes|Yes|N/A|N/A|
 |Persistence Framework|N/A|N/A|N/A|N/A|
-|PivotGrid|No|Yes|No|No|
+|PivotGrid|[Yes]({%slug pivotgrid/mobile-support/fluid-and-elastic-capabilities%})|[Yes]({%slug pivotgrid/mobile-support/fluid-and-elastic-capabilities%})|No|No|
 |Progress Area|No|No|No|No|
 |Progress Bar|[Yes]({%slug progressbar/mobile-support/elastic-design%})|[Yes]({%slug progressbar/mobile-support/fluid-design%})|[Yes]({%slug progressbar/mobile-support/elastic-design%})|No|
 |Rating|[Yes]({%slug rating/mobile-support/elastic-design%})|No|No|N/A|
@@ -126,6 +126,8 @@ A control can hardly be considered responsive by itself, because this heavily de
 /* Menu */ html .RadMenu,
 /* Notification */ html .RadNotification,
 /* PanelBar */ html .RadPanelBar,
+/^ PivotGrid */ html .RadPivotGrid,
+				html .PivotGridWindow,
 /* ProgressBar */ html .RadProgressBar,
 /* Rating */ html .RadRating,
 /* Rotator */ html .RadRotator,
