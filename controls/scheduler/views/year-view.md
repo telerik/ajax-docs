@@ -29,10 +29,13 @@ In addition to that, this view provides a Tooltip functionality, which allows yo
 
 **Year View** provides support for Resource grouping namely:
 
-* No groping (Basic look)![scheduler-views-dayview-nogrouping](images/scheduler-views-dayview-nogrouping.png)
+* No groping (Basic look)
+<!--![scheduler-views-yearviewnogrouping.png](images/scheduler-views-yearviewnogrouping.png)-->
 
-* Grouped by Resource (**Horizontal**)![scheduler-views-monthview-horizontalgroupingbyresource](images/scheduler-views-monthview-horizontalgroupingbyresource.png)
+* Grouped by Resource (**Horizontal**)
+<!--![scheduler-views-monthview-horizontalgroupingbyresource](images/scheduler-views-monthview-horizontalgroupingbyresource.png)-->
 
-* Grouped by Resource (**Vertical**)![scheduler-views-yearview-verticalresources.png](images/scheduler-views-yearview-verticalresources.png)
+* Grouped by Resource (**Vertical**)
+<!--![scheduler-views-yearview-verticalresources.png](images/scheduler-views-yearview-verticalresources.png)-->
 
 
