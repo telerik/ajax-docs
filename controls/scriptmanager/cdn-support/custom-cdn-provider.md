@@ -117,7 +117,7 @@ Now the HTML output of the scripts tag will be like this:
 <script src="http://my.favorite.cdn/ajaxz/2015.2.826/ListBox/RadListBoxScripts.js" type="text/javascript"></script>
 ````
 
->note If you are using non-IIS Server configuration might be different.
+>note If you are using non-IIS CDN hosting service configuration might be different.
 
 # See Also
 
