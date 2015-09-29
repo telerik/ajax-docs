@@ -16,7 +16,7 @@ position: 6
 
 Apart from the default filtering that RadGrid supports, since Q3 2013 there is a support for filtering based on multiple selected values from a list. In order to enable this type of filtering you should set the **FilterType** property of RadGrid to either **CheckList** or **Combined**.
 
->note Note that the **CheckList filtering** functionality works properly only for filterable type of columns or in other words such that implements the **IGridDataColumn** interface.In short the functionality columns ( **Expand** , **RowIndicator** , **Button** , **EditCommand** , **DragDrop** , and **Splitter** ) are not implementing this interface; therefore they could not be filtered.
+>note Note that the **CheckList filtering** functionality works properly only for filterable type of columns or in other words such that implements the **IGridDataColumn** interface. In short the functionality columns ( **Expand** , **RowIndicator** , **Button** , **EditCommand** , **DragDrop** , and **Splitter** ) are not implementing this interface; therefore they could not be filtered.
 >
 
 
@@ -26,13 +26,13 @@ In this mode when you click the filter menu icon a ListBox control with predefin
 
 When you set the **FilterType** property to **Combined** mode the best from both worlds is available:
 
->note Please note that filtering functionality is not supported when using simple	databinding(calling DataBind() method of RadGrid).
+>note Please note that filtering functionality is not supported when using simple databinding (calling DataBind() method of RadGrid).
 >
 
 
-To specify what values will be displayed in the ListBox control you need to define its	datasource. You could implement this using two approaches:
+To specify what values will be displayed in the ListBox control you need to define its DataSource. For that you can use one of the following approaches:
 
-1. Using the newly exposed **RadGrid1_FilterCheckListItemsRequested** event. This way the ListBox control rendered in the filter template will be automatically populated. (See Example 1)
+1. Using the **RadGrid1_FilterCheckListItemsRequested** event. This way the ListBox control rendered in the filter template will be automatically populated. (See Example 1)
 
 	**Example 1**
 
@@ -137,7 +137,9 @@ To specify what values will be displayed in the ListBox control you need to defi
 		End Function
 
 
-2. By providing a path to a **web service** which will provide the data.You specify the path using the **CheckListWebServicePath** property of RadGrid.	Beside that you may need to set the name of the method that will provide the actual data	to the ListBox control using the **FilterCheckListWebServiceMethod** property if	you have more than one method defined in your web service.(See Ex.2)**Ex.2**
+2. By providing a path to a **Web Service** which will provide the data. You specify the path using the **CheckListWebServicePath** property of RadGrid. Beside that you may need to set the name of the method that will provide the actual data to the ListBox control using the **FilterCheckListWebServiceMethod** property if	you have more than one method defined in your web service. (See Example 2)
+
+	**Example 2**
 
 
 
@@ -491,5 +493,22 @@ To specify what values will be displayed in the ListBox control you need to defi
 		End Class
 
 
+## Excel-like filtering
+
+
+An Excel-like filtering is available for RadGrid since Q3 2015. This filtering mode provides look and feel that resembles the filter in Excel. To enable this mode you should set the **FilterType** property of RadGrid to **HeaderContext** and turn on the header context menu (**EnableHeaderContextFilterMenu="true"**).
+
+>note If you are using **client-side binding** the header context menu must be disabled (**EnableHeaderContextFilterMenu="false"**).
+>
+
+![grid-excellike-filtering-1](images/grid-excellike-filtering-1.png)
+
+As with checklist filtering there will be a ListBox that displays the available values. You need to provide DataSource for the ListBox. You can use any of the data binding approaches described above. When the ListBox is data bound there will be a TextBox displayed above it that can be used to filter the items displayed in the ListBox.
+
+
+
+## See Also
+
+ * [CheckList Filetering demo](http://demos.telerik.com/aspnet-ajax/grid/examples/functionality/filtering/basic-filtering/defaultcs.aspx)
 
 
