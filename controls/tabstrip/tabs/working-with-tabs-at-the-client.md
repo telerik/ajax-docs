@@ -1,14 +1,14 @@
 ---
-title: Working With Tabs at thr Client
-page_title: Working With Tabs at thr Client | RadTabStrip for ASP.NET AJAX Documentation
-description: Working With Tabs at thr Client
-slug: tabstrip/tabs/working-with-tabs-at-thr-client
-tags: working,with,tabs,at,thr,client
+title: Working With Tabs at the Client
+page_title: Working With Tabs at the Client | RadTabStrip for ASP.NET AJAX Documentation
+description: Working With Tabs at the Client
+slug: tabstrip/tabs/working-with-tabs-at-the-client
+tags: working,with,tabs,at,the,client
 published: True
 position: 6
 ---
 
-# Working With Tabs at thr Client
+# Working With Tabs at the Client
 
 **RadTabStrip** provides a client-side API for adding, deleting and disabling tabs. By using the **trackChanges** and **commitChanges** methods of the client-side **RadTabStrip** object, these changes can persist after a postback.
 
