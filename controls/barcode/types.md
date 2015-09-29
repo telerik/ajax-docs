@@ -110,3 +110,15 @@ A two digit UPC supplementary code. This barcode should only be used with magazi
 
 A five digit UPC supplementary code. This barcode is used on books to indicate a suggested retail price.
 ![barcode upcsupplement 5](images/barcode_upcsupplement5.png)
+
+## PDF417
+
+This standard works in both EmbeddedPNG and SVG_VML output types and behaves similar to the other barcode standards. Additionally there are 3 more settings to configure:
+
+1.AspectRatio - Integer - Specify the ratio between width and height of the lines. Should be at least 3, to be valid for most scanners.
+2.EncodingMode - Enum - (Auto, Byte, Text, Numeric) - By default is Byte, and specify the encoding mode according to the PDF417 standards.
+3.ErrorCorrectionLevel - Integer.
+
+
+![barcode upcsupplement 5](images/barcode_PDF417.png)
+
