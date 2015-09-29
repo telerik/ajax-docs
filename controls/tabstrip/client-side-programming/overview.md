@@ -146,4 +146,4 @@ function addNewTab()
 
  * [RadTab Object]({%slug tabstrip/client-side-programming/radtab-object%})
 
- * [Working With Tabs at thr Client]({%slug tabstrip/tabs/working-with-tabs-at-thr-client%})
+ * [Working With Tabs at the Client]({%slug tabstrip/tabs/working-with-tabs-at-thr-client%})
