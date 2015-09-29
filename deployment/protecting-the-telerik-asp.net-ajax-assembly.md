@@ -116,6 +116,4 @@ The UI for ASP.NET AJAX suite comes with a number of assemblies that provide doc
 
 ## See Also
 
-* [Distributing Telerik UI Assemblies]({%slug introduction/deployment/distributing-telerik-assemblies%})
-
 * [Included Assemblies]({%slug introduction/installation/included-assemblies%})

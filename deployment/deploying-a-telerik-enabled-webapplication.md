@@ -27,6 +27,3 @@ To ensure a successful deployment, you need to check the following items:
 * Make sure that the MS AJAX extensions are installed on the production server. You can find more information about them at [http://www.asp.net/AJAX/Documentation/Live/InstallingASPNETAJAX.aspx](http://www.asp.net/AJAX/Documentation/Live/InstallingASPNETAJAX.aspx).
 
 
-## See Also
-
-* [Distributing Telerik UI Assemblies]({%slug introduction/deployment/distributing-telerik-assemblies%})
