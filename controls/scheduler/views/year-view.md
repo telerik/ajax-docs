@@ -29,7 +29,7 @@ In addition to that, this view provides a Tooltip functionality, which allows yo
 
 **Year View** provides support for Resource grouping namely:
 
-* No groping (Basic look)
+* No Grouping (Basic look)
 <!--![scheduler-views-yearviewnogrouping.png](images/scheduler-views-yearviewnogrouping.png)-->
 
 * Grouped by Resource (**Horizontal**)
