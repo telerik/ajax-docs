@@ -36,16 +36,16 @@ The example below demonstrates how to obtain the RadEditor's content as plain te
 </telerik:RadEditor>
 <input type="button" value="Get Plain Text" onclick="GetHtmlSelection()" />
 <script type="text/javascript">
-	function GetHtmlSelection()
-	{
-		var editor = $find("<%=RadEditor1.ClientID%>"); //get a reference to RadEditor client object
-		var oSelElem = editor.get_text(); //get the editor content as plain text
+	function GetHtmlSelection() {
+		var editor = $find("<%= RadEditor1.ClientID %>"); //get a reference to RadEditor client object
 		// Configure the needed options for the stripping behavior
 		var options = {
-			trimText: true, // Removes all leading and trailing white-space characters. 
-			removeMultipleSpaces: true //Merges all white-space characters. 
+		    trimText: true, // Removes all leading and trailing white-space characters. 
+		    removeMultipleSpaces: true //Merges all white-space characters. 
 		}
-
+		
+		var oSelElem = editor.get_text(options); //get the editor content as plain text
+		
 		alert(oSelElem); //alert the plain text content
 	}
 </script>
