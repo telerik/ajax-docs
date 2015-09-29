@@ -304,7 +304,7 @@ Protected Sub RadGrid1_PreRender(sender As Object, e As EventArgs)
 End Sub
 ````
 
-Further details and examples can be found in the relevant [Batch editing article]({%slug grid/data-editing/edit-mode/batch-editing%}).
+Further details and examples can be found in the relevant [Batch editing article]({%slug grid/data-editing/edit-mode/batch-editing/overview%}).
 
 
 ## Accessing Cells and Values in Client-Side Code
