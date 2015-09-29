@@ -33,12 +33,16 @@ For a live example demonstrating the frozen columns feature, see [Frozen columns
 As an alternative to the horizontal scroll, **RadGrid** also provides **Next** and **Prev** buttons for the user to navigate through the columns with single clicks or tapping.
 ![Frozen columns 1](images/grid_frozenColumns_1.PNG)
 
-The buttons are contained in the **GridCommandItem**, which needs to be enabled explicitly in the corresponding GridTableView settings.
+To enable the button mode, you need to set the **EnableNextPrevFrozenColumns** property to true. The buttons are contained in the **GridCommandItem**, which needs to be enabled explicitly in the corresponding GridTableView settings. 
 ````ASP.NET
+<ClientSettings>
+    <Scrolling AllowScroll="true" UseStaticHeaders="true"
+        FrozenColumnsCount="1" EnableNextPrevFrozenColumns="true" />
+</ClientSettings>
 <MasterTableView CommandItemDisplay="Top">
 ````
 
-##Frozen columns with Grouping
+## Frozen columns with Grouping
 
 When grouping is enabled in grid with frozen columns the first **GridGroupSplitterColumn** is counted as frozen. With Q3 2015 release a new **ClientSettings.Scrolling.CountGroupSplitterColumnAsFrozen** property is added which gives you the opportunity to count the GridGroupSplitterColumn or not. The default value of the property is **true**, which means the old behavior is preserved. If you want to exclude GridGroupSplitterColumn from FrozenColumns count you need to set this property to **false** as shown below:
 
