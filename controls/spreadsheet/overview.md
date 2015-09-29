@@ -17,16 +17,17 @@ position: 0
 
 * Work with MS Excel files (.xlsx)
 
-* Create, Delete and reorder Worksheets
+* Create, delete and reorder Worksheets
 
 * Set custom styles to cells, rows, columns or regions
 
-* Insert and delete rows and columns
+* Resize rows and columns
 
 * Merge cells
 
+* Intuitive Column, Row and Cell Selection
+
 * Use different data formats (currency, percent etc.)
 
-* Define frozen rows and columns
 
 **Figure 1**: ![spreadsheet-overview](images/spreadsheet-overview.png)
