@@ -31,8 +31,8 @@ For the purpose of exemplifying this, you will need to create an empty Web.UI Ap
 1. Add the **RadDataForm** as demonstrated below:
 
 ````ASPNET
-<telerik:raddataform runat="server" id="RadDataForm1">
-</telerik:raddataform>
+<telerik:RadDataForm runat="server" id="RadDataForm1">
+</telerik:RadDataForm>
 ````
 
 
@@ -77,8 +77,8 @@ Once data table is defined, you may use it to bind it to the **RadDataForm** thr
 
 
 ````ASPNET
-<telerik:raddataform runat="server" id="RadDataForm1" onneeddatasource="RadDataForm1_NeedDataSource">
-</telerik:raddataform>
+<telerik:RadDataForm runat="server" id="RadDataForm1" OnNeedDataSource="RadDataForm1_NeedDataSource">
+</telerik:RadDataForm>
 ````
 ````C#	
 public DataTable GetDataTable()
@@ -121,7 +121,7 @@ End Sub
 After applying the **DataSource** you can add the required templates in the **DataForm** markup:
 
 ````ASPNET
-<telerik:raddataform runat="server" id="RadDataForm1" onneeddatasource="RadDataForm1_NeedDataSource" skin="Glow">
+<telerik:RadDataForm runat="server" id="RadDataForm1" OnNeedDataSource="RadDataForm1_NeedDataSource" Skin="Glow">
     <LayoutTemplate>
         <div >
             <div id="itemPlaceholder" runat="server"></div>
@@ -155,7 +155,7 @@ After applying the **DataSource** you can add the required templates in the **Da
             </div>
         </fieldset>
     </ItemTemplate>
-</telerik:raddataform>
+</telerik:RadDataForm>
 ````
 
 
@@ -182,8 +182,8 @@ In order to populate the **DataForm** control, follow the steps below:
 The provided steps will lead to a markup similar to this:
 
 ````ASPNET
-<telerik:raddataform runat="server" insertitemposition="FirstItem" id="RadDataForm1" datasourceid="SqlDataSource1"
-    datakeynames="EmployeeID" datasourcecount="0" resolvedrendermode="Classic">
+<telerik:RadDataForm runat="server" InsertItemPosition="FirstItem" id="RadDataForm1" DataSourceId="SqlDataSource1"
+    DataKeyNames="EmployeeID" DataSourceCount="0" ResolvedRenderMode="Classic">
 
     <LayoutTemplate>
         <div class="RadDataForm RadDataForm_<%# Container.Skin %> rdfLeftAligned rdfNoFieldHint">
@@ -238,7 +238,7 @@ The provided steps will lead to a markup similar to this:
             </div>
         </fieldset>
       </ItemTemplate>
-</telerik:raddataform>
+</telerik:RadDataForm>
 
 <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:TelerikConnectionString35 %>"
     SelectCommand="SELECT [EmployeeID], [LastName], [FirstName], [HireDate], [Country], [HomePhone] FROM [Employees_Northwind]"></asp:SqlDataSource>
