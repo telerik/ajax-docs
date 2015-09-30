@@ -146,7 +146,7 @@ Here are quick links to the control-specific sections of our documentation:
 
 * [SpreadProcessing]({%slug radspreadprocessing-overview%})
 
-* [Spreadsheet]({%slug spreadsheet-overview%})
+* [Spreadsheet]({%slug spreadsheet/overview%})
 
 * [StyleSheetManager]({%slug stylesheetmanager/overview%})
 
