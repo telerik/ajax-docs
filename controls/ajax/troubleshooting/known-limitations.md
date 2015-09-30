@@ -72,7 +72,10 @@ You can work around this limitation by adding a control to be updated. For examp
 
 6. **Various controls not supported by the Microsoft AJAX framework** You can find a full list of controls that are not compatible with **RadAjax for ASP.NET AJAX**[here]({%slug ajax/how-to/incompatible-controls-and-updating-3rd-party-controls-with-telerik-radajax%}).
 
-7. **AJAX requests may not work in all scenarios when setting the RestoreOriginalRenderDelegate property to false or inheriting from RadAjaxPage (to support Medium trust in DNN/SharePoint)** Please be aware of this fact when configuring **RadAjaxManager** or **RadAjaxPanel** for your particular project schema.
+7. **AJAX requests may not work in all scenarios when setting the RestoreOriginalRenderDelegate property to false or inheriting from RadAjaxPage (to support Medium trust in DNN/SharePoint).** Please be aware of this fact when configuring **RadAjaxManager** or **RadAjaxPanel** for your particular project schema.
+
+8. **Client-side validation does not execute when Medium Trust is used and validators are added dynamically during Ajax call.** 
+When Medium Trust level is used we cannot use reflection in order to set private properties. However when validators are used in a template placed in AjaxPanel the validators' _parent private property needs to be set to the updated panel with reflection. This is required in order all validators to be rendered as expected. Therefore in such scenarios to make validators work as expected **asp:UpdatePanel** should be used instead of RadAjaxPanel or RadAjaxManager.
 
 ## See Also
 
