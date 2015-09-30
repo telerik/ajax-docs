@@ -129,6 +129,8 @@ On rare occasions, the `designer.cs`/`designer.vb` files may not be updated when
 * Try deleting your local copy of the project and get it anew from your source control.
 
 * Try deleting the contents of the `license.licx` file or the entire file so Visual Studio can generate it again.
+ 
+* Try deleting the *.suo file of the solution
 
 * Try uninstalling the Telerik Visual Studio Extensions.
 
