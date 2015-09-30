@@ -24,7 +24,7 @@ The possible options are:
 
 >important RadImageEditor, as well as the other controls included in the Telerik UI for ASP.NET AJAX suite that utilize render modes, support only one type of render mode per page. All such controls must have the same RenderMode on a given page.	This also includes instances from user controls and master pages.
 
->note RadImageEditor uses internally RadToolBar, RadDock, RadButton, RadComboBox, RadColorPicker, RadSlider, RadDropDownList and they inherit its RenderMode.
+>note RadImageEditor uses internally RadToolBar, RadDock, RadButton, RadComboBox, RadColorPicker, RadSlider, RadDropDownList, RadFormDecorator and they inherit its RenderMode.
 
 ## Setting Render Mode
 
