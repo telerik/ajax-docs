@@ -18,7 +18,7 @@ Each of the controls included in the Telerik UI for ASP.NET AJAX suite is styled
 
 The second file represents the actual skin of the control, and its name consists of the control name plus the skin name, i.e - **ImageEditor.Default.css**. Upon creating a custom skin for the control, one should edit that particular file, as it contains skin-specific CSS properties, and references to images, colors, borders and backgrounds.
 
-**RadImageEditor**, however, consists of several controls and it is necessary to skin them also to achieve compatible look and feel. These controls are: **RadToolBar**, **RadButton**, **RadComboBox**, **RadDock**, **RadFormDecorator**.
+**RadImageEditor**, however, consists of several controls and it is necessary to skin them also to achieve compatible look and feel. These controls are: **RadToolBar**, **RadButton**, **RadComboBox**, **RadColorPicker**, **RadDock**, **RadFormDecorator**, **RadSlider**, **RadDropDownList**.
 
 ## Creating a Custom Skin for RadImageEditor for ASP.NET AJAX from an Existing One
 
