@@ -44,9 +44,9 @@ Depending on the **IsMilestone** and **IsSummary** properties, the **Task** can 
 
 * **Regular Task** - regular task which can have assigned resources, links to predecessors, start date, end date,duration and percentage of completion.
 
-* **Summary** - a grouping of child tasks. The **Summary** has a **Start** and **End** determined by the earliest **Start** and latest **End** of its child tasks. The percentage of completion is calculatedbased on the percentage of each child task. The **Summary** does not have links to predecessors, and can not be referenced as such by other tasks.
+* **Summary** - a grouping of child tasks. The **Summary** has a **Start** and **End** determined by the earliest **Start** and latest **End** of its child tasks. The percentage of completion is calculated based on the percentage of each child task. The **Summary** does not have links to predecessors, and can not be referenced as such by other tasks.
 
-* **Mileston** - a regular task with zero duration.
+* **Milestone** - a regular task with zero duration.
 
 # See Also
 
