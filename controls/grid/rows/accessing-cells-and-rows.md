@@ -114,6 +114,17 @@ Dim footerItem As GridFooterItem = CType(RadGrid1.MasterTableView.GetItems(GridI
 'fetch the data with footerItem("ColumnUniqueName").Text
 ````
 
+With the Q3 2015 release GridTableView exposes a new server-side GetHeaderCellByColumnUniqueName method which receives as a parameter a string(the column unique name) and return s GridTableHeaderCell object. The idea for creating such a method is to allow developers to more easily access the column header cells when mulit-column headers are used(you can also use the method in cases when column groups are not present). Additionally the GridTableHeaderCell object now has a ParentHeaderCell property which returns a reference to the parent GridTableHeaderCell. 
+This new addition will allow users to more easily access the parent header cells if some modifications are to be performed. An example use of the new method can be seen below: 
+
+````C#
+GridTableHeaderCell cell = RadGrid1.MasterTableView.GetHeaderCellByColumnUniqueName("ContactName");
+````
+
+````VB
+Dim cell As ridTableHeaderCell = RadGrid1.MasterTableView.GetHeaderCellByColumnUniqueName("ContactName")
+````
+
 ## Accessing Raw Field Data and Key Values
 
 Accessing the cell value via the **cell.Text** approach demonstrated in the previous section works for the majority of the scenarios. However, in some cases, the Text of the cell is modified, e.g. when using the **DataFormatString** property of the column, therefore, the obtained value would not be the same as in the database. For instance, it is a common practice to display numeric values as Currency and it may turn out a troublesome task to parse the string text back to its original numeric form.
