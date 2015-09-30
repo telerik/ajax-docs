@@ -22,7 +22,7 @@ When setting up several detail tables at the same level:
 
 1. For each detail table, add **GridRelationFields** objects to the **ParentTableRelation** property collection for each field needed to link the tables.
 
-* Set the **DataKeyField** to the key field in the detail table that must match a field in the parent table. When using declarative data sources, this field must be specified by a parameter of the SELECT statement for the data source of the detail table.
+* Set the **DetailKeyField** to the key field in the detail table that must match a field in the parent table. When using declarative data sources, this field must be specified by a parameter of the SELECT statement for the data source of the detail table.
 
 * Set the **MasterKeyField** to the matching field in the parent table. This field must be listed in the **DataKeyNames** property of the parent table.
 
