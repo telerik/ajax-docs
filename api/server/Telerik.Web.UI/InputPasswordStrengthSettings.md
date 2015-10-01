@@ -86,3 +86,11 @@ Set ID of the element wtich to style and show the text. Leave this empty and suc
 
 Set Width of the indicator
 
+## Methods
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
+

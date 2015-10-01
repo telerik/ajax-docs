@@ -439,12 +439,6 @@ This property is overridden in order to support controls which implement INaming
 
 `System.Void` 
 
-###  GetValueFromViewState
-
-#### Returns
-
-`System.Object` 
-
 ###  CreateControlStyle
 
 #### Returns
@@ -658,4 +652,10 @@ Executed when post data changes should invoke a changed event
 #### Returns
 
 `System.Void` 
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
 

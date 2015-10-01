@@ -74,3 +74,15 @@ To enable static columns, set the ClientSettings.Scrolling.FrozenColumnsCount pr
             scroll when the of the user scrolls the grid horizontally, using the horizontal scroll bar. This feature is 
             functional even when in hierarchical grids and grids that support grouping.
 
+###  CountGroupSplitterColumnAsFrozen `Boolean`
+
+Gets or sets a value indicating if the  will be part of the frozen columns count in grid
+
+## Methods
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
+

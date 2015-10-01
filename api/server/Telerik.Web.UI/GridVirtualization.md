@@ -56,3 +56,11 @@ Gets or sets a value determining how many items at maximum should be cached on t
 Gets or sets the ID of the  that you want to show when waiting for data to be loaded in the grid.
             By default the  will not show any loading panel during requests.
 
+## Methods
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
+

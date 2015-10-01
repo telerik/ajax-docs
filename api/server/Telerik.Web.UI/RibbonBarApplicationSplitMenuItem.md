@@ -69,10 +69,6 @@ Gets or sets the command name associated with the MenuItem that is passed to the
 
 Gets or sets an optional parameter passed to the Command event along with the associated CommandName.
 
-###  SupportsDisabledAttribute `Boolean`
-
-For internal use.
-
 ## Methods
 
 ###  OnPreRender

@@ -34,6 +34,10 @@ Gets the  used for all menus in the  control.
 
 Get / set Apply button text
 
+###  UseBetweenValidation `Boolean`
+
+When this property is enabled, the control will use client-side validation to ensure whether the value of the second input control is greater than the one in the first control and vice versa. Default value is false.
+
 ###  OperationMode `RadFilterOperationMode`
 
 Gets or sets the operation mode of the  control
@@ -795,4 +799,10 @@ Executed when post data changes should invoke a changed event
 #### Returns
 
 `System.Void` 
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
 

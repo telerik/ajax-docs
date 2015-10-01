@@ -18,6 +18,8 @@ Telerik File Explorer control
 
 ## Properties
 
+###  SupportsRenderingMode `Boolean`
+
 ###  ExplorerMode `FileExplorerMode`
 
 Gets or sets the current FileExplorerMode (e.g. default, show files in the tree, etc.)
@@ -433,6 +435,20 @@ The node to be populated
 
 `System.Void` 
 
+###  UpdateTreeNodeContainer
+
+Necessary applying of the Item Container for a TreeNode items, because in scenarios with failing ViewState, the expanded node does not have a TreeView. As a result child nodes are not rendered correctly because their Template is not resolved on time for the DataBind call.
+
+#### Parameters
+
+#### node `Telerik.Web.UI.RadTreeNode`
+
+The node that should have its ItemContainer updated
+
+#### Returns
+
+`System.Void` 
+
 ###  CopyOrMoveTreeNode
 
 This method is used in OnNodeEdit handler
@@ -775,4 +791,10 @@ Executed when post data changes should invoke a changed event
 #### Returns
 
 `System.Void` 
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
 

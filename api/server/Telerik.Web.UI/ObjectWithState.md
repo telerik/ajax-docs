@@ -11,3 +11,11 @@ description: Telerik.Web.UI.ObjectWithState
 * System.Object
 * Telerik.Web.UI.ObjectWithState
 
+## Methods
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
+

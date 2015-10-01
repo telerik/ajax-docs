@@ -141,6 +141,10 @@ Gets or sets a value indicating whether the automatic paging feature is
 Gets the number of pages required to display the records of the data
             source in a control.
 
+###  ClientExpandedIndexes `TreeListExpandedIndexesCollection`
+
+Gets a collection containing the indexes of all rendered items which will be expanded on the client.
+
 ###  ExpandedIndexes `TreeListExpandedIndexesCollection`
 
 Gets a collection containing the indexes of all rendered items which are currently expanded.
@@ -225,6 +229,10 @@ Gets or sets a value indicating whether child items will be selected recursively
 ###  EditMode `TreeListEditMode`
 
 Gets or sets the editing mode for RadTreeList.
+
+###  ExpandCollapseMode `TreeListExpandCollapseMode`
+
+Gets or sets the expand / collapse mode for the RadTreeList items.
 
 ###  EditFormSettings `TreeListEditFormSettings`
 
@@ -832,6 +840,24 @@ Returns the Maximum Nested Level.
 #### Returns
 
 `System.Int32` 
+
+###  FindItemByKeyValue
+
+Finds and returns an item with given key and value. This method supports both key and parent key parameters. If there are more than one items with the same value, this routine will return the first one.
+
+#### Parameters
+
+#### keyName `System.String`
+
+DataKeyName or ParentDataKeyName parameter
+
+#### keyValue `System.Object`
+
+Value of the DataKeyName/ParentDataKeyName parameter
+
+#### Returns
+
+`Telerik.Web.UI.TreeListDataItem` Returns an item matching the supplied key/value parameters
 
 ###  InsertItem
 

@@ -109,3 +109,9 @@ Returns a  that represents the current
 
 `System.String` A  that represents the current .
 
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
+

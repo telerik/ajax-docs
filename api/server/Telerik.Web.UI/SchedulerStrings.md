@@ -53,6 +53,10 @@ Gets or sets the header multi day.
 
 Gets or sets the header agenda.
 
+###  HeaderYear `String`
+
+Gets or sets the header year.
+
 ###  HeaderAgendaDate `String`
 
 Gets or sets the agenda header date.

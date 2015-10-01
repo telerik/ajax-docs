@@ -28,6 +28,10 @@ RadLightBox Client Data-Binding
 
 RadLightBox Animation Settings
 
+###  FullscreenMode `LightBoxFullscreenMode`
+
+Determines the fullscreen mode
+
 ###  AllowKeyboardNavigation `Boolean`
 
 Determines whether the keyboard navigation support will be enabled

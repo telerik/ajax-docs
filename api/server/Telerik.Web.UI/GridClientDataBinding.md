@@ -87,3 +87,11 @@ Gets or sets a value indicating whether empty data rows are shown in
 
 ###  IsSet `Boolean`
 
+## Methods
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
+

@@ -33,3 +33,11 @@ Gets or set a filter string for the specified ADO.NET DataService. Default is em
 
 Gets or set a filter string for the specified ADO.NET DataService. Default is empty string!
 
+## Methods
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
+

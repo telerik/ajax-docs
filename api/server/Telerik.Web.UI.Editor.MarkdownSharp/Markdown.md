@@ -142,7 +142,7 @@ replaces any block-level HTML blocks with hash entries
 
 returns an array of HTML tokens comprising the input string. Each token is 
             either a tag (possibly with nested, tags contained therein, such 
-            as `<a href="<MTFoo>">`, or a run of text between tags. Each element of the 
+            as <a href="<MTFoo>">, or a run of text between tags. Each element of the 
             array is a two-element array; the first is either 'tag' or 'text'; the second is 
             the actual value.
 

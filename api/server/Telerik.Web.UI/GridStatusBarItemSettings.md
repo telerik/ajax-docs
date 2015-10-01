@@ -32,3 +32,11 @@ Gets or sets the text that will be displayed in
             GridStatusBarItem when Telerik RadGrid is performing an
             AJAX request.
 
+## Methods
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
+

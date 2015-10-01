@@ -66,6 +66,34 @@ PesistenceManagerSaveStateEventArgs object
 
 `System.Void` 
 
+###  OnSaveSettings
+
+Raises the SaveSettings event
+
+#### Parameters
+
+#### e `Telerik.Web.UI.PersistenceManagerSaveAllStateEventArgs`
+
+PesistenceManagerSaveAllStateEventArgs object
+
+#### Returns
+
+`System.Void` 
+
+###  OnLoadSettings
+
+Raises the LoadSettings event
+
+#### Parameters
+
+#### e `Telerik.Web.UI.PersistenceManagerLoadAllStateEventArgs`
+
+PesistenceManagerLoadAllStateEventArgs object
+
+#### Returns
+
+`System.Void` 
+
 ###  SaveState
 
 Instructs the RadPersistenceManager to begin saving the state

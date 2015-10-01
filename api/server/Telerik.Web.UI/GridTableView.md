@@ -1379,6 +1379,14 @@ Call this member to bind partially RadGrid. Before calling this
 
 `System.Void` 
 
+###  SetShouldBindInvisibleColumns
+
+Checks the value of the BindGridInvisibleColumns key in the configuration and caches it in the RadGrid object
+
+#### Returns
+
+`System.Void` 
+
 ###  ClearChildSelectedItems
 
 For internal usage.

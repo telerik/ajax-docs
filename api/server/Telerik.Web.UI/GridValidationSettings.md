@@ -28,3 +28,11 @@ Gets or sets the validation group.
 
 Gets or sets a commands list of commands names which will be validated.
 
+## Methods
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
+

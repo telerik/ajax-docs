@@ -104,3 +104,11 @@ Gets or sets a value indicating whether the default command item should expose E
 
 Gets or sets a value indicating whether the default command item should expose Export to CSV button.
 
+## Methods
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
+

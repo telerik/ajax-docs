@@ -24,3 +24,11 @@ Gets or sets a value indicating whether to display the "Clear" button.
 
 Gets or sets a value indicating whether to display the "CheckAll" button.
 
+## Methods
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
+

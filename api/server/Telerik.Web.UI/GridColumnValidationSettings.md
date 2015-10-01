@@ -46,3 +46,9 @@ Clean up used resources.
 
 `System.Void` 
 
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
+

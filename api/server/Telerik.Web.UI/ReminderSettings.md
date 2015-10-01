@@ -25,3 +25,11 @@ Gets or sets a value indicating whether the user can view and edit reminders for
 
 The period from the Appointment start after which the Reminder is expired.
 
+## Methods
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
+

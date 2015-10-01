@@ -22,6 +22,8 @@ Telerik Social Share control
 
 ###  CssClassFormatString `String`
 
+###  SupportsRenderingMode `Boolean`
+
 ###  Orientation `Orientation`
 
 Get/Set orientation of the buttons. Horizontal by default.
@@ -439,4 +441,10 @@ Executed when post data changes should invoke a changed event
 #### Returns
 
 `System.Void` 
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
 

@@ -47,3 +47,11 @@ Gets or sets the tooltip that will be displayed when you hover the
 
 Gets or sets a value indicating whether the caption text is shown in the edit form.
 
+## Methods
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
+

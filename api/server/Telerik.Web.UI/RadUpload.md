@@ -190,10 +190,6 @@ Gets or sets the value indicating whether the first file input field of RadUploa
 
 Gets a value indicating whether the RadUpload HttpModule is registered in the current web.application
 
-###  Enabled `Boolean`
-
-Gets or sets the enabled.
-
 ###  RegisterWithScriptManager `Boolean`
 
 Gets or sets the value, indicating whether to register with the ScriptManager control on the page.
@@ -276,6 +272,18 @@ This property is overridden in order to support controls which implement INaming
 ###  RadScriptManager `ScriptManager`
 
 ## Methods
+
+###  DescribeClientProperties
+
+#### Returns
+
+`System.Void` 
+
+###  DescribeClientEvents
+
+#### Returns
+
+`System.Void` 
 
 ###  OnValidatingFile
 
@@ -452,4 +460,10 @@ Executed when post data changes should invoke a changed event
 #### Returns
 
 `System.Void` 
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
 

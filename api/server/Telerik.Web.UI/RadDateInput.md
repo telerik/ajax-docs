@@ -25,6 +25,10 @@ You need to set the P:Telerik.Web.UI.RadDateInput.DateFormat DateFormat Property
 
 ## Properties
 
+###  EnableSmartParsing `Boolean`
+
+Toggles the smart date parsing. Default value is true. When disabled, the developer need to follow the datetime format carefully otherwise the control will display a warning message.
+
 ###  ShortYearCenturyEnd `Int32`
 
 Gets or sets a value that indicates the end of the century that is used to interpret 
@@ -943,4 +947,10 @@ Executed when post data changes should invoke a changed event
 #### Returns
 
 `System.Void` 
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
 

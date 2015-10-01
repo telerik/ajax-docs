@@ -59,3 +59,11 @@ Get/Set whether the object should be visible
 
 Specifies the rotation angle
 
+## Methods
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
+

@@ -81,6 +81,10 @@ The IsSticky property of the Loading Panel controls where
                 webform. If this property is set to false, the Loading panel will
                 appear on the place of the updated control(s).By default this property is set to false.
 
+###  Modal `Boolean`
+
+Gets or sets the value, indicating whether the loading panel will be displayed over the entire visible area of the page.
+
 ###  InitialDelayTime `Int32`
 
 Gets or sets a value specifying the delay in milliseconds, after which the

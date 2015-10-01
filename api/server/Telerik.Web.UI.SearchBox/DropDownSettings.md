@@ -55,3 +55,11 @@ Get a header of
 Get a footer of 
             RadSearchBox.
 
+## Methods
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
+

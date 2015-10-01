@@ -107,6 +107,8 @@ Gets or sets the name of the JavaScript function that will be called when the ti
 
 Gets or sets the name of the JavaScript function that will be called when the tile is clicked, after the OnClientClicking event.
 
+###  SupportsRenderingMode `Boolean`
+
 ###  RegisterWithScriptManager `Boolean`
 
 Gets or sets the value, indicating whether to register with the ScriptManager control on the page.
@@ -406,4 +408,10 @@ Executed when post data changes should invoke a changed event
 #### Returns
 
 `System.Void` 
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
 

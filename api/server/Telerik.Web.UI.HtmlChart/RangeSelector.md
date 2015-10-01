@@ -24,3 +24,11 @@ Defines the starting point of the selection
 
 Defines the ending point of the selection
 
+## Methods
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
+

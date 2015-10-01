@@ -54,6 +54,10 @@ Gets or sets the client-side event which is fired when a  row is dropping.
 
 Gets or sets the client-side event which is fired when a  row is dropped.
 
+###  OnRowDragging `String`
+
+Gets or sets the client-side event which will be fired when a  row is being dragged.
+
 ###  OnRowDragStarted `String`
 
 Gets or sets the client-side event which will be fired when a  row drag starts.
@@ -470,4 +474,12 @@ Gets or sets the client-side event which will be fired before closing a cell for
 ###  OnBatchEditClosed `String`
 
 Gets or sets the client-side event which will be fired after a cell have been closed for edit.
+
+## Methods
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
 

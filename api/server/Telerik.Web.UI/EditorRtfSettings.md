@@ -14,3 +14,11 @@ Container of misc. settings for rtf load/export
 * Telerik.Web.UI.ObjectWithState
 * Telerik.Web.UI.EditorRtfSettings
 
+## Methods
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
+

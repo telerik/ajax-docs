@@ -30,6 +30,10 @@ Used in the RadEditor dialogs like Image Manager, Document Manager. If the value
             will allow multiple files / folders to be selected and deleted / copied / moved. Also, if Insert button
             is clicked all the selected file items will be inserted in the editor's content area
 
+###  RenderMode `RenderMode`
+
+Specifies the render mode of the controls in the file browser dialogs.
+
 ###  ViewPaths `String[]`
 
 Gets or sets the view paths of the FileManager dialog.

@@ -19,6 +19,8 @@ telerik RadSplitter is a flexible UI component for ASP.NET applications which al
 
 ## Properties
 
+###  SupportsRenderingMode `Boolean`
+
 ###  HeightOffset `Int32`
 
 Sets/gets the pixels that should be substracted from the splitter height when its height is defined in percent
@@ -378,4 +380,10 @@ Executed when post data changes should invoke a changed event
 #### Returns
 
 `System.Void` 
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
 

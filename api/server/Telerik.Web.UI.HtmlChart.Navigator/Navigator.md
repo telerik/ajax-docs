@@ -36,3 +36,11 @@ Defines the X axis configuration settings
 
 Defines the visibility of the navigator
 
+## Methods
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
+

@@ -22,6 +22,11 @@ description: Telerik.Web.UI.RadNavigation
 
 Gets or sets the max data bind depth.
 
+###  ClientNodeTemplate `String`
+
+Gets or sets the template for displaying the nodes in
+            RadNavigation.
+
 ###  ImagePosition `RadNavigationImagePostion`
 
 Gets or sets the image position.
@@ -100,6 +105,18 @@ Gets the Nodes.
 
 Gets or sets the on client load.
 
+###  OnClientTemplateDataBound `String`
+
+Gets or sets the name of the JavaScript function called when the client template for a node is evaluated
+
+###  OnClientNodeMouseEnter `String`
+
+Gets or sets the name of the JavaScript function called when the mouse enters a node
+
+###  OnClientNodeMouseLeave `String`
+
+Gets or sets the name of the JavaScript function called when the mouse leaves a node
+
 ###  OnClientNodeClicking `String`
 
 Gets or sets the on NavigationNode clicking.
@@ -107,6 +124,14 @@ Gets or sets the on NavigationNode clicking.
 ###  OnClientNodeClicked `String`
 
 Gets or sets the on NavigationNode clicked.
+
+###  OnClientNodesPopulating `NavigationNodeCollection`
+
+Gets or sets the on NavigationNodes populating.
+
+###  OnClientNodesPopulated `NavigationNodeCollection`
+
+Gets or sets the on NavigationNodes populated.
 
 ###  OnClientNodeExpanding `String`
 
@@ -426,4 +451,10 @@ Executed when post data changes should invoke a changed event
 #### Returns
 
 `System.Void` 
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
 

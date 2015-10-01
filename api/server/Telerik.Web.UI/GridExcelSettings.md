@@ -29,3 +29,15 @@ Gets or sets the file extension for RadGrid Excel export.
 Determines whether RadGrid will fit the image within the boundaries of its parent cell (true) or will leave it with the default dimensions (false).
             False by default. BIFF only.
 
+###  DefaultCellAlignment `HorizontalAlign`
+
+Determines the default header cell alignment when exporting to Excel. Default value is 'NotSet'.
+
+## Methods
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
+

@@ -36,3 +36,11 @@ Gets or sets a value indicating the filter criteria when template is applied.
 
 Defines the minimum number of characters that must be typed before a filtering is made.
 
+## Methods
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
+

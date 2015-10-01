@@ -330,3 +330,9 @@ Executed when post data changes should invoke a changed event
 
 `System.Void` 
 
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
+

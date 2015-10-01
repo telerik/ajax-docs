@@ -63,3 +63,11 @@ Gets the Word settings.
 
 Gets the CSV settings.
 
+## Methods
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
+

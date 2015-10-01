@@ -67,9 +67,27 @@ Gets or sets a string that will be displayed when the group expand image is
 Localizing the grid messages topic lists all the tooltips and text messages which
             can be modified.
 
+###  ExpandAllTooltip `String`
+
+Gets or sets a string that will be displayed when the group expand all image is
+            hovered.
+
+#### Remarks
+Localizing the grid messages topic lists all the tooltips and text messages which
+            can be modified.
+
 ###  CollapseTooltip `String`
 
 Gets or sets a string that will be displayed when the group collapse image is
+            hovered.
+
+#### Remarks
+Localizing the grid messages topic lists all the tooltips and text messages which
+            can be modified.
+
+###  CollapseAllTooltip `String`
+
+Gets or sets a string that will be displayed when the collapse all groups image is
             hovered.
 
 #### Remarks
@@ -125,4 +143,12 @@ The caption for the table second level table in the .
 ###  GroupItemsWrapperTableCaption `String`
 
 The caption for the table which holds all group items in the .
+
+## Methods
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
 

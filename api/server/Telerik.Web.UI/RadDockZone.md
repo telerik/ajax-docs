@@ -32,6 +32,8 @@ Gets a collection of the RadDock objects inside the RadDockZone.
 
 ###  CssClassFormatString `String`
 
+###  SupportsRenderingMode `Boolean`
+
 ###  FitDocks `DockCollection`
 
 Gets or sets a value, indicating whether the RadDockZone will set the size
@@ -389,4 +391,10 @@ Executed when post data changes should invoke a changed event
 #### Returns
 
 `System.Void` 
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
 

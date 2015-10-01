@@ -46,3 +46,11 @@ Gets or sets the path to the folder that will contain the external image files.
 Gets or sets the base path that will be set as value to the 'src' attribute of
             the 'image' elements.
 
+## Methods
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
+

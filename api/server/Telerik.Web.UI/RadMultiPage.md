@@ -54,6 +54,10 @@ Use this property to customize the visibility and position of scroll bars. By de
 
 ###  Skin `String`
 
+###  EnableAriaSupport `Boolean`
+
+When set to true enables support for WAI-ARIA
+
 ###  RegisterWithScriptManager `Boolean`
 
 Gets or sets the value, indicating whether to register with the ScriptManager control on the page.
@@ -317,4 +321,10 @@ Executed when post data changes should invoke a changed event
 #### Returns
 
 `System.Void` 
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
 

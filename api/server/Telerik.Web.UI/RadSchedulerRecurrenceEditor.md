@@ -23,6 +23,10 @@ This Class defines RadSchedulerRecurrenceEditor control that inherits Recurrence
 
 Gets the localization.
 
+###  LocalizationPath `IRecurrenceEditorStrings`
+
+Gets or sets a value indicating where RadSchedulerRecurrenceEditor will look for its .resx localization files.
+
 ###  SharedCalendar `RadCalendar`
 
 Gets or sets the reference to the calendar that will be used for picking dates.
@@ -381,4 +385,10 @@ Executed when post data changes should invoke a changed event
 #### Returns
 
 `System.Void` 
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
 

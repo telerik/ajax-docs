@@ -7,7 +7,7 @@ description: Telerik.Web.UI.AssemblyWhiteListCollection
 # Telerik.Web.UI.AssemblyWhiteListCollection
 
 Collection to hold a list of white-listed assemblies. If
-            P:Telerik.Web.UI.RadScriptManagerConfigurationSection.EnableAssemblyWhiteList is enabled
+            !:Telerik.Web.UI.RadScriptManagerConfigurationSection.EnableAssemblyWhiteList is enabled
             exception will be thrown whenever RadScriptManager tries to load
             assembly that is not listed in the white list collection.
 

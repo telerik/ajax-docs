@@ -40,3 +40,11 @@ Gets or sets the row delimiter for RadGrid CSV export.
 
 Gets or sets whether the data will be enclosed with quotes for RadGrid CSV export.
 
+## Methods
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
+

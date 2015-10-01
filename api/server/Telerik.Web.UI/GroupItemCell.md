@@ -25,6 +25,10 @@ Represents a single item in the P:Telerik.Web.UI.RadGrid.GroupPanel . The item i
 
 Gets or sets the  HierarchicalIndex.
 
+###  DataField `String`
+
+Gets or sets the DataField related with the group cell.
+
 ###  HeaderID `String`
 
 Gets or sets the id attribute of the cell.

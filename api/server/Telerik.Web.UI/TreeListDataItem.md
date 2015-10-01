@@ -29,6 +29,14 @@ Gets a boolean value indicating whether the current item can be expanded.
 
 Gets a boolean value indicating whether the item is expanded.
 
+###  IsCombineExpanded `Boolean`
+
+Gets a boolean value indicating whether the item is expanded in ExpandedCollapseMode = "Combined".
+
+###  TreeListInitializedExpandCollapse `Boolean`
+
+Gets a boolean value indicating whether the item is expanded or collapsed through the TreeList expand collapse button
+
 ###  HierarchyIndex `TreeListHierarchyIndex`
 
 Gets an object of type  

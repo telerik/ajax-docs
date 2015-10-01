@@ -29,3 +29,11 @@ Defines a client-side template for the selection hint.
 
 Defines the visibility of the hint
 
+## Methods
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
+

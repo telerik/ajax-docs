@@ -181,3 +181,11 @@ Determines whether the exported document will be password protected.
 
 Determines the default font
 
+## Methods
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
+

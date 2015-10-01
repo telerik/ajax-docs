@@ -25,6 +25,15 @@ Gets a RibbonBarApplicationMenuItemCollection object that contains the items of 
 Use the Items property to access the items of the ApplicationMenu. You can also use the Items property to
             	manage the items. You can add, remove or modify items from the Items collection.
 
+###  RenderMode `RenderMode`
+
+Specifies the rendering mode of the control. Setting the mode to Lightweight will yield
+            HTML 5/CSS 3 html and css.
+
+#### Remarks
+Lightweight rendering mode might change the outlook of the component in some older browsers
+            that don't support CSS3/HTML5.
+
 ###  FooterPane `RibbonBarApplicationMenuFooterPane`
 
 Used to customize the ApplicationMenu Footer.

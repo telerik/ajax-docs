@@ -41,3 +41,11 @@ Gets or sets the background color of a sorted cell.
 Defines whether a predefined CssClass will be applied to the sorted column's cells
             Default value is True
 
+## Methods
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
+

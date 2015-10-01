@@ -123,6 +123,10 @@ RadTabStrip will postback provided one of the following conditions is met:
 
 Gets or sets a value indicating whether reording with dragging should be enabled.
 
+###  EnableAriaSupport `Boolean`
+
+When set to true enables support for WAI-ARIA
+
 ###  DataBindings `RadTabBindingCollection`
 
 Gets a collection of  objects that define the relationship 
@@ -905,4 +909,10 @@ Executed when post data changes should invoke a changed event
 #### Returns
 
 `System.Void` 
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
 

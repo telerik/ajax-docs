@@ -67,6 +67,10 @@ Gets the unique, hierarchically qualified identifier for the server
 
 Gets or sets a value indicating what message will be displayed then the control is empty (no entries selected).
 
+###  EnableEntryTextHtmlEncoding `Boolean`
+
+Gets or sets a value indicating whether RadDropDownTree should HTML encode the text of the entries.
+
 ###  DropDownSettings `DropDownSettings`
 
 Gets the DropDown settings.
@@ -576,4 +580,10 @@ Executed when post data changes should invoke a changed event
 #### Returns
 
 `System.Void` 
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
 

@@ -370,6 +370,8 @@ Gets the Month view settings.
 
 ###  AgendaView `AgendaViewSettings`
 
+###  YearView `YearViewSettings`
+
 ###  AppointmentContextMenuSettings `ContextMenuSettings`
 
 Gets the appointment context menu settings.
@@ -1741,4 +1743,10 @@ Executed when post data changes should invoke a changed event
 #### Returns
 
 `System.Void` 
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
 

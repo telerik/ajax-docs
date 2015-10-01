@@ -14,3 +14,11 @@ Container of misc. import settings of RadEditor control
 * Telerik.Web.UI.ObjectWithState
 * Telerik.Web.UI.EditorImportSettings
 
+## Methods
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
+

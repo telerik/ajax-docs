@@ -171,3 +171,9 @@ This method is for Telerik RadGrid internal usage.
 
 `System.Boolean` 
 
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
+

@@ -26,3 +26,11 @@ A string specifying the name (without the extension) of the file that will be
 
 Opens the exported editor content in a new window instead of the same page.
 
+## Methods
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
+

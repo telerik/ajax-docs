@@ -20,6 +20,10 @@ Defines the shapes content settings.
 
 The text displayed in the shape.
 
+###  Html `String`
+
+Define rich-text content using Html syntax
+
 ###  Align `String`
 
 The alignment of the text inside the shape.

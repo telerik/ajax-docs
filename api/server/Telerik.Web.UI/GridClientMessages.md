@@ -40,3 +40,11 @@ The format string used for the tooltip when using Ajax scroll paging or the Slid
 
 The format string used for the tooltip when resizing a column
 
+## Methods
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
+

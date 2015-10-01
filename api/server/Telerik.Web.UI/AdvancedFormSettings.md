@@ -71,3 +71,11 @@ Gets or sets the maximum height of the modal advanced form.
 
 Gets or sets the width of the modal advanced form.
 
+## Methods
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
+

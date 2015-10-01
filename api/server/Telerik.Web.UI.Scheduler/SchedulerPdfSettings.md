@@ -163,3 +163,11 @@ Gets or sets the user password.If you set a password, the exported document will
 
 Gets or sets the default font family.
 
+## Methods
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
+
