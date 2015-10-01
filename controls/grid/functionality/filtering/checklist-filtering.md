@@ -15,7 +15,7 @@ This article describe the filter types in RadGrid that enable filtering based on
 
 * [CheckList Filtering](#filtertype-checklist)
 
-* [FilterType HeaderContext](#filtertype-headercontext)
+* [FilterType HeaderContext (Excel-like filtering)](#filtertype-headercontext)
 
 
 ## FilterType CheckList
@@ -500,7 +500,7 @@ To specify what values will be displayed in the ListBox control you need to defi
 
 
 
-## FilterType HeaderContext
+## FilterType HeaderContext 
 
 
 This filtering type provides look and feel that resembles the filter in Excel. It is available for RadGrid since Q3 2015. To enable this mode you should set the **FilterType** property of RadGrid to **HeaderContext** and turn on the header context menu (**EnableHeaderContextMenu="true"**).
@@ -604,6 +604,6 @@ As with checklist filtering there will be a ListBox that displays the available 
 
  * [CheckList FilterType demo](http://demos.telerik.com/aspnet-ajax/grid/examples/functionality/filtering/basic-filtering/defaultcs.aspx)
 
- * [HeaderContext FilterType demo](http://demos.telerik.com/aspnet-ajax/grid/examples/functionality/filtering/headercontext-filtertype/defaultcs.aspx)
+ * [Excel-like filtering demo](http://demos.telerik.com/aspnet-ajax/grid/examples/functionality/filtering/excel-like-filtering/defaultcs.aspx)
  
 
