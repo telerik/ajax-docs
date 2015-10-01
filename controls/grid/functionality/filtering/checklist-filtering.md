@@ -11,8 +11,14 @@ position: 6
 # CheckList Filtering
 
 
+This article describe the filter types in RadGrid that enable filtering based on multiple selected values from a list. 
 
-## CheckList Filtering
+* [CheckList Filtering](#filtertype-checklist)
+
+* [FilterType HeaderContext](#filtertype-headercontext)
+
+
+## FilterType CheckList
 
 Apart from the default filtering that RadGrid supports, since Q3 2013 there is a support for filtering based on multiple selected values from a list. In order to enable this type of filtering you should set the **FilterType** property of RadGrid to either **CheckList** or **Combined**.
 
@@ -493,15 +499,102 @@ To specify what values will be displayed in the ListBox control you need to defi
 		End Class
 
 
-## Excel-like filtering
+
+## FilterType HeaderContext
 
 
-An Excel-like filtering is available for RadGrid since Q3 2015. This filtering mode provides look and feel that resembles the filter in Excel. To enable this mode you should set the **FilterType** property of RadGrid to **HeaderContext** and turn on the header context menu (**EnableHeaderContextFilterMenu="true"**).
+This filtering type provides look and feel that resembles the filter in Excel. It is available for RadGrid since Q3 2015. To enable this mode you should set the **FilterType** property of RadGrid to **HeaderContext** and turn on the header context menu (**EnableHeaderContextMenu="true"**).
 
->note If you are using **client-side binding** the header context menu must be disabled (**EnableHeaderContextFilterMenu="false"**).
+>note If you are using **client-side binding** the header context menu must be disabled (**EnableHeaderContextMenu="false"**).
 >
 
+
 ![grid-excellike-filtering-1](images/grid-excellike-filtering-1.png)
+
+
+The code snippets below showcase a sample scenario where the HeaderContext FilterType is enabled.
+
+
+````ASP.NET
+<telerik:RadGrid runat="server" ID="RadGrid1"
+	OnNeedDataSource="RadGrid1_NeedDataSource"
+	AutoGenerateColumns="false"
+	AllowFilteringByColumn="true"
+	FilterType="HeaderContext"
+	OnFilterCheckListItemsRequested="RadGrid1_FilterCheckListItemsRequested">
+
+	<MasterTableView CommandItemDisplay="Top" DataKeyNames="ID" EnableHeaderContextMenu="true" >
+		
+		<Columns>
+			<telerik:GridBoundColumn DataField="ID" HeaderText="ID" UniqueName="ID">
+			</telerik:GridBoundColumn>
+			<telerik:GridBoundColumn DataField="Name" HeaderText="Name" UniqueName="Name" FilterCheckListEnableLoadOnDemand="true">
+			</telerik:GridBoundColumn>
+			<telerik:GridBoundColumn DataField="Description" HeaderText="Description" UniqueName="Description">
+			</telerik:GridBoundColumn>
+		</Columns>
+	</MasterTableView>
+</telerik:RadGrid>
+````
+````C#
+protected void RadGrid1_NeedDataSource(object sender, Telerik.Web.UI.GridNeedDataSourceEventArgs e)
+{
+	DataTable data = new DataTable();
+
+	data.Columns.Add("ID", typeof(int));
+	data.Columns.Add("Name");
+	data.Columns.Add("Description");
+
+	for (int i = 1; i < 31; i++)
+	{
+		data.Rows.Add(i, "Name" + (i % 5).ToString(), "Description" + i.ToString());
+	}
+
+	RadGrid1.DataSource = data;
+}
+
+protected void RadGrid1_FilterCheckListItemsRequested(object sender, GridFilterCheckListItemsRequestedEventArgs e)
+{
+	List<string> names = new List<string>();
+	names.Add("Name0");
+	names.Add("Name1");
+	names.Add("Name2");
+	names.Add("Name3");
+	names.Add("Name4");
+
+	e.ListBox.DataSource = names;
+	e.ListBox.DataBind();
+}
+````
+````VB
+Protected Sub RadGrid1_NeedDataSource(sender As Object, e As Telerik.Web.UI.GridNeedDataSourceEventArgs)
+	Dim data As New DataTable()
+
+	data.Columns.Add("ID", GetType(Integer))
+	data.Columns.Add("Name")
+	data.Columns.Add("Description")
+
+	For i As Integer = 1 To 30
+		data.Rows.Add(i, "Name" + (i Mod 5).ToString(), "Description" + i.ToString())
+	Next
+
+	RadGrid1.DataSource = data
+End Sub
+
+Protected Sub RadGrid1_FilterCheckListItemsRequested(sender As Object, e As GridFilterCheckListItemsRequestedEventArgs)
+	Dim names As New List(Of String)()
+	names.Add("Name0")
+	names.Add("Name1")
+	names.Add("Name2")
+	names.Add("Name3")
+	names.Add("Name4")
+
+	e.ListBox.DataSource = names
+	e.ListBox.DataBind()
+End Sub
+````
+
+
 
 As with checklist filtering there will be a ListBox that displays the available values. You need to provide DataSource for the ListBox. You can use any of the data binding approaches described above. When the ListBox is data bound there will be a TextBox displayed above it that can be used to filter the items displayed in the ListBox.
 
@@ -509,6 +602,8 @@ As with checklist filtering there will be a ListBox that displays the available 
 
 ## See Also
 
- * [CheckList Filetering demo](http://demos.telerik.com/aspnet-ajax/grid/examples/functionality/filtering/basic-filtering/defaultcs.aspx)
+ * [CheckList FilterType demo](http://demos.telerik.com/aspnet-ajax/grid/examples/functionality/filtering/basic-filtering/defaultcs.aspx)
 
+ * [HeaderContext FilterType demo](http://demos.telerik.com/aspnet-ajax/grid/examples/functionality/filtering/headercontext-filtertype/defaultcs.aspx)
+ 
 
