@@ -17,6 +17,8 @@ In this help article you can learn how to define your own default styles for the
 
 Alternatively, you can also use the ContentAreaCssFile property for that. You can find out what are the relevant differences here—[ContentAreaCssFile vs. CssFiles]({%slug editor/managing-content/content-area-appearance/contentareacssfile-vs-cssfil%});
 
+
+
 >note This approach is available only when [ContentAreaMode]({%slug editor/functionality/editor-views-and-modes/contentareamode-property%}) is iframe. Using a content area rendered as a DIV element does not offer native capabilities to add external CSS files. You can find out how to decorate the DIV content area here—[Decorating Div Content Area]({%slug editor/managing-content/content-area-appearance/decorating-div-contentareamode%}). 
 
 For example, to set the editor to use white text on a black background as well as to change the default bullet / ordered lists shapes add an **EditorCssFile** item to the **CssFiles** collection that points to an external CSS file (e.g., **EditorContentArea.css**):
@@ -59,6 +61,19 @@ ul ul{
 	list-style-type: disc;
 } 
 ````
+
+>tip If you only want to stop the page style inheritance, you do not need to have a special blank stylesheet. An empty value for the **CssFile** will have the same effect and will avoid the unnecessary request:
+>
+>    **ASP.NET**
+>    - - -
+>        <telerik:RadEditor ID="RadEditor1" runat="server">
+>            <CssFiles>
+>                <telerik:EditorCssFile Value="" />
+>            </CssFiles>
+>            <Content>
+>               <p>para</p>
+>            </Content>
+>        </telerik:RadEditor>
 
 More information about the **list-style-type** property is available in MSDN: [list-style-type Attribute | listStyleType Property](http://msdn.microsoft.com/en-us/library/ms530797.aspx).
 

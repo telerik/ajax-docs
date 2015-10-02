@@ -86,6 +86,18 @@ a.link
 
 The CSS classes available in the external CSS files will populate the **Apply Css Class** dropdown. If you need to rearrange the items populated in the tool you need to use the [CssClasses collection]({%slug editor/functionality/toolbars/dropdowns/css-styles%}) to add the ones that should be visible for the end-user.
 
+>tip If you only want to stop the page style inheritance, you do not need to have a special blank stylesheet. An empty value for the **CssFile** will have the same effect and will avoid the unnecessary request:
+>
+>    **ASP.NET**
+>    - - -
+>        <telerik:RadEditor ID="RadEditor1" runat="server">
+>            <CssFiles>
+>                <telerik:EditorCssFile Value="" />
+>            </CssFiles>
+>            <Content>
+>               <p>para</p>
+>            </Content>
+>        </telerik:RadEditor>
 
 ## See Also
 

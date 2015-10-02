@@ -33,6 +33,19 @@ The two approaches give you solutions to decorate and customize the content area
 * Custom styles cannot be toggled by the **Show/Hide tool**;
 * Custom styles affect both **Design** and **Preview** modes.
 
+>tip If you only want to stop the page style inheritance, you do not need to have a special blank stylesheet. An empty value for the **CssFile** will have the same effect and will avoid the unnecessary request:
+>
+>    **ASP.NET**
+>    - - -
+>        <telerik:RadEditor ID="RadEditor1" runat="server">
+>            <CssFiles>
+>                <telerik:EditorCssFile Value="" />
+>            </CssFiles>
+>            <Content>
+>               <p>para</p>
+>            </Content>
+>        </telerik:RadEditor>
+
 ## See Also
 
 * [ContentAreaCssFile property]({%slug editor/managing-content/content-area-appearance/set-defaults%})
