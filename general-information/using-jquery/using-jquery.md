@@ -63,25 +63,29 @@ You can disable the embedded jQuery library and include an external one. This le
 You can disable the jQuery scripts our controls bring by default via the following steps:
 
 1. Load the custom version of jQuery you want to use. At this point you have the jQuery embedded in the Telerik controls and the custom one that is loaded via the following code. Proceed to the next step if you want to replace the embedded version with the custom one.
-````ASP.NET
-<head>
-    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-    ...
-</head>
-````
+
+	**ASP.NET**
+	
+		<head>
+		    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+		    ...
+		</head>
+
 
 1. Disable the embedded jQuery library as described in [Disabling the embedded jQuery]({%slug scriptmanager/disabling-the-embedded-jquery%}) help article.
 
 1. Configure the ScriptReferences in **RadScriptManager** as shown in following sample. The script that integrates the external jQuery library in our client-side library is located in the file **jQueryExternal.js**.
-````ASP.NET
-<telerik:RadScriptManager runat="server" ID="RadScriptManager2" EnableEmbeddedjQuery="false">
-    <Scripts>
-        <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Core.js" />
-        <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQueryExternal.js" />
-        <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQueryPlugins.js" />
-    </Scripts>
-</telerik:RadScriptManager>
-````
+
+	**ASP.NET**
+	
+		<telerik:RadScriptManager runat="server" ID="RadScriptManager2" EnableEmbeddedjQuery="false">
+		    <Scripts>
+		        <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Core.js" />
+		        <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQueryExternal.js" />
+		        <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQueryPlugins.js" />
+		    </Scripts>
+		</telerik:RadScriptManager>
+
 
 >important The Telerik controls depend on the specific version of jQuery they are tested against (above you can check the version that is used in each release of UI for ASP.NET AJAX). It is possible that using an older version of jQuery or a version, greater than the latestone from the [jQuery Version History in Telerik UI Controls](#jquery-version-history-in-telerik-ui-controls) section, will break the controls.
 >
@@ -91,46 +95,58 @@ You can disable the jQuery scripts our controls bring by default via the followi
 
 After including the jQuery file you can start using it. There is a trick though - the jQuery object is available as **$telerik.$** instead of the default **$** or jQuery aliases. This is so to avoid compatibility issues with applications which already use (other versions of)jQuery. For more info you can check the [documentation of the noConflict	](http://docs.jquery.com/Core/jQuery.noConflict) method.
 
-Fortunately there are easy workarounds to enable back the **$ alias.** Choose one of the options below:
+Fortunately there are easy ways to enable back the **$ alias.** Choose one of the options below.
+
+>Important Make sure to add the script after the ScriptManager control.
 
 
-1. Using a global variable
-````JavaScript
-<script type="text/javascript">
-    window.$ = $telerik.$;
-</script> 
-````
+*  Using a global variable
+	
+	**JavaScript**
 
-1. Using a self-calling anonymous function (**Example 1**):
-````JavaScript
-<script type="text/javascript">
-	(function ($) {
-		$(document).ready(function () {
-			alert("Hooray! The document is ready!");
-		}
-   );
-	})($telerik.$);
-</script> 
-````
+		<script type="text/javascript">
+		    window.$ = $telerik.$;
+		</script> 
 
-1. Using the **$telerik.$** alias:
-````JavaScript
-	<script type="text/javascript">
-		$telerik.$(document).ready(function () {
-			alert("Document is ready");
-		});
-	</script> 
-````
 
-1. Include a script reference to the **Telerik.Web.UI.Common.jQueryInclude.js**:
-````JavaScript
-<telerik:RadScriptManager ID="RadScriptManager1" runat="server">
-   <Scripts>
-   ......
-          <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQueryInclude.js" />
-   </Scripts>
-</telerik:RadScriptManager> 
-````
+* Using a self-calling anonymous function (**Example 1**):
+
+	**JavaScript**
+	
+		<script type="text/javascript">
+			(function ($) {
+				$(document).ready(function () {
+					alert("Hooray! The document is ready!");
+				}
+		   );
+			})($telerik.$);
+		</script> 
+
+
+* Using the **$telerik.$** alias:
+
+	**JavaScript**
+	
+		<script type="text/javascript">
+			$telerik.$(document).ready(function () {
+				alert("Document is ready");
+			});
+		</script> 
+
+
+* Include a script reference to the **Telerik.Web.UI.Common.jQueryInclude.js**:
+
+	**ASP.NET**
+
+		<telerik:RadScriptManager ID="RadScriptManager1" runat="server">
+		   <Scripts>
+		   ......
+		          <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQueryInclude.js" />
+		   </Scripts>
+		</telerik:RadScriptManager> 
+
+
+
 
 >caution Note that loading jQueryInclude.js in a script manager will take the global jQuery object and any (external) jQuery loaded later won’t be initialized.
 >
