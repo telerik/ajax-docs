@@ -25,11 +25,12 @@ The two approaches give you solutions to decorate and customize the content area
 
 ## Using CssFiles collection
 
-* Does not affect the built-in **ContentAreaCssFile**—preserves the designed user-friendly experience with content editing.
-* Allows CSS files to be changed/added/removed dynamically.
-* Can be configured with various techniques—via markup, XML file and from the code behind.
-* Multiple CSS files can be injected into the content area.
-* Custom styles cannot be toggled by the **Show/Hide tool**.
+* Does not affect the built-in **ContentAreaCssFile**—preserves the designed user-friendly experience with content editing;
+* Stops CSS style progandation and inheritence from the main page;
+* Allows CSS files to be changed/added/removed dynamically;
+* Can be configured with various techniques—via markup, XML file and from the code behind;
+* Multiple CSS files can be injected into the content area;
+* Custom styles cannot be toggled by the **Show/Hide tool**;
 * Custom styles affect both **Design** and **Preview** modes.
 
 ## See Also
