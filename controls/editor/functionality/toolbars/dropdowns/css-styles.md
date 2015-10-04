@@ -98,7 +98,7 @@ Using the **Add()** method resets the CssClasses dropdown, so the CssClasses you
 |  **Default state**  |  **Programmatic population**  |
 | ------ | ------ |
 |![](images/editor-dropdowns026.png)|![](images/editor-dropdowns027.png)|
-|(The CSS class dropdown containsall existing classes)|(The CSS class dropdown containsonly the classes added usingthe **Add()** method)|
+|(The CSS class dropdown contains all existing classes)|(The CSS class dropdown contains only the classes added using the **Add()** method)|
 
 ## Using the ToolsFile
 
@@ -120,7 +120,7 @@ You can also populate the CSS class dropdown using the **ToolsFile**, as shown i
 </root>			
 ````
 
->note Bear in mind that **RadEditor** will persist its state (including the CSS classes set) between post backs. In order to create a new set of CSS classes (e.g. for different users), you will need to clear it first. This can be done using **Remove()** and **Clear()** methods of the **CssClasses** collection.
+>note Bear in mind that **RadEditor** will persist its state (including the CSS classes set) between post backs. In order to create a new set of CSS classes (e.g., for different users), you will need to clear it first. This can be done using **Remove()** and **Clear()** methods of the **CssClasses** collection.
 
 ## See Also
 
