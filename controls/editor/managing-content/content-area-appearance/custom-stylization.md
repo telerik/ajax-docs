@@ -4,8 +4,8 @@ page_title: Custom Stylization | RadEditor for ASP.NET AJAX Documentation
 description: Custom Stylization
 slug: editor/managing-content/content-area-appearance/custom-stylization
 tags: custom,stylization
-published: True
-position: 1
+published: False
+position: 2
 ---
 
 # Custom Stylization

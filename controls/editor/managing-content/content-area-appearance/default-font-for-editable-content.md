@@ -5,7 +5,7 @@ description: Default Font for Editable Content
 slug: editor/managing-content/content-area-appearance/default-font-for-editable-content
 tags: default,font,for,editable,content
 published: True
-position: 2
+position: 4
 ---
 
 # Default Font for Editable Content
@@ -68,4 +68,10 @@ Please, note that if the **CssFiles** property is set the editor will not pick u
 
 ## See Also
 
- * [Content Area Appearance Problems]({%slug editor/troubleshooting/content-area-appearance-problems%})
+* [Setting Default Stylization]({%slug editor/managing-content/content-area-appearance/set-defaults%})
+
+* [CSS Styles]({%slug editor/functionality/toolbars/dropdowns/external-css-files%})
+
+* [External CSS Files]({%slug editor/managing-content/content-area-appearance/set-defaults%})
+
+* [Content Area Appearance Problems]({%slug editor/troubleshooting/content-area-appearance-problems%})
