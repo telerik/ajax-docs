@@ -237,7 +237,7 @@ Add a **`<location>`** section to the application configuration file to allow ac
 </configuration> 
 ````
 
-** Cause**:
+**Cause**:
 
 If a website was migrated from an older version of ASP.NET to the latest there might be a *preCondition* attribute added to the Telerik.Web.UI.WebResource.axd handler declaration stating that the runtime version is 2.0 
 
@@ -245,7 +245,7 @@ If a website was migrated from an older version of ASP.NET to the latest there m
  preCondition="integratedMode,runtimeVersionv2.0"
 ```
 
-** Suggested Solution**:
+**Suggested Solution**:
 
 Remove *runtimeVersionv2.0* from the handler declaration. 
 
