@@ -89,11 +89,6 @@ The **ToolsFile** must have a **valid** XML structure as shown below:
     <!-- Adding a language instance -->
     <language />
   </languages>
-  <!-- The Colors collection -->
-  <colors>
-    <!-- Adding a color instance -->
-    <color />
-  </colors>
 </root>
 ````
 
