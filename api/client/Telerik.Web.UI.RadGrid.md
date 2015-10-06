@@ -190,9 +190,11 @@ Redraws the client side object on the client
 
 #### Parameters
 
+###### value `Boolean`
+
 #### Returns
 
-`Object` 
+`None` 
 
 ### get_id
 
