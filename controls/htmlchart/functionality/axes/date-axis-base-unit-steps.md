@@ -167,7 +167,7 @@ If, however, you decrease the max date x-axis groups to 16, the step of 6 from t
 
 A further decrease of the **MaxDateGroups** property to 8 will trigger the chart to select a higher value of 6 for the **BaseUnitStep** property (**Figure 3.3**). The current "Months" **BaseUnit** will be preserved.
 
->caption Figure 3.3: Setting MaxDateGroups to 8 forces selects a higher BaseUnitStep of 6 and keeps the current "Months" BaseUnit.
+>caption Figure 3.3: Setting MaxDateGroups to 8 forces the chart to select a higher BaseUnitStep of 6 and keeps the current "Months" BaseUnit.
 
 ![AutoBaseUnitSteps-months-groups8](images/AutoBaseUnitSteps-months-groups8.png)
 
