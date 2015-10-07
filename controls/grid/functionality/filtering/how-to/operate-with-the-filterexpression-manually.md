@@ -12,8 +12,6 @@ position: 0
 
 
 
-## 
-
 There are two ways you can determine what filter function the grid is currently employing:
 
 * Provide a handler for the **ItemCommand** event. In the **ItemCommand** event handler, check that **e.CommandName** is "Filter" (or, more robustly, **RadGrid.FilterCommandName**):
@@ -107,22 +105,22 @@ The following table shows the representation of the grid FilterExpression for ea
 |  | SqlDataSource 3.5 EnableLinqExpression="true" |  | SqlDataSource 3.5/2.0EnableLinqExpression="false" |  |
 | ------ | ------ | ------ | ------ | ------ |
 | **Filter Function** | **string** | **int** | **string** | **int** |
-|Contains|@"it["" **CustomerID** ""].ToString().Contains("" **ALFKI** "")";|N/A|"([ **CustomerID** ] LIKE '% **ALFKI** %')";|N/A|
-|DoesNotContain|@"!it["" **CustomerID** ""].ToString().Contains("" **ALFKI** "")";|N/A|"([ **CustomerID** ] NOT LIKE '% **ALFKI** %') ";|N/A|
-|StartsWith|@"it[""{0}""].ToString().StartsWith("" **ALFKI** "")";|N/A|"([ **CustomerID** ] LIKE ' **ALFKI** %') ";|N/A|
-|EndsWith|@"it["" **CustomerID** ""].ToString().EndsWith("" **ALFKI** "")";|N/A|"([ **CustomerID** ] LIKE '% **ALFKI** ')";|N/A|
-|EqualTo|"(Convert.ToString(it[\" **CustomerID** \"]) = \" **ALFKI** \")";|@"Int32(it["" **OrderID** ""]) = **10248** ";|"([ **CustomerID** ] = ' **ALFKI** ')";|"([ **OrderID** ] = **10248** ) ";|
-|NotEqualTo|"(Convert.ToString(it[\" **CustomerID** \"]) <> \" **ALFKI** \")";|@"Int32(it["" **OrderID** ""]) <> **10248** ";|"([ **CustomerID** ] <> ' **ALFKI** ')";|"([ **OrderID** ] <> **10248** ) ";|
-|GreaterThan|"(Convert.ToString(it[\" **CustomerID** \"]) > \" **ALFKI** \")";|@"Int32(it["" **OrderID** ""]) > **10248** ";|"([ **CustomerID** ] > ' **ALFKI** ') ";|"([ **OrderID** ] > **10248** ) ";|
-|LessThan|"(Convert.ToString(it[\" **CustomerID** \"]) < \" **ALFKI** \")";|@"Int32(it["" **OrderID** ""]) < **10248** ";|"([ **CustomerID** ] < ' **ALFKI** ') ";|"([ **OrderID** ] < **10248** ) ";|
-|GreaterThanOrEqualTo|"(Convert.ToString(it[\" **CustomerID** \"]) >= \" **ALFKI** \")";|@"Int32(it["" **OrderID** ""]) >= **10248** ";|"([ **CustomerID** ] >= ' **ALFKI** ')";|"([ **OrderID** ] >= **10248** ";|
-|LessThanOrEqualTo|"(Convert.ToString(it[\" **CustomerID** \"]) <= \" **ALFKI** \")";|@"Int32(it["" **OrderID** ""]) <= **10248** ";|"([ **CustomerID** ] <= ' **ALFKI** ')";|"([ **OrderID** ] <= **10248** ) ";|
-|Between|"((Convert.ToString(it[\" **CustomerID** \"]) >= \" **ALFKI** \") AND ( Convert.ToString(it[\" **CustomerID** \"]) <= \" **ANTON** \")) ";|@"(Int32(it["" **OrderID** ""]) >= **10248** ) AND ( **Int32** (it["" **OrderID** ""]) <= **10252** )";|"(([ **CustomerID** ] >= ' **ALFKI** ') AND ([ **CustomerID** ] <= ' **ANTON** ')) ";|"(([ **OrderID** ] >= **10248** ) AND ([ **OrderID** ] <= **10252** ))";|
-|NotBetween|"((Convert.ToString(it[\" **CustomerID** \"]) < \" **ALFKI** \") AND ( Convert.ToString(it[\" **CustomerID** \"]) > \" **ANTON** \")) ";|@"(Int32(it["" **OrderID** ""]) < **10248** ) OR ( **Int32** (it["" **OrderID** ""]) > **10252** )";|"(([ **CustomerID** ] < ' **ALFKI** ') OR ([ **CustomerID** ] > ' **ANTON** ')) ";|"(([ **OrderID** ] < **10248** ) OR ([ **OrderID** ] > **10252** )) ";|
-|IsEmpty|@"it["" **CustomerID** ""] = """"";|N/A|"([ **CustomerID** ] = '') ";|N/A|
-|NotIsEmpty|@"it["" **CustomerID** ""] <> """"";|N/A|"([ **CustomerID** ] <> '') ";|N/A|
-|IsNull|@"it["" **CustomerID** ""] ==Convert.DBNull";|@"it["" **OrderID** ""] ==Convert.DBNull";|"([ **CustomerID** ] IS NULL) ";|"([ **OrderID** ] IS NULL) ";|
-|NotIsNull|@"(it["" **CustomerID** ""] !=Convert.DBNull)";|@"(it["" **OrderID** ""] !=Convert.DBNull)";|"(NOT ([ **CustomerID** ] IS NULL)) ";|"(NOT ([ **OrderID** ] IS NULL)) ";|
+|Contains|@"it[""**CustomerID**""].ToString().Contains(""**ALFKI**"")";|N/A|"([**CustomerID**] LIKE '%**ALFKI**%')";|N/A|
+|DoesNotContain|@"!it[""**CustomerID**""].ToString().Contains(""**ALFKI**"")";|N/A|"([**CustomerID**  NOT LIKE '%**ALFKI**%')";|N/A|
+|StartsWith|@"it[""{0}""].ToString().StartsWith(""**ALFKI**"")";|N/A|"([**CustomerID**] LIKE '**ALFKI**%')";|N/A|
+|EndsWith|@"it[""**CustomerID**""].ToString().EndsWith(""**ALFKI**"")";|N/A|"([**CustomerID**] LIKE '%**ALFKI**')";|N/A|
+|EqualTo|"(Convert.ToString(it[\"**CustomerID**\"]) = \"**ALFKI**\")";|@"Int32(it[""**OrderID**""]) = **10248**";|"([**CustomerID**] = '**ALFKI**')";|"([**OrderID**] = **10248**)";|
+|NotEqualTo|"(Convert.ToString(it[\"**CustomerID**\"]) <> \"**ALFKI**\")";|@"Int32(it[""**OrderID**""]) <> **10248**";|"([**CustomerID**] <> '**ALFKI**')";|"([**OrderID**] <> **10248**)";|
+|GreaterThan|"(Convert.ToString(it[\"**CustomerID**\"]) > \"**ALFKI**\")";|@"Int32(it[""**OrderID**""]) > **10248**";|"([**CustomerID**] > '**ALFKI**')";|"([**OrderID**] > **10248**)";|
+|LessThan|"(Convert.ToString(it[\"**CustomerID**\"]) < \"**ALFKI**\")";|@"Int32(it[""**OrderID**""]) < **10248**";|"([**CustomerID**] < '**ALFKI**')";|"([**OrderID**] < **10248**)";|
+|GreaterThanOrEqualTo|"(Convert.ToString(it[\"**CustomerID**\"]) >= \"**ALFKI**\")";|@"Int32(it[""**OrderID**""]) >= **10248**";|"([**CustomerID**] >= '**ALFKI**')";|"([**OrderID**] >= **10248**";|
+|LessThanOrEqualTo|"(Convert.ToString(it[\"**CustomerID**\"]) <= \"**ALFKI**\")";|@"Int32(it[""**OrderID**""]) <= **10248**";|"([**CustomerID**] <= '**ALFKI**')";|"([**OrderID**] <= **10248**)";|
+|Between|"((Convert.ToString(it[\"**CustomerID**\"]) >= \"**ALFKI**\") AND ( Convert.ToString(it[\"**CustomerID**\"]) <= \"**ANTON**\"))";|@"(Int32(it[""**OrderID**""]) >= **10248**) AND (**Int32** (it[""**OrderID**""]) <= **10252**)";|"(([**CustomerID**] >= '**ALFKI**') AND ([**CustomerID**] <= '**ANTON**'))";|"(([**OrderID**] >= **10248**) AND ([**OrderID**] <= **10252**))";|
+|NotBetween|"((Convert.ToString(it[\"**CustomerID**\"]) < \"**ALFKI**\") AND ( Convert.ToString(it[\"**CustomerID**\"]) > \"**ANTON**\"))";|@"(Int32(it[""**OrderID**""]) < **10248**) OR ( **Int32** (it[""**OrderID**""]) > **10252** )";|"(([**CustomerID**] < ' **ALFKI** ') OR ([**CustomerID**] > '**ANTON**'))";|"(([**OrderID**] < **10248**) OR ([**OrderID**] > **10252**))";|
+|IsEmpty|@"it[""**CustomerID**""] = """"";|N/A|"([**CustomerID**] = '')";|N/A|
+|NotIsEmpty|@"it[""**CustomerID**""] <> """"";|N/A|"([**CustomerID**] <> '')";|N/A|
+|IsNull|@"it[""**CustomerID**""] == Convert.DBNull";|@"it[""**OrderID**""] == Convert.DBNull";|"([**CustomerID**] IS NULL)";|"([**OrderID**] IS NULL)";|
+|NotIsNull|@"(it[""**CustomerID**""] != Convert.DBNull)";|@"(it[""**OrderID**""] != Convert.DBNull)";|"(NOT ([**CustomerID**] IS NULL)) ";|"(NOT ([**OrderID**] IS NULL))";|
 
 
 >caption  
@@ -130,19 +128,22 @@ The following table shows the representation of the grid FilterExpression for ea
 |  | LinqDataSource |  | EntityDataSource |  |
 | ------ | ------ | ------ | ------ | ------ |
 | **Filter Function** | **string** | **int** | **string** | **int** |
-|Contains|"( **CustomerID** .Contains(\" **ALFKI** \"))"|N/A|@"it. **CustomerID** LIKE ""% **ALFKI** %""";|N/A|
-|DoesNotContain|"(! **CustomerID** .Contains(\" **ALFKI** \"))"|N/A|@"it. **CustomerID** NOT LIKE ""% **ALFKI** %""";|N/A|
-|StartsWith|"( **CustomerID** .StartsWith(\" **ALFKI** \"))"|N/A|@"it. **CustomerID** LIKE "" **ALFKI** %""";|N/A|
-|EndsWith|"( **CustomerID** .EndsWith(\" **ALFKI** \"))"|N/A|@"it. **CustomerID** LIKE ""% **ALFKI** """;|N/A|
-|EqualTo|"( **CustomerID** .Equals(\" **ALFKI** \"))";|"( **OrderID** .Equals( **10248** ))";|"it. **CustomerID** = **ALFKI** ";|"(it. **OrderID** = **10248** ) ";|
-|NotEqualTo|"(! **CustomerID** .Equals(\" **ALFKI** \"))";|"(! **OrderID** .Equals( **10248** ))";|"it. **CustomerID** <> **ALFKI** ";|"(it. **OrderID** <> **10248** ) ";|
-|GreaterThan|"( **CustomerID** > \" **ALFKI** \" )"|"( **OrderID** > **10248** )";|"it. **CustomerID** > **ALFKI** ";|"(it. **OrderID** > **10248** ) ";|
-|LessThan|"( **CustomerID** < \" **ALFKI\** " )"|"( **OrderID** < **10248** )";|"it. **CustomerID** < **ALFKI** ";|"(it. **OrderID** < **10248** ) ";|
-|GreaterThanOrEqualTo|"( **CustomerID** >= \" **ALFKI** \" )"|"( **OrderID** >= **10248** )";|"it. **CustomerID** >= **ALFKI** ";|"(it. **OrderID** >= **10248** ) ";|
-|LessThanOrEqualTo|"( **CustomerID** <= \" **ALFKI** \" )"|"( **OrderID** <= **10248** )";|"it. **CustomerID** <= **ALFKI** ";|"(it. **OrderID** <= **10248** ) ";|
-|Between|"(( **CustomerID** >= \" **ALFKI** \") AND ( **CustomerID** <= \" **ANTON** \"))"|"(( **OrderID** >= **10248** ) AND ( **OrderID** <= **10252** )) ";|"(it. **CustomerID** >= **ALFKI** ) AND (it.{0} <= **ANTON** )";|"((it. **OrderID** >= **10248** ) AND (it. **OrderID** <= **10252** ))";|
-|NotBetween|"(( **CustomerID** < \" **ALFKI** \") OR ( **CustomerID** > \" **ANTON** \"))"|"(( **OrderID** < **10248** ) OR ( **OrderID** > **10252** )) ";|"(it. **CustomerID** < **ALFKI** ) OR (it. **CustomerID** > **ANTON** )";|"((it. **OrderID** < **10248** ) OR (it. **OrderID** > **10252** )) ";|
-|IsEmpty|"( **CustomerID** == \"\") ";|N/A|@"it. **CustomerID** = """"";|N/A|
-|NotIsEmpty|"( **CustomerID** != \"\") ";|N/A|@"it. **CustomerID** <> """"";|N/A|
-|IsNull|"( **CustomerID** == null)";|"( **OrderID** == null) ";|"it. **CustomerID** == null",|"(it. **OrderID** == null)";|
-|NotIsNull|"( **CustomerID** != null) ";|"( **OrderID** != null) ";|"(it. **CustomerID** != null)";|"((it. **OrderID** != null))";|
+|Contains|"(**CustomerID**.Contains(\"**ALFKI**\"))"|N/A|@"it.**CustomerID** LIKE ""%**ALFKI**%""";|N/A|
+|DoesNotContain|"(!**CustomerID**.Contains(\"**ALFKI**\"))"|N/A|@"it.**CustomerID** NOT LIKE ""%**ALFKI**%""";|N/A|
+|StartsWith|"(**CustomerID**.StartsWith(\"**ALFKI**\"))"|N/A|@"it.**CustomerID** LIKE ""**ALFKI**%""";|N/A|
+|EndsWith|"(**CustomerID**.EndsWith(\"**ALFKI**\"))"|N/A|@"it.**CustomerID** LIKE ""%**ALFKI**""";|N/A|
+|EqualTo|"(**CustomerID**.Equals(\"**ALFKI**\"))";|"(**OrderID**.Equals(**10248**))";|"it.**CustomerID** = **ALFKI**";|"(it.**OrderID** = **10248**)";|
+|NotEqualTo|"(!**CustomerID**.Equals(\"**ALFKI**\"))";|"(!**OrderID**.Equals(**10248**))";|"it.**CustomerID** <> **ALFKI**";|"(it.**OrderID** <> **10248**)";|
+|GreaterThan|"(**CustomerID** > \"**ALFKI**\")"|"(**OrderID** > **10248**)";|"it.**CustomerID** > **ALFKI**";|"(it.**OrderID** > **10248**)";|
+|LessThan|"(**CustomerID** < \"**ALFKI\**")"|"(**OrderID** < **10248**)";|"it.**CustomerID** < **ALFKI**";|"(it.**OrderID** < **10248**)";|
+|GreaterThanOrEqualTo|"(**CustomerID** >= \"**ALFKI**\")"|"(**OrderID** >= **10248**)";|"it.**CustomerID** >= **ALFKI**";|"(it.**OrderID** >= **10248**)";|
+|LessThanOrEqualTo|"(**CustomerID** <= \"**ALFKI**\")"|"(**OrderID** <= **10248**)";|"it.**CustomerID** <= **ALFKI**";|"(it.**OrderID** <= **10248**)";|
+|Between|"((**CustomerID** >= \"**ALFKI**\") AND (**CustomerID** <= \"**ANTON**\"))"|"((**OrderID** >= **10248**) AND (**OrderID** <= **10252**))";|"(it.**CustomerID** >= **ALFKI**) AND (it.{0} <= **ANTON**)";|"((it.**OrderID** >= **10248**) AND (it.**OrderID** <= **10252**))";|
+|NotBetween|"((**CustomerID** < \"**ALFKI**\") OR (**CustomerID** > \"**ANTON**\"))"|"((**OrderID** < **10248**) OR (**OrderID** > **10252**))";|"(it.**CustomerID** < **ALFKI**) OR (it.**CustomerID** > **ANTON**)";|"((it.**OrderID** < **10248**) OR (it.**OrderID** > **10252**))";|
+|IsEmpty|"(**CustomerID** == \"\")";|N/A|@"it.**CustomerID** = """"";|N/A|
+|NotIsEmpty|"(**CustomerID** != \"\")";|N/A|@"it. **CustomerID** <> """"";|N/A|
+|IsNull|"(**CustomerID** == null)";|"(**OrderID** == null)";|"it.**CustomerID** == null",|"(it.**OrderID** == null)";|
+|NotIsNull|"(**CustomerID** != null)";|"(**OrderID** != null)";|"(it.**CustomerID** != null)";|"((it.**OrderID** != null))";|
+
+
+
