@@ -37,7 +37,7 @@ Here are quick links to the control-specific sections of our documentation:
 * [Calendar]({%slug calendar/overview%})
 
 * [Captcha]({%slug captcha/overview%})
-*
+
 * [Chart (HTML5)]({%slug htmlchart/overview%})
 
 * [ClientDataSource]({%slug clientdatasource/overview%})
