@@ -91,9 +91,6 @@ By default in non-single input rendering mode the width of the label is not set,
 
 * the RadInput table cells should have a zero padding, with the exception of the riCell table cell - it should have a right padding equal to the sum of the textbox' side borders and paddings. Otherwise the textbox will overlay the control's buttons or its right border will not be seen.
 
-* the RadInput buttons should have a relative positioning and outline:none style in order to be clickable in Firefox. This is due to a proprietary CSS style (display:-moz-inline-stack) used to make the control behave like an inline-block element in this browser. Due to the relative positioning, Opera requires some z-index (e.g. 2). Internet Explorer 6 and 7 require the buttons to be static (not relative), otherwise a browser bug is triggered if the RadInput control is placed inside a scrollable container. In order to apply styles to IE6 and IE7 the following CSS hacks are used: "* html ..." for IE6 and "*+html ..." for IE7.
-
-
 
 ## Dynamically applied classes
 
