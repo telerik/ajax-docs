@@ -115,6 +115,29 @@ You can see how the file information of a trial version of the Telerik.Web.UI.dl
 >caption Figure 2: The Properties dialog of a Dev Telerik.Web.UI.dll file in Visual Studio do not have the Trial keyword.
 ![dev-version-vs-properties](images/dev-version-vs-properties.png)
 
+
+### Newtonsoft.Json is Built by a Higher Version Than the Currently Targeted Framework
+
+If your project runs on .NET 4.0, you may get an error similar to the following:
+
+	
+>The primary reference "**Telerik.Web.UI**, Version=2015.3.930.40, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL" **could not be resolved because it has an indirect dependency on the assembly** "**Newtonsoft.Json**, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed" **which was built against the ".NETFramework,Version=v4.5" framework. This is a higher version than the currently targeted framework ".NETFramework,Version=v4.0"**.
+
+The issue is **caused by** the **Microsoft Windows Azure .NET SDK** as explained by Damien White in his [DLL Hell Strikes Again](http://blogs.visoftinc.com/2014/08/10/dll-hell-strikes-again/) blog post:
+
+>The root cause is with Azure SDK 2.3. The SDK install drops a .NET 4.5-targeted Newtonsoft.Json.dll in the C:\Program Files\Microsoft SDKs\Windows Azure.NET SDK\v2.3\ref folder. Unfortunately, this folder is registered as a global reference folder even for frameworks prior to .NET 4.5.
+
+There are several ways to **fix** the issue:
+
+* If possible for your project, **upgrade to .NET 4.5**
+
+* **Uninstall** the **Microsoft Windows Azure .NET SDK** if you do not need it
+
+* Inlcude a **NuGet** package for the **Newtonsoft.Json** assembly in your project with the proper version so a local reference is used
+
+* **Remove Newtonsoft.Json.dll** file **from** the `Program Files\Microsoft SDKs\Windows Azure.NET SDK\v2.3\ref\` folder as suggested in [the workarounds in this item on Microsoft Connect](https://connect.microsoft.com/VisualStudio/feedback/details/850425/windows-azure-vs-tools-breaking-msbuild-for-web-projects).
+
+
 ## See Also
 
  * [Which File Do I Need to Install?]({%slug installation/which-file-do-i-need-to-install%})
@@ -122,3 +145,5 @@ You can see how the file information of a trial version of the Telerik.Web.UI.dl
  * [Included Assemblies]({%slug introduction/installation/included-assemblies%})
 
  * [web.config Settings Overview]({%slug general-information/web-config-settings-overview%})
+
+ * [DLL Hell Strikes Again Blog Post by Damien White](http://blogs.visoftinc.com/2014/08/10/dll-hell-strikes-again/)
