@@ -14,7 +14,7 @@ position: 0
 
 **RadSpreadsheet** follows the Provider Design Pattern to allow for easy integration into existing applications. On the Microsoft Web site, the article [Introduction To the Provider Model](http://msdn2.microsoft.com/en-us/library/aa479030.aspx) provides a detailed introduction to understanding this pattern.
 
-You can use one of the providers supplied in the Telerik.Web.UI assembly, or you can [implement your own]({%slug spreadsheet/data-binding/providers/implementing-a-provider%}).
+You can use one of the providers supplied in the Telerik.Web.UI assembly, or you can implement your own.
 
 The Telerik.Web.UI assembly defines the **Telerik.Web.UI.SpreadsheetDocumentProvider** provider, which can be used to bind the **RadSpreadsheet** to the most common excell file formats. The provider uses the [RadSpreadProcessing library](http://docs.telerik.com/devtools/aspnet-ajax/controls/spreadprocessing/overview) internally.
 
@@ -93,6 +93,6 @@ Binding the **RadSpreadsheet** to a provider at runtime requires only one step:
 
 You have now bound your **RadSpreadsheet** using the **Provider** property at runtime.
 
-# See Also
 
- * [Implementing a Provider]({%slug spreadsheet/data-binding/providers/implementing-a-provider%})
+
+
