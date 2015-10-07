@@ -38,8 +38,6 @@ Here are quick links to the control-specific sections of our documentation:
 
 * [Captcha]({%slug captcha/overview%})
 
-* [Chart]({%slug chart/overview%})
-
 * [ClientDataSource]({%slug clientdatasource/overview%})
 
 * [ClientExportManager]({%slug clientexportmanager/overview%})
@@ -165,8 +163,6 @@ Here are quick links to the control-specific sections of our documentation:
 * [TreeMap]({%slug treemap/overview%})
 
 * [TreeView]({%slug treeview/overview%})
-
-* [Upload]({%slug upload/overview%})
 
 * [Window]({%slug window/overview%})
 
