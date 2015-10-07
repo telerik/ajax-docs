@@ -33,6 +33,8 @@ You can find concrete information about your case in the distinct sections of th
 	* [I Still Get the Old Version](#i-still-get-the-old-version)
 	
 	* [I Still Get the Copyright Message](#i-still-get-the-copyright-message)
+	
+	* [Newtonsoft.Json is Built by a Higher Version Than the Currently Targeted Framework](#newtonsoftjson-is-built-by-a-higher-version-than-the-currently-targeted-framework)
 
 ## Upgrade to a Newer Version of Telerik UI for ASP.NET AJAX
 
