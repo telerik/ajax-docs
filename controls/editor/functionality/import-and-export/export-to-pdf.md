@@ -352,6 +352,7 @@ Although we are striving to constantly improve our products, there are some limi
 * Automatic text clipping;
 * Client-side binding;
 * Medium trust;
+* Img tags that point to non-existing image files break the PDF file generation;
 * Exporting full HTML page (currently, only the content inside the body tag can be exported).
 
 ## See Also
