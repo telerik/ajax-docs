@@ -216,6 +216,8 @@ Sets the title to the provided group
 
 #### Returns
 
+`None`
+
 ### clearGroupTitles
 
 Clears all group titles
@@ -223,6 +225,8 @@ Clears all group titles
 #### Parameters
 
 #### Returns
+
+`None`
 
 ### get_height
 
