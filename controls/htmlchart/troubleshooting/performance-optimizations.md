@@ -20,7 +20,9 @@ The performance also greatly depends on the performance of the machine and the b
 
 The way to improve the rendering speed of the chart is to remove the most numerous elements that can slow down the browser. There are several things you could do in order to speed up the **RadHtmlChart**'s client-side rendering:
 
+* Switch to Canvas rendering - `RenderAs="Canvas"`. This rendering will improve the performance, especially on mobile device.
 * Disable the chart's animation by setting the **Transitions** property to **false**. By doing so, the browser will not have to animate the thousands of XML nodes in the chart image.
+* Disable gradients of series - `<Appearance Overlay-Gradient="None"></Appearance>`.
 * Hide the MinorGridLines and/or MajorGridLines of the X and/or Y axes by setting the **[YAxis/XAxis].[MinorGridLines/MajorGridLines].Visible** property to **false**.
 * Hide the series' labels by setting the **[Series Object].LabelsAppearance.Visible** property to **false**. When there are thousand of items the labels would be hardly readable and are likely to only create visual clutter.
 * Hide the X and/or Y axes' labels by setting the **[YAxis/XAxis].LabelsAppearance.Visible** property to **false**. You can also set a higher value for the axes labels step through the **[YAxis/XAxis].LabelsAppearance.Step** property.
@@ -30,7 +32,7 @@ You can find a sample declaration of an optimized **RadHtmlChart** setup with 39
 >caption Example 1: RadHtmlChart's load time can be improved significantly by disabling animations, hiding series items labels and major and minor axis grid lines.
 
 ````ASP.NET
-<telerik:RadHtmlChart ID="RadHtmlChart1" runat="server" Width="600px" Height="400px" Transitions="false">
+<telerik:RadHtmlChart ID="RadHtmlChart1" runat="server" Width="600px" Height="400px" Transitions="false" RenderAs="Canvas">
 	<PlotArea>
 		<Series>
 			<telerik:ScatterLineSeries DataFieldX="XValue" DataFieldY="YValue" Name="Sine Wave">
