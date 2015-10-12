@@ -36,6 +36,8 @@ You can find concrete information about your case in the distinct sections of th
 	
 	* [Newtonsoft.Json is Built by a Higher Version Than the Currently Targeted Framework](#newtonsoftjson-is-built-by-a-higher-version-than-the-currently-targeted-framework)
 
+	* [Could not load file or assembly 'Telerik.Web.UI' After Upgrade](#could-not-load-file-or-assembly-telerikwebui-after-upgrade)
+
 ## Upgrade to a Newer Version of Telerik UI for ASP.NET AJAX
 
 **To upgrade the Telerik controls**, you only need to **replace the [Telerik assemblies]({%slug introduction/installation/included-assemblies%}) the project references** with their newer versions and update their references. The instructions below assume you have already [installed]({%slug installation/which-file-do-i-need-to-install%}) the new version.
@@ -139,6 +141,45 @@ There are several ways to **fix** the issue:
 
 * **Remove Newtonsoft.Json.dll** file **from** the `Program Files\Microsoft SDKs\Windows Azure.NET SDK\v2.3\ref\` folder as suggested in [the workarounds in this item on Microsoft Connect](https://connect.microsoft.com/VisualStudio/feedback/details/850425/windows-azure-vs-tools-breaking-msbuild-for-web-projects).
 
+
+
+### Could not load file or assembly 'Telerik.Web.UI' After Upgrade
+
+The most common error looks like this:
+
+>Could not load file or assembly 'Telerik.Web.UI, Version=2013.1.417.40, Culture=neutral, PublicKeyToken=121fae78165ba3d4' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+
+where the Version value is usually the old version you are upgrading from.
+
+It means that the reference to the Telerik.Web.UI assembly is wrong in the project. Here are several **common reasons for this problem and their solutions**:
+
+* The reference in the Visual Studio project itself points to the old version (e.g., to the installation folder). To resolve this, update the project references to point to the BIN and ensure the correct assemblies are there.
+
+* There is a `Register` directive with a fully qualified assembly name somewhere in your project that points to an old version (e.g., on a master page, or a user control, or in the web.config). There are several ways to fix it:
+
+	* The best resolution is to find and remove the old version reference. It is best to avoid fully qualified assembly names as this facilitates future upgrades. Usually, a `Registger` directive should look like this:
+
+		**ASP.NET**
+
+			<%@ Register Assembly="Telerik.Web.UI" Namespace="Telerik.Web.UI" TagPrefix="telerik" %>
+
+
+	* Update the `Register` directive to match the current version. You will have to repeat this process every time you upgrade.
+
+	* Add a `bindingRedirect` element in your web.config to point all references to the new version. You will need to update it every time you upgrade.
+
+		**web.config**
+
+			<configuration>
+				<runtime>
+					<dependentAssembly>
+					    <assemblyIdentity name="Telerik.Web.UI" publicKeyToken="121fae78165ba3d4" />
+					    <bindingRedirect oldVersion="1.0.0.0-2015.3.900.40" newVersion="2015.3.930.40" />
+					</dependentAssembly>
+				</runtime>
+			</configuration>
+
+* There is an explicit reference to a concrete Telerik controls version in another project (e.g., a data access layer, a second web app in the current solution, some custom class or custom controls assembly). In this case you will need to find the reference and update it.
 
 ## See Also
 
