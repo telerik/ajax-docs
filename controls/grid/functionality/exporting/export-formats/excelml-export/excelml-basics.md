@@ -14,7 +14,7 @@ position: 0
 
 ## Overview
 
-**ExcelML** is **XML-based** file format. It complies to the **Microsoft XMLSShttp://msdn.microsoft.com/en-us/library/aa140066(office.10).aspx** specification and is supported in *Microsoft Office 2003* and later. It is different from the rest of the export formats supported by **RadGrid** since its engine builds the output directly from the datasource and not from the page.
+**ExcelML** is **XML-based** file format. It complies to the [Microsoft XMLSS](http://msdn.microsoft.com/en-us/library/aa140066(office.10).aspx) specification and is supported in *Microsoft Office 2003* and later. It is different from the rest of the export formats supported by **RadGrid** since its engine builds the output directly from the datasource and not from the page.
 
 >note  **ExcelML** format works best with *advanced data-binding* or *data source control.* You will receive "**NullReferenceException**" if you use *simple data-binding* and ! *IsPostBack* ( *Not IsPostBack* ) check.
 >
