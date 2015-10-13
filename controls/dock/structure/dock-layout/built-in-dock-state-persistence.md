@@ -161,3 +161,5 @@ End Class
 Note that the value of **LayoutRepositoryID** is available via the **key** parameter of the above methods and can be included the custom storage provider implementation.
 
 The LoadDockLayout also provides a property **LayoutRepositoryID** which can be used for storing individual dock states that depend on the value of the property, e.g. for storing a unique dock state for every user in a website.
+
+>important If you are creating the **RadDock**, **RadDockZone** and/or **RadDockLayout** **programmatically**, you must use the **Page_Init** event. For more details about the server lifecycle of the control and what each event is suitable for, review the [RadDock Lifecycle]({%slug dock/structure/dock/lifecycle%}) article.
