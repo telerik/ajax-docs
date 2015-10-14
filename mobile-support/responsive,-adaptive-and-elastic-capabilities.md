@@ -126,7 +126,7 @@ A control can hardly be considered responsive by itself, because this heavily de
 /* Menu */ html .RadMenu,
 /* Notification */ html .RadNotification,
 /* PanelBar */ html .RadPanelBar,
-/^ PivotGrid */ html .RadPivotGrid,
+/* PivotGrid */ html .RadPivotGrid,
 				html .PivotGridWindow,
 /* ProgressBar */ html .RadProgressBar,
 /* Rating */ html .RadRating,
