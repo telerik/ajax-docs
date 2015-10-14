@@ -1,5 +1,5 @@
 ---
-title: Batch Editing Configuration
+title: Configuration
 page_title: Batch Editing Configuration | RadGrid for ASP.NET AJAX Documentation
 description: Batch Editing Configuration
 slug: grid/data-editing/edit-mode/batch-editing/configuration
