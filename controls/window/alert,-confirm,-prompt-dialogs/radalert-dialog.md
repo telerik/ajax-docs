@@ -53,6 +53,8 @@ RadWindowManager1.RadAlert("An <br /><b>html</b> string.<br />", 200, 100, "My A
 RadWindowManager1.RadAlert("An <br /><b>html</b> string.<br />", 200, 100, "My Alert", "callBackFn", "myAlertImage.png")
 ````
 
+Note that strings passed into this method will need to properly formatted and escaped for HTML and JavaScript. Please see the related article [Calling the Predefined Dialogs from the Server Methods]({%slug window/troubleshooting/calling-the-predefined-dialogs-from-the-server-methods%}).
+
 ![](images/window-radalert.png)
 
 >important The **callback function** is a client-side JavaScript function which is executed when the dialog is closed.
