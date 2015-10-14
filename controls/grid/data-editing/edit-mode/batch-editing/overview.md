@@ -3,6 +3,7 @@ title: Overview
 page_title: Batch Editing Overview | RadGrid for ASP.NET AJAX Documentation
 description: Batch Editing Overview
 slug: grid/data-editing/edit-mode/batch-editing/overview
+previous_url: /controls/grid/data-editing/edit-mode/batch-editing
 tags: batch,editing,overview
 published: True
 position: 0
