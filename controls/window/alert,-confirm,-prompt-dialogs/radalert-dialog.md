@@ -10,9 +10,10 @@ position: 1
 
 # RadAlert Dialog
 
->important In order to use this dialog you need to have a **RadWindowManager** on the page.
 
-The easiest of the three built-in dialogs is the **RadAlert**. This dialog only requires a single parameter: the string to display. This string can also contain HTML markup. Optionally, you can provide additional parameters to supply the dialog width and height, a title string, a callback function and an URL to replace its original image.
+The **RadAlert** dialog presents a modal message box and displays an "OK" button for the user. This dialog only requires a single parameter: the string to display. This string can also contain HTML markup. Optionally, you can provide additional parameters to supply the dialog width and height, a title string, a callback function and an URL to replace its original image.
+
+>important In order to use this dialog you need to have a **RadWindowManager** on the page.
 
 ## Calling RadAlert via JavaScript
 
@@ -53,7 +54,7 @@ RadWindowManager1.RadAlert("An <br /><b>html</b> string.<br />", 200, 100, "My A
 RadWindowManager1.RadAlert("An <br /><b>html</b> string.<br />", 200, 100, "My Alert", "callBackFn", "myAlertImage.png")
 ````
 
-Note that strings passed into this method will need to properly formatted and escaped for HTML and JavaScript. Please see the related article [Calling the Predefined Dialogs from the Server Methods]({%slug window/troubleshooting/calling-the-predefined-dialogs-from-the-server-methods%}).
+>note Strings passed into this method must be properly formatted and escaped for HTML and JavaScript. Please see the related article [Calling the Predefined Dialogs from the Server Methods]({%slug window/troubleshooting/calling-the-predefined-dialogs-from-the-server-methods%}).
 
 ![](images/window-radalert.png)
 
@@ -67,3 +68,7 @@ Note that strings passed into this method will need to properly formatted and es
 >
 
 The appearance of the alert dialog is controlled by two things: the **Skin** property of the **RadWindowManager**, and the values you pass in as arguments to **RadAlert**. The arguments can include the HTML string you pass in as a message, the width, the height, and the Title string. The **Skin** property controls not only the appearance of the popup's title bar, but also the layout of the dialog: its icon, button style, and so on. This dialog layout and appearance is controlled by the alert dialog template associated with the Skin. For details on how to customize the template, see [Templates]({%slug window/alert,-confirm,-prompt-dialogs/how-to-change-the-dialog-templates%}).
+
+## See Also
+
+ * [Calling the Predefined Dialogs from the Server Methods]({%slug window/troubleshooting/calling-the-predefined-dialogs-from-the-server-methods%})
