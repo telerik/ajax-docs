@@ -204,30 +204,6 @@ Retuns Telerik.Web.UI.TileList.TileGroup by provided index in the collecion retu
 
 `Telerik.Web.UI.TileList.TileGroup` 
 
-### set_groupTitle
-
-Sets the title to the provided group
-
-#### Parameters
-
-##### group `Telerik.Web.UI.TileList.TileGroup`
-
-##### title `String`
-
-#### Returns
-
-`None`
-
-### clearGroupTitles
-
-Clears all group titles
-
-#### Parameters
-
-#### Returns
-
-`None`
-
 ### get_height
 
 Returns the height of the RadTileList element
