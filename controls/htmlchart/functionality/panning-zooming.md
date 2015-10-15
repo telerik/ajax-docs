@@ -9,17 +9,97 @@ position: 7
 ---
 
 # Panning and Zooming
-As of **Q1 2016**, **RadHtmlChart** exposes **Pan** and **Zoom** features for category and numeric series.  These features help the end-user to navigate and zoom the chart.
+**Pan** and **Zoom** help end-user to navigate through and zoom in/out the **RadHtmlChart**. You can find here more details how to configure and adjust these features.
 
->caption Figure 1: Chart that can be panned to all directions.
+**Pan** and **Zoom** are supported in **RadHtmlChart** as of **Q1 2016**.
+
+>caption Figure 1: Chart that can be panned to all directions (the result from the configuration in Example 1).
 
 ![](images/HtmlChart-Pan-Lock-None.png)
 
->caption Figure 2: Chart that is zoomed using Selection, where selection is locked for Y axis.
+>caption Example 1: Enabling Pan in HtmlChart.
+
+````ASP.NET
+<telerik:RadHtmlChart runat="server"  ID="RadHtmlChart1">
+    <Pan Enabled="true" />
+    <PlotArea>
+        <Series>
+            <telerik:ColumnSeries>
+                <Items>
+                    <telerik:SeriesItem YValue="10" /> 
+                    <telerik:SeriesItem YValue="15" /> 
+                    <telerik:SeriesItem YValue="53" /> 
+                    <telerik:SeriesItem YValue="0" /> 
+                    <telerik:SeriesItem YValue="120" /> 
+                    <telerik:SeriesItem YValue="15" /> 
+                    <telerik:SeriesItem YValue="6" /> 
+                    <telerik:SeriesItem YValue="29" /> 
+                    <telerik:SeriesItem YValue="31" /> 
+                    <telerik:SeriesItem YValue="22" /> 
+                    <telerik:SeriesItem YValue="86" /> 
+                    <telerik:SeriesItem YValue="24" /> 
+                    <telerik:SeriesItem YValue="53" /> 
+                    <telerik:SeriesItem YValue="39" /> 
+                    <telerik:SeriesItem YValue="29" /> 
+                    <telerik:SeriesItem YValue="150" /> 
+                    <telerik:SeriesItem YValue="45" /> 
+                </Items>
+            </telerik:ColumnSeries>
+        </Series>
+        <XAxis MinValue="2" MaxValue="15">
+            <MinorGridLines Visible="false"/>
+        </XAxis>
+        <YAxis MinValue="0" MaxValue="140"/>
+    </PlotArea>
+</telerik:RadHtmlChart>
+````
+
+>caption Figure 2: Chart that is zoomed using Selection, where selection is locked for Y axis (the result from the configuration in Example 2).
 
 ![](images/HtmlChart-Zoom-Selection.png)
 
-Here you can the full list if the available **Pan** and **Zoom** properties and options:
+>caption Example 2: Enabling MouseWheel-Zoom and with Selection-Zoom locked for Y axis.
+
+````ASP.NET
+<telerik:RadHtmlChart runat="server"  ID="RadHtmlChart1">
+    <Pan Enabled="true" />
+    <Zoom Enabled="true">
+        <MouseWheel Enabled="true" Lock="Y" />
+        <Selection Enabled="true" Lock="Y" ModifierKey="Shift" />
+    </Zoom>
+    <PlotArea>
+        <Series>
+            <telerik:ColumnSeries>
+                <Items>
+                    <telerik:SeriesItem YValue="10" /> 
+                    <telerik:SeriesItem YValue="15" /> 
+                    <telerik:SeriesItem YValue="53" /> 
+                    <telerik:SeriesItem YValue="0" /> 
+                    <telerik:SeriesItem YValue="120" /> 
+                    <telerik:SeriesItem YValue="15" /> 
+                    <telerik:SeriesItem YValue="6" /> 
+                    <telerik:SeriesItem YValue="29" /> 
+                    <telerik:SeriesItem YValue="31" /> 
+                    <telerik:SeriesItem YValue="22" /> 
+                    <telerik:SeriesItem YValue="86" /> 
+                    <telerik:SeriesItem YValue="24" /> 
+                    <telerik:SeriesItem YValue="53" /> 
+                    <telerik:SeriesItem YValue="39" /> 
+                    <telerik:SeriesItem YValue="29" /> 
+                    <telerik:SeriesItem YValue="150" /> 
+                    <telerik:SeriesItem YValue="45" /> 
+                </Items>
+            </telerik:ColumnSeries>
+        </Series>
+        <XAxis MinValue="2" MaxValue="15">
+            <MinorGridLines Visible="false" />
+        </XAxis>
+        <YAxis MinValue="0" MaxValue="140"></YAxis>
+    </PlotArea>
+</telerik:RadHtmlChart>
+````
+
+You can find the full list of the available **Pan** and **Zoom** properties in the following sections.
 
 ## Pan
 
@@ -63,6 +143,12 @@ If **Selection** is enabled without a modifier key (or if **ModifierKey** proper
     *   _X_—X axis is locked, i.e., user can zoom only by Y axis.
     *   _Y_—Y axis is locked. i.e., user can zoom only by X axis (**Figure 2**).
     
+## Controlling Initial View
+
+In order to render the chart with some initial zoom level, you can use the min (**MinValue** property) and max (**MaxValue** property) values of the axis to be zoomed. 
+
+In examples **1** and **2** you can see how defining initially the min and max values actually zoom accordingly into X and Y axis. Thus, enabling the end user to either zoom or pan the chart. 
+
 ## See Also
 
 * [Demo: Panning and Zooming](http://demos.telerik.com/aspnet-ajax/HtmlChart/Examples/Functionality/Panning-Zooming/DefaultCS.aspx)
