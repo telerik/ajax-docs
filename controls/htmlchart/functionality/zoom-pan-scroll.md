@@ -11,7 +11,7 @@ position: 7
 # Panning and Zooming
 **Pan** and **Zoom** help end-user to navigate through and zoom in/out the **RadHtmlChart**. You can find here more details how to configure and adjust these features.
 
-**Pan** and **Zoom** are supported in **RadHtmlChart** as of **Q1 2016**.
+**Pan** and **Zoom** are supported in **RadHtmlChart** as of **Q1 2016**. They are also available only for series that use cartesian coordinate system (i.e., category and numeric series).
 
 >caption Figure 1: Chart that can be panned to all directions (the result from the configuration in Example 1).
 
