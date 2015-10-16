@@ -2,7 +2,7 @@
 title: RadStandardButton Not Performing Postback
 page_title: RadStandardButton Not Performing Postback | RadStandardButton for ASP.NET AJAX Documentation
 description: RadStandardButton Not Performing Postback
-slug: standardbutton/troubleshooting/radbutton-not-performing-postback
+slug: standardbutton/troubleshooting/radstandardbutton-not-performing-postback
 tags: radstandardbutton,not,performing,postback
 published: True
 position: 0

@@ -14,21 +14,25 @@ The **RadStandardButton** fully supports right-to-left (RTL) language locales (*
 
 >caption Figure 1: RadStandardButton in RTL mode.
 
-![radbutton-rtl-screenshot](images/radbutton-rtl-screenshot.png)
+![radstandardbutton-rtl](images/radstandardbutton-rtl.png)
 
->caption Example 1: Set the dir=rtl attribute to the **RadStandardButton**'s wrapper element in order to enable the RTL support for the control.
+>caption Example 1: Set the "direction: rtl" style to the **RadStandardButton**'s wrapper element in order to enable the RTL support for the control.
 
 ````ASP.NET
-<div dir="rtl">
-	<telerik:RadStandardButton runat="server" ID="RadStandardButton1" Text="Push Button 1">
-		<Icon CssClass="rbUpload" Right="10" Top="3" />
+<div style="direction: rtl">
+	<telerik:RadStandardButton runat="server" ID="RadStandardButton1" Text="RadStandardButton">
+	</telerik:RadStandardButton>
+	<br />
+	<br />
+	<telerik:RadStandardButton runat="server" ID="RadStandardButton2" Text="RadStandardButton with Icon">
+		<Icon CssClass="rbUpload" />
 	</telerik:RadStandardButton>
 </div>
 ````
 
 ## See Also
 
- * [See this live in an online demo](http://demos.telerik.com/aspnet-ajax/button/examples/righttoleft/defaultcs.aspx)
+ * [See this live in an online demo](http://demos.telerik.com/aspnet-ajax/standardbutton/examples/righttoleft/defaultcs.aspx)
 
  * [WCAG 2.0 and Section 508 Accessibility Compliance]({%slug standardbutton/accessibility-and-internationalization/wcag-2.0-and-section-508-accessibility-compliance%})
 

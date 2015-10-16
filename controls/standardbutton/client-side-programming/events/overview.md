@@ -16,13 +16,13 @@ The RadStandardButton exposes several client-side events which allow easy and fl
 
 * **OnClientLoad (load)** - raised when the control is initialized.
 
-* **[OnClientClicking (clicking)]({%slug button/client-side-programming/events/onclientclicking%})** - raised when the user clicks the button. The event can be canceled.
+* **[OnClientClicking (clicking)]({%slug standardbutton/client-side-programming/events/onclientclicking%})** - raised when the user clicks the button. The event can be canceled.
 
-* **[OnClientClicked (clicked)]({%slug button/client-side-programming/events/onclientclicked%})** - raised when the button is clicked. The event is subsequent to the **OnClientClicking** event.
+* **[OnClientClicked (clicked)]({%slug standardbutton/client-side-programming/events/onclientclicked%})** - raised when the button is clicked. The event is subsequent to the **OnClientClicking** event.
 
-* **[OnClientMouseOver (mouseOver)]({%slug button/client-side-programming/events/onclientmouseover%})** - raised when the mouse hovers over the control.
+* **[OnClientMouseOver (mouseOver)]({%slug standardbutton/client-side-programming/events/onclientmouseover%})** - raised when the mouse hovers over the control.
 
-* **[OnClientMouseOut (mouseOut)]({%slug button/client-side-programming/events/onclientmouseout%})** - raised when the mouse leaves the control.
+* **[OnClientMouseOut (mouseOut)]({%slug standardbutton/client-side-programming/events/onclientmouseout%})** - raised when the mouse leaves the control.
 
 The event handler method for any of the events can be set on the server and on the client.
 

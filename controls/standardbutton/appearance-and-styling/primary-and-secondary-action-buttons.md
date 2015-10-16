@@ -36,10 +36,16 @@ Bootstrap Skin:
 <telerik:RadStandardButton ID="RadStandardButton6" runat="server" Text="Secondary Button" Skin="Bootstrap" />
 ````
 
+<!--
+
 >caption Example 2: The code that renders the result in Figure 1.
 
 ````ASP.NET
 <style>
+	body {
+		font-size: 12px;
+	}
+
 	.buttonsWrapper {
 		display: inline-block;
 	}
@@ -47,6 +53,7 @@ Bootstrap Skin:
 	td {
 		padding: 5px;
 	}
+
 	.skinName {
 		margin-left: 5px;
 	}
@@ -56,52 +63,50 @@ Bootstrap Skin:
 	<table>
 		<thead>
 			<tr>
-				<td>
-					
-				</td>
+				<td></td>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
 				<td>PRIMARY
-					<br />
+                    <br />
 					BUTTONS
 				</td>
 				<td>SECONDARY
-					<br />
+                    <br />
 					BUTTONS
 				</td>
 			</tr>
 			<tr>
 				<td>
-					<telerik:RadStandardButton ID="RadStandardButton1" runat="server" Text="Normal" Width="60px" CssClass="rbPrimaryButton" />
+					<telerik:RadStandardButton ID="RadStandardButton1" runat="server" Text="Normal" Width="69px" CssClass="rbPrimaryButton" />
 				</td>
 				<td>
-					<telerik:RadStandardButton ID="RadStandardButton2" runat="server" Text="Normal" Width="60px" />
-				</td>
-			</tr>
-			<tr>
-				<td>
-					<telerik:RadStandardButton ID="RadStandardButton3" runat="server" Text="Hover" Width="60px" CssClass="rbPrimaryButton" />
-				</td>
-				<td>
-					<telerik:RadStandardButton ID="RadStandardButton4" runat="server" Text="Hover" Width="60px" />
+					<telerik:RadStandardButton ID="RadStandardButton2" runat="server" Text="Normal" Width="69px" />
 				</td>
 			</tr>
 			<tr>
 				<td>
-					<telerik:RadStandardButton ID="RadStandardButton5" runat="server" Text="Active" Width="60px" CssClass="rbPrimaryButton" />
+					<telerik:RadStandardButton ID="RadStandardButton3" runat="server" Text="Hover" Width="69px" CssClass="rbPrimaryButton rbHovered" />
 				</td>
 				<td>
-					<telerik:RadStandardButton ID="RadStandardButton6" runat="server" Text="Active" Width="60px" />
+					<telerik:RadStandardButton ID="RadStandardButton4" runat="server" Text="Hover" Width="69px" CssClass="rbHovered" />
 				</td>
 			</tr>
 			<tr>
 				<td>
-					<telerik:RadStandardButton ID="RadStandardButton7" runat="server" Text="Disabled" Width="60px" Enabled="false" CssClass="rbPrimaryButton" />
+					<telerik:RadStandardButton ID="RadStandardButton5" runat="server" Text="Active" Width="69px" CssClass="rbPrimaryButton rbSelected" />
 				</td>
 				<td>
-					<telerik:RadStandardButton ID="RadStandardButton8" runat="server" Text="Disabled" Width="60px" Enabled="false" />
+					<telerik:RadStandardButton ID="RadStandardButton6" runat="server" Text="Active" Width="69px" CssClass="rbSelected" />
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<telerik:RadStandardButton ID="RadStandardButton7" runat="server" Text="Disabled" Width="69px" Enabled="false" CssClass="rbPrimaryButton" />
+				</td>
+				<td>
+					<telerik:RadStandardButton ID="RadStandardButton8" runat="server" Text="Disabled" Width="69px" Enabled="false" />
 				</td>
 			</tr>
 		</tbody>
@@ -171,13 +176,10 @@ Protected Sub SetUserControlSkin(skinName As String, cc As ControlCollection)
 End Sub
 ````
 
+-->
 
 ## See Also
 
- * [Skins]({%slug button/appearance-and-styling/skins%})
+ * [Skins]({%slug standardbutton/appearance-and-styling/skins%})
 
- * [CSS Classes]({%slug button/appearance-and-styling/css-classes%})
-
- * [Creating a Custom Skin]({%slug button/appearance-and-styling/creating-a-custom-skin%})
-
- * [Custom Height Tutorial]({%slug button/appearance-and-styling/custom-height-tutorial%})
+ * [Create a Custom Skin]({%slug standardbutton/appearance-and-styling/create-a-custom-skin%})

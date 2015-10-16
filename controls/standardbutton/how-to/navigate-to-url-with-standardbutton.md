@@ -1,14 +1,14 @@
 ---
-title: Use NavigateUrl with RadStandardButton
-page_title: Use NavigateUrl with RadStandardButton | RadStandardButton for ASP.NET AJAX Documentation
-description: Use NavigateUrl with RadStandardButton
-slug: standardbutton/how-to/use-navigateurl-with-standardbutton-type
-tags: use,navigateurl,with,standardbutton,type
+title: Navigate to Url with RadStandardButton
+page_title: Navigate to Url with RadStandardButton | RadStandardButton for ASP.NET AJAX Documentation
+description: Navigate to Url with RadStandardButton
+slug: standardbutton/how-to/navigate-to-url-with-standardbutton
+tags: navigate, to, url,with,standardbutton
 published: True
-position: 1
+position: 0
 ---
 
-# Use NavigateUrl with RadStandardButton
+# Navigate to Url with RadStandardButton
 
 The **RadLinkButton** control has a **NavigateUrl** property which is used for specifying a URL to redirect to.
 
@@ -31,5 +31,3 @@ There is a way to achieve this functionality with a **RadStandardButton** as wel
 ## See Also
 
  * [OnClientClicking]({%slug standardbutton/client-side-programming/events/onclientclicking%})
-
- * [RadStandardButton Validation and Client-side Event Handlers]({%slug standardbutton/how-to/radstandardbutton-validation-and-client-side-event-handlers%})

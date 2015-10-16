@@ -10,7 +10,7 @@ position: 3
 
 # Render Modes
 
-**RadStandardButton** has two different render modes (**Lightweight** and **Native**) that can change the actual CSS that is used. They are exposed via the **RenderMode** property that can have five possible values - **Classic**, **Lightweight**, **Native**, **Mobile** and **Auto**.	This functionality was introduced in the **Q1 2015** version.
+**RadStandardButton** has two different render modes (**Lightweight** and **Native**) that can change the actual CSS that is used. They are exposed via the **RenderMode** property that can have five possible values - **Classic**, **Lightweight**, **Native**, **Mobile** and **Auto**.
 
 The possible options are:
 

@@ -12,7 +12,7 @@ position: 2
 
 The **RadStandardButton**, just like the rest of the Telerik controls, only needs the *name* of the JavaScript function that will be a handler for its client-side events.
 
-Its client-side click events are [OnClientClicking]({%slug standardbutton/client-side-programming/events/onclientclicking%}) and	[OnClientClicked]({%slug button/client-side-programming/events/onclientclicked%}) to be uniform with the rest of the controls.
+Its client-side click events are [OnClientClicking]({%slug standardbutton/client-side-programming/events/onclientclicking%}) and	[OnClientClicked]({%slug standardbutton/client-side-programming/events/onclientclicked%}) to be uniform with the rest of the controls.
 
 The **AutoPostBack** property, when set to **false**, has the same effect as adding the **return false;** statement to the	**OnClientClick** handler for the regular ASP button. Alternatively, you can cancel the **OnClientClicking** event to avoid the postback.
 

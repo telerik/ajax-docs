@@ -20,8 +20,6 @@ The event handler receives two parameters:
 
 1. An eventArgs parameter of type Telerik.Web.UI.**RadButtonCancelEventArgs**, containing the following properties and methods:
 
-	* IsSplitButtonClick() - returns a bool value that indicates whether the split button or the main button is clicked. True means the split button was clicked.
-
 	* get_cancel() - returns a bool value that indicates whether the event was canceled. True means the event is canceled.
 
 	* set_cancel(*shouldCancel*) - sets a bool value that indicates whether the event will be canceled. Setting true means the event will be canceled.
@@ -54,8 +52,4 @@ Protected Sub RadStandardButton1_Click(ByVal sender As Object, ByVal e As System
 	RadStandardButton1.Text = "RadStandardButton was clicked at: " + DateTime.Now.ToString
 End Sub
 ````
-
-
->note Since Q2 2012 the event **OnClientClicking** is raised after the ASP.NET client-side validation on the page takes place. This will handle the problem described in the help article [RadStandardButton Validation And Client-side Event Handlers]({%slug standardbutton/how-to/radbutton-validation-and-client-side-event-handlers%}).
-
 

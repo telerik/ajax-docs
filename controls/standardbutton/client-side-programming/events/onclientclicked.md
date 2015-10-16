@@ -20,8 +20,6 @@ The event handler receives two parameters:
 
 1. An eventArgs parameter of type Telerik.Web.UI.**RadButtonEventArgs**, containing the following properties and methods:
 
-	* IsSplitButtonClick () - returns a bool value that indicates whether the split button or the main button is clicked. True means the split button was clicked.
-
 	* get_commandName() - returns the value assigned to the RadStandardButton's **CommandName** property
 
 	* get_commandArgument() - returns the value assigned to the RadStandardButton's **CommandArgument** property
