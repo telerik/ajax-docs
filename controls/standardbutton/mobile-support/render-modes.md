@@ -14,7 +14,7 @@ position: 3
 
 The possible options are:
 
-* **Classic**—this mode is the rendering that has been used before and is not currently provided. If you set it, the mode will fall back automatically to **Lightweight**.
+* **Classic**—this mode is not supported. If you set it, the mode will fall back automatically to **Lightweight**.
 
 * **Lightweight**—this mode emphasizes on semantic HTML and CSS3. It reduces the amount of markup the control renders	and makes it easier to customize. This also reduces the number of image sprites required by the control. All of this decreases the overall size and complexity of each skin, including custom ones.
 

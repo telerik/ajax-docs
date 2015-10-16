@@ -5,7 +5,7 @@ description: ContentTemplate
 slug: standardbutton/functionality/contenttemplate
 tags: contenttemplate
 published: True
-position: 1
+position: 2
 ---
 
 # ContentTemplate

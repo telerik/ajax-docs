@@ -5,7 +5,7 @@ description: Icons
 slug: standardbutton/appearance-and-styling/icons
 tags: icons
 published: True
-position: 1
+position: 0
 ---
 
 # Icons Overview

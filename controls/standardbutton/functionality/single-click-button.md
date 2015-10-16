@@ -5,7 +5,7 @@ description: Single Click Button
 slug: standardbutton/functionality/single-click-button
 tags: single,click,button
 published: True
-position: 0
+position: 1
 ---
 
 # Single Click Button
