@@ -18,3 +18,5 @@ Key features of the framework are:
 * Long-term persistence of Telerik controls' UI-modifiable state
 * Persistence of custom key-value settings
 * Ability to implement own storage and serialization providers
+
+By default control settings are stored in the `~/App_Data` folder in a file for each unique state—the file name is the value of the `StorageProviderKey` property.
