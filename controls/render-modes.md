@@ -30,6 +30,8 @@ The possible options are:
 
 * **Auto** - this mode makes each control choose the appropriate rendering mode according to the used	browser - **Classic**, **Lightweight** or **Mobile**.The behavior of the affected controls depends also on the available render modes, for example in touch devices the mode will be changed automatically to **Mobile**, if it is supported. If it is not, the mode will fall back until it meets the best mode that fits the environment. This functionality was added in Q3 2013.
 
+	>note For the automatic RenderMode detection to work, your project must reference the [Telerik.Web.Device.Detection.dll assembly]({%slug introduction/installation/included-assemblies%}).
+
 You can find a list with the controls that support alternative render modes in the [Render Modes List]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/mobile-support/render-modes%}) help article.
 
 >note Only one type of render mode is supported per page for each control type. For example, all RadDock controls on the page must have the same valueof the RenderMode property set. This includes instances from master pages, content pages and user controls.
