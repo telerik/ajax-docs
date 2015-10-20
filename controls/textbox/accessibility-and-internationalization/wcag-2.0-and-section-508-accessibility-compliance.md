@@ -1,6 +1,6 @@
 ---
 title: WCAG 2.0 and Section 508 Accessibility Compliance
-page_title: WCAG 2.0 and Section 508 Accessibility Compliance | RadInput for ASP.NET AJAX Documentation
+page_title: WCAG 2.0 and Section 508 Accessibility Compliance | RadTextBox for ASP.NET AJAX Documentation
 description: WCAG 2.0 and Section 508 Accessibility Compliance
 slug: input/accessibility-and-internationalization/wcag-2.0-and-section-508-accessibility-compliance
 tags: wcag,2.0,and,section,508,accessibility,compliance
@@ -14,13 +14,13 @@ position: 0
 
 ## XHTML 1.1
 
-**RadInput** is fully compliant with the XHTML 1.1 requirement.
+**RadTextBox** is fully compliant with the XHTML 1.1 requirement.
 
 ## Compliance Level
 
-1. Telerik RadInput is Level **AA** compliant (in conformance with the **W3C Web Accessibility Guidelines 1.0**).
+1. Telerik RadTextBox is Level **AA** compliant (in conformance with the **W3C Web Accessibility Guidelines 1.0**).
 
-1. Telerik RadInput satisfies the requirements of **"Section 508"** for software accessibility. As a result, the component can be used in US Federal Institutions and other organizations, which require software to be accessible to people with disabilities.
+1. Telerik RadTextBox satisfies the requirements of **"Section 508"** for software accessibility. As a result, the component can be used in US Federal Institutions and other organizations, which require software to be accessible to people with disabilities.
 
 ## Section 508
 
@@ -42,7 +42,7 @@ For more details on W3C "Web Content Accessibility Guidelines 1.0" see [http://w
 
 In our attempt to make our products compliant, each web-control we develop and its QSF strive to obtain at least one of conformance levels listed above.
 
-**RadInput** also has full support for keyboard navigation with Access Keys and Arrow-key navigation.
+**RadTextBox** also has full support for keyboard navigation with Access Keys and Arrow-key navigation.
 
 # See Also
 
