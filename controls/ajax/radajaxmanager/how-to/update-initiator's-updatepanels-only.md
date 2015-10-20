@@ -98,18 +98,18 @@ Since **Q2 2012 SP2** release a new property **UpdateInitiatorPanelsOnly** is ad
 	</AjaxSettings>
 </telerik:RadAjaxManager>
 <div>
-<asp:Panel ID="Panel3" runat="server">
-<asp:Button ID="Button3" runat="server" Text="Update the first Panel" OnClick="Button1_Click" />
-<asp:Label ID="Label3" runat="server" Text="Label1">
+<asp:Panel ID="Panel1" runat="server">
+<asp:Button ID="Button1" runat="server" Text="Update the first Panel" OnClick="Button1_Click" />
+<asp:Label ID="Label1" runat="server" Text="Label1">
 </asp:Label>
 </asp:Panel>
 <br />
-<asp:Panel ID="Panel4" runat="server">
-<asp:Button ID="Button4" runat="server" Text="Update the second Panel" OnClick="Button2_Click" />
-<asp:Label ID="Label4" runat="server" Text="Label2">
+<asp:Panel ID="Panel2" runat="server">
+<asp:Button ID="Button2" runat="server" Text="Update the second Panel" OnClick="Button2_Click" />
+<asp:Label ID="Label2" runat="server" Text="Label2">
 </asp:Label>
 </asp:Panel>
-<telerik:RadAjaxLoadingPanel ID="RadAjaxLoadingPanel2" runat="server" Skin="Default">
+<telerik:RadAjaxLoadingPanel ID="RadAjaxLoadingPanel1" runat="server" Skin="Default">
 </telerik:RadAjaxLoadingPanel>
 </div>
 ````
