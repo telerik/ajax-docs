@@ -53,6 +53,7 @@ Some controls from the UI for ASP.NET AJAX suite	can produce different (usually 
 |PivotGrid|[Yes (render mode)]({%slug pivotgrid/mobile-support/render-modes%})|-|
 |ProgressArea|-|-|
 |ProgressBar|Yes (by design)|-|
+|PushButton|[Yes (by design)]({%slug pushbutton/mobile-support/render-modes%})|-|
 |Rating|[Yes (render mode)]({%slug rating/mobile-support/render-modes%})|-|
 |RibbonBar|-|-|
 |Rotator|Yes (by design)|-|
@@ -63,7 +64,6 @@ Some controls from the UI for ASP.NET AJAX suite	can produce different (usually 
 |SocialShare|[Yes (render mode)]({%slug socialshare/mobile-support/render-modes%})|-|
 |Spell|Yes (child control - Window)|-|
 |Splitter|[Yes (render mode)]({%slug splitter/mobile-support/render-modes%})|-|
-|StandardButton|[Yes (by design)]({%slug standardbutton/mobile-support/render-modes%})|-|
 |TabStrip|-|-|
 |TagCloud|Yes (by design)|-|
 |Ticker|Yes (by design)|-|

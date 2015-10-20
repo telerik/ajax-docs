@@ -68,6 +68,7 @@ A control can hardly be considered responsive by itself, because this heavily de
 |PivotGrid|[Yes]({%slug pivotgrid/mobile-support/fluid-and-elastic-capabilities%})|[Yes]({%slug pivotgrid/mobile-support/fluid-and-elastic-capabilities%})|No|No|
 |Progress Area|No|No|No|No|
 |Progress Bar|[Yes]({%slug progressbar/mobile-support/elastic-design%})|[Yes]({%slug progressbar/mobile-support/fluid-design%})|[Yes]({%slug progressbar/mobile-support/elastic-design%})|No|
+|PushButton|[Yes]({%slug pushbutton/mobile-support/elastic-design%})|[Yes]({%slug pushbutton/mobile-support/fluid-design%})|No|No|
 |Rating|[Yes]({%slug rating/mobile-support/elastic-design%})|No|No|N/A|
 |RibbonBar|No|Yes|No|No|
 |Rotator|[Yes]({%slug rating/mobile-support/elastic-design%})|Yes|[Yes]({%slug rotator/mobile-support/overview%})|N/A|
@@ -78,7 +79,6 @@ A control can hardly be considered responsive by itself, because this heavily de
 |SocialShare|[Yes]({%slug socialshare/mobile-support/elastic-design%})|[Yes]({%slug socialshare/mobile-support/fluid-design%})|No|No|
 |Spell|No|No|No|No|
 |Splitter|[Limited]({%slug splitter/mobile-support/elastic-design%})|[Yes]({%slug splitter/layout/filling-the-entire-page%})|[Yes]({%slug splitter/layout/filling-the-entire-page%})|N/A|
-|StandardButton|[Yes]({%slug standardbutton/mobile-support/elastic-design%})|[Yes]({%slug standardbutton/mobile-support/fluid-design%})|No|No|
 |TabStrip|No|No|N/A|N/A|
 |TagCloud|[Yes]({%slug tagcloud/mobile-support/resposnive,-adaptive-and-elastic-capabilities%})|N/A|[Yes]({%slug tagcloud/mobile-support/resposnive,-adaptive-and-elastic-capabilities%})|N/A|
 |Ticker|[Yes]({%slug rotator/mobile-support/radticker-elastic-capabilities%})|Yes|No|N/A|
