@@ -1,20 +1,20 @@
 ---
 title: Multi-Line Text Boxes
-page_title: Multi-Line Text Boxes | RadInput for ASP.NET AJAX Documentation
-description: Multi-Line Text Boxes
-slug: input/appearance-and-styling/multi-line-text-boxes
+page_title: Multi-Line Text Box | RadTextBox for ASP.NET AJAX Documentation
+description: Multi-Line Text Box
+slug: textbox/appearance-and-styling/multi-line-text-boxes
 tags: multi-line,text,boxes
 published: True
 position: 10
 ---
 
-# Multi-Line Text Boxes
+# Multi-Line Text Box
 
 
 
 ## 
 
-You can create multi-line **RadTextBox** and **RadMaskedTextBox** controls by setting the **TextMode** property to "MultiLine". When the **TextMode** property is "MultiLine", the text box displays its value using multiple lines.
+You can create multi-line **RadTextBox** control by setting the **TextMode** property to "MultiLine". When the **TextMode** property is "MultiLine", the text box displays its value using multiple lines.
 
 The **Columns** property determines the width of each line in characters, and the **Rows** property determines the number of lines the text box displays. The **Wrap** property determines how the value in the text box is displayed within the area defined by the **Columns** and **Rows** properties:
 
@@ -26,20 +26,10 @@ If the value in the text box extends beyond the number of rows specified by the 
 * If the **Wrap** property is **False**, the value in the text box does not wrap. Additional lines are used only if the text value includes a new-line character. A horizontal scroll bar appears if the value of any line exceeds the limit set by the **Columns** property:
 ![Non wrapping text box](images/NonWrappingTextBox.png)
 
-When working with a multi-line **RadMaskedTextBox** control, you can enter the carriage-return line feed characters as literal parts of the mask to format the layout of the value:
-![Multi-line RadMaskedTextBox](images/MultiLineMaskedTextBox.png)
-
-````ASPNET
-<telerik:RadMaskedTextBox ID="RadMaskedTextBox1" runat="server" Skin="Office2007"
-	Label="Contact:" TextMode="MultiLine" Mask="Phone: (###) ### - ####\r\nF\ax: (###) ### - ####"
-	Rows="2" Columns="25">
-</telerik:RadMaskedTextBox>
-````
 
 
 
 # See Also
 
- * [RadTextBox Overview]({%slug input/radtextbox/overview%})
+ * [RadTextBox Overview]({%slug textbox/radtextbox/overview%})
 
- * [RadMaskedTextBox Overview]({%slug input/radmaskedtextbox/overview%})

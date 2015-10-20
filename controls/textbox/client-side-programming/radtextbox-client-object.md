@@ -1,8 +1,8 @@
 ---
 title: RadTextBox Client Object
-page_title: RadTextBox Client Object | RadInput for ASP.NET AJAX Documentation
+page_title: RadTextBox Client Object | RadTextBox for ASP.NET AJAX Documentation
 description: RadTextBox Client Object
-slug: input/client-side-programming/radtextbox-client-object
+slug: textbox/client-side-programming/radtextbox-client-object
 tags: radtextbox,client,object
 published: True
 position: 1

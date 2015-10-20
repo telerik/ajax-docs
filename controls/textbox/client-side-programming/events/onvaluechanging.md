@@ -16,7 +16,7 @@ position: 16
 
 The **OnValueChanging** client-side event handler is called when the user changes the value of the input control. The event occurs immediately after the control loses focus, but before its value has been updated.
 
->note The **OnValueChanging** event is supported by: **RadNumericTextBox** , **RadDateInput** , and **RadTextBox** . On **RadNumericTextBox** , **OnValueChanging** does not occur if the user enters a non-numeric value.
+>note The **OnValueChanging** event is supported by **RadTextBox**, if the user enters a numeric value.
 >
 
 

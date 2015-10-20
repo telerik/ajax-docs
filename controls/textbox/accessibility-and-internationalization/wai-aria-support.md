@@ -1,6 +1,6 @@
 ---
 title: WAI-ARIA Support
-page_title: WAI-ARIA Support | RadInput for ASP.NET AJAX Documentation
+page_title: WAI-ARIA Support | RadTextBox for ASP.NET AJAX Documentation
 description: WAI-ARIA Support
 slug: input/accessibility-and-internationalization/wai-aria-support
 tags: wai-aria,support
@@ -16,7 +16,7 @@ position: 2
 
 ## 
 
-The **RadInput**, **RadDateInput**, **RadNumericTextBox** controls offer **WAI-ARIA** support which can be easily enabled by setting the **EnableAriaSupport** server property to **true**.
+The **RadTextBox** control offers **WAI-ARIA** support which can be easily enabled by setting the **EnableAriaSupport** server property to **true**.
 
 All ARIA attributes are **lower case**. They are shown in the table below.
 
@@ -25,9 +25,8 @@ All ARIA attributes are **lower case**. They are shown in the table below.
 
 |  **Control**  |  **Attributes**  |
 | ------ | ------ |
-| **RadInput-common** |Aria-atomic = true; Aria-hidden – removed (no longer applicable to current rendering)|
-| **RadDateInput** |Aria-valuemax : max date; Aria-valuemin: min date|
-| **RadNumericTextBox** |Aria-valuemax : max value; Aria-valuemin: min value; Change:; Role:spinbutton|
+| **RadTextBox** |Aria-atomic = true; Aria-hidden – removed (no longer applicable to current rendering)|
+
 
 >note An issue with the use of WAI-ARIA in HTML documents is that they don’t validate. When you run a HTML document containing ARIA attributes through the W3C Validator it shows errors in the results for any ARIA attributes. The DOCTYPE declarations do not include any information about the WAI ARIA attributes and you cannot have a valid document which includes elements, attributes, and attribute values, not detailed in its DTD’s.
 >
