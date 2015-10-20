@@ -472,6 +472,20 @@ Sets the data for the underlying data bindable control
 
 `None` 
 
+### set_height
+
+Set the height of the FileList. This will call set_height of all the FileListViews
+
+#### Parameters
+
+##### height `String`
+
+The height to be set.
+
+#### Returns
+
+`None`
+
 ###  set_pageSize
 
 Set the size of the page, i.e. the maximum number of items per page
