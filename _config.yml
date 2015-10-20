@@ -324,8 +324,8 @@ navigation:
     "controls/spreadsheet":
         title: "Spreadsheet"
         position: 1
-    "controls/standardbutton":
-        title: "StandardButton"
+    "controls/pushbutton":
+        title: "PushButton"
         position: 1
     "controls/stylesheetmanager":
         title: "StyleSheet Manager"
