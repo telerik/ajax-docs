@@ -1,8 +1,8 @@
 ---
-title: OnDateSelected 
-page_title: OnDateSelected | RadDatePicker for ASP.NET AJAX Documentation
-description: OnDateSelected 
-slug: datepicker/client-side-programming/events/ondateselected
+title: OnDateSelected
+page_title: OnDateSelected | RadDateTimePicker for ASP.NET AJAX Documentation
+description: OnDateSelected
+slug: datetimepicker/client-side-programming/events/ondateselected
 tags: ondateselected
 published: True
 position: 1
@@ -11,17 +11,15 @@ position: 1
 # OnDateSelected
 
 
+
 The **OnDateSelected** client-side event handler is called immediately after the value of the control's selection has changed.
 
->note The **OnDateSelected** event is supported by: **RadCalendar** , **RadDatePicker** , **RadTimePicker** , and **RadDateTimePicker** .
->
 
 The event handler receives two arguments:
 
 1. the object that fired the event.
 
 1. an event arguments object that exposes the following methods:
-
 
 | Name | Return Type | Arguments | Description |
 | ------ | ------ | ------ | ------ |
@@ -31,10 +29,11 @@ The event handler receives two arguments:
 | **get_newDate()** |Date object||Returns the new value of the control as a Date object.|
 
 
+
 ````ASPNET
-<telerik:RadDatePicker ID="RadDatePicker1" runat="server">
+<telerik:RadDateTimePicker ID="RadDateTimePicker1" runat="server">
     <ClientEvents OnDateSelected="dateSelected" />
-</telerik:RadDatePicker>		
+</telerik:RadDateTimePicker>		
 ````
 ````JavaScript
 function dateSelected(sender, eventArgs) {
@@ -45,6 +44,6 @@ function dateSelected(sender, eventArgs) {
 
 # See Also
 
- * [Client-side Events Overview]({%slug datepicker/client-side-programming/events/overview%})
+ * [Client-side Events Overview]({%slug datetimepicker/client-side-programming/events/overview%})
 
 

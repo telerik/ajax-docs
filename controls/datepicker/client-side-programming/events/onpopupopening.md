@@ -11,11 +11,7 @@ position: 1
 # OnPopupOpening
 
 
-The **OnPopupOpening** client-side event handler is called immediately before a popup calendar is initialized to the current selection in the input area and then displayed.
-
->note The **OnPopupOpening** event is supported by: **RadDatePicker** , **RadTimePicker** , and **RadDateTimePicker** .
->
-
+The **OnPopupOpening** client-side event handler is called just before a popup calendar is initialized to the current selection in the input area and then displayed.
 
 The event handler receives two arguments:
 
