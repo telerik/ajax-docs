@@ -20,16 +20,16 @@ The following example illustrates how to hide the popup buttons and use client-s
 
 ````ASPNET
 <telerik:RadDateTimePicker ID="RadDateTimePicker1" runat="server">
-            <DateInput>
-                <ClientEvents OnKeyPress="ShowDateTimePopup" />
-            </DateInput>
-            <DatePopupButton Visible="False" />
-            <Calendar DayNameFormat="FirstLetter" FirstDayOfWeek="Default"
-                UseColumnHeadersAsSelectors="False"
-                UseRowHeadersAsSelectors="False">
-            </Calendar>
-            <TimePopupButton Visible="False" />
-        </telerik:RadDateTimePicker>	
+    <DateInput>
+        <ClientEvents OnKeyPress="ShowDateTimePopup" />
+    </DateInput>
+    <DatePopupButton Visible="False" />
+    <Calendar DayNameFormat="FirstLetter" FirstDayOfWeek="Default"
+        UseColumnHeadersAsSelectors="False"
+        UseRowHeadersAsSelectors="False">
+    </Calendar>
+    <TimePopupButton Visible="False" />
+</telerik:RadDateTimePicker>	
 ````
 ````JavaScript
 function ShowDateTimePopup(sender, eventArgs) {
