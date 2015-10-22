@@ -51,7 +51,7 @@ body {
 
 >tip You can apply the CSS rule to the Color Picker only, or to its container if you do not want to change the entire page.
 
->caption **Example 3**: Changing the font-size of a Tile via the control's Font-Size property. 
+>caption **Example 3**: Changing the font-size of the Color Picker via the control's Font-Size property. 
 
 ````ASP.NET
 <telerik:RadColorPicker Font-Size="16px" RenderMode="Lightweight" runat="server" ID="RadColorPicker1"></telerik:RadColorPicker>

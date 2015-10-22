@@ -1,5 +1,5 @@
 ---
-title: Batch Editing Validation
+title: Validation
 page_title: Batch Editing Validation | RadGrid for ASP.NET AJAX Documentation
 description: Batch Editing Validation
 slug: grid/data-editing/edit-mode/batch-editing/validation

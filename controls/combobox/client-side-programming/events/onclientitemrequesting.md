@@ -1,14 +1,14 @@
 ---
-title: OnClientItemRequesting
-page_title: OnClientItemRequesting | RadComboBox for ASP.NET AJAX Documentation
-description: OnClientItemRequesting
+title: OnClientItemsRequesting
+page_title: OnClientItemsRequesting | RadComboBox for ASP.NET AJAX Documentation
+description: OnClientItemsRequesting
 slug: combobox/client-side-programming/events/onclientitemrequesting
-tags: onclientitemrequesting
+tags: onclientitemsrequesting
 published: True
 position: 11
 ---
 
-# OnClientItemRequesting
+# OnClientItemsRequesting
 
 
 
@@ -61,6 +61,6 @@ This event can be used to [pass context information to the server]({%slug combob
 
  * [Overview]({%slug combobox/load-on-demand/overview%})
 
- * [OnClientItemRequested]({%slug combobox/client-side-programming/events/onclientitemrequested%})
+ * [OnClientItemsRequested]({%slug combobox/client-side-programming/events/onclientitemrequested%})
 
- * [OnClientItemRequestFailed]({%slug combobox/client-side-programming/events/onclientitemrequestfailed%})
+ * [OnClientItemsRequestFailed]({%slug combobox/client-side-programming/events/onclientitemrequestfailed%})

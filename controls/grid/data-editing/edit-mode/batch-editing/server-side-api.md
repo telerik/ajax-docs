@@ -1,5 +1,5 @@
 ---
-title: Batch Editing Server-side API
+title: Server-side API
 page_title: Batch Editing Server-side API | RadGrid for ASP.NET AJAX Documentation
 description: Batch Editing Server-side API
 slug: grid/data-editing/edit-mode/batch-editing/server-side-api

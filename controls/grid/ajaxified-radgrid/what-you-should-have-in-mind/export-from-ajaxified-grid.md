@@ -14,7 +14,7 @@ position: 0
 
 ## 
 
-Generally speaking, the exporting feature of the control work with regular postbacks only. The reason is the grid prepares additional information when performing export operation (available on postback). When the action is performed through asynchronous requests, this information can not be passed through the *XMLHttpObject* - that is why the communication between the browser and the server fails.To bypass the limitation you can wire the *OnRequestStart* event of the ajax panel or ajax manager, determine whether the target control is ajaxified and explicitly disable its ajax mode to export with regular postback. The demo from [this code library project](http://www.telerik.com/support/code-library/export-radgrid-content-to-excel-word-csv-pdf-with-ajax-enabled) presents how to export the grid content to *Excel*/*Word* when:
+Generally speaking, the exporting feature of the control work with regular postbacks only. The reason is the grid prepares additional information when performing export operation (available on postback). When the action is performed through asynchronous requests, this information can not be passed through the *XMLHttpRequest* object - that is why the communication between the browser and the server fails.To bypass the limitation you can wire the *OnRequestStart* event of the ajax panel or ajax manager, determine whether the target control is ajaxified and explicitly disable its ajax mode to export with regular postback. The demo from [this code library project](http://www.telerik.com/support/code-library/export-radgrid-content-to-excel-word-csv-pdf-with-ajax-enabled) presents how to export the grid content to *Excel*/*Word* when:
 
 * *RadGrid* resides inside *RadAjaxPanel*
 

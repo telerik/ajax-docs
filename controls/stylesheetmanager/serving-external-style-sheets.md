@@ -18,7 +18,7 @@ Starting with **Q3 2010 SP1 (version 2010.3.1215) RadStyleSheetManager** has the
 
 You can specify one or more folders from your project that host the external style sheets.
 
->caution The folder paths must be relative to the root of the application, e.g. **'~/path_to_folder'** .
+>important The folder paths must be relative to the root of the application, e.g. **'~/path_to_folder'** .
 >
 
 
@@ -49,7 +49,7 @@ Register the external style sheets in **RadStyleSheetManager**. The paths to the
 
 
 
->note If an external style sheet, which is not in one of the folder designated in the configuration, an exception will be thrown.
+>caution If an external style sheet, which is not in one of the folder designated in the configuration, an exception will be thrown.
 >
 
 

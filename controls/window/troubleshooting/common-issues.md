@@ -37,7 +37,7 @@ The RadWindow control is part of the [Telerik UI for ASP.NET AJAX ](http://www.t
 
 ## Uncaught TypeError: p.onEvent is not a function
 
-Sometimes, when a RadWindow is shown, you may get the `Uncaught TypeError: p.onEvent is not a function` error in the browser console. This is an issue related to the *Unobtrusive Validation* in .NET 4.5. It brings its own  global *jQuery* to the page which sometimes replaces the jQuery the Telerik controls bring.
+Sometimes, when a RadWindow is shown, you may get the `Uncaught TypeError: p.onEvent is not a function` or `JavaScript runtime error: Object doesn't support property or method 'onEvent'` error in the browser console. This is an issue related to the *Unobtrusive Validation* in .NET 4.5. It brings its own  global *jQuery* to the page which sometimes replaces the jQuery the Telerik controls bring.
 
 There are two ways to fix the problem:
 

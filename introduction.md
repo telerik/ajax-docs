@@ -38,7 +38,7 @@ Here are quick links to the control-specific sections of our documentation:
 
 * [Captcha]({%slug captcha/overview%})
 
-* [Chart]({%slug chart/overview%})
+* [Chart (HTML5)]({%slug htmlchart/overview%})
 
 * [ClientDataSource]({%slug clientdatasource/overview%})
 
@@ -77,8 +77,6 @@ Here are quick links to the control-specific sections of our documentation:
 * [Gauge]({%slug gauge/overview%})
 
 * [Grid]({%slug grid/overview%})
-
-* [HtmlChart]({%slug htmlchart/overview%})
 
 * [ImageEditor]({%slug imageeditor/overview%})
 
@@ -166,8 +164,6 @@ Here are quick links to the control-specific sections of our documentation:
 
 * [TreeView]({%slug treeview/overview%})
 
-* [Upload]({%slug upload/overview%})
-
 * [Window]({%slug window/overview%})
 
 * [Wizard]({%slug wizard/overview%})
@@ -179,7 +175,7 @@ Here are quick links to the control-specific sections of our documentation:
 * [ZipLibrary]({%slug radziplibrary-overview%})
 
 
-Telerik UI for ASP.NET AJAX works on the .NET v3.5, 4.0 and 4.5 frameworks.
+Telerik UI for ASP.NET AJAX works on the .NET v3.5, 4.0, 4.5 and 4.6 frameworks. The same assemblies work for both 32bit and 64bit machines.
 
 
 If you need further assistance you can post your question in the [UI for ASP.NET AJAX forums](http://www.telerik.com/community/forums/aspnet-ajax.aspx) or use the [online ticketing system](http://www.telerik.com/account/support-tickets/available-support-list.aspx).

@@ -97,7 +97,7 @@ After including the jQuery file you can start using it. There is a trick though 
 
 Fortunately there are easy ways to enable back the **$ alias.** Choose one of the options below.
 
->Important Make sure to add the script after the ScriptManager control.
+>important Make sure to add the script after the ScriptManager control.
 
 
 *  Using a global variable

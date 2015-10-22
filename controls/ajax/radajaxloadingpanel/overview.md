@@ -21,7 +21,7 @@ RadAjax supports templates that will be shown as a progress indicator when a cal
 With your web form in design view you need to drag a **RadAjaxLoadingPanel** from the toolbox to the web form just like any control. While you are still in design view, you can set other controls on the web form to use the **RadAjaxLoadingPanel**. The **IsSticky** property of the **RadAjaxLoadingPanel** defines where the panel will appear. By default, when **IsSticky** is **false** , the **RadAjaxLoadingPanel** will appear over the updated control. If you set **IsSticky** to **true** , the panel will appear where you have set it on the web form.
 
 >caution If you have many controls added to the AjaxSettings and want to use IsSticky="true", then you need to set absolute positioning for the RadAjaxLoadingPanel control using markup like this:
->`<telerik:RadAjaxLoadingPanel ID="LoadingPanel1" **IsSticky="true"** runat="server" **style="position:absolute;"** ><asp:Image ID="Image1" runat="server" AlternateText="Loading..." ImageUrl="Loading.gif" /> </telerik:RadAjaxLoadingPanel>`
+>`<telerik:RadAjaxLoadingPanel ID="LoadingPanel1" IsSticky="true" runat="server" style="position:absolute;" ><asp:Image ID="Image1" runat="server" AlternateText="Loading..." ImageUrl="Loading.gif" /> </telerik:RadAjaxLoadingPanel>`
 >
 
 

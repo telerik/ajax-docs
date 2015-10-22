@@ -126,7 +126,7 @@ A control can hardly be considered responsive by itself, because this heavily de
 /* Menu */ html .RadMenu,
 /* Notification */ html .RadNotification,
 /* PanelBar */ html .RadPanelBar,
-/^ PivotGrid */ html .RadPivotGrid,
+/* PivotGrid */ html .RadPivotGrid,
 				html .PivotGridWindow,
 /* ProgressBar */ html .RadProgressBar,
 /* Rating */ html .RadRating,
@@ -150,7 +150,7 @@ A control can hardly be considered responsive by itself, because this heavily de
 
 **Example 2:** CSS selectors to make avail of elastic design capabilities for elements decorated by RadFormDecorator
 
-````JavaScript
+````CSS
 /* FormDecorator */
 html.RadForm .rfdSkinnedButton,
 html.RadForm .rfdTextInput,

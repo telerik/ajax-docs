@@ -27,6 +27,7 @@ function resizeTree() {
     }
 
     treeDiv.style.height = (parseInt(documentObj.clientHeight) - intCompensate) + "px";
+    treeDiv.style.overflow = "auto";
 }	
 ````
 
