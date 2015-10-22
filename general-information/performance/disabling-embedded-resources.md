@@ -509,7 +509,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 	<asp:ScriptReference Path="~/Scripts/HtmlChart/RadHtmlChart.js" />
 	<!--Only needed for a funnel chart type-->
 	<asp:ScriptReference Path="~/Scripts/Common/HTML5UI/DataViz/html5/dataviz/chart/funnel.js" />
-	<!--Only needed for a polar chart type-->
+	<!--Only needed for a polar or radar chart type-->
 	<asp:ScriptReference Path="~/Scripts/Common/HTML5UI/DataViz/html5/dataviz/chart/polar.js" />
 	<!--Only needed for a sparkline layout -->
 	<asp:ScriptReference Path="~/Scripts/Common/HTML5UI/DataViz/html5/dataviz/sparkline.js" />
