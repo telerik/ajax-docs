@@ -22,6 +22,9 @@ var currentObject = node.get_parent();
 while (currentObject != null) {
     // get_parent() will return null when we reach the treeview
     if (currentObject.get_parent() != null) {
+    	
+    	if(!currentObject.get_text)
+                        break;
         s = currentObject.get_text() + " > " + s;
     }
     currentObject = currentObject.get_parent();
