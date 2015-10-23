@@ -5,12 +5,10 @@ description: OnClientClicking
 slug: linkbutton/client-side-programming/events/onclientclicking
 tags: onclientclicking
 published: True
-position: 1
+position: 2
 ---
 
 # OnClientClicking
-
-## OnClientClicking (clicking client-side event)
 
 The clicking event occurs when the RadLinkButton control is clicked, immediately after the mouse button is released. The event is fired after the client-side validation occurs, and can be canceled.
 
@@ -24,32 +22,23 @@ The event handler receives two parameters:
 
 	* set_cancel(*shouldCancel*) - sets a bool value that indicates whether the event will be canceled. Setting true means the event will be canceled.
 
-	* get_commandName() - returns the value assigned to the RadLinkButton's **CommandName** property
+This event comes handy in scenarios when the user wants to cancel the page navigation, or prevent execution of the other client-side events based on a certain condition. For example we ask the user if she wants to navigate to the page, and if a negative answer is received, we cancel the clicking event. Here is the code:
 
-	* get_commandArgument() - returns the value assigned to the RadLinkButton's **CommandArgument** property
-
-This event comes handy in scenarios when the user wants to cancel the page submission, or prevent execution of the other client-side events based on a certain condition. One such scenario is confirming the submission of the page to the server. We ask the user if she wants to submit the page, and if a negative answer is received, we cancel the clicking event. Here is the code:
+>caption Example 1: Handling OnClientClicking event in RadLinkButton.
 
 ````ASP.NET
 <script type="text/javascript">
-	function Clicking(sender, args)
-	{
-		args.set_cancel(!window.confirm("Are you sure you want to submit the page?"));
+	function Clicking(sender, args) {
+		args.set_cancel(!window.confirm("Are you sure you want to navigate to the '" + sender.get_navigateUrl() + "' page?"));
 	}
 </script>
-<telerik:RadLinkButton ID="RadLinkButton1" runat="server" Text="Submit"	OnClientClicking="Clicking" OnClick="RadLinkButton1_Click">
+<telerik:RadLinkButton ID="RadLinkButton1" runat="server" Text="Navigate to Page" OnClientClicking="Clicking" NavigateUrl="http://www.telerik.com">
 </telerik:RadLinkButton>
 ````
 
-````C#
-protected void RadLinkButton1_Click(object sender, System.EventArgs e)
-{
-	RadLinkButton1.Text = "RadLinkButton was clicked at: " + DateTime.Now.ToString();
-}
-````
-````VB
-Protected Sub RadLinkButton1_Click(ByVal sender As Object, ByVal e As System.EventArgs)
-	RadLinkButton1.Text = "RadLinkButton was clicked at: " + DateTime.Now.ToString
-End Sub
-````
+# See Also
 
+ * [RadLinkButton Object]({%slug linkbutton/client-side-programming/linkbutton-object%})
+ * [OnClientClicked]({%slug linkbutton/client-side-programming/events/onclientclicked%})
+ * [OnClientMouseOver]({%slug linkbutton/client-side-programming/events/onclientmouseover%})
+ * [OnClientMouseOut]({%slug linkbutton/client-side-programming/events/onclientmouseout%})

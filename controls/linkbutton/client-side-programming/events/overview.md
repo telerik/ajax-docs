@@ -1,16 +1,14 @@
 ---
 title: Overview
-page_title: Overview | RadLinkButton for ASP.NET AJAX Documentation
-description: Overview
+page_title: Events Overview | RadLinkButton for ASP.NET AJAX Documentation
+description: Events Overview
 slug: linkbutton/client-side-programming/events/overview
-tags: overview
+tags: events,overview
 published: True
 position: 0
 ---
 
 # Events Overview
-
-## RadLinkButton Client-side events
 
 The RadLinkButton exposes several client-side events which allow easy and flexible use in a wide range of application scenarios:
 
@@ -24,90 +22,62 @@ The RadLinkButton exposes several client-side events which allow easy and flexib
 
 * **[OnClientMouseOut (mouseOut)]({%slug linkbutton/client-side-programming/events/onclientmouseout%})** - raised when the mouse leaves the control.
 
-The event handler method for any of the events can be set on the server and on the client.
-
-**Server-side**
-
 To handle the desired event, the user must set the respective property to the name of the JavaScript function handling the event or to anonymous JavaScript function. Here is an example:
 
 * Passing named (non-anonymous) JavaScript function
 
-````ASP.NET
-<script type="text/javascript">
-	function Click(sender, args)
-	{
-		alert("RadLinkButton was clicked.");
-	}
-</script>
-<telerik:RadLinkButton ID="RadLinkButton1" runat="server" OnClientClicked="Click">
-</telerik:RadLinkButton>
-````
+	**ASP.NET**
 
-````C#
-RadLinkButton1.OnClientClicked = "Click";  //passing the name of the JS function
-````
-````VB
-RadLinkButton1.OnClientClicked = "Click"  'passing the name of the JS function
-````
+		<script type="text/javascript">
+			function Click(sender, args)
+			{
+				alert("RadLinkButton was clicked.");
+			}
+		</script>
+		<telerik:RadLinkButton ID="RadLinkButton1" runat="server" Text="Click" OnClientClicked="Click" NavigateUrl="http://www.telerik.com" Target="_blank">
+		</telerik:RadLinkButton>
 
+	**C#**
+
+		RadLinkButton1.OnClientClicked = "Click";  //passing the name of the JS function
+
+	**VB**
+
+		RadLinkButton1.OnClientClicked = "Click"  'passing the name of the JS function
 
 * Passing anonymous JavaScript function
 
-````ASP.NET
-<script type="text/javascript">
-	function Click(button, args, arg1, arg2)
-	{
-		alert("arg1:" + arg1 + " arg2:" + arg2);
-	}
-</script>
+	**ASP.NET**
 
-<telerik:RadLinkButton ID="RadLinkButton1" runat="server" OnClientClicked="function(sender,args){Click(sender, args, 'Value1', 'Value2');}">
-</telerik:RadLinkButton>
-````
+		<script type="text/javascript">
+			function Click(button, args, arg1, arg2)
+			{
+				alert("arg1:" + arg1 + " arg2:" + arg2);
+			}
+		</script>
+		<telerik:RadLinkButton ID="RadLinkButton1" runat="server" Text="Click" OnClientClicked="function(sender,args){Click(sender, args, 'Value1', 'Value2');}" NavigateUrl="http://www.telerik.com" Target="_blank">
+		</telerik:RadLinkButton>
 
-````C#
-RadLinkButton1.OnClientClicked = "function(sender,args){Click(sender, args, 'Value1', 'Value2');}"; //passing the name of the JS function
-````
-````VB
-RadLinkButton1.OnClientClicked = "function(sender,args){Click(sender, args, 'Value1', 'Value2');}"  'passing the name of the JS function
-````
+	**C#**
 
-**Client-side**
+		RadLinkButton1.OnClientClicked = "function(sender,args){Click(sender, args, 'Value1', 'Value2');}"; //passing the name of the JS function
 
-To handle the desired event, the user should use the respective **add_<eventName>(handlerFunction)** to attach the desired handler (i.e. **add_clicked** for the clicked event), where the parameter *handlerFunction* should be of type **function**. To remove a handler that has been added previously, the respective **remove_<eventName>(handlerFunction)** should be used.
+	**VB**
 
-Here is an example showing how to add handler on the client:
+		RadLinkButton1.OnClientClicked = "function(sender,args){Click(sender, args, 'Value1', 'Value2');}"  'passing the name of the JS function
 
-* Adding named (non-anonymous) JavaScript function
+You can also assign event handlers in client-side code. For more information see the [Setting Event Handlers via JavaScript article]({%slug linkbutton/client-side-programming/events/setting-event-handlers-via-javascript%}).
 
-````ASP.NET
-<script type="text/javascript">
-	function Click(button, args)
-	{
-		alert("Button was clicked");
-	}
-	function addHandler()
-	{
-		var button = $find("<%=RadLinkButton1.ClientID %>");
-		button.add_clicked(Click);
-	}
-</script>
-````
+For a live example illustrating the RadLinkButton client-side events, see the [LinkButton - Client-side Events live demo](http://demos.telerik.com/aspnet-ajax/LinkButton/Client-side-API/Client-side-Events/defaultcs.aspx).
 
-* Adding anonymous JavaScript function
+# See Also
 
-````ASP.NET
-<script type="text/javascript">
-	function Click(button, args, arg1)
-	{
-		alert("Button was clicked. arg1: " + arg1);
-	}
-	function addHandler()
-	{
-		var button = $find("<%=RadLinkButton1.ClientID %>");
-		button.add_clicked(function (button, args) { Click(button, args, "Value1") });
-	}
-</script>
-````
-
-
+ * [Overview]({%slug linkbutton/client-side-programming/overview%})
+ * [Setting Event Handlers via JavaScript article]({%slug linkbutton/client-side-programming/events/setting-event-handlers-via-javascript%})
+ * [OnClientClicking]({%slug linkbutton/client-side-programming/events/onclientclicking%})
+ * [OnClientClicked]({%slug linkbutton/client-side-programming/events/onclientclicked%})
+ * [OnClientMouseOver]({%slug linkbutton/client-side-programming/events/onclientmouseover%})
+ * [OnClientMouseOut]({%slug linkbutton/client-side-programming/events/onclientmouseout%})
+ 
+ 
+ 

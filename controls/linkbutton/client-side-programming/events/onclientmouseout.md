@@ -5,12 +5,10 @@ description: OnClientMouseOut
 slug: linkbutton/client-side-programming/events/onclientmouseout
 tags: onclientmouseout
 published: True
-position: 4
+position: 5
 ---
 
 # OnClientMouseOut
-
-## OnClientMouseOut (mouseOut client-side event)
 
 The **mouseOut** event is fired when the user moves the mouse pointer over the control.
 
@@ -18,8 +16,23 @@ The event handler receives two parameters:
 
 1. The instance of the clicked RadLinkButton control
 
-1. An eventArgs parameter of type Telerik.Web.UI.**RadButtonEventArgs**, containing the following properties and methods:
+1. An eventArgs parameter of type Telerik.Web.UI.**RadButtonEventArgs**.
 
-	* get_commandName() - returns the value assigned to the RadLinkButton's **CommandName** property
+>caption Example 1: Handling OnClientMouseOut event in RadLinkButton.
 
-	* get_commandArgument() - returns the value assigned to the RadLinkButton's **CommandArgument** property
+````ASP.NET
+<script type="text/javascript">
+	function mouseOut(sender, args) {
+		window.alert("You have moved mouse out of the button");
+	}
+</script>
+<telerik:RadLinkButton ID="RadLinkButton1" runat="server" Text="Navigate to Page" OnClientMouseOut="mouseOut" NavigateUrl="http://www.telerik.com">
+</telerik:RadLinkButton>
+````
+
+# See Also
+
+ * [RadLinkButton Object]({%slug linkbutton/client-side-programming/linkbutton-object%})
+ * [OnClientClicking]({%slug linkbutton/client-side-programming/events/onclientclicking%})
+ * [OnClientClicked]({%slug linkbutton/client-side-programming/events/onclientclicked%})
+ * [OnClientMouseOver]({%slug linkbutton/client-side-programming/events/onclientmouseover%})
