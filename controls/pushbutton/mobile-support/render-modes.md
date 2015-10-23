@@ -34,25 +34,29 @@ There are two ways to configure the rendering mode of the controls:
 
 * The **RenderMode property** in the markup or in the code-behind that can be used for a particular instance:
 
-````ASP.NET
-<telerik:RadPushButton ID="RadPushButton1" runat="server" RenderMode="Native">
-</telerik:RadPushButton>
-````
+	**ASP.NET**
 
-````C#
-RadPushButton1.RenderMode = Telerik.Web.UI.RenderMode.Native;
-````
-````VB
-RadPushButton1.RenderMode = Telerik.Web.UI.RenderMode.Native
-````
+		<telerik:RadPushButton ID="RadPushButton1" runat="server" RenderMode="Native">
+		</telerik:RadPushButton>
+
+
+	**C#**
+
+		RadPushButton1.RenderMode = Telerik.Web.UI.RenderMode.Native;
+
+	**VB**
+
+		RadPushButton1.RenderMode = Telerik.Web.UI.RenderMode.Native
+
 
 * A **global setting in the web.config** file that will affect the entire application, unless a concrete value is specified for a given control instance:
 
-````XML
-<appSettings>
-	<add key="Telerik.Web.UI.pushbutton.RenderMode" value="Native" />
-</appSettings>
-````
+	**web.config**
+
+		<appSettings>
+			<add key="Telerik.Web.UI.pushbutton.RenderMode" value="Native" />
+		</appSettings>
+
 
 ## See Also
 
