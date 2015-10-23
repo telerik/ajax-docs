@@ -5,7 +5,7 @@ description: RadDateTimePicker Client-side Object
 slug: datepicker/client-side-programming/raddatetimepicker-object
 tags: raddatetimepicker,object
 published: True
-position: 0
+position: 1
 ---
 
 # RadDateTimePicker Object
