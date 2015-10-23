@@ -1,0 +1,54 @@
+---
+title: OnPopupClosing
+page_title: OnPopupClosing | RadTimePicker for ASP.NET AJAX Documentation
+description: OnPopupClosing
+slug: timepicker/client-side-programming/events/onpopupclosing
+tags: onpopupclosing
+published: True
+position: 1
+---
+
+# OnPopupClosing
+
+
+
+The **OnPopupClosing** client-side event handler is called immediately before a popup time view is closed.
+
+
+The event handler receives two arguments:
+
+1. the object that fired the event.
+
+1. an event arguments object that exposes the following methods:
+
+
+| Name | Return Type | Arguments | Description |
+| ------ | ------ | ------ | ------ |
+| **get_popupControl()** |[Time view]({%slug calendar/client-side-programming/radtimeview-object%})or[Calendar]({%slug calendar/client-side-programming/radcalendar-object%})client object||Returns the client object for the time view or calendar that is about to close.|
+| **set_cancel(value)** ||bool|Lets you prevent the popup from closing.|
+
+The following example uses the **OnPopupClosing** event to prevent the popup from closing if nothing is selected:
+
+````ASPNET
+<telerik:RadTimePicker ID="RadTimePicker1" runat="server">
+    <ClientEvents OnPopupClosing="popupClosing" />
+</telerik:RadTimePicker>		
+````
+````JavaScript
+function popupClosing(sender, eventArgs) {
+	var popup = eventArgs.get_popupControl();
+	
+    if (!popup.getTime()) {
+		alert("You must select a time!");
+		eventArgs.set_cancel(true);
+	}
+}
+````
+
+
+
+# See Also
+
+ * [OnPopupOpening]({%slug timepicker/client-side-programming/events/onpopupopening%})
+
+
