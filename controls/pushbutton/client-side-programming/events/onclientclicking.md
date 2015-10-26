@@ -5,12 +5,10 @@ description: OnClientClicking
 slug: pushbutton/client-side-programming/events/onclientclicking
 tags: onclientclicking
 published: True
-position: 1
+position: 3
 ---
 
 # OnClientClicking
-
-## OnClientClicking (clicking client-side event)
 
 The clicking event occurs when the RadPushButton control is clicked, immediately after the mouse button is released. The event is fired after the client-side validation occurs, and can be canceled.
 
@@ -18,7 +16,7 @@ The event handler receives two parameters:
 
 1. The instance of the clicked RadPushButton control
 
-1. An eventArgs parameter of type Telerik.Web.UI.**RadButtonCancelEventArgs**, containing the following properties and methods:
+1. An eventArgs parameter of type [Telerik.Web.UI.**ButtonCancelEventArgs**](http://docs.telerik.com/devtools/aspnet-ajax/api/client/args/Telerik.Web.UI.ButtonCancelEventArgs), containing the following properties and methods:
 
 	* get_cancel() - returns a bool value that indicates whether the event was canceled. True means the event is canceled.
 
@@ -29,6 +27,8 @@ The event handler receives two parameters:
 	* get_commandArgument() - returns the value assigned to the RadPushButton's **CommandArgument** property
 
 This event comes handy in scenarios when the user wants to cancel the page submission, or prevent execution of the other client-side events based on a certain condition. One such scenario is confirming the submission of the page to the server. We ask the user if she wants to submit the page, and if a negative answer is received, we cancel the clicking event. Here is the code:
+
+>caption Example 1: Handling OnClientClicking event in RadPushButton.
 
 ````ASP.NET
 <script type="text/javascript">
@@ -52,4 +52,20 @@ Protected Sub RadPushButton1_Click(ByVal sender As Object, ByVal e As System.Eve
 	RadPushButton1.Text = "RadPushButton was clicked at: " + DateTime.Now.ToString
 End Sub
 ````
+
+## See Also
+
+ * [PushButton - Client-side Events Demo](http://demos.telerik.com/aspnet-ajax/pushbutton/client-side-api/client-side-events/defaultcs.aspx)
+
+ * [PushButton Object]({%slug pushbutton/client-side-programming/pushbutton-object%})
+
+ * [OnClientLoad]({%slug pushbutton/client-side-programming/events/onclientload%})
+ 
+ * [OnClientClicked]({%slug pushbutton/client-side-programming/events/onclientclicked%})
+ 
+ * [OnClientMouseOver]({%slug pushbutton/client-side-programming/events/onclientmouseover%})
+ 
+ * [OnClientMouseOut]({%slug pushbutton/client-side-programming/events/onclientmouseout%})
+ 
+ * [Telerik.Web.UI.ButtonCancelEventArgs](http://docs.telerik.com/devtools/aspnet-ajax/api/client/args/Telerik.Web.UI.ButtonCancelEventArgs)
 

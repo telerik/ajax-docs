@@ -10,7 +10,7 @@ position: 0
 
 # Icons Overview
 
-This help article showcases how to setup custom and embedded icons in **RadPushButton** for its different states and fine tune their position.
+This help article shows how to use icons in **RadPushButton**. You can use the built-in font icons or your own images for its different states and even fine tune their position.
 
 1. [Configure Button With an Icon](#configure-button-with-an-icon)
 

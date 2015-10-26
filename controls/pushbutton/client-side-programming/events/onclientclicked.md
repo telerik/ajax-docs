@@ -5,12 +5,10 @@ description: OnClientClicked
 slug: pushbutton/client-side-programming/events/onclientclicked
 tags: onclientclicked
 published: True
-position: 2
+position: 4
 ---
 
 # OnClientClicked
-
-## OnClientClicked (clicked client-side event)
 
 The **clicked** event is subsequent to the **clicking** event, and occurs when the RadPushButton control is clicked. The event is fired after the client-side validation is completed, just before the page is submitted, and cannot be canceled.
 
@@ -18,13 +16,15 @@ The event handler receives two parameters:
 
 1. The instance of the clicked RadPushButton control
 
-1. An eventArgs parameter of type Telerik.Web.UI.**RadButtonEventArgs**, containing the following properties and methods:
+1. An eventArgs parameter of type [Telerik.Web.UI.**ButtonEventArgs**](http://docs.telerik.com/devtools/aspnet-ajax/api/client/args/Telerik.Web.UI.ButtonEventArgs), containing the following properties and methods:
 
 	* get_commandName() - returns the value assigned to the RadPushButton's **CommandName** property
 
 	* get_commandArgument() - returns the value assigned to the RadPushButton's **CommandArgument** property
 
 This event should be used in scenarios where the user needs to execute custom client-side code when the button is clicked. Since validation has occurred, the page can be checked for validity before any client code is executed. This is exactly what the following example is doing, it checks for a valid URL, and if a valid one is entered, it opens it in a RadWindow control. Here is the code:
+
+>caption Example 1: RadPushButton handling the OnClientClicked event.
 
 ````ASP.NET
 <script type="text/javascript">
@@ -58,4 +58,18 @@ This event should be used in scenarios where the user needs to execute custom cl
 </telerik:RadWindow>
 ````
 
+## See Also
 
+ * [PushButton - Client-side Events Demo](http://demos.telerik.com/aspnet-ajax/pushbutton/client-side-api/client-side-events/defaultcs.aspx)
+
+ * [PushButton Object]({%slug pushbutton/client-side-programming/pushbutton-object%})
+ 
+ * [OnClientLoad]({%slug pushbutton/client-side-programming/events/onclientload%})
+ 
+ * [OnClientClicking]({%slug pushbutton/client-side-programming/events/onclientclicking%})
+ 
+ * [OnClientMouseOver]({%slug pushbutton/client-side-programming/events/onclientmouseover%})
+ 
+ * [OnClientMouseOut]({%slug pushbutton/client-side-programming/events/onclientmouseout%})
+ 
+ * [Telerik.Web.UI.ButtonEventArgs](http://docs.telerik.com/devtools/aspnet-ajax/api/client/args/Telerik.Web.UI.ButtonEventArgs)

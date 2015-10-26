@@ -10,11 +10,9 @@ position: 0
 
 # Events Overview
 
-## RadPushButton Client-side events
-
 The RadPushButton exposes several client-side events which allow easy and flexible use in a wide range of application scenarios:
 
-* **OnClientLoad (load)** - raised when the control is initialized.
+* **[OnClientLoad (load)]({%slug pushbutton/client-side-programming/events/onclientload%})** - raised when the control is initialized.
 
 * **[OnClientClicking (clicking)]({%slug pushbutton/client-side-programming/events/onclientclicking%})** - raised when the user clicks the button. The event can be canceled.
 
@@ -24,13 +22,9 @@ The RadPushButton exposes several client-side events which allow easy and flexib
 
 * **[OnClientMouseOut (mouseOut)]({%slug pushbutton/client-side-programming/events/onclientmouseout%})** - raised when the mouse leaves the control.
 
-The event handler method for any of the events can be set on the server and on the client.
-
-**Server-side**
-
 To handle the desired event, the user must set the respective property to the name of the JavaScript function handling the event or to anonymous JavaScript function. Here is an example:
 
-* Passing named (non-anonymous) JavaScript function
+>caption Example 1: Passing named (non-anonymous) JavaScript function.
 
 ````ASP.NET
 <script type="text/javascript">
@@ -51,7 +45,7 @@ RadPushButton1.OnClientClicked = "Click"  'passing the name of the JS function
 ````
 
 
-* Passing anonymous JavaScript function
+>caption Example 2: Passing anonymous JavaScript function.
 
 ````ASP.NET
 <script type="text/javascript">
@@ -72,42 +66,22 @@ RadPushButton1.OnClientClicked = "function(sender,args){Click(sender, args, 'Val
 RadPushButton1.OnClientClicked = "function(sender,args){Click(sender, args, 'Value1', 'Value2');}"  'passing the name of the JS function
 ````
 
-**Client-side**
 
-To handle the desired event, the user should use the respective **add_<eventName>(handlerFunction)** to attach the desired handler (i.e. **add_clicked** for the clicked event), where the parameter *handlerFunction* should be of type **function**. To remove a handler that has been added previously, the respective **remove_<eventName>(handlerFunction)** should be used.
+## See Also
 
-Here is an example showing how to add handler on the client:
+ * [PushButton - Client-side Events Demo](http://demos.telerik.com/aspnet-ajax/pushbutton/client-side-api/client-side-events/defaultcs.aspx)
+ 
+ * [PushButton Object]({%slug pushbutton/client-side-programming/pushbutton-object%})
+ 
+ * [OnClientLoad]({%slug pushbutton/client-side-programming/events/onclientload%})
+ 
+ * [OnClientClicking]({%slug pushbutton/client-side-programming/events/onclientclicking%})
+ 
+ * [OnClientClicked]({%slug pushbutton/client-side-programming/events/onclientclicked%})
+ 
+ * [OnClientMouseOver]({%slug pushbutton/client-side-programming/events/onclientmouseover%})
+ 
+ * [OnClientMouseOut]({%slug pushbutton/client-side-programming/events/onclientmouseout%})
 
-* Adding named (non-anonymous) JavaScript function
-
-````ASP.NET
-<script type="text/javascript">
-	function Click(button, args)
-	{
-		alert("Button was clicked");
-	}
-	function addHandler()
-	{
-		var button = $find("<%=RadPushButton1.ClientID %>");
-		button.add_clicked(Click);
-	}
-</script>
-````
-
-* Adding anonymous JavaScript function
-
-````ASP.NET
-<script type="text/javascript">
-	function Click(button, args, arg1)
-	{
-		alert("Button was clicked. arg1: " + arg1);
-	}
-	function addHandler()
-	{
-		var button = $find("<%=RadPushButton1.ClientID %>");
-		button.add_clicked(function (button, args) { Click(button, args, "Value1") });
-	}
-</script>
-````
 
 
