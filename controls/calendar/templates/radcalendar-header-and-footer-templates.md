@@ -37,3 +37,5 @@ The following code shows a **RadCalendar** definition with header and footer tem
 # See Also
 
  * [Template Design Surface]({%slug calendar/design-time/template-design-surface%})
+
+

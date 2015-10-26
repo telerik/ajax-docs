@@ -70,3 +70,5 @@ For a live example that uses the **DayRender** event , see [DayRender Event.](ht
  * [Adding Controls to a Calendar Cell]({%slug calendar/how-to/adding-controls-to-a-calendar-cell%})
 
  * [HeaderCellRender]({%slug calendar/server-side-programming/server-side-events/headercellrender%})
+
+
