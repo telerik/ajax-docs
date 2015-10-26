@@ -10,15 +10,21 @@ position: 0
 
 # Printing Problem
 
-## Problem:
+This article contains the following sections:
 
-When printing RadPane containing Telerik controls or other decorated controls, some of them are not rendered correctly.
+* [Incorrectly Styled Telerik Controls](#incorrectly-styled-telerik-controls)
 
-## Description:
+* [Missing Empty Message](#missing-empty-message)
+
+## Incorrectly Styled Telerik Controls
+
+When printing a RadPane containing Telerik controls or other decorated controls, some of them may not be rendered correctly.
+
+### Description:
 
 The reason for this issue is the missing CSS files decorating the controls. When calling RadPane’s print method the content of the pane is loaded inside a new browser’s window which does not contain the CSS files registered on the parent page.
 
-## Solution:
+### Solution:
 
 In order to avoid this problem you need to manually load the CSS files. RadPane’s print method accepts a string array as an argument with paths to external CSS files that should be loaded in the newly opened window.
 
@@ -57,4 +63,37 @@ The following sample demonstrates how to get reference to the RadComboBox’s CS
 </telerik:radcodeblock>
 ````
 
+
+## Missing Empty Message
+
+When inline content is used (i.e., controls are added directly in the `RadPane`), some settings may not be applied (e.g., empty messages of inputs like **RadAutoCompleteBox**). This can happen for settings/elements that are applied via JavaScript.
+
+### Description:
+
+When inline content is used, the `innerHTML` of the pane is taken and directly written into the `document` of a newly created blank browser window. This does not take into account some modifications made with JavaScript.
+
+You can see this effect with the following mockup:
+
+````ASP.NET
+<div id="paneMockup">
+	RadAutoCompleteBox mockup:
+	<input class="racInput radPreventDecorate" id="RadAutoCompleteBoxMockup" name="RadAutoCompleteBox" type="text" id="RadAutoCompleteBox_Input" autocomplete="off" size="6" style="width: 46px;" />
+</div>
+<asp:Button ID="Button1" Text="mock-print contents" OnClientClick="printContents();return false;" runat="server" />
+<script type="text/javascript">
+	function printContents() {
+		$get("RadAutoCompleteBoxMockup").value = "Hello World";
+		alert($get("paneMockup").innerHTML);
+		//the contents will not inlcude the value attribute of the input which is the cause of the problem
+	}
+</script>
+````
+
+### Solution:
+
+There are two ways to avoid such a problem:
+
+* Use an entire **content page** instead of inline controls. In this case, the browser's `print` command is invoked and it should print the content as you see it.
+
+* Add **CSS** rules to your main page (or to the stylesheets array you can pass to RadPane's print() method) that hide the rest of the content and **only show the desired print area**. This can be done with `@media` queries and/or with a CSS class on the RadPane or its contents.
 
