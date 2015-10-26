@@ -18,73 +18,73 @@ This article shows some of the known RadScheduler PDF Export issues and solution
 
 * Problem:
 
-**Invalid XHTML Scheduler output**
+	**Invalid XHTML Scheduler output**
 
-Suggested solution:
+	Suggested solution:
 
-The rendered scheduler output should be valid XHTML. If it is not, you will receive exceptions on export. The most common cause for bad XHTML are symbols like **<**,**>**,**&** that need to be replaced by the correct *XHTML* entity: **& l t ;**, **& g t ;**, **& a m p ;** respectively. Another frequent problem is unclosed tags.
-
-* Problem:
-
-**'div' start tag on line 96 position 15 does not match the end tag of 'li'. Line 102, position 13.**
-
-Suggested solution:
-
-Most likely it is caused by not closed html tags declared in scheduler templates for example.Please [validate](http://validator.w3.org/) the page output.
+	The rendered scheduler output should be valid XHTML. If it is not, you will receive exceptions on export. The most common cause for bad XHTML are symbols like **<**,**>**,**&** that need to be replaced by the correct *XHTML* entity: **& l t ;**, **& g t ;**, **& a m p ;** respectively. Another frequent problem is unclosed tags.
 
 * Problem:
 
-**System.SystemException: Error while creating area : Encountered web exception while fetching image from**
+	**'div' start tag on line 96 position 15 does not match the end tag of 'li'. Line 102, position 13.**
 
-**http://localhost:51300/Telerik.Web.UI.WebResource.axd?imgid=324e7fbdeca947c2b9a6c7ca14c88e87&type=rbi:**
+	Suggested solution:
 
-**The remote server returned an error: (500) Internal Server Error.**
-
-Suggested solution:
-
-To troubleshoot the issue, please open the url, specified in the error details. In the above example it is:
-
-http://localhost:51300/Telerik.Web.UI.WebResource.axd?imgid=324e7fbdeca947c2b9a6c7ca14c88e87&type=rbi:
-
-The most probable cause of this issue is incorrect web resource handler registration when the Telerik.Web.UI.dll is referenced trough the GAC. For more details refer to the [General TroubleShooting help topic](http://www.telerik.com/help/aspnet-ajax/introduction-troubleshooting.html) .
+	Most likely it is caused by not closed html tags declared in scheduler templates for example.Please [validate](http://validator.w3.org/) the page output.
 
 * Problem:
 
-**System.ArgumentException: Parameter is not valid. at System.Drawing.Bitmap..ctor(Stream stream) at Telerik.Web.Apoc.Image.ApocImage..ctor(String href, Byte[] imageData) at Telerik.Web.Apoc.Image.ApocImageFactory.Make(String href) at Telerik.Web.Apoc.Fo.Flow.ExternalGraphic.Layout(Area area) at Telerik.Web.Apoc.Fo.Flow.Block.Layout(Area area) at Telerik.Web.Apoc.Fo.Flow.Flow.Layout(Area area, Region region) at Telerik.Web.Apoc.Fo.Flow.Flow.Layout(Area area) at Telerik.Web.Apoc.Fo.Pagination.PageSequence.Format(AreaTree areaTree) at Telerik.Web.Apoc.StreamRenderer.Render(PageSequence pageSequence) at Telerik.Web.Apoc.Fo.FOTreeBuilder.EndElement() at Telerik.Web.Apoc.Fo.FOTreeBuilder.Parse(XmlReader reader)**
+	**System.SystemException: Error while creating area : Encountered web exception while fetching image from**
 
-Suggested solution:
+	**http://localhost:51300/Telerik.Web.UI.WebResource.axd?imgid=324e7fbdeca947c2b9a6c7ca14c88e87&type=rbi:**
 
-1. This problem appears on export when the Telerik.Web.UI.dll is referenced trough the GAC and the assembly version is different from the WebResource.axdversion registered in the web.config file. Please check you web.configfor proper handler registration in the following section:
+	**The remote server returned an error: (500) Internal Server Error.**
 
-	**ASP.NET**
-	
-		<system.webServer>
-			<handlers>
-				<add name="Telerik.Web.UI.WebResource"  path="Telerik.Web.UI.WebResource.axd" verb="*" type="Telerik.Web.UI.WebResource, Telerik.Web.UI, Version=[ASSEMBLY_VERSION], Culture=neutral, PublicKeyToken=121fae78165ba3d4" />
-			</handlers>
-		</system.webServer>
-	
+	Suggested solution:
 
-	Where [ASSEMBLY_VERSION] is the exact version of your Telerik.Web.UI.dll.
+	To troubleshoot the issue, please open the url, specified in the error details. In the above example it is:
 
-2. If you are using Forms authentication please add the following section to your web.config file:
+	http://localhost:51300/Telerik.Web.UI.WebResource.axd?imgid=324e7fbdeca947c2b9a6c7ca14c88e87&type=rbi:
 
-	**ASPNET**
-	
-		<location path="Telerik.Web.UI.WebResource.axd">
-			<system.web>
-				<authorization>
-					<allow users="?"/>
-				</authorization>
-			</system.web>
-		</location>
-	
+	The most probable cause of this issue is incorrect web resource handler registration when the Telerik.Web.UI.dll is referenced trough the GAC. For more details refer to the [General TroubleShooting help topic](http://www.telerik.com/help/aspnet-ajax/introduction-troubleshooting.html) .
+
 * Problem:
 
-**An error occurred while parsing EntityName. Line 1246, position 58or '' is an unexpected token. The expected token is ';'. Line 131, position 10.**
+	**System.ArgumentException: Parameter is not valid. at System.Drawing.Bitmap..ctor(Stream stream) at Telerik.Web.Apoc.Image.ApocImage..ctor(String href, Byte[] imageData) at Telerik.Web.Apoc.Image.ApocImageFactory.Make(String href) at Telerik.Web.Apoc.Fo.Flow.ExternalGraphic.Layout(Area area) at Telerik.Web.Apoc.Fo.Flow.Block.Layout(Area area) at Telerik.Web.Apoc.Fo.Flow.Flow.Layout(Area area, Region region) at Telerik.Web.Apoc.Fo.Flow.Flow.Layout(Area area) at Telerik.Web.Apoc.Fo.Pagination.PageSequence.Format(AreaTree areaTree) at Telerik.Web.Apoc.StreamRenderer.Render(PageSequence pageSequence) at Telerik.Web.Apoc.Fo.FOTreeBuilder.EndElement() at Telerik.Web.Apoc.Fo.FOTreeBuilder.Parse(XmlReader reader)**
 
-Suggested solution:
+	Suggested solution:
 
-If special characters are used, replace them by valid HTML equivalents: **&** - **& a m p ;** …..
+	1. This problem appears on export when the Telerik.Web.UI.dll is referenced trough the GAC and the assembly version is different from the WebResource.axdversion registered in the web.config file. Please check you web.configfor proper handler registration in the following section:
 
-You can use this article for reference - [Special Characters in HTML](http://www.degraeve.com/reference/specialcharacters.php) .
+		**ASP.NET**
+		
+			<system.webServer>
+				<handlers>
+					<add name="Telerik.Web.UI.WebResource"  path="Telerik.Web.UI.WebResource.axd" verb="*" type="Telerik.Web.UI.WebResource, Telerik.Web.UI, Version=[ASSEMBLY_VERSION], Culture=neutral, PublicKeyToken=121fae78165ba3d4" />
+				</handlers>
+			</system.webServer>
+		
+
+		Where [ASSEMBLY_VERSION] is the exact version of your Telerik.Web.UI.dll.
+
+	2. If you are using Forms authentication please add the following section to your web.config file:
+
+		**ASPNET**
+		
+			<location path="Telerik.Web.UI.WebResource.axd">
+				<system.web>
+					<authorization>
+						<allow users="?"/>
+					</authorization>
+				</system.web>
+			</location>
+		
+* Problem:
+
+	**An error occurred while parsing EntityName. Line 1246, position 58or '' is an unexpected token. The expected token is ';'. Line 131, position 10.**
+
+	Suggested solution:
+
+	If special characters are used, replace them by valid HTML equivalents: **&** - **& a m p ;** …..
+
+	You can use this article for reference - [Special Characters in HTML](http://www.degraeve.com/reference/specialcharacters.php) .
