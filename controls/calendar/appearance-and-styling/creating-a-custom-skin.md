@@ -11,11 +11,7 @@ position: 3
 # Creating a Custom Skin
 
 
-The following tutorial demonstrates how you can create custom **RadCalendar** skin, using the **Office2007** skin as base. The tutorial only changes skin CSS classes that affect the **RadCalendar** control, although Calendar skins also include definitions for classes that affect the **RadDatePicker**, **RadDateTimePicker** and **RadTimePicker** controls as well.
-
->caution 
-If you want to create a custom skin for the **RadDatePicker**, **RadDateTimePicker** or **RadTimePicker** controls be aware that you must also create custom skin files for the skin of the **input** control, which is applied to the embedded **RadInput** control.
->
+The following tutorial demonstrates how you can create custom **RadCalendar** skin, using the **Office2007** skin as base. The tutorial only changes skin CSS classes that affect the **RadCalendar** control.
 
 
 This tutorial creates a new skin that takes the appearance of the calendar control from this look:
@@ -251,4 +247,5 @@ table.RadCalendarMonthView_Green
 >note 
 You may want to make changes to the base stylesheet of the **RadCalendar** control, which holds the rules that are common for all skins. In order to do so, you need to copy the **Calendar.css** file from the Skins folder in your installation directory to the **Skins** folder in your project. Then, you should register it in the *head* tag and modify it to meet your requirements. Note that, to see the changes, you need to set the **EnableEmbeddedBaseStylesheet** property of **RadCalendar** to **false** .
 >
+
 

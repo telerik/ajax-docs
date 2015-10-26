@@ -52,7 +52,7 @@ protected void btnChangeColor_Click(object sender, EventArgs e)
     {
         HtmlInputButton button = (HtmlInputButton)dataListItem.FindControl("Button1");
         button.Style.Add("background-color", "red");
-    }
+    };
 }	
 ````
 ````VB.NET

@@ -39,3 +39,5 @@ The following tables lists the most important properties and methods of the **Re
 | ------ | ------ | ------ | ------ |
 | **Click** |none|none|simulates a mouse click on the day.|
 | **Select** |boolean|none|selects or un-selects the day.|
+
+

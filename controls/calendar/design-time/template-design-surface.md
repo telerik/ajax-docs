@@ -16,7 +16,7 @@ The **Template Design Surface** lets you design templates for portions of the ca
 
 There are two basic ways to display the Template Design Surface:
 
-From the **RadCalendar**, **RadDateTimePicker** or **RadTimePicker** [Smart Tag]({%slug calendar/design-time/smart-tag%}), choose **Edit Templates**. A popup appears, along with the Template Design Surface. Choose the type of template you want to edit from the Display drop-down.
+From the **RadCalendar** [Smart Tag]({%slug calendar/design-time/smart-tag%}), choose **Edit Templates**. A popup appears, along with the Template Design Surface. Choose the type of template you want to edit from the Display drop-down.
 ![RadTimePicker templates editing](images/SmartTagTemplates.png)
 
 On the design surface, you can drag any controls from the toolbox, as well as typing any literal text. By moving to Source view, you can add other HTML content to the template and set attributes to display the item's value.

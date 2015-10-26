@@ -41,6 +41,5 @@ If you use [templates]({%slug calendar/templates/radcalendar-header-and-footer-t
 
 # See Also
 
- * [RadDatePicker, RadTimePicker, and RadDateTimePicker Structure]({%slug calendar/getting-started/raddatepicker,-radtimepicker,-and-raddatetimepicker-structure%})
 
- * [RadTimeView Structure]({%slug calendar/getting-started/radtimeview-structure%})
+ * [Overview]({%slug calendar/getting-started/overview%})

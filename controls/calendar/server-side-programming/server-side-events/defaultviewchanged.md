@@ -55,3 +55,5 @@ End Sub
  * [OnCalendarViewChanging]({%slug calendar/client-side-programming/events/oncalendarviewchanging%})
 
  * [OnCalendarViewChanged]({%slug calendar/client-side-programming/events/oncalendarviewchanged%})
+
+

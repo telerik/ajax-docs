@@ -48,8 +48,10 @@ End Sub
 
 # See Also
 
- * [Server-Side Events Basics]({%slug calendar/server-side-programming/server-side-events/server-side-events-basics%})
+ * [Server-Side Events Overview]({%slug calendar/server-side-programming/server-side-events/server-side-events-basics%})
 
  * [OnDateSelecting]({%slug calendar/client-side-programming/events/ondateselecting%})
 
  * [OnDateSelected]({%slug calendar/client-side-programming/events/ondateselected%})
+
+

@@ -15,16 +15,7 @@ position: 3
 
 ## Using Localization Files
 
-According to the control you want to localize you should use/create a combination of **.resx** files. The table below describes controls and files which should be used for localization.
-
-
-|  **RadControl**  |  **Resource files**  |
-| ------ | ------ |
-| **RadCalendar** | RadCalendar.Main.resx |
-| **RadDatePicker** | RadCalendar.Main.resx, RadDatePicker.Main.resx |
-| **RadDateTimePicker** | RadCalendar.Main.resx, RadDateTimePicker.Main.resx |
-| **RadTimePicker** | RadDateTimePicker.Main.resx |
-| **RadMonthYearPicker** | RadMonthYearPicker.Main.resx |
+To localize the **RadCalendar** control you should use the **RadCalendar.Main.resx** file.
 
 The resource files should be placed within the **App_GlobalResources** folder in your application. You can either create your own language pack (see below) or use an existing one (if available for your language). The controls installation wizard automatically copies the built-in resources to the **App_GlobalResources** in your local installation.
 
