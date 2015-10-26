@@ -16,17 +16,15 @@ This article shows some of the known RadScheduler PDF Export issues and solution
 
 ## Troubleshooting
 
-Please note that as of Q3 2013 SP1 there are some issues fixed in the **RadScheduler Export** functionality:
+* Problem:
 
-* Setting the RadScheduler skin using the RadSkinManager is properly applied in the exported PDF document.
+**Invalid XHTML Scheduler output**
 
-* The content of the appointment template section isproperly applied in the exported PDF document.
-
-* You are absolutely able to export the advanced form of the RadScheduler control.
+Suggested solution:
 
 The rendered scheduler output should be valid XHTML. If it is not, you will receive exceptions on export. The most common cause for bad XHTML are symbols like **<**,**>**,**&** that need to be replaced by the correct *XHTML* entity: **& l t ;**, **& g t ;**, **& a m p ;** respectively. Another frequent problem is unclosed tags.
 
-Problem:
+* Problem:
 
 **'div' start tag on line 96 position 15 does not match the end tag of 'li'. Line 102, position 13.**
 
@@ -34,7 +32,7 @@ Suggested solution:
 
 Most likely it is caused by not closed html tags declared in scheduler templates for example.Please [validate](http://validator.w3.org/) the page output.
 
-Problem:
+* Problem:
 
 **System.SystemException: Error while creating area : Encountered web exception while fetching image from**
 
@@ -48,15 +46,15 @@ To troubleshoot the issue, please open the url, specified in the error details. 
 
 http://localhost:51300/Telerik.Web.UI.WebResource.axd?imgid=324e7fbdeca947c2b9a6c7ca14c88e87&type=rbi:
 
-Most probable cause of this issue is incorrect web resource handler registration when the Telerik.Web.UI.dll is referenced trough the GAC. For more details refer to the [General TroubleShooting help topic](http://www.telerik.com/help/aspnet-ajax/introduction-troubleshooting.html) .
+The most probable cause of this issue is incorrect web resource handler registration when the Telerik.Web.UI.dll is referenced trough the GAC. For more details refer to the [General TroubleShooting help topic](http://www.telerik.com/help/aspnet-ajax/introduction-troubleshooting.html) .
 
-Problem:
+* Problem:
 
 **System.ArgumentException: Parameter is not valid. at System.Drawing.Bitmap..ctor(Stream stream) at Telerik.Web.Apoc.Image.ApocImage..ctor(String href, Byte[] imageData) at Telerik.Web.Apoc.Image.ApocImageFactory.Make(String href) at Telerik.Web.Apoc.Fo.Flow.ExternalGraphic.Layout(Area area) at Telerik.Web.Apoc.Fo.Flow.Block.Layout(Area area) at Telerik.Web.Apoc.Fo.Flow.Flow.Layout(Area area, Region region) at Telerik.Web.Apoc.Fo.Flow.Flow.Layout(Area area) at Telerik.Web.Apoc.Fo.Pagination.PageSequence.Format(AreaTree areaTree) at Telerik.Web.Apoc.StreamRenderer.Render(PageSequence pageSequence) at Telerik.Web.Apoc.Fo.FOTreeBuilder.EndElement() at Telerik.Web.Apoc.Fo.FOTreeBuilder.Parse(XmlReader reader)**
 
 Suggested solution:
 
-1. This problem appears on export when the Telerik.Web.UI .dllis referenced trough the GAC and the assembly version is different from the WebResource.axdversion registered in the web.config file. Please check you web.configfor proper handler registration in the following section:
+1. This problem appears on export when the Telerik.Web.UI.dll is referenced trough the GAC and the assembly version is different from the WebResource.axdversion registered in the web.config file. Please check you web.configfor proper handler registration in the following section:
 
 	**ASP.NET**
 	
@@ -81,7 +79,7 @@ Suggested solution:
 			</system.web>
 		</location>
 	
-	Problem:
+* Problem:
 
 **An error occurred while parsing EntityName. Line 1246, position 58or '' is an unexpected token. The expected token is ';'. Line 131, position 10.**
 
