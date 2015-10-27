@@ -31,30 +31,30 @@ Here is a list with the sections in this article:
 >caption Example 1: Enabling Pan in HtmlChart.
 
 ````ASP.NET
-<telerik:RadHtmlChart runat="server"  ID="RadHtmlChart1">
+<telerik:RadHtmlChart runat="server" ID="RadHtmlChart1" Width="600px" Height="400px">
     <Pan Enabled="true" />
     <PlotArea>
         <Series>
             <telerik:ColumnSeries>
-                <Items>
-                    <telerik:SeriesItem YValue="10" /> 
-                    <telerik:SeriesItem YValue="15" /> 
-                    <telerik:SeriesItem YValue="53" /> 
-                    <telerik:SeriesItem YValue="0" /> 
-                    <telerik:SeriesItem YValue="120" /> 
-                    <telerik:SeriesItem YValue="15" /> 
-                    <telerik:SeriesItem YValue="6" /> 
-                    <telerik:SeriesItem YValue="29" /> 
-                    <telerik:SeriesItem YValue="31" /> 
-                    <telerik:SeriesItem YValue="22" /> 
-                    <telerik:SeriesItem YValue="86" /> 
-                    <telerik:SeriesItem YValue="24" /> 
-                    <telerik:SeriesItem YValue="53" /> 
-                    <telerik:SeriesItem YValue="39" /> 
-                    <telerik:SeriesItem YValue="29" /> 
-                    <telerik:SeriesItem YValue="150" /> 
-                    <telerik:SeriesItem YValue="45" /> 
-                </Items>
+                <SeriesItems>
+                    <telerik:CategorySeriesItem Y="10" /> 
+                    <telerik:CategorySeriesItem Y="15" /> 
+                    <telerik:CategorySeriesItem Y="53" /> 
+                    <telerik:CategorySeriesItem Y="0" /> 
+                    <telerik:CategorySeriesItem Y="120" /> 
+                    <telerik:CategorySeriesItem Y="15" /> 
+                    <telerik:CategorySeriesItem Y="6" /> 
+                    <telerik:CategorySeriesItem Y="29" /> 
+                    <telerik:CategorySeriesItem Y="31" /> 
+                    <telerik:CategorySeriesItem Y="22" /> 
+                    <telerik:CategorySeriesItem Y="86" /> 
+                    <telerik:CategorySeriesItem Y="24" /> 
+                    <telerik:CategorySeriesItem Y="53" /> 
+                    <telerik:CategorySeriesItem Y="39" /> 
+                    <telerik:CategorySeriesItem Y="29" /> 
+                    <telerik:CategorySeriesItem Y="150" /> 
+                    <telerik:CategorySeriesItem Y="45" /> 
+                </SeriesItems>
             </telerik:ColumnSeries>
         </Series>
         <XAxis MinValue="2" MaxValue="15">
@@ -91,7 +91,7 @@ This tag exposes only the **Enabled** property that toggles the entire **Zoom** 
 >caption Example 2: Enabling MouseWheel-Zoom and with Selection-Zoom locked for Y axis.
 
 ````ASP.NET
-<telerik:RadHtmlChart runat="server"  ID="RadHtmlChart1">
+<telerik:RadHtmlChart runat="server" ID="RadHtmlChart1" Width="600px" Height="400px">
     <Pan Enabled="true" />
     <Zoom Enabled="true">
         <MouseWheel Enabled="true" Lock="Y" />
@@ -100,25 +100,25 @@ This tag exposes only the **Enabled** property that toggles the entire **Zoom** 
     <PlotArea>
         <Series>
             <telerik:ColumnSeries>
-                <Items>
-                    <telerik:SeriesItem YValue="10" /> 
-                    <telerik:SeriesItem YValue="15" /> 
-                    <telerik:SeriesItem YValue="53" /> 
-                    <telerik:SeriesItem YValue="0" /> 
-                    <telerik:SeriesItem YValue="120" /> 
-                    <telerik:SeriesItem YValue="15" /> 
-                    <telerik:SeriesItem YValue="6" /> 
-                    <telerik:SeriesItem YValue="29" /> 
-                    <telerik:SeriesItem YValue="31" /> 
-                    <telerik:SeriesItem YValue="22" /> 
-                    <telerik:SeriesItem YValue="86" /> 
-                    <telerik:SeriesItem YValue="24" /> 
-                    <telerik:SeriesItem YValue="53" /> 
-                    <telerik:SeriesItem YValue="39" /> 
-                    <telerik:SeriesItem YValue="29" /> 
-                    <telerik:SeriesItem YValue="150" /> 
-                    <telerik:SeriesItem YValue="45" /> 
-                </Items>
+                <SeriesItems>
+                    <telerik:CategorySeriesItem Y="10" /> 
+                    <telerik:CategorySeriesItem Y="15" /> 
+                    <telerik:CategorySeriesItem Y="53" /> 
+                    <telerik:CategorySeriesItem Y="0" /> 
+                    <telerik:CategorySeriesItem Y="120" /> 
+                    <telerik:CategorySeriesItem Y="15" /> 
+                    <telerik:CategorySeriesItem Y="6" /> 
+                    <telerik:CategorySeriesItem Y="29" /> 
+                    <telerik:CategorySeriesItem Y="31" /> 
+                    <telerik:CategorySeriesItem Y="22" /> 
+                    <telerik:CategorySeriesItem Y="86" /> 
+                    <telerik:CategorySeriesItem Y="24" /> 
+                    <telerik:CategorySeriesItem Y="53" /> 
+                    <telerik:CategorySeriesItem Y="39" /> 
+                    <telerik:CategorySeriesItem Y="29" /> 
+                    <telerik:CategorySeriesItem Y="150" /> 
+                    <telerik:CategorySeriesItem Y="45" /> 
+                </SeriesItems>
             </telerik:ColumnSeries>
         </Series>
         <XAxis MinValue="2" MaxValue="15">
