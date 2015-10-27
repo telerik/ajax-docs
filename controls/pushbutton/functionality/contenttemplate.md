@@ -5,7 +5,7 @@ description: ContentTemplate
 slug: pushbutton/functionality/contenttemplate
 tags: contenttemplate
 published: True
-position: 2
+position: 1
 ---
 
 # ContentTemplate

@@ -5,7 +5,7 @@ description: Single Click
 slug: pushbutton/functionality/single-click
 tags: single,click
 published: True
-position: 1
+position: 0
 ---
 
 # Single Click
