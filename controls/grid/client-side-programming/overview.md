@@ -152,6 +152,7 @@ Inside each **RadGrid** client event handler the first argument passed (sender) 
 | ** **[OnRowShowing]({%slug grid/client-side-programming/events/onrowshowing%})** ** |This event is fired before a row is shown.|
 | ** **[OnRowShown]({%slug grid/client-side-programming/events/onrowshown%})** ** |This event is fired when the row is shown.|
 || ** *Row Drag and Drop* ** |
+| ** **[OnRowDragging]({%slug grid/client-side-programming/events/onrowdragging%})** ** |This event is fired repetitively when a row is being dragged.|
 | ** **[OnRowDragStarted]({%slug grid/client-side-programming/events/onrowdragstarted%})** ** |This event is fired when a row is about to be dragged.|
 | ** **[OnRowDropping]({%slug grid/client-side-programming/events/onrowdropping%})** ** |This event is fired before a row is dropped.|
 | ** **[OnRowDropped]({%slug grid/client-side-programming/events/onrowdropped%})** ** |This event is fired after a row is dropped.|
@@ -179,6 +180,7 @@ Inside each **RadGrid** client event handler the first argument passed (sender) 
 | ** **[OnScroll]({%slug grid/client-side-programming/events/onscroll%})** ** |This event is fired when you scroll the grid.|
 || ** *Command* ** |
 | ** **[OnCommand]({%slug grid/client-side-programming/events/oncommand%})** ** |This event is fired for each grid command which is about to be triggered (sorting, paging, filtering, editing, etc.) before postback/ajax request .|
+| ** **[OnUserAction]({%slug grid/client-side-programming/events/onuseraction%})** ** |This event is fired for some of the grid commands in an earlier stage of their execution.|
 
 ## Obtaining GridTableView Elements
 
