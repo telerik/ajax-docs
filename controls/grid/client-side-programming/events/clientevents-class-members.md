@@ -142,6 +142,7 @@ Inside each RadGrid client-side event handler the first argument passed (*sender
 | **[OnTableCreated]({%slug grid/client-side-programming/events/ontablecreated%})** | **String** |
 | **[OnTableDestroying]({%slug grid/client-side-programming/events/ontabledestroying%})** | **String** |
 | **[OnScroll]({%slug grid/client-side-programming/events/onscroll%})** | **String** |
+| **[OnUserAction]({%slug grid/client-side-programming/events/onuseraction%})** | **String** |
 
 >caution When the **ClientIDMode** property of the RadGrid control is set to **Static** , all row specific client-side events would not fire.
 >
