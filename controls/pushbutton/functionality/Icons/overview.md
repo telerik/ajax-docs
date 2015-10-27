@@ -10,7 +10,11 @@ position: 0
 
 # Icons Overview
 
-This help article shows how to use icons in **RadPushButton**. You can use the built-in font icons or your own images for its different states and even fine tune their position.
+This help article shows how to use icons in **RadPushButton**. You can use the built-in font icons or your own images for its different states (COMMENT: Clarify/expand. It is not clear what those states are) and even fine tune their position.
+
+(COMMENT: Add another paragraph that explains there are embedded icons, custom icons and that you can tweak them both).
+
+(COMMENT: This article is still too long, split it further. Perhaps only the first section should remain as it is, and fine-tuning and changing font/color should be in a separate article about icon customization/fine-tuning. Also, you should add that top and left work for custom raster icons as well).
 
 * [Use Embedded Icons](#use-embedded-icons)
 
@@ -20,7 +24,7 @@ This help article shows how to use icons in **RadPushButton**. You can use the b
 
 ## Use Embedded Icons
 
-To make the control easier to use **Telerik** provides a large set of built-in icons (**Figure 2**). To use them, set the **Icon.CssClass** property (**Example 1**) to one of the predefined CSS class names, and the respective icon will be shown on the control. The full list of the CSS classes can be found in **List 1**.
+To make the control easier to use, **Telerik** provides a large set of built-in icons (**Figure 2**). To use them, set the **Icon.CssClass** property (**Example 1**) to one of the predefined CSS class names (**List 1**), and the respective icon will be shown on the control.
 
 >caption Figure 1: RadPushButton with an embedded icon (Icon.CssClass="rbOk") from Example 1.
 
@@ -29,12 +33,12 @@ To make the control easier to use **Telerik** provides a large set of built-in i
 >caption Example 1: Declaration of embedded icon in RadPushButton.
 
 ````ASP.NET
-<telerik:RadPushButton ID="RadPushButton1" runat="server" Text="Button with Icon" Skin="Default">
+<telerik:RadPushButton ID="RadPushButton1" runat="server" Text="Button with Icon">
 	<Icon CssClass="rbOk" />
 </telerik:RadPushButton>
 ````
 
->caption List 1: CSS classes of embedded icons in **RadPushButton** shown in **Figure 1**.
+>caption List 1: CSS classes of embedded icons in **RadPushButton**.
 
 * rbAdd
 * rbRemove
@@ -67,7 +71,7 @@ The color of the predefined icons can be white or black, depending on the chosen
 
 >note The **CssClass** is composed in the following way: [**r**]ad[**b**]utton[**IconName**]. For example **rbAdd**.
 
-<!--
+<!-- (COMMENT: Put that in a separate file (e.g., archive) in the folder instead of bloating the article content)
 The code that creates Figure 3
 ASPX:
 <style type="text/css">
@@ -162,13 +166,13 @@ protected void AddRadPushButtonWithIcon(string ID, string IconName, string Skin,
 
 ## Fine-tune Icon Position
 
-At first the Icons might not be positioned exactly the way we want, but this can be easily changed by directly setting the properties that control the top and left offset of the icon - **Icon.Top** and **Icon.Left**
+You can change the icon position to match your concrete requirements. To do this, use the `Icon.Top` and `Icon.Left` properties to directly offset the icon (**Example 2**).
 
->caption Figure 3: Icon in RadPushButton can be offset from its origin top and left position.
+>caption Figure 3: The icon in RadPushButton can be offset from its original top and left position. See Example 2.
 
 ![RadPushButton Icon Top Left](images/button-icon-top-left.png)
 
->caption Example 2: RadPushButton Icon can be offset from the top and left.
+>caption Example 2: Offset RadPushButton Icon from the top and left. You can see the result in Figure 3.
 
 ````ASP.NET
 <telerik:RadPushButton ID="RadPushButton1" runat="server" Text="Fine Tune Icon Position" Height="40px">
@@ -179,13 +183,13 @@ At first the Icons might not be positioned exactly the way we want, but this can
 
 ## Configure Icon Font-size and Color
 
-The embedded icons of **RadPushButton** are font icons (**Figure 2**). Using a font facilitates the customization of the icons. For example, you can change the icons color and font size with a single line of CSS (**Figure 4** and **Example 3**).
+The embedded **RadPushButton** icons are font icons (**Figure 2**)(COMMENT: What does Figure 2 show in relevance to the font icons? Clarify). Using a font facilitates the customization of the icons. For example, you can change the icons color and font size with a single line of CSS (see **Figure 4** and **Example 3**).
 
->caption Figure 4: You can easily customize the font size and color of the embedded icons of RadPushButton with CSS.
+>caption Figure 4: Customize the font size and color of the embedded icons of RadPushButton with CSS.
 
 ![Button Icon Customized](images/button-icon-customized.png)
 
->caption Example 3: Use only CSS to modify the font size and color of embedded icons in RadPushButton.
+>caption Example 3: Use CSS to modify the font size and color of the embedded icons in RadPushButton.
 
 ````CSS
 <style type="text/css">
@@ -204,10 +208,12 @@ The embedded icons of **RadPushButton** are font icons (**Figure 2**). Using a f
 
 ## See Also
 
+ * [Custom Icons]({%slug pushbutton/functionality/icons/custom-icons%})
+
  * [PushButton - Embedded Icons Demo](http://demos.telerik.com/aspnet-ajax/pushbutton/functionality/embedded-icons/defaultcs.aspx)
  
  * [PushButton - Custom Icons Demo](http://demos.telerik.com/aspnet-ajax/pushbutton/functionality/custom-icons/defaultcs.aspx)
  
- * [Custom Icons]({%slug pushbutton/functionality/icons/custom-icons%})
+
 
  

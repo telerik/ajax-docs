@@ -10,7 +10,7 @@ position: 1
 
 # Custom Icons
 
-This help article shows how to define custom icons (images or font icons) in **RadPushButton**.
+This help article shows how to use custom icons (images or font icons) in **RadPushButton**.
 
 * [Image Icons](#image-icons)
 
@@ -32,7 +32,7 @@ To display an image icon on the button, you need to set the **Icon.Url** propert
 </telerik:RadPushButton>
 ````
 
-**RadPushButton** also provides an easy way to show different icon when the mouse is over the control, or the button is pressed (**Figure 2** and **Example 2**). This is achieved through the **HoveredCssClass** and **PressedCssClass** properties exposed by the **Icon** tag.
+**RadPushButton** also provides an easy way to show different icon when the mouse is over the control, or the button is pressed (see **Figure 2** and **Example 2**). To do this, use the **HoveredCssClass** and **PressedCssClass** properties exposed by the **Icon** tag.
 
 >caption Figure 2: A RadPushButton can have different icons for its normal, hovered and active state.
 
@@ -50,13 +50,13 @@ To display an image icon on the button, you need to set the **Icon.Url** propert
 
 ## Font Icons
 
-You can show custom font icons in **RadPushButton** as well. To do that you can follow the steps below:
+You can use custom font icons in **RadPushButton** as well. To do that, follow the steps below:
 
-1. Load the styles with the font icons on the page.
+1. Load the stylesheet with the desired font icons on the page.
 
-1. Override the font-family of the button's icon element with the target one.
+1. Override the font-family of the button's icon element with the target one (see **Example 3**)(COMMENT: Consider showing sample snippets directly in the list instead of only an exapmle with FontAwesome).
 
-1. Set the font icon class to the **Icon.CssClass** property.
+1. Set the custom font icon class to the **Icon.CssClass** property.
 
 You can find below an example with [Font Awesome Icons](https://fortawesome.github.io/Font-Awesome/icons/).
 
@@ -64,7 +64,7 @@ You can find below an example with [Font Awesome Icons](https://fortawesome.gith
 
 ![Button Custon Icon CssClass](images/button-custom-icon-cssclass.png)
 
-**Example 3:** You can define custom font icons in RadPushButton.
+**Example 3:** Using FontAwesome font icons in RadPushButton.
 
 ````CSS
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
