@@ -5,7 +5,7 @@ description: Custom Icons
 slug: pushbutton/functionality/icons/custom-icons
 tags: custom,icons
 published: True
-position: 1
+position: 2
 ---
 
 # Custom Icons
@@ -54,7 +54,13 @@ You can use custom font icons in **RadPushButton** as well. To do that, follow t
 
 1. Load the stylesheet with the desired font icons on the page.
 
-1. Override the font-family of the button's icon element with the target one (see **Example 3**)(COMMENT: Consider showing sample snippets directly in the list instead of only an exapmle with FontAwesome).
+1. Override the font-family of the button's icon element with the target one (see **Example 3**)(COMMENT: Consider showing sample snippets directly in the list instead of only an example with FontAwesome).
+
+	**CSS**
+
+		.RadButton.fa .rbIcon:before {
+			font-family: FontAwesome;
+		}
 
 1. Set the custom font icon class to the **Icon.CssClass** property.
 
@@ -93,6 +99,6 @@ You can also change the font-size and color of the font icon - [Configure Icon F
  
  * [Icons Overview]({%slug pushbutton/functionality/icons/overview%})
  
- * [Configure Icon Font-size and Color]({%slug pushbutton/functionality/icons/overview%}#configure-icon-font-size-and-color)
+ * [Configure Icon Font-size and Color]({%slug pushbutton/functionality/icons/fine-tune%}#configure-font-size-and-color)
  
  
