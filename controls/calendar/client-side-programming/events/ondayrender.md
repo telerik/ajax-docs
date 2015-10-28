@@ -12,12 +12,7 @@ position: 3
 
 
 
-## 
-
 The **OnDayRender** client-side event handler is called for every calendar day cell when the calendar is rendered as a result of client-side navigation. This event mimics the server-side **DayRender** event, giving final control over the output of a specific calendar day cell. This event can be used to apply changes to the calendar cells when the user navigates that are identical to the server-side event handler applied to the cells in the initial view.
-
->note The **OnDayRender** event is supported by: **RadCalendar** .
->
 
 
 The event handler receives two arguments:

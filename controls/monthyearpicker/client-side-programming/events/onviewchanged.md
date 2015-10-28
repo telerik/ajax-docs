@@ -5,7 +5,7 @@ description: OnViewChanged
 slug: monthyearpicker/client-side-programming/events/onviewchanged
 tags: onviewchanged
 published: True
-position: 1
+position: 6
 ---
 
 # OnViewChanged

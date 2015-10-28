@@ -5,7 +5,7 @@ description: Localization Through Global Resources
 slug: calendar/accessibility-and-internationalization/localization-through-global-resources
 tags: localization,through,global,resources
 published: True
-position: 3
+position: 2
 ---
 
 # Localization Through Global Resources

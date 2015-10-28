@@ -5,7 +5,7 @@ description: Keyboard Support
 slug: timepicker/accessibility-and-internationalization/keyboard-support
 tags: keyboard,support
 published: True
-position: 7
+position: 4
 ---
 
 # Keyboard Support

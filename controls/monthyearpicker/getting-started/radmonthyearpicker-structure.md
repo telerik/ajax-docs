@@ -25,7 +25,7 @@ The three major components of a **RadMonthYearPicker** control are:
 
 # See Also
 
- * [RadCalendar Structure]({%slug calendar/getting-started/radcalendar-structure%})
+ * [RadCalendar Structure]({%slug calendar/getting-started/structure%})
 
  * [RadMonthYearPicker Structure]({%slug monthyearpicker/getting-started/radmonthyearpicker-structure%})
  

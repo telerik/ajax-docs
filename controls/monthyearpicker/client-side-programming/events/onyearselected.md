@@ -5,7 +5,7 @@ description: OnYearSelected
 slug: monthyearpicker/client-side-programming/events/onyearselected
 tags: onyearselected
 published: True
-position: 1
+position: 5
 ---
 
 # OnYearSelected

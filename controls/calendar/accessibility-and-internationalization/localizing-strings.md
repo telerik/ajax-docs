@@ -5,7 +5,7 @@ description: Localizing Strings
 slug: calendar/accessibility-and-internationalization/localizing-strings
 tags: localizing,strings
 published: True
-position: 4
+position: 3
 ---
 
 # Localizing Strings

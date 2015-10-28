@@ -12,12 +12,7 @@ position: 7
 
 
 
-## 
-
 The **OnCalendarViewChanging** client-side event handler is called when the calendar navigates to a new view, before the viewable area rendered by the calendar is changed.
-
->note The **OnCalendarViewChanging** event is supported by: **RadCalendar** .
->
 
 
 The event handler receives two arguments:

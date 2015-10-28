@@ -12,12 +12,7 @@ position: 9
 
 
 
-## 
-
 The **OnColumnHeaderClick** client-side event handler is called when the user is about to select a column of dates by clicking on a column header. The event occurs only if the **ShowColumnHeaders** and **UseColumnHeadersAsSelectors** properties are set to **true**.
-
->note The **OnColumnHeaderClick** event is supported by: **RadCalendar** .
->
 
 
 The event handler receives two arguments:

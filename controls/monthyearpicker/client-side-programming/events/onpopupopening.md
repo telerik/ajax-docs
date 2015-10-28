@@ -5,7 +5,7 @@ description: OnPopupOpening
 slug: monthyearpicker/client-side-programming/events/onpopupopening
 tags: onpopupopening
 published: True
-position: 1
+position: 2
 ---
 
 # OnPopupOpening
@@ -24,8 +24,7 @@ OnPopupOpening event arguments object
 
 | Name | Return Type | Arguments | Description |
 | ------ | ------ | ------ | ------ |
-| **get_popupControl()** |[Time view]({%slug calendar/client-side-programming/radtimeview-object%})or[Calendar]({%slug calendar/client-side-programming/radcalendar-object%})client object||Returns the client object for the time view or calendar that is about to be displayed.|
-| **set_cancelCalendarSynchronization(value)** ||bool|Lets you prevent the popup control from synchronizing its value to the value in the input area.|
+| **get_pickerControl()** |[RadMonthYearPicker]({%slug monthyearpicker/client-side-programming/radmonthyearpicker-object%}) client object||Returns the client object for the RadMonthYearPicker control.|
 | **set_cancel(value)** ||bool|Lets you prevent the popup from appearing.|
 
 The following example uses the **OnPopupOpening** event to initialize the selection if the input area is empty:

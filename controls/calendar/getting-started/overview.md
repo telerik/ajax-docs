@@ -74,6 +74,6 @@ This tutorial will walk you through creating a Web page that uses **RadCalendar*
 
 # See Also
 
- * [RadCalendar Structure]({%slug calendar/getting-started/radcalendar-structure%})
+ * [RadCalendar Structure]({%slug calendar/getting-started/structure%})
 
 

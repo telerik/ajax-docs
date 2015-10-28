@@ -19,21 +19,21 @@ The **RadDateTimePicker** control provides the following features:
 
 * Complete access to the embedded controls that make up the picker control with the ability to [configure these controls]({%slug datetimepicker/customizing-the-embedded-controls%}) separately.
 
-* [Sharable popup controls]({%slug datetimepicker/using-shared-radcalendar/radtimeview%}) for smaller rendering and better performance.
+* [Sharable popup controls]({%slug datetimepicker/functionality/using-shared-radcalendar-radtimeview%}) for smaller rendering and better performance.
 
-* Support for [data-binding]({%slug datetimepicker/data-binding-%}).
+* Support for [data-binding]({%slug datetimepicker/data-binding%}).
 
-* Support for localization, including [culture-dependant date formatting]({%slug datetimepicker/accessibility-and-internationalization/specifying-a-culture%}) and the ability to [localize all strings]({%slug datetimepicker/accessibility-and-internationalization/localizing-strings%}) in the user interface.
+* Support for localization, including [culture-dependant date formatting]({%slug datetimepicker/accessibility-and-internationalization/specifying-a-culture%}) and the ability to [localize all strings]({%slug calendar/accessibility-and-internationalization/localizing-strings%}) in the user interface.
 
 * [Configurable time view]({%slug datetimepicker/configuring-the-embedded-time-view%}) control for selecting time values.
 
-* Support for [ASP.NET validation controls]({%slug datetimepicker/how-to/web-pages-validation%}).
+* Support for [ASP.NET validation controls]({%slug datetimepicker/functionality/validation%}).
 
 * [Keyboard support]({%slug datetimepicker/accessibility-and-internationalization/keyboard-support%}).
 
 * [Template support]({%slug datetimepicker/templates/radtimeview-templates%}) for the time view popup.
 
-* Ability to customize the look-and-feel either by using [skins]({%slug datetimepicker/appearance-and-styling/skins%}), or by setting [styles]({%slug datetimepicker/appearance-and-styling/styles%}) to affect the various parts of the control and its appearance, depending on its state.
+* Ability to customize the look-and-feel either by using [skins]({%slug datetimepicker/appearance-and-styling/skins%}) to affect the various parts of the control and its appearance, depending on its state.
 
 * WAI-ARIA Support.
 

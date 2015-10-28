@@ -1,14 +1,14 @@
 ---
-title: RadMonthYearPicker object
-page_title: RadMonthYearPicker object | RadMonthYearPicker for ASP.NET AJAX Documentation
-description: RadMonthYearPicker object
+title: RadMonthYearPicker Object
+page_title: RadMonthYearPicker Object | RadMonthYearPicker for ASP.NET AJAX Documentation
+description: RadMonthYearPicker Object
 slug: monthyearpicker/client-side-programming/radmonthyearpicker-object
 tags: radmonthyearpicker,object
 published: True
 position: 0
 ---
 
-# RadMonthYearPicker object
+# RadMonthYearPicker Object
 
 
 

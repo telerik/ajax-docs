@@ -5,7 +5,7 @@ description: Controlling Appearance
 slug: datepicker/appearance-and-styling/controlling-appearance
 tags: controlling,appearance
 published: True
-position: 2
+position: 0
 ---
 
 # Controlling Appearance

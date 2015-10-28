@@ -5,7 +5,7 @@ description: SelectedDateChanged
 slug: timepicker/server-side-programming/server-side-events/selecteddatechanged
 tags: selecteddatechanged
 published: True
-position: 1
+position: 2
 ---
 
 # SelectedDateChanged
