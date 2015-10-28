@@ -12,7 +12,7 @@ position: 0
 
 The RadLinkButton exposes several client-side events which allow easy and flexible use in a wide range of application scenarios:
 
-* **OnClientLoad (load)** - raised when the control is initialized.
+* **[OnClientLoad (load)]({%slug linkbutton/client-side-programming/events/onclientload%})** - raised when the control is initialized.
 
 * **[OnClientClicking (clicking)]({%slug linkbutton/client-side-programming/events/onclientclicking%})** - raised when the user clicks the button. The event can be canceled.
 

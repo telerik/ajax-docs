@@ -16,7 +16,7 @@ The event handler receives two parameters:
 
 1. The instance of the clicked RadLinkButton control
 
-1. An eventArgs parameter of type Telerik.Web.UI.**RadButtonCancelEventArgs**, containing the following properties and methods:
+1. An eventArgs parameter of type [Telerik.Web.UI.ButtonCancelEventArgs](http://docs.telerik.com/devtools/aspnet-ajax/api/client/args/Telerik.Web.UI.ButtonCancelEventArgs), containing the following properties and methods:
 
 	* get_cancel() - returns a bool value that indicates whether the event was canceled. True means the event is canceled.
 
@@ -39,6 +39,7 @@ This event comes handy in scenarios when the user wants to cancel the page navig
 # See Also
 
  * [RadLinkButton Object]({%slug linkbutton/client-side-programming/linkbutton-object%})
+ * [Telerik.Web.UI.ButtonCancelEventArgs](http://docs.telerik.com/devtools/aspnet-ajax/api/client/args/Telerik.Web.UI.ButtonCancelEventArgs)
  * [OnClientClicked]({%slug linkbutton/client-side-programming/events/onclientclicked%})
  * [OnClientMouseOver]({%slug linkbutton/client-side-programming/events/onclientmouseover%})
  * [OnClientMouseOut]({%slug linkbutton/client-side-programming/events/onclientmouseout%})

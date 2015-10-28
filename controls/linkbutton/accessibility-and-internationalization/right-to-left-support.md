@@ -20,11 +20,11 @@ The **RadLinkButton** fully supports right-to-left (RTL) language locales (**Fig
 
 ````ASP.NET
 <div style="direction: rtl">
-	<telerik:RadLinkButton runat="server" ID="RadLinkButton1" Text="RadLinkButton">
+	<telerik:RadLinkButton runat="server" ID="RadLinkButton1" Text="RadLinkButton" NavigateUrl="http://www.telerik.com" Target="_blank">
 	</telerik:RadLinkButton>
 	<br />
 	<br />
-	<telerik:RadLinkButton runat="server" ID="RadLinkButton2" Text="RadLinkButton with Icon">
+	<telerik:RadLinkButton runat="server" ID="RadLinkButton2" Text="RadLinkButton with Icon" NavigateUrl="http://www.telerik.com" Target="_blank">
 		<Icon CssClass="rbUpload" />
 	</telerik:RadLinkButton>
 </div>
