@@ -18,7 +18,7 @@ This help article shows how to use custom icons (images or font icons) in **RadP
 
 ## Image Icons
 
-To display an image icon on the button, you need to set the **Icon.Url** property.
+To display an image icon on the button, you need to set the **Icon.Url** property to point to the URL of the desired image.
 
 >caption Figure 1: RadPushButton with custom icon set through the **Icon.Url** property.
 
@@ -31,6 +31,8 @@ To display an image icon on the button, you need to set the **Icon.Url** propert
 	<Icon Url="http://demos.telerik.com/aspnet-ajax/button/examples/customicons/images/eFind.png" Top="5" Left="8" />
 </telerik:RadPushButton>
 ````
+
+### Hovered and Active States
 
 **RadPushButton** also provides an easy way to show different icon when the mouse is over the control, or the button is pressed (see **Figure 2** and **Example 2**). To do this, use the **HoveredCssClass** and **PressedCssClass** properties exposed by the **Icon** tag.
 
@@ -87,7 +89,7 @@ You can find below an example with [Font Awesome Icons](https://fortawesome.gith
 </telerik:RadPushButton>
 ````
 
-You can also change the font-size and color of the font icon - [Configure Icon Font-size and Color]({%slug pushbutton/functionality/icons/overview%}#configure-icon-font-size-and-color).
+You can also change the font-size and color of the font icon as described in the [Fine Tune]({%slug pushbutton/functionality/icons/fine-tune%}) help article.
 
 ## See Also
 
@@ -99,6 +101,6 @@ You can also change the font-size and color of the font icon - [Configure Icon F
  
  * [Icons Overview]({%slug pushbutton/functionality/icons/overview%})
  
- * [Configure Icon Font-size and Color]({%slug pushbutton/functionality/icons/fine-tune%}#configure-font-size-and-color)
+ * [Fine Tune Icons Position, Size and Color]({%slug pushbutton/functionality/icons/fine-tune%})
  
  

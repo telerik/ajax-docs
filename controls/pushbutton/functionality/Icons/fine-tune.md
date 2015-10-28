@@ -58,6 +58,8 @@ The embedded **RadPushButton** icons are font icons. Using a font facilitates th
 </telerik:RadPushButton>
 ````
 
+>tip This also applies for [custom font icons]({%slug pushbutton/functionality/icons/custom-icons%}#font-icons).
+
 ## See Also
 
  * [Icons Overview]({%slug pushbutton/functionality/icons/overview%})

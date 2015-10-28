@@ -16,13 +16,13 @@ This help article shows how to use embedded icons in **RadPushButton**, lists th
 
 * [CssClass List of Embedded Icons](#cssclass-list-of-embedded-icons)
 
-* [Embedded Icons Skins Specifics](#embedded-icons-skins-specifics)
+* [Skins Specifics](#skins-specifics)
 
 >caption Figure 1: List of Embedded icons in RadPushButton.
 
 ![List of Embedded Icons in RadPushButton](images/embedded-icons-list.png)
 
-You can also use [custom icons]({%slug pushbutton/functionality/icons/custom-icons%})(image or font icons) and [fine-tune their position, color and size]({%slug pushbutton/functionality/icons/fine-tune%}).
+You can also use [custom icons]({%slug pushbutton/functionality/icons/custom-icons%}) (image or font icons) and [fine-tune their position, color and size]({%slug pushbutton/functionality/icons/fine-tune%}).
 
 ## Configuration
 
@@ -67,9 +67,9 @@ You can find below the full list of CSS classes responsible for the embedded ico
 * rbFB
 * rbTwitter
 
-## Embedded Icons Skins Specifics
+## Skins Specifics
 
-The color of the predefined icons can be white or black, depending on the chosen Skin. You can make the difference for the **Silk** and **Glow** skin in **Figure 3**.
+The color of the predefined icons can be white or black, depending on the chosen Skin. You can see the difference for the **Silk** and **Glow** skin in **Figure 3**.
 
 >caption Figure 3: Embedded icons in RadPushButton for the Silk and Glow skin have white and black colors.
 
