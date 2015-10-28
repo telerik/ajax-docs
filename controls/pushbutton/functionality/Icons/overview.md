@@ -8,7 +8,9 @@ published: True
 position: 0
 ---
 
-# Icons Overview
+# Icons Overview 
+
+(COMMENT: The title of the article in the TOC is Overview, so that clients can use it as a starting point. The article, however, treats entirely embedded icons. Should I rename it to Embedded Icons, because there is another article in the same section called Custom Icons?)
 
 This help article shows how to use embedded icons in **RadPushButton**, lists the necessary CSS classes and describes the skins specifics.
 
