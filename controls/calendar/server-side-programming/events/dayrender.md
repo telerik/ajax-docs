@@ -2,7 +2,7 @@
 title: DayRender
 page_title: DayRender | RadCalendar for ASP.NET AJAX Documentation
 description: DayRender
-slug: calendar/server-side-programming/server-side-events/dayrender
+slug: calendar/server-side-programming/events/dayrender
 tags: dayrender
 published: True
 position: 1
@@ -69,6 +69,6 @@ For a live example that uses the **DayRender** event , see [DayRender Event.](ht
 
  * [Adding Controls to a Calendar Cell]({%slug calendar/how-to/adding-controls-to-a-calendar-cell%})
 
- * [HeaderCellRender]({%slug calendar/server-side-programming/server-side-events/headercellrender%})
+ * [HeaderCellRender]({%slug calendar/server-side-programming/events/headercellrender%})
 
 

@@ -2,7 +2,7 @@
 title: Overview
 page_title: Overview | RadTimePicker for ASP.NET AJAX Documentation
 description: RadTimePicker Server-Side Events Overview
-slug: timepicker/server-side-programming/server-side-events/overview
+slug: timepicker/server-side-programming/events/overview
 tags: server-side,events,overview
 published: True
 position: 0
@@ -14,13 +14,13 @@ position: 0
 
 The **RadTimePicker** control exposes the following server-side events:
 
-* [ChildrenCreated]({%slug timepicker/server-side-programming/server-side-events/childrencreated%}) occurs when the child controls (the input area, popup buttons, and embedded calendar or time view controls) are created.
+* [ChildrenCreated]({%slug timepicker/server-side-programming/events/childrencreated%}) occurs when the child controls (the input area, popup buttons, and embedded calendar or time view controls) are created.
 
-* [SelectedDateChanged]({%slug timepicker/server-side-programming/server-side-events/selecteddatechanged%}) occurs when the user changes the value of the control, either when input area loses focus after the user has typed a new value, or when the user selects a new value in the popup calendar or time view control. This event does not fire unless the **AutoPostBack** property is **True** (**RadDatePicker**, **RadTimePicker** and **RadMonthYearPicker**) or the **AutoPostBackControl** property is not "None" (**RadDateTimePicker**).
+* [SelectedDateChanged]({%slug timepicker/server-side-programming/events/selecteddatechanged%}) occurs when the user changes the value of the control, either when input area loses focus after the user has typed a new value, or when the user selects a new value in the popup calendar or time view control. This event does not fire unless the **AutoPostBack** property is **True** (**RadDatePicker**, **RadTimePicker** and **RadMonthYearPicker**) or the **AutoPostBackControl** property is not "None" (**RadDateTimePicker**).
 
-* [ItemCreated]({%slug timepicker/server-side-programming/server-side-events/itemcreated%}) occurs when an item in the time view is created.
+* [ItemCreated]({%slug timepicker/server-side-programming/events/itemcreated%}) occurs when an item in the time view is created.
 
-* [ItemDataBound]({%slug timepicker/server-side-programming/server-side-events/itemdatabound%}) occurs when an item in the time view is data bound.
+* [ItemDataBound]({%slug timepicker/server-side-programming/events/itemdatabound%}) occurs when an item in the time view is data bound.
 
 
 

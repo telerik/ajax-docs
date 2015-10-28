@@ -2,7 +2,7 @@
 title: Configuring the Embedded Time View
 page_title: Configuring the Embedded Time View | RadTimePicker for ASP.NET AJAX Documentation
 description: Configuring the Embedded Time View
-slug: timepicker/configuring-the-embedded-time-view
+slug: timepicker/functionality/configuring-the-embedded-time-view
 tags: configuring,the,embedded,time,view
 published: True
 position: 1
@@ -164,6 +164,6 @@ End Sub
 
  * [RadTimeView Structure]({%slug timepicker/getting-started/radtimeview-structure%})
 
- * [Customizing the Embedded Controls]({%slug timepicker/customizing-the-embedded-controls%})
+ * [Customizing the Embedded Controls]({%slug timepicker/functionality/customizing-the-embedded-controls%})
 
  * [RadTimeView Templates]({%slug timepicker/templates/radtimeview-templates%})

@@ -61,4 +61,4 @@ function dayRender(sender, eventArgs) {
 
 # See Also
 
- * [DayRender]({%slug calendar/server-side-programming/server-side-events/dayrender%})
+ * [DayRender]({%slug calendar/server-side-programming/events/dayrender%})

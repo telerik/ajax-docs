@@ -2,7 +2,7 @@
 title: HeaderCellRender
 page_title: HeaderCellRender | RadCalendar for ASP.NET AJAX Documentation
 description: HeaderCellRender
-slug: calendar/server-side-programming/server-side-events/headercellrender
+slug: calendar/server-side-programming/events/headercellrender
 tags: headercellrender
 published: True
 position: 2
@@ -73,6 +73,6 @@ End Sub
 
 # See Also
 
- * [DayRender]({%slug calendar/server-side-programming/server-side-events/dayrender%})
+ * [DayRender]({%slug calendar/server-side-programming/events/dayrender%})
  
  

@@ -2,7 +2,7 @@
 title: Customizing the Embedded Controls
 page_title: Customizing the Embedded Controls | RadTimePicker for ASP.NET AJAX Documentation
 description: Customizing the Embedded Controls
-slug: timepicker/customizing-the-embedded-controls
+slug: timepicker/functionality/customizing-the-embedded-controls
 tags: customizing,the,embedded,controls
 published: True
 position: 0
@@ -44,10 +44,10 @@ Modifying a child control's settings allows for greater flexibility when configu
 
  * [RadTimePicker Structure]({%slug timepicker/getting-started/radtimepicker-structure%})
 
- * [Configuring the Embedded Time View]({%slug timepicker/configuring-the-embedded-time-view%})
+ * [Configuring the Embedded Time View]({%slug timepicker/functionality/configuring-the-embedded-time-view%})
 
- * [Using shared RadTimeView]({%slug timepicker/using-shared-radtimeview%})
+ * [Using shared RadTimeView]({%slug timepicker/functionality/using-shared-radtimeview%})
 
- * [Formatting Values]({%slug timepicker/formatting-values%})
+ * [Formatting Values]({%slug timepicker/functionality/formatting-values%})
 
- * [ChildrenCreated]({%slug timepicker/server-side-programming/server-side-events/childrencreated%})
+ * [ChildrenCreated]({%slug timepicker/server-side-programming/events/childrencreated%})

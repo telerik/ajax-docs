@@ -24,7 +24,7 @@ The event handler receives two arguments:
 
 | Name | Return Type | Arguments | Description |
 | ------ | ------ | ------ | ------ |
-| **get_popupControl()** |[Time view]({%slug calendar/client-side-programming/radtimeview-object%})or[Calendar]({%slug calendar/client-side-programming/radcalendar-object%})client object||Returns the client object for the time view or calendar that is about to be displayed.|
+| **get_popupControl()** |[Time view]({%slug timepicker/client-side-programming/radtimeview-object%}) client object||Returns the client object for the time view that is about to be displayed.|
 | **set_cancelCalendarSynchronization(value)** ||bool|Lets you prevent the popup control from synchronizing its value to the value in the input area.|
 | **set_cancel(value)** ||bool|Lets you prevent the popup from appearing.|
 
@@ -51,4 +51,4 @@ function popupOpening(sender, eventArgs) {
 
 # See Also
 
- * [OnPopupClosing]({%slug calendar/client-side-programming/events/onpopupclosing%})
+ * [OnPopupClosing]({%slug timepicker/client-side-programming/events/onpopupclosing%})

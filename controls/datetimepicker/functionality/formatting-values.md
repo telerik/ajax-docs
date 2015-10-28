@@ -2,7 +2,7 @@
 title: Formatting Values
 page_title: Formatting Values | RadDateTimePicker for ASP.NET AJAX Documentation
 description: Formatting Values
-slug: datetimepicker/formatting-values
+slug: datetimepicker/functionality/formatting-values
 tags: formatting,values
 published: True
 position: 5
@@ -22,7 +22,7 @@ The embedded **RadDateInput** has two properties that you can use to specify a f
 
 * The **DisplayDateFormat** property specifies the format of the control's value when it does not have focus.
 
-Both properties expect [date format pattern]({%slug datetimepicker/accessibility-and-internationalization/date-format-patterns%}) as a value.
+Both properties expect [date format pattern]({%slug calendar/accessibility-and-internationalization/date-format-patterns%}) as a value.
 
 ````ASPNET
 <telerik:RadDateTimePicker ID="RadDateTimePicker1" runat="server">
@@ -66,7 +66,7 @@ In addition, the **CellDayFormat** property lets you specify how to format the n
 
 ## Formatting values in the popup time view
 
-You can control the **TimeFormat** property for the embedded **RadTimeView** control by using a [date format pattern]({%slug datetimepicker/accessibility-and-internationalization/date-format-patterns%}) that specifies how the time values will be displayed.
+You can control the **TimeFormat** property for the embedded **RadTimeView** control by using a [date format pattern]({%slug calendar/accessibility-and-internationalization/date-format-patterns%}) that specifies how the time values will be displayed.
 
 ````ASPNET
 <telerik:RadDateTimePicker ID="RadDateTimePicker1" runat="server">

@@ -12,6 +12,6 @@ position: 5
 # Validation
 
 
-Using standard ASP.NET validation controls with **RadDateTimePicer** works the same way as with **RadDatePicker**. Check [this article]({%slug datepicker/functionality/web-pages-validation%}) for more information.
+Using standard ASP.NET validation controls with **RadDateTimePicer** works the same way as with **RadDatePicker**. Check [this article]({%slug datepicker/functionality/validation%}) for more information.
 
 

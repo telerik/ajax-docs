@@ -13,7 +13,7 @@ position: 0
 
 You can use a number of properties to control the look and feel of the **RadMonthYearPicker** controls:
 
-* The **Skin** property lets you specify a [skin]({%slug monthyearpicker/appearance-and-styling/skins%}) to set the overall look and feel of any of the control. 
+* The **Skin** property lets you specify a skin to define the overall look and feel of any of the control. 
 
 * The **ImagesPath** property enables you to specify path to a directory that contains custom images which can replace the default ones. It is applicable for **RadMonthYearPicker** control and enables versatile customization of the appearance. Note that in order for that property to work you need to also set **EnableEmbeddedSkins="false"**.
 

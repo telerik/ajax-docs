@@ -2,7 +2,7 @@
 title: Smart Tag
 page_title: Smart Tag | RadCalendar for ASP.NET AJAX Documentation
 description: Smart Tag
-slug: calendar/design-time/smart-tag
+slug: timepicker/design-time/smart-tag
 tags: smart,tag
 published: True
 position: 1

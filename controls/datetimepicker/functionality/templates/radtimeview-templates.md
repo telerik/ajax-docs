@@ -2,7 +2,7 @@
 title: RadTimeView Templates
 page_title: RadTimeView Templates | RadDateTimePicker for ASP.NET AJAX Documentation
 description: RadTimeView Templates
-slug: datetimepicker/templates/radtimeview-templates
+slug: datetimepicker/functionality/templates/radtimeview-templates
 tags: radtimeview,templates
 published: True
 position: 2
@@ -120,4 +120,4 @@ End Class
 
 # See Also
 
- * [Finding Controls inside RadTimeView Templates]({%slug datetimepicker/templates/finding-controls-inside-radtimeview-templates%})
+ * [Finding Controls inside RadTimeView Templates]({%slug datetimepicker/functionality/templates/finding-controls-inside-radtimeview-templates%})

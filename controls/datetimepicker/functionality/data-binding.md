@@ -2,8 +2,8 @@
 title: Data Binding 
 page_title: Data Binding  | RadDateTimePicker for ASP.NET AJAX Documentation
 description: RadDateTimePicker Data Binding 
-slug: datetimepicker/raddatepicker,-radtimepicker,-raddatetimepicker-and-radmonthyearpicker/data-binding-
-tags: data,binding,
+slug: datetimepicker/functionality/data-binding
+tags: data,binding
 published: True
 position: 4
 ---

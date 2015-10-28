@@ -19,7 +19,7 @@ A number of properties let you control the look and feel of the **RadCalendar** 
 
 * You can use templates to add controls or HTML elements to parts of the **RadCalendar** control:
 
-	* On **RadCalendar**, you can [apply templates to individual day cells]({%slug calendar/templates/radcalendar-day-templates%}) of the calendar, or to the [calendar header and footer]({%slug calendar/templates/radcalendar-header-and-footer-templates%}).
+	* On **RadCalendar**, you can [apply templates to individual day cells]({%slug calendar/functionality/templates/day-templates%}) of the calendar, or to the [calendar header and footer]({%slug calendar/functionality/templates/header-and-footer-templates%}).
 
 * The **ImagesPath** property enables you to specify path to a directory that contains custom images which can replace the default ones. Note that in order for that property to work you need to also set **EnableEmbeddedSkins="false"**.
 
@@ -33,15 +33,15 @@ Here is an example using the **ImagesPath** property:
 
 In addition you can configure most aspects of the **RadCalendar** layout :
 
-* The [title]({%slug calendar/radcalendar/title-settings%})
+* The [title]({%slug calendar/functionality/title-settings%})
 
-* The [navigation controls]({%slug calendar/radcalendar/navigation-controls-settings%}) on the title bar
+* The [navigation controls]({%slug calendar/functionality/navigation-controls-settings%}) on the title bar
 
-* The [column and row headers]({%slug calendar/radcalendar/column-and-row-headers-settings%})
+* The [column and row headers]({%slug calendar/functionality/column-and-row-headers-settings%})
 
-* The [day matrix]({%slug calendar/radcalendar/customizing-the-day-matrix%})
+* The [day matrix]({%slug calendar/functionality/customizing-the-day-matrix%})
 
-* The number of months displayed in a single [view]({%slug calendar/radcalendar/multi-view-mode%})
+* The number of months displayed in a single [view]({%slug calendar/functionality/multi-view-mode%})
 
 
 

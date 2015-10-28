@@ -50,6 +50,6 @@ function confirmChange(sender, eventArgs) {
 
  * [OnDateSelected]({%slug calendar/client-side-programming/events/ondateselected%})
 
- * [SelectionChanged]({%slug calendar/server-side-programming/server-side-events/selectionchanged%})
+ * [SelectionChanged]({%slug calendar/server-side-programming/events/selectionchanged%})
 
  * [OnDateClick]({%slug calendar/client-side-programming/events/ondateclick%})

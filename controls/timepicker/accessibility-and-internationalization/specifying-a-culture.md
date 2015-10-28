@@ -78,6 +78,6 @@ End Sub
 
 # See Also
 
- * [Formatting Values]({%slug timepicker/formatting-values%})
+ * [Formatting Values]({%slug timepicker/functionality/formatting-values%})
  
  

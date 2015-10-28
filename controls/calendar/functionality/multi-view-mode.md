@@ -47,4 +47,4 @@ Multi-view calendar logic works -only- when **AutoPostBack="true"** . As a resul
 
 # See Also
 
- * [Customizing the Day Matrix]({%slug calendar/radcalendar/customizing-the-day-matrix%})
+ * [Customizing the Day Matrix]({%slug calendar/functionality/customizing-the-day-matrix%})

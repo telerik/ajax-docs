@@ -58,8 +58,8 @@ Modifying the settings of a child control provides greater flexibility when conf
 
  * [RadDatePicker Structure]({%slug datepicker/getting-started/raddatepicker-structure%})
 
- * [Using shared RadCalendar]({%slug datepicker/using-shared-radcalendar%})
+ * [Using shared RadCalendar]({%slug datepicker/functionality/using-shared-radcalendar%})
 
- * [Formatting Values]({%slug datepicker/formatting-values%})
+ * [Formatting Values]({%slug datepicker/functionality/formatting-values%})
 
 

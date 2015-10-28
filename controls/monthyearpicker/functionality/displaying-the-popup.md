@@ -43,8 +43,4 @@ function showMontYearPopup(sender, args) {
 
 
 
-# See Also
-
- * [Displaying The Popup Above The Input Area]({%slug monthyearpicker/how-to/displaying-the-popup-above-the-input-area%})
-
 

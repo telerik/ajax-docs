@@ -32,9 +32,9 @@ Here is an example using the **ImagesPath** property:
 In addition to the properties mentioned above the **RadTimePicker** control provides the following options for further customization.
 
 
-* The [layout of the embedded time view]({%slug timepicker/configuring-the-embedded-time-view%}) popup on **RadTimePicker** can be configured
+* The [layout of the embedded time view]({%slug timepicker/functionality/configuring-the-embedded-time-view%}) popup on **RadTimePicker** can be configured
 
-* The [format of date and time values]({%slug timepicker/formatting-values%}) can be customized.
+* The [format of date and time values]({%slug timepicker/functionality/formatting-values%}) can be customized.
 
 
 ## Animations

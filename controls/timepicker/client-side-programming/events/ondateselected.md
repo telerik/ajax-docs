@@ -49,6 +49,6 @@ function dateSelected(sender, eventArgs) {
 
  * [OnPopupClosing]({%slug timepicker/client-side-programming/events/onpopupclosing%})
 
- * [OnPopupOpening]({%slug timepicker/server-side-programming/server-side-events/onpopupopening%})
+ * [OnPopupOpening]({%slug timepicker/client-side-programming/events/onpopupopening%})
 
 

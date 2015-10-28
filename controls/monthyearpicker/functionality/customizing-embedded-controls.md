@@ -2,8 +2,8 @@
 title: Customizing the Embedded Controls
 page_title: Customizing the Embedded Controls | RadMonthYearPicker for ASP.NET AJAX Documentation
 description: Customizing the Embedded Controls
-slug: monthyearpicker/functionality/customizing-the-embedded-controls
-tags: customizing,the,embedded,controls
+slug: monthyearpicker/functionality/customizing-embedded-controls
+tags: customizing,embedded,controls
 published: True
 position: 0
 ---
@@ -27,8 +27,8 @@ To customize the embedded controls, simply locate the property for the embedded 
 
 # See Also
 
- * [Formatting Values]({%slug monthyearpicker/formatting-values%})
+ * [Formatting Values]({%slug monthyearpicker/functionality/formatting-values%})
 
- * [ChildrenCreated]({%slug monthyearpicker/server-side-programming/server-side-events/childrencreated%})
+ * [ChildrenCreated]({%slug monthyearpicker/server-side-programming/events/childrencreated%})
 
 

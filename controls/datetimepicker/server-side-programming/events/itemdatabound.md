@@ -2,7 +2,7 @@
 title: ItemDataBound
 page_title: ItemDataBound | RadDateTimePicker for ASP.NET AJAX Documentation
 description: ItemDataBound
-slug: datetimepicker/server-side-programming/server-side-events/itemdatabound
+slug: datetimepicker/server-side-programming/events/itemdatabound
 tags: itemdatabound
 published: True
 position: 1
@@ -55,6 +55,6 @@ End Sub
 
 # See Also
 
- * [ItemCreated]({%slug datetimepicker/server-side-programming/server-side-events/itemcreated%})
+ * [ItemCreated]({%slug datetimepicker/server-side-programming/events/itemcreated%})
  
  

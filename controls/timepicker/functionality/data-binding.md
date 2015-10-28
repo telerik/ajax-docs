@@ -2,7 +2,7 @@
 title: Data Binding 
 page_title: Data Binding  | RadTimePicker for ASP.NET AJAX Documentation
 description: Data Binding 
-slug: timepicker/data-binding
+slug: timepicker/functionality/data-binding
 tags: data,binding,
 published: True
 position: 3

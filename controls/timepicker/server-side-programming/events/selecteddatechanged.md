@@ -2,7 +2,7 @@
 title: SelectedDateChanged
 page_title: SelectedDateChanged | RadTimePicker for ASP.NET AJAX Documentation
 description: SelectedDateChanged
-slug: timepicker/server-side-programming/server-side-events/selecteddatechanged
+slug: timepicker/server-side-programming/events/selecteddatechanged
 tags: selecteddatechanged
 published: True
 position: 2
@@ -68,4 +68,4 @@ End Sub
 
  * [OnDateSelected]({%slug timepicker/client-side-programming/events/ondateselected%})
 
- * [OnClientTimeSelected]({%slug timepicker/client-side-programming/events/onclienttimeselected%})
+

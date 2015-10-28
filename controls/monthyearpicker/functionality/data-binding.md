@@ -2,8 +2,8 @@
 title: Data Binding 
 page_title: Data Binding  | RadMonthYearPicker for ASP.NET AJAX Documentation
 description: Data Binding 
-slug: calendar/functionality/data-binding
-tags: data,binding,
+slug: monthyearpicker/functionality/data-binding
+tags: data,binding
 published: True
 position: 2
 ---

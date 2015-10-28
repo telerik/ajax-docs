@@ -19,7 +19,7 @@ The **OnYearSelected** client-side event handler is called immediately after a u
 
 The event handler receives two arguments:
 
-1. the [RadMonthYearPicker]({%slug calendar/client-side-programming/radmonthyearpicker-object%}) object that fired the event.
+1. the [RadMonthYearPicker]({%slug monthyearpicker/client-side-programming/radmonthyearpicker-object%}) object that fired the event.
 
 1. an event arguments object that exposes the following methods:OnYearSelected event arguments object
 

@@ -23,7 +23,7 @@ The embedded **RadDateInput** has two properties that you can use to specify a f
 
 * The **DisplayDateFormat** property specifies the format of the control's value when it does not have focus.
 
-Both properties take a [date format pattern]({%slug datepicker/accessibility-and-internationalization/date-format-patterns%}) as a value.
+Both properties take a [date format pattern]({%slug calendar/accessibility-and-internationalization/date-format-patterns%}) as a value.
 
 ````ASPNET
 <telerik:RadDatePicker ID="RadDatePicker1" runat="server">
@@ -49,7 +49,7 @@ The embedded **RadCalendar** control is present in **RadDatePicker** and **RadDa
 
 * The **DayCellToolTipFormat** property specifies the format of the date that appears when the user hovers the mouse over a cell in the calendar.
 
-Both properties take a [date format pattern]({%slug datepicker/accessibility-and-internationalization/date-format-patterns%}) as a value.
+Both properties take a [date format pattern]({%slug calendar/accessibility-and-internationalization/date-format-patterns%}) as a value.
 
 In addition, the **CellDayFormat** property lets you specify how to format the numbers that label each day in the day matrix. This is a standard ASP.NET number format string.
 

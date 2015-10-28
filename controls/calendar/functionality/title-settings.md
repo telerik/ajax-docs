@@ -2,7 +2,7 @@
 title: Title Settings
 page_title: Title Settings | RadCalendar for ASP.NET AJAX Documentation
 description: Title Settings
-slug: calendar/radcalendar/title-settings
+slug: calendar/functionality/title-settings
 tags: title,settings
 published: True
 position: 0
@@ -95,4 +95,4 @@ The **TitleStyle** property affects the overall appearance of the title bar area
 
 # See Also
 
- * [RadCalendar Structure]({%slug calendar/getting-started/radcalendar-structure%})
+ * [RadCalendar Structure]({%slug calendar/getting-started/structure%})

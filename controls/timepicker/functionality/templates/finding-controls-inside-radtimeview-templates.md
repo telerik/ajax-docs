@@ -2,7 +2,7 @@
 title: Finding Controls inside RadTimeView Templates
 page_title: Finding Controls inside RadTimeView Templates | RadTimePicker for ASP.NET AJAX Documentation
 description: Finding Controls inside RadTimeView Templates
-slug: timepicker/templates/finding-controls-inside-radtimeview-templates
+slug: timepicker/functionality/templates/finding-controls-inside-radtimeview-templates
 tags: finding,controls,inside,radtimeview,templates
 published: True
 position: 3

@@ -2,7 +2,7 @@
 title: Header and Footer Templates
 page_title: RadCalendar Header and Footer Templates | RadCalendar for ASP.NET AJAX Documentation
 description: RadCalendar Header and Footer Templates
-slug: calendar/templates/header-and-footer-templates
+slug: calendar/functionality/templates/header-and-footer-templates
 tags: radcalendar,header,and,footer,templates
 published: True
 position: 1
