@@ -24,4 +24,4 @@ To remove a dynamic template type, select the template type and click the **Remo
 
 # See Also
 
- * [RadCalendar Day Templates]({%slug calendar/templates/radcalendar-day-templates%})
+ * [RadCalendar Day Templates]({%slug calendar/functionality/templates/day-templates%})

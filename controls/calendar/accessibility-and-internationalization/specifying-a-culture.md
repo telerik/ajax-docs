@@ -112,8 +112,6 @@ End Sub
 
 # See Also
 
- * [Title Settings]({%slug calendar/radcalendar/title-settings%})
-
- * [Formatting Values]({%slug calendar/raddatepicker,-radtimepicker,-raddatetimepicker-and-radmonthyearpicker/formatting-values%})
+ * [Title Settings]({%slug calendar/functionality/title-settings%})
  
  

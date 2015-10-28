@@ -15,7 +15,7 @@ The Telerik **RadMonthYearPicker** control is composed of **RadDateInput** contr
 
 * [Client-side API]({%slug monthyearpicker/client-side-programming/radmonthyearpicker-object%}) for controlling the picker without unnecessary postbacks and [client-side events]({%slug monthyearpicker/client-side-programming/events/overview%}) on the picker controls and their embedded input controls and popups.
 
-* Complete access to the embedded controls that make up the picker control with the ability to [configure these controls]({%slug calendar/functionality/customizing-the-embedded-controls%}) separately.
+* Complete access to the embedded controls that make up the picker control with the ability to [configure these controls]({%slug monthyearpicker/functionality/customizing-embedded-controls%}) separately.
 
 * Support for [data-binding]({%slug monthyearpicker/functionality/data-binding%}).
 

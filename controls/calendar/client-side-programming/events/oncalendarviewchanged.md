@@ -54,4 +54,4 @@ function viewChanged(sender, eventArgs) {
 
  * [OnCalendarViewChanging]({%slug calendar/client-side-programming/events/oncalendarviewchanging%})
 
- * [DefaultViewChanged]({%slug calendar/server-side-programming/server-side-events/defaultviewchanged%})
+ * [DefaultViewChanged]({%slug calendar/server-side-programming/events/defaultviewchanged%})

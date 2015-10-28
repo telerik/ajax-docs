@@ -68,10 +68,7 @@ function dateSelected(sender, eventArgs) {
 
 # See Also
 
+ * [Client-side Events Overview]({%slug calendar/client-side-programming/events/overview%})
+ 
  * [OnDateSelecting]({%slug calendar/client-side-programming/events/ondateselecting%})
 
- * [OnClientTimeSelected]({%slug calendar/client-side-programming/events/onclienttimeselected%})
-
- * [SelectionChanged]({%slug calendar/server-side-programming/server-side-events/selectionchanged%})
-
- * [SelectedDateChanged]({%slug calendar/server-side-programming/server-side-events/selecteddatechanged%})

@@ -23,6 +23,6 @@ If you do not set the **Skin** property, the **RadTimePicker** will automaticall
 
 ## Customizing Skins
 
-For more information on how you can customize the skins, please refer to the **RadCalendar** [Skins]({%slug Calendar/appearance-and-styling/skins%}) article.
+For more information on how you can customize the skins, please refer to the **RadCalendar** [Skins]({%slug calendar/appearance-and-styling/skins%}) article.
 
 

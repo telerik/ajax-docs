@@ -2,7 +2,7 @@
 title: ItemCreated
 page_title: ItemCreated | RadTimePicker for ASP.NET AJAX Documentation
 description: ItemCreated
-slug: timepicker/server-side-programming/server-side-events/itemcreated
+slug: timepicker/server-side-programming/events/itemcreated
 tags: itemcreated
 published: True
 position: 3
@@ -57,6 +57,6 @@ End Sub
 
 # See Also
 
- * [ChildrenCreated]({%slug timepicker/server-side-programming/server-side-events/childrencreated%})
+ * [ChildrenCreated]({%slug timepicker/server-side-programming/events/childrencreated%})
 
- * [ItemDataBound]({%slug timepicker/server-side-programming/server-side-events/itemdatabound%})
+ * [ItemDataBound]({%slug timepicker/server-side-programming/events/itemdatabound%})

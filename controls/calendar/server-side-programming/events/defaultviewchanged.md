@@ -2,7 +2,7 @@
 title: DefaultViewChanged
 page_title: DefaultViewChanged | RadCalendar for ASP.NET AJAX Documentation
 description: DefaultViewChanged
-slug: calendar/server-side-programming/server-side-events/defaultviewchanged
+slug: calendar/server-side-programming/events/defaultviewchanged
 tags: defaultviewchanged
 published: True
 position: 4
@@ -50,7 +50,7 @@ End Sub
 
 # See Also
 
- * [Server-Side Events Basics]({%slug calendar/server-side-programming/server-side-events/server-side-events-basics%})
+ * [Server-Side Events Basics]({%slug calendar/server-side-programming/events/overview%})
 
  * [OnCalendarViewChanging]({%slug calendar/client-side-programming/events/oncalendarviewchanging%})
 

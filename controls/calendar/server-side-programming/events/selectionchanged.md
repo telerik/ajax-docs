@@ -2,7 +2,7 @@
 title: SelectionChanged
 page_title: SelectionChanged | RadCalendar for ASP.NET AJAX Documentation
 description: SelectionChanged
-slug: calendar/server-side-programming/server-side-events/selectionchanged
+slug: calendar/server-side-programming/events/selectionchanged
 tags: selectionchanged
 published: True
 position: 3
@@ -48,7 +48,7 @@ End Sub
 
 # See Also
 
- * [Server-Side Events Overview]({%slug calendar/server-side-programming/server-side-events/server-side-events-basics%})
+ * [Server-Side Events Overview]({%slug calendar/server-side-programming/events/overview%})
 
  * [OnDateSelecting]({%slug calendar/client-side-programming/events/ondateselecting%})
 

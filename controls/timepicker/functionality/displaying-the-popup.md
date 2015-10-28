@@ -2,7 +2,7 @@
 title: Displaying the Popup
 page_title: Displaying the Popup | RadTimePicker for ASP.NET AJAX Documentation
 description: Displaying the Popup
-slug: timepicker/displaying-the-popup
+slug: timepicker/functionality/displaying-the-popup
 tags: displaying,the,popup
 published: True
 position: 2

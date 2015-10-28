@@ -26,10 +26,8 @@ When you have finished designing your template, choose **End Template Editing** 
 
 # See Also
 
- * [RadCalendar Day Templates]({%slug calendar/templates/radcalendar-day-templates%})
+ * [RadCalendar Day Templates]({%slug calendar/functionality/templates/day-templates%})
 
- * [RadCalendar Header and Footer Templates]({%slug calendar/templates/radcalendar-header-and-footer-templates%})
-
- * [RadTimeView Templates]({%slug calendar/templates/radtimeview-templates%})
+ * [RadCalendar Header and Footer Templates]({%slug calendar/functionality/templates/header-and-footer-templates%})
 
 

@@ -54,8 +54,10 @@ When using the **SingleViewRows** and **SingleViewColumns** properties, the day 
 
  * [Multi-View Mode]({%slug calendar/functionality/multi-view-mode%})
 
- * [Managing Dates]({%slug calendar/functionality/managing-dates%})
+ * [Dates Configuration]({%slug calendar/functionality/dates-configuration%})
 
  * [Column And Row Headers Settings]({%slug calendar/functionality/column-and-row-headers-settings%})
 
- * [DayRender]({%slug calendar/server-side-programming/server-side-events/dayrender%})
+ * [DayRender]({%slug calendar/server-side-programming/events/dayrender%})
+
+

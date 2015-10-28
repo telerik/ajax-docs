@@ -13,7 +13,7 @@ position: 0
 
 A number of properties let you control the look and feel of the **RadDatePicker** control:
 
-* The **Skin** property lets you specify a [skin]({%slug datepicker/appearance-and-styling/skins%}) to set the overall look and feel of any of the control.
+* The **Skin** property lets you specify a skin  to set the overall look and feel of any of the control.
 
 * In addition to the skin, you can [set variety of styles]({%slug calendar/appearance-and-styling/styles%}) for the embedded **RadCalendar** that further customizes the look and feel supplied by the skin.
 
@@ -27,7 +27,7 @@ A number of properties let you control the look and feel of the **RadDatePicker*
 ````
 
 
-* The [format of date and time values]({%slug datepicker/formatting-values%}) can be customized.
+* The [format of date and time values]({%slug datepicker/functionality/formatting-values%}) can be customized.
 
 
 ## Animations

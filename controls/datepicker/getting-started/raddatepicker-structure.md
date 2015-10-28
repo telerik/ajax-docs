@@ -46,5 +46,5 @@ Since **RadDatePicker** does not recognize other **Time Popups** excepts its own
 
 # See Also
 
- * [RadCalendar Structure]({%slug calendar/getting-started/radcalendar-structure%})
+ * [RadCalendar Structure]({%slug calendar/getting-started/structure%})
 

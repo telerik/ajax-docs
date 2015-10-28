@@ -2,7 +2,7 @@
 title: Overview
 page_title: Server-Side Events Overview | RadCalendar for ASP.NET AJAX Documentation
 description: Server-Side Events Overview
-slug: calendar/server-side-programming/server-side-events/overview
+slug: calendar/server-side-programming/events/overview
 tags: server-side,events,basics
 published: True
 position: 0
@@ -16,13 +16,13 @@ The **RadCalendar** control raises server-side events, which you can use to cust
 
 **RadCalendar** exposes the following server-side events:
 
-* [DayRender]({%slug calendar/server-side-programming/server-side-events/dayrender%}) occurs immediately before the calendar renders the cell for a single day in the day matrix.
+* [DayRender]({%slug calendar/server-side-programming/events/dayrender%}) occurs immediately before the calendar renders the cell for a single day in the day matrix.
 
-* [HeaderCellRender]({%slug calendar/server-side-programming/server-side-events/headercellrender%}) occurs immediately before the calendar renders a cell in the column or row headers (or the view selector).
+* [HeaderCellRender]({%slug calendar/server-side-programming/events/headercellrender%}) occurs immediately before the calendar renders a cell in the column or row headers (or the view selector).
 
-* [SelectionChanged]({%slug calendar/server-side-programming/server-side-events/selectionchanged%}) occurs when the user changes the current selection in the calendar. This event does not fire unless the **AutoPostBack** property is **True**.
+* [SelectionChanged]({%slug calendar/server-side-programming/events/selectionchanged%}) occurs when the user changes the current selection in the calendar. This event does not fire unless the **AutoPostBack** property is **True**.
 
-* [DefaultViewChanged]({%slug calendar/server-side-programming/server-side-events/defaultviewchanged%}) occurs when the user changes the current view using the navigation controls in the title bar. This event does not fire unless the **AutoPostBack** property is **True**.
+* [DefaultViewChanged]({%slug calendar/server-side-programming/events/defaultviewchanged%}) occurs when the user changes the current view using the navigation controls in the title bar. This event does not fire unless the **AutoPostBack** property is **True**.
 
 
 

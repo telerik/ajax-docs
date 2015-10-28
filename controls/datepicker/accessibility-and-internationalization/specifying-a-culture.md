@@ -74,4 +74,4 @@ End Sub
 
 # See Also
 
- * [Formatting Values]({%slug datepicker/formatting-values%})
+ * [Formatting Values]({%slug datepicker/functionality/formatting-values%})

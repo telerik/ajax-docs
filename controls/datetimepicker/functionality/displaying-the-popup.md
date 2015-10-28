@@ -2,7 +2,7 @@
 title: Displaying the Popup
 page_title: Displaying the Popup | RadDateTimePicker for ASP.NET AJAX Documentation
 description: Displaying the Popup
-slug: datetimepicker/displaying-the-popup
+slug: datetimepicker/functionality/displaying-the-popup
 tags: displaying,the,popup
 published: True
 position: 3
@@ -49,6 +49,5 @@ function ShowDateTimePopup(sender, eventArgs) {
 
 Note that the embedded **DatePopupButton** and **TimePopupButton** controls have their **Visible** property set to **False**. This hides the buttons that appear by default. 
 
-# See Also
 
- * [Displaying The Popup Above The Input Area]({%slug datetimepicker/how-to/displaying-the-popup-above-the-input-area%})
+

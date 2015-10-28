@@ -13,7 +13,7 @@ position: 3
 
 The **CultureInfo** property of the **RadCalendar** control determines the strings that will be used as month and day names. However, the **CultureInfo** property does not translate the other strings that appear in these controls.
 
-On **RadCalendar** you may need to localize the strings that appear in the [month/year navigation]({%slug calendar/radcalendar/navigation-controls-settings%}). You can translate these strings using the **FastNavigationSettings** property:
+On **RadCalendar** you may need to localize the strings that appear in the [month/year navigation]({%slug calendar/functionality/navigation-controls-settings%}). You can translate these strings using the **FastNavigationSettings** property:
 
 ````ASPNET
 <telerik:RadCalendar
@@ -36,6 +36,5 @@ You can use the **FastNavigationSettings** property on the embedded popup calend
 
 In addition, the tooltip strings that the various controls display may need to be localized. Most of the built-in tooltip strings are culture-neutral. For example, the built-in tooltip strings for the navigation controls on the **RadCalendar** title bar are simply pointers (e.g. ">") rather than text.
 
-# See Also
 
- * [Tooltips]({%slug calendar/radcalendar/tooltips%})
+

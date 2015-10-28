@@ -2,7 +2,7 @@
 title: Overview
 page_title: Overview | RadDateTimePicker for ASP.NET AJAX Documentation
 description: RadDateTimePicker Server-Side Events Overview
-slug: datetimepicker/server-side-programming/server-side-events/server-side-events-basics
+slug: datetimepicker/server-side-programming/events/overview
 tags: server-side,events,basics
 published: True
 position: 0

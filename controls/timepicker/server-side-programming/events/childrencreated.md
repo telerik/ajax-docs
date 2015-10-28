@@ -2,7 +2,7 @@
 title: ChildrenCreated
 page_title: ChildrenCreated | RadTimePicker for ASP.NET AJAX Documentation
 description: ChildrenCreated
-slug: timepicker/server-side-programming/server-side-events/childrencreated
+slug: timepicker/server-side-programming/events/childrencreated
 tags: childrencreated
 published: True
 position: 1
@@ -57,4 +57,4 @@ End Sub
 
 # See Also
 
- * [ItemCreated]({%slug timepicker/server-side-programming/server-side-events/itemcreated%})
+ * [ItemCreated]({%slug timepicker/server-side-programming/events/itemcreated%})

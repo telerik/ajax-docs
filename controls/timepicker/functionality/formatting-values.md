@@ -2,7 +2,7 @@
 title: Formatting Values
 page_title: Formatting Values | RadTimePicker for ASP.NET AJAX Documentation
 description: Formatting Values
-slug: timepicker/formatting-values
+slug: timepicker/functionality/formatting-values
 tags: formatting,values
 published: True
 position: 4

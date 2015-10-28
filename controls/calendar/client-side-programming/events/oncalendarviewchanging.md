@@ -60,4 +60,4 @@ function checkSelections(sender, eventArgs) {
 
  * [OnCalendarViewChanged]({%slug calendar/client-side-programming/events/oncalendarviewchanged%})
 
- * [DefaultViewChanged]({%slug calendar/server-side-programming/server-side-events/defaultviewchanged%})
+ * [DefaultViewChanged]({%slug calendar/server-side-programming/events/defaultviewchanged%})

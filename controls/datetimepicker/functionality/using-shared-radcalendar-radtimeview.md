@@ -2,7 +2,7 @@
 title: Using shared RadCalendar/RadTimeView
 page_title: Using shared RadCalendar/RadTimeView | RadDateTimePicker for ASP.NET AJAX Documentation
 description: Using shared RadCalendar/RadTimeView
-slug: datetimepicker/using-shared-radcalendar-radtimeview
+slug: datetimepicker/functionality/using-shared-radcalendar-radtimeview
 tags: using,shared,radcalendar,radtimeview
 published: True
 position: 2

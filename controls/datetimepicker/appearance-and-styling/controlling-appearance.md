@@ -15,13 +15,11 @@ A number of properties let you control the look and feel of the **RadDateTimePic
 
 * The **Skin** property lets you specify a [skin]({%slug datetimepicker/appearance-and-styling/skins%}) to set the overall look and feel of any of the control.
 
-* You can use [variety of styles]({%slug datetime/appearance-and-styling/styles%}) that further customize the look and feel supplied by the skin.
-
 * The **ImagesPath** property enables you to specify path to a directory containing custom images that can replace the default ones. It enables versatile customization of the appearance. Note that in order for that property to work you need to also set **EnableEmbeddedSkins="false"**.
 
-* The [layout of the embedded time view]({%slug datetimepicker/configuring-the-embedded-time-view%}) popup on **RadTimePicker** and **RadDateTimePicker** can be configured
+* The [layout of the embedded time view]({%slug datetimepicker/functionality/configuring-the-embedded-time-view%}) popup on **RadDateTimePicker** can be configured
 
-* The [format of date and time values]({%slug calendar/raddatepicker,-radtimepicker,-raddatetimepicker-and-radmonthyearpicker/formatting-values%}) can be customized.
+* The [format of date and time values]({%slug datetimepicker/functionality/formatting-values%}) can be customized.
 
 
 Below is an example using the **ImagesPath** property:

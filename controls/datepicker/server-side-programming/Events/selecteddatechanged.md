@@ -66,6 +66,6 @@ End Sub
 
 # See Also
 
- * [Server-side events Overview]({%slug datepicker/server-side-programming/events/overview%})
+ * [Server-side Events Overview]({%slug datepicker/server-side-programming/events/overview%})
 
  
