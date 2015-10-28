@@ -5,7 +5,7 @@ description: OnPopupOpening
 slug: timepicker/client-side-programming/events/onpopupopening
 tags: onpopupopening
 published: True
-position: 12
+position: 2
 ---
 
 # OnPopupOpening

@@ -5,7 +5,7 @@ description: RadDatePicker Keyboard Support
 slug: datepicker/accessibility-and-internationalization/keyboard-support
 tags: keyboard,support
 published: True
-position: 0
+position: 1
 ---
 
 # Keyboard Support

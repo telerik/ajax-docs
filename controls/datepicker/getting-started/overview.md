@@ -24,7 +24,7 @@ This tutorial will walk you through creating a Web page that uses **RadDatePicke
 
 ## Adding a RadDatePicker control
 
-1. Drag a **RadDatePicker** control from the toolbox onto your Web Page, below the **RadCalendar** control.
+1. Drag a **RadDatePicker** control from the toolbox onto your Web Page.
 
 2. In the **RadDatePicker** [Smart Tag]({%slug datepicker/design-time/smart-tag%}) that appears automatically, choose "Outlook" from the drop-down list for the **Skin** property:
 ![](images/ChooseRadDatePickerSkin.png)
@@ -57,7 +57,7 @@ This tutorial will walk you through creating a Web page that uses **RadDatePicke
 
 # See Also
 
- * [RadCalendar Structure]({%slug calendar/getting-started/radcalendar-structure%})
+ * [RadCalendar Structure]({%slug calendar/getting-started/structure%})
 
  * [RadDatePicker Structure]({%slug datepicker/getting-started/raddatepicker-structure%})
 

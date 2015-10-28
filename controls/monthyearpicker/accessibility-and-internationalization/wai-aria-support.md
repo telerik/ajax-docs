@@ -5,7 +5,7 @@ description: WAI-ARIA Support
 slug: monthyearpicker/accessibility-and-internationalization/wai-aria-support
 tags: wai-aria,support
 published: True
-position: 8
+position: 4
 ---
 
 # WAI-ARIA Support

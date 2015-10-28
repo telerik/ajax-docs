@@ -5,7 +5,7 @@ description: Smart Tag
 slug: calendar/design-time/smart-tag
 tags: smart,tag
 published: True
-position: 0
+position: 1
 ---
 
 # Smart Tag

@@ -5,7 +5,7 @@ description: OnDateSelected
 slug: timepicker/client-side-programming/events/ondateselected
 tags: ondateselected
 published: True
-position: 1
+position: 4
 ---
 
 # OnDateSelected

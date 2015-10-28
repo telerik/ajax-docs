@@ -5,7 +5,7 @@ description: Date Format Patterns
 slug: calendar/accessibility-and-internationalization/date-format-patterns
 tags: date,format,patterns
 published: True
-position: 2
+position: 1
 ---
 
 # Date Format Patterns

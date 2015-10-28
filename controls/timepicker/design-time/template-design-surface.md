@@ -5,7 +5,7 @@ description: Template Design Surface
 slug: timepicker/design-time/template-design-surface
 tags: template,design,surface
 published: True
-position: 1
+position: 2
 ---
 
 # Template Design Surface

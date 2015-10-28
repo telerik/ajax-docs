@@ -2,7 +2,7 @@
 title: Overview
 page_title: Overview | RadMonthYearPicker for ASP.NET AJAX Documentation
 description: Overview
-slug: calendar/client-side-programming/events/overview
+slug: monthyearpicker/client-side-programming/events/overview
 tags: overview
 published: True
 position: 0

@@ -5,7 +5,7 @@ description: ViewCellCreated
 slug: monthyearpicker/server-side-programming/server-side-events/viewcellcreated
 tags: viewcellcreated
 published: True
-position: 9
+position: 2
 ---
 
 # ViewCellCreated

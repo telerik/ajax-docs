@@ -5,7 +5,7 @@ description: ItemDataBound
 slug: timepicker/server-side-programming/server-side-events/itemdatabound
 tags: itemdatabound
 published: True
-position: 1
+position: 4
 ---
 
 # ItemDataBound

@@ -5,7 +5,7 @@ description: Specifying a Culture
 slug: datepicker/accessibility-and-internationalization/specifying-a-culture
 tags: specifying,a,culture
 published: True
-position: 1
+position: 0
 ---
 
 # Specifying a Culture

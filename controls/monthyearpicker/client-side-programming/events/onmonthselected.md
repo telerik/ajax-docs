@@ -5,7 +5,7 @@ description: OnMonthSelected
 slug: monthyearpicker/client-side-programming/events/onmonthselected
 tags: onmonthselected
 published: True
-position: 1
+position: 4
 ---
 
 # OnMonthSelected

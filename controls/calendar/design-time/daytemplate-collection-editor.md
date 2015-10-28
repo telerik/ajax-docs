@@ -5,7 +5,7 @@ description: DayTemplate Collection Editor
 slug: calendar/design-time/daytemplate-collection-editor
 tags: daytemplate,collection,editor
 published: True
-position: 4
+position: 5
 ---
 
 # DayTemplate Collection Editor

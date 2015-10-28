@@ -22,7 +22,7 @@ The event handler receives two arguments:
 
 | Name | Return Type | Arguments | Description |
 | ------ | ------ | ------ | ------ |
-| **get_popupControl()** | [Calendar]({%slug calendar/client-side-programming/radcalendar-object%}) client-side object ||Returns the client object for the time view or calendar that is about to be displayed.|
+| **get_popupControl()** | [RadCalendar]({%slug calendar/client-side-programming/radcalendar-object%}) client-side object ||Returns the client object for the time view or calendar that is about to be displayed.|
 | **set_cancelCalendarSynchronization(value)** ||bool|Lets you prevent the popup control from synchronizing its value to the value in the input area.|
 | **set_cancel(value)** ||bool|Lets you prevent the popup from appearing.|
 

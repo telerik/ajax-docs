@@ -5,7 +5,7 @@ description: ItemCreated
 slug: timepicker/server-side-programming/server-side-events/itemcreated
 tags: itemcreated
 published: True
-position: 1
+position: 3
 ---
 
 # ItemCreated

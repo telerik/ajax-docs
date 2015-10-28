@@ -19,21 +19,17 @@ The **RadDatePicker** control is composed of **RadDateInput** control with an in
 
 **RadDatePicker** for ASP.NET AJAX is a highly configurable date input control that offers the following features:
 
-* A [client-side API]({%slug datepicker/client-side-programming/overview%}) with powerful methods that let you configure the picker and [events]({%slug datepicker/client-side-programming/events/overview%}) that let you intercept what the user is doing.
+* A [client-side API]({%slug datepicker/client-side-programming/raddatepicker-object%}) with powerful methods that let you configure the picker and [events]({%slug datepicker/client-side-programming/events/overview%}) that let you intercept what the user is doing.
 
-* Complete access to the embedded controls that make up the picker control with the ability to [configure these controls]({%slug datepicker/customizing-embedded-controls%}) separately.
+* Complete access to the embedded controls that make up the picker control with the ability to [configure these controls]({%slug datepicker/functionality/customizing-embedded-controls%}) separately.
 
-* [Sharable popup controls]({%slug datepicker/using-shared-radcalendar%}) for smaller rendering and better performance.
+* [Sharable popup controls]({%slug datepicker/functionality/using-shared-radcalendar%}) for smaller rendering and better performance.
 
-* Support for [data-binding]({%slug datepicker/data-binding-%}).
-
-* Configurable [navigation controls]({%slug calendar/radcalendar/navigation-controls-settings%}).
-
-* [Customizable column and row headers]({%slug calendar/radcalendar/column-and-row-headers-settings%}).
+* Support for [data-binding]({%slug datepicker/functionality/data-binding%}).
 
 * Support for localization, including [culture-dependant date formatting]({%slug datepicker/accessibility-and-internationalization/specifying-a-culture%}) and the ability to [localize all strings]({%slug calendar/accessibility-and-internationalization/localizing-strings%}) in the user interface.
 
-* Support for [ASP.NET validation controls]({%slug calendar/how-to/web-pages-validation%}).
+* Support for [ASP.NET validation controls]({%slug datepicker/functionality/validation%}).
 
 * [Keyboard support]({%slug datepicker/accessibility-and-internationalization/keyboard-support%}) for selecting and navigating the control.
 

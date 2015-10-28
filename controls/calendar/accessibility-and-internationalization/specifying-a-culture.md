@@ -5,7 +5,7 @@ description: Specifying a Culture
 slug: calendar/accessibility-and-internationalization/specifying-a-culture
 tags: specifying,a,culture
 published: True
-position: 1
+position: 0
 ---
 
 # Specifying a Culture
@@ -114,6 +114,6 @@ End Sub
 
  * [Title Settings]({%slug calendar/radcalendar/title-settings%})
 
- * [Tooltips]({%slug calendar/radcalendar/tooltips%})
-
  * [Formatting Values]({%slug calendar/raddatepicker,-radtimepicker,-raddatetimepicker-and-radmonthyearpicker/formatting-values%})
+ 
+ 

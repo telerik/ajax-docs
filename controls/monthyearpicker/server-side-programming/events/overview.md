@@ -1,8 +1,8 @@
 ---
 title: Overview
-page_title: Server-Side Events Basics | RadMonthYearPicker for ASP.NET AJAX Documentation
-description: Server-Side Events Overview
-slug: monthyearpicker/server-side-programming/events/server-side-events-basics
+page_title: Overview | RadMonthYearPicker for ASP.NET AJAX Documentation
+description: RadMonthYearPicker Server-Side Events Overview
+slug: monthyearpicker/server-side-programming/events/overview
 tags: server-side,events,overview
 published: True
 position: 0
@@ -14,9 +14,9 @@ position: 0
 
 The **RadMonthYearPicker** control exposes the following two server-side events:
 
-* [ChildrenCreated]({%slug monthyearpicker/server-side-programming/server-side-events/childrencreated%}) occurs when the child controls (the input area, popup buttons, and embedded calendar or time view controls) are created.
+* [ChildrenCreated]({%slug monthyearpicker/server-side-programming/events/childrencreated%}) occurs when the child controls (the input area, popup buttons, and embedded calendar or time view controls) are created.
 
-* [SelectedDateChanged]({%slug monthyearpicker/server-side-programming/server-side-events/selecteddatechanged%}) occurs when the user changes the value of the control, either when input area loses focus after the user has typed a new value, or when the user selects a new value in the popup calendar or time view control. This event does not fire unless the **AutoPostBack** property is **True**.
+* [SelectedDateChanged]({%slug monthyearpicker/server-side-programming/events/selecteddatechanged%}) occurs when the user changes the value of the control, either when input area loses focus after the user has typed a new value, or when the user selects a new value in the popup calendar or time view control. This event does not fire unless the **AutoPostBack** property is **True**.
 
 * [ViewCellCreated]({%slug monthyearpicker/server-side-programming/server-side-events/viewcellcreated%}) occurs when a cell in **MonthYearTableView** is created.
 

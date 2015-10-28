@@ -12,13 +12,7 @@ position: 10
 
 
 
-## 
-
 The **OnRowHeaderClick** client-side event handler is called when the user is about to select a row of dates by clicking on a row header. The event occurs only if the **ShowRowHeaders** and **UseRowHeadersAsSelectors** properties are set to **true**.
-
->note The **OnRowHeaderClick** event is supported by: **RadCalendar** .
->
-
 
 The event handler receives two arguments:
 

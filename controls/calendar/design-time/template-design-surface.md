@@ -5,7 +5,7 @@ description: Template Design Surface
 slug: calendar/design-time/template-design-surface
 tags: template,design,surface
 published: True
-position: 1
+position: 4
 ---
 
 # Template Design Surface

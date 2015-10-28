@@ -5,7 +5,7 @@ description: SelectedDateChanged
 slug: monthyearpicker/server-side-programming/events/selecteddatechanged
 tags: selecteddatechanged
 published: True
-position: 6
+position: 2
 ---
 
 # SelectedDateChanged

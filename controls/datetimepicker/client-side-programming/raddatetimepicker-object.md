@@ -2,7 +2,7 @@
 title: RadDateTimePicker Object
 page_title: RadDateTimePicker Object | RadDateTimePicker for ASP.NET AJAX Documentation
 description: RadDateTimePicker Client-side Object
-slug: datepicker/client-side-programming/raddatetimepicker-object
+slug: datetimepicker/client-side-programming/raddatetimepicker-object
 tags: raddatetimepicker,object
 published: True
 position: 1

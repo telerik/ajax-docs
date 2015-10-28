@@ -5,7 +5,7 @@ description: RadDatePicker WAI-ARIA Support
 slug: datepicker/accessibility-and-internationalization/wai-aria-support
 tags: wai-aria,support
 published: True
-position: 8
+position: 6
 ---
 
 # WAI-ARIA Support

@@ -12,12 +12,7 @@ position: 6
 
 
 
-## 
-
 The **OnDateClick** client-side event handler is called when the user clicks on a date in the day matrix or presses the ENTER key while a date has focus. If the day is selectable, this event occurs before the **OnDateSelecting** event. If the day is not selectable (but in the valid range), this event occurs, but not the **OnDateSelecting** event.
-
->note The **OnDateClick** event is supported by: **RadCalendar** .
->
 
 
 The event handler receives two arguments:

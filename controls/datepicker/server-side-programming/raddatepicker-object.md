@@ -1,5 +1,5 @@
 ---
-title: Server-Side Object
+title: RadDatePicker Object
 page_title: RadDatePicker Server-side Object | RadDatePicker for ASP.NET AJAX Documentation
 description: RadDatePicker Server-Side Object
 slug: calendar/server-side-programming/server-side-objects
@@ -8,7 +8,7 @@ published: True
 position: 0
 ---
 
-# Server-Side Object
+# RadDatePicker Object
 
 
 

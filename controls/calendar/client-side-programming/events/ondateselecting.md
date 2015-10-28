@@ -12,12 +12,7 @@ position: 4
 
 
 
-## 
-
 The **OnDateSelecting** client-side event handler is called immediately before the selected dates collection is updated to reflect the selection or deselection of a date.
-
->note The **OnDateSelecting** event is supported by: **RadCalendar** .
->
 
 
 The event handler receives two arguments:
