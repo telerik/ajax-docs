@@ -12,12 +12,7 @@ position: 1
 
 
 
-## 
-
 The **OnInit** client-side event handler is called when the calendar is first constructed.
-
->note The **OnInit** event is supported by: **RadCalendar**.
->
 
 
 The event handler receives one argument:

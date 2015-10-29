@@ -1,0 +1,8 @@
+Configuration file: c:/work/Git/ajax-docs/_config.yml
+            Source: c:/work/Git/ajax-docs
+       Destination: c:/work/Git/ajax-docs/_site
+      Generating... 
+                    done.
+Configuration file: c:/work/Git/ajax-docs/_config.yml
+    Server address: http://0.0.0.0:4000/devtools/aspnet-ajax/
+  Server running... press ctrl-c to stop.

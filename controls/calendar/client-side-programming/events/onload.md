@@ -12,13 +12,8 @@ position: 2
 
 
 
-## 
 
 The **OnLoad** client-side event handler is called when the calendar is loaded on the client.
-
->note The **OnLoad** event is supported by: **RadCalendar** .
->
-
 
 The event handler receives one argument:
 

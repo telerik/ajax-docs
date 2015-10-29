@@ -5,13 +5,13 @@ description: Specifying a Culture
 slug: calendar/accessibility-and-internationalization/specifying-a-culture
 tags: specifying,a,culture
 published: True
-position: 1
+position: 0
 ---
 
 # Specifying a Culture
 
 
-The **RadCalendar** controls support the **System.Globalization** namespace. This namespace consists of classes (**CompareInfo**, **CultureInfo**, **RegionInfo**, etc.) that contain culture-related information such as the language, country/region, sort order for strings, calendars in use, and format patterns for dates, currency, and numbers. They are useful classes for writing internationalized applications.
+The **RadCalendar** control supports the **System.Globalization** namespace. This namespace consists of classes (**CompareInfo**, **CultureInfo**, **RegionInfo**, etc.) that contain culture-related information such as the language, country/region, sort order for strings, calendars in use, and format patterns for dates, currency, and numbers. They are useful classes for writing internationalized applications.
 
 >caution  
 **RadCalendar** supports all the cultures in the System.Globalization namespace that are based on the **Gregorian** calendar.
@@ -25,18 +25,11 @@ The **CultureInfo** class represents information about a specific culture includ
 
 The culture names follow the **RFC 1766** standard in the format "<languagecode2>-<country/regioncode2>", where **<languagecode2>** is a lowercase two-letter code derived from **ISO 639-1** and **<country/regioncode2>** is an uppercase two-letter code derived from **ISO 3166**. For example, U.S. English is "**en-US**".
 
-All **RadCalendar** controls let you associate a **CultureInfo** object with the control to govern the formatting and parsing of date and time values. The following table lists the property to use for assigning a **CultureInfo** object to each **RadCalendar** control.
+All **RadCalendar** controls let you associate a **CultureInfo** object with the control to govern the formatting and parsing of date and time values. In order to specify a culture for **RadCalendar** you should use the **CultureInfo** property.
 
-
-| Control | Property |
-| ------ | ------ |
-|RadCalendar|CultureInfo|
-|RadDatePicker|Culture|
-|RadTimePicker|Culture|
-|RadDateTimePicker|Culture|
 
 >note
-On **RadDatePicker** , **RadTimePicker** and **RadDateTimePicker** you can assign a separate **CultureInfo** object to the embedded popup calendar and/or time view control, using the embedded calendar's **CultureInfo** property or the embedded time view's **Culture** property.
+On the picker controls (e.g. **RadDatePicker** , **RadTimePicker**, **RadDateTimePicker**) you can assign a separate **CultureInfo** object to the embedded popup calendar and/or time view control, using the embedded calendar's **CultureInfo** property or the embedded time view's **Culture** property.
 >
 
 
@@ -45,10 +38,6 @@ The associated **CultureInfo** object controls:
 * The default format for date and time values that the control displays. You can override this pattern by specifying a [date format pattern]({%slug calendar/accessibility-and-internationalization/date-format-patterns%}) as the value of the following properties:
 
 	* On **RadCalendar** (including the embedded popup calendar accessed through the **Calendar** property of **RadDatePicker** and **RadDateTimePicker** controls) - the **TitleFormat** and **DayCellToolTipFormat** properties.
-
-	* On **RadDatePicker**, **RadTimePicker** and **RadDateTimePicker** - the **DateFormat** and **DisplayDateFormat** properties of the embedded **RadDateInput** control (accessed through the **DateInput** property).
-
-	* On **RadTimePicker** and **RadDateTimePicker** - the **TimeFormat** property of the embedded **RadTimeView** control (accessed through the
 
 * The strings used when applying a date format pattern such as month names, day names, separator characters, etc.
 
@@ -123,8 +112,6 @@ End Sub
 
 # See Also
 
- * [Title Settings]({%slug calendar/radcalendar/title-settings%})
-
- * [Tooltips]({%slug calendar/radcalendar/tooltips%})
-
- * [Formatting Values]({%slug calendar/raddatepicker,-radtimepicker,-raddatetimepicker-and-radmonthyearpicker/formatting-values%})
+ * [Title Settings]({%slug calendar/functionality/title-settings%})
+ 
+ 

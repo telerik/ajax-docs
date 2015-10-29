@@ -14,9 +14,9 @@ position: 0
 
 There are two possible approaches for adding controls to a **RadCalendar** cell:
 
-* You can add controls to a Day template and assign the template to one or more special days in the calendar. This approach is useful when you want to add controls on a "per day" basis. For details on how to create and use day templates, see [Day Templates]({%slug calendar/templates/radcalendar-day-templates%}).
+* You can add controls to a Day template and assign the template to one or more special days in the calendar. This approach is useful when you want to add controls on a "per day" basis. For details on how to create and use day templates, see [Day Templates]({%slug calendar/functionality/templates/day-templates%}).
 
-* You can use the [DayRender]({%slug calendar/server-side-programming/server-side-events/dayrender%}) event to add the controls to every cell of the calendar just before it is rendered on the client:
+* You can use the [DayRender]({%slug calendar/server-side-programming/events/dayrender%}) event to add the controls to every cell of the calendar just before it is rendered on the client:
 
 
 

@@ -14,15 +14,13 @@ position: 2
 
 The **RadCalendar** controls use **skins** to control their overall look-and-feel. A skin is a set of images and a CSS stylesheet that can be applied to the control elements (date cells, buttons, etc.) and defines their look and feel.To apply a skin to a **RadCalendar**, **RadDatePicker**, **RadTimePicker**, or **RadDateTimePicker** control, set its **Skin** property, either using the properties pane or the control's [Smart Tag]({%slug calendar/design-time/smart-tag%}).
 
-On **RadDatePicker**, **RadTimePicker**, and **RadDateTimePicker**, the **Skin** property value is always propagated to the child controls (the embedded **RadDateInput** and popup **RadCalendar** and/or **RadTimeView** controls).
-
 The **RadCalendar** controls are installed with a number of preset skins. These are shown below:
 ![RadCalendar Skins](images/calendar-skins.png)
 
 
 ## Not using skins
 
-If you do not set the **Skin** property, the **RadCalendar** controls automatically use the "Default" skin. If you do not want to use a skin with your control, set its **Skin** property to an empty string. If you also want to prevent the control's base stylesheet from registering, please set **EnableEmbeddedBaseStylesheet** to **false**. The base stylesheet contains CSS styles, which are applied to the **RadCalendar**, **RadDatePicker**, **RadTimePicker** and **RadDateTimePicker** control instances, regardless of their skin name, because these styles are the same for all skins. These base styles include alignment, positioning, border widths, paddings, etc.
+If you do not set the **Skin** property, the **RadCalendar** controls automatically use the "Default" skin. If you do not want to use a skin with your control, set its **Skin** property to an empty string. If you also want to prevent the control's base stylesheet from registering, please set **EnableEmbeddedBaseStylesheet** to **false**. The base styles include alignment, positioning, border widths, paddings, etc.
 
 ## Customizing Skins
 
@@ -62,3 +60,5 @@ In order to set a custom skin for all **RadDatePickers**, **RadTimePickers** and
 (Depending on your scenario, you may not need all of the above statements. Note that unlike other controls, the **RadTimeView** control requires a "Rad" prefix.)
 
 In order to set a custom skin for standalone **RadCalendar** controls, please use a **Telerik.Calendar.Skin** and **Telerik.Calendar.EnableEmbeddedSkins** keys.
+
+
