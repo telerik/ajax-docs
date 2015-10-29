@@ -68,7 +68,9 @@ This article shows some of the known RadScheduler PDF Export issues and solution
 		Where [ASSEMBLY_VERSION] is the exact version of your Telerik.Web.UI.dll.
 
 	2. If you are using Forms authentication please add the following section to your web.config file:
-
+		
+		In case you are using RadScriptManager:
+		
 		**ASPNET**
 		
 			<location path="Telerik.Web.UI.WebResource.axd">
@@ -78,6 +80,20 @@ This article shows some of the known RadScheduler PDF Export issues and solution
 					</authorization>
 				</system.web>
 			</location>
+		
+		
+		In case you are using asp:ScriptManager:
+		
+		**ASPNET**
+		
+			<location path="WebResource.axd">
+				<system.web>
+					<authorization>
+						<allow users="?"/>
+					</authorization>
+				</system.web>
+			</location>
+		
 		
 * Problem:
 
