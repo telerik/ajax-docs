@@ -180,6 +180,12 @@ navigation:
     "controls/datapager":
         title: "Data Pager"
         position: 1
+    "controls/datepicker":
+        title: "DatePicker"
+        position: 1
+    "controls/datetimepicker":
+        title: "DateTimePicker"
+        position: 1
     "controls/diagram":
         title: "Diagram"
         position: 1
@@ -245,6 +251,9 @@ navigation:
         position: 1
     "controls/menu":
         title: "Menu"
+        position: 1
+    "controls/monthyearpicker":
+        title: "MonthYearPicker"
         position: 1
     "controls/navigation":
         title: "Navigation"
@@ -329,6 +338,9 @@ navigation:
         position: 1
     "controls/tilelist":
         title: "TileList"
+        position: 1
+    "controls/timepicker":
+        title: "TimePicker"
         position: 1
     "controls/toolbar":
         title: "ToolBar"
@@ -470,15 +482,9 @@ navigation:
     "*button/button-types/icons":
         title: "Icons"
         position: 5
-    "*calendar/radcalendar":
-        title: "RadCalendar"
-        position: 5
-    "*calendar/raddatepicker,-radtimepicker,-raddatetimepicker-and-radmonthyearpicker":
-        title: "RadDatePicker, RadTimePicker, RadDateTimePicker and RadMonthYearPicker"
-        position: 6
     "*calendar/templates":
         title: "Templates"
-        position: 8
+        position: 8 
     "*chart/features":
         title: "Features"
         position: 4
@@ -554,6 +560,9 @@ navigation:
     "*datapager/defining-structure":
         title: "Defining Structure"
         position: 4
+    "*datetimepicker/templates":
+        title: "Templates"
+        position: 8
     "*diagram/structure":
         title: "Structure"
         position: 3
@@ -1349,6 +1358,9 @@ navigation:
     "*tilelist/data-binding":
         title: "Data Binding"
         position: 4
+    "*timepicker/templates":
+        title: "Templates"
+        position: 8
     "*toolbar/radtoolbar-items":
         title: "RadToolBar Items"
         position: 7
