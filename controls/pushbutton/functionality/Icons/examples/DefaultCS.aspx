@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
 	<title></title>
-	<style type="text/css">
+<%--	<style type="text/css">
 		/*Format tables*/
 		tr:first-child {
 			font-weight: bold;
@@ -23,11 +23,11 @@
 			display: inline;
 			float: left;
 		}
-	</style>
+	</style>--%>
 </head>
 <body>
 	<form id="form1" runat="server">
-		<telerik:RadScriptManager ID="RadScriptManager2" runat="server"></telerik:RadScriptManager>
+		<telerik:RadScriptManager ID="RadScriptManager1" runat="server"></telerik:RadScriptManager>
 		<table id="table1" runat="server">
 			<tr>
 				<td>Class Name</td>

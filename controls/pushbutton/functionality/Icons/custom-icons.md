@@ -5,7 +5,7 @@ description: Custom Icons
 slug: pushbutton/functionality/icons/custom-icons
 tags: custom,icons
 published: True
-position: 2
+position: 1
 ---
 
 # Custom Icons
@@ -109,7 +109,7 @@ You can also change the font-size and color of the font icon as described in the
  
  * [PushButton - Embedded Icons Demo](http://demos.telerik.com/aspnet-ajax/pushbutton/functionality/embedded-icons/defaultcs.aspx)
  
- * [Icons Overview]({%slug pushbutton/functionality/icons/overview%})
+ * [Icons Overview]({%slug pushbutton/functionality/icons/embedded-icons%})
  
  * [Fine Tune Icons Position, Size and Color]({%slug pushbutton/functionality/icons/fine-tune%})
  

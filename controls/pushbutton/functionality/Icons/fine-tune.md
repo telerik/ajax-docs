@@ -5,7 +5,7 @@ description: Fine-tune
 slug: pushbutton/functionality/icons/fine-tune
 tags: fine,tune
 published: True
-position: 1
+position: 2
 ---
 
 # Fine-tune Icons
@@ -62,7 +62,7 @@ The embedded **RadPushButton** icons are font icons. Using a font facilitates th
 
 ## See Also
 
- * [Icons Overview]({%slug pushbutton/functionality/icons/overview%})
+ * [Icons Overview]({%slug pushbutton/functionality/icons/embedded-icons%})
 
  * [Custom Icons]({%slug pushbutton/functionality/icons/custom-icons%})
 

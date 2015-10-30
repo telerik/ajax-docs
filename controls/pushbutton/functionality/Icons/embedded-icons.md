@@ -1,16 +1,14 @@
 ---
-title: Overview
-page_title: Icons Overview | RadPushButton for ASP.NET AJAX Documentation
-description: Icons Overview
-slug: pushbutton/functionality/icons/overview
-tags: overview
+title: Embedded Icons
+page_title: Embedded Icons | RadPushButton for ASP.NET AJAX Documentation
+description: Embedded Icons
+slug: pushbutton/functionality/icons/embedded-icons
+tags: embedded,icons
 published: True
 position: 0
 ---
 
-# Icons Overview 
-
-(COMMENT: The title of the article in the TOC is Overview, so that clients can use it as a starting point. The article, however, treats entirely embedded icons. Should I rename it to Embedded Icons, because there is another article in the same section called Custom Icons?)
+# Embedded Icons
 
 This help article shows how to use embedded icons in **RadPushButton**, lists the necessary CSS classes and describes the skins specifics.
 
@@ -46,6 +44,16 @@ To make the control easier to use, **Telerik** provides a large set of built-in 
 
 You can find below the full list of CSS classes responsible for the embedded icons in **RadPushButton**. The **CssClass** is composed in the following way: [**r**]ad[**b**]utton[**IconName**]. For example **rbAdd**.
 
+|  |  |  |  |  |
+| ------ | ------ | ------ | ------ | ------ |
+|rbAdd|rbPrevious|rbPrint|rbRSS|rbYouTube |
+|rbRemove|rbNext|rbRefresh|rbMail|rbVimeo |
+|rbOk|rbOpen|rbSearch|rbFB|rbBehance |
+|rbCancel|rbAttach|rbHelp|rbTwitter|rbDribble |
+|rbUpload|rbSave|rbCart|rbLinkedIn |rbGooglePlus|
+|rbDownload|rbConfig|rbEdit|rbPinterest||
+
+<!-- The above table can also be shown as a list:
 * rbAdd
 * rbRemove
 * rbOk
@@ -68,6 +76,14 @@ You can find below the full list of CSS classes responsible for the embedded ico
 * rbMail
 * rbFB
 * rbTwitter
+* rbLinkedIn 
+* rbPinterest 
+* rbYouTube 
+* rbVimeo 
+* rbBehance 
+* rbDribble 
+* rbGooglePlus
+-->
 
 ## Skins Specifics
 

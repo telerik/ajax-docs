@@ -12,28 +12,25 @@ public partial class DefaultCS : System.Web.UI.Page
 	protected void Page_Init(object sender, EventArgs e)
 	{
 		string[] embeddedIcons = new string[] { "rbAdd", "rbRemove", "rbOk", "rbCancel", "rbUpload", "rbDownload", "rbPrevious", "rbNext", "rbOpen", "rbAttach",
-"rbSave", "rbConfig", "rbPrint", "rbRefresh", "rbSearch", "rbHelp", "rbCart", "rbEdit", "rbRSS", "rbMail", "rbFB", "rbTwitter"};
+"rbSave", "rbConfig", "rbPrint", "rbRefresh", "rbSearch", "rbHelp", "rbCart", "rbEdit", "rbRSS", "rbMail", "rbFB", "rbTwitter", "rbLinkedIn", "rbPinterest", 
+"rbYouTube", "rbVimeo", "rbBehance", "rbDribble", "rbGooglePlus"};
 
 		for (int i = 0; i < embeddedIcons.Length; i++)
 		{
 			string currIcon = embeddedIcons[i];
 
-			ConfigureTableIcons(currIcon, i.ToString());
+			HtmlTableRow row1 = new HtmlTableRow();
+
+			//Add class name for icons:
+			AddRowIconClassName(currIcon, table1, row1);
+
+			//Add RadPushButton with icons, Default skin:
+			AddRadPushButtonWithIcon("1" + i.ToString(), currIcon, "Silk", null, null, table1, row1);
+
+			//Add RadPushButton with icons, Glow skin:
+			AddRadPushButtonWithIcon("2" + i.ToString(), currIcon, "Glow", null, null, table1, row1);
+
 		}
-	}
-
-	protected void ConfigureTableIcons(string icon, string index)
-	{
-		//Add class name for 16px icons:
-		HtmlTableRow row1 = new HtmlTableRow();
-		AddRowIconClassName(icon, table1, row1);
-
-		//Add RadPushButton with icons, Default skin:
-		AddRadPushButtonWithIcon("0" + index, icon, "Silk", null, null, table1, row1);
-
-		//Add RadPushButton with icons, Glow skin:
-		AddRadPushButtonWithIcon("0" + index, icon, "Glow", null, null, table1, row1);
-
 	}
 
 	protected void AddRowIconClassName(string icon, HtmlTable table, HtmlTableRow row)
