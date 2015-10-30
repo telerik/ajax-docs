@@ -16,7 +16,7 @@ The control can be easily styled by changing the **Skin** property, and alternat
 
 >caption Figure 1: RadLinkButton control provides a rich API and UI.
 
-![RadLinkButton](images/RadLinkButtons.png)
+![RadLinkButton](images/buttons.png)
 
 >note **RadLinkButton** does not support a Classic [render mode]({%slug linkbutton/mobile-support/render-modes%}). Setting its RenderMode to Classic will default to the Lightweight render mode.
 

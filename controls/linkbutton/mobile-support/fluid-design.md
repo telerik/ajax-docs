@@ -16,7 +16,7 @@ Generally, responsive design means that the page and its content are able to ada
 
 >caption Figure 1: RadLinkButton set to 100% width and and 25% height.
 
-![linkbutton-fluid-design](images/linkbutton-fluid-design.png)
+![button-fluid-design](images/button-fluid-design.png)
 
 >caption Example 1: Shows the markup that provides fluid design of the RadLinkButton in Figure 1.
 

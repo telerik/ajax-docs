@@ -16,7 +16,7 @@ Generally, responsive design means that the page and its content are able to ada
 
 >caption Figure 1: Comparison between appearance of a RadLinkButton with regular font size and with increased font size.
 
-![linkbutton-elastic-design](images/linkbutton-elastic-design.png)
+![button-elastic-design](images/button-elastic-design.png)
 
 >caption Example 1: Shows how to increase the font size of a RadLinkButton in Figure 1.
 
