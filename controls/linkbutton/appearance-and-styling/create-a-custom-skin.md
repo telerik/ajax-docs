@@ -42,7 +42,7 @@ The second file represents the actual skin of the control, and its name consists
 
 	**ASP.NET**
 
-		<telerik:RadLinkButton ID="RadLinkButton1" runat="server" EnableEmbeddedSkins="false" Skin="MyCustomSkin" />
+		<telerik:RadLinkButton ID="RadLinkButton1" runat="server" EnableEmbeddedSkins="false" Skin="MyCustomSkin" NavigateUrl="http://www.telerik.com" Target="_blank" />
 
 1. Register **Button.MyCustomSkin.css** in the head section of your web page. In order to have the CSS applied correctly, the base stylesheet should come first in the DOM:
 
@@ -86,8 +86,8 @@ Below is shown how to modify the CSS in order not only to change some colors and
 <body>
 	<form id="form1" runat="server">
 		<asp:ScriptManager runat="server"></asp:ScriptManager>
-		<telerik:RadLinkButton runat="server" Text="Button"></telerik:RadLinkButton>
-		<telerik:RadLinkButton runat="server" Text="Icon Left">
+		<telerik:RadLinkButton runat="server" Text="Button" NavigateUrl="http://www.telerik.com" Target="_blank"></telerik:RadLinkButton>
+		<telerik:RadLinkButton runat="server" Text="Icon Left" NavigateUrl="http://www.telerik.com" Target="_blank">
 			<Icon CssClass="rbPrint" />
 		</telerik:RadLinkButton>
 	</form>

@@ -22,12 +22,12 @@ In order to add controls to the **RadLinkButton** in the markup, you should plac
 
 >caption Figure 1: RadLinkButtons configured with contenttemplate in Example 1, Example 2 and Example 3.
 
-![RadLinkButtons with ContentTemplate](images/RadLinkButtons-contenttemplate.png)
+![RadLinkButtons with ContentTemplate](images/buttons-contenttemplate.png)
 
 >caption Example 1: Adding controls to **ContentTemplate** of **RadLinkButton** in the markup.
 
 ````ASP.NET
-<telerik:RadLinkButton runat="server" ID="RadLinkButton1">
+<telerik:RadLinkButton runat="server" ID="RadLinkButton1" NavigateUrl="http://www.telerik.com" Target="_blank">
 	<ContentTemplate>
         <img alt="cog" src="http://demos.telerik.com/aspnet-ajax/button/examples/contenttemplate/Images/cog.png" />
         <telerik:RadRating ID="RadRating1" runat="server" Enabled="false" Value="3" SelectionMode="Continuous" ItemCount="5" />
@@ -45,7 +45,7 @@ You can add controls to **RadLinkButton** from the code-behind in two ways:
 **Example 2**: Adding controls to the **Controls** collection of **RadLinkButton** from the code-behind.
 
 ````ASP.NET
-<telerik:RadLinkButton runat="server" ID="RadLinkButton1" Width="160px" Height="85px">
+<telerik:RadLinkButton runat="server" ID="RadLinkButton1" Width="160px" Height="85px" NavigateUrl="http://www.telerik.com" Target="_blank">
 </telerik:RadLinkButton>
 ````
 ````C#	
@@ -71,7 +71,7 @@ End Sub
 **Example 3**: Adding controls to the **RadLinkButton** by using the **ITemplate** class.
 
 ````ASP.NET
-<telerik:RadLinkButton runat="server" ID="RadLinkButton1" Width="71px" Height="70px">
+<telerik:RadLinkButton runat="server" ID="RadLinkButton1" Width="71px" Height="70px" NavigateUrl="http://www.telerik.com" Target="_blank">
 </telerik:RadLinkButton>
 ````
 ````C#

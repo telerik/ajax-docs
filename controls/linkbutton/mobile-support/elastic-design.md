@@ -29,7 +29,7 @@ Generally, responsive design means that the page and its content are able to ada
 ````
 
 ````ASP.NET
-<telerik:RadLinkButton runat="server" ID="StandartButton"
+<telerik:RadLinkButton runat="server" ID="StandartButton" NavigateUrl="http://www.telerik.com" Target="_blank"
 	Text="Elastic Button" Skin="Default" Width="200px">
 </telerik:RadLinkButton>
 ````

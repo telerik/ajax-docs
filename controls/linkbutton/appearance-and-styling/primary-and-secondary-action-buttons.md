@@ -22,17 +22,17 @@ In order to switch to the primary state you must set the **CssClass** property o
 
 ````ASP.NET
 Silk Skin:
-<telerik:RadLinkButton ID="RadLinkButton1" runat="server" Text="Primary Button" Skin="Silk" CssClass="rbPrimaryButton" />
-<telerik:RadLinkButton ID="RadLinkButton2" runat="server" Text="Secondary Button" Skin="Silk" />
+<telerik:RadLinkButton ID="RadLinkButton1" runat="server" Text="Primary Button" Skin="Silk" CssClass="rbPrimaryButton" NavigateUrl="http://www.telerik.com" Target="_blank" />
+<telerik:RadLinkButton ID="RadLinkButton2" runat="server" Text="Secondary Button" Skin="Silk" NavigateUrl="http://www.telerik.com" Target="_blank" />
 <br />
 
 Glow Skin:
-<telerik:RadLinkButton ID="RadLinkButton3" runat="server" Text="Primary Button" Skin="Glow" CssClass="rbPrimaryButton" />
-<telerik:RadLinkButton ID="RadLinkButton4" runat="server" Text="Secondary Button" Skin="Glow" />
+<telerik:RadLinkButton ID="RadLinkButton3" runat="server" Text="Primary Button" Skin="Glow" CssClass="rbPrimaryButton" NavigateUrl="http://www.telerik.com" Target="_blank" />
+<telerik:RadLinkButton ID="RadLinkButton4" runat="server" Text="Secondary Button" Skin="Glow" NavigateUrl="http://www.telerik.com" Target="_blank" />
 <br />
 
 Bootstrap Skin:
-<telerik:RadLinkButton ID="RadLinkButton5" runat="server" Text="Primary Button" Skin="Bootstrap" CssClass="rbPrimaryButton" />
+<telerik:RadLinkButton ID="RadLinkButton5" runat="server" Text="Primary Button" Skin="Bootstrap" CssClass="rbPrimaryButton" NavigateUrl="http://www.telerik.com" Target="_blank" />
 <telerik:RadLinkButton ID="RadLinkButton6" runat="server" Text="Secondary Button" Skin="Bootstrap" />
 ````
 
