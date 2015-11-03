@@ -240,6 +240,9 @@ navigation:
     "controls/lightbox":
         title: "LightBox"
         position: 1
+    "controls/linkbutton":
+        title: "LinkButton"
+        position: 1
     "controls/listbox":
         title: "ListBox"
         position: 1
