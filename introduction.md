@@ -52,9 +52,13 @@ Here are quick links to the control-specific sections of our documentation:
 
 * [Compression]({%slug controls/radcompression%})
 
+* [DataForm]({%slug dataform/overview%})
+
 * [DataPager]({%slug datapager/overview%})
 
-* [DataForm]({%slug dataform/overview%})
+* [DatePicker]({%slug datepicker/overview%})
+
+* [DateTimePicker]({%slug datetimepicker/overview%})
 
 * [Diagram]({%slug diagram/overview%})
 
@@ -86,6 +90,8 @@ Here are quick links to the control-specific sections of our documentation:
 
 * [LightBox]({%slug lightbox/overview%})
 
+* [LinkButton]({%slug linkbutton/overview%})
+
 * [ListBox]({%slug listbox/overview%})
 
 * [ListView]({%slug listview/overview%})
@@ -95,6 +101,8 @@ Here are quick links to the control-specific sections of our documentation:
 * [MediaPlayer]({%slug mediaplayer/overview%})
 
 * [Menu]({%slug menu/overview%})
+
+* [MonthYearPicker]({%slug monthyearpicker/overview%})
 
 * [Navigation]({%slug navigation/overview%})
 
@@ -153,6 +161,8 @@ Here are quick links to the control-specific sections of our documentation:
 * [TagCloud]({%slug tagcloud/overview%})
 
 * [TileList]({%slug tilelist/overview%})
+
+* [TimePicker]({%slug timepicker/overview%})
 
 * [ToolBar]({%slug toolbar/overview%})
 

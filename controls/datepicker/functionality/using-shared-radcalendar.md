@@ -3,7 +3,6 @@ title: Using shared RadCalendar
 page_title: Using shared RadCalendar | RadDatePicker for ASP.NET AJAX Documentation
 description: Using shared RadCalendar
 slug: datepicker/functionality/using-shared-radcalendar
-previous_url: calendar/raddatepicker,-radtimepicker,-raddatetimepicker-and-radmonthyearpicker/using-shared-radcalendar/radtimeview
 tags: using,shared,radcalendar
 published: True
 position: 4
