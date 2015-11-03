@@ -89,6 +89,7 @@ A control can hardly be considered responsive by itself, because this heavily de
 |PivotGrid|[Yes]({%slug pivotgrid/mobile-support/fluid-and-elastic-capabilities%})|[Yes]({%slug pivotgrid/mobile-support/fluid-and-elastic-capabilities%})|No|No|
 |Progress Area|No|No|No|No|
 |Progress Bar|[Yes]({%slug progressbar/mobile-support/elastic-design%})|[Yes]({%slug progressbar/mobile-support/fluid-design%})|[Yes]({%slug progressbar/mobile-support/elastic-design%})|No|
+|PushButton|[Yes]({%slug pushbutton/mobile-support/elastic-design%})|[Yes]({%slug pushbutton/mobile-support/fluid-design%})|No|No|
 |Rating|[Yes]({%slug rating/mobile-support/elastic-design%})|No|No|N/A|
 |RibbonBar|No|Yes|No|No|
 |Rotator|[Yes]({%slug rotator/mobile-support/elastic-capabilities%})|[Yes]({%slug rotator/mobile-support/fluid-capabilities%})|No|N/A|
