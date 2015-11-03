@@ -53,6 +53,7 @@ Some controls from the UI for ASP.NET AJAX suite	can produce different (usually 
 |PivotGrid|[Yes (render mode)]({%slug pivotgrid/mobile-support/render-modes%})|-|
 |ProgressArea|-|-|
 |ProgressBar|Yes (by design)|-|
+|PushButton|[Yes (by design)]({%slug pushbutton/mobile-support/render-modes%})|-|
 |Rating|[Yes (render mode)]({%slug rating/mobile-support/render-modes%})|-|
 |RibbonBar|-|-|
 |Rotator|Yes (by design)|-|
