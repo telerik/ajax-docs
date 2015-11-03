@@ -3,7 +3,6 @@ title: RadMonthYearPicker Object
 page_title: RadMonthYearPicker Server-Side Objects | RadMonthYearPicker for ASP.NET AJAX Documentation
 description:  RadMonthYearPickerServer-Side Objects
 slug: monthyearpicker/server-side-programming/radmonthyearpicker-object
-previous_url: calendar/server-side-programming/server-side-objects
 tags: radmonthyearpicker,server-side,object
 published: True
 position: 0

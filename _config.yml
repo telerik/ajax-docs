@@ -285,6 +285,9 @@ navigation:
     "controls/progressbar":
         title: "Progress Bar"
         position: 1
+    "controls/pushbutton":
+        title: "PushButton"
+        position: 1
     "controls/rating":
         title: "Rating"
         position: 1

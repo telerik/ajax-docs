@@ -3,7 +3,6 @@ title: Validation
 page_title: Validation | RadDatePicker for ASP.NET AJAX Documentation
 description: Validation
 slug: datepicker/functionality/validation
-previous_url: calendar/how-to/web-pages-validation
 tags: web,pages,validation
 published: True
 position: 5

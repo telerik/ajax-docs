@@ -3,7 +3,6 @@ title: Displaying the Popup
 page_title: Displaying RadDatePicker Popup | RadDatePicker for ASP.NET AJAX Documentation
 description: Displaying RadDatePicker Popup
 slug: datepicker/functionality/displaying-the-popup
-previous_url: calendar/raddatepicker,-radtimepicker,-raddatetimepicker-and-radmonthyearpicker/displaying-the-popup
 tags: displaying,the,popup
 published: True
 position: 1
