@@ -24,6 +24,30 @@ This module displays general test statistics: the number of words and number of 
 >
 >By design, the RadEditorStatistics module does not count the following characters: ! . ? ; , : & _ - – { } [ ] ( ) ~ # ' "
 
+You can fine-tune the results in the Statistics module by overriding its counter mechanism as it is shown in the following example:
+
+>caption Example 1: Override counter mechanism of Statistics module.
+
+````ASP.NET
+<telerik:RadEditor ID="RadEditor1" runat="server">
+</telerik:RadEditor>
+
+<script>
+    Telerik.Web.UI.Editor.Modules.RadEditorStatistics.prototype.doCount = function () {
+        var that = this;
+        if (!that.get_visible()) return;
+
+        // You can, for example, pass false value to not remove the white spaces in the counter
+        var text = that.get_editor().get_text({ removeMultipleSpaces: true }); 
+        text = text.replace(that._trimNewLineCharsRegExp, "");
+
+        var wordsCount = that._getWordsCount(text);
+        var charsCount = that._getCharactersCount(text);
+
+        that._renderCounts(wordsCount, charsCount);
+    };
+</script>
+````
 
 ## Dom / Tag Inspector
 
