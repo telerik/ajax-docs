@@ -124,6 +124,8 @@ Here are quick links to the control-specific sections of our documentation:
 
 * [ProgressBar]({%slug progressbar/overview%})
 
+* [PushButton]({%slug pushbutton/overview%})
+
 * [Rating]({%slug rating/overview%})
 
 * [RibbonBar]({%slug ribbonbar/overview%})
