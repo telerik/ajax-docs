@@ -86,6 +86,8 @@ Here are quick links to the control-specific sections of our documentation:
 
 * [LightBox]({%slug lightbox/overview%})
 
+* [LinkButton]({%slug linkbutton/overview%})
+
 * [ListBox]({%slug listbox/overview%})
 
 * [ListView]({%slug listview/overview%})
