@@ -3,7 +3,6 @@ title: Validation
 page_title: Validation | RadMonthYearPicker for ASP.NET AJAX Documentation
 description: Validation
 slug: monthyearpicker/functionality/validation
-previous_url: calendar/how-to/web-pages-validation
 tags: validation
 published: True
 position: 5

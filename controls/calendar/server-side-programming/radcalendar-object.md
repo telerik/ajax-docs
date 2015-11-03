@@ -3,7 +3,6 @@ title: RadCalendar Object
 page_title: RadCalendar Server-Side Objects | RadCalendar for ASP.NET AJAX Documentation
 description: RadCalendar Server-Side Objects
 slug: calendar/server-side-programming/radcalendar-object
-previous_url: calendar/server-side-programming/server-side-objects
 tags: server-side,objects
 published: True
 position: 0
