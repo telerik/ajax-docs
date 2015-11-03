@@ -55,6 +55,7 @@ A control can hardly be considered responsive by itself, because this heavily de
 |ImageGallery|Yes|Yes|Yes|Yes|
 |Input|Yes|No|N/A|No|
 |LightBox|Yes|Yes|No|Yes|
+|LinkButton|[Yes]({%slug linkbutton/mobile-support/elastic-design%})|[Yes]({%slug linkbutton/mobile-support/fluid-design%})|No|No|
 |ListBox|Yes|Yes|N/A|N/A|
 |ListView|No|Yes|No|No|
 |Map|[Yes]({%slug map/mobile-support/elastic-design%})|[Yes]({%slug map/mobile-support/fluid-design%})|N/A|N/A|

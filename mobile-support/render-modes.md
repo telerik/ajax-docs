@@ -43,6 +43,7 @@ Some controls from the UI for ASP.NET AJAX suite	can produce different (usually 
 |ImageGallery|Yes (by design)|[Yes (render mode)]({%slug imagegallery/mobile-support/mobile-rendering%})|
 |Input|[Yes (render mode)]({%slug input/mobile-support/render-modes%})|-|
 |LightBox|Yes (by design)|[Yes (render mode)]({%slug input/mobile-support/render-modes%})|
+|LinkButton|[Yes (by design)]({%slug linkbutton/mobile-support/render-modes%})|-|
 |ListBox|[Yes (render mode)]({%slug listbox/functionality/render-modes%})|-|
 |Map|N/A|-|
 |MediaPlayer|Yes (by design)|[Yes (render mode)]({%slug mediaplayer/mobile-support/overview%})|
