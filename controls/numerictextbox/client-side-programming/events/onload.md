@@ -1,8 +1,8 @@
 ---
 title: OnLoad
-page_title: OnLoad | RadInput for ASP.NET AJAX Documentation
+page_title: OnLoad | RadNumericTextBox for ASP.NET AJAX Documentation
 description: OnLoad
-slug: input/client-side-programming/events/onload
+slug: numerictextbox/client-side-programming/events/onload
 tags: onload
 published: True
 position: 10
@@ -26,12 +26,12 @@ Two parameters are passed to the event handler:
 
 * **eventArgs** is an instance of [Sys.EventArgs](http://www.asp.net/AJAX/Documentation/Live/ClientReference/Sys/EventArgsClass/default.aspx).
 
-The following example uses the **OnLoad** event to change the background color of a text box:
+The following RadNumericTextBox uses the **OnLoad** event to change the background color of a text box:
 
 ````ASPNET
-<telerik:RadTextBox ID="RadTextBox1" runat="server">
+<telerik:RadNumericTextBox ID="RadNumericTextBox1" runat="server">
 	<ClientEvents OnLoad="Load" />
-</telerik:RadTextBox>
+</telerik:RadNumericTextBox>
 ````
 
 

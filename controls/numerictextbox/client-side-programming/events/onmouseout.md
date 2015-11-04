@@ -1,8 +1,8 @@
 ---
 title: OnMouseOut
-page_title: OnMouseOut | RadInput for ASP.NET AJAX Documentation
+page_title: OnMouseOut | RadNumericTextBox for ASP.NET AJAX Documentation
 description: OnMouseOut
-slug: input/client-side-programming/events/onmouseout
+slug: numerictextbox/client-side-programming/events/onmouseout
 tags: onmouseout
 published: True
 position: 11
@@ -16,9 +16,6 @@ position: 11
 
 The **OnMouseOut** client-side event handler is called when the mouse moves off the input area of the control.
 
->note The **OnMouseOut** event is supported by all **RadInput** controls.
->
-
 
 Two parameters are passed to the event handler:
 
@@ -29,9 +26,9 @@ Two parameters are passed to the event handler:
 The following example uses the **OnMouseOut** event to display an alert:
 
 ````ASPNET
-<telerik:RadTextBox ID="RadTextBox1" runat="server">
+<telerik:RadNumericTextBox ID="RadNumericTextBox1" runat="server">
 	<ClientEvents OnMouseOut="MouseOut" />
-</telerik:RadTextBox>
+</telerik:RadNumericTextBox>
 ````
 
 
@@ -49,4 +46,4 @@ The following example uses the **OnMouseOut** event to display an alert:
 
 # See Also
 
- * [OnMouseOver]({%slug input/client-side-programming/events/onmouseover%})
+ * [OnMouseOver]({%slug numerictextbox/client-side-programming/events/onmouseover%})

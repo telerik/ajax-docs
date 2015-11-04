@@ -27,7 +27,6 @@ The possible options are:
 >important RadInput, as well as the other Telerik controls that utilize render modes, supports only one type of render mode per page.	This includes mode being set for a standalone instance, and a programmatically created instance. All such controls must have the same	RenderMode on a given page. This also includes instances from user controls and master pages.
 >
 
-**RadInputManager** also supports the **Lightweight** RenderMode.
 
 ## Setting Render Mode
 
@@ -36,8 +35,8 @@ There are two ways to configure the rendering mode of the controls:
 * The **RenderMode property** in the markup or in the code-behind that can be used for a particular instance:
 
 ````ASPNET
-<telerik:RadTextBox ID="RadTextBox1" runat="server" RenderMode="Lightweight">
-</telerik:RadTextBox>
+<telerik:RadNumericTextBox ID="RadNumericTextBox1" runat="server" RenderMode="Lightweight">
+</telerik:RadNumericTextBox>
 ````
 
 
@@ -47,10 +46,10 @@ There are two ways to configure the rendering mode of the controls:
 
 
 ````C#
-RadTextBox1.RenderMode = Telerik.Web.UI.RenderMode.Lightweight;
+RadNumericTextBox1.RenderMode = Telerik.Web.UI.RenderMode.Lightweight;
 ````
 ````VB.NET
-RadTextBox1.RenderMode = Telerik.Web.UI.RenderMode.Lightweight
+RadNumericTextBox1.RenderMode = Telerik.Web.UI.RenderMode.Lightweight
 ````
 
 

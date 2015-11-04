@@ -1,8 +1,8 @@
 ---
 title: OnBlur
-page_title: OnBlur | RadInput for ASP.NET AJAX Documentation
+page_title: OnBlur | RadDateInput for ASP.NET AJAX Documentation
 description: OnBlur
-slug: input/client-side-programming/events/onblur
+slug: raddateinput/client-side-programming/events/onblur
 tags: onblur
 published: True
 position: 1
@@ -29,9 +29,9 @@ Two parameters are passed to the event handler:
 The following example uses the **OnBlur** event to show an alert:
 
 ````ASPNET
-<telerik:RadTextBox ID="RadTextBox1" runat="server">
+<telerik:RadDateInput ID="RadDateInput1" runat="server">
 	<ClientEvents OnBlur="Blur" />
-</telerik:RadTextBox>
+</telerik:RadDateInput>
 ````
 
 
@@ -49,4 +49,4 @@ The following example uses the **OnBlur** event to show an alert:
 
 # See Also
 
- * [OnFocus]({%slug input/client-side-programming/events/onfocus%})
+ * [OnFocus]({%slug raddateinput/client-side-programming/events/onfocus%})

@@ -1,8 +1,8 @@
 ---
 title: Styles
-page_title: Styles | RadInput for ASP.NET AJAX Documentation
+page_title: Styles | RadNumericTextBox for ASP.NET AJAX Documentation
 description: Styles
-slug: input/appearance-and-styling/styles
+slug: numerictextbox/appearance-and-styling/styles
 tags: styles
 published: True
 position: 1
@@ -65,4 +65,4 @@ Each sub-property is an attribute of the HTML element for the rendered input con
 
 # See Also
 
- * [HTML Output and CSS Styling]({%slug input/appearance-and-styling/html-output-and-css-styling%})
+ * [HTML Output and CSS Styling]({%slug numerictextbox/appearance-and-styling/html-output-and-css-styling%})

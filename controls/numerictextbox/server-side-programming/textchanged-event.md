@@ -1,8 +1,8 @@
 ---
 title: TextChanged Event
-page_title: TextChanged Event | RadInput for ASP.NET AJAX Documentation
+page_title: TextChanged Event | RadNumericTextBox for ASP.NET AJAX Documentation
 description: TextChanged Event
-slug: input/server-side-programming/textchanged-event
+slug: numerictextbox/server-side-programming/textchanged-event
 tags: textchanged,event
 published: True
 position: 1
@@ -22,7 +22,7 @@ The **TextChanged** event only occurs if the value of the input control actually
 >
 
 
->note The postback request can be controlled for **RadDateInput** , **RadNumericTextBox** and **RadTextBox** by using the [OnValueChanged]({%slug input/client-side-programming/events/onvaluechanged%}) client event of the control.
+>note The postback request can be controlled for **RadNumericTextBox** by using the OnValueChanged client event of the control.
 >
 
 
@@ -39,44 +39,19 @@ Use the **TextChanged** event handler to respond to changes in the control's tex
 ````C#
 protected void RadInput_TextChanged(object sender, EventArgs e)
 {
-	if (sender is RadTextBox)
-	{
-		RadTextBox tb = (RadTextBox)sender;
-		Image1.ImageUrl = @"~/Images/" + tb.Text + ".gif";
-	}
-	else if (sender is RadNumericTextBox)
+	if (sender is RadNumericTextBox)
 	{
 		RadNumericTextBox ntb = (RadNumericTextBox)sender;
 		RadComboBox1.SelectedIndex = ntb.Value;
 	}
-	else if (sender is RadMaskedTextBox)
-	{
-		RadMaskedTextBox mtb = (RadMaskedTextBox)sender;
-		HttpCookie = Response.Cookies.Get(mtb.TextWithLiterals);
-		Button1.Enabled = (HttpCookie != null);
-	}
-	else if (sender is RadDateInput)
-	{
-		RadDateInput di = (RadDateInput)sender;
-		RadCalendar1.SelectedDate = di.SelectedDate;
-	}
+	
 }
 ````
 ````VB.NET
-Protected Sub RadInput_TextChanged(ByVal sender As Object, ByVal e As EventArgs) Handles RadTextBox1.TextChanged, RadNumericTextBox1.TextChanged, RadMaskedTextBox1.TextChanged, RadDateInput.TextChanged
-	If TypeOf sender Is RadTextBox Then
-		Dim tb As RadTextBox = DirectCast(sender, RadTextBox)
-		Image1.ImageUrl = "~/Images/" + tb.Text + ".gif"
-	ElseIf TypeOf sender Is RadNumericTextBox Then
+Protected Sub RadInput_TextChanged(ByVal sender As Object, ByVal e As EventArgs) Handles RadNumericTextBox1.TextChanged
+	If TypeOf sender Is RadNumericTextBox Then
 		Dim ntb As RadNumericTextBox = DirectCast(sender, RadNumericTextBox)
 		RadComboBox1.SelectedIndex = ntb.Value
-	ElseIf TypeOf sender Is RadMaskedTextBox Then
-		Dim mtb As RadMaskedTextBox = DirectCast(sender, RadMaskedTextBox)
-		HttpCookie = Response.Cookies.[Get](mtb.TextWithLiterals)
-		Button1.Enabled = (HttpCookie <> Nothing)
-	ElseIf TypeOf sender Is RadDateInput Then
-		Dim di As RadDateInput = DirectCast(sender, RadDateInput)
-		RadCalendar1.SelectedDate = di.SelectedDate
 	End If
 End Sub
 ````
@@ -84,8 +59,8 @@ End Sub
 
 # See Also
 
- * [Getting and Setting Values]({%slug input/getting-started/getting-and-setting-values%})
+ * [Getting and Setting Values]({%slug numerictextbox/features/getting-and-setting-values%})
 
- * [Client-side programming Overview]({%slug input/client-side-programming/events/overview%})
+ * [Client-side programming Overview]({%slug numerictextbox/client-side-programming/events/overview%})
 
- * [OnValueChanging]({%slug input/client-side-programming/events/onvaluechanging%})
+ * [OnValueChanging]({%slug numerictextbox/client-side-programming/events/onvaluechanging%})

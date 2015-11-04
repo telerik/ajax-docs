@@ -1,8 +1,8 @@
 ---
 title: OnMoveUp
-page_title: OnMoveUp | RadInput for ASP.NET AJAX Documentation
+page_title: OnMoveUp | RadMaskedTextBox for ASP.NET AJAX Documentation
 description: OnMoveUp
-slug: input/client-side-programming/events/onmoveup
+slug: radmaskedtextbox/client-side-programming/events/onmoveup
 tags: onmoveup
 published: True
 position: 13
@@ -15,10 +15,6 @@ position: 13
 ## 
 
 The **OnMoveUp** client-side event handler is called when the user increases the value of an enumeration or numeric range mask part by typing in a new value or using the arrow keys or mouse wheel.
-
->note The **OnMoveUp** event is supported by **RadMaskedTextBox** .
->
-
 
 Two parameters are passed to the event handler:
 
@@ -57,8 +53,7 @@ The following example uses the **OnMoveUp** event display an alert when the user
 
 # See Also
 
- * [OnMoveDown]({%slug input/client-side-programming/events/onmovedown%})
+ * [OnMoveDown]({%slug radmaskedtextbox/client-side-programming/events/onmovedown%})
 
- * [OnEnumerationChanged]({%slug input/client-side-programming/events/onenumerationchanged%})
+ * [OnEnumerationChanged]({%slug radmaskedtextbox/client-side-programming/events/onenumerationchanged%})
 
- * [Masks]({%slug input/radmaskedtextbox/masks%})

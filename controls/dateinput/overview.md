@@ -1,87 +1,59 @@
 ---
 title: Overview
-page_title: RadInput Overview | UI for ASP.NET AJAX Documentation
+page_title: Overview | RadDateInput for ASP.NET AJAX Documentation
 description: Overview
-slug: input/overview
+slug:raddateinput/overview
 tags: overview
 published: True
 position: 0
 ---
 
-# Input Overview
+# RadDateInput Overview
 
 
 
-## 
+**RadDateInput** is a free-form date and time editing control. It shares the [common properties of all RadInput controls]({%slug input/server-side-programming/overview%}), including support for skins, styles for different states, empty message support, conditional postback on text change, flexible caret and button positioning, labels, and so on.
 
-The Telerik **RadInput** Prometheus controls are a set of four highly configurable components for controlled data input in ASP.NET applications. The four controls - **RadTextBox**, **RadNumericTextBox**, **RadMaskedTextBox** and **RadDateInput** - are each designed for allowing users to enter a particular type of value, and automatically restrict the values users can enter to that type. They automatically handle the parsing of values that the user enters and formatting of their values for display.
+**RadDateInput** assists the user in date and time entry by accepting various date and time formats and tries to recognize them and convert them into valid dates. If the entry is successfully recognized, it is formatted according to the current **DateFormat** and **DisplayDateFormat** property settings and displayed to the user. Erroneous output is signalled to the user by keeping the original text and applying a different, "error" CSS style.
 
-While each of the **RadInput** controls has its own unique features, designed to support a particular data type, they all share a number of common features, so that you can take advantage of the same rich set of options, no matter what type of data you want to collect.
+## Specifying the date format
 
-The common features of the **RadInput** controls include
+**RadDateInput** uses standard ASP.NET date format strings to format its value. These are described in [Formatting Dates]({%slug input/raddateinput/formatting-dates%}). The date input control uses two different format strings:
 
-* A [client-side API]({%slug input/client-side-programming/overview%}) with powerful methods to let you configure the input controls and [numerous events]({%slug input/client-side-programming/events/overview%}) to let you respond to almost everything the user does with the controls.
+* The **DateFormat** property is the format string for the value of the date input control when it has focus (when the user is editing the date).
 
-* [Keyboard]({%slug input/accessibility-and-internationalization/keyboard-support%}) and [mouse wheel]({%slug input/accessibility-and-internationalization/mouse-wheel-support%}) support.
+* The **DisplayDateFormat** property is the format string for the value of the date input control when it does not have focus. If **DisplayDateFormat** is not set, the control uses the value of **DateFormat**.
 
-* Built-in copy and paste support that users can invoke with both keyboard shortcuts and a built-in [context menu]({%slug input/getting-started/context-menus%}).
+You can set the **DateFormat** and **DisplayDateFormat** properties by typing an ASP.NET format string directly into the properties pane, or you can use the **RadDateInput** [Smart Tag]({%slug input/design-time/smart-tag%}) to launch the [Date Format Dialog]({%slug input/design-time/date-format-dialog%}) for more assistance. The **Date Format Dialog** lets you choose from pre-defined date/time format strings or view a preview of the effects of a custom format string.
 
-* [Skins]({%slug input/appearance-and-styling/skins%}) to change the look and feel of the input controls so that they match the other controls on your Web page.
+Two other properties influence the way the date format strings are applied:
 
-* [Style properties]({%slug input/appearance-and-styling/styles%}) that let you configure the look of the input control, depending on its current state.
+* The **Culture** property determines the value of culture-dependent symbols in the date format string, such as the names of the days of the week.
 
-* The ability to add [labels]({%slug input/appearance-and-styling/adding-labels%}) and [buttons]({%slug input/getting-started/adding-buttons%}) that are associated with the input control.
+* The **ShortYearCenturyEnd** property determines how year values are mapped to two-digit representations. When you set the **ShortYearCenturyEnd** property, the value of the **ShortYearCenturyStart** property is automatically set to a value that is 99 years less. Dates with years falling between **ShortYearCenturyStart** and **ShortYearCenturyEnd** (inclusive) can be displayed using the last two digits of the year portion. Dates that fall outside that range generate an error.
 
-* [Empty message]({%slug input/appearance-and-styling/displaying-empty-values%}) support.
+## Parsing input
 
-* Client/Server side [data validation]({%slug input/how-to/validation%}).
+The user does not need to conform to the format that is the value of the **DateFormat** property when entering values. The **RadDateInput** control tries to parse any input according to the value of the **Culture** property and the **ShortYearCenturyEnd** property (as needed). For details on how **RadDateInput** parses user input, see [Parsing Dates]({%slug input/raddateinput/parsing-dates%}).
 
-* Caret positioning and text selection when the control [receives focus]({%slug input/getting-started/receiving-focus%}).
+## Increment controls
 
-* Optional [postback]({%slug input/getting-started/postbacks%}) when the user changes the value.
+In addition to typing numbers directly into the date input control, you can also let users increment or decrement the current value using the arrow keys or mouse wheel. The **IncrementSettings** property controls how the date input control changes its value in response to the arrow keys or mouse wheel. **IncrementSettings** is a composite property with the following sub-properties:
 
-* Support for all major browsers, including Internet Explorer 6.0 and above, Mozilla Firefox 2.0 and above, Google Chrome 2.0 and above, Opera 9.0 and above, and Safari 3.0 and above.
+* **InterceptArrowKeys**: When **InterceptArrowKeys** is **True**, the user can use the arrow keys to change the value.See [Keyboard Support]({%slug input/accessibility-and-internationalization/keyboard-support%}) for details.
 
-In addition to these common features, each **RadInput** control provides its own unique features, designed to make it as easy as possible to work with a particular type of data:
+* **InterceptMouseWheel**: When **InterceptMouseWheel** is **True**, the user can use the mouse wheel to change the value. See [Mouse Wheel Support]({%slug input/accessibility-and-internationalization/mouse-wheel-support%}) for details.
 
-[Overview]({%slug input/radtextbox/overview%}) - a text control that can accept all characters (alphabet, numeric and symbols). **RadTextBox** controls support the following features:
+* **Step**: Step specifies the magnitude by which the value changes with each click of an arrow key or movement of the mouse wheel.
 
-* Single-line, password, and multi-line modes.
+## Limiting the range
 
-* AutoComplete support in participating browsers.
+Use the **MaxDate** and **MinDate** properties to specify a range for the date input control. If the user tries to enter a value that is greater than the value of the **MaxDate** property or less than the **MinDate** property, the date input control signals the user that there is a problem by applying the "error" CSS style and does not update its value.
 
-* MaxLength property to define the max length of characters allowed to be entered
+## Date input value
 
-**[RadNumericTextBox]({%slug input/radnumerictextbox/overview%})** - an input control that accepts only numeric entries. **RadNumericTextBox** controls support the following features:
+**RadDateInput** uses the **SelectedDate** property to represent its value.
 
-* Currency, Percentage, or Number mode
+# See Also
 
-* Formatting options based on Culture settings or [your own detailed requirements]({%slug input/radnumerictextbox/formatting-numeric-values%}).
-
-* Increment/Decrement with mouse wheel, arrow keys, and spin buttons.
-
-* Nullable **DbValue** property
-
-**[RadMaskedTextBox]({%slug input/radmaskedtextbox/overview%})** - an enhanced data entry control which uses a mask to distinguish between proper and improper user input. You can use a mask to specify the accepted format such as IP address, telephone number, currency, etc.RadMaskedTextBox controls support the following features.
-
-* Built-in support for the most commonly used [masks]({%slug input/radmaskedtextbox/masks%}) (phone, email, social security, state, zip, etc.)
-
-* Multi-line mode
-
-**[RadDateInput]({%slug input/raddateinput/overview%})** - an input control that [formats]({%slug input/raddateinput/formatting-dates%}) and validates DateTime values, and and has 'smart' [parsing engine]({%slug input/raddateinput/parsing-dates%}) which recognizes whether the user entry can be converted to DateTime format or not. **RadDateInput** controls support the following features:
-
-* Client-side methods for parsing strings into date values.
-
-* An OnError event where you can provide custom parsing
-
-* Separate formatting options for display and edit, including culture-based formatting.
-
-* Increment/Decrement with mouse wheeland arrow keys.
-
-* Nullable **DbSelectedDate** property
-
-A version of **RadDateInput** that is integrated with the Telerik **RadCalendar** control to provide a comprehensive date input interface is available as the **RadDatePicker** control.With the RadDateInput control, users can either enter the date in the date input or select it from the popup calendar. The values of the two controls are synchronized to allow further change of the chosen date.
-
-**[RadInputManager]({%slug input/radinputmanager/overview%})** - offers an easy and intuitive way to extend a standard asp.net text box,and without any extra custom code, introduce much functionality, normally related to aTelerik **RadInput control**.
-
-It also allows you to introduce more functionality, normally found in a Telerik **RadInput** control.	On the other hand, having a large number of input controls on the page may hurt performance.This is where the **RadInputManager** comes in. It automatically adds extrafunctionality to separate text boxes, or all text boxes nested in another control on the page, viajust a few settings.![Order Form](images/OrderForm.png)
+ * [RadDateInput Client Object]({%slug raddateinput/client-side-programming/raddateinput-client-object%})

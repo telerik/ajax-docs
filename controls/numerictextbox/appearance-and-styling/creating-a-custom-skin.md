@@ -1,8 +1,8 @@
 ---
 title: Creating a Custom Skin
-page_title: Creating a Custom Skin | RadInput for ASP.NET AJAX Documentation
+page_title: Creating a Custom Skin | RadNumericTextBox for ASP.NET AJAX Documentation
 description: Creating a Custom Skin
-slug: input/appearance-and-styling/creating-a-custom-skin
+slug: numerictextbox/appearance-and-styling/creating-a-custom-skin
 tags: creating,a,custom,skin
 published: True
 position: 3
@@ -12,7 +12,7 @@ position: 3
 
 
 
-The following tutorial demonstrates creating a custom **RadInput** skin, using the default skin as a base. This new skin will take the appearance of the input controls from their default look:
+The following tutorial demonstrates creating a custom **RadNumericTextBox** skin, using the default skin as a base. This new skin will take the appearance of the input controls from their default look:
 ![Default Skin](images/DefaultSkin.png)
 
 to the following:
@@ -22,13 +22,13 @@ See [Understanding the Skin CSS File]({%slug input/appearance-and-styling/html-o
 
 ## Prepare the Project
 
-1. Drag a **RadTextBox**, a **RadMaskedTextBox**, a **RadNumericTextBox** and a **RadDateInput** control from the toolbox onto a new AJAX-enabled application Web form.
+1. Drag  a **RadNumericTextBox** control from the toolbox onto a new AJAX-enabled application Web form.
 
-1. Set the properties of these input controls so that they each show a label and a button:
+1. Set the properties of these input control so that it shows a label and a button:
 
 1. In the Solution Explorer, create a new "Green" directory in your project.
 
-1. Copy the default **RadInput** skin files from the installation directory to the "Green" directory; copy both the \Input directory that contains the images for this skin and the Input.Default.css file that defines the skin styles.
+1. Copy the default **RadNumericTextBox** skin files from the installation directory to the "Green" directory; copy both the \Input directory that contains the images for this skin and the Input.Default.css file that defines the skin styles.
 >note The file path will typically be similar to this example: *\Program Files\Telerik\<Your Version of UI for ASP.NET.AJAX>\Skins\Default.* 
 >
 

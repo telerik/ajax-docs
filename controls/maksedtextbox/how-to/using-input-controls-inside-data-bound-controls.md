@@ -1,8 +1,8 @@
 ---
 title: Using Input Controls Inside Data-Bound Controls
-page_title: Using Input Controls Inside Data-Bound Controls | RadInput for ASP.NET AJAX Documentation
+page_title: Using Input Controls Inside Data-Bound Controls | RadMaksedTextBox for ASP.NET AJAX Documentation
 description: Using Input Controls Inside Data-Bound Controls
-slug: input/how-to/using-input-controls-inside-data-bound-controls
+slug: radmaskedtextbox/how-to/using-input-controls-inside-data-bound-controls
 tags: using,input,controls,inside,data-bound,controls
 published: True
 position: 0

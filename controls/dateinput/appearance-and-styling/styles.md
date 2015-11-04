@@ -1,8 +1,8 @@
 ---
 title: Styles
-page_title: Styles | RadInput for ASP.NET AJAX Documentation
+page_title: Styles | RadDateInput for ASP.NET AJAX Documentation
 description: Styles
-slug: input/appearance-and-styling/styles
+slug: raddateinput/appearance-and-styling/styles
 tags: styles
 published: True
 position: 1
@@ -14,7 +14,7 @@ position: 1
 
 ## 
 
-All four types of **RadInput** controls come with a set of predefined styles, which are specified by the styles in the current [skin]({%slug input/appearance-and-styling/skins%}). If you have assigned a value to the **Skin** property, you can use a variety of style properties to customize the way the input control changes its appearance depending on its state.
+All four types of **RadInput** controls come with a set of predefined styles, which are specified by the styles in the current [skin]({%slug raddateinput/appearance-and-styling/skins%}). If you have assigned a value to the **Skin** property, you can use a variety of style properties to customize the way the input control changes its appearance depending on its state.
 
 The following table lists the various style properties:
 
@@ -29,7 +29,6 @@ The following table lists the various style properties:
 |FocusedStyle|riFocused|The style when the input control has focus.|
 |HoveredStyle|riHover|The style when the mouse hovers over the input control.|
 |InvalidStyle|riError|The style when the value of the input control is invalid.|
-|NegativeStyle|riNegative|The style when the value of the input control is negative. **Note**: The **NegativeStyle** property is only available on **RadNumericTextBox** controls.|
 
 The various Style properties are of type Telerik.Web.UI.InputStyle. This type has the following sub-properties:
 
@@ -65,4 +64,4 @@ Each sub-property is an attribute of the HTML element for the rendered input con
 
 # See Also
 
- * [HTML Output and CSS Styling]({%slug input/appearance-and-styling/html-output-and-css-styling%})
+ * [HTML Output and CSS Styling]({%slug raddateinput/appearance-and-styling/html-output-and-css-styling%})

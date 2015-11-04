@@ -1,8 +1,8 @@
 ---
 title: OnMouseOver
-page_title: OnMouseOver | RadInput for ASP.NET AJAX Documentation
+page_title: OnMouseOver | RadMaksedTextBox for ASP.NET AJAX Documentation
 description: OnMouseOver
-slug: input/client-side-programming/events/onmouseover
+slug: radmaskedtextbox/client-side-programming/events/onmouseover
 tags: onmouseover
 published: True
 position: 12
@@ -16,9 +16,6 @@ position: 12
 
 The **OnMouseOver** client-side event handler is called when the mouse moves over the input area of the control.
 
->note The **OnMouseOver** event is supported by all **RadInput** controls.
->
-
 
 Two parameters are passed to the event handler:
 
@@ -29,9 +26,9 @@ Two parameters are passed to the event handler:
 The following example uses the **OnMouseOver** event to display an alert:
 
 ````ASPNET
-<telerik:RadTextBox ID="RadTextBox1" runat="server">
+<telerik:RadMaskedTextBox ID="RadMaskedTextBox1" runat="server">
 	<ClientEvents OnMouseOver="MouseOver" />
-</telerik:RadTextBox>
+</telerik:RadMaskedTextBox>
 ````
 
 

@@ -1,8 +1,8 @@
 ---
 title: OnBlur
-page_title: OnBlur | RadInput for ASP.NET AJAX Documentation
+page_title: OnBlur | RadNumericTextBox for ASP.NET AJAX Documentation
 description: OnBlur
-slug: input/client-side-programming/events/onblur
+slug: numerictextbox/client-side-programming/events/onblur
 tags: onblur
 published: True
 position: 1
@@ -29,9 +29,9 @@ Two parameters are passed to the event handler:
 The following example uses the **OnBlur** event to show an alert:
 
 ````ASPNET
-<telerik:RadTextBox ID="RadTextBox1" runat="server">
+<telerik:RadNumericTextBox ID="RadNumericTextBox1" runat="server">
 	<ClientEvents OnBlur="Blur" />
-</telerik:RadTextBox>
+</telerik:RadNumericTextBox>
 ````
 
 

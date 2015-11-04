@@ -1,8 +1,8 @@
 ---
 title: OnEnable
-page_title: OnEnable | RadInput for ASP.NET AJAX Documentation
+page_title: OnEnable | RadNumericTextBox for ASP.NET AJAX Documentation
 description: OnEnable
-slug: input/client-side-programming/events/onenable
+slug: numerictextbox/client-side-programming/events/onenable
 tags: onenable
 published: True
 position: 5
@@ -15,9 +15,6 @@ position: 5
 ## 
 
 The **OnEnable** client-side event handler is called when the input control is enabled.
-
->note The **OnEnable** event is supported by all **RadInput** controls.
->
 
 
 Two parameters are passed to the event handler:
@@ -66,4 +63,4 @@ The following example uses the **OnEnable** event to disable another control whe
 
 # See Also
 
- * [OnDisable]({%slug input/client-side-programming/events/ondisable%})
+ * [OnDisable]({%slug numerictextbox/client-side-programming/events/ondisable%})

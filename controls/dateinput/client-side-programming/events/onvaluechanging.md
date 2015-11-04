@@ -1,8 +1,8 @@
 ---
 title: OnValueChanging
-page_title: OnValueChanging | RadInput for ASP.NET AJAX Documentation
+page_title: OnValueChanging | RadDateInput for ASP.NET AJAX Documentation
 description: OnValueChanging
-slug: input/client-side-programming/events/onvaluechanging
+slug: raddateinput/client-side-programming/events/onvaluechanging
 tags: onvaluechanging
 published: True
 position: 16
@@ -15,9 +15,6 @@ position: 16
 ## 
 
 The **OnValueChanging** client-side event handler is called when the user changes the value of the input control. The event occurs immediately after the control loses focus, but before its value has been updated.
-
->note The **OnValueChanging** event is supported by: **RadNumericTextBox** , **RadDateInput** , and **RadTextBox** . On **RadNumericTextBox** , **OnValueChanging** does not occur if the user enters a non-numeric value.
->
 
 
 Two parameters are passed to the event handler:
@@ -34,36 +31,12 @@ Two parameters are passed to the event handler:
 
 	* **set_newValue()** lets you change the value that is about to be assigned to the input control.
 
-The following example uses the **OnValueChanging** event to force the value of a text box to be one of a limited number of possible values:
-
-````ASPNET
-<telerik:RadTextBox ID="RadTextBox1" runat="server">
-	<ClientEvents OnValueChanging="LimitOptions" />
-</telerik:RadTextBox>
-````
-
-
-
-````JavaScript
-<script type="text/javascript">
-	function LimitOptions(sender, eventArgs)
-	{
-		if (eventArgs.get_newValue() == "t" || eventArgs.get_newValue() == "T" || eventArgs.get_newValue() == "true")
-			eventArgs.set_newValue("True");
-		else if (eventArgs.get_newValue() == "f" || eventArgs.get_newValue() == "F" || eventArgs.get_newValue() == "false")
-			eventArgs.set_newValue("False");
-		if (eventArgs.get_newValue() != "True" && eventArgs.get_newValue() != "False")
-			eventArgs.set_cancel(true);
-	}
-</script>
-````
 
 
 
 # See Also
 
- * [OnValueChanged]({%slug input/client-side-programming/events/onvaluechanged%})
+ * [OnValueChanged]({%slug raddateinput/client-side-programming/events/onvaluechanged%})
 
- * [TextChanged Event]({%slug input/server-side-programming/textchanged-event%})
+ * [TextChanged Event]({%slug raddateinput/server-side-programming/textchanged-event%})
 
- * [OnKeyPress]({%slug input/client-side-programming/events/onkeypress%})

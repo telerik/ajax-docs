@@ -1,8 +1,8 @@
 ---
 title: Creating a Custom Skin
-page_title: Creating a Custom Skin | RadInput for ASP.NET AJAX Documentation
+page_title: Creating a Custom Skin | RadDateInput for ASP.NET AJAX Documentation
 description: Creating a Custom Skin
-slug: input/appearance-and-styling/creating-a-custom-skin
+slug: raddateinput/appearance-and-styling/creating-a-custom-skin
 tags: creating,a,custom,skin
 published: True
 position: 3
@@ -18,13 +18,13 @@ The following tutorial demonstrates creating a custom **RadInput** skin, using t
 to the following:
 ![Green Skin](images/GreenSkin.png)
 
-See [Understanding the Skin CSS File]({%slug input/appearance-and-styling/html-output-and-css-styling%}) for more information on specific CSS file properties.
+See [Understanding the Skin CSS File]({%slug raddateinput/appearance-and-styling/html-output-and-css-styling%}) for more information on specific CSS file properties.
 
 ## Prepare the Project
 
-1. Drag a **RadTextBox**, a **RadMaskedTextBox**, a **RadNumericTextBox** and a **RadDateInput** control from the toolbox onto a new AJAX-enabled application Web form.
+1. Drag a **RadDateInput** control from the toolbox onto a new AJAX-enabled application Web form.
 
-1. Set the properties of these input controls so that they each show a label and a button:
+1. Set the properties so that it show a label and a button:
 
 1. In the Solution Explorer, create a new "Green" directory in your project.
 
@@ -130,17 +130,6 @@ See [Understanding the Skin CSS File]({%slug input/appearance-and-styling/html-o
 
 
 
-1. The class that controls the text area of **RadNumericTextBox** when it's value is negative is **.riNegative**. Change the border color to "Green":
-
-	````CSS
-	.RadInput_Green .riNegative
-	{ 
-		border: solid 1px Green; 
-		color: #333;
-	}
-````
-
-
 
 1. The class that controls the text area when it's value is invalid is **.riError**. Add a **background-color** of "#ddd", and change the color and border-color attributes to "#ffcc55":
 
@@ -170,5 +159,4 @@ See [Understanding the Skin CSS File]({%slug input/appearance-and-styling/html-o
 
 
 
-1. Run the application. The input controls should now look as follows:
-![Green Skin](images/GreenSkin.png)
+1. Run the application.

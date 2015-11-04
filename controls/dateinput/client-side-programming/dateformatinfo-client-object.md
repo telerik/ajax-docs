@@ -1,8 +1,8 @@
 ---
 title: DateFormatInfo Client Object
-page_title: DateFormatInfo Client Object | RadInput for ASP.NET AJAX Documentation
+page_title: DateFormatInfo Client Object | RadDateInput for ASP.NET AJAX Documentation
 description: DateFormatInfo Client Object
-slug: input/client-side-programming/dateformatinfo-client-object
+slug: raddateinput/client-side-programming/dateformatinfo-client-object
 tags: dateformatinfo,client,object
 published: True
 position: 8
@@ -36,4 +36,4 @@ The DateFormatInfo client object determines how a **RadDateInput** parses dates.
 
 # See Also
 
- * [Parsing Dates]({%slug input/raddateinput/parsing-dates%})
+ * [Parsing Dates]({%slug raddateinput/features/parsing-dates%})

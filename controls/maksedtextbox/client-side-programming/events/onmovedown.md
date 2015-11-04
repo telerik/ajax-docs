@@ -1,8 +1,8 @@
 ---
 title: OnMoveDown
-page_title: OnMoveDown | RadInput for ASP.NET AJAX Documentation
+page_title: OnMoveDown | RadMaksedTextBox for ASP.NET AJAX Documentation
 description: OnMoveDown
-slug: input/client-side-programming/events/onmovedown
+slug: radmaskedtextbox/client-side-programming/events/onmovedown
 tags: onmovedown
 published: True
 position: 14
@@ -15,9 +15,6 @@ position: 14
 ## 
 
 The **OnMoveDown** client-side event handler is called when the user decreases the value of an enumeration or numeric range mask part by typing in a new value or using the arrow keys or mouse wheel.
-
->note The **OnMoveDown** event is supported by **RadMaskedTextBox** .
->
 
 
 Two parameters are passed to the event handler:
@@ -59,8 +56,7 @@ The following example uses the **OnMoveDown** event display an alert when the us
 
 # See Also
 
- * [OnMoveUp]({%slug input/client-side-programming/events/onmoveup%})
+ * [OnMoveUp]({%slug radmaskedtextbox/client-side-programming/events/onmoveup%})
 
- * [OnEnumerationChanged]({%slug input/client-side-programming/events/onenumerationchanged%})
+ * [OnEnumerationChanged]({%slug radmaskedtextbox/client-side-programming/events/onenumerationchanged%})
 
- * [Masks]({%slug input/radmaskedtextbox/masks%})

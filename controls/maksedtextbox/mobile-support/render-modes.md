@@ -1,8 +1,8 @@
 ---
 title: Render Modes
-page_title: Render Modes | RadInput for ASP.NET AJAX Documentation
+page_title: Render Modes | RadMaskedTextBox for ASP.NET AJAX Documentation
 description: Render Modes
-slug: input/mobile-support/render-modes
+slug: radmaskedtextbox/mobile-support/render-modes
 tags: render,modes
 published: True
 position: 0
@@ -12,7 +12,7 @@ position: 0
 
 
 
-**RadInput** has two different render modes that can change the actual HTML markup that is rendered.	They are exposed via the **RenderMode** property that can have three	possible values - **Classic**, **Lightweight** and **Auto**.	This functionality was introduced in the **Q1 2015** version.
+**RadMaskedTextBox** has two different render modes that can change the actual HTML markup that is rendered.	They are exposed via the **RenderMode** property that can have three	possible values - **Classic**, **Lightweight** and **Auto**.	This functionality was introduced in the **Q1 2015** version.
 
 The possible options are:
 
@@ -27,7 +27,6 @@ The possible options are:
 >important RadInput, as well as the other Telerik controls that utilize render modes, supports only one type of render mode per page.	This includes mode being set for a standalone instance, and a programmatically created instance. All such controls must have the same	RenderMode on a given page. This also includes instances from user controls and master pages.
 >
 
-**RadInputManager** also supports the **Lightweight** RenderMode.
 
 ## Setting Render Mode
 
@@ -36,8 +35,8 @@ There are two ways to configure the rendering mode of the controls:
 * The **RenderMode property** in the markup or in the code-behind that can be used for a particular instance:
 
 ````ASPNET
-<telerik:RadTextBox ID="RadTextBox1" runat="server" RenderMode="Lightweight">
-</telerik:RadTextBox>
+<telerik:RadMaskedTextBox ID="RadMaskedTextBox1" runat="server" RenderMode="Lightweight">
+</telerik:RadMaskedTextBox>
 ````
 
 
@@ -47,14 +46,14 @@ There are two ways to configure the rendering mode of the controls:
 
 
 ````C#
-RadTextBox1.RenderMode = Telerik.Web.UI.RenderMode.Lightweight;
+RadMaskedTextBox1.RenderMode = Telerik.Web.UI.RenderMode.Lightweight;
 ````
 ````VB.NET
-RadTextBox1.RenderMode = Telerik.Web.UI.RenderMode.Lightweight
+RadMaskedTextBox1.RenderMode = Telerik.Web.UI.RenderMode.Lightweight
 ````
 
 
-* A **global setting in the web.config** file that will affect the entire application, unless a concrete value is specifiedfor a given control instance:
+* A **global setting in the web.config** file that will affect the entire application, unless a concrete value is specified for a given control instance:
 
 ````XML
 <appSettings>

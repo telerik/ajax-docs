@@ -1,8 +1,8 @@
 ---
 title: Render Modes
-page_title: Render Modes | RadInput for ASP.NET AJAX Documentation
+page_title: Render Modes | RadDateInput for ASP.NET AJAX Documentation
 description: Render Modes
-slug: input/mobile-support/render-modes
+slug: raddateinput/mobile-support/render-modes
 tags: render,modes
 published: True
 position: 0
@@ -36,8 +36,8 @@ There are two ways to configure the rendering mode of the controls:
 * The **RenderMode property** in the markup or in the code-behind that can be used for a particular instance:
 
 ````ASPNET
-<telerik:RadTextBox ID="RadTextBox1" runat="server" RenderMode="Lightweight">
-</telerik:RadTextBox>
+<telerik:RadDateInput ID="RadDateInput1" runat="server" RenderMode="Lightweight">
+</telerik:RadDateInput>
 ````
 
 
@@ -47,10 +47,10 @@ There are two ways to configure the rendering mode of the controls:
 
 
 ````C#
-RadTextBox1.RenderMode = Telerik.Web.UI.RenderMode.Lightweight;
+RadDateInput1.RenderMode = Telerik.Web.UI.RenderMode.Lightweight;
 ````
 ````VB.NET
-RadTextBox1.RenderMode = Telerik.Web.UI.RenderMode.Lightweight
+RadDateInput1.RenderMode = Telerik.Web.UI.RenderMode.Lightweight
 ````
 
 

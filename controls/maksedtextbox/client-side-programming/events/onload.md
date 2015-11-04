@@ -1,8 +1,8 @@
 ---
 title: OnLoad
-page_title: OnLoad | RadInput for ASP.NET AJAX Documentation
+page_title: OnLoad | RadMaskedTextBox for ASP.NET AJAX Documentation
 description: OnLoad
-slug: input/client-side-programming/events/onload
+slug: radmaskedtextbox/client-side-programming/events/onload
 tags: onload
 published: True
 position: 10
@@ -16,10 +16,6 @@ position: 10
 
 The **OnLoad** client-side event handler is called when the input control is loaded on the client.
 
->note The **OnLoad** event is supported by all **RadInput** controls.
->
-
-
 Two parameters are passed to the event handler:
 
 * **sender** is the input control.
@@ -29,9 +25,9 @@ Two parameters are passed to the event handler:
 The following example uses the **OnLoad** event to change the background color of a text box:
 
 ````ASPNET
-<telerik:RadTextBox ID="RadTextBox1" runat="server">
+<telerik:RadMaskedTextBox ID="RadMaskedTextBox1" runat="server">
 	<ClientEvents OnLoad="Load" />
-</telerik:RadTextBox>
+</telerik:RadMaskedTextBox>
 ````
 
 

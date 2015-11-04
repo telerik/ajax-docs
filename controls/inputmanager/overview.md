@@ -1,87 +1,170 @@
 ---
 title: Overview
-page_title: RadInput Overview | UI for ASP.NET AJAX Documentation
+page_title: Overview | RadInputManager for ASP.NET AJAX Documentation
 description: Overview
-slug: input/overview
+slug: radinputmanager/overview
 tags: overview
 published: True
-position: 0
+position: 1
 ---
 
-# Input Overview
+# RadInputManager Overview
 
 
 
 ## 
 
-The Telerik **RadInput** Prometheus controls are a set of four highly configurable components for controlled data input in ASP.NET applications. The four controls - **RadTextBox**, **RadNumericTextBox**, **RadMaskedTextBox** and **RadDateInput** - are each designed for allowing users to enter a particular type of value, and automatically restrict the values users can enter to that type. They automatically handle the parsing of values that the user enters and formatting of their values for display.
+Broadly speaking, there are two groups of controls which are extended using the RadInputManager. The first are controls which are located directly on the page, such as a normal text box somewhere on the form. The second are text boxes located in another control- for example a text box nested in a repeater.
 
-While each of the **RadInput** controls has its own unique features, designed to support a particular data type, they all share a number of common features, so that you can take advantage of the same rich set of options, no matter what type of data you want to collect.
+Additionally, within the RadInputManager, there are four types of settings which could be added:
 
-The common features of the **RadInput** controls include
+1. **telerik:DateInputSetting** – the targeted text box will be accepting input in a date format
 
-* A [client-side API]({%slug input/client-side-programming/overview%}) with powerful methods to let you configure the input controls and [numerous events]({%slug input/client-side-programming/events/overview%}) to let you respond to almost everything the user does with the controls.
+1. **telerik:NumericTextBoxSetting** – the targeted textbox will be accepting numeric input
 
-* [Keyboard]({%slug input/accessibility-and-internationalization/keyboard-support%}) and [mouse wheel]({%slug input/accessibility-and-internationalization/mouse-wheel-support%}) support.
+1. **telerik:RegExpTextBoxSetting** – the targeted text box will be accepting characters corresponding to a specified regular expression
 
-* Built-in copy and paste support that users can invoke with both keyboard shortcuts and a built-in [context menu]({%slug input/getting-started/context-menus%}).
+1. **telerik:TextBoxSetting** – the targeted text box will exhibit behavior like a normal RadTextBox
 
-* [Skins]({%slug input/appearance-and-styling/skins%}) to change the look and feel of the input controls so that they match the other controls on your Web page.
+1. **telerik:RadMaskedTextBoxSetting** – the targeted text box will exhibit behavior like a normal RadMaskedTextBox
 
-* [Style properties]({%slug input/appearance-and-styling/styles%}) that let you configure the look of the input control, depending on its current state.
+Each one of these setting groups allows for different behavior. Let us assume that we have two standard textboxes on the form, and we wanted one of them to exhibit behavior similar to a RadTextBox, and the other one as a RadNumericTextBox. In this case, the declaration of the two textboxes, along with the RadInputManager, would look like this:
 
-* The ability to add [labels]({%slug input/appearance-and-styling/adding-labels%}) and [buttons]({%slug input/getting-started/adding-buttons%}) that are associated with the input control.
+````ASPNET
+<br />
+<asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+<br />
+<asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+<br />
+<telerik:RadInputManager ID="RadInputManager1" runat="server">
+	<telerik:TextBoxSetting BehaviorID="Setting1" EmptyMessage="EmptyMessage55">
+		<TargetControls>
+			<telerik:TargetInput ControlID="TextBox1" />
+		</TargetControls>
+	</telerik:TextBoxSetting>
+	<telerik:NumericTextBoxSetting Type="Currency" BehaviorID="Setting2">
+		<TargetControls>
+			<telerik:TargetInput ControlID="TextBox2" Enabled="true" />
+		</TargetControls>
+	</telerik:NumericTextBoxSetting>
+</telerik:RadInputManager>
+````
 
-* [Empty message]({%slug input/appearance-and-styling/displaying-empty-values%}) support.
 
-* Client/Server side [data validation]({%slug input/how-to/validation%}).
 
-* Caret positioning and text selection when the control [receives focus]({%slug input/getting-started/receiving-focus%}).
+Each of the Setting tags contains a BehaviorID, which is used to identity settings pertaining to a given text box. These can later be retrieved on the client, for example, and access a property such as the EmptyMessage.
 
-* Optional [postback]({%slug input/getting-started/postbacks%}) when the user changes the value.
 
-* Support for all major browsers, including Internet Explorer 6.0 and above, Mozilla Firefox 2.0 and above, Google Chrome 2.0 and above, Opera 9.0 and above, and Safari 3.0 and above.
 
-In addition to these common features, each **RadInput** control provides its own unique features, designed to make it as easy as possible to work with a particular type of data:
+>caution Note that each input setting must have at least one target control, otherwise it will not be serialized to the client and its client object would not be instantiated.
+>
 
-[Overview]({%slug input/radtextbox/overview%}) - a text control that can accept all characters (alphabet, numeric and symbols). **RadTextBox** controls support the following features:
 
-* Single-line, password, and multi-line modes.
+Additionally, we can extend text boxes located in other controls. For example, let us assume that we have a repeater hosting a text box. Further, if we want the text box(es) nested in the repeater to accept only e-mail addresses (a regular expression is used to determine this behavior), the setup would look something like:
 
-* AutoComplete support in participating browsers.
+````ASPNET
+<asp:Repeater ID="Repeater1" runat="server">
+	<ItemTemplate>
+		<br />
+		Internet e-mail address:
+		<asp:TextBox ID="TextBox1" Text="mailto:e-mail@goes.here" runat="server"></asp:TextBox>
+	</ItemTemplate>
+</asp:Repeater>
+<telerik:RadInputManager ID="RadInputManager1" runat="server">
+	<telerik:RegExpTextBoxSetting EmptyMessage="EmptyMessage" BehaviorID="Setting3" ValidationExpression="^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$"
+		ErrorMessage="ErrorMessage">
+		<TargetControls>
+			<telerik:TargetInput ControlID="Repeater1" />
+		</TargetControls>
+	</telerik:RegExpTextBoxSetting>
+</telerik:RadInputManager>
+````
 
-* MaxLength property to define the max length of characters allowed to be entered
 
-**[RadNumericTextBox]({%slug input/radnumerictextbox/overview%})** - an input control that accepts only numeric entries. **RadNumericTextBox** controls support the following features:
 
-* Currency, Percentage, or Number mode
+Below is a list of tables covering the most important properties of the elements discussed up to now:
 
-* Formatting options based on Culture settings or [your own detailed requirements]({%slug input/radnumerictextbox/formatting-numeric-values%}).
+## Common Settings
 
-* Increment/Decrement with mouse wheel, arrow keys, and spin buttons.
 
-* Nullable **DbValue** property
+>caption  
 
-**[RadMaskedTextBox]({%slug input/radmaskedtextbox/overview%})** - an enhanced data entry control which uses a mask to distinguish between proper and improper user input. You can use a mask to specify the accepted format such as IP address, telephone number, currency, etc.RadMaskedTextBox controls support the following features.
+| Name | Description |
+| ------ | ------ |
+| **BehaviorID**  | A unique id for the settings related to a given textbox. |
+| **ClientEvents-OnBlur** |The name of the client side handler which will be raised when the control loses focus.|
+| **ClientEvents-OnError** |The name of the client side function which will be called when an error occurs – the user enters invalid input. This event is not raised for the textbox control, since there is no input restriction.|
+| **ClientEvents-OnFocus** |The name of the client side function which will be called when the control receives focus.|
+| **ClientEvents-OnKeyPress** |The name of the client side function which will be called when the user presses a button, while the control has the focus.|
+| **EmptyMessage** |The text which will be displayed before the user has entered any text.|
+| **EmptyMessageCssClass** |The name of the css class which will be used to style the empty message text.|
+| **InvalidCssClass** |The name of the css class, which will be used to style the control, when the user enters invalid input|
+| **DisabledCssClass** |The name of the css class which will be used to style the control when it is disabled.|
+| **SelectionOnFocus** |An enumeration which is used to determine how the input control behaves when it first gets input focus. The possible values are CaretToBeginning, CaretToEnd, None and SelectAll. The default one is CaretToEnd.|
+| **InitializeOnClient** |A property which indicates whether the client event handlers and css classes will be set on the client.|
+| **ErrorMessage** |A message which is displayed if the regular expression matching fails|
 
-* Built-in support for the most commonly used [masks]({%slug input/radmaskedtextbox/masks%}) (phone, email, social security, state, zip, etc.)
+## TextBoxSettings
 
-* Multi-line mode
 
-**[RadDateInput]({%slug input/raddateinput/overview%})** - an input control that [formats]({%slug input/raddateinput/formatting-dates%}) and validates DateTime values, and and has 'smart' [parsing engine]({%slug input/raddateinput/parsing-dates%}) which recognizes whether the user entry can be converted to DateTime format or not. **RadDateInput** controls support the following features:
+>caption  
+| Name | Description |
+| ------ | ------ |
+| **PasswordStrengthSettings**  | A group of properties used for setting up the password strength check feature when using a TextBox with TextMode set to Password. More information is available [here]({%slug input/radtextbox/password-strength-checker%}). |
 
-* Client-side methods for parsing strings into date values.
 
-* An OnError event where you can provide custom parsing
+## RegExpTextBoxSetting
 
-* Separate formatting options for display and edit, including culture-based formatting.
 
-* Increment/Decrement with mouse wheeland arrow keys.
+>caption  
 
-* Nullable **DbSelectedDate** property
+| Name | Description |
+| ------ | ------ |
+| **IsRequiredFields**  | A property which indicates whether the corresponding textboxes are required to have some values entered, or may be empty |
+| **ValidationExpression** |A regular expression, representing the matching criteria.|
+| **ValidationGroup** |The ValidationGroup to which the regular expression setting is assigned.|
 
-A version of **RadDateInput** that is integrated with the Telerik **RadCalendar** control to provide a comprehensive date input interface is available as the **RadDatePicker** control.With the RadDateInput control, users can either enter the date in the date input or select it from the popup calendar. The values of the two controls are synchronized to allow further change of the chosen date.
+## NumericTextBoxSetting
 
-**[RadInputManager]({%slug input/radinputmanager/overview%})** - offers an easy and intuitive way to extend a standard asp.net text box,and without any extra custom code, introduce much functionality, normally related to aTelerik **RadInput control**.
 
-It also allows you to introduce more functionality, normally found in a Telerik **RadInput** control.	On the other hand, having a large number of input controls on the page may hurt performance.This is where the **RadInputManager** comes in. It automatically adds extrafunctionality to separate text boxes, or all text boxes nested in another control on the page, viajust a few settings.![Order Form](images/OrderForm.png)
+>caption  
+
+| Name | Description |
+| ------ | ------ |
+| **KeepTrailingZerosOnFocus**  | A property which determines if the zero numbers should remain when the control is focused, according to the DecimalDigits setting |
+| **NumberFormat-AllowRounding** |A setting which specifies whether the user input may be rounded|
+| **Type** |The type of the control – Currency/Number/Percent|
+| **MaxValue** |The maximal numeric value which can be entered in the control|
+| **MinValue** |The minimal numeric value which can be entered in the control|
+
+## DateInputSetting
+
+
+>caption  
+
+| Name | Description |
+| ------ | ------ |
+| **DateFormat**  | The date format string for the control |
+| **MaxDate** |The maximal date which the user will be allowed to enter|
+| **MinDate** |The minimal date which the user will be allowed to enter|
+| **SharedCalendarID** |Gets or sets the ID of the calendar that will be used for picking dates. Thisproperty allows you to configure several datepickers to use a single RadCalendar|
+| **EnableShadows** |Gets or sets whether popup shadows will appear|
+| **Overlay** |Gets or sets a value indicating whether the picker will create an overlay element to ensure popups are over a flash element or Java applet|
+| **PopupDirection** |Gets or sets the direction in which the popup Calendar is displayed, with relation to the DatePicker control|
+| **EnableScreenBoundaryDetection** |Gets or sets whether the screen boundaries should be taken into consideration when the Calendar or TimeView are displayed|
+
+## RadMaskedTextBoxSetting
+
+
+>caption  
+
+| Name | Description |
+| ------ | ------ |
+| **Mask**  | The mask used to identify proper user input. |
+| **PromptChar** |Defines the prompt char of the mask.|
+| **AllowEmptyEnumerations** |Allows the enumerated parts of the mask to be left blank.|
+| **ZeroPadNumericRanges** |Enforces the values of numeric range parts of the mask to have a fixed width.|
+| **NumericRangeAlign** |Controls whether the values of numeric range parts are aligned to the left or to the right.|
+| **DisplayMask** |Changes the mask that is used to format the value when the masked text box does not have focus.|
+| **DisplayPromptChar** |Changes the prompt character for unentered values when the masked text box does not have focus.|
+| **HideOnBlur** |Hides the prompts when the value has not been set and the masked text box does not have focus.|

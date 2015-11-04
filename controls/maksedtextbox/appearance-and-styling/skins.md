@@ -1,8 +1,8 @@
----
+	---
 title: Skins
-page_title: Skins | RadInput for ASP.NET AJAX Documentation
+page_title: Skins | RadMaskedTextBox for ASP.NET AJAX Documentation
 description: Skins
-slug: input/appearance-and-styling/skins
+slug: radraskedtextbox/appearance-and-styling/skins
 tags: skins
 published: True
 position: 2
@@ -38,8 +38,8 @@ When the input control is not skinned, its wrapper element class is rendered wit
 	<form runat="server" id="mainForm" method="post">
 	<asp:ScriptManager ID="ScriptManager1" runat="server">
 	</asp:ScriptManager>
-	<telerik:RadTextBox ID="RadTextBox1" runat="server" EnableEmbeddedSkins="false" Skin="">
-	</telerik:RadTextBox>
+	<telerik:RadNumericTextBox ID="RadNumericTextBox1" runat="server" EnableEmbeddedSkins="false" Skin="">
+	</telerik:RadNumericTextBox>
 	</form>
 </body>
 ````
@@ -62,4 +62,4 @@ For more information on the *CSS* File structure, see [Understanding the Skin CS
 
 # See Also
 
- * [Styles]({%slug input/appearance-and-styling/styles%})
+ * [Styles]({%slug numerictextbox/appearance-and-styling/styles%})

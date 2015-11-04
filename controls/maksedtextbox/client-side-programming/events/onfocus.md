@@ -1,8 +1,8 @@
 ---
 title: OnFocus
-page_title: OnFocus | RadInput for ASP.NET AJAX Documentation
+page_title: OnFocus | RadMaksedTextBox for ASP.NET AJAX Documentation
 description: OnFocus
-slug: input/client-side-programming/events/onfocus
+slug: radmaskedtextbox/client-side-programming/events/onfocus
 tags: onfocus
 published: True
 position: 8
@@ -15,9 +15,6 @@ position: 8
 ## 
 
 The **OnFocus** client-side event handler is called when the input control gets focus.
-
->note The **OnFocus** event is supported by all **RadInput** controls, if they are not **ReadOnly** .
->
 
 
 Two parameters are passed to the event handler:
@@ -49,6 +46,5 @@ The following example uses the **OnFocus** event to show an alert:
 
 # See Also
 
- * [Receiving Focus]({%slug input/getting-started/receiving-focus%})
 
- * [OnBlur]({%slug input/client-side-programming/events/onblur%})
+ * [OnBlur]({%slug radmaskedtextbox/client-side-programming/events/onblur%})

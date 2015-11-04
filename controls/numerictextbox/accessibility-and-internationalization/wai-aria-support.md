@@ -1,8 +1,8 @@
 ---
 title: WAI-ARIA Support
-page_title: WAI-ARIA Support | RadInput for ASP.NET AJAX Documentation
+page_title: WAI-ARIA Support | RadNumericTextBox for ASP.NET AJAX Documentation
 description: WAI-ARIA Support
-slug: input/accessibility-and-internationalization/wai-aria-support
+slug: numerictextbox/accessibility-and-internationalization/wai-aria-support
 tags: wai-aria,support
 published: True
 position: 2
@@ -16,7 +16,7 @@ position: 2
 
 ## 
 
-The **RadInput**, **RadDateInput**, **RadNumericTextBox** controls offer **WAI-ARIA** support which can be easily enabled by setting the **EnableAriaSupport** server property to **true**.
+The **RadNumericTextBox** control offers **WAI-ARIA** support which can be easily enabled by setting the **EnableAriaSupport** server property to **true**.
 
 All ARIA attributes are **lower case**. They are shown in the table below.
 

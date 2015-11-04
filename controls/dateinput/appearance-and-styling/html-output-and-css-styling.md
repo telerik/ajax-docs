@@ -1,8 +1,8 @@
 ---
 title: HTML Output and CSS Styling
-page_title: HTML Output and CSS Styling | RadInput for ASP.NET AJAX Documentation
+page_title: HTML Output and CSS Styling | RadDateInput for ASP.NET AJAX Documentation
 description: HTML Output and CSS Styling
-slug: input/appearance-and-styling/html-output-and-css-styling
+slug: raddateinput/appearance-and-styling/html-output-and-css-styling
 tags: html,output,and,css,styling
 published: True
 position: 4
@@ -12,9 +12,7 @@ position: 4
 
 
 
->note Since Q1 2012 **RadInput** has a new rendering mode for its controls - [Single Input Rendering]({%slug input/single-input-rendering-mode%}), which is enabled by default. Therefore, this topic is no longer valid, except in the cases when **Old Rendering** mode is activated by setting the **EnableSingleInputRendering** property to **False** .
->A related topic for the new rendering mode can be found [here]({%slug input/appearance-and-styling/single-rendering-html-output%}).
->
+>note Since Q1 2012 **RadInput** has a new rendering mode for its controls - Single Input Rendering, which is enabled by default. Therefore, this topic is no longer valid, except in the cases when **Old Rendering** mode is activated by setting the **EnableSingleInputRendering** property to **False** .
 
 
 Styles for Telerik controls are defined using Cascading Style Sheet (CSS) syntax. Each style consists of a selector that identifies an HTML element to be styled, and property/value pairs that describe each of the style specifics, e.g. color, padding, margins, etc. For example, the **.RadInput_Default** style defines the default font and vertical alignment properties for the entire input control:
@@ -28,7 +26,7 @@ Styles for Telerik controls are defined using Cascading Style Sheet (CSS) syntax
 
 
 
-See the [CSS Skin File Selectors]({%slug input/appearance-and-styling/css-skin-file-selectors%}) topic for more information on the specific CSS selectors used for **RadInput** skins.
+See the [CSS Skin File Selectors]({%slug raddateinput/appearance-and-styling/css-skin-file-selectors%}) topic for more information on the specific CSS selectors used for **RadInput** skins.
 
 ## HTML Output of RadDateInput
 
@@ -70,20 +68,7 @@ See the [CSS Skin File Selectors]({%slug input/appearance-and-styling/css-skin-f
 </div>
 ````
 
-
-
-The HTML output of a textbox styled by RadInputManager is the following:
-
-````HTML
-<input type="text" class="RadInputMgr RadInputMgr_Default RadInput_Enabled_Default"
-	id="TextBox1" />
-````
-
-
-
-* **input.RadInputMgr.RadInputMgr_SkinName** - the textbox has three CSS classes - one is common for all RadInputManager textboxes, one is common for all RadInputManager textboxes with a particular skin, and the last one styles the textbox according to its state (enabled, hovered, focused, invalid, etc)
-
-**In all three examples above, the ``<input>`` element is replaced by a ``<textarea>`` element if TextMode="MultiLine".**
+**In the examples above, the ``<input>`` element is replaced by a ``<textarea>`` element if TextMode="MultiLine".**
 
 By default in non-single input rendering mode the width of the label is not set, and the length of the input is 100%, so it will be auto sized to get all possible free space in the table. When in single input rendering mode, the default length of the label is 40% and 60% for the input. This width can be changed with the LabelWidth property. Another reason you would might want to set EnableSingleInputRendering to false for your Telerik’s ASP.NET AJAX Input controls is to avoid re-computing of the styles dynamically on the client.
 
@@ -96,6 +81,6 @@ By default in non-single input rendering mode the width of the label is not set,
 
 The Skin CSS file includes definitions for the classes that reflect the current state of the input controls. These classes are **riEnabled**, **riDisabled**, **riEmpty**, **riFocused**, **riHover**, **riError**, and **riNegative**.
 
->note The various [style properties]({%slug input/appearance-and-styling/styles%}) will override any of the properties set by these classes.
+>note The various [style properties]({%slug raddateinput/appearance-and-styling/styles%}) will override any of the properties set by these classes.
 >
 

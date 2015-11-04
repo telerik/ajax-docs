@@ -1,6 +1,6 @@
 ---
 title: OnKeyPress
-page_title: OnKeyPress | RadInput for ASP.NET AJAX Documentation
+page_title: OnKeyPress | RadNumericTextBox for ASP.NET AJAX Documentation
 description: OnKeyPress
 slug: input/client-side-programming/events/onkeypress
 tags: onkeypress
@@ -37,9 +37,9 @@ Two parameters are passed to the event handler:
 The following example uses the **OnKeyPress** event to limit input to the letters 'a' to 'z' and 'A' to 'Z':
 
 ````ASPNET
-<telerik:RadTextBox ID="RadTextBox1" runat="server">
+<telerik:RadNumericTextBox ID="RadNumericTextBox1" runat="server">
 	<ClientEvents OnKeyPress="AlphabetOnly" />
-</telerik:RadTextBox>
+</telerik:RadNumericTextBox>
 ````
 
 
@@ -61,4 +61,4 @@ During the **OnKeyPress** event the value is still not updated, therefore, **sen
 
 # See Also
 
- * [OnValueChanging]({%slug input/client-side-programming/events/onvaluechanging%})
+ * [OnValueChanging]({%slug numerictextbox/client-side-programming/events/onvaluechanging%})

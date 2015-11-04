@@ -1,87 +1,167 @@
 ---
 title: Overview
-page_title: RadInput Overview | UI for ASP.NET AJAX Documentation
+page_title: Overview | RadMaskedTextBox for ASP.NET AJAX Documentation
 description: Overview
-slug: input/overview
+slug: radmaskedtextbox/overview
 tags: overview
 published: True
 position: 0
 ---
 
-# Input Overview
+# RadMaskedTextBox Overview
 
 
 
-## 
+**RadMaskedTextBox** is an enhanced data entry control that uses a [mask]({%slug input/radmaskedtextbox/masks%}) to distinguish between proper and improper user input. It shares the [common properties of all RadInput controls]({%slug input/server-side-programming/overview%}), including support for skins, styles for different states, empty message support, conditional postback on text change, flexible caret and button positioning, labels, and so on.
 
-The Telerik **RadInput** Prometheus controls are a set of four highly configurable components for controlled data input in ASP.NET applications. The four controls - **RadTextBox**, **RadNumericTextBox**, **RadMaskedTextBox** and **RadDateInput** - are each designed for allowing users to enter a particular type of value, and automatically restrict the values users can enter to that type. They automatically handle the parsing of values that the user enters and formatting of their values for display.
+You can use a mask to specify the accepted format such as IP address, telephone number, currency, and so on. In addition, you can use **RadMaskedTextBox** together with [validators]({%slug input/how-to/validation%}) such as the **RequiredValidator** and **RegularExpressionValidator** controls to enforce any custom validation logic.
 
-While each of the **RadInput** controls has its own unique features, designed to support a particular data type, they all share a number of common features, so that you can take advantage of the same rich set of options, no matter what type of data you want to collect.
+## Specifying the mask
 
-The common features of the **RadInput** controls include
+At design time, to specify the mask that **RadMaskedTextBox** uses to identify proper user input, set the **Mask** property. There are three ways to set the **Mask** property at design time:
 
-* A [client-side API]({%slug input/client-side-programming/overview%}) with powerful methods to let you configure the input controls and [numerous events]({%slug input/client-side-programming/events/overview%}) to let you respond to almost everything the user does with the controls.
+* Type the mask string directly onto the **Mask** property in the properties pane. This is the most direct method, but provides the least design-time support.
 
-* [Keyboard]({%slug input/accessibility-and-internationalization/keyboard-support%}) and [mouse wheel]({%slug input/accessibility-and-internationalization/mouse-wheel-support%}) support.
+* From the **RadMaskedTextBox** [Smart Tag]({%slug input/design-time/smart-tag%}), choose **SetMask** to bring up the [Input Mask Dialog]({%slug input/design-time/input-mask-dialog%}). This method lets you choose from pre-defined masks or enter your own custom mask and get immediate feedback about what the masked text box displays as a prompt to the user for that mask.
 
-* Built-in copy and paste support that users can invoke with both keyboard shortcuts and a built-in [context menu]({%slug input/getting-started/context-menus%}).
+* Click the ellipsis button next to the **MaskParts** property in the properties pane to bring up the [MaskPart Collection Editor]({%slug input/design-time/maskpart-collection-editor%}). This method lets you build up the mask bit by bit, so that you can easily configure each part of the mask using mask part properties. When you set the **MaskParts** property, the **Mask** property is automatically updated to the mask you build.
 
-* [Skins]({%slug input/appearance-and-styling/skins%}) to change the look and feel of the input controls so that they match the other controls on your Web page.
+At run time, you can set the mask in the following ways:
 
-* [Style properties]({%slug input/appearance-and-styling/styles%}) that let you configure the look of the input control, depending on its current state.
+* Set the **Mask** property:
 
-* The ability to add [labels]({%slug input/appearance-and-styling/adding-labels%}) and [buttons]({%slug input/getting-started/adding-buttons%}) that are associated with the input control.
 
-* [Empty message]({%slug input/appearance-and-styling/displaying-empty-values%}) support.
 
-* Client/Server side [data validation]({%slug input/how-to/validation%}).
+````C#
+RadMaskedTextBox1.Mask = "(###) ### - ####";
+````
+````VB.NET
+RadMaskedTextBox1.Mask = "(###) ### - ####"
+````
 
-* Caret positioning and text selection when the control [receives focus]({%slug input/getting-started/receiving-focus%}).
 
-* Optional [postback]({%slug input/getting-started/postbacks%}) when the user changes the value.
+* Build up a mask using the **MaskParts** property:
 
-* Support for all major browsers, including Internet Explorer 6.0 and above, Mozilla Firefox 2.0 and above, Google Chrome 2.0 and above, Opera 9.0 and above, and Safari 3.0 and above.
 
-In addition to these common features, each **RadInput** control provides its own unique features, designed to make it as easy as possible to work with a particular type of data:
 
-[Overview]({%slug input/radtextbox/overview%}) - a text control that can accept all characters (alphabet, numeric and symbols). **RadTextBox** controls support the following features:
+````C#
+EnumerationMaskPart enumPart = new EnumerationMaskPart();
+enumPart.Items.Add("Mon");
+enumPart.Items.Add("Tue");
+enumPart.Items.Add("Wed");
+enumPart.Items.Add("Thu");
+enumPart.Items.Add("Fri");
+enumPart.Items.Add("Sat");
+enumPart.Items.Add("Sun");
+RadMaskedTextBox1.MaskParts.Add(enumPart);
+LiteralMaskPart literalPart = new LiteralMaskPart();
+literalPart.Text = " ";
+RadMaskedTextBox1.MaskParts.Add(literalPart);
+RadMaskedTextBox1.MaskParts.Add(new DigitMaskPart());
+````
+````VB.NET
+Dim enumPart As New EnumerationMaskPart()
+enumPart.Items.Add("Mon")
+enumPart.Items.Add("Tue")
+enumPart.Items.Add("Wed")
+enumPart.Items.Add("Thu")
+enumPart.Items.Add("Fri")
+enumPart.Items.Add("Sat")
+enumPart.Items.Add("Sun")
+RadMaskedTextBox1.MaskParts.Add(enumPart)
+Dim literalPart As New LiteralMaskPart()
+literalPart.Text = " "
+RadMaskedTextBox1.MaskParts.Add(literalPart)
+RadMaskedTextBox1.MaskParts.Add(New DigitMaskPart())
+````
 
-* Single-line, password, and multi-line modes.
 
-* AutoComplete support in participating browsers.
+A number of properties control the way the mask is applied:
 
-* MaxLength property to define the max length of characters allowed to be entered
+* **AllowEmptyEnumerations** allows the enumerated parts of the mask to be left blank.
 
-**[RadNumericTextBox]({%slug input/radnumerictextbox/overview%})** - an input control that accepts only numeric entries. **RadNumericTextBox** controls support the following features:
+* **ZeroPadNumericRanges** enforces the values of numeric range parts of the mask to have a fixed width.
 
-* Currency, Percentage, or Number mode
+* **NumericRangeAlign** controls whether the values of numeric range parts are aligned to the left or to the right.
 
-* Formatting options based on Culture settings or [your own detailed requirements]({%slug input/radnumerictextbox/formatting-numeric-values%}).
+## Controlling the appearance of the masked text box
 
-* Increment/Decrement with mouse wheel, arrow keys, and spin buttons.
+Prompt Characters
 
-* Nullable **DbValue** property
+When a **RadMaskedTextBox** control is displayed at run time, it represents the mask as a series of prompt characters for the text the user should enter and literal characters for literal strings that are part of the mask. Each mask position is shown with a single prompt character. You can specify the prompt character that the masked text box uses by setting the **PromptChar** property. For example, if all of the characters to input are numbers, you could use the '#' character as a prompt:
+![Prompt character](images/PromptCharacter.png)
 
-**[RadMaskedTextBox]({%slug input/radmaskedtextbox/overview%})** - an enhanced data entry control which uses a mask to distinguish between proper and improper user input. You can use a mask to specify the accepted format such as IP address, telephone number, currency, etc.RadMaskedTextBox controls support the following features.
+## Focus
 
-* Built-in support for the most commonly used [masks]({%slug input/radmaskedtextbox/masks%}) (phone, email, social security, state, zip, etc.)
+You can give the masked text box a different appearance when it does not have focus (when the user is not editing its value):
 
-* Multi-line mode
+* To change the mask that is used to format the value when the masked text box does not have focus (for example, to change the literal strings in the mask), set the **DisplayMask** property. You can set the **DisplayMask** property directly in the properties pane, or build it up bit by bit in the [MaskPart Collection Editor]({%slug input/design-time/maskpart-collection-editor%}) by setting the **DisplayMaskParts** property.
 
-**[RadDateInput]({%slug input/raddateinput/overview%})** - an input control that [formats]({%slug input/raddateinput/formatting-dates%}) and validates DateTime values, and and has 'smart' [parsing engine]({%slug input/raddateinput/parsing-dates%}) which recognizes whether the user entry can be converted to DateTime format or not. **RadDateInput** controls support the following features:
+>caution Note that the **DisplayMask** should contain the **Mask's** number of symbols in it. This means that the **DisplayMask** can be longer but it should never be shorter than the **Mask** .
+>
 
-* Client-side methods for parsing strings into date values.
 
-* An OnError event where you can provide custom parsing
+* To change the prompt character for unentered values when the masked text box does not have focus (for example, to change it to a space), use the **DisplayPromptChar** property. Note that the **DisplayPromptChar** property requires that you have also set a **DisplayMask** (even if it is the same as **Mask**).
 
-* Separate formatting options for display and edit, including culture-based formatting.
+* To hide the prompts when the value has not been set and the masked text box does not have focus, set the **HideOnBlur** property to **True**. You must set **HideOnBlur** to **True** if you want to use the **EmptyMessage** property.
 
-* Increment/Decrement with mouse wheeland arrow keys.
+## Multi-line mode
 
-* Nullable **DbSelectedDate** property
+You can allow the **RadMaskedTextBox** to display its content in multiple lines by setting the **TextMode** property to "MultiLine".
+![Multi-line RadMaskedTextBox](images/MultiLineMaskedTextBox.png)
 
-A version of **RadDateInput** that is integrated with the Telerik **RadCalendar** control to provide a comprehensive date input interface is available as the **RadDatePicker** control.With the RadDateInput control, users can either enter the date in the date input or select it from the popup calendar. The values of the two controls are synchronized to allow further change of the chosen date.
+## Masked text box value
 
-**[RadInputManager]({%slug input/radinputmanager/overview%})** - offers an easy and intuitive way to extend a standard asp.net text box,and without any extra custom code, introduce much functionality, normally related to aTelerik **RadInput control**.
+**RadMaskedTextBox** uses a number of properties to represent its value:
 
-It also allows you to introduce more functionality, normally found in a Telerik **RadInput** control.	On the other hand, having a large number of input controls on the page may hurt performance.This is where the **RadInputManager** comes in. It automatically adds extrafunctionality to separate text boxes, or all text boxes nested in another control on the page, viajust a few settings.![Order Form](images/OrderForm.png)
+* **Text**: the text the user entered into the control. This value does not include any literal characters in the mask or prompt characters.
+
+* **TextWithLiterals**: the text the user entered, plus any literal characters in the mask, but no prompt characters.
+
+* **TextWithPrompt**: the text the user entered, with prompt characters for any characters the user has not yet entered, but with none of the literal characters from the mask. This property is read only.
+
+* **TextWithPromptAndLiterals**: The value as it appears in the control, including the text the user entered plus any prompt characters for characters the user has not yet entered and any literal characters that come from the mask. This property is read only.
+
+On the client side, the properties for the **RadMaskedTextBox** value use the name "value" rather than "**Text**".There is no client-side analog to the **TextWithPrompt** property. Only the **value** property (unadorned with prompts or literals) can be set. The client-side properties are
+
+* **get_value**, **set_value**: the text the user entered into the control. This value does not include any literal characters in the mask or prompt characters.
+
+* **get_valueWithLiterals**: the text the user entered, plus any literal characters in the mask, but no prompt characters.
+
+* **get_valueWithPromptAndLiterals**: the value as it appears in the control, including any prompt characters and literal characters from the mask.
+
+## Culture-specific masks
+
+You can set different masks for different cultures in the codebehind. For example, a zip code in the USA is "#####-####' while in canada it has only 6 characters.
+
+The following example shows how to use the current culture settings to set a culture-specific mask:
+
+
+
+````C#
+protected void Page_Load(object sender, EventArgs e)
+{
+	if (System.Threading.Thread.CurrentThread.CurrentCulture.Name == "en-US")
+	{
+		RadMaskedTextBox1.Mask = "#####-####";
+	}
+	else if (System.Threading.Thread.CurrentThread.CurrentCulture.Name == "en-CA")
+	{
+		RadMaskedTextBox1.Mask = "L#L#L#";
+	}
+}
+````
+````VB.NET
+Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
+	If System.Threading.Thread.CurrentThread.CurrentCulture.Name = "en-US" Then
+		RadMaskedTextBox1.Mask = "#####-####"
+	ElseIf System.Threading.Thread.CurrentThread.CurrentCulture.Name = "en-CA" Then
+		RadMaskedTextBox1.Mask = "L#L#L#"
+	End If
+End Sub
+````
+
+
+# See Also
+
+ * [RadMaskedTextBox Client Object]({%slug input/client-side-programming/radmaskedtextbox-client-object%})

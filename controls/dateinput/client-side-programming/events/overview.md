@@ -1,8 +1,8 @@
 ---
 title: Events Overview
-page_title: Overview | RadInput for ASP.NET AJAX Documentation
+page_title: Overview | RadDateInput for ASP.NET AJAX Documentation
 description: Overview
-slug: input/client-side-programming/events/overview
+slug: raddateinput/client-side-programming/events/overview
 tags: overview
 published: True
 position: 0
@@ -29,14 +29,10 @@ The **RadInput** controls support a number of client-side events that let you re
 |[OnKeyPress]({%slug input/client-side-programming/events/onkeypress%})|all **RadInput** controls.|Occurs when the user presses a key to enter a value.|
 |[OnDisable]({%slug input/client-side-programming/events/ondisable%})|all **RadInput** controls|Occurs when the control is disabled.|
 |[OnEnable]({%slug input/client-side-programming/events/onenable%})|all **RadInput** controls|Occurs when the control is enabled.|
-|[OnError]({%slug input/client-side-programming/events/onerror%})| **RadNumericTextBox** , **RadMaskedTextBox** , and **RadDateInput** |Occurs when the user enters an invalid value.|
+|[OnError]({%slug input/client-side-programming/events/onerror%})| **RadNumericTextBox** , **RadDateInput** , and **RadDateInput** |Occurs when the user enters an invalid value.|
 |[OnLoad]({%slug input/client-side-programming/events/onload%})|all **RadInput** controls|Occurs when the control is loaded on the client.|
 |[OnMouseOver]({%slug input/client-side-programming/events/onmouseover%})|all **RadInput** controls|Occurs when the mouse enters the input area.|
 |[OnMouseOut]({%slug input/client-side-programming/events/onmouseout%})|all **RadInput** controls|Occurs when the mouse leaves the input area.|
-|[OnMoveDown]({%slug input/client-side-programming/events/onmovedown%})| **RadMaskedTextBox** |Occurs when the user decreases the value of an enumeration or numeric range mask part.|
-|[OnMoveUp]({%slug input/client-side-programming/events/onmoveup%})| **RadMaskedTextBox** |Occurs when the user increases the value of an enumeration or numeric range mask part.|
-|[OnEnumerationChanged]({%slug input/client-side-programming/events/onenumerationchanged%})| **RadMaskedTextBox** |Occurs when the value of an enumeration part of a mask is set.|
-|[OnClientPasswordStrengthCalculating]({%slug input/client-side-programming/events/onclientpasswordstrengthcalculating%})| **RadTextBox and RadInputManager** with a TextBoxSetting|Occurs when using the password strength check feature and changing the text, before the indicator is updated.|
 
 >note On **RadDateInput** , there is another client event property, **OnClientDateChanged** , which maps directly onto the **OnValueChanged** property.
 >
@@ -46,16 +42,16 @@ To use these events, simply write a javascript function that can be called when 
 
 ````ASPNET
 <script type="text/javascript">
-	function OnMaskError(sender, args)
+	function OnDateError(sender, args)
 	{
-		var message = "Invalid character - " + args.get_newValue();
+		var message = "Invalid date - " + args.get_newValue();
 		alert(message);
 	}
 </script>
-<telerik:RadMaskedTextBox ID="RadMaskedTextBox1" runat="server" PromptChar="_" Mask="(###) ###-#####"
+<telerik:RadDateInput ID="RadDateInput1" runat="server"
 	Skin="Web20">
-	<ClientEvents OnError="OnMaskError" />
-</telerik:RadMaskedTextBox>
+	<ClientEvents OnError="OnDateError" />
+</telerik:RadDateInput>
 ````
 
 
@@ -112,10 +108,7 @@ Note that on the client-side, the names of events are slightly different than on
 |OnLoad|load|add_load, remove_load|
 |OnMouseOver|mouseOver|add_mouseOver, remove_mouseOver|
 |OnMouseOut|mouseOut|add_mouseOut, remove_mouseOut|
-|OnMoveDown|moveDown|add_moveDown, remove_moveDown|
-|OnMoveUp|moveUp|add_moveUp, remove_moveUp|
-|OnEnumerationChanged|enumerationChanged|add_enumerataionChanged, remove_enumerationChanged|
 
 # See Also
 
- * [TextChanged Event]({%slug input/server-side-programming/textchanged-event%})
+ * [TextChanged Event]({%slug raddateinput/server-side-programming/textchanged-event%})

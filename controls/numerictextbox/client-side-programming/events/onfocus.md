@@ -1,8 +1,8 @@
 ---
 title: OnFocus
-page_title: OnFocus | RadInput for ASP.NET AJAX Documentation
+page_title: OnFocus | RadNumericTextBox for ASP.NET AJAX Documentation
 description: OnFocus
-slug: input/client-side-programming/events/onfocus
+slug: numerictextbox/client-side-programming/events/onfocus
 tags: onfocus
 published: True
 position: 8
@@ -29,9 +29,9 @@ Two parameters are passed to the event handler:
 The following example uses the **OnFocus** event to show an alert:
 
 ````ASPNET
-<telerik:RadTextBox ID="RadTextBox1" runat="server">
+<telerik:RadNumericTextBox ID="RadNumericTextBox1" runat="server">
 	<ClientEvents OnFocus="Focus" />
-</telerik:RadTextBox>
+</telerik:RadNumericTextBox>
 ````
 
 
@@ -49,6 +49,6 @@ The following example uses the **OnFocus** event to show an alert:
 
 # See Also
 
- * [Receiving Focus]({%slug input/getting-started/receiving-focus%})
+ * [Receiving Focus]({%slug numerictextbox/features/receiving-focus%})
 
- * [OnBlur]({%slug input/client-side-programming/events/onblur%})
+ * [OnBlur]({%slug numerictextbox/client-side-programming/events/onblur%})

@@ -1,8 +1,8 @@
 ---
 title: OnValueChanged
-page_title: OnValueChanged | RadInput for ASP.NET AJAX Documentation
+page_title: OnValueChanged | RadNumericTextBox for ASP.NET AJAX Documentation
 description: OnValueChanged
-slug: input/client-side-programming/events/onvaluechanged
+slug: numerictextbox/client-side-programming/events/onvaluechanged
 tags: onvaluechanged
 published: True
 position: 15
@@ -17,9 +17,6 @@ position: 15
 The **OnValueChanged** client-side event handler is called when the user changes the value of the input control. The event occurs immediately after the control loses focus and its value has been updated, but before the server-side **TextChanged** event.
 
 The **OnValueChanged** event only occurs if the user entered a valid value that is different from the old value.
-
->note The **OnValueChanged** event is supported by all **RadInput** controls.
->
 
 
 Two parameters are passed to the event handler:
@@ -37,23 +34,12 @@ Two parameters are passed to the event handler:
 >note Range checking occurs after the **OnValueChanged** event. If the user enters a value that is invalid only because it is out of range, the **OnValueChanged** event still occurs, and **get_newValue()** returns the value that is out of range. On **RadNumericTextBox** , this value may be subsequently changed.
 >
 
-
->note On **RadMaskedTextBox** , the **set_cancel()** method has no effect.
->
-
-
-In addition to the methods listed above, on **RadDateInput** the **eventArgs** parameter has two additional methods:
-
-* **get_oldDate()** returns the date value of the control before the user made any changes, or **null** if the value was unassigned.
-
-* **get_newDate()** returns the date value that was just assigned to the control, or **null** if the user entered an empty string.
-
 The following example uses the **OnValueChanged** event to prevent a postback if the user entered an empty string:
 
 ````ASPNET
-<telerik:RadTextBox ID="RadTextBox1" runat="server" AutoPostBack="True">
+<telerik:RadNumericTextBox ID="RadNumericTextBox1" runat="server" AutoPostBack="True">
 	<ClientEvents OnValueChanged="PreventPostback" />
-</telerik:RadTextBox>
+</telerik:RadNumericTextBox>
 ````
 
 
@@ -72,6 +58,6 @@ The following example uses the **OnValueChanged** event to prevent a postback if
 
 # See Also
 
- * [OnValueChanging]({%slug input/client-side-programming/events/onvaluechanging%})
+ * [OnValueChanging]({%slug numerictextbox/client-side-programming/events/onvaluechanging%})
 
- * [TextChanged Event]({%slug input/server-side-programming/textchanged-event%})
+ * [TextChanged Event]({%slug numerictextbox/server-side-programming/textchanged-event%})

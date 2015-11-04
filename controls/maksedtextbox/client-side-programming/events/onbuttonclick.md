@@ -1,8 +1,8 @@
 ---
 title: OnButtonClick
-page_title: OnButtonClick | RadInput for ASP.NET AJAX Documentation
+page_title: OnButtonClick | RadMaskedTextBox for ASP.NET AJAX Documentation
 description: OnButtonClick
-slug: input/client-side-programming/events/onbuttonclick
+slug: radmaskedtextbox/client-side-programming/events/onbuttonclick
 tags: onbuttonclick
 published: True
 position: 2
@@ -39,9 +39,9 @@ Two parameters are passed to the event handler:
 Use the **OnButtonClick** event to provide a client-side response when the user clicks on a button:
 
 ````ASPNET
-<telerik:RadTextBox ID="RadTextBox1" runat="server" ShowButton="True">
+<telerik:RadMaskedTextBox ID="RadMaskedTextBox1" runat="server" ShowButton="True">
 	<ClientEvents OnButtonClick="ToggleEnabled" />
-</telerik:RadTextBox>
+</telerik:RadMaskedTextBox>
 ````
 
 
@@ -58,8 +58,3 @@ Use the **OnButtonClick** event to provide a client-side response when the user 
 </script>
 ````
 
-
-
-# See Also
-
- * [Adding Buttons]({%slug input/getting-started/adding-buttons%})

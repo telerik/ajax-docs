@@ -1,8 +1,8 @@
 ---
 title: OnButtonClick
-page_title: OnButtonClick | RadInput for ASP.NET AJAX Documentation
+page_title: OnButtonClick | RadDateInput for ASP.NET AJAX Documentation
 description: OnButtonClick
-slug: input/client-side-programming/events/onbuttonclick
+slug: raddateinput/client-side-programming/events/onbuttonclick
 tags: onbuttonclick
 published: True
 position: 2
@@ -39,9 +39,9 @@ Two parameters are passed to the event handler:
 Use the **OnButtonClick** event to provide a client-side response when the user clicks on a button:
 
 ````ASPNET
-<telerik:RadTextBox ID="RadTextBox1" runat="server" ShowButton="True">
+<telerik:RadDateInput ID="RadDateInput1" runat="server" ShowButton="True">
 	<ClientEvents OnButtonClick="ToggleEnabled" />
-</telerik:RadTextBox>
+</telerik:RadDateInput>
 ````
 
 

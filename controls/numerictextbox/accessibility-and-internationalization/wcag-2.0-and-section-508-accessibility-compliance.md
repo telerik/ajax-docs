@@ -1,8 +1,8 @@
 ---
 title: WCAG 2.0 and Section 508 Accessibility Compliance
-page_title: WCAG 2.0 and Section 508 Accessibility Compliance | RadInput for ASP.NET AJAX Documentation
+page_title: WCAG 2.0 and Section 508 Accessibility Compliance | RadNumericTextBox for ASP.NET AJAX Documentation
 description: WCAG 2.0 and Section 508 Accessibility Compliance
-slug: input/accessibility-and-internationalization/wcag-2.0-and-section-508-accessibility-compliance
+slug: numerictextbox/accessibility-and-internationalization/wcag-2.0-and-section-508-accessibility-compliance
 tags: wcag,2.0,and,section,508,accessibility,compliance
 published: True
 position: 0
@@ -14,7 +14,7 @@ position: 0
 
 ## XHTML 1.1
 
-**RadInput** is fully compliant with the XHTML 1.1 requirement.
+**RadNumericTextBox** is fully compliant with the XHTML 1.1 requirement.
 
 ## Compliance Level
 
@@ -46,4 +46,4 @@ In our attempt to make our products compliant, each web-control we develop and i
 
 # See Also
 
- * [Keyboard Support]({%slug input/accessibility-and-internationalization/keyboard-support%})
+ * [Keyboard Support]({%slug numerictextbox/accessibility-and-internationalization/keyboard-support%})

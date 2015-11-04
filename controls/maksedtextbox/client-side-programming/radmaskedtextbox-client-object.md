@@ -1,8 +1,8 @@
 ---
 title: RadMaskedTextBox Client Object
-page_title: RadMaskedTextBox Client Object | RadInput for ASP.NET AJAX Documentation
+page_title: RadMaskedTextBox Client Object | RadMaskedTextBox for ASP.NET AJAX Documentation
 description: RadMaskedTextBox Client Object
-slug: input/client-side-programming/radmaskedtextbox-client-object
+slug: radmaskedtextbox/client-side-programming/radmaskedtextbox-client-object
 tags: radmaskedtextbox,client,object
 published: True
 position: 3

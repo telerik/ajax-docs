@@ -1,8 +1,8 @@
----
+	---
 title: HTML Output and CSS Styling
-page_title: HTML Output and CSS Styling | RadInput for ASP.NET AJAX Documentation
+page_title: HTML Output and CSS Styling | RadMaksedTextBox for ASP.NET AJAX Documentation
 description: HTML Output and CSS Styling
-slug: input/appearance-and-styling/html-output-and-css-styling
+slug: radmaskedtextbox/appearance-and-styling/html-output-and-css-styling
 tags: html,output,and,css,styling
 published: True
 position: 4
@@ -72,30 +72,5 @@ See the [CSS Skin File Selectors]({%slug input/appearance-and-styling/css-skin-f
 
 
 
-The HTML output of a textbox styled by RadInputManager is the following:
 
-````HTML
-<input type="text" class="RadInputMgr RadInputMgr_Default RadInput_Enabled_Default"
-	id="TextBox1" />
-````
-
-
-
-* **input.RadInputMgr.RadInputMgr_SkinName** - the textbox has three CSS classes - one is common for all RadInputManager textboxes, one is common for all RadInputManager textboxes with a particular skin, and the last one styles the textbox according to its state (enabled, hovered, focused, invalid, etc)
-
-**In all three examples above, the ``<input>`` element is replaced by a ``<textarea>`` element if TextMode="MultiLine".**
-
-By default in non-single input rendering mode the width of the label is not set, and the length of the input is 100%, so it will be auto sized to get all possible free space in the table. When in single input rendering mode, the default length of the label is 40% and 60% for the input. This width can be changed with the LabelWidth property. Another reason you would might want to set EnableSingleInputRendering to false for your Telerik’s ASP.NET AJAX Input controls is to avoid re-computing of the styles dynamically on the client.
-
-## Notes on RadInput skinning
-
-* the RadInput table cells should have a zero padding, with the exception of the riCell table cell - it should have a right padding equal to the sum of the textbox' side borders and paddings. Otherwise the textbox will overlay the control's buttons or its right border will not be seen.
-
-
-## Dynamically applied classes
-
-The Skin CSS file includes definitions for the classes that reflect the current state of the input controls. These classes are **riEnabled**, **riDisabled**, **riEmpty**, **riFocused**, **riHover**, **riError**, and **riNegative**.
-
->note The various [style properties]({%slug input/appearance-and-styling/styles%}) will override any of the properties set by these classes.
->
 

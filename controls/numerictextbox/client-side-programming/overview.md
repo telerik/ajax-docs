@@ -12,7 +12,7 @@ position: 0
 
 
 
-The **RadInput** controls provide a flexible client-side API. You can easily interact with the controls in the browser using their client-side objects. In addition to a variety of [client-side events]({%slug input/client-side-programming/events/overview%}), the client-side object model lets you achieve complicated tasks while avoiding unnecessary post-backs.
+The **RadNumericTextBox** controls provide a flexible client-side API. You can easily interact with the controls in the browser using their client-side objects. In addition to a variety of [client-side events]({%slug input/client-side-programming/events/overview%}), the client-side object model lets you achieve complicated tasks while avoiding unnecessary post-backs.
 
 ## Getting the client-side object
 
@@ -21,8 +21,7 @@ All the API methods are accessible via the registered JavaScript objects for eac
 ````JavaScript
 <script type="text/javascript">
 	function pageLoad() {
-		var dateInput = $find("<%= RadDateInput1.ClientID %>");
-		var date = dateInput.get_selectedDate();
+		var numeric = $find("<%= RadNumericTextBox1.ClientID %>")
 	}
 </script>
 ````
@@ -38,9 +37,9 @@ Another approach for getting the client-side object is to handle any client-side
 		textBox = sender;
 	}
 </script>
-<telerik:RadTextBox ID="RadTextBox1" runat="server">
+<telerik:RadNumericTextBox ID="RadNumericTextBox1" runat="server">
 	<ClientEvents OnLoad="Load" />
-</telerik:RadTextBox>
+</telerik:RadNumericTextBox>
 ````
 
 
@@ -105,9 +104,6 @@ Each client-side object exposes properties for getting the value of the control:
 |get_editValue(), set_editValue()|string|Gets or sets the value of the input control as it is formatted when the control has focus.|
 |get_displayValue(), set_displayValue()|string|Gets or sets the value of the input control as it is formatted when the control does not have focus.|
 
->note In addition to the methods listed above, which are present in the client-side object for all the RadInput controls, the **RadDateInput** and **RadMaskedTextBox** have additional methods for getting the value. See [RadDateInput Client Object]({%slug input/client-side-programming/raddateinput-client-object%}) and [RadMaskedTextBox Client Object]({%slug input/client-side-programming/radmaskedtextbox-client-object%}) for details.
->
-
 
 ## Setting the invalid state of RadInput
 
@@ -132,7 +128,7 @@ if (ValidatorUpdateDisplay && typeof (ValidatorUpdateDisplayOriginal) === "undef
 
 ## Changing the appearance style of RadInput controls on the client
 
-Because the **RadInput** controls have their own style mechanism, you can change some of the appearance styles so that they are preserved when the control state is changed (i.e. when it is focused, hovered etc.). Below is a sample of how to change the **EnabledStyle** of a **RadTextBox** instance using the **OnLoad** client-side event hander.
+Because the **RadInput** controls have their own style mechanism, you can change some of the appearance styles so that they are preserved when the control state is changed (i.e. when it is focused, hovered etc.). Below is a sample of how to change the **EnabledStyle** of a **RadNumericTextBox** instance using the **OnLoad** client-side event hander.
 
 ````ASPNET
 <script type="text/javascript">
@@ -142,19 +138,9 @@ Because the **RadInput** controls have their own style mechanism, you can change
 		sender.updateCssClass();
 	}
 </script>
-<telerik:RadTextBox ID="RadTextBox1" runat="server">
+<telerik:RadNumericTextBox ID="RadNumericTextBox1" runat="server">
 	<ClientEvents OnLoad="Load" />
-</telerik:RadTextBox>
+</telerik:RadNumericTextBox>
 ````
 
 
-
-# See Also
-
- * [RadTextBox Client Object]({%slug input/client-side-programming/radtextbox-client-object%})
-
- * [RadNumericTextBox Client Object]({%slug input/client-side-programming/radnumerictextbox-client-object%})
-
- * [RadMaskedTextBox Client Object]({%slug input/client-side-programming/radmaskedtextbox-client-object%})
-
- * [RadDateInput Client Object]({%slug input/client-side-programming/raddateinput-client-object%})

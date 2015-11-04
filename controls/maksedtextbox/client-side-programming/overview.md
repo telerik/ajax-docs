@@ -1,8 +1,8 @@
 ---
 title: Overview
-page_title: Client-side Programming Overview | RadInput for ASP.NET AJAX Documentation
+page_title: Client-side Programming Overview | RadMaskedTextBox for ASP.NET AJAX Documentation
 description: Overview
-slug: input/client-side-programming/overview
+slug: radmaskedtextbox/client-side-programming/overview
 tags: overview
 published: True
 position: 0
@@ -21,8 +21,8 @@ All the API methods are accessible via the registered JavaScript objects for eac
 ````JavaScript
 <script type="text/javascript">
 	function pageLoad() {
-		var dateInput = $find("<%= RadDateInput1.ClientID %>");
-		var date = dateInput.get_selectedDate();
+		var maskedInput = $find("<%= RadMaskedTextBox1.ClientID %>");
+		
 	}
 </script>
 ````
@@ -38,9 +38,9 @@ Another approach for getting the client-side object is to handle any client-side
 		textBox = sender;
 	}
 </script>
-<telerik:RadTextBox ID="RadTextBox1" runat="server">
+<telerik:RadMaskedTextBox ID="RadMaskedTextBox1" runat="server">
 	<ClientEvents OnLoad="Load" />
-</telerik:RadTextBox>
+</telerik:RadMaskedTextBox>
 ````
 
 
@@ -52,7 +52,7 @@ The input area of a **RadInput** control is an HTML \<input\> element with a cli
 The following example demonstrates how to access RadInput client object after Q2 2012:
 
 ````ASPNET
-<telerik:RadDateInput id="RadDateInput1" runat="server" ClientEvents-OnLoad="loadHandler" />
+<telerik:RadMaskedTextBox id="RadMaskedTextBox1" runat="server" ClientEvents-OnLoad="loadHandler" />
 ````
 
 
@@ -62,8 +62,8 @@ function loadHandler(sender, args) {
 	//In this event handler "sender" is actually the client side object.
 
 	//Accessing objects and elements:
-	var clientSideObject = $find("<%=RadDateInput1.ClientID %>");
-	var visibleInputElement = $get("<%=RadDateInput1.ClientID %>");
+	var clientSideObject = $find("<%=RadMaskedTextBox1.ClientID %>");
+	var visibleInputElement = $get("<%=RadMaskedTextBox1.ClientID %>");
 
 	//Accessing the visible value:
 	var formattedDisplayValue1 = clientSideObject.get_displayValue();
@@ -100,12 +100,11 @@ Each client-side object exposes properties for getting the value of the control:
 
 | Property | Return Type | Description |
 | ------ | ------ | ------ |
-|get_value(), set_value()| **RadNumericTextBox** : numberAll other input controls: string|Gets or sets the value of the input control.|
 |get_textBoxValue(), set_textBoxValue()|string|Gets or sets the value the user input text. It is not assigned as the value of the input control if it contains an error.|
 |get_editValue(), set_editValue()|string|Gets or sets the value of the input control as it is formatted when the control has focus.|
 |get_displayValue(), set_displayValue()|string|Gets or sets the value of the input control as it is formatted when the control does not have focus.|
 
->note In addition to the methods listed above, which are present in the client-side object for all the RadInput controls, the **RadDateInput** and **RadMaskedTextBox** have additional methods for getting the value. See [RadDateInput Client Object]({%slug input/client-side-programming/raddateinput-client-object%}) and [RadMaskedTextBox Client Object]({%slug input/client-side-programming/radmaskedtextbox-client-object%}) for details.
+>note In addition to the methods listed above, which are present in the client-side object for all the RadInput controls, the **RadMaskedTextBox** has additional methods for getting the value. See and [RadMaskedTextBox Client Object]({%slug radmaskedtextbox/client-side-programming/radmaskedtextbox-client-object%}) for details.
 >
 
 
@@ -132,7 +131,7 @@ if (ValidatorUpdateDisplay && typeof (ValidatorUpdateDisplayOriginal) === "undef
 
 ## Changing the appearance style of RadInput controls on the client
 
-Because the **RadInput** controls have their own style mechanism, you can change some of the appearance styles so that they are preserved when the control state is changed (i.e. when it is focused, hovered etc.). Below is a sample of how to change the **EnabledStyle** of a **RadTextBox** instance using the **OnLoad** client-side event hander.
+Because the **RadInput** controls have their own style mechanism, you can change some of the appearance styles so that they are preserved when the control state is changed (i.e. when it is focused, hovered etc.). Below is a sample of how to change the **EnabledStyle** of a **RadMaskedTextBox** instance using the **OnLoad** client-side event hander.
 
 ````ASPNET
 <script type="text/javascript">
@@ -142,19 +141,8 @@ Because the **RadInput** controls have their own style mechanism, you can change
 		sender.updateCssClass();
 	}
 </script>
-<telerik:RadTextBox ID="RadTextBox1" runat="server">
+<telerik:RadMaskedTextBox ID="RadMaskedTextBox1" runat="server">
 	<ClientEvents OnLoad="Load" />
-</telerik:RadTextBox>
+</telerik:RadMaskedTextBox>
 ````
 
-
-
-# See Also
-
- * [RadTextBox Client Object]({%slug input/client-side-programming/radtextbox-client-object%})
-
- * [RadNumericTextBox Client Object]({%slug input/client-side-programming/radnumerictextbox-client-object%})
-
- * [RadMaskedTextBox Client Object]({%slug input/client-side-programming/radmaskedtextbox-client-object%})
-
- * [RadDateInput Client Object]({%slug input/client-side-programming/raddateinput-client-object%})

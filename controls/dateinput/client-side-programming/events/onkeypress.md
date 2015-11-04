@@ -1,8 +1,8 @@
 ---
 title: OnKeyPress
-page_title: OnKeyPress | RadInput for ASP.NET AJAX Documentation
+page_title: OnKeyPress | RadDateInput for ASP.NET AJAX Documentation
 description: OnKeyPress
-slug: input/client-side-programming/events/onkeypress
+slug: raddateinput/client-side-programming/events/onkeypress
 tags: onkeypress
 published: True
 position: 9
@@ -37,9 +37,9 @@ Two parameters are passed to the event handler:
 The following example uses the **OnKeyPress** event to limit input to the letters 'a' to 'z' and 'A' to 'Z':
 
 ````ASPNET
-<telerik:RadTextBox ID="RadTextBox1" runat="server">
+<telerik:RadDateInput ID="RadDateInput1" runat="server">
 	<ClientEvents OnKeyPress="AlphabetOnly" />
-</telerik:RadTextBox>
+</telerik:RadDateInput>
 ````
 
 
@@ -59,6 +59,3 @@ The following example uses the **OnKeyPress** event to limit input to the letter
 
 During the **OnKeyPress** event the value is still not updated, therefore, **sender.get_value()** will return the old one.
 
-# See Also
-
- * [OnValueChanging]({%slug input/client-side-programming/events/onvaluechanging%})

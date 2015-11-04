@@ -1,8 +1,8 @@
 ---
 title: OnEnumerationChanged
-page_title: OnEnumerationChanged | RadInput for ASP.NET AJAX Documentation
+page_title: OnEnumerationChanged | RadMaksedTextBox for ASP.NET AJAX Documentation
 description: OnEnumerationChanged
-slug: input/client-side-programming/events/onenumerationchanged
+slug: radmaskedtextbox/client-side-programming/events/onenumerationchanged
 tags: onenumerationchanged
 published: True
 position: 6
@@ -59,8 +59,6 @@ The following example uses the **OnEnumerationChanged** event display an alert w
 
 # See Also
 
- * [OnMoveDown]({%slug input/client-side-programming/events/onmovedown%})
+ * [OnMoveDown]({%slug radmaskedtextbox/client-side-programming/events/onmovedown%})
 
- * [OnMoveUp]({%slug input/client-side-programming/events/onmoveup%})
-
- * [Masks]({%slug input/radmaskedtextbox/masks%})
+ * [OnMoveUp]({%slug radmaskedtextbox/client-side-programming/events/onmoveup%})

@@ -1,8 +1,8 @@
 ---
 title: Mouse Wheel Support
-page_title: Mouse Wheel Support | RadInput for ASP.NET AJAX Documentation
+page_title: Mouse Wheel Support | RadNumericTextBox for ASP.NET AJAX Documentation
 description: Mouse Wheel Support
-slug: input/accessibility-and-internationalization/mouse-wheel-support
+slug: numerictextbox/accessibility-and-internationalization/mouse-wheel-support
 tags: mouse,wheel,support
 published: True
 position: 3
@@ -28,6 +28,6 @@ Users can interact with the **RadInput** controls using the mouse wheel. The fol
 
 # See Also
 
- * [Keyboard Support]({%slug input/accessibility-and-internationalization/keyboard-support%})
+ * [Keyboard Support]({%slug numerictextbox/accessibility-and-internationalization/keyboard-support%})
 
- * [Context Menus]({%slug input/getting-started/context-menus%})
+ * [Context Menus]({%slug numerictextbox/features/context-menus%})

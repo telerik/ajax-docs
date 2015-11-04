@@ -1,8 +1,8 @@
 ---
 title: Mouse Wheel Support
-page_title: Mouse Wheel Support | RadInput for ASP.NET AJAX Documentation
+page_title: Mouse Wheel Support | RadMaskedTextBox for ASP.NET AJAX Documentation
 description: Mouse Wheel Support
-slug: input/accessibility-and-internationalization/mouse-wheel-support
+slug: radmaskedtextbox/accessibility-and-internationalization/mouse-wheel-support
 tags: mouse,wheel,support
 published: True
 position: 3
@@ -21,13 +21,10 @@ Users can interact with the **RadInput** controls using the mouse wheel. The fol
 
 | RadInput Control | Result of using the Mouse Wheel |
 | ------ | ------ |
-| **RadTextBox** |If **TextMode** is **MultiLine** and the **Text** is longer than can be displayed by the number of rows that the **Rows** property dictates, scrolling the mouse wheel causes the text in the control to scroll.|
+
 | **RadMaskedTextBox** |If the **TextMode** is **MultiLine** and the **Text** is longer than can be displayed by the number of rows that the **Rows** property dictates, scrolling the mouse wheel causes the text in the control to scroll. If the **Mask** property includes an enumeration mask and the cursor is positioned at the start of an enumeration mask part, the scrolling the mouse wheel scrolls through the enumerated values.|
-| **RadNumericTextBox** |Scrolling the mouse wheel increases or decreases the value in the text box by the amount that the **IncrementSettings.Step** property specifies when **IncrementSettings.InterceptMouseWheel** is **True** .|
-| **RadDateInput** |Scrolling the mouse wheel increases or decreases the value of the portion of the date immediately before the cursor when **IncrementSettings.InterceptMouseWheel** is **True** . The **IncrementSettings.Step** property specifies the number of months, days, years, hours, minutes, or seconds by which the value changes.|
+
 
 # See Also
 
- * [Keyboard Support]({%slug input/accessibility-and-internationalization/keyboard-support%})
-
- * [Context Menus]({%slug input/getting-started/context-menus%})
+ * [Keyboard Support]({%slug radmaskedtextbox/accessibility-and-internationalization/keyboard-support%})

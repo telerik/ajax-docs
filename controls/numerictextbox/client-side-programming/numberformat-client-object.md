@@ -1,8 +1,8 @@
 ---
 title: NumberFormat Client Object
-page_title: NumberFormat Client Object | RadInput for ASP.NET AJAX Documentation
+page_title: NumberFormat Client Object | RadNumericTextBox for ASP.NET AJAX Documentation
 description: NumberFormat Client Object
-slug: input/client-side-programming/numberformat-client-object
+slug: numerictextbox/client-side-programming/numberformat-client-object
 tags: numberformat,client,object
 published: True
 position: 7

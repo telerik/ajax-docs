@@ -1,8 +1,8 @@
 ---
 title: Keyboard Support
-page_title: Keyboard Support | RadInput for ASP.NET AJAX Documentation
+page_title: Keyboard Support | RadMaskedTextBox for ASP.NET AJAX Documentation
 description: Keyboard Support
-slug: input/accessibility-and-internationalization/keyboard-support
+slug: radmaskedtextbox/accessibility-and-internationalization/keyboard-support
 tags: keyboard,support
 published: True
 position: 1
@@ -45,13 +45,10 @@ The **RadInput** controls provide support for Access Keys, Shortcut Key combinat
 
 | RadInput Control | Behavior of Up and Down Arrow Keys |
 | ------ | ------ |
-| **RadTextBox** |If **TextMode** is **MultiLine** , the up and down arrow keys navigate to the next or previous row.|
+|
 | **RadMaskedTextBox** |If the **TextMode** is **MultiLine** , the up and down arrow keys navigate to the next or previous row. If the **Mask** property includes an enumeration mask, the up and down arrow keys cycle through enumerated values when the cursor is on the enumeration mask part.|
-| **RadNumericTextBox** |The up and down arrow keys increase or decrease the value in the text box by the amount that the **IncrementSettings.Step** property specifies when **IncrementSettings.InterceptArrowKeys** is **True** .|
-| **RadDateInput** |The up and down arrow keys increase or decrease the value of the portion of the date that contains the cursor when **IncrementSettings.InterceptArrowKeys** is **True** . The **IncrementSettings.Step** property specifies the number of months, days, years, hours, minutes, or seconds by which the value changes.|
 
 # See Also
 
- * [Mouse Wheel Support]({%slug input/accessibility-and-internationalization/mouse-wheel-support%})
+ * [Mouse Wheel Support]({%slug radmaskedtextbox/accessibility-and-internationalization/mouse-wheel-support%})
 
- * [Context Menus]({%slug input/getting-started/context-menus%})

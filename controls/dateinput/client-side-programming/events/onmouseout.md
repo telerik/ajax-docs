@@ -1,8 +1,8 @@
 ---
 title: OnMouseOut
-page_title: OnMouseOut | RadInput for ASP.NET AJAX Documentation
+page_title: OnMouseOut | RadDateInput for ASP.NET AJAX Documentation
 description: OnMouseOut
-slug: input/client-side-programming/events/onmouseout
+slug: raddateinput/client-side-programming/events/onmouseout
 tags: onmouseout
 published: True
 position: 11
@@ -29,9 +29,9 @@ Two parameters are passed to the event handler:
 The following example uses the **OnMouseOut** event to display an alert:
 
 ````ASPNET
-<telerik:RadTextBox ID="RadTextBox1" runat="server">
+<telerik:RadDateInput ID="RadDateInput1" runat="server">
 	<ClientEvents OnMouseOut="MouseOut" />
-</telerik:RadTextBox>
+</telerik:RadDateInput>
 ````
 
 
@@ -49,4 +49,4 @@ The following example uses the **OnMouseOut** event to display an alert:
 
 # See Also
 
- * [OnMouseOver]({%slug input/client-side-programming/events/onmouseover%})
+ * [OnMouseOver]({%slug raddateinput/client-side-programming/events/onmouseover%})

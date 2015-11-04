@@ -38,9 +38,9 @@ Another approach for getting the client-side object is to handle any client-side
 		textBox = sender;
 	}
 </script>
-<telerik:RadTextBox ID="RadTextBox1" runat="server">
+<telerik:RadDateInput ID="RadDateInput1" runat="server">
 	<ClientEvents OnLoad="Load" />
-</telerik:RadTextBox>
+</telerik:RadDateInput>
 ````
 
 
@@ -100,12 +100,11 @@ Each client-side object exposes properties for getting the value of the control:
 
 | Property | Return Type | Description |
 | ------ | ------ | ------ |
-|get_value(), set_value()| **RadNumericTextBox** : numberAll other input controls: string|Gets or sets the value of the input control.|
 |get_textBoxValue(), set_textBoxValue()|string|Gets or sets the value the user input text. It is not assigned as the value of the input control if it contains an error.|
 |get_editValue(), set_editValue()|string|Gets or sets the value of the input control as it is formatted when the control has focus.|
 |get_displayValue(), set_displayValue()|string|Gets or sets the value of the input control as it is formatted when the control does not have focus.|
 
->note In addition to the methods listed above, which are present in the client-side object for all the RadInput controls, the **RadDateInput** and **RadMaskedTextBox** have additional methods for getting the value. See [RadDateInput Client Object]({%slug input/client-side-programming/raddateinput-client-object%}) and [RadMaskedTextBox Client Object]({%slug input/client-side-programming/radmaskedtextbox-client-object%}) for details.
+>note In addition to the methods listed above, which are present in the client-side object for all the RadInput controls, the **RadDateInput** has additional methods for getting the value. See [RadDateInput Client Object]({%slug raddateinput/client-side-programming/raddateinput-client-object%}) for details.
 >
 
 
@@ -132,7 +131,7 @@ if (ValidatorUpdateDisplay && typeof (ValidatorUpdateDisplayOriginal) === "undef
 
 ## Changing the appearance style of RadInput controls on the client
 
-Because the **RadInput** controls have their own style mechanism, you can change some of the appearance styles so that they are preserved when the control state is changed (i.e. when it is focused, hovered etc.). Below is a sample of how to change the **EnabledStyle** of a **RadTextBox** instance using the **OnLoad** client-side event hander.
+Because the **RadInput** controls have their own style mechanism, you can change some of the appearance styles so that they are preserved when the control state is changed (i.e. when it is focused, hovered etc.). Below is a sample of how to change the **EnabledStyle** of a **RadDateInput** instance using the **OnLoad** client-side event hander.
 
 ````ASPNET
 <script type="text/javascript">
@@ -142,19 +141,13 @@ Because the **RadInput** controls have their own style mechanism, you can change
 		sender.updateCssClass();
 	}
 </script>
-<telerik:RadTextBox ID="RadTextBox1" runat="server">
+<telerik:RadDateInput ID="RadDateInput1" runat="server">
 	<ClientEvents OnLoad="Load" />
-</telerik:RadTextBox>
+</telerik:RadDateInput>
 ````
 
 
 
 # See Also
 
- * [RadTextBox Client Object]({%slug input/client-side-programming/radtextbox-client-object%})
-
- * [RadNumericTextBox Client Object]({%slug input/client-side-programming/radnumerictextbox-client-object%})
-
- * [RadMaskedTextBox Client Object]({%slug input/client-side-programming/radmaskedtextbox-client-object%})
-
- * [RadDateInput Client Object]({%slug input/client-side-programming/raddateinput-client-object%})
+ * [RadDateInput Client Object]({%slug raddateinput/client-side-programming/raddateinput-client-object%})

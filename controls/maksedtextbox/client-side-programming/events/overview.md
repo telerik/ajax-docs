@@ -1,8 +1,8 @@
 ---
 title: Events Overview
-page_title: Overview | RadInput for ASP.NET AJAX Documentation
+page_title: Overview | RadMaskedTextBox for ASP.NET AJAX Documentation
 description: Overview
-slug: input/client-side-programming/events/overview
+slug: radmaskedtextbox/client-side-programming/events/overview
 tags: overview
 published: True
 position: 0
@@ -21,7 +21,6 @@ The **RadInput** controls support a number of client-side events that let you re
 
 |  **Event**  |  **Applies to**  |  **Description**  |
 | ------ | ------ | ------ |
-|[OnValueChanging]({%slug input/client-side-programming/events/onvaluechanging%})| **RadTextBox** , **RadNumericTextBox** , and **RadDateInput** |Occurs when the control loses focus after the user has changed its value, before the new value is assigned.|
 |[OnValueChanged]({%slug input/client-side-programming/events/onvaluechanged%})|all **RadInput** controls|Occurs after a new value has been assigned when the control loses focus.|
 |[OnFocus]({%slug input/client-side-programming/events/onfocus%})|all **RadInput** controls|Occurs when the control gets focus, if it is not ReadOnly.|
 |[OnBlur]({%slug input/client-side-programming/events/onblur%})|all **RadInput** controls|Occurs when the control loses focus, if it is not ReadOnly.|
@@ -36,10 +35,6 @@ The **RadInput** controls support a number of client-side events that let you re
 |[OnMoveDown]({%slug input/client-side-programming/events/onmovedown%})| **RadMaskedTextBox** |Occurs when the user decreases the value of an enumeration or numeric range mask part.|
 |[OnMoveUp]({%slug input/client-side-programming/events/onmoveup%})| **RadMaskedTextBox** |Occurs when the user increases the value of an enumeration or numeric range mask part.|
 |[OnEnumerationChanged]({%slug input/client-side-programming/events/onenumerationchanged%})| **RadMaskedTextBox** |Occurs when the value of an enumeration part of a mask is set.|
-|[OnClientPasswordStrengthCalculating]({%slug input/client-side-programming/events/onclientpasswordstrengthcalculating%})| **RadTextBox and RadInputManager** with a TextBoxSetting|Occurs when using the password strength check feature and changing the text, before the indicator is updated.|
-
->note On **RadDateInput** , there is another client event property, **OnClientDateChanged** , which maps directly onto the **OnValueChanged** property.
->
 
 
 To use these events, simply write a javascript function that can be called when the event occurs. Then assign the name of the javascript function as the value of the the corresponding property.
@@ -100,7 +95,6 @@ Note that on the client-side, the names of events are slightly different than on
 
 |  **Server-Side Name**  |  **Client-SideName**  |  **Methods to add and Remove**  |
 | ------ | ------ | ------ |
-|OnValueChanging|valueChanging|add_valueChanging, remove_valueChanging|
 |OnValueChanged|valueChanged|add_valueChanged, remove_valueChanged|
 |OnFocus|focus|add_focus, remove_focus|
 |OnBlur|blur|add_blur, remove_blur|
@@ -118,4 +112,4 @@ Note that on the client-side, the names of events are slightly different than on
 
 # See Also
 
- * [TextChanged Event]({%slug input/server-side-programming/textchanged-event%})
+ * [TextChanged Event]({%slug radmaskedtextbox/server-side-programming/textchanged-event%})

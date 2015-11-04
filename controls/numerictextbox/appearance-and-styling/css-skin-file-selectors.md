@@ -12,7 +12,7 @@ position: 6
 
 
 
-The following table lists significant CSS selectors and descriptions that apply to the **RadInput** control in RadInput style sheets.
+The following table lists significant CSS selectors and descriptions that apply to the **RadNumericTextBox** control in RadInput style sheets.
 
 >note These class names are for the "Default" skin. For other skins, replace the string "Default" with the name of the skin.
 >
@@ -25,10 +25,8 @@ The following table lists significant CSS selectors and descriptions that apply 
 
 | Class Name | Element | Description | SIR* | OldRendering |
 | ------ | ------ | ------ | ------ | ------ |
-|.RadInput (RadInput_Default)|DIV or SPAN|The class for the entire control.|Yes|Yes|
 |.riSingle|SPAN|The class for the entire control in SIR mode.|Yes| **No** |
 |.riContentWrapper|SPAN|The class for the element, which wraps all elements without the label.|Yes| **No** |
-|.riTextBox|INPUT OR TEXTAREA|The common class for the input area in all states.|Yes|Yes|
 |.riEnabled|INPUT OR TEXTAREA|The class for the input area when it is enabled.|Yes|Yes|
 |.riHover|INPUT OR TEXTAREA|The class for the input area when the mouse hovers over it.|Yes|Yes|
 |.riRead|INPUT OR TEXTAREA|The class for the input area when the input control is read-only.|Yes|Yes|
@@ -47,22 +45,8 @@ The following table lists significant CSS selectors and descriptions that apply 
 
 \*Last two columns indicate whether the class is supported in [Single Input Rendering]({%slug input/single-input-rendering-mode%}) mode or OldRendering mode.
 
-## Input Manager CSS classes
 
-
->caption  
-
-| Class Name | Element | Description |
-| ------ | ------ | ------ |
-|.RadInputMgr_Default|INPUT or TEXTAREA|The common class applied to RadInputManager textboxes, regardless of their state|
-|.RadInput_Enabled_Default|INPUT or TEXTAREA|The class for RadInputManager textboxes in "Enabled" state|
-|.RadInput_Empty_Default|INPUT or TEXTAREA|The class for RadInputManager textboxes in "Empty" state|
-|.RadInput_Hover_Default|INPUT or TEXTAREA|The class for RadInputManager textboxes in hovered state|
-|.RadInput_Focused_Default|INPUT or TEXTAREA|The class for RadInputManager textboxes in focused state|
-|.RadInput_Read_Default|INPUT or TEXTAREA|The class for RadInputManager textboxes in read-only state|
-|.RadInput_Disabled_Default|INPUT or TEXTAREA|The class for RadInputManager textboxes in disabled state|
-|.RadInput_Negative_Default|INPUT or TEXTAREA|The class for RadInputManager numeric textboxes with a negative value|
 
 # See Also
 
- * [HTML Output and CSS Styling]({%slug input/appearance-and-styling/html-output-and-css-styling%})
+ * [HTML Output and CSS Styling]({%slug numerictextbox/appearance-and-styling/html-output-and-css-styling%})

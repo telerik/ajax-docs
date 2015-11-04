@@ -1,8 +1,8 @@
 ---
-title: Overview
-page_title: Server-side Programming Overview | RadInput for ASP.NET AJAX Documentation
+title: Properties
+page_title: Server-side Programming Overview | RadNumericTextBox for ASP.NET AJAX Documentation
 description: Overview
-slug: input/server-side-programming/overview
+slug: numerictextbox/server-side-programming/properties
 tags: overview
 published: True
 position: 0
@@ -48,29 +48,8 @@ While the four RadInput controls (**RadTextBox**, **RadMaskedTextBox**, **RadDat
 
 * The **Invalid** property makrs the input as invalid and applies the **.riError** class to the input. Thus the user is indicated that the enteredvalue is not correct. This propery is not persited in the ViewState. This is done in order to distinguish the client-side and the server-sidevalidation. Additionally, the client-side property value does not affect the server-side property value, but if you set the server-side property to true, theclient-side property will be set to true also.
 
-* The **ValidationText** is a read-only property which returns the value used to validate the entered data.For the four types it returns respectively:
+* The **ValidationText** is a read-only property which returns the value used to validate the entered data. For the **RadNumericTextBox** it returns the number with the specific decimal mark corresponding to currently active culture
 
-* **RadTextBox** - the text itself
-
-* **RadMaskedTextBox** - **TextWithLiterals** value ( the text the user entered, plus any literal characters in the mask, but no prompt characters.)
-
-* **RadNumericTextBox** - the number with the specific decimal mark corresponding to currently active culture
-
-* **RadDateInput** - the date in universal format ( "yyyy-MM-dd-HH-mm-ss" )
-
->note The four different **RadInput** controls use different properties to represent their values. See [Getting and Setting Values]({%slug input/getting-started/getting-and-setting-values%}) for details.
->
-
-
-## Properties common to RadTextBox and RadMaskedTextBox
-
-* The **TextMode** property specifies how the control displays its value. It can be set to any of the following values:
-
-* **Telerik.Web.UI.InputMode.SingleLine**: When the **TextMode** property is **SingleLine**, the value of the text box appears in a single line of text. The **MaxLength** property determines the maximum length of the text the user can enter into the text box.
-
-* **Telerik.Web.UI.InputMode.MultiLine**: When the **TextMode** property is **MultiLine**, the text box displays its value using multiple lines. The **Columns** property determines the width of each line in characters, and the **Rows** property determines the number of lines the text box displays.If the **Wrap** property is **True**, the value in the text box wraps over multiple lines, and a vertical scroll bar appears if the value exceeds the limits set by the **Rows** and **Columns** properties. If the **Wrap** property is **False**, the value does not wrap, and a horizontal scroll bar appears if the value exceeds the limit set by the **Columns** property.
-
-* **Telerik.Web.UI.InputMode.Password**: When the **TextMode** property is **Password**, the text box behaves like a single-line text box, except that instead of displaying its text value, it displays a row of dots.
 
 ## Properties common to RadNumericTextBox and RadDateInput
 
@@ -84,10 +63,10 @@ While the four RadInput controls (**RadTextBox**, **RadMaskedTextBox**, **RadDat
 
 # See Also
 
- * [RadTextBox Overview]({%slug input/radtextbox/overview%})
+ * [RadTextBox Overview]({%slug radtextbox/overview%})
 
- * [RadMaskedTextBox Overview]({%slug input/radmaskedtextbox/overview%})
+ * [RadMaskedTextBox Overview]({%slug radmaskedtextbox/overview%})
 
- * [RadNumericTextBox Overview]({%slug input/radnumerictextbox/overview%})
+ * [RadNumericTextBox Overview]({%slug radnumerictextbox/overview%})
 
- * [RadDateInput Overview]({%slug input/raddateinput/overview%})
+ * [RadDateInput Overview]({%slug raddateinput/overview%})

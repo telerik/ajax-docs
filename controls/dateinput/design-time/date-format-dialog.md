@@ -1,8 +1,8 @@
 ---
 title: Date Format Dialog
-page_title: Date Format Dialog | RadInput for ASP.NET AJAX Documentation
+page_title: Date Format Dialog | RadDateInput for ASP.NET AJAX Documentation
 description: Date Format Dialog
-slug: input/design-time/date-format-dialog
+slug: raddateinput/design-time/date-format-dialog
 tags: date,format,dialog
 published: True
 position: 3
@@ -27,6 +27,3 @@ At the top of the dialog is a table of standard ASP.NET date format strings that
 
 * To specify a format string that is not included in the standard choices, simply type the new format string in the **Custom Date Time Format** text box. The preview updates to reflect the effects of your new format string.
 
-# See Also
-
- * [Formatting Dates]({%slug input/raddateinput/formatting-dates%})
