@@ -10,17 +10,13 @@ position: 3
 
 # Render Modes
 
-**RadPushButton** has two different render modes (**Lightweight** and **Native**) that can change the actual CSS that is used. They are exposed via the **RenderMode** property that can have five possible values - **Classic**, **Lightweight**, **Native**, **Mobile** and **Auto**.
+**RadPushButton** supports only **Lightweight** render mode. Generally it is exposed via the **RenderMode** property that can have five possible values - **Classic**, **Lightweight**, **Native**, **Mobile** and **Auto**.
 
 The possible options are:
 
-* **Classic**—this mode is not supported. If you set it, the mode will fall back automatically to **Lightweight**.
+* **Classic**, **Native**, **Mobile**—these modes are not supported. If you set them, the mode will fall back automatically to **Lightweight**.
 
 * **Lightweight**—this is the default mode and it emphasizes on semantic HTML and CSS3 which makes the control easy to customize (including custom skins creation).
-
-* **Native**—this mode disables the built-in styles and CSS of the button, and let the client browser apply its default styling for `<input type="submit|button" />` element.
-
-* **Mobile**—this mode is currently not supported. If you set it, the mode will fall back automatically to **Lightweight**.
 
 * **Auto**—this mode makes each control choose the appropriate rendering mode according to the used browser.
 
@@ -36,17 +32,17 @@ There are two ways to configure the rendering mode of the controls:
 
 	**ASP.NET**
 
-		<telerik:RadPushButton ID="RadPushButton1" runat="server" RenderMode="Native">
+		<telerik:RadPushButton ID="RadPushButton1" runat="server" RenderMode="Lightweight">
 		</telerik:RadPushButton>
 
 
 	**C#**
 
-		RadPushButton1.RenderMode = Telerik.Web.UI.RenderMode.Native;
+		RadPushButton1.RenderMode = Telerik.Web.UI.RenderMode.Lightweight;
 
 	**VB**
 
-		RadPushButton1.RenderMode = Telerik.Web.UI.RenderMode.Native
+		RadPushButton1.RenderMode = Telerik.Web.UI.RenderMode.Lightweight
 
 
 * A **global setting in the web.config** file that will affect the entire application, unless a concrete value is specified for a given control instance:
@@ -54,7 +50,7 @@ There are two ways to configure the rendering mode of the controls:
 	**web.config**
 
 		<appSettings>
-			<add key="Telerik.Web.UI.pushbutton.RenderMode" value="Native" />
+			<add key="Telerik.Web.UI.PushButton.RenderMode" value="Lightweight" />
 		</appSettings>
 
 
