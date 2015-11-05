@@ -237,6 +237,9 @@ navigation:
     "controls/imageeditor":
         title: "Image Editor"
         position: 1
+    "controls/imagebutton":
+        title: "ImageButton"
+        position: 1
     "controls/imagegallery":
         title: "Image Gallery"
         position: 1
