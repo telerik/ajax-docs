@@ -2,7 +2,7 @@
 title: Overview
 page_title: Getting Started Overview | RadInput for ASP.NET AJAX Documentation
 description: Overview
-slug: input/getting-started/overview
+slug: radmaskedtextbox/getting-started
 tags: overview
 published: True
 position: 0
@@ -12,7 +12,7 @@ position: 0
 
 
 
-## 
+##
 
 This tutorial will walk you through creating a Web page that uses **RadInput** controls. It shows how to:
 
@@ -41,7 +41,7 @@ This tutorial will walk you through creating a Web page that uses **RadInput** c
 1. In the **RadMaskedTextBox** Smart Tag, click the link labelled **SetMask**:
 ![Mask](images/RadMaskedTextBoxSetMask.png)
 
-1. The [Input Mask dialog]({%slug input/design-time/input-mask-dialog%}) appears. In the dialog, choose the mask for **Phone number** hand click **OK**.
+1. The [Input Mask dialog]({%slug radmaskedtextbox/design-time/input-mask-dialog%}) appears. In the dialog, choose the mask for **Phone number** hand click **OK**.
 ![Mask Dialog](images/InputMaskDialog.png)
 
 1. Choose the "Office2007" Skin in the Smart Tag so that the masked text box matches the other text box on your page.

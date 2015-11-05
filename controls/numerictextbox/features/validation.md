@@ -2,7 +2,7 @@
 title: Validation
 page_title: Validation | RadInput for ASP.NET AJAX Documentation
 description: Validation
-slug: input/how-to/validation
+slug: numerictextbox/features/validation
 tags: validation
 published: True
 position: 1

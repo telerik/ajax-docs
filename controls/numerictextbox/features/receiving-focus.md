@@ -2,7 +2,7 @@
 title: Receiving Focus
 page_title: Receiving Focus | RadInput for ASP.NET AJAX Documentation
 description: Receiving Focus
-slug: numerictextbvox/features/receiving-focus
+slug: numerictextbox/features/receiving-focus
 tags: receiving,focus
 published: True
 position: 5
@@ -12,7 +12,7 @@ position: 5
 
 
 
-## 
+##
 
 How a **RadNumericTextBox** control behaves when it receives focus can be controlled by setting the **SelectionOnFocus** property. It can be set to any of the following values:
 

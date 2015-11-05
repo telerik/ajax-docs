@@ -18,7 +18,7 @@ The following tutorial demonstrates creating a custom **RadMaskedTextBox** skin,
 to the following:
 ![Green Skin](images/GreenSkin.png)
 
-See [Understanding the Skin CSS File]({%slug input/appearance-and-styling/html-output-and-css-styling%}) for more information on specific CSS file properties.
+See [Understanding the Skin CSS File]({%slug radmaskedtextbox/appearance-and-styling/html-output-and-css-styling%}) for more information on specific CSS file properties.
 
 ## Prepare the Project
 
@@ -29,7 +29,7 @@ See [Understanding the Skin CSS File]({%slug input/appearance-and-styling/html-o
 1. In the Solution Explorer, create a new "Green" directory in your project.
 
 1. Copy the default **RadMaskedTextBox** skin files from the installation directory to the "Green" directory; copy both the \Input directory that contains the images for this skin and the Input.Default.css file that defines the skin styles.
->note The file path will typically be similar to this example: *\Program Files\Telerik\<Your Version of UI for ASP.NET.AJAX>\Skins\Default.* 
+>note The file path will typically be similar to this example: *\Program Files\Telerik\<Your Version of UI for ASP.NET.AJAX>\Skins\Default.*
 >
 
 1. In the Solution Explorer, rename "Input.Default.css" to "Input.Green.css".
@@ -84,9 +84,9 @@ See [Understanding the Skin CSS File]({%slug input/appearance-and-styling/html-o
 
 	````CSS
 	.RadInput_Green .riEnabled
-	{ 
-		color: #333; 
-		border: solid 1px Green; 
+	{
+		color: #333;
+		border: solid 1px Green;
 		background:#eeffee;
 	}
 ````
@@ -97,8 +97,8 @@ See [Understanding the Skin CSS File]({%slug input/appearance-and-styling/html-o
 
 	````CSS
 	.RadInput_Green .riHover
-	{ 
-		color: #333; 
+	{
+		color: #333;
 		border: solid 1px Green;
 	}
 ````
@@ -109,9 +109,9 @@ See [Understanding the Skin CSS File]({%slug input/appearance-and-styling/html-o
 
 	````CSS
 	.RadInput_Green .riEmpty
-	{ 
-		color: Green; 
-		border: solid 1px Green; 
+	{
+		color: Green;
+		border: solid 1px Green;
 		background:#ddeedd;
 	}
 ````
@@ -122,9 +122,9 @@ See [Understanding the Skin CSS File]({%slug input/appearance-and-styling/html-o
 
 	````CSS
 	.RadInput_Green .riFocused
-	{ 
-		border: solid 1px Green; 
-		color: #000; 
+	{
+		border: solid 1px Green;
+		color: #000;
 	}
 ````
 
@@ -134,8 +134,8 @@ See [Understanding the Skin CSS File]({%slug input/appearance-and-styling/html-o
 
 	````CSS
 	.RadInput_Green .riNegative
-	{ 
-		border: solid 1px Green; 
+	{
+		border: solid 1px Green;
 		color: #333;
 	}
 ````
@@ -146,11 +146,11 @@ See [Understanding the Skin CSS File]({%slug input/appearance-and-styling/html-o
 
 	````CSS
 	.RadInput_Green .riError
-	{ 
-		background-image: url('Input/errorSign.gif'); 
-		background-position: center right; 
-		background-repeat: no-repeat; 
-		background-color:#ddd; 
+	{
+		background-image: url('Input/errorSign.gif');
+		background-position: center right;
+		background-repeat: no-repeat;
+		background-color:#ddd;
 		border: solid 1px #ffcc55; color: #ffcc55;
 	}
 ````
@@ -161,9 +161,9 @@ See [Understanding the Skin CSS File]({%slug input/appearance-and-styling/html-o
 
 	````CSS
 	.RadInput_Green .riLabel
-	{ 
-		color: Green; 
-		font-size: small; 
+	{
+		color: Green;
+		font-size: small;
 		white-space:nowrap;
 	}
 ````

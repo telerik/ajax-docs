@@ -64,7 +64,7 @@ Both approaches do the same thing. It is your choice which method you prefer.
 
 ````C#
 RadAjaxPanel1.FocusControl(RadInput1.ClientID);
-RadAjaxManager1.FocusControl(RadInput1.ClientID); 
+RadAjaxManager1.FocusControl(RadInput1.ClientID);
 ````
 ````VB.NET
 RadAjaxPanel1.FocusControl(RadInput1.ClientID)
@@ -79,7 +79,7 @@ The **SetFocus** method of the **ScriptManager** works like the **SetFocus** met
 
 
 ````C#
-ScriptManager1.SetFocus(RadInput1.ClientID); 
+ScriptManager1.SetFocus(RadInput1.ClientID);
 ````
 ````VB.NET
 ScriptManager1.SetFocus(RadInput1.ClientID)
@@ -101,7 +101,7 @@ The client-side objects for all the **RadInput** controls have a **focus** metho
 		<script type="text/javascript">
 			function setFocusToRadInput()
 			{
-				var radInput = $find("<%= RadInput1.ClientID %>"); 
+				var radInput = $find("<%= RadInput1.ClientID %>");
 				radInput.focus();
 			}  
 		</script>

@@ -12,7 +12,7 @@ position: 15
 
 
 
-## 
+##
 
 The **OnValueChanged** client-side event handler is called when the user changes the value of the input control. The event occurs immediately after the control loses focus and its value has been updated, but before the server-side **TextChanged** event.
 
@@ -65,7 +65,5 @@ The following example uses the **OnValueChanged** event to prevent a postback if
 
 
 # See Also
-
- * [OnValueChanging]({%slug radmaskedtextbox/client-side-programming/events/onvaluechanging%})
 
  * [TextChanged Event]({%slug radmaskedtextbox/server-side-programming/textchanged-event%})

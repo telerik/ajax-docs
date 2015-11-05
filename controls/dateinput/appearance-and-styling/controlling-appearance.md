@@ -26,9 +26,9 @@ A number of properties let you set the look and feel of the **RadInput** control
 
 * The **LabelCssClass** property specifies the CSS class(es) added to the label	of the RadInput control.
 
-* The **LabelWidth** property specifies the width of the label of the RadInput control. 
+* The **LabelWidth** property specifies the width of the label of the RadInput control.
 
-* The **Width** property specifies the width of the wrapper of the control. When [Single Input Rendering]({%slug input/single-input-rendering-mode%}) is enabled, the default value is 160px.
+* The **Width** property specifies the width of the wrapper of the control.
 
 In addition to the properties mentioned above, which apply to all types of **RadInput** controls, the RadDateInput has additional properties that affect its appearance.
 

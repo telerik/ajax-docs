@@ -54,6 +54,8 @@ Here are quick links to the control-specific sections of our documentation:
 
 * [DataPager]({%slug datapager/overview%})
 
+* [DateInput]({%slug raddateinput/overview%})
+
 * [DataForm]({%slug dataform/overview%})
 
 * [Diagram]({%slug diagram/overview%})
@@ -82,13 +84,13 @@ Here are quick links to the control-specific sections of our documentation:
 
 * [ImageGallery]({%slug imagegallery/overview%})
 
-* [Input]({%slug input/overview%})
-
 * [LightBox]({%slug lightbox/overview%})
 
 * [ListBox]({%slug listbox/overview%})
 
 * [ListView]({%slug listview/overview%})
+
+* [MaksedTextBox]({%slug radmaskedtextbox/overview%})
 
 * [Map]({%slug map/overview%})
 
@@ -99,6 +101,8 @@ Here are quick links to the control-specific sections of our documentation:
 * [Navigation]({%slug navigation/overview%})
 
 * [Notification]({%slug notification/overview%})
+
+* [NumericTextBox]({%slug numerictextbox/overview%})
 
 * [ODataDataSource]({%slug odatadatasource/overview%})
 
@@ -151,6 +155,8 @@ Here are quick links to the control-specific sections of our documentation:
 * [TabStrip]({%slug tabstrip/overview%})
 
 * [TagCloud]({%slug tagcloud/overview%})
+
+* [TextBox]({%slug radtextbox/overview%})
 
 * [TileList]({%slug tilelist/overview%})
 

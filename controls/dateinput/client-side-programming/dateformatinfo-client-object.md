@@ -12,9 +12,9 @@ position: 8
 
 
 
-## 
+##
 
-The DateFormatInfo client object determines how a **RadDateInput** parses dates. It is returned by the **get_dateFormatInfo()** method of the [RadDateInput client-side object]({%slug input/client-side-programming/raddateinput-client-object%}). The following table lists its properties:
+The DateFormatInfo client object determines how a **RadDateInput** parses dates. It is returned by the **get_dateFormatInfo()** method of the [RadDateInput client-side object]({%slug raddateinput/client-side-programming/raddateinput-client-object%}). The following table lists its properties:
 
 
 >caption  

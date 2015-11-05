@@ -12,7 +12,7 @@ position: 1
 
 
 
-## 
+##
 
 The **OnBlur** client-side event handler is called when the input control loses focus.
 
@@ -49,4 +49,4 @@ The following example uses the **OnBlur** event to show an alert:
 
 # See Also
 
- * [OnFocus]({%slug input/client-side-programming/events/onfocus%})
+ * [OnFocus]({%slug numerictextbox/client-side-programming/events/onfocus%})

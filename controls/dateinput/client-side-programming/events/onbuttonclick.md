@@ -12,7 +12,7 @@ position: 2
 
 
 
-## 
+##
 
 The **OnButtonClick** client-side event handler is called when the user clicks on a button associated with the input control. This can be the button that is displayed when the **ShowButton** property is **True**, or one of the spin buttons that is displayed when the **ShowSpinButtons** property is **True**.
 
@@ -59,7 +59,3 @@ Use the **OnButtonClick** event to provide a client-side response when the user 
 ````
 
 
-
-# See Also
-
- * [Adding Buttons]({%slug input/getting-started/adding-buttons%})

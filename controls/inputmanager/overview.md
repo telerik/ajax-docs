@@ -12,7 +12,7 @@ position: 1
 
 
 
-## 
+##
 
 Broadly speaking, there are two groups of controls which are extended using the RadInputManager. The first are controls which are located directly on the page, such as a normal text box somewhere on the form. The second are text boxes located in another control- for example a text box nested in a repeater.
 
@@ -110,7 +110,7 @@ Below is a list of tables covering the most important properties of the elements
 >caption  
 | Name | Description |
 | ------ | ------ |
-| **PasswordStrengthSettings**  | A group of properties used for setting up the password strength check feature when using a TextBox with TextMode set to Password. More information is available [here]({%slug input/radtextbox/password-strength-checker%}). |
+| **PasswordStrengthSettings**  | A group of properties used for setting up the password strength check feature when using a TextBox with TextMode set to Password.|
 
 
 ## RegExpTextBoxSetting

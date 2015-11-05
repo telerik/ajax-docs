@@ -12,7 +12,7 @@ position: 4
 
 
 
-## 
+##
 
 The following table lists the most important properties/methods of the **RadDateInput**client-side object:
 
@@ -32,7 +32,7 @@ Properties
 | **set_selectedDate** |Date|none|Sets the value of the control.|
 | **get_caretPosition** |none|integer|Returns the current position of the caret.|
 | **set_caretPosition** |integer|none|Sets the position of the caret.|
-| **get_styles** |none|[InputStyles]({%slug input/client-side-programming/inputstyles-client-object%})|Returns the InputStyles Client object, which can be used to change the appearance of the input control when it is first loaded.|
+| **get_styles** |none|InputStyles|Returns the InputStyles Client object, which can be used to change the appearance of the input control when it is first loaded.|
 | **get_autoPostBack** |none|boolean|Returns the value of the **AutoPostBack** property.|
 | **set_autoPostBack** |boolean|none|Enables or disables postbacks when the user changes the text in the input control.|
 | **get_enabled** |none|boolean|Returns **true** if the input control is enabled.|
@@ -45,12 +45,12 @@ Properties
 | **get_wrapperElement** |none|HTML element|Gets the DOM element for the wrapper element.|
 | **get_dateFormat** |none|string|Returns the format string for the control when it has focus.|
 | **get_displayDateFormat** |none|string|Returns the format string for the control when it does not have focus.|
-| **get_dateFormatInfo** |none|[DateFormatInfo]({%slug input/client-side-programming/dateformatinfo-client-object%})|Returns the Date Format Info object, which includes the settings used to parse date values.|
+| **get_dateFormatInfo** |none|[DateFormatInfo]({%slug raddateinput/client-side-programming/dateformatinfo-client-object%})|Returns the Date Format Info object, which includes the settings used to parse date values.|
 | **get_minDate** |none|Date|Returns the earliest valid date value.|
 | **set_minDate** |Date|none|Sets the earliest date the user can enter.|
 | **get_maxDate** |none|Date|Returns the latest valid date value.|
 | **set_maxDate** |Date|none|Sets the latest date the user can enter.|
-| **get_incrementSettings** |none|[IncrementSettings]({%slug input/client-side-programming/incrementsettings-client-object%})|Returns the Increment Settings object, which you can use to change the way the control responds to arrow keys and the mouse wheel.|
+| **get_incrementSettings** |none|IncrementSettings|Returns the Increment Settings object, which you can use to change the way the control responds to arrow keys and the mouse wheel.|
 | **get_visible** |none|boolean|Returns whether the input element is rendered as hidden or not. Does not apply if the control is inside another hidden html element.|
 | **set_visible** |boolean|none|Sets the input element as hidden on the client|
 

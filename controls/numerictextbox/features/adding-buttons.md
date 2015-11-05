@@ -1,8 +1,8 @@
 ---
 title: Adding Buttons
-page_title: Adding Buttons | RadInput for ASP.NET AJAX Documentation
+page_title: Adding Buttons | RadNumericTextBox for ASP.NET AJAX Documentation
 description: Adding Buttons
-slug: input/getting-started/adding-buttons
+slug: numerictextbox/features/adding-buttons
 tags: adding,buttons
 published: True
 position: 4
@@ -18,7 +18,7 @@ You can easily add a button to any of the **RadInput** controls by setting the *
 
 ![Show Button](images/ShowButton.png)
 
-The appearance of the arrow varies, depending on the [Skin]({%slug input/appearance-and-styling/skins%}) of the input control. To change the image of the button to something other than a bent arrow, use the **ButtonCssClass** property:
+The appearance of the arrow varies, depending on the [Skin]({%slug numerictextbox/appearance-and-styling/skins%}) of the input control. To change the image of the button to something other than a bent arrow, use the **ButtonCssClass** property:
 
 1. Define a CSS class that provides an image for the button. You can link in your own CSS file, or define the CSS class by adding a \<style\> section to the \<head\> element of your Web page:
 
@@ -70,7 +70,7 @@ If the input control has a label, setting **ButtonsPosition** to "Left" position
 
 Spin buttons have built-in behavior: when the user clicks the up arrow, the value in the text box increases by the amount of the **IncrementSettings.Step** property; when the user clicks the down arrow, the value decreases by the same amount.
 
-Generic buttons have no such built-in behavior. To implement the behavior of a generic button, write a JavaScript function that is called when the user clicks the button, and assign it as the value of the **[OnButtonClick]({%slug input/client-side-programming/events/onbuttonclick%})** client-side event:
+Generic buttons have no such built-in behavior. To implement the behavior of a generic button, write a JavaScript function that is called when the user clicks the button, and assign it as the value of the **[OnButtonClick]({%slug numerictextbox/client-side-programming/events/onbuttonclick%})** client-side event:
 
 ````ASPNET
 <script type="text/javascript">
@@ -88,6 +88,5 @@ Generic buttons have no such built-in behavior. To implement the behavior of a g
 
 # See Also
 
- * [OnButtonClick]({%slug input/client-side-programming/events/onbuttonclick%})
+ * [OnButtonClick]({%slug numerictextbox/client-side-programming/events/onbuttonclick%})
 
- * [Structure]({%slug input/getting-started/structure%})

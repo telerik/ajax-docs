@@ -2,7 +2,7 @@
 title: Formatting Numeric Values
 page_title: Formatting Numeric Values | UI for ASP.NET AJAX Documentation
 description: Formatting Numeric Values
-slug: input/radnumerictextbox/formatting-numeric-values
+slug: numerictextbox/features/formatting-numeric-values
 tags: formatting,numeric,values
 published: True
 position: 1
@@ -56,4 +56,4 @@ Since the **RadNumericTextBox** operates on both client and server side, it is l
 
 # See Also
 
- * [Overview]({%slug input/radnumerictextbox/overview%})
+ * [Overview]({%slug numerictextbox/overview%})

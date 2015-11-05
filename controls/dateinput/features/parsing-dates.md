@@ -2,7 +2,7 @@
 title: Parsing Dates
 page_title: Parsing Dates | RadDateInput for ASP.NET AJAX Documentation
 description: Parsing Dates
-slug: raddateinput/raddateinput/parsing-dates
+slug: raddateinput/features/parsing-dates
 tags: parsing,dates
 published: True
 position: 2
@@ -12,7 +12,7 @@ position: 2
 
 
 
-## 
+##
 
 **RadDateInput** tries to recognize a free-form string and convert it to a valid date. This topic describes the assumptions the control makes and the data and algorithms that it uses to do that.
 
@@ -115,4 +115,4 @@ The following example demonstrates how you could use **ValueChanging** client si
 
 # See Also
 
- * [Formatting Dates]({%slug input/raddateinput/formatting-dates%})
+ * [Formatting Dates]({%slug raddateinput/features/formatting-dates%})

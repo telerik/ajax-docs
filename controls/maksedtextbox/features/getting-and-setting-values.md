@@ -2,7 +2,7 @@
 title: Getting and Setting Values
 page_title: Getting and Setting Values | RadMaskedTextBox for ASP.NET AJAX Documentation
 description: Getting and Setting Values
-slug: radmaskedtextbox/getting-started/getting-and-setting-values
+slug: radmaskedtextbox/features/getting-and-setting-values
 tags: getting,and,setting,values
 published: True
 position: 3
@@ -15,14 +15,14 @@ position: 3
 On the server-side, each **RadInput** control uses a different property to represent its value. The following table lists the property to use to get or set the value of a **RadInput** control:
 
 
->caption  
-
 | RadInput Control | Property | Type |
 | ------ | ------ | ------ |
 |RadMaskedTextBox|Text TextWithLiterals TextWithPrompt TextWithPromptAndLiterals|String|
 |RadMaskedTextBox|TextWithLiterals TextWithPrompt TextWithPromptAndLiterals|String|
 |RadMaskedTextBox|TextWithPrompt TextWithPromptAndLiterals|String|
 |RadMaskedTextBox|TextWithPromptAndLiterals|String|
+
+
 ## Common Value Properties
 
 All of the four RadInput controls ( **RadTextBox, RadMaskedTextBox, RadDateInput, and RadNumericTextBox**)have the following common properties:
@@ -53,36 +53,34 @@ On the client side, the properties for the **RadMaskedTextBox** value use the na
 
 The following code examples show how to read the value of one **RadMaskedTextBox** control called "RadMaskedTextBox2" and use it to set the value of another, "RadMaskedTextBox1".
 
+
 ## Server-side
 
 
 
 ````C#
-
 protected void Page_Load(object sender, EventArgs e)
 {
 	RadMaskedTextBox1.Text = RadMaskedTextBox2.Text;
 }
-	
 ````
 ````VB.NET
-	
 Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
 	RadMaskedTextBox1.Text = RadMaskedTextBox2.Text
 End Sub
-	
 ````
+
 
 
 ## Client-side
 
 ````JavaScript
-	
 function CopyUnMaskedValue()
 {
 	var radMaskedTextBox1 = $find("<%= RadMaskedTextBox1.ClientID %>");
 	var radMaskedTextBox2 = $find("<%= RadMaskedTextBox2.ClientID %>");
 	radMaskedTextBox1.set_value(radMaskedTextBox2.get_value());
 }
-	
+
 ````
+

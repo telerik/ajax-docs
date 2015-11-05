@@ -12,9 +12,9 @@ position: 0
 
 
 
-**RadMaskedTextBox** is an enhanced data entry control that uses a [mask]({%slug input/radmaskedtextbox/masks%}) to distinguish between proper and improper user input. It shares the [common properties of all RadInput controls]({%slug input/server-side-programming/overview%}), including support for skins, styles for different states, empty message support, conditional postback on text change, flexible caret and button positioning, labels, and so on.
+**RadMaskedTextBox** is an enhanced data entry control that uses a [mask]({%slug radmaskedtextbox/features/masks%}) to distinguish between proper and improper user input. It shares the [common properties of all RadInput controls]({%slug radmaskedtextbox/server-side-programming/properties%}), including support for skins, styles for different states, empty message support, conditional postback on text change, flexible caret and button positioning, labels, and so on.
 
-You can use a mask to specify the accepted format such as IP address, telephone number, currency, and so on. In addition, you can use **RadMaskedTextBox** together with [validators]({%slug input/how-to/validation%}) such as the **RequiredValidator** and **RegularExpressionValidator** controls to enforce any custom validation logic.
+You can use a mask to specify the accepted format such as IP address, telephone number, currency, and so on. In addition, you can use **RadMaskedTextBox** together with [validators]({%slug radmaskedtextbox/features/validation%}) such as the **RequiredValidator** and **RegularExpressionValidator** controls to enforce any custom validation logic.
 
 ## Specifying the mask
 
@@ -22,9 +22,9 @@ At design time, to specify the mask that **RadMaskedTextBox** uses to identify p
 
 * Type the mask string directly onto the **Mask** property in the properties pane. This is the most direct method, but provides the least design-time support.
 
-* From the **RadMaskedTextBox** [Smart Tag]({%slug input/design-time/smart-tag%}), choose **SetMask** to bring up the [Input Mask Dialog]({%slug input/design-time/input-mask-dialog%}). This method lets you choose from pre-defined masks or enter your own custom mask and get immediate feedback about what the masked text box displays as a prompt to the user for that mask.
+* From the **RadMaskedTextBox** [Smart Tag]({%slug radmaskedtextbox/design-time/smart-tag%}), choose **SetMask** to bring up the [Input Mask Dialog]({%slug radmaskedtextbox/design-time/input-mask-dialog%}). This method lets you choose from pre-defined masks or enter your own custom mask and get immediate feedback about what the masked text box displays as a prompt to the user for that mask.
 
-* Click the ellipsis button next to the **MaskParts** property in the properties pane to bring up the [MaskPart Collection Editor]({%slug input/design-time/maskpart-collection-editor%}). This method lets you build up the mask bit by bit, so that you can easily configure each part of the mask using mask part properties. When you set the **MaskParts** property, the **Mask** property is automatically updated to the mask you build.
+* Click the ellipsis button next to the **MaskParts** property in the properties pane to bring up the [MaskPart Collection Editor]({%slug radmaskedtextbox/design-time/maskpart-collection-editor%}). This method lets you build up the mask bit by bit, so that you can easily configure each part of the mask using mask part properties. When you set the **MaskParts** property, the **Mask** property is automatically updated to the mask you build.
 
 At run time, you can set the mask in the following ways:
 
@@ -95,7 +95,7 @@ When a **RadMaskedTextBox** control is displayed at run time, it represents the 
 
 You can give the masked text box a different appearance when it does not have focus (when the user is not editing its value):
 
-* To change the mask that is used to format the value when the masked text box does not have focus (for example, to change the literal strings in the mask), set the **DisplayMask** property. You can set the **DisplayMask** property directly in the properties pane, or build it up bit by bit in the [MaskPart Collection Editor]({%slug input/design-time/maskpart-collection-editor%}) by setting the **DisplayMaskParts** property.
+* To change the mask that is used to format the value when the masked text box does not have focus (for example, to change the literal strings in the mask), set the **DisplayMask** property. You can set the **DisplayMask** property directly in the properties pane, or build it up bit by bit in the [MaskPart Collection Editor]({%slug radmaskedtextbox/design-time/maskpart-collection-editor%}) by setting the **DisplayMaskParts** property.
 
 >caution Note that the **DisplayMask** should contain the **Mask's** number of symbols in it. This means that the **DisplayMask** can be longer but it should never be shorter than the **Mask** .
 >
@@ -164,4 +164,4 @@ End Sub
 
 # See Also
 
- * [RadMaskedTextBox Client Object]({%slug input/client-side-programming/radmaskedtextbox-client-object%})
+ * [RadMaskedTextBox Client Object]({%slug radmaskedtextbox/client-side-programming/radmaskedtextbox-client-object%})

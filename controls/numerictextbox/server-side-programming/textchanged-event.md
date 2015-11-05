@@ -12,7 +12,7 @@ position: 1
 
 
 
-## 
+##
 
 All **RadInput** controls provide the **TextChanged** server event,which is raised when the **AutoPostBack** property is set to **true**, the user types valid entry, and the input loses focus.
 
@@ -44,7 +44,7 @@ protected void RadInput_TextChanged(object sender, EventArgs e)
 		RadNumericTextBox ntb = (RadNumericTextBox)sender;
 		RadComboBox1.SelectedIndex = ntb.Value;
 	}
-	
+
 }
 ````
 ````VB.NET
@@ -60,7 +60,5 @@ End Sub
 # See Also
 
  * [Getting and Setting Values]({%slug numerictextbox/features/getting-and-setting-values%})
-
- * [Client-side programming Overview]({%slug numerictextbox/client-side-programming/events/overview%})
 
  * [OnValueChanging]({%slug numerictextbox/client-side-programming/events/onvaluechanging%})

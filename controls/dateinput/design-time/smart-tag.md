@@ -21,9 +21,9 @@ The **RadDateInput** Smart Tag contains the same **Ajax Resources**, **Skin**, a
 
 RadDateInput Tasks
 
-* **Set Display Date Format** brings up the [Date Format Dialog]({%slug input/design-time/date-format-dialog%}), where you can assign a value to the **DisplayDateFormat** property.The **DisplayDateFormat** property governs the format of the **SelectedDate** value when the **RadDateInput** control does not have focus.
+* **Set Display Date Format** brings up the [Date Format Dialog]({%slug raddateinput/design-time/date-format-dialog%}), where you can assign a value to the **DisplayDateFormat** property.The **DisplayDateFormat** property governs the format of the **SelectedDate** value when the **RadDateInput** control does not have focus.
 
-* **Set Date Format** brings up the [Date Format Dialog]({%slug input/design-time/date-format-dialog%}), where you can assign a value to the **DateFormat** property.The **DateFormat** property governs the format of the **SelectedDate** value when the **RadDateInput** control has focus (when the user can edit its value).
+* **Set Date Format** brings up the [Date Format Dialog]({%slug raddateinput/design-time/date-format-dialog%}), where you can assign a value to the **DateFormat** property.The **DateFormat** property governs the format of the **SelectedDate** value when the **RadDateInput** control has focus (when the user can edit its value).
 
 * **MinDate** specifies the minimal date which the user will be allowed to enter
 

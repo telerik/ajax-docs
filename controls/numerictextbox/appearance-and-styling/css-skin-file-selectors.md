@@ -2,7 +2,7 @@
 title: CSS Skin File Selectors
 page_title: CSS Skin File Selectors | RadInput for ASP.NET AJAX Documentation
 description: CSS Skin File Selectors
-slug: input/appearance-and-styling/css-skin-file-selectors
+slug: numerictextbox/appearance-and-styling/css-skin-file-selectors
 tags: css,skin,file,selectors
 published: True
 position: 6
@@ -43,7 +43,7 @@ The following table lists significant CSS selectors and descriptions that apply 
 |.riDown|A|The class for the "down" spin button.|Yes|Yes|
 |.riButton|A|The class for the image button.|Yes| **No** |
 
-\*Last two columns indicate whether the class is supported in [Single Input Rendering]({%slug input/single-input-rendering-mode%}) mode or OldRendering mode.
+\*Last two columns indicate whether the class is supported in Single Input Rendering mode or OldRendering mode.
 
 
 

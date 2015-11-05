@@ -12,7 +12,7 @@ position: 12
 
 
 
-## 
+##
 
 The **OnMouseOver** client-side event handler is called when the mouse moves over the input area of the control.
 
@@ -46,4 +46,4 @@ The following example uses the **OnMouseOver** event to display an alert:
 
 # See Also
 
- * [OnMouseOut]({%slug input/client-side-programming/events/onmouseout%})
+ * [OnMouseOut]({%slug radmaskedtextbox/client-side-programming/events/onmouseout%})

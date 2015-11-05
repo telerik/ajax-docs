@@ -12,7 +12,7 @@ position: 0
 
 
 
-## 
+##
 
 The **RadInput** controls support a number of client-side events that let you respond to user actions without a postback. The following table lists the various client events, and which controls they apply to:
 
@@ -21,20 +21,20 @@ The **RadInput** controls support a number of client-side events that let you re
 
 |  **Event**  |  **Applies to**  |  **Description**  |
 | ------ | ------ | ------ |
-|[OnValueChanged]({%slug input/client-side-programming/events/onvaluechanged%})|all **RadInput** controls|Occurs after a new value has been assigned when the control loses focus.|
-|[OnFocus]({%slug input/client-side-programming/events/onfocus%})|all **RadInput** controls|Occurs when the control gets focus, if it is not ReadOnly.|
-|[OnBlur]({%slug input/client-side-programming/events/onblur%})|all **RadInput** controls|Occurs when the control loses focus, if it is not ReadOnly.|
-|[OnButtonClick]({%slug input/client-side-programming/events/onbuttonclick%})|all **RadInput** controls|Occurs when the user clicks on the button that is associated with the input control.|
-|[OnKeyPress]({%slug input/client-side-programming/events/onkeypress%})|all **RadInput** controls.|Occurs when the user presses a key to enter a value.|
-|[OnDisable]({%slug input/client-side-programming/events/ondisable%})|all **RadInput** controls|Occurs when the control is disabled.|
-|[OnEnable]({%slug input/client-side-programming/events/onenable%})|all **RadInput** controls|Occurs when the control is enabled.|
-|[OnError]({%slug input/client-side-programming/events/onerror%})| **RadNumericTextBox** , **RadMaskedTextBox** , and **RadDateInput** |Occurs when the user enters an invalid value.|
-|[OnLoad]({%slug input/client-side-programming/events/onload%})|all **RadInput** controls|Occurs when the control is loaded on the client.|
-|[OnMouseOver]({%slug input/client-side-programming/events/onmouseover%})|all **RadInput** controls|Occurs when the mouse enters the input area.|
-|[OnMouseOut]({%slug input/client-side-programming/events/onmouseout%})|all **RadInput** controls|Occurs when the mouse leaves the input area.|
-|[OnMoveDown]({%slug input/client-side-programming/events/onmovedown%})| **RadMaskedTextBox** |Occurs when the user decreases the value of an enumeration or numeric range mask part.|
-|[OnMoveUp]({%slug input/client-side-programming/events/onmoveup%})| **RadMaskedTextBox** |Occurs when the user increases the value of an enumeration or numeric range mask part.|
-|[OnEnumerationChanged]({%slug input/client-side-programming/events/onenumerationchanged%})| **RadMaskedTextBox** |Occurs when the value of an enumeration part of a mask is set.|
+|[OnValueChanged]({%slug radmaskedtextbox/client-side-programming/events/onvaluechanged%})|all **RadInput** controls|Occurs after a new value has been assigned when the control loses focus.|
+|[OnFocus]({%slug radmaskedtextbox/client-side-programming/events/onfocus%})|all **RadInput** controls|Occurs when the control gets focus, if it is not ReadOnly.|
+|[OnBlur]({%slug radmaskedtextbox/client-side-programming/events/onblur%})|all **RadInput** controls|Occurs when the control loses focus, if it is not ReadOnly.|
+|[OnButtonClick]({%slug radmaskedtextbox/client-side-programming/events/onbuttonclick%})|all **RadInput** controls|Occurs when the user clicks on the button that is associated with the input control.|
+|[OnKeyPress]({%slug radmaskedtextbox/client-side-programming/events/onkeypress%})|all **RadInput** controls.|Occurs when the user presses a key to enter a value.|
+|[OnDisable]({%slug radmaskedtextbox/client-side-programming/events/ondisable%})|all **RadInput** controls|Occurs when the control is disabled.|
+|[OnEnable]({%slug radmaskedtextbox/client-side-programming/events/onenable%})|all **RadInput** controls|Occurs when the control is enabled.|
+|[OnError]({%slug radmaskedtextbox/client-side-programming/events/onerror%})| **RadNumericTextBox** , **RadMaskedTextBox** , and **RadDateInput** |Occurs when the user enters an invalid value.|
+|[OnLoad]({%slug radmaskedtextbox/client-side-programming/events/onload%})|all **RadInput** controls|Occurs when the control is loaded on the client.|
+|[OnMouseOver]({%slug radmaskedtextbox/client-side-programming/events/onmouseover%})|all **RadInput** controls|Occurs when the mouse enters the input area.|
+|[OnMouseOut]({%slug radmaskedtextbox/client-side-programming/events/onmouseout%})|all **RadInput** controls|Occurs when the mouse leaves the input area.|
+|[OnMoveDown]({%slug radmaskedtextbox/client-side-programming/events/onmovedown%})| **RadMaskedTextBox** |Occurs when the user decreases the value of an enumeration or numeric range mask part.|
+|[OnMoveUp]({%slug radmaskedtextbox/client-side-programming/events/onmoveup%})| **RadMaskedTextBox** |Occurs when the user increases the value of an enumeration or numeric range mask part.|
+|[OnEnumerationChanged]({%slug radmaskedtextbox/client-side-programming/events/onenumerationchanged%})| **RadMaskedTextBox** |Occurs when the value of an enumeration part of a mask is set.|
 
 
 To use these events, simply write a javascript function that can be called when the event occurs. Then assign the name of the javascript function as the value of the the corresponding property.

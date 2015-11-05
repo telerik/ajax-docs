@@ -12,7 +12,7 @@ position: 3
 
 
 
-## 
+##
 
 The following table lists the most important properties/methods of the **RadMaskedTextBox** client-side object:
 
@@ -36,7 +36,7 @@ Properties
 | **get_displayPromptChar** |none|character|Returns the prompt character that is used when the text box does not have focus.|
 | **get_caretPosition** |none|integer|Returns the current position of the caret.|
 | **set_caretPosition** |integer|none|Sets the position of the caret.|
-| **get_styles** |none|[InputStyles]({%slug input/client-side-programming/inputstyles-client-object%})|Returns the InputStyles Client object, which can be used to change the appearance of the text box when it is first loaded.|
+| **get_styles** |none|InputStyles|Returns the InputStyles Client object, which can be used to change the appearance of the text box when it is first loaded.|
 | **get_autoPostBack** |none|boolean|Returns the value of the **AutoPostBack** property.|
 | **set_autoPostBack** |boolean|none|Enables or disables postbacks when the user changes the text in the text box.|
 | **get_enabled** |none|boolean|Returns **true** if the text box is enabled.|

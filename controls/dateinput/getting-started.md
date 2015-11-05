@@ -12,7 +12,7 @@ position: 0
 
 
 
-## 
+##
 
 This tutorial will walk you through creating a Web page that uses **RadInput** controls. It shows how to:
 
@@ -32,7 +32,7 @@ This tutorial will walk you through creating a Web page that uses **RadInput** c
 1. In the **RadDateInput** Smart Tag, click the link labelled **Set Display Date Format**.
 ![Set DisplayDateFormat](images/SetDisplayDateFormat.png)
 
-1. The [Date Format dialog]({%slug input/design-time/date-format-dialog%}) appears. Enter the string "dd MMMM yyyy - ddd hh:mm" as a **CustomDate Time Format** and click **OK.**
+1. The [Date Format dialog]({%slug raddateinput/design-time/date-format-dialog%}) appears. Enter the string "dd MMMM yyyy - ddd hh:mm" as a **CustomDate Time Format** and click **OK.**
 ![DateFormat editor](images/DateFormatEditor.png)
 	The string you entered in the **Date Format dialog** becomes the value of the **DisplayDate** property. That is, it is the ASP.NET DateTime format string that the **RadDateInput** control uses to display its current value when it does not have focus.
 
@@ -50,7 +50,7 @@ This tutorial will walk you through creating a Web page that uses **RadInput** c
 
 1. In the designer, type the enter key to add a line or two after the **RadDateInput** control, and then drag a **RadNumericTextBox** control from the toolbox onto the design surface.
 
-1. Run the application. The strings you entered for the **EmptyMessage** properties appear in the input controls, because they do not have any values entered. 
+1. Run the application. The strings you entered for the **EmptyMessage** properties appear in the input controls, because they do not have any values entered.
 
 1. Experiment with entering date and time value. Note that the control uses a different format, depending on whether it has input focus.
 

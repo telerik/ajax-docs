@@ -1,8 +1,8 @@
 ---
 title: Overview
-page_title: Client-side Programming Overview | RadInput for ASP.NET AJAX Documentation
+page_title: Client-side Programming Overview | RadDateInput for ASP.NET AJAX Documentation
 description: Overview
-slug: input/client-side-programming/overview
+slug: raddateinput/client-side-programming/overview
 tags: overview
 published: True
 position: 0
@@ -12,7 +12,7 @@ position: 0
 
 
 
-The **RadInput** controls provide a flexible client-side API. You can easily interact with the controls in the browser using their client-side objects. In addition to a variety of [client-side events]({%slug input/client-side-programming/events/overview%}), the client-side object model lets you achieve complicated tasks while avoiding unnecessary post-backs.
+The **RadInput** controls provide a flexible client-side API. You can easily interact with the controls in the browser using their client-side objects. In addition to a variety of [client-side events]({%slug raddateinput/client-side-programming/events/overview%}), the client-side object model lets you achieve complicated tasks while avoiding unnecessary post-backs.
 
 ## Getting the client-side object
 

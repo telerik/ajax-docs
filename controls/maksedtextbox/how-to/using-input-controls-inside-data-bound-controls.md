@@ -12,7 +12,7 @@ position: 0
 
 
 
-## 
+##
 
 You can embed **RadInput** controls in a data-bound control and use it for editing. When the data-bound controlcreates the **RadTextBox**, **RadNumericTextBox**, **RadDateInput**, or **RadMaskedTextBox** control as part of its own rendering, it can extract the input values.
 
@@ -105,4 +105,4 @@ The following example shows how to use the different **RadInput** controls insid
 
 # See Also
 
- * [Getting and Setting Values]({%slug input/getting-started/getting-and-setting-values%})
+ * [Getting and Setting Values]({%slug radmaskedtextbox/features/getting-and-setting-values%})

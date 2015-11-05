@@ -12,7 +12,7 @@ position: 0
 
 
 
-## 
+##
 
 The **RadInput** controls support a number of client-side events that let you respond to user actions without a postback. The following table lists the various client events, and which controls they apply to:
 
@@ -21,18 +21,18 @@ The **RadInput** controls support a number of client-side events that let you re
 
 |  **Event**  |  **Applies to**  |  **Description**  |
 | ------ | ------ | ------ |
-|[OnValueChanging]({%slug input/client-side-programming/events/onvaluechanging%})| **RadTextBox** , **RadNumericTextBox** , and **RadDateInput** |Occurs when the control loses focus after the user has changed its value, before the new value is assigned.|
-|[OnValueChanged]({%slug input/client-side-programming/events/onvaluechanged%})|all **RadInput** controls|Occurs after a new value has been assigned when the control loses focus.|
-|[OnFocus]({%slug input/client-side-programming/events/onfocus%})|all **RadInput** controls|Occurs when the control gets focus, if it is not ReadOnly.|
-|[OnBlur]({%slug input/client-side-programming/events/onblur%})|all **RadInput** controls|Occurs when the control loses focus, if it is not ReadOnly.|
-|[OnButtonClick]({%slug input/client-side-programming/events/onbuttonclick%})|all **RadInput** controls|Occurs when the user clicks on the button that is associated with the input control.|
-|[OnKeyPress]({%slug input/client-side-programming/events/onkeypress%})|all **RadInput** controls.|Occurs when the user presses a key to enter a value.|
-|[OnDisable]({%slug input/client-side-programming/events/ondisable%})|all **RadInput** controls|Occurs when the control is disabled.|
-|[OnEnable]({%slug input/client-side-programming/events/onenable%})|all **RadInput** controls|Occurs when the control is enabled.|
-|[OnError]({%slug input/client-side-programming/events/onerror%})| **RadNumericTextBox** , **RadDateInput** , and **RadDateInput** |Occurs when the user enters an invalid value.|
-|[OnLoad]({%slug input/client-side-programming/events/onload%})|all **RadInput** controls|Occurs when the control is loaded on the client.|
-|[OnMouseOver]({%slug input/client-side-programming/events/onmouseover%})|all **RadInput** controls|Occurs when the mouse enters the input area.|
-|[OnMouseOut]({%slug input/client-side-programming/events/onmouseout%})|all **RadInput** controls|Occurs when the mouse leaves the input area.|
+|[OnValueChanging]({%slug raddateinput/client-side-programming/events/onvaluechanging%})| **RadTextBox** , **RadNumericTextBox** , and **RadDateInput** |Occurs when the control loses focus after the user has changed its value, before the new value is assigned.|
+|[OnValueChanged]({%slug raddateinput/client-side-programming/events/onvaluechanged%})|all **RadInput** controls|Occurs after a new value has been assigned when the control loses focus.|
+|[OnFocus]({%slug raddateinput/client-side-programming/events/onfocus%})|all **RadInput** controls|Occurs when the control gets focus, if it is not ReadOnly.|
+|[OnBlur]({%slug raddateinput/client-side-programming/events/onblur%})|all **RadInput** controls|Occurs when the control loses focus, if it is not ReadOnly.|
+|[OnButtonClick]({%slug raddateinput/client-side-programming/events/onbuttonclick%})|all **RadInput** controls|Occurs when the user clicks on the button that is associated with the input control.|
+|[OnKeyPress]({%slug raddateinput/client-side-programming/events/onkeypress%})|all **RadInput** controls.|Occurs when the user presses a key to enter a value.|
+|[OnDisable]({%slug raddateinput/client-side-programming/events/ondisable%})|all **RadInput** controls|Occurs when the control is disabled.|
+|[OnEnable]({%slug raddateinput/client-side-programming/events/onenable%})|all **RadInput** controls|Occurs when the control is enabled.|
+|[OnError]({%slug raddateinput/client-side-programming/events/onerror%})| **RadNumericTextBox** , **RadDateInput** , and **RadDateInput** |Occurs when the user enters an invalid value.|
+|[OnLoad]({%slug raddateinput/client-side-programming/events/onload%})|all **RadInput** controls|Occurs when the control is loaded on the client.|
+|[OnMouseOver]({%slug raddateinput/client-side-programming/events/onmouseover%})|all **RadInput** controls|Occurs when the mouse enters the input area.|
+|[OnMouseOut]({%slug raddateinput/client-side-programming/events/onmouseout%})|all **RadInput** controls|Occurs when the mouse leaves the input area.|
 
 >note On **RadDateInput** , there is another client event property, **OnClientDateChanged** , which maps directly onto the **OnValueChanged** property.
 >

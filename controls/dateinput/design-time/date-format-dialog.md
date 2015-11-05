@@ -12,13 +12,13 @@ position: 3
 
 
 
-## 
+##
 
 The **Date Format Dialog** lets you to create or edit the date format that the **RadDateInput** control uses to display its data. There are two ways to display the Date Format Dialog:
 
-* From the **RadDateInput** control's [Smart Tag]({%slug input/design-time/smart-tag%}), choose the **Set Display Date Format** link. When you choose the **Set Display Date Format** link, the format string you create or modify is the value of the **DisplayDateFormat** property, which controls the appearance of the date value when the control does not have focus.
+* From the **RadDateInput** control's [Smart Tag]({%slug raddateinput/design-time/smart-tag%}), choose the **Set Display Date Format** link. When you choose the **Set Display Date Format** link, the format string you create or modify is the value of the **DisplayDateFormat** property, which controls the appearance of the date value when the control does not have focus.
 
-* From the **RadDateInput** control's [Smart Tag]({%slug input/design-time/smart-tag%}), choose the **Set Date Format** link. When you choose the **Set Date Format** link, the format string you create or modify is the value of the **DateFormat** property, which controls the appearance of the date value when the user can edit it.
+* From the **RadDateInput** control's [Smart Tag]({%slug raddateinput/design-time/smart-tag%}), choose the **Set Date Format** link. When you choose the **Set Date Format** link, the format string you create or modify is the value of the **DateFormat** property, which controls the appearance of the date value when the user can edit it.
 ![DateFormat](images/DateFormat.png)
 
 At the top of the dialog is a table of standard ASP.NET date format strings that you can choose, along with expanded date format strings to indicate their value given the current culture settings.

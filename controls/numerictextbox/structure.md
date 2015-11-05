@@ -2,7 +2,7 @@
 title: Structure
 page_title: Structure | RadNumericTextBox for ASP.NET AJAX Documentation
 description: Structure
-slug: numeric-textbox/getting-started/structure
+slug: numerictextbox/structure
 tags: structure
 published: True
 position: 1
@@ -12,7 +12,7 @@ position: 1
 
 
 
-## 
+##
 
 The four types of **RadInput** controls (**RadTextBox**, **RadNumericTextBox**, **RadMaskedTextBox**, and **RadDateInput**) all have the same basic structure except that only RadNumericTextBox has spin buttons. This structure is illustrated below for **RadNumericTextBox**:
 

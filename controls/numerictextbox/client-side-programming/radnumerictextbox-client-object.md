@@ -12,7 +12,7 @@ position: 2
 
 
 
-## 
+##
 
 The following table lists the most important properties/methods of the **RadNumericTextBox** client-side object:
 
@@ -31,7 +31,7 @@ Properties
 | **set_textBoxValue** |string|none|Sets the text that will be displayed in the text box.|
 | **get_caretPosition** |none|integer|Returns the current position of the caret.|
 | **set_caretPosition** |integer|none|Sets the position of the caret.|
-| **get_styles** |none|[InputStyles]({%slug input/client-side-programming/inputstyles-client-object%})|Returns the InputStyles Client object, which can be used to change the appearance of the text box when it is first loaded.|
+| **get_styles** |none|InputStyles|Returns the InputStyles Client object, which can be used to change the appearance of the text box when it is first loaded.|
 | **get_autoPostBack** |none|boolean|Returns the value of the **AutoPostBack** property.|
 | **set_autoPostBack** |boolean|none|Enables or disables postbacks when the user changes the text in the text box.|
 | **get_enabled** |none|boolean|Returns **true** if the text box is enabled.|
@@ -43,8 +43,8 @@ Properties
 | **set_emptyMessage** |string|none|Sets the message that appears when the text box value is an empty string.|
 | **get_element** |none|HTML element|Gets the DOM element for the input element that holds the edit value.|
 | **get_wrapperElement** |none|HTML element|Gets the DOM element for the wrapper element.|
-| **get_incrementSettings** |none|[IncrementSettings]({%slug input/client-side-programming/incrementsettings-client-object%})|Returns the Increment Settings object, which you can use to change the way the text box responds to arrow keys, the mouse wheel, and (if they are showing) the spin buttons.|
-| **get_numberFormat** |none|[NumberFormat]({%slug input/client-side-programming/numberformat-client-object%})|Returns the Number format client object, which you can use to change the way the text box formats its value when it does not have focus.|
+| **get_incrementSettings** |none|IncrementSettings|Returns the Increment Settings object, which you can use to change the way the text box responds to arrow keys, the mouse wheel, and (if they are showing) the spin buttons.|
+| **get_numberFormat** |none|[NumberFormat]({%slug numerictextbox/client-side-programming/numberformat-client-object%})|Returns the Number format client object, which you can use to change the way the text box formats its value when it does not have focus.|
 | **get_maxValue** |none|number|Returns the maximum value the user can enter.|
 | **set_maxValue** |number|none|Sets the maximum value the user can enter.|
 | **get_minValue** |none|number|Returns the minimum value the user can enter.|

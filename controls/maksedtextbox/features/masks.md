@@ -1,8 +1,8 @@
 ---
 title: Masks
-page_title: Masks | RadInput for ASP.NET AJAX Documentation
+page_title: Masks | RadMaksedTextBox for ASP.NET AJAX Documentation
 description: Masks
-slug: input/radmaskedtextbox/masks
+slug: radmaskedtextbox/features/masks
 tags: masks
 published: True
 position: 1
@@ -12,7 +12,7 @@ position: 1
 
 
 
-## 
+##
 
 **RadMaskedTextBox** uses a mask string to control the text the user can enter. The string is composed of one or more of the mask elements, as shown the table below:
 
@@ -34,6 +34,6 @@ position: 1
 
 # See Also
 
- * [Input Mask Dialog]({%slug input/design-time/input-mask-dialog%})
+ * [Input Mask Dialog]({%slug radmaskedtextbox/design-time/input-mask-dialog%})
 
- * [MaskPart Collection Editor]({%slug input/design-time/maskpart-collection-editor%})
+ * [MaskPart Collection Editor]({%slug radmaskedtextbox/design-time/maskpart-collection-editor%})

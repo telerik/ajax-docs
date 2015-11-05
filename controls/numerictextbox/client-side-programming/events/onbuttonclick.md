@@ -12,7 +12,7 @@ position: 2
 
 
 
-## 
+##
 
 The **OnButtonClick** client-side event handler is called when the user clicks on a button associated with the input control. This can be the button that is displayed when the **ShowButton** property is **True**, or one of the spin buttons that is displayed when the **ShowSpinButtons** property is **True**.
 
@@ -34,14 +34,15 @@ Two parameters are passed to the event handler:
 
 		* The downward spin button.
 
+
 Use the **OnButtonClick** event to provide a client-side response when the user clicks on a button:
+
 
 ````ASPNET
 <telerik:RadNumericTextBox ID="RadNumericTextBox1" runat="server" ShowButton="True">
 	<ClientEvents OnButtonClick="ToggleEnabled" />
 </telerik:RadNumericTextBox>
 ````
-
 
 
 ````JavaScript
@@ -55,3 +56,4 @@ Use the **OnButtonClick** event to provide a client-side response when the user 
 	}
 </script>
 ````
+

@@ -12,7 +12,7 @@ position: 0
 
 
 
-The **RadInput** controls provide a flexible client-side API. You can easily interact with the controls in the browser using their client-side objects. In addition to a variety of [client-side events]({%slug input/client-side-programming/events/overview%}), the client-side object model lets you achieve complicated tasks while avoiding unnecessary post-backs.
+The **RadInput** controls provide a flexible client-side API. You can easily interact with the controls in the browser using their client-side objects. In addition to a variety of [client-side events]({%slug radmaskedtextbox/client-side-programming/events/overview%}), the client-side object model lets you achieve complicated tasks while avoiding unnecessary post-backs.
 
 ## Getting the client-side object
 
@@ -22,7 +22,7 @@ All the API methods are accessible via the registered JavaScript objects for eac
 <script type="text/javascript">
 	function pageLoad() {
 		var maskedInput = $find("<%= RadMaskedTextBox1.ClientID %>");
-		
+
 	}
 </script>
 ````

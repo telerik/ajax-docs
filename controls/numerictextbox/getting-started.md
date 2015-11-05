@@ -2,7 +2,7 @@
 title: Getting Started
 page_title: Getting Started Overview | RadInput for ASP.NET AJAX Documentation
 description: Overview
-slug: input/getting-started/overview
+slug: numerictextbox/getting-started
 tags: overview
 published: True
 position: 0
@@ -12,7 +12,7 @@ position: 0
 
 
 
-## 
+##
 
 This tutorial will walk you through creating a Web page that uses **RadInput** controls. It shows how to:
 

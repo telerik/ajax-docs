@@ -12,7 +12,7 @@ position: 1
 
 
 
-## 
+##
 
 All **RadInput** controls provide the **TextChanged** server event,which is raised when the **AutoPostBack** property is set to **true**, the user types valid entry, and the input loses focus.
 
@@ -40,7 +40,7 @@ protected void RadInput_TextChanged(object sender, EventArgs e)
 		HttpCookie = Response.Cookies.Get(mtb.TextWithLiterals);
 		Button1.Enabled = (HttpCookie != null);
 	}
-	
+
 }
 ````
 ````VB.NET
@@ -60,4 +60,3 @@ End Sub
 
  * [Client-side programming Overview]({%slug radmaskedtextbox/client-side-programming/events/overview%})
 
- * [OnValueChanging]({%slug radmaskedtextbox/client-side-programming/events/onvaluechanging%})

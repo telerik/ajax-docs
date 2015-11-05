@@ -2,7 +2,7 @@
 title: Styles
 page_title: Styles | RadMaskedTextBox for ASP.NET AJAX Documentation
 description: Styles
-slug: radraskedtextbox/appearance-and-styling/styles
+slug: radmaskedtextbox/appearance-and-styling/styles
 tags: styles
 published: True
 position: 1
@@ -12,9 +12,9 @@ position: 1
 
 
 
-## 
+##
 
-All four types of **RadInput** controls come with a set of predefined styles, which are specified by the styles in the current [skin]({%slug input/appearance-and-styling/skins%}). If you have assigned a value to the **Skin** property, you can use a variety of style properties to customize the way the input control changes its appearance depending on its state.
+All four types of **RadInput** controls come with a set of predefined styles, which are specified by the styles in the current [skin]({%slug radmaskedtextbox/appearance-and-styling/skins%}). If you have assigned a value to the **Skin** property, you can use a variety of style properties to customize the way the input control changes its appearance depending on its state.
 
 The following table lists the various style properties:
 
@@ -64,4 +64,4 @@ Each sub-property is an attribute of the HTML element for the rendered input con
 
 # See Also
 
- * [HTML Output and CSS Styling]({%slug numerictextbox/appearance-and-styling/html-output-and-css-styling%})
+ * [HTML Output and CSS Styling]({%slug radmaskedtextbox/appearance-and-styling/html-output-and-css-styling%})

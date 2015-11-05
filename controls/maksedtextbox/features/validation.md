@@ -71,3 +71,4 @@ if (ValidatorUpdateDisplay && typeof (ValidatorUpdateDisplayOriginal) === "undef
 <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" Text="password is required" ControlToValidate="RadMaskedTextBox2"
 	Style="display: none;"></asp:RequiredFieldValidator>
 ````
+

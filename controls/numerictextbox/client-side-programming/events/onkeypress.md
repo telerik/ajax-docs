@@ -2,7 +2,7 @@
 title: OnKeyPress
 page_title: OnKeyPress | RadNumericTextBox for ASP.NET AJAX Documentation
 description: OnKeyPress
-slug: input/client-side-programming/events/onkeypress
+slug: numerictextbox/client-side-programming/events/onkeypress
 tags: onkeypress
 published: True
 position: 9
@@ -12,7 +12,7 @@ position: 9
 
 
 
-## 
+##
 
 The **OnKeyPress** client-side event handler is called when the user presses a key and is supported by all **RadInput** controls.
 
@@ -26,7 +26,7 @@ Two parameters are passed to the event handler:
 
 * **eventArgs** has the following methods:
 
-	* **set_cancel()** lets you prevent the key press from entering a new character into the input control. 
+	* **set_cancel()** lets you prevent the key press from entering a new character into the input control.
 
 	* **get_keyCode()** returns the key code for the key that was pressed.
 

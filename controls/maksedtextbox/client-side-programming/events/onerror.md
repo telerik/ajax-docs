@@ -12,7 +12,7 @@ position: 7
 
 
 
-## 
+##
 
 The **OnError** client-side event handler is called when the input control detects that the user has tried to enter an invalid value. The input control may detect the error when the user presses a key to enter an invalid character, or after the input control loses focus and parses the value the user entered.
 
@@ -55,14 +55,10 @@ The following example uses the **OnError** event to raise an alert when an error
 				sender.set_cursorPosition(part.offset);
 			}
 		}
-		
+
 		eventArgs.set_cancel(true);
 	}
 </script>
 ````
 
 
-
-# See Also
-
- * [OnValueChanging]({%slug radmaskedtextbox/client-side-programming/events/onvaluechanging%})

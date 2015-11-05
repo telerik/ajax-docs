@@ -12,7 +12,7 @@ position: 9
 
 
 
-## 
+##
 
 The **OnKeyPress** client-side event handler is called when the user presses a key and is supported by all **RadInput** controls.
 
@@ -26,7 +26,7 @@ Two parameters are passed to the event handler:
 
 * **eventArgs** has the following methods:
 
-	* **set_cancel()** lets you prevent the key press from entering a new character into the input control. 
+	* **set_cancel()** lets you prevent the key press from entering a new character into the input control.
 
 	* **get_keyCode()** returns the key code for the key that was pressed.
 
@@ -59,6 +59,3 @@ The following example uses the **OnKeyPress** event to limit input to the letter
 
 During the **OnKeyPress** event the value is still not updated, therefore, **sender.get_value()** will return the old one.
 
-# See Also
-
- * [OnValueChanging]({%slug radmaskedtextbox/client-side-programming/events/onvaluechanging%})

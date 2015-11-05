@@ -12,7 +12,7 @@ position: 5
 
 
 
-## 
+##
 
 The **OnEnable** client-side event handler is called when the input control is enabled.
 
@@ -66,4 +66,4 @@ The following example uses the **OnEnable** event to disable another control whe
 
 # See Also
 
- * [OnDisable]({%slug input/client-side-programming/events/ondisable%})
+ * [OnDisable]({%slug radmaskedtextbox/client-side-programming/events/ondisable%})

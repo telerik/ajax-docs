@@ -2,7 +2,7 @@
 title: Receiving Focus
 page_title: Receiving Focus | RadMaskedTextBox for ASP.NET AJAX Documentation
 description: Receiving Focus
-slug: radmaskedtextbox/getting-started/receiving-focus
+slug: radmaskedtextbox/features/receiving-focus
 tags: receiving,focus
 published: True
 position: 5
@@ -12,7 +12,7 @@ position: 5
 
 
 
-## 
+##
 
 How a **RadInput** control behaves when it receives focus can be controlled by setting the **SelectionOnFocus** property. It can be set to any of the following values:
 

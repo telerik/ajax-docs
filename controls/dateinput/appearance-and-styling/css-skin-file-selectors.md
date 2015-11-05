@@ -44,8 +44,6 @@ The following table lists significant CSS selectors and descriptions that apply 
 |.riDown|A|The class for the "down" spin button.|Yes|Yes|
 |.riButton|A|The class for the image button.|Yes| **No** |
 
-\*Last two columns indicate whether the class is supported in [Single Input Rendering]({%slug input/single-input-rendering-mode%}) mode or OldRendering mode.
-
 
 # See Also
 

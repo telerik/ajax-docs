@@ -1,8 +1,8 @@
 ---
 title: MaskPart Collection Editor
-page_title: MaskPart Collection Editor | RadInput for ASP.NET AJAX Documentation
+page_title: MaskPart Collection Editor | RadMaskedTextBox for ASP.NET AJAX Documentation
 description: MaskPart Collection Editor
-slug: input/design-time/maskpart-collection-editor
+slug: radmaskedtextbox/design-time/maskpart-collection-editor
 tags: maskpart,collection,editor
 published: True
 position: 2
@@ -12,14 +12,14 @@ position: 2
 
 
 
-## 
+##
 
 The **MaskPart Collection Editor** lets you create and modify the masks that are the values of the **RadMaskedTextBox** control's **Mask** and **DisplayMask** properties. You can display the MaskPart Collection Editor in two ways:
 
 * From the **RadMaskedTextBox** properties pane, click the ellipsis button next to the **MaskPart** property. When you bring up the MaskPart Collection Editor in this way, the mask you create is assigned to the **Mask** property, which controls the mask that is used when the user can edit the value.
 
 * From the **RadMaskedTextBox** properties pane, click the ellipsis button next to the **DisplayMaskPart** property. When you bring up the MaskPart Collection Editor in this way, the mask you create is assigned to the **DisplayMask** property, which controls the format of the value when the masked text box does not have focus.
->caption 
+>caption
 ![](images/MaskPartCollectionEditor.png)
 
 The **MaskPart Collection Editor** lets you define an input mask by building it up out of its constituent parts.
@@ -46,6 +46,6 @@ The **MaskPart Collection Editor** lets you define an input mask by building it 
 
 # See Also
 
- * [Input Mask Dialog]({%slug input/design-time/input-mask-dialog%})
+ * [Input Mask Dialog]({%slug radmaskedtextbox/design-time/input-mask-dialog%})
 
- * [Masks]({%slug input/radmaskedtextbox/masks%})
+ * [Masks]({%slug radmaskedtextbox/features/masks%})

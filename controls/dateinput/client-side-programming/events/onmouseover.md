@@ -12,7 +12,7 @@ position: 12
 
 
 
-## 
+##
 
 The **OnMouseOver** client-side event handler is called when the mouse moves over the input area of the control.
 
