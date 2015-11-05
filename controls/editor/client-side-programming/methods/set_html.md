@@ -25,7 +25,7 @@ The table below shows more details about their purpose:
 | ------ | ------ | ------ |
 | **content** | **String** |The HTML content, that will be set in Telerik RadEditor.|
 | **title** | **String** |The command's title shown in the Undo stack. This is an optional parameter, the default value is " *Set HTML* ".|
-| **setFocus** | **Boolean** |Specifies whether setFocus to be fired after the command execution. This is an optional parameter, the default value is *true* .|
+| **setFocus** | **Boolean** |Specifies whether setFocus to be fired after the command execution. This is an optional parameter, the default value is *true*. When *true* the cursor will appear at the beggining of the content placed.|
 | **raiseSelChanged** | **Boolean** |Indicates whether to raise selectioChange event. This is an optional parameter, the default value is *true* .|
 
 The example below demonstrates how to clean the content in the content area from a standard input button:
