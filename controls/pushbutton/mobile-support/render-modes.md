@@ -20,7 +20,7 @@ The possible options are:
 
 * **Auto**—this mode makes each control choose the appropriate rendering mode according to the used browser.
 
->important RadPushButton, as well as the other controls included in the Telerik UI for ASP.NET AJAX suite that utilize render modes, support only one type of render mode per page.This includes mode being set for a standalone RadPushButton. All such controls must have the same RenderMode on a given page.This also includes instances from user controls and master pages.
+>important **RadPushButton**, as well as the other controls included in the Telerik UI for ASP.NET AJAX suite that utilize render modes, support only one type of render mode per page. All such controls must have the same **RenderMode** on a given page. This also includes instances from user controls and master pages.
 
 
 
