@@ -28,7 +28,7 @@ The possible options for the **RenderMode** property are:
 
 >important  Each **RadFileExplorer**, as well as the other controls included in the Telerik UI for ASP.NET AJAX suite that utilize render modes, supports only one type of render mode per page. All such controls must have the same **RenderMode** on a given page. This also includes instances from user controls and master pages.
 
->note **RadFileExplorer** uses **RadSplitter**, **RadSlider**, **RadTreeView**, **RadWindowManager** and **RadGrid** or **RadListView** controls internally, so all their instances must have the same render mode. Controls that are children of a RadFileExplorer will inherit the RenderMode of the File Explorer.
+>note **RadFileExplorer** uses **RadButton**, **RadSplitter**, **RadSlider**, **RadTreeView**, **RadWindowManager** and **RadGrid** or **RadListView** controls internally, so all their instances must have the same render mode. Controls that are children of a RadFileExplorer will inherit the RenderMode of the File Explorer.
 
 
 ## Setting Render Mode
