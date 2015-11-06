@@ -3,7 +3,6 @@ title: Customizing the Embedded Controls
 page_title: Customizing the Embedded Controls | RadDatePicker for ASP.NET AJAX Documentation
 description: Customizing the Embedded Controls
 slug: datepicker/functionality/customizing-embedded-controls
-previous_url: calendar/raddatepicker,-radtimepicker,-raddatetimepicker-and-radmonthyearpicker/customizing-the-embedded-controls
 tags: customizing,the,embedded,controls
 published: True
 position: 0

@@ -4,7 +4,6 @@ page_title: Responsive Capabilities | RadTileList for ASP.NET AJAX Documentation
 description: Responsive Capabilities of RadTileList
 slug: tilelist/mobile-support/responsive-capabilities
 tags: responsive,capabilities,tilelist
-previous_url: controls/tilelist/mobile-support/responsive,-adaptive-and-elastic-capabilities
 published: True
 position: 0
 ---

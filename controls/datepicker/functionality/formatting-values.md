@@ -3,7 +3,6 @@ title: Formatting Values
 page_title: RadDatePicker Formatting Values | RadDatePicker for ASP.NET AJAX Documentation
 description: RadDatePicker Formatting Values
 slug: datepicker/functionality/formatting-values
-previous_url: calendar/raddatepicker,-radtimepicker,-raddatetimepicker-and-radmonthyearpicker/formatting-values
 tags: formatting,values
 published: True
 position: 3
