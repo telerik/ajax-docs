@@ -40,7 +40,7 @@ You can find concrete information about your case in the distinct sections of th
 
 ## Upgrade to a Newer Version of Telerik UI for ASP.NET AJAX
 
-**To upgrade the Telerik controls**, you only need to **replace the [Telerik assemblies]({%slug introduction/installation/included-assemblies%}) the project references** with their newer versions and update their references. The instructions below assume you have already [installed]({%slug installation/which-file-do-i-need-to-install%}) the new version.
+**To upgrade the Telerik controls**, you only need to **replace the [Telerik assemblies]({%slug introduction/installation/included-assemblies%}) project references** with their newer versions and update their references. The instructions below assume you have already [installed]({%slug installation/which-file-do-i-need-to-install%}) the new version.
 
 There are two ways to perform an upgrade:
 
@@ -54,7 +54,7 @@ You can utilize the AJAX VS Extensions wizards:
 
 ### Manual Upgrade
 
-You simply need to replace the assembly references with the new ones. Here follows a list of steps that ensures a safe upgrade:
+You simply need to replace the assembly references with the new ones. Here is a list of steps that ensures a safe upgrade:
 
 1. Backup your project (a simple copy to another folder is usually enough, and using a source control system makes this redundant).
 
@@ -62,7 +62,7 @@ You simply need to replace the assembly references with the new ones. Here follo
 
 1. **Open the Bin folder** of your project in Windows Explorer and **delete the old Telerik.Web.UI.* assemblies**.
 
-1. **Copy the new assemblies** from the new installation's Bin40 folder (for .NET 4.0; for .NET 3.5 you need Bin35 and Bin45 for .NET 4.5) and. In case you are using a [hotfix]({%slug introduction/installation/using-the-hotfix-(dlls-and-scripts/skins-only)%}), go to the folder where you unzipped it.
+1. **Copy the new assemblies** from the new installation's Bin40 folder (for .NET 4.0; for .NET 3.5 you need Bin35 and Bin45 for .NET 4.5). If you are using a [hotfix]({%slug introduction/installation/using-the-hotfix-(dlls-and-scripts/skins-only)%}), go to the folder where you unzipped it.
 
 1. **Paste the new assemblies in the Bin folder** of your project in Windows Explorer.
 
@@ -108,11 +108,11 @@ Sometimes the .NET Framework caches the old Telerik.Web.UI.dll and therefore the
 
 ### I Still Get the Copyright Message
 
-The copyright message appears only when the Web Application/Web Site uses the trial version of Telerik.Web.UI.dll.The Developer versions of Telerik's controls do not throw copyright messages.
+The copyright message appears only when the Web Application/Web Site uses the trial version of Telerik.Web.UI.dll. The Developer versions of Telerik's controls do not throw copyright messages.
 
-To remove it, make sure you have downloaded the proper, Developer "DLL and Scripts only" file. You will recognize it by the *Dev* abbreviation in the file name. More details on determining which dlls are in use can be found in this blog post.
+To remove it, make sure you have downloaded the proper, Developer "DLL and Scripts only" file. You will recognize it by the *Dev* abbreviation in the file name. You will find more details on determining which dlls are in use in this blog post.
 
-You can see how the file information of a trial version of the Telerik.Web.UI.dll assembly in **Figure 1**. Alternatively, you can see the same information in by double clicking the assembly in VS and exploring its properties as shown in **Figure 2**.
+You can see how the file information of a trial version of the Telerik.Web.UI.dll assembly in **Figure 1**. Alternatively, you can see the same information by double-clicking the assembly in VS and exploring its properties as shown in **Figure 2**.
 >caption Figure 1: The Properties dialog of a trial Telerik.Web.UI.dll file shows a "Trial Version" text.
 ![trial-version-file-properties](images/trial-version-file-properties.png)
 
@@ -139,7 +139,7 @@ There are several ways to **fix** the issue:
 
 * Inlcude a **NuGet** package for the **Newtonsoft.Json** assembly in your project with the proper version so a local reference is used
 
-* **Remove Newtonsoft.Json.dll** file **from** the `Program Files\Microsoft SDKs\Windows Azure.NET SDK\v2.3\ref\` folder as suggested in [the workarounds in this item on Microsoft Connect](https://connect.microsoft.com/VisualStudio/feedback/details/850425/windows-azure-vs-tools-breaking-msbuild-for-web-projects).
+* **Remove the Newtonsoft.Json.dll** file **from** the `Program Files\Microsoft SDKs\Windows Azure.NET SDK\v2.3\ref\` folder as suggested in [the workarounds in this item on Microsoft Connect](https://connect.microsoft.com/VisualStudio/feedback/details/850425/windows-azure-vs-tools-breaking-msbuild-for-web-projects).
 
 
 
