@@ -481,7 +481,7 @@ navigation:
         position: 5
     "*calendar/templates":
         title: "Templates"
-        position: 8 
+        position: 8
     "*chart/features":
         title: "Features"
         position: 4
@@ -553,10 +553,34 @@ navigation:
         position: 3
     "*datapager/mobile-support/mobile-rendering":
         title: "Mobile Rendering"
-        position: 1	
+        position: 1
     "*datapager/defining-structure":
         title: "Defining Structure"
         position: 4
+    "*dateinput/design-time":
+        title: "Design Time"
+        position: 4
+    "*dateinput/features":
+        title: "Features"
+        position: 5
+    "*dateinput/mobile-support/":
+        title: "Mobile Support"
+        position: 6
+    "*dateinput/appearance-and-styling ":
+        title: "Appearance and Styling"
+        position: 7
+    "*dateinput/accessibility-and-internationalization":
+        title: "Accessibility and Internationalization"
+        position: 8
+    "*dateinput/server-side-programming":
+        title: "Server-Side Programming"
+        position: 9
+    "*dateinput/client-side-programming":
+        title: "Client-Side Programming"
+        position: 10
+    "*dateinput/how-to":
+        title: "How to"
+        position: 10
     "*datetimepicker/templates":
         title: "Templates"
         position: 8
@@ -956,27 +980,12 @@ navigation:
     "*imagegallery/data-binding/server-side":
         title: "Server-side"
         position: 0
-    "*input/radinputmanager":
-        title: "RadInputManager"
-        position: 5
-    "*input/radinputmanager/server-side-events":
-        title: "Server-side Events"
-        position: 6
-    "*input/radinputmanager/client-side-events":
-        title: "Client-side Events"
+    "*inputmanager/server-side-events":
+        title: "Server-Side Events"
         position: 7
-    "*input/radtextbox":
-        title: "RadTextBox"
-        position: 6
-    "*input/radmaskedtextbox":
-        title: "RadMaskedTextBox"
-        position: 7
-    "*input/radnumerictextbox":
-        title: "RadNumericTextBox"
+    "*inputmanager/client-side-events":
+        title: "Client-Side Events"
         position: 8
-    "*input/raddateinput":
-        title: "RadDateInput"
-        position: 9
     "*listbox/data-binding":
         title: "Data Binding"
         position: 6
@@ -1046,6 +1055,30 @@ navigation:
     "*listview/client-side-programming/radlistview/methods":
         title: "Methods"
         position: 2
+    "*maskedtextbox/design-time":
+        title: "Design Time"
+        position: 4
+    "*maskedtextbox/features":
+        title: "Features"
+        position: 5
+    "*maskedtextbox/mobile-support/":
+        title: "Mobile Support"
+        position: 6
+    "*maskedtextbox/appearance-and-styling ":
+        title: "Appearance and Styling"
+        position: 7
+    "*maskedtextbox/accessibility-and-internationalization":
+        title: "Accessibility and Internationalization"
+        position: 8
+    "*maskedtextbox/server-side-programming":
+        title: "Server-Side Programming"
+        position: 9
+    "*maskedtextbox/client-side-programming":
+        title: "Client-Side Programming"
+        position: 10
+    "*maskedtextbox/how-to":
+        title: "How to"
+        position: 10
     "*map/data-binding":
         title: "Data Binding"
         position: 4
@@ -1073,6 +1106,30 @@ navigation:
     "*notification/setting-content":
         title: "Setting Content"
         position: 4
+    "*numerictextbox/design-time":
+        title: "Design Time"
+        position: 4
+    "*numerictextbox/features":
+        title: "Features"
+        position: 5
+    "*numerictextbox/mobile-support/":
+        title: "Mobile Support"
+        position: 6
+    "*numerictextbox/appearance-and-styling ":
+        title: "Appearance and Styling"
+        position: 7
+    "*numerictextbox/accessibility-and-internationalization":
+        title: "Accessibility and Internationalization"
+        position: 8
+    "*numerictextbox/server-side-programming":
+        title: "Server-Side Programming"
+        position: 9
+    "*numerictextbox/client-side-programming":
+        title: "Client-Side Programming"
+        position: 10
+    "*numerictextbox/how-to":
+        title: "How to"
+        position: 11
     "*odatadatasource/client-side-programming/objects":
         title: "Objects"
         position: 0
@@ -1328,6 +1385,30 @@ navigation:
     "*tagcloud/data-binding":
         title: "Data Binding"
         position: 4
+    "*textbox/design-time":
+        title: "Design Time"
+        position: 4
+    "*textbox/features":
+        title: "Features"
+        position: 5
+    "*textbox/mobile-support/":
+        title: "Mobile Support"
+        position: 6
+    "*textbox/appearance-and-styling ":
+        title: "Appearance and Styling"
+        position: 7
+    "*textbox/accessibility-and-internationalization":
+        title: "Accessibility and Internationalization"
+        position: 8
+    "*textbox/server-side-programming":
+        title: "Server-Side Programming"
+        position: 9
+    "*textbox/client-side-programming":
+        title: "Client-Side Programming"
+        position: 10
+    "*textbox/how-to":
+        title: "How to"
+        position: 11
     "*tilelist/tiles":
         title: "Tiles"
         position: 3
