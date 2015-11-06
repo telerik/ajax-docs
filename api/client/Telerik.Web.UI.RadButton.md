@@ -598,6 +598,26 @@ Gets the type of the button.
 
 `Telerik.Web.UI.RadButtonType` 
 
+### get_primary
+
+Gets a bool value indicating whether the button control is primary.
+
+#### Parameters
+
+#### Returns
+
+`Boolean` A bool value
+
+### set_primary
+
+Sets a bool value indicating whether the button control is primary.
+
+#### Parameters
+
+##### value `Boolean`
+
+A bool value indicating whether the button control is primary.
+
 ## Events
 
 ### checkedChanged
