@@ -17,6 +17,7 @@ position: 0
 | **Text** |Gets or sets the text displayed in the RadLinkButton control.|
 | **NavigateUrl** |Gets or sets the URL of the page to navigate to, without posting the page back to the server.|
 | **Target** |Gets or sets the target window or frame in which to display the Web page content linked to when the RadLinkButton control is clicked.|
+| **Primary** |Gets or sets a bool value indicating whether the button uses its primary appearance.|
 | **HoveredCssClass** |Gets or sets the CSS class, when the mouse pointer is hovered over the RadLinkButton control.|
 | **PressedCssClass** |Gets or sets the CSS class, when the RadLinkButton control is pressed.|
 | **OnClientLoad** |Sets a name of a JavaScript function that will be called when the RadLinkButton is loaded on the page|
