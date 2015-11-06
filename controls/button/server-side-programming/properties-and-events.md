@@ -17,6 +17,7 @@ position: 0
 | **ButtonType** |Gets or sets the type of the button. The following types exist: StandardButton (default), LinkButton, ToggleButton. Each ButtonType provides certain functionality that is unique. More information on the features of different button types can be found in each button category.|
 | **AutoPostBack** |Gets or sets a bool value indicating whether the control will automatically post the page back to the server.|
 | **CausesValidation** |Gets or sets a bool value indicating whether validation is performed when the RadButton is clicked.|
+| **Primary** |Gets or sets a bool value indicating whether the button uses its primary appearance.|
 | **PostbackUrl** |Gets or sets the URL of the page to post to from the current page, when the RadButton is clicked.|
 | **Text** |Gets or sets the text displayed in the RadButton control.|
 | **ValidationGroup** |Gets or sets the group of controls for which the RadButton control causes validation when it posts back to the server.|
