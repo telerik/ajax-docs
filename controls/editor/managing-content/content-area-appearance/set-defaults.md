@@ -15,7 +15,7 @@ In this help article you can learn how to define your own default styles for the
 
 **RadEditor** offers the ability to easily apply various styles to its content area by using the [CssFiles collection]({%slug editor/functionality/toolbars/dropdowns/external-css-files%}) to add external CSS file/s and manually specify the CSS rules that you want to be loaded in the content area.
 
-Alternatively, you can also use the ContentAreaCssFile property for that. You can find out what are the relevant differences here—[ContentAreaCssFile vs. CssFiles]({%slug editor/managing-content/content-area-appearance/contentareacssfile-vs-cssfil%});
+Alternatively, you can also use the ContentAreaCssFile property for that. You can find out what are the relevant differences here—[ContentAreaCssFile vs. CssFiles]({%slug editor/managing-content/content-area-appearance/contentareacssfile-vs-cssfiles%});
 
 
 
@@ -85,4 +85,4 @@ You can also style other elements in the editor's content area by using the resp
 
 * [External CSS Files]({%slug editor/managing-content/content-area-appearance/set-defaults%})
 
-* [ContentAreaCssFile vs. CssFiles]({%slug editor/managing-content/content-area-appearance/contentareacssfile-vs-cssfil%})
+* [ContentAreaCssFile vs. CssFiles]({%slug editor/managing-content/content-area-appearance/contentareacssfile-vs-cssfiles%})

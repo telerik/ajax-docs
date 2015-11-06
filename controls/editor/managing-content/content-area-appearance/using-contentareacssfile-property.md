@@ -28,7 +28,7 @@ At a first glance the approach below will give you the same results as if the [C
 3. All styles form the **ContentAreaCssFile.css** file can be toggled via the [Show/Hide Border tool](#showhide-border-tool) (![](images/editor-toggletableborder.gif));
 4. Only a single external CSS file can be used for stylization.
 
-You can also compare the conceptual differences of **ContentAreaCssFile** and** CssFiles collection** usage here—[ContentAreaCssFile vs. CssFiles]({%slug editor/managing-content/content-area-appearance/contentareacssfile-vs-cssfil%}).
+You can also compare the conceptual differences of **ContentAreaCssFile** and** CssFiles collection** usage here—[ContentAreaCssFile vs. CssFiles]({%slug editor/managing-content/content-area-appearance/contentareacssfile-vs-cssfiles%}).
 
 ## Basic Usage
 
@@ -152,4 +152,4 @@ Results:
 
 * [External CSS Files]({%slug editor/managing-content/content-area-appearance/set-defaults%})
 
-* [ContentAreaCssFile vs. CssFiles]({%slug editor/managing-content/content-area-appearance/contentareacssfile-vs-cssfil%})
+* [ContentAreaCssFile vs. CssFiles]({%slug editor/managing-content/content-area-appearance/contentareacssfile-vs-cssfiles%})
