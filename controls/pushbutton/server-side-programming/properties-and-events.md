@@ -17,6 +17,7 @@ position: 0
 | **AutoPostBack** |Gets or sets a bool value indicating whether the control will automatically post the page back to the server.|
 | **CausesValidation** |Gets or sets a bool value indicating whether validation is performed when the RadPushButton is clicked.|
 | **PostbackUrl** |Gets or sets the URL of the page to post to from the current page, when the RadPushButton is clicked.|
+| **Primary** |Gets or sets a bool value indicating whether the button uses its primary appearance.|
 | **Text** |Gets or sets the text displayed in the RadPushButton control.|
 | **ValidationGroup** |Gets or sets the group of controls for which the RadPushButton control causes validation when it posts back to the server.|
 | **CommandName** |Gets or sets the command name associated with the RadPushButton control that is passed to the *Command* event.|
