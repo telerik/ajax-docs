@@ -62,7 +62,7 @@ You simply need to replace the assembly references with the new ones. Here is a 
 
 1. **Open the Bin folder** of your project in Windows Explorer and **delete the old Telerik.Web.UI.* assemblies**.
 
-1. **Copy the new assemblies** from the new installation's Bin40 folder (for .NET 4.0; for .NET 3.5 you need Bin35 and Bin45 for .NET 4.5). If you are using a [hotfix]({%slug introduction/installation/using-the-hotfix-(dlls-and-scripts/skins-only)%}), go to the folder where you unzipped it.
+1. **Copy the new assemblies** from the new installation's Bin40 folder (for .NET 4.0; for .NET 3.5 you need Bin35; for .NET 4.5 you need Bin45). If you are using a [hotfix]({%slug introduction/installation/using-the-hotfix-(dlls-and-scripts/skins-only)%}), go to the folder where you unzipped it.
 
 1. **Paste the new assemblies in the Bin folder** of your project in Windows Explorer.
 
@@ -76,7 +76,7 @@ In the same manner (copy and replace), you may also want to upgrade any [other a
 
 ## Upgrade From Trial to Licensed Version of Telerik UI for ASP.NET AJAX
 
-The difference between the trial and licensed version of the Telerik controls is built-in the assemblies themselves. You do not need license keys or activations.
+The difference between the trial and licensed version of the Telerik controls is built into the assemblies themselves. You do not need license keys or activations.
 
 Once you have a licensed package, simply **follow the steps from the [Upgrade to a Newer Version of Telerik UI for ASP.NET AJAX section](#upgrade-to-a-newer-version-of-telerik-ui-for-aspnet-ajax) to delete the trial assemblies and replace them with the developer versions**.
 
@@ -110,7 +110,7 @@ Sometimes the .NET Framework caches the old Telerik.Web.UI.dll and therefore the
 
 The copyright message appears only when the Web Application/Web Site uses the trial version of Telerik.Web.UI.dll. The Developer versions of Telerik's controls do not throw copyright messages.
 
-To remove it, make sure you have downloaded the proper, Developer "DLL and Scripts only" file. You will recognize it by the *Dev* abbreviation in the file name. You will find more details on determining which dlls are in use in this blog post.
+To remove the copyright message, make sure you have downloaded the proper, Developer "DLL and Scripts only" file. You will recognize it by the *Dev* abbreviation in the file name. You will find more details on determining which dlls are in use in this blog post.
 
 You can see how the file information of a trial version of the Telerik.Web.UI.dll assembly in **Figure 1**. Alternatively, you can see the same information by double-clicking the assembly in VS and exploring its properties as shown in **Figure 2**.
 >caption Figure 1: The Properties dialog of a trial Telerik.Web.UI.dll file shows a "Trial Version" text.
@@ -133,17 +133,17 @@ The issue is **caused by** the **Microsoft Windows Azure .NET SDK** as explained
 
 There are several ways to **fix** the issue:
 
-* If possible for your project, **upgrade to .NET 4.5**
+* If possible for your project, **upgrade to .NET 4.5**.
 
-* **Uninstall** the **Microsoft Windows Azure .NET SDK** if you do not need it
+* **Uninstall** the **Microsoft Windows Azure .NET SDK** if you do not need it.
 
-* Inlcude a **NuGet** package for the **Newtonsoft.Json** assembly in your project with the proper version so a local reference is used
+* Include a **NuGet** package for the **Newtonsoft.Json** assembly in your project with the proper version so a local reference is used.
 
 * **Remove the Newtonsoft.Json.dll** file **from** the `Program Files\Microsoft SDKs\Windows Azure.NET SDK\v2.3\ref\` folder as suggested in [the workarounds in this item on Microsoft Connect](https://connect.microsoft.com/VisualStudio/feedback/details/850425/windows-azure-vs-tools-breaking-msbuild-for-web-projects).
 
 
 
-### Could not load file or assembly 'Telerik.Web.UI' After Upgrade
+### Could Not Load File or Assembly 'Telerik.Web.UI' After Upgrade
 
 The most common error looks like this:
 
@@ -151,7 +151,7 @@ The most common error looks like this:
 
 where the Version value is usually the old version you are upgrading from.
 
-It means that the reference to the Telerik.Web.UI assembly is wrong in the project. Here are several **common reasons for this problem and their solutions**:
+This error means that the reference to the Telerik.Web.UI assembly is wrong in the project. Here are several **common reasons for this problem and their solutions**:
 
 * The reference in the Visual Studio project itself points to the old version (e.g., to the installation folder). To resolve this, update the project references to point to the BIN and ensure the correct assemblies are there.
 
@@ -179,7 +179,7 @@ It means that the reference to the Telerik.Web.UI assembly is wrong in the proje
 				</runtime>
 			</configuration>
 
-* There is an explicit reference to a concrete Telerik controls version in another project (e.g., a data access layer, a second web app in the current solution, some custom class or custom controls assembly). In this case you will need to find the reference and update it.
+* There is an explicit reference to a concrete Telerik controls version in another project (e.g., a data access layer, a second web app in the current solution, some custom class or custom controls assembly). In these cases you will need to find the reference and update it.
 
 ## See Also
 
