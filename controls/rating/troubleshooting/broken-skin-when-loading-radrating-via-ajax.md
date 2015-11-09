@@ -35,44 +35,9 @@ End Sub
 
 This is a common issue when dynamically loading controls through AJAX requests. The reason for this behavior is that the control relies on its CSS resources to be already loaded on the page during initialization and rendering, whereas they are still loading.
 
->tip This issue may manifest with other Telerik controls and you should first set their `EnableAjaxSkinRendering` property to `true` because it helps in registering the stylesheets on the page. If it does not help, then there is a timing issue with their loading, and you should try the ideas listed below.
+>tip This issue may manifest with other Telerik controls and you should first set their `EnableAjaxSkinRendering` property to `true` because it helps in registering the stylesheets on the page. If it does not help, review the [Appearance Issues when Control is Added During AJAX Request]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/troubleshooting/skins-troubleshooting%}#appearance-issues-when-control-is-added-during-ajax-request) section of the documentation.
 
-The way around this issue is to have the styles already loaded on the page. There are two basic ways to do this.
+## See Also
 
-* Using the **GetWebResourceUrl** method to load the styles:
-
-	**C#**
-
-		<head>
-			<title></title>
-			<link href='<%= Page.ClientScript.GetWebResourceUrl(typeof(RadRating), "Telerik.Web.UI.Skins.Rating.css") %>' rel="stylesheet" type="text/css" />
-			<link href='<%= Page.ClientScript.GetWebResourceUrl(typeof(RadRating), "Telerik.Web.UI.Skins.Default.Rating.Default.css") %>' rel="stylesheet" type="text/css" />
-		</head>
-
-	**VB**
-
-		<head>
-			<title></title>
-			<link href='<%= Page.ClientScript.GetWebResourceUrl(GetType(RadRating), "Telerik.Web.UI.Skins.Rating.css")%>' rel="stylesheet" type="text/css" />
-			<link href='<%= Page.ClientScript.GetWebResourceUrl(GetType(RadRating), "Telerik.Web.UI.Skins.Default.Rating.Default.css")%>' rel="stylesheet" type="text/css" />
-		</head>
-
-* Using the [RadStyleSheetManager](A2D2BFE9-F3FE-48F8-A3E6-5254D7491104) to load the styles:
-
-	**ASP.NET**
-
-		<telerik:RadStyleSheetManager ID="RadStyleSheetManager1" runat="server">
-		   <StyleSheets>
-				<telerik:StyleSheetReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Skins.Rating.css" />
-				<telerik:StyleSheetReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Skins.Default.Rating.Default.css" />
-		   </StyleSheets>
-		</telerik:RadStyleSheetManager>
-
-Regardless of the approach you choose, you need to make sure that the control does not try to load the CSS on its own by preventing its embedded base stylesheets and skin:
-
-````ASP.NET
-<telerik:RadRating runat="server" ID="RadRating1" EnableEmbeddedBaseStylesheet="false" EnableEmbeddedSkins="false">
-</telerik:RadRating>
-````
-
+* [Skins Troubleshooting]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/troubleshooting/skins-troubleshooting%})
 
