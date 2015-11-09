@@ -12,11 +12,69 @@ position: 5
 
 
 
-This article treats the most common issues related to the Skins used by the Telerik UI for ASP.NET AJAX controls:s
+This article treats the most common issues related to the Skins used by the Telerik UI for ASP.NET AJAX controls.
+
+* [Appearance Issues when Control is Added During AJAX Request](#appearance-issues-when-control-is-added-during-ajax-request)
 
 * [Telerik.Web.UI.(Telerik Control) with ID='(Telerik Control ID)' was unable to find embedded skin with name '(Skin Name)'. Please, make sure that you spelled the skin name correctly, or if you want to use a custom skin, set EnableEmbeddedSkins=false](#cannot-find-the-skins)
 
 * [GetWebResourceUrl fails](#getwebresourceurl-fails)
+
+## Appearance Issues when Control is Added During AJAX Request
+
+In some cases, when you add a Telerik control to the page during an AJAX request, it may have appearance issues.
+
+There can be two reasons for this issue:
+
+* the stylesheets cannot be registered during partial page rendering because the `<head>` tag where stylesheets should go is not updated.
+
+* the control relies on its CSS resources to be already loaded on the page during initialization and rendering, whereas they are still loading when it gets added to the page.
+
+To resolve either, try the following:
+
+1. Set the control's `EnableAjaxSkinRendering` property to `true`. It changes the way skins are registered to accommodate AJAX specifics.
+
+2. If it does not help, you should register the stylesheets the control needs to the page at all times, and ensure that the control does not load them by setting its `EnableEmbeddedBaseStylesheet` and `EnableEmbeddedSkins` properties to `false`. Here are two ways to load a control stylesheets from the Telerik assembly. They use the RadRating control for an example, so you should change it to the concrete one you use, and you should also replace the concrete built-in skin name according to your needs.
+
+	* via a RadStyleSheetManager control:
+
+		**ASP.NET**
+	
+			<telerik:RadStyleSheetManager ID="RadStyleSheetManager1" runat="server">
+			   <StyleSheets>
+			        <telerik:StyleSheetReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Skins.Rating.css" />
+			        <telerik:StyleSheetReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Skins.Default.Rating.Default.css" />
+			   </StyleSheets>
+			</telerik:RadStyleSheetManager>
+	
+		For skins other than Default, you should use the Telerik.Web.UI.Skins assembly, e.g.:
+	
+		**ASP.NET**
+	
+			<telerik:RadStyleSheetManager ID="RadStyleSheetManager1" runat="server">
+				<StyleSheets>
+					<telerik:StyleSheetReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Skins.Rating.css" />
+					<telerik:StyleSheetReference Assembly="Telerik.Web.UI.Skins" Name="Telerik.Web.UI.Skins.Windows7.Rating.Windows7.css" />
+				</StyleSheets>
+			</telerik:RadStyleSheetManager>
+
+	* By adding `<link>` elements to the page, e.g.:
+
+		**ASP.NET and C#**
+
+			<telerik:RadCodeBlock runat="server" ID="RadCodeBlock1">
+				<link href='<%= Telerik.Web.SkinRegistrar.GetWebResourceUrl(this, typeof(RadRating), "Telerik.Web.UI.Skins.Rating.css") %>' rel="stylesheet" type="text/css" />
+				<link href='<%= Telerik.Web.SkinRegistrar.GetWebResourceUrl(this, typeof(RadRating), "Telerik.Web.UI.Skins.Outlook.Rating.Outlook.css") %>' rel="stylesheet" type="text/css" />
+			</telerik:RadCodeBlock>
+
+		**ASP.NET and VB**
+
+			<telerik:RadCodeBlock runat="server" ID="RadCodeBlock1">
+				<link href='<%= Telerik.Web.SkinRegistrar.GetWebResourceUrl(Me, GetType(RadRating), "Telerik.Web.UI.Skins.Rating.css")%>' rel="stylesheet" type="text/css" />
+				<link href='<%= Telerik.Web.SkinRegistrar.GetWebResourceUrl(Me, GetType(RadRating), "Telerik.Web.UI.Skins.Default.Rating.Default.css")%>' rel="stylesheet" type="text/css" />
+			</telerik:RadCodeBlock>
+
+
 
 ## Cannot Find the Skins
 
@@ -36,7 +94,7 @@ If you are using this method you need to replace it with its analogue from our *
 <link href='<%= Telerik.Web.SkinRegistrar.GetWebResourceUrl(this, typeof(RadEditor), "Telerik.Web.UI.Skins.Outlook.Editor.Outlook.css") %>' rel="stylesheet" type="text/css" />
 ````
 
-This example registers the RadEditor's Outlook skin-specific stylesheet. If you are using VB you should change **this** to **Me** as is the equivalent in this language.
+This example registers the RadEditor's Outlook skin-specific stylesheet. If you are using VB you should change `this` to `Me` and `typeof` to `GetType` as is the equivalent in this language.
 
 Server code blocks may cause issues in the page's head section (where link elements are usually placed), so you may want to wrap them in a **RadCodeBlock** control, otherwise a server error may be thrown, or the code may not be executed (i.e., the link will not work).
 
