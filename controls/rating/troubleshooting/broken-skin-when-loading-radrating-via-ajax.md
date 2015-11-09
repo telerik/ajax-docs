@@ -35,6 +35,8 @@ End Sub
 
 This is a common issue when dynamically loading controls through AJAX requests. The reason for this behavior is that the control relies on its CSS resources to be already loaded on the page during initialization and rendering, whereas they are still loading.
 
+>tip This issue may manifest with other Telerik controls and you should first set their `EnableAjaxSkinRendering` property to `true` because it helps in registering the stylesheets on the page. If it does not help, then there is a timing issue with their loading, and you should try the ideas listed below.
+
 The way around this issue is to have the styles already loaded on the page. There are two basic ways to do this.
 
 * Using the **GetWebResourceUrl** method to load the styles:
