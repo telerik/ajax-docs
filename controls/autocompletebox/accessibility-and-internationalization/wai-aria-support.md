@@ -4,7 +4,7 @@ page_title: WAI-ARIA Support | RadAutoCompleteBox for ASP.NET AJAX Documentation
 description: WAI-ARIA Support
 slug: autocompletebox/accessibility-and-internationalization/wai-aria-support
 tags: wai-aria,support
-published: False
+published: True
 position: 1
 ---
 
