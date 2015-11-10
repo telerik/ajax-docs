@@ -10,7 +10,7 @@ position: 3
 
 # Design Time
 
-The Smart Tag of **RadImageButton** (**Figure 1**) lets you configure your control or quickly get help. You can display the Smart Tag by right clicking on a **RadImageButton** control and choosing "Show Smart Tag", or clicking the small rightward-pointing arrow located in the upper right corner of the control.
+The Smart Tag of **RadImageButton** (**Figure 1**) lets you configure your control or quickly get help. You can display the Smart Tag by right clicking on a **RadImageButton** control and choosing "Show Smart Tag", or clicking the small leftward-pointing arrow located in the upper right corner of the control.
 
 >caption Figure 1: RadImageButton's smart tag.
 
