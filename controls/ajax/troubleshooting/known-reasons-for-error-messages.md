@@ -13,7 +13,17 @@ position: 0
 
 This help article describes common reasons for error messages and their solutions.
 
+* **`SyntaxError`** (for IE) or **`Uncaught SyntaxError: Failed to execute 'insertRule' on 'CSSStyleSheet': Failed to parse the rule'`** (for Chrome), or **`SyntaxError: An invalid or illegal string was specified`** (for FireFox).
 
+	This error is caused by having commented CSS rules (e.g., `/* .someClass { display: none; } */`) in the `<head>` of your page.
+
+	RadAjax controls update the `<head>` of the page to let controls register stylesheets and scripts during an AJAX request and such commented rules cannot be parsed by the engine.
+
+	There are two solutions:
+
+	* Set the `EnablePageHeadUpdate` property of the RadAjax control to `false`.
+
+	* Remove the commented CSS rule or move it to a separate stylesheet file.
 
 * **Receiving `Sys.WebForms.PageRequestManagerParserErrorException`**. You may receive this error if you have used **RadAjaxPanel** and **RadAjaxManager** to AJAX-enable the same control at the same time. You can read more about the problem in [Controls Wrapped in AjaxPanel and Added to AjaxManager Settings]({%slug ajax/radajaxmanager/troubleshooting/controls-wrapped-in-ajaxpanel-and-added-to-ajaxmanager-settings%}) help article.
 
