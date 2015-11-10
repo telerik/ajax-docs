@@ -184,7 +184,7 @@ navigation:
         title: "Date Input"
         position: 1
     "controls/datepicker":
-        title: "DatePicker"
+        title: "Date Picker"
         position: 1
     "controls/datetimepicker":
         title: "DateTimePicker"
@@ -289,7 +289,7 @@ navigation:
         title: "Persistence Framework"
         position: 1
     "controls/pivotgrid":
-        title: "PivotGrid"
+        title: "Pivot Grid"
         position: 1
     "controls/progressarea":
         title: "Progress Area"
@@ -322,7 +322,7 @@ navigation:
         title: "Slider"
         position: 1
     "controls/socialshare":
-        title: "SocialShare"
+        title: "Social Share"
         position: 1
     "controls/spell":
         title: "Spell"
@@ -343,7 +343,7 @@ navigation:
         title: "Tab Strip"
         position: 1
     "controls/tagcloud":
-        title: "TagCloud"
+        title: "Tag Cloud"
         position: 1
     "controls/textbox":
         title: "Textbox"
