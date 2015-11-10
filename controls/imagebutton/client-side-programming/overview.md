@@ -10,7 +10,7 @@ position: 0
 
 # Client-side Programming Overview
 
-**RadImageButton** provides a flexible client-side API. You can easily interact with the button in the browser using the RadImageButton client-side object. In addition to a variety of [client-side events]({%slug client-side-programming/events/overview%}), the [client-side object model]({%slug imagebutton/client-side-programming/imagebutton-object%}) lets you achieve complicated tasks while avoiding unnecessary post-backs.
+**RadImageButton** provides a flexible client-side API. You can easily interact with the button in the browser using the **RadImageButton** client-side object. In addition to a variety of [client-side events]({%slug imagebutton/client-side-programming/events/overview%}), the [client-side object model]({%slug imagebutton/client-side-programming/imagebutton-object%}) lets you achieve complicated tasks while avoiding unnecessary post-backs.
 
 ## Getting the RadImageButton client-side object
 
@@ -28,7 +28,7 @@ var button = $telerik.findimagebutton("<%= RadImageButton1.ClientID %>");
 
  * [ImageButton Object]({%slug imagebutton/client-side-programming/imagebutton-object%})
  
- * [Events Overview]({%slug client-side-programming/events/overview%})
+ * [Events Overview]({%slug imagebutton/client-side-programming/events/overview%})
  
  * [OnClientClicking]({%slug imagebutton/client-side-programming/events/onclientclicking%})
  

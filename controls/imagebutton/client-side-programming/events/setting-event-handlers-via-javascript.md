@@ -79,7 +79,7 @@ function removeEvents()
 
  * [ImageButton Object]({%slug imagebutton/client-side-programming/imagebutton-object%})
  
- * [Events Overview]({%slug client-side-programming/events/overview%})
+ * [Events Overview]({%slug imagebutton/client-side-programming/events/overview%})
  
  * [OnClientClicking]({%slug imagebutton/client-side-programming/events/onclientclicking%})
  

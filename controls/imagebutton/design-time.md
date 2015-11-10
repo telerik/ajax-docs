@@ -14,7 +14,7 @@ The Smart Tag of **RadImageButton** (**Figure 1**) lets you configure your contr
 
 >caption Figure 1: RadImageButton's smart tag.
 
-![button-smart-tag](images/button-smart-tag.png)
+![button-smart-tag](images/imagebutton-smart-tag.png)
 
 ## Ajax Resources
 

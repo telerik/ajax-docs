@@ -10,7 +10,7 @@ position: 3
 
 # OnClientClicking
 
-The clicking event occurs when the RadImageButton control is clicked, immediately after the mouse button is released. The event is fired after the client-side validation occurs, and can be canceled.
+The clicking event occurs when the **RadImageButton** control is clicked, immediately after the mouse button is released. The event is fired after the client-side validation occurs, and can be canceled.
 
 The event handler receives two parameters:
 
