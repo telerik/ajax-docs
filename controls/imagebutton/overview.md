@@ -10,7 +10,7 @@ position: 0
 
 # ImageButtom Overview
 
-The **RadImageButtom** control (**Figure 1**) enriches the features, that ASP.NET Button control has. It provides additional events, ability to [define icons]({%slug imagebutton/functionality/icons%}) and [content template]({%slug imagebutton/functionality/contenttemplate%}), a [mechanism to prevent multiple postbacks]({%slug imagebutton/functionality/single-click-button%}) and numerous [themes]({%slug imagebutton/appearance-and-styling/skins%}). 
+The **RadImageButtom** control (**Figure 1**) enriches the features, that ASP.NET ImageButton control has. It provides additional events, ability to use [content template]({%slug imagebutton/functionality/content-template%}), [mechanism to prevent multiple postbacks]({%slug imagebutton/functionality/single-click%}) and numerous [themes]({%slug imagebutton/appearance-and-styling/skins%}). 
 
 The control can be easily styled by changing the **Skin** property, and alternatively setting properties that change the look of the control. This will eliminate the need to use the [RadFormDecorator]({%slug formdecorator/overview%}), just to style a single button. Developers can easily migrate their applications from using the standard ASP.NET (button) controls to the new **RadImageButtom** control, because most of their functionality is provided by our control, and is controlled by the same or similar (intuitive) properties.
 

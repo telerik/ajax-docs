@@ -20,6 +20,4 @@ There are several ways to use the **RadImageButton** via the keyboard only:
 
 ## See Also
 
- * [WCAG 2.0 and Section 508 Accessibility Compliance]({%slug imagebutton/accessibility-and-internationalization/wcag-2.0-and-section-508-accessibility-compliance%})
-
- * [Right-to-Left Support]({%slug imagebutton/accessibility-and-internationalization/right-to-left-support%})
+ * [WCAG 2.0 and Section 508 Accessibility Compliance]({%slug imagebutton/accessibility-and-internationalization/wcag-20-and-section-508-accessibility-compliance%})
