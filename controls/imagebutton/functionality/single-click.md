@@ -10,9 +10,9 @@ position: 0
 
 # Single Click
 
-The single click button (**Figure 1**) is used to avoid multiple postbacks to the server. This feature is useful in database and/or e-mail send scenarios when the developer should prevent submitting of identical content multiple times to the server.
+The single click button (**Figure 1**) is used to avoid multiple postbacks to the server. This feature is useful in scenarios where the developer should prevent submitting of identical content multiple times to the server (e.g. when editing a data-base or sending an e-mail).
 
->caption Figure 1: RadImageButton with SingeClick functionality before and after click.
+>caption Figure 1: RadImageButton with SingleClick functionality before and after click.
 
 ![button-single-click](images/button-single-click.png)
 
