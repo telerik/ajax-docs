@@ -8,11 +8,9 @@ published: True
 position: 0
 ---
 
-# Overview Overview
+# RadOrgChart Overview
 
 
-
-## 
 
 Telerik **RadOrgChart** for ASP.NET AJAX is a flexible organizational chart control for ASP.NET applications.
 
