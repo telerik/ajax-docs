@@ -20,7 +20,7 @@ The possible options are:
 
 * **Auto**—this mode makes each control choose the appropriate rendering mode according to the used browser.
 
->important RadImageButton, as well as the other controls included in the Telerik UI for ASP.NET AJAX suite that utilize render modes, support only one type of render mode per page.This includes mode being set for a standalone RadImageButton. All such controls must have the same RenderMode on a given page. This also includes instances from user controls and master pages.
+>important RadImageButton, as well as the other controls included in the Telerik UI for ASP.NET AJAX suite that utilize render modes, supports only one type of render mode per page. This includes mode being set for a standalone RadImageButton. All such controls must have the same RenderMode on a given page. This also includes instances from user controls and master pages.
 
 
 
@@ -50,7 +50,7 @@ There are two ways to configure the rendering mode of the controls:
 	**web.config**
 
 		<appSettings>
-			<add key="Telerik.Web.UI.imagebutton.RenderMode" value="Lightweight" />
+			<add key="Telerik.Web.UI.ImageButton.RenderMode" value="Lightweight" />
 		</appSettings>
 
 
