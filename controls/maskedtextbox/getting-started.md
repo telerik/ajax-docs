@@ -1,20 +1,20 @@
 ---
-title: Overview
+title: Getting Started
 page_title: Getting Started Overview | RadInput for ASP.NET AJAX Documentation
-description: Overview
+description: Getting Started
 slug: radmaskedtextbox/getting-started
 tags: overview
 published: True
-position: 0
+position: 1
 ---
 
-# Getting Started Overview
+# Getting Started With RadMaskedTextBox
 
 
 
-##
 
-This tutorial will walk you through creating a Web page that uses **RadInput** controls. It shows how to:
+
+This tutorial will walk you through creating a Web page that uses the **RadMaskedTextBox** controls. It shows how to:
 
 * Use the **RadMaskedTextBox**.
 

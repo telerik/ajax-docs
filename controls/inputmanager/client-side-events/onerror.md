@@ -12,7 +12,6 @@ position: 3
 
 
 
-## 
 
 The **OnError** event handler is raised when the user presses a keyboard key while the textbox extended via the **RadInputManager** has focus, and an error occurs - for example when trying to enter a character in a Numeric textbox.
 

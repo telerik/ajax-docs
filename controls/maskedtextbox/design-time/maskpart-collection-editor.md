@@ -12,7 +12,6 @@ position: 2
 
 
 
-##
 
 The **MaskPart Collection Editor** lets you create and modify the masks that are the values of the **RadMaskedTextBox** control's **Mask** and **DisplayMask** properties. You can display the MaskPart Collection Editor in two ways:
 

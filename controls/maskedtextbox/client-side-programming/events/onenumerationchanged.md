@@ -12,8 +12,6 @@ position: 6
 
 
 
-## 
-
 The **OnEnumerationChanged** client-side event handler is called when the value of an enumerated mask part is set. This event occurs even if the setting of the enumerated value does not result in a change (for example, after a postback).
 
 >note The **OnEnumerationChanged** event is supported by **RadMaskedTextBox** .

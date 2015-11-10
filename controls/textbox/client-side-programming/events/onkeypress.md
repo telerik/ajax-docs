@@ -12,7 +12,6 @@ position: 9
 
 
 
-## 
 
 The **OnKeyPress** client-side event handler is called when the user presses a key and is supported by all **RadInput** controls.
 

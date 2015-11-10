@@ -5,14 +5,13 @@ description: Introduction
 slug: radinputmanager/introduction
 tags: introduction
 published: True
-position: 0
+position: 1
 ---
 
 # Introduction
 
 
 
-## 
 
 The **RadInputManager** offers an easy and intuitive way to extend a standard asp.net text box, and without any extra custom code, introduce much functionality, normally related to a Telerik RadInput control. For example, a standard text box control offers no default functionality for text parsing and validation – this has to be done via custom code, either client or server side. This input validation is normally associated with Telerik RadInput controls.
 

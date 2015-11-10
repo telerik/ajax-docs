@@ -12,8 +12,6 @@ position: 7
 
 
 
-##
-
 The NumberFormat client object determines how a **RadNumericTextBox** control formats its value when it does not have focus. It is returned by the **get_numberFormat()** method of the [RadNumericTextBox client-side object]({%slug numerictextbox/client-side-programming/radnumerictextbox-client-object%}). The following table lists its properties:
 
 

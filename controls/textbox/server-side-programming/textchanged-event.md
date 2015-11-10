@@ -12,8 +12,6 @@ position: 1
 
 
 
-##
-
 The **radtextbox** control provides the **TextChanged** server event,which is raised when the **AutoPostBack** property is set to **true**, the user types valid entry, and the input loses focus.
 
 The **TextChanged** event only occurs if the value of the input control actually changes. If the user changes the string in the input control but does not actually change the value, the **TextChanged** event does not occur.

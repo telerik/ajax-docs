@@ -5,14 +5,14 @@ description: Overview
 slug: radinputmanager/overview
 tags: overview
 published: True
-position: 1
+position: 0
 ---
 
 # RadInputManager Overview
 
 
 
-##
+
 
 Broadly speaking, there are two groups of controls which are extended using the RadInputManager. The first are controls which are located directly on the page, such as a normal text box somewhere on the form. The second are text boxes located in another control- for example a text box nested in a repeater.
 

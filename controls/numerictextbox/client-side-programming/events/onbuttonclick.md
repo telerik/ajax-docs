@@ -12,7 +12,6 @@ position: 2
 
 
 
-##
 
 The **OnButtonClick** client-side event handler is called when the user clicks on a button associated with the input control. This can be the button that is displayed when the **ShowButton** property is **True**, or one of the spin buttons that is displayed when the **ShowSpinButtons** property is **True**.
 

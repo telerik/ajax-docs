@@ -12,7 +12,7 @@ position: 4
 
 
 
-##
+
 
 The following table lists the most important properties/methods of the **RadDateInput**client-side object:
 

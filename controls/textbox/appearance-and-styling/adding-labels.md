@@ -11,9 +11,6 @@ position: 9
 # Adding Labels
 
 
-
-##
-
 It is easy to attach a label to an **RadInput** control: simply set the text of the label as the value of the **Label** property. The label automatically appears to the left of the input area:
 
 ![Label](images/Label.png)

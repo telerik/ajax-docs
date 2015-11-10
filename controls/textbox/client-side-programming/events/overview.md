@@ -12,7 +12,6 @@ position: 0
 
 
 
-##
 
 The **RadInput** controls support a number of client-side events that let you respond to user actions without a postback. The following table lists the various client events, and which controls they apply to:
 

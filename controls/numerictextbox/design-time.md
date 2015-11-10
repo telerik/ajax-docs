@@ -5,7 +5,7 @@ description: Smart Tag
 slug: numerictextbox/design-time
 tags: smart,tag
 published: True
-position: 0
+position: 2
 ---
 
 # Smart Tag

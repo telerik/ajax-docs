@@ -12,7 +12,6 @@ position: 0
 
 
 
-##
 
 You can embed **RadInput** controls in a data-bound control and use it for editing. When the data-bound controlcreates the **RadTextBox**, **RadNumericTextBox**, **RadDateInput**, or **RadMaskedTextBox** control as part of its own rendering, it can extract the input values.
 

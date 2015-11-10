@@ -12,8 +12,6 @@ position: 15
 
 
 
-##
-
 The **OnValueChanged** client-side event handler is called when the user changes the value of the input control. The event occurs immediately after the control loses focus and its value has been updated, but before the server-side **TextChanged** event.
 
 The **OnValueChanged** event only occurs if the user entered a valid value that is different from the old value.

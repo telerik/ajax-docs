@@ -12,7 +12,6 @@ position: 5
 
 
 
-##
 
 How a **RadTextBox** control behaves when it receives focus can be controlled by setting the **SelectionOnFocus** property. It can be set to any of the following values:
 

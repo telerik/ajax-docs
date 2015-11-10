@@ -181,7 +181,7 @@ navigation:
         title: "Data Pager"
         position: 1
     "controls/dateinput":
-        title: "DateInput"
+        title: "Date Input"
         position: 1
     "controls/datepicker":
         title: "DatePicker"

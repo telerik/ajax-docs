@@ -12,7 +12,6 @@ position: 3
 
 
 
-##
 
 You can use the **RadSpell** control with **RadTextBox** to let users check the **Text** of the control for spelling errors.
 

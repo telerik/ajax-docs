@@ -12,8 +12,6 @@ position: 14
 
 
 
-## 
-
 The **OnMoveDown** client-side event handler is called when the user decreases the value of an enumeration or numeric range mask part by typing in a new value or using the arrow keys or mouse wheel.
 
 

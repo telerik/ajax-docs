@@ -1,22 +1,22 @@
 ---
-title: Overview
+title: Getting Started
 page_title: Getting Started Overview | RadTextBox for ASP.NET AJAX Documentation
-description: Overview
+description: Getting Started
 slug: radtextbox/getting-started
 tags: overview
 published: True
-position: 0
+position: 2
 ---
 
-# Getting Started Overview
+# Getting Started With RadTextBox
 
 
 
-##
 
-This tutorial will walk you through creating a Web page that uses **RadInput** controls. It shows how to:
 
-* Use the four different RadInput controls (**RadTextBox**, **RadMaskedTextBox**, **RadDateInput**, and **RadNumericTextBox**).
+This tutorial will walk you through creating a Web page that uses the **RadTextBox** control. It shows how to:
+
+
 
 * Apply a **Skin** to customize the look and feel.
 
