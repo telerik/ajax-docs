@@ -56,7 +56,7 @@ Here are quick links to the control-specific sections of our documentation:
 
 * [Data Pager]({%slug datapager/overview%})
 
-* [Date Input]({%slug dateinput/overview%})
+* [Date Input]({%slug raddateinput/overview%})
 
 * [Date Picker]({%slug datepicker/overview%})
 
@@ -88,7 +88,7 @@ Here are quick links to the control-specific sections of our documentation:
 
 * [Image Gallery]({%slug imagegallery/overview%})
 
-* [Input Manager]({%slug inputmanager/overview%})
+* [Input Manager]({%slug radinputmanager/overview%})
 
 * [LightBox]({%slug lightbox/overview%})
 
@@ -98,7 +98,7 @@ Here are quick links to the control-specific sections of our documentation:
 
 * [Map]({%slug map/overview%})
 
-* [Masked Textbox]({%slug maskedtextbox/overview%})
+* [Masked Textbox]({%slug radmaskedtextbox/overview%})
 
 * [Media Player]({%slug mediaplayer/overview%})
 
@@ -164,7 +164,7 @@ Here are quick links to the control-specific sections of our documentation:
 
 * [Tag Cloud]({%slug tagcloud/overview%})
 
-* [Textbox]({%slug textbox/overview%})
+* [Textbox]({%slug radtextbox/overview%})
 
 * [TileList]({%slug tilelist/overview%})
 
