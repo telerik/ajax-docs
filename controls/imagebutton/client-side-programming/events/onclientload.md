@@ -10,7 +10,7 @@ position: 2
 
 # OnClientLoad
 
-The load event occurs when the RadImageButton client-side object is instantiated on the page.
+The load event occurs when the **RadImageButton** client-side object is instantiated on the page.
 
 The event handler receives two parameters:
 

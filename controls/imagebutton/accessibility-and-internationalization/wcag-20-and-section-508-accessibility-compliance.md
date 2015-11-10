@@ -2,7 +2,7 @@
 title: WCAG 2.0 and Section 508 Accessibility Compliance
 page_title: WCAG 2.0 and Section 508 Accessibility Compliance | RadImageButton for ASP.NET AJAX Documentation
 description: WCAG 2.0 and Section 508 Accessibility Compliance
-slug: imagebutton/accessibility-and-internationalization/wcag-2.0-and-section-508-accessibility-compliance
+slug: imagebutton/accessibility-and-internationalization/wcag-20-and-section-508-accessibility-compliance
 tags: wcag,2.0,and,section,508,accessibility,compliance
 published: True
 position: 0
@@ -21,7 +21,5 @@ It also offers [Keyboard support]({%slug imagebutton/accessibility-and-internati
  * [Section 508](http://www.section508.gov/)
 
  * [Web Content Accessibility Guidelines (WCAG) 2.0](http://www.w3.org/TR/WCAG/)
-
- * [Right-to-Left Support]({%slug imagebutton/accessibility-and-internationalization/right-to-left-support%})
 
  * [Keyboard Support]({%slug imagebutton/accessibility-and-internationalization/keyboard-support%})

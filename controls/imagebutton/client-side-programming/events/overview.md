@@ -10,7 +10,7 @@ position: 0
 
 # Events Overview
 
-The RadImageButton exposes several client-side events which allow easy and flexible use in a wide range of application scenarios:
+The **RadImageButton** exposes several client-side events which allow easy and flexible use in a wide range of application scenarios:
 
 * **[OnClientLoad (load)]({%slug imagebutton/client-side-programming/events/onclientload%})** - raised when the control is initialized.
 

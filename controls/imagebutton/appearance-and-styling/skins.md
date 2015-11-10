@@ -33,5 +33,3 @@ The stylesheet for a **RadImageButton** skin has the name **Button.[SkinName].cs
 ## See Also
 
  * [Create a Custom Skin]({%slug imagebutton/appearance-and-styling/create-a-custom-skin%})
-
- * [Primary and Secondary Action Buttons]({%slug imagebutton/appearance-and-styling/primary-and-secondary-action-buttons%})

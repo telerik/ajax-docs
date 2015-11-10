@@ -16,10 +16,11 @@ The following tutorial demonstrates how to set up a page with a **RadImageButton
 
 	**ASP.NET**	
 	
-		<telerik:RadImageButton id="RadImageButton1" runat="server" text="My Button">
+		<telerik:RadImageButton id="RadImageButton1" runat="server" Width="100px" Height="100px" Text="Image Button">
+            <Image Url="image.png" />
 		</telerik:RadImageButton>	
 
-	The **Text** property specifies the text displayed in the **RadImageButton** control.
+	The **Image-Url** property specifies the image that is going to be rendered in the **RadImageButton**. And **Text** property renders a text over the image.
 
 1. To hook to the **OnClick** server-side event of **RadImageButton** switch to [Design view]({%slug imagebutton/design-time%}) of Visual Studio and double click on the button. This operation will insert the following function in the code behind file:
 
