@@ -12,7 +12,7 @@ position: 2
 
 
 
-##
+
 
 **RadDateInput** tries to recognize a free-form string and convert it to a valid date. This topic describes the assumptions the control makes and the data and algorithms that it uses to do that.
 

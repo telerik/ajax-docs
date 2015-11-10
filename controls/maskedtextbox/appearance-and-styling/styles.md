@@ -12,8 +12,6 @@ position: 1
 
 
 
-##
-
 All four types of **RadInput** controls come with a set of predefined styles, which are specified by the styles in the current [skin]({%slug radmaskedtextbox/appearance-and-styling/skins%}). If you have assigned a value to the **Skin** property, you can use a variety of style properties to customize the way the input control changes its appearance depending on its state.
 
 The following table lists the various style properties:

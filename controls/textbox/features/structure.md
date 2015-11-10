@@ -12,8 +12,6 @@ position: 1
 
 
 
-##
-
 The four types of **RadInput** controls (**RadTextBox**, **RadNumericTextBox**, **RadMaskedTextBox**, and **RadDateInput**) all have the same basic structure.
 
 At a minimum, the **RadInput** control has an input area, where the user can type in a value. Optionally, the **RadInput** control can include up to three additional areas:

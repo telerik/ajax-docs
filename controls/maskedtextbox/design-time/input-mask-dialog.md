@@ -12,8 +12,6 @@ position: 1
 
 
 
-##
-
 The **Input Mask dialog** lets you create and modify the masks that are the values of the **RadMaskedTextBox** control's **Mask** and **DisplayMask** properties. You can display the Input Mask dialog in two ways:
 
 * From the **RadMaskedTextBox** [Smart Tag]({%slug radmaskedtextbox/design-time/smart-tag%}), choose the **SetMask** link. When you bring up the Input Mask dialog in this way, the mask you create or choose is assigned to the **Mask** property, which controls the mask that is used when the user can edit the value.

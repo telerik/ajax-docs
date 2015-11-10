@@ -11,9 +11,6 @@ position: 3
 # RadMaskedTextBox Client Object
 
 
-
-##
-
 The following table lists the most important properties/methods of the **RadMaskedTextBox** client-side object:
 
 Properties

@@ -5,7 +5,7 @@ description: Smart Tag
 slug: radtextbox/design-time
 tags: smart,tag
 published: True
-position: 0
+position: 3
 ---
 
 # Smart Tag

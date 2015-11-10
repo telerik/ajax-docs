@@ -11,8 +11,7 @@ position: 10
 # OnLoad
 
 
-
-## 
+ 
 
 The **OnLoad** client-side event handler is called when the input control is loaded on the client.
 

@@ -12,7 +12,6 @@ position: 1
 
 
 
-##
 
 **RadMaskedTextBox** uses a mask string to control the text the user can enter. The string is composed of one or more of the mask elements, as shown the table below:
 

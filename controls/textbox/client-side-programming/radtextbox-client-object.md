@@ -12,8 +12,6 @@ position: 1
 
 
 
-##
-
 The following tables lists the most important properties/methods of the **RadTextBox** client-side object:
 
 Properties

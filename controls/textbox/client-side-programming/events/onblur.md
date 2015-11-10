@@ -12,7 +12,6 @@ position: 1
 
 
 
-## 
 
 The **OnBlur** client-side event handler is called when the input control loses focus.
 

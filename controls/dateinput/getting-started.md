@@ -1,20 +1,19 @@
 ---
-title: Overview
+title: Getting Started
 page_title: Getting Started Overview | RadDateInput for ASP.NET AJAX Documentation
-description: Overview
+description: Getting Started
 slug: raddateinput/getting-started/overview
 tags: overview
 published: True
-position: 0
+position: 1
 ---
 
-# Getting Started Overview
+# Getting Started With RadDateInput
 
 
 
-##
 
-This tutorial will walk you through creating a Web page that uses **RadInput** controls. It shows how to:
+This tutorial will walk you through creating a Web page that uses the **RadDateInput** control. It shows how to:
 
 * Use the **RadDateInput**control
 

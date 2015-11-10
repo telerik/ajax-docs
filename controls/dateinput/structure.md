@@ -5,14 +5,14 @@ description: Structure
 slug: /raddateinput/structure
 tags: structure
 published: True
-position: 1
+position: 2
 ---
 
 # Structure
 
 
 
-## 
+
 
 The four types of **RadInput** controls (**RadTextBox**, **RadNumericTextBox**, **RadMaskedTextBox**, and **RadDateInput**) all have the same basic structure.
 

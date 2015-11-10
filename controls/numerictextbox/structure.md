@@ -5,14 +5,12 @@ description: Structure
 slug: numerictextbox/structure
 tags: structure
 published: True
-position: 1
+position: 4
 ---
 
 # Structure
 
 
-
-##
 
 The four types of **RadInput** controls (**RadTextBox**, **RadNumericTextBox**, **RadMaskedTextBox**, and **RadDateInput**) all have the same basic structure except that only RadNumericTextBox has spin buttons. This structure is illustrated below for **RadNumericTextBox**:
 

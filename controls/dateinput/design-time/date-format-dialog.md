@@ -12,7 +12,6 @@ position: 3
 
 
 
-##
 
 The **Date Format Dialog** lets you to create or edit the date format that the **RadDateInput** control uses to display its data. There are two ways to display the Date Format Dialog:
 

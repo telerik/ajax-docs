@@ -12,7 +12,7 @@ position: 1
 
 
 
-## 
+
 
 The **OnFocus** event handler is raised when a textbox extended via the **RadInputManager** receives focus.
 

@@ -12,8 +12,6 @@ position: 13
 
 
 
-## 
-
 The **OnMoveUp** client-side event handler is called when the user increases the value of an enumeration or numeric range mask part by typing in a new value or using the arrow keys or mouse wheel.
 
 Two parameters are passed to the event handler:

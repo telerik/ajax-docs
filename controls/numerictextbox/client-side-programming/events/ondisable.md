@@ -12,7 +12,6 @@ position: 4
 
 
 
-## 
 
 The **OnDisable** client-side event handler is called when the input control is disabled.
 

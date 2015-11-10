@@ -12,8 +12,6 @@ position: 2
 
 
 
-## 
-
 The **OnKeyPress** event handler is raised when the user presses a keyboard key while the textbox extended via the **RadInputManager** has focus.
 
 The signature of the event handler is unified and is the same as in the other client side event handlers available for the control. It receives two arguments - the sender which raised the event, and another argument, which gives access to additional client side methods.

@@ -8,11 +8,8 @@ published: True
 position: 0
 ---
 
-# Input Overview
+# RadNumericTextbox Overview
 
-
-
-##
  Telerik RadNumericTextBox is an input control that accepts only numeric entries. It shares the common properties of all RadInput controls, including support for skins, styles for different states, empty message support, conditional postback on text change, flexible caret and button positioning, labels, and so on.
 About RadNumericTextBox for ASP.NET AJAX
 

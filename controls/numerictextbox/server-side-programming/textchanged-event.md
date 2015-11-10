@@ -12,7 +12,6 @@ position: 1
 
 
 
-##
 
 All **RadInput** controls provide the **TextChanged** server event,which is raised when the **AutoPostBack** property is set to **true**, the user types valid entry, and the input loses focus.
 
