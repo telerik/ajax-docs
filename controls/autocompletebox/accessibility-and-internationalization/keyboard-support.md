@@ -33,6 +33,6 @@ position: 0
 
 * The "Delete" or "Backspace" keys delete a highlighted entry in the input area ![autocompletebox-keyboardsupport-delete](images/autocompletebox-keyboardsupport-delete.png)
 
-* The "F2" key puts the token in edit mode if it is enabled ![autocompletebox-keyboardsupport-edit](images/autocompletebox-keyboardsupport-edit.png)
+* The "F2" key puts the token in edit mode if it is enabled ![autocompletebox-keyboardsupport-edit](images/autocompletebox-keyboardsupport-navigation-edit.png)
 
 * The "Esc" key puts closes the dropdwon and if pressed again deletes the text in the input area ![autocompletebox-keyboardsupport-escape](images/autocompletebox-keyboardsupport-escape.png)
