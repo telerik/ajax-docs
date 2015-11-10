@@ -10,7 +10,7 @@ position: 0
 
 # Properties and Events
 
-## RadImageButton common features (properties)
+## RadImageButton Common Features (properties)
 
 | Property | Description |
 | ------ | ------ |
@@ -32,7 +32,7 @@ position: 0
 | **SingleClick** |Gets or sets a bool value indicating whether the **SingleClick** functionality is enabled or disabled.|
 | **SingleClickText** |Gets or sets the text that is shown when single-click is being processed.|
 
-## Image specific features (properties)
+## Image Specific Features (properties)
 
 | Property | Description |
 | ------ | ------ |
