@@ -24,7 +24,7 @@ Here are quick links to the control-specific sections of our documentation:
 
 * [Ajax]({%slug ajax/overview%})
 
-* [AsyncUpload]({%slug asyncupload/overview%})
+* [Async Upload]({%slug asyncupload/overview%})
 
 * [AutoCompleteBox]({%slug autocompletebox/overview%})
 
@@ -42,21 +42,25 @@ Here are quick links to the control-specific sections of our documentation:
 
 * [ClientDataSource]({%slug clientdatasource/overview%})
 
-* [ClientExportManager]({%slug clientexportmanager/overview%})
+* [Client Export Manager]({%slug clientexportmanager/overview%})
 
-* [CloudUpload]({%slug cloudupload/overview%})
+* [Cloud Upload]({%slug cloudupload/overview%})
 
-* [ColorPicker]({%slug colorpicker/overview%})
+* [Color Picker]({%slug colorpicker/overview%})
 
 * [ComboBox]({%slug combobox/overview%})
 
 * [Compression]({%slug controls/radcompression%})
 
-* [DataPager]({%slug datapager/overview%})
+* [Data Form]({%slug dataform/overview%})
 
-* [DateInput]({%slug raddateinput/overview%})
+* [Data Pager]({%slug datapager/overview%})
 
-* [DataForm]({%slug dataform/overview%})
+* [Date Input]({%slug dateinput/overview%})
+
+* [Date Picker]({%slug datepicker/overview%})
+
+* [DateTime Picker]({%slug datetimepicker/overview%})
 
 * [Diagram]({%slug diagram/overview%})
 
@@ -68,11 +72,11 @@ Here are quick links to the control-specific sections of our documentation:
 
 * [Editor]({%slug editor/overview%})
 
-* [FileExplorer]({%slug fileexplorer/overview%})
+* [File Explorer]({%slug fileexplorer/overview%})
 
 * [Filter]({%slug filter/overview%})
 
-* [FormDecorator]({%slug formdecorator/overview%})
+* [Form Decorator]({%slug formdecorator/overview%})
 
 * [Gantt]({%slug gantt/overview%})
 
@@ -80,9 +84,11 @@ Here are quick links to the control-specific sections of our documentation:
 
 * [Grid]({%slug grid/overview%})
 
-* [ImageEditor]({%slug imageeditor/overview%})
+* [Image Editor]({%slug imageeditor/overview%})
 
-* [ImageGallery]({%slug imagegallery/overview%})
+* [Image Gallery]({%slug imagegallery/overview%})
+
+* [Input Manager]({%slug inputmanager/overview%})
 
 * [LightBox]({%slug lightbox/overview%})
 
@@ -90,37 +96,39 @@ Here are quick links to the control-specific sections of our documentation:
 
 * [ListView]({%slug listview/overview%})
 
-* [MaksedTextBox]({%slug radmaskedtextbox/overview%})
-
 * [Map]({%slug map/overview%})
 
-* [MediaPlayer]({%slug mediaplayer/overview%})
+* [Masked Textbox]({%slug maskedtextbox/overview%})
+
+* [Media Player]({%slug mediaplayer/overview%})
 
 * [Menu]({%slug menu/overview%})
+
+* [MonthYear Picker]({%slug monthyearpicker/overview%})
 
 * [Navigation]({%slug navigation/overview%})
 
 * [Notification]({%slug notification/overview%})
 
-* [NumericTextBox]({%slug numerictextbox/overview%})
+* [Numeric Textbox]({%slug numerictextbox/overview%})
 
-* [ODataDataSource]({%slug odatadatasource/overview%})
+* [OData DataSource]({%slug odatadatasource/overview%})
 
-* [OrgChart]({%slug orgchart/overview/overview%})
+* [Org Chart]({%slug orgchart/overview/overview%})
 
-* [PageLayout]({%slug pagelayout/overview%})
+* [Page Layout]({%slug pagelayout/overview%})
 
 * [PanelBar]({%slug panelbar/overview/overview%})
 
 * [PdfProcessing]({%slug radpdfprocessing-overview%})
 
-* [PersistenceFramework]({%slug persistenceframework/overview%})
+* [Persistence Framework]({%slug persistenceframework/overview%})
 
-* [PivotGrid]({%slug pivotgrid/overview%})
+* [Pivot Grid]({%slug pivotgrid/overview%})
 
-* [ProgressArea]({%slug progressarea/overview%})
+* [Progress Area]({%slug progressarea/overview%})
 
-* [ProgressBar]({%slug progressbar/overview%})
+* [Progress Bar]({%slug progressbar/overview%})
 
 * [Rating]({%slug rating/overview%})
 
@@ -130,17 +138,17 @@ Here are quick links to the control-specific sections of our documentation:
 
 * [Scheduler]({%slug scheduler/overview%})
 
-* [ScriptManager]({%slug scriptmanager/overview%})
+* [Script Manager]({%slug scriptmanager/overview%})
 
 * [SearchBox]({%slug searchbox/overview%})
 
 * [SiteMap]({%slug sitemap/overview%})
 
-* [SkinManager]({%slug controls/radskinmanager%})
+* [Skin Manager]({%slug controls/radskinmanager%})
 
 * [Slider]({%slug slider/overview%})
 
-* [SocialShare]({%slug socialshare/overview%})
+* [Social Share]({%slug socialshare/overview%})
 
 * [Spell]({%slug spell/overview%})
 
@@ -150,13 +158,13 @@ Here are quick links to the control-specific sections of our documentation:
 
 * [Spreadsheet]({%slug spreadsheet/overview%})
 
-* [StyleSheetManager]({%slug stylesheetmanager/overview%})
+* [StyleSheet Manager]({%slug stylesheetmanager/overview%})
 
-* [TabStrip]({%slug tabstrip/overview%})
+* [Tab Strip]({%slug tabstrip/overview%})
 
-* [TagCloud]({%slug tagcloud/overview%})
+* [Tag Cloud]({%slug tagcloud/overview%})
 
-* [TextBox]({%slug radtextbox/overview%})
+* [Textbox]({%slug textbox/overview%})
 
 * [TileList]({%slug tilelist/overview%})
 
@@ -178,7 +186,7 @@ Here are quick links to the control-specific sections of our documentation:
 
 * [XmlHttpPanel]({%slug xmlhttppanel/overview%})
 
-* [ZipLibrary]({%slug radziplibrary-overview%})
+* [Zip Library]({%slug radziplibrary-overview%})
 
 
 Telerik UI for ASP.NET AJAX works on the .NET v3.5, 4.0, 4.5 and 4.6 frameworks. The same assemblies work for both 32bit and 64bit machines.
