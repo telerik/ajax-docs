@@ -180,6 +180,9 @@ navigation:
     "controls/datapager":
         title: "Data Pager"
         position: 1
+    "controls/dateinput":
+        title: "DateInput"
+        position: 1
     "controls/datepicker":
         title: "DatePicker"
         position: 1
@@ -222,6 +225,9 @@ navigation:
     "controls/htmlchart":
         title: "Html Chart"
         position: 1
+    "controls/inputmanager":
+        title: "Input Manager"
+        position: 1
     "controls/imageeditor":
         title: "Image Editor"
         position: 1
@@ -243,6 +249,9 @@ navigation:
     "controls/map":
         title: "Map"
         position: 1
+    "controls/maskedtextbox":
+        title: "Masked Textbox"
+        position: 1
     "controls/mediaplayer":
         title: "Media Player"
         position: 1
@@ -257,6 +266,9 @@ navigation:
         position: 1
     "controls/notification":
         title: "Notification"
+        position: 1
+    "controls/numerictextbox":
+        title: "Numeric Textbox"
         position: 1
     "controls/odatadatasource":
         title: "OData DataSource"
@@ -332,6 +344,9 @@ navigation:
         position: 1
     "controls/tagcloud":
         title: "TagCloud"
+        position: 1
+    "controls/textbox":
+        title: "Textbox"
         position: 1
     "controls/tilelist":
         title: "TileList"
