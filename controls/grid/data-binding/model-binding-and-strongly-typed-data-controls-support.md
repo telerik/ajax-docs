@@ -195,7 +195,42 @@ public void UpdateProduct(Product product)
 
 **Inserting**
 
-In order to have inserting enabled into the data bound controls you need to set the InsertMethod property of the corresponding control to the name of the web form page’s insert method. The InsertMethod can have following signatures:
+In order to have inserting enabled into the data bound controls you need to set the InsertMethod property of the corresponding control to the name of the web form page’s insert method. The InsertMethod can have following signatures.
+
+You can pass a Product object:
+
+
+````C#
+public void InsertProduct(Product p)
+{
+	if (ModelState.IsValid)
+	{
+		context.Products.InsertOnSubmit(p);
+		context.SubmitChanges();
+	}
+}
+````
+
+
+
+Or you can pass the productID to the Insert method.
+
+
+
+````C#
+public void InsertProduct(int productID)
+{
+	Product pr = new Product();
+	TryUpdateModel(pr);
+	if (ModelState.IsValid)
+	{
+		context.Products.InsertOnSubmit(p);
+		context.SubmitChanges();
+	}
+}
+````
+
+
 
 **Deleting**
 
