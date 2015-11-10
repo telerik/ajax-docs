@@ -24,7 +24,7 @@ In order to add controls to the **RadImageButton** in the markup, you should pla
 
 ![RadImageButtons with ContentTemplate](images/RadImageButtons-contenttemplate.png)
 
->caption Example 1: Adding controls to ContentTemplate of RadImageButton in the markup.
+>caption Example 1: Adding controls to **ContentTemplate** of **RadImageButton** in the markup.
 
 ````ASP.NET
 <telerik:RadImageButton runat="server" ID="RadImageButton1">
@@ -137,4 +137,4 @@ You can add controls to **RadImageButton** from the code-behind in two ways:
 
 ## See Also
 
- * [ImageButton - Content Template]({%slug imagebutton/functionality/contenttemplate%})
+ * [PushButton - Content Template]({%slug pushbutton/functionality/contenttemplate%})
