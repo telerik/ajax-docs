@@ -34,7 +34,7 @@ The second file represents the actual skin of the control, and its name consists
 
 	1. **Skins/MyCustomSkinLite/Button.MyCustomSkin.css**.
 
-1. In order to support multiple skins of **RadPushButton** on a single page, the wrapping skin-specific class is coined by the name of the control, plus underscore ("_") plus SkinName, i.e., **.RadButton_Default**, so in order to create a custom skin out of the Default skin, we should rename all occurrences of **"RadButton_Default"** in **Button.MyCustomSkin.css** to **"RadButton_MyCustomSkin"** as shown below:
+1. In order to support multiple skins of **RadPushButton** on a single page, the wrapping skin-specific class is created by the name of the control, plus underscore ("_") plus SkinName, i.e., **.RadButton_Default**, so in order to create a custom skin out of the Default skin, we should rename all occurrences of **"RadButton_Default"** in **Button.MyCustomSkin.css** to **"RadButton_MyCustomSkin"** as shown below:
 
 	![Rename Button Light](images/RenameButtonLight.png)
 
