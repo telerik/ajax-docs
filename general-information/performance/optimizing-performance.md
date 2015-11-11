@@ -22,62 +22,53 @@ In this article we will go ahead and summarize the most important performance in
 
 * [Optimization Tips: Optimizing Custom Skins](http://blogs.telerik.com/ToddAnglin/Posts/08-06-24/Optimization_Tips_Optimizing_Custom_Skins.aspx)
 
+By default each Telerik control serves a set of files (javascript code and stylesheets) needed for proper client-side operation and look.
 
-**RadGrid**
+When loading a page with several controls on it, the number of these files can become very large, often resulting in a reduced page load time and increased traffic. The reason for this problem is that browsers make separate requests to the server for each of these resources.
 
-* server-side: The grid itself cannot cause server-side performance problems related to controls creations and/or render. There might be some possible problems with controls inside grid templates.
+Usually this problem is overcome by disabling the automatic script and stylesheet serving the controls, combining them into a smaller set of files and manually registering the links to these files in the page.
 
-* data-binding: The .NET 2.0 version of the grid is optimized to handle up to 1 000 000 records without major performance problems. Server-side paging will increase performance dramatically. Example: [http://demos.telerik.com/aspnet-ajax/Grid/Examples/Programming/CustomPaging/DefaultCS.aspx](http://demos.telerik.com/aspnet-ajax/Grid/Examples/Programming/CustomPaging/DefaultCS.aspx) .NET 3.5 version can handle millions of records and will apply paging, sorting and filtering directly on the data-base server (LinqDataSource) codeless: [http://blogs.telerik.com/vladimirenchev/Posts/08-03-10/How_fast_is_your_ASP_NET_DataGrid.aspx?ReturnURL=%2fvladimirenchev%2fposts.aspx%3fYear%3d2008%26Month%3d3](http://blogs.telerik.com/vladimirenchev/Posts/08-03-10/How_fast_is_your_ASP_NET_DataGrid.aspx?ReturnURL=%2fvladimirenchev%2fposts.aspx%3fYear%3d2008%26Month%3d3) Client-side data-binding approach is also very fast + you will get pure JSON transfer between client and server: [http://blogs.telerik.com/VladimirEnchev/Posts/08-05-23/SQL_Server_sorting_paging_and_filtering_with_RadGrid_client-side_data-binding_to_WebService.aspx?ReturnURL=%2fVladimirEnchev%2fPosts.aspx](http://blogs.telerik.com/VladimirEnchev/Posts/08-05-23/SQL_Server_sorting_paging_and_filtering_with_RadGrid_client-side_data-binding_to_WebService.aspx?ReturnURL=%2fVladimirEnchev%2fPosts.aspx)
+This approach is not the best for a number of reasons:
 
-* ViewState size: Some of the grid operations can work with completely turned off ViewState. Example: [http://demos.telerik.com/aspnet-ajax/Grid/Examples/Programming/ViewState/DefaultCS.aspx](http://demos.telerik.com/aspnet-ajax/Grid/Examples/Programming/ViewState/DefaultCS.aspx). In client-side data-binding scenarios you do not need the ViewState also: Example: [http://demos.telerik.com/aspnet-ajax/grid/examples/client/databinding/defaultcs.aspx](http://demos.telerik.com/aspnet-ajax/grid/examples/client/databinding/defaultcs.aspx).
+* you must extract the files from the assembly for each control release: 
 
-* HTML output size: RadGrid output is the smallest on the market however may depend on selected grid features, number of items per page and templates. Example: [http://demos.telerik.com/aspnet-ajax/Grid/Examples/GeneralFeatures/Migration/DefaultCS.aspx](http://demos.telerik.com/aspnet-ajax/Grid/Examples/GeneralFeatures/Migration/DefaultCS.aspx).
+* files become too large to be maintainable (or you have to write a script to merge the source files)
 
-* JavaScript file size: The entire grid script size is 174 Kb (combined and compressed using dojo)
+* the number of the merged files you need to maintain can become very large depending on the control sets you have on different pages;
 
-* JavaScript $create clause size: Depends on selected features. Can be turned off along with all other resources: Example: [http://blogs.telerik.com/VladimirEnchev/Posts/08-07-15/Telerik_RadGrid_Section_508_Compliance.aspx?ReturnURL=%2fBlogs.aspx](http://blogs.telerik.com/VladimirEnchev/Posts/08-07-15/Telerik_RadGrid_Section_508_Compliance.aspx?ReturnURL=%2fBlogs.aspx).
+Nevertheless, by using [RadScriptManager]({%slug scriptmanager/overview%}) and [RadStyleSheetManager]({%slug stylesheetmanager/overview%}) controls, Telerik UI for ASP.NET AJAX suite gives developers the advantage of a simple drag-and-drop to achieve the combination of resources to a single request. All you need is to add a [RadScriptManager]({%slug scriptmanager/overview%}) to your page instead of the default ScriptManager and the javascript files will get combined into a single file. Putting an additional control – [RadStyleSheetManager]({%slug stylesheetmanager/overview%}) to the page makes the stylesheet requests combined into a single request. Both controls need an HttpHandler to be declared in the application's configuration file to operate properly. The handler can easily added using the Smart Tags of the controls.
 
-* Number of requests: Most of the grid images come from the grid CSS sprite which minimizes number of requests to the server for resources. Can be minimized with RadScriptManager and RadStyleSheetManager.
+The RadScriptManager and RadStyleSheetManager controls also let you download the resources the Telerik controls need from our CDN instead of using WebResource requests. To do that, set their `CdnSettings-TelerikCdn` property to `Enabled`. You can read more on the subject in the [CDN Overview]({%slug scriptmanager/cdn-support/overview%}) help article. Using the CDN takes load off your server and improves resource caching.
 
-* Other: [Client/server grid performance optimizations]({%slug grid/performance/grid-performance-optimizations%})
+Downloading from the CDN, however, will result in a request for each individual file (script, stylesheet, font, etc.). You can improve the CDN performance even further by instructing the controls to fetch a combined resource of all scripts/base stylesheets for all the controls in a single request by toggling the `Telerik.ScriptManager.TelerikCdn.CombinedResource` and `Telerik.StyleSheetManager.TelerikCdn.CombinedResource` [appSettings keys]({% slug general-information/web-config-settings-overview %}) to `enabled`. This configuration is exposed for an individual instance via the `CdnSettings-CombinedResource` property.
 
+## RadGrid
 
+**RadGrid** control provide a different solutions to optimize its performance. You can find more information in the help articles from the following list:
 
-**RadEditor**
+* [Grid Performance Optimizations]({%slug grid/performance/grid-performance-optimizations %})
 
-Some optimization features introduced in the ASP.NET AJAX version are:
+* [Ajaxifying RadGrid]({%slug grid/performance/ajaxifying-radgrid %})
 
-* semantic rendering to reduce HTML markup
+* [Saving the grid ViewState in Session]({%slug grid/performance/saving-the-grid-viewstate-in-session %})
 
-* certain editor scripts are loaded only if needed, reducing total script sent to client
+* [Optimizing ViewState usage]({%slug grid/performance/optimizing-viewstate-usage %})
 
-* use of optimized code relying on the common Prometheus framework
+* [Rebind Grid with EnableViewState = false]({%slug grid/performance/rebind-grid-with-enableviewstate-=-false %})
 
-* lazy initialization and loading for any client-side feature not immediately used.
+## RadEditor
 
-Nonetheless, there are two scenarios where performance can degrade:
+Below you can find a list of performance optimization help articles for RadEditor control:
 
-1. Having many editors on the page(10, 20 or even 30. More common in MOSS scenarios). RadEditor for ASP.NET AJAX initializes about 3-4 times faster than the Classic version on the client side. Nonetheless, having 30 instances of the editor is bound to cause a delay. However, this delay can be greatly reduced and brought to almost nothing – by setting a ToolProviderID (so that many editors share the same toolbar and no additional markup is sent on client), as well as set the ToolbarMode property – non default toolbars use lazy initialization and are initialized not when the page loads, but when an editor is first used (e.g. the user clicks in the content area). The following example demonstrates these two features: [http://demos.telerik.com/aspnet-ajax/Editor/Examples/ToolProvider/DefaultCS.](http://demos.telerik.com/aspnet-ajax/Editor/Examples/ToolProvider/DefaultCS.aspx)
+* [Optimizations]({%slug editor/performance/optimizations %})
 
-1. Loading too much content into the editor (100K and more). This is done very rarely, but sometimes we get contacted about slow performance of the editor. Problem is not addressable – it is inherent. When having to deal with so much content, the browser eats lots of memory to provide for storing the editor states needed by the Undo/Redo, the Undo/Redo itself starts executing slowly due to the huge content.
+* [Toolbar Loading Optimizations]({%slug editor/performance/toolbar-loading-optimizations %})
 
-**RadTreeView**
+## RadTreeView
 
-The biggest challenge here is to deliver acceptable performance when dealing with lots of nodes (hundreds and thousands). To do so RadTreeView supports:
+You can read more information about optimization RadTreeView performance in [Optimizing RadTreeView Performance]({%slug treeview/troubleshooting/optimizing-radtreeview-performance %}) help article.
 
-* HTML markupRadTreeView renders the least amount of HTML needed to implement the features. However, the HTML size grows up dramatically when RadTreeView contains a few thousand of nodes. This issue cannot be easily tackled - even rendering a few thousand strings will generate lots of output. That’s where load on demand comes into play.
-
-* Load on demandThe idea is simple - render that HTML only when needed. RadTreeView supports three different types of load on demand:
-
-	1. [Client-side (via ASP.NET Callbacks)](http://demos.telerik.com/aspnet-ajax/TreeView/Examples/Programming/ClientLoadOnDemandSql/DefaultCS.aspx). This is technique is easier for the developer to implement however may not be a top performer because the whole ViewState is submitted on every request.
-
-	1. [Server-side (regular postbacks which can be ajaxified)](http://demos.telerik.com/aspnet-ajax/TreeView/Examples/Programming/LoadOnDemandSql/DefaultCS.aspx) Worst performance. Mostly added for backwards compatibility. Full page update can be avoided by wrapping the treeview inside update panel.
-
-	1. [Web-services](http://demos.telerik.com/aspnet-ajax/TreeView/Examples/Programming/WebService/DefaultCS.aspx) Web services provide best performance because they completely skip the heavy page lifecycle and don’t require sending huge ViewState strings. All types of load on demand keep logging the nodes created on demand. This however introduces a delay after numerous loads on demand requests since the log grows bigger. This is required by customers who want the nodes created on demand do be persisted after postback (or those nodes need to fire server-side events - click, drag and drop etc). This means that after some time all load on demand schemes (without server-side) get slower. Fortunately, there is a property **PersistLoadOnDemandNodes** which controls this behavior.
-
-* Initialization of the client objectRadTreeView supports on demand initialization of nodes which are not visible (their parent nodes are collapsed). This is transparent to the user. However, invoking the client-side API (e.g. get_allNodes()) can force full client-side initialization which is a time consuming operation in case of a few hundred nodes. Also logging client side changes which need to be reflected on the server (checking a node, selecting a node) from the client-side API can be slow with lots of nodes. JSONRadTreeView (as well as most of our ASP.NET AJAX controls) renders some JavaScript code in JSON format required to initialize the nodes. At the time being the text of the node is not serialized in by default which saves lots of output. A QSF example demonstrating web-service load on demand with disabled ViewState will demonstrate the top performance achievable with RadTreeView. Also the [performance section of the help]({%slug treeview/troubleshooting/optimizing-radtreeview-performance%}) provides some further insights.
-
-**RadComboBox**
+## RadComboBox
 
 Again performance might degrade with lots of items and lots of combobox instances. This is addressed by using load on demand.
 
@@ -89,35 +80,39 @@ Again performance might degrade with lots of items and lots of combobox instance
 
 	1. [Callbacks](http://demos.telerik.com/aspnet-ajax/ComboBox/Examples/PopulatingWithData/AutoCompleteSql/DefaultCS.aspx) (ASP.NET 2.0 Callbacks)
 
-**RadMenu**
+1. More in-depth information is available in [Optimizing the Combobox]({%slug combobox/troubleshooting/optimizing-the-combobox%}) help article.
+	
+## RadMenu
 
 It supports [web service load on demand](http://demos.telerik.com/aspnet-ajax/Menu/Examples/Programming/WebService/DefaultCS.aspx) and lazy initialization (transparent for the user). RadMenu can seamlessly work with disabled ViewState.
 
-**RadTabStrip**
+## RadTabStrip
 
 Having lots of page views (inside RadMultiPage) can slow down switching between tabs. Also it generates lots of HTML (because of the controls contained in the pageviews). To tackle this problem we have an [online example](http://demos.telerik.com/aspnet-ajax/TabStrip/Examples/ApplicationScenarios/LoadOnDemand/DefaultCS.aspx) demonstrating how to load pageviews on demand via AJAX. The multipage also has a property “RenderSelectedPageOnly” which does exactly what it says. In this case switching to a new page view requires postback. **RadAjaxManager & RadAjaxPanel** performance problems can be caused by large updating areas with lots of HTML (especially tables), JavaScript files, JavaScript components and CSS. More info: [Optimizing client-side performance]({%slug ajax/performance/optimizing-performance-using-radajaxmanager%})
 
-**RadDatePicker, RadDateTimePicker and RadTimePicker**
+## RadDatePicker, RadDateTimePicker and RadTimePicker
 
 Performance problems can be caused by using the picker in list controls. An example how to optimize this can be found here:
 
-[http://blogs.telerik.com/VladimirEnchev/Posts/08-07-10/Maximum_performance_with_minimum_output_using_Telerik_RadDatePicker_client-side_API.aspx?ReturnURL=%2fVladimirEnchev%2fPosts.aspx](http://blogs.telerik.com/VladimirEnchev/Posts/08-07-10/Maximum_performance_with_minimum_output_using_Telerik_RadDatePicker_client-side_API.aspx?ReturnURL=%2fVladimirEnchev%2fPosts.aspx)
+[Maximum performance with minimum output using Telerik RadDatePicker client-side API](http://www.telerik.com/blogs/maximum-performance-with-minimum-output-using-telerik-raddatepicker-client-side-api)
+
+Also having many date pickers or time pickers on a page can render a lot of HTML and impact performance negatively. You can handle such scenarios by using a shared RadCalendar or RadTimeView. You can find more information and examples on the matter in [Using shared RadCalendar/RadTimeView]({%slug calendar/raddatepicker,-radtimepicker,-raddatetimepicker-and-radmonthyearpicker/using-shared-radcalendar-and-radtimeview%}).
 
 **RadDateInput, RadNumericInput, RadMaskedTextBox and RadTextBox**
 
 Performance problems can be caused by using these controls in templates of list controls. A better idea is to create an outside edit form similar to this example:
 
-[http://blogs.telerik.com/vladimirenchev/posts/08-05-27/client-side_edit_update_delete_and_insert_with_radcontrols_for_asp_net_ajax_webservices_and_linq.aspx?ReturnURL=%2fVladimirEnchev%2fPosts.aspx](http://blogs.telerik.com/vladimirenchev/posts/08-05-27/client-side_edit_update_delete_and_insert_with_radcontrols_for_asp_net_ajax_webservices_and_linq.aspx?ReturnURL=%2fVladimirEnchev%2fPosts.aspx)
+[Client-side edit, update, delete and insert with RadControls for ASP.NET AJAX, WebServices and LINQ](http://www.telerik.com/blogs/client-side-edit-update-delete-and-insert-with-radcontrols-for-asp-net-ajax-webservices-and-linq)
 
-**RadToolTip**
+## RadToolTip
 
-RadTooltip RadTooltipManager are quite lightweight and generally there are no problems with performance. However, in templated scenarios the number of tooltip controls on the page can easily go out of hand. We have seen scenarios involving 1000+ tooltips on a single page. Since each of them needs to be initialized on client page load, the system takes a lot of time to do it, especially If `<compilation debug=true>`. In such scenarios there is a better approach to the tooltips – and that is using a couple of lines of client-side code that will create a tooltip only when the user needs to see it. The following demo demonstrates this approach: [http://demos.telerik.com/aspnet-ajax/ToolTip/Examples/RadToolTipManagerClientAPI/DefaultCS.aspx](http://demos.telerik.com/aspnet-ajax/ToolTip/Examples/RadToolTipManagerClientAPI/DefaultCS.aspx)
+**RadTooltip** and **RadTooltipManager** are quite lightweight and generally there are no problems with performance. However, in templated scenarios the number of tooltip controls on the page can easily go out of hand. We have seen scenarios involving 1000+ tooltips on a single page. Since each of them needs to be initialized on client page load, the system takes a lot of time to do it, especially If `<compilation debug=true>`. In such scenarios there is a better approach to the tooltips – and that is using a couple of lines of client-side code that will create a tooltip only when the user needs to see it. The following demo demonstrates this approach: [ToolTip - Dynamic Tooltip Creation](http://demos.telerik.com/aspnet-ajax/ToolTip/Examples/RadToolTipManagerClientAPI/DefaultCS.aspx)
 
-**RadSplitter**
+## RadSplitter
 
 A brand new mechanism for updating RadSplitter's child controls was introduced that is many times faster than the old one which traversed every single HTML element to test whether it is a Telerik control.
 
-**RadScheduler**
+## RadScheduler
 
 * Data-binding: We recommend that customers bind RadScheduler only with appointments that are visible in the currently selected view. This makes performance a non-issue, as the views are limited to a few thousand appointments at maximum.
 
@@ -131,7 +126,7 @@ A brand new mechanism for updating RadSplitter's child controls was introduced t
 
 * Number of requests: On-demand loading of scripts generates a few additional requests. Other than that, the number is rather low, as skins contain very little number of images. Using RadScriptManager and RadStyleSheetManager reduces the number even further.
 
-**RadHtmlChart**
+## RadHtmlChart
 
 The **RadHtmlChart** renders SVG in modern browsers and VML in older browsers that do not support SVG (i.e., IE8 and below), that are essentially forms of an XML document. This means that the chart's image will be created by numerous elements (i.e., XML nodes) and rendering them may take some time for the browser. In scenarios where the chart has many components like series items, x/y axes labels, major and/or minor grid lines (i.e., path and text elements for the rendering) and the animation is enabled (it is enabled by default), the overall rendering time may be increased because the browser will have to draw too many elements and animate them.
 
@@ -149,18 +144,12 @@ The way to improve the rendering speed of the chart is to remove the most numero
 
 You can see an example of an optimized chart configuration in [RadHtmlChart Performance Optimizations]({%slug htmlchart/troubleshooting/performance-optimizations%}) help article.
 
-**RadScriptManager and RadStyleSheetManager**
+## RadAjaxPanel and RadAjaxManager
 
-By default each Telerik control serves a set of files (javascript code and stylesheets) needed for proper client-side operation and look.
+By using AJAX controls you can increase the performance significantly since only the controls that need to be updated will be affected? Here is a few performance tips that you can try.
 
-When loading a page with several controls on it, the number of these files can become very large, often resulting in a reduced page load time and increased traffic. The reason for this problem is that browsers make separate requests to the server for each of these resources.
+* Include several controls in a single AJAX request. That means, if you have two **Lable** controls in one container and both of them need to be updated, it will be better to update the container instead both Labels separately. 
 
-Usually this problem is overcome by disabling the automatic script and stylesheet serving the controls, combining them into a smaller set of files and manually registering the links to these files in the page.
+* If you do not load CSS-rich controls in AJAX requests you can turn off **RadAjax's** head update by setting the **EnablePageHeadUpdate** property to **false** .
 
-This approach is not the best for a number of reasons:- you must extract the files from the assembly for each control release;- files become too large to be maintainable (or you have to write a script to merge the source files);- the number of the merged files you need to maintain can become very large depending on the control sets you have on different pages;
-
-With the newly added [RadScriptManager]({%slug scriptmanager/overview%}) and [RadStyleSheetManager]({%slug stylesheetmanager/overview%}) controls, Telerik UI for ASP.NET AJAX suite gives developers the advantage of a simple drag-and-drop to achieve the combination of resources to a single request. All you need is to add a [RadScriptManager]({%slug scriptmanager/overview%}) to your page instead of the default ScriptManager and the javascript files will get combined into a single file. Putting an additional control – [RadStyleSheetManager]({%slug stylesheetmanager/overview%}) to the page makes the stylesheet requests combined into a single request. Both controls need an HttpHandler to be declared in the application's configuration file to operate properly. The handler can easily added using the Smart Tags of the controls.
-
-The RadScriptManager and RadStyleSheetManager controls also let you download the resources the Telerik controls need from our CDN instead of using WebResource requests. To do that, set their `CdnSettings-TelerikCdn` property to `Enabled`. You can read more on the subject in the [CDN Overview]({%slug scriptmanager/cdn-support/overview%}) help article. Using the CDN takes load off your server and improves resource caching.
-
-Downloading from the CDN, however, will result in a request for each individual file (script, stylesheet, font, etc.). You can improve the CDN performance even further by instructing the controls to fetch a combined resource of all scripts/base stylesheets for all the controls in a single request by toggling the `Telerik.ScriptManager.TelerikCdn.CombinedResource` and `Telerik.StyleSheetManager.TelerikCdn.CombinedResource` [appSettings keys](./devtools/aspnet-ajax/general-information/web-config-settings-overview#control-properties-you-can-set-from-the-webconfigg) to `enabled`. This configuration is exposed for an individual instance via the `CdnSettings-CombinedResource` property.
+* More detailed information is available in [Optimizing Performance Using RadAjaxManager]({%slug ajax/performance/optimizing-performance-using-radajaxmanager %})
