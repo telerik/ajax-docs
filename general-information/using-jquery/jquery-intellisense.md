@@ -25,6 +25,7 @@ The following simple markup provides IntelliSense for the current page:
 ````ASP.NET
 <asp:ScriptManager ID="ScriptManager2" runat="server">
     <Scripts>
+        <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Detection.Detection.js" />
         <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Core.js" />
     </Scripts>
 </asp:ScriptManager>
@@ -38,6 +39,7 @@ You can also enable it for all pages by creating a custom page and adding it to 
 	
 		<asp:ScriptManager runat="server" ID="ScriptManager3">
 		   <Scripts>
+			   <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Detection.Detection.js" />
 			   <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Core.js" />
 			   <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQuery.js" />
 			   <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQueryInclude.js" />
@@ -70,6 +72,7 @@ If you have been using the script references before, you can safely remove them 
 ````ASP.NET
 You no longer need these for jQuery intellisense
 <Scripts>
+    <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Detection.Detection.js" />
     <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Core.js" />
     <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQuery.js" />
     <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQueryInclude.js" />
@@ -83,6 +86,7 @@ Since the Q1 2011 release of Telerik UI for ASP.NET AJAX, jQuery IntelliSense do
 ````ASP.NET
 <asp:ScriptManager ID="ScriptManager1" runat="server">
     <Scripts>
+        <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Detection.Detection.js" />
         <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Core.js" />
     </Scripts>
 </asp:ScriptManager>
@@ -100,6 +104,7 @@ Since the Q1 2011 release of Telerik UI for ASP.NET AJAX, jQuery IntelliSense do
 	
 		<asp:ScriptManager runat="server" ID="ScriptManager1">
 		   <Scripts>
+			   <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Detection.Detection.js" />
 			   <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Core.js" />
 			   <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQuery.js" />
 			   <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQueryInclude.js" />
@@ -136,6 +141,7 @@ Here is a screenshot:
 
 		<asp:ScriptManager ID="ScriptManager" runat="server">
 		   <Scripts>
+			   <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Detection.Detection.js" />
 			   <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Core.js" />
 			   <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQuery.js" />
 			   <asp:ScriptReference Path="~/jquery-telerik.js" />

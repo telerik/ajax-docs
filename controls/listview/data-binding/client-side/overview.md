@@ -99,11 +99,12 @@ The RadListView client-side component supports initialization entirely on the cl
 
 
           <asp:ScriptManager ID="ScriptManager1" runat="server">
-          <Scripts>
-          <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Core.js" />
-          <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQuery.js" />
-          <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.ListView.RadListView.js" />
-          </Scripts>
+              <Scripts>
+                  <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Detection.Detection.js" />
+                  <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Core.js" />
+                  <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQuery.js" />
+                  <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.ListView.RadListView.js" />
+              </Scripts>
           </asp:ScriptManager>
 
 
@@ -131,6 +132,7 @@ Here follows an example of a RadListView initialized on the client, *using infin
 ````ASP.NET
 <asp:ScriptManager ID="ScriptManager1" runat="server">
     <Scripts>
+        <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Detection.Detection.js" />
         <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Core.js" />
         <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQuery.js" />
         <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.ListView.RadListView.js" />
