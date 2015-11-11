@@ -18,6 +18,7 @@ In this version we modifed the RadMenu client scripts. In case that you are stil
 
 ````ASP.NET
 	        <scripts>
+	            <asp:ScriptReference Path="~/Scripts/Common/Detection/Detection.js" />
 	            <asp:ScriptReference Path="~/Scripts/Common/Core.js" />
 	            <asp:ScriptReference Path="~/Scripts/Common/jQuery.js" />
 	            <asp:ScriptReference Path="~/Scripts/Common/jQueryPlugins.js" />
@@ -32,6 +33,7 @@ Please refer to the following code snippet if you use Q1 2014 version or newer:
 
 ````ASP.NET
 	        <scripts>
+			    <asp:ScriptReference Path="~/Scripts/Common/Detection/Detection.js" />
 			    <asp:ScriptReference Path="~/Scripts/Common/Core.js" />
 	            <asp:ScriptReference Path="~/Scripts/Common/jQuery.js" />
 	            <asp:ScriptReference Path="~/Scripts/Common/jQueryPlugins.js" />

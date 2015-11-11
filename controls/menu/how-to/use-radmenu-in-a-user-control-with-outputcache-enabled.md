@@ -55,6 +55,7 @@ The reason for this is that when the aspx page postbacks, it receives the cached
 ````ASP.NET
 <asp:ScriptManager ID="ScriptManager1" runat="server">
     <Scripts>
+        <asp:ScriptReference Path="~/Scripts/Common/Detection/Detection.js" />
         <asp:ScriptReference Path="~/Scripts/Common/Core.js" />
         <asp:ScriptReference Path="~/Scripts/Common/jQuery.js" />
         <asp:ScriptReference Path="~/Scripts/Common/jQueryPlugins.js" />
