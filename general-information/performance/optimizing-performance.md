@@ -70,17 +70,7 @@ You can read more information about optimization RadTreeView performance in [Opt
 
 ## RadComboBox
 
-Again performance might degrade with lots of items and lots of combobox instances. This is addressed by using load on demand.
-
-1. HTML markupRadComboBox renders unordered list for its dropdown which is quite light. This is the least amount of html required to render the dropdown.
-
-1. Load on demandRadComboBox supports two types of load on demand (with caching of items):
-
-	1. [Web-Service](http://demos.telerik.com/aspnet-ajax/ComboBox/Examples/Programming/WebServiceShowMoreResults/DefaultCS.aspx)
-
-	1. [Callbacks](http://demos.telerik.com/aspnet-ajax/ComboBox/Examples/PopulatingWithData/AutoCompleteSql/DefaultCS.aspx) (ASP.NET 2.0 Callbacks)
-
-1. More in-depth information is available in [Optimizing the Combobox]({%slug combobox/troubleshooting/optimizing-the-combobox%}) help article.
+Performance might degrade with lots of items and lots of combobox instances on the page. [Optimizing the Combobox]({%slug combobox/troubleshooting/optimizing-the-combobox%}) help article gives some hints how to achieve better performance.
 	
 ## RadMenu
 
