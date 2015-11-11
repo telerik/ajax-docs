@@ -46,6 +46,7 @@ A complete list of the JavaScript files used by Telerik UI for ASP.NET AJAX can 
 ````ASP.NET
 <telerik:RadScriptManager ID="RadScriptManager1" runat="server">
     <Scripts>
+        <asp:ScriptReference Path="~/Scripts/Common/Detection/Detection.js" />
         <asp:ScriptReference Path="~/Scripts/Common/Core.js" />
         <asp:ScriptReference Path="~/Scripts/Common/jQuery.js" />
         <asp:ScriptReference Path="~/Scripts/Common/jQueryPlugins.js" />
@@ -69,6 +70,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 
 ````ASP.NET
 <scripts>
+	<asp:ScriptReference Path="~/Scripts/Common/Detection/Detection.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/Core.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/jQuery.js" />
 	<asp:ScriptReference Path="~/Scripts/Ajax/Ajax.js" />
@@ -79,6 +81,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 
 ````ASP.NET
 <scripts>
+	<asp:ScriptReference Path="~/Scripts/Common/Detection/Detection.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/Core.js" />
 	<asp:ScriptReference Path="~/Scripts/Ajax/Ajax.js" />
 </scripts>
@@ -88,6 +91,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 
 ````ASP.NET
 <scripts>
+	<asp:ScriptReference Path="~/Scripts/Common/Detection/Detection.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/Core.js" />
 	<asp:ScriptReference Path="~/Scripts/Ajax/Ajax.js" />
 </scripts>
@@ -97,6 +101,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 
 ````ASP.NET
 <Scripts>
+    <asp:ScriptReference Path="~/Scripts/Common/Detection/Detection.js" />
     <asp:ScriptReference Path="~/Scripts/Common/Core.js" />
     <asp:ScriptReference Path="~/Scripts/Upload/RadProgressManager.js" />
     <asp:ScriptReference Path="~/Scripts/Common/jQuery.js" />
@@ -114,6 +119,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 
 ````ASP.NET
 <scripts>
+   <asp:ScriptReference Path="~/Scripts/Common/Detection/Detection.js" />
    <asp:ScriptReference Path="~/Scripts/Common/Core.js" />
    <asp:ScriptReference Path="~/Scripts/Common/jQuery.js" />
    <asp:ScriptReference Path="~/Scripts/Common/jQueryPlugins.js" />
@@ -134,6 +140,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 
 ````ASP.NET
 <scripts>
+	<asp:ScriptReference Path="~/Scripts/Common/Detection/Detection.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/Core.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/jQuery.js"  />
 	<asp:ScriptReference Path="~/Scripts/Common/jQueryPlugins.js"  />
@@ -145,6 +152,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 
 ````ASP.NET
 <scripts>
+	<asp:ScriptReference Path="~/Scripts/Common/Detection/Detection.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/Core.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/jQuery.js" />
 	<asp:ScriptReference Path="~/Scripts/Calendar/RadCalendarCommonScript.js" />
@@ -156,6 +164,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 
 ````ASP.NET
 <scripts>
+	<asp:ScriptReference Path="~/Scripts/Common/Detection/Detection.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/Core.js" />
 	<asp:ScriptReference Path="~/Scripts/Captcha/RadCaptcha.js" />
 </scripts>
@@ -165,6 +174,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 
 ````ASP.NET
 <scripts>
+    <asp:ScriptReference Path="~/Scripts/Common/Detection/Detection.js" />
     <asp:ScriptReference Path="~/Scripts/Common/Core.js" />
     <asp:ScriptReference Path="~/Scripts/Common/jQuery.js" />
     <asp:ScriptReference Path="~/Scripts/Common/jQueryInclude.js" />
@@ -181,6 +191,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 
 ````ASP.NET
 <scripts>
+	<asp:ScriptReference Path="~/Scripts/Common/Detection/Detection.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/Core.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/jQuery.js"  />
 	<asp:ScriptReference Path="~/Scripts/Common/jQueryPlugins.js"  />
@@ -193,6 +204,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 
 ````ASP.NET
 <scripts>
+	<asp:ScriptReference Path="~/Scripts/Common/Detection/Detection.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/Core.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/jQuery.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/jQueryPlugins.js" />
@@ -208,6 +220,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 
 ````ASP.NET
 <scripts>
+	<asp:ScriptReference Path="~/Scripts/Common/Detection/Detection.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/Core.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/jQuery.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/jQueryPlugins.js" />
@@ -236,6 +249,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 
 ````ASP.NET
 <scripts>
+    <asp:ScriptReference Path="~/Scripts/Common/Detection/Detection.js" />
     <asp:ScriptReference Path="~/Scripts/Common/Core.js" />
     <asp:ScriptReference Path="~/Scripts/Common/jQuery.js" />
     <asp:ScriptReference Path="~/Scripts/Common/jQueryPlugins.js" />
@@ -247,6 +261,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 
 ````ASP.NET
 <scripts>
+	<asp:ScriptReference Path="~/Scripts/Common/Detection/Detection.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/Core.js" />
 	<asp:ScriptReference Path="~/Scripts/ListView/DataPager/RadDataPagerScripts.js" />
 </scripts>
@@ -256,6 +271,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 
 ````ASP.NET
 <scripts>
+	<asp:ScriptReference Path="~/Scripts/Common/Detection/Detection.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/Core.js" />             
 	<asp:ScriptReference Path="~/Scripts/Input/DateInput/RadDateInputScript.js" />
 </scripts>
@@ -265,6 +281,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 
 ````ASP.NET
 <scripts>
+	<asp:ScriptReference Path="~/Scripts/Common/Detection/Detection.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/Core.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/jQuery.js" />
 	<asp:ScriptReference Path="~/Scripts/Input/TextBox/RadInputScript.js" />               
@@ -280,6 +297,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 
 ````ASP.NET
 <scripts>
+	<asp:ScriptReference Path="~/Scripts/Common/Detection/Detection.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/Core.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/jQuery.js" />
 	<asp:ScriptReference Path="~/Scripts/Input/TextBox/RadInputScript.js" />               
@@ -297,6 +315,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 
 ````ASP.NET
 <scripts>
+	<asp:ScriptReference Path="~/Scripts/Common/Detection/Detection.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/Core.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/jQuery.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/jQueryPlugins.js" />
@@ -312,6 +331,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 
 ````ASP.NET
 <scripts>
+   <asp:ScriptReference Path="~/Scripts/Common/Detection/Detection.js" />
    <asp:ScriptReference Path="~/Scripts/Common/Core.js" />
    <asp:ScriptReference Path="~/Scripts/Common/jQuery.js" />
    <asp:ScriptReference Path="~/Scripts/Common/jQueryPlugins.js" />
@@ -325,6 +345,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 
 ````ASP.NET
 <scripts>
+    <asp:ScriptReference Path="~/Scripts/Common/Detection/Detection.js" />
     <asp:ScriptReference Path="~/Scripts/Common/Core.js" />
     <asp:ScriptReference Path="~/Scripts/Common/jQuery.js" />
     <asp:ScriptReference Path="~/Scripts/Common/jQueryPlugins.js" />
@@ -339,6 +360,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 
 ````ASP.NET
 <scripts>
+	<asp:ScriptReference Path="~/Scripts/Common/Detection/Detection.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/Core.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/jQuery.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/jQueryPlugins.js" />
@@ -360,6 +382,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 
 ````ASP.NET
 <scripts>
+	<asp:ScriptReference Path="~/Scripts/Common/Detection/Detection.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/Core.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/jQuery.js"  />
 	<asp:ScriptReference Path="~/Scripts/Common/jQueryPlugins.js"  />
@@ -392,6 +415,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 
 ````ASP.NET
 <scripts>
+	<asp:ScriptReference Path="~/Scripts/Common/Detection/Detection.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/Core.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/jQuery.js"  />
 	<asp:ScriptReference Path="~/Scripts/Common/jQueryPlugins.js"  />
@@ -409,6 +433,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 
 ````ASP.NET
 <scripts>
+	<asp:ScriptReference Path="~/Scripts/Common/Detection/Detection.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/Core.js" />
 	<asp:ScriptReference Path="~/Scripts/FormDecorator/RadFormDecorator.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/Popup/PopupScripts.js" />
@@ -461,6 +486,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 
 ````ASP.NET
 <Scripts>
+	<asp:ScriptReference Path="~/Scripts/Common/Detection/Detection.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/Core.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/jQuery.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/jQueryPlugins.js" />
@@ -478,6 +504,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 
 ````ASP.NET
 <scripts>
+	<asp:ScriptReference Path="~/Scripts/Common/Detection/Detection.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/Core.js" />
     <asp:ScriptReference Path="~/Scripts/Common/jQuery.js"  />
 	<asp:ScriptReference Path="~/Scripts/Common/jQueryPlugins.js"  />
@@ -495,6 +522,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 
 ````ASP.NET
 <Scripts>
+	<asp:ScriptReference Path="~/Scripts/Common/Detection/Detection.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/Core.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/jQuery.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/jQueryPlugins.js" />
@@ -524,6 +552,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 
 ````ASP.NET
 <scripts>
+    <asp:ScriptReference Path="~/Scripts/Common/Detection/Detection.js" />
     <asp:ScriptReference Path="~/Scripts/Common/Core.js" />
     <asp:ScriptReference Path="~/Scripts/Common/jQuery.js" />
     <asp:ScriptReference Path="~/Scripts/Common/jQueryPlugins.js" />
@@ -535,6 +564,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 
 ````ASP.NET
 <scripts>
+    <asp:ScriptReference Path="~/Scripts/Common/Detection/Detection.js" />
     <asp:ScriptReference Path="~/Scripts/Common/Core.js" />
     <asp:ScriptReference Path="~/Scripts/Common/jQuery.js" />
     <asp:ScriptReference Path="~/Scripts/Common/jQueryPlugins.js" />
@@ -557,6 +587,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 
 ````ASP.NET
 <scripts>
+	<asp:ScriptReference Path="~/Scripts/Common/Detection/Detection.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/Core.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/jQuery.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/jQueryPlugins.js" />
@@ -572,6 +603,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 
 ````ASP.NET
 <scripts>
+    <asp:ScriptReference Path="~/Scripts/Common/Detection/Detection.js" />
     <asp:ScriptReference Path="~/Scripts/Common/Core.js" />
     <asp:ScriptReference Path="~/Scripts/Common/jQuery.js" />
     <asp:ScriptReference Path="~/Scripts/ListView/RadListViewScripts.js" />
@@ -583,6 +615,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 
 ````ASP.NET
 <scripts>
+	<asp:ScriptReference Path="~/Scripts/Common/Detection/Detection.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/Core.js" />
 	<asp:ScriptReference Path="~/Scripts/Input/TextBox/RadInputScript.js" />               
 	<asp:ScriptReference Path="~/Scripts/Input/MaskedTextBox/RadMaskedInputScript.js" />
@@ -593,6 +626,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 
 ````ASP.NET
 <scripts>
+	<asp:ScriptReference Path="~/Scripts/Common/Detection/Detection.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/Core.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/jQuery.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/jQueryPlugins.js" />
@@ -622,6 +656,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 
 ````ASP.NET
 <scripts>                  
+	<asp:ScriptReference Path="~/Scripts/Common/Detection/Detection.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/Core.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/jQuery.js" />
 	<asp:ScriptReference Path="~/Scripts/Calendar/RadCalendarScript.js" />              
@@ -635,6 +670,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 
 ````ASP.NET
 <scripts>
+	<asp:ScriptReference Path="~/Scripts/Common/Detection/Detection.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/Core.js" />
 	<asp:ScriptReference Path="~/Scripts/TabStrip/MultiPage/RadMultiPageScripts.js" />
 </scripts>
@@ -644,6 +680,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 
 ````ASP.NET
 <Scripts>
+	<asp:ScriptReference Path="~/Scripts/Common/Detection/Detection.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/Core.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/jQuery.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/jQueryPlugins.js" />
@@ -674,6 +711,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 
 ````ASP.NET
 <scripts>
+	<asp:ScriptReference Path="~/Scripts/Common/Detection/Detection.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/Core.js" />
 	<asp:ScriptReference Path="~/Scripts/Input/TextBox/RadInputScript.js" />               
 	<asp:ScriptReference Path="~/Scripts/Input/NumericTextBox/RadNumericInputScript.js" />
@@ -684,6 +722,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 
 ````ASP.NET
 <scripts>
+    <asp:ScriptReference Path="~/Scripts/Common/Detection/Detection.js" />
     <asp:ScriptReference Path="~/Scripts/Common/Core.js" />
     <asp:ScriptReference Path="~/Scripts/Common/jQuery.js" />
     <asp:ScriptReference Path="~/Scripts/Common/jQueryPlugins.js" />
@@ -695,6 +734,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 
 ````ASP.NET
 <scripts>
+	<asp:ScriptReference Path="~/Scripts/Common/Detection/Detection.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/Core.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/jQuery.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/jQueryPlugins.js" />
@@ -708,6 +748,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 
 ````ASP.NET
 <scripts>
+	<asp:ScriptReference Path="~/Scripts/Common/Detection/Detection.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/Core.js" />
     <asp:ScriptReference Path="~/Scripts/Common/jQuery.js"  />
 	<asp:ScriptReference Path="~/Scripts/Common/jQueryPlugins.js"  />
@@ -727,6 +768,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 
 ````ASP.NET
 <scripts>
+	<asp:ScriptReference Path="~/Scripts/Common/Detection/Detection.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/Core.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/jQuery.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/jQueryPlugins.js" />
@@ -738,6 +780,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 
 ````ASP.NET
 <scripts>
+    <asp:ScriptReference Path="~/Scripts/Common/Detection/Detection.js" />
     <asp:ScriptReference Path="~/Scripts/Common/Core.js" />
     <asp:ScriptReference Path="~/Scripts/Common/jQuery.js" />
     <asp:ScriptReference Path="~/Scripts/Common/jQueryPlugins.js" />
@@ -752,6 +795,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 
 ````ASP.NET
 <scripts>
+	<asp:ScriptReference Path="~/Scripts/Common/Detection/Detection.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/Core.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/jQuery.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/jQueryPlugins.js" />
@@ -764,6 +808,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 
 ````ASP.NET
 <scripts>
+    <asp:ScriptReference Path="~/Scripts/Common/Detection/Detection.js" />
     <asp:ScriptReference Path="~/Scripts/Common/Core.js" />
     <asp:ScriptReference Path="~/Scripts/Common/jQuery.js" />
     <asp:ScriptReference Path="~/Scripts/Common/jQueryPlugins.js" />
@@ -822,6 +867,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 
 ````ASP.NET
 <scripts>
+    <asp:ScriptReference Path="~/Scripts/Common/Detection/Detection.js" />
     <asp:ScriptReference Path="~/Scripts/Common/Core.js" />
     <asp:ScriptReference Path="~/Scripts/Common/jQuery.js" />
     <asp:ScriptReference Path="~/Scripts/Common/jQueryPlugins.js" />
@@ -835,6 +881,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 
 ````ASP.NET
 <scripts>
+	<asp:ScriptReference Path="~/Scripts/Common/Detection/Detection.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/Core.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/jQuery.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/jQueryPlugins.js" />
@@ -862,6 +909,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 
 ````ASP.NET
 <scripts>
+	<asp:ScriptReference Path="~/Scripts/Common/Detection/Detection.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/Core.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/jQuery.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/jQueryPlugins.js" />
@@ -875,6 +923,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 
 ````ASP.NET
 <scripts>                  
+    <asp:ScriptReference Path="~/Scripts/Common/Detection/Detection.js" />
     <asp:ScriptReference Path="~/Scripts/Common/Core.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/jQuery.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/jQueryPlugins.js" />
@@ -906,6 +955,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 
 ````ASP.NET
 <scripts>
+	<asp:ScriptReference Path="~/Scripts/Common/Detection/Detection.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/Core.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/jQuery.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/jQueryPlugins.js" />
@@ -921,6 +971,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 
 ````ASP.NET
 <scripts>
+	<asp:ScriptReference Path="~/Scripts/Common/Detection/Detection.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/Core.js" />
     <asp:ScriptReference Path="~/Scripts/Common/jQuery.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/Scrolling/ScrollingScripts.js" />
@@ -933,6 +984,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 
 ````ASP.NET
 <scripts>
+	<asp:ScriptReference Path="~/Scripts/Common/Detection/Detection.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/Core.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/jQuery.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/jQueryPlugins.js" />
@@ -944,6 +996,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 
 ````ASP.NET
 <scripts>
+	<asp:ScriptReference Path="~/Scripts/Common/Detection/Detection.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/Core.js" />
 	<asp:ScriptReference Path="~/Scripts/Input/TextBox/RadInputScript.js" />
 </scripts>
@@ -953,6 +1006,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 
 ````ASP.NET
 <scripts>
+	<asp:ScriptReference Path="~/Scripts/Common/Detection/Detection.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/Core.js" />
 	<asp:ScriptReference Path="~/Scripts/Rotator/RadTicker.js" />
 </scripts>
@@ -962,6 +1016,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 
 ````ASP.NET
 <scripts>
+	<asp:ScriptReference Path="~/Scripts/Common/Detection/Detection.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/Core.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/jQuery.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/jQueryPlugins.js" />
@@ -977,6 +1032,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 
 ````ASP.NET
 <scripts>
+	<asp:ScriptReference Path="~/Scripts/Common/Detection/Detection.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/Core.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/jQuery.js" />
 	<asp:ScriptReference Path="~/Scripts/Input/TextBox/RadInputScript.js" />               
@@ -994,6 +1050,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 
 ````ASP.NET
 <scripts>
+	<asp:ScriptReference Path="~/Scripts/Common/Detection/Detection.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/Core.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/jQuery.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/jQueryPlugins.js" />
@@ -1006,6 +1063,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 
 ````ASP.NET
 <scripts>
+	<asp:ScriptReference Path="~/Scripts/Common/Detection/Detection.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/Core.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/jQuery.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/jQueryPlugins.js" />
@@ -1028,6 +1086,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 
 ````ASP.NET
 <scripts>
+   <asp:ScriptReference Path="~/Scripts/Common/Detection/Detection.js" />
    <asp:ScriptReference Path="~/Scripts/Common/Core.js" />
    <asp:ScriptReference Path="~/Scripts/TreeList/RadTreeListScripts.js" />
    <asp:ScriptReference Path="~/Scripts/TreeList/TreeListItemDragScript.js" />
@@ -1038,6 +1097,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 
 ````ASP.NET
 <scripts>
+	<asp:ScriptReference Path="~/Scripts/Common/Detection/Detection.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/Core.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/jQuery.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/jQueryPlugins.js" />
@@ -1052,6 +1112,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 
 ````ASP.NET
 <scripts>
+	<asp:ScriptReference Path="~/Scripts/Common/Detection/Detection.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/Core.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/PopUp/PopUpScripts.js" />
 	<asp:ScriptReference Path="~/Scripts/Upload/RadProgressArea.js" />               
@@ -1064,6 +1125,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 
 ````ASP.NET
 <scripts>
+	<asp:ScriptReference Path="~/Scripts/Common/Detection/Detection.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/Core.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/jQuery.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/jQueryPlugins.js" />
@@ -1086,6 +1148,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 
 ````ASP.NET
 <scripts>
+	<asp:ScriptReference Path="~/Scripts/Common/Detection/Detection.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/Core.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/jQuery.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/jQueryPlugins.js" />
