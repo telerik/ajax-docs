@@ -15,7 +15,7 @@ Typically RadGrid stores in the **ViewState** only items/controls collections. H
 
 You can control this behavior by setting the **EnableViewState** property of RadGrid to false if you do not wish the data for the controls in the grid to to be persisted in the **ViewState**. This means that the control will need to be rebound on every request: either by firing the NeedDataSource event or by going through an ASP.NET 2.x/3.x data source control.
 
->note When you set the **EnableViewState** property of **RadGrid** to **False** , the only supported way for binding is touse Advanced DataBinding (using [NeedDataSource event ](http://www.telerik.com/help/aspnet-ajax/grid-advanced-data-binding.html) or [Declarative DataSources](http://www.telerik.com/help/aspnet-ajax/grid-binding-to-declarative-datasource-controls.html)).
+>note When you set the **EnableViewState** property of **RadGrid** to **False** , the only supported way for binding is to use Advanced DataBinding (using [NeedDataSource event ](http://www.telerik.com/help/aspnet-ajax/grid-advanced-data-binding.html) or [Declarative DataSources](http://www.telerik.com/help/aspnet-ajax/grid-binding-to-declarative-datasource-controls.html)).
 >
 
 
@@ -131,9 +131,9 @@ End Class
 
 When having **EnableViewState** set to false, RadGrid will use the control state of the host Page to store only the absolutely necessary bits of data that preserve the current paging, sorting, and filtering state.
 
-Some operations in Telerik RadGrid like data extraction through the **ExtractValuesFromItem** method, grouping, hierarchical views expand/collapse, custom edit forms (WebUserControl and FormTemplate) require that the **EnableViewState** is set to **true**. If no data is persisted for items in Telerik RadGrid (**EnableViewState=false**), then the state of items is lost after postback. Generally, data-source persistence optimization should be used if the small size/speed of a Page, showing RadGrid, is crucial for the application. If ViewState optimization is enabled, RadGrid will fire **NeedDataSource** and will bind after each post back to restore its items.**RadGrid** and its TableView manage the state of the following features while the**EnableViewState** property is set to **False**:
+Some operations in Telerik RadGrid like data extraction through the **ExtractValuesFromItem** method, grouping, hierarchical views expand/collapse, custom edit forms (WebUserControl and FormTemplate) require that the **EnableViewState** is set to **true**. If no data is persisted for items in Telerik RadGrid (**EnableViewState=false**), then the state of items is lost after postback. Generally, data-source persistence optimization should be used if the small size/speed of a Page, showing RadGrid, is crucial for the application. If ViewState optimization is enabled, RadGrid will fire **NeedDataSource** and will bind after each post back to restore its items. **RadGrid** and its TableView manage the state of the following features while the **EnableViewState** property is set to **False**:
 
-* Indexes of selected items. Because of design limitations RadGrid only persists the selected items on the first postback.Any subsequent postbacks will clear the SelectedIndexes collection and thus will deselect the items. Possible work-around is to call the saveClientState() function of RadGridwhich will save the selected items in the client-state of the control. The same rule applies for selected cells.
+* Indexes of selected items. Because of design limitations RadGrid only persists the selected items on the first postback. Any subsequent postbacks will clear the SelectedIndexes collection and thus will deselect the items. Possible work-around is to call the saveClientState() function of RadGrid which will save the selected items in the client-state of the control. The same rule applies for selected cells.
 
 * Indexes of edited items
 
@@ -159,4 +159,10 @@ Some operations in Telerik RadGrid like data extraction through the **ExtractVal
 
 * Expanded state of items in hierarchy. This basically means that you could not use more than one level of hierarchy, unless you save the expanded settings manually.
 
-If you would like to retain the expanded state of items or server-side selection with **ViewState** disabled, you may consider using the approach depicted in [this code library entry](http://www.telerik.com/community/code-library/aspnet-ajax/grid/retain-expanded-selected-state-in-hierarchy-on-rebind.aspx) (applicable for explicit rebinds or **ViewState** switched off) or [this knowledge base article](http://www.telerik.com/support/kb/aspnet-ajax/grid/using-nopersistence-in-datasourcepersistancemode-of-gridtableview.aspx) . An alternative solution would be to turn on the **ViewState** of the grid and optimize its performance by using **RadCompression** and its page adapters as explained in [this article](http://www.telerik.com/help/aspnet-ajax/radcompression.html).
+If you would like to retain the expanded state of items or server-side selection with **ViewState** disabled, you may consider using the approach depicted in [this code library entry](http://www.telerik.com/community/code-library/aspnet-ajax/grid/retain-expanded-selected-state-in-hierarchy-on-rebind.aspx) (applicable for explicit rebinds or **ViewState** switched off). An alternative solution would be to turn on the **ViewState** of the grid and optimize its performance by using **RadCompression** and its page adapters as explained in [this article](http://www.telerik.com/help/aspnet-ajax/radcompression.html).
+
+## See Also
+
+ * [Grid Performance Optimizations]({%slug grid/performance/grid-performance-optimizations%})
+ 
+ * [Saving the grid ViewState in Session]({%slug grid/performance/saving-the-grid-viewstate-in-session%})
