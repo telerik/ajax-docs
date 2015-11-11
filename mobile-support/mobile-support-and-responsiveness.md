@@ -10,9 +10,13 @@ position: 0
 
 # Mobile Support and Responsiveness
 
-In the modern World Wide Web, users expect to be able to access your content using a variety of devices that range	in size from the very small smart phone to a hi-definition display on a workstation or even a widescreen display.	To accommodate this range of access to your content, Telerik recommends a Responsive approach to your web design.
+In the modern World Wide Web, users expect to be able to access your content using a variety of devices that range	in size from the very small smart phone to a hi-definition display on a workstation or even a widescreen display (Figure 1).	To accommodate this range of access to your content, Telerik recommends a Responsive approach to your web design.
 
 Responsive Web Design is an approach at formatting your content to provide an optimal viewing experience on a wide range of devices with a minimum of resizing, panning, or scrolling.	Starting with the Q1 2014 release of the UI for AJAX, Telerik provides significant support for responsive web design.
+
+>caption Figure 1: Responsivene web design targets
+
+![](images/responsiveness-overview.png)
 
 ## Recommendations
 
@@ -56,17 +60,35 @@ Thanks to the breadth of uses for the controls, the following behaviors are impl
 
 These controls feature multiple HTML renderings with appropriate styles to support various devices.When a page that contains an adaptive control is requested, the control will decide on the server which HTML rendering is optimal for the browser and device requesting content.This has the benefit of delivering the best experience to your visitors for their device resolution.	[View our adaptive control demos online](http://demos.telerik.com/responsive-web-design-aspnet/samples/adaptive-behavior.aspx).
 
+>caption Figure 2: Adaptive controls
+
+![](images/adaptive-sample.png)
+
+
 ### Elastic Controls
 
 Elastic behavior dictates that the controls will grow and shrink appropriately to maintain a size that is relative to the font-size in use on the page.This has a benefit for your end-users in that they can zoom or change font-sizes in their browser and the controls will size appropriately. [View our elastic control demos online](http://demos.telerik.com/responsive-web-design-aspnet/samples/elastic-behavior.aspx).
+
+>caption Figure 3: Elastic controls
+
+![](images/elastic-sample.png)
+
 
 ### Responsive Controls
 
 These controls feature a single HTML rendering, but are adapted for various device and browser sizes in the browser through styles and scripts.All script and style information is transmitted to the browser, and with CSS media queries the browser presents the optimized layout for the control. [View our responsive control demos online](http://demos.telerik.com/responsive-web-design-aspnet/samples/responsive-behavior.aspx).
 
+>caption Figure 4: Responsive controls
+
+![](images/responsive-sample.png)
+
 ### Fluid Controls
 
 Fluid refers to the control filling its containing object in the HTML layout.If the container changes size, the control inside should scale and size with the container.Most Telerik ASP.NET AJAX controls now feature fluid behaviors.
+
+>caption Figure 5: Fluid controls
+
+![](images/fluid-sample.png)
 
 ## Appearance and Theming
 
@@ -97,6 +119,10 @@ Among the gestures added to controls are:
 * **Map** — drag the layer to pan; spread or pinch to zoom in or zoom out.
 
 More information about the gestures support for the controls can be found in the [gestures support]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/mobile-support/gestures-support%}) article.
+
+>caption Figure 6: Touch gestures being used for a control
+
+![](images/gestures-for-control.png)
 
 ## Samples – See the Mobile Features Running
 
