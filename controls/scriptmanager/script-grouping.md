@@ -53,6 +53,7 @@ Script grouping aims to solve that problem. Imagine the following setup. There i
 	<Groups>
 		<telerik:ScriptReferenceGroup>
 			<Scripts>
+				<asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Detection.Detection.js" />
 				<asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Core.js" />
 				<asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQuery.js" />
 				<asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQueryPlugins.js" />

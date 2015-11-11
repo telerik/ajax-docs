@@ -16,9 +16,10 @@ position: 22
 
 To facilitate Client-side development with the controls in the Telerik UI suite, Telerik provides a library of static client-side javascript functions. This javascript object is named **$telerik**. The functions inside make a handy set of tools for tasks related to DOM element traversal and position location, browser detection, object search and others. The **$telerik** object is loaded into the window object whenever you add a UI control from the Telerik.Web.UI namespace to the page. Alternatively, if you do not use any Telerik control, but have referenced the assembly Telerik.Web.UI and still want to use **$telerik**, you can manually reference the javascript resource file embedded in the Telerik.Web.UI assembly:
 
-````ASPNET
+````ASP.NET
 <asp:ScriptManager runat="server" ID="ScriptManager1">
     <Scripts>
+        <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Detection.Detection.js" />
         <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Core.js" />
     </Scripts>
 </asp:ScriptManager>
@@ -147,6 +148,7 @@ The **$telerik** object provides the following set of static functions by topic:
 <%-- The Core and jQuery scripts are needed for the Animation framework's scripts --%>
 <telerik:RadScriptManager runat="server" ID="RSM1">
     <Scripts>
+        <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Detection.Detection.js" />
         <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Core.js" />
         <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQuery.js" />
 

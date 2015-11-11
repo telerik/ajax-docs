@@ -34,6 +34,7 @@ If you have any of the controls listed in the [Telerik UI Controls Using jQuery]
 	
 	**ASP.NET**
 
+		<asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Detection.Detection.js" />
 		<asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Core.js" /> 
 
 1. Add a ScriptReference pointing to **jQuery.js**
@@ -47,6 +48,7 @@ Here is how your RadScriptManager (or ScriptManager) should look like in the end
 ````ASP.NET
 <telerik:RadScriptManager runat="server" ID="RadScriptManager1" >
    <Scripts>
+       <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Detection.Detection.js" />
        <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Core.js" />
        <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQuery.js" />
    </Scripts>
@@ -80,6 +82,7 @@ You can disable the jQuery scripts our controls bring by default via the followi
 	
 		<telerik:RadScriptManager runat="server" ID="RadScriptManager2" EnableEmbeddedjQuery="false">
 		    <Scripts>
+		        <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Detection.Detection.js" />
 		        <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Core.js" />
 		        <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQueryExternal.js" />
 		        <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQueryPlugins.js" />
