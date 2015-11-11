@@ -10,7 +10,7 @@ position: 3
 
 # Render Modes
 
-**RadImageButton** has two different render modes (**Lightweight** and **Native**) that can change the actual CSS that is used. They are exposed via the **RenderMode** property that can have five possible values - **Classic**, **Lightweight**, **Native**, **Mobile** and **Auto**.
+**RadImageButton** supports only **Lightweight** render mode. Generally it is exposed via the **RenderMode** property that can have five possible values - **Classic**, **Lightweight**, **Native**, **Mobile** and **Auto**.
 
 The possible options are:
 

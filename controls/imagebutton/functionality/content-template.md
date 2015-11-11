@@ -10,7 +10,7 @@ position: 1
 
 # ContentTemplate
 
-This help article showcases how to add complex content (server-side controls and HTML elements) in **RadImageButton** instead of plain text (**Figure 1**). You can do this both in the markup, or in the code-behind:
+This help article showcases how to add complex content (server-side controls and HTML elements) in **RadImageButton** instead of a simple image with/without text (**Figure 1**). You can do this both in the markup, or in the code-behind:
 
 * [Add Elements to RadImageButton in the Markup](#add-elements-to-radimagebutton-in-the-markup)
 
