@@ -30,7 +30,6 @@ Telerik **RadTreeView** cannot find its JavaScript code. The necessary code is f
 ````ASPNET
 <asp:ScriptManager ID="ScriptManager1" runat="server">
     <Scripts>
-        <asp:ScriptReference Path="~/Scripts/Common/Detection/Detection.js" />
         <asp:ScriptReference Path="~/Scripts/Common/Core.js" />
         <asp:ScriptReference Path="~/Scripts/Common/Animation/AnimationScripts.js" />
         <asp:ScriptReference Path="~/Scripts/Common/Navigation/NavigationScripts.js" />
