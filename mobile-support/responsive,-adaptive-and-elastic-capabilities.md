@@ -14,13 +14,34 @@ To fit into a responsive page design, the controls from the UI for ASP.NET AJAX 
 
 A control can hardly be considered responsive by itself, because this heavily depends on the layout and design of the page it is placed on. Nevertheless, here follow the guidelines we use to define a control as responsive, elastic, adaptive or fluid:
 
-* **Fluid** — a fluid control can take up 100% of the width of its parent and resize with it in real-time (as opposed to stretching initially and not responding to a container size change).
+* **Fluid** (Figure 1)—a fluid control can take up 100% of the width of its parent and resize with it in real-time (as opposed to stretching initially and not responding to a container size change).
 
-* **Responsive** — the control will have the same HTML rendering in all resolutions, but CSS rules or JavaScript logic may reorder, resize or even hide certain elements from its UI to make it more suitable for the current dimensions.
 
-* **Elastic** — this means that a font-size change will resize the control elements accordingly. This is usually achieved by using `em` units for font-size and padding settings. **Example 1** at the end of this article shows the selectors for all controls that support elastic design. You can read more about each specific control in the articles linked in **Table 1**.
+* **Responsive** (Figure 2)—the control will have the same HTML rendering in all resolutions, but CSS rules or JavaScript logic may reorder, resize or even hide certain elements from its UI to make it more suitable for the current dimensions.
 
-* **Adaptive** — an adaptive control can change its HTML rendering and layout according to the device it is displayed on. Usually, at least one mode is optimized for mobile devices.
+* **Elastic** (Figure 3)—this means that a font-size change will resize the control elements accordingly. This is usually achieved by using `em` units for font-size and padding settings. **Example 1** at the end of this article shows the selectors for all controls that support elastic design. You can read more about each specific control in the articles linked in **Table 1**.
+
+* **Adaptive** (Figure 4)—an adaptive control can change its HTML rendering and layout according to the device it is displayed on. Usually, at least one mode is optimized for mobile devices.
+
+
+>caption Figure 1: Fluid control concept
+
+![](images/fluid-control.jpg)
+
+
+>caption Figure 2: Responsive control concept
+
+![](images/responsive-control.png)
+
+
+>caption Figure 3: Elastic control concept
+
+![](images/elastic-control.png)
+
+>caption Figure 3: Adaptive control concept
+
+![](images/adaptive-control.gif)
+
 
 
 >caption Table 1: A list with the responsive capabilities the controls from the UI for ASP.NET AJAX suite offer.
