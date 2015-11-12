@@ -5,7 +5,7 @@ description: Creating a Custom Skin
 slug: button/appearance-and-styling/creating-a-custom-skin
 tags: creating,a,custom,skin
 published: True
-position: 2
+position: 3
 ---
 
 # Creating a Custom Skin
