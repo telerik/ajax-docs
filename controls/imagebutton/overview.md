@@ -16,9 +16,9 @@ The control can be easily styled by changing the **Skin** property, and alternat
 
 
 
->caption Figure 1: RadImageButton control provides a rich API and UI.
+>caption Figure 1: Examples of RadImageButton
 
-![RadButton](images/RadImageButtons.png)
+![RadButton](images/button-imagebuttons01.png)
 
 <!--
 Code that creates Figure 1:

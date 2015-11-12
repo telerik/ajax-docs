@@ -15,6 +15,8 @@ This help article showcases how to add complex content (server-side controls and
 * [Add Elements to RadImageButton in the Markup](#add-elements-to-radimagebutton-in-the-markup)
 
 * [Add Elements to RadImageButton from the Code-behind](#add-elements-to-radimagebutton-from-the-code-behind)
+    * [Using Controls Collection](#using-controls-collection)
+    * [Using ITemplate Interface](#using-itemplate-interface)
 
 ## Add Elements to RadImageButton in the Markup
 
@@ -27,12 +29,24 @@ In order to add controls to the **RadImageButton** in the markup, you should pla
 >caption Example 1: Adding controls to ContentTemplate of RadImageButton in the markup.
 
 ````ASP.NET
-<telerik:RadImageButton runat="server" ID="RadImageButton1">
-	<ContentTemplate>
-        <img alt="cog" src="http://demos.telerik.com/aspnet-ajax/button/examples/contenttemplate/Images/cog.png" />
-        <telerik:RadRating ID="RadRating1" runat="server" Enabled="false" Value="3" SelectionMode="Continuous" ItemCount="5" />
-		<div>Tasks</div>
-	</ContentTemplate>
+<style>
+    .button {
+        line-height:15px;
+    }
+    .access-key {
+        text-decoration: underline;
+    }
+</style>
+
+<telerik:RadImageButton runat="server" ID="OkImageButton" Width="100" Height="28" Skin="Silk">
+    <ContentTemplate>
+        <div class="button"><span class="access-key">O</span>K</div>
+    </ContentTemplate>
+</telerik:RadImageButton>
+<telerik:RadImageButton runat="server" ID="CancelImageButton" Width="100" Height="28" Skin="Silk">
+    <ContentTemplate>
+        <div class="button"><span class="access-key">C</span>ancel</div>
+    </ContentTemplate>
 </telerik:RadImageButton>
 ````
 
@@ -40,101 +54,139 @@ In order to add controls to the **RadImageButton** in the markup, you should pla
 
 You can add controls to **RadImageButton** from the code-behind in two ways:
 
-* Add elements to the **Controls** collection of **RadImageButton** (**Example 2**). 
+### Using Controls Collection 
 
-	**Example 2**: Adding controls to the **Controls** collection of **RadImageButton** from the code-behind.
+>caption Example 2: Adding controls to the **Controls** collection of **RadImageButton** from the code-behind.
 
-	**ASP.NET**
+````ASP.NET
+<style>
+    .button {
+        line-height:15px;
+    }
+    .access-key {
+        text-decoration: underline;
+    }
+</style>
 
-		<telerik:RadImageButton runat="server" ID="RadImageButton1" Width="160px" Height="85px">
-		</telerik:RadImageButton>
+<telerik:RadImageButton runat="server" ID="OkImageButton" Width="100" Height="28" Skin="Silk">
+</telerik:RadImageButton>
+<telerik:RadImageButton runat="server" ID="CancelImageButton" Width="100" Height="28" Skin="Silk">
+</telerik:RadImageButton>
+````
 
-	**C#**
+````C#
+protected void Page_Load(object sender, EventArgs e)
+{
+    HtmlGenericControl okButton = new HtmlGenericControl("div");
+    okButton.Attributes.Add("class", "button");
+    okButton.InnerHtml = "<span class=\"access-key\">O</span>K";
 
-		protected void Page_Init(object sender, EventArgs e)
-		{
-			Image buttonContentImage = new Image()
-			{
-				ID = "buttonContent",
-				AlternateText = "my car",
-				ImageUrl = "http://demos.telerik.com/aspnet-ajax/button/examples/contenttemplate/Images/car.png"
-			};
-			Label buttonContentLabel = new Label() { ID = "Label1", Text = "Vehicles" };
-			RadImageButton1.Controls.Add(buttonContentImage);
-			RadImageButton1.Controls.Add(buttonContentLabel);
-		}
-	**VB**
+    OkImageButton.Controls.Add(okButton);
 
-		Protected Sub Page_Init(sender As Object, e As EventArgs) Handles Me.Init
-			Dim buttonContentImage As New Image() With {
-				.ID = "buttonContent",
-				.AlternateText = "my car",
-				.ImageUrl = "http://demos.telerik.com/aspnet-ajax/button/examples/contenttemplate/Images/car.png"
-			}
-			Dim buttonContentLabel As New Label() With {
-			   .ID = "Label1",
-			   .Text = "Vehicles"
-			}
-			RadImageButton1.Controls.Add(buttonContentImage)
-			RadImageButton1.Controls.Add(buttonContentLabel)
-		End Sub
+    HtmlGenericControl cancelButton = new HtmlGenericControl("div");
+    cancelButton.Attributes.Add("class", "button");
+    cancelButton.InnerHtml = "<span class=\"access-key\">C</span>ancel";
 
-* Set the **ContentTemplate** property to an instance of a class that implements the **ITemplate** interface (**Example 3**).
+    CancelImageButton.Controls.Add(cancelButton);
+}
+````
+````VB
+Protected Sub Page_Load(sender As Object, e As EventArgs)
+	Dim okButton As New HtmlGenericControl("div")
+	okButton.Attributes.Add("class", "button")
+	okButton.InnerHtml = "<span class=""access-key"">O</span>K"
 
-	**Example 3**: Adding controls to the **RadImageButton** by using the **ITemplate** class.
+	OkImageButton.Controls.Add(okButton)
 
-	**ASP.NET**
+	Dim cancelButton As New HtmlGenericControl("div")
+	cancelButton.Attributes.Add("class", "button")
+	cancelButton.InnerHtml = "<span class=""access-key"">C</span>ancel"
 
-		<telerik:RadImageButton runat="server" ID="RadImageButton1" Width="71px" Height="70px">
-		</telerik:RadImageButton>
+	CancelImageButton.Controls.Add(cancelButton)
+End Sub
+````
 
-	**C#**
+### Using ITemplate Interface
 
-		protected void Page_Init(object sender, EventArgs e)
-		{
-			RadImageButton1.ContentTemplate = new ButtonContentTemplate();
-		}
+>caption Example 3: Adding controls to the **RadImageButton** by using the **ITemplate** class.
 
-		public class ButtonContentTemplate : ITemplate
-		{
-			void ITemplate.InstantiateIn(Control container)
-			{
-				System.Web.UI.WebControls.Image contentImage = new System.Web.UI.WebControls.Image();
-				contentImage.ID = "contentImage";
-				contentImage.ImageUrl = "http://demos.telerik.com/aspnet-ajax/button/examples/contenttemplate/Images/envelope.png";
-				contentImage.AlternateText = "envelope";
-				container.Controls.Add(contentImage);
+````ASP.NET
+<style>
+    .button {
+        line-height:15px;
+    }
+    .access-key {
+        text-decoration: underline;
+    }
+</style>
 
-				Label contentLabel = new Label();
-				contentLabel.ID = "contentLabel";
-				contentLabel.Text = "E-Mail";
-				container.Controls.Add(contentLabel);
-			}
-		}
+<telerik:RadImageButton runat="server" ID="OkImageButton" Width="100" Height="28" Skin="Silk">
+</telerik:RadImageButton>
+<telerik:RadImageButton runat="server" ID="CancelImageButton" Width="100" Height="28" Skin="Silk">
+</telerik:RadImageButton>
+````
 
-	**VB**
+````C#
+protected void Page_Load(object sender, EventArgs e)
+{
+    OkImageButton.ContentTemplate = new OkButtonContentTemplate();
+    CancelImageButton.ContentTemplate = new CancelButtonContentTemplate();
+}
 
-		Protected Sub Page_Init(sender As Object, e As EventArgs)
-			RadImageButton1.ContentTemplate = New ButtonContentTemplate()
-		End Sub
+public class OkButtonContentTemplate : ITemplate
+{
+    void ITemplate.InstantiateIn(Control container)
+    {
+        HtmlGenericControl okButton = new HtmlGenericControl("div");
+        okButton.Attributes.Add("class", "button");
+        okButton.InnerHtml = "<span class=\"access-key\">O</span>K";
 
-		Public Class ButtonContentTemplate
-			Implements ITemplate
-			Private Sub ITemplate_InstantiateIn(container As Control) Implements ITemplate.InstantiateIn
-				Dim contentImage As New System.Web.UI.WebControls.Image()
-				contentImage.ID = "contentImage"
-				contentImage.ImageUrl = "http://demos.telerik.com/aspnet-ajax/button/examples/contenttemplate/Images/envelope.png"
-				contentImage.AlternateText = "envelope"
-				container.Controls.Add(contentImage)
+        container.Controls.Add(okButton);
+    }
+}
 
-				Dim contentLabel As New Label()
-				contentLabel.ID = "contentLabel"
-				contentLabel.Text = "E-Mail"
-				container.Controls.Add(contentLabel)
-			End Sub
-		End Class
+public class CancelButtonContentTemplate : ITemplate
+{
+    void ITemplate.InstantiateIn(Control container)
+    {
+        HtmlGenericControl cancelButton = new HtmlGenericControl("div");
+        cancelButton.Attributes.Add("class", "button");
+        cancelButton.InnerHtml = "<span class=\"access-key\">C</span>ancel";
 
+        container.Controls.Add(cancelButton);
+    }
+}
+````
+````VB
+Protected Sub Page_Load(sender As Object, e As EventArgs)
+	OkImageButton.ContentTemplate = New OkButtonContentTemplate()
+	CancelImageButton.ContentTemplate = New CancelButtonContentTemplate()
+End Sub
+
+Public Class OkButtonContentTemplate
+	Implements ITemplate
+	Private Sub ITemplate_InstantiateIn(container As Control) Implements ITemplate.InstantiateIn
+		Dim okButton As New HtmlGenericControl("div")
+		okButton.Attributes.Add("class", "button")
+		okButton.InnerHtml = "<span class=""access-key"">O</span>K"
+
+		container.Controls.Add(okButton)
+	End Sub
+End Class
+
+Public Class CancelButtonContentTemplate
+	Implements ITemplate
+	Private Sub ITemplate_InstantiateIn(container As Control) Implements ITemplate.InstantiateIn
+		Dim cancelButton As New HtmlGenericControl("div")
+		cancelButton.Attributes.Add("class", "button")
+		cancelButton.InnerHtml = "<span class=""access-key"">C</span>ancel"
+
+		container.Controls.Add(cancelButton)
+	End Sub
+End Class
+````
 
 ## See Also
 
- * [ImageButton - Content Template]({%slug imagebutton/functionality/contenttemplate%})
+ * [PushButton - Content Template]({%slug pushbutton/functionality/contenttemplate%})
+ * [LinkButton - Content Template]({%slug linkbutton/functionality/contenttemplate%})

@@ -10,11 +10,15 @@ position: 0
 
 # Single Click
 
-The single click button (**Figure 1**) is used to avoid multiple postbacks to the server. This feature is useful in scenarios where the developer should prevent submitting of identical content multiple times to the server (e.g. when editing a data-base or sending an e-mail).
+The single click button (**Figure 1** and **Figure 2**) is used to avoid multiple postbacks to the server. This feature is useful in scenarios where the developer should prevent submitting of identical content multiple times to the server (e.g. when editing a data-base or sending an e-mail).
 
->caption Figure 1: RadImageButton with SingleClick functionality before and after click.
+>caption Figure 1: RadImageButton with SingleClick functionality before click.
 
-![button-single-click](images/button-single-click.png)
+![button-single-click](images/button-single-click-1.png) 
+
+>caption Figure 2: RadImageButton with SingleClick functionality after click.
+
+![button-single-click](images/button-single-click-2.png) 
 
 The following properties should be used to enable the single click functionality:
 
@@ -22,23 +26,24 @@ The following properties should be used to enable the single click functionality
 
 * **SingleClickText** - determines the text displayed in the **RadImageButton** control after the button is being clicked and disabled. The original text will be retrieved after the server request execution. The property takes a plain text string.
 
->caption Example 1: The code that enables the single click functionality in **RadImageButton** from **Figure 1**.
+>caption Example 1: The code that enables the single click functionality in **RadImageButton** from **Figure 1** and **Figure 2**.
 
 ````ASP.NET
-<asp:TextBox ID="txtName" runat="server" />
+<telerik:RadTextBox ID="txtName" runat="server" Width="180px" EmptyMessage="Enter your name..."/>
 
 <telerik:RadImageButton ID="btnSubmit" runat="server" Text="Submit" OnClick="btnSubmit_Click"
 	SingleClick="true" SingleClickText="Processing...">
+	<Image Url="~/Images/cb_empty_01.png" />
 </telerik:RadImageButton>
-
+<br /><br />
 <asp:Label ID="lblGreeting" runat="server" />
 ````
 
 ````C#
 protected void btnSubmit_Click(object sender, EventArgs e)
 {
-	if (Page.IsPostBack) System.Threading.Thread.Sleep(3000);
-	lblGreeting.Text = String.Format("Hello, {0}!", txtName.Text);
+    if (Page.IsPostBack) System.Threading.Thread.Sleep(3000);
+    lblGreeting.Text = String.Format("Hello, {0}!", txtName.Text);
 }
 ````
 ````VB
