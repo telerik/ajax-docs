@@ -2,7 +2,7 @@
 title: ContentTemplate
 page_title: ContentTemplate | RadImageButton for ASP.NET AJAX Documentation
 description: ContentTemplate
-slug: imagebutton/functionality/content-template
+slug: imagebutton/functionality/contenttemplate
 tags: contenttemplate
 published: True
 position: 1
