@@ -1,24 +1,37 @@
 ---
-title: Primary and Secondary Action Buttons
-page_title: Primary and Secondary Action Buttons | RadButton for ASP.NET AJAX Documentation
-description: Primary and Secondary Action Buttons
+title: Primary State
+page_title: Primary State | RadButton for ASP.NET AJAX Documentation
+description: Primary State
 slug: button/appearance-and-styling/primary-and-secondary-action-buttons
-tags: primary,and,secondary,action,buttons
+tags: primary,and,secondary,action,buttons,state
 published: True
-position: 5
+position: 1
 ---
 
-# Primary and Secondary Action Buttons
+# Primary State
 
-**RadButton** offers primary and secondary states, named primary and secondary action buttons (**Figure 1**), that share a unique innovation styles for some skins(**Bootstrap**, **Silk** and **Glow**). **Primary** action buttons use bright and saturated colors that pop up more and catch attention easily, while the **Secondary buttons** are the default ones.
 
->caption Figure 1: RadButton with primary and secondary action states for the Silk, Glow and Bootstrap skins.
+**RadButton** offers an additional "primary" state (**Figure 1**) that uses bright and saturated colors to have the button pop up more and catch attention easily. This feature is available as of **Q1 2016**. For older versions, see the [Older Versions](#older-versions) section.
 
-![button-primary-and-secondary-action-buttons](images/button-primary-and-secondary-action-buttons.png)
+>caption Figure 1: RadButton in its regular and primary state.
 
-In order to switch to the primary state you must set the **CssClass** property of the **RadButton** to **rbPrimaryButton** (see **Example 1** below).
+![Regular and primary button state](images/primary-state-button-silk.png)
 
->caption Example 1: Configure primary and secondary action buttons for the **Silk**, **Glow**and **Bootstrap** skins in **RadButton**.
+To switch to the primary state, set the `Primary` property of the **RadButton** control to `true` and its **[RenderMode]({%slug button/mobile-support/render-modes%})** property to `Lightweight` (**Example 1**). The property defaults to `false` result in the regular button appearance for most cases.
+
+>caption Example 1: Configure the primary state of a RadButton instance.
+
+````ASP.NET
+<telerik:RadButton runat="server" ID="RadButton1" Text="Regular Button" RenderMode="Lightweight" Skin="Silk"></telerik:RadButton>
+<telerik:RadButton runat="server" ID="RadButton2" Primary="true" Text="Primary Button" RenderMode="Lightweight" Skin="Silk"></telerik:RadButton>
+````
+
+
+## Older Versions
+
+To put a button in its primary state in a version **prior to Q1 2016**, you should set its `CssClass` property to `rbPrimaryButton` (**Example 2**). This state, however, is only available for the **Silk**, **Glow** and **Bootstrap** skins.
+
+>caption Example 2: Configure the primary state of a RadButton for the **Silk**, **Glow** and **Bootstrap** skins in versions **prior to Q1 2016**.
 
 ````ASP.NET
 Silk Skin:
@@ -36,140 +49,6 @@ Bootstrap Skin:
 <telerik:RadButton ID="RadButton6" runat="server" Text="Secondary Button" Skin="Bootstrap" />
 ````
 
->caption Example 2: The code that renders the result in Figure 1.
-
-````ASP.NET
-<style>
-	.buttonsWrapper {
-		display: inline-block;
-	}
-
-	td {
-		padding: 5px;
-	}
-	.skinName {
-		margin-left: 5px;
-	}
-</style>
-<div class="buttonsWrapper">
-	<asp:Label ID="Label1" Text="" runat="server" Font-Bold="true" CssClass="skinName" />
-	<table>
-		<thead>
-			<tr>
-				<td>
-					
-				</td>
-			</tr>
-		</thead>
-		<tbody>
-			<tr>
-				<td>PRIMARY
-					<br />
-					BUTTONS
-				</td>
-				<td>SECONDARY
-					<br />
-					BUTTONS
-				</td>
-			</tr>
-			<tr>
-				<td>
-					<telerik:RadButton ID="RadButton1" runat="server" Text="Normal" Width="60px" CssClass="rbPrimaryButton" />
-				</td>
-				<td>
-					<telerik:RadButton ID="RadButton2" runat="server" Text="Normal" Width="60px" />
-				</td>
-			</tr>
-			<tr>
-				<td>
-					<telerik:RadButton ID="RadButton3" runat="server" Text="Hover" Width="60px" CssClass="rbPrimaryButton" />
-				</td>
-				<td>
-					<telerik:RadButton ID="RadButton4" runat="server" Text="Hover" Width="60px" />
-				</td>
-			</tr>
-			<tr>
-				<td>
-					<telerik:RadButton ID="RadButton5" runat="server" Text="Active" Width="60px" CssClass="rbPrimaryButton" />
-				</td>
-				<td>
-					<telerik:RadButton ID="RadButton6" runat="server" Text="Active" Width="60px" />
-				</td>
-			</tr>
-			<tr>
-				<td>
-					<telerik:RadButton ID="RadButton7" runat="server" Text="Disabled" Width="60px" Enabled="false" CssClass="rbPrimaryButton" />
-				</td>
-				<td>
-					<telerik:RadButton ID="RadButton8" runat="server" Text="Disabled" Width="60px" Enabled="false" />
-				</td>
-			</tr>
-		</tbody>
-	</table>
-</div>
-````
-
-````C#
-protected void Page_Load(object sender, EventArgs e)
-{
-	//Load the user control with the RadButton with Silk, Glow and BootStrap skins
-	LoadUserControl("RadButtonsUserControl.ascx", "RadButtonsUserControl1", "Silk");
-	LoadUserControl("RadButtonsUserControl.ascx", "RadButtonsUserControl2", "Glow");
-	LoadUserControl("RadButtonsUserControl.ascx", "RadButtonsUserControl3", "Bootstrap");
-}
-
-protected void LoadUserControl(string controlName, string controlID, string skin)
-{
-	//Load the user control
-	UserControl userControl = (UserControl)this.LoadControl(controlName);
-	userControl.ID = controlID;
-	//Set the skin for the controls inside the user control
-	SetUserControlSkin(skin, userControl.Controls);
-	//Add the user control to the form
-	this.form1.Controls.Add(userControl);
-}
-
-protected void SetUserControlSkin(string skinName, ControlCollection cc)
-{
-	(cc[1] as Label).Text = skinName.ToUpper();
-	for (int i = 2; i < cc.Count; i++)
-	{
-		Control currControl = cc[i];
-		if (currControl.GetType().Name == "RadButton")
-		{
-			(currControl as RadButton).Skin = skinName;
-		}
-	}
-}
-````
-````VB
-Protected Sub Page_Load(sender As Object, e As EventArgs)
-	'Load the user control with the RadButton with Silk, Glow and BootStrap skins
-	LoadUserControl("RadButtonsUserControl.ascx", "RadButtonsUserControl1", "Silk")
-	LoadUserControl("RadButtonsUserControl.ascx", "RadButtonsUserControl2", "Glow")
-	LoadUserControl("RadButtonsUserControl.ascx", "RadButtonsUserControl3", "Bootstrap")
-End Sub
-
-Protected Sub LoadUserControl(controlName As String, controlID As String, skin As String)
-	'Load the user control
-	Dim userControl As UserControl = DirectCast(Me.LoadControl(controlName), UserControl)
-	userControl.ID = controlID
-	'Set the skin for the controls inside the user control
-	SetUserControlSkin(skin, userControl.Controls)
-	'Add the user control to the form
-	Me.form1.Controls.Add(userControl)
-End Sub
-
-Protected Sub SetUserControlSkin(skinName As String, cc As ControlCollection)
-	TryCast(cc(1), Label).Text = skinName.ToUpper()
-	For i As Integer = 2 To cc.Count - 1
-		Dim currControl As Control = cc(i)
-		If currControl.[GetType]().Name = "RadButton" Then
-			TryCast(currControl, RadButton).Skin = skinName
-		End If
-	Next
-End Sub
-````
 
 
 ## See Also
@@ -181,3 +60,5 @@ End Sub
  * [Creating a Custom Skin]({%slug button/appearance-and-styling/creating-a-custom-skin%})
 
  * [Custom Height Tutorial]({%slug button/appearance-and-styling/custom-height-tutorial%})
+
+ * [RenderMode]({%slug button/mobile-support/render-modes%})
