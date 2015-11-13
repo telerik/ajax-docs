@@ -74,21 +74,23 @@ Performance might degrade with lots of items and lots of combobox instances on t
 	
 ## RadMenu
 
-It supports [web service load on demand](http://demos.telerik.com/aspnet-ajax/Menu/Examples/Programming/WebService/DefaultCS.aspx) and lazy initialization (transparent for the user). RadMenu can seamlessly work with disabled ViewState.
+[Optimizing RadMenu Performance]({%slug menu/performance/optimizing-radmenu-performance%}) help article elaborates more on increasing the control performance.
 
 ## RadTabStrip
 
-Having lots of page views (inside RadMultiPage) can slow down switching between tabs. Also it generates lots of HTML (because of the controls contained in the pageviews). To tackle this problem we have an [online example](http://demos.telerik.com/aspnet-ajax/TabStrip/Examples/ApplicationScenarios/LoadOnDemand/DefaultCS.aspx) demonstrating how to load pageviews on demand via AJAX. The multipage also has a property “RenderSelectedPageOnly” which does exactly what it says. In this case switching to a new page view requires postback. **RadAjaxManager & RadAjaxPanel** performance problems can be caused by large updating areas with lots of HTML (especially tables), JavaScript files, JavaScript components and CSS. More info: [Optimizing client-side performance]({%slug ajax/performance/optimizing-performance-using-radajaxmanager%})
+You can find more information regarding performance optimization in [Optimizing RadTabStrip Performance]({%slug tabstrip/performance/optimizing-radtabstrip-performance%}) help article.
 
 ## RadDatePicker, RadDateTimePicker and RadTimePicker
 
-Performance problems can be caused by using the picker in list controls. An example how to optimize this can be found here:
+Performance problems can be caused by using the picker in list controls. You can check out the following articles which elaborate more on performance optimization.
 
-[Maximum performance with minimum output using Telerik RadDatePicker client-side API](http://www.telerik.com/blogs/maximum-performance-with-minimum-output-using-telerik-raddatepicker-client-side-api)
+* [Optimizing RadDatePicker Performance]({%slug datepicker/performance/optimizing-raddatepicker-performance%})
 
-Also having many date pickers or time pickers on a page can render a lot of HTML and impact performance negatively. You can handle such scenarios by using a shared RadCalendar or RadTimeView. You can find more information and examples on the matter in [Using shared RadCalendar/RadTimeView]({%slug calendar/raddatepicker,-radtimepicker,-raddatetimepicker-and-radmonthyearpicker/using-shared-radcalendar-and-radtimeview%}).
+* [Optimizing RadDateTimePicker Performance]({%slug datetimepicker/performance/optimizing-raddatetimepicker-performance%})
 
-**RadDateInput, RadNumericInput, RadMaskedTextBox and RadTextBox**
+* [Optimizing RadTimePicker Performance]({%slug timepicker/performance/optimizing-radtimepicker-performance%})
+
+## RadDateInput, RadNumericInput, RadMaskedTextBox and RadTextBox
 
 Performance problems can be caused by using these controls in templates of list controls. A better idea is to create an outside edit form similar to this example:
 
@@ -96,50 +98,16 @@ Performance problems can be caused by using these controls in templates of list 
 
 ## RadToolTip
 
-**RadTooltip** and **RadTooltipManager** are quite lightweight and generally there are no problems with performance. However, in templated scenarios the number of tooltip controls on the page can easily go out of hand. We have seen scenarios involving 1000+ tooltips on a single page. Since each of them needs to be initialized on client page load, the system takes a lot of time to do it, especially If `<compilation debug=true>`. In such scenarios there is a better approach to the tooltips – and that is using a couple of lines of client-side code that will create a tooltip only when the user needs to see it. The following demo demonstrates this approach: [ToolTip - Dynamic Tooltip Creation](http://demos.telerik.com/aspnet-ajax/ToolTip/Examples/RadToolTipManagerClientAPI/DefaultCS.aspx)
-
-## RadSplitter
-
-A brand new mechanism for updating RadSplitter's child controls was introduced that is many times faster than the old one which traversed every single HTML element to test whether it is a Telerik control.
+**RadTooltip** and **RadTooltipManager** are quite lightweight but you can still optimize them if many controls are rendered on the page. You can find more infromation in [Optimizing RadToolTip Performance]({%slug tooltip/performance/optimizing-radtooltip-performance%}) help article.
 
 ## RadScheduler
 
-* Data-binding: We recommend that customers bind RadScheduler only with appointments that are visible in the currently selected view. This makes performance a non-issue, as the views are limited to a few thousand appointments at maximum.
-
-* ViewState size: RadScheduler can work entirely without ViewState, if necessary. Customers pay the usual penalty of having to bind the data on each page load.
-
-* JavaScript size: The script files are split into several groups that are loaded on demand. Currently the initially loaded script files weight in at 70kB (minified) with 35kB of on-demand scripts.
-
-* JavaScript $create clause size: Depends on number of appointments. Only visible appointments are sent to the client.
-
-* JavaScript initialization time: Currently very fast, but can be improved further if the appointment objects are created only when needed.
-
-* Number of requests: On-demand loading of scripts generates a few additional requests. Other than that, the number is rather low, as skins contain very little number of images. Using RadScriptManager and RadStyleSheetManager reduces the number even further.
+You can check out the [Optimizing RadScheduler Performance]({%slug scheduler/performance/optimizing-radscheduler-performance%}) help article for some tips to optimize the control performance.
 
 ## RadHtmlChart
 
-The **RadHtmlChart** renders SVG in modern browsers and VML in older browsers that do not support SVG (i.e., IE8 and below), that are essentially forms of an XML document. This means that the chart's image will be created by numerous elements (i.e., XML nodes) and rendering them may take some time for the browser. In scenarios where the chart has many components like series items, x/y axes labels, major and/or minor grid lines (i.e., path and text elements for the rendering) and the animation is enabled (it is enabled by default), the overall rendering time may be increased because the browser will have to draw too many elements and animate them.
-
-The performance also greatly depends on the performance of the machine and the browser. Slower browsers like IE7 and IE8, especially when used on slower machines, may not meet all your needs. This can be aggravated by the presence of many charts on the page and the page's load time will increase proportionately.
-
-The way to improve the rendering speed of the chart is to remove the most numerous elements that can slow down the browser. There are several things you could do in order to speed up the **RadHtmlChart**'s client-side rendering:
-
-* Disable the chart's animation by setting the **Transitions** property to **false**. By doing so, the browser will not have to animate the thousands of XML nodes in the chart image.
-
-* Hide the MinorGridLines and/or MajorGridLines of the X and/or Y axes by setting the **[YAxis/XAxis].[MinorGridLines/MajorGridLines].Visible** property to **false**.
-
-* Hide the series' labels by setting the **[Series Object].LabelsAppearance.Visible** property to **false**. When there are thousand of items the labels would be hardly readable and are likely to only create visual clutter.
-
-* Hide the X and/or Y axes' labels by setting the **[YAxis/XAxis].LabelsAppearance.Visible** property to **false**. You can also set a higher value for the axes labels step through the **[YAxis/XAxis].LabelsAppearance.Step** property.
-
-You can see an example of an optimized chart configuration in [RadHtmlChart Performance Optimizations]({%slug htmlchart/troubleshooting/performance-optimizations%}) help article.
+You can find a details information about optimizing **RadHtmlChart** control in [Performance Optimizations]({%slug htmlchart/troubleshooting/performance-optimizations%}) help article.
 
 ## RadAjaxPanel and RadAjaxManager
 
-By using AJAX controls you can increase the performance significantly since only the controls that need to be updated will be affected? Here is a few performance tips that you can try.
-
-* Include several controls in a single AJAX request. That means, if you have two **Lable** controls in one container and both of them need to be updated, it will be better to update the container instead both Labels separately. 
-
-* If you do not load CSS-rich controls in AJAX requests you can turn off **RadAjax's** head update by setting the **EnablePageHeadUpdate** property to **false** .
-
-* More detailed information is available in [Optimizing Performance Using RadAjaxManager]({%slug ajax/performance/optimizing-performance-using-radajaxmanager %})
+More detailed information is available in [Optimizing Performance Using RadAjaxManager]({%slug ajax/performance/optimizing-performance-using-radajaxmanager %})

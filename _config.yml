@@ -18,13 +18,13 @@ navigation:
         position: 2
     "installation":
         title: "Installation"
-        position: 3  
+        position: 3
     "installation/upgrading-instructions":
         title: "Upgrading Instructions"
-        position: 6 
+        position: 6
     "general-information":
         title: "General Information"
-        position: 4  
+        position: 4
     "general-information/integration-with-visual-studio":
         title: "Integration with Visual Studio"
         position: 3
@@ -42,15 +42,15 @@ navigation:
         position: 5
     "general-information/performance":
         title: "Performance"
-        position: 6   
+        position: 6
     "general-information/troubleshooting":
         title: "Troubleshooting"
         position: 8
     "mobile-support":
         title: "Mobile Support"
-        position: 5  
+        position: 5
     "mobile-support/helper-tools":
-        title: "Helper Tools"      
+        title: "Helper Tools"
     "deployment":
         title: "Deployment"
         position: 6
@@ -59,7 +59,7 @@ navigation:
         position: 12
     "visual-stylebuilder":
         title: "Visual StyleBuilder"
-        position: 16  	
+        position: 16
     "theme-builder":
         title: "Theme Builder"
         position: 17
@@ -596,9 +596,15 @@ navigation:
     "*dateinput/how-to":
         title: "How to"
         position: 10
+    "*datepicker/performance":
+        title: "Performance"
+        position: 14
     "*datetimepicker/templates":
         title: "Templates"
         position: 8
+    "*datetimepicker/performance":
+        title: "Performance"
+        position: 14
     "*diagram/structure":
         title: "Structure"
         position: 3
@@ -1109,6 +1115,9 @@ navigation:
     "*menu/context-menus":
         title: "Context Menus"
         position: 11
+    "*menu/performance":
+        title: "Performance"
+        position: 14
     "*menu/client-side-programming/objects":
         title: "Objects"
         position: 2
@@ -1159,7 +1168,7 @@ navigation:
         position: 4
     "*pagelayout/creating-responsive-design":
         title: "Creating Responsive Design"
-        position: 3		
+        position: 3
     "*panelbar/templates":
         title: "Templates"
         position: 6
@@ -1271,6 +1280,9 @@ navigation:
     "*scheduler/customizing-the-advanced-form":
         title: "Customizing the Advanced Form"
         position: 18
+    "*scheduler/performance":
+        title: "Performance"
+        position: 19
     "*scriptmanager/cdn-support":
         title: "CDN Support"
         position: 8
@@ -1330,7 +1342,7 @@ navigation:
         position: 6
     "*spreadprocessing/working-with-workbooks":
         title: Working with Workbooks
-        position: 3		
+        position: 3
     "*spreadprocessing/working-with-worksheets":
         title: Working with Worksheets
         position: 4
@@ -1369,7 +1381,7 @@ navigation:
         position: 2
     "*spreadprocessing/features/styling":
         title: Styling
-        position: 3	
+        position: 3
     "*spreadsheet/structure":
         title: "Structure"
         position: 1
@@ -1381,7 +1393,7 @@ navigation:
         position: 1
     "*stylesheetmanager/cdn-support":
         title: CDN Support
-        position: 1			
+        position: 1
     "*tabstrip/templates":
         title: "Templates"
         position: 7
@@ -1397,6 +1409,9 @@ navigation:
     "*tabstrip/web-pages":
         title: "Web Pages"
         position: 11
+    "*tabstrip/performance":
+        title: "Performance"
+        position: 12
     "*tagcloud/data-binding":
         title: "Data Binding"
         position: 4
@@ -1454,6 +1469,9 @@ navigation:
     "*timepicker/templates":
         title: "Templates"
         position: 8
+    "*timepicker/performance":
+        title: "Performance"
+        position: 14
     "*toolbar/radtoolbar-items":
         title: "RadToolBar Items"
         position: 7
@@ -1472,9 +1490,12 @@ navigation:
     "*tooltip/radtooltipmanager":
         title: "RadToolTipManager"
         position: 5
+    "*tooltip/performance":
+        title: "Performance"
+        position: 6
     "*tooltip/client-side-programming/events/tooltipmanager-specific":
         title: "ToolTipManager Specific"
-        position: 6
+        position: 7
     "*treelist/column":
         title: "Column"
         position: 4
@@ -1624,7 +1645,7 @@ navigation:
         position: 3
     "*wordsprocessing/formats-and-conversion/pdf":
         title: Pdf
-        position: 4	
+        position: 4
     "*wordsprocessing/formats-and-conversion/plain-text":
         title: Plain text
         position: 5
