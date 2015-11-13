@@ -54,7 +54,7 @@ Protected Sub btnSubmit_Click(sender As Object, e As System.EventArgs) Handles b
 End Sub
 ````
 
-The submitted text in processed on the server-side. Note that the method **System.Threading.Thread.Sleep**	is used so that the disabled button can be examined after clicking it.
+The submitted text is processed on the server-side. Note that the method **System.Threading.Thread.Sleep**	is used so that the disabled button can be examined after clicking it.
 
 ## See Also
 
