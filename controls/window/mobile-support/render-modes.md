@@ -24,7 +24,7 @@ The possible options are:
 
 >important RadWindow and RadWindowManager, as well as the other controls included in the Telerik UI for ASP.NET AJAX suite that utilize render modes, support only one type of render mode per page.	This includes mode being set for a standalone RadWindow and RadWindowManager. All such controls must have the same RenderMode on a given page.	This also includes instances from user controls and master pages.
 
->note A RadWindow that is inside the Windows collection of a RadWindowManager will inherit the manager's render mode.
+>note A RadWindow that is inside the Windows collection of a RadWindowManager will inherit the manager's render mode, unless explicitly specified in the RadWindow instance.
 
 ## Setting Render Mode
 
@@ -53,6 +53,7 @@ RadWindowManager1.RenderMode = Telerik.Web.UI.RenderMode.Lightweight
 ````XML
 <appSettings>
 	<add key="Telerik.Web.UI.Window.RenderMode" value="lightweight" />
+	<add key="Telerik.Web.UI.WindowManager.RenderMode" value="lightweight" />
 </appSettings>
 ````
 
