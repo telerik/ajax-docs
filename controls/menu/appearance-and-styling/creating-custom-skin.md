@@ -10,7 +10,7 @@ position: 11
 
 # Creating Custom Skin
 
->note Valid for 2008 Q3 version and below, for any other please refer to [Creating A Custom Skin Using Sprite](http://www.telerik.com/help/aspnet-ajax/menu-appearance-creating-custom-skins-sprite.html)
+>note Valid for 2008 Q3 version and below, for any other please refer to [Creating A Custom Skin Using Sprite]({%slug menu/appearance-and-styling/creating-custom-skin-using-sprite%})
 
 
 The following tutorial demonstrates creating a custom RadMenu skin, using the default skin as a base. This new skin will take the appearance of the menu from its default look:
