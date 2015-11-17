@@ -39,6 +39,8 @@ The **$telerik** object provides the following set of static properties for brow
 | **isIE7** |Returns true if the User Agent is Internet Explorer 7|
 | **isIE8** |Returns true if the User Agent is Internet Explorer 8|
 | **isIE9** |Returns true if the User Agent is Internet Explorer 9|
+| **isTrident** |Returns true if the User Agent is Trident-based|
+| **isSpartan** |Returns true if the User Agent is Spartan-based (Microsoft Edge)|
 | **isOpera** |Returns true if the User Agent is Opera|
 | **isOpera11** |Returns true if the User Agent is Opera11|
 | **isSafari** |Returns true if the User Agent is any version of Safari|
