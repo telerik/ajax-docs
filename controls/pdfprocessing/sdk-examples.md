@@ -1,7 +1,7 @@
 ---
-title: SDK Examples
-page_title: SDK Examples | RadPdfProcessing for ASP.NET AJAX Documentation
-description: SDK Examples
+title: Developer Focused Examples
+page_title: Developer Focused Examples | RadPdfProcessing for ASP.NET AJAX Documentation
+description: Developer Focused Examples
 slug: radpdfprocessing-sdk-examples
 tags: sdk,examples
 published: True
