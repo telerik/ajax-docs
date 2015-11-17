@@ -18,7 +18,7 @@ The primary action button on the form has bright and saturated colors to pop up 
 
 ![Primary action button overview](images/primary-action-button.png)
 
-To switch to a primary action button, set the `Primary` property of the **RadLinkButton** control to `true` (**Example 1**). The property defaults to `false` result in the regular (secondary) button appearance for most cases.
+To switch to a primary action button, set the `Primary` property of the **RadLinkButton** control to `true` (**Example 1**). The property defaults to `false` to result in the regular (secondary) button appearance for most cases.
 
 >caption Example 1: Configure a RadLinkButton to be a primary action button.
 
