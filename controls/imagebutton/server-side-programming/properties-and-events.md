@@ -40,6 +40,7 @@ position: 0
 | **DisabledImageUrl** |Specifies the path to the image when the button is disabled.|
 | **HoveredImageUrl** |Specifies the path to the image when the mouse is over the button.|
 | **PressedImageUrl** |Specifies the path to the image of a pressed button.|
+| **Sizing** |Specifies the way the image is sized in the button. Available values are: **Original** and **Stretch**.|
 
 ## Server - side Events:
 
