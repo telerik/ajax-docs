@@ -24,10 +24,12 @@ Having this license file is not expected to bring any performance/compilation is
 
 If you are working under source control, once the file is created, it will be detected as a change by your source control system.	We would suggest that you check-in this file initially. Then, when it is checked-out again during your work,	it is up to you to decide whether to check it in, or discard the changes.
 
-## 
+If you get the `Task could not find "LC.exe" using the SdkToolsPath` error during automated MS Build tasks, review the [Telerik MSBuild Task could not find “LC.exe” using the SdkToolsPath](http://www.msigman.com/telerik-msbuild-task-find-lc-exe-sdktoolspath/) blog post by Matthew Sigman. Essentially, you should either install [Windows SDK](https://www.microsoft.com/en-us/download/details.aspx?id=8279) on the build machine, or add the `/p:GenerateSerializationAssemblies=Off` flag to the build arguments.
 
 ## See Also
 
  * [License Agreement]({%slug introduction/licensing/license-agreement%})
 
  * [Trial License Limitations]({%slug introduction/licensing/trial-license-limitations%})
+
+ * [Telerik MSBuild Task could not find “LC.exe” using the SdkToolsPath blog post](http://www.msigman.com/telerik-msbuild-task-find-lc-exe-sdktoolspath/)
