@@ -11,7 +11,7 @@ This Class gets or sets the ProgressArea strings.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.LocalizationStrings
 * Telerik.Web.UI.ProgressAreaStrings
 

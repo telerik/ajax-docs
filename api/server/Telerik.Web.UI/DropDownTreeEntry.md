@@ -13,7 +13,7 @@ This class defines the DropDownTreeEntry object. It inherits WebControl class an
 * System.Object
 * System.Web.UI.Control
 * System.Web.UI.WebControls.WebControl
-* Telerik.Web.UI.DropDownTreeEntry
+* Telerik.Web.UI.DropDownTreeEntry : IMarkableStateManager, IStateManager
 
 ## Properties
 

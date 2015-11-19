@@ -31,9 +31,9 @@ The Telerik.Web.UI.RadTreeView RadTreeViewcontrol is made up of nodes. Nodes whi
 * System.Object
 * System.Web.UI.Control
 * System.Web.UI.WebControls.WebControl
-* Telerik.Web.UI.ControlItem
-* Telerik.Web.UI.NavigationItem
-* Telerik.Web.UI.RadTreeNode
+* Telerik.Web.UI.ControlItem : IMarkableStateManager, INamingContainer, IStateManager, IXmlSerializable
+* Telerik.Web.UI.NavigationItem : IControlItemContainer
+* Telerik.Web.UI.RadTreeNode : ICloneable, IRadTreeNodeContainer, ITreeNodeBase
 
 ## Properties
 

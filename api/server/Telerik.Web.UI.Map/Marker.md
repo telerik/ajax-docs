@@ -11,8 +11,8 @@ The default configuration for marker layers.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
-* Telerik.Web.UI.Map.Marker
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
+* Telerik.Web.UI.Map.Marker : IDefaultCheck
 
 ## Properties
 

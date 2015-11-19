@@ -11,8 +11,8 @@ The default fill for layer shapes. Accepts a valid CSS color string or object wi
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
-* Telerik.Web.UI.Map.Fill
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
+* Telerik.Web.UI.Map.Fill : IDefaultCheck
 
 ## Properties
 

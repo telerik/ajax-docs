@@ -24,7 +24,7 @@ The SplitterItemsCollectionclass represents a collection of
 
 * System.Object
 * System.Web.UI.ControlCollection
-* Telerik.Web.UI.SplitterItemsCollection
+* Telerik.Web.UI.SplitterItemsCollection : IStateManager
 
 ## Properties
 

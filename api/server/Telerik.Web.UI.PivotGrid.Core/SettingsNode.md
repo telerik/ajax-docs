@@ -12,7 +12,7 @@ Base class that support M:Telerik.Web.UI.PivotGrid.Core.Cloneable.Clone Clone an
 
 * System.Object
 * Telerik.Web.UI.PivotGrid.Core.Cloneable
-* Telerik.Web.UI.PivotGrid.Core.SettingsNode
+* Telerik.Web.UI.PivotGrid.Core.SettingsNode : IEditable, INotifyPropertyChanged, IServiceProvider, ISupportInitialize
 
 ## Properties
 

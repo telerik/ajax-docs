@@ -11,7 +11,7 @@ Specifies the toolbar animation of the Editor.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.Editor.Animations.EditorToolbarAnimation
 
 ## Properties

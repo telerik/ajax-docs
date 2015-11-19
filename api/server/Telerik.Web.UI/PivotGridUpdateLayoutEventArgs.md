@@ -15,7 +15,7 @@ The arguments passed when Telerik.Web.UI.RadPivotGrid fires UpdateLayout event w
 * System.Object
 * System.EventArgs
 * System.Web.UI.WebControls.CommandEventArgs
-* Telerik.Web.UI.PivotGridCommandEventArgs
+* Telerik.Web.UI.PivotGridCommandEventArgs : IPivotGridCommandEvent
 * Telerik.Web.UI.PivotGridUpdateLayoutEventArgs
 
 ## Properties

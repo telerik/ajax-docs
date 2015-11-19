@@ -19,8 +19,8 @@ Each cell in a GridImageColumn contains an image. To specify the image url of th
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.GridColumn
-* Telerik.Web.UI.GridImageColumn
+* Telerik.Web.UI.GridColumn : IComparable, IStateManager
+* Telerik.Web.UI.GridImageColumn : IGridDataColumn
 
 ## Properties
 

@@ -9,7 +9,7 @@ description: Telerik.Pdf.Filter.DctFilter
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Pdf.Filter.DctFilter
+* Telerik.Pdf.Filter.DctFilter : IFilter
 
 ## Properties
 

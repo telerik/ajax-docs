@@ -11,7 +11,7 @@ Provides information about properties/fields of items that are used by a Telerik
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.PivotGrid.Core.Fields.FieldInfoData
+* Telerik.Web.UI.PivotGrid.Core.Fields.FieldInfoData : IFieldInfoData
 
 ## Properties
 

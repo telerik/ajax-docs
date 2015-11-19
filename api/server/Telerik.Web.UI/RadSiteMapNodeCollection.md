@@ -13,7 +13,7 @@ Represents a collection of Telerik.Web.UI.RadSiteMapNode objects in a Telerik.We
 * System.Object
 * System.Web.UI.StateManagedCollection
 * Telerik.Web.UI.ControlItemCollection
-* Telerik.Web.UI.RadSiteMapNodeCollection
+* Telerik.Web.UI.RadSiteMapNodeCollection : ICollection`1, IEnumerable`1, IList`1
 
 ## Properties
 

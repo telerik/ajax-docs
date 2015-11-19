@@ -11,8 +11,8 @@ Series item label text properties
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Charting.StateManagedObject
-* Telerik.Charting.Styles.TextProperties
+* Telerik.Charting.StateManagedObject : IChartingStateManagedItem, IChartingStateManager, IDisposable
+* Telerik.Charting.Styles.TextProperties : ICloneable
 * Telerik.Charting.Styles.TextPropertiesSeriesItem
 
 ## Properties

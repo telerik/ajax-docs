@@ -11,8 +11,8 @@ RadTreeList Export settings
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
-* Telerik.Web.UI.TreeListExportSettings
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
+* Telerik.Web.UI.TreeListExportSettings : IDisposable
 
 ## Properties
 

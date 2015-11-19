@@ -13,7 +13,7 @@ The event arguments passed when Telerik.Web.UI.RadDataForm fires Command event.
 * System.Object
 * System.EventArgs
 * System.Web.UI.WebControls.CommandEventArgs
-* Telerik.Web.UI.RadDataFormCommandEventArgs
+* Telerik.Web.UI.RadDataFormCommandEventArgs : IRadDataFormCommandEvent
 
 ## Properties
 

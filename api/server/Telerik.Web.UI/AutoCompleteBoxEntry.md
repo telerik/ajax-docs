@@ -16,7 +16,7 @@ This class defines the AutoCompleteBoxEntry object. It inherits both WebControl 
 * System.Object
 * System.Web.UI.Control
 * System.Web.UI.WebControls.WebControl
-* Telerik.Web.UI.AutoCompleteBoxEntry
+* Telerik.Web.UI.AutoCompleteBoxEntry : IMarkableStateManager, IStateManager
 
 ## Properties
 

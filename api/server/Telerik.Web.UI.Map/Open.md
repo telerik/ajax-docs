@@ -11,8 +11,8 @@ The animation that will be used when a Tooltip opens.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
-* Telerik.Web.UI.Map.Open
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
+* Telerik.Web.UI.Map.Open : IDefaultCheck
 
 ## Properties
 

@@ -14,7 +14,7 @@ This partial class defines RadClientDataSource control - a flexible and extensib
 
 * System.Object
 * System.Web.UI.Control
-* Telerik.Web.UI.RadClientDataSource
+* Telerik.Web.UI.RadClientDataSource : IControl, IControlResolver, IPostBackDataHandler, IScriptControl
 
 ## Properties
 

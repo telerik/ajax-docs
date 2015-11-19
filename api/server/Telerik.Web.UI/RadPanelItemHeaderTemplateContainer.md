@@ -13,7 +13,7 @@ This Class defines the RadPanelItemHeaderTemplateContainer.
 * System.Object
 * System.Web.UI.Control
 * System.Web.UI.WebControls.WebControl
-* Telerik.Web.UI.RadPanelItemHeaderTemplateContainer
+* Telerik.Web.UI.RadPanelItemHeaderTemplateContainer : IDataItemContainer, INamingContainer
 
 ## Properties
 

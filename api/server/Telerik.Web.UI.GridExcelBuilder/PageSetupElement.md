@@ -11,7 +11,7 @@ Used to change various aspects of the exported page - header/footer, layout, mar
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.GridExcelBuilder.Abstract.ElementBase
+* Telerik.Web.UI.GridExcelBuilder.Abstract.ElementBase : IElement
 * Telerik.Web.UI.GridExcelBuilder.PageSetupElement
 
 ## Properties

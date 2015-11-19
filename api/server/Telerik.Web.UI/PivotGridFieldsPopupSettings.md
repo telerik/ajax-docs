@@ -12,7 +12,7 @@ The class holding all properties associated with the Telerik.Web.UI.RadPivotGrid
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.PivotGridFieldsPopupSettings
 
 ## Properties

@@ -11,7 +11,7 @@ Represents basic FilterExpression for the RadListView control
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.RadListViewFilterExpression
+* Telerik.Web.UI.RadListViewFilterExpression : IEquatable`1, IHideObjectMembers, IStateManager
 
 ## Properties
 

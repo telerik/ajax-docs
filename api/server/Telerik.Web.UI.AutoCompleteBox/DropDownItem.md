@@ -13,7 +13,7 @@ This class defines the DropDownItem that implements
 
 * System.Object
 * System.Web.UI.Control
-* Telerik.Web.UI.AutoCompleteBox.DropDownItem
+* Telerik.Web.UI.AutoCompleteBox.DropDownItem : INamingContainer
 
 ## Properties
 

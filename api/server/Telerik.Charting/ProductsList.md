@@ -12,7 +12,7 @@ IBindingList example. Used for a data binding demonstration only
 
 * System.Object
 * System.Collections.CollectionBase
-* Telerik.Charting.ProductsList
+* Telerik.Charting.ProductsList : IBindingList
 
 ## Properties
 

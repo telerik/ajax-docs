@@ -29,9 +29,9 @@ The Telerik.Web.UI.RadSiteMap RadSiteMapcontrol is made up of nodes. Nodes which
 * System.Object
 * System.Web.UI.Control
 * System.Web.UI.WebControls.WebControl
-* Telerik.Web.UI.ControlItem
-* Telerik.Web.UI.NavigationItem
-* Telerik.Web.UI.RadSiteMapNode
+* Telerik.Web.UI.ControlItem : IMarkableStateManager, INamingContainer, IStateManager, IXmlSerializable
+* Telerik.Web.UI.NavigationItem : IControlItemContainer
+* Telerik.Web.UI.RadSiteMapNode : IRadSiteMapNodeContainer
 
 ## Properties
 

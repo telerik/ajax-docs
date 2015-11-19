@@ -11,7 +11,7 @@ Occurrences of this rule repeat every given number of hours.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.RecurrenceRule
+* Telerik.Web.UI.RecurrenceRule : IEquatable`1, ISerializable
 * Telerik.Web.UI.HourlyRecurrenceRule
 
 ## Properties

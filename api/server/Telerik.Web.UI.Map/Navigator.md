@@ -11,8 +11,8 @@ Configures or disables the built-in navigator control (directional pad).
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
-* Telerik.Web.UI.Map.Navigator
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
+* Telerik.Web.UI.Map.Navigator : IDefaultCheck
 
 ## Properties
 

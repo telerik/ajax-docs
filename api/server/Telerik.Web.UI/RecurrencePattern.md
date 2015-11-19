@@ -21,7 +21,7 @@ The properties of the Telerik.Web.UI.RecurrencePattern class work together
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.RecurrencePattern
+* Telerik.Web.UI.RecurrencePattern : IEquatable`1
 
 ## Properties
 

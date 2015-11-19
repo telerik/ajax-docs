@@ -12,8 +12,8 @@ Defines the relationship between a data item and the menu item it is binding to 
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
-* Telerik.Web.UI.NavigationItemBinding
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
+* Telerik.Web.UI.NavigationItemBinding : IDataSourceViewSchemaAccessor
 * Telerik.Web.UI.RadMenuItemBinding
 
 ## Properties

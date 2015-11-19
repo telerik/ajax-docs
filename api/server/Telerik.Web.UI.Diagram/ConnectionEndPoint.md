@@ -11,8 +11,8 @@ Defines the settings for the source shape.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
-* Telerik.Web.UI.Diagram.ConnectionEndPoint
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
+* Telerik.Web.UI.Diagram.ConnectionEndPoint : IDefaultCheck
 
 ## Properties
 

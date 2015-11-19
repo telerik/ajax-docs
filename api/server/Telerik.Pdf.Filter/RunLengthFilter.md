@@ -9,7 +9,7 @@ description: Telerik.Pdf.Filter.RunLengthFilter
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Pdf.Filter.RunLengthFilter
+* Telerik.Pdf.Filter.RunLengthFilter : IFilter
 
 ## Properties
 

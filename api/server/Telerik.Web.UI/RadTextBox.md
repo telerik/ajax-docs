@@ -16,8 +16,8 @@ RadTextBox is a simple input control for letting the user enter text values.
 * System.Object
 * System.Web.UI.Control
 * System.Web.UI.WebControls.WebControl
-* Telerik.Web.UI.RadWebControl
-* Telerik.Web.UI.RadInputControl
+* Telerik.Web.UI.RadWebControl : IControl, IControlResolver, IPostBackDataHandler, IScriptControl, ISkinnableControl
+* Telerik.Web.UI.RadInputControl : IEditableTextControl, INamingContainer, IPostBackEventHandler, ITextControl
 * Telerik.Web.UI.RadTextBox
 
 ## Properties

@@ -13,7 +13,7 @@ Base class for the different Gauge controls (RadLinearGauge, RadRadialGauge).
 * System.Object
 * System.Web.UI.Control
 * System.Web.UI.WebControls.WebControl
-* Telerik.Web.UI.RadWebControl
+* Telerik.Web.UI.RadWebControl : IControl, IControlResolver, IPostBackDataHandler, IScriptControl, ISkinnableControl
 * Telerik.Web.UI.RadGaugeControl`2
 
 ## Properties

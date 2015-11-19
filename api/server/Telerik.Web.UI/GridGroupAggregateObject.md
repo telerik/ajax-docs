@@ -9,7 +9,7 @@ description: Telerik.Web.UI.GridGroupAggregateObject
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.GridGroupAggregateObject
+* Telerik.Web.UI.GridGroupAggregateObject : ICustomTypeDescriptor
 
 ## Methods
 

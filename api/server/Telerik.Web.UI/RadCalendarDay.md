@@ -15,7 +15,7 @@ RadCalendarDay represents a object that maps date value to corresponding visual 
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.Calendar.Persistence.PropertiesObject
+* Telerik.Web.UI.Calendar.Persistence.PropertiesObject : IStateManager
 * Telerik.Web.UI.Calendar.View.RichUITemplateControl
 * Telerik.Web.UI.RadCalendarDay
 

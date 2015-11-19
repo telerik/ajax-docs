@@ -11,7 +11,7 @@ Represents an editor used for filtering fields of DateTime type.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.RadFilterDataFieldEditor
 * Telerik.Web.UI.RadFilterDateFieldEditor
 

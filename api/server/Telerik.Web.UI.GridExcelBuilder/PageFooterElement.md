@@ -11,7 +11,7 @@ Used to add a footer to the exported page. Visible in Print mode only.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.GridExcelBuilder.Abstract.ElementBase
+* Telerik.Web.UI.GridExcelBuilder.Abstract.ElementBase : IElement
 * Telerik.Web.UI.GridExcelBuilder.PageFooterElement
 
 ## Properties

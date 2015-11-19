@@ -11,8 +11,8 @@ Represents declarative filtering.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.Data.DescriptorBase
-* Telerik.Web.Data.FilterDescriptorBase
+* Telerik.Web.Data.DescriptorBase : INotifyPropertyChanged
+* Telerik.Web.Data.FilterDescriptorBase : IFilterDescriptor
 * Telerik.Web.Data.FilterDescriptor
 
 ## Properties

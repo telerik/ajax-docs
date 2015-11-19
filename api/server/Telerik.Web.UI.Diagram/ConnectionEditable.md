@@ -11,8 +11,8 @@ Defines the editing behavior of the connections.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
-* Telerik.Web.UI.Diagram.ConnectionEditable
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
+* Telerik.Web.UI.Diagram.ConnectionEditable : IDefaultCheck
 
 ## Properties
 

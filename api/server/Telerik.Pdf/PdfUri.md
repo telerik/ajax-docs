@@ -10,8 +10,8 @@ description: Telerik.Pdf.PdfUri
 
 * System.Object
 * Telerik.Pdf.PdfObject
-* Telerik.Pdf.PdfDictionary
-* Telerik.Pdf.PdfUri
+* Telerik.Pdf.PdfDictionary : IEnumerable
+* Telerik.Pdf.PdfUri : IPdfAction
 
 ## Properties
 

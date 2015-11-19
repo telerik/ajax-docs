@@ -13,8 +13,8 @@ A column type for the RadTreeList control that displays a button
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
-* Telerik.Web.UI.TreeListColumn
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
+* Telerik.Web.UI.TreeListColumn : IComparable
 * Telerik.Web.UI.TreeListButtonColumn
 
 ## Properties

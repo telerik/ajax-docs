@@ -11,11 +11,11 @@ The line series class will produce a line chart type.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.SeriesBase
 * Telerik.Web.UI.MarkersSeriesBase
 * Telerik.Web.UI.HtmlChart.PlotArea.Series.MarkerSeriesBaseWithLine
-* Telerik.Web.UI.LineSeries
+* Telerik.Web.UI.LineSeries : IStackedSeries
 
 ## Properties
 

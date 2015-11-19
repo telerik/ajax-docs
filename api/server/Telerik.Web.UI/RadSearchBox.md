@@ -16,8 +16,8 @@ Telerik RadSearchBox for ASP.NET AJAX provides the user
 * System.Web.UI.WebControls.WebControl
 * System.Web.UI.WebControls.BaseDataBoundControl
 * System.Web.UI.WebControls.DataBoundControl
-* Telerik.Web.UI.RadDataBoundControl
-* Telerik.Web.UI.RadSearchBox
+* Telerik.Web.UI.RadDataBoundControl : IControl, IControlResolver, IFeatureGroup, IPostBackDataHandler, IScriptControl, ISkinnableControl
+* Telerik.Web.UI.RadSearchBox : ICallbackEventHandler, IFlatBoundContainer, INamingContainer, IPostBackEventHandler
 
 ## Properties
 

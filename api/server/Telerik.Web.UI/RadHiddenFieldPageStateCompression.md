@@ -13,7 +13,7 @@ A class that overrides Telerik.Web.UI.RadCompression to provide viewstate and co
 * System.Object
 * System.Web.UI.Adapters.ControlAdapter
 * System.Web.UI.Adapters.PageAdapter
-* Telerik.Web.UI.RadCompression
+* Telerik.Web.UI.RadCompression : IHttpModule
 * Telerik.Web.UI.RadHiddenFieldPageStateCompression
 
 ## Methods

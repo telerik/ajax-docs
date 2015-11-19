@@ -9,7 +9,7 @@ description: Telerik.Web.UI.GridGroupByFieldList
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.GridGroupByFieldList
+* Telerik.Web.UI.GridGroupByFieldList : ICollection, IEnumerable, IList
 
 ## Properties
 

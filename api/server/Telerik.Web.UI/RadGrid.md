@@ -30,9 +30,9 @@ Set properties of RadGrid as default for the corresponding properties of grid's
 * System.Web.UI.WebControls.BaseDataBoundControl
 * System.Web.UI.WebControls.DataBoundControl
 * System.Web.UI.WebControls.CompositeDataBoundControl
-* Telerik.Web.UI.RadCompositeDataBoundControl
+* Telerik.Web.UI.RadCompositeDataBoundControl : IControl, IControlResolver, IFeatureGroup, IPostBackDataHandler, IScriptControl, ISkinnableControl
 * Telerik.Web.UI.GridBaseDataList
-* Telerik.Web.UI.RadGrid
+* Telerik.Web.UI.RadGrid : ICallbackEventHandler, IPostBackEventHandler, IRadFilterableContainer
 
 ## Properties
 

@@ -11,7 +11,7 @@ description: Telerik.Web.UI.RadWebControl
 * System.Object
 * System.Web.UI.Control
 * System.Web.UI.WebControls.WebControl
-* Telerik.Web.UI.RadWebControl
+* Telerik.Web.UI.RadWebControl : IControl, IControlResolver, IPostBackDataHandler, IScriptControl, ISkinnableControl
 
 ## Properties
 

@@ -13,7 +13,7 @@ For internal usage only.
 * System.Object
 * System.EventArgs
 * System.Web.UI.WebControls.CommandEventArgs
-* Telerik.Web.UI.GridCommandEventArgs
+* Telerik.Web.UI.GridCommandEventArgs : IGridCommandEvent
 * Telerik.Web.UI.GridExpandCommandEventArgs
 
 ## Properties

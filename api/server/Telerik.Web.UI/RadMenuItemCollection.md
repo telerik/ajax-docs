@@ -25,7 +25,7 @@ The RadMenuItemCollectionclass represents a collection of
 * System.Object
 * System.Web.UI.StateManagedCollection
 * Telerik.Web.UI.ControlItemCollection
-* Telerik.Web.UI.RadMenuItemCollection
+* Telerik.Web.UI.RadMenuItemCollection : ICollection`1, IEnumerable`1, IList`1
 
 ## Properties
 

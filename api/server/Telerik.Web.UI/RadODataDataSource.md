@@ -12,7 +12,7 @@ RadODataDataSource
 
 * System.Object
 * System.Web.UI.Control
-* Telerik.Web.UI.RadODataDataSource
+* Telerik.Web.UI.RadODataDataSource : IControl, IControlResolver, IScriptControl
 
 ## Properties
 

@@ -12,7 +12,7 @@ A Telerik.Web.UI.PivotGrid.Core.Totals.SingleTotalFormat that is base class for 
 
 * System.Object
 * Telerik.Web.UI.PivotGrid.Core.Cloneable
-* Telerik.Web.UI.PivotGrid.Core.SettingsNode
+* Telerik.Web.UI.PivotGrid.Core.SettingsNode : IEditable, INotifyPropertyChanged, IServiceProvider, ISupportInitialize
 * Telerik.Web.UI.PivotGrid.Core.Totals.TotalFormat
 * Telerik.Web.UI.PivotGrid.Core.Totals.SingleTotalFormat
 * Telerik.Web.UI.PivotGrid.Core.Totals.PercentOfAncestor

@@ -18,5 +18,5 @@ Inheriting from RadAjaxPage is not required if you run under Full trust.
 * System.Web.UI.Control
 * System.Web.UI.TemplateControl
 * System.Web.UI.Page
-* Telerik.Web.UI.RadAjaxPage
+* Telerik.Web.UI.RadAjaxPage : IRadAjaxPage
 

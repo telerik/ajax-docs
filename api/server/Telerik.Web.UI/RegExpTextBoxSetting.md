@@ -11,7 +11,7 @@ Class holding settings for regular expression validation on Telerik.Web.UI.RadTe
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.InputSetting
+* Telerik.Web.UI.InputSetting : IStateManager
 * Telerik.Web.UI.RegExpTextBoxSetting
 
 ## Properties

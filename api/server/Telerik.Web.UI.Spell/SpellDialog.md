@@ -13,9 +13,9 @@ This class is a container for the Spell Dialog UI
 * System.Object
 * System.Web.UI.Control
 * System.Web.UI.WebControls.WebControl
-* Telerik.Web.UI.RadWebControl
+* Telerik.Web.UI.RadWebControl : IControl, IControlResolver, IPostBackDataHandler, IScriptControl, ISkinnableControl
 * Telerik.Web.UI.DialogControl
-* Telerik.Web.UI.Spell.SpellDialog
+* Telerik.Web.UI.Spell.SpellDialog : IClientParameterConsumer, INamingContainer
 
 ## Properties
 

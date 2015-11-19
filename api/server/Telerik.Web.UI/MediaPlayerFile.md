@@ -9,7 +9,7 @@ description: Telerik.Web.UI.MediaPlayerFile
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.MediaPlayerFile
+* Telerik.Web.UI.MediaPlayerFile : IStateManager
 
 ## Properties
 

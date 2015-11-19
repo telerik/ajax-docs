@@ -9,7 +9,7 @@ description: Telerik.Web.UI.RadListViewInsertionObject
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.RadListViewInsertionObject
+* Telerik.Web.UI.RadListViewInsertionObject : ICustomTypeDescriptor
 
 ## Methods
 

@@ -11,8 +11,8 @@ This Class defines RibbonBarApplicationMenuAuxiliaryPane
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
-* Telerik.Web.UI.RibbonBarApplicationMenuAuxiliaryPane
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
+* Telerik.Web.UI.RibbonBarApplicationMenuAuxiliaryPane : IDisposable
 
 ## Properties
 

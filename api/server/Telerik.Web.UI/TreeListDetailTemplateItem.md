@@ -15,7 +15,7 @@ Represents the template item rendered under each Telerik.Web.UI.TreeListDataItem
 * System.Web.UI.WebControls.WebControl
 * System.Web.UI.WebControls.TableRow
 * Telerik.Web.UI.TreeListTableRow
-* Telerik.Web.UI.TreeListItem
+* Telerik.Web.UI.TreeListItem : INamingContainer
 * Telerik.Web.UI.TreeListDetailTemplateItem
 
 ## Properties

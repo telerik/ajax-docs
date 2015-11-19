@@ -11,8 +11,8 @@ The default configuration for shape layers.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
-* Telerik.Web.UI.Map.Shape
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
+* Telerik.Web.UI.Map.Shape : IDefaultCheck
 
 ## Properties
 

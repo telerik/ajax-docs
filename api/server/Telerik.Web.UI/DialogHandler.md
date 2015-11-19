@@ -14,7 +14,7 @@ This is the default dialog handler class for Telerik dialogs. It requires Sessio
 * System.Web.UI.Control
 * System.Web.UI.TemplateControl
 * System.Web.UI.Page
-* Telerik.Web.UI.RadAjaxPage
+* Telerik.Web.UI.RadAjaxPage : IRadAjaxPage
 * Telerik.Web.UI.DialogHandlerNoSession
-* Telerik.Web.UI.DialogHandler
+* Telerik.Web.UI.DialogHandler : IRequiresSessionState
 

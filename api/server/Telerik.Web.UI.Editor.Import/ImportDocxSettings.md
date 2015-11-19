@@ -12,7 +12,7 @@ Summary description for ImportDocxSettings
 
 * System.Object
 * Telerik.Web.UI.ObjectWithState
-* Telerik.Web.UI.Editor.Import.ImportDocxSettings
+* Telerik.Web.UI.Editor.Import.ImportDocxSettings : IDplImportSettings
 
 ## Properties
 

@@ -12,7 +12,7 @@ This class can be used to control various properties of PDF files
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.Apoc.Render.Xml.XmlRendererOptions
+* Telerik.Web.Apoc.Render.Xml.XmlRendererOptions : IRendererOptions
 
 ## Properties
 

@@ -11,7 +11,7 @@ The series item of the candlestick series.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.HtmlChart.PlotArea.Series.SeriesItems.SeriesItemBase
 * Telerik.Web.UI.CandlestickSeriesItem
 

@@ -11,8 +11,8 @@ RadTreeList Excel export settings
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
-* Telerik.Web.UI.TreeListWordExportSettings
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
+* Telerik.Web.UI.TreeListWordExportSettings : IDisposable
 
 ## Properties
 

@@ -11,7 +11,7 @@ Represents an Image that can be edited.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.ImageEditor.EditableImage
+* Telerik.Web.UI.ImageEditor.EditableImage : IDisposable
 
 ## Properties
 

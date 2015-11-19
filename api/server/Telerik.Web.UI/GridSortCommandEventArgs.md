@@ -13,7 +13,7 @@ The event arguments passed when Telerik.Web.UI.RadGrid sorts happens.
 * System.Object
 * System.EventArgs
 * System.Web.UI.WebControls.CommandEventArgs
-* Telerik.Web.UI.GridCommandEventArgs
+* Telerik.Web.UI.GridCommandEventArgs : IGridCommandEvent
 * Telerik.Web.UI.GridSortCommandEventArgs
 
 ## Properties

@@ -31,10 +31,10 @@ The RadPanelBarcontrol is used to display a list of items in a Web Forms
 * System.Web.UI.WebControls.WebControl
 * System.Web.UI.WebControls.BaseDataBoundControl
 * System.Web.UI.WebControls.DataBoundControl
-* Telerik.Web.UI.RadDataBoundControl
-* Telerik.Web.UI.ControlItemContainer
+* Telerik.Web.UI.RadDataBoundControl : IControl, IControlResolver, IFeatureGroup, IPostBackDataHandler, IScriptControl, ISkinnableControl
+* Telerik.Web.UI.ControlItemContainer : IControlItemContainer, INamingContainer, IXmlSerializable
 * Telerik.Web.UI.HierarchicalControlItemContainer
-* Telerik.Web.UI.RadPanelBar
+* Telerik.Web.UI.RadPanelBar : IPostBackEventHandler, IRadPanelItemContainer
 
 ## Properties
 

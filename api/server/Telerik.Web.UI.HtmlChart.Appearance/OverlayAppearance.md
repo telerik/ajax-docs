@@ -11,8 +11,8 @@ Encapsulates the overlay appearance properties of the HtmlChart control
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
-* Telerik.Web.UI.HtmlChart.Appearance.OverlayAppearance
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
+* Telerik.Web.UI.HtmlChart.Appearance.OverlayAppearance : IDefaultCheck
 
 ## Properties
 

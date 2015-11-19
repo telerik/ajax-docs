@@ -12,8 +12,8 @@ A special EditorTool object, which is rendered as a separator by the default
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
-* Telerik.Web.UI.EditorToolBase
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
+* Telerik.Web.UI.EditorToolBase : IAttributeAccessor
 * Telerik.Web.UI.EditorSeparator
 
 ## Properties

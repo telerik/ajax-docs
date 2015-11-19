@@ -11,7 +11,7 @@ A reminder data class.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.ReminderData
+* Telerik.Web.UI.ReminderData : IReminderData
 
 ## Properties
 

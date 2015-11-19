@@ -16,7 +16,7 @@ The page tree is described in section 3.6.2 of the PDF specification.
 
 * System.Object
 * Telerik.Pdf.PdfObject
-* Telerik.Pdf.PdfDictionary
+* Telerik.Pdf.PdfDictionary : IEnumerable
 * Telerik.Pdf.PdfPageTree
 
 ## Properties

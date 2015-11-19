@@ -13,7 +13,7 @@ Represents a collection of Telerik.Web.UI.RadListBoxItem objects in a Telerik.We
 * System.Object
 * System.Web.UI.StateManagedCollection
 * Telerik.Web.UI.ControlItemCollection
-* Telerik.Web.UI.RadListBoxItemCollection
+* Telerik.Web.UI.RadListBoxItemCollection : ICollection`1, IEnumerable`1, IList`1
 
 ## Properties
 

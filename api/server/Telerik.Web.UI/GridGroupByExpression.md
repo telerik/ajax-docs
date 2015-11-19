@@ -26,7 +26,7 @@ If you use P:Telerik.Web.UI.GridGroupByExpression.Expression property to assign
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.GridGroupByExpression
+* Telerik.Web.UI.GridGroupByExpression : IStateManager
 
 ## Properties
 

@@ -11,8 +11,8 @@ Dimensions base class
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Charting.StateManagedObject
-* Telerik.Charting.Styles.Dimensions
+* Telerik.Charting.StateManagedObject : IChartingStateManagedItem, IChartingStateManager, IDisposable
+* Telerik.Charting.Styles.Dimensions : ICloneable
 
 ## Properties
 

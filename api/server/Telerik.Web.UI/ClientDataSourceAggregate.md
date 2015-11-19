@@ -11,7 +11,7 @@ a class representing the the aggregates settings of the Telerik.Web.UI.RadClient
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.ClientDataSourceAggregate
 
 ## Properties

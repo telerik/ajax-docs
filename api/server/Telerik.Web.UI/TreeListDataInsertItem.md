@@ -15,9 +15,9 @@ Represents an insert item when P:Telerik.Web.UI.RadTreeList.EditMode is set to F
 * System.Web.UI.WebControls.WebControl
 * System.Web.UI.WebControls.TableRow
 * Telerik.Web.UI.TreeListTableRow
-* Telerik.Web.UI.TreeListItem
+* Telerik.Web.UI.TreeListItem : INamingContainer
 * Telerik.Web.UI.TreeListEditableItem
-* Telerik.Web.UI.TreeListDataInsertItem
+* Telerik.Web.UI.TreeListDataInsertItem : ITreeListInsertItem
 
 ## Properties
 

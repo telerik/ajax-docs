@@ -11,7 +11,7 @@ A base class for various FieldInfo classes presenting local sources. An implemen
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.PivotGrid.Core.Fields.FieldDescriptionProviderBase
+* Telerik.Web.UI.PivotGrid.Core.Fields.FieldDescriptionProviderBase : IFieldDescriptionProvider
 * Telerik.Web.UI.PivotGrid.Core.Fields.LocalFieldDescriptionsProviderBase
 
 ## Properties

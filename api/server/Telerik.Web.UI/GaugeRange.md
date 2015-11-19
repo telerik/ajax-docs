@@ -11,7 +11,7 @@ Represents an object used to define a range in the Gauge's scale.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.GaugeRange
 
 ## Properties

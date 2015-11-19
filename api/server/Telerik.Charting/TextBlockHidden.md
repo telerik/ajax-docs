@@ -11,8 +11,8 @@ Chart title text container properties
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Charting.StateManagedObject
-* Telerik.Charting.RenderedObject
+* Telerik.Charting.StateManagedObject : IChartingStateManagedItem, IChartingStateManager, IDisposable
+* Telerik.Charting.RenderedObject : IOrdering
 * Telerik.Charting.LayoutElement
 * Telerik.Charting.TextBlock
 * Telerik.Charting.TextBlockHidden

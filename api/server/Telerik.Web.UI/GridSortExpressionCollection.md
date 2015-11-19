@@ -13,7 +13,7 @@ A collection of Telerik.Web.UI.GridSortExpression objects. Depending on the valu
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.GridSortExpressionCollection
+* Telerik.Web.UI.GridSortExpressionCollection : ICollection, IEnumerable, IList, IStateManager
 
 ## Properties
 

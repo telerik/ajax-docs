@@ -13,9 +13,9 @@ This Class specifies the rendering of RadToolBarSplitButton.
 * System.Object
 * System.Web.UI.Control
 * System.Web.UI.WebControls.WebControl
-* Telerik.Web.UI.ControlItem
+* Telerik.Web.UI.ControlItem : IMarkableStateManager, INamingContainer, IStateManager, IXmlSerializable
 * Telerik.Web.UI.RadToolBarItem
-* Telerik.Web.UI.RadToolBarSplitButton
+* Telerik.Web.UI.RadToolBarSplitButton : IControlItemContainer, IRadToolBarButton, IRadToolBarButtonContainer, IRadToolBarItemContainer
 
 ## Properties
 

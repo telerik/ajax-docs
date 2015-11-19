@@ -19,7 +19,7 @@ Represents the base class for any items that display and edit data in a
 * System.Web.UI.WebControls.WebControl
 * System.Web.UI.WebControls.TableRow
 * Telerik.Web.UI.GridTableRow
-* Telerik.Web.UI.GridItem
+* Telerik.Web.UI.GridItem : INamingContainer
 * Telerik.Web.UI.GridEditableItem
 
 ## Properties

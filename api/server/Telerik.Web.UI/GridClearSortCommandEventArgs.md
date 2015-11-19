@@ -13,7 +13,7 @@ The evernt arguments passed when Telerik.Web.UI.RadGrid fires a ClearSort comman
 * System.Object
 * System.EventArgs
 * System.Web.UI.WebControls.CommandEventArgs
-* Telerik.Web.UI.GridCommandEventArgs
+* Telerik.Web.UI.GridCommandEventArgs : IGridCommandEvent
 * Telerik.Web.UI.GridClearSortCommandEventArgs
 
 ## Properties

@@ -13,7 +13,7 @@ A collection of Telerik.Web.UI.RadListViewSortExpression objects. Depending on t
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.RadListViewSortExpressionCollection
+* Telerik.Web.UI.RadListViewSortExpressionCollection : ICollection, IEnumerable, IList, IStateManager
 
 ## Properties
 

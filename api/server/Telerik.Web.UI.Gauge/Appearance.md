@@ -11,7 +11,7 @@ Represents an object used for configuration the appearance of Gauges.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.Gauge.Appearance
 
 ## Properties

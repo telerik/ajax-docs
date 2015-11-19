@@ -13,7 +13,7 @@ THis Class defines the Reminder collection.
 * System.Object
 * System.Web.UI.StateManagedCollection
 * Telerik.Web.StronglyTypedStateManagedCollection`1
-* Telerik.Web.UI.ReminderCollection
+* Telerik.Web.UI.ReminderCollection : IEnumerable`1
 
 ## Methods
 

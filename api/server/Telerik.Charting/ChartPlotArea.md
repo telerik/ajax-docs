@@ -11,10 +11,10 @@ Plot area - series rendering canvas.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Charting.StateManagedObject
-* Telerik.Charting.RenderedObject
+* Telerik.Charting.StateManagedObject : IChartingStateManagedItem, IChartingStateManager, IDisposable
+* Telerik.Charting.RenderedObject : IOrdering
 * Telerik.Charting.LayoutElement
-* Telerik.Charting.ChartPlotArea
+* Telerik.Charting.ChartPlotArea : IContainer
 
 ## Properties
 

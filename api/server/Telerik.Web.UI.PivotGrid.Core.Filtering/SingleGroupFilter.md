@@ -12,7 +12,7 @@ Used to filter groups based on simple values and aggregate results.
 
 * System.Object
 * Telerik.Web.UI.PivotGrid.Core.Cloneable
-* Telerik.Web.UI.PivotGrid.Core.SettingsNode
+* Telerik.Web.UI.PivotGrid.Core.SettingsNode : IEditable, INotifyPropertyChanged, IServiceProvider, ISupportInitialize
 * Telerik.Web.UI.PivotGrid.Core.Filtering.GroupFilter
 * Telerik.Web.UI.PivotGrid.Core.Filtering.SingleGroupFilter
 

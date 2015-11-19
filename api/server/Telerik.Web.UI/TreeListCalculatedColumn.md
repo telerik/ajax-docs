@@ -11,8 +11,8 @@ Represents a TreeListColumn extended to perform calculations upon fields from th
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
-* Telerik.Web.UI.TreeListColumn
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
+* Telerik.Web.UI.TreeListColumn : IComparable
 * Telerik.Web.UI.TreeListCalculatedColumn
 
 ## Properties

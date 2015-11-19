@@ -18,7 +18,7 @@ Serves as the abstract base class for data tables. This class provides the
 * System.Web.UI.WebControls.BaseDataBoundControl
 * System.Web.UI.WebControls.DataBoundControl
 * System.Web.UI.WebControls.CompositeDataBoundControl
-* Telerik.Web.UI.RadCompositeDataBoundControl
+* Telerik.Web.UI.RadCompositeDataBoundControl : IControl, IControlResolver, IFeatureGroup, IPostBackDataHandler, IScriptControl, ISkinnableControl
 * Telerik.Web.UI.GridBaseDataList
 
 ## Properties

@@ -11,7 +11,7 @@ Used to change the page orientation and alignment. The effect of these settings 
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.GridExcelBuilder.Abstract.ElementBase
+* Telerik.Web.UI.GridExcelBuilder.Abstract.ElementBase : IElement
 * Telerik.Web.UI.GridExcelBuilder.PageLayoutElement
 
 ## Properties

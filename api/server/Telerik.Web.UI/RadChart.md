@@ -15,8 +15,8 @@ The class represents the base functionality of the RadChart.
 * System.Web.UI.WebControls.WebControl
 * System.Web.UI.WebControls.BaseDataBoundControl
 * System.Web.UI.WebControls.DataBoundControl
-* Telerik.Web.UI.RadDataBoundControl
-* Telerik.Web.UI.RadChart
+* Telerik.Web.UI.RadDataBoundControl : IControl, IControlResolver, IFeatureGroup, IPostBackDataHandler, IScriptControl, ISkinnableControl
+* Telerik.Web.UI.RadChart : ICallbackEventHandler, IChartComponent, INamingContainer, IPostBackEventHandler, IStateManager
 
 ## Properties
 

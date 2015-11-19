@@ -11,7 +11,7 @@ Represents an object which can server Telerik.Web.UI.RadBinaryImage 's content
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.RadBinaryImageHandler
+* Telerik.Web.UI.RadBinaryImageHandler : IHttpHandler
 
 ## Properties
 

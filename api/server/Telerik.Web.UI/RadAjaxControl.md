@@ -15,7 +15,7 @@ Base class for Telerik.Web.UI.RadAjaxManager and
 * System.Object
 * System.Web.UI.Control
 * System.Web.UI.WebControls.WebControl
-* Telerik.Web.UI.RadAjaxControl
+* Telerik.Web.UI.RadAjaxControl : IPostBackEventHandler
 
 ## Properties
 

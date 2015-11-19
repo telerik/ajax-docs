@@ -13,7 +13,7 @@ Default implementation of Telerik.Web.UI.IAsyncUploadConfiguration IAsyncUploadC
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.AsyncUploadConfiguration
+* Telerik.Web.UI.AsyncUploadConfiguration : IAsyncUploadConfiguration
 
 ## Properties
 

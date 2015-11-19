@@ -11,7 +11,7 @@ Configuration class providing configuration related to the editable image.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.ImageEditor.EditableImageConfiguration
 
 ## Properties

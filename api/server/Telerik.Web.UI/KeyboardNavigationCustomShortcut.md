@@ -12,7 +12,7 @@ Class representing a single shortcut that represents the keyboard combination re
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.KeyboardNavigationShortcut
 * Telerik.Web.UI.KeyboardNavigationCustomShortcut
 

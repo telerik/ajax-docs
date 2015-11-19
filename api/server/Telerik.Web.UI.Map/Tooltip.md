@@ -11,8 +11,8 @@ The default Kendo UI Tooltip options for all marker layers.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
-* Telerik.Web.UI.Map.Tooltip
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
+* Telerik.Web.UI.Map.Tooltip : IDefaultCheck
 
 ## Properties
 

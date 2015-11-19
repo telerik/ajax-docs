@@ -11,8 +11,8 @@ Configures or disables the built-in zoom control (+/- button).
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
-* Telerik.Web.UI.Map.Zoom
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
+* Telerik.Web.UI.Map.Zoom : IDefaultCheck
 
 ## Properties
 

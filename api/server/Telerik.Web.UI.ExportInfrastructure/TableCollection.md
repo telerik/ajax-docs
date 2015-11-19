@@ -11,7 +11,7 @@ EI Table collection
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.ExportInfrastructure.TableCollection
+* Telerik.Web.UI.ExportInfrastructure.TableCollection : IEnumerable, IEnumerable`1
 
 ## Properties
 

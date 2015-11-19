@@ -32,10 +32,10 @@ The RadTabStripcontrol is used to display a list of tabs in a Web Forms
 * System.Web.UI.WebControls.WebControl
 * System.Web.UI.WebControls.BaseDataBoundControl
 * System.Web.UI.WebControls.DataBoundControl
-* Telerik.Web.UI.RadDataBoundControl
-* Telerik.Web.UI.ControlItemContainer
+* Telerik.Web.UI.RadDataBoundControl : IControl, IControlResolver, IFeatureGroup, IPostBackDataHandler, IScriptControl, ISkinnableControl
+* Telerik.Web.UI.ControlItemContainer : IControlItemContainer, INamingContainer, IXmlSerializable
 * Telerik.Web.UI.HierarchicalControlItemContainer
-* Telerik.Web.UI.RadTabStrip
+* Telerik.Web.UI.RadTabStrip : IPostBackEventHandler, IRadTabContainer
 
 ## Properties
 

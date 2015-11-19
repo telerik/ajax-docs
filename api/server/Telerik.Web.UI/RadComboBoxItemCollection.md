@@ -25,7 +25,7 @@ The RadComboBoxItemCollectionclass represents a collection of
 * System.Object
 * System.Web.UI.StateManagedCollection
 * Telerik.Web.UI.ControlItemCollection
-* Telerik.Web.UI.RadComboBoxItemCollection
+* Telerik.Web.UI.RadComboBoxItemCollection : ICollection`1, IEnumerable`1, IList`1
 
 ## Properties
 

@@ -12,7 +12,7 @@ Initially only the [Edit] button is shown. When it is pressed, the [Update] and
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.GridColumn
+* Telerik.Web.UI.GridColumn : IComparable, IStateManager
 * Telerik.Web.UI.GridEditCommandColumn
 
 ## Properties

@@ -11,7 +11,7 @@ An Telerik.Web.UI.PivotGrid.Core.Fields.IPivotFieldInfo that uses PropertyName a
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.PivotGrid.Core.Fields.PivotFieldInfo
+* Telerik.Web.UI.PivotGrid.Core.Fields.PivotFieldInfo : IPivotFieldInfo
 * Telerik.Web.UI.PivotGrid.Core.Fields.PropertyFieldInfo
 * Telerik.Web.UI.PivotGrid.Core.Fields.DateTimePropertyFieldInfo
 

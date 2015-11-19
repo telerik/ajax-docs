@@ -11,7 +11,7 @@ State managemenet helper. This class is intended to be used only internally in R
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.GridStateManager
+* Telerik.Web.UI.GridStateManager : IStateManager
 
 ## Properties
 

@@ -11,8 +11,8 @@ A scheduled event in RadScheduler with Start and End time, Subject as well other
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
-* Telerik.Web.UI.Appointment
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
+* Telerik.Web.UI.Appointment : ICloneable, ICustomTypeDescriptor, IDisposable, ISerializable
 
 ## Properties
 

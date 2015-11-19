@@ -11,8 +11,8 @@ A Telerik.Web.UI.RadListView filter expression that corresponds to "StarsWith".
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.RadListViewFilterExpression
-* Telerik.Web.UI.RadListViewSingleValueExpression`1
+* Telerik.Web.UI.RadListViewFilterExpression : IEquatable`1, IHideObjectMembers, IStateManager
+* Telerik.Web.UI.RadListViewSingleValueExpression`1 : IEquatable`1, IRadListViewSingleValueExpression
 * Telerik.Web.UI.RadListViewSingleStringExpression
 * Telerik.Web.UI.RadListViewStartsWithFilterExpression
 

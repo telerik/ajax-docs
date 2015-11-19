@@ -12,7 +12,7 @@ Abstract class used from Telerik.Web.UI.RadDataPager which is building block of 
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.RadDataPagerField
 
 ## Properties

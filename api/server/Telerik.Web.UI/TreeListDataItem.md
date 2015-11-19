@@ -15,9 +15,9 @@ Represents the items bound to entries from the data source in Telerik.Web.UI.Rad
 * System.Web.UI.WebControls.WebControl
 * System.Web.UI.WebControls.TableRow
 * Telerik.Web.UI.TreeListTableRow
-* Telerik.Web.UI.TreeListItem
+* Telerik.Web.UI.TreeListItem : INamingContainer
 * Telerik.Web.UI.TreeListEditableItem
-* Telerik.Web.UI.TreeListDataItem
+* Telerik.Web.UI.TreeListDataItem : IDataItemContainer
 
 ## Properties
 

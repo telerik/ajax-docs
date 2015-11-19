@@ -13,7 +13,7 @@ Summary description for PivotGridPageChangedEvent.
 * System.Object
 * System.EventArgs
 * System.Web.UI.WebControls.CommandEventArgs
-* Telerik.Web.UI.PivotGridCommandEventArgs
+* Telerik.Web.UI.PivotGridCommandEventArgs : IPivotGridCommandEvent
 * Telerik.Web.UI.PivotGridExpandCollapseEventArgs
 
 ## Methods

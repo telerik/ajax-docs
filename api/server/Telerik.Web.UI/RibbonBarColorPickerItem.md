@@ -13,7 +13,7 @@ The ColorPickerItemclass represents Colors items within a RadColorPickercontrol.
 * System.Object
 * System.Web.UI.Control
 * System.Web.UI.WebControls.WebControl
-* Telerik.Web.UI.RibbonBarColorPickerItem
+* Telerik.Web.UI.RibbonBarColorPickerItem : IXmlSerializable
 
 ## Properties
 

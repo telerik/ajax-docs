@@ -11,7 +11,7 @@ Represents an Telerik.Web.UI.OrgChartGroupItem OrgChartGroupItemin the Telerik.W
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.OrgChartGroupItem
+* Telerik.Web.UI.OrgChartGroupItem : IDisposable, IOrgChartRendererContainer, IXmlSerializable
 
 ## Properties
 

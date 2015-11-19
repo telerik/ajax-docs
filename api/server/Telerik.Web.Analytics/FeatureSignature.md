@@ -11,5 +11,5 @@ A class describing a feature trace signature, containing the name of the Feature
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.Analytics.FeatureSignature
+* Telerik.Web.Analytics.FeatureSignature : IDisposable, IFeatureContract, IFeatureSignature
 

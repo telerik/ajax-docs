@@ -11,7 +11,7 @@ A collection holding Telerik.Web.UI.GridDataItem items.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.GridItemCollection
+* Telerik.Web.UI.GridItemCollection : ICollection, IEnumerable
 * Telerik.Web.UI.GridDataItemCollection
 
 ## Properties

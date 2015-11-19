@@ -9,7 +9,7 @@ description: Telerik.Web.UI.WizardRendererBase
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.Renderers.RendererBase
+* Telerik.Web.UI.Renderers.RendererBase : IRenderer
 * Telerik.Web.UI.WizardRendererBase
 
 ## Properties

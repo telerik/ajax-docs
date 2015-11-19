@@ -12,7 +12,7 @@ This class gets or sets the filter operator, field name and
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.ClientDataSourceFilterBase
 * Telerik.Web.UI.ClientDataSourceFilterEntry
 

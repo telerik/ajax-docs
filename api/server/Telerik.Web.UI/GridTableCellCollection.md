@@ -11,7 +11,7 @@ A collection holding Telerik.Web.UI.GridTableCell objects.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.GridTableCellCollection
+* Telerik.Web.UI.GridTableCellCollection : ICollection, IEnumerable
 
 ## Properties
 

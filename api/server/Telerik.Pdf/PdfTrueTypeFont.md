@@ -10,7 +10,7 @@ description: Telerik.Pdf.PdfTrueTypeFont
 
 * System.Object
 * Telerik.Pdf.PdfObject
-* Telerik.Pdf.PdfDictionary
+* Telerik.Pdf.PdfDictionary : IEnumerable
 * Telerik.Pdf.PdfFont
 * Telerik.Pdf.PdfTrueTypeFont
 

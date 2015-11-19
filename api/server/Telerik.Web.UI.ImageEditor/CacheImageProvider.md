@@ -11,7 +11,7 @@ Represents a provider for images of a Telerik.Web.UI.RadImageEditor instance. It
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.ImageEditor.CacheImageProvider
+* Telerik.Web.UI.ImageEditor.CacheImageProvider : ICacheImageProvider
 
 ## Properties
 

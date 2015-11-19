@@ -11,7 +11,7 @@ State Persister Base Abstract class. Should be implemented for each control. Rea
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.PersistenceFramework.RadStatePersister
+* Telerik.Web.UI.PersistenceFramework.RadStatePersister : IStatePersister
 
 ## Methods
 

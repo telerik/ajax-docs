@@ -15,7 +15,7 @@ Represents the header item of the Telerik.Web.UI.RadTreeList .
 * System.Web.UI.WebControls.WebControl
 * System.Web.UI.WebControls.TableRow
 * Telerik.Web.UI.TreeListTableRow
-* Telerik.Web.UI.TreeListItem
+* Telerik.Web.UI.TreeListItem : INamingContainer
 * Telerik.Web.UI.TreeListHeaderItem
 
 ## Properties

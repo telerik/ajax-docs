@@ -11,8 +11,8 @@ The base abstract class representing the bindable columns in Telerik.Web.UI.RadT
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
-* Telerik.Web.UI.TreeListColumn
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
+* Telerik.Web.UI.TreeListColumn : IComparable
 * Telerik.Web.UI.TreeListDataColumn
 
 ## Properties

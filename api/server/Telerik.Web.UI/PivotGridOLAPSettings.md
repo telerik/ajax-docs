@@ -12,7 +12,7 @@ Class holding all settings associated with connection parameters for OLAP bindin
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.PivotGridOLAPSettings
 
 ## Properties

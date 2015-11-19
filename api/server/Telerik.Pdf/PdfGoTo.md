@@ -10,8 +10,8 @@ description: Telerik.Pdf.PdfGoTo
 
 * System.Object
 * Telerik.Pdf.PdfObject
-* Telerik.Pdf.PdfDictionary
-* Telerik.Pdf.PdfGoTo
+* Telerik.Pdf.PdfDictionary : IEnumerable
+* Telerik.Pdf.PdfGoTo : IPdfAction
 
 ## Properties
 

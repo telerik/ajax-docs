@@ -11,7 +11,7 @@ Represents the settings for sorting Telerik.Web.UI.RadTreeList .
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.TreeListSortingSettings
 
 ## Properties

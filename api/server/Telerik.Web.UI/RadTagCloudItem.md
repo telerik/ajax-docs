@@ -11,7 +11,7 @@ This class represents a Telerik.Web.UI.RadTagCloud item.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.RadTagCloudItem
 
 ## Properties

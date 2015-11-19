@@ -16,7 +16,7 @@ The examples belows demonstrate several ways of invoking Apoc XSL-FO.  The
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.Apoc.ApocDriver
+* Telerik.Web.Apoc.ApocDriver : IDriver
 
 ## Properties
 

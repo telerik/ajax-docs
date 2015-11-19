@@ -11,7 +11,7 @@ The class that provides the functionality of a funnel chart
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.SeriesBase
 * Telerik.Web.UI.FunnelSeries
 

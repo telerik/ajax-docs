@@ -20,7 +20,7 @@ Limits for both occurrence count and end date can be specified via the
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.RecurrenceRange
+* Telerik.Web.UI.RecurrenceRange : IEquatable`1
 
 ## Properties
 

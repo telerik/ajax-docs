@@ -18,7 +18,7 @@ Item that is displayed on top or at the bottom of the each GridTableView base on
 * System.Web.UI.WebControls.WebControl
 * System.Web.UI.WebControls.TableRow
 * Telerik.Web.UI.GridTableRow
-* Telerik.Web.UI.GridItem
+* Telerik.Web.UI.GridItem : INamingContainer
 * Telerik.Web.UI.GridCommandItem
 
 ## Properties

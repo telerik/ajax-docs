@@ -11,8 +11,8 @@ Base class for a chart Margins and Paddings
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Charting.StateManagedObject
-* Telerik.Charting.Styles.LayoutDecoratorBase
+* Telerik.Charting.StateManagedObject : IChartingStateManagedItem, IChartingStateManager, IDisposable
+* Telerik.Charting.Styles.LayoutDecoratorBase : ICloneable
 
 ## Properties
 

@@ -13,7 +13,7 @@ The event arguments passed when Telerik.Web.UI.RadListView fires Command event.
 * System.Object
 * System.EventArgs
 * System.Web.UI.WebControls.CommandEventArgs
-* Telerik.Web.UI.RadListViewCommandEventArgs
+* Telerik.Web.UI.RadListViewCommandEventArgs : IRadListViewCommandEvent
 
 ## Properties
 

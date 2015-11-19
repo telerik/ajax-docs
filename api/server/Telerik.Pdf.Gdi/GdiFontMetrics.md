@@ -11,7 +11,7 @@ Class that obtains OutlineTextMetrics for a TrueType font
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Pdf.Gdi.GdiFontMetrics
+* Telerik.Pdf.Gdi.GdiFontMetrics : IDisposable
 
 ## Properties
 

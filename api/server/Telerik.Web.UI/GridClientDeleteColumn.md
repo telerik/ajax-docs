@@ -21,7 +21,7 @@ This optimizes the performance and the source data is automatically refreshed
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.GridColumn
+* Telerik.Web.UI.GridColumn : IComparable, IStateManager
 * Telerik.Web.UI.GridButtonColumn
 * Telerik.Web.UI.GridClientDeleteColumn
 

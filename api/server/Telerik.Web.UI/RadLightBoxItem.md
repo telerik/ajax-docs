@@ -11,8 +11,8 @@ RadLightBox Item
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
-* Telerik.Web.UI.RadLightBoxItem
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
+* Telerik.Web.UI.RadLightBoxItem : INamingContainer
 
 ## Properties
 

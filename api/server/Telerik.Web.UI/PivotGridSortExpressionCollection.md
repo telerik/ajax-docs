@@ -11,7 +11,7 @@ A collection of Telerik.Web.UI.PivotGridSortExpression objects.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.PivotGridSortExpressionCollection
+* Telerik.Web.UI.PivotGridSortExpressionCollection : ICollection, IEnumerable, IList, IStateManager
 
 ## Properties
 

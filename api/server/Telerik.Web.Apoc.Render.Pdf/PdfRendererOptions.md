@@ -19,7 +19,7 @@ Can be used to control certain values in the generated PDF's information
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.Apoc.Render.Pdf.PdfRendererOptions
+* Telerik.Web.Apoc.Render.Pdf.PdfRendererOptions : IRendererOptions
 
 ## Properties
 

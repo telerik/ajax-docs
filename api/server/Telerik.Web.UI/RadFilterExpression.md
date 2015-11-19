@@ -11,7 +11,7 @@ Represents all filter expressions in Telerik.Web.UI.RadFilter .
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.RadFilterExpression
 
 ## Properties

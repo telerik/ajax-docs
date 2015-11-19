@@ -11,8 +11,8 @@ Defines the shape options.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
-* Telerik.Web.UI.Diagram.ShapeDefaults
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
+* Telerik.Web.UI.Diagram.ShapeDefaults : IDefaultCheck
 
 ## Properties
 

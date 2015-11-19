@@ -11,7 +11,7 @@ Contains validation settings for Telerik.Web.UI.RadTreeList
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.TreeListValidationSettings
 
 ## Properties

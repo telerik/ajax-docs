@@ -12,8 +12,8 @@ Exposes a method that compares two objects.
 
 * System.Object
 * Telerik.Web.UI.PivotGrid.Core.Cloneable
-* Telerik.Web.UI.PivotGrid.Core.SettingsNode
-* Telerik.Web.UI.PivotGrid.Core.ObjectComparer
+* Telerik.Web.UI.PivotGrid.Core.SettingsNode : IEditable, INotifyPropertyChanged, IServiceProvider, ISupportInitialize
+* Telerik.Web.UI.PivotGrid.Core.ObjectComparer : IComparer
 
 ## Properties
 

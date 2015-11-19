@@ -17,7 +17,7 @@ A Type 0 CIDFont contains glyph descriptions based on Adobe's Type
 
 * System.Object
 * Telerik.Pdf.PdfObject
-* Telerik.Pdf.PdfDictionary
+* Telerik.Pdf.PdfDictionary : IEnumerable
 * Telerik.Pdf.PdfCIDFont
 
 ## Properties

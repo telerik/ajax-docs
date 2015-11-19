@@ -13,7 +13,7 @@ RadBarcode control. Control for rendering Barcode or QR text into an Image or SV
 * System.Object
 * System.Web.UI.Control
 * System.Web.UI.WebControls.WebControl
-* Telerik.Web.UI.RadBarcode
+* Telerik.Web.UI.RadBarcode : IScriptControl
 
 ## Properties
 

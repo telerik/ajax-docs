@@ -11,8 +11,8 @@ This Class defines the Raminder object.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
-* Telerik.Web.UI.Reminder
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
+* Telerik.Web.UI.Reminder : ICloneable
 
 ## Properties
 

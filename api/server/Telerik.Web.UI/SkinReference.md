@@ -11,7 +11,7 @@ Represents a reference to a given skin in its containing assembly/folder.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.SkinReference
 
 ## Properties

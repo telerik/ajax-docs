@@ -12,7 +12,7 @@ The base class for all Telerik.Web.UI.RadGrid column editors.
 
 * System.Object
 * System.Web.UI.Control
-* Telerik.Web.UI.GridColumnEditorBase
+* Telerik.Web.UI.GridColumnEditorBase : IGridColumnEditor
 
 ## Properties
 

@@ -12,9 +12,9 @@ Represents a Telerik.Web.UI.TreeListColumn extended to display an Image
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
-* Telerik.Web.UI.TreeListColumn
-* Telerik.Web.UI.TreeListImageColumn
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
+* Telerik.Web.UI.TreeListColumn : IComparable
+* Telerik.Web.UI.TreeListImageColumn : IDisposable
 
 ## Properties
 

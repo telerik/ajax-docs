@@ -11,7 +11,7 @@ EI Row collection
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.ExportInfrastructure.RowCollection
+* Telerik.Web.UI.ExportInfrastructure.RowCollection : IEnumerable, IEnumerable`1
 
 ## Properties
 

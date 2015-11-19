@@ -12,7 +12,7 @@ Represents an item which is rendered when Telerik.Web.UI.RadDataForm 's data sou
 
 * System.Object
 * System.Web.UI.Control
-* Telerik.Web.UI.RadDataFormItem
+* Telerik.Web.UI.RadDataFormItem : INamingContainer
 * Telerik.Web.UI.RadDataFormEmptyDataItem
 
 ## Properties

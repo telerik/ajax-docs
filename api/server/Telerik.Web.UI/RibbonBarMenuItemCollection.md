@@ -12,7 +12,7 @@ This  Class defines the RibbonBarMenuItem collection that inherits List collecti
 
 * System.Object
 * System.Collections.Generic.List`1
-* Telerik.Web.UI.RibbonBarMenuItemCollection
+* Telerik.Web.UI.RibbonBarMenuItemCollection : IRibbonBarSubComponent
 
 ## Properties
 

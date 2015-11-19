@@ -11,8 +11,8 @@ Series fill style
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Charting.StateManagedObject
-* Telerik.Charting.Styles.FillStyle
+* Telerik.Charting.StateManagedObject : IChartingStateManagedItem, IChartingStateManager, IDisposable
+* Telerik.Charting.Styles.FillStyle : ICloneable
 * Telerik.Charting.Styles.FillStyleSeries
 
 ## Properties

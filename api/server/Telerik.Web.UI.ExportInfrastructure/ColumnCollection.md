@@ -11,7 +11,7 @@ EI Column collection
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.ExportInfrastructure.ColumnCollection
+* Telerik.Web.UI.ExportInfrastructure.ColumnCollection : IEnumerable, IEnumerable`1
 
 ## Properties
 

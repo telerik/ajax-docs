@@ -15,7 +15,7 @@ Summary description for GridDataItem.
 * System.Web.UI.WebControls.WebControl
 * System.Web.UI.WebControls.TableRow
 * Telerik.Web.UI.GridTableRow
-* Telerik.Web.UI.GridItem
+* Telerik.Web.UI.GridItem : INamingContainer
 * Telerik.Web.UI.GridEditableItem
 * Telerik.Web.UI.GridDataItem
 

@@ -11,8 +11,8 @@ A databound column type in RadGrid that displays a RadRating control in view and
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.GridColumn
-* Telerik.Web.UI.GridEditableColumn
+* Telerik.Web.UI.GridColumn : IComparable, IStateManager
+* Telerik.Web.UI.GridEditableColumn : IGridDataColumn, IGridEditableColumn
 * Telerik.Web.UI.GridRatingColumn
 
 ## Properties

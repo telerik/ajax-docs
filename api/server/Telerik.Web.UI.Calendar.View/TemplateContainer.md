@@ -12,5 +12,5 @@ This is the control that is used to instantiate any required template.
 
 * System.Object
 * System.Web.UI.Control
-* Telerik.Web.UI.Calendar.View.TemplateContainer
+* Telerik.Web.UI.Calendar.View.TemplateContainer : INamingContainer
 

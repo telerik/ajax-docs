@@ -11,8 +11,8 @@ Defines the selectable options.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
-* Telerik.Web.UI.Diagram.Selectable
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
+* Telerik.Web.UI.Diagram.Selectable : IDefaultCheck
 
 ## Properties
 

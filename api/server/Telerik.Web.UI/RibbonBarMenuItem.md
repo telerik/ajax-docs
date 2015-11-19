@@ -13,7 +13,7 @@ This Class defines RibbonBarMenuItem.
 * System.Object
 * System.Web.UI.Control
 * System.Web.UI.WebControls.WebControl
-* Telerik.Web.UI.RibbonBarMenuItem
+* Telerik.Web.UI.RibbonBarMenuItem : IRibbonBarSubComponent, IXmlSerializable
 
 ## Properties
 

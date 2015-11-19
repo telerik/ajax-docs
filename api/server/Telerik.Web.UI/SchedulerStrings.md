@@ -11,7 +11,7 @@ The localization strings to be used in RadScheduler.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.LocalizationStrings
 * Telerik.Web.UI.SchedulerStrings
 

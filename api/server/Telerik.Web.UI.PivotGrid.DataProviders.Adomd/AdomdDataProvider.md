@@ -11,7 +11,7 @@ Provides Cube data access and operations using Adomd.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.PivotGrid.Core.DataProviders.DataProviderBase
+* Telerik.Web.UI.PivotGrid.Core.DataProviders.DataProviderBase : IDataProvider, INotifyPropertyChanged, ISupportInitialize
 * Telerik.Web.UI.PivotGrid.Core.Olap.OlapDataProvider
 * Telerik.Web.UI.PivotGrid.DataProviders.Adomd.AdomdDataProvider
 

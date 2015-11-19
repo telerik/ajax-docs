@@ -12,7 +12,7 @@ The serializer for the RotateOperation
 
 * System.Object
 * Telerik.Web.UI.ImageEditor.Serialization.ImageOperationSerializerBase
-* Telerik.Web.UI.ImageEditor.Serialization.RotateOperationSerializer
+* Telerik.Web.UI.ImageEditor.Serialization.RotateOperationSerializer : IImageOperationSerializer
 
 ## Properties
 

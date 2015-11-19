@@ -29,7 +29,7 @@ This column renderes a button of the specified ButtonType in each corresponding
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.GridColumn
+* Telerik.Web.UI.GridColumn : IComparable, IStateManager
 * Telerik.Web.UI.GridButtonColumn
 
 ## Properties

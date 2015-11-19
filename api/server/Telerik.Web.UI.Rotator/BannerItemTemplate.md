@@ -11,7 +11,7 @@ The default ItemTemplate used when using the RadRotator in AdRotator mode(for di
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.Rotator.BannerItemTemplate
+* Telerik.Web.UI.Rotator.BannerItemTemplate : IDisposable, ITemplate
 
 ## Methods
 

@@ -14,7 +14,7 @@ Provides data for Command events including CancelCommand, DeleteCommand,
 * System.Object
 * System.EventArgs
 * System.Web.UI.WebControls.CommandEventArgs
-* Telerik.Web.UI.GridCommandEventArgs
+* Telerik.Web.UI.GridCommandEventArgs : IGridCommandEvent
 
 ## Properties
 

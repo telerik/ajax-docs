@@ -29,7 +29,7 @@ GridColumnis the base abstract class that implements the
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.GridColumn
+* Telerik.Web.UI.GridColumn : IComparable, IStateManager
 
 ## Properties
 

@@ -11,8 +11,8 @@ Series color palette. Used for an automatic series items colors assignment
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Charting.StateManagedObject
-* Telerik.Charting.Palette
+* Telerik.Charting.StateManagedObject : IChartingStateManagedItem, IChartingStateManager, IDisposable
+* Telerik.Charting.Palette : ICloneable
 
 ## Properties
 

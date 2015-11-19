@@ -11,7 +11,7 @@ StateStorageProvider class utilizing HttpCookies as data repository
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.PersistenceFramework.BaseStateStorageProvider
+* Telerik.Web.UI.PersistenceFramework.BaseStateStorageProvider : IStateStorageProvider
 * Telerik.Web.UI.PersistenceFramework.CookieStateStorageProvider
 
 ## Properties

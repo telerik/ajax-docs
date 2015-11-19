@@ -11,7 +11,7 @@ The class defined the configuration used to parse the remote service response in
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.ClientDataSourceSchema
 
 ## Properties

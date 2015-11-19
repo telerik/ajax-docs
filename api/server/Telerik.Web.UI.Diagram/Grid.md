@@ -11,8 +11,8 @@ Each layout algorithm has a different set of parameters customizing the layout b
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
-* Telerik.Web.UI.Diagram.Grid
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
+* Telerik.Web.UI.Diagram.Grid : IDefaultCheck
 
 ## Properties
 

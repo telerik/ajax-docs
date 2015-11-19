@@ -11,7 +11,7 @@ This Classs gets or sets the Upload strings.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.LocalizationStrings
 * Telerik.Web.UI.UploadStrings
 

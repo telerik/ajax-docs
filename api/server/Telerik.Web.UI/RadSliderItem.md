@@ -13,7 +13,7 @@ Represents an item that is part of the RadSlider control using items collection
 * System.Object
 * System.Web.UI.Control
 * System.Web.UI.WebControls.WebControl
-* Telerik.Web.UI.ControlItem
+* Telerik.Web.UI.ControlItem : IMarkableStateManager, INamingContainer, IStateManager, IXmlSerializable
 * Telerik.Web.UI.RadSliderItem
 
 ## Properties

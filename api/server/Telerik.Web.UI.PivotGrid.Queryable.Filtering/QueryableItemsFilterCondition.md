@@ -12,7 +12,7 @@ Condition which is used to filter items based on two other conditions.
 
 * System.Object
 * Telerik.Web.UI.PivotGrid.Core.Cloneable
-* Telerik.Web.UI.PivotGrid.Core.SettingsNode
+* Telerik.Web.UI.PivotGrid.Core.SettingsNode : IEditable, INotifyPropertyChanged, IServiceProvider, ISupportInitialize
 * Telerik.Web.UI.PivotGrid.Core.Filtering.Condition
 * Telerik.Web.UI.PivotGrid.Queryable.Filtering.QueryableCondition
 * Telerik.Web.UI.PivotGrid.Queryable.Filtering.QueryableItemsFilterCondition

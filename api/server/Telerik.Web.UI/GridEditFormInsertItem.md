@@ -15,10 +15,10 @@ The item which will be used for inserting records when Telerik.Web.UI.GridTableV
 * System.Web.UI.WebControls.WebControl
 * System.Web.UI.WebControls.TableRow
 * Telerik.Web.UI.GridTableRow
-* Telerik.Web.UI.GridItem
+* Telerik.Web.UI.GridItem : INamingContainer
 * Telerik.Web.UI.GridEditableItem
 * Telerik.Web.UI.GridEditFormItem
-* Telerik.Web.UI.GridEditFormInsertItem
+* Telerik.Web.UI.GridEditFormInsertItem : IGridInsertItem
 
 ## Properties
 

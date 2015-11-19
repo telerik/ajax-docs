@@ -11,7 +11,7 @@ ExcelML table element
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.GridExcelBuilder.Abstract.ElementBase
+* Telerik.Web.UI.GridExcelBuilder.Abstract.ElementBase : IElement
 * Telerik.Web.UI.GridExcelBuilder.TableElement
 
 ## Properties

@@ -11,7 +11,7 @@ Defines the filtering properties for a single column of the AutoFilter range.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.GridExcelBuilder.Abstract.ElementBase
+* Telerik.Web.UI.GridExcelBuilder.Abstract.ElementBase : IElement
 * Telerik.Web.UI.GridExcelBuilder.AutoFilterColumnElement
 
 ## Properties

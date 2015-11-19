@@ -11,8 +11,8 @@ Defines the connection selection handles configuration.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
-* Telerik.Web.UI.Diagram.Handles
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
+* Telerik.Web.UI.Diagram.Handles : IDefaultCheck
 
 ## Properties
 

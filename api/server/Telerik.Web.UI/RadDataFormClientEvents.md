@@ -11,7 +11,7 @@ Class which holds properties for setting the Telerik.Web.UI.RadDataForm client-s
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.RadDataFormClientEvents
 
 ## Properties

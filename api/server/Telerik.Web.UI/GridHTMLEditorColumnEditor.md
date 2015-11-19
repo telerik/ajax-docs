@@ -12,7 +12,7 @@ The editor for Telerik.Web.UI.GridHTMLEditorColumn column.
 
 * System.Object
 * System.Web.UI.Control
-* Telerik.Web.UI.GridColumnEditorBase
+* Telerik.Web.UI.GridColumnEditorBase : IGridColumnEditor
 * Telerik.Web.UI.GridTextColumnEditor
 * Telerik.Web.UI.GridHTMLEditorColumnEditor
 

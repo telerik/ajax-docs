@@ -22,8 +22,8 @@ Each cell in a GridBinaryImageColumn contains an image streamed from a binary im
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.GridColumn
-* Telerik.Web.UI.GridEditableColumn
+* Telerik.Web.UI.GridColumn : IComparable, IStateManager
+* Telerik.Web.UI.GridEditableColumn : IGridDataColumn, IGridEditableColumn
 * Telerik.Web.UI.GridBinaryImageColumn
 
 ## Properties

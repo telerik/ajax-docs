@@ -11,7 +11,7 @@ Represents the appointment data for an appointment such as Start, End, Subject, 
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.AppointmentData
+* Telerik.Web.UI.AppointmentData : IAppointmentData
 
 ## Properties
 

@@ -12,8 +12,8 @@ Represents an individual data item in a Telerik.Web.UI.RadDataForm control.
 
 * System.Object
 * System.Web.UI.Control
-* Telerik.Web.UI.RadDataFormItem
-* Telerik.Web.UI.RadDataFormDataItem
+* Telerik.Web.UI.RadDataFormItem : INamingContainer
+* Telerik.Web.UI.RadDataFormDataItem : IDataItemContainer
 
 ## Properties
 

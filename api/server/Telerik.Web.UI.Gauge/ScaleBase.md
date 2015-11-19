@@ -11,7 +11,7 @@ The base class that should be inherited for implementing Gauge scale.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.Gauge.ScaleBase
 
 ## Properties

@@ -10,8 +10,8 @@ description: Telerik.Pdf.PdfGoToRemote
 
 * System.Object
 * Telerik.Pdf.PdfObject
-* Telerik.Pdf.PdfDictionary
-* Telerik.Pdf.PdfGoToRemote
+* Telerik.Pdf.PdfDictionary : IEnumerable
+* Telerik.Pdf.PdfGoToRemote : IPdfAction
 
 ## Properties
 

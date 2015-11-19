@@ -14,7 +14,7 @@ This Class defines the Resource Collection that inherits StronglyTypedStateManag
 * System.Object
 * System.Web.UI.StateManagedCollection
 * Telerik.Web.StronglyTypedStateManagedCollection`1
-* Telerik.Web.UI.ResourceCollection
+* Telerik.Web.UI.ResourceCollection : IEnumerable`1
 
 ## Methods
 

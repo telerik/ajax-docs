@@ -13,7 +13,7 @@ Base class for all ViewModel classes.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.PivotGrid.Core.ViewModelBase
+* Telerik.Web.UI.PivotGrid.Core.ViewModelBase : IDisposable, INotifyPropertyChanged
 
 ## Methods
 

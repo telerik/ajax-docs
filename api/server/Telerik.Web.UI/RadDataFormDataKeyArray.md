@@ -11,7 +11,7 @@ Class representing a collection of Telerik.Web.UI.RadDataForm data key values.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.RadDataFormDataKeyArray
+* Telerik.Web.UI.RadDataFormDataKeyArray : ICollection, IEnumerable, IStateManager
 
 ## Properties
 

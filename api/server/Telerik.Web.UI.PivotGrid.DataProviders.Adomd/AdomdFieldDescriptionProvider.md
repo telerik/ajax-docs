@@ -11,7 +11,7 @@ An Telerik.Web.UI.PivotGrid.Core.Fields.IFieldDescriptionProvider implementation
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.PivotGrid.Core.Fields.FieldDescriptionProviderBase
+* Telerik.Web.UI.PivotGrid.Core.Fields.FieldDescriptionProviderBase : IFieldDescriptionProvider
 * Telerik.Web.UI.PivotGrid.Core.Olap.OlapFieldDescriptionsProviderBase
 * Telerik.Web.UI.PivotGrid.DataProviders.Adomd.AdomdFieldDescriptionProvider
 

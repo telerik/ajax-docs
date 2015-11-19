@@ -11,7 +11,7 @@ EI ExportStyle object
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.ExportInfrastructure.ExportStyle
+* Telerik.Web.UI.ExportInfrastructure.ExportStyle : IEquatable`1
 
 ## Properties
 

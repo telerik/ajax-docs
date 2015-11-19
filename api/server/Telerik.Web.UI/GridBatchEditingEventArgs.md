@@ -12,7 +12,7 @@ The event arguments passed when the E:Telerik.Web.UI.RadGrid.BatchEditCommand ev
 
 * System.Object
 * System.EventArgs
-* Telerik.Web.UI.GridBatchEditingEventArgs
+* Telerik.Web.UI.GridBatchEditingEventArgs : IGridCommandEvent
 
 ## Properties
 

@@ -11,8 +11,8 @@ Defines the shapes content settings.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
-* Telerik.Web.UI.Diagram.ShapeContent
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
+* Telerik.Web.UI.Diagram.ShapeContent : IDefaultCheck
 
 ## Properties
 

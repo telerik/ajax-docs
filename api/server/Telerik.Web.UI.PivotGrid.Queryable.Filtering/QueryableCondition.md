@@ -12,7 +12,7 @@ Base class used in queryable filtering.
 
 * System.Object
 * Telerik.Web.UI.PivotGrid.Core.Cloneable
-* Telerik.Web.UI.PivotGrid.Core.SettingsNode
+* Telerik.Web.UI.PivotGrid.Core.SettingsNode : IEditable, INotifyPropertyChanged, IServiceProvider, ISupportInitialize
 * Telerik.Web.UI.PivotGrid.Core.Filtering.Condition
 * Telerik.Web.UI.PivotGrid.Queryable.Filtering.QueryableCondition
 

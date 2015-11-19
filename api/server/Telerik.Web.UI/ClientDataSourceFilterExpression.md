@@ -12,7 +12,7 @@ This class defines the FilterExpression for
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.ClientDataSourceFilterBase
 * Telerik.Web.UI.ClientDataSourceFilterExpression
 

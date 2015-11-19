@@ -9,7 +9,7 @@ description: Telerik.Pdf.Filter.Ascii85Filter
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Pdf.Filter.Ascii85Filter
+* Telerik.Pdf.Filter.Ascii85Filter : IFilter
 
 ## Properties
 

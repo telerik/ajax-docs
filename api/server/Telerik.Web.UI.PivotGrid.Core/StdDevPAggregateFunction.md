@@ -12,8 +12,8 @@ Estimates the standard deviation of a population based on the entire population.
 
 * System.Object
 * Telerik.Web.UI.PivotGrid.Core.Cloneable
-* Telerik.Web.UI.PivotGrid.Core.SettingsNode
-* Telerik.Web.UI.PivotGrid.Core.Aggregates.AggregateFunction
+* Telerik.Web.UI.PivotGrid.Core.SettingsNode : IEditable, INotifyPropertyChanged, IServiceProvider, ISupportInitialize
+* Telerik.Web.UI.PivotGrid.Core.Aggregates.AggregateFunction : INamed
 * Telerik.Web.UI.PivotGrid.Core.StatisticalFormatAggregateFunction
 * Telerik.Web.UI.PivotGrid.Core.StdDevPAggregateFunction
 

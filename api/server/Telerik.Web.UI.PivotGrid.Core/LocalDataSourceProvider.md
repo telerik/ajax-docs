@@ -11,7 +11,7 @@ Provides a pivot grouping access to local source such as an IList of instances o
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.PivotGrid.Core.DataProviders.DataProviderBase
+* Telerik.Web.UI.PivotGrid.Core.DataProviders.DataProviderBase : IDataProvider, INotifyPropertyChanged, ISupportInitialize
 * Telerik.Web.UI.PivotGrid.Core.LocalDataSourceProvider
 
 ## Properties

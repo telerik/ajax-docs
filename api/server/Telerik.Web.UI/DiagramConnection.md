@@ -11,7 +11,7 @@ Defines the connections configuration.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.DiagramConnection
 
 ## Properties

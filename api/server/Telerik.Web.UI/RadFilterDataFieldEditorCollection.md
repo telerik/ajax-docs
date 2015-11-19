@@ -11,7 +11,7 @@ Represents a collection of field editors in Telerik.Web.UI.RadFilter .
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.RadFilterDataFieldEditorCollection
+* Telerik.Web.UI.RadFilterDataFieldEditorCollection : ICollection, ICollection`1, IEnumerable, IEnumerable`1, IList, IList`1, IStateManager
 
 ## Properties
 

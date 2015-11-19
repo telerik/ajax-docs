@@ -25,7 +25,7 @@ The RadTabCollectionclass represents a collection of
 * System.Object
 * System.Web.UI.StateManagedCollection
 * Telerik.Web.UI.ControlItemCollection
-* Telerik.Web.UI.RadTabCollection
+* Telerik.Web.UI.RadTabCollection : IEnumerable`1
 
 ## Properties
 

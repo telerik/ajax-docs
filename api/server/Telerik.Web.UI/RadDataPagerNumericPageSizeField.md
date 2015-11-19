@@ -12,7 +12,7 @@ Telerik.Web.UI.RadDataPager Telerik.Web.UI.RadDataPagerField which contains page
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.RadDataPagerField
 * Telerik.Web.UI.RadDataPagerNumericPageSizeField
 

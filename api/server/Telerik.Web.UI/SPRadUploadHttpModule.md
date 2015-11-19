@@ -11,7 +11,7 @@ This Class defines the SPRadUploadHttpModule that inherits the RadUploadHttpModu
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.RadUploadHttpModule
+* Telerik.Web.UI.RadUploadHttpModule : IHttpModule
 * Telerik.Web.UI.SPRadUploadHttpModule
 
 ## Properties

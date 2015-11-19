@@ -11,8 +11,8 @@ The default configuration for Bing (tm) tile layers.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
-* Telerik.Web.UI.Map.Bing
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
+* Telerik.Web.UI.Map.Bing : IDefaultCheck
 
 ## Properties
 

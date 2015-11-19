@@ -12,7 +12,7 @@ Used for Telerik.Web.UI.PivotGrid.Core.IGroup comparison based on their grand to
 
 * System.Object
 * Telerik.Web.UI.PivotGrid.Core.Cloneable
-* Telerik.Web.UI.PivotGrid.Core.SettingsNode
+* Telerik.Web.UI.PivotGrid.Core.SettingsNode : IEditable, INotifyPropertyChanged, IServiceProvider, ISupportInitialize
 * Telerik.Web.UI.PivotGrid.Core.GroupComparer
 * Telerik.Web.UI.PivotGrid.Core.GrandTotalComparer
 

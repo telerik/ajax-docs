@@ -11,10 +11,10 @@ Represents a filter expression that takes a single value for filtering.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.RadFilterExpression
 * Telerik.Web.UI.RadFilterNonGroupExpression
-* Telerik.Web.UI.RadFilterSingleValueExpression`1
+* Telerik.Web.UI.RadFilterSingleValueExpression`1 : IRadFilterValueExpression
 
 ## Properties
 

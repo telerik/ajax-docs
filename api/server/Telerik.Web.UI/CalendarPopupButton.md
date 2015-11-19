@@ -14,7 +14,7 @@ The control that toggles the calendar popup.
 * System.Object
 * System.Web.UI.Control
 * System.Web.UI.WebControls.WebControl
-* Telerik.Web.UI.CalendarPopupButton
+* Telerik.Web.UI.CalendarPopupButton : ICustomTypeDescriptor
 
 ## Properties
 

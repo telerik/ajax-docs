@@ -13,8 +13,8 @@ Base class based on the PropertyBag implementation, which descends from WebContr
 * System.Object
 * System.Web.UI.Control
 * System.Web.UI.WebControls.WebControl
-* Telerik.Web.UI.RadWebControl
-* Telerik.Web.UI.Calendar.Persistence.PropertiesControl
+* Telerik.Web.UI.RadWebControl : IControl, IControlResolver, IPostBackDataHandler, IScriptControl, ISkinnableControl
+* Telerik.Web.UI.Calendar.Persistence.PropertiesControl : IStateManager
 
 ## Properties
 

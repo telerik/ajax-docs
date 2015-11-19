@@ -11,7 +11,7 @@ Represents an object used to manage the keyboard navigation of the FileExplorer 
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.FileExplorer.FileExplorerShortcut
 
 ## Properties

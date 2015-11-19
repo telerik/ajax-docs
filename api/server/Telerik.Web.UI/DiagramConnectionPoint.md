@@ -11,7 +11,7 @@ Sets the intermediate points (in global coordinates) of the connection. It's imp
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.DiagramConnectionPoint
 
 ## Properties

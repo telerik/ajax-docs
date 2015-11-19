@@ -11,7 +11,7 @@ This class can be used to initiate a spell check request using the RadSpell dict
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.SpellChecker
+* Telerik.Web.UI.SpellChecker : IDisposable
 
 ## Properties
 

@@ -13,7 +13,7 @@ Slider field which provides interface for
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.RadDataPagerField
 * Telerik.Web.UI.RadDataPagerSliderField
 

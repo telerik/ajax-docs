@@ -16,5 +16,5 @@ Base control used to contain a template. Ensures that if the template
 * System.Web.UI.Control
 * System.Web.UI.WebControls.WebControl
 * System.Web.UI.WebControls.Panel
-* Telerik.Web.UI.SingleTemplateContainer
+* Telerik.Web.UI.SingleTemplateContainer : INamingContainer
 

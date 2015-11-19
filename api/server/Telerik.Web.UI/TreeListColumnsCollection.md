@@ -11,7 +11,7 @@ A class representing a collection of RadTreeListColumn objects.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.TreeListColumnsCollection
+* Telerik.Web.UI.TreeListColumnsCollection : ICollection, ICollection`1, IEnumerable, IEnumerable`1, IList, IList`1, IStateManager
 
 ## Properties
 

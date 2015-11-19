@@ -15,8 +15,8 @@ GridCalculatedColumn displays a value that is calculated based on one or more fi
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.GridColumn
-* Telerik.Web.UI.GridCalculatedColumn
+* Telerik.Web.UI.GridColumn : IComparable, IStateManager
+* Telerik.Web.UI.GridCalculatedColumn : IGridDataColumn
 
 ## Properties
 

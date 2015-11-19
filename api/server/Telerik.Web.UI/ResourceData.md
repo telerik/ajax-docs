@@ -11,7 +11,7 @@ A resource data class.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.ResourceData
+* Telerik.Web.UI.ResourceData : IResourceData
 
 ## Properties
 

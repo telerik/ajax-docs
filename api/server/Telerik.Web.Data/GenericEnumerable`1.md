@@ -11,5 +11,5 @@ This type is used internally by the data binding infrastructure and is not inten
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.Data.GenericEnumerable`1
+* Telerik.Web.Data.GenericEnumerable`1 : IEnumerable, IEnumerable`1
 

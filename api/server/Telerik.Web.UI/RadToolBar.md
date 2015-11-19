@@ -13,9 +13,9 @@ description: Telerik.Web.UI.RadToolBar
 * System.Web.UI.WebControls.WebControl
 * System.Web.UI.WebControls.BaseDataBoundControl
 * System.Web.UI.WebControls.DataBoundControl
-* Telerik.Web.UI.RadDataBoundControl
-* Telerik.Web.UI.ControlItemContainer
-* Telerik.Web.UI.RadToolBar
+* Telerik.Web.UI.RadDataBoundControl : IControl, IControlResolver, IFeatureGroup, IPostBackDataHandler, IScriptControl, ISkinnableControl
+* Telerik.Web.UI.ControlItemContainer : IControlItemContainer, INamingContainer, IXmlSerializable
+* Telerik.Web.UI.RadToolBar : IPostBackEventHandler, IRadToolBarItemContainer
 
 ## Properties
 

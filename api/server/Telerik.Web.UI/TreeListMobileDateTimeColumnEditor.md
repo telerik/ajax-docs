@@ -11,7 +11,7 @@ The editor for the Telerik.Web.UI.GridDateTimeColumn column when grid's RenderMo
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.TreeListColumnEditor
+* Telerik.Web.UI.TreeListColumnEditor : ITreeListColumnEditor
 * Telerik.Web.UI.TreeListMobileColumnEditorBase
 * Telerik.Web.UI.TreeListMobileDateTimeColumnEditor
 

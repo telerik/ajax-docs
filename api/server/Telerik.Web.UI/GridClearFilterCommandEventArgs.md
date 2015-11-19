@@ -13,7 +13,7 @@ The event arguments passed when Telerik.Web.UI.RadGrid clears a filter.
 * System.Object
 * System.EventArgs
 * System.Web.UI.WebControls.CommandEventArgs
-* Telerik.Web.UI.GridCommandEventArgs
+* Telerik.Web.UI.GridCommandEventArgs : IGridCommandEvent
 * Telerik.Web.UI.GridClearFilterCommandEventArgs
 
 ## Properties

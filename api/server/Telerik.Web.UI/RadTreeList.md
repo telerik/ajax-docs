@@ -16,8 +16,8 @@ Telerik.Web.UI.RadTreeList is a data visualization control used for hierarchical
 * System.Web.UI.WebControls.BaseDataBoundControl
 * System.Web.UI.WebControls.DataBoundControl
 * System.Web.UI.WebControls.CompositeDataBoundControl
-* Telerik.Web.UI.RadCompositeDataBoundControl
-* Telerik.Web.UI.RadTreeList
+* Telerik.Web.UI.RadCompositeDataBoundControl : IControl, IControlResolver, IFeatureGroup, IPostBackDataHandler, IScriptControl, ISkinnableControl
+* Telerik.Web.UI.RadTreeList : IPostBackEventHandler
 
 ## Properties
 

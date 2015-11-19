@@ -11,8 +11,8 @@ The base class that represents all columns in Telerik.Web.UI.RadTreeList .
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
-* Telerik.Web.UI.TreeListColumn
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
+* Telerik.Web.UI.TreeListColumn : IComparable
 
 ## Properties
 

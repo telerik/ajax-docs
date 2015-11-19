@@ -11,7 +11,7 @@ Represents the position of an item in the RadTreeList hierarchy.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.TreeListHierarchyIndex
+* Telerik.Web.UI.TreeListHierarchyIndex : IEquatable`1
 
 ## Properties
 

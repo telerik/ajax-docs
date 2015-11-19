@@ -15,7 +15,7 @@ It defines the base properties for controls that can edit boolean values.
 
 * System.Object
 * System.Web.UI.Control
-* Telerik.Web.UI.GridColumnEditorBase
+* Telerik.Web.UI.GridColumnEditorBase : IGridColumnEditor
 * Telerik.Web.UI.GridBoolColumnEditor
 
 ## Properties

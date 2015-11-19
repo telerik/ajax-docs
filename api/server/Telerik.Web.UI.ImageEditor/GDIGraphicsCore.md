@@ -11,7 +11,7 @@ A straight-forward implementation of the IGraphicsCore using GDI+
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.ImageEditor.GDIGraphicsCore
+* Telerik.Web.UI.ImageEditor.GDIGraphicsCore : IGraphicsCore
 
 ## Methods
 

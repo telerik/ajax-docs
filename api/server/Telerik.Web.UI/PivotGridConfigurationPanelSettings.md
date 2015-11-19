@@ -11,7 +11,7 @@ The settings are associated with Telerik.Web.UI.PivotGridConfigurationPanel and 
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.PivotGridConfigurationPanelSettings
 
 ## Properties

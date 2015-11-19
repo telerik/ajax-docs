@@ -9,8 +9,8 @@ description: Telerik.Web.UI.EditorToolBase
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
-* Telerik.Web.UI.EditorToolBase
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
+* Telerik.Web.UI.EditorToolBase : IAttributeAccessor
 
 ## Properties
 

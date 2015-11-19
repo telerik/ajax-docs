@@ -11,8 +11,8 @@ The text or a function which result will be shown within the tooltip. By default
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
-* Telerik.Web.UI.Map.Content
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
+* Telerik.Web.UI.Map.Content : IDefaultCheck
 
 ## Properties
 

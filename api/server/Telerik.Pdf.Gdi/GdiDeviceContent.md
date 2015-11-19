@@ -11,7 +11,7 @@ A very lightweight wrapper around a Win32 device context
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Pdf.Gdi.GdiDeviceContent
+* Telerik.Pdf.Gdi.GdiDeviceContent : IDisposable
 
 ## Properties
 

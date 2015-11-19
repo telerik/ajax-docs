@@ -11,7 +11,7 @@ EI ExportStructure object
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.ExportInfrastructure.ExportStructure
+* Telerik.Web.UI.ExportInfrastructure.ExportStructure : IDisposable
 
 ## Properties
 

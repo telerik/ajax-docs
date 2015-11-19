@@ -11,7 +11,7 @@ Intended for internal use only
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.RadListViewFilterExpressionLogicalBuilder
+* Telerik.Web.UI.RadListViewFilterExpressionLogicalBuilder : IHideObjectMembers
 
 ## Methods
 

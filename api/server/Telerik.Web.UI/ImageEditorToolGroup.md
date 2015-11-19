@@ -11,7 +11,7 @@ Represents logical group of ImageEditorTool objects.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.ImageEditorToolGroup
 
 ## Properties

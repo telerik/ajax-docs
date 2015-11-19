@@ -12,7 +12,7 @@ The serializer for the ResizeOperation
 
 * System.Object
 * Telerik.Web.UI.ImageEditor.Serialization.ImageOperationSerializerBase
-* Telerik.Web.UI.ImageEditor.Serialization.ResizeOperationSerializer
+* Telerik.Web.UI.ImageEditor.Serialization.ResizeOperationSerializer : IImageOperationSerializer
 
 ## Properties
 

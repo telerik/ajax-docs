@@ -11,7 +11,7 @@ This class gets and sets the localization properties in the buttons that are par
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.LocalizationStrings
 * Telerik.Web.UI.DropDownTreeButtons
 

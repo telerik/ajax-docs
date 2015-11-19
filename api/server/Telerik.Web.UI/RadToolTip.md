@@ -13,7 +13,7 @@ RadToolTip class
 * System.Object
 * System.Web.UI.Control
 * System.Web.UI.WebControls.WebControl
-* Telerik.Web.UI.RadWebControl
+* Telerik.Web.UI.RadWebControl : IControl, IControlResolver, IPostBackDataHandler, IScriptControl, ISkinnableControl
 * Telerik.Web.UI.RadToolTipBase
 * Telerik.Web.UI.RadToolTip
 

@@ -11,7 +11,7 @@ Collection of RowElement objects
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.GridExcelBuilder.RowsCollection
+* Telerik.Web.UI.GridExcelBuilder.RowsCollection : ICollection, IEnumerable, IList, IRowsCollection
 
 ## Properties
 

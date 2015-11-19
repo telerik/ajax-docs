@@ -12,7 +12,7 @@ The WebServiceAppointmentController provides a facade over a Telerik.Web.UI.Sche
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.WebServiceAppointmentController
+* Telerik.Web.UI.WebServiceAppointmentController : IDisposable
 
 ## Properties
 

@@ -13,7 +13,7 @@ This Class defines RibbonBarApplicationSplitMenuItem that inherits RibbonBarAppl
 * System.Object
 * System.Web.UI.Control
 * System.Web.UI.WebControls.WebControl
-* Telerik.Web.UI.RibbonBarApplicationMenuItemBase
+* Telerik.Web.UI.RibbonBarApplicationMenuItemBase : IXmlSerializable
 * Telerik.Web.UI.RibbonBarApplicationSplitMenuItem
 
 ## Properties

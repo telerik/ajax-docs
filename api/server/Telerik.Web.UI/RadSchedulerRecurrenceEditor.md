@@ -13,9 +13,9 @@ This Class defines RadSchedulerRecurrenceEditor control that inherits Recurrence
 * System.Object
 * System.Web.UI.Control
 * System.Web.UI.WebControls.WebControl
-* Telerik.Web.UI.RadWebControl
-* Telerik.Web.UI.RecurrenceEditor
-* Telerik.Web.UI.RadSchedulerRecurrenceEditor
+* Telerik.Web.UI.RadWebControl : IControl, IControlResolver, IPostBackDataHandler, IScriptControl, ISkinnableControl
+* Telerik.Web.UI.RecurrenceEditor : IPostBackEventHandler
+* Telerik.Web.UI.RadSchedulerRecurrenceEditor : INamingContainer
 
 ## Properties
 

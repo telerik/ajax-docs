@@ -11,7 +11,7 @@ EI Cell Collection
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.ExportInfrastructure.CellCollection
+* Telerik.Web.UI.ExportInfrastructure.CellCollection : IEnumerable, IEnumerable`1
 
 ## Properties
 

@@ -11,7 +11,7 @@ Creates an item which is used in a box plot.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.HtmlChart.PlotArea.Series.SeriesItems.SeriesItemBase
 * Telerik.Web.UI.BoxPlotSeriesItem
 

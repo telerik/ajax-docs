@@ -11,7 +11,7 @@ Represents an editor for DateTime values, used as the default editor for the Tre
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.TreeListColumnEditor
+* Telerik.Web.UI.TreeListColumnEditor : ITreeListColumnEditor
 * Telerik.Web.UI.TreeListDateTimeColumnEditor
 
 ## Properties

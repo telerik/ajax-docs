@@ -11,7 +11,7 @@ A base class for various implementations of Telerik.Web.UI.PivotGrid.Core.Fields
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.PivotGrid.Core.Fields.FieldDescriptionProviderBase
+* Telerik.Web.UI.PivotGrid.Core.Fields.FieldDescriptionProviderBase : IFieldDescriptionProvider
 
 ## Properties
 

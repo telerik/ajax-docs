@@ -12,9 +12,9 @@ Describes the aggregation of items using a property name as the criteria.
 
 * System.Object
 * Telerik.Web.UI.PivotGrid.Core.Cloneable
-* Telerik.Web.UI.PivotGrid.Core.SettingsNode
-* Telerik.Web.UI.PivotGrid.Core.DescriptionBase
-* Telerik.Web.UI.PivotGrid.Core.AggregateDescriptionBase
+* Telerik.Web.UI.PivotGrid.Core.SettingsNode : IEditable, INotifyPropertyChanged, IServiceProvider, ISupportInitialize
+* Telerik.Web.UI.PivotGrid.Core.DescriptionBase : IDescriptionBase, INamed
+* Telerik.Web.UI.PivotGrid.Core.AggregateDescriptionBase : IAggregateDescription
 * Telerik.Web.UI.PivotGrid.Core.LocalAggregateDescription
 * Telerik.Web.UI.PivotGrid.Core.PropertyAggregateDescriptionBase
 * Telerik.Web.UI.PivotGrid.Core.PropertyAggregateDescription

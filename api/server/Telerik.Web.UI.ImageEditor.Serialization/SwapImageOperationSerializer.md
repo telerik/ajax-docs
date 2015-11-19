@@ -12,7 +12,7 @@ The serializer for the SwapImageOperation
 
 * System.Object
 * Telerik.Web.UI.ImageEditor.Serialization.ImageOperationSerializerBase
-* Telerik.Web.UI.ImageEditor.Serialization.SwapImageOperationSerializer
+* Telerik.Web.UI.ImageEditor.Serialization.SwapImageOperationSerializer : IImageOperationSerializer
 
 ## Properties
 

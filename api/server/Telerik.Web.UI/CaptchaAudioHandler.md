@@ -12,7 +12,7 @@ Captcha audio stream HttpModule. "Speaks" the Captcha code,
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.CaptchaAudioHandler
+* Telerik.Web.UI.CaptchaAudioHandler : IHttpHandler
 
 ## Properties
 

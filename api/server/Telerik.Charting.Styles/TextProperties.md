@@ -11,8 +11,8 @@ Base text appearance settings class (Font, Color)
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Charting.StateManagedObject
-* Telerik.Charting.Styles.TextProperties
+* Telerik.Charting.StateManagedObject : IChartingStateManagedItem, IChartingStateManager, IDisposable
+* Telerik.Charting.Styles.TextProperties : ICloneable
 
 ## Properties
 

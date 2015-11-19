@@ -11,7 +11,7 @@ The base class for the RadSocialShare buttons.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.RadSocialButtonBase
 
 ## Properties

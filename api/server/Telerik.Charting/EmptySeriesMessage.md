@@ -12,10 +12,10 @@ Empty series message
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Charting.StateManagedObject
-* Telerik.Charting.RenderedObject
+* Telerik.Charting.StateManagedObject : IChartingStateManagedItem, IChartingStateManager, IDisposable
+* Telerik.Charting.RenderedObject : IOrdering
 * Telerik.Charting.LayoutElement
-* Telerik.Charting.ChartBaseLabel
+* Telerik.Charting.ChartBaseLabel : IActiveRegion, ICloneable, IContainer
 * Telerik.Charting.ChartLabel
 * Telerik.Charting.EmptySeriesMessage
 

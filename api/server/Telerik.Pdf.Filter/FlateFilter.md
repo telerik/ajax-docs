@@ -9,7 +9,7 @@ description: Telerik.Pdf.Filter.FlateFilter
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Pdf.Filter.FlateFilter
+* Telerik.Pdf.Filter.FlateFilter : IFilter
 
 ## Properties
 

@@ -12,7 +12,7 @@ A collection that stores Telerik.Web.UI.GridRelationFields objects.
 
 * System.Object
 * System.Collections.CollectionBase
-* Telerik.Web.UI.GridTableViewRelation
+* Telerik.Web.UI.GridTableViewRelation : IStateManager
 
 ## Properties
 

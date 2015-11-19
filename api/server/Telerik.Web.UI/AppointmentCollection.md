@@ -12,7 +12,7 @@ A collection of appointments.
 
 * System.Object
 * System.Web.UI.StateManagedCollection
-* Telerik.Web.UI.AppointmentCollection
+* Telerik.Web.UI.AppointmentCollection : IEnumerable`1
 
 ## Properties
 

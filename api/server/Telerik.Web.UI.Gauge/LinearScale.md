@@ -11,7 +11,7 @@ Represents the scale of a Linear Gauge.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.Gauge.ScaleBase
 * Telerik.Web.UI.Gauge.LinearScale
 

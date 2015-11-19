@@ -12,7 +12,7 @@ This class represents collection of Telerik.Web.UI.Gantt.IResource
 
 * System.Object
 * System.Web.UI.StateManagedCollection
-* Telerik.Web.UI.Gantt.BaseCollection`1
+* Telerik.Web.UI.Gantt.BaseCollection`1 : IEnumerable`1
 * Telerik.Web.UI.Gantt.ResourceCollection
 
 ## Properties

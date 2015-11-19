@@ -11,7 +11,7 @@ This Class defines Model of the Schema of the Telerik.Web.UI.RadClientDataSource
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.ClientDataSourceModel
 
 ## Properties

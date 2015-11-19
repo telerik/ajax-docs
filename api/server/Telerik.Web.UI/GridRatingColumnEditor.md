@@ -12,7 +12,7 @@ The editor used for Telerik.Web.UI.GridRatingColumn .
 
 * System.Object
 * System.Web.UI.Control
-* Telerik.Web.UI.GridColumnEditorBase
+* Telerik.Web.UI.GridColumnEditorBase : IGridColumnEditor
 * Telerik.Web.UI.GridRatingColumnEditor
 
 ## Properties

@@ -13,7 +13,7 @@ When Items Drag-and-Drop is enabled in RadGrid, defining a GridDragDropColumn
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.GridColumn
+* Telerik.Web.UI.GridColumn : IComparable, IStateManager
 * Telerik.Web.UI.GridDragDropColumn
 
 ## Properties

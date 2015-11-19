@@ -13,10 +13,10 @@ This partial class RibbonBarMenu that inherits RibbonBarMenuBaseItem.
 * System.Object
 * System.Web.UI.Control
 * System.Web.UI.WebControls.WebControl
-* Telerik.Web.UI.RibbonBarItem
+* Telerik.Web.UI.RibbonBarItem : IRibbonBarSubComponent
 * Telerik.Web.UI.RibbonBarClickableItem
 * Telerik.Web.UI.RibbonBarMenuBaseItem
-* Telerik.Web.UI.RibbonBarMenu
+* Telerik.Web.UI.RibbonBarMenu : IXmlSerializable
 
 ## Properties
 

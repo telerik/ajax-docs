@@ -14,7 +14,7 @@ Allow the transfer of data files using the W3C's
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.Editor.DialogControls.HTTPSend
+* Telerik.Web.UI.Editor.DialogControls.HTTPSend : IDisposable
 
 ## Properties
 

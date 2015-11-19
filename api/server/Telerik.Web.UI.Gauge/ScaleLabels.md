@@ -11,7 +11,7 @@ Represents a class used for configuring the labels of the Gauge scale.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.Gauge.ScaleLabels
 
 ## Properties

@@ -11,8 +11,8 @@ Defines the stroke configuration.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
-* Telerik.Web.UI.Diagram.ConnectionStroke
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
+* Telerik.Web.UI.Diagram.ConnectionStroke : IDefaultCheck
 
 ## Properties
 

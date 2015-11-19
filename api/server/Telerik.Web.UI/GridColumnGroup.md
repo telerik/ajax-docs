@@ -13,8 +13,8 @@ The main class representing MultiColumn Headers in Telerik.Web.UI.RadGrid .
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
-* Telerik.Web.UI.GridColumnGroup
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
+* Telerik.Web.UI.GridColumnGroup : IComparable, IDisposable
 
 ## Properties
 

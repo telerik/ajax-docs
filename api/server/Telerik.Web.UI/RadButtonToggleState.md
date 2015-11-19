@@ -11,7 +11,7 @@ This class represents a single Telerik.Web.UI.RadButton RadButtonToggleState whe
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.RadButtonToggleState
 
 ## Properties

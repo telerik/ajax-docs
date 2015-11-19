@@ -12,7 +12,7 @@ Class tha implements data editing of a GridBoundColumn with a single TextBox con
 
 * System.Object
 * System.Web.UI.Control
-* Telerik.Web.UI.GridColumnEditorBase
+* Telerik.Web.UI.GridColumnEditorBase : IGridColumnEditor
 * Telerik.Web.UI.GridTextColumnEditor
 * Telerik.Web.UI.GridTextBoxColumnEditor
 

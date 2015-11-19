@@ -11,7 +11,7 @@ Contains settings for TreeList resizing.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.TreeListResizing
 
 ## Properties

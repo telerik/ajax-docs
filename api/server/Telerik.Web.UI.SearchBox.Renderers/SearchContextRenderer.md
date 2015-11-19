@@ -11,5 +11,5 @@ For internal use only.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.SearchBox.Renderers.SearchContextRenderer
+* Telerik.Web.UI.SearchBox.Renderers.SearchContextRenderer : IRenderer
 

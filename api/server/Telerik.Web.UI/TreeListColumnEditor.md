@@ -11,7 +11,7 @@ Represents the base class of all column editors in Telerik.Web.UI.RadTreeList .
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.TreeListColumnEditor
+* Telerik.Web.UI.TreeListColumnEditor : ITreeListColumnEditor
 
 ## Properties
 

@@ -12,7 +12,7 @@ Captcha image stream HttpModule. Retrieves RadCaptcha objects from cache (or ses
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.CaptchaImageHandler
+* Telerik.Web.UI.CaptchaImageHandler : IHttpHandler
 
 ## Properties
 

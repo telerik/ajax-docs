@@ -11,7 +11,7 @@ The RadColorPickerLocalizationclass defines the localization strings for the Rad
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.RadColorPickerLocalization
 
 ## Properties

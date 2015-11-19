@@ -11,7 +11,7 @@ EI Image collection
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.ExportInfrastructure.ImageCollection
+* Telerik.Web.UI.ExportInfrastructure.ImageCollection : IEnumerable, IEnumerable`1
 
 ## Properties
 

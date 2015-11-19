@@ -11,7 +11,7 @@ Represents the settings of the PopUp edit form in RadTreeList.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.TreeListPopUpSettings
 
 ## Properties

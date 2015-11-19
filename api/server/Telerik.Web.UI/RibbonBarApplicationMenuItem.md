@@ -13,7 +13,7 @@ This Class defines RibbonBarApplicationMenuItem that inherits WebControl and IRi
 * System.Object
 * System.Web.UI.Control
 * System.Web.UI.WebControls.WebControl
-* Telerik.Web.UI.RibbonBarApplicationMenuItemBase
+* Telerik.Web.UI.RibbonBarApplicationMenuItemBase : IXmlSerializable
 * Telerik.Web.UI.RibbonBarApplicationMenuItem
 
 ## Properties

@@ -11,7 +11,7 @@ Base class for Olap data providers.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.PivotGrid.Core.DataProviders.DataProviderBase
+* Telerik.Web.UI.PivotGrid.Core.DataProviders.DataProviderBase : IDataProvider, INotifyPropertyChanged, ISupportInitialize
 * Telerik.Web.UI.PivotGrid.Core.Olap.OlapDataProvider
 
 ## Properties

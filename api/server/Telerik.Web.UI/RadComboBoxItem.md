@@ -13,8 +13,8 @@ Represents an individual item in a Telerik.Web.UI.RadComboBox control.
 * System.Object
 * System.Web.UI.Control
 * System.Web.UI.WebControls.WebControl
-* Telerik.Web.UI.ControlItem
-* Telerik.Web.UI.RadComboBoxItem
+* Telerik.Web.UI.ControlItem : IMarkableStateManager, INamingContainer, IStateManager, IXmlSerializable
+* Telerik.Web.UI.RadComboBoxItem : IComparable
 
 ## Properties
 

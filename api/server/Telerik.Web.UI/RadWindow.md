@@ -13,9 +13,9 @@ Telerik RadWindow
 * System.Object
 * System.Web.UI.Control
 * System.Web.UI.WebControls.WebControl
-* Telerik.Web.UI.RadWebControl
+* Telerik.Web.UI.RadWebControl : IControl, IControlResolver, IPostBackDataHandler, IScriptControl, ISkinnableControl
 * Telerik.Web.UI.RadWindowBase
-* Telerik.Web.UI.RadWindow
+* Telerik.Web.UI.RadWindow : IMarkableStateManager, INamingContainer, IStateManager
 
 ## Properties
 

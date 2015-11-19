@@ -9,7 +9,7 @@ description: Telerik.Pdf.PdfInternalLink
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Pdf.PdfInternalLink
+* Telerik.Pdf.PdfInternalLink : IPdfAction
 
 ## Methods
 

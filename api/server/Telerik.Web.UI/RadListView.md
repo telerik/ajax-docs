@@ -22,8 +22,8 @@ Telerik.Web.UI.RadListView is designed to give your the freedom to specify
 * System.Web.UI.WebControls.BaseDataBoundControl
 * System.Web.UI.WebControls.DataBoundControl
 * System.Web.UI.WebControls.CompositeDataBoundControl
-* Telerik.Web.UI.RadCompositeDataBoundControl
-* Telerik.Web.UI.RadListView
+* Telerik.Web.UI.RadCompositeDataBoundControl : IControl, IControlResolver, IFeatureGroup, IPostBackDataHandler, IScriptControl, ISkinnableControl
+* Telerik.Web.UI.RadListView : IPageableItemContainer, IPostBackEventHandler, IRadFilterableContainer, IRadPageableItemContainer
 
 ## Properties
 

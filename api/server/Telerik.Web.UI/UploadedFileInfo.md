@@ -11,7 +11,7 @@ This class implements the UploadedFileInfo object and its fields and methods.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.UploadedFileInfo
+* Telerik.Web.UI.UploadedFileInfo : IAsyncUploadResult
 
 ## Properties
 

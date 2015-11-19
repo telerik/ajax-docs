@@ -12,7 +12,7 @@ The serializer for the FlipOperation
 
 * System.Object
 * Telerik.Web.UI.ImageEditor.Serialization.ImageOperationSerializerBase
-* Telerik.Web.UI.ImageEditor.Serialization.FlipOperationSerializer
+* Telerik.Web.UI.ImageEditor.Serialization.FlipOperationSerializer : IImageOperationSerializer
 
 ## Properties
 

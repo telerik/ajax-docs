@@ -20,7 +20,7 @@ Set the type of the EditForm using P:Telerik.Web.UI.GridEditFormSettings.EditFor
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.GridEditFormSettings
+* Telerik.Web.UI.GridEditFormSettings : IStateManager
 
 ## Properties
 

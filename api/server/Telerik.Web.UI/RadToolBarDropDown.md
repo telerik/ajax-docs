@@ -13,9 +13,9 @@ This partial class defines the rendering of RadToolBarDropDown.
 * System.Object
 * System.Web.UI.Control
 * System.Web.UI.WebControls.WebControl
-* Telerik.Web.UI.ControlItem
+* Telerik.Web.UI.ControlItem : IMarkableStateManager, INamingContainer, IStateManager, IXmlSerializable
 * Telerik.Web.UI.RadToolBarItem
-* Telerik.Web.UI.RadToolBarDropDown
+* Telerik.Web.UI.RadToolBarDropDown : IControlItemContainer, IRadToolBarButtonContainer, IRadToolBarItemContainer
 
 ## Properties
 

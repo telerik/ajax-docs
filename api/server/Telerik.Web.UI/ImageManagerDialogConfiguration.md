@@ -11,7 +11,7 @@ Encapsulates the properties used for ImageManager dialog management.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.FileExplorer.FileExplorerConfiguration
 * Telerik.Web.UI.FileManagerDialogConfiguration
 * Telerik.Web.UI.ImageManagerDialogConfiguration

@@ -11,7 +11,7 @@ Worksheet collection
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.GridExcelBuilder.WorksheetCollection
+* Telerik.Web.UI.GridExcelBuilder.WorksheetCollection : ICollection, IEnumerable, IList, IWorksheetCollection
 
 ## Properties
 

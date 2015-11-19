@@ -12,7 +12,7 @@ Collection containing dates of type Telerik.Web.UI.RadDate .
 
 * System.Object
 * System.Collections.CollectionBase
-* Telerik.Web.UI.Calendar.Collections.DateTimeCollection
+* Telerik.Web.UI.Calendar.Collections.DateTimeCollection : IStateManager
 
 ## Properties
 

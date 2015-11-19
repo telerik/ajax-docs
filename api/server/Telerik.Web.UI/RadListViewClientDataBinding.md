@@ -11,7 +11,7 @@ Contains client-side databinding settings for Telerik.Web.UI.RadListView
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.RadListViewClientDataBinding
 
 ## Properties

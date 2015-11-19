@@ -18,7 +18,7 @@ The child tables will be created when grid is databinding and will be added as c
 * System.Web.UI.WebControls.WebControl
 * System.Web.UI.WebControls.TableRow
 * Telerik.Web.UI.GridTableRow
-* Telerik.Web.UI.GridItem
+* Telerik.Web.UI.GridItem : INamingContainer
 * Telerik.Web.UI.GridNestedViewItem
 
 ## Properties

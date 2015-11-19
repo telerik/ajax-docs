@@ -12,7 +12,7 @@ The empty serializer. This is the default serializer. It will serialize to the E
 
 * System.Object
 * Telerik.Web.UI.ImageEditor.Serialization.ImageOperationSerializerBase
-* Telerik.Web.UI.ImageEditor.Serialization.EmptyOperationSerializer
+* Telerik.Web.UI.ImageEditor.Serialization.EmptyOperationSerializer : IImageOperationSerializer
 
 ## Properties
 

@@ -12,7 +12,7 @@ Represents an OLAP distinct value.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.PivotGrid.Core.Olap.MemberDistinctValue
+* Telerik.Web.UI.PivotGrid.Core.Olap.MemberDistinctValue : IComparable
 
 ## Properties
 

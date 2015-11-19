@@ -15,7 +15,7 @@ The FileManagerDialogConfigurationmembers are passed in a secure manner to
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.FileExplorer.FileExplorerConfiguration
 * Telerik.Web.UI.FileManagerDialogConfiguration
 

@@ -11,7 +11,7 @@ A class representing collection for data key values for the Telerik.Web.UI.RadGr
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.GridDataKeyArray
+* Telerik.Web.UI.GridDataKeyArray : ICollection, IEnumerable, IStateManager
 
 ## Properties
 

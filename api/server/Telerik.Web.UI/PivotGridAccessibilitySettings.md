@@ -11,7 +11,7 @@ Class holding all settings associated with Telerik.Web.UI.RadPivotGrid accessibi
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.PivotGridAccessibilitySettings
 
 ## Properties

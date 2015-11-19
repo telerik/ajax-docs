@@ -12,7 +12,7 @@ Represents the collection of mask parts in a RadMaskedTextBox.
 
 * System.Object
 * System.Collections.CollectionBase
-* Telerik.Web.UI.MaskPartCollection
+* Telerik.Web.UI.MaskPartCollection : IStateManager
 
 ## Properties
 

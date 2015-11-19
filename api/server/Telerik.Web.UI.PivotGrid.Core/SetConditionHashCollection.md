@@ -11,7 +11,7 @@ Represents collection IList container for SetCondition and OlapSetCondition item
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.PivotGrid.Core.SetConditionHashCollection
+* Telerik.Web.UI.PivotGrid.Core.SetConditionHashCollection : ICollection, ICollection`1, IEnumerable, IEnumerable`1, IList, IList`1
 
 ## Properties
 

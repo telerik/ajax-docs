@@ -12,7 +12,7 @@ This Class defines the SchedulerAppointmentContainer.
 
 * System.Object
 * System.Web.UI.Control
-* Telerik.Web.UI.SchedulerAppointmentContainer
+* Telerik.Web.UI.SchedulerAppointmentContainer : IDataItemContainer, INamingContainer
 
 ## Properties
 

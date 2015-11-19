@@ -17,7 +17,7 @@ Renders OrgChartGroupItemCollection.
 * System.Object
 * System.Web.UI.Control
 * System.Web.UI.WebControls.WebControl
-* Telerik.Web.UI.OrgChartGroupItemCollectionRendererBase
+* Telerik.Web.UI.OrgChartGroupItemCollectionRendererBase : IOrgChartFieldsRenderer
 * Telerik.Web.UI.OrgChartGroupItemCollectionRendererLite
 
 ## Properties

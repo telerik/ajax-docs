@@ -12,7 +12,7 @@ Summary description for ImportRtfSettings
 
 * System.Object
 * Telerik.Web.UI.ObjectWithState
-* Telerik.Web.UI.Editor.Import.ImportRtfSettings
+* Telerik.Web.UI.Editor.Import.ImportRtfSettings : IDplImportSettings
 
 ## Properties
 

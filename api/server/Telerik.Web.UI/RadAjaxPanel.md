@@ -19,8 +19,8 @@ Telerik.Web.UI.RadAjaxPanel is one of the two major controls of the Telerik RadA
 * System.Object
 * System.Web.UI.Control
 * System.Web.UI.WebControls.WebControl
-* Telerik.Web.UI.RadAjaxControl
-* Telerik.Web.UI.RadAjaxPanel
+* Telerik.Web.UI.RadAjaxControl : IPostBackEventHandler
+* Telerik.Web.UI.RadAjaxPanel : IScriptControl
 
 ## Properties
 

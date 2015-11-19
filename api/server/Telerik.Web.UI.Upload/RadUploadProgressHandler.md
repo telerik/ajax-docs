@@ -11,7 +11,7 @@ This Class defines the RadUploadProgressHandler.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.RadUploadProgressHandler
+* Telerik.Web.UI.RadUploadProgressHandler : IHttpHandler
 * Telerik.Web.UI.Upload.RadUploadProgressHandler
 
 ## Properties

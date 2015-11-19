@@ -11,8 +11,8 @@ PDF export settings
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
-* Telerik.Web.UI.TreeListPdfExportSettings
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
+* Telerik.Web.UI.TreeListPdfExportSettings : IDisposable
 
 ## Properties
 
