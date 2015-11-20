@@ -14,7 +14,11 @@ position: 2
 
 **RadGantt** allows column resizing. This feature can be enabled/disabled by setting the control's **AllowColumnResize** property to **"true"/"false"**. To resize a column click and drag a line separating two columns in the TreeList view. 
 
-Resizing a column:
+````ASP.NET
+<telerik:RadGantt runat="server" ID="RadGantt1" AutoGenerateColumns="true" Height="450px" SelectedView="MonthView" AllowColumnResize="true" />
+````
+
+The following screenshots show the "Title" column before and after resizing:
 
 ![RadGantt Column Resizing Before](images/gantt-column-resizing-before.png)
 ![RadGantt Column Resizing After](images/gantt-column-resizing-after.png)
