@@ -91,7 +91,7 @@ A control can hardly be considered responsive by itself, because this heavily de
 |Progress Bar|[Yes]({%slug progressbar/mobile-support/elastic-design%})|[Yes]({%slug progressbar/mobile-support/fluid-design%})|[Yes]({%slug progressbar/mobile-support/elastic-design%})|No|
 |Rating|[Yes]({%slug rating/mobile-support/elastic-design%})|No|No|N/A|
 |RibbonBar|No|Yes|No|No|
-|Rotator|[Yes]({%slug rating/mobile-support/elastic-design%})|Yes|[Yes]({%slug rotator/mobile-support/overview%})|N/A|
+|Rotator|[Yes]({%slug rotator/mobile-support/elastic-capabilities%})|[Yes]({%slug rotator/mobile-support/fluid-capabilities%})|No|N/A|
 |Scheduler|No|Yes|N/A|[Yes]({%slug scheduler/mobile-support/responsive-adaptive-and-elastic-capabilities%})|
 |SearchBox|Yes|No|N/A|N/A|
 |SiteMap|Yes|Yes|N/A|N/A|
