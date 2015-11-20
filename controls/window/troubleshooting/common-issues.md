@@ -30,6 +30,8 @@ This article lists common issues and questions related to the **RadWindow** for 
 
 * [RestrictionZondeID and MinimizeZoneID - Common Issues and Requirements](#restrictionzondeid-and-minimizezoneid---common-issues-and-requirements)
 
+* [OnClientClose is not Fired](#onclientclose-is-not-fired)
+
 
 ## General Troubleshooting
 
@@ -126,4 +128,16 @@ The **RestrictionZoneID** can be useful, but due to the way HTML works it has so
 
 Similar restrictions and requirements apply to the **MinimizeZoneID** property. What is also important with it is that using it moves the RadWnidow in the DOM - upon minimizing it goes inside the element, upon restoring - back to being a direct child of the form. **This DOM modification causes iframes to reload**. This can be avoided by creating an MDI-like interface by following [this online demo](http://demos.telerik.com/aspnet-ajax/window/examples/radwindowandmdi/defaultcs.aspx).
 
+
+## OnClientClose is not Fired
+
+When **AjaxControlToolkit**'s dll is present in bin folder and `DestroyOnClose` is set to `true` for a `RadWindow`/`RadWindowManager`, the `OnClientClose` event is fired only the first time a `RadWindow` is closed. Moreover, if there is more than one instance with this event attached, all handlers may be fired for that first dialog.
+
+The problem stems from overrides in the event handling of MS AJAX that AjaxControlToolkit outputs to the page.
+
+There are two workarounds:
+
+* remove the AjaxControlToolkit from the project
+
+* set `DestryOnClose` to `false`
 
