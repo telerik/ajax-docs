@@ -15,8 +15,11 @@ position: 2
 **RadGantt** supports right-to-left direction using the direction attribute. You can enable this functionality by setting the control's **dir** attribute to **"rtl"**:
 
 ````ASP.NET
-<telerik:RadGantt ID="RadGantt1" dir="rtl" Height="450px" SelectedView="MonthView" runat="server"
-    DisplayDeleteConfirmation="false" ListWidth="50%">
+<telerik:RadGantt runat="server" ID="RadGantt1"
+    dir="rtl"
+    AutoGenerateColumns="true"
+    SelectedView="MonthView"
+    Skin="Silk">
 </telerik:RadGantt>
 ````
 
