@@ -372,6 +372,9 @@ navigation:
     "controls/timepicker":
         title: "TimePicker"
         position: 1
+    "controls/togglebutton":
+        title: "ToggleButton"
+        position: 1
     "controls/toolbar":
         title: "ToolBar"
         position: 1
