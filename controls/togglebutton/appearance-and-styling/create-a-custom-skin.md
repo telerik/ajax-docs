@@ -42,13 +42,20 @@ The second file represents the actual skin of the control, and its name consists
 
 	**ASP.NET**
 
-		<telerik:RadToggleButton ID="RadToggleButton1" runat="server" EnableEmbeddedSkins="false" Skin="MyCustomSkin" />
+		<telerik:RadToggleButton runat="server" ID="RadToggleButton1" Skin="MyCustomSkin" EnableEmbeddedSkins="false">
+			<ToggleStates>
+				<telerik:ButtonToggleState Text="First state">
+				</telerik:ButtonToggleState>
+				<telerik:ButtonToggleState Text="Second State">
+				</telerik:ButtonToggleState>
+			</ToggleStates>
+		</telerik:RadToggleButton>
 
 1. Register **Button.MyCustomSkin.css** in the head section of your web page. In order to have the CSS applied correctly, the base stylesheet should come first in the DOM:
 
 	**ASP.NET**
 
-		<link href="Skins/MyCustomSkin/Button.MyCustomSkin.css" rel="stylesheet" type="text/css" />
+		<link href="Skins/MyCustomSkinLite/Button.MyCustomSkin.css" rel="stylesheet" type="text/css" />
 
 1. Make sure the path to the files is correct; otherwise the skin will not apply;
 
@@ -86,9 +93,14 @@ The example below shows how to modify the CSS in order not only to change some c
 <body>
 	<form id="form1" runat="server">
 		<asp:ScriptManager runat="server"></asp:ScriptManager>
-		<telerik:RadToggleButton runat="server" Text="Button"></telerik:RadToggleButton>
-		<telerik:RadToggleButton runat="server" Text="Icon Left">
-			<Icon CssClass="rbPrint" />
+		<telerik:RadToggleButton runat="server" ID="RadToggleButton1">
+			<ToggleStates>
+				<telerik:ButtonToggleState Text="First state">
+					<Icon CssClass="rbPrint" />
+				</telerik:ButtonToggleState>
+				<telerik:ButtonToggleState Text="Second State">
+				</telerik:ButtonToggleState>
+			</ToggleStates>
 		</telerik:RadToggleButton>
 	</form>
 </body>
