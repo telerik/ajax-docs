@@ -8,30 +8,32 @@ published: True
 position: 0
 ---
 
-# PushButton Overview
+# ToggleButton Overview
 
-The **RadToggleButton** control (**Figure 1**) enriches the features, that ASP.NET Button control has. It provides additional events, ability to [define icons]({%slug togglebutton/functionality/icons%}) and [content template]({%slug togglebutton/functionality/contenttemplate%}), a [mechanism to prevent multiple postbacks]({%slug togglebutton/functionality/single-click-button%}) and numerous [themes]({%slug togglebutton/appearance-and-styling/skins%}). 
+**RadToggleButton** (**Figure 1**) lets you define several [states]({%slug togglebutton/functionality/select-state%}) the button will go through as the user clicks it. Additionally, it provides events, supports Commands, lets you [define icons]({%slug togglebutton/functionality/icons/embedded-icons%}) or [images]({%slug togglebutton/functionality/images%}) in those states, and has a [mechanism to prevent multiple postbacks]({%slug togglebutton/functionality/single-click%}).
 
-The control can be easily styled by changing the **Skin** property, and alternatively setting properties that change the look of the control. This will eliminate the need to use the [RadFormDecorator]({%slug formdecorator/overview%}), just to style a single button. Developers can easily migrate their applications from using the standard ASP.NET (button) controls to the new **RadToggleButton** control, because most of their functionality is provided by our control, and is controlled by the same or similar (intuitive) properties.
+The control can be easily styled by changing the **[Skin]({%slug togglebutton/appearance-and-styling/skins%})** property, and by setting properties that change the look of the control like the **[Primary]({%slug togglebutton/appearance-and-styling/primary-action-button%})** property or any of the properties that control the icons/images in its states.
 
 
 
->caption Figure 1: RadToggleButton control provides a rich API and UI.
+>caption Figure 1: RadToggleButton with two states.
 
-![RadButton](images/RadToggleButtons.png)
+![RadButton](images/toggle-button-overview.jpg)
 
-<!--
-Code that creates Figure 1:
-<telerik:RadToggleButton runat="server" ID="RadToggleButton1" Text="RadToggleButton"></telerik:RadToggleButton>
-<br />
-<br />
-<telerik:RadToggleButton runat="server" ID="RadToggleButton2" Text="RadToggleButton Disabled" Enabled="false"></telerik:RadToggleButton>
-<br />
-<br />
-<telerik:RadToggleButton runat="server" ID="RadToggleButton3" Text="RadToggleButton with Icon">
-	<Icon CssClass="rbSave" />
+>caption Example 1: A basic example of different states in a RadToggleButton
+
+````ASP.NET
+<telerik:RadToggleButton runat="server" ID="RadToggleButton1">
+	<ToggleStates>
+		<telerik:ButtonToggleState Text="Before click">
+			<Icon CssClass="rbOk" />
+		</telerik:ButtonToggleState>
+		<telerik:ButtonToggleState Text="After click">
+			<Icon CssClass="rbRemove" />
+		</telerik:ButtonToggleState>
+	</ToggleStates>
 </telerik:RadToggleButton>
--->
+````
 
 >note **RadToggleButton** does not support a Classic [render mode]({%slug togglebutton/mobile-support/render-modes%}). Setting its RenderMode to Classic will default to the Lightweight render mode.
 
