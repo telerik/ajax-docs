@@ -18,7 +18,7 @@ position: 5
 
 When template fields are used into the Telerik data bound controls for customizing templates and bound the field value the late-bound expressions are typically used. For example, below we are using the Eval() helper method to data-bind the "CategoryName" property from an objects which is bound to the RadGrid:
 
-````C#
+````ASP.NET
 <telerik:GridTemplateColumn HeaderText="Category" UniqueName="CategoryID" 
    DataField="CategoryID" SortExpression="CategoryID">
    <ItemTemplate>
@@ -93,8 +93,14 @@ public IQueryable<Employee> GetProducts()
 { 
     return from e in context.Employees 
            select e; 
-
 } 
+````
+````VB.NET
+Private con As New DataClassesDataContext()
+Public Function GetProducts() As IQueryable(Of Employee)
+	Return From e In context.Employeese
+End Function
+
 ````
 
 
@@ -104,8 +110,13 @@ Or it can be with parameters:
 ````C#
 public IQueryable<Employee> GetProducts(string sortByExpression, int startRowIndex, int maximumRows, out int totalRowCount) 
 { 
-        ....  
+	....  
 }
+````
+````VB.NET
+Public Function GetProducts(sortByExpression As String, startRowIndex As Integer, maximumRows As Integer, ByRef totalRowCount As Integer) As IQueryable(Of Employee)
+	....
+End Function
 ````
 
 
@@ -129,8 +140,13 @@ For example if SelectMethod returns data from Linq DataContext and if the paging
 ````C#
 public IQueryable<Employee> GetProducts(string sortByExpression, int? startRowIndex, int? maximumRows, out int totalRowCount) 
 { 
-      ....   
+	....   
 } 
+````
+````VB.NET
+Public Function GetProducts(sortByExpression As String, startRowIndex As System.Nullable(Of Integer), maximumRows As System.Nullable(Of Integer), ByRef totalRowCount As Integer) As IQueryable(Of Employee)
+	....
+End Function
 ````
 
 
@@ -144,6 +160,11 @@ public IQueryable<Product> GetProducts([Control("RadComboBoxCategories")] int? c
 {
     // Filter the data source based on categoryID and ProductName 
 }
+````
+````VB.NET
+Public Function GetProducts(<Control("RadComboBoxCategories")> categoryID As System.Nullable(Of Integer), <QueryString> name As String) As IQueryable(Of Product)
+	' Filter the data source based on categoryID and ProductName 
+End Function
 ````
 
 
@@ -172,6 +193,15 @@ public void UpdateProduct(int ProductID)
     }
 }
 ````
+````VB.NET
+Public Sub UpdateProduct(ProductID As Integer)
+	Dim updatedProduct As Product = context.Products.Where(Function(p) p.ProductID = ProductID).First()
+	TryUpdateModel(updatedProduct)
+	If ModelState.IsValid Then
+		context.SubmitChanges()
+	End If
+End Sub
+````
 
 
 
@@ -189,6 +219,15 @@ public void UpdateProduct(Product product)
         context.SubmitChanges();
     }
 }
+````
+````VB.NET
+Public Sub UpdateProduct(product As Product)
+	Dim updatedProduct As Product = context.Products.Where(Function(p) p.ProductID = product.ProductID).First()
+	TryUpdateModel(updatedProduct)
+	If ModelState.IsValid Then
+		context.SubmitChanges()
+	End If
+End Sub
 ````
 
 
@@ -210,6 +249,15 @@ public void InsertProduct(Product p)
 	}
 }
 ````
+````VB.NET
+Public Sub InsertProduct(p As Product)
+	If ModelState.IsValid Then
+		context.Products.InsertOnSubmit(p)
+		context.SubmitChanges()
+	End If
+End Sub
+
+````
 
 
 
@@ -229,6 +277,16 @@ public void InsertProduct(int productID)
 	}
 }
 ````
+````VB.NET
+Public Sub InsertProduct(productID As Integer)
+	Dim pr As New Product()
+	TryUpdateModel(pr)
+	If ModelState.IsValid Then
+		context.Products.InsertOnSubmit(p)
+		context.SubmitChanges()
+	End If
+End Sub
+````
 
 
 
@@ -243,6 +301,13 @@ public void DeleteProduct(int ProductID)
     context.Products.DeleteOnSubmit(deletedProduct);
     context.SubmitChanges();
 }
+````
+````VB.NET
+Public Sub DeleteProduct(ProductID As Integer)
+	Dim deletedProduct As Product = context.Products.Where(Function(p) p.ProductID = ProductID).First()
+	context.Products.DeleteOnSubmit(deletedProduct)
+	context.SubmitChanges()
+End Sub
 ````
 
 
@@ -273,6 +338,25 @@ public string ProductName
     }
 }
 ````
+````VB.NET
+<Required> _
+<System.Data.Linq.Mapping.ColumnAttribute(Storage := "_ProductName", DbType := "NVarChar(40) NOT NULL", CanBeNull := False)> _
+Public Property ProductName() As String
+	Get
+		Return Me._ProductName
+	End Get
+	Set
+		If (Me._ProductName <> value) Then
+			Me.OnProductNameChanging(value)
+			Me.SendPropertyChanging()
+			Me._ProductName = value
+			Me.SendPropertyChanged("ProductName")
+			Me.OnProductNameChanged()
+		End If
+	End Set
+End Property
+
+````
 
 
 
@@ -287,6 +371,14 @@ public void InsertProduct(Product p)
         context.SubmitChanges();
     }
 }
+````
+````VB.NET
+Public Sub InsertProduct(p As Product)
+	If ModelState.IsValid Then
+		context.Products.InsertOnSubmit(p)
+		context.SubmitChanges()
+	End If
+End Sub
 ````
 
 
@@ -323,6 +415,24 @@ public void InsertProduct(Product p)
         context.SubmitChanges();
     }
 }
+````
+````VB.NET
+
+Public Sub InsertProduct(productID As Integer)
+	Dim pr As New Product()
+	TryUpdateModel(pr)
+
+	If ModelState.IsValid Then
+		context.Products.InsertOnSubmit(p)
+		context.SubmitChanges()
+	End If
+End Sub
+Public Sub InsertProduct(p As Product)
+	If ModelState.IsValid Then
+		context.Products.InsertOnSubmit(p)
+		context.SubmitChanges()
+	End If
+End Sub
 ````
 
 
