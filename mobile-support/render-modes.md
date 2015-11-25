@@ -72,6 +72,7 @@ Some controls from the UI for ASP.NET AJAX suite	can produce different (usually 
 |TileList|[Yes (by design)]({%slug tilelist/mobile-support/render-modes%})|-|
 |ToolBar|-|-|
 |ToolTip|[Yes(render mode)]({%slug tooltip/mobile-support/render-modes%})|-|
+|ToggleButton|[Yes(render mode)]({%slug togglebutton/mobile-support/render-modes%})|-|
 |TreeList|Yes (render mode)|-|
 |TreeMap|Yes (by design)|-|
 |TreeView|Yes (render mode)|-|
