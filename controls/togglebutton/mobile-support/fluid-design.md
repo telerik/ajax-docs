@@ -10,7 +10,7 @@ position: 2
 
 # Fluid Design
 
-This article explains the **fluid design capabilities RadToggleButton offers**. The **Example 1** below shows how you can set button size in percent so it can resize with its parent element.
+This article explains the **fluid design capabilities RadToggleButton offers**. **Example 1** shows how you can set button size in percent so it can resize with its parent element.
 
 Generally, responsive design means that the page and its content are able to adapt to different screen resolutions without deteriorating the user experience. This often includes [changing the font size]({%slug togglebutton/mobile-support/elastic-design%}) and having dimensions set in percent.
 
@@ -22,15 +22,15 @@ Generally, responsive design means that the page and its content are able to ada
 
 ````ASP.NET
 <style>
-	html, body, form {
-		height:100%;
-	}
+    html, body, form {
+        height: 100%;
+    }
 </style>
 
-<div style="width:40%; height:30%;">
-	<telerik:RadToggleButton runat="server" ID="StandartButton" 
-		Text="Fluid Design" Skin="Default" Width="100%" Height="25%">
-	</telerik:RadToggleButton>
+<div style="width: 40%; height: 30%;">
+    <telerik:RadToggleButton runat="server" ID="ToggleButton1"
+        Text="Fluid Toggle Button" Width="100%" Height="25%">
+    </telerik:RadToggleButton>
 </div>
 ````
 
