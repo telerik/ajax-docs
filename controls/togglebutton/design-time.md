@@ -14,7 +14,7 @@ The Smart Tag of **RadToggleButton** (**Figure 1**) lets you configure your cont
 
 >caption Figure 1: RadToggleButton's smart tag.
 
-![button-smart-tag](images/button-smart-tag.png)
+![button-smart-tag](images/togglebutton-smart-tag.png)
 
 ## Ajax Resources
 
