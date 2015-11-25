@@ -11,8 +11,8 @@ A column type for the RadTreeList control that is bound to a field in the contro
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
-* Telerik.Web.UI.TreeListColumn
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
+* Telerik.Web.UI.TreeListColumn : IComparable
 * Telerik.Web.UI.TreeListDataColumn
 * Telerik.Web.UI.TreeListEditableColumn
 * Telerik.Web.UI.TreeListBoundColumn

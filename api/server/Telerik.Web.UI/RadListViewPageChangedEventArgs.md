@@ -13,7 +13,7 @@ The event arguments passed when Telerik.Web.UI.RadListView fires PageChanged eve
 * System.Object
 * System.EventArgs
 * System.Web.UI.WebControls.CommandEventArgs
-* Telerik.Web.UI.RadListViewCommandEventArgs
+* Telerik.Web.UI.RadListViewCommandEventArgs : IRadListViewCommandEvent
 * Telerik.Web.UI.RadListViewPageChangedEventArgs
 
 ## Properties

@@ -9,7 +9,7 @@ description: Telerik.Web.UI.Calendar.Persistence.PropertyBag
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.Calendar.Persistence.PropertyBag
+* Telerik.Web.UI.Calendar.Persistence.PropertyBag : ICollection, IDictionary, IEnumerable, IStateManager
 
 ## Properties
 

@@ -10,9 +10,9 @@ description: Telerik.Web.UI.PivotGrid.DataProviders.Adomd.AdomdLevelGroupDescrip
 
 * System.Object
 * Telerik.Web.UI.PivotGrid.Core.Cloneable
-* Telerik.Web.UI.PivotGrid.Core.SettingsNode
-* Telerik.Web.UI.PivotGrid.Core.DescriptionBase
-* Telerik.Web.UI.PivotGrid.Core.GroupDescriptionBase
+* Telerik.Web.UI.PivotGrid.Core.SettingsNode : IEditable, INotifyPropertyChanged, IServiceProvider, ISupportInitialize
+* Telerik.Web.UI.PivotGrid.Core.DescriptionBase : IDescriptionBase, INamed
+* Telerik.Web.UI.PivotGrid.Core.GroupDescriptionBase : IGroupDescription
 * Telerik.Web.UI.PivotGrid.Core.GroupDescription
 * Telerik.Web.UI.PivotGrid.Core.Olap.OlapGroupDescriptionBase
 * Telerik.Web.UI.PivotGrid.Core.Olap.OlapLevelGroupDescription

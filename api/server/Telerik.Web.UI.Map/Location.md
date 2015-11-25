@@ -11,7 +11,7 @@ The map center. Coordinates are listed as [Latitude, Longitude].
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.Map.Location
 
 ## Properties

@@ -11,7 +11,7 @@ A class holding the settings for binding to static data of the Telerik.Web.UI.Ra
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.DataSourceSettings.StaticDataSourceSettings
 
 ## Properties

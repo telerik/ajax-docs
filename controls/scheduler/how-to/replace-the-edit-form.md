@@ -28,7 +28,7 @@ You can use the **OnClientAppointmentEditing** and **OnClientAppointmentInsertin
 
 1. In the AJAX manager's Smart Tag, choose "Configure Ajax Manager".
 
-1. In the Property Builder, select the **RadScheduler**as a control that initiates a request and as the updated control by this request. Assign the **RadAjaxLoadingPanel** as the loading panel for this pair. Then select the **RadAjaxManager**as a control that initiates a request and select the **RadScheduler** as the updated control.
+1. In the Property Builder, select the **RadScheduler**as a control that initiates a request and as the updated control by this request. Assign the **RadAjaxLoadingPanel** as the loading panel for this pair. Then select the **RadAjaxManager** as a control that initiates a request and select the **RadScheduler** as the updated control.
 
 1. Give the AJAX manager an **AjaxRequest** event handler to rebind the scheduler after an edit:
 
@@ -63,7 +63,7 @@ You can use the **OnClientAppointmentEditing** and **OnClientAppointmentInsertin
 		function AppointmentEditing(sender, eventArgs)
 		{
 			 var apt = eventArgs.get_appointment();
-			 window.radopen("AdvancedForm.aspx?Mode=Edit&AppointmentId=" + apt.ID, "AdvancedForm");
+			 window.radopen("AdvancedForm.aspx?Mode=Edit&AppointmentId=" + apt.get_id(), "AdvancedForm");
 			 eventArgs.set_cancel(true);
 		}
 

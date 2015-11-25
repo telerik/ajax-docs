@@ -11,7 +11,6 @@ position: 3
 # Frozen Columns
 
 
-
 When scrolling is enabled and you are using [static headers]({%slug grid/functionality/scrolling/scroll-with-static-headers%}), you can make **RadGrid** columns static as well. This can be useful when you want to ensure that the data in one or more columns is visible at all times but still allow a horizontal scroll bar for navigation.
 
 >note Static columns are not enabled unless the grid is using static headers.
@@ -34,15 +33,23 @@ For a live example demonstrating the frozen columns feature, see [Frozen columns
 As an alternative to the horizontal scroll, **RadGrid** also provides **Next** and **Prev** buttons for the user to navigate through the columns with single clicks or tapping.
 ![Frozen columns 1](images/grid_frozenColumns_1.PNG)
 
-The buttons are contained in the **GridCommandItem**, which needs to be enabled explicitly in the corresponding GridTableView settings.
+To enable the button mode, you need to set the **EnableNextPrevFrozenColumns** property to true. The buttons are contained in the **GridCommandItem**, which needs to be enabled explicitly in the corresponding GridTableView settings. 
 ````ASP.NET
+<ClientSettings>
+    <Scrolling AllowScroll="true" UseStaticHeaders="true"
+        FrozenColumnsCount="1" EnableNextPrevFrozenColumns="true" />
+</ClientSettings>
 <MasterTableView CommandItemDisplay="Top">
 ````
 
+## Frozen columns with Grouping
+
+When grouping is enabled in grid with frozen columns the first **GridGroupSplitterColumn** is counted as frozen. With Q3 2015 release a new **ClientSettings.Scrolling.CountGroupSplitterColumnAsFrozen** property is added which gives you the opportunity to count the GridGroupSplitterColumn or not. The default value of the property is **true**, which means the old behavior is preserved. If you want to exclude GridGroupSplitterColumn from FrozenColumns count you need to set this property to **false** as shown below:
+
+````ASP.NET
+<Scrolling CountGroupSplitterColumnAsFrozen="false" AllowScroll="true" UseStaticHeaders="true" FrozenColumnsCount="2"/>
+````
 
 ## Unsupported scenarios
-
-There are several limitations that you should have in mind. They are caused by the complexity and specifics of the frozen columns feature, which is implemented by means of hiding and showing columns, instead of actually scrolling them.
-
 
 * When frozen columns are used, tabbing between the textboxes in an inline edit form is not supported out-of-the-box, because the frozen columns will be scrolled together with the non-frozen. In selected scenarios, this functionality can be achieved if you subscribe to the textboxes' focus events and scroll a specific <div> with Javascript. This \<div\> has a client ID of "**..._Frozen**" where "..." is the RadGrid client ID. When doing this, you should take into account the current scroll position, and the width of the column that should be hidden/shown.

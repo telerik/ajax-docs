@@ -96,9 +96,13 @@ Height of the RadAlert dialog.
 
 Title of the RadAlert dialog.
 
-#### callbackFn? `Function`
+##### callbackFn? `Function`
 
 Callback function that will be called after closing the dialog.
+
+##### imgUrl? `String`
+
+The URL to replace the image for the RadAlert dialog.
 
 #### Returns
 

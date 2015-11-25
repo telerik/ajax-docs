@@ -39,16 +39,6 @@ To take advantage **elastic** functionality advantage you could set a specific *
 
 2. Set the **RenderMode** property of the **Calendar**, **DatePicker**, **DateTimePicker**, **MonthYearPicker** controls to "**Lightweight**"
 ````ASPNET
-<telerik:RadDatePicker ID="RadDatePicker2" runat="server" SelectedDate="8.4.2014" RenderMode="Lightweight" Width="13.3333em" DateInput-Label="Label:">
-</telerik:RadDatePicker>
-<telerik:RadDatePicker ID="RadDatePicker3" runat="server" SelectedDate="8.4.2014" RenderMode="Lightweight" Width="13.3333em" DateInput-Label="Label:">
-</telerik:RadDatePicker>
-<telerik:RadTimePicker ID="RadTimePicker2" runat="server" SelectedTime="10:00" RenderMode="Lightweight" Width="13.3333em" DateInput-Label="Label:">
-</telerik:RadTimePicker>
-<telerik:RadDateTimePicker ID="RadDateTimePicker2" runat="server" SelectedDate="4.8.2014 10:00" RenderMode="Lightweight" DateInput-Label="Label:" Width="13.3333em">
-</telerik:RadDateTimePicker>
-<telerik:RadMonthYearPicker ID="RadMonthYearPicker2" runat="server" SelectedDate="8.2014" RenderMode="Lightweight" Width="13.3333em" DateInput-Label="Label:">
-</telerik:RadMonthYearPicker>
 <telerik:RadCalendar ID="RadCalendar1" runat="server" RenderMode="Lightweight" AutoPostBack="true">
     <SpecialDays>
         <telerik:RadCalendarDay Repeatable="Today" ItemStyle-CssClass="rcToday"></telerik:RadCalendarDay>

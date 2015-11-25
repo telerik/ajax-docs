@@ -214,4 +214,4 @@ End Function
 
 # See Also
 
- * [ShowMoreResultsBox/Virtual Scrolling]({%slug combobox/load-on-demand/showmoreresultsbox/virtual-scrolling%})
+ * [ShowMoreResultsBox/Virtual Scrolling]({%slug combobox/load-on-demand/showmoreresultsbox-virtual-scrolling%})

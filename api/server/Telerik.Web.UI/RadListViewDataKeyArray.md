@@ -11,7 +11,7 @@ Class representing a collection of Telerik.Web.UI.RadListView data key values.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.RadListViewDataKeyArray
+* Telerik.Web.UI.RadListViewDataKeyArray : ICollection, IEnumerable, IStateManager
 
 ## Properties
 

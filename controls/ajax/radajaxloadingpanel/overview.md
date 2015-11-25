@@ -21,7 +21,7 @@ RadAjax supports templates that will be shown as a progress indicator when a cal
 With your web form in design view you need to drag a **RadAjaxLoadingPanel** from the toolbox to the web form just like any control. While you are still in design view, you can set other controls on the web form to use the **RadAjaxLoadingPanel**. The **IsSticky** property of the **RadAjaxLoadingPanel** defines where the panel will appear. By default, when **IsSticky** is **false** , the **RadAjaxLoadingPanel** will appear over the updated control. If you set **IsSticky** to **true** , the panel will appear where you have set it on the web form.
 
 >caution If you have many controls added to the AjaxSettings and want to use IsSticky="true", then you need to set absolute positioning for the RadAjaxLoadingPanel control using markup like this:
->`<telerik:RadAjaxLoadingPanel ID="LoadingPanel1" **IsSticky="true"** runat="server" **style="position:absolute;"** ><asp:Image ID="Image1" runat="server" AlternateText="Loading..." ImageUrl="Loading.gif" /> </telerik:RadAjaxLoadingPanel>`
+>`<telerik:RadAjaxLoadingPanel ID="LoadingPanel1" IsSticky="true" runat="server" style="position:absolute;" ><asp:Image ID="Image1" runat="server" AlternateText="Loading..." ImageUrl="Loading.gif" /> </telerik:RadAjaxLoadingPanel>`
 >
 
 
@@ -70,6 +70,23 @@ You can find more information about **RadAjaxLoadingPanel** skins [here]({%slug 
 ## Explicitly Show and Hide the Loading Panel
 
 You can explicitly call the loading panel's **Show** and **Hide** methods on the client. This allows you to update controls according to some condition and display a loading panel over the control that will be updated (Use the [OnRequestStart]({%slug ajax/client-side-programming/events/onrequeststart%}) client-side event handler to show the panel, hide the panel using the [OnResponseEnd]({%slug ajax/client-side-programming/events/onresponseend%}) client-side event handler). You can review [this topic]({%slug ajax/radajaxloadingpanel/how-to/show-and-hide-ajaxloadingpanel-explicitly%}) for more info.
+
+## Modal Overlay
+
+**RadAjaxLoadingPanel** exposes Modal property, which provides the functionality to force the panel to span over the entire visible area of the page, thus preventing users from clicking on other elements on the page that might trigger PostBacks or AJAX requests.
+
+````ASP.NET
+        <telerik:RadAjaxLoadingPanel ID="RadAjaxLoadingPanel1" runat="server" Skin="Default" Modal="true">
+````
+
+You can also set the Modal property on client-side using the set_modal() method or simply check whether it is enabled using the get_modal() method.
+
+````JavaScript
+function pageLoad(app, args) {
+		var loadingPanel = $find('<%= RadAjaxLoadingPanel1.ClientID %>');
+		loadingPanel.set_modal(true);
+}
+````
 
 ## See Also
 

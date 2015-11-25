@@ -11,7 +11,7 @@ Represents an Telerik.Web.UI.PivotGrid.Core.IDataProvider that works with IQuery
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.PivotGrid.Core.DataProviders.DataProviderBase
+* Telerik.Web.UI.PivotGrid.Core.DataProviders.DataProviderBase : IDataProvider, INotifyPropertyChanged, ISupportInitialize
 * Telerik.Web.UI.PivotGrid.Queryable.QueryableDataProvider
 
 ## Properties

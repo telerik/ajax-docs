@@ -1202,6 +1202,36 @@ A boolean value indicating whether the element should be hidden or made visible
 
 `None` 
 
+### static transition
+
+Perform a custom animation of a set of CSS properties. The animation will be performed using CSS3 Transitions if browser supports them.
+
+#### Parameters
+
+##### element `Element`
+
+The DOM element or jQuery object that will be animated.
+
+##### properties `Object`
+
+Object of CSS properties and values that the animation will move toward.
+
+##### duration `Number`
+
+String or number determining how long the animation will run
+
+##### easing `String`
+
+String indicating which easing function to use for the transition.
+
+##### complete `Function`
+
+Function to call once the animation is complete.
+
+#### Returns
+
+`None` 
+
 ### static useAttachEvent
 
 A helper method that checks whether a DOM event handler should be added through addEventListener or through attachEvent, so that IE proprietary events, such as "onpropertychange", are handled correctly in IE9.

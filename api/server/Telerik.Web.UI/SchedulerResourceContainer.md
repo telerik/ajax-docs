@@ -12,7 +12,7 @@ This Class defines the SchedulerResourceContainer.
 
 * System.Object
 * System.Web.UI.Control
-* Telerik.Web.UI.SchedulerResourceContainer
+* Telerik.Web.UI.SchedulerResourceContainer : IDataItemContainer, INamingContainer
 
 ## Properties
 

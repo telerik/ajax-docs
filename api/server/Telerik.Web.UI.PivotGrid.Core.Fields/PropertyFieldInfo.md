@@ -11,7 +11,7 @@ Represents an abstraction of a property info that can set and get values.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.PivotGrid.Core.Fields.PivotFieldInfo
+* Telerik.Web.UI.PivotGrid.Core.Fields.PivotFieldInfo : IPivotFieldInfo
 * Telerik.Web.UI.PivotGrid.Core.Fields.PropertyFieldInfo
 
 ## Properties

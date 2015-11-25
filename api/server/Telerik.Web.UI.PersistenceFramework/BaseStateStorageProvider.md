@@ -11,5 +11,5 @@ Base StateStorageProvider class
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.PersistenceFramework.BaseStateStorageProvider
+* Telerik.Web.UI.PersistenceFramework.BaseStateStorageProvider : IStateStorageProvider
 

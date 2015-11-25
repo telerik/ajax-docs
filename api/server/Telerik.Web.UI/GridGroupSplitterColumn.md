@@ -13,7 +13,7 @@ This column appears when grouping is enabled, to facilitate the expand/collapse
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.GridColumn
+* Telerik.Web.UI.GridColumn : IComparable, IStateManager
 * Telerik.Web.UI.GridGroupSplitterColumn
 
 ## Properties

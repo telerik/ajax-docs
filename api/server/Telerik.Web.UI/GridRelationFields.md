@@ -11,7 +11,7 @@ corresponding fields from a master-detail relation
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.GridRelationFields
+* Telerik.Web.UI.GridRelationFields : IStateManager
 
 ## Properties
 

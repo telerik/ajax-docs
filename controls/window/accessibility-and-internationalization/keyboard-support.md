@@ -18,6 +18,8 @@ Commands that are specific for each separate **RadWindow** such as **Close, Mini
 
 There are three ways to specify these shortcuts. The more common two are: in the `<Shortcuts>` inner tag:
 
+>caption **Example 1**: Set keyboard shortcuts in the markup.
+
 ````ASP.NET
 <telerik:RadWindowManager ID="RadWindowManager1" runat="server">
 	<Shortcuts>
@@ -39,6 +41,8 @@ There are three ways to specify these shortcuts. The more common two are: in the
 
 or via the **Shortcuts** server-side property:
 
+>caption **Example 2**: Set keyboard shortcuts in the code-behind.
+
 ````C#
 RadWindow1.Shortcuts.Add("Close", "Esc");
 //or
@@ -51,6 +55,8 @@ RadWindow1.Shortcuts.Add(new Telerik.Web.UI.WindowShortcut("Close", "Esc"))
 ````
 
 Since Q2 2012 the **RadWindow** also offers the option to modify the shortcuts via JavaScript by using the following methods:
+
+>caption **Example 3**: Set keyboard shortcuts via JavaScript.
 
 ````JavaScript
 var oWnd = $find("RadWindow1"); //get a reference to the desired RadWindow
@@ -89,6 +95,32 @@ oWnd.removeAllShortcutsCommand("Command"); //clears all shortcuts for the given 
 | **Close** |Closes the RadWindow|
 | **Maximize** |Maximizes the RadWindow|
 | **Reload** |Reloads the RadWindow|
+
+
+## Handling Keyboard Shortcuts in the Content Page
+
+To create a shortcut, RadWindow attaches a handler to the document where it is initialized (i.e., the page that opens it). In order for this handler to have effect over the RadWindow, the keyboard event must first bubble to the document. This cannot happen if the focus is in the content page of the RadWindow - the control should not modify the page to avoid breaking functionality created by the developer and pages from other domains will not allow this because of the same-origin policy browsers enforce.
+
+To handle keyboard shortcuts in the content page, you must attach your own keyboard events and use the RadWindow's [client-side API]({%slug window/client-side-programming/radwindow-object%}). **Example 4** shows one way to close the RadWindow when the `Esc` key is pressed.
+
+>caption **Example 4**: Use keyboard shortcuts in the content page.
+
+````JavaScript
+$(document).keydown(function (e) {
+    if (e.keyCode == 27) { //the Esc key is pressed
+        e.preventDefault(); //optionally, cancel the event
+        GetRadWindow().close(); //close the RadWindow
+    }
+});
+
+function GetRadWindow() {
+    var oWindow = null;
+    if (window.radWindow) oWindow = window.radWindow;
+    else if (window.frameElement.radWindow) oWindow = window.frameElement.radWindow;
+    return oWindow;
+}
+````
+
 
 ## See Also
 

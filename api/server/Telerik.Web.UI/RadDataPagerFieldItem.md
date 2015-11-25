@@ -13,7 +13,7 @@ Telerik.Web.UI.RadDataPager field which holds the
 
 * System.Object
 * System.Web.UI.Control
-* Telerik.Web.UI.RadDataPagerFieldItem
+* Telerik.Web.UI.RadDataPagerFieldItem : INamingContainer
 
 ## Properties
 

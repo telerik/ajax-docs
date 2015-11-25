@@ -26,7 +26,7 @@ Here is how to localize your **Rad** in simple steps:
 
 1. Create a new resource file or copy an existing one from the **App_GlobalResources** in your installation folder
 
-1. Add the resource file (**resx**) file to the **App_GlobalResources** folder in your application. Note that you should have two files as a bare minimum - **RadGantt.Main.resx** and the localization file itself - for example **RadGantt.Main.en-GB.resx**
+1. Add the resource file (**resx**) file to the **App_GlobalResources** folder in your application. Note that you should have two files as a bare minimum - **RadGantt.resx** and the localization file itself - for example **RadGantt.en-GB.resx**
 
 1. Set the **Culture** property to the corresponding language (for example: it-IT, en-GB, ja-JP and so on)
 
@@ -40,7 +40,7 @@ The resource files are represented in a human-readible format (XML) and can be e
 
 The process of creating a new global resource follows the same pattern as in **RadEditor** and **RadScheduler** controls.
 
-1. Make a copy of the **RadGantt.Main.resx** file and save it as **RadGantt.Main.YOURLANGUAGE.resx** (for example: **RadGantt.Main.ja-JP.resx**)
+1. Make a copy of the **RadGantt.resx** file and save it as **RadGantt.YOURLANGUAGE.resx** (for example: **RadGantt.ja-JP.resx**)
 
 1. Replace the default strings with the translated ones
 

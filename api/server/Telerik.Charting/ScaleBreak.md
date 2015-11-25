@@ -11,7 +11,7 @@ Y Axis scale break
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Charting.StateManagedObject
+* Telerik.Charting.StateManagedObject : IChartingStateManagedItem, IChartingStateManager, IDisposable
 * Telerik.Charting.ScaleBreak
 
 ## Properties

@@ -12,7 +12,7 @@ Base class for all descriptors used for
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.Data.DescriptorBase
+* Telerik.Web.Data.DescriptorBase : INotifyPropertyChanged
 
 ## Methods
 

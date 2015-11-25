@@ -11,7 +11,7 @@ Specify the expanded state of Telerik.Web.UI.PivotGrid.Core.IGroup s.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.PivotGrid.Core.GroupsExpandBehavior
+* Telerik.Web.UI.PivotGrid.Core.GroupsExpandBehavior : IItemExpandBehavior`1
 
 ## Properties
 

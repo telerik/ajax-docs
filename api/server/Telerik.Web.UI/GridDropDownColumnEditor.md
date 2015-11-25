@@ -12,7 +12,7 @@ Summary description for GridDropDownColumnEditor.
 
 * System.Object
 * System.Web.UI.Control
-* Telerik.Web.UI.GridColumnEditorBase
+* Telerik.Web.UI.GridColumnEditorBase : IGridColumnEditor
 * Telerik.Web.UI.GridDropDownColumnEditor
 
 ## Properties

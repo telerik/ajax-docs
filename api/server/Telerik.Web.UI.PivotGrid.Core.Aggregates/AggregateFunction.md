@@ -15,8 +15,8 @@ Describes the supported aggregate functions available for Telerik.Web.UI.PivotGr
 
 * System.Object
 * Telerik.Web.UI.PivotGrid.Core.Cloneable
-* Telerik.Web.UI.PivotGrid.Core.SettingsNode
-* Telerik.Web.UI.PivotGrid.Core.Aggregates.AggregateFunction
+* Telerik.Web.UI.PivotGrid.Core.SettingsNode : IEditable, INotifyPropertyChanged, IServiceProvider, ISupportInitialize
+* Telerik.Web.UI.PivotGrid.Core.Aggregates.AggregateFunction : INamed
 
 ## Properties
 

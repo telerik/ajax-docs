@@ -36,7 +36,7 @@ Example:
 
 ````JavaScript
 function FilterMenuShowing(sender, eventArgs) {
-    if (eventArgs.get_gridColumn().get_uniqueName() == "ClientID") {
+    if (eventArgs.get_column().get_uniqueName() == "ClientID") {
         eventArgs.get_menu().get_element().className = "MyClass";
     }
     else {

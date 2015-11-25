@@ -78,3 +78,11 @@ The BaseSecureUrl will be used when the page is served over a secure connection.
             
             	See TelerikCdn for detailed description of the Telerik CDN network.
 
+## Methods
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
+

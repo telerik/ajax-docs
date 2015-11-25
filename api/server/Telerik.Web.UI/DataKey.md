@@ -13,5 +13,5 @@ A class holding a data key which is inherited from System.Collections.Hashtable 
 
 * System.Object
 * System.Collections.Hashtable
-* Telerik.Web.UI.DataKey
+* Telerik.Web.UI.DataKey : IStateManager
 

@@ -10,8 +10,8 @@ description: Telerik.Web.UI.InputManagerBase
 
 * System.Object
 * System.Web.UI.Control
-* Telerik.Web.UI.RadControl
-* Telerik.Web.UI.InputManagerBase
+* Telerik.Web.UI.RadControl : IControl, IControlResolver, IScriptControl, ISkinnableControl
+* Telerik.Web.UI.InputManagerBase : INamingContainer
 
 ## Properties
 

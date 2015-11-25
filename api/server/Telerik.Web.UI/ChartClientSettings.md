@@ -11,8 +11,8 @@ Chart client settings
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Charting.StateManagedObject
-* Telerik.Web.UI.ChartClientSettings
+* Telerik.Charting.StateManagedObject : IChartingStateManagedItem, IChartingStateManager, IDisposable
+* Telerik.Web.UI.ChartClientSettings : ICloneable
 
 ## Properties
 

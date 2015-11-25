@@ -13,7 +13,7 @@ Represents the UI component rendered by Telerik.Web.UI.RadFilter to to represent
 
 * System.Object
 * System.Web.UI.Control
-* Telerik.Web.UI.RadFilterExpressionItem
+* Telerik.Web.UI.RadFilterExpressionItem : INamingContainer
 * Telerik.Web.UI.RadFilterSingleExpressionItem
 
 ## Properties

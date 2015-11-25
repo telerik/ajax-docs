@@ -12,7 +12,7 @@ Represents the settings of the DropDown in a Telerik.Web.UI.RadSearchBox control
 
 * System.Object
 * Telerik.Web.UI.ObjectWithState
-* Telerik.Web.UI.SearchBox.DropDownSettings
+* Telerik.Web.UI.SearchBox.DropDownSettings : IDisposable
 
 ## Properties
 
@@ -54,4 +54,12 @@ Get a header of
 
 Get a footer of 
             RadSearchBox.
+
+## Methods
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
 

@@ -11,7 +11,7 @@ Represents a property of an System.Linq.IQueryable entity.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.PivotGrid.Core.Fields.PivotFieldInfo
+* Telerik.Web.UI.PivotGrid.Core.Fields.PivotFieldInfo : IPivotFieldInfo
 * Telerik.Web.UI.PivotGrid.Core.Fields.PropertyFieldInfo
 * Telerik.Web.UI.PivotGrid.Queryable.QueryableFieldDescription
 

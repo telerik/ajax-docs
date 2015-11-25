@@ -20,6 +20,8 @@ This article describes common issues related to the design-time rendering of the
 
 * [Visual Studio crashes if the project uses Microsoft Report Viewer when designing a local report (.rdlc) and adding a dataset](#visual-studio-crashes-if-the-project-uses-microsoft-report-viewer-when-designing-a-local-report-rdlc-and-adding-a-dataset)
 
+* [Designer files are not updated or are missing Telerik controls](#designer-files-are-not-updated-or-are-missing-telerik-controls)
+
 * [Design-time Issues with Visual Studio 2008](#design-time-issues-with-visual-studio-2008)
 
 >note The **Telerik.Web.Design.dll** assembly is installed in the GAC by the automated installer of the Telerik UI for ASP.NET AJAX suite.Some of the design-time issues described below may require you to modify the GAC in order to remove duplicate assemblies. The [Using the Global Assembly Cache]({%slug introduction/deployment/using-the-global-assembly-cache%}) help article can help you with that.
@@ -104,13 +106,40 @@ Restart Visual Studio between the reload one of the two projects
 
 ## Visual Studio crashes if the project uses Microsoft Report Viewer when designing a local report (.rdlc) and adding a dataset.
 
-**Error Message**: System.IO.FileNotFoundException: Could not load file or assembly 'Microsoft.AnalysisServices.AdomdClient, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91' or one of its dependencies. The system cannot find the file specified.
+**Error Message**: `System.IO.FileNotFoundException`: *Could not load file or assembly 'Microsoft.AnalysisServices.AdomdClient, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91' or one of its dependencies. The system cannot find the file specified*.
 
-**Reasons**: We are required to refer an assembly with a specific version which in this case is **Version=10.0.0.0**. In case of missing this exact assembly version locally or in the GAC folder the above exception is thrown and Visual Studio crashes.Please note that Microsoft.AnalysisServices.AdomdClient assembly Version=10.0.0.0 comes with Microsoft SQL Server 2008 R2 SP2 Feature Pack but the Microsoft SQL Server 2012 Feature Pack will install Microsoft.AnalysisServices.AdomdClient assembly with **Version=11.0.0.0**.
+**Reasons**: We are required to refer the **Microsoft.AnalysisServices.AdomdClient** assembly with a specific version - **Version=10.0.0.0**. If this assembly is not referenced by the solution or is not present in the GAC of the machine, Visual Studio cannot find it and it crashes. The version we require comes with Microsoft SQL Server 2008 R2 SP2 Feature Pack, but the Microsoft SQL Server 2012 Feature Pack will install Microsoft.AnalysisServices.AdomdClient assembly with **Version=11.0.0.0** and newer versions are also available.
 
-**Suggested solution**:
+**Solution**: Ensure that the machine has  **Microsoft.AnalysisServices.AdomdClient Version=10.0.0.0** on it. To do that, **install** the free **Microsoft SQL Server 2008 R2 SP2 Feature Pack** from [http://www.microsoft.com/en-us/download/details.aspx?id=30440](http://www.microsoft.com/en-us/download/details.aspx?id=30440). You only need the following components from the available list (make sure to select the correct processor architecture for your machine):
 
-A valid workaround is to install this assembly Version=10.0.0.0 which comes with the Microsoft SQL Server 2008 R2 SP2 Feature Pack and it is distributed free [here](http://www.microsoft.com/en-us/download/details.aspx?id=30440).
+* **SQLSERVER2008_ASADOMD10**
+
+* **SQLSERVER2008_ASAMO10**
+
+
+
+## Designer files are not updated or are missing Telerik controls
+
+On rare occasions, the `designer.cs`/`designer.vb` files may not be updated when you change the markup of a page, or they may be missing the Telerik controls altogether. Here is a list of possible reasons and solutions that may help if this happens to you:
+
+* See if the issue occurs on another machine (e.g., a colleague). If not, compare the machines to try to find the difference that causes it.
+
+* When Visual Studio 2013 is used together with TFS and *Get Everything when a solution or project is opened* under *Options* > *Source Control* -> *Environment* is checked. The solution is to uncheck it and manually retrieve the latest version. This issue occurs with the native ASP.NET controls as well.
+ 
+* Try deleting your local copy of the project and get it anew from your source control.
+
+* Try deleting the contents of the `license.licx` file or the entire file so Visual Studio can generate it again.
+ 
+* Try deleting the *.suo file of the solution
+
+* Try uninstalling the Telerik Visual Studio Extensions.
+
+* Try moving the control declaration from the markup to the code-behind, if possible in your scenario.
+
+* Ensure the Telerik control tags are in PascalCase and not in all lowercase, a report suggested that this caused their classes in the designer files to also become lowercase which causes them to be a mismatch for the actual classes.
+
+
+
 
 ## Design-time Issues with Visual Studio 2008
 

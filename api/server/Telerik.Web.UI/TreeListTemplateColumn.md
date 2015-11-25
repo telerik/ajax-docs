@@ -11,8 +11,8 @@ Represents a Telerik.Web.UI.TreeListColumn which allows templating its content.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
-* Telerik.Web.UI.TreeListColumn
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
+* Telerik.Web.UI.TreeListColumn : IComparable
 * Telerik.Web.UI.TreeListDataColumn
 * Telerik.Web.UI.TreeListEditableColumn
 * Telerik.Web.UI.TreeListTemplateColumn

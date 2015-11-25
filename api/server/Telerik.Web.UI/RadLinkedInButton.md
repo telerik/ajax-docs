@@ -11,7 +11,7 @@ The class for creating a LinkedIn Standard button.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.RadSocialButtonBase
 * Telerik.Web.UI.RadLinkedInButton
 

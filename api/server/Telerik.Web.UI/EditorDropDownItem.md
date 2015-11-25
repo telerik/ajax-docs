@@ -11,7 +11,7 @@ Represents a EditorDropDownItem dropdown item from a custom editor dropdown
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.EditorNameValueItem
 * Telerik.Web.UI.EditorDropDownItem
 

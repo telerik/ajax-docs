@@ -11,7 +11,7 @@ A special ImageEditorTool object, which is rendered as a separator by the defaul
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.ImageEditorToolBase
 * Telerik.Web.UI.ImageEditorToolSeparator
 

@@ -20,7 +20,7 @@ If you choose AllowMultiRowSelection = truefor the grid, a
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.GridColumn
+* Telerik.Web.UI.GridColumn : IComparable, IStateManager
 * Telerik.Web.UI.GridButtonColumn
 * Telerik.Web.UI.GridClientSelectColumn
 

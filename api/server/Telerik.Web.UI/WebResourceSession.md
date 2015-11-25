@@ -15,7 +15,7 @@ This class should be used in the HTTP Handler declaration for Telerik.Web.UI.Web
 * System.Web.UI.TemplateControl
 * System.Web.UI.Page
 * Telerik.Web.UI.WebResource
-* Telerik.Web.UI.WebResourceSession
+* Telerik.Web.UI.WebResourceSession : IRequiresSessionState
 
 ## Methods
 

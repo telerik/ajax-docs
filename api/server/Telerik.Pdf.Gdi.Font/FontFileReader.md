@@ -11,7 +11,7 @@ Class designed to parse a TrueType font file.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Pdf.Gdi.Font.FontFileReader
+* Telerik.Pdf.Gdi.Font.FontFileReader : IDisposable
 
 ## Properties
 

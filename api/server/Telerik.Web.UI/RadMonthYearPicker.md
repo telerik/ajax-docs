@@ -13,9 +13,9 @@ RadMonthYearPicker class
 * System.Object
 * System.Web.UI.Control
 * System.Web.UI.WebControls.WebControl
-* Telerik.Web.UI.RadWebControl
-* Telerik.Web.UI.Calendar.Persistence.PropertiesControl
-* Telerik.Web.UI.RadMonthYearPicker
+* Telerik.Web.UI.RadWebControl : IControl, IControlResolver, IPostBackDataHandler, IScriptControl, ISkinnableControl
+* Telerik.Web.UI.Calendar.Persistence.PropertiesControl : IStateManager
+* Telerik.Web.UI.RadMonthYearPicker : INamingContainer, IPostBackEventHandler
 
 ## Properties
 
@@ -533,4 +533,10 @@ Executed when post data changes should invoke a changed event
 #### Returns
 
 `System.Void` 
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
 

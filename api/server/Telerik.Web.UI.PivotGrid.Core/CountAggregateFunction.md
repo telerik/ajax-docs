@@ -12,8 +12,8 @@ Counts items.
 
 * System.Object
 * Telerik.Web.UI.PivotGrid.Core.Cloneable
-* Telerik.Web.UI.PivotGrid.Core.SettingsNode
-* Telerik.Web.UI.PivotGrid.Core.Aggregates.AggregateFunction
+* Telerik.Web.UI.PivotGrid.Core.SettingsNode : IEditable, INotifyPropertyChanged, IServiceProvider, ISupportInitialize
+* Telerik.Web.UI.PivotGrid.Core.Aggregates.AggregateFunction : INamed
 * Telerik.Web.UI.PivotGrid.Core.CountAggregateFunction
 
 ## Properties

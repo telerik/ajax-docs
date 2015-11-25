@@ -5,7 +5,7 @@ description: Web API
 slug: gantt/data-binding/client-side-binding/web-api
 tags: web,api
 published: False
-position: 2
+position: 3
 ---
 
 # Web API

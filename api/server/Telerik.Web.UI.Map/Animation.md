@@ -11,8 +11,8 @@ A collection of {Animation} objects, used to change default animations. A value 
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
-* Telerik.Web.UI.Map.Animation
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
+* Telerik.Web.UI.Map.Animation : IDefaultCheck
 
 ## Properties
 

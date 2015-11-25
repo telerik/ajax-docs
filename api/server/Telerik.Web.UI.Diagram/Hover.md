@@ -11,8 +11,8 @@ Specifies the settings of the resizing handles on hovering over them. See the ed
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
-* Telerik.Web.UI.Diagram.Hover
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
+* Telerik.Web.UI.Diagram.Hover : IDefaultCheck
 
 ## Properties
 

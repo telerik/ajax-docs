@@ -15,7 +15,7 @@ File trailers are described in section 3.4.4 of the PDF specification.
 
 * System.Object
 * Telerik.Pdf.PdfObject
-* Telerik.Pdf.PdfDictionary
+* Telerik.Pdf.PdfDictionary : IEnumerable
 * Telerik.Pdf.PdfFileTrailer
 
 ## Properties

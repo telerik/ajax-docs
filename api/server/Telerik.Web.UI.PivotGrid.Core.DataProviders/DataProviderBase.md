@@ -11,7 +11,7 @@ Base implementation of Telerik.Web.UI.PivotGrid.Core.IDataProvider .
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.PivotGrid.Core.DataProviders.DataProviderBase
+* Telerik.Web.UI.PivotGrid.Core.DataProviders.DataProviderBase : IDataProvider, INotifyPropertyChanged, ISupportInitialize
 
 ## Properties
 

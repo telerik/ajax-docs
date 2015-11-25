@@ -150,11 +150,12 @@ They are not as convenient as the **ExportCellFormatting** event because the dev
 
 Please keep in mind that if you don't use **IgnorePaging="true" RadGrid** will be exported directly and the **ItemCreated**/**ItemDataBound** events won't be fired.
 
-
+>note Since UI for ASP.NET AJAX Q3 2015 we have implement a new property named **IsExporting** which can be used instead of the old approach with a boolean flag. The property is accessible only from the server.
+>
 
 ````C#
-bool isExport = false; //Export flagprotected 
-void Button1_Click(object sender, EventArgs e)
+bool isExport = false; //Export flag 
+protected void Button1_Click(object sender, EventArgs e)
 {
     isExport = true;
     RadGrid1.MasterTableView.ExportToExcel();
@@ -323,6 +324,17 @@ Protected Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As GridItemEv
 End Sub
 ````
 
+## Default Cell Alignment
+
+You can specify a default alignment to all cells by using **DefaultCellAlignment**. This property is supported since **Q2 2015** and its default value is NotSet. Typical values include **Left**, **Right** and **Center**.
+
+````ASP.NET    
+<ExportSettings>
+    <Excel DefaultCellAlignment="Center" />
+</ExportSettings>
+````
+
+Additionally you can change the default alignment on **HtmlExporting** event.
 
 ## Resizing/Aligning Columns
 

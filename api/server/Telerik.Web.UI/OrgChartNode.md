@@ -11,7 +11,7 @@ Represents an Telerik.Web.UI.OrgChartNode OrgChartNodein the Telerik.Web.UI.RadO
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.OrgChartNode
+* Telerik.Web.UI.OrgChartNode : IDisposable, IOrgChartNodeContainer, IOrgChartRendererContainer, IXmlSerializable
 
 ## Properties
 

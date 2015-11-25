@@ -29,7 +29,7 @@ With the current implementation you can switch the main image using three gestur
 * Tapping on a thumbnail from the thumbnails area
 
 Additionally you can swipe left or right over the thumbnails area to navigate to the next/previous subset of thumbnails. The same effect can be achieved by taping over the previous or next buttons.
-![Image-Gallery-Touch Gestures 1](images/image-gallery-TouchGestures1.png)
+![Image-Gallery-Touch Gestures 1](images/image-gallery-TouchGestures1.jpg)
 
 ### Tuning On/Off Features
 
@@ -39,7 +39,7 @@ In the list provided below you can find the control features that can be turned 
 
 * Show/Hide the thumbnails area - Can be achieved by performing a swipe up/down over the main image or tapping on the show/hide thumbnails buttons
 
-* Enter/Exit full screen - Can be achieved by double tapping on the main image or performing a single tap over the enter/exit full screen buttons![Image-Gallery-Touch Gestures 2](images/image-gallery-TouchGestures2.png)
+* Enter/Exit full screen - Can be achieved by double tapping on the main image or performing a single tap over the enter/exit full screen buttons![Image-Gallery-Touch Gestures 2](images/image-gallery-TouchGestures2.jpg)
 
 ## Mobile rendering
 
@@ -55,7 +55,7 @@ With the current implementation you can switch the main image using two gestures
 
 Additionally you can swipe left or right over the thumbnails area to navigate to the next/previous subset of thumbnails. The same effect can be achieved by taping over the previous or next buttons. 
 Also if the image is in full screen mode you can use a single tab. This gesture allows you to toggle the visibility of the elements displayed over the image. Such elements are the image title and the description.
-![Image-Gallery-Touch Gestures 1](images/image-gallery-TouchGestures3.png)
+![Image-Gallery-Touch Gestures 1](images/image-gallery-TouchGestures3.jpg)
 
 ### Tuning On/Off Features 
 

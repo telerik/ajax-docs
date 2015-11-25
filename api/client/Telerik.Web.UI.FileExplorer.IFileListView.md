@@ -277,6 +277,20 @@ Sets the data for the underlying data bindable control
 
 `None` 
 
+### set_height
+
+Set the height of the FileListView
+
+#### Parameters
+
+##### height `String`
+
+The height to be set.
+
+#### Returns
+
+`None`
+
 ###  set_pageIndex
 
 Set the current page to display

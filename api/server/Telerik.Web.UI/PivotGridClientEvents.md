@@ -11,7 +11,7 @@ The class holding all Telerik.Web.UI.RadPivotGrid client events.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.PivotGridClientEvents
 
 ## Properties

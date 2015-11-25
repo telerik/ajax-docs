@@ -11,7 +11,7 @@ An Telerik.Web.UI.PivotGrid.Core.Fields.IFieldDescriptionProvider for a generic 
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.PivotGrid.Core.Fields.FieldDescriptionProviderBase
+* Telerik.Web.UI.PivotGrid.Core.Fields.FieldDescriptionProviderBase : IFieldDescriptionProvider
 * Telerik.Web.UI.PivotGrid.Core.Fields.LocalFieldDescriptionsProviderBase
 * Telerik.Web.UI.PivotGrid.Core.Fields.LocalDataSourceFieldDescriptionsProvider
 

@@ -15,7 +15,7 @@ The document catalog is described in section 3.6.1 of the PDF specification.
 
 * System.Object
 * Telerik.Pdf.PdfObject
-* Telerik.Pdf.PdfDictionary
+* Telerik.Pdf.PdfDictionary : IEnumerable
 * Telerik.Pdf.PdfCatalog
 
 ## Properties

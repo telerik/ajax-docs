@@ -28,7 +28,7 @@ You can bind **RadImageGallery** to a virtual folder path and display all images
 
 
 **Figure 1** - RadImageGallery bound to a Folder
-![image-gallery-binding-to-folder](images/image-gallery-binding-to-folder.png)
+![image-gallery-binding-to-folder](images/image-gallery-binding-to-folder.jpg)
 
 # See Also
 

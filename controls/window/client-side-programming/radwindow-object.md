@@ -90,6 +90,7 @@ This article contains the following sections:
 | **set_minimizeZoneID** |Sets the client-side ID of an HTML element where the window object will be docked when minimized.|
 | **set_minWidth** |Sets the minimum width of the **RadWindow** in pixels.|
 | **set_modal** |Sets the modality of the **RadWindow** . It accepts a Boolean value as an argument, e.g., oWnd.set_modal(true);|
+|**set_navigateUrl**|Sets the URL RadWindow will navigate to. Does not create the markup of the dialog or load the content page. To load the content page and show the dialog use `setUrl` and `show` respectively.|
 | **set_offsetElementID** |Sets the **OffsetElementId** (client-side ID of an HTML element where **RadWindow** will be positioned).|
 | **set_opacity** |Sets the value indicating the opacity of the Boolean. The value should be between 0 and 100. The default value is 100, which is opaque.|
 | **set_openerElementID** |Sets the **OpenerElementId** for the **RadWindow** . This is the HTML element that will open the **RadWindow** when clicked.	Note that if it is a postback element, its server-side handlers will not fire.|
@@ -139,7 +140,7 @@ This article contains the following sections:
 | **removeShortcut** |Removes the last shortcut for thegiven command (passed as a string parameter).|
 | **setActive** |Takes a Boolean argument that, if **true** , makes the **RadWindow** the active (topmost) window on the page, otherwise	when the passed parameter is **false** , the **setActive** method makes the control lose focus.|
 | **setSize** |Sets the size of the **RadWindow** in pixels. Takes two integer arguments for the width and height (in this order).|
-| **setUrl** |Changes the URL of the **RadWindow** .|
+| **setUrl** |Changes the URL of the **RadWindow**. It will load the content page and create the markup of the dialog even if it has not been shown yet. To simply set the page without navigating to it, use `set_navigateUrl`.|
 | **show** |Shows the **RadWindow** if it was invisible. If it does not exist, show() creates it.|
 | **togglePin** |Toggles whether the **RadWindow** is pinned.|
 

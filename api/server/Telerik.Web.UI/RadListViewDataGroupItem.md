@@ -12,7 +12,7 @@ Represents a data group item for the single data group container
 
 * System.Object
 * System.Web.UI.Control
-* Telerik.Web.UI.RadListViewItem
+* Telerik.Web.UI.RadListViewItem : INamingContainer
 * Telerik.Web.UI.RadListViewDataGroupItem
 
 ## Properties

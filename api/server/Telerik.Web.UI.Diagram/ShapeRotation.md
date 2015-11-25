@@ -11,8 +11,8 @@ Defines the rotation of the shapes.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
-* Telerik.Web.UI.Diagram.ShapeRotation
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
+* Telerik.Web.UI.Diagram.ShapeRotation : IDefaultCheck
 
 ## Properties
 

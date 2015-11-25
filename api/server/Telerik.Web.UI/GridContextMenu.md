@@ -15,10 +15,10 @@ GridContextMenu
 * System.Web.UI.WebControls.WebControl
 * System.Web.UI.WebControls.BaseDataBoundControl
 * System.Web.UI.WebControls.DataBoundControl
-* Telerik.Web.UI.RadDataBoundControl
-* Telerik.Web.UI.ControlItemContainer
+* Telerik.Web.UI.RadDataBoundControl : IControl, IControlResolver, IFeatureGroup, IPostBackDataHandler, IScriptControl, ISkinnableControl
+* Telerik.Web.UI.ControlItemContainer : IControlItemContainer, INamingContainer, IXmlSerializable
 * Telerik.Web.UI.HierarchicalControlItemContainer
-* Telerik.Web.UI.RadMenu
+* Telerik.Web.UI.RadMenu : IPostBackEventHandler, IRadMenuItemContainer
 * Telerik.Web.UI.RadContextMenu
 * Telerik.Web.UI.GridContextMenu
 
@@ -1096,4 +1096,10 @@ Executed when post data changes should invoke a changed event
 #### Returns
 
 `System.Void` 
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
 

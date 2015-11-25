@@ -15,7 +15,7 @@ Represents the aggregate fields zone of Telerik.Web.UI.RadPivotGrid .
 * System.Web.UI.WebControls.WebControl
 * System.Web.UI.WebControls.TableCell
 * Telerik.Web.UI.PivotGridTableCell
-* Telerik.Web.UI.PivotGridCell
+* Telerik.Web.UI.PivotGridCell : INamingContainer
 * Telerik.Web.UI.PivotGridZone
 * Telerik.Web.UI.PivotGridAggregateZone
 

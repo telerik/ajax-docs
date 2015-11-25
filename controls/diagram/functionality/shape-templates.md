@@ -86,6 +86,77 @@ You can fully control where and how data is displayed in the **RadDiagram** shap
 </telerik:RadDiagram>
 ````
 
+**Example 2** creates a diagram with custom template, depending on each shape configuration. Each shape using the template contains both text and image.
+
+>caption **Figure 2**: Shapes with configured template with text and image.
+
+![diagram-visual-template](images/diagram-visual-template-1.png)
+
+>caption **Example 2**: Shape template setting different text and image for each shape in the diagram.
+
+````ASP.NET
+<script>
+	function ImageTemplate(options) {
+		var dataviz = kendo.dataviz;
+		var group = new dataviz.diagram.Group({ autoSize: true });
+		var content = options.source.substring(options.source.lastIndexOf("/") + 1, options.source.lastIndexOf("."));
+
+		group.append(new dataviz.diagram.Rectangle({
+			x: 0,
+			y: 0,
+			width: options.width,
+			height: options.height,
+			fill: {
+				color: options.fill.color
+			}
+		}));
+
+		group.append(new dataviz.diagram.TextBlock({
+			text: content,
+			x: 90,
+			y: 30
+		}));
+
+		var image = new dataviz.diagram.Image({
+			source: options.source,
+			x: 10,
+			y: 10,
+			width: 60,
+			height: 60,
+		});
+		group.append(image);
+
+		return group;
+	};
+</script>
+
+<telerik:RadDiagram ID="RadDiagram1" runat="server">
+	<LayoutSettings Enabled="true" Type="Tree" Subtype="Down"></LayoutSettings>
+	<ShapeDefaultsSettings Visual="ImageTemplate" Width="200" Height="80"></ShapeDefaultsSettings>
+	<ShapesCollection>
+		<telerik:DiagramShape Id="s1" Source="./Images/Daniel Moor.jpg">
+			<FillSettings Color="#7F7F7F" />
+		</telerik:DiagramShape>
+		<telerik:DiagramShape Id="s2" Source="./Images/Diego Wilson.jpg">
+			<FillSettings Color="#C0C0C0" />
+		</telerik:DiagramShape>
+		<telerik:DiagramShape Id="s3" Source="./Images/Ann Brown.jpg">
+			<FillSettings Color="#C0C0C0" />
+		</telerik:DiagramShape>
+	</ShapesCollection>
+	<ConnectionsCollection>
+		<telerik:DiagramConnection>
+			<FromSettings ShapeId="s1" Connector="Bottom" />
+			<ToSettings ShapeId="s2" Connector="Top" />
+		</telerik:DiagramConnection>
+		<telerik:DiagramConnection>
+			<FromSettings ShapeId="s1" Connector="Bottom" />
+			<ToSettings ShapeId="s3" Connector="Top" />
+		</telerik:DiagramConnection>
+	</ConnectionsCollection>
+</telerik:RadDiagram>
+````
+
 # See Also
 
  * [Kendo UI Diagram API for creating visual templates](http://docs.telerik.com/kendo-ui/api/dataviz/diagram#configuration-shapeDefaults.visual)

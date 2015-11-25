@@ -11,7 +11,7 @@ Base class implements IStateManager
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Charting.StateManagedObject
+* Telerik.Charting.StateManagedObject : IChartingStateManagedItem, IChartingStateManager, IDisposable
 
 ## Properties
 

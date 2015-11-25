@@ -12,8 +12,8 @@ Base class for all Telerik.Web.Data.IFilterDescriptor used for
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.Data.DescriptorBase
-* Telerik.Web.Data.FilterDescriptorBase
+* Telerik.Web.Data.DescriptorBase : INotifyPropertyChanged
+* Telerik.Web.Data.FilterDescriptorBase : IFilterDescriptor
 
 ## Methods
 

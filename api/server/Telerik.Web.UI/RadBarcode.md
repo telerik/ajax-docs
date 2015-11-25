@@ -13,13 +13,17 @@ RadBarcode control. Control for rendering Barcode or QR text into an Image or SV
 * System.Object
 * System.Web.UI.Control
 * System.Web.UI.WebControls.WebControl
-* Telerik.Web.UI.RadBarcode
+* Telerik.Web.UI.RadBarcode : IScriptControl
 
 ## Properties
 
 ###  QRCodeSettings `QRCodeSettings`
 
 Specify additional settings when using Type="QRCode"
+
+###  PDF417Settings `PDF417Settings`
+
+Specify additional settings when using Type="PDF417"
 
 ###  AlternateText `String`
 
@@ -32,6 +36,10 @@ Specify the alternate text for the img tag of RadBarcode
 ###  Type `BarcodeType`
 
 Specify the barcode standard that should be used
+
+###  Rotation `Rotation`
+
+Specify the rotation of the Barcode
 
 ###  Text `String`
 

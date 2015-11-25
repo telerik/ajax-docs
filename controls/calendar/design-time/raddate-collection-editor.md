@@ -23,4 +23,4 @@ To remove a selected date, select it in the list and click the **Remove** button
 
 # See Also
 
- * [Date Selection]({%slug calendar/radcalendar/date-selection%})
+ * [Date Selection]({%slug calendar/functionality/date-selection%})

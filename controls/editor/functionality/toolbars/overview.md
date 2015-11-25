@@ -45,7 +45,7 @@ The lists below show the icon image, the name of the tool, a description of what
 
 |  **Icon**  |  **Tool Name**  |  **Description**  |  **ToolsFile Declaration**  |
 | ------ | ------ | ------ | ------ |
-|![](images/editor-converttoupper.gif)| **ConvertToUpper** |Convert the text of the current selection to upper case, preserving the non-text elements such as	images and tables.|`<toolname="ConvertToUpper" />`|
+|![](images/editor-converttoupper.gif)| **ConvertToUpper** |Convert the text of the current selection to upper case, preserving the non-text elements such as	images and tables.|`<tool name="ConvertToUpper" />`|
 |![](images/editor-converttolower.gif)| **ConvertToLower** |Convert the text of the current selection to lower case, preserving the non-text	elements such as images and tables.|`<tool name="ConvertToLower" />`|
 |![](images/editor-fontsize.gif)| **RealFontSize** |Allows the user to apply to the current selection, the font size measured in pixels (px) or points (pt),	rather than a fixed-size 1 to 7 (as does the FontSize tool).|`<tool name="RealFontSize"/>`|
 |![](images/editor-togglescreenmode.gif)| **ToggleScreenMode** |Toggle Screen Mode - Switches Telerik **RadEditor** into full screen mode.|`<tool name="ToggleScreenMode" shortcut="F11"/>`|
@@ -71,6 +71,7 @@ The lists below show the icon image, the name of the tool, a description of what
 |![](images/editor-help.gif)| **Help** |Quick Help - Launches the Quick Help you are currently viewing.|`<tool name="Help" shortcut="F1"/>`|
 |![](images/editor-aboutdialog.gif)| **AboutDialog** |About Dialog - Shows the current version and credentials of Telerik **RadEditor** .|`<tool name="AboutDialog" />`|
 |![](images/editor-xhtmlvalidator.png)| **XhtmlValidator** |XhtmlValidator - Uses the W3C XHTML Validator Page to perform validation of the current editor content.|`<tool name="XhtmlValidator" />`|
+|![](images/editor-csdialog-icon.png)| **CSDialog** |[Accessibility Compliance Check Dialog]({%slug editor/accessibility-and-internationalization/creating-accessible-content/compliance-check-dialog%}) - Uses HiSoftware's Compliance Sheriff tool to help the user create accessible content.|`<tool name="CSDialog" />`|
 |![StyleBuilder](images/editor-stylebuilder.png)| **StyleBuilder** |StyleBuilder - Provides options to define cascading style sheet (CSS) style attributes.|`<tool name="StyleBuilder" />`|
 |![](./images/editor-toggle-toolzone.png)|**Toggle ToolZone** *(this button is [Phone-Layout-related]({%slug editor/mobile-support/phone-layout/overview%}))*|Toggles the ToolZone in RadEditor with Phone Layout|`<tool name"MobileEdit" />`|
 |![](./images/editor-toggle-html-mode.png)|**Toggle Edit Mode** *(this button is [Phone-Layout-related]({%slug editor/mobile-support/phone-layout/overview%}))*|Switches between Design and HTML mode in RadEditor with Phone Layout.|`<tool name"ToggleEditMode" />`|

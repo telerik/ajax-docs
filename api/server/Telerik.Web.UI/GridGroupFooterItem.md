@@ -15,7 +15,7 @@ Telerik.Web.UI.RadGrid item which represents a footer for each group on the curr
 * System.Web.UI.WebControls.WebControl
 * System.Web.UI.WebControls.TableRow
 * Telerik.Web.UI.GridTableRow
-* Telerik.Web.UI.GridItem
+* Telerik.Web.UI.GridItem : INamingContainer
 * Telerik.Web.UI.GridGroupFooterItem
 
 ## Properties

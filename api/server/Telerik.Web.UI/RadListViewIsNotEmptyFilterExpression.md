@@ -11,7 +11,7 @@ Represents IsEmpty RadListView filter expression
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.RadListViewFilterExpression
+* Telerik.Web.UI.RadListViewFilterExpression : IEquatable`1, IHideObjectMembers, IStateManager
 * Telerik.Web.UI.RadListViewIsNotEmptyFilterExpression
 
 ## Properties

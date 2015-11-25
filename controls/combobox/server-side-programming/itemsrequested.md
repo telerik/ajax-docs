@@ -30,7 +30,7 @@ The **ItemsRequested** event handler receives two arguments:
 
 * **Value** is the value of the currently selected item.
 
-* **Message** is the message that appears in the [ShowMoreResults box]({%slug combobox/load-on-demand/showmoreresultsbox/virtual-scrolling%}). This is only used when the **ShowMoreResultsBox** property is **True**.
+* **Message** is the message that appears in the [ShowMoreResults box]({%slug combobox/load-on-demand/showmoreresultsbox-virtual-scrolling%}). This is only used when the **ShowMoreResultsBox** property is **True**.
 
 * **NumberOfItems** is the number of items that have been added by all previous calls to the **ItemsRequested** event handler when the **ShowMoreResultsBox** property is **True**.
 

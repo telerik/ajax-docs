@@ -10,7 +10,7 @@ position: 9
 
 # OnClientSubmit
 
-This event is fired just before the content is filtered and encoded.
+This event is raised just before the **RadEditor** content is filtered and encoded. This happens when the page is POST-ed to the server (a postback or an AJAX request is initiated). 
 
 >caption Example
 

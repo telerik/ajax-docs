@@ -11,7 +11,7 @@ Represents an Telerik.Web.UI.PivotGrid.Core.Fields.IFieldDescriptionProvider for
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.PivotGrid.Core.Fields.FieldDescriptionProviderBase
+* Telerik.Web.UI.PivotGrid.Core.Fields.FieldDescriptionProviderBase : IFieldDescriptionProvider
 * Telerik.Web.UI.PivotGrid.Core.Fields.LocalFieldDescriptionsProviderBase
 * Telerik.Web.UI.PivotGrid.Queryable.QueryableFieldDescriptionsProvider
 

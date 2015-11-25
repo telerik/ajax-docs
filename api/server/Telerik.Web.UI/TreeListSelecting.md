@@ -16,7 +16,7 @@ You can get a reference to this class using
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.TreeListSelecting
 
 ## Properties

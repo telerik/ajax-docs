@@ -46,3 +46,11 @@ Gets or sets the whether the file list panel will be displayed when no files are
 #### Remarks
 The value of the property should be a valid jQuery selectors. E.g. class name or Id of html element.
 
+## Methods
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
+

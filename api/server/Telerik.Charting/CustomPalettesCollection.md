@@ -11,7 +11,7 @@ User-defined palettes collection
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Charting.ChartingStateManagedCollection`1
+* Telerik.Charting.ChartingStateManagedCollection`1 : IChartingStateManager, ICollection, ICollection`1, IEnumerable, IEnumerable`1, IList, IList`1
 * Telerik.Charting.CustomPalettesCollection
 
 ## Properties

@@ -11,7 +11,7 @@ Creates an item for the Funnel series type.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.HtmlChart.PlotArea.Series.SeriesItems.SeriesItemBase
 * Telerik.Web.UI.HtmlChart.PlotArea.Series.SeriesItems.SingleValueSeriesItem
 * Telerik.Web.UI.FunnelSeriesItem

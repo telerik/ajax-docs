@@ -5,7 +5,7 @@ description: OnClientTaskResizing
 slug: gantt/client-side-programming/events/onclienttaskresizing
 tags: onclienttaskresizing
 published: True
-position: 5
+position: 6
 ---
 
 # OnClientTaskResizing

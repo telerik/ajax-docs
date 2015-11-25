@@ -9,7 +9,7 @@ description: Telerik.Web.UI.TreeListInsertionObject
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.TreeListInsertionObject
+* Telerik.Web.UI.TreeListInsertionObject : ICustomTypeDescriptor
 
 ## Methods
 

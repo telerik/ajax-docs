@@ -9,6 +9,12 @@ function expandNavigation(url) {
 
         for (var idx = 0; idx < segments.length; idx++) {
             node = dataSource.get(segments[idx]);
+
+            if (!node) {
+                treeview.unbind("dataBound", arguments.callee);
+                return;
+            }
+
             node.set("expanded", true);
             dataSource = node.children;
         }
@@ -26,7 +32,7 @@ function expandNavigation(url) {
             navigationElement.scrollTop(selectedNodeTopOffset - navigationElement.height() / 2);
         }
 
-        this.unbind("dataBound", arguments.callee);
+        treeview.unbind("dataBound", arguments.callee);
     }
 }
 

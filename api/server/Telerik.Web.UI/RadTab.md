@@ -31,9 +31,9 @@ The Telerik.Web.UI.RadTabStrip RadTabStripcontrol is made up of tabs. Tabs which
 * System.Object
 * System.Web.UI.Control
 * System.Web.UI.WebControls.WebControl
-* Telerik.Web.UI.ControlItem
-* Telerik.Web.UI.NavigationItem
-* Telerik.Web.UI.RadTab
+* Telerik.Web.UI.ControlItem : IMarkableStateManager, INamingContainer, IStateManager, IXmlSerializable
+* Telerik.Web.UI.NavigationItem : IControlItemContainer
+* Telerik.Web.UI.RadTab : IRadTabContainer
 
 ## Properties
 

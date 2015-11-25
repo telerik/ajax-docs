@@ -20,7 +20,8 @@ Let's say you have an assembly called **InheritedGrid.dll** and the grid name is
 
 When you create applications with the inherited control version, you should have both of the following Register directives in the aspx of the page:
 
-**<%@ Register TagPrefix="radG" Namespace="Telerik.Web.UI" Assembly="Telerik.Web.UI"%><%@ Register TagPrefix="myRadG" Namespace="MyBaseNamespace.MyControls" Assembly="InheritedGrid"%>**
+**<%@ Register TagPrefix="radG" Namespace="Telerik.Web.UI" Assembly="Telerik.Web.UI"%>**
+**<%@ Register TagPrefix="myRadG" Namespace="MyBaseNamespace.MyControls" Assembly="InheritedGrid"%>**
 
 The first one states that you will reference classes declared in the **Telerik.Web.UI**assembly. The second one is your assembly, where the inherited controls are.
 
@@ -51,7 +52,7 @@ But the **GridTableView**, **GridBoundColumn** etc. classes are defined in the *
 
 This should be enough for the VS designer to register the tag prefixes the right way. Then the Telerik RadGrid Property Builder will serialize correctly the design time markup.
 
-If you would like to inherit the GridTableView object for your grid, here are some basic rules that you need to follow:
+If you would like to inherit the **GridTableView** object for your grid, here are some basic rules that you need to follow:
 
 
 
@@ -113,7 +114,7 @@ Namespace MyNamespace
 ````
 
 
-Basically, you need to override the CreateTableView() method of the RadGrid class and return an instance of your custom GridTableView.
+Basically, you need to override the **CreateTableView()** method of the RadGrid class and return an instance of your custom **GridTableView**.
 
 As the inheritance of a control is an ASP.NET feature, these rules are applicable to inherit and use ASP.NET server control.
 

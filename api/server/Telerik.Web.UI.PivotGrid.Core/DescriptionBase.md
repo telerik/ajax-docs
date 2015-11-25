@@ -12,8 +12,8 @@ Contains mechanisms to access and describe properties of objects used as source 
 
 * System.Object
 * Telerik.Web.UI.PivotGrid.Core.Cloneable
-* Telerik.Web.UI.PivotGrid.Core.SettingsNode
-* Telerik.Web.UI.PivotGrid.Core.DescriptionBase
+* Telerik.Web.UI.PivotGrid.Core.SettingsNode : IEditable, INotifyPropertyChanged, IServiceProvider, ISupportInitialize
+* Telerik.Web.UI.PivotGrid.Core.DescriptionBase : IDescriptionBase, INamed
 
 ## Properties
 

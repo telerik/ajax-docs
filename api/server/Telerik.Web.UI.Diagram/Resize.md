@@ -11,8 +11,8 @@ Defines the look-and-feel of the resizing handles.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
-* Telerik.Web.UI.Diagram.Resize
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
+* Telerik.Web.UI.Diagram.Resize : IDefaultCheck
 
 ## Properties
 

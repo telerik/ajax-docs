@@ -13,8 +13,8 @@ Represents a component that builds filter expressions, with various types of syn
 * System.Object
 * System.Web.UI.Control
 * System.Web.UI.WebControls.WebControl
-* Telerik.Web.UI.RadWebControl
-* Telerik.Web.UI.RadFilter
+* Telerik.Web.UI.RadWebControl : IControl, IControlResolver, IPostBackDataHandler, IScriptControl, ISkinnableControl
+* Telerik.Web.UI.RadFilter : INamingContainer, IPostBackEventHandler
 
 ## Properties
 
@@ -33,6 +33,10 @@ Gets the  used for all menus in the  control.
 ###  ApplyButtonText `Button`
 
 Get / set Apply button text
+
+###  UseBetweenValidation `Boolean`
+
+When this property is enabled, the control will use client-side validation to ensure whether the value of the second input control is greater than the one in the first control and vice versa. Default value is false.
 
 ###  OperationMode `RadFilterOperationMode`
 
@@ -795,4 +799,10 @@ Executed when post data changes should invoke a changed event
 #### Returns
 
 `System.Void` 
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
 

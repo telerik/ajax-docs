@@ -12,7 +12,7 @@ Wrapper class for System.DateTime, which allows implementing persistable DateTim
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.Calendar.Persistence.PropertiesObject
+* Telerik.Web.UI.Calendar.Persistence.PropertiesObject : IStateManager
 * Telerik.Web.UI.RadDate
 
 ## Properties

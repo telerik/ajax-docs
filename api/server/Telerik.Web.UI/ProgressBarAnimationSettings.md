@@ -11,7 +11,7 @@ The default stroke for layer shapes. Accepts a valid CSS color string or object 
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.ProgressBarAnimationSettings
 
 ## Properties

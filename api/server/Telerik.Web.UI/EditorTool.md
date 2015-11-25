@@ -11,8 +11,8 @@ Represents a single RadEditor tool.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
-* Telerik.Web.UI.EditorToolBase
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
+* Telerik.Web.UI.EditorToolBase : IAttributeAccessor
 * Telerik.Web.UI.EditorTool
 
 ## Properties

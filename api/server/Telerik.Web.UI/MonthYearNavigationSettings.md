@@ -108,3 +108,11 @@ Gets the settings associated with showing the  fast month year navigation.
 
 Gets the settings associated with hiding the  fast month year navigation.
 
+## Methods
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
+

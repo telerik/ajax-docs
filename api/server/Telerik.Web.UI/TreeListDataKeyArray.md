@@ -11,7 +11,7 @@ Represents a collection of DateKey objects.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.TreeListDataKeyArray
+* Telerik.Web.UI.TreeListDataKeyArray : ICollection, IEnumerable, IStateManager
 
 ## Properties
 

@@ -13,7 +13,7 @@ This Class defines the container control for the Telerik.Web.UI.RadMenuItem RadM
 * System.Object
 * System.Web.UI.Control
 * System.Web.UI.WebControls.WebControl
-* Telerik.Web.UI.Menu.MenuItemContentTemplateContainer
+* Telerik.Web.UI.Menu.MenuItemContentTemplateContainer : IDataItemContainer, INamingContainer
 
 ## Properties
 

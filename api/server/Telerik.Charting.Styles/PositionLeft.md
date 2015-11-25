@@ -11,8 +11,8 @@ Specific Position object with predefined AlignedPosition.Left
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Charting.StateManagedObject
-* Telerik.Charting.Styles.Position
+* Telerik.Charting.StateManagedObject : IChartingStateManagedItem, IChartingStateManager, IDisposable
+* Telerik.Charting.Styles.Position : ICloneable
 * Telerik.Charting.Styles.PositionLeft
 
 ## Properties

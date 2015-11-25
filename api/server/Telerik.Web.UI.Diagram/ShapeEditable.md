@@ -11,8 +11,8 @@ Specifies editable properties for shapes
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
-* Telerik.Web.UI.Diagram.ShapeEditable
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
+* Telerik.Web.UI.Diagram.ShapeEditable : IDefaultCheck
 
 ## Properties
 

@@ -133,7 +133,7 @@ You can set the following properties for a **ClientTemplate**:
 
 * **dataItem** - Returns the original data item used to construct the point. You can see more information about using the **dataItem** object in a **ClientTemplate** in the previous section of this article — *Showing DataBase Values Using a ClientTemplate*.
 
-* **percentage** - Returns the point value represented as a percentage value. Available for donut and pie series. You can see more information about using the percentage field in the [Display HTML and Execute JavaScript]({%slug htmlchart/functionality/clienttemplate/display-html-and-execute-javascript%}) article in the section called*Execute JavaScript*.
+* **percentage** - Returns the point value represented as a fraction of the grand total. Available for donut, pie and 100% stacked charts. To get the value in actual percent and not as a fraction between 0 and 1, you need to multiply it by 100, e.g., `<ClientTemplate>#= percentage * 100 # %</ClientTemplate>` . You can see more information about using the percentage field in the [Display HTML and Execute JavaScript]({%slug htmlchart/functionality/clienttemplate/display-html-and-execute-javascript%}) article in the section called*Execute JavaScript*.
 
 * **series** - Returns the data series information. You can use the **series** property to obtain the name, type and the stack group name (applicable for stacked series clustered in groups) of the series:
 

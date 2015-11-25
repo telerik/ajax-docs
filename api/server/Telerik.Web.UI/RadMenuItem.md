@@ -31,9 +31,9 @@ The Telerik.Web.UI.RadMenu control is made up of items. Items which are immediat
 * System.Object
 * System.Web.UI.Control
 * System.Web.UI.WebControls.WebControl
-* Telerik.Web.UI.ControlItem
-* Telerik.Web.UI.NavigationItem
-* Telerik.Web.UI.RadMenuItem
+* Telerik.Web.UI.ControlItem : IMarkableStateManager, INamingContainer, IStateManager, IXmlSerializable
+* Telerik.Web.UI.NavigationItem : IControlItemContainer
+* Telerik.Web.UI.RadMenuItem : ICloneable, IRadMenuItemContainer
 
 ## Properties
 

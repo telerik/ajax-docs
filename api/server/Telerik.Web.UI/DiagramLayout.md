@@ -11,8 +11,8 @@ Defines the diagram's Layout settings
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
-* Telerik.Web.UI.DiagramLayout
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
+* Telerik.Web.UI.DiagramLayout : IDefaultCheck
 
 ## Properties
 

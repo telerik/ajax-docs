@@ -11,7 +11,7 @@ Create s box plot series.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.SeriesBase
 * Telerik.Web.UI.BoxPlotSeries
 

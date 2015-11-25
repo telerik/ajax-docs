@@ -11,7 +11,7 @@ Class that is used to define sort field and sort order for RadGrid
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.GridSortExpression
+* Telerik.Web.UI.GridSortExpression : IStateManager
 
 ## Properties
 

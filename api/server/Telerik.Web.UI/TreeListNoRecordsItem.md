@@ -15,7 +15,7 @@ Represents the item shown in Telerik.Web.UI.RadTreeList when its assigned dataso
 * System.Web.UI.WebControls.WebControl
 * System.Web.UI.WebControls.TableRow
 * Telerik.Web.UI.TreeListTableRow
-* Telerik.Web.UI.TreeListItem
+* Telerik.Web.UI.TreeListItem : INamingContainer
 * Telerik.Web.UI.TreeListNoRecordsItem
 
 ## Properties

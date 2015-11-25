@@ -11,7 +11,7 @@ The class repsents a field in the Telerik.Web.UI.ClientDataSourceModel of the Te
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.ClientDataSourceModelField
 
 ## Properties

@@ -93,14 +93,6 @@ BIFF: Convert from VerticalAlign to VerticalAlignment enumerations
 
 `Telerik.Web.UI.ExcelBiff.VerticalAlignment` 
 
-###  ConvertXlsxVerticalAlign
-
-XLSX: Convert from VerticalAlign to VerticalAlignment enumerations
-
-#### Returns
-
-`Telerik.Windows.Documents.Spreadsheet.Model.RadVerticalAlignment` 
-
 ###  ConvertHorizontalAlign
 
 BIFF: Convert from HorizontalAlign to HorizontalAlignment enumerations
@@ -108,26 +100,6 @@ BIFF: Convert from HorizontalAlign to HorizontalAlignment enumerations
 #### Returns
 
 `Telerik.Web.UI.ExcelBiff.HorizontalAlignment` 
-
-###  ConvertXlsxHorizontalAlign
-
-XLSX: Convert from HorizontalAlign to HorizontalAlignment enumerations
-
-#### Returns
-
-`Telerik.Windows.Documents.Spreadsheet.Model.RadHorizontalAlignment` 
-
-###  ConvertXlsxBorderStyle
-
-Converts the ASP.NET BorderStyle enumeration values to Excel BorderStyle enumeration values
-
-#### Parameters
-
-#### borderStyle `System.Web.UI.WebControls.BorderStyle`
-
-#### Returns
-
-`Telerik.Windows.Documents.Spreadsheet.Model.CellBorderStyle` 
 
 ###  ConvertBorderStyle
 

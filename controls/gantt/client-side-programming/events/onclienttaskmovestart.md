@@ -5,7 +5,7 @@ description: OnClientTaskMoveStart
 slug: gantt/client-side-programming/events/onclienttaskmovestart
 tags: onclienttaskmovestart
 published: True
-position: 1
+position: 2
 ---
 
 # OnClientTaskMoveStart

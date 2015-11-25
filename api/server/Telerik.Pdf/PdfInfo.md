@@ -16,7 +16,7 @@ Document information dictionaries are described in section 9.2.1 of the
 
 * System.Object
 * Telerik.Pdf.PdfObject
-* Telerik.Pdf.PdfDictionary
+* Telerik.Pdf.PdfDictionary : IEnumerable
 * Telerik.Pdf.PdfInfo
 
 ## Properties

@@ -9,7 +9,7 @@ description: Telerik.Web.UI.RadDataFormInsertionObject
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.RadDataFormInsertionObject
+* Telerik.Web.UI.RadDataFormInsertionObject : ICustomTypeDescriptor
 
 ## Methods
 

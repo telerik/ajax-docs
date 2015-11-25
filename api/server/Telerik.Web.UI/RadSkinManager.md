@@ -12,7 +12,7 @@ A control used to define a global skin for the RadControls on the page as well a
 
 * System.Object
 * System.Web.UI.Control
-* Telerik.Web.UI.RadSkinManager
+* Telerik.Web.UI.RadSkinManager : IControl, ISkinnableControl
 
 ## Properties
 

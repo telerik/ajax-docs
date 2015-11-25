@@ -11,8 +11,8 @@ The configuration of built-in map controls.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
-* Telerik.Web.UI.Map.Controls
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
+* Telerik.Web.UI.Map.Controls : IDefaultCheck
 
 ## Properties
 

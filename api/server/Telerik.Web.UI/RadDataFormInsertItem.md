@@ -12,10 +12,10 @@ Represents an insert item
 
 * System.Object
 * System.Web.UI.Control
-* Telerik.Web.UI.RadDataFormItem
-* Telerik.Web.UI.RadDataFormDataItem
+* Telerik.Web.UI.RadDataFormItem : INamingContainer
+* Telerik.Web.UI.RadDataFormDataItem : IDataItemContainer
 * Telerik.Web.UI.RadDataFormEditableItem
-* Telerik.Web.UI.RadDataFormInsertItem
+* Telerik.Web.UI.RadDataFormInsertItem : IRadDataFormInsertItem
 
 ## Properties
 

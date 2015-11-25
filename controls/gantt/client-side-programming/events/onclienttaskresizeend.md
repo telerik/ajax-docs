@@ -5,7 +5,7 @@ description: OnClientTaskResizeEnd
 slug: gantt/client-side-programming/events/onclienttaskresizeend
 tags: onclienttaskresizeend
 published: True
-position: 6
+position: 7
 ---
 
 # OnClientTaskResizeEnd

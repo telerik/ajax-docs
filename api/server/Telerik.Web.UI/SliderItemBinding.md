@@ -11,7 +11,7 @@ Represents an object that provides the data binding information for the Items of
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.SliderItemBinding
 
 ## Properties

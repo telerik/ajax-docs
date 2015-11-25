@@ -34,3 +34,11 @@ Use the Type property of the AnimationSettings
 
 Gets or sets the duration in milliseconds of the animation.
 
+## Methods
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
+

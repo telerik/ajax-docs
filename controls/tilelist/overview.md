@@ -49,7 +49,7 @@ The control offers a rich set of features:
 
 * **[Client-side Data binding]({%slug tilelist/data-binding/client-side-data-binding%})**—the control can generate Tiles according to informationfrom a simple client-side datasource or using the **RadClientDataSource** control.
 
-* **[Responsive layout]({%slug tilelist/mobile-support/responsive,-adaptive-and-elastic-capabilities%})**—the layout of the tiles and groups can change automatically according to the browser's viewport size to provide the best fit.
+* **[Responsive layout]({%slug tilelist/mobile-support/responsive-capabilities%})**—the layout of the tiles and groups can change automatically according to the browser's viewport size to provide the best fit.
 
 * **[Peek templates]({%slug tilelist/tiles/peek-template%})**—customizable content that will replace the original tile contentaccording to a set of rules—automatic timers, mouseover and mouseout; as well as a rich set of animations.
 

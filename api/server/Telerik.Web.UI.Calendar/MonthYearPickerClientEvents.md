@@ -60,3 +60,11 @@ There can be some conditions you do want not to close the calendar popup on
                 set its argument args.CancelClose = true;
             <script type="text/javascript">function Closing(sender, args){    args.CancelClose = true;    //or    return false;}</script><radCln:RadDatePicker ID="RadDatePicker1" runat="server">    <ClientEvents OnPopupClosing="Closing"/></radCln:RadDatePicker>
 
+## Methods
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
+

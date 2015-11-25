@@ -16,7 +16,7 @@ Notes to implementers:This base class is provided to make it
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.RecurrenceRule
+* Telerik.Web.UI.RecurrenceRule : IEquatable`1, ISerializable
 
 ## Properties
 

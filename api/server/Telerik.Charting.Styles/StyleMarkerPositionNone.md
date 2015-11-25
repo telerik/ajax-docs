@@ -11,8 +11,8 @@ Specific empty point marker style
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Charting.StateManagedObject
-* Telerik.Charting.Styles.Style
+* Telerik.Charting.StateManagedObject : IChartingStateManagedItem, IChartingStateManager, IDisposable
+* Telerik.Charting.Styles.Style : ICloneable
 * Telerik.Charting.Styles.LayoutStyle
 * Telerik.Charting.Styles.StyleMarker
 * Telerik.Charting.Styles.StyleMarkerPositionNone

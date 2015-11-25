@@ -11,8 +11,8 @@ This Class defines the Resource object in Telerik.Web.UI.RadScheduler control.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
-* Telerik.Web.UI.Resource
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
+* Telerik.Web.UI.Resource : ICustomTypeDescriptor, IEquatable`1
 
 ## Properties
 

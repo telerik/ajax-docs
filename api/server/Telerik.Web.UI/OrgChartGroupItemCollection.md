@@ -12,7 +12,7 @@ Represents collection of Telerik.Web.UI.OrgChartGroupItem GroupItemsin the Teler
 
 * System.Object
 * System.Collections.Generic.List`1
-* Telerik.Web.UI.OrgChartGroupItemCollection
+* Telerik.Web.UI.OrgChartGroupItemCollection : IDisposable, IOrgChartRendererContainer, IXmlSerializable
 
 ## Properties
 

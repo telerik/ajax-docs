@@ -12,7 +12,7 @@ Provides a way to choose a string format for a Telerik.Web.UI.PivotGrid.Core.Pro
 
 * System.Object
 * Telerik.Web.UI.PivotGrid.Core.Cloneable
-* Telerik.Web.UI.PivotGrid.Core.SettingsNode
+* Telerik.Web.UI.PivotGrid.Core.SettingsNode : IEditable, INotifyPropertyChanged, IServiceProvider, ISupportInitialize
 * Telerik.Web.UI.PivotGrid.Core.Aggregates.StringFormatSelector
 
 ## Properties

@@ -12,7 +12,7 @@ Summary description for CalendarViewCollection.
 
 * System.Object
 * System.Collections.CollectionBase
-* Telerik.Web.UI.Calendar.Collections.CalendarViewCollection
+* Telerik.Web.UI.Calendar.Collections.CalendarViewCollection : IStateManager
 
 ## Properties
 

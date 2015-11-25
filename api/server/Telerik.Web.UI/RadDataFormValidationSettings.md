@@ -35,3 +35,11 @@ Gets or sets the group of controls for which the
 
 Gets or sets the commands to validate representing comma delimited list of command names.
 
+## Methods
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
+

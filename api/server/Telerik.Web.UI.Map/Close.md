@@ -11,8 +11,8 @@ The animation that will be used when a Tooltip closes.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
-* Telerik.Web.UI.Map.Close
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
+* Telerik.Web.UI.Map.Close : IDefaultCheck
 
 ## Properties
 

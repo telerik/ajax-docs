@@ -108,3 +108,11 @@ Gets or sets a value indicating whether to render date headers for the current v
 
 Gets or sets a value indicating whether to render a tab for the current view in the view chooser.
 
+## Methods
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
+

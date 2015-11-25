@@ -11,7 +11,7 @@ Collection of ExcelML elements
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.GridExcelBuilder.Abstract.ElementsCollection
+* Telerik.Web.UI.GridExcelBuilder.Abstract.ElementsCollection : ICollection, IElementsCollection, IEnumerable, IList
 
 ## Properties
 

@@ -30,3 +30,11 @@ Opens the exported Scheduler in a new instead of the same page.
 
 Gets the PDF.
 
+## Methods
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
+

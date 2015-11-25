@@ -12,9 +12,9 @@ Represents an abstraction of a group descriptor, which groups by its P:Telerik.W
 
 * System.Object
 * Telerik.Web.UI.PivotGrid.Core.Cloneable
-* Telerik.Web.UI.PivotGrid.Core.SettingsNode
-* Telerik.Web.UI.PivotGrid.Core.DescriptionBase
-* Telerik.Web.UI.PivotGrid.Core.GroupDescriptionBase
+* Telerik.Web.UI.PivotGrid.Core.SettingsNode : IEditable, INotifyPropertyChanged, IServiceProvider, ISupportInitialize
+* Telerik.Web.UI.PivotGrid.Core.DescriptionBase : IDescriptionBase, INamed
+* Telerik.Web.UI.PivotGrid.Core.GroupDescriptionBase : IGroupDescription
 * Telerik.Web.UI.PivotGrid.Core.GroupDescription
 * Telerik.Web.UI.PivotGrid.Queryable.QueryableGroupDescription
 * Telerik.Web.UI.PivotGrid.Queryable.QueryablePropertyGroupDescriptionBase

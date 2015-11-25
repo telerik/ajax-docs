@@ -18,13 +18,13 @@ navigation:
         position: 2
     "installation":
         title: "Installation"
-        position: 3  
+        position: 3
     "installation/upgrading-instructions":
         title: "Upgrading Instructions"
-        position: 6 
+        position: 6
     "general-information":
         title: "General Information"
-        position: 4  
+        position: 4
     "general-information/integration-with-visual-studio":
         title: "Integration with Visual Studio"
         position: 3
@@ -42,15 +42,15 @@ navigation:
         position: 5
     "general-information/performance":
         title: "Performance"
-        position: 6   
+        position: 6
     "general-information/troubleshooting":
         title: "Troubleshooting"
         position: 8
     "mobile-support":
         title: "Mobile Support"
-        position: 5  
+        position: 5
     "mobile-support/helper-tools":
-        title: "Helper Tools"      
+        title: "Helper Tools"
     "deployment":
         title: "Deployment"
         position: 6
@@ -59,7 +59,10 @@ navigation:
         position: 12
     "visual-stylebuilder":
         title: "Visual StyleBuilder"
-        position: 16        
+        position: 16
+    "theme-builder":
+        title: "Theme Builder"
+        position: 17
     "mvc":
         title: "Integration with ASPNET MVC"
         position: 18
@@ -177,6 +180,15 @@ navigation:
     "controls/datapager":
         title: "Data Pager"
         position: 1
+    "controls/dateinput":
+        title: "Date Input"
+        position: 1
+    "controls/datepicker":
+        title: "Date Picker"
+        position: 1
+    "controls/datetimepicker":
+        title: "DateTimePicker"
+        position: 1
     "controls/diagram":
         title: "Diagram"
         position: 1
@@ -213,6 +225,9 @@ navigation:
     "controls/htmlchart":
         title: "Html Chart"
         position: 1
+    "controls/inputmanager":
+        title: "Input Manager"
+        position: 1
     "controls/imageeditor":
         title: "Image Editor"
         position: 1
@@ -234,17 +249,26 @@ navigation:
     "controls/map":
         title: "Map"
         position: 1
+    "controls/maskedtextbox":
+        title: "Masked Textbox"
+        position: 1
     "controls/mediaplayer":
         title: "Media Player"
         position: 1
     "controls/menu":
         title: "Menu"
         position: 1
+    "controls/monthyearpicker":
+        title: "MonthYearPicker"
+        position: 1
     "controls/navigation":
         title: "Navigation"
         position: 1
     "controls/notification":
         title: "Notification"
+        position: 1
+    "controls/numerictextbox":
+        title: "Numeric Textbox"
         position: 1
     "controls/odatadatasource":
         title: "OData DataSource"
@@ -265,7 +289,7 @@ navigation:
         title: "Persistence Framework"
         position: 1
     "controls/pivotgrid":
-        title: "PivotGrid"
+        title: "Pivot Grid"
         position: 1
     "controls/progressarea":
         title: "Progress Area"
@@ -298,7 +322,7 @@ navigation:
         title: "Slider"
         position: 1
     "controls/socialshare":
-        title: "SocialShare"
+        title: "Social Share"
         position: 1
     "controls/spell":
         title: "Spell"
@@ -309,6 +333,9 @@ navigation:
     "controls/spreadprocessing":
         title: "SpreadProcessing"
         position: 1
+    "controls/spreadsheet":
+        title: "Spreadsheet"
+        position: 1
     "controls/stylesheetmanager":
         title: "StyleSheet Manager"
         position: 1
@@ -316,10 +343,16 @@ navigation:
         title: "Tab Strip"
         position: 1
     "controls/tagcloud":
-        title: "TagCloud"
+        title: "Tag Cloud"
+        position: 1
+    "controls/textbox":
+        title: "Textbox"
         position: 1
     "controls/tilelist":
         title: "TileList"
+        position: 1
+    "controls/timepicker":
+        title: "TimePicker"
         position: 1
     "controls/toolbar":
         title: "ToolBar"
@@ -461,12 +494,6 @@ navigation:
     "*button/button-types/icons":
         title: "Icons"
         position: 5
-    "*calendar/radcalendar":
-        title: "RadCalendar"
-        position: 5
-    "*calendar/raddatepicker,-radtimepicker,-raddatetimepicker-and-radmonthyearpicker":
-        title: "RadDatePicker, RadTimePicker, RadDateTimePicker and RadMonthYearPicker"
-        position: 6
     "*calendar/templates":
         title: "Templates"
         position: 8
@@ -541,10 +568,43 @@ navigation:
         position: 3
     "*datapager/mobile-support/mobile-rendering":
         title: "Mobile Rendering"
-        position: 1	
+        position: 1
     "*datapager/defining-structure":
         title: "Defining Structure"
         position: 4
+    "*dateinput/design-time":
+        title: "Design Time"
+        position: 4
+    "*dateinput/features":
+        title: "Features"
+        position: 5
+    "*dateinput/mobile-support/":
+        title: "Mobile Support"
+        position: 6
+    "*dateinput/appearance-and-styling ":
+        title: "Appearance and Styling"
+        position: 7
+    "*dateinput/accessibility-and-internationalization":
+        title: "Accessibility and Internationalization"
+        position: 8
+    "*dateinput/server-side-programming":
+        title: "Server-Side Programming"
+        position: 9
+    "*dateinput/client-side-programming":
+        title: "Client-Side Programming"
+        position: 10
+    "*dateinput/how-to":
+        title: "How to"
+        position: 10
+    "*datepicker/performance":
+        title: "Performance"
+        position: 14
+    "*datetimepicker/templates":
+        title: "Templates"
+        position: 8
+    "*datetimepicker/performance":
+        title: "Performance"
+        position: 14
     "*diagram/structure":
         title: "Structure"
         position: 3
@@ -739,6 +799,9 @@ navigation:
         position: 5
     "*grid/data-editing/edit-mode":
         title: "Edit Mode"
+        position: 0
+    "*grid/data-editing/edit-mode/batch-editing":
+        title: "Batch Editing"
         position: 0
     "*grid/data-editing/grid-editors":
         title: "Grid Editors"
@@ -938,27 +1001,12 @@ navigation:
     "*imagegallery/data-binding/server-side":
         title: "Server-side"
         position: 0
-    "*input/radinputmanager":
-        title: "RadInputManager"
-        position: 5
-    "*input/radinputmanager/server-side-events":
-        title: "Server-side Events"
-        position: 6
-    "*input/radinputmanager/client-side-events":
-        title: "Client-side Events"
+    "*inputmanager/server-side-events":
+        title: "Server-Side Events"
         position: 7
-    "*input/radtextbox":
-        title: "RadTextBox"
-        position: 6
-    "*input/radmaskedtextbox":
-        title: "RadMaskedTextBox"
-        position: 7
-    "*input/radnumerictextbox":
-        title: "RadNumericTextBox"
+    "*inputmanager/client-side-events":
+        title: "Client-Side Events"
         position: 8
-    "*input/raddateinput":
-        title: "RadDateInput"
-        position: 9
     "*listbox/data-binding":
         title: "Data Binding"
         position: 6
@@ -1028,6 +1076,30 @@ navigation:
     "*listview/client-side-programming/radlistview/methods":
         title: "Methods"
         position: 2
+    "*maskedtextbox/design-time":
+        title: "Design Time"
+        position: 4
+    "*maskedtextbox/features":
+        title: "Features"
+        position: 5
+    "*maskedtextbox/mobile-support/":
+        title: "Mobile Support"
+        position: 6
+    "*maskedtextbox/appearance-and-styling ":
+        title: "Appearance and Styling"
+        position: 7
+    "*maskedtextbox/accessibility-and-internationalization":
+        title: "Accessibility and Internationalization"
+        position: 8
+    "*maskedtextbox/server-side-programming":
+        title: "Server-Side Programming"
+        position: 9
+    "*maskedtextbox/client-side-programming":
+        title: "Client-Side Programming"
+        position: 10
+    "*maskedtextbox/how-to":
+        title: "How to"
+        position: 10
     "*map/data-binding":
         title: "Data Binding"
         position: 4
@@ -1043,6 +1115,9 @@ navigation:
     "*menu/context-menus":
         title: "Context Menus"
         position: 11
+    "*menu/performance":
+        title: "Performance"
+        position: 14
     "*menu/client-side-programming/objects":
         title: "Objects"
         position: 2
@@ -1055,6 +1130,30 @@ navigation:
     "*notification/setting-content":
         title: "Setting Content"
         position: 4
+    "*numerictextbox/design-time":
+        title: "Design Time"
+        position: 4
+    "*numerictextbox/features":
+        title: "Features"
+        position: 5
+    "*numerictextbox/mobile-support/":
+        title: "Mobile Support"
+        position: 6
+    "*numerictextbox/appearance-and-styling ":
+        title: "Appearance and Styling"
+        position: 7
+    "*numerictextbox/accessibility-and-internationalization":
+        title: "Accessibility and Internationalization"
+        position: 8
+    "*numerictextbox/server-side-programming":
+        title: "Server-Side Programming"
+        position: 9
+    "*numerictextbox/client-side-programming":
+        title: "Client-Side Programming"
+        position: 10
+    "*numerictextbox/how-to":
+        title: "How to"
+        position: 11
     "*odatadatasource/client-side-programming/objects":
         title: "Objects"
         position: 0
@@ -1069,7 +1168,7 @@ navigation:
         position: 4
     "*pagelayout/creating-responsive-design":
         title: "Creating Responsive Design"
-        position: 3		
+        position: 3
     "*panelbar/templates":
         title: "Templates"
         position: 6
@@ -1181,9 +1280,12 @@ navigation:
     "*scheduler/customizing-the-advanced-form":
         title: "Customizing the Advanced Form"
         position: 18
+    "*scheduler/performance":
+        title: "Performance"
+        position: 19
     "*scriptmanager/cdn-support":
         title: "CDN Support"
-        position: 7
+        position: 8
     "*searchbox/templates":
         title: "Templates"
         position: 3
@@ -1240,7 +1342,7 @@ navigation:
         position: 6
     "*spreadprocessing/working-with-workbooks":
         title: Working with Workbooks
-        position: 3		
+        position: 3
     "*spreadprocessing/working-with-worksheets":
         title: Working with Worksheets
         position: 4
@@ -1279,10 +1381,19 @@ navigation:
         position: 2
     "*spreadprocessing/features/styling":
         title: Styling
-        position: 3	
+        position: 3
+    "*spreadsheet/structure":
+        title: "Structure"
+        position: 1
+    "*spreadsheet/data-binding":
+        title: "Data Binding"
+        position: 2
+    "*spreadsheet/data-binding/providers":
+        title: "Providers"
+        position: 1
     "*stylesheetmanager/cdn-support":
         title: CDN Support
-        position: 1			
+        position: 1
     "*tabstrip/templates":
         title: "Templates"
         position: 7
@@ -1298,9 +1409,36 @@ navigation:
     "*tabstrip/web-pages":
         title: "Web Pages"
         position: 11
+    "*tabstrip/performance":
+        title: "Performance"
+        position: 12
     "*tagcloud/data-binding":
         title: "Data Binding"
         position: 4
+    "*textbox/design-time":
+        title: "Design Time"
+        position: 4
+    "*textbox/features":
+        title: "Features"
+        position: 5
+    "*textbox/mobile-support/":
+        title: "Mobile Support"
+        position: 6
+    "*textbox/appearance-and-styling ":
+        title: "Appearance and Styling"
+        position: 7
+    "*textbox/accessibility-and-internationalization":
+        title: "Accessibility and Internationalization"
+        position: 8
+    "*textbox/server-side-programming":
+        title: "Server-Side Programming"
+        position: 9
+    "*textbox/client-side-programming":
+        title: "Client-Side Programming"
+        position: 10
+    "*textbox/how-to":
+        title: "How to"
+        position: 11
     "*tilelist/tiles":
         title: "Tiles"
         position: 3
@@ -1328,6 +1466,12 @@ navigation:
     "*tilelist/data-binding":
         title: "Data Binding"
         position: 4
+    "*timepicker/templates":
+        title: "Templates"
+        position: 8
+    "*timepicker/performance":
+        title: "Performance"
+        position: 14
     "*toolbar/radtoolbar-items":
         title: "RadToolBar Items"
         position: 7
@@ -1346,9 +1490,12 @@ navigation:
     "*tooltip/radtooltipmanager":
         title: "RadToolTipManager"
         position: 5
+    "*tooltip/performance":
+        title: "Performance"
+        position: 6
     "*tooltip/client-side-programming/events/tooltipmanager-specific":
         title: "ToolTipManager Specific"
-        position: 6
+        position: 7
     "*treelist/column":
         title: "Column"
         position: 4
@@ -1498,7 +1645,7 @@ navigation:
         position: 3
     "*wordsprocessing/formats-and-conversion/pdf":
         title: Pdf
-        position: 4	
+        position: 4
     "*wordsprocessing/formats-and-conversion/plain-text":
         title: Plain text
         position: 5

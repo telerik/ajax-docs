@@ -19,11 +19,15 @@ You need to set the P:Telerik.Web.UI.RadDateInput.DateFormat DateFormat Property
 * System.Object
 * System.Web.UI.Control
 * System.Web.UI.WebControls.WebControl
-* Telerik.Web.UI.RadWebControl
-* Telerik.Web.UI.RadInputControl
-* Telerik.Web.UI.RadDateInput
+* Telerik.Web.UI.RadWebControl : IControl, IControlResolver, IPostBackDataHandler, IScriptControl, ISkinnableControl
+* Telerik.Web.UI.RadInputControl : IEditableTextControl, INamingContainer, IPostBackEventHandler, ITextControl
+* Telerik.Web.UI.RadDateInput : ICustomTypeDescriptor, IRadDateInput
 
 ## Properties
+
+###  EnableSmartParsing `Boolean`
+
+Toggles the smart date parsing. Default value is true. When disabled, the developer need to follow the datetime format carefully otherwise the control will display a warning message.
 
 ###  ShortYearCenturyEnd `Int32`
 
@@ -943,4 +947,10 @@ Executed when post data changes should invoke a changed event
 #### Returns
 
 `System.Void` 
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
 

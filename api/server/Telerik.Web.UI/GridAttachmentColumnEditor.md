@@ -12,7 +12,7 @@ The editor for the Telerik.Web.UI.GridAttachmentColumn column.
 
 * System.Object
 * System.Web.UI.Control
-* Telerik.Web.UI.GridColumnEditorBase
+* Telerik.Web.UI.GridColumnEditorBase : IGridColumnEditor
 * Telerik.Web.UI.GridUploadColumnEditor
 * Telerik.Web.UI.GridAttachmentColumnEditor
 

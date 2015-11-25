@@ -610,7 +610,7 @@ The checkedChanged event is fired after the Checked property of the RadButton is
 
 The instance of the RadButton raised the event.
 
-##### args `Telerik.Web.UI.RadButtonCheckedEventArgs`
+##### args `Telerik.Web.UI.ButtonCheckedEventArgs`
 
 The event arguments.  
 
@@ -624,7 +624,7 @@ The checkedChanging event is fired after the Checked property of the RadButton i
 
 The instance of the RadButton raised the event.
 
-##### args `Telerik.Web.UI.RadButtonCheckedCancelEventArgs`
+##### args `Telerik.Web.UI.ButtonCheckedCancelEventArgs`
 
 The event arguments.
 
@@ -638,7 +638,7 @@ The clicked event is subsequent to the clicking event, and occurs when the RadBu
 
 The instance of the RadButton raised the event.
 
-##### args `Telerik.Web.UI.RadButtonEventArgs`
+##### args `Telerik.Web.UI.ButtonEventArgs`
 
 The event arguments.
 
@@ -652,7 +652,7 @@ The clicking event occurs when the RadButton control is clicked, immediately aft
 
 The instance of the RadButton raised the event.
 
-##### args `Telerik.Web.UI.RadButtonCancelEventArgs`
+##### args `Telerik.Web.UI.ButtonCancelEventArgs`
 
 The event arguments.
 
@@ -680,7 +680,7 @@ The mouseOut event is fired when the user moves the mouse pointer over the contr
 
 The instance of the RadButton raised the event.
 
-##### args `Telerik.Web.UI.RadButtonEventArgs`
+##### args `Telerik.Web.UI.ButtonEventArgs`
 
 The event arguments.
 
@@ -694,7 +694,7 @@ The mouseOver event is fired when the user moves the mouse pointer over the cont
 
 The instance of the RadButton raised the event.
 
-##### args `Telerik.Web.UI.RadButtonEventArgs`
+##### args `Telerik.Web.UI.ButtonEventArgs`
 
 The event arguments.
 
@@ -708,7 +708,7 @@ The toggleStateChanged event is fired after the SelectedToggleState and the Sele
 
 The instance of the RadButton raised the event.
 
-##### args `Telerik.Web.UI.RadButtonToggleStateEventArgs`
+##### args `Telerik.Web.UI.ButtonToggleStateEventArgs`
 
 The event arguments.
 
@@ -722,6 +722,6 @@ The toggleStateChanging event is fired before the SelectedToggleState and the Se
 
 The instance of the RadButton raised the event.
 
-##### args `Telerik.Web.UI.RadButtonToggleStateCancelEventArgs`
+##### args `Telerik.Web.UI.ButtonToggleStateCancelEventArgs`
 
 The event arguments.

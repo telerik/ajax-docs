@@ -11,7 +11,7 @@ A RadEditor color picker color
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.ColorPickerItem
 * Telerik.Web.UI.EditorColor
 

@@ -34,3 +34,11 @@ Gets or sets the duration of the revert animation when column drag-to-group is e
 
 ###  IsSet `Boolean`
 
+## Methods
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
+

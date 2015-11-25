@@ -11,8 +11,8 @@ Class that holds settings for banners in RadMediaPlayer
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
-* Telerik.Web.UI.MediaPlayerBanner
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
+* Telerik.Web.UI.MediaPlayerBanner : INamingContainer
 
 ## Properties
 

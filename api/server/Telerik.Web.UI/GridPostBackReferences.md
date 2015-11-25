@@ -20,3 +20,11 @@ description: Telerik.Web.UI.GridPostBackReferences
 
 ###  PostBackEditRow `String`
 
+## Methods
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
+

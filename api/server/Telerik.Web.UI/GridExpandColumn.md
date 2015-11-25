@@ -13,7 +13,7 @@ This column appears when the grid has a hierarchical structure, to facilitate th
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.GridColumn
+* Telerik.Web.UI.GridColumn : IComparable, IStateManager
 * Telerik.Web.UI.GridExpandColumn
 
 ## Properties

@@ -12,7 +12,7 @@ Class representing a Telerik.Web.UI.RadGrid insertion object and is used as a ba
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.GridInsertionObject
+* Telerik.Web.UI.GridInsertionObject : ICustomTypeDescriptor
 
 ## Methods
 

@@ -5,7 +5,7 @@ description: Use Themes
 slug: editor/how-to/use-themes
 tags: use,themes
 published: True
-position: 1
+position: 2
 ---
 
 # Use Themes

@@ -11,7 +11,7 @@ Summary description for RichUITemplateControl.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.Calendar.Persistence.PropertiesObject
+* Telerik.Web.UI.Calendar.Persistence.PropertiesObject : IStateManager
 * Telerik.Web.UI.Calendar.View.RichUITemplateControl
 
 ## Properties

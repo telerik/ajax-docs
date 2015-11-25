@@ -11,8 +11,8 @@ Servers as a base class for group descriptors. Holds P:Telerik.Web.Data.GroupDes
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.Data.DescriptorBase
-* Telerik.Web.Data.GroupDescriptorBase
+* Telerik.Web.Data.DescriptorBase : INotifyPropertyChanged
+* Telerik.Web.Data.GroupDescriptorBase : IGroupDescriptor
 
 ## Properties
 

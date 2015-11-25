@@ -35,7 +35,7 @@ By default, the ProgressBar's **Label** displays the current **Value** of the [p
 
 ## Use a Custom Progress Label
 
-If you want to customize the displayed label, you can show the desired progress message by configuring the **RadProgressBar**’s **Label** property (see **Example 2**). You can also see how to change the **Label** values dynamically client-side in the [Custom Label](http://demos.telerik.com/aspnet-ajax/progress-bar/examples/functionality/custom-label/defaultcs.aspx) demo.
+If you want to customize the displayed label, you can show the desired progress message by configuring the **RadProgressBar**’s **Label** property (see **Example 2**). You can also see how to change the **Label** values dynamically client-side in the [Custom Label](http://demos.telerik.com/aspnet-ajax/progress-bar/functionality/custom-label/defaultcs.aspx) demo.
 
 >caption Figure 2: RadProgressBar displaying a custom progress label.
 
@@ -51,7 +51,7 @@ If you want to customize the displayed label, you can show the desired progress 
 
 ## See Also
 
- * [RadProgressBar Custom Label Demo](http://demos.telerik.com/aspnet-ajax/progress-bar/examples/functionality/custom-label/defaultcs.aspx)
+ * [RadProgressBar Custom Label Demo](http://demos.telerik.com/aspnet-ajax/progress-bar/functionality/custom-label/defaultcs.aspx)
 
  * [Overview]({%slug progressbar/getting-started/overview%})
 

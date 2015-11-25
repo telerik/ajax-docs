@@ -186,3 +186,4 @@ newSheet.Cells(1, 1).Value = "NEW CELL"
 ## Limitations
 
 * No automatic column/row resizing.
+* RadPivotGrid export throws an error when using a **GetDataItem()** in template. - This is a known issue when the **Page.GetDataItem()** is used. In order to works as expected the **DataBinder.GetDataItem(this)** needs to be used. 

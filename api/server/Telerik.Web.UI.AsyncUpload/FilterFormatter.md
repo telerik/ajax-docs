@@ -13,7 +13,7 @@ This Class formats the filter information and
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.AsyncUpload.FilterFormatter
+* Telerik.Web.UI.AsyncUpload.FilterFormatter : IFilterFormatter
 
 ## Methods
 

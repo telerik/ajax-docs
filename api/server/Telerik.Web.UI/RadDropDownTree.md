@@ -15,8 +15,8 @@ This Class defines the RadDropDownList.
 * System.Web.UI.WebControls.WebControl
 * System.Web.UI.WebControls.BaseDataBoundControl
 * System.Web.UI.WebControls.DataBoundControl
-* Telerik.Web.UI.RadDataBoundControl
-* Telerik.Web.UI.RadDropDownTree
+* Telerik.Web.UI.RadDataBoundControl : IControl, IControlResolver, IFeatureGroup, IPostBackDataHandler, IScriptControl, ISkinnableControl
+* Telerik.Web.UI.RadDropDownTree : INamingContainer, IPostBackEventHandler
 
 ## Properties
 
@@ -66,6 +66,10 @@ Gets the unique, hierarchically qualified identifier for the server
 ###  DefaultMessage `String`
 
 Gets or sets a value indicating what message will be displayed then the control is empty (no entries selected).
+
+###  EnableEntryTextHtmlEncoding `Boolean`
+
+Gets or sets a value indicating whether RadDropDownTree should HTML encode the text of the entries.
 
 ###  DropDownSettings `DropDownSettings`
 
@@ -576,4 +580,10 @@ Executed when post data changes should invoke a changed event
 #### Returns
 
 `System.Void` 
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
 

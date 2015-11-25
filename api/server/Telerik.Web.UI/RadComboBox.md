@@ -23,9 +23,9 @@ The RadComboBoxcontrol supports the following features:
 * System.Web.UI.WebControls.WebControl
 * System.Web.UI.WebControls.BaseDataBoundControl
 * System.Web.UI.WebControls.DataBoundControl
-* Telerik.Web.UI.RadDataBoundControl
-* Telerik.Web.UI.ControlItemContainer
-* Telerik.Web.UI.RadComboBox
+* Telerik.Web.UI.RadDataBoundControl : IControl, IControlResolver, IFeatureGroup, IPostBackDataHandler, IScriptControl, ISkinnableControl
+* Telerik.Web.UI.ControlItemContainer : IControlItemContainer, INamingContainer, IXmlSerializable
+* Telerik.Web.UI.RadComboBox : ICallbackEventHandler, IEditableTextControl, IFlatBoundContainer, IPostBackEventHandler, ITextControl
 
 ## Properties
 
@@ -1426,4 +1426,10 @@ Executed when post data changes should invoke a changed event
 #### Returns
 
 `System.Void` 
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
 

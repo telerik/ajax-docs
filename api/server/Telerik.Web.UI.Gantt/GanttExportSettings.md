@@ -20,3 +20,11 @@ Container of misc. export settings of RadGantt control
 
 Gets the PDF.
 
+## Methods
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
+

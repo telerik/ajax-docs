@@ -42,3 +42,11 @@ Gets or sets the height of the dropdown in pixels.
 
 Gets or sets a custom CSS class to the DropDown.
 
+## Methods
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
+

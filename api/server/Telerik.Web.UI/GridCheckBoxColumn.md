@@ -17,8 +17,8 @@ This column is editable (implements the IGridEditableColumninterface) and provid
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.GridColumn
-* Telerik.Web.UI.GridEditableColumn
+* Telerik.Web.UI.GridColumn : IComparable, IStateManager
+* Telerik.Web.UI.GridEditableColumn : IGridDataColumn, IGridEditableColumn
 * Telerik.Web.UI.GridCheckBoxColumn
 
 ## Properties

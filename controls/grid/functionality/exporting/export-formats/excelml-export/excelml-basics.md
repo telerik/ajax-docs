@@ -14,7 +14,7 @@ position: 0
 
 ## Overview
 
-**ExcelML** is **XML-based** file format. It complies to the **Microsoft XMLSShttp://msdn.microsoft.com/en-us/library/aa140066(office.10).aspx** specification and is supported in *Microsoft Office 2003* and later. It is different from the rest of the export formats supported by **RadGrid** since its engine builds the output directly from the datasource and not from the page.
+**ExcelML** is **XML-based** file format. It complies to the [Microsoft XMLSS](http://msdn.microsoft.com/en-us/library/aa140066(office.10).aspx) specification and is supported in *Microsoft Office 2003* and later. It is different from the rest of the export formats supported by **RadGrid** since its engine builds the output directly from the datasource and not from the page.
 
 >note  **ExcelML** format works best with *advanced data-binding* or *data source control.* You will receive "**NullReferenceException**" if you use *simple data-binding* and ! *IsPostBack* ( *Not IsPostBack* ) check.
 >
@@ -226,6 +226,18 @@ This object contains the whole information about a particular style. Fonts, colo
 For more information about the number formats/borders, please visit the following link:
 
 [XML Spreadsheet reference](http://msdn.microsoft.com/en-us/library/aa140066%28office.10%29.aspx)
+
+## Default Cell Alignment
+
+You can specify a default alignment to all cells by using **DefaultCellAlignment**. This property is supported since **Q2 2015** and its default value is NotSet. Typical values include **Left**, **Right** and **Center**.
+
+````ASP.NET    
+<ExportSettings>
+    <Excel DefaultCellAlignment="Center" />
+</ExportSettings>
+````
+
+Additionally you can change the default alignment on **ExcelMLStylesCreated** event.
 
 ## Number formats
 

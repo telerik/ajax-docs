@@ -78,3 +78,11 @@ Gets or sets the key which update all records when a GridTableView.EditMode is s
 
 Gets or sets the key which cancel all changes when a GridTableView.EditMode is set to Batch.
 
+## Methods
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
+

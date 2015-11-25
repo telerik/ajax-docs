@@ -12,8 +12,8 @@ The class holding the settings for the Telerik.Web.UI.RadDateInput control which
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.InputSetting
-* Telerik.Web.UI.DateInputSetting
+* Telerik.Web.UI.InputSetting : IStateManager
+* Telerik.Web.UI.DateInputSetting : IRadDateInput
 * Telerik.Web.UI.DatePickerSetting
 
 ## Properties

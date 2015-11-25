@@ -12,6 +12,8 @@ position: 3
 
 RadEditor has built-in support for uploading/deleting/inserting images. The developer can allow end-users to upload, insert and delete images in the folder structure of the web-application by setting the following properties:
 
+>note As of **Q2 2015** the default upload control is [RadAsycnUpload]({%slug asyncupload/overview%}). In order for the uploading to work, you need to either permit the application to read/write in App_Data folfer, or change the target folder set to the **TemporaryFolder** property.  
+
 For example, to enable users to upload images in the "~/Images" folder and all of its subfolders, you need to set the ImageManager-ViewPaths, ImageManager-UploadPaths, and ImageManager-DeletePaths properties as follows:
 
 There are two approaches to set the Image Manager's paths:

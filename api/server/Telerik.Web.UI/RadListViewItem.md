@@ -12,7 +12,7 @@ Represents an individual item in a Telerik.Web.UI.RadListView control.
 
 * System.Object
 * System.Web.UI.Control
-* Telerik.Web.UI.RadListViewItem
+* Telerik.Web.UI.RadListViewItem : INamingContainer
 
 ## Properties
 

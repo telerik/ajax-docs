@@ -11,7 +11,7 @@ Cells collection
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.GridExcelBuilder.CellsCollection
+* Telerik.Web.UI.GridExcelBuilder.CellsCollection : ICollection, IEnumerable, IList
 
 ## Properties
 

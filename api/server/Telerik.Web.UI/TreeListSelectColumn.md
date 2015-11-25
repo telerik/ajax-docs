@@ -20,8 +20,8 @@ If you choose AllowMultiItemSelection = truefor the TreeList, a
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
-* Telerik.Web.UI.TreeListColumn
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
+* Telerik.Web.UI.TreeListColumn : IComparable
 * Telerik.Web.UI.TreeListSelectColumn
 
 ## Properties

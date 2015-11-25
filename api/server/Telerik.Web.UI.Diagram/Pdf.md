@@ -11,8 +11,8 @@ Configures the export settings for the saveAsPDF method.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
-* Telerik.Web.UI.Diagram.Pdf
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
+* Telerik.Web.UI.Diagram.Pdf : IDefaultCheck
 
 ## Properties
 

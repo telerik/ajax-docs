@@ -11,8 +11,8 @@ This Class defines the ResourceType object.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
-* Telerik.Web.UI.ResourceType
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
+* Telerik.Web.UI.ResourceType : IEquatable`1
 
 ## Properties
 

@@ -11,7 +11,7 @@ Describes all filterable fields of IRadFilterableContainer
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.RadFilterFieldDescriptor
+* Telerik.Web.UI.RadFilterFieldDescriptor : IEquatable`1
 
 ## Properties
 

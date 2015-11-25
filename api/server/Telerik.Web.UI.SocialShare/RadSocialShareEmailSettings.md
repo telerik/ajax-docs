@@ -11,7 +11,7 @@ The class that is used to set the e-mail settings for the SendEmail button.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.SocialShare.RadSocialShareEmailSettings
 
 ## Properties

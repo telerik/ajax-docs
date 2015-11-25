@@ -15,7 +15,7 @@ Displays the footer row of a GridTableView with cells for each column in the gri
 * System.Web.UI.WebControls.WebControl
 * System.Web.UI.WebControls.TableRow
 * Telerik.Web.UI.GridTableRow
-* Telerik.Web.UI.GridItem
+* Telerik.Web.UI.GridItem : INamingContainer
 * Telerik.Web.UI.GridFooterItem
 
 ## Properties

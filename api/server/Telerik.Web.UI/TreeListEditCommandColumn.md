@@ -11,8 +11,8 @@ Represents a column of buttons firing data-editing commands (Edit, InitInsert, P
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
-* Telerik.Web.UI.TreeListColumn
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
+* Telerik.Web.UI.TreeListColumn : IComparable
 * Telerik.Web.UI.TreeListEditCommandColumn
 
 ## Properties

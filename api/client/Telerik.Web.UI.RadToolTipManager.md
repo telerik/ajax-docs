@@ -154,6 +154,6 @@ The responseError event is fired when a server error occurs during the request. 
 
 The instance of the RadToolTipManager raised the event.
 
-##### eventArgs `Telerik.Web.UI.RadToolTipManagerErrorEventArgs`
+##### eventArgs `Telerik.Web.UI.ToolTipManagerErrorEventArgs`
 
 The event arguments.

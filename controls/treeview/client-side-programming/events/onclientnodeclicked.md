@@ -14,7 +14,7 @@ position: 18
 
 ## 
 
-The **OnClientNodeClicked** client-side event occurs when the end user navigates to a node using mouse or keyboard.
+The **OnClientNodeClicked** client-side event occurs when the user clicks on a node, after the **RadTreeView** responds to the mouse click. When using keyboard navigation the event is fired after pressing Enter.
 
 The event handler receives parameters:
 

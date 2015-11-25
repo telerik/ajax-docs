@@ -12,9 +12,9 @@ Used to group items, provide well known groups, sort and filter the groups for a
 
 * System.Object
 * Telerik.Web.UI.PivotGrid.Core.Cloneable
-* Telerik.Web.UI.PivotGrid.Core.SettingsNode
-* Telerik.Web.UI.PivotGrid.Core.DescriptionBase
-* Telerik.Web.UI.PivotGrid.Core.GroupDescriptionBase
+* Telerik.Web.UI.PivotGrid.Core.SettingsNode : IEditable, INotifyPropertyChanged, IServiceProvider, ISupportInitialize
+* Telerik.Web.UI.PivotGrid.Core.DescriptionBase : IDescriptionBase, INamed
+* Telerik.Web.UI.PivotGrid.Core.GroupDescriptionBase : IGroupDescription
 * Telerik.Web.UI.PivotGrid.Core.GroupDescription
 * Telerik.Web.UI.PivotGrid.Core.PropertyGroupDescriptionBase
 * Telerik.Web.UI.PivotGrid.Core.PropertyGroupDescription

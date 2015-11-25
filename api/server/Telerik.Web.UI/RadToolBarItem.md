@@ -33,7 +33,7 @@ The Telerik.Web.UI.RadToolBar RadToolBarcontrol is made up of a list of toolbar 
 * System.Object
 * System.Web.UI.Control
 * System.Web.UI.WebControls.WebControl
-* Telerik.Web.UI.ControlItem
+* Telerik.Web.UI.ControlItem : IMarkableStateManager, INamingContainer, IStateManager, IXmlSerializable
 * Telerik.Web.UI.RadToolBarItem
 
 ## Properties

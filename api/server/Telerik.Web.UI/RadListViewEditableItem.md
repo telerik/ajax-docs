@@ -12,8 +12,8 @@ Represents an editable item
 
 * System.Object
 * System.Web.UI.Control
-* Telerik.Web.UI.RadListViewItem
-* Telerik.Web.UI.RadListViewDataItem
+* Telerik.Web.UI.RadListViewItem : INamingContainer
+* Telerik.Web.UI.RadListViewDataItem : IDataItemContainer
 * Telerik.Web.UI.RadListViewEditableItem
 
 ## Properties

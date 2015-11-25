@@ -11,7 +11,7 @@ Encapsulates the properties used for the RadRotator control buttons management.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.RotatorControlButtonsConfiguration
 
 ## Properties

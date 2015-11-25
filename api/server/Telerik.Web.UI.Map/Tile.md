@@ -11,8 +11,8 @@ The default configuration for tile layers.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
-* Telerik.Web.UI.Map.Tile
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
+* Telerik.Web.UI.Map.Tile : IDefaultCheck
 
 ## Properties
 

@@ -12,7 +12,7 @@ position: 0
 
 
 
-**RadScheduler** displays appointments in six basic views:**Day view, Week view, Month view, Timeline view, Multi-Day and Agenda view**. The **SelectedView** property specifies which of these views the scheduler uses when it first appears (loads). By default, the user can move between**Day, Week, Month, Timeline, and Multi-Day** views using the view tabs. You can remove these controls and prevent the user from changing the view, by setting the **ShowViewTabs** property to **false**. You can remove specific view tab by setting the **UserSelectable** property to **false**.
+**RadScheduler** displays appointments in seven basic views: **Day view, Week view, Month view, Timeline view, Multi-Day, Agenda view, and Year view**. The **SelectedView** property specifies which of these views the scheduler uses when it first appears (loads). By default, the user can move between**Day, Week, Month, Timeline, and Multi-Day** views using the view tabs. You can remove these controls and prevent the user from changing the view, by setting the **ShowViewTabs** property to **false**. You can remove specific view tab by setting the **UserSelectable** property to **false**.
 
 >caution If you try to restrict the **RadScheduler** to **Month view** , be aware that it allows the user to toggle into **Day View** using the **more...** link whenever the number of appointments in a day exceeds the limit that is set by the **MonthVisibleAppointmentsPerDay** property. To prevent this, however you can use the[NavigationCommand]({%slug scheduler/server-side-programming/server-events/navigationcommand%})event and set your desired logic.
 >
@@ -49,3 +49,5 @@ In addition, you can set the **GroupingDirection** property to **Horizontal** or
 1. [Multi-day]({%slug scheduler/views/multi-day-view%})
 
 1. [Agenda]({%slug scheduler/views/agenda-view%})
+
+1. [Year]({%slug scheduler/views/year-view%})

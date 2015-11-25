@@ -11,7 +11,7 @@ Collection of attributes for a given object
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.GridExcelBuilder.AttributesCollection
+* Telerik.Web.UI.GridExcelBuilder.AttributesCollection : IAttributesCollection, ICollection, IDictionary, IEnumerable
 
 ## Properties
 

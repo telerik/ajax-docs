@@ -19,7 +19,7 @@ Telerik.Web.UI.RadAjaxPanel is one of the two major controls of the Telerik RadA
 * System.Web.UI.Control
 * System.Web.UI.WebControls.WebControl
 * System.Web.UI.WebControls.Panel
-* Telerik.Web.UI.RadAjaxLoadingPanel
+* Telerik.Web.UI.RadAjaxLoadingPanel : IControl, IControlResolver, IScriptControl, ISkinnableControl
 
 ## Properties
 
@@ -80,6 +80,10 @@ The IsSticky property of the Loading Panel controls where
                 true, the panel will appear where you have placed it on your
                 webform. If this property is set to false, the Loading panel will
                 appear on the place of the updated control(s).By default this property is set to false.
+
+###  Modal `Boolean`
+
+Gets or sets the value, indicating whether the loading panel will be displayed over the entire visible area of the page.
 
 ###  InitialDelayTime `Int32`
 

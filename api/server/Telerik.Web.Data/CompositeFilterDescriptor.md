@@ -11,8 +11,8 @@ Represents a filtering descriptor which serves as a container for one or more ch
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.Data.DescriptorBase
-* Telerik.Web.Data.FilterDescriptorBase
+* Telerik.Web.Data.DescriptorBase : INotifyPropertyChanged
+* Telerik.Web.Data.FilterDescriptorBase : IFilterDescriptor
 * Telerik.Web.Data.CompositeFilterDescriptor
 
 ## Properties

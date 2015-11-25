@@ -11,8 +11,8 @@ Specifies whether the shapes can be rotated. Note that changing this setting aft
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
-* Telerik.Web.UI.Diagram.Rotate
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
+* Telerik.Web.UI.Diagram.Rotate : IDefaultCheck
 
 ## Properties
 

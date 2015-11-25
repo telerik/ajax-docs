@@ -18,7 +18,7 @@ Its items are of the available Grid
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.GridColumnCollection
+* Telerik.Web.UI.GridColumnCollection : ICollection, IEnumerable, IList, IStateManager
 
 ## Properties
 

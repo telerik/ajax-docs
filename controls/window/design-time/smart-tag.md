@@ -14,6 +14,8 @@ position: 0
 
 The Smart Tag for **RadWindow** lets you easily change the skin for your **RadWindow** control or quickly get help. You can display the Smart Tag by right clicking on a **RadWindow** control and choosing "Show Smart Tag".
 
+As of Q2 2015 we have improved the smart tags of our controls by displaying the most popular control specific properties and adding links to their important online resources:
+
 ![radwindow-smart-tag](images/radwindow-smart-tag.png)
 
 ## Skin

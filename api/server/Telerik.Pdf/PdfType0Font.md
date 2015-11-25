@@ -17,7 +17,7 @@ All versions of the PDF specification up to and including version 1.4
 
 * System.Object
 * Telerik.Pdf.PdfObject
-* Telerik.Pdf.PdfDictionary
+* Telerik.Pdf.PdfDictionary : IEnumerable
 * Telerik.Pdf.PdfFont
 * Telerik.Pdf.PdfType0Font
 

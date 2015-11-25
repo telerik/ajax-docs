@@ -13,8 +13,8 @@ This Class defines the DropDownListItem in RadDropDownList.
 * System.Object
 * System.Web.UI.Control
 * System.Web.UI.WebControls.WebControl
-* Telerik.Web.UI.ControlItem
-* Telerik.Web.UI.DropDownListItem
+* Telerik.Web.UI.ControlItem : IMarkableStateManager, INamingContainer, IStateManager, IXmlSerializable
+* Telerik.Web.UI.DropDownListItem : IComparable
 
 ## Properties
 

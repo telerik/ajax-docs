@@ -11,7 +11,7 @@ Border styles collection
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.GridExcelBuilder.BorderStylesCollection
+* Telerik.Web.UI.GridExcelBuilder.BorderStylesCollection : IBorderStylesCollection, ICollection, IEnumerable, IList
 
 ## Properties
 

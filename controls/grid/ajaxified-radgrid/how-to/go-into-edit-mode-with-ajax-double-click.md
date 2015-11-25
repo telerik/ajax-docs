@@ -172,5 +172,3 @@ protected void RadGrid1_DataBound(object sender, EventArgs e)
 }
 ````
 
-
-You can see this sample live [ here](http://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/EditOnDblClick/DefaultCS.aspx)

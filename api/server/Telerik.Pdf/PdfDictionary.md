@@ -10,7 +10,7 @@ description: Telerik.Pdf.PdfDictionary
 
 * System.Object
 * Telerik.Pdf.PdfObject
-* Telerik.Pdf.PdfDictionary
+* Telerik.Pdf.PdfDictionary : IEnumerable
 
 ## Properties
 

@@ -11,7 +11,7 @@ This Class defines the SiteMapLevelSetting.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.SiteMapLevelSetting
 
 ## Properties

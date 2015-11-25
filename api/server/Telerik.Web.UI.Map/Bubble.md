@@ -11,8 +11,8 @@ The default configuration for bubble layers.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
-* Telerik.Web.UI.Map.Bubble
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
+* Telerik.Web.UI.Map.Bubble : IDefaultCheck
 
 ## Properties
 

@@ -16,8 +16,8 @@ The RadInputManager offers an easy and intuitive way to extend a standard ASP.NE
 
 * System.Object
 * System.Web.UI.Control
-* Telerik.Web.UI.RadControl
-* Telerik.Web.UI.InputManagerBase
+* Telerik.Web.UI.RadControl : IControl, IControlResolver, IScriptControl, ISkinnableControl
+* Telerik.Web.UI.InputManagerBase : INamingContainer
 * Telerik.Web.UI.RadInputManager
 
 ## Properties

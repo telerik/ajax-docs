@@ -11,7 +11,7 @@ A DateTime string formatter. This class provides configuration for each DateTime
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.HtmlChart.PlotArea.DateFormatter
 
 ## Properties

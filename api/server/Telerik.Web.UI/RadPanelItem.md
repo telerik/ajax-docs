@@ -32,9 +32,9 @@ The Telerik.Web.UI.RadPanelBar RadPanelBarcontrol is made up of items. Items whi
 * System.Object
 * System.Web.UI.Control
 * System.Web.UI.WebControls.WebControl
-* Telerik.Web.UI.ControlItem
-* Telerik.Web.UI.NavigationItem
-* Telerik.Web.UI.RadPanelItem
+* Telerik.Web.UI.ControlItem : IMarkableStateManager, INamingContainer, IStateManager, IXmlSerializable
+* Telerik.Web.UI.NavigationItem : IControlItemContainer
+* Telerik.Web.UI.RadPanelItem : ICloneable, IRadPanelItemContainer
 
 ## Properties
 

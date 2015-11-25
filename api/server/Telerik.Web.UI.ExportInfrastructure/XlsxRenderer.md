@@ -11,7 +11,7 @@ EI DPL Xlsx Renderer
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.ExportInfrastructure.XlsxRenderer
+* Telerik.Web.UI.ExportInfrastructure.XlsxRenderer : IDisposable
 
 ## Methods
 

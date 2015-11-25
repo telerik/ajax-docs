@@ -16,7 +16,7 @@ The **Bubble** layer type is available since the **Q3 2014** release.
 
 >caption **Figure 1**: Simple RadMap with a Bubble layer, which is a result of the code in Example 1.
 
-![map-bubble-layer-overview](images/bubble-layer/map-bubble-layer-overview.png)
+![map-bubble-layer-overview](images/bubble-layer/map-bubble-layer-overview.jpg)
 
 Quick navigation:
 
@@ -92,7 +92,7 @@ The data source items should contain two important fields: location and value (*
 
 >caption **Figure 2**: Value and circle radius dependency in the bubble shapes.
 
-![map-buble-layer-value-impact](images/bubble-layer/map-buble-layer-value-impact.png)
+![map-buble-layer-value-impact](images/bubble-layer/map-buble-layer-value-impact.jpg)
 
 >caption **Example 3**: Simple data binding of a Bubble layer
 
@@ -157,7 +157,7 @@ In **Example 3**, you can see how the **OnShapeCreated** event is used to alter 
 
 >caption **Figure 3**: Changing bubbles’ fill-color based on custom logic.
 
-![map-using-events-to-change-bubble-color](images/bubble-layer/map-using-events-to-change-bubble-color.png)
+![map-using-events-to-change-bubble-color](images/bubble-layer/map-using-events-to-change-bubble-color.jpg)
 
 >caption **Example 4**: Using the OnShapeCreated event to dynamically change the shapes of a Bubble layer.
 

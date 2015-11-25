@@ -13,7 +13,7 @@ A base class representing the event args passed when Telerik.Web.UI.RadTreeList 
 * System.Object
 * System.EventArgs
 * System.Web.UI.WebControls.CommandEventArgs
-* Telerik.Web.UI.TreeListCommandEventArgs
+* Telerik.Web.UI.TreeListCommandEventArgs : ITreeListCommandEvent
 * Telerik.Web.UI.TreeListSelectAllEventArgs
 
 ## Properties

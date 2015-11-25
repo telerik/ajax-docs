@@ -16,6 +16,8 @@ position: 0
 
 ## Gentt - Client Events
 
+* [OnClientRequestStart]({%slug gantt/client-side-programming/events/onclientrequeststart%}) - Occurs when a request to the WebService is about to be sent.
+
 * [OnClientTaskMoveStart]({%slug gantt/client-side-programming/events/onclienttaskmovestart%}) - Occurs when the Task moving is started.
 
 * [OnClientTaskMoving]({%slug gantt/client-side-programming/events/onclienttaskmoving%}) - Occurs when the Task is just about to be moved.

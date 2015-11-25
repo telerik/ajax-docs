@@ -11,7 +11,7 @@ The class which defines the crossing point of X and Y axis
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.AxisCrossingPoint
 
 ## Properties

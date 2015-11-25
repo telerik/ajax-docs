@@ -13,7 +13,7 @@ This class represents a Telerik.Web.UI.RadTicker item.
 * System.Object
 * System.Web.UI.Control
 * System.Web.UI.WebControls.WebControl
-* Telerik.Web.UI.RadTickerItem
+* Telerik.Web.UI.RadTickerItem : IMarkableStateManager, INamingContainer, IStateManager
 
 ## Properties
 

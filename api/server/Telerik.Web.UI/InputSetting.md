@@ -11,7 +11,7 @@ Class holding settings which are applied to all System.Web.UI.WebControls.TextBo
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.InputSetting
+* Telerik.Web.UI.InputSetting : IStateManager
 
 ## Properties
 

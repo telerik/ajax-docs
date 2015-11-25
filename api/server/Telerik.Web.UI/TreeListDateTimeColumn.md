@@ -12,8 +12,8 @@ Represents a Telerik.Web.UI.TreeListBoundColumn extended to display a RadCalenda
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
-* Telerik.Web.UI.TreeListColumn
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
+* Telerik.Web.UI.TreeListColumn : IComparable
 * Telerik.Web.UI.TreeListDataColumn
 * Telerik.Web.UI.TreeListEditableColumn
 * Telerik.Web.UI.TreeListBoundColumn

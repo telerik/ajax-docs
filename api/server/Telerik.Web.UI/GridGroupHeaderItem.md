@@ -19,7 +19,7 @@ Created and meaningful only with grouping enabled.
 * System.Web.UI.WebControls.WebControl
 * System.Web.UI.WebControls.TableRow
 * Telerik.Web.UI.GridTableRow
-* Telerik.Web.UI.GridItem
+* Telerik.Web.UI.GridItem : INamingContainer
 * Telerik.Web.UI.GridGroupHeaderItem
 
 ## Properties

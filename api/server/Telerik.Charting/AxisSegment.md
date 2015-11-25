@@ -11,7 +11,7 @@ Axis segment in case of ScaleBreaks enabled
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Charting.StateManagedObject
+* Telerik.Charting.StateManagedObject : IChartingStateManagedItem, IChartingStateManager, IDisposable
 * Telerik.Charting.AxisSegment
 
 ## Properties

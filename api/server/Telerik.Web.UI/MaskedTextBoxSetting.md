@@ -11,7 +11,7 @@ Class holding settings which are used to determine the masked input behavior
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.InputSetting
+* Telerik.Web.UI.InputSetting : IStateManager
 * Telerik.Web.UI.MaskedTextBoxSetting
 
 ## Properties

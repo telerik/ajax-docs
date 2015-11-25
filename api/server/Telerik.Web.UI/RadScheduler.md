@@ -19,8 +19,8 @@ Using the Telerik RadScheduler control, you can build powerful ASP.NET
 * System.Web.UI.WebControls.WebControl
 * System.Web.UI.WebControls.BaseDataBoundControl
 * System.Web.UI.WebControls.DataBoundControl
-* Telerik.Web.UI.RadDataBoundControl
-* Telerik.Web.UI.RadScheduler
+* Telerik.Web.UI.RadDataBoundControl : IControl, IControlResolver, IFeatureGroup, IPostBackDataHandler, IScriptControl, ISkinnableControl
+* Telerik.Web.UI.RadScheduler : IAppointmentFactory, ICallbackEventHandler, INamingContainer, IPostBackEventHandler
 
 ## Properties
 
@@ -369,6 +369,8 @@ Gets the Multi-day view settings.
 Gets the Month view settings.
 
 ###  AgendaView `AgendaViewSettings`
+
+###  YearView `YearViewSettings`
 
 ###  AppointmentContextMenuSettings `ContextMenuSettings`
 
@@ -1741,4 +1743,10 @@ Executed when post data changes should invoke a changed event
 #### Returns
 
 `System.Void` 
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
 

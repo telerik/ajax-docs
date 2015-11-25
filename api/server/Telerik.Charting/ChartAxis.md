@@ -11,8 +11,8 @@ Base chart axis class
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Charting.StateManagedObject
-* Telerik.Charting.RenderedObject
+* Telerik.Charting.StateManagedObject : IChartingStateManagedItem, IChartingStateManager, IDisposable
+* Telerik.Charting.RenderedObject : IOrdering
 * Telerik.Charting.ChartAxis
 
 ## Properties

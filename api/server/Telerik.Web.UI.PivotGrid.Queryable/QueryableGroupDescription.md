@@ -13,9 +13,9 @@ Serves as a base class for group descriptors of Telerik.Web.UI.PivotGrid.Queryab
 
 * System.Object
 * Telerik.Web.UI.PivotGrid.Core.Cloneable
-* Telerik.Web.UI.PivotGrid.Core.SettingsNode
-* Telerik.Web.UI.PivotGrid.Core.DescriptionBase
-* Telerik.Web.UI.PivotGrid.Core.GroupDescriptionBase
+* Telerik.Web.UI.PivotGrid.Core.SettingsNode : IEditable, INotifyPropertyChanged, IServiceProvider, ISupportInitialize
+* Telerik.Web.UI.PivotGrid.Core.DescriptionBase : IDescriptionBase, INamed
+* Telerik.Web.UI.PivotGrid.Core.GroupDescriptionBase : IGroupDescription
 * Telerik.Web.UI.PivotGrid.Core.GroupDescription
 * Telerik.Web.UI.PivotGrid.Queryable.QueryableGroupDescription
 

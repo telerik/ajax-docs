@@ -11,7 +11,7 @@ Represents a collection of Telerik.Web.UI.GridColumnGroup . Used to define Multi
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.GridColumnGroupCollection
+* Telerik.Web.UI.GridColumnGroupCollection : ICollection, ICollection`1, IEnumerable, IEnumerable`1, IList, IList`1, IStateManager
 
 ## Properties
 

@@ -11,7 +11,7 @@ A class that represents an olap group name.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.PivotGrid.Core.Olap.OlapGroupName
+* Telerik.Web.UI.PivotGrid.Core.Olap.OlapGroupName : IComparable
 
 ## Properties
 

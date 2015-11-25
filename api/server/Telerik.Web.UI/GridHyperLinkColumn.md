@@ -22,8 +22,8 @@ The content of the column can be bound to a field in a data source or to a
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.GridColumn
-* Telerik.Web.UI.GridHyperLinkColumn
+* Telerik.Web.UI.GridColumn : IComparable, IStateManager
+* Telerik.Web.UI.GridHyperLinkColumn : IGridDataColumn
 
 ## Properties
 

@@ -13,14 +13,16 @@ Telerik Social Share control
 * System.Object
 * System.Web.UI.Control
 * System.Web.UI.WebControls.WebControl
-* Telerik.Web.UI.RadWebControl
-* Telerik.Web.UI.RadSocialShare
+* Telerik.Web.UI.RadWebControl : IControl, IControlResolver, IPostBackDataHandler, IScriptControl, ISkinnableControl
+* Telerik.Web.UI.RadSocialShare : ICallbackEventHandler
 
 ## Properties
 
 ###  TagKey `HtmlTextWriterTag`
 
 ###  CssClassFormatString `String`
+
+###  SupportsRenderingMode `Boolean`
 
 ###  Orientation `Orientation`
 
@@ -439,4 +441,10 @@ Executed when post data changes should invoke a changed event
 #### Returns
 
 `System.Void` 
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
 

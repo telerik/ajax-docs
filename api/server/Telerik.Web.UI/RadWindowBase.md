@@ -11,7 +11,7 @@ description: Telerik.Web.UI.RadWindowBase
 * System.Object
 * System.Web.UI.Control
 * System.Web.UI.WebControls.WebControl
-* Telerik.Web.UI.RadWebControl
+* Telerik.Web.UI.RadWebControl : IControl, IControlResolver, IPostBackDataHandler, IScriptControl, ISkinnableControl
 * Telerik.Web.UI.RadWindowBase
 
 ## Properties
@@ -392,12 +392,6 @@ This property is overridden in order to support controls which implement INaming
 
 `System.Void` 
 
-###  GetValueFromViewState
-
-#### Returns
-
-`System.Object` 
-
 ###  CreateControlStyle
 
 #### Returns
@@ -611,4 +605,10 @@ Executed when post data changes should invoke a changed event
 #### Returns
 
 `System.Void` 
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
 

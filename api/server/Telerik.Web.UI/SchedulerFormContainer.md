@@ -12,7 +12,7 @@ This Class defines the SchedulerFormContainer that inherits SchedulerAppointment
 
 * System.Object
 * System.Web.UI.Control
-* Telerik.Web.UI.SchedulerAppointmentContainer
+* Telerik.Web.UI.SchedulerAppointmentContainer : IDataItemContainer, INamingContainer
 * Telerik.Web.UI.SchedulerFormContainer
 
 ## Properties

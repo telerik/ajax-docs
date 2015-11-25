@@ -14,7 +14,7 @@ Shows products sales by month.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Charting.ComplexDataSetClass
+* Telerik.Charting.ComplexDataSetClass : IDisposable
 
 ## Methods
 

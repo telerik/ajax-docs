@@ -11,8 +11,8 @@ Legend appearance style
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Charting.StateManagedObject
-* Telerik.Charting.Styles.Style
+* Telerik.Charting.StateManagedObject : IChartingStateManagedItem, IChartingStateManager, IDisposable
+* Telerik.Charting.Styles.Style : ICloneable
 * Telerik.Charting.Styles.LayoutStyle
 * Telerik.Charting.Styles.StyleLabel
 * Telerik.Charting.Styles.StyleExtendedLabel

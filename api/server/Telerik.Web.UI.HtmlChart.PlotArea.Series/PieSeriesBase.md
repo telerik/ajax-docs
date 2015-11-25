@@ -11,7 +11,7 @@ Base class for the Pie and Donut series
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.SeriesBase
 * Telerik.Web.UI.HtmlChart.PlotArea.Series.PieSeriesBase
 

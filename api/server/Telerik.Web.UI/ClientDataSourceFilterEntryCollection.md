@@ -12,5 +12,5 @@ This class defines a collection containing FilterExpressionEntries.
 
 * System.Object
 * System.Collections.Generic.List`1
-* Telerik.Web.UI.ClientDataSourceFilterEntryCollection
+* Telerik.Web.UI.ClientDataSourceFilterEntryCollection : IStateManager
 

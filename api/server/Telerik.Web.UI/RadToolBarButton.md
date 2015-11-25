@@ -21,9 +21,9 @@ When the user clicks a toolbar button, the Telerik.Web.UI.RadToolBar RadToolBarc
 * System.Object
 * System.Web.UI.Control
 * System.Web.UI.WebControls.WebControl
-* Telerik.Web.UI.ControlItem
+* Telerik.Web.UI.ControlItem : IMarkableStateManager, INamingContainer, IStateManager, IXmlSerializable
 * Telerik.Web.UI.RadToolBarItem
-* Telerik.Web.UI.RadToolBarButton
+* Telerik.Web.UI.RadToolBarButton : ICloneable, IRadToolBarButton
 
 ## Properties
 

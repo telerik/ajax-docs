@@ -13,7 +13,7 @@ This Class defines ResourceType collection.
 * System.Object
 * System.Web.UI.StateManagedCollection
 * Telerik.Web.StronglyTypedStateManagedCollection`1
-* Telerik.Web.UI.ResourceTypeCollection
+* Telerik.Web.UI.ResourceTypeCollection : IEnumerable`1
 
 ## Methods
 

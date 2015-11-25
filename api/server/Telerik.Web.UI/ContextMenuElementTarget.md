@@ -12,7 +12,7 @@ Represents a Telerik.Web.UI.ContextMenuTarget ContextMenuTargettarget, specified
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.ContextMenuTarget
 * Telerik.Web.UI.ContextMenuElementTarget
 

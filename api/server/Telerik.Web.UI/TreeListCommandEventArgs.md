@@ -13,7 +13,7 @@ The arguments passed when Telerik.Web.UI.RadTreeList fires a command event.
 * System.Object
 * System.EventArgs
 * System.Web.UI.WebControls.CommandEventArgs
-* Telerik.Web.UI.TreeListCommandEventArgs
+* Telerik.Web.UI.TreeListCommandEventArgs : ITreeListCommandEvent
 
 ## Properties
 

@@ -11,8 +11,8 @@ Defines the defaults of the connections. Whenever a connection is created, the s
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
-* Telerik.Web.UI.Diagram.ConnectionDefaults
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
+* Telerik.Web.UI.Diagram.ConnectionDefaults : IDefaultCheck
 
 ## Properties
 

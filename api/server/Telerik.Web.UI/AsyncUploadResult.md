@@ -12,7 +12,7 @@ Default implementation of Telerik.Web.UI.IAsyncUploadResult IAsyncUploadResult.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.AsyncUploadResult
+* Telerik.Web.UI.AsyncUploadResult : IAsyncUploadResult
 
 ## Properties
 

@@ -20,3 +20,11 @@ Represents the settings of the Token.
 
 Gets a value indicating whether the user can select multiple entries.
 
+## Methods
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
+

@@ -13,8 +13,8 @@ A PivotGridField is the main logic unit that relates the content of the pivot gr
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
-* Telerik.Web.UI.PivotGridField
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
+* Telerik.Web.UI.PivotGridField : IComparable, IDisposable, INamingContainer
 
 ## Properties
 

@@ -12,7 +12,7 @@ Class holding all settings associated with client-side
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.RadDataFormClientSettings
 
 ## Properties

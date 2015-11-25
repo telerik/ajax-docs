@@ -11,7 +11,7 @@ Represents an individual data group aggregate in a Telerik.Web.UI.ListViewDataGr
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.ListViewDataGroupAggregate
 
 ## Properties

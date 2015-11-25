@@ -980,7 +980,7 @@ Occurs when the user selects an item in the grid.
 
 The RadFileExplorer instance raised the event.
 
-##### args `Telerik.Web.UI.RadFileExplorerEventArgs`
+##### args `Telerik.Web.UI.FileExplorerEventArgs`
 
 The arguments of the ItemSelected event.
 
@@ -1036,7 +1036,7 @@ Occurs when the user selects an item in the grid.
 
 The RadFileExplorer instance raised the event.
 
-##### args `Telerik.Web.UI.RadFileExplorerEventArgs` 
+##### args `Telerik.Web.UI.FileExplorerEventArgs` 
 
 The arguments of the FolderChange event.
 
@@ -1050,7 +1050,7 @@ Occurs when the user tries to move or rename an item.
 
 The RadFileExplorer instance raised the event.
 
-##### args `Telerik.Web.UI.RadFileExplorerEventArgs` 
+##### args `Telerik.Web.UI.FileExplorerEventArgs` 
 
 The arguments of the Move event.
 
@@ -1064,7 +1064,7 @@ Occurs when the user tries to copy an item.
 
 The RadFileExplorer instance raised the event.
 
-##### args `Telerik.Web.UI.RadFileExplorerCopyEventArgs` 
+##### args `Telerik.Web.UI.FileExplorerCopyEventArgs` 
 
 The arguments of the Copy event.
 
@@ -1078,7 +1078,7 @@ Occurs when a folder is loaded in the grid.
 
 The RadFileExplorer instance raised the event.
 
-##### args `Telerik.Web.UI.RadFileExplorerEventArgs` 
+##### args `Telerik.Web.UI.FileExplorerEventArgs` 
 
 The arguments of the FolderLoaded event.
 
@@ -1092,7 +1092,7 @@ Occurs when an item is double clicked in the grid or in the tree.
 
 The RadFileExplorer instance raised the event.
 
-##### args `Telerik.Web.UI.RadFileExplorerEventArgs` 
+##### args `Telerik.Web.UI.FileExplorerEventArgs` 
 
 The arguments of the FileOpen event.
 
@@ -1120,7 +1120,7 @@ Occurs when the user tries to delete an item(file or folder).
 
 The RadFileExplorer instance raised the event.
 
-##### args `Telerik.Web.UI.RadFileExplorerEventArgs` 
+##### args `Telerik.Web.UI.FileExplorerEventArgs` 
 
 The arguments of the Delete event.
 
@@ -1135,6 +1135,6 @@ Occurs when a new folder is created.
 
 The RadFileExplorer instance raised the event.
 
-##### args `Telerik.Web.UI.RadFileExplorerEventArgs` 
+##### args `Telerik.Web.UI.FileExplorerEventArgs` 
 
 The arguments of the CreateNewFolder event.

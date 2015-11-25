@@ -139,94 +139,13 @@ The typical HTML output of a **RadCalendar** control is the following (some HTML
 
 * each day cell contains an <*a*> element inside with the day number, while out-of-range day cells contain a <*span*> element. Of course, this does not apply in the case when special day templates are used
 
-## HTML output of a RadTimeView
-
-The typical HTML output of a **RadTimeView** control is the following:
-
-````HTML
-<div id="RadTimePicker1_timeView_wrapper">
-    <div id="RadTimePicker1_timeView">
-        <table class="RadCalendarTimeView RadCalendarTimeView_Windows7">
-            <tbody>
-                <tr>
-                    <th class="rcHeader" colspan="3">
-                        Time Picker
-                    </th>
-                </tr>
-                <tr>
-                    <td>
-                        <a>12:00 AM</a>
-                    </td>
-                    <td>
-                        <a>1:00 AM</a>
-                    </td>
-                    ...........</tr>
-            </tbody>
-        </table>
-        <input type="hidden" name="RadTimePicker1_timeView_ClientState" id="RadTimePicker1_timeView_ClientState"
-            autocomplete="off"></div>
-</div>
-````
-
-
-
-* **div#*ClientID*_timeView_wrapper** and **div#*ClientID*_timeView** - wrapper elements, which are not related to the styling
-
-* **table.RadCalendarTimeView.RadCalendarTimeView_*SkinName*** - the main control element, which holds the skin name
-
-* **th.rcHeader** - the header cell, which contains the title
-
-* **td.rcHover** and **td.rcSelected** - the time table cells do not have a CSS class by default, but receive one upon hover or select
-
-## HTML output of a RadDateTimePicker
-
-The typical HTML output of a **RadDateTimePicker** control is the following:
-
-````HTML
-<div class="RadPicker RadPicker_Windows7">
-<input type="text" value="" class="rdfd_" name="RadDateTimePicker1" id="RadDateTimePicker1" />
-<table class="rcTable">
-    <tbody>
-        <tr>
-            <td class="rcInputCell">
-                <span class="RadInput RadInput_Windows7">.......</span>
-            </td>
-            <td>
-                <a class="rcCalPopup">Open the calendar popup.</a><div style="display: none;">
-                    .......</div>
-            </td>
-            <td>
-                <a class="rcTimePopup">Open the time view popup.</a><div style="display: none;">
-                    .......</div>
-            </td>
-        </tr>
-    </tbody>
-</table>
-<input type="hidden" name="RadDateTimePicker1_ClientState" id="RadDateTimePicker1_ClientState" autocomplete="off" /></div>
-````
-
-
-
-* **div.RadPicker.RadPicker_*SkinName*** - this is the control wrapper, which holds the skin name. The <*div*> element is block-level and by default forces a new line on the page, but in this case it behaves like an inline-block element with the help of additional CSS styles. Since the **display:inline-block** style is not supported by all browsers, there are different styles applied for different browsers. The <*div*> element is used instead of a <*span*> because <*span*> elements cannot hold <*table*> elements inside.
-
-* **input.rdfd**_ - this is a textbox, which the user does not see and it holds the actual control value. This is the element to which the client control instance is attached. The **rdfd_** CSS class is for internal use. The textbox is not hidden with **display:none**, but with **visibility:hidden**, so that tools such as callout extenders can calculate their position with regard to it. As a result of the visibility style, the hidden textbox still occupies 1-2px on the screen.
-
-* **table.riTable** - this is the second wrapper, which holds the textbox and popup buttons, each in separate table cell. The <*table*> element is required, because this is the only way to have several elements occupying a predefined amount of horizontal space without the need to use JavaScript.
-
-* **td.rcInputCell** - the table cell, which holds the textbox (a **RadDateInput** control with its <*span*> and <*input*> elements)
-
-* **a.rcCalPopup** - the button, which opens the **RadCalendar** popup. It has a sibling <*div*> that is hidden and wraps the **RadCalendar** control
-
-* **a.rcTimePopup** - the button, which opens the **RadTimeView** popup. It has a sibling <*div*> that is hidden and wraps the **RadTimeView** control
 
 ## Notes on skinning
 
-* If you intend to use border styles for the **RadCalendar** or **RadTimeView** table cells, then the **border-collapse** CSS style of all <*table*> elements in these controls must be set to **separate**.
+* If you intend to use border styles for the **RadCalendar** table cells, then the **border-collapse** CSS style of all <*table*> elements in these controls must be set to **separate**.
 
 * The width of **RadCalendar** depends on the length of the titlebar content (i.e. the month name). In order to prevent resizing when navigating to another month, the control should have a default width (220px set in the Calendar base stylesheet).
 
 * The **RadCalendar** navigation buttons and the **RadDateTimePicker** popup buttons have the following styles by default. This way the buttons can use background images of a set size and no visible text (it is shifted to the left) - **display:block; overflow:hidden; text-indent:-2222px; text-decoration:none;**
 
-* The **RadDateTimePicker** table cells should have zero padding, with the exception of the **riInputCell** table cell - it should have right padding equal to the sum of the textbox side borders and paddings. Otherwise the textbox will overlay the control's buttons or its right border will not be seen.
 
-* The **RadDateTimePicker** popup buttons should have a **relative positioning** and **outline:none** style in order to be clickable in Firefox. This is due to a proprietary CSS style (**display:-moz-inline-stack**) used to make the control behave like an inline-block element in this browser. Due to the relative positioning, Opera requires some **z-index** (e.g. 2). Internet Explorer 6 and 7 require the buttons to be static (not relative), otherwise a browser bug is triggered if the **RadDateTimePicker** control is placed inside a scrollable container. In order to apply styles to IE6 and IE7 the following CSS hacks are used: "* html ..." for IE6 and "*+html ..." for IE7.

@@ -13,7 +13,7 @@ A dictionary containing entries that define the character collection
 
 * System.Object
 * Telerik.Pdf.PdfObject
-* Telerik.Pdf.PdfDictionary
+* Telerik.Pdf.PdfDictionary : IEnumerable
 * Telerik.Pdf.PdfCIDSystemInfo
 
 ## Properties

@@ -16,7 +16,7 @@ RadMultiPage is usually used with RadTabStrip to create paged data entry forms. 
 * System.Object
 * System.Web.UI.Control
 * System.Web.UI.WebControls.WebControl
-* Telerik.Web.UI.RadWebControl
+* Telerik.Web.UI.RadWebControl : IControl, IControlResolver, IPostBackDataHandler, IScriptControl, ISkinnableControl
 * Telerik.Web.UI.RadMultiPage
 
 ## Properties
@@ -53,6 +53,10 @@ Use this property to customize the visibility and position of scroll bars. By de
 ###  EnableEmbeddedSkins `Boolean`
 
 ###  Skin `String`
+
+###  EnableAriaSupport `Boolean`
+
+When set to true enables support for WAI-ARIA
 
 ###  RegisterWithScriptManager `Boolean`
 
@@ -317,4 +321,10 @@ Executed when post data changes should invoke a changed event
 #### Returns
 
 `System.Void` 
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
 

@@ -8,11 +8,11 @@ published: True
 position: 0
 ---
 
-# Overview Overview
+# RadPanelBar Overview
 
 
 
-## 
+
 
 **Telerik RadPanelBar for ASP.NET Ajax** is a flexible navigation component for use in ASP.NET applications. The panel bar can act as a vertical menu, or, by using templates, it can act as an entry form or tool bar.
 

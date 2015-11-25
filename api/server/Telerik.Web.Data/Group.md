@@ -11,7 +11,7 @@ Represents an item that is created after grouping.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.Data.Group
+* Telerik.Web.Data.Group : IGroup
 
 ## Properties
 

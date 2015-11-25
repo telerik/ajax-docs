@@ -56,4 +56,4 @@ Following is a sample illustrating the use of the **Repeatable** property:
 
 # See Also
 
- * [RadCalendar Day Templates]({%slug calendar/templates/radcalendar-day-templates%})
+ * [RadCalendar Day Templates]({%slug calendar/functionality/templates/day-templates%})

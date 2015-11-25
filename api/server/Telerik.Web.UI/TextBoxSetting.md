@@ -11,7 +11,7 @@ Settings determining the strength of a password.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.InputSetting
+* Telerik.Web.UI.InputSetting : IStateManager
 * Telerik.Web.UI.TextBoxSetting
 
 ## Properties

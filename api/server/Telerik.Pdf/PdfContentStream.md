@@ -11,7 +11,7 @@ description: Telerik.Pdf.PdfContentStream
 * System.Object
 * Telerik.Pdf.PdfObject
 * Telerik.Pdf.PdfStream
-* Telerik.Pdf.PdfContentStream
+* Telerik.Pdf.PdfContentStream : IDisposable
 
 ## Properties
 

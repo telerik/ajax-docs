@@ -11,8 +11,8 @@ The default options for all markers.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
-* Telerik.Web.UI.Map.MarkerDefaults
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
+* Telerik.Web.UI.Map.MarkerDefaults : IDefaultCheck
 
 ## Properties
 

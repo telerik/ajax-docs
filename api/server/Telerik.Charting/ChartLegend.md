@@ -11,10 +11,10 @@ Chart legend. Shows the series names or series labels listing. Can contains cust
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Charting.StateManagedObject
-* Telerik.Charting.RenderedObject
+* Telerik.Charting.StateManagedObject : IChartingStateManagedItem, IChartingStateManager, IDisposable
+* Telerik.Charting.RenderedObject : IOrdering
 * Telerik.Charting.LayoutElement
-* Telerik.Charting.ChartBaseLabel
+* Telerik.Charting.ChartBaseLabel : IActiveRegion, ICloneable, IContainer
 * Telerik.Charting.ExtendedLabel
 * Telerik.Charting.ChartLegend
 

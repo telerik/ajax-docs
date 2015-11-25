@@ -5,7 +5,7 @@ description: RadFlowDocumentEditor
 slug: radwordsprocessing-editing-radflowdocumenteditor
 tags: radflowdocumenteditor
 published: True
-position: 1
+position: 2
 ---
 
 # RadFlowDocumentEditor
@@ -203,8 +203,10 @@ __RadFlowDocumentEditor__ provides several methods for inserting [ImageInline]({
 
 {{region radwordsprocessing-editing-radflowdocumenteditor_8}}
     public ImageInline InsertImageInline(ImageSource source, Size size)
+    public ImageInline InsertImageInline(Stream stream, string extension)
     public ImageInline InsertImageInline(Stream stream, string extension, Size size)
     public FloatingImage InsertFloatingImage(ImageSource source, Size size)
+    public FloatingImage InsertFloatingImage(Stream stream, string extension)
     public FloatingImage InsertFloatingImage(Stream stream, string extension, Size size)
 {{endregion}}
 
@@ -258,6 +260,9 @@ Here is how to insert a table with the "TableGrid" built-in style:
 {{endregion}}
 
 ![Rad Words Processing Editing Rad Flow Document Editor 06](images/RadWordsProcessing_Editing_RadFlowDocumentEditor_06.png)
+
+>tip The **DocumentElementImporter** class allows you to import a document element from one document into another. Please, check [this article]({%slug radwordsprocessing-editing-import-document-element%}) for more information about this functionality.
+
 
 ## Changing Current Styles
 

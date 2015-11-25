@@ -13,7 +13,7 @@ Telerik.Web.UI.RadDataFormItem representing empty item which will be shown when 
 
 * System.Object
 * System.Web.UI.Control
-* Telerik.Web.UI.RadDataFormItem
+* Telerik.Web.UI.RadDataFormItem : INamingContainer
 * Telerik.Web.UI.RadDataFormEmptyItem
 
 ## Properties

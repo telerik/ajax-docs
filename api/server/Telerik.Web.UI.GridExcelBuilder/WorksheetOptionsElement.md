@@ -11,7 +11,7 @@ Provides the possibility to change various options for the current Worksheet.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.GridExcelBuilder.Abstract.ElementBase
+* Telerik.Web.UI.GridExcelBuilder.Abstract.ElementBase : IElement
 * Telerik.Web.UI.GridExcelBuilder.WorksheetOptionsElement
 
 ## Properties

@@ -11,7 +11,7 @@ This Class defines RibbonBarApplicationMenuFooterPane
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.RibbonBarApplicationMenuFooterPane
+* Telerik.Web.UI.RibbonBarApplicationMenuFooterPane : IDisposable
 
 ## Properties
 

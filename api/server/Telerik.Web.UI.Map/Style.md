@@ -11,8 +11,8 @@ The default style for shapes.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
-* Telerik.Web.UI.Map.Style
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
+* Telerik.Web.UI.Map.Style : IDefaultCheck
 
 ## Properties
 

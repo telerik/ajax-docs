@@ -15,10 +15,10 @@ Represents the edit form in Telerik.Web.UI.RadTreeList .
 * System.Web.UI.WebControls.WebControl
 * System.Web.UI.WebControls.TableRow
 * Telerik.Web.UI.TreeListTableRow
-* Telerik.Web.UI.TreeListItem
+* Telerik.Web.UI.TreeListItem : INamingContainer
 * Telerik.Web.UI.TreeListEditableItem
 * Telerik.Web.UI.TreeListEditFormItem
-* Telerik.Web.UI.TreeListEditFormInsertItem
+* Telerik.Web.UI.TreeListEditFormInsertItem : ITreeListInsertItem
 
 ## Properties
 

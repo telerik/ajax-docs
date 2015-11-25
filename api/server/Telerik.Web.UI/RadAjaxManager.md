@@ -15,8 +15,8 @@ Telerik.Web.UI.RadAjaxManager is one of the two major controls of the Telerik Ra
 * System.Object
 * System.Web.UI.Control
 * System.Web.UI.WebControls.WebControl
-* Telerik.Web.UI.RadAjaxControl
-* Telerik.Web.UI.RadAjaxManager
+* Telerik.Web.UI.RadAjaxControl : IPostBackEventHandler
+* Telerik.Web.UI.RadAjaxManager : IScriptControl
 
 ## Properties
 

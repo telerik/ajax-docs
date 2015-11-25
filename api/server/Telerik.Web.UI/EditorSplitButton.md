@@ -11,8 +11,8 @@ Represents a EditorDropDown tool that renders as a custom dropdown in the editor
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
-* Telerik.Web.UI.EditorToolBase
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
+* Telerik.Web.UI.EditorToolBase : IAttributeAccessor
 * Telerik.Web.UI.EditorTool
 * Telerik.Web.UI.EditorDropDown
 * Telerik.Web.UI.EditorSplitButton

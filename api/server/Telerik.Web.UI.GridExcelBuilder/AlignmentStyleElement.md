@@ -11,7 +11,7 @@ AlignmentStyle object. Unifies the vertical and the horizontal alignment setting
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.GridExcelBuilder.Abstract.ElementBase
+* Telerik.Web.UI.GridExcelBuilder.Abstract.ElementBase : IElement
 * Telerik.Web.UI.GridExcelBuilder.AlignmentStyleElement
 
 ## Properties

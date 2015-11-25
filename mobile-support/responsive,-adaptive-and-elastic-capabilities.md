@@ -14,13 +14,34 @@ To fit into a responsive page design, the controls from the UI for ASP.NET AJAX 
 
 A control can hardly be considered responsive by itself, because this heavily depends on the layout and design of the page it is placed on. Nevertheless, here follow the guidelines we use to define a control as responsive, elastic, adaptive or fluid:
 
-* **Fluid** — a fluid control can take up 100% of the width of its parent and resize with it in real-time (as opposed to stretching initially and not responding to a container size change).
+* **Fluid** (Figure 1)—a fluid control can take up 100% of the width of its parent and resize with it in real-time (as opposed to stretching initially and not responding to a container size change).
 
-* **Responsive** — the control will have the same HTML rendering in all resolutions, but CSS rules or JavaScript logic may reorder, resize or even hide certain elements from its UI to make it more suitable for the current dimensions.
 
-* **Elastic** — this means that a font-size change will resize the control elements accordingly. This is usually achieved by using `em` units for font-size and padding settings. **Example 1** at the end of this article shows the selectors for all controls that support elastic design. You can read more about each specific control in the articles linked in **Table 1**.
+* **Responsive** (Figure 2)—the control will have the same HTML rendering in all resolutions, but CSS rules or JavaScript logic may reorder, resize or even hide certain elements from its UI to make it more suitable for the current dimensions.
 
-* **Adaptive** — an adaptive control can change its HTML rendering and layout according to the device it is displayed on. Usually, at least one mode is optimized for mobile devices.
+* **Elastic** (Figure 3)—this means that a font-size change will resize the control elements accordingly. This is usually achieved by using `em` units for font-size and padding settings. **Example 1** at the end of this article shows the selectors for all controls that support elastic design. You can read more about each specific control in the articles linked in **Table 1**.
+
+* **Adaptive** (Figure 4)—an adaptive control can change its HTML rendering and layout according to the device it is displayed on. Usually, at least one mode is optimized for mobile devices.
+
+
+>caption Figure 1: Fluid control concept
+
+![](images/fluid-control.jpg)
+
+
+>caption Figure 2: Responsive control concept
+
+![](images/responsive-control.png)
+
+
+>caption Figure 3: Elastic control concept
+
+![](images/elastic-control.png)
+
+>caption Figure 3: Adaptive control concept
+
+![](images/adaptive-control.gif)
+
 
 
 >caption Table 1: A list with the responsive capabilities the controls from the UI for ASP.NET AJAX suite offer.
@@ -34,9 +55,9 @@ A control can hardly be considered responsive by itself, because this heavily de
 |Button|[Yes]({%slug button/mobile-support/elastic-design%})|[Yes]({%slug button/mobile-support/fluid-design%})|No|No|
 |Calendar|[Yes]({%slug calendar/mobile-support/fluid-and-elastic-capabilities%})|[Yes]({%slug calendar/mobile-support/fluid-and-elastic-capabilities%})|No|No|
 |Captcha|N/A|No|N/A|N/A|
-|Chart (HTML5)|N/A|N/A|N/A|N/A|
+|Chart (HTML5)|N/A|N/A (but [possible](http://demos.telerik.com/aspnet-ajax/htmlchart/examples/functionality/responsive-chart/defaultcs.aspx))|N/A (but [possible](http://demos.telerik.com/aspnet-ajax/htmlchart/examples/functionality/responsive-chart/defaultcs.aspx))|N/A|
 |Chart|N/A|N/A|N/A|N/A|
-|ColorPicker|No|No|No|No|
+|ColorPicker|[Yes]({%slug colorpicker/mobile-support/elastic-design%})|No|No|No|
 |ComboBox|Yes|Yes|N/A|N/A|
 |DataForm|[Yes]({%slug dataform/mobile-support/fluid-and-elastic-capabilities%})|[Yes]({%slug dataform/mobile-support/fluid-and-elastic-capabilities%})|No|No|
 |DataPager|Yes|Yes|Yes|Yes|
@@ -44,14 +65,14 @@ A control can hardly be considered responsive by itself, because this heavily de
 |Dock|[Yes]({%slug dock/mobile-support/responsive,-adaptive-and-elastic-capabilities%})|N/A|[Yes]({%slug dock/mobile-support/responsive,-adaptive-and-elastic-capabilities%})|N/A|
 |DropDownList|Yes|Yes|N/A|N/A|
 |DropDownTree|Yes|Yes|N/A|N/A|
-|Editor|[Yes]({%slug editor/mobile-support/elastic-design%})|[Yes]({%slug editor/mobile-support/fluid-design%})|Yes|N/A|
-|FileExplorer|No|Yes|No|No|
+|Editor|[Yes]({%slug editor/mobile-support/elastic-design%})|[Yes]({%slug editor/mobile-support/fluid-design%})|Yes|[Yes]({%slug editor/mobile-support/phone-layout/overview%})|
+|FileExplorer|[Limited]({%slug fileexplorer/mobile-support/elastic-design%})|Yes|No|No|
 |Filter|Yes|No|No|No|
 |FormDecorator|[Yes]({%slug formdecorator/mobile-support/responsive,-adaptive-and-elastic-capabilities%})|[Yes]({%slug formdecorator/mobile-support/responsive,-adaptive-and-elastic-capabilities%})|[Yes]({%slug formdecorator/mobile-support/responsive,-adaptive-and-elastic-capabilities%})|N/A|
 |Gantt|Yes|Yes|No|No|
 |Gauge|N/A|N/A|N/A|N/A|
 |Grid|No|Yes|No|[Yes]({%slug grid/mobile-support/mobile-rendering/overview%})|
-|ImageEditor|No|Yes|No|No|
+|ImageEditor|[Limited]({%slug  imageeditor/mobile-support/elastic-design%})|Yes|No|No|
 |ImageGallery|Yes|Yes|Yes|Yes|
 |Input|Yes|No|N/A|No|
 |LightBox|Yes|Yes|No|Yes|
@@ -65,23 +86,24 @@ A control can hardly be considered responsive by itself, because this heavily de
 |OrgChart|Yes|N/A|N/A|N/A|
 |PanelBar|Yes|Yes|N/A|N/A|
 |Persistence Framework|N/A|N/A|N/A|N/A|
-|PivotGrid|No|Yes|No|No|
+|PivotGrid|[Yes]({%slug pivotgrid/mobile-support/fluid-and-elastic-capabilities%})|[Yes]({%slug pivotgrid/mobile-support/fluid-and-elastic-capabilities%})|No|No|
 |Progress Area|No|No|No|No|
 |Progress Bar|[Yes]({%slug progressbar/mobile-support/elastic-design%})|[Yes]({%slug progressbar/mobile-support/fluid-design%})|[Yes]({%slug progressbar/mobile-support/elastic-design%})|No|
 |Rating|[Yes]({%slug rating/mobile-support/elastic-design%})|No|No|N/A|
 |RibbonBar|No|Yes|No|No|
-|Rotator|[Yes]({%slug rating/mobile-support/elastic-design%})|Yes|[Yes]({%slug rotator/mobile-support/overview%})|N/A|
+|Rotator|[Yes]({%slug rotator/mobile-support/elastic-capabilities%})|[Yes]({%slug rotator/mobile-support/fluid-capabilities%})|No|N/A|
 |Scheduler|No|Yes|N/A|[Yes]({%slug scheduler/mobile-support/responsive-adaptive-and-elastic-capabilities%})|
 |SearchBox|Yes|No|N/A|N/A|
 |SiteMap|Yes|Yes|N/A|N/A|
 |Slider|[Yes]({%slug slider/mobile-support/responsive,-adaptive-and-elastic-capabilities%})|[Yes]({%slug slider/mobile-support/responsive,-adaptive-and-elastic-capabilities%})|[Yes]({%slug slider/mobile-support/responsive,-adaptive-and-elastic-capabilities%})|N/A|
-|SocialShare|[Yes]({%slug socialshare/mobile-support/responsive,-adaptive-and-elastic-capabilities%})|No|No|No|
+|SocialShare|[Yes]({%slug socialshare/mobile-support/elastic-design%})|[Yes]({%slug socialshare/mobile-support/fluid-design%})|No|No|
 |Spell|No|No|No|No|
-|Splitter|No|[Yes]({%slug splitter/layout/filling-the-entire-page%})|[Yes]({%slug splitter/layout/filling-the-entire-page%})|N/A|
+|Splitter|[Limited]({%slug splitter/mobile-support/elastic-design%})|[Yes]({%slug splitter/layout/filling-the-entire-page%})|[Yes]({%slug splitter/layout/filling-the-entire-page%})|N/A|
 |TabStrip|No|No|N/A|N/A|
 |TagCloud|[Yes]({%slug tagcloud/mobile-support/resposnive,-adaptive-and-elastic-capabilities%})|N/A|[Yes]({%slug tagcloud/mobile-support/resposnive,-adaptive-and-elastic-capabilities%})|N/A|
 |Ticker|[Yes]({%slug rotator/mobile-support/radticker-elastic-capabilities%})|Yes|No|N/A|
-|TileList|No|[Yes]({%slug tilelist/mobile-support/responsive,-adaptive-and-elastic-capabilities%})|[Yes]({%slug tilelist/mobile-support/responsive,-adaptive-and-elastic-capabilities%})|[Yes]({%slug tilelist/mobile-support/responsive,-adaptive-and-elastic-capabilities%})|
+|Tile|[Yes]({%slug tilelist/tiles/mobile-support/elastic-design%})|[Yes]({%slug tilelist/tiles/mobile-support/fluid-design%})|N/A|N/A|
+|TileList|[Yes]({%slug tilelist/mobile-support/elastic-capabilities%})|[Yes]({%slug tilelist/mobile-support/responsive-capabilities%})|[Yes]({%slug tilelist/mobile-support/responsive-capabilities%})|[Yes]({%slug tilelist/mobile-support/responsive-capabilities%})|
 |ToolBar|No|Yes|No|N/A|
 |ToolTip|[Yes]({%slug tooltip/mobile-support/responsive,-adaptive-and-elastic-capabilities%})|N/A|[Yes]({%slug tooltip/mobile-support/responsive,-adaptive-and-elastic-capabilities%})|N/A|
 |TreeMap|Yes|Yes|No|No|
@@ -125,6 +147,8 @@ A control can hardly be considered responsive by itself, because this heavily de
 /* Menu */ html .RadMenu,
 /* Notification */ html .RadNotification,
 /* PanelBar */ html .RadPanelBar,
+/* PivotGrid */ html .RadPivotGrid,
+				html .PivotGridWindow,
 /* ProgressBar */ html .RadProgressBar,
 /* Rating */ html .RadRating,
 /* Rotator */ html .RadRotator,
@@ -147,7 +171,7 @@ A control can hardly be considered responsive by itself, because this heavily de
 
 **Example 2:** CSS selectors to make avail of elastic design capabilities for elements decorated by RadFormDecorator
 
-````JavaScript
+````CSS
 /* FormDecorator */
 html.RadForm .rfdSkinnedButton,
 html.RadForm .rfdTextInput,

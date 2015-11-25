@@ -12,7 +12,7 @@ The class containing properties associated with the columns' validation base on 
 
 * System.Object
 * Telerik.Web.UI.ObjectWithState
-* Telerik.Web.UI.GridColumnValidationSettings
+* Telerik.Web.UI.GridColumnValidationSettings : IDisposable
 
 ## Properties
 
@@ -45,4 +45,10 @@ Clean up used resources.
 #### Returns
 
 `System.Void` 
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
 

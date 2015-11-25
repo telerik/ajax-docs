@@ -5,7 +5,7 @@ description: Date Format Patterns
 slug: calendar/accessibility-and-internationalization/date-format-patterns
 tags: date,format,patterns
 published: True
-position: 2
+position: 1
 ---
 
 # Date Format Patterns
@@ -56,3 +56,5 @@ The table below shows a list of patterns that can be combined to create date for
 |ss|The second. Single-digit seconds have a leading zero.|
 |t|The first character in the AM/PM designator. (Only if used in the context of a longer pattern. A single "t" on its own represents the short time pattern.)|
 |tt|The AM/PM designator.|
+
+

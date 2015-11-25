@@ -293,8 +293,6 @@ End Sub
 
 You can also review the forthcoming code library thread for different scenarios:
 
-[Manual Update/Insert/Delete with SQL backend](http://www.telerik.com/community/code-library/submission/b311D-mmdbh.aspx)
+[Manual Update/Insert/Delete with FormTemplate and SQL backend](http://www.telerik.com/support/code-library/manual-insert-update-delete-using-formtemplate-and-sql-backend)
 
-[Manual Update/Insert/Delete with FormTemplate and SQL backend](http://www.telerik.com/community/code-library/submission/b311D-mtbed.aspx)
 
-[Manual UpdateInsert/Delete with Access backend](http://www.telerik.com/community/code-library/submission/b311D-gaabc.aspx)

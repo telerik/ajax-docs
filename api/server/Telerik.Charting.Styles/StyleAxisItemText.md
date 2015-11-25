@@ -11,8 +11,8 @@ Axis item label text block's appearance
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Charting.StateManagedObject
-* Telerik.Charting.Styles.Style
+* Telerik.Charting.StateManagedObject : IChartingStateManagedItem, IChartingStateManager, IDisposable
+* Telerik.Charting.Styles.Style : ICloneable
 * Telerik.Charting.Styles.LayoutStyle
 * Telerik.Charting.Styles.StyleTextBlock
 * Telerik.Charting.Styles.StyleAxisItemText

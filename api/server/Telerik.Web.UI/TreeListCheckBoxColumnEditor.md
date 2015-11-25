@@ -11,7 +11,7 @@ Represents the default editor for the Telerik.Web.UI.TreeListCheckBoxColumn
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.TreeListColumnEditor
+* Telerik.Web.UI.TreeListColumnEditor : ITreeListColumnEditor
 * Telerik.Web.UI.TreeListCheckBoxColumnEditor
 
 ## Properties

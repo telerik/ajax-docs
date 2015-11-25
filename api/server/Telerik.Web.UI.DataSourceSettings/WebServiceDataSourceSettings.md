@@ -11,7 +11,7 @@ A class holding the base data source web service settings of the Telerik.Web.UI.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.DataSourceSettings.WebServiceDataSourceSettings
 
 ## Properties

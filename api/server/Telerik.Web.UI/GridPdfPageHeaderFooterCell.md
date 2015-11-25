@@ -25,3 +25,11 @@ Determines the content of the header/footer cell.
 
 Text alignment for the current cell.
 
+## Methods
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
+

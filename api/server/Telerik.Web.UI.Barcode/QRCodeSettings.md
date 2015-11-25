@@ -66,3 +66,11 @@ This property allows for additional data to be applied to the FNC1 data.
             Please, keep in mind, that this is only applicable with FNC1Mode.FNC1SecondPosition. 
             Additionally, the acceptable data for this property is in the range {a-z}],{[A-Z} and {00-99}.
 
+## Methods
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
+

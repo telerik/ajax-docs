@@ -78,6 +78,8 @@ Here are a few examples of setting a custom toolbar position:
 		toolgroupLeft.Tools.Add(New EditorTool("Bold"))
 
 
+>note When enabling only one [Edit Mode]({%slug editor/functionality/editor-views-and-modes/edit-modes%}) (e.g., `EditModes="Design"`) the bottom docking zone will not render. 
+
 ## See Also
 
 * [Live demo: Editor - Docking Zones](http://demos.telerik.com/aspnet-ajax/editor/examples/dockingzone/defaultcs.aspx)

@@ -11,7 +11,7 @@ A collection holding Telerik.Web.UI.RadListView Telerik.Web.UI.RadListViewFilter
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.RadListViewFilterExpressionCollection
+* Telerik.Web.UI.RadListViewFilterExpressionCollection : ICollection, ICollection`1, IEnumerable, IEnumerable`1, IHideObjectMembers, IList, IList`1, IRadListViewFilterExpressionContainer, IStateManager
 
 ## Properties
 

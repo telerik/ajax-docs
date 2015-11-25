@@ -12,7 +12,7 @@ Class holding settings for number formating which are applied on
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.NumberFormatSettings
+* Telerik.Web.UI.NumberFormatSettings : ICustomTypeDescriptor
 
 ## Properties
 

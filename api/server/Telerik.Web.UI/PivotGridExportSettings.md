@@ -11,7 +11,7 @@ Class holding settings associated with the Telerik.Web.UI.RadPivotGrid export se
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.PivotGridExportSettings
 
 ## Properties

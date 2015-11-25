@@ -12,13 +12,7 @@ position: 11
 
 
 
-## 
-
 The **OnViewSelectorClick** client-side event handler is called when the user is about to select an entire view of dates by clicking on the view selector. The event occurs only if the **EnableViewSelector** property is set to **true**.
-
->note The **OnViewSelectorClick** event is supported by: **RadCalendar** .
->
-
 
 The event handler receives two arguments:
 

@@ -12,7 +12,7 @@ The serializer for the Crop operation
 
 * System.Object
 * Telerik.Web.UI.ImageEditor.Serialization.ImageOperationSerializerBase
-* Telerik.Web.UI.ImageEditor.Serialization.SwapImageOperationSerializer
+* Telerik.Web.UI.ImageEditor.Serialization.SwapImageOperationSerializer : IImageOperationSerializer
 * Telerik.Web.UI.ImageEditor.Serialization.CropOperationSerializer
 
 ## Properties

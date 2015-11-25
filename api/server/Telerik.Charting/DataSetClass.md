@@ -11,7 +11,7 @@ Sample class returns DataSet for an ObjectDataSource data binding demo
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Charting.DataSetClass
+* Telerik.Charting.DataSetClass : IDisposable
 
 ## Methods
 

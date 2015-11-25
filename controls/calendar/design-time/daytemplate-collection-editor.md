@@ -5,7 +5,7 @@ description: DayTemplate Collection Editor
 slug: calendar/design-time/daytemplate-collection-editor
 tags: daytemplate,collection,editor
 published: True
-position: 4
+position: 5
 ---
 
 # DayTemplate Collection Editor
@@ -20,6 +20,8 @@ To add a dynamic template type to the collection, click the **Add** button and a
 
 To remove a dynamic template type, select the template type and click the **Remove** button.
 
+
+
 # See Also
 
- * [RadCalendar Day Templates]({%slug calendar/templates/radcalendar-day-templates%})
+ * [RadCalendar Day Templates]({%slug calendar/functionality/templates/day-templates%})

@@ -198,7 +198,7 @@ The rating event is raised just before you click an item of the RadRating contro
 
 The instance of the RadRating raised the event.
 
-##### args `Telerik.Web.UI.RadRatingRatingEventArgs`
+##### args `Telerik.Web.UI.RatingRatingEventArgs`
 
 The event arguments.  
 
@@ -212,7 +212,7 @@ The rated event is raised after you click an item of the RadRating control there
 
 The instance of the RadRating raised the event.
 
-##### args `Telerik.Web.UI.RadRatingRatedEventArgs`
+##### args `Telerik.Web.UI.RatingRatedEventArgs`
 
 The event arguments.
 

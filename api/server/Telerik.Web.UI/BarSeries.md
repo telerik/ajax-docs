@@ -11,9 +11,9 @@ The bar/column series class will produce a bar/column chart type.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.SeriesBase
-* Telerik.Web.UI.BarSeries
+* Telerik.Web.UI.BarSeries : IStackedSeries
 
 ## Properties
 

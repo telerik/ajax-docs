@@ -12,7 +12,7 @@ Represents Telerik.Web.UI.PivotGrid.Core.AggregateValue with double value.
 
 * System.Object
 * Telerik.Web.UI.PivotGrid.Core.AggregateValue
-* Telerik.Web.UI.PivotGrid.Core.Aggregates.DoubleAggregateValue
+* Telerik.Web.UI.PivotGrid.Core.Aggregates.DoubleAggregateValue : IConvertibleAggregateValue`1
 
 ## Methods
 

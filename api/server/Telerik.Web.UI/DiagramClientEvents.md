@@ -11,8 +11,8 @@ Defines the client events handlers.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
-* Telerik.Web.UI.DiagramClientEvents
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
+* Telerik.Web.UI.DiagramClientEvents : IDefaultCheck
 
 ## Properties
 

@@ -11,8 +11,8 @@ The default configuration for map layers by type.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
-* Telerik.Web.UI.Map.LayerDefaults
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
+* Telerik.Web.UI.Map.LayerDefaults : IDefaultCheck
 
 ## Properties
 

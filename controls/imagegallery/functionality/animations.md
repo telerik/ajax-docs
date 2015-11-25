@@ -14,16 +14,16 @@ position: 1
 
 **RadImageGallery** provides an option for using advanced animations, which are transitions between the images.You can change different animation effects by using the **Easing**, **Speed** and **Type** properties.
 
-By using the **Easing** and **Speed** properties, you could configure the animation effectwhen navigating to the next or previous image.
+By using the **Easing** and **Speed** properties, you could configure the animation effect when navigating to the next or previous image.
 
 **Figure 1:** Animation in action.
-![image-gallery-animations](images/image-gallery-animations.png)
+![image-gallery-animations](images/image-gallery-animations.jpg)
 
 ## Type
 
 The **Type** property allows you to choose an animation effect. **RadImageGallery** offers 14different animation effects or you can choose the **Random** type, which will apply a different effect between the image transitions. You can check out the different animation effects in the [live example](http://demos.telerik.com/aspnet-ajax/image-gallery/examples/functionality/animations/defaultcs.aspx).
 
-The **NextImagesAnimation** and **PrevImagesAnimation** properties contain predefined lists with allavailable animations. You can choose a particular animation, which will be applied to one or both properties. **Easing** and **Speed** properties are not mandatory. **Table 1** shows the different animations.
+The **NextImagesAnimation** and **PrevImagesAnimation** properties contain predefined lists with all available animations. You can choose a particular animation, which will be applied to one or both properties. **Easing** and **Speed** properties are not mandatory. **Table 1** shows the different animations.
 
 **Table 1:** All available animation effects.
 

@@ -52,3 +52,9 @@ Further information on this subject can be found in the MSDN articles linked bel
 [http://msdn.microsoft.com/en-us/library/aa479403.aspx](http://msdn.microsoft.com/en-us/library/aa479403.aspx)
 
 [http://msdn.microsoft.com/en-us/library/system.web.ui.pagestatepersister(VS.80).aspx](http://msdn.microsoft.com/en-us/library/system.web.ui.pagestatepersister(VS.80).aspx)
+
+## See Also
+
+ * [Grid Performance Optimizations]({%slug grid/performance/grid-performance-optimizations%})
+ 
+ * [Optimizing ViewState usage]({%slug grid/performance/optimizing-viewstate-usage%})

@@ -5,7 +5,7 @@ publish: false
 
 # Telerik UI for ASP.NET AJAX Documentation
 
-Welcome to the GitHub repo for [UI for ASP.NET AJAX](http://www.telerik.com/products/aspnet-ajax.aspx) documentation. This repository contains the source content — written in Markdown — that we use to power Telerik UI for ASP.NET AJAX Documentation at [http://www.telerik.com/help/aspnet-ajax/](http://www.telerik.com/help/aspnet-ajax/). If you've arrived here wanting to search and peruse our docs, you'd be better served heading over to [http://www.telerik.com/help/aspnet-ajax/](http://www.telerik.com/help/aspnet-ajax/) where our content is prettified and searchable.
+Welcome to the GitHub repo for [UI for ASP.NET AJAX](http://www.telerik.com/products/aspnet-ajax.aspx) documentation. This repository contains the source content — written in Markdown — that we use to power Telerik UI for ASP.NET AJAX Documentation at [http://docs.telerik.com/devtools/aspnet-ajax/introduction](http://docs.telerik.com/devtools/aspnet-ajax/introduction). If you've arrived here wanting to search and peruse our docs, you'd be better served heading over to [http://docs.telerik.com/devtools/aspnet-ajax/introduction](http://docs.telerik.com/devtools/aspnet-ajax/introduction) where our content is prettified and searchable.
 
 ## Running Locally
 

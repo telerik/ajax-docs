@@ -12,7 +12,7 @@ Summary description for CalendarDayCollection.
 
 * System.Object
 * System.Collections.CollectionBase
-* Telerik.Web.UI.Calendar.Collections.CalendarDayCollection
+* Telerik.Web.UI.Calendar.Collections.CalendarDayCollection : IStateManager
 
 ## Properties
 

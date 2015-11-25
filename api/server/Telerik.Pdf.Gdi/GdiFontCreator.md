@@ -11,7 +11,7 @@ Retrieves all pertinent TrueType tables by invoking GetFontData.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Pdf.Gdi.GdiFontCreator
+* Telerik.Pdf.Gdi.GdiFontCreator : IDisposable
 
 ## Methods
 

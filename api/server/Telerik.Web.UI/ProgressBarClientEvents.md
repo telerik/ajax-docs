@@ -11,7 +11,7 @@ Defines the client events handlers.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.ProgressBarClientEvents
 
 ## Properties

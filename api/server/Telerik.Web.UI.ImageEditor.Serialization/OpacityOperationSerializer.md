@@ -12,7 +12,7 @@ The serializer for the OpacityOperation
 
 * System.Object
 * Telerik.Web.UI.ImageEditor.Serialization.ImageOperationSerializerBase
-* Telerik.Web.UI.ImageEditor.Serialization.OpacityOperationSerializer
+* Telerik.Web.UI.ImageEditor.Serialization.OpacityOperationSerializer : IImageOperationSerializer
 
 ## Properties
 

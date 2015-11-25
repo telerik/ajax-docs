@@ -11,11 +11,11 @@ The area series class will produce an area chart type.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.SeriesBase
 * Telerik.Web.UI.MarkersSeriesBase
 * Telerik.Web.UI.HtmlChart.PlotArea.Series.MarkerSeriesBaseWithLine
-* Telerik.Web.UI.AreaSeries
+* Telerik.Web.UI.AreaSeries : IStackedSeries
 
 ## Properties
 

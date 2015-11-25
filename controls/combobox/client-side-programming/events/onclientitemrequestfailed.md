@@ -1,14 +1,14 @@
 ---
-title: OnClientItemRequestFailed
-page_title: OnClientItemRequestFailed | RadComboBox for ASP.NET AJAX Documentation
-description: OnClientItemRequestFailed
+title: OnClientItemsRequestFailed
+page_title: OnClientItemsRequestFailed | RadComboBox for ASP.NET AJAX Documentation
+description: OnClientItemsRequestFailed
 slug: combobox/client-side-programming/events/onclientitemrequestfailed
-tags: onclientitemrequestfailed
+tags: onclientitemsrequestfailed
 published: True
 position: 9
 ---
 
-# OnClientItemRequestFailed
+# OnClientItemsRequestFailed
 
 
 
@@ -52,6 +52,6 @@ function OnClientItemsRequestFailedHandler(sender, eventArgs)
 
  * [Overview]({%slug combobox/load-on-demand/overview%})
 
- * [OnClientItemRequesting]({%slug combobox/client-side-programming/events/onclientitemrequesting%})
+ * [OnClientItemsRequesting]({%slug combobox/client-side-programming/events/onclientitemrequesting%})
 
- * [OnClientItemRequested]({%slug combobox/client-side-programming/events/onclientitemrequested%})
+ * [OnClientItemsRequested]({%slug combobox/client-side-programming/events/onclientitemrequested%})

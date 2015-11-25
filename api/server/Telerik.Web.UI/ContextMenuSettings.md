@@ -49,3 +49,11 @@ Gets or sets the value, indicating whether to render the link to the embedded ba
 #### Remarks
 If EnableEmbeddedBaseStylesheet is set to false you will have to register the needed control base CSS file by hand.
 
+## Methods
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
+

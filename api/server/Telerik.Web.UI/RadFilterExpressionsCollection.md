@@ -11,7 +11,7 @@ Represents a collection filter expressions in Telerik.Web.UI.RadFilter .
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.RadFilterExpressionsCollection
+* Telerik.Web.UI.RadFilterExpressionsCollection : ICollection`1, IEnumerable, IEnumerable`1, IList`1, IStateManager
 
 ## Properties
 

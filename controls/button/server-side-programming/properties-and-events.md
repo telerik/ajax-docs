@@ -98,7 +98,6 @@ position: 0
 | **ToggleType** |Gets or sets the type of the Toggle Button. There are three toggle types: None (default), Radio, CheckBox, CustomToggle|
 | **GroupName** |Valid when ToggleType: Radio. Gets or sets the name of the group that the radio button belongs to.|
 | **Checked** |Gets or sets a bool value indicating whether the RadButton control is checked. In the case when the ToggleButton has more than 2(two) states, the control is not checked in the case when the current state of the RadButton is the First state, in all other cases it is Checked.|
-| **Direction** |Gets or sets the direction in which the states will be switched, when more than two ToggleStates are specified. Directions: Standard (default), Reversed|
 | **SelectedToggleState** |Gets or sets the current state of the RadButton.|
 | **SelectedToggleStateIndex** |Gets or sets the index of the currently selected ToggleState of the RadButton control, when used as a custom toggle button.|
 | **ToggleStates** |Collection of **RadButtonToggleState** . The different states are controlled through a collection of states. The collection can contain, maximum of four states. The order of switching the states is determined by the 0-based position index at which the state occurs in the collection. So, the first item in the ToggleStates, is the first state, the second item is the second state, and so on. When the ToggleType is Radio or CheckBox, the first item (state) of the ToggleStates is used as the alternate state of the RadButton.|

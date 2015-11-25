@@ -10,6 +10,8 @@ position: 3
 
 # Set Button State
 
+This article explains the different states of the RadEditor buttons, how to set them through code and how to choose their images.
+
 RadEditor toolbar buttons have four states:
 
 * **Enabled** / **Active** (![Normal State](images/editor-button-state-normal.png))
@@ -17,9 +19,9 @@ RadEditor toolbar buttons have four states:
 * **Selected** / **Pressed** (![Selected State](images/editor-button-state-selected.png))
 * **Disabled** / **Inactive** (![Disabled State](images/editor-button-state-disabled.png))
 
-You can control the appearance of the button in each state via CSS (see **Examples 2-8** below). This is often needed for [custom buttons]({%slug editor/functionality/toolbars/buttons/add-your-own-buttons%}).
+You can **control the appearance** of the button **in each state** via **CSS** (see **Examples 2-8** below). This is often needed for [custom buttons]({%slug editor/functionality/toolbars/buttons/add-your-own-buttons%}).
 
-You can also set a button's state via JavaScript (see **Example 1**). The Hovered state requires a user action and cannot be set through code).
+You can also **set a button's state** via **JavaScript** (see **Example 1**). The Hovered state requires a user action and cannot be set through code.
 
 To do this, use the `setState` method the buttons expose. It takes a member of the `Telerik.Web.UI.Editor.CommandStates` enum:
 
@@ -59,7 +61,7 @@ To do this, use the `setState` method the buttons expose. It takes a member of t
 </telerik:RadEditor>
 ````
 
-To put the custom button in pressed state use oTool.setState(**1**);
+To put the custom button in pressed state use `oTool.setState(**1**);`
 
 ## Set Icons for Toolbar Button States
 
@@ -175,9 +177,31 @@ where `skinName` corresponds to the Skin you are using and `commandName` is the 
 >tip You can also set the font-family and use your own font-icons.
 
 
+>caption **Example 6**: CSS rules for a button with name Custom2 that uses custom images when RadEditor has RenderMode=Lightweight.
+
+````CSS
+/* The generic class name is re<toolName> */
+a.reTool.reCustom2,
+a.reTool.reCustom2:hover
+{
+	background-image: url(images/myCustom2Icon.png);
+	background-repeat: no-repeat;
+	background-position: 2px 2px;
+}
+
+/* remove the built-in icon */
+a.reTool.reCustom2:before
+{
+	content: "";
+}
+````
+
+>note Since the image has a static size, if the font-size of the editor is changed, it will not provide the elastic abilities of the font-icons and stretch as well. Thus, if you intend to change the font-size of the control, you need to take into account that when creating the image size and choosing its position.
+
+
 ### Mobile RenderMode
 
->caption **Example 6**: Generic CSS to prepare the states of a custom button when RenderMode="Mobile".
+>caption **Example 7**: Generic CSS to prepare the states of a custom button when RenderMode="Mobile".
 
 ````CSS
 /*Active state*/
@@ -199,7 +223,7 @@ where `skinName` corresponds to the Skin you are using and `commandName` is the 
 }
 ````
 
->caption **Example 7**: CSS rules for a button with name Custom1 that uses font icons from the Telerik font.
+>caption **Example 8**: CSS rules for a button with name Custom1 that uses font icons from the Telerik font.
 
 
 ````CSS

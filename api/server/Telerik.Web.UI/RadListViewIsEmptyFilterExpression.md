@@ -11,7 +11,7 @@ Class representing the "IsEmpty" filter expression extending the Telerik.Web.UI.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.RadListViewFilterExpression
+* Telerik.Web.UI.RadListViewFilterExpression : IEquatable`1, IHideObjectMembers, IStateManager
 * Telerik.Web.UI.RadListViewIsEmptyFilterExpression
 
 ## Properties

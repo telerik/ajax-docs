@@ -18,3 +18,11 @@ description: Telerik.Web.UI.GridClientKeyMappings
 
 ###  UpdateInsertItemKey `Int32`
 
+## Methods
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
+

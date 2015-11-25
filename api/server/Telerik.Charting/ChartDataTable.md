@@ -11,8 +11,8 @@ DataTable. Shows the series data in a tabular format.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Charting.StateManagedObject
-* Telerik.Charting.RenderedObject
+* Telerik.Charting.StateManagedObject : IChartingStateManagedItem, IChartingStateManager, IDisposable
+* Telerik.Charting.RenderedObject : IOrdering
 * Telerik.Charting.LayoutElement
 * Telerik.Charting.ChartDataTable
 

@@ -11,7 +11,7 @@ EI Excel BIFF Renderer
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.ExportInfrastructure.XlsBiffRenderer
+* Telerik.Web.UI.ExportInfrastructure.XlsBiffRenderer : IDisposable
 
 ## Methods
 

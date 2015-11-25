@@ -11,7 +11,7 @@ Class that is used to define sort field and sort order for RadPivotGrid
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.PivotGridSortExpression
+* Telerik.Web.UI.PivotGridSortExpression : IStateManager
 
 ## Properties
 

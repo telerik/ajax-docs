@@ -11,7 +11,7 @@ Represents the base class for all field editors in Telerik.Web.UI.RadFilter .
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.RadFilterDataFieldEditor
 
 ## Properties

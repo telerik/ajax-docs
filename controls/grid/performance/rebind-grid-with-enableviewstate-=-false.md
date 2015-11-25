@@ -33,7 +33,7 @@ Basically, you assign data source for your grid in the **NeedDataSource** handle
 >
 
 
-Moreover, if you want to rebind the grid explicitly from postback event of an external control when **EnableViewState**is set to **False**, set the **DataSource** property of the control to **null/Nothing** and invoke the **Rebind**() method afterwards:
+Moreover, if you want to rebind the grid explicitly from postback event of an external control when **EnableViewState** is set to **False**, set the **DataSource** property of the control to **null/Nothing** and invoke the **Rebind**() method afterwards:
 
 
 ````C#
@@ -54,4 +54,10 @@ Protected Sub MyButton_Click(ByVal sender As Object, ByVal e As EventArgs) Handl
     RadGrid1.Rebind()
 End Sub
 ````
+
+## See Also
+
+ * [Grid Performance Optimizations]({%slug grid/performance/grid-performance-optimizations%})
+ 
+ * [Optimizing ViewState usage]({%slug grid/performance/optimizing-viewstate-usage%})
 

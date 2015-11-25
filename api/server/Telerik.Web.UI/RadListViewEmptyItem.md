@@ -13,7 +13,7 @@ Telerik.Web.UI.RadListViewItem representing empty item which will be shown when 
 
 * System.Object
 * System.Web.UI.Control
-* Telerik.Web.UI.RadListViewItem
+* Telerik.Web.UI.RadListViewItem : INamingContainer
 * Telerik.Web.UI.RadListViewEmptyItem
 
 ## Properties

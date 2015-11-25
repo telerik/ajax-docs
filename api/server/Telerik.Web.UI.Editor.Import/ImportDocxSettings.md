@@ -12,7 +12,7 @@ Summary description for ImportDocxSettings
 
 * System.Object
 * Telerik.Web.UI.ObjectWithState
-* Telerik.Web.UI.Editor.Import.ImportDocxSettings
+* Telerik.Web.UI.Editor.Import.ImportDocxSettings : IDplImportSettings
 
 ## Properties
 
@@ -45,4 +45,12 @@ Gets or sets the path to the folder that will contain the external image files.
 
 Gets or sets the base path that will be set as value to the 'src' attribute of
             the 'image' elements.
+
+## Methods
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
 

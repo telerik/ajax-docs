@@ -5,7 +5,7 @@ description: Obtain Current Editor's Selection as HTML
 slug: editor/how-to/obtain-current-editor's-selection-as-html
 tags: obtain,current,editor's,selection,as,html
 published: True
-position: 3
+position: 4
 ---
 
 # Obtain Current Editor's Selection as HTML

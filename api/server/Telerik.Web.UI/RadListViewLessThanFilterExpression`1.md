@@ -11,8 +11,8 @@ Class representing the "LessThen" filter expression extending the Telerik.Web.UI
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.RadListViewFilterExpression
-* Telerik.Web.UI.RadListViewSingleValueExpression`1
+* Telerik.Web.UI.RadListViewFilterExpression : IEquatable`1, IHideObjectMembers, IStateManager
+* Telerik.Web.UI.RadListViewSingleValueExpression`1 : IEquatable`1, IRadListViewSingleValueExpression
 * Telerik.Web.UI.RadListViewLessThanFilterExpression`1
 
 ## Properties

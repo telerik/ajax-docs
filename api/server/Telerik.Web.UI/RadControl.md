@@ -10,7 +10,7 @@ description: Telerik.Web.UI.RadControl
 
 * System.Object
 * System.Web.UI.Control
-* Telerik.Web.UI.RadControl
+* Telerik.Web.UI.RadControl : IControl, IControlResolver, IScriptControl, ISkinnableControl
 
 ## Properties
 

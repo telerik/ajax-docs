@@ -11,8 +11,8 @@ Palette item
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Charting.StateManagedObject
-* Telerik.Charting.PaletteItem
+* Telerik.Charting.StateManagedObject : IChartingStateManagedItem, IChartingStateManager, IDisposable
+* Telerik.Charting.PaletteItem : ICloneable
 
 ## Properties
 

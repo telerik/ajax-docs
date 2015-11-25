@@ -12,7 +12,7 @@ This class accepts description and extensions and prepares the
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.FileFilter
 
 ## Properties

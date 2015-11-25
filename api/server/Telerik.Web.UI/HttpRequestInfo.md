@@ -9,5 +9,5 @@ description: Telerik.Web.UI.HttpRequestInfo
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.HttpRequestInfo
+* Telerik.Web.UI.HttpRequestInfo : IHttpRequestInfo
 

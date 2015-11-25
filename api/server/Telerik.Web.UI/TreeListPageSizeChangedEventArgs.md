@@ -13,7 +13,7 @@ The arguments passed when Telerik.Web.UI.TreeListDataItem fires the PageSizeChan
 * System.Object
 * System.EventArgs
 * System.Web.UI.WebControls.CommandEventArgs
-* Telerik.Web.UI.TreeListCommandEventArgs
+* Telerik.Web.UI.TreeListCommandEventArgs : ITreeListCommandEvent
 * Telerik.Web.UI.TreeListPageSizeChangedEventArgs
 
 ## Properties

@@ -12,7 +12,7 @@ Class containing data service settings for the client-bound Telerik.Web.UI.RadLi
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.RadListViewDataServiceSettings
 
 ## Properties

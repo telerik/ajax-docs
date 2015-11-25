@@ -12,8 +12,8 @@ Represents logical group of EditorTool objects. The default ToolAdapter will
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
-* Telerik.Web.UI.EditorToolGroup
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
+* Telerik.Web.UI.EditorToolGroup : IAttributeAccessor
 
 ## Properties
 

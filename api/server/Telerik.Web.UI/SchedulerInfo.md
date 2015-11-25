@@ -11,7 +11,7 @@ Default implementation of ISchedulerInfo
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.SchedulerInfo
+* Telerik.Web.UI.SchedulerInfo : ISchedulerInfo
 
 ## Properties
 

@@ -11,7 +11,7 @@ Class representing the "IsNull" filter expression extending the Telerik.Web.UI.R
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.RadListViewFilterExpression
+* Telerik.Web.UI.RadListViewFilterExpression : IEquatable`1, IHideObjectMembers, IStateManager
 * Telerik.Web.UI.RadListViewIsNullFilterExpression
 
 ## Properties

@@ -14,8 +14,8 @@ When you have attachments saved in your data source as a blob of binary data, Gr
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.GridColumn
-* Telerik.Web.UI.GridEditableColumn
+* Telerik.Web.UI.GridColumn : IComparable, IStateManager
+* Telerik.Web.UI.GridEditableColumn : IGridDataColumn, IGridEditableColumn
 * Telerik.Web.UI.GridAttachmentColumn
 
 ## Properties

@@ -14,7 +14,7 @@ Class that defines a mapping between character codes (CIDs)
 * System.Object
 * Telerik.Pdf.PdfObject
 * Telerik.Pdf.PdfStream
-* Telerik.Pdf.PdfContentStream
+* Telerik.Pdf.PdfContentStream : IDisposable
 * Telerik.Pdf.PdfCMap
 
 ## Properties

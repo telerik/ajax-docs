@@ -12,7 +12,7 @@ Represents an OLAP filter condition that is used with Telerik.Web.UI.PivotGrid.C
 
 * System.Object
 * Telerik.Web.UI.PivotGrid.Core.Cloneable
-* Telerik.Web.UI.PivotGrid.Core.SettingsNode
+* Telerik.Web.UI.PivotGrid.Core.SettingsNode : IEditable, INotifyPropertyChanged, IServiceProvider, ISupportInitialize
 * Telerik.Web.UI.PivotGrid.Core.Filtering.Condition
 * Telerik.Web.UI.PivotGrid.Core.Olap.OlapCondition
 

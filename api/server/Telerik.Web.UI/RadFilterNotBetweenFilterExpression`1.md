@@ -11,10 +11,10 @@ Represents the strongly typed NotBetween filter expression.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.RadFilterExpression
 * Telerik.Web.UI.RadFilterNonGroupExpression
-* Telerik.Web.UI.RadFilterDualValueExpression`1
+* Telerik.Web.UI.RadFilterDualValueExpression`1 : IRadFilterValueExpression
 * Telerik.Web.UI.RadFilterNotBetweenFilterExpression`1
 
 ## Properties

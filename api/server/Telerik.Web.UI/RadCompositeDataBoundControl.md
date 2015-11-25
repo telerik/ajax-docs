@@ -14,7 +14,7 @@ description: Telerik.Web.UI.RadCompositeDataBoundControl
 * System.Web.UI.WebControls.BaseDataBoundControl
 * System.Web.UI.WebControls.DataBoundControl
 * System.Web.UI.WebControls.CompositeDataBoundControl
-* Telerik.Web.UI.RadCompositeDataBoundControl
+* Telerik.Web.UI.RadCompositeDataBoundControl : IControl, IControlResolver, IFeatureGroup, IPostBackDataHandler, IScriptControl, ISkinnableControl
 
 ## Properties
 

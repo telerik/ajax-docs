@@ -11,7 +11,7 @@ Minimal implementation of Telerik.Web.UI.ISchedulerOperationResult`1 ISchedulerO
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.SchedulerOperationResult`1
+* Telerik.Web.UI.SchedulerOperationResult`1 : ISchedulerOperationResult`1
 
 ## Properties
 

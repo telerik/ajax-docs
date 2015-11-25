@@ -35,7 +35,7 @@ Workflow:
 
 * System.Object
 * System.Web.UI.Control
-* Telerik.Web.UI.RadDockLayout
+* Telerik.Web.UI.RadDockLayout : IControl, IDockLayout, ISkinnableControl
 
 ## Properties
 

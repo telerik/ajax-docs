@@ -12,7 +12,7 @@ A filters based on the relation between an item and an interval.
 
 * System.Object
 * Telerik.Web.UI.PivotGrid.Core.Cloneable
-* Telerik.Web.UI.PivotGrid.Core.SettingsNode
+* Telerik.Web.UI.PivotGrid.Core.SettingsNode : IEditable, INotifyPropertyChanged, IServiceProvider, ISupportInitialize
 * Telerik.Web.UI.PivotGrid.Core.Filtering.Condition
 * Telerik.Web.UI.PivotGrid.Core.Olap.OlapCondition
 * Telerik.Web.UI.PivotGrid.Core.Olap.OlapIntervalCondition

@@ -13,7 +13,7 @@ The event arguments passed when the grid performs pagging and fires PageChanged 
 * System.Object
 * System.EventArgs
 * System.Web.UI.WebControls.CommandEventArgs
-* Telerik.Web.UI.GridCommandEventArgs
+* Telerik.Web.UI.GridCommandEventArgs : IGridCommandEvent
 * Telerik.Web.UI.GridPageChangedEventArgs
 
 ## Properties

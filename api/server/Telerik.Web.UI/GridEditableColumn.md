@@ -16,8 +16,8 @@ Provides IGridEditableColumn interface, which RadGrid uses to operate with the
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.GridColumn
-* Telerik.Web.UI.GridEditableColumn
+* Telerik.Web.UI.GridColumn : IComparable, IStateManager
+* Telerik.Web.UI.GridEditableColumn : IGridDataColumn, IGridEditableColumn
 
 ## Properties
 

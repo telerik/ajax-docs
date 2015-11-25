@@ -16,7 +16,7 @@ Class that represents the rows of each GridTableView with RadGrid. All Items in 
 * System.Web.UI.WebControls.WebControl
 * System.Web.UI.WebControls.TableRow
 * Telerik.Web.UI.GridTableRow
-* Telerik.Web.UI.GridItem
+* Telerik.Web.UI.GridItem : INamingContainer
 
 ## Properties
 

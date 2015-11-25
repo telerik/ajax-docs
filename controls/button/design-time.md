@@ -10,7 +10,9 @@ position: 3
 
 # Design Time
 
-The Smart Tag of **RadButton** (**Figure 1**) lets you configure your control or quickly get help. You can display theSmart Tag by right clicking on a **RadButton** control and choosing "Show Smart Tag", orclicking the small rightward-pointing arrow located in the upper right corner of the control.
+The Smart Tag of **RadButton** (**Figure 1**) lets you configure your control or quickly get help. You can display the Smart Tag by right clicking on a **RadButton** control and choosing "Show Smart Tag", or clicking the small rightward-pointing arrow located in the upper right corner of the control.
+
+As of Q2 2015 we have improved the smart tags of our controls by displaying the most popular control specific properties and adding links to their important online resources:
 
 >caption Figure 1: RadButton's smart tag.
 

@@ -138,3 +138,11 @@ The method must be part of the web service specified through the
 
 Gets or sets a boolean value
 
+## Methods
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
+

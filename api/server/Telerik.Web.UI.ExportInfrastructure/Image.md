@@ -11,7 +11,7 @@ EI Image object
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.ExportInfrastructure.Image
+* Telerik.Web.UI.ExportInfrastructure.Image : IDisposable
 
 ## Properties
 

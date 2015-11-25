@@ -37,20 +37,6 @@ There are three <div> elements:
 
 The two inner divs (raDiv and raColor) are 100% wide and high, so that they fill the wrapper element. The raDiv element is always on top of the raColor element. In order to achieve this, raColor is positioned absolutely and has a z-index of 1, while raDiv is positioned relatively and has a z-index of 2 (the relative positioning is only needed for the z-index style to work). The benefit of using two elements is that the background color can be semi-transparent, while the background image is completely opaque (unless the **Transparency** property is set, which is not needed when a **Skin** is used).
 
-The RadAjaxLoadingPanel base stylesheet also contains the following CSS rule:
-
-````ASP.NET
-* html .RadAjaxUpdatedElement select 
-	{ 
-	    visibility:hidden !important; 
-	}
-````
-
-
-
-It resolves a bug in IE6 - <select> elements (asp:DropDownLists) are always on top of everything and the loading panel cannot cover them. That's why the RadAjaxUpdatedElement CSS class is applied to the currently updated element and all dropdowns are hidden.
-
-
 
 A typical RadAjaxLoadingPanel skin consists of only 3 CSS rules - one for the background image, one for the background color and one for the skin transparency.
 

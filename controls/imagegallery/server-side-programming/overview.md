@@ -109,6 +109,21 @@ One of the most important features that **RadImageGallery** provides is the anim
 | **PrevImagesAnimation-Easing** | Gets or sets the easing type.|
 | **SlideshowSlideDuration** |Gets or sets a value indicating how many milliseconds the **RadImageGallery** control will wait until it switches to the next image when the slideshow functionality is turned on.|
 
+
+## ImageGalleryItem Properties
+
+The table below list the properties available for the *ImageGalleryItems**.
+
+| ImageGalleryItem Property | Description |
+| ------ | ------ |
+| **Title** |Sets the title of the item.|
+| **Description** |Sets the description of the item.|
+| **ImageUrl** |Sets the URL from where  the image will be retrieved.|
+| **ThumbnailUrl** |Sets the URL from where the thumbnail of the item will be retrieved.|
+| **NavigateUrl** |Sets the URL where the browser will be redirected after.|
+| **PreventDefaultGestures** |Determines whether gestures are enabled for the currently viewed item.|
+
+
 ## RadImageGallery Events
 
 **Table 6** lists common RadImageGallery events to which you can subscribe.

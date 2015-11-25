@@ -13,7 +13,7 @@ A Telerik.Web.UI.PivotGrid.Core.Totals.SiblingTotalsFormat that computes running
 
 * System.Object
 * Telerik.Web.UI.PivotGrid.Core.Cloneable
-* Telerik.Web.UI.PivotGrid.Core.SettingsNode
+* Telerik.Web.UI.PivotGrid.Core.SettingsNode : IEditable, INotifyPropertyChanged, IServiceProvider, ISupportInitialize
 * Telerik.Web.UI.PivotGrid.Core.Totals.TotalFormat
 * Telerik.Web.UI.PivotGrid.Core.Totals.SiblingTotalsFormat
 * Telerik.Web.UI.PivotGrid.Core.Totals.PercentRunningTotalsIn

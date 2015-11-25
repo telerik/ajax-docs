@@ -11,8 +11,8 @@ Common shadow settings
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Charting.StateManagedObject
-* Telerik.Charting.Styles.ShadowStyle
+* Telerik.Charting.StateManagedObject : IChartingStateManagedItem, IChartingStateManager, IDisposable
+* Telerik.Charting.Styles.ShadowStyle : ICloneable
 * Telerik.Charting.Styles.ShadowStyleChart
 
 ## Properties

@@ -11,7 +11,7 @@ An object of this type can be added as a TargetControl of the RadToolTipManager.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.ToolTipTargetControl
 
 ## Properties

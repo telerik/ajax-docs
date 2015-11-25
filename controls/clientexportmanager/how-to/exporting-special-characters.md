@@ -40,15 +40,15 @@ Exporting this `<div>` to PDF would result in the following:
 
 ![Special Characters Missing](images/clientexportmanager-special-characters-missing.png)
 
-The special characters are missing in the exported file, because the standard fonts used in exporting to PDF do not support non-ASCII characters. In order to export them you have to use a custom font. The custom font that supports the special characters has to be added to the RadClientExportManager's **PdfSettings.Fonts** collection and set to the element you want to export (in this example the `<div>` "foo").
+The special characters are missing in the exported file, because the standard fonts used in exporting to PDF do not support non-ASCII characters. In order to export them you have to use a custom font that supports them. The custom font file has to be included in the project and the font has to be added to the RadClientExportManager's **PdfSettings.Fonts** collection and set to the element you want to export (in this example the `<div>` "foo").
 
-* We will include the Arial Unicode MS font in our project and add it to the **PdfSettings.Fonts** collection. It is an extended version of the Arial font and supports Unicode characters.
+* We will include the Arial Unicode MS font in our project's "Fonts" folder and add it to the **PdfSettings.Fonts** collection. It is an extended version of the Arial font and supports Unicode characters.
 
 
 ````C#
 protected void Page_Load(object sender, EventArgs e)
 {
-    RadClientExportManager1.PdfSettings.Fonts.Add("Arial Unicode MS", "ArialUnicodeMS.ttf");
+    RadClientExportManager1.PdfSettings.Fonts.Add("Arial Unicode MS", "Fonts/ArialUnicodeMS.ttf");
 }
 ````
 ````VB.NET

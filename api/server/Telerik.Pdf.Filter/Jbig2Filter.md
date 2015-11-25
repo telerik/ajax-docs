@@ -9,7 +9,7 @@ description: Telerik.Pdf.Filter.Jbig2Filter
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Pdf.Filter.Jbig2Filter
+* Telerik.Pdf.Filter.Jbig2Filter : IFilter
 
 ## Properties
 

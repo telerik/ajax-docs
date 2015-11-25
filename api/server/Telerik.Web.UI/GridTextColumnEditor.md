@@ -12,7 +12,7 @@ Base class that introduces the editor of GridBoundColumn. This can be an editor 
 
 * System.Object
 * System.Web.UI.Control
-* Telerik.Web.UI.GridColumnEditorBase
+* Telerik.Web.UI.GridColumnEditorBase : IGridColumnEditor
 * Telerik.Web.UI.GridTextColumnEditor
 
 ## Properties

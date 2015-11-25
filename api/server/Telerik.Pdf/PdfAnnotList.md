@@ -10,7 +10,7 @@ description: Telerik.Pdf.PdfAnnotList
 
 * System.Object
 * Telerik.Pdf.PdfObject
-* Telerik.Pdf.PdfArray
+* Telerik.Pdf.PdfArray : IEnumerable
 * Telerik.Pdf.PdfAnnotList
 
 ## Properties

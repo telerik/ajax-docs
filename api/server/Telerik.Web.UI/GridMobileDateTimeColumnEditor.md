@@ -12,7 +12,7 @@ The editor for the Telerik.Web.UI.GridDateTimeColumn column when grid's RenderMo
 
 * System.Object
 * System.Web.UI.Control
-* Telerik.Web.UI.GridColumnEditorBase
+* Telerik.Web.UI.GridColumnEditorBase : IGridColumnEditor
 * Telerik.Web.UI.GridTextColumnEditor
 * Telerik.Web.UI.GridMobileColumnEditorBase
 * Telerik.Web.UI.GridMobileDateTimeColumnEditor

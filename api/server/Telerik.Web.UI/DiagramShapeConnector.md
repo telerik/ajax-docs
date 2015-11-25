@@ -11,7 +11,7 @@ Defines the connectors the shape owns.You can easily define your own custom conn
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.DiagramShapeConnector
 
 ## Properties

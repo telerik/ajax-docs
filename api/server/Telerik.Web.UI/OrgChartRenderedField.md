@@ -15,7 +15,7 @@ RenderedField is an extra text information about every Node or Item. They can be
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.OrgChartRenderedField
+* Telerik.Web.UI.OrgChartRenderedField : IXmlSerializable
 
 ## Properties
 

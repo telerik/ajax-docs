@@ -11,7 +11,7 @@ This Class defines the RadUploadHttpModule that inherits the IHttpModule.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.RadUploadHttpModule
+* Telerik.Web.UI.RadUploadHttpModule : IHttpModule
 
 ## Properties
 

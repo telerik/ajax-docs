@@ -11,7 +11,7 @@ Represents the field editor in RadFilter used to build filter expressions for st
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.RadFilterDataFieldEditor
 * Telerik.Web.UI.RadFilterTextFieldEditor
 

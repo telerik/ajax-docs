@@ -11,8 +11,8 @@ Configures or disables the built-in attribution control.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
-* Telerik.Web.UI.Map.Attribution
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
+* Telerik.Web.UI.Map.Attribution : IDefaultCheck
 
 ## Properties
 

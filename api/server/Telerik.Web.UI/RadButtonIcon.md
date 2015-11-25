@@ -11,7 +11,7 @@ Manages Primary and Secondary Icons of the RadButton control.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.RadButtonIcon
 
 ## Properties

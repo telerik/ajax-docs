@@ -11,7 +11,7 @@ Represents a result returned by an aggregate function.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.Data.AggregateResult
+* Telerik.Web.Data.AggregateResult : INotifyPropertyChanged
 
 ## Properties
 

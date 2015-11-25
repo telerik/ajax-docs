@@ -11,7 +11,7 @@ An implementation of IGraphicsCore that uses IImageOperations internally
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.ImageEditor.GDIOperationsBasedGraphicsCore
+* Telerik.Web.UI.ImageEditor.GDIOperationsBasedGraphicsCore : IGraphicsCore
 
 ## Methods
 

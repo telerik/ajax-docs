@@ -12,7 +12,7 @@ The editor for the Telerik.Web.UI.GridMaskedColumn column when grid's RenderMode
 
 * System.Object
 * System.Web.UI.Control
-* Telerik.Web.UI.GridColumnEditorBase
+* Telerik.Web.UI.GridColumnEditorBase : IGridColumnEditor
 * Telerik.Web.UI.GridTextColumnEditor
 * Telerik.Web.UI.GridMobileColumnEditorBase
 * Telerik.Web.UI.GridMobileMaskedColumnEditor

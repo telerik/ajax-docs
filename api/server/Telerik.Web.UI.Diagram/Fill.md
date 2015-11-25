@@ -11,8 +11,8 @@ Defines the handles fill options.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
-* Telerik.Web.UI.Diagram.Fill
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
+* Telerik.Web.UI.Diagram.Fill : IDefaultCheck
 
 ## Properties
 

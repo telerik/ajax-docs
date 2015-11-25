@@ -13,7 +13,7 @@ This column appears when row resizing is enabled. It provides an easy location
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.GridColumn
+* Telerik.Web.UI.GridColumn : IComparable, IStateManager
 * Telerik.Web.UI.GridRowIndicatorColumn
 
 ## Properties

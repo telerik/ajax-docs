@@ -11,7 +11,7 @@ Collection of StyleElement objects
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.GridExcelBuilder.StylesCollection
+* Telerik.Web.UI.GridExcelBuilder.StylesCollection : ICollection, IEnumerable, IList, IStylesCollection
 
 ## Properties
 

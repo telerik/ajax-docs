@@ -14,7 +14,7 @@ RadCompression is a HttpModule that is designed to automatically compress AJAX a
 * System.Object
 * System.Web.UI.Adapters.ControlAdapter
 * System.Web.UI.Adapters.PageAdapter
-* Telerik.Web.UI.RadCompression
+* Telerik.Web.UI.RadCompression : IHttpModule
 
 ## Methods
 

@@ -12,7 +12,7 @@ Represents a formatter that creates a string representation of a filter expressi
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.RadFilterOqlExpressionFormatter
+* Telerik.Web.UI.RadFilterOqlExpressionFormatter : IRadFilterExpressionFormatter
 
 ## Methods
 

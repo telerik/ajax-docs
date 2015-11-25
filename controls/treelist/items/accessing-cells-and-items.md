@@ -218,6 +218,25 @@ If TypeOf e.Item Is TreeListNoRecordsItem Then
 End If
 ````
 
+## Finding a TreeListDataItem by Key Value
+
+**RadTreeList** provides a method to search for an existing item via the data key values of the underlying record. This method supports both key and parent key parameters.
+
+
+
+````C#
+protected void Button1_Click(object sender, EventArgs e)
+{
+		TreeListDataItem item = RadTreeList1.FindItemByKeyValue("RecordID", 3);
+}
+````
+````VB.NET
+Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+	Dim item As TreeListDataItem = RadTreeList1.FindItemByKeyValue("RecordID", 3)
+End Sub
+````
+
+If no items are found, the method returns null. In case there are multiple records matching the parameters, the method will return only the first item.
 
 # See Also
 

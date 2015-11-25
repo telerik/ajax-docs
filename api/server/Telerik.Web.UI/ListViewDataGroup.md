@@ -11,8 +11,8 @@ Represents an individual data group in a Telerik.Web.UI.RadListView control.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
-* Telerik.Web.UI.ListViewDataGroup
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
+* Telerik.Web.UI.ListViewDataGroup : INamingContainer
 
 ## Properties
 

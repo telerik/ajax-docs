@@ -12,7 +12,7 @@ This is a collection of item indexes - each item index is unique within the
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.GridIndexCollection
+* Telerik.Web.UI.GridIndexCollection : ICollection, IEnumerable, IXmlSerializable
 
 ## Properties
 

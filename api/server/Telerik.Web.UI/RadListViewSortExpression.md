@@ -11,7 +11,7 @@ Class that is used to define sort field and sort order for RadListView
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.RadListViewSortExpression
+* Telerik.Web.UI.RadListViewSortExpression : IStateManager
 
 ## Properties
 

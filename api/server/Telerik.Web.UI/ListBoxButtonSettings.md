@@ -104,3 +104,11 @@ Gets or sets a value that specifies which transfer buttons should be rendered.
 A value that specifies which transfer buttons should be rendered. Members might be
             combined using bitwise operators allowing for custom configurations.
 
+## Methods
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
+

@@ -30,6 +30,10 @@ position: 0
 
 * [Changing Borders and Fonts](#changing-borders-and-fonts)
 
+* [Controlling Scrolling](#controlling-scrolling)
+
+* [Sys.WebForms.PageRequestManagerServerErrorException: the status code returned from server was: 0](#syswebformspagerequestmanagerservererrorexception-the-status-code-returned-from-server-was-0)
+
 ## ToolTip is not Positioned Correctly
 
 By default the **RadToolTip** repositions itself so that it is always in the visible viewport. Sometimes, however,this does not happen. In that case make sure you have set all the necessary properties for its proper functioning: **Width, Height, Position,	RelativeTo, ShowEvent, HideEvent**. Usually at least **Width** is required so that the tooltip knows how big the popup needs to be in order to position it correctly on the screen. This is especially true for Load-On-Demandscenarios where the content is received after the tooltip is shown and it has no other way of calculating its position.
@@ -113,4 +117,36 @@ When the target is very small (for example a 16x16px button in a grid column) an
 Properties like Font, Font-Color, Border-Style, Border-Color, etc. are only inherited from System.Web.Control and are not implemented in the **RadToolTip**. This is due to the fact that they are rather simple properties and the effect they should have on a complex structure such as the **RadToolTip** is not clear. Therefore the **RadToolTip** comes with a number of predefined skins which have borders, appropriate for the overall look and feel of the skin so that they can match the rest of the theme/other Telerik controls on the page. If you need to change borders you would need to [create a custom skin]({%slug tooltip/appearance-and-styling/tutorial-creating-custom-lightweight-skin%}). The fonts can be controlled via CSS - you can either change them when you create your custom skin, or override the default CSS via your custom rules on the page. The needed classes can easily be inspected via a tool like Firebug or the IE Dev toolbar and also a list with them is available in [this help article]({%slug tooltip/appearance-and-styling/css-classes%}).
 
 >tip When using the [Lightweight RenderMode]({%slug tooltip/mobile-support/render-modes%}) styling is easier. Examining the	rendered HTML in the browser dev toolbar can show you which CSS rules to override without the creation of a custom skin.
+
+## Controlling Scrolling
+
+RadToolTip and RadToolTipManager expose the `ContentScrolling` property which controls the `overflow` CSS property of the content element of the tooltip. The purpose is to let the developer define `Width` and `Height` for the entire tooltip so the content overflows according to the `ContentScrolling` property, but certain **browser behaviors** limit this feature when `RenderMode` is `Classic`. In this case, the tooltip layout is created through a `<table>` element and browsers extend tables to fit their contents. Thus, to have control over the scrolling of the content, you should use `RenderMode="Lightweight"`.
+
+## Sys.WebForms.PageRequestManagerServerErrorException: the status code returned from server was: 0
+
+On some occasions, you may get the following error in a browser alert dialog: `RadToolTipManager response error: Exception=Sys.WebForms.PageRequestManagerServerErrorException: An unknown error occured while processing the request on the server. the status code returned from server was: 0`.
+
+Usually, such an error message is prevented by cancelling the alert in the [OnClientResponseError event]({%slug tooltip/client-side-programming/events/tooltipmanager-specific/onclientresponseerror%}).
+
+Chrome, however, always displays this message if there is another ongoing request, especially an AJAX request (e.g., caused by another user action like a button click), at the time the tooltip manager invokes its own AJAX request to fetch content.
+
+There are several ways to handle such an error because it stems from the `PageRequestManager` class from the MS AJAX library:
+
+* handle the `endRequestEvent` and prevent the error alert. The following snippet should prevent it for all server errors trapped by MS AJAX:
+
+	**JavaScript**
+
+		function endRequestHandler(sender, args) {
+		    args.set_errorHandled(true);
+		}
+		var prm = Sys.WebForms.PageRequestManager.getInstance();
+		prm.add_endRequest(endRequestHandler);
+
+* If possible, use a WebService for the [tooltip manager's load-on-demand]({%slug tooltip/radtooltipmanager/load-content-on-demand%}#loading-content-via-a-webservice), to avoid subsequent AJAX requests.
+
+* As a last resort, add the following function override at the end of your page. It will prevent the tooltip manager error handling, alerts and events.
+
+	**JavaScript**
+
+		Telerik.Web.UI.RadToolTipManager.prototype._onError = function (message) { }
 

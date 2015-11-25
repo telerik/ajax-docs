@@ -14,7 +14,9 @@ position: 1
 
 These are the main differences between Div and Iframe content area modes:
 
-* When "Iframe" mode is used the content area has a separate document, which does not automatically inherit the current page style sheets. In this mode the parent page CSS styles are manually copied to the document of the Iframe element. This might decrease the loading performance of the control if multiple styles are defined. In "Div" mode all the styles from the parent page are automatically applied to the content.
+* When "Iframe" mode is used the content area has a separate document, which does not automatically inherit the current page style sheets. In this mode the parent page CSS styles are copied to the document of the Iframe element by RadEditor. This might decrease the loading performance of the control if multiple styles are defined. In "Div" mode all the styles from the parent page are automatically applied to the content.
+ 
+* When "Div" mode is used, RadEditor will not automatically register stylesheets (e.g., `TableLayoutCssFile`) because they can break the page. If you want to use them, you should add `<link>` elements to the `<head>` of your page manually. When "Iframe" is used, RadEditor adds such stylesheets to the document of the `<iframe>`.
 
 * You cannot edit a [full HTML page](http://demos.telerik.com/aspnet-ajax/editor/examples/completehtmlsupport/defaultcs.aspx)in "Div" mode because the `<html>` element cannot be nested inside a `<div>` element.
 

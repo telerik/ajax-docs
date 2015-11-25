@@ -13,7 +13,7 @@ Represents the client events of Telerik.Web.UI.RadTreeList .
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.TreeListClientEvents
 
 ## Properties

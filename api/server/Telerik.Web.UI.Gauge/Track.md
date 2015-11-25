@@ -12,7 +12,7 @@ Represents the class used for configuring the track of the LinearGauge's pointer
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.Gauge.Track
 
 ## Properties

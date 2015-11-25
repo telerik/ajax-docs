@@ -11,7 +11,7 @@ Occurrences of this rule repeat on a monthly basis.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.RecurrenceRule
+* Telerik.Web.UI.RecurrenceRule : IEquatable`1, ISerializable
 * Telerik.Web.UI.MonthlyRecurrenceRule
 
 ## Properties

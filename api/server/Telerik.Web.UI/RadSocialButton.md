@@ -11,7 +11,7 @@ The main class from which Styled buttons are derived.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.RadSocialButtonBase
 * Telerik.Web.UI.RadSocialButton
 

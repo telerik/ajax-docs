@@ -11,7 +11,7 @@ Represents the target control to which Telerik.Web.UI.RadSkinManager applies a s
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.TargetControl
 
 ## Properties

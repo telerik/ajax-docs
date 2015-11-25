@@ -13,7 +13,7 @@ The event arguments passed when page size have changed and Telerik.Web.UI.RadGri
 * System.Object
 * System.EventArgs
 * System.Web.UI.WebControls.CommandEventArgs
-* Telerik.Web.UI.GridCommandEventArgs
+* Telerik.Web.UI.GridCommandEventArgs : IGridCommandEvent
 * Telerik.Web.UI.GridPageSizeChangedEventArgs
 
 ## Properties

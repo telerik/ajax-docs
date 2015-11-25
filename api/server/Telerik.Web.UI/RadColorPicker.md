@@ -13,8 +13,8 @@ RadColorPicker class
 * System.Object
 * System.Web.UI.Control
 * System.Web.UI.WebControls.WebControl
-* Telerik.Web.UI.RadWebControl
-* Telerik.Web.UI.RadColorPicker
+* Telerik.Web.UI.RadWebControl : IControl, IControlResolver, IPostBackDataHandler, IScriptControl, ISkinnableControl
+* Telerik.Web.UI.RadColorPicker : IPostBackEventHandler
 
 ## Properties
 
@@ -462,7 +462,19 @@ Retrieves all the colors from the Web216 preset, used in the Default preset.
 
 `System.Void` 
 
+###  RenderTabContent
+
+#### Returns
+
+`System.Void` 
+
 ###  RenderContents
+
+#### Returns
+
+`System.Void` 
+
+###  RenderRoundedCornersElements
 
 #### Returns
 
@@ -693,4 +705,10 @@ Executed when post data changes should invoke a changed event
 #### Returns
 
 `System.Void` 
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
 

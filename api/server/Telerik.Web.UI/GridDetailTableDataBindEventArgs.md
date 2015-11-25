@@ -12,7 +12,7 @@ Provides data for DetailTableDataBind event.
 
 * System.Object
 * System.EventArgs
-* Telerik.Web.UI.GridDetailTableDataBindEventArgs
+* Telerik.Web.UI.GridDetailTableDataBindEventArgs : IGridCommandEvent
 
 ## Properties
 

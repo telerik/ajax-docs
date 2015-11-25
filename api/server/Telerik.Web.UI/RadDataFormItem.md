@@ -12,7 +12,7 @@ Represents an individual item in a Telerik.Web.UI.RadDataForm control.
 
 * System.Object
 * System.Web.UI.Control
-* Telerik.Web.UI.RadDataFormItem
+* Telerik.Web.UI.RadDataFormItem : INamingContainer
 
 ## Properties
 

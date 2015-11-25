@@ -12,8 +12,8 @@ Defines the relationship between a data item and the tab it is binding to in a
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
-* Telerik.Web.UI.NavigationItemBinding
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
+* Telerik.Web.UI.NavigationItemBinding : IDataSourceViewSchemaAccessor
 * Telerik.Web.UI.RadTabBinding
 
 ## Properties

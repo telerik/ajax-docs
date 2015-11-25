@@ -11,8 +11,8 @@ Specifies the margins of the page (numbers or strings with units). Supported uni
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
-* Telerik.Web.UI.Diagram.Margin
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
+* Telerik.Web.UI.Diagram.Margin : IDefaultCheck
 
 ## Properties
 

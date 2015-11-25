@@ -52,7 +52,7 @@ The following types are:
 
 * **Step** - includes both a Next and Previous button.
 
-* **Finish** - includes Next, Previous, and Finish buttons
+* **Finish** - includes Previous and Finish buttons
 
 * **Complete** - displays a summary of the task performed after the Finish button has been clicked from the Finish step.
 

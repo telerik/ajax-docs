@@ -13,7 +13,7 @@ A collection of Telerik.Web.UI.TreeListSortExpression objects. Depending on the 
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.TreeListSortExpressionCollection
+* Telerik.Web.UI.TreeListSortExpressionCollection : ICollection, IEnumerable, IList, IStateManager
 
 ## Properties
 

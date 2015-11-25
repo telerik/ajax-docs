@@ -17,8 +17,8 @@ When in browser mode, GridMaskedColumn looks and behaves like a standard GridBou
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.GridColumn
-* Telerik.Web.UI.GridEditableColumn
+* Telerik.Web.UI.GridColumn : IComparable, IStateManager
+* Telerik.Web.UI.GridEditableColumn : IGridDataColumn, IGridEditableColumn
 * Telerik.Web.UI.GridBoundColumn
 * Telerik.Web.UI.GridMaskedColumn
 

@@ -16,7 +16,7 @@ Item that loads an EditForm during binding if P:Telerik.Web.UI.GridTableView.Edi
 * System.Web.UI.WebControls.WebControl
 * System.Web.UI.WebControls.TableRow
 * Telerik.Web.UI.GridTableRow
-* Telerik.Web.UI.GridItem
+* Telerik.Web.UI.GridItem : INamingContainer
 * Telerik.Web.UI.GridEditableItem
 * Telerik.Web.UI.GridEditFormItem
 

@@ -11,7 +11,7 @@ The configuration of the map layers. The layer type is determined by the value o
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.MapLayer
 
 ## Properties

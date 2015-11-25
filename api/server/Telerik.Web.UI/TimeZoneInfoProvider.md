@@ -14,7 +14,7 @@ This Class defines the TimeZoneInfoProvider that
 * System.Object
 * System.Configuration.Provider.ProviderBase
 * Telerik.Web.UI.TimeZoneProviderBase
-* Telerik.Web.UI.TimeZoneInfoProvider
+* Telerik.Web.UI.TimeZoneInfoProvider : IDisposable
 
 ## Properties
 

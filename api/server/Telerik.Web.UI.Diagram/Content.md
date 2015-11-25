@@ -11,8 +11,8 @@ Defines the shapes content settings.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
-* Telerik.Web.UI.Diagram.Content
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
+* Telerik.Web.UI.Diagram.Content : IDefaultCheck
 
 ## Properties
 
@@ -39,4 +39,8 @@ The template which renders the labels.The fields which can be used in the templa
 ###  Text `String`
 
 The text displayed in the shape.
+
+###  Html `String`
+
+Define rich-text content using Html syntax
 

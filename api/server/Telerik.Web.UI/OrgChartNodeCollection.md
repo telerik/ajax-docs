@@ -12,7 +12,7 @@ Represents collection of Telerik.Web.UI.OrgChartNode Nodesin the Telerik.Web.UI.
 
 * System.Object
 * System.Collections.Generic.List`1
-* Telerik.Web.UI.OrgChartNodeCollection
+* Telerik.Web.UI.OrgChartNodeCollection : IDisposable, IOrgChartRendererContainer, IXmlSerializable
 
 ## Properties
 

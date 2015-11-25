@@ -33,7 +33,7 @@ You can additionally modify the animation effects by using the **Easing** and **
 
 **Figure 1:** Blocks animation in action.
 
-![lightbox-animations](images/lightbox-animations.png)
+![lightbox-animations](images/lightbox-animations.jpg)
 
 ## Animation Types
 

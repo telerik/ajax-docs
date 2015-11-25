@@ -12,7 +12,7 @@ Formats the aggregate value based on its own value and some relative values such
 
 * System.Object
 * Telerik.Web.UI.PivotGrid.Core.Cloneable
-* Telerik.Web.UI.PivotGrid.Core.SettingsNode
+* Telerik.Web.UI.PivotGrid.Core.SettingsNode : IEditable, INotifyPropertyChanged, IServiceProvider, ISupportInitialize
 * Telerik.Web.UI.PivotGrid.Core.Totals.TotalFormat
 * Telerik.Web.UI.PivotGrid.Core.Totals.SingleTotalFormat
 

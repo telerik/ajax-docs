@@ -11,7 +11,7 @@ RadLightBox Client Settings
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.LightBoxClientSettings
 
 ## Properties
@@ -27,6 +27,10 @@ RadLightBox Client Data-Binding
 ###  AnimationSettings `LightBoxAnimationSettings`
 
 RadLightBox Animation Settings
+
+###  FullscreenMode `LightBoxFullscreenMode`
+
+Determines the fullscreen mode
 
 ###  AllowKeyboardNavigation `Boolean`
 

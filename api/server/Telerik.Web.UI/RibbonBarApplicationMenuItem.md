@@ -13,7 +13,7 @@ This Class defines RibbonBarApplicationMenuItem that inherits WebControl and IRi
 * System.Object
 * System.Web.UI.Control
 * System.Web.UI.WebControls.WebControl
-* Telerik.Web.UI.RibbonBarApplicationMenuItemBase
+* Telerik.Web.UI.RibbonBarApplicationMenuItemBase : IXmlSerializable
 * Telerik.Web.UI.RibbonBarApplicationMenuItem
 
 ## Properties
@@ -54,8 +54,4 @@ Gets or sets the command name associated with the MenuItem that is passed to the
 ###  CommandArgument `String`
 
 Gets or sets an optional parameter passed to the Command event along with the associated CommandName.
-
-###  SupportsDisabledAttribute `Boolean`
-
-For internal use.
 

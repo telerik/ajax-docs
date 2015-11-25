@@ -25,3 +25,11 @@ Gets the menu item.
 
 Gets the time slot.
 
+###  StartSlot `ISchedulerTimeSlot`
+
+Gets the first time slot from the selected slot range.
+
+###  EndSlot `ISchedulerTimeSlot`
+
+Gets the last time slot from the selected slot range.
+

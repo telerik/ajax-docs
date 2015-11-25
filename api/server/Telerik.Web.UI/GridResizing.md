@@ -53,3 +53,15 @@ Gets or sets a value indicating if the resize to fit functionality have been ena
             The feature allows when double clicking on the 'Drag to resize' handle the column to be resized
             to exactly fit the content of the biggest cell in the column.
 
+###  EnableNextColumnResize `Boolean`
+
+Gets or sets a value indicating if the next column resize feature is enabled. The feature allows resizing one column to only change the width of the next column.
+
+## Methods
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
+

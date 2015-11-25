@@ -30,7 +30,7 @@ The following properties and methods are used when binding RadLightBox to a data
 
 * **DataSource** property - set to an instance of your data source. This is mandatory when bindingRadLightBox at runtime.
 
-* **DataSourceID** property - set to the ID of your data source. This is mandatory whenbinding RadLightBox declaratively.
+* **DataSourceID** property - set to the ID of your data source. This is mandatory when binding RadLightBox declaratively.
 
 * **DataTitleField** property - field name from the data source to bind to the **Title** property.
 

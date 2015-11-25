@@ -1,14 +1,14 @@
 ---
-title: OnClientItemRequested
-page_title: OnClientItemRequested | RadComboBox for ASP.NET AJAX Documentation
-description: OnClientItemRequested
+title: OnClientItemsRequested
+page_title: OnClientItemsRequested | RadComboBox for ASP.NET AJAX Documentation
+description: OnClientItemsRequested
 slug: combobox/client-side-programming/events/onclientitemrequested
-tags: onclientitemrequested
+tags: onclientitemsrequested
 published: True
 position: 10
 ---
 
-# OnClientItemRequested
+# OnClientItemsRequested
 
 
 
@@ -50,6 +50,6 @@ Use this event to perform client-side actions once the new items are bound to th
 
  * [Overview]({%slug combobox/load-on-demand/overview%})
 
- * [OnClientItemRequesting]({%slug combobox/client-side-programming/events/onclientitemrequesting%})
+ * [OnClientItemsRequesting]({%slug combobox/client-side-programming/events/onclientitemrequesting%})
 
- * [OnClientItemRequestFailed]({%slug combobox/client-side-programming/events/onclientitemrequestfailed%})
+ * [OnClientItemsRequestFailed]({%slug combobox/client-side-programming/events/onclientitemrequestfailed%})

@@ -14,6 +14,6 @@ This class can be used instead of the default (DialogHandler) class for Telerik 
 * System.Web.UI.Control
 * System.Web.UI.TemplateControl
 * System.Web.UI.Page
-* Telerik.Web.UI.RadAjaxPage
+* Telerik.Web.UI.RadAjaxPage : IRadAjaxPage
 * Telerik.Web.UI.DialogHandlerNoSession
 

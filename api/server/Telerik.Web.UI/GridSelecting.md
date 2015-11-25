@@ -41,3 +41,11 @@ Gets or sets value indicating whether items can be only selected through GridCli
 
 ###  IsSet `Boolean`
 
+## Methods
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
+

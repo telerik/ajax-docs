@@ -5,7 +5,7 @@ description: Insert Text from a Text Control at the Cursor Position
 slug: editor/how-to/insert-text-from-a-text-control-at-the-cursor-position
 tags: insert,text,from,a,text,control,at,the,cursor,position
 published: True
-position: 4
+position: 5
 ---
 
 # Insert Text from a Text Control at the Cursor Position

@@ -11,7 +11,7 @@ Represents the client settings of Telerik.Web.UI.RadFilter .
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.RadFilterClientSettings
 
 ## Properties

@@ -41,3 +41,11 @@ When this property is set to Vertical,
 
 Gets or sets the align rows.
 
+## Methods
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
+

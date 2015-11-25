@@ -294,7 +294,7 @@ The itemClicking event occurs when an item of the RadTagCloud control is clicked
 
 The instance of the RadTagCloud raised the event.
 
-#####  args `Telerik.Web.UI.RadTagCloudCancelEventArgs`
+#####  args `Telerik.Web.UI.TagCloudCancelEventArgs`
 
 The event arguments.
 
@@ -308,7 +308,7 @@ The itemClicked event occurs when an item of the RadTagCloud control is clicked,
 
 The instance of the RadTagCloud raised the event.
 
-#####  args `Telerik.Web.UI.RadTagCloudEventArgs`
+#####  args `Telerik.Web.UI.TagCloudEventArgs`
 
 The event arguments.
 
@@ -350,7 +350,7 @@ The itemsRequestFailed is fired when the request to the web service is failed. T
 
 The instance of the RadTagCloud raised the event.
 
-#####  args `Telerik.Web.UI.RadTagCloudErrorEventArgs`
+#####  args `Telerik.Web.UI.TagCloudErrorEventArgs`
 
 The event arguments.
 
@@ -364,7 +364,7 @@ The itemDataBound event occurs when a RadTagCloudItem is successfully bound to t
 
 The instance of the RadTagCloud raised the event.
 
-#####  args `Telerik.Web.UI.RadTagCloudItemDataBoundEventArgs`
+#####  args `Telerik.Web.UI.TagCloudItemDataBoundEventArgs`
 
 The event arguments.
 

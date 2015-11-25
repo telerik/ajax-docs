@@ -12,7 +12,7 @@ AmazonS3Provider is used to upload/delete files to AmazonS3.
 
 * System.Object
 * System.Configuration.Provider.ProviderBase
-* Telerik.Web.UI.AmazonS3Provider
+* Telerik.Web.UI.AmazonS3Provider : IDisposable
 
 ## Properties
 

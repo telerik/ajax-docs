@@ -13,8 +13,8 @@ This Class defines the RadComboBoxDefaultItem that inherits the RadComboBoxItem.
 * System.Object
 * System.Web.UI.Control
 * System.Web.UI.WebControls.WebControl
-* Telerik.Web.UI.ControlItem
-* Telerik.Web.UI.RadComboBoxItem
+* Telerik.Web.UI.ControlItem : IMarkableStateManager, INamingContainer, IStateManager, IXmlSerializable
+* Telerik.Web.UI.RadComboBoxItem : IComparable
 * Telerik.Web.UI.ComboBox.RadComboBoxDefaultItem
 
 ## Properties

@@ -5,7 +5,7 @@ description: OnClientTaskMoveEnd
 slug: gantt/client-side-programming/events/onclienttaskmoveend
 tags: onclienttaskmoveend
 published: True
-position: 3
+position: 4
 ---
 
 # OnClientTaskMoveEnd

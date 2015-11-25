@@ -11,7 +11,7 @@ Contains the value of an Telerik.Web.UI.PivotGrid.Core.AggregateValue and the Te
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.PivotGrid.Core.CellAggregateValue
+* Telerik.Web.UI.PivotGrid.Core.CellAggregateValue : IEquatable`1
 
 ## Properties
 

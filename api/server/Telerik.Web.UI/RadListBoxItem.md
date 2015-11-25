@@ -13,8 +13,8 @@ This Class defines the RadListBoxItem in RadListBox.
 * System.Object
 * System.Web.UI.Control
 * System.Web.UI.WebControls.WebControl
-* Telerik.Web.UI.ControlItem
-* Telerik.Web.UI.RadListBoxItem
+* Telerik.Web.UI.ControlItem : IMarkableStateManager, INamingContainer, IStateManager, IXmlSerializable
+* Telerik.Web.UI.RadListBoxItem : IComparable
 
 ## Properties
 

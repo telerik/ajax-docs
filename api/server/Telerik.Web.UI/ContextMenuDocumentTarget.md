@@ -12,7 +12,7 @@ Specifies that the Telerik.Web.UI.RadContextMenu RadContextMenuwill be displayed
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.ContextMenuTarget
 * Telerik.Web.UI.ContextMenuDocumentTarget
 

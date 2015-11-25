@@ -20,3 +20,11 @@ Class holding settings associated with the Telerik.Web.UI.RadGrid exporting to W
 
 Gets or sets in which format the Word data will be exported.
 
+## Methods
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
+

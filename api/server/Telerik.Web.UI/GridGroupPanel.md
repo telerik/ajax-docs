@@ -20,7 +20,7 @@ Group by fields (displayed in the GroupPanel) are defined through the
 * System.Object
 * System.Web.UI.Control
 * System.Web.UI.WebControls.WebControl
-* Telerik.Web.UI.GridGroupPanel
+* Telerik.Web.UI.GridGroupPanel : INamingContainer
 
 ## Properties
 

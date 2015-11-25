@@ -11,7 +11,7 @@ Represents an object which can handle image data's storage and retrieval using H
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.RadImageHttpCachePersister
+* Telerik.Web.UI.RadImageHttpCachePersister : IRadImageFileNameContainer, IRadImagePersister
 
 ## Properties
 

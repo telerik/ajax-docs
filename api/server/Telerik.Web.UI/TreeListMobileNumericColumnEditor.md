@@ -11,7 +11,7 @@ The editor for the Telerik.Web.UI.GridNumericColumn when grid's RenderMode is se
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.TreeListColumnEditor
+* Telerik.Web.UI.TreeListColumnEditor : ITreeListColumnEditor
 * Telerik.Web.UI.TreeListMobileColumnEditorBase
 * Telerik.Web.UI.TreeListMobileNumericColumnEditor
 

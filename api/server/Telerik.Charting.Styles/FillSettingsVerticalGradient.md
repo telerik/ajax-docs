@@ -11,8 +11,8 @@ Vertical gradient default fill settings
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Charting.StateManagedObject
-* Telerik.Charting.Styles.FillSettings
+* Telerik.Charting.StateManagedObject : IChartingStateManagedItem, IChartingStateManager, IDisposable
+* Telerik.Charting.Styles.FillSettings : ICloneable
 * Telerik.Charting.Styles.FillSettingsVerticalGradient
 
 ## Properties

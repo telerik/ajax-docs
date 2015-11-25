@@ -12,7 +12,7 @@ This Class implements the inbuilt default AsyncUploadHandler
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.AsyncUploadHandler
+* Telerik.Web.UI.AsyncUploadHandler : IHttpHandler, IRequiresSessionState
 
 ## Properties
 

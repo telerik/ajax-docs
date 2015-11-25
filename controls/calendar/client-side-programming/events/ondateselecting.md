@@ -12,12 +12,7 @@ position: 4
 
 
 
-## 
-
 The **OnDateSelecting** client-side event handler is called immediately before the selected dates collection is updated to reflect the selection or deselection of a date.
-
->note The **OnDateSelecting** event is supported by: **RadCalendar** .
->
 
 
 The event handler receives two arguments:
@@ -55,6 +50,6 @@ function confirmChange(sender, eventArgs) {
 
  * [OnDateSelected]({%slug calendar/client-side-programming/events/ondateselected%})
 
- * [SelectionChanged]({%slug calendar/server-side-programming/server-side-events/selectionchanged%})
+ * [SelectionChanged]({%slug calendar/server-side-programming/events/selectionchanged%})
 
  * [OnDateClick]({%slug calendar/client-side-programming/events/ondateclick%})

@@ -23,7 +23,7 @@ Some controls from the UI for ASP.NET AJAX suite	can produce different (usually 
 |HtmlChart|N/A|-|
 |Calendar|[Yes (render mode)]({%slug calendar/mobile-support/render-mode%})|-|
 |Captcha|N/A|-|
-|ColorPicker|Yes (by design)|-|
+|ColorPicker|[Yes (render mode)]({%slug colorpicker/mobile-support/render-modes%})|-|
 |Combobox|[Yes (render mode)]({%slug combobox/mobile-support/render-modes%})|-|
 |DataForm|Yes (by design)|-|
 |DataPager|Yes (render mode)|[Yes (render mode)]({%slug datapager/mobile-support/mobile-rendering/overview%})|
@@ -32,14 +32,14 @@ Some controls from the UI for ASP.NET AJAX suite	can produce different (usually 
 |DropDownList|Yes (by design)|-|
 |DropDownTree|Yes (by design)|-|
 |Editor|[Yes (render mode)]({%slug editor/mobile-support/render-modes%})|[Yes (render mode)]({%slug editor/mobile-support/phone-layout/overview%})|
-|FileExplorer|N/A|-|
+|FileExplorer|[Yes (render mode)]({%slug fileexplorer/mobile-support/render-modes%})|-|
 |Filter|Yes (render mode)|-|
 |FormDecorator|[Yes (render mode)]({%slug formdecorator/mobile-support/render-modes%})|-|
 |Gantt|Yes (by design)|-|
 |Gauge|N/A|-|
 |Grid|[Yes (render mode)]({%slug grid/mobile-support/render-modes%})|[Yes (render mode)]({%slug grid/mobile-support/mobile-rendering/overview%})|
 |HtmlChart|Yes (by design)|-|
-|ImageEditor|Yes (child controls)|-|
+|ImageEditor|[Yes (render mode)]({%slug imageeditor/mobile-support/render-modes%})|-|
 |ImageGallery|Yes (by design)|[Yes (render mode)]({%slug imagegallery/mobile-support/mobile-rendering%})|
 |Input|[Yes (render mode)]({%slug input/mobile-support/render-modes%})|-|
 |LightBox|Yes (by design)|[Yes (render mode)]({%slug input/mobile-support/render-modes%})|
@@ -50,6 +50,7 @@ Some controls from the UI for ASP.NET AJAX suite	can produce different (usually 
 |Notification|[Yes (render mode)]({%slug notification/mobile-support/render-modes%})|-|
 |OrgChart|[Yes (render mode)]({%slug orgchart/mobile-support/render-modes%})|-|
 |PanelBar|Yes (render mode)|-|
+|PivotGrid|[Yes (render mode)]({%slug pivotgrid/mobile-support/render-modes%})|-|
 |ProgressArea|-|-|
 |ProgressBar|Yes (by design)|-|
 |Rating|[Yes (render mode)]({%slug rating/mobile-support/render-modes%})|-|
@@ -59,12 +60,13 @@ Some controls from the UI for ASP.NET AJAX suite	can produce different (usually 
 |Scheduler|-|[Yes (render mode)]({%slug scheduler/mobile-support/render-modes%})|
 |SiteMap|-|-|
 |Slider|[Yes (render mode)]({%slug slider/mobile-support/render-modes%})|-|
-|SocialShare|Yes (by design)|-|
+|SocialShare|[Yes (render mode)]({%slug socialshare/mobile-support/render-modes%})|-|
 |Spell|Yes (child control - Window)|-|
-|Splitter|N/A|-|
+|Splitter|[Yes (render mode)]({%slug splitter/mobile-support/render-modes%})|-|
 |TabStrip|-|-|
 |TagCloud|Yes (by design)|-|
 |Ticker|Yes (by design)|-|
+|Tile|[Yes (by design)]({%slug tilelist/tiles/mobile-support/render-modes%})|-|
 |TileList|[Yes (by design)]({%slug tilelist/mobile-support/render-modes%})|-|
 |ToolBar|-|-|
 |ToolTip|[Yes(render mode)]({%slug tooltip/mobile-support/render-modes%})|-|

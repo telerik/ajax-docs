@@ -11,8 +11,8 @@ Grid line specific style
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Charting.StateManagedObject
-* Telerik.Charting.Styles.StyleBorder
+* Telerik.Charting.StateManagedObject : IChartingStateManagedItem, IChartingStateManager, IDisposable
+* Telerik.Charting.Styles.StyleBorder : ICloneable
 * Telerik.Charting.Styles.LineStyle
 * Telerik.Charting.Styles.StyleGridLine
 

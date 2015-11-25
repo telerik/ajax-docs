@@ -11,7 +11,7 @@ Represents an abstraction of a calculated field.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.PivotGrid.Core.CalculatedField
+* Telerik.Web.UI.PivotGrid.Core.CalculatedField : INamed
 
 ## Properties
 

@@ -11,8 +11,8 @@ Defines the pannable options.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
-* Telerik.Web.UI.Diagram.Pannable
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
+* Telerik.Web.UI.Diagram.Pannable : IDefaultCheck
 
 ## Properties
 

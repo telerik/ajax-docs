@@ -5,7 +5,7 @@ description: OnClientTaskResizeStart
 slug: gantt/client-side-programming/events/onclienttaskresizestart
 tags: onclienttaskresizestart
 published: True
-position: 4
+position: 5
 ---
 
 # OnClientTaskResizeStart

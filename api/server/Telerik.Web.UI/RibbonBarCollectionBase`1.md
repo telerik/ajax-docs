@@ -12,5 +12,5 @@ This Class defines RibbonBarGalleryCategory collection that inherits List collec
 
 * System.Object
 * System.Collections.Generic.List`1
-* Telerik.Web.UI.RibbonBarCollectionBase`1
+* Telerik.Web.UI.RibbonBarCollectionBase`1 : IRibbonBarSubComponent
 

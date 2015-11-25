@@ -11,10 +11,10 @@ position: 3
 # RadPrompt Dialog
 
 
->important In order to use this dialog you need to have a **RadWindowManager** on the page.
-
 
 The **RadPrompt** dialog presents a message, an area for the user to type input, and displays "OK" and "Cancel" buttons. As with the other RadWindow dialogs, the message is not limited to text: you can supply a string of HTML for richer formatting.
+
+>important In order to use this dialog you need to have a **RadWindowManager** on the page.
 
 At a minimum, the **RadPrompt** function takes two arguments, and HTML string with the message, and the name of a callback function that deals with the results. The argument can be read in the callback function. If the user has pressed Cancel or has closed the dialog by clicking the [X] button, the returned argument will be *null*.
 
@@ -58,9 +58,15 @@ RadWindowManager1.RadPrompt("What is the answer to Life, the Universe and Everyt
 RadWindowManager1.RadPrompt("What is the answer to Life, the Universe and Everything?", "promptCallBackFn", 350, 100, Nothing, "Deep Thought", "42")
 ````
 
+>note Strings passed into this method must be properly formatted and escaped for HTML and JavaScript. Please see the related article [Calling the Predefined Dialogs from the Server Methods]({%slug window/troubleshooting/calling-the-predefined-dialogs-from-the-server-methods%}).
+
 
 >important The **callback function** is a client-side JavaScript function which is executed when the dialog is closed.
 
 >note The **Caller object** parameter should have a null (Nothing) value, as it exists only for backwards compatibility.
 
 The appearance of the prompt dialog is controlled by two things: the **Skin** property of the **RadWindowManager**, and the values you pass in as arguments to **RadPrompt**. The arguments can include the HTML string you pass in as a message, the width, the height, the title and the default value. The **Skin** property controls not only the appearance of the popup's title bar, but also the layout of the dialog: its icon, button style, and so on. This dialog layout and appearance is controlled by the prompt dialog template associated with the Skin. For details on how to customize the template, see [Templates]({%slug window/alert,-confirm,-prompt-dialogs/how-to-change-the-dialog-templates%}).
+
+## See Also
+
+ * [Calling the Predefined Dialogs from the Server Methods]({%slug window/troubleshooting/calling-the-predefined-dialogs-from-the-server-methods%})

@@ -142,4 +142,31 @@ It is expected to receive the following warning when opening the generated **xls
 
 **Column's UniqueName and DataField:**
 
-The DataField and the UniqueName of a column must contain only letters, numbers and "_". Following the conventions, variables could not start with a numberand having auto-generated columns where the column names have a numeric prefix could lead to numerous problems and is not supported scenario.
+The DataField and the UniqueName of a column must contain only letters, numbers and "_". Following the conventions, variables could not start with a number and having auto-generated columns where the column names have a numeric prefix could lead to numerous problems and is not supported scenario.
+
+**RadGrid edit form is not shown when GroupsDefaultExpanded is seto to "false". ** Possible workaround is presented below:
+
+````C#
+void RadGrid1_PreRender(object sender, EventArgs e)
+{
+    if (!Page.IsPostBack)
+        {
+            List<GridGroupHeaderItem> items = RadGrid1.MasterTableView.GetItems(GridItemType.GroupHeader).Cast<GridGroupHeaderItem>().ToList();
+            foreach (var item in items)
+            {
+                item.Expanded = false;
+            }
+        }
+}
+````
+````VB	     
+Private Sub RadGrid1_PreRender(sender As Object, e As EventArgs)
+	If Not Page.IsPostBack Then
+		Dim items As List(Of GridGroupHeaderItem) = RadGrid1.MasterTableView.GetItems(GridItemType.GroupHeader).Cast(Of GridGroupHeaderItem)().ToList()
+		For Each item As var In items
+			item.Expanded = False
+		Next
+	End If
+End Sub		
+````
+

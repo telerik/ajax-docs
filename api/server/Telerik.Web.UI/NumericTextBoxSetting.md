@@ -11,8 +11,8 @@ Class holding settings determining the how the number will be displayed.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.InputSetting
-* Telerik.Web.UI.NumericTextBoxSetting
+* Telerik.Web.UI.InputSetting : IStateManager
+* Telerik.Web.UI.NumericTextBoxSetting : IRadNumericTextBox
 
 ## Properties
 

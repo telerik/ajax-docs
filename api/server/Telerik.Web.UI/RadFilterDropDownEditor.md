@@ -11,7 +11,7 @@ Represents an editor for populating predefined items to be filtered using a drop
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.RadFilterDataFieldEditor
 * Telerik.Web.UI.RadFilterDropDownEditor
 

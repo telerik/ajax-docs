@@ -12,8 +12,8 @@ Represents the simple binding between the property value of an object and the pr
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.StateManager
-* Telerik.Web.UI.NavigationItemBinding
+* Telerik.Web.StateManager : IMarkableStateManager, IStateManager
+* Telerik.Web.UI.NavigationItemBinding : IDataSourceViewSchemaAccessor
 * Telerik.Web.UI.RadTreeNodeBinding
 
 ## Properties

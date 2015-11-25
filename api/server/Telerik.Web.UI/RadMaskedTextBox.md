@@ -16,8 +16,8 @@ RadMaskedTextBox is an enhanced data entry control that uses a mask to distingui
 * System.Object
 * System.Web.UI.Control
 * System.Web.UI.WebControls.WebControl
-* Telerik.Web.UI.RadWebControl
-* Telerik.Web.UI.RadInputControl
+* Telerik.Web.UI.RadWebControl : IControl, IControlResolver, IPostBackDataHandler, IScriptControl, ISkinnableControl
+* Telerik.Web.UI.RadInputControl : IEditableTextControl, INamingContainer, IPostBackEventHandler, ITextControl
 * Telerik.Web.UI.RadMaskedTextBox
 
 ## Properties
@@ -901,4 +901,10 @@ Executed when post data changes should invoke a changed event
 #### Returns
 
 `System.Void` 
+
+###  GetViewStateValue
+
+#### Returns
+
+`Telerik.Web.UI.T` 
 

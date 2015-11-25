@@ -26,8 +26,8 @@ The following articles explain the basics of the import and export functionality
 * [Import from DOCX and RTF]({%slug editor/functionality/import-and-export/import-from-docx-and-rtf%})—explains how to setup and use the Import from DOCX and RTF.
 * [Event: OnExportContent]({%slug editor/server-side-programming/events/onexportcontent%})—explains how to use the **OnExportContent** event to export the file to the server and prevent it from being sent to the client (**Example 1**).
 * [Event: OnImportContent]({%slug editor/server-side-programming/events/onimportcontent%})—explains how to use the **OnImportContent** event to modify the **ExportSettings** of the **HtmlFormatProvider** instance (**Example 1**).
-* [Live demo: Import and Export to DOCX](http://demos.telerik.com/aspnet-ajax/editor/examples/export-and-import-to-docx/defaultcs.aspx)—online example that shows the import and export to DOCX functionality.
-* [Live demo: Import and Export to RTF](http://demos.telerik.com/aspnet-ajax/editor/examples/rtfexport/defaultcs.aspx)—online example that shows the import and export to RTF functionality.
+* [Live demo: Import and Export to DOCX](http://demos.telerik.com/aspnet-ajax/editor/examples/import-export/docx-import-export/defaultcs.aspx)—online example that shows the import and export to DOCX functionality.
+* [Live demo: Import and Export to RTF](http://demos.telerik.com/aspnet-ajax/editor/examples/import-export/rtf-import-export/defaultcs.aspx)—online example that shows the import and export to RTF functionality.
 
 ## Extensibility of the Import/Export Interface
 

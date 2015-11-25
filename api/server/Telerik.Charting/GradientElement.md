@@ -11,8 +11,8 @@ Gradient element
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Charting.StateManagedObject
-* Telerik.Charting.GradientElement
+* Telerik.Charting.StateManagedObject : IChartingStateManagedItem, IChartingStateManager, IDisposable
+* Telerik.Charting.GradientElement : ICloneable
 
 ## Properties
 

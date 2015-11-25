@@ -37,7 +37,7 @@ The following controls offer WAI-ARIA support:
 
 * [Grid]({%slug grid/overview%})
 
-* [Input]({%slug input/overview%})
+* [Input]({%slug radtextbox/overview%})
 
 * [Notification]({%slug notification/overview%})
 
@@ -51,7 +51,7 @@ The following controls offer WAI-ARIA support:
 
 * [Window]({%slug window/overview%})
 
-## 
+##
 
 To enable WAI-ARIA support, you need to set the **EnableAriaSupport** property of the control to **true**.
 

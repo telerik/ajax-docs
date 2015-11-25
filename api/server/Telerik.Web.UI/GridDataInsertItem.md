@@ -15,10 +15,10 @@ The grid data item which will be used for inserting a records in the data souce.
 * System.Web.UI.WebControls.WebControl
 * System.Web.UI.WebControls.TableRow
 * Telerik.Web.UI.GridTableRow
-* Telerik.Web.UI.GridItem
+* Telerik.Web.UI.GridItem : INamingContainer
 * Telerik.Web.UI.GridEditableItem
 * Telerik.Web.UI.GridDataItem
-* Telerik.Web.UI.GridDataInsertItem
+* Telerik.Web.UI.GridDataInsertItem : IGridInsertItem
 
 ## Properties
 

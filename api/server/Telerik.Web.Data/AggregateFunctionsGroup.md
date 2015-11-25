@@ -11,7 +11,7 @@ Represents group with aggregate functions.
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.Data.Group
+* Telerik.Web.Data.Group : IGroup
 * Telerik.Web.Data.AggregateFunctionsGroup
 
 ## Properties

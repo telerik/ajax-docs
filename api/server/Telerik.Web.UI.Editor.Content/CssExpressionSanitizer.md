@@ -11,7 +11,7 @@ Sanitizer targeting specificly the http://blogs.msdn.com/b/ie/archive/2008/10/16
 ## Inheritance Hierarchy
 
 * System.Object
-* Telerik.Web.UI.Editor.Content.CssExpressionSanitizer
+* Telerik.Web.UI.Editor.Content.CssExpressionSanitizer : IContentSanitizer
 
 ## Methods
 

@@ -12,12 +12,7 @@ position: 7
 
 
 
-## 
-
 The **OnCalendarViewChanging** client-side event handler is called when the calendar navigates to a new view, before the viewable area rendered by the calendar is changed.
-
->note The **OnCalendarViewChanging** event is supported by: **RadCalendar** .
->
 
 
 The event handler receives two arguments:
@@ -65,4 +60,4 @@ function checkSelections(sender, eventArgs) {
 
  * [OnCalendarViewChanged]({%slug calendar/client-side-programming/events/oncalendarviewchanged%})
 
- * [DefaultViewChanged]({%slug calendar/server-side-programming/server-side-events/defaultviewchanged%})
+ * [DefaultViewChanged]({%slug calendar/server-side-programming/events/defaultviewchanged%})
