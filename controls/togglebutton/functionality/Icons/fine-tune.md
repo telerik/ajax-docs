@@ -18,7 +18,7 @@ This help article shows how to modify the position, size and color of icons in *
 
 ## Fine-tune Position
 
-You can change the position of font or image icons to match your concrete requirements. To do this, use the `Icon.Top` and `Icon.Left` properties to directly offset the icon (**Example 1**).
+You can change the position of font or image icons to match your concrete requirements. To do this, use the `Icon.Top` and `Icon.Left` properties to directly offset the icon in the particular toggle state (**Example 1**).
 
 >caption Figure 1: The icon in RadToggleButton can be offset from its original top and left position. See Example 1.
 
@@ -28,8 +28,14 @@ You can change the position of font or image icons to match your concrete requir
 
 ````ASP.NET
 <telerik:RadToggleButton ID="RadToggleButton1" runat="server" Text="Fine Tune Icon Position" Height="40px">
-	<Icon CssClass="rbRefresh"
-		Top="12px" Left="7px" />
+	<ToggleStates>
+		<telerik:ButtonToggleState>
+			<Icon CssClass="rbRefresh" Top="10px" Left="7px" />
+		</telerik:ButtonToggleState>
+		<telerik:ButtonToggleState>
+			<Icon CssClass="rbSave" Top="10px" Left="7px" />
+		</telerik:ButtonToggleState>
+	</ToggleStates>
 </telerik:RadToggleButton>
 ````
 
@@ -53,8 +59,15 @@ The embedded **RadToggleButton** icons are font icons. Using a font facilitates 
 ````
 
 ````ASP.NET
-<telerik:RadToggleButton ID="RadToggleButton1" runat="server" Text="Icon Custom Size and Color" CssClass="customizeIcon">
-	<Icon CssClass="rbSave" />
+<telerik:RadToggleButton ID="RadToggleButton2" runat="server" Text="Icon Custom Size and Color" CssClass="customizeIcon">
+	<ToggleStates>
+		<telerik:ButtonToggleState>
+			<Icon CssClass="rbSave" />
+		</telerik:ButtonToggleState>
+		<telerik:ButtonToggleState>
+			<Icon CssClass="rbRefresh" />
+		</telerik:ButtonToggleState>
+	</ToggleStates>
 </telerik:RadToggleButton>
 ````
 
@@ -66,9 +79,8 @@ The embedded **RadToggleButton** icons are font icons. Using a font facilitates 
 
  * [Custom Icons]({%slug togglebutton/functionality/icons/custom-icons%})
 
- * [PushButton - Embedded Icons Demo](http://demos.telerik.com/aspnet-ajax/togglebutton/functionality/embedded-icons/defaultcs.aspx)
+ * [RadToggleButton Overview Demo](http://demos.telerik.com/aspnet-ajax/togglebutton/overview/defaultcs.aspx)
  
- * [PushButton - Custom Icons Demo](http://demos.telerik.com/aspnet-ajax/togglebutton/functionality/custom-icons/defaultcs.aspx)
  
 
 

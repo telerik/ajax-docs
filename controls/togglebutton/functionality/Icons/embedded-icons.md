@@ -26,17 +26,24 @@ You can also use [custom icons]({%slug togglebutton/functionality/icons/custom-i
 
 ## Configuration
 
-To make the control easier to use, **Telerik** provides a large set of built-in icons (**Figure 1**). To use them, set the **Icon.CssClass** property (**Example 1**) to one of the predefined [CSS class names](#cssclass-list-of-embedded-icons), and the respective icon will be shown on the control.
+To make the control easier to use, **Telerik** provides a large set of built-in icons (**Figure 1**). To use them, set the **Icon.CssClass** property of each **ButtonToggleState** (**Example 1**) to one of the predefined [CSS class names](#cssclass-list-of-embedded-icons), and the respective icon will be shown on the control.
 
->caption Figure 2: RadToggleButton with an embedded icon (Icon.CssClass="rbOk") from Example 1.
+>caption Figure 2: RadToggleButton with an embedded icon (ButtonToggleState.Icon.CssClass="rbOk") from Example 1.
 
 ![Button with Embedded Icon](images/button-embedded-icon.png)
 
->caption Example 1: Declaration of embedded icon in RadToggleButton.
+>caption Example 1: Declaration of embedded icons in RadToggleButton states.
 
 ````ASP.NET
-<telerik:RadToggleButton ID="RadToggleButton1" runat="server" Text="Button with Icon">
-	<Icon CssClass="rbOk" />
+<telerik:RadToggleButton runat="server" ID="RadToggleButton1" Text="Button with Icon">
+	<ToggleStates>
+		<telerik:ButtonToggleState Selected="true">
+			<Icon CssClass="rbOk" />
+		</telerik:ButtonToggleState>
+		<telerik:ButtonToggleState>
+			<Icon CssClass="rbCancel" />
+		</telerik:ButtonToggleState>
+	</ToggleStates>
 </telerik:RadToggleButton>
 ````
 
@@ -103,10 +110,6 @@ The color of the predefined icons can be white or black, depending on the chosen
  
  * [Custom Icons]({%slug togglebutton/functionality/icons/custom-icons%})
 
- * [PushButton - Embedded Icons Demo](http://demos.telerik.com/aspnet-ajax/togglebutton/functionality/embedded-icons/defaultcs.aspx)
- 
- * [PushButton - Custom Icons Demo](http://demos.telerik.com/aspnet-ajax/togglebutton/functionality/custom-icons/defaultcs.aspx)
- 
-
+ * [RadToggleButton Overview Demo](http://demos.telerik.com/aspnet-ajax/togglebutton/overview/defaultcs.aspx)
 
  
