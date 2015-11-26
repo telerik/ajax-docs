@@ -90,26 +90,38 @@ $(function() {
         .attr("id", "inheritance-tree")
         .children("li")
         .each(function (index, node) {
-            var treeNode = $(node).attr("data-expanded", "true");
-            var text = treeNode.text();
-            var lastIndexOf;
+           var treeNode = $(node).attr("data-expanded", "true");
+           var text = treeNode.text();
+           var lastIndexOf;
+           var control = text.split(':')[0].trim();
+           if (/^Telerik/.test(text)) {
+               lastIndexOf = control.lastIndexOf(".");
+               treeNode
+                   .append("<a href='/devtools/aspnet-ajax/api/server/" + control.substring(0, lastIndexOf) + "/"
+                   + control.substring(++lastIndexOf) + "'/>");
+           }
 
-            if (/^Telerik/.test(text)) {
-                lastIndexOf = text.lastIndexOf(".");
-                treeNode
-                    .append("<a href='/devtools/aspnet-ajax/api/server/" + text.substring(0, lastIndexOf) + "/" + text.substring(++lastIndexOf) + "'/>");
-            }
-
-            if (index !== 0) {
-                treeNode
-                    .appendTo($("#inheritance-tree").find("li:eq(" + (--index) + ")"))
-                    .end()
-                    .wrap("<ul>");
-            }
-        })
+           if (index !== 0) {
+               treeNode
+                   .appendTo($("#inheritance-tree").find("li:eq(" + (--index) + ")"))
+                   .end()
+                   .wrap("<ul>");
+           }
+       })
         .end()
         .kendoTreeView();
-
+        var treeView = $("#inheritance-tree").data('kendoTreeView');
+        
+        treeView.items().each(function (index, node) {
+            var item = $(this);
+            var text = item.find('a').text();
+            var componentParts = text.split(':');
+            var control = componentParts[0].trim();
+            var interfaces = componentParts[1];
+            interfaces = (interfaces) ? (": " + interfaces.trim()) : "";
+            item.find('a').text(control);
+            item.append(interfaces);
+        });
     $("div.tabbedCode").each(function() {
         var container = $(this);
         var langs = container.find("pre");
