@@ -30,6 +30,10 @@ Generally, responsive design means that the page and its content are able to ada
 
 ````ASP.NET
 <telerik:RadToggleButton runat="server" ID="RadToggleButton1" Text="Elastic Toggle Button">
+	<ToggleStates>
+		<telerik:ButtonToggleState Text="State 1"/>
+		<telerik:ButtonToggleState Text="State 2" /> 
+	</ToggleStates>
 </telerik:RadToggleButton>
 ````
 
