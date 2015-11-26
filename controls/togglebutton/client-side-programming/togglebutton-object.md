@@ -1,14 +1,14 @@
 ---
-title: PushButton Object
-page_title: PushButton Object | RadToggleButton for ASP.NET AJAX Documentation
-description: PushButton Object
+title: ToggleButton Object
+page_title: ToggleButton Object | RadToggleButton for ASP.NET AJAX Documentation
+description: ToggleButton Object
 slug: togglebutton/client-side-programming/togglebutton-object
 tags: togglebutton,object
 published: True
 position: 1
 ---
 
-# PushButton Object
+# ToggleButton Object
 
 The following table lists the most important members of the client-side RadToggleButton object:
 
@@ -20,6 +20,10 @@ The following table lists the most important members of the client-side RadToggl
 | **.remove_load()** |Removes a handler for the load event|
 | **.add_clicking()** |The name of the javascript function called when the RadToggleButton control is clicked.|
 | **.remove_clicking()** |Removes a handler for the clicking event.|
+| **.add_toggleStateChanging()** |The name of the javascript function called before the state of the ToggleButton to change.|
+| **.remove_toggleStateChanging()** |Removes a handler for the toggleStateChanging event.|
+| **.add_toggleStateChanged()** |The name of the javascript function called when the state of the ToggleButton is changed.|
+| **.remove_toggleStateChanged()** |Removes a handler for the toggleStateChanged event.|
 | **.add_clicked()** |The name of the javascript function called when the RadToggleButton control is clicked.|
 | **.remove_clicked()** |Removes a handler for the clicked event.|
 | **.add_mouseOver()** |The name of the javascript function called when the mouse hovers over the control.|
@@ -55,6 +59,12 @@ The following table lists the most important members of the client-side RadToggl
 | **.set_visible()** |Shows/hides the button.|
 | **.get_validationGroup()** |Gets the name of ValidationGroup to which RadToggleButton is assigned.|
 | **.set_validationGroup()** |Sets the validation group to which RadToggleButton should be assigned.|
+|**get_toggleStates**|Gets the collection of ButtonToggleState objects that belong to the RadToggleButton control|
+|**set_toggleStates**|Sets the collection of ButtonToggleState objects that belong to the RadToggleButton control|
+|**get_selectedToggleState**| Gets the currently selected ToggleState of the RadToggleButton control.|
+|**set_selectedToggleState**| Sets the currently selected ToggleState of the RadToggleButton control.|
+|**get_selectedToggleStateIndex**| Gets the index of the currently selected ToggleState of the RadToggleButton control.|
+|**set_selectedToggleStateIndex**| Sets the index of the currently selected ToggleState of the RadToggleButton control.|
 
 >caption Public Methods
 
