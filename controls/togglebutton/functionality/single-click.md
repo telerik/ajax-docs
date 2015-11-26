@@ -27,22 +27,29 @@ The following properties should be used to enable the single click functionality
 ````ASP.NET
 <asp:TextBox ID="txtName" runat="server" />
 
-<telerik:RadToggleButton ID="btnSubmit" runat="server" Text="Submit" OnClick="btnSubmit_Click"
-	SingleClick="true" SingleClickText="Processing...">
+<telerik:RadToggleButton runat="server" ID="RadToggleButton1" SingleClick="true" SingleClickText="Processing..." OnToggleStateChanged="RadToggleButton1_ToggleStateChanged">
+	<ToggleStates>
+		<telerik:ButtonToggleState Text="State 1">
+		</telerik:ButtonToggleState>
+		<telerik:ButtonToggleState Text="Submit" Selected="true">
+		</telerik:ButtonToggleState>
+		<telerik:ButtonToggleState Text="State 3">
+		</telerik:ButtonToggleState>
+	</ToggleStates>
 </telerik:RadToggleButton>
 
 <asp:Label ID="lblGreeting" runat="server" />
 ````
 
 ````C#
-protected void btnSubmit_Click(object sender, EventArgs e)
+protected void RadToggleButton1_ToggleStateChanged(object sender, Telerik.Web.UI.ToggleButtonStateChangedEventArgs e)
 {
 	if (Page.IsPostBack) System.Threading.Thread.Sleep(3000);
 	lblGreeting.Text = String.Format("Hello, {0}!", txtName.Text);
 }
 ````
 ````VB
-Protected Sub btnSubmit_Click(sender As Object, e As System.EventArgs) Handles btnSubmit.Click
+Protected Sub RadToggleButton1_ToggleStateChanged(sender As Object, e As Telerik.Web.UI.ToggleButtonStateChangedEventArgs) Handles RadToggleButton1.ToggleStateChanged
 	If Page.IsPostBack Then
 		System.Threading.Thread.Sleep(3000)
 	End If
@@ -54,4 +61,4 @@ The submitted text in processed on the server-side. Note that the method **Syste
 
 ## See Also
 
- * [Single Click Button Demo](http://demos.telerik.com/aspnet-ajax/togglebutton/examples/singleclick/defaultcs.aspx)
+ * [Select State]({%slug togglebutton/functionality/select-state%})
