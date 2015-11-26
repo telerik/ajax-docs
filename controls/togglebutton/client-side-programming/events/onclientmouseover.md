@@ -5,7 +5,7 @@ description: OnClientMouseOver
 slug: togglebutton/client-side-programming/events/onclientmouseover
 tags: onclientmouseover
 published: True
-position: 5
+position: 6
 ---
 
 # OnClientMouseOver
@@ -16,7 +16,7 @@ The event handler receives two parameters:
 
 1. The instance of the clicked RadToggleButton control
 
-1. An eventArgs parameter of type [Telerik.Web.UI.**RadButtonEventArgs**](http://docs.telerik.com/devtools/aspnet-ajax/api/client/args/Telerik.Web.UI.ButtonEventArgs), containing the following properties and methods:
+1. An eventArgs parameter of type [Telerik.Web.UI.RadButtonEventArgs](http://docs.telerik.com/devtools/aspnet-ajax/api/client/args/Telerik.Web.UI.ButtonEventArgs), containing the following properties and methods:
 
 	* get_commandName() - returns the value assigned to the RadToggleButton's **CommandName** property
 
@@ -32,6 +32,10 @@ The event handler receives two parameters:
  * [OnClientLoad]({%slug togglebutton/client-side-programming/events/onclientload%})
  
  * [OnClientClicking]({%slug togglebutton/client-side-programming/events/onclientclicking%})
+
+ * [OnClientToggleStateChanging]({%slug togglebutton/client-side-programming/events/onclienttogglestatechanging%})
+
+ * [OnClientToggleStateChanged]({%slug togglebutton/client-side-programming/events/onclienttogglestatechanged%})
  
  * [OnClientClicked]({%slug togglebutton/client-side-programming/events/onclientclicked%})
  

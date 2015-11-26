@@ -10,13 +10,17 @@ position: 0
 
 # Events Overview
 
-The RadToggleButton exposes several client-side events which allow easy and flexible use in a wide range of application scenarios:
+RadToggleButton exposes several client-side events which allow easy and flexible use in a wide range of application scenarios:
 
 * **[OnClientLoad (load)]({%slug togglebutton/client-side-programming/events/onclientload%})** - raised when the control is initialized.
 
 * **[OnClientClicking (clicking)]({%slug togglebutton/client-side-programming/events/onclientclicking%})** - raised when the user clicks the button. The event can be canceled.
 
-* **[OnClientClicked (clicked)]({%slug togglebutton/client-side-programming/events/onclientclicked%})** - raised when the button is clicked. The event is subsequent to the **OnClientClicking** event.
+* **[OnClientToggleStateChanging (toggleStateChanging)]({%slug togglebutton/client-side-programming/events/onclienttogglestatechanging%})** - raised after the user clicks the button and before state is changed. The event can be canceled and it is subsequent to the **OnClientClicking** event.
+
+* **[OnClientToggleStateChanged (toggleStateChanged)]({%slug togglebutton/client-side-programming/events/onclienttogglestatechanged%})** - raised when the state of the button is changed. The event is subsequent to the **OnClientToggleStateChanging** event.
+
+* **[OnClientClicked (clicked)]({%slug togglebutton/client-side-programming/events/onclientclicked%})** - raised when the button is clicked. The event is subsequent to the **OnClientToggleStateChanged** event.
 
 * **[OnClientMouseOver (mouseOver)]({%slug togglebutton/client-side-programming/events/onclientmouseover%})** - raised when the mouse hovers over the control.
 
@@ -34,6 +38,10 @@ To handle the desired event, the user must set the respective property to the na
 	}
 </script>
 <telerik:RadToggleButton ID="RadToggleButton1" runat="server" OnClientClicked="Click">
+	<ToggleStates>
+	    <telerik:ButtonToggleState Text="State 1" />
+	    <telerik:ButtonToggleState Text="State 2" />
+	</ToggleStates>
 </telerik:RadToggleButton>
 ````
 
@@ -56,14 +64,18 @@ RadToggleButton1.OnClientClicked = "Click"  'passing the name of the JS function
 </script>
 
 <telerik:RadToggleButton ID="RadToggleButton1" runat="server" OnClientClicked="function(sender,args){Click(sender, args, 'Value1', 'Value2');}">
+	<ToggleStates>
+	    <telerik:ButtonToggleState Text="State 1" />
+	    <telerik:ButtonToggleState Text="State 2" />
+	</ToggleStates>
 </telerik:RadToggleButton>
 ````
 
 ````C#
-RadToggleButton1.OnClientClicked = "function(sender,args){Click(sender, args, 'Value1', 'Value2');}"; //passing the name of the JS function
+RadToggleButton1.OnClientClicked = "function(sender,args){Click(sender, args, 'Value1', 'Value2');}"; //passing an anonymous JS function
 ````
 ````VB
-RadToggleButton1.OnClientClicked = "function(sender,args){Click(sender, args, 'Value1', 'Value2');}"  'passing the name of the JS function
+RadToggleButton1.OnClientClicked = "function(sender,args){Click(sender, args, 'Value1', 'Value2');}"  'passing an anonymous JS function
 ````
 
 
@@ -76,6 +88,10 @@ RadToggleButton1.OnClientClicked = "function(sender,args){Click(sender, args, 'V
  * [OnClientLoad]({%slug togglebutton/client-side-programming/events/onclientload%})
  
  * [OnClientClicking]({%slug togglebutton/client-side-programming/events/onclientclicking%})
+ 
+ * [OnClientToggleStateChanging]({%slug togglebutton/client-side-programming/events/onclienttogglestatechanging%})
+
+ * [OnClientToggleStateChanged]({%slug togglebutton/client-side-programming/events/onclienttogglestatechanged%})
  
  * [OnClientClicked]({%slug togglebutton/client-side-programming/events/onclientclicked%})
  
