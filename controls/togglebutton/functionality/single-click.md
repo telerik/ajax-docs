@@ -5,7 +5,7 @@ description: Single Click
 slug: togglebutton/functionality/single-click
 tags: single,click
 published: True
-position: 1
+position: 2
 ---
 
 # Single Click
