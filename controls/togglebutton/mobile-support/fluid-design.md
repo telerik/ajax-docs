@@ -30,6 +30,10 @@ Generally, responsive design means that the page and its content are able to ada
 <div style="width: 40%; height: 30%;">
     <telerik:RadToggleButton runat="server" ID="ToggleButton1"
         Text="Fluid Toggle Button" Width="100%" Height="25%">
+			<ToggleStates>
+				<telerik:ButtonToggleState Text="State 1"/>
+				<telerik:ButtonToggleState Text="State 2" /> 
+			</ToggleStates>
     </telerik:RadToggleButton>
 </div>
 ````
