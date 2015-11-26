@@ -5,12 +5,12 @@ description: OnClientClicked
 slug: togglebutton/client-side-programming/events/onclientclicked
 tags: onclientclicked
 published: True
-position: 4
+position: 6
 ---
 
 # OnClientClicked
 
-The **clicked** event is subsequent to the **clicking** event, and occurs when the RadToggleButton control is clicked. The event is fired after the client-side validation is completed, just before the page is submitted, and cannot be canceled.
+The **clicked** event is subsequent to the [toggleStateChanged]({%slug togglebutton/client-side-programming/events/onclienttogglestatechanged%}) event, and occurs when the **RadToggleButton** control is clicked. The event is fired after the client-side validation is completed (just like the [PushButon's OnClientClicked event]({%slug pushbutton/client-side-programming/events/onclientclicked%})), just before the page is submitted, and cannot be canceled.
 
 The event handler receives two parameters:
 
@@ -22,40 +22,28 @@ The event handler receives two parameters:
 
 	* get_commandArgument() - returns the value assigned to the RadToggleButton's **CommandArgument** property
 
-This event should be used in scenarios where the user needs to execute custom client-side code when the button is clicked. Since validation has occurred, the page can be checked for validity before any client code is executed. This is exactly what the following example is doing, it checks for a valid URL, and if a valid one is entered, it opens it in a RadWindow control. Here is the code:
+This event can be used in scenarios where is needed custom client-side code to be executed when the button is clicked. 
 
->caption Example 1: RadToggleButton handling the OnClientClicked event.
+>caption Example 1: Handling the OnClientClicked event.
 
 ````ASP.NET
 <script type="text/javascript">
-	function OpenWindow(sender, args)
-	{
-		if (Page_IsValid)
-		{
-			var RadWindow = $find("<%=RadWindow1.ClientID%>");
-			RadWindow.setUrl($get("Textbox1").value);
-			RadWindow.show();
-		}
-		else
-		{
-			alert("The page is not valid. Please enter a valid URL.");
-		}
-	}
+    function clientClick(sender, args) {
+        var selectedValue = sender.get_selectedToggleState().get_value();
+        $get("<%= Textbox1.ClientID %>").value = selectedValue;
+    }
 </script>
 
-<span>URL:</span>
+<span>Selected Value:</span>
 <asp:TextBox ID="Textbox1" runat="server" />
-<asp:RegularExpressionValidator ID="regNavaigateUrl" runat="server" ForeColor="Red"
-	ControlToValidate="Textbox1" ValidationGroup="UrlVG" SetFocusOnError="true" 
-	ValidationExpression="http(s)?://([\w-]+\.)+[\w-]+(/[\w- ./?%&amp;=]*)?"
-	ErrorMessage="Valid URL should start with <strong>http://</strong>">
-</asp:RegularExpressionValidator>
-<br />
-<telerik:RadToggleButton id="RadToggleButton1" runat="server" text="Open Window" OnClientClicked="OpenWindow"
-	ValidationGroup="UrlVG" AutoPostback="false">
+
+<telerik:RadToggleButton ID="RadToggleButton1" runat="server" AutoPostBack="false"
+    OnClientClicked="clientClick">
+    <ToggleStates>
+        <telerik:ButtonToggleState Text="State 1" Value="Value1"/>
+        <telerik:ButtonToggleState Text="State 2" Value="Value2"/>
+    </ToggleStates>
 </telerik:RadToggleButton>
-<telerik:RadWindow id="RadWindow1" runat="server">
-</telerik:RadWindow>
 ````
 
 ## See Also
@@ -67,6 +55,10 @@ This event should be used in scenarios where the user needs to execute custom cl
  * [OnClientLoad]({%slug togglebutton/client-side-programming/events/onclientload%})
  
  * [OnClientClicking]({%slug togglebutton/client-side-programming/events/onclientclicking%})
+
+ * [OnClientToggleStateChanging]({%slug togglebutton/client-side-programming/events/onclienttogglestatechanging%})
+
+ * [OnClientToggleStateChanged]({%slug togglebutton/client-side-programming/events/onclienttogglestatechanged%})
  
  * [OnClientMouseOver]({%slug togglebutton/client-side-programming/events/onclientmouseover%})
  
