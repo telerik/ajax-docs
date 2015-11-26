@@ -10,121 +10,66 @@ position: 1
 
 # Image
 
-This help article showcases how to operate with the toggle states of **RadToggleButton** on the server-side/client-side.
+This help article illustrates how to configure **RadToggleButton** with images for its different states.
 
-* [Select ButtonToggleState Server-Side](#select-buttontogglestate-server-side)
+## Configuration
 
-* [Select ButtonToggleState Client-Side](#select-buttontogglestate-client-side)
+To define an image in **RadToggleButton** you should set the path to the image inside the **Image.Url** property of each toggle state (**Example 1**). You can also show text over the image by simply setting it in the **Text** property.
 
-## Select ButtonToggleState Server-Side
+You can control the image dimensions through the **Width** and **Height** properties which are exposed globally (the **RadToggleButton** object) as well as per each toggle state (the **ButtonToggleState** objects).
 
-To select a particular toggle state of RadToggleButton you should set the **Selected** property of the target toggle state to true.
+>caption Figure 1: RadToggleButton with image.
 
->caption Example 1: Select a ButtonToggleState from the markup. 
+![RadToggleButton with image](images/toggle-button-image.png)
+
+>caption Example 1: Configure images inside toggle states of RadToggleButton. 
 
 ````ASP.NET
-	<telerik:RadToggleButton runat="server" ID="RadToggleButton1">
-		<ToggleStates>
-			<telerik:ButtonToggleState Text="State 1">
-			</telerik:ButtonToggleState>
-			<telerik:ButtonToggleState Text="State 2" Selected="true">
-			</telerik:ButtonToggleState>
-			<telerik:ButtonToggleState Text="State 3">
-			</telerik:ButtonToggleState>
-		</ToggleStates>
-	</telerik:RadToggleButton>
+<telerik:RadToggleButton runat="server" ID="RadToggleButton1" Width="100px" Height="60px">
+	<ToggleStates>
+		<telerik:ButtonToggleState Selected="true">
+			<Image Url="http://demos.telerik.com/aspnet-ajax/button/examples/togglebutton/images/volume/low.png" />
+		</telerik:ButtonToggleState>
+		<telerik:ButtonToggleState>
+			<Image Url="http://demos.telerik.com/aspnet-ajax/button/examples/togglebutton/images/volume/high.png" />
+		</telerik:ButtonToggleState>
+		<telerik:ButtonToggleState>
+			<Image Url="http://demos.telerik.com/aspnet-ajax/button/examples/togglebutton/images/volume/mute.png" />
+		</telerik:ButtonToggleState>
+	</ToggleStates>
+</telerik:RadToggleButton>
 ```` 
 
->caption Example 2: Select a ButtonToggleState from the code behind. 
+>note The Background-size of the image is controlled through the **Image.Sizing** property.
 
-````C#
-protected void Page_Init(object sender, EventArgs e)
-{
-	RadToggleButton1.ToggleStates[1].Selected = true;
-}
-````
-````VB
-Protected Sub Page_Init(sender As Object, e As EventArgs)
-	RadToggleButton1.ToggleStates(1).Selected = True
-End Sub
+## Hovered, Active and Disabled States
 
-````
+**RadToggleButton** also provides an easy way to show different images when the mouse is over the control, the button is pressed or disabled (see **Figure 2** and **Example 2**). To do this, use the **PressedUrl**, **HoveredUrl**, **DisabledUrl** properties exposed by the **Image** tag of each toggle state.
 
-To get the selected toggle state and selected toggle state index you can use the **SelectedToggleState** and **SelectedToggleStateIndex** properties of the **RadToggleButton** control.
+>caption Figure 2: A RadToggleButton can have different images for its normal, hovered, active and disabled state.
 
->caption Example 3: Get **SelectedToggleState** and **SelectedToggleStateIndex** of **RadToggleButton** from the code behind. 
+![RadToggleButton with image states](images/toggle-button-image-states.png)
 
-````C#
-protected void Page_Load(object sender, EventArgs e)
-{
-	int selectedToggleStateIndex = RadToggleButton1.SelectedToggleStateIndex;
-	ButtonToggleState selectedToggleState = RadToggleButton1.SelectedToggleState;
-}
-````
-````VB
-Protected Sub Page_Load(sender As Object, e As EventArgs)
-	Dim selectedToggleStateIndex As Integer = RadToggleButton1.SelectedToggleStateIndex
-	Dim selectedToggleState As ButtonToggleState = RadToggleButton1.SelectedToggleState
-End Sub
-````
-
-You can also get the **SelectedToggleState**, **SelectedToggleStateIndex** and the corresponding properties (i.e., **Value**, **Text**, **CommandName**, **CommandArgument**) of the selected toggle state from the arguments of the **OnToggleStateChanged** event:
-
->caption Example 4: Get **SelectedToggleState**, **SelectedToggleStateIndex**, **CommandName** and **CommandArgument** of the **ToggleButtonStateChangedEventArgs** event arguments. 
+>caption Example 2: Setup unique images for the normal, hovered, active and disabled state of a RadToggleButton.
 
 ````ASP.NET
-<telerik:RadToggleButton runat="server" ID="RadToggleButton1" OnToggleStateChanged="RadToggleButton1_ToggleStateChanged">
+<telerik:RadToggleButton runat="server" ID="RadToggleButton1" Width="58px" Height="59px">
 	<ToggleStates>
-		<telerik:ButtonToggleState Text="State 1" CommandName="command1" CommandArgument="argument1" Value="value1">
+		<telerik:ButtonToggleState Selected="true">
+			<Image Url="http://demos.telerik.com/aspnet-ajax/button/examples/togglebutton/images/play/play.png" HoveredUrl="http://demos.telerik.com/aspnet-ajax/button/examples/togglebutton/images/play/playHov.png" PressedUrl="http://demos.telerik.com/aspnet-ajax/button/examples/togglebutton/images/play/pause.png" DisabledUrl="http://demos.telerik.com/aspnet-ajax/button/examples/imagebutton/images/cb_play_d.png" />
 		</telerik:ButtonToggleState>
-		<telerik:ButtonToggleState Text="State 2" CommandName="comamnd2" CommandArgument="argument2" Value="value2" Selected="true">
-		</telerik:ButtonToggleState>
-		<telerik:ButtonToggleState Text="State 3" CommandName="command3" CommandArgument="argument3" Value="value3">
+		<telerik:ButtonToggleState>
+			<Image Url="http://demos.telerik.com/aspnet-ajax/button/examples/togglebutton/images/play/pause.png" />
 		</telerik:ButtonToggleState>
 	</ToggleStates>
 </telerik:RadToggleButton>
 ````
-````C#
-	protected void RadToggleButton1_ToggleStateChanged(object sender, Telerik.Web.UI.ToggleButtonStateChangedEventArgs e)
-	{
-		int selectedToggleStateIndex = e.SelectedToggleStateIndex;
-		ButtonToggleState selectedToggleState = e.SelectedToggleState;
-		string commandNameArgument = string.Format("CommandName: {0}, CommandArgument: {1}", e.CommandName, e.CommandArgument);
-	}
-````
-````VB
-Protected Sub RadToggleButton1_ToggleStateChanged(sender As Object, e As Telerik.Web.UI.ToggleButtonStateChangedEventArgs)
-	Dim selectedToggleStateIndex As Integer = e.SelectedToggleStateIndex
-	Dim selectedToggleState As ButtonToggleState = e.SelectedToggleState
-	Dim commandNameArgument As String = String.Format("CommandName: {0}, CommandArgument: {1}", e.CommandName, e.CommandArgument)
-End Sub
-````
-
-## Select ButtonToggleState Client-Side
-
-You can select a particular toggle state of **RadToggleButton** by passing the corresponding index in the **set_selectedToggleStateIndex()** method of the control.
-
->caption Example 5: Select a toggle state on the client-side.
-
-````JavaScript
-var toggleButton = $find("<%=RadToggleButton1.ClientID%>");
-toggleButton.set_selectedToggleStateIndex(0);
-````
-
-You can obtain the toggle states, selected toggle state and selected toggle state index of **RadToggleButton** through the **get_toggleStates()**, **get_selectedToggleState()**, and **get_selectedToggleStateIndex()** method.
-
->caption Example 6: Reference toggle states, selected toggle state and selected toggle state index of **RadToggleButton** through client-side API. 
-
-````JavaScript
-var toggleButton = $find("<%=RadToggleButton1.ClientID%>"),
-toggleStates = toggleButton.get_toggleStates(),
-selectedToggleState = toggleButton.get_selectedToggleState(),
-selectedToggleStateIndex = toggleButton.get_selectedToggleStateIndex();
-````
-
 
 ## See Also
 
- * [Server-Side API]({%slug togglebutton/server-side-programming/properties-and-events%})
+ * [Select State]({%slug togglebutton/functionality/select-state%})
  
- * [Client-Side API]({%slug togglebutton/client-side-programming/overview%})
+ * [Custom Icons]({%slug togglebutton/functionality/icons/custom-icons%})
+ 
+ * [Server-Side API]({%slug togglebutton/server-side-programming/properties-and-events%})
+

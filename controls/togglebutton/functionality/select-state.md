@@ -125,6 +125,10 @@ selectedToggleStateIndex = toggleButton.get_selectedToggleStateIndex();
 
 ## See Also
 
+ * [Image]({%slug togglebutton/functionality/image%})
+ 
+ * [Custom Icons]({%slug togglebutton/functionality/icons/custom-icons%})
+
  * [Server-Side API]({%slug togglebutton/server-side-programming/properties-and-events%})
  
  * [Client-Side API]({%slug togglebutton/client-side-programming/overview%})
