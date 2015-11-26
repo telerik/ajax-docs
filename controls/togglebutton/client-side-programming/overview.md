@@ -17,18 +17,20 @@ position: 0
 **RadToggleButton** creates a client-side object with the **ClientID** of the button. You can obtain the reference using the following JavaScript code:
 
 ````JavaScript
-var button = $find("<%= RadToggleButton1.ClientID %>");
+var toggleButton = $find("<%= RadToggleButton1.ClientID %>");
 ````
 
+or
+
 ````JavaScript
-var button = $telerik.findtogglebutton("<%= RadToggleButton1.ClientID %>");
+var toggleButton = $telerik.findToggleButton("<%= RadToggleButton1.ClientID %>");
 ````
 
 ## See Also
 
- * [PushButton Object]({%slug togglebutton/client-side-programming/togglebutton-object%})
+ * [ToggleButton Object]({%slug togglebutton/client-side-programming/togglebutton-object%})
  
- * [Events Overview]({%slug client-side-programming/events/overview%})
+ * [Events Overview]({%slug togglebutton/client-side-programming/events/overvie%})
  
  * [OnClientClicking]({%slug togglebutton/client-side-programming/events/onclientclicking%})
  

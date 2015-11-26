@@ -34,10 +34,14 @@ This event comes handy in scenarios when the user wants to cancel the page submi
 <script type="text/javascript">
 	function Clicking(sender, args)
 	{
-		args.set_cancel(!window.confirm("Are you sure you want to submit the page?"));
+		args.set_cancel(!window.confirm("Are you sure?"));
 	}
 </script>
-<telerik:RadToggleButton ID="RadToggleButton1" runat="server" Text="Submit"	OnClientClicking="Clicking" OnClick="RadToggleButton1_Click">
+<telerik:RadToggleButton ID="RadToggleButton1" runat="server" OnClientClicking="Clicking" OnClick="RadToggleButton1_Click">
+	<ToggleStates>
+	    <telerik:ButtonToggleState Text="State 1" />
+	    <telerik:ButtonToggleState Text="State 2" />
+	</ToggleStates>
 </telerik:RadToggleButton>
 ````
 
@@ -60,6 +64,10 @@ End Sub
  * [PushButton Object]({%slug togglebutton/client-side-programming/togglebutton-object%})
 
  * [OnClientLoad]({%slug togglebutton/client-side-programming/events/onclientload%})
+
+ * [OnClientToggleStateChanging]({%slug togglebutton/client-side-programming/events/onclienttogglestatechanging%})
+
+ * [OnClientToggleStateChanged]({%slug togglebutton/client-side-programming/events/onclienttogglestatechanged%})
  
  * [OnClientClicked]({%slug togglebutton/client-side-programming/events/onclientclicked%})
  
