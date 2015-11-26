@@ -10,9 +10,9 @@ position: 1
 
 # Setting Event Handlers via JavaScript
 
-You can use the client-side API of the RadToggleButton control to modify the event handlers it calls.
+**RadToggleButton** API exposes client-side methods to attach and detach function to its event. They  can be used as alternative to the server-side properties for handling events. 
 
-To handle the desired event, the user should use the respective **add_<eventName>(handlerFunction)** to attach the desired handler (i.e. **add_clicked** for the clicked event), where the parameter *handlerFunction* should be of type **function**. To remove a handler that has been added previously, the respective **remove_<eventName>(handlerFunction)** should be used.
+To handle the desired event, you can use the respective **add_<eventName>(handlerFunction)** to attach the desired handler (i.e. **add_clicked** for the clicked event), where the parameter *handlerFunction* should be of type **function**. To remove the handler that has been added previously, the respective **remove_<eventName>(handlerFunction)** should be used.
 
 Here follows examples showing how to add and remove handlers on the client:
 
@@ -26,8 +26,8 @@ Here follows examples showing how to add and remove handlers on the client:
 	}
 	function addHandler()
 	{
-		var button = $find("<%=RadToggleButton1.ClientID %>");
-		button.add_clicked(Click);
+		var toggleButton = $find("<%=RadToggleButton1.ClientID %>");
+		toggleButton.add_clicked(Click);
 	}
 </script>
 ````
@@ -42,8 +42,8 @@ Here follows examples showing how to add and remove handlers on the client:
 	}
 	function addHandler()
 	{
-		var button = $find("<%=RadToggleButton1.ClientID %>");
-		button.add_clicked(function (button, args) { Click(button, args, "Value1") });
+		var toggleButton = $find("<%=RadToggleButton1.ClientID %>");
+		toggleButton.add_clicked(function (button, args) { Click(button, args, "Value1") });
 	}
 </script>
 ````
@@ -53,12 +53,12 @@ Here follows examples showing how to add and remove handlers on the client:
 ````JavaScript
 function removeEvents()
 {
-    var button = $find("<%= RadToggleButton1.ClientID %>");
-    button.remove_show(Click);
+    var toggleButton = $find("<%= RadToggleButton1.ClientID %>");
+    toggleButton.remove_show(Click);
 }
 ````
 
->caption Public Properties
+>caption Table 1: Available add/remove methods for handling client-side events.
 
 | Name | Description |
 | ------ | ------ |
@@ -66,6 +66,10 @@ function removeEvents()
 | **.remove_load()** |Removes a handler for the load event|
 | **.add_clicking()** |The name of the javascript function called when the RadToggleButton control is clicked.|
 | **.remove_clicking()** |Removes a handler for the clicking event.|
+| **.add_toggleStateChanging()** |The name of the javascript function called before the state of the ToggleButton to change.|
+| **.remove_toggleStateChanging()** |Removes a handler for the toggleStateChanging event.|
+| **.add_toggleStateChanged()** |The name of the javascript function called when the state of the ToggleButton is changed.|
+| **.remove_toggleStateChanged()** |Removes a handler for the toggleStateChanged event.|
 | **.add_clicked()** |The name of the javascript function called when the RadToggleButton control is clicked.|
 | **.remove_clicked()** |Removes a handler for the clicked event.|
 | **.add_mouseOver()** |The name of the javascript function called when the mouse hovers over the control.|
@@ -80,6 +84,10 @@ function removeEvents()
  * [Events Overview]({%slug client-side-programming/events/overview%})
  
  * [OnClientClicking]({%slug togglebutton/client-side-programming/events/onclientclicking%})
+
+ * [OnClientToggleStateChanging]({%slug togglebutton/client-side-programming/events/onclienttogglestatechanging%})
+
+ * [OnClientToggleStateChanged]({%slug togglebutton/client-side-programming/events/onclienttogglestatechanged%})
  
  * [OnClientClicked]({%slug togglebutton/client-side-programming/events/onclientclicked%})
  

@@ -28,16 +28,20 @@ This event comes handy in scenarios when the user wants to operate with the cont
 		alert('RadToggleButton Object Loaded');
 	}
 </script>
-<telerik:RadToggleButton ID="RadToggleButton1" runat="server" Text="Submit" OnClientLoad="clientLoad">
+<telerik:RadToggleButton ID="RadToggleButton1" runat="server" OnClientLoad="clientLoad">
+	<ToggleStates>
+	    <telerik:ButtonToggleState Text="State 1" />
+	    <telerik:ButtonToggleState Text="State 2" />
+	</ToggleStates>
 </telerik:RadToggleButton>
 ````
 
 
 ## See Also
 
- * [PushButton - Client-side Events Demo](http://demos.telerik.com/aspnet-ajax/togglebutton/client-side-api/client-side-events/defaultcs.aspx)
+ * [ToggleButton - Client-side Events Demo](http://demos.telerik.com/aspnet-ajax/togglebutton/client-side-api/client-side-events/defaultcs.aspx)
 
- * [PushButton Object]({%slug togglebutton/client-side-programming/togglebutton-object%})
+ * [ToggleButton Object]({%slug togglebutton/client-side-programming/togglebutton-object%})
  
  * [OnClientClicking]({%slug togglebutton/client-side-programming/events/onclientclicking%})
  
