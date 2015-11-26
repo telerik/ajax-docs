@@ -32,6 +32,10 @@ There are two ways to configure the rendering mode of the controls:
 	**ASP.NET**
 
 		<telerik:RadToggleButton ID="RadToggleButton1" runat="server" RenderMode="Lightweight">
+			<ToggleStates>
+				<telerik:ButtonToggleState Text="State 1"/>
+				<telerik:ButtonToggleState Text="State 2" /> 
+			</ToggleStates>
 		</telerik:RadToggleButton>
 
 
