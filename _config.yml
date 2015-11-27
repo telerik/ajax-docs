@@ -135,9 +135,15 @@ navigation:
         position: 2
 
 ## List control directory names and order here, like this:
-    "controls/ajax":
-        title: "Ajax"
+    "controls/ajaxpanel":
+        title: "AjaxPanel"
         position: 1
+    "controls/ajaxmanager":
+        title: "AjaxManager"
+        position: 1
+    "controls/ajaxloadingpanel":
+        title: "AjaxLoadingPanel"
+        position: 1	
     "controls/asyncupload":
         title: "Async Upload"
         position: 1
@@ -449,36 +455,12 @@ navigation:
 
 
 ## List control specific directory names and order here, like this:
-    "*ajax/radajaxmanager":
-        title: "RadAjaxManager"
-        position: 4
-    "*ajax/radajaxmanager/how-to":
-        title: "How-To"
-        position: 1
-    "*ajax/radajaxmanager/troubleshooting":
-        title: "Troubleshooting"
-        position: 2
-    "*ajax/radajaxpanel":
-        title: "RadAjaxPanel"
-        position: 5
-    "*ajax/radajaxpanel/how-to":
-        title: "How-To"
-        position: 1
-    "*ajax/radajaxmanagerproxy":
+    "*ajaxmanager/radajaxmanagerproxy":
         title: "RadAjaxManagerProxy"
         position: 6
-    "*ajax/radajaxloadingpanel":
-        title: "RadAjaxLoadingPanel"
-        position: 7
-    "*ajax/radajaxloadingpanel/how-to":
-        title: "How-To"
-        position: 2
-    "*ajax/performance":
+    "*ajaxmanager/performance":
         title: "Performance"
-        position: 8
-    "*ajax/client-side-programming/how-to":
-        title: "How-To"
-        position: 4
+        position: 8		
     "*autocompletebox/templates":
         title: "Templates"
         position: 4
