@@ -18,18 +18,18 @@ The control can be easily styled by changing the **[Skin]({%slug togglebutton/ap
 
 >caption Figure 1: RadToggleButton with two states.
 
-![RadButton](images/toggle-button-overview.jpg)
+![RadButton](images/toggle-button-overview.png)
 
 >caption Example 1: A basic example of different states in a RadToggleButton
 
 ````ASP.NET
 <telerik:RadToggleButton runat="server" ID="RadToggleButton1">
 	<ToggleStates>
-		<telerik:ButtonToggleState Text="Before click">
+		<telerik:ButtonToggleState Text="State one">
 			<Icon CssClass="rbOk" />
 		</telerik:ButtonToggleState>
-		<telerik:ButtonToggleState Text="After click">
-			<Icon CssClass="rbRemove" />
+		<telerik:ButtonToggleState Text="State two">
+			<Icon CssClass="rbCancel" />
 		</telerik:ButtonToggleState>
 	</ToggleStates>
 </telerik:RadToggleButton>
