@@ -96,9 +96,12 @@ $(function() {
            var control = text.split(':')[0].trim();
            if (/^Telerik/.test(text)) {
                lastIndexOf = control.lastIndexOf(".");
-               treeNode
+			   if(window.location.href.indexOf("devtools/aspnet-ajax/api/client") < 0)
+			   {
+                 treeNode
                    .append("<a href='/devtools/aspnet-ajax/api/server/" + control.substring(0, lastIndexOf) + "/"
                    + control.substring(++lastIndexOf) + "'/>");
+			   }
            }
 
            if (index !== 0) {
@@ -111,17 +114,19 @@ $(function() {
         .end()
         .kendoTreeView();
         var treeView = $("#inheritance-tree").data('kendoTreeView');
-        
-        treeView.items().each(function (index, node) {
-            var item = $(this);
-            var text = item.find('a').text();
-            var componentParts = text.split(':');
-            var control = componentParts[0].trim();
-            var interfaces = componentParts[1];
-            interfaces = (interfaces) ? (": " + interfaces.trim()) : "";
-            item.find('a').text(control);
-            item.append(interfaces);
-        });
+        if(window.location.href.indexOf("devtools/aspnet-ajax/api/client") < 0)
+		{
+            treeView.items().each(function (index, node) {
+				var item = $(this);
+				var text = item.find('a').text();
+				var componentParts = text.split(':');
+				var control = componentParts[0].trim();
+				var interfaces = componentParts[1];
+				interfaces = (interfaces) ? (": " + interfaces.trim()) : "";
+				item.find('a').text(control);
+				item.append(interfaces);
+			});
+		}
     $("div.tabbedCode").each(function() {
         var container = $(this);
         var langs = container.find("pre");
