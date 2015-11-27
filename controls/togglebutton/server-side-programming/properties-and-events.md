@@ -83,7 +83,15 @@ position: 0
 
 | Property | Description |
 | ------ | ------ |
-| **OnClick** |raised when the RadToggleButton is clicked. (AutoPostBack=true)|
-| **OnCommand** |raised when the RadToggleButton has Command specified.|
-| **OnToggleStateChanged** |raised when the state of the RadToggleButton has changed.|
+| **OnClick** |Raised when the RadToggleButton performs a postback.|
+| **OnCommand** |Raised when the RadToggleButton performs a postback.|
+| **OnToggleStateChanged** |Raised when the state of the RadToggleButton has changed.|
+
+The event order is:
+
+1. OnToggleStateChanged
+
+1. OnClick
+
+1. OnCommand
 
