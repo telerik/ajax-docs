@@ -14,13 +14,13 @@ This article demonstrates how to enable and use the WAI-ARIA support of the **Ra
 
 The [WAI-ARIA Suite](http://www.w3.org/WAI/intro/aria) defines an approach to make web content and web applications more accessible to people with disabilities. **RadToggleButton** offers WAI-ARIA support.
 
-In order to enable the WAI-ARIA support, set the **RadToggleButton** control's `EnableAriaSupport` property to `true` and set the inner properties of the `AriaSettings` composite tag to the desired values as shown in **Example 1**.
+In order to enable the WAI-ARIA support, set the **RadToggleButton** control's `EnableAriaSupport` property to `true` and, optionally, set the inner properties ([DescribedBy](http://www.w3.org/TR/wai-aria/states_and_properties#aria-describedby) and [Label](http://www.w3.org/TR/wai-aria/states_and_properties#aria-label)) of the `AriaSettings` composite tag to the desired values as shown in **Example 1**.
 
 >caption **Example 1**: Enabling WAI-ARIA support for RadToggleButton
 
 ````ASP.NET
 <telerik:RadToggleButton ID="RadToggleButton1" runat="server" EnableAriaSupport="true">
-	<AriaSettings DescribedBy="Described By Value" Label="Label Value" />
+	<AriaSettings DescribedBy="someElementId" Label="Some Label Value" />
 	<ToggleStates>
 		<telerik:ButtonToggleState Text="First state">
 		</telerik:ButtonToggleState>
