@@ -25,6 +25,8 @@ The possible options are:
 
 >important RadNotification, as well as the other controls included in the Telerik UI for ASP.NET AJAX suite that utilize render modes, supports only one type of render mode per page. All such controls must have the same RenderMode on a given page.	This also includes instances from user controls and master pages.
 
+>note RadNotification uses **RadContextMenu** internally and it inherits the notification's `RenderMode`, so it brings its stylesheets to the page and that can affect other **RadContextMenu** and **RadMenu** instances. You can remove the built-in context menu by setting the `Visible` property of the `NotificationMenu` composite tag to `false`.
+
 
 ## Setting Render Mode
 
