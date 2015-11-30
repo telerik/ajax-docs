@@ -3,7 +3,6 @@ title: Overview
 page_title: Overview | RadAjax for ASP.NET AJAX Documentation
 description: Overview
 slug: ajaxmanager/client-side-programming/events/overview
-previous_url: ajax/client-side-programming/events/overview
 tags: overview
 published: True
 position: 0

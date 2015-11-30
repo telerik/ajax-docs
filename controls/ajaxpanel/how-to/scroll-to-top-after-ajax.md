@@ -3,7 +3,6 @@ title: Scroll to Top after AJAX
 page_title: Scroll to Top after AJAX | RadAjax for ASP.NET AJAX Documentation
 description: Scroll to Top after AJAX
 slug: ajaxpanel/how-to/scroll-to-top-after-ajax
-previous_url: ajax/radajaxpanel/how-to/interacting-between-radajaxpanels
 tags: scroll,to,top,after,ajax
 published: True
 position: 1

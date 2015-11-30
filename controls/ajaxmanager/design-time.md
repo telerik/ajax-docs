@@ -3,7 +3,6 @@ title: Design Time
 page_title: Design Time | UI for ASP.NET AJAX Documentation
 description: Design Time
 slug: ajaxmanager/design-time
-previous_url: ajax/design-time
 tags: design,time
 published: True
 position: 3
