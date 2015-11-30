@@ -22,7 +22,11 @@ To read more about the benefits of using Telerik UI for ASP.NET AJAX, please vis
 
 Here are quick links to the control-specific sections of our documentation:
 
-* [Ajax]({%slug ajax/overview%})
+* [AjaxLoadingPanel]({%slug ajaxloadingpanel/overview%})
+
+* [AjaxManager]({%slug ajaxmanager/overview%})
+
+* [AjaxPanel]({%slug ajaxpanel/overview%})
 
 * [Async Upload]({%slug asyncupload/overview%})
 
