@@ -12,7 +12,7 @@ position: 4
 
 
 
-Styles for Telerik controls are defined using Cascading Style Sheet (CSS) syntax. Each style consists of a selector that identifies an HTML element to be styled, and property/value pairs that describe each of the style specifics, e.g. color, padding, margins, etc. For example, the **.RadLightBox_Default** style defines the default color and font styles for the entire calendar control:
+Styles for Telerik controls are defined using Cascading Style Sheet (CSS) syntax. Each style consists of a selector that identifies an HTML element to be styled, and property/value pairs that describe each of the style specifics, e.g. color, padding, margins, etc. For example, the **.RadLightBox_Default** style defines the default color and font styles for the entire control:
 
 ````CSS
 .RadLightBox_Default
