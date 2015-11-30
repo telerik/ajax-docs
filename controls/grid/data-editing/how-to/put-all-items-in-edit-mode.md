@@ -16,6 +16,9 @@ position: 3
 
 There are cases in which you may want to force the grid items in edit mode when the grid displays initially on the page.This is a straightforward task. You simply need to attach to the **PreRender** event of the control, traverse the items in the grid, detect those which are editable and set their **Edit** property to **true**. After traversing all items and performing this operation, you have to rebind the grid (calling explicitly its **Rebind()** method) to reflect the changes.
 
+>note Keep in mind you need to enable multi row editing by setting RadGrid's **AllowMultiRowEdit** property to **true**.
+>
+
 In the code-behind:
 
 
