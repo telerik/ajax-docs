@@ -83,6 +83,17 @@ function onExpand(e) {
     }
 }
 
+function buildControlPath(control) {
+    var lastIndexOf = control.lastIndexOf(".");
+    var nameSpace = control.substring(0, lastIndexOf);
+    var controlName;
+
+    lastIndexOf++;
+    controlName = control.substring(lastIndexOf);
+
+    return nameSpace + "/" + controlName;
+}
+
 $(function() {
 
    $("#inheritance-hierarchy")
@@ -92,15 +103,11 @@ $(function() {
         .each(function (index, node) {
            var treeNode = $(node).attr("data-expanded", "true");
            var text = treeNode.text();
-           var lastIndexOf;
            var control = text.split(':')[0].trim();
            if (/^Telerik/.test(text)) {
-               lastIndexOf = control.lastIndexOf(".");
-			   if(window.location.href.indexOf("devtools/aspnet-ajax/api/client") < 0)
-			   {
+			   if(window.location.href.indexOf("devtools/aspnet-ajax/api/client") < 0){
                  treeNode
-                   .append("<a href='/devtools/aspnet-ajax/api/server/" + control.substring(0, lastIndexOf) + "/"
-                   + control.substring(++lastIndexOf) + "'/>");
+                   .append("<a href='/devtools/aspnet-ajax/api/server/" + buildControlPath(control) + "'/>");
 			   }
            }
 
@@ -114,8 +121,7 @@ $(function() {
         .end()
         .kendoTreeView();
         var treeView = $("#inheritance-tree").data('kendoTreeView');
-        if(window.location.href.indexOf("devtools/aspnet-ajax/api/client") < 0)
-		{
+        if (window.location.href.indexOf("devtools/aspnet-ajax/api/client") < 0 && treeView){
             treeView.items().each(function (index, node) {
 				var item = $(this);
 				var text = item.find('a').text();
