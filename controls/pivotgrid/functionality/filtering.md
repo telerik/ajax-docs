@@ -56,6 +56,77 @@ They also expect and aggregate field and a filter value as part of the overall f
 
 When a **Top/Bottom** value filter is applied to a given field with the **Items** mode, it will select the top/bottom groups for that field sorted by the chosen aggregate field and the count of which is given by the filter value. For example, a Top operator with and Items filter value of 10 on the **Sum of Cost** aggregate field will return the 10 groups (of the field filtered on) which Sum of Cost is greatest. The **Percent** mode will return the top/bottom groups which cumulative aggregate values (just to remind: the aggregate field being set as part of the filter condition) add to the specified percent of the grand total for that field. The **Sum** mode, in a similar fashion, gets the top/bottom groups which cumulative aggregate values add to the sum specified by the filter value.
 
+## Apply Default Filter on Initial Load
+
+You can set the initial filter for a **RadPivotGrid** control so that when the Web page is first loaded, it presents an already-filtered set of data. You can filter by label and by value on the server by using **FilterByLabel** and **FilterByValue** methods. 
+
+**FilterByLabel**: 
+
+````C#
+protected override void OnPreRender(EventArgs e)
+{
+    base.OnPreRender(e);
+    RadPivotGrid1.FilterByLabel(PivotGridFilterFunction.Contains, RadPivotGrid1.Fields["Cost"], "filter value");
+}
+````
+````VB.NET
+Protected Overrides Sub OnPreRender(e As EventArgs)
+    MyBase.OnPreRender(e)
+    RadPivotGrid1.FilterByLabel(PivotGridFilterFunction.Contains, RadPivotGrid1.Fields("Cost"), "filter value")
+End Sub
+````
+
+````C#
+protected override void OnPreRender(EventArgs e)
+{
+    base.OnPreRender(e);
+    RadPivotGrid1.FilterByLabel(PivotGridFilterFunction.IsNotBetween, RadPivotGrid1.Fields["Cost"], "filter value", "beetween filter value");
+}
+````
+````VB.NET
+Protected Overrides Sub OnPreRender(e As EventArgs)
+    MyBase.OnPreRender(e)
+    RadPivotGrid1.FilterByLabel(PivotGridFilterFunction.IsNotBetween, RadPivotGrid1.Fields("Cost"), "filter value", "beetween filter value")
+End Sub
+````
+
+**FilterByValue**: 
+
+````C#
+protected override void OnPreRender(EventArgs e)
+{
+    base.OnPreRender(e);
+    RadPivotGrid1.FilterByValue(PivotGridFilterFunction.BeginsWith,
+        RadPivotGrid1.Fields["Line"],
+        RadPivotGrid1.Fields["Total"] as PivotGridAggregateField,
+        "filter value");
+}
+````
+````VB.NET
+Protected Overrides Sub OnPreRender(e As EventArgs)
+    MyBase.OnPreRender(e)
+    RadPivotGrid1.FilterByValue(PivotGridFilterFunction.BeginsWith, RadPivotGrid1.Fields("Line"), TryCast(RadPivotGrid1.Fields("Total"), PivotGridAggregateField), "filter value")
+End Sub
+````
+
+````C#
+protected override void OnPreRender(EventArgs e)
+{
+    base.OnPreRender(e);
+    RadPivotGrid1.FilterByValue(PivotGridFilterFunction.IsBetween,
+        RadPivotGrid1.Fields["Line"],
+        RadPivotGrid1.Fields["Total"] as PivotGridAggregateField,
+        "filter value",
+        "between filter value");
+}
+````
+````VB.NET
+Protected Overrides Sub OnPreRender(e As EventArgs)
+    MyBase.OnPreRender(e)
+    RadPivotGrid1.FilterByValue(PivotGridFilterFunction.IsBetween, RadPivotGrid1.Fields("Line"), TryCast(RadPivotGrid1.Fields("Total"), PivotGridAggregateField), "filter value", "between filter value")
+End Sub
+````
+
 ## Filter dialogues
 
 RadPivotGrid’s filtering UI consists of two dialogues. The one that opens first upon clicking a given field’s filter button allows the construction of set, label and value filters. If, however, a Top value filter is selected and extra filter dialogue is opened to take in additional parameters that are mandatory for the filter expression and have been explained above in *Special filter* functions.
