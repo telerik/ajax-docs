@@ -53,12 +53,66 @@ Protected Sub Page_Init(sender As Object, e As EventArgs)
 End Sub
 ````
 
+For a data-bound scenario you can use the `SelectedToggleStateIndex` of the control (**Example 3**).
+
+>caption Example 3: Databind the selected state of RadToggleButton.
+
+````ASP.NET
+<telerik:RadGrid runat="server" ID="RadGrid1" Width="150px">
+	<MasterTableView AutoGenerateColumns="false">
+		<Columns>
+			<telerik:GridTemplateColumn DataField="SelectToggleStateField" HeaderText="SelectToggleStateField">
+				<ItemTemplate>
+					<telerik:RadToggleButton runat="server" ID="RadToggleButton1" SelectedToggleStateIndex='<%#Eval("SelectState") %>'>
+						<ToggleStates>
+							<telerik:ButtonToggleState Text="State 1">
+							</telerik:ButtonToggleState>
+							<telerik:ButtonToggleState Text="State 2">
+							</telerik:ButtonToggleState>
+							<telerik:ButtonToggleState Text="State 3">
+							</telerik:ButtonToggleState>
+						</ToggleStates>
+					</telerik:RadToggleButton>
+				</ItemTemplate>
+			</telerik:GridTemplateColumn>
+		</Columns>
+	</MasterTableView>
+</telerik:RadGrid>
+```` 
+````C#
+public void Page_Init(object sender, System.EventArgs e)
+{
+	if (!IsPostBack)
+	{
+		DataTable dt = new DataTable();
+		dt.Columns.Add("SelectState", typeof(int));
+		dt.Rows.Add(0);
+		dt.Rows.Add(1);
+		dt.Rows.Add(2);
+		RadGrid1.DataSource = dt;
+	}
+}
+````
+````VB
+Public Sub Page_Init(sender As Object, e As System.EventArgs)
+	If Not IsPostBack Then
+		Dim dt As New DataTable()
+		dt.Columns.Add("SelectState", GetType(Integer))
+		dt.Rows.Add(0)
+		dt.Rows.Add(1)
+		dt.Rows.Add(2)
+		RadGrid1.DataSource = dt
+	End If
+End Sub
+````
+
+>warning `SelectedToggleStateIndex` property will not take effect if directly assigned with a value in the markup. The `SelectedToggleStateIndex` property takes effect only when set from the code behind or integrated in a data-bound scenario in the markup (**Example 3**). 
 
 ## Get Selected Toggle State Server-Side
 
 To get the selected toggle state and selected toggle state index you can use the `SelectedToggleState` and `SelectedToggleStateIndex` properties of the **RadToggleButton** control.
 
->caption Example 3: Get `SelectedToggleState` and `SelectedToggleStateIndex` of **RadToggleButton** from the code behind. 
+>caption Example 4: Get `SelectedToggleState` and `SelectedToggleStateIndex` of **RadToggleButton** from the code behind. 
 
 ````ASP.NET
 <telerik:RadToggleButton runat="server" ID="RadToggleButton1" OnToggleStateChanged="RadToggleButton1_ToggleStateChanged">
@@ -89,9 +143,9 @@ End Sub
 
 The selected toggle state reference provides all its properties (e.g., `Value`, `Text`, `CommandName`) and inner tags (`Icon` and `Image`).
 
->tip You can also get the `SelectedToggleState`, `SelectedToggleStateIndex` and the corresponding properties (e.g., `Value`, `Text`, `CommandName`, `CommandArgument`) of the selected toggle state from the arguments of the `OnToggleStateChanged` event (**Example 4**).
+>tip You can also get the `SelectedToggleState`, `SelectedToggleStateIndex` and the corresponding properties (e.g., `Value`, `Text`, `CommandName`, `CommandArgument`) of the selected toggle state from the arguments of the `OnToggleStateChanged` event (**Example 5**).
 
->caption Example 4: Get `SelectedToggleState`, `SelectedToggleStateIndex`, `CommandName` and `CommandArgument` of the `ToggleButtonStateChangedEventArgs` event arguments. 
+>caption Example 5: Get `SelectedToggleState`, `SelectedToggleStateIndex`, `CommandName` and `CommandArgument` of the `ToggleButtonStateChangedEventArgs` event arguments. 
 
 
 ````C#
@@ -114,7 +168,7 @@ End Sub
 
 You can select a particular toggle state of **RadToggleButton** by passing the corresponding index in the `set_selectedToggleStateIndex()` method of the control.
 
->caption Example 5: Select a toggle state on the client-side.
+>caption Example 6: Select a toggle state on the client-side.
 
 ````JavaScript
 var toggleButton = $find("<%=RadToggleButton1.ClientID%>");
@@ -126,7 +180,7 @@ toggleButton.set_selectedToggleStateIndex(0);
 
 You can obtain the toggle states, selected toggle state and selected toggle state index of **RadToggleButton** through the `get_toggleStates()`, `get_selectedToggleState()`, and `get_selectedToggleStateIndex()` methods.
 
->caption Example 6: Reference toggle states, selected toggle state and selected toggle state index of **RadToggleButton** through its client-side API. 
+>caption Example 7: Reference toggle states, selected toggle state and selected toggle state index of **RadToggleButton** through its client-side API. 
 
 ````JavaScript
 var toggleButton = $find("<%=RadToggleButton1.ClientID%>");
