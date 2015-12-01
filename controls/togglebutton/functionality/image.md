@@ -10,9 +10,7 @@ position: 1
 
 # Image
 
-This help article illustrates how to configure **RadToggleButton** with images for its different states.
-
-## Configuration
+This help article illustrates how to put an **image** in a toggle state of **RadToggleButton**.
 
 To define an image in **RadToggleButton** you should set the path to the image inside the **Image.Url** property of each toggle state (**Example 1**). You can also show text over the image by simply setting it in the **Text** property.
 
@@ -40,7 +38,9 @@ You can control the image dimensions through the **Width** and **Height** proper
 </telerik:RadToggleButton>
 ```` 
 
->note The Background-size of the image is controlled through the **Image.Sizing** property.
+>tip The Background-size of the image is controlled through the **Image.Sizing** property.
+
+>note If you add toggle states with and witout images, the RadToggleButton control will no longer be considered a button but a custom image. Thus, the borders and default backgrounds of the non-image toggle state will be lost and the appearance of the control will change.
 
 ## Hovered, Active and Disabled States
 
