@@ -30,6 +30,8 @@ position: 0
 | **OnClientClicked** |Sets a name of a JavaScript function that will be called when the RadToggleButton is clicked, after the OnClientClicking event.|
 | **OnClientMouseOver** |Sets a name of a JavaScript function that will be called when the mouse pointer hovers over the RadToggleButton|
 | **OnClientMouseOut** |Sets a name of a JavaScript function that will be called when the mouse pointer leaves the RadToggleButton|
+| **OnClientToggleStateChanging** |Sets a name of a JavaScript function that will be called prior to the RadToggleButton state change. The event is cancelable.|
+| **OnClientToggleStateChanged** |Sets a name of a JavaScript function that will be called when the RadToggleButton state is changed, after the OnClientToggleStateChanging event.|
 | **UseSubmitBehavior** |Gets or sets a bool value indicating whether the RadToggleButton control uses the client browser's submit mechanism or the ASP.NET postback mechanism.|
 | **Value** | Value associated with the button.|
 | **Width** |  Sets the Width of the button.|
