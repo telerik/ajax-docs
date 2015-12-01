@@ -20,7 +20,7 @@ To apply a skin to a **RadToggleButton** control, set its **Skin** property.
 
 ## Using Custom Images in a State
 
-**RadToggleButton** allows the developer to use a custom image for a state. Once this is done, the entire control is considered a custom image and it will no longer have the default push button appearance (border and backgrounds). Thus, if you mix push button states and image states, the push button states will look like plain text on the page.
+**RadToggleButton** allows the developer to use a [custom image for a state]({%slug togglebutton/functionality/image%}). Once this is done, the entire control is considered a custom image and it will no longer have the default push button appearance (border and backgrounds). Thus, if you mix push button states and image states, the push button states will look like plain text on the page.
 
 ## Customizing Skins
 
@@ -39,3 +39,5 @@ The stylesheet for a **RadToggleButton** skin has the name **Button.[SkinName].c
  * [Create a Custom Skin]({%slug togglebutton/appearance-and-styling/create-a-custom-skin%})
 
  * [Primary and Secondary Action Buttons]({%slug togglebutton/appearance-and-styling/primary-and-secondary-action-buttons%})
+ 
+ * [Image]({%slug togglebutton/functionality/image%})
