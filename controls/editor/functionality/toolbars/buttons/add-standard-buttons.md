@@ -57,7 +57,12 @@ As in earlier versions of RadEditor, you can configure the toolbar using a Tools
 
 ## Setting Tools Programmatically in the Code-Behind
 
+Creating tools programmatically will replace the default toolsfile RadEditor loads and only the tools you added will remain. If you want to keep the original set of tools and add your own after them, call the `EnsureToolsFileLoaded` method first.
+
 ````C#
+//uncomment this line to first load the default tools
+//RadEditor3.EnsureToolsFileLoaded();
+
 EditorToolGroup main = new EditorToolGroup();
 RadEditor3.Tools.Add(main);
 EditorTool bold= new EditorTool();
@@ -73,6 +78,9 @@ underline.Name = "Underline";underline.ShortCut = "CTRL+U";
 main.Tools.Add(underline);	
 ````
 ````VB
+'uncomment this line to first load the default tools
+'RadEditor3.EnsureToolsFileLoaded()
+
 RadEditor1.Tools.Clear()
 Dim main As New EditorToolGroup()
 RadEditor1.Tools.Add(main)

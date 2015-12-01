@@ -22,6 +22,7 @@ RadEditor provides 4 different ways to configure the toolbars:
 
 ## Setting the tools in the RadEditor's declaration:
 
+
 ````ASP.NET
 <telerik:RadEditor runat="server" ID="RadEditor1">
 	<Tools>
@@ -33,6 +34,8 @@ RadEditor provides 4 different ways to configure the toolbars:
 	</Tools>
 </telerik:RadEditor>
 ````
+
+>note The selected ToolsFile or the built-in default tools file will not be loaded if you set the Tools collection in the control tag.
 
 ## Setting the tools via the ToolsFile property - the same way as in the previous versions of the control:
 
@@ -53,37 +56,59 @@ You can add any number of custom buttons using the sample code below. All you ne
 
 ## Setting the tools programmatically in the code-behind:
 
+Creating tools programmatically will replace the default toolsfile RadEditor loads and only the tools you added will remain. If you want to keep the original set of tools and add your own after them, call the `EnsureToolsFileLoaded` method first.
+
+
 ````C#
-EditorToolGroup main = new EditorToolGroup();
-RadEditor3.Tools.Add(main);
-EditorTool custom1 = new EditorTool();
-custom1.Name = "Custom1";
-custom1.ShortCut = "CTRL+1";
-main.Tools.Add(custom1);
-EditorTool custom2 = new EditorTool();
-custom2.Name = "Custom2";
-custom2.ShortCut = "CTRL+2";
-main.Tools.Add(custom2);
-EditorTool custom3 = new EditorTool();
-custom3.Name = "Custom3";
-custom3.ShortCut = "CTRL+3";
-main.Tools.Add(custom3);
+protected void Page_Load(object sender, EventArgs e)
+{
+	if (!IsPostBack)
+	{
+		//uncomment this line to first load the default tools
+		//RadEditor3.EnsureToolsFileLoaded();
+
+		EditorToolGroup main = new EditorToolGroup();
+		RadEditor3.Tools.Add(main);
+		EditorTool custom1 = new EditorTool();
+		custom1.Name = "Custom1";
+		custom1.ShortCut = "CTRL+1";
+		main.Tools.Add(custom1);
+		EditorTool custom2 = new EditorTool();
+		custom2.Name = "Custom2";
+		custom2.ShortCut = "CTRL+2";
+		main.Tools.Add(custom2);
+		EditorTool custom3 = new EditorTool();
+		custom3.Name = "Custom3";
+		custom3.ShortCut = "CTRL+3";
+		main.Tools.Add(custom3);
+	}
+}
 ````
 ````VB
-Dim main As New EditorToolGroup()
-RadEditor3.Tools.Add(main)
-Dim custom1 As New EditorTool()
-custom1.Name = "Custom1"
-custom1.ShortCut = "CTRL+1"
-main.Tools.Add(custom1)
-Dim custom2 As New EditorTool()
-custom2.Name = "Custom2"
-custom2.ShortCut = "CTRL+2"
-main.Tools.Add(custom2)
-Dim custom3 As New EditorTool()
-custom3.Name = "Custom3"
-custom3.ShortCut = "CTRL+3"
-main.Tools.Add(custom3)
+Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+	If Not IsPostBack Then
+		'uncomment this line to first load the default tools
+		RadEditor3.EnsureToolsFileLoaded()
+
+		Dim main As New EditorToolGroup()
+		RadEditor3.Tools.Add(main)
+		Dim custom1 As New EditorTool()
+		custom1.Name = "Custom1"
+		custom1.ShortCut = "CTRL+1"
+		main.Tools.Add(custom1)
+		Dim custom2 As New EditorTool()
+		custom2.Name = "Custom2"
+		custom2.ShortCut = "CTRL+2"
+		main.Tools.Add(custom2)
+		Dim custom3 As New EditorTool()
+		custom3.Name = "Custom3"
+		custom3.ShortCut = "CTRL+3"
+		main.Tools.Add(custom3)
+	End If
+End Sub
+````
+````ASP.NET
+<telerik:RadEditor ID="RadEditor3" runat="server"></telerik:RadEditor>
 ````
 
 ## Setting the tools by using Theme:
