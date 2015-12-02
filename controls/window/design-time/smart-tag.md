@@ -18,6 +18,11 @@ As of Q2 2015 we have improved the smart tags of our controls by displaying the 
 
 ![radwindow-smart-tag](images/radwindow-smart-tag.png)
 
+>important To edit controls inside the `ContentTemplate` of a **RadWindow**
+>
+1. Click the **Edit Templates** link in the **RadWindow** Smart Tag.
+1. When done, click the **End Template Editing** link in the **RadWindow** Smart Tag to ensure your changes will be applied and saved.
+
 ## Skin
 
 The **Skin** drop-down displays a list of available [skins]({%slug window/appearance-and-styling/skins%}) that you can apply to your **RadWindow**, along with an example of what the title bar looks like for each skin. Assign a skin by selecting the one you want from the list.
