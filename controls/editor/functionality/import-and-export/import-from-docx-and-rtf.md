@@ -43,10 +43,10 @@ You can import Word documents using the **LoadDocxContent()** method for DOCX co
 
 These methods can be used with different overloads to best fit the application scenario:
 
-* **LoadDocxContent(Stream docxStream)**–loads DOCX content from a Stream.
-* **LoadDocxContent(string docxText)**–loads DOCX content from a String.
-* **LoadRtfContent(Stream rtfStream)**–loads RTF content from a Stream.
-* **LoadRtfContent(string rtfText)**–loads RTF content from a String.
+* `LoadDocxContent(Stream docxStream)`—loads DOCX content from a Stream.
+* `LoadDocxContent(string docxText)`—loads DOCX content from a String.
+* `LoadRtfContent(Stream rtfStream)`—loads RTF content from a Stream.
+* `LoadRtfContent(string rtfText)`—loads RTF content from a String.
 
 [You can modify the imported content during runtime by handling the OnImportContent event.](#modifying-the-imported-content)
 
@@ -70,6 +70,30 @@ protected void Page_Load(object sender, EventArgs e)
 Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
 	Using fileStream As New FileStream(Server.MapPath("DocxEditor.docx"), FileMode.Open, FileAccess.Read)
 		RadEditor1.LoadDocxContent(fileStream)
+	End Using
+End Sub
+````
+
+>caption Example 2: Importing RTF content using a Stream
+
+
+````ASP.NET
+<telerik:RadEditor runat="server" ID="RadEditor1">
+</telerik:RadEditor>
+````
+````C#
+protected void Page_Load(object sender, EventArgs e)
+{
+	using (FileStream fileStream = new FileStream(Server.MapPath("RtfEditor.rtf"), FileMode.Open, FileAccess.Read))
+	{
+		RadEditor1.LoadRtfContent(fileStream);
+	}
+}
+````
+````VB
+Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
+	Using fileStream As New FileStream(Server.MapPath("RtfEditor.rtf"), FileMode.Open, FileAccess.Read)
+		RadEditor1.LoadRtfContent(fileStream)
 	End Using
 End Sub
 ````
@@ -109,7 +133,7 @@ These lists explain the basics of the Import Settings RadEditor exposes:
 
 Importing content in the Editor raises the **ImportContent** event that can be handled to accommodate the concrete application requirements. Additional information about the event arguments and how you can use them to interact with the import functionality is available in the [OnImportContent Event]({%slug editor/server-side-programming/events/onimportcontent%}) article.
 
->caption Example 2: Adding an additional paragraph to the [RadFlowDocument]({%slug radwordsprocessing-model-radflowdocument%}) through the **OnImportContent** event
+>caption Example 3: Adding an additional paragraph to the [RadFlowDocument]({%slug radwordsprocessing-model-radflowdocument%}) through the **OnImportContent** event
 
 ````ASPNET
 <telerik:RadEditor runat="server" ID="RadEditor1" OnImportContent="RadEditor1_ImportContent">
