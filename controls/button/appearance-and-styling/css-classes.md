@@ -24,7 +24,7 @@ position: 1
 |.rbSkinnedButton:active|Styles span element that wraps the button active state|
 |.rbSkinnedButton:focus .rbDecorated|Styles RadButton input element focus state|
 |.rbSkinnedButton:active .rbDecorated|Styles RadButton input element active state|
-|.RadButton input.rbDecorated:focus,.RadButton input.rbDecorated::-moz-focus-inner|Remove default focus style|
+|.RadButton input.rbDecorated:focus, .RadButton input.rbDecorated::-moz-focus-inner|Remove default focus style|
 |.rbPrimary|Styles extra space to the left side of the input when Primary Icon is added|
 |.rbPrimaryIconOnly|Styles button when only primary icon is added, without any text|
 |.rbSecondary|Styles extra space to the right side of the input when Secondary Icon is added|
@@ -51,7 +51,7 @@ position: 1
 |.rbToggleCheckbox|Style toggle button checkbox|
 |.rbToggleCheckbox:hover,.rbToggleButton:hover .rbToggleCheckbox|Style toggle button checkbox hover state|
 |.rbToggleCheckboxChecked|Style toggle button checkbox checked|
-|.rbToggleCheckboxChecked:hover,.rbToggleButton:hover .rbToggleCheckboxChecked|Style toggle button checkbox checked hover state|
+|.rbToggleCheckboxChecked:hover, .rbToggleButton:hover .rbToggleCheckboxChecked|Style toggle button checkbox checked hover state|
 |.rbToggleRadio|Style toggle button radio button|
 |.rbToggleRadio:hover, .rbToggleButton:hover .rbToggleRadio|Style toggle button radio button hover state|
 |.rbToggleRadioChecked|Style toggle button radio button checked|
@@ -77,21 +77,21 @@ position: 1
 |.rbTextButton|Styles text button|
 |.rbNativeButton|Sets the button default browser style|
 |.RadButton .rbHiddenImages|Styles class to hide images|
-|.rbAdd,.rbRemove,.rbOk,.rbCancel,.rbUpload,.rbDownload,.rbPrevious,.rbNext,.rbOpen,.rbAttach,.rbSave,.rbConfig,.rbPrint,.rbRefresh,.rbSearch,.rbHelp,.rbCart,.rbEdit,.rbRSS,.rbMail|Classes for predefined Primary and/or Secondary Icons|
+|.rbAdd, .rbRemove, .rbOk, .rbCancel, .rbUpload, .rbDownload, .rbPrevious, .rbNext, .rbOpen, .rbAttach, .rbSave, .rbConfig, .rbPrint, .rbRefresh, .rbSearch, .rbHelp, .rbCart, .rbEdit, .rbRSS, .rbMail|Classes for predefined Primary and/or Secondary Icons|
 
 ## Skin - Specific styles
 
 | CSS Class | Description |
 | ------ | ------ |
-|.RadButton_SkinName.rbSkinnedButton,.RadButton_SkinName.rbDecorated,.RadButton_SkinName.rbVerticalSkinnedButton,.RadButton_SkinName .rbVerticalDecorated,.RadButton_SkinName.rbSplitRight,.RadButton_SkinName.rbSplitLeft|These are the selectors for the background image sprite (ButtonSprites.gif).	This image sprite sets the background for buttons, arrows, split border, vertical button|
-|.RadButton_SkinName.rbToggleCheckbox,.RadButton_SkinName.rbToggleCheckboxChecked,.RadButton_SkinName .rbToggleRadio,.RadButton_SkinName .rbToggleRadioChecked,.RadButton_SkinName .rbToggleCheckboxFilled|These are the selectors for the background image sprite (ToggleSprite.gif). This image	sprite sets background color for radio buttons and checkboxes.|
+|.RadButton_SkinName.rbSkinnedButton, .RadButton_SkinName.rbDecorated, .RadButton_SkinName.rbVerticalSkinnedButton, .RadButton_SkinName .rbVerticalDecorated, .RadButton_SkinName.rbSplitRight, .RadButton_SkinName.rbSplitLeft|These are the selectors for the background image sprite (ButtonSprites.gif).	This image sprite sets the background for buttons, arrows, split border, vertical button|
+|.RadButton_SkinName.rbToggleCheckbox, .RadButton_SkinName.rbToggleCheckboxChecked, .RadButton_SkinName .rbToggleRadio, .RadButton_SkinName .rbToggleRadioChecked, .RadButton_SkinName .rbToggleCheckboxFilled|These are the selectors for the background image sprite (ToggleSprite.gif). This image	sprite sets background color for radio buttons and checkboxes.|
 |.RadButton_SkinName.rbLinkButton|Styles link button – color, border, background color|
 |.RadButton_SkinName.rbLinkButton:hover|Styles link button hover state|
 |.RadButton_SkinName.rbToggleButton|Styles toggle button color|
 |.RadButton_SkinName.rbToggleButton:hover|Styles toggle button hover color|
 |.RadButton_SkinName.rbToggleButton.rbDisabled|Styles toggle button disabled state|
 |.RadButton_SkinName.rbCustomToggle|Styles Custom Toggle button|
-|.RadButton_SkinName.rbLinkButton.rbDisabled,.RadButton_SkinName.rbCustomToggle.rbDisabled,.RadButton_SkinName.rbLinkButton.rbDisabled:hover,.RadButton_SkinName.rbCustomToggle.rbDisabled:hover|Styles Link button and Custom toggle buttons disabled normal and hover states|
+|.RadButton_SkinName.rbLinkButton.rbDisabled, .RadButton_SkinName.rbCustomToggle.rbDisabled, .RadButton_SkinName.rbLinkButton.rbDisabled:hover, .RadButton_SkinName.rbCustomToggle.rbDisabled:hover|Styles Link button and Custom toggle buttons disabled normal and hover states|
 |.RadButton_SkinName.rbSkinnedButtonChecked .rbDecorated|Styles checked button|
 |.RadButton_SkinName.rbSkinnedButtonChecked:hover .rbDecorated|Styles checked button hovered state|
 |.RadButton_SkinName.rbLinkButtonChecked|Styles checked link button|
@@ -113,7 +113,7 @@ position: 1
 |rbPrimaryIcon|Primitive class for Primary icon element inserted inside Button|
 |rbSecondaryIcon|Primitive class for Secondary icon element inserted inside Button|
 |rbIcon:before|Primitive class for font icon wrapper|
-|.rbAdd:before,.rbRemove:before,.rbOk:before,.rbCancel:before,.rbUpload:before,.rbDownload:before,.rbPrevious:before,.rbNext:before,.rbOpen:before,.rbAttach:before,.rbSave:before,.rbConfig:before,.rbPrint:before,.rbRefresh:before,.rbSearch:before,.rbHelp:before,.rbCart:before,.rbEdit:before,.rbRSS:before,.rbMail:before,.rbFB:before,.rbTwitter:before,.rbLinkedIn:before,.rbPinterest,.rbYouTube:before,.rbVimeo:before,.rbBehance:before,.rbDribble:before,.rbGooglePlus:before|Applies specific font character to the Button predefined icons|
+|.rbAdd:before, .rbRemove:before, .rbOk:before, .rbCancel:before, .rbUpload:before, .rbDownload:before, .rbPrevious:before, .rbNext:before, .rbOpen:before, .rbAttach:before, .rbSave:before, .rbConfig:before, .rbPrint:before, .rbRefresh:before, .rbSearch:before, .rbHelp:before, .rbCart:before, .rbEdit:before, .rbRSS:before, .rbMail:before, .rbFB:before, .rbTwitter:before, .rbLinkedIn:before, .rbPinterest, .rbYouTube:before, .rbVimeo:before, .rbBehance:before, .rbDribble:before, .rbGooglePlus:before|Applies specific font character to the Button predefined icons|
 |rbCustomIcon|Applies styles for custom icon element wrapper|
 |rbText|Applies styles for Button text element|
 |rbCheckBox|Applies styles for the checkbox wrapper element|
