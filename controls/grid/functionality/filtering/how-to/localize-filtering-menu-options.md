@@ -12,7 +12,7 @@ position: 1
 
 
 
-## 
+## Localize default filtering menu
 
 You can change the text of the items in the filter menu in the code-behind. This is useful if you want to localize the filter function names or change them to display your own custom text.
 
@@ -53,4 +53,112 @@ Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Han
     Next
 End Sub
 ````
+
+## Localize Excel-like filtering menu
+
+Localization of the Excel-like filtering is pretty much the same as [Localize HeaderContextMenu items]({%slug grid/columns/header-context-menu %}). For this purpose, you can hook **OnPreRenderComlete** event, loop through the menu items and change their text. The following code snippet demonstrates how to achieve that.
+
+````C#
+protected override void OnPreRenderComplete(EventArgs e)
+{
+	RadContextMenu menu = RadGrid1.HeaderContextMenu;
+
+	foreach (RadMenuItem item in menu.Items)
+	{
+		switch (item.Value)
+		{
+			case "SortAsc":
+				item.Text = "Sort ascending";
+				break;
+			case "SortDesc":
+				item.Text = "Sort descending";
+				break;
+			case "SortNone":
+				item.Text = "Clear sorting";
+				break;
+			case "GroupBy":
+				item.Text = "Group by";
+				break;
+			case "UnGroupBy":
+				item.Text = "Ungroup";
+				break;
+			case "ColumnsContainer":
+				item.Text = "Show/Hide columns";
+				break;
+			case "FilterMenuParent":
+				//first condition label
+				LiteralControl lcShowRows = item.Controls[0] as LiteralControl;
+				lcShowRows.Text = "<label class=\"rgHCMShow\">Show rows that:</label>";
+				//first condition RadComboBox
+				RadComboBox firstConditionCombo = item.FindControl("HCFMRCMBFirstCond") as RadComboBox;
+				firstConditionCombo.Text = "No filter is selected";
+				//second condition label
+				LiteralControl lcAnd = item.Controls[3] as LiteralControl;
+				lcAnd.Text = "<label class=\"rgHCMShow\">And also</label>";
+				//second condition RadComboBox
+				RadComboBox secondConditionCombo = item.FindControl("HCFMRCMBSecondCond") as RadComboBox;
+				secondConditionCombo.Text = "No filter is selected";
+				//filter button  
+				Button btnFilter = item.FindControl("HCFMFilterButton") as Button;
+				btnFilter.Text = "Apply filters";
+				//clear filter button   
+				Button btnClearFilter = item.FindControl("HCFMClearFilterButton") as Button;
+				btnClearFilter.Text = "Clear filter";
+				break;
+		}
+	}
+	base.OnPreRenderComplete(e);
+}
+````
+````VB
+Protected Overrides Sub OnPreRenderComplete(e As EventArgs)
+	Dim menu As RadContextMenu = RadGrid1.HeaderContextMenu
+
+	For Each item As RadMenuItem In menu.Items
+		Select Case item.Value
+			Case "SortAsc"
+				item.Text = "Sort ascending"
+				Exit Select
+			Case "SortDesc"
+				item.Text = "Sort descending"
+				Exit Select
+			Case "SortNone"
+				item.Text = "Clear sorting"
+				Exit Select
+			Case "GroupBy"
+				item.Text = "Group by"
+				Exit Select
+			Case "UnGroupBy"
+				item.Text = "Ungroup"
+				Exit Select
+			Case "ColumnsContainer"
+				item.Text = "Show/Hide columns"
+				Exit Select
+			Case "FilterMenuParent"
+				'first condition label
+				Dim lcShowRows As LiteralControl = TryCast(item.Controls(0), LiteralControl)
+				lcShowRows.Text = "<label class=""rgHCMShow"">Show rows that:</label>"
+				'first condition RadComboBox
+				Dim firstConditionCombo As RadComboBox = TryCast(item.FindControl("HCFMRCMBFirstCond"), RadComboBox)
+				firstConditionCombo.Text = "No filter is selected"
+				'second condition label
+				Dim lcAnd As LiteralControl = TryCast(item.Controls(3), LiteralControl)
+				lcAnd.Text = "<label class=""rgHCMShow"">And also</label>"
+				'second condition RadComboBox
+				Dim secondConditionCombo As RadComboBox = TryCast(item.FindControl("HCFMRCMBSecondCond"), RadComboBox)
+				secondConditionCombo.Text = "No filter is selected"
+				'filter button  
+				Dim btnFilter As Button = TryCast(item.FindControl("HCFMFilterButton"), Button)
+				btnFilter.Text = "Apply filters"
+				'clear filter button   
+				Dim btnClearFilter As Button = TryCast(item.FindControl("HCFMClearFilterButton"), Button)
+				btnClearFilter.Text = "Clear filter"
+				Exit Select
+		End Select
+	Next
+	MyBase.OnPreRenderComplete(e)
+End Sub
+````
+
+
 
