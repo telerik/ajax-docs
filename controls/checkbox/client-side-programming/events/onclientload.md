@@ -1,0 +1,53 @@
+---
+title: OnClientLoad
+page_title: OnClientLoad | RadCheckBox for ASP.NET AJAX Documentation
+description: OnClientLoad
+slug: checkbox/client-side-programming/events/onclientload
+tags: onclientload
+published: True
+position: 2
+---
+
+# OnClientLoad
+
+The load event occurs when the RadCheckBox client-side object is instantiated on the page.
+
+The event handler receives two parameters:
+
+1. The instance of the loaded RadCheckBox control.
+
+1. An empty event args.
+
+This event comes handy in scenarios when the user wants to operate with the control's client-side API and events at the earliest available stage.
+
+>caption Example 1: Handling RadCheckBox OnClientLoad event.
+
+````ASP.NET
+<script type="text/javascript">
+	function clientLoad(sender, args) {
+		alert('RadCheckBox Object Loaded');
+	}
+</script>
+<telerik:RadCheckBox ID="RadCheckBox1" runat="server" OnClientLoad="clientLoad">
+	<ToggleStates>
+	    <telerik:ButtonToggleState Text="State 1" />
+	    <telerik:ButtonToggleState Text="State 2" />
+	</ToggleStates>
+</telerik:RadCheckBox>
+````
+
+
+## See Also
+
+ * [ToggleButton - Client-side Events Demo](http://demos.telerik.com/aspnet-ajax/checkbox/client-side-api/client-side-events/defaultcs.aspx)
+
+ * [ToggleButton Object]({%slug checkbox/client-side-programming/checkbox-object%})
+ 
+ * [OnClientClicking]({%slug checkbox/client-side-programming/events/onclientclicking%})
+ 
+ * [OnClientClicked]({%slug checkbox/client-side-programming/events/onclientclicked%})
+ 
+ * [OnClientMouseOver]({%slug checkbox/client-side-programming/events/onclientmouseover%})
+ 
+ * [OnClientMouseOut]({%slug checkbox/client-side-programming/events/onclientmouseout%})
+
