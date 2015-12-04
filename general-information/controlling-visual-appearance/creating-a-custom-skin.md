@@ -28,7 +28,7 @@ In most cases the last option is an unnecessary overhead, unless you need to cre
 
 [read the tool overview on the Telerik website](http://www.telerik.com/aspnet-ajax/visual-style-builder)
 
-[watch videos about the Visual Style Builder](http://tv.telerik.com/search?FilterByTags=Visual-Style-Builder)
+
 
 ## Create a Custom Skin From an Existing Embedded Skin
 
