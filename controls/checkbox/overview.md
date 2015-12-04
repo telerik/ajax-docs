@@ -8,31 +8,21 @@ published: True
 position: 0
 ---
 
-# ToggleButton Overview
+# CheckBox Overview
 
-**RadCheckBox** (**Figure 1**) lets you define several [states]({%slug checkbox/functionality/select-state%}) the button will go through as the user clicks it. Additionally, it provides events, supports Commands, lets you [define icons]({%slug checkbox/functionality/icons/embedded-icons%}) or [images]({%slug checkbox/functionality/image%}) in those states, and has a [mechanism to prevent multiple postbacks]({%slug checkbox/functionality/single-click%}).
+The **RadCheckBox** control (**Figure 1**) enriches the features, that ASP.NET CheckBox control has. Additionally, it provides events, supports Commands and numerous [themes]({%slug checkbox/appearance-and-styling/skins%}). 
 
-The control can be easily styled by changing the **[Skin]({%slug checkbox/appearance-and-styling/skins%})** property, and by setting properties that change the look of the control like the **[Primary]({%slug checkbox/appearance-and-styling/primary-action-button%})** property or any of the properties that control the icons/images in its states.
+The control can be easily styled by changing the **Skin** property. This will eliminate the need to use the [RadFormDecorator]({%slug formdecorator/overview%}), just to style a single checkbox. Developers can easily migrate their applications from using the standard ASP.NET (checkbox) controls to the new **RadCheckBox** control, because most of their functionality is provided by our control, and is controlled by the same or similar (intuitive) properties.
 
 
-
->caption Figure 1: RadCheckBox with two states.
+>caption Figure 1: RadCheckBox configuration.
 
 ![RadButton](images/toggle-button-overview.png)
 
->caption Example 1: A basic example of different states in a RadCheckBox
+>caption Example 1: A basic example of a RadCheckBox setup.
 
 ````ASP.NET
-<telerik:RadCheckBox runat="server" ID="RadCheckBox1">
-	<ToggleStates>
-		<telerik:ButtonToggleState Text="State one">
-			<Icon CssClass="rbOk" />
-		</telerik:ButtonToggleState>
-		<telerik:ButtonToggleState Text="State two">
-			<Icon CssClass="rbCancel" />
-		</telerik:ButtonToggleState>
-	</ToggleStates>
-</telerik:RadCheckBox>
+<telerik:RadCheckBox ID="RadCheckBox1" runat="server" Text="I agree to the Terms of Service"></telerik:RadCheckBox>
 ````
 
 >note **RadCheckBox** does not support a Classic [render mode]({%slug checkbox/mobile-support/render-modes%}). Setting its RenderMode to Classic will default to the Lightweight render mode.
