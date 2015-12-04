@@ -26,7 +26,7 @@ The CandlestickChart can be fully customized:
 
 * The color of the Hollow CandlestickSeriesItems (Open Price < Close Price) of each series is controlled via the **BackgroundColor** property of the **CandlestickSeries -> Appearance -> FillStyle** inner tag. The color the Filled CandlestickSeriesItems (Open Price > Close Price) of each series is controlled via the **DownColor** property of the CandlestickSeries tag.
 
-* The name that is shown in the legend is chosen via the **Name** property of the **CandlestickSeries**.
+* The name that is shown in the legend is set via the `Name` property of the series. You can hide the series from the legend either by omitting it, or by setting the `VisibleInLegend` property to `false`.
 
 * Open, High, Low and Close values of each item are controlled respectively by **Open**, **High**, **Low** and **Close** properties of the **CandlestickSeries**.
 

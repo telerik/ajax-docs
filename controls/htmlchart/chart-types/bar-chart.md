@@ -22,7 +22,7 @@ You can customize the Bar chart in several ways:
 
 * The color of each series is controlled via the **BackgroundColor** property of the **BarSeries > Appearance > FillStyle** inner tag.
 
-* The name that is shown in the legend is set via the **Name** property of the **BarSeries**.
+* The name that is shown in the legend is set via the `Name` property of the series. You can hide the series from the legend either by omitting it, or by setting the `VisibleInLegend` property to `false`.
 
 * The height of a bar is controlled by its **Y** property of the **CategorySeriesItem**.
 

@@ -43,6 +43,7 @@ This help article lists all the properties of the **SeriesItems** collection	for
 | **X** |The value for the x-axis of the chart for an item from a **ScatterSeries** or **BubbleSeries** .|
 | **Y** |The value for the item from any series type. Must be a positive value for a **DonutSeries** , **FunnelSeries** , **PieSeries** , **RadarAreaSeries** , **RadarColumnSeries** and **RadarLineSeries** .|
 | **Visible** |A boolean property that indicates whether the series item will be visible in the **PlotArea** . Applicable for **Donut** , **Pie** and **Funnel** series. For other series the property must be set to the series itself.|
+| **VisibleInLegend** |A boolean property that indicates whether the series name will be visible in the **Legend** . Applicable for **Donut** , **Pie** and **Funnel** series. For other series the property must be set to the series itself.|
 
 ## Configure SeriesItems in the Code-behind
 

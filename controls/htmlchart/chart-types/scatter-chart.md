@@ -20,7 +20,7 @@ You can fully customize the Scatter chart:
 
 * The color of each series is controlled via the **BackgroundColor** property of the **ScatterSeries > Appearance > FillStyle** inner tag.
 
-* The name that is shown in the legend is set via the **Name** property of the **ScatterSeries**.
+* The name that is shown in the legend is set via the `Name` property of the series. You can hide the series from the legend either by omitting it, or by setting the `VisibleInLegend` property to `false`.
 
 * The position of each item on the y-axis is controlled by its **Y** property of the **ScatterSeriesItem**. The position according to the x-axis is set with the **X** property.
 

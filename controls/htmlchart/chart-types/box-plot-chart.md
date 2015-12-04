@@ -36,7 +36,7 @@ You can customize the Box Plot Chart:
 
 * The color of the **BoxPlotSeriesItem** of each series is controlled via the **BackgroundColor** property of the **BoxPlotSeries -> Appearance -> FillStyle** inner tag for a declaratively/programmatically created chart. For a data bound chart, you can use the **ColorField** property.
 
-* The name that is shown in the legend is chosen via the **Name** property of the **BoxPlotSeries**.
+* The name that is shown in the legend is set via the `Name` property of the series. You can hide the series from the legend either by omitting it, or by setting the `VisibleInLegend` property to `false`.
 
 * Lower value, first quartile, median, third quartile, upper value, mean and outliers of each item are controlled respectively by:
 

@@ -20,7 +20,7 @@ You can customize a Column chart in several ways:
 
 * The color of each series is controlled via the **BackgroundColor** property of the **ColumnSeries > Appearance > FillStyle** inner tag.
 
-* The name that is shown in the legend is set via the **Name** property of the **ColumnSeries**.
+* The name that is shown in the legend is set via the `Name` property of the series. You can hide the series from the legend either by omitting it, or by setting the `VisibleInLegend` property to `false`.
 
 * The height of a column is controlled by its **Y** property of the **CategorySeriesItem**.
 

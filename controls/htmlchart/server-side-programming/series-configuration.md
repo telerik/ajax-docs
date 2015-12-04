@@ -69,6 +69,7 @@ More information on the series properties is available below.
 | **DataQ3Field** |The field of the data source that will be used for the value of the third quartile of **BoxPlotSeries** .|
 | **DataRadiusField** |The field of the data source that will be used for the **Radius** value for **PolarAreaSeries** , **PolarLineSeries** and **PolarScatterSeries** .|
 | **DataUpperField** |The field of the data source that will be used for the upper value of **BoxPlotSeries** .|
+| **DataVisibleInLegendField** |The field of the data source that will be used for the visibility of the **FunnelSeries**, **PieSeries** and **DonutSeries** items name in the legend.|
 | **DownColor** |The background color of the filled items from the **CandlestickSeries** having their **Close** price lower than the **Open** one. Can take a common color name or a hex value. If it is not set explicitly, the control will pick one according to the skin it has set.|
 | **DynamicHeightEnabled** |A boolean property that indicates whether all the segments from **FunnelSeries** will share the same size (when **DynamicHeightEnabled** =" **false** ") or the height of each segment is determined according to its value (when **DynamicHeightEnabled** =" **true** "). Default value is **True** .|
 | **DynamicSlopeEnabled** |A boolean property that indicates whether the form of each segment from **FunnelSeries** will be based on the ratio between the value from the current and the next segment. Default value is **False** .|
@@ -84,6 +85,7 @@ More information on the series properties is available below.
 | **Stacked** |Determines whether the **BarSeries** or **ColumnSeries** in the chart will be stacked next to/above each other. You must set this property for the first series of the chart to have effect.Setting this property is not required if the Series are stacked and grouped through the **GroupName** property.You may also need to adjust the maximum value of the y-axis to acoomodate the addition of all the series one row if **Min** / **Max** are hardcoded for it.|
 | **StartAngle** |The starting angle for the first **PieSeries** / **DonutSeries** item. The zero point is horizontal to the left and the positive direction is clockwise.|
 | **Visible** |A boolean property that indicates whether the series will be visible in the **PlotArea** . For **Donut** , **Pie** and **Funnel** series the property must be set on the items.|
+| **VisibleInLegend** |A boolean property that indicates whether the series name will be visible in the **Legend** . For **Donut** , **Pie** and **Funnel** series the property must be set on the items.|
 | **ZIndex** |A numeric property that indicates the order of the series.|
 
 ## Attribute Properties in [SeriesType] > Appearance > FillStyle

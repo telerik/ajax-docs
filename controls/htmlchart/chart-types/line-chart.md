@@ -22,7 +22,7 @@ You can customize the Line chart:
 
 * The width of the line in each series is controlled via the **Width** property of the **LineSeries > LineAppearance** tag.
 
-* The name that is shown in the legend is set via the **Name** property of the **ColumnSeries**.
+* The name that is shown in the legend is set via the `Name` property of the series. You can hide the series from the legend either by omitting it, or by setting the `VisibleInLegend` property to `false`.
 
 * The position of each item on the Y-axis is controlled by its **Y** property of the **CategorySeriesItem** and each **CategorySeriesItem** is placed with regard to one **AxisItem** on the X-axis.
 

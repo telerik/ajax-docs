@@ -20,7 +20,7 @@ You can customize a Donut chart.
 
 * The color is controlled via the **BackgroundColor** property of the **PieSeriesItem**.
 
-* The name that is shown in the legend is set via the **Name** property of the **PieSeriesItem**.
+* The name that is shown in the legend is set via the `Name` property of the series item. You can hide the series item from the legend either by omitting it, or by setting the `VisibleInLegend` property to `false`.
 
 * Whether the sector is separated from the rest of the circle is controlled via the **Exploded** property of the **PieSeriesItem**. This and the Pie chart are the only chart types in whose context the **Exploded** property is meaningful and will have effect.
 

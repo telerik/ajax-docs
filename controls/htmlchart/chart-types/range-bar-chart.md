@@ -28,7 +28,7 @@ The following list shows the most common areas and elements of the Range Bar cha
 
 * The fill color of each series is controlled via the **BackgroundColor** property of the **RangeBarSeries > Appearance > FillStyle** inner tag.
 
-* The name that is shown in the legend is set via the **Name** property of the **RangeBarSeries**.
+* The name that is shown in the legend is set via the `Name` property of the series. You can hide the series from the legend either by omitting it, or by setting the `VisibleInLegend` property to `false`.
 
 * The position of each item on the y-axis is controlled by its **From** and **To** properties of the **RangeSeriesItem**. Each **RangeSeriesItem** is placed with regard to one **AxisItem** on the x-axis.
 

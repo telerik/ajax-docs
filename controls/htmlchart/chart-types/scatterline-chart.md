@@ -22,7 +22,7 @@ You can customize the ScatterLine chart:
 
 * The width of the line in each series is controlled via the **Width** property of the **ScatterLineSeries -> LineAppearance** tag.
 
-* The name that is shown in the legend is set via the **Name** property of the **ScatterLineSeries**
+* The name that is shown in the legend is set via the `Name` property of the series. You can hide the series from the legend either by omitting it, or by setting the `VisibleInLegend` property to `false`.
 
 * The position of each item on the y-axis is controlled by its **Y** property of the **ScatterSeriesItem** and the position of those items according to the x-axis is set with the **X** property.
 

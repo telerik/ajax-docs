@@ -30,7 +30,7 @@ The following list shows the most common areas and elements of the Area chart th
 
 * The width of the line in each series is controlled via the **Width** property of the **AreaSeries > LineAppearance** tag.
 
-* The name that is shown in the legend is set via the **Name** property of the **AreaSeries**.
+* The name that is shown in the legend is set via the `Name` property of the series. You can hide the series from the legend either by omitting it, or by setting the `VisibleInLegend` property to `false`. 
 
 * The position of each item on the y-axis is controlled by its **Y** property of the **CategorySeriesItem** and each **CategorySeriesItem** is placed with regard to one **AxisItem** on the x-axis.
 
