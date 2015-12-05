@@ -89,3 +89,15 @@ Here bellow is shown a possible workaround with **JavaScript**:
 ````
 
 
+## Recommended RowHeight property values
+
+Here are the recommended RowHeight property values for some of the Scheduler's skins, which should prevent misalignments and other appearance issues:
+
+* Default: 25
+
+* "BlackMetroTouch", "MetroTouch": 32
+
+* "Glow", "Silk": 25
+
+* "Bootstrap": 30
+
