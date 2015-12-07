@@ -14,7 +14,9 @@ position: 4
 
 The **StandardButton** (**RadButton** with **ButtonType**="**StandardButton**") has a fixed height, which by default is 22px.
 
-In Q1, 2011 we introduced a way to have a **StandardButton** with a height of 65px (**Figure 1**). This allows you to use bigger icons (24x24 pixels), and to place the content (icons and text) horizontally or vertically.
+As of Q1 2011 a **StandardButton** can have its height set to 65px (**Figure 1**). This allows you to use bigger icons (24x24 pixels), and to place the content (icons and text) horizontally or vertically.
+
+>tip This article applies to the Classic [Render Node]({%slug button/mobile-support/render-modes%}). The **Lightweight** render mode supports [fluid design]({%slug button/mobile-support/fluid-design%}) so you can set its height as desired. Since a CSS gradient is used for the backround, the browser will stretch it accordingly, as opposed to the image sprite the Classic mode uses.
 
 >caption Example 1: Configure a custom height of 65px for the **RadButton** with **ButtonType="StandardButton"**).
 
