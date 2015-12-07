@@ -33,8 +33,8 @@ To customize RadComboBox items, this example uses an item [template]({%slug comb
 				<img src='Images/<%# DataBinder.Eval(Container, "Attributes['ImagePath']") %>' alt="" />
 			</td>
 			<td>
-				<%# DataBinder.Eval(Container"Attributes['DisplayName']") %>
-				(<%# DataBinder.Eval(Container"Text") %>)
+				<%# DataBinder.Eval(Container, "Attributes['DisplayName']") %>
+				(<%# DataBinder.Eval(Container, "Text") %>)
 			</td>
 		</tr>
 	</table>
