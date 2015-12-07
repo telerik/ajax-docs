@@ -31,10 +31,16 @@ To create a new tile group drag the tile to the gap between two existing groups 
 
 ![tile List-drag-drop-new-group-indicator](images/tileList-drag-drop-new-group-indicator.jpg)
 
->tip You can use the [RadPersistenceFramework]({%slug persistenceframework/overview%}) to store the order and selected state of tiles for your end users, so they can customize the appearance of their TileList.
+>tip You can use [RadPersistenceFramework]({%slug persistenceframework/overview%}) to [store and load the order and selected state of tiles]({%slug tilelist/how-to/save-and-load-state%}) for your end users, so they can customize the appearance of their TileList.
 
 
 
 >tip If you want to capture certain events in the tiles' content (e.g., input elements in a RadContentTemplateTile), you need to prevent the mousedown event bubbling for these elements because otherwise it will initiate a tile drag and get cancelled. You can find examples in the [Drag and Drop with ContentTemplateTile that has input elements](http://www.telerik.com/support/kb/aspnet-ajax/tilelist/details/drag-and-drop-with-contenttemplatetile-input-elements) KB article.
+
+## See Also
+
+* [Live Demo: Persisting TileList Settings](http://demos.telerik.com/aspnet-ajax/tilelist/examples/application-scenarios/persisting-tilelist-settings/defaultcs.aspx)
+
+* [Save and Load State]({%slug tilelist/how-to/save-and-load-state%})
 
 
