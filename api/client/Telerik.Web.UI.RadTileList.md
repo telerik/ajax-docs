@@ -228,6 +228,16 @@ Clears all group titles
 
 `None`
 
+### updateTileGroupsState
+
+Updates the client state data regarding the visibility and the order of the tiles.
+
+#### Parameters
+
+#### Returns
+
+`None`
+
 ### get_height
 
 Returns the height of the RadTileList element
