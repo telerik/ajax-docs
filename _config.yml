@@ -243,6 +243,9 @@ navigation:
     "controls/input":
         title: "Input"
         position: 1
+    "controls/label":
+        title: "Label"
+        position: 1    
     "controls/lightbox":
         title: "LightBox"
         position: 1

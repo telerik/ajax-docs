@@ -94,6 +94,8 @@ Here are quick links to the control-specific sections of our documentation:
 
 * [Input Manager]({%slug radinputmanager/overview%})
 
+* [Label]({%slug label/overview%})
+
 * [LightBox]({%slug lightbox/overview%})
 
 * [LinkButton]({%slug linkbutton/overview%})
