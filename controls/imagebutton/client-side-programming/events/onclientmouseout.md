@@ -14,7 +14,7 @@ The **mouseOut** event is fired when the user moves the mouse pointer over the c
 
 The event handler receives two parameters:
 
-1. The instance of the clicked RadImageButton control
+1. The instance of the clicked RadImageButton control.
 
 1. An eventArgs parameter of type [Telerik.Web.UI.**RadButtonEventArgs**](http://docs.telerik.com/devtools/aspnet-ajax/api/client/args/Telerik.Web.UI.ButtonEventArgs), containing the following properties and methods:
 
