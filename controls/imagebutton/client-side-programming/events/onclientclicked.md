@@ -14,7 +14,7 @@ The **clicked** event is subsequent to the **clicking** event, and occurs when t
 
 The event handler receives two parameters:
 
-1. The instance of the clicked RadImageButton control
+1. The instance of the clicked RadImageButton control.
 
 1. An eventArgs parameter of type [Telerik.Web.UI.**ButtonEventArgs**](http://docs.telerik.com/devtools/aspnet-ajax/api/client/args/Telerik.Web.UI.ButtonEventArgs), containing the following properties and methods:
 
@@ -22,7 +22,7 @@ The event handler receives two parameters:
 
 	* get_commandArgument() - returns the value assigned to the RadImageButton's **CommandArgument** property
 
-This event should be used in scenarios where the user needs to execute custom client-side code when the button is clicked. Since validation has occurred, the page can be checked for validity before any client code is executed. This is exactly what the following example is doing, it checks for a valid URL, and if a valid one is entered, it opens it in a RadWindow control. Here is the code:
+This event should be used in scenarios where the user needs to execute custom client-side code when the button is clicked. Since validation has occurred, the page can be checked for validity before any client code is executed. This is exactly what the following example is doing: it checks for a valid URL, and if a valid one is entered, it opens it in a RadWindow control. Here is the code:
 
 >caption Example 1: RadImageButton handling the OnClientClicked event.
 
