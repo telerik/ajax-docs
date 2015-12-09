@@ -10,7 +10,7 @@ position: 0
 
 # Skins
 
-**RadImageButton** uses **skins** to control its overall look-and-feel. A skin is a set of images and a CSS stylesheet that can be applied to the control elements and defines their look and feel.
+**RadImageButton** uses **skins** to control its overall look and feel. A skin is a set of images and a CSS stylesheet that can be applied to the control elements and defines their look and feel.
 
 To apply a skin to a **RadImageButton** control, set its **Skin** property.
 
@@ -20,7 +20,7 @@ To apply a skin to a **RadImageButton** control, set its **Skin** property.
 
 ## Customizing Skins
 
-You can tweak the existing skins or create your own. See [Create a Custom Skin For RadImageButton]({%slug imagebutton/appearance-and-styling/create-a-custom-skin%}) for a step-by-step walk through. To use your own skin
+You can tweak the existing skins or create your own. See [Create a Custom Skin For RadImageButton]({%slug imagebutton/appearance-and-styling/create-a-custom-skin%}) for a step-by-step walk through. To use your own skin:
 
 1. Add the new CSS file to your project.
 
