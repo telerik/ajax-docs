@@ -5,7 +5,7 @@ description: OnClientMouseOut
 slug: checkbox/client-side-programming/events/onclientmouseout
 tags: onclientmouseout
 published: True
-position: 7
+position: 8
 ---
 
 # OnClientMouseOut
@@ -16,7 +16,7 @@ The event handler receives two parameters:
 
 1. The instance of the clicked RadCheckBox control
 
-1. An eventArgs parameter of type [Telerik.Web.UI.RadButtonEventArgs](http://docs.telerik.com/devtools/aspnet-ajax/api/client/args/Telerik.Web.UI.ButtonEventArgs), containing the following properties and methods:
+1. An eventArgs parameter of type [Telerik.Web.UI.ButtonEventArgs](http://docs.telerik.com/devtools/aspnet-ajax/api/client/args/Telerik.Web.UI.ButtonEventArgs), containing the following properties and methods:
 
 	* get_commandName() - returns the value assigned to the RadCheckBox's **CommandName** property
 
@@ -25,20 +25,20 @@ The event handler receives two parameters:
 
 ## See Also
 
- * [PushButton - Client-side Events Demo](http://demos.telerik.com/aspnet-ajax/checkbox/client-side-api/client-side-events/defaultcs.aspx)
- 
- * [PushButton Object]({%slug checkbox/client-side-programming/checkbox-object%})
+ * [CheckBox - Client-side Events Demo](http://demos.telerik.com/aspnet-ajax/checkbox/client-side-api/client-side-events/defaultcs.aspx)
+
+ * [CheckBox Object]({%slug checkbox/client-side-programming/checkbox-object%})
  
  * [OnClientLoad]({%slug checkbox/client-side-programming/events/onclientload%})
  
  * [OnClientClicking]({%slug checkbox/client-side-programming/events/onclientclicking%})
-
- * [OnClientToggleStateChanging]({%slug checkbox/client-side-programming/events/onclienttogglestatechanging%})
-
- * [OnClientToggleStateChanged]({%slug checkbox/client-side-programming/events/onclienttogglestatechanged%})
  
  * [OnClientClicked]({%slug checkbox/client-side-programming/events/onclientclicked%})
  
+ * [OnClientCheckedChanging]({%slug checkbox/client-side-programming/events/onclientcheckedchanging%})
+
+ * [OnClientCheckedChanged]({%slug checkbox/client-side-programming/events/onclientcheckedchanged%})
+ 
  * [OnClientMouseOver]({%slug checkbox/client-side-programming/events/onclientmouseover%})
 
- * [Telerik.Web.UI.RadButtonEventArgs](http://docs.telerik.com/devtools/aspnet-ajax/api/client/args/Telerik.Web.UI.ButtonEventArgs)
+ * [Telerik.Web.UI.ButtonEventArgs](http://docs.telerik.com/devtools/aspnet-ajax/api/client/args/Telerik.Web.UI.ButtonEventArgs)

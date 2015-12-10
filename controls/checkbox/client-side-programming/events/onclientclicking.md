@@ -14,7 +14,7 @@ The clicking event occurs when the RadCheckBox control is clicked, immediately a
 
 The event handler receives two parameters:
 
-1. The instance of the clicked RadCheckBox control
+1. The instance of the clicked RadCheckBox control.
 
 1. An eventArgs parameter of type [Telerik.Web.UI.**ButtonCancelEventArgs**](http://docs.telerik.com/devtools/aspnet-ajax/api/client/args/Telerik.Web.UI.ButtonCancelEventArgs), containing the following properties and methods:
 
@@ -38,10 +38,6 @@ This event comes handy in scenarios when the user wants to cancel the page submi
 	}
 </script>
 <telerik:RadCheckBox ID="RadCheckBox1" runat="server" OnClientClicking="Clicking" OnClick="RadCheckBox1_Click">
-	<ToggleStates>
-	    <telerik:ButtonToggleState Text="State 1" />
-	    <telerik:ButtonToggleState Text="State 2" />
-	</ToggleStates>
 </telerik:RadCheckBox>
 ````
 
@@ -59,17 +55,17 @@ End Sub
 
 ## See Also
 
- * [PushButton - Client-side Events Demo](http://demos.telerik.com/aspnet-ajax/checkbox/client-side-api/client-side-events/defaultcs.aspx)
+ * [CheckBox - Client-side Events Demo](http://demos.telerik.com/aspnet-ajax/checkbox/client-side-api/client-side-events/defaultcs.aspx)
 
- * [PushButton Object]({%slug checkbox/client-side-programming/checkbox-object%})
-
+ * [CheckBox Object]({%slug checkbox/client-side-programming/checkbox-object%})
+ 
  * [OnClientLoad]({%slug checkbox/client-side-programming/events/onclientload%})
-
- * [OnClientToggleStateChanging]({%slug checkbox/client-side-programming/events/onclienttogglestatechanging%})
-
- * [OnClientToggleStateChanged]({%slug checkbox/client-side-programming/events/onclienttogglestatechanged%})
  
  * [OnClientClicked]({%slug checkbox/client-side-programming/events/onclientclicked%})
+ 
+ * [OnClientCheckedChanging]({%slug checkbox/client-side-programming/events/onclientcheckedchanging%})
+
+ * [OnClientCheckedChanged]({%slug checkbox/client-side-programming/events/onclientcheckedchanged%})
  
  * [OnClientMouseOver]({%slug checkbox/client-side-programming/events/onclientmouseover%})
  

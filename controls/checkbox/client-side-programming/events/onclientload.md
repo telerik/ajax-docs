@@ -28,26 +28,25 @@ This event comes handy in scenarios when the user wants to operate with the cont
 		alert('RadCheckBox Object Loaded');
 	}
 </script>
-<telerik:RadCheckBox ID="RadCheckBox1" runat="server" OnClientLoad="clientLoad">
-	<ToggleStates>
-	    <telerik:ButtonToggleState Text="State 1" />
-	    <telerik:ButtonToggleState Text="State 2" />
-	</ToggleStates>
+<telerik:RadCheckBox ID="RadCheckBox1" Text="Check here" runat="server" OnClientLoad="clientLoad">
 </telerik:RadCheckBox>
 ````
 
 
 ## See Also
 
- * [ToggleButton - Client-side Events Demo](http://demos.telerik.com/aspnet-ajax/checkbox/client-side-api/client-side-events/defaultcs.aspx)
+ * [CheckBox - Client-side Events Demo](http://demos.telerik.com/aspnet-ajax/checkbox/client-side-api/client-side-events/defaultcs.aspx)
 
- * [ToggleButton Object]({%slug checkbox/client-side-programming/checkbox-object%})
+ * [CheckBox Object]({%slug checkbox/client-side-programming/checkbox-object%})
  
  * [OnClientClicking]({%slug checkbox/client-side-programming/events/onclientclicking%})
  
  * [OnClientClicked]({%slug checkbox/client-side-programming/events/onclientclicked%})
  
+ * [OnClientCheckedChanging]({%slug checkbox/client-side-programming/events/onclientcheckedchanging%})
+
+ * [OnClientCheckedChanged]({%slug checkbox/client-side-programming/events/onclientcheckedchanged%})
+ 
  * [OnClientMouseOver]({%slug checkbox/client-side-programming/events/onclientmouseover%})
  
  * [OnClientMouseOut]({%slug checkbox/client-side-programming/events/onclientmouseout%})
-

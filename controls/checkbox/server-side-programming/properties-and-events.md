@@ -16,70 +16,26 @@ position: 0
 | ------ | ------ |
 | **AutoPostBack** |Gets or sets a bool value indicating whether the control will automatically post the page back to the server.|
 | **CausesValidation** |Gets or sets a bool value indicating whether validation is performed when the RadCheckBox is clicked.|
+| **Checked** |Gets or sets a nullable bool value indicating whether the RadCheckBox is checked. If a null value is set, the value will default to false.|
 | **PostbackUrl** |Gets or sets the URL of the page to post to from the current page, when the RadCheckBox is clicked.|
-| **Primary** |Gets or sets a bool value indicating whether the button uses its primary appearance.|
 | **Text** |Gets or sets the text displayed in the RadCheckBox control.|
 | **ValidationGroup** |Gets or sets the group of controls for which the RadCheckBox control causes validation when it posts back to the server.|
 | **CommandName** |Gets or sets the command name associated with the RadCheckBox control that is passed to the *Command* event.|
 | **CommandArgument** |Gets or sets an optional parameter passed to the *Command* event along with the associated CommandName.|
-| **CssClass** |  Define the CSS class for the RadCheckBox.|
+| **CssClass** |Define the CSS class for the RadCheckBox.|
+| **DisabledCssClass** |Define the CSS class for the RadCheckBox when it is disabled.|
 | **HoveredCssClass** |Gets or sets the CSS class, when the mouse pointer is hovered over the RadCheckBox control.|
 | **PressedCssClass** |Gets or sets the CSS class, when the RadCheckBox control is pressed.|
 | **OnClientLoad** |Sets a name of a JavaScript function that will be called when the RadCheckBox is loaded on the page|
 | **OnClientClicking** |Sets a name of a JavaScript function that will be called when the RadCheckBox is clicked. The event is cancelable.|
 | **OnClientClicked** |Sets a name of a JavaScript function that will be called when the RadCheckBox is clicked, after the OnClientClicking event.|
+| **OnClientCheckedChanging** |Sets a name of a JavaScript function that will be called when the RadCheckBox is checked/unchecked. The event is cancelable.|
+| **OnClientCheckedChanged** |Sets a name of a JavaScript function that will be called when the RadCheckBox is checked/unchecked, after the OnClientClicking event.|
 | **OnClientMouseOver** |Sets a name of a JavaScript function that will be called when the mouse pointer hovers over the RadCheckBox|
 | **OnClientMouseOut** |Sets a name of a JavaScript function that will be called when the mouse pointer leaves the RadCheckBox|
-| **OnClientToggleStateChanging** |Sets a name of a JavaScript function that will be called prior to the RadCheckBox state change. The event is cancelable.|
-| **OnClientToggleStateChanged** |Sets a name of a JavaScript function that will be called when the RadCheckBox state is changed, after the OnClientToggleStateChanging event.|
 | **UseSubmitBehavior** |Gets or sets a bool value indicating whether the RadCheckBox control uses the client browser's submit mechanism or the ASP.NET postback mechanism.|
-| **Value** | Value associated with the button.|
-| **Width** |  Sets the Width of the button.|
-| **Height** | Get/Set the height of the button.|
-| **SelectedToggleSate** | Gets or sets the current state of the Button.|
-| **SelectedToggleSateIndex** | Gets or sets the index of the currently selected ToggleState of the Button control, when used as a custom toggle button.|
-| **ToggleSates** | Collection of type **ButtonToggleState**. |
+| **Value** | Value associated with the checkbox.|
 
-## ButtonToggleState specific features (properties)
-
-| Property | Description |
-| ------ | ------ |
-| **Text** |Gets or sets the text displayed in the ButtonToggleState.|
-| **Value** | Value associated with the button.|
-| **Selected** | Gets or sets a bool value indicating whether the ToggleState is selected or not.|
-| **CssClass** |  Define the CSS class for the ButtonToggleState.|
-| **HoveredCssClass** |Gets or sets the CSS class, when the mouse pointer is hovered over the ButtonToggleState control.|
-| **PressedCssClass** |Gets or sets the CSS class, when the ButtonToggleState control is pressed.|
-| **Width** |  Sets the Width of the ButtonToggleState.|
-| **Height** | Get/Set the height of the ButtonToggleState.|
-| **CommandName** |Gets or sets the command name associated with the RadCheckBox control that is passed to the *Command* event.|
-| **CommandArgument** |Gets or sets an optional parameter passed to the *Command* event along with the associated CommandName.|
-
-
-### Icon specific features (properties)
-
-| Property | Description |
-| ------ | ------ |
-| **Url** |Gets or sets the URL to the image used as icon.|
-| **HoveredUrl** |Gets or sets the URL to the image showed when the icon is hovered.|
-| **PressedUrl** |Gets or sets the URL to the image showed when the icon is pressed.|
-| **Height** |Gets or sets the Height of the icon.|
-| **Width** |Gets or sets the Width of the icon.|
-| **CssClass** |Gets or sets the CSS class applied to the icon.|
-| **HoveredCssClass** | Gets or sets the CSS class applied to the Button control when the mouse pointer is over the control.|
-| **PressedCssClass** | Define the CSS class of the icon element, when the button is pressed.|
-| **Top** |Gets or sets the top edge of the icon, relative to the RadCheckBox control's wrapper element.|
-| **Left** |Gets or sets the left edge of the icon, relative to the RadCheckBox control's wrapper element.|
-
-### Image specific features (properties)
-
-| Property | Description |
-| ------ | ------ |
-| **Url** |Specifies the path to the image.|
-| **DisabledUrl** |Specifies the path to the image when the button is disabled.|
-| **HoveredUrl** |Specifies the path to the image when the mouse is over the button.|
-| **PressedUrl** |Specifies the path to the image of a pressed button.|
-| **Sizing** |Specifies the way the image is sized in the button. Available values are: **Original** and **Stretch**.|
 
 ## Server - side Events:
 
@@ -87,11 +43,11 @@ position: 0
 | ------ | ------ |
 | **OnClick** |Raised when the RadCheckBox performs a postback.|
 | **OnCommand** |Raised when the RadCheckBox performs a postback.|
-| **OnToggleStateChanged** |Raised when the state of the RadCheckBox has changed.|
+| **OnCheckedChanged** |Raised when the checked state of the RadCheckBox has changed.|
 
 The event order is:
 
-1. OnToggleStateChanged
+1. OnCheckedChanged
 
 1. OnClick
 

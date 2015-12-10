@@ -20,14 +20,14 @@ Here follows examples showing how to add and remove handlers on the client:
 
 ````ASP.NET
 <script type="text/javascript">
-	function Click(button, args)
+	function Click(checkbox, args)
 	{
-		alert("Button was clicked");
+		alert("Checkbox was clicked");
 	}
 	function addHandler()
 	{
-		var toggleButton = $find("<%=RadCheckBox1.ClientID %>");
-		toggleButton.add_clicked(Click);
+		var checkBox = $find("<%=RadCheckBox1.ClientID %>");
+		checkBox.add_clicked(Click);
 	}
 </script>
 ````
@@ -36,14 +36,14 @@ Here follows examples showing how to add and remove handlers on the client:
 
 ````ASP.NET
 <script type="text/javascript">
-	function Click(button, args, arg1)
+	function Click(checkbox, args, arg1)
 	{
-		alert("Button was clicked. arg1: " + arg1);
+		alert("Checkbox was clicked. arg1: " + arg1);
 	}
 	function addHandler()
 	{
-		var toggleButton = $find("<%=RadCheckBox1.ClientID %>");
-		toggleButton.add_clicked(function (button, args) { Click(button, args, "Value1") });
+		var checkBox = $find("<%=RadCheckBox1.ClientID %>");
+		checkBox.add_clicked(function (checkbox, args) { Click(checkbox, args, "Value1") });
 	}
 </script>
 ````
@@ -53,8 +53,8 @@ Here follows examples showing how to add and remove handlers on the client:
 ````JavaScript
 function removeEvents()
 {
-    var toggleButton = $find("<%= RadCheckBox1.ClientID %>");
-    toggleButton.remove_show(Click);
+    var checkBox = $find("<%= RadCheckBox1.ClientID %>");
+    checkBox.remove_click(Click);
 }
 ````
 
@@ -62,34 +62,38 @@ function removeEvents()
 
 | Name | Description |
 | ------ | ------ |
-| **.add_load()** |The name of the javascript function called when the control loads.|
-| **.remove_load()** |Removes a handler for the load event|
-| **.add_clicking()** |The name of the javascript function called when the RadCheckBox control is clicked.|
-| **.remove_clicking()** |Removes a handler for the clicking event.|
-| **.add_toggleStateChanging()** |The name of the javascript function called before the state of the ToggleButton to change.|
-| **.remove_toggleStateChanging()** |Removes a handler for the toggleStateChanging event.|
-| **.add_toggleStateChanged()** |The name of the javascript function called when the state of the ToggleButton is changed.|
-| **.remove_toggleStateChanged()** |Removes a handler for the toggleStateChanged event.|
-| **.add_clicked()** |The name of the javascript function called when the RadCheckBox control is clicked.|
-| **.remove_clicked()** |Removes a handler for the clicked event.|
-| **.add_mouseOver()** |The name of the javascript function called when the mouse hovers over the control.|
-| **.remove_mouseOver()** |Removes a handler for the mouseOver event.|
-| **.add_mouseOut()** |The name of the javascript function when the mouse leaves the control.|
-| **.remove_mouseOut()** |Removes a handler for the mouseOut event.|
+| **add_load** |The name of the javascript function called when the control loads.|
+| **remove_load** |Removes a handler for the load event|
+| **add_clicking** |The name of the javascript function called when the RadCheckBox control is clicked.|
+| **remove_clicking** |Removes a handler for the clicking event.|
+| **add_checkedChanging** |The name of the javascript function called before the checked state of the checkbox is changed.|
+| **remove_checkedChanging** |Removes a handler for the checkedChanging event.|
+| **add_checkedChanged** |The name of the javascript function called when the checked state of the checkbox is changed.|
+| **remove_checkedChanged** |Removes a handler for the checkedChanged event.|
+| **add_clicked** |The name of the javascript function called when the RadCheckBox control is clicked.|
+| **remove_clicked** |Removes a handler for the clicked event.|
+| **add_mouseOver** |The name of the javascript function called when the mouse hovers over the control.|
+| **remove_mouseOver** |Removes a handler for the mouseOver event.|
+| **add_mouseOut** |The name of the javascript function when the mouse leaves the control.|
+| **remove_mouseOut** |Removes a handler for the mouseOut event.|
 
 ## See Also
 
- * [PushButton Object]({%slug checkbox/client-side-programming/checkbox-object%})
+ * [CheckBox Object]({%slug checkbox/client-side-programming/checkbox-object%})
  
- * [Events Overview]({%slug client-side-programming/events/overview%})
+ * [Events Overview]({%slug checkbox/client-side-programming/events/overview%})
+ 
+ * [CheckBox Object]({%slug checkbox/client-side-programming/checkbox-object%})
+ 
+ * [OnClientLoad]({%slug checkbox/client-side-programming/events/onclientload%})
  
  * [OnClientClicking]({%slug checkbox/client-side-programming/events/onclientclicking%})
-
- * [OnClientToggleStateChanging]({%slug checkbox/client-side-programming/events/onclienttogglestatechanging%})
-
- * [OnClientToggleStateChanged]({%slug checkbox/client-side-programming/events/onclienttogglestatechanged%})
  
  * [OnClientClicked]({%slug checkbox/client-side-programming/events/onclientclicked%})
+ 
+ * [OnClientCheckedChanging]({%slug checkbox/client-side-programming/events/onclientcheckedchanging%})
+
+ * [OnClientCheckedChanged]({%slug checkbox/client-side-programming/events/onclientcheckedchanged%})
  
  * [OnClientMouseOver]({%slug checkbox/client-side-programming/events/onclientmouseover%})
  

@@ -5,12 +5,12 @@ description: OnClientClicked
 slug: checkbox/client-side-programming/events/onclientclicked
 tags: onclientclicked
 published: True
-position: 6
+position: 4
 ---
 
 # OnClientClicked
 
-The **clicked** event is subsequent to the [toggleStateChanged]({%slug checkbox/client-side-programming/events/onclienttogglestatechanged%}) event, and occurs when the **RadCheckBox** control is clicked. The event is fired after the client-side validation is completed (just like the [PushButon's OnClientClicked event]({%slug pushbutton/client-side-programming/events/onclientclicked%})), just before the page is submitted, and cannot be canceled.
+The **clicked** event is subsequent to the [checkedChanged]({%slug checkbox/client-side-programming/events/onclientcheckedChanged%}) event, and occurs when the **RadCheckBox** control is clicked. The event is fired after the client-side validation is completed (just like the [PushButon's OnClientClicked event]({%slug pushbutton/client-side-programming/events/onclientclicked%})), just before the page is submitted, and cannot be canceled.
 
 The event handler receives two parameters:
 
@@ -22,43 +22,39 @@ The event handler receives two parameters:
 
 	* get_commandArgument() - returns the value assigned to the RadCheckBox's **CommandArgument** property
 
-This event can be used in scenarios where is needed custom client-side code to be executed when the button is clicked. 
+This event can be used in scenarios where is needed custom client-side code to be executed when the checkbox is clicked. 
 
 >caption Example 1: Handling the OnClientClicked event.
 
 ````ASP.NET
 <script type="text/javascript">
     function clientClick(sender, args) {
-        var selectedValue = sender.get_selectedToggleState().get_value();
-        $get("<%= Textbox1.ClientID %>").value = selectedValue;
+        var value = sender.get_value();
+        $get("<%= Textbox1.ClientID %>").value = value;
     }
 </script>
 
-<span>Selected Value:</span>
+<span> Value:</span>
 <asp:TextBox ID="Textbox1" runat="server" />
 
-<telerik:RadCheckBox ID="RadCheckBox1" runat="server" AutoPostBack="false"
+<telerik:RadCheckBox ID="RadCheckBox1" runat="server" AutoPostBack="false" Value="1"
     OnClientClicked="clientClick">
-    <ToggleStates>
-        <telerik:ButtonToggleState Text="State 1" Value="Value1"/>
-        <telerik:ButtonToggleState Text="State 2" Value="Value2"/>
-    </ToggleStates>
 </telerik:RadCheckBox>
 ````
 
 ## See Also
 
- * [PushButton - Client-side Events Demo](http://demos.telerik.com/aspnet-ajax/checkbox/client-side-api/client-side-events/defaultcs.aspx)
+ * [CheckBox - Client-side Events Demo](http://demos.telerik.com/aspnet-ajax/checkbox/client-side-api/client-side-events/defaultcs.aspx)
 
- * [PushButton Object]({%slug checkbox/client-side-programming/checkbox-object%})
+ * [CheckBox Object]({%slug checkbox/client-side-programming/checkbox-object%})
  
  * [OnClientLoad]({%slug checkbox/client-side-programming/events/onclientload%})
  
  * [OnClientClicking]({%slug checkbox/client-side-programming/events/onclientclicking%})
+ 
+ * [OnClientCheckedChanging]({%slug checkbox/client-side-programming/events/onclientcheckedchanging%})
 
- * [OnClientToggleStateChanging]({%slug checkbox/client-side-programming/events/onclienttogglestatechanging%})
-
- * [OnClientToggleStateChanged]({%slug checkbox/client-side-programming/events/onclienttogglestatechanged%})
+ * [OnClientCheckedChanged]({%slug checkbox/client-side-programming/events/onclientcheckedchanged%})
  
  * [OnClientMouseOver]({%slug checkbox/client-side-programming/events/onclientmouseover%})
  

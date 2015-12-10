@@ -14,13 +14,13 @@ RadCheckBox exposes several client-side events which allow easy and flexible use
 
 * **[OnClientLoad (load)]({%slug checkbox/client-side-programming/events/onclientload%})** - raised when the control is initialized.
 
-* **[OnClientClicking (clicking)]({%slug checkbox/client-side-programming/events/onclientclicking%})** - raised when the user clicks the button. The event can be canceled.
+* **[OnClientClicking (clicking)]({%slug checkbox/client-side-programming/events/onclientclicking%})** - raised when the user clicks the checkbox. The event can be canceled.
 
-* **[OnClientToggleStateChanging (toggleStateChanging)]({%slug checkbox/client-side-programming/events/onclienttogglestatechanging%})** - raised after the user clicks the button and before state is changed. The event can be canceled and it is subsequent to the **OnClientClicking** event.
+* **[OnClientClicked (clicked)]({%slug checkbox/client-side-programming/events/onclientclicked%})** - raised when the checkbox is clicked. The event is subsequent to the **OnClientCheckedChanged** event.
 
-* **[OnClientToggleStateChanged (toggleStateChanged)]({%slug checkbox/client-side-programming/events/onclienttogglestatechanged%})** - raised when the state of the button is changed. The event is subsequent to the **OnClientToggleStateChanging** event.
+* **[OnClientCheckedChanging (checkedChanging)]({%slug checkbox/client-side-programming/events/onclientcheckedchanging%})** - raised after the user clicks the checkbox and before the checked state is changed. The event can be canceled and it is subsequent to the **OnClientCheckedChanged** event.
 
-* **[OnClientClicked (clicked)]({%slug checkbox/client-side-programming/events/onclientclicked%})** - raised when the button is clicked. The event is subsequent to the **OnClientToggleStateChanged** event.
+* **[OnClientCheckedChanged (checkedChanged)]({%slug checkbox/client-side-programming/events/onclientcheckedchanged%})** - raised when the checked state of the checkbox is changed. The event is subsequent to the **OnClientCheckedChanging** event.
 
 * **[OnClientMouseOver (mouseOver)]({%slug checkbox/client-side-programming/events/onclientmouseover%})** - raised when the mouse hovers over the control.
 
@@ -37,11 +37,7 @@ To handle the desired event, the user must set the respective property to the na
 		alert("RadCheckBox was clicked.");
 	}
 </script>
-<telerik:RadCheckBox ID="RadCheckBox1" runat="server" OnClientClicked="Click">
-	<ToggleStates>
-	    <telerik:ButtonToggleState Text="State 1" />
-	    <telerik:ButtonToggleState Text="State 2" />
-	</ToggleStates>
+<telerik:RadCheckBox ID="RadCheckBox1" Text="Check here" runat="server" OnClientClicked="Click">
 </telerik:RadCheckBox>
 ````
 
@@ -63,11 +59,7 @@ RadCheckBox1.OnClientClicked = "Click"  'passing the name of the JS function
 	}
 </script>
 
-<telerik:RadCheckBox ID="RadCheckBox1" runat="server" OnClientClicked="function(sender,args){Click(sender, args, 'Value1', 'Value2');}">
-	<ToggleStates>
-	    <telerik:ButtonToggleState Text="State 1" />
-	    <telerik:ButtonToggleState Text="State 2" />
-	</ToggleStates>
+<telerik:RadCheckBox ID="RadCheckBox1" Text="Check here" runat="server" OnClientClicked="function(sender,args){Click(sender, args, 'Value1', 'Value2');}">
 </telerik:RadCheckBox>
 ````
 
@@ -81,19 +73,19 @@ RadCheckBox1.OnClientClicked = "function(sender,args){Click(sender, args, 'Value
 
 ## See Also
 
- * [PushButton - Client-side Events Demo](http://demos.telerik.com/aspnet-ajax/checkbox/client-side-api/client-side-events/defaultcs.aspx)
+ * [CheckBox - Client-side Events Demo](http://demos.telerik.com/aspnet-ajax/checkbox/client-side-api/client-side-events/defaultcs.aspx)
  
- * [PushButton Object]({%slug checkbox/client-side-programming/checkbox-object%})
+ * [CheckBox Object]({%slug checkbox/client-side-programming/checkbox-object%})
  
  * [OnClientLoad]({%slug checkbox/client-side-programming/events/onclientload%})
  
  * [OnClientClicking]({%slug checkbox/client-side-programming/events/onclientclicking%})
  
- * [OnClientToggleStateChanging]({%slug checkbox/client-side-programming/events/onclienttogglestatechanging%})
-
- * [OnClientToggleStateChanged]({%slug checkbox/client-side-programming/events/onclienttogglestatechanged%})
- 
  * [OnClientClicked]({%slug checkbox/client-side-programming/events/onclientclicked%})
+ 
+ * [OnClientCheckedChanging]({%slug checkbox/client-side-programming/events/onclientcheckedchanging%})
+
+ * [OnClientCheckedChanged]({%slug checkbox/client-side-programming/events/onclientcheckedchanged%})
  
  * [OnClientMouseOver]({%slug checkbox/client-side-programming/events/onclientmouseover%})
  
