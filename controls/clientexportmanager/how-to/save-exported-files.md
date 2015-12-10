@@ -165,4 +165,6 @@ End Class
 
 # See Also
 
+ * [Export and save file with Web API](http://www.telerik.com/support/code-library/export-and-save-file-with-web-api)
+
  * [RadClientExportManager Client-Side API]({%slug clientexportmanager/client-side-programming/overview%})
