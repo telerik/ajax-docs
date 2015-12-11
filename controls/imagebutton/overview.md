@@ -10,9 +10,9 @@ position: 0
 
 # ImageButton Overview
 
-The **RadImageButton** control (**Figure 1**) enriches the features, that ASP.NET ImageButton control has. It provides additional events, ability to use [content template]({%slug imagebutton/functionality/contenttemplate%}), [mechanism to prevent multiple postbacks]({%slug imagebutton/functionality/single-click%}) and numerous [themes]({%slug imagebutton/appearance-and-styling/skins%}). 
+The **RadImageButton** control (**Figure 1**) can be used as alternative to ASP.NET ImageButton control. Compared to the ASP.NET ImageButton control, RadImageButton provides a client-side and server-side API, which you can use to achieve many application requirements. **RadImageButton** provides additional events, the ability to use a [content template]({%slug imagebutton/functionality/contenttemplate%}), a [mechanism to prevent multiple postbacks]({%slug imagebutton/functionality/single-click%}) and numerous [themes]({%slug imagebutton/appearance-and-styling/skins%}). 
 
-The control can be easily styled by changing the **Skin** property, and alternatively setting properties that change the look of the control. Developers can easily migrate their applications from using the standard ASP.NET Image control to the new **RadImageButton** control, because most of their functionality is provided by our control, and is controlled by the same or similar (intuitive) properties.
+You can easily style the RadImageButton control by changing the **Skin** property, and alternatively setting properties that change the look of the control. Developers can easily migrate their applications from using the standard ASP.NET Image control <<Comment: Do you mean ImageButton or does ASP.NET have both an Image control and an ImageButton control that a developer replaces with RadImageButton?>>to the new **RadImageButton** control, because most of the ImageButton's functionality is provided by RadImageButton, and you can control RadImageButton using the same or similar (intuitive) properties.
 
 
 
