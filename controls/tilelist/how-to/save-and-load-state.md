@@ -117,118 +117,12 @@ End Sub
 
 ## Hiding Tiles
 
-Usually, a tile is hidden by setting its server `Visible` property to `false`. Since the built-in persistence relies on the same collection of tiles being used for loading and saving the state, you cannot hide a tile on the server and immediately save the state. You have two options:
+Usually, a control is hidden by setting its server `Visible` property to `false`. Since the built-in TileList persistence relies on the same collection of tiles being used for loading and saving the state, you should not hide a tile on the server. Doing so can result in incorrect state being saved or loaded because the collection will be different.
 
-* Hide the tile, load the page in the browser and invoke another request to save the state (**Example 2**).
-
-* Hide the tile via JavaScript and save the state (**Example 3**).
+To **hide tiles** and persist their state you can use **JavaScript** as of **Q1 2016**.
 
 
->caption Example 2: Hide a tile on the server and store the state in a separate request.
-
-````ASP.NET
-<telerik:RadPersistenceManager runat="server" ID="RadPersistenceManager1">
-	<PersistenceSettings>
-		<telerik:PersistenceSetting ControlID="RadTileList1" />
-	</PersistenceSettings>
-</telerik:RadPersistenceManager>
-
-<telerik:RadButton ID="SaveButton" runat="server" Text="Save state" OnClick="SaveButton_Click" />
-<telerik:RadButton ID="LoadButton" runat="server" Text="Load state" OnClick="LoadButton_Click" />
-<telerik:RadButton ID="HideTileButton" runat="server" Text="Hide Tile" OnClick="HideTileButton_Click" />
-
-<script>
-	function initiateSave() {
-		Sys.Application.remove_load(initiateSave);
-		//this example uses a postback, you can use an AJAX request or a callback
-		__doPostBack("<%=SaveButton.UniqueID%>", "");
-	}
-</script>
-
-<telerik:RadTileList runat="server" ID="RadTileList1" Width="700px" Height="360px" TileRows="2" SelectionMode="Multiple" EnableDragAndDrop="true">
-	<Groups>
-		<telerik:TileGroup>
-			<telerik:RadTextTile ID="RadTextTile1" runat="server" Text="group 1, tile 1" BackColor="Red"></telerik:RadTextTile>
-			<telerik:RadTextTile ID="RadTextTile2" runat="server" Text="group 1, tile 2" BackColor="Green"></telerik:RadTextTile>
-		</telerik:TileGroup>
-		<telerik:TileGroup>
-			<telerik:RadTextTile ID="RadTextTile3" runat="server" Text="group 2, tile 1" BackColor="Blue"></telerik:RadTextTile>
-			<telerik:RadTextTile ID="RadTextTile4" runat="server" Text="group 3, tile 2" BackColor="Yellow"></telerik:RadTextTile>
-		</telerik:TileGroup>
-	</Groups>
-</telerik:RadTileList>
-````
-
-````C#
-protected void Page_Load(object sender, EventArgs e)
-{
-	if (!IsPostBack && Object.Equals(Session["TileListPersistenceKey"], null))
-	{
-		LoadButton.Enabled = false;
-	}
-}
-
-protected void SaveButton_Click(object sender, EventArgs e)
-{
-	Session["TileListPersistenceKey"] = this.Session.SessionID;
-	string fileId = Session["TileListPersistenceKey"].ToString();
-	LoadButton.Enabled = true;
-	//you should set the provider key according to your business logic (e.g., the user ID), this is a basic example
-	RadPersistenceManager1.StorageProviderKey = fileId;
-
-	//save the state
-	RadPersistenceManager1.SaveState();
-}
-
-protected void LoadButton_Click(object sender, EventArgs e)
-{
-	string fileId = Session["TileListPersistenceKey"].ToString();
-	RadPersistenceManager1.StorageProviderKey = fileId;
-
-	//Load the state
-	RadPersistenceManager1.LoadState();
-}
-
-protected void HideTileButton_Click(object sender, EventArgs e)
-{
-	RadTextTile2.Visible = false;
-	ScriptManager.RegisterStartupScript(Page, Page.GetType(), "someKey", "Sys.Application.add_load(initiateSave);", true);
-}
-````
-````VB
-Protected Sub Page_Load(sender As Object, e As EventArgs)
-	If Not IsPostBack AndAlso [Object].Equals(Session("TileListPersistenceKey"), Nothing) Then
-		LoadButton.Enabled = False
-	End If
-End Sub
-
-Protected Sub SaveButton_Click(sender As Object, e As EventArgs)
-	Session("TileListPersistenceKey") = Me.Session.SessionID
-	Dim fileId As String = Session("TileListPersistenceKey").ToString()
-	LoadButton.Enabled = True
-	'you should set the provider key according to your business logic (e.g., the user ID), this is a basic example
-	RadPersistenceManager1.StorageProviderKey = fileId
-
-	'save the state
-	RadPersistenceManager1.SaveState()
-End Sub
-
-Protected Sub LoadButton_Click(sender As Object, e As EventArgs)
-	Dim fileId As String = Session("TileListPersistenceKey").ToString()
-	RadPersistenceManager1.StorageProviderKey = fileId
-
-	'load the state
-	RadPersistenceManager1.LoadState()
-End Sub
-
-Protected Sub HideTileButton_Click(sender As Object, e As EventArgs)
-	RadTextTile2.Visible = False
-	ScriptManager.RegisterStartupScript(Page, Page.GetType(), "someKey", "Sys.Application.add_load(initiateSave);", True)
-End Sub
-````
-
-
->caption Example 3: Hide tile on the client and save the state in the first postback
+>caption Example 2: Hide tile on the client and save the state
 
 ````ASP.NET
 <telerik:RadPersistenceManager runat="server" ID="RadPersistenceManager1">
@@ -259,10 +153,11 @@ End Sub
 		<telerik:TileGroup>
 			<telerik:RadTextTile ID="RadTextTile1" runat="server" Text="group 1, tile 1" BackColor="Red"></telerik:RadTextTile>
 			<telerik:RadTextTile ID="RadTextTile2" runat="server" Text="group 1, tile 2" BackColor="Green"></telerik:RadTextTile>
+			<telerik:RadTextTile ID="RadTextTile3" runat="server" Text="group 1, tile 3" BackColor="Green"></telerik:RadTextTile>
 		</telerik:TileGroup>
 		<telerik:TileGroup>
-			<telerik:RadTextTile ID="RadTextTile3" runat="server" Text="group 2, tile 1" BackColor="Blue"></telerik:RadTextTile>
-			<telerik:RadTextTile ID="RadTextTile4" runat="server" Text="group 3, tile 2" BackColor="Yellow"></telerik:RadTextTile>
+			<telerik:RadTextTile ID="RadTextTile4" runat="server" Text="group 2, tile 1" BackColor="Blue"></telerik:RadTextTile>
+			<telerik:RadTextTile ID="RadTextTile5" runat="server" Text="group 3, tile 2" BackColor="Yellow"></telerik:RadTextTile>
 		</telerik:TileGroup>
 	</Groups>
 </telerik:RadTileList>
