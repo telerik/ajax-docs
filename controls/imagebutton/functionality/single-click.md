@@ -10,7 +10,7 @@ position: 0
 
 # Single Click
 
-The single click button (**Figure 1** and **Figure 2**) is used to avoid multiple postbacks to the server. This feature is useful in scenarios where the developer should prevent submitting of identical content multiple times to the server (e.g. when editing a data-base or sending an e-mail).
+Use the single click button (**Figure 1** and **Figure 2**) to avoid multiple postbacks to the server. This feature is useful in scenarios where the developer wants to prevent the user from submitting identical content multiple times to the server (e.g., when editing a database or sending an e-mail).
 
 >caption Figure 1: RadImageButton with SingleClick functionality before click.
 
@@ -24,7 +24,7 @@ The following properties should be used to enable the single click functionality
 
 * **SingleClick** - determines whether the **RadImageButton** control will be immediately disabled after the user clicks it. Set it to **true** to enable the single click functionality.
 
-* **SingleClickText** - determines the text displayed in the **RadImageButton** control after the button is being clicked and disabled. The original text will be retrieved after the server request execution. The property takes a plain text string.
+* **SingleClickText** - determines the text displayed in the **RadImageButton** control after the user has clicked the button and it is disabled while the server request executes. <<Comment: Please check that my text addition here did not create a technical error.>> The original text will be retrieved after the server request execution. The property takes a plain text string.
 
 >caption Example 1: The code that enables the single click functionality in **RadImageButton** from **Figure 1** and **Figure 2**.
 
@@ -55,7 +55,7 @@ Protected Sub btnSubmit_Click(sender As Object, e As System.EventArgs) Handles b
 End Sub
 ````
 
-The submitted text in processed on the server-side. Note that the method **System.Threading.Thread.Sleep**	is used so that the disabled button can be examined after clicking it.
+The submitted text in processed on the server. Note that this example uses the **System.Threading.Thread.Sleep** method so that the disabled button can be examined after clicking it.
 
 ## See Also
 
