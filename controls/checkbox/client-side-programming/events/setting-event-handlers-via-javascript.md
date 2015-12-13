@@ -10,13 +10,13 @@ position: 1
 
 # Setting Event Handlers via JavaScript
 
-**RadCheckBox** API exposes client-side methods to attach and detach function to its event. They  can be used as alternative to the server-side properties for handling events. 
+**RadCheckBox** API exposes client-side methods to attach and detach functions to its event. They can be used as an alternative to the server-side properties for handling events. 
 
-To handle the desired event, you can use the respective **add_<eventName>(handlerFunction)** to attach the desired handler (i.e. **add_clicked** for the clicked event), where the parameter *handlerFunction* should be of type **function**. To remove the handler that has been added previously, the respective **remove_<eventName>(handlerFunction)** should be used.
+To handle the desired event, you can use the respective **add_<eventName>(handlerFunction)** to attach the desired handler (i.e., **add_clicked** for the clicked event), where the parameter *handlerFunction* should be of type **function**. To remove the handler that has been added previously, the respective **remove_<eventName>(handlerFunction)** should be used.
 
-Here follows examples showing how to add and remove handlers on the client:
+The next three examples show how to add and remove handlers on the client:
 
->caption Example 1: Adding named (non-anonymous) JavaScript click handler to RadCheckBox.
+>caption Example 1: Adding a named (non-anonymous) JavaScript click handler to RadCheckBox.
 
 ````ASP.NET
 <script type="text/javascript">
@@ -32,7 +32,7 @@ Here follows examples showing how to add and remove handlers on the client:
 </script>
 ````
 
->caption Example 2: Adding anonymous JavaScript click handler to RadCheckBox.
+>caption Example 2: Adding an anonymous JavaScript click handler to RadCheckBox.
 
 ````ASP.NET
 <script type="text/javascript">
@@ -48,7 +48,7 @@ Here follows examples showing how to add and remove handlers on the client:
 </script>
 ````
 
->caption Example 3: Removing JavaScript click handler of RadCheckBox.
+>caption Example 3: Removing the JavaScript click handler of a RadCheckBox.
 
 ````JavaScript
 function removeEvents()
@@ -62,19 +62,19 @@ function removeEvents()
 
 | Name | Description |
 | ------ | ------ |
-| **add_load** |The name of the javascript function called when the control loads.|
-| **remove_load** |Removes a handler for the load event|
-| **add_clicking** |The name of the javascript function called when the RadCheckBox control is clicked.|
+| **add_load** |The name of the JavaScript function called when the control loads.|
+| **remove_load** |Removes a handler for the load event.|
+| **add_clicking** |The name of the JavaScript function called when the RadCheckBox control is clicked.|
 | **remove_clicking** |Removes a handler for the clicking event.|
-| **add_checkedChanging** |The name of the javascript function called before the checked state of the checkbox is changed.|
+| **add_checkedChanging** |The name of the JavaScript function called before the checked state of the checkbox is changed.|
 | **remove_checkedChanging** |Removes a handler for the checkedChanging event.|
-| **add_checkedChanged** |The name of the javascript function called when the checked state of the checkbox is changed.|
+| **add_checkedChanged** |The name of the JavaScript function called when the checked state of the checkbox is changed.|
 | **remove_checkedChanged** |Removes a handler for the checkedChanged event.|
-| **add_clicked** |The name of the javascript function called when the RadCheckBox control is clicked.|
+| **add_clicked** |The name of the JavaScript function called when the RadCheckBox control is clicked.|
 | **remove_clicked** |Removes a handler for the clicked event.|
-| **add_mouseOver** |The name of the javascript function called when the mouse hovers over the control.|
+| **add_mouseOver** |The name of the JavaScript function called when the mouse hovers over the control.|
 | **remove_mouseOver** |Removes a handler for the mouseOver event.|
-| **add_mouseOut** |The name of the javascript function when the mouse leaves the control.|
+| **add_mouseOut** |The name of the JavaScript function when the mouse leaves the control.|
 | **remove_mouseOut** |Removes a handler for the mouseOut event.|
 
 ## See Also
