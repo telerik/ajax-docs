@@ -14,15 +14,15 @@ The **clicked** event is subsequent to the [checkedChanged]({%slug checkbox/clie
 
 The event handler receives two parameters:
 
-1. The instance of the clicked RadCheckBox control
+1. The instance of the clicked RadCheckBox control.
 
 1. An eventArgs parameter of type [Telerik.Web.UI.**ButtonEventArgs**](http://docs.telerik.com/devtools/aspnet-ajax/api/client/args/Telerik.Web.UI.ButtonEventArgs), containing the following properties and methods:
 
-	* get_commandName() - returns the value assigned to the RadCheckBox's **CommandName** property
+	* get_commandName() - returns the value assigned to the RadCheckBox's **CommandName** property.
 
-	* get_commandArgument() - returns the value assigned to the RadCheckBox's **CommandArgument** property
+	* get_commandArgument() - returns the value assigned to the RadCheckBox's **CommandArgument** property.
 
-This event can be used in scenarios where is needed custom client-side code to be executed when the checkbox is clicked. 
+This event can be used in scenarios where you need custom client-side code to be executed when the checkbox is clicked. 
 
 >caption Example 1: Handling the OnClientClicked event.
 
