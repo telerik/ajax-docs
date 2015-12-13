@@ -10,7 +10,7 @@ position: 0
 
 # Events Overview
 
-RadCheckBox exposes several client-side events which allow easy and flexible use in a wide range of application scenarios:
+RadCheckBox exposes several client-side events that allow easy and flexible use in a wide range of application scenarios:
 
 * **[OnClientLoad (load)]({%slug checkbox/client-side-programming/events/onclientload%})** - raised when the control is initialized.
 
@@ -26,9 +26,9 @@ RadCheckBox exposes several client-side events which allow easy and flexible use
 
 * **[OnClientMouseOut (mouseOut)]({%slug checkbox/client-side-programming/events/onclientmouseout%})** - raised when the mouse leaves the control.
 
-To handle the desired event, the user must set the respective property to the name of the JavaScript function handling the event or to anonymous JavaScript function. Here is an example:
+To handle the desired event, the user must set the respective property to the name of the JavaScript function handling the event or to an anonymous JavaScript function. Here is an example:
 
->caption Example 1: Passing named (non-anonymous) JavaScript function.
+>caption Example 1: Passing a named (non-anonymous) JavaScript function.
 
 ````ASP.NET
 <script type="text/javascript">
@@ -49,7 +49,7 @@ RadCheckBox1.OnClientClicked = "Click"  'passing the name of the JS function
 ````
 
 
->caption Example 2: Passing anonymous JavaScript function.
+>caption Example 2: Passing an anonymous JavaScript function.
 
 ````ASP.NET
 <script type="text/javascript">
