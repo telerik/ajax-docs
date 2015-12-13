@@ -12,11 +12,11 @@ position: 2
 
 There are several ways to use the **RadCheckBox** via the keyboard only:
 
-* Set its **TabIndex** property and use the **Tab** key to navigate to the desired chekbox and then press the **Enter** key to invoke a click on the checkbox.
+* Set its **TabIndex** property and use the **Tab** key to navigate to the desired checkbox and then press the **Enter** key to invoke a click on the checkbox.
 
-* Set its **AccessKey** property. This allows you to use the browser's shortcut combination to invoke the click ("Alt + AccessKey in IE and Chrome", "Shift + Alt + AccessKey" for Firefox, Shift + Esc + AccessKey for Opera).
+* Set its **AccessKey** property. This allows you to use the browser's shortcut combination to invoke the click ("Alt + AccessKey" in IE and Chrome, "Shift + Alt + AccessKey" for Firefox, "Shift + Esc + AccessKey" for Opera). <<Comment: Add shortcut combination for Microsoft Edge browswer?>>
 
->note Note: By default tab-access is disabled in Safari. To enable it, check "Preferences > Advanced > Press tab to highlight each item on a page".
+>note Note: By default, tab-access is disabled in Safari. To enable it, check "Preferences > Advanced > Press tab to highlight each item on a page".
 
 ## See Also
 
