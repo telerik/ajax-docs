@@ -14,7 +14,7 @@ The **checkedChanging** event is subsequent to the [clicking]({%slug checkbox/cl
 
 The event handler receives two parameters:
 
-1. The instance of the clicked RadCheckBox control
+1. The instance of the clicked RadCheckBox control.
 
 1. An eventArgs parameter of type [Telerik.Web.UI.**ButtonCheckedCancelEventArgs**](http://docs.telerik.com/devtools/aspnet-ajax/api/client/args/Telerik.Web.UI.ButtonCheckedCancelEventArgs), containing the following properties and methods:
 
@@ -26,13 +26,13 @@ The event handler receives two parameters:
 
 	* get_domEvent() - returns the DOM event of the control.
 
-	* get_commandName() - returns the value assigned to the RadCheckBox's **CommandName** property
+	* get_commandName() - returns the value assigned to the RadCheckBox's **CommandName** property.
 
 	* get_commandArgument() - returns the value assigned to the RadCheckBox's **CommandArgument** property.
 
 This event is useful in scenarios where the user wants to make sure the checked state is changed only if a certain condition is met. Note that, if the checkbox automatically posts back to the server, which is the default behavior, the post back will not be stopped even if the event is canceled.
 
-The following example asks the user to confirm whether the state to be changed.
+The following example asks the user to confirm whether they want to change the state.
 
 >caption Example 1: Using OnClientCheckedChanging event.
 
