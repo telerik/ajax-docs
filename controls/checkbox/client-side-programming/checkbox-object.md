@@ -33,9 +33,9 @@ The following table lists the most important members of the client-side RadCheck
 | **get_commandName** |Gets the command name associated with the RadCheckBox control that is passed to the Command event.|
 | **set_commandName** |Sets the command name associated with the RadCheckBox control that is passed to the Command event.|
 | **get_commandArgument** |Gets an optional parameter passed to the Command event along with the associated CommandName.|
-| **set_commandArgument** |Sets an optional parameter passed to the Command event along with the associated CommandName|
+| **set_commandArgument** |Sets an optional parameter passed to the Command event along with the associated CommandName.|
 | **get_autoPostBack** |Gets a bool value indicating whether the RadCheckBox control automatically posts back to the server when clicked.|
-| **set_autoPostBack** |Sets or sets a bool value indicating whether the RadCheckBox control automatically posts back to the server when clicked.|
+| **set_autoPostBack** |Sets or sets a bool value indicating whether the RadCheckBox control automatically posts back to the server when clicked.| <<Comment: Please verify that the sentence should begin "Sets a bool value">>
 | **get_height** |Gets the height of the RadCheckBox control.|
 | **get_width** |Gets the width of the RadCheckBox control.|
 | **get_visible** |Gets a bool value indicating whether the checkbox is visible.|
@@ -48,25 +48,25 @@ The following table lists the most important members of the client-side RadCheck
 | Name | Description |
 | ------ | ------ |
 | **focus** |Brings the focus to the RadCheckBox control.|
-| **click** |Executes programmatic checkbox click. Accepts an optional boolean parameter that specifies whether the client-side [clicking event]({%slug checkbox/client-side-programming/events/onclientclicking%}) of RadCheckBox will be fired when the control is clicked programmatically. If the function is called without parameter,	the clicking event will not be fired.|
+| **click** |Executes programmatic checkbox click. Accepts an optional boolean parameter that specifies whether the client-side [clicking event]({%slug checkbox/client-side-programming/events/onclientclicking%}) of RadCheckBox will be fired when the control is clicked programmatically. If the function is called without parameter, the clicking event will not be fired.|
 
->caption Methods for modifying client-side event handlers dynamically
+>caption Methods for Modifying Client-side Event Handlers Dynamically
 
 | Name | Description |
 | ------ | ------ |
-| **add_load** |The name of the javascript function called when the control loads.|
-| **remove_load** |Removes a handler for the load event|
-| **add_clicking** |The name of the javascript function called when the RadCheckBox control is clicked.|
+| **add_load** |The name of the JavaScript function called when the control loads.|
+| **remove_load** |Removes a handler for the load event.|
+| **add_clicking** |The name of the JavaScript function called when the RadCheckBox control is clicked.|
 | **remove_clicking** |Removes a handler for the clicking event.|
-| **add_checkedChanging** |The name of the javascript function called before the checked state of the checkbox is changed.|
+| **add_checkedChanging** |The name of the JavaScript function called before the checked state of the checkbox is changed.|
 | **remove_checkedChanging** |Removes a handler for the checkedChanging event.|
-| **add_checkedChanged** |The name of the javascript function called when the checked state of the checkbox is changed.|
+| **add_checkedChanged** |The name of the JavaScript function called when the checked state of the checkbox is changed.|
 | **remove_checkedChanged** |Removes a handler for the checkedChanged event.|
-| **add_clicked** |The name of the javascript function called when the RadCheckBox control is clicked.|
+| **add_clicked** |The name of the JavaScript function called when the RadCheckBox control is clicked.|
 | **remove_clicked** |Removes a handler for the clicked event.|
-| **add_mouseOver** |The name of the javascript function called when the mouse hovers over the control.|
+| **add_mouseOver** |The name of the JavaScript function called when the mouse hovers over the control.|
 | **remove_mouseOver** |Removes a handler for the mouseOver event.|
-| **add_mouseOut** |The name of the javascript function when the mouse leaves the control.|
+| **add_mouseOut** |The name of the JavaScript function when the mouse leaves the control.|
 | **remove_mouseOut** |Removes a handler for the mouseOut event.|
 
 You can read more on the subject in the [Setting Client Event Handlers by Using JavaScript]({%slug checkbox/client-side-programming/events/setting-event-handlers-via-javascript%}) help article.
