@@ -20,7 +20,7 @@ To apply a skin to a **RadCheckBox** control, set its **Skin** property.
 
 ## Customizing Skins
 
-You can tweak the existing skins or create your own. See [Create a Custom Skin For RadCheckBox]({%slug checkbox/appearance-and-styling/create-a-custom-skin%}) for a step-by-step walk through. To use your own skin
+You can tweak the existing skins or create your own. See [Create a Custom Skin For RadCheckBox]({%slug checkbox/appearance-and-styling/create-a-custom-skin%}) for a step-by-step walk through. To use your own skin:
 
 1. Add the new CSS file to your project.
 
