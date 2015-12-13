@@ -14,7 +14,7 @@ The **checkedChanged** event is subsequent to the [checkedChanging]({%slug check
 
 The event handler receives two parameters:
 
-1. The instance of the clicked RadCheckBox control
+1. The instance of the clicked RadCheckBox control.
 
 1. An eventArgs parameter of type [Telerik.Web.UI.**ButtonCheckedEventArgs**](http://docs.telerik.com/devtools/aspnet-ajax/api/client/args/Telerik.Web.UI.ButtonCheckedEventArgs), containing the following properties and methods:
 
@@ -28,7 +28,7 @@ The event handler receives two parameters:
 
 This event is useful when the user wants to execute custom client code when the button changes its toggle state. 
 
->caption Example 1: Using OnClientCheckedChanged event to get the checked state of the checkbox.
+>caption Example 1: Using the OnClientCheckedChanged event to get the checked state of the checkbox.
 
 ````ASP.NET
 <script type="text/javascript">
