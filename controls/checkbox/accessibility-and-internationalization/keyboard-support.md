@@ -12,7 +12,7 @@ position: 2
 
 There are several ways to use the **RadCheckBox** via the keyboard only:
 
-* Set its **TabIndex** property and use the **Tab** key to navigate to the desired button and then press the **Enter** key to invoke a click on the button.
+* Set its **TabIndex** property and use the **Tab** key to navigate to the desired chekbox and then press the **Enter** key to invoke a click on the checkbox.
 
 * Set its **AccessKey** property. This allows you to use the browser's shortcut combination to invoke the click ("Alt + AccessKey in IE and Chrome", "Shift + Alt + AccessKey" for Firefox, Shift + Esc + AccessKey for Opera).
 

@@ -21,12 +21,6 @@ In order to enable the WAI-ARIA support, set the **RadCheckBox** control's `Enab
 ````ASP.NET
 <telerik:RadCheckBox ID="RadCheckBox1" runat="server" EnableAriaSupport="true">
 	<AriaSettings DescribedBy="someElementId" Label="Some Label Value" />
-	<ToggleStates>
-		<telerik:ButtonToggleState Text="First state">
-		</telerik:ButtonToggleState>
-		<telerik:ButtonToggleState Text="Second state">
-		</telerik:ButtonToggleState>
-	</ToggleStates>
 </telerik:RadCheckBox>
 ````
 

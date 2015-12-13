@@ -22,18 +22,14 @@ Generally, responsive design means that the page and its content are able to ada
 
 ````CSS
 <style type="text/css">
-	button.RadButton {
+	button.RadCheckBox {
 		font-size: 26px;
 	}
 </style>
 ````
 
 ````ASP.NET
-<telerik:RadCheckBox runat="server" ID="RadCheckBox1" Text="Elastic Toggle Button">
-	<ToggleStates>
-		<telerik:ButtonToggleState Text="State 1"/>
-		<telerik:ButtonToggleState Text="State 2" /> 
-	</ToggleStates>
+<telerik:RadCheckBox runat="server" ID="RadCheckBox1" Text="Elastic CheckBox Button" Checked="true">
 </telerik:RadCheckBox>
 ````
 
@@ -42,6 +38,4 @@ Generally, responsive design means that the page and its content are able to ada
  * [Mobile Support Overview]({%slug checkbox/mobile-support/overview%})
 
  * [Render Modes]({%slug checkbox/mobile-support/render-modes%})
-
- * [Fluid Design]({%slug checkbox/mobile-support/fluid-design%})
 

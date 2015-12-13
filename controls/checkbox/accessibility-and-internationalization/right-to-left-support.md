@@ -20,15 +20,7 @@ The **RadCheckBox** fully supports right-to-left (RTL) language locales (**Figur
 
 ````ASP.NET
 <div style="direction: rtl;">
-	<telerik:RadCheckBox ID="RadCheckBox1" runat="server">
-		<ToggleStates>
-			<telerik:ButtonToggleState Text="موافق">
-				<Icon CssClass="rbOk" />
-			</telerik:ButtonToggleState>
-			<telerik:ButtonToggleState Text="إلغاء">
-				<Icon CssClass="rbCancel" />
-			</telerik:ButtonToggleState>
-		</ToggleStates>
+	<telerik:RadCheckBox ID="RadCheckBox1" runat="server" Text="موافق" Checked="true">
 	</telerik:RadCheckBox>
 </div>
 ````

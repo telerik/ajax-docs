@@ -16,11 +16,7 @@ To apply a skin to a **RadCheckBox** control, set its **Skin** property.
 
 **RadCheckBox** is installed with a number of preset skins. These are shown below:
 
-![RadCheckBox-skins](images/RadCheckBox-skins.png)
-
-## Using Custom Images in a State
-
-**RadCheckBox** allows the developer to use a [custom image for a state]({%slug checkbox/functionality/image%}). Once this is done, the entire control is considered a custom image and it will no longer have the default push button appearance (border and backgrounds). Thus, if you mix push button states and image states, the push button states will look like plain text on the page.
+![RadCheckBox-skins](images/checkbox-skins.png)
 
 ## Customizing Skins
 
@@ -38,6 +34,3 @@ The stylesheet for a **RadCheckBox** skin has the name **Button.[SkinName].css**
 
  * [Create a Custom Skin]({%slug checkbox/appearance-and-styling/create-a-custom-skin%})
 
- * [Primary and Secondary Action Buttons]({%slug checkbox/appearance-and-styling/primary-and-secondary-action-buttons%})
- 
- * [Image]({%slug checkbox/functionality/image%})

@@ -5,7 +5,7 @@ description: Render Modes
 slug: checkbox/mobile-support/render-modes
 tags: render,modes
 published: True
-position: 3
+position: 2
 ---
 
 # Render Modes
@@ -32,10 +32,6 @@ There are two ways to configure the rendering mode of the controls:
 	**ASP.NET**
 
 		<telerik:RadCheckBox ID="RadCheckBox1" runat="server" RenderMode="Lightweight">
-			<ToggleStates>
-				<telerik:ButtonToggleState Text="State 1"/>
-				<telerik:ButtonToggleState Text="State 2" /> 
-			</ToggleStates>
 		</telerik:RadCheckBox>
 
 
@@ -53,7 +49,7 @@ There are two ways to configure the rendering mode of the controls:
 	**web.config**
 
 		<appSettings>
-			<add key="Telerik.Web.UI.PushButton.RenderMode" value="Lightweight" />
+			<add key="Telerik.Web.UI.CheckBox.RenderMode" value="Lightweight" />
 		</appSettings>
 
 
@@ -63,4 +59,3 @@ There are two ways to configure the rendering mode of the controls:
 
  * [Elastic Design]({%slug checkbox/mobile-support/elastic-design%})
 
- * [Fluid Design]({%slug checkbox/mobile-support/fluid-design%})

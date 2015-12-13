@@ -5,7 +5,7 @@ description: Create a Custom Skin
 slug: checkbox/appearance-and-styling/create-a-custom-skin
 tags: create,a,custom,skin
 published: True
-position: 3
+position: 1
 ---
 
 # Create a Custom Skin
@@ -43,12 +43,6 @@ The second file represents the actual skin of the control, and its name consists
 	**ASP.NET**
 
 		<telerik:RadCheckBox runat="server" ID="RadCheckBox1" Skin="MyCustomSkin" EnableEmbeddedSkins="false">
-			<ToggleStates>
-				<telerik:ButtonToggleState Text="First state">
-				</telerik:ButtonToggleState>
-				<telerik:ButtonToggleState Text="Second State">
-				</telerik:ButtonToggleState>
-			</ToggleStates>
 		</telerik:RadCheckBox>
 
 1. Register **Button.MyCustomSkin.css** in the head section of your web page. In order to have the CSS applied correctly, the base stylesheet should come first in the DOM:
@@ -69,38 +63,26 @@ The example below shows how to modify the CSS in order not only to change some c
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
+<head id="Head1" runat="server">
 	<title></title>
 	<style>
-		/* Button normal state */
-		.RadButton.RadButton_Default.rbButton {
-			background-color: #80078e;
-			background-image: linear-gradient(#4f0258, #80078e 100%);
-			border-color: #6b536e;
-			color: #fff;
+		/* Checkbox normal state */
+		html .RadButton_Default.rbCheckBox .rbIcon,
+		html .RadButton_Default.rbCheckBox .rbText {
+			color: #80078e;
 		}
 
-		/* Button hovered state */
-		.RadButton.RadButton_Default.rbButton.rbHovered {
-			background-color: #660283;
-			background-image: linear-gradient(#660283, #f2ddf8 100%);
-			border-color: #47035a;
+		/* Checkbox hovered state */
+		html .RadButton_Default.rbCheckBox.rbHovered .rbIcon,
+		html .RadButton_Default.rbCheckBox.rbHovered .rbText {
 			color: #3a0470;
 		}
-
 	</style>
 </head>
 <body>
 	<form id="form1" runat="server">
-		<asp:ScriptManager runat="server"></asp:ScriptManager>
-		<telerik:RadCheckBox runat="server" ID="RadCheckBox1">
-			<ToggleStates>
-				<telerik:ButtonToggleState Text="First state">
-					<Icon CssClass="rbPrint" />
-				</telerik:ButtonToggleState>
-				<telerik:ButtonToggleState Text="Second State">
-				</telerik:ButtonToggleState>
-			</ToggleStates>
+		<asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+		<telerik:RadCheckBox runat="server" ID="RadCheckBox1" Text="Check here">
 		</telerik:RadCheckBox>
 	</form>
 </body>

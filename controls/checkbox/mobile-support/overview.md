@@ -12,7 +12,7 @@ position: 0
 
 **RadCheckBox** for ASP.NET AJAX is a mobile friendly control that works on wide screens as well as on smaller screens. By design, the control has lightweight rendering that is based on the latest web technology (i.e., HTML5 and CSS3).
 
-To facilitate responsive web page design, **RadCheckBox** offers [Elastic design]({%slug checkbox/mobile-support/elastic-design%}) and [Fluid design]({%slug checkbox/mobile-support/fluid-design%}) features.
+To facilitate responsive web page design, **RadCheckBox** offers [Elastic design]({%slug checkbox/mobile-support/elastic-design%}) and fluid design.
 
 ## See Also
 
@@ -20,4 +20,3 @@ To facilitate responsive web page design, **RadCheckBox** offers [Elastic design
 
  * [Elastic Design]({%slug checkbox/mobile-support/elastic-design%})
 
- * [Fluid Design]({%slug checkbox/mobile-support/fluid-design%})
