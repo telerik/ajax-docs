@@ -48,7 +48,7 @@ The following table lists the most important members of the client-side RadImage
 | **.get_commandArgument()** |Gets an optional parameter passed to the Command event along with the associated CommandName.|
 | **.set_commandArgument()** |Sets an optional parameter passed to the Command event along with the associated CommandName.|
 | **.get_autoPostBack()** |Gets a bool value indicating whether the RadImageButton control automatically posts back to the server when clicked.|
-| **.set_autoPostBack()** |Sets or sets a bool value indicating whether the RadImageButton control automatically posts back to the server when clicked.| <<Comment: Sets or sets a bool value seems like the same thing. Please review. I think "Sets a bool value" is likely correct.>>
+| **.set_autoPostBack()** |Sets a bool value indicating whether the RadImageButton control automatically posts back to the server when clicked.|
 | **.get_height()** |Gets the height of the RadImageButton control.|
 | **.get_width()** |Gets the width of the RadImageButton control.|
 | **.get_singleClick()** |Gets a bool value indicating whether the RadImageButton control will be immediately disabled after the user has clicks it. (For example, enables/disables "Single Click" functionality.)|
