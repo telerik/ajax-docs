@@ -14,7 +14,7 @@ You can use the client-side API of the **RadImageButton** control to modify the 
 
 To handle the desired event, the user should use the respective **add_<eventName>(handlerFunction)** to attach the desired handler (i.e., **add_clicked** for the clicked event), where the parameter *handlerFunction* should be of type **function**. To remove a handler that has been added previously, the respective **remove_<eventName>(handlerFunction)** should be used.
 
-The followings examples show how to add and remove handlers on the client:
+The following examples show how to add and remove handlers on the client:
 
 >caption Example 1: Adding a named (non-anonymous) JavaScript click handler to RadImageButton.
 
