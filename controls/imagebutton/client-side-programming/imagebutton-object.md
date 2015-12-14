@@ -51,8 +51,8 @@ The following table lists the most important members of the client-side RadImage
 | **.set_autoPostBack()** |Sets a bool value indicating whether the RadImageButton control automatically posts back to the server when clicked.|
 | **.get_height()** |Gets the height of the RadImageButton control.|
 | **.get_width()** |Gets the width of the RadImageButton control.|
-| **.get_singleClick()** |Gets a bool value indicating whether the RadImageButton control will be immediately disabled after the user has clicks it. (For example, enables/disables "Single Click" functionality.)|
-| **.get_singleClickText()** |Gets the text displayed in the RadImageButton control after the button is being clicked and disabled. (For example, the text used for the 'Single Click' functionality.)|
+| **.get_singleClick()** |Gets a bool value indicating whether the RadImageButton control will be immediately disabled after the user has clicks it.|
+| **.get_singleClickText()** |Gets the text displayed in the RadImageButton control after the button is being clicked and disabled.|
 | **.enableAfterSingleClick()** |Enables the button and restores the button's text after it has been disabled by a single click.|
 | **.get_visible()** |Gets a bool value indicating whether the button is visible.|
 | **.set_visible()** |Shows/hides the button.|
