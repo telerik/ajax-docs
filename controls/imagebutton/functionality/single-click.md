@@ -26,7 +26,7 @@ The following properties should be used to enable the single click functionality
 
 * **SingleClickText** - determines the text displayed in the **RadImageButton** control after the user has clicked the button and it is disabled while the server request executes. The original text will be retrieved after the server request execution. The property takes a plain text string.
 
->caption Example 1: The code that enables the single click functionality in **RadImageButton** from **Figure 1** and **Figure 2**.
+>caption Example 1: The code that enables the SingleClick functionality in **RadImageButton** from **Figure 1** and **Figure 2**.
 
 ````ASP.NET
 <telerik:RadTextBox ID="txtName" runat="server" Width="180px" EmptyMessage="Enter your name..."/>
