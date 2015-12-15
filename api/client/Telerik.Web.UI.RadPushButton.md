@@ -23,3 +23,27 @@ Gets a reference to the HTML element that holds the icon.
 #### Returns
 
 `Element` A reference to the HTML element that holds the icon.
+
+### get_primary
+
+Gets a bool value indicating whether the button control is primary.
+
+#### Parameters
+
+#### Returns
+
+`Boolean` A bool value
+
+### set_primary
+
+Sets a bool value indicating whether the button control is primary.
+
+#### Parameters
+
+##### value `Boolean`
+
+A bool value indicating whether the button control is primary.
+
+#### Returns
+
+`None` 

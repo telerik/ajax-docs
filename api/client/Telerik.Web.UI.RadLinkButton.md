@@ -61,3 +61,27 @@ Gets the target window or frame in which to display the Web page content linked 
 #### Returns
 
 `String` The target window or frame in which to display the Web page content linked to when the RadButton control is clicked.
+
+### get_primary
+
+Gets a bool value indicating whether the button control is primary.
+
+#### Parameters
+
+#### Returns
+
+`Boolean` A bool value
+
+### set_primary
+
+Sets a bool value indicating whether the button control is primary.
+
+#### Parameters
+
+##### value `Boolean`
+
+A bool value indicating whether the button control is primary.
+
+#### Returns
+
+`None` 

@@ -180,26 +180,6 @@ Gets the unique, hierarchically qualified identifier for the RadButton control.
 
 `String` The unique
 
-### get_primary
-
-Gets a bool value indicating whether the button control is primary.
-
-#### Parameters
-
-#### Returns
-
-`Boolean` A bool value
-
-### set_primary
-
-Sets a bool value indicating whether the button control is primary.
-
-#### Parameters
-
-##### value `Boolean`
-
-A bool value indicating whether the button control is primary.
-
 ### click
 
 Executes programmatic button click.
