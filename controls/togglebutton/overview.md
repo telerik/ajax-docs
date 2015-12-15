@@ -12,7 +12,7 @@ position: 0
 
 **RadToggleButton** (**Figure 1**) lets you define several [states]({%slug togglebutton/functionality/select-state%}) the button will go through as the user clicks it. Additionally, it provides events, supports Commands, lets you [define icons]({%slug togglebutton/functionality/icons/embedded-icons%}) or [images]({%slug togglebutton/functionality/image%}) in those states, and has a [mechanism to prevent multiple postbacks]({%slug togglebutton/functionality/single-click%}).
 
-The control can be easily styled by changing the **[Skin]({%slug togglebutton/appearance-and-styling/skins%})** property, and by setting properties that change the look of the control like the **[Primary]({%slug togglebutton/appearance-and-styling/primary-action-button%})** property or any of the properties that control the icons/images in its states.
+The control can be easily styled by changing the **[Skin]({%slug togglebutton/appearance-and-styling/skins%})** property or any of the properties that control the icons/images in its states.
 
 
 
