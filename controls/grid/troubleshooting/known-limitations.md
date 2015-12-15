@@ -144,6 +144,26 @@ It is expected to receive the following warning when opening the generated **xls
 
 The DataField and the UniqueName of a column must contain only letters, numbers and "_". Following the conventions, variables could not start with a number and having auto-generated columns where the column names have a numeric prefix could lead to numerous problems and is not supported scenario.
 
+
+When changing the **HeaderText** for automatically generated columns you should use the **DataField** property of the column: 
+
+````C#
+protected void RadGrid1_ColumnCreated(object sender, GridColumnCreatedEventArgs e)
+{
+	if (e.Column is GridBoundColumn) {
+		e.Column.HeaderText = ((GridBoundColumn)e.Column).DataField;
+	}
+}
+````
+````VB
+Protected Sub RadGrid1_ColumnCreated(sender As Object, e As GridColumnCreatedEventArgs) Handles RadGrid1.ColumnCreated
+    If TypeOf e.Column Is GridBoundColumn Then
+        e.Column.HeaderText = DirectCast(e.Column, GridBoundColumn).DataField
+    End If
+End Sub
+````
+
+
 **RadGrid edit form is not shown when GroupsDefaultExpanded is seto to "false". ** Possible workaround is presented below:
 
 ````C#
