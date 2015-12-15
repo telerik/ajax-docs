@@ -80,6 +80,8 @@ The difference between the trial and licensed version of the Telerik controls is
 
 Once you have a licensed package, simply **follow the steps from the [Upgrade to a Newer Version of Telerik UI for ASP.NET AJAX section](#upgrade-to-a-newer-version-of-telerik-ui-for-aspnet-ajax) to delete the trial assemblies and replace them with the developer versions**.
 
+>tip You should delete (uninstall) the Trial version from your machine before upgrading to the licensed ones. Doing so eliminates the chance of trial assemblies still making it into the project references or even production. 
+
 ## Upgrading Troubleshooting
 
 ### Installation Issues
