@@ -18,6 +18,9 @@ This article lists the most common issues related to RadImageEditor:
 
 * [Event Handlers Might Not Be Not Raised in a Default Document in IIS 7 or IIS 7.5 Integrated Mode](#event-handlers-might-not-be-not-raised-in-a-default-document-in-iis-7-or-iis-75-integrated-mode)
 
+* [The Image Is Not Loaded or/and a Security JavaScript Error is Thrown](#the-given-image-is-not-loaded-orand-a-security-javascript-error-is-thrown)
+
+
 
 ## The Image Disappears When I Click on  Crop / Add Text / Save / Reset
 
@@ -68,7 +71,7 @@ When RadCompression is enabled and you are using .NET 4.0, event handlers might 
 This problem is caused by a breaking change in .NET 4.0 described [here](http://www.asp.net/learn/whitepapers/aspnet4/breaking-changes#0.1**Toc256770154). To workaround it one can set **preCondition="managedHandler"** for the RadCompression module. You may also need to remove the **runAllManagedModulesForAllRequests** setting from your web.config if you have it (or set it to false).
 
 
-## The Given Image Is Not Loaded or/and a Security JavaScript Error is Thrown
+## The Image Is Not Loaded or/and a Security JavaScript Error is Thrown
 
 
 *Problem*
