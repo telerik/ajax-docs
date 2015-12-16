@@ -12,20 +12,6 @@ position: 1
 
 You can set the header and pop up width and height of a specified dropdown tool of RadEditor for ASP.NET AJAX:
 
-
-
-* **inline in the RadEditor's declaration:**
-
-````ASP.NET
-<telerik:RadEditor runat="server" OnClientLoad="OnClientLoad" ID="RadEditor1">
-	<Tools>
-		<telerik:EditorToolGroup>
-			<telerik:EditorTool Name="FontName" popupwidth="300px" popupheight="300px" width="300px" />
-		</telerik:EditorToolGroup>
-	</Tools>
-</telerik:RadEditor>
-````
-
 * **through the ToolsFile.xml file:**
 
 ````XML
