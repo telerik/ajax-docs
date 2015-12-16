@@ -30,6 +30,7 @@ To see how to work dynamically with client-side event handlers examine the [Clie
 
 | Name | Parameters | Return Type | Description |
 | ------ | ------ | ------ | ------ |
+|clearGroupTitles()|||Clears all group titles.|
 |clearSelection(excludeIndex)|Int||Unselects all selected tiles except the excludeIndex. The first passed parameter is an integer	that contains the index of the tile in the array returned by get_allTiles method.|
 |dataBind()|||Data binds RadTileList to the current dataSource array, which might be set by the clientDataSourceID, clientDataSource and dataSource properties.|
 |get_allTiles()||Array|Returns Array containing all the tiles in RadTileList.|
@@ -56,6 +57,7 @@ To see how to work dynamically with client-side event handlers examine the [Clie
 |set_clientDataSourceID(value)|string||Sets the client ID of RadClientDataSource object to which the TileList is data bound.|
 |set_dataSource(data)|Array||Sets the the array to which the TileList is data bound.|
 |set_enableDragAndDrop(value)|bool||Sets a value indicating whether a drag and drop functionality is enabled.|
+|set_groupTitle(group, title)|`Telerik.Web.UI.TileList.TileGroup`, `string`||Sets the title to the provided group.|
 |set_height(value)|String/int||Sets the height of the RadTileList element.|
 |set_scrollingMode(value)|Int||Sets the RadTileList [scrolling mode]({%slug tilelist/functionality/scrolling%}). The`Telerik.Web.UI.TileList.TileListScrollingMode` enum can be used	instead of an integer, where: 1 = Telerik.Web.UI.TileList.TileListScrollingMode.**Auto** mode, 2 = Telerik.Web.UI.TileList.TileListScrollingMode.**None** mode, 4 = Telerik.Web.UI.TileList.TileListScrollingMode.**Native** mode, 8 = Telerik.Web.UI.TileList.TileListScrollingMode.**Accelerated** mode.|
 |set_selectionMode(value)|Int||Sets the [selection mode]({%slug tilelist/functionality/selecting%}) of RadTileList. The`Telerik.Web.UI.TileList.TileListSelectionMode` enum can be used	instead of an integer, where: 1 = Telerik.Web.UI.TileList.TileListSelectionMode.**None** mode, 2 = Telerik.Web.UI.TileList.TileListSelectionMode.**Single** mode, 4 = Telerik.Web.UI.TileList.TileListSelectionMode.**Multiple** mode.|
