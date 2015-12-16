@@ -66,3 +66,22 @@ When RadCompression is enabled and you are using .NET 4.0, event handlers might 
 *Solution*
 
 This problem is caused by a breaking change in .NET 4.0 described [here](http://www.asp.net/learn/whitepapers/aspnet4/breaking-changes#0.1**Toc256770154). To workaround it one can set **preCondition="managedHandler"** for the RadCompression module. You may also need to remove the **runAllManagedModulesForAllRequests** setting from your web.config if you have it (or set it to false).
+
+
+## The Given Image Is Not Loaded or/and a Security JavaScript Error is Thrown
+
+
+*Problem*
+
+By design **RadImageEditor can work only with virtual paths** pointing to images placed inside its application root directory and using images from external URLs (*http://host/image.jpg*) or physical location (*C://images/image.jpg*) is not supported out-of-the-box. Such configuration may lead to **not rendered or not editable image** (so the image operations will not work properly on it). 
+
+Loading images through an external URL usually leads to the following **JavaScript error**:
+````SecurityError: The operation is insecure.````
+
+*Solution*
+
+There are several possible ways to resolve the problem:
+
+* Use virtual path to the image you want to edit , e.g. *“~/images/image.jpg”*.
+* Load the image as a file stream and follow the image-loading approach used [here](http://demos.telerik.com/aspnet-ajax/imageeditor/examples/customsaving/defaultcs.aspx).
+* Implement a custom [Image Content Provider](http://docs.telerik.com/devtools/aspnet-ajax/controls/imageeditor/functionality/using-a-custom-image-provider) that handles the loading and working with images from different storage locations.
