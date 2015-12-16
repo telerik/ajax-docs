@@ -45,6 +45,8 @@ The control offers a rich set of features:
 	
 	* Badge—a smaller image or a numerical value in the other bottom corner. A predefined set of images that match our skins is also available
 
+* **[Group Titles]({%slug tilelist/functionality/group-title%})**
+
 * **[Data binding]({%slug tilelist/data-binding/overview%})**—the control can generate Tiles according to information from a datasource.
 
 * **[Client-side Data binding]({%slug tilelist/data-binding/client-side-data-binding%})**—the control can generate Tiles according to informationfrom a simple client-side datasource or using the **RadClientDataSource** control.
