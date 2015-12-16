@@ -54,7 +54,6 @@ You can find the needed assemblies in the **AdditionalLibraries** folder in the 
 
 * **Telerik.Windows.Documents.Spreadsheet.dll** — the main assembly for the spreadsheet processing. It is needed for processing XLSX, CSV, TXT documents.
 
-* **Telerik.Windows.Maths.dll** — the assembly needed for mathematical operations with the spreadsheet processing. It is needed for processing XLSX, CSV, TXT documents.
 
 * **Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.dll** — this assembly is needed for processing XLSX documents.
 
