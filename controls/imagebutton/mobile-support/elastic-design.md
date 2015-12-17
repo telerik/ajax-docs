@@ -22,17 +22,19 @@ Generally, responsive design means that the page and its content are able to ada
 
 ````CSS
 <style type="text/css">
-	button.RadButton {
-		font-size: 26px;
-	}
+    button.RadButton {
+        font-size: 19px;
+    }
 </style>
 ````
 
 ````ASP.NET
-<telerik:RadImageButton runat="server" ID="ImageButton"
-	Text="Elastic Button" Skin="Default" Width="200px">
+<telerik:RadImageButton runat="server" ID="RadImageButton2" Text="Elastic Button" Width="140px" Height="50px">
+    <Image Url="images/blue_button_bg.png" />
 </telerik:RadImageButton>
 ````
+
+You can download the image used in this example from here—[blue_button_bg.png](images/blue_button_bg.png).
 
 ## See Also
 
