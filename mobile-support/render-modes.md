@@ -39,6 +39,7 @@ Some controls from the UI for ASP.NET AJAX suite	can produce different (usually 
 |Gauge|N/A|-|
 |Grid|[Yes (render mode)]({%slug grid/mobile-support/render-modes%})|[Yes (render mode)]({%slug grid/mobile-support/mobile-rendering/overview%})|
 |HtmlChart|Yes (by design)|-|
+|ImageButton|[Yes (render mode)]({%slug imagebutton/mobile-support/render-modes%})|-|
 |ImageEditor|[Yes (render mode)]({%slug imageeditor/mobile-support/render-modes%})|-|
 |ImageGallery|Yes (by design)|[Yes (render mode)]({%slug imagegallery/mobile-support/mobile-rendering%})|
 |Input|[Yes (render mode)]({%slug input/mobile-support/render-modes%})|-|
