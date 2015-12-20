@@ -57,4 +57,4 @@ Furthermore, here are the internally recognized command arguments you can check:
 | **Next** |Indicates that the end user chose to navigate to the next page in the listview|
 | **Prev** |Indicates that the end user chose to navigate to the previous page in the listview|
 | **Last** |Indicates that the end user chose to navigate to the last page in the listview|
-| **<NumericValue>** |<NumericValue> should be replaced with number that points to the page to which the control should navigate to|
+| **\<NumericValue\>** |\<NumericValue\> should be replaced with number that points to the page to which the control should navigate to|
