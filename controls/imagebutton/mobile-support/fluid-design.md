@@ -10,15 +10,15 @@ position: 2
 
 # Fluid Design
 
-This article explains the **fluid design capabilities RadImageButton offers**. **Example 1** below shows how you can set button size in percent so it can resize with its parent element. If you need the image to also respect the button size, you need to set the `Sizing` property of the `Image` tag to `Stretch`.
+This article explains the **fluid design capabilities RadImageButton offers**. **Example 1** shows how you can set button size in percent so it can resize with its parent element. If you need the image to also respect the button size, you need to set the `Sizing` property of the `Image` tag to `Stretch`.
 
 Generally, responsive design means that the page and its content are able to adapt to different screen resolutions without deteriorating the user experience. This often includes [changing the font size]({%slug imagebutton/mobile-support/elastic-design%}) and having dimensions set in percent.
 
->caption Figure 1: RadImageButton set to 100% width and and 25% height.
+>caption Figure 1: RadImageButton set to 100% width and 25% height.
 
 ![imagebutton-fluid-design](images/imagebutton-fluid-design.png)
 
->caption Example 1: Shows the markup that provides fluid design of the RadImageButton in Figure 1.
+>caption Example 1: Markup that provides fluid design of the RadImageButton in Figure 1.
 
 ````ASP.NET
 <style>
