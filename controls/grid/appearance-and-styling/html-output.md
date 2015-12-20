@@ -59,7 +59,7 @@ The HTML output of a simple RadGrid control without any client features is the f
 
 * **div.RadGrid.RadGrid**_ - the control's wrapper, which holds the skin name. Normally it is a block-level element with a border, so setting 100% width to the control is both unnecessary and causes content overflow by amount of the left and right border widths.
 
-* **table.rgMasterTable** - the control's data container with a number of columns and rows, according to the datasource or control configuration. It contains a <thead> element with the header row, a <tbody> element with the data rows and a <colgroup> element with <cols> which may define column widths and visibility. If the MasterTableView's **TableLayout** is set to "Fixed", the table gets one more CSS class - **rgClipCells**, which causes the non-fitting cell content to be clipped, otherwise it would overflow to the next column.
+* **table.rgMasterTable** - the control's data container with a number of columns and rows, according to the datasource or control configuration. It contains a \<thead\> element with the header row, a \<tbody\> element with the data rows and a \<colgroup\> element with \<cols\> which may define column widths and visibility. If the MasterTableView's **TableLayout** is set to "Fixed", the table gets one more CSS class - **rgClipCells**, which causes the non-fitting cell content to be clipped, otherwise it would overflow to the next column.
 
 * **th.rgHeader** - a column header cell. Note that by default table headers are centered, but in RadGrid they are left aligned. You can override this.
 
@@ -67,11 +67,11 @@ The HTML output of a simple RadGrid control without any client features is the f
 
 **RadGrid** HTML output with some features are enabled:
 
-When **sorting** is enabled, the header text is enclosed inside an **<a>** element and the sorting indicators appears as **<input type="button" />** elements after it. Also, the header and data cells from the sorted column receive a **rgSorted** CSS class (unless you have set ClientSettings.EnableSkinSortStyles="false").
+When **sorting** is enabled, the header text is enclosed inside an **\<a\>** element and the sorting indicators appears as **\<input type="button" /\>** elements after it. Also, the header and data cells from the sorted column receive a **rgSorted** CSS class (unless you have set ClientSettings.EnableSkinSortStyles="false").
 
 When **filtering**is enabled, a filtering row (**tr.rgFilterRow**) appears below the header row. The filter row contains filtering controls (textboxes, date pickers, etc) and filtering buttons which are input.rgFilter elements (styled push buttons).
 
-When **paging** is enabled, a pager row (**tr.rgPager**) appears below all other rows (or above the header row if PagerStyle.Position is set accordingly). Depending on the PagerStyle.Mode property, the pager can contain different controls - styled LinkButtons, PushButtons, RadNumericTextbox, RadComboBox, RadSlider and labels. All these are wrapped in several <div>s with a **rgWrap** CSS class and a second CSS class which identifies the wrapper type - e.g. **rgNumPart** is for the numeric LinkButtons, **rgInfoPart** is for the pager label, **rgArrPart1** is for the First and Previous buttons, while **rgArrPart2** is for the Next and Last buttons. These <div>s are floated, so you cannot control the overall layout of the pager by using the PagerStyle.HorizontalAlign property. A possible alternative option is to override the skin and float the <div>s to the opposite direction, or use a pager template.
+When **paging** is enabled, a pager row (**tr.rgPager**) appears below all other rows (or above the header row if PagerStyle.Position is set accordingly). Depending on the PagerStyle.Mode property, the pager can contain different controls - styled LinkButtons, PushButtons, RadNumericTextbox, RadComboBox, RadSlider and labels. All these are wrapped in several \<div\>s with a **rgWrap** CSS class and a second CSS class which identifies the wrapper type - e.g. **rgNumPart** is for the numeric LinkButtons, **rgInfoPart** is for the pager label, **rgArrPart1** is for the First and Previous buttons, while **rgArrPart2** is for the Next and Last buttons. These \<div\>s are floated, so you cannot control the overall layout of the pager by using the PagerStyle.HorizontalAlign property. A possible alternative option is to override the skin and float the \<div\>s to the opposite direction, or use a pager template.
 
 When the **command item row** is enabled, it is rendered as a **tr.rgCommandRow** element with a single child node - **td.rgCommandCell**, which in turn contains a **table.rgCommandTable** with two table cells. One cell contains the Add New Record button (**input.rgAdd**) and the other contains the Refresh button (**input.rgRefresh**) and the export buttons (**input.rgExpXLS**, **input.rgExpPDF**, **input.rgExpCSV**, **input.rgExpDOC**).
 
@@ -83,7 +83,7 @@ When **hierarchy** is used, each nested tableview is a **table.rgDetailTable** e
 
 * The MasterTableView and all DetailTables should have a **border-collapse:separate** CSS style applied (included in the base stylesheet), otherwise rendering bugs in Internet Explorer 6 are triggered when using grouping or hierarchy with client-side expand/collapse. Because of this style, the table cells cannot have borders on all sides, because they will appear too thick. As a result, only left and bottom borders are used in the control's embedded skins.
 
-* The <col> elements cannot be used for easier styling of columns, because this is not a cross-browser approach. They also can't be referenced on the server.
+* The \<col\> elements cannot be used for easier styling of columns, because this is not a cross-browser approach. They also can't be referenced on the server.
 
 * Table row elements cannot have borders and paddings. Set these only to table cells.
 
@@ -91,7 +91,7 @@ When **hierarchy** is used, each nested tableview is a **table.rgDetailTable** e
 
 * Column widths cannot be controlled via CSS when static headers are used. Normally they should not be controlled via CSS in any case.
 
-* Hyperlinks (<a> elements) do not inherit **color** and **text-decoration** styles from parent elements, so you can't define such styles for them via properties, because they are applied to the table rows or cells. You should use CSS rules to target <a> elements directly.
+* Hyperlinks (\<a\> elements) do not inherit **color** and **text-decoration** styles from parent elements, so you can't define such styles for them via properties, because they are applied to the table rows or cells. You should use CSS rules to target \<a\> elements directly.
 
 * The sum of the left (or right) padding and left border width of each header cell should match the sum of left (or right) padding and left border width of all cells that belong to the same column - normal row cells, alternating row cells, group header cells, footer cells, edit row cells. Otherwise misalignment will occur in Internet Explorer when using static headers.
 
