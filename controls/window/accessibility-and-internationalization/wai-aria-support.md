@@ -31,6 +31,41 @@ RadWindow1.EnableAriaSupport = true
 RadWindowManager1.EnableAriaSupport = true
 ````
 
+Optionally, you can adjust the [aria-label](http://www.w3.org/WAI/PF/aria/states_and_properties#aria-label), [aria-labelledby](http://www.w3.org/WAI/PF/aria/states_and_properties#aria-labelledby), and [aria-describedby](http://www.w3.org/WAI/PF/aria/states_and_properties#aria-describedby) attributes by using the **Label**, **LabelledBy** and **DescribedBy** properties in the **AriaSettings** tag.
+
+>caption Example 2: Adjusting aria-label and aria-describedby attributes in RadWindow.
+
+````ASP.NET
+<telerik:RadWindow runat="server" ID="RadWindow1" EnableAriaSupport="true">
+    <AriaSettings Label="Label for this dialog." DescribedBy="describe_dialog" />
+    <ContentTemplate>
+        <p id="describe_dialog">
+            The text here describes the dialog. 
+        </p>
+    </ContentTemplate>
+</telerik:RadWindow>
+````
+
+>caption Example 3: Customizing RadAlert template and adjusting the aria-describedby attribute.
+
+````ASP.NET
+<telerik:RadWindowManager runat="server" ID="RadWindowManager1" EnableAriaSupport="true">
+    <AriaSettings DescribedBy="describe_id" />
+    <AlertTemplate>
+        <p>Basic text that does not describe the purpose of this alert.</p>
+        <%-- The element assigned in the DescribedBy property will be populated dynamically by calling the radalert() method. --%>
+        <p id="describe_id">{1}</p>
+    </AlertTemplate>
+</telerik:RadWindowManager>
+
+<script>
+    function pageLoad() {
+        $find("<%= RadWindowManager1.ClientID %>").radalert("The text that defines the purpose of the alert dialog.", 200, 200, "Title of the alert");
+    }
+</script>
+````
+
+
 >note The implementation of the WAI ARIA support is achieved entirely client-side (using JavaScript) by appending different attributes and appropriate WAI-ARIA roles to the DOM elements.	This is done because an HTML document containing ARIA attributes will not pass validation if they are added on the server.
 
 
