@@ -31,7 +31,11 @@ RadWindow1.EnableAriaSupport = true
 RadWindowManager1.EnableAriaSupport = true
 ````
 
+By enabling the WAI-ARIA support, **RadWindow** and **RadWindowManager** will automatically set the `aria-labelledby` attribute to the id of the dialog's title element. In order to facilitate the WAI-ARIA support, you should configure the dialog with **Title**.    
+
 Optionally, you can adjust the [aria-label](http://www.w3.org/WAI/PF/aria/states_and_properties#aria-label), [aria-labelledby](http://www.w3.org/WAI/PF/aria/states_and_properties#aria-labelledby), and [aria-describedby](http://www.w3.org/WAI/PF/aria/states_and_properties#aria-describedby) attributes by using the **Label**, **LabelledBy** and **DescribedBy** properties in the **AriaSettings** tag.
+
+>note **RadWindowManager** will populate the same aria-related settings to all managed dialogs. If a certain **RadWindow** needs different settings, you should further configure them by using its inner **AriaSettings** tag, and thus, to override the ones derived from **RadWindowManager** (**Example 3**). 
 
 >caption Example 2: Adjusting aria-label and aria-describedby attributes in RadWindow.
 
@@ -46,17 +50,49 @@ Optionally, you can adjust the [aria-label](http://www.w3.org/WAI/PF/aria/states
 </telerik:RadWindow>
 ````
 
->caption Example 3: Customizing RadAlert template and adjusting the aria-describedby attribute.
+>caption Example 3: Adjusting aria-label and aria-describedby attributes in RadWindowManager.
 
 ````ASP.NET
 <telerik:RadWindowManager runat="server" ID="RadWindowManager1" EnableAriaSupport="true">
+    <AriaSettings LabelledBy="[Element_ID]" />
+    <Windows>
+        <telerik:RadWindow runat="server" ID="RadWindow1">
+            <AriaSettings Label="Label for this dialog." DescribedBy="describe_dialog" />
+            <ContentTemplate>
+                <p id="describe_dialog">
+                    The text here describes the dialog. 
+                </p>
+            </ContentTemplate>
+        </telerik:RadWindow>
+    </Windows>
+</telerik:RadWindowManager>
+````
+
+>caption Example 4: Customizing RadAlert template and adjusting the aria-describedby attribute.
+
+````ASP.NET
+<telerik:RadWindowManager runat="server" ID="RadWindowManager2" EnableAriaSupport="true">
     <AriaSettings DescribedBy="describe_id" />
     <AlertTemplate>
-        <p>Basic text that does not describe the purpose of this alert.</p>
-        <%-- The element assigned in the DescribedBy property will be populated dynamically by calling the radalert() method. --%>
-        <p id="describe_id">{1}</p>
+        <div class="rwDialogPopup radalert">
+            <div class="rwDialogText" id="{0}_message">
+                <p>Basic text that does not describe the purpose of this alert.</p>
+                <%-- The element assigned in the DescribedBy property will be populated dynamically by calling the radalert() method. --%>
+                <p id="describe_id">{1}</p>
+            </div>
+
+            <div>
+                <a onclick="$find('{0}').close(true);"
+                    class="rwPopupButton" href="javascript:void(0);">
+                    <span class="rwOuterSpan">
+                        <span class="rwInnerSpan">##LOC[OK]##</span>
+                    </span>
+                </a>
+            </div>
+        </div>
     </AlertTemplate>
 </telerik:RadWindowManager>
+
 
 <script>
     function pageLoad() {
