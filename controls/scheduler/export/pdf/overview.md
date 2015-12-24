@@ -105,3 +105,7 @@ End Sub
 	
 ````
 
+## Limitations
+
+The **RadScheduler**'s export functionality will not work if the page is deployed as an Azure Website. In such scenarios we recommend using the **RadClientExportManager** control to export the **RadScheduler**'s content.
+

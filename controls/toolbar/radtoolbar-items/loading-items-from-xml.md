@@ -13,7 +13,7 @@ position: 6
 
 You can easily load the buttons of a toolbar from an XML source, as long as the source conforms to the following structure:
 
-1. The top level consists of a single node, called <ToolBar>. This node can include attributes for the **RadToolBar** properties:
+* The top level consists of a single node, called `<ToolBar>`. This node can include attributes for the **RadToolBar** properties:
 
 ````XML	     
 <?xml version="1.0" encoding="utf-8" ?> 
@@ -22,7 +22,7 @@ You can easily load the buttons of a toolbar from an XML source, as long as the 
 </ToolBar>			
 ````
 
-1. Below the <ToolBar> node are nodes for the buttons in the toolbar. These can be <Button>, <DropDown>, or <SplitButton> nodes, depending on the type of the button. The attributes of these nodes include the properties of the button object. For drop-down and split button types, the buttons in the drop-down list appear nested in the node:
+* Below the `<ToolBar>` node are nodes for the buttons in the toolbar. These can be `<Button>`, `<DropDown>`, or `<SplitButton>` nodes, depending on the type of the button. The attributes of these nodes include the properties of the button object. For drop-down and split button types, the buttons in the drop-down list appear nested in the node:
 
 ````XML
 <Button Text='Button1' Value='1' />

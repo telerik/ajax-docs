@@ -18,6 +18,12 @@ The **RadNavigation** control features responsive behavior, providing built-in s
 
 The button could be displayed at the leftmost or rightmost side of the **RadNavigation** control. This feature could be managed by the **MenuButtonPosition** property, which accepts two values : **Left** and **Right**.
 
+To force your content to appear at a maximum width of the device within the browser viewport and prevent horizontal scrolling on a full-screen browser, add the meta-viewport tag to the header of your pages:
+
+````ASPNET
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+````
+
 In the figures below, you can observe how the layout of the RadNavigation changes, regarding the size of the browser. In **Figure 1**, there is enough space to display some nodes in the **RadNavigation** and some under the sandwich-like button,while in **Figure** 2 all nodes are paced under the button.
 >caption Figure 1: Some nodes are placed under the sandwich-like button
 

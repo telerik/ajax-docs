@@ -14,9 +14,9 @@ position: 4
 
 ## 
 
-The server-side **NavigationBarButton** event occurs when a button within the navigation bar is clicked.
+The server-side **NavigationBarButtonClick** event occurs when a button within the navigation bar is clicked.
 
-The **NavigationBarButton** event handler receives two arguments:
+The **NavigationBarButtonClick** event handler receives two arguments:
 
 1. The **RadWizard** that contains the active step. This argument is of type object, but can be cast to the **RadWizard** type.
 
@@ -30,7 +30,7 @@ The **NavigationBarButton** event handler receives two arguments:
 
 	* **NextStep** - a reference to the next step.
 
-Use the **NavigationBarButton** event handler to respond when a button within the navigation bar is clicked.
+Use the **NavigationBarButtonClick** event handler to respond when a button within the navigation bar is clicked.
 
 
 
