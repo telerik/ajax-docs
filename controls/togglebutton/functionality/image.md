@@ -10,11 +10,11 @@ position: 1
 
 # Image
 
-This help article illustrates how to put an **image** in a toggle state of **RadToggleButton**.
+This help article illustrates how to put an **image** in a toggle state on a **RadToggleButton**.
 
-To define an image in **RadToggleButton** you should set the path to the image inside the **Image.Url** property of each toggle state (**Example 1**). You can also show text over the image by simply setting it in the **Text** property.
+To define an image in a **RadToggleButton** you should set the path to the image inside the **Image.Url** property of each toggle state (**Example 1**). You can also show text over the image by simply setting it in the **Text** property.
 
-You can control the image dimensions through the **Width** and **Height** properties which are exposed globally (the **RadToggleButton** object) as well as per each toggle state (the **ButtonToggleState** objects).
+You can control the image dimensions through the **Width** and **Height** properties, which are exposed globally (the **RadToggleButton** object) as well as in each toggle state (the **ButtonToggleState** objects).
 
 >caption Figure 1: RadToggleButton with image.
 
@@ -44,7 +44,7 @@ You can control the image dimensions through the **Width** and **Height** proper
 
 ## Hovered, Active and Disabled States
 
-**RadToggleButton** also provides an easy way to show different images when the mouse is over the control, the button is pressed or disabled (see **Figure 2** and **Example 2**). To do this, use the **PressedUrl**, **HoveredUrl**, **DisabledUrl** properties exposed by the **Image** tag of each toggle state.
+**RadToggleButton** also provides an easy way to show different images when the mouse is hovered over the control, the button is pressed or the button is disabled (see **Figure 2** and **Example 2**). To do this, use the **PressedUrl**, **HoveredUrl**, **DisabledUrl** properties exposed by the **Image** tag of each toggle state.
 
 >caption Figure 2: A RadToggleButton can have different images for its normal, hovered, active and disabled state.
 
