@@ -10,11 +10,11 @@ position: 2
 
 # Fluid Design
 
-This article explains the **fluid design capabilities RadToggleButton offers**. **Example 1** shows how you can set button size in percent so it can resize with its parent element.
+This article explains the **fluid design capabilities that RadToggleButton offers**. **Example 1** shows how you can set button size as a percentage so it can resize with its parent element.
 
 Generally, responsive design means that the page and its content are able to adapt to different screen resolutions without deteriorating the user experience. This often includes [changing the font size]({%slug togglebutton/mobile-support/elastic-design%}) and having dimensions set in percent.
 
->caption Figure 1: RadToggleButton set to 100% width and and 25% height.
+>caption Figure 1: RadToggleButton set to 100% width and 25% height.
 
 ![togglebutton-fluid-design](images/togglebutton-fluid-design.png)
 
