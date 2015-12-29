@@ -14,7 +14,7 @@ The **toggleStateChanging** event is subsequent to the [clicking]({%slug toggleb
 
 The event handler receives two parameters:
 
-1. The instance of the clicked RadButton control
+1. The instance of the clicked RadButton control. <<Comment: Should RadButton be RadToggleButton?>>
 
 1. An eventArgs parameter of type **Telerik.Web.UI.RadButtonCheckedEventArgs**, containing the following properties and methods:
 
@@ -22,13 +22,13 @@ The event handler receives two parameters:
 
 	* set_cancel(*shouldCancel*) - sets a bool value that indicates whether the event will be canceled. Setting true means the event will be canceled.
 
-	* get_commandName() - returns the value assigned to the RadToggleButton's **CommandName** property
+	* get_commandName() - returns the value assigned to the RadToggleButton's **CommandName** property.
 
 	* get_commandArgument() - returns the value assigned to the RadToggleButton's **CommandArgument** property.
 
-This event is useful in scenarios where the user wants to make sure the ToggleState is changed only if a certain condition is met. Note that, if the button automatically posts back to the server, which is the default behavior, the post back will not be stopped even if the event is canceled.
+This event is useful in scenarios where the user wants to make sure the ToggleState is changed only if a certain condition is met. Note that if the button automatically posts back to the server, which is the default behavior, the postback will not be stopped even if the event is canceled.
 
-The following example asks the user to confirm whether the state to be changed.
+The following example asks the user to confirm whether they want to change the state of the button.
 
 >caption Example 1: Using OnClientToggleStateChanging event.
 
