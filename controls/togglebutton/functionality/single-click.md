@@ -10,7 +10,7 @@ position: 2
 
 # Single Click
 
-The single click button (**Figure 1**) is used to avoid multiple postbacks to the server. This feature is useful in database and/or e-mail send scenarios when the developer should prevent submitting of identical content multiple times to the server.
+The single click button (**Figure 1**) is used to avoid multiple postbacks to the server. This feature is useful in database and/or e-mail send scenarios when the developer wants to prevent the users from submitting identical content multiple times to the server.
 
 >caption Figure 1: RadToggleButton with SingeClick functionality before and after click.
 
@@ -20,7 +20,7 @@ The following properties should be used to enable the single click functionality
 
 * **SingleClick** - determines whether the **RadToggleButton** control will be immediately disabled after the user clicks it. Set it to **true** to enable the single click functionality.
 
-* **SingleClickText** - determines the text displayed in the **RadToggleButton** control after the button is being clicked and disabled. The original text will be retrieved after the server request execution. The property takes a plain text string.
+* **SingleClickText** - determines the text displayed in the **RadToggleButton** control after the button has been clicked and disabled. The original text will be retrieved after the server request execution. The property takes a plain text string.
 
 >caption Example 1: The code that enables the single click functionality in **RadToggleButton** from **Figure 1**.
 
@@ -57,7 +57,7 @@ Protected Sub RadToggleButton1_ToggleStateChanged(sender As Object, e As Telerik
 End Sub
 ````
 
-The submitted text in processed on the server-side. Note that the method **System.Threading.Thread.Sleep**	is used so that the disabled button can be examined after clicking it.
+The submitted text is processed on the server side. Note that the method **System.Threading.Thread.Sleep** is used so that the disabled button can be examined after clicking it.
 
 ## See Also
 
