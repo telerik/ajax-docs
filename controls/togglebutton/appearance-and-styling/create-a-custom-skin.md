@@ -16,21 +16,21 @@ The second file represents the actual skin of the control, and its name consists
 
 ## Create a RadToggleButton Skin from an Existing One
 
-1. In your project, create a new directory named **Skins**;
+1. In your project, create a new directory named **Skins**.
 
-1. In the **Skins** folder if you already have some custom skin, most probably you have already a folder named: **MyCustomSkin** – if you don’t – create one;
+1. In the **Skins** folder, if you already have some custom skin, most probably you have already a folder named: **MyCustomSkin** – if you don’t – create one.
 
-1. In the **Skins** folder, create a new folder named: **MyCustomSkinLite** - this is the place where your Lightweight custom skins CSS will be placed; 
+1. In the **Skins** folder, create a new folder named: **MyCustomSkinLite** - this is the place where your Lightweight custom skins CSS will be placed. 
 
-1. Go to **[ControlsInstallationFolder]\Skins\DefaultLite** and copy **Button.Default.css** into your **MyCustomSkinLite** folder;
+1. Go to **[ControlsInstallationFolder]\Skins\DefaultLite** and copy **Button.Default.css** into your **MyCustomSkinLite** folder.
 
-1. Go to **[TelerikControlsInstallationFolder]\Skins\Default** and copy the **Common** folder into your **MyCustomSkin** folder;
+1. Go to **[TelerikControlsInstallationFolder]\Skins\Default** and copy the **Common** folder into your **MyCustomSkin** folder.
 
-1. Rename **Button.Default.css** to **Button.MyCustomSkin.css**;
+1. Rename **Button.Default.css** to **Button.MyCustomSkin.css**.
 
-1. When you are finished you should have the following folder structure in your project:
+1. When you are finished, you should have the following folder structure in your project:
 
-	1. **Skins/MyCustomSkin/Common/** - containing several sprites;
+	1. **Skins/MyCustomSkin/Common/** - containing several sprites.
 
 	1. **Skins/MyCustomSkinLite/Button.MyCustomSkin.css**.
 
@@ -38,7 +38,7 @@ The second file represents the actual skin of the control, and its name consists
 
 	![Rename Button Light](images/RenameButtonLight.png)
 
-1. Add a new server declaration of **RadToggleButton** on your page, and set **Skin="MyCustomSkin"** and **EnableEmbeddedSkins="false"**:
+1. Add a new server declaration of **RadToggleButton** on your page and set **Skin="MyCustomSkin"** and **EnableEmbeddedSkins="false"**:
 
 	**ASP.NET**
 
@@ -57,9 +57,9 @@ The second file represents the actual skin of the control, and its name consists
 
 		<link href="Skins/MyCustomSkinLite/Button.MyCustomSkin.css" rel="stylesheet" type="text/css" />
 
-1. Make sure the path to the files is correct; otherwise the skin will not apply;
+1. Make sure the path to the files is correct; otherwise the skin will not apply.
 
-1. Reload the page, and if the steps 1-11 have been followed correctly, you will see **RadToggleButton** running a custom Default skin set as an external resource.
+1. Reload the page, and if steps 1-11 have been followed correctly, you will see **RadToggleButton** running a custom Default skin set as an external resource.
 
 ## Custom Skin Example
 
