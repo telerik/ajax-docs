@@ -55,7 +55,7 @@ End Sub
 
 For a data-bound scenario you can use the `SelectedToggleStateIndex` of the control (**Example 3**).
 
->caption Example 3: Databind the selected state of RadToggleButton.
+>caption Example 3: Databind the selected state of a RadToggleButton.
 
 ````ASP.NET
 <telerik:RadGrid runat="server" ID="RadGrid1" Width="150px">
@@ -106,7 +106,7 @@ Public Sub Page_Init(sender As Object, e As System.EventArgs)
 End Sub
 ````
 
->warning `SelectedToggleStateIndex` property will not take effect if directly assigned with a value in the markup. The `SelectedToggleStateIndex` property takes effect only when set from the code behind or integrated in a data-bound scenario in the markup (**Example 3**). 
+>warning The `SelectedToggleStateIndex` property will not take effect if directly assigned with a value in the markup. The `SelectedToggleStateIndex` property takes effect only when set from the code behind or integrated in a data-bound scenario in the markup (**Example 3**). 
 
 ## Get Selected Toggle State Server-Side
 
