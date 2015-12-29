@@ -10,7 +10,7 @@ position: 1
 
 # Elastic Design
 
-This article explains the **elastic design capabilities RadToggleButton offers**. **Example 1** shows the basic approach to scale the control by only changing its default font size.
+This article explains the **elastic design capabilities RadToggleButton offers**. **Example 1** shows the basic approach to scale the control by only changing its default font size. <<See Comment below.>>
 
 Generally, responsive design means that the page and its content are able to adapt to different screen resolutions without deteriorating the user experience. This often includes changing the font size and having [dimensions set in percent]({%slug togglebutton/mobile-support/fluid-design%}).
 
