@@ -18,7 +18,7 @@ This help article shows how to use custom icons (images or font icons) in **RadT
 
 ## Image Icons
 
-To display an image icon on the button, you need to set the desired **ButtonToggleState**'s **Icon.Url** property to point to the URL of the desired image.
+To display an image icon on the **RadToggleButton**, you need to set the desired **ButtonToggleState**'s **Icon.Url** property to point to the URL of the desired image.
 
 >caption Figure 1: RadToggleButton with custom icon set through the **Icon.Url** property of each **ButtonToggleState**.
 
@@ -41,13 +41,13 @@ To display an image icon on the button, you need to set the desired **ButtonTogg
 
 ### Hovered and Active States
 
-**RadToggleButton** also provides an easy way to show different icon when the mouse is over the control, or the button is pressed (see **Figure 2** and **Example 2**). To do this, use the **HoveredCssClass** and **PressedCssClass** properties exposed by the **Icon** tag of each toggle state.
+**RadToggleButton** also provides an easy way to show different icons when the mouse is over the control, or the button is pressed (see **Figure 2** and **Example 2**). To do this, use the **HoveredCssClass** and **PressedCssClass** properties exposed by the **Icon** tag of each toggle state.
 
->caption Figure 2: A RadToggleButton can have different icons for its normal, hovered and active state.
+>caption Figure 2: A RadToggleButton can have different icons for its normal, hovered and active states.
 
 ![RadToggleButton icons normal hovered pressed](images/button_icons_normal_hovered_pressed.png)
 
-**Example 2:** Setup unique icons for the normal, hovered and active state of a **RadToggleButton**.
+**Example 2:** Setup unique icons for the normal, hovered and active states of a **RadToggleButton**.
 
 ````ASP.NET
 <telerik:RadToggleButton ID="RadToggleButton1" runat="server" Text="Normal Hover Active State Icons">
@@ -97,7 +97,7 @@ You can use custom font icons in **RadToggleButton** as well. To do that, follow
 			</ToggleStates>
 		</telerik:RadToggleButton>
 
-You can find below an example with [Font Awesome Icons](https://fortawesome.github.io/Font-Awesome/icons/).
+Below you can find an example with [Font Awesome Icons](https://fortawesome.github.io/Font-Awesome/icons/).
 
 >caption Figure 3: RadToggleButton with Font Awesome icons.
 
