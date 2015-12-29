@@ -94,7 +94,7 @@ You can find below the full list of CSS classes responsible for the embedded ico
 
 ## Skins Specifics
 
-The color of the predefined icons can be white or black, depending on the chosen Skin. You can see the difference for the **Silk** and **Glow** skin in **Figure 3**.
+The color of the predefined icons can be white or black, depending on the chosen Skin. You can see the difference between the **Silk** and **Glow** skin in **Figure 3**.
 
 >caption Figure 3: Embedded icons in RadToggleButton for the Silk and Glow skin have white and black colors.
 
