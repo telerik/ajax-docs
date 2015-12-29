@@ -10,7 +10,7 @@ position: 0
 
 # Client-side Programming Overview
 
-**RadToggleButton** provides a flexible client-side API. You can easily interact with the button in the browser using the RadToggleButton client-side object. In addition to a variety of [client-side events]({%slug togglebutton/client-side-programming/events/overview%}), the [client-side object model]({%slug togglebutton/client-side-programming/togglebutton-object%}) lets you achieve complicated tasks while avoiding unnecessary post-backs.
+**RadToggleButton** provides a flexible client-side API. You can easily interact with the button in the browser using the RadToggleButton client-side object. In addition to a variety of [client-side events]({%slug togglebutton/client-side-programming/events/overview%}), the [client-side object model]({%slug togglebutton/client-side-programming/togglebutton-object%}) lets you achieve complicated tasks while avoiding unnecessary postbacks.
 
 ## Getting the RadToggleButton client-side object
 
