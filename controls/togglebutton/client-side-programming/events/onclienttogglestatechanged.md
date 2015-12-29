@@ -14,19 +14,19 @@ The **toggleStateChanged** event is subsequent to the [toggleStateChanging]({%sl
 
 The event handler receives two parameters:
 
-1. The instance of the clicked RadButton control
+1. The instance of the clicked RadButton control.
 
 1. An eventArgs parameter of type **Telerik.Web.UI.RadButtonCheckedEventArgs**, containing the following properties and methods:
 
 	* get_currentToggleState() - returns the current **RadButtonToggleState** object applied to the button.
 
-	* get_commandName() - returns the value assigned to the RadToggleButton's **CommandName** property
+	* get_commandName() - returns the value assigned to the RadToggleButton's **CommandName** property.
 
-	* get_commandArgument() - returns the value assigned to the RadToggleButton's **CommandArgument** property
+	* get_commandArgument() - returns the value assigned to the RadToggleButton's **CommandArgument** property.
 
 This event is useful when the user wants to execute custom client code when the button changes its toggle state. 
 
->caption Example 1: Using OnClientToggleStateChanged event to get the text of the currently selected state.
+>caption Example 1: Using the OnClientToggleStateChanged event to get the text of the currently selected state.
 
 ````ASP.NET
 <script type="text/javascript">
