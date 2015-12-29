@@ -24,7 +24,7 @@ You can change the position of font or image icons to match your concrete requir
 
 ![RadToggleButton Icon Top Left](images/button-icon-top-left.png)
 
->caption Example 1: Offset RadToggleButton Icon from the top and left. You can see the result in Figure 1.
+>caption Example 1: Offset RadToggleButton icon from the top and left. You can see the result in Figure 1.
 
 ````ASP.NET
 <telerik:RadToggleButton ID="RadToggleButton1" runat="server" Text="Fine Tune Icon Position" Height="40px">
@@ -41,7 +41,7 @@ You can change the position of font or image icons to match your concrete requir
 
 ## Configure Font-size and Color
 
-The embedded **RadToggleButton** icons are font icons. Using a font facilitates the customization of the icons. For example, you can change the icons color and font size with a single line of CSS (see **Figure 2** and **Example 2**).
+The embedded **RadToggleButton** icons are font icons. Using a font facilitates the customization of the icons. For example, you can change the icon's color and font size with a single line of CSS (see **Figure 2** and **Example 2**).
 
 >caption Figure 2: Customize the font size and color of the embedded icons of RadToggleButton with CSS.
 
