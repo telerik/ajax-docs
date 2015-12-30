@@ -72,7 +72,7 @@ function EnableMenu()
 
 |  **get_enabled**  | none | boolean | True if the menu is enabled. To enable a menu, use the enable() method. |
 | ------ | ------ | ------ | ------ |
-| **close** |none|none|Closes all opened items|
+| **close** |none|none|Closes all opened items. In Mobile renderMode it closes the menu too.|
 | **findItemByValue** |(string value)|RadMenuItem|Returns the first **RadMenuItem** object whose **Value** property is equal to the passed parameter.|
 | **findItemByText** |(string text)|RadMenuItem|Returns the first **RadMenuItem** object whose **Text** property is equal to the passed parameter.|
 | **findItemByUrl** |(string URL)|RadMenuItem|Returns the first **RadMenuItem** object whose **NavigateUrl** property is equal to the passed parameter.|
