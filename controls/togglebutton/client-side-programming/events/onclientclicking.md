@@ -14,7 +14,7 @@ The clicking event occurs when the RadToggleButton control is clicked, immediate
 
 The event handler receives two parameters:
 
-1. The instance of the clicked RadToggleButton control
+1. The instance of the clicked RadToggleButton control.
 
 1. An eventArgs parameter of type [Telerik.Web.UI.**ButtonCancelEventArgs**](http://docs.telerik.com/devtools/aspnet-ajax/api/client/args/Telerik.Web.UI.ButtonCancelEventArgs), containing the following properties and methods:
 
@@ -22,11 +22,11 @@ The event handler receives two parameters:
 
 	* set_cancel(*shouldCancel*) - sets a bool value that indicates whether the event will be canceled. Setting true means the event will be canceled.
 
-	* get_commandName() - returns the value assigned to the RadToggleButton's **CommandName** property
+	* get_commandName() - returns the value assigned to the RadToggleButton's **CommandName** property.
 
-	* get_commandArgument() - returns the value assigned to the RadToggleButton's **CommandArgument** property
+	* get_commandArgument() - returns the value assigned to the RadToggleButton's **CommandArgument** property.
 
-This event comes handy in scenarios when the user wants to cancel the page submission, or prevent execution of the other client-side events based on a certain condition. One such scenario is confirming the submission of the page to the server. We ask the user if she wants to submit the page, and if a negative answer is received, we cancel the clicking event. Here is the code:
+This event is handy in scenarios when the user wants to cancel the page submission, or prevent execution of the other client-side events based on a certain condition. One such scenario is confirming the submission of the page to the server. We ask the user if she wants to submit the page, and if a negative answer is received, we cancel the clicking event. Here is the code:
 
 >caption Example 1: Handling OnClientClicking event in RadToggleButton.
 
