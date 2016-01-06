@@ -16,7 +16,7 @@ The following table lists the most important members of the client-side RadToggl
 
 | Name | Description |
 | ------ | ------ |
-| **get_enabled** |Returns a value, indicating whether the button control is enabled.|
+| **get_enabled** |Returns a value indicating whether the button control is enabled.|
 | **set_enabled** |Sets whether the button is enabled.|
 | **get_text** |The text displayed in the RadToggleButton control.|
 | **set_text** |Sets the text displayed in the RadToggleButton control.|
@@ -32,21 +32,21 @@ The following table lists the most important members of the client-side RadToggl
 | **get_commandName** |Gets the command name associated with the RadToggleButton control that is passed to the Command event.|
 | **set_commandName** |Sets the command name associated with the RadToggleButton control that is passed to the Command event.|
 | **get_commandArgument** |Gets an optional parameter passed to the Command event along with the associated CommandName.|
-| **set_commandArgument** |Sets an optional parameter passed to the Command event along with the associated CommandName|
+| **set_commandArgument** |Sets an optional parameter passed to the Command event along with the associated CommandName.|
 | **get_autoPostBack** |Gets a bool value indicating whether the RadToggleButton control automatically posts back to the server when clicked.|
 | **set_autoPostBack** |Sets or sets a bool value indicating whether the RadToggleButton control automatically posts back to the server when clicked.|
 | **get_height** |Gets the height of the RadToggleButton control.|
 | **get_width** |Gets the width of the RadToggleButton control.|
-| **IsInputTypeSubmit** |Gets a bool value indicating whether the button is a submit button|
-| **get_singleClick** |Gets a bool value indicating whether the RadToggleButton control will be immediately disabled after the user has clicks it.(i.e. enables/disables "Single Click" functionality)|
-| **get_singleClickText** |Gets the text displayed in the RadToggleButton control after the button is being clicked and disabled. (i.e. the text used for the 'Single Click' functionality)|
+| **IsInputTypeSubmit** |Gets a bool value indicating whether the button is a submit button.|
+| **get_singleClick** |Gets a bool value indicating whether the RadToggleButton control will be immediately disabled after the user has clicked it (i.e., enables/disables "Single Click" functionality).|
+| **get_singleClickText** |Gets the text displayed in the RadToggleButton control after the button is clicked and disabled (i.e. the text used for the 'Single Click' functionality).|
 | **enableAfterSingleClick** |Enables the button and restores the button's text, after it has been disabled by a single click.|
 | **get_visible** |Gets a bool value indicating whether the button is visible.|
 | **set_visible** |Shows/hides the button.|
-| **get_validationGroup** |Gets the name of ValidationGroup to which RadToggleButton is assigned.|
-| **set_validationGroup** |Sets the validation group to which RadToggleButton should be assigned.|
-|**get_toggleStates**|Gets the collection of ButtonToggleState objects that belong to the RadToggleButton control|
-|**set_toggleStates**|Sets the collection of ButtonToggleState objects that belong to the RadToggleButton control|
+| **get_validationGroup** |Gets the name of the ValidationGroup to which RadToggleButton is assigned.|
+| **set_validationGroup** |Sets the ValidationGroup to which RadToggleButton should be assigned.|
+|**get_toggleStates**|Gets the collection of ButtonToggleState objects that belong to the RadToggleButton control.|
+|**set_toggleStates**|Sets the collection of ButtonToggleState objects that belong to the RadToggleButton control.|
 |**get_selectedToggleState**| Gets the currently selected ToggleState of the RadToggleButton control.|
 |**set_selectedToggleState**| Sets the currently selected ToggleState of the RadToggleButton control.|
 |**get_selectedToggleStateIndex**| Gets the index of the currently selected ToggleState of the RadToggleButton control.|
@@ -57,7 +57,7 @@ The following table lists the most important members of the client-side RadToggl
 | Name | Description |
 | ------ | ------ |
 | **focus** |Brings the focus to the RadToggleButton control.|
-| **click** |Executes programmatic button click. Accepts an optional boolean parameter that specifies whether the client-side [clicking event]({%slug togglebutton/client-side-programming/events/onclientclicking%}) of RadToggleButton will be fired when the control is clicked programmatically. If the function is called without parameter,	the clicking event will not be fired.|
+| **click** |Executes a programmatic button click. Accepts an optional boolean parameter that specifies whether the client-side [clicking event]({%slug togglebutton/client-side-programming/events/onclientclicking%}) of RadToggleButton will be fired when the control is clicked programmatically. If the function is called without parameter,	the clicking event will not be fired.|
 
 >caption Public Properties of **RadButtonToggleState** object.
 
@@ -71,11 +71,11 @@ The following table lists the most important members of the client-side RadToggl
 | **get_height()** |Gets the height of the ButtonToggleState object.|
 | **get_width()** |Gets the width of the ButtonToggleState object.|
 | **get_primaryIconCssClass()** |Gets the CSS class applied to the Icon.|
-| **get_primaryIconUrl()** |Gets the URL to the image used as Icon.|
+| **get_primaryIconUrl()** |Gets the URL to the image used as the Icon.|
 | **get_primaryHoveredIconUrl()** |Gets the URL to the image showed when the ButtonToggleState is hovered.|
 | **get_primaryPressedIconUrl()** |Gets the URL to the image showed when the ButtonToggleState is pressed.|
-| **get_primaryIconHeight()** |Gets the Height of the Icon.|
-| **get_primaryIconWidth()** |Gets the Width of the Icon.|
+| **get_primaryIconHeight()** |Gets the height of the Icon.|
+| **get_primaryIconWidth()** |Gets the width of the Icon.|
 | **get_primaryIconTop()** |Gets the top edge of the Icon, relative to the ButtonToggleState object's wrapper element.|
 | **get_primaryIconLeft()** |Gets the left edge of the Icon, relative to the ButtonToggleState object's wrapper element.|
 | **get_imageUrl()** |Gets the location of an image to display in the ButtonToggleState object.|
@@ -86,19 +86,19 @@ The following table lists the most important members of the client-side RadToggl
 
 | Name | Description |
 | ------ | ------ |
-| **add_load** |The name of the javascript function called when the control loads.|
-| **remove_load** |Removes a handler for the load event|
-| **add_clicking** |The name of the javascript function called when the RadToggleButton control is clicked.|
+| **add_load** |The name of the JavaScript function called when the control loads.|
+| **remove_load** |Removes a handler for the load event.|
+| **add_clicking** |The name of the JavaScript function called when the RadToggleButton control is clicked.|
 | **remove_clicking** |Removes a handler for the clicking event.|
-| **add_toggleStateChanging** |The name of the javascript function called before the state of the ToggleButton to change.|
+| **add_toggleStateChanging** |The name of the JavaScript function called before the state of the ToggleButton is changed.|
 | **remove_toggleStateChanging** |Removes a handler for the toggleStateChanging event.|
-| **add_toggleStateChanged** |The name of the javascript function called when the state of the ToggleButton is changed.|
+| **add_toggleStateChanged** |The name of the JavaScript function called when the state of the ToggleButton is changed.|
 | **remove_toggleStateChanged** |Removes a handler for the toggleStateChanged event.|
-| **add_clicked** |The name of the javascript function called when the RadToggleButton control is clicked.|
+| **add_clicked** |The name of the JavaScript function called when the RadToggleButton control is clicked.|
 | **remove_clicked** |Removes a handler for the clicked event.|
-| **add_mouseOver** |The name of the javascript function called when the mouse hovers over the control.|
+| **add_mouseOver** |The name of the JavaScript function called when the mouse hovers over the control.|
 | **remove_mouseOver** |Removes a handler for the mouseOver event.|
-| **add_mouseOut** |The name of the javascript function when the mouse leaves the control.|
+| **add_mouseOut** |The name of the JavaScript function when the mouse leaves the control.|
 | **remove_mouseOut** |Removes a handler for the mouseOut event.|
 
 You can read more on the subject in the [Setting Client Event Handlers by Using JavaScript]({%slug togglebutton/client-side-programming/events/setting-event-handlers-via-javascript%}) help article.
