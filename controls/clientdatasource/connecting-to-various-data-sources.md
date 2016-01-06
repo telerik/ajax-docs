@@ -33,9 +33,9 @@ The **RadClientDataSource** provides the following properties for configuration.
 | AllowAutomaticDeletes | Define if the control should perform automatic Delete operations. The default value is **false**. |
 | DataMember | Set the name of the view (if many) of the **DataSource** that will be used when binding. |
 | DataModelID | *Used with **Model Binding**.* Define the ID of the Model |
-| SelectMethod | *Used with **Model Binding**.* Define the Select Method that will be used to retrieve the data. |
-| DeleteMethod | *Used with **Model Binding**.* Define the Delete Method that will be used. |
-| UpdateMethod | *Used with **Model Binding**.* Define the Update Method that will be used for updating records. |
+| SelectMethod | *Used with Model Binding.* Define the Select Method that will be used to retrieve the data. |
+| DeleteMethod | *Used with Model Binding.* Define the Delete Method that will be used. |
+| UpdateMethod | *Used with Model Binding.* Define the Update Method that will be used for updating records. |
 
 
 For live illustration of the functionality check out the online demo here.
