@@ -10,6 +10,8 @@ position: 0
 
 # Properties and Events
 
+This help article lists the server-side API for RadToggleButton including its toggle states, the corresponding icon and image tags and events.
+
 ## RadToggleButton common features (properties)
 
 | Property | Description |
