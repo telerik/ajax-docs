@@ -17,6 +17,8 @@ The possible options are:
 * **Classic** - this mode is the rendering that has been used before. It remains without changes and it is the default value of the property.In this mode nested elements and background image sprites (whose total number is 7) are used to create the needed appearance, so widths above 800px and button heights different than 22px are difficult to achieve.
 
 * **Lightweight** - this mode emphasizes on semantic HTML and CSS3. It reduces the amount of markup the control renders(even though this happens with JavaScript) and makes it easier to customize. Rounded corners, gradients and shadows are achieved via CSS3 effects which allows for flexible widths and heights.An image sprite is only used for checkboxes, radiobuttons and the dropdowns' arrow. All of this decreases the overall size and complexity of each skin, including custom ones.
+ 
+* **Native** - this mode does not apply any decoration. Acts as if **RadFormDecorator** is disabled. 
 
 * **Mobile** - this mode is currently not supported. If you set it, the mode will fall back automatically to **Lightweight**.
 
