@@ -36,8 +36,7 @@ You can find its assembly in the **AdditionalLibraries** folder in the Telerik U
 
 * **Telerik.Windows.Zip.dll** — the assembly of the Telerik Zip Library.
 
-* **Telerik.Windows.Zip.Extensions.dll** — extends **Telerik.Windows.Zip** assembly with aditional helper methods ([Zip Extensions]({%slug 	
-radziplibrary-zipextensions%})).
+* **Telerik.Windows.Zip.Extensions.dll** — extends **Telerik.Windows.Zip** assembly with aditional helper methods ([Zip Extensions]({%slug radziplibrary-zipextensions%})).
 
 You can read more about it in its documentation: [Getting started with RadZipLibrary](http://www.telerik.com/help/silverlight/radziplibrary-gettingstarted.html).
 
