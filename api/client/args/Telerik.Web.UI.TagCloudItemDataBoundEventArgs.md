@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.TagCloudItemDataBoundEventArgs
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.TagCloudItemDataBoundEventArgs
 slug: Telerik.Web.UI.TagCloudItemDataBoundEventArgs
 ---
 

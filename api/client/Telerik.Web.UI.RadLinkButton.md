@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.RadLinkButton
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.RadLinkButton
 slug: Telerik.Web.UI.RadLinkButton
 ---
 

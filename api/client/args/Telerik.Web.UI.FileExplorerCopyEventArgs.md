@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.FileExplorerCopyEventArgs
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.FileExplorerCopyEventArgs
 slug: Telerik.Web.UI.FileExplorerCopyEventArgs
 ---
 

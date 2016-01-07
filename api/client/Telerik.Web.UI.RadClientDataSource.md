@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.RadClientDataSource
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.RadClientDataSource
 slug: Telerik.Web.UI.RadClientDataSource
 ---
 

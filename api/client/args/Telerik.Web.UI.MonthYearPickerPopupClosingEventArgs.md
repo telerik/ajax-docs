@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.MonthYearPickerPopupClosingEventArgs
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.MonthYearPickerPopupClosingEventArgs
 slug: Telerik.Web.UI.MonthYearPickerPopupClosingEventArgs
 ---
 

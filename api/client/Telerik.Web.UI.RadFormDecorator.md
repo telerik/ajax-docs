@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.RadFormDecorator
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.RadFormDecorator
 slug: Telerik.Web.UI.RadFormDecorator
 ---
 

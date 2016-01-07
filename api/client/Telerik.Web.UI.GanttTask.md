@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.GanttTask
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.GanttTask
 slug: Telerik.Web.UI.GanttTask
 ---
 

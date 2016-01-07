@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.RadOrgChartGroupPopulatedArguments
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.RadOrgChartGroupPopulatedArguments
 slug: Telerik.Web.UI.RadOrgChartGroupPopulatedArguments
 ---
 

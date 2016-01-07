@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.ToolTipAnimation
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.ToolTipAnimation
 slug: Telerik.Web.UI.ToolTipAnimation
 ---
 

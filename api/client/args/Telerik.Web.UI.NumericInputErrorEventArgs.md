@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.NumericInputErrorEventArgs
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.NumericInputErrorEventArgs
 slug: Telerik.Web.UI.NumericInputErrorEventArgs
 ---
 

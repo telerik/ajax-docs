@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.FileExplorerItemType
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.FileExplorerItemType
 slug: Telerik.Web.UI.FileExplorerItemType
 ---
 

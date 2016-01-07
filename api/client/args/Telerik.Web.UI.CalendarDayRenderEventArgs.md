@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.CalendarDayRenderEventArgs
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.CalendarDayRenderEventArgs
 slug: Telerik.Web.UI.CalendarDayRenderEventArgs
 ---
 

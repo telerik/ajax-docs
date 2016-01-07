@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.DataPagerPageIndexChangingEventArgs
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.DataPagerPageIndexChangingEventArgs
 slug: Telerik.Web.UI.DataPagerPageIndexChangingEventArgs
 ---
 

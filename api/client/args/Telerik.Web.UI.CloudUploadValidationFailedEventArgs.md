@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.CloudUploadValidationFailedEventArgs
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.CloudUploadValidationFailedEventArgs
 slug: Telerik.Web.UI.CloudUploadValidationFailedEventArgs
 ---
 

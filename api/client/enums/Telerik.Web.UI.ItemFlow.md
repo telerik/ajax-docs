@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.ItemFlow
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.ItemFlow
 slug: Telerik.Web.UI.ItemFlow
 ---
 

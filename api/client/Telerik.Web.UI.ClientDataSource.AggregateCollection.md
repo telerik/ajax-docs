@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.ClientDataSource.AggregateCollection
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.ClientDataSource.AggregateCollection
 slug: Telerik.Web.UI.ClientDataSource.AggregateCollection
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.RadDataPager
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.RadDataPager
 slug: Telerik.Web.UI.RadDataPager
 ---
 

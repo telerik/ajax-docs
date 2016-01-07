@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.ButtonEventArgs
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.ButtonEventArgs
 slug: Telerik.Web.UI.ButtonEventArgs
 ---
 

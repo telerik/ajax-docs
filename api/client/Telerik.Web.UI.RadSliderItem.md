@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.RadSliderItem
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.RadSliderItem
 static: true
 slug: Telerik.Web.UI.RadSliderItem
 ---

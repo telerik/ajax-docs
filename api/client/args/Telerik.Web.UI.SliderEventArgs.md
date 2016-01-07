@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.SliderEventArgs
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.SliderEventArgs
 slug: Telerik.Web.UI.SliderEventArgs
 ---
 

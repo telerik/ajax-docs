@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.GridScrolling
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.GridScrolling
 slug: Telerik.Web.UI.GridScrolling
 ---
 

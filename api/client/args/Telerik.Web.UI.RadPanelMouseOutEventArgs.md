@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.RadPanelMouseOutEventArgs
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.RadPanelMouseOutEventArgs
 slug: Telerik.Web.UI.RadPanelMouseOutEventArgs
 ---
 

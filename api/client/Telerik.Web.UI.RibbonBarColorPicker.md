@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.RibbonBarColorPicker
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.RibbonBarColorPicker
 slug: Telerik.Web.UI.RibbonBarColorPicker
 ---
 

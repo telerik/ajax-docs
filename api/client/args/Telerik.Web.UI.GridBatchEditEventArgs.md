@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.GridBatchEditEventArgs
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.GridBatchEditEventArgs
 slug: Telerik.Web.UI.GridBatchEditEventArgs
 ---
 

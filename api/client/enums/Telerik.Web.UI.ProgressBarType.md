@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.ProgressBarType
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.ProgressBarType
 slug: Telerik.Web.UI.ProgressBarType
 ---
 

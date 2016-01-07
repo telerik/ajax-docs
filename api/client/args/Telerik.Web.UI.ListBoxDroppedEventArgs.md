@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.ListBoxDroppedEventArgs
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.ListBoxDroppedEventArgs
 slug: Telerik.Web.UI.ListBoxDroppedEventArgs
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.SocialShareEventArgs
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.SocialShareEventArgs
 slug: Telerik.Web.UI.SocialShareEventArgs
 ---
 

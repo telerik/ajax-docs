@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.RadMenuItemClosingEventArgs
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.RadMenuItemClosingEventArgs
 slug: Telerik.Web.UI.RadMenuItemClosingEventArgs
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.SchedulerTimeSlotContextMenuEventArgs
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.SchedulerTimeSlotContextMenuEventArgs
 slug: Telerik.Web.UI.SchedulerTimeSlotContextMenuEventArgs
 ---
 

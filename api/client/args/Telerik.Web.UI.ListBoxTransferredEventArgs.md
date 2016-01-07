@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.ListBoxTransferredEventArgs
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.ListBoxTransferredEventArgs
 slug: Telerik.Web.UI.ListBoxTransferredEventArgs
 ---
 

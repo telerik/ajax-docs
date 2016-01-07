@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.RibbonBarComboBoxSelectedIndexChangedEventArgs
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.RibbonBarComboBoxSelectedIndexChangedEventArgs
 slug: Telerik.Web.UI.RibbonBarComboBoxSelectedIndexChangedEventArgs
 ---
 

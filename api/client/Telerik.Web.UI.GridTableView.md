@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.GridTableView
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.GridTableView
 slug: Telerik.Web.UI.GridTableView
 ---
 

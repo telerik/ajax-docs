@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.GridBatchEditCancelEventArgs
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.GridBatchEditCancelEventArgs
 slug: Telerik.Web.UI.GridBatchEditCancelEventArgs
 ---
 

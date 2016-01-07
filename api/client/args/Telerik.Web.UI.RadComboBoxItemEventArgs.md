@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.RadComboBoxItemEventArgs
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.RadComboBoxItemEventArgs
 slug: Telerik.Web.UI.RadComboBoxItemEventArgs
 ---
 

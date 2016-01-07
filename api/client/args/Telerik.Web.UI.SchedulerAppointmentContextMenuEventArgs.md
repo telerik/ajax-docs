@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.SchedulerAppointmentContextMenuEventArgs
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.SchedulerAppointmentContextMenuEventArgs
 slug: Telerik.Web.UI.SchedulerAppointmentContextMenuEventArgs
 ---
 

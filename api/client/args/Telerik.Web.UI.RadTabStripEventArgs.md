@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.RadTabStripEventArgs
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.RadTabStripEventArgs
 slug: Telerik.Web.UI.RadTabStripEventArgs
 ---
 

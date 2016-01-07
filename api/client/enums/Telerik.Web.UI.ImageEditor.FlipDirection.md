@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.ImageEditor.FlipDirection
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.ImageEditor.FlipDirection
 slug: Telerik.Web.UI.ImageEditor.FlipDirection
 ---
 

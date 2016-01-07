@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.RadListViewUrlBuilder
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.RadListViewUrlBuilder
 slug: Telerik.Web.UI.RadListViewUrlBuilder
 ---
 

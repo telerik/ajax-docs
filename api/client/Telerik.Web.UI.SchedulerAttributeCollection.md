@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.SchedulerAttributeCollection
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.SchedulerAttributeCollection
 slug: Telerik.Web.UI.SchedulerAttributeCollection
 ---
 

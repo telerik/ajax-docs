@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.RadMaskedTextBox
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.RadMaskedTextBox
 slug: Telerik.Web.UI.RadMaskedTextBox
 ---
 

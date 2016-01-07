@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.DropDownListItemDataBoundEventArgs
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.DropDownListItemDataBoundEventArgs
 slug: Telerik.Web.UI.DropDownListItemDataBoundEventArgs
 ---
 

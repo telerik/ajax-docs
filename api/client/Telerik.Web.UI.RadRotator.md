@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.RadRotator
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.RadRotator
 slug: Telerik.Web.UI.RadRotator
 ---
 

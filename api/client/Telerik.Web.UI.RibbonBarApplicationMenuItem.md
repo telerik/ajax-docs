@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.RibbonBarApplicationMenuItem
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.RibbonBarApplicationMenuItem
 slug: Telerik.Web.UI.RibbonBarApplicationMenuItem
 ---
 

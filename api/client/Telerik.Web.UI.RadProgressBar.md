@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.RadProgressBar
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.RadProgressBar
 slug: Telerik.Web.UI.RadProgressBar
 ---
 

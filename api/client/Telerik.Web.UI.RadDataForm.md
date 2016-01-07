@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.RadDataForm
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.RadDataForm
 slug: Telerik.Web.UI.RadDataForm
 ---
 

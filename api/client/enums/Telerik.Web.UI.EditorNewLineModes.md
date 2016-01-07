@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.EditorNewLineModes
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.EditorNewLineModes
 slug: Telerik.Web.UI.EditorNewLineModes
 ---
 

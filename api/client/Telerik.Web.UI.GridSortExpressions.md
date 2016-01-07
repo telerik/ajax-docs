@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.GridSortExpressions
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.GridSortExpressions
 slug: Telerik.Web.UI.GridSortExpressions
 ---
 

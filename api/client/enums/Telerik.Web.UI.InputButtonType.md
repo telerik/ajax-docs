@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.InputButtonType
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.InputButtonType
 slug: Telerik.Web.UI.InputButtonType
 ---
 

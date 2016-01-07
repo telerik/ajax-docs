@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.Scheduler.AppointmentDataBoundEventArgs
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.Scheduler.AppointmentDataBoundEventArgs
 slug: Telerik.Web.UI.Scheduler.AppointmentDataBoundEventArgs
 ---
 

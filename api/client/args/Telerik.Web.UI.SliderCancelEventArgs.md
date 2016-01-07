@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.SliderCancelEventArgs
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.SliderCancelEventArgs
 slug: Telerik.Web.UI.SliderCancelEventArgs
 ---
 

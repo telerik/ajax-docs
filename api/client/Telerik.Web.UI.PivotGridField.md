@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.PivotGridField
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.PivotGridField
 slug: Telerik.Web.UI.PivotGridField
 ---
 

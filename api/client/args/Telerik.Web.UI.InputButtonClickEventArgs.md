@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.InputButtonClickEventArgs
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.InputButtonClickEventArgs
 slug: Telerik.Web.UI.InputButtonClickEventArgs
 ---
 

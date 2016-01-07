@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.ButtonToggleStateEventArgs
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.ButtonToggleStateEventArgs
 slug: Telerik.Web.UI.ButtonToggleStateEventArgs
 ---
 

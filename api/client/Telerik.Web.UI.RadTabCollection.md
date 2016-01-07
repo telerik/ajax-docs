@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.RadTabCollection
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.RadTabCollection
 static: true
 slug: Telerik.Web.UI.RadTabCollection
 ---

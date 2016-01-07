@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.ClientDataSource.FilterEntry
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.ClientDataSource.FilterEntry
 slug: Telerik.Web.UI.ClientDataSource.FilterEntry
 ---
 

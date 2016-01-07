@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.LiveTileDataEventArgs
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.LiveTileDataEventArgs
 slug: Telerik.Web.UI.LiveTileDataEventArgs
 ---
 

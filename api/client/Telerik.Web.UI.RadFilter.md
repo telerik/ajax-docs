@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.RadFilter
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.RadFilter
 slug: Telerik.Web.UI.RadFilter
 ---
 

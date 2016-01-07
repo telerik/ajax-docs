@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.LiveTileErrorEventArgs
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.LiveTileErrorEventArgs
 slug: Telerik.Web.UI.LiveTileErrorEventArgs
 ---
 

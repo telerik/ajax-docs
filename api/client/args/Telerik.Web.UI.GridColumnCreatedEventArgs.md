@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.GridColumnCreatedEventArgs
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.GridColumnCreatedEventArgs
 slug: Telerik.Web.UI.GridColumnCreatedEventArgs
 ---
 

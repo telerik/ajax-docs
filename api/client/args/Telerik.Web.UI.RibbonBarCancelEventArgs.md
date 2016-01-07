@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.RibbonBarCancelEventArgs
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.RibbonBarCancelEventArgs
 slug: Telerik.Web.UI.RibbonBarCancelEventArgs
 ---
 

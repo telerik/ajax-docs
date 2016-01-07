@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.Calendar.DateTimeFormatInfo
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.Calendar.DateTimeFormatInfo
 slug: Telerik.Web.UI.Calendar.DateTimeFormatInfo
 ---
 

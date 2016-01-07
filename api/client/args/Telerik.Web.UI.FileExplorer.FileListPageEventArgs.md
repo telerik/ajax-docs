@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.FileExplorer.FileListPageEventArgs
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.FileExplorer.FileListPageEventArgs
 slug: Telerik.Web.UI.FileExplorer.FileListPageEventArgs
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.ToolTipPosition
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.ToolTipPosition
 slug: Telerik.Web.UI.ToolTipPosition
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.WizardButtonClickedEventArgs
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.WizardButtonClickedEventArgs
 slug: Telerik.Web.UI.WizardButtonClickedEventArgs
 ---
 

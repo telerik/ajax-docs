@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.RadToolBarDropDown
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.RadToolBarDropDown
 slug: Telerik.Web.UI.RadToolBarDropDown
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.DropDownTreeEntryCollection
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.DropDownTreeEntryCollection
 slug: Telerik.Web.UI.DropDownTreeEntryCollection
 ---
 

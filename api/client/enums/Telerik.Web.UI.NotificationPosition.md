@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.NotificationPosition
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.NotificationPosition
 slug: Telerik.Web.UI.NotificationPosition
 ---
 

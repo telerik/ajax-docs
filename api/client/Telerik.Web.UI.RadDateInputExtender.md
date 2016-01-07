@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.RadDateInputExtender
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.RadDateInputExtender
 slug: Telerik.Web.UI.RadDateInputExtender
 ---
 

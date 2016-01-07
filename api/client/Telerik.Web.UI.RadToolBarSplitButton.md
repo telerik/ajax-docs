@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.RadToolBarSplitButton
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.RadToolBarSplitButton
 slug: Telerik.Web.UI.RadToolBarSplitButton
 ---
 

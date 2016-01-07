@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.RadComboBoxItemsRequestFailedEventArgs
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.RadComboBoxItemsRequestFailedEventArgs
 slug: Telerik.Web.UI.RadComboBoxItemsRequestFailedEventArgs
 ---
 

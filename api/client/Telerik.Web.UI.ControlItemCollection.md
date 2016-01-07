@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.ControlItemCollection
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.ControlItemCollection
 generic: Telerik.Web.UI.ControlItem => TClass;
 slug: Telerik.Web.UI.ControlItemCollection
 ---

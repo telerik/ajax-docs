@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.RadMapInitializeEventArgs
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.RadMapInitializeEventArgs
 slug: Telerik.Web.UI.RadMapInitializeEventArgs
 ---
 

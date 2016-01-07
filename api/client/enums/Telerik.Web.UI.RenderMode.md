@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.RenderMode
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.RenderMode
 slug: Telerik.Web.UI.RenderMode
 ---
 

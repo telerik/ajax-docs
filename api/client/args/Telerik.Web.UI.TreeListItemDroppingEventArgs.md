@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.TreeListItemDroppingEventArgs
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.TreeListItemDroppingEventArgs
 slug: Telerik.Web.UI.TreeListItemDroppingEventArgs
 ---
 

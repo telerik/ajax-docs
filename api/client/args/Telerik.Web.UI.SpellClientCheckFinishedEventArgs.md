@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.SpellClientCheckFinishedEventArgs
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.SpellClientCheckFinishedEventArgs
 slug: Telerik.Web.UI.SpellClientCheckFinishedEventArgs
 ---
 

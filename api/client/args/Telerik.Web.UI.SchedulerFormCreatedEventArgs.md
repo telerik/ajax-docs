@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.SchedulerFormCreatedEventArgs
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.SchedulerFormCreatedEventArgs
 slug: Telerik.Web.UI.SchedulerFormCreatedEventArgs
 ---
 

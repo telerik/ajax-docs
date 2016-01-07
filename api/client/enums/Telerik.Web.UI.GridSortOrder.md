@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.GridSortOrder
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.GridSortOrder
 slug: Telerik.Web.UI.GridSortOrder
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.ExpandMode
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.ExpandMode
 slug: Telerik.Web.UI.ExpandMode
 ---
 

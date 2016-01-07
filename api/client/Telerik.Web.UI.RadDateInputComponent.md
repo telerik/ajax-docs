@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.RadDateInputComponent
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.RadDateInputComponent
 slug: Telerik.Web.UI.RadDateInputComponent
 ---
 

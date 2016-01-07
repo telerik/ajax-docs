@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.TreeListColumnResizingEventArgs
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.TreeListColumnResizingEventArgs
 slug: Telerik.Web.UI.TreeListColumnResizingEventArgs
 ---
 

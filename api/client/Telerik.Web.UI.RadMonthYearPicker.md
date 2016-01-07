@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.RadMonthYearPicker
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.RadMonthYearPicker
 slug: Telerik.Web.UI.RadMonthYearPicker
 ---
 

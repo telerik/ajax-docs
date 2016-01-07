@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.ClientDataSource.SortExpressionCollection
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.ClientDataSource.SortExpressionCollection
 slug: Telerik.Web.UI.ClientDataSource.SortExpressionCollection
 ---
 

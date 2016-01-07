@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.TabStripOrientation
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.TabStripOrientation
 slug: Telerik.Web.UI.TabStripOrientation
 ---
 

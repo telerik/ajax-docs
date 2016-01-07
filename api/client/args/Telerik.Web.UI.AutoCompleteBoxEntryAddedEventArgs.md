@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.AutoCompleteBoxEntryAddedEventArgs
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.AutoCompleteBoxEntryAddedEventArgs
 slug: Telerik.Web.UI.AutoCompleteBoxEntryAddedEventArgs
 ---
 

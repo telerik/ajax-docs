@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.TileList.TileGroupCollection
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.TileList.TileGroupCollection
 slug: Telerik.Web.UI.TileList.TileGroupCollection
 ---
 

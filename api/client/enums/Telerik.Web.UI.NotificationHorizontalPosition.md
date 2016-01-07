@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.NotificationHorizontalPosition
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.NotificationHorizontalPosition
 slug: Telerik.Web.UI.NotificationHorizontalPosition
 ---
 

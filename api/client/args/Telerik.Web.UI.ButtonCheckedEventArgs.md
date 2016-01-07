@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.ButtonCheckedEventArgs
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.ButtonCheckedEventArgs
 slug: Telerik.Web.UI.ButtonCheckedEventArgs
 ---
 

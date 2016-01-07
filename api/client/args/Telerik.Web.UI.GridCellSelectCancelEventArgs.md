@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.GridCellSelectCancelEventArgs
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.GridCellSelectCancelEventArgs
 slug: Telerik.Web.UI.GridCellSelectCancelEventArgs
 ---
 

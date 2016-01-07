@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.RadTemplateBoundEventArgs
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.RadTemplateBoundEventArgs
 slug: Telerik.Web.UI.RadTemplateBoundEventArgs
 ---
 

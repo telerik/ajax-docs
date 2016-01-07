@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.jSlideDirection
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.jSlideDirection
 slug: Telerik.Web.UI.jSlideDirection
 ---
 

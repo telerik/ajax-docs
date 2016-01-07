@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.Editor.ModulesManager
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.Editor.ModulesManager
 slug: Telerik.Web.UI.Editor.ModulesManager
 ---
 

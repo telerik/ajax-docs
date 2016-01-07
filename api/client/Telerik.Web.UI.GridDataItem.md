@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.GridDataItem
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.GridDataItem
 slug: Telerik.Web.UI.GridDataItem
 ---
 

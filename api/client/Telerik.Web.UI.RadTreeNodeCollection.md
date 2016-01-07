@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.RadTreeNodeCollection
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.RadTreeNodeCollection
 slug: Telerik.Web.UI.RadTreeNodeCollection
 ---
 

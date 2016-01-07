@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.GridFilterMenuShowingEventArgs
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.GridFilterMenuShowingEventArgs
 slug: Telerik.Web.UI.GridFilterMenuShowingEventArgs
 ---
 

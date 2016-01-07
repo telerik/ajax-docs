@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.RotatorItemDataBoundEventArgs
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.RotatorItemDataBoundEventArgs
 slug: Telerik.Web.UI.RotatorItemDataBoundEventArgs
 ---
 

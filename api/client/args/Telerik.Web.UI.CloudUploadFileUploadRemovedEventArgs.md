@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.CloudUploadFileUploadRemovedEventArgs
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.CloudUploadFileUploadRemovedEventArgs
 slug: Telerik.Web.UI.CloudUploadFileUploadRemovedEventArgs
 ---
 

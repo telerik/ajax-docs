@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.RadBaseTile
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.RadBaseTile
 slug: Telerik.Web.UI.RadBaseTile
 ---
 

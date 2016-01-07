@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.SearchBoxButtonCommandEventArgs
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.SearchBoxButtonCommandEventArgs
 slug: Telerik.Web.UI.SearchBoxButtonCommandEventArgs
 ---
 

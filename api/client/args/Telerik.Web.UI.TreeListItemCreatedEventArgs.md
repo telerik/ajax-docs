@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.TreeListItemCreatedEventArgs
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.TreeListItemCreatedEventArgs
 slug: Telerik.Web.UI.TreeListItemCreatedEventArgs
 ---
 

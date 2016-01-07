@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.RadTab
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.RadTab
 slug: Telerik.Web.UI.RadTab
 ---
 

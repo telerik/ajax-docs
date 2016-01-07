@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.TreeListColumn
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.TreeListColumn
 slug: Telerik.Web.UI.TreeListColumn
 ---
 

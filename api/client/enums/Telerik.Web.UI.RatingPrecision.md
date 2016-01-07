@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.RatingPrecision
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.RatingPrecision
 slug: Telerik.Web.UI.RatingPrecision
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.FileExplorer.FilePathEventArgs
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.FileExplorer.FilePathEventArgs
 slug: Telerik.Web.UI.FileExplorer.FilePathEventArgs
 ---
 

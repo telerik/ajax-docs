@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.ToolBarSingleClick
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.ToolBarSingleClick
 slug: Telerik.Web.UI.ToolBarSingleClick
 ---
 

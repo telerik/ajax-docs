@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.PivotGridToolTipShowEventArgs
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.PivotGridToolTipShowEventArgs
 slug: Telerik.Web.UI.PivotGridToolTipShowEventArgs
 ---
 

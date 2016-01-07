@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.TileCancelEventArgs
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.TileCancelEventArgs
 slug: Telerik.Web.UI.TileCancelEventArgs
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.RadPageViewCollection
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.RadPageViewCollection
 slug: Telerik.Web.UI.RadPageViewCollection
 ---
 

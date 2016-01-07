@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.InputManagerEventArgs
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.InputManagerEventArgs
 slug: Telerik.Web.UI.InputManagerEventArgs
 ---
 

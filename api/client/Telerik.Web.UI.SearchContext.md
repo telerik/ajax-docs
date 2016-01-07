@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.SearchContext
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.SearchContext
 slug: Telerik.Web.UI.SearchContext
 ---
 

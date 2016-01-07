@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.RadAsyncUploadProgressUpdatingEventArgs
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.RadAsyncUploadProgressUpdatingEventArgs
 slug: Telerik.Web.UI.RadAsyncUploadProgressUpdatingEventArgs
 ---
 

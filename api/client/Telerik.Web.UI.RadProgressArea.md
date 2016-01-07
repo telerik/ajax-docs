@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.RadProgressArea
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.RadProgressArea
 slug: Telerik.Web.UI.RadProgressArea
 ---
 

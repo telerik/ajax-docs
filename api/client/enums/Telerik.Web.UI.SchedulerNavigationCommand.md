@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.SchedulerNavigationCommand
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.SchedulerNavigationCommand
 slug: Telerik.Web.UI.SchedulerNavigationCommand
 ---
 

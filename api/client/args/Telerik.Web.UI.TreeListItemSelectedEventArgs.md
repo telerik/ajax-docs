@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.TreeListItemSelectedEventArgs
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.TreeListItemSelectedEventArgs
 slug: Telerik.Web.UI.TreeListItemSelectedEventArgs
 ---
 

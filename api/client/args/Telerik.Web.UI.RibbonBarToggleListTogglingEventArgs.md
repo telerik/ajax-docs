@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.RibbonBarToggleListTogglingEventArgs
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.RibbonBarToggleListTogglingEventArgs
 slug: Telerik.Web.UI.RibbonBarToggleListTogglingEventArgs
 ---
 

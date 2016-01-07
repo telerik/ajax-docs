@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.RadRegExpTextBoxComponent
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.RadRegExpTextBoxComponent
 slug: Telerik.Web.UI.RadRegExpTextBoxComponent
 ---
 

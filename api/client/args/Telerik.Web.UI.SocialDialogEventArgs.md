@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.SocialDialogEventArgs
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.SocialDialogEventArgs
 slug: Telerik.Web.UI.SocialDialogEventArgs
 ---
 

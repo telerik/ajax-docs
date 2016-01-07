@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.RadPanelItemExpandEventArgs
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.RadPanelItemExpandEventArgs
 slug: Telerik.Web.UI.RadPanelItemExpandEventArgs
 ---
 

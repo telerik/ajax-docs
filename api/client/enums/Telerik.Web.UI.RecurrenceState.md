@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.RecurrenceState
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.RecurrenceState
 slug: Telerik.Web.UI.RecurrenceState
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.RadListViewSortExpressions
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.RadListViewSortExpressions
 slug: Telerik.Web.UI.RadListViewSortExpressions
 ---
 

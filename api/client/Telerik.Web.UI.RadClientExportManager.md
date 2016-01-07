@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.RadClientExportManager
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.RadClientExportManager
 slug: Telerik.Web.UI.RadClientExportManager
 ---
 

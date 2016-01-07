@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.EditorShortCutManager
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.EditorShortCutManager
 slug: Telerik.Web.UI.EditorShortCutManager
 ---
 

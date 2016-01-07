@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.DataPagerPageSizeChangingEventArgs
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.DataPagerPageSizeChangingEventArgs
 slug: Telerik.Web.UI.DataPagerPageSizeChangingEventArgs
 ---
 

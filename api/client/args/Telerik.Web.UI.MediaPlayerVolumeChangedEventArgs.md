@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.MediaPlayerVolumeChangedEventArgs
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.MediaPlayerVolumeChangedEventArgs
 slug: Telerik.Web.UI.MediaPlayerVolumeChangedEventArgs
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.FileExplorerControls
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.FileExplorerControls
 slug: Telerik.Web.UI.FileExplorerControls
 ---
 

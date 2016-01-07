@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.GridBatchEditCellValueChangedEventArgs
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.GridBatchEditCellValueChangedEventArgs
 slug: Telerik.Web.UI.GridBatchEditCellValueChangedEventArgs
 ---
 

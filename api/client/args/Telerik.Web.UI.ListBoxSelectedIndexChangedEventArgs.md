@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.ListBoxSelectedIndexChangedEventArgs
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.ListBoxSelectedIndexChangedEventArgs
 slug: Telerik.Web.UI.ListBoxSelectedIndexChangedEventArgs
 ---
 

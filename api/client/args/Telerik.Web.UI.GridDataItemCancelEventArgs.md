@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.GridDataItemCancelEventArgs
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.GridDataItemCancelEventArgs
 slug: Telerik.Web.UI.GridDataItemCancelEventArgs
 ---
 

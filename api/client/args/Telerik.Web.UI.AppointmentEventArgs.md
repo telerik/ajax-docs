@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.AppointmentEventArgs
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.AppointmentEventArgs
 slug: Telerik.Web.UI.AppointmentEventArgs
 ---
 

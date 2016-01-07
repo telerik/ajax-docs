@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.RadTreeNodePopulationFailedEventArgs
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.RadTreeNodePopulationFailedEventArgs
 slug: Telerik.Web.UI.RadTreeNodePopulationFailedEventArgs
 ---
 

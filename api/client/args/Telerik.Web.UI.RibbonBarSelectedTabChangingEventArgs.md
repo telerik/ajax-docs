@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.RibbonBarSelectedTabChangingEventArgs
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.RibbonBarSelectedTabChangingEventArgs
 slug: Telerik.Web.UI.RibbonBarSelectedTabChangingEventArgs
 ---
 

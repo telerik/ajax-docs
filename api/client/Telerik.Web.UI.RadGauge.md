@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.RadGauge
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.RadGauge
 slug: Telerik.Web.UI.RadGauge
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.RadTreeNodeEditingEventArgs
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.RadTreeNodeEditingEventArgs
 slug: Telerik.Web.UI.RadTreeNodeEditingEventArgs
 ---
 

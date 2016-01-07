@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.GridUserActionEventArgs
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.GridUserActionEventArgs
 slug: Telerik.Web.UI.GridUserActionEventArgs
 ---
 

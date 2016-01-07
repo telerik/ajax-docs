@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.PivotGridFieldSettings
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.PivotGridFieldSettings
 slug: Telerik.Web.UI.PivotGridFieldSettings
 ---
 

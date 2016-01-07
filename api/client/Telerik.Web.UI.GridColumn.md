@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.GridColumn
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.GridColumn
 slug: Telerik.Web.UI.GridColumn
 ---
 

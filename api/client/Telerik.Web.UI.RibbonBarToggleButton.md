@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.RibbonBarToggleButton
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.RibbonBarToggleButton
 slug: Telerik.Web.UI.RibbonBarToggleButton
 ---
 

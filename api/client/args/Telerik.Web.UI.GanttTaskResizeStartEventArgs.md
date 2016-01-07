@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.GanttTaskResizeStartEventArgs
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.GanttTaskResizeStartEventArgs
 slug: Telerik.Web.UI.GanttTaskResizeStartEventArgs
 ---
 

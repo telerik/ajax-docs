@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.Keys
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.Keys
 slug: Telerik.Web.UI.Keys
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.BoxSide
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.BoxSide
 slug: Telerik.Web.BoxSide
 ---
 

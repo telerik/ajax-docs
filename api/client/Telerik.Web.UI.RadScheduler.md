@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.RadScheduler
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.RadScheduler
 slug: Telerik.Web.UI.RadScheduler
 ---
 

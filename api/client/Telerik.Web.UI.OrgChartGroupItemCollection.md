@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.OrgChartGroupItemCollection
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.OrgChartGroupItemCollection
 slug: Telerik.Web.UI.OrgChartGroupItemCollection
 ---
 

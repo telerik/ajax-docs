@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.Editor.AjaxSpellCheck
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.Editor.AjaxSpellCheck
 slug: Telerik.Web.UI.Editor.AjaxSpellCheck
 ---
 

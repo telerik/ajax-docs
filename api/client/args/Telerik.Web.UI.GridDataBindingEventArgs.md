@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.GridDataBindingEventArgs
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.GridDataBindingEventArgs
 slug: Telerik.Web.UI.GridDataBindingEventArgs
 ---
 

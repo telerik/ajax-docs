@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.WindowAnimation
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.WindowAnimation
 slug: Telerik.Web.UI.WindowAnimation
 ---
 

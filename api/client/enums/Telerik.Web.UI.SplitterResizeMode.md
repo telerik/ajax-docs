@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.SplitterResizeMode
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.SplitterResizeMode
 slug: Telerik.Web.UI.SplitterResizeMode
 ---
 

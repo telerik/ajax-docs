@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.RadButtonToggleState
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.RadButtonToggleState
 slug: Telerik.Web.UI.RadButtonToggleState
 ---
 

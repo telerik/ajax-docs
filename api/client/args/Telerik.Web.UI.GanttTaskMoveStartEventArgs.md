@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.GanttTaskMoveStartEventArgs
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.GanttTaskMoveStartEventArgs
 slug: Telerik.Web.UI.GanttTaskMoveStartEventArgs
 ---
 

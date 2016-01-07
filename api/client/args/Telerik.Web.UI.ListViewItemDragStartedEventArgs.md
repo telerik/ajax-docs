@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.ListViewItemDragStartedEventArgs
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.ListViewItemDragStartedEventArgs
 slug: Telerik.Web.UI.ListViewItemDragStartedEventArgs
 ---
 

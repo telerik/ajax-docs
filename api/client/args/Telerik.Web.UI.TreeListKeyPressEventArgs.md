@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.TreeListKeyPressEventArgs
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.TreeListKeyPressEventArgs
 slug: Telerik.Web.UI.TreeListKeyPressEventArgs
 ---
 

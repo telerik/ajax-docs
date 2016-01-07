@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.ListViewItemSelectingEventArgs
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.ListViewItemSelectingEventArgs
 slug: Telerik.Web.UI.ListViewItemSelectingEventArgs
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.SliderItemType
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.SliderItemType
 slug: Telerik.Web.UI.SliderItemType
 ---
 

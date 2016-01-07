@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.RadContextMenu
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.RadContextMenu
 slug: Telerik.Web.UI.RadContextMenu
 ---
 

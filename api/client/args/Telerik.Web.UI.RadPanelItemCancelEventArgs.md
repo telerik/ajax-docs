@@ -1,7 +1,7 @@
 ---
 title: Telerik.Web.UI.RadPanelItemCancelEventArgs
 page_title: Client-side API Reference
-description: Client-side API Reference
+description: Telerik.Web.UI.RadPanelItemCancelEventArgs
 slug: Telerik.Web.UI.RadPanelItemCancelEventArgs
 ---
 
