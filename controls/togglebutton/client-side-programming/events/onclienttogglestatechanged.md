@@ -14,7 +14,7 @@ The **toggleStateChanged** event is subsequent to the [toggleStateChanging]({%sl
 
 The event handler receives two parameters:
 
-1. The instance of the clicked RadButton control.
+1. The instance of the clicked RadToggleButton control.
 
 1. An eventArgs parameter of type **Telerik.Web.UI.RadButtonCheckedEventArgs**, containing the following properties and methods:
 
