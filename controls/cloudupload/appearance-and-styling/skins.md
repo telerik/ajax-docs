@@ -16,5 +16,5 @@ position: 0
 
 **RadCloudUpload** is installed with a number of preset skins:
 
-![cloudupload skins thumb](images/cloudupload_skins_thumb.png)
+![cloudupload skins thumb](images/cloudupload-skins.png)
 

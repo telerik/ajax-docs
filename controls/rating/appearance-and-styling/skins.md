@@ -16,5 +16,5 @@ To apply a skin, set the Skin server-side property of the control. You can set i
 
 **RadRating** is installed with a number of predefined skins:
 
-![radrating-skins](images/radrating-skins.png)
+![radrating-skins](images/rating-skins.png)
 

@@ -16,6 +16,6 @@ To make customizing the appearance of **RadSiteMap** as easy as possible, the co
 
 The control comes with a number of built-in skins:
 
-![Skins](images/sitemap_skins_thumnail.png)
+![Skins](images/sitemap-skins.png)
 
 

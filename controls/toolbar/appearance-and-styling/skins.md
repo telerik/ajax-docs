@@ -15,7 +15,7 @@ position: 3
 
 **RadToolBar** is installed with a number of built-in skins:
 
-![ToolBar Skins Thumbnails](images/toolbar_skins_thumb.png)
+![ToolBar Skins Thumbnails](images/toolbar-skins.png)
 
 
 

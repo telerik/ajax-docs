@@ -16,7 +16,7 @@ To apply a skin to a **RadSplitter** control, set its **Skin** property, either 
 
 **RadSplitter** is installed with a number of preset skins. These are shown below:
 
-![radsplitter-skins](images/radsplitter-skins.png)
+![radsplitter-skins](images/splitter-skins.png)
 
 
 ## Customizing Skins

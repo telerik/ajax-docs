@@ -48,7 +48,7 @@ Here are the main features of the control:
 
 * Right to left support
 
-![formdecorator skins thumb](images/formdecorator_skins_thumb.png)
+![formdecorator skins thumb](images/formdecorator-skins.png)
 
 To decorate the form elements on a webpage:
 

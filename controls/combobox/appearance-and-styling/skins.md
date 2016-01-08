@@ -16,7 +16,7 @@ To make customizing the appearance of **RadComboBox** as easy as possible, the c
 
 The control comes with a number of built-in skins:
 
-![ComboBox Skins Thumbnails](images/combobox_skins_thumb.png)
+![ComboBox Skins Thumbnails](images/combobox-skins.png)
 
 
 ## Customizing Skins

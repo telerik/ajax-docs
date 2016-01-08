@@ -34,6 +34,6 @@ position: 0
 
 RadFileExplorer is installed with a number of preset skins. They are shown below:
 
-![radfileexplorer-skins](images/radfileexplorer-skins.png)
+![radfileexplorer-skins](images/fileexplorer-skins.png)
 
 

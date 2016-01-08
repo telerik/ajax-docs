@@ -23,7 +23,7 @@ Generally, you can change the existing grid skins by setting the **Skin** proper
 ## Built-in Skins
 
 The image below shows a thumbnail view of the embedded skins provided by Telerik. They are embedded in the Telerik.Web.UI.dll assembly as web resources.To use a built-in skin, the user only needs to set the **Skin** property of the control. Built-in skins are also provided in "C:\Program Files\Telerik\RadControls for ASP.NET AJAX Qx 20xx\Skins".
-![RadGrid Skins](images/grid_skins.png)
+![RadGrid Skins](images/grid-skins.png)
 
 
 Except setting the **Skin** property to one of the built-in skins you can use it in the following ways:

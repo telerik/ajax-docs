@@ -18,4 +18,4 @@ position: 0
 
 **RadTreeMap** is installed with a number of preset skins:
 
-![treemap skinsthumb](images/treemap_skinsthumb.png)
+![treemap skinsthumb](images/treemap-skins.png)

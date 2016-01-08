@@ -17,6 +17,6 @@ position: 0
 To make customizing the appearance of **RadOrgChart** as easy as possible, the control uses predefined skins. A skin is a set of images and a CSS stylesheets that can be applied to the elements (nodes, images, etc.) of the control and thus define their look and feel. To apply a skin to the **RadOrgchart**, set its Skin property, either using the properties pane or the RadOrgChart Smart Tag.
 
 The control comes with a number of built-in skins:
-![Skins](images/radorgchart-skins.png)
+![Skins](images/orgchart-skins.png)
 
 

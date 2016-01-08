@@ -14,5 +14,5 @@ position: 0
 
 To make customizing the appearance of **RadDropDownTree** as easy as possible, the control uses **skins.** A skin is a set of images and a CSS stylesheet that can be applied to RadDropDown elements (items, images, etc.) and defines their look and feel.
 
-**RadDropDownTree** is installed with a number of built-in skins:![dropdowntree skins](images/dropdowntree_skins.png)
+**RadDropDownTree** is installed with a number of built-in skins:![dropdowntree skins](images/dropdowntree-skins.png)
 

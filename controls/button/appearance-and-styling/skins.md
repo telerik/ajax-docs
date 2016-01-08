@@ -16,7 +16,7 @@ To apply a skin to a **RadButton** control, set its **Skin** property.
 
 **RadButton** is installed with a number of preset skins. These are shown below:
 
-![radbutton-skins](images/radbutton-skins.png)
+![radbutton-skins](images/button-skins.png)
 
 ## Customizing Skins
 
