@@ -15,7 +15,7 @@ position: 0
 The predefined layouts of RadListView, which in turn have a predefined HTML rendering, enable you to use the control's embedded skins to achieve a consistent look of RadListView with the other Telerik controls on the page.
 
 Below is a set of some of the Telerik RadListView skins:
-![RadListView Skins](images/listview_skins.png)
+![RadListView Skins](images/listview-skins.png)
 
 
 ## Changing the RadListView skin

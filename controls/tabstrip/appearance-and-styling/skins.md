@@ -16,7 +16,7 @@ position: 4
 
 **RadTabStrip** is installed with a number of common skins:
 
-![](images/tabstrip_skins_thumb.png)
+![](images/tabstrip-skins.png)
 
 
 

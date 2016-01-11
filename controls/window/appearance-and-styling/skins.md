@@ -16,7 +16,7 @@ Specify the Skin to use by setting the **Skin** property of the **RadWindowManag
 
 There is a number of built-in skins for the RadWindow control:
 
-![radwindow-skins](images/radwindow-skins.png)
+![radwindow-skins](images/window-skins.png)
 
 
 ## See Also

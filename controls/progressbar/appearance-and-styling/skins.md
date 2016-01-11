@@ -16,7 +16,7 @@ To apply a skin to a **RadProgressBar** control, set its **Skin** property.
 
 **RadProgressBar** is installed with a number of preset skins. These are shown below:
 
-![progress-bar-skins](images/progress-bar-skins.PNG)
+![progress-bar-skins](images/progressbar-skins.png)
 
 ## See Also
 

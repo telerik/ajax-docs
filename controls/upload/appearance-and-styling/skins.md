@@ -20,7 +20,7 @@ position: 3
 
 **RadUpload** and **RadProgressArea** are installed with a number of preset skins:
 
-![Skins Thumb](images/upload_skins_thumb.png)
+![Skins Thumb](images/upload-skins.png)
 
 >note Since Q1 2013 three new skins have been added for RadUpload (BlackMetroTouch, Glow and Silk).
 >

@@ -21,6 +21,6 @@ To apply a skin, set the Skin server-side property of the control. You can set i
 **RadTagCloud** is installed with a number of predefined skins:
 >caption 
 
-![radtagcloud-skins-list](images/radtagcloud-skins-list.png)
+![radtagcloud-skins-list](images/tagcloud-skins.png)
 
 

@@ -27,7 +27,7 @@ As of Q1 2009, **RadAjaxLoadingPanel** supports skinning similar to all other co
 
 **Figure 1** shows the embedded skins and what they look like for the **RadAjaxLoadingPanel** . They are embedded in the Telerik.Web.UI.dll assembly as web resources. To use a built-in skin you only need to set the **Skin** property of the control. You can find built-in skins in this folder: "C:\Program Files\Telerik\UI for ASP.NET AJAX QX 20XX\Skins".
 
-**Figure 1:** This figure shows the **RadAjaxLoadingPanel** using each of the embedded skins.![RadAjax Skins](images/ajax_skins.png)
+**Figure 1:** This figure shows the **RadAjaxLoadingPanel** using each of the embedded skins.![RadAjax Skins](images/ajax-skins.png)
 
 
 If the **Skin** property is set, the loading panel will NOT hide the updated control entirely, because transparency is applied by default from the skin. You can change this behaviour by setting **EnableSkinTransparency="false"** . Setting the **RadAjaxLoadingPanel** control's **Transparency** property will increase the actual visible transparency if the skin transparency is not disabled.

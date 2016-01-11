@@ -21,7 +21,7 @@ To apply a skin, set the **Skin** property of the **RadNotification**. You can s
 **RadNotification** is installed with a number of predefined skins:
 
 
-![radnotification-skins-list](images/radnotification-skins-list.png)
+![radnotification-skins-list](images/notification-skins.png)
 
 
 >note The **Shadow** and **Rounded Corners** are achieved via CSS3 properties and will not have effect under browsers that do not support them (such as IE8 and prior, FireFox 3, etc).

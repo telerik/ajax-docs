@@ -19,7 +19,7 @@ To apply a skin to a **RadImageEditor** control, set its **Skin** property.
 **RadImageEditor** is installed with a number of preset skins. These are shown below:
 
 
-![radimagerditor-skins](images/radimagerditor-skins.png)
+![radimageditor-skins](images/imageditor-skins.png)
 
 
 ## Customizing Skins

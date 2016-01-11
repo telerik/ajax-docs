@@ -21,7 +21,7 @@ To apply a skin, set the **Skin** property of the **RadToolTip** or **RadToolTip
 **RadToolTip** is installed with a number of predefined skins:
 
 
-![radtooltip-skins](images/radtooltip-skins.png)
+![radtooltip-skins](images/tooltip-skins.png)
 
 
 

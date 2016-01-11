@@ -16,7 +16,7 @@ To apply a skin to a **RadPushButton** control, set its **Skin** property.
 
 **RadPushButton** is installed with a number of preset skins. These are shown below:
 
-![RadPushButton-skins](images/RadPushButton-skins.png)
+![RadPushButton-skins](images/pushbutton-skins.png)
 
 ## Customizing Skins
 
