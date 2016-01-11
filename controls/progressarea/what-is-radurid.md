@@ -2,7 +2,7 @@
 title: RadUrid
 page_title: RadUrid | RadProgressArea for ASP.NET AJAX Documentation
 description: RadUrid
-slug: progressarea/radurid
+slug: progressarea/what-is-radurid
 tags: radurid
 published: True
 position: 7
