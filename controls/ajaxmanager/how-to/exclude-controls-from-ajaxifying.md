@@ -14,6 +14,7 @@ position: 4
 
 
 By default the **RadAjaxPanel** AJAX-enables all controls placed inside. If you want to exclude a control from being AJAX-enabled, you can use one of the following approaches:
+* **Use PostBackControls property (available since Q1 2016)http://www.telerik.com/help/aspnet-ajax/ajax-exclude.html#Section6_self**
 
 * **Use RadScriptManager's RegisterPostBackControl Methodhttp://www.telerik.com/help/aspnet-ajax/ajax-exclude.html#Section1_self**
 
@@ -26,6 +27,20 @@ By default the **RadAjaxPanel** AJAX-enables all controls placed inside. If you 
 * **Exclude Dynamically Loaded Controlshttp://www.telerik.com/help/aspnet-ajax/ajax-exclude.html#Section5_self**
 
 This help article shows how to use each approach.
+## Use PostBackControls property (available since Q1 2016)
+Since Q1 2016 release a new *"PostBackControls"* property is exposed for the RadAjaxManager/RadAjaxPanel control. It accepts collection of control's ID's to be added and this will automatically make those controls postback triggers.
+
+````ASP.NET
+ <telerik:RadScriptManager ID="RadScriptManager1" runat="server">
+ </telerik:RadScriptManager>
+ <telerik:RadAjaxPanel ID="RadAjaxPanel1"  PostBackControls="Button2,Button3" runat="server">
+	 <asp:Button runat="server" ID="Button1" Text="Ajax" OnClick="Button_Click" />
+	 <asp:Button runat="server" ID="Button2" Text="Postback" OnClick="Button_Click" />
+     <asp:Button runat="server" ID="Button3" Text="Postback" OnClick="Button_Click" />
+	 <asp:Label ID="Label1" runat="server"></asp:Label>
+ /telerik:RadAjaxPanel>
+````
+
 
 ## Use RadScriptManager's RegisterPostBackControl Method
 
@@ -44,7 +59,7 @@ You can use the **RadScriptManager's RegisterPostBackControl** method (**Example
 
 
 ````C#
-	
+
 protected void Page_Load(object sender, EventArgs e)
 	{
 	     RadScriptManager1.RegisterPostBackControl(Button2);
@@ -61,7 +76,7 @@ End Sub
 Protected Sub Button_Click(ByVal sender As Object, ByVal e As EventArgs)
 	Label1.Text = DateTime.Now.ToLongTimeString()
 End Sub
-	
+
 ````
 
 
@@ -163,9 +178,9 @@ If you do not have a control that registers the ****doPostBack** function on the
 
 
 ````C#
-	
+
 this.Page.ClientScript.GetPostBackEventReference(this, "");
-	
+
 ````
 ````VB
 Me.Page.ClientScript.GetPostBackEventReference(Me, "")
@@ -181,7 +196,7 @@ If you are loading the user control dynamically, the code **if (!Page.IsPostBack
 
 
 ````C#
-	
+
 protected void Page_Load(object sender, EventArgs e)
 	{
 	    bool isOnClickAttached = false;
@@ -197,7 +212,7 @@ protected void Page_Load(object sender, EventArgs e)
 	    if (!isOnClickAttached)
 	        this.CheckBox1.Attributes.Add("onClick", string.Format("realPostBack(\"{0}\", \"\"); return false;", this.CheckBox1.UniqueID));
 	}
-	
+
 ````
 ````VB
 Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
