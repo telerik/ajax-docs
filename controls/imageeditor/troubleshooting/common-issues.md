@@ -76,7 +76,7 @@ This problem is caused by a breaking change in .NET 4.0 described [here](http://
 
 *Problem*
 
-By design **RadImageEditor can work only with virtual paths**. Pointing to images placed inside its application root directory and using images from external URLs (*http://host/image.jpg*) or physical location (*C://images/image.jpg*) is not supported out-of-the-box. Such configuration may lead to **not rendered or not editable image** (so the image operations will not work properly on it). <<Comment: Please check that my change to the first sentence (to break it into two sentences) did not create a technical error. The sentence read awkwardly to me as one long sentence. I think the second sentence, "Pointing to images..." is missing a subject that does the action of pointing to images... but I don't know what the subject of the sentence is.>>
+By design **RadImageEditor can work only with virtual paths** pointing to images placed inside its application root directory. Using images from external URLs (*http://host/image.jpg*) or physical location (*C:/images/image.jpg*) is not supported out-of-the-box. Such configuration may lead to **not rendered or not editable image** (so the image operations will not work properly on it).
 
 Loading images through an external URL usually leads to the following **JavaScript error**:
 ````SecurityError: The operation is insecure.````
