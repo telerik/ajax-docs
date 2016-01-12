@@ -49,4 +49,6 @@ slug: Telerik.Web.UI.EditorFilters
 
 ### StripDomEventAttributes `65536`
 
-### DefaultFilters `53245`
+### RemoveExtraBreaks `131072`
+
+### DefaultFilters `184309`
