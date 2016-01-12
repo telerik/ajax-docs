@@ -26,7 +26,7 @@ The second file represents the actual skin of the control, and its name consists
 
 1. Go to **[TelerikControlsInstallationFolder]\Skins\Default** and copy the **Common** folder into your **MyCustomSkin** folder;
 
-1. In your your **MyCustomSkinLite** folder, rename **Button.Default.css** to **Button.MyCustomSkin.css**; <<Comment: Please verify that my change to add the folder name at the beginning of the sentence didn't create an error. The original text did not specify that the button rename should happen in the MyCustomSkin folder and one could have assumed you were saying to make the change in the DefaultLite folder.>>
+1. In your your **MyCustomSkinLite** folder, rename **Button.Default.css** to **Button.MyCustomSkin.css**;
 
 1. When you are finished you should have the following folder structure in your project:
 

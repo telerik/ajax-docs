@@ -35,7 +35,7 @@ The following table lists the most important members of the client-side RadCheck
 | **get_commandArgument** |Gets an optional parameter passed to the Command event along with the associated CommandName.|
 | **set_commandArgument** |Sets an optional parameter passed to the Command event along with the associated CommandName.|
 | **get_autoPostBack** |Gets a bool value indicating whether the RadCheckBox control automatically posts back to the server when clicked.|
-| **set_autoPostBack** |Sets or sets a bool value indicating whether the RadCheckBox control automatically posts back to the server when clicked.| <<Comment: Please verify that the sentence should begin "Sets a bool value">>
+| **set_autoPostBack** |Sets a bool value indicating whether the RadCheckBox control automatically posts back to the server when clicked.| <<Comment: Please verify that the sentence should begin "Sets a bool value">>
 | **get_height** |Gets the height of the RadCheckBox control.|
 | **get_width** |Gets the width of the RadCheckBox control.|
 | **get_visible** |Gets a bool value indicating whether the checkbox is visible.|
