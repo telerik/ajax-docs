@@ -39,7 +39,7 @@ The Project Configuration Wizard’s first page lets you define settings related
 
 * **Add referenced assemblies to solution** -	Choose whether to copy referenced assemblies to your solution folder. The assemblies will automatically get added to source control when using Microsoft Team Foundation Server.
 
->note The **Add referenced assemblies to solution** option is not available for Visual Studio web site projects or when using GAC based distributions.
+>note The **Add referenced assemblies to solution** option is not available for Visual Studio web site projects.
 
 >note Creating a new project, [render mode]({%slug controls/render-modes%}) is automatically set to **lightweight**.
 
