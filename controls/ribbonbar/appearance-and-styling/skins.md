@@ -18,6 +18,6 @@ To make customizing the appearance of **RadRibbonBar** as easy as possible, the 
 
 The control comes with a number of built-in skins:
 
-	![RibbonBar Skins](images/ribbonbar-skins.png)
+![RibbonBar Skins](images/ribbonbar-skins.png)
 
 
