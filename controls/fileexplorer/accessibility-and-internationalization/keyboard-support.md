@@ -80,7 +80,7 @@ Default shortcuts:
 
 Standard keyboard navigation:
 
-* Use **Tab** or **Shift + Tab** to navigate through the items (tools) of the ToolBar
+* Use **Tab** or **Shift + Tab** to navigate through the items (tools) of the ToolBar if their Keyboard navigation is enabled ([the AccessKey of each button must be set](http://docs.telerik.com/devtools/aspnet-ajax/controls/toolbar/accessibility-and-internationalization/keyboard-support))
 
 * Use **Tab** or **Shift + Tab** to navigate through the different controls of the FileExplorer, i.e. ToolBar, AddressBar, TreeView, Grid.
 
@@ -123,3 +123,7 @@ A visual indication that the user is currently interacting with one of the FileE
 | **NewFolder** |Gets or sets the keyboard shortcut used to create new folder in the FileExplorer.|
 | **Delete** |Gets or sets the keyboard shortcut used to delete the currently selected file or folder in the FileExplorer control. Default value **"Delete"** .|
 | **UploadFile** |Gets or sets the keyboard shortcut used to upload a new file to the FileExplorer control.|
+
+## See Also
+
+ * [Keyboard support demo for RadFileExplorer](http://demos.telerik.com/aspnet-ajax/fileexplorer/examples/keyboardsupport/defaultcs.aspx)
