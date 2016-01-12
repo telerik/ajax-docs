@@ -13,7 +13,7 @@ position: 0
 **RadSpreadsheet** for ASP.NET AJAX is a control that allows editing tabular data utilizing a variety of cell formatting options, functions and styles. 
 ## 
 
->important  **RadSpreadsheet** is not supported for .NET Framework 3.5.  
+>important  **RadSpreadsheet** is not supported for .NET Framework 3.5. and Internet Explorer 8.
 
 **Telerik Spreadsheet (Figure 1)** provides the user the ability to:
 
