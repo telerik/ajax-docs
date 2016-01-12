@@ -18,11 +18,11 @@ The possible options are:
 
 * **Classic**—this mode is the rendering that has been used before. It remains without changes and it is the default value of the property.	In this mode background images (in several sprites) are used to create	the layout (including rounded corners and shadows).
 
-* **Lightweight**—this mode is currently not supported. If you set it, the mode will fall back automatically to **Classic**. Since the control is quite new it does not render any table elements and its classic rendering is enough lightweight.
+* **Lightweight**—this mode emphasizes on semantic HTML and CSS3. It reduces the amount of markup the control renders and makes it easier to customize. This also reduces the number of image sprites required by the control. All of this decreases the overall size and complexity of each skin, including custom ones.
 
 * **Mobile**—this mode is supported since **Q2 2015** release and with it, the control will change to create a user experience tailored to the device screen size. In this mode, **RadImageGallery** is mobile-friendly and its touch zones are bigger and easier to select. You can find more detailed information about this render mode in [Mobile Rendering]({%slug imagegallery/mobile-support/mobile-rendering%}) help article.
 
-* **Auto**—this mode makes each control choose the appropriate rendering mode according to the used	browser—**Mobile** or **Lightweight**. This functionality was added in Q1 2015.
+* **Auto**—this option will automatically decide how to render the control on a smartphone, tablet or PC and will switch between **Classic** and **Mobile** render modes (depending on the used device).
 
 >important RadImageGallery, as well as the other Telerik controls that utilize render modes, supports only one type of render mode per page.	This includes mode being set for a standalone instance, and a programmatically created instance. All such controls must have the same	RenderMode on a given page. This also includes instances from user controls and master pages.
 >
