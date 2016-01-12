@@ -16,7 +16,7 @@ To apply a skin to a **RadLinkButton** control, set its **Skin** property.
 
 **RadLinkButton** is installed with a number of preset skins. These are shown below:
 
-![RadLinkButton-skins](images/linkbutton-skins.png)
+![RadLinkButton-skins](images/button-skins.png)
 
 ## Customizing Skins
 
