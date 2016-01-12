@@ -42,15 +42,15 @@ You can control the image dimensions through the **Width** and **Height** proper
 
 >note If you add toggle states with and witout images, the RadToggleButton control will no longer be considered a button but a custom image. Thus, the borders and default backgrounds of the non-image toggle state will be lost and the appearance of the control will change.
 
-## Hovered, Active and Disabled States
+## Hovered, Active (Pressed) and Disabled States
 
-**RadToggleButton** also provides an easy way to show different images when the mouse is hovered over the control, the button is pressed or the button is disabled (see **Figure 2** and **Example 2**). To do this, use the **PressedUrl**, **HoveredUrl**, **DisabledUrl** properties exposed by the **Image** tag of each toggle state.
+**RadToggleButton** also provides an easy way to show different images when the mouse is hovered over the control, the button is pressed or the button is disabled (see **Figure 2** and **Example 2**). To do this, use the **HoveredUrl**, **PressedUrl** and **DisabledUrl** properties exposed by the **Image** tag of each toggle state.
 
->caption Figure 2: A RadToggleButton can have different images for its normal, hovered, active and disabled state.
+>caption Figure 2: A RadToggleButton can have different images for its normal, hovered, active (pressed) and disabled state.
 
 ![RadToggleButton with image states](images/toggle-button-image-states.png)
 
->caption Example 2: Setup unique images for the normal, hovered, active and disabled state of a RadToggleButton.
+>caption Example 2: Setup unique images for the normal, hovered, active (pressed) and disabled state of a RadToggleButton.
 
 ````ASP.NET
 <telerik:RadToggleButton runat="server" ID="RadToggleButton1" Width="58px" Height="59px">
