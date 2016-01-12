@@ -4,7 +4,7 @@ page_title: RadSpreadsheet Custom Context Menu| UI for ASP.NET AJAX Documentatio
 description: Custom ContextMenu 
 slug: spreadsheet/functionality/contextmenu/custom
 tags: custom
-published: True
+published: False
 position: 1
 ---
 

@@ -4,7 +4,7 @@ page_title: RadSpreadsheet Context Menu Format | UI for ASP.NET AJAX Documentati
 description: Overview
 slug: spreadsheet/functionality/contextmenu/overview
 tags: overview
-published: True
+published: False
 position: 0
 ---
 

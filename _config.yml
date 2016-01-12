@@ -1391,6 +1391,21 @@ navigation:
     "*spreadsheet/data-binding/providers":
         title: "Providers"
         position: 1
+    "*spreadsheet/functionality/contextmenu":
+        title: "Context Menu"
+        position: 1
+    "*spreadsheet/functionality/filtermenu":
+        title: "Filter Menu"
+        position: 2
+    "*spreadsheet/functionality/cellformat":
+        title: "Cell Format"
+        position: 3
+    "*spreadsheet/functionality/validation":
+        title: "Validation"
+        position: 4
+    "*spreadsheet/client-side-programming/objects":
+        title: "Objects"
+        position: 0
     "*stylesheetmanager/cdn-support":
         title: CDN Support
         position: 1
