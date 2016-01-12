@@ -14,11 +14,11 @@ position: 3
 
 The possible options are:
 
-* **Classic**, **Native**, **Mobile** — these modes are not supported. If you set them, the mode will behave like **Lightweight** mode. *See the 'important' note below for more information about modes.* <<Comment: Please review my changes and verify that they did not create a technical error.>>
+* **Classic**, **Native**, **Mobile** — these modes are not supported. If you set them, the mode will fall back automatically to **Lightweight** mode.
 
 * **Lightweight** — this is the default mode and it emphasizes using semantic HTML and CSS3, which makes the control easy to customize (including custom skins creation).
 
-* **Auto** — this mode makes each control choose the appropriate rendering mode according to the used browser. *See the 'important' note below for more information.*
+* **Auto** — this mode makes each control choose the appropriate rendering mode according to the used browser.
 
 >important **RadToggleButton**, as well as the other controls included in the Telerik UI for ASP.NET AJAX suite that utilize render modes, support only one type of render mode per page. All such controls must have the same **RenderMode** on a given page. This also includes instances from user controls and master pages.
 
@@ -53,7 +53,7 @@ There are two ways to configure the rendering mode of the **RadToggleButton**:
 	**web.config**
 
 		<appSettings>
-			<add key="Telerik.Web.UI.PushButton.RenderMode" value="Lightweight" />
+			<add key="Telerik.Web.UI.ToggleButton.RenderMode" value="Lightweight" />
 		</appSettings>
 
 
