@@ -70,6 +70,6 @@ Telerik RadDataPager control contains the following sever-side events and method
 | **Next** |Indicates that the end user chose to navigate to the next page in the container RadDataPager.|
 | **Prev** |Indicates that the end user chose to navigate to the previous page in the container RadDataPager.|
 | **Last** |Indicates that the end user chose to navigate to the last page in the container RadDataPager.|
-| **<NumericValue>** |<NumericValue> should be replaced with number that points to the page to which the control should navigate to.|
+| **\<NumericValue\>** |\<NumericValue\> should be replaced with number that points to the page to which the control should navigate to.|
 
 * **PageSizeChangeCommandName** represents the PageSizeChange command name which fires **RadDataPager.PageSizeChanged** event. It can be raised by buttons residing in the RadDataPager body. Their **CommandName** should be set to **PageSizeChange** and **CommandArgument** must be the actual number representing the new page size that will be set.

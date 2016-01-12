@@ -20,7 +20,7 @@ Here are the basic steps to insert a **RadFileExplorer** control on your page:
 
 1. Right-click on the inserted RadFileExplorer control and select properties.
 
-1. Set the following properties in the Configuration section: ViewPaths, DeletePaths and UploadPaths in the following format: **~/<path>** where the tilde (~) represents the root of your web application.
+1. Set the following properties in the Configuration section: ViewPaths, DeletePaths and UploadPaths in the following format: **~/\<path\>** where the tilde (~) represents the root of your web application.
 	
 	![Design view](images/FileExplorer-DesignView.gif)
 

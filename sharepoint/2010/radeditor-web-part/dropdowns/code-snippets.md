@@ -41,4 +41,4 @@ Thank you for inquiring about ************. Your request will be processed in 48
 
 To set an image icon in an "Insert Code Snippet" item, put an IMG tag either in front of or next to the Title inside the name attribute of the respective snippet tag: `<snippet name="<img src='http://www.telerik.com/RadControls/Editor/Skins/Custom/buttons/AjaxSpellCheck.gif' />Order Confirmation">`
 
-You should also encode the < and > tags symbols of the IMG tag with < and >.
+You should also encode the < and > tags symbols of the IMG tag with \&lt; and \&gt;.
