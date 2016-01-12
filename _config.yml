@@ -165,6 +165,9 @@ navigation:
     "controls/chart":
         title: "Chart (Obsolete)"
         position: 1
+    "controls/checkbox":
+        title: "CheckBox"
+        position: 1
     "controls/clientdatasource":
         title: "ClientDataSource"
         position: 1

@@ -23,6 +23,7 @@ Some controls from the UI for ASP.NET AJAX suite	can produce different (usually 
 |HtmlChart|N/A|-|
 |Calendar|[Yes (render mode)]({%slug calendar/mobile-support/render-mode%})|-|
 |Captcha|N/A|-|
+|CheckBox|[Yes (by design)]({%slug checkbox/mobile-support/render-modes%})|-|
 |ColorPicker|[Yes (render mode)]({%slug colorpicker/mobile-support/render-modes%})|-|
 |Combobox|[Yes (render mode)]({%slug combobox/mobile-support/render-modes%})|-|
 |DataForm|Yes (by design)|-|
