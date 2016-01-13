@@ -41,7 +41,7 @@ The Project Configuration Wizard’s first page lets you define settings related
 
 >note The **Add referenced assemblies to solution** option is not available for Visual Studio web site projects.
 
->note Creating a new project, [render mode]({%slug controls/render-modes%}) is automatically set to **lightweight**.
+>note When creating a new project, the [Render Mode]({%slug controls/render-modes%}) of the Telerik controls is automatically set to **Lightweight**.
 
 ![introduction-vsx Add Dpl Page](images/introduction-vsx_AddDplPage.png)
 
