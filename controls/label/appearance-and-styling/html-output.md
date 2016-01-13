@@ -2,7 +2,7 @@
 title: HTML Output
 page_title: RadLabel HTML Output | UI for ASP.NET AJAX Documentation
 description: RadLabel HTML Output
-slug: label/overview
+slug: label/html-output
 tags: overview
 published: True
 position: 0
