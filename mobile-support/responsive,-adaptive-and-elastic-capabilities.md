@@ -70,7 +70,7 @@ A control can hardly be considered responsive by itself, because this heavily de
 |FileExplorer|[Limited]({%slug fileexplorer/mobile-support/elastic-design%})|Yes|No|No|
 |Filter|Yes|No|No|No|
 |FormDecorator|[Yes]({%slug formdecorator/mobile-support/responsive,-adaptive-and-elastic-capabilities%})|[Yes]({%slug formdecorator/mobile-support/responsive,-adaptive-and-elastic-capabilities%})|[Yes]({%slug formdecorator/mobile-support/responsive,-adaptive-and-elastic-capabilities%})|N/A|
-|Gantt|Yes|Yes|No|No|
+|Gantt|Yes|Yes|Yes|No|
 |Gauge|N/A|N/A|N/A|N/A|
 |Grid|No|Yes|No|[Yes]({%slug grid/mobile-support/mobile-rendering/overview%})|
 |ImageButton|[Yes]({%slug imagebutton/mobile-support/elastic-design%})|[Yes]({%slug imagebutton/mobile-support/fluid-design%})|No|No|
@@ -90,11 +90,11 @@ A control can hardly be considered responsive by itself, because this heavily de
 |PanelBar|Yes|Yes|N/A|N/A|
 |Persistence Framework|N/A|N/A|N/A|N/A|
 |PivotGrid|[Yes]({%slug pivotgrid/mobile-support/fluid-and-elastic-capabilities%})|[Yes]({%slug pivotgrid/mobile-support/fluid-and-elastic-capabilities%})|No|No|
-|Progress Area|No|No|No|No|
+|Progress Area|Yes|Yes|No|No|
 |Progress Bar|[Yes]({%slug progressbar/mobile-support/elastic-design%})|[Yes]({%slug progressbar/mobile-support/fluid-design%})|[Yes]({%slug progressbar/mobile-support/elastic-design%})|No|
 |PushButton|[Yes]({%slug pushbutton/mobile-support/elastic-design%})|[Yes]({%slug pushbutton/mobile-support/fluid-design%})|No|No|
 |Rating|[Yes]({%slug rating/mobile-support/elastic-design%})|No|No|N/A|
-|RibbonBar|No|Yes|No|No|
+|RibbonBar|Yes|Yes|No|No|
 |Rotator|[Yes]({%slug rotator/mobile-support/elastic-capabilities%})|[Yes]({%slug rotator/mobile-support/fluid-capabilities%})|No|N/A|
 |Scheduler|No|Yes|N/A|[Yes]({%slug scheduler/mobile-support/responsive-adaptive-and-elastic-capabilities%})|
 |SearchBox|Yes|No|N/A|N/A|
@@ -103,21 +103,21 @@ A control can hardly be considered responsive by itself, because this heavily de
 |SocialShare|[Yes]({%slug socialshare/mobile-support/elastic-design%})|[Yes]({%slug socialshare/mobile-support/fluid-design%})|No|No|
 |Spell|No|No|No|No|
 |Splitter|[Limited]({%slug splitter/mobile-support/elastic-design%})|[Yes]({%slug splitter/layout/filling-the-entire-page%})|[Yes]({%slug splitter/layout/filling-the-entire-page%})|N/A|
-|TabStrip|No|No|N/A|N/A|
+|TabStrip|Yes|Yes|N/A|N/A|
 |TagCloud|[Yes]({%slug tagcloud/mobile-support/resposnive,-adaptive-and-elastic-capabilities%})|N/A|[Yes]({%slug tagcloud/mobile-support/resposnive,-adaptive-and-elastic-capabilities%})|N/A|
 |Ticker|[Yes]({%slug rotator/mobile-support/radticker-elastic-capabilities%})|Yes|No|N/A|
 |Tile|[Yes]({%slug tilelist/tiles/mobile-support/elastic-design%})|[Yes]({%slug tilelist/tiles/mobile-support/fluid-design%})|N/A|N/A|
 |TileList|[Yes]({%slug tilelist/mobile-support/elastic-capabilities%})|[Yes]({%slug tilelist/mobile-support/responsive-capabilities%})|[Yes]({%slug tilelist/mobile-support/responsive-capabilities%})|[Yes]({%slug tilelist/mobile-support/responsive-capabilities%})|
-|ToolBar|No|Yes|No|N/A|
+|ToolBar|Yes|Yes|Yes|N/A|
 |ToolTip|[Yes]({%slug tooltip/mobile-support/responsive,-adaptive-and-elastic-capabilities%})|N/A|[Yes]({%slug tooltip/mobile-support/responsive,-adaptive-and-elastic-capabilities%})|N/A|
 |ToggleButton|[Yes]({%slug togglebutton/mobile-support/elastic-design%})|[Yes]({%slug togglebutton/mobile-support/fluid-design%})|N/A|N/A|
 |TreeMap|Yes|Yes|No|No|
 |TreeList|Yes|Yes|No|No|
 |TreeView|Yes|No|N/A|N/A|
 |Upload (Async)|Yes|Yes|No|No|
-|Upload (Cloud)|No|Yes|No|No|
+|Upload (Cloud)|Yes|Yes|No|No|
 |Window|[Yes]({%slug window/mobile-support/responsive,-adaptive-and-elastic-capabilities%})|No|No|N/A|
-|Wizard|Yes|Yes|No|[Yes]({%slug wizard/mobile-support/mobile-rendering%})|
+|Wizard|Yes|Yes|Yes|[Yes]({%slug wizard/mobile-support/mobile-rendering%})|
 |XmlHttpPanel|N/A|N/A|N/A|N/A|
 |ZipLibrary|N/A|N/A|N/A|N/A|
 
