@@ -29,7 +29,7 @@ The Project Configuration Wizard is called when:
 
 The Project Configuration Wizard’s first page lets you define settings related to Telerik controls:
 
-* **Telerik Assemblies** - Select the Telerik controls distribution to be used. You can choose from the detected assemblies (from an installation folder or from the GAC), or you can browse to an assemblies located somewhere on your hard drive (e.g. when you've downloaded a zip file from the [Latest Internal Builds](http://www.telerik.com/blogs/download-latest-internal-builds) page).
+* **Telerik Assemblies** - Select the Telerik controls distribution to be used. You can choose from the detected assemblies (from an installation folder), or you can browse to an assemblies located somewhere on your hard drive (e.g. when you've downloaded a zip file from the [Latest Internal Builds](http://www.telerik.com/blogs/download-latest-internal-builds) page).
 
 * **Project type** – Select the Telerik project type (the option is only available in the **New Project Wizard**). The Empty site only references the assemblies and has the [mandatory additions to the web.config]({%slug general-information/web-config-settings-overview%}#mandatory-additions-to-the-webconfig). The *Responsive Web Site* is a template that uses the [RadPageLayout]({%slug pagelayout/overview%}) control to provide a basic template for a responsive web page.
 
@@ -39,7 +39,9 @@ The Project Configuration Wizard’s first page lets you define settings related
 
 * **Add referenced assemblies to solution** -	Choose whether to copy referenced assemblies to your solution folder. The assemblies will automatically get added to source control when using Microsoft Team Foundation Server.
 
->note The **Add referenced assemblies to solution** option is not available for Visual Studio web site projects or when using GAC based distributions.
+>note The **Add referenced assemblies to solution** option is not available for Visual Studio web site projects.
+
+>note Creating a new project, [render mode]({%slug controls/render-modes%}) is automatically set to **lightweight**.
 
 ![introduction-vsx Add Dpl Page](images/introduction-vsx_AddDplPage.png)
 
@@ -92,7 +94,5 @@ The web.config file gets updated as per the choices in the wizard:
 * The global skin registration is updated.
 
 * A registration for the "telerik" tag prefix is added, so that it is not needed to have the `<%@ Register %>` directive in each page.
-
-* If an assembly from GAC is used, the web.config now contains an entry for it.
 
 * RadScriptManager and RadStyleSheetManager default CDN settings are persisted.
