@@ -44,6 +44,8 @@ Here are quick links to the control-specific sections of our documentation:
 
 * [Chart (HTML5)]({%slug htmlchart/overview%})
 
+* [CheckBox]({%slug checkbox/overview%})
+
 * [ClientDataSource]({%slug clientdatasource/overview%})
 
 * [Client Export Manager]({%slug clientexportmanager/overview%})
@@ -177,6 +179,8 @@ Here are quick links to the control-specific sections of our documentation:
 * [Textbox]({%slug radtextbox/overview%})
 
 * [TileList]({%slug tilelist/overview%})
+
+* [ToggleButton]({%slug togglebutton/overview%})
 
 * [ToolBar]({%slug toolbar/overview%})
 

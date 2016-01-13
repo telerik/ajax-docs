@@ -8,7 +8,7 @@ published: True
 position: 0
 ---
 
-# PushButton Overview
+# LinkButton Overview
 
 The **RadLinkButton** control (**Figure 1**) enriches the features, that ASP.NET HyperLink control has. It provides additional events, ability to [define icons]({%slug linkbutton/functionality/icons%}) and [content template]({%slug linkbutton/functionality/contenttemplate%}) and numerous [themes]({%slug linkbutton/appearance-and-styling/skins%}). 
 
