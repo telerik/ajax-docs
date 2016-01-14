@@ -122,6 +122,8 @@ You can create **Figure 1** using the markup in **Example 1**.
 
 ## See Also
 
+ * [100% Stacked Series]({%slug htmlchart/functionality/100-stacked-series%})
+
  * [Bar Chart]({%slug htmlchart/chart-types/bar-chart%})
 
  * [Column Chart]({%slug htmlchart/chart-types/column-chart%})

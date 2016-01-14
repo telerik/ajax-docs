@@ -5,7 +5,7 @@ description: Custom Visual Template for Chart Elements
 slug: htmlchart/functionality/visual-template
 tags: custom,visual,template,visualization
 published: True
-position: 6
+position: 7
 ---
 
 # Visual Template
