@@ -26,14 +26,6 @@ Overloaded. Returns whether this converter can convert an object of one type to
 
 `System.Boolean` 
 
-###  ConvertFrom
-
-Overloaded. Converts the given value to the type of this converter.
-
-#### Returns
-
-`System.Object` 
-
 ###  CanConvertTo
 
 Overloaded. Returns whether this converter can convert the object to the
@@ -42,6 +34,14 @@ Overloaded. Returns whether this converter can convert the object to the
 #### Returns
 
 `System.Boolean` 
+
+###  ConvertFrom
+
+Overloaded. Converts the given value to the type of this converter.
+
+#### Returns
+
+`System.Object` 
 
 ###  ConvertTo
 

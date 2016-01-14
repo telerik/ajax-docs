@@ -17,17 +17,13 @@ Provides the event data for the RadImageEditor's ImageEditing event.
 
 ## Properties
 
-###  Cancel `Boolean`
-
-Gets or sets a bool value indicating whether the saving on the image should be canceled.
-
 ###  Argument `String`
 
 Gets or sets additional argument that will be passed back to the client callback function.
 
-###  CommandName `String`
+###  Cancel `Boolean`
 
-Gets the current command applied to the Editable Image.
+Gets or sets a bool value indicating whether the saving on the image should be canceled.
 
 ###  ClientObjectsDictionary `Dictionary`2`
 
@@ -38,6 +34,10 @@ Gets a dictionary containing all the objects sent from the client. Depending on 
             During Crop operation the following keys are sent: name, key, clientOps, x, y, width, height.
             
             During InsertImage operation the following keys are sent: name, key, clientOps, x, y, value, arrayOps.
+
+###  CommandName `String`
+
+Gets the current command applied to the Editable Image.
 
 ###  Image `EditableImage`
 

@@ -17,9 +17,26 @@ RadScriptManager.
 
 ## Properties
 
-###  Groups `List`1`
+###  AssemblyWhiteList `AssemblyWhiteListCollection`
 
-Gets the groups.
+Gets the Assembly White List
+
+###  CacheSettings `CacheSettings`
+
+Gets the cache settings.
+
+###  CdnSettings `CdnSettings`
+
+Gets the CDN settings.
+
+###  EnableEmbeddedjQuery `Boolean`
+
+Specifies whether the embedded jQuery library is output with RadControls' scripts.
+
+#### Remarks
+If the embedded jQuery is disabled, you must manually load a version of jQuery on the page and ensure that 
+            RadControls are compatible with it. If this property is set to false and no compatible jQuery library is used,
+            the page will throw JavaScript exceptions.
 
 ###  EnableHandlerDetection `Boolean`
 
@@ -41,17 +58,9 @@ When EnableScriptCombine set to true, the script references of the controls
             	on the page are combined to a single file, so that only one <script>
             	tag is output to the page HTML
 
-###  OutputCompression `OutputCompression`
+###  Groups `List`1`
 
-Specifies whether or not the combined output will be compressed.
-
-#### Remarks
-In some cases the browsers do not recognize compressed streams (e.g. if IE 6 lacks
-            	an update installed). In some cases the Telerik.Web.UI.WebResource handler
-            	cannot determine if to compress the stream. Set this property
-            	to Disabled
-            	if you encounter that problem.The OutputCompression property works only when
-            	EnableScriptCombine is set to true.
+Gets the groups.
 
 ###  HttpHandlerUrl `String`
 
@@ -63,18 +72,6 @@ The HTTPHandler should either be registered in the application configuration
             		HttpHandlerUrl points to.
             	
             		If a file is to serve the files, it should inherit the class Telerik.Web.UI.WebResource
-
-###  CdnSettings `CdnSettings`
-
-Gets the CDN settings.
-
-###  AssemblyWhiteList `AssemblyWhiteListCollection`
-
-Gets the Assembly White List
-
-###  CacheSettings `CacheSettings`
-
-Gets the cache settings.
 
 ###  OutputCompositeScriptLast `Boolean`
 
@@ -89,14 +86,17 @@ When combining is disabled the CompositeScript renders directly after the
             	AjaxFrameworkMode property is either 'Disabled' or 'Eplicit' you could set the property
             	to true or upgrade to RadScriptManager 4.0, so that the RadControls scripts are combined in one file instead of in two.
 
-###  EnableEmbeddedjQuery `Boolean`
+###  OutputCompression `OutputCompression`
 
-Specifies whether the embedded jQuery library is output with RadControls' scripts.
+Specifies whether or not the combined output will be compressed.
 
 #### Remarks
-If the embedded jQuery is disabled, you must manually load a version of jQuery on the page and ensure that 
-            RadControls are compatible with it. If this property is set to false and no compatible jQuery library is used,
-            the page will throw JavaScript exceptions.
+In some cases the browsers do not recognize compressed streams (e.g. if IE 6 lacks
+            	an update installed). In some cases the Telerik.Web.UI.WebResource handler
+            	cannot determine if to compress the stream. Set this property
+            	to Disabled
+            	if you encounter that problem.The OutputCompression property works only when
+            	EnableScriptCombine is set to true.
 
 ## Methods
 

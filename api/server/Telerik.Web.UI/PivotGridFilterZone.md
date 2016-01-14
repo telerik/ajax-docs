@@ -19,3 +19,25 @@ Represents the filter fields zone of Telerik.Web.UI.RadPivotGrid .
 * Telerik.Web.UI.PivotGridZone
 * Telerik.Web.UI.PivotGridFilterZone
 
+## Properties
+
+###  DataItem `Object`
+
+Data item associated to the current cell
+
+###  Field `PivotGridField`
+
+Associated PivotGridField object
+
+###  HasChildren `Boolean`
+
+Determines if the cell has children
+
+###  HasInstantiatedTemplate `Boolean`
+
+Determines whether the cell has an instantiated template
+
+###  OwnerPivotGrid `RadPivotGrid`
+
+Owner RadPivotGrid control
+

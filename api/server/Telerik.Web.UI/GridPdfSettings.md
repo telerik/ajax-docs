@@ -16,46 +16,6 @@ Container of misc. grouping settings of RadGrid control
 
 ## Properties
 
-###  PageHeader `GridPdfPageHeaderFooter`
-
-PageHeader element holds the contents of the header zone
-
-###  PageFooter `GridPdfPageHeaderFooter`
-
-This element holds the contents of the footer zone of the page
-
-###  Creator `String`
-
-Document creator
-
-###  Producer `String`
-
-Document producer
-
-###  Author `String`
-
-Document author
-
-###  Title `String`
-
-Document title
-
-###  Subject `String`
-
-Document subject
-
-###  PageTitle `String`
-
-Page title
-
-###  Keywords `String[]`
-
-Document keywords (comma-separated)
-
-###  DisableContentEncryption `Boolean`
-
-Determines whether the content encryption will be disabled
-
 ###  AllowAdd `Boolean`
 
 Allow content to be added to the PDF file
@@ -64,79 +24,45 @@ Allow content to be added to the PDF file
 
 Allow content to be copied from the PDF file
 
-###  AllowPrinting `Boolean`
-
-Allow the content of the PDF file to be printed
-
 ###  AllowModify `Boolean`
 
 Allow the document to be modified
 
-###  ForceTextWrap `Boolean`
+###  AllowPrinting `Boolean`
 
-Determines what will happen when a given text is larger than the cell width (and there are no whitespaces inside). 
-            If set to true, the overflowing text will be carried over to the next line; otherwise (false) the text will break the cell boundaries
+Allow the content of the PDF file to be printed
 
-###  PaperSize `GridPaperSize`
+###  Author `String`
 
-Gets or sets the physical paper size that RadGrid will use when exporting to PDF.
-
-#### Remarks
-It will be overriden by setting PageWidth and PageHeight explicitly.
-
-###  ContentFilter `GridPdfFilter`
-
-Determines the default content filter used by the PDF engine
-
-###  BorderType `GridPdfBorderType`
-
-Determines the border type for the exported RadGrid
-
-###  BorderStyle `GridPdfBorderStyle`
-
-Determines the thickness of the border
+Document author
 
 ###  BorderColor `Color`
 
 Determines the color of the borders
 
-###  PageWidth `Unit`
+###  BorderStyle `GridPdfBorderStyle`
 
-Gets or sets the page width that RadGrid will use when exporting to PDF.
+Determines the thickness of the border
 
-#### Remarks
-This setting will override any predefined value that comes from the PaperSize property.
+###  BorderType `GridPdfBorderType`
 
-###  PageHeight `Unit`
+Determines the border type for the exported RadGrid
 
-Gets or sets the page height that RadGrid will use when exporting to PDF.
+###  ContentFilter `GridPdfFilter`
 
-#### Remarks
-This setting will override any predefined value that comes from the PaperSize property.
+Determines the default content filter used by the PDF engine
 
-###  PageTopMargin `Unit`
+###  Creator `String`
 
-The top margin of the page
+Document creator
 
-###  PageBottomMargin `Unit`
+###  DefaultFontFamily `String`
 
-The bottom margin of the page
+Determines the default font
 
-###  PageLeftMargin `Unit`
+###  DisableContentEncryption `Boolean`
 
-The left margin of the page
-
-###  PageRightMargin `Unit`
-
-The right margin of the page
-
-###  PageHeaderMargin `GridPdfPageHeaderFooter`
-
-The margin of the page header
-
-###  PageFooterMargin `GridPdfPageHeaderFooter`
-
-The margin of the page footer
+Determines whether the content encryption will be disabled
 
 ###  FontType `FontType`
 
@@ -173,19 +99,85 @@ Possible values:
                             the size of the font program. However, small processing overhead is
                             incurred to generated the subsetted font.
 
+###  ForceTextWrap `Boolean`
+
+Determines what will happen when a given text is larger than the cell width (and there are no whitespaces inside). 
+            If set to true, the overflowing text will be carried over to the next line; otherwise (false) the text will break the cell boundaries
+
+###  Keywords `String[]`
+
+Document keywords (comma-separated)
+
+###  PageBottomMargin `Unit`
+
+The bottom margin of the page
+
+###  PageFooter `GridPdfPageHeaderFooter`
+
+This element holds the contents of the footer zone of the page
+
+###  PageFooterMargin `GridPdfPageHeaderFooter`
+
+The margin of the page footer
+
+###  PageHeader `GridPdfPageHeaderFooter`
+
+PageHeader element holds the contents of the header zone
+
+###  PageHeaderMargin `GridPdfPageHeaderFooter`
+
+The margin of the page header
+
+###  PageHeight `Unit`
+
+Gets or sets the page height that RadGrid will use when exporting to PDF.
+
+#### Remarks
+This setting will override any predefined value that comes from the PaperSize property.
+
+###  PageLeftMargin `Unit`
+
+The left margin of the page
+
+###  PageRightMargin `Unit`
+
+The right margin of the page
+
+###  PageTitle `String`
+
+Page title
+
+###  PageTopMargin `Unit`
+
+The top margin of the page
+
+###  PageWidth `Unit`
+
+Gets or sets the page width that RadGrid will use when exporting to PDF.
+
+#### Remarks
+This setting will override any predefined value that comes from the PaperSize property.
+
+###  PaperSize `GridPaperSize`
+
+Gets or sets the physical paper size that RadGrid will use when exporting to PDF.
+
+#### Remarks
+It will be overriden by setting PageWidth and PageHeight explicitly.
+
+###  Producer `String`
+
+Document producer
+
+###  Subject `String`
+
+Document subject
+
+###  Title `String`
+
+Document title
+
 ###  UserPassword `String`
 
 Determines whether the exported document will be password protected.
-
-###  DefaultFontFamily `String`
-
-Determines the default font
-
-## Methods
-
-###  GetViewStateValue
-
-#### Returns
-
-`Telerik.Web.UI.T` 
 

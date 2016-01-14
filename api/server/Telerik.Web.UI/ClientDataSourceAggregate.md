@@ -16,11 +16,11 @@ a class representing the the aggregates settings of the Telerik.Web.UI.RadClient
 
 ## Properties
 
-###  Field `String`
-
-Gets or sets the field name of the aggregate.
-
 ###  Aggregate `ClientDataSourceAggregateFunction`
 
 Gets or sets the aggregate function
+
+###  Field `String`
+
+Gets or sets the field name of the aggregate.
 

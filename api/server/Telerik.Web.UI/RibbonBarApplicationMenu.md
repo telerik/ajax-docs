@@ -17,6 +17,14 @@ This class defines the RibbonBarApplicationMenu object that inherits WebControl.
 
 ## Properties
 
+###  AuxiliaryPane `RibbonBarApplicationMenuAuxiliaryPane`
+
+Used to customize the ApplicationMenu AuxiliaryPane.
+
+###  FooterPane `RibbonBarApplicationMenuFooterPane`
+
+Used to customize the ApplicationMenu Footer.
+
 ###  Items `RibbonBarApplicationMenuItemBaseCollection`
 
 Gets a RibbonBarApplicationMenuItemCollection object that contains the items of the ApplicationMenu.
@@ -34,26 +42,10 @@ Specifies the rendering mode of the control. Setting the mode to Lightweight wil
 Lightweight rendering mode might change the outlook of the component in some older browsers
             that don't support CSS3/HTML5.
 
-###  FooterPane `RibbonBarApplicationMenuFooterPane`
-
-Used to customize the ApplicationMenu Footer.
-
-###  AuxiliaryPane `RibbonBarApplicationMenuAuxiliaryPane`
-
-Used to customize the ApplicationMenu AuxiliaryPane.
-
 ###  Text `String`
 
 Gets or sets the text of the ApplicationMenu.
 
 #### Remarks
 Use the property to set the displayed text of the ApplicationMenu.
-
-## Methods
-
-###  RenderControl
-
-#### Returns
-
-`System.Void` 
 

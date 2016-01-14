@@ -18,44 +18,41 @@ Telerik RadFormDecorator
 
 ## Properties
 
-###  TagKey `HtmlTextWriterTag`
+###  ClientIDMode `ClientIDMode`
 
-Form Decorator will render as a Div tag in order to be XHTML compliant
-
-###  DecoratedControls `FormDecoratorDecoratedControls`
-
-Get/Set the DecoratedControls enum of RadFormDecorator
+This property is overridden in order to support controls which implement INamingContainer.
+            The default value is changed to "AutoID".
 
 ###  ControlsToSkip `FormDecoratorDecoratedControls`
 
 Get/Set the ControlsToSkip enum of RadFormDecorator - a shortcut for faster fine-tuning of the decorated controls
 
-###  EnableRoundedCorners `Boolean`
+###  CssClassFormatString `String`
 
-Gets or sets whether decorated textboxes, textarea and fieldset elements will have rounded corners
+The CssClass property will now be used instead of the former Skin 
+            and will be modified in AddAttributesToRender()
+
+###  DecoratedControls `FormDecoratorDecoratedControls`
+
+Get/Set the DecoratedControls enum of RadFormDecorator
 
 ###  DecorationZoneID `String`
 
 Gets or sets the id (ClientID if a runat=server is used) of a html element whose children will be decorated
 
-###  RegisterWithScriptManager `Boolean`
+###  EnableAjaxSkinRendering `String`
 
-Gets or sets the value, indicating whether to register with the ScriptManager control on the page.
-
-#### Remarks
-If RegisterWithScriptManager is set to false the control can be rendered on the page using Web Services or normal callback requests/page methods.
-
-###  Skin `String`
-
-Gets or sets the skin name for the control user interface.
+Gets or sets the value, indicating whether to render the skin CSS files during Ajax requests
 
 #### Remarks
-If this property is not set, the control will render using the skin named "Default".
-            If EnableEmbeddedSkins is set to false, the control will not render skin.
+If EnableAjaxSkinRendering is set to false you will have to register the needed control base CSS file by hand when adding/showing the control with Ajax.
 
-###  IsSkinSet `String`
+###  EnableEmbeddedBaseStylesheet `Boolean`
 
-For internal use.
+Gets or sets the value, indicating whether to render the link to the embedded base stylesheet of the control or not.
+
+#### Remarks
+If EnableEmbeddedBaseStylesheet is set to false you will have to register the needed control base CSS file by hand.
 
 ###  EnableEmbeddedScripts `Boolean`
 
@@ -71,26 +68,20 @@ Gets or sets the value, indicating whether to render links to the embedded skins
 #### Remarks
 If EnableEmbeddedSkins is set to false you will have to register the needed CSS files by hand.
 
-###  EnableEmbeddedBaseStylesheet `Boolean`
+###  EnableRoundedCorners `Boolean`
 
-Gets or sets the value, indicating whether to render the link to the embedded base stylesheet of the control or not.
+Gets or sets whether decorated textboxes, textarea and fieldset elements will have rounded corners
 
-#### Remarks
-If EnableEmbeddedBaseStylesheet is set to false you will have to register the needed control base CSS file by hand.
+###  IsSkinSet `String`
 
-###  RuntimeSkin `String`
+For internal use.
 
-Gets the real skin name for the control user interface. If Skin is not set, returns
-            "Default", otherwise returns Skin.
+###  RegisterWithScriptManager `Boolean`
 
-###  EnableAjaxSkinRendering `String`
-
-Gets or sets the value, indicating whether to render the skin CSS files during Ajax requests
+Gets or sets the value, indicating whether to register with the ScriptManager control on the page.
 
 #### Remarks
-If EnableAjaxSkinRendering is set to false you will have to register the needed control base CSS file by hand when adding/showing the control with Ajax.
-
-###  ClientStateFieldID `String`
+If RegisterWithScriptManager is set to false the control can be rendered on the page using Web Services or normal callback requests/page methods.
 
 ###  RenderMode `RenderMode`
 
@@ -105,38 +96,28 @@ Lightweight rendering mode might change the outlook of the component in some old
 
 Returns resolved RenderMode should the original value was Auto
 
-###  CssClassFormatString `String`
+###  RuntimeSkin `String`
 
-The CssClass property will now be used instead of the former Skin 
-            and will be modified in AddAttributesToRender()
+Gets the real skin name for the control user interface. If Skin is not set, returns
+            "Default", otherwise returns Skin.
 
-###  ClientIDMode `ClientIDMode`
+###  Skin `String`
 
-This property is overridden in order to support controls which implement INamingContainer.
-            The default value is changed to "AutoID".
+Gets or sets the skin name for the control user interface.
 
-###  ScriptManager `ScriptManager`
+#### Remarks
+If this property is not set, the control will render using the skin named "Default".
+            If EnableEmbeddedSkins is set to false, the control will not render skin.
 
-###  RadScriptManager `ScriptManager`
+###  TagKey `HtmlTextWriterTag`
+
+Form Decorator will render as a Div tag in order to be XHTML compliant
 
 ## Methods
 
-###  DecorateAspNetControls
+###  ApplyConditionalRendering
 
-Finds all instances of FormView, GridView, DetailsView controls in the current page and adds a CSS class 
-            so they can be decorated on the client
-
-#### Returns
-
-`System.Void` 
-
-###  AddAttributesToRender
-
-#### Returns
-
-`System.Void` 
-
-###  OnPreRender
+Use this from RenderContents of the inheritor
 
 #### Returns
 
@@ -150,111 +131,10 @@ Code moved into this method from OnPreRender to make sure it executed when the f
 
 `System.Void` 
 
-###  RegisterScriptControl
+###  DecorateAspNetControls
 
-Registers the control with the ScriptManager
-
-#### Returns
-
-`System.Void` 
-
-###  RegisterCssReferences
-
-Registers the CSS references
-
-#### Returns
-
-`System.Void` 
-
-###  LoadClientState
-
-Loads the client state data
-
-#### Parameters
-
-#### clientState `System.Collections.Generic.Dictionary{System.String,System.Object}`
-
-#### Returns
-
-`System.Void` 
-
-###  SaveClientState
-
-Saves the client state data
-
-#### Returns
-
-`System.String` 
-
-###  RenderClientStateField
-
-#### Returns
-
-`System.Void` 
-
-###  RenderBeginTag
-
-#### Returns
-
-`System.Void` 
-
-###  RenderEndTag
-
-#### Returns
-
-`System.Void` 
-
-###  Render
-
-#### Returns
-
-`System.Void` 
-
-###  RenderScriptsNoScriptManager
-
-#### Returns
-
-`System.Void` 
-
-###  RenderDescriptorsNoScriptManager
-
-#### Returns
-
-`System.Void` 
-
-###  RenderContents
-
-#### Returns
-
-`System.Void` 
-
-###  ApplyConditionalRendering
-
-Use this from RenderContents of the inheritor
-
-#### Returns
-
-`System.Void` 
-
-###  DescribeComponent
-
-#### Returns
-
-`System.Void` 
-
-###  DescribeProperty
-
-#### Returns
-
-`System.Void` 
-
-###  DescribeIDReferenceProperty
-
-#### Returns
-
-`System.Void` 
-
-###  DescribeEvent
+Finds all instances of FormView, GridView, DetailsView controls in the current page and adds a CSS class 
+            so they can be decorated on the client
 
 #### Returns
 
@@ -267,6 +147,18 @@ Returns the names of all embedded skins. Used by Telerik.Web.Examples.
 #### Returns
 
 `System.Collections.Generic.List`1` 
+
+###  LoadClientState
+
+Loads the client state data
+
+#### Parameters
+
+#### clientState `System.Collections.Generic.Dictionary{System.String,System.Object}`
+
+#### Returns
+
+`System.Void` 
 
 ###  LoadPostData
 
@@ -290,9 +182,27 @@ Executed when post data changes should invoke a changed event
 
 `System.Void` 
 
-###  GetViewStateValue
+###  RegisterCssReferences
+
+Registers the CSS references
 
 #### Returns
 
-`Telerik.Web.UI.T` 
+`System.Void` 
+
+###  RegisterScriptControl
+
+Registers the control with the ScriptManager
+
+#### Returns
+
+`System.Void` 
+
+###  SaveClientState
+
+Saves the client state data
+
+#### Returns
+
+`System.String` 
 

@@ -17,11 +17,10 @@ Base class for all ViewModel classes.
 
 ## Methods
 
-###  VerifyPropertyName
+###  Dispose
 
-Warns the developer if this object does not have
-            a public property with the specified name. This 
-            method does not exist in a Release build.
+Performs application-defined tasks associated with freeing, releasing,
+            or resetting unmanaged resources.
 
 #### Returns
 
@@ -29,8 +28,14 @@ Warns the developer if this object does not have
 
 ###  Dispose
 
-Performs application-defined tasks associated with freeing, releasing,
-            or resetting unmanaged resources.
+Releases unmanaged and - optionally - managed resources.
+
+#### Parameters
+
+#### disposing `System.Boolean`
+
+true to release both managed and unmanaged resources.
+            false to release only unmanaged resources.
 
 #### Returns
 
@@ -50,16 +55,11 @@ The property that has a new value.
 
 `System.Void` 
 
-###  Dispose
+###  VerifyPropertyName
 
-Releases unmanaged and - optionally - managed resources.
-
-#### Parameters
-
-#### disposing `System.Boolean`
-
-true to release both managed and unmanaged resources.
-            false to release only unmanaged resources.
+Warns the developer if this object does not have
+            a public property with the specified name. This 
+            method does not exist in a Release build.
 
 #### Returns
 

@@ -16,25 +16,9 @@ Manages the image shown in the RadButton control.
 
 ## Properties
 
-###  IsBackgroundImage `Boolean`
-
-Gets or sets a bool value indicating how the Image is used - i.e. as a background image or as an Image Button.
-
-###  ImageUrl `String`
-
-Gets or sets the location of an image to display in the RadButton control.
-
 ###  DisabledImageUrl `String`
 
 Gets or sets the location of an image to display when the RadButton control is disabled.
-
-###  HoveredImageUrl `String`
-
-Gets or sets the location of an image to display in the RadButton control, when the mouse pointer is over the control.
-
-###  PressedImageUrl `String`
-
-Gets or sets the location of an image to display in the RadButton control, when the control is pressed.
 
 ###  EnableImageButton `Boolean`
 
@@ -42,4 +26,20 @@ Gets or sets a bool value indicating whether the RadButton is rendered as Image 
             
             Use this property if you want to set the image through the CssClass property of the RadButton control.
             In case the ImageUrl property is set this property is automatically set to true.
+
+###  HoveredImageUrl `String`
+
+Gets or sets the location of an image to display in the RadButton control, when the mouse pointer is over the control.
+
+###  ImageUrl `String`
+
+Gets or sets the location of an image to display in the RadButton control.
+
+###  IsBackgroundImage `Boolean`
+
+Gets or sets a bool value indicating how the Image is used - i.e. as a background image or as an Image Button.
+
+###  PressedImageUrl `String`
+
+Gets or sets the location of an image to display in the RadButton control, when the control is pressed.
 

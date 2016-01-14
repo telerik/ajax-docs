@@ -15,23 +15,15 @@ This Class defines the SitemapProtocolExporter.
 
 ## Properties
 
-###  SitemapNodeLimit `Int32`
-
-Gets or sets the sitemap node limit.
-
 ###  SitemapByteLimit `Int32`
 
 Gets or sets the sitemap byte limit.
 
+###  SitemapNodeLimit `Int32`
+
+Gets or sets the sitemap node limit.
+
 ## Methods
-
-###  GetSitemaps
-
-Gets the sitemaps.
-
-#### Returns
-
-`System.String[]` 
 
 ###  AddNode
 
@@ -46,4 +38,12 @@ The URL.
 #### Returns
 
 `System.Void` 
+
+###  GetSitemaps
+
+Gets the sitemaps.
+
+#### Returns
+
+`System.String[]` 
 

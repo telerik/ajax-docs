@@ -41,6 +41,14 @@ An instance of the  class.
 
 `System.Void` 
 
+###  Clear
+
+Removes all  instances from the collection.
+
+#### Returns
+
+`System.Void` 
+
 ###  Remove
 
 Removes an instance of the  from the collection.
@@ -50,14 +58,6 @@ Removes an instance of the  from the collection.
 #### excludeSetting `Telerik.Web.UI.RadCompressionExcludeSetting`
 
 An instance of the  class.
-
-#### Returns
-
-`System.Void` 
-
-###  Clear
-
-Removes all  instances from the collection.
 
 #### Returns
 

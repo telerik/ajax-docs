@@ -16,21 +16,21 @@ A class holding the base data source web service settings of the Telerik.Web.UI.
 
 ## Properties
 
-###  RequestType `ClientDataSourceHttpMethod`
+###  ContentType `String`
 
-Gets or sets the type of the request that will be used to send the data to the service. The default is .
+Gets or sets the content type that is expected from the data service.
 
 ###  DataType `ClientDataSourceDataType`
 
 Gets or sets the data type that is expected from the data service.
 
-###  ContentType `String`
-
-Gets or sets the content type that is expected from the data service.
-
 ###  EnableCaching `Boolean`
 
 Enables or disables client-side data caching in . Caching is disabled by default.
+
+###  RequestType `ClientDataSourceHttpMethod`
+
+Gets or sets the type of the request that will be used to send the data to the service. The default is .
 
 ###  Url `String`
 

@@ -17,205 +17,97 @@ The localization strings to be used in RadScheduler.
 
 ## Properties
 
-###  HeaderToday `String`
-
-Gets or sets the header today.
-
-###  HeaderPrevDay `String`
-
-Gets or sets the header prev day.
-
-###  HeaderNextDay `String`
-
-Gets or sets the header next day.
-
-###  HeaderDay `String`
-
-Gets or sets the header day.
-
-###  HeaderWeek `String`
-
-Gets or sets the header week.
-
-###  HeaderMonth `String`
-
-Gets or sets the header month.
-
-###  HeaderTimeline `String`
-
-Gets or sets the header timeline.
-
-###  HeaderMultiDay `String`
-
-Gets or sets the header multi day.
-
-###  HeaderAgenda `String`
-
-Gets or sets the header agenda.
-
-###  HeaderYear `String`
-
-Gets or sets the header year.
-
-###  HeaderAgendaDate `String`
-
-Gets or sets the agenda header date.
-
-###  HeaderAgendaTime `String`
-
-Gets or sets the agenda header time.
-
-###  HeaderAgendaAppointment `String`
-
-Gets or sets the agenda header appointment.
-
-###  HeaderAgendaResource `String`
-
-Gets or sets the agenda header resource.
-
-###  HeaderAddAppointment `String`
-
-Gets or sets the header Add Appointment.
-
-###  AllDay `String`
-
-Gets or sets all day.
-
-###  Show24Hours `String`
-
-Gets or sets the Show24Hours.
-
-###  ShowBusinessHours `String`
-
-Gets or sets the show business hours.
-
-###  Save `String`
-
-Gets or sets the save.
-
-###  Cancel `String`
-
-Gets or sets the cancel.
-
-###  Delete `String`
-
-Gets or sets the delete.
-
-###  ShowAdvancedForm `String`
-
-Gets or sets the show advanced form.
-
-###  ShowMore `String`
-
-Gets or sets the show more.
-
-###  AdvancedSubject `String`
-
-Gets or sets the advanced subject.
-
-###  AdvancedDescription `String`
-
-Gets or sets the advanced description.
-
-###  AdvancedFrom `String`
-
-Gets or sets the advanced from.
-
-###  AdvancedTo `String`
-
-Gets or sets the advanced to.
-
 ###  AdvancedAllDayEvent `String`
 
 Gets or sets the advanced all day event.
 
-###  AdvancedTimeZone `String`
+###  AdvancedCalendarCancel `String`
 
-Gets or sets the advanced time zone.
+Gets or sets the advanced calendar cancel.
 
-###  AdvancedRecurrence `String`
+###  AdvancedCalendarOK `String`
 
-Gets or sets the advanced recurrence.
+Gets or sets the advanced calendar OK.
 
-###  AdvancedRepeat `String`
+###  AdvancedCalendarToday `String`
 
-Gets or sets the advanced repeat.
+Gets or sets the advanced calendar today.
 
-###  AdvancedHourly `String`
+###  AdvancedClose `String`
 
-Gets or sets the advanced hourly.
+Gets or sets the advanced close.
 
 ###  AdvancedDaily `String`
 
 Gets or sets the advanced daily.
 
-###  AdvancedWeekly `String`
+###  AdvancedDay `String`
 
-Gets or sets the advanced weekly.
-
-###  AdvancedMonthly `String`
-
-Gets or sets the advanced monthly.
-
-###  AdvancedYearly `String`
-
-Gets or sets the advanced yearly.
-
-###  AdvancedEvery `String`
-
-Gets or sets the advanced every.
-
-###  AdvancedHours `String`
-
-Gets or sets the advanced hours.
+Gets or sets the advanced day.
 
 ###  AdvancedDays `String`
 
 Gets or sets the advanced days.
 
-###  AdvancedWeeks `String`
+###  AdvancedDescription `String`
 
-Gets or sets the advanced weeks.
+Gets or sets the advanced description.
 
-###  AdvancedMonths `String`
+###  AdvancedDone `String`
 
-Gets or sets the advanced months.
+Gets or sets the advanced done.
 
-###  AdvancedYears `String`
+###  AdvancedEditAppointment `String`
 
-Gets or sets the advanced years.
+Gets or sets the advanced edit appointment.
+
+###  AdvancedEndAfter `String`
+
+Gets or sets the advanced end after.
+
+###  AdvancedEndByThisDate `String`
+
+Gets or sets the advanced end by this date.
+
+###  AdvancedEndDateRequired `String`
+
+Gets or sets the advanced end date required.
+
+###  AdvancedEndTimeRequired `String`
+
+Gets or sets the advanced end time required.
+
+###  AdvancedEvery `String`
+
+Gets or sets the advanced every.
 
 ###  AdvancedEveryWeekday `String`
 
 Gets or sets the advanced every weekday.
 
-###  AdvancedRecurEvery `String`
-
-Gets or sets the advanced recur every.
-
-###  AdvancedDay `String`
-
-Gets or sets the advanced day.
-
-###  AdvancedOfEvery `String`
-
-Gets or sets the advanced of every.
-
 ###  AdvancedFirst `String`
 
 Gets or sets the advanced first.
 
-###  AdvancedSecond `String`
-
-Gets or sets the advanced second.
-
-###  AdvancedThird `String`
-
-Gets or sets the advanced third.
-
 ###  AdvancedFourth `String`
 
 Gets or sets the advanced fourth.
+
+###  AdvancedFrom `String`
+
+Gets or sets the advanced from.
+
+###  AdvancedHourly `String`
+
+Gets or sets the advanced hourly.
+
+###  AdvancedHours `String`
+
+Gets or sets the advanced hours.
+
+###  AdvancedInvalidNumber `String`
+
+Gets or sets the advanced invalid number.
 
 ###  AdvancedLast `String`
 
@@ -233,49 +125,57 @@ Gets or sets the advanced mask weekday.
 
 Gets or sets the advanced mask weekend day.
 
-###  AdvancedThe `String`
+###  AdvancedMonthly `String`
 
-Gets or sets the advanced the.
+Gets or sets the advanced monthly.
 
-###  AdvancedOf `String`
+###  AdvancedMonths `String`
 
-Gets or sets the advanced of.
+Gets or sets the advanced months.
 
-###  AdvancedReset `String`
+###  AdvancedNewAppointment `String`
 
-Gets or sets the advanced reset.
+Gets or sets the advanced new appointment.
 
 ###  AdvancedNoEndDate `String`
 
 Gets or sets the advanced no end date.
 
-###  AdvancedEndAfter `String`
-
-Gets or sets the advanced end after.
-
-###  AdvancedEndByThisDate `String`
-
-Gets or sets the advanced end by this date.
-
 ###  AdvancedOccurrences `String`
 
 Gets or sets the advanced occurrences.
 
-###  AdvancedCalendarOK `String`
+###  AdvancedOf `String`
 
-Gets or sets the advanced calendar OK.
+Gets or sets the advanced of.
 
-###  AdvancedCalendarCancel `String`
+###  AdvancedOfEvery `String`
 
-Gets or sets the advanced calendar cancel.
+Gets or sets the advanced of every.
 
-###  AdvancedCalendarToday `String`
+###  AdvancedRecurEvery `String`
 
-Gets or sets the advanced calendar today.
+Gets or sets the advanced recur every.
 
-###  AdvancedSubjectRequired `String`
+###  AdvancedRecurrence `String`
 
-Gets or sets the advanced subject required.
+Gets or sets the advanced recurrence.
+
+###  AdvancedRepeat `String`
+
+Gets or sets the advanced repeat.
+
+###  AdvancedReset `String`
+
+Gets or sets the advanced reset.
+
+###  AdvancedSecond `String`
+
+Gets or sets the advanced second.
+
+###  AdvancedStartDateRequired `String`
+
+Gets or sets the advanced start date required.
 
 ###  AdvancedStartTimeBeforeEndTime `String`
 
@@ -285,145 +185,73 @@ Gets or sets the advanced start time before end time.
 
 Gets or sets the advanced start time required.
 
-###  AdvancedStartDateRequired `String`
+###  AdvancedSubject `String`
 
-Gets or sets the advanced start date required.
+Gets or sets the advanced subject.
 
-###  AdvancedEndTimeRequired `String`
+###  AdvancedSubjectRequired `String`
 
-Gets or sets the advanced end time required.
+Gets or sets the advanced subject required.
 
-###  AdvancedEndDateRequired `String`
+###  AdvancedThe `String`
 
-Gets or sets the advanced end date required.
+Gets or sets the advanced the.
 
-###  AdvancedInvalidNumber `String`
+###  AdvancedThird `String`
 
-Gets or sets the advanced invalid number.
+Gets or sets the advanced third.
+
+###  AdvancedTimeZone `String`
+
+Gets or sets the advanced time zone.
+
+###  AdvancedTo `String`
+
+Gets or sets the advanced to.
+
+###  AdvancedWeekly `String`
+
+Gets or sets the advanced weekly.
+
+###  AdvancedWeeks `String`
+
+Gets or sets the advanced weeks.
 
 ###  AdvancedWorking `String`
 
 Gets or sets the advanced working.
 
-###  AdvancedDone `String`
+###  AdvancedYearly `String`
 
-Gets or sets the advanced done.
+Gets or sets the advanced yearly.
 
-###  AdvancedNewAppointment `String`
+###  AdvancedYears `String`
 
-Gets or sets the advanced new appointment.
+Gets or sets the advanced years.
 
-###  AdvancedEditAppointment `String`
+###  AllDay `String`
 
-Gets or sets the advanced edit appointment.
+Gets or sets all day.
 
-###  AdvancedClose `String`
+###  Cancel `String`
 
-Gets or sets the advanced close.
+Gets or sets the cancel.
 
-###  Reminder `String`
+###  ConfirmCancel `String`
 
-Gets or sets the reminder.
+Gets or sets the confirm cancel.
 
-###  Reminders `String`
+###  ConfirmDeleteText `String`
 
-Gets or sets the reminders.
+Gets or sets the confirm delete text.
 
-###  ReminderMinute `String`
+###  ConfirmDeleteTitle `String`
 
-Gets or sets the reminder minute.
+Gets or sets the confirm delete title.
 
-###  ReminderMinutes `String`
+###  ConfirmOK `String`
 
-Gets or sets the reminder minutes.
-
-###  ReminderHour `String`
-
-Gets or sets the reminder hour.
-
-###  ReminderHours `String`
-
-Gets or sets the reminder hours.
-
-###  ReminderDay `String`
-
-Gets or sets the reminder day.
-
-###  ReminderDays `String`
-
-Gets or sets the reminder days.
-
-###  ReminderWeek `String`
-
-Gets or sets the reminder week.
-
-###  ReminderWeeks `String`
-
-Gets or sets the reminder weeks.
-
-###  ReminderNone `String`
-
-Gets or sets the reminder none.
-
-###  ReminderBeforeStart `String`
-
-Gets or sets the reminder before start.
-
-###  ReminderSnooze `String`
-
-Gets or sets the reminder snooze.
-
-###  ReminderDismiss `String`
-
-Gets or sets the reminder dismiss.
-
-###  ReminderDismissAll `String`
-
-Gets or sets the reminder dismiss all.
-
-###  ReminderOpenItem `String`
-
-Gets or sets the reminder open item.
-
-###  ReminderSnoozeHint `String`
-
-Gets or sets the reminder snooze hint.
-
-###  ReminderDueIn `String`
-
-Gets or sets the reminder due in.
-
-###  ReminderOverdue `String`
-
-Gets or sets the reminder overdue.
-
-###  ConfirmRecurrenceEditTitle `String`
-
-Gets or sets the confirm recurrence edit title.
-
-###  ConfirmRecurrenceEditOccurrence `String`
-
-Gets or sets the confirm recurrence edit occurrence.
-
-###  ConfirmRecurrenceEditSeries `String`
-
-Gets or sets the confirm recurrence edit series.
-
-###  ConfirmRecurrenceResizeTitle `String`
-
-Gets or sets the confirm recurrence resize title.
-
-###  ConfirmRecurrenceResizeOccurrence `String`
-
-Gets or sets the confirm recurrence resize occurrence.
-
-###  ConfirmRecurrenceResizeSeries `String`
-
-Gets or sets the confirm recurrence resize series.
-
-###  ConfirmRecurrenceDeleteTitle `String`
-
-Gets or sets the confirm recurrence delete title.
+Gets or sets the confirm OK.
 
 ###  ConfirmRecurrenceDeleteOccurrence `String`
 
@@ -433,17 +261,21 @@ Gets or sets the confirm recurrence delete occurrence.
 
 Gets or sets the confirm recurrence delete series.
 
-###  ConfirmDeleteTitle `String`
+###  ConfirmRecurrenceDeleteTitle `String`
 
-Gets or sets the confirm delete title.
+Gets or sets the confirm recurrence delete title.
 
-###  ConfirmDeleteText `String`
+###  ConfirmRecurrenceEditOccurrence `String`
 
-Gets or sets the confirm delete text.
+Gets or sets the confirm recurrence edit occurrence.
 
-###  ConfirmRecurrenceMoveTitle `String`
+###  ConfirmRecurrenceEditSeries `String`
 
-Gets or sets the confirm recurrence move title.
+Gets or sets the confirm recurrence edit series.
+
+###  ConfirmRecurrenceEditTitle `String`
+
+Gets or sets the confirm recurrence edit title.
 
 ###  ConfirmRecurrenceMoveOccurrence `String`
 
@@ -453,29 +285,29 @@ Gets or sets the confirm recurrence move occurrence.
 
 Gets or sets the confirm recurrence move series.
 
-###  ConfirmOK `String`
+###  ConfirmRecurrenceMoveTitle `String`
 
-Gets or sets the confirm OK.
+Gets or sets the confirm recurrence move title.
 
-###  ConfirmCancel `String`
+###  ConfirmRecurrenceResizeOccurrence `String`
 
-Gets or sets the confirm cancel.
+Gets or sets the confirm recurrence resize occurrence.
 
-###  ConfirmResetExceptionsTitle `String`
+###  ConfirmRecurrenceResizeSeries `String`
 
-Gets or sets the confirm reset exceptions title.
+Gets or sets the confirm recurrence resize series.
+
+###  ConfirmRecurrenceResizeTitle `String`
+
+Gets or sets the confirm recurrence resize title.
 
 ###  ConfirmResetExceptionsText `String`
 
 Gets or sets the confirm reset exceptions text.
 
-###  ContextMenuEdit `String`
+###  ConfirmResetExceptionsTitle `String`
 
-Gets or sets the context menu edit.
-
-###  ContextMenuDelete `String`
-
-Gets or sets the context menu delete.
+Gets or sets the confirm reset exceptions title.
 
 ###  ContextMenuAddAppointment `String`
 
@@ -485,7 +317,175 @@ Gets or sets the context menu add appointment.
 
 Gets or sets the context menu add recurring appointment.
 
+###  ContextMenuDelete `String`
+
+Gets or sets the context menu delete.
+
+###  ContextMenuEdit `String`
+
+Gets or sets the context menu edit.
+
 ###  ContextMenuGoToToday `String`
 
 Gets or sets the context menu go to today.
+
+###  Delete `String`
+
+Gets or sets the delete.
+
+###  HeaderAddAppointment `String`
+
+Gets or sets the header Add Appointment.
+
+###  HeaderAgenda `String`
+
+Gets or sets the header agenda.
+
+###  HeaderAgendaAppointment `String`
+
+Gets or sets the agenda header appointment.
+
+###  HeaderAgendaDate `String`
+
+Gets or sets the agenda header date.
+
+###  HeaderAgendaResource `String`
+
+Gets or sets the agenda header resource.
+
+###  HeaderAgendaTime `String`
+
+Gets or sets the agenda header time.
+
+###  HeaderDay `String`
+
+Gets or sets the header day.
+
+###  HeaderMonth `String`
+
+Gets or sets the header month.
+
+###  HeaderMultiDay `String`
+
+Gets or sets the header multi day.
+
+###  HeaderNextDay `String`
+
+Gets or sets the header next day.
+
+###  HeaderPrevDay `String`
+
+Gets or sets the header prev day.
+
+###  HeaderTimeline `String`
+
+Gets or sets the header timeline.
+
+###  HeaderToday `String`
+
+Gets or sets the header today.
+
+###  HeaderWeek `String`
+
+Gets or sets the header week.
+
+###  HeaderYear `String`
+
+Gets or sets the header year.
+
+###  Reminder `String`
+
+Gets or sets the reminder.
+
+###  ReminderBeforeStart `String`
+
+Gets or sets the reminder before start.
+
+###  ReminderDay `String`
+
+Gets or sets the reminder day.
+
+###  ReminderDays `String`
+
+Gets or sets the reminder days.
+
+###  ReminderDismiss `String`
+
+Gets or sets the reminder dismiss.
+
+###  ReminderDismissAll `String`
+
+Gets or sets the reminder dismiss all.
+
+###  ReminderDueIn `String`
+
+Gets or sets the reminder due in.
+
+###  ReminderHour `String`
+
+Gets or sets the reminder hour.
+
+###  ReminderHours `String`
+
+Gets or sets the reminder hours.
+
+###  ReminderMinute `String`
+
+Gets or sets the reminder minute.
+
+###  ReminderMinutes `String`
+
+Gets or sets the reminder minutes.
+
+###  ReminderNone `String`
+
+Gets or sets the reminder none.
+
+###  ReminderOpenItem `String`
+
+Gets or sets the reminder open item.
+
+###  ReminderOverdue `String`
+
+Gets or sets the reminder overdue.
+
+###  Reminders `String`
+
+Gets or sets the reminders.
+
+###  ReminderSnooze `String`
+
+Gets or sets the reminder snooze.
+
+###  ReminderSnoozeHint `String`
+
+Gets or sets the reminder snooze hint.
+
+###  ReminderWeek `String`
+
+Gets or sets the reminder week.
+
+###  ReminderWeeks `String`
+
+Gets or sets the reminder weeks.
+
+###  Save `String`
+
+Gets or sets the save.
+
+###  Show24Hours `String`
+
+Gets or sets the Show24Hours.
+
+###  ShowAdvancedForm `String`
+
+Gets or sets the show advanced form.
+
+###  ShowBusinessHours `String`
+
+Gets or sets the show business hours.
+
+###  ShowMore `String`
+
+Gets or sets the show more.
 

@@ -18,19 +18,11 @@ Class representing HTML table row(tr) element which is part of the Telerik.Web.U
 
 ## Properties
 
-###  RowType `MonthYearViewRowType`
-
-Gets the type of row which determines the rendered row in the .
-
 ###  OwnerMonthYearPicker `RadMonthYearPicker`
 
 Gets or sets the owner .
 
-## Methods
+###  RowType `MonthYearViewRowType`
 
-###  Initialize
-
-#### Returns
-
-`System.Void` 
+Gets the type of row which determines the rendered row in the .
 

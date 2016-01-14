@@ -16,19 +16,19 @@ Provides data for the RadComboBoxSelectedIndexChanged event of the RadComboBoxco
 
 ## Properties
 
-###  Text `String`
-
-Gets or sets the text.
-
 ###  OldText `String`
 
 Gets or sets the old text.
 
-###  Value `String`
-
-Gets or sets the value.
-
 ###  OldValue `String`
 
 Gets or sets the old value.
+
+###  Text `String`
+
+Gets or sets the text.
+
+###  Value `String`
+
+Gets or sets the value.
 

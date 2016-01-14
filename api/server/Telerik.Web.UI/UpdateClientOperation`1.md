@@ -16,10 +16,6 @@ Used in case of update client operations.
 
 ## Properties
 
-###  PropertyName `String`
-
-Gets the name of the property which has been changed on the client side.
-
 ###  Item `T`
 
 Returns the item (, ,
@@ -29,6 +25,10 @@ Returns the item (, ,
 #### Remarks
 When the  of the operation is  the Item property will
             return null (Nothing in VB.NET) in case the items of the control have been cleared.
+
+###  PropertyName `String`
+
+Gets the name of the property which has been changed on the client side.
 
 ###  Type `ClientOperationType`
 

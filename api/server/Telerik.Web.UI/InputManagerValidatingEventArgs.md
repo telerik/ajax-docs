@@ -16,13 +16,6 @@ The event arguments passed before Telerik.Web.UI.RadInputManager validation happ
 
 ## Properties
 
-###  Setting `InputSetting`
-
-Gets the  which holds
-            settings for all controls thar are being validated.
-
-###  Context `Object`
-
 ###  Canceled `Boolean`
 
 Gets or sets if the validation will be canceled and
@@ -32,4 +25,9 @@ Gets or sets if the validation will be canceled and
 
 Gets or sets if the  valdiation
             is valid.
+
+###  Setting `InputSetting`
+
+Gets the  which holds
+            settings for all controls thar are being validated.
 

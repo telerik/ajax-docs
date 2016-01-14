@@ -46,11 +46,58 @@ Appends a SplitterItem to the end of the collection.
 
 `System.Void` 
 
-###  Add
+###  Clear
+
+Removes all items from the collection.
+
+#### Remarks
+Use the Clear method to remove all items from the collection. The
+                Count property is set to 0.
 
 #### Returns
 
 `System.Void` 
+
+###  Contains
+
+Determines whether the collection contains the specified
+                SplitterItem.
+
+#### Remarks
+Use the Contains method to determine whether the SplitterItem
+            specified by the item parameter is in the collection.
+
+#### Parameters
+
+#### item `Telerik.Web.UI.SplitterItem`
+
+A SplitterItem to search for in the collection.
+
+#### Returns
+
+`System.Boolean` true if the collection contains the specified item; otherwise,
+            false.
+
+###  IndexOf
+
+Determines the index value that represents the position of the specified
+                SplitterItem in the collection.
+
+#### Remarks
+Use the IndexOf method to determine the index value of the
+            SplitterItem specified by the item parameter in the collection. If an item
+            with this criteria is not found in the collection, -1 is returned.
+
+#### Parameters
+
+#### item `Telerik.Web.UI.SplitterItem`
+
+A SplitterItem to search for in the collection.
+
+#### Returns
+
+`System.Int32` The zero-based index position of the specified SplitterItem in the
+            collection.
 
 ###  Insert
 
@@ -75,65 +122,6 @@ The SplitterItem to add to the collection.
 
 `System.Void` 
 
-###  AddAt
-
-#### Returns
-
-`System.Void` 
-
-###  IndexOf
-
-Determines the index value that represents the position of the specified
-                SplitterItem in the collection.
-
-#### Remarks
-Use the IndexOf method to determine the index value of the
-            SplitterItem specified by the item parameter in the collection. If an item
-            with this criteria is not found in the collection, -1 is returned.
-
-#### Parameters
-
-#### item `Telerik.Web.UI.SplitterItem`
-
-A SplitterItem to search for in the collection.
-
-#### Returns
-
-`System.Int32` The zero-based index position of the specified SplitterItem in the
-            collection.
-
-###  IndexOf
-
-#### Returns
-
-`System.Int32` 
-
-###  Contains
-
-Determines whether the collection contains the specified
-                SplitterItem.
-
-#### Remarks
-Use the Contains method to determine whether the SplitterItem
-            specified by the item parameter is in the collection.
-
-#### Parameters
-
-#### item `Telerik.Web.UI.SplitterItem`
-
-A SplitterItem to search for in the collection.
-
-#### Returns
-
-`System.Boolean` true if the collection contains the specified item; otherwise,
-            false.
-
-###  Contains
-
-#### Returns
-
-`System.Boolean` 
-
 ###  Remove
 
 Removes the specified SplitterItem from the collection.
@@ -141,12 +129,6 @@ Removes the specified SplitterItem from the collection.
 #### Remarks
 Use the Remove method to remove a SplitterItem from the
             collection.
-
-#### Returns
-
-`System.Void` 
-
-###  Remove
 
 #### Returns
 
@@ -165,18 +147,6 @@ Use the RemoveAt method to remove the SplitterItem at the
 #### index `System.Int32`
 
 The index of the SplitterItem to remove.
-
-#### Returns
-
-`System.Void` 
-
-###  Clear
-
-Removes all items from the collection.
-
-#### Remarks
-Use the Clear method to remove all items from the collection. The
-                Count property is set to 0.
 
 #### Returns
 

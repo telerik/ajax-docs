@@ -19,6 +19,13 @@ Represents the Image settings needed to export SVG files with RadClientExportMan
 
 Gets or sets the name of the exported image file
 
+###  Height `String`
+
+Gets or set the height of the exported image
+
+#### Remarks
+By default it takes the height of the exported scene
+
 ###  ProxyURL `String`
 
 Gets or sets the proxy URL use to export files under Internet Explorer 9
@@ -29,11 +36,4 @@ Gets or set the width of the exported image
 
 #### Remarks
 By default it takes the width of the exported scene
-
-###  Height `String`
-
-Gets or set the height of the exported image
-
-#### Remarks
-By default it takes the height of the exported scene
 

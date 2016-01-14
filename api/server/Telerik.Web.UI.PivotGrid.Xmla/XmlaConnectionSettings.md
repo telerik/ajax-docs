@@ -15,13 +15,9 @@ Connection setting class used by Telerik.Web.UI.PivotGrid.Xmla.XmlaDataProvider 
 
 ## Properties
 
-###  DefaultEncoding `Encoding`
+###  Credentials `XmlaNetworkCredential`
 
-Gets the default encoding used for XMLA service calls.
-
-###  QueryProperties `Collection`1`
-
-Properties that are used for Discover and Execute methods.
+Gets or sets the client credentials used for XMLA service calls.
 
 ###  Cube `String`
 
@@ -31,25 +27,23 @@ Gets or sets the name of the cube that will be used.
 
 Gets or sets the database to connect to.
 
-###  ServerAddress `String`
+###  DefaultEncoding `Encoding`
 
-Gets or sets the server address.
-
-###  Credentials `XmlaNetworkCredential`
-
-Gets or sets the client credentials used for XMLA service calls.
+Gets the default encoding used for XMLA service calls.
 
 ###  Encoding `Encoding`
 
 Gets or sets the encoding that is used for XMLA service calls.
 
+###  QueryProperties `Collection`1`
+
+Properties that are used for Discover and Execute methods.
+
+###  ServerAddress `String`
+
+Gets or sets the server address.
+
 ## Methods
-
-###  ToString
-
-#### Returns
-
-`System.String` 
 
 ###  Equals
 
@@ -98,4 +92,10 @@ The right.
 #### Returns
 
 `System.Boolean` True, if instances are not equal.
+
+###  ToString
+
+#### Returns
+
+`System.String` 
 

@@ -19,11 +19,11 @@ The set Telerik.Web.UI.OrgChartRenderedField RenderedFieldswill apply for every
 
 ## Properties
 
-###  NodeFields `OrgChartRenderedFieldCollection`
-
-Gets the RenderedFields collection for OrgChartNodes.
-
 ###  ItemFields `OrgChartRenderedFieldCollection`
 
 Gets the RenderedFields collection for OrgChartGroupItems.
+
+###  NodeFields `OrgChartRenderedFieldCollection`
+
+Gets the RenderedFields collection for OrgChartNodes.
 

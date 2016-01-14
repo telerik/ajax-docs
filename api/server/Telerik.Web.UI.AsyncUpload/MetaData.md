@@ -16,11 +16,11 @@ This Class gets or sets the name of
 
 ## Properties
 
-###  TempFileName `String`
-
-Gets or sets the name of the temporary file.
-
 ###  AsyncUploadTypeName `String`
 
 Gets or sets the TypeName.
+
+###  TempFileName `String`
+
+Gets or sets the name of the temporary file.
 

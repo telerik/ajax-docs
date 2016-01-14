@@ -18,14 +18,6 @@ RadCompression is a HttpModule that is designed to automatically compress AJAX a
 
 ## Methods
 
-###  IsHttpCompressionEnabled
-
-Gets value indicating if the HTTP compression is activated
-
-#### Returns
-
-`System.Boolean` 
-
 ###  GetConfigurationSection
 
 Retrieves RadCompression's configuration section from the webconfig.
@@ -33,22 +25,6 @@ Retrieves RadCompression's configuration section from the webconfig.
 #### Returns
 
 `Telerik.Web.UI.RadCompressionConfigurationSection` 
-
-###  ShouldApplyOnPostback
-
-Gets value indicating if the compression filter should be applied on full page postbacks.
-
-#### Returns
-
-`System.Boolean` 
-
-###  IsStateCompressionEnabled
-
-Gets value indicating whether State compression is activated.
-
-#### Returns
-
-`System.Boolean` 
 
 ###  Init
 
@@ -65,9 +41,33 @@ A  that provides access to the methods, properties,
 
 `System.Void` 
 
+###  IsHttpCompressionEnabled
+
+Gets value indicating if the HTTP compression is activated
+
+#### Returns
+
+`System.Boolean` 
+
 ###  IsResponseCompressed
 
 Determines whether the response is already compressed.
+
+#### Returns
+
+`System.Boolean` 
+
+###  IsStateCompressionEnabled
+
+Gets value indicating whether State compression is activated.
+
+#### Returns
+
+`System.Boolean` 
+
+###  ShouldApplyOnPostback
+
+Gets value indicating if the compression filter should be applied on full page postbacks.
 
 #### Returns
 

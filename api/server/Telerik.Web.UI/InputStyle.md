@@ -18,42 +18,36 @@ Class representing the styles for Telerik.Web.UI.RadInputControl .
 
 ## Properties
 
+###  HorizontalAlign `HorizontalAlign`
+
+Gets or sets the horizontal alignment applied to the HTML input element.
+
 ###  IsEmpty `Boolean`
 
 A protected property. Gets a value indicating whether any style elements
             have been defined in the state bag.
 
-###  HorizontalAlign `HorizontalAlign`
+###  LetterSpacing `Unit`
 
-Gets or sets the horizontal alignment applied to the HTML input element.
-
-###  PaddingRight `Unit`
-
-Gets or sets the right padding applied to the html input element.
-
-###  PaddingLeft `Unit`
-
-Gets or sets the left padding applied to the html input element.
-
-###  PaddingTop `Unit`
-
-Gets or sets the top padding applied to the html input element.
+Gets or sets the spacing between letters in the input control.
 
 ###  PaddingBottom `Unit`
 
 Gets or sets the top padding applied to the html input element.
 
-###  LetterSpacing `Unit`
+###  PaddingLeft `Unit`
 
-Gets or sets the spacing between letters in the input control.
+Gets or sets the left padding applied to the html input element.
+
+###  PaddingRight `Unit`
+
+Gets or sets the right padding applied to the html input element.
+
+###  PaddingTop `Unit`
+
+Gets or sets the top padding applied to the html input element.
 
 ## Methods
-
-###  AddAttributesToRender
-
-#### Returns
-
-`System.Void` 
 
 ###  CopyFrom
 

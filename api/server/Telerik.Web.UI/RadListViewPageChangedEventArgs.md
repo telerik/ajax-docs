@@ -18,21 +18,21 @@ The event arguments passed when Telerik.Web.UI.RadListView fires PageChanged eve
 
 ## Properties
 
-###  NewPageIndex `Int32`
+###  Canceled `Boolean`
 
-Gets or sets the new PageIndex value.
-
-###  ListViewItem `RadListViewItem`
-
-Gets or sets the  which was responsible for firing the event.
+Gets or sets a value, defining whether the command should be canceled.
 
 ###  EventSource `Object`
 
 Gets or sets the event source which represent the control which fired the event.
 
-###  Canceled `Boolean`
+###  ListViewItem `RadListViewItem`
 
-Gets or sets a value, defining whether the command should be canceled.
+Gets or sets the  which was responsible for firing the event.
+
+###  NewPageIndex `Int32`
+
+Gets or sets the new PageIndex value.
 
 ## Methods
 

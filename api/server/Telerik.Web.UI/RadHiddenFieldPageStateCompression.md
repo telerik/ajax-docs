@@ -18,23 +18,6 @@ A class that overrides Telerik.Web.UI.RadCompression to provide viewstate and co
 
 ## Methods
 
-###  GetStatePersister
-
-If state compression is enabled returns  object which supports compressed state manipulation.
-            Otherwise returns the default persister.
-
-#### Returns
-
-`System.Web.UI.PageStatePersister` 
-
-###  IsHttpCompressionEnabled
-
-Gets value indicating if the HTTP compression is activated
-
-#### Returns
-
-`System.Boolean` 
-
 ###  GetConfigurationSection
 
 Retrieves RadCompression's configuration section from the webconfig.
@@ -43,21 +26,14 @@ Retrieves RadCompression's configuration section from the webconfig.
 
 `Telerik.Web.UI.RadCompressionConfigurationSection` 
 
-###  ShouldApplyOnPostback
+###  GetStatePersister
 
-Gets value indicating if the compression filter should be applied on full page postbacks.
-
-#### Returns
-
-`System.Boolean` 
-
-###  IsStateCompressionEnabled
-
-Gets value indicating whether State compression is activated.
+If state compression is enabled returns  object which supports compressed state manipulation.
+            Otherwise returns the default persister.
 
 #### Returns
 
-`System.Boolean` 
+`System.Web.UI.PageStatePersister` 
 
 ###  Init
 
@@ -74,9 +50,33 @@ A  that provides access to the methods, properties,
 
 `System.Void` 
 
+###  IsHttpCompressionEnabled
+
+Gets value indicating if the HTTP compression is activated
+
+#### Returns
+
+`System.Boolean` 
+
 ###  IsResponseCompressed
 
 Determines whether the response is already compressed.
+
+#### Returns
+
+`System.Boolean` 
+
+###  IsStateCompressionEnabled
+
+Gets value indicating whether State compression is activated.
+
+#### Returns
+
+`System.Boolean` 
+
+###  ShouldApplyOnPostback
+
+Gets value indicating if the compression filter should be applied on full page postbacks.
 
 #### Returns
 

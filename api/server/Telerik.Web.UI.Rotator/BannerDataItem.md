@@ -15,13 +15,13 @@ Helper class that provides the the DataItem object when using the RadRotator in 
 
 ## Properties
 
-###  ImageUrl `String`
-
-Gets or sets the location of the image.
-
 ###  AlternateText `String`
 
 Gets or sets the alternate text of the image.
+
+###  ImageUrl `String`
+
+Gets or sets the location of the image.
 
 ###  NavigateUrl `String`
 

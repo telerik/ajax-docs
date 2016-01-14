@@ -17,11 +17,6 @@ The arguments passed when Telerik.Web.UI.RadTreeList fires the ItemUpdated event
 
 ## Properties
 
-###  KeepInEditMode `Boolean`
-
-Gets or sets a boolean value indicating whether the edited item 
-            will remain in edit mode.
-
 ###  AffectedRows `Int32`
 
 Gets the number of affected rows.
@@ -31,12 +26,17 @@ Gets the number of affected rows.
 Gets the Exception object in case an exception happended during
             the automatic operation.
 
-###  Item `TreeListEditableItem`
-
-Gets a reference to the edited item.
-
 ###  ExceptionHandled `Exception`
 
 Gets or sets a value indicating whether the exception
             that was thrown is handled.
+
+###  Item `TreeListEditableItem`
+
+Gets a reference to the edited item.
+
+###  KeepInEditMode `Boolean`
+
+Gets or sets a boolean value indicating whether the edited item 
+            will remain in edit mode.
 

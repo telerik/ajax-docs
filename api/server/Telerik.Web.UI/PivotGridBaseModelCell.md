@@ -15,37 +15,37 @@ Defines the PivotGrid model cell used into the PivotGridCellExportingArgs.
 
 ## Properties
 
-###  Field `PivotGridField`
+###  CellType `PivotGridDataCellType`
 
-Gets the pivot grid field related with this cell
+Gets the type of data cell
 
 ###  Data `Object`
 
 Get the object to which the PivtoGrid cell is bound
 
+###  Field `PivotGridField`
+
+Gets the pivot grid field related with this cell
+
 ###  GroupLevel `Int32`
 
 Gets the cell group level
-
-###  IsCollapsed `Boolean`
-
-Gets whether the cell's group is collapsed
 
 ###  HasChildren `Boolean`
 
 Gets whether the cell's group has children groups
 
-###  IsTotalCell `Boolean`
+###  IsCollapsed `Boolean`
 
-Gets whether the cell is total cell
+Gets whether the cell's group is collapsed
 
 ###  IsGrandTotalCell `Boolean`
 
 Gets whether the cell is grand total cell
 
-###  CellType `PivotGridDataCellType`
+###  IsTotalCell `Boolean`
 
-Gets the type of data cell
+Gets whether the cell is total cell
 
 ###  TableCellType `PivotGridDataCellType`
 

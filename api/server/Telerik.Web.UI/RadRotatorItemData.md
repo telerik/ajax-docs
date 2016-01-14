@@ -19,6 +19,10 @@ For information about the role of each property see the
 
 ## Properties
 
+###  CssClass `String`
+
+See RadRotatorItem.CssClass.
+
 ###  Html `String`
 
 The HTML content of the rotator frame. Note that you do not need to use templates here - the HTML will be added to the page directly.
@@ -26,8 +30,4 @@ The HTML content of the rotator frame. Note that you do not need to use template
 ###  Visible `Boolean`
 
 See RadRotatorItem.Visible.
-
-###  CssClass `String`
-
-See RadRotatorItem.CssClass.
 

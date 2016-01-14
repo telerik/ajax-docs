@@ -18,37 +18,51 @@ A base class representing the event args passed when Telerik.Web.UI.RadTreeList 
 
 ## Properties
 
-###  SortExpression `String`
+###  Canceled `Boolean`
 
-A string representing the current sort expression.
+Gets or sets a value indicating whether the current command is cancelled.
 
-###  OldSortOrder `TreeListSortOrder`
+###  EventSource `Object`
 
-Gets a value from the TreeListSortOrder enumeration representing the sort order of the column
-            before the SortCommand event was fired.
+Gets the control which was responsible for firing the event.
+
+###  Item `TreeListItem`
+
+The item in which the command was triggered.
 
 ###  NewSortOrder `TreeListSortOrder`
 
 Gets a value from the TreeListSortOrder enumeration representing the sort order of the column
             after the SortCommand event was fired.
 
-###  Item `TreeListItem`
+###  OldSortOrder `TreeListSortOrder`
 
-The item in which the command was triggered.
+Gets a value from the TreeListSortOrder enumeration representing the sort order of the column
+            before the SortCommand event was fired.
 
-###  EventSource `Object`
+###  SortExpression `String`
 
-Gets the control which was responsible for firing the event.
-
-###  Canceled `Boolean`
-
-Gets or sets a value indicating whether the current command is cancelled.
+A string representing the current sort expression.
 
 ## Methods
 
 ###  ExecuteCommand
 
 Forces the execution of the sort command that riggered the event.
+
+#### Returns
+
+`System.Void` 
+
+###  ExecuteCommand
+
+Forces the execution of the command that triggered the event.
+
+#### Parameters
+
+#### source `System.Object`
+
+The owner RadTreeList object
 
 #### Returns
 
@@ -71,20 +85,6 @@ The object that was used to trigger the command.
 #### commandArgument `System.String`
 
 A string representing the command argument.
-
-#### Returns
-
-`System.Void` 
-
-###  ExecuteCommand
-
-Forces the execution of the command that triggered the event.
-
-#### Parameters
-
-#### source `System.Object`
-
-The owner RadTreeList object
 
 #### Returns
 

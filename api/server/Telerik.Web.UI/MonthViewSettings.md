@@ -18,13 +18,14 @@ Represents settings for RadScheduler's Month view.
 
 ## Properties
 
-###  HeaderDateFormat `String`
+###  AdaptiveRowHeight `Boolean`
 
-Gets or sets the RadScheduler's header date format string in Month View.
+Gets or sets a value indicating whether the height of each row
+            	should be adjusted to match the height of its content.
 
 #### Remarks
-For additional information, please read this
-            MSDN article.
+By default, all rows are rendered with the same height.
+            	This property allows you to change this behaviour.
 
 ###  ColumnHeaderDateFormat `String`
 
@@ -50,31 +51,6 @@ Gets or sets the first day of month header date format in Month View.
 For additional information, please read this
             MSDN article.
 
-###  VisibleAppointmentsPerDay `Int32`
-
-Gets or sets a value indicating the number of visible appointments per day in month view.
-
-#### Remarks
-A link button navigating to the specific date will be rendered when
-            	the number of appointments exceeds this value.
-
-###  AdaptiveRowHeight `Boolean`
-
-Gets or sets a value indicating whether the height of each row
-            	should be adjusted to match the height of its content.
-
-#### Remarks
-By default, all rows are rendered with the same height.
-            	This property allows you to change this behaviour.
-
-###  MinimumRowHeight `Int32`
-
-Gets or sets a value indicating the minimum row height in month view.
-
-#### Remarks
-This property is ignored when AdaptiveRowHeight
-            	is set to true.
-
 ###  GroupBy `String`
 
 Gets or sets the resource to group by.
@@ -83,9 +59,21 @@ Gets or sets the resource to group by.
 
 Gets or sets the resource grouping direction.
 
-###  ShowResourceHeaders `Boolean`
+###  HeaderDateFormat `String`
 
-Gets or sets a value indicating whether to render resource headers for the current view.
+Gets or sets the RadScheduler's header date format string in Month View.
+
+#### Remarks
+For additional information, please read this
+            MSDN article.
+
+###  MinimumRowHeight `Int32`
+
+Gets or sets a value indicating the minimum row height in month view.
+
+#### Remarks
+This property is ignored when AdaptiveRowHeight
+            	is set to true.
 
 ###  ReadOnly `Boolean`
 
@@ -98,15 +86,19 @@ By default the user is able to insert, edit and delete appointments. Use the Rea
 
 Gets or sets a value indicating whether to render date headers for the current view.
 
+###  ShowResourceHeaders `Boolean`
+
+Gets or sets a value indicating whether to render resource headers for the current view.
+
 ###  UserSelectable `Boolean`
 
 Gets or sets a value indicating whether to render a tab for the current view in the view chooser.
 
-## Methods
+###  VisibleAppointmentsPerDay `Int32`
 
-###  GetViewStateValue
+Gets or sets a value indicating the number of visible appointments per day in month view.
 
-#### Returns
-
-`Telerik.Web.UI.T` 
+#### Remarks
+A link button navigating to the specific date will be rendered when
+            	the number of appointments exceeds this value.
 

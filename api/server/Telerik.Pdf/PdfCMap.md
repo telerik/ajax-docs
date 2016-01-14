@@ -17,23 +17,21 @@ Class that defines a mapping between character codes (CIDs)
 * Telerik.Pdf.PdfContentStream : IDisposable
 * Telerik.Pdf.PdfCMap
 
-## Properties
-
-###  SystemInfo `PdfCIDSystemInfo`
-
-###  stream `MemoryStream`
-
-###  streamData `MemoryStream`
-
-###  data `Byte[]`
-
-###  m_dictionary `PdfDictionary`
-
-###  IsIndirect `Boolean`
-
-###  ObjectId `PdfObjectId`
-
 ## Methods
+
+###  AddBfRange
+
+Adds the supplied glyph index to unicode value mapping.
+
+#### Parameters
+
+#### glyphIndex `System.Int32`
+
+#### unicodeValue `System.Int32`
+
+#### Returns
+
+`System.Void` 
 
 ###  AddBfRanges
 
@@ -50,20 +48,6 @@ Both the key and value must be a int.
 
 `System.Void` 
 
-###  AddBfRange
-
-Adds the supplied glyph index to unicode value mapping.
-
-#### Parameters
-
-#### glyphIndex `System.Int32`
-
-#### unicodeValue `System.Int32`
-
-#### Returns
-
-`System.Void` 
-
 ###  Write
 
 Overriden to create CMap content stream.
@@ -71,6 +55,19 @@ Overriden to create CMap content stream.
 #### Parameters
 
 #### writer `Telerik.Pdf.PdfWriter`
+
+#### Returns
+
+`System.Void` 
+
+###  Write
+
+TODO: This method is temporary.  I'm assuming that all string should 
+                be represented as a PdfString object?
+
+#### Parameters
+
+#### s `System.String`
 
 #### Returns
 
@@ -99,143 +96,4 @@ Writes the bfrange entries to the content stream in groups of 100.
 #### Returns
 
 `System.Void` 
-
-###  Write
-
-#### Returns
-
-`System.Void` 
-
-###  WriteLine
-
-#### Returns
-
-`System.Void` 
-
-###  Write
-
-TODO: This method is temporary.  I'm assuming that all string should 
-                be represented as a PdfString object?
-
-#### Parameters
-
-#### s `System.String`
-
-#### Returns
-
-`System.Void` 
-
-###  WriteLine
-
-#### Returns
-
-`System.Void` 
-
-###  Write
-
-#### Returns
-
-`System.Void` 
-
-###  WriteLine
-
-#### Returns
-
-`System.Void` 
-
-###  Write
-
-#### Returns
-
-`System.Void` 
-
-###  WriteLine
-
-#### Returns
-
-`System.Void` 
-
-###  WriteSpace
-
-#### Returns
-
-`System.Void` 
-
-###  WriteLine
-
-#### Returns
-
-`System.Void` 
-
-###  WriteByte
-
-#### Returns
-
-`System.Void` 
-
-###  Write
-
-#### Returns
-
-`System.Void` 
-
-###  WriteKeyword
-
-#### Returns
-
-`System.Void` 
-
-###  WriteLine
-
-#### Returns
-
-`System.Void` 
-
-###  Write
-
-#### Returns
-
-`System.Void` 
-
-###  Dispose
-
-#### Returns
-
-`System.Void` 
-
-###  Dispose
-
-#### Returns
-
-`System.Void` 
-
-###  AddFilter
-
-#### Returns
-
-`System.Void` 
-
-###  Write
-
-#### Returns
-
-`System.Void` 
-
-###  Write
-
-#### Returns
-
-`System.Void` 
-
-###  WriteIndirect
-
-#### Returns
-
-`System.Void` 
-
-###  GetReference
-
-#### Returns
-
-`Telerik.Pdf.PdfObjectReference` 
 

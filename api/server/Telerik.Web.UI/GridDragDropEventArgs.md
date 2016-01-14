@@ -20,24 +20,24 @@ The class holding the event arguments passed when a drag-drop event have fired.
 
 Gets the destination  if the row have been dropped over a data item.
 
-###  DraggedItems `IList`1`
-
-Gets a collection of all  dragged items.
-
-###  HtmlElement `String`
-
-Gets the HTML element id attribute of the element on which the row have been dropped.
-
 ###  DestinationGrid `RadGrid`
 
 Gets the  control in which a row have been dropped.
+
+###  DestinationTableView `GridTableView`
+
+Contains  instance to which belongs the destinationItem
+
+###  DraggedItems `IList`1`
+
+Gets a collection of all  dragged items.
 
 ###  DropPosition `GridItemDropPosition`
 
 Gets the position at which the user has dragged and dropped the source item(s) with regards to the 
             	destination item.
 
-###  DestinationTableView `GridTableView`
+###  HtmlElement `String`
 
-Contains  instance to which belongs the destinationItem
+Gets the HTML element id attribute of the element on which the row have been dropped.
 

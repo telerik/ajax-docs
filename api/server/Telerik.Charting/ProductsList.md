@@ -20,12 +20,6 @@ IBindingList example. Used for a data binding demonstration only
 
 ## Methods
 
-###  LoadProducts
-
-#### Returns
-
-`System.Void` 
-
 ###  Add
 
 #### Parameters
@@ -42,11 +36,7 @@ IBindingList example. Used for a data binding demonstration only
 
 `Telerik.Charting.Product` 
 
-###  Remove
-
-#### Parameters
-
-#### value `Telerik.Charting.Product`
+###  LoadProducts
 
 #### Returns
 
@@ -57,6 +47,16 @@ IBindingList example. Used for a data binding demonstration only
 #### Parameters
 
 #### ev `System.ComponentModel.ListChangedEventArgs`
+
+#### Returns
+
+`System.Void` 
+
+###  Remove
+
+#### Parameters
+
+#### value `Telerik.Charting.Product`
 
 #### Returns
 

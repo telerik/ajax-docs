@@ -15,12 +15,12 @@ A class used to provide information about reordered columns.
 
 ## Properties
 
-###  TreeListColumn `TreeListColumn`
-
-Gets a reference to the TreeListColumn which was reordered.
-
 ###  OldOrderIndex `Int32`
 
 Gets an integer value corresponding to the old OrderIndex property 
             value of the reordered column.
+
+###  TreeListColumn `TreeListColumn`
+
+Gets a reference to the TreeListColumn which was reordered.
 

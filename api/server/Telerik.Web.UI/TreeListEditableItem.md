@@ -20,25 +20,25 @@ Represents the base call for all editable items in Telerik.Web.UI.RadTreeList .
 
 ## Properties
 
+###  CanExtractValues `Boolean`
+
+Gets a value indicating whether the current item can extract data values.
+
 ###  DataItem `Object`
 
 Gets or sets the original data source object that the current treelist item is bound to.
-
-###  IsInEditMode `Boolean`
-
-Gets a value indicating whether the current item is in edit mode.
 
 ###  Edit `Boolean`
 
 Gets or sets a value indicating whether the current item should be edited.
 
-###  SavedOldValues `IDictionary`
+###  IsDataBinding `Boolean`
 
-Gets the old values of the current edited item.
+Gets or sets a value indicating whether the control is currently being bound.
 
-###  CanExtractValues `Boolean`
+###  IsInEditMode `Boolean`
 
-Gets a value indicating whether the current item can extract data values.
+Gets a value indicating whether the current item is in edit mode.
 
 ###  ItemType `TreeListItemType`
 
@@ -48,9 +48,9 @@ Gets a value from the TreeListItemType enumeration indicating what role the item
 
 Gets a reference to the owner RadTreeList object.
 
-###  IsDataBinding `Boolean`
+###  SavedOldValues `IDictionary`
 
-Gets or sets a value indicating whether the control is currently being bound.
+Gets the old values of the current edited item.
 
 ## Methods
 
@@ -68,15 +68,21 @@ This dictionary to fill, this parameter should not be null
 
 `System.Void` 
 
-###  UpdateValues
+###  FireCommandEvent
 
-Extracts values for each column, using  and updates values in provided object;
+Use this method to simulate item command event that bubbles to 
+             and can be handled automatically or in a
+            custom manner, handling .ItemCommand event.
 
 #### Parameters
 
-#### objectToUpdate `System.Object`
+#### commandName `System.String`
 
-The object that should be updated
+command to bubble, for example 'Page'
+
+#### commandArgument `System.Object`
+
+command argument, for example 'Next'
 
 #### Returns
 
@@ -110,6 +116,20 @@ The TreeListEditableColumn which editor should be returned.
 
 `Telerik.Web.UI.ITreeListColumnEditor` Te ITreeListColumnEditor object containing the editor control.
 
+###  Initialize
+
+Initializes the footer item.
+
+#### Parameters
+
+#### columns `System.Collections.Generic.IList{Telerik.Web.UI.TreeListColumn}`
+
+The columns to which the footer cells should be added.
+
+#### Returns
+
+`System.Void` 
+
 ###  InitializeColumnEditor
 
 Initializes the editor for a column at given position.
@@ -132,43 +152,15 @@ The TreeListEditableColumn for which the editor is initialized.
 
 `System.Void` 
 
-###  Initialize
+###  UpdateValues
 
-Initializes the footer item.
-
-#### Parameters
-
-#### columns `System.Collections.Generic.IList{Telerik.Web.UI.TreeListColumn}`
-
-The columns to which the footer cells should be added.
-
-#### Returns
-
-`System.Void` 
-
-###  PrepareItemStyle
-
-Override this method to change the default logic for rendering the item
-
-#### Returns
-
-`System.Void` 
-
-###  FireCommandEvent
-
-Use this method to simulate item command event that bubbles to 
-             and can be handled automatically or in a
-            custom manner, handling .ItemCommand event.
+Extracts values for each column, using  and updates values in provided object;
 
 #### Parameters
 
-#### commandName `System.String`
+#### objectToUpdate `System.Object`
 
-command to bubble, for example 'Page'
-
-#### commandArgument `System.Object`
-
-command argument, for example 'Next'
+The object that should be updated
 
 #### Returns
 

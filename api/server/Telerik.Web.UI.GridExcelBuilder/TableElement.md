@@ -16,23 +16,37 @@ ExcelML table element
 
 ## Properties
 
+###  Attributes `IAttributesCollection`
+
+Collection of the attributes of the current element
+
 ###  Columns `IColumnsCollection`
 
 Returns the columns that belong to the current table
-
-###  Rows `IRowsCollection`
-
-Returns current table's row elements
 
 ###  InnerElements `IElementsCollection`
 
 Collection of inner elements
 
-###  Attributes `IAttributesCollection`
+###  Rows `IRowsCollection`
 
-Collection of the attributes of the current element
+Returns current table's row elements
 
 ## Methods
+
+###  AppendAttributes
+
+Appends the attirbutes to the output
+
+#### Parameters
+
+#### sb `System.Text.StringBuilder`
+
+StringBuilder object that holds the rendered output
+
+#### Returns
+
+`System.Void` 
 
 ###  Render
 
@@ -51,20 +65,6 @@ StringBuilder object that holds the rendered output
 ###  RenderChildElements
 
 Renders the child elements
-
-#### Parameters
-
-#### sb `System.Text.StringBuilder`
-
-StringBuilder object that holds the rendered output
-
-#### Returns
-
-`System.Void` 
-
-###  AppendAttributes
-
-Appends the attirbutes to the output
 
 #### Parameters
 

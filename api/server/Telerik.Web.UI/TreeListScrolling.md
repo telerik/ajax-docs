@@ -22,11 +22,6 @@ Contains properties related to customizing the settings for scrolling operation
 Gets or sets a value indicating whether scrolling will be enabled in
             Telerik RadTreeList.
 
-###  ScrollHeight `Unit`
-
-Gets or sets a value specifying the RadTreeList height in pixels (px) beyond which the
-            scrolling will be enabled.
-
 ###  SaveScrollPosition `Boolean`
 
 Gets or sets a value indicating whether Telerik RadTreeList will keep the
@@ -36,6 +31,19 @@ Gets or sets a value indicating whether Telerik RadTreeList will keep the
 This property is meaningful only when used in conjunction with
                  set to true.
 
+###  ScrollHeight `Unit`
+
+Gets or sets a value specifying the RadTreeList height in pixels (px) beyond which the
+            scrolling will be enabled.
+
+###  ScrollLeft `String`
+
+Gets or sets a string value representing the horizontal position of the scroll bar.
+
+###  ScrollTop `String`
+
+Gets or sets a string value representing the vertical position of the scroll bar.
+
 ###  UseStaticHeaders `Boolean`
 
 Gets or sets a value indicating whether RadTreeList column headers will scroll as the
@@ -44,12 +52,4 @@ Gets or sets a value indicating whether RadTreeList column headers will scroll a
 #### Remarks
 This property is meaningful only when used in conjunction with
                  set to true.
-
-###  ScrollTop `String`
-
-Gets or sets a string value representing the vertical position of the scroll bar.
-
-###  ScrollLeft `String`
-
-Gets or sets a string value representing the horizontal position of the scroll bar.
 

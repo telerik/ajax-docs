@@ -15,19 +15,19 @@ Contains the information about a spellcheck error.  The most important propertie
 
 ## Properties
 
-###  WordIndex `Int32`
+###  MistakenWord `String`
 
-The index of the misspelled word
+The original word that the spellchecker has determined to be wrong.
 
 ###  OffsetInText `Int32`
 
 The offset in the source text.  It is useful for locating the original word and replacing it with one of the suggestions.
 
-###  MistakenWord `String`
-
-The original word that the spellchecker has determined to be wrong.
-
 ###  Suggestions `String[]`
 
 Suggestions for replacing the mistaken word.
+
+###  WordIndex `Int32`
+
+The index of the misspelled word
 

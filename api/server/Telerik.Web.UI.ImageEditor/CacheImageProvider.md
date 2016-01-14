@@ -15,11 +15,6 @@ Represents a provider for images of a Telerik.Web.UI.RadImageEditor instance. It
 
 ## Properties
 
-###  Storage `ImageStorage`
-
-Gets or sets the location where the  objects will be stored.
-            This property is set by the  instance.
-
 ###  ImageStorageKey `ImageStorage`
 
 Gets or sets a unique key that used to associate the current  instance with the images stored by the provider.
@@ -27,35 +22,12 @@ Gets or sets a unique key that used to associate the current  instance with the 
             
             The  class provides exactly the same property, and the provider and the corresponding ImageEditor instance have the same value.
 
+###  Storage `ImageStorage`
+
+Gets or sets the location where the  objects will be stored.
+            This property is set by the  instance.
+
 ## Methods
-
-###  Store
-
-Stores an image, generates key that corresponds to the stored image, and returns the key.
-
-#### Parameters
-
-#### image `Telerik.Web.UI.ImageEditor.EditableImage`
-
-The EditableImage object to store.
-
-#### Returns
-
-`System.String` The key that corresponds to the stored editable image.
-
-###  Retrieve
-
-Retrieves an EditableImage from the provider.
-
-#### Parameters
-
-#### key `System.String`
-
-The key that corresponds to the editable image.
-
-#### Returns
-
-`Telerik.Web.UI.ImageEditor.EditableImage` An  object that corresponds to the  passed.
 
 ###  ClearImages
 
@@ -81,6 +53,70 @@ The key up to which the images are cleared.
 #### Returns
 
 `System.Void` 
+
+###  DeleteFile
+
+Deletes a file from the FileSystem and returns a string.Empty if the action was successful.
+
+#### Parameters
+
+#### physicalPath `System.String`
+
+The physical path to the file.
+
+#### Returns
+
+`System.String` String.Empty if the deletion was successful."FileReadOnly" if the file exists and it is read only. The file is not deleted."NoPermissionsToDeleteFile" if the deletion was successful. The file is not deleted.
+
+###  GetFile
+
+Gets a file from the FileSystem.
+
+#### Parameters
+
+#### physicalPath `System.String`
+
+The physicalPath of the file.
+
+#### Returns
+
+`System.IO.Stream` The file stream. Null if the file does not exist.
+
+###  LoadImage
+
+Loads an image from the specified location. This image will be used to create an  object.
+
+#### Parameters
+
+#### imageUrl `System.String`
+
+The path to the image to load.
+
+#### physicalPath `System.String`
+
+The physical path to the image to load.
+
+#### context `System.Web.HttpContext`
+
+The  to which the application belongs.
+
+#### Returns
+
+`System.Drawing.Image` Returns the  object loaded from the specified location.
+
+###  Retrieve
+
+Retrieves an EditableImage from the provider.
+
+#### Parameters
+
+#### key `System.String`
+
+The key that corresponds to the editable image.
+
+#### Returns
+
+`Telerik.Web.UI.ImageEditor.EditableImage` An  object that corresponds to the  passed.
 
 ###  SaveImage
 
@@ -108,53 +144,17 @@ Should we overwrite the file if it exists.
 
 `System.String` String.Empty if the operation was successful, else a string indicating the problem.
 
-###  GetFile
+###  Store
 
-Gets a file from the FileSystem.
-
-#### Parameters
-
-#### physicalPath `System.String`
-
-The physicalPath of the file.
-
-#### Returns
-
-`System.IO.Stream` The file stream. Null if the file does not exist.
-
-###  DeleteFile
-
-Deletes a file from the FileSystem and returns a string.Empty if the action was successful.
+Stores an image, generates key that corresponds to the stored image, and returns the key.
 
 #### Parameters
 
-#### physicalPath `System.String`
+#### image `Telerik.Web.UI.ImageEditor.EditableImage`
 
-The physical path to the file.
-
-#### Returns
-
-`System.String` String.Empty if the deletion was successful."FileReadOnly" if the file exists and it is read only. The file is not deleted."NoPermissionsToDeleteFile" if the deletion was successful. The file is not deleted.
-
-###  LoadImage
-
-Loads an image from the specified location. This image will be used to create an  object.
-
-#### Parameters
-
-#### imageUrl `System.String`
-
-The path to the image to load.
-
-#### physicalPath `System.String`
-
-The physical path to the image to load.
-
-#### context `System.Web.HttpContext`
-
-The  to which the application belongs.
+The EditableImage object to store.
 
 #### Returns
 
-`System.Drawing.Image` Returns the  object loaded from the specified location.
+`System.String` The key that corresponds to the stored editable image.
 

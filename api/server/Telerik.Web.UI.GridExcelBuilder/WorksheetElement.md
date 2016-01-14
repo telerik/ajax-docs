@@ -16,35 +16,49 @@ ExcelML Worksheet element
 
 ## Properties
 
-###  IsProtected `Boolean`
+###  Attributes `IAttributesCollection`
 
-Determines whether the worksheet is protected
+Collection of the attributes of the current element
 
 ###  AutoFilter `AutoFilterElement`
 
 Returns the AutoFilterElement object
 
+###  InnerElements `IElementsCollection`
+
+Collection of inner elements
+
+###  IsProtected `Boolean`
+
+Determines whether the worksheet is protected
+
 ###  Name `String`
 
 Worksheet name
-
-###  WorksheetOptions `WorksheetOptionsElement`
-
-Provides the possibility to change various options for the current Worksheet.
 
 ###  Table `TableElement`
 
 Table element belonging to the current worksheet
 
-###  InnerElements `IElementsCollection`
+###  WorksheetOptions `WorksheetOptionsElement`
 
-Collection of inner elements
-
-###  Attributes `IAttributesCollection`
-
-Collection of the attributes of the current element
+Provides the possibility to change various options for the current Worksheet.
 
 ## Methods
+
+###  AppendAttributes
+
+Appends the attirbutes to the output
+
+#### Parameters
+
+#### sb `System.Text.StringBuilder`
+
+StringBuilder object that holds the rendered output
+
+#### Returns
+
+`System.Void` 
 
 ###  Render
 
@@ -63,20 +77,6 @@ StringBuilder object that holds the rendered output
 ###  RenderChildElements
 
 Renders the child elements
-
-#### Parameters
-
-#### sb `System.Text.StringBuilder`
-
-StringBuilder object that holds the rendered output
-
-#### Returns
-
-`System.Void` 
-
-###  AppendAttributes
-
-Appends the attirbutes to the output
 
 #### Parameters
 

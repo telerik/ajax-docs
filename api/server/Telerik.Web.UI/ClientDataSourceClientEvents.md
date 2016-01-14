@@ -18,13 +18,25 @@ Represents the client events of Telerik.Web.UI.RadClientDataSource .
 
 ## Properties
 
+###  OnChange `String`
+
+Gets or sets the  client-side event which will be fired when a change in the data is applied.
+
 ###  OnCommand `String`
 
 Gets or sets the client-side event which will be fired when a  command occurs.
 
-###  OnRequestStart `String`
+###  OnCustomParameter `String`
 
-Gets or sets the client-side event which will be fired when a  remote service or page request is started.
+Gets or sets the  client-side event which will be fired when a custom mapping of the request parameters can be perfomred.
+
+###  OnDataParse `String`
+
+Gets or sets the  client-side event which can be used to additionally parse the response before it is further processed by the control
+
+###  OnDataRequested `String`
+
+Gets or sets the  client-side event which will be fired after the data has been requested from the service
 
 ###  OnRequestEnd `String`
 
@@ -34,23 +46,11 @@ Gets or sets the client-side event which will be fired when a  request finished 
 
 Gets or sets the  client-side event which will be fired when the remote request has failed.
 
-###  OnCustomParameter `String`
+###  OnRequestStart `String`
 
-Gets or sets the  client-side event which will be fired when a custom mapping of the request parameters can be perfomred.
-
-###  OnChange `String`
-
-Gets or sets the  client-side event which will be fired when a change in the data is applied.
+Gets or sets the client-side event which will be fired when a  remote service or page request is started.
 
 ###  OnSync `String`
 
 Gets or sets the  client-side event which will be fired after the data source saves all data item changes. Used in batch editing
-
-###  OnDataRequested `String`
-
-Gets or sets the  client-side event which will be fired after the data has been requested from the service
-
-###  OnDataParse `String`
-
-Gets or sets the  client-side event which can be used to additionally parse the response before it is further processed by the control
 

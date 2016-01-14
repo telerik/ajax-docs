@@ -25,12 +25,12 @@ Gets the number of affected rows.
 Gets the Exception object in case an exception happended during
             the automatic operation.
 
-###  Item `TreeListEditableItem`
-
-Gets a reference to the edited item.
-
 ###  ExceptionHandled `Exception`
 
 Gets or sets a value indicating whether the exception
             that was thrown is handled.
+
+###  Item `TreeListEditableItem`
+
+Gets a reference to the edited item.
 

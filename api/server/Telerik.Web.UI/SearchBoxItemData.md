@@ -15,6 +15,10 @@ This class represents each item which will be passed to the client as a result f
 
 ## Properties
 
+###  DataItem `IDictionary`2`
+
+Custom dataItem for the item to pass to the client.
+
 ###  Text `String`
 
 Text for the item to pass to the client.
@@ -22,8 +26,4 @@ Text for the item to pass to the client.
 ###  Value `String`
 
 Value for the item to pass to the client.
-
-###  DataItem `IDictionary`2`
-
-Custom dataItem for the item to pass to the client.
 

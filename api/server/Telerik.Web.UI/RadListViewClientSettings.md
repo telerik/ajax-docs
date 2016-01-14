@@ -17,6 +17,10 @@ Class holding all settings associated with client-side
 
 ## Properties
 
+###  AllowItemsDragDrop `Boolean`
+
+Gets or sets a value indicating whether the  items can be dragged and dropped
+
 ###  ClientEvents `RadListViewClientEvents`
 
 Gets a reference to  class.
@@ -30,8 +34,4 @@ Gets a reference to the  instance
 
 Gets the post back function which is used when
              fires command from the client.
-
-###  AllowItemsDragDrop `Boolean`
-
-Gets or sets a value indicating whether the  items can be dragged and dropped
 

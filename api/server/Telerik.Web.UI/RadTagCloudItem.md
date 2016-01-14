@@ -41,13 +41,13 @@ Gets or sets the TabIndex of the tagCloud item.
 
 Gets or sets the text that is displayed in the TagCloud item.
 
-###  Value `String`
-
-Gets or sets the Value of the TagCloud item.
-
 ###  ToolTip `String`
 
 Gets or sets the ToolTip of the TagCloud item.
+
+###  Value `String`
+
+Gets or sets the Value of the TagCloud item.
 
 ###  Weight `Double`
 

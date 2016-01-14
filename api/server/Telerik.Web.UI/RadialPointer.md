@@ -29,23 +29,3 @@ Gets or sets the color of the pointer.
 
 Gets or sets the value at which the pointer is pointing.
 
-## Methods
-
-###  LoadViewState
-
-#### Returns
-
-`System.Void` 
-
-###  SaveViewState
-
-#### Returns
-
-`System.Object` 
-
-###  TrackViewState
-
-#### Returns
-
-`System.Void` 
-

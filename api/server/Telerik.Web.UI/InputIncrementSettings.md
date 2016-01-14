@@ -15,12 +15,6 @@ The class representing the settings associated with Telerik.Web.UI.RadInputContr
 
 ## Properties
 
-###  ViewState `InputStateBag`
-
-###  Step `Double`
-
-Gets or sets the value to increment or decrement the spin box when the up or down buttons are clicked.
-
 ###  InterceptArrowKeys `Boolean`
 
 Gets or sets a value indicating whether the user can use the UP ARROW and DOWN ARROW keys to increment/decrement values.
@@ -29,11 +23,7 @@ Gets or sets a value indicating whether the user can use the UP ARROW and DOWN A
 
 Gets or sets a value indicating whether the user can use the MOUSEWHEEL to increment/decrement values.
 
-## Methods
+###  Step `Double`
 
-###  ToString
-
-#### Returns
-
-`System.String` 
+Gets or sets the value to increment or decrement the spin box when the up or down buttons are clicked.
 

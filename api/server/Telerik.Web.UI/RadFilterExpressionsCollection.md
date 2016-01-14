@@ -25,52 +25,6 @@ Gets a value indicating whether the collection is read-only.
 
 ## Methods
 
-###  IndexOf
-
-Determines the index of a specific expression in the list.
-
-#### Parameters
-
-#### item `Telerik.Web.UI.RadFilterExpression`
-
-The RadFilterExpression to locate in the list.
-
-#### Returns
-
-`System.Int32` The index of the expression if found in the list; otherwise, -1.
-
-###  Insert
-
-Inserts an expression into the list at the specified index.
-
-#### Parameters
-
-#### index `System.Int32`
-
-The zero-based index at which the expression should be inserted.
-
-#### item `Telerik.Web.UI.RadFilterExpression`
-
-The RadFilterExpression to insert into the list.
-
-#### Returns
-
-`System.Void` 
-
-###  RemoveAt
-
-Removes the element at the specified index of the collection.
-
-#### Parameters
-
-#### index `System.Int32`
-
-The zero-based index of the expression to remove.
-
-#### Returns
-
-`System.Void` 
-
 ###  Add
 
 Adds an object to the end of the collection.
@@ -129,6 +83,46 @@ The zero-based index in array at which copying begins.
 
 `System.Void` 
 
+###  GetEnumerator
+
+Returns an enumerator that iterates through the collection.
+
+#### Returns
+
+`System.Collections.Generic.IEnumerator`1` An IEnumerator(RadFilterExpression) for the collection.
+
+###  IndexOf
+
+Determines the index of a specific expression in the list.
+
+#### Parameters
+
+#### item `Telerik.Web.UI.RadFilterExpression`
+
+The RadFilterExpression to locate in the list.
+
+#### Returns
+
+`System.Int32` The index of the expression if found in the list; otherwise, -1.
+
+###  Insert
+
+Inserts an expression into the list at the specified index.
+
+#### Parameters
+
+#### index `System.Int32`
+
+The zero-based index at which the expression should be inserted.
+
+#### item `Telerik.Web.UI.RadFilterExpression`
+
+The RadFilterExpression to insert into the list.
+
+#### Returns
+
+`System.Void` 
+
 ###  Remove
 
 Removes the first occurrence of a specific object from the collection.
@@ -145,11 +139,17 @@ The RadFilterExpression to remove from the collection.
 `System.Boolean` true if the expression is successfully removed; otherwise, false. 
             This method also returns false if expression was not found in the original collection.
 
-###  GetEnumerator
+###  RemoveAt
 
-Returns an enumerator that iterates through the collection.
+Removes the element at the specified index of the collection.
+
+#### Parameters
+
+#### index `System.Int32`
+
+The zero-based index of the expression to remove.
 
 #### Returns
 
-`System.Collections.Generic.IEnumerator`1` An IEnumerator(RadFilterExpression) for the collection.
+`System.Void` 
 

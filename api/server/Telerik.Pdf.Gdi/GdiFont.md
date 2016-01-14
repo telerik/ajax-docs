@@ -13,35 +13,16 @@ A thin wrapper around a handle to a font
 * System.Object
 * Telerik.Pdf.Gdi.GdiFont
 
-## Properties
-
-###  FaceName `String`
-
-###  Height `Int32`
-
-###  Handle `IntPtr`
-
 ## Methods
 
-###  Finalize
+###  CreateDesignFont
 
-Class destructor
-
-#### Returns
-
-`System.Void` 
-
-###  Dispose
+Creates a font whose height is equal to the negative value 
+                of the EM Square
 
 #### Returns
 
-`System.Void` 
-
-###  Dispose
-
-#### Returns
-
-`System.Void` 
+`Telerik.Pdf.Gdi.GdiFont` 
 
 ###  CreateFont
 
@@ -66,18 +47,11 @@ The height, in logical units, of the font's character
 
 `Telerik.Pdf.Gdi.GdiFont` 
 
-###  CreateDesignFont
+###  Finalize
 
-Creates a font whose height is equal to the negative value 
-                of the EM Square
-
-#### Returns
-
-`Telerik.Pdf.Gdi.GdiFont` 
-
-###  GetMetrics
+Class destructor
 
 #### Returns
 
-`Telerik.Pdf.Gdi.GdiFontMetrics` 
+`System.Void` 
 

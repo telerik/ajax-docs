@@ -74,15 +74,6 @@ The Array of  object to
 
 `System.Void` 
 
-###  GetEnumerator
-
-Returns an enumerator that iterates through a collection.
-
-#### Returns
-
-`System.Collections.IEnumerator` An  object that can be
-            used to iterate through the collection.
-
 ###  CopyTo
 
 Copies the elements of the collection
@@ -105,4 +96,13 @@ The zero-based index in  at which
 #### Returns
 
 `System.Void` 
+
+###  GetEnumerator
+
+Returns an enumerator that iterates through a collection.
+
+#### Returns
+
+`System.Collections.IEnumerator` An  object that can be
+            used to iterate through the collection.
 

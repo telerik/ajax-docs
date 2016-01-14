@@ -16,21 +16,22 @@ This Class gets and sets the AdvancedForm Settings.
 
 ## Properties
 
+###  DateFormat `String`
+
+Gets or sets the edit form date format string.
+
+#### Remarks
+The default value of this property is inferred from the
+            Thread.CurrentThread.CurrentCulture.DateTimeFormat.ShortDatePattern
+            property.
+
+###  EnableCustomAttributeEditing `Boolean`
+
+Gets or sets a value that indicates whether the attribute editing in the advanced form is enabled.
+
 ###  Enabled `Boolean`
 
 Gets or sets a value indicating whether the user can use the advanced insert/edit form.
-
-###  Modal `Boolean`
-
-Gets or sets a value indicating whether advanced form is displayed as a modal dialog.
-
-###  ZIndex `Int32`
-
-Gets or sets a value indicating the z-index of the modal dialog.
-
-#### Remarks
-Use this property to position the form over elements with higher z-index
-            than the modal form.
 
 ###  EnableResourceEditing `Boolean`
 
@@ -41,18 +42,13 @@ Gets or sets a value that indicates whether the resource editing in the advanced
 Gets or sets a value that controls whether one can chose custom time zone for appointment, i.e. 
             different from the one RadScheduler is operating in."
 
-###  EnableCustomAttributeEditing `Boolean`
+###  MaximumHeight `Unit`
 
-Gets or sets a value that indicates whether the attribute editing in the advanced form is enabled.
+Gets or sets the maximum height of the modal advanced form.
 
-###  DateFormat `String`
+###  Modal `Boolean`
 
-Gets or sets the edit form date format string.
-
-#### Remarks
-The default value of this property is inferred from the
-            Thread.CurrentThread.CurrentCulture.DateTimeFormat.ShortDatePattern
-            property.
+Gets or sets a value indicating whether advanced form is displayed as a modal dialog.
 
 ###  TimeFormat `String`
 
@@ -63,19 +59,15 @@ The default value of this property is inferred from the
             Thread.CurrentThread.CurrentCulture.DateTimeFormat.ShortTimePattern
             property.
 
-###  MaximumHeight `Unit`
-
-Gets or sets the maximum height of the modal advanced form.
-
 ###  Width `Unit`
 
 Gets or sets the width of the modal advanced form.
 
-## Methods
+###  ZIndex `Int32`
 
-###  GetViewStateValue
+Gets or sets a value indicating the z-index of the modal dialog.
 
-#### Returns
-
-`Telerik.Web.UI.T` 
+#### Remarks
+Use this property to position the form over elements with higher z-index
+            than the modal form.
 

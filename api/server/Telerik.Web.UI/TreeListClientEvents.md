@@ -18,96 +18,29 @@ Represents the client events of Telerik.Web.UI.RadTreeList .
 
 ## Properties
 
-###  OnTreeListCreating `String`
+###  OnColumnHidden `String`
 
-Gets or sets the name of a client-side function that will be fired
-            when the RadTreeList client component is initializing
+This client-side event is fired after a column is hidden.
 
-###  OnTreeListCreated `String`
+###  OnColumnHiding `String`
 
-Gets or sets the name of a client-side function that will be fired
-            when the RadTreeList client component is fully initialized
+This client-side event is fired before a column is hidden.
 
-###  OnTreeListDestroying `String`
+###  OnColumnReordered `String`
 
-Gets or sets the name of a client-side function that will be fired
-            when the RadTreeList client component is about to be disposed.
+This client-side event is fired after a column is reordered.
 
-###  OnItemCreated `String`
+###  OnColumnReordering `String`
 
-Gets or sets the name of a client-side function that will be fired
-            when each of the RadTreeListDataItem client components is created.
-
-###  OnItemSelecting `String`
-
-Gets or sets the name of a client-side function that will be fired
-            when a RadTreeListDataItem is about to be selected on the client. This event can be canceled.
-
-###  OnItemSelected `String`
-
-Gets or sets the name of a client-side function that will be fired
-            when a RadTreeListDataItem is selected on the client.
-
-###  OnItemDeselecting `String`
-
-Gets or sets the name of a client-side function that will be fired
-            when a RadTreeListDataItem is about to be deselected on the client. This event can be canceled.
-
-###  OnItemDeselected `String`
-
-Gets or sets the name of a client-side function that will be fired
-            when a RadTreeListDataItem is deselected on the client.
-
-###  OnItemClick `String`
-
-Gets or sets the name of a client-side function that will be fired
-            when a data row is clicked in RadTreeList.
-
-###  OnScroll `String`
-
-Gets or sets the name of a client-side function that will be fired
-            when a RadTreeList is scrolled.
-
-###  OnItemDblClick `String`
-
-Gets or sets the name of a client-side function that will be fired
-            when a data row is double-clicked in RadTreeList.
-
-###  OnItemDragStarted `String`
-
-This client-side event is fired when a  item is about to be dragged.
-
-###  OnItemDragging `String`
-
-This client-side event is fired when a  item is dragged.
-
-###  OnItemDropping `String`
-
-This client-side event is fired when a  item 
-            is about to be dropped after dragging. This event can be canceled.
-
-###  OnItemDropped `String`
-
-This client-side event is fired when a  item
-            is dropped after dragging. This event cannot be canceled.
-
-###  OnItemContextMenu `String`
-
-This client-side event is fired when a  item
-            is right clicked to show its context menu.
-
-###  OnKeyPress `String`
-
-This client-side event is fired (only when keyboard navigation is enabled) when any key is pressed 
-            inside the  and the control is about to process this key.
-
-###  OnColumnResizing `String`
-
-This client-side event is fired before a column is resized.
+This client-side event is fired before a column is reordered.
 
 ###  OnColumnResized `String`
 
 This client-side event is fired after a column is resized.
+
+###  OnColumnResizing `String`
+
+This client-side event is fired before a column is resized.
 
 ###  OnColumnShowing `String`
 
@@ -117,27 +50,94 @@ This client-side event is fired before a column is shown.
 
 This client-side event is fired after a column is shown.
 
-###  OnColumnHiding `String`
+###  OnColumnSwapped `String`
 
-This client-side event is fired before a column is hidden.
-
-###  OnColumnHidden `String`
-
-This client-side event is fired after a column is hidden.
+This client-side event is fired after a column is swapped.
 
 ###  OnColumnSwapping `String`
 
 This client-side event is fired before a column is swapped.
 
-###  OnColumnSwapped `String`
+###  OnItemClick `String`
 
-This client-side event is fired after a column is swapped.
+Gets or sets the name of a client-side function that will be fired
+            when a data row is clicked in RadTreeList.
 
-###  OnColumnReordering `String`
+###  OnItemContextMenu `String`
 
-This client-side event is fired before a column is reordered.
+This client-side event is fired when a  item
+            is right clicked to show its context menu.
 
-###  OnColumnReordered `String`
+###  OnItemCreated `String`
 
-This client-side event is fired after a column is reordered.
+Gets or sets the name of a client-side function that will be fired
+            when each of the RadTreeListDataItem client components is created.
+
+###  OnItemDblClick `String`
+
+Gets or sets the name of a client-side function that will be fired
+            when a data row is double-clicked in RadTreeList.
+
+###  OnItemDeselected `String`
+
+Gets or sets the name of a client-side function that will be fired
+            when a RadTreeListDataItem is deselected on the client.
+
+###  OnItemDeselecting `String`
+
+Gets or sets the name of a client-side function that will be fired
+            when a RadTreeListDataItem is about to be deselected on the client. This event can be canceled.
+
+###  OnItemDragging `String`
+
+This client-side event is fired when a  item is dragged.
+
+###  OnItemDragStarted `String`
+
+This client-side event is fired when a  item is about to be dragged.
+
+###  OnItemDropped `String`
+
+This client-side event is fired when a  item
+            is dropped after dragging. This event cannot be canceled.
+
+###  OnItemDropping `String`
+
+This client-side event is fired when a  item 
+            is about to be dropped after dragging. This event can be canceled.
+
+###  OnItemSelected `String`
+
+Gets or sets the name of a client-side function that will be fired
+            when a RadTreeListDataItem is selected on the client.
+
+###  OnItemSelecting `String`
+
+Gets or sets the name of a client-side function that will be fired
+            when a RadTreeListDataItem is about to be selected on the client. This event can be canceled.
+
+###  OnKeyPress `String`
+
+This client-side event is fired (only when keyboard navigation is enabled) when any key is pressed 
+            inside the  and the control is about to process this key.
+
+###  OnScroll `String`
+
+Gets or sets the name of a client-side function that will be fired
+            when a RadTreeList is scrolled.
+
+###  OnTreeListCreated `String`
+
+Gets or sets the name of a client-side function that will be fired
+            when the RadTreeList client component is fully initialized
+
+###  OnTreeListCreating `String`
+
+Gets or sets the name of a client-side function that will be fired
+            when the RadTreeList client component is initializing
+
+###  OnTreeListDestroying `String`
+
+Gets or sets the name of a client-side function that will be fired
+            when the RadTreeList client component is about to be disposed.
 

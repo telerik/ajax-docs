@@ -17,19 +17,19 @@ This Class defines the container control for the Telerik.Web.UI.NavigationNode N
 
 ## Properties
 
-###  TemplateData `Dictionary`2`
+###  NavigateUrl `String`
 
-Gets the template data.
+Gets the navigate URL.
 
 ###  Owner `NavigationNode`
 
 Gets the owner.
 
+###  TemplateData `Dictionary`2`
+
+Gets the template data.
+
 ###  Text `String`
 
 Gets the text.
-
-###  NavigateUrl `String`
-
-Gets the navigate URL.
 

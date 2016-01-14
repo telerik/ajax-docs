@@ -30,6 +30,38 @@ The .
 
 `System.Int32` 
 
+###  Contains
+
+Determines whether an  element is in the collection.
+
+#### Parameters
+
+#### value `Telerik.Web.UI.InputSetting`
+
+The value.
+
+#### Returns
+
+`System.Boolean` 
+
+###  CopyTo
+
+Copies the entire collection to a compatible one-dimensional array, starting at the beginning of the target array.
+
+#### Parameters
+
+#### inputSettings `Telerik.Web.UI.InputSetting`
+
+The .
+
+#### index `System.Int32`
+
+The starting index.
+
+#### Returns
+
+`System.Void` 
+
 ###  IndexOf
 
 Returns the zero-based index of the first occurrence of a  in the collection.
@@ -62,24 +94,6 @@ The .
 
 `System.Void` 
 
-###  CopyTo
-
-Copies the entire collection to a compatible one-dimensional array, starting at the beginning of the target array.
-
-#### Parameters
-
-#### inputSettings `Telerik.Web.UI.InputSetting`
-
-The .
-
-#### index `System.Int32`
-
-The starting index.
-
-#### Returns
-
-`System.Void` 
-
 ###  Remove
 
 Removes the first occurrence of a specific  from the collection.
@@ -107,18 +121,4 @@ The index.
 #### Returns
 
 `System.Void` 
-
-###  Contains
-
-Determines whether an  element is in the collection.
-
-#### Parameters
-
-#### value `Telerik.Web.UI.InputSetting`
-
-The value.
-
-#### Returns
-
-`System.Boolean` 
 

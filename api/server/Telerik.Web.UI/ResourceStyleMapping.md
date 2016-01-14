@@ -16,18 +16,6 @@ This Class implements the ResourceStyleMapping.
 
 ## Properties
 
-###  Key `String`
-
-Gets or sets a value indicating the resource key to match.
-
-###  Text `String`
-
-Gets or sets a value indicating the resource text to match.
-
-###  Type `String`
-
-Gets or sets a value indicating the resource type to match.
-
 ###  ApplyCssClass `String`
 
 Gets or sets a value indicating the cascading style sheet (CSS) class
@@ -58,4 +46,16 @@ Setting a border color automatically switches the appointment rendering
             to Simple (no rounded corners and gradients). In order to disable this
             legacy behavior, and force the default rendering, set AppointmentStyleMode
             to Default.
+
+###  Key `String`
+
+Gets or sets a value indicating the resource key to match.
+
+###  Text `String`
+
+Gets or sets a value indicating the resource text to match.
+
+###  Type `String`
+
+Gets or sets a value indicating the resource type to match.
 

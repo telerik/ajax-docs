@@ -21,6 +21,10 @@ Represents the animation settings like type and duration for the Telerik.Web.UI.
 
 Gets or sets the duration in milliseconds of the animation.
 
+###  Duration `Int32`
+
+Gets or sets the duration in milliseconds of the animation.
+
 ###  Type `AnimationType`
 
 Gets or sets the effect that will be used for the animation.
@@ -29,16 +33,4 @@ Gets or sets the effect that will be used for the animation.
 Use the Type property of the AnimationSettings
             class to customize the effect used for the animation. To turn off animation effects set
             this property to None.
-
-###  Duration `Int32`
-
-Gets or sets the duration in milliseconds of the animation.
-
-## Methods
-
-###  GetViewStateValue
-
-#### Returns
-
-`Telerik.Web.UI.T` 
 

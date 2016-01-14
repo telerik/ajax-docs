@@ -14,11 +14,3 @@ Container of misc. settings for docx load/export
 * Telerik.Web.UI.ObjectWithState
 * Telerik.Web.UI.EditorDocxSettings
 
-## Methods
-
-###  GetViewStateValue
-
-#### Returns
-
-`Telerik.Web.UI.T` 
-

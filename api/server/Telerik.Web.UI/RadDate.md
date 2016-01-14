@@ -21,11 +21,3 @@ Wrapper class for System.DateTime, which allows implementing persistable DateTim
 
 The System.DateTime represented by this RadDate wrapper class.
 
-## Methods
-
-###  GetClientData
-
-#### Returns
-
-`System.Collections.ArrayList` 
-

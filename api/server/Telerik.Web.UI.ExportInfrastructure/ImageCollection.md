@@ -25,6 +25,20 @@ Gets/sets an image object by given index
 
 ## Methods
 
+###  Add
+
+Adds an Image to the collection
+
+#### Parameters
+
+#### image `Telerik.Web.UI.ExportInfrastructure.Image`
+
+Image object
+
+#### Returns
+
+`System.Void` 
+
 ###  GetEnumerator
 
 Returns the enumerator for the image collection
@@ -40,18 +54,4 @@ Returns the enumerator for the image collection
 #### Returns
 
 `System.Collections.IEnumerator` 
-
-###  Add
-
-Adds an Image to the collection
-
-#### Parameters
-
-#### image `Telerik.Web.UI.ExportInfrastructure.Image`
-
-Image object
-
-#### Returns
-
-`System.Void` 
 

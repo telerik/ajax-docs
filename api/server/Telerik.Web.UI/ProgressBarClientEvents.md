@@ -16,6 +16,10 @@ Defines the client events handlers.
 
 ## Properties
 
+###  OnCompleted `String`
+
+Gets or sets the client-side script that executes after the progress bar value reaches its max value.
+
 ###  OnInitialize `String`
 
 Gets or sets the client-side script that executes when a RadProgressBar client-initialize event is raised.
@@ -24,15 +28,11 @@ Gets or sets the client-side script that executes when a RadProgressBar client-i
 
 Gets or sets the client-side script that executes when a RadProgressBar client-load event is raised.
 
-###  OnValueChanging `String`
-
-Gets or sets the client-side script that executes before the progress bar value property is changed.
-
 ###  OnValueChanged `String`
 
 Gets or sets the client-side script that executes after the progress bar value property is changed.
 
-###  OnCompleted `String`
+###  OnValueChanging `String`
 
-Gets or sets the client-side script that executes after the progress bar value reaches its max value.
+Gets or sets the client-side script that executes before the progress bar value property is changed.
 

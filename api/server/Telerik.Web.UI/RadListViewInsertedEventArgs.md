@@ -15,11 +15,6 @@ description: Telerik.Web.UI.RadListViewInsertedEventArgs
 
 ## Properties
 
-###  KeepInInsertMode `Boolean`
-
-Gets or sets if the  will remain in
-            insert mode or will be closed.
-
 ###  AffectedRows `Int32`
 
 Gets or sets the rows affected by the change.
@@ -29,12 +24,17 @@ Gets or sets the rows affected by the change.
 Gets or sets the exception which could be thrown during the changing of the data.
             Otherwise the value is null.
 
+###  ExceptionHandled `Exception`
+
+Gets or sets if the thrown expcetion is handled.
+
 ###  Item `RadListViewDataItem`
 
 Gets or sets the 
             item which initiated the change.
 
-###  ExceptionHandled `Exception`
+###  KeepInInsertMode `Boolean`
 
-Gets or sets if the thrown expcetion is handled.
+Gets or sets if the  will remain in
+            insert mode or will be closed.
 

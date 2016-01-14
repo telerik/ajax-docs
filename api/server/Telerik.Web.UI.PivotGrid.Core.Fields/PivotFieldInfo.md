@@ -15,17 +15,17 @@ Represents an abstraction of a property info.
 
 ## Properties
 
-###  Name `String`
-
-###  DisplayName `String`
-
-###  DataType `Type`
-
-###  PreferredRole `FieldRoles`
-
 ###  AllowedRoles `FieldRoles`
 
 ###  AutoGenerateField `Boolean`
+
+###  DataType `Type`
+
+###  DisplayName `String`
+
+###  Name `String`
+
+###  PreferredRole `FieldRoles`
 
 ## Methods
 

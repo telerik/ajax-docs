@@ -17,11 +17,11 @@ The event arguments passed when Telerik.Web.UI.RadGrid creates a column editor a
 
 ## Properties
 
-###  ColumnEditor `IGridColumnEditor`
-
-Gets or sets the column editor that have been created.
-
 ###  Column `GridColumn`
 
 Gets or sets the  associated column.
+
+###  ColumnEditor `IGridColumnEditor`
+
+Gets or sets the column editor that have been created.
 

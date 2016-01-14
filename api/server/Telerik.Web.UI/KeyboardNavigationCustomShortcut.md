@@ -23,6 +23,11 @@ Class representing a single shortcut that represents the keyboard combination re
 The name of the custom command that will be created and executed.
             Note: Custom commands does not have specific behavior.
 
+###  Enabled `Boolean`
+
+Gets or sets a value determining if the shortcut will be functioning.
+            If Enabled is set to false the shortcut will not execute.
+
 ###  Key `KeyboardNavigationKey`
 
 Gets or sets the key that should be pressed in order for the shortcut to be executed.
@@ -34,9 +39,4 @@ Gets or sets the modifiers that should be pressed in order for the shortcut to b
             Multiple modifiers could be specified by using a commas in the page definition (Modifiers="Alt,Ctrl") or
             bitwise operations in the code behind Modifiers = KeyboardNavigationModifier.Alt | KeyboardNavigationModifier.Ctrl.
             Note: Setting the Modifiers to None will mean that no modifier is required to execute the shortcut.
-
-###  Enabled `Boolean`
-
-Gets or sets a value determining if the shortcut will be functioning.
-            If Enabled is set to false the shortcut will not execute.
 

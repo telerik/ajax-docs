@@ -75,6 +75,42 @@ The zero-based index of the array, at which the copying begins.
 
 `System.Void` 
 
+###  Filter
+
+Filters the current collection (the collection itself is not modified) of items based on the values of 
+            MinimalWeightAllowed, MaxNumberOfItems and TakeTopWeightedItems properties, 
+            and returns the filtered collection of TagCloud items.
+
+#### Returns
+
+`Telerik.Web.UI.RadTagCloudItemCollection` The collection of filtered items.
+
+###  FilterItems
+
+Filters the list of items based on a maximum number of items allowed in the tag cloud.
+
+#### Parameters
+
+#### takeTopWeightedItems `System.Boolean`
+
+Should the items with the highest weight be taken.
+
+#### filteredItems `Telerik.Web.UI.RadTagCloudItemCollection`
+
+The list of items to filter.
+
+#### Returns
+
+`Telerik.Web.UI.RadTagCloudItemCollection` Returns the filtered list of TagCloud items
+
+###  FindMinMax
+
+Finds the TagCloud item with maximal/minimal weight.
+
+#### Returns
+
+`System.Void` 
+
 ###  IndexOf
 
 Gets the index of the TagCloud item in the Items collection
@@ -106,6 +142,22 @@ The TagCloud item to insert.
 #### Returns
 
 `System.Void` 
+
+###  Max
+
+Finds the TagCloud item with maximal weight.
+
+#### Returns
+
+`Telerik.Web.UI.RadTagCloudItem` 
+
+###  Min
+
+Finds the TagCloud item with minimal weight.
+
+#### Returns
+
+`Telerik.Web.UI.RadTagCloudItem` 
 
 ###  Remove
 
@@ -145,40 +197,6 @@ Sorts the current list of TagCloud items. The collection itself is not modified.
 
 `Telerik.Web.UI.RadTagCloudItemCollection` The collection of sorted items.
 
-###  Filter
-
-Filters the current collection (the collection itself is not modified) of items based on the values of 
-            MinimalWeightAllowed, MaxNumberOfItems and TakeTopWeightedItems properties, 
-            and returns the filtered collection of TagCloud items.
-
-#### Returns
-
-`Telerik.Web.UI.RadTagCloudItemCollection` The collection of filtered items.
-
-###  Min
-
-Finds the TagCloud item with minimal weight.
-
-#### Returns
-
-`Telerik.Web.UI.RadTagCloudItem` 
-
-###  Max
-
-Finds the TagCloud item with maximal weight.
-
-#### Returns
-
-`Telerik.Web.UI.RadTagCloudItem` 
-
-###  FindMinMax
-
-Finds the TagCloud item with maximal/minimal weight.
-
-#### Returns
-
-`System.Void` 
-
 ###  SortByWeight
 
 Sort the items using the ListOfSortedItems
@@ -186,22 +204,4 @@ Sort the items using the ListOfSortedItems
 #### Returns
 
 `System.Void` 
-
-###  FilterItems
-
-Filters the list of items based on a maximum number of items allowed in the tag cloud.
-
-#### Parameters
-
-#### takeTopWeightedItems `System.Boolean`
-
-Should the items with the highest weight be taken.
-
-#### filteredItems `Telerik.Web.UI.RadTagCloudItemCollection`
-
-The list of items to filter.
-
-#### Returns
-
-`Telerik.Web.UI.RadTagCloudItemCollection` Returns the filtered list of TagCloud items
 

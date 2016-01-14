@@ -16,71 +16,9 @@ Class holding settings which are used to determine the masked input behavior
 
 ## Properties
 
-###  DisplayMask `String`
-
-Gets or sets the display mask which is shown when the 
-            is not focused.
-
-###  Mask `String`
-
-Gets or sets the  mask.
-
-###  PromptChar `String`
-
-Gets or sets the prompt char.
-
-###  DisplayPromptChar `String`
-
-Gets or sets the prompt character used in the display mask.
-
 ###  AllowEmptyEnumerations `Boolean`
 
 Gets or sets a value which determines if empty mask parts are allowed.
-
-###  ZeroPadNumericRanges `Boolean`
-
-Gets or sets if the values of numeric range parts of the mask to have a fixed width.
-
-###  NumericRangeAlign `NumericRangeAlign`
-
-Gets or sets alignment of numeric ranges.
-
-###  RoundNumericRanges `Boolean`
-
-Gets or sets if the numberic ranges will be rounded.
-
-###  HideOnBlur `Boolean`
-
-Gets or sets if the prompt will be hidden when
-             is blurred.
-
-###  InvalidStyleDuration `Int32`
-
-Gets or sets the time, in milliseconds, the InvalidStyle should be displayd. Must be a positive integer.
-
-###  TargetControls `TargetControlCollection`
-
-Gets a collection of TargetInput objects that allows for
-            specifying the objects for which input will be created on the client-side.
-
-#### Remarks
-Use the TargetControls collection to programmatically control
-            which objects should be inputtipified on the client-side.
-
-###  ClientEvents `InputManagerClientEvents`
-
-Gets or sets an instance of the InputManagerClientEvents class
-            which defines the JavaScript functions (client-side event handlers) that are invoked
-            when specific client-side events are raised.
-
-###  Validation `InputSettingValidation`
-
-Gets an instance of the InputSettingValidation class
-            which defines the validation behavior.
-
-###  EnabledCssClass `String`
-
-Gets or sets the css style for enabled TextBox control.
 
 ###  BehaviorID `String`
 
@@ -91,29 +29,28 @@ In cases where you would like to access the client-side behavior for
             your setting from script code in the client, you can set this BehaviorID to simplify
             the process. See example below:
 
-###  HoveredCssClass `String`
+###  ClearValueOnError `Boolean`
 
-Gets or sets the css style for hovered TextBox control.
+Gets or sets a value indicating whether the value entered into the textbox should be cleared on error.
 
-###  InvalidCssClass `String`
+###  ClientEvents `InputManagerClientEvents`
 
-Gets or stes the css style for invalid state of TextBox control.
-
-###  FocusedCssClass `String`
-
-Gets or sets the css style for invalid state of TextBox control.
-
-###  ReadOnlyCssClass `String`
-
-Gets or sets the css style for Read Only state of TextBox control.
+Gets or sets an instance of the InputManagerClientEvents class
+            which defines the JavaScript functions (client-side event handlers) that are invoked
+            when specific client-side events are raised.
 
 ###  DisabledCssClass `String`
 
 Gets or sets the css style for TextBox when when the control is disabled.
 
-###  EmptyMessageCssClass `String`
+###  DisplayMask `String`
 
-Gets or sets the css style for TextBox when when the control is empty.
+Gets or sets the display mask which is shown when the 
+            is not focused.
+
+###  DisplayPromptChar `String`
+
+Gets or sets the prompt character used in the display mask.
 
 ###  EmptyMessage `String`
 
@@ -123,26 +60,89 @@ Gets or sets a value message shown when the control is empty.
 Shown when the control is empty and loses focus. You can set the empty message
             text through EmptyMessage property.
 
+###  EmptyMessageCssClass `String`
+
+Gets or sets the css style for TextBox when when the control is empty.
+
+###  EnabledCssClass `String`
+
+Gets or sets the css style for enabled TextBox control.
+
 ###  ErrorMessage `String`
 
 Gets or sets the text for the error message displayed in the control when validation fails.
 
-###  SelectionOnFocus `SelectionOnFocus`
+###  FocusedCssClass `String`
 
-Gets or sets whether the text in the control selected on focus and how.
+Gets or sets the css style for invalid state of TextBox control.
+
+###  HideOnBlur `Boolean`
+
+Gets or sets if the prompt will be hidden when
+             is blurred.
+
+###  HoveredCssClass `String`
+
+Gets or sets the css style for hovered TextBox control.
 
 ###  InitializeOnClient `Boolean`
 
 Gets or sets a value indicating the control should be initialized on client or not.
 
-###  ClearValueOnError `Boolean`
+###  InvalidCssClass `String`
 
-Gets or sets a value indicating whether the value entered into the textbox should be cleared on error.
+Gets or stes the css style for invalid state of TextBox control.
+
+###  InvalidStyleDuration `Int32`
+
+Gets or sets the time, in milliseconds, the InvalidStyle should be displayd. Must be a positive integer.
 
 ###  IsValid `Boolean`
 
 Gets if the TargetControls in the InputSettings 
             are successfully validated.
+
+###  Mask `String`
+
+Gets or sets the  mask.
+
+###  NumericRangeAlign `NumericRangeAlign`
+
+Gets or sets alignment of numeric ranges.
+
+###  PromptChar `String`
+
+Gets or sets the prompt char.
+
+###  ReadOnlyCssClass `String`
+
+Gets or sets the css style for Read Only state of TextBox control.
+
+###  RoundNumericRanges `Boolean`
+
+Gets or sets if the numberic ranges will be rounded.
+
+###  SelectionOnFocus `SelectionOnFocus`
+
+Gets or sets whether the text in the control selected on focus and how.
+
+###  TargetControls `TargetControlCollection`
+
+Gets a collection of TargetInput objects that allows for
+            specifying the objects for which input will be created on the client-side.
+
+#### Remarks
+Use the TargetControls collection to programmatically control
+            which objects should be inputtipified on the client-side.
+
+###  Validation `InputSettingValidation`
+
+Gets an instance of the InputSettingValidation class
+            which defines the validation behavior.
+
+###  ZeroPadNumericRanges `Boolean`
+
+Gets or sets if the values of numeric range parts of the mask to have a fixed width.
 
 ## Methods
 

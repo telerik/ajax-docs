@@ -17,14 +17,6 @@ The MonthYearFastNavigationSettings class can be used to configure RadCalendar's
 
 ## Properties
 
-###  TodayButtonCaption `String`
-
-Gets or sets the value of the "Today" button caption;
-
-###  OkButtonCaption `String`
-
-Gets or sets the value of the "OK" button caption;
-
 ###  CancelButtonCaption `String`
 
 Gets or sets the value of the "Cancel" button caption;
@@ -32,10 +24,6 @@ Gets or sets the value of the "Cancel" button caption;
 ###  DateIsOutOfRangeMessage `String`
 
 Gets or sets the value of the "Date is out of range" error message.
-
-###  EnableTodayButtonSelection `Boolean`
-
-Gets or sets the value indicating whether the Today button should perform date selection or simple navigation.
 
 ###  DisableOutOfRangeMonths `Boolean`
 
@@ -49,19 +37,23 @@ Setting this property to true will disable the months that are out of range
 Gets or sets whether the screen boundaries should be taken into consideration
             when the Fast Navigation Popup is displayed.
 
-###  ShowAnimation `CalendarAnimationSettings`
+###  EnableTodayButtonSelection `Boolean`
 
-Gets the settings associated with showing the  fast month year navigation.
+Gets or sets the value indicating whether the Today button should perform date selection or simple navigation.
 
 ###  HideAnimation `CalendarAnimationSettings`
 
 Gets the settings associated with hiding the  fast month year navigation.
 
-## Methods
+###  OkButtonCaption `String`
 
-###  GetViewStateValue
+Gets or sets the value of the "OK" button caption;
 
-#### Returns
+###  ShowAnimation `CalendarAnimationSettings`
 
-`Telerik.Web.UI.T` 
+Gets the settings associated with showing the  fast month year navigation.
+
+###  TodayButtonCaption `String`
+
+Gets or sets the value of the "Today" button caption;
 

@@ -15,17 +15,17 @@ Describes all filterable fields of IRadFilterableContainer
 
 ## Properties
 
-###  FieldName `String`
+###  DataType `Type`
 
-Name of the filterable field
+Data type of filterable field
 
 ###  DisplayName `String`
 
 Name of the filterable field that will be displayed
 
-###  DataType `Type`
+###  FieldName `String`
 
-Data type of filterable field
+Name of the filterable field
 
 ## Methods
 

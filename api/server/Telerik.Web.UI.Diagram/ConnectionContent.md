@@ -16,11 +16,11 @@ Defines the connections content settings.
 
 ## Properties
 
-###  Text `String`
-
-The text displayed above the connection.
-
 ###  Color `String`
 
 The color of the text.
+
+###  Text `String`
+
+The text displayed above the connection.
 

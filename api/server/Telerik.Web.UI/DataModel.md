@@ -15,23 +15,23 @@ This Class defines the DataModel object.
 
 ## Properties
 
-###  Set `String`
+###  Fields `List`1`
 
-Gets or sets the name of the collection that holds the model.
+Gets the Collection of fields for the model.
 
 ###  ModelID `String`
 
 Gets or sets the id for the model. i.e. Products
 
-###  Fields `List`1`
+###  PageIndex `Int32`
 
-Gets the Collection of fields for the model.
+Gets or sets the queried page index when paging is enabled.
 
 ###  PageSize `Int32`
 
 Gets or sets the page size when paging is enabled
 
-###  PageIndex `Int32`
+###  Set `String`
 
-Gets or sets the queried page index when paging is enabled.
+Gets or sets the name of the collection that holds the model.
 

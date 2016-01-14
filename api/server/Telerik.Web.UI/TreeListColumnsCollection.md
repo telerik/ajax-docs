@@ -15,10 +15,6 @@ A class representing a collection of RadTreeListColumn objects.
 
 ## Properties
 
-###  Owner `RadTreeList`
-
-Gets a reference to the owner  object.
-
 ###  Count `Int32`
 
 Gets the count of columns in the collection.
@@ -27,53 +23,11 @@ Gets the count of columns in the collection.
 
 Gets a value indicating whether the collection is read only.
 
+###  Owner `RadTreeList`
+
+Gets a reference to the owner  object.
+
 ## Methods
-
-###  IndexOf
-
-Gets the index of the passed column in the column collection.
-
-#### Parameters
-
-#### item `Telerik.Web.UI.TreeListColumn`
-
-The TreeListColumn object to find in the collection.
-
-#### Returns
-
-`System.Int32` An integer that indicates the index of the column in the collection.
-
-###  Insert
-
-Inserts the provided column at the given index in the collection.
-
-#### Parameters
-
-#### index `System.Int32`
-
-An integer that indicates at which position the column should be inserted.
-
-#### item `Telerik.Web.UI.TreeListColumn`
-
-The TreeListColumn object that should be added.
-
-#### Returns
-
-`System.Void` 
-
-###  RemoveAt
-
-Removes the column at the provided index.
-
-#### Parameters
-
-#### index `System.Int32`
-
-An integer specifying the position from which a column should be removed.
-
-#### Returns
-
-`System.Void` 
 
 ###  Add
 
@@ -129,6 +83,46 @@ An integer indicating from which index on the columns should be added to the new
 
 `System.Void` 
 
+###  GetEnumerator
+
+Returns an enumerator that iterates through the collection.
+
+#### Returns
+
+`System.Collections.Generic.IEnumerator`1` An IEnumerator<TreeListColumn> used for iterating the collection.
+
+###  IndexOf
+
+Gets the index of the passed column in the column collection.
+
+#### Parameters
+
+#### item `Telerik.Web.UI.TreeListColumn`
+
+The TreeListColumn object to find in the collection.
+
+#### Returns
+
+`System.Int32` An integer that indicates the index of the column in the collection.
+
+###  Insert
+
+Inserts the provided column at the given index in the collection.
+
+#### Parameters
+
+#### index `System.Int32`
+
+An integer that indicates at which position the column should be inserted.
+
+#### item `Telerik.Web.UI.TreeListColumn`
+
+The TreeListColumn object that should be added.
+
+#### Returns
+
+`System.Void` 
+
 ###  Remove
 
 Removes the passed column from the collection.
@@ -143,11 +137,17 @@ The TreeListColumn to remove from the collection.
 
 `System.Boolean` A boolean value indicating whether the column was removed successfully
 
-###  GetEnumerator
+###  RemoveAt
 
-Returns an enumerator that iterates through the collection.
+Removes the column at the provided index.
+
+#### Parameters
+
+#### index `System.Int32`
+
+An integer specifying the position from which a column should be removed.
 
 #### Returns
 
-`System.Collections.Generic.IEnumerator`1` An IEnumerator<TreeListColumn> used for iterating the collection.
+`System.Void` 
 

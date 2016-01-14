@@ -16,6 +16,14 @@ This Class inherits ControlItemData class.
 
 ## Properties
 
+###  Attributes `IDictionary`2`
+
+Custom attributes for the item to pass to the client.
+
+###  Enabled `Boolean`
+
+A value indicating if the item to pass to the client is enabled.
+
 ###  Text `String`
 
 Text for the item to pass to the client.
@@ -23,12 +31,4 @@ Text for the item to pass to the client.
 ###  Value `String`
 
 Value for the item to pass to the client.
-
-###  Enabled `Boolean`
-
-A value indicating if the item to pass to the client is enabled.
-
-###  Attributes `IDictionary`2`
-
-Custom attributes for the item to pass to the client.
 

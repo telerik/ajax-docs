@@ -23,17 +23,17 @@ RadTreeList PDF style
 
 Returns true if none of the properties have been set
 
-###  Wrap `Boolean`
+###  LineHeight `Unit`
 
-Forced word wrap is not supported for PDF export. Automatic word wrap is available (always on) if there are whitespace characters in the content.
+Determines the line height
 
 ###  VerticalAlign `VerticalAlign`
 
 Vertical align is not supported
 
-###  LineHeight `Unit`
+###  Wrap `Boolean`
 
-Determines the line height
+Forced word wrap is not supported for PDF export. Automatic word wrap is available (always on) if there are whitespace characters in the content.
 
 ## Methods
 

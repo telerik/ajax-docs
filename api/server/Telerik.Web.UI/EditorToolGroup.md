@@ -21,6 +21,14 @@ Represents logical group of EditorTool objects. The default ToolAdapter will
 
 Gets the custom attributes which will be serialized on the client.
 
+###  Context `String`
+
+The Context specifies the DOM elements to which the corresponding group of tools will be available.
+
+###  Tab `String`
+
+Specifies the Tab to which the corresponding tool group belongs
+
 ###  Tag `String`
 
 Gets or sets a string which will be used by the ToolAdapter to associate
@@ -31,43 +39,7 @@ Gets or sets a string which will be used by the ToolAdapter to associate
 
 Gets the children of the EditorToolGroup.
 
-###  Tab `String`
-
-Specifies the Tab to which the corresponding tool group belongs
-
-###  Context `String`
-
-The Context specifies the DOM elements to which the corresponding group of tools will be available.
-
 ## Methods
-
-###  System.Web.UI.IAttributeAccessor.GetAttribute
-
-#### Returns
-
-`System.String` 
-
-###  System.Web.UI.IAttributeAccessor.SetAttribute
-
-#### Returns
-
-`System.Void` 
-
-###  GetAllTools
-
-Gets all tools inside the group.
-
-#### Returns
-
-`System.Collections.Generic.List`1` 
-
-###  FindTool
-
-Finds the tool with the given name.
-
-#### Returns
-
-`Telerik.Web.UI.EditorTool` 
 
 ###  Contains
 
@@ -77,27 +49,19 @@ Determines whether the group a tool with the specified name.
 
 `System.Boolean` 
 
-###  LoadViewState
+###  FindTool
+
+Finds the tool with the given name.
 
 #### Returns
 
-`System.Void` 
+`Telerik.Web.UI.EditorTool` 
 
-###  SaveViewState
+###  GetAllTools
 
-#### Returns
-
-`System.Object` 
-
-###  TrackViewState
+Gets all tools inside the group.
 
 #### Returns
 
-`System.Void` 
-
-###  SetDirty
-
-#### Returns
-
-`System.Void` 
+`System.Collections.Generic.List`1` 
 

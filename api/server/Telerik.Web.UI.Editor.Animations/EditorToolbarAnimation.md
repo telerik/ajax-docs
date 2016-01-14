@@ -16,11 +16,11 @@ Specifies the toolbar animation of the Editor.
 
 ## Properties
 
-###  Type `EditorToolBarAnimationType`
-
-Gets or sets the type of animation that will be used for the current animation.
-
 ###  Duration `Int32`
 
 Gets/Sets the duration of the animation in milliseconds.
+
+###  Type `EditorToolBarAnimationType`
+
+Gets or sets the type of animation that will be used for the current animation.
 

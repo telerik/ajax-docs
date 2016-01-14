@@ -35,17 +35,147 @@ The Telerik.Web.UI.RadSiteMap RadSiteMapcontrol is made up of nodes. Nodes which
 
 ## Properties
 
-###  Text `String`
+###  AccessKey `String`
 
-Gets or sets the text displayed for the current node.
+Gets or sets the access key that allows you to quickly navigate to the Web server control.
+
+###  CssClass `String`
+
+Gets or sets the Cascading Style Sheet (CSS) class applied by default to the node.
 
 #### Remarks
-Use the Text property to specify or determine the text that is displayed for the node
-            	in the RadSiteMap control.
+By default the visual appearance of hovered nodes is defined in the skin CSS
+            file. You can use the CssClass property to specify unique
+            appearance for the node.
+
+###  DataItem `Object`
+
+Gets the data item that is bound to the node
+
+#### Remarks
+This property is applicable only during data binding. Use it along with the
+                NodeDataBound event to perform additional
+                mapping of fields from the data item to RadSiteMapNode properties.
+
+###  DisabledCssClass `String`
+
+Gets or sets the Cascading Style Sheet (CSS) class applied to the node when it is disabled.
+
+#### Remarks
+By default the visual appearance of disabled nodes is defined in the skin CSS
+            file. You can use the DisabledCssClass property to specify unique
+            appearance for a node when it is disabled.
+
+###  DisabledImageUrl `String`
+
+Gets or sets a value specifying the URL of the image rendered when the node is disabled.
+
+#### Remarks
+If the DisabledImageUrl property is not set the ImageUrl property will be 
+            used when the node is disabled.
+
+###  Enabled `Boolean`
+
+Gets or sets a value indicating whether the node is enabled.
+
+#### Remarks
+Disabled nodes cannot be clicked, or expanded.
+
+###  HoveredCssClass `String`
+
+Gets or sets the Cascading Style Sheet (CSS) class applied to the node when the mouse hovers it.
+
+#### Remarks
+By default the visual appearance of hovered nodes is defined in the skin CSS
+            file. You can use the HoveredCssClass property to specify unique
+            appearance for a node when it is hoevered.
+
+###  HoveredImageUrl `String`
+
+Gets or sets a value specifying the URL of the image rendered when the node is hovered with the mouse.
+
+#### Remarks
+If the HoveredImageUrl property is not set the ImageUrl property will be 
+            used when the node is hovered.
+
+###  ID `String`
+
+The ID property is reserved for internal use. Please use the Value property or
+            use the Attributes collection if you need to assign
+            custom data to the item.
+
+###  ImageUrl `String`
+
+Gets or sets the URL to an image which is displayed next to the text of a node.
+
+#### Remarks
+Use the ImageUrl property to specify a custom image that will be
+            	displayed before the text of the current node.
+
+###  Index `Int32`
+
+Gets the zero based index of the item.
+
+###  Level `Int32`
+
+Gets the level of the node.
 
 ###  NavigateUrl `String`
 
 Gets or sets the URL to navigate to when the current node is clicked.
+
+###  Nodes `RadSiteMapNodeCollection`
+
+Gets a  object that contains the child nodes of the current RadSiteMapNode.
+
+#### Remarks
+Use the Nodes property to access the child nodes of the RadSiteMapNode. You can also use the Nodes property to
+            	manage the child nodes - you can add, remove or modify nodes.
+
+###  NodeTemplate `ITemplate`
+
+Gets or sets the template for displaying the node.
+
+###  Owner `IRadSiteMapNodeContainer`
+
+Gets the parent IRadSiteMapNodeContainer.
+
+###  ParentNode `RadSiteMapNode`
+
+Gets the parent node of the current node.
+
+###  Selected `Boolean`
+
+Gets or sets a value indicating whether the node is selected.
+
+#### Remarks
+Only one node can be selected.
+
+###  SelectedCssClass `String`
+
+Gets or sets the Cascading Style Sheet (CSS) class applied when node is
+            selected.
+
+#### Remarks
+By default the visual appearance of selected nodes is defined in the skin CSS
+            file. You can use the SelectedCssClass property to specify unique
+            appearance for a node when it is selected.
+
+###  SelectedImageUrl `String`
+
+Gets or sets a value specifying the URL of the image rendered when the node is selected.
+
+#### Remarks
+If the SelectedImageUrl property is not set the ImageUrl property will be 
+            used when the node is selected.
+
+###  SeparatorTemplate `ITemplate`
+
+Gets or sets the separator template for the node.
+
+###  SiteMap `RadSiteMap`
+
+Gets the  which this node belongs to.
 
 ###  Target `String`
 
@@ -62,12 +192,13 @@ Use the Target property to target window or frame in which to display the
             		The Target property is taken into consideration only when the NavigateUrl 
             		property is set.
 
-###  Value `String`
+###  Text `String`
 
-Gets or sets custom (user-defined) data associated with the current node.
+Gets or sets the text displayed for the current node.
 
 #### Remarks
-Use the Value property to associate custom data with a RadSiteMap object.
+Use the Text property to specify or determine the text that is displayed for the node
+            	in the RadSiteMap control.
 
 ###  ToolTip `String`
 
@@ -76,155 +207,23 @@ Gets or sets the tooltip shown for the node when the user hovers it with the mou
 #### Remarks
 The ToolTip property is also used as the alt attribute of the node image (in case  is set)
 
-###  Enabled `Boolean`
+###  Value `String`
 
-Gets or sets a value indicating whether the node is enabled.
-
-#### Remarks
-Disabled nodes cannot be clicked, or expanded.
-
-###  DataItem `Object`
-
-Gets the data item that is bound to the node
+Gets or sets custom (user-defined) data associated with the current node.
 
 #### Remarks
-This property is applicable only during data binding. Use it along with the
-                NodeDataBound event to perform additional
-                mapping of fields from the data item to RadSiteMapNode properties.
-
-###  CssClass `String`
-
-Gets or sets the Cascading Style Sheet (CSS) class applied by default to the node.
-
-#### Remarks
-By default the visual appearance of hovered nodes is defined in the skin CSS
-            file. You can use the CssClass property to specify unique
-            appearance for the node.
-
-###  HoveredCssClass `String`
-
-Gets or sets the Cascading Style Sheet (CSS) class applied to the node when the mouse hovers it.
-
-#### Remarks
-By default the visual appearance of hovered nodes is defined in the skin CSS
-            file. You can use the HoveredCssClass property to specify unique
-            appearance for a node when it is hoevered.
-
-###  DisabledCssClass `String`
-
-Gets or sets the Cascading Style Sheet (CSS) class applied to the node when it is disabled.
-
-#### Remarks
-By default the visual appearance of disabled nodes is defined in the skin CSS
-            file. You can use the DisabledCssClass property to specify unique
-            appearance for a node when it is disabled.
-
-###  SelectedCssClass `String`
-
-Gets or sets the Cascading Style Sheet (CSS) class applied when node is
-            selected.
-
-#### Remarks
-By default the visual appearance of selected nodes is defined in the skin CSS
-            file. You can use the SelectedCssClass property to specify unique
-            appearance for a node when it is selected.
-
-###  ImageUrl `String`
-
-Gets or sets the URL to an image which is displayed next to the text of a node.
-
-#### Remarks
-Use the ImageUrl property to specify a custom image that will be
-            	displayed before the text of the current node.
-
-###  HoveredImageUrl `String`
-
-Gets or sets a value specifying the URL of the image rendered when the node is hovered with the mouse.
-
-#### Remarks
-If the HoveredImageUrl property is not set the ImageUrl property will be 
-            used when the node is hovered.
-
-###  DisabledImageUrl `String`
-
-Gets or sets a value specifying the URL of the image rendered when the node is disabled.
-
-#### Remarks
-If the DisabledImageUrl property is not set the ImageUrl property will be 
-            used when the node is disabled.
-
-###  SelectedImageUrl `String`
-
-Gets or sets a value specifying the URL of the image rendered when the node is selected.
-
-#### Remarks
-If the SelectedImageUrl property is not set the ImageUrl property will be 
-            used when the node is selected.
-
-###  Level `Int32`
-
-Gets the level of the node.
-
-###  Nodes `RadSiteMapNodeCollection`
-
-Gets a  object that contains the child nodes of the current RadSiteMapNode.
-
-#### Remarks
-Use the Nodes property to access the child nodes of the RadSiteMapNode. You can also use the Nodes property to
-            	manage the child nodes - you can add, remove or modify nodes.
-
-###  Owner `IRadSiteMapNodeContainer`
-
-Gets the parent IRadSiteMapNodeContainer.
-
-###  SiteMap `RadSiteMap`
-
-Gets the  which this node belongs to.
-
-###  Selected `Boolean`
-
-Gets or sets a value indicating whether the node is selected.
-
-#### Remarks
-Only one node can be selected.
-
-###  NodeTemplate `ITemplate`
-
-Gets or sets the template for displaying the node.
-
-###  SeparatorTemplate `ITemplate`
-
-Gets or sets the separator template for the node.
-
-###  ParentNode `RadSiteMapNode`
-
-Gets the parent node of the current node.
-
-###  Enabled `Boolean`
-
-###  Visible `Boolean`
-
-###  ID `String`
-
-The ID property is reserved for internal use. Please use the Value property or
-            use the Attributes collection if you need to assign
-            custom data to the item.
-
-###  Index `Int32`
-
-Gets the zero based index of the item.
-
-###  AccessKey `String`
-
-Gets or sets the access key that allows you to quickly navigate to the Web server control.
-
-###  BackColor `Color`
-
-###  ForeColor `Color`
-
-###  BorderColor `Color`
+Use the Value property to associate custom data with a RadSiteMap object.
 
 ## Methods
+
+###  IsChildControl
+
+Returns true if the control is rendered by the ControlItem itself;
+            false if it was added by the user to the Controls collection.
+
+#### Returns
+
+`System.Boolean` 
 
 ###  Remove
 
@@ -249,13 +248,4 @@ A  that represents
 #### Returns
 
 `System.Void` 
-
-###  IsChildControl
-
-Returns true if the control is rendered by the ControlItem itself;
-            false if it was added by the user to the Controls collection.
-
-#### Returns
-
-`System.Boolean` 
 

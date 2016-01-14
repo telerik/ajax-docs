@@ -15,17 +15,17 @@ Represents collection IList container for SetCondition and OlapSetCondition item
 
 ## Properties
 
+###  Count `Int32`
+
 ###  IsFixedSize `Boolean`
 
 ###  IsReadOnly `Boolean`
 
-###  Count `Int32`
-
 ###  IsSynchronized `Boolean`
 
-###  SyncRoot `Object`
-
 ###  Item `Object`
+
+###  SyncRoot `Object`
 
 ## Methods
 
@@ -46,6 +46,18 @@ Represents collection IList container for SetCondition and OlapSetCondition item
 #### Returns
 
 `System.Boolean` 
+
+###  CopyTo
+
+#### Returns
+
+`System.Void` 
+
+###  GetEnumerator
+
+#### Returns
+
+`System.Collections.IEnumerator` 
 
 ###  IndexOf
 
@@ -70,16 +82,4 @@ Represents collection IList container for SetCondition and OlapSetCondition item
 #### Returns
 
 `System.Void` 
-
-###  CopyTo
-
-#### Returns
-
-`System.Void` 
-
-###  GetEnumerator
-
-#### Returns
-
-`System.Collections.IEnumerator` 
 

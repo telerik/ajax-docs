@@ -22,13 +22,13 @@ Gets the children of the ImageEditorToolGroup.
 
 ## Methods
 
-###  GetAllTools
+###  Contains
 
-Gets all tools inside the group.
+Determines whether the group a tool with the specified name.
 
 #### Returns
 
-`System.Collections.Generic.List`1` 
+`System.Boolean` 
 
 ###  FindTool
 
@@ -38,35 +38,11 @@ Finds the tool with the given name.
 
 `Telerik.Web.UI.ImageEditorTool` 
 
-###  Contains
+###  GetAllTools
 
-Determines whether the group a tool with the specified name.
-
-#### Returns
-
-`System.Boolean` 
-
-###  LoadViewState
+Gets all tools inside the group.
 
 #### Returns
 
-`System.Void` 
-
-###  SaveViewState
-
-#### Returns
-
-`System.Object` 
-
-###  TrackViewState
-
-#### Returns
-
-`System.Void` 
-
-###  SetDirty
-
-#### Returns
-
-`System.Void` 
+`System.Collections.Generic.List`1` 
 

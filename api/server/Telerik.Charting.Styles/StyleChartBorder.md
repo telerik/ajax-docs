@@ -25,55 +25,47 @@ Gets and sets border color
 
 Specifies the line color property
 
-###  PenStyle `DashStyle`
-
-Specifies the pen style property
-
-###  Width `Single`
-
-Specifies the width property
-
-###  Visible `Boolean`
-
-Visibility
-
 ###  Item `Object`
 
 Gets property value by name
 
-###  ViewStateIgnoresCase `Boolean`
+###  PenStyle `DashStyle`
 
-Gets if view sate should ignore case
+Specifies the pen style property
 
 ###  ViewState `StateBag`
 
 Sate bag to store view state content
 
+###  ViewStateIgnoresCase `Boolean`
+
+Gets if view sate should ignore case
+
+###  Visible `Boolean`
+
+Visibility
+
+###  Width `Single`
+
+Specifies the width property
+
 ## Methods
 
-###  Reset
+###  Clone
 
-Reset to default settings
-
-#### Returns
-
-`System.Void` 
-
-###  IsVisible
-
-Determines whether this instance is visible.
+Clone this object
 
 #### Returns
 
-`System.Boolean` true if this instance is visible; otherwise, false.
+`System.Object` Object with the same fields as this one
 
-###  Reset
+###  CloneState
 
-Reset to default settings
+Makes a view state clone
 
 #### Returns
 
-`System.Void` 
+`System.Web.UI.StateBag` StateBag
 
 ###  Equals
 
@@ -97,13 +89,59 @@ Gets hash code
 
 `System.Int32` Hash code
 
-###  Clone
+###  IsVisible
 
-Clone this object
+Determines whether this instance is visible.
 
 #### Returns
 
-`System.Object` Object with the same fields as this one
+`System.Boolean` true if this instance is visible; otherwise, false.
+
+###  LoadViewState
+
+Loads data from a view state
+
+#### Parameters
+
+#### state `System.Object`
+
+View state to load data from
+
+#### Returns
+
+`System.Void` 
+
+###  Reset
+
+Reset to default settings
+
+#### Returns
+
+`System.Void` 
+
+###  Reset
+
+Reset to default settings
+
+#### Returns
+
+`System.Void` 
+
+###  SaveViewState
+
+Saves object data to a view state
+
+#### Returns
+
+`System.Object` Saved view state object
+
+###  SetDirty
+
+Sets the item dirty state
+
+#### Returns
+
+`System.Void` 
 
 ###  Telerik.Charting.IChartingStateManager.LoadViewState
 
@@ -135,22 +173,6 @@ Tracks view state changes
 
 `System.Void` 
 
-###  CloneState
-
-Makes a view state clone
-
-#### Returns
-
-`System.Web.UI.StateBag` StateBag
-
-###  SaveViewState
-
-Saves object data to a view state
-
-#### Returns
-
-`System.Object` Saved view state object
-
 ###  TrackViewState
 
 Tracks view state changes
@@ -158,34 +180,4 @@ Tracks view state changes
 #### Returns
 
 `System.Void` 
-
-###  LoadViewState
-
-Loads data from a view state
-
-#### Parameters
-
-#### state `System.Object`
-
-View state to load data from
-
-#### Returns
-
-`System.Void` 
-
-###  SetDirty
-
-Sets the item dirty state
-
-#### Returns
-
-`System.Void` 
-
-###  ToString
-
-ToString() override. Used in the properties grid to avoid object type showing.
-
-#### Returns
-
-`System.String` Empty string
 

@@ -16,6 +16,10 @@ Defines the diagram's Layout settings
 
 ## Properties
 
+###  Enabled `Boolean`
+
+Gets or Sets whether the Layout should be applied to the diagram.
+
 ###  EndRadialAngle `Double`
 
 Defines where the circle/arc ends. The positive direction is clockwise and the angle is in degrees. This setting is specific to the radial tree layout.
@@ -75,8 +79,4 @@ Defines the vertical separation between a parent and its first child. This offse
 ###  VerticalSeparation `Double`
 
 Either the distance between levels if the tree is up/down or between siblings if the tree is left/right. This property is not used in tipOver tree layout but rather replaced with three additional ones - underneathVerticalTopOffset, underneathVerticalSeparation and underneathHorizontalOffset
-
-###  Enabled `Boolean`
-
-Gets or Sets whether the Layout should be applied to the diagram.
 

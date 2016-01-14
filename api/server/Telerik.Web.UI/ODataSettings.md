@@ -15,14 +15,6 @@ Represents the settings to be used for OData databinding.
 
 ## Properties
 
-###  ResponseType `ODataResponseType`
-
-Gets or sets the url of the web service to be used
-
-###  InitialContainerName `String`
-
-Gets or sets the initial collection to bind against
-
 ###  Entities `ODataEntityTypeCollection`
 
 Desrcibes the Entities, that the WebService can return. These are usually declared in
@@ -31,4 +23,12 @@ Desrcibes the Entities, that the WebService can return. These are usually declar
 ###  EntityContainer `ODataEntityContainerCollection`
 
 Maps Entities to a Containers (Collectons).
+
+###  InitialContainerName `String`
+
+Gets or sets the initial collection to bind against
+
+###  ResponseType `ODataResponseType`
+
+Gets or sets the url of the web service to be used
 

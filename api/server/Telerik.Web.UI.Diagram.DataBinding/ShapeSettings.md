@@ -17,57 +17,41 @@ Defines the DataFields binding to the DiagramShape's properties
 
 ## Properties
 
-###  DataXField `String`
+###  DataContentAlignField `String`
 
-Gets or sets the DataField for Telerik.Web.UI.DiagramShape.X
-
-###  DataYField `String`
-
-Gets or sets the DataField for Telerik.Web.UI.DiagramShape.Y
-
-###  DataWidthField `String`
-
-Gets or sets the DataField for Telerik.Web.UI.DiagramShape.Width
-
-###  DataHeightField `String`
-
-Gets or sets the DataField for Telerik.Web.UI.DiagramShape.Height
-
-###  DataMinWidthField `String`
-
-Gets or sets the DataField for Telerik.Web.UI.DiagramShape.MinWidth
-
-###  DataMinHeightField `String`
-
-Gets or sets the DataField for Telerik.Web.UI.DiagramShape.MinHeight
-
-###  DataFillColorField `String`
-
-Gets or sets the DataField for Telerik.Web.UI.DiagramShape.FillSettings.Color
+Gets or sets the DataField for Telerik.Web.UI.Diagram.ShapeContent.Align
 
 ###  DataContentTextField `String`
 
 Gets or sets the DataField for Telerik.Web.UI.Diagram.ShapeContent.Text
 
-###  DataContentAlignField `String`
+###  DataFillColorField `String`
 
-Gets or sets the DataField for Telerik.Web.UI.Diagram.ShapeContent.Align
+Gets or sets the DataField for Telerik.Web.UI.DiagramShape.FillSettings.Color
+
+###  DataHeightField `String`
+
+Gets or sets the DataField for Telerik.Web.UI.DiagramShape.Height
+
+###  DataHoverFillColorField `String`
+
+Gets or sets the DataField for Telerik.Web.UI.DiagramShape.HoverSettings.FillSettings.Color
 
 ###  DataIdField `String`
 
 Gets or sets the DataField for Telerik.Web.UI.DiagramShape.Id
 
+###  DataMinHeightField `String`
+
+Gets or sets the DataField for Telerik.Web.UI.DiagramShape.MinHeight
+
+###  DataMinWidthField `String`
+
+Gets or sets the DataField for Telerik.Web.UI.DiagramShape.MinWidth
+
 ###  DataPathField `String`
 
 Gets or sets the DataField for Telerik.Web.UI.DiagramShape.Path
-
-###  DataTypeField `String`
-
-Gets or sets the DataField for Telerik.Web.UI.DiagramShape.Type
-
-###  DataHoverFillColorField `String`
-
-Gets or sets the DataField for Telerik.Web.UI.DiagramShape.HoverSettings.FillSettings.Color
 
 ###  DataRotationAngleField `String`
 
@@ -84,4 +68,20 @@ Gets or sets the DataField for Telerik.Web.UI.DiagramShape.StrokeSettings.DashTy
 ###  DataStrokeWidthField `String`
 
 Gets or sets the DataField for Telerik.Web.UI.DiagramShape.StrokeSettings.Width
+
+###  DataTypeField `String`
+
+Gets or sets the DataField for Telerik.Web.UI.DiagramShape.Type
+
+###  DataWidthField `String`
+
+Gets or sets the DataField for Telerik.Web.UI.DiagramShape.Width
+
+###  DataXField `String`
+
+Gets or sets the DataField for Telerik.Web.UI.DiagramShape.X
+
+###  DataYField `String`
+
+Gets or sets the DataField for Telerik.Web.UI.DiagramShape.Y
 

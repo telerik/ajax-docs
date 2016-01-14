@@ -16,15 +16,15 @@ The class passed when the GridTableView.EditMode="Batch" and
 
 ## Properties
 
-###  OldValues `Hashtable`
-
-Gets a  with the old values.
-
 ###  NewValues `Hashtable`
 
 Gets a  with the new values which
             represents a merge between the  and
             the newly entered data.
+
+###  OldValues `Hashtable`
+
+Gets a  with the old values.
 
 ###  OwnerTableView `GridTableView`
 

@@ -19,80 +19,37 @@ RadSlidingZone class
 
 ## Properties
 
-###  Height `Unit`
-
-Sets/gets the height of the sliding zone
-
-###  Width `Unit`
-
-Sets/gets the width of the sliding zone
-
 ###  ClickToOpen `Boolean`
 
 Sets/gets whether the pane should be clicked in order to open
+
+###  ClientIDMode `ClientIDMode`
+
+This property is overridden in order to support controls which implement INamingContainer.
+            The default value is changed to "AutoID".
+
+###  CssClassFormatString `String`
+
+The CssClass property will now be used instead of the former Skin 
+            and will be modified in AddAttributesToRender()
 
 ###  DockedPaneId `String`
 
 Sets/gets the id of the pane that is will be displayed docked
 
-###  ExpandedPaneId `String`
+###  EnableAjaxSkinRendering `String`
 
-Sets/gets the id of the pane that is will be expanded
-
-###  SlideDirection `SplitterSlideDirection`
-
-Sets/gets the direction in which the panes will slide
-
-###  ResizeStep `Int32`
-
-Sets/gets the step in px in which the resize bar will be moved when dragged.
-
-###  SlideDuration `Int32`
-
-Sets/gets the duration of the slide animation in milliseconds.
+Gets or sets the value, indicating whether to render the skin CSS files during Ajax requests
 
 #### Remarks
-Animation is not performed when the RadSlidingPane's  property is set to true.
+If EnableAjaxSkinRendering is set to false you will have to register the needed control base CSS file by hand when adding/showing the control with Ajax.
 
-###  OnClientLoad `String`
+###  EnableEmbeddedBaseStylesheet `Boolean`
 
-Gets or sets a value indicating the client-side event handler that is called when
-            the RadSlidingZone control is initialized.
-
-#### Remarks
-Two parameters are passed to the handler:sender, the RadSlidingZone that fired the eventargsThis event cannot be cancelled.
-
-###  Splitter `RadSplitter`
-
-Reference to the parent Splitter object
-
-###  Items `SplitterItemsCollection`
-
-Gets the collection of child items in the RadSplitter
-            control.
+Gets or sets the value, indicating whether to render the link to the embedded base stylesheet of the control or not.
 
 #### Remarks
-Use this property to retrieve the child items of the RadSplitter
-            control. You can also use it to programmatically add or remove items.
-
-###  RegisterWithScriptManager `Boolean`
-
-Gets or sets the value, indicating whether to register with the ScriptManager control on the page.
-
-#### Remarks
-If RegisterWithScriptManager is set to false the control can be rendered on the page using Web Services or normal callback requests/page methods.
-
-###  Skin `String`
-
-Gets or sets the skin name for the control user interface.
-
-#### Remarks
-If this property is not set, the control will render using the skin named "Default".
-            If EnableEmbeddedSkins is set to false, the control will not render skin.
-
-###  IsSkinSet `String`
-
-For internal use.
+If EnableEmbeddedBaseStylesheet is set to false you will have to register the needed control base CSS file by hand.
 
 ###  EnableEmbeddedScripts `Boolean`
 
@@ -108,26 +65,41 @@ Gets or sets the value, indicating whether to render links to the embedded skins
 #### Remarks
 If EnableEmbeddedSkins is set to false you will have to register the needed CSS files by hand.
 
-###  EnableEmbeddedBaseStylesheet `Boolean`
+###  ExpandedPaneId `String`
 
-Gets or sets the value, indicating whether to render the link to the embedded base stylesheet of the control or not.
+Sets/gets the id of the pane that is will be expanded
+
+###  Height `Unit`
+
+Sets/gets the height of the sliding zone
+
+###  IsSkinSet `String`
+
+For internal use.
+
+###  Items `SplitterItemsCollection`
+
+Gets the collection of child items in the RadSplitter
+            control.
 
 #### Remarks
-If EnableEmbeddedBaseStylesheet is set to false you will have to register the needed control base CSS file by hand.
+Use this property to retrieve the child items of the RadSplitter
+            control. You can also use it to programmatically add or remove items.
 
-###  RuntimeSkin `String`
+###  OnClientLoad `String`
 
-Gets the real skin name for the control user interface. If Skin is not set, returns
-            "Default", otherwise returns Skin.
-
-###  EnableAjaxSkinRendering `String`
-
-Gets or sets the value, indicating whether to render the skin CSS files during Ajax requests
+Gets or sets a value indicating the client-side event handler that is called when
+            the RadSlidingZone control is initialized.
 
 #### Remarks
-If EnableAjaxSkinRendering is set to false you will have to register the needed control base CSS file by hand when adding/showing the control with Ajax.
+Two parameters are passed to the handler:sender, the RadSlidingZone that fired the eventargsThis event cannot be cancelled.
 
-###  ClientStateFieldID `String`
+###  RegisterWithScriptManager `Boolean`
+
+Gets or sets the value, indicating whether to register with the ScriptManager control on the page.
+
+#### Remarks
+If RegisterWithScriptManager is set to false the control can be rendered on the page using Web Services or normal callback requests/page methods.
 
 ###  RenderMode `RenderMode`
 
@@ -138,63 +110,51 @@ Specifies the rendering mode of the control. Setting the mode to Lightweight wil
 Lightweight rendering mode might change the outlook of the component in some older browsers
             that don't support CSS3/HTML5.
 
+###  ResizeStep `Int32`
+
+Sets/gets the step in px in which the resize bar will be moved when dragged.
+
 ###  ResolvedRenderMode `RenderMode`
 
 Returns resolved RenderMode should the original value was Auto
 
-###  CssClassFormatString `String`
+###  RuntimeSkin `String`
 
-The CssClass property will now be used instead of the former Skin 
-            and will be modified in AddAttributesToRender()
+Gets the real skin name for the control user interface. If Skin is not set, returns
+            "Default", otherwise returns Skin.
 
-###  ClientIDMode `ClientIDMode`
+###  Skin `String`
 
-This property is overridden in order to support controls which implement INamingContainer.
-            The default value is changed to "AutoID".
+Gets or sets the skin name for the control user interface.
 
-###  ScriptManager `ScriptManager`
+#### Remarks
+If this property is not set, the control will render using the skin named "Default".
+            If EnableEmbeddedSkins is set to false, the control will not render skin.
 
-###  RadScriptManager `ScriptManager`
+###  SlideDirection `SplitterSlideDirection`
+
+Sets/gets the direction in which the panes will slide
+
+###  SlideDuration `Int32`
+
+Sets/gets the duration of the slide animation in milliseconds.
+
+#### Remarks
+Animation is not performed when the RadSlidingPane's  property is set to true.
+
+###  Splitter `RadSplitter`
+
+Reference to the parent Splitter object
+
+###  Width `Unit`
+
+Sets/gets the width of the sliding zone
 
 ## Methods
 
-###  RenderBeginTag
+###  ApplyConditionalRendering
 
-#### Returns
-
-`System.Void` 
-
-###  RenderEndTag
-
-#### Returns
-
-`System.Void` 
-
-###  RenderContents
-
-#### Returns
-
-`System.Void` 
-
-###  RenderPanes
-
-#### Returns
-
-`System.Void` 
-
-###  GetDefaultSize
-
-#### Returns
-
-`System.Int32` 
-
-###  AddAttributesToRender
-
-#### Returns
-
-`System.Void` 
-
-###  OnPreRender
+Use this from RenderContents of the inheritor
 
 #### Returns
 
@@ -208,21 +168,13 @@ Code moved into this method from OnPreRender to make sure it executed when the f
 
 `System.Void` 
 
-###  RegisterScriptControl
+###  GetEmbeddedSkinNames
 
-Registers the control with the ScriptManager
-
-#### Returns
-
-`System.Void` 
-
-###  RegisterCssReferences
-
-Registers the CSS references
+Returns the names of all embedded skins. Used by Telerik.Web.Examples.
 
 #### Returns
 
-`System.Void` 
+`System.Collections.Generic.List`1` 
 
 ###  LoadClientState
 
@@ -235,96 +187,6 @@ Loads the client state data
 #### Returns
 
 `System.Void` 
-
-###  SaveClientState
-
-Saves the client state data
-
-#### Returns
-
-`System.String` 
-
-###  RenderClientStateField
-
-#### Returns
-
-`System.Void` 
-
-###  RenderBeginTag
-
-#### Returns
-
-`System.Void` 
-
-###  RenderEndTag
-
-#### Returns
-
-`System.Void` 
-
-###  Render
-
-#### Returns
-
-`System.Void` 
-
-###  RenderScriptsNoScriptManager
-
-#### Returns
-
-`System.Void` 
-
-###  RenderDescriptorsNoScriptManager
-
-#### Returns
-
-`System.Void` 
-
-###  RenderContents
-
-#### Returns
-
-`System.Void` 
-
-###  ApplyConditionalRendering
-
-Use this from RenderContents of the inheritor
-
-#### Returns
-
-`System.Void` 
-
-###  DescribeComponent
-
-#### Returns
-
-`System.Void` 
-
-###  DescribeProperty
-
-#### Returns
-
-`System.Void` 
-
-###  DescribeIDReferenceProperty
-
-#### Returns
-
-`System.Void` 
-
-###  DescribeEvent
-
-#### Returns
-
-`System.Void` 
-
-###  GetEmbeddedSkinNames
-
-Returns the names of all embedded skins. Used by Telerik.Web.Examples.
-
-#### Returns
-
-`System.Collections.Generic.List`1` 
 
 ###  LoadPostData
 
@@ -348,9 +210,27 @@ Executed when post data changes should invoke a changed event
 
 `System.Void` 
 
-###  GetViewStateValue
+###  RegisterCssReferences
+
+Registers the CSS references
 
 #### Returns
 
-`Telerik.Web.UI.T` 
+`System.Void` 
+
+###  RegisterScriptControl
+
+Registers the control with the ScriptManager
+
+#### Returns
+
+`System.Void` 
+
+###  SaveClientState
+
+Saves the client state data
+
+#### Returns
+
+`System.String` 
 

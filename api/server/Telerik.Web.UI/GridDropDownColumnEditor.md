@@ -17,17 +17,9 @@ Summary description for GridDropDownColumnEditor.
 
 ## Properties
 
-###  SelectedIndex `Int32`
+###  ContainerControl `Control`
 
-Gets or sets the selected index of the drop down list control.
-
-###  SelectedValue `String`
-
-Gets or sets the selected value of the drop down list control.
-
-###  SelectedText `String`
-
-Gets or sets the selected text of the drop down list control.
+Gets the instance of the Container control (generally a TableCell), after the last call of InstantiateInControl method
 
 ###  DataMember `String`
 
@@ -49,39 +41,32 @@ Gets or sets the DataTextFormatString property of the drop down list control.
 
 Gets or sets the DataValueField property of the drop down list control.
 
-###  ContainerControl `Control`
+###  IsInEditMode `Boolean`
 
-Gets the instance of the Container control (generally a TableCell), after the last call of InstantiateInControl method
+Get a value indicating whether the current row/column editor is in edit mode.
 
 ###  IsInitialized `Boolean`
 
 Get value if the editor has been initialized after an InitializeInControl or InitializeFromControl method call
 
-###  IsInEditMode `Boolean`
+###  SelectedIndex `Int32`
 
-Get a value indicating whether the current row/column editor is in edit mode.
+Gets or sets the selected index of the drop down list control.
+
+###  SelectedText `String`
+
+Gets or sets the selected text of the drop down list control.
+
+###  SelectedValue `String`
+
+Gets or sets the selected value of the drop down list control.
 
 ## Methods
 
-###  DataBind
+###  AddControlsToContainer
 
-#### Returns
-
-`System.Void` 
-
-###  SetOwner
-
-#### Returns
-
-`System.Void` 
-
-###  InitializeInControl
-
-#### Returns
-
-`System.Void` 
-
-###  InitializeFromControl
+Implement this member to create the edit controls in the grid cell.
+            This method is called from each column's InitializeCell method, when a  initializes its cells.
 
 #### Returns
 
@@ -102,15 +87,6 @@ Copy setting from given column editor
 ###  CreateControls
 
 Create the input/edit controls belonging to the editor and prepare for AddControlsToContainer call.
-
-#### Returns
-
-`System.Void` 
-
-###  AddControlsToContainer
-
-Implement this member to create the edit controls in the grid cell.
-            This method is called from each column's InitializeCell method, when a  initializes its cells.
 
 #### Returns
 

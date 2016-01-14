@@ -17,11 +17,11 @@ description: Telerik.Web.UI.GridInitializeEditFormContainer
 
 ## Properties
 
-###  FormContainer `Control`
-
-Gets or sets the container that holds the .
-
 ###  EventName `String`
 
 Gets the name of the event.
+
+###  FormContainer `Control`
+
+Gets or sets the container that holds the .
 

@@ -15,12 +15,6 @@ Represents a single character MaskPart. The character is converted to upper upon
 * Telerik.Web.UI.MaskPart
 * Telerik.Web.UI.UpperMaskPart
 
-## Properties
-
-###  Value `String`
-
-###  Value `String`
-
 ## Methods
 
 ###  ToString

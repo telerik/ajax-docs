@@ -15,11 +15,11 @@ Defines RadDiagram binding settings
 
 ## Properties
 
-###  ShapeSettings `ShapeSettings`
-
-Defines the DataFields binding to the DiagramShape's properties
-
 ###  ConnectionSettings `ConnectionSettings`
 
 Defines the DataFields binding to the DiagramConnection's properties
+
+###  ShapeSettings `ShapeSettings`
+
+Defines the DataFields binding to the DiagramShape's properties
 

@@ -16,17 +16,9 @@ Used to set the page margins.
 
 ## Properties
 
-###  Right `Double`
+###  Attributes `IAttributesCollection`
 
-Determines the size of the Right margin
-
-###  Left `Double`
-
-Determines the size of the Left margin
-
-###  Top `Double`
-
-Determines the size of the Top margin
+Collection of the attributes of the current element
 
 ###  Bottom `Double`
 
@@ -36,11 +28,33 @@ Determines the size of the Bottom margin
 
 Collection of inner elements
 
-###  Attributes `IAttributesCollection`
+###  Left `Double`
 
-Collection of the attributes of the current element
+Determines the size of the Left margin
+
+###  Right `Double`
+
+Determines the size of the Right margin
+
+###  Top `Double`
+
+Determines the size of the Top margin
 
 ## Methods
+
+###  AppendAttributes
+
+Appends the attirbutes to the output
+
+#### Parameters
+
+#### sb `System.Text.StringBuilder`
+
+StringBuilder object that holds the rendered output
+
+#### Returns
+
+`System.Void` 
 
 ###  Render
 
@@ -59,20 +73,6 @@ StringBuilder object that holds the rendered output
 ###  RenderChildElements
 
 Renders the child elements
-
-#### Parameters
-
-#### sb `System.Text.StringBuilder`
-
-StringBuilder object that holds the rendered output
-
-#### Returns
-
-`System.Void` 
-
-###  AppendAttributes
-
-Appends the attirbutes to the output
 
 #### Parameters
 

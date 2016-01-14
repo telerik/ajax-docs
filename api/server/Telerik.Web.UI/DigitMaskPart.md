@@ -14,12 +14,6 @@ Represents a single character, digit only mask part.
 * Telerik.Web.UI.MaskPart
 * Telerik.Web.UI.DigitMaskPart
 
-## Properties
-
-###  Value `String`
-
-###  Value `String`
-
 ## Methods
 
 ###  ToString

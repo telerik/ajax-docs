@@ -16,19 +16,27 @@ This Class defines the Raminder object.
 
 ## Properties
 
-###  Trigger `TimeSpan`
+###  Attributes `AttributeCollection`
 
-Gets or sets the trigger.
+Gets the collection of arbitrary attributes that do not correspond to properties on the reminder.
 
 ###  ID `String`
 
 Gets or sets the ID.
 
-###  Attributes `AttributeCollection`
+###  Trigger `TimeSpan`
 
-Gets the collection of arbitrary attributes that do not correspond to properties on the reminder.
+Gets or sets the trigger.
 
 ## Methods
+
+###  Clone
+
+Creates a new Reminder object that is a clone of the current instance.
+
+#### Returns
+
+`Telerik.Web.UI.Reminder` A new Reminder object that is a clone of the current instance.
 
 ###  ToString
 
@@ -71,12 +79,4 @@ Output parameter that contains the list of reminders if the
 #### Returns
 
 `System.Collections.Generic.IList`1` True if input was parsed successfully, false otherwise.
-
-###  Clone
-
-Creates a new Reminder object that is a clone of the current instance.
-
-#### Returns
-
-`Telerik.Web.UI.Reminder` A new Reminder object that is a clone of the current instance.
 

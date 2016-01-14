@@ -17,6 +17,10 @@ A control allowing the ability to combine multiple embedded stylesheet reference
 
 ## Properties
 
+###  CdnSettings `StyleSheetCdnSettings`
+
+Gets the CDN settings.
+
 ###  EnableHandlerDetection `Boolean`
 
 Gets or sets a value indicating if RadStyleSheetManager should check the Telerik.Web.UI.WebResource
@@ -28,6 +32,13 @@ When EnableHandlerDetection set to true, RadStyleSheetManager automatically chec
             	an exception if the HttpHandler registration missing. Set this property to false
             	if your scenario uses a file to output the combined skins, or when running in Medium trust.
 
+###  EnableSelectorLimitCheck `Boolean`
+
+Specifies whether or not to check the selectors' count in the stylesheet when the request is in IE8. The browser limit is 4095 selectors per stylesheet.
+
+#### Remarks
+If the count exceeds the number of 4095 the stylesheet is not loaded.
+
 ###  EnableStyleSheetCombine `Boolean`
 
 Specifies whether or not multiple embedded stylesheet references should be combined into a single file
@@ -36,6 +47,17 @@ Specifies whether or not multiple embedded stylesheet references should be combi
 When EnableStyleSheetCombine set to true, the stylesheet references of the controls
             	on the page are combined to a single file, so that only one <link>
             	tag is output to the page HTML
+
+###  HttpHandlerUrl `String`
+
+Specifies the URL of the HTTPHandler that combines and serves the stylesheets.
+
+#### Remarks
+The HTTPHandler should either be registered in the application configuration
+            		file, or a file with the specified name should exist at the location, which
+            		HttpHandlerUrl points to.
+            	
+            		If a file is to serve the files, it should inherit the class Telerik.Web.UI.WebResource
 
 ###  OutputCompression `OutputCompression`
 
@@ -49,36 +71,36 @@ In some cases the browsers do not recognize compressed streams (e.g. if IE 6 lac
             	if you encounter that problem.The OutputCompression property works only when
             	EnableStyleSheetCombine is set to true.
 
-###  HttpHandlerUrl `String`
+###  RenderMode `RenderMode`
 
-Specifies the URL of the HTTPHandler that combines and serves the stylesheets.
+Specifies the rendering mode of the control.
 
-#### Remarks
-The HTTPHandler should either be registered in the application configuration
-            		file, or a file with the specified name should exist at the location, which
-            		HttpHandlerUrl points to.
-            	
-            		If a file is to serve the files, it should inherit the class Telerik.Web.UI.WebResource
+###  ResolvedRenderMode `RenderMode`
+
+Returns resolved RenderMode should the original value was Auto
+
+###  SplitStyleSheetsFolder `StyleSheetReferenceCollection`
+
+Specifies where the split CSS should be placed in case the request is under IE9 or IE8
 
 ###  StyleSheets `StyleSheetReferenceCollection`
 
 Gets the style sheets.
 
-###  CdnSettings `StyleSheetCdnSettings`
+###  StyleSheetsForSplitting `StyleSheetReferenceCollection`
 
-Gets the CDN settings.
+Gets the style sheets for splitting under IE8,9.
 
 ## Methods
 
-###  RegisterSkinnableControl
+###  AddCompactedRadControlStyleSheets
 
-Registers the skinnable control.
-
-#### Parameters
-
-#### control `Telerik.Web.ISkinnableControl`
-
-The control.
+This method puts all RadControls style sheets in the following order
+            in the StyleSheets collection of RadStyleSheeManager: 
+            1) first are all style sheets from the Telerik.Web.UI assembly;
+            2) second are all style sheets from the Telerik.Web.UI.Skins assembly;
+            
+            The style sheets were divided when registered through the RegisterSkinnableControl method.
 
 #### Returns
 
@@ -98,14 +120,15 @@ The page.
 
 `Telerik.Web.UI.RadStyleSheetManager` 
 
-###  AddCompactedRadControlStyleSheets
+###  RegisterSkinnableControl
 
-This method puts all RadControls style sheets in the following order
-            in the StyleSheets collection of RadStyleSheeManager: 
-            1) first are all style sheets from the Telerik.Web.UI assembly;
-            2) second are all style sheets from the Telerik.Web.UI.Skins assembly;
-            
-            The style sheets were divided when registered through the RegisterSkinnableControl method.
+Registers the skinnable control.
+
+#### Parameters
+
+#### control `Telerik.Web.ISkinnableControl`
+
+The control.
 
 #### Returns
 

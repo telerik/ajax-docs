@@ -20,29 +20,17 @@ For information about the role of each property see the
 
 ## Properties
 
-###  ExpandMode `MenuItemExpandMode`
+###  Attributes `IDictionary`2`
 
-See RadMenuItem.ExpandMode.
+Custom attributes for the item to pass to the client.
 
-###  Selected `Boolean`
+###  ClickedCssClass `String`
 
-See RadMenuItem.Selected.
+See RadMenuItem.ClickedCssClass.
 
-###  NavigateUrl `String`
+###  ClickedImageUrl `String`
 
-See RadMenuItem.NavigateUrl.
-
-###  PostBack `Boolean`
-
-See RadMenuItem.PostBack.
-
-###  Target `String`
-
-See RadMenuItem.Target.
-
-###  IsSeparator `Boolean`
-
-See RadMenuItem.IsSeparator.
+See RadMenuItem.ClickedImageUrl.
 
 ###  CssClass `String`
 
@@ -52,37 +40,57 @@ See RadMenuItem.CssClass.
 
 See RadMenuItem.DisabledCssClass.
 
+###  DisabledImageUrl `String`
+
+See RadMenuItem.DisabledImageUrl.
+
+###  Enabled `Boolean`
+
+A value indicating if the item to pass to the client is enabled.
+
 ###  ExpandedCssClass `String`
 
 See RadMenuItem.ExpandedCssClass.
+
+###  ExpandedImageUrl `String`
+
+See RadMenuItem.ExpandedImageUrl.
+
+###  ExpandMode `MenuItemExpandMode`
+
+See RadMenuItem.ExpandMode.
 
 ###  FocusedCssClass `String`
 
 See RadMenuItem.FocusedCssClass.
 
-###  ClickedCssClass `String`
+###  HoveredImageUrl `String`
 
-See RadMenuItem.ClickedCssClass.
+See RadMenuItem.HoveredImageUrl.
 
 ###  ImageUrl `String`
 
 See RadMenuItem.ImageUrl.
 
-###  HoveredImageUrl `String`
+###  IsSeparator `Boolean`
 
-See RadMenuItem.HoveredImageUrl.
+See RadMenuItem.IsSeparator.
 
-###  ClickedImageUrl `String`
+###  NavigateUrl `String`
 
-See RadMenuItem.ClickedImageUrl.
+See RadMenuItem.NavigateUrl.
 
-###  DisabledImageUrl `String`
+###  PostBack `Boolean`
 
-See RadMenuItem.DisabledImageUrl.
+See RadMenuItem.PostBack.
 
-###  ExpandedImageUrl `String`
+###  Selected `Boolean`
 
-See RadMenuItem.ExpandedImageUrl.
+See RadMenuItem.Selected.
+
+###  Target `String`
+
+See RadMenuItem.Target.
 
 ###  Text `String`
 
@@ -91,12 +99,4 @@ Text for the item to pass to the client.
 ###  Value `String`
 
 Value for the item to pass to the client.
-
-###  Enabled `Boolean`
-
-A value indicating if the item to pass to the client is enabled.
-
-###  Attributes `IDictionary`2`
-
-Custom attributes for the item to pass to the client.
 

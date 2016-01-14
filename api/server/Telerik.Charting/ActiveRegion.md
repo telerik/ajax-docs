@@ -16,6 +16,10 @@ Represents the active region of the chart element/item.
 
 ## Properties
 
+###  Attributes `String`
+
+Attributes
+
 ###  Parent `Object`
 
 Reference to the parent.
@@ -24,25 +28,21 @@ Reference to the parent.
 
 Define a graphic path
 
-###  Url `String`
-
-URL
-
 ###  Tooltip `String`
 
 Tooltip
 
-###  Attributes `String`
+###  Url `String`
 
-Attributes
-
-###  ViewStateIgnoresCase `Boolean`
-
-Gets if view sate should ignore case
+URL
 
 ###  ViewState `StateBag`
 
 Sate bag to store view state content
+
+###  ViewStateIgnoresCase `Boolean`
+
+Gets if view sate should ignore case
 
 ## Methods
 
@@ -78,21 +78,13 @@ The point.
 
 `System.Boolean` 
 
-###  GoToUrl
+###  CloneState
 
-Opens a web browser to the specified URL
-
-#### Returns
-
-`System.Void` 
-
-###  IsEmpty
-
-Returns true if ActiveRegion contains no data
+Makes a view state clone
 
 #### Returns
 
-`System.Boolean` 
+`System.Web.UI.StateBag` StateBag
 
 ###  GetActiveRegions
 
@@ -112,6 +104,14 @@ Container object
 
 `System.Collections.Generic.List`1` Active region object collection
 
+###  GoToUrl
+
+Opens a web browser to the specified URL
+
+#### Returns
+
+`System.Void` 
+
 ###  HasClickEvent
 
 Has click event or not
@@ -119,6 +119,28 @@ Has click event or not
 #### Returns
 
 `System.Boolean` 
+
+###  IsEmpty
+
+Returns true if ActiveRegion contains no data
+
+#### Returns
+
+`System.Boolean` 
+
+###  LoadViewState
+
+Loads data from a view state
+
+#### Parameters
+
+#### state `System.Object`
+
+View state to load data from
+
+#### Returns
+
+`System.Void` 
 
 ###  OnClick
 
@@ -137,6 +159,22 @@ Called when [click].
 #### sender `System.Object`
 
 The sender.
+
+#### Returns
+
+`System.Void` 
+
+###  SaveViewState
+
+Saves object data to a view state
+
+#### Returns
+
+`System.Object` Saved view state object
+
+###  SetDirty
+
+Sets the item dirty state
 
 #### Returns
 
@@ -172,22 +210,6 @@ Tracks view state changes
 
 `System.Void` 
 
-###  CloneState
-
-Makes a view state clone
-
-#### Returns
-
-`System.Web.UI.StateBag` StateBag
-
-###  SaveViewState
-
-Saves object data to a view state
-
-#### Returns
-
-`System.Object` Saved view state object
-
 ###  TrackViewState
 
 Tracks view state changes
@@ -195,34 +217,4 @@ Tracks view state changes
 #### Returns
 
 `System.Void` 
-
-###  LoadViewState
-
-Loads data from a view state
-
-#### Parameters
-
-#### state `System.Object`
-
-View state to load data from
-
-#### Returns
-
-`System.Void` 
-
-###  SetDirty
-
-Sets the item dirty state
-
-#### Returns
-
-`System.Void` 
-
-###  ToString
-
-ToString() override. Used in the properties grid to avoid object type showing.
-
-#### Returns
-
-`System.String` Empty string
 

@@ -17,17 +17,17 @@ The arguments passed when Telerik.Web.UI.RadTreeList fires a command event.
 
 ## Properties
 
-###  Item `TreeListItem`
+###  Canceled `Boolean`
 
-The item in which the command was triggered.
+Gets or sets a value indicating whether the current command is cancelled.
 
 ###  EventSource `Object`
 
 Gets the control which was responsible for firing the event.
 
-###  Canceled `Boolean`
+###  Item `TreeListItem`
 
-Gets or sets a value indicating whether the current command is cancelled.
+The item in which the command was triggered.
 
 ## Methods
 

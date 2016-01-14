@@ -18,41 +18,41 @@ DataTable appearance settings
 
 ## Properties
 
-###  Visible `Boolean`
+###  AutoTextWrap `AutoTextWrap`
 
-Specifies DataTable visibility
+Specifies text wrap property for texts in Data Table
 
-###  CellWidth `Int32`
+###  Border `StyleBorder`
 
-Specifies data table cell width
+Specifies the border style
 
 ###  CellHeight `Int32`
 
 Specifies data table cell height
 
-###  RenderType `TableRenderType`
+###  CellWidth `Int32`
 
-Specifies data table rendering type
+Specifies data table cell width
+
+###  Chart `Chart`
+
+Specifies chart style related to
+
+###  Dimensions `Dimensions`
+
+Specifies the elements Dimensions property
 
 ###  DrawHorizontalLines `Boolean`
 
 Should horizontal lines be rendered
 
-###  DrawVerticalLines `Boolean`
-
-Should vertical lines be rendered
-
 ###  DrawLines `Boolean`
 
 Hide/show all lines
 
-###  TextVerticalAlign `ContentVerticalAlign`
+###  DrawVerticalLines `Boolean`
 
-Specifies text vertical alignment
-
-###  TextHorizontalAlign `ContentHorizontalAlign`
-
-Specifies text horizontal alignment
+Should vertical lines be rendered
 
 ###  Figure `String`
 
@@ -62,51 +62,209 @@ Specifies the figure property
 
 Specifies the background property
 
-###  AutoTextWrap `AutoTextWrap`
+###  Item `Object`
 
-Specifies text wrap property for texts in Data Table
-
-###  TextProperties `TextProperties`
-
-Specifies the text properties
+Gets property value by name
 
 ###  Position `Position`
 
 Specifies the elements Position property
 
-###  Dimensions `Dimensions`
+###  RenderType `TableRenderType`
 
-Specifies the elements Dimensions property
-
-###  Border `StyleBorder`
-
-Specifies the border style
+Specifies data table rendering type
 
 ###  Shadow `ShadowStyle`
 
 Specifies the shadow settings
 
-###  Visible `Boolean`
+###  TextHorizontalAlign `ContentHorizontalAlign`
 
-Specifies visibility
+Specifies text horizontal alignment
 
-###  Item `Object`
+###  TextProperties `TextProperties`
 
-Gets property value by name
+Specifies the text properties
 
-###  Chart `Chart`
+###  TextVerticalAlign `ContentVerticalAlign`
 
-Specifies chart style related to
-
-###  ViewStateIgnoresCase `Boolean`
-
-Gets if view sate should ignore case
+Specifies text vertical alignment
 
 ###  ViewState `StateBag`
 
 Sate bag to store view state content
 
+###  ViewStateIgnoresCase `Boolean`
+
+Gets if view sate should ignore case
+
+###  Visible `Boolean`
+
+Specifies DataTable visibility
+
+###  Visible `Boolean`
+
+Specifies visibility
+
 ## Methods
+
+###  Clone
+
+Clone this object
+
+#### Returns
+
+`System.Object` Cloned object
+
+###  Clone
+
+Clone this object
+
+#### Returns
+
+`System.Object` Cloned object
+
+###  CloneState
+
+Makes a view state clone
+
+#### Returns
+
+`System.Web.UI.StateBag` StateBag
+
+###  Dispose
+
+Releases unmanaged and - optionally - managed resources
+
+#### Parameters
+
+#### disposing `System.Boolean`
+
+true to release both managed and unmanaged resources; false to release only unmanaged resources.
+
+#### Returns
+
+`System.Void` 
+
+###  Dispose
+
+Releases unmanaged and - optionally - managed resources
+
+#### Parameters
+
+#### disposing `System.Boolean`
+
+true to release both managed and unmanaged resources; false to release only unmanaged resources.
+
+#### Returns
+
+`System.Void` 
+
+###  GetRealBounds
+
+Calculate bounds of element depend on its rotation and previous dimensions
+
+#### Parameters
+
+#### dimensions `Telerik.Charting.Styles.Dimensions`
+
+Dimensions of element
+
+#### rotation `System.Nullable{System.Single}`
+
+Rotation angle
+
+#### Returns
+
+`System.Drawing.RectangleF` 
+
+###  GetStyleProperty
+
+Gets property value of element by name
+
+#### Parameters
+
+#### element `System.Object`
+
+Element to get property
+
+#### propertyName `Telerik.Charting.Styles.StyleProperties`
+
+Property name
+
+#### Returns
+
+`System.Object` Property value of specified element
+
+###  IsVisible
+
+Gets element visibility
+
+#### Parameters
+
+#### element `System.Object`
+
+Element visibility to check
+
+#### Returns
+
+`System.Boolean` Visibility of the specified element
+
+###  LoadViewState
+
+Load data from ViewState
+
+#### Parameters
+
+#### savedState `System.Object`
+
+ViewState with data
+
+#### Returns
+
+`System.Void` 
+
+###  LoadViewState
+
+Load data from ViewState
+
+#### Parameters
+
+#### savedState `System.Object`
+
+ViewState with data
+
+#### Returns
+
+`System.Void` 
+
+###  LoadViewState
+
+Load data from ViewState
+
+#### Parameters
+
+#### savedState `System.Object`
+
+ViewState to load data
+
+#### Returns
+
+`System.Void` 
+
+###  LoadViewState
+
+Loads data from a view state
+
+#### Parameters
+
+#### state `System.Object`
+
+View state to load data from
+
+#### Returns
+
+`System.Void` 
 
 ###  Reset
 
@@ -116,17 +274,17 @@ Reset to default settings
 
 `System.Void` 
 
-###  SaveDimensions
+###  Reset
 
-Save DataTable's dimensions
+Reset to default settings
 
 #### Returns
 
 `System.Void` 
 
-###  SetAutoLayoutDefaults
+###  Reset
 
-Save DataTable's dimensions and positions for auto layout
+Reset settings to default
 
 #### Returns
 
@@ -148,31 +306,9 @@ Restore margins
 
 `System.Void` 
 
-###  Clone
+###  SaveDimensions
 
-Clone this object
-
-#### Returns
-
-`System.Object` Cloned object
-
-###  TrackViewState
-
-Track ViewState
-
-#### Returns
-
-`System.Void` 
-
-###  LoadViewState
-
-Load data from ViewState
-
-#### Parameters
-
-#### savedState `System.Object`
-
-ViewState with data
+Save DataTable's dimensions
 
 #### Returns
 
@@ -186,35 +322,13 @@ Saved data to ViewState
 
 `System.Object` saved data
 
-###  Reset
+###  SaveViewState
 
-Reset to default settings
-
-#### Returns
-
-`System.Void` 
-
-###  TrackViewState
-
-Track ViewState
+Save data to ViewState
 
 #### Returns
 
-`System.Void` 
-
-###  LoadViewState
-
-Load data from ViewState
-
-#### Parameters
-
-#### savedState `System.Object`
-
-ViewState with data
-
-#### Returns
-
-`System.Void` 
+`System.Object` Saved data
 
 ###  SaveViewState
 
@@ -224,37 +338,25 @@ Save data to ViewState
 
 `System.Object` Saved data
 
-###  Dispose
+###  SaveViewState
 
-Releases unmanaged and - optionally - managed resources
+Saves object data to a view state
 
-#### Parameters
+#### Returns
 
-#### disposing `System.Boolean`
+`System.Object` Saved view state object
 
-true to release both managed and unmanaged resources; false to release only unmanaged resources.
+###  SetAutoLayoutDefaults
+
+Save DataTable's dimensions and positions for auto layout
 
 #### Returns
 
 `System.Void` 
 
-###  IsVisible
+###  SetDirty
 
-Gets element visibility
-
-#### Parameters
-
-#### element `System.Object`
-
-Element visibility to check
-
-#### Returns
-
-`System.Boolean` Visibility of the specified element
-
-###  Reset
-
-Reset settings to default
+Sets the item dirty state
 
 #### Returns
 
@@ -322,94 +424,6 @@ Container's height
 
 `System.Void` 
 
-###  GetRealBounds
-
-Calculate bounds of element depend on its rotation and previous dimensions
-
-#### Parameters
-
-#### dimensions `Telerik.Charting.Styles.Dimensions`
-
-Dimensions of element
-
-#### rotation `System.Nullable{System.Single}`
-
-Rotation angle
-
-#### Returns
-
-`System.Drawing.RectangleF` 
-
-###  Clone
-
-Clone this object
-
-#### Returns
-
-`System.Object` Cloned object
-
-###  GetStyleProperty
-
-Gets property value of element by name
-
-#### Parameters
-
-#### element `System.Object`
-
-Element to get property
-
-#### propertyName `Telerik.Charting.Styles.StyleProperties`
-
-Property name
-
-#### Returns
-
-`System.Object` Property value of specified element
-
-###  Dispose
-
-Releases unmanaged and - optionally - managed resources
-
-#### Parameters
-
-#### disposing `System.Boolean`
-
-true to release both managed and unmanaged resources; false to release only unmanaged resources.
-
-#### Returns
-
-`System.Void` 
-
-###  TrackViewState
-
-Track ViewState
-
-#### Returns
-
-`System.Void` 
-
-###  LoadViewState
-
-Load data from ViewState
-
-#### Parameters
-
-#### savedState `System.Object`
-
-ViewState to load data
-
-#### Returns
-
-`System.Void` 
-
-###  SaveViewState
-
-Save data to ViewState
-
-#### Returns
-
-`System.Object` Saved data
-
 ###  Telerik.Charting.IChartingStateManager.LoadViewState
 
 Loads data from a view state
@@ -440,21 +454,29 @@ Tracks view state changes
 
 `System.Void` 
 
-###  CloneState
+###  TrackViewState
 
-Makes a view state clone
-
-#### Returns
-
-`System.Web.UI.StateBag` StateBag
-
-###  SaveViewState
-
-Saves object data to a view state
+Track ViewState
 
 #### Returns
 
-`System.Object` Saved view state object
+`System.Void` 
+
+###  TrackViewState
+
+Track ViewState
+
+#### Returns
+
+`System.Void` 
+
+###  TrackViewState
+
+Track ViewState
+
+#### Returns
+
+`System.Void` 
 
 ###  TrackViewState
 
@@ -463,34 +485,4 @@ Tracks view state changes
 #### Returns
 
 `System.Void` 
-
-###  LoadViewState
-
-Loads data from a view state
-
-#### Parameters
-
-#### state `System.Object`
-
-View state to load data from
-
-#### Returns
-
-`System.Void` 
-
-###  SetDirty
-
-Sets the item dirty state
-
-#### Returns
-
-`System.Void` 
-
-###  ToString
-
-ToString() override. Used in the properties grid to avoid object type showing.
-
-#### Returns
-
-`System.String` Empty string
 

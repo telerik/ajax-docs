@@ -26,6 +26,24 @@ This property set whether active row should be set to first/last item when curre
 This property set whether the edit form will be submited when the ENTER key is pressed 
             (default is false)
 
+###  CollapseChildItemsKey `TreeListFocusKeys`
+
+This property set the key that is used for collapsing the active row's child item
+            (default key is Left arrow)
+
+###  DeleteActiveRowKey `Int32`
+
+Gets an integer value indicating the code of the key used to delete the currently active row.
+
+###  ExitEditInsertModeKey `Int32`
+
+Gets an integer value indicating the code of the key used to exit insert and edit mode.
+
+###  ExpandChildItemsKey `TreeListFocusKeys`
+
+This property set the key that is used for expanding the active row's child items
+            (default key is Right arrow)
+
 ###  FocusKey `TreeListFocusKeys`
 
 This property sets the key that is used to focus RadTreeList. It is always used with CTRL key combination.
@@ -34,25 +52,7 @@ This property sets the key that is used to focus RadTreeList. It is always used 
 
 This property sets the key that is used to open insert edit form of RadTreeList. It is always used with CTRL key combination.
 
-###  ExpandChildItemsKey `TreeListFocusKeys`
-
-This property set the key that is used for expanding the active row's child items
-            (default key is Right arrow)
-
-###  CollapseChildItemsKey `TreeListFocusKeys`
-
-This property set the key that is used for collapsing the active row's child item
-            (default key is Left arrow)
-
-###  ExitEditInsertModeKey `Int32`
-
-Gets an integer value indicating the code of the key used to exit insert and edit mode.
-
 ###  UpdateInsertItemKey `Int32`
 
 Gets an integer value indicating the code of the key used to perform insert or update.
-
-###  DeleteActiveRowKey `Int32`
-
-Gets an integer value indicating the code of the key used to delete the currently active row.
 

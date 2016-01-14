@@ -16,12 +16,12 @@ The event arguments passed when Telerik.Web.UI.RadListView fires ItemDragDrop ev
 
 ## Properties
 
-###  DraggedItem `RadListViewDataItem`
-
-Gets or sets the dragged item.
-
 ###  DestinationHtmlElement `String`
 
 Gets or sets the destination HTML element which represents
             the element on which
+
+###  DraggedItem `RadListViewDataItem`
+
+Gets or sets the dragged item.
 

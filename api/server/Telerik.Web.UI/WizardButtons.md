@@ -17,19 +17,19 @@ This class gets and sets the localization properties in the buttons that are par
 
 ## Properties
 
-###  Previous `String`
-
-Gets or sets the Previous string.
-
 ###  Cancel `String`
 
 Gets or sets the Cancel string.
+
+###  Finish `String`
+
+Gets or sets the Finish string.
 
 ###  Next `String`
 
 Gets or sets the Next string.
 
-###  Finish `String`
+###  Previous `String`
 
-Gets or sets the Finish string.
+Gets or sets the Previous string.
 

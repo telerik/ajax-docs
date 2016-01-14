@@ -20,11 +20,3 @@ Represents the settings of the Token.
 
 Gets a value indicating whether the text of the RadAutoComplete Tokens can be edited when user double clicks on it.
 
-## Methods
-
-###  GetViewStateValue
-
-#### Returns
-
-`Telerik.Web.UI.T` 
-

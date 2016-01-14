@@ -17,11 +17,11 @@ Used for internal grouping by simple properties.
 
 ## Properties
 
-###  Value `Object`
-
-Gets the value of the group.
-
 ###  IsValid `Boolean`
 
 Gets or sets a value indicating whether this instance is valid.
+
+###  Value `Object`
+
+Gets the value of the group.
 

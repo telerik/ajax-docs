@@ -29,34 +29,6 @@ Gets\sets a delegate that will be called after every expression evaluation.
 
 ## Methods
 
-###  GetEvaluator
-
-Returns a reference to the RadFilterLinqRowExpressionEvaluator instance.
-
-#### Parameters
-
-#### function `Telerik.Web.UI.RadFilterFunction`
-
-The RadFilterFunction used in the evaluated filter expression.
-
-#### Returns
-
-`Telerik.Web.UI.RadFilterDynamicLinqExpressionEvaluator` The RadFilterDynamicLinqExpressionEvaluator for the specific function provided.
-
-###  GetEvaluator
-
-Returns a reference to the RadFilterDynamicLinqExpressionEvaluator instance.
-
-#### Parameters
-
-#### function `Telerik.Web.UI.RadFilterFunction`
-
-The RadFilterFunction used in the evaluated filter expression.
-
-#### Returns
-
-`Telerik.Web.UI.RadFilterDynamicLinqExpressionEvaluator` The RadFilterDynamicLinqExpressionEvaluator for the specific function provided.
-
 ###  Evaluate
 
 Evaluates the passes expression
@@ -86,4 +58,32 @@ A RadFilterNonGroupExpression object representing the expression
 #### Returns
 
 `Telerik.Web.UI.RadFilterEvaluationData` The evaluation data for the expression.
+
+###  GetEvaluator
+
+Returns a reference to the RadFilterLinqRowExpressionEvaluator instance.
+
+#### Parameters
+
+#### function `Telerik.Web.UI.RadFilterFunction`
+
+The RadFilterFunction used in the evaluated filter expression.
+
+#### Returns
+
+`Telerik.Web.UI.RadFilterDynamicLinqExpressionEvaluator` The RadFilterDynamicLinqExpressionEvaluator for the specific function provided.
+
+###  GetEvaluator
+
+Returns a reference to the RadFilterDynamicLinqExpressionEvaluator instance.
+
+#### Parameters
+
+#### function `Telerik.Web.UI.RadFilterFunction`
+
+The RadFilterFunction used in the evaluated filter expression.
+
+#### Returns
+
+`Telerik.Web.UI.RadFilterDynamicLinqExpressionEvaluator` The RadFilterDynamicLinqExpressionEvaluator for the specific function provided.
 

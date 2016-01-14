@@ -16,23 +16,37 @@ Exposes various printer-related options.
 
 ## Properties
 
+###  Attributes `IAttributesCollection`
+
+Collection of the attributes of the current element
+
 ###  FitHeight `Nullable`1`
 
 Specifies the number of pages to spread the height of a print area across.
-
-###  PaperSize `PaperKind`
-
-Specifies the paper size.
 
 ###  InnerElements `IElementsCollection`
 
 Collection of inner elements
 
-###  Attributes `IAttributesCollection`
+###  PaperSize `PaperKind`
 
-Collection of the attributes of the current element
+Specifies the paper size.
 
 ## Methods
+
+###  AppendAttributes
+
+Appends the attirbutes to the output
+
+#### Parameters
+
+#### sb `System.Text.StringBuilder`
+
+StringBuilder object that holds the rendered output
+
+#### Returns
+
+`System.Void` 
 
 ###  Render
 
@@ -51,20 +65,6 @@ StringBuilder object that holds the rendered output
 ###  RenderChildElements
 
 Renders the child elements
-
-#### Parameters
-
-#### sb `System.Text.StringBuilder`
-
-StringBuilder object that holds the rendered output
-
-#### Returns
-
-`System.Void` 
-
-###  AppendAttributes
-
-Appends the attirbutes to the output
 
 #### Parameters
 

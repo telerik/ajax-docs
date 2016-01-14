@@ -17,14 +17,6 @@ This Classs gets or sets the Upload strings.
 
 ## Properties
 
-###  Select `String`
-
-Gets or sets the select.
-
-###  Remove `String`
-
-Gets or sets the remove.
-
 ###  Add `String`
 
 Gets or sets the add.
@@ -36,4 +28,12 @@ Gets or sets the clear.
 ###  Delete `String`
 
 Gets or sets the delete.
+
+###  Remove `String`
+
+Gets or sets the remove.
+
+###  Select `String`
+
+Gets or sets the select.
 

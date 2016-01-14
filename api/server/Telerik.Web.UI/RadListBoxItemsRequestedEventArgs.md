@@ -17,15 +17,15 @@ Provides data for the E:Telerik.Web.UI.RadListBox.ItemsRequested event of the
 
 ## Properties
 
-###  StartIndex `Int32`
+###  Context `IDictionary`2`
 
-Gets or sets the starting index from which the records from the data source should be retrieved.
+Gets or sets the context set in the  event.
 
 ###  Count `Int32`
 
 Gets or sets the number of records to be retrieved from the data source
 
-###  Context `IDictionary`2`
+###  StartIndex `Int32`
 
-Gets or sets the context set in the  event.
+Gets or sets the starting index from which the records from the data source should be retrieved.
 

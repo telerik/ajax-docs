@@ -17,6 +17,14 @@ Default implementation of Telerik.Web.UI.IAsyncUploadConfiguration IAsyncUploadC
 
 ## Properties
 
+###  AllowedFileExtensions `String[]`
+
+Gets or sets the allowed file extensions send to the upload handler.
+
+###  MaxFileSize `Int32`
+
+Gets or sets the max file size.
+
 ###  TargetFolder `String`
 
 Gets or sets the target folder.
@@ -25,10 +33,6 @@ Gets or sets the target folder.
 
 Gets or sets the temp target folder.
 
-###  MaxFileSize `Int32`
-
-Gets or sets the max file size.
-
 ###  TimeToLive `TimeSpan`
 
 Gets or sets the time to live.
@@ -36,8 +40,4 @@ Gets or sets the time to live.
 ###  UseApplicationPoolImpersonation `Boolean`
 
 Gets or sets whether to use application pool impersonation.
-
-###  AllowedFileExtensions `String[]`
-
-Gets or sets the allowed file extensions send to the upload handler.
 

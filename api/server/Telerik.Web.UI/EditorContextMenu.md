@@ -16,41 +16,15 @@ Represents a RadEditor context menu.
 
 ## Properties
 
-###  TagName `String`
-
-Gets or sets the name of the tag, this EditorContextMenu will be associated to.
-
 ###  Enabled `Boolean`
 
 Gets or sets a value indicating whether this  is enabled.
 
+###  TagName `String`
+
+Gets or sets the name of the tag, this EditorContextMenu will be associated to.
+
 ###  Tools `EditorToolCollection`
 
 Gets the collection of EditorTool objects, placed in this context menu instance.
-
-## Methods
-
-###  LoadViewState
-
-#### Returns
-
-`System.Void` 
-
-###  SaveViewState
-
-#### Returns
-
-`System.Object` 
-
-###  TrackViewState
-
-#### Returns
-
-`System.Void` 
-
-###  SetDirty
-
-#### Returns
-
-`System.Void` 
 

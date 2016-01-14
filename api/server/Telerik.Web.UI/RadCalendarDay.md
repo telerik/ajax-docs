@@ -25,10 +25,9 @@ RadCalendarDay represents a object that maps date value to corresponding visual 
 
 Gets or sets the date represented by this RadCalendarDay.
 
-###  ItemStyle `TableItemStyle`
+###  IsDisabled `Boolean`
 
-Gets the style properties for the RadCalendarDay
-            instance.
+Gets or sets a value indicating whether the RadCalendarDay is disabled
 
 ###  IsSelectable `Boolean`
 
@@ -38,13 +37,19 @@ Gets or sets a value indicating whether the RadCalendarDay is qualified as avail
 
 Gets or sets a value indicating whether the RadCalendarDay is selected
 
-###  IsDisabled `Boolean`
-
-Gets or sets a value indicating whether the RadCalendarDay is disabled
-
 ###  IsToday `Boolean`
 
 Gets or sets a value indicating whether the RadCalendarDay represents the current date.
+
+###  IsWeekend `Boolean`
+
+Gets or sets a value indicating whether the RadCalendarDay is mapped to a date that represents a non working
+            day/weekend.
+
+###  ItemStyle `TableItemStyle`
+
+Gets the style properties for the RadCalendarDay
+            instance.
 
 ###  Repeatable `RecurringEvents`
 
@@ -54,20 +59,15 @@ Gets or sets a value indicating whether the RadCalendarDay settings are repeated
 #### Remarks
 The RecurringEvents enumeration determines which part of the date is handled (day or day and month).
 
-###  IsWeekend `Boolean`
-
-Gets or sets a value indicating whether the RadCalendarDay is mapped to a date that represents a non working
-            day/weekend.
-
-###  ToolTip `String`
-
-Gets or sets the text displayed when the mouse pointer hovers over the calendar day.
-
 ###  TemplateID `String`
 
 Persists the ID of the template used by this instance of RichUITemplateControl if 
             any. The TemplateID could be used to index the Templates collection and instantiate
             the required template.
+
+###  ToolTip `String`
+
+Gets or sets the text displayed when the mouse pointer hovers over the calendar day.
 
 ## Methods
 
@@ -89,12 +89,6 @@ The current calendar.
 
 `Telerik.Web.UI.Calendar.RecurringEvents` 
 
-###  GetClientData
-
-#### Returns
-
-`System.Collections.ArrayList` 
-
 ###  Reset
 
 Reset all properties to their defaults.
@@ -102,10 +96,4 @@ Reset all properties to their defaults.
 #### Returns
 
 `System.Void` 
-
-###  GetClientData
-
-#### Returns
-
-`System.Collections.ArrayList` 
 

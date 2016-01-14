@@ -17,6 +17,10 @@ This abstract class defines the DbSchedulerProviderBase that inherits SchedulerP
 
 ## Properties
 
+###  ConnectionString `String`
+
+Gets or sets the connection string.
+
 ###  DbFactory `DbProviderFactory`
 
 Gets or sets the db factory.
@@ -25,11 +29,117 @@ Gets or sets the db factory.
 
 Gets or sets the persist changes.
 
-###  ConnectionString `String`
-
-Gets or sets the connection string.
-
 ## Methods
+
+###  Delete
+
+Deletes the specified scheduler info.
+
+#### Parameters
+
+#### schedulerInfo `Telerik.Web.UI.ISchedulerInfo`
+
+The scheduler info.
+
+#### appointmentToDelete `Telerik.Web.UI.Appointment`
+
+The appointment to delete.
+
+#### Returns
+
+`System.Void` 
+
+###  Delete
+
+Deletes the specified owner.
+
+#### Parameters
+
+#### owner `Telerik.Web.UI.RadScheduler`
+
+The owner.
+
+#### appointmentToDelete `Telerik.Web.UI.Appointment`
+
+The appointment to delete.
+
+#### Returns
+
+`System.Void` 
+
+###  GetAppointments
+
+Gets the appointments.
+
+#### Parameters
+
+#### schedulerInfo `Telerik.Web.UI.ISchedulerInfo`
+
+The scheduler info.
+
+#### Returns
+
+`System.Collections.Generic.IEnumerable`1` 
+
+###  GetAppointments
+
+Gets the appointments.
+
+#### Parameters
+
+#### owner `Telerik.Web.UI.RadScheduler`
+
+The owner.
+
+#### Returns
+
+`System.Collections.Generic.IEnumerable`1` 
+
+###  GetResources
+
+Gets the resources.
+
+#### Parameters
+
+#### schedulerInfo `Telerik.Web.UI.ISchedulerInfo`
+
+The scheduler info.
+
+#### Returns
+
+`System.Collections.Generic.IDictionary`2` 
+
+###  GetResourcesByType
+
+Gets the type of the resources by.
+
+#### Parameters
+
+#### owner `Telerik.Web.UI.RadScheduler`
+
+The owner.
+
+#### resourceType `System.String`
+
+Type of the resource.
+
+#### Returns
+
+`System.Collections.Generic.IEnumerable`1` 
+
+###  GetResourceTypes
+
+Gets the resource types.
+
+#### Parameters
+
+#### owner `Telerik.Web.UI.RadScheduler`
+
+The owner.
+
+#### Returns
+
+`System.Collections.Generic.IEnumerable`1` 
 
 ###  Initialize
 
@@ -50,34 +160,6 @@ A collection of the name/value pairs representing the provider-specific
 
 `System.Void` 
 
-###  GetAppointments
-
-Gets the appointments.
-
-#### Parameters
-
-#### schedulerInfo `Telerik.Web.UI.ISchedulerInfo`
-
-The scheduler info.
-
-#### Returns
-
-`System.Collections.Generic.IEnumerable`1` 
-
-###  GetResources
-
-Gets the resources.
-
-#### Parameters
-
-#### schedulerInfo `Telerik.Web.UI.ISchedulerInfo`
-
-The scheduler info.
-
-#### Returns
-
-`System.Collections.Generic.IDictionary`2` 
-
 ###  Insert
 
 Inserts the specified scheduler info.
@@ -95,96 +177,6 @@ The appointment to insert.
 #### Returns
 
 `System.Void` 
-
-###  Update
-
-Updates the specified scheduler info.
-
-#### Parameters
-
-#### schedulerInfo `Telerik.Web.UI.ISchedulerInfo`
-
-The scheduler info.
-
-#### appointmentToUpdate `Telerik.Web.UI.Appointment`
-
-The appointment to update.
-
-#### Returns
-
-`System.Void` 
-
-###  Delete
-
-Deletes the specified scheduler info.
-
-#### Parameters
-
-#### schedulerInfo `Telerik.Web.UI.ISchedulerInfo`
-
-The scheduler info.
-
-#### appointmentToDelete `Telerik.Web.UI.Appointment`
-
-The appointment to delete.
-
-#### Returns
-
-`System.Void` 
-
-###  Synchronized
-
-Returns a synchronized (thread safe) wrapper for this provider instance.
-
-#### Returns
-
-`Telerik.Web.UI.SchedulerProviderBase` A synchronized (thread safe) wrapper for this provider instance.
-
-###  GetAppointments
-
-Gets the appointments.
-
-#### Parameters
-
-#### owner `Telerik.Web.UI.RadScheduler`
-
-The owner.
-
-#### Returns
-
-`System.Collections.Generic.IEnumerable`1` 
-
-###  GetResourceTypes
-
-Gets the resource types.
-
-#### Parameters
-
-#### owner `Telerik.Web.UI.RadScheduler`
-
-The owner.
-
-#### Returns
-
-`System.Collections.Generic.IEnumerable`1` 
-
-###  GetResourcesByType
-
-Gets the type of the resources by.
-
-#### Parameters
-
-#### owner `Telerik.Web.UI.RadScheduler`
-
-The owner.
-
-#### resourceType `System.String`
-
-Type of the resource.
-
-#### Returns
-
-`System.Collections.Generic.IEnumerable`1` 
 
 ###  Insert
 
@@ -204,6 +196,32 @@ The appointment to insert.
 
 `System.Void` 
 
+###  Synchronized
+
+Returns a synchronized (thread safe) wrapper for this provider instance.
+
+#### Returns
+
+`Telerik.Web.UI.SchedulerProviderBase` A synchronized (thread safe) wrapper for this provider instance.
+
+###  Update
+
+Updates the specified scheduler info.
+
+#### Parameters
+
+#### schedulerInfo `Telerik.Web.UI.ISchedulerInfo`
+
+The scheduler info.
+
+#### appointmentToUpdate `Telerik.Web.UI.Appointment`
+
+The appointment to update.
+
+#### Returns
+
+`System.Void` 
+
 ###  Update
 
 Updates the specified owner.
@@ -217,24 +235,6 @@ The owner.
 #### appointmentToUpdate `Telerik.Web.UI.Appointment`
 
 The appointment to update.
-
-#### Returns
-
-`System.Void` 
-
-###  Delete
-
-Deletes the specified owner.
-
-#### Parameters
-
-#### owner `Telerik.Web.UI.RadScheduler`
-
-The owner.
-
-#### appointmentToDelete `Telerik.Web.UI.Appointment`
-
-The appointment to delete.
 
 #### Returns
 

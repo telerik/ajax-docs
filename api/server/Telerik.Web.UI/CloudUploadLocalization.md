@@ -17,51 +17,51 @@ This class gets and sets the localization properties of RadCloudUpload.
 
 ## Properties
 
-###  SelectButtonText `String`
-
-Gets or sets the SelectButtonText string.
-
-###  SizeValidationFailedMessage `String`
-
-Gets or sets the SizeValidationFailedMessage string.
-
-###  ExtensionValidationFailedMessage `String`
-
-Gets or sets the ExtensionValidationFailedMessage string.
-
-###  ServerErrorMessage `String`
-
-Gets or sets the ServerErrorMessage string.
-
-###  Error `String`
-
-Gets or sets the Error string.
-
-###  Remove `String`
-
-Gets or sets the Remove string.
-
 ###  Cancel `String`
 
 Gets or sets the Cancel string.
-
-###  UploadingFilesMessage `String`
-
-Gets or sets the UploadingFilesMessage string.
-
-###  UploadedFilesMessage `String`
-
-Gets or sets the UploadedFilesMessage string.
 
 ###  CollapseButton `String`
 
 Gets or sets the CollapseButton string.
 
+###  DropZone `String`
+
+Gets or sets the string "DropZone" text.
+
+###  Error `String`
+
+Gets or sets the Error string.
+
 ###  ExpandButton `String`
 
 Gets or sets the ExpandButton string.
 
-###  DropZone `String`
+###  ExtensionValidationFailedMessage `String`
 
-Gets or sets the string "DropZone" text.
+Gets or sets the ExtensionValidationFailedMessage string.
+
+###  Remove `String`
+
+Gets or sets the Remove string.
+
+###  SelectButtonText `String`
+
+Gets or sets the SelectButtonText string.
+
+###  ServerErrorMessage `String`
+
+Gets or sets the ServerErrorMessage string.
+
+###  SizeValidationFailedMessage `String`
+
+Gets or sets the SizeValidationFailedMessage string.
+
+###  UploadedFilesMessage `String`
+
+Gets or sets the UploadedFilesMessage string.
+
+###  UploadingFilesMessage `String`
+
+Gets or sets the UploadingFilesMessage string.
 

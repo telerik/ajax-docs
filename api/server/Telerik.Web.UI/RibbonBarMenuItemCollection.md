@@ -20,16 +20,16 @@ This  Class defines the RibbonBarMenuItem collection that inherits List collecti
 
 Gets or sets the container.
 
+###  ParentWebControl `WebControl`
+
+Gets or sets the parent web control.
+
 ###  RibbonBar `RadRibbonBar`
 
 Gets a reference to the RibbonBar instance.
 
 #### Remarks
 Use the property to get the RibbonBar instance.
-
-###  ParentWebControl `WebControl`
-
-Gets or sets the parent web control.
 
 ## Methods
 

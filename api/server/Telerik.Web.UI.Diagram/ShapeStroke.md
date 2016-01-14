@@ -20,11 +20,11 @@ Defines the stroke configuration.
 
 Defines the color of the shape's stroke.
 
-###  Width `Double`
-
-Defines the thickness or width of the shape's stroke.
-
 ###  DashType `StrokeDashType`
 
 The dash type of the shape.
+
+###  Width `Double`
+
+Defines the thickness or width of the shape's stroke.
 

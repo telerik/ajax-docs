@@ -7,6 +7,7 @@ description: Telerik.Web.UI.Calendar.Collections.CalendarDayTemplateCollection
 # Telerik.Web.UI.Calendar.Collections.CalendarDayTemplateCollection
 
 Summary description for DayTemplatess.
+            See http://docs.telerik.com/devtools/aspnet-ajax/controls/calendar/templates/radcalendar-day-templates Day Templatesfor more information.
 
 ## Inheritance Hierarchy
 
@@ -19,6 +20,10 @@ Summary description for DayTemplatess.
 ###  Count `Int32`
 
 Gets the number of DayTemplate items in the collection.
+
+###  Item `DayTemplate`
+
+CalendarDayTemplates collection indexer. Used in Calendar Day Templates functionality.
 
 ## Methods
 

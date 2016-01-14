@@ -27,127 +27,18 @@ Telerik.Web.UI.RadListView is designed to give your the freedom to specify
 
 ## Properties
 
-###  ResolvedDataSource `ListViewEnumerableBase`
+###  AccessKey `String`
 
-###  DataSourceIsAssigned `Boolean`
+Gets or sets the access key that allows you to quickly navigate to the
+            Web server control.
 
-###  ItemPropertyTypes `Dictionary`2`
+###  AllowCustomPaging `Boolean`
 
-###  ODataDataSourceID `String`
+Gets or sets if the custom paging feature is enabled.
 
-Gets or sets the ODataDataSource used for data binding.
+###  AllowCustomSorting `Boolean`
 
-###  DataModelID `String`
-
-Gets or sets a OData service DataModelID.
-
-###  LayoutTemplate `ITemplate`
-
-Gets or sets the custom content for the root container in a 
-             control.
-
-###  ItemTemplate `ITemplate`
-
-Gets or sets the custom content for the data item in a 
-            control.
-
-###  AlternatingItemTemplate `ITemplate`
-
-Gets or sets the custom content for the alternating data item in a  control.
-
-###  EditItemTemplate `ITemplate`
-
-Gets or sets the custom content for the item in edit mode.
-
-###  InsertItemTemplate `ITemplate`
-
-Gets or sets the custom content for an insert item in the
-             control.
-
-###  GroupTemplate `ITemplate`
-
-Gets or sets the custom content for group container in the
-             control.
-
-###  GroupSeparatorTemplate `ITemplate`
-
-Gets or sets the user-defined content for the separator between
-            groups in a  control.
-
-###  EmptyItemTemplate `ITemplate`
-
-Gets or sets the user-defined content for the empty item that is
-            rendered in a  control when there are no more data items to
-            display in the last row of the current data page.
-
-###  ItemPlaceholderID `String`
-
-Gets or sets the ID for the item placeholder in a 
-            control.
-
-###  GroupPlaceholderID `String`
-
-Gets or sets the ID for the group placeholder in a  control.
-
-###  Items `RadListViewDataItemCollection`
-
-Gets a collection of  objects that represent
-            the data items of the current page of data in a  control.
-
-###  ItemSeparatorTemplate `ITemplate`
-
-Gets or sets the custom content for the separator between the items
-            in a  control.
-
-###  EmptyDataTemplate `ITemplate`
-
-Gets or sets the Template that will be displayed if there are no
-            records in the DataSource assigned.
-
-###  GroupItemCount `Int32`
-
-Gets or sets the number of items to display per group in a
-             control. Default value is 1
-
-###  DataKeyNames `String[]`
-
-Gets or sets an array of data-field names that will be used to
-            populate the
-             collection, when the 
-            control is databinding.
-
-###  ClientDataKeyNames `String[]`
-
-Gets or sets comma delimited list of data-field Names.
-
-###  GroupAggregatesScope `ListViewGroupAggregatesScope`
-
-Gets or sets the scope of the aggregates in a . Meaningful only in case of data grouping.
-            Default value is
-
-###  DataKeyValues `RadListViewDataKeyArray`
-
-Gets collection of data key values.
-
-###  ClientSettings `RadListViewClientSettings`
-
-Gets a reference to the 
-             object that allows
-            you to set the properties of the client-side behavior and
-            appearance in a Telerik  control.
-
-###  SortExpressions `RadListViewSortExpressionCollection`
-
-Gets a collection of sort expressions for
-
-###  DataGroups `ListViewDataGroupCollection`
-
-Gets or sets the custom content for the data group template in a 
-            control.
-
-###  FilterExpressions `RadListViewFilterExpressionCollection`
-
-Gets a collection of filter expressions for
+Gets or sets if the custom sorting feature is enabled.
 
 ###  AllowMultiFieldSorting `Boolean`
 
@@ -155,100 +46,11 @@ Gets or sets the value indicating if more than one datafield can
                 be sorted. The order is the same as the sequence of expressions
                 in .
 
-###  AllowNaturalSort `Boolean`
+###  AllowMultiItemEdit `Boolean`
 
-Allows and disallows the no-sort state when changing sort order.
-
-###  AllowStableSort `Boolean`
-
-Allow RadListView equal items not to be reordered when sorting.
-            Enables sorting result consistancy between 3.5, 4.0, 4.5 Framework
-
-###  CurrentPageIndex `Int32`
-
-Gets or sets a value indicating the index of the currently active page in case
-            paging is enabled ( is
-            true).
-
-###  IsItemInserted `Boolean`
-
-Gets or sets a value indicating if the RadListView is
-            currently in insert mode.
-
-#### Remarks
-The ItemInserted property indicates if the RadListView is
-                currently in insert mode. After setting it you should call the
-                 method.
-
-###  OverrideDataSourceControlSorting `Boolean`
-
-Gets or sets a value indicating if the 
-            should override the default  sorting
-            with its native sorting.
-
-#### Remarks
-You can set this to true in case of 
-                 with 
-                data without implemented sorting.
-
-###  AllowCustomSorting `Boolean`
-
-Gets or sets if the custom sorting feature is enabled.
-
-###  PageSize `Int32`
-
-Specify the maximum number of items that would appear in a page,
-             when paging is enabled by  property.
-             Default value is 10.
-
-###  PageCount `Int32`
-
-Gets the number of pages required to display the records of the data
-            source in a control.
-
-###  VirtualItemCount `Int32`
-
-###  AllowCustomPaging `Boolean`
-
-Gets or sets if the custom paging feature is enabled.
-
-###  UpdateMethod `String`
-
-Gets or sets the name of the method to call in order to update data
-
-###  InsertMethod `String`
-
-Gets or sets the name of the method to call in order to insert data
-
-###  DeleteMethod `String`
-
-Gets or sets the name of the method to call in order to delete data
-
-###  AllowPaging `Boolean`
-
-Gets or sets a value indicating whether the automatic paging feature is
-            enabled.
-
-###  CanRetrieveAllData `Boolean`
-
-Gets or sets a value indicating whether Telerik
-             should retrieve all data and ignore server paging in
-            case of sorting.
-
-###  ValidationSettings `RadListViewValidationSettings`
-
-Gets a reference to the 
-             object that allows you to set the properties of the validate
-             operation in a  control.
-
-###  SelectedItemTemplate `ITemplate`
-
-Gets or sets the custom content for the selected item in a 
-             control.
-
-###  SelectedIndexes `RadListViewIndexesCollection`
-
-Gets a collection of indexes of the selected items.
+Gets or sets a value indicating whether RadListView will allow you
+            to have multiple items in edit mode. The default value is
+            false.
 
 ###  AllowMultiItemSelection `Boolean`
 
@@ -256,138 +58,23 @@ Gets or sets a value indicating whether you will be able to select multiple item
             in Telerik . By default this property is set to
             false.
 
-###  SelectedItems `RadListViewDataItemCollection`
+###  AllowNaturalSort `Boolean`
 
-Gets a collection of the currently selected
-            RadListViewDataItems
+Allows and disallows the no-sort state when changing sort order.
 
-###  SelectedValue `Object`
+###  AllowPaging `Boolean`
 
-Gets the data key value of the selected item in a 
-             control.
+Gets or sets a value indicating whether the automatic paging feature is
+            enabled.
 
-###  SelectedValues `Object`
+###  AllowStableSort `Boolean`
 
-###  EditIndexes `RadListViewIndexesCollection`
+Allow RadListView equal items not to be reordered when sorting.
+            Enables sorting result consistancy between 3.5, 4.0, 4.5 Framework
 
-Gets the edit indexes which represent the indexes
-            of the items that are currenly in edit mode.
+###  AlternatingItemTemplate `ITemplate`
 
-###  EditItems `RadListViewDataItemCollection`
-
-Gets a collection of all  in edit mode.
-
-###  AllowMultiItemEdit `Boolean`
-
-Gets or sets a value indicating whether RadListView will allow you
-            to have multiple items in edit mode. The default value is
-            false.
-
-###  ConvertEmptyStringToNull `Boolean`
-
-Gets or sets a value that indicates whether empty string values ("")
-            are automatically converted to null values when the data field is
-            updated in the data source.
-
-###  InsertItemPosition `RadListViewInsertItemPosition`
-
-Gets or sets the location of the 
-            template when it is rendered as part of the 
-             control.
-
-###  InsertItem `RadListViewInsertItem`
-
-Gets the insert item of a  control.
-
-###  ClientDataSourceID `String`
-
-Gets or sets ID of RadClientDataSource control that to be used for client side binding
-
-###  RegisterWithScriptManager `Boolean`
-
-Gets or sets the value, indicating whether to register with the ScriptManager control on the page.
-
-#### Remarks
-If RegisterWithScriptManager is set to false the control can be rendered on the page using Web Services or normal callback requests/page methods.
-
-###  Skin `String`
-
-Gets or sets the skin name for the control user interface.
-
-#### Remarks
-If this property is not set, the control will render using the skin named "Default".
-            If EnableEmbeddedSkins is set to false, the control will not render skin.
-
-###  IsSkinSet `String`
-
-For internal use.
-
-###  EnableEmbeddedScripts `Boolean`
-
-Gets or sets the value, indicating whether to render script references to the embedded scripts or not.
-
-#### Remarks
-If EnableEmbeddedScripts is set to false you will have to register the needed Scripts files by hand.
-
-###  EnableEmbeddedSkins `String`
-
-Gets or sets the value, indicating whether to render links to the embedded skins or not.
-
-#### Remarks
-If EnableEmbeddedSkins is set to false you will have to register the needed CSS files by hand.
-
-###  EnableEmbeddedBaseStylesheet `Boolean`
-
-Gets or sets the value, indicating whether to render the link to the embedded base stylesheet of the control or not.
-
-#### Remarks
-If EnableEmbeddedBaseStylesheet is set to false you will have to register the needed control base CSS file by hand.
-
-###  RuntimeSkin `String`
-
-Gets the real skin name for the control user interface. If Skin is not set, returns
-            "Default", otherwise returns Skin.
-
-###  EnableAjaxSkinRendering `String`
-
-Gets or sets the value, indicating whether to render the skin CSS files during Ajax requests
-
-#### Remarks
-If EnableAjaxSkinRendering is set to false you will have to register the needed control base CSS file by hand when adding/showing the control with Ajax.
-
-###  RenderMode `RenderMode`
-
-Specifies the rendering mode of the control. Setting the mode to Lightweight will yield
-            HTML 5/CSS 3 html and css.
-
-#### Remarks
-Lightweight rendering mode might change the outlook of the component in some older browsers
-            that don't support CSS3/HTML5.
-
-###  ResolvedRenderMode `RenderMode`
-
-Returns resolved RenderMode should the original value was Auto
-
-###  ClientStateFieldID `String`
-
-###  CssClassFormatString `String`
-
-The CssClass property will now be used instead of the former Skin 
-            and will be modified in AddAttributesToRender()
-
-###  DefaultCssClass `String`
-
-###  ClientIDMode `ClientIDMode`
-
-This property is overridden in order to support controls which implement INamingContainer.
-            The default value is changed to "AutoID".
-
-###  ScriptManager `ScriptManager`
-
-###  AccessKey `String`
-
-Gets or sets the access key that allows you to quickly navigate to the
-            Web server control.
+Gets or sets the custom content for the alternating data item in a  control.
 
 ###  BackColor `Color`
 
@@ -405,53 +92,69 @@ Gets or sets the border style of the Web server control.
 
 Gets or sets the border width of the Web server control.
 
+###  CanRetrieveAllData `Boolean`
+
+Gets or sets a value indicating whether Telerik
+             should retrieve all data and ignore server paging in
+            case of sorting.
+
+###  ClientDataKeyNames `String[]`
+
+Gets or sets comma delimited list of data-field Names.
+
+###  ClientDataSourceID `String`
+
+Gets or sets ID of RadClientDataSource control that to be used for client side binding
+
+###  ClientIDMode `ClientIDMode`
+
+This property is overridden in order to support controls which implement INamingContainer.
+            The default value is changed to "AutoID".
+
+###  ClientSettings `RadListViewClientSettings`
+
+Gets a reference to the 
+             object that allows
+            you to set the properties of the client-side behavior and
+            appearance in a Telerik  control.
+
+###  ConvertEmptyStringToNull `Boolean`
+
+Gets or sets a value that indicates whether empty string values ("")
+            are automatically converted to null values when the data field is
+            updated in the data source.
+
 ###  CssClass `String`
 
 Gets or sets the Cascading Style Sheet (CSS) class rendered by the Web
             server control on the client.
 
-###  Enabled `Boolean`
+###  CssClassFormatString `String`
 
-Gets or sets a value indicating whether the Web server control is enabled.
+The CssClass property will now be used instead of the former Skin 
+            and will be modified in AddAttributesToRender()
 
-###  EnableTheming `Boolean`
+###  CurrentPageIndex `Int32`
 
-Gets or sets a value indicating whether themes apply to this control.
+Gets or sets a value indicating the index of the currently active page in case
+            paging is enabled ( is
+            true).
 
-###  ForeColor `Color`
+###  DataGroups `ListViewDataGroupCollection`
 
-Gets or sets the foreground color (typically the color of the text)
-            of the Web server control.
+Gets or sets the custom content for the data group template in a 
+            control.
 
-###  Font `FontInfo`
+###  DataKeyNames `String[]`
 
-Gets the font properties associated with the Web server control.
+Gets or sets an array of data-field names that will be used to
+            populate the
+             collection, when the 
+            control is databinding.
 
-###  Height `Unit`
+###  DataKeyValues `RadListViewDataKeyArray`
 
-Gets or sets the height of the Web server control.
-
-###  SkinID `String`
-
-Gets or sets the skin to apply to the control.
-
-###  Visible `Boolean`
-
-Gets or sets a value that indicates whether a server control is rendered
-            as UI on the page.
-
-###  Width `Unit`
-
-Gets or sets the width of the Web server control.
-
-###  TabIndex `Int16`
-
-Gets or sets the tab index of the Web server control.
-
-###  ToolTip `String`
-
-Gets or sets the text displayed when the mouse pointer hovers over the
-            Web server control.
+Gets collection of data key values.
 
 ###  DataMember `String`
 
@@ -459,11 +162,9 @@ Gets or sets the name of the list of data that the data-bound control
             binds to, in cases where the data source contains more than one distinct list
             of data items.
 
-###  EnableViewState `Boolean`
+###  DataModelID `String`
 
-Gets or sets a value indicating whether the server control persists
-            its view state, and the view state of any child controls it contains, to the
-            requesting client.
+Gets or sets a OData service DataModelID.
 
 ###  DataSource `Object`
 
@@ -475,7 +176,329 @@ Gets or sets the object from which the data-bound control retrieves
 Gets or sets the ID of the control from which the data-bound control
             retrieves its list of data items.
 
+###  DeleteMethod `String`
+
+Gets or sets the name of the method to call in order to delete data
+
+###  EditIndexes `RadListViewIndexesCollection`
+
+Gets the edit indexes which represent the indexes
+            of the items that are currenly in edit mode.
+
+###  EditItems `RadListViewDataItemCollection`
+
+Gets a collection of all  in edit mode.
+
+###  EditItemTemplate `ITemplate`
+
+Gets or sets the custom content for the item in edit mode.
+
+###  EmptyDataTemplate `ITemplate`
+
+Gets or sets the Template that will be displayed if there are no
+            records in the DataSource assigned.
+
+###  EmptyItemTemplate `ITemplate`
+
+Gets or sets the user-defined content for the empty item that is
+            rendered in a  control when there are no more data items to
+            display in the last row of the current data page.
+
+###  EnableAjaxSkinRendering `String`
+
+Gets or sets the value, indicating whether to render the skin CSS files during Ajax requests
+
+#### Remarks
+If EnableAjaxSkinRendering is set to false you will have to register the needed control base CSS file by hand when adding/showing the control with Ajax.
+
+###  Enabled `Boolean`
+
+Gets or sets a value indicating whether the Web server control is enabled.
+
+###  EnableEmbeddedBaseStylesheet `Boolean`
+
+Gets or sets the value, indicating whether to render the link to the embedded base stylesheet of the control or not.
+
+#### Remarks
+If EnableEmbeddedBaseStylesheet is set to false you will have to register the needed control base CSS file by hand.
+
+###  EnableEmbeddedScripts `Boolean`
+
+Gets or sets the value, indicating whether to render script references to the embedded scripts or not.
+
+#### Remarks
+If EnableEmbeddedScripts is set to false you will have to register the needed Scripts files by hand.
+
+###  EnableEmbeddedSkins `String`
+
+Gets or sets the value, indicating whether to render links to the embedded skins or not.
+
+#### Remarks
+If EnableEmbeddedSkins is set to false you will have to register the needed CSS files by hand.
+
+###  EnableTheming `Boolean`
+
+Gets or sets a value indicating whether themes apply to this control.
+
+###  EnableViewState `Boolean`
+
+Gets or sets a value indicating whether the server control persists
+            its view state, and the view state of any child controls it contains, to the
+            requesting client.
+
+###  FilterExpressions `RadListViewFilterExpressionCollection`
+
+Gets a collection of filter expressions for
+
+###  Font `FontInfo`
+
+Gets the font properties associated with the Web server control.
+
+###  ForeColor `Color`
+
+Gets or sets the foreground color (typically the color of the text)
+            of the Web server control.
+
+###  GroupAggregatesScope `ListViewGroupAggregatesScope`
+
+Gets or sets the scope of the aggregates in a . Meaningful only in case of data grouping.
+            Default value is
+
+###  GroupItemCount `Int32`
+
+Gets or sets the number of items to display per group in a
+             control. Default value is 1
+
+###  GroupPlaceholderID `String`
+
+Gets or sets the ID for the group placeholder in a  control.
+
+###  GroupSeparatorTemplate `ITemplate`
+
+Gets or sets the user-defined content for the separator between
+            groups in a  control.
+
+###  GroupTemplate `ITemplate`
+
+Gets or sets the custom content for group container in the
+             control.
+
+###  Height `Unit`
+
+Gets or sets the height of the Web server control.
+
+###  InsertItem `RadListViewInsertItem`
+
+Gets the insert item of a  control.
+
+###  InsertItemPosition `RadListViewInsertItemPosition`
+
+Gets or sets the location of the 
+            template when it is rendered as part of the 
+             control.
+
+###  InsertItemTemplate `ITemplate`
+
+Gets or sets the custom content for an insert item in the
+             control.
+
+###  InsertMethod `String`
+
+Gets or sets the name of the method to call in order to insert data
+
+###  IsItemInserted `Boolean`
+
+Gets or sets a value indicating if the RadListView is
+            currently in insert mode.
+
+#### Remarks
+The ItemInserted property indicates if the RadListView is
+                currently in insert mode. After setting it you should call the
+                 method.
+
+###  IsSkinSet `String`
+
+For internal use.
+
+###  ItemPlaceholderID `String`
+
+Gets or sets the ID for the item placeholder in a 
+            control.
+
+###  Items `RadListViewDataItemCollection`
+
+Gets a collection of  objects that represent
+            the data items of the current page of data in a  control.
+
+###  ItemSeparatorTemplate `ITemplate`
+
+Gets or sets the custom content for the separator between the items
+            in a  control.
+
+###  ItemTemplate `ITemplate`
+
+Gets or sets the custom content for the data item in a 
+            control.
+
+###  LayoutTemplate `ITemplate`
+
+Gets or sets the custom content for the root container in a 
+             control.
+
+###  ODataDataSourceID `String`
+
+Gets or sets the ODataDataSource used for data binding.
+
+###  OverrideDataSourceControlSorting `Boolean`
+
+Gets or sets a value indicating if the 
+            should override the default  sorting
+            with its native sorting.
+
+#### Remarks
+You can set this to true in case of 
+                 with 
+                data without implemented sorting.
+
+###  PageCount `Int32`
+
+Gets the number of pages required to display the records of the data
+            source in a control.
+
+###  PageSize `Int32`
+
+Specify the maximum number of items that would appear in a page,
+             when paging is enabled by  property.
+             Default value is 10.
+
+###  RegisterWithScriptManager `Boolean`
+
+Gets or sets the value, indicating whether to register with the ScriptManager control on the page.
+
+#### Remarks
+If RegisterWithScriptManager is set to false the control can be rendered on the page using Web Services or normal callback requests/page methods.
+
+###  RenderMode `RenderMode`
+
+Specifies the rendering mode of the control. Setting the mode to Lightweight will yield
+            HTML 5/CSS 3 html and css.
+
+#### Remarks
+Lightweight rendering mode might change the outlook of the component in some older browsers
+            that don't support CSS3/HTML5.
+
+###  ResolvedDataSource `ListViewEnumerableBase`
+
+###  ResolvedRenderMode `RenderMode`
+
+Returns resolved RenderMode should the original value was Auto
+
+###  RuntimeSkin `String`
+
+Gets the real skin name for the control user interface. If Skin is not set, returns
+            "Default", otherwise returns Skin.
+
+###  SelectedIndexes `RadListViewIndexesCollection`
+
+Gets a collection of indexes of the selected items.
+
+###  SelectedItems `RadListViewDataItemCollection`
+
+Gets a collection of the currently selected
+            RadListViewDataItems
+
+###  SelectedItemTemplate `ITemplate`
+
+Gets or sets the custom content for the selected item in a 
+             control.
+
+###  SelectedValue `Object`
+
+Gets the data key value of the selected item in a 
+             control.
+
+###  SelectedValues `Object`
+
+###  Skin `String`
+
+Gets or sets the skin name for the control user interface.
+
+#### Remarks
+If this property is not set, the control will render using the skin named "Default".
+            If EnableEmbeddedSkins is set to false, the control will not render skin.
+
+###  SkinID `String`
+
+Gets or sets the skin to apply to the control.
+
+###  SortExpressions `RadListViewSortExpressionCollection`
+
+Gets a collection of sort expressions for
+
+###  TabIndex `Int16`
+
+Gets or sets the tab index of the Web server control.
+
+###  ToolTip `String`
+
+Gets or sets the text displayed when the mouse pointer hovers over the
+            Web server control.
+
+###  UpdateMethod `String`
+
+Gets or sets the name of the method to call in order to update data
+
+###  ValidationSettings `RadListViewValidationSettings`
+
+Gets a reference to the 
+             object that allows you to set the properties of the validate
+             operation in a  control.
+
+###  VirtualItemCount `Int32`
+
+###  Visible `Boolean`
+
+Gets or sets a value that indicates whether a server control is rendered
+            as UI on the page.
+
+###  Width `Unit`
+
+Gets or sets the width of the Web server control.
+
 ## Methods
+
+###  ApplyConditionalRendering
+
+Use this from RenderContents of the inheritor
+
+#### Returns
+
+`System.Void` 
+
+###  ClearEditItems
+
+Removes all edit items that belong to the 
+            instance.
+
+#### Returns
+
+`System.Void` 
+
+###  ClearSelectedItems
+
+Removes all selected items that belong to  instance.
+
+#### Returns
+
+`System.Void` 
+
+###  ControlPreRender
+
+Code moved into this method from OnPreRender to make sure it executed when the framework skips OnPreRender() for some reason
+
+#### Returns
+
+`System.Void` 
 
 ###  CreateChildControls
 
@@ -504,6 +527,12 @@ true to indicate
              
              .
 
+###  CreateDataItems
+
+#### Returns
+
+`System.Int32` 
+
 ###  CreateDataSourceSelectArguments
 
 Creates a default 
@@ -516,58 +545,40 @@ Creates a default
             initialized to 
             .
 
-###  PerformDataBinding
-
-Binds the data from the data source to the composite data-bound
-            control.
-
-#### Parameters
-
-#### data `System.Collections.IEnumerable`
-
-An 
-            that contains the values to bind to the composite data-bound
-            control.
-
-#### Returns
-
-`System.Void` 
-
-###  CreateDataItems
-
-#### Returns
-
-`System.Int32` 
-
 ###  CreateInsertItem
 
 #### Returns
 
 `Telerik.Web.UI.RadListViewItem` 
 
-###  PopulateDataKeys
+###  DataBind
 
 #### Returns
 
 `System.Void` 
 
-###  InstantiateDataItemTemplate
+###  ExtractDataKeyValue
+
+#### Returns
+
+`System.Object` 
+
+###  ExtractValuesFromItem
+
+The passed  object (like  for example) will be filled with the
+                names/values of the corresponding 's bound values and data-key values if included.
 
 #### Returns
 
 `System.Void` 
 
-###  RetrivePlaceHolderControl
+###  GetEmbeddedSkinNames
+
+Returns the names of all embedded skins. Used by Telerik.Web.Examples.
 
 #### Returns
 
-`System.Web.UI.Control` 
-
-###  RetriveDataItemsContainer
-
-#### Returns
-
-`System.Web.UI.Control` 
+`System.Collections.Generic.List`1` 
 
 ###  InitializeLayoutTemplate
 
@@ -577,15 +588,23 @@ Creates and instantiate layout template instance
 
 `System.Int32` Created controls count
 
-###  SaveControlState
-
-Saves any  control state changes that have
-            occurred since the time the page was posted back to the server.
+###  InstantiateDataItemTemplate
 
 #### Returns
 
-`System.Object` Returns the 's current state. If there is
-            no state associated with the control, this method returns null.
+`System.Void` 
+
+###  LoadClientState
+
+Loads the client state data
+
+#### Parameters
+
+#### clientState `System.Collections.Generic.Dictionary{System.String,System.Object}`
+
+#### Returns
+
+`System.Boolean` 
 
 ###  LoadControlState
 
@@ -604,7 +623,65 @@ An  that
 
 `System.Void` 
 
-###  SetPageProperties
+###  LoadPostData
+
+Executed when post data is loaded from the request
+
+#### Parameters
+
+#### postDataKey `System.String`
+
+#### postCollection `System.Collections.Specialized.NameValueCollection`
+
+#### Returns
+
+`System.Boolean` 
+
+###  OnCustomAggregate
+
+Raises the  event
+
+#### Parameters
+
+#### e `Telerik.Web.UI.ListViewCustomAggregateEventArgs`
+
+#### Returns
+
+`System.Void` 
+
+###  OnInit
+
+Handles the  event.
+
+#### Parameters
+
+#### e `System.EventArgs`
+
+An  object that contains the event data.
+
+#### Returns
+
+`System.Void` 
+
+###  OnItemCanceling
+
+Raises the  event.
+
+#### Parameters
+
+#### e `Telerik.Web.UI.RadListViewCommandEventArgs`
+
+#### Returns
+
+`System.Void` 
+
+###  OnItemCommand
+
+Raises  event
+
+#### Parameters
+
+#### e `Telerik.Web.UI.RadListViewCommandEventArgs`
 
 #### Returns
 
@@ -634,18 +711,6 @@ Raises  event
 
 `System.Void` 
 
-###  OnItemCommand
-
-Raises  event
-
-#### Parameters
-
-#### e `Telerik.Web.UI.RadListViewCommandEventArgs`
-
-#### Returns
-
-`System.Void` 
-
 ###  OnItemDeleted
 
 Raises the  event.
@@ -653,54 +718,6 @@ Raises the  event.
 #### Parameters
 
 #### e `Telerik.Web.UI.RadListViewDeletedEventArgs`
-
-#### Returns
-
-`System.Void` 
-
-###  OnItemUpdating
-
-Raises the  event.
-
-#### Parameters
-
-#### e `Telerik.Web.UI.RadListViewCommandEventArgs`
-
-#### Returns
-
-`System.Void` 
-
-###  OnItemUpdated
-
-Raises the  event.
-
-#### Parameters
-
-#### e `Telerik.Web.UI.RadListViewUpdatedEventArgs`
-
-#### Returns
-
-`System.Void` 
-
-###  OnItemCanceling
-
-Raises the  event.
-
-#### Parameters
-
-#### e `Telerik.Web.UI.RadListViewCommandEventArgs`
-
-#### Returns
-
-`System.Void` 
-
-###  OnNeedDataSource
-
-Raises  event
-
-#### Parameters
-
-#### e `Telerik.Web.UI.RadListViewNeedDataSourceEventArgs`
 
 #### Returns
 
@@ -718,44 +735,25 @@ Raises the  event
 
 `System.Void` 
 
-###  OnCustomAggregate
+###  OnItemUpdated
 
-Raises the  event
-
-#### Parameters
-
-#### e `Telerik.Web.UI.ListViewCustomAggregateEventArgs`
-
-#### Returns
-
-`System.Void` 
-
-###  ClearSelectedItems
-
-Removes all selected items that belong to  instance.
-
-#### Returns
-
-`System.Void` 
-
-###  ClearEditItems
-
-Removes all edit items that belong to the 
-            instance.
-
-#### Returns
-
-`System.Void` 
-
-###  OnInit
-
-Handles the  event.
+Raises the  event.
 
 #### Parameters
 
-#### e `System.EventArgs`
+#### e `Telerik.Web.UI.RadListViewUpdatedEventArgs`
 
-An  object that contains the event data.
+#### Returns
+
+`System.Void` 
+
+###  OnItemUpdating
+
+Raises the  event.
+
+#### Parameters
+
+#### e `Telerik.Web.UI.RadListViewCommandEventArgs`
 
 #### Returns
 
@@ -776,40 +774,73 @@ An  object that
 
 `System.Void` 
 
-###  Render
+###  OnNeedDataSource
 
-Renders the  to the specified HTML writer.
+Raises  event
 
 #### Parameters
 
-#### writer `System.Web.UI.HtmlTextWriter`
-
-The 
-             object that receives
-            the control content.
+#### e `Telerik.Web.UI.RadListViewNeedDataSourceEventArgs`
 
 #### Returns
 
 `System.Void` 
 
-###  DataBind
+###  PerformDataBinding
+
+Binds the data from the data source to the composite data-bound
+            control.
+
+#### Parameters
+
+#### data `System.Collections.IEnumerable`
+
+An 
+            that contains the values to bind to the composite data-bound
+            control.
 
 #### Returns
 
 `System.Void` 
 
-###  Rebind
+###  PerformDelete
 
-Rebinds this instance and updates the .
+Perform asynchronous delete operation, using the 
+             API the Rebinds the grid. Please
+            make sure you have specified the correct  for the 
+            . When the asynchronous operation calls
+            back,  will fire 
+             event.
 
 #### Returns
 
 `System.Void` 
 
-###  ExtractValuesFromItem
+###  PerformDelete
 
-The passed  object (like  for example) will be filled with the
-                names/values of the corresponding 's bound values and data-key values if included.
+Perform delete operation, using the 
+            API. Please make sure you have specified the correct 
+             for the .
+
+#### Returns
+
+`System.Void` 
+
+###  PerformInsert
+
+Performs asynchronous insert operation, using the  API, then
+            Rebinds. When the asynchronous operation calls back,  will fire
+             event.
+
+#### Returns
+
+`System.Void` 
+
+###  PerformInsert
+
+Performs asynchronous insert operation, using the  API, then
+            Rebinds. When the asynchronous operation calls back,  will fire
+             event.
 
 #### Returns
 
@@ -842,184 +873,23 @@ Perform asynchronous update operation, using the
 
 `System.Void` 
 
-###  PerformDelete
-
-Perform asynchronous delete operation, using the 
-             API the Rebinds the grid. Please
-            make sure you have specified the correct  for the 
-            . When the asynchronous operation calls
-            back,  will fire 
-             event.
+###  PopulateDataKeys
 
 #### Returns
 
 `System.Void` 
 
-###  PerformDelete
+###  RaisePostDataChangedEvent
 
-Perform delete operation, using the 
-            API. Please make sure you have specified the correct 
-             for the .
+Executed when post data changes should invoke a changed event
 
 #### Returns
 
 `System.Void` 
 
-###  ShowInsertItem
+###  Rebind
 
-Places the RadListView in insert mode, allowing user to insert a new data-item
-                values.
-
-#### Returns
-
-`System.Void` 
-
-###  ShowInsertItem
-
-Places the RadListView in insert mode, allowing user to insert a new data-item
-                values.
-
-#### Returns
-
-`System.Void` 
-
-###  ShowInsertItem
-
-Places the RadListView in insert mode, allowing user to insert a new data-item values.
-            The InsertItem created will be bound to values found in defaultValues dictionary;
-
-#### Parameters
-
-#### defaultValues `System.Collections.IDictionary`
-
-values with which InsertItem will be populated
-
-#### Returns
-
-`System.Void` 
-
-###  ShowInsertItem
-
-Places the RadListView in insert mode, allowing user to insert a new data-item values.
-            The InsertItem created will be bound to values found in defaultValues dictionary;
-
-#### Parameters
-
-#### itemPosition `Telerik.Web.UI.RadListViewInsertItemPosition`
-
-position at which the insertItem will be shown
-
-#### defaultValues `System.Collections.IDictionary`
-
-values with which InsertItem will be populated
-
-#### Returns
-
-`System.Void` 
-
-###  ShowInsertItem
-
-Places the RadListView in insert mode, allowing user to insert a new data-item values.
-            The InsertItem created will be bound to the provided object;
-
-#### Parameters
-
-#### dataItem `System.Object`
-
-object to which InsertItem will be bound
-
-#### Returns
-
-`System.Void` 
-
-###  ShowInsertItem
-
-Places the RadListView in insert mode, allowing user to insert a new data-item values.
-            The InsertItem created will be bound to the provided object;
-
-#### Parameters
-
-#### itemPosition `Telerik.Web.UI.RadListViewInsertItemPosition`
-
-position at which the insertItem will be shown
-
-#### dataItem `System.Object`
-
-object to which InsertItem will be bound
-
-#### Returns
-
-`System.Void` 
-
-###  PerformInsert
-
-Performs asynchronous insert operation, using the  API, then
-            Rebinds. When the asynchronous operation calls back,  will fire
-             event.
-
-#### Returns
-
-`System.Void` 
-
-###  PerformInsert
-
-Performs asynchronous insert operation, using the  API, then
-            Rebinds. When the asynchronous operation calls back,  will fire
-             event.
-
-#### Returns
-
-`System.Void` 
-
-###  ExtractDataKeyValue
-
-#### Returns
-
-`System.Object` 
-
-###  ApplyConditionalRendering
-
-Use this from RenderContents of the inheritor
-
-#### Returns
-
-`System.Void` 
-
-###  AddAttributesToRender
-
-#### Returns
-
-`System.Void` 
-
-###  OnPreRender
-
-#### Returns
-
-`System.Void` 
-
-###  ControlPreRender
-
-Code moved into this method from OnPreRender to make sure it executed when the framework skips OnPreRender() for some reason
-
-#### Returns
-
-`System.Void` 
-
-###  RenderScriptsNoScriptManager
-
-#### Returns
-
-`System.Void` 
-
-###  RenderDescriptorsNoScriptManager
-
-#### Returns
-
-`System.Void` 
-
-###  RegisterScriptControl
-
-Registers the control with the ScriptManager
+Rebinds this instance and updates the .
 
 #### Returns
 
@@ -1033,17 +903,41 @@ Registers the CSS references
 
 `System.Void` 
 
-###  LoadClientState
+###  RegisterScriptControl
 
-Loads the client state data
-
-#### Parameters
-
-#### clientState `System.Collections.Generic.Dictionary{System.String,System.Object}`
+Registers the control with the ScriptManager
 
 #### Returns
 
-`System.Boolean` 
+`System.Void` 
+
+###  Render
+
+Renders the  to the specified HTML writer.
+
+#### Parameters
+
+#### writer `System.Web.UI.HtmlTextWriter`
+
+The 
+             object that receives
+            the control content.
+
+#### Returns
+
+`System.Void` 
+
+###  RetriveDataItemsContainer
+
+#### Returns
+
+`System.Web.UI.Control` 
+
+###  RetrivePlaceHolderControl
+
+#### Returns
+
+`System.Web.UI.Control` 
 
 ###  SaveClientState
 
@@ -1053,67 +947,103 @@ Saves the client state data
 
 `System.String` 
 
-###  RenderClientStateField
+###  SaveControlState
+
+Saves any  control state changes that have
+            occurred since the time the page was posted back to the server.
+
+#### Returns
+
+`System.Object` Returns the 's current state. If there is
+            no state associated with the control, this method returns null.
+
+###  SetPageProperties
 
 #### Returns
 
 `System.Void` 
 
-###  RenderContents
+###  ShowInsertItem
+
+Places the RadListView in insert mode, allowing user to insert a new data-item
+                values.
 
 #### Returns
 
 `System.Void` 
 
-###  RenderBeginTag
+###  ShowInsertItem
+
+Places the RadListView in insert mode, allowing user to insert a new data-item
+                values.
 
 #### Returns
 
 `System.Void` 
 
-###  DescribeComponent
+###  ShowInsertItem
 
-#### Returns
-
-`System.Void` 
-
-###  DescribeProperty
-
-#### Returns
-
-`System.Void` 
-
-###  DescribeEvent
-
-#### Returns
-
-`System.Void` 
-
-###  GetEmbeddedSkinNames
-
-Returns the names of all embedded skins. Used by Telerik.Web.Examples.
-
-#### Returns
-
-`System.Collections.Generic.List`1` 
-
-###  LoadPostData
-
-Executed when post data is loaded from the request
+Places the RadListView in insert mode, allowing user to insert a new data-item values.
+            The InsertItem created will be bound to values found in defaultValues dictionary;
 
 #### Parameters
 
-#### postDataKey `System.String`
+#### defaultValues `System.Collections.IDictionary`
 
-#### postCollection `System.Collections.Specialized.NameValueCollection`
+values with which InsertItem will be populated
 
 #### Returns
 
-`System.Boolean` 
+`System.Void` 
 
-###  RaisePostDataChangedEvent
+###  ShowInsertItem
 
-Executed when post data changes should invoke a changed event
+Places the RadListView in insert mode, allowing user to insert a new data-item values.
+            The InsertItem created will be bound to values found in defaultValues dictionary;
+
+#### Parameters
+
+#### itemPosition `Telerik.Web.UI.RadListViewInsertItemPosition`
+
+position at which the insertItem will be shown
+
+#### defaultValues `System.Collections.IDictionary`
+
+values with which InsertItem will be populated
+
+#### Returns
+
+`System.Void` 
+
+###  ShowInsertItem
+
+Places the RadListView in insert mode, allowing user to insert a new data-item values.
+            The InsertItem created will be bound to the provided object;
+
+#### Parameters
+
+#### dataItem `System.Object`
+
+object to which InsertItem will be bound
+
+#### Returns
+
+`System.Void` 
+
+###  ShowInsertItem
+
+Places the RadListView in insert mode, allowing user to insert a new data-item values.
+            The InsertItem created will be bound to the provided object;
+
+#### Parameters
+
+#### itemPosition `Telerik.Web.UI.RadListViewInsertItemPosition`
+
+position at which the insertItem will be shown
+
+#### dataItem `System.Object`
+
+object to which InsertItem will be bound
 
 #### Returns
 

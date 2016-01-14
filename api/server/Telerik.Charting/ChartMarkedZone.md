@@ -17,95 +17,79 @@ Class describe a Marked zone functionality
 
 ## Properties
 
-###  Visible `Boolean`
-
-Visibility
-
-###  Label `ChartLabel`
-
-Marked zone label
-
 ###  Appearance `StyleMarkedZone`
 
 Appearance properties
-
-###  Name `String`
-
-Marked zone name
-
-###  YAxisType `ChartYAxisType`
-
-Marked zone Y Axis type
-
-###  ValueStartX `Double`
-
-Marker start position X
-
-###  ValueEndX `Double`
-
-Marker end position X
-
-###  ValueStartY `Double`
-
-Marker start position Y
-
-###  ValueEndY `Double`
-
-Marker end position Y
 
 ###  Container `IContainer`
 
 Link to container element
 
-###  ViewStateIgnoresCase `Boolean`
+###  Label `ChartLabel`
 
-Gets if view sate should ignore case
+Marked zone label
+
+###  Name `String`
+
+Marked zone name
+
+###  ValueEndX `Double`
+
+Marker end position X
+
+###  ValueEndY `Double`
+
+Marker end position Y
+
+###  ValueStartX `Double`
+
+Marker start position X
+
+###  ValueStartY `Double`
+
+Marker start position Y
 
 ###  ViewState `StateBag`
 
 Sate bag to store view state content
 
+###  ViewStateIgnoresCase `Boolean`
+
+Gets if view sate should ignore case
+
+###  Visible `Boolean`
+
+Visibility
+
+###  YAxisType `ChartYAxisType`
+
+Marked zone Y Axis type
+
 ## Methods
 
-###  TrackViewState
+###  BringForward
 
-Tracking ViewState for Marked zone object
-
-#### Returns
-
-`System.Void` 
-
-###  LoadViewState
-
-Loading ViewState data into Marked zone object
+Send element at one step forward in the render order list
 
 #### Returns
 
 `System.Void` 
 
-###  SaveViewState
+###  BringToFront
 
-Saving Marked zone object into ViewState
-
-#### Returns
-
-`System.Object` 
-
-###  ToString
-
-Marked zone to String
+Set element at the first position in render order list
 
 #### Returns
 
-`System.String` Marked zone name
+`System.Void` 
 
-###  GetZoneType
+###  CloneState
 
-Define and return a marked zone type
+Makes a view state clone
 
 #### Returns
 
-`Telerik.Charting.MarkedZoneType` Marked zone type
+`System.Web.UI.StateBag` StateBag
 
 ###  Dispose
 
@@ -129,15 +113,39 @@ Get this elements order position in container
 
 `System.Int32` 
 
-###  SetOrder
+###  GetZoneType
 
-Set this object in new render order position
+Define and return a marked zone type
+
+#### Returns
+
+`Telerik.Charting.MarkedZoneType` Marked zone type
+
+###  LoadViewState
+
+Loading ViewState data into Marked zone object
+
+#### Returns
+
+`System.Void` 
+
+###  LoadViewState
+
+Loads data from a view state
 
 #### Parameters
 
-#### index `System.Int32`
+#### state `System.Object`
 
-New position
+View state to load data from
+
+#### Returns
+
+`System.Void` 
+
+###  OnRender
+
+Called after rendering
 
 #### Returns
 
@@ -151,21 +159,21 @@ Remove this  element from  render order list
 
 `System.Void` 
 
-###  BringForward
+###  SaveViewState
 
-Send element at one step forward in the render order list
-
-#### Returns
-
-`System.Void` 
-
-###  BringToFront
-
-Set element at the first position in render order list
+Saving Marked zone object into ViewState
 
 #### Returns
 
-`System.Void` 
+`System.Object` 
+
+###  SaveViewState
+
+Saves object data to a view state
+
+#### Returns
+
+`System.Object` Saved view state object
 
 ###  SendBackward
 
@@ -183,9 +191,23 @@ Send element at the end of render order list
 
 `System.Void` 
 
-###  OnRender
+###  SetDirty
 
-Called after rendering
+Sets the item dirty state
+
+#### Returns
+
+`System.Void` 
+
+###  SetOrder
+
+Set this object in new render order position
+
+#### Parameters
+
+#### index `System.Int32`
+
+New position
 
 #### Returns
 
@@ -221,21 +243,21 @@ Tracks view state changes
 
 `System.Void` 
 
-###  CloneState
+###  ToString
 
-Makes a view state clone
-
-#### Returns
-
-`System.Web.UI.StateBag` StateBag
-
-###  SaveViewState
-
-Saves object data to a view state
+Marked zone to String
 
 #### Returns
 
-`System.Object` Saved view state object
+`System.String` Marked zone name
+
+###  TrackViewState
+
+Tracking ViewState for Marked zone object
+
+#### Returns
+
+`System.Void` 
 
 ###  TrackViewState
 
@@ -244,34 +266,4 @@ Tracks view state changes
 #### Returns
 
 `System.Void` 
-
-###  LoadViewState
-
-Loads data from a view state
-
-#### Parameters
-
-#### state `System.Object`
-
-View state to load data from
-
-#### Returns
-
-`System.Void` 
-
-###  SetDirty
-
-Sets the item dirty state
-
-#### Returns
-
-`System.Void` 
-
-###  ToString
-
-ToString() override. Used in the properties grid to avoid object type showing.
-
-#### Returns
-
-`System.String` Empty string
 

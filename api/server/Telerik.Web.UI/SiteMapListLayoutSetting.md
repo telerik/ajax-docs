@@ -16,6 +16,10 @@ This Class gets or sets the settings in the SiteMapListLayout.
 
 ## Properties
 
+###  AlignRows `Boolean`
+
+Gets or sets the align rows.
+
 ###  RepeatColumns `Int32`
 
 Gets or sets the number of columns to display on this level.
@@ -36,16 +40,4 @@ When this property is set to Vertical,
             When this property is set to Horizontal,
             nodes are displayed horizontally in rows from left to right, 
             then top to bottom, until all nodes are rendered.
-
-###  AlignRows `Boolean`
-
-Gets or sets the align rows.
-
-## Methods
-
-###  GetViewStateValue
-
-#### Returns
-
-`Telerik.Web.UI.T` 
 

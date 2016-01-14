@@ -17,15 +17,15 @@ This class defines the FilterExpression that inherits ExpressionBase by
 
 ## Properties
 
-###  LogicOperator `ODataSourceFilterLogic`
+###  DataModelID `String`
 
-Gets or sets the filter logic, AND or OR.
+Gets or sets the model id to whom this filters applies
 
 ###  FilterExpressionEntries `FilterEntryCollection`
 
 Gets the filter expression entries.
 
-###  DataModelID `String`
+###  LogicOperator `ODataSourceFilterLogic`
 
-Gets or sets the model id to whom this filters applies
+Gets or sets the filter logic, AND or OR.
 

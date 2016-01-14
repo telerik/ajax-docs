@@ -53,105 +53,53 @@ The RadToolBarItem to append to the end of the current
 
 `System.Void` 
 
-###  FindItemByText
+###  AddRange
 
-Searches the ToolBarItemCollection for the first
-                RadToolBarItem with a Text property equal to
-                the specified value.
-
-#### Remarks
-The method returns the first item matching the search criteria. This method is not recursive. If no item is
-            matching then null (Nothing in VB.NET) is
-            returned.
+Appends the specified array of RadToolBarItem objects
+            to the end of the current RadToolBarItemCollection.
 
 #### Parameters
 
-#### text `System.String`
+#### items `System.Collections.Generic.IEnumerable{Telerik.Web.UI.RadToolBarItem}`
 
-The value to search for.
+The array of RadToolBarItem objects to append to the end of the current 
+            	RadToolBarItemCollection.
 
 #### Returns
 
-`Telerik.Web.UI.RadToolBarItem` A RadToolBarItem which Text property is equal
-                to the specified value.
+`System.Void` 
 
-###  FindItemByValue
+###  Contains
 
-Searches the ToolBarItemCollection for the first button item
-                (RadToolBarButton or
-            	RadToolBarSplitButton) with a
-            	Value property equal
-                to the specified value.
-
-#### Remarks
-The method returns the first item matching the search criteria. This method is not recursive. If no item is
-            matching then null (Nothing in VB.NET) is
-            returned.
+Determines whether the specified RadToolBarItem object is in the current 
+            	RadToolBarItemCollection.
 
 #### Parameters
 
-#### value `System.String`
+#### item `Telerik.Web.UI.RadToolBarItem`
 
-The value to search for.
+The RadToolBarItem object to find.
 
 #### Returns
 
-`Telerik.Web.UI.RadToolBarItem` A button item which Value property is
-                equal to the specified value.
+`System.Boolean` true if the current collection contains the specified
+            	RadToolBarItem object; otherwise, false.
 
-###  FindItemByText
+###  FindItem
 
-Searches the ToolBarItemCollection for the first
-                RadToolBarItem with a Text property equal to
-                the specified value.
-
-#### Remarks
-The method returns the first item matching the search criteria. This method is not recursive. If no item is
-            matching then null (Nothing in VB.NET) is
-            returned.
+Returns  the first RadToolBarItem 
+            that matches the conditions defined by the specified predicate.
+            The predicate should returns a boolean value.
 
 #### Parameters
 
-#### text `System.String`
+#### match `System.Predicate{Telerik.Web.UI.RadToolBarItem}`
 
-The value to search for.
-
-#### ignoreCase `System.Boolean`
-
-A Boolean indicating a case-sensitive or insensitive comparison (true indicates a case-insensitive comparison).
+The Predicate <> that defines the conditions of the element to search for.
 
 #### Returns
 
-`Telerik.Web.UI.RadToolBarItem` A RadToolBarItem which Text property is equal
-                to the specified value.
-
-###  FindItemByValue
-
-Searches the ToolBarItemCollection for the first button item
-                (RadToolBarButton or
-            	RadToolBarSplitButton) with a
-            	Value property equal
-                to the specified value.
-
-#### Remarks
-The method returns the first item matching the search criteria. This method is not recursive. If no item is
-            matching then null (Nothing in VB.NET) is
-            returned.
-
-#### Parameters
-
-#### value `System.String`
-
-The value to search for.
-
-#### ignoreCase `System.Boolean`
-
-A Boolean indicating a case-sensitive or insensitive comparison (true indicates a case-insensitive comparison).
-
-#### Returns
-
-`Telerik.Web.UI.RadToolBarItem` A button item which Value property is
-                equal to the specified value.
+`Telerik.Web.UI.RadToolBarItem` 
 
 ###  FindItemByAttribute
 
@@ -174,53 +122,105 @@ The value of the target attribute
 
 `Telerik.Web.UI.RadToolBarItem` The RadToolBarItem that matches the specified arguments. Null (Nothing) is returned if no node is found.
 
-###  FindItem
+###  FindItemByText
 
-Returns  the first RadToolBarItem 
-            that matches the conditions defined by the specified predicate.
-            The predicate should returns a boolean value.
+Searches the ToolBarItemCollection for the first
+                RadToolBarItem with a Text property equal to
+                the specified value.
 
-#### Parameters
-
-#### match `System.Predicate{Telerik.Web.UI.RadToolBarItem}`
-
-The Predicate <> that defines the conditions of the element to search for.
-
-#### Returns
-
-`Telerik.Web.UI.RadToolBarItem` 
-
-###  Contains
-
-Determines whether the specified RadToolBarItem object is in the current 
-            	RadToolBarItemCollection.
+#### Remarks
+The method returns the first item matching the search criteria. This method is not recursive. If no item is
+            matching then null (Nothing in VB.NET) is
+            returned.
 
 #### Parameters
 
-#### item `Telerik.Web.UI.RadToolBarItem`
+#### text `System.String`
 
-The RadToolBarItem object to find.
+The value to search for.
 
 #### Returns
 
-`System.Boolean` true if the current collection contains the specified
-            	RadToolBarItem object; otherwise, false.
+`Telerik.Web.UI.RadToolBarItem` A RadToolBarItem which Text property is equal
+                to the specified value.
 
-###  AddRange
+###  FindItemByText
 
-Appends the specified array of RadToolBarItem objects
-            to the end of the current RadToolBarItemCollection.
+Searches the ToolBarItemCollection for the first
+                RadToolBarItem with a Text property equal to
+                the specified value.
+
+#### Remarks
+The method returns the first item matching the search criteria. This method is not recursive. If no item is
+            matching then null (Nothing in VB.NET) is
+            returned.
 
 #### Parameters
 
-#### items `System.Collections.Generic.IEnumerable{Telerik.Web.UI.RadToolBarItem}`
+#### text `System.String`
 
-The array of RadToolBarItem objects to append to the end of the current 
-            	RadToolBarItemCollection.
+The value to search for.
+
+#### ignoreCase `System.Boolean`
+
+A Boolean indicating a case-sensitive or insensitive comparison (true indicates a case-insensitive comparison).
 
 #### Returns
 
-`System.Void` 
+`Telerik.Web.UI.RadToolBarItem` A RadToolBarItem which Text property is equal
+                to the specified value.
+
+###  FindItemByValue
+
+Searches the ToolBarItemCollection for the first button item
+                (RadToolBarButton or
+            	RadToolBarSplitButton) with a
+            	Value property equal
+                to the specified value.
+
+#### Remarks
+The method returns the first item matching the search criteria. This method is not recursive. If no item is
+            matching then null (Nothing in VB.NET) is
+            returned.
+
+#### Parameters
+
+#### value `System.String`
+
+The value to search for.
+
+#### Returns
+
+`Telerik.Web.UI.RadToolBarItem` A button item which Value property is
+                equal to the specified value.
+
+###  FindItemByValue
+
+Searches the ToolBarItemCollection for the first button item
+                (RadToolBarButton or
+            	RadToolBarSplitButton) with a
+            	Value property equal
+                to the specified value.
+
+#### Remarks
+The method returns the first item matching the search criteria. This method is not recursive. If no item is
+            matching then null (Nothing in VB.NET) is
+            returned.
+
+#### Parameters
+
+#### value `System.String`
+
+The value to search for.
+
+#### ignoreCase `System.Boolean`
+
+A Boolean indicating a case-sensitive or insensitive comparison (true indicates a case-insensitive comparison).
+
+#### Returns
+
+`Telerik.Web.UI.RadToolBarItem` A button item which Value property is
+                equal to the specified value.
 
 ###  IndexOf
 

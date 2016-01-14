@@ -21,34 +21,22 @@ You can get a reference to this class using
 
 ## Properties
 
+###  CountPropertyName `String`
+
+Gets or set data property total records count for the SelectMethod in the WebService or Page which will be requested to get data and count. Default is "Count"!
+
+###  DataPropertyName `String`
+
+Gets or set data property name for the SelectMethod in the WebService or Page which will be requested to get data and count. Default is "Data"!
+
 ###  DataService `GridClientDataService`
 
 Gets a reference to  class providing properties
                 related to client-side ADO.NET DataService data-binding.
 
-###  Location `String`
+###  EnableCaching `Boolean`
 
-Gets or sets url for the WebService or Page which will be requested to get data.
-
-###  SelectMethod `String`
-
-Gets or sets method name in the WebService or Page which will be requested to get data.
-
-###  SelectCountMethod `String`
-
-Gets or sets method name in the WebService or Page which will be requested to get total records count.
-
-###  MaximumRowsParameterName `String`
-
-Gets or sets maximum rows parameter name for the SelectMethod in the WebService or Page which will be requested to get data.
-
-###  StartRowIndexParameterName `String`
-
-Gets or set start row index parameter name for the SelectMethod in the WebService or Page which will be requested to get data.
-
-###  SortParameterName `String`
-
-Gets or set sort parameter name for the SelectMethod in the WebService or Page which will be requested to get data.
+Gets or set a value indicating whether the client-side caching should be enabled or not.
 
 ###  FilterParameterName `String`
 
@@ -58,21 +46,13 @@ Gets or set filter parameter name for the SelectMethod in the WebService or Page
 
 Gets or set filter parameter type for the SelectMethod in the WebService or Page which will be requested to get data. Default value is List.
 
-###  SortParameterType `GridClientDataBindingParameterType`
+###  Location `String`
 
-Gets or set sort parameter type for the SelectMethod in the WebService or Page which will be requested to get data. Default value is List.
+Gets or sets url for the WebService or Page which will be requested to get data.
 
-###  EnableCaching `Boolean`
+###  MaximumRowsParameterName `String`
 
-Gets or set a value indicating whether the client-side caching should be enabled or not.
-
-###  DataPropertyName `String`
-
-Gets or set data property name for the SelectMethod in the WebService or Page which will be requested to get data and count. Default is "Data"!
-
-###  CountPropertyName `String`
-
-Gets or set data property total records count for the SelectMethod in the WebService or Page which will be requested to get data and count. Default is "Count"!
+Gets or sets maximum rows parameter name for the SelectMethod in the WebService or Page which will be requested to get data.
 
 ###  ResponseType `GridClientDataResponseType`
 
@@ -80,18 +60,28 @@ Gets or sets the type of the data requested from a data service. A value of
             GridClientDataResponseType.JSONP allows for cross-domain JSONP requests.
             Default value is GridClientDataResponseType.JSON.
 
+###  SelectCountMethod `String`
+
+Gets or sets method name in the WebService or Page which will be requested to get total records count.
+
+###  SelectMethod `String`
+
+Gets or sets method name in the WebService or Page which will be requested to get data.
+
 ###  ShowEmptyRowsOnLoad `Boolean`
 
 Gets or sets a value indicating whether empty data rows are shown in
              when client-side databinding is setup. Defalut value is true.
 
-###  IsSet `Boolean`
+###  SortParameterName `String`
 
-## Methods
+Gets or set sort parameter name for the SelectMethod in the WebService or Page which will be requested to get data.
 
-###  GetViewStateValue
+###  SortParameterType `GridClientDataBindingParameterType`
 
-#### Returns
+Gets or set sort parameter type for the SelectMethod in the WebService or Page which will be requested to get data. Default value is List.
 
-`Telerik.Web.UI.T` 
+###  StartRowIndexParameterName `String`
+
+Gets or set start row index parameter name for the SelectMethod in the WebService or Page which will be requested to get data.
 

@@ -16,11 +16,11 @@ Provides data for the E:Telerik.Web.UI.RadSearchBox.ButtonCommand event of the T
 
 ## Properties
 
-###  CommandName `String`
-
-Gets or sets the commandName of the button in the  control when the event is raised.
-
 ###  CommandArgument `String`
 
 Gets or sets the commandArgument of the referenced button in the  control when the event is raised.
+
+###  CommandName `String`
+
+Gets or sets the commandName of the button in the  control when the event is raised.
 

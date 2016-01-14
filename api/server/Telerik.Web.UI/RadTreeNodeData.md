@@ -20,17 +20,21 @@ For information about the role of each property see the
 
 ## Properties
 
-###  ExpandMode `TreeNodeExpandMode`
+###  Attributes `IDictionary`2`
 
-See RadTreeNode.ExpandMode.
+Custom attributes for the item to pass to the client.
 
-###  NavigateUrl `String`
+###  Checked `Boolean`
 
-See RadTreeNode.NavigateUrl.
+See RadTreeNode.Checked.
 
-###  PostBack `Boolean`
+###  ContentCssClass `String`
 
-See RadTreeNode.PostBack.
+See RadTreeNode.ContentCssClass.
+
+###  ContextMenuID `String`
+
+See RadTreeNode.ContextMenuID.
 
 ###  CssClass `String`
 
@@ -40,41 +44,45 @@ The CssClass of the RadTreeNode.
 
 See RadTreeNode.DisabledCssClass.
 
-###  SelectedCssClass `String`
-
-See RadTreeNode.SelectedCssClass.
-
-###  ContentCssClass `String`
-
-See RadTreeNode.ContentCssClass.
-
-###  HoveredCssClass `String`
-
-See RadTreeNode.HoveredCssClass.
-
-###  ImageUrl `String`
-
-See RadTreeNode.ImageUrl.
-
-###  HoveredImageUrl `String`
-
-See RadTreeNode.HoveredImageUrl.
-
 ###  DisabledImageUrl `String`
 
 See RadTreeNode.DisabledImageUrl.
+
+###  Enabled `Boolean`
+
+A value indicating if the item to pass to the client is enabled.
 
 ###  ExpandedImageUrl `String`
 
 See RadTreeNode.ExpandedImageUrl.
 
-###  ContextMenuID `String`
+###  ExpandMode `TreeNodeExpandMode`
 
-See RadTreeNode.ContextMenuID.
+See RadTreeNode.ExpandMode.
 
-###  Checked `Boolean`
+###  HoveredCssClass `String`
 
-See RadTreeNode.Checked.
+See RadTreeNode.HoveredCssClass.
+
+###  HoveredImageUrl `String`
+
+See RadTreeNode.HoveredImageUrl.
+
+###  ImageUrl `String`
+
+See RadTreeNode.ImageUrl.
+
+###  NavigateUrl `String`
+
+See RadTreeNode.NavigateUrl.
+
+###  PostBack `Boolean`
+
+See RadTreeNode.PostBack.
+
+###  SelectedCssClass `String`
+
+See RadTreeNode.SelectedCssClass.
 
 ###  Text `String`
 
@@ -83,12 +91,4 @@ Text for the item to pass to the client.
 ###  Value `String`
 
 Value for the item to pass to the client.
-
-###  Enabled `Boolean`
-
-A value indicating if the item to pass to the client is enabled.
-
-###  Attributes `IDictionary`2`
-
-Custom attributes for the item to pass to the client.
 

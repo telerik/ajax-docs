@@ -16,33 +16,33 @@ Fill settings
 
 ## Properties
 
-###  GradientMode `GradientFillStyle`
+###  BackgroundImage `String`
 
-Specifies the Linear gradient fill mode
-
-###  GradientAngle `Single`
-
-Specifies the Linear gradient fill angle
+Specifies the URL of Image file
 
 ###  ComplexGradient `ColorBlend`
 
 Specifies the blend colors for Gradient fill
 
+###  GradientAngle `Single`
+
+Specifies the Linear gradient fill angle
+
+###  GradientMode `GradientFillStyle`
+
+Specifies the Linear gradient fill mode
+
 ###  HatchStyle `HatchStyle`
 
 Specifies the style of hatch fill type
 
-###  ImageDrawMode `ImageDrawMode`
-
-Specifies how image should be drawing
-
-###  BackgroundImage `String`
-
-Specifies the URL of Image file
-
 ###  ImageAlign `ImageAlignModes`
 
 Specifies the Image align mode
+
+###  ImageDrawMode `ImageDrawMode`
+
+Specifies how image should be drawing
 
 ###  ImageFlip `ImageTileModes`
 
@@ -52,37 +52,15 @@ Specifies the image flip settings
 
 Gets property value by name
 
-###  ViewStateIgnoresCase `Boolean`
-
-Gets if view sate should ignore case
-
 ###  ViewState `StateBag`
 
 Sate bag to store view state content
 
+###  ViewStateIgnoresCase `Boolean`
+
+Gets if view sate should ignore case
+
 ## Methods
-
-###  Reset
-
-Reset to default values
-
-#### Returns
-
-`System.Void` 
-
-###  GetImage
-
-Get background image of chart
-
-#### Parameters
-
-#### chart `Telerik.Charting.Chart`
-
-Chart to get image
-
-#### Returns
-
-`System.Drawing.Image` Image from resources
 
 ###  Clone
 
@@ -91,6 +69,14 @@ Clone this object
 #### Returns
 
 `System.Object` New instance of FillSettings class with the same fields as this object.
+
+###  CloneState
+
+Makes a view state clone
+
+#### Returns
+
+`System.Web.UI.StateBag` StateBag
 
 ###  Equals
 
@@ -114,13 +100,19 @@ Gets hash code
 
 `System.Int32` Hash code
 
-###  TrackViewState
+###  GetImage
 
-Track ViewState
+Get background image of chart
+
+#### Parameters
+
+#### chart `Telerik.Charting.Chart`
+
+Chart to get image
 
 #### Returns
 
-`System.Void` 
+`System.Drawing.Image` Image from resources
 
 ###  LoadViewState
 
@@ -136,6 +128,28 @@ ViewState with data
 
 `System.Void` 
 
+###  LoadViewState
+
+Loads data from a view state
+
+#### Parameters
+
+#### state `System.Object`
+
+View state to load data from
+
+#### Returns
+
+`System.Void` 
+
+###  Reset
+
+Reset to default values
+
+#### Returns
+
+`System.Void` 
+
 ###  SaveViewState
 
 Save data to ViewState
@@ -143,6 +157,22 @@ Save data to ViewState
 #### Returns
 
 `System.Object` Saved data
+
+###  SaveViewState
+
+Saves object data to a view state
+
+#### Returns
+
+`System.Object` Saved view state object
+
+###  SetDirty
+
+Sets the item dirty state
+
+#### Returns
+
+`System.Void` 
 
 ###  Telerik.Charting.IChartingStateManager.LoadViewState
 
@@ -174,21 +204,13 @@ Tracks view state changes
 
 `System.Void` 
 
-###  CloneState
+###  TrackViewState
 
-Makes a view state clone
-
-#### Returns
-
-`System.Web.UI.StateBag` StateBag
-
-###  SaveViewState
-
-Saves object data to a view state
+Track ViewState
 
 #### Returns
 
-`System.Object` Saved view state object
+`System.Void` 
 
 ###  TrackViewState
 
@@ -197,34 +219,4 @@ Tracks view state changes
 #### Returns
 
 `System.Void` 
-
-###  LoadViewState
-
-Loads data from a view state
-
-#### Parameters
-
-#### state `System.Object`
-
-View state to load data from
-
-#### Returns
-
-`System.Void` 
-
-###  SetDirty
-
-Sets the item dirty state
-
-#### Returns
-
-`System.Void` 
-
-###  ToString
-
-ToString() override. Used in the properties grid to avoid object type showing.
-
-#### Returns
-
-`System.String` Empty string
 

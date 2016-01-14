@@ -15,6 +15,18 @@ A resource data class.
 
 ## Properties
 
+###  Attributes `IDictionary`2`
+
+Gets or sets the attributes.
+
+###  Available `Boolean`
+
+Gets or sets the available.
+
+###  EncodedKey `Object`
+
+Gets or sets the encoded key.
+
 ###  Key `Object`
 
 Gets or sets the key.
@@ -26,18 +38,6 @@ Gets or sets the text.
 ###  Type `String`
 
 Gets or sets the type.
-
-###  Available `Boolean`
-
-Gets or sets the available.
-
-###  EncodedKey `Object`
-
-Gets or sets the encoded key.
-
-###  Attributes `IDictionary`2`
-
-Gets or sets the attributes.
 
 ## Methods
 

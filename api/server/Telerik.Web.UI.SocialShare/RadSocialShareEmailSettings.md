@@ -20,6 +20,10 @@ The class that is used to set the e-mail settings for the SendEmail button.
 
 Get/Set the email address which sends the mail message.
 
+###  Password `String`
+
+Get/Set the password for network credentials.
+
 ###  SMTPServer `String`
 
 Get/Set the SMTP server.
@@ -27,8 +31,4 @@ Get/Set the SMTP server.
 ###  UserName `String`
 
 Get/Set the user name for network credentials.
-
-###  Password `String`
-
-Get/Set the password for network credentials.
 

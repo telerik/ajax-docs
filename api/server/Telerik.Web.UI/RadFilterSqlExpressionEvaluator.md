@@ -28,21 +28,6 @@ Gets\sets a delegate that will be called after every expression evaluation.
 
 ## Methods
 
-###  GetEvaluator
-
-Based on a passed RadFilterFunction object returns a specific RadFilterSqlExpressionEvaluator object.
-
-#### Parameters
-
-#### function `Telerik.Web.UI.RadFilterFunction`
-
-A RadFilterFunction instance representing the current filter function.
-
-#### Returns
-
-`Telerik.Web.UI.RadFilterSqlExpressionEvaluator` A RadFilterSqlEvaluator inherited object representing a specific evaluator, based on the 
-            provided function.
-
 ###  Evaluate
 
 Evaluates the passes expression
@@ -72,4 +57,19 @@ A RadFilterNonGroupExpression object representing the expression
 #### Returns
 
 `Telerik.Web.UI.RadFilterEvaluationData` The evaluation data for the expression.
+
+###  GetEvaluator
+
+Based on a passed RadFilterFunction object returns a specific RadFilterSqlExpressionEvaluator object.
+
+#### Parameters
+
+#### function `Telerik.Web.UI.RadFilterFunction`
+
+A RadFilterFunction instance representing the current filter function.
+
+#### Returns
+
+`Telerik.Web.UI.RadFilterSqlExpressionEvaluator` A RadFilterSqlEvaluator inherited object representing a specific evaluator, based on the 
+            provided function.
 

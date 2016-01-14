@@ -15,6 +15,10 @@ Border styles collection
 
 ## Properties
 
+###  Count `Int32`
+
+Gets the number of elements contained in the ICollection. (Inherited from ICollection.)
+
 ###  IsFixedSize `Boolean`
 
 Gets a value indicating whether the collection has a fixed size.
@@ -23,17 +27,13 @@ Gets a value indicating whether the collection has a fixed size.
 
 Gets a value indicating whether the collection is read-only.
 
-###  Item `BorderStyles`
-
-Gets/sets the BorderStyles element at a given position
-
-###  Count `Int32`
-
-Gets the number of elements contained in the ICollection. (Inherited from ICollection.)
-
 ###  IsSynchronized `Boolean`
 
 Gets a value indicating whether access to the ICollection is synchronized (thread safe). (Inherited from ICollection.)
+
+###  Item `BorderStyles`
+
+Gets/sets the BorderStyles element at a given position
 
 ###  SyncRoot `Object`
 
@@ -76,6 +76,32 @@ The object to locate in the collection.
 #### Returns
 
 `System.Boolean` true if the element is found in the collection; otherwise, false.
+
+###  CopyTo
+
+Copies the elements of the ICollection to an Array, starting at a particular Array index. (Inherited from ICollection.)
+
+#### Parameters
+
+#### array `Telerik.Web.UI.GridExcelBuilder.BorderStyles`
+
+The one-dimensional Array that is the destination of the elements copied from ICollection. The Array must have zero-based indexing.
+
+#### index `System.Int32`
+
+The zero-based index in array at which copying begins.
+
+#### Returns
+
+`System.Void` 
+
+###  GetEnumerator
+
+Returns an enumerator that iterates through a collection. (Inherited from IEnumerable.)
+
+#### Returns
+
+`System.Collections.IEnumerator` 
 
 ###  IndexOf
 
@@ -136,30 +162,4 @@ The zero-based index of the item to remove.
 #### Returns
 
 `System.Void` 
-
-###  CopyTo
-
-Copies the elements of the ICollection to an Array, starting at a particular Array index. (Inherited from ICollection.)
-
-#### Parameters
-
-#### array `Telerik.Web.UI.GridExcelBuilder.BorderStyles`
-
-The one-dimensional Array that is the destination of the elements copied from ICollection. The Array must have zero-based indexing.
-
-#### index `System.Int32`
-
-The zero-based index in array at which copying begins.
-
-#### Returns
-
-`System.Void` 
-
-###  GetEnumerator
-
-Returns an enumerator that iterates through a collection. (Inherited from IEnumerable.)
-
-#### Returns
-
-`System.Collections.IEnumerator` 
 

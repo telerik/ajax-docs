@@ -20,10 +20,6 @@ The default configuration for bubble layers.
 
 The attribution for all bubble layers.
 
-###  Opacity `Double`
-
-The the opacity of all bubble layers.
-
 ###  MaxSize `Double`
 
 The maximum symbol size for bubble layer symbols.
@@ -31,6 +27,10 @@ The maximum symbol size for bubble layer symbols.
 ###  MinSize `Double`
 
 The minimum symbol size for bubble layer symbols.
+
+###  Opacity `Double`
+
+The the opacity of all bubble layers.
 
 ###  StyleSettings `Style`
 

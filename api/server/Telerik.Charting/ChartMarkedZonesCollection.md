@@ -16,37 +16,37 @@ Marked zones collection
 
 ## Properties
 
-###  Parent `ChartPlotArea`
+###  Count `Int32`
 
-Parent element
-
-###  Item `ChartMarkedZone`
-
-Gets or sets a GridMarker at the specific position in GridMarkers collection.
-
-###  List `IList`1`
-
-Items list
+Gets items count in collection
 
 ###  First `T`
 
 Link to first item in collection
 
-###  Last `T`
+###  IsReadOnly `Boolean`
 
-Link to last item in collection
+Gets true if collection is read-only
+
+###  Item `ChartMarkedZone`
+
+Gets or sets a GridMarker at the specific position in GridMarkers collection.
 
 ###  Item `T`
 
 Gets the collection item at given index
 
-###  Count `Int32`
+###  Last `T`
 
-Gets items count in collection
+Link to last item in collection
 
-###  IsReadOnly `Boolean`
+###  List `IList`1`
 
-Gets true if collection is read-only
+Items list
+
+###  Parent `ChartPlotArea`
+
+Parent element
 
 ## Methods
 
@@ -59,106 +59,6 @@ Add MarkerZone in the collection
 #### item `Telerik.Charting.ChartMarkedZone`
 
 GridMarker for adding
-
-#### Returns
-
-`System.Void` 
-
-###  Clear
-
-Clear collection
-
-#### Returns
-
-`System.Void` 
-
-###  Insert
-
-Insert GridMarker in collection at the specific position
-
-#### Parameters
-
-#### index `System.Int32`
-
-Position
-
-#### item `Telerik.Charting.ChartMarkedZone`
-
-GridMarker
-
-#### Returns
-
-`System.Void` 
-
-###  Remove
-
-Remove GridMarker from collection
-
-#### Parameters
-
-#### item `Telerik.Charting.ChartMarkedZone`
-
-GridMarker
-
-#### Returns
-
-`System.Boolean` 
-
-###  RemoveAt
-
-Remove GridMarker in the specific position from collection
-
-#### Parameters
-
-#### index `System.Int32`
-
-Position
-
-#### Returns
-
-`System.Void` 
-
-###  IndexOf
-
-Item index in collection
-
-#### Parameters
-
-#### item ``0`
-
-Item to get index of
-
-#### Returns
-
-`System.Int32` Index
-
-###  Insert
-
-Inserts item at the given index
-
-#### Parameters
-
-#### index `System.Int32`
-
-Index
-
-#### item ``0`
-
-Item to insert
-
-#### Returns
-
-`System.Void` 
-
-###  RemoveAt
-
-Removes item from collection at given index
-
-#### Parameters
-
-#### index `System.Int32`
-
-Index to remove at
 
 #### Returns
 
@@ -187,6 +87,14 @@ Adds items range in collection
 #### itemsToAdd ``0`
 
 Items array to add
+
+#### Returns
+
+`System.Void` 
+
+###  Clear
+
+Clear collection
 
 #### Returns
 
@@ -233,20 +141,6 @@ The zero-based index in array at which copying begins
 
 `System.Void` 
 
-###  Remove
-
-Removes item from collection
-
-#### Parameters
-
-#### item ``0`
-
-Item to remove
-
-#### Returns
-
-`System.Boolean` True in case of success
-
 ###  GetEnumerator
 
 Returns an enumerator that iterates through the System.Collections.Generic.List>T<.
@@ -254,6 +148,56 @@ Returns an enumerator that iterates through the System.Collections.Generic.List>
 #### Returns
 
 `System.Collections.Generic.IEnumerator`1` A System.Collections.Generic.List>T<.Enumerator for the System.Collections.Generic.List>T<.
+
+###  IndexOf
+
+Item index in collection
+
+#### Parameters
+
+#### item ``0`
+
+Item to get index of
+
+#### Returns
+
+`System.Int32` Index
+
+###  Insert
+
+Insert GridMarker in collection at the specific position
+
+#### Parameters
+
+#### index `System.Int32`
+
+Position
+
+#### item `Telerik.Charting.ChartMarkedZone`
+
+GridMarker
+
+#### Returns
+
+`System.Void` 
+
+###  Insert
+
+Inserts item at the given index
+
+#### Parameters
+
+#### index `System.Int32`
+
+Index
+
+#### item ``0`
+
+Item to insert
+
+#### Returns
+
+`System.Void` 
 
 ###  LoadViewState
 
@@ -269,31 +213,17 @@ View state to load from
 
 `System.Void` 
 
-###  SaveViewState
+###  OnClear
 
-Saves collection to a view state
-
-#### Returns
-
-`System.Object` Saved state bag object
-
-###  SetDirty
-
-Sets is item in the dirty state
+Before collection clearing event
 
 #### Returns
 
 `System.Void` 
 
-###  SetItemDirty
+###  OnClearComplete
 
-Marks collection item dirty
-
-#### Parameters
-
-#### item ``0`
-
-Item to mark
+Collection after clean event
 
 #### Returns
 
@@ -371,22 +301,6 @@ Value to insert
 
 `System.Void` 
 
-###  OnClear
-
-Before collection clearing event
-
-#### Returns
-
-`System.Void` 
-
-###  OnClearComplete
-
-Collection after clean event
-
-#### Returns
-
-`System.Void` 
-
 ###  PopulateFromXml
 
 Populates collection from XML element
@@ -401,11 +315,89 @@ XmlElement to import from
 
 `System.Void` 
 
-###  ToString
+###  Remove
 
-ToString() override. Used in the properties grid to avoid object type showing.
+Remove GridMarker from collection
+
+#### Parameters
+
+#### item `Telerik.Charting.ChartMarkedZone`
+
+GridMarker
 
 #### Returns
 
-`System.String` Empty string
+`System.Boolean` 
+
+###  Remove
+
+Removes item from collection
+
+#### Parameters
+
+#### item ``0`
+
+Item to remove
+
+#### Returns
+
+`System.Boolean` True in case of success
+
+###  RemoveAt
+
+Remove GridMarker in the specific position from collection
+
+#### Parameters
+
+#### index `System.Int32`
+
+Position
+
+#### Returns
+
+`System.Void` 
+
+###  RemoveAt
+
+Removes item from collection at given index
+
+#### Parameters
+
+#### index `System.Int32`
+
+Index to remove at
+
+#### Returns
+
+`System.Void` 
+
+###  SaveViewState
+
+Saves collection to a view state
+
+#### Returns
+
+`System.Object` Saved state bag object
+
+###  SetDirty
+
+Sets is item in the dirty state
+
+#### Returns
+
+`System.Void` 
+
+###  SetItemDirty
+
+Marks collection item dirty
+
+#### Parameters
+
+#### item ``0`
+
+Item to mark
+
+#### Returns
+
+`System.Void` 
 

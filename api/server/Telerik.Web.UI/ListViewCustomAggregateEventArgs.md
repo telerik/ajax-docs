@@ -18,6 +18,10 @@ The event arguments passed when Telerik.Web.UI.RadListView fires CustomAggregate
 
 ## Properties
 
+###  DataField `IEnumerable`
+
+Gets the data field for which the aggregate should be calculated.
+
 ###  DataGroup `ListViewDataGroup`
 
 Gets the  in which the aggregate will be placed.
@@ -25,10 +29,6 @@ Gets the  in which the aggregate will be placed.
 ###  DataItems `IEnumerable`
 
 Gets an  of the data items for which the aggregate should be calcuated
-
-###  DataField `IEnumerable`
-
-Gets the data field for which the aggregate should be calculated.
 
 ###  Result `Object`
 

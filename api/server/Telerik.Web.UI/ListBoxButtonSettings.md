@@ -16,14 +16,6 @@ Represents the settings of the buttons in a Telerik.Web.UI.RadListBox controls.
 
 ## Properties
 
-###  AreaWidth `Unit`
-
-Gets or sets the width of the button area.
-
-#### Remarks
-The AreaWidth property is taken into consideration only if the  property is set to  or 
-            . If not the button area is as wide as the listbox control.
-
 ###  AreaHeight `Unit`
 
 Gets or sets the height of the button area.
@@ -32,13 +24,13 @@ Gets or sets the height of the button area.
 The AreaWidth property is taken into consideration only if the  property is set to  or 
             . If not the button area is as tall as the listbox control.
 
-###  Position `ListBoxButtonPosition`
+###  AreaWidth `Unit`
 
-Gets or sets the position of the buttons.
+Gets or sets the width of the button area.
 
-###  RenderButtonText `Boolean`
-
-When set to true enables render text on buttons functionality
+#### Remarks
+The AreaWidth property is taken into consideration only if the  property is set to  or 
+            . If not the button area is as wide as the listbox control.
 
 ###  HorizontalAlign `ListBoxHorizontalAlign`
 
@@ -48,13 +40,21 @@ Gets or sets the horizontal align of the buttons within the button area.
 The HorizontalAlign property is taken into consideration only if the  property is set to  or 
             .
 
-###  VerticalAlign `ListBoxVerticalAlign`
+###  Position `ListBoxButtonPosition`
 
-Gets or sets the vertical align of the buttons in the within the button area.
+Gets or sets the position of the buttons.
+
+###  RenderButtonText `Boolean`
+
+When set to true enables render text on buttons functionality
+
+###  ReorderButtons `ListBoxReorderButtons`
+
+Gets or sets a value that specifies which reorder buttons should be rendered.
 
 #### Remarks
-The VerticalAlign property is taken into consideration only if the  property is set to  or 
-            .
+A value that specifies which reorder buttons should be rendered. Members might be
+            combined using bitwise operators allowing for custom configurations.
 
 ###  ShowDelete `Boolean`
 
@@ -88,14 +88,6 @@ Gets or sets a value indicating whether to display the "transfer all" buttons.
 RadListBox displays the "transfer all" buttons when the  and 
             	properties are both set to true.
 
-###  ReorderButtons `ListBoxReorderButtons`
-
-Gets or sets a value that specifies which reorder buttons should be rendered.
-
-#### Remarks
-A value that specifies which reorder buttons should be rendered. Members might be
-            combined using bitwise operators allowing for custom configurations.
-
 ###  TransferButtons `ListBoxTransferButtons`
 
 Gets or sets a value that specifies which transfer buttons should be rendered.
@@ -104,11 +96,11 @@ Gets or sets a value that specifies which transfer buttons should be rendered.
 A value that specifies which transfer buttons should be rendered. Members might be
             combined using bitwise operators allowing for custom configurations.
 
-## Methods
+###  VerticalAlign `ListBoxVerticalAlign`
 
-###  GetViewStateValue
+Gets or sets the vertical align of the buttons in the within the button area.
 
-#### Returns
-
-`Telerik.Web.UI.T` 
+#### Remarks
+The VerticalAlign property is taken into consideration only if the  property is set to  or 
+            .
 

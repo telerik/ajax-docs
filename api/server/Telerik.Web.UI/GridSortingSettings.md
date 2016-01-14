@@ -17,35 +17,27 @@ Holds miscellaneous properties related to sorting like the localization
 
 ## Properties
 
-###  SortToolTip `String`
+###  EnableSkinSortStyles `Boolean`
 
-Gets or sets the tooltip that will be displayed when you hover the sorting button
-            and there is no sorting applied.
+Defines whether a predefined CssClass will be applied to the sorted column's cells
+            Default value is True
 
 ###  SortedAscToolTip `String`
 
 Gets or sets the tooltip that will be displayed when you hover the sorting button
             and the column is sorted ascending.
 
+###  SortedBackColor `Color`
+
+Gets or sets the background color of a sorted cell.
+
 ###  SortedDescToolTip `String`
 
 Gets or sets the tooltip that will be displayed when you hover the sorting button
             and the column is sorted descending.
 
-###  SortedBackColor `Color`
+###  SortToolTip `String`
 
-Gets or sets the background color of a sorted cell.
-
-###  EnableSkinSortStyles `Boolean`
-
-Defines whether a predefined CssClass will be applied to the sorted column's cells
-            Default value is True
-
-## Methods
-
-###  GetViewStateValue
-
-#### Returns
-
-`Telerik.Web.UI.T` 
+Gets or sets the tooltip that will be displayed when you hover the sorting button
+            and there is no sorting applied.
 

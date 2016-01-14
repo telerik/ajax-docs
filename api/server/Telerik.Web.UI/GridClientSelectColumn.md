@@ -26,50 +26,23 @@ If you choose AllowMultiRowSelection = truefor the grid, a
 
 ## Properties
 
-###  Selectable `Boolean`
+###  AndCurrentFilterFunction `GridKnownFunction`
 
-Gets the value determining if the column is selectable.
+Gets or sets the current second filter condition function.
 
-###  ConfirmTitle `String`
+###  AndCurrentFilterValue `String`
 
-###  ButtonType `GridButtonColumnType`
+Gets or sets a value of the currently applied second filter condition value.
+
+###  AutoPostBackOnFilter `Boolean`
+
+Gets or sets a value indicating whether the grid should automatically postback,
+            when the value in the filter text-box changes, and the the focus moves to another
+            element.
 
 ###  ButtonCssClass `String`
 
-###  ConfirmDialogType `GridConfirmDialogType`
-
-###  ConfirmDialogWidth `Unit`
-
-###  ConfirmDialogHeight `Unit`
-
-###  CommandName `String`
-
-###  CommandArgument `String`
-
-###  DataTextField `String`
-
-###  DataTextFormatString `String`
-
-###  Text `String`
-
-###  ImageUrl `String`
-
-###  ConfirmText `String`
-
-###  ConfirmTextFormatString `String`
-
-###  ConfirmTextFields `String`
-
-###  ShowInEditForm `Boolean`
-
-###  Selectable `Boolean`
-
-Gets the value determining if the column is selectable.
-
-###  ConfirmTitle `String`
-
-Gets or sets the title that will be shown on the RadWindow confirmation dialog when a button
-            in this column is clicked.
+Gets or sets the CssClass of the button
 
 ###  ButtonType `GridButtonColumnType`
 
@@ -81,21 +54,18 @@ Gets or sets a value indicating the type of the button that will be rendered. Th
 LinkButtonRenders a standard hyperlink button.PushButtonRenders a standard button.ImageButtonRenders an image that acts like a
             button.
 
-###  ButtonCssClass `String`
+###  ColumnType `String`
 
-Gets or sets the CssClass of the button
+Gets the string representation of the type-name of this instance. The value is
+            used by RadGrid to determine the type of the columns persisted into the ViewState, when
+            recreating the grid after postback. The value is also used by the grid client-side
+            object. This property is read only.
 
-###  ConfirmDialogType `GridConfirmDialogType`
+###  CommandArgument `String`
 
-Gets or sets what kind of confirm dialog will be used in a .
-
-###  ConfirmDialogWidth `Unit`
-
-Gets or sets the width of the Confirm Dialog (if it is a RadWindow)
-
-###  ConfirmDialogHeight `Unit`
-
-Gets or sets the height of the Confirm Dialog (if it is a RadWindow)
+Gets or sets an optional parameter passed to the Command event along with the
+            associated
+            CommandName.
 
 ###  CommandName `String`
 
@@ -121,11 +91,45 @@ Fired By controls within DataItems - showing and
             must be the DataField name for the DataField to be
             sorted.
 
-###  CommandArgument `String`
+###  ConfirmDialogHeight `Unit`
 
-Gets or sets an optional parameter passed to the Command event along with the
-            associated
-            CommandName.
+Gets or sets the height of the Confirm Dialog (if it is a RadWindow)
+
+###  ConfirmDialogType `GridConfirmDialogType`
+
+Gets or sets what kind of confirm dialog will be used in a .
+
+###  ConfirmDialogWidth `Unit`
+
+Gets or sets the width of the Confirm Dialog (if it is a RadWindow)
+
+###  ConfirmText `String`
+
+Gets or sets the text that will be shown on the confirmation dialog when a button
+            in this column is clicked. The prompt is automatically enabled when this property is
+            set.
+
+###  ConfirmTextFields `String`
+
+Gets or sets a string, representing a comma-separated enumeration of DataFields
+            from the data source, which will be applied to the formatting specified in the ConfirmTextFormatString property.
+
+###  ConfirmTextFormatString `String`
+
+Gets or sets a string, specifying the FormatString of the ConfirmText.
+
+###  ConfirmTitle `String`
+
+Gets or sets the title that will be shown on the RadWindow confirmation dialog when a button
+            in this column is clicked.
+
+###  CurrentFilterFunction `GridKnownFunction`
+
+Gets or sets the current function used for filtering.
+
+###  CurrentFilterValue `String`
+
+Gets or sets a value of the currently applied filter.
 
 ###  DataTextField `String`
 
@@ -158,140 +162,80 @@ Use the DataTextFormatString property to provide a custom
                 string must be enclosed in braces to indicate that it is a format string and not a
                 literal string. Any text outside the braces is displayed as literal text.
 
-###  Text `String`
+###  DataType `Type`
 
-Gets or sets a value indicating the text that will be shown for a button.
+Gets or sets (see the Remarks) the type of the data from the DataField as it
+                was set in the DataSource.
 
-###  ImageUrl `String`
+#### Remarks
+The DataType property supports the following base .NET Framework data
+                types:BooleanByteCharDateTimeDecimalDoubleInt16Int32Int64SByteSingleStringTimeSpanUInt16UInt32UInt64
 
-Gets or sets a value indicating the URL for the image that will be used in a
-            Image button.  should be set to
-            ImageButton.
+###  DataTypeName `String`
 
-###  ConfirmText `String`
+Gets the string representation of the DataType property of the
+            column, needed for the client-side grid instance.
 
-Gets or sets the text that will be shown on the confirmation dialog when a button
-            in this column is clicked. The prompt is automatically enabled when this property is
-            set.
+###  Display `Boolean`
 
-###  ConfirmTextFormatString `String`
+Gets or sets a value indicating whether the cells corresponding to a column would be rendered with a 'display:none' style attribute (end-user-not-visible).
+            To completely prevent cells from rendering, set the  property to false, instead of the Display property.
 
-Gets or sets a string, specifying the FormatString of the ConfirmText.
+###  EditFormColumnIndex `Int32`
 
-###  ConfirmTextFields `String`
+Specifies the vertical collumn number where this column will appear when
+                using EditForms editing mode and the form is autogenerated. See the remarks for
+                details.
 
-Gets or sets a string, representing a comma-separated enumeration of DataFields
-            from the data source, which will be applied to the formatting specified in the ConfirmTextFormatString property.
+#### Remarks
+A practicle example of using this property is to deterimine the number of
+                columns rendered in the edit form. If there will be only one column in the rendered
+                edit form, when we retrieve the value of this property for a column, as shown in
+                the code below:protected void RadGrid1_PreRender(object sender, EventArgs e)    {int columnIndex = RadGrid1.MasterTableView.Columns[3].EditFormColumnIndex;    }it will be equal to 0, meaning the the column belongs to the first group of
+                columns in the edit form.
 
-###  Groupable `Boolean`
+###  EditFormHeaderTextFormat `String`
 
-###  GroupByExpression `String`
+String that formats the HeaderText when the column is displayed in an edit form
 
-###  IsEditable `Boolean`
+###  Exportable `Boolean`
 
-Gets the status of  property.
+Determines whether the given column will be shown in the exported file
 
-###  ShowInEditForm `Boolean`
+###  FilterCheckListEnableLoadOnDemand `Boolean`
 
-If the corresponding  is in edit mode
-                     specifies whether this column will
-                    render an Enabled=true button control, when the corresponding item is edit
-                    mode.
+Get or Set if the Filter Check List will load data on demand from server.
 
-###  CurrentFilterFunction `GridKnownFunction`
+###  FilterCheckListWebServiceMethod `String`
 
-###  AndCurrentFilterFunction `GridKnownFunction`
-
-###  CurrentFilterValue `String`
-
-###  AndCurrentFilterValue `String`
-
-###  AutoPostBackOnFilter `Boolean`
+Get or Set the Methood from CheckListWebServicePath Web Service defined in the TableView,
+            that to be used for getting data for the filter check list
 
 ###  FilterControlAltText `String`
 
+Gets or Sets the text value which should be added to alt attribute of the filter control
+
 ###  FilterControlToolTip `String`
+
+Gets or sets the filter control ToolTip property value.
 
 ###  FilterControlWidth `Unit`
 
-###  FilterDelay `Nullable`1`
-
-###  FilterImageToolTip `String`
-
-###  FilterImageUrl `String`
-
-###  FilterListOptions `GridFilterListOptions`
-
-###  ShowFilterIcon `Boolean`
-
-###  ShowSortIcon `Boolean`
-
-###  SortAscImageUrl `String`
-
-###  SortDescImageUrl `String`
-
-###  SortedBackColor `Color`
-
-###  SortExpression `String`
-
-###  HeaderButtonType `GridButtonColumnType`
-
-###  HeaderTooltip `String`
-
-Gets or sets the header tooltip of the column.
-
-###  HeaderAbbr `String`
-
-Gets or sets the column cell 'abbr' attribute.
-
-###  HeaderAxis `String`
-
-Gets or sets the column cell 'axis' attribute.
-
-###  SortedBackColor `Color`
-
-Gets or sets the color of a cell which is sorted.
-
-###  CurrentFilterValue `String`
-
-Gets or sets a value of the currently applied filter.
-
-###  AndCurrentFilterValue `String`
-
-Gets or sets a value of the currently applied second filter condition value.
-
-###  Selected `Boolean`
-
-Indicates whether all column cells have been selected
-
-###  Selectable `Boolean`
-
-Gets the value determining if the column is selectable.
-
-###  Sortable `Boolean`
-
-Should override if sorting will be disabled
-
-###  CurrentFilterFunction `GridKnownFunction`
-
-Gets or sets the current function used for filtering.
-
-###  AndCurrentFilterFunction `GridKnownFunction`
-
-Gets or sets the current second filter condition function.
+Use this property to set width to the filtering control (depending on the column type, this may be a normal textbox, RadNumericTextBox, RadDatePicker, etc.)
 
 ###  FilterDelay `Nullable`1`
 
 Gets or sets the filter delay which determines after how many milliseconds a 
             filtering will occur after a filter value have changed.
 
-###  Exportable `Boolean`
+###  FilterImageToolTip `String`
 
-Determines whether the given column will be shown in the exported file
+Gets or sets the filter image tool tip.
 
-###  ShowFilterIcon `Boolean`
+###  FilterImageUrl `String`
 
-Gets or sets if the filter icon in the  will be visible.
+Gets or sets a string representing the URL to the image used in the filtering
+            box.
 
 ###  FilterListOptions `GridFilterListOptions`
 
@@ -299,51 +243,9 @@ Gets or sets the value indincating which of the filter functions should be
             available for that column. For more information see
              enumaration.
 
-###  AutoPostBackOnFilter `Boolean`
-
-Gets or sets a value indicating whether the grid should automatically postback,
-            when the value in the filter text-box changes, and the the focus moves to another
-            element.
-
-###  FilterImageToolTip `String`
-
-Gets or sets the filter image tool tip.
-
-###  FilterControlToolTip `String`
-
-Gets or sets the filter control ToolTip property value.
-
-###  FilterImageUrl `String`
-
-Gets or sets a string representing the URL to the image used in the filtering
-            box.
-
-###  SortAscImageUrl `String`
-
-Gets or sets a string representing the URL to the image used for sorting in
-            ascending mode.
-
-###  SortDescImageUrl `String`
-
-Gets or sets a string representing the URL to the image used for sorting in
-            descending mode.
-
-###  DataTypeName `String`
-
-Gets the string representation of the DataType property of the
-            column, needed for the client-side grid instance.
-
-###  ListOfFilterValues `String[]`
-
-Access the valus passed from the ListBox used for CheckList in the filter.
-
 ###  FilterTemplate `ITemplate`
 
 Gets or sets the template, which will be rendered in the filter item cell of the column.
-
-###  RowSpan `Int32`
-
-For internal use. Gets or sets the row span of the grid column.
 
 ###  FooterStyle `TableItemStyle`
 
@@ -353,6 +255,41 @@ Style of the cell in the footer item of the grid, corresponding to the column.
 
 Use the FooterText property to specify your own or determine the current
             text for the footer section of the column.
+
+###  Groupable `Boolean`
+
+Gets or sets a value indicating whether you will be able to group
+            Telerik RadGrid by that column. By default this property is
+            true.
+
+#### Remarks
+See Telerik RadGrid manual for details about using grouping. If
+            Groupable is false the column header cannot be dragged to the
+            GroupPanel.
+
+###  GroupByExpression `String`
+
+The group-expression that should be used when grid is grouping-by this column. If
+            not set explicitly, RadGrid will generate a group expression based on the DataField of
+            the column (if available), using the 
+            method.The grouping can be turned on/off for columns like GridBoundColumn using
+             property.For more information about the Group-By expressions and their syntax, see
+             class.
+
+###  HeaderAbbr `String`
+
+Gets or sets the column cell 'abbr' attribute.
+
+###  HeaderAxis `String`
+
+Gets or sets the column cell 'axis' attribute.
+
+###  HeaderButtonType `GridHeaderButtonType`
+
+Gets or sets the button type of the button rendered in the header item, used
+                for sorting. The possible values that this property accepts are:Telerik.Web.UI.GridHeaderButtonType.LinkButton
+                Telerik.Web.UI.GridHeaderButtonType.PushButton
+                Telerik.Web.UI.GridHeaderButtonType.TextButton
 
 ###  HeaderImageUrl `String`
 
@@ -368,84 +305,34 @@ Style of the cell in the header item of the grid, corresponding to the column.
 Use the HeaderText property to specify your own or determine the current
             text for the header section of the column.
 
+###  HeaderTooltip `String`
+
+Gets or sets the header tooltip of the column.
+
+###  ImageUrl `String`
+
+Gets or sets a value indicating the URL for the image that will be used in a
+            Image button.  should be set to
+            ImageButton.
+
+###  IsEditable `Boolean`
+
+Gets the status of  property.
+
+###  IsEditable `Boolean`
+
+This property is supposed for developers of new grid columns. It gets whether
+                a column is currently ReadOnly. The ReadOnly property determines whether a column
+                will be editable in edit mode. A column for which the ReadOnly property is true
+                will not be present in the automatically generated edit form.
+
 ###  ItemStyle `TableItemStyle`
 
 Style of the cells, corresponding to the column.
 
-###  Owner `GridTableView`
+###  ListOfFilterValues `String[]`
 
-Gets the instance of the GridTableVeiw wich owns this column instance.
-
-###  SortExpression `String`
-
-The string representing a filed-name from the DataSource that should be used when grid sorts by this column. For example:
-            'EmployeeName'
-
-###  GroupByExpression `String`
-
-The group-expression that should be used when grid is grouping-by this column. If
-            not set explicitly, RadGrid will generate a group expression based on the DataField of
-            the column (if available), using the 
-            method.The grouping can be turned on/off for columns like GridBoundColumn using
-             property.For more information about the Group-By expressions and their syntax, see
-             class.
-
-###  ShowSortIcon `Boolean`
-
-Get or Sets a value indicating whether a sort icon should appear next to the
-            header button, when a column is sorted.
-
-###  Visible `Boolean`
-
-Gets or sets a value indicating if the column and all corresponding cells would be rendered.
-
-###  Display `Boolean`
-
-Gets or sets a value indicating whether the cells corresponding to a column would be rendered with a 'display:none' style attribute (end-user-not-visible).
-            To completely prevent cells from rendering, set the  property to false, instead of the Display property.
-
-###  OwnerID `GridTableView`
-
-Gets the value of the ClientID property of the GridTableView that owns this column. This property value is used by grid's client object
-
-###  OwnerGridID `GridTableView`
-
-Gets the value of the ClientID property of the RadGrid instance that owns this column. This property value is used by grid's client object
-
-###  Resizable `Boolean`
-
-Gets or sets a value indicating whether the column can be resized client-side.
-            You can use this property, by setting it to false, to disable resizing for a particular
-            column, while preserving this functionality for all the other columns.
-
-###  Reorderable `Boolean`
-
-Gets or sets a value indicating whether the column can be reordered client-side.
-
-###  Groupable `Boolean`
-
-Gets or sets a value indicating whether you will be able to group
-            Telerik RadGrid by that column. By default this property is
-            true.
-
-#### Remarks
-See Telerik RadGrid manual for details about using grouping. If
-            Groupable is false the column header cannot be dragged to the
-            GroupPanel.
-
-###  ColumnType `String`
-
-Gets the string representation of the type-name of this instance. The value is
-            used by RadGrid to determine the type of the columns persisted into the ViewState, when
-            recreating the grid after postback. The value is also used by the grid client-side
-            object. This property is read only.
-
-###  HeaderButtonType `GridHeaderButtonType`
-
-Gets or sets the button type of the button rendered in the header item, used
-                for sorting. The possible values that this property accepts are:Telerik.Web.UI.GridHeaderButtonType.LinkButton
-                Telerik.Web.UI.GridHeaderButtonType.PushButton
-                Telerik.Web.UI.GridHeaderButtonType.TextButton
+Access the valus passed from the ListBox used for CheckList in the filter.
 
 ###  OrderIndex `Int32`
 
@@ -462,25 +349,90 @@ We recommend using this property only for getting the order index for a
                     The value of the property would not affect the order of the column in the
                      collection.
 
-###  IsEditable `Boolean`
+###  Owner `GridTableView`
 
-This property is supposed for developers of new grid columns. It gets whether
-                a column is currently ReadOnly. The ReadOnly property determines whether a column
-                will be editable in edit mode. A column for which the ReadOnly property is true
-                will not be present in the automatically generated edit form.
+Gets the instance of the GridTableVeiw wich owns this column instance.
 
-###  EditFormColumnIndex `Int32`
+###  OwnerGridID `GridTableView`
 
-Specifies the vertical collumn number where this column will appear when
-                using EditForms editing mode and the form is autogenerated. See the remarks for
-                details.
+Gets the value of the ClientID property of the RadGrid instance that owns this column. This property value is used by grid's client object
 
-#### Remarks
-A practicle example of using this property is to deterimine the number of
-                columns rendered in the edit form. If there will be only one column in the rendered
-                edit form, when we retrieve the value of this property for a column, as shown in
-                the code below:protected void RadGrid1_PreRender(object sender, EventArgs e)    {int columnIndex = RadGrid1.MasterTableView.Columns[3].EditFormColumnIndex;    }it will be equal to 0, meaning the the column belongs to the first group of
-                columns in the edit form.
+###  OwnerID `GridTableView`
+
+Gets the value of the ClientID property of the GridTableView that owns this column. This property value is used by grid's client object
+
+###  Reorderable `Boolean`
+
+Gets or sets a value indicating whether the column can be reordered client-side.
+
+###  Resizable `Boolean`
+
+Gets or sets a value indicating whether the column can be resized client-side.
+            You can use this property, by setting it to false, to disable resizing for a particular
+            column, while preserving this functionality for all the other columns.
+
+###  RowSpan `Int32`
+
+For internal use. Gets or sets the row span of the grid column.
+
+###  Selectable `Boolean`
+
+Gets the value determining if the column is selectable.
+
+###  Selectable `Boolean`
+
+Gets the value determining if the column is selectable.
+
+###  Selectable `Boolean`
+
+Gets the value determining if the column is selectable.
+
+###  Selected `Boolean`
+
+Indicates whether all column cells have been selected
+
+###  ShowFilterIcon `Boolean`
+
+Gets or sets if the filter icon in the  will be visible.
+
+###  ShowInEditForm `Boolean`
+
+If the corresponding  is in edit mode
+                     specifies whether this column will
+                    render an Enabled=true button control, when the corresponding item is edit
+                    mode.
+
+###  ShowSortIcon `Boolean`
+
+Get or Sets a value indicating whether a sort icon should appear next to the
+            header button, when a column is sorted.
+
+###  Sortable `Boolean`
+
+Should override if sorting will be disabled
+
+###  SortAscImageUrl `String`
+
+Gets or sets a string representing the URL to the image used for sorting in
+            ascending mode.
+
+###  SortDescImageUrl `String`
+
+Gets or sets a string representing the URL to the image used for sorting in
+            descending mode.
+
+###  SortedBackColor `Color`
+
+Gets or sets the color of a cell which is sorted.
+
+###  SortExpression `String`
+
+The string representing a filed-name from the DataSource that should be used when grid sorts by this column. For example:
+            'EmployeeName'
+
+###  Text `String`
+
+Gets or sets a value indicating the text that will be shown for a button.
 
 ###  UniqueName `String`
 
@@ -496,49 +448,11 @@ You can also set it explicitly, if you prefer. However, the automatic
                 explicitly. You can do so simply by specifying the custom name that you want to
                 choose:<radG:GridTemplateColumn UniqueName="ColumnUniqueName"></radG:GridTemplateColumn>
 
-###  EditFormHeaderTextFormat `String`
+###  Visible `Boolean`
 
-String that formats the HeaderText when the column is displayed in an edit form
-
-###  DataType `Type`
-
-Gets or sets (see the Remarks) the type of the data from the DataField as it
-                was set in the DataSource.
-
-#### Remarks
-The DataType property supports the following base .NET Framework data
-                types:BooleanByteCharDateTimeDecimalDoubleInt16Int32Int64SByteSingleStringTimeSpanUInt16UInt32UInt64
-
-###  FilterControlWidth `Unit`
-
-Use this property to set width to the filtering control (depending on the column type, this may be a normal textbox, RadNumericTextBox, RadDatePicker, etc.)
-
-###  FilterControlAltText `String`
-
-Gets or Sets the text value which should be added to alt attribute of the filter control
-
-###  FilterCheckListWebServiceMethod `String`
-
-Get or Set the Methood from CheckListWebServicePath Web Service defined in the TableView,
-            that to be used for getting data for the filter check list
-
-###  FilterCheckListEnableLoadOnDemand `Boolean`
-
-Get or Set if the Filter Check List will load data on demand from server.
+Gets or sets a value indicating if the column and all corresponding cells would be rendered.
 
 ## Methods
-
-###  InitializeCell
-
-#### Returns
-
-`System.Void` 
-
-###  PrepareCell
-
-#### Returns
-
-`System.Void` 
 
 ###  Clone
 
@@ -553,26 +467,6 @@ Note: When implementing/overriding this method be sure to call
 
 `Telerik.Web.UI.GridColumn` 
 
-###  Initialize
-
-The Initialize method is inherited by a derived
-            GridButtonColumn class. Is is used to reset a column of the derived
-            type.
-
-#### Returns
-
-`System.Void` 
-
-###  InitializeCell
-
-After a call to this method the column should add the corresponding button into
-            the cell given, regarding the inItem type and column index.Note: This method is called within RadGrid and is not intended
-            to be used directly from your code.
-
-#### Returns
-
-`System.Void` 
-
 ###  Clone
 
 Returns a copy of the GridButtonColumn.
@@ -581,90 +475,18 @@ Returns a copy of the GridButtonColumn.
 
 `Telerik.Web.UI.GridColumn` 
 
-###  InheritanceSafeClone
+###  Clone
+
+Creates a copy of the current column.
+
+#### Remarks
+Note: When implementing/overriding this method be sure to call
+            the base member or call CopyBaseProperties to be sure that all base
+            properties will be copied accordingly
 
 #### Returns
 
 `Telerik.Web.UI.GridColumn` 
-
-###  Initialize
-
-The Initialize method is inherited by a derived
-            GridColumn class. Is is used to reset a column of the derived
-            type.
-
-#### Remarks
-This method is mainly used to reset properties common for all column types
-            derived from GridColumn class.The Initialize method is usually called during data-binding, prior to the
-            first row being bound.
-
-#### Returns
-
-`System.Void` 
-
-###  InitializeCell
-
-After a call to this method the column should add the corresponding controls
-            (text, labels, input controls) into the cell given, regarding the inItem type and
-            column index.Note: This method is called within RadGrid and is not intended
-            to be used directly from your code.
-
-#### Returns
-
-`System.Void` 
-
-###  SupportsFiltering
-
-This method should be used in case you develop your own column. It returns true
-            if the column supports filtering.
-
-#### Returns
-
-`System.Boolean` 
-
-###  RefreshCurrentFilterValue
-
-Modifies the CurrentFilterFunction and
-            CurrentFilterValue properties according to the function given and the
-            corresponding filter text-box control in the filtering item.
-
-#### Returns
-
-`System.Void` 
-
-###  RefreshCurrentFilterValue
-
-Modifies the CurrentFilterValue property according to the
-            corresponding selected item in the filter text-box control in the filtering
-            item.
-
-#### Returns
-
-`System.Void` 
-
-###  SetCurrentFilterValueToControl
-
-Sets the value of the property CurrentFilterValue as a text on the TextBox control found in the cell
-
-#### Parameters
-
-#### cell `System.Web.UI.WebControls.TableCell`
-
-#### Returns
-
-`System.Void` 
-
-###  GetCurrentFilterValueFromControl
-
-Gets the value of the Text property of a textbox control found in the cell, used to set the value of the CurrentFilterValue property.
-
-#### Parameters
-
-#### cell `System.Web.UI.WebControls.TableCell`
-
-#### Returns
-
-`System.String` 
 
 ###  EvaluateFilterExpression
 
@@ -686,9 +508,9 @@ Evaluates the column filter expression based on the , ,
 
 `System.String` 
 
-###  SetupFilterControls
+###  GetCurrentFilterValueFromControl
 
-Instantiates the filter controls (text-box, image.) in the cell given
+Gets the value of the Text property of a textbox control found in the cell, used to set the value of the CurrentFilterValue property.
 
 #### Parameters
 
@@ -696,7 +518,33 @@ Instantiates the filter controls (text-box, image.) in the cell given
 
 #### Returns
 
-`System.Void` 
+`System.String` 
+
+###  GetCustomPropertyDataFields
+
+This method should be used in case you develop your own column. It returns the
+            full list of DataFields used by the column.
+            GridTableView uses this to decide which DataFields
+            from the specified DataSource will be inlcuded in case of
+            GridTableView.RetrieveAllDataFields is set to
+            false.
+
+#### Returns
+
+`System.Collections.IDictionary` 
+
+###  GetDefaultGroupByExpression
+
+Calculate the default Group-by expression based on the settings of the
+            DataField (if available)
+
+#### Remarks
+For example, if a column's DataField is ProductType the default group-by expression will be:
+            'ProductType Group By ProductType'
+
+#### Returns
+
+`System.String` 
 
 ###  GetFilterFunctionsList
 
@@ -712,6 +560,76 @@ Gets a list of filter functions based on the settings of the  property.
 
 `System.Collections.ArrayList` 
 
+###  GetSortExpression
+
+By default returns the SortExpression of the column. If the SortExpression is not set explicitly, it would be calculated, based on the
+            DataField of the column.
+
+#### Returns
+
+`System.String` 
+
+###  Initialize
+
+The Initialize method is inherited by a derived
+            GridButtonColumn class. Is is used to reset a column of the derived
+            type.
+
+#### Returns
+
+`System.Void` 
+
+###  Initialize
+
+The Initialize method is inherited by a derived
+            GridColumn class. Is is used to reset a column of the derived
+            type.
+
+#### Remarks
+This method is mainly used to reset properties common for all column types
+            derived from GridColumn class.The Initialize method is usually called during data-binding, prior to the
+            first row being bound.
+
+#### Returns
+
+`System.Void` 
+
+###  InitializeCell
+
+After a call to this method the column should add the corresponding button into
+            the cell given, regarding the inItem type and column index.Note: This method is called within RadGrid and is not intended
+            to be used directly from your code.
+
+#### Returns
+
+`System.Void` 
+
+###  InitializeCell
+
+After a call to this method the column should add the corresponding controls
+            (text, labels, input controls) into the cell given, regarding the inItem type and
+            column index.Note: This method is called within RadGrid and is not intended
+            to be used directly from your code.
+
+#### Returns
+
+`System.Void` 
+
+###  IsBoundToFieldName
+
+This method returns true if the column is bound to the specified field
+            name.
+
+#### Parameters
+
+#### name `System.String`
+
+The name of the DataField, which will be checked.
+
+#### Returns
+
+`System.Boolean` 
+
 ###  PrepareCell
 
 Prepares the cell of the item given, when grid is rendered.
@@ -726,11 +644,25 @@ Prepares the cell of the item given, when grid is rendered.
 
 `System.Void` 
 
-###  ToString
+###  RefreshCurrentFilterValue
+
+Modifies the CurrentFilterFunction and
+            CurrentFilterValue properties according to the function given and the
+            corresponding filter text-box control in the filtering item.
 
 #### Returns
 
-`System.String` 
+`System.Void` 
+
+###  RefreshCurrentFilterValue
+
+Modifies the CurrentFilterValue property according to the
+            corresponding selected item in the filter text-box control in the filtering
+            item.
+
+#### Returns
+
+`System.Void` 
 
 ###  ResetCurrentFilterValue
 
@@ -751,78 +683,36 @@ Resets the values of the ,
 
 `System.Void` 
 
-###  GetSortExpression
+###  SetCurrentFilterValueToControl
 
-By default returns the SortExpression of the column. If the SortExpression is not set explicitly, it would be calculated, based on the
-            DataField of the column.
-
-#### Returns
-
-`System.String` 
-
-###  GetDefaultGroupByExpression
-
-Calculate the default Group-by expression based on the settings of the
-            DataField (if available)
-
-#### Remarks
-For example, if a column's DataField is ProductType the default group-by expression will be:
-            'ProductType Group By ProductType'
-
-#### Returns
-
-`System.String` 
-
-###  Clone
-
-Creates a copy of the current column.
-
-#### Remarks
-Note: When implementing/overriding this method be sure to call
-            the base member or call CopyBaseProperties to be sure that all base
-            properties will be copied accordingly
-
-#### Returns
-
-`Telerik.Web.UI.GridColumn` 
-
-###  IsBoundToFieldName
-
-This method returns true if the column is bound to the specified field
-            name.
+Sets the value of the property CurrentFilterValue as a text on the TextBox control found in the cell
 
 #### Parameters
 
-#### name `System.String`
-
-The name of the DataField, which will be checked.
-
-#### Returns
-
-`System.Boolean` 
-
-###  CompareTo
-
-#### Returns
-
-`System.Int32` 
-
-###  GetCustomPropertyDataFields
-
-This method should be used in case you develop your own column. It returns the
-            full list of DataFields used by the column.
-            GridTableView uses this to decide which DataFields
-            from the specified DataSource will be inlcuded in case of
-            GridTableView.RetrieveAllDataFields is set to
-            false.
-
-#### Returns
-
-`System.Collections.IDictionary` 
-
-###  AddSubPropertyFieldInfo
+#### cell `System.Web.UI.WebControls.TableCell`
 
 #### Returns
 
 `System.Void` 
+
+###  SetupFilterControls
+
+Instantiates the filter controls (text-box, image.) in the cell given
+
+#### Parameters
+
+#### cell `System.Web.UI.WebControls.TableCell`
+
+#### Returns
+
+`System.Void` 
+
+###  SupportsFiltering
+
+This method should be used in case you develop your own column. It returns true
+            if the column supports filtering.
+
+#### Returns
+
+`System.Boolean` 
 

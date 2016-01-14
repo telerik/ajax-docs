@@ -17,19 +17,19 @@ Provides data for the E:Telerik.Web.UI.RadScheduler.TimeSlotContextMenuItemClick
 
 ## Properties
 
+###  EndSlot `ISchedulerTimeSlot`
+
+Gets the last time slot from the selected slot range.
+
 ###  MenuItem `RadMenuItem`
 
 Gets the menu item.
-
-###  TimeSlot `ISchedulerTimeSlot`
-
-Gets the time slot.
 
 ###  StartSlot `ISchedulerTimeSlot`
 
 Gets the first time slot from the selected slot range.
 
-###  EndSlot `ISchedulerTimeSlot`
+###  TimeSlot `ISchedulerTimeSlot`
 
-Gets the last time slot from the selected slot range.
+Gets the time slot.
 

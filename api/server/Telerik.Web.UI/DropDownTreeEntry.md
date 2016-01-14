@@ -17,6 +17,10 @@ This class defines the DropDownTreeEntry object. It inherits WebControl class an
 
 ## Properties
 
+###  FullPath `String`
+
+Gets or sets the full path of the DropDownTreeEntry.
+
 ###  Text `String`
 
 Gets or sets the text of the DropDownTreeEntry entry.
@@ -24,8 +28,4 @@ Gets or sets the text of the DropDownTreeEntry entry.
 ###  Value `String`
 
 Gets or sets the value of the DropDownTreeEntry entry.
-
-###  FullPath `String`
-
-Gets or sets the full path of the DropDownTreeEntry.
 

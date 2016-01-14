@@ -15,15 +15,15 @@ Trace writer that writes all trace messages to a string.
 
 ## Methods
 
-###  WriteLine
-
-#### Returns
-
-`System.Void` 
-
 ###  ToString
 
 #### Returns
 
 `System.String` 
+
+###  WriteLine
+
+#### Returns
+
+`System.Void` 
 

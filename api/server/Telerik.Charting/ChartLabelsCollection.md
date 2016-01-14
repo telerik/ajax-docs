@@ -16,69 +16,39 @@ Collection of labels
 
 ## Properties
 
-###  Parent `Object`
+###  Count `Int32`
 
-Parent element
-
-###  Item `LabelItem`
-
-Gets or sets a LabelItem at the specific position in Labels collection.
-
-###  List `IList`1`
-
-Items list
+Gets items count in collection
 
 ###  First `T`
 
 Link to first item in collection
 
-###  Last `T`
+###  IsReadOnly `Boolean`
 
-Link to last item in collection
+Gets true if collection is read-only
+
+###  Item `LabelItem`
+
+Gets or sets a LabelItem at the specific position in Labels collection.
 
 ###  Item `T`
 
 Gets the collection item at given index
 
-###  Count `Int32`
+###  Last `T`
 
-Gets items count in collection
+Link to last item in collection
 
-###  IsReadOnly `Boolean`
+###  List `IList`1`
 
-Gets true if collection is read-only
+Items list
+
+###  Parent `Object`
+
+Parent element
 
 ## Methods
-
-###  ClearBindableItems
-
-Clear bindable items from collection
-
-#### Returns
-
-`System.Void` 
-
-###  CopyBindableItemsTo
-
-Copy bindable items to collection
-
-#### Parameters
-
-#### items `Telerik.Charting.ChartLabelsCollection`
-
-Collection of items copy to
-
-#### Returns
-
-`System.Void` 
-
-###  IsVisible
-
-Visibility of items collection
-
-#### Returns
-
-`System.Boolean` Whether any item is visible
 
 ###  Add
 
@@ -89,168 +59,6 @@ Add LabelItem at the collection
 #### item `Telerik.Charting.LabelItem`
 
 LabelItem for adding
-
-#### Returns
-
-`System.Void` 
-
-###  Clear
-
-Clear collection
-
-#### Returns
-
-`System.Void` 
-
-###  Insert
-
-Insert LabelItem in collection at the specific position
-
-#### Parameters
-
-#### index `System.Int32`
-
-Position
-
-#### item `Telerik.Charting.LabelItem`
-
-LabelItem
-
-#### Returns
-
-`System.Void` 
-
-###  Remove
-
-Remove LabelItem from collection
-
-#### Parameters
-
-#### item `Telerik.Charting.LabelItem`
-
-LabelItem
-
-#### Returns
-
-`System.Boolean` 
-
-###  RemoveAt
-
-Remove LabelItem in the specific position from collection
-
-#### Parameters
-
-#### index `System.Int32`
-
-Position
-
-#### Returns
-
-`System.Void` 
-
-###  OnRemoveComplete
-
-Remove item at specified index
-
-#### Parameters
-
-#### index `System.Int32`
-
-#### value `System.Object`
-
-#### Returns
-
-`System.Void` 
-
-###  OnClearComplete
-
-Clear items
-
-#### Returns
-
-`System.Void` 
-
-###  OnInsertComplete
-
-Insert item in collection
-
-#### Parameters
-
-#### index `System.Int32`
-
-Index to insert in
-
-#### value `System.Object`
-
-Value to insert
-
-#### Returns
-
-`System.Void` 
-
-###  SaveViewState
-
-Save data to ViewState
-
-#### Returns
-
-`System.Object` Saved data
-
-###  LoadViewState
-
-Load data from ViewState
-
-#### Parameters
-
-#### state `System.Object`
-
-ViewState with data
-
-#### Returns
-
-`System.Void` 
-
-###  IndexOf
-
-Item index in collection
-
-#### Parameters
-
-#### item ``0`
-
-Item to get index of
-
-#### Returns
-
-`System.Int32` Index
-
-###  Insert
-
-Inserts item at the given index
-
-#### Parameters
-
-#### index `System.Int32`
-
-Index
-
-#### item ``0`
-
-Item to insert
-
-#### Returns
-
-`System.Void` 
-
-###  RemoveAt
-
-Removes item from collection at given index
-
-#### Parameters
-
-#### index `System.Int32`
-
-Index to remove at
 
 #### Returns
 
@@ -286,7 +94,23 @@ Items array to add
 
 ###  Clear
 
+Clear collection
+
+#### Returns
+
+`System.Void` 
+
+###  Clear
+
 Clears collection
+
+#### Returns
+
+`System.Void` 
+
+###  ClearBindableItems
+
+Clear bindable items from collection
 
 #### Returns
 
@@ -305,6 +129,20 @@ Item to check
 #### Returns
 
 `System.Boolean` True if item is a collection member
+
+###  CopyBindableItemsTo
+
+Copy bindable items to collection
+
+#### Parameters
+
+#### items `Telerik.Charting.ChartLabelsCollection`
+
+Collection of items copy to
+
+#### Returns
+
+`System.Void` 
 
 ###  CopyTo
 
@@ -325,20 +163,6 @@ The zero-based index in array at which copying begins
 
 `System.Void` 
 
-###  Remove
-
-Removes item from collection
-
-#### Parameters
-
-#### item ``0`
-
-Item to remove
-
-#### Returns
-
-`System.Boolean` True in case of success
-
 ###  GetEnumerator
 
 Returns an enumerator that iterates through the System.Collections.Generic.List>T<.
@@ -346,6 +170,78 @@ Returns an enumerator that iterates through the System.Collections.Generic.List>
 #### Returns
 
 `System.Collections.Generic.IEnumerator`1` A System.Collections.Generic.List>T<.Enumerator for the System.Collections.Generic.List>T<.
+
+###  IndexOf
+
+Item index in collection
+
+#### Parameters
+
+#### item ``0`
+
+Item to get index of
+
+#### Returns
+
+`System.Int32` Index
+
+###  Insert
+
+Insert LabelItem in collection at the specific position
+
+#### Parameters
+
+#### index `System.Int32`
+
+Position
+
+#### item `Telerik.Charting.LabelItem`
+
+LabelItem
+
+#### Returns
+
+`System.Void` 
+
+###  Insert
+
+Inserts item at the given index
+
+#### Parameters
+
+#### index `System.Int32`
+
+Index
+
+#### item ``0`
+
+Item to insert
+
+#### Returns
+
+`System.Void` 
+
+###  IsVisible
+
+Visibility of items collection
+
+#### Returns
+
+`System.Boolean` Whether any item is visible
+
+###  LoadViewState
+
+Load data from ViewState
+
+#### Parameters
+
+#### state `System.Object`
+
+ViewState with data
+
+#### Returns
+
+`System.Void` 
 
 ###  LoadViewState
 
@@ -361,31 +257,25 @@ View state to load from
 
 `System.Void` 
 
-###  SaveViewState
+###  OnClear
 
-Saves collection to a view state
-
-#### Returns
-
-`System.Object` Saved state bag object
-
-###  SetDirty
-
-Sets is item in the dirty state
+Before collection clearing event
 
 #### Returns
 
 `System.Void` 
 
-###  SetItemDirty
+###  OnClearComplete
 
-Marks collection item dirty
+Clear items
 
-#### Parameters
+#### Returns
 
-#### item ``0`
+`System.Void` 
 
-Item to mark
+###  OnClearComplete
+
+Collection after clean event
 
 #### Returns
 
@@ -400,6 +290,24 @@ Item before insert event
 #### index `System.Int32`
 
 Index to insert at
+
+#### value `System.Object`
+
+Value to insert
+
+#### Returns
+
+`System.Void` 
+
+###  OnInsertComplete
+
+Insert item in collection
+
+#### Parameters
+
+#### index `System.Int32`
+
+Index to insert in
 
 #### value `System.Object`
 
@@ -447,6 +355,20 @@ Value to insert
 
 ###  OnRemoveComplete
 
+Remove item at specified index
+
+#### Parameters
+
+#### index `System.Int32`
+
+#### value `System.Object`
+
+#### Returns
+
+`System.Void` 
+
+###  OnRemoveComplete
+
 Item after remove event
 
 #### Parameters
@@ -458,22 +380,6 @@ Index to insert at
 #### value `System.Object`
 
 Value to insert
-
-#### Returns
-
-`System.Void` 
-
-###  OnClear
-
-Before collection clearing event
-
-#### Returns
-
-`System.Void` 
-
-###  OnClearComplete
-
-Collection after clean event
 
 #### Returns
 
@@ -493,11 +399,97 @@ XmlElement to import from
 
 `System.Void` 
 
-###  ToString
+###  Remove
 
-ToString() override. Used in the properties grid to avoid object type showing.
+Remove LabelItem from collection
+
+#### Parameters
+
+#### item `Telerik.Charting.LabelItem`
+
+LabelItem
 
 #### Returns
 
-`System.String` Empty string
+`System.Boolean` 
+
+###  Remove
+
+Removes item from collection
+
+#### Parameters
+
+#### item ``0`
+
+Item to remove
+
+#### Returns
+
+`System.Boolean` True in case of success
+
+###  RemoveAt
+
+Remove LabelItem in the specific position from collection
+
+#### Parameters
+
+#### index `System.Int32`
+
+Position
+
+#### Returns
+
+`System.Void` 
+
+###  RemoveAt
+
+Removes item from collection at given index
+
+#### Parameters
+
+#### index `System.Int32`
+
+Index to remove at
+
+#### Returns
+
+`System.Void` 
+
+###  SaveViewState
+
+Save data to ViewState
+
+#### Returns
+
+`System.Object` Saved data
+
+###  SaveViewState
+
+Saves collection to a view state
+
+#### Returns
+
+`System.Object` Saved state bag object
+
+###  SetDirty
+
+Sets is item in the dirty state
+
+#### Returns
+
+`System.Void` 
+
+###  SetItemDirty
+
+Marks collection item dirty
+
+#### Parameters
+
+#### item ``0`
+
+Item to mark
+
+#### Returns
+
+`System.Void` 
 

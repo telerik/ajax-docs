@@ -22,36 +22,9 @@ Contains properties related to customizing the settings for scrolling operation
 Gets or sets a value indicating whether scrolling will be enabled in
             Telerik RadGrid.
 
-###  ScrollHeight `Unit`
+###  CountGroupSplitterColumnAsFrozen `Boolean`
 
-Gets or sets a value specifying the grid height in pixels (px) beyond which the
-            scrolling will be enabled.
-
-###  ScrollBarWidth `Unit`
-
-###  ScrollTop `String`
-
-###  AJAXScrollTop `String`
-
-###  ScrollLeft `String`
-
-###  UseStaticHeaders `Boolean`
-
-Gets or sets a value indicating whether grid column headers will scroll as the
-            rest of the grid items or will remain static (MS Excel ® style).
-
-#### Remarks
-This property is meaningful only when used in conjunction with
-                 set to true.
-
-###  SaveScrollPosition `Boolean`
-
-Gets or sets a value indicating whether Telerik RadGrid will keep the
-            scroll position during postbacks.
-
-#### Remarks
-This property is meaningful only when used in conjunction with
-                 set to true.
+Gets or sets a value indicating if the  will be part of the frozen columns count in grid
 
 ###  EnableVirtualScrollPaging `Boolean`
 
@@ -74,15 +47,26 @@ To enable static columns, set the ClientSettings.Scrolling.FrozenColumnsCount pr
             scroll when the of the user scrolls the grid horizontally, using the horizontal scroll bar. This feature is 
             functional even when in hierarchical grids and grids that support grouping.
 
-###  CountGroupSplitterColumnAsFrozen `Boolean`
+###  SaveScrollPosition `Boolean`
 
-Gets or sets a value indicating if the  will be part of the frozen columns count in grid
+Gets or sets a value indicating whether Telerik RadGrid will keep the
+            scroll position during postbacks.
 
-## Methods
+#### Remarks
+This property is meaningful only when used in conjunction with
+                 set to true.
 
-###  GetViewStateValue
+###  ScrollHeight `Unit`
 
-#### Returns
+Gets or sets a value specifying the grid height in pixels (px) beyond which the
+            scrolling will be enabled.
 
-`Telerik.Web.UI.T` 
+###  UseStaticHeaders `Boolean`
+
+Gets or sets a value indicating whether grid column headers will scroll as the
+            rest of the grid items or will remain static (MS Excel ® style).
+
+#### Remarks
+This property is meaningful only when used in conjunction with
+                 set to true.
 

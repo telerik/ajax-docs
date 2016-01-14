@@ -50,6 +50,56 @@ The RadSliderItem to append to the end of the current RadSliderItemCollection.
 
 `System.Void` 
 
+###  AddRange
+
+Appends the specified array of RadSliderItem objects to the end of the 
+            current RadSliderItemCollection.
+
+#### Parameters
+
+#### items `System.Collections.Generic.IEnumerable{Telerik.Web.UI.RadSliderItem}`
+
+The array of RadSliderItem to append to the end of the current 
+            RadSliderItemCollection.
+
+#### Returns
+
+`System.Void` 
+
+###  Contains
+
+Determines whether the specified RadSliderItem object is in the current 
+            	RadSliderItemCollection.
+
+#### Parameters
+
+#### item `Telerik.Web.UI.RadSliderItem`
+
+The RadSliderItem object to find.
+
+#### Returns
+
+`System.Boolean` true if the current collection contains the specified RadSliderItem object; 
+            	otherwise, false.
+
+###  FindItemByAttribute
+
+Searches the items in the collection for a RadSliderItem which contains the specified attribute and attribute value.
+
+#### Parameters
+
+#### attributeName `System.String`
+
+The name of the target attribute.
+
+#### attributeValue `System.String`
+
+The value of the target attribute
+
+#### Returns
+
+`Telerik.Web.UI.RadSliderItem` The RadSliderItem that matches the specified arguments. Null (Nothing) is returned if no node is found.
+
 ###  FindItemByText
 
 Finds the first RadSliderItem with Text that
@@ -81,56 +131,6 @@ The value to search for.
 
 `Telerik.Web.UI.RadSliderItem` The first RadSliderItem that matches the
             specified value.
-
-###  FindItemByAttribute
-
-Searches the items in the collection for a RadSliderItem which contains the specified attribute and attribute value.
-
-#### Parameters
-
-#### attributeName `System.String`
-
-The name of the target attribute.
-
-#### attributeValue `System.String`
-
-The value of the target attribute
-
-#### Returns
-
-`Telerik.Web.UI.RadSliderItem` The RadSliderItem that matches the specified arguments. Null (Nothing) is returned if no node is found.
-
-###  Contains
-
-Determines whether the specified RadSliderItem object is in the current 
-            	RadSliderItemCollection.
-
-#### Parameters
-
-#### item `Telerik.Web.UI.RadSliderItem`
-
-The RadSliderItem object to find.
-
-#### Returns
-
-`System.Boolean` true if the current collection contains the specified RadSliderItem object; 
-            	otherwise, false.
-
-###  AddRange
-
-Appends the specified array of RadSliderItem objects to the end of the 
-            current RadSliderItemCollection.
-
-#### Parameters
-
-#### items `System.Collections.Generic.IEnumerable{Telerik.Web.UI.RadSliderItem}`
-
-The array of RadSliderItem to append to the end of the current 
-            RadSliderItemCollection.
-
-#### Returns
-
-`System.Void` 
 
 ###  IndexOf
 

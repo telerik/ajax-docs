@@ -16,30 +16,19 @@ Represents the settings of the DropDown in a Telerik.Web.UI.RadSearchBox control
 
 ## Properties
 
-###  Width `Unit`
-
-Gets or sets the width of the DropDown area.
-
-###  Height `Unit`
-
-Gets or sets the height of the DropDown area.
-
-###  CssClass `String`
-
-Gets or sets the css class of the dropdown.
-
 ###  ClientTemplate `String`
 
 Gets or sets the HTML template of a drop down item
             when added on the client.
 
-###  ItemTemplate `ITemplate`
+###  CssClass `String`
 
-Gets or sets the template for the items that appear in the dropdown.
+Gets or sets the css class of the dropdown.
 
-###  HeaderTemplate `ITemplate`
+###  Footer `WebControl`
 
-Gets or sets the  that defines the  header template.
+Get a footer of 
+            RadSearchBox.
 
 ###  FooterTemplate `ITemplate`
 
@@ -50,16 +39,19 @@ Gets or sets the  that defines the  footer template.
 Get a header of 
             RadSearchBox.
 
-###  Footer `WebControl`
+###  HeaderTemplate `ITemplate`
 
-Get a footer of 
-            RadSearchBox.
+Gets or sets the  that defines the  header template.
 
-## Methods
+###  Height `Unit`
 
-###  GetViewStateValue
+Gets or sets the height of the DropDown area.
 
-#### Returns
+###  ItemTemplate `ITemplate`
 
-`Telerik.Web.UI.T` 
+Gets or sets the template for the items that appear in the dropdown.
+
+###  Width `Unit`
+
+Gets or sets the width of the DropDown area.
 

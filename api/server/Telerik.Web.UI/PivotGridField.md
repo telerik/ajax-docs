@@ -18,31 +18,39 @@ A PivotGridField is the main logic unit that relates the content of the pivot gr
 
 ## Properties
 
+###  Caption `String`
+
+Gets or sets the field's display caption.
+
+###  CellStyle `Style`
+
+Style of the cells in the the grid, corresponding to the field.
+
+###  DataField `String`
+
+Gets or sets the field name from the specified data source to bind to the
+            PivotGridField.
+
 ###  DataFormatString `String`
 
 Gets or sets the string that specifies the display format for all cells which belongs to this field.
-
-###  RenderingControl `PivotGridFieldRenderingControl`
-
-Gets or sets a referance of the PivotGridFieldRenderingControl that allow you to control how the field is rendered.
-
-###  ZoneType `PivotGridFieldZoneType`
-
-Gets the zone type of the field which
-            determines in which zone the field is positioned.
 
 ###  IsHidden `Boolean`
 
 Gets or sets if the field will be hidden
             which exlude it from the pivot table calculations.
 
+###  RenderingControl `PivotGridFieldRenderingControl`
+
+Gets or sets a referance of the PivotGridFieldRenderingControl that allow you to control how the field is rendered.
+
 ###  SortOrder `PivotGridSortOrder`
 
 Gets or sets a referance instance of the PivotGridSortOrder enum.
 
-###  ZoneIndex `Int32`
+###  TotalFormatString `String`
 
-Gets or sets the order indexes for fields displayed within the same zone.
+Gets or sets the string that specifies the display format for all total cells which belongs to this field.
 
 ###  UniqueName `String`
 
@@ -50,22 +58,14 @@ Each column in Telerik RadPivotGrid has an UniqueName
             property (string). This property is assigned automatically by the designer (or the
             first time you want to access the columns if they are built dynamically).
 
-###  DataField `String`
+###  ZoneIndex `Int32`
 
-Gets or sets the field name from the specified data source to bind to the
-            PivotGridField.
+Gets or sets the order indexes for fields displayed within the same zone.
 
-###  Caption `String`
+###  ZoneType `PivotGridFieldZoneType`
 
-Gets or sets the field's display caption.
-
-###  TotalFormatString `String`
-
-Gets or sets the string that specifies the display format for all total cells which belongs to this field.
-
-###  CellStyle `Style`
-
-Style of the cells in the the grid, corresponding to the field.
+Gets the zone type of the field which
+            determines in which zone the field is positioned.
 
 ## Methods
 

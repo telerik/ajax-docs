@@ -18,45 +18,30 @@ RadButton control provides the features, that ASP.NET: Button, ImageButton, Link
 
 ## Properties
 
-###  OnClientLoad `String`
+###  AccessKey `String`
 
-Gets or sets the name of the JavaScript function that will be called when the RadButton is loaded on the page.
+Gets or sets the accessKey of the RadButton control.
 
-###  OnClientClicking `String`
+###  AutoPostBack `Boolean`
 
-Gets or sets the name of the JavaScript function that will be called when the RadButton is clicked. The event is cancelable.
+Gets or sets a bool value indicating whether the RadButton control automatically posts back to the server when clicked.
 
-###  OnClientClicked `String`
+###  ButtonType `RadButtonType`
 
-Gets or sets the name of the JavaScript function that will be called when the RadButton is clicked, after the OnClientClicking event.
-
-###  OnClientMouseOver `String`
-
-Gets or sets the name of the JavaScript function that will be called when the mouse pointer hovers over the RadButton.
-
-###  OnClientMouseOut `String`
-
-Gets or sets the name of the JavaScript function that will be called when the mouse pointer leaves the RadButton.
-
-###  OnClientCheckedChanging `String`
-
-Gets or sets the name of the JavaScript function that will be called when the Checked property of the RadButton control is about to be changed.
-
-###  OnClientCheckedChanged `String`
-
-Gets or sets the name of the JavaScript function that will be called after the Checked property of the RadButton control is changed.
-
-###  OnClientToggleStateChanging `String`
-
-Gets or sets the name of the JavaScript function that will be called when the SelectedToggleStateIndex property of the RadButton control is about to be changed.
-
-###  OnClientToggleStateChanged `String`
-
-Gets or sets the name of the JavaScript function that will be called after the SelectedToggleStateIndex property of the RadButton control is changed.
+Gets or sets the type of the button. RadButtonType:StandardButton(default), LinkButton and ToggleButton.
 
 ###  CausesValidation `Boolean`
 
 Gets or sets a value indicating whether validation is performed when the RadButton control is clicked.
+
+###  Checked `Boolean`
+
+Gets or sets a bool value indicating whether the RadButton control is checked.
+
+###  ClientIDMode `ClientIDMode`
+
+This property is overridden in order to support controls which implement INamingContainer.
+            The default value is changed to "AutoID".
 
 ###  CommandArgument `String`
 
@@ -66,49 +51,33 @@ Gets or sets an optional parameter passed to the Command event along with the as
 
 Gets or sets the command name associated with the RadButton control that is passed to the Command event.
 
-###  PostBackUrl `String`
-
-Gets or sets the URL of the page to post to from the current page when the RadButton control is clicked.
-
-###  ValidationGroup `String`
-
-Gets or sets the group of controls for which the RadButton control causes validation when it posts back to the server.
-
-###  Icon `RadButtonIcon`
-
-Gets the object that controls the Primary and Secondary Icon related properties.
-
-###  Image `RadButtonImage`
-
-Gets the object that control the Image properties. A RadButton control can be rendered as an ImageButton, or it can have a BackgroundImage.
-
-###  ToggleStates `RadButtonToggleStateCollection`
-
-Gets a collection of RadButtonToggleState objects that belong to the RadButton control.
-
 ###  ContentTemplate `ITemplate`
 
 Gets or sets the template for the RadButton control.
 
-###  AutoPostBack `Boolean`
+###  CssClass `String`
 
-Gets or sets a bool value indicating whether the RadButton control automatically posts back to the server when clicked.
+Gets or sets the CSS class rendered by the RadButton control on the client.
 
-###  Text `String`
+###  CssClassFormatString `String`
 
-Gets or sets the text displayed in the RadButton control.
+The CssClass property will now be used instead of the former Skin 
+            and will be modified in AddAttributesToRender()
 
-###  Value `String`
+###  DisabledButtonCssClass `String`
 
-Gets or sets an optional Value of the RadButton control.
+Gets or sets the CSS class applied to the RadButton control when it is in a disabled state.
 
-###  ReadOnly `Boolean`
+###  EnableAjaxSkinRendering `String`
 
-Gets or sets a bool value indicating whether the RadButton control is in a read-only mode.
+Gets or sets the value, indicating whether to render the skin CSS files during Ajax requests
 
-###  UseSubmitBehavior `Boolean`
+#### Remarks
+If EnableAjaxSkinRendering is set to false you will have to register the needed control base CSS file by hand when adding/showing the control with Ajax.
 
-Gets or sets a value indicating whether the RadButton control uses the client browser's submit mechanism or the ASP.NET postback mechanism.
+###  EnableAriaSupport `Boolean`
+
+When set to true enables support for WAI-ARIA
 
 ###  EnableBrowserButtonStyle `Boolean`
 
@@ -118,80 +87,139 @@ Gets or sets a bool value indicating whether the client browser's default stylin
             
             Use this property when ButtonType="StandardButton".
 
-###  Target `String`
+###  EnableEmbeddedBaseStylesheet `Boolean`
 
-Gets or sets the target window or frame in which to display the Web page content linked to when the RadButton control is clicked.
+Gets or sets the value, indicating whether to render the link to the embedded base stylesheet of the control or not.
 
-###  NavigateUrl `String`
+#### Remarks
+If EnableEmbeddedBaseStylesheet is set to false you will have to register the needed control base CSS file by hand.
 
-Gets or sets the URL to link to when the RadButton control is clicked.
+###  EnableEmbeddedScripts `Boolean`
 
-###  HoveredCssClass `String`
+Gets or sets the value, indicating whether to render script references to the embedded scripts or not.
 
-Gets or sets the CSS class applied to the RadButton control when the mouse pointer is over the control.
+#### Remarks
+If EnableEmbeddedScripts is set to false you will have to register the needed Scripts files by hand.
 
-###  PressedCssClass `String`
+###  EnableEmbeddedSkins `String`
 
-Gets or sets the CSS class applied to the RadButton control when the control is pressed.
+Gets or sets the value, indicating whether to render links to the embedded skins or not.
 
-###  ReadOnlyCssClass `Boolean`
-
-Gets or sets the CSS class applied to the RadButton control when it is in ReadOnly mode. The  property is set to true.
-
-###  ToolTip `String`
-
-Gets or sets the text that will be displayed in the tooltip of the RadButton control when it is hovered.
-
-###  CssClass `String`
-
-Gets or sets the CSS class rendered by the RadButton control on the client.
-
-###  DisabledButtonCssClass `String`
-
-Gets or sets the CSS class applied to the RadButton control when it is in a disabled state.
-
-###  Height `Unit`
-
-Gets or sets the height of the RadButton control.
-
-###  Width `Unit`
-
-Gets or sets the width of the RadButton control.
-
-###  AccessKey `String`
-
-Gets or sets the accessKey of the RadButton control.
+#### Remarks
+If EnableEmbeddedSkins is set to false you will have to register the needed CSS files by hand.
 
 ###  EnableSplitButton `Boolean`
 
 Gets or sets a bool value indicating whether an additional button (besides the primary button) will be rendered in the RadButton control.
 
-###  SplitButtonPosition `ButtonPosition`
-
-Gets or sets the position (relative to the RadButton's text) of the split button.
-
-###  SplitButtonCssClass `String`
-
-Gets or sets the CSS class applied to the SplitButton of the RadButton control.
-
-###  ButtonType `RadButtonType`
-
-Gets or sets the type of the button. RadButtonType:StandardButton(default), LinkButton and ToggleButton.
-
-###  ToggleType `ButtonToggleType`
-
-Gets or sets the toggle type of the RadButton control when used as a toggle button.
-            The Default is ButtonToggleType='None'.
-
-###  Checked `Boolean`
-
-Gets or sets a bool value indicating whether the RadButton control is checked.
-
 ###  GroupName `String`
 
 Gets or sets the name of the group the RadButton control, configured as a radio button (ToggleType='Radio'), belongs to.
 
-###  UniqueGroupName `String`
+###  Height `Unit`
+
+Gets or sets the height of the RadButton control.
+
+###  HoveredCssClass `String`
+
+Gets or sets the CSS class applied to the RadButton control when the mouse pointer is over the control.
+
+###  Icon `RadButtonIcon`
+
+Gets the object that controls the Primary and Secondary Icon related properties.
+
+###  Image `RadButtonImage`
+
+Gets the object that control the Image properties. A RadButton control can be rendered as an ImageButton, or it can have a BackgroundImage.
+
+###  IsSkinSet `String`
+
+For internal use.
+
+###  NavigateUrl `String`
+
+Gets or sets the URL to link to when the RadButton control is clicked.
+
+###  OnClientCheckedChanged `String`
+
+Gets or sets the name of the JavaScript function that will be called after the Checked property of the RadButton control is changed.
+
+###  OnClientCheckedChanging `String`
+
+Gets or sets the name of the JavaScript function that will be called when the Checked property of the RadButton control is about to be changed.
+
+###  OnClientClicked `String`
+
+Gets or sets the name of the JavaScript function that will be called when the RadButton is clicked, after the OnClientClicking event.
+
+###  OnClientClicking `String`
+
+Gets or sets the name of the JavaScript function that will be called when the RadButton is clicked. The event is cancelable.
+
+###  OnClientLoad `String`
+
+Gets or sets the name of the JavaScript function that will be called when the RadButton is loaded on the page.
+
+###  OnClientMouseOut `String`
+
+Gets or sets the name of the JavaScript function that will be called when the mouse pointer leaves the RadButton.
+
+###  OnClientMouseOver `String`
+
+Gets or sets the name of the JavaScript function that will be called when the mouse pointer hovers over the RadButton.
+
+###  OnClientToggleStateChanged `String`
+
+Gets or sets the name of the JavaScript function that will be called after the SelectedToggleStateIndex property of the RadButton control is changed.
+
+###  OnClientToggleStateChanging `String`
+
+Gets or sets the name of the JavaScript function that will be called when the SelectedToggleStateIndex property of the RadButton control is about to be changed.
+
+###  PostBackUrl `String`
+
+Gets or sets the URL of the page to post to from the current page when the RadButton control is clicked.
+
+###  PressedCssClass `String`
+
+Gets or sets the CSS class applied to the RadButton control when the control is pressed.
+
+###  Primary `Boolean`
+
+Gets/Sets the primary appearance of the button.
+
+###  ReadOnly `Boolean`
+
+Gets or sets a bool value indicating whether the RadButton control is in a read-only mode.
+
+###  ReadOnlyCssClass `Boolean`
+
+Gets or sets the CSS class applied to the RadButton control when it is in ReadOnly mode. The  property is set to true.
+
+###  RegisterWithScriptManager `Boolean`
+
+Gets or sets the value, indicating whether to register with the ScriptManager control on the page.
+
+#### Remarks
+If RegisterWithScriptManager is set to false the control can be rendered on the page using Web Services or normal callback requests/page methods.
+
+###  RenderMode `RenderMode`
+
+Specifies the rendering mode of the control. Setting the mode to Lightweight will yield
+            HTML 5/CSS 3 html and css.
+
+#### Remarks
+Lightweight rendering mode might change the outlook of the component in some older browsers
+            that don't support CSS3/HTML5.
+
+###  ResolvedRenderMode `RenderMode`
+
+Returns resolved RenderMode should the original value was Auto
+
+###  RuntimeSkin `String`
+
+Gets the real skin name for the control user interface. If Skin is not set, returns
+            "Default", otherwise returns Skin.
 
 ###  SelectedToggleState `RadButtonToggleState`
 
@@ -209,19 +237,6 @@ Gets or sets a bool value indicating whether the RadButton control will be immed
 
 Gets or sets the text displayed in the RadButton control after the button is being clicked and disabled. (i.e. the text used for the 'Single Click' functionality)
 
-###  SupportsRenderingMode `Boolean`
-
-###  TagKey `HtmlTextWriterTag`
-
-###  CssClassFormatString `String`
-
-###  RegisterWithScriptManager `Boolean`
-
-Gets or sets the value, indicating whether to register with the ScriptManager control on the page.
-
-#### Remarks
-If RegisterWithScriptManager is set to false the control can be rendered on the page using Web Services or normal callback requests/page methods.
-
 ###  Skin `String`
 
 Gets or sets the skin name for the control user interface.
@@ -230,97 +245,52 @@ Gets or sets the skin name for the control user interface.
 If this property is not set, the control will render using the skin named "Default".
             If EnableEmbeddedSkins is set to false, the control will not render skin.
 
-###  IsSkinSet `String`
+###  SplitButtonCssClass `String`
 
-For internal use.
+Gets or sets the CSS class applied to the SplitButton of the RadButton control.
 
-###  EnableEmbeddedScripts `Boolean`
+###  SplitButtonPosition `ButtonPosition`
 
-Gets or sets the value, indicating whether to render script references to the embedded scripts or not.
+Gets or sets the position (relative to the RadButton's text) of the split button.
 
-#### Remarks
-If EnableEmbeddedScripts is set to false you will have to register the needed Scripts files by hand.
+###  Target `String`
 
-###  EnableEmbeddedSkins `String`
+Gets or sets the target window or frame in which to display the Web page content linked to when the RadButton control is clicked.
 
-Gets or sets the value, indicating whether to render links to the embedded skins or not.
+###  Text `String`
 
-#### Remarks
-If EnableEmbeddedSkins is set to false you will have to register the needed CSS files by hand.
+Gets or sets the text displayed in the RadButton control.
 
-###  EnableEmbeddedBaseStylesheet `Boolean`
+###  ToggleStates `RadButtonToggleStateCollection`
 
-Gets or sets the value, indicating whether to render the link to the embedded base stylesheet of the control or not.
+Gets a collection of RadButtonToggleState objects that belong to the RadButton control.
 
-#### Remarks
-If EnableEmbeddedBaseStylesheet is set to false you will have to register the needed control base CSS file by hand.
+###  ToggleType `ButtonToggleType`
 
-###  RuntimeSkin `String`
+Gets or sets the toggle type of the RadButton control when used as a toggle button.
+            The Default is ButtonToggleType='None'.
 
-Gets the real skin name for the control user interface. If Skin is not set, returns
-            "Default", otherwise returns Skin.
+###  ToolTip `String`
 
-###  EnableAjaxSkinRendering `String`
+Gets or sets the text that will be displayed in the tooltip of the RadButton control when it is hovered.
 
-Gets or sets the value, indicating whether to render the skin CSS files during Ajax requests
+###  UseSubmitBehavior `Boolean`
 
-#### Remarks
-If EnableAjaxSkinRendering is set to false you will have to register the needed control base CSS file by hand when adding/showing the control with Ajax.
+Gets or sets a value indicating whether the RadButton control uses the client browser's submit mechanism or the ASP.NET postback mechanism.
 
-###  ClientStateFieldID `String`
+###  ValidationGroup `String`
 
-###  RenderMode `RenderMode`
+Gets or sets the group of controls for which the RadButton control causes validation when it posts back to the server.
 
-Specifies the rendering mode of the control. Setting the mode to Lightweight will yield
-            HTML 5/CSS 3 html and css.
+###  Value `String`
 
-#### Remarks
-Lightweight rendering mode might change the outlook of the component in some older browsers
-            that don't support CSS3/HTML5.
+Gets or sets an optional Value of the RadButton control.
 
-###  ResolvedRenderMode `RenderMode`
+###  Width `Unit`
 
-Returns resolved RenderMode should the original value was Auto
-
-###  CssClassFormatString `String`
-
-The CssClass property will now be used instead of the former Skin 
-            and will be modified in AddAttributesToRender()
-
-###  ClientIDMode `ClientIDMode`
-
-This property is overridden in order to support controls which implement INamingContainer.
-            The default value is changed to "AutoID".
-
-###  ScriptManager `ScriptManager`
-
-###  RadScriptManager `ScriptManager`
+Gets or sets the width of the RadButton control.
 
 ## Methods
-
-###  DescribeComponent
-
-#### Returns
-
-`System.Void` 
-
-###  LoadClientState
-
-#### Returns
-
-`System.Void` 
-
-###  ControlPreRender
-
-#### Returns
-
-`System.Void` 
-
-###  CreateControlRenderer
-
-#### Returns
-
-`Telerik.Web.UI.IRenderer` 
 
 ###  AddAttributesToRender
 
@@ -336,11 +306,65 @@ An HtmlTextWriter that contains the output stream to render on the client.
 
 `System.Void` 
 
-###  RenderContents
+###  ApplyConditionalRendering
+
+Use this from RenderContents of the inheritor
 
 #### Returns
 
 `System.Void` 
+
+###  ClearSelection
+
+Clears out the list selection and sets the Selected property of all ToggleState objects to false.
+
+#### Returns
+
+`System.Void` 
+
+###  ControlPreRender
+
+Code moved into this method from OnPreRender to make sure it executed when the framework skips OnPreRender() for some reason
+
+#### Returns
+
+`System.Void` 
+
+###  FindToggleStateByText
+
+Find a RadButton's ToggleState by the value of its Text property
+
+#### Parameters
+
+#### text `System.String`
+
+Text of the ToggleState
+
+#### Returns
+
+`Telerik.Web.UI.RadButtonToggleState` 
+
+###  FindToggleStateByValue
+
+Find a RadButton's ToggleState by the value of its Value property
+
+#### Parameters
+
+#### value `System.String`
+
+Value of the ToggleState
+
+#### Returns
+
+`Telerik.Web.UI.RadButtonToggleState` 
+
+###  GetEmbeddedSkinNames
+
+Returns the names of all embedded skins. Used by Telerik.Web.Examples.
+
+#### Returns
+
+`System.Collections.Generic.List`1` 
 
 ###  GetPostbackEventReference
 
@@ -358,6 +382,44 @@ Creates a PostBackOptions object that represents the RadButton control's postbac
 #### Returns
 
 `System.Web.UI.PostBackOptions` A PostBackOptions that represents the RadButton control's postback behavior.
+
+###  LoadClientState
+
+Loads the client state data
+
+#### Parameters
+
+#### clientState `System.Collections.Generic.Dictionary{System.String,System.Object}`
+
+#### Returns
+
+`System.Void` 
+
+###  LoadPostData
+
+Executed when post data is loaded from the request
+
+#### Parameters
+
+#### postDataKey `System.String`
+
+#### postCollection `System.Collections.Specialized.NameValueCollection`
+
+#### Returns
+
+`System.Boolean` 
+
+###  OnCheckedChanged
+
+Raises the CheckedChanged event of the RadButton control.
+
+#### Parameters
+
+#### e `System.EventArgs`
+
+#### Returns
+
+`System.Void` 
 
 ###  OnClick
 
@@ -382,18 +444,6 @@ Raises the Command event of the RadButton control.
 #### e `Telerik.Web.UI.ButtonCommandEventArgs`
 
 A ButtonCommandEventArgs that contains the event data.
-
-#### Returns
-
-`System.Void` 
-
-###  OnCheckedChanged
-
-Raises the CheckedChanged event of the RadButton control.
-
-#### Parameters
-
-#### e `System.EventArgs`
 
 #### Returns
 
@@ -425,12 +475,6 @@ The argument for the event.
 
 `System.Void` 
 
-###  LoadPostData
-
-#### Returns
-
-`System.Boolean` 
-
 ###  RaisePostDataChangedEvent
 
 Invokes the OnCheckedChanged and OnToggleStateChanged methods,
@@ -440,27 +484,47 @@ Invokes the OnCheckedChanged and OnToggleStateChanged methods,
 
 `System.Void` 
 
-###  LoadViewState
+###  RaisePostDataChangedEvent
+
+Executed when post data changes should invoke a changed event
 
 #### Returns
 
 `System.Void` 
 
-###  SaveViewState
+###  RegisterCssReferences
 
-#### Returns
-
-`System.Object` 
-
-###  TrackViewState
+Registers the CSS references
 
 #### Returns
 
 `System.Void` 
 
-###  ClearSelection
+###  RegisterScriptControl
 
-Clears out the list selection and sets the Selected property of all ToggleState objects to false.
+Registers the control with the ScriptManager
+
+#### Returns
+
+`System.Void` 
+
+###  SaveClientState
+
+Saves the client state data
+
+#### Returns
+
+`System.String` 
+
+###  SetSelectedToggleStateByText
+
+Sets the selected state by provided value.If multiple ToggleStates have equal value the first one will be selected.If ToggleState with the provided value is not registered the current ToggleState will not be changed.
+
+#### Parameters
+
+#### text `System.String`
+
+Text of the ToggleState to be selected
 
 #### Returns
 
@@ -479,224 +543,4 @@ Value of the ToggleState to be selected
 #### Returns
 
 `System.Void` 
-
-###  SetSelectedToggleStateByText
-
-Sets the selected state by provided value.If multiple ToggleStates have equal value the first one will be selected.If ToggleState with the provided value is not registered the current ToggleState will not be changed.
-
-#### Parameters
-
-#### text `System.String`
-
-Text of the ToggleState to be selected
-
-#### Returns
-
-`System.Void` 
-
-###  FindToggleStateByValue
-
-Find a RadButton's ToggleState by the value of its Value property
-
-#### Parameters
-
-#### value `System.String`
-
-Value of the ToggleState
-
-#### Returns
-
-`Telerik.Web.UI.RadButtonToggleState` 
-
-###  FindToggleStateByText
-
-Find a RadButton's ToggleState by the value of its Text property
-
-#### Parameters
-
-#### text `System.String`
-
-Text of the ToggleState
-
-#### Returns
-
-`Telerik.Web.UI.RadButtonToggleState` 
-
-###  DescribeClientProperties
-
-#### Returns
-
-`System.Void` 
-
-###  DescribeClientEvents
-
-#### Returns
-
-`System.Void` 
-
-###  AddAttributesToRender
-
-#### Returns
-
-`System.Void` 
-
-###  OnPreRender
-
-#### Returns
-
-`System.Void` 
-
-###  ControlPreRender
-
-Code moved into this method from OnPreRender to make sure it executed when the framework skips OnPreRender() for some reason
-
-#### Returns
-
-`System.Void` 
-
-###  RegisterScriptControl
-
-Registers the control with the ScriptManager
-
-#### Returns
-
-`System.Void` 
-
-###  RegisterCssReferences
-
-Registers the CSS references
-
-#### Returns
-
-`System.Void` 
-
-###  LoadClientState
-
-Loads the client state data
-
-#### Parameters
-
-#### clientState `System.Collections.Generic.Dictionary{System.String,System.Object}`
-
-#### Returns
-
-`System.Void` 
-
-###  SaveClientState
-
-Saves the client state data
-
-#### Returns
-
-`System.String` 
-
-###  RenderClientStateField
-
-#### Returns
-
-`System.Void` 
-
-###  RenderBeginTag
-
-#### Returns
-
-`System.Void` 
-
-###  RenderEndTag
-
-#### Returns
-
-`System.Void` 
-
-###  Render
-
-#### Returns
-
-`System.Void` 
-
-###  RenderScriptsNoScriptManager
-
-#### Returns
-
-`System.Void` 
-
-###  RenderDescriptorsNoScriptManager
-
-#### Returns
-
-`System.Void` 
-
-###  RenderContents
-
-#### Returns
-
-`System.Void` 
-
-###  ApplyConditionalRendering
-
-Use this from RenderContents of the inheritor
-
-#### Returns
-
-`System.Void` 
-
-###  DescribeComponent
-
-#### Returns
-
-`System.Void` 
-
-###  DescribeProperty
-
-#### Returns
-
-`System.Void` 
-
-###  DescribeIDReferenceProperty
-
-#### Returns
-
-`System.Void` 
-
-###  DescribeEvent
-
-#### Returns
-
-`System.Void` 
-
-###  GetEmbeddedSkinNames
-
-Returns the names of all embedded skins. Used by Telerik.Web.Examples.
-
-#### Returns
-
-`System.Collections.Generic.List`1` 
-
-###  LoadPostData
-
-Executed when post data is loaded from the request
-
-#### Parameters
-
-#### postDataKey `System.String`
-
-#### postCollection `System.Collections.Specialized.NameValueCollection`
-
-#### Returns
-
-`System.Boolean` 
-
-###  RaisePostDataChangedEvent
-
-Executed when post data changes should invoke a changed event
-
-#### Returns
-
-`System.Void` 
-
-###  GetViewStateValue
-
-#### Returns
-
-`Telerik.Web.UI.T` 
 

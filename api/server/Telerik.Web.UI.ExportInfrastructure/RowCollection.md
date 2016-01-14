@@ -15,10 +15,6 @@ EI Row collection
 
 ## Properties
 
-###  Table `Table`
-
-Provides a reference to the owner Table
-
 ###  Count `Int32`
 
 Returns the number of created rows
@@ -26,6 +22,10 @@ Returns the number of created rows
 ###  Item `Row`
 
 Gets/sets a Row object by given index
+
+###  Table `Table`
+
+Provides a reference to the owner Table
 
 ## Methods
 

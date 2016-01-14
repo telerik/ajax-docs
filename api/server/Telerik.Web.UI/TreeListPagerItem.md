@@ -20,10 +20,26 @@ Represents the pager item in Telerik.Web.UI.RadTreeList .
 
 ## Properties
 
-###  TableSection `TableRowSection`
+###  IsDataBinding `Boolean`
 
-Returns a value of type TableRowSection indicating where the pager item row is placed in the 
-            Table control rendered by RadTreeList.
+Gets or sets a value indicating whether the control is currently being bound.
+
+###  IsTopItem `Boolean`
+
+Gets a boolean value indicating whether the pager item is placed on top or bottom of the 
+            rendered treelist control.
+
+###  ItemType `TreeListItemType`
+
+Gets a value from the TreeListItemType enumeration indicating what role the items has in the treelist.
+
+###  NumericPager `Control`
+
+Gets a reference to the numeric pager Control object.
+
+###  OwnerTreeList `RadTreeList`
+
+Gets a reference to the owner RadTreeList object.
 
 ###  PagerContentCell `TableCell`
 
@@ -33,36 +49,28 @@ Gets a reference to the TableCell that holds the pager item content.
 
 Gets a reference to the TreeListPagingManager object for the current RadTreeList object.
 
-###  IsTopItem `Boolean`
+###  TableSection `TableRowSection`
 
-Gets a boolean value indicating whether the pager item is placed on top or bottom of the 
-            rendered treelist control.
-
-###  NumericPager `Control`
-
-Gets a reference to the numeric pager Control object.
-
-###  ItemType `TreeListItemType`
-
-Gets a value from the TreeListItemType enumeration indicating what role the items has in the treelist.
-
-###  OwnerTreeList `RadTreeList`
-
-Gets a reference to the owner RadTreeList object.
-
-###  IsDataBinding `Boolean`
-
-Gets or sets a value indicating whether the control is currently being bound.
+Returns a value of type TableRowSection indicating where the pager item row is placed in the 
+            Table control rendered by RadTreeList.
 
 ## Methods
 
-###  Initialize
+###  FireCommandEvent
 
-Initializes the TreeListPagerItem.
+Use this method to simulate item command event that bubbles to 
+             and can be handled automatically or in a
+            custom manner, handling .ItemCommand event.
 
 #### Parameters
 
-#### columns `System.Collections.Generic.IList{Telerik.Web.UI.TreeListColumn}`
+#### commandName `System.String`
+
+command to bubble, for example 'Page'
+
+#### commandArgument `System.Object`
+
+command argument, for example 'Next'
 
 #### Returns
 
@@ -88,6 +96,18 @@ must be on of the following:
 
 ###  Initialize
 
+Initializes the TreeListPagerItem.
+
+#### Parameters
+
+#### columns `System.Collections.Generic.IList{Telerik.Web.UI.TreeListColumn}`
+
+#### Returns
+
+`System.Void` 
+
+###  Initialize
+
 Initializes the footer item.
 
 #### Parameters
@@ -95,34 +115,6 @@ Initializes the footer item.
 #### columns `System.Collections.Generic.IList{Telerik.Web.UI.TreeListColumn}`
 
 The columns to which the footer cells should be added.
-
-#### Returns
-
-`System.Void` 
-
-###  PrepareItemStyle
-
-Override this method to change the default logic for rendering the item
-
-#### Returns
-
-`System.Void` 
-
-###  FireCommandEvent
-
-Use this method to simulate item command event that bubbles to 
-             and can be handled automatically or in a
-            custom manner, handling .ItemCommand event.
-
-#### Parameters
-
-#### commandName `System.String`
-
-command to bubble, for example 'Page'
-
-#### commandArgument `System.Object`
-
-command argument, for example 'Next'
 
 #### Returns
 

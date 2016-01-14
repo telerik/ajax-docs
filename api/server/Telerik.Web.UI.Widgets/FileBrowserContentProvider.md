@@ -25,36 +25,6 @@ Gets a value indicating whether the ContentProvider can create directory items o
 
 The HttpContext object, set in the constructor of the class.
 
-###  SelectedUrl `String`
-
-Gets or sets the url of the selected item. The file browser will navigate to the item
-            which has this url.
-
-###  SelectedItemTag `String`
-
-Gets or sets the tag of the selected item. The file browser will navigate to the item
-            which has this tag. Used mainly in Database content providers, where the file items have
-            special url for accessing.
-
-###  SearchPatterns `String[]`
-
-Gets the search patterns for the file items to be displayed in the FileBrowser control. This property
-            is set in the constructor of the class. Supports wildcards.
-
-###  ViewPaths `String[]`
-
-Gets the paths which will be displayed in the dialog. This is passed by RadEditor and is 
-            one of the values of ImagesPaths, DocumentsPaths, MediaPaths, FlashPaths, TemplatesPaths properties. 
-            You can disregard this value if you have custom mechanism for determining the rights for 
-            directory / file displaying.
-
-###  UploadPaths `String[]`
-
-Gets the paths which will allow uploading in the dialog. This is passed by RadEditor and is 
-            one of the values of UploadImagesPaths, UploadDocumentsPaths, UploadMediaPaths, UploadFlashPaths, 
-            UploadTemplatesPaths properties. You can disregard this value if you have custom mechanism for determining the rights
-            for uploading.
-
 ###  DeletePaths `String[]`
 
 The paths which will allow deleting in the dialog. This is passed by RadEditor and is 
@@ -66,66 +36,175 @@ The paths which will allow deleting in the dialog. This is passed by RadEditor a
 
 The character, used to separate parts of the virtual path (e.g. '/' is the path separator in /path1/path2/file)
 
+###  SearchPatterns `String[]`
+
+Gets the search patterns for the file items to be displayed in the FileBrowser control. This property
+            is set in the constructor of the class. Supports wildcards.
+
+###  SelectedItemTag `String`
+
+Gets or sets the tag of the selected item. The file browser will navigate to the item
+            which has this tag. Used mainly in Database content providers, where the file items have
+            special url for accessing.
+
+###  SelectedUrl `String`
+
+Gets or sets the url of the selected item. The file browser will navigate to the item
+            which has this url.
+
+###  UploadPaths `String[]`
+
+Gets the paths which will allow uploading in the dialog. This is passed by RadEditor and is 
+            one of the values of UploadImagesPaths, UploadDocumentsPaths, UploadMediaPaths, UploadFlashPaths, 
+            UploadTemplatesPaths properties. You can disregard this value if you have custom mechanism for determining the rights
+            for uploading.
+
+###  ViewPaths `String[]`
+
+Gets the paths which will be displayed in the dialog. This is passed by RadEditor and is 
+            one of the values of ImagesPaths, DocumentsPaths, MediaPaths, FlashPaths, TemplatesPaths properties. 
+            You can disregard this value if you have custom mechanism for determining the rights for 
+            directory / file displaying.
+
 ## Methods
 
-###  NormalizeRelativePath
+###  CheckDeletePermissions
 
-Normalizes paths that contain parent references - /..
+Checks if the current configuration allows deleting from the specified folder
+
+#### Parameters
+
+#### folderPath `System.String`
+
+the virtual path that will be checked
+
+#### Returns
+
+`System.Boolean` true if deleting is allowed, otherwise false
+
+###  CheckReadPermissions
+
+Checks if the current configuration allows reading from the specified folder
+
+#### Parameters
+
+#### folderPath `System.String`
+
+The virtual path that will be checked
+
+#### Returns
+
+`System.Boolean` True if reading is allowed, otherwise false
+
+###  CheckWritePermissions
+
+Checks if the current configuration allows writing (uploading) to the specified folder
+
+#### Parameters
+
+#### folderPath `System.String`
+
+the virtual path that will be checked
+
+#### Returns
+
+`System.Boolean` true if writing is allowed, otherwise false
+
+###  CopyDirectory
+
+Copies a directory from a one virtual path to a new one
 
 #### Parameters
 
 #### path `System.String`
 
-The path that will be normalized
+old virtual location
+
+#### newPath `System.String`
+
+new virtual location
 
 #### Returns
 
-`System.String` The normalized path that now points directly to its target
+`System.String` string.Empty when the operation was successful; otherwise an error message token.
 
-###  ResolveRootDirectoryAsList
+###  CopyFile
 
-Resolves a root directory with the given path in list mode.
+Copies a file from a one virtual path to a new one.
 
 #### Parameters
 
 #### path `System.String`
 
-The virtual path of the directory.
+old virtual location
+
+#### newPath `System.String`
+
+new virtual location
 
 #### Returns
 
-`Telerik.Web.UI.Widgets.DirectoryItem[]` A DirectoryItem array, containing the root directory and all child directories.
+`System.String` string.Empty when the operation was successful; otherwise an error message token.
 
-###  ResolveRootDirectoryAsTree
+###  CreateDirectory
 
-Resolves a root directory with the given path in tree mode. This method populates the Directories collection in the returned DirectoryItem
+Creates a directory item in the given path with the given name.
 
 #### Parameters
 
 #### path `System.String`
 
-The virtual path of the directory.
+The path where the directory item should be created.
+
+#### name `System.String`
+
+The name of the new directory item.
 
 #### Returns
 
-`Telerik.Web.UI.Widgets.DirectoryItem` A DirectoryItem, containing the root directory.
+`System.String` string.Empty when the operation was successful; otherwise an error message token.
 
-###  ResolveDirectory
+###  DeleteDirectory
 
-Resolves a directory with the given path. This method populates the Files collection in the returned DirectoryItem
-
-#### Remarks
-Used mainly in the Ajax calls.
+Deletes the directory item with the given virtual path.
 
 #### Parameters
 
 #### path `System.String`
 
-The virtual path of the directory.
+The virtual path of the directory item.
 
 #### Returns
 
-`Telerik.Web.UI.Widgets.DirectoryItem` A DirectoryItem, containing the directory.
+`System.String` string.Empty when the operation was successful; otherwise an error message token.
+
+###  DeleteFile
+
+Deletes the file item with the given virtual path.
+
+#### Parameters
+
+#### path `System.String`
+
+The virtual path of the file item.
+
+#### Returns
+
+`System.String` string.Empty when the operation was successful; otherwise an error message token.
+
+###  GetFile
+
+Gets a read only Stream for accessing the file item with the given url.
+
+#### Parameters
+
+#### url `System.String`
+
+The url of the file.
+
+#### Returns
+
+`System.IO.Stream` Stream for accessing the contents of the file item with the given url.
 
 ###  GetFileName
 
@@ -155,19 +234,121 @@ The url of the item.
 
 `System.String` String containing the path of the item.
 
-###  GetFile
+###  MoveDirectory
 
-Gets a read only Stream for accessing the file item with the given url.
+Moves a directory from a one virtual path to a new one. This method can also be used for renaming items.
+
+#### Parameters
+
+#### path `System.String`
+
+old virtual location
+
+#### newPath `System.String`
+
+new virtual location
+
+#### Returns
+
+`System.String` string.Empty when the operation was successful; otherwise an error message token.
+
+###  MoveFile
+
+Moves a file from a one virtual path to a new one. This method can also be used for renaming items.
+
+#### Parameters
+
+#### path `System.String`
+
+old virtual location
+
+#### newPath `System.String`
+
+new virtual location
+
+#### Returns
+
+`System.String` string.Empty when the operation was successful; otherwise an error message token.
+
+###  NormalizeRelativePath
+
+Normalizes paths that contain parent references - /..
+
+#### Parameters
+
+#### path `System.String`
+
+The path that will be normalized
+
+#### Returns
+
+`System.String` The normalized path that now points directly to its target
+
+###  RemoveProtocolNameAndServerName
+
+Removes the protocol and the server names from the given url.
+
+#### Remarks
+Url: http://www.myserver.com/myapp/mydirectory/myfile
+            Result: /myapp/mydirectory/myfile
+            
+            Url: www.myserver.com/myapp/mydirectory/myfile
+            Result: /myapp/mydirectory/myfile
 
 #### Parameters
 
 #### url `System.String`
 
-The url of the file.
+Fully qualified url to a file or directory item.
 
 #### Returns
 
-`System.IO.Stream` Stream for accessing the contents of the file item with the given url.
+`System.String` The root based absolute path.
+
+###  ResolveDirectory
+
+Resolves a directory with the given path. This method populates the Files collection in the returned DirectoryItem
+
+#### Remarks
+Used mainly in the Ajax calls.
+
+#### Parameters
+
+#### path `System.String`
+
+The virtual path of the directory.
+
+#### Returns
+
+`Telerik.Web.UI.Widgets.DirectoryItem` A DirectoryItem, containing the directory.
+
+###  ResolveRootDirectoryAsList
+
+Resolves a root directory with the given path in list mode.
+
+#### Parameters
+
+#### path `System.String`
+
+The virtual path of the directory.
+
+#### Returns
+
+`Telerik.Web.UI.Widgets.DirectoryItem[]` A DirectoryItem array, containing the root directory and all child directories.
+
+###  ResolveRootDirectoryAsTree
+
+Resolves a root directory with the given path in tree mode. This method populates the Directories collection in the returned DirectoryItem
+
+#### Parameters
+
+#### path `System.String`
+
+The virtual path of the directory.
+
+#### Returns
+
+`Telerik.Web.UI.Widgets.DirectoryItem` A DirectoryItem, containing the root directory.
 
 ###  StoreBitmap
 
@@ -253,185 +434,4 @@ Additional values to be stored such as Description, DisplayName, etc.
 #### Returns
 
 `System.String` String containing the full virtual path (including the file name) of the file item.
-
-###  DeleteFile
-
-Deletes the file item with the given virtual path.
-
-#### Parameters
-
-#### path `System.String`
-
-The virtual path of the file item.
-
-#### Returns
-
-`System.String` string.Empty when the operation was successful; otherwise an error message token.
-
-###  DeleteDirectory
-
-Deletes the directory item with the given virtual path.
-
-#### Parameters
-
-#### path `System.String`
-
-The virtual path of the directory item.
-
-#### Returns
-
-`System.String` string.Empty when the operation was successful; otherwise an error message token.
-
-###  CreateDirectory
-
-Creates a directory item in the given path with the given name.
-
-#### Parameters
-
-#### path `System.String`
-
-The path where the directory item should be created.
-
-#### name `System.String`
-
-The name of the new directory item.
-
-#### Returns
-
-`System.String` string.Empty when the operation was successful; otherwise an error message token.
-
-###  MoveFile
-
-Moves a file from a one virtual path to a new one. This method can also be used for renaming items.
-
-#### Parameters
-
-#### path `System.String`
-
-old virtual location
-
-#### newPath `System.String`
-
-new virtual location
-
-#### Returns
-
-`System.String` string.Empty when the operation was successful; otherwise an error message token.
-
-###  MoveDirectory
-
-Moves a directory from a one virtual path to a new one. This method can also be used for renaming items.
-
-#### Parameters
-
-#### path `System.String`
-
-old virtual location
-
-#### newPath `System.String`
-
-new virtual location
-
-#### Returns
-
-`System.String` string.Empty when the operation was successful; otherwise an error message token.
-
-###  CopyFile
-
-Copies a file from a one virtual path to a new one.
-
-#### Parameters
-
-#### path `System.String`
-
-old virtual location
-
-#### newPath `System.String`
-
-new virtual location
-
-#### Returns
-
-`System.String` string.Empty when the operation was successful; otherwise an error message token.
-
-###  CopyDirectory
-
-Copies a directory from a one virtual path to a new one
-
-#### Parameters
-
-#### path `System.String`
-
-old virtual location
-
-#### newPath `System.String`
-
-new virtual location
-
-#### Returns
-
-`System.String` string.Empty when the operation was successful; otherwise an error message token.
-
-###  RemoveProtocolNameAndServerName
-
-Removes the protocol and the server names from the given url.
-
-#### Remarks
-Url: http://www.myserver.com/myapp/mydirectory/myfile
-            Result: /myapp/mydirectory/myfile
-            
-            Url: www.myserver.com/myapp/mydirectory/myfile
-            Result: /myapp/mydirectory/myfile
-
-#### Parameters
-
-#### url `System.String`
-
-Fully qualified url to a file or directory item.
-
-#### Returns
-
-`System.String` The root based absolute path.
-
-###  CheckReadPermissions
-
-Checks if the current configuration allows reading from the specified folder
-
-#### Parameters
-
-#### folderPath `System.String`
-
-The virtual path that will be checked
-
-#### Returns
-
-`System.Boolean` True if reading is allowed, otherwise false
-
-###  CheckDeletePermissions
-
-Checks if the current configuration allows deleting from the specified folder
-
-#### Parameters
-
-#### folderPath `System.String`
-
-the virtual path that will be checked
-
-#### Returns
-
-`System.Boolean` true if deleting is allowed, otherwise false
-
-###  CheckWritePermissions
-
-Checks if the current configuration allows writing (uploading) to the specified folder
-
-#### Parameters
-
-#### folderPath `System.String`
-
-the virtual path that will be checked
-
-#### Returns
-
-`System.Boolean` true if writing is allowed, otherwise false
 

@@ -15,18 +15,13 @@ This class implements the UploadedFileInfo object and its fields and methods.
 
 ## Properties
 
-###  FileName `String`
+###  ContentLength `Int64`
 
-Gets the fully-qualified name of the file on the client's computer (for example
-            "C:\MyFiles\Test.txt").
+Gets the size in bytes of an uploaded file.
 
 ###  ContentType `String`
 
 Gets the MIME content type of a file sent by a client.
-
-###  ContentLength `Int64`
-
-Gets the size in bytes of an uploaded file.
 
 ###  DateJson `String`
 
@@ -34,6 +29,11 @@ Gets the last modified date of the uploaded file in JSON format.
 
 #### Remarks
 The property is available only in RadAsyncUpload control when FileApi module is used
+
+###  FileName `String`
+
+Gets the fully-qualified name of the file on the client's computer (for example
+            "C:\MyFiles\Test.txt").
 
 ###  Index `Int32`
 

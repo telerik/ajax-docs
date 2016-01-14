@@ -22,6 +22,10 @@ Provides data for the E:Telerik.Web.UI.RadScheduler.OccurrenceDelete event of th
 
 Gets the master appointment that was used to generate the occurrence.
 
+###  Appointment `Appointment`
+
+Gets the appointment.
+
 ###  OccurrenceAppointment `Appointment`
 
 Gets the occurrence appointment that is about to be removed.
@@ -29,8 +33,4 @@ Gets the occurrence appointment that is about to be removed.
 #### Remarks
 This can also be the master appointment itself. If this is the case,
             it'll remain in the Appointments collection, but it will be hidden (Visible=false).
-
-###  Appointment `Appointment`
-
-Gets the appointment.
 

@@ -15,21 +15,13 @@ Represents an abstraction of a calculated field.
 
 ## Properties
 
+###  DisplayName `String`
+
 ###  Name `String`
 
 Gets the name of the calculated field.
 
-###  DisplayName `String`
-
 ## Methods
-
-###  RequiredFields
-
-Gets all fields used in calculation.
-
-#### Returns
-
-`System.Collections.Generic.IEnumerable`1` Enumerable of all property names used in calculation.
 
 ###  CalculateValue
 
@@ -44,4 +36,12 @@ Interface used to get summary aggregate values for all properties returned by  m
 #### Returns
 
 `Telerik.Web.UI.PivotGrid.Core.AggregateValue` The calculated values.
+
+###  RequiredFields
+
+Gets all fields used in calculation.
+
+#### Returns
+
+`System.Collections.Generic.IEnumerable`1` Enumerable of all property names used in calculation.
 

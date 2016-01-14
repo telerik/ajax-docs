@@ -24,13 +24,13 @@ Gets the DataSource of the   control when the event is raised.
 
 Gets the text value of the  control when the event is raised.
 
-###  ShowAllResults `Boolean`
-
-Gets whether  should return all matched items.
-
 ###  SelectedContextItem `SearchContextItemData`
 
 Gets the currenctly selected  from the search context.
+
+###  ShowAllResults `Boolean`
+
+Gets whether  should return all matched items.
 
 ###  UserContext `IDictionary`
 

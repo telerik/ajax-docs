@@ -29,20 +29,6 @@ Color object
 
 `System.String` HTML-coded color string
 
-###  ConvertUnitsToPoints
-
-Converts Unit values to point (UnitType.Point)
-
-#### Parameters
-
-#### unit `System.Web.UI.WebControls.Unit`
-
-Unit value
-
-#### Returns
-
-`System.Double` Point value (double)
-
 ###  ConvertHorizontalAlign
 
 Converts ASP.NET HorizontalAlign to ExcelML HorizontalAlignmentType
@@ -56,4 +42,18 @@ HorizontalAlign value
 #### Returns
 
 `Telerik.Web.UI.GridExcelBuilder.HorizontalAlignmentType` HorizontalAlignmentType value
+
+###  ConvertUnitsToPoints
+
+Converts Unit values to point (UnitType.Point)
+
+#### Parameters
+
+#### unit `System.Web.UI.WebControls.Unit`
+
+Unit value
+
+#### Returns
+
+`System.Double` Point value (double)
 

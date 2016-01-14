@@ -22,17 +22,17 @@ Converts instances of other types to and from Telerik.Web.UI.PivotGrid.Core.Aggr
 
 `System.Boolean` 
 
-###  ConvertFrom
-
-#### Returns
-
-`System.Object` 
-
 ###  CanConvertTo
 
 #### Returns
 
 `System.Boolean` 
+
+###  ConvertFrom
+
+#### Returns
+
+`System.Object` 
 
 ###  ConvertTo
 

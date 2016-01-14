@@ -15,39 +15,9 @@ State Persister Base Abstract class. Should be implemented for each control. Rea
 
 ## Methods
 
-###  SaveState
+###  ApplySettings
 
-Saves the state of the corresponding control using the assigned StateSerializer and StateStorageProvider
-
-#### Remarks
-Raises StateSave event
-
-#### Parameters
-
-#### ctrl `System.Web.UI.Control`
-
-RadControl instance which state should be saved
-
-#### Returns
-
-`System.Void` 
-
-###  SaveState
-
-Saves the state of the corresponding control using the assigned StateSerializer and StateStorageProvider
-
-#### Remarks
-Raises StateSave event
-
-#### Parameters
-
-#### ctrl `System.Web.UI.Control`
-
-RadControl instance which state should be saved
-
-#### key `System.String`
-
-The indentifier under which the state will be saved.
+Applys the control's settings. This method will be generated using T4 Template.
 
 #### Returns
 
@@ -103,21 +73,39 @@ Reads the control's settings.
 
 `System.Void` 
 
-###  ApplySettings
+###  SaveState
 
-Applys the control's settings. This method will be generated using T4 Template.
+Saves the state of the corresponding control using the assigned StateSerializer and StateStorageProvider
+
+#### Remarks
+Raises StateSave event
+
+#### Parameters
+
+#### ctrl `System.Web.UI.Control`
+
+RadControl instance which state should be saved
 
 #### Returns
 
 `System.Void` 
 
-###  OnStateSave
+###  SaveState
 
-#### Returns
+Saves the state of the corresponding control using the assigned StateSerializer and StateStorageProvider
 
-`System.Void` 
+#### Remarks
+Raises StateSave event
 
-###  OnStateLoad
+#### Parameters
+
+#### ctrl `System.Web.UI.Control`
+
+RadControl instance which state should be saved
+
+#### key `System.String`
+
+The indentifier under which the state will be saved.
 
 #### Returns
 

@@ -15,38 +15,6 @@ Used to serialize resource values.
 
 ## Methods
 
-###  Serialize
-
-Serializes the specified object to serialize.
-
-#### Parameters
-
-#### objectToSerialize `System.Object`
-
-The object to serialize.
-
-#### Returns
-
-`System.String` 
-
-###  Serialize
-
-Serializes the specified object to serialize.
-
-#### Parameters
-
-#### objectToSerialize `System.Object`
-
-The object to serialize.
-
-#### enableMacValidation `System.Boolean`
-
-The enable mac validation.
-
-#### Returns
-
-`System.String` 
-
 ###  Deserialize
 
 Deserializes the specified serialized object.
@@ -78,4 +46,36 @@ The enable mac validation.
 #### Returns
 
 `System.Object` 
+
+###  Serialize
+
+Serializes the specified object to serialize.
+
+#### Parameters
+
+#### objectToSerialize `System.Object`
+
+The object to serialize.
+
+#### Returns
+
+`System.String` 
+
+###  Serialize
+
+Serializes the specified object to serialize.
+
+#### Parameters
+
+#### objectToSerialize `System.Object`
+
+The object to serialize.
+
+#### enableMacValidation `System.Boolean`
+
+The enable mac validation.
+
+#### Returns
+
+`System.String` 
 

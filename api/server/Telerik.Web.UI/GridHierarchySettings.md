@@ -16,41 +16,33 @@ Container of misc. grouping settings of RadGrid control
 
 ## Properties
 
-###  ExpandTooltip `String`
+###  CollapseAllTooltip `String`
 
 Gets or sets a string that represents the tooltip that will be shown when the
-            expand image is hovered.
-
-###  ExpandAllTooltip `String`
-
-Gets or sets a string that represents the tooltip that will be shown when the
-            expand all button in the header is hovered.
+            collapse all button in the header is hovered.
 
 ###  CollapseTooltip `String`
 
 Gets or sets a string that represents the tooltip that will be shown when the
             collapse image is hovered.
 
-###  CollapseAllTooltip `String`
+###  ExpandAllTooltip `String`
 
 Gets or sets a string that represents the tooltip that will be shown when the
-            collapse all button in the header is hovered.
+            expand all button in the header is hovered.
 
-###  SelfExpandTooltip `String`
+###  ExpandTooltip `String`
 
 Gets or sets a string that represents the tooltip that will be shown when the
-            self-hierarchy expand image is hovered.
+            expand image is hovered.
 
 ###  SelfCollapseTooltip `String`
 
 Gets or sets a string that represents the tooltip that will be shown when the
             self-hierarchy collapse image is hovered.
 
-## Methods
+###  SelfExpandTooltip `String`
 
-###  GetViewStateValue
-
-#### Returns
-
-`Telerik.Web.UI.T` 
+Gets or sets a string that represents the tooltip that will be shown when the
+            self-hierarchy expand image is hovered.
 

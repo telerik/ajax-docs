@@ -25,13 +25,13 @@ The ID of the web control that is to be updated.
 The ID of the RadAjaxLoadingPanel to be displayed during the update of the
             control.
 
-###  UpdatePanelHeight `Unit`
-
-Height which will be set to the generated UpdatePanel
-
 ###  UpdatePanelCssClass `String`
 
 Set class attribute to UpdatePanel that will wrap the UpdatedControl
+
+###  UpdatePanelHeight `Unit`
+
+Height which will be set to the generated UpdatePanel
 
 ###  UpdatePanelRenderMode `UpdatePanelRenderMode`
 

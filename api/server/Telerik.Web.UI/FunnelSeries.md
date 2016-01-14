@@ -17,65 +17,25 @@ The class that provides the functionality of a funnel chart
 
 ## Properties
 
-###  SeriesItems `FunnelSeriesItemCollection`
+###  Appearance `SeriesAppearance`
 
-Creates a collection of funnel series items.
-
-###  LabelsAppearance `FunnelSeriesLabelsAppearance`
-
-Defines the appearance settings of the series labels
-
-###  SegmentSpacing `Nullable`1`
-
-Get/Set the spacing between the funnel's segments
-
-###  NeckRatio `Nullable`1`
-
-Get/Set the neck ratio of the funnel's segments
-
-###  DynamicSlopeEnabled `Boolean`
-
-Get/Set the slope of funnel's segments
-
-###  DynamicHeightEnabled `Boolean`
-
-Get/Set the automatic change of segment's height according to the item's value
-
-###  DataNameField `String`
-
-Specifies the name of the series items in a databound scenario. This name will appear in the legend.
-
-###  Type `SeriesType`
-
-Gets the type of the series
-
-###  Data `String`
-
-Get/Set the serialized data entities in a list format. This property is usually set if the series is data bound
-
-###  Name `String`
-
-Get/Set the name of the series
-
-###  Visible `Boolean`
-
-Get/Set the visibility of the series
+Defines the appearance settings of the series
 
 ###  AxisName `String`
 
 Get/set the name of the axis, to which the values will be associated
 
+###  ColorField `String`
+
+Specifies the color of the series when the chart is databound.
+
+###  Data `String`
+
+Get/Set the serialized data entities in a list format. This property is usually set if the series is data bound
+
 ###  DataField `String`
 
 The data field with the values of the series
-
-###  DataFieldX `String`
-
-The data field with the values of the series along the X axis
-
-###  DataFieldY `String`
-
-The data field with the values of the series along the Y axis
 
 ###  DataFieldSize `String`
 
@@ -85,6 +45,30 @@ Specifies the size value of the bubble item in bubble series when the chart is d
 
 Specifies the tooltip value of the bubble item in bubble series when the chart is databound.
 
+###  DataFieldX `String`
+
+The data field with the values of the series along the X axis
+
+###  DataFieldY `String`
+
+The data field with the values of the series along the Y axis
+
+###  DataNameField `String`
+
+Specifies the name of the series items in a databound scenario. This name will appear in the legend.
+
+###  DataVisibleInLegendField `String`
+
+Specifies the visibility of the series items in the legend for a data-bound scenario.
+
+###  DynamicHeightEnabled `Boolean`
+
+Get/Set the automatic change of segment's height according to the item's value
+
+###  DynamicSlopeEnabled `Boolean`
+
+Get/Set the slope of funnel's segments
+
 ###  Items `SeriesItemCollection`
 
 The Items collection is Obsolete. Use the SeriesItems collection to specify the series items.
@@ -92,17 +76,41 @@ The Items collection is Obsolete. Use the SeriesItems collection to specify the 
 #### Remarks
 The Items collection is Obsolete. Use the SeriesItems collection to programmatically set the series items.
 
-###  Appearance `SeriesAppearance`
+###  LabelsAppearance `FunnelSeriesLabelsAppearance`
 
-Defines the appearance settings of the series
+Defines the appearance settings of the series labels
+
+###  Name `String`
+
+Get/Set the name of the series
+
+###  NeckRatio `Nullable`1`
+
+Get/Set the neck ratio of the funnel's segments
+
+###  SegmentSpacing `Nullable`1`
+
+Get/Set the spacing between the funnel's segments
+
+###  SeriesItems `FunnelSeriesItemCollection`
+
+Creates a collection of funnel series items.
 
 ###  TooltipsAppearance `SeriesAppearance`
 
 Defines the appearance settings of the series
 
-###  ColorField `String`
+###  Type `SeriesType`
 
-Specifies the color of the series when the chart is databound.
+Gets the type of the series
+
+###  Visible `Boolean`
+
+Get/Set the visibility of the series
+
+###  VisibleInLegend `Boolean`
+
+Get/Set the visibility of the series in the legend
 
 ###  ZIndex `Nullable`1`
 

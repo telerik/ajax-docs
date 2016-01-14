@@ -18,30 +18,6 @@ Represents settings for RadScheduler's Agenda view.
 
 ## Properties
 
-###  UserSelectable `Boolean`
-
-Gets or sets a value indicating whether to render a tab for the current view in the view chooser.
-
-###  HeaderDateFormat `String`
-
-Gets or sets the Year view header date format string.
-
-#### Remarks
-For additional information, please read this
-            MSDN article.
-
-###  ShowMonthHeaders `Boolean`
-
-Gets or sets a value indicating whether to render month headers for the year view.
-
-###  DayHeaderDateFormat `String`
-
-Gets or sets the day header date format string in Year View.
-
-#### Remarks
-For additional information, please read this
-            MSDN article.
-
 ###  ColumnHeaderDateFormat `String`
 
 Gets or sets the column header date format string in Year View.
@@ -50,9 +26,9 @@ Gets or sets the column header date format string in Year View.
 For additional information, please read this
             MSDN article.
 
-###  MonthHeaderDateFormat `String`
+###  DayHeaderDateFormat `String`
 
-Gets or sets the month header date format string in Year View.
+Gets or sets the day header date format string in Year View.
 
 #### Remarks
 For additional information, please read this
@@ -66,9 +42,21 @@ Gets or sets the resource to group by.
 
 Gets or sets the resource grouping direction.
 
-###  ShowResourceHeaders `Boolean`
+###  HeaderDateFormat `String`
 
-Gets or sets a value indicating whether to render resource headers for the current view.
+Gets or sets the Year view header date format string.
+
+#### Remarks
+For additional information, please read this
+            MSDN article.
+
+###  MonthHeaderDateFormat `String`
+
+Gets or sets the month header date format string in Year View.
+
+#### Remarks
+For additional information, please read this
+            MSDN article.
 
 ###  ReadOnly `Boolean`
 
@@ -81,15 +69,19 @@ By default the user is able to insert, edit and delete appointments. Use the Rea
 
 Gets or sets a value indicating whether to render date headers for the current view.
 
+###  ShowMonthHeaders `Boolean`
+
+Gets or sets a value indicating whether to render month headers for the year view.
+
+###  ShowResourceHeaders `Boolean`
+
+Gets or sets a value indicating whether to render resource headers for the current view.
+
 ###  UserSelectable `Boolean`
 
 Gets or sets a value indicating whether to render a tab for the current view in the view chooser.
 
-## Methods
+###  UserSelectable `Boolean`
 
-###  GetViewStateValue
-
-#### Returns
-
-`Telerik.Web.UI.T` 
+Gets or sets a value indicating whether to render a tab for the current view in the view chooser.
 

@@ -20,14 +20,71 @@ This Class defines the RadDropDownList.
 
 ## Properties
 
+###  AutoPostBack `Boolean`
+
+Gets or sets a value indicating whether a postback to the server automatically
+            occurs when the user changes the RadDropDownTree selection.
+
+###  ButtonSettings `DropDownTreeButtonSettings`
+
+Used to customize the appearance of the buttons displayed by RadDropDownTree.
+
+###  CheckBoxes `DropDownTreeCheckBoxes`
+
+Get or sets the CheckBox state of the RadDropDownTree.
+
+###  CheckNodeOnClick `Boolean`
+
+Gets or sets a value indicating whether the DropDownNodes expands on single click.
+
+###  ClientDataSourceID `String`
+
+Gets or sets ID of ClientDataSource control that is used for client side binding
+
+###  ClientIDMode `ClientIDMode`
+
+This property is overridden in order to support controls which implement INamingContainer.
+            The default value is changed to "AutoID".
+
+###  ClientNodeTemplate `String`
+
+Gets or sets the HTML template of a DropDownNode when added on the client.
+
+###  CollapseAnimation `AnimationSettings`
+
+Gets the settings for the animation played when the dropdown closes.
+
+#### Remarks
+Use the CollapseAnimation property to customize the expand
+                    animation of RadDropDownTree. You can specify the
+                    Type and
+                    Duration.
+                    To disable collapse animation effects you should set the
+                    Type to
+                    AnimationType.None.
+                    To customize the expand animation you can use the
+                    ExpandAnimation property.
+
 ###  Controls `ControlCollection`
 
 Gets a  object that represents
             the child controls for a specified server control in the UI hierarchy.
 
-###  SupportsDisabledAttribute `Boolean`
+###  CssClassFormatString `String`
 
-For internal use.
+The CssClass property will now be used instead of the former Skin 
+            and will be modified in AddAttributesToRender()
+
+###  Culture `CultureInfo`
+
+Gets or sets the selected culture. Localization strings will be loaded based on this value.
+
+###  DataBindings `List`1`
+
+Gets the settings the data binding setting for the RadDropDownTree.
+
+#### Remarks
+The following property is used in WebService scenarios.
 
 ###  DataFieldID `String`
 
@@ -45,122 +102,81 @@ Gets or sets the data field holding the Text property for the currently bound Dr
 
 Gets or sets the data field holding the Value property for the currently bound DropDownTreeNode.
 
-###  ODataDataSourceID `String`
+###  DefaultMessage `String`
 
-Gets or sets the ODataDataSource used for data binding.
+Gets or sets a value indicating what message will be displayed then the control is empty (no entries selected).
+
+###  DefaultValue `String`
+
+Gets or sets the default value of the control used for validation.
 
 ###  DropDownNodeTemplate `ITemplate`
 
 Gets or sets the template for displaying all DropDownTreeNode in the current tree.
+
+###  DropDownSettings `DropDownSettings`
+
+Gets the DropDown settings.
+
+###  EmbeddedTree `RadTreeView`
+
+Gets a reference to the embedded tree
+
+#### Remarks
+RadTreeView control is integrated in the RadDropDownTree.
+
+###  EnableAjaxSkinRendering `String`
+
+Gets or sets the value, indicating whether to render the skin CSS files during Ajax requests
+
+#### Remarks
+If EnableAjaxSkinRendering is set to false you will have to register the needed control base CSS file by hand when adding/showing the control with Ajax.
+
+###  EnableDirectionDetection `Boolean`
+
+Determines whether the Direction Detection is enabled or not.
+
+###  EnableEmbeddedBaseStylesheet `Boolean`
+
+Gets or sets the value, indicating whether to render the link to the embedded base stylesheet of the control or not.
+
+#### Remarks
+If EnableEmbeddedBaseStylesheet is set to false you will have to register the needed control base CSS file by hand.
+
+###  EnableEmbeddedScripts `Boolean`
+
+Gets or sets the value, indicating whether to render script references to the embedded scripts or not.
+
+#### Remarks
+If EnableEmbeddedScripts is set to false you will have to register the needed Scripts files by hand.
+
+###  EnableEmbeddedSkins `String`
+
+Gets or sets the value, indicating whether to render links to the embedded skins or not.
+
+#### Remarks
+If EnableEmbeddedSkins is set to false you will have to register the needed CSS files by hand.
+
+###  EnableEntryTextHtmlEncoding `Boolean`
+
+Gets or sets a value indicating whether RadDropDownTree should HTML encode the text of the entries.
+
+###  EnableFiltering `Boolean`
+
+Gets or sets a value indicating whether the control filtering is enabled.
+
+###  EnableScreenBoundaryDetection `Boolean`
+
+Determines whether the Screen Boundaries Detection is enabled or not.
 
 ###  Entries `DropDownTreeEntryCollection`
 
 Gets the RadDropDownTree 
                 entries collection.
 
-###  UniqueID `String`
-
-Gets the unique, hierarchically qualified identifier for the server
-            control.
-
-###  DefaultMessage `String`
-
-Gets or sets a value indicating what message will be displayed then the control is empty (no entries selected).
-
-###  EnableEntryTextHtmlEncoding `Boolean`
-
-Gets or sets a value indicating whether RadDropDownTree should HTML encode the text of the entries.
-
-###  DropDownSettings `DropDownSettings`
-
-Gets the DropDown settings.
-
-###  CheckBoxes `DropDownTreeCheckBoxes`
-
-Get or sets the CheckBox state of the RadDropDownTree.
-
-###  HeaderTemplate `ITemplate`
-
-Gets or sets the  that defines the  header template.
-
-###  FooterTemplate `ITemplate`
-
-Gets or sets the  that defines the  footer template.
-
-###  Header `WebControl`
-
-Get a header of 
-            RadDropDownTree.
-
-###  Footer `WebControl`
-
-Get a footer of 
-            RadDropDownTree.
-
-###  AutoPostBack `Boolean`
-
-Gets or sets a value indicating whether a postback to the server automatically
-            occurs when the user changes the RadDropDownTree selection.
-
-###  TextMode `DropDownTreeTextMode`
-
-Gets or sets a value indicating whether the entry should show the its full path in the entry area.
-
-###  FullPathDelimiter `String`
-
-Gets or sets a value indicating the delimiter in FullPath text mode.
-
 ###  EntriesDelimiter `DropDownTreeEntryCollection`
 
 Gets or sets a value indicating the delimiter between entries.
-
-###  DefaultValue `String`
-
-Gets or sets the default value of the control used for validation.
-
-###  SelectedText `String`
-
-Gets the entries text with the appropriate delimiter.
-
-###  SelectedValue `String`
-
-Gets the entries values in comma separated list.
-
-###  ExpandNodeOnSingleClick `Boolean`
-
-Gets or sets a value indicating whether the DropDownNodes expands on single click.
-
-###  CheckNodeOnClick `Boolean`
-
-Gets or sets a value indicating whether the DropDownNodes expands on single click.
-
-###  ButtonSettings `DropDownTreeButtonSettings`
-
-Used to customize the appearance of the buttons displayed by RadDropDownTree.
-
-###  FilterSettings `DropDownTreeFilterSettings`
-
-Used to customize filtering of the RadDropDownTree.
-
-###  LocalizationPath `String`
-
-Gets or sets a value indicating where RadDropDownTree will look for its .resx localization files.
-
-###  Culture `CultureInfo`
-
-Gets or sets the selected culture. Localization strings will be loaded based on this value.
-
-###  Localization `DropDownTreeButtons`
-
-Gets the localization.
-
-###  EnableFiltering `Boolean`
-
-Gets or sets a value indicating whether the control filtering is enabled.
-
-###  WebServiceSettings `WebServiceSettings`
-
-Gets the settings for the web service used to populate nodes when ExpandMode set to WebService.
 
 ###  ExpandAnimation `AnimationSettings`
 
@@ -177,71 +193,72 @@ Use the ExpandAnimation property to customize the expand
                     To customize the collapse animation you can use the
                     CollapseAnimation property.
 
-###  CollapseAnimation `AnimationSettings`
+###  ExpandNodeOnSingleClick `Boolean`
 
-Gets the settings for the animation played when the dropdown closes.
+Gets or sets a value indicating whether the DropDownNodes expands on single click.
 
-#### Remarks
-Use the CollapseAnimation property to customize the expand
-                    animation of RadDropDownTree. You can specify the
-                    Type and
-                    Duration.
-                    To disable collapse animation effects you should set the
-                    Type to
-                    AnimationType.None.
-                    To customize the expand animation you can use the
-                    ExpandAnimation property.
+###  FilterSettings `DropDownTreeFilterSettings`
 
-###  EnableScreenBoundaryDetection `Boolean`
+Used to customize filtering of the RadDropDownTree.
 
-Determines whether the Screen Boundaries Detection is enabled or not.
+###  Footer `WebControl`
 
-###  DataBindings `List`1`
+Get a footer of 
+            RadDropDownTree.
 
-Gets the settings the data binding setting for the RadDropDownTree.
+###  FooterTemplate `ITemplate`
 
-#### Remarks
-The following property is used in WebService scenarios.
+Gets or sets the  that defines the  footer template.
 
-###  ClientNodeTemplate `String`
+###  FullPathDelimiter `String`
 
-Gets or sets the HTML template of a DropDownNode when added on the client.
+Gets or sets a value indicating the delimiter in FullPath text mode.
 
-###  EmbeddedTree `RadTreeView`
+###  Header `WebControl`
 
-Gets a reference to the embedded tree
+Get a header of 
+            RadDropDownTree.
 
-#### Remarks
-RadTreeView control is integrated in the RadDropDownTree.
+###  HeaderTemplate `ITemplate`
 
-###  OnClientLoad `String`
+Gets or sets the  that defines the  header template.
 
-Gets or sets a value indicating the client-side event handler that is called
-            after the RadDropDownTree client-side object is initialized.
+###  IsSkinSet `String`
 
-#### Remarks
-If specified, the OnClienLoad client-side event handler is
-                called after the DropDownTree is fully initialized on the client.A single parameter - the dropdowntree client object - is passed to the
-                handler.This event cannot be cancelled.
+For internal use.
 
-###  OnClientDropDownOpening `String`
+###  Localization `DropDownTreeButtons`
 
-The client-side event that is fired before the dropdown of the DropDownTree is
-            opened.
+Gets the localization.
 
-#### Remarks
-The event handler receives two parameter: the instance of the DropDownTree
-            client-side object and event args. The event can be cancelled - simply set  args.set_cancel to true args.set_cancel(true); 
-            from the event handler and the DropDownTree dropdown will not be opened.
+###  LocalizationPath `String`
 
-###  OnClientDropDownOpened `String`
+Gets or sets a value indicating where RadDropDownTree will look for its .resx localization files.
+
+###  ODataDataSourceID `String`
+
+Gets or sets the ODataDataSource used for data binding.
+
+###  ODataDataSourceID `String`
+
+Gets or sets the ODataDataSource used for data binding.
+
+###  OnClientClearButtonClicked `String`
+
+Gets or sets the name of the JavaScript function called on clear button clicked
+
+###  OnClientClearButtonClicking `String`
+
+Gets or sets the name of the JavaScript function called on clear button clicking
+
+###  OnClientDropDownClosed `String`
 
 The client-side event that is fired after the dropdown of the DropDownTree is
-            opened.
+             closed.
 
 #### Remarks
 The event handler receives two parameter: the instance of the DropDownTree
-            client-side object and event args. The event cannot  be cancelled.
+             client-side object and event args. The event can not be cancelled
 
 ###  OnClientDropDownClosing `String`
 
@@ -253,38 +270,50 @@ The event handler receives two parameter: the instance of the DropDownTree
             client-side object and event args. The event can be cancelled - simply set  args.set_cancel to true args.set_cancel(true); 
             from the event handler and the DropDownTree dropdown will not be closed.
 
-###  OnClientDropDownClosed `String`
+###  OnClientDropDownOpened `String`
 
 The client-side event that is fired after the dropdown of the DropDownTree is
-             closed.
+            opened.
 
 #### Remarks
 The event handler receives two parameter: the instance of the DropDownTree
-             client-side object and event args. The event can not be cancelled
+            client-side object and event args. The event cannot  be cancelled.
 
-###  OnClientEntryAdding `String`
+###  OnClientDropDownOpening `String`
 
-Gets or sets the name of the JavaScript function called when an entry is about to be added
+The client-side event that is fired before the dropdown of the DropDownTree is
+            opened.
+
+#### Remarks
+The event handler receives two parameter: the instance of the DropDownTree
+            client-side object and event args. The event can be cancelled - simply set  args.set_cancel to true args.set_cancel(true); 
+            from the event handler and the DropDownTree dropdown will not be opened.
 
 ###  OnClientEntryAdded `String`
 
 Gets or sets the name of the JavaScript function called after an entry has been added
 
-###  OnClientEntryRemoving `String`
+###  OnClientEntryAdding `String`
 
-Gets or sets the name of the JavaScript function called when an entry is about to be removed
+Gets or sets the name of the JavaScript function called when an entry is about to be added
 
 ###  OnClientEntryRemoved `String`
 
 Gets or sets the name of the JavaScript function called after an entry has been removed
 
-###  OnClientClearButtonClicking `String`
+###  OnClientEntryRemoving `String`
 
-Gets or sets the name of the JavaScript function called on clear button clicking
+Gets or sets the name of the JavaScript function called when an entry is about to be removed
 
-###  OnClientClearButtonClicked `String`
+###  OnClientLoad `String`
 
-Gets or sets the name of the JavaScript function called on clear button clicked
+Gets or sets a value indicating the client-side event handler that is called
+            after the RadDropDownTree client-side object is initialized.
+
+#### Remarks
+If specified, the OnClienLoad client-side event handler is
+                called after the DropDownTree is fully initialized on the client.A single parameter - the dropdowntree client object - is passed to the
+                handler.This event cannot be cancelled.
 
 ###  RegisterWithScriptManager `Boolean`
 
@@ -292,61 +321,6 @@ Gets or sets the value, indicating whether to register with the ScriptManager co
 
 #### Remarks
 If RegisterWithScriptManager is set to false the control can be rendered on the page using Web Services or normal callback requests/page methods.
-
-###  Skin `String`
-
-Gets or sets the skin name for the control user interface.
-
-#### Remarks
-If this property is not set, the control will render using the skin named "Default".
-            If EnableEmbeddedSkins is set to false, the control will not render skin.
-
-###  IsSkinSet `String`
-
-For internal use.
-
-###  EnableEmbeddedScripts `Boolean`
-
-Gets or sets the value, indicating whether to render script references to the embedded scripts or not.
-
-#### Remarks
-If EnableEmbeddedScripts is set to false you will have to register the needed Scripts files by hand.
-
-###  EnableEmbeddedSkins `String`
-
-Gets or sets the value, indicating whether to render links to the embedded skins or not.
-
-#### Remarks
-If EnableEmbeddedSkins is set to false you will have to register the needed CSS files by hand.
-
-###  EnableEmbeddedBaseStylesheet `Boolean`
-
-Gets or sets the value, indicating whether to render the link to the embedded base stylesheet of the control or not.
-
-#### Remarks
-If EnableEmbeddedBaseStylesheet is set to false you will have to register the needed control base CSS file by hand.
-
-###  ODataDataSourceID `String`
-
-Gets or sets the ODataDataSource used for data binding.
-
-###  ClientDataSourceID `String`
-
-Gets or sets ID of ClientDataSource control that is used for client side binding
-
-###  RuntimeSkin `String`
-
-Gets the real skin name for the control user interface. If Skin is not set, returns
-            "Default", otherwise returns Skin.
-
-###  EnableAjaxSkinRendering `String`
-
-Gets or sets the value, indicating whether to render the skin CSS files during Ajax requests
-
-#### Remarks
-If EnableAjaxSkinRendering is set to false you will have to register the needed control base CSS file by hand when adding/showing the control with Ajax.
-
-###  ClientStateFieldID `String`
 
 ###  RenderMode `RenderMode`
 
@@ -362,70 +336,49 @@ Lightweight rendering mode might change the outlook of the component in some old
 
 Returns resolved RenderMode should the original value was Auto
 
-###  CssClassFormatString `String`
+###  RuntimeSkin `String`
 
-The CssClass property will now be used instead of the former Skin 
-            and will be modified in AddAttributesToRender()
+Gets the real skin name for the control user interface. If Skin is not set, returns
+            "Default", otherwise returns Skin.
 
-###  DefaultCssClass `String`
+###  SelectedText `String`
 
-###  ClientIDMode `ClientIDMode`
+Gets the entries text with the appropriate delimiter.
 
-This property is overridden in order to support controls which implement INamingContainer.
-            The default value is changed to "AutoID".
+###  SelectedValue `String`
 
-###  ScriptManager `ScriptManager`
+Gets the entries values in comma separated list.
 
-###  RadScriptManager `ScriptManager`
+###  Skin `String`
+
+Gets or sets the skin name for the control user interface.
+
+#### Remarks
+If this property is not set, the control will render using the skin named "Default".
+            If EnableEmbeddedSkins is set to false, the control will not render skin.
+
+###  SupportsDisabledAttribute `Boolean`
+
+For internal use.
+
+###  TextMode `DropDownTreeTextMode`
+
+Gets or sets a value indicating whether the entry should show the its full path in the entry area.
+
+###  UniqueID `String`
+
+Gets the unique, hierarchically qualified identifier for the server
+            control.
+
+###  WebServiceSettings `WebServiceSettings`
+
+Gets the settings for the web service used to populate nodes when ExpandMode set to WebService.
 
 ## Methods
 
-###  DescribeClientProperties
+###  ApplyConditionalRendering
 
-#### Returns
-
-`System.Void` 
-
-###  DescribeClientEvents
-
-#### Returns
-
-`System.Void` 
-
-###  DataBind
-
-Bind the RadDropDownTree control.
-
-#### Returns
-
-`System.Void` 
-
-###  ExpandAllDropDownNodes
-
-Expands all of the DropDownNodes.
-
-#### Returns
-
-`System.Void` 
-
-###  SyncEmbeddedTree
-
-Synchronize the nodes and the entries collection.
-
-#### Remarks
-The method is used in cases when some nodes are checked manually.
-
-#### Returns
-
-`System.Void` 
-
-###  AddAttributesToRender
-
-#### Returns
-
-`System.Void` 
-
-###  OnPreRender
+Use this from RenderContents of the inheritor
 
 #### Returns
 
@@ -439,93 +392,9 @@ Code moved into this method from OnPreRender to make sure it executed when the f
 
 `System.Void` 
 
-###  RegisterScriptControl
+###  DataBind
 
-Registers the control with the ScriptManager
-
-#### Returns
-
-`System.Void` 
-
-###  RegisterCssReferences
-
-Registers the CSS references
-
-#### Returns
-
-`System.Void` 
-
-###  LoadClientState
-
-Loads the client state data
-
-#### Parameters
-
-#### clientState `System.Collections.Generic.Dictionary{System.String,System.Object}`
-
-#### Returns
-
-`System.Void` 
-
-###  SaveClientState
-
-Saves the client state data
-
-#### Returns
-
-`System.String` 
-
-###  RenderClientStateField
-
-#### Returns
-
-`System.Void` 
-
-###  RenderBeginTag
-
-#### Returns
-
-`System.Void` 
-
-###  RenderEndTag
-
-#### Returns
-
-`System.Void` 
-
-###  Render
-
-#### Returns
-
-`System.Void` 
-
-###  RenderScriptsNoScriptManager
-
-#### Returns
-
-`System.Void` 
-
-###  RenderDescriptorsNoScriptManager
-
-#### Returns
-
-`System.Void` 
-
-###  RenderContents
-
-#### Returns
-
-`System.Void` 
-
-###  ApplyConditionalRendering
-
-Use this from RenderContents of the inheritor
-
-#### Returns
-
-`System.Void` 
-
-###  DescribeComponent
+Bind the RadDropDownTree control.
 
 #### Returns
 
@@ -539,13 +408,9 @@ Should be  used by inheritors
 
 `System.Void` 
 
-###  DescribeProperty
+###  ExpandAllDropDownNodes
 
-#### Returns
-
-`System.Void` 
-
-###  DescribeEvent
+Expands all of the DropDownNodes.
 
 #### Returns
 
@@ -558,6 +423,18 @@ Returns the names of all embedded skins. Used by Telerik.Web.Examples.
 #### Returns
 
 `System.Collections.Generic.List`1` 
+
+###  LoadClientState
+
+Loads the client state data
+
+#### Parameters
+
+#### clientState `System.Collections.Generic.Dictionary{System.String,System.Object}`
+
+#### Returns
+
+`System.Void` 
 
 ###  LoadPostData
 
@@ -581,9 +458,38 @@ Executed when post data changes should invoke a changed event
 
 `System.Void` 
 
-###  GetViewStateValue
+###  RegisterCssReferences
+
+Registers the CSS references
 
 #### Returns
 
-`Telerik.Web.UI.T` 
+`System.Void` 
+
+###  RegisterScriptControl
+
+Registers the control with the ScriptManager
+
+#### Returns
+
+`System.Void` 
+
+###  SaveClientState
+
+Saves the client state data
+
+#### Returns
+
+`System.String` 
+
+###  SyncEmbeddedTree
+
+Synchronize the nodes and the entries collection.
+
+#### Remarks
+The method is used in cases when some nodes are checked manually.
+
+#### Returns
+
+`System.Void` 
 

@@ -16,17 +16,9 @@ Defines a single condition in a custom AutoFilter function.
 
 ## Properties
 
-###  Operator `FilterConditionOperator`
+###  Attributes `IAttributesCollection`
 
-Gets/sets the AutoFilter FilterConditionOperator
-
-###  Value `String`
-
-Gets/sets the AutoFilter value
-
-###  IsEmpty `Boolean`
-
-Returns false if the value of the AutoFilter is not empty; otherwise returns true
+Collection of the attributes of the current element
 
 ###  InnerElements `IElementsCollection`
 
@@ -36,11 +28,33 @@ Returns a collection containing the inner elements
 
 Collection of inner elements
 
-###  Attributes `IAttributesCollection`
+###  IsEmpty `Boolean`
 
-Collection of the attributes of the current element
+Returns false if the value of the AutoFilter is not empty; otherwise returns true
+
+###  Operator `FilterConditionOperator`
+
+Gets/sets the AutoFilter FilterConditionOperator
+
+###  Value `String`
+
+Gets/sets the AutoFilter value
 
 ## Methods
+
+###  AppendAttributes
+
+Appends the attirbutes to the output
+
+#### Parameters
+
+#### sb `System.Text.StringBuilder`
+
+StringBuilder object that holds the rendered output
+
+#### Returns
+
+`System.Void` 
 
 ###  Render
 
@@ -59,20 +73,6 @@ StringBuilder object that holds the rendered output
 ###  RenderChildElements
 
 Renders the child elements
-
-#### Parameters
-
-#### sb `System.Text.StringBuilder`
-
-StringBuilder object that holds the rendered output
-
-#### Returns
-
-`System.Void` 
-
-###  AppendAttributes
-
-Appends the attirbutes to the output
 
 #### Parameters
 

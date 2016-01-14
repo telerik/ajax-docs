@@ -17,11 +17,11 @@ The event arguments passed when Telerik.Web.UI.RadGrid exports regardless
 
 ## Properties
 
-###  ExportType `ExportType`
-
-Gets the type of the export.
-
 ###  ExportOutput `String`
 
 Contains export document which will be written to the response
+
+###  ExportType `ExportType`
+
+Gets the type of the export.
 

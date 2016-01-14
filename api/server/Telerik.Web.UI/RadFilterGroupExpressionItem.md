@@ -18,18 +18,6 @@ Represents the UI component rendered by Telerik.Web.UI.RadFilter to represent
 
 ## Properties
 
-###  Expression `RadFilterGroupExpression`
-
-Gets the RadFilterGroupExpression that the current item represents.
-
-###  IsRootGroup `Boolean`
-
-Gets a boolean value indicating whether the current Control represents a root group expression.
-
-###  GroupOperationChooserLink `HyperLink`
-
-Gets the  control which chooses the item expression GroupOperation value.
-
 ###  AddExpressionButton `RadFilterGroupExpression`
 
 Gets the  control which adds a new 
@@ -40,48 +28,60 @@ Gets the  control which adds a new
 Gets the  control which adds a new 
             to the  expression items tree.
 
-###  ExpressionContainer `RadFilterGroupExpression`
-
-Gets a reference to the UI component that holds the filter expression items in the 
-            rendered RadFilter..
-
 ###  ChildItems `RadFilterItemsCollection`
 
 Gets a collection of the RadFilterExpressionItem objects belonging to the current group.
 
-###  OwnerGroup `RadFilterGroupExpressionItem`
+###  ClientID `String`
 
-Gets the owner .
+Gets a string value representing the client id of the filter expression item control.
 
-###  OwnerFilter `RadFilter`
+###  Expression `RadFilterGroupExpression`
 
-Returns a reference to the owner  object.
+Gets the RadFilterGroupExpression that the current item represents.
+
+###  ExpressionContainer `RadFilterGroupExpression`
+
+Gets a reference to the UI component that holds the filter expression items in the 
+            rendered RadFilter..
 
 ###  FunctionalInterfaceContainer `Panel`
 
 Gets the container holding the menu links - the GroupOperation(for ),
             FilterFunction and the editor FieldName.
 
-###  ToolsInterfaceContainer `Panel`
+###  GroupOperationChooserLink `HyperLink`
 
-Gets the container holding item specific controls. An input control for the 
-            and AddGroupExpression, AddItemExpression for the .
-
-###  RemoveButton `LinkButton`
-
-Gets the  remove button which removes an expression from the  expression tree.
+Gets the  control which chooses the item expression GroupOperation value.
 
 ###  HierarchicalIndex `String`
 
 Gets the string representation of the hierarchical position of the item in the RadFilter visual structure.
 
-###  ClientID `String`
+###  IsRootGroup `Boolean`
 
-Gets a string value representing the client id of the filter expression item control.
+Gets a boolean value indicating whether the current Control represents a root group expression.
 
 ###  ItemIndex `Int32`
 
 Gets the integer index of the filter expression item.
+
+###  OwnerFilter `RadFilter`
+
+Returns a reference to the owner  object.
+
+###  OwnerGroup `RadFilterGroupExpressionItem`
+
+Gets the owner .
+
+###  RemoveButton `LinkButton`
+
+Gets the  remove button which removes an expression from the  expression tree.
+
+###  ToolsInterfaceContainer `Panel`
+
+Gets the container holding item specific controls. An input control for the 
+            and AddGroupExpression, AddItemExpression for the .
 
 ## Methods
 

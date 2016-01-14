@@ -16,23 +16,23 @@ Public class representing input parameter passed to the methods of a class
 
 ## Properties
 
-###  SchedulerInfo `SchedulerInfo`
-
-Gets or sets the SchedulerInfo.
-
 ###  AppointmentData `AppointmentData`
 
 Gets or sets the AppointmentData.
 
-###  RecurrenceExceptionData `AppointmentData`
+###  DeleteSeries `Boolean`
 
-Gets or sets the RecurrenceExceptionData.
+Gets or sets the whether the recrrence series should be deleted.
 
 ###  MasterAppointmentData `AppointmentData`
 
 Gets or sets the MasterAppointmentData.
 
-###  DeleteSeries `Boolean`
+###  RecurrenceExceptionData `AppointmentData`
 
-Gets or sets the whether the recrrence series should be deleted.
+Gets or sets the RecurrenceExceptionData.
+
+###  SchedulerInfo `SchedulerInfo`
+
+Gets or sets the SchedulerInfo.
 

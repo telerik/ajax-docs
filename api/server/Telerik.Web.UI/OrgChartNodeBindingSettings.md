@@ -18,9 +18,21 @@ Telerik.Web.UI.RadOrgChart RadOrgChartsupports binding to hierarchical data incl
 
 ## Properties
 
+###  DataCollapsedField `String`
+
+Gets or sets the data field holding the Collapsed property for the currently bound Node.
+
+###  DataFieldID `String`
+
+Gets or sets the name of the data field used to uniquely identify each row.
+
 ###  DataFieldParentID `String`
 
 Gets or sets the name of the data field used to identify the parent Node.
+
+###  DataGroupCollapsedField `String`
+
+Gets or sets the data field holding the GroupCollapsed property for the currently bound Node.
 
 ###  DataSource `Object`
 
@@ -29,16 +41,4 @@ Gets or sets an instance of Node's data source.
 ###  DataSourceID `Object`
 
 Gets or sets the ID of the Node's data source.
-
-###  DataFieldID `String`
-
-Gets or sets the name of the data field used to uniquely identify each row.
-
-###  DataCollapsedField `String`
-
-Gets or sets the data field holding the Collapsed property for the currently bound Node.
-
-###  DataGroupCollapsedField `String`
-
-Gets or sets the data field holding the GroupCollapsed property for the currently bound Node.
 

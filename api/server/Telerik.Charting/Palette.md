@@ -28,15 +28,31 @@ Gets Palette Items Collection
 
 Specifies the palette name
 
-###  ViewStateIgnoresCase `Boolean`
-
-Gets if view sate should ignore case
-
 ###  ViewState `StateBag`
 
 Sate bag to store view state content
 
+###  ViewStateIgnoresCase `Boolean`
+
+Gets if view sate should ignore case
+
 ## Methods
+
+###  Clone
+
+Clone this object
+
+#### Returns
+
+`System.Object` New instance with the same fields as this one
+
+###  CloneState
+
+Makes a view state clone
+
+#### Returns
+
+`System.Web.UI.StateBag` StateBag
 
 ###  FillItemsCollectionFromTwoArrays
 
@@ -70,30 +86,6 @@ Index where palette item should be get
 
 `Telerik.Charting.PaletteItem` Palette item
 
-###  ToString
-
-Gets string representation
-
-#### Returns
-
-`System.String` String representation
-
-###  Clone
-
-Clone this object
-
-#### Returns
-
-`System.Object` New instance with the same fields as this one
-
-###  TrackViewState
-
-Track ViewState
-
-#### Returns
-
-`System.Void` 
-
 ###  LoadViewState
 
 Load data from ViewState
@@ -108,6 +100,20 @@ ViewState data
 
 `System.Void` 
 
+###  LoadViewState
+
+Loads data from a view state
+
+#### Parameters
+
+#### state `System.Object`
+
+View state to load data from
+
+#### Returns
+
+`System.Void` 
+
 ###  SaveViewState
 
 Save data into ViewState
@@ -115,6 +121,22 @@ Save data into ViewState
 #### Returns
 
 `System.Object` Saved data
+
+###  SaveViewState
+
+Saves object data to a view state
+
+#### Returns
+
+`System.Object` Saved view state object
+
+###  SetDirty
+
+Sets the item dirty state
+
+#### Returns
+
+`System.Void` 
 
 ###  Telerik.Charting.IChartingStateManager.LoadViewState
 
@@ -146,21 +168,21 @@ Tracks view state changes
 
 `System.Void` 
 
-###  CloneState
+###  ToString
 
-Makes a view state clone
-
-#### Returns
-
-`System.Web.UI.StateBag` StateBag
-
-###  SaveViewState
-
-Saves object data to a view state
+Gets string representation
 
 #### Returns
 
-`System.Object` Saved view state object
+`System.String` String representation
+
+###  TrackViewState
+
+Track ViewState
+
+#### Returns
+
+`System.Void` 
 
 ###  TrackViewState
 
@@ -169,34 +191,4 @@ Tracks view state changes
 #### Returns
 
 `System.Void` 
-
-###  LoadViewState
-
-Loads data from a view state
-
-#### Parameters
-
-#### state `System.Object`
-
-View state to load data from
-
-#### Returns
-
-`System.Void` 
-
-###  SetDirty
-
-Sets the item dirty state
-
-#### Returns
-
-`System.Void` 
-
-###  ToString
-
-ToString() override. Used in the properties grid to avoid object type showing.
-
-#### Returns
-
-`System.String` Empty string
 

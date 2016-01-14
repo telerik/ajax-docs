@@ -18,6 +18,10 @@ Provides data for the E:Telerik.Web.UI.RadScheduler.AppointmentUpdate event of t
 
 ## Properties
 
+###  Appointment `Appointment`
+
+Gets the appointment.
+
 ###  ModifiedAppointment `Appointment`
 
 Gets or sets the modified appointment.
@@ -31,8 +35,4 @@ Gets or sets the ISchedulerInfo object
 You can replace this object with your own implementation of
             ISchedulerInfo in order
             to pass additional information to the provider.
-
-###  Appointment `Appointment`
-
-Gets the appointment.
 

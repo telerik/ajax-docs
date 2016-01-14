@@ -15,14 +15,6 @@ Represents an object which can handle image data's storage and retrieval using H
 
 ## Properties
 
-###  ImageKey `String`
-
-Gets portion of generated Uri which represents image's identification key value
-
-###  UrlKey `String`
-
-Gets portion of generated Uri which represents image's identification key name
-
 ###  CurrentContext `HttpContext`
 
 Gets current  instance
@@ -30,6 +22,14 @@ Gets current  instance
 ###  ImageFileName `String`
 
 Gets or sets the name of the image file.
+
+###  ImageKey `String`
+
+Gets portion of generated Uri which represents image's identification key value
+
+###  UrlKey `String`
+
+Gets portion of generated Uri which represents image's identification key name
 
 ## Methods
 
@@ -48,6 +48,14 @@ URL of the HTTPHandler from which image data
 
 `System.String` Generated Uri
 
+###  LoadImage
+
+Retrieves image binary data from storage
+
+#### Returns
+
+`Telerik.Web.UI.BinaryImageDataContainer` image's data
+
 ###  SaveImage
 
 Saves a image's data to storage
@@ -61,12 +69,4 @@ Image's binary data
 #### Returns
 
 `System.Void` 
-
-###  LoadImage
-
-Retrieves image binary data from storage
-
-#### Returns
-
-`Telerik.Web.UI.BinaryImageDataContainer` image's data
 

@@ -17,11 +17,11 @@ This class defines the Configuration Section of RadSpreadsheet.
 
 ## Properties
 
-###  Providers `ProviderSettingsCollection`
-
-Gets the providers.
-
 ###  DefaulTaskProvider `String`
 
 Gets the default provider.
+
+###  Providers `ProviderSettingsCollection`
+
+Gets the providers.
 

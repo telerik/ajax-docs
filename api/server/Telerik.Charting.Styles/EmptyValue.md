@@ -16,39 +16,31 @@ Empty value
 
 ## Properties
 
-###  Mode `EmtyValuesMode`
+###  FillStyle `FillStyle`
 
-Gets and sets Empty values representation mode
+Specifies an empty bar fill style
 
 ###  Line `StyleEmptyLineSeries`
 
 Gets and sets Empty line style
 
+###  Mode `EmtyValuesMode`
+
+Gets and sets Empty values representation mode
+
 ###  PointMark `StyleMarkerEmptyValue`
 
 Gets and sets Empty value point mark
-
-###  FillStyle `FillStyle`
-
-Specifies an empty bar fill style
-
-###  ViewStateIgnoresCase `Boolean`
-
-Gets if view sate should ignore case
 
 ###  ViewState `StateBag`
 
 Sate bag to store view state content
 
+###  ViewStateIgnoresCase `Boolean`
+
+Gets if view sate should ignore case
+
 ## Methods
-
-###  Reset
-
-Reset all settings to default.
-
-#### Returns
-
-`System.Void` 
 
 ###  Clone
 
@@ -58,9 +50,23 @@ Clone this object.
 
 `System.Object` New instance of the object EmptyValue with the same fields as this object has.
 
-###  TrackViewState
+###  CloneState
 
-Track ViewState.
+Makes a view state clone
+
+#### Returns
+
+`System.Web.UI.StateBag` StateBag
+
+###  Dispose
+
+Releases unmanaged and - optionally - managed resources
+
+#### Parameters
+
+#### disposing `System.Boolean`
+
+true to release both managed and unmanaged resources; false to release only unmanaged resources.
 
 #### Returns
 
@@ -80,6 +86,28 @@ ViewState with data
 
 `System.Void` 
 
+###  LoadViewState
+
+Loads data from a view state
+
+#### Parameters
+
+#### state `System.Object`
+
+View state to load data from
+
+#### Returns
+
+`System.Void` 
+
+###  Reset
+
+Reset all settings to default.
+
+#### Returns
+
+`System.Void` 
+
 ###  SaveViewState
 
 Save data to ViewState.
@@ -88,15 +116,17 @@ Save data to ViewState.
 
 `System.Object` Saved data.
 
-###  Dispose
+###  SaveViewState
 
-Releases unmanaged and - optionally - managed resources
+Saves object data to a view state
 
-#### Parameters
+#### Returns
 
-#### disposing `System.Boolean`
+`System.Object` Saved view state object
 
-true to release both managed and unmanaged resources; false to release only unmanaged resources.
+###  SetDirty
+
+Sets the item dirty state
 
 #### Returns
 
@@ -132,21 +162,13 @@ Tracks view state changes
 
 `System.Void` 
 
-###  CloneState
+###  TrackViewState
 
-Makes a view state clone
-
-#### Returns
-
-`System.Web.UI.StateBag` StateBag
-
-###  SaveViewState
-
-Saves object data to a view state
+Track ViewState.
 
 #### Returns
 
-`System.Object` Saved view state object
+`System.Void` 
 
 ###  TrackViewState
 
@@ -155,34 +177,4 @@ Tracks view state changes
 #### Returns
 
 `System.Void` 
-
-###  LoadViewState
-
-Loads data from a view state
-
-#### Parameters
-
-#### state `System.Object`
-
-View state to load data from
-
-#### Returns
-
-`System.Void` 
-
-###  SetDirty
-
-Sets the item dirty state
-
-#### Returns
-
-`System.Void` 
-
-###  ToString
-
-ToString() override. Used in the properties grid to avoid object type showing.
-
-#### Returns
-
-`System.String` Empty string
 

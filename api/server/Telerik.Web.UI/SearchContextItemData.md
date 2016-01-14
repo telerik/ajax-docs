@@ -15,15 +15,15 @@ This class represents each item which will be passed to the client as a result f
 
 ## Properties
 
-###  Text `String`
+###  ImageUrl `String`
 
-Text for the item to pass to the client.
+ImageUrl for the item to pass to the client.
 
 ###  Key `String`
 
 Key for the item to pass to the client.
 
-###  ImageUrl `String`
+###  Text `String`
 
-ImageUrl for the item to pass to the client.
+Text for the item to pass to the client.
 

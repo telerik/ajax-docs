@@ -27,9 +27,32 @@ This property set whether active row should be set to first/last item when curre
 This property set whether the edit form will be submited when the ENTER key is pressed 
             (default is false)
 
-###  ValidationGroup `String`
+###  CancelChangesKey `GridFocusKeys`
 
-This property set the validation group of all controls placed into the Edit/Insert form of the RadGrid
+Gets or sets the key which cancel all changes when a GridTableView.EditMode is set to Batch.
+
+###  CollapseDetailTableKey `GridFocusKeys`
+
+This property set the key that is used for collapsing the active row's detail table
+            (default key is Left arrow)
+
+###  DeleteActiveRow `Int32`
+
+Gets the key which deletes the current active row.
+
+###  EnableKeyboardShortcuts `Boolean`
+
+Gets or sets a value which if set to false, prevents the keyboard short-cuts such as update/insert on ENTER,
+            exit edit/insert mode on ESC, etc. from being active.
+
+###  ExitEditInsertModeKey `Int32`
+
+Gets the key used when exiting edit or insert mode.
+
+###  ExpandDetailTableKey `GridFocusKeys`
+
+This property set the key that is used for expanding the active row's detail table
+            (default key is Right arrow)
 
 ###  FocusKey `GridFocusKeys`
 
@@ -43,46 +66,15 @@ This property sets the key that is used to open insert edit form of RadGrid. It 
 
 This property sets the key that is used to rebind RadGrid. It is always used with CTRL key combination.
 
-###  ExpandDetailTableKey `GridFocusKeys`
+###  SaveChangesKey `GridFocusKeys`
 
-This property set the key that is used for expanding the active row's detail table
-            (default key is Right arrow)
-
-###  CollapseDetailTableKey `GridFocusKeys`
-
-This property set the key that is used for collapsing the active row's detail table
-            (default key is Left arrow)
-
-###  ExitEditInsertModeKey `Int32`
-
-Gets the key used when exiting edit or insert mode.
+Gets or sets the key which update all records when a GridTableView.EditMode is set to Batch.
 
 ###  UpdateInsertItemKey `Int32`
 
 Gets the key used when updating or inserting an item.
 
-###  DeleteActiveRow `Int32`
+###  ValidationGroup `String`
 
-Gets the key which deletes the current active row.
-
-###  EnableKeyboardShortcuts `Boolean`
-
-Gets or sets a value which if set to false, prevents the keyboard short-cuts such as update/insert on ENTER,
-            exit edit/insert mode on ESC, etc. from being active.
-
-###  SaveChangesKey `GridFocusKeys`
-
-Gets or sets the key which update all records when a GridTableView.EditMode is set to Batch.
-
-###  CancelChangesKey `GridFocusKeys`
-
-Gets or sets the key which cancel all changes when a GridTableView.EditMode is set to Batch.
-
-## Methods
-
-###  GetViewStateValue
-
-#### Returns
-
-`Telerik.Web.UI.T` 
+This property set the validation group of all controls placed into the Edit/Insert form of the RadGrid
 

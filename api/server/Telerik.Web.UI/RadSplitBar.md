@@ -19,56 +19,41 @@ RadSplitBar class
 
 ## Properties
 
-###  CollapseMode `SplitBarCollapseMode`
+###  AdjacentPanesNames `RadSplitBarAdjacentPanesNames`
 
-Sets/gets the collapse mode of the splitbar
+Gets or sets the names of the adjacent panes as they appear in the tooltips for the splitbar buttons.
 
-###  EnableResize `Boolean`
+###  ClientIDMode `ClientIDMode`
 
-Sets/gets whether the resize bar will be active
-
-###  ResizeStep `Int32`
-
-Sets/gets the step in px in which the resize bar will be moved when dragged.
-
-###  Splitter `RadSplitter`
-
-Reference to the parent Splitter object
+This property is overridden in order to support controls which implement INamingContainer.
+            The default value is changed to "AutoID".
 
 ###  CollapseExpandPaneText `String`
 
 Gets or sets the text for collapse bar images
 
-###  AdjacentPanesNames `RadSplitBarAdjacentPanesNames`
+###  CollapseMode `SplitBarCollapseMode`
 
-Gets or sets the names of the adjacent panes as they appear in the tooltips for the splitbar buttons.
+Sets/gets the collapse mode of the splitbar
 
-###  Index `Int32`
+###  CssClassFormatString `String`
 
-This property is being used internally by the RadSplitter control.
-            Setting it may lead to unpredictable results.
+The CssClass property will now be used instead of the former Skin 
+            and will be modified in AddAttributesToRender()
 
-#### Remarks
-The Index property is used internally.
+###  EnableAjaxSkinRendering `String`
 
-###  RegisterWithScriptManager `Boolean`
-
-Gets or sets the value, indicating whether to register with the ScriptManager control on the page.
+Gets or sets the value, indicating whether to render the skin CSS files during Ajax requests
 
 #### Remarks
-If RegisterWithScriptManager is set to false the control can be rendered on the page using Web Services or normal callback requests/page methods.
+If EnableAjaxSkinRendering is set to false you will have to register the needed control base CSS file by hand when adding/showing the control with Ajax.
 
-###  Skin `String`
+###  EnableEmbeddedBaseStylesheet `Boolean`
 
-Gets or sets the skin name for the control user interface.
+Gets or sets the value, indicating whether to render the link to the embedded base stylesheet of the control or not.
 
 #### Remarks
-If this property is not set, the control will render using the skin named "Default".
-            If EnableEmbeddedSkins is set to false, the control will not render skin.
-
-###  IsSkinSet `String`
-
-For internal use.
+If EnableEmbeddedBaseStylesheet is set to false you will have to register the needed control base CSS file by hand.
 
 ###  EnableEmbeddedScripts `Boolean`
 
@@ -84,26 +69,28 @@ Gets or sets the value, indicating whether to render links to the embedded skins
 #### Remarks
 If EnableEmbeddedSkins is set to false you will have to register the needed CSS files by hand.
 
-###  EnableEmbeddedBaseStylesheet `Boolean`
+###  EnableResize `Boolean`
 
-Gets or sets the value, indicating whether to render the link to the embedded base stylesheet of the control or not.
+Sets/gets whether the resize bar will be active
 
-#### Remarks
-If EnableEmbeddedBaseStylesheet is set to false you will have to register the needed control base CSS file by hand.
+###  Index `Int32`
 
-###  RuntimeSkin `String`
-
-Gets the real skin name for the control user interface. If Skin is not set, returns
-            "Default", otherwise returns Skin.
-
-###  EnableAjaxSkinRendering `String`
-
-Gets or sets the value, indicating whether to render the skin CSS files during Ajax requests
+This property is being used internally by the RadSplitter control.
+            Setting it may lead to unpredictable results.
 
 #### Remarks
-If EnableAjaxSkinRendering is set to false you will have to register the needed control base CSS file by hand when adding/showing the control with Ajax.
+The Index property is used internally.
 
-###  ClientStateFieldID `String`
+###  IsSkinSet `String`
+
+For internal use.
+
+###  RegisterWithScriptManager `Boolean`
+
+Gets or sets the value, indicating whether to register with the ScriptManager control on the page.
+
+#### Remarks
+If RegisterWithScriptManager is set to false the control can be rendered on the page using Web Services or normal callback requests/page methods.
 
 ###  RenderMode `RenderMode`
 
@@ -114,69 +101,36 @@ Specifies the rendering mode of the control. Setting the mode to Lightweight wil
 Lightweight rendering mode might change the outlook of the component in some older browsers
             that don't support CSS3/HTML5.
 
+###  ResizeStep `Int32`
+
+Sets/gets the step in px in which the resize bar will be moved when dragged.
+
 ###  ResolvedRenderMode `RenderMode`
 
 Returns resolved RenderMode should the original value was Auto
 
-###  CssClassFormatString `String`
+###  RuntimeSkin `String`
 
-The CssClass property will now be used instead of the former Skin 
-            and will be modified in AddAttributesToRender()
+Gets the real skin name for the control user interface. If Skin is not set, returns
+            "Default", otherwise returns Skin.
 
-###  ClientIDMode `ClientIDMode`
+###  Skin `String`
 
-This property is overridden in order to support controls which implement INamingContainer.
-            The default value is changed to "AutoID".
+Gets or sets the skin name for the control user interface.
 
-###  ScriptManager `ScriptManager`
+#### Remarks
+If this property is not set, the control will render using the skin named "Default".
+            If EnableEmbeddedSkins is set to false, the control will not render skin.
 
-###  RadScriptManager `ScriptManager`
+###  Splitter `RadSplitter`
+
+Reference to the parent Splitter object
 
 ## Methods
 
-###  RenderBeginTag
+###  ApplyConditionalRendering
 
-#### Returns
-
-`System.Void` 
-
-###  RenderCollapseBars
-
-#### Returns
-
-`System.Void` 
-
-###  RenderCollapseBar_Lightweight
-
-#### Returns
-
-`System.Void` 
-
-###  RenderContents
-
-#### Returns
-
-`System.Void` 
-
-###  RenderEndTag
-
-#### Returns
-
-`System.Void` 
-
-###  GetDefaultSize
-
-#### Returns
-
-`System.Int32` 
-
-###  AddAttributesToRender
-
-#### Returns
-
-`System.Void` 
-
-###  OnPreRender
+Use this from RenderContents of the inheritor
 
 #### Returns
 
@@ -190,21 +144,13 @@ Code moved into this method from OnPreRender to make sure it executed when the f
 
 `System.Void` 
 
-###  RegisterScriptControl
+###  GetEmbeddedSkinNames
 
-Registers the control with the ScriptManager
-
-#### Returns
-
-`System.Void` 
-
-###  RegisterCssReferences
-
-Registers the CSS references
+Returns the names of all embedded skins. Used by Telerik.Web.Examples.
 
 #### Returns
 
-`System.Void` 
+`System.Collections.Generic.List`1` 
 
 ###  LoadClientState
 
@@ -217,96 +163,6 @@ Loads the client state data
 #### Returns
 
 `System.Void` 
-
-###  SaveClientState
-
-Saves the client state data
-
-#### Returns
-
-`System.String` 
-
-###  RenderClientStateField
-
-#### Returns
-
-`System.Void` 
-
-###  RenderBeginTag
-
-#### Returns
-
-`System.Void` 
-
-###  RenderEndTag
-
-#### Returns
-
-`System.Void` 
-
-###  Render
-
-#### Returns
-
-`System.Void` 
-
-###  RenderScriptsNoScriptManager
-
-#### Returns
-
-`System.Void` 
-
-###  RenderDescriptorsNoScriptManager
-
-#### Returns
-
-`System.Void` 
-
-###  RenderContents
-
-#### Returns
-
-`System.Void` 
-
-###  ApplyConditionalRendering
-
-Use this from RenderContents of the inheritor
-
-#### Returns
-
-`System.Void` 
-
-###  DescribeComponent
-
-#### Returns
-
-`System.Void` 
-
-###  DescribeProperty
-
-#### Returns
-
-`System.Void` 
-
-###  DescribeIDReferenceProperty
-
-#### Returns
-
-`System.Void` 
-
-###  DescribeEvent
-
-#### Returns
-
-`System.Void` 
-
-###  GetEmbeddedSkinNames
-
-Returns the names of all embedded skins. Used by Telerik.Web.Examples.
-
-#### Returns
-
-`System.Collections.Generic.List`1` 
 
 ###  LoadPostData
 
@@ -330,9 +186,27 @@ Executed when post data changes should invoke a changed event
 
 `System.Void` 
 
-###  GetViewStateValue
+###  RegisterCssReferences
+
+Registers the CSS references
 
 #### Returns
 
-`Telerik.Web.UI.T` 
+`System.Void` 
+
+###  RegisterScriptControl
+
+Registers the control with the ScriptManager
+
+#### Returns
+
+`System.Void` 
+
+###  SaveClientState
+
+Saves the client state data
+
+#### Returns
+
+`System.String` 
 

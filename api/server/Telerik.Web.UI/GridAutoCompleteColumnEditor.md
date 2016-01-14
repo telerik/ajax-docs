@@ -17,46 +17,26 @@ The editor for the Telerik.Web.UI.GridAutoCompleteColumn column.
 
 ## Properties
 
-###  IsInitialized `Boolean`
-
-Get value if the editor has been initialized after an InitializeInControl or InitializeFromControl method call
-
-###  Text `String`
-
-Gets or sets the text of the AutoCompleteBox control.
-
-###  DataSource `Object`
-
-Gets or sets the DataSource property of the AutoCompleteBox control.
-
-###  AutoCompleteBox `RadAutoCompleteBox`
-
-Gets the  instance for the current column editor.
-
-###  InputType `RadAutoCompleteInputType`
-
-Gets or sets a value indicating how the RadAutoCompleteBox items should be displayed - as tokens or as text.
-
-###  Filter `RadAutoCompleteFilter`
-
-Gets or sets a value indicating whether the RadAutoCompleteBox should apply “Contains” or “StartsWith” filter logic.
-
 ###  AllowCustomEntry `Boolean`
 
 Gets or sets a value indicating whether the user will be able to add a custom text not present 
             within the raw data in order to create a custom entry.
 
-###  SelectionMode `RadAutoCompleteSelectionMode`
-
-Gets a value indicating whether the user can select multiple entries.
-
 ###  AllowTokenEditing `Boolean`
 
 Gets a value indicating whether the text of the RadAutoComplete Tokens can be edited when user double clicks on it.
 
-###  Delimiter `String`
+###  AutoCompleteBox `RadAutoCompleteBox`
 
-Gets or sets a value indicating what delimiter should be used when the control displays the selected items as text (InputType = Text)
+Gets the  instance for the current column editor.
+
+###  ContainerControl `Control`
+
+Gets the instance of the Container control (generally a TableCell), after the last call of InstantiateInControl method
+
+###  DataSource `Object`
+
+Gets or sets the DataSource property of the AutoCompleteBox control.
 
 ###  DataTextField `String`
 
@@ -66,45 +46,44 @@ Gets or sets the DataTextField.
 
 Gets or sets the DataValueField.
 
-###  ContainerControl `Control`
+###  Delimiter `String`
 
-Gets the instance of the Container control (generally a TableCell), after the last call of InstantiateInControl method
+Gets or sets a value indicating what delimiter should be used when the control displays the selected items as text (InputType = Text)
 
-###  IsInitialized `Boolean`
+###  Filter `RadAutoCompleteFilter`
 
-Get value if the editor has been initialized after an InitializeInControl or InitializeFromControl method call
+Gets or sets a value indicating whether the RadAutoCompleteBox should apply “Contains” or “StartsWith” filter logic.
+
+###  InputType `RadAutoCompleteInputType`
+
+Gets or sets a value indicating how the RadAutoCompleteBox items should be displayed - as tokens or as text.
 
 ###  IsInEditMode `Boolean`
 
 Get a value indicating whether the current row/column editor is in edit mode.
 
+###  IsInitialized `Boolean`
+
+Get value if the editor has been initialized after an InitializeInControl or InitializeFromControl method call
+
+###  IsInitialized `Boolean`
+
+Get value if the editor has been initialized after an InitializeInControl or InitializeFromControl method call
+
+###  SelectionMode `RadAutoCompleteSelectionMode`
+
+Gets a value indicating whether the user can select multiple entries.
+
+###  Text `String`
+
+Gets or sets the text of the AutoCompleteBox control.
+
 ## Methods
 
-###  SetOwner
+###  AddControlsToContainer
 
-#### Returns
-
-`System.Void` 
-
-###  DataBind
-
-#### Returns
-
-`System.Void` 
-
-###  SetOwner
-
-#### Returns
-
-`System.Void` 
-
-###  InitializeInControl
-
-#### Returns
-
-`System.Void` 
-
-###  InitializeFromControl
+Implement this member to create the edit controls in the grid cell.
+            This method is called from each column's InitializeCell method, when a  initializes its cells.
 
 #### Returns
 
@@ -125,15 +104,6 @@ Copy setting from given column editor
 ###  CreateControls
 
 Create the input/edit controls belonging to the editor and prepare for AddControlsToContainer call.
-
-#### Returns
-
-`System.Void` 
-
-###  AddControlsToContainer
-
-Implement this member to create the edit controls in the grid cell.
-            This method is called from each column's InitializeCell method, when a  initializes its cells.
 
 #### Returns
 

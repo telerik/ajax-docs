@@ -18,17 +18,6 @@ Represents the simple binding between the property value of an object and the pr
 
 ## Properties
 
-###  ContextMenuID `String`
-
-Specifies the exact value of the ContextMenuID property of the
-            	RadTreeNode that will be created during the data binding.
-
-###  ContextMenuIDField `String`
-
-Specifies the field, containing the ContextMenuID property 
-            	value of the RadTreeNode that will be created during
-            	the data binding.
-
 ###  AllowDrag `Boolean`
 
 Specifies the exact value of the AllowDrag property of the
@@ -92,6 +81,28 @@ Specifies the exact value of the Checked property of the
 ###  CheckedField `Boolean`
 
 Specifies the field, containing the Checked property 
+            	value of the RadTreeNode that will be created during
+            	the data binding.
+
+###  ContentCssClass `String`
+
+Specifies the exact value of the ContentCssClass property of the
+            	RadTreeNode that will be created during the data binding.
+
+###  ContentCssClassField `String`
+
+Specifies the field, containing the ContentCssClass property 
+            	value of the RadTreeNode that will be created during
+            	the data binding.
+
+###  ContextMenuID `String`
+
+Specifies the exact value of the ContextMenuID property of the
+            	RadTreeNode that will be created during the data binding.
+
+###  ContextMenuIDField `String`
+
+Specifies the field, containing the ContextMenuID property 
             	value of the RadTreeNode that will be created during
             	the data binding.
 
@@ -172,6 +183,11 @@ Specifies the field, containing the HoveredCssClass property
             	value of the RadTreeNode that will be created during
             	the data binding.
 
+###  ModelID `String`
+
+Specifies the model to bind against in OData scenarios. The selected model is used
+            to the current depth (level) only.
+
 ###  SelectedCssClass `String`
 
 Specifies the exact value of the SelectedCssClass property of the
@@ -180,17 +196,6 @@ Specifies the exact value of the SelectedCssClass property of the
 ###  SelectedCssClassField `String`
 
 Specifies the field, containing the SelectedCssClass property 
-            	value of the RadTreeNode that will be created during
-            	the data binding.
-
-###  ContentCssClass `String`
-
-Specifies the exact value of the ContentCssClass property of the
-            	RadTreeNode that will be created during the data binding.
-
-###  ContentCssClassField `String`
-
-Specifies the field, containing the ContentCssClass property 
             	value of the RadTreeNode that will be created during
             	the data binding.
 
@@ -204,9 +209,4 @@ Specifies the exact value of the SelectedImageUrl property of the
 Specifies the field, containing the SelectedImageUrl property 
             	value of the RadTreeNode that will be created during
             	the data binding.
-
-###  ModelID `String`
-
-Specifies the model to bind against in OData scenarios. The selected model is used
-            to the current depth (level) only.
 

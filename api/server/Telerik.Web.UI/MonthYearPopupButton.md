@@ -19,47 +19,6 @@ The control that toggles the TimeView popup.
 
 ## Properties
 
-###  CssClass `String`
-
-Gets or sets the Cascading Style Sheet (CSS) class rendered by the Web
-            server control on the client.
-
-###  ImageUrl `String`
-
-Gets or sets the popup button image URL.
-
-###  ToolTip `String`
-
-Gets or sets the text displayed when the mouse pointer hovers over the
-            Web server control.
-
-###  ID `String`
-
-Gets or sets the programmatic identifier assigned to the server control.
-
-###  ToolTip `String`
-
-Gets or sets the text displayed when the mouse pointer hovers over the
-            Web server control.
-
-###  Visible `Boolean`
-
-Gets or sets a value that indicates whether a server control is rendered
-            as UI on the page.
-
-###  CssClass `String`
-
-Gets or sets the Cascading Style Sheet (CSS) class rendered by the Web
-            server control on the client.
-
-###  ImageUrl `String`
-
-Gets or sets the popup button image URL.
-
-###  HoverImageUrl `String`
-
-Gets or sets the popup button hover image URL.
-
 ###  AccessKey `String`
 
 Gets or sets the access key that allows you to quickly navigate to the
@@ -81,9 +40,23 @@ Gets or sets the border style of the Web server control.
 
 Gets or sets the border width of the Web server control.
 
+###  CssClass `String`
+
+Gets or sets the Cascading Style Sheet (CSS) class rendered by the Web
+            server control on the client.
+
+###  CssClass `String`
+
+Gets or sets the Cascading Style Sheet (CSS) class rendered by the Web
+            server control on the client.
+
 ###  Enabled `Boolean`
 
 Gets or sets a value indicating whether the Web server control is enabled.
+
+###  EnableTheming `Boolean`
+
+Gets or sets a value indicating whether themes apply to this control.
 
 ###  EnableViewState `Boolean`
 
@@ -104,17 +77,44 @@ Gets or sets the foreground color (typically the color of the text)
 
 Gets or sets the height of the Web server control.
 
+###  HoverImageUrl `String`
+
+Gets or sets the popup button hover image URL.
+
+###  ID `String`
+
+Gets or sets the programmatic identifier assigned to the server control.
+
+###  ImageUrl `String`
+
+Gets or sets the popup button image URL.
+
+###  ImageUrl `String`
+
+Gets or sets the popup button image URL.
+
 ###  SkinID `String`
 
 Gets or sets the skin to apply to the control.
 
-###  EnableTheming `Boolean`
-
-Gets or sets a value indicating whether themes apply to this control.
-
 ###  TabIndex `Int16`
 
 Gets or sets the tab index of the Web server control.
+
+###  ToolTip `String`
+
+Gets or sets the text displayed when the mouse pointer hovers over the
+            Web server control.
+
+###  ToolTip `String`
+
+Gets or sets the text displayed when the mouse pointer hovers over the
+            Web server control.
+
+###  Visible `Boolean`
+
+Gets or sets a value that indicates whether a server control is rendered
+            as UI on the page.
 
 ###  Width `Unit`
 

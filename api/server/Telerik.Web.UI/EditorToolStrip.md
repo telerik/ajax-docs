@@ -17,87 +17,27 @@ Represents a ToolStrip RadEditor tool, containing other tools.
 
 ## Properties
 
+###  Attributes `AttributeCollection`
+
+Gets the custom attributes which will be serialized on the client.
+
 ###  Name `String`
 
 Gets or sets the name of the tool strip.
+
+###  ShowText `Boolean`
+
+Gets or sets whether the text of the selected tool will be shown.
+
+###  Text `String`
+
+Gets or sets the default text of the ToolStrip.
 
 ###  Tools `EditorToolCollection`
 
 Gets the collection of EditorTool objects, inside the tool strip.
 
-###  Type `EditorToolType`
-
 ###  Visible `Boolean`
 
 Gets or sets a value indicating whether this  is visible.
-
-###  Attributes `AttributeCollection`
-
-Gets the custom attributes which will be serialized on the client.
-
-###  PopUpWidth `String`
-
-###  PopUpHeight `String`
-
-###  PopUpClassName `String`
-
-###  SizeToFit `String`
-
-###  ItemsPerRow `String`
-
-## Methods
-
-###  LoadViewState
-
-#### Returns
-
-`System.Void` 
-
-###  SaveViewState
-
-#### Returns
-
-`System.Object` 
-
-###  TrackViewState
-
-#### Returns
-
-`System.Void` 
-
-###  SetDirty
-
-#### Returns
-
-`System.Void` 
-
-###  SaveViewState
-
-#### Returns
-
-`System.Object` 
-
-###  LoadViewState
-
-#### Returns
-
-`System.Void` 
-
-###  TrackViewState
-
-#### Returns
-
-`System.Void` 
-
-###  System.Web.UI.IAttributeAccessor.GetAttribute
-
-#### Returns
-
-`System.String` 
-
-###  System.Web.UI.IAttributeAccessor.SetAttribute
-
-#### Returns
-
-`System.Void` 
 

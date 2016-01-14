@@ -20,17 +20,14 @@ Some of the GridGroupByField properties are meaningful only when present under
 
 ## Properties
 
-###  FieldName `String`
+###  Aggregate `GridAggregateFunction`
 
-Gets or sets a string that represents the DataField column
-            property that will be used to form the GroupByExpression.
+Gets or sets aggregate function (from 
+                enumeration values) that will be applied on the grouped data.
 
 #### Remarks
-Unless you have specified a FieldAlias, the value of this
-            property will be used when Telerik RadGrid constructs the text for
-            GridGroupHeaderItem. FieldName has a meaning both for
-            SelectFields and GroupByFields of
-            GroupByExpression.
+Meaningful only for fields in the
+                 collection.
 
 ###  FieldAlias `String`
 
@@ -49,26 +46,17 @@ Use this property for setting the field text that will be displayed in the
                     orgroup by a template column and Telerik RadGrid cannot get the
                     header text for that column.
 
-###  Aggregate `GridAggregateFunction`
+###  FieldName `String`
 
-Gets or sets aggregate function (from 
-                enumeration values) that will be applied on the grouped data.
-
-#### Remarks
-Meaningful only for fields in the
-                 collection.
-
-###  SortOrder `GridSortOrder`
-
-Gets or sets the value representing how the data will be sorted. Acceptable values
-                are the values of  enumeration except for None
-                (Ascending, Descending).
+Gets or sets a string that represents the DataField column
+            property that will be used to form the GroupByExpression.
 
 #### Remarks
-Meaningful only for fields in the
-                 collection. 'None' value is
-                not supported because it can not determine uniquely the order in which the groups
-                will be displayed.
+Unless you have specified a FieldAlias, the value of this
+            property will be used when Telerik RadGrid constructs the text for
+            GridGroupHeaderItem. FieldName has a meaning both for
+            SelectFields and GroupByFields of
+            GroupByExpression.
 
 ###  FormatString `String`
 
@@ -102,7 +90,53 @@ Gets or sets the string that separates header text from value text as the
 Meaningful only for fields in the
                  collection.
 
+###  SortOrder `GridSortOrder`
+
+Gets or sets the value representing how the data will be sorted. Acceptable values
+                are the values of  enumeration except for None
+                (Ascending, Descending).
+
+#### Remarks
+Meaningful only for fields in the
+                 collection. 'None' value is
+                not supported because it can not determine uniquely the order in which the groups
+                will be displayed.
+
 ## Methods
+
+###  CopyFrom
+
+Inherited but not used
+
+#### Returns
+
+`System.Void` 
+
+###  GetFormatString
+
+Method which gets the FormatString value from GridGroupByField
+                part of the  collection
+
+#### Remarks
+Meaningful only for GridGroupByFields from the
+                 collection
+
+#### Returns
+
+`System.String` String containing the FormatString value
+
+###  GetHeaderText
+
+Method which gets the HeaderText value from GridGroupByField part
+                of the  collection
+
+#### Remarks
+Meaningful only for GridGroupByFields from the
+                 collection
+
+#### Returns
+
+`System.String` String containing the HeaderText value
 
 ###  SetAggregate
 
@@ -131,40 +165,6 @@ Meaningful only for GridGroupByFields from the
 
 `System.Void` N/A
 
-###  GetHeaderText
-
-Method which gets the HeaderText value from GridGroupByField part
-                of the  collection
-
-#### Remarks
-Meaningful only for GridGroupByFields from the
-                 collection
-
-#### Returns
-
-`System.String` String containing the HeaderText value
-
-###  GetFormatString
-
-Method which gets the FormatString value from GridGroupByField
-                part of the  collection
-
-#### Remarks
-Meaningful only for GridGroupByFields from the
-                 collection
-
-#### Returns
-
-`System.String` String containing the FormatString value
-
-###  Validate
-
-Inherited but not used
-
-#### Returns
-
-`System.Void` 
-
 ###  ToString
 
 Method that retrieves a System.String that indicates the current
@@ -174,7 +174,7 @@ Method that retrieves a System.String that indicates the current
 
 `System.String` The string format of the object.
 
-###  CopyFrom
+###  Validate
 
 Inherited but not used
 

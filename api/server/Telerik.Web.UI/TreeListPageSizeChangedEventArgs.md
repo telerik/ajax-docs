@@ -18,21 +18,21 @@ The arguments passed when Telerik.Web.UI.TreeListDataItem fires the PageSizeChan
 
 ## Properties
 
-###  NewPageSize `Int32`
+###  Canceled `Boolean`
 
-Gets an integer value representing the new page size set for the control.
-
-###  Item `TreeListItem`
-
-The item in which the command was triggered.
+Gets or sets a value indicating whether the current command is cancelled.
 
 ###  EventSource `Object`
 
 Gets the control which was responsible for firing the event.
 
-###  Canceled `Boolean`
+###  Item `TreeListItem`
 
-Gets or sets a value indicating whether the current command is cancelled.
+The item in which the command was triggered.
+
+###  NewPageSize `Int32`
+
+Gets an integer value representing the new page size set for the control.
 
 ## Methods
 

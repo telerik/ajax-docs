@@ -24,13 +24,9 @@ Represents the template item rendered under each Telerik.Web.UI.TreeListDataItem
 
 Gets or sets the original data source object that the current treelist item is bound to.
 
-###  ParentItem `TreeListDataItem`
+###  IsDataBinding `Boolean`
 
-Gets a reference to the TreeListDataItem for which the detail item is rendered.
-
-###  TemplateContentCell `TableCell`
-
-Gets a reference to the TableCell which holds the template item content.
+Gets or sets a value indicating whether the control is currently being bound.
 
 ###  ItemType `TreeListItemType`
 
@@ -40,39 +36,15 @@ Gets a value from the TreeListItemType enumeration indicating what role the item
 
 Gets a reference to the owner RadTreeList object.
 
-###  IsDataBinding `Boolean`
+###  ParentItem `TreeListDataItem`
 
-Gets or sets a value indicating whether the control is currently being bound.
+Gets a reference to the TreeListDataItem for which the detail item is rendered.
+
+###  TemplateContentCell `TableCell`
+
+Gets a reference to the TableCell which holds the template item content.
 
 ## Methods
-
-###  Initialize
-
-#### Returns
-
-`System.Void` 
-
-###  Initialize
-
-Initializes the footer item.
-
-#### Parameters
-
-#### columns `System.Collections.Generic.IList{Telerik.Web.UI.TreeListColumn}`
-
-The columns to which the footer cells should be added.
-
-#### Returns
-
-`System.Void` 
-
-###  PrepareItemStyle
-
-Override this method to change the default logic for rendering the item
-
-#### Returns
-
-`System.Void` 
 
 ###  FireCommandEvent
 
@@ -89,6 +61,20 @@ command to bubble, for example 'Page'
 #### commandArgument `System.Object`
 
 command argument, for example 'Next'
+
+#### Returns
+
+`System.Void` 
+
+###  Initialize
+
+Initializes the footer item.
+
+#### Parameters
+
+#### columns `System.Collections.Generic.IList{Telerik.Web.UI.TreeListColumn}`
+
+The columns to which the footer cells should be added.
 
 #### Returns
 

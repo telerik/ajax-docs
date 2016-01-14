@@ -19,28 +19,39 @@ A column type for the RadTreeList control that displays a button
 
 ## Properties
 
+###  ButtonCssClass `String`
+
+Gets or sets the CssClass of the button
+
 ###  ButtonType `TreeListButtonColumnType`
 
 Gets or sets a value indicating the type of the button that will be rendered. 
             The type should be one of the specified by the  enumeration.
 
-###  CommandName `String`
+###  ColumnType `String`
 
-Gets or sets a value defining the name of the command that will be fired when a button in this column is clicked.
+Returns a string which represents the type of the current column.
 
 ###  CommandArgument `String`
 
 Gets or sets an optional parameter passed to the Command event along with the
             associated
 
-###  ConfirmTextFormatString `String`
+###  CommandName `String`
 
-Gets or sets a string, specifying the FormatString of the ConfirmText.
+Gets or sets a value defining the name of the command that will be fired when a button in this column is clicked.
 
-###  ConfirmTitle `String`
+###  ConfirmDialogHeight `Unit`
 
-Gets or sets the title that will be shown on the RadWindow confirmation dialog when a button
-            in this column is clicked.
+Gets or sets the height of the Confirm Dialog (if it is a RadWindow)
+
+###  ConfirmDialogType `TreeListConfirmDialogType`
+
+Gets or sets what kind of confirm dialog will be used in a .
+
+###  ConfirmDialogWidth `Unit`
+
+Gets or sets the width of the Confirm Dialog (if it is a RadWindow)
 
 ###  ConfirmText `String`
 
@@ -53,31 +64,14 @@ Gets or sets the text that will be shown on the confirmation dialog when a butto
 Gets or sets a string, representing a comma-separated enumeration of DataFields
             from the data source, which will be applied to the formatting specified in the ConfirmTextFormatString property.
 
-###  ConfirmDialogType `TreeListConfirmDialogType`
+###  ConfirmTextFormatString `String`
 
-Gets or sets what kind of confirm dialog will be used in a .
+Gets or sets a string, specifying the FormatString of the ConfirmText.
 
-###  ConfirmDialogWidth `Unit`
+###  ConfirmTitle `String`
 
-Gets or sets the width of the Confirm Dialog (if it is a RadWindow)
-
-###  ConfirmDialogHeight `Unit`
-
-Gets or sets the height of the Confirm Dialog (if it is a RadWindow)
-
-###  Text `String`
-
-Gets or sets a value indicating the text that will be shown for a button.
-
-###  ImageUrl `String`
-
-Gets or sets a value indicating the URL for the image that will be used in a
-            Image button.  should be set to
-            ImageButton.
-
-###  ButtonCssClass `String`
-
-Gets or sets the CssClass of the button
+Gets or sets the title that will be shown on the RadWindow confirmation dialog when a button
+            in this column is clicked.
 
 ###  DataTextField `String`
 
@@ -88,22 +82,23 @@ Gets or sets a value representing a field from the specified data source.
 
 Gets or sets the string that specifies the formatting applied to the value bound to the Text property.
 
-###  ToolTip `String`
-
-Gets or sets the tooltip for each of buttons.
-
-###  Owner `RadTreeList`
-
-Gets a reference to the  object
-            to which the column belongs
-
 ###  DesignMode `Boolean`
 
 Indicates if the control is in design-mode.
 
-###  ColumnType `String`
+###  Display `Boolean`
 
-Returns a string which represents the type of the current column.
+Gets or sets a value indicating whether the cells corresponding to a column would be rendered with a 'display:none' style attribute (end-user-not-visible).
+            To completely prevent cells from rendering, set the  property to false, instead of the Display property.
+
+###  FooterText `String`
+
+Use the FooterText property to specify your own or determine the current
+            text for the footer section of the column.
+
+###  HeaderStyle `TableItemStyle`
+
+Style of the cell in the header item of the RadTreeList, corresponding to the column.
 
 ###  HeaderText `String`
 
@@ -113,32 +108,36 @@ Gets or sets the text which will appear in the header cell of the column.
 
 Gets or sets the tooltip of the header cell.
 
-###  FooterText `String`
+###  ImageUrl `String`
 
-Use the FooterText property to specify your own or determine the current
-            text for the footer section of the column.
-
-###  UniqueName `String`
-
-Each column in Telerik RadTreeList has an UniqueName
-            property (string). This property is assigned automatically by the designer (or the
-            first time you want to access the columns if they are built dynamically).
-
-###  HeaderStyle `TableItemStyle`
-
-Style of the cell in the header item of the RadTreeList, corresponding to the column.
+Gets or sets a value indicating the URL for the image that will be used in a
+            Image button.  should be set to
+            ImageButton.
 
 ###  ItemStyle `TableItemStyle`
 
 Style of the cell in the item of the RadTreeList, corresponding to the column.
 
-###  Visible `Boolean`
+###  MaxWidth `Unit`
 
-Gets or sets a value indicating if the column and all corresponding cells would be rendered.
+Gets or sets maximum width of the column. Used when resizing.
 
-###  Sortable `Boolean`
+###  MinWidth `Unit`
 
-Should override if sorting will be disabled
+Gets or sets minimum width of the column. Used when resizing.
+
+###  OrderIndex `Int32`
+
+Gets or sets the order index of column used when reordering the columns.
+
+###  Owner `RadTreeList`
+
+Gets a reference to the  object
+            to which the column belongs
+
+###  Reorderable `Boolean`
+
+Gets or sets a value indicating whether the column can be reordered client-side.
 
 ###  Resizable `Boolean`
 
@@ -146,32 +145,42 @@ Gets or sets a value indicating whether the column can be resized client-side.
             You can use this property, by setting it to false, to disable resizing for a particular
             column, while preserving this functionality for all the other columns.
 
-###  Reorderable `Boolean`
+###  Sortable `Boolean`
 
-Gets or sets a value indicating whether the column can be reordered client-side.
-
-###  MinWidth `Unit`
-
-Gets or sets minimum width of the column. Used when resizing.
-
-###  MaxWidth `Unit`
-
-Gets or sets maximum width of the column. Used when resizing.
-
-###  Display `Boolean`
-
-Gets or sets a value indicating whether the cells corresponding to a column would be rendered with a 'display:none' style attribute (end-user-not-visible).
-            To completely prevent cells from rendering, set the  property to false, instead of the Display property.
-
-###  OrderIndex `Int32`
-
-Gets or sets the order index of column used when reordering the columns.
+Should override if sorting will be disabled
 
 ###  SortExpression `String`
 
 The string representing a filed-name from the DataSource that should be used when grid sorts by this column.
 
+###  Text `String`
+
+Gets or sets a value indicating the text that will be shown for a button.
+
+###  ToolTip `String`
+
+Gets or sets the tooltip for each of buttons.
+
+###  UniqueName `String`
+
+Each column in Telerik RadTreeList has an UniqueName
+            property (string). This property is assigned automatically by the designer (or the
+            first time you want to access the columns if they are built dynamically).
+
+###  Visible `Boolean`
+
+Gets or sets a value indicating if the column and all corresponding cells would be rendered.
+
 ## Methods
+
+###  GetSortExpression
+
+By default returns the SortExpression of the column. If the SortExpression is not set explicitly, it would be calculated, based on the
+            DataField of the column.
+
+#### Returns
+
+`System.String` 
 
 ###  InitializeCell
 
@@ -203,19 +212,4 @@ Prepares the cell of the given item when the treelist is rendered.
 #### Returns
 
 `System.Void` 
-
-###  CompareTo
-
-#### Returns
-
-`System.Int32` 
-
-###  GetSortExpression
-
-By default returns the SortExpression of the column. If the SortExpression is not set explicitly, it would be calculated, based on the
-            DataField of the column.
-
-#### Returns
-
-`System.String` 
 

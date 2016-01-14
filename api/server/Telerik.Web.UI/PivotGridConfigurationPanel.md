@@ -22,6 +22,22 @@ The idea behind the ConfigurationPanel is taken from the Excel
 
 ## Properties
 
+###  Controls `ControlCollection`
+
+Gets a  object that represents
+            the child controls for a specified server control in the UI hierarchy.
+
+###  DeferLayoutUpdateCheckBox `CheckBox`
+
+Gets the  control
+            which determines if the updates will be made on every operation
+            or only when clicking the Update button.
+
+###  LayoutType `PivotGridConfigurationPanelLayoutType`
+
+Gets the panel layout which could be altered on the client and its 
+            default type could be changed by setting on of the four available values.
+
 ###  OwnerPivotGrid `RadPivotGrid`
 
 Gets the owner pivot grid.
@@ -31,25 +47,9 @@ Gets the owner pivot grid.
 Gets the position where the 
             will be placed.
 
-###  LayoutType `PivotGridConfigurationPanelLayoutType`
-
-Gets the panel layout which could be altered on the client and its 
-            default type could be changed by setting on of the four available values.
-
-###  DeferLayoutUpdateCheckBox `CheckBox`
-
-Gets the  control
-            which determines if the updates will be made on every operation
-            or only when clicking the Update button.
-
 ###  UpdateButton `Button`
 
 Gets the  control which
             is enabled when DeferLayoutUpdateCheckBox is Checked and performs
             postback updating the .
-
-###  Controls `ControlCollection`
-
-Gets a  object that represents
-            the child controls for a specified server control in the UI hierarchy.
 

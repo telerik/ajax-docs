@@ -20,11 +20,11 @@ The event arguments passed before Telerik.Web.UI.RadTreeList exports.
 
 This property returns the generated export content just before it sent to the browser
 
-###  ExportType `ExportFormat`
-
-Gets or sets the format that will be used fir the export.
-
 ###  ExportOutput `String`
 
 Gets the ExportBytes string encoded with 1252 codepage.
+
+###  ExportType `ExportFormat`
+
+Gets or sets the format that will be used fir the export.
 

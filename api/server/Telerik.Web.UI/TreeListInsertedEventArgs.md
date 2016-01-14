@@ -17,11 +17,6 @@ The arguments passed when Telerik.Web.UI.RadTreeList fires the ItemInserted even
 
 ## Properties
 
-###  KeepInInsertMode `Boolean`
-
-Gets or sets a value indicating whether the inserted item 
-            will remain in insert mode.
-
 ###  AffectedRows `Int32`
 
 Gets the number of affected rows.
@@ -31,12 +26,17 @@ Gets the number of affected rows.
 Gets the Exception object in case an exception happended during
             the automatic operation.
 
-###  Item `TreeListEditableItem`
-
-Gets a reference to the edited item.
-
 ###  ExceptionHandled `Exception`
 
 Gets or sets a value indicating whether the exception
             that was thrown is handled.
+
+###  Item `TreeListEditableItem`
+
+Gets a reference to the edited item.
+
+###  KeepInInsertMode `Boolean`
+
+Gets or sets a value indicating whether the inserted item 
+            will remain in insert mode.
 

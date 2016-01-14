@@ -22,39 +22,28 @@ The RadInputManager offers an easy and intuitive way to extend a standard ASP.NE
 
 ## Properties
 
-###  SupportsRenderingMode `Boolean`
+###  CssClassFormatString `String`
 
-###  InputSettings `InputSettingsCollection`
+The CssClass property will now be used instead of the former Skin 
+            and will be modified in AddAttributesToRender()
 
-Gets a collection of InputSetting objects that allows for specifying the objects
-            for which input elements will be created on the client-side.
+###  EnableAjaxSkinRendering `String`
+
+Gets or sets the value, indicating whether to render the skin CSS files during Ajax requests
+
+#### Remarks
+If EnableAjaxSkinRendering is set to false you will have to register the needed control base CSS file by hand when adding/showing the control with Ajax.
 
 ###  Enabled `Boolean`
 
 Gets or sets a value indicating whether manager should be enabled or not.
 
-###  SkinID `String`
+###  EnableEmbeddedBaseStylesheet `Boolean`
 
-Gets or sets the skin to apply to the control.
-
-###  RegisterWithScriptManager `ScriptManager`
-
-Gets or sets the value, indicating whether to register with the ScriptManager control on the page.
+Gets or sets the value, indicating whether to render the link to the embedded base stylesheet of the control or not.
 
 #### Remarks
-If RegisterWithScriptManager is set to false the control can be rendered on the page using Web Services or normal callback requests/page methods.
-
-###  Skin `String`
-
-Gets or sets the skin name for the control user interface.
-
-#### Remarks
-If this property is not set, the control will render using the skin named "Default".
-            If EnableEmbeddedSkins is set to false, the control will not render skin.
-
-###  IsSkinSet `String`
-
-For internal use.
+If EnableEmbeddedBaseStylesheet is set to false you will have to register the needed control base CSS file by hand.
 
 ###  EnableEmbeddedScripts `Boolean`
 
@@ -70,24 +59,21 @@ Gets or sets the value, indicating whether to render links to the embedded skins
 #### Remarks
 If EnableEmbeddedSkins is set to false you will have to register the needed CSS files by hand.
 
-###  EnableEmbeddedBaseStylesheet `Boolean`
+###  InputSettings `InputSettingsCollection`
 
-Gets or sets the value, indicating whether to render the link to the embedded base stylesheet of the control or not.
+Gets a collection of InputSetting objects that allows for specifying the objects
+            for which input elements will be created on the client-side.
 
-#### Remarks
-If EnableEmbeddedBaseStylesheet is set to false you will have to register the needed control base CSS file by hand.
+###  IsSkinSet `String`
 
-###  RuntimeSkin `String`
+For internal use.
 
-Gets the real skin name for the control user interface. If Skin is not set, returns
-            "Default", otherwise returns Skin.
+###  RegisterWithScriptManager `ScriptManager`
 
-###  EnableAjaxSkinRendering `String`
-
-Gets or sets the value, indicating whether to render the skin CSS files during Ajax requests
+Gets or sets the value, indicating whether to register with the ScriptManager control on the page.
 
 #### Remarks
-If EnableAjaxSkinRendering is set to false you will have to register the needed control base CSS file by hand when adding/showing the control with Ajax.
+If RegisterWithScriptManager is set to false the control can be rendered on the page using Web Services or normal callback requests/page methods.
 
 ###  RenderMode `RenderMode`
 
@@ -102,20 +88,28 @@ Lightweight rendering mode might change the outlook of the component in some old
 
 Returns resolved RenderMode should the original value was Auto
 
-###  CssClassFormatString `String`
+###  RuntimeSkin `String`
 
-The CssClass property will now be used instead of the former Skin 
-            and will be modified in AddAttributesToRender()
+Gets the real skin name for the control user interface. If Skin is not set, returns
+            "Default", otherwise returns Skin.
+
+###  Skin `String`
+
+Gets or sets the skin name for the control user interface.
+
+#### Remarks
+If this property is not set, the control will render using the skin named "Default".
+            If EnableEmbeddedSkins is set to false, the control will not render skin.
+
+###  SkinID `String`
+
+Gets or sets the skin to apply to the control.
 
 ## Methods
 
-###  OnValidating
+###  ControlPreRender
 
-#### Returns
-
-`System.Void` 
-
-###  OnValidated
+Code moved into this method from OnPreRender to make sure it executed when the framework skips OnPreRender() for some reason
 
 #### Returns
 
@@ -149,17 +143,13 @@ The type.
 
 `System.Collections.Generic.List`1` 
 
-###  ControlPreRender
+###  LoadClientState
 
-Code moved into this method from OnPreRender to make sure it executed when the framework skips OnPreRender() for some reason
+Loads the client state data
 
-#### Returns
+#### Parameters
 
-`System.Void` 
-
-###  RegisterScriptControl
-
-Registers the control with the ScriptManager
+#### clientState `System.Collections.Generic.Dictionary{System.String,System.Object}`
 
 #### Returns
 
@@ -173,13 +163,9 @@ Registers the CSS references
 
 `System.Void` 
 
-###  LoadClientState
+###  RegisterScriptControl
 
-Loads the client state data
-
-#### Parameters
-
-#### clientState `System.Collections.Generic.Dictionary{System.String,System.Object}`
+Registers the control with the ScriptManager
 
 #### Returns
 
@@ -192,16 +178,4 @@ Saves the client state data
 #### Returns
 
 `System.String` 
-
-###  RenderScriptsNoScriptManager
-
-#### Returns
-
-`System.Void` 
-
-###  RenderDescriptorsNoScriptManager
-
-#### Returns
-
-`System.Void` 
 

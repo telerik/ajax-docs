@@ -22,19 +22,31 @@ Defines if a cache dependency should be applied to the cached object.
 
 ## Methods
 
-###  Save
+###  CacheExpirationCallback
 
-Saves the CachedImage into the storage.
+Callback method that will be assigned to the Cache dependency
 
 #### Parameters
 
 #### key `System.String`
 
-The identifier under which the image will be stored.
+#### value `System.Object`
 
-#### image `Telerik.Web.UI.CaptchaImage`
+#### reason `System.Web.Caching.CacheItemRemovedReason`
 
-instance that will be stored.
+#### Returns
+
+`System.Void` 
+
+###  Clear
+
+Removes the cached image from the storage.
+
+#### Parameters
+
+#### key `System.String`
+
+The identifier under which the image has been stored.
 
 #### Returns
 
@@ -54,31 +66,19 @@ The identifier under which the image has been stored.
 
 `Telerik.Web.UI.CaptchaImage` Previously stored  object.
 
-###  Clear
+###  Save
 
-Removes the cached image from the storage.
-
-#### Parameters
-
-#### key `System.String`
-
-The identifier under which the image has been stored.
-
-#### Returns
-
-`System.Void` 
-
-###  CacheExpirationCallback
-
-Callback method that will be assigned to the Cache dependency
+Saves the CachedImage into the storage.
 
 #### Parameters
 
 #### key `System.String`
 
-#### value `System.Object`
+The identifier under which the image will be stored.
 
-#### reason `System.Web.Caching.CacheItemRemovedReason`
+#### image `Telerik.Web.UI.CaptchaImage`
+
+instance that will be stored.
 
 #### Returns
 

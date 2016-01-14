@@ -15,13 +15,13 @@ Represents the position of an item in the RadTreeList hierarchy.
 
 ## Properties
 
-###  NestedLevel `Int32`
-
-Gets an integer value indicating on which level of the treelist hierarchy is the current item.
-
 ###  LevelIndex `Int32`
 
 Gets an integer value indicating the position of the item in the nested level.
+
+###  NestedLevel `Int32`
+
+Gets an integer value indicating on which level of the treelist hierarchy is the current item.
 
 ## Methods
 

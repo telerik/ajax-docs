@@ -24,11 +24,3 @@ Enables web resource cache. Cache is disabled by default.
 
 Gets or sets the unique key of the page. Combined web resources are associated with a page key.
 
-## Methods
-
-###  GetViewStateValue
-
-#### Returns
-
-`Telerik.Web.UI.T` 
-

@@ -20,17 +20,13 @@ RadTreeList Export settings
 
 RadTreeList Excel export settings
 
-###  Word `TreeListWordExportSettings`
-
-RadTreeList Word export settings
-
-###  Pdf `TreeListPdfExportSettings`
-
-RadTreeList PDF export settings
-
 ###  ExportMode `TreeListExportMode`
 
 Determines the way RadTreeList will treat the controls in the exported file. Default value is RemoveControls.
+
+###  FileName `String`
+
+Sets or gets the name of the exported file
 
 ###  IgnorePaging `Boolean`
 
@@ -40,29 +36,15 @@ If enabled, exports all items regardless of the current page size
 
 Determines the way the exported file will be sent to the browser.
 
-###  FileName `String`
+###  Pdf `TreeListPdfExportSettings`
 
-Sets or gets the name of the exported file
+RadTreeList PDF export settings
+
+###  Word `TreeListWordExportSettings`
+
+RadTreeList Word export settings
 
 ## Methods
-
-###  TrackViewState
-
-#### Returns
-
-`System.Void` 
-
-###  LoadViewState
-
-#### Returns
-
-`System.Void` 
-
-###  SaveViewState
-
-#### Returns
-
-`System.Object` 
 
 ###  Dispose
 

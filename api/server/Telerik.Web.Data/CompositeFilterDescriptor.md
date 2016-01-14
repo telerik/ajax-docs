@@ -17,13 +17,13 @@ Represents a filtering descriptor which serves as a container for one or more ch
 
 ## Properties
 
-###  LogicalOperator `FilterCompositionLogicalOperator`
-
-Gets or sets the logical operator used for composing of .
-
 ###  FilterDescriptors `FilterDescriptorCollection`
 
 Gets or sets the filter descriptors that will be used for composition.
+
+###  LogicalOperator `FilterCompositionLogicalOperator`
+
+Gets or sets the logical operator used for composing of .
 
 ## Methods
 

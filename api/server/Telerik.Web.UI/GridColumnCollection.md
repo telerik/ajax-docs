@@ -22,11 +22,6 @@ Its items are of the available Grid
 
 ## Properties
 
-###  IsFixedSize `Boolean`
-
-Gets a value indicating whether the collection
-            has a fixed size.
-
 ###  Count `Int32`
 
 Gets the number of columns added programmatically or declaratively.
@@ -34,6 +29,11 @@ Gets the number of columns added programmatically or declaratively.
 #### Remarks
 Note that this is not the actual number of column in a
                 . See also
+
+###  IsFixedSize `Boolean`
+
+Gets a value indicating whether the collection
+            has a fixed size.
 
 ###  IsReadOnly `Boolean`
 
@@ -86,6 +86,32 @@ Adds an item to the collection.
 
 `System.Void` The position into which the new element was inserted.
 
+###  AddAt
+
+Adds a column in the collection at the specified index.
+
+#### Parameters
+
+#### index `System.Int32`
+
+The index where the column will be inserted.
+
+#### column `Telerik.Web.UI.GridColumn`
+
+The column that will be inserted.
+
+#### Returns
+
+`System.Void` 
+
+###  Clear
+
+Removes all column from the collection.
+
+#### Returns
+
+`System.Void` 
+
 ###  Contains
 
 Determines whether the CridColumnCollection contains the value specified
@@ -102,6 +128,98 @@ GridColumn object to locate in the GridColumnCollection.
 `System.Boolean` true if the GridColumn is found in the
             GridColumnCollection; otherwise, false.
 
+###  CopyTo
+
+Copies the columns of the collection
+            to an , starting at a particular 
+            index.
+
+#### Parameters
+
+#### array `System.Array`
+
+The one-dimensional  that is
+            the destination of the elements copied from .
+            The  must have zero-based indexing.
+
+#### index `System.Int32`
+
+The zero-based index in  at which
+            copying begins.
+
+#### Returns
+
+`System.Void` 
+
+###  FindAllByDataField
+
+Gets all columns found bound to the DataField specified. Returns null is no column is bound to this DataField
+
+#### Parameters
+
+#### DataField `System.String`
+
+#### Returns
+
+`Telerik.Web.UI.GridColumn[]` 
+
+###  FindByDataField
+
+Gets the first column found bound to the DataField. Throws GridException if no column is bound to this DataField
+
+#### Parameters
+
+#### DataField `System.String`
+
+#### Returns
+
+`Telerik.Web.UI.GridColumn` 
+
+###  FindByDataFieldSafe
+
+Gets the first column found bound to the DataField. Returns null is no column is bound to this DataField
+
+#### Parameters
+
+#### DataField `System.String`
+
+#### Returns
+
+`Telerik.Web.UI.GridColumn` 
+
+###  FindByUniqueName
+
+Gets the first column with UniqueName found. Throws GridException if no column is found.
+
+#### Parameters
+
+#### UniqueName `System.String`
+
+#### Returns
+
+`Telerik.Web.UI.GridColumn` 
+
+###  FindByUniqueNameSafe
+
+Gets the first column with UniqueName found. Returns null if no column is found.
+
+#### Parameters
+
+#### UniqueName `System.String`
+
+#### Returns
+
+`Telerik.Web.UI.GridColumn` 
+
+###  GetEnumerator
+
+Returns an enumerator that iterates through a collection.
+
+#### Returns
+
+`System.Collections.IEnumerator` An  object that can be
+            used to iterate through the collection.
+
 ###  IndexOf
 
 Determines the index of a specific column in the
@@ -112,6 +230,23 @@ Determines the index of a specific column in the
 #### Val `System.Object`
 
 The object to locate in the GridColumnCollection.
+
+#### Returns
+
+`System.Int32` The index of value if found in the collection;
+            otherwise, -1.
+
+###  IndexOf
+
+Determines the index of a specific column in the
+            GridColumnCollection.
+
+#### Parameters
+
+#### column `Telerik.Web.UI.GridColumn`
+
+The  to locate in the
+                GridColumnCollection.
 
 #### Returns
 
@@ -153,81 +288,6 @@ The object to remove from the collection.
 
 `System.Void` 
 
-###  AddAt
-
-Adds a column in the collection at the specified index.
-
-#### Parameters
-
-#### index `System.Int32`
-
-The index where the column will be inserted.
-
-#### column `Telerik.Web.UI.GridColumn`
-
-The column that will be inserted.
-
-#### Returns
-
-`System.Void` 
-
-###  Clear
-
-Removes all column from the collection.
-
-#### Returns
-
-`System.Void` 
-
-###  CopyTo
-
-Copies the columns of the collection
-            to an , starting at a particular 
-            index.
-
-#### Parameters
-
-#### array `System.Array`
-
-The one-dimensional  that is
-            the destination of the elements copied from .
-            The  must have zero-based indexing.
-
-#### index `System.Int32`
-
-The zero-based index in  at which
-            copying begins.
-
-#### Returns
-
-`System.Void` 
-
-###  GetEnumerator
-
-Returns an enumerator that iterates through a collection.
-
-#### Returns
-
-`System.Collections.IEnumerator` An  object that can be
-            used to iterate through the collection.
-
-###  IndexOf
-
-Determines the index of a specific column in the
-            GridColumnCollection.
-
-#### Parameters
-
-#### column `Telerik.Web.UI.GridColumn`
-
-The  to locate in the
-                GridColumnCollection.
-
-#### Returns
-
-`System.Int32` The index of value if found in the collection;
-            otherwise, -1.
-
 ###  Remove
 
 Removes the first occurrence of a column from the
@@ -257,64 +317,4 @@ The zero-based index of the item(column) to remove.
 #### Returns
 
 `System.Void` 
-
-###  FindByUniqueName
-
-Gets the first column with UniqueName found. Throws GridException if no column is found.
-
-#### Parameters
-
-#### UniqueName `System.String`
-
-#### Returns
-
-`Telerik.Web.UI.GridColumn` 
-
-###  FindByUniqueNameSafe
-
-Gets the first column with UniqueName found. Returns null if no column is found.
-
-#### Parameters
-
-#### UniqueName `System.String`
-
-#### Returns
-
-`Telerik.Web.UI.GridColumn` 
-
-###  FindByDataField
-
-Gets the first column found bound to the DataField. Throws GridException if no column is bound to this DataField
-
-#### Parameters
-
-#### DataField `System.String`
-
-#### Returns
-
-`Telerik.Web.UI.GridColumn` 
-
-###  FindByDataFieldSafe
-
-Gets the first column found bound to the DataField. Returns null is no column is bound to this DataField
-
-#### Parameters
-
-#### DataField `System.String`
-
-#### Returns
-
-`Telerik.Web.UI.GridColumn` 
-
-###  FindAllByDataField
-
-Gets all columns found bound to the DataField specified. Returns null is no column is bound to this DataField
-
-#### Parameters
-
-#### DataField `System.String`
-
-#### Returns
-
-`Telerik.Web.UI.GridColumn[]` 
 

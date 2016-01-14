@@ -16,19 +16,21 @@ Represents Telerik.Web.UI.PivotGrid.Core.AggregateValue with double value.
 
 ## Methods
 
-###  GetValueOverride
-
-#### Returns
-
-`System.Object` 
-
 ###  AccumulateOverride
 
 #### Returns
 
 `System.Void` 
 
-###  MergeOverride
+###  AccumulateOverride
+
+Add the  to the results in the current  instance.
+
+#### Parameters
+
+#### value `System.Object`
+
+The value to accumulate.
 
 #### Returns
 
@@ -44,6 +46,12 @@ Gets a presentation friendly value of the results in the current .
 
 ###  GetValueOverride
 
+#### Returns
+
+`System.Object` 
+
+###  GetValueOverride
+
 Gets a presentation friendly value of the results in the current  instance to be returned in .
             If an error occurred during calculations the  will not call  but return the error instead.
 
@@ -51,15 +59,7 @@ Gets a presentation friendly value of the results in the current  instance to be
 
 `System.Object` A result object.
 
-###  AccumulateOverride
-
-Add the  to the results in the current  instance.
-
-#### Parameters
-
-#### value `System.Object`
-
-The value to accumulate.
+###  MergeOverride
 
 #### Returns
 

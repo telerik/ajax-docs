@@ -24,6 +24,14 @@ If return true ViewState data will be compressed even the
 
 ## Methods
 
+###  IsResponseCompressed
+
+Determines whether the response is already compressed.
+
+#### Returns
+
+`System.Boolean` 
+
 ###  Load
 
 Loads viewstate and controlstate even if they are previously compressed.
@@ -39,12 +47,4 @@ If needed compresses viewstate and controlstate and saves them in hidden fields.
 #### Returns
 
 `System.Void` 
-
-###  IsResponseCompressed
-
-Determines whether the response is already compressed.
-
-#### Returns
-
-`System.Boolean` 
 

@@ -18,47 +18,14 @@ The editor for the Telerik.Web.UI.GridDropDownColumn column.
 
 ## Properties
 
-###  DropDownListControl `DropDownList`
-
-Gets the  control places in the cell if the  
-            DropDownControlType property is set to DropDownList.
-
 ###  ComboBoxControl `RadComboBox`
 
 Gets the  control places in the cell if the  
             DropDownControlType property is set to RadComboBox.
 
-###  DropDownStyle `Style`
+###  ContainerControl `Control`
 
-Gets the drop down style used for the drop down list control.
-
-###  IsInitialized `Boolean`
-
-Get value if the editor has been initialized after an InitializeInControl or InitializeFromControl method call
-
-###  SelectedValue `String`
-
-Gets or sets the selected value of the drop down list control.
-
-###  SelectedText `String`
-
-Gets or sets the selected text of the drop down list control.
-
-###  SelectedIndex `Int32`
-
-Gets or sets the selected index of the drop down list control.
-
-###  SelectedIndex `Int32`
-
-Gets or sets the selected index of the drop down list control.
-
-###  SelectedValue `String`
-
-Gets or sets the selected value of the drop down list control.
-
-###  SelectedText `String`
-
-Gets or sets the selected text of the drop down list control.
+Gets the instance of the Container control (generally a TableCell), after the last call of InstantiateInControl method
 
 ###  DataMember `String`
 
@@ -80,51 +47,57 @@ Gets or sets the DataTextFormatString property of the drop down list control.
 
 Gets or sets the DataValueField property of the drop down list control.
 
-###  ContainerControl `Control`
+###  DropDownListControl `DropDownList`
 
-Gets the instance of the Container control (generally a TableCell), after the last call of InstantiateInControl method
+Gets the  control places in the cell if the  
+            DropDownControlType property is set to DropDownList.
 
-###  IsInitialized `Boolean`
+###  DropDownStyle `Style`
 
-Get value if the editor has been initialized after an InitializeInControl or InitializeFromControl method call
+Gets the drop down style used for the drop down list control.
 
 ###  IsInEditMode `Boolean`
 
 Get a value indicating whether the current row/column editor is in edit mode.
 
+###  IsInitialized `Boolean`
+
+Get value if the editor has been initialized after an InitializeInControl or InitializeFromControl method call
+
+###  IsInitialized `Boolean`
+
+Get value if the editor has been initialized after an InitializeInControl or InitializeFromControl method call
+
+###  SelectedIndex `Int32`
+
+Gets or sets the selected index of the drop down list control.
+
+###  SelectedIndex `Int32`
+
+Gets or sets the selected index of the drop down list control.
+
+###  SelectedText `String`
+
+Gets or sets the selected text of the drop down list control.
+
+###  SelectedText `String`
+
+Gets or sets the selected text of the drop down list control.
+
+###  SelectedValue `String`
+
+Gets or sets the selected value of the drop down list control.
+
+###  SelectedValue `String`
+
+Gets or sets the selected value of the drop down list control.
+
 ## Methods
 
-###  SetOwner
+###  AddControlsToContainer
 
-#### Returns
-
-`System.Void` 
-
-###  DataBind
-
-#### Returns
-
-`System.Void` 
-
-###  DataBind
-
-#### Returns
-
-`System.Void` 
-
-###  SetOwner
-
-#### Returns
-
-`System.Void` 
-
-###  InitializeInControl
-
-#### Returns
-
-`System.Void` 
-
-###  InitializeFromControl
+Implement this member to create the edit controls in the grid cell.
+            This method is called from each column's InitializeCell method, when a  initializes its cells.
 
 #### Returns
 
@@ -145,15 +118,6 @@ Copy setting from given column editor
 ###  CreateControls
 
 Create the input/edit controls belonging to the editor and prepare for AddControlsToContainer call.
-
-#### Returns
-
-`System.Void` 
-
-###  AddControlsToContainer
-
-Implement this member to create the edit controls in the grid cell.
-            This method is called from each column's InitializeCell method, when a  initializes its cells.
 
 #### Returns
 

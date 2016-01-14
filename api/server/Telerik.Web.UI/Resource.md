@@ -16,21 +16,9 @@ This Class defines the Resource object in Telerik.Web.UI.RadScheduler control.
 
 ## Properties
 
-###  Key `Object`
+###  Attributes `AttributeCollection`
 
-Gets or sets a value indicating the resource primary key value.
-
-###  Text `String`
-
-Gets or sets a value indicating the user-friendly description of the resource.
-
-###  Type `String`
-
-Gets or sets a value indicating the resource type.
-
-#### Remarks
-The type must be one of the described resource types in
-            ResourceTypes collection.
+Gets the collection of arbitrary attributes that do not correspond to properties on the resource.
 
 ###  Available `Boolean`
 
@@ -48,14 +36,6 @@ Gets or sets the cascading style sheet (CSS) class rendered for appointments tha
 You can define your own CSS class name or use some of the predefined class names:
             rsCategoryRedrsCategoryBluersCategoryOrangersCategoryGreen
 
-###  Attributes `AttributeCollection`
-
-Gets the collection of arbitrary attributes that do not correspond to properties on the resource.
-
-###  HeaderControls `IList`1`
-
-Gets the header controls.
-
 ###  DataItem `Object`
 
 Gets or sets the data item represented by the
@@ -64,6 +44,26 @@ Gets or sets the data item represented by the
 
 #### Remarks
 This property is available only during data binding.
+
+###  HeaderControls `IList`1`
+
+Gets the header controls.
+
+###  Key `Object`
+
+Gets or sets a value indicating the resource primary key value.
+
+###  Text `String`
+
+Gets or sets a value indicating the user-friendly description of the resource.
+
+###  Type `String`
+
+Gets or sets a value indicating the resource type.
+
+#### Remarks
+The type must be one of the described resource types in
+            ResourceTypes collection.
 
 ## Methods
 

@@ -21,6 +21,14 @@ Returns a handle to the underlying device context
 
 ## Methods
 
+###  Dispose
+
+Delete the device context freeing the associated memory.
+
+#### Returns
+
+`System.Void` 
+
 ###  Finalize
 
 Invokes .
@@ -29,19 +37,14 @@ Invokes .
 
 `System.Void` 
 
-###  Dispose
+###  GetCurrentObject
+
+Gets a handle to an object of the specified type that has been 
+                selected into this device context.
 
 #### Returns
 
-`System.Void` 
-
-###  Dispose
-
-Delete the device context freeing the associated memory.
-
-#### Returns
-
-`System.Void` 
+`System.IntPtr` 
 
 ###  SelectFont
 
@@ -57,13 +60,4 @@ Handle to object.
 #### Returns
 
 `System.IntPtr` A handle to the object being replaced.
-
-###  GetCurrentObject
-
-Gets a handle to an object of the specified type that has been 
-                selected into this device context.
-
-#### Returns
-
-`System.IntPtr` 
 

@@ -32,33 +32,3 @@ Returns the CreatedPart as a byte array.
 
 Returns the ModifiedPart as a byte array.
 
-###  IsIndirect `Boolean`
-
-###  ObjectId `PdfObjectId`
-
-## Methods
-
-###  Write
-
-#### Returns
-
-`System.Void` 
-
-###  Write
-
-#### Returns
-
-`System.Void` 
-
-###  WriteIndirect
-
-#### Returns
-
-`System.Void` 
-
-###  GetReference
-
-#### Returns
-
-`Telerik.Pdf.PdfObjectReference` 
-

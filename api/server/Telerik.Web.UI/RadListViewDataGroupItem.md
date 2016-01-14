@@ -17,6 +17,10 @@ Represents a data group item for the single data group container
 
 ## Properties
 
+###  AggregatesValues `IDictionary`
+
+Gets a key-value collection of all aggregate values in the data group.
+
 ###  DataGroupKey `Object`
 
 holds the key of the current data group
@@ -25,9 +29,10 @@ holds the key of the current data group
 
 holds the name of the group field
 
-###  AggregatesValues `IDictionary`
+###  IsInEditMode `Boolean`
 
-Gets a key-value collection of all aggregate values in the data group.
+Gets a value indicating whether the  item is in edit mode at the
+            moment.
 
 ###  ItemType `RadListViewItemType`
 
@@ -37,11 +42,6 @@ Gets or sets the type of the item which represents enumeration and
 ###  OwnerListView `RadListView`
 
 Gets or sets the owner  of the item.
-
-###  IsInEditMode `Boolean`
-
-Gets a value indicating whether the  item is in edit mode at the
-            moment.
 
 ## Methods
 

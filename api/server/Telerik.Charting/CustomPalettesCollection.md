@@ -16,147 +16,31 @@ User-defined palettes collection
 
 ## Properties
 
-###  List `IList`1`
+###  Count `Int32`
 
-Items list
+Gets items count in collection
 
 ###  First `T`
 
 Link to first item in collection
 
-###  Last `T`
+###  IsReadOnly `Boolean`
 
-Link to last item in collection
+Gets true if collection is read-only
 
 ###  Item `T`
 
 Gets the collection item at given index
 
-###  Count `Int32`
+###  Last `T`
 
-Gets items count in collection
+Link to last item in collection
 
-###  IsReadOnly `Boolean`
+###  List `IList`1`
 
-Gets true if collection is read-only
+Items list
 
 ## Methods
-
-###  Contains
-
-Indicates whether the specified palette item exists in the collection.
-
-#### Parameters
-
-#### paletteName `System.String`
-
-Name of palette
-
-#### Returns
-
-`System.Boolean` Whether the specified palette item exists in the collection
-
-###  IndexOf
-
-Returns the index of the specified palette item.
-
-#### Parameters
-
-#### paletteName `System.String`
-
-Name of palette
-
-#### Returns
-
-`System.Int32` Index of the specified palette item
-
-###  Remove
-
-Removes palette with specified name from collection
-
-#### Parameters
-
-#### paletteName `System.String`
-
-Name of palette
-
-#### Returns
-
-`System.Void` 
-
-###  GetPalette
-
-Returns a reference to the Palette object at the specified index.
-
-#### Parameters
-
-#### index `System.Int32`
-
-Index to get palette
-
-#### Returns
-
-`Telerik.Charting.Palette` Palette at specified index
-
-###  GetPalette
-
-Returns a reference to the Palette object by the specified name.
-
-#### Parameters
-
-#### name `System.String`
-
-Name of palette
-
-#### Returns
-
-`Telerik.Charting.Palette` Palette object with specified name
-
-###  IndexOf
-
-Item index in collection
-
-#### Parameters
-
-#### item ``0`
-
-Item to get index of
-
-#### Returns
-
-`System.Int32` Index
-
-###  Insert
-
-Inserts item at the given index
-
-#### Parameters
-
-#### index `System.Int32`
-
-Index
-
-#### item ``0`
-
-Item to insert
-
-#### Returns
-
-`System.Void` 
-
-###  RemoveAt
-
-Removes item from collection at given index
-
-#### Parameters
-
-#### index `System.Int32`
-
-Index to remove at
-
-#### Returns
-
-`System.Void` 
 
 ###  Add
 
@@ -196,6 +80,20 @@ Clears collection
 
 ###  Contains
 
+Indicates whether the specified palette item exists in the collection.
+
+#### Parameters
+
+#### paletteName `System.String`
+
+Name of palette
+
+#### Returns
+
+`System.Boolean` Whether the specified palette item exists in the collection
+
+###  Contains
+
 Checks does collection contain the given item
 
 #### Parameters
@@ -227,20 +125,6 @@ The zero-based index in array at which copying begins
 
 `System.Void` 
 
-###  Remove
-
-Removes item from collection
-
-#### Parameters
-
-#### item ``0`
-
-Item to remove
-
-#### Returns
-
-`System.Boolean` True in case of success
-
 ###  GetEnumerator
 
 Returns an enumerator that iterates through the System.Collections.Generic.List>T<.
@@ -248,6 +132,80 @@ Returns an enumerator that iterates through the System.Collections.Generic.List>
 #### Returns
 
 `System.Collections.Generic.IEnumerator`1` A System.Collections.Generic.List>T<.Enumerator for the System.Collections.Generic.List>T<.
+
+###  GetPalette
+
+Returns a reference to the Palette object at the specified index.
+
+#### Parameters
+
+#### index `System.Int32`
+
+Index to get palette
+
+#### Returns
+
+`Telerik.Charting.Palette` Palette at specified index
+
+###  GetPalette
+
+Returns a reference to the Palette object by the specified name.
+
+#### Parameters
+
+#### name `System.String`
+
+Name of palette
+
+#### Returns
+
+`Telerik.Charting.Palette` Palette object with specified name
+
+###  IndexOf
+
+Returns the index of the specified palette item.
+
+#### Parameters
+
+#### paletteName `System.String`
+
+Name of palette
+
+#### Returns
+
+`System.Int32` Index of the specified palette item
+
+###  IndexOf
+
+Item index in collection
+
+#### Parameters
+
+#### item ``0`
+
+Item to get index of
+
+#### Returns
+
+`System.Int32` Index
+
+###  Insert
+
+Inserts item at the given index
+
+#### Parameters
+
+#### index `System.Int32`
+
+Index
+
+#### item ``0`
+
+Item to insert
+
+#### Returns
+
+`System.Void` 
 
 ###  LoadViewState
 
@@ -263,31 +221,17 @@ View state to load from
 
 `System.Void` 
 
-###  SaveViewState
+###  OnClear
 
-Saves collection to a view state
-
-#### Returns
-
-`System.Object` Saved state bag object
-
-###  SetDirty
-
-Sets is item in the dirty state
+Before collection clearing event
 
 #### Returns
 
 `System.Void` 
 
-###  SetItemDirty
+###  OnClearComplete
 
-Marks collection item dirty
-
-#### Parameters
-
-#### item ``0`
-
-Item to mark
+Collection after clean event
 
 #### Returns
 
@@ -365,22 +309,6 @@ Value to insert
 
 `System.Void` 
 
-###  OnClear
-
-Before collection clearing event
-
-#### Returns
-
-`System.Void` 
-
-###  OnClearComplete
-
-Collection after clean event
-
-#### Returns
-
-`System.Void` 
-
 ###  PopulateFromXml
 
 Populates collection from XML element
@@ -395,11 +323,75 @@ XmlElement to import from
 
 `System.Void` 
 
-###  ToString
+###  Remove
 
-ToString() override. Used in the properties grid to avoid object type showing.
+Removes palette with specified name from collection
+
+#### Parameters
+
+#### paletteName `System.String`
+
+Name of palette
 
 #### Returns
 
-`System.String` Empty string
+`System.Void` 
+
+###  Remove
+
+Removes item from collection
+
+#### Parameters
+
+#### item ``0`
+
+Item to remove
+
+#### Returns
+
+`System.Boolean` True in case of success
+
+###  RemoveAt
+
+Removes item from collection at given index
+
+#### Parameters
+
+#### index `System.Int32`
+
+Index to remove at
+
+#### Returns
+
+`System.Void` 
+
+###  SaveViewState
+
+Saves collection to a view state
+
+#### Returns
+
+`System.Object` Saved state bag object
+
+###  SetDirty
+
+Sets is item in the dirty state
+
+#### Returns
+
+`System.Void` 
+
+###  SetItemDirty
+
+Marks collection item dirty
+
+#### Parameters
+
+#### item ``0`
+
+Item to mark
+
+#### Returns
+
+`System.Void` 
 

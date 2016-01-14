@@ -19,78 +19,38 @@ RadDockZone is a control which represents a virtual placeholder, where
 
 ## Properties
 
+###  AllowedDocks `DockCollection`
+
+Specifies the UniqueNames of the RadDock controls, that will be allowed to dock in the zone.
+
+###  ClientIDMode `ClientIDMode`
+
+This property is overridden in order to support controls which implement INamingContainer.
+            The default value is changed to "AutoID".
+
+###  CssClassFormatString `String`
+
+The CssClass property will now be used instead of the former Skin 
+            and will be modified in AddAttributesToRender()
+
 ###  Docks `DockCollection`
 
 Gets a collection of the RadDock objects inside the RadDockZone.
             It will return an empty collection if there are no RadDocks in the zone.
 
-###  Controls `ControlCollection`
+###  EnableAjaxSkinRendering `String`
 
-###  EnableEmbeddedSkins `Boolean`
-
-###  TagKey `HtmlTextWriterTag`
-
-###  CssClassFormatString `String`
-
-###  SupportsRenderingMode `Boolean`
-
-###  FitDocks `DockCollection`
-
-Gets or sets a value, indicating whether the RadDockZone will set the size
-            of the docked RadDock controls to 100% depending on its Orientation.
+Gets or sets the value, indicating whether to render the skin CSS files during Ajax requests
 
 #### Remarks
-When Orientation is Horizontal, the Height of the docked RadDock controls
-            will become 100%, otherwise the Width will become 100%.
+If EnableAjaxSkinRendering is set to false you will have to register the needed control base CSS file by hand when adding/showing the control with Ajax.
 
-###  HighlightedCssClass `String`
+###  EnableEmbeddedBaseStylesheet `Boolean`
 
-Gets or sets a CSS class name, which will be applied when the RadDockZone is highlighted.
-            If this property is not set, the control will not have a highlighted style.
-
-###  UniqueName `String`
-
-Gets or sets the unique name of the control. If this property is not set, the control ID will be
-            used instead. RadDockLayout will throw an exception if it finds two RadDockZone controls with
-            the same UniqueName.
-
-###  Orientation `Orientation`
-
-Gets or sets a value that specifies the dimension in which docked RadDock controls are arranged.
-            If this property is not set the orientation will be vertical.
-
-###  MinWidth `Unit`
-
-Gets or sets the minimum width of the RadDockZone control. The default value is "10px".
-
-###  MinHeight `Unit`
-
-Gets or sets the minimum height of the RadDockZone control. The default value is "10px".
-
-###  LayoutID `IDockLayout`
-
-###  AllowedDocks `DockCollection`
-
-Specifies the UniqueNames of the RadDock controls, that will be allowed to dock in the zone.
-
-###  RegisterWithScriptManager `Boolean`
-
-Gets or sets the value, indicating whether to register with the ScriptManager control on the page.
+Gets or sets the value, indicating whether to render the link to the embedded base stylesheet of the control or not.
 
 #### Remarks
-If RegisterWithScriptManager is set to false the control can be rendered on the page using Web Services or normal callback requests/page methods.
-
-###  Skin `String`
-
-Gets or sets the skin name for the control user interface.
-
-#### Remarks
-If this property is not set, the control will render using the skin named "Default".
-            If EnableEmbeddedSkins is set to false, the control will not render skin.
-
-###  IsSkinSet `String`
-
-For internal use.
+If EnableEmbeddedBaseStylesheet is set to false you will have to register the needed control base CSS file by hand.
 
 ###  EnableEmbeddedScripts `Boolean`
 
@@ -106,26 +66,43 @@ Gets or sets the value, indicating whether to render links to the embedded skins
 #### Remarks
 If EnableEmbeddedSkins is set to false you will have to register the needed CSS files by hand.
 
-###  EnableEmbeddedBaseStylesheet `Boolean`
+###  FitDocks `DockCollection`
 
-Gets or sets the value, indicating whether to render the link to the embedded base stylesheet of the control or not.
-
-#### Remarks
-If EnableEmbeddedBaseStylesheet is set to false you will have to register the needed control base CSS file by hand.
-
-###  RuntimeSkin `String`
-
-Gets the real skin name for the control user interface. If Skin is not set, returns
-            "Default", otherwise returns Skin.
-
-###  EnableAjaxSkinRendering `String`
-
-Gets or sets the value, indicating whether to render the skin CSS files during Ajax requests
+Gets or sets a value, indicating whether the RadDockZone will set the size
+            of the docked RadDock controls to 100% depending on its Orientation.
 
 #### Remarks
-If EnableAjaxSkinRendering is set to false you will have to register the needed control base CSS file by hand when adding/showing the control with Ajax.
+When Orientation is Horizontal, the Height of the docked RadDock controls
+            will become 100%, otherwise the Width will become 100%.
 
-###  ClientStateFieldID `String`
+###  HighlightedCssClass `String`
+
+Gets or sets a CSS class name, which will be applied when the RadDockZone is highlighted.
+            If this property is not set, the control will not have a highlighted style.
+
+###  IsSkinSet `String`
+
+For internal use.
+
+###  MinHeight `Unit`
+
+Gets or sets the minimum height of the RadDockZone control. The default value is "10px".
+
+###  MinWidth `Unit`
+
+Gets or sets the minimum width of the RadDockZone control. The default value is "10px".
+
+###  Orientation `Orientation`
+
+Gets or sets a value that specifies the dimension in which docked RadDock controls are arranged.
+            If this property is not set the orientation will be vertical.
+
+###  RegisterWithScriptManager `Boolean`
+
+Gets or sets the value, indicating whether to register with the ScriptManager control on the page.
+
+#### Remarks
+If RegisterWithScriptManager is set to false the control can be rendered on the page using Web Services or normal callback requests/page methods.
 
 ###  RenderMode `RenderMode`
 
@@ -140,105 +117,30 @@ Lightweight rendering mode might change the outlook of the component in some old
 
 Returns resolved RenderMode should the original value was Auto
 
-###  CssClassFormatString `String`
+###  RuntimeSkin `String`
 
-The CssClass property will now be used instead of the former Skin 
-            and will be modified in AddAttributesToRender()
+Gets the real skin name for the control user interface. If Skin is not set, returns
+            "Default", otherwise returns Skin.
 
-###  ClientIDMode `ClientIDMode`
+###  Skin `String`
 
-This property is overridden in order to support controls which implement INamingContainer.
-            The default value is changed to "AutoID".
+Gets or sets the skin name for the control user interface.
 
-###  ScriptManager `ScriptManager`
+#### Remarks
+If this property is not set, the control will render using the skin named "Default".
+            If EnableEmbeddedSkins is set to false, the control will not render skin.
 
-###  RadScriptManager `ScriptManager`
+###  UniqueName `String`
+
+Gets or sets the unique name of the control. If this property is not set, the control ID will be
+            used instead. RadDockLayout will throw an exception if it finds two RadDockZone controls with
+            the same UniqueName.
 
 ## Methods
 
-###  GetUniqueName
+###  ApplyConditionalRendering
 
-Returns the unique name for the dock, based on the UniqueName and
-            the ID properties.
-
-#### Returns
-
-`System.String` A string, containing the UniqueName property of the dock, or its 
-            ID, if the UniqueName property is not set.
-
-###  AddedControl
-
-#### Returns
-
-`System.Void` 
-
-###  RemovedControl
-
-#### Returns
-
-`System.Void` 
-
-###  AddAttributesToRender
-
-#### Returns
-
-`System.Void` 
-
-###  RenderChildren
-
-#### Returns
-
-`System.Void` 
-
-###  GetScriptDescriptors
-
-#### Returns
-
-`System.Collections.Generic.IEnumerable`1` 
-
-###  DescribeComponent
-
-#### Returns
-
-`System.Void` 
-
-###  OnInit
-
-#### Returns
-
-`System.Void` 
-
-###  OnUnload
-
-#### Returns
-
-`System.Void` 
-
-###  ControlPreRender
-
-#### Returns
-
-`System.Void` 
-
-###  DescribeClientProperties
-
-#### Returns
-
-`System.Void` 
-
-###  DescribeClientEvents
-
-#### Returns
-
-`System.Void` 
-
-###  AddAttributesToRender
-
-#### Returns
-
-`System.Void` 
-
-###  OnPreRender
+Use this from RenderContents of the inheritor
 
 #### Returns
 
@@ -252,21 +154,23 @@ Code moved into this method from OnPreRender to make sure it executed when the f
 
 `System.Void` 
 
-###  RegisterScriptControl
+###  GetEmbeddedSkinNames
 
-Registers the control with the ScriptManager
-
-#### Returns
-
-`System.Void` 
-
-###  RegisterCssReferences
-
-Registers the CSS references
+Returns the names of all embedded skins. Used by Telerik.Web.Examples.
 
 #### Returns
 
-`System.Void` 
+`System.Collections.Generic.List`1` 
+
+###  GetUniqueName
+
+Returns the unique name for the dock, based on the UniqueName and
+            the ID properties.
+
+#### Returns
+
+`System.String` A string, containing the UniqueName property of the dock, or its 
+            ID, if the UniqueName property is not set.
 
 ###  LoadClientState
 
@@ -279,96 +183,6 @@ Loads the client state data
 #### Returns
 
 `System.Void` 
-
-###  SaveClientState
-
-Saves the client state data
-
-#### Returns
-
-`System.String` 
-
-###  RenderClientStateField
-
-#### Returns
-
-`System.Void` 
-
-###  RenderBeginTag
-
-#### Returns
-
-`System.Void` 
-
-###  RenderEndTag
-
-#### Returns
-
-`System.Void` 
-
-###  Render
-
-#### Returns
-
-`System.Void` 
-
-###  RenderScriptsNoScriptManager
-
-#### Returns
-
-`System.Void` 
-
-###  RenderDescriptorsNoScriptManager
-
-#### Returns
-
-`System.Void` 
-
-###  RenderContents
-
-#### Returns
-
-`System.Void` 
-
-###  ApplyConditionalRendering
-
-Use this from RenderContents of the inheritor
-
-#### Returns
-
-`System.Void` 
-
-###  DescribeComponent
-
-#### Returns
-
-`System.Void` 
-
-###  DescribeProperty
-
-#### Returns
-
-`System.Void` 
-
-###  DescribeIDReferenceProperty
-
-#### Returns
-
-`System.Void` 
-
-###  DescribeEvent
-
-#### Returns
-
-`System.Void` 
-
-###  GetEmbeddedSkinNames
-
-Returns the names of all embedded skins. Used by Telerik.Web.Examples.
-
-#### Returns
-
-`System.Collections.Generic.List`1` 
 
 ###  LoadPostData
 
@@ -392,9 +206,27 @@ Executed when post data changes should invoke a changed event
 
 `System.Void` 
 
-###  GetViewStateValue
+###  RegisterCssReferences
+
+Registers the CSS references
 
 #### Returns
 
-`Telerik.Web.UI.T` 
+`System.Void` 
+
+###  RegisterScriptControl
+
+Registers the control with the ScriptManager
+
+#### Returns
+
+`System.Void` 
+
+###  SaveClientState
+
+Saves the client state data
+
+#### Returns
+
+`System.String` 
 

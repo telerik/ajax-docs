@@ -16,29 +16,13 @@ RadODataDataSource
 
 ## Properties
 
-###  Transport `Transport`
-
-Gets the web service to be used for populating items with ExpandMode set to WebService.
-
 ###  ClientEvents `ClientEvents`
 
 Gets the client events.
 
-###  Schema `Schema`
+###  EnableDataCaching `Boolean`
 
-Gets the schema.
-
-###  FilterExpressions `FilterExpressionCollection`
-
-Gets the filter expressions.
-
-###  SortExpressions `SortExpressionCollection`
-
-Gets the sort expressions.
-
-###  EnableSorting `Boolean`
-
-Gets or sets whether server-side sorting is enabled.
+Gets or sets whether data caching is enabled.
 
 ###  EnableFiltering `Boolean`
 
@@ -48,9 +32,13 @@ Gets or sets whether server-side sorting is enabled.
 
 Gets or sets whether server-side paging is enabled.
 
-###  EnableDataCaching `Boolean`
+###  EnableSorting `Boolean`
 
-Gets or sets whether data caching is enabled.
+Gets or sets whether server-side sorting is enabled.
+
+###  FilterExpressions `FilterExpressionCollection`
+
+Gets the filter expressions.
 
 ###  RegisterWithScriptManager `Boolean`
 
@@ -59,23 +47,19 @@ Gets or sets the value, indicating whether to register with the ScriptManager co
 #### Remarks
 If RegisterWithScriptManager is set to false the control can be rendered on the page using Web Services or normal callback requests/page methods.
 
-###  ScriptManager `ScriptManager`
+###  Schema `Schema`
+
+Gets the schema.
+
+###  SortExpressions `SortExpressionCollection`
+
+Gets the sort expressions.
+
+###  Transport `Transport`
+
+Gets the web service to be used for populating items with ExpandMode set to WebService.
 
 ## Methods
-
-###  RenderDescriptorsNoScriptManager
-
-#### Returns
-
-`System.Void` 
-
-###  RegisterScriptControl
-
-Registers the control with the ScriptManager
-
-#### Returns
-
-`System.Void` 
 
 ###  GetScriptDescriptors
 
@@ -96,4 +80,12 @@ Gets a collection of  objects
 
 `System.Collections.Generic.IEnumerable`1` An  collection of 
             objects.
+
+###  RegisterScriptControl
+
+Registers the control with the ScriptManager
+
+#### Returns
+
+`System.Void` 
 

@@ -32,11 +32,3 @@ Each entry in this collection consists of a relation key names. These key names 
             - The MasterKeyField in the GridRelationFields should match the primary key of the parent table in the corresponding relatio
             - The DetailKeyField in the GridRelationFields should match the foreign key of the child table in the corresponding relation
 
-## Methods
-
-###  GetViewStateValue
-
-#### Returns
-
-`Telerik.Web.UI.T` 
-

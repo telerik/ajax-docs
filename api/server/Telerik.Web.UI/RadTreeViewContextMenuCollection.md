@@ -37,6 +37,22 @@ The RadTreeViewContextMenu to add to the collection
 
 `System.Void` 
 
+###  AddRange
+
+Appends the specified array of  objects to the end of the 
+            current .
+
+#### Parameters
+
+#### contextMenus `System.Collections.Generic.IEnumerable{Telerik.Web.UI.RadTreeViewContextMenu}`
+
+The array of  to append to the end of the current 
+            	.
+
+#### Returns
+
+`System.Void` 
+
 ###  Contains
 
 Determines whether the specified RadTreeViewContextMenu is in the parent
@@ -68,22 +84,6 @@ The System.Array to copy the RadTreeViewContextMenu instances to.
 #### index `System.Int32`
 
 The zero-based relative index in array where copying begins
-
-#### Returns
-
-`System.Void` 
-
-###  AddRange
-
-Appends the specified array of  objects to the end of the 
-            current .
-
-#### Parameters
-
-#### contextMenus `System.Collections.Generic.IEnumerable{Telerik.Web.UI.RadTreeViewContextMenu}`
-
-The array of  to append to the end of the current 
-            	.
 
 #### Returns
 

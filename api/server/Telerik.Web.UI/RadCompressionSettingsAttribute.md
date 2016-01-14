@@ -17,6 +17,10 @@ Represents the RadCompressionSettings attribute class. It can be used to setup R
 
 ## Properties
 
+###  EnablePostbackCompression `Boolean`
+
+A property that Gets or Sets whether RadCompression module should compress responses to regular post back requests.
+
 ###  HttpCompression `CompressionType`
 
 A property that Gets or Sets the  to be used for Http compression.
@@ -24,8 +28,4 @@ A property that Gets or Sets the  to be used for Http compression.
 ###  StateCompression `CompressionType`
 
 A property that Gets or Sets the  to be used for ViewState compression.
-
-###  EnablePostbackCompression `Boolean`
-
-A property that Gets or Sets whether RadCompression module should compress responses to regular post back requests.
 

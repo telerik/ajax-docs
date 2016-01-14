@@ -17,11 +17,11 @@ Represents a FormatBlock dropdown item.
 
 ## Properties
 
-###  Title `String`
-
-The text which will be displayed in the FormatBlock dropdown
-
 ###  Tag `String`
 
 The tag which the selected text will be enclosed with.
+
+###  Title `String`
+
+The text which will be displayed in the FormatBlock dropdown
 

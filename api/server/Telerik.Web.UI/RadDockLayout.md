@@ -39,40 +39,19 @@ Workflow:
 
 ## Properties
 
-###  RegisteredDocks `ReadOnlyCollection`1`
+###  EnableAjaxSkinRendering `String`
 
-Returns all registered docks with this RadDockLayout control.
-
-###  RegisteredZones `ReadOnlyCollection`1`
-
-Returns all registered zones with this RadDockLayout control.
-
-###  StoredPositions `Dictionary`2`
-
-This is the container where we will store the dock positions set on the client.
-
-###  StoredIndices `Dictionary`2`
-
-This is the container where we will store the dock indices set on the client.
-
-###  StoreLayoutInViewState `Boolean`
-
-By default RadDockLayout will store the positions of its inner docks in
-            the ViewState. If you want to store the positions in other storage medium
-            such as a database, or the Session, set this property to false. Setting this 
-            property to false will also minimize the ViewState usage.
-
-###  Skin `String`
-
-Gets or sets the skin name for the child controls' user interface.
+Gets or sets the value, indicating whether to render the skin CSS files during Ajax requests.
 
 #### Remarks
-If this property is set, RadDockLayout will set the Skin and EnableEmbeddedSkins properties
-            of each child RadDock and RadDockZone, unless their Skin property is not explicitly set.
+If EnableAjaxSkinRendering is set to false you will have to register the needed control base CSS file by hand when adding/showing the control with Ajax.
 
-###  IsSkinSet `String`
+###  EnableEmbeddedBaseStylesheet `Boolean`
 
-For internal use.
+Gets or sets the value, indicating whether to render the link to the embedded base stylesheet of the control or not.
+
+#### Remarks
+If EnableEmbeddedBaseStylesheet is set to false you will have to register the needed control base CSS file by hand.
 
 ###  EnableEmbeddedSkins `String`
 
@@ -84,27 +63,13 @@ If EnableEmbeddedSkins is set to false you will have to register the needed CSS 
             If the Skin property is set, RadDockLayout will set the Skin and EnableEmbeddedSkins properties
             of each child RadDock and RadDockZone, unless their Skin property is not explicitly set.
 
-###  EnableEmbeddedBaseStylesheet `Boolean`
-
-Gets or sets the value, indicating whether to render the link to the embedded base stylesheet of the control or not.
-
-#### Remarks
-If EnableEmbeddedBaseStylesheet is set to false you will have to register the needed control base CSS file by hand.
-
-###  EnableAjaxSkinRendering `String`
-
-Gets or sets the value, indicating whether to render the skin CSS files during Ajax requests.
-
-#### Remarks
-If EnableAjaxSkinRendering is set to false you will have to register the needed control base CSS file by hand when adding/showing the control with Ajax.
-
-###  StorageProvider `IStateStorageProvider`
-
-Gets or sets the StateStorageProvider instance that will be used for the built-in state storing.
-
 ###  EnableLayoutPersistence `Boolean`
 
 Specifies wheter the built-in state storing should be enabled.
+
+###  IsSkinSet `String`
+
+For internal use.
 
 ###  LayoutPersistenceRepositoryType `DockLayoutPersistenceRepository`
 
@@ -120,6 +85,14 @@ Gets or sets the key identifier of the stored RadDocks' states.
 #### Remarks
 The corresponding StorageProvider will be used for the state storing functionality.
 
+###  RegisteredDocks `ReadOnlyCollection`1`
+
+Returns all registered docks with this RadDockLayout control.
+
+###  RegisteredZones `ReadOnlyCollection`1`
+
+Returns all registered zones with this RadDockLayout control.
+
 ###  RenderingMode `RenderMode`
 
 Specifies the rendering mode of the control. Setting the mode to Lightweight will yield
@@ -129,144 +102,42 @@ Specifies the rendering mode of the control. Setting the mode to Lightweight wil
 Lightweight rendering mode might change the outlook of the component in some older browsers
             that don't support CSS3/HTML5.
 
-## Methods
+###  Skin `String`
 
-###  OnInit
-
-overridden. Handles the Init event. Inherited from Control.
-
-#### Returns
-
-`System.Void` 
-
-###  Page_Init
-
-#### Returns
-
-`System.Void` 
-
-###  RadDockLayout_SaveDockLayout
-
-Handler for LoadDockLayout event used for the built-in state storing
-
-#### Returns
-
-`System.Void` 
-
-###  RadDockLayout_LoadDockLayout
-
-Handler for LoadDockLayout event used for the built-in state storing
-
-#### Returns
-
-`System.Void` 
-
-###  GetSerializer
-
-Returns the JavaScriptSerializer used for storing the state
-
-#### Returns
-
-`System.Web.Script.Serialization.JavaScriptSerializer` JavaScriptSerisalizer instance with registered Unit converters
-
-###  Page_InitComplete
-
-The docks must be already created. We will apply their order
-            and if there is a state information, we will apply it.
-
-#### Returns
-
-`System.Void` 
-
-###  LoadViewState
-
-We will apply the dock positions saved in the ViewState here.
-
-#### Returns
-
-`System.Void` 
-
-###  OnPreRender
-
-Overridden. Raises the PreRender event
-
-#### Returns
-
-`System.Void` 
-
-###  RenderChildren
-
-#### Returns
-
-`System.Void` 
-
-###  SaveViewState
-
-We will loop through all registered docks and will retrieve their
-            positions and state. Those positions will be saved in the ViewState
-            if StoreLayoutInViewState is true.
-
-#### Returns
-
-`System.Object` base.SaveViewState()
-
-###  SetRegisteredDockParents
-
-Reorders the docks in the control tree, according the supplied parameters.
+Gets or sets the skin name for the child controls' user interface.
 
 #### Remarks
-This method will check for uniqueness of the UniqueNames of the registered docks. If
-            there are two docks with equal unique names an exception will be thrown.
+If this property is set, RadDockLayout will set the Skin and EnableEmbeddedSkins properties
+            of each child RadDock and RadDockZone, unless their Skin property is not explicitly set.
 
-#### Parameters
+###  StorageProvider `IStateStorageProvider`
 
-#### parents `System.Collections.Generic.Dictionary{System.String,System.String}`
+Gets or sets the StateStorageProvider instance that will be used for the built-in state storing.
 
-A Dictionary, containing UniqueName/DockZoneID pairs.
+###  StoredIndices `Dictionary`2`
 
-#### indices `System.Collections.Generic.Dictionary{System.String,System.Int32}`
+This is the container where we will store the dock indices set on the client.
 
-A Dictionary, containing UniqueName/Index pairs.
+###  StoredPositions `Dictionary`2`
 
-#### Returns
+This is the container where we will store the dock positions set on the client.
 
-`System.Void` 
+###  StoreLayoutInViewState `Boolean`
 
-###  SetDockParent
+By default RadDockLayout will store the positions of its inner docks in
+            the ViewState. If you want to store the positions in other storage medium
+            such as a database, or the Session, set this property to false. Setting this 
+            property to false will also minimize the ViewState usage.
 
-Docks the dock to a zone with ClientID = newParentClientID.
+## Methods
 
-#### Parameters
+###  GetEmbeddedSkinNames
 
-#### dock `Telerik.Web.UI.RadDock`
-
-The dock which should be docked.
-
-#### newParentClientID `System.String`
-
-The ClientID of the new parent.
+Returns the names of all embedded skins. Used by Telerik.Web.Examples.
 
 #### Returns
 
-`System.Void` 
-
-###  GetRegisteredDocksParents
-
-Cycles through all registered docks and retrieves their parents. The Dictionary
-            returned by this method could be passed to SetRegisteredDockParents().
-
-#### Returns
-
-`System.Collections.Generic.Dictionary`2` A dictionary, containing UniqueName/DockZoneID pairs.
-
-###  GetRegisteredDocksIndices
-
-Cycles through all registered docks and retrieves their indices. The Dictionary
-            returned by this method could be passed to SetRegisteredDockParents().
-
-#### Returns
-
-`System.Collections.Generic.Dictionary`2` A dictionary, containing UniqueName/Index pairs.
+`System.Collections.Generic.List`1` 
 
 ###  GetRegisteredDocksState
 
@@ -323,26 +194,36 @@ A DockLayoutEventArgs that contains the event data.
 
 `System.Void` 
 
-###  EnsureUniqueName
+###  Page_InitComplete
 
-Ensures that the dock has unique UniqueName or ID properties to its
-            RadDockLayout. If the UniqueName or the ID are not unique, an
-            exception is thrown.
-
-#### Parameters
-
-#### dock `Telerik.Web.UI.RadDock`
-
-A RadDock object.
-
-#### uniqueNames `System.Collections.Generic.List{System.String}`
-
-A list of UniqueNames of the RadDock controls in RadDockLayout.
+The docks must be already created. We will apply their order
+            and if there is a state information, we will apply it.
 
 #### Returns
 
-`System.String` A string, containing the UniqueName property of the dock, or its 
-            ID if the UniqueName property is not set. Got from the RadDock.GetUniqueName().
+`System.Void` 
+
+###  SetRegisteredDockParents
+
+Reorders the docks in the control tree, according the supplied parameters.
+
+#### Remarks
+This method will check for uniqueness of the UniqueNames of the registered docks. If
+            there are two docks with equal unique names an exception will be thrown.
+
+#### Parameters
+
+#### parents `System.Collections.Generic.Dictionary{System.String,System.String}`
+
+A Dictionary, containing UniqueName/DockZoneID pairs.
+
+#### indices `System.Collections.Generic.Dictionary{System.String,System.Int32}`
+
+A Dictionary, containing UniqueName/Index pairs.
+
+#### Returns
+
+`System.Void` 
 
 ###  Telerik.Web.UI.IDockLayout.RegisterDock
 
@@ -424,12 +305,4 @@ The RadDockZone object that will be unregistered.
 #### Returns
 
 `System.Void` 
-
-###  GetEmbeddedSkinNames
-
-Returns the names of all embedded skins. Used by Telerik.Web.Examples.
-
-#### Returns
-
-`System.Collections.Generic.List`1` 
 

@@ -16,41 +16,21 @@ Manages Primary and Secondary Icons of the RadButton control.
 
 ## Properties
 
-###  ShowPrimaryIcon `Boolean`
+###  PrimaryHoveredIconUrl `String`
 
-Gets or sets a bool value indicating whether the RadButton will show the Primary Icon.
+Gets or sets the URL to the image showed when the Primary Icon is hovered.
+
+###  PrimaryIconBottom `Unit`
+
+Gets or sets the bottom edge of the Primary Icon, relative to the RadButton control's wrapper element.
 
 ###  PrimaryIconCssClass `String`
 
 Gets or sets the CSS class applied to the Primary Icon.
 
-###  PrimaryIconUrl `String`
-
-Gets or sets the URL to the image used as Primary Icon.
-
-###  PrimaryHoveredIconUrl `String`
-
-Gets or sets the URL to the image showed when the Primary Icon is hovered.
-
-###  PrimaryPressedIconUrl `String`
-
-Gets or sets the URL to the image showed when the Primary Icon is pressed.
-
 ###  PrimaryIconHeight `Unit`
 
 Gets or sets the Height of the Primary Icon.
-
-###  PrimaryIconWidth `Unit`
-
-Gets or sets the Width of the Primary Icon.
-
-###  PrimaryIconTop `Unit`
-
-Gets or sets the top edge of the Primary Icon, relative to the RadButton control's wrapper element.
-
-###  PrimaryIconBottom `Unit`
-
-Gets or sets the bottom edge of the Primary Icon, relative to the RadButton control's wrapper element.
 
 ###  PrimaryIconLeft `Unit`
 
@@ -60,41 +40,37 @@ Gets or sets the left edge of the Primary Icon, relative to the RadButton contro
 
 Gets or sets the right edge of the Primary Icon, relative to the RadButton control's wrapper element.
 
-###  ShowSecondaryIcon `Boolean`
+###  PrimaryIconTop `Unit`
 
-Gets or sets a bool value indicating whether the RadButton will show the Secondary Icon.
+Gets or sets the top edge of the Primary Icon, relative to the RadButton control's wrapper element.
 
-###  SecondaryIconCssClass `String`
+###  PrimaryIconUrl `String`
 
-Gets or sets the CSS class applied to the Secondary Icon.
+Gets or sets the URL to the image used as Primary Icon.
 
-###  SecondaryIconUrl `String`
+###  PrimaryIconWidth `Unit`
 
-Gets or sets the URL to the image used as Secondary Icon.
+Gets or sets the Width of the Primary Icon.
+
+###  PrimaryPressedIconUrl `String`
+
+Gets or sets the URL to the image showed when the Primary Icon is pressed.
 
 ###  SecondaryHoveredIconUrl `String`
 
 Gets or sets the URL to the image showed when the Secondary Icon is hovered.
 
-###  SecondaryPressedIconUrl `String`
+###  SecondaryIconBottom `Unit`
 
-Gets or sets the URL to the image showed when the Secondary Icon is pressed.
+Gets or sets the bottom edge of the Secondary Icon, relative to the RadButton control's wrapper element.
+
+###  SecondaryIconCssClass `String`
+
+Gets or sets the CSS class applied to the Secondary Icon.
 
 ###  SecondaryIconHeight `Unit`
 
 Gets or sets the Height of the Secondary Icon.
-
-###  SecondaryIconWidth `Unit`
-
-Gets or sets the Width of the Secondary Icon.
-
-###  SecondaryIconTop `Unit`
-
-Gets or sets the top edge of the Secondary Icon, relative to the RadButton control's wrapper element.
-
-###  SecondaryIconBottom `Unit`
-
-Gets or sets the bottom edge of the Secondary Icon, relative to the RadButton control's wrapper element.
 
 ###  SecondaryIconLeft `Unit`
 
@@ -103,4 +79,28 @@ Gets or sets the left edge of the Secondary Icon, relative to the RadButton cont
 ###  SecondaryIconRight `Unit`
 
 Gets or sets the right edge of the Secondary Icon, relative to the RadButton control's wrapper element.
+
+###  SecondaryIconTop `Unit`
+
+Gets or sets the top edge of the Secondary Icon, relative to the RadButton control's wrapper element.
+
+###  SecondaryIconUrl `String`
+
+Gets or sets the URL to the image used as Secondary Icon.
+
+###  SecondaryIconWidth `Unit`
+
+Gets or sets the Width of the Secondary Icon.
+
+###  SecondaryPressedIconUrl `String`
+
+Gets or sets the URL to the image showed when the Secondary Icon is pressed.
+
+###  ShowPrimaryIcon `Boolean`
+
+Gets or sets a bool value indicating whether the RadButton will show the Primary Icon.
+
+###  ShowSecondaryIcon `Boolean`
+
+Gets or sets a bool value indicating whether the RadButton will show the Secondary Icon.
 

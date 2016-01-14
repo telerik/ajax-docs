@@ -16,15 +16,6 @@ Class holding settings for setuping the Telerik.Web.UI.RadGrid control binding t
 
 ## Properties
 
-###  TableName `String`
-
-Gets or set table name for the specified ADO.NET DataService. Default is empty string!
-
-###  Type `GridClientDataServiceType`
-
-Gets or sets the client data service type RadGrid binds to.
-            Default is GridClientDataServiceType.ADONet.
-
 ###  FilterQueryOption `String`
 
 Gets or set a filter string for the specified ADO.NET DataService. Default is empty string!
@@ -33,11 +24,12 @@ Gets or set a filter string for the specified ADO.NET DataService. Default is em
 
 Gets or set a filter string for the specified ADO.NET DataService. Default is empty string!
 
-## Methods
+###  TableName `String`
 
-###  GetViewStateValue
+Gets or set table name for the specified ADO.NET DataService. Default is empty string!
 
-#### Returns
+###  Type `GridClientDataServiceType`
 
-`Telerik.Web.UI.T` 
+Gets or sets the client data service type RadGrid binds to.
+            Default is GridClientDataServiceType.ADONet.
 

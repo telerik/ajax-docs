@@ -18,11 +18,11 @@ Provides data for the E:Telerik.Web.UI.RadScheduler.FormCreating event of the Te
 
 ## Properties
 
-###  Mode `SchedulerFormMode`
-
-Gets the mode.
-
 ###  Appointment `Appointment`
 
 Gets the appointment.
+
+###  Mode `SchedulerFormMode`
+
+Gets the mode.
 

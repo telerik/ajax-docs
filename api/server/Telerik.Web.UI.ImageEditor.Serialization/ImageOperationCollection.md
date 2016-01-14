@@ -16,14 +16,6 @@ A collection of image operations
 
 ## Methods
 
-###  Serialize
-
-Serializes the collected image operations in a collection representation
-
-#### Returns
-
-`System.String` 
-
 ###  Deserialize
 
 Reads the serialized input and deserializes it to populate the collection of image operations
@@ -51,6 +43,14 @@ The enumerated data input
 #### Returns
 
 `System.Void` 
+
+###  Serialize
+
+Serializes the collected image operations in a collection representation
+
+#### Returns
+
+`System.String` 
 
 ###  Sort
 

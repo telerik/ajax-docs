@@ -17,10 +17,6 @@ This class gets and sets the localization properties of RadSearchBox.
 
 ## Properties
 
-###  ShowAllResults `String`
-
-Gets or sets the ShowAllResults string.
-
 ###  DefaultItemText `String`
 
 Gets or sets the DefaultItemText string.
@@ -28,4 +24,8 @@ Gets or sets the DefaultItemText string.
 ###  LoadingItemsMessage `String`
 
 Gets or sets the LoadingItemsMessage string.
+
+###  ShowAllResults `String`
+
+Gets or sets the ShowAllResults string.
 

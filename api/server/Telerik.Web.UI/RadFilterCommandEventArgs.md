@@ -17,17 +17,17 @@ The arguments passed when Telerik.Web.UI.RadTreeList fires a command event.
 
 ## Properties
 
-###  ExpressionItem `RadFilterExpressionItem`
+###  Canceled `Boolean`
 
-Gets the RadFilterExpressionItem that fired the command, if there is such.
+Gets or sets a value indicating whether the current command is cancelled.
 
 ###  EventSource `Object`
 
 Gets the control which was responsible for firing the event.
 
-###  Canceled `Boolean`
+###  ExpressionItem `RadFilterExpressionItem`
 
-Gets or sets a value indicating whether the current command is cancelled.
+Gets the RadFilterExpressionItem that fired the command, if there is such.
 
 ## Methods
 

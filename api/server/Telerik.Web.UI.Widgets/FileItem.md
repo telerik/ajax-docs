@@ -16,6 +16,11 @@ Represents a file item in the FileBrowser control.
 
 ## Properties
 
+###  Attributes `NameValueCollection`
+
+Gets or sets a string array containing custom values which can be used on the client when 
+            customizing the FileBrowser control.
+
 ###  Extension `String`
 
 Gets the file extension of the file item.
@@ -24,32 +29,23 @@ Gets the file extension of the file item.
 
 Gets the size of the file item in bytes.
 
-###  Path `String`
-
-Gets the virtual path of the parent directory item. When the value is string.Empty, the location is got
-            from the item's parent.
-
 ###  Location `String`
 
 Gets the virtual path of the parent directory item. When the value is string.Empty, the location is got
             from the item's parent.
 
-###  Url `String`
+###  Name `String`
 
-Gets the url which will be inserted into the RadEditor content area.
+Gets the name of the file item. The value of this property will be displayed in the FileBrowser control.
 
-###  Attributes `NameValueCollection`
+###  Path `String`
 
-Gets or sets a string array containing custom values which can be used on the client when 
-            customizing the FileBrowser control.
+Gets the virtual path of the parent directory item. When the value is string.Empty, the location is got
+            from the item's parent.
 
 ###  Path `String`
 
 Gets the full virtual path to the file/directory item.
-
-###  Name `String`
-
-Gets the name of the file item. The value of this property will be displayed in the FileBrowser control.
 
 ###  Permissions `PathPermissions`
 
@@ -59,7 +55,20 @@ Gets the permissions on the file item.
 
 Gets the tag of the file/directory item. Used in custom content providers (can store additional data).
 
+###  Url `String`
+
+Gets the url which will be inserted into the RadEditor content area.
+
 ## Methods
+
+###  RemoveLastSeparator
+
+Utility method used when serializing. Removes the last javascript array separator from the underlying
+            StringBuilder of writer.
+
+#### Returns
+
+`System.Void` 
 
 ###  Serialize
 
@@ -91,6 +100,18 @@ a StringWriter used as a target for the serialization.
 
 `System.Void` 
 
+###  SerializeAttributes
+
+Serializes the Attributes array.
+
+#### Parameters
+
+#### writer `System.IO.StringWriter`
+
+#### Returns
+
+`System.Void` 
+
 ###  WriteJavascriptString
 
 Utility method used when serializing. Escapes a string for javascript.
@@ -102,27 +123,6 @@ Utility method used when serializing. Escapes a string for javascript.
 ###  WriteSeparator
 
 Utility method used when serializing. Writes a javascript array separator.
-
-#### Returns
-
-`System.Void` 
-
-###  RemoveLastSeparator
-
-Utility method used when serializing. Removes the last javascript array separator from the underlying
-            StringBuilder of writer.
-
-#### Returns
-
-`System.Void` 
-
-###  SerializeAttributes
-
-Serializes the Attributes array.
-
-#### Parameters
-
-#### writer `System.IO.StringWriter`
 
 #### Returns
 

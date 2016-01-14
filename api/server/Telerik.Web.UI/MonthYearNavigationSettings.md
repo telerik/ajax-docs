@@ -18,13 +18,50 @@ The MonthYearFastNavigationSettings class can be used to configure RadMonthYear'
 
 ## Properties
 
-###  NavigationNextImage `String`
+###  CancelButtonCaption `String`
 
-Gets or sets the name of the image that is displayed for the next year navigation control.
+Gets or sets the value of the "Cancel" button caption;
+
+###  CancelButtonCaption `String`
+
+Gets or sets the value of the "Cancel" button caption;
+
+###  DateIsOutOfRangeMessage `String`
+
+Gets or sets the value of the "Date is out of range" error message.
+
+###  DisableOutOfRangeMonths `Boolean`
+
+Gets or sets a value indicating whether the months that are out of range will be disabled.
+
+#### Remarks
+Setting this property to true will disable the months that are out of range
+
+###  EnableScreenBoundaryDetection `Boolean`
+
+Gets or sets whether the screen boundaries should be taken into consideration
+            when the Fast Navigation Popup is displayed.
 
 ###  EnableTodayButtonSelection `Boolean`
 
 Gets or sets the value indicating whether the Today button should perform date selection or simple navigation.
+
+###  EnableTodayButtonSelection `Boolean`
+
+Gets or sets the value indicating whether the Today button should perform date selection or simple navigation.
+
+###  HideAnimation `CalendarAnimationSettings`
+
+Gets the  settings which determines
+            the animation behavior of the hiding of the popup.
+
+###  HideAnimation `CalendarAnimationSettings`
+
+Gets the settings associated with hiding the  fast month year navigation.
+
+###  NavigationNextImage `String`
+
+Gets or sets the name of the image that is displayed for the next year navigation control.
 
 ###  NavigationNextText `String`
 
@@ -46,73 +83,28 @@ Gets or sets the text displayed for the previous year navigation control.
 
 Gets or sets the text displayed for the previous year navigation control.
 
-###  TodayButtonCaption `String`
-
-Gets or sets the value of the "Today" button caption;
-
 ###  OkButtonCaption `String`
 
 Gets or sets the value of the "OK" button caption;
 
-###  CancelButtonCaption `String`
+###  OkButtonCaption `String`
 
-Gets or sets the value of the "Cancel" button caption;
+Gets or sets the value of the "OK" button caption;
 
 ###  ShowAnimation `CalendarAnimationSettings`
 
 Gets the  settings which determines
             the animation behavior of the showing of the popup.
 
-###  HideAnimation `CalendarAnimationSettings`
+###  ShowAnimation `CalendarAnimationSettings`
 
-Gets the  settings which determines
-            the animation behavior of the hiding of the popup.
+Gets the settings associated with showing the  fast month year navigation.
 
 ###  TodayButtonCaption `String`
 
 Gets or sets the value of the "Today" button caption;
 
-###  OkButtonCaption `String`
+###  TodayButtonCaption `String`
 
-Gets or sets the value of the "OK" button caption;
-
-###  CancelButtonCaption `String`
-
-Gets or sets the value of the "Cancel" button caption;
-
-###  DateIsOutOfRangeMessage `String`
-
-Gets or sets the value of the "Date is out of range" error message.
-
-###  EnableTodayButtonSelection `Boolean`
-
-Gets or sets the value indicating whether the Today button should perform date selection or simple navigation.
-
-###  DisableOutOfRangeMonths `Boolean`
-
-Gets or sets a value indicating whether the months that are out of range will be disabled.
-
-#### Remarks
-Setting this property to true will disable the months that are out of range
-
-###  EnableScreenBoundaryDetection `Boolean`
-
-Gets or sets whether the screen boundaries should be taken into consideration
-            when the Fast Navigation Popup is displayed.
-
-###  ShowAnimation `CalendarAnimationSettings`
-
-Gets the settings associated with showing the  fast month year navigation.
-
-###  HideAnimation `CalendarAnimationSettings`
-
-Gets the settings associated with hiding the  fast month year navigation.
-
-## Methods
-
-###  GetViewStateValue
-
-#### Returns
-
-`Telerik.Web.UI.T` 
+Gets or sets the value of the "Today" button caption;
 

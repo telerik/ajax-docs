@@ -16,18 +16,9 @@ Class holding all settings associated with Telerik.Web.UI.RadPivotGrid accessibi
 
 ## Properties
 
-###  OuterTableSummary `String`
+###  ColumnHeaderTableCaption `String`
 
-Gets or sets the 'summary' attribute for the outer table.
-
-#### Remarks
-This attribute provides a summary of the table's purpose and structure for user
-            agents rendering to non-visual media such as speech and Braille. This property is a
-            part of Telerik RadPivotGrid accessibility features.
-
-###  OuterTableCaption `String`
-
-Gets or sets the 'caption' attribute for the outer table.
+Gets or sets the 'caption' attribute for the column header table.
 
 #### Remarks
 This attribute provides a summary of the table's purpose and structure for user
@@ -43,27 +34,9 @@ This attribute provides a summary of the table's purpose and structure for user
             agents rendering to non-visual media such as speech and Braille. This property is a
             part of Telerik RadPivotGrid accessibility features.
 
-###  ColumnHeaderTableCaption `String`
+###  DataTableCaption `String`
 
-Gets or sets the 'caption' attribute for the column header table.
-
-#### Remarks
-This attribute provides a summary of the table's purpose and structure for user
-            agents rendering to non-visual media such as speech and Braille. This property is a
-            part of Telerik RadPivotGrid accessibility features.
-
-###  RowHeaderTableSummary `String`
-
-Gets or sets the 'summary' attribute for the row header table.
-
-#### Remarks
-This attribute provides a summary of the table's purpose and structure for user
-            agents rendering to non-visual media such as speech and Braille. This property is a
-            part of Telerik RadPivotGrid accessibility features.
-
-###  RowHeaderTableCaption `String`
-
-Gets or sets the 'caption' attribute for the row header table.
+Gets or sets the 'caption' attribute for the data table.
 
 #### Remarks
 This attribute provides a summary of the table's purpose and structure for user
@@ -79,18 +52,36 @@ This attribute provides a summary of the table's purpose and structure for user
             agents rendering to non-visual media such as speech and Braille. This property is a
             part of Telerik RadPivotGrid accessibility features.
 
-###  DataTableCaption `String`
+###  OuterTableCaption `String`
 
-Gets or sets the 'caption' attribute for the data table.
+Gets or sets the 'caption' attribute for the outer table.
 
 #### Remarks
 This attribute provides a summary of the table's purpose and structure for user
             agents rendering to non-visual media such as speech and Braille. This property is a
             part of Telerik RadPivotGrid accessibility features.
 
-###  WrapperTableSummary `String`
+###  OuterTableSummary `String`
 
-Gets or sets the 'summary' attribute for the table which wraps the RadPivtoGrid control when the configuration panel is shown.
+Gets or sets the 'summary' attribute for the outer table.
+
+#### Remarks
+This attribute provides a summary of the table's purpose and structure for user
+            agents rendering to non-visual media such as speech and Braille. This property is a
+            part of Telerik RadPivotGrid accessibility features.
+
+###  RowHeaderTableCaption `String`
+
+Gets or sets the 'caption' attribute for the row header table.
+
+#### Remarks
+This attribute provides a summary of the table's purpose and structure for user
+            agents rendering to non-visual media such as speech and Braille. This property is a
+            part of Telerik RadPivotGrid accessibility features.
+
+###  RowHeaderTableSummary `String`
+
+Gets or sets the 'summary' attribute for the row header table.
 
 #### Remarks
 This attribute provides a summary of the table's purpose and structure for user
@@ -100,6 +91,15 @@ This attribute provides a summary of the table's purpose and structure for user
 ###  WrapperTableCaption `String`
 
 Gets or sets the 'caption' attribute for the table which wraps the RadPivtoGrid control when the configuration panel is shown.
+
+#### Remarks
+This attribute provides a summary of the table's purpose and structure for user
+            agents rendering to non-visual media such as speech and Braille. This property is a
+            part of Telerik RadPivotGrid accessibility features.
+
+###  WrapperTableSummary `String`
+
+Gets or sets the 'summary' attribute for the table which wraps the RadPivtoGrid control when the configuration panel is shown.
 
 #### Remarks
 This attribute provides a summary of the table's purpose and structure for user

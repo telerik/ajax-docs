@@ -16,19 +16,7 @@ This represents a single Outline object in a PDF, including the root Outlines
 * Telerik.Pdf.PdfObject
 * Telerik.Pdf.PdfOutline
 
-## Properties
-
-###  IsIndirect `Boolean`
-
-###  ObjectId `PdfObjectId`
-
 ## Methods
-
-###  SetTitle
-
-#### Returns
-
-`System.Void` 
 
 ###  AddOutline
 
@@ -41,28 +29,4 @@ Add a sub element to this outline
 #### Returns
 
 `System.Void` 
-
-###  Write
-
-#### Returns
-
-`System.Void` 
-
-###  Write
-
-#### Returns
-
-`System.Void` 
-
-###  WriteIndirect
-
-#### Returns
-
-`System.Void` 
-
-###  GetReference
-
-#### Returns
-
-`Telerik.Pdf.PdfObjectReference` 
 

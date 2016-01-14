@@ -51,17 +51,6 @@ Specifies the field, containing the DisabledImageUrl property
             	value of the RadMenuItem that will be created during
             	the data binding.
 
-###  ExpandedImageUrl `String`
-
-Specifies the exact value of the ExpandedImageUrl property of the
-            	RadMenuItem that will be created during the data binding.
-
-###  ExpandedImageUrlField `String`
-
-Specifies the field, containing the ExpandedImageUrl property 
-            	value of the RadMenuItem that will be created during
-            	the data binding.
-
 ###  ExpandedCssClass `String`
 
 Specifies the exact value of the ExpandedCssClass property of the
@@ -70,6 +59,17 @@ Specifies the exact value of the ExpandedCssClass property of the
 ###  ExpandedCssClassField `String`
 
 Specifies the field, containing the ExpandedCssClass property 
+            	value of the RadMenuItem that will be created during
+            	the data binding.
+
+###  ExpandedImageUrl `String`
+
+Specifies the exact value of the ExpandedImageUrl property of the
+            	RadMenuItem that will be created during the data binding.
+
+###  ExpandedImageUrlField `String`
+
+Specifies the field, containing the ExpandedImageUrl property 
             	value of the RadMenuItem that will be created during
             	the data binding.
 
@@ -110,12 +110,4 @@ Specifies the field, containing the IsSeparator property
 
 Specifies the model to bind against in OData scenarios. The selected model is used
             to the current depth (level) only.
-
-## Methods
-
-###  ApplyTo
-
-#### Returns
-
-`System.Void` 
 

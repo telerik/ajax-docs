@@ -16,14 +16,6 @@ Defines the shapes content settings.
 
 ## Properties
 
-###  Text `String`
-
-The text displayed in the shape.
-
-###  Html `String`
-
-Define rich-text content using Html syntax
-
 ###  Align `String`
 
 The alignment of the text inside the shape.
@@ -31,4 +23,12 @@ The alignment of the text inside the shape.
 ###  Color `String`
 
 The color of the text inside the shape.
+
+###  Html `String`
+
+Define rich-text content using Html syntax
+
+###  Text `String`
+
+The text displayed in the shape.
 

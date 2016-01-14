@@ -20,6 +20,10 @@ Y Axis scale break
 
 Is scale break feature enabled
 
+###  Line `LineStyle`
+
+Break line appearance settings
+
 ###  LineStyle `ScaleBreakLineType`
 
 Break line's appearance settings
@@ -28,65 +32,39 @@ Break line's appearance settings
 
 Max scale breaks count
 
-###  ValueTolerance `Byte`
+###  Parent `ChartAxis`
 
-Value tolerance in percents
-
-###  Width `Int32`
-
-Space width between two break lines
-
-###  Line `LineStyle`
-
-Break line appearance settings
+Parent element reference (ChartAxis)
 
 ###  Segments `AxisSegmentCollection`
 
 Segments collection. Used with ScaleBreak feature enabled
 
-###  Parent `ChartAxis`
+###  ValueTolerance `Byte`
 
-Parent element reference (ChartAxis)
-
-###  ViewStateIgnoresCase `Boolean`
-
-Gets if view sate should ignore case
+Value tolerance in percents
 
 ###  ViewState `StateBag`
 
 Sate bag to store view state content
 
+###  ViewStateIgnoresCase `Boolean`
+
+Gets if view sate should ignore case
+
+###  Width `Int32`
+
+Space width between two break lines
+
 ## Methods
 
-###  TrackViewState
+###  CloneState
 
-Tracking view state changes
-
-#### Returns
-
-`System.Void` 
-
-###  LoadViewState
-
-Loads settings from a view state
-
-#### Parameters
-
-#### savedState `System.Object`
-
-Saved state bag
+Makes a view state clone
 
 #### Returns
 
-`System.Void` 
-
-###  SaveViewState
-
-Saves settings to a view state
-
-#### Returns
-
-`System.Object` Saved state bag
+`System.Web.UI.StateBag` StateBag
 
 ###  CreateScaleBreakLine
 
@@ -105,6 +83,58 @@ Is series orientation horizontal (true) or vertical (false)
 #### Returns
 
 `System.Drawing.Drawing2D.GraphicsPath` Graphics path with an appropriate line inside
+
+###  LoadViewState
+
+Loads settings from a view state
+
+#### Parameters
+
+#### savedState `System.Object`
+
+Saved state bag
+
+#### Returns
+
+`System.Void` 
+
+###  LoadViewState
+
+Loads data from a view state
+
+#### Parameters
+
+#### state `System.Object`
+
+View state to load data from
+
+#### Returns
+
+`System.Void` 
+
+###  SaveViewState
+
+Saves settings to a view state
+
+#### Returns
+
+`System.Object` Saved state bag
+
+###  SaveViewState
+
+Saves object data to a view state
+
+#### Returns
+
+`System.Object` Saved view state object
+
+###  SetDirty
+
+Sets the item dirty state
+
+#### Returns
+
+`System.Void` 
 
 ###  Telerik.Charting.IChartingStateManager.LoadViewState
 
@@ -136,21 +166,13 @@ Tracks view state changes
 
 `System.Void` 
 
-###  CloneState
+###  TrackViewState
 
-Makes a view state clone
-
-#### Returns
-
-`System.Web.UI.StateBag` StateBag
-
-###  SaveViewState
-
-Saves object data to a view state
+Tracking view state changes
 
 #### Returns
 
-`System.Object` Saved view state object
+`System.Void` 
 
 ###  TrackViewState
 
@@ -159,34 +181,4 @@ Tracks view state changes
 #### Returns
 
 `System.Void` 
-
-###  LoadViewState
-
-Loads data from a view state
-
-#### Parameters
-
-#### state `System.Object`
-
-View state to load data from
-
-#### Returns
-
-`System.Void` 
-
-###  SetDirty
-
-Sets the item dirty state
-
-#### Returns
-
-`System.Void` 
-
-###  ToString
-
-ToString() override. Used in the properties grid to avoid object type showing.
-
-#### Returns
-
-`System.String` Empty string
 

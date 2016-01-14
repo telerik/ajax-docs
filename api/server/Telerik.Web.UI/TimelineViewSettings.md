@@ -18,17 +18,25 @@ Represents settings for the time line view.
 
 ## Properties
 
-###  StartTime `TimeSpan`
+###  ColumnHeaderDateFormat `String`
 
-The starting time of the Timeline view.
+Gets or sets the timeline column header date format string.
 
-###  NumberOfSlots `Int32`
+#### Remarks
+For additional information, please read this
+            MSDN article.
 
-The number of slots to display in timeline view.
+###  EnableExactTimeRendering `Boolean`
 
-###  SlotDuration `TimeSpan`
+Gets or sets a value indicating whether the appointment start and end time should be rendered exactly.
 
-The duration of each slot in timeline view.
+###  GroupBy `String`
+
+Gets or sets the resource to group by.
+
+###  GroupingDirection `GroupingDirection`
+
+Gets or sets the resource grouping direction.
 
 ###  HeaderDateFormat `String`
 
@@ -38,21 +46,20 @@ Gets or sets the Timeline view header date format string.
 For additional information, please read this
             MSDN article.
 
-###  ColumnHeaderDateFormat `String`
+###  NumberOfSlots `Int32`
 
-Gets or sets the timeline column header date format string.
+The number of slots to display in timeline view.
+
+###  ReadOnly `Boolean`
+
+Gets or sets a value indicating whether the view is in read-only mode.
 
 #### Remarks
-For additional information, please read this
-            MSDN article.
+By default the user is able to insert, edit and delete appointments. Use the ReadOnly to disable the editing capabilities of RadScheduler.
 
-###  TimeLabelSpan `Int32`
+###  ShowDateHeaders `Boolean`
 
-Gets or sets the number of rows/columns each time label spans.
-
-###  SortingMode `AppointmentSortingMode`
-
-Gets or sets a value that specifies the sorting mode to use when rendering the appointments.
+Gets or sets a value indicating whether to render date headers for the current view.
 
 ###  ShowInsertArea `Boolean`
 
@@ -67,42 +74,27 @@ The insert area is not visible if the scheduler is in read-only mode or
             	If all time slots are full and this property is set to false,
             	the user will not be able to insert appointments.
 
-###  EnableExactTimeRendering `Boolean`
-
-Gets or sets a value indicating whether the appointment start and end time should be rendered exactly.
-
-###  GroupBy `String`
-
-Gets or sets the resource to group by.
-
-###  GroupingDirection `GroupingDirection`
-
-Gets or sets the resource grouping direction.
-
 ###  ShowResourceHeaders `Boolean`
 
 Gets or sets a value indicating whether to render resource headers for the current view.
 
-###  ReadOnly `Boolean`
+###  SlotDuration `TimeSpan`
 
-Gets or sets a value indicating whether the view is in read-only mode.
+The duration of each slot in timeline view.
 
-#### Remarks
-By default the user is able to insert, edit and delete appointments. Use the ReadOnly to disable the editing capabilities of RadScheduler.
+###  SortingMode `AppointmentSortingMode`
 
-###  ShowDateHeaders `Boolean`
+Gets or sets a value that specifies the sorting mode to use when rendering the appointments.
 
-Gets or sets a value indicating whether to render date headers for the current view.
+###  StartTime `TimeSpan`
+
+The starting time of the Timeline view.
+
+###  TimeLabelSpan `Int32`
+
+Gets or sets the number of rows/columns each time label spans.
 
 ###  UserSelectable `Boolean`
 
 Gets or sets a value indicating whether to render a tab for the current view in the view chooser.
-
-## Methods
-
-###  GetViewStateValue
-
-#### Returns
-
-`Telerik.Web.UI.T` 
 

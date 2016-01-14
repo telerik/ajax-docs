@@ -41,6 +41,48 @@ The object used to resolve control references
 
 `System.Void` 
 
+###  ExecuteCallbackMethod
+
+Executes a callback capable method on a control
+
+#### Parameters
+
+#### control `System.Web.UI.Control`
+
+#### callbackArgument `System.String`
+
+#### Returns
+
+`System.String` 
+
+###  GetCssReferences
+
+Gets the embedded css file references for a type
+
+#### Parameters
+
+#### control `System.Web.UI.Control`
+
+#### Returns
+
+`System.Collections.Generic.IEnumerable`1` 
+
+###  GetCssReferences
+
+Gets the css references for a type and walks the type's dependencies with circular-reference checking
+
+#### Parameters
+
+#### control `System.Web.UI.Control`
+
+#### type `System.Type`
+
+#### typeReferenceStack `System.Collections.Generic.Stack{System.Type}`
+
+#### Returns
+
+`System.Collections.Generic.IEnumerable`1` 
+
 ###  GetScriptReferences
 
 Gets the script references for a type
@@ -67,57 +109,6 @@ Gets the script references for a type
 
 `System.Collections.Generic.IEnumerable`1` 
 
-###  GetCssReferences
-
-Gets the embedded css file references for a type
-
-#### Parameters
-
-#### control `System.Web.UI.Control`
-
-#### Returns
-
-`System.Collections.Generic.IEnumerable`1` 
-
-###  RegisterCssReferences
-
-Register's the Css references for this control
-
-#### Parameters
-
-#### control `System.Web.UI.Control`
-
-#### Returns
-
-`System.Void` 
-
-###  ExecuteCallbackMethod
-
-Executes a callback capable method on a control
-
-#### Parameters
-
-#### control `System.Web.UI.Control`
-
-#### callbackArgument `System.String`
-
-#### Returns
-
-`System.String` 
-
-###  ScriptReferencesFromResourceEntries
-
-ScriptReference objects aren't immutable.  The AJAX core adds context to them, so we cant' reuse them.
-            Therefore, we track only ReferenceEntries internally and then convert them to NEW ScriptReference objects on-demand.
-
-#### Parameters
-
-#### entries `System.Collections.Generic.IList{Telerik.Web.ScriptObjectBuilder.ResourceEntry}`
-
-#### Returns
-
-`System.Collections.Generic.IEnumerable`1` 
-
 ###  GetScriptReferencesInternal
 
 Gets the script references for a type and walks the type's dependencies with circular-reference checking
@@ -132,17 +123,26 @@ Gets the script references for a type and walks the type's dependencies with cir
 
 `System.Collections.Generic.List`1` 
 
-###  GetCssReferences
+###  RegisterCssReferences
 
-Gets the css references for a type and walks the type's dependencies with circular-reference checking
+Register's the Css references for this control
 
 #### Parameters
 
 #### control `System.Web.UI.Control`
 
-#### type `System.Type`
+#### Returns
 
-#### typeReferenceStack `System.Collections.Generic.Stack{System.Type}`
+`System.Void` 
+
+###  ScriptReferencesFromResourceEntries
+
+ScriptReference objects aren't immutable.  The AJAX core adds context to them, so we cant' reuse them.
+            Therefore, we track only ReferenceEntries internally and then convert them to NEW ScriptReference objects on-demand.
+
+#### Parameters
+
+#### entries `System.Collections.Generic.IList{Telerik.Web.ScriptObjectBuilder.ResourceEntry}`
 
 #### Returns
 

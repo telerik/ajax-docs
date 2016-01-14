@@ -19,19 +19,11 @@ Represents a collection of DateKey objects.
 
 Gets an integer value representing the count of entries in the collection.
 
-###  SyncRoot `Object`
-
 ###  IsSynchronized `Boolean`
 
+###  SyncRoot `Object`
+
 ## Methods
-
-###  GetEnumerator
-
-Gets the enumerator that iterates the collection.
-
-#### Returns
-
-`System.Collections.IEnumerator` The enumerator object used to iterate the collection.
 
 ###  CopyTo
 
@@ -50,4 +42,12 @@ An integer indicating from which index on the entries should be added to the new
 #### Returns
 
 `System.Void` 
+
+###  GetEnumerator
+
+Gets the enumerator that iterates the collection.
+
+#### Returns
+
+`System.Collections.IEnumerator` The enumerator object used to iterate the collection.
 

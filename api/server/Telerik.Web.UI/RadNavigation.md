@@ -18,37 +18,19 @@ description: Telerik.Web.UI.RadNavigation
 
 ## Properties
 
-###  MaxDataBindDepth `Int32`
+###  ClientDataSourceID `String`
 
-Gets or sets the max data bind depth.
+Gets or sets ID of ClientDataSource control that is used for client side binding
+
+###  ClientIDMode `ClientIDMode`
+
+This property is overridden in order to support controls which implement INamingContainer.
+            The default value is changed to "AutoID".
 
 ###  ClientNodeTemplate `String`
 
 Gets or sets the template for displaying the nodes in
             RadNavigation.
-
-###  ImagePosition `RadNavigationImagePostion`
-
-Gets or sets the image position.
-
-###  MenuButtonPosition `RadNavigationMenuButtonPostion`
-
-Gets or sets the menuButton position.
-
-###  ExpandAnimation `AnimationSettings`
-
-Gets the settings for the animation played when the dropdown opens.
-
-#### Remarks
-Use the ExpandAnimation property to customize the expand
-                    animation of RadNavigation. You can specify the
-                    Type and
-                    Duration.
-                    To disable expand animation effects you should set the
-                    Type to
-                    AnimationType.None.
-                    To customize the collapse animation you can use the
-                    CollapseAnimation property.
 
 ###  CollapseAnimation `AnimationSettings`
 
@@ -65,6 +47,11 @@ Use the CollapseAnimation property to customize the expand
                     To customize the expand animation you can use the
                     ExpandAnimation property.
 
+###  CssClassFormatString `String`
+
+The CssClass property will now be used instead of the former Skin 
+            and will be modified in AddAttributesToRender()
+
 ###  DataFieldID `String`
 
 Gets or sets the data field holding the unique identifier for a NavigationNode.
@@ -72,18 +59,6 @@ Gets or sets the data field holding the unique identifier for a NavigationNode.
 ###  DataFieldParentID `String`
 
 Gets or sets the data field holding the ID of the parent NavigationNode.
-
-###  DataTextField `String`
-
-Gets or sets the data field holding the Text property for the currently bound NavigationNode.
-
-###  DataTextFormatString `String`
-
-Gets or sets a value indicating how the NavigationNode's text should be formatted.
-
-###  DataNavigateUrlField `String`
-
-Gets or sets the data field holding the Navigation URL property for the currently bound NavigationNode.
 
 ###  DataKeyNames `String[]`
 
@@ -93,76 +68,31 @@ Gets or sets an array of data-field names that will be used to populate the Navi
 #### Remarks
 Note: The dataItem's properties declared in the template should be with lower case .
 
-###  NodeTemplate `ITemplate`
+###  DataNavigateUrlField `String`
 
-Gets or sets template for all Nodes that doesn't have template nor does their Node.
+Gets or sets the data field holding the Navigation URL property for the currently bound NavigationNode.
 
-###  Nodes `NavigationNodeCollection`
+###  DataTextField `String`
 
-Gets the Nodes.
+Gets or sets the data field holding the Text property for the currently bound NavigationNode.
 
-###  OnClientLoad `String`
+###  DataTextFormatString `String`
 
-Gets or sets the on client load.
+Gets or sets a value indicating how the NavigationNode's text should be formatted.
 
-###  OnClientTemplateDataBound `String`
+###  EnableAjaxSkinRendering `String`
 
-Gets or sets the name of the JavaScript function called when the client template for a node is evaluated
-
-###  OnClientNodeMouseEnter `String`
-
-Gets or sets the name of the JavaScript function called when the mouse enters a node
-
-###  OnClientNodeMouseLeave `String`
-
-Gets or sets the name of the JavaScript function called when the mouse leaves a node
-
-###  OnClientNodeClicking `String`
-
-Gets or sets the on NavigationNode clicking.
-
-###  OnClientNodeClicked `String`
-
-Gets or sets the on NavigationNode clicked.
-
-###  OnClientNodesPopulating `NavigationNodeCollection`
-
-Gets or sets the on NavigationNodes populating.
-
-###  OnClientNodesPopulated `NavigationNodeCollection`
-
-Gets or sets the on NavigationNodes populated.
-
-###  OnClientNodeExpanding `String`
-
-Gets or sets the on client Node expanding.
-
-###  OnClientNodeCollapsing `String`
-
-Gets or sets the on client Node collapsing.
-
-###  OnClientNodeCollapsed `String`
-
-Gets or sets the on client Node collapsed.
-
-###  RegisterWithScriptManager `Boolean`
-
-Gets or sets the value, indicating whether to register with the ScriptManager control on the page.
+Gets or sets the value, indicating whether to render the skin CSS files during Ajax requests
 
 #### Remarks
-If RegisterWithScriptManager is set to false the control can be rendered on the page using Web Services or normal callback requests/page methods.
+If EnableAjaxSkinRendering is set to false you will have to register the needed control base CSS file by hand when adding/showing the control with Ajax.
 
-###  Skin `String`
+###  EnableEmbeddedBaseStylesheet `Boolean`
 
-Gets or sets the skin name for the control user interface.
+Gets or sets the value, indicating whether to render the link to the embedded base stylesheet of the control or not.
 
 #### Remarks
-If this property is not set, the control will render using the skin named "Default".
-            If EnableEmbeddedSkins is set to false, the control will not render skin.
-
-###  IsSkinSet `String`
-
-For internal use.
+If EnableEmbeddedBaseStylesheet is set to false you will have to register the needed control base CSS file by hand.
 
 ###  EnableEmbeddedScripts `Boolean`
 
@@ -178,34 +108,99 @@ Gets or sets the value, indicating whether to render links to the embedded skins
 #### Remarks
 If EnableEmbeddedSkins is set to false you will have to register the needed CSS files by hand.
 
-###  EnableEmbeddedBaseStylesheet `Boolean`
+###  ExpandAnimation `AnimationSettings`
 
-Gets or sets the value, indicating whether to render the link to the embedded base stylesheet of the control or not.
+Gets the settings for the animation played when the dropdown opens.
 
 #### Remarks
-If EnableEmbeddedBaseStylesheet is set to false you will have to register the needed control base CSS file by hand.
+Use the ExpandAnimation property to customize the expand
+                    animation of RadNavigation. You can specify the
+                    Type and
+                    Duration.
+                    To disable expand animation effects you should set the
+                    Type to
+                    AnimationType.None.
+                    To customize the collapse animation you can use the
+                    CollapseAnimation property.
+
+###  ImagePosition `RadNavigationImagePostion`
+
+Gets or sets the image position.
+
+###  IsSkinSet `String`
+
+For internal use.
+
+###  MaxDataBindDepth `Int32`
+
+Gets or sets the max data bind depth.
+
+###  MenuButtonPosition `RadNavigationMenuButtonPostion`
+
+Gets or sets the menuButton position.
+
+###  Nodes `NavigationNodeCollection`
+
+Gets the Nodes.
+
+###  NodeTemplate `ITemplate`
+
+Gets or sets template for all Nodes that doesn't have template nor does their Node.
 
 ###  ODataDataSourceID `String`
 
 Gets or sets the ODataDataSource used for data binding.
 
-###  ClientDataSourceID `String`
+###  OnClientLoad `String`
 
-Gets or sets ID of ClientDataSource control that is used for client side binding
+Gets or sets the on client load.
 
-###  RuntimeSkin `String`
+###  OnClientNodeClicked `String`
 
-Gets the real skin name for the control user interface. If Skin is not set, returns
-            "Default", otherwise returns Skin.
+Gets or sets the on NavigationNode clicked.
 
-###  EnableAjaxSkinRendering `String`
+###  OnClientNodeClicking `String`
 
-Gets or sets the value, indicating whether to render the skin CSS files during Ajax requests
+Gets or sets the on NavigationNode clicking.
+
+###  OnClientNodeCollapsed `String`
+
+Gets or sets the on client Node collapsed.
+
+###  OnClientNodeCollapsing `String`
+
+Gets or sets the on client Node collapsing.
+
+###  OnClientNodeExpanding `String`
+
+Gets or sets the on client Node expanding.
+
+###  OnClientNodeMouseEnter `String`
+
+Gets or sets the name of the JavaScript function called when the mouse enters a node
+
+###  OnClientNodeMouseLeave `String`
+
+Gets or sets the name of the JavaScript function called when the mouse leaves a node
+
+###  OnClientNodesPopulated `NavigationNodeCollection`
+
+Gets or sets the on NavigationNodes populated.
+
+###  OnClientNodesPopulating `NavigationNodeCollection`
+
+Gets or sets the on NavigationNodes populating.
+
+###  OnClientTemplateDataBound `String`
+
+Gets or sets the name of the JavaScript function called when the client template for a node is evaluated
+
+###  RegisterWithScriptManager `Boolean`
+
+Gets or sets the value, indicating whether to register with the ScriptManager control on the page.
 
 #### Remarks
-If EnableAjaxSkinRendering is set to false you will have to register the needed control base CSS file by hand when adding/showing the control with Ajax.
-
-###  ClientStateFieldID `String`
+If RegisterWithScriptManager is set to false the control can be rendered on the page using Web Services or normal callback requests/page methods.
 
 ###  RenderMode `RenderMode`
 
@@ -219,27 +214,38 @@ Lightweight rendering mode might change the outlook of the component in some old
 
 ###  ResolvedRenderMode `RenderMode`
 
+Gets the resolved render mode.
+
+###  ResolvedRenderMode `RenderMode`
+
 Returns resolved RenderMode should the original value was Auto
 
-###  CssClassFormatString `String`
+###  RuntimeSkin `String`
 
-The CssClass property will now be used instead of the former Skin 
-            and will be modified in AddAttributesToRender()
+Gets the real skin name for the control user interface. If Skin is not set, returns
+            "Default", otherwise returns Skin.
 
-###  DefaultCssClass `String`
+###  Skin `String`
 
-###  ClientIDMode `ClientIDMode`
+Gets or sets the skin name for the control user interface.
 
-This property is overridden in order to support controls which implement INamingContainer.
-            The default value is changed to "AutoID".
-
-###  ScriptManager `ScriptManager`
-
-###  RadScriptManager `ScriptManager`
+#### Remarks
+If this property is not set, the control will render using the skin named "Default".
+            If EnableEmbeddedSkins is set to false, the control will not render skin.
 
 ## Methods
 
-###  DescribeClientEvents
+###  ApplyConditionalRendering
+
+Use this from RenderContents of the inheritor
+
+#### Returns
+
+`System.Void` 
+
+###  ControlPreRender
+
+Code moved into this method from OnPreRender to make sure it executed when the framework skips OnPreRender() for some reason
 
 #### Returns
 
@@ -254,13 +260,13 @@ Binds a data source to the invoked server control and all its child
 
 `System.Void` 
 
-###  GetAllNodes
+###  DescribeRenderingMode
 
-Gets a linear list of all Nodes in the NavigationNode.
+Should be  used by inheritors
 
 #### Returns
 
-`System.Collections.Generic.IList`1` An IList<NavigationNode> containing all Nodes (from all hierarchy levels).
+`System.Void` 
 
 ###  FindNodeByText
 
@@ -290,41 +296,21 @@ The URL.
 
 `Telerik.Web.UI.NavigationNode` 
 
-###  AddAttributesToRender
+###  GetAllNodes
+
+Gets a linear list of all Nodes in the NavigationNode.
 
 #### Returns
 
-`System.Void` 
+`System.Collections.Generic.IList`1` An IList<NavigationNode> containing all Nodes (from all hierarchy levels).
 
-###  OnPreRender
+###  GetEmbeddedSkinNames
 
-#### Returns
-
-`System.Void` 
-
-###  ControlPreRender
-
-Code moved into this method from OnPreRender to make sure it executed when the framework skips OnPreRender() for some reason
+Returns the names of all embedded skins. Used by Telerik.Web.Examples.
 
 #### Returns
 
-`System.Void` 
-
-###  RegisterScriptControl
-
-Registers the control with the ScriptManager
-
-#### Returns
-
-`System.Void` 
-
-###  RegisterCssReferences
-
-Registers the CSS references
-
-#### Returns
-
-`System.Void` 
+`System.Collections.Generic.List`1` 
 
 ###  LoadClientState
 
@@ -337,98 +323,6 @@ Loads the client state data
 #### Returns
 
 `System.Void` 
-
-###  SaveClientState
-
-Saves the client state data
-
-#### Returns
-
-`System.String` 
-
-###  RenderClientStateField
-
-#### Returns
-
-`System.Void` 
-
-###  RenderBeginTag
-
-#### Returns
-
-`System.Void` 
-
-###  RenderEndTag
-
-#### Returns
-
-`System.Void` 
-
-###  Render
-
-#### Returns
-
-`System.Void` 
-
-###  RenderScriptsNoScriptManager
-
-#### Returns
-
-`System.Void` 
-
-###  RenderDescriptorsNoScriptManager
-
-#### Returns
-
-`System.Void` 
-
-###  RenderContents
-
-#### Returns
-
-`System.Void` 
-
-###  ApplyConditionalRendering
-
-Use this from RenderContents of the inheritor
-
-#### Returns
-
-`System.Void` 
-
-###  DescribeComponent
-
-#### Returns
-
-`System.Void` 
-
-###  DescribeRenderingMode
-
-Should be  used by inheritors
-
-#### Returns
-
-`System.Void` 
-
-###  DescribeProperty
-
-#### Returns
-
-`System.Void` 
-
-###  DescribeEvent
-
-#### Returns
-
-`System.Void` 
-
-###  GetEmbeddedSkinNames
-
-Returns the names of all embedded skins. Used by Telerik.Web.Examples.
-
-#### Returns
-
-`System.Collections.Generic.List`1` 
 
 ###  LoadPostData
 
@@ -452,9 +346,27 @@ Executed when post data changes should invoke a changed event
 
 `System.Void` 
 
-###  GetViewStateValue
+###  RegisterCssReferences
+
+Registers the CSS references
 
 #### Returns
 
-`Telerik.Web.UI.T` 
+`System.Void` 
+
+###  RegisterScriptControl
+
+Registers the control with the ScriptManager
+
+#### Returns
+
+`System.Void` 
+
+###  SaveClientState
+
+Saves the client state data
+
+#### Returns
+
+`System.String` 
 

@@ -22,13 +22,13 @@ Contains properties related to customizing the settings for scrolling operation
 Gets or sets a value indicating whether vertical scrolling will be enabled in
             Telerik RadPivotList.
 
-###  ScrollHeight `Unit`
-
-Gets or sets a value specifying the RadPivotGrid height in pixels (px) beyond which the
-            scrolling will be enabled.
-
 ###  SaveScrollPosition `Boolean`
 
 Gets or sets a value indicating whether Telerik RadPivotGrid will keep the
             scroll position during postbacks.
+
+###  ScrollHeight `Unit`
+
+Gets or sets a value specifying the RadPivotGrid height in pixels (px) beyond which the
+            scrolling will be enabled.
 

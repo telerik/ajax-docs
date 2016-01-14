@@ -18,33 +18,6 @@ Represents a Telerik.Web.UI.TreeListColumn extended to display an Image
 
 ## Properties
 
-###  DataType `Type`
-
-Gets or sets (see the Remarks) the type of the data from the DataField as it
-                was set in the DataSource.
-
-#### Remarks
-The DataType property supports the following base .NET Framework data
-                types:BooleanByteCharDateTimeDecimalDoubleInt16Int32Int64SByteSingleStringTimeSpanUInt16UInt32UInt64
-
-###  DataImageUrlFields `String[]`
-
-Gets or sets a string, representing a comma-separated enumeration of DataFields
-            from the data source, which will form the url of the image which will be shown.
-
-###  DataImageUrlFormatString `String`
-
-Gets or sets a string, specifying the FormatString of the DataNavigateURL.
-            Essentially, the DataNavigateUrlFormatString property sets the formatting for the url
-            string of the image.
-
-###  ImageUrl `String`
-
-Gets or sets a string, specifying the url, from which the image should be
-            retrieved. This property will be honored only if the DataImageUrlFields are
-            not set. If either DataImageUrlFields are set, they will override the
-            ImageUrl property.
-
 ###  AllowSorting `Boolean`
 
 Gets or sets a whether the column data can be sorted.
@@ -54,18 +27,9 @@ Gets or sets a whether the column data can be sorted.
 Gets or sets a string, specifying the text which will be shown as alternate
             text to the image
 
-###  ImageAlign `ImageAlign`
+###  ColumnType `String`
 
-Gets or sets a value from the ImageAlign enumeration representing the alignment of 
-            the rendered image in relation to the text.
-
-###  ImageWidth `Unit`
-
-Gets or sets the width of the image
-
-###  ImageHeight `Unit`
-
-Gets or sets the height of the image
+Returns a string which represents the type of the current column.
 
 ###  DataAlternateTextField `String`
 
@@ -78,18 +42,43 @@ Gets or sets a string, representing the DataField name from the data source,
 Gets or sets a string, specifying the format string, which will be used to format
             the alternate text of the image, rendered in the cells of the column.
 
-###  Owner `RadTreeList`
+###  DataImageUrlFields `String[]`
 
-Gets a reference to the  object
-            to which the column belongs
+Gets or sets a string, representing a comma-separated enumeration of DataFields
+            from the data source, which will form the url of the image which will be shown.
+
+###  DataImageUrlFormatString `String`
+
+Gets or sets a string, specifying the FormatString of the DataNavigateURL.
+            Essentially, the DataNavigateUrlFormatString property sets the formatting for the url
+            string of the image.
+
+###  DataType `Type`
+
+Gets or sets (see the Remarks) the type of the data from the DataField as it
+                was set in the DataSource.
+
+#### Remarks
+The DataType property supports the following base .NET Framework data
+                types:BooleanByteCharDateTimeDecimalDoubleInt16Int32Int64SByteSingleStringTimeSpanUInt16UInt32UInt64
 
 ###  DesignMode `Boolean`
 
 Indicates if the control is in design-mode.
 
-###  ColumnType `String`
+###  Display `Boolean`
 
-Returns a string which represents the type of the current column.
+Gets or sets a value indicating whether the cells corresponding to a column would be rendered with a 'display:none' style attribute (end-user-not-visible).
+            To completely prevent cells from rendering, set the  property to false, instead of the Display property.
+
+###  FooterText `String`
+
+Use the FooterText property to specify your own or determine the current
+            text for the footer section of the column.
+
+###  HeaderStyle `TableItemStyle`
+
+Style of the cell in the header item of the RadTreeList, corresponding to the column.
 
 ###  HeaderText `String`
 
@@ -99,32 +88,50 @@ Gets or sets the text which will appear in the header cell of the column.
 
 Gets or sets the tooltip of the header cell.
 
-###  FooterText `String`
+###  ImageAlign `ImageAlign`
 
-Use the FooterText property to specify your own or determine the current
-            text for the footer section of the column.
+Gets or sets a value from the ImageAlign enumeration representing the alignment of 
+            the rendered image in relation to the text.
 
-###  UniqueName `String`
+###  ImageHeight `Unit`
 
-Each column in Telerik RadTreeList has an UniqueName
-            property (string). This property is assigned automatically by the designer (or the
-            first time you want to access the columns if they are built dynamically).
+Gets or sets the height of the image
 
-###  HeaderStyle `TableItemStyle`
+###  ImageUrl `String`
 
-Style of the cell in the header item of the RadTreeList, corresponding to the column.
+Gets or sets a string, specifying the url, from which the image should be
+            retrieved. This property will be honored only if the DataImageUrlFields are
+            not set. If either DataImageUrlFields are set, they will override the
+            ImageUrl property.
+
+###  ImageWidth `Unit`
+
+Gets or sets the width of the image
 
 ###  ItemStyle `TableItemStyle`
 
 Style of the cell in the item of the RadTreeList, corresponding to the column.
 
-###  Visible `Boolean`
+###  MaxWidth `Unit`
 
-Gets or sets a value indicating if the column and all corresponding cells would be rendered.
+Gets or sets maximum width of the column. Used when resizing.
 
-###  Sortable `Boolean`
+###  MinWidth `Unit`
 
-Should override if sorting will be disabled
+Gets or sets minimum width of the column. Used when resizing.
+
+###  OrderIndex `Int32`
+
+Gets or sets the order index of column used when reordering the columns.
+
+###  Owner `RadTreeList`
+
+Gets a reference to the  object
+            to which the column belongs
+
+###  Reorderable `Boolean`
+
+Gets or sets a value indicating whether the column can be reordered client-side.
 
 ###  Resizable `Boolean`
 
@@ -132,30 +139,23 @@ Gets or sets a value indicating whether the column can be resized client-side.
             You can use this property, by setting it to false, to disable resizing for a particular
             column, while preserving this functionality for all the other columns.
 
-###  Reorderable `Boolean`
+###  Sortable `Boolean`
 
-Gets or sets a value indicating whether the column can be reordered client-side.
-
-###  MinWidth `Unit`
-
-Gets or sets minimum width of the column. Used when resizing.
-
-###  MaxWidth `Unit`
-
-Gets or sets maximum width of the column. Used when resizing.
-
-###  Display `Boolean`
-
-Gets or sets a value indicating whether the cells corresponding to a column would be rendered with a 'display:none' style attribute (end-user-not-visible).
-            To completely prevent cells from rendering, set the  property to false, instead of the Display property.
-
-###  OrderIndex `Int32`
-
-Gets or sets the order index of column used when reordering the columns.
+Should override if sorting will be disabled
 
 ###  SortExpression `String`
 
 The string representing a filed-name from the DataSource that should be used when grid sorts by this column.
+
+###  UniqueName `String`
+
+Each column in Telerik RadTreeList has an UniqueName
+            property (string). This property is assigned automatically by the designer (or the
+            first time you want to access the columns if they are built dynamically).
+
+###  Visible `Boolean`
+
+Gets or sets a value indicating if the column and all corresponding cells would be rendered.
 
 ## Methods
 
@@ -167,6 +167,15 @@ Performs application-defined tasks associated with freeing, releasing,
 #### Returns
 
 `System.Void` 
+
+###  GetSortExpression
+
+By default returns the SortExpression of the column. If the SortExpression is not set explicitly, it would be calculated, based on the
+            DataField of the column.
+
+#### Returns
+
+`System.String` 
 
 ###  InitializeCell
 
@@ -198,19 +207,4 @@ Prepares the cell of the given item when the treelist is rendered.
 #### Returns
 
 `System.Void` 
-
-###  CompareTo
-
-#### Returns
-
-`System.Int32` 
-
-###  GetSortExpression
-
-By default returns the SortExpression of the column. If the SortExpression is not set explicitly, it would be calculated, based on the
-            DataField of the column.
-
-#### Returns
-
-`System.String` 
 

@@ -16,47 +16,95 @@ Axis segment in case of ScaleBreaks enabled
 
 ## Properties
 
-###  Name `String`
+###  EndPoint `PointF`
 
-Segments name in collection
-
-###  MinValue `Double`
-
-Segment minimum value at the axis
+Segment end point
 
 ###  MaxValue `Double`
 
 Maximum segment's value at the axis
 
-###  Step `Double`
+###  MinValue `Double`
 
-Axis items step for a current Segment
+Segment minimum value at the axis
 
-###  StartPoint `PointF`
+###  Name `String`
 
-Segment start point
-
-###  EndPoint `PointF`
-
-Segment end point
-
-###  Rectangle `RectangleF`
-
-Segment's bound rectangle
+Segments name in collection
 
 ###  PixelsPerValue `Double`
 
 Pixels per one value
 
-###  ViewStateIgnoresCase `Boolean`
+###  Rectangle `RectangleF`
 
-Gets if view sate should ignore case
+Segment's bound rectangle
+
+###  StartPoint `PointF`
+
+Segment start point
+
+###  Step `Double`
+
+Axis items step for a current Segment
 
 ###  ViewState `StateBag`
 
 Sate bag to store view state content
 
+###  ViewStateIgnoresCase `Boolean`
+
+Gets if view sate should ignore case
+
 ## Methods
+
+###  CloneState
+
+Makes a view state clone
+
+#### Returns
+
+`System.Web.UI.StateBag` StateBag
+
+###  GetAxisItems
+
+Create axis items
+
+#### Parameters
+
+#### axis `Telerik.Charting.ChartAxis`
+
+Axis
+
+#### Returns
+
+`System.Double` Final value
+
+###  GetPath
+
+Return a path around segments rectangle
+
+#### Parameters
+
+#### linePath `System.Drawing.Drawing2D.GraphicsPath`
+
+Path depending of scale break line type
+
+#### startLine `System.Boolean`
+
+Should start segment line as scale break line type be created
+
+#### endLine `System.Boolean`
+
+Should end segment line as scale break line type be created
+
+#### isHorizontal `System.Boolean`
+
+Plot area series orientation, true if horizontal
+
+#### Returns
+
+`System.Drawing.Drawing2D.GraphicsPath` Segments path
 
 ###  GetX
 
@@ -86,19 +134,29 @@ Series value to get coordinate of
 
 `System.Nullable`1` Coordinate
 
-###  SetRange
+###  IsIntersection
 
-Recalculates items values in collection
+Check segments on a intersections
 
 #### Parameters
 
-#### items `Telerik.Charting.ChartSeriesItemsCollection`
+#### segment `Telerik.Charting.AxisSegment`
 
-Series items with values in current segment diapason
+Any other segment
 
-#### isOptimizeMax `System.Boolean`
+#### Returns
 
-Should max value optimization be done or not
+`System.Boolean` True if segments intersect
+
+###  LoadViewState
+
+Loads data from a view state
+
+#### Parameters
+
+#### state `System.Object`
+
+View state to load data from
 
 #### Returns
 
@@ -122,59 +180,39 @@ Should get biggest number or not
 
 `System.Double` Number
 
-###  GetAxisItems
+###  SaveViewState
 
-Create axis items
-
-#### Parameters
-
-#### axis `Telerik.Charting.ChartAxis`
-
-Axis
+Saves object data to a view state
 
 #### Returns
 
-`System.Double` Final value
+`System.Object` Saved view state object
 
-###  IsIntersection
+###  SetDirty
 
-Check segments on a intersections
-
-#### Parameters
-
-#### segment `Telerik.Charting.AxisSegment`
-
-Any other segment
+Sets the item dirty state
 
 #### Returns
 
-`System.Boolean` True if segments intersect
+`System.Void` 
 
-###  GetPath
+###  SetRange
 
-Return a path around segments rectangle
+Recalculates items values in collection
 
 #### Parameters
 
-#### linePath `System.Drawing.Drawing2D.GraphicsPath`
+#### items `Telerik.Charting.ChartSeriesItemsCollection`
 
-Path depending of scale break line type
+Series items with values in current segment diapason
 
-#### startLine `System.Boolean`
+#### isOptimizeMax `System.Boolean`
 
-Should start segment line as scale break line type be created
-
-#### endLine `System.Boolean`
-
-Should end segment line as scale break line type be created
-
-#### isHorizontal `System.Boolean`
-
-Plot area series orientation, true if horizontal
+Should max value optimization be done or not
 
 #### Returns
 
-`System.Drawing.Drawing2D.GraphicsPath` Segments path
+`System.Void` 
 
 ###  Telerik.Charting.IChartingStateManager.LoadViewState
 
@@ -206,22 +244,6 @@ Tracks view state changes
 
 `System.Void` 
 
-###  CloneState
-
-Makes a view state clone
-
-#### Returns
-
-`System.Web.UI.StateBag` StateBag
-
-###  SaveViewState
-
-Saves object data to a view state
-
-#### Returns
-
-`System.Object` Saved view state object
-
 ###  TrackViewState
 
 Tracks view state changes
@@ -229,34 +251,4 @@ Tracks view state changes
 #### Returns
 
 `System.Void` 
-
-###  LoadViewState
-
-Loads data from a view state
-
-#### Parameters
-
-#### state `System.Object`
-
-View state to load data from
-
-#### Returns
-
-`System.Void` 
-
-###  SetDirty
-
-Sets the item dirty state
-
-#### Returns
-
-`System.Void` 
-
-###  ToString
-
-ToString() override. Used in the properties grid to avoid object type showing.
-
-#### Returns
-
-`System.String` Empty string
 

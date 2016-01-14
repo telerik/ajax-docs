@@ -15,19 +15,19 @@ A resource type class used in OData binding.
 
 ## Properties
 
-###  Name `String`
+###  Container `String`
 
-Gets or sets the name.
+Gets or sets the container.
 
 ###  KeyField `String`
 
 Gets or sets the key field.
 
+###  Name `String`
+
+Gets or sets the name.
+
 ###  TextField `String`
 
 Gets or sets the text field.
-
-###  Container `String`
-
-Gets or sets the container.
 

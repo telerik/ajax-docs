@@ -21,13 +21,12 @@ Renders OrgChartGroupItemCollection.
 
 ## Properties
 
-###  IsGroup `Boolean`
+###  Collapsed `Boolean`
 
-Gets or sets if the parent Node has more than one GroupItem.
+Gets or sets the Node collapsed state
 
-###  IsSimpleBinding `Boolean`
-
-Gets or sets if it is SimpleBinding.
+#### Remarks
+Determines what CSSClass to render on the Expand/Collapse Node
 
 ###  EnableCollapsing `Boolean`
 
@@ -37,19 +36,16 @@ Gets or sets if collapsing is enabled.
 
 Gets or sets if group collapsing is enabled.
 
-###  Collapsed `Boolean`
-
-Gets or sets the Node collapsed state
-
-#### Remarks
-Determines what CSSClass to render on the Expand/Collapse Node
-
 ###  GroupCollapsed `Boolean`
 
 Gets or sets the Group collapsed state
 
 #### Remarks
 Determines what CSSClass to render on the Expand/Collapse Node
+
+###  GroupItemsCount `Int32`
+
+Gets or sets number of the GroupItems.
 
 ###  HasNodes `Boolean`
 
@@ -65,9 +61,13 @@ Gets or set whether the Node has nodes for load
 #### Remarks
 Used to determine if the Node is the last and to render an expand/collapse arrow on it in web service binding
 
-###  GroupItemsCount `Int32`
+###  IsGroup `Boolean`
 
-Gets or sets number of the GroupItems.
+Gets or sets if the parent Node has more than one GroupItem.
+
+###  IsSimpleBinding `Boolean`
+
+Gets or sets if it is SimpleBinding.
 
 ###  TagKey `HtmlTextWriterTag`
 

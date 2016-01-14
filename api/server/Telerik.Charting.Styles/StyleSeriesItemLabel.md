@@ -19,49 +19,37 @@ Series item appearance style
 
 ## Properties
 
-###  Distance `Int32`
+###  Border `StyleBorder`
 
-Label distance from series when LabelLocation equals Auto
+Specifies the border style
 
-###  Visible `Boolean`
+###  Chart `Chart`
 
-Specifies labels' visibility
-
-###  LabelConnectorStyle `LineStyle`
-
-Gets label's connector's style
-
-###  LabelLocation `ItemLabelLocation`
-
-Specifies label's layout
-
-###  Item `Object`
-
-Gets property value by name
-
-###  Corners `Corners`
-
-Specifies the corners for background rectangle
-
-###  FillStyle `FillStyle`
-
-Specifies the background property
-
-###  Figure `String`
-
-Specifies the figure property
-
-###  RotationAngle `Single`
-
-Specifies the rotation angle property
+Specifies chart style related to
 
 ###  CompositionType `LabelItemsCompositionTypes`
 
 Specifies the label's items composition type
 
-###  Visible `Boolean`
+###  Corners `Corners`
 
-Specifies tha label's visibility
+Specifies the corners for background rectangle
+
+###  Dimensions `Dimensions`
+
+Specifies the elements Dimensions property
+
+###  Distance `Int32`
+
+Label distance from series when LabelLocation equals Auto
+
+###  Figure `String`
+
+Specifies the figure property
+
+###  FillStyle `FillStyle`
+
+Specifies the background property
 
 ###  IsSet `Boolean`
 
@@ -71,51 +59,55 @@ Specifies that style has container object
 
 Gets property value by name
 
-###  Position `Position`
+###  Item `Object`
 
-Specifies the elements Position property
-
-###  Dimensions `Dimensions`
-
-Specifies the elements Dimensions property
-
-###  Border `StyleBorder`
-
-Specifies the border style
-
-###  Shadow `ShadowStyle`
-
-Specifies the shadow settings
-
-###  Visible `Boolean`
-
-Specifies visibility
+Gets property value by name
 
 ###  Item `Object`
 
 Gets property value by name
 
-###  Chart `Chart`
+###  LabelConnectorStyle `LineStyle`
 
-Specifies chart style related to
+Gets label's connector's style
 
-###  ViewStateIgnoresCase `Boolean`
+###  LabelLocation `ItemLabelLocation`
 
-Gets if view sate should ignore case
+Specifies label's layout
+
+###  Position `Position`
+
+Specifies the elements Position property
+
+###  RotationAngle `Single`
+
+Specifies the rotation angle property
+
+###  Shadow `ShadowStyle`
+
+Specifies the shadow settings
 
 ###  ViewState `StateBag`
 
 Sate bag to store view state content
 
+###  ViewStateIgnoresCase `Boolean`
+
+Gets if view sate should ignore case
+
+###  Visible `Boolean`
+
+Specifies labels' visibility
+
+###  Visible `Boolean`
+
+Specifies tha label's visibility
+
+###  Visible `Boolean`
+
+Specifies visibility
+
 ## Methods
-
-###  Reset
-
-Reset to default settings
-
-#### Returns
-
-`System.Void` 
 
 ###  Clone
 
@@ -125,9 +117,131 @@ Clone this object
 
 `System.Object` Cloned object
 
-###  TrackViewState
+###  Clone
 
-Track ViewState
+Clone this object
+
+#### Returns
+
+`System.Object` Cloned object
+
+###  Clone
+
+Clone this object
+
+#### Returns
+
+`System.Object` Cloned object
+
+###  CloneState
+
+Makes a view state clone
+
+#### Returns
+
+`System.Web.UI.StateBag` StateBag
+
+###  Dispose
+
+Releases unmanaged and - optionally - managed resources
+
+#### Parameters
+
+#### disposing `System.Boolean`
+
+true to release both managed and unmanaged resources; false to release only unmanaged resources.
+
+#### Returns
+
+`System.Void` 
+
+###  Dispose
+
+Releases unmanaged and - optionally - managed resources
+
+#### Parameters
+
+#### disposing `System.Boolean`
+
+true to release both managed and unmanaged resources; false to release only unmanaged resources.
+
+#### Returns
+
+`System.Void` 
+
+###  Dispose
+
+Releases unmanaged and - optionally - managed resources
+
+#### Parameters
+
+#### disposing `System.Boolean`
+
+true to release both managed and unmanaged resources; false to release only unmanaged resources.
+
+#### Returns
+
+`System.Void` 
+
+###  GetRealBounds
+
+Calculate bounds of element depend on its rotation and previous dimensions
+
+#### Parameters
+
+#### dimensions `Telerik.Charting.Styles.Dimensions`
+
+Dimensions of element
+
+#### rotation `System.Nullable{System.Single}`
+
+Rotation angle
+
+#### Returns
+
+`System.Drawing.RectangleF` 
+
+###  GetStyleProperty
+
+Gets property value of element by name
+
+#### Parameters
+
+#### element `System.Object`
+
+Element to get property
+
+#### propertyName `Telerik.Charting.Styles.StyleProperties`
+
+Property name
+
+#### Returns
+
+`System.Object` Property value of specified element
+
+###  IsVisible
+
+Gets element visibility
+
+#### Parameters
+
+#### element `System.Object`
+
+Element visibility to check
+
+#### Returns
+
+`System.Boolean` Visibility of the specified element
+
+###  LoadViewState
+
+Load data from ViewState
+
+#### Parameters
+
+#### savedState `System.Object`
+
+ViewState with data
 
 #### Returns
 
@@ -147,13 +261,47 @@ ViewState with data
 
 `System.Void` 
 
-###  SaveViewState
+###  LoadViewState
 
-Save data to ViewState
+Load data from ViewState
+
+#### Parameters
+
+#### savedState `System.Object`
+
+ViewState with data
 
 #### Returns
 
-`System.Object` Saved data
+`System.Void` 
+
+###  LoadViewState
+
+Load data from ViewState
+
+#### Parameters
+
+#### savedState `System.Object`
+
+ViewState to load data
+
+#### Returns
+
+`System.Void` 
+
+###  LoadViewState
+
+Loads data from a view state
+
+#### Parameters
+
+#### state `System.Object`
+
+View state to load data from
+
+#### Returns
+
+`System.Void` 
 
 ###  Reset
 
@@ -163,9 +311,25 @@ Reset to default settings
 
 `System.Void` 
 
-###  SaveDimensions
+###  Reset
 
-Copy dimensions
+Reset to default settings
+
+#### Returns
+
+`System.Void` 
+
+###  Reset
+
+Reset to default settings
+
+#### Returns
+
+`System.Void` 
+
+###  Reset
+
+Reset settings to default
 
 #### Returns
 
@@ -187,6 +351,54 @@ Restore margins initial value
 
 `System.Void` 
 
+###  SaveDimensions
+
+Copy dimensions
+
+#### Returns
+
+`System.Void` 
+
+###  SaveViewState
+
+Save data to ViewState
+
+#### Returns
+
+`System.Object` Saved data
+
+###  SaveViewState
+
+Save data to ViewState
+
+#### Returns
+
+`System.Object` Saved data
+
+###  SaveViewState
+
+Save data to ViewState
+
+#### Returns
+
+`System.Object` Saved data
+
+###  SaveViewState
+
+Save data to ViewState
+
+#### Returns
+
+`System.Object` Saved data
+
+###  SaveViewState
+
+Saves object data to a view state
+
+#### Returns
+
+`System.Object` Saved view state object
+
 ###  SetAutoLayoutDefaults
 
 Save dimensions and positions for autolayout
@@ -195,127 +407,9 @@ Save dimensions and positions for autolayout
 
 `System.Void` 
 
-###  Clone
+###  SetDirty
 
-Clone this object
-
-#### Returns
-
-`System.Object` Cloned object
-
-###  Dispose
-
-Releases unmanaged and - optionally - managed resources
-
-#### Parameters
-
-#### disposing `System.Boolean`
-
-true to release both managed and unmanaged resources; false to release only unmanaged resources.
-
-#### Returns
-
-`System.Void` 
-
-###  TrackViewState
-
-Track ViewState
-
-#### Returns
-
-`System.Void` 
-
-###  LoadViewState
-
-Load data from ViewState
-
-#### Parameters
-
-#### savedState `System.Object`
-
-ViewState with data
-
-#### Returns
-
-`System.Void` 
-
-###  SaveViewState
-
-Save data to ViewState
-
-#### Returns
-
-`System.Object` Saved data
-
-###  Reset
-
-Reset to default settings
-
-#### Returns
-
-`System.Void` 
-
-###  TrackViewState
-
-Track ViewState
-
-#### Returns
-
-`System.Void` 
-
-###  LoadViewState
-
-Load data from ViewState
-
-#### Parameters
-
-#### savedState `System.Object`
-
-ViewState with data
-
-#### Returns
-
-`System.Void` 
-
-###  SaveViewState
-
-Save data to ViewState
-
-#### Returns
-
-`System.Object` Saved data
-
-###  Dispose
-
-Releases unmanaged and - optionally - managed resources
-
-#### Parameters
-
-#### disposing `System.Boolean`
-
-true to release both managed and unmanaged resources; false to release only unmanaged resources.
-
-#### Returns
-
-`System.Void` 
-
-###  IsVisible
-
-Gets element visibility
-
-#### Parameters
-
-#### element `System.Object`
-
-Element visibility to check
-
-#### Returns
-
-`System.Boolean` Visibility of the specified element
-
-###  Reset
-
-Reset settings to default
+Sets the item dirty state
 
 #### Returns
 
@@ -383,94 +477,6 @@ Container's height
 
 `System.Void` 
 
-###  GetRealBounds
-
-Calculate bounds of element depend on its rotation and previous dimensions
-
-#### Parameters
-
-#### dimensions `Telerik.Charting.Styles.Dimensions`
-
-Dimensions of element
-
-#### rotation `System.Nullable{System.Single}`
-
-Rotation angle
-
-#### Returns
-
-`System.Drawing.RectangleF` 
-
-###  Clone
-
-Clone this object
-
-#### Returns
-
-`System.Object` Cloned object
-
-###  GetStyleProperty
-
-Gets property value of element by name
-
-#### Parameters
-
-#### element `System.Object`
-
-Element to get property
-
-#### propertyName `Telerik.Charting.Styles.StyleProperties`
-
-Property name
-
-#### Returns
-
-`System.Object` Property value of specified element
-
-###  Dispose
-
-Releases unmanaged and - optionally - managed resources
-
-#### Parameters
-
-#### disposing `System.Boolean`
-
-true to release both managed and unmanaged resources; false to release only unmanaged resources.
-
-#### Returns
-
-`System.Void` 
-
-###  TrackViewState
-
-Track ViewState
-
-#### Returns
-
-`System.Void` 
-
-###  LoadViewState
-
-Load data from ViewState
-
-#### Parameters
-
-#### savedState `System.Object`
-
-ViewState to load data
-
-#### Returns
-
-`System.Void` 
-
-###  SaveViewState
-
-Save data to ViewState
-
-#### Returns
-
-`System.Object` Saved data
-
 ###  Telerik.Charting.IChartingStateManager.LoadViewState
 
 Loads data from a view state
@@ -501,21 +507,37 @@ Tracks view state changes
 
 `System.Void` 
 
-###  CloneState
+###  TrackViewState
 
-Makes a view state clone
-
-#### Returns
-
-`System.Web.UI.StateBag` StateBag
-
-###  SaveViewState
-
-Saves object data to a view state
+Track ViewState
 
 #### Returns
 
-`System.Object` Saved view state object
+`System.Void` 
+
+###  TrackViewState
+
+Track ViewState
+
+#### Returns
+
+`System.Void` 
+
+###  TrackViewState
+
+Track ViewState
+
+#### Returns
+
+`System.Void` 
+
+###  TrackViewState
+
+Track ViewState
+
+#### Returns
+
+`System.Void` 
 
 ###  TrackViewState
 
@@ -524,34 +546,4 @@ Tracks view state changes
 #### Returns
 
 `System.Void` 
-
-###  LoadViewState
-
-Loads data from a view state
-
-#### Parameters
-
-#### state `System.Object`
-
-View state to load data from
-
-#### Returns
-
-`System.Void` 
-
-###  SetDirty
-
-Sets the item dirty state
-
-#### Returns
-
-`System.Void` 
-
-###  ToString
-
-ToString() override. Used in the properties grid to avoid object type showing.
-
-#### Returns
-
-`System.String` Empty string
 

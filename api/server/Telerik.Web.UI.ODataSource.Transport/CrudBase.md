@@ -17,12 +17,12 @@ This Class Gets or sets the data service url for CRUD operation and
 
 ## Properties
 
-###  Url `Uri`
-
-Gets or sets the data service url for CRUD operation.
-
 ###  DataType `ODataSourceResponseType`
 
 Gets or sets the type of the response. It could be JSON
             or JSONP, should the request is cross domain.
+
+###  Url `Uri`
+
+Gets or sets the data service url for CRUD operation.
 

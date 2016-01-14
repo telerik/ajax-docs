@@ -25,29 +25,6 @@ The properties of the Telerik.Web.UI.RecurrencePattern class work together
 
 ## Properties
 
-###  Frequency `RecurrenceFrequency`
-
-Gets or sets the frequency of recurrence.
-
-#### Remarks
-The default value is .
-
-###  Interval `Int32`
-
-Gets or sets the interval of recurrence.
-
-#### Remarks
-The default value is 1.
-
-###  DaysOfWeekMask `RecurrenceDay`
-
-Gets or sets the bit mask that specifies the week days on which the event
-            recurs.
-
-#### Remarks
-For additional information on how to create masks see the
-                 documentation.
-
 ###  DayOfMonth `Int32`
 
 Gets or sets the day month on which the event recurs.
@@ -65,13 +42,36 @@ This property is meaningful only when  is
                     For detailed examples see the documentation of the
                      class.
 
-###  Month `RecurrenceMonth`
+###  DaysOfWeekMask `RecurrenceDay`
 
-Gets or sets the month on which the event recurs.
+Gets or sets the bit mask that specifies the week days on which the event
+            recurs.
+
+#### Remarks
+For additional information on how to create masks see the
+                 documentation.
 
 ###  FirstDayOfWeek `DayOfWeek`
 
 Gets or sets the day on which the week starts.
+
+###  Frequency `RecurrenceFrequency`
+
+Gets or sets the frequency of recurrence.
+
+#### Remarks
+The default value is .
+
+###  Interval `Int32`
+
+Gets or sets the interval of recurrence.
+
+#### Remarks
+The default value is 1.
+
+###  Month `RecurrenceMonth`
+
+Gets or sets the month on which the event recurs.
 
 ## Methods
 
@@ -92,14 +92,6 @@ An object to compare with this instance.
                  and equals the value of this instance;
                 otherwise, false.
 
-###  GetHashCode
-
-Overriden. Returns the hash code for this instance.
-
-#### Returns
-
-`System.Int32` The hash code for this instance.
-
 ###  Equals
 
 Overloaded. Overridden. Returns a value indicating whether this instance is equal
@@ -115,6 +107,14 @@ An  object to compare with this instance.
 
 `System.Boolean` true if value equals the value of this instance;
             otherwise, false.
+
+###  GetHashCode
+
+Overriden. Returns the hash code for this instance.
+
+#### Returns
+
+`System.Int32` The hash code for this instance.
 
 ###  op_Equality
 

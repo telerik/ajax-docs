@@ -17,6 +17,10 @@ This class is responsible for getting the group
 
 ## Properties
 
+###  Aggregates `ClientDataSourceAggregatesCollection`
+
+Gets a collection of aggregates for
+
 ###  FieldName `String`
 
 Gets or sets the field name for the group operation.
@@ -24,8 +28,4 @@ Gets or sets the field name for the group operation.
 ###  SortOrder `ClientDataSourceSortOrder`
 
 Gets or sets the sort order
-
-###  Aggregates `ClientDataSourceAggregatesCollection`
-
-Gets a collection of aggregates for
 

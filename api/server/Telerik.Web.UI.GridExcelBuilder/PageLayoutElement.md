@@ -16,27 +16,41 @@ Used to change the page orientation and alignment. The effect of these settings 
 
 ## Properties
 
-###  IsCenteredVertical `Boolean`
+###  Attributes `IAttributesCollection`
 
-Determines whether the page will be centered vertically
-
-###  IsCenteredHorizontal `Boolean`
-
-Determines whether the page will be centered horizontally
-
-###  PageOrientation `PageOrientationType`
-
-Sets the page orientation to portrait (default) or landscape
+Collection of the attributes of the current element
 
 ###  InnerElements `IElementsCollection`
 
 Collection of inner elements
 
-###  Attributes `IAttributesCollection`
+###  IsCenteredHorizontal `Boolean`
 
-Collection of the attributes of the current element
+Determines whether the page will be centered horizontally
+
+###  IsCenteredVertical `Boolean`
+
+Determines whether the page will be centered vertically
+
+###  PageOrientation `PageOrientationType`
+
+Sets the page orientation to portrait (default) or landscape
 
 ## Methods
+
+###  AppendAttributes
+
+Appends the attirbutes to the output
+
+#### Parameters
+
+#### sb `System.Text.StringBuilder`
+
+StringBuilder object that holds the rendered output
+
+#### Returns
+
+`System.Void` 
 
 ###  Render
 
@@ -55,20 +69,6 @@ StringBuilder object that holds the rendered output
 ###  RenderChildElements
 
 Renders the child elements
-
-#### Parameters
-
-#### sb `System.Text.StringBuilder`
-
-StringBuilder object that holds the rendered output
-
-#### Returns
-
-`System.Void` 
-
-###  AppendAttributes
-
-Appends the attirbutes to the output
 
 #### Parameters
 

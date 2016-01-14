@@ -17,11 +17,11 @@ Event arguments passed when Telerik.Web.UI.RadGrid exports to excel. The event a
 
 ## Properties
 
-###  FormattedColumn `GridColumn`
-
-Gets the column associated with the formatting cell.
-
 ###  Cell `TableCell`
 
 Gets the cell for formatting.
+
+###  FormattedColumn `GridColumn`
+
+Gets the column associated with the formatting cell.
 

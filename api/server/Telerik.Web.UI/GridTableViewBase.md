@@ -20,14 +20,6 @@ The base class for Telerik.Web.UI.GridTableView encapsulating general functional
 
 ## Properties
 
-###  TabIndex `Int16`
-
-Gets or sets the tab index of the Web server control.
-
-###  OwnerGrid `RadGrid`
-
-Gets the owner RadGrid object.
-
 ###  CellPadding `Int32`
 
 Gets or sets the cell padding of the html table.
@@ -49,4 +41,12 @@ Gets or sets a value that specifies the gridline styles for controls that displa
 ###  HorizontalAlign `HorizontalAlign`
 
 Gets or sets a value that specifies the horizontal alignment of items within a container.
+
+###  OwnerGrid `RadGrid`
+
+Gets the owner RadGrid object.
+
+###  TabIndex `Int16`
+
+Gets or sets the tab index of the Web server control.
 

@@ -19,17 +19,9 @@ Header/footer cell
 ###  Text `String`
 
 Determines the content of the header/footer cell. 
-            Put  in the place where the page index should be inserted.
+            Put <?page-number?> in the place where the page index should be inserted.
 
 ###  TextAlign `String`
 
 Text alignment for the current cell.
-
-## Methods
-
-###  GetViewStateValue
-
-#### Returns
-
-`Telerik.Web.UI.T` 
 

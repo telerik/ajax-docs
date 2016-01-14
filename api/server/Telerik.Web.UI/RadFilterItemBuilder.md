@@ -16,6 +16,20 @@ Represents a builder for Telerik.Web.UI.RadFilterExpressionItem objects belongin
 
 ## Methods
 
+###  AddItem
+
+Adds an item to the current RadFilterGroupExpressionItem.
+
+#### Parameters
+
+#### item `Telerik.Web.UI.RadFilterExpressionItem`
+
+A RadFilterExpressionItem to add to the RadFilterGroupExpressionItem.
+
+#### Returns
+
+`System.Void` 
+
 ###  BuildNextItem
 
 Creates a new collection of RadFilterExpressionItem objects based on the provided parameter.
@@ -35,18 +49,4 @@ The RadFilterGroupExpressionItem to which the current item will be
 #### Returns
 
 `System.Collections.Generic.IEnumerable`1` 
-
-###  AddItem
-
-Adds an item to the current RadFilterGroupExpressionItem.
-
-#### Parameters
-
-#### item `Telerik.Web.UI.RadFilterExpressionItem`
-
-A RadFilterExpressionItem to add to the RadFilterGroupExpressionItem.
-
-#### Returns
-
-`System.Void` 
 

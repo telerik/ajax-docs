@@ -22,15 +22,15 @@ The event arguments passed when Telerik.Web.UI.RadInputManager fires
 
 Gets or sets if the creation of the settings will be canceled.
 
-###  TextBox `TextBox`
+###  InputSetting `InputSetting`
 
-Gets the  on which the settings will be applied.
+Gets the input setting which will be created.
 
 ###  TargetInput `TargetInput`
 
 Gets the target input properties associated with the TextBox.
 
-###  InputSetting `InputSetting`
+###  TextBox `TextBox`
 
-Gets the input setting which will be created.
+Gets the  on which the settings will be applied.
 

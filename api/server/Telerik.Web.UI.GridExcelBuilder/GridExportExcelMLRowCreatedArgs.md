@@ -16,13 +16,13 @@ GridExportExcelMLRowCreatedArgs event arguments object
 
 ## Properties
 
-###  RowType `GridExportExcelMLRowType`
-
-ExcelML row type
-
 ###  Row `RowElement`
 
 Row object
+
+###  RowType `GridExportExcelMLRowType`
+
+ExcelML row type
 
 ###  Worksheet `WorksheetElement`
 

@@ -15,11 +15,6 @@ Specify the expanded state of Telerik.Web.UI.PivotGrid.Core.IGroup s.
 
 ## Properties
 
-###  UpToLevel `Int32`
-
-Specify the default state for s up to given level (excluding).
-            The default is
-
 ###  Expanded `Boolean`
 
 Specify the default state for s up to given  (excluding).
@@ -27,6 +22,11 @@ Specify the default state for s up to given  (excluding).
             
             When true groups up to the set level are expanded, all groups with level greater than or equal are collapsed.
             When false groups up to the set level are collapsed, all groups with level greater than or equal are expanded.
+
+###  UpToLevel `Int32`
+
+Specify the default state for s up to given level (excluding).
+            The default is
 
 ## Methods
 

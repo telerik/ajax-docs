@@ -50,138 +50,20 @@ The  to append to the end of the current .
 
 `System.Void` 
 
-###  FindItemByText
+###  AddRange
 
-Searches the RadMenuItemCollection control for the first
-                RadMenuItem with a Text property equal to
-                the specified value.
-
-#### Remarks
-The method returns the first item matching the search criteria. This method is not recursive. If no item is
-            matching then null (Nothing in VB.NET) is
-            returned.
+Appends the specified array of  objects to the end of the 
+            current .
 
 #### Parameters
 
-#### text `System.String`
+#### items `System.Collections.Generic.IEnumerable{Telerik.Web.UI.RadMenuItem}`
 
-The value to search for.
-
-#### Returns
-
-`Telerik.Web.UI.RadMenuItem` A RadMenuItem whose Text property is equal
-                to the specified value.
-
-###  FindItemByText
-
-Searches the RadMenu control for the first
-                RadMenuItem with a Text property equal to
-                the specified value.
-
-#### Remarks
-The method returns the first item matching the search criteria. If no item is
-            matching then null (Nothing in VB.NET) is
-            returned.
-
-#### Parameters
-
-#### text `System.String`
-
-The value to search for.
-
-#### ignoreCase `System.Boolean`
-
-A Boolean indicating a case-sensitive or insensitive comparison (true indicates a case-insensitive comparison).
+The array of  to append to the end of the current .
 
 #### Returns
 
-`Telerik.Web.UI.RadMenuItem` A RadMenuItem whose Text property is equal
-                to the specified value.
-
-###  FindItemByValue
-
-Searches the RadMenuItemCollection control for the first
-                RadMenuItem with a Value property equal
-                to the specified value.
-
-#### Remarks
-The method returns the first item matching the search criteria. This method is not recursive. If no item is
-            matching then null (Nothing in VB.NET) is
-            returned.
-
-#### Parameters
-
-#### value `System.String`
-
-The value to search for.
-
-#### Returns
-
-`Telerik.Web.UI.RadMenuItem` A RadMenuItem whose Value property is
-                equal to the specified value.
-
-###  FindItemByValue
-
-Searches the RadMenu control for the first
-                RadMenuItem with a Value property equal
-                to the specified value.
-
-#### Remarks
-The method returns the first item matching the search criteria. If no item is
-            matching then null (Nothing in VB.NET) is
-            returned.
-
-#### Parameters
-
-#### value `System.String`
-
-The value to search for.
-
-#### ignoreCase `System.Boolean`
-
-A Boolean indicating a case-sensitive or insensitive comparison (true indicates a case-insensitive comparison).
-
-#### Returns
-
-`Telerik.Web.UI.RadMenuItem` A RadMenuItem whose Value property is
-                equal to the specified value.
-
-###  FindItemByAttribute
-
-Searches the items in the collection for a RadMenuItem which contains the specified attribute and attribute value.
-
-#### Remarks
-This method is not recursive.
-
-#### Parameters
-
-#### attributeName `System.String`
-
-The name of the target attribute.
-
-#### attributeValue `System.String`
-
-The value of the target attribute
-
-#### Returns
-
-`Telerik.Web.UI.RadMenuItem` The RadMenuItem that matches the specified arguments. Null (Nothing) is returned if no node is found.
-
-###  FindItem
-
-Returns  the first RadMenuItem 
-            that matches the conditions defined by the specified predicate.
-            The predicate should returns a boolean value.
-
-#### Parameters
-
-#### match `System.Predicate{Telerik.Web.UI.RadMenuItem}`
-
-The Predicate <> that defines the conditions of the element to search for.
-
-#### Returns
-
-`Telerik.Web.UI.RadMenuItem` 
+`System.Void` 
 
 ###  Contains
 
@@ -218,20 +100,138 @@ The index to start copying from.
 
 `System.Void` 
 
-###  AddRange
+###  FindItem
 
-Appends the specified array of  objects to the end of the 
-            current .
+Returns  the first RadMenuItem 
+            that matches the conditions defined by the specified predicate.
+            The predicate should returns a boolean value.
 
 #### Parameters
 
-#### items `System.Collections.Generic.IEnumerable{Telerik.Web.UI.RadMenuItem}`
+#### match `System.Predicate{Telerik.Web.UI.RadMenuItem}`
 
-The array of  to append to the end of the current .
+The Predicate <> that defines the conditions of the element to search for.
 
 #### Returns
 
-`System.Void` 
+`Telerik.Web.UI.RadMenuItem` 
+
+###  FindItemByAttribute
+
+Searches the items in the collection for a RadMenuItem which contains the specified attribute and attribute value.
+
+#### Remarks
+This method is not recursive.
+
+#### Parameters
+
+#### attributeName `System.String`
+
+The name of the target attribute.
+
+#### attributeValue `System.String`
+
+The value of the target attribute
+
+#### Returns
+
+`Telerik.Web.UI.RadMenuItem` The RadMenuItem that matches the specified arguments. Null (Nothing) is returned if no node is found.
+
+###  FindItemByText
+
+Searches the RadMenuItemCollection control for the first
+                RadMenuItem with a Text property equal to
+                the specified value.
+
+#### Remarks
+The method returns the first item matching the search criteria. This method is not recursive. If no item is
+            matching then null (Nothing in VB.NET) is
+            returned.
+
+#### Parameters
+
+#### text `System.String`
+
+The value to search for.
+
+#### Returns
+
+`Telerik.Web.UI.RadMenuItem` A RadMenuItem whose Text property is equal
+                to the specified value.
+
+###  FindItemByText
+
+Searches the RadMenu control for the first
+                RadMenuItem with a Text property equal to
+                the specified value.
+
+#### Remarks
+The method returns the first item matching the search criteria. If no item is
+            matching then null (Nothing in VB.NET) is
+            returned.
+
+#### Parameters
+
+#### text `System.String`
+
+The value to search for.
+
+#### ignoreCase `System.Boolean`
+
+A Boolean indicating a case-sensitive or insensitive comparison (true indicates a case-insensitive comparison).
+
+#### Returns
+
+`Telerik.Web.UI.RadMenuItem` A RadMenuItem whose Text property is equal
+                to the specified value.
+
+###  FindItemByValue
+
+Searches the RadMenuItemCollection control for the first
+                RadMenuItem with a Value property equal
+                to the specified value.
+
+#### Remarks
+The method returns the first item matching the search criteria. This method is not recursive. If no item is
+            matching then null (Nothing in VB.NET) is
+            returned.
+
+#### Parameters
+
+#### value `System.String`
+
+The value to search for.
+
+#### Returns
+
+`Telerik.Web.UI.RadMenuItem` A RadMenuItem whose Value property is
+                equal to the specified value.
+
+###  FindItemByValue
+
+Searches the RadMenu control for the first
+                RadMenuItem with a Value property equal
+                to the specified value.
+
+#### Remarks
+The method returns the first item matching the search criteria. If no item is
+            matching then null (Nothing in VB.NET) is
+            returned.
+
+#### Parameters
+
+#### value `System.String`
+
+The value to search for.
+
+#### ignoreCase `System.Boolean`
+
+A Boolean indicating a case-sensitive or insensitive comparison (true indicates a case-insensitive comparison).
+
+#### Returns
+
+`Telerik.Web.UI.RadMenuItem` A RadMenuItem whose Value property is
+                equal to the specified value.
 
 ###  IndexOf
 

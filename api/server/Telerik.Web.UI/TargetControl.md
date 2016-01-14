@@ -20,18 +20,18 @@ Represents the target control to which Telerik.Web.UI.RadSkinManager applies a s
 
 Gets or sets a string value representing the server ID of the target control.
 
-###  Skin `String`
+###  ControlsToApplySkin `String`
 
-Gets or sets a string value representing the skin which will be applied to the target control(s).
+Gets or sets a ControlTypeToApplySkin value representing the type of RadControls which will be
+            targetted by the Skin setting.
 
 ###  Enabled `Boolean`
 
 Gets or sets a value indicating whether skinning should be enabled or not.
 
-###  ControlsToApplySkin `String`
+###  Skin `String`
 
-Gets or sets a ControlTypeToApplySkin value representing the type of RadControls which will be
-            targetted by the Skin setting.
+Gets or sets a string value representing the skin which will be applied to the target control(s).
 
 ## Methods
 

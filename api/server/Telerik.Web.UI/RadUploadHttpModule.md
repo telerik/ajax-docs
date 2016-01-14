@@ -15,13 +15,13 @@ This Class defines the RadUploadHttpModule that inherits the IHttpModule.
 
 ## Properties
 
-###  IsRegistered `Boolean`
-
-Gets the IsRegistered.
-
 ###  Context `HttpContext`
 
 Gets or sets the context.
+
+###  IsRegistered `Boolean`
+
+Gets the IsRegistered.
 
 ## Methods
 

@@ -17,73 +17,24 @@ The editor for the Telerik.Web.UI.GridNumericColumn when grid's RenderMode is se
 
 ## Properties
 
-###  MobileEditor `TextBox`
-
-Gets a reference to the RadNumericTextBox created by the editor.
-
 ###  Column `TreeListEditableColumn`
 
 Gets the column for which the column editor is created.
 
+###  MobileEditor `TextBox`
+
+Gets a reference to the RadNumericTextBox created by the editor.
+
 ## Methods
 
-###  Initialize
+###  GetFirstValue
 
-Initializes the TreeListNumericColumnEditor object.
-
-#### Parameters
-
-#### editItem `Telerik.Web.UI.TreeListEditableItem`
-
-The TreeListEditableItem which will hold the current editor.
-
-#### container `System.Web.UI.Control`
-
-The Control where the editor controls will be added.
+Get the first value from the values of the current .
+            This method returns the first item from , if any.
 
 #### Returns
 
-`System.Void` 
-
-###  Initialize
-
-Initializes the TreeListNumericColumnEditor object.
-
-#### Parameters
-
-#### editItem `Telerik.Web.UI.TreeListEditableItem`
-
-The TreeListEditableItem which will hold the current editor.
-
-#### container `System.Web.UI.Control`
-
-The Control where the editor controls will be added.
-
-#### Returns
-
-`System.Void` 
-
-###  SetValues
-
-Sets the edit values to the edit control.
-
-#### Parameters
-
-#### values `System.Collections.IEnumerable`
-
-An enumerable collection containing the edit values.
-
-#### Returns
-
-`System.Void` 
-
-###  GetValues
-
-Returns a collection of the edit values contained in the editor.
-
-#### Returns
-
-`System.Collections.IEnumerable` An enumerable object holding the values.
+`System.Object` 
 
 ###  GetFirstValueFromEnumerable
 
@@ -100,14 +51,57 @@ An instance of a class that implements IEnumerable.
 
 `System.Object` The first value form the enumerable collection.
 
-###  GetFirstValue
+###  GetValues
 
-Get the first value from the values of the current .
-            This method returns the first item from , if any.
+Returns a collection of the edit values contained in the editor.
 
 #### Returns
 
-`System.Object` 
+`System.Collections.IEnumerable` An enumerable object holding the values.
+
+###  GetValues
+
+Returns a collection of the values in the editor control.
+
+#### Returns
+
+`System.Collections.IEnumerable` 
+
+###  Initialize
+
+Initializes the TreeListNumericColumnEditor object.
+
+#### Parameters
+
+#### editItem `Telerik.Web.UI.TreeListEditableItem`
+
+The TreeListEditableItem which will hold the current editor.
+
+#### container `System.Web.UI.Control`
+
+The Control where the editor controls will be added.
+
+#### Returns
+
+`System.Void` 
+
+###  Initialize
+
+Initializes the TreeListNumericColumnEditor object.
+
+#### Parameters
+
+#### editItem `Telerik.Web.UI.TreeListEditableItem`
+
+The TreeListEditableItem which will hold the current editor.
+
+#### container `System.Web.UI.Control`
+
+The Control where the editor controls will be added.
+
+#### Returns
+
+`System.Void` 
 
 ###  Initialize
 
@@ -129,6 +123,20 @@ The container control to which the editor will be added.
 
 ###  SetValues
 
+Sets the edit values to the edit control.
+
+#### Parameters
+
+#### values `System.Collections.IEnumerable`
+
+An enumerable collection containing the edit values.
+
+#### Returns
+
+`System.Void` 
+
+###  SetValues
+
 Sets the edit values in the column editor.
 
 #### Parameters
@@ -140,12 +148,4 @@ A collection of the values which will be used to populate the editor control.
 #### Returns
 
 `System.Void` 
-
-###  GetValues
-
-Returns a collection of the values in the editor control.
-
-#### Returns
-
-`System.Collections.IEnumerable` 
 

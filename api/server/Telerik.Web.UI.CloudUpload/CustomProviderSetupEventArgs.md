@@ -16,11 +16,11 @@ CustomProviderSetup event arguments
 
 ## Properties
 
-###  ProviderType `Type`
-
-Gets or sets the custom provider type which will be used for upload.
-
 ###  Name `String`
 
 Gets or sets the name of the associated storage provider declared in the web.config
+
+###  ProviderType `Type`
+
+Gets or sets the custom provider type which will be used for upload.
 

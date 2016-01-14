@@ -16,33 +16,3 @@ Responsible for allocating object identifiers.
 * System.Object
 * Telerik.Pdf.PdfDocument
 
-## Properties
-
-###  Version `PdfVersion`
-
-###  FileIdentifier `FileIdentifier`
-
-###  SecurityOptions `SecurityOptions`
-
-###  Catalog `PdfCatalog`
-
-###  Pages `PdfPageTree`
-
-###  ObjectCount `Int32`
-
-###  Writer `PdfWriter`
-
-## Methods
-
-###  NextObjectId
-
-#### Returns
-
-`Telerik.Pdf.PdfObjectId` 
-
-###  WriteHeader
-
-#### Returns
-
-`System.Void` 
-

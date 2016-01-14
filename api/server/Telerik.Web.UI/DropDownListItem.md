@@ -18,13 +18,19 @@ This Class defines the DropDownListItem in RadDropDownList.
 
 ## Properties
 
+###  AccessKey `String`
+
+Gets or sets the access key that allows you to quickly navigate to the Web server control.
+
 ###  DropDownList `RadDropDownList`
 
 Gets the  which this item belongs to.
 
-###  Selected `Boolean`
+###  ID `String`
 
-Gets or sets a value indicating whether this  is selected.
+The ID property is reserved for internal use. Please use the Value property or
+            use the Attributes collection if you need to assign
+            custom data to the item.
 
 ###  ImageUrl `String`
 
@@ -36,39 +42,15 @@ Use the ImageUrl property to specify the image for the item. If
             rendered. Use "~" (tilde) when referring to images within the current ASP.NET
             application.
 
-###  Enabled `Boolean`
-
-###  Visible `Boolean`
-
-###  ID `String`
-
-The ID property is reserved for internal use. Please use the Value property or
-            use the Attributes collection if you need to assign
-            custom data to the item.
-
 ###  Index `Int32`
 
 Gets the zero based index of the item.
 
-###  AccessKey `String`
+###  Selected `Boolean`
 
-Gets or sets the access key that allows you to quickly navigate to the Web server control.
-
-###  BackColor `Color`
-
-###  ForeColor `Color`
-
-###  BorderColor `Color`
+Gets or sets a value indicating whether this  is selected.
 
 ## Methods
-
-###  Remove
-
-Removes this  from the  control which contains it.
-
-#### Returns
-
-`System.Void` 
 
 ###  CompareTo
 
@@ -96,4 +78,12 @@ Returns true if the control is rendered by the ControlItem itself;
 #### Returns
 
 `System.Boolean` 
+
+###  Remove
+
+Removes this  from the  control which contains it.
+
+#### Returns
+
+`System.Void` 
 

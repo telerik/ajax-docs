@@ -24,11 +24,11 @@ Gets or sets a value indicating whether the  event is canceled.
 #### Remarks
 If the  event is canceled the Dropped event will not fire.
 
-###  SourceDragItems `IList`1`
-
-Gets the SourceDragItems.
-
 ###  HtmlElementID `String`
 
 Gets the ID of the HTML element on which the source item(s) is(are) dropped.
+
+###  SourceDragItems `IList`1`
+
+Gets the SourceDragItems.
 

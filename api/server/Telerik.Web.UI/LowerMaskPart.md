@@ -15,12 +15,6 @@ Represents a single character MaskPart. The character is converted to lower upon
 * Telerik.Web.UI.MaskPart
 * Telerik.Web.UI.LowerMaskPart
 
-## Properties
-
-###  Value `String`
-
-###  Value `String`
-
 ## Methods
 
 ###  ToString

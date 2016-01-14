@@ -16,11 +16,11 @@ This class defines the RadAutoCompleteContext object and gets or sets the text i
 
 ## Properties
 
-###  Text `String`
-
-Gets or sets the text.
-
 ###  ShowAllResults `Boolean`
 
 Gets whether all results should be displayed.
+
+###  Text `String`
+
+Gets or sets the text.
 

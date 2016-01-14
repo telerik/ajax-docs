@@ -22,6 +22,14 @@ Gets or sets the operation time zone.
 
 ## Methods
 
+###  GetAllTimeZones
+
+Gets list of all time zones available on the system.
+
+#### Returns
+
+`System.Collections.Generic.List`1` Returns list of all time zones available on the system.
+
 ###  LocalToUtc
 
 Locals to UTC.
@@ -49,12 +57,4 @@ The UTC.
 #### Returns
 
 `System.DateTime` 
-
-###  GetAllTimeZones
-
-Gets list of all time zones available on the system.
-
-#### Returns
-
-`System.Collections.Generic.List`1` Returns list of all time zones available on the system.
 

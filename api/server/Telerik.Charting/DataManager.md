@@ -16,21 +16,29 @@ Acquires and manipulates data from databases or other sources.
 
 ## Properties
 
-###  UseAutoBind `Boolean`
+###  CurrentDataHelper `ICommonDataHelper`
 
-Sets the necessary using or not the automatic data binding at the design time
+Active DataHelper
+
+###  CurrentSeriesType `ChartSeriesType`
+
+Type of the currently processed series
+
+###  DataMember `String`
+
+Gets or sets the name of the list of data that the data-bound control binds to, in cases where the data source contains more than one distinct list of data items.
+
+###  DataSource `Object`
+
+Chart Data Source object
 
 ###  IsChartSupportsXAxisDataBinding `Boolean`
 
 Returns true if possible to use the automatic X Axis data binding
 
-###  IsSeriesSupportsXValues `Boolean`
+###  IsDataBindCalled `Boolean`
 
-Does the chart series support the X Values
-
-###  IsSeriesSupportsY2Values `Boolean`
-
-Does the chart series support the Y2 Values
+Returns true if DataBind method has been called
 
 ###  IsSeriesSupportsX2Values `Boolean`
 
@@ -40,6 +48,14 @@ Does the chart series support the X2 Values
 
 Does the chart series support the X2 and Y2 Values
 
+###  IsSeriesSupportsXValues `Boolean`
+
+Does the chart series support the X Values
+
+###  IsSeriesSupportsY2Values `Boolean`
+
+Does the chart series support the Y2 Values
+
 ###  IsSeriesSupportsY3Values `Boolean`
 
 Does the chart series support the Y3 Values
@@ -48,33 +64,24 @@ Does the chart series support the Y3 Values
 
 Does the chart series support the Y4 Values
 
-###  CurrentSeriesType `ChartSeriesType`
+###  LabelsColumn `String`
 
-Type of the currently processed series
-
-###  CurrentDataHelper `ICommonDataHelper`
-
-Active DataHelper
+The data source column used as chart labels source
 
 ###  ParentChart `Chart`
 
 Parent Chart object's reference
 
-###  DataSource `Object`
+###  UseAutoBind `Boolean`
 
-Chart Data Source object
+Sets the necessary using or not the automatic data binding at the design time
 
-###  DataMember `String`
+###  UseSeriesGrouping `Boolean`
 
-Gets or sets the name of the list of data that the data-bound control binds to, in cases where the data source contains more than one distinct list of data items.
+Enables or disables the series grouping feature
 
-###  IsDataBindCalled `Boolean`
-
-Returns true if DataBind method has been called
-
-###  LabelsColumn `String`
-
-The data source column used as chart labels source
+#### Remarks
+Default value is True
 
 ###  ValuesXColumn `String`
 
@@ -88,32 +95,131 @@ The data source columns array used as series items Y coordinate source
 This array could be used to set the Gantt chart data source columns. 
             The columns should be added in the following order: X, Y, X2, Y2
 
-###  UseSeriesGrouping `Boolean`
-
-Enables or disables the series grouping feature
-
-#### Remarks
-Default value is True
-
 ## Methods
 
-###  GetColumnIndex
+###  ClearDataSource
 
-General column's index detection method
-
-#### Parameters
-
-#### column `System.String`
-
-Column index or name
-
-#### columnType `Telerik.Charting.DataManager.ColumnType`
-
-Data source column type accordingly to ColumnType enumeration
+Clears the Data Source used
 
 #### Returns
 
-`System.Int32` Column index in a data source
+`System.Void` 
+
+###  CopyFrom
+
+Copies settings from another data manager
+
+#### Parameters
+
+#### manager `Telerik.Charting.DataManager`
+
+Source DataManager to copy settings from
+
+#### Returns
+
+`System.Void` 
+
+###  CreateSeries
+
+Returns new chart series
+
+#### Parameters
+
+#### groupColumn `System.Int32`
+
+DataGroupColumn index or -1 if grouping is not used
+
+#### isGroupColumnNumeric `System.Boolean`
+
+True if group column contains numeric values only
+
+#### row `System.Int32`
+
+Data item's row index in a data source
+
+#### column `System.Int32`
+
+Data item's column index in a data source
+
+#### vColumns `Telerik.Charting.DataManager.ValuesColumns`
+
+Values columns array
+
+#### Returns
+
+`Telerik.Charting.ChartSeries` New ChartSeries instance
+
+###  CreateSeriesItem
+
+Creates new Chart Series item from data source
+
+#### Parameters
+
+#### row `System.Int32`
+
+Data item's row index in a data source
+
+#### column `System.Int32`
+
+Data item's column index in a data source
+
+#### groupColumn `System.Int32`
+
+DataGroupColumn index or -1 if grouping is not used
+
+#### labelsColumn `System.Int32`
+
+Series items labels column
+
+#### vColumns `Telerik.Charting.DataManager.ValuesColumns`
+
+Values columns array
+
+#### useLabels `System.Boolean`
+
+Assign name and label for a series item or not
+
+#### Returns
+
+`Telerik.Charting.ChartSeriesItem` New ChartSeriesItem instance with data from a data source
+
+###  DataBind
+
+Forces the data to be refreshed
+
+#### Returns
+
+`System.Void` 
+
+###  DataBindAuto
+
+Automatically populates chart series collection with data.
+
+#### Returns
+
+`System.Int32` 
+
+###  DataBindSeries
+
+Populates existing chart series collection with data.
+
+#### Returns
+
+`System.Int32` 
+
+###  DataBindXAxes
+
+Data bind X Axis labels
+
+#### Parameters
+
+#### groupColumn `System.Int32`
+
+DataGroupColumn index if present or -1 in other case
+
+#### Returns
+
+`System.Void` 
 
 ###  FindPossibleColumnIndex
 
@@ -133,6 +239,52 @@ Data source column type accordingly to ColumnType enumeration
 
 `System.Int32` Column index or -1 if impossible to find column
 
+###  GetAxisLabelsColumn
+
+Gets the axis labels column index
+
+#### Parameters
+
+#### axisLabelsColumn `System.String`
+
+Axis labels column index or name
+
+#### Returns
+
+`System.Int32` Column index
+
+###  GetColumnIndex
+
+General column's index detection method
+
+#### Parameters
+
+#### column `System.String`
+
+Column index or name
+
+#### columnType `Telerik.Charting.DataManager.ColumnType`
+
+Data source column type accordingly to ColumnType enumeration
+
+#### Returns
+
+`System.Int32` Column index in a data source
+
+###  GetDataItem
+
+Returns a Data item from a data source
+
+#### Parameters
+
+#### row `System.Int32`
+
+Data item's row index in a data source
+
+#### Returns
+
+`System.Object` Data item row or null in other cases
+
 ###  GetGroupsColumn
 
 Gets the groups column index from data source
@@ -149,6 +301,44 @@ DataGroupColumn index if present or -1 if not
 #### Returns
 
 `System.Int32` Groups column index or -1 if data grouping disabled
+
+###  GetItemName
+
+Returns either chart series name or series item name
+
+#### Parameters
+
+#### groupColumn `System.Int32`
+
+DataGroupColumn index
+
+#### isGroupColumnNumeric `System.Boolean`
+
+True if group column contains numeric values only
+
+#### labelsColumn `System.Int32`
+
+Series Labels column index
+
+#### valuesYColumns `System.Int32`
+
+Y Values columns array
+
+#### row `System.Int32`
+
+Data item's row index in a data source
+
+#### column `System.Int32`
+
+Data item's column index in a data source
+
+#### itemType `Telerik.Charting.DataManager.ItemType`
+
+Item type Series or SeriesItem
+
+#### Returns
+
+`System.String` Chart item name for an auto created Series or SeriesItem
 
 ###  GetLabelsColumn
 
@@ -218,72 +408,6 @@ Should auto mode be applied
 
 `System.Int32[]` Y values columns indexes array
 
-###  GetAxisLabelsColumn
-
-Gets the axis labels column index
-
-#### Parameters
-
-#### axisLabelsColumn `System.String`
-
-Axis labels column index or name
-
-#### Returns
-
-`System.Int32` Column index
-
-###  GetItemName
-
-Returns either chart series name or series item name
-
-#### Parameters
-
-#### groupColumn `System.Int32`
-
-DataGroupColumn index
-
-#### isGroupColumnNumeric `System.Boolean`
-
-True if group column contains numeric values only
-
-#### labelsColumn `System.Int32`
-
-Series Labels column index
-
-#### valuesYColumns `System.Int32`
-
-Y Values columns array
-
-#### row `System.Int32`
-
-Data item's row index in a data source
-
-#### column `System.Int32`
-
-Data item's column index in a data source
-
-#### itemType `Telerik.Charting.DataManager.ItemType`
-
-Item type Series or SeriesItem
-
-#### Returns
-
-`System.String` Chart item name for an auto created Series or SeriesItem
-
-###  DataBindXAxes
-
-Data bind X Axis labels
-
-#### Parameters
-
-#### groupColumn `System.Int32`
-
-DataGroupColumn index if present or -1 in other case
-
-#### Returns
-
-`System.Void` 
-
 ###  ItemsEqual
 
 Compares two series items
@@ -301,117 +425,6 @@ Item to compare
 #### Returns
 
 `System.Boolean` True if items represent the same data and have same names
-
-###  DataBindSeries
-
-Populates existing chart series collection with data.
-
-#### Returns
-
-`System.Int32` 
-
-###  DataBindAuto
-
-Automatically populates chart series collection with data.
-
-#### Returns
-
-`System.Int32` 
-
-###  CreateSeries
-
-Returns new chart series
-
-#### Parameters
-
-#### groupColumn `System.Int32`
-
-DataGroupColumn index or -1 if grouping is not used
-
-#### isGroupColumnNumeric `System.Boolean`
-
-True if group column contains numeric values only
-
-#### row `System.Int32`
-
-Data item's row index in a data source
-
-#### column `System.Int32`
-
-Data item's column index in a data source
-
-#### vColumns `Telerik.Charting.DataManager.ValuesColumns`
-
-Values columns array
-
-#### Returns
-
-`Telerik.Charting.ChartSeries` New ChartSeries instance
-
-###  CreateSeriesItem
-
-Creates new Chart Series item from data source
-
-#### Parameters
-
-#### row `System.Int32`
-
-Data item's row index in a data source
-
-#### column `System.Int32`
-
-Data item's column index in a data source
-
-#### groupColumn `System.Int32`
-
-DataGroupColumn index or -1 if grouping is not used
-
-#### labelsColumn `System.Int32`
-
-Series items labels column
-
-#### vColumns `Telerik.Charting.DataManager.ValuesColumns`
-
-Values columns array
-
-#### useLabels `System.Boolean`
-
-Assign name and label for a series item or not
-
-#### Returns
-
-`Telerik.Charting.ChartSeriesItem` New ChartSeriesItem instance with data from a data source
-
-###  GetDataItem
-
-Returns a Data item from a data source
-
-#### Parameters
-
-#### row `System.Int32`
-
-Data item's row index in a data source
-
-#### Returns
-
-`System.Object` Data item row or null in other cases
-
-###  ValidateDataSource
-
-Validates data source object passed
-
-#### Remarks
-The data source should implement the IEnumerable interface
-
-#### Parameters
-
-#### dataSource `System.Object`
-
-Data Source
-
-#### Returns
-
-`System.Void` 
 
 ###  OnItemDataBound
 
@@ -435,31 +448,18 @@ Data Source
 
 `System.Void` 
 
-###  DataBind
+###  ValidateDataSource
 
-Forces the data to be refreshed
+Validates data source object passed
 
-#### Returns
-
-`System.Void` 
-
-###  ClearDataSource
-
-Clears the Data Source used
-
-#### Returns
-
-`System.Void` 
-
-###  CopyFrom
-
-Copies settings from another data manager
+#### Remarks
+The data source should implement the IEnumerable interface
 
 #### Parameters
 
-#### manager `Telerik.Charting.DataManager`
+#### dataSource `System.Object`
 
-Source DataManager to copy settings from
+Data Source
 
 #### Returns
 

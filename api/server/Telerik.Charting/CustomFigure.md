@@ -16,31 +16,61 @@ User-defined figure
 
 ## Properties
 
-###  Name `String`
-
-Gets and sets Figure's name
-
 ###  Description `String`
 
 Gets and sets Figure's source
 
-###  ViewStateIgnoresCase `Boolean`
+###  Name `String`
 
-Gets if view sate should ignore case
+Gets and sets Figure's name
 
 ###  ViewState `StateBag`
 
 Sate bag to store view state content
 
+###  ViewStateIgnoresCase `Boolean`
+
+Gets if view sate should ignore case
+
 ## Methods
 
-###  ToString
+###  CloneState
 
-Gets String representation
+Makes a view state clone
 
 #### Returns
 
-`System.String` String representation
+`System.Web.UI.StateBag` StateBag
+
+###  LoadViewState
+
+Loads data from a view state
+
+#### Parameters
+
+#### state `System.Object`
+
+View state to load data from
+
+#### Returns
+
+`System.Void` 
+
+###  SaveViewState
+
+Saves object data to a view state
+
+#### Returns
+
+`System.Object` Saved view state object
+
+###  SetDirty
+
+Sets the item dirty state
+
+#### Returns
+
+`System.Void` 
 
 ###  Telerik.Charting.IChartingStateManager.LoadViewState
 
@@ -72,21 +102,13 @@ Tracks view state changes
 
 `System.Void` 
 
-###  CloneState
+###  ToString
 
-Makes a view state clone
-
-#### Returns
-
-`System.Web.UI.StateBag` StateBag
-
-###  SaveViewState
-
-Saves object data to a view state
+Gets String representation
 
 #### Returns
 
-`System.Object` Saved view state object
+`System.String` String representation
 
 ###  TrackViewState
 
@@ -95,34 +117,4 @@ Tracks view state changes
 #### Returns
 
 `System.Void` 
-
-###  LoadViewState
-
-Loads data from a view state
-
-#### Parameters
-
-#### state `System.Object`
-
-View state to load data from
-
-#### Returns
-
-`System.Void` 
-
-###  SetDirty
-
-Sets the item dirty state
-
-#### Returns
-
-`System.Void` 
-
-###  ToString
-
-ToString() override. Used in the properties grid to avoid object type showing.
-
-#### Returns
-
-`System.String` Empty string
 

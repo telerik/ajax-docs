@@ -18,21 +18,33 @@ Class representing Telerik.Web.UI.RadListViewSingleStringExpression coresponding
 
 ## Properties
 
-###  FilterFunction `RadListViewFilterFunction`
-
-Gets the type of filter function
-
 ###  CurrentValue `T`
 
 Value to be filter on
+
+###  ExpressionType `String`
+
+Gets the type of the current filter expression object
+
+###  FieldName `String`
+
+Gets or sets the name of the field on which the filter expression should be applied
 
 ###  FieldType `Type`
 
 Get the type of the field
 
-###  FieldName `String`
+###  FieldType `Type`
 
-Gets or sets the name of the field on which the filter expression should be applied
+Gets the type of the field
+
+###  FilterFunction `RadListViewFilterFunction`
+
+Gets the type of filter function
+
+###  FilterFunction `RadListViewFilterFunction`
+
+Gets the type of filter function
 
 ###  IllegalStrings `String[]`
 
@@ -40,54 +52,7 @@ Gets or sets the illegal strings array. These values indicate which strings coul
             Excluding values from the array will allow these values to be entered in the filtering value. However, it is not recommended
             because possible security vulnerabilities could arise.
 
-###  FilterFunction `RadListViewFilterFunction`
-
-Gets the type of filter function
-
-###  FieldType `Type`
-
-Gets the type of the field
-
-###  ExpressionType `String`
-
-Gets the type of the current filter expression object
-
 ## Methods
-
-###  ToPredicate
-
-Returns a representation of the current filter expression as a delegate
-
-#### Remarks
-Not intended  for external usage
-
-#### Returns
-
-`System.Predicate`1` 
-
-###  ToDynamicLinq
-
-Returns a string representation of the filter expression
-            in format suitable for LinqDataSource usage.
-
-#### Remarks
-Not intended  for external usage
-
-#### Returns
-
-`System.String` LinqDataSource string representation
-
-###  ToEntitySQL
-
-Returns a string representation of the filter expression
-            in format suitable for EntityDataSource usage.
-
-#### Remarks
-Not intended  for external usage
-
-#### Returns
-
-`System.String` EntityDataSource string representation
 
 ###  Equals
 
@@ -103,17 +68,17 @@ The other filter expression which will be used for comprasion.
 
 `System.Boolean` 
 
-###  Equals
+###  ToDynamicLinq
+
+Returns a string representation of the filter expression
+            in format suitable for LinqDataSource usage.
+
+#### Remarks
+Not intended  for external usage
 
 #### Returns
 
-`System.Boolean` 
-
-###  GetHashCode
-
-#### Returns
-
-`System.Int32` 
+`System.String` LinqDataSource string representation
 
 ###  ToDynamicLinq
 
@@ -127,17 +92,17 @@ Not intended  for external usage
 
 `System.String` LinqDataSource string representation
 
-###  ToOql
+###  ToDynamicLinq
 
 Returns a string representation of the filter expression
-            in format suitable for OpenAccessDataSource control usage.
+            in format suitable for LinqDataSource usage.
 
 #### Remarks
 Not intended for external usage
 
 #### Returns
 
-`System.String` OpenAccessDataSource string representation
+`System.String` LinqDataSource string representation
 
 ###  ToEntitySQL
 
@@ -150,6 +115,54 @@ Not intended  for external usage
 #### Returns
 
 `System.String` EntityDataSource string representation
+
+###  ToEntitySQL
+
+Returns a string representation of the filter expression
+            in format suitable for EntityDataSource usage.
+
+#### Remarks
+Not intended  for external usage
+
+#### Returns
+
+`System.String` EntityDataSource string representation
+
+###  ToEntitySQL
+
+Returns a string representation of the filter expression
+            in format suitable for EntityDataSource usage.
+
+#### Remarks
+Not intended for external usage
+
+#### Returns
+
+`System.String` EntityDataSource string representation
+
+###  ToOql
+
+Returns a string representation of the filter expression
+            in format suitable for OpenAccessDataSource control usage.
+
+#### Remarks
+Not intended for external usage
+
+#### Returns
+
+`System.String` OpenAccessDataSource string representation
+
+###  ToOql
+
+Returns a string representation of the filter expression
+            in format suitable for OpenAccessDataSource control usage.
+
+#### Remarks
+Not intended for external usage
+
+#### Returns
+
+`System.String` OpenAccessDataSource string representation
 
 ###  ToPredicate
 
@@ -162,57 +175,14 @@ Not intended  for external usage
 
 `System.Predicate`1` 
 
-###  ToDynamicLinq
+###  ToPredicate
 
-Returns a string representation of the filter expression
-            in format suitable for LinqDataSource usage.
-
-#### Remarks
-Not intended for external usage
-
-#### Returns
-
-`System.String` LinqDataSource string representation
-
-###  ToEntitySQL
-
-Returns a string representation of the filter expression
-            in format suitable for EntityDataSource usage.
+Returns a representation of the current filter expression as a delegate
 
 #### Remarks
-Not intended for external usage
+Not intended  for external usage
 
 #### Returns
 
-`System.String` EntityDataSource string representation
-
-###  ToOql
-
-Returns a string representation of the filter expression
-            in format suitable for OpenAccessDataSource control usage.
-
-#### Remarks
-Not intended for external usage
-
-#### Returns
-
-`System.String` OpenAccessDataSource string representation
-
-###  Equals
-
-#### Returns
-
-`System.Boolean` 
-
-###  Equals
-
-#### Returns
-
-`System.Boolean` 
-
-###  GetHashCode
-
-#### Returns
-
-`System.Int32` 
+`System.Predicate`1` 
 

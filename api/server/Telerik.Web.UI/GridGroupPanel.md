@@ -30,6 +30,14 @@ Gets a collection of items displayed in the group panel. These items represent
             the GroupByFields used for Telerik RadGrid
             grouping.
 
+###  PanelItemsStyle `GridPanelItemsStyle`
+
+Gets the style that will be used for the group panel items.
+
+###  PanelStyle `GridGroupPanelStyle`
+
+Gets the style that will be used for the group panel.
+
 ###  Text `String`
 
 Gets or sets the text displayed in the group panel to urge the user dragging a
@@ -38,36 +46,4 @@ Gets or sets the text displayed in the group panel to urge the user dragging a
 #### Remarks
 Note that the GroupPanel Text has a default value, so you don't need to set it
             generally.
-
-###  PanelStyle `GridGroupPanelStyle`
-
-Gets the style that will be used for the group panel.
-
-###  PanelItemsStyle `GridPanelItemsStyle`
-
-Gets the style that will be used for the group panel items.
-
-###  Visible `Boolean`
-
-Gets or sets a value indicating whether the group panel will be displayed.
-
-## Methods
-
-###  InitializeIn
-
-#### Returns
-
-`System.Void` 
-
-###  Ungroup
-
-#### Returns
-
-`System.Void` 
-
-###  Swap
-
-#### Returns
-
-`System.Void` 
 

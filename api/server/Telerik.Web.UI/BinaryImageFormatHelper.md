@@ -47,19 +47,19 @@ The binary image data to convert
 
 `System.Drawing.Image` 
 
-###  GetImageMimeType
+###  GetHeaderOffset
 
-Retrieves the MIME type of the specified binary image data
+Returns the starting offset of the image header in the specified byte array.
 
 #### Parameters
 
-#### image `System.Byte`
+#### bytes `System.Byte`
 
 A byte array containing the binary image data
 
 #### Returns
 
-`System.String` 
+`System.Int32` 
 
 ###  GetImageFormat
 
@@ -75,9 +75,9 @@ A byte array containing the binary image data
 
 `System.Drawing.Imaging.ImageFormat` 
 
-###  IsTiff
+###  GetImageMimeType
 
-Gets a value indicating whether the image is in TIFF format.
+Retrieves the MIME type of the specified binary image data
 
 #### Parameters
 
@@ -87,11 +87,11 @@ A byte array containing the binary image data
 
 #### Returns
 
-`System.Boolean` 
+`System.String` 
 
-###  IsPng
+###  IsBmp
 
-Gets a value indicating whether the image is in PNG format.
+Gets a value indicating whether the image is in BMP format.
 
 #### Parameters
 
@@ -131,9 +131,23 @@ A byte array containing the binary image data
 
 `System.Boolean` 
 
-###  IsBmp
+###  IsPng
 
-Gets a value indicating whether the image is in BMP format.
+Gets a value indicating whether the image is in PNG format.
+
+#### Parameters
+
+#### image `System.Byte`
+
+A byte array containing the binary image data
+
+#### Returns
+
+`System.Boolean` 
+
+###  IsTiff
+
+Gets a value indicating whether the image is in TIFF format.
 
 #### Parameters
 
@@ -159,18 +173,4 @@ A byte array containing the binary image data
 #### Returns
 
 `System.Byte[]` 
-
-###  GetHeaderOffset
-
-Returns the starting offset of the image header in the specified byte array.
-
-#### Parameters
-
-#### bytes `System.Byte`
-
-A byte array containing the binary image data
-
-#### Returns
-
-`System.Int32` 
 

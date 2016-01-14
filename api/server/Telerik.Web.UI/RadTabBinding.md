@@ -62,14 +62,14 @@ Specifies the field, containing the HoveredCssClass property
             	value of the RadTab that will be created during
             	the data binding.
 
-###  OuterCssClass `String`
+###  IsBreak `Boolean`
 
-Specifies the exact value of the OuterCssClass property of the
+Specifies the exact value of the IsBreak property of the
             	RadTab that will be created during the data binding.
 
-###  OuterCssClassField `String`
+###  IsBreakField `Boolean`
 
-Specifies the field, containing the OuterCssClass property 
+Specifies the field, containing the IsBreak property 
             	value of the RadTab that will be created during
             	the data binding.
 
@@ -84,14 +84,30 @@ Specifies the field, containing the IsSeparator property
             	value of the RadTab that will be created during
             	the data binding.
 
-###  IsBreak `Boolean`
+###  ModelID `String`
 
-Specifies the exact value of the IsBreak property of the
+Specifies the model to bind against in OData scenarios. The selected model is used
+            to the current depth (level) only.
+
+###  OuterCssClass `String`
+
+Specifies the exact value of the OuterCssClass property of the
             	RadTab that will be created during the data binding.
 
-###  IsBreakField `Boolean`
+###  OuterCssClassField `String`
 
-Specifies the field, containing the IsBreak property 
+Specifies the field, containing the OuterCssClass property 
+            	value of the RadTab that will be created during
+            	the data binding.
+
+###  PageViewID `String`
+
+Specifies the exact value of the PageViewID property of the
+            	RadTab that will be created during the data binding.
+
+###  PageViewIDField `String`
+
+Specifies the field, containing the PageViewID property 
             	value of the RadTab that will be created during
             	the data binding.
 
@@ -103,6 +119,17 @@ Specifies the exact value of the PerTabScrolling property of the
 ###  PerTabScrollingField `Boolean`
 
 Specifies the field, containing the PerTabScrolling property 
+            	value of the RadTab that will be created during
+            	the data binding.
+
+###  ScrollButtonsPosition `TabStripScrollButtonsPosition`
+
+Specifies the exact value of the ScrollButtonsPosition property of the
+            	RadTab that will be created during the data binding.
+
+###  ScrollButtonsPositionField `TabStripScrollButtonsPosition`
+
+Specifies the field, containing the ScrollButtonsPosition property 
             	value of the RadTab that will be created during
             	the data binding.
 
@@ -150,49 +177,14 @@ Specifies the field, containing the SelectedImageUrl property
             	value of the RadTab that will be created during
             	the data binding.
 
-###  SelectedIndexField `String`
-
-Specifies the field, containing the SelectedIndex property 
-            	value of the RadTab that will be created during
-            	the data binding.
-
 ###  SelectedIndex `Int32`
 
 Specifies the exact value of the SelectedIndex property of the
             	RadTab that will be created during the data binding.
 
-###  PageViewID `String`
+###  SelectedIndexField `String`
 
-Specifies the exact value of the PageViewID property of the
-            	RadTab that will be created during the data binding.
-
-###  PageViewIDField `String`
-
-Specifies the field, containing the PageViewID property 
+Specifies the field, containing the SelectedIndex property 
             	value of the RadTab that will be created during
             	the data binding.
-
-###  ScrollButtonsPosition `TabStripScrollButtonsPosition`
-
-Specifies the exact value of the ScrollButtonsPosition property of the
-            	RadTab that will be created during the data binding.
-
-###  ScrollButtonsPositionField `TabStripScrollButtonsPosition`
-
-Specifies the field, containing the ScrollButtonsPosition property 
-            	value of the RadTab that will be created during
-            	the data binding.
-
-###  ModelID `String`
-
-Specifies the model to bind against in OData scenarios. The selected model is used
-            to the current depth (level) only.
-
-## Methods
-
-###  ApplyTo
-
-#### Returns
-
-`System.Void` 
 

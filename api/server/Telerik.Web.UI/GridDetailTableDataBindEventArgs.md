@@ -16,13 +16,13 @@ Provides data for DetailTableDataBind event.
 
 ## Properties
 
-###  DetailTableView `GridTableView`
-
-Gets a reference to the detail table being bound.
-
 ###  Canceled `Boolean`
 
 Gets or sets a value, defining whether the command should be canceled.
+
+###  DetailTableView `GridTableView`
+
+Gets a reference to the detail table being bound.
 
 ## Methods
 

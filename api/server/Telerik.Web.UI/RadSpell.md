@@ -18,39 +18,17 @@ Telerik RadSpell
 
 ## Properties
 
-###  TagKey `HtmlTextWriterTag`
-
-Gets the  value that corresponds to this Web server control. This property is used primarily by control developers.
-
-###  HandlerUrl `String`
-
-Gets or sets the URL for the spell dialog handler
-
-###  DialogsCssFile `String`
-
-Gets or sets the location of a CSS file, that will be added in the dialog window. If you need to include 
-            more than one file, use the CSS @import url(); rule to add the other files from the first.
-            This property is needed if you are using a custom skin. It allows you to include your custom skin
-            CSS in the dialogs, which are separate from the main page.
-
-###  DialogsScriptFile `String`
-
-Gets or sets the location of a JavaScript file, that will be added in the dialog window. If you need to include 
-            more than one file, you will need to combine the scripts into one first.
-            This property is needed if want to override some of the default functionality without loading the dialog
-            from an external ascx file.
-
 ###  AdditionalQueryString `String`
 
 Gets or sets an additional querystring appended to the dialog URL.
 
-###  AllowAddCustom `Boolean`
-
-Gets or sets the value indicating whether the spell will allow adding custom words.
-
 ###  AjaxUrl `String`
 
 Gets or sets the URL which the AJAX call will be made to. Check the help for more information.
+
+###  AllowAddCustom `Boolean`
+
+Gets or sets the value indicating whether the spell will allow adding custom words.
 
 ###  ButtonText `String`
 
@@ -66,20 +44,17 @@ Values allowed:
                 None.Setting the value to None will not render a button. The only
                 way to start a spellcheck will be through the client-side API.
 
+###  ClientIDMode `ClientIDMode`
+
+This property is overridden in order to support controls which implement INamingContainer.
+            The default value is changed to "AutoID".
+
 ###  ClientTextSource `String`
 
 Gets or sets the class of the client side text source object.
 
 #### Remarks
 The text source is a JavaScript object.  It has to provide two methods: GetText() and SetText(newValue).
-
-###  ControlToCheck `String`
-
-The ID of the control to check.
-
-#### Remarks
-The ID can be both a server-side ID, or a client-side ID. RadSpell will find the
-            appropriate server control and use its ClientID to attach to it.
 
 ###  ControlsToCheck `String[]`
 
@@ -89,6 +64,19 @@ An array of IDs of the control to check.
 The IDs can be server-side or client-side. RadSpell will find the
             appropriate server control and use its ClientID to attach to it.
             Note that you cannot mix server and client IDs in this list - use only one kind.
+
+###  ControlToCheck `String`
+
+The ID of the control to check.
+
+#### Remarks
+The ID can be both a server-side ID, or a client-side ID. RadSpell will find the
+            appropriate server control and use its ClientID to attach to it.
+
+###  CssClassFormatString `String`
+
+The CssClass property will now be used instead of the former Skin 
+            and will be modified in AddAttributesToRender()
 
 ###  CustomDictionarySourceTypeName `String`
 
@@ -109,6 +97,20 @@ Gets or sets the suffix for the custom dictionary files.
 The filenames are formed with the following scheme: Language + CustomDictionarySuffix +
             ".txt". Different suffixes can be used to create different custom dictionaries for
             different users.
+
+###  DialogsCssFile `String`
+
+Gets or sets the location of a CSS file, that will be added in the dialog window. If you need to include 
+            more than one file, use the CSS @import url(); rule to add the other files from the first.
+            This property is needed if you are using a custom skin. It allows you to include your custom skin
+            CSS in the dialogs, which are separate from the main page.
+
+###  DialogsScriptFile `String`
+
+Gets or sets the location of a JavaScript file, that will be added in the dialog window. If you need to include 
+            more than one file, you will need to combine the scripts into one first.
+            This property is needed if want to override some of the default functionality without loading the dialog
+            from an external ascx file.
 
 ###  DialogTypeName `String`
 
@@ -145,105 +147,12 @@ This property takes effect only if the
                 SpellCheckProvider property is set to
                 EditDistanceProvider.
 
-###  FragmentIgnoreOptions `FragmentIgnoreOptions`
+###  EnableAjaxSkinRendering `String`
 
-Configures the spellchecker engine, so that it knows whether to skip URL's, email
-            addresses, and filenames and not flag them as erros.
-
-###  IsClientID `Boolean`
-
-Gets or sets a value indicating whether whether the ControlToCheck
-            property provides a client element ID or a server side control ID.
+Gets or sets the value, indicating whether to render the skin CSS files during Ajax requests
 
 #### Remarks
-When true RadSpell will look for the server-side control and get
-                its ClientID. When false the
-                ControlToCheck property will be interpreted as a
-                client-side ID and will be used to attach to the target control.
-
-###  Language `String`
-
-Gets or sets the localization language for the user interface.
-
-###  SpellChecked `Boolean`
-
-Gets a value indicating if the target control has been spellchecked.
-
-#### Remarks
-Spellchecking the entire text by the client would set the property to
-                true on postback.
-            The property is used by the SpellCheckValidator class. You can set it on the
-                client side with RadSpell's SetSpellChecked(false) on various events, say a
-                TEXTAREA's OnChange.
-
-###  SpellCheckProviderTypeName `String`
-
-Allows the use of a custom spell checking provider. It must implement the ISpellCheckProvider interface.
-
-###  SpellCheckProvider `SpellCheckProvider`
-
-Specifies the spellchecking algorithm which will be used by RadSpell.
-
-###  SupportedLanguages `String`
-
-Gets or sets the supported languages.
-
-#### Remarks
-The supported languages will be displayed in a drop-down list, and the user can
-            select the language for spellchecking.
-
-###  WordIgnoreOptions `WordIgnoreOptions`
-
-Gets or sets the value used to configure the spellchecker engine to ignore words containing: UPPERCASE, some 
-            CaPitaL letters, numbers; or to ignore repeated words (very very)
-
-###  OnClientLoad `String`
-
-Gets or sets the name of the client-side function that will be called when the
-            spell control is initialized on the page.
-
-#### Remarks
-The function should accept two parameters: sender (the spell client object) and arguments.
-
-###  OnClientCheckStarted `String`
-
-Gets or sets the name of the client-side function that will be called when the
-            spell check starts.
-
-#### Remarks
-The function should accept two parameters: sender (the spell client object) and arguments.
-
-###  OnClientCheckFinished `String`
-
-Gets or sets the name of the client-side function that will be called when the
-            spell check is finished.
-
-#### Remarks
-The function should accept two parameters: sender (the spell client object) and arguments.
-
-###  OnClientCheckCancelled `String`
-
-Specifies the name of the client-side function that will be called when the user
-            cancels the spell check.
-
-#### Remarks
-The function should accept two parameters: sender (the spell client object) and arguments.
-
-###  OnClientDialogClosed `String`
-
-Specifies the name of the client-side function that will be called before the
-            spell check dialog closes.
-
-#### Remarks
-The function should accept two parameters: sender (the dialog opener client object) and arguments.
-
-###  Skin `String`
-
-Gets or sets the skin name for the control user interface.
-
-#### Remarks
-If this property is not set, the control will render using the skin named "Default".
-            If EnableEmbeddedSkins is set to false, the control will not render skin.
+If EnableAjaxSkinRendering is set to false you will have to register the needed control base CSS file by hand when adding/showing the control with Ajax.
 
 ###  EnableAjaxSkinRendering `String`
 
@@ -252,31 +161,12 @@ Gets or sets the value, indicating whether to render the skin CSS files during A
 #### Remarks
 If EnableAjaxSkinRendering is set to false you will have to register the needed control base CSS file by hand when adding/showing the control with Ajax.
 
-###  EnableEmbeddedScripts `Boolean`
+###  EnableEmbeddedBaseStylesheet `Boolean`
 
-Gets or sets the value, indicating whether to render links to the embedded client scripts or not.
-
-#### Remarks
-If EnableEmbeddedScripts is set to false you will have to register the needed script files by hand.
-
-###  LocalizationPath `String`
-
-Gets or sets a value indicating where the soell will look for its .resx localization files.
-            By default these files should be in the App_GlobalResources folder. However, if you cannot put
-            the resource files in the default location or .resx files compilation is disabled for some reason 
-            (e.g. in a DotNetNuke environment), this property should be set to the location of the resource files.
+Gets or sets the value, indicating whether to render the link to the embedded base stylesheet of the control or not.
 
 #### Remarks
-If specified, the LocalizationPath
-            property will allow you to load the spell localization files from any location in the current
-            web application.
-
-###  EnableEmbeddedSkins `String`
-
-Gets or sets the value, indicating whether to render links to the embedded skins or not.
-
-#### Remarks
-If EnableEmbeddedSkins is set to false you will have to register the needed CSS files by hand.
+If EnableEmbeddedBaseStylesheet is set to false you will have to register the needed control base CSS file by hand.
 
 ###  EnableEmbeddedBaseStylesheet `Boolean`
 
@@ -285,28 +175,12 @@ Gets or sets the value, indicating whether to render the link to the embedded ba
 #### Remarks
 If EnableEmbeddedBaseStylesheet is set to false you will have to register the needed control base CSS file by hand.
 
-###  TabIndex `Int16`
+###  EnableEmbeddedScripts `Boolean`
 
-Gets or sets the tabindex of the RadSpell SpellCheck Button.
-
-###  RegisterWithScriptManager `Boolean`
-
-Gets or sets the value, indicating whether to register with the ScriptManager control on the page.
+Gets or sets the value, indicating whether to render links to the embedded client scripts or not.
 
 #### Remarks
-If RegisterWithScriptManager is set to false the control can be rendered on the page using Web Services or normal callback requests/page methods.
-
-###  Skin `String`
-
-Gets or sets the skin name for the control user interface.
-
-#### Remarks
-If this property is not set, the control will render using the skin named "Default".
-            If EnableEmbeddedSkins is set to false, the control will not render skin.
-
-###  IsSkinSet `String`
-
-For internal use.
+If EnableEmbeddedScripts is set to false you will have to register the needed script files by hand.
 
 ###  EnableEmbeddedScripts `Boolean`
 
@@ -322,26 +196,108 @@ Gets or sets the value, indicating whether to render links to the embedded skins
 #### Remarks
 If EnableEmbeddedSkins is set to false you will have to register the needed CSS files by hand.
 
-###  EnableEmbeddedBaseStylesheet `Boolean`
+###  EnableEmbeddedSkins `String`
 
-Gets or sets the value, indicating whether to render the link to the embedded base stylesheet of the control or not.
-
-#### Remarks
-If EnableEmbeddedBaseStylesheet is set to false you will have to register the needed control base CSS file by hand.
-
-###  RuntimeSkin `String`
-
-Gets the real skin name for the control user interface. If Skin is not set, returns
-            "Default", otherwise returns Skin.
-
-###  EnableAjaxSkinRendering `String`
-
-Gets or sets the value, indicating whether to render the skin CSS files during Ajax requests
+Gets or sets the value, indicating whether to render links to the embedded skins or not.
 
 #### Remarks
-If EnableAjaxSkinRendering is set to false you will have to register the needed control base CSS file by hand when adding/showing the control with Ajax.
+If EnableEmbeddedSkins is set to false you will have to register the needed CSS files by hand.
 
-###  ClientStateFieldID `String`
+###  FragmentIgnoreOptions `FragmentIgnoreOptions`
+
+Configures the spellchecker engine, so that it knows whether to skip URL's, email
+            addresses, and filenames and not flag them as erros.
+
+###  HandlerUrl `String`
+
+Gets or sets the URL for the spell dialog handler
+
+###  IsClientID `Boolean`
+
+Gets or sets a value indicating whether whether the ControlToCheck
+            property provides a client element ID or a server side control ID.
+
+#### Remarks
+When true RadSpell will look for the server-side control and get
+                its ClientID. When false the
+                ControlToCheck property will be interpreted as a
+                client-side ID and will be used to attach to the target control.
+
+###  IsSkinSet `String`
+
+For internal use.
+
+###  Language `String`
+
+Gets or sets the localization language for the user interface.
+
+###  LocalizationPath `String`
+
+Gets or sets a value indicating where the soell will look for its .resx localization files.
+            By default these files should be in the App_GlobalResources folder. However, if you cannot put
+            the resource files in the default location or .resx files compilation is disabled for some reason 
+            (e.g. in a DotNetNuke environment), this property should be set to the location of the resource files.
+
+#### Remarks
+If specified, the LocalizationPath
+            property will allow you to load the spell localization files from any location in the current
+            web application.
+
+###  OnClientCheckCancelled `String`
+
+Specifies the name of the client-side function that will be called when the user
+            cancels the spell check.
+
+#### Remarks
+The function should accept two parameters: sender (the spell client object) and arguments.
+
+###  OnClientCheckFinished `String`
+
+Gets or sets the name of the client-side function that will be called when the
+            spell check is finished.
+
+#### Remarks
+The function should accept two parameters: sender (the spell client object) and arguments.
+
+###  OnClientCheckStarted `String`
+
+Gets or sets the name of the client-side function that will be called when the
+            spell check starts.
+
+#### Remarks
+The function should accept two parameters: sender (the spell client object) and arguments.
+
+###  OnClientDialogClosed `String`
+
+Specifies the name of the client-side function that will be called before the
+            spell check dialog closes.
+
+#### Remarks
+The function should accept two parameters: sender (the dialog opener client object) and arguments.
+
+###  OnClientLoad `String`
+
+Gets or sets the name of the client-side function that will be called when the
+            spell control is initialized on the page.
+
+#### Remarks
+The function should accept two parameters: sender (the spell client object) and arguments.
+
+###  RegisterWithScriptManager `Boolean`
+
+Gets or sets the value, indicating whether to register with the ScriptManager control on the page.
+
+#### Remarks
+If RegisterWithScriptManager is set to false the control can be rendered on the page using Web Services or normal callback requests/page methods.
+
+###  RenderMode `RenderMode`
+
+Specifies the rendering mode of the control. Setting the mode to Lightweight will yield
+            HTML 5/CSS 3 html and css.
+
+#### Remarks
+Lightweight rendering mode might change the outlook of the component in some older browsers
+            that don't support CSS3/HTML5.
 
 ###  RenderMode `RenderMode`
 
@@ -356,35 +312,72 @@ Lightweight rendering mode might change the outlook of the component in some old
 
 Returns resolved RenderMode should the original value was Auto
 
-###  CssClassFormatString `String`
+###  RuntimeSkin `String`
 
-The CssClass property will now be used instead of the former Skin 
-            and will be modified in AddAttributesToRender()
+Gets the real skin name for the control user interface. If Skin is not set, returns
+            "Default", otherwise returns Skin.
 
-###  ClientIDMode `ClientIDMode`
+###  Skin `String`
 
-This property is overridden in order to support controls which implement INamingContainer.
-            The default value is changed to "AutoID".
+Gets or sets the skin name for the control user interface.
 
-###  ScriptManager `ScriptManager`
+#### Remarks
+If this property is not set, the control will render using the skin named "Default".
+            If EnableEmbeddedSkins is set to false, the control will not render skin.
 
-###  RadScriptManager `ScriptManager`
+###  Skin `String`
+
+Gets or sets the skin name for the control user interface.
+
+#### Remarks
+If this property is not set, the control will render using the skin named "Default".
+            If EnableEmbeddedSkins is set to false, the control will not render skin.
+
+###  SpellChecked `Boolean`
+
+Gets a value indicating if the target control has been spellchecked.
+
+#### Remarks
+Spellchecking the entire text by the client would set the property to
+                true on postback.
+            The property is used by the SpellCheckValidator class. You can set it on the
+                client side with RadSpell's SetSpellChecked(false) on various events, say a
+                TEXTAREA's OnChange.
+
+###  SpellCheckProvider `SpellCheckProvider`
+
+Specifies the spellchecking algorithm which will be used by RadSpell.
+
+###  SpellCheckProviderTypeName `String`
+
+Allows the use of a custom spell checking provider. It must implement the ISpellCheckProvider interface.
+
+###  SupportedLanguages `String`
+
+Gets or sets the supported languages.
+
+#### Remarks
+The supported languages will be displayed in a drop-down list, and the user can
+            select the language for spellchecking.
+
+###  TabIndex `Int16`
+
+Gets or sets the tabindex of the RadSpell SpellCheck Button.
+
+###  TagKey `HtmlTextWriterTag`
+
+Gets the  value that corresponds to this Web server control. This property is used primarily by control developers.
+
+###  WordIgnoreOptions `WordIgnoreOptions`
+
+Gets or sets the value used to configure the spellchecker engine to ignore words containing: UPPERCASE, some 
+            CaPitaL letters, numbers; or to ignore repeated words (very very)
 
 ## Methods
 
-###  DescribeComponent
+###  ApplyConditionalRendering
 
-#### Returns
-
-`System.Void` 
-
-###  AddAttributesToRender
-
-#### Returns
-
-`System.Void` 
-
-###  OnPreRender
+Use this from RenderContents of the inheritor
 
 #### Returns
 
@@ -398,21 +391,13 @@ Code moved into this method from OnPreRender to make sure it executed when the f
 
 `System.Void` 
 
-###  RegisterScriptControl
+###  GetEmbeddedSkinNames
 
-Registers the control with the ScriptManager
-
-#### Returns
-
-`System.Void` 
-
-###  RegisterCssReferences
-
-Registers the CSS references
+Returns the names of all embedded skins. Used by Telerik.Web.Examples.
 
 #### Returns
 
-`System.Void` 
+`System.Collections.Generic.List`1` 
 
 ###  LoadClientState
 
@@ -425,96 +410,6 @@ Loads the client state data
 #### Returns
 
 `System.Void` 
-
-###  SaveClientState
-
-Saves the client state data
-
-#### Returns
-
-`System.String` 
-
-###  RenderClientStateField
-
-#### Returns
-
-`System.Void` 
-
-###  RenderBeginTag
-
-#### Returns
-
-`System.Void` 
-
-###  RenderEndTag
-
-#### Returns
-
-`System.Void` 
-
-###  Render
-
-#### Returns
-
-`System.Void` 
-
-###  RenderScriptsNoScriptManager
-
-#### Returns
-
-`System.Void` 
-
-###  RenderDescriptorsNoScriptManager
-
-#### Returns
-
-`System.Void` 
-
-###  RenderContents
-
-#### Returns
-
-`System.Void` 
-
-###  ApplyConditionalRendering
-
-Use this from RenderContents of the inheritor
-
-#### Returns
-
-`System.Void` 
-
-###  DescribeComponent
-
-#### Returns
-
-`System.Void` 
-
-###  DescribeProperty
-
-#### Returns
-
-`System.Void` 
-
-###  DescribeIDReferenceProperty
-
-#### Returns
-
-`System.Void` 
-
-###  DescribeEvent
-
-#### Returns
-
-`System.Void` 
-
-###  GetEmbeddedSkinNames
-
-Returns the names of all embedded skins. Used by Telerik.Web.Examples.
-
-#### Returns
-
-`System.Collections.Generic.List`1` 
 
 ###  LoadPostData
 
@@ -538,9 +433,27 @@ Executed when post data changes should invoke a changed event
 
 `System.Void` 
 
-###  GetViewStateValue
+###  RegisterCssReferences
+
+Registers the CSS references
 
 #### Returns
 
-`Telerik.Web.UI.T` 
+`System.Void` 
+
+###  RegisterScriptControl
+
+Registers the control with the ScriptManager
+
+#### Returns
+
+`System.Void` 
+
+###  SaveClientState
+
+Saves the client state data
+
+#### Returns
+
+`System.String` 
 

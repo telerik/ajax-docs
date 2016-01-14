@@ -23,14 +23,6 @@ If false  will not execute.
 
 ## Methods
 
-###  SatisfiesFilter
-
-The method checks whether the passed parameter satisfies filter criteria.
-
-#### Returns
-
-`System.Boolean` 
-
 ###  CreateFilterExpression
 
 Creates a predicate filter expression that calls .
@@ -104,4 +96,12 @@ Name of the property that is changed.
 #### Returns
 
 `System.Void` 
+
+###  SatisfiesFilter
+
+The method checks whether the passed parameter satisfies filter criteria.
+
+#### Returns
+
+`System.Boolean` 
 

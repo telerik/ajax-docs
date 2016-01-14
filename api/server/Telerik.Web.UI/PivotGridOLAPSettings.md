@@ -17,6 +17,11 @@ Class holding all settings associated with connection parameters for OLAP bindin
 
 ## Properties
 
+###  AdomdConnectionSettings `PivotGridAdomdConnectionSettings`
+
+Gets a reference to , which holds various
+                properties for setting the Telerik RadPivotGrid Adomd Olap settings
+
 ###  ConnectionString `String`
 
 Use this property to set the name of the connection string key in the web.config
@@ -24,11 +29,6 @@ Use this property to set the name of the connection string key in the web.config
 ###  SetConditionListCapacity `Int32`
 
 Gets or sets a value that indicates the total number of distinct items shown into the set condition filter.
-
-###  AdomdConnectionSettings `PivotGridAdomdConnectionSettings`
-
-Gets a reference to , which holds various
-                properties for setting the Telerik RadPivotGrid Adomd Olap settings
 
 ###  XmlaConnectionSettings `PivotGridXmlaConnectionSettings`
 

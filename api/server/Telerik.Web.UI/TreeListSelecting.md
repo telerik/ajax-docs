@@ -26,13 +26,13 @@ You can get a reference to this class using
 Gets or sets a value indicating whether you will be able to select a treelist row on
             the client by clicking on it with the mouse.
 
-###  UseSelectColumnOnly `Boolean`
-
-Gets or sets a boolean value indicating whether selection will be 
-            performed only using the .
-
 ###  AllowToggleSelection `Boolean`
 
 Gets or sets a value indicating whether clicking an item in RadTreeList will
             toggle the item's selected state.
+
+###  UseSelectColumnOnly `Boolean`
+
+Gets or sets a boolean value indicating whether selection will be 
+            performed only using the .
 

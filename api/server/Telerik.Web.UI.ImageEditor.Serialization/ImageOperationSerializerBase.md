@@ -21,20 +21,6 @@ Name of the current serializer. Every serializer should specify a name.
 
 ## Methods
 
-###  Serialize
-
-Serializes the image operation
-
-#### Parameters
-
-#### operation `Telerik.Web.UI.ImageEditor.IImageOperation`
-
-The operation that should be serialized
-
-#### Returns
-
-`System.String` The string representation of the serialized image operation
-
 ###  Deserialize
 
 Constructs an image operation from the serialized input
@@ -49,19 +35,19 @@ The serialized input
 
 `Telerik.Web.UI.ImageEditor.IImageOperation` The image operation represented by the serialized input
 
-###  ToData
+###  FromData
 
-Constructs a key/value pair collection from the image operation.
+Constructs an image operation from the provided data input
 
 #### Parameters
 
-#### operation `Telerik.Web.UI.ImageEditor.IImageOperation`
+#### data `System.Collections.Generic.Dictionary{System.String,System.Object}`
 
-The image operation, from which the data is contructed
+The data content representing an image operation
 
 #### Returns
 
-`System.Collections.Generic.Dictionary`2` The constructed data from the image operation
+`Telerik.Web.UI.ImageEditor.IImageOperation` An image operation represented by the provided data
 
 ###  NameInDataIsCorrect
 
@@ -77,17 +63,31 @@ The provided data
 
 `System.Boolean` True if the provided data is relevant to the current image operation. False otherwise.
 
-###  FromData
+###  Serialize
 
-Constructs an image operation from the provided data input
+Serializes the image operation
 
 #### Parameters
 
-#### data `System.Collections.Generic.Dictionary{System.String,System.Object}`
+#### operation `Telerik.Web.UI.ImageEditor.IImageOperation`
 
-The data content representing an image operation
+The operation that should be serialized
 
 #### Returns
 
-`Telerik.Web.UI.ImageEditor.IImageOperation` An image operation represented by the provided data
+`System.String` The string representation of the serialized image operation
+
+###  ToData
+
+Constructs a key/value pair collection from the image operation.
+
+#### Parameters
+
+#### operation `Telerik.Web.UI.ImageEditor.IImageOperation`
+
+The image operation, from which the data is contructed
+
+#### Returns
+
+`System.Collections.Generic.Dictionary`2` The constructed data from the image operation
 

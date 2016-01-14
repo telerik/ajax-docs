@@ -17,11 +17,11 @@ Provides data for Command events
 
 ## Properties
 
-###  ItemIndex `Int32`
-
-The target item index
-
 ###  Canceled `Boolean`
 
 Gets or sets a value, defining whether the command should be canceled.
+
+###  ItemIndex `Int32`
+
+The target item index
 

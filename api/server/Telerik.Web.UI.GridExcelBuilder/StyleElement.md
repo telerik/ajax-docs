@@ -20,25 +20,21 @@ Style element
 
 Alignment style object. Speicifies both horizontal and vertical alignment.
 
+###  Attributes `IAttributesCollection`
+
+Collection of the attributes of the current element
+
 ###  Borders `IBorderStylesCollection`
 
 Borders set for the current style
 
-###  NumberFormat `NumberFormatStyleElement`
+###  CellProtection `CellProtectionElement`
 
-Number format
-
-###  InteriorStyle `InteriorStyleElement`
-
-Interior style
+Cell protection settings
 
 ###  FontStyle `FontStyleElement`
 
 Font style
-
-###  CellProtection `CellProtectionElement`
-
-Cell protection settings
 
 ###  Id `String`
 
@@ -48,13 +44,31 @@ Style ID string
 
 Collection of inner elements
 
-###  Attributes `IAttributesCollection`
+###  InteriorStyle `InteriorStyleElement`
 
-Collection of the attributes of the current element
+Interior style
+
+###  NumberFormat `NumberFormatStyleElement`
+
+Number format
 
 ## Methods
 
 ###  AppendAttributes
+
+#### Returns
+
+`System.Void` 
+
+###  AppendAttributes
+
+Appends the attirbutes to the output
+
+#### Parameters
+
+#### sb `System.Text.StringBuilder`
+
+StringBuilder object that holds the rendered output
 
 #### Returns
 
@@ -77,20 +91,6 @@ StringBuilder object that holds the rendered output
 ###  RenderChildElements
 
 Renders the child elements
-
-#### Parameters
-
-#### sb `System.Text.StringBuilder`
-
-StringBuilder object that holds the rendered output
-
-#### Returns
-
-`System.Void` 
-
-###  AppendAttributes
-
-Appends the attirbutes to the output
 
 #### Parameters
 

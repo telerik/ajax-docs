@@ -16,24 +16,6 @@ Represents a collection of RadDock objects.
 
 ## Methods
 
-###  InsertItem
-
-#### Returns
-
-`System.Void` 
-
-###  RemoveItem
-
-#### Returns
-
-`System.Void` 
-
-###  SetItem
-
-#### Returns
-
-`System.Void` 
-
 ###  Sort
 
 Sorts the RadDock objects in the DockCollection.

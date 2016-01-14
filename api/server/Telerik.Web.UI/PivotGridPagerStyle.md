@@ -20,45 +20,15 @@ RadPivotGrid use instance of this class to set style of thir PagerItem-s when re
 
 ## Properties
 
-###  IsDefault `Boolean`
+###  AlwaysVisible `Boolean`
 
-Gets a value indicating whether the default pager will be used, i.e. no
-            customizations have been made.
+Gets or set a value indicating whether the Pager will be visible regardless of
+            the number of items. (See the remarks)
 
-###  IsPagerOnBottom `Boolean`
-
-Gets a value indicating whether the pager is displayed on the bottom of the
-            pivotgrid.
-
-###  IsPagerOnTop `Boolean`
-
-Gets a value indicating whether the pager is displayed on the top of the
-            pivotgrid.
-
-###  Mode `PivotGridPagerMode`
-
-Gets or sets the mode of Telerik PivotGrid Pager. The mode defines what the pager
-                will contain. This property accepts as values only members of the PivotGridPagerMode Enumeration.
-
-###  FirstPageToolTip `String`
-
-ToolTip that would appear if Mode is PrevNext for 'next' page button
-
-###  NextPageToolTip `String`
-
-ToolTip that would appear if Mode is PrevNext for 'next' page button
-
-###  GoToPageTextBoxToolTip `String`
-
-ToolTip that would appear if Mode is NextPrevNumericAndAdvanced for 'GoToPage' textbox
-
-###  ChangePageSizeTextBoxToolTip `String`
-
-ToolTip that would appear if Mode is NextPrevNumericAndAdvanced for 'ChangePageSize' textbox
-
-###  GoToPageButtonToolTip `String`
-
-ToolTip that would appear if Mode is NextPrevNumericAndAdvanced for 'GoToPage' button
+#### Remarks
+In order to display the PivotGrid pager regardless of the number of records returned
+            and the page size, you should set this property to
+            true. Its default value is false.
 
 ###  ChangePageSizeButtonToolTip `String`
 
@@ -77,13 +47,69 @@ This attribute provides a summary of the table's purpose and structure for user
 
 ToolTip that would appear over the pager's RadComboBox input
 
+###  ChangePageSizeLabelText `String`
+
+Text that will appear before the dropdown for changing the page size.
+
+###  ChangePageSizeLinkButtonText `String`
+
+Text for the 'Change' button when Mode is Advanced.
+
+###  ChangePageSizeTextBoxToolTip `String`
+
+ToolTip that would appear if Mode is NextPrevNumericAndAdvanced for 'ChangePageSize' textbox
+
+###  FirstPageToolTip `String`
+
+ToolTip that would appear if Mode is PrevNext for 'next' page button
+
+###  GoToPageButtonToolTip `String`
+
+ToolTip that would appear if Mode is NextPrevNumericAndAdvanced for 'GoToPage' button
+
+###  GoToPageLabelText `String`
+
+Text that will appear before current page number when Mode is Advanced.
+
+###  GoToPageLinkButtonText `String`
+
+Text for the 'Go' button when Mode is Advanced.
+
+###  GoToPageTextBoxToolTip `String`
+
+ToolTip that would appear if Mode is NextPrevNumericAndAdvanced for 'GoToPage' textbox
+
+###  IsDefault `Boolean`
+
+Gets a value indicating whether the default pager will be used, i.e. no
+            customizations have been made.
+
+###  IsDefault `Boolean`
+
+Returns 'True' if none of the properties have been set
+
+###  IsPagerOnBottom `Boolean`
+
+Gets a value indicating whether the pager is displayed on the bottom of the
+            pivotgrid.
+
+###  IsPagerOnTop `Boolean`
+
+Gets a value indicating whether the pager is displayed on the top of the
+            pivotgrid.
+
 ###  LastPageToolTip `String`
 
 ToolTip that would appear if Mode is PrevNext for 'last' page button
 
-###  PrevPageToolTip `String`
+###  Mode `PivotGridPagerMode`
 
-ToolTip that would appear if Mode is PrevNext for 'prev' page button
+Gets or sets the mode of Telerik PivotGrid Pager. The mode defines what the pager
+                will contain. This property accepts as values only members of the PivotGridPagerMode Enumeration.
+
+###  NextPageToolTip `String`
+
+ToolTip that would appear if Mode is PrevNext for 'next' page button
 
 ###  PageButtonCount `Int32`
 
@@ -93,24 +119,13 @@ Gets or sets the number of buttons that would be rendered if pager Mode is
 By default 10 buttons will be displayed. If the number of pivotgrid pages is greater
             than 10, ellipsis will be displayed.
 
-###  Position `PivotGridPagerPosition`
+###  PageOfLabelText `String`
 
-Gets or sets the Position of pager item(s).Accepts only values, members of the
-                PivotGridPagerPosition Enumeration.
+Text that will appear after the current page number and before count of all pages when Mode is Advanced.
 
-###  AlwaysVisible `Boolean`
+###  PageSizeControlType `PagerDropDownControlType`
 
-Gets or set a value indicating whether the Pager will be visible regardless of
-            the number of items. (See the remarks)
-
-#### Remarks
-In order to display the PivotGrid pager regardless of the number of records returned
-            and the page size, you should set this property to
-            true. Its default value is false.
-
-###  PageSliderIncreaseToolTip `String`
-
-ToolTip that would appear if Mode is Slider for 'Increase' button.
+Gets or sets the type of the page size drop down control.
 
 ###  PageSliderDecreaseToolTip `String`
 
@@ -120,35 +135,20 @@ ToolTip that would appear if Mode is Slider for 'Decrease' button.
 
 ToolTip that would appear if Mode is Slider for 'Drag' button.
 
+###  PageSliderIncreaseToolTip `String`
+
+ToolTip that would appear if Mode is Slider for 'Increase' button.
+
 ###  PageSliderPagerLabel `String`
 
 Text that will appear if Mode is Slider for current page.
 
-###  ChangePageSizeLabelText `String`
+###  Position `PivotGridPagerPosition`
 
-Text that will appear before the dropdown for changing the page size.
+Gets or sets the Position of pager item(s).Accepts only values, members of the
+                PivotGridPagerPosition Enumeration.
 
-###  ChangePageSizeLinkButtonText `String`
+###  PrevPageToolTip `String`
 
-Text for the 'Change' button when Mode is Advanced.
-
-###  GoToPageLinkButtonText `String`
-
-Text for the 'Go' button when Mode is Advanced.
-
-###  GoToPageLabelText `String`
-
-Text that will appear before current page number when Mode is Advanced.
-
-###  PageOfLabelText `String`
-
-Text that will appear after the current page number and before count of all pages when Mode is Advanced.
-
-###  PageSizeControlType `PagerDropDownControlType`
-
-Gets or sets the type of the page size drop down control.
-
-###  IsDefault `Boolean`
-
-Returns 'True' if none of the properties have been set
+ToolTip that would appear if Mode is PrevNext for 'prev' page button
 

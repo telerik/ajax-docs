@@ -14,11 +14,3 @@ Container of misc. settings for Markdown export
 * Telerik.Web.UI.ObjectWithState
 * Telerik.Web.UI.EditorMarkdownSettings
 
-## Methods
-
-###  GetViewStateValue
-
-#### Returns
-
-`Telerik.Web.UI.T` 
-

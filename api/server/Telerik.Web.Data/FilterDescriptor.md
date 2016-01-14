@@ -17,6 +17,10 @@ Represents declarative filtering.
 
 ## Properties
 
+###  IsCaseSensitive `Boolean`
+
+Gets or sets a value indicating whether this filter descriptor is case sensitvive.
+
 ###  Member `String`
 
 Gets or sets the member name which will be used for filtering.
@@ -37,15 +41,41 @@ Gets or sets the filter operator.
 
 Gets or sets the target filter value.
 
-###  IsCaseSensitive `Boolean`
-
-Gets or sets a value indicating whether this filter descriptor is case sensitvive.
-
 ## Methods
 
 ###  CreateFilterExpression
 
 Creates a predicate filter expression.
+
+#### Parameters
+
+#### parameterExpression `System.Linq.Expressions.ParameterExpression`
+
+The parameter expression, which will be used for filtering.
+
+#### Returns
+
+`System.Linq.Expressions.Expression` A predicate filter expression.
+
+###  CreateFilterExpression
+
+Creates a filter expression by delegating its creation to 
+            , if 
+             is , otherwise throws
+
+#### Parameters
+
+#### instance `System.Linq.Expressions.Expression`
+
+The instance expression, which will be used for filtering.
+
+#### Returns
+
+`System.Linq.Expressions.Expression` A predicate filter expression.
+
+###  CreateFilterExpression
+
+Creates a predicate filter expression used for collection filtering.
 
 #### Parameters
 
@@ -92,44 +122,6 @@ Serves as a hash function for a particular type.
 
 `System.Int32` A hash code for the current filter descriptor.
 
-###  ToString
-
-Returns a  that represents the current .
-
-#### Returns
-
-`System.String` A  that represents the current .
-
-###  CreateFilterExpression
-
-Creates a filter expression by delegating its creation to 
-            , if 
-             is , otherwise throws
-
-#### Parameters
-
-#### instance `System.Linq.Expressions.Expression`
-
-The instance expression, which will be used for filtering.
-
-#### Returns
-
-`System.Linq.Expressions.Expression` A predicate filter expression.
-
-###  CreateFilterExpression
-
-Creates a predicate filter expression used for collection filtering.
-
-#### Parameters
-
-#### parameterExpression `System.Linq.Expressions.ParameterExpression`
-
-The parameter expression, which will be used for filtering.
-
-#### Returns
-
-`System.Linq.Expressions.Expression` A predicate filter expression.
-
 ###  OnPropertyChanged
 
 Raises the  event.
@@ -158,4 +150,12 @@ Name of the property that is changed.
 #### Returns
 
 `System.Void` 
+
+###  ToString
+
+Returns a  that represents the current .
+
+#### Returns
+
+`System.String` A  that represents the current .
 

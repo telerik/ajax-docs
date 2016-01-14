@@ -16,6 +16,11 @@ The class represents one command which is one client-side
 
 ## Properties
 
+###  Arguments `List`1`
+
+Gets the arguments of the command which determines
+            the operation values.
+
 ###  OwnerPivotGrid `RadPivotGrid`
 
 Gets the owner pivot grid.
@@ -25,11 +30,6 @@ Gets the owner pivot grid.
 Gets the type of the command which determines
             what operation will be made on 
             .
-
-###  Arguments `List`1`
-
-Gets the arguments of the command which determines
-            the operation values.
 
 ## Methods
 

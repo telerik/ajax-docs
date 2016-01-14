@@ -122,20 +122,6 @@ An System.ComponentModel.ITypeDescriptorContext that provides a format context.
 
 `System.Boolean` true
 
-###  GetPropertiesSupported
-
-Returns whether this object supports properties, using the specified context.
-
-#### Parameters
-
-#### context `System.ComponentModel.ITypeDescriptorContext`
-
-An System.ComponentModel.ITypeDescriptorContext that provides a format context.
-
-#### Returns
-
-`System.Boolean` true
-
 ###  GetProperties
 
 Returns a collection of properties for the type of array specified by the
@@ -159,4 +145,18 @@ An array of type System.Attribute that is used as a filter.
 
 `System.ComponentModel.PropertyDescriptorCollection` A System.ComponentModel.PropertyDescriptorCollection with the properties
              that are exposed for this data type, or null if there are no properties.
+
+###  GetPropertiesSupported
+
+Returns whether this object supports properties, using the specified context.
+
+#### Parameters
+
+#### context `System.ComponentModel.ITypeDescriptorContext`
+
+An System.ComponentModel.ITypeDescriptorContext that provides a format context.
+
+#### Returns
+
+`System.Boolean` true
 

@@ -19,6 +19,10 @@ Represents all items in Telerik.Web.UI.RadTreeList .
 
 ## Properties
 
+###  IsDataBinding `Boolean`
+
+Gets or sets a value indicating whether the control is currently being bound.
+
 ###  ItemType `TreeListItemType`
 
 Gets a value from the TreeListItemType enumeration indicating what role the items has in the treelist.
@@ -27,33 +31,7 @@ Gets a value from the TreeListItemType enumeration indicating what role the item
 
 Gets a reference to the owner RadTreeList object.
 
-###  IsDataBinding `Boolean`
-
-Gets or sets a value indicating whether the control is currently being bound.
-
 ## Methods
-
-###  Initialize
-
-Initializes the footer item.
-
-#### Parameters
-
-#### columns `System.Collections.Generic.IList{Telerik.Web.UI.TreeListColumn}`
-
-The columns to which the footer cells should be added.
-
-#### Returns
-
-`System.Void` 
-
-###  PrepareItemStyle
-
-Override this method to change the default logic for rendering the item
-
-#### Returns
-
-`System.Void` 
 
 ###  FireCommandEvent
 
@@ -70,6 +48,20 @@ command to bubble, for example 'Page'
 #### commandArgument `System.Object`
 
 command argument, for example 'Next'
+
+#### Returns
+
+`System.Void` 
+
+###  Initialize
+
+Initializes the footer item.
+
+#### Parameters
+
+#### columns `System.Collections.Generic.IList{Telerik.Web.UI.TreeListColumn}`
+
+The columns to which the footer cells should be added.
 
 #### Returns
 

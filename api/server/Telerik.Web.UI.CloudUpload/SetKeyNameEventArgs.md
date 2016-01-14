@@ -16,6 +16,10 @@ SetKeyName event arguments.
 
 ## Properties
 
+###  KeyName `String`
+
+Gets or sets the key name under which the file will be stored.
+
 ###  OriginalFileName `String`
 
 Gets the original name of the uploading file.
@@ -23,8 +27,4 @@ Gets the original name of the uploading file.
 ###  SubFolderStructure `String`
 
 Gets the subfolder structure.
-
-###  KeyName `String`
-
-Gets or sets the key name under which the file will be stored.
 

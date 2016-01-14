@@ -15,20 +15,6 @@ The factory class that handles the serialization and deserialization by IImageOp
 
 ## Methods
 
-###  Serialize
-
-Serializes the provided image operation.
-
-#### Parameters
-
-#### operation `Telerik.Web.UI.ImageEditor.IImageOperation`
-
-The image operation to serialize
-
-#### Returns
-
-`System.String` The already serialized operation
-
 ###  Deserialize
 
 Composes an image operation based on the provided serialized value
@@ -54,4 +40,18 @@ A key/value collection for the operation
 #### Returns
 
 `Telerik.Web.UI.ImageEditor.IImageOperation` The newly composed image operation
+
+###  Serialize
+
+Serializes the provided image operation.
+
+#### Parameters
+
+#### operation `Telerik.Web.UI.ImageEditor.IImageOperation`
+
+The image operation to serialize
+
+#### Returns
+
+`System.String` The already serialized operation
 

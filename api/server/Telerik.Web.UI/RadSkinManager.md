@@ -16,40 +16,16 @@ A control used to define a global skin for the RadControls on the page as well a
 
 ## Properties
 
-###  ShowChooser `Boolean`
-
-Gets or sets a value indicating whether Skin chooser should be rendered in run-time.
-
 ###  Enabled `Boolean`
 
 Gets or sets a value indicating whether skinning should be enabled or not.
 
-###  Skin `String`
+###  EnableEmbeddedBaseStylesheet `Boolean`
 
-"Specifies the skin that will be used by the control"
-
-###  PersistenceKey `String`
-
-Specifies the persistance key that will be used by the control.
-
-###  PersistenceMode `RadSkinManagerPersistenceMode`
-
-Specifies the skin manager persistance mode.
-
-###  TargetControls `TargetControlCollection`
-
-Gets a collection of TargetControl objects that allows for specifying the objects for which tooltips will be created on the client-side.
+Gets or sets the value, indicating whether to render the link to the embedded base stylesheet of the control or not.
 
 #### Remarks
-Use the TargetControls collection to programmatically control which objects should be tooltipified on the client-side.
-
-###  Skins `String`
-
-Gets a collection of all skins references available in the control.
-
-###  IsSkinSet `String`
-
-For internal use.
+If EnableEmbeddedBaseStylesheet is set to false you will have to register the needed control base CSS file by hand.
 
 ###  EnableEmbeddedScripts `Boolean`
 
@@ -65,12 +41,17 @@ Gets or sets the value, indicating whether to render links to the embedded skins
 #### Remarks
 If EnableEmbeddedSkins is set to false you will have to register the needed CSS files by hand.
 
-###  EnableEmbeddedBaseStylesheet `Boolean`
+###  IsSkinSet `String`
 
-Gets or sets the value, indicating whether to render the link to the embedded base stylesheet of the control or not.
+For internal use.
 
-#### Remarks
-If EnableEmbeddedBaseStylesheet is set to false you will have to register the needed control base CSS file by hand.
+###  PersistenceKey `String`
+
+Specifies the persistance key that will be used by the control.
+
+###  PersistenceMode `RadSkinManagerPersistenceMode`
+
+Specifies the skin manager persistance mode.
 
 ###  RenderMode `RenderMode`
 
@@ -84,6 +65,25 @@ Lightweight rendering mode might change the outlook of the component in some old
 ###  ResolvedRenderMode `RenderMode`
 
 Returns resolved RenderMode should the original value was Auto
+
+###  ShowChooser `Boolean`
+
+Gets or sets a value indicating whether Skin chooser should be rendered in run-time.
+
+###  Skin `String`
+
+"Specifies the skin that will be used by the control"
+
+###  Skins `String`
+
+Gets a collection of all skins references available in the control.
+
+###  TargetControls `TargetControlCollection`
+
+Gets a collection of TargetControl objects that allows for specifying the objects for which tooltips will be created on the client-side.
+
+#### Remarks
+Use the TargetControls collection to programmatically control which objects should be tooltipified on the client-side.
 
 ## Methods
 

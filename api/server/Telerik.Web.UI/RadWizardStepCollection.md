@@ -39,6 +39,20 @@ The wizard step.
 
 `System.Void` 
 
+###  IndexOf
+
+Indexes the of.
+
+#### Parameters
+
+#### wizardStep `Telerik.Web.UI.RadWizardStep`
+
+The wizard step.
+
+#### Returns
+
+`System.Int32` 
+
 ###  Insert
 
 Inserts the specified index.
@@ -56,36 +70,6 @@ The wizard step.
 #### Returns
 
 `System.Void` 
-
-###  Add
-
-#### Returns
-
-`System.Void` 
-
-###  AddAt
-
-#### Returns
-
-`System.Void` 
-
-###  IndexOf
-
-#### Returns
-
-`System.Int32` 
-
-###  Remove
-
-#### Returns
-
-`System.Void` 
-
-###  Contains
-
-#### Returns
-
-`System.Boolean` 
 
 ###  Remove
 
@@ -115,18 +99,4 @@ The zero-based index of the item to remove.
 #### Returns
 
 `System.Void` 
-
-###  IndexOf
-
-Indexes the of.
-
-#### Parameters
-
-#### wizardStep `Telerik.Web.UI.RadWizardStep`
-
-The wizard step.
-
-#### Returns
-
-`System.Int32` 
 

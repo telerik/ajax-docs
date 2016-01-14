@@ -16,10 +16,13 @@ Contains settings for TreeList resizing.
 
 ## Properties
 
-###  DropHereToReorder `String`
+###  CollapseToolTip `String`
 
-Gets or sets a string that will be displayed as a tooltip when you start dragging
-            a column header trying to reorder columns.
+The title attribute that will be to the collapse image.
+
+###  ColumnResizeTooltipFormatString `String`
+
+The format string used for the tooltip when resizing a column
 
 ###  DragToReorder `String`
 
@@ -31,15 +34,12 @@ Gets or sets a string that will be displayed as a tooltip when you hover a colum
 Gets or sets a string that will be displayed as a tooltip when you hover the
             resizing handle of a column.
 
-###  ColumnResizeTooltipFormatString `String`
+###  DropHereToReorder `String`
 
-The format string used for the tooltip when resizing a column
+Gets or sets a string that will be displayed as a tooltip when you start dragging
+            a column header trying to reorder columns.
 
 ###  ExpandToolTip `String`
 
 The title attribute that will be to the expand image.
-
-###  CollapseToolTip `String`
-
-The title attribute that will be to the collapse image.
 

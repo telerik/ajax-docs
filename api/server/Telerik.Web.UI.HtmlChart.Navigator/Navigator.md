@@ -16,10 +16,6 @@ Creates a navigator which can be used in a stock chart only and provides zooming
 
 ## Properties
 
-###  Series `SeriesCollection`
-
-Defines the series used in the stock chart's navigator
-
 ###  RangeSelector `RangeSelector`
 
 Defines a selection area in the navigator
@@ -28,19 +24,15 @@ Defines a selection area in the navigator
 
 Defines the information block that will appear when the stock chart is zoomed or scrolled
 
-###  XAxis `ChartXAxis`
+###  Series `SeriesCollection`
 
-Defines the X axis configuration settings
+Defines the series used in the stock chart's navigator
 
 ###  Visible `Boolean`
 
 Defines the visibility of the navigator
 
-## Methods
+###  XAxis `ChartXAxis`
 
-###  GetViewStateValue
-
-#### Returns
-
-`Telerik.Web.UI.T` 
+Defines the X axis configuration settings
 

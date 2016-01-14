@@ -16,11 +16,11 @@ RadLightBox Client Settings
 
 ## Properties
 
-###  Speed `Int32`
-
-Determines the animation speed for this animation type
-
 ###  Easing `LightBoxEasingType`
 
 Determines the easing type for this animation
+
+###  Speed `Int32`
+
+Determines the animation speed for this animation type
 

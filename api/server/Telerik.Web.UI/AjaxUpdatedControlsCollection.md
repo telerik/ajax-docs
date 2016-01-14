@@ -30,9 +30,16 @@ Adds an item to the collection
 
 `System.Int32` 
 
-###  Remove
+###  AddRange
 
-Removes the specified item from the collection
+Adds a  collection to the
+            current collection
+
+#### Parameters
+
+#### controls `Telerik.Web.UI.AjaxUpdatedControlsCollection`
+
+The  collection.
 
 #### Returns
 
@@ -62,16 +69,9 @@ Inserts an item at the specified index in the collection.
 
 `System.Void` 
 
-###  AddRange
+###  Remove
 
-Adds a  collection to the
-            current collection
-
-#### Parameters
-
-#### controls `Telerik.Web.UI.AjaxUpdatedControlsCollection`
-
-The  collection.
+Removes the specified item from the collection
 
 #### Returns
 

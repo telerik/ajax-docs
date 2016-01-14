@@ -18,65 +18,56 @@ Class tha implements data editing of a GridBoundColumn with a single TextBox con
 
 ## Properties
 
-###  TextBoxControl `TextBox`
-
-Gets The text box instance created of extracted from a cell after calls to AddControlsToContainer or LoadControlsFromContainer methods.
-
-###  TextBoxStyle `Style`
-
-Gets the instace of the Style that would be applied to the TextBox control, when initializing in a TableCell.
-
-###  IsInitialized `Boolean`
-
-Get value if the editor has been initialized after an InitializeInControl or InitializeFromControl method call
-
-###  Text `String`
-
-Gets or sets the cell text.
-
-###  TextBoxMode `String`
-
-Gets or sets the text box control  property.
-
-###  TextBoxMaxLength `String`
-
-Gets or sets the text box control MaxLength property.
-
-###  Text `String`
-
-Gets or sets the cell text.
-
-###  ToolTip `String`
-
-The ToolTip that will be applied to the  control.
-
 ###  ContainerControl `Control`
 
 Gets the instance of the Container control (generally a TableCell), after the last call of InstantiateInControl method
-
-###  IsInitialized `Boolean`
-
-Get value if the editor has been initialized after an InitializeInControl or InitializeFromControl method call
 
 ###  IsInEditMode `Boolean`
 
 Get a value indicating whether the current row/column editor is in edit mode.
 
+###  IsInitialized `Boolean`
+
+Get value if the editor has been initialized after an InitializeInControl or InitializeFromControl method call
+
+###  IsInitialized `Boolean`
+
+Get value if the editor has been initialized after an InitializeInControl or InitializeFromControl method call
+
+###  Text `String`
+
+Gets or sets the cell text.
+
+###  Text `String`
+
+Gets or sets the cell text.
+
+###  TextBoxControl `TextBox`
+
+Gets The text box instance created of extracted from a cell after calls to AddControlsToContainer or LoadControlsFromContainer methods.
+
+###  TextBoxMaxLength `String`
+
+Gets or sets the text box control MaxLength property.
+
+###  TextBoxMode `String`
+
+Gets or sets the text box control  property.
+
+###  TextBoxStyle `Style`
+
+Gets the instace of the Style that would be applied to the TextBox control, when initializing in a TableCell.
+
+###  ToolTip `String`
+
+The ToolTip that will be applied to the  control.
+
 ## Methods
 
-###  SetOwner
+###  AddControlsToContainer
 
-#### Returns
-
-`System.Void` 
-
-###  InitializeInControl
-
-#### Returns
-
-`System.Void` 
-
-###  InitializeFromControl
+Implement this member to create the edit controls in the grid cell.
+            This method is called from each column's InitializeCell method, when a  initializes its cells.
 
 #### Returns
 
@@ -97,15 +88,6 @@ Copy setting from given column editor
 ###  CreateControls
 
 Create the input/edit controls belonging to the editor and prepare for AddControlsToContainer call.
-
-#### Returns
-
-`System.Void` 
-
-###  AddControlsToContainer
-
-Implement this member to create the edit controls in the grid cell.
-            This method is called from each column's InitializeCell method, when a  initializes its cells.
 
 #### Returns
 

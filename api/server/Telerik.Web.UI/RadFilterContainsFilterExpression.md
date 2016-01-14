@@ -19,27 +19,27 @@ Represents a strongly typed Contains filter expression.
 
 ## Properties
 
-###  FilterFunction `RadFilterFunction`
-
-Gets a RadFilterFunction value representing the Contains filter function.
-
-###  Value `T`
-
-Gets or sets the value of the type provided when initializing the generic class.
-
-###  FieldType `Type`
-
-Gets the type of the field the expression is built for.
-
 ###  FieldName `String`
 
 Gets or sets the name of the field the current expression is used for.
 
 ###  FieldType `Type`
 
+Gets the type of the field the expression is built for.
+
+###  FieldType `Type`
+
 Gets or sets the name of the field the current expression is used for.
 
 ###  FilterFunction `RadFilterFunction`
 
+Gets a RadFilterFunction value representing the Contains filter function.
+
+###  FilterFunction `RadFilterFunction`
+
 Gets the filter function used in the current expression.
+
+###  Value `T`
+
+Gets or sets the value of the type provided when initializing the generic class.
 

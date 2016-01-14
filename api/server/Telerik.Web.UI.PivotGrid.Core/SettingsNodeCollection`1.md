@@ -23,25 +23,13 @@ Gets the parent .
 
 ## Methods
 
-###  SetItem
-
-#### Returns
-
-`System.Void` 
-
-###  RemoveItem
+###  ClearItems
 
 #### Returns
 
 `System.Void` 
 
 ###  InsertItem
-
-#### Returns
-
-`System.Void` 
-
-###  ClearItems
 
 #### Returns
 
@@ -56,6 +44,18 @@ Notifies the Parent  for a change.
 #### settingsEventArgs `Telerik.Web.UI.PivotGrid.Core.SettingsChangedEventArgs`
 
 The  that contains the event data.
+
+#### Returns
+
+`System.Void` 
+
+###  RemoveItem
+
+#### Returns
+
+`System.Void` 
+
+###  SetItem
 
 #### Returns
 

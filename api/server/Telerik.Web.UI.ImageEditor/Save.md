@@ -22,14 +22,6 @@ Represents an ImageEditor dialog used for controlling the Save functionality of 
 
 Gets the name of the Dialog.
 
-###  ScriptUrl `String`
-
-Gets the script file associated with the dialog.
-
-###  Title `String`
-
-Gets the Title of the Dialog.
-
 ###  ExternalDialogsPath `String`
 
 Gets or sets a value indicating where the image editor will look for its dialogs.
@@ -38,43 +30,23 @@ Gets or sets a value indicating where the image editor will look for its dialogs
 If specified, the ExternalDialogsPath
             		property will allow you to customize and load the image editor dialogs from normal ASCX files.
 
-###  Skin `String`
-
-Gets or sets the Skin of the ParentImageEditor control.
-
 ###  ParentImageEditor `RadImageEditor`
 
 Gets or sets the ParentImagEditor control which loads the DialogControl.
 
+###  ScriptUrl `String`
+
+Gets the script file associated with the dialog.
+
+###  Skin `String`
+
+Gets or sets the Skin of the ParentImageEditor control.
+
+###  Title `String`
+
+Gets the Title of the Dialog.
+
 ## Methods
-
-###  RenderTitle
-
-Renders the localized title of the dialog.
-
-#### Parameters
-
-#### writer `System.Web.UI.HtmlTextWriter`
-
-The writer that will write out the text.
-
-#### Returns
-
-`System.Void` 
-
-###  RenderScript
-
-Renders the script HTML tag with the script of the control.
-
-#### Parameters
-
-#### writer `System.Web.UI.HtmlTextWriter`
-
-The writer that writes the HTML tag.
-
-#### Returns
-
-`System.Void` 
 
 ###  ApplySkin
 
@@ -94,22 +66,19 @@ The skin to apply to the child RadControls.
 
 `System.Void` 
 
-###  IsTouchSkin
+###  FindControlRecursive
 
-Reports back if the dialog should be rendered using a Touch skin
+Searches for a child control within the dialog's Controls collection.
 
-#### Returns
+#### Parameters
 
-`System.Boolean` True if Touch skin is used
+#### id `System.String`
 
-###  SetChildrensProperties
-
-Sets child controls properties. 
-            Override this method if you want to configure the child controls, such as setting the localized strings.
+The ID of the control to find.
 
 #### Returns
 
-`System.Void` 
+`System.Web.UI.Control` Instance to the control found. If the control is not found null is returned.
 
 ###  GetResourceContent
 
@@ -125,17 +94,48 @@ The name of the ASCX file.
 
 `System.String` The HTML content that will be loaded within the dialog.
 
-###  FindControlRecursive
+###  IsTouchSkin
 
-Searches for a child control within the dialog's Controls collection.
-
-#### Parameters
-
-#### id `System.String`
-
-The ID of the control to find.
+Reports back if the dialog should be rendered using a Touch skin
 
 #### Returns
 
-`System.Web.UI.Control` Instance to the control found. If the control is not found null is returned.
+`System.Boolean` True if Touch skin is used
+
+###  RenderScript
+
+Renders the script HTML tag with the script of the control.
+
+#### Parameters
+
+#### writer `System.Web.UI.HtmlTextWriter`
+
+The writer that writes the HTML tag.
+
+#### Returns
+
+`System.Void` 
+
+###  RenderTitle
+
+Renders the localized title of the dialog.
+
+#### Parameters
+
+#### writer `System.Web.UI.HtmlTextWriter`
+
+The writer that will write out the text.
+
+#### Returns
+
+`System.Void` 
+
+###  SetChildrensProperties
+
+Sets child controls properties. 
+            Override this method if you want to configure the child controls, such as setting the localized strings.
+
+#### Returns
+
+`System.Void` 
 

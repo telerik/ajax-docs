@@ -16,6 +16,10 @@ Holds collection of settings for the QRCode mode of RadBarcode control
 
 ## Properties
 
+###  AspectRatio `Int32`
+
+Aspect Ratio of PDF417
+
 ###  EncodingMode `EncodingMode`
 
 There are four values available for this property - Auto, Byte, Numeric, Text
@@ -24,16 +28,4 @@ There are four values available for this property - Auto, Byte, Numeric, Text
 ###  ErrorCorrectionLevel `Int32`
 
 Error Correction Level of the PDF417
-
-###  AspectRatio `Int32`
-
-Aspect Ratio of PDF417
-
-## Methods
-
-###  GetViewStateValue
-
-#### Returns
-
-`Telerik.Web.UI.T` 
 

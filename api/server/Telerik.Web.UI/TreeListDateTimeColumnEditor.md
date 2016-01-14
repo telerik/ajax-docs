@@ -16,6 +16,10 @@ Represents an editor for DateTime values, used as the default editor for the Tre
 
 ## Properties
 
+###  Column `TreeListEditableColumn`
+
+Gets the column for which the column editor is created.
+
 ###  DateInputControl `RadDateInput`
 
 Gets a reference to the RadDateInput control used for editing the column.
@@ -24,11 +28,47 @@ Gets a reference to the RadDateInput control used for editing the column.
 
 Gets a reference to the RadDatePicker control used for editing the column.
 
-###  Column `TreeListEditableColumn`
-
-Gets the column for which the column editor is created.
-
 ## Methods
+
+###  GetFirstValue
+
+Get the first value from the values of the current .
+            This method returns the first item from , if any.
+
+#### Returns
+
+`System.Object` 
+
+###  GetFirstValueFromEnumerable
+
+Returns the first value from an object implementing IEnumerable, passed as argument. 
+            If the collection is empty, returns null.
+
+#### Parameters
+
+#### enumerable `System.Collections.IEnumerable`
+
+An instance of a class that implements IEnumerable.
+
+#### Returns
+
+`System.Object` The first value form the enumerable collection.
+
+###  GetValues
+
+Returns a collection of the edit values contained in the editor.
+
+#### Returns
+
+`System.Collections.IEnumerable` An enumerable object holding the values.
+
+###  GetValues
+
+Returns a collection of the values in the editor control.
+
+#### Returns
+
+`System.Collections.IEnumerable` 
 
 ###  Initialize
 
@@ -47,52 +87,6 @@ The container Control to which Controls collection the editor control will be ad
 #### Returns
 
 `System.Void` 
-
-###  SetValues
-
-Sets the edit values to the edit control.
-
-#### Parameters
-
-#### values `System.Collections.IEnumerable`
-
-An enumerable collection containing the edit values.
-
-#### Returns
-
-`System.Void` 
-
-###  GetValues
-
-Returns a collection of the edit values contained in the editor.
-
-#### Returns
-
-`System.Collections.IEnumerable` An enumerable object holding the values.
-
-###  GetFirstValueFromEnumerable
-
-Returns the first value from an object implementing IEnumerable, passed as argument. 
-            If the collection is empty, returns null.
-
-#### Parameters
-
-#### enumerable `System.Collections.IEnumerable`
-
-An instance of a class that implements IEnumerable.
-
-#### Returns
-
-`System.Object` The first value form the enumerable collection.
-
-###  GetFirstValue
-
-Get the first value from the values of the current .
-            This method returns the first item from , if any.
-
-#### Returns
-
-`System.Object` 
 
 ###  Initialize
 
@@ -114,6 +108,20 @@ The container control to which the editor will be added.
 
 ###  SetValues
 
+Sets the edit values to the edit control.
+
+#### Parameters
+
+#### values `System.Collections.IEnumerable`
+
+An enumerable collection containing the edit values.
+
+#### Returns
+
+`System.Void` 
+
+###  SetValues
+
 Sets the edit values in the column editor.
 
 #### Parameters
@@ -125,12 +133,4 @@ A collection of the values which will be used to populate the editor control.
 #### Returns
 
 `System.Void` 
-
-###  GetValues
-
-Returns a collection of the values in the editor control.
-
-#### Returns
-
-`System.Collections.IEnumerable` 
 

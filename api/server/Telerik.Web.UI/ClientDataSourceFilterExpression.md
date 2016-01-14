@@ -18,11 +18,11 @@ This class defines the FilterExpression for
 
 ## Properties
 
-###  LogicOperator `ClientDataSourceFilterLogicOperator`
-
-Gets or sets the filter logic, AND or OR.
-
 ###  Filters `ClientDataSourceFilterBaseCollection`
 
 Gets the group expression entries.
+
+###  LogicOperator `ClientDataSourceFilterLogicOperator`
+
+Gets or sets the filter logic, AND or OR.
 

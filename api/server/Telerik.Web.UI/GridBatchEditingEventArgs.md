@@ -20,13 +20,13 @@ The event arguments passed when the E:Telerik.Web.UI.RadGrid.BatchEditCommand ev
 
 Set to true to cancel the default command execution.
 
-###  Item `GridItem`
-
-The  which initialized the event.
-
 ###  Commands `List`1`
 
 The collection of commands which will be executed.
+
+###  Item `GridItem`
+
+The  which initialized the event.
 
 ## Methods
 

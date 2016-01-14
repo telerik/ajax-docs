@@ -20,13 +20,13 @@ Event data for the E:Telerik.Web.UI.PivotGrid.Core.IDataProvider.StatusChanged e
 
 Gets or sets the error.
 
-###  OldStatus `DataProviderStatus`
-
-Gets the old status.
-
 ###  NewStatus `DataProviderStatus`
 
 Gets the new status.
+
+###  OldStatus `DataProviderStatus`
+
+Gets the old status.
 
 ###  ResultsChanged `Boolean`
 

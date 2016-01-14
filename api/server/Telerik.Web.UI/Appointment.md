@@ -16,33 +16,21 @@ A scheduled event in RadScheduler with Start and End time, Subject as well other
 
 ## Properties
 
+###  AllowDelete `Boolean`
+
+Gets or sets a value indicating whether the deleting of this appointment is allowed.
+
+###  AllowEdit `Boolean`
+
+Gets or sets a value indicating whether the editing of this appointment is allowed.
+
 ###  AppointmentControls `IList`1`
 
 Gets the appointment controls.
 
-###  ClientID `String`
-
-Gets the client ID.
-
-###  DomElements `IList`1`
-
-Gets the DOM elements.
-
 ###  Attributes `AttributeCollection`
 
 Gets the attributes.
-
-###  Resources `ResourceCollection`
-
-Gets or sets the resources.
-
-###  Reminders `ReminderCollection`
-
-A collection of all reminders associated with the appointment
-
-###  CssClass `String`
-
-Gets or sets the CSS class.
 
 ###  BackColor `Color`
 
@@ -52,13 +40,57 @@ Gets or sets the color of the back.
 
 Gets or sets the color of the border.
 
+###  BorderStyle `BorderStyle`
+
+Gets or sets the border style.
+
 ###  BorderWidth `Unit`
 
 Gets or sets the width of the border.
 
-###  BorderStyle `BorderStyle`
+###  ClientID `String`
 
-Gets or sets the border style.
+Gets the client ID.
+
+###  ContextMenuID `Object`
+
+Gets or sets the context menu ID.
+
+###  CssClass `String`
+
+Gets or sets the CSS class.
+
+###  DataItem `Object`
+
+Gets or sets the data item represented by the
+            Appointment object in the
+            RadScheduler control.
+
+#### Remarks
+This property is available only during data binding.
+
+###  Description `String`
+
+The Appointment description.
+
+###  DomElements `IList`1`
+
+Gets the DOM elements.
+
+###  Duration `TimeSpan`
+
+The appointment duration.
+
+#### Remarks
+The duration can be zero.
+
+###  End `DateTime`
+
+Gets or sets the end.
+
+###  EndLocal `DateTime`
+
+Gets or sets the UTC end.
 
 ###  Font `FontInfo`
 
@@ -72,9 +104,29 @@ Gets or sets the ForeColor.
 
 Gets or sets the ID.
 
-###  Visible `Boolean`
+###  Owner `RadScheduler`
 
-Gets or sets the visible.
+Gets or sets the owner.
+
+###  RecurrenceParentID `Object`
+
+Gets or sets the recurrence parent ID.
+
+###  RecurrenceRule `String`
+
+Gets or sets the recurrence rule.
+
+###  RecurrenceState `RecurrenceState`
+
+Gets or sets the state of the recurrence.
+
+###  Reminders `ReminderCollection`
+
+A collection of all reminders associated with the appointment
+
+###  Resources `ResourceCollection`
+
+Gets or sets the resources.
 
 ###  Start `DateTime`
 
@@ -84,21 +136,6 @@ Gets or sets the start.
 
 Gets or sets the UTC start.
 
-###  End `DateTime`
-
-Gets or sets the end.
-
-###  EndLocal `DateTime`
-
-Gets or sets the UTC end.
-
-###  Duration `TimeSpan`
-
-The appointment duration.
-
-#### Remarks
-The duration can be zero.
-
 ###  Subject `String`
 
 The Appointment subject.
@@ -107,50 +144,13 @@ The Appointment subject.
 
 The Appointment time zone
 
-###  Description `String`
-
-The Appointment description.
-
 ###  ToolTip `String`
 
 Gets or sets the tool tip.
 
-###  RecurrenceRule `String`
+###  Visible `Boolean`
 
-Gets or sets the recurrence rule.
-
-###  RecurrenceParentID `Object`
-
-Gets or sets the recurrence parent ID.
-
-###  RecurrenceState `RecurrenceState`
-
-Gets or sets the state of the recurrence.
-
-###  Owner `RadScheduler`
-
-Gets or sets the owner.
-
-###  ContextMenuID `Object`
-
-Gets or sets the context menu ID.
-
-###  AllowEdit `Boolean`
-
-Gets or sets a value indicating whether the editing of this appointment is allowed.
-
-###  AllowDelete `Boolean`
-
-Gets or sets a value indicating whether the deleting of this appointment is allowed.
-
-###  DataItem `Object`
-
-Gets or sets the data item represented by the
-            Appointment object in the
-            RadScheduler control.
-
-#### Remarks
-This property is available only during data binding.
+Gets or sets the visible.
 
 ## Methods
 

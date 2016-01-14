@@ -18,6 +18,14 @@ A class extending System.Web.UI.WebControls.TableCell used for a base class for 
 
 ## Properties
 
+###  CellIndexHierarchical `String`
+
+Gets the a value uniquely identifying a cell in the .
+
+###  Column `GridColumn`
+
+Gets or sets the cell owner column.
+
 ###  Item `GridItem`
 
 Gets or sets the  which contains the cell.
@@ -25,14 +33,6 @@ Gets or sets the  which contains the cell.
 ###  ParentItemIndexHierarchical `GridItem`
 
 Gets or sets the  of the item which contains the cell.
-
-###  Column `GridColumn`
-
-Gets or sets the cell owner column.
-
-###  CellIndexHierarchical `String`
-
-Gets the a value uniquely identifying a cell in the .
 
 ###  Selected `Boolean`
 

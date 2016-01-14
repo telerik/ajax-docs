@@ -36,15 +36,43 @@ PersistenceSetting object
 
 `System.Int32` PersistenceSetting index at which the PersistenceSetting has been added
 
-###  Remove
+###  AddSetting
 
-Removes the first occurrence of a specific PersistenceSetting from the PersistenceSettingsCollection
+Adds a PersistenceSetting to the end of the PersistenceSettingsCollection
 
 #### Parameters
 
-#### setting `Telerik.Web.UI.PersistenceSetting`
+#### controlToPersist `System.Web.UI.Control`
 
-PersistenceSetting object
+Type of the control to persist
+
+#### Returns
+
+`System.Void` 
+
+###  AddSetting
+
+Adds a PersistenceSetting to the end of the PersistenceSettingsCollection
+
+#### Parameters
+
+#### controlID `System.String`
+
+The ID of the control to persist
+
+#### Returns
+
+`System.Void` 
+
+###  AddSetting
+
+Adds a PersistenceSetting to the end of the PersistenceSettingsCollection
+
+#### Parameters
+
+#### controlType `System.Type`
+
+Type of the controls to persist
 
 #### Returns
 
@@ -96,43 +124,15 @@ PersistenceSetting object
 
 `System.Void` 
 
-###  AddSetting
+###  Remove
 
-Adds a PersistenceSetting to the end of the PersistenceSettingsCollection
-
-#### Parameters
-
-#### controlToPersist `System.Web.UI.Control`
-
-Type of the control to persist
-
-#### Returns
-
-`System.Void` 
-
-###  AddSetting
-
-Adds a PersistenceSetting to the end of the PersistenceSettingsCollection
+Removes the first occurrence of a specific PersistenceSetting from the PersistenceSettingsCollection
 
 #### Parameters
 
-#### controlID `System.String`
+#### setting `Telerik.Web.UI.PersistenceSetting`
 
-The ID of the control to persist
-
-#### Returns
-
-`System.Void` 
-
-###  AddSetting
-
-Adds a PersistenceSetting to the end of the PersistenceSettingsCollection
-
-#### Parameters
-
-#### controlType `System.Type`
-
-Type of the controls to persist
+PersistenceSetting object
 
 #### Returns
 

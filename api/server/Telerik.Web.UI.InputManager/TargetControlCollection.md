@@ -16,26 +16,6 @@ Collection containg Telerik.Web.UI.TargetControl items.
 
 ## Methods
 
-###  FindTargetInputById
-
-Finds TargetInput setting by ID of input control
-
-#### Parameters
-
-#### id `System.String`
-
-ID of input control
-
-#### Returns
-
-`Telerik.Web.UI.TargetInput` TargetInput or null
-
-###  ToString
-
-#### Returns
-
-`System.String` 
-
 ###  Add
 
 Adds an item to the collection.
@@ -50,20 +30,6 @@ The  to add to the collection.
 
 `System.Int32` The position into which the new element was inserted, or -1 to indicate
             that the item was not inserted into the collection,
-
-###  Remove
-
-Removes the first occurrence of a specific  from the collection.
-
-#### Parameters
-
-#### targetControl `Telerik.Web.UI.TargetInput`
-
-The  to remove from the collection.
-
-#### Returns
-
-`System.Void` 
 
 ###  Contains
 
@@ -80,6 +46,20 @@ The object to locate in the collection.
 
 `System.Boolean` true if the  is found in the collection;
             otherwise, false.
+
+###  FindTargetInputById
+
+Finds TargetInput setting by ID of input control
+
+#### Parameters
+
+#### id `System.String`
+
+ID of input control
+
+#### Returns
+
+`Telerik.Web.UI.TargetInput` TargetInput or null
 
 ###  IndexOf
 
@@ -111,6 +91,20 @@ The zero-based index at which  should
 #### targetControl `Telerik.Web.UI.TargetInput`
 
 The  to insert into the collection.
+
+#### Returns
+
+`System.Void` 
+
+###  Remove
+
+Removes the first occurrence of a specific  from the collection.
+
+#### Parameters
+
+#### targetControl `Telerik.Web.UI.TargetInput`
+
+The  to remove from the collection.
 
 #### Returns
 

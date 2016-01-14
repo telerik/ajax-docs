@@ -18,29 +18,29 @@ The event arguments passed when Telerik.Web.UI.RadListView sorting is performed.
 
 ## Properties
 
-###  SortExpression `String`
+###  Canceled `Boolean`
 
-Gets the sort expression associated with the sort command.
-
-###  OldSortOrder `RadListViewSortOrder`
-
-Gets the old sort order.
-
-###  NewSortOrder `RadListViewSortOrder`
-
-Gets the new sort order.
-
-###  ListViewItem `RadListViewItem`
-
-Gets or sets the  which was responsible for firing the event.
+Gets or sets a value, defining whether the command should be canceled.
 
 ###  EventSource `Object`
 
 Gets or sets the event source which represent the control which fired the event.
 
-###  Canceled `Boolean`
+###  ListViewItem `RadListViewItem`
 
-Gets or sets a value, defining whether the command should be canceled.
+Gets or sets the  which was responsible for firing the event.
+
+###  NewSortOrder `RadListViewSortOrder`
+
+Gets the new sort order.
+
+###  OldSortOrder `RadListViewSortOrder`
+
+Gets the old sort order.
+
+###  SortExpression `String`
+
+Gets the sort expression associated with the sort command.
 
 ## Methods
 
@@ -53,12 +53,6 @@ Executes the corresponding command.
 #### source `System.Object`
 
 The source control which fires the command.
-
-#### Returns
-
-`System.Void` 
-
-###  HandleSorting
 
 #### Returns
 

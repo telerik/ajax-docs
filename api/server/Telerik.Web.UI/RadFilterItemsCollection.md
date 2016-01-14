@@ -83,6 +83,14 @@ The zero-based index in array at which copying begins.
 
 `System.Void` 
 
+###  GetEnumerator
+
+Returns an enumerator that iterates through the collection.
+
+#### Returns
+
+`System.Collections.Generic.IEnumerator`1` An IEnumerator(RadFilterExpressionItem) for the collection.
+
 ###  Remove
 
 Removes the first occurrence of a specific item from the collection.
@@ -98,12 +106,4 @@ The RadFilterExpressionItem to remove from the collection.
 
 `System.Boolean` true if the item is successfully removed; otherwise, false. 
             This method also returns false if item was not found in the original collection.
-
-###  GetEnumerator
-
-Returns an enumerator that iterates through the collection.
-
-#### Returns
-
-`System.Collections.Generic.IEnumerator`1` An IEnumerator(RadFilterExpressionItem) for the collection.
 

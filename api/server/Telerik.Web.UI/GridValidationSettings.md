@@ -16,6 +16,10 @@ Container of misc. grouping settings of RadGrid control
 
 ## Properties
 
+###  CommandsToValidate `String[]`
+
+Gets or sets a commands list of commands names which will be validated.
+
 ###  EnableValidation `Boolean`
 
 Gets or sets a value indicating of the validation is enabled.
@@ -23,16 +27,4 @@ Gets or sets a value indicating of the validation is enabled.
 ###  ValidationGroup `String`
 
 Gets or sets the validation group.
-
-###  CommandsToValidate `String[]`
-
-Gets or sets a commands list of commands names which will be validated.
-
-## Methods
-
-###  GetViewStateValue
-
-#### Returns
-
-`Telerik.Web.UI.T` 
 

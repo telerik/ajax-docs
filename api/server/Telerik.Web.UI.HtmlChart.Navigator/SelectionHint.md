@@ -16,24 +16,16 @@ Creates a selection hint which gives information about the current selection
 
 ## Properties
 
-###  DataFormatString `String`
-
-Defines the data format string of the hint
-
 ###  ClientTemplate `String`
 
 Defines a client-side template for the selection hint.
             #= value #
 
+###  DataFormatString `String`
+
+Defines the data format string of the hint
+
 ###  Visible `Boolean`
 
 Defines the visibility of the hint
-
-## Methods
-
-###  GetViewStateValue
-
-#### Returns
-
-`Telerik.Web.UI.T` 
 

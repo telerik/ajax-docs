@@ -16,6 +16,10 @@ Number format style
 
 ## Properties
 
+###  Attributes `IAttributesCollection`
+
+Collection of the attributes of the current element
+
 ###  FormatType `NumberFormatType`
 
 Number format type
@@ -24,11 +28,21 @@ Number format type
 
 Collection of inner elements
 
-###  Attributes `IAttributesCollection`
-
-Collection of the attributes of the current element
-
 ## Methods
+
+###  AppendAttributes
+
+Appends the attirbutes to the output
+
+#### Parameters
+
+#### sb `System.Text.StringBuilder`
+
+StringBuilder object that holds the rendered output
+
+#### Returns
+
+`System.Void` 
 
 ###  Render
 
@@ -47,20 +61,6 @@ StringBuilder object that holds the rendered output
 ###  RenderChildElements
 
 Renders the child elements
-
-#### Parameters
-
-#### sb `System.Text.StringBuilder`
-
-StringBuilder object that holds the rendered output
-
-#### Returns
-
-`System.Void` 
-
-###  AppendAttributes
-
-Appends the attirbutes to the output
 
 #### Parameters
 

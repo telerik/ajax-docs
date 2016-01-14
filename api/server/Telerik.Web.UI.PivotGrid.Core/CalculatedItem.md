@@ -18,6 +18,10 @@ These items are added to GroupDescription and they create a new group with summa
 
 ## Properties
 
+###  GroupName `Object`
+
+Gets or sets the name of groups generated for this calculated item.
+
 ###  SolveOrder `Int32`
 
 Gets or sets the solve order of the calculated item.
@@ -25,17 +29,7 @@ Gets or sets the solve order of the calculated item.
 #### Remarks
 The summary for coordinate participating in calculated items in both row and column will be calculated based on the calculated item with larger solve order.
 
-###  GroupName `Object`
-
-Gets or sets the name of groups generated for this calculated item.
-
 ## Methods
-
-###  ToString
-
-#### Returns
-
-`System.String` 
 
 ###  GetValue
 
@@ -50,4 +44,10 @@ Interface used to get aggregate value based on group name.
 #### Returns
 
 `Telerik.Web.UI.PivotGrid.Core.AggregateValue` for this calculated item.
+
+###  ToString
+
+#### Returns
+
+`System.String` 
 

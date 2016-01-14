@@ -19,23 +19,15 @@ Class that implements the audio code feature of the RadCaptcha control
 
 Gets the Memory stream to which the wave will be outputted.
 
-###  TextToSpeak `String`
-
-Gets the Text (code) to be spoken by the RadCaptcha.
-
 ###  CanSpeak `Boolean`
 
 Gets or sets a bool value indicating whether the Text (code)should be spoken or concatenated from the provided wav files.
 
+###  TextToSpeak `String`
+
+Gets the Text (code) to be spoken by the RadCaptcha.
+
 ## Methods
-
-###  SpeakText
-
-Speaks the currently saved text in the TextToSpeak property.
-
-#### Returns
-
-`System.Void` 
 
 ###  GetWaveStream
 
@@ -50,4 +42,12 @@ The path to the current application.
 #### Returns
 
 `System.IO.MemoryStream` Memory stream that contains the audio code.
+
+###  SpeakText
+
+Speaks the currently saved text in the TextToSpeak property.
+
+#### Returns
+
+`System.Void` 
 

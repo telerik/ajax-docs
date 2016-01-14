@@ -20,26 +20,6 @@ Telerik HtmlChart control
 
 ## Properties
 
-###  Width `Unit`
-
-Get/Set the Width of the RadHtmlChart control
-
-###  Height `Unit`
-
-Get/Set the Height of the RadHtmlChart control
-
-###  Transitions `Boolean`
-
-Get/Set whether transition animations should be played
-
-###  InvokeLoadData `LoadDataInvocation`
-
-Get/Set when actual data will be loaded
-
-###  RenderAs `ChartRenderingEngine`
-
-Gets/Sets the rendering engine of the chart
-
 ###  Appearance `HtmlChartAppearance`
 
 Defines the appearance settings of the chart
@@ -48,52 +28,37 @@ Defines the appearance settings of the chart
 
 Defines the settings of the chart title
 
-###  Legend `HtmlChartLegend`
+###  ClientDataSourceID `String`
 
-Defines the settings of the chart title
-
-###  PlotArea `HtmlChartPlotArea`
-
-Defines the plot area of the chart
-
-###  Navigator `Navigator`
-
-Defines the plot area of the chart
-
-###  HtmlChartType `Nullable`1`
-
-This property is needed for the Type page of the design time configuration manager.
-
-###  OnClientSeriesClicked `String`
-
-Gets or sets the name of the JavaScript function that will be called when a series is clicked.
-
-###  OnClientSeriesHovered `String`
-
-Gets or sets the name of the JavaScript function that will be called when a series is hovered.
+Gets or sets ID of ClientDataSource control that is used for client side binding
 
 ###  ClientEvents `HtmlChartClientEvents`
 
 Specifies the handlers of the client-side events
 
-###  RegisterWithScriptManager `Boolean`
+###  ClientIDMode `ClientIDMode`
 
-Gets or sets the value, indicating whether to register with the ScriptManager control on the page.
+This property is overridden in order to support controls which implement INamingContainer.
+            The default value is changed to "AutoID".
+
+###  CssClassFormatString `String`
+
+The CssClass property will now be used instead of the former Skin 
+            and will be modified in AddAttributesToRender()
+
+###  EnableAjaxSkinRendering `String`
+
+Gets or sets the value, indicating whether to render the skin CSS files during Ajax requests
 
 #### Remarks
-If RegisterWithScriptManager is set to false the control can be rendered on the page using Web Services or normal callback requests/page methods.
+If EnableAjaxSkinRendering is set to false you will have to register the needed control base CSS file by hand when adding/showing the control with Ajax.
 
-###  Skin `String`
+###  EnableEmbeddedBaseStylesheet `Boolean`
 
-Gets or sets the skin name for the control user interface.
+Gets or sets the value, indicating whether to render the link to the embedded base stylesheet of the control or not.
 
 #### Remarks
-If this property is not set, the control will render using the skin named "Default".
-            If EnableEmbeddedSkins is set to false, the control will not render skin.
-
-###  IsSkinSet `String`
-
-For internal use.
+If EnableEmbeddedBaseStylesheet is set to false you will have to register the needed control base CSS file by hand.
 
 ###  EnableEmbeddedScripts `Boolean`
 
@@ -109,34 +74,60 @@ Gets or sets the value, indicating whether to render links to the embedded skins
 #### Remarks
 If EnableEmbeddedSkins is set to false you will have to register the needed CSS files by hand.
 
-###  EnableEmbeddedBaseStylesheet `Boolean`
+###  Height `Unit`
 
-Gets or sets the value, indicating whether to render the link to the embedded base stylesheet of the control or not.
+Get/Set the Height of the RadHtmlChart control
 
-#### Remarks
-If EnableEmbeddedBaseStylesheet is set to false you will have to register the needed control base CSS file by hand.
+###  HtmlChartType `Nullable`1`
+
+This property is needed for the Type page of the design time configuration manager.
+
+###  InvokeLoadData `LoadDataInvocation`
+
+Get/Set when actual data will be loaded
+
+###  IsSkinSet `String`
+
+For internal use.
+
+###  Legend `HtmlChartLegend`
+
+Defines the settings of the chart title
+
+###  Navigator `Navigator`
+
+Defines the plot area of the chart
 
 ###  ODataDataSourceID `String`
 
 Gets or sets the ODataDataSource used for data binding.
 
-###  ClientDataSourceID `String`
+###  OnClientSeriesClicked `String`
 
-Gets or sets ID of ClientDataSource control that is used for client side binding
+Gets or sets the name of the JavaScript function that will be called when a series is clicked.
 
-###  RuntimeSkin `String`
+###  OnClientSeriesHovered `String`
 
-Gets the real skin name for the control user interface. If Skin is not set, returns
-            "Default", otherwise returns Skin.
+Gets or sets the name of the JavaScript function that will be called when a series is hovered.
 
-###  EnableAjaxSkinRendering `String`
+###  Pan `Pan`
 
-Gets or sets the value, indicating whether to render the skin CSS files during Ajax requests
+Specifies the panning configuration of the chart.
+
+###  PlotArea `HtmlChartPlotArea`
+
+Defines the plot area of the chart
+
+###  RegisterWithScriptManager `Boolean`
+
+Gets or sets the value, indicating whether to register with the ScriptManager control on the page.
 
 #### Remarks
-If EnableAjaxSkinRendering is set to false you will have to register the needed control base CSS file by hand when adding/showing the control with Ajax.
+If RegisterWithScriptManager is set to false the control can be rendered on the page using Web Services or normal callback requests/page methods.
 
-###  ClientStateFieldID `String`
+###  RenderAs `ChartRenderingEngine`
+
+Gets/Sets the rendering engine of the chart
 
 ###  RenderMode `RenderMode`
 
@@ -152,43 +143,36 @@ Lightweight rendering mode might change the outlook of the component in some old
 
 Returns resolved RenderMode should the original value was Auto
 
-###  CssClassFormatString `String`
+###  RuntimeSkin `String`
 
-The CssClass property will now be used instead of the former Skin 
-            and will be modified in AddAttributesToRender()
+Gets the real skin name for the control user interface. If Skin is not set, returns
+            "Default", otherwise returns Skin.
 
-###  DefaultCssClass `String`
+###  Skin `String`
 
-###  ClientIDMode `ClientIDMode`
+Gets or sets the skin name for the control user interface.
 
-This property is overridden in order to support controls which implement INamingContainer.
-            The default value is changed to "AutoID".
+#### Remarks
+If this property is not set, the control will render using the skin named "Default".
+            If EnableEmbeddedSkins is set to false, the control will not render skin.
 
-###  ScriptManager `ScriptManager`
+###  Transitions `Boolean`
 
-###  RadScriptManager `ScriptManager`
+Get/Set whether transition animations should be played
+
+###  Width `Unit`
+
+Get/Set the Width of the RadHtmlChart control
+
+###  Zoom `Zoom`
+
+Specifies the zooming configuration of the chart.
 
 ## Methods
 
-###  DescribeClientProperties
+###  ApplyConditionalRendering
 
-#### Returns
-
-`System.Void` 
-
-###  DescribeClientEvents
-
-#### Returns
-
-`System.Void` 
-
-###  AddAttributesToRender
-
-#### Returns
-
-`System.Void` 
-
-###  OnPreRender
+Use this from RenderContents of the inheritor
 
 #### Returns
 
@@ -202,113 +186,9 @@ Code moved into this method from OnPreRender to make sure it executed when the f
 
 `System.Void` 
 
-###  RegisterScriptControl
-
-Registers the control with the ScriptManager
-
-#### Returns
-
-`System.Void` 
-
-###  RegisterCssReferences
-
-Registers the CSS references
-
-#### Returns
-
-`System.Void` 
-
-###  LoadClientState
-
-Loads the client state data
-
-#### Parameters
-
-#### clientState `System.Collections.Generic.Dictionary{System.String,System.Object}`
-
-#### Returns
-
-`System.Void` 
-
-###  SaveClientState
-
-Saves the client state data
-
-#### Returns
-
-`System.String` 
-
-###  RenderClientStateField
-
-#### Returns
-
-`System.Void` 
-
-###  RenderBeginTag
-
-#### Returns
-
-`System.Void` 
-
-###  RenderEndTag
-
-#### Returns
-
-`System.Void` 
-
-###  Render
-
-#### Returns
-
-`System.Void` 
-
-###  RenderScriptsNoScriptManager
-
-#### Returns
-
-`System.Void` 
-
-###  RenderDescriptorsNoScriptManager
-
-#### Returns
-
-`System.Void` 
-
-###  RenderContents
-
-#### Returns
-
-`System.Void` 
-
-###  ApplyConditionalRendering
-
-Use this from RenderContents of the inheritor
-
-#### Returns
-
-`System.Void` 
-
-###  DescribeComponent
-
-#### Returns
-
-`System.Void` 
-
 ###  DescribeRenderingMode
 
 Should be  used by inheritors
-
-#### Returns
-
-`System.Void` 
-
-###  DescribeProperty
-
-#### Returns
-
-`System.Void` 
-
-###  DescribeEvent
 
 #### Returns
 
@@ -321,6 +201,18 @@ Returns the names of all embedded skins. Used by Telerik.Web.Examples.
 #### Returns
 
 `System.Collections.Generic.List`1` 
+
+###  LoadClientState
+
+Loads the client state data
+
+#### Parameters
+
+#### clientState `System.Collections.Generic.Dictionary{System.String,System.Object}`
+
+#### Returns
+
+`System.Void` 
 
 ###  LoadPostData
 
@@ -344,9 +236,27 @@ Executed when post data changes should invoke a changed event
 
 `System.Void` 
 
-###  GetViewStateValue
+###  RegisterCssReferences
+
+Registers the CSS references
 
 #### Returns
 
-`Telerik.Web.UI.T` 
+`System.Void` 
+
+###  RegisterScriptControl
+
+Registers the control with the ScriptManager
+
+#### Returns
+
+`System.Void` 
+
+###  SaveClientState
+
+Saves the client state data
+
+#### Returns
+
+`System.String` 
 

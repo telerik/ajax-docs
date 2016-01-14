@@ -16,6 +16,22 @@ Container of misc. grouping settings of RadGrid control
 
 ## Properties
 
+###  ColumnDelimiter `GridCsvDelimiter`
+
+Gets or sets the row delimiter for RadGrid CSV export.
+
+###  EnableBomHeader `Boolean`
+
+Determines whether the CSV file will have a BOM header.
+
+###  EncloseDataWithQuotes `Boolean`
+
+Gets or sets whether the data will be enclosed with quotes for RadGrid CSV export.
+
+###  Encoding `GridCsvEncoding`
+
+Used to set the text encoding for the CSV file
+
 ###  FileExtension `String`
 
 Gets or sets the file extension for RadGrid CSV export.
@@ -23,28 +39,4 @@ Gets or sets the file extension for RadGrid CSV export.
 ###  RowDelimiter `GridCsvDelimiter`
 
 Gets or sets the row delimiter for RadGrid CSV export.
-
-###  Encoding `GridCsvEncoding`
-
-Used to set the text encoding for the CSV file
-
-###  EnableBomHeader `Boolean`
-
-Determines whether the CSV file will have a BOM header.
-
-###  ColumnDelimiter `GridCsvDelimiter`
-
-Gets or sets the row delimiter for RadGrid CSV export.
-
-###  EncloseDataWithQuotes `Boolean`
-
-Gets or sets whether the data will be enclosed with quotes for RadGrid CSV export.
-
-## Methods
-
-###  GetViewStateValue
-
-#### Returns
-
-`Telerik.Web.UI.T` 
 

@@ -23,19 +23,6 @@ Creates a new instance of the , making deep copies of the object's values.
 
 `Telerik.Web.UI.PivotGrid.Core.Cloneable` A clone of the current object.
 
-###  CreateInstanceCore
-
-When implemented in a derived class, creates a new instance of the  derived class.
-
-#### Remarks
-Do not call this method directly (except when calling base in an implementation). This method is called internally by the  method whenever a new instance of the  is created.
-            Notes to Inheritors.
-            Every  derived class must implement this method. A typical implementation is to simply call the default constructor and return the result.
-
-#### Returns
-
-`Telerik.Web.UI.PivotGrid.Core.Cloneable` New instance for cloning.
-
 ###  CloneCore
 
 Makes the instance a clone (deep copy) of the specified .
@@ -70,4 +57,17 @@ The source that is about to be copied.
 #### Returns
 
 `Telerik.Web.UI.PivotGrid.Core.T` Clone of  of type . If source is null - default().
+
+###  CreateInstanceCore
+
+When implemented in a derived class, creates a new instance of the  derived class.
+
+#### Remarks
+Do not call this method directly (except when calling base in an implementation). This method is called internally by the  method whenever a new instance of the  is created.
+            Notes to Inheritors.
+            Every  derived class must implement this method. A typical implementation is to simply call the default constructor and return the result.
+
+#### Returns
+
+`Telerik.Web.UI.PivotGrid.Core.Cloneable` New instance for cloning.
 

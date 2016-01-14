@@ -17,10 +17,9 @@ Contains properties related to messages appearing as tooltips for various grid
 
 ## Properties
 
-###  DropHereToReorder `String`
+###  ColumnResizeTooltipFormatString `String`
 
-Gets or sets a string that will be displayed as a tooltip when you start dragging
-            a column header trying to reorder columns.
+The format string used for the tooltip when resizing a column
 
 ###  DragToGroupOrReorder `String`
 
@@ -32,19 +31,12 @@ Gets or sets a string that will be displayed as a tooltip when you hover a colum
 Gets or sets a string that will be displayed as a tooltip when you hover the
             resizing handle of a column.
 
+###  DropHereToReorder `String`
+
+Gets or sets a string that will be displayed as a tooltip when you start dragging
+            a column header trying to reorder columns.
+
 ###  PagerTooltipFormatString `String`
 
 The format string used for the tooltip when using Ajax scroll paging or the Slider pager
-
-###  ColumnResizeTooltipFormatString `String`
-
-The format string used for the tooltip when resizing a column
-
-## Methods
-
-###  GetViewStateValue
-
-#### Returns
-
-`Telerik.Web.UI.T` 
 

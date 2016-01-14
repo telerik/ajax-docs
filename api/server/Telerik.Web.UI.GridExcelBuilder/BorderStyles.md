@@ -16,17 +16,9 @@ BorderStyles element
 
 ## Properties
 
-###  Weight `Double`
+###  Attributes `IAttributesCollection`
 
-Border weight. Max value is 3.
-
-###  LineStyle `LineStyle`
-
-Border line style
-
-###  PositionType `PositionType`
-
-Border position
+Collection of the attributes of the current element
 
 ###  Color `Color`
 
@@ -36,11 +28,33 @@ Border color
 
 Collection of inner elements
 
-###  Attributes `IAttributesCollection`
+###  LineStyle `LineStyle`
 
-Collection of the attributes of the current element
+Border line style
+
+###  PositionType `PositionType`
+
+Border position
+
+###  Weight `Double`
+
+Border weight. Max value is 3.
 
 ## Methods
+
+###  AppendAttributes
+
+Appends the attirbutes to the output
+
+#### Parameters
+
+#### sb `System.Text.StringBuilder`
+
+StringBuilder object that holds the rendered output
+
+#### Returns
+
+`System.Void` 
 
 ###  Render
 
@@ -59,20 +73,6 @@ StringBuilder object that holds the rendered output
 ###  RenderChildElements
 
 Renders the child elements
-
-#### Parameters
-
-#### sb `System.Text.StringBuilder`
-
-StringBuilder object that holds the rendered output
-
-#### Returns
-
-`System.Void` 
-
-###  AppendAttributes
-
-Appends the attirbutes to the output
 
 #### Parameters
 

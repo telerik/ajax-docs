@@ -18,18 +18,6 @@ Telerik RadUpload
 
 ## Properties
 
-###  Localization `UploadStrings`
-
-Gets the localization.
-
-###  LocalizationPath `UploadStrings`
-
-Gets or sets a value indicating where  will look for its .resx localization files.
-
-###  InputSize `Int32`
-
-Gets or sets the size of the file input field
-
 ###  AllowedFileExtensions `String[]`
 
 Gets or sets the allowed file extensions for uploading.
@@ -47,6 +35,11 @@ Gets or sets the allowed MIME types for uploading.
 Set this property to string.Empty in order to prevent the
                 mime type checking.
 
+###  ClientIDMode `ClientIDMode`
+
+This property is overridden in order to support controls which implement INamingContainer.
+            The default value is changed to "AutoID".
+
 ###  ControlObjectsVisibility `ControlObjectsVisibility`
 
 Gets or sets the value indicating which control objects will be displayed.
@@ -58,6 +51,43 @@ ControlObjectVisibility enum members
                         DeleteSelectedButtonAllCheckBoxes | RemoveButtons | ClearButtons | AddButton |
                         DeleteSelectedButton
 
+###  CssClassFormatString `String`
+
+The CssClass property will now be used instead of the former Skin 
+            and will be modified in AddAttributesToRender()
+
+###  Culture `CultureInfo`
+
+Gets or sets the selected culture. Localization strings will be loaded based on this value.
+
+###  EnableAjaxSkinRendering `String`
+
+Gets or sets the value, indicating whether to render the skin CSS files during Ajax requests
+
+#### Remarks
+If EnableAjaxSkinRendering is set to false you will have to register the needed control base CSS file by hand when adding/showing the control with Ajax.
+
+###  EnableEmbeddedBaseStylesheet `Boolean`
+
+Gets or sets the value, indicating whether to render the link to the embedded base stylesheet of the control or not.
+
+#### Remarks
+If EnableEmbeddedBaseStylesheet is set to false you will have to register the needed control base CSS file by hand.
+
+###  EnableEmbeddedScripts `Boolean`
+
+Gets or sets the value, indicating whether to render script references to the embedded scripts or not.
+
+#### Remarks
+If EnableEmbeddedScripts is set to false you will have to register the needed Scripts files by hand.
+
+###  EnableEmbeddedSkins `String`
+
+Gets or sets the value, indicating whether to render links to the embedded skins or not.
+
+#### Remarks
+If EnableEmbeddedSkins is set to false you will have to register the needed CSS files by hand.
+
 ###  EnableFileInputSkinning `Boolean`
 
 Gets or sets the value indicating whether the file input fields skinning will be enabled.
@@ -66,22 +96,43 @@ Gets or sets the value indicating whether the file input fields skinning will be
 The <input type=file> DHTML elements are not skinnable by default. If the
             EnableFileInputSkinning is true some browsers can have strange behavior.
 
+###  FocusOnLoad `Boolean`
+
+Gets or sets the value indicating whether the first file input field of RadUpload should get
+            the focus on itself on load.
+
 ###  InitialFileInputsCount `Int32`
 
 Gets or sets the initial count of file input fields, which will appear in RadUpload.
+
+###  InputSize `Int32`
+
+Gets or sets the size of the file input field
 
 ###  InvalidFiles `UploadedFileCollection`
 
 Provides access to the invalid files uploaded by the RadUpload
             instance. This is populated only if a validation was set.
 
+###  IsSkinSet `String`
+
+For internal use.
+
+###  IsUploadModuleRegistered `Boolean`
+
+Gets a value indicating whether the RadUpload HttpModule is registered in the current web.application
+
 ###  Language `String`
 
 Gets or sets the localization language of the RadUpload user interface.
 
-###  Culture `CultureInfo`
+###  Localization `UploadStrings`
 
-Gets or sets the selected culture. Localization strings will be loaded based on this value.
+Gets the localization.
+
+###  LocalizationPath `UploadStrings`
+
+Gets or sets a value indicating where  will look for its .resx localization files.
 
 ###  MaxFileInputsCount `Int32`
 
@@ -98,15 +149,20 @@ Gets or sets the maximum file size allowed for uploading in bytes.
 #### Remarks
 Set this property to 0 in order to prevent the file size checking.
 
+###  OnClientAdded `String`
+
+Gets or sets the name of the client-side function which will be executed after 
+            a new file input is added to a RadUpload instance.
+
 ###  OnClientAdding `String`
 
 Gets or sets the name of the client-side function which will be executed before 
             a new file input is added to a RadUpload instance.
 
-###  OnClientAdded `String`
+###  OnClientClearing `String`
 
-Gets or sets the name of the client-side function which will be executed after 
-            a new file input is added to a RadUpload instance.
+Gets or sets the name of the client-side function which will be executed before a file input field is
+            cleared in a RadUpload instance using the Clear button.
 
 ###  OnClientDeleting `String`
 
@@ -117,15 +173,6 @@ Gets or sets the name of the client-side function which will be executed before 
 If you want to cancel the deleting of the file input return
             false in the javascript handler.
 
-###  OnClientClearing `String`
-
-Gets or sets the name of the client-side function which will be executed before a file input field is
-            cleared in a RadUpload instance using the Clear button.
-
-###  OnClientFileSelected `String`
-
-Gets or sets the name of the client-side function which will be executed when a file input value changed.
-
 ###  OnClientDeletingSelected `String`
 
 Gets or sets the name of the client-side function which will be executed before the selected file inputs are removed.
@@ -133,6 +180,10 @@ Gets or sets the name of the client-side function which will be executed before 
 #### Remarks
 You can cancel the removing of the file input items by returning
             false in the javascript function.
+
+###  OnClientFileSelected `String`
+
+Gets or sets the name of the client-side function which will be executed when a file input value changed.
 
 ###  OverwriteExistingFiles `Boolean`
 
@@ -151,6 +202,39 @@ Gets or sets a value indicating if the file input fields should be read-only
 When users type into the box and the filename is not valid, the form submission
             in Internet Explorer could not proceed or even display a javascript error. This
             behavior can be avoided by setting the ReadOnlyFileInputs property to true.
+
+###  RegisterWithScriptManager `Boolean`
+
+Gets or sets the value, indicating whether to register with the ScriptManager control on the page.
+
+#### Remarks
+If RegisterWithScriptManager is set to false the control can be rendered on the page using Web Services or normal callback requests/page methods.
+
+###  RenderMode `RenderMode`
+
+Specifies the rendering mode of the control. Setting the mode to Lightweight will yield
+            HTML 5/CSS 3 html and css.
+
+#### Remarks
+Lightweight rendering mode might change the outlook of the component in some older browsers
+            that don't support CSS3/HTML5.
+
+###  ResolvedRenderMode `RenderMode`
+
+Returns resolved RenderMode should the original value was Auto
+
+###  RuntimeSkin `String`
+
+Gets the real skin name for the control user interface. If Skin is not set, returns
+            "Default", otherwise returns Skin.
+
+###  Skin `String`
+
+Gets or sets the skin name for the control user interface.
+
+#### Remarks
+If this property is not set, the control will render using the skin named "Default".
+            If EnableEmbeddedSkins is set to false, the control will not render skin.
 
 ###  TargetFolder `String`
 
@@ -181,133 +265,11 @@ The collection contains only the files uploaded with the particular instance of
             a HttpPostedFile collection and each RadUpload instance has its own
             uploaded files as UploadedFileCollection.
 
-###  FocusOnLoad `Boolean`
-
-Gets or sets the value indicating whether the first file input field of RadUpload should get
-            the focus on itself on load.
-
-###  IsUploadModuleRegistered `Boolean`
-
-Gets a value indicating whether the RadUpload HttpModule is registered in the current web.application
-
-###  RegisterWithScriptManager `Boolean`
-
-Gets or sets the value, indicating whether to register with the ScriptManager control on the page.
-
-#### Remarks
-If RegisterWithScriptManager is set to false the control can be rendered on the page using Web Services or normal callback requests/page methods.
-
-###  Skin `String`
-
-Gets or sets the skin name for the control user interface.
-
-#### Remarks
-If this property is not set, the control will render using the skin named "Default".
-            If EnableEmbeddedSkins is set to false, the control will not render skin.
-
-###  IsSkinSet `String`
-
-For internal use.
-
-###  EnableEmbeddedScripts `Boolean`
-
-Gets or sets the value, indicating whether to render script references to the embedded scripts or not.
-
-#### Remarks
-If EnableEmbeddedScripts is set to false you will have to register the needed Scripts files by hand.
-
-###  EnableEmbeddedSkins `String`
-
-Gets or sets the value, indicating whether to render links to the embedded skins or not.
-
-#### Remarks
-If EnableEmbeddedSkins is set to false you will have to register the needed CSS files by hand.
-
-###  EnableEmbeddedBaseStylesheet `Boolean`
-
-Gets or sets the value, indicating whether to render the link to the embedded base stylesheet of the control or not.
-
-#### Remarks
-If EnableEmbeddedBaseStylesheet is set to false you will have to register the needed control base CSS file by hand.
-
-###  RuntimeSkin `String`
-
-Gets the real skin name for the control user interface. If Skin is not set, returns
-            "Default", otherwise returns Skin.
-
-###  EnableAjaxSkinRendering `String`
-
-Gets or sets the value, indicating whether to render the skin CSS files during Ajax requests
-
-#### Remarks
-If EnableAjaxSkinRendering is set to false you will have to register the needed control base CSS file by hand when adding/showing the control with Ajax.
-
-###  ClientStateFieldID `String`
-
-###  RenderMode `RenderMode`
-
-Specifies the rendering mode of the control. Setting the mode to Lightweight will yield
-            HTML 5/CSS 3 html and css.
-
-#### Remarks
-Lightweight rendering mode might change the outlook of the component in some older browsers
-            that don't support CSS3/HTML5.
-
-###  ResolvedRenderMode `RenderMode`
-
-Returns resolved RenderMode should the original value was Auto
-
-###  CssClassFormatString `String`
-
-The CssClass property will now be used instead of the former Skin 
-            and will be modified in AddAttributesToRender()
-
-###  ClientIDMode `ClientIDMode`
-
-This property is overridden in order to support controls which implement INamingContainer.
-            The default value is changed to "AutoID".
-
-###  ScriptManager `ScriptManager`
-
-###  RadScriptManager `ScriptManager`
-
 ## Methods
 
-###  DescribeClientProperties
+###  ApplyConditionalRendering
 
-#### Returns
-
-`System.Void` 
-
-###  DescribeClientEvents
-
-#### Returns
-
-`System.Void` 
-
-###  OnValidatingFile
-
-Fires the ValidatingFile event.
-
-#### Returns
-
-`System.Boolean` 
-
-###  OnFileExists
-
-Fires the FileExists event.
-
-#### Returns
-
-`System.Void` 
-
-###  AddAttributesToRender
-
-#### Returns
-
-`System.Void` 
-
-###  OnPreRender
+Use this from RenderContents of the inheritor
 
 #### Returns
 
@@ -321,21 +283,13 @@ Code moved into this method from OnPreRender to make sure it executed when the f
 
 `System.Void` 
 
-###  RegisterScriptControl
+###  GetEmbeddedSkinNames
 
-Registers the control with the ScriptManager
-
-#### Returns
-
-`System.Void` 
-
-###  RegisterCssReferences
-
-Registers the CSS references
+Returns the names of all embedded skins. Used by Telerik.Web.Examples.
 
 #### Returns
 
-`System.Void` 
+`System.Collections.Generic.List`1` 
 
 ###  LoadClientState
 
@@ -348,96 +302,6 @@ Loads the client state data
 #### Returns
 
 `System.Void` 
-
-###  SaveClientState
-
-Saves the client state data
-
-#### Returns
-
-`System.String` 
-
-###  RenderClientStateField
-
-#### Returns
-
-`System.Void` 
-
-###  RenderBeginTag
-
-#### Returns
-
-`System.Void` 
-
-###  RenderEndTag
-
-#### Returns
-
-`System.Void` 
-
-###  Render
-
-#### Returns
-
-`System.Void` 
-
-###  RenderScriptsNoScriptManager
-
-#### Returns
-
-`System.Void` 
-
-###  RenderDescriptorsNoScriptManager
-
-#### Returns
-
-`System.Void` 
-
-###  RenderContents
-
-#### Returns
-
-`System.Void` 
-
-###  ApplyConditionalRendering
-
-Use this from RenderContents of the inheritor
-
-#### Returns
-
-`System.Void` 
-
-###  DescribeComponent
-
-#### Returns
-
-`System.Void` 
-
-###  DescribeProperty
-
-#### Returns
-
-`System.Void` 
-
-###  DescribeIDReferenceProperty
-
-#### Returns
-
-`System.Void` 
-
-###  DescribeEvent
-
-#### Returns
-
-`System.Void` 
-
-###  GetEmbeddedSkinNames
-
-Returns the names of all embedded skins. Used by Telerik.Web.Examples.
-
-#### Returns
-
-`System.Collections.Generic.List`1` 
 
 ###  LoadPostData
 
@@ -453,6 +317,22 @@ Executed when post data is loaded from the request
 
 `System.Boolean` 
 
+###  OnFileExists
+
+Fires the FileExists event.
+
+#### Returns
+
+`System.Void` 
+
+###  OnValidatingFile
+
+Fires the ValidatingFile event.
+
+#### Returns
+
+`System.Boolean` 
+
 ###  RaisePostDataChangedEvent
 
 Executed when post data changes should invoke a changed event
@@ -461,9 +341,27 @@ Executed when post data changes should invoke a changed event
 
 `System.Void` 
 
-###  GetViewStateValue
+###  RegisterCssReferences
+
+Registers the CSS references
 
 #### Returns
 
-`Telerik.Web.UI.T` 
+`System.Void` 
+
+###  RegisterScriptControl
+
+Registers the control with the ScriptManager
+
+#### Returns
+
+`System.Void` 
+
+###  SaveClientState
+
+Saves the client state data
+
+#### Returns
+
+`System.String` 
 

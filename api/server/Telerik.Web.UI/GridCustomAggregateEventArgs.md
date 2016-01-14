@@ -18,13 +18,13 @@ The event arguments passed when Telerik.Web.UI.RadGrid fires CustomAggregate eve
 
 ## Properties
 
-###  Item `GridItem`
-
-Gets the  in which the aggregate will be placed.
-
 ###  Column `GridColumn`
 
 Gets the column for which the custom aggregate should be calculated.
+
+###  Item `GridItem`
+
+Gets the  in which the aggregate will be placed.
 
 ###  Result `Object`
 

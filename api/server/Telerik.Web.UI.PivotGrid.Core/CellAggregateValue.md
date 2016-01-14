@@ -15,10 +15,6 @@ Contains the value of an Telerik.Web.UI.PivotGrid.Core.AggregateValue and the Te
 
 ## Properties
 
-###  RowGroup `IGroup`
-
-Gets the row  for which this values is generated.
-
 ###  ColumnGroup `IGroup`
 
 Gets the column  for which this values is generated.
@@ -27,21 +23,19 @@ Gets the column  for which this values is generated.
 
 Gets the  which produced the .
 
-###  Value `Object`
-
-Gets the value for the  some s produced by the .
-
 ###  FormattedValue `Object`
 
 Gets the string representation of the value with the 's string formats applied.
 
+###  RowGroup `IGroup`
+
+Gets the row  for which this values is generated.
+
+###  Value `Object`
+
+Gets the value for the  some s produced by the .
+
 ## Methods
-
-###  ToString
-
-#### Returns
-
-`System.String` 
 
 ###  Equals
 
@@ -60,4 +54,10 @@ Gets the string representation of the value with the 's string formats applied.
 #### Returns
 
 `System.Int32` 
+
+###  ToString
+
+#### Returns
+
+`System.String` 
 

@@ -16,6 +16,10 @@ Provides data for the E:Telerik.Web.UI.PivotGrid.Core.Fields.IFieldDescriptionPr
 
 ## Properties
 
+###  DescriptionsData `IFieldInfoData`
+
+Provides information about available fields/properties.
+
 ###  Error `Exception`
 
 Gets a value indicating which error occurred during an operation.
@@ -23,8 +27,4 @@ Gets a value indicating which error occurred during an operation.
 ###  State `Object`
 
 Gets the unique identifier for the asynchronous operation.
-
-###  DescriptionsData `IFieldInfoData`
-
-Provides information about available fields/properties.
 

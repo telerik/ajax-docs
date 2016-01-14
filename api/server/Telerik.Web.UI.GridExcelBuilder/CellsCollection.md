@@ -15,6 +15,10 @@ Cells collection
 
 ## Properties
 
+###  Count `Int32`
+
+Gets the number of elements contained in the ICollection. (Inherited from ICollection.)
+
 ###  IsFixedSize `Boolean`
 
 Gets a value indicating whether the IList has a fixed size.
@@ -23,17 +27,13 @@ Gets a value indicating whether the IList has a fixed size.
 
 Gets a value indicating whether the IList is read-only.
 
-###  Item `CellElement`
-
-Gets/sets the CellElement object at a given index
-
-###  Count `Int32`
-
-Gets the number of elements contained in the ICollection. (Inherited from ICollection.)
-
 ###  IsSynchronized `Boolean`
 
 Gets a value indicating whether access to the ICollection is synchronized (thread safe). (Inherited from ICollection.)
+
+###  Item `CellElement`
+
+Gets/sets the CellElement object at a given index
 
 ###  SyncRoot `Object`
 
@@ -63,6 +63,38 @@ Removes all items from the collection.
 
 `System.Void` 
 
+###  Contains
+
+Determines whether the collection contains a specific value.
+
+#### Parameters
+
+#### value `Telerik.Web.UI.GridExcelBuilder.CellElement`
+
+The object to locate in the collection.
+
+#### Returns
+
+`System.Boolean` true if the object is found in the collection; otherwise, false.
+
+###  CopyTo
+
+Copies the elements of the ICollection to an Array, starting at a particular Array index. (Inherited from ICollection.)
+
+#### Parameters
+
+#### array `Telerik.Web.UI.GridExcelBuilder.CellElement`
+
+The one-dimensional Array that is the destination of the elements copied from ICollection. The Array must have zero-based indexing.
+
+#### index `System.Int32`
+
+The zero-based index in array at which copying begins.
+
+#### Returns
+
+`System.Void` 
+
 ###  GetCellByName
 
 Gets a CellElement by given unique column name
@@ -77,19 +109,13 @@ Column name
 
 `Telerik.Web.UI.GridExcelBuilder.CellElement` CellElement object
 
-###  Contains
+###  GetEnumerator
 
-Determines whether the collection contains a specific value.
-
-#### Parameters
-
-#### value `Telerik.Web.UI.GridExcelBuilder.CellElement`
-
-The object to locate in the collection.
+Returns an enumerator that iterates through a collection. (Inherited from IEnumerable.)
 
 #### Returns
 
-`System.Boolean` true if the object is found in the collection; otherwise, false.
+`System.Collections.IEnumerator` An IEnumerator object that can be used to iterate through the collection.
 
 ###  IndexOf
 
@@ -150,30 +176,4 @@ The zero-based index of the item to remove.
 #### Returns
 
 `System.Void` 
-
-###  CopyTo
-
-Copies the elements of the ICollection to an Array, starting at a particular Array index. (Inherited from ICollection.)
-
-#### Parameters
-
-#### array `Telerik.Web.UI.GridExcelBuilder.CellElement`
-
-The one-dimensional Array that is the destination of the elements copied from ICollection. The Array must have zero-based indexing.
-
-#### index `System.Int32`
-
-The zero-based index in array at which copying begins.
-
-#### Returns
-
-`System.Void` 
-
-###  GetEnumerator
-
-Returns an enumerator that iterates through a collection. (Inherited from IEnumerable.)
-
-#### Returns
-
-`System.Collections.IEnumerator` An IEnumerator object that can be used to iterate through the collection.
 

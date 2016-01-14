@@ -17,85 +17,59 @@ Represents a column of buttons firing data-editing commands (Edit, InitInsert, P
 
 ## Properties
 
-###  ShowAddButton `Boolean`
+###  AddRecordImageUrl `String`
 
-Gets or sets a value indicating whether the Add Record button will be shown.
+Gets or sets the URL of the image for the Add Record button when 
+             is set to ImageButton.
 
-###  ShowEditButton `Boolean`
+###  AddRecordText `String`
 
-Gets or sets a value indicating whether the Edit button will be shown.
+Gets or sets the text of the Add New Record button in data items.
 
 ###  ButtonType `TreeListButtonColumnType`
 
 Gets or sets a value indicating the type of the button that will be rendered. 
             The type should be one of the specified by the  enumeration.
 
-###  UniqueName `String`
+###  CancelImageUrl `String`
 
-Gets or sets a unique name for this column. The unique name can be used to
-            reference particular columns, or cells within grid rows.
+Gets or sets the URL of the image for the Cancel button when 
+             is set to ImageButton.
 
 ###  CancelText `String`
 
 Gets or sets the text of the Cancel button in the edited items.
 
-###  EditText `String`
+###  ColumnType `String`
 
-Gets or sets the text value of the Edit button in the column cells.
+Returns a string which represents the type of the current column.
 
-###  UpdateText `String`
+###  DesignMode `Boolean`
 
-Gets or sets the text of the Update button in the edited items.
+Indicates if the control is in design-mode.
 
-###  AddRecordText `String`
+###  Display `Boolean`
 
-Gets or sets the text of the Add New Record button in data items.
-
-###  InsertText `String`
-
-Gets or sets the text of the Insert button in the insert items.
-
-###  AddRecordImageUrl `String`
-
-Gets or sets the URL of the image for the Add Record button when 
-             is set to ImageButton.
-
-###  InsertImageUrl `String`
-
-Gets or sets the URL of the image for the Insert button when 
-             is set to ImageButton.
-
-###  UpdateImageUrl `String`
-
-Gets or sets the URL of the image for the Update button when 
-             is set to ImageButton.
+Gets or sets a value indicating whether the cells corresponding to a column would be rendered with a 'display:none' style attribute (end-user-not-visible).
+            To completely prevent cells from rendering, set the  property to false, instead of the Display property.
 
 ###  EditImageUrl `String`
 
 Gets or sets the URL of the image for the Edit button when 
              is set to ImageButton.
 
-###  CancelImageUrl `String`
+###  EditText `String`
 
-Gets or sets the URL of the image for the Cancel button when 
-             is set to ImageButton.
+Gets or sets the text value of the Edit button in the column cells.
 
-###  ToolTip `String`
+###  FooterText `String`
 
-Gets or sets the title attribute that will be applied to the buttons.
+Use the FooterText property to specify your own or determine the current
+            text for the footer section of the column.
 
-###  Owner `RadTreeList`
+###  HeaderStyle `TableItemStyle`
 
-Gets a reference to the  object
-            to which the column belongs
-
-###  DesignMode `Boolean`
-
-Indicates if the control is in design-mode.
-
-###  ColumnType `String`
-
-Returns a string which represents the type of the current column.
+Style of the cell in the header item of the RadTreeList, corresponding to the column.
 
 ###  HeaderText `String`
 
@@ -105,32 +79,39 @@ Gets or sets the text which will appear in the header cell of the column.
 
 Gets or sets the tooltip of the header cell.
 
-###  FooterText `String`
+###  InsertImageUrl `String`
 
-Use the FooterText property to specify your own or determine the current
-            text for the footer section of the column.
+Gets or sets the URL of the image for the Insert button when 
+             is set to ImageButton.
 
-###  UniqueName `String`
+###  InsertText `String`
 
-Each column in Telerik RadTreeList has an UniqueName
-            property (string). This property is assigned automatically by the designer (or the
-            first time you want to access the columns if they are built dynamically).
-
-###  HeaderStyle `TableItemStyle`
-
-Style of the cell in the header item of the RadTreeList, corresponding to the column.
+Gets or sets the text of the Insert button in the insert items.
 
 ###  ItemStyle `TableItemStyle`
 
 Style of the cell in the item of the RadTreeList, corresponding to the column.
 
-###  Visible `Boolean`
+###  MaxWidth `Unit`
 
-Gets or sets a value indicating if the column and all corresponding cells would be rendered.
+Gets or sets maximum width of the column. Used when resizing.
 
-###  Sortable `Boolean`
+###  MinWidth `Unit`
 
-Should override if sorting will be disabled
+Gets or sets minimum width of the column. Used when resizing.
+
+###  OrderIndex `Int32`
+
+Gets or sets the order index of column used when reordering the columns.
+
+###  Owner `RadTreeList`
+
+Gets a reference to the  object
+            to which the column belongs
+
+###  Reorderable `Boolean`
+
+Gets or sets a value indicating whether the column can be reordered client-side.
 
 ###  Resizable `Boolean`
 
@@ -138,32 +119,60 @@ Gets or sets a value indicating whether the column can be resized client-side.
             You can use this property, by setting it to false, to disable resizing for a particular
             column, while preserving this functionality for all the other columns.
 
-###  Reorderable `Boolean`
+###  ShowAddButton `Boolean`
 
-Gets or sets a value indicating whether the column can be reordered client-side.
+Gets or sets a value indicating whether the Add Record button will be shown.
 
-###  MinWidth `Unit`
+###  ShowEditButton `Boolean`
 
-Gets or sets minimum width of the column. Used when resizing.
+Gets or sets a value indicating whether the Edit button will be shown.
 
-###  MaxWidth `Unit`
+###  Sortable `Boolean`
 
-Gets or sets maximum width of the column. Used when resizing.
-
-###  Display `Boolean`
-
-Gets or sets a value indicating whether the cells corresponding to a column would be rendered with a 'display:none' style attribute (end-user-not-visible).
-            To completely prevent cells from rendering, set the  property to false, instead of the Display property.
-
-###  OrderIndex `Int32`
-
-Gets or sets the order index of column used when reordering the columns.
+Should override if sorting will be disabled
 
 ###  SortExpression `String`
 
 The string representing a filed-name from the DataSource that should be used when grid sorts by this column.
 
+###  ToolTip `String`
+
+Gets or sets the title attribute that will be applied to the buttons.
+
+###  UniqueName `String`
+
+Gets or sets a unique name for this column. The unique name can be used to
+            reference particular columns, or cells within grid rows.
+
+###  UniqueName `String`
+
+Each column in Telerik RadTreeList has an UniqueName
+            property (string). This property is assigned automatically by the designer (or the
+            first time you want to access the columns if they are built dynamically).
+
+###  UpdateImageUrl `String`
+
+Gets or sets the URL of the image for the Update button when 
+             is set to ImageButton.
+
+###  UpdateText `String`
+
+Gets or sets the text of the Update button in the edited items.
+
+###  Visible `Boolean`
+
+Gets or sets a value indicating if the column and all corresponding cells would be rendered.
+
 ## Methods
+
+###  GetSortExpression
+
+By default returns the SortExpression of the column. If the SortExpression is not set explicitly, it would be calculated, based on the
+            DataField of the column.
+
+#### Returns
+
+`System.String` 
 
 ###  InitializeCell
 
@@ -182,24 +191,6 @@ An integer value representing the position of the column.
 #### inItem `Telerik.Web.UI.TreeListItem`
 
 A TreeListItem which will hold the current column cell.
-
-#### Returns
-
-`System.Void` 
-
-###  InitializeEditItemCell
-
-Initializes the cells of the edit command column when in edit mode.
-
-#### Parameters
-
-#### cell `System.Web.UI.WebControls.TableCell`
-
-A TableCell which will hold the content.
-
-#### inItem `Telerik.Web.UI.TreeListEditableItem`
-
-The TreeListEditableItem which will hold the current cell.
 
 #### Returns
 
@@ -228,6 +219,24 @@ The TreeListItem to which the cell will be added.
 
 `System.Void` 
 
+###  InitializeEditItemCell
+
+Initializes the cells of the edit command column when in edit mode.
+
+#### Parameters
+
+#### cell `System.Web.UI.WebControls.TableCell`
+
+A TableCell which will hold the content.
+
+#### inItem `Telerik.Web.UI.TreeListEditableItem`
+
+The TreeListEditableItem which will hold the current cell.
+
+#### Returns
+
+`System.Void` 
+
 ###  PrepareCell
 
 Prepares the cell of the given item when the treelist is rendered.
@@ -235,19 +244,4 @@ Prepares the cell of the given item when the treelist is rendered.
 #### Returns
 
 `System.Void` 
-
-###  CompareTo
-
-#### Returns
-
-`System.Int32` 
-
-###  GetSortExpression
-
-By default returns the SortExpression of the column. If the SortExpression is not set explicitly, it would be calculated, based on the
-            DataField of the column.
-
-#### Returns
-
-`System.String` 
 

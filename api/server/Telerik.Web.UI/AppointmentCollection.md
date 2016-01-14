@@ -59,21 +59,6 @@ The zero-based index in array at which copying begins.
 
 `System.Void` 
 
-###  IndexOf
-
-Searches for the specified Appointment and returns the zero-based index of the
-            	first occurrence within the entire AppointmentCollection.
-
-#### Parameters
-
-#### appointment `Telerik.Web.UI.Appointment`
-
-The Appointment to locate in the AppointmentCollection.
-
-#### Returns
-
-`System.Int32` The zero-based index of the first occurrence of value within the entire AppointmentCollection, if found; otherwise, -1.
-
 ###  FindByID
 
 Searches for an Appointment with the specified ID and returns a reference to it.
@@ -137,10 +122,10 @@ The RecurrenceState to search for.
             	with the specified RecurrenceParentID and
             	RecurrenceState, if found.
 
-###  GetAppointmentsStartingInRange
+###  GetAppointmentsEnclosingRange
 
 Searches for all Appointments that
-            	start in the specified time range and returns a generic IList containing them.
+            	are fully contained within the specified time range.
 
 #### Parameters
 
@@ -155,7 +140,7 @@ The end of the time range.
 #### Returns
 
 `System.Collections.Generic.IList`1` A generic IList containing the Appointments
-            	that start in the specified time range.
+            	that are fully contained within the specified time range.
 
 ###  GetAppointmentsInRange
 
@@ -177,10 +162,10 @@ The end of the time range.
 `System.Collections.Generic.IList`1` A generic IList containing the Appointments
             	that overlap with the specified time range.
 
-###  GetAppointmentsEnclosingRange
+###  GetAppointmentsStartingInRange
 
 Searches for all Appointments that
-            	are fully contained within the specified time range.
+            	start in the specified time range and returns a generic IList containing them.
 
 #### Parameters
 
@@ -195,7 +180,30 @@ The end of the time range.
 #### Returns
 
 `System.Collections.Generic.IList`1` A generic IList containing the Appointments
-            	that are fully contained within the specified time range.
+            	that start in the specified time range.
+
+###  GetEnumerator
+
+Returns an enumerator for the entire AppointmentCollection.
+
+#### Returns
+
+`System.Collections.Generic.IEnumerator`1` An IEnumerator for the entire AppointmentCollection.
+
+###  IndexOf
+
+Searches for the specified Appointment and returns the zero-based index of the
+            	first occurrence within the entire AppointmentCollection.
+
+#### Parameters
+
+#### appointment `Telerik.Web.UI.Appointment`
+
+The Appointment to locate in the AppointmentCollection.
+
+#### Returns
+
+`System.Int32` The zero-based index of the first occurrence of value within the entire AppointmentCollection, if found; otherwise, -1.
 
 ###  ToArray
 
@@ -206,12 +214,4 @@ Copies the elements of the AppointmentCollection
 
 `Telerik.Web.UI.Appointment[]` An Appointment array containing copies of the elements of the
             	AppointmentCollection.
-
-###  GetEnumerator
-
-Returns an enumerator for the entire AppointmentCollection.
-
-#### Returns
-
-`System.Collections.Generic.IEnumerator`1` An IEnumerator for the entire AppointmentCollection.
 

@@ -16,10 +16,6 @@ Defines the client events handlers.
 
 ## Properties
 
-###  OnLoad `String`
-
-Fired when the diagram control is loaded on the page
-
 ###  OnAdd `String`
 
 Fired when the user adds new shape or connection.The event handler function context (available via the this keyword) will be set to the widget instance.
@@ -51,6 +47,10 @@ Fired when the location or size of an item are changed.
 ###  OnItemRotate `String`
 
 Fired when an item is rotated.
+
+###  OnLoad `String`
+
+Fired when the diagram control is loaded on the page
 
 ###  OnMouseEnter `String`
 

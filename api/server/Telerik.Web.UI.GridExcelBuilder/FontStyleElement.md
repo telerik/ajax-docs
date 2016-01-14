@@ -16,39 +16,53 @@ FontStyleElement object
 
 ## Properties
 
-###  Underline `Boolean`
+###  Attributes `IAttributesCollection`
 
-Font underline
-
-###  Size `Double`
-
-Font size
-
-###  Italic `Boolean`
-
-Font italic
-
-###  FontName `String`
-
-Font name
-
-###  Color `Color`
-
-Font color
+Collection of the attributes of the current element
 
 ###  Bold `Boolean`
 
 Font bold
 
+###  Color `Color`
+
+Font color
+
+###  FontName `String`
+
+Font name
+
 ###  InnerElements `IElementsCollection`
 
 Collection of inner elements
 
-###  Attributes `IAttributesCollection`
+###  Italic `Boolean`
 
-Collection of the attributes of the current element
+Font italic
+
+###  Size `Double`
+
+Font size
+
+###  Underline `Boolean`
+
+Font underline
 
 ## Methods
+
+###  AppendAttributes
+
+Appends the attirbutes to the output
+
+#### Parameters
+
+#### sb `System.Text.StringBuilder`
+
+StringBuilder object that holds the rendered output
+
+#### Returns
+
+`System.Void` 
 
 ###  Render
 
@@ -67,20 +81,6 @@ StringBuilder object that holds the rendered output
 ###  RenderChildElements
 
 Renders the child elements
-
-#### Parameters
-
-#### sb `System.Text.StringBuilder`
-
-StringBuilder object that holds the rendered output
-
-#### Returns
-
-`System.Void` 
-
-###  AppendAttributes
-
-Appends the attirbutes to the output
 
 #### Parameters
 

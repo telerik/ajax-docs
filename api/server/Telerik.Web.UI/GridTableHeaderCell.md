@@ -23,3 +23,10 @@ A class extending System.Web.UI.WebControls.TableHeaderCell used for a base clas
 
 Gets or sets the id attribute of the cell.
 
+###  ParentHeaderCell `GridTableHeaderCell`
+
+Gets the parent header cell
+
+#### Remarks
+The property will return a value if multi-column headers are used.
+

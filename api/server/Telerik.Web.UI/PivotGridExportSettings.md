@@ -31,31 +31,11 @@ A string specifying the name (without the extension) of the file that will be
 Specifies whether all records will be exported or merely those on the current
             page.
 
-###  UseItemStyles `Boolean`
-
-Determines whether the RadPivotGrid styles will be applied to the exported files
-
 ###  OpenInNewWindow `Boolean`
 
 Opens the exported grid in a new instead of the same page.
 
-## Methods
+###  UseItemStyles `Boolean`
 
-###  TrackViewState
-
-#### Returns
-
-`System.Void` 
-
-###  LoadViewState
-
-#### Returns
-
-`System.Void` 
-
-###  SaveViewState
-
-#### Returns
-
-`System.Object` 
+Determines whether the RadPivotGrid styles will be applied to the exported files
 

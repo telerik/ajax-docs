@@ -20,25 +20,9 @@ RadTreeList PDF expand/collapse cell style
 
 ## Properties
 
-###  ExpandText `String`
+###  CollapseImageHeight `Unit`
 
-Represents the text that replaces the expand image
-
-###  CollapseText `String`
-
-Represents the text that replaces the collapse image
-
-###  ExpandImageUrl `String`
-
-Represents the path to the expand image
-
-###  ExpandImageWidth `Unit`
-
-Width of the expand image.
-
-###  ExpandImageHeight `Unit`
-
-Height of the expand image.
+Height of the collapse image.
 
 ###  CollapseImageUrl `String`
 
@@ -48,29 +32,45 @@ Represents the path to the collapse image
 
 Width of the collapse image.
 
-###  CollapseImageHeight `Unit`
+###  CollapseText `String`
 
-Height of the collapse image.
+Represents the text that replaces the collapse image
 
-###  LineHeight `Unit`
+###  ExpandImageHeight `Unit`
 
-LineHeight is not used for ExpandCollapseCellStyle
+Height of the expand image.
+
+###  ExpandImageUrl `String`
+
+Represents the path to the expand image
+
+###  ExpandImageWidth `Unit`
+
+Width of the expand image.
+
+###  ExpandText `String`
+
+Represents the text that replaces the expand image
 
 ###  IsDefault `Boolean`
 
 Returns true if none of the properties have been set
 
-###  Wrap `Boolean`
+###  LineHeight `Unit`
 
-Forced word wrap is not supported for PDF export. Automatic word wrap is available (always on) if there are whitespace characters in the content.
+LineHeight is not used for ExpandCollapseCellStyle
+
+###  LineHeight `Unit`
+
+Determines the line height
 
 ###  VerticalAlign `VerticalAlign`
 
 Vertical align is not supported
 
-###  LineHeight `Unit`
+###  Wrap `Boolean`
 
-Determines the line height
+Forced word wrap is not supported for PDF export. Automatic word wrap is available (always on) if there are whitespace characters in the content.
 
 ## Methods
 

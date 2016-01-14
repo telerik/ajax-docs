@@ -24,23 +24,23 @@ Limits for both occurrence count and end date can be specified via the
 
 ## Properties
 
-###  Start `DateTime`
-
-The start of the recurring event.
-
 ###  EventDuration `TimeSpan`
 
 The duration of the recurring event.
+
+###  MaxOccurrences `Int32`
+
+Optional limit for the number of occurrences. Defaults to no limit
+            (Int32.MaxInt).
 
 ###  RecursUntil `DateTime`
 
 Optional end date for the recurring appointment. Defaults to no end date
             (DateTime.MaxValue).
 
-###  MaxOccurrences `Int32`
+###  Start `DateTime`
 
-Optional limit for the number of occurrences. Defaults to no limit
-            (Int32.MaxInt).
+The start of the recurring event.
 
 ## Methods
 
@@ -61,14 +61,6 @@ An object to compare with this instance.
                  and equals the value of this instance;
                 otherwise, false.
 
-###  GetHashCode
-
-Overriden. Returns the hash code for this instance.
-
-#### Returns
-
-`System.Int32` 
-
 ###  Equals
 
 Overloaded. Overridden. Returns a value indicating whether this instance is equal
@@ -84,6 +76,14 @@ An  object to compare with this instance.
 
 `System.Boolean` true if value equals the value of this instance;
             otherwise, false.
+
+###  GetHashCode
+
+Overriden. Returns the hash code for this instance.
+
+#### Returns
+
+`System.Int32` 
 
 ###  op_Equality
 

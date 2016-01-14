@@ -25,14 +25,6 @@ Gets the number of unicode ranges.
 
 ## Methods
 
-###  LoadRanges
-
-Loads all the unicode ranges.
-
-#### Returns
-
-`System.Void` 
-
 ###  GetRange
 
 Locates the  for the supplied character.
@@ -45,6 +37,14 @@ Locates the  for the supplied character.
 
 `Telerik.Pdf.Gdi.UnicodeRange` The  object housing c or null 
                 if a range does not exist for c.
+
+###  LoadRanges
+
+Loads all the unicode ranges.
+
+#### Returns
+
+`System.Void` 
 
 ###  MapCharacter
 

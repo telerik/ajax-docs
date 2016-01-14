@@ -17,11 +17,11 @@ This Class is responsible for getting the sort
 
 ## Properties
 
-###  SortExpressionEntries `SortEntryCollection`
-
-Gets the sort expression entries.
-
 ###  DataModelID `String`
 
 Gets or sets the model id to whom this filters applies
+
+###  SortExpressionEntries `SortEntryCollection`
+
+Gets the sort expression entries.
 

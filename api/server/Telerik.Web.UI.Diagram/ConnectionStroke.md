@@ -20,11 +20,11 @@ Defines the stroke configuration.
 
 Defines the highlight color when the pointer is hovering over the connection.
 
-###  Width `Double`
-
-Defines the thickness or width of the connection's stroke.
-
 ###  DashType `StrokeDashType`
 
 The dash type of the connection.
+
+###  Width `Double`
+
+Defines the thickness or width of the connection's stroke.
 

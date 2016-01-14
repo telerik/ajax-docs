@@ -17,14 +17,14 @@ Provides data for the E:Telerik.Web.UI.RadTreeView.NodeEdit event of the Telerik
 
 ## Properties
 
-###  Text `String`
-
-Gets the text which the user entered during node editing.
-
 ###  Node `RadTreeNode`
 
 Gets the referenced node in the  control when the event is raised.
 
 #### Remarks
 Use this property to programmatically access the node referenced in the  control when the event is raised.
+
+###  Text `String`
+
+Gets the text which the user entered during node editing.
 

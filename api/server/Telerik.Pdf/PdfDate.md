@@ -18,11 +18,3 @@ The format of the PDF date is defined in section 3.8.2 of the
 * System.Object
 * Telerik.Pdf.PdfDate
 
-## Methods
-
-###  Format
-
-#### Returns
-
-`System.String` 
-

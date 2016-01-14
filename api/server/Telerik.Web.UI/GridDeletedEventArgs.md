@@ -26,13 +26,13 @@ Gets the rows affected from the operation that changed the  data.
 Gets the exception related with the operation. The property value will be
             'null' if no exception occured during the operation.
 
-###  Item `GridEditableItem`
-
-Gets the  caused the event.
-
 ###  ExceptionHandled `Exception`
 
 Gets or sets a value which if set to 'true' and exception was thrown
             will cause the  to skip throwing the exception
             and will let the user handle it.
+
+###  Item `GridEditableItem`
+
+Gets the  caused the event.
 

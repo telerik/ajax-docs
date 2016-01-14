@@ -25,20 +25,6 @@ Gets and sets XML document that contains skin properties.
 
 ## Methods
 
-###  IsEmpty
-
-Checks if skin is not specified for chart.
-
-#### Parameters
-
-#### name `System.String`
-
-Skin name
-
-#### Returns
-
-`System.Boolean` Whether skin is not specified for chart or not
-
 ###  ApplyTo
 
 Applies skin to given chart
@@ -70,4 +56,18 @@ Skin name
 #### Returns
 
 `System.Void` 
+
+###  IsEmpty
+
+Checks if skin is not specified for chart.
+
+#### Parameters
+
+#### name `System.String`
+
+Skin name
+
+#### Returns
+
+`System.Boolean` Whether skin is not specified for chart or not
 

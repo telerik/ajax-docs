@@ -6,7 +6,8 @@ description: Telerik.Web.UI.Calendar.MonthYearPickerClientEvents
 
 # Telerik.Web.UI.Calendar.MonthYearPickerClientEvents
 
-Summary description for DatePickerClientEvents.
+Summary description for MonthYearPickerClientEvents.
+            See http://docs.telerik.com/devtools/aspnet-ajax/controls/monthyearpicker/client-side-programming/events/overview.html Client Eventsfor more information.
 
 ## Inheritance Hierarchy
 
@@ -25,13 +26,16 @@ Gets or sets the name of the client-side event handler that is executed whenever
 
 Gets or sets the name of the client-side event handler that is executed whenever the selected month of the picker is changed.
 
-###  OnYearSelected `String`
+###  OnPopupClosing `String`
 
-Gets or sets the name of the client-side event handler that is executed whenever the selected year of the picker is changed.
+Gets or sets the name of the client-side event handler that is executed prior to
+            closing the calendar popup.
 
-###  OnViewChanged `String`
-
-Gets or sets the name of the client-side event handler that is executed whenever the years view is changed.
+#### Remarks
+There can be some conditions you do want not to close the calendar popup on
+                click over it. Then you should cancel the event either by return false; or
+                set its argument args.CancelClose = true;
+            <script type="text/javascript">function Closing(sender, args){    args.CancelClose = true;    //or    return false;}</script><radCln:RadDatePicker ID="RadDatePicker1" runat="server">    <ClientEvents OnPopupClosing="Closing"/></radCln:RadDatePicker>
 
 ###  OnPopupOpening `String`
 
@@ -49,22 +53,11 @@ There can be some conditions you do want not to open the calendar popup on
                 the DateInput one.
             <script type="text/javascript">function Opening(sender, args){    args.CancelCalendarSynchronize = true;    sender.Calendar.NavigateToDate([2006,12,19]);}</script><radCln:RadDatePicker ID="RadDatePicker1" runat="server" >    <ClientEvents OnPopupOpening="Opening"/></radCln:RadDatePicker>
 
-###  OnPopupClosing `String`
+###  OnViewChanged `String`
 
-Gets or sets the name of the client-side event handler that is executed prior to
-            closing the calendar popup.
+Gets or sets the name of the client-side event handler that is executed whenever the years view is changed.
 
-#### Remarks
-There can be some conditions you do want not to close the calendar popup on
-                click over it. Then you should cancel the event either by return false; or
-                set its argument args.CancelClose = true;
-            <script type="text/javascript">function Closing(sender, args){    args.CancelClose = true;    //or    return false;}</script><radCln:RadDatePicker ID="RadDatePicker1" runat="server">    <ClientEvents OnPopupClosing="Closing"/></radCln:RadDatePicker>
+###  OnYearSelected `String`
 
-## Methods
-
-###  GetViewStateValue
-
-#### Returns
-
-`Telerik.Web.UI.T` 
+Gets or sets the name of the client-side event handler that is executed whenever the selected year of the picker is changed.
 

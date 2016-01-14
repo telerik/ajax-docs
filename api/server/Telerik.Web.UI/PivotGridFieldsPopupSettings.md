@@ -17,9 +17,9 @@ The class holding all properties associated with the Telerik.Web.UI.RadPivotGrid
 
 ## Properties
 
-###  RowFieldsMinCount `Int32`
+###  AggregateFieldsMinCount `Int32`
 
-The minimum amount of row fields that should the  Row zone contain
+The minimum amount of aggregate fields that should the  Aggregate zone contain
             in order for the popup to appear.
 
 ###  ColumnFieldsMinCount `Int32`
@@ -27,13 +27,13 @@ The minimum amount of row fields that should the  Row zone contain
 The minimum amount of column fields that should the  Column zone contain
             in order for the popup to appear.
 
-###  AggregateFieldsMinCount `Int32`
-
-The minimum amount of aggregate fields that should the  Aggregate zone contain
-            in order for the popup to appear.
-
 ###  FilterFieldsMinCount `Int32`
 
 The minimum amount of filter fields that should the  Filter zone contain
+            in order for the popup to appear.
+
+###  RowFieldsMinCount `Int32`
+
+The minimum amount of row fields that should the  Row zone contain
             in order for the popup to appear.
 

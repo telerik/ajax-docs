@@ -16,10 +16,6 @@ Represents the settings of the file list panel in a Telerik.Web.UI.RadCloudUploa
 
 ## Properties
 
-###  Width `Unit`
-
-Gets or sets the width of the file list panel.
-
 ###  Height `Unit`
 
 Gets or sets the height of the file list panel.
@@ -28,16 +24,16 @@ Gets or sets the height of the file list panel.
 
 Gets or sets the maximum height of the file list.
 
-###  RenderButtonText `Boolean`
-
-When set to true enables rendering of button's text (remove, cancel).
-
 ###  PanelContainerSelector `String`
 
 Gets or sets the zone, where the file list panel will be displayed.
 
 #### Remarks
 The value of the property should be a valid jQuery selectors. E.g. class name or Id of html element.
+
+###  RenderButtonText `Boolean`
+
+When set to true enables rendering of button's text (remove, cancel).
 
 ###  ShowEmptyFileListPanel `Boolean`
 
@@ -46,11 +42,7 @@ Gets or sets the whether the file list panel will be displayed when no files are
 #### Remarks
 The value of the property should be a valid jQuery selectors. E.g. class name or Id of html element.
 
-## Methods
+###  Width `Unit`
 
-###  GetViewStateValue
-
-#### Returns
-
-`Telerik.Web.UI.T` 
+Gets or sets the width of the file list panel.
 

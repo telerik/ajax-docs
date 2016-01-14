@@ -15,13 +15,13 @@ This Class defines the RadUploadContext object.
 
 ## Properties
 
-###  UploadedFiles `UploadedFileCollection`
-
-Gets the uploaded files.
-
 ###  Current `RadUploadContext`
 
 Gets the current.
+
+###  UploadedFiles `UploadedFileCollection`
+
+Gets the uploaded files.
 
 ## Methods
 

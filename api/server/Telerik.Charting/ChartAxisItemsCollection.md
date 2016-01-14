@@ -16,83 +16,39 @@ A collection to store axis items.
 
 ## Properties
 
-###  Parent `ChartAxis`
+###  Count `Int32`
 
-Parent element
-
-###  Item `ChartAxisItem`
-
-Gets or sets a ChartAxisItem element at the specified position.
-
-###  List `IList`1`
-
-Items list
+Gets items count in collection
 
 ###  First `T`
 
 Link to first item in collection
 
-###  Last `T`
+###  IsReadOnly `Boolean`
 
-Link to last item in collection
+Gets true if collection is read-only
+
+###  Item `ChartAxisItem`
+
+Gets or sets a ChartAxisItem element at the specified position.
 
 ###  Item `T`
 
 Gets the collection item at given index
 
-###  Count `Int32`
+###  Last `T`
 
-Gets items count in collection
+Link to last item in collection
 
-###  IsReadOnly `Boolean`
+###  List `IList`1`
 
-Gets true if collection is read-only
+Items list
+
+###  Parent `ChartAxis`
+
+Parent element
 
 ## Methods
-
-###  DeleteItem
-
-Removes axis item from collection
-
-#### Parameters
-
-#### itemIndex `System.Int32`
-
-Item index to delete at
-
-#### Returns
-
-`System.Void` 
-
-###  GetItemRotationAngle
-
-Gets axis item's rotation angle
-
-#### Parameters
-
-#### item `Telerik.Charting.ChartAxisItem`
-
-Axis item
-
-#### Returns
-
-`System.Single` Rotation angle value
-
-###  GetWidth
-
-Gets widest axis item's width
-
-#### Returns
-
-`System.Single` Width value
-
-###  GetHeight
-
-Gets highest axis item's height
-
-#### Returns
-
-`System.Single` Height value
 
 ###  Add
 
@@ -103,52 +59,6 @@ Adds a chart axis item to the collection.
 #### chartAxisItem `Telerik.Charting.ChartAxisItem`
 
 Axis item to add
-
-#### Returns
-
-`System.Void` 
-
-###  IndexOf
-
-Item index in collection
-
-#### Parameters
-
-#### item ``0`
-
-Item to get index of
-
-#### Returns
-
-`System.Int32` Index
-
-###  Insert
-
-Inserts item at the given index
-
-#### Parameters
-
-#### index `System.Int32`
-
-Index
-
-#### item ``0`
-
-Item to insert
-
-#### Returns
-
-`System.Void` 
-
-###  RemoveAt
-
-Removes item from collection at given index
-
-#### Parameters
-
-#### index `System.Int32`
-
-Index to remove at
 
 #### Returns
 
@@ -223,19 +133,19 @@ The zero-based index in array at which copying begins
 
 `System.Void` 
 
-###  Remove
+###  DeleteItem
 
-Removes item from collection
+Removes axis item from collection
 
 #### Parameters
 
-#### item ``0`
+#### itemIndex `System.Int32`
 
-Item to remove
+Item index to delete at
 
 #### Returns
 
-`System.Boolean` True in case of success
+`System.Void` 
 
 ###  GetEnumerator
 
@@ -244,6 +154,68 @@ Returns an enumerator that iterates through the System.Collections.Generic.List>
 #### Returns
 
 `System.Collections.Generic.IEnumerator`1` A System.Collections.Generic.List>T<.Enumerator for the System.Collections.Generic.List>T<.
+
+###  GetHeight
+
+Gets highest axis item's height
+
+#### Returns
+
+`System.Single` Height value
+
+###  GetItemRotationAngle
+
+Gets axis item's rotation angle
+
+#### Parameters
+
+#### item `Telerik.Charting.ChartAxisItem`
+
+Axis item
+
+#### Returns
+
+`System.Single` Rotation angle value
+
+###  GetWidth
+
+Gets widest axis item's width
+
+#### Returns
+
+`System.Single` Width value
+
+###  IndexOf
+
+Item index in collection
+
+#### Parameters
+
+#### item ``0`
+
+Item to get index of
+
+#### Returns
+
+`System.Int32` Index
+
+###  Insert
+
+Inserts item at the given index
+
+#### Parameters
+
+#### index `System.Int32`
+
+Index
+
+#### item ``0`
+
+Item to insert
+
+#### Returns
+
+`System.Void` 
 
 ###  LoadViewState
 
@@ -259,31 +231,17 @@ View state to load from
 
 `System.Void` 
 
-###  SaveViewState
+###  OnClear
 
-Saves collection to a view state
-
-#### Returns
-
-`System.Object` Saved state bag object
-
-###  SetDirty
-
-Sets is item in the dirty state
+Before collection clearing event
 
 #### Returns
 
 `System.Void` 
 
-###  SetItemDirty
+###  OnClearComplete
 
-Marks collection item dirty
-
-#### Parameters
-
-#### item ``0`
-
-Item to mark
+Collection after clean event
 
 #### Returns
 
@@ -361,22 +319,6 @@ Value to insert
 
 `System.Void` 
 
-###  OnClear
-
-Before collection clearing event
-
-#### Returns
-
-`System.Void` 
-
-###  OnClearComplete
-
-Collection after clean event
-
-#### Returns
-
-`System.Void` 
-
 ###  PopulateFromXml
 
 Populates collection from XML element
@@ -391,11 +333,61 @@ XmlElement to import from
 
 `System.Void` 
 
-###  ToString
+###  Remove
 
-ToString() override. Used in the properties grid to avoid object type showing.
+Removes item from collection
+
+#### Parameters
+
+#### item ``0`
+
+Item to remove
 
 #### Returns
 
-`System.String` Empty string
+`System.Boolean` True in case of success
+
+###  RemoveAt
+
+Removes item from collection at given index
+
+#### Parameters
+
+#### index `System.Int32`
+
+Index to remove at
+
+#### Returns
+
+`System.Void` 
+
+###  SaveViewState
+
+Saves collection to a view state
+
+#### Returns
+
+`System.Object` Saved state bag object
+
+###  SetDirty
+
+Sets is item in the dirty state
+
+#### Returns
+
+`System.Void` 
+
+###  SetItemDirty
+
+Marks collection item dirty
+
+#### Parameters
+
+#### item ``0`
+
+Item to mark
+
+#### Returns
+
+`System.Void` 
 

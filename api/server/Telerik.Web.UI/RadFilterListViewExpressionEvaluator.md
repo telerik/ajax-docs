@@ -16,6 +16,20 @@ Represents a base for the RadFilterListViewExpression evaluator classes in
 
 ## Methods
 
+###  Evaluate
+
+Evaluates the passed non-group expression to create a new RadListViewFilterExpression object.
+
+#### Parameters
+
+#### expression `Telerik.Web.UI.RadFilterNonGroupExpression`
+
+The RadFilterNonGroupExpression to evaluate.
+
+#### Returns
+
+`Telerik.Web.UI.RadListViewFilterExpression` A resulting RadListViewFilterExpression.
+
 ###  GetEvaluator
 
 Based on a passed RadFilterFunction object returns a specific RadFilterListViewExpressionEvaluator object.
@@ -30,18 +44,4 @@ A RadFilterFunction instance representing the current filter function.
 
 `Telerik.Web.UI.RadFilterListViewExpressionEvaluator` A RadFilterListViewExpressionEvaluator inherited object representing a specific evaluator, 
             based on the provided function.
-
-###  Evaluate
-
-Evaluates the passed non-group expression to create a new RadListViewFilterExpression object.
-
-#### Parameters
-
-#### expression `Telerik.Web.UI.RadFilterNonGroupExpression`
-
-The RadFilterNonGroupExpression to evaluate.
-
-#### Returns
-
-`Telerik.Web.UI.RadListViewFilterExpression` A resulting RadListViewFilterExpression.
 

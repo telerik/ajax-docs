@@ -17,27 +17,9 @@ This Class gets and sets the SchedulerWebService Settings.
 
 ## Properties
 
-###  Method `String`
+###  CreateRecurrenceExceptionMethod `String`
 
-Gets or sets the method name to be called to populate items with
-            ExpandMode set to WebService.
-
-#### Remarks
-The method must be part of the web service specified through the
-            Path property.
-
-###  UpdateMode `AppointmentUpdateMode`
-
-Gets or sets the update mode for Appointments in WebService scenarios.
-
-#### Remarks
-Using Batch results in updating all appointments per
-            single operation. On the other hand, Single
-            mode updates only the appointment that was edited, hence reducing the bandwidth usage.
-
-###  GetAppointmentsMethod `String`
-
-Gets or sets the method name to be called to populate the appointments.
+Gets or sets the method name to be called to create recurrence exceptions.
 
 #### Remarks
 The method must be part of the web service specified through the
@@ -51,17 +33,9 @@ Gets or sets the method name to be called to delete appointments.
 The method must be part of the web service specified through the
             	Path property.
 
-###  InsertAppointmentMethod `String`
+###  GetAppointmentsMethod `String`
 
-Gets or sets the method name to be called to insert appointments.
-
-#### Remarks
-The method must be part of the web service specified through the
-            	Path property.
-
-###  UpdateAppointmentMethod `String`
-
-Gets or sets the method name to be called to update appointments.
+Gets or sets the method name to be called to populate the appointments.
 
 #### Remarks
 The method must be part of the web service specified through the
@@ -75,13 +49,40 @@ Gets or sets the method name to be called to get the resources list.
 The method must be part of the web service specified through the
             	Path property.
 
-###  CreateRecurrenceExceptionMethod `String`
+###  InsertAppointmentMethod `String`
 
-Gets or sets the method name to be called to create recurrence exceptions.
+Gets or sets the method name to be called to insert appointments.
 
 #### Remarks
 The method must be part of the web service specified through the
             	Path property.
+
+###  Method `String`
+
+Gets or sets the method name to be called to populate items with
+            ExpandMode set to WebService.
+
+#### Remarks
+The method must be part of the web service specified through the
+            Path property.
+
+###  Method `String`
+
+Gets or sets the method name to be called to populate items with
+            	ExpandMode set to WebService.
+
+#### Remarks
+The method must be part of the web service specified through the
+            	Path property.
+
+###  ODataSettings `SchedulerODataSettings`
+
+Used to customize the OData binding settings.
+
+###  Path `String`
+
+Gets or sets the name of the web service to be used to populate items with
+            	ExpandMode set to WebService.
 
 ###  RemoveRecurrenceExceptionsMethod `String`
 
@@ -108,33 +109,24 @@ Resources need to be populated from the server when using resource grouping.
             	value to Manual and
             	populate the resources from the OnInit method of the page.
 
-###  ODataSettings `SchedulerODataSettings`
+###  UpdateAppointmentMethod `String`
 
-Used to customize the OData binding settings.
-
-###  Path `String`
-
-Gets or sets the name of the web service to be used to populate items with
-            	ExpandMode set to WebService.
-
-###  Method `String`
-
-Gets or sets the method name to be called to populate items with
-            	ExpandMode set to WebService.
+Gets or sets the method name to be called to update appointments.
 
 #### Remarks
 The method must be part of the web service specified through the
             	Path property.
 
+###  UpdateMode `AppointmentUpdateMode`
+
+Gets or sets the update mode for Appointments in WebService scenarios.
+
+#### Remarks
+Using Batch results in updating all appointments per
+            single operation. On the other hand, Single
+            mode updates only the appointment that was edited, hence reducing the bandwidth usage.
+
 ###  UseHttpGet `Boolean`
 
 Gets or sets a boolean value
-
-## Methods
-
-###  GetViewStateValue
-
-#### Returns
-
-`Telerik.Web.UI.T` 
 

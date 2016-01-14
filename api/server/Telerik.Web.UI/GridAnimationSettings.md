@@ -20,25 +20,15 @@ Class holding settings associated with the Telerik.Web.UI.RadGrid animations.
 
 Gets or sets whether column animations are enabled for RadGrid when column reorder is enabled.
 
-###  ColumnReorderAnimationDuration `Int32`
-
-Gets or sets the duration of the reorder animation when column reorder is enabled in RadGrid.
-
 ###  AllowColumnRevertAnimation `Boolean`
 
 Gets or sets whether revert animations are enabled for RadGrid when column drag-to-group is enabled.
 
+###  ColumnReorderAnimationDuration `Int32`
+
+Gets or sets the duration of the reorder animation when column reorder is enabled in RadGrid.
+
 ###  ColumnRevertAnimationDuration `Int32`
 
 Gets or sets the duration of the revert animation when column drag-to-group is enabled in RadGrid.
-
-###  IsSet `Boolean`
-
-## Methods
-
-###  GetViewStateValue
-
-#### Returns
-
-`Telerik.Web.UI.T` 
 

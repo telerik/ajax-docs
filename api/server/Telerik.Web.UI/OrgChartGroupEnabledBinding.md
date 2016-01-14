@@ -15,11 +15,11 @@ Represents the GroupEnabledBinding settings in the Telerik.Web.UI.RadOrgChart Ra
 
 ## Properties
 
-###  NodeBindingSettings `OrgChartNodeBindingSettings`
-
-Gets the NodeBindingSettings.
-
 ###  GroupItemBindingSettings `OrgChartGroupItemBindingSettings`
 
 Gets the GroupItemBindingSettings.
+
+###  NodeBindingSettings `OrgChartNodeBindingSettings`
+
+Gets the NodeBindingSettings.
 

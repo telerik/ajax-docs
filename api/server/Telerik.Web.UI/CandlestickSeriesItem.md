@@ -17,13 +17,17 @@ The series item of the candlestick series.
 
 ## Properties
 
-###  Open `Nullable`1`
+###  BackgroundColor `Color`
 
-Specifies the open value of the item.
+Specifies the background color of the series item
 
 ###  Close `Nullable`1`
 
 Specifies the close value of the item.
+
+###  DownColor `Color`
+
+The down color is used when the close value of the item is lower than the open value.
 
 ###  High `Nullable`1`
 
@@ -33,11 +37,7 @@ Specifies the high value of the item.
 
 Specifies the low value of the item.
 
-###  DownColor `Color`
+###  Open `Nullable`1`
 
-The down color is used when the close value of the item is lower than the open value.
-
-###  BackgroundColor `Color`
-
-Specifies the background color of the series item
+Specifies the open value of the item.
 

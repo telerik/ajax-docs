@@ -16,6 +16,11 @@ Represents the collection of mask parts in a RadMaskedTextBox.
 
 ## Properties
 
+###  Item `MaskPart`
+
+Gets a MaskPart at the specified
+                index in the collection.
+
 ###  Owner `RadMaskedTextBox`
 
 Gets or sets the RadMaskedInputControl, which uses the
@@ -25,11 +30,6 @@ Gets or sets the RadMaskedInputControl, which uses the
 
 Gets or sets the MaskedTextBoxSetting, which uses the
             collection.
-
-###  Item `MaskPart`
-
-Gets a MaskPart at the specified
-                index in the collection.
 
 ## Methods
 
@@ -43,27 +43,6 @@ Appends the specified MaskPart to
 #### part `Telerik.Web.UI.MaskPart`
 
 The MaskPart to append to the
-                collection.
-
-#### Returns
-
-`System.Void` 
-
-###  Insert
-
-Inserts the specified MaskPart in
-                the collection at the specified index location.
-
-#### Parameters
-
-#### index `System.Int32`
-
-The location in the collection to insert the
-                MaskPart.
-
-#### part `Telerik.Web.UI.MaskPart`
-
-The MaskPart to add to the
                 collection.
 
 #### Returns
@@ -87,22 +66,6 @@ The MaskPart to search for in the
                 MaskPart; otherwise
                 false.
 
-###  Remove
-
-Removes the specified MaskPart
-                    from the collection.
-
-#### Parameters
-
-#### part `Telerik.Web.UI.MaskPart`
-
-The MaskPart to remove from the
-                collection.
-
-#### Returns
-
-`System.Void` 
-
 ###  IndexOf
 
 Determines the index value that represents the position of the specified
@@ -119,4 +82,41 @@ A MaskPart to search for in the
 
 `System.Int32` The zero-based index position of the specified
                 MaskPart in the collection.
+
+###  Insert
+
+Inserts the specified MaskPart in
+                the collection at the specified index location.
+
+#### Parameters
+
+#### index `System.Int32`
+
+The location in the collection to insert the
+                MaskPart.
+
+#### part `Telerik.Web.UI.MaskPart`
+
+The MaskPart to add to the
+                collection.
+
+#### Returns
+
+`System.Void` 
+
+###  Remove
+
+Removes the specified MaskPart
+                    from the collection.
+
+#### Parameters
+
+#### part `Telerik.Web.UI.MaskPart`
+
+The MaskPart to remove from the
+                collection.
+
+#### Returns
+
+`System.Void` 
 

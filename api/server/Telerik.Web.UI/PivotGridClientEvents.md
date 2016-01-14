@@ -16,53 +16,17 @@ The class holding all Telerik.Web.UI.RadPivotGrid client events.
 
 ## Properties
 
-###  OnPivotGridCreating `String`
-
-Gets or sets the name of the JavaScript function (the handler) which
-            will be fired before the  client-side object
-            have been fully initialized.
-
-###  OnPivotGridCreated `String`
-
-Gets or sets the name of the JavaScript function (the handler) which
-            will be fired after the  client-side object
-            have been fully initialized.
-
-###  OnPivotGridDestroying `String`
-
-Gets or sets the name of the JavaScript function (the handler) which
-            will be fired before the  client-side object
-            have been fully disposed.
-
-###  OnCommand `String`
-
-Gets or sets the name of the JavaScript function (the handler) which
-            will be fired after the  client-side object
-            have been fully disposed.
-
-###  OnToolTipShow `String`
-
-Gets or sets the name of the JavaScript function (the handler) which
-            will be fired when  is set to true
-            and a cell tooltip is shown.
-
 ###  OnCellClick `String`
 
 Gets or sets the name of the JavaScript function (the handler) which
             will be fired when , ,
              is clicked.
 
-###  OnCellMouseOver `String`
+###  OnCellContextMenu `String`
 
 Gets or sets the name of the JavaScript function (the handler) which
-            will be fired when mouse is over a ,
-             and .
-
-###  OnCellMouseOut `String`
-
-Gets or sets the name of the JavaScript function (the handler) which
-            will be fired when mouse is out of ,
-             and .
+            will be fired when ,  and
+             is right clicked.
 
 ###  OnCellDoubleClick `String`
 
@@ -70,11 +34,33 @@ Gets or sets the name of the JavaScript function (the handler) which
             will be fired when ,  and
              is double clicked.
 
-###  OnCellContextMenu `String`
+###  OnCellMouseOut `String`
 
 Gets or sets the name of the JavaScript function (the handler) which
-            will be fired when ,  and
-             is right clicked.
+            will be fired when mouse is out of ,
+             and .
+
+###  OnCellMouseOver `String`
+
+Gets or sets the name of the JavaScript function (the handler) which
+            will be fired when mouse is over a ,
+             and .
+
+###  OnColumnResized `String`
+
+Gets or sets the name of the JavaScript function (the handler) which
+            will be fired after a header cell is resized.
+
+###  OnColumnResizing `String`
+
+Gets or sets the name of the JavaScript function (the handler) which
+            will be fired before a header cell is resized.
+
+###  OnCommand `String`
+
+Gets or sets the name of the JavaScript function (the handler) which
+            will be fired after the  client-side object
+            have been fully disposed.
 
 ###  OnMenuShowing `String`
 
@@ -86,13 +72,27 @@ Gets or sets the name of the JavaScript function (the handler) which
 Gets or sets the name of the JavaScript function (the handler) which
             will be fired after  is shown.
 
-###  OnColumnResizing `String`
+###  OnPivotGridCreated `String`
 
 Gets or sets the name of the JavaScript function (the handler) which
-            will be fired before a header cell is resized.
+            will be fired after the  client-side object
+            have been fully initialized.
 
-###  OnColumnResized `String`
+###  OnPivotGridCreating `String`
 
 Gets or sets the name of the JavaScript function (the handler) which
-            will be fired after a header cell is resized.
+            will be fired before the  client-side object
+            have been fully initialized.
+
+###  OnPivotGridDestroying `String`
+
+Gets or sets the name of the JavaScript function (the handler) which
+            will be fired before the  client-side object
+            have been fully disposed.
+
+###  OnToolTipShow `String`
+
+Gets or sets the name of the JavaScript function (the handler) which
+            will be fired when  is set to true
+            and a cell tooltip is shown.
 

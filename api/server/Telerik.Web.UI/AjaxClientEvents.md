@@ -26,11 +26,3 @@ Gets or sets the event which is fired when a request
 Gets or sets the event which is fired when a response 
             from the server is processed.
 
-## Methods
-
-###  GetViewStateValue
-
-#### Returns
-
-`Telerik.Web.UI.T` 
-

@@ -16,6 +16,10 @@ Class which holds properties for setting the Telerik.Web.UI.RadDataForm client-s
 
 ## Properties
 
+###  OnCommand `String`
+
+This client-side event is fired when a RadDataForm command occurs.
+
 ###  OnDataFormCreated `String`
 
 This client-side event is fired after the 
@@ -30,10 +34,6 @@ This client-side event is fired before the
 
 This client-side event is fired when  object is
             destroyed, i.e. on each window.onunload
-
-###  OnCommand `String`
-
-This client-side event is fired when a RadDataForm command occurs.
 
 ###  OnGetValues `String`
 

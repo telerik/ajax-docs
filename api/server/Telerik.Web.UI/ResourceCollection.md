@@ -16,7 +16,91 @@ This Class defines the Resource Collection that inherits StronglyTypedStateManag
 * Telerik.Web.StronglyTypedStateManagedCollection`1
 * Telerik.Web.UI.ResourceCollection : IEnumerable`1
 
+## Properties
+
+###  Item `ItemType`
+
+ItemType collection indexer.
+
 ## Methods
+
+###  Add
+
+Add an item to the collection
+
+#### Parameters
+
+#### item ``0`
+
+Item to be added to the collection
+
+#### Returns
+
+`System.Void` 
+
+###  AddRange
+
+Adds the items to the end of the collection
+
+#### Parameters
+
+#### items `System.Collections.Generic.IEnumerable{`0}`
+
+Items to be added
+
+#### Returns
+
+`System.Void` 
+
+###  Contains
+
+Determines whether an element is in the collection
+
+#### Parameters
+
+#### item ``0`
+
+The item to locate in the collection
+
+#### Returns
+
+`System.Boolean` true if item is found in the collection; otherwise, false.
+
+###  CopyTo
+
+Copies the array or portion of it to the collection
+
+#### Parameters
+
+#### array ``0`
+
+One-dimensional array that serves as a destination
+
+#### index `System.Int32`
+
+Zero-based index
+
+#### Returns
+
+`System.Void` 
+
+###  GetResource
+
+Gets the resource that matches the specified type and key.
+
+#### Parameters
+
+#### type `System.String`
+
+The type.
+
+#### key `System.Object`
+
+The key.
+
+#### Returns
+
+`Telerik.Web.UI.Resource` The resource that matches the specified type and key; null if no resource matches.
 
 ###  GetResourceByType
 
@@ -46,21 +130,63 @@ The type of resource to search for.
 
 `System.Collections.Generic.IList`1` The resources of the specified type.
 
-###  GetResource
+###  IndexOf
 
-Gets the resource that matches the specified type and key.
+Returns the zero-based index of the first occurrence of a value in the collection or in a portion of it.
 
 #### Parameters
 
-#### type `System.String`
+#### item ``0`
 
-The type.
-
-#### key `System.Object`
-
-The key.
+Target item
 
 #### Returns
 
-`Telerik.Web.UI.Resource` The resource that matches the specified type and key; null if no resource matches.
+`System.Int32` The zero-based index of the first occurrence of item within the entire collection
+
+###  Insert
+
+Inserts an element into the collection at the specified index.
+
+#### Parameters
+
+#### index `System.Int32`
+
+The zero-based index at which item should be inserted.
+
+#### item ``0`
+
+The object to insert.
+
+#### Returns
+
+`System.Void` 
+
+###  Remove
+
+Removes the first occurrence of a specific object from the collection.
+
+#### Parameters
+
+#### item ``0`
+
+The object to remove from the collection
+
+#### Returns
+
+`System.Void` 
+
+###  RemoveAt
+
+Removes the element at the specified index of the collection.
+
+#### Parameters
+
+#### index `System.Int32`
+
+The zero-based index of the element to remove.
+
+#### Returns
+
+`System.Void` 
 

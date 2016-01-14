@@ -15,8 +15,6 @@ Collection holding references to Telerik.Web.UI.RadDataPagerField for the Teleri
 
 ## Properties
 
-###  IsTrackingViewState `Boolean`
-
 ###  Count `Int32`
 
 Gets the number of elements contained in the collection.
@@ -27,24 +25,6 @@ Gets a value indicating whether the collection
             is read-only.
 
 ## Methods
-
-###  LoadViewState
-
-#### Returns
-
-`System.Void` 
-
-###  SaveViewState
-
-#### Returns
-
-`System.Object` 
-
-###  TrackViewState
-
-#### Returns
-
-`System.Void` 
 
 ###  Add
 
@@ -101,20 +81,6 @@ The index of the target array.
 
 `System.Void` 
 
-###  Remove
-
-Removes the  item from the collection.
-
-#### Parameters
-
-#### item `Telerik.Web.UI.RadDataPagerField`
-
-The  item.
-
-#### Returns
-
-`System.Boolean` 
-
 ###  GetEnumerator
 
 Returns an enumerator that iterates through the collection.
@@ -156,6 +122,20 @@ The  item.
 #### Returns
 
 `System.Void` 
+
+###  Remove
+
+Removes the  item from the collection.
+
+#### Parameters
+
+#### item `Telerik.Web.UI.RadDataPagerField`
+
+The  item.
+
+#### Returns
+
+`System.Boolean` 
 
 ###  RemoveAt
 

@@ -15,35 +15,27 @@ Represents a result returned by an aggregate function.
 
 ## Properties
 
-###  Value `Object`
+###  Caption `String`
 
-Gets or sets the value of the result.
+Gets or sets the text which serves as a caption for the result in a user interface..
 
 ###  FormattedValue `Object`
 
 Gets the formatted value of the result.
 
-###  ItemCount `Int32`
-
-Gets or sets the number of arguments used for the calulation of the result.
-
-###  Caption `String`
-
-Gets or sets the text which serves as a caption for the result in a user interface..
-
 ###  FunctionName `String`
 
 Gets the name of the function.
 
+###  ItemCount `Int32`
+
+Gets or sets the number of arguments used for the calulation of the result.
+
+###  Value `Object`
+
+Gets or sets the value of the result.
+
 ## Methods
-
-###  ToString
-
-Returns a  that represents the current .
-
-#### Returns
-
-`System.String` A  that represents the current .
 
 ###  OnPropertyChanged
 
@@ -58,4 +50,12 @@ Name of the property.
 #### Returns
 
 `System.Void` 
+
+###  ToString
+
+Returns a  that represents the current .
+
+#### Returns
+
+`System.String` A  that represents the current .
 

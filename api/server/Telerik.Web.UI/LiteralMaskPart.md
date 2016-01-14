@@ -16,13 +16,9 @@ Represents a multi character MaskPart whose content cannot be modified.
 
 ## Properties
 
-###  Value `String`
-
 ###  Text `String`
 
 Gets or sets the string that the LiteralMaskPart will render.
-
-###  Value `String`
 
 ## Methods
 

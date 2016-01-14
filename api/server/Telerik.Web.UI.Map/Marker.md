@@ -16,6 +16,10 @@ The default configuration for marker layers.
 
 ## Properties
 
+###  Opacity `Double`
+
+The the opacity of all marker layers.
+
 ###  Shape `String`
 
 The default marker shape for all marker layers. The following pre-defined marker shapes are available:Marker shapes are implemented as CSS classes on the marker element (span.k-marker). For example "pinTarget" is rendered as "k-marker-pin-target".
@@ -23,8 +27,4 @@ The default marker shape for all marker layers. The following pre-defined marker
 ###  TooltipSettings `Tooltip`
 
 The default Kendo UI Tooltip options for all marker layers.
-
-###  Opacity `Double`
-
-The the opacity of all marker layers.
 

@@ -16,11 +16,9 @@ Class holding settings for number formating which are applied on
 
 ## Properties
 
-###  ViewState `InputStateBag`
+###  AllowRounding `Boolean`
 
-###  DecimalSeparator `String`
-
-Gets or sets the string to use as the decimal separator in values.
+Gets or sets the value that indicates whether the value will be rounded.
 
 ###  CultureNativeDecimalSeparator `String`
 
@@ -30,31 +28,19 @@ Gets the native decimal separator of the control's culture.
 
 Gets or sets the number of decimal places to use in numeric values
 
-###  GroupSizes `Int32`
+###  DecimalSeparator `String`
 
-Gets or sets the number of digits in each group to the left of the decimal in
-            values.
+Gets or sets the string to use as the decimal separator in values.
 
 ###  GroupSeparator `String`
 
 Gets or sets the string that separates groups of digits to the left of the
             decimal in values.
 
-###  NegativePattern `String`
+###  GroupSizes `Int32`
 
-Gets or sets the format pattern for negative values.
-
-###  PositivePattern `String`
-
-Gets or sets the format pattern for positive values.
-
-###  ZeroPattern `String`
-
-Gets or sets the format pattern for zero values.
-
-###  AllowRounding `Boolean`
-
-Gets or sets the value that indicates whether the value will be rounded.
+Gets or sets the number of digits in each group to the left of the decimal in
+            values.
 
 ###  KeepNotRoundedValue `Boolean`
 
@@ -65,87 +51,19 @@ Gets or sets the value that indicates whether the control will keep his not roun
 Gets or sets whether the control will keep its trailing zeros 
             (according to the DecimalDigits setting) when focused.
 
+###  NegativePattern `String`
+
+Gets or sets the format pattern for negative values.
+
 ###  NumericPlaceHolder `String`
 
 Gets or sets numeric value placeholder inside PositivePattern/NegativePattern.
 
-## Methods
+###  PositivePattern `String`
 
-###  ToString
+Gets or sets the format pattern for positive values.
 
-#### Returns
+###  ZeroPattern `String`
 
-`System.String` 
-
-###  GetAttributes
-
-#### Returns
-
-`System.ComponentModel.AttributeCollection` 
-
-###  GetClassName
-
-#### Returns
-
-`System.String` 
-
-###  GetComponentName
-
-#### Returns
-
-`System.String` 
-
-###  GetConverter
-
-#### Returns
-
-`System.ComponentModel.TypeConverter` 
-
-###  GetDefaultEvent
-
-#### Returns
-
-`System.ComponentModel.EventDescriptor` 
-
-###  GetDefaultProperty
-
-#### Returns
-
-`System.ComponentModel.PropertyDescriptor` 
-
-###  GetEditor
-
-#### Returns
-
-`System.Object` 
-
-###  GetEvents
-
-#### Returns
-
-`System.ComponentModel.EventDescriptorCollection` 
-
-###  GetEvents
-
-#### Returns
-
-`System.ComponentModel.EventDescriptorCollection` 
-
-###  GetProperties
-
-#### Returns
-
-`System.ComponentModel.PropertyDescriptorCollection` 
-
-###  GetProperties
-
-#### Returns
-
-`System.ComponentModel.PropertyDescriptorCollection` 
-
-###  GetPropertyOwner
-
-#### Returns
-
-`System.Object` 
+Gets or sets the format pattern for zero values.
 

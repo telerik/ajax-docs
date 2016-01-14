@@ -20,15 +20,6 @@ Meaningful in cases of self-referenced grid.
 
 ## Properties
 
-###  ParentKeyName `String`
-
-Gets or sets a value representing the parent ID field when building the
-            self-referencing hierarchy.
-
-#### Remarks
-The value property must be included in the DataKeyNames array
-            for the MasterTableView.
-
 ###  KeyName `String`
 
 Gets or sets a value, representing the ID of the current table level in
@@ -47,6 +38,15 @@ Gets or sets a value indicating the level-depth limit of the nested
 This property can be set only once when the grid is initialized
             and can not be modified.
 
+###  ParentKeyName `String`
+
+Gets or sets a value representing the parent ID field when building the
+            self-referencing hierarchy.
+
+#### Remarks
+The value property must be included in the DataKeyNames array
+            for the MasterTableView.
+
 ## Methods
 
 ###  IsSet
@@ -60,10 +60,4 @@ This method is for Telerik RadGrid internal usage.
 #### Returns
 
 `System.Boolean` 
-
-###  GetViewStateValue
-
-#### Returns
-
-`Telerik.Web.UI.T` 
 

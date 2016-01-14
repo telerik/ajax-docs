@@ -16,38 +16,6 @@ Container of misc. grouping settings of RadScheduler control
 
 ## Properties
 
-###  Creator `String`
-
-Gets or sets the creator.
-
-###  Producer `String`
-
-Gets or sets the producer.
-
-###  Author `String`
-
-Gets or sets the author.
-
-###  Title `String`
-
-Gets or sets the title.
-
-###  Subject `String`
-
-Gets or sets the subject.
-
-###  PageTitle `String`
-
-Gets or sets the page title.
-
-###  Keywords `String[]`
-
-Gets or sets the comma delimited list of keywords.
-
-###  StyleSheets `String[]`
-
-Gets or sets the comma delimited list of stylesheets that RadScheduler will use when exporting to PDF.
-
 ###  AllowAdd `Boolean`
 
 Gets or sets the allow add.
@@ -55,10 +23,6 @@ Gets or sets the allow add.
 ###  AllowCopy `Boolean`
 
 Gets or sets the allow copy.
-
-###  AllowPrinting `Boolean`
-
-Gets or sets the allow printing.
 
 ###  AllowModify `Boolean`
 
@@ -68,57 +32,21 @@ Gets or sets the allow modify.
 
 Gets or sets whether paging is enabled.
 
-###  PaperOrientation `SchedulerPaperOrientation`
+###  AllowPrinting `Boolean`
 
-Gets or sets the physical paper orientation that RadScheduler will use when exporting to PDF.
+Gets or sets the allow printing.
 
-#### Remarks
-It will be overridden by setting PageWidth and PageHeight explicitly.
+###  Author `String`
 
-###  PaperSize `SchedulerPaperSize`
+Gets or sets the author.
 
-Gets or sets the physical paper size that RadScheduler will use when exporting to PDF.
+###  Creator `String`
 
-#### Remarks
-It will be overridden by setting PageWidth and PageHeight explicitly.
+Gets or sets the creator.
 
-###  PageWidth `Unit`
+###  DefaultFontFamily `String`
 
-Gets or sets the page width that RadScheduler will use when exporting to PDF.
-
-#### Remarks
-This setting will override any predefined value that comes from the PaperSize property.
-
-###  PageHeight `Unit`
-
-Gets or sets the page height that RadScheduler will use when exporting to PDF.
-
-#### Remarks
-This setting will override any predefined value that comes from the PaperSize property.
-
-###  PageTopMargin `Unit`
-
-Gets or sets the page top margin.
-
-###  PageBottomMargin `Unit`
-
-Gets or sets the page bottom margin.
-
-###  PageLeftMargin `Unit`
-
-Gets or sets the page left margin.
-
-###  PageRightMargin `Unit`
-
-Gets or sets the page right margin.
-
-###  PageHeaderMargin `Unit`
-
-Gets or sets the page header margin.
-
-###  PageFooterMargin `Unit`
-
-Gets or sets the page footer margin.
+Gets or sets the default font family.
 
 ###  FontType `FontType`
 
@@ -155,19 +83,83 @@ Possible values:
                             the size of the font program. However, small processing overhead is
                             incurred to generated the subsetted font.
 
+###  Keywords `String[]`
+
+Gets or sets the comma delimited list of keywords.
+
+###  PageBottomMargin `Unit`
+
+Gets or sets the page bottom margin.
+
+###  PageFooterMargin `Unit`
+
+Gets or sets the page footer margin.
+
+###  PageHeaderMargin `Unit`
+
+Gets or sets the page header margin.
+
+###  PageHeight `Unit`
+
+Gets or sets the page height that RadScheduler will use when exporting to PDF.
+
+#### Remarks
+This setting will override any predefined value that comes from the PaperSize property.
+
+###  PageLeftMargin `Unit`
+
+Gets or sets the page left margin.
+
+###  PageRightMargin `Unit`
+
+Gets or sets the page right margin.
+
+###  PageTitle `String`
+
+Gets or sets the page title.
+
+###  PageTopMargin `Unit`
+
+Gets or sets the page top margin.
+
+###  PageWidth `Unit`
+
+Gets or sets the page width that RadScheduler will use when exporting to PDF.
+
+#### Remarks
+This setting will override any predefined value that comes from the PaperSize property.
+
+###  PaperOrientation `SchedulerPaperOrientation`
+
+Gets or sets the physical paper orientation that RadScheduler will use when exporting to PDF.
+
+#### Remarks
+It will be overridden by setting PageWidth and PageHeight explicitly.
+
+###  PaperSize `SchedulerPaperSize`
+
+Gets or sets the physical paper size that RadScheduler will use when exporting to PDF.
+
+#### Remarks
+It will be overridden by setting PageWidth and PageHeight explicitly.
+
+###  Producer `String`
+
+Gets or sets the producer.
+
+###  StyleSheets `String[]`
+
+Gets or sets the comma delimited list of stylesheets that RadScheduler will use when exporting to PDF.
+
+###  Subject `String`
+
+Gets or sets the subject.
+
+###  Title `String`
+
+Gets or sets the title.
+
 ###  UserPassword `String`
 
 Gets or sets the user password.If you set a password, the exported document will be password protected.
-
-###  DefaultFontFamily `String`
-
-Gets or sets the default font family.
-
-## Methods
-
-###  GetViewStateValue
-
-#### Returns
-
-`Telerik.Web.UI.T` 
 

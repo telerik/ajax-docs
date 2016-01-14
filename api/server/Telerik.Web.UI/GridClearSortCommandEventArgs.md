@@ -18,13 +18,9 @@ The evernt arguments passed when Telerik.Web.UI.RadGrid fires a ClearSort comman
 
 ## Properties
 
-###  SortExpression `String`
+###  Canceled `Boolean`
 
-Gets the sort expression associated with the performed sorting.
-
-###  SortOrder `GridSortOrder`
-
-Gets the current sort order of the expression which will be cleared.
+Gets or sets a value, defining whether the command should be canceled.
 
 ###  CommandSource `Object`
 
@@ -34,17 +30,15 @@ Gets the source of the command
 
 Gets the item containing the command source
 
-###  Canceled `Boolean`
+###  SortExpression `String`
 
-Gets or sets a value, defining whether the command should be canceled.
+Gets the sort expression associated with the performed sorting.
+
+###  SortOrder `GridSortOrder`
+
+Gets the current sort order of the expression which will be cleared.
 
 ## Methods
-
-###  ExecuteCommand
-
-#### Returns
-
-`System.Void` 
 
 ###  ExecuteCommand
 

@@ -19,31 +19,31 @@ The RadTimeView control works only as a popup embedded in a Telerik.Web.UI.RadTi
 
 ## Properties
 
-###  DataList `DataList`
+###  AccessKey `String`
 
-Gets a data bound list control that displays items using templates.
+Gets or sets the access key.
 
-###  RenderDirection `RepeatDirection`
+###  AlternatingTimeStyle `TableItemStyle`
 
-Gets or sets DataList ReapeatDirection
-
-###  CustomTimeValues `Object`
-
-Gets or sets the custom time values to be displayed in the time picker
-            
-            Allowed objects are: array of strings, array of DateTime objects, array of TimeSpan values;
-            Allowed values should fall between 00:00:00 and 23:59:59 to specify the time of the day
-
-###  UseClientTimeOffset `Boolean`
-
-Gets or sets a value indicating whether the TimeView should use client time zone offset for the values bound to a custom collection.
+Gets the style properties for alternating time sells in the
+            RadTimeView control.
 
 #### Remarks
-Setting this property to true will make the timeview to convert its values from UTC to the current user time zone.
-
-###  EnableAriaSupport `Boolean`
-
-When set to true enables support for WAI-ARIA
+Use the AlternatingTimeStyle property to provide a custom
+                style for the alternating time cells in the RadTimeView control.
+                Common style attributes that can be adjusted include foreground color, background
+                color, font, and content alignment within the cell. Providing a different style
+                enhances the appearance of the RadTimeView control.If you specify a red font for the TimeStyle property, all
+                other item style properties in the RadTimeView control will also
+                have a red font. This allows you to provide a common appearance for the control by
+                setting a single item style property. You can override the inherited style settings
+                for an item style property that is higher in the hierarchy by setting its style
+                properties. For example, you can specify a blue font for the
+                AlternatingTimeStyle property, overriding the red font specified
+                in the TimeStyle property.To specify a custom style for the alternating items, place the
+                <AlternatingTimeStyle> tags between the opening and closing tags of the
+                RadTimeView control. You can then list the style attributes within
+                the opening <AlternatingTimeStyle> tag.
 
 ###  AlternatingTimeTemplate `ITemplate`
 
@@ -58,58 +58,6 @@ Use the AlternatingTimeTemplate property to control the
                 RadTimeView control. You can then list the contents of the
                 template between the opening and closing <AlternatingTimeTemplate>
                 tags.
-
-###  FooterTemplate `ITemplate`
-
-Gets or sets the template for the footer section of the
-            RadTimeView control.
-
-#### Remarks
-To specify a template for the footer section, place the
-                <FooterTemplate> tags between the opening and closing tags of the
-                RadTimeView control. You can then list the contents of the
-                template between the opening and closing <FooterTemplate> tags.The ShowFooter property must be set to true for this property to be
-                visible.
-
-###  HeaderTemplate `ITemplate`
-
-Gets or sets the template for the heading section of the RadTimeView
-            control.
-
-#### Remarks
-Use the HeaderTemplate property to control the contents of
-                the heading section. The appearance of the header section is controlled by the
-                HeaderStyle property.To specify a template for the heading section, place the
-                <HeadingTemplate> tags between the opening and closing tags of the
-                RadTimeView control. You can then list the contents of the
-                template between the opening and closing <HeadingTemplate> tags.The ShowHeader property must be set to true for this property to be
-                visible.
-
-###  TimeTemplate `ITemplate`
-
-Gets or sets the template for the heading section of the RadTimeView
-            control.
-
-#### Remarks
-Use the HeaderTemplate property to control the contents of
-                the heading section. The appearance of the header section is controlled by the
-                HeaderStyle property.To specify a template for the heading section, place the
-                <HeadingTemplate> tags between the opening and closing tags of the
-                RadTimeView control. You can then list the contents of the
-                template between the opening and closing <HeadingTemplate> tags.The ShowHeader property must be set to true for this property to be
-                visible.
-
-###  ForeColor `Color`
-
-Gets or sets the foreground color (typically the color of the text) of the
-            RadTimeView control.
-
-#### Remarks
-Use the ForeColor property to specify the foreground color
-                of the RadTimeView control. The foreground color is usually the
-                color of the text. This property will render on browsers earlier than Microsoft
-                Internet Explorer version 4.Note: On browsers that do not support styles, this property is rendered as a
-                FONT element.
 
 ###  BackColor `Color`
 
@@ -156,112 +104,6 @@ Use the BorderWidth property to specify a border width for a
                 control.This property is set with a Unit object. If the Value property of the Unit
                 contains a negative number, an exception is thrown.
 
-###  CssClass `String`
-
-Gets or sets the cascading style sheet (CSS) class rendered by the
-            RadTimeView on the client.
-
-#### Remarks
-Use the CssClass property to specify the CSS class to render on the client
-                for the RadTimeView control. This property will render on browsers
-                for all controls. It will always be rendered as the class attribute, regardless of
-                the browser.For example, suppose you have the following RadTimeVeiw
-                control declaration:<asp:TextBox id="TextBox1" ForeColor="Red" CssClass="class1" />The following HTML is rendered on the client for the previous
-                RadTimeView control declaration:
-
-###  Height `Unit`
-
-Gets or sets the height of the RadTimeView control.
-
-#### Remarks
-Use the Height property to specify the height of the
-                RadTimeView control.
-
-###  Width `Unit`
-
-Gets or sets the width of the RadTimeView control.
-
-#### Remarks
-Use the Width property to specify the width of the
-            RadTimeView control.
-
-###  Font `FontInfo`
-
-Gets the font properties associated with the RadTimeView
-            control.
-
-#### Remarks
-Use the Font property to specify the font properties of the
-            RadTimeView control. This property includes subproperties that can be
-            accessed declaratively in the form of Property-Subproperty (for example Font-Bold) or
-            programmatically in the form of Property.Subproperty (for example Font.Bold).
-
-###  AccessKey `String`
-
-Gets or sets the access key.
-
-###  Enabled `Boolean`
-
-Gets or sets a value indicating whether the Web server control is enabled.
-
-###  EnableTheming `Boolean`
-
-Gets or sets a value indicating whether themes apply to this control.
-
-###  SkinID `String`
-
-Gets or sets the skin to apply to the control.
-
-###  EnableViewState `Boolean`
-
-Gets or sets a value indicating whether the server control persists
-            its view state, and the view state of any child controls it contains, to the
-            requesting client.
-
-###  TabIndex `Int16`
-
-Gets or sets the tab index of the Web server control.
-
-###  ToolTip `String`
-
-Gets or sets the text displayed when the mouse pointer hovers over the
-            Web server control.
-
-###  Visible `Boolean`
-
-Gets or sets a value that indicates whether a server control is rendered
-            as UI on the page.
-
-###  ImagesPath `String`
-
-Gets or sets default path for the grid images when EnableEmbeddedSkins is set to false.
-
-###  GridLines `GridLines`
-
-Gets or sets a value that specifies whether the border between the cells of the
-            RadTimeView control is displayed.
-
-###  HeaderText `String`
-
-Gets or sets the header associated with the RadTimeView
-            control.
-
-###  CaptionAlign `TableCaptionAlign`
-
-Gets or sets the alignment of the associated caption.
-
-###  UseAccessibleHeader `Boolean`
-
-Indicates that the control should use accessible header cells in its containing
-            table control.
-
-###  Summary `String`
-
-Gets or sets the summary attribute for the RadTimeView.
-
-#### Remarks
-Setting this property to empty string will force Telerik RadTimeView to not render summary attribute.
-
 ###  Caption `String`
 
 Gets or sets the caption for the table RadTimeView.
@@ -269,24 +111,9 @@ Gets or sets the caption for the table RadTimeView.
 #### Remarks
 Setting this property to empty string will force Telerik RadTimeView to not render caption tag.
 
-###  OnClientTimeSelected `String`
+###  CaptionAlign `TableCaptionAlign`
 
-Occurs on the client when an time sell in the RadTimeView
-            control is selected.
-
-###  OnClientTimeSelecting `String`
-
-Occurs on the client when a time cell in RadTimeView is about to be selected
-
-###  HorizontalAlign `HorizontalAlign`
-
-Gets or sets the horizontal alignment of the RadTimeView
-            control.
-
-#### Remarks
-Use the HorizontalAlign property to specify the horizontal
-            alignment of the data list control within its container. This property is set with one
-            of the HorizontalAlign enumeration values.
+Gets or sets the alignment of the associated caption.
 
 ###  CellPadding `Int32`
 
@@ -315,6 +142,11 @@ Use the CellSpacing property to control the spacing between
                 and horizontally. The cell spacing is uniform for the entire data list control.
                 Individual cell spacing between each row or column cannot be specified.The value of this property is stored in view state.
 
+###  ClientIDMode `ClientIDMode`
+
+This property is overridden in order to support controls which implement INamingContainer.
+            The default value is changed to "AutoID".
+
 ###  Columns `Int32`
 
 Gets or sets the number of columns to display in the RadTimeView
@@ -324,6 +156,267 @@ Gets or sets the number of columns to display in the RadTimeView
 Use this property to specify the number of columns that display items in the
             RadTimeView control. For example, if you set this property to 5, the
             RadTimeView control displays its items in five columns.
+
+###  CssClass `String`
+
+Gets or sets the cascading style sheet (CSS) class rendered by the
+            RadTimeView on the client.
+
+#### Remarks
+Use the CssClass property to specify the CSS class to render on the client
+                for the RadTimeView control. This property will render on browsers
+                for all controls. It will always be rendered as the class attribute, regardless of
+                the browser.For example, suppose you have the following RadTimeVeiw
+                control declaration:<asp:TextBox id="TextBox1" ForeColor="Red" CssClass="class1" />The following HTML is rendered on the client for the previous
+                RadTimeView control declaration:
+
+###  CssClassFormatString `String`
+
+The CssClass property will now be used instead of the former Skin 
+            and will be modified in AddAttributesToRender()
+
+###  Culture `CultureInfo`
+
+Provides information about a specific culture. The information includes the names
+            for the culture, the writing system, the calendar used, and formatting for the
+            times.
+
+#### Remarks
+The CultureInfo class renders culture-specific information,
+                such as the associated language, sublanguage, country/region, calendar, and
+                cultural conventions. This class also provides access to culture-specific instances
+                of DateTimeFormatInfo, NumberFormatInfo, CompareInfo, and TextInfo. These objects
+                contain the information required for culture-specific operations, such as casing,
+                formatting dates and numbers, and comparing strings.
+
+###  CustomTimeValues `Object`
+
+Gets or sets the custom time values to be displayed in the time picker
+            
+            Allowed objects are: array of strings, array of DateTime objects, array of TimeSpan values;
+            Allowed values should fall between 00:00:00 and 23:59:59 to specify the time of the day
+
+###  DataList `DataList`
+
+Gets a data bound list control that displays items using templates.
+
+###  EnableAjaxSkinRendering `String`
+
+Gets or sets the value, indicating whether to render the skin CSS files during Ajax requests
+
+#### Remarks
+If EnableAjaxSkinRendering is set to false you will have to register the needed control base CSS file by hand when adding/showing the control with Ajax.
+
+###  EnableAriaSupport `Boolean`
+
+When set to true enables support for WAI-ARIA
+
+###  Enabled `Boolean`
+
+Gets or sets a value indicating whether the Web server control is enabled.
+
+###  EnableEmbeddedBaseStylesheet `Boolean`
+
+Gets or sets the value, indicating whether to render the link to the embedded base stylesheet of the control or not.
+
+#### Remarks
+If EnableEmbeddedBaseStylesheet is set to false you will have to register the needed control base CSS file by hand.
+
+###  EnableEmbeddedScripts `Boolean`
+
+Gets or sets the value, indicating whether to render script references to the embedded scripts or not.
+
+#### Remarks
+If EnableEmbeddedScripts is set to false you will have to register the needed Scripts files by hand.
+
+###  EnableEmbeddedSkins `String`
+
+Gets or sets the value, indicating whether to render links to the embedded skins or not.
+
+#### Remarks
+If EnableEmbeddedSkins is set to false you will have to register the needed CSS files by hand.
+
+###  EnableTheming `Boolean`
+
+Gets or sets a value indicating whether themes apply to this control.
+
+###  EnableViewState `Boolean`
+
+Gets or sets a value indicating whether the server control persists
+            its view state, and the view state of any child controls it contains, to the
+            requesting client.
+
+###  EndTime `TimeSpan`
+
+ite
+
+###  Font `FontInfo`
+
+Gets the font properties associated with the RadTimeView
+            control.
+
+#### Remarks
+Use the Font property to specify the font properties of the
+            RadTimeView control. This property includes subproperties that can be
+            accessed declaratively in the form of Property-Subproperty (for example Font-Bold) or
+            programmatically in the form of Property.Subproperty (for example Font.Bold).
+
+###  FooterStyle `TableItemStyle`
+
+Gets the style properties for the footer section of the
+            RadTimeView control.
+
+#### Remarks
+Use this property to provide a custom style for the footer section of the
+                radTimeView control. Common style attributes that can be adjusted
+                include foreground color, background color, font, and content alignment within the
+                cell. Providing a different style enhances the appearance of the
+                RadTimeView control.The FooterStyle property of the RadTimeView
+                control inherits the style settings of the ControlStyle property. For example, if
+                you specify a red font for the ControlStyle property, the
+                FooterStyle property will also have a red font. This allows you to
+                provide a common appearance for the control by setting a single style property. You
+                can override the inherited style settings by setting the
+                FooterStyle property. For example, you can specify a blue font for
+                the FooterStyle property, overriding the red font specified in the
+                ControlStyle property.To specify a custom style for the footer section, place the
+                <FooterStyle> tags between the opening and closing tags of the
+                RadTimeView control. You can then list the style attributes within
+                the opening <FooterStyle> tag.Note: The ShowFooter property must be set
+                to true for this property to be visible.
+
+###  FooterTemplate `ITemplate`
+
+Gets or sets the template for the footer section of the
+            RadTimeView control.
+
+#### Remarks
+To specify a template for the footer section, place the
+                <FooterTemplate> tags between the opening and closing tags of the
+                RadTimeView control. You can then list the contents of the
+                template between the opening and closing <FooterTemplate> tags.The ShowFooter property must be set to true for this property to be
+                visible.
+
+###  ForeColor `Color`
+
+Gets or sets the foreground color (typically the color of the text) of the
+            RadTimeView control.
+
+#### Remarks
+Use the ForeColor property to specify the foreground color
+                of the RadTimeView control. The foreground color is usually the
+                color of the text. This property will render on browsers earlier than Microsoft
+                Internet Explorer version 4.Note: On browsers that do not support styles, this property is rendered as a
+                FONT element.
+
+###  GridLines `GridLines`
+
+Gets or sets a value that specifies whether the border between the cells of the
+            RadTimeView control is displayed.
+
+###  HeaderStyle `TableItemStyle`
+
+Gets the style properties for the heading section of the
+            RadTimeView control.
+
+#### Remarks
+Use this property to provide a custom style for the heading of the
+                RadTimeView control. Common style attributes that can be adjusted
+                include foreground color, background color, font, and content alignment within the
+                cell. Providing a different style enhances the appearance of the
+                RadTimeView control.To specify a custom style for the heading section, place the
+                <HeaderStyle> tags between the opening and closing tags of the
+                RadTimeView control. You can then list the style attributes within
+                the opening <HeaderStyle> tag.Note: The ShowHeader property must be set
+                to true for this property to be visible.
+
+###  HeaderTemplate `ITemplate`
+
+Gets or sets the template for the heading section of the RadTimeView
+            control.
+
+#### Remarks
+Use the HeaderTemplate property to control the contents of
+                the heading section. The appearance of the header section is controlled by the
+                HeaderStyle property.To specify a template for the heading section, place the
+                <HeadingTemplate> tags between the opening and closing tags of the
+                RadTimeView control. You can then list the contents of the
+                template between the opening and closing <HeadingTemplate> tags.The ShowHeader property must be set to true for this property to be
+                visible.
+
+###  HeaderText `String`
+
+Gets or sets the header associated with the RadTimeView
+            control.
+
+###  Height `Unit`
+
+Gets or sets the height of the RadTimeView control.
+
+#### Remarks
+Use the Height property to specify the height of the
+                RadTimeView control.
+
+###  HorizontalAlign `HorizontalAlign`
+
+Gets or sets the horizontal alignment of the RadTimeView
+            control.
+
+#### Remarks
+Use the HorizontalAlign property to specify the horizontal
+            alignment of the data list control within its container. This property is set with one
+            of the HorizontalAlign enumeration values.
+
+###  ImagesPath `String`
+
+Gets or sets default path for the grid images when EnableEmbeddedSkins is set to false.
+
+###  Interval `TimeSpan`
+
+Gets or sets the interval between StartTime and
+            EndTime
+
+###  IsSkinSet `String`
+
+For internal use.
+
+###  OnClientTimeSelected `String`
+
+Occurs on the client when an time sell in the RadTimeView
+            control is selected.
+
+###  OnClientTimeSelecting `String`
+
+Occurs on the client when a time cell in RadTimeView is about to be selected
+
+###  RegisterWithScriptManager `Boolean`
+
+Gets or sets the value, indicating whether to register with the ScriptManager control on the page.
+
+#### Remarks
+If RegisterWithScriptManager is set to false the control can be rendered on the page using Web Services or normal callback requests/page methods.
+
+###  RenderDirection `RepeatDirection`
+
+Gets or sets DataList ReapeatDirection
+
+###  RenderMode `RenderMode`
+
+Specifies the rendering mode of the control. Setting the mode to Lightweight will yield
+            HTML 5/CSS 3 html and css.
+
+#### Remarks
+Lightweight rendering mode might change the outlook of the component in some older browsers
+            that don't support CSS3/HTML5.
+
+###  ResolvedRenderMode `RenderMode`
+
+Returns resolved RenderMode should the original value was Auto
+
+###  RuntimeSkin `String`
+
+Gets the real skin name for the control user interface. If Skin is not set, returns
+            "Default", otherwise returns Skin.
 
 ###  ShowFooter `Boolean`
 
@@ -347,32 +440,32 @@ Use the ShowHeader property to specify whether the header
                 HeaderStyle property. The contents of the header section are
                 controlled by the HeaderTemplate property.
 
+###  Skin `String`
+
+Gets or sets the skin name for the control user interface.
+
+#### Remarks
+If this property is not set, the control will render using the skin named "Default".
+            If EnableEmbeddedSkins is set to false, the control will not render skin.
+
+###  SkinID `String`
+
+Gets or sets the skin to apply to the control.
+
 ###  StartTime `TimeSpan`
 
 Gets or sets the start time of the control.
 
-###  Culture `CultureInfo`
+###  Summary `String`
 
-Provides information about a specific culture. The information includes the names
-            for the culture, the writing system, the calendar used, and formatting for the
-            times.
+Gets or sets the summary attribute for the RadTimeView.
 
 #### Remarks
-The CultureInfo class renders culture-specific information,
-                such as the associated language, sublanguage, country/region, calendar, and
-                cultural conventions. This class also provides access to culture-specific instances
-                of DateTimeFormatInfo, NumberFormatInfo, CompareInfo, and TextInfo. These objects
-                contain the information required for culture-specific operations, such as casing,
-                formatting dates and numbers, and comparing strings.
+Setting this property to empty string will force Telerik RadTimeView to not render summary attribute.
 
-###  EndTime `TimeSpan`
+###  TabIndex `Int16`
 
-ite
-
-###  Interval `TimeSpan`
-
-Gets or sets the interval between StartTime and
-            EndTime
+Gets or sets the tab index of the Web server control.
 
 ###  TimeFormat `String`
 
@@ -420,6 +513,10 @@ A custom Time format string consists of one or more custom Time format
                             for the invariant culture is "HH:mm".TLongTimePattern - For example, the custom format string
                             for the invariant culture is "HH:mm:ss".
 
+###  TimeOverStyle `TableItemStyle`
+
+Gets the style applied to items
+
 ###  TimeStyle `TableItemStyle`
 
 Gets the style properties for the time cells in the RadTimeView
@@ -444,154 +541,67 @@ Use this property to provide a custom style for the items of the
                 appearance for the alternating items in the RadTimeView
                 control.
 
-###  TimeOverStyle `TableItemStyle`
+###  TimeTemplate `ITemplate`
 
-Gets the style applied to items
+Gets or sets the template for the heading section of the RadTimeView
+            control.
 
-###  AlternatingTimeStyle `TableItemStyle`
+#### Remarks
+Use the HeaderTemplate property to control the contents of
+                the heading section. The appearance of the header section is controlled by the
+                HeaderStyle property.To specify a template for the heading section, place the
+                <HeadingTemplate> tags between the opening and closing tags of the
+                RadTimeView control. You can then list the contents of the
+                template between the opening and closing <HeadingTemplate> tags.The ShowHeader property must be set to true for this property to be
+                visible.
 
-Gets the style properties for alternating time sells in the
+###  ToolTip `String`
+
+Gets or sets the text displayed when the mouse pointer hovers over the
+            Web server control.
+
+###  UseAccessibleHeader `Boolean`
+
+Indicates that the control should use accessible header cells in its containing
+            table control.
+
+###  UseClientTimeOffset `Boolean`
+
+Gets or sets a value indicating whether the TimeView should use client time zone offset for the values bound to a custom collection.
+
+#### Remarks
+Setting this property to true will make the timeview to convert its values from UTC to the current user time zone.
+
+###  Visible `Boolean`
+
+Gets or sets a value that indicates whether a server control is rendered
+            as UI on the page.
+
+###  Width `Unit`
+
+Gets or sets the width of the RadTimeView control.
+
+#### Remarks
+Use the Width property to specify the width of the
             RadTimeView control.
-
-#### Remarks
-Use the AlternatingTimeStyle property to provide a custom
-                style for the alternating time cells in the RadTimeView control.
-                Common style attributes that can be adjusted include foreground color, background
-                color, font, and content alignment within the cell. Providing a different style
-                enhances the appearance of the RadTimeView control.If you specify a red font for the TimeStyle property, all
-                other item style properties in the RadTimeView control will also
-                have a red font. This allows you to provide a common appearance for the control by
-                setting a single item style property. You can override the inherited style settings
-                for an item style property that is higher in the hierarchy by setting its style
-                properties. For example, you can specify a blue font for the
-                AlternatingTimeStyle property, overriding the red font specified
-                in the TimeStyle property.To specify a custom style for the alternating items, place the
-                <AlternatingTimeStyle> tags between the opening and closing tags of the
-                RadTimeView control. You can then list the style attributes within
-                the opening <AlternatingTimeStyle> tag.
-
-###  HeaderStyle `TableItemStyle`
-
-Gets the style properties for the heading section of the
-            RadTimeView control.
-
-#### Remarks
-Use this property to provide a custom style for the heading of the
-                RadTimeView control. Common style attributes that can be adjusted
-                include foreground color, background color, font, and content alignment within the
-                cell. Providing a different style enhances the appearance of the
-                RadTimeView control.To specify a custom style for the heading section, place the
-                <HeaderStyle> tags between the opening and closing tags of the
-                RadTimeView control. You can then list the style attributes within
-                the opening <HeaderStyle> tag.Note: The ShowHeader property must be set
-                to true for this property to be visible.
-
-###  FooterStyle `TableItemStyle`
-
-Gets the style properties for the footer section of the
-            RadTimeView control.
-
-#### Remarks
-Use this property to provide a custom style for the footer section of the
-                radTimeView control. Common style attributes that can be adjusted
-                include foreground color, background color, font, and content alignment within the
-                cell. Providing a different style enhances the appearance of the
-                RadTimeView control.The FooterStyle property of the RadTimeView
-                control inherits the style settings of the ControlStyle property. For example, if
-                you specify a red font for the ControlStyle property, the
-                FooterStyle property will also have a red font. This allows you to
-                provide a common appearance for the control by setting a single style property. You
-                can override the inherited style settings by setting the
-                FooterStyle property. For example, you can specify a blue font for
-                the FooterStyle property, overriding the red font specified in the
-                ControlStyle property.To specify a custom style for the footer section, place the
-                <FooterStyle> tags between the opening and closing tags of the
-                RadTimeView control. You can then list the style attributes within
-                the opening <FooterStyle> tag.Note: The ShowFooter property must be set
-                to true for this property to be visible.
-
-###  RegisterWithScriptManager `Boolean`
-
-Gets or sets the value, indicating whether to register with the ScriptManager control on the page.
-
-#### Remarks
-If RegisterWithScriptManager is set to false the control can be rendered on the page using Web Services or normal callback requests/page methods.
-
-###  Skin `String`
-
-Gets or sets the skin name for the control user interface.
-
-#### Remarks
-If this property is not set, the control will render using the skin named "Default".
-            If EnableEmbeddedSkins is set to false, the control will not render skin.
-
-###  IsSkinSet `String`
-
-For internal use.
-
-###  EnableEmbeddedScripts `Boolean`
-
-Gets or sets the value, indicating whether to render script references to the embedded scripts or not.
-
-#### Remarks
-If EnableEmbeddedScripts is set to false you will have to register the needed Scripts files by hand.
-
-###  EnableEmbeddedSkins `String`
-
-Gets or sets the value, indicating whether to render links to the embedded skins or not.
-
-#### Remarks
-If EnableEmbeddedSkins is set to false you will have to register the needed CSS files by hand.
-
-###  EnableEmbeddedBaseStylesheet `Boolean`
-
-Gets or sets the value, indicating whether to render the link to the embedded base stylesheet of the control or not.
-
-#### Remarks
-If EnableEmbeddedBaseStylesheet is set to false you will have to register the needed control base CSS file by hand.
-
-###  RuntimeSkin `String`
-
-Gets the real skin name for the control user interface. If Skin is not set, returns
-            "Default", otherwise returns Skin.
-
-###  EnableAjaxSkinRendering `String`
-
-Gets or sets the value, indicating whether to render the skin CSS files during Ajax requests
-
-#### Remarks
-If EnableAjaxSkinRendering is set to false you will have to register the needed control base CSS file by hand when adding/showing the control with Ajax.
-
-###  ClientStateFieldID `String`
-
-###  RenderMode `RenderMode`
-
-Specifies the rendering mode of the control. Setting the mode to Lightweight will yield
-            HTML 5/CSS 3 html and css.
-
-#### Remarks
-Lightweight rendering mode might change the outlook of the component in some older browsers
-            that don't support CSS3/HTML5.
-
-###  ResolvedRenderMode `RenderMode`
-
-Returns resolved RenderMode should the original value was Auto
-
-###  CssClassFormatString `String`
-
-The CssClass property will now be used instead of the former Skin 
-            and will be modified in AddAttributesToRender()
-
-###  ClientIDMode `ClientIDMode`
-
-This property is overridden in order to support controls which implement INamingContainer.
-            The default value is changed to "AutoID".
-
-###  ScriptManager `ScriptManager`
-
-###  RadScriptManager `ScriptManager`
 
 ## Methods
+
+###  ApplyConditionalRendering
+
+Use this from RenderContents of the inheritor
+
+#### Returns
+
+`System.Void` 
+
+###  ControlPreRender
+
+Code moved into this method from OnPreRender to make sure it executed when the framework skips OnPreRender() for some reason
+
+#### Returns
+
+`System.Void` 
 
 ###  DataBind
 
@@ -601,28 +611,6 @@ Binds a data source to the invoked server control and all its child
 #### Returns
 
 `System.Void` 
-
-###  LoadViewState
-
-Restores view-state information from a previous page request that was saved by the SaveViewState method.
-
-#### Parameters
-
-#### savedState `System.Object`
-
-The saved view state.
-
-#### Returns
-
-`System.Void` 
-
-###  SaveViewState
-
-Saves any server control view-state changes that have occurred since the time the page was posted back to the server.
-
-#### Returns
-
-`System.Object` The saved view state.
 
 ###  GetAttributes
 
@@ -693,6 +681,14 @@ A  that represents the
 `System.Object` An  of the specified type that is the editor
             for this object, or null if the editor cannot be found.
 
+###  GetEmbeddedSkinNames
+
+Returns the names of all embedded skins. Used by Telerik.Web.Examples.
+
+#### Returns
+
+`System.Collections.Generic.List`1` 
+
 ###  GetEvents
 
 Returns the events for this instance of a component.
@@ -762,42 +758,6 @@ A  that
 `System.Object` An  that represents the owner of the specified
             property.
 
-###  AddAttributesToRender
-
-#### Returns
-
-`System.Void` 
-
-###  OnPreRender
-
-#### Returns
-
-`System.Void` 
-
-###  ControlPreRender
-
-Code moved into this method from OnPreRender to make sure it executed when the framework skips OnPreRender() for some reason
-
-#### Returns
-
-`System.Void` 
-
-###  RegisterScriptControl
-
-Registers the control with the ScriptManager
-
-#### Returns
-
-`System.Void` 
-
-###  RegisterCssReferences
-
-Registers the CSS references
-
-#### Returns
-
-`System.Void` 
-
 ###  LoadClientState
 
 Loads the client state data
@@ -809,96 +769,6 @@ Loads the client state data
 #### Returns
 
 `System.Void` 
-
-###  SaveClientState
-
-Saves the client state data
-
-#### Returns
-
-`System.String` 
-
-###  RenderClientStateField
-
-#### Returns
-
-`System.Void` 
-
-###  RenderBeginTag
-
-#### Returns
-
-`System.Void` 
-
-###  RenderEndTag
-
-#### Returns
-
-`System.Void` 
-
-###  Render
-
-#### Returns
-
-`System.Void` 
-
-###  RenderScriptsNoScriptManager
-
-#### Returns
-
-`System.Void` 
-
-###  RenderDescriptorsNoScriptManager
-
-#### Returns
-
-`System.Void` 
-
-###  RenderContents
-
-#### Returns
-
-`System.Void` 
-
-###  ApplyConditionalRendering
-
-Use this from RenderContents of the inheritor
-
-#### Returns
-
-`System.Void` 
-
-###  DescribeComponent
-
-#### Returns
-
-`System.Void` 
-
-###  DescribeProperty
-
-#### Returns
-
-`System.Void` 
-
-###  DescribeIDReferenceProperty
-
-#### Returns
-
-`System.Void` 
-
-###  DescribeEvent
-
-#### Returns
-
-`System.Void` 
-
-###  GetEmbeddedSkinNames
-
-Returns the names of all embedded skins. Used by Telerik.Web.Examples.
-
-#### Returns
-
-`System.Collections.Generic.List`1` 
 
 ###  LoadPostData
 
@@ -914,6 +784,20 @@ Executed when post data is loaded from the request
 
 `System.Boolean` 
 
+###  LoadViewState
+
+Restores view-state information from a previous page request that was saved by the SaveViewState method.
+
+#### Parameters
+
+#### savedState `System.Object`
+
+The saved view state.
+
+#### Returns
+
+`System.Void` 
+
 ###  RaisePostDataChangedEvent
 
 Executed when post data changes should invoke a changed event
@@ -922,9 +806,35 @@ Executed when post data changes should invoke a changed event
 
 `System.Void` 
 
-###  GetViewStateValue
+###  RegisterCssReferences
+
+Registers the CSS references
 
 #### Returns
 
-`Telerik.Web.UI.T` 
+`System.Void` 
+
+###  RegisterScriptControl
+
+Registers the control with the ScriptManager
+
+#### Returns
+
+`System.Void` 
+
+###  SaveClientState
+
+Saves the client state data
+
+#### Returns
+
+`System.String` 
+
+###  SaveViewState
+
+Saves any server control view-state changes that have occurred since the time the page was posted back to the server.
+
+#### Returns
+
+`System.Object` The saved view state.
 

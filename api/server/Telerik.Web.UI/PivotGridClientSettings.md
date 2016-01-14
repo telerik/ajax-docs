@@ -17,15 +17,6 @@ Class holding all settings associated with client-side
 
 ## Properties
 
-###  EnableFieldsDragDrop `Boolean`
-
-Determines whether the dragging fields between and in zones is allowed
-
-###  Scrolling `PivotGridScrolling`
-
-Gets a reference to , which holds various
-                properties for setting the Telerik RadPivotGrid scrolling features.
-
 ###  ClientEvents `PivotGridClientEvents`
 
 Gets a reference to , which holds
@@ -36,8 +27,17 @@ Gets a reference to , which holds
 Gets a reference to , which holds various
                 properties for setting the Telerik RadPivotGrid client messages
 
+###  EnableFieldsDragDrop `Boolean`
+
+Determines whether the dragging fields between and in zones is allowed
+
 ###  Resizing `PivotGridResizing`
 
 Gets a reference to  class providing properties
                 related to client-side resizing features.
+
+###  Scrolling `PivotGridScrolling`
+
+Gets a reference to , which holds various
+                properties for setting the Telerik RadPivotGrid scrolling features.
 

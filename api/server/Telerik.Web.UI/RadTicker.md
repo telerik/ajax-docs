@@ -20,9 +20,21 @@ RadTicker control
 
 ## Properties
 
-###  Items `RadTickerItemCollection`
+###  AutoAdvance `Boolean`
 
-The collection that holds all RadTickerItem objects.
+Specifies whether  will begin ticking the next tickerline 
+            (if any) after it has finished ticking the current one.
+
+#### Remarks
+If you set the AutoAdvance property to false, then you will have to use 
+            a client API Call ticker_id.tickNextLine()
+
+###  AutoPostBack `Boolean`
+
+Gets or sets a value indicating whether a postback to the server automatically occurs when the user interacts with the control.
+
+#### Remarks
+Setting this property to true will make Telerik RadTicker postback to the server on item click.
 
 ###  AutoStart `Boolean`
 
@@ -33,42 +45,19 @@ You should leave this set to false if you are using the ticker within a RadTicke
             If you use the ticker independently and leave this setting to false you should use the
             client API call ticker_id.startTicker() to start it.
 
-###  AutoAdvance `Boolean`
+###  ClientDataSourceID `String`
 
-Specifies whether  will begin ticking the next tickerline 
-            (if any) after it has finished ticking the current one.
+Gets or sets ID of ClientDataSource control that is used for client side binding
 
-#### Remarks
-If you set the AutoAdvance property to false, then you will have to use 
-            a client API Call ticker_id.tickNextLine()
+###  ClientIDMode `ClientIDMode`
 
-###  Loop `Boolean`
+This property is overridden in order to support controls which implement INamingContainer.
+            The default value is changed to "AutoID".
 
-Specifies whether  will repeat the first tickerline after displaying the last one.
+###  CssClassFormatString `String`
 
-#### Remarks
-If you set this property to true RadTicker will never finish ticking.
-            This may have possible implications when having more than one  instance in
-            a . This way  works is that when the first ticker
-            on a frame has finished ticking it will start ticking the next ticker on the frame. If a 
-            instance is ticking (has Loop=true) it will never finish and the next ticker on the frame will not get started.
-
-###  TickSpeed `Int32`
-
-Specifies the duration in milliseconds between ticking each character of a tickerline.
-            The lower the value the faster a line will finish ticking.
-
-###  LineDuration `Int32`
-
-Specifies in milliseconds the pause  makes before starting to tick
-            the next line (if AutoAdvance=True).
-
-###  AutoPostBack `Boolean`
-
-Gets or sets a value indicating whether a postback to the server automatically occurs when the user interacts with the control.
-
-#### Remarks
-Setting this property to true will make Telerik RadTicker postback to the server on item click.
+The CssClass property will now be used instead of the former Skin 
+            and will be modified in AddAttributesToRender()
 
 ###  DataTextField `String`
 
@@ -80,24 +69,19 @@ Use the DataTextField property to specify the field of the data source (in most 
             	taken into account only during data binding. If the DataTextField property is not set and your datasource is not a list of strings,
             	the RadTicker control will throw an exception.
 
-###  RegisterWithScriptManager `Boolean`
+###  EnableAjaxSkinRendering `String`
 
-Gets or sets the value, indicating whether to register with the ScriptManager control on the page.
-
-#### Remarks
-If RegisterWithScriptManager is set to false the control can be rendered on the page using Web Services or normal callback requests/page methods.
-
-###  Skin `String`
-
-Gets or sets the skin name for the control user interface.
+Gets or sets the value, indicating whether to render the skin CSS files during Ajax requests
 
 #### Remarks
-If this property is not set, the control will render using the skin named "Default".
-            If EnableEmbeddedSkins is set to false, the control will not render skin.
+If EnableAjaxSkinRendering is set to false you will have to register the needed control base CSS file by hand when adding/showing the control with Ajax.
 
-###  IsSkinSet `String`
+###  EnableEmbeddedBaseStylesheet `Boolean`
 
-For internal use.
+Gets or sets the value, indicating whether to render the link to the embedded base stylesheet of the control or not.
+
+#### Remarks
+If EnableEmbeddedBaseStylesheet is set to false you will have to register the needed control base CSS file by hand.
 
 ###  EnableEmbeddedScripts `Boolean`
 
@@ -113,34 +97,40 @@ Gets or sets the value, indicating whether to render links to the embedded skins
 #### Remarks
 If EnableEmbeddedSkins is set to false you will have to register the needed CSS files by hand.
 
-###  EnableEmbeddedBaseStylesheet `Boolean`
+###  IsSkinSet `String`
 
-Gets or sets the value, indicating whether to render the link to the embedded base stylesheet of the control or not.
+For internal use.
+
+###  Items `RadTickerItemCollection`
+
+The collection that holds all RadTickerItem objects.
+
+###  LineDuration `Int32`
+
+Specifies in milliseconds the pause  makes before starting to tick
+            the next line (if AutoAdvance=True).
+
+###  Loop `Boolean`
+
+Specifies whether  will repeat the first tickerline after displaying the last one.
 
 #### Remarks
-If EnableEmbeddedBaseStylesheet is set to false you will have to register the needed control base CSS file by hand.
+If you set this property to true RadTicker will never finish ticking.
+            This may have possible implications when having more than one  instance in
+            a . This way  works is that when the first ticker
+            on a frame has finished ticking it will start ticking the next ticker on the frame. If a 
+            instance is ticking (has Loop=true) it will never finish and the next ticker on the frame will not get started.
 
 ###  ODataDataSourceID `String`
 
 Gets or sets the ODataDataSource used for data binding.
 
-###  ClientDataSourceID `String`
+###  RegisterWithScriptManager `Boolean`
 
-Gets or sets ID of ClientDataSource control that is used for client side binding
-
-###  RuntimeSkin `String`
-
-Gets the real skin name for the control user interface. If Skin is not set, returns
-            "Default", otherwise returns Skin.
-
-###  EnableAjaxSkinRendering `String`
-
-Gets or sets the value, indicating whether to render the skin CSS files during Ajax requests
+Gets or sets the value, indicating whether to register with the ScriptManager control on the page.
 
 #### Remarks
-If EnableAjaxSkinRendering is set to false you will have to register the needed control base CSS file by hand when adding/showing the control with Ajax.
-
-###  ClientStateFieldID `String`
+If RegisterWithScriptManager is set to false the control can be rendered on the page using Web Services or normal callback requests/page methods.
 
 ###  RenderMode `RenderMode`
 
@@ -156,23 +146,33 @@ Lightweight rendering mode might change the outlook of the component in some old
 
 Returns resolved RenderMode should the original value was Auto
 
-###  CssClassFormatString `String`
+###  RuntimeSkin `String`
 
-The CssClass property will now be used instead of the former Skin 
-            and will be modified in AddAttributesToRender()
+Gets the real skin name for the control user interface. If Skin is not set, returns
+            "Default", otherwise returns Skin.
 
-###  DefaultCssClass `String`
+###  Skin `String`
 
-###  ClientIDMode `ClientIDMode`
+Gets or sets the skin name for the control user interface.
 
-This property is overridden in order to support controls which implement INamingContainer.
-            The default value is changed to "AutoID".
+#### Remarks
+If this property is not set, the control will render using the skin named "Default".
+            If EnableEmbeddedSkins is set to false, the control will not render skin.
 
-###  ScriptManager `ScriptManager`
+###  TickSpeed `Int32`
 
-###  RadScriptManager `ScriptManager`
+Specifies the duration in milliseconds between ticking each character of a tickerline.
+            The lower the value the faster a line will finish ticking.
 
 ## Methods
+
+###  ApplyConditionalRendering
+
+Use this from RenderContents of the inheritor
+
+#### Returns
+
+`System.Void` 
 
 ###  BindToEnumerableData
 
@@ -188,113 +188,9 @@ IEnumerable data source
 
 `System.Void` 
 
-###  AddAttributesToRender
-
-#### Returns
-
-`System.Void` 
-
-###  OnPreRender
-
-#### Returns
-
-`System.Void` 
-
 ###  ControlPreRender
 
 Code moved into this method from OnPreRender to make sure it executed when the framework skips OnPreRender() for some reason
-
-#### Returns
-
-`System.Void` 
-
-###  RegisterScriptControl
-
-Registers the control with the ScriptManager
-
-#### Returns
-
-`System.Void` 
-
-###  RegisterCssReferences
-
-Registers the CSS references
-
-#### Returns
-
-`System.Void` 
-
-###  LoadClientState
-
-Loads the client state data
-
-#### Parameters
-
-#### clientState `System.Collections.Generic.Dictionary{System.String,System.Object}`
-
-#### Returns
-
-`System.Void` 
-
-###  SaveClientState
-
-Saves the client state data
-
-#### Returns
-
-`System.String` 
-
-###  RenderClientStateField
-
-#### Returns
-
-`System.Void` 
-
-###  RenderBeginTag
-
-#### Returns
-
-`System.Void` 
-
-###  RenderEndTag
-
-#### Returns
-
-`System.Void` 
-
-###  Render
-
-#### Returns
-
-`System.Void` 
-
-###  RenderScriptsNoScriptManager
-
-#### Returns
-
-`System.Void` 
-
-###  RenderDescriptorsNoScriptManager
-
-#### Returns
-
-`System.Void` 
-
-###  RenderContents
-
-#### Returns
-
-`System.Void` 
-
-###  ApplyConditionalRendering
-
-Use this from RenderContents of the inheritor
-
-#### Returns
-
-`System.Void` 
-
-###  DescribeComponent
 
 #### Returns
 
@@ -308,18 +204,6 @@ Should be  used by inheritors
 
 `System.Void` 
 
-###  DescribeProperty
-
-#### Returns
-
-`System.Void` 
-
-###  DescribeEvent
-
-#### Returns
-
-`System.Void` 
-
 ###  GetEmbeddedSkinNames
 
 Returns the names of all embedded skins. Used by Telerik.Web.Examples.
@@ -327,6 +211,18 @@ Returns the names of all embedded skins. Used by Telerik.Web.Examples.
 #### Returns
 
 `System.Collections.Generic.List`1` 
+
+###  LoadClientState
+
+Loads the client state data
+
+#### Parameters
+
+#### clientState `System.Collections.Generic.Dictionary{System.String,System.Object}`
+
+#### Returns
+
+`System.Void` 
 
 ###  LoadPostData
 
@@ -350,9 +246,27 @@ Executed when post data changes should invoke a changed event
 
 `System.Void` 
 
-###  GetViewStateValue
+###  RegisterCssReferences
+
+Registers the CSS references
 
 #### Returns
 
-`Telerik.Web.UI.T` 
+`System.Void` 
+
+###  RegisterScriptControl
+
+Registers the control with the ScriptManager
+
+#### Returns
+
+`System.Void` 
+
+###  SaveClientState
+
+Saves the client state data
+
+#### Returns
+
+`System.String` 
 

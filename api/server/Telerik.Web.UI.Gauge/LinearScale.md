@@ -17,46 +17,42 @@ Represents the scale of a Linear Gauge.
 
 ## Properties
 
-###  Vertical `Boolean`
+###  Labels `ScaleLabels`
 
-Gets or sets a bool value indicating whether the LinearGauge will be vertically or horizontally positioned.
+Defines the settings of the Scale's Labels.
+
+###  MajorTicks `Ticks`
+
+Defines the settings of the Scale's Major ticks.
+
+###  MajorUnit `Nullable`1`
+
+Gets or sets the interval between the major divisions.
+
+###  Max `Decimal`
+
+Gets or sets the maximum value of the scale.
+
+###  Min `Decimal`
+
+Gets or sets the minimum value of the scale.
+
+###  MinorTicks `Ticks`
+
+Defines the settings of the Scale's Minor ticks.
+
+###  MinorUnit `Decimal`
+
+Gets or sets the interval between the minor divisions.
 
 ###  Mirror `Boolean`
 
 Gets or sets a bool value that indicates whether the scale labels and ticks will be mirrored. 
             If the labels are normally on the left side of the scale, mirroring the scale will render them to the right.
 
-###  Labels `ScaleLabels`
-
-Defines the settings of the Scale's Labels.
-
-###  MinorTicks `Ticks`
-
-Defines the settings of the Scale's Minor ticks.
-
-###  MajorTicks `Ticks`
-
-Defines the settings of the Scale's Major ticks.
-
 ###  Ranges `GaugeRangeCollection`
 
 Defines a collection of gauge ranges.
-
-###  Min `Decimal`
-
-Gets or sets the minimum value of the scale.
-
-###  Max `Decimal`
-
-Gets or sets the maximum value of the scale.
-
-###  MinorUnit `Decimal`
-
-Gets or sets the interval between the minor divisions.
-
-###  MajorUnit `Nullable`1`
-
-Gets or sets the interval between the major divisions.
 
 ###  Reverse `Boolean`
 
@@ -66,23 +62,7 @@ Gets or sets a bool value indicating whether the direction of the scale values w
             LinearGauge: Values increase from right to left (if the LinearGauge is horizontal), 
             and from top to bottom (if the LinearGauge is vertical).
 
-## Methods
+###  Vertical `Boolean`
 
-###  LoadViewState
-
-#### Returns
-
-`System.Void` 
-
-###  SaveViewState
-
-#### Returns
-
-`System.Object` 
-
-###  TrackViewState
-
-#### Returns
-
-`System.Void` 
+Gets or sets a bool value indicating whether the LinearGauge will be vertically or horizontally positioned.
 

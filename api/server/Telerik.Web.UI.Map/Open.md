@@ -16,11 +16,11 @@ The animation that will be used when a Tooltip opens.
 
 ## Properties
 
-###  Effects `String`
-
-Effect to be used for opening of the Tooltip.
-
 ###  Duration `Double`
 
 Defines the animation duration.
+
+###  Effects `String`
+
+Effect to be used for opening of the Tooltip.
 

@@ -17,11 +17,11 @@ Provides data for the E:Telerik.Web.UI.RadScheduler.FormCreated event of the Tel
 
 ## Properties
 
-###  Container `SchedulerFormContainer`
-
-Gets the container.
-
 ###  Appointment `Appointment`
 
 Gets the appointment.
+
+###  Container `SchedulerFormContainer`
+
+Gets the container.
 

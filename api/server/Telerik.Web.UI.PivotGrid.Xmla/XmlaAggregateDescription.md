@@ -20,129 +20,45 @@ Used to specify aggregation parameters for Telerik.Web.UI.PivotGrid.Xmla.XmlaDat
 
 ## Properties
 
-###  MemberName `String`
+###  CustomName `String`
 
-Gets or sets cube measure name that is used for aggregation.
-
-###  DisplayValueAsKpi `Boolean`
+Gets or sets the custom name that will be used as display name.
 
 ###  DataType `Type`
 
 Provides the data type of the aggregate description.
 
-###  TotalFormat `TotalFormat`
-
-Gets or sets the  used to format the generated aggregate values.
-
-###  DisplayValueAsKpi `Boolean`
-
 ###  DisplayName `String`
 
 Gets the display-friendly name.
 
-###  CustomName `String`
+###  DisplayValueAsKpi `Boolean`
 
-Gets or sets the custom name that will be used as display name.
+###  DisplayValueAsKpi `Boolean`
+
+###  MemberName `String`
+
+Gets or sets cube measure name that is used for aggregation.
 
 ###  Parent `SettingsNode`
 
 Gets the  this  is used in.
 
+###  TotalFormat `TotalFormat`
+
+Gets or sets the  used to format the generated aggregate values.
+
 ## Methods
 
-###  CreateInstanceCore
+###  AddSettingsChild
 
-#### Returns
-
-`Telerik.Web.UI.PivotGrid.Core.Cloneable` 
-
-###  GetDisplayName
-
-#### Returns
-
-`System.String` 
-
-###  CreateInstanceCore
-
-#### Returns
-
-`Telerik.Web.UI.PivotGrid.Core.Cloneable` 
-
-###  CloneCore
-
-#### Returns
-
-`System.Void` 
-
-###  GetUniqueName
-
-#### Returns
-
-`System.String` 
-
-###  CloneCore
-
-#### Returns
-
-`System.Void` 
-
-###  CloneCore
-
-#### Returns
-
-`System.Void` 
-
-###  GetDisplayName
-
-Gets the display-friendly name.
-
-#### Returns
-
-`System.String` A  name.
-
-###  Telerik.Web.UI.PivotGrid.Core.IDescriptionBase.Clone
-
-#### Returns
-
-`Telerik.Web.UI.PivotGrid.Core.IDescriptionBase` 
-
-###  GetUniqueName
-
-#### Returns
-
-`System.String` 
-
-###  NotifyServicesChanged
-
-Raises the  event.
-
-#### Returns
-
-`System.Void` 
-
-###  NotifySettingsChanged
-
-Will recursively notify all  for a settings change.
+Set this  as parent of the  and becomes a target for the 's change notifications.
 
 #### Parameters
 
-#### args `Telerik.Web.UI.PivotGrid.Core.SettingsChangedEventArgs`
+#### child `Telerik.Web.UI.PivotGrid.Core.SettingsNode`
 
-that contain information about the change.
-
-#### Returns
-
-`System.Void` 
-
-###  OnSettingsChanged
-
-Invoked when a SettingsChangedEventArgs reaches the .
-
-#### Parameters
-
-#### args `Telerik.Web.UI.PivotGrid.Core.SettingsChangedEventArgs`
-
-The  that contains the event data.
+The nested .
 
 #### Returns
 
@@ -168,96 +84,6 @@ Enters the  in a new editing scope. Use when applying multiple changes.
 
 `System.Void` 
 
-###  EndInit
-
-#### Returns
-
-`System.Void` 
-
-###  GetService
-
-#### Returns
-
-`System.Object` 
-
-###  OnPropertyChanged
-
-Raises this object's  event.
-
-#### Parameters
-
-#### propertyName `System.String`
-
-The property that has a new value.
-
-#### Returns
-
-`System.Void` 
-
-###  RemoveSettingsChild
-
-Unsets the parent initiated with .
-            This  will no longer receive change notifications from the .
-
-#### Parameters
-
-#### child `Telerik.Web.UI.PivotGrid.Core.SettingsNode`
-
-The nested .
-
-#### Returns
-
-`System.Void` 
-
-###  AddSettingsChild
-
-Set this  as parent of the  and becomes a target for the 's change notifications.
-
-#### Parameters
-
-#### child `Telerik.Web.UI.PivotGrid.Core.SettingsNode`
-
-The nested .
-
-#### Returns
-
-`System.Void` 
-
-###  GetServiceOverride
-
-Provides services available by this SettingsNode.
-            Other services may be available in its s.
-            The default implementation returns this  if the desired service type is assignable from the type of this.
-            The  implementation of  would query the service on the local node and if not available would query up the  nodes.
-
-#### Parameters
-
-#### serviceType `System.Type`
-
-The type of the requested service.
-
-#### Returns
-
-`System.Object` A service instance if available, null otherwise.
-
-###  OnEnteredEditScope
-
-Override to provide custom behavior for derived classes when editing begins.
-             is already in edit mode and changes within the method body will be accumulated and released upon exit.
-
-#### Returns
-
-`System.Void` 
-
-###  OnExitingEditScope
-
-Override to provide custom behavior for derived classes when finishing editing.
-             is still in edit mode and changes within the method body will be accumulated and released upon exit.
-
-#### Returns
-
-`System.Void` 
-
 ###  Clone
 
 Creates a new instance of the , making deep copies of the object's values.
@@ -266,18 +92,23 @@ Creates a new instance of the , making deep copies of the object's values.
 
 `Telerik.Web.UI.PivotGrid.Core.Cloneable` A clone of the current object.
 
-###  CreateInstanceCore
-
-When implemented in a derived class, creates a new instance of the  derived class.
-
-#### Remarks
-Do not call this method directly (except when calling base in an implementation). This method is called internally by the  method whenever a new instance of the  is created.
-            Notes to Inheritors.
-            Every  derived class must implement this method. A typical implementation is to simply call the default constructor and return the result.
+###  CloneCore
 
 #### Returns
 
-`Telerik.Web.UI.PivotGrid.Core.Cloneable` New instance for cloning.
+`System.Void` 
+
+###  CloneCore
+
+#### Returns
+
+`System.Void` 
+
+###  CloneCore
+
+#### Returns
+
+`System.Void` 
 
 ###  CloneCore
 
@@ -313,4 +144,173 @@ The source that is about to be copied.
 #### Returns
 
 `Telerik.Web.UI.PivotGrid.Core.T` Clone of  of type . If source is null - default().
+
+###  CreateInstanceCore
+
+#### Returns
+
+`Telerik.Web.UI.PivotGrid.Core.Cloneable` 
+
+###  CreateInstanceCore
+
+#### Returns
+
+`Telerik.Web.UI.PivotGrid.Core.Cloneable` 
+
+###  CreateInstanceCore
+
+When implemented in a derived class, creates a new instance of the  derived class.
+
+#### Remarks
+Do not call this method directly (except when calling base in an implementation). This method is called internally by the  method whenever a new instance of the  is created.
+            Notes to Inheritors.
+            Every  derived class must implement this method. A typical implementation is to simply call the default constructor and return the result.
+
+#### Returns
+
+`Telerik.Web.UI.PivotGrid.Core.Cloneable` New instance for cloning.
+
+###  EndInit
+
+#### Returns
+
+`System.Void` 
+
+###  GetDisplayName
+
+#### Returns
+
+`System.String` 
+
+###  GetDisplayName
+
+Gets the display-friendly name.
+
+#### Returns
+
+`System.String` A  name.
+
+###  GetService
+
+#### Returns
+
+`System.Object` 
+
+###  GetServiceOverride
+
+Provides services available by this SettingsNode.
+            Other services may be available in its s.
+            The default implementation returns this  if the desired service type is assignable from the type of this.
+            The  implementation of  would query the service on the local node and if not available would query up the  nodes.
+
+#### Parameters
+
+#### serviceType `System.Type`
+
+The type of the requested service.
+
+#### Returns
+
+`System.Object` A service instance if available, null otherwise.
+
+###  GetUniqueName
+
+#### Returns
+
+`System.String` 
+
+###  GetUniqueName
+
+#### Returns
+
+`System.String` 
+
+###  NotifyServicesChanged
+
+Raises the  event.
+
+#### Returns
+
+`System.Void` 
+
+###  NotifySettingsChanged
+
+Will recursively notify all  for a settings change.
+
+#### Parameters
+
+#### args `Telerik.Web.UI.PivotGrid.Core.SettingsChangedEventArgs`
+
+that contain information about the change.
+
+#### Returns
+
+`System.Void` 
+
+###  OnEnteredEditScope
+
+Override to provide custom behavior for derived classes when editing begins.
+             is already in edit mode and changes within the method body will be accumulated and released upon exit.
+
+#### Returns
+
+`System.Void` 
+
+###  OnExitingEditScope
+
+Override to provide custom behavior for derived classes when finishing editing.
+             is still in edit mode and changes within the method body will be accumulated and released upon exit.
+
+#### Returns
+
+`System.Void` 
+
+###  OnPropertyChanged
+
+Raises this object's  event.
+
+#### Parameters
+
+#### propertyName `System.String`
+
+The property that has a new value.
+
+#### Returns
+
+`System.Void` 
+
+###  OnSettingsChanged
+
+Invoked when a SettingsChangedEventArgs reaches the .
+
+#### Parameters
+
+#### args `Telerik.Web.UI.PivotGrid.Core.SettingsChangedEventArgs`
+
+The  that contains the event data.
+
+#### Returns
+
+`System.Void` 
+
+###  RemoveSettingsChild
+
+Unsets the parent initiated with .
+            This  will no longer receive change notifications from the .
+
+#### Parameters
+
+#### child `Telerik.Web.UI.PivotGrid.Core.SettingsNode`
+
+The nested .
+
+#### Returns
+
+`System.Void` 
+
+###  Telerik.Web.UI.PivotGrid.Core.IDescriptionBase.Clone
+
+#### Returns
+
+`Telerik.Web.UI.PivotGrid.Core.IDescriptionBase` 
 

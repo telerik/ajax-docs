@@ -17,11 +17,11 @@ Used for internal grouping by years.
 
 ## Properties
 
-###  Year `Int32`
-
-Gets the Year part of the group.
-
 ###  IsValid `Boolean`
 
 Gets or sets a value indicating whether this instance is valid.
+
+###  Year `Int32`
+
+Gets the Year part of the group.
 

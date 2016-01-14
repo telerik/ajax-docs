@@ -15,17 +15,13 @@ Describes the supported aggregate functions available for Telerik.Web.UI.PivotGr
 
 ## Properties
 
-###  Sum `AggregateFunction`
+###  Average `AggregateFunction`
 
-Computes the sum.
+Computes the average.
 
 ###  Count `AggregateFunction`
 
 Counts items.
-
-###  Average `AggregateFunction`
-
-Computes the average.
 
 ###  Max `AggregateFunction`
 
@@ -46,6 +42,10 @@ Estimates the standard deviation of a population based on a sample.
 ###  StdDevP `AggregateFunction`
 
 Estimates the standard deviation of a population based on the entire population.
+
+###  Sum `AggregateFunction`
+
+Computes the sum.
 
 ###  Var `AggregateFunction`
 

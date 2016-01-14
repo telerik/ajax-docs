@@ -16,6 +16,40 @@ Base class for CDN Related settings
 
 ## Properties
 
+###  BaseSecureUrl `String`
+
+Gets or sets the base secure (HTTPS) URL of the CDN that hosts the control scripts.
+
+#### Remarks
+The BaseSecureUrl will be used when the page is served over a secure connection.
+            	
+            	In order to obtain the URL for a specific resource, RadScriptManager will combine the
+            	base URL with the suite name (ajax) and the current version.
+            	For example: https://d2i2wahzwrm1n5.cloudfront.net/ajax/2009.3.1207/Common/Core.js
+            	
+            	If the browser supports it, the RadScriptManager will serve a gzip compressed version from the "ajaxz" folder.
+            	
+            
+            	See TelerikCdn for detailed description of the Telerik CDN network.
+
+###  BaseUrl `String`
+
+Gets or sets the base URL of the CDN that hosts the control scripts.
+
+#### Remarks
+In order to obtain the URL for a specific resource, RadScriptManager will combine the
+            	base URL with the suite name (ajax) and the current version.
+            	For example: http://aspnet-scripts.telerikstatic.com/ajax/2009.3.1207/Common/Core.js
+            	
+            	If the browser supports it, the RadScriptManager will serve a gzip compressed version from the "ajaxz" folder.
+            	
+            
+            	See TelerikCdn for detailed description of the Telerik CDN network.
+
+###  CombinedResource `CombinedResourceMode`
+
+Gets or sets a value indicating whether to use one combined resource files (skins, scripts) or let each control request its scripts and styles separately.
+
 ###  TelerikCdn `TelerikCdnMode`
 
 Gets or sets a value indicating whether to use the Telerik CDN network to load control scripts.
@@ -43,46 +77,4 @@ By default the Telerik CDN is not used. If you enable it the scripts will be loa
             		</appSettings><br />
             	Note:
             	Ensure that your customers have unlimited access to the telerikstatic.com domain before turning on this feature.
-
-###  CombinedResource `CombinedResourceMode`
-
-Gets or sets a value indicating whether to use one combined resource files (skins, scripts) or let each control request its scripts and styles separately.
-
-###  BaseUrl `String`
-
-Gets or sets the base URL of the CDN that hosts the control scripts.
-
-#### Remarks
-In order to obtain the URL for a specific resource, RadScriptManager will combine the
-            	base URL with the suite name (ajax) and the current version.
-            	For example: http://aspnet-scripts.telerikstatic.com/ajax/2009.3.1207/Common/Core.js
-            	
-            	If the browser supports it, the RadScriptManager will serve a gzip compressed version from the "ajaxz" folder.
-            	
-            
-            	See TelerikCdn for detailed description of the Telerik CDN network.
-
-###  BaseSecureUrl `String`
-
-Gets or sets the base secure (HTTPS) URL of the CDN that hosts the control scripts.
-
-#### Remarks
-The BaseSecureUrl will be used when the page is served over a secure connection.
-            	
-            	In order to obtain the URL for a specific resource, RadScriptManager will combine the
-            	base URL with the suite name (ajax) and the current version.
-            	For example: https://d2i2wahzwrm1n5.cloudfront.net/ajax/2009.3.1207/Common/Core.js
-            	
-            	If the browser supports it, the RadScriptManager will serve a gzip compressed version from the "ajaxz" folder.
-            	
-            
-            	See TelerikCdn for detailed description of the Telerik CDN network.
-
-## Methods
-
-###  GetViewStateValue
-
-#### Returns
-
-`Telerik.Web.UI.T` 
 

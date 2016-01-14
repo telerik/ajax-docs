@@ -19,22 +19,16 @@ Class representing a collection of Telerik.Web.UI.RadDataForm data key values.
 
 Gets the number of elements contained in the .
 
-###  SyncRoot `Object`
-
-Gets an object that can be used to synchronize access to the .
-
 ###  IsSynchronized `Boolean`
 
 Gets a value indicating whether access to the 
             is synchronized (thread safe).
 
+###  SyncRoot `Object`
+
+Gets an object that can be used to synchronize access to the .
+
 ## Methods
-
-###  GetEnumerator
-
-#### Returns
-
-`System.Collections.IEnumerator` 
 
 ###  CopyTo
 

@@ -16,12 +16,6 @@ Represents a node that is associated with Telerik.Web.UI.PivotGrid.Core.Fields.I
 
 ## Properties
 
-###  FieldInfo `IPivotFieldInfo`
-
-###  Name `String`
-
-Gets a string that can be used as an identifier of this instance.
-
 ###  Caption `String`
 
 Gets or sets the display name.
@@ -30,9 +24,15 @@ Gets or sets the display name.
 
 Gets the children.
 
+###  FieldInfo `IPivotFieldInfo`
+
 ###  HasChildren `IList`1`
 
 Value indicating whether this instance has child nodes.
+
+###  Name `String`
+
+Gets a string that can be used as an identifier of this instance.
 
 ###  Role `ContainerNodeRole`
 

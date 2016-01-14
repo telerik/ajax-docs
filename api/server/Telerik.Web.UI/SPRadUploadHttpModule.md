@@ -16,15 +16,24 @@ This Class defines the SPRadUploadHttpModule that inherits the RadUploadHttpModu
 
 ## Properties
 
-###  IsRegistered `Boolean`
-
-Gets the IsRegistered.
-
 ###  Context `HttpContext`
 
 Gets or sets the context.
 
+###  IsRegistered `Boolean`
+
+Gets the IsRegistered.
+
 ## Methods
+
+###  Dispose
+
+Disposes of the resources (other than memory) used by the module that
+            implements .
+
+#### Returns
+
+`System.Void` 
 
 ###  Init
 
@@ -35,15 +44,6 @@ Inits the specified app.
 #### app `System.Web.HttpApplication`
 
 The app.
-
-#### Returns
-
-`System.Void` 
-
-###  Dispose
-
-Disposes of the resources (other than memory) used by the module that
-            implements .
 
 #### Returns
 

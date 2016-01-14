@@ -17,15 +17,55 @@ The localization strings to be used in RadGantt.
 
 ## Properties
 
-###  Save `String`
+###  AddChild `String`
 
-Gets or sets the save string.
+Gets or sets the add child action.
+
+###  AdvancedAssignResources `String`
+
+Gets or sets the assign resources string.
+
+###  AdvancedEnd `String`
+
+Gets or sets the end string.
+
+###  AdvancedPercentComplete `String`
+
+Gets or sets the Percent Complete string.
+
+###  AdvancedResources `String`
+
+Gets or sets the resources string.
+
+###  AdvancedResourcesHeader `String`
+
+Gets or sets the resources header string.
+
+###  AdvancedResourcesTitle `String`
+
+Gets or sets the resources editor title string.
+
+###  AdvancedStart `String`
+
+Gets or sets the start string.
+
+###  AdvancedTitle `String`
+
+Gets or sets the title string.
+
+###  AdvancedUnitsHeader `String`
+
+Gets or sets the units header string.
+
+###  AdvancedWindowTitle `String`
+
+Gets or sets the editor title string.
+
+###  Append `String`
+
+Gets or sets the append task action.
 
 ###  Cancel `String`
-
-Gets or sets the cancel string.
-
-###  Delete `String`
 
 Gets or sets the cancel string.
 
@@ -45,87 +85,47 @@ Gets or sets the task delete confirmation text string.
 
 Gets or sets the task delete confirmation title string.
 
-###  HeaderDay `String`
+###  Delete `String`
 
-Gets or sets the header day.
-
-###  HeaderWeek `String`
-
-Gets or sets the header week.
-
-###  HeaderMonth `String`
-
-Gets or sets the header month.
-
-###  HeaderYear `String`
-
-Gets or sets the header year.
-
-###  TooltipStart `String`
-
-Gets or sets the tooltip start string.
-
-###  TooltipEnd `String`
-
-Gets or sets the tooltip end string.
-
-###  Append `String`
-
-Gets or sets the append task action.
-
-###  AddChild `String`
-
-Gets or sets the add child action.
-
-###  InsertBefore `String`
-
-Gets or sets the insert before action.
-
-###  InsertAfter `String`
-
-Gets or sets the insert after action.
+Gets or sets the cancel string.
 
 ###  ExportPdf `String`
 
 Gets or sets the export to Pdf action.
 
-###  AdvancedWindowTitle `String`
+###  HeaderDay `String`
 
-Gets or sets the editor title string.
+Gets or sets the header day.
 
-###  AdvancedResourcesTitle `String`
+###  HeaderMonth `String`
 
-Gets or sets the resources editor title string.
+Gets or sets the header month.
 
-###  AdvancedTitle `String`
+###  HeaderWeek `String`
 
-Gets or sets the title string.
+Gets or sets the header week.
 
-###  AdvancedStart `String`
+###  HeaderYear `String`
 
-Gets or sets the start string.
+Gets or sets the header year.
 
-###  AdvancedEnd `String`
+###  InsertAfter `String`
 
-Gets or sets the end string.
+Gets or sets the insert after action.
 
-###  AdvancedPercentComplete `String`
+###  InsertBefore `String`
 
-Gets or sets the Percent Complete string.
+Gets or sets the insert before action.
 
-###  AdvancedResources `String`
+###  Save `String`
 
-Gets or sets the resources string.
+Gets or sets the save string.
 
-###  AdvancedAssignResources `String`
+###  TooltipEnd `String`
 
-Gets or sets the assign resources string.
+Gets or sets the tooltip end string.
 
-###  AdvancedResourcesHeader `String`
+###  TooltipStart `String`
 
-Gets or sets the resources header string.
-
-###  AdvancedUnitsHeader `String`
-
-Gets or sets the units header string.
+Gets or sets the tooltip start string.
 

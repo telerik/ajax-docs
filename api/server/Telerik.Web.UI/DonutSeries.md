@@ -18,61 +18,25 @@ The donut series class will produce a donut chart series.
 
 ## Properties
 
-###  HoleSize `Int32`
+###  Appearance `SeriesAppearance`
 
-The size of the hole in the donut chart
-
-###  LabelsAppearance `DonutSeriesLabelsAppearance`
-
-Defines the appearance settings of the series labels
-
-###  ExplodeField `String`
-
-The data field holding bool value which determines whether the sector should be exploded
-
-###  NameField `String`
-
-The data field holding names of the sectors
-
-###  StartAngle `Int32`
-
-Specifies the start angle of the first pie segment.
-
-###  SeriesItems `PieSeriesItemCollection`
-
-Creates a collection with specific series items for the current series type
-
-###  Type `SeriesType`
-
-Gets the type of the series
-
-###  Data `String`
-
-Get/Set the serialized data entities in a list format. This property is usually set if the series is data bound
-
-###  Name `String`
-
-Get/Set the name of the series
-
-###  Visible `Boolean`
-
-Get/Set the visibility of the series
+Defines the appearance settings of the series
 
 ###  AxisName `String`
 
 Get/set the name of the axis, to which the values will be associated
 
+###  ColorField `String`
+
+Specifies the color of the series when the chart is databound.
+
+###  Data `String`
+
+Get/Set the serialized data entities in a list format. This property is usually set if the series is data bound
+
 ###  DataField `String`
 
 The data field with the values of the series
-
-###  DataFieldX `String`
-
-The data field with the values of the series along the X axis
-
-###  DataFieldY `String`
-
-The data field with the values of the series along the Y axis
 
 ###  DataFieldSize `String`
 
@@ -82,6 +46,26 @@ Specifies the size value of the bubble item in bubble series when the chart is d
 
 Specifies the tooltip value of the bubble item in bubble series when the chart is databound.
 
+###  DataFieldX `String`
+
+The data field with the values of the series along the X axis
+
+###  DataFieldY `String`
+
+The data field with the values of the series along the Y axis
+
+###  DataVisibleInLegendField `String`
+
+Specifies the visibility of the series items in the legend for a data-bound scenario.
+
+###  ExplodeField `String`
+
+The data field holding bool value which determines whether the sector should be exploded
+
+###  HoleSize `Int32`
+
+The size of the hole in the donut chart
+
 ###  Items `SeriesItemCollection`
 
 The Items collection is Obsolete. Use the SeriesItems collection to specify the series items.
@@ -89,17 +73,41 @@ The Items collection is Obsolete. Use the SeriesItems collection to specify the 
 #### Remarks
 The Items collection is Obsolete. Use the SeriesItems collection to programmatically set the series items.
 
-###  Appearance `SeriesAppearance`
+###  LabelsAppearance `DonutSeriesLabelsAppearance`
 
-Defines the appearance settings of the series
+Defines the appearance settings of the series labels
+
+###  Name `String`
+
+Get/Set the name of the series
+
+###  NameField `String`
+
+The data field holding names of the sectors
+
+###  SeriesItems `PieSeriesItemCollection`
+
+Creates a collection with specific series items for the current series type
+
+###  StartAngle `Int32`
+
+Specifies the start angle of the first pie segment.
 
 ###  TooltipsAppearance `SeriesAppearance`
 
 Defines the appearance settings of the series
 
-###  ColorField `String`
+###  Type `SeriesType`
 
-Specifies the color of the series when the chart is databound.
+Gets the type of the series
+
+###  Visible `Boolean`
+
+Get/Set the visibility of the series
+
+###  VisibleInLegend `Boolean`
+
+Get/Set the visibility of the series in the legend
 
 ###  ZIndex `Nullable`1`
 

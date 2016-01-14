@@ -16,69 +16,57 @@ This class represents a single Telerik.Web.UI.RadButton RadButtonToggleState whe
 
 ## Properties
 
-###  Text `String`
+###  Container `RadButton`
 
-Gets or sets the text displayed in the RadButton control.
-
-###  Value `String`
-
-Gets or sets optional Value.
-
-###  Selected `Boolean`
-
-Gets or sets a bool value indicating whether the ToggleState is selected or not.
+The RadButton control that contains the ToggleState.
 
 ###  CssClass `String`
 
 Gets or sets the CSS class applied to the RadButton control.
 
+###  Height `Unit`
+
+Gets or sets the height of the RadButton control.
+
 ###  HoveredCssClass `String`
 
 Gets or sets the CSS class applied to the RadButton control when the mouse pointer is over the control.
+
+###  HoveredImageUrl `String`
+
+Gets or sets the location of an image to display in the RadButton control, when the mouse pointer is over the control.
+
+###  ImageUrl `String`
+
+Gets or sets the location of an image to display in the RadButton control.
+
+###  IsBackgroundImage `Boolean`
+
+Gets or sets a bool value indicating how the Image is used - i.e. as a background image or as an Image Button.
 
 ###  PressedCssClass `String`
 
 Gets or sets the CSS class applied to the RadButton control when the control is pressed.
 
-###  Width `Unit`
+###  PressedImageUrl `String`
 
-Gets or sets the width of the RadButton control.
-
-###  Height `Unit`
-
-Gets or sets the height of the RadButton control.
-
-###  PrimaryIconCssClass `String`
-
-Gets or sets the CSS class applied to the Primary Icon.
-
-###  PrimaryIconUrl `String`
-
-Gets or sets the URL to the image used as Primary Icon.
+Gets or sets the location of an image to display in the RadButton control, when the control is pressed.
 
 ###  PrimaryHoveredIconUrl `String`
 
 Gets or sets the URL to the image showed when the Primary Icon is hovered.
 
-###  PrimaryPressedIconUrl `String`
+###  PrimaryIconBottom `Unit`
 
-Gets or sets the URL to the image showed when the Primary Icon is pressed.
+Gets or sets the bottom edge of the Primary Icon, relative to the RadButton control's wrapper element.
+
+###  PrimaryIconCssClass `String`
+
+Gets or sets the CSS class applied to the Primary Icon.
 
 ###  PrimaryIconHeight `Unit`
 
 Gets or sets the Height of the Primary Icon.
-
-###  PrimaryIconWidth `Unit`
-
-Gets or sets the Width of the Primary Icon.
-
-###  PrimaryIconTop `Unit`
-
-Gets or sets the top edge of the Primary Icon, relative to the RadButton control's wrapper element.
-
-###  PrimaryIconBottom `Unit`
-
-Gets or sets the bottom edge of the Primary Icon, relative to the RadButton control's wrapper element.
 
 ###  PrimaryIconLeft `Unit`
 
@@ -88,37 +76,37 @@ Gets or sets the left edge of the Primary Icon, relative to the RadButton contro
 
 Gets or sets the right edge of the Primary Icon, relative to the RadButton control's wrapper element.
 
-###  SecondaryIconCssClass `String`
+###  PrimaryIconTop `Unit`
 
-Gets or sets the CSS class applied to the Secondary Icon.
+Gets or sets the top edge of the Primary Icon, relative to the RadButton control's wrapper element.
 
-###  SecondaryIconUrl `String`
+###  PrimaryIconUrl `String`
 
-Gets or sets the URL to the image used as Secondary Icon.
+Gets or sets the URL to the image used as Primary Icon.
+
+###  PrimaryIconWidth `Unit`
+
+Gets or sets the Width of the Primary Icon.
+
+###  PrimaryPressedIconUrl `String`
+
+Gets or sets the URL to the image showed when the Primary Icon is pressed.
 
 ###  SecondaryHoveredIconUrl `String`
 
 Gets or sets the URL to the image showed when the Secondary Icon is hovered.
 
-###  SecondaryPressedIconUrl `String`
+###  SecondaryIconBottom `Unit`
 
-Gets or sets the URL to the image showed when the Secondary Icon is pressed.
+Gets or sets the bottom edge of the Secondary Icon, relative to the RadButton control's wrapper element.
+
+###  SecondaryIconCssClass `String`
+
+Gets or sets the CSS class applied to the Secondary Icon.
 
 ###  SecondaryIconHeight `Unit`
 
 Gets or sets the Height of the Secondary Icon.
-
-###  SecondaryIconWidth `Unit`
-
-Gets or sets the Width of the Secondary Icon.
-
-###  SecondaryIconTop `Unit`
-
-Gets or sets the top edge of the Secondary Icon, relative to the RadButton control's wrapper element.
-
-###  SecondaryIconBottom `Unit`
-
-Gets or sets the bottom edge of the Secondary Icon, relative to the RadButton control's wrapper element.
 
 ###  SecondaryIconLeft `Unit`
 
@@ -128,37 +116,35 @@ Gets or sets the left edge of the Secondary Icon, relative to the RadButton cont
 
 Gets or sets the right edge of the Secondary Icon, relative to the RadButton control's wrapper element.
 
-###  IsBackgroundImage `Boolean`
+###  SecondaryIconTop `Unit`
 
-Gets or sets a bool value indicating how the Image is used - i.e. as a background image or as an Image Button.
+Gets or sets the top edge of the Secondary Icon, relative to the RadButton control's wrapper element.
 
-###  ImageUrl `String`
+###  SecondaryIconUrl `String`
 
-Gets or sets the location of an image to display in the RadButton control.
+Gets or sets the URL to the image used as Secondary Icon.
 
-###  HoveredImageUrl `String`
+###  SecondaryIconWidth `Unit`
 
-Gets or sets the location of an image to display in the RadButton control, when the mouse pointer is over the control.
+Gets or sets the Width of the Secondary Icon.
 
-###  PressedImageUrl `String`
+###  SecondaryPressedIconUrl `String`
 
-Gets or sets the location of an image to display in the RadButton control, when the control is pressed.
+Gets or sets the URL to the image showed when the Secondary Icon is pressed.
 
-###  Container `RadButton`
+###  Selected `Boolean`
 
-The RadButton control that contains the ToggleState.
+Gets or sets a bool value indicating whether the ToggleState is selected or not.
 
-## Methods
+###  Text `String`
 
-###  SaveViewState
+Gets or sets the text displayed in the RadButton control.
 
-#### Returns
+###  Value `String`
 
-`System.Object` 
+Gets or sets optional Value.
 
-###  LoadViewState
+###  Width `Unit`
 
-#### Returns
-
-`System.Void` 
+Gets or sets the width of the RadButton control.
 

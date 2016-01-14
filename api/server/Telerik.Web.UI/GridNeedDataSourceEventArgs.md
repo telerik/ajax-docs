@@ -24,3 +24,11 @@ Gets a value indicating if the
 
 Gets a value specifying why the  event was fired.
 
+###  RowsCount `Int32`
+
+Gets a value specifying the number of rows that should be extracted from the data source when virtualization and custom paging are enabled.
+
+###  StartRowIndex `Int32`
+
+Gets a value specifying the index of the first row in the data source that should be extracted when virtualization and custom paging are enabled.
+

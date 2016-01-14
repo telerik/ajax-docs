@@ -16,19 +16,9 @@ Provides data for the RadComboBoxItemsRequested event of the RadComboBoxcontrol.
 
 ## Properties
 
-###  Text `String`
+###  Context `IDictionary`2`
 
-Text is the text in the input area of the combobox. 
-            This value can be used to filter the items that are added.
-
-###  Value `String`
-
-Value is the value of the currently selected item.
-
-###  NumberOfItems `Int32`
-
-NumberOfItems  is the number of items that have been added by all previous calls to the 
-            ItemsRequested event handler when the ShowMoreResultsBox property is True.
+Gets or sets the context.
 
 ###  EndOfItems `Boolean`
 
@@ -40,7 +30,17 @@ EndOfItems is boolean property indicating that no more items should be requested
 Message is the message that appears in the ShowMoreResults box. 
             This is only used when the ShowMoreResultsBox property is True.
 
-###  Context `IDictionary`2`
+###  NumberOfItems `Int32`
 
-Gets or sets the context.
+NumberOfItems  is the number of items that have been added by all previous calls to the 
+            ItemsRequested event handler when the ShowMoreResultsBox property is True.
+
+###  Text `String`
+
+Text is the text in the input area of the combobox. 
+            This value can be used to filter the items that are added.
+
+###  Value `String`
+
+Value is the value of the currently selected item.
 

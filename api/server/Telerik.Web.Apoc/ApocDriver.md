@@ -20,44 +20,19 @@ The examples belows demonstrate several ways of invoking Apoc XSL-FO.  The
 
 ## Properties
 
-###  CloseOnExit `Boolean`
-
-Determines if the output stream should be automatically closed 
-                upon completion of the render process.
-
 ###  ActiveDriver `ApocDriver`
 
 Gets or sets the active .
-
-###  Renderer `RendererEngine`
-
-Determines which rendering engine to use.
-
-#### Remarks
-The default value is 
-                .
 
 ###  BaseDirectory `DirectoryInfo`
 
 Gets or sets the base directory used to locate external 
                 resourcs such as images.
 
-###  ImageHandler `ApocImageHandler`
+###  CloseOnExit `Boolean`
 
-Gets or sets the handler that is responsible for loading the image
-                data for external graphics.
-
-#### Remarks
-If null is returned from the image handler, then Apoc will perform 
-                normal processing.
-
-###  Timeout `Int32`
-
-Gets or sets the time in milliseconds until an HTTP image request 
-                times out.
-
-#### Remarks
-The default value is 100000 milliseconds.
+Determines if the output stream should be automatically closed 
+                upon completion of the render process.
 
 ###  Credentials `CredentialCache`
 
@@ -69,14 +44,22 @@ The purpose of this property is to associate a set of credentials against
                 an Internet resource.  These credentials are then used by Apoc when 
                 fetching images from one of the listed resources.
 
-###  ProductKey `String`
+###  ImageHandler `ApocImageHandler`
 
-Write only property that can be used to bypass licenses.licx
-                and set a product key directly.
+Gets or sets the handler that is responsible for loading the image
+                data for external graphics.
+
+#### Remarks
+If null is returned from the image handler, then Apoc will perform 
+                normal processing.
 
 ###  InternalProductKey `String`
 
 Returns the product key.
+
+###  IsEvaluation `Boolean`
+
+True if the current license is an evaluation license.
 
 ###  Options `IRendererOptions`
 
@@ -86,11 +69,134 @@ Options that are passed to the rendering engine.
 An instance of 
                 is typically passed to this property.
 
-###  IsEvaluation `Boolean`
+###  ProductKey `String`
 
-True if the current license is an evaluation license.
+Write only property that can be used to bypass licenses.licx
+                and set a product key directly.
+
+###  Renderer `RendererEngine`
+
+Determines which rendering engine to use.
+
+#### Remarks
+The default value is 
+                .
+
+###  Timeout `Int32`
+
+Gets or sets the time in milliseconds until an HTTP image request 
+                times out.
+
+#### Remarks
+The default value is 100000 milliseconds.
 
 ## Methods
+
+###  CreateXmlTextReader
+
+Utility method that creates an 
+                for the supplied file
+
+#### Remarks
+The returned  interprets all whitespace
+
+#### Returns
+
+`System.Xml.XmlReader` 
+
+###  CreateXmlTextReader
+
+Utility method that creates an 
+                for the supplied file
+
+#### Remarks
+The returned  interprets all whitespace
+
+#### Returns
+
+`System.Xml.XmlReader` 
+
+###  CreateXmlTextReader
+
+Utility method that creates an 
+                for the supplied file
+
+#### Remarks
+The returned  interprets all whitespace
+
+#### Returns
+
+`System.Xml.XmlReader` 
+
+###  FireApocError
+
+Sends an 'error' event to all registered listeners.
+
+#### Remarks
+If there are no listeners, a  is 
+                thrown immediately halting execution
+
+#### Parameters
+
+#### message `System.String`
+
+Any error message, which may be null
+
+#### Returns
+
+`System.Void` 
+
+###  FireApocInfo
+
+Sends an 'info' event to all registered lisetners
+
+#### Remarks
+If there are no listeners, message is written out 
+                to the console instead
+
+#### Parameters
+
+#### message `System.String`
+
+An info message, which may be null
+
+#### Returns
+
+`System.Void` 
+
+###  FireApocWarning
+
+Sends a 'warning' event to all registered listeners
+
+#### Remarks
+If there are no listeners, message is written out 
+                to the console instead
+
+#### Parameters
+
+#### message `System.String`
+
+Any warning message, which may be null
+
+#### Returns
+
+`System.Void` 
+
+###  GetString
+
+Retrieves the string resource with the specific key using the 
+                default culture
+
+#### Parameters
+
+#### key `System.String`
+
+A resource key
+
+#### Returns
+
+`System.String` The resource string identified by key from the 
+                current culture's setting
 
 ###  Make
 
@@ -241,110 +347,4 @@ Any subclass of the Stream class, e.g. FileStream
 #### Returns
 
 `System.Void` 
-
-###  GetString
-
-Retrieves the string resource with the specific key using the 
-                default culture
-
-#### Parameters
-
-#### key `System.String`
-
-A resource key
-
-#### Returns
-
-`System.String` The resource string identified by key from the 
-                current culture's setting
-
-###  FireApocError
-
-Sends an 'error' event to all registered listeners.
-
-#### Remarks
-If there are no listeners, a  is 
-                thrown immediately halting execution
-
-#### Parameters
-
-#### message `System.String`
-
-Any error message, which may be null
-
-#### Returns
-
-`System.Void` 
-
-###  FireApocWarning
-
-Sends a 'warning' event to all registered listeners
-
-#### Remarks
-If there are no listeners, message is written out 
-                to the console instead
-
-#### Parameters
-
-#### message `System.String`
-
-Any warning message, which may be null
-
-#### Returns
-
-`System.Void` 
-
-###  FireApocInfo
-
-Sends an 'info' event to all registered lisetners
-
-#### Remarks
-If there are no listeners, message is written out 
-                to the console instead
-
-#### Parameters
-
-#### message `System.String`
-
-An info message, which may be null
-
-#### Returns
-
-`System.Void` 
-
-###  CreateXmlTextReader
-
-Utility method that creates an 
-                for the supplied file
-
-#### Remarks
-The returned  interprets all whitespace
-
-#### Returns
-
-`System.Xml.XmlReader` 
-
-###  CreateXmlTextReader
-
-Utility method that creates an 
-                for the supplied file
-
-#### Remarks
-The returned  interprets all whitespace
-
-#### Returns
-
-`System.Xml.XmlReader` 
-
-###  CreateXmlTextReader
-
-Utility method that creates an 
-                for the supplied file
-
-#### Remarks
-The returned  interprets all whitespace
-
-#### Returns
-
-`System.Xml.XmlReader` 
 

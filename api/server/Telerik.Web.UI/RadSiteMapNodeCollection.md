@@ -53,37 +53,21 @@ The array of  to append to the end of the current
 
 `System.Void` 
 
-###  Insert
+###  FindNode
 
-Inserts a node to the collection at the specified index.
-
-#### Parameters
-
-#### index `System.Int32`
-
-The zero-based index at which  should be inserted.
-
-#### node `Telerik.Web.UI.RadSiteMapNode`
-
-The node to insert into the collection.
-
-#### Returns
-
-`System.Void` 
-
-###  Remove
-
-Removes the specified node from the collection.
+Returns  the first RadSiteMapNode 
+            that matches the conditions defined by the specified predicate.
+            The predicate should returns a boolean value.
 
 #### Parameters
 
-#### node `Telerik.Web.UI.RadSiteMapNode`
+#### match `System.Predicate{Telerik.Web.UI.RadSiteMapNode}`
 
-The node to remove from the collection.
+The Predicate <RadSiteMapNode> that defines the conditions of the element to search for.
 
 #### Returns
 
-`System.Void` 
+`Telerik.Web.UI.RadSiteMapNode` 
 
 ###  FindNodeByText
 
@@ -127,19 +111,35 @@ A Boolean indicating a case-sensitive or insensitive comparison (true indicates 
 `Telerik.Web.UI.RadSiteMapNode` A RadSiteMapNode whose Text property equals to the specified argument
              Null (Nothing) is returned when no matching node is found.
 
-###  FindNode
+###  Insert
 
-Returns  the first RadSiteMapNode 
-            that matches the conditions defined by the specified predicate.
-            The predicate should returns a boolean value.
+Inserts a node to the collection at the specified index.
 
 #### Parameters
 
-#### match `System.Predicate{Telerik.Web.UI.RadSiteMapNode}`
+#### index `System.Int32`
 
-The Predicate <RadSiteMapNode> that defines the conditions of the element to search for.
+The zero-based index at which  should be inserted.
+
+#### node `Telerik.Web.UI.RadSiteMapNode`
+
+The node to insert into the collection.
 
 #### Returns
 
-`Telerik.Web.UI.RadSiteMapNode` 
+`System.Void` 
+
+###  Remove
+
+Removes the specified node from the collection.
+
+#### Parameters
+
+#### node `Telerik.Web.UI.RadSiteMapNode`
+
+The node to remove from the collection.
+
+#### Returns
+
+`System.Void` 
 

@@ -19,25 +19,25 @@ A class holding data and functions associated with a batch editing command.
 
 Set to true to cancel the default command execution.
 
-###  OwnerTableView `GridTableView`
-
-Gets the owner .
-
 ###  Item `GridDataItem`
 
 Gets the  object which the command
             will operate on. Note that the value could be null if the
             Type equals GridBatchEditingCommandType.Insert.
 
-###  OldValues `Hashtable`
-
-Gets a  with the old values.
-
 ###  NewValues `Hashtable`
 
 Gets a  with the new values which
             represents a merge between the  and
             the newly entered data.
+
+###  OldValues `Hashtable`
+
+Gets a  with the old values.
+
+###  OwnerTableView `GridTableView`
+
+Gets the owner .
 
 ###  Type `GridBatchEditingCommandType`
 

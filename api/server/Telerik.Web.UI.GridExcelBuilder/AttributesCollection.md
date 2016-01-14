@@ -15,6 +15,10 @@ Collection of attributes for a given object
 
 ## Properties
 
+###  Count `Int32`
+
+Gets the number of elements contained in the ICollection. (Inherited from ICollection.)
+
 ###  IsFixedSize `Boolean`
 
 Gets a value indicating whether the collection has a fixed size.
@@ -23,29 +27,25 @@ Gets a value indicating whether the collection has a fixed size.
 
 Gets a value indicating whether the collection is read-only.
 
-###  Keys `ICollection`
+###  IsSynchronized `Boolean`
 
-Gets an ICollection object containing the keys of the collection.
-
-###  Values `ICollection`
-
-Gets an ICollection object containing the values in the collection.
+Gets a value indicating whether access to the ICollection is synchronized (thread safe). (Inherited from ICollection.)
 
 ###  Item `String`
 
 Returns the attribute located at the corresponding position
 
-###  Count `Int32`
+###  Keys `ICollection`
 
-Gets the number of elements contained in the ICollection. (Inherited from ICollection.)
-
-###  IsSynchronized `Boolean`
-
-Gets a value indicating whether access to the ICollection is synchronized (thread safe). (Inherited from ICollection.)
+Gets an ICollection object containing the keys of the collection.
 
 ###  SyncRoot `Object`
 
 Gets an object that can be used to synchronize access to the ICollection. (Inherited from ICollection.)
+
+###  Values `ICollection`
+
+Gets an ICollection object containing the values in the collection.
 
 ## Methods
 
@@ -85,6 +85,24 @@ The key to locate in the collection.
 
 `System.Boolean` true if the collection contains an element with the key; otherwise, false.
 
+###  CopyTo
+
+Copies the elements of the ICollection to an Array, starting at a particular Array index. (Inherited from ICollection.)
+
+#### Parameters
+
+#### array `System.String`
+
+The one-dimensional Array that is the destination of the elements copied from ICollection. The Array must have zero-based indexing.
+
+#### index `System.Int32`
+
+The zero-based index in array at which copying begins.
+
+#### Returns
+
+`System.Void` 
+
 ###  GetEnumerator
 
 Returns an IDictionaryEnumerator object for the IDictionary object.
@@ -102,24 +120,6 @@ Removes the element with the specified key from the collection.
 #### key `System.String`
 
 The key of the element to remove.
-
-#### Returns
-
-`System.Void` 
-
-###  CopyTo
-
-Copies the elements of the ICollection to an Array, starting at a particular Array index. (Inherited from ICollection.)
-
-#### Parameters
-
-#### array `System.String`
-
-The one-dimensional Array that is the destination of the elements copied from ICollection. The Array must have zero-based indexing.
-
-#### index `System.Int32`
-
-The zero-based index in array at which copying begins.
 
 #### Returns
 

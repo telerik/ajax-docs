@@ -15,19 +15,19 @@ EI ExportStructure object
 
 ## Properties
 
-###  Tables `TableCollection`
+###  ColumnWidthUnit `ExportUnitType`
 
-ExportStructure Tables
+Determines the unit type used to measure the columns' width
 
 ###  DefaultFont `Font`
 
 Returns the default font for the structure
 
-###  ColumnWidthUnit `ExportUnitType`
-
-Determines the unit type used to measure the columns' width
-
 ###  RowHeightUnit `ExportUnitType`
 
 Determines the unit type used to measure the rows' height
+
+###  Tables `TableCollection`
+
+ExportStructure Tables
 

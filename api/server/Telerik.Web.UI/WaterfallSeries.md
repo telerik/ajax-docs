@@ -17,64 +17,25 @@ The bar/column series class will produce a bar/column chart type.
 
 ## Properties
 
-###  DataSummaryField `String`
+###  Appearance `SeriesAppearance`
 
-The data field with the values of the SummaryType value.
-            There the possible values are "runningTotal" and "total".
-
-###  LabelsAppearance `BarColumnSeriesLabelsAppearance`
-
-Defines the appearance settings of the series labels
-
-###  SeriesItems `WaterfallSeriesItemCollection`
-
-Creates a collection of waterfall series items.
-
-###  Gap `Nullable`1`
-
-Gets or Sets the distance between the category clusters.
-
-#### Remarks
-The value of the property cannot be negative.
-
-###  Spacing `Nullable`1`
-
-Gets or Sets the space between the chart series as proportion of the series width.
-
-#### Remarks
-The value of the property cannot be negative.
-
-###  Type `SeriesType`
-
-Gets the type of the series
-
-###  Data `String`
-
-Get/Set the serialized data entities in a list format. This property is usually set if the series is data bound
-
-###  Name `String`
-
-Get/Set the name of the series
-
-###  Visible `Boolean`
-
-Get/Set the visibility of the series
+Defines the appearance settings of the series
 
 ###  AxisName `String`
 
 Get/set the name of the axis, to which the values will be associated
 
+###  ColorField `String`
+
+Specifies the color of the series when the chart is databound.
+
+###  Data `String`
+
+Get/Set the serialized data entities in a list format. This property is usually set if the series is data bound
+
 ###  DataField `String`
 
 The data field with the values of the series
-
-###  DataFieldX `String`
-
-The data field with the values of the series along the X axis
-
-###  DataFieldY `String`
-
-The data field with the values of the series along the Y axis
 
 ###  DataFieldSize `String`
 
@@ -84,6 +45,26 @@ Specifies the size value of the bubble item in bubble series when the chart is d
 
 Specifies the tooltip value of the bubble item in bubble series when the chart is databound.
 
+###  DataFieldX `String`
+
+The data field with the values of the series along the X axis
+
+###  DataFieldY `String`
+
+The data field with the values of the series along the Y axis
+
+###  DataSummaryField `String`
+
+The data field with the values of the SummaryType value.
+            There the possible values are "runningTotal" and "total".
+
+###  Gap `Nullable`1`
+
+Gets or Sets the distance between the category clusters.
+
+#### Remarks
+The value of the property cannot be negative.
+
 ###  Items `SeriesItemCollection`
 
 The Items collection is Obsolete. Use the SeriesItems collection to specify the series items.
@@ -91,17 +72,40 @@ The Items collection is Obsolete. Use the SeriesItems collection to specify the 
 #### Remarks
 The Items collection is Obsolete. Use the SeriesItems collection to programmatically set the series items.
 
-###  Appearance `SeriesAppearance`
+###  LabelsAppearance `BarColumnSeriesLabelsAppearance`
 
-Defines the appearance settings of the series
+Defines the appearance settings of the series labels
+
+###  Name `String`
+
+Get/Set the name of the series
+
+###  SeriesItems `WaterfallSeriesItemCollection`
+
+Creates a collection of waterfall series items.
+
+###  Spacing `Nullable`1`
+
+Gets or Sets the space between the chart series as proportion of the series width.
+
+#### Remarks
+The value of the property cannot be negative.
 
 ###  TooltipsAppearance `SeriesAppearance`
 
 Defines the appearance settings of the series
 
-###  ColorField `String`
+###  Type `SeriesType`
 
-Specifies the color of the series when the chart is databound.
+Gets the type of the series
+
+###  Visible `Boolean`
+
+Get/Set the visibility of the series
+
+###  VisibleInLegend `Boolean`
+
+Get/Set the visibility of the series in the legend
 
 ###  ZIndex `Nullable`1`
 

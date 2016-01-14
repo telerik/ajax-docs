@@ -78,6 +78,17 @@ Specifies the field, containing the DisabledImageUrl property
 Specifies the exact value of the Expanded property of the
             	RadPanelItem that will be created during the data binding.
 
+###  ExpandedCssClass `Boolean`
+
+Specifies the exact value of the ExpandedCssClass property of the
+            	RadPanelItem that will be created during the data binding.
+
+###  ExpandedCssClassField `Boolean`
+
+Specifies the field, containing the ExpandedCssClass property 
+            	value of the RadPanelItem that will be created during
+            	the data binding.
+
 ###  ExpandedField `Boolean`
 
 Specifies the field, containing the Expanded property 
@@ -92,17 +103,6 @@ Specifies the exact value of the ExpandedImageUrl property of the
 ###  ExpandedImageUrlField `Boolean`
 
 Specifies the field, containing the ExpandedImageUrl property 
-            	value of the RadPanelItem that will be created during
-            	the data binding.
-
-###  ExpandedCssClass `Boolean`
-
-Specifies the exact value of the ExpandedCssClass property of the
-            	RadPanelItem that will be created during the data binding.
-
-###  ExpandedCssClassField `Boolean`
-
-Specifies the field, containing the ExpandedCssClass property 
             	value of the RadPanelItem that will be created during
             	the data binding.
 
@@ -139,6 +139,11 @@ Specifies the field, containing the IsSeparator property
             	value of the RadPanelItem that will be created during
             	the data binding.
 
+###  ModelID `String`
+
+Specifies the model to bind against in OData scenarios. The selected model is used
+            to the current depth (level) only.
+
 ###  PreventCollapse `Boolean`
 
 Specifies the exact value of the PreventCollapse property of the
@@ -171,17 +176,4 @@ Specifies the exact value of the SelectedImageUrl property of the
 Specifies the field, containing the SelectedImageUrl property 
             	value of the RadPanelItem that will be created during
             	the data binding.
-
-###  ModelID `String`
-
-Specifies the model to bind against in OData scenarios. The selected model is used
-            to the current depth (level) only.
-
-## Methods
-
-###  ApplyTo
-
-#### Returns
-
-`System.Void` 
 

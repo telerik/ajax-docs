@@ -24,47 +24,39 @@ Defines arrays of colors and positions used for interpolating color blending
 
 Specifies the main color for palette item
 
-###  SecondColor `Color`
-
-Specifies the second color for palette item
-
 ###  Name `String`
 
 Specifies the name for palette item
 
-###  ViewStateIgnoresCase `Boolean`
+###  SecondColor `Color`
 
-Gets if view sate should ignore case
+Specifies the second color for palette item
 
 ###  ViewState `StateBag`
 
 Sate bag to store view state content
 
+###  ViewStateIgnoresCase `Boolean`
+
+Gets if view sate should ignore case
+
 ## Methods
 
-###  Reset
+###  Clone
 
-Reset all settings to default
-
-#### Returns
-
-`System.Void` 
-
-###  ToString
-
-Gets string representation
+Clone this object
 
 #### Returns
 
-`System.String` String representation
+`System.Object` New instance with fields equal to these ones
 
-###  TrackViewState
+###  CloneState
 
-Track ViewState
+Makes a view state clone
 
 #### Returns
 
-`System.Void` 
+`System.Web.UI.StateBag` StateBag
 
 ###  LoadViewState
 
@@ -80,6 +72,28 @@ ViewState with data
 
 `System.Void` 
 
+###  LoadViewState
+
+Loads data from a view state
+
+#### Parameters
+
+#### state `System.Object`
+
+View state to load data from
+
+#### Returns
+
+`System.Void` 
+
+###  Reset
+
+Reset all settings to default
+
+#### Returns
+
+`System.Void` 
+
 ###  SaveViewState
 
 Save data into ViewState
@@ -88,13 +102,21 @@ Save data into ViewState
 
 `System.Object` Saved data
 
-###  Clone
+###  SaveViewState
 
-Clone this object
+Saves object data to a view state
 
 #### Returns
 
-`System.Object` New instance with fields equal to these ones
+`System.Object` Saved view state object
+
+###  SetDirty
+
+Sets the item dirty state
+
+#### Returns
+
+`System.Void` 
 
 ###  Telerik.Charting.IChartingStateManager.LoadViewState
 
@@ -126,21 +148,21 @@ Tracks view state changes
 
 `System.Void` 
 
-###  CloneState
+###  ToString
 
-Makes a view state clone
-
-#### Returns
-
-`System.Web.UI.StateBag` StateBag
-
-###  SaveViewState
-
-Saves object data to a view state
+Gets string representation
 
 #### Returns
 
-`System.Object` Saved view state object
+`System.String` String representation
+
+###  TrackViewState
+
+Track ViewState
+
+#### Returns
+
+`System.Void` 
 
 ###  TrackViewState
 
@@ -149,34 +171,4 @@ Tracks view state changes
 #### Returns
 
 `System.Void` 
-
-###  LoadViewState
-
-Loads data from a view state
-
-#### Parameters
-
-#### state `System.Object`
-
-View state to load data from
-
-#### Returns
-
-`System.Void` 
-
-###  SetDirty
-
-Sets the item dirty state
-
-#### Returns
-
-`System.Void` 
-
-###  ToString
-
-ToString() override. Used in the properties grid to avoid object type showing.
-
-#### Returns
-
-`System.String` Empty string
 

@@ -18,13 +18,49 @@ Telerik.Web.UI.RadDataPager Telerik.Web.UI.RadDataPagerField which contains page
 
 ## Properties
 
-###  TextBoxWidth `Int32`
+###  HiddenLg `Boolean`
 
-Get or set RadNumericTextBox Width in pixels. Default value is 30px.
+Hidden attribute - Large
 
-###  SubmitButtonText `String`
+###  HiddenMd `Boolean`
 
-Get or set submit button text.
+Hidden attribute - Medium
+
+###  HiddenSm `Boolean`
+
+Hidden attribute - Small
+
+###  HiddenXl `Boolean`
+
+Hidden attribute - Extra Large
+
+###  HiddenXs `Boolean`
+
+Hidden attribute - Extra Small
+
+###  HorizontalPosition `PagerFieldHorizontalPosition`
+
+Gets or sets the positioning of the pager field with regard to its CSS float style.
+
+###  HorizontalPositionLg `PagerFieldHorizontalPosition`
+
+Horizontal Position attribute - Large
+
+###  HorizontalPositionMd `PagerFieldHorizontalPosition`
+
+Horizontal Position attribute - Medium
+
+###  HorizontalPositionSm `PagerFieldHorizontalPosition`
+
+Horizontal Position attribute - Small
+
+###  HorizontalPositionXl `PagerFieldHorizontalPosition`
+
+Horizontal Position attribute - Extra Large
+
+###  HorizontalPositionXs `PagerFieldHorizontalPosition`
+
+Horizontal Position attribute - Extra Small
 
 ###  LabelText `String`
 
@@ -41,61 +77,19 @@ Gets the string representation of the type-name of this instance. The value is
             used by RadDataPager to determine the type of the pager field persisted into the ViewState, when
             recreating the pager after postback. This property is read only.
 
-###  HorizontalPosition `PagerFieldHorizontalPosition`
+###  SubmitButtonText `String`
 
-Gets or sets the positioning of the pager field with regard to its CSS float style.
+Get or set submit button text.
+
+###  TextBoxWidth `Int32`
+
+Get or set RadNumericTextBox Width in pixels. Default value is 30px.
 
 ###  Visible `Boolean`
 
 Gets or sets value that indicates whether RadDataPagerField is rendered.
 
-###  HiddenXs `Boolean`
-
-Hidden attribute - Extra Small
-
-###  HiddenSm `Boolean`
-
-Hidden attribute - Small
-
-###  HiddenMd `Boolean`
-
-Hidden attribute - Medium
-
-###  HiddenLg `Boolean`
-
-Hidden attribute - Large
-
-###  HiddenXl `Boolean`
-
-Hidden attribute - Extra Large
-
-###  HorizontalPositionXs `PagerFieldHorizontalPosition`
-
-Horizontal Position attribute - Extra Small
-
-###  HorizontalPositionSm `PagerFieldHorizontalPosition`
-
-Horizontal Position attribute - Small
-
-###  HorizontalPositionMd `PagerFieldHorizontalPosition`
-
-Horizontal Position attribute - Medium
-
-###  HorizontalPositionLg `PagerFieldHorizontalPosition`
-
-Horizontal Position attribute - Large
-
-###  HorizontalPositionXl `PagerFieldHorizontalPosition`
-
-Horizontal Position attribute - Extra Large
-
 ## Methods
-
-###  InitializeFieldControls
-
-#### Returns
-
-`System.Void` 
 
 ###  InitializeFieldControls
 
@@ -112,15 +106,6 @@ DataPagerFieldItem item where controls will be instanciated
 
 `System.Void` 
 
-###  ToString
-
-Returns a  that represents the 
-            current .
-
-#### Returns
-
-`System.String` A  that represents the current .
-
 ###  SEOPagingLinkBuilder
 
 Builds navigation url if SEO paging is enabled.
@@ -134,4 +119,13 @@ Argument that the link must be build for.
 #### Returns
 
 `System.String` Returns string representation of navigation url.
+
+###  ToString
+
+Returns a  that represents the 
+            current .
+
+#### Returns
+
+`System.String` A  that represents the current .
 

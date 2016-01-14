@@ -25,11 +25,3 @@ Gets or sets the animation duration in milliseconds.
 
 Gets or sets the calendar animation type
 
-## Methods
-
-###  GetViewStateValue
-
-#### Returns
-
-`Telerik.Web.UI.T` 
-

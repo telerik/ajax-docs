@@ -16,13 +16,13 @@ Represents collection of Telerik.Web.UI.OrgChartNode Nodesin the Telerik.Web.UI.
 
 ## Properties
 
-###  NodesContainer `IOrgChartNodeContainer`
-
-Gets and sets OrgChartNodeCollection's parent container.
-
 ###  IsRootNodeCollection `Boolean`
 
 Check if the OrgChartNodeCollection is the root node collection for RadOrgChart control.
+
+###  NodesContainer `IOrgChartNodeContainer`
+
+Gets and sets OrgChartNodeCollection's parent container.
 
 ###  Renderer `OrgChartNodeCollectionRenderer`
 
@@ -44,6 +44,28 @@ The added Node
 
 `System.Void` 
 
+###  AddRange
+
+Add a collection of Nodes to the OrgChartNodeCollection.
+
+#### Parameters
+
+#### collection `System.Collections.Generic.IEnumerable{Telerik.Web.UI.OrgChartNode}`
+
+IEnumerable of Nodes
+
+#### Returns
+
+`System.Void` 
+
+###  Clear
+
+Remove all Nodes in the collection.
+
+#### Returns
+
+`System.Void` 
+
 ###  Insert
 
 Insert a new Node to the OrgChartNodeCollection on a specific position.
@@ -57,20 +79,6 @@ Integer position to insert at
 #### node `Telerik.Web.UI.OrgChartNode`
 
 The added Node
-
-#### Returns
-
-`System.Void` 
-
-###  AddRange
-
-Add a collection of Nodes to the OrgChartNodeCollection.
-
-#### Parameters
-
-#### collection `System.Collections.Generic.IEnumerable{Telerik.Web.UI.OrgChartNode}`
-
-IEnumerable of Nodes
 
 #### Returns
 
@@ -149,14 +157,6 @@ Integer index - the starting point of the range
 #### count `System.Int32`
 
 Integer count - the size of the range
-
-#### Returns
-
-`System.Void` 
-
-###  Clear
-
-Remove all Nodes in the collection.
 
 #### Returns
 

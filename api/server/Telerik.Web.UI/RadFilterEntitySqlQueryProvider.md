@@ -17,13 +17,19 @@ Represents a provider that builds a string filter expression using Entity SQL sy
 
 ## Properties
 
+###  OnExpressionEvaluated `Action`1`
+
+Gets\sets a delegate that will be called after every expression evaluation.
+            The property could be used to alter the result of the evaluation by changing
+            the values or the format based on the expression.
+
+###  Result `String`
+
+Gets string value representing the result from the processed filter expression.
+
 ###  SupportedFilterFunctions `IList`1`
 
 Gets an IList of the RadFilterFunction values supported by the query provider.
-
-###  SupportedGroupOperations `IList`1`
-
-Gets an IList of the RadFilterGroupOperation values supported by the query provider.
 
 ###  SupportedFilterFunctions `IList`1`
 
@@ -31,63 +37,13 @@ Gets a collection of the RadFilterFunction values supported by the current query
 
 ###  SupportedGroupOperations `IList`1`
 
+Gets an IList of the RadFilterGroupOperation values supported by the query provider.
+
+###  SupportedGroupOperations `IList`1`
+
 Gets a collection of the RadFilterGroupOperation supported by the current query provider.
 
-###  Result `String`
-
-Gets string value representing the result from the processed filter expression.
-
-###  OnExpressionEvaluated `Action`1`
-
-Gets\sets a delegate that will be called after every expression evaluation.
-            The property could be used to alter the result of the evaluation by changing
-            the values or the format based on the expression.
-
 ## Methods
-
-###  ProcessGroup
-
-Proccesses a RadFilterGroupExpression object to build a filter query.
-
-#### Parameters
-
-#### rootGroup `Telerik.Web.UI.RadFilterGroupExpression`
-
-A RadFilterGroupExpression instance representing the current filter
-            expression.
-
-#### Returns
-
-`System.Void` 
-
-###  PrepareQuery
-
-Prepares a string query using the RadFilterDynamicLinqExpressionEvaluator.
-
-#### Parameters
-
-#### expression `Telerik.Web.UI.RadFilterNonGroupExpression`
-
-A RadFilterNonGroupExpression instance to build the query from.
-
-#### Returns
-
-`System.String` A string representation of the filter expression using Dynamic LINQ syntax.
-
-###  ProcessGroup
-
-Processes the passed RadFilterGroupExpression to create the expressions for
-            filtering .
-
-#### Parameters
-
-#### rootGroup `Telerik.Web.UI.RadFilterGroupExpression`
-
-The RadFilterGroupExpression to process internally.
-
-#### Returns
-
-`System.Void` 
 
 ###  IsValidFilterFunction
 
@@ -118,4 +74,48 @@ A member of the RadFilterGroupOperation representing a group operation
 #### Returns
 
 `System.Boolean` true if the filter function is among the supported operations; otherwise returns false.
+
+###  PrepareQuery
+
+Prepares a string query using the RadFilterDynamicLinqExpressionEvaluator.
+
+#### Parameters
+
+#### expression `Telerik.Web.UI.RadFilterNonGroupExpression`
+
+A RadFilterNonGroupExpression instance to build the query from.
+
+#### Returns
+
+`System.String` A string representation of the filter expression using Dynamic LINQ syntax.
+
+###  ProcessGroup
+
+Proccesses a RadFilterGroupExpression object to build a filter query.
+
+#### Parameters
+
+#### rootGroup `Telerik.Web.UI.RadFilterGroupExpression`
+
+A RadFilterGroupExpression instance representing the current filter
+            expression.
+
+#### Returns
+
+`System.Void` 
+
+###  ProcessGroup
+
+Processes the passed RadFilterGroupExpression to create the expressions for
+            filtering .
+
+#### Parameters
+
+#### rootGroup `Telerik.Web.UI.RadFilterGroupExpression`
+
+The RadFilterGroupExpression to process internally.
+
+#### Returns
+
+`System.Void` 
 

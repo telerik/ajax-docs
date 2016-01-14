@@ -21,20 +21,6 @@ A character that separates the different parts of the path items.
 
 ## Methods
 
-###  NormalizeRelativePath
-
-Normalizes paths that contain parent references - /..
-
-#### Parameters
-
-#### path `System.String`
-
-The path that will be normalized
-
-#### Returns
-
-`System.String` The normalized path that now points directly to its target
-
 ###  AddTrailingSeparator
 
 Adds a trailing path separator if such is missing
@@ -48,4 +34,18 @@ The path that will be checked
 #### Returns
 
 `System.String` The result path must end with a path separator
+
+###  NormalizeRelativePath
+
+Normalizes paths that contain parent references - /..
+
+#### Parameters
+
+#### path `System.String`
+
+The path that will be normalized
+
+#### Returns
+
+`System.String` The normalized path that now points directly to its target
 

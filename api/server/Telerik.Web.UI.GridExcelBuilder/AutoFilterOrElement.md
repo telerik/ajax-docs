@@ -16,9 +16,9 @@ Defines an OR condition in a custom AutoFilter function.
 
 ## Properties
 
-###  SecondFilterCondition `AutoFilterConditionElement`
+###  Attributes `IAttributesCollection`
 
-Gets the second filter condition (AutoFilterConditionElement)
+Collection of the attributes of the current element
 
 ###  FirstFilterCondition `AutoFilterConditionElement`
 
@@ -28,11 +28,25 @@ Gets the first filter contidion (AutoFilterConditionElement)
 
 Collection of inner elements
 
-###  Attributes `IAttributesCollection`
+###  SecondFilterCondition `AutoFilterConditionElement`
 
-Collection of the attributes of the current element
+Gets the second filter condition (AutoFilterConditionElement)
 
 ## Methods
+
+###  AppendAttributes
+
+Appends the attirbutes to the output
+
+#### Parameters
+
+#### sb `System.Text.StringBuilder`
+
+StringBuilder object that holds the rendered output
+
+#### Returns
+
+`System.Void` 
 
 ###  Render
 
@@ -51,20 +65,6 @@ StringBuilder object that holds the rendered output
 ###  RenderChildElements
 
 Renders the child elements
-
-#### Parameters
-
-#### sb `System.Text.StringBuilder`
-
-StringBuilder object that holds the rendered output
-
-#### Returns
-
-`System.Void` 
-
-###  AppendAttributes
-
-Appends the attirbutes to the output
 
 #### Parameters
 

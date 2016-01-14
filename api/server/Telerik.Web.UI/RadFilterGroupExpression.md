@@ -17,11 +17,6 @@ Represents the group expressions in Telerik.Web.UI.RadFilter .
 
 ## Properties
 
-###  GroupOperation `RadFilterGroupOperation`
-
-Gets or sets a value from the RadFilterGroupOperation enumeration representing the currently used
-            group operation.
-
 ###  Expressions `RadFilterExpressionsCollection`
 
 Gets a collection of all RadFilterExpression objects belonging to the current group.
@@ -30,30 +25,21 @@ Gets a collection of all RadFilterExpression objects belonging to the current gr
 
 Gets the filter function of the current expression.
 
+###  FilterFunction `RadFilterFunction`
+
+Gets the filter function used in the current expression.
+
+###  GroupOperation `RadFilterGroupOperation`
+
+Gets or sets a value from the RadFilterGroupOperation enumeration representing the currently used
+            group operation.
+
 ###  IsEmpty `Boolean`
 
 Returns a boolean value indicating whether the current group expression has no filter
             expressions added.
 
-###  FilterFunction `RadFilterFunction`
-
-Gets the filter function used in the current expression.
-
 ## Methods
-
-###  FindByFieldName
-
-Returns a RadFilterNonGroupExpression based on the field name provided.
-
-#### Parameters
-
-#### fieldName `System.String`
-
-A string representing the field name of the expression.
-
-#### Returns
-
-`Telerik.Web.UI.RadFilterNonGroupExpression` A RadFilterNonGroupExpression having the provided field name.
 
 ###  AddExpression
 
@@ -68,4 +54,18 @@ The RadFilterExpression to add to the Expressions of the current group.
 #### Returns
 
 `System.Void` 
+
+###  FindByFieldName
+
+Returns a RadFilterNonGroupExpression based on the field name provided.
+
+#### Parameters
+
+#### fieldName `System.String`
+
+A string representing the field name of the expression.
+
+#### Returns
+
+`Telerik.Web.UI.RadFilterNonGroupExpression` A RadFilterNonGroupExpression having the provided field name.
 

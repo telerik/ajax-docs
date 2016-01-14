@@ -16,25 +16,33 @@ RadLightBox Client Settings
 
 ## Properties
 
-###  ClientEvents `LightBoxClientEvents`
+###  AllowKeyboardNavigation `Boolean`
 
-RadLightBox Client Events
-
-###  DataBinding `LightBoxClientDataBinding`
-
-RadLightBox Client Data-Binding
+Determines whether the keyboard navigation support will be enabled
 
 ###  AnimationSettings `LightBoxAnimationSettings`
 
 RadLightBox Animation Settings
 
+###  ClientEvents `LightBoxClientEvents`
+
+RadLightBox Client Events
+
+###  ContentResizeMode `LightBoxContentResizeMode`
+
+Determines the way the image resizing works in full screen (maximized) mode
+
+###  DataBinding `LightBoxClientDataBinding`
+
+RadLightBox Client Data-Binding
+
 ###  FullscreenMode `LightBoxFullscreenMode`
 
 Determines the fullscreen mode
 
-###  AllowKeyboardNavigation `Boolean`
+###  NavigationMode `LightBoxNavigationMode`
 
-Determines whether the keyboard navigation support will be enabled
+Determines the navigation mode
 
 ###  PreventOverlayClose `Boolean`
 
@@ -43,12 +51,4 @@ If this property is enabled the control won't be closed when clicking outside of
 ###  ShowItemsCounter `Boolean`
 
 Shows/hides the items counter. Default value is true.
-
-###  NavigationMode `LightBoxNavigationMode`
-
-Determines the navigation mode
-
-###  ContentResizeMode `LightBoxContentResizeMode`
-
-Determines the way the image resizing works in full screen (maximized) mode
 

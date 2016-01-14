@@ -24,6 +24,31 @@ Gets or sets the operation time zone.
 
 ## Methods
 
+###  Dispose
+
+Performs application-defined tasks associated with freeing, releasing,
+            or resetting unmanaged resources.
+
+#### Returns
+
+`System.Void` 
+
+###  GetAllTimeZones
+
+Gets list of all time zones available on the system.
+
+#### Returns
+
+`System.Collections.Generic.List`1` Returns list of all time zones available on the system.
+
+###  GetAllTimeZones
+
+Gets list of all time zones available on the system.
+
+#### Returns
+
+`System.Collections.Generic.List`1` Returns list of all time zones available on the system.
+
 ###  Initialize
 
 Initializes the provider.
@@ -43,20 +68,6 @@ A collection of the name/value pairs representing the provider-specific
 
 `System.Void` 
 
-###  UtcToLocal
-
-UTCs to local.
-
-#### Parameters
-
-#### utc `System.DateTime`
-
-The UTC.
-
-#### Returns
-
-`System.DateTime` 
-
 ###  LocalToUtc
 
 Locals to UTC.
@@ -70,23 +81,6 @@ The local.
 #### Returns
 
 `System.DateTime` 
-
-###  GetAllTimeZones
-
-Gets list of all time zones available on the system.
-
-#### Returns
-
-`System.Collections.Generic.List`1` Returns list of all time zones available on the system.
-
-###  Dispose
-
-Performs application-defined tasks associated with freeing, releasing,
-            or resetting unmanaged resources.
-
-#### Returns
-
-`System.Void` 
 
 ###  LocalToUtc
 
@@ -116,11 +110,17 @@ The UTC.
 
 `System.DateTime` 
 
-###  GetAllTimeZones
+###  UtcToLocal
 
-Gets list of all time zones available on the system.
+UTCs to local.
+
+#### Parameters
+
+#### utc `System.DateTime`
+
+The UTC.
 
 #### Returns
 
-`System.Collections.Generic.List`1` Returns list of all time zones available on the system.
+`System.DateTime` 
 

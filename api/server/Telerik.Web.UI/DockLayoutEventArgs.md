@@ -16,11 +16,11 @@ Provides data for the SaveDockLayout and the LoadDockLayout events.
 
 ## Properties
 
-###  Positions `Dictionary`2`
-
-Dictionary, containing UniqueName/DockZoneID pairs.
-
 ###  Indices `Dictionary`2`
 
 Dictionary, containing UniqueName/Index pairs.
+
+###  Positions `Dictionary`2`
+
+Dictionary, containing UniqueName/DockZoneID pairs.
 

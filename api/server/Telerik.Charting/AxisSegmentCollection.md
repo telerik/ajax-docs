@@ -16,6 +16,14 @@ Segments collection
 
 ## Properties
 
+###  Count `Int32`
+
+Gets items count in collection
+
+###  First `T`
+
+Link to first item in collection
+
 ###  IsHaveNegative `Boolean`
 
 Gets true if just one negative value presents in segment
@@ -28,149 +36,27 @@ Gets true if just one positive value presents in segment
 
 Gets true if segment contains axis zero value
 
-###  NearZeroValue `Double`
+###  IsReadOnly `Boolean`
 
-Gets the nearest to Zero axis value
-
-###  List `IList`1`
-
-Items list
-
-###  First `T`
-
-Link to first item in collection
-
-###  Last `T`
-
-Link to last item in collection
+Gets true if collection is read-only
 
 ###  Item `T`
 
 Gets the collection item at given index
 
-###  Count `Int32`
+###  Last `T`
 
-Gets items count in collection
+Link to last item in collection
 
-###  IsReadOnly `Boolean`
+###  List `IList`1`
 
-Gets true if collection is read-only
+Items list
+
+###  NearZeroValue `Double`
+
+Gets the nearest to Zero axis value
 
 ## Methods
-
-###  CheckedAdd
-
-Check segment and add it into collection
-
-#### Parameters
-
-#### segment `Telerik.Charting.AxisSegment`
-
-Segment for adding
-
-#### Returns
-
-`System.Void` 
-
-###  Search
-
-Searches for a segment where value is located
-
-#### Parameters
-
-#### value `System.Double`
-
-Value to check
-
-#### Returns
-
-`Telerik.Charting.AxisSegment` AxisSegment
-
-###  Search
-
-Searches for a segment where value is located
-
-#### Parameters
-
-#### value `System.Double`
-
-Value to check
-
-#### withoutNull `System.Boolean`
-
-Null values exclusion reason
-
-#### Returns
-
-`Telerik.Charting.AxisSegment` AxisSegment
-
-###  Sort
-
-Sorts segments
-
-#### Returns
-
-`System.Void` 
-
-###  Test
-
-Checks if series item in current segment
-
-#### Parameters
-
-#### items `Telerik.Charting.ChartSeriesItemsCollection`
-
-SeriesItemsCollectionv
-
-#### Returns
-
-`System.Boolean` True if value is in segment
-
-###  IndexOf
-
-Item index in collection
-
-#### Parameters
-
-#### item ``0`
-
-Item to get index of
-
-#### Returns
-
-`System.Int32` Index
-
-###  Insert
-
-Inserts item at the given index
-
-#### Parameters
-
-#### index `System.Int32`
-
-Index
-
-#### item ``0`
-
-Item to insert
-
-#### Returns
-
-`System.Void` 
-
-###  RemoveAt
-
-Removes item from collection at given index
-
-#### Parameters
-
-#### index `System.Int32`
-
-Index to remove at
-
-#### Returns
-
-`System.Void` 
 
 ###  Add
 
@@ -195,6 +81,20 @@ Adds items range in collection
 #### itemsToAdd ``0`
 
 Items array to add
+
+#### Returns
+
+`System.Void` 
+
+###  CheckedAdd
+
+Check segment and add it into collection
+
+#### Parameters
+
+#### segment `Telerik.Charting.AxisSegment`
+
+Segment for adding
 
 #### Returns
 
@@ -241,20 +141,6 @@ The zero-based index in array at which copying begins
 
 `System.Void` 
 
-###  Remove
-
-Removes item from collection
-
-#### Parameters
-
-#### item ``0`
-
-Item to remove
-
-#### Returns
-
-`System.Boolean` True in case of success
-
 ###  GetEnumerator
 
 Returns an enumerator that iterates through the System.Collections.Generic.List>T<.
@@ -262,6 +148,38 @@ Returns an enumerator that iterates through the System.Collections.Generic.List>
 #### Returns
 
 `System.Collections.Generic.IEnumerator`1` A System.Collections.Generic.List>T<.Enumerator for the System.Collections.Generic.List>T<.
+
+###  IndexOf
+
+Item index in collection
+
+#### Parameters
+
+#### item ``0`
+
+Item to get index of
+
+#### Returns
+
+`System.Int32` Index
+
+###  Insert
+
+Inserts item at the given index
+
+#### Parameters
+
+#### index `System.Int32`
+
+Index
+
+#### item ``0`
+
+Item to insert
+
+#### Returns
+
+`System.Void` 
 
 ###  LoadViewState
 
@@ -277,31 +195,17 @@ View state to load from
 
 `System.Void` 
 
-###  SaveViewState
+###  OnClear
 
-Saves collection to a view state
-
-#### Returns
-
-`System.Object` Saved state bag object
-
-###  SetDirty
-
-Sets is item in the dirty state
+Before collection clearing event
 
 #### Returns
 
 `System.Void` 
 
-###  SetItemDirty
+###  OnClearComplete
 
-Marks collection item dirty
-
-#### Parameters
-
-#### item ``0`
-
-Item to mark
+Collection after clean event
 
 #### Returns
 
@@ -379,22 +283,6 @@ Value to insert
 
 `System.Void` 
 
-###  OnClear
-
-Before collection clearing event
-
-#### Returns
-
-`System.Void` 
-
-###  OnClearComplete
-
-Collection after clean event
-
-#### Returns
-
-`System.Void` 
-
 ###  PopulateFromXml
 
 Populates collection from XML element
@@ -409,11 +297,115 @@ XmlElement to import from
 
 `System.Void` 
 
-###  ToString
+###  Remove
 
-ToString() override. Used in the properties grid to avoid object type showing.
+Removes item from collection
+
+#### Parameters
+
+#### item ``0`
+
+Item to remove
 
 #### Returns
 
-`System.String` Empty string
+`System.Boolean` True in case of success
+
+###  RemoveAt
+
+Removes item from collection at given index
+
+#### Parameters
+
+#### index `System.Int32`
+
+Index to remove at
+
+#### Returns
+
+`System.Void` 
+
+###  SaveViewState
+
+Saves collection to a view state
+
+#### Returns
+
+`System.Object` Saved state bag object
+
+###  Search
+
+Searches for a segment where value is located
+
+#### Parameters
+
+#### value `System.Double`
+
+Value to check
+
+#### Returns
+
+`Telerik.Charting.AxisSegment` AxisSegment
+
+###  Search
+
+Searches for a segment where value is located
+
+#### Parameters
+
+#### value `System.Double`
+
+Value to check
+
+#### withoutNull `System.Boolean`
+
+Null values exclusion reason
+
+#### Returns
+
+`Telerik.Charting.AxisSegment` AxisSegment
+
+###  SetDirty
+
+Sets is item in the dirty state
+
+#### Returns
+
+`System.Void` 
+
+###  SetItemDirty
+
+Marks collection item dirty
+
+#### Parameters
+
+#### item ``0`
+
+Item to mark
+
+#### Returns
+
+`System.Void` 
+
+###  Sort
+
+Sorts segments
+
+#### Returns
+
+`System.Void` 
+
+###  Test
+
+Checks if series item in current segment
+
+#### Parameters
+
+#### items `Telerik.Charting.ChartSeriesItemsCollection`
+
+SeriesItemsCollectionv
+
+#### Returns
+
+`System.Boolean` True if value is in segment
 

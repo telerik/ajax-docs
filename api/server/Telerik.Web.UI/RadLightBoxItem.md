@@ -6,7 +6,7 @@ description: Telerik.Web.UI.RadLightBoxItem
 
 # Telerik.Web.UI.RadLightBoxItem
 
-RadLightBox Item
+RadLightBox Item. See the http://docs.telerik.com/devtools/aspnet-ajax/controls/lightbox/overview Overview topicfor more information.
 
 ## Inheritance Hierarchy
 
@@ -16,63 +16,43 @@ RadLightBox Item
 
 ## Properties
 
-###  ImageUrl `String`
-
-The Url of the target image
-
-###  NavigateUrl `String`
-
-The Url of the target frame
-
-###  Title `String`
-
-Item title
-
 ###  Description `String`
 
 Item description
-
-###  TargetControlID `String`
-
-ID of the control that will open this item
-
-###  IsClientID `Boolean`
-
-Determines whether the TargetControlID is a client or server ID
-
-###  Width `Unit`
-
-Determines the width of the item content
-
-###  Height `Unit`
-
-Determines the height of the item content
-
-###  ItemTemplate `ITemplate`
-
-Item template
 
 ###  DescriptionTemplate `String`
 
 Description template
 
-## Methods
+###  Height `Unit`
 
-###  TrackViewState
+Determines the height of the item content
 
-#### Returns
+###  ImageUrl `String`
 
-`System.Void` 
+The Url of the target image
 
-###  LoadViewState
+###  IsClientID `Boolean`
 
-#### Returns
+Determines whether the TargetControlID is a client or server ID
 
-`System.Void` 
+###  ItemTemplate `ITemplate`
 
-###  SaveViewState
+Item template
 
-#### Returns
+###  NavigateUrl `String`
 
-`System.Object` 
+The Url of the target frame
+
+###  TargetControlID `String`
+
+ID of the control that will open this item
+
+###  Title `String`
+
+Item title
+
+###  Width `Unit`
+
+Determines the width of the item content
 

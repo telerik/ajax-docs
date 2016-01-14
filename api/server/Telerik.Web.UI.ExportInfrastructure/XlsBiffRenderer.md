@@ -23,9 +23,3 @@ Renders the ExportStructure object to binary XLS (byte array)
 
 `System.Byte[]` XLS BIFF output byte array
 
-###  Dispose
-
-#### Returns
-
-`System.Void` 
-

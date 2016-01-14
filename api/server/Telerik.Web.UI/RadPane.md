@@ -20,13 +20,14 @@ RadPane class
 
 ## Properties
 
+###  ClientIDMode `ClientIDMode`
+
+This property is overridden in order to support controls which implement INamingContainer.
+            The default value is changed to "AutoID".
+
 ###  Collapsed `Boolean`
 
 Sets/gets whether the pane is collapsed
-
-###  Locked `Boolean`
-
-Sets/gets whether the pane is locked
 
 ###  ContentUrl `String`
 
@@ -36,50 +37,82 @@ The URL of the page to load inside the pane.
 Use the ContentUrl property if you want to load external page 
             into the pane content area.
 
-###  ShowContentDuringLoad `Boolean`
+###  CssClassFormatString `String`
 
-Gets or sets a value indicating whether the page that is loaded
-            through the ContentUrl property should be shown during the loading process, or a loading sign is displayed instead.
+The CssClass property will now be used instead of the former Skin 
+            and will be modified in AddAttributesToRender()
 
-###  Width `Unit`
+###  EnableAjaxSkinRendering `String`
 
-Get/Set the Width of the pane.
+Gets or sets the value, indicating whether to render the skin CSS files during Ajax requests
+
+#### Remarks
+If EnableAjaxSkinRendering is set to false you will have to register the needed control base CSS file by hand when adding/showing the control with Ajax.
+
+###  EnableEmbeddedBaseStylesheet `Boolean`
+
+Gets or sets the value, indicating whether to render the link to the embedded base stylesheet of the control or not.
+
+#### Remarks
+If EnableEmbeddedBaseStylesheet is set to false you will have to register the needed control base CSS file by hand.
+
+###  EnableEmbeddedScripts `Boolean`
+
+Gets or sets the value, indicating whether to render script references to the embedded scripts or not.
+
+#### Remarks
+If EnableEmbeddedScripts is set to false you will have to register the needed Scripts files by hand.
+
+###  EnableEmbeddedSkins `String`
+
+Gets or sets the value, indicating whether to render links to the embedded skins or not.
+
+#### Remarks
+If EnableEmbeddedSkins is set to false you will have to register the needed CSS files by hand.
 
 ###  Height `Unit`
 
 Get/Set the Height of the pane.
 
-###  MinWidth `Unit`
+###  Index `Int32`
 
-Sets/gets the min width to which the pane can be resized
+This property is being used internally by the RadSplitter control.
+            Setting it may lead to unpredictable results.
 
-###  MinHeight `Unit`
+#### Remarks
+The Index property is used internally.
 
-Sets/gets the min height to which the pane can be resized
+###  IsSkinSet `String`
 
-###  Splitter `RadSplitter`
+For internal use.
 
-Reference to the parent Splitter object
+###  Locked `Boolean`
 
-###  MinWidth `Int32`
-
-Sets/gets the min width to which the pane can be resized
-
-###  MaxWidth `Int32`
-
-Sets/gets the max width to which the pane can be resized
-
-###  MinHeight `Int32`
-
-Sets/gets the min height to which the pane can be resized
+Sets/gets whether the pane is locked
 
 ###  MaxHeight `Int32`
 
 Sets/gets the max height to which the pane can be resized
 
-###  Scrolling `SplitterPaneScrolling`
+###  MaxWidth `Int32`
 
-Sets/gets whether the content of the pane will get a scrollbars when it exceeds the pane area size
+Sets/gets the max width to which the pane can be resized
+
+###  MinHeight `Unit`
+
+Sets/gets the min height to which the pane can be resized
+
+###  MinHeight `Int32`
+
+Sets/gets the min height to which the pane can be resized
+
+###  MinWidth `Unit`
+
+Sets/gets the min width to which the pane can be resized
+
+###  MinWidth `Int32`
+
+Sets/gets the min width to which the pane can be resized
 
 ###  OnClientCollapsed `String`
 
@@ -134,67 +167,12 @@ Two parameters are passed to the handler:sender, the event objectargs with the f
 
 Sets/gets whether the scrolls position will be persisted acrosss postbacks
 
-###  Index `Int32`
-
-This property is being used internally by the RadSplitter control.
-            Setting it may lead to unpredictable results.
-
-#### Remarks
-The Index property is used internally.
-
 ###  RegisterWithScriptManager `Boolean`
 
 Gets or sets the value, indicating whether to register with the ScriptManager control on the page.
 
 #### Remarks
 If RegisterWithScriptManager is set to false the control can be rendered on the page using Web Services or normal callback requests/page methods.
-
-###  Skin `String`
-
-Gets or sets the skin name for the control user interface.
-
-#### Remarks
-If this property is not set, the control will render using the skin named "Default".
-            If EnableEmbeddedSkins is set to false, the control will not render skin.
-
-###  IsSkinSet `String`
-
-For internal use.
-
-###  EnableEmbeddedScripts `Boolean`
-
-Gets or sets the value, indicating whether to render script references to the embedded scripts or not.
-
-#### Remarks
-If EnableEmbeddedScripts is set to false you will have to register the needed Scripts files by hand.
-
-###  EnableEmbeddedSkins `String`
-
-Gets or sets the value, indicating whether to render links to the embedded skins or not.
-
-#### Remarks
-If EnableEmbeddedSkins is set to false you will have to register the needed CSS files by hand.
-
-###  EnableEmbeddedBaseStylesheet `Boolean`
-
-Gets or sets the value, indicating whether to render the link to the embedded base stylesheet of the control or not.
-
-#### Remarks
-If EnableEmbeddedBaseStylesheet is set to false you will have to register the needed control base CSS file by hand.
-
-###  RuntimeSkin `String`
-
-Gets the real skin name for the control user interface. If Skin is not set, returns
-            "Default", otherwise returns Skin.
-
-###  EnableAjaxSkinRendering `String`
-
-Gets or sets the value, indicating whether to render the skin CSS files during Ajax requests
-
-#### Remarks
-If EnableAjaxSkinRendering is set to false you will have to register the needed control base CSS file by hand when adding/showing the control with Ajax.
-
-###  ClientStateFieldID `String`
 
 ###  RenderMode `RenderMode`
 
@@ -209,77 +187,41 @@ Lightweight rendering mode might change the outlook of the component in some old
 
 Returns resolved RenderMode should the original value was Auto
 
-###  CssClassFormatString `String`
+###  RuntimeSkin `String`
 
-The CssClass property will now be used instead of the former Skin 
-            and will be modified in AddAttributesToRender()
+Gets the real skin name for the control user interface. If Skin is not set, returns
+            "Default", otherwise returns Skin.
 
-###  ClientIDMode `ClientIDMode`
+###  Scrolling `SplitterPaneScrolling`
 
-This property is overridden in order to support controls which implement INamingContainer.
-            The default value is changed to "AutoID".
+Sets/gets whether the content of the pane will get a scrollbars when it exceeds the pane area size
 
-###  ScriptManager `ScriptManager`
+###  ShowContentDuringLoad `Boolean`
 
-###  RadScriptManager `ScriptManager`
+Gets or sets a value indicating whether the page that is loaded
+            through the ContentUrl property should be shown during the loading process, or a loading sign is displayed instead.
+
+###  Skin `String`
+
+Gets or sets the skin name for the control user interface.
+
+#### Remarks
+If this property is not set, the control will render using the skin named "Default".
+            If EnableEmbeddedSkins is set to false, the control will not render skin.
+
+###  Splitter `RadSplitter`
+
+Reference to the parent Splitter object
+
+###  Width `Unit`
+
+Get/Set the Width of the pane.
 
 ## Methods
 
-###  RenderBeginTag
+###  ApplyConditionalRendering
 
-#### Returns
-
-`System.Void` 
-
-###  RenderContents
-
-#### Returns
-
-`System.Void` 
-
-###  RenderEndTag
-
-#### Returns
-
-`System.Void` 
-
-###  GetExpandedSize
-
-Get the expanded Size of the pane, when the pane is collapsed. 
-            In case the Orientation of the splitter is Vertical, returns the expanded Height, otherwise, the expanded Width.
-
-#### Returns
-
-`System.Web.UI.WebControls.Unit` 
-
-###  SetExpandedSize
-
-Set the expanded Size of the pane, when the pane is collapsed. 
-            In case the Orientation of the splitter is Vertical, sets the expanded Height, otherwise, the expanded Width.
-
-#### Returns
-
-`System.Void` 
-
-###  DescribeClientProperties
-
-#### Returns
-
-`System.Void` 
-
-###  DescribeClientEvents
-
-#### Returns
-
-`System.Void` 
-
-###  AddAttributesToRender
-
-#### Returns
-
-`System.Void` 
-
-###  OnPreRender
+Use this from RenderContents of the inheritor
 
 #### Returns
 
@@ -293,21 +235,22 @@ Code moved into this method from OnPreRender to make sure it executed when the f
 
 `System.Void` 
 
-###  RegisterScriptControl
+###  GetEmbeddedSkinNames
 
-Registers the control with the ScriptManager
-
-#### Returns
-
-`System.Void` 
-
-###  RegisterCssReferences
-
-Registers the CSS references
+Returns the names of all embedded skins. Used by Telerik.Web.Examples.
 
 #### Returns
 
-`System.Void` 
+`System.Collections.Generic.List`1` 
+
+###  GetExpandedSize
+
+Get the expanded Size of the pane, when the pane is collapsed. 
+            In case the Orientation of the splitter is Vertical, returns the expanded Height, otherwise, the expanded Width.
+
+#### Returns
+
+`System.Web.UI.WebControls.Unit` 
 
 ###  LoadClientState
 
@@ -320,96 +263,6 @@ Loads the client state data
 #### Returns
 
 `System.Void` 
-
-###  SaveClientState
-
-Saves the client state data
-
-#### Returns
-
-`System.String` 
-
-###  RenderClientStateField
-
-#### Returns
-
-`System.Void` 
-
-###  RenderBeginTag
-
-#### Returns
-
-`System.Void` 
-
-###  RenderEndTag
-
-#### Returns
-
-`System.Void` 
-
-###  Render
-
-#### Returns
-
-`System.Void` 
-
-###  RenderScriptsNoScriptManager
-
-#### Returns
-
-`System.Void` 
-
-###  RenderDescriptorsNoScriptManager
-
-#### Returns
-
-`System.Void` 
-
-###  RenderContents
-
-#### Returns
-
-`System.Void` 
-
-###  ApplyConditionalRendering
-
-Use this from RenderContents of the inheritor
-
-#### Returns
-
-`System.Void` 
-
-###  DescribeComponent
-
-#### Returns
-
-`System.Void` 
-
-###  DescribeProperty
-
-#### Returns
-
-`System.Void` 
-
-###  DescribeIDReferenceProperty
-
-#### Returns
-
-`System.Void` 
-
-###  DescribeEvent
-
-#### Returns
-
-`System.Void` 
-
-###  GetEmbeddedSkinNames
-
-Returns the names of all embedded skins. Used by Telerik.Web.Examples.
-
-#### Returns
-
-`System.Collections.Generic.List`1` 
 
 ###  LoadPostData
 
@@ -433,9 +286,36 @@ Executed when post data changes should invoke a changed event
 
 `System.Void` 
 
-###  GetViewStateValue
+###  RegisterCssReferences
+
+Registers the CSS references
 
 #### Returns
 
-`Telerik.Web.UI.T` 
+`System.Void` 
+
+###  RegisterScriptControl
+
+Registers the control with the ScriptManager
+
+#### Returns
+
+`System.Void` 
+
+###  SaveClientState
+
+Saves the client state data
+
+#### Returns
+
+`System.String` 
+
+###  SetExpandedSize
+
+Set the expanded Size of the pane, when the pane is collapsed. 
+            In case the Orientation of the splitter is Vertical, sets the expanded Height, otherwise, the expanded Width.
+
+#### Returns
+
+`System.Void` 
 

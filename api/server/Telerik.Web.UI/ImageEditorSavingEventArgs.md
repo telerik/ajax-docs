@@ -17,6 +17,10 @@ Provides the event data for the RadImageEditor's ImageSaving event.
 
 ## Properties
 
+###  Argument `String`
+
+Gets or sets additional argument that will be passed back to the 'saved' client-side event.
+
 ###  Cancel `Boolean`
 
 Gets or sets a bool value indicating whether the saving on the image should be canceled.
@@ -25,15 +29,11 @@ Gets or sets a bool value indicating whether the saving on the image should be c
 
 Gets or sets the name of the image that will be saved.
 
-###  OverwriteFile `Boolean`
-
-Gets or sets a bool value indicating whether the existing image with the same file name will be overwritten.
-
-###  Argument `String`
-
-Gets or sets additional argument that will be passed back to the 'saved' client-side event.
-
 ###  Image `EditableImage`
 
 Gets the current Editable Image of the RadImageEditor control.
+
+###  OverwriteFile `Boolean`
+
+Gets or sets a bool value indicating whether the existing image with the same file name will be overwritten.
 

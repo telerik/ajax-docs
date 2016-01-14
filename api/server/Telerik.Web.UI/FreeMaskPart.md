@@ -15,10 +15,6 @@ Represents a single character MaskPart object which accepting any
 * Telerik.Web.UI.MaskPart
 * Telerik.Web.UI.FreeMaskPart
 
-## Properties
-
-###  Value `String`
-
 ## Methods
 
 ###  ToString

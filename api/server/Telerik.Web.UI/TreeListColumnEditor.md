@@ -21,6 +21,15 @@ Gets the column for which the column editor is created.
 
 ## Methods
 
+###  GetFirstValue
+
+Get the first value from the values of the current .
+            This method returns the first item from , if any.
+
+#### Returns
+
+`System.Object` 
+
 ###  GetFirstValueFromEnumerable
 
 Returns the first value from an object implementing IEnumerable, passed as argument. 
@@ -36,14 +45,13 @@ An instance of a class that implements IEnumerable.
 
 `System.Object` The first value form the enumerable collection.
 
-###  GetFirstValue
+###  GetValues
 
-Get the first value from the values of the current .
-            This method returns the first item from , if any.
+Returns a collection of the values in the editor control.
 
 #### Returns
 
-`System.Object` 
+`System.Collections.IEnumerable` 
 
 ###  Initialize
 
@@ -76,12 +84,4 @@ A collection of the values which will be used to populate the editor control.
 #### Returns
 
 `System.Void` 
-
-###  GetValues
-
-Returns a collection of the values in the editor control.
-
-#### Returns
-
-`System.Collections.IEnumerable` 
 

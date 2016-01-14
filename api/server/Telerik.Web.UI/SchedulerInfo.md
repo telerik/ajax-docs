@@ -15,14 +15,6 @@ Default implementation of ISchedulerInfo
 
 ## Properties
 
-###  ViewStart `DateTime`
-
-See RadScheduler.VisibleRangeStart
-
-###  ViewEnd `DateTime`
-
-See RadScheduler.VisibleRangeEnd
-
 ###  EnableDescriptionField `Boolean`
 
 See RadScheduler.EnableDescriptionField
@@ -36,11 +28,19 @@ See RadScheduler.MinutesPerRow
 Time Zone Offset in milliseconds
             See RadScheduler.TimeZoneOffset
 
-###  VisibleAppointmentsPerDay `Int32`
-
-Limit of visible appointments per day. A value of 0 means no limit.
-
 ###  UpdateMode `AppointmentUpdateMode`
 
 The update mode for this request - Batch or Single.
+
+###  ViewEnd `DateTime`
+
+See RadScheduler.VisibleRangeEnd
+
+###  ViewStart `DateTime`
+
+See RadScheduler.VisibleRangeStart
+
+###  VisibleAppointmentsPerDay `Int32`
+
+Limit of visible appointments per day. A value of 0 means no limit.
 

@@ -18,21 +18,14 @@ Defines the common visual appearance settings for the series' tooltips
 
 ## Properties
 
-###  Shared `Nullable`1`
-
-Specifies if the tooltips will be shared or not.
-
-###  SharedTemplate `Nullable`1`
-
-Specifies the client shared template for the series' tooltips
-
-###  Visible `Nullable`1`
-
-Get/Set whether the object should be visible
-
 ###  BackgroundColor `Color`
 
 Specifies background color of the tooltips
+
+###  ClientTemplate `String`
+
+A way to define a client-side template for the labels appearance.
+            #= value #
 
 ###  Color `Color`
 
@@ -46,24 +39,23 @@ Get/Set the data format string of the tooltips
 
 Specifies the rotation angle
 
-###  ClientTemplate `String`
+###  RotationAngle `Int32`
 
-A way to define a client-side template for the labels appearance.
-            #= value #
+Specifies the rotation angle
+
+###  Shared `Nullable`1`
+
+Specifies if the tooltips will be shared or not.
+
+###  SharedTemplate `Nullable`1`
+
+Specifies the client shared template for the series' tooltips
 
 ###  Visible `Nullable`1`
 
 Get/Set whether the object should be visible
 
-###  RotationAngle `Int32`
+###  Visible `Nullable`1`
 
-Specifies the rotation angle
-
-## Methods
-
-###  GetViewStateValue
-
-#### Returns
-
-`Telerik.Web.UI.T` 
+Get/Set whether the object should be visible
 

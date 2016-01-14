@@ -66,51 +66,6 @@ The array of RadPanelItem o append to the end of the current
 
 `System.Void` 
 
-###  Remove
-
-Removes the specified RadPanelItem object from the current
-            	RadPanelItemCollection.
-
-#### Parameters
-
-#### item `Telerik.Web.UI.RadPanelItem`
-
-The RadPanelItem object to remove.
-
-#### Returns
-
-`System.Void` 
-
-###  RemoveAt
-
-Removes the RadPanelItem object at the specified index 
-            from the current RadPanelItemCollection.
-
-#### Parameters
-
-#### index `System.Int32`
-
-The zero-based index of the item to remove.
-
-#### Returns
-
-`System.Void` 
-
-###  IndexOf
-
-Determines the index of the specified RadPanelItem object in the collection.
-
-#### Parameters
-
-#### item `Telerik.Web.UI.RadPanelItem`
-
-The RadPanelItem to locate.
-
-#### Returns
-
-`System.Int32` The zero-based index of item within the current RadPanelItemCollection, 
-            	if found; otherwise, -1.
-
 ###  Contains
 
 Determines whether the specified RadPanelItem object is in the current 
@@ -127,60 +82,21 @@ The RadPanelItem object to find.
 `System.Boolean` true if the current collection contains the specified RadPanelItem object; 
             	otherwise, false.
 
-###  Insert
+###  FindItem
 
-Inserts the specified RadPanelItem object in the current 
-            RadPanelItemCollection at the specified index location.
-
-#### Parameters
-
-#### index `System.Int32`
-
-The zero-based index location at which to insert the RadPanelItem.
-
-#### item `Telerik.Web.UI.RadPanelItem`
-
-The RadPanelItem to insert.
-
-#### Returns
-
-`System.Void` 
-
-###  FindItemByText
-
-Searches all nodes for a RadPanelItem with a Text property
-            equal to the specified text.
-
-#### Remarks
-This method is not recursive.
+Returns  the first RadPanelItem 
+            that matches the conditions defined by the specified predicate.
+            The predicate should returns a boolean value.
 
 #### Parameters
 
-#### text `System.String`
+#### match `System.Predicate{Telerik.Web.UI.RadPanelItem}`
 
-The text to search for
-
-#### Returns
-
-`Telerik.Web.UI.RadPanelItem` A RadPanelItem whose Text property equals to the specified argument. Null (Nothing) is returned when no matching node is found.
-
-###  FindItemByValue
-
-Searches all nodes for a RadPanelItem with a Value property
-            equal to the specified value.
-
-#### Remarks
-This method is not recursive.
-
-#### Parameters
-
-#### value `System.String`
-
-The value to search for
+The Predicate <> that defines the conditions of the element to search for.
 
 #### Returns
 
-`Telerik.Web.UI.RadPanelItem` A RadPanelItem whose Value property equals to the specified argument. Null (Nothing) is returned when no matching node is found.
+`Telerik.Web.UI.RadPanelItem` 
 
 ###  FindItemByAttribute
 
@@ -203,21 +119,23 @@ The value of the target attribute
 
 `Telerik.Web.UI.RadPanelItem` The RadPanelItem that matches the specified arguments. Null (Nothing) is returned if no node is found.
 
-###  FindItem
+###  FindItemByText
 
-Returns  the first RadPanelItem 
-            that matches the conditions defined by the specified predicate.
-            The predicate should returns a boolean value.
+Searches all nodes for a RadPanelItem with a Text property
+            equal to the specified text.
+
+#### Remarks
+This method is not recursive.
 
 #### Parameters
 
-#### match `System.Predicate{Telerik.Web.UI.RadPanelItem}`
+#### text `System.String`
 
-The Predicate <> that defines the conditions of the element to search for.
+The text to search for
 
 #### Returns
 
-`Telerik.Web.UI.RadPanelItem` 
+`Telerik.Web.UI.RadPanelItem` A RadPanelItem whose Text property equals to the specified argument. Null (Nothing) is returned when no matching node is found.
 
 ###  FindItemByText
 
@@ -247,6 +165,24 @@ A Boolean indicating a case-sensitive or insensitive comparison (true indicates 
 
 ###  FindItemByValue
 
+Searches all nodes for a RadPanelItem with a Value property
+            equal to the specified value.
+
+#### Remarks
+This method is not recursive.
+
+#### Parameters
+
+#### value `System.String`
+
+The value to search for
+
+#### Returns
+
+`Telerik.Web.UI.RadPanelItem` A RadPanelItem whose Value property equals to the specified argument. Null (Nothing) is returned when no matching node is found.
+
+###  FindItemByValue
+
 Searches the RadPanelbar control for the first
                 RadPanelItem with a Value property equal
                 to the specified value.
@@ -270,4 +206,68 @@ A Boolean indicating a case-sensitive or insensitive comparison (true indicates 
 
 `Telerik.Web.UI.RadPanelItem` A RadPanelItem whose Value property is
                 equal to the specified value.
+
+###  IndexOf
+
+Determines the index of the specified RadPanelItem object in the collection.
+
+#### Parameters
+
+#### item `Telerik.Web.UI.RadPanelItem`
+
+The RadPanelItem to locate.
+
+#### Returns
+
+`System.Int32` The zero-based index of item within the current RadPanelItemCollection, 
+            	if found; otherwise, -1.
+
+###  Insert
+
+Inserts the specified RadPanelItem object in the current 
+            RadPanelItemCollection at the specified index location.
+
+#### Parameters
+
+#### index `System.Int32`
+
+The zero-based index location at which to insert the RadPanelItem.
+
+#### item `Telerik.Web.UI.RadPanelItem`
+
+The RadPanelItem to insert.
+
+#### Returns
+
+`System.Void` 
+
+###  Remove
+
+Removes the specified RadPanelItem object from the current
+            	RadPanelItemCollection.
+
+#### Parameters
+
+#### item `Telerik.Web.UI.RadPanelItem`
+
+The RadPanelItem object to remove.
+
+#### Returns
+
+`System.Void` 
+
+###  RemoveAt
+
+Removes the RadPanelItem object at the specified index 
+            from the current RadPanelItemCollection.
+
+#### Parameters
+
+#### index `System.Int32`
+
+The zero-based index of the item to remove.
+
+#### Returns
+
+`System.Void` 
 

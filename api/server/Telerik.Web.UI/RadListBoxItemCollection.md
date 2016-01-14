@@ -51,6 +51,20 @@ The text of the new item.
 
 `System.Void` 
 
+###  FindAll
+
+Finds all items mathcing the specified criteria.
+
+#### Parameters
+
+#### match `System.Predicate{Telerik.Web.UI.RadListBoxItem}`
+
+The delegate which determines whether an item matches the search criteria.
+
+#### Returns
+
+`System.Collections.Generic.IList`1` 
+
 ###  Insert
 
 Inserts an item to the collection at the specified index.
@@ -86,20 +100,6 @@ The text of the new item.
 #### Returns
 
 `System.Void` 
-
-###  FindAll
-
-Finds all items mathcing the specified criteria.
-
-#### Parameters
-
-#### match `System.Predicate{Telerik.Web.UI.RadListBoxItem}`
-
-The delegate which determines whether an item matches the search criteria.
-
-#### Returns
-
-`System.Collections.Generic.IList`1` 
 
 ###  Remove
 

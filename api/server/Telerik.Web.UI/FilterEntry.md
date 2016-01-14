@@ -17,6 +17,10 @@ This Class gets or sets the filtering operator and
 
 ## Properties
 
+###  FieldName `String`
+
+Gets or sets the field name for the operation.
+
 ###  Operator `ODataSourceFilters`
 
 Gets or sets the filtering operator
@@ -24,8 +28,4 @@ Gets or sets the filtering operator
 ###  Value `String`
 
 Gets or sets the value for the filtering operation
-
-###  FieldName `String`
-
-Gets or sets the field name for the operation.
 

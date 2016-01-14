@@ -18,6 +18,14 @@ The main class representing MultiColumn Headers in Telerik.Web.UI.RadGrid .
 
 ## Properties
 
+###  ColSpan `Int32`
+
+Gets the colSpan of the multiheader cell. Read only.
+
+###  HeaderStyle `TableItemStyle`
+
+Style of the column group cell.
+
 ###  HeaderText `String`
 
 Sets the displayed text in the header
@@ -30,33 +38,9 @@ Sets the name of the column group
 
 Sets the parent group name of the column group
 
-###  HeaderStyle `TableItemStyle`
-
-Style of the column group cell.
-
-###  Columns `List`1`
-
-For internal use. Holds a collection of the columns belonging to the group
-
-###  ColSpan `Int32`
-
-Gets the colSpan of the multiheader cell. Read only.
-
-###  OrderIndex `Int32`
-
-For internal use. Gets or sets the order index of the multiheader cell
-
 ###  Visible `Boolean`
 
 Gets the visiblility of the multiheader cell. Read only.
-
-###  Display `Boolean`
-
-For internal use. Gets or sets the display of the multiheader cell.
-
-###  ChildGroups `List`1`
-
-For internal use. Holds a collection of the child groups of the current group
 
 ## Methods
 

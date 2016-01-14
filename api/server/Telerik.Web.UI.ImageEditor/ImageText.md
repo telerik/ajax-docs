@@ -15,9 +15,9 @@ Data container that defines information text intertable in images
 
 ## Properties
 
-###  Value `String`
+###  Color `String`
 
-The content of the image text
+The color of the image text
 
 ###  FontFamily `String`
 
@@ -27,7 +27,7 @@ The font family related to the image text
 
 The font size of the image text
 
-###  Color `String`
+###  Value `String`
 
-The color of the image text
+The content of the image text
 

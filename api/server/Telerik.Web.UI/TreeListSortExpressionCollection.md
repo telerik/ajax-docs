@@ -23,10 +23,6 @@ If false, the collection can contain only one sort expression at a time.
             Trying to add a new one in this case will delete the existing expression
             or will change the sort order if its FiledName is the same.
 
-###  Item `TreeListSortExpression`
-
-This is the default indexer of the collection - takes an integer value.
-
 ###  AllowNaturalSort `Boolean`
 
 Allow the no-sort state when changing sort order.
@@ -40,27 +36,16 @@ Returns the number of items in the RadTreeListSortExpressionCollection.
 Gets a value indicating whether access to the RadTreeListSortExpressionCollection is
             synchronized (thread safe).
 
+###  Item `TreeListSortExpression`
+
+This is the default indexer of the collection - takes an integer value.
+
 ###  SyncRoot `Object`
 
 Gets an object that can be used to synchronize access to the
                         RadTreeListSortExpressionCollection.
 
 ## Methods
-
-###  CopyTo
-
-#### Returns
-
-`System.Void` 
-
-###  GetEnumerator
-
-Returns an enumerator that iterates through the
-            RadTreeListSortExpressionCollection.
-
-#### Returns
-
-`System.Collections.IEnumerator` 
 
 ###  Add
 
@@ -70,33 +55,18 @@ Adds a  to the collection.
 
 `System.Int32` 
 
-###  Clear
+###  AddAt
 
-Clears the RadTreeListSortExpressionCollection of all items.
+Adds a  to the collection at the specified
+                index.
+
+#### Remarks
+As a convenience feature, adding at an index greater than zero will set the
+                 to true.
 
 #### Returns
 
 `System.Void` 
-
-###  CopyTo
-
-#### Returns
-
-`System.Void` 
-
-###  GetExpression
-
-Find a SortExpression in the collection if it contains any with sort field = expression
-
-#### Parameters
-
-#### expression `System.String`
-
-sort field
-
-#### Returns
-
-`Telerik.Web.UI.TreeListSortExpression` 
 
 ###  AddSortExpression
 
@@ -126,45 +96,6 @@ String containing sort field and optionaly sort order (ASC or DESC)
 
 `System.Void` 
 
-###  AddAt
-
-Adds a  to the collection at the specified
-                index.
-
-#### Remarks
-As a convenience feature, adding at an index greater than zero will set the
-                 to true.
-
-#### Returns
-
-`System.Void` 
-
-###  RemoveSortExpression
-
-Removes the specified  from the collection.
-
-#### Returns
-
-`System.Void` 
-
-###  ContainsSortExpression
-
-Returns true or false depending on whether the specified sorting expression exists
-                in the collection. Takes a  parameter.
-
-#### Returns
-
-`System.Boolean` 
-
-###  ContainsExpression
-
-Returns true or false depending on whether the specified sorting expression
-            exists in the collection. Takes a string parameter.
-
-#### Returns
-
-`System.Boolean` 
-
 ###  ChangeSortOrder
 
 Adds the sort field (expression parameter) if the collection does not alreqady contain the field. Else the sort order of the field will be inverted. The default change order is
@@ -177,6 +108,55 @@ Adds the sort field (expression parameter) if the collection does not alreqady c
 #### Returns
 
 `System.Void` 
+
+###  Clear
+
+Clears the RadTreeListSortExpressionCollection of all items.
+
+#### Returns
+
+`System.Void` 
+
+###  ContainsExpression
+
+Returns true or false depending on whether the specified sorting expression
+            exists in the collection. Takes a string parameter.
+
+#### Returns
+
+`System.Boolean` 
+
+###  ContainsSortExpression
+
+Returns true or false depending on whether the specified sorting expression exists
+                in the collection. Takes a  parameter.
+
+#### Returns
+
+`System.Boolean` 
+
+###  GetEnumerator
+
+Returns an enumerator that iterates through the
+            RadTreeListSortExpressionCollection.
+
+#### Returns
+
+`System.Collections.IEnumerator` 
+
+###  GetExpression
+
+Find a SortExpression in the collection if it contains any with sort field = expression
+
+#### Parameters
+
+#### expression `System.String`
+
+sort field
+
+#### Returns
+
+`Telerik.Web.UI.TreeListSortExpression` 
 
 ###  GetSortString
 
@@ -197,4 +177,12 @@ Searches for the specified
 #### Returns
 
 `System.Int32` 
+
+###  RemoveSortExpression
+
+Removes the specified  from the collection.
+
+#### Returns
+
+`System.Void` 
 

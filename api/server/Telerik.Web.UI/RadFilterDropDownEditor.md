@@ -17,39 +17,13 @@ Represents an editor for populating predefined items to be filtered using a drop
 
 ## Properties
 
-###  DropDownType `RadFilterDropDownType`
-
-Gets or sets the type of drop down control which will be created.
-            The default value is RadDropDownList.
-
-###  DataTextField `String`
-
-Gets or sets the DataTextField property value of the drop down control created by the editor.
-
-###  DataValueField `String`
-
-Gets or sets the DataValueField property value of the drop down control created by the editor.
-
 ###  DataSourceID `String`
 
 Gets or sets the DataTextField property value of the drop down control created by the editor.
 
-###  FieldName `String`
+###  DataTextField `String`
 
-Gets or sets FieldName for the editor.
-
-###  DisplayName `String`
-
-Gets or sets DisplayName for the editor.
-
-###  ToolTip `String`
-
-Gets or sets the ToolTip property of the editor control.
-
-###  PreviewDataFormat `String`
-
-Gets or sets PreviewDataFormat for the editor. This property will be used
-                to format the value per editor when ExpressionPreviewPosition is different than RadFilterExpressionPreviewPosition.None
+Gets or sets the DataTextField property value of the drop down control created by the editor.
 
 ###  DataType `Type`
 
@@ -59,16 +33,50 @@ Gets or sets (see the Remarks) the type of the data from the Field.
 The DataType property supports the following base .NET Framework data
                 types:BooleanByteCharDateTimeDecimalDoubleInt16Int32Int64SByteSingleStringTimeSpanUInt16UInt32UInt64
 
+###  DataValueField `String`
+
+Gets or sets the DataValueField property value of the drop down control created by the editor.
+
 ###  DefaultFilterFunction `RadFilterFunction`
 
 Gets or sets the default filter function that will be set to the editor item
             when it is first created.
 
+###  DisplayName `String`
+
+Gets or sets DisplayName for the editor.
+
+###  DropDownType `RadFilterDropDownType`
+
+Gets or sets the type of drop down control which will be created.
+            The default value is RadDropDownList.
+
+###  FieldName `String`
+
+Gets or sets FieldName for the editor.
+
 ###  Owner `RadFilter`
 
 Keeps reference to the owner RadFilter control.
 
+###  PreviewDataFormat `String`
+
+Gets or sets PreviewDataFormat for the editor. This property will be used
+                to format the value per editor when ExpressionPreviewPosition is different than RadFilterExpressionPreviewPosition.None
+
+###  ToolTip `String`
+
+Gets or sets the ToolTip property of the editor control.
+
 ## Methods
+
+###  ExtractValues
+
+Extracts an ArrayList with the values from the editor.
+
+#### Returns
+
+`System.Collections.ArrayList` An ArrayList holding the editor values.
 
 ###  InitializeEditor
 
@@ -83,14 +91,6 @@ The container Control where the editor control will be added.
 #### Returns
 
 `System.Void` 
-
-###  ExtractValues
-
-Extracts an ArrayList with the values from the editor.
-
-#### Returns
-
-`System.Collections.ArrayList` An ArrayList holding the editor values.
 
 ###  SetEditorValues
 

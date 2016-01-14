@@ -17,27 +17,6 @@ Represents the field editor in RadFilter used to build filter expressions for st
 
 ## Properties
 
-###  TextBoxWidth `Int32`
-
-Get/set TextBox width in pixels.
-
-###  FieldName `String`
-
-Gets or sets FieldName for the editor.
-
-###  DisplayName `String`
-
-Gets or sets DisplayName for the editor.
-
-###  ToolTip `String`
-
-Gets or sets the ToolTip property of the editor control.
-
-###  PreviewDataFormat `String`
-
-Gets or sets PreviewDataFormat for the editor. This property will be used
-                to format the value per editor when ExpressionPreviewPosition is different than RadFilterExpressionPreviewPosition.None
-
 ###  DataType `Type`
 
 Gets or sets (see the Remarks) the type of the data from the Field.
@@ -51,11 +30,48 @@ The DataType property supports the following base .NET Framework data
 Gets or sets the default filter function that will be set to the editor item
             when it is first created.
 
+###  DisplayName `String`
+
+Gets or sets DisplayName for the editor.
+
+###  FieldName `String`
+
+Gets or sets FieldName for the editor.
+
 ###  Owner `RadFilter`
 
 Keeps reference to the owner RadFilter control.
 
+###  PreviewDataFormat `String`
+
+Gets or sets PreviewDataFormat for the editor. This property will be used
+                to format the value per editor when ExpressionPreviewPosition is different than RadFilterExpressionPreviewPosition.None
+
+###  TextBoxWidth `Int32`
+
+Get/set TextBox width in pixels.
+
+###  ToolTip `String`
+
+Gets or sets the ToolTip property of the editor control.
+
 ## Methods
+
+###  ExtractValues
+
+Extracts the value of the TextBox editors.
+
+#### Returns
+
+`System.Collections.ArrayList` An ArrayList containing the editor values.
+
+###  ExtractValues
+
+Extracts an ArrayList with the values from the editor.
+
+#### Returns
+
+`System.Collections.ArrayList` An ArrayList holding the editor values.
 
 ###  InitializeEditor
 
@@ -66,28 +82,6 @@ Initializes the textbox editor.
 #### container `System.Web.UI.Control`
 
 The container Control which will contain the TextBox control.
-
-#### Returns
-
-`System.Void` 
-
-###  ExtractValues
-
-Extracts the value of the TextBox editors.
-
-#### Returns
-
-`System.Collections.ArrayList` An ArrayList containing the editor values.
-
-###  SetEditorValues
-
-Sets the values of the text editor.
-
-#### Parameters
-
-#### values `System.Collections.ArrayList`
-
-An array containing the values that will populate the editor.
 
 #### Returns
 
@@ -107,13 +101,19 @@ The container Control where the editor control will be added.
 
 `System.Void` 
 
-###  ExtractValues
+###  SetEditorValues
 
-Extracts an ArrayList with the values from the editor.
+Sets the values of the text editor.
+
+#### Parameters
+
+#### values `System.Collections.ArrayList`
+
+An array containing the values that will populate the editor.
 
 #### Returns
 
-`System.Collections.ArrayList` An ArrayList holding the editor values.
+`System.Void` 
 
 ###  SetEditorValues
 

@@ -52,3 +52,7 @@ The start cap (arrow, head or decoration) of the connection.
 
 Defines the stroke configuration.
 
+###  Type `ConnectionType`
+
+The type of the connections that defines the way it routes.
+

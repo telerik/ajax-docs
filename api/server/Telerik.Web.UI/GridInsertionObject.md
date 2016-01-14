@@ -14,17 +14,3 @@ Class representing a Telerik.Web.UI.RadGrid insertion object and is used as a ba
 * System.Object
 * Telerik.Web.UI.GridInsertionObject : ICustomTypeDescriptor
 
-## Methods
-
-###  SetupValues
-
-#### Returns
-
-`System.Void` 
-
-###  GetPropertyValue
-
-#### Returns
-
-`System.Object` 
-

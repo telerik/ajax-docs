@@ -25,22 +25,6 @@ Gets or sets the cancel.
 
 Gets or sets the name of the current file.
 
-###  UploadedFiles `String`
-
-Gets or sets the uploaded files.
-
-###  TotalFiles `String`
-
-Gets or sets the total files.
-
-###  Uploaded `String`
-
-Gets or sets the uploaded.
-
-###  Total `String`
-
-Gets or sets the total.
-
 ###  ElapsedTime `String`
 
 Gets or sets the elapsed time.
@@ -49,7 +33,23 @@ Gets or sets the elapsed time.
 
 Gets or sets the estimated time.
 
+###  Total `String`
+
+Gets or sets the total.
+
+###  TotalFiles `String`
+
+Gets or sets the total files.
+
 ###  TransferSpeed `String`
 
 Gets or sets the transfer speed.
+
+###  Uploaded `String`
+
+Gets or sets the uploaded.
+
+###  UploadedFiles `String`
+
+Gets or sets the uploaded files.
 

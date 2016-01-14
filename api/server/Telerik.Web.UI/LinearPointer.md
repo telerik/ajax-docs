@@ -17,6 +17,14 @@ Represents the pointer of a Linear Gauge.
 
 ## Properties
 
+###  Color `Color`
+
+Gets or sets the color of the pointer.
+
+###  Margin `Nullable`1`
+
+Gets or sets the size of the pointer.
+
 ###  Opacity `Single`
 
 Gets or sets the transparency of the pointer of the LinearGauge.
@@ -29,39 +37,11 @@ Gets or sets the shape of the LinearGauge's pointer.
 
 Gets or sets the size of the pointer.
 
-###  Margin `Nullable`1`
-
-Gets or sets the size of the pointer.
-
 ###  Track `Track`
 
 Defines the settings of the track of the LinearGauge's pointer.
 
-###  Color `Color`
-
-Gets or sets the color of the pointer.
-
 ###  Value `Nullable`1`
 
 Gets or sets the value at which the pointer is pointing.
-
-## Methods
-
-###  LoadViewState
-
-#### Returns
-
-`System.Void` 
-
-###  SaveViewState
-
-#### Returns
-
-`System.Object` 
-
-###  TrackViewState
-
-#### Returns
-
-`System.Void` 
 

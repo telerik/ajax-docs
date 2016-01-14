@@ -45,6 +45,21 @@ A table name.
 
 `System.Boolean` 
 
+###  GetDictionaryEntry
+
+Gets a  object for the supplied table.
+
+#### Parameters
+
+#### tableName `System.String`
+
+A 4-character code identifying a table.
+
+#### Returns
+
+`Telerik.Pdf.Gdi.Font.DirectoryEntry` A  object or null if the table cannot 
+                be located.
+
 ###  GetTable
 
 Gets a reference to the table structure identified by tableName
@@ -71,42 +86,6 @@ A 4-character code identifying a table.
 
 `Telerik.Pdf.Gdi.Font.FontTable` 
 
-###  GetDictionaryEntry
-
-Gets a  object for the supplied table.
-
-#### Parameters
-
-#### tableName `System.String`
-
-A 4-character code identifying a table.
-
-#### Returns
-
-`Telerik.Pdf.Gdi.Font.DirectoryEntry` A  object or null if the table cannot 
-                be located.
-
-###  ReadTableHeaders
-
-Reads the Offset and Directory tables.  If the FontFileStream represents 
-                a TrueType collection, this method will look for the aforementioned 
-                tables belonging to fontName.
-
-#### Remarks
-This method can handle a TrueType collection.
-
-#### Returns
-
-`System.Void` 
-
-###  ReadRequiredTables
-
-Caches the following tables: 'head', 'hhea', 'maxp', 'loca'
-
-#### Returns
-
-`System.Void` 
-
 ###  OffsetStream
 
 Sets the stream position to the offset in the supplied directory
@@ -122,13 +101,22 @@ Sets the stream position to the offset in the supplied directory
 
 `System.Void` 
 
-###  Dispose
+###  ReadRequiredTables
+
+Caches the following tables: 'head', 'hhea', 'maxp', 'loca'
 
 #### Returns
 
 `System.Void` 
 
-###  Dispose
+###  ReadTableHeaders
+
+Reads the Offset and Directory tables.  If the FontFileStream represents 
+                a TrueType collection, this method will look for the aforementioned 
+                tables belonging to fontName.
+
+#### Remarks
+This method can handle a TrueType collection.
 
 #### Returns
 

@@ -20,33 +20,9 @@ Represents settings for RadScheduler's multi-day view.
 
 ## Properties
 
-###  HeaderDateFormat `String`
-
-Gets or sets the mult-day header date format string.
-
-#### Remarks
-For additional information, please read this
-            MSDN article.
-
 ###  ColumnHeaderDateFormat `String`
 
 Gets or sets the multi-day header column date format string.
-
-#### Remarks
-For additional information, please read this
-            MSDN article.
-
-###  NumberOfDays `Int32`
-
-Gets or sets the number of visible days in multi-day view.
-
-###  UserSelectable `Boolean`
-
-Gets or sets a value indicating whether to render a tab for the current view in the view chooser.
-
-###  HeaderDateFormat `String`
-
-Gets or sets the week header date format string.
 
 #### Remarks
 For additional information, please read this
@@ -60,41 +36,56 @@ Gets or sets the week column header date format string.
 For additional information, please read this
             MSDN article.
 
-###  HeaderDateFormat `String`
+###  DayEndTime `TimeSpan`
 
-Gets or sets the header date format.
+Gets or sets the time used to denote the end of the day.
 
 ###  DayStartTime `TimeSpan`
 
 Gets or sets the time used to denote the start of the day.
 
-###  DayEndTime `TimeSpan`
+###  EnableExactTimeRendering `Boolean`
 
-Gets or sets the time used to denote the end of the day.
+Gets or sets a value indicating whether the appointment start and end time should be rendered exactly.
 
-###  WorkDayStartTime `TimeSpan`
+###  GroupBy `String`
 
-Gets or sets the time used to denote the start of the work day.
+Gets or sets the resource to group by.
+
+###  GroupingDirection `GroupingDirection`
+
+Gets or sets the resource grouping direction.
+
+###  HeaderDateFormat `String`
+
+Gets or sets the mult-day header date format string.
 
 #### Remarks
-The effect from this property is only visual.
+For additional information, please read this
+            MSDN article.
 
-###  WorkDayEndTime `TimeSpan`
+###  HeaderDateFormat `String`
 
-Gets or sets the time used to denote the end of the work day.
+Gets or sets the week header date format string.
 
 #### Remarks
-The effect from this property is only visual.
+For additional information, please read this
+            MSDN article.
 
-###  ShowHoursColumn `Boolean`
+###  HeaderDateFormat `String`
 
-Gets or sets a value indicating whether to render the hours column in day and week view.
+Gets or sets the header date format.
 
-###  ShowHiddenAppointmentsIndicator `Boolean`
+###  NumberOfDays `Int32`
 
-Gets or sets a value indicating whether to render indicator for appointments
-            that are not visible when displaying only working hours, but will become visible when
-            displaying the full day.
+Gets or sets the number of visible days in multi-day view.
+
+###  ReadOnly `Boolean`
+
+Gets or sets a value indicating whether the view is in read-only mode.
+
+#### Remarks
+By default the user is able to insert, edit and delete appointments. Use the ReadOnly to disable the editing capabilities of RadScheduler.
 
 ###  ShowAllDayInsertArea `Boolean`
 
@@ -109,6 +100,20 @@ The insert area is not visible if the scheduler is in read-only mode or
             	If all time slots are full and this property is set to false,
             	the user will not be able to insert appointments.
 
+###  ShowDateHeaders `Boolean`
+
+Gets or sets a value indicating whether to render date headers for the current view.
+
+###  ShowHiddenAppointmentsIndicator `Boolean`
+
+Gets or sets a value indicating whether to render indicator for appointments
+            that are not visible when displaying only working hours, but will become visible when
+            displaying the full day.
+
+###  ShowHoursColumn `Boolean`
+
+Gets or sets a value indicating whether to render the hours column in day and week view.
+
 ###  ShowInsertArea `Boolean`
 
 Gets or sets a boolean value that specifies whether to
@@ -119,42 +124,29 @@ Gets or sets a boolean value that specifies whether to
 The insert area is not visible if the scheduler is in read-only mode or
             	AllowInsert is false.
 
-###  EnableExactTimeRendering `Boolean`
-
-Gets or sets a value indicating whether the appointment start and end time should be rendered exactly.
-
-###  GroupBy `String`
-
-Gets or sets the resource to group by.
-
-###  GroupingDirection `GroupingDirection`
-
-Gets or sets the resource grouping direction.
-
 ###  ShowResourceHeaders `Boolean`
 
 Gets or sets a value indicating whether to render resource headers for the current view.
-
-###  ReadOnly `Boolean`
-
-Gets or sets a value indicating whether the view is in read-only mode.
-
-#### Remarks
-By default the user is able to insert, edit and delete appointments. Use the ReadOnly to disable the editing capabilities of RadScheduler.
-
-###  ShowDateHeaders `Boolean`
-
-Gets or sets a value indicating whether to render date headers for the current view.
 
 ###  UserSelectable `Boolean`
 
 Gets or sets a value indicating whether to render a tab for the current view in the view chooser.
 
-## Methods
+###  UserSelectable `Boolean`
 
-###  GetViewStateValue
+Gets or sets a value indicating whether to render a tab for the current view in the view chooser.
 
-#### Returns
+###  WorkDayEndTime `TimeSpan`
 
-`Telerik.Web.UI.T` 
+Gets or sets the time used to denote the end of the work day.
+
+#### Remarks
+The effect from this property is only visual.
+
+###  WorkDayStartTime `TimeSpan`
+
+Gets or sets the time used to denote the start of the work day.
+
+#### Remarks
+The effect from this property is only visual.
 

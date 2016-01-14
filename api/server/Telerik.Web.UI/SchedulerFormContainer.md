@@ -17,22 +17,22 @@ This Class defines the SchedulerFormContainer that inherits SchedulerAppointment
 
 ## Properties
 
+###  Appointment `Appointment`
+
+Gets or sets the appointment.
+
 ###  ClientIDMode `ClientIDMode`
 
 This property is overridden in order to allow the client-side script to easily locate child controls.
             The default value is changed to "AutoID".
 
-###  Template `IBindableTemplate`
-
-Gets or sets the template.
-
 ###  Mode `SchedulerFormMode`
 
 Gets or sets the mode.
 
-###  Appointment `Appointment`
+###  Template `IBindableTemplate`
 
-Gets or sets the appointment.
+Gets or sets the template.
 
 ###  Template `ITemplate`
 

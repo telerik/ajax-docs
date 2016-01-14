@@ -16,10 +16,6 @@ Chart client settings
 
 ## Properties
 
-###  EnableAxisMarkers `Boolean`
-
-Gets or sets a value indicating whether the zoom assist axis markers are enabled.
-
 ###  AxisMarkersColor `Color`
 
 Gets or sets a value indicating the color of the zoom assist axis markers.
@@ -28,25 +24,29 @@ Gets or sets a value indicating the color of the zoom assist axis markers.
 
 Gets or sets a value indicating the size of the axis markers in pixels (size for the YAxis marker represents its width, while size for the XAxis marker -- its height).
 
+###  EnableAxisMarkers `Boolean`
+
+Gets or sets a value indicating whether the zoom assist axis markers are enabled.
+
 ###  EnableZoom `Boolean`
 
 Gets or sets a value indicating whether the client-side zoom functionality is enabled.
-
-###  ZoomRectangleColor `Color`
-
-Gets or sets a value indicating the color of the zoom rectangle.
-
-###  ZoomRectangleOpacity `Single`
-
-Gets or sets a value indicating the opacity of the zoom rectangle.
 
 ###  ScrollMode `ChartClientScrollMode`
 
 Gets or sets a value indicating the plotarea client scroll mode.
 
-###  YScrollOffset `Single`
+###  ViewState `StateBag`
 
-Gets or sets a value indicating the YAxis scroll offset ratio.
+Sate bag to store view state content
+
+###  ViewStateIgnoresCase `Boolean`
+
+Gets if view sate should ignore case
+
+###  XScale `Single`
+
+Gets or sets a value indicating the plotarea scale value by X axis.
 
 ###  XScrollOffset `Single`
 
@@ -56,25 +56,57 @@ Gets or sets a value indicating the XAxis scroll offset ratio.
 
 Gets or sets a value indicating the plotarea scale value by Y axis.
 
-###  XScale `Single`
+###  YScrollOffset `Single`
 
-Gets or sets a value indicating the plotarea scale value by X axis.
+Gets or sets a value indicating the YAxis scroll offset ratio.
 
-###  ViewStateIgnoresCase `Boolean`
+###  ZoomRectangleColor `Color`
 
-Gets if view sate should ignore case
+Gets or sets a value indicating the color of the zoom rectangle.
 
-###  ViewState `StateBag`
+###  ZoomRectangleOpacity `Single`
 
-Sate bag to store view state content
+Gets or sets a value indicating the opacity of the zoom rectangle.
 
 ## Methods
 
-###  ToString
+###  CloneState
+
+Makes a view state clone
 
 #### Returns
 
-`System.String` 
+`System.Web.UI.StateBag` StateBag
+
+###  LoadViewState
+
+Loads data from a view state
+
+#### Parameters
+
+#### state `System.Object`
+
+View state to load data from
+
+#### Returns
+
+`System.Void` 
+
+###  SaveViewState
+
+Saves object data to a view state
+
+#### Returns
+
+`System.Object` Saved view state object
+
+###  SetDirty
+
+Sets the item dirty state
+
+#### Returns
+
+`System.Void` 
 
 ###  Telerik.Charting.IChartingStateManager.LoadViewState
 
@@ -106,22 +138,6 @@ Tracks view state changes
 
 `System.Void` 
 
-###  CloneState
-
-Makes a view state clone
-
-#### Returns
-
-`System.Web.UI.StateBag` StateBag
-
-###  SaveViewState
-
-Saves object data to a view state
-
-#### Returns
-
-`System.Object` Saved view state object
-
 ###  TrackViewState
 
 Tracks view state changes
@@ -129,34 +145,4 @@ Tracks view state changes
 #### Returns
 
 `System.Void` 
-
-###  LoadViewState
-
-Loads data from a view state
-
-#### Parameters
-
-#### state `System.Object`
-
-View state to load data from
-
-#### Returns
-
-`System.Void` 
-
-###  SetDirty
-
-Sets the item dirty state
-
-#### Returns
-
-`System.Void` 
-
-###  ToString
-
-ToString() override. Used in the properties grid to avoid object type showing.
-
-#### Returns
-
-`System.String` Empty string
 

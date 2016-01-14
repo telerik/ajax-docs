@@ -24,6 +24,15 @@ The E:Telerik.Web.UI.RadTreeView.ContextMenuItemClick ContextMenuItemClickevent 
 
 ## Properties
 
+###  Appointment `Appointment`
+
+Gets the referenced RadTreeNode in the
+                RadTreeView control when the event is raised.
+
+#### Remarks
+Use this property to programmatically access the item referenced in the
+                RadTreeNode when the event is raised.
+
 ###  MenuItem `RadMenuItem`
 
 Gets the referenced RadMenuItem in the
@@ -33,13 +42,4 @@ Gets the referenced RadMenuItem in the
 #### Remarks
 Use this property to programmatically access the item referenced in the
                 RadTreeViewContextMenu when the event is raised.
-
-###  Appointment `Appointment`
-
-Gets the referenced RadTreeNode in the
-                RadTreeView control when the event is raised.
-
-#### Remarks
-Use this property to programmatically access the item referenced in the
-                RadTreeNode when the event is raised.
 

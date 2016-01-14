@@ -53,6 +53,21 @@ The RadPageView to append to the collection.
 
 `System.Void` 
 
+###  IndexOf
+
+Determines the index of the specified RadPageView in the collection.
+
+#### Parameters
+
+#### pageView `Telerik.Web.UI.RadPageView`
+
+A RadPageView to search for in the collection.
+
+#### Returns
+
+`System.Int32` The zero-based index position of the specified RadPageView in the
+            	collection. If the specified RadPageView is not found in the collection -1 is returned.
+
 ###  Insert
 
 Inserts the specified RadPageView object in the current 
@@ -72,36 +87,6 @@ The RadPageView to insert.
 
 `System.Void` 
 
-###  Add
-
-#### Returns
-
-`System.Void` 
-
-###  AddAt
-
-#### Returns
-
-`System.Void` 
-
-###  IndexOf
-
-#### Returns
-
-`System.Int32` 
-
-###  Remove
-
-#### Returns
-
-`System.Void` 
-
-###  Contains
-
-#### Returns
-
-`System.Boolean` 
-
 ###  Remove
 
 Removes the specified RadPageView from the collection.
@@ -115,19 +100,4 @@ The RadPageView to remove from the collection.
 #### Returns
 
 `System.Void` 
-
-###  IndexOf
-
-Determines the index of the specified RadPageView in the collection.
-
-#### Parameters
-
-#### pageView `Telerik.Web.UI.RadPageView`
-
-A RadPageView to search for in the collection.
-
-#### Returns
-
-`System.Int32` The zero-based index position of the specified RadPageView in the
-            	collection. If the specified RadPageView is not found in the collection -1 is returned.
 

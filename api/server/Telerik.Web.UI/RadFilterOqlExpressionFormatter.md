@@ -16,6 +16,20 @@ Represents a formatter that creates a string representation of a filter expressi
 
 ## Methods
 
+###  FormatDateTime
+
+Creates a formatted string representing a DateTime value, using invariant DateFormatInfo.
+
+#### Parameters
+
+#### value `System.DateTime`
+
+The DateTime value to create a formatted string from.
+
+#### Returns
+
+`System.String` The resulting string that represents the DateTime value.
+
 ###  FormatFieldName
 
 Creates a formatted string using the respective syntax that is populated with the 
@@ -62,18 +76,4 @@ A boolean value indicating whether the formatted expression
 #### Returns
 
 `System.Collections.ArrayList` A formatted string representing the filter expression.
-
-###  FormatDateTime
-
-Creates a formatted string representing a DateTime value, using invariant DateFormatInfo.
-
-#### Parameters
-
-#### value `System.DateTime`
-
-The DateTime value to create a formatted string from.
-
-#### Returns
-
-`System.String` The resulting string that represents the DateTime value.
 

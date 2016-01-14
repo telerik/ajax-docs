@@ -17,6 +17,10 @@ The event arguments passed when Telerik.Web.UI.RadDataForm fires Command event.
 
 ## Properties
 
+###  Canceled `Boolean`
+
+Gets or sets a value, defining whether the command should be canceled.
+
 ###  DataFormItem `RadDataFormItem`
 
 Gets or sets the  which was responsible for firing the event.
@@ -24,10 +28,6 @@ Gets or sets the  which was responsible for firing the event.
 ###  EventSource `Object`
 
 Gets or sets the event source which represent the control which fired the event.
-
-###  Canceled `Boolean`
-
-Gets or sets a value, defining whether the command should be canceled.
 
 ## Methods
 

@@ -16,11 +16,11 @@ The event arguments passed before Telerik.Web.UI.RadTreeList exports.
 
 ## Properties
 
-###  ExportStructure `ExportStructure`
-
-This property returns the generated export infrastructure content
-
 ###  ExportFormat `ExportFormat`
 
 This property returns the export format RadGrid is currently exporting to
+
+###  ExportStructure `ExportStructure`
+
+This property returns the generated export infrastructure content
 

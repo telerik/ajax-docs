@@ -23,16 +23,16 @@ The name of the javascript function called when the user clicks one of the contr
 #### Remarks
 This event is raised only when the rotator is in Buttons mode!
 
-###  OnClientButtonOver `String`
+###  OnClientButtonOut `String`
 
-The name of the javascript function called when the mouse is over one of the control buttons.
+The name of the javascript function called when the mouse leaves one of the control buttons.
 
 #### Remarks
 This event is raised only when the rotator is in ButtonsOver mode!
 
-###  OnClientButtonOut `String`
+###  OnClientButtonOver `String`
 
-The name of the javascript function called when the mouse leaves one of the control buttons.
+The name of the javascript function called when the mouse is over one of the control buttons.
 
 #### Remarks
 This event is raised only when the rotator is in ButtonsOver mode!

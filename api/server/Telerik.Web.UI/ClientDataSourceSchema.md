@@ -16,6 +16,22 @@ The class defined the configuration used to parse the remote service response in
 
 ## Properties
 
+###  AggregateResultsName `String`
+
+Gets or sets the name of the field from the response which contains the aggregate results
+
+###  DataName `String`
+
+Gets or sets the name of the collection that holds the data items
+
+###  ErrorsName `String`
+
+Gets or sets the name of the field from the server response which contains server-side errors
+
+###  GroupsName `String`
+
+Gets or sets the name of the field from the server response which contains the groups
+
 ###  Model `ClientDataSourceModel`
 
 Gets or sets the model of the Schema
@@ -23,22 +39,6 @@ Gets or sets the model of the Schema
 ###  ResponseType `ClientDataSourceDataType`
 
 Gets or sets the data type of the server response. Only JSON and XML are supported
-
-###  DataName `String`
-
-Gets or sets the name of the collection that holds the data items
-
-###  AggregateResultsName `String`
-
-Gets or sets the name of the field from the response which contains the aggregate results
-
-###  GroupsName `String`
-
-Gets or sets the name of the field from the server response which contains the groups
-
-###  ErrorsName `String`
-
-Gets or sets the name of the field from the server response which contains server-side errors
 
 ###  TotalName `String`
 

@@ -21,89 +21,31 @@ Base class for all objects being calculated
 
 Link to container element
 
-###  ViewStateIgnoresCase `Boolean`
-
-Gets if view sate should ignore case
-
 ###  ViewState `StateBag`
 
 Sate bag to store view state content
 
+###  ViewStateIgnoresCase `Boolean`
+
+Gets if view sate should ignore case
+
 ## Methods
 
-###  GetOffset
+###  BringForward
 
-Gets element offset
-
-#### Parameters
-
-#### oelement `System.Object`
-
-Element
-
-#### calcMethod `Telerik.Charting.LayoutElement.OffsetCalculationDelegate`
-
-Offset calculation method delegate (left, right, top, bottom)
+Send element at one step forward in the render order list
 
 #### Returns
 
-`System.Single` Offset value
+`System.Void` 
 
-###  GetOffsetLeft
+###  BringToFront
 
-Gets left offset
-
-#### Parameters
-
-#### oelement `System.Object`
-
-Element to get an offset of
+Set element at the first position in render order list
 
 #### Returns
 
-`System.Single` Offset value
-
-###  GetOffsetTop
-
-Gets top offset
-
-#### Parameters
-
-#### element `System.Object`
-
-Element to get an offset of
-
-#### Returns
-
-`System.Single` Offset value
-
-###  GetOffsetRight
-
-Gets right offset
-
-#### Parameters
-
-#### element `System.Object`
-
-Element to get an offset of
-
-#### Returns
-
-`System.Single` Offset value
-
-###  GetOffsetBottom
-
-Gets bottom offset
-
-#### Parameters
-
-#### element `System.Object`
-
-Element to get an offset of
-
-#### Returns
-
-`System.Single` Offset value
+`System.Void` 
 
 ###  CalculatePosition
 
@@ -131,35 +73,13 @@ Calculates element position. Makes an additional check for a container object ty
 
 `System.Void` 
 
-###  TrackViewState
+###  CloneState
 
-Tracking view state changes
-
-#### Returns
-
-`System.Void` 
-
-###  LoadViewState
-
-Loads data from a view state
-
-#### Parameters
-
-#### savedState `System.Object`
-
-Views state to load from
+Makes a view state clone
 
 #### Returns
 
-`System.Void` 
-
-###  SaveViewState
-
-Saves settings to a view state
-
-#### Returns
-
-`System.Object` Saved view state
+`System.Web.UI.StateBag` StateBag
 
 ###  Dispose
 
@@ -175,6 +95,80 @@ true to release both managed and unmanaged resources; false to release only unma
 
 `System.Void` 
 
+###  GetOffset
+
+Gets element offset
+
+#### Parameters
+
+#### oelement `System.Object`
+
+Element
+
+#### calcMethod `Telerik.Charting.LayoutElement.OffsetCalculationDelegate`
+
+Offset calculation method delegate (left, right, top, bottom)
+
+#### Returns
+
+`System.Single` Offset value
+
+###  GetOffsetBottom
+
+Gets bottom offset
+
+#### Parameters
+
+#### element `System.Object`
+
+Element to get an offset of
+
+#### Returns
+
+`System.Single` Offset value
+
+###  GetOffsetLeft
+
+Gets left offset
+
+#### Parameters
+
+#### oelement `System.Object`
+
+Element to get an offset of
+
+#### Returns
+
+`System.Single` Offset value
+
+###  GetOffsetRight
+
+Gets right offset
+
+#### Parameters
+
+#### element `System.Object`
+
+Element to get an offset of
+
+#### Returns
+
+`System.Single` Offset value
+
+###  GetOffsetTop
+
+Gets top offset
+
+#### Parameters
+
+#### element `System.Object`
+
+Element to get an offset of
+
+#### Returns
+
+`System.Single` Offset value
+
 ###  GetOrder
 
 Get this elements order position in container
@@ -183,15 +177,37 @@ Get this elements order position in container
 
 `System.Int32` 
 
-###  SetOrder
+###  LoadViewState
 
-Set this object in new render order position
+Loads data from a view state
 
 #### Parameters
 
-#### index `System.Int32`
+#### savedState `System.Object`
 
-New position
+Views state to load from
+
+#### Returns
+
+`System.Void` 
+
+###  LoadViewState
+
+Loads data from a view state
+
+#### Parameters
+
+#### state `System.Object`
+
+View state to load data from
+
+#### Returns
+
+`System.Void` 
+
+###  OnRender
+
+Called after rendering
 
 #### Returns
 
@@ -205,21 +221,21 @@ Remove this  element from  render order list
 
 `System.Void` 
 
-###  BringForward
+###  SaveViewState
 
-Send element at one step forward in the render order list
-
-#### Returns
-
-`System.Void` 
-
-###  BringToFront
-
-Set element at the first position in render order list
+Saves settings to a view state
 
 #### Returns
 
-`System.Void` 
+`System.Object` Saved view state
+
+###  SaveViewState
+
+Saves object data to a view state
+
+#### Returns
+
+`System.Object` Saved view state object
 
 ###  SendBackward
 
@@ -237,9 +253,23 @@ Send element at the end of render order list
 
 `System.Void` 
 
-###  OnRender
+###  SetDirty
 
-Called after rendering
+Sets the item dirty state
+
+#### Returns
+
+`System.Void` 
+
+###  SetOrder
+
+Set this object in new render order position
+
+#### Parameters
+
+#### index `System.Int32`
+
+New position
 
 #### Returns
 
@@ -275,21 +305,13 @@ Tracks view state changes
 
 `System.Void` 
 
-###  CloneState
+###  TrackViewState
 
-Makes a view state clone
-
-#### Returns
-
-`System.Web.UI.StateBag` StateBag
-
-###  SaveViewState
-
-Saves object data to a view state
+Tracking view state changes
 
 #### Returns
 
-`System.Object` Saved view state object
+`System.Void` 
 
 ###  TrackViewState
 
@@ -298,34 +320,4 @@ Tracks view state changes
 #### Returns
 
 `System.Void` 
-
-###  LoadViewState
-
-Loads data from a view state
-
-#### Parameters
-
-#### state `System.Object`
-
-View state to load data from
-
-#### Returns
-
-`System.Void` 
-
-###  SetDirty
-
-Sets the item dirty state
-
-#### Returns
-
-`System.Void` 
-
-###  ToString
-
-ToString() override. Used in the properties grid to avoid object type showing.
-
-#### Returns
-
-`System.String` Empty string
 

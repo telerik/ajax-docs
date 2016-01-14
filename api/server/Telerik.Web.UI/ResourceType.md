@@ -16,13 +16,25 @@ This Class defines the ResourceType object.
 
 ## Properties
 
-###  KeyField `String`
+###  AllowMultipleValues `Boolean`
 
-Gets or sets the key field.
+Gets or sets the allow multiple values.
 
 ###  DataSource `Object`
 
 Gets or sets the data source.
+
+###  DataSourceID `Object`
+
+Gets or sets the data source ID.
+
+###  ForeignKeyField `String`
+
+Gets or sets the foreign key field.
+
+###  KeyField `String`
+
+Gets or sets the key field.
 
 ###  Name `String`
 
@@ -31,18 +43,6 @@ Gets or sets the name.
 ###  TextField `String`
 
 Gets or sets the text field.
-
-###  ForeignKeyField `String`
-
-Gets or sets the foreign key field.
-
-###  DataSourceID `Object`
-
-Gets or sets the data source ID.
-
-###  AllowMultipleValues `Boolean`
-
-Gets or sets the allow multiple values.
 
 ## Methods
 

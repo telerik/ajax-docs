@@ -23,45 +23,45 @@ Background color
 
 Bottom border color
 
-###  BorderLeftColor `Color`
-
-Left border color
-
-###  BorderRightColor `Color`
-
-Right border color
-
-###  BorderTopColor `Color`
-
-Top border color
-
 ###  BorderBottomStyle `BorderStyle`
 
 Bottom border style
-
-###  BorderLeftStyle `BorderStyle`
-
-Left border style
-
-###  BorderRightStyle `BorderStyle`
-
-Right border style
-
-###  BorderTopStyle `BorderStyle`
-
-Top border style
 
 ###  BorderBottomWidth `Unit`
 
 Bottom border width
 
+###  BorderLeftColor `Color`
+
+Left border color
+
+###  BorderLeftStyle `BorderStyle`
+
+Left border style
+
 ###  BorderLeftWidth `Unit`
 
 Left border width
 
+###  BorderRightColor `Color`
+
+Right border color
+
+###  BorderRightStyle `BorderStyle`
+
+Right border style
+
 ###  BorderRightWidth `Unit`
 
 Right border width
+
+###  BorderTopColor `Color`
+
+Top border color
+
+###  BorderTopStyle `BorderStyle`
+
+Top border style
 
 ###  BorderTopWidth `Unit`
 
@@ -75,21 +75,21 @@ Font style
 
 Foreground color
 
+###  HasBorderStyles `Boolean`
+
+Returns true when the ExportStyle contains border settings
+
 ###  HorizontalAlign `HorizontalAlign`
 
 Horizontal text alignment
-
-###  VerticalAlign `VerticalAlign`
-
-Vertical text alignment
 
 ###  IsEmpty `Boolean`
 
 Returns true if the style is empty
 
-###  HasBorderStyles `Boolean`
+###  VerticalAlign `VerticalAlign`
 
-Returns true when the ExportStyle contains border settings
+Vertical text alignment
 
 ## Methods
 

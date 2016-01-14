@@ -15,9 +15,21 @@ Represents basic FilterExpression for the RadListView control
 
 ## Properties
 
+###  ExpressionType `String`
+
+Gets the type of the current filter expression object
+
 ###  FieldName `String`
 
 Gets or sets the name of the field on which the filter expression should be applied
+
+###  FieldType `Type`
+
+Gets the type of the field
+
+###  FilterFunction `RadListViewFilterFunction`
+
+Gets the type of filter function
 
 ###  IllegalStrings `String[]`
 
@@ -25,30 +37,7 @@ Gets or sets the illegal strings array. These values indicate which strings coul
             Excluding values from the array will allow these values to be entered in the filtering value. However, it is not recommended
             because possible security vulnerabilities could arise.
 
-###  FilterFunction `RadListViewFilterFunction`
-
-Gets the type of filter function
-
-###  FieldType `Type`
-
-Gets the type of the field
-
-###  ExpressionType `String`
-
-Gets the type of the current filter expression object
-
 ## Methods
-
-###  ToPredicate
-
-Returns a representation of the current filter expression as a delegate
-
-#### Remarks
-Not intended  for external usage
-
-#### Returns
-
-`System.Predicate`1` 
 
 ###  ToDynamicLinq
 
@@ -86,21 +75,14 @@ Not intended for external usage
 
 `System.String` OpenAccessDataSource string representation
 
-###  Equals
+###  ToPredicate
+
+Returns a representation of the current filter expression as a delegate
+
+#### Remarks
+Not intended  for external usage
 
 #### Returns
 
-`System.Boolean` 
-
-###  Equals
-
-#### Returns
-
-`System.Boolean` 
-
-###  GetHashCode
-
-#### Returns
-
-`System.Int32` 
+`System.Predicate`1` 
 

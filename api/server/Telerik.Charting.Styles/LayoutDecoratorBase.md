@@ -16,6 +16,10 @@ Base class for a chart Margins and Paddings
 
 ## Properties
 
+###  Bottom `Unit`
+
+Sets the bottom side in pixels or percents of the chart's height.
+
 ###  Left `Unit`
 
 Sets the left side in pixels or percents of the chart's width.
@@ -28,37 +32,41 @@ Sets the right side in pixels or percents of the chart's width.
 
 Sets the top side in pixels or percents of the chart's height.
 
-###  Bottom `Unit`
+###  ViewState `StateBag`
 
-Sets the bottom side in pixels or percents of the chart's height.
+Sate bag to store view state content
 
 ###  ViewStateIgnoresCase `Boolean`
 
 Gets if view sate should ignore case
 
-###  ViewState `StateBag`
-
-Sate bag to store view state content
-
 ## Methods
 
-###  Reset
+###  Clone
 
-Reset to default settings.
+Clone this object
 
 #### Returns
 
-`System.Void` 
+`System.Object` New instance of LayoutDecoratorBase class with the same fields as this one
 
-###  Reset
+###  CloneState
 
-Set value in pixels or percents of all sides
+Makes a view state clone
+
+#### Returns
+
+`System.Web.UI.StateBag` StateBag
+
+###  CopyFrom
+
+Copy fields from object
 
 #### Parameters
 
-#### value `Telerik.Charting.Styles.Unit`
+#### layoutDecorator `Telerik.Charting.Styles.LayoutDecoratorBase`
 
-Value in pixels or percents of all sides
+Object to copy from
 
 #### Returns
 
@@ -85,6 +93,20 @@ Gets hash code
 #### Returns
 
 `System.Int32` Hash code
+
+###  LoadViewState
+
+Loads data from a view state
+
+#### Parameters
+
+#### state `System.Object`
+
+View state to load data from
+
+#### Returns
+
+`System.Void` 
 
 ###  op_Equality
 
@@ -122,23 +144,39 @@ Second object for comparing
 
 `System.Boolean` Whether objects are not equal
 
-###  Clone
+###  Reset
 
-Clone this object
+Reset to default settings.
 
 #### Returns
 
-`System.Object` New instance of LayoutDecoratorBase class with the same fields as this one
+`System.Void` 
 
-###  CopyFrom
+###  Reset
 
-Copy fields from object
+Set value in pixels or percents of all sides
 
 #### Parameters
 
-#### layoutDecorator `Telerik.Charting.Styles.LayoutDecoratorBase`
+#### value `Telerik.Charting.Styles.Unit`
 
-Object to copy from
+Value in pixels or percents of all sides
+
+#### Returns
+
+`System.Void` 
+
+###  SaveViewState
+
+Saves object data to a view state
+
+#### Returns
+
+`System.Object` Saved view state object
+
+###  SetDirty
+
+Sets the item dirty state
 
 #### Returns
 
@@ -174,22 +212,6 @@ Tracks view state changes
 
 `System.Void` 
 
-###  CloneState
-
-Makes a view state clone
-
-#### Returns
-
-`System.Web.UI.StateBag` StateBag
-
-###  SaveViewState
-
-Saves object data to a view state
-
-#### Returns
-
-`System.Object` Saved view state object
-
 ###  TrackViewState
 
 Tracks view state changes
@@ -197,34 +219,4 @@ Tracks view state changes
 #### Returns
 
 `System.Void` 
-
-###  LoadViewState
-
-Loads data from a view state
-
-#### Parameters
-
-#### state `System.Object`
-
-View state to load data from
-
-#### Returns
-
-`System.Void` 
-
-###  SetDirty
-
-Sets the item dirty state
-
-#### Returns
-
-`System.Void` 
-
-###  ToString
-
-ToString() override. Used in the properties grid to avoid object type showing.
-
-#### Returns
-
-`System.String` Empty string
 

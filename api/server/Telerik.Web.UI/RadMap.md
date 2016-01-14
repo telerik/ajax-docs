@@ -18,99 +18,53 @@ description: Telerik.Web.UI.RadMap
 
 ## Properties
 
-###  LayersDataSource `Object`
+###  AppendDataBoundLayers `Boolean`
 
-Gets or sets the object from which RadMap retrieves its layers.
-
-#### Remarks
-The data source object should be of a type that implements , ,
-
-###  LayersDataSourceID `Object`
-
-Gets or sets the ID of the control from which the map control retrieves its list of layers.
+Gets or sets a bool value that indicates whether the layers are cleared before data binding.
 
 ###  AppendDataBoundMarkers `Boolean`
 
 Gets or sets a bool value that indicates whether the markers are cleared before data binding.
 
-###  AppendDataBoundLayers `Boolean`
-
-Gets or sets a bool value that indicates whether the layers are cleared before data binding.
-
 ###  CenterSettings `Location`
 
 The map center. Coordinates are listed as [Latitude, Longitude].
 
-###  ControlsSettings `Controls`
+###  ClientDataSourceID `String`
 
-The configuration of built-in map controls.
-
-###  LayerDefaultsSettings `LayerDefaults`
-
-The default configuration for map layers by type.
-
-###  LayersCollection `MapLayersCollection`
-
-The configuration of the map layers. The layer type is determined by the value of the type field.
-
-###  MarkerDefaultsSettings `MarkerDefaults`
-
-The default options for all markers.
-
-###  MarkersCollection `MapMarkersCollection`
-
-Static markers to display on the map.
-
-###  MinZoom `Double`
-
-The minimum zoom level. Typical web maps use zoom levels from 0 (whole world) to 19 (sub-meter features).
-
-###  MaxZoom `Double`
-
-The maximum zoom level. Typical web maps use zoom levels from 0 (whole world) to 19 (sub-meter features).
-
-###  MinSize `Double`
-
-The size of the map in pixels at zoom level 0.
-
-###  Pannable `Boolean`
-
-Controls whether the user can pan the map.
-
-###  Wraparound `Boolean`
-
-Specifies whether the map should wrap around the east-west edges.
-
-###  Zoom `Double`
-
-The initial zoom level.Typical web maps use zoom levels from 0 (whole world) to 19 (sub-meter features).The map size is derived from the zoom level and minScale options: size = (2 ^ zoom) * minSize
-
-###  Zoomable `Double`
-
-Controls whether the map zoom level can be changed by the user.
+Gets or sets ID of ClientDataSource control that is used for client side binding
 
 ###  ClientEvents `MapClientEvents`
 
 Defines the client events handlers.
 
-###  RegisterWithScriptManager `Boolean`
+###  ClientIDMode `ClientIDMode`
 
-Gets or sets the value, indicating whether to register with the ScriptManager control on the page.
+This property is overridden in order to support controls which implement INamingContainer.
+            The default value is changed to "AutoID".
+
+###  ControlsSettings `Controls`
+
+The configuration of built-in map controls.
+
+###  CssClassFormatString `String`
+
+The CssClass property will now be used instead of the former Skin 
+            and will be modified in AddAttributesToRender()
+
+###  EnableAjaxSkinRendering `String`
+
+Gets or sets the value, indicating whether to render the skin CSS files during Ajax requests
 
 #### Remarks
-If RegisterWithScriptManager is set to false the control can be rendered on the page using Web Services or normal callback requests/page methods.
+If EnableAjaxSkinRendering is set to false you will have to register the needed control base CSS file by hand when adding/showing the control with Ajax.
 
-###  Skin `String`
+###  EnableEmbeddedBaseStylesheet `Boolean`
 
-Gets or sets the skin name for the control user interface.
+Gets or sets the value, indicating whether to render the link to the embedded base stylesheet of the control or not.
 
 #### Remarks
-If this property is not set, the control will render using the skin named "Default".
-            If EnableEmbeddedSkins is set to false, the control will not render skin.
-
-###  IsSkinSet `String`
-
-For internal use.
+If EnableEmbeddedBaseStylesheet is set to false you will have to register the needed control base CSS file by hand.
 
 ###  EnableEmbeddedScripts `Boolean`
 
@@ -126,34 +80,63 @@ Gets or sets the value, indicating whether to render links to the embedded skins
 #### Remarks
 If EnableEmbeddedSkins is set to false you will have to register the needed CSS files by hand.
 
-###  EnableEmbeddedBaseStylesheet `Boolean`
+###  IsSkinSet `String`
 
-Gets or sets the value, indicating whether to render the link to the embedded base stylesheet of the control or not.
+For internal use.
+
+###  LayerDefaultsSettings `LayerDefaults`
+
+The default configuration for map layers by type.
+
+###  LayersCollection `MapLayersCollection`
+
+The configuration of the map layers. The layer type is determined by the value of the type field.
+
+###  LayersDataSource `Object`
+
+Gets or sets the object from which RadMap retrieves its layers.
 
 #### Remarks
-If EnableEmbeddedBaseStylesheet is set to false you will have to register the needed control base CSS file by hand.
+The data source object should be of a type that implements , ,
+
+###  LayersDataSourceID `Object`
+
+Gets or sets the ID of the control from which the map control retrieves its list of layers.
+
+###  MarkerDefaultsSettings `MarkerDefaults`
+
+The default options for all markers.
+
+###  MarkersCollection `MapMarkersCollection`
+
+Static markers to display on the map.
+
+###  MaxZoom `Double`
+
+The maximum zoom level. Typical web maps use zoom levels from 0 (whole world) to 19 (sub-meter features).
+
+###  MinSize `Double`
+
+The size of the map in pixels at zoom level 0.
+
+###  MinZoom `Double`
+
+The minimum zoom level. Typical web maps use zoom levels from 0 (whole world) to 19 (sub-meter features).
 
 ###  ODataDataSourceID `String`
 
 Gets or sets the ODataDataSource used for data binding.
 
-###  ClientDataSourceID `String`
+###  Pannable `Boolean`
 
-Gets or sets ID of ClientDataSource control that is used for client side binding
+Controls whether the user can pan the map.
 
-###  RuntimeSkin `String`
+###  RegisterWithScriptManager `Boolean`
 
-Gets the real skin name for the control user interface. If Skin is not set, returns
-            "Default", otherwise returns Skin.
-
-###  EnableAjaxSkinRendering `String`
-
-Gets or sets the value, indicating whether to render the skin CSS files during Ajax requests
+Gets or sets the value, indicating whether to register with the ScriptManager control on the page.
 
 #### Remarks
-If EnableAjaxSkinRendering is set to false you will have to register the needed control base CSS file by hand when adding/showing the control with Ajax.
-
-###  ClientStateFieldID `String`
+If RegisterWithScriptManager is set to false the control can be rendered on the page using Web Services or normal callback requests/page methods.
 
 ###  RenderMode `RenderMode`
 
@@ -169,71 +152,36 @@ Lightweight rendering mode might change the outlook of the component in some old
 
 Returns resolved RenderMode should the original value was Auto
 
-###  CssClassFormatString `String`
+###  RuntimeSkin `String`
 
-The CssClass property will now be used instead of the former Skin 
-            and will be modified in AddAttributesToRender()
+Gets the real skin name for the control user interface. If Skin is not set, returns
+            "Default", otherwise returns Skin.
 
-###  DefaultCssClass `String`
+###  Skin `String`
 
-###  ClientIDMode `ClientIDMode`
+Gets or sets the skin name for the control user interface.
 
-This property is overridden in order to support controls which implement INamingContainer.
-            The default value is changed to "AutoID".
+#### Remarks
+If this property is not set, the control will render using the skin named "Default".
+            If EnableEmbeddedSkins is set to false, the control will not render skin.
 
-###  ScriptManager `ScriptManager`
+###  Wraparound `Boolean`
 
-###  RadScriptManager `ScriptManager`
+Specifies whether the map should wrap around the east-west edges.
+
+###  Zoom `Double`
+
+The initial zoom level.Typical web maps use zoom levels from 0 (whole world) to 19 (sub-meter features).The map size is derived from the zoom level and minScale options: size = (2 ^ zoom) * minSize
+
+###  Zoomable `Double`
+
+Controls whether the map zoom level can be changed by the user.
 
 ## Methods
 
-###  OnItemDataBound
+###  ApplyConditionalRendering
 
-Raises the TileCreated event of the RadTileList control.
-
-#### Parameters
-
-#### e `Telerik.Web.UI.Map.MapItemDataBoundEventArgs`
-
-A TileListEventArgs that contains the event data.
-
-#### Returns
-
-`System.Void` 
-
-###  OnItemCreated
-
-Raises the TileCreated event of the RadTileList control.
-
-#### Parameters
-
-#### e `Telerik.Web.UI.Map.MapItemEventArgs`
-
-A TileListEventArgs that contains the event data.
-
-#### Returns
-
-`System.Void` 
-
-###  DescribeClientProperties
-
-#### Returns
-
-`System.Void` 
-
-###  DescribeClientEvents
-
-#### Returns
-
-`System.Void` 
-
-###  AddAttributesToRender
-
-#### Returns
-
-`System.Void` 
-
-###  OnPreRender
+Use this from RenderContents of the inheritor
 
 #### Returns
 
@@ -247,113 +195,9 @@ Code moved into this method from OnPreRender to make sure it executed when the f
 
 `System.Void` 
 
-###  RegisterScriptControl
-
-Registers the control with the ScriptManager
-
-#### Returns
-
-`System.Void` 
-
-###  RegisterCssReferences
-
-Registers the CSS references
-
-#### Returns
-
-`System.Void` 
-
-###  LoadClientState
-
-Loads the client state data
-
-#### Parameters
-
-#### clientState `System.Collections.Generic.Dictionary{System.String,System.Object}`
-
-#### Returns
-
-`System.Void` 
-
-###  SaveClientState
-
-Saves the client state data
-
-#### Returns
-
-`System.String` 
-
-###  RenderClientStateField
-
-#### Returns
-
-`System.Void` 
-
-###  RenderBeginTag
-
-#### Returns
-
-`System.Void` 
-
-###  RenderEndTag
-
-#### Returns
-
-`System.Void` 
-
-###  Render
-
-#### Returns
-
-`System.Void` 
-
-###  RenderScriptsNoScriptManager
-
-#### Returns
-
-`System.Void` 
-
-###  RenderDescriptorsNoScriptManager
-
-#### Returns
-
-`System.Void` 
-
-###  RenderContents
-
-#### Returns
-
-`System.Void` 
-
-###  ApplyConditionalRendering
-
-Use this from RenderContents of the inheritor
-
-#### Returns
-
-`System.Void` 
-
-###  DescribeComponent
-
-#### Returns
-
-`System.Void` 
-
 ###  DescribeRenderingMode
 
 Should be  used by inheritors
-
-#### Returns
-
-`System.Void` 
-
-###  DescribeProperty
-
-#### Returns
-
-`System.Void` 
-
-###  DescribeEvent
 
 #### Returns
 
@@ -366,6 +210,18 @@ Returns the names of all embedded skins. Used by Telerik.Web.Examples.
 #### Returns
 
 `System.Collections.Generic.List`1` 
+
+###  LoadClientState
+
+Loads the client state data
+
+#### Parameters
+
+#### clientState `System.Collections.Generic.Dictionary{System.String,System.Object}`
+
+#### Returns
+
+`System.Void` 
 
 ###  LoadPostData
 
@@ -381,6 +237,34 @@ Executed when post data is loaded from the request
 
 `System.Boolean` 
 
+###  OnItemCreated
+
+Raises the TileCreated event of the RadTileList control.
+
+#### Parameters
+
+#### e `Telerik.Web.UI.Map.MapItemEventArgs`
+
+A TileListEventArgs that contains the event data.
+
+#### Returns
+
+`System.Void` 
+
+###  OnItemDataBound
+
+Raises the TileCreated event of the RadTileList control.
+
+#### Parameters
+
+#### e `Telerik.Web.UI.Map.MapItemDataBoundEventArgs`
+
+A TileListEventArgs that contains the event data.
+
+#### Returns
+
+`System.Void` 
+
 ###  RaisePostDataChangedEvent
 
 Executed when post data changes should invoke a changed event
@@ -389,9 +273,27 @@ Executed when post data changes should invoke a changed event
 
 `System.Void` 
 
-###  GetViewStateValue
+###  RegisterCssReferences
+
+Registers the CSS references
 
 #### Returns
 
-`Telerik.Web.UI.T` 
+`System.Void` 
+
+###  RegisterScriptControl
+
+Registers the control with the ScriptManager
+
+#### Returns
+
+`System.Void` 
+
+###  SaveClientState
+
+Saves the client state data
+
+#### Returns
+
+`System.String` 
 

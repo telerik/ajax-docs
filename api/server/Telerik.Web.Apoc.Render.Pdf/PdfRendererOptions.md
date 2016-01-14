@@ -23,24 +23,6 @@ Can be used to control certain values in the generated PDF's information
 
 ## Properties
 
-###  Title `String`
-
-Specifies the Title of the PDF document.
-
-#### Remarks
-This value will be embedded in the PDF information dictionary.
-
-###  DefaultFontFamily `String`
-
-Specifices the default font
-
-###  Subject `String`
-
-Specifies the Subject of the PDF document.
-
-#### Remarks
-This value will be embedded in the PDF information dictionary.
-
 ###  Author `String`
 
 Specifies the Author of the PDF document.
@@ -52,9 +34,52 @@ This value will be embedded in the PDF information dictionary.
 
 Returns the Creator of the PDF document.
 
-###  Producer `String`
+###  DefaultFontFamily `String`
 
-Returns the Producer of the PDF document.
+Specifices the default font
+
+###  DisableSecurity `Boolean`
+
+Disables the content encryption
+
+###  EnableAdd `Boolean`
+
+Enables or disables adding or modifying text annotations and interactive
+                form fields.
+
+###  EnableCopy `Boolean`
+
+Enables or disables copying of text and graphics.
+
+###  EnableModify `Boolean`
+
+Enables or disables modifying document contents (other than text annotations and 
+                interactive form fields).
+
+###  EnablePrinting `Boolean`
+
+Enables or disables printing.
+
+###  Filter `PdfFilter`
+
+Gets/sets the current content filter
+
+###  FontType `FontType`
+
+Specifies how Apoc should treat fonts.
+
+###  ForceTextWrap `Boolean`
+
+Determines whether the text will be forced to wrap or will break the cell boundaries when
+            longer than its container (and when there is no whitespace for automatic wrapping)
+
+###  HasPermissions `Boolean`
+
+Returns true if any permissions have been set.
+
+###  Kerning `Boolean`
+
+Gets or sets a value that indicates whether to enable kerning.
 
 ###  Keywords `String`
 
@@ -68,6 +93,28 @@ Specifies the owner password that will protect full access to any generated PDF 
 If either the owner or the user password is specified, 
                 then the document will be encrypted.
 
+###  Permissions `Int32`
+
+Returns the PDF permissions encoded as an 32-bit integer.
+
+###  Producer `String`
+
+Returns the Producer of the PDF document.
+
+###  Subject `String`
+
+Specifies the Subject of the PDF document.
+
+#### Remarks
+This value will be embedded in the PDF information dictionary.
+
+###  Title `String`
+
+Specifies the Title of the PDF document.
+
+#### Remarks
+This value will be embedded in the PDF information dictionary.
+
 ###  UserPassword `String`
 
 Specifies the user password that will protect access to any generated PDF documents.
@@ -75,53 +122,6 @@ Specifies the user password that will protect access to any generated PDF docume
 #### Remarks
 If either the owner or the user password is specified, 
                 then the document will be encrypted.
-
-###  DisableSecurity `Boolean`
-
-Disables the content encryption
-
-###  HasPermissions `Boolean`
-
-Returns true if any permissions have been set.
-
-###  Permissions `Int32`
-
-Returns the PDF permissions encoded as an 32-bit integer.
-
-###  EnablePrinting `Boolean`
-
-Enables or disables printing.
-
-###  EnableModify `Boolean`
-
-Enables or disables modifying document contents (other than text annotations and 
-                interactive form fields).
-
-###  EnableCopy `Boolean`
-
-Enables or disables copying of text and graphics.
-
-###  EnableAdd `Boolean`
-
-Enables or disables adding or modifying text annotations and interactive
-                form fields.
-
-###  FontType `FontType`
-
-Specifies how Apoc should treat fonts.
-
-###  Kerning `Boolean`
-
-Gets or sets a value that indicates whether to enable kerning.
-
-###  ForceTextWrap `Boolean`
-
-Determines whether the text will be forced to wrap or will break the cell boundaries when
-            longer than its container (and when there is no whitespace for automatic wrapping)
-
-###  Filter `PdfFilter`
-
-Gets/sets the current content filter
 
 ## Methods
 

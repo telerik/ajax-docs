@@ -19,11 +19,6 @@ Represents an insert item
 
 ## Properties
 
-###  IsInEditMode `Boolean`
-
-Gets a value indicating whether the  item is in edit mode at the
-            moment.
-
 ###  DataItem `Object`
 
 When implemented, gets an object that is used in simplified data-binding
@@ -37,11 +32,6 @@ Gets the index of the data item bound to a control.
 
 Gets the position of the data item as displayed in a control.
 
-###  Selected `Boolean`
-
-Gets or set value indicating whether the 
-             item is selected
-
 ###  Edit `Boolean`
 
 Sets the Item in edit mode.
@@ -49,9 +39,15 @@ Sets the Item in edit mode.
 #### Remarks
 Requires  to rebind.
 
-###  SavedOldValues `IDictionary`
+###  IsInEditMode `Boolean`
 
-Gets the old value of the edited item
+Gets a value indicating whether the  item is in edit mode at the
+            moment.
+
+###  IsInEditMode `Boolean`
+
+Gets a value indicating whether the  item is in edit mode at the
+            moment.
 
 ###  ItemType `RadListViewItemType`
 
@@ -62,27 +58,16 @@ Gets or sets the type of the item which represents enumeration and
 
 Gets or sets the owner  of the item.
 
-###  IsInEditMode `Boolean`
+###  SavedOldValues `IDictionary`
 
-Gets a value indicating whether the  item is in edit mode at the
-            moment.
+Gets the old value of the edited item
+
+###  Selected `Boolean`
+
+Gets or set value indicating whether the 
+             item is selected
 
 ## Methods
-
-###  GetDataKeyValue
-
-Get the DataKeyValues from the owner  with the corresponding item  and .
-            The  should be one of the specified in the   array
-
-#### Parameters
-
-#### keyName `System.String`
-
-data key name
-
-#### Returns
-
-`System.Object` data key value
 
 ###  ExtractValues
 
@@ -95,21 +80,6 @@ Extracts values from this  instance
 
 This is dictionary to fill, this parameter
             should not be null
-
-#### Returns
-
-`System.Void` 
-
-###  UpdateValues
-
-Updates properties of the passed object instance from current 
-            's extracted values
-
-#### Parameters
-
-#### objectToUpdate `System.Object`
-
-object to be updated
 
 #### Returns
 
@@ -130,6 +100,36 @@ command to bubble, for example 'Page'
 #### commandArgument `System.Object`
 
 command argument, for example 'Next'
+
+#### Returns
+
+`System.Void` 
+
+###  GetDataKeyValue
+
+Get the DataKeyValues from the owner  with the corresponding item  and .
+            The  should be one of the specified in the   array
+
+#### Parameters
+
+#### keyName `System.String`
+
+data key name
+
+#### Returns
+
+`System.Object` data key value
+
+###  UpdateValues
+
+Updates properties of the passed object instance from current 
+            's extracted values
+
+#### Parameters
+
+#### objectToUpdate `System.Object`
+
+object to be updated
 
 #### Returns
 

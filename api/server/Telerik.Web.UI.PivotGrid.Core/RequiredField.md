@@ -15,6 +15,12 @@ Class used to describe fields required in Telerik.Web.UI.PivotGrid.Core.Calculat
 
 ## Methods
 
+###  Equals
+
+#### Returns
+
+`System.Boolean` 
+
 ###  ForCalculatedField
 
 Creates  for calculated field.
@@ -60,12 +66,6 @@ The aggregate function.
 #### Returns
 
 `Telerik.Web.UI.PivotGrid.Core.RequiredField` for given property name and aggregate function.
-
-###  Equals
-
-#### Returns
-
-`System.Boolean` 
 
 ###  GetHashCode
 

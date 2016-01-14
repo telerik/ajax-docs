@@ -28,11 +28,3 @@ Middle header/footer cell
 
 Right header/footer cell
 
-## Methods
-
-###  GetViewStateValue
-
-#### Returns
-
-`Telerik.Web.UI.T` 
-

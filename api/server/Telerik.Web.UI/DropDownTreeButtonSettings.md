@@ -16,19 +16,11 @@ Represent the button setting of the RadDropDownTree control
 
 ## Properties
 
-###  ShowClear `Boolean`
-
-Gets or sets a value indicating whether to display the "Clear" button.
-
 ###  ShowCheckAll `Boolean`
 
 Gets or sets a value indicating whether to display the "CheckAll" button.
 
-## Methods
+###  ShowClear `Boolean`
 
-###  GetViewStateValue
-
-#### Returns
-
-`Telerik.Web.UI.T` 
+Gets or sets a value indicating whether to display the "Clear" button.
 

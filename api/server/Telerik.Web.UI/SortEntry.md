@@ -16,11 +16,11 @@ This Class is responsible for gettting or setting the sorting direction.
 
 ## Properties
 
-###  Order `ODataSourceOrder`
-
-Gets or sets the sorting direction
-
 ###  FieldName `String`
 
 Gets or sets the field name for the operation.
+
+###  Order `ODataSourceOrder`
+
+Gets or sets the sorting direction
 

@@ -17,11 +17,11 @@ Provides data for the E:Telerik.Web.UI.RadScheduler.AppointmentContextMenuItemCl
 
 ## Properties
 
-###  MenuItem `RadMenuItem`
-
-Gets the menu item.
-
 ###  Appointment `Appointment`
 
 Gets the appointment.
+
+###  MenuItem `RadMenuItem`
+
+Gets the menu item.
 

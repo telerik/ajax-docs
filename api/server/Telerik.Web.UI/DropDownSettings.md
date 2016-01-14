@@ -20,33 +20,25 @@ This class defines the drop down settings of the DropDownTree control.
 
 Gets or sets whether to enable/disable the RadDropDownTree drop down auto width.
 
-###  OpenDropDownOnLoad `Boolean`
-
-Gets or sets a value that indicates whether the dropdown should
-            be opened by default on loading the page.
-
 ###  CloseDropDownOnSelection `Boolean`
 
 Gets or sets a value that indicates whether the dropdown should
             be closed on selection of a node.
 
-###  Width `Unit`
+###  CssClass `String`
 
-Gets or sets the width of the dropdown in pixels.
+Gets or sets a custom CSS class to the DropDown.
 
 ###  Height `Unit`
 
 Gets or sets the height of the dropdown in pixels.
 
-###  CssClass `String`
+###  OpenDropDownOnLoad `Boolean`
 
-Gets or sets a custom CSS class to the DropDown.
+Gets or sets a value that indicates whether the dropdown should
+            be opened by default on loading the page.
 
-## Methods
+###  Width `Unit`
 
-###  GetViewStateValue
-
-#### Returns
-
-`Telerik.Web.UI.T` 
+Gets or sets the width of the dropdown in pixels.
 

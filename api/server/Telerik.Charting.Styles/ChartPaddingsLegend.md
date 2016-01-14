@@ -18,17 +18,13 @@ Chart title's paddings
 
 ## Properties
 
-###  Top `Unit`
-
-Specifies the top padding
-
-###  Right `Unit`
-
-Specifies the right padding
-
 ###  Bottom `Unit`
 
 Specifies the bottom padding
+
+###  Bottom `Unit`
+
+Sets the bottom side in pixels or percents of the chart's height.
 
 ###  Left `Unit`
 
@@ -40,33 +36,113 @@ Sets the left side in pixels or percents of the chart's width.
 
 ###  Right `Unit`
 
+Specifies the right padding
+
+###  Right `Unit`
+
 Sets the right side in pixels or percents of the chart's width.
+
+###  Top `Unit`
+
+Specifies the top padding
 
 ###  Top `Unit`
 
 Sets the top side in pixels or percents of the chart's height.
 
-###  Bottom `Unit`
+###  ViewState `StateBag`
 
-Sets the bottom side in pixels or percents of the chart's height.
+Sate bag to store view state content
 
 ###  ViewStateIgnoresCase `Boolean`
 
 Gets if view sate should ignore case
 
-###  ViewState `StateBag`
-
-Sate bag to store view state content
-
 ## Methods
 
-###  Reset
+###  Clone
 
-Reset to default values
+Clone this object
+
+#### Returns
+
+`System.Object` New instance of LayoutDecoratorBase class with the same fields as this one
+
+###  CloneState
+
+Makes a view state clone
+
+#### Returns
+
+`System.Web.UI.StateBag` StateBag
+
+###  CopyFrom
+
+Copy fields from object
+
+#### Parameters
+
+#### layoutDecorator `Telerik.Charting.Styles.LayoutDecoratorBase`
+
+Object to copy from
 
 #### Returns
 
 `System.Void` 
+
+###  Equals
+
+Checks whether objects are equal
+
+#### Parameters
+
+#### obj `System.Object`
+
+Object to compare
+
+#### Returns
+
+`System.Boolean` Result of comparing
+
+###  GetHashCode
+
+Gets hash code
+
+#### Returns
+
+`System.Int32` Hash code
+
+###  LoadViewState
+
+Loads data from a view state
+
+#### Parameters
+
+#### state `System.Object`
+
+View state to load data from
+
+#### Returns
+
+`System.Void` 
+
+###  op_Equality
+
+Operator comparing
+
+#### Parameters
+
+#### layoutDecoratorOne `Telerik.Charting.Styles.LayoutDecoratorBase`
+
+First object for comparing
+
+#### layoutDecoratorTwo `Telerik.Charting.Styles.LayoutDecoratorBase`
+
+Second object for comparing
+
+#### Returns
+
+`System.Boolean` Result of comparing
 
 ###  op_Implicit
 
@@ -81,6 +157,24 @@ The string to parse
 #### Returns
 
 `Telerik.Charting.Styles.ChartPaddings` Instance of ChartPaddings class from the specified string
+
+###  op_Inequality
+
+Operator not equal
+
+#### Parameters
+
+#### layoutDecoratorOne `Telerik.Charting.Styles.LayoutDecoratorBase`
+
+First object for comparing
+
+#### layoutDecoratorTwo `Telerik.Charting.Styles.LayoutDecoratorBase`
+
+Second object for comparing
+
+#### Returns
+
+`System.Boolean` Whether objects are not equal
 
 ###  Parse
 
@@ -116,6 +210,14 @@ Culture info
 
 ###  Reset
 
+Reset to default values
+
+#### Returns
+
+`System.Void` 
+
+###  Reset
+
 Reset to default settings.
 
 #### Returns
@@ -136,81 +238,17 @@ Value in pixels or percents of all sides
 
 `System.Void` 
 
-###  Equals
+###  SaveViewState
 
-Checks whether objects are equal
-
-#### Parameters
-
-#### obj `System.Object`
-
-Object to compare
+Saves object data to a view state
 
 #### Returns
 
-`System.Boolean` Result of comparing
+`System.Object` Saved view state object
 
-###  GetHashCode
+###  SetDirty
 
-Gets hash code
-
-#### Returns
-
-`System.Int32` Hash code
-
-###  op_Equality
-
-Operator comparing
-
-#### Parameters
-
-#### layoutDecoratorOne `Telerik.Charting.Styles.LayoutDecoratorBase`
-
-First object for comparing
-
-#### layoutDecoratorTwo `Telerik.Charting.Styles.LayoutDecoratorBase`
-
-Second object for comparing
-
-#### Returns
-
-`System.Boolean` Result of comparing
-
-###  op_Inequality
-
-Operator not equal
-
-#### Parameters
-
-#### layoutDecoratorOne `Telerik.Charting.Styles.LayoutDecoratorBase`
-
-First object for comparing
-
-#### layoutDecoratorTwo `Telerik.Charting.Styles.LayoutDecoratorBase`
-
-Second object for comparing
-
-#### Returns
-
-`System.Boolean` Whether objects are not equal
-
-###  Clone
-
-Clone this object
-
-#### Returns
-
-`System.Object` New instance of LayoutDecoratorBase class with the same fields as this one
-
-###  CopyFrom
-
-Copy fields from object
-
-#### Parameters
-
-#### layoutDecorator `Telerik.Charting.Styles.LayoutDecoratorBase`
-
-Object to copy from
+Sets the item dirty state
 
 #### Returns
 
@@ -246,22 +284,6 @@ Tracks view state changes
 
 `System.Void` 
 
-###  CloneState
-
-Makes a view state clone
-
-#### Returns
-
-`System.Web.UI.StateBag` StateBag
-
-###  SaveViewState
-
-Saves object data to a view state
-
-#### Returns
-
-`System.Object` Saved view state object
-
 ###  TrackViewState
 
 Tracks view state changes
@@ -269,34 +291,4 @@ Tracks view state changes
 #### Returns
 
 `System.Void` 
-
-###  LoadViewState
-
-Loads data from a view state
-
-#### Parameters
-
-#### state `System.Object`
-
-View state to load data from
-
-#### Returns
-
-`System.Void` 
-
-###  SetDirty
-
-Sets the item dirty state
-
-#### Returns
-
-`System.Void` 
-
-###  ToString
-
-ToString() override. Used in the properties grid to avoid object type showing.
-
-#### Returns
-
-`System.String` Empty string
 

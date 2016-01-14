@@ -32,6 +32,10 @@ Gets or sets the font size, family, style of the labels.
 
 Gets or sets the format string of the labels.
 
+###  Position `ScaleLabelsPosition`
+
+Gets or sets the position of the labels.
+
 ###  Template `String`
 
 Gets or sets the template of the labels.
@@ -39,8 +43,4 @@ Gets or sets the template of the labels.
 ###  Visible `Boolean`
 
 Gets or sets a bool value indicating whether the labels will be visible.
-
-###  Position `ScaleLabelsPosition`
-
-Gets or sets the position of the labels.
 

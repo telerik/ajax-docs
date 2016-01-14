@@ -16,14 +16,14 @@ This Class defines RibbonBarApplicationMenuAuxiliaryPane
 
 ## Properties
 
+###  ContentTemplate `ITemplate`
+
+Gets or sets the  that defines the  content template.
+
 ###  Header `String`
 
 Gets or sets the header of the ApplicationMenuAuxiliaryPane.
 
 #### Remarks
 Use the property to set the header that appears at the top of the ApplicationMenuAuxiliaryPane text.
-
-###  ContentTemplate `ITemplate`
-
-Gets or sets the  that defines the  content template.
 

@@ -22,63 +22,85 @@ Series item label connector line specific style
 
 Gets and sets item label connector's color
 
+###  Color `Color`
+
+Specifies the line color property
+
 ###  EndCap `LineCap`
 
 Specifies the end cap property
-
-###  StartCap `LineCap`
-
-Specifies the start cap property
 
 ###  Item `Object`
 
 Gets property value by name
 
-###  Color `Color`
+###  Item `Object`
 
-Specifies the line color property
+Gets property value by name
 
 ###  PenStyle `DashStyle`
 
 Specifies the pen style property
 
-###  Width `Single`
+###  StartCap `LineCap`
 
-Specifies the width property
-
-###  Visible `Boolean`
-
-Visibility
-
-###  Item `Object`
-
-Gets property value by name
-
-###  ViewStateIgnoresCase `Boolean`
-
-Gets if view sate should ignore case
+Specifies the start cap property
 
 ###  ViewState `StateBag`
 
 Sate bag to store view state content
 
+###  ViewStateIgnoresCase `Boolean`
+
+Gets if view sate should ignore case
+
+###  Visible `Boolean`
+
+Visibility
+
+###  Width `Single`
+
+Specifies the width property
+
 ## Methods
 
-###  Reset
+###  Clone
 
-Reset to default settings
-
-#### Returns
-
-`System.Void` 
-
-###  Reset
-
-Reset to default settings
+Clone this object
 
 #### Returns
 
-`System.Void` 
+`System.Object` Object with the same fields as this one
+
+###  Clone
+
+Clone this object
+
+#### Returns
+
+`System.Object` Object with the same fields as this one
+
+###  CloneState
+
+Makes a view state clone
+
+#### Returns
+
+`System.Web.UI.StateBag` StateBag
+
+###  Equals
+
+Compare two objects
+
+#### Parameters
+
+#### obj `System.Object`
+
+Object tot compare
+
+#### Returns
+
+`System.Boolean` Result of comparing
 
 ###  Equals
 
@@ -102,13 +124,13 @@ Gets hash code
 
 `System.Int32` Hash code
 
-###  Clone
+###  GetHashCode
 
-Clone this object
+Gets hash code
 
 #### Returns
 
-`System.Object` Object with the same fields as this one
+`System.Int32` Hash code
 
 ###  IsVisible
 
@@ -118,6 +140,20 @@ Determines whether this instance is visible.
 
 `System.Boolean` true if this instance is visible; otherwise, false.
 
+###  LoadViewState
+
+Loads data from a view state
+
+#### Parameters
+
+#### state `System.Object`
+
+View state to load data from
+
+#### Returns
+
+`System.Void` 
+
 ###  Reset
 
 Reset to default settings
@@ -126,35 +162,37 @@ Reset to default settings
 
 `System.Void` 
 
-###  Equals
+###  Reset
 
-Compare two objects
-
-#### Parameters
-
-#### obj `System.Object`
-
-Object tot compare
+Reset to default settings
 
 #### Returns
 
-`System.Boolean` Result of comparing
+`System.Void` 
 
-###  GetHashCode
+###  Reset
 
-Gets hash code
-
-#### Returns
-
-`System.Int32` Hash code
-
-###  Clone
-
-Clone this object
+Reset to default settings
 
 #### Returns
 
-`System.Object` Object with the same fields as this one
+`System.Void` 
+
+###  SaveViewState
+
+Saves object data to a view state
+
+#### Returns
+
+`System.Object` Saved view state object
+
+###  SetDirty
+
+Sets the item dirty state
+
+#### Returns
+
+`System.Void` 
 
 ###  Telerik.Charting.IChartingStateManager.LoadViewState
 
@@ -186,22 +224,6 @@ Tracks view state changes
 
 `System.Void` 
 
-###  CloneState
-
-Makes a view state clone
-
-#### Returns
-
-`System.Web.UI.StateBag` StateBag
-
-###  SaveViewState
-
-Saves object data to a view state
-
-#### Returns
-
-`System.Object` Saved view state object
-
 ###  TrackViewState
 
 Tracks view state changes
@@ -209,34 +231,4 @@ Tracks view state changes
 #### Returns
 
 `System.Void` 
-
-###  LoadViewState
-
-Loads data from a view state
-
-#### Parameters
-
-#### state `System.Object`
-
-View state to load data from
-
-#### Returns
-
-`System.Void` 
-
-###  SetDirty
-
-Sets the item dirty state
-
-#### Returns
-
-`System.Void` 
-
-###  ToString
-
-ToString() override. Used in the properties grid to avoid object type showing.
-
-#### Returns
-
-`System.String` Empty string
 

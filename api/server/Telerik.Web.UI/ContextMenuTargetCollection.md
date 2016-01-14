@@ -37,6 +37,22 @@ The ContextMenuTarget to append to the end of the current ContextMenuTargetColle
 
 `System.Void` 
 
+###  AddRange
+
+Appends the specified array of ContextMenuTarget objects to the end of the 
+            current ContextMenuTargetCollection.
+
+#### Parameters
+
+#### targets `System.Collections.Generic.IEnumerable{Telerik.Web.UI.ContextMenuTarget}`
+
+The array of ContextMenuTarget o append to the end of the current 
+            ContextMenuTargetCollection.
+
+#### Returns
+
+`System.Void` 
+
 ###  Contains
 
 Determines whether the specified ContextMenuTarget object is in the current 
@@ -67,22 +83,6 @@ The target array.
 #### index `System.Int32`
 
 The index to start copying from.
-
-#### Returns
-
-`System.Void` 
-
-###  AddRange
-
-Appends the specified array of ContextMenuTarget objects to the end of the 
-            current ContextMenuTargetCollection.
-
-#### Parameters
-
-#### targets `System.Collections.Generic.IEnumerable{Telerik.Web.UI.ContextMenuTarget}`
-
-The array of ContextMenuTarget o append to the end of the current 
-            ContextMenuTargetCollection.
 
 #### Returns
 

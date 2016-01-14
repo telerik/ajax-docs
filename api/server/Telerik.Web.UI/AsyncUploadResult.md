@@ -16,16 +16,16 @@ Default implementation of Telerik.Web.UI.IAsyncUploadResult IAsyncUploadResult.
 
 ## Properties
 
-###  FileName `String`
+###  ContentLength `Int64`
 
-Gets the fully-qualified name of the file on the client's computer (for example
-            "C:\MyFiles\Test.txt").
+Gets the size in bytes of an uploaded file.
 
 ###  ContentType `String`
 
 Gets the MIME content type of a file sent by a client.
 
-###  ContentLength `Int64`
+###  FileName `String`
 
-Gets the size in bytes of an uploaded file.
+Gets the fully-qualified name of the file on the client's computer (for example
+            "C:\MyFiles\Test.txt").
 

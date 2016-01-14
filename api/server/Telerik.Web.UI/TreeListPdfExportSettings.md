@@ -16,41 +16,73 @@ PDF export settings
 
 ## Properties
 
-###  ItemStyle `TreeListPdfStyle`
+###  AllowAdd `Boolean`
 
-PDF export item style
+Allow adding new content to the PDF file
+
+###  AllowCopy `Boolean`
+
+Allow copying PDF content to the clipboard
+
+###  AllowModify `Boolean`
+
+Allow modifying the PDF contents
+
+###  AllowPrinting `Boolean`
+
+Allow printing the contents of the PDF document
 
 ###  AlternatingItemStyle `TreeListPdfStyle`
 
 PDF export alternating item style
 
-###  HeaderStyle `TreeListPdfStyle`
+###  Author `String`
 
-PDF export header style
+Document author
 
-###  ExpandCollapseCellStyle `TreeListPdfExpandCollapseCellStyle`
+###  Creator `String`
 
-PDF export expand/collapse cell style
-
-###  RotatePaper `Boolean`
-
-This will swap the values of the PageWidth and PageHeight properties.
-
-###  PaperSize `PaperKind`
-
-PDF paper size. Can be overriden by setting PageWidth and PageHeight explicitly.
+Document creator
 
 ###  DefaultFontFamily `String`
 
 Determines the default font
 
-###  PageTopMargin `Unit`
+###  ExpandCollapseCellStyle `TreeListPdfExpandCollapseCellStyle`
 
-Top page margin size
+PDF export expand/collapse cell style
+
+###  FontType `FontType`
+
+Determines whether to embed, link or subset the fonts, used in the PDF document
+
+###  HeaderStyle `TreeListPdfStyle`
+
+PDF export header style
+
+###  ItemStyle `TreeListPdfStyle`
+
+PDF export item style
+
+###  Keywords `String[]`
+
+PDF document keywords
 
 ###  PageBottomMargin `Unit`
 
 Bottom page margin size
+
+###  PageFooterMargin `Unit`
+
+Page footer margin size
+
+###  PageHeaderMargin `Unit`
+
+Page header margin size
+
+###  PageHeight `Unit`
+
+Determines the page height of the exported PDF file. Will override the PaperSize property, if used
 
 ###  PageLeftMargin `Unit`
 
@@ -60,93 +92,66 @@ Left page margin size
 
 Right page margin size
 
-###  PageHeaderMargin `Unit`
-
-Page header margin size
-
-###  PageFooterMargin `Unit`
-
-Page footer margin size
-
 ###  PageTitle `String`
 
 Page title contents will be displayed in the page header
 
-###  UserPassword `String`
+###  PageTopMargin `Unit`
 
-Setting a value for this property will enable password protection
-
-###  FontType `FontType`
-
-Determines whether to embed, link or subset the fonts, used in the PDF document
+Top page margin size
 
 ###  PageWidth `Unit`
 
 Determines the page width of the exported PDF file. Will override the PaperSize property, if used
 
-###  PageHeight `Unit`
+###  PaperSize `PaperKind`
 
-Determines the page height of the exported PDF file. Will override the PaperSize property, if used
-
-###  AllowAdd `Boolean`
-
-Allow adding new content to the PDF file
-
-###  AllowCopy `Boolean`
-
-Allow copying PDF content to the clipboard
-
-###  AllowPrinting `Boolean`
-
-Allow printing the contents of the PDF document
-
-###  AllowModify `Boolean`
-
-Allow modifying the PDF contents
-
-###  Creator `String`
-
-Document creator
+PDF paper size. Can be overriden by setting PageWidth and PageHeight explicitly.
 
 ###  Producer `String`
 
 Document producer
 
-###  Author `String`
+###  RotatePaper `Boolean`
 
-Document author
-
-###  Title `String`
-
-Document title
+This will swap the values of the PageWidth and PageHeight properties.
 
 ###  Subject `String`
 
 Document subject
 
-###  Keywords `String[]`
+###  Title `String`
 
-PDF document keywords
+Document title
+
+###  UserPassword `String`
+
+Setting a value for this property will enable password protection
 
 ## Methods
 
-###  TrackViewState
+###  Dispose
+
+Performs application-defined tasks associated with freeing, releasing,
+            or resetting unmanaged resources.
 
 #### Returns
 
 `System.Void` 
 
-###  LoadViewState
+###  GetPaperHeight
+
+Returns Unit object representing the page height
+
+#### Parameters
+
+#### paperKind `System.Drawing.Printing.PaperKind`
+
+PdfPagerSize value
 
 #### Returns
 
-`System.Void` 
-
-###  SaveViewState
-
-#### Returns
-
-`System.Object` 
+`System.Web.UI.WebControls.Unit` Page height.
 
 ###  GetPaperKindDimensions
 
@@ -178,27 +183,4 @@ PdfPagerSize value
 #### Returns
 
 `System.Web.UI.WebControls.Unit` Page width.
-
-###  GetPaperHeight
-
-Returns Unit object representing the page height
-
-#### Parameters
-
-#### paperKind `System.Drawing.Printing.PaperKind`
-
-PdfPagerSize value
-
-#### Returns
-
-`System.Web.UI.WebControls.Unit` Page height.
-
-###  Dispose
-
-Performs application-defined tasks associated with freeing, releasing,
-            or resetting unmanaged resources.
-
-#### Returns
-
-`System.Void` 
 

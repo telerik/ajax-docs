@@ -6,7 +6,7 @@ description: Telerik.Web.UI.Calendar.View.MonthView
 
 # Telerik.Web.UI.Calendar.View.MonthView
 
-Summary description for CalendarView.
+MonthView object that represents the current View, corresponding to the specified day to render.
 
 ## Inheritance Hierarchy
 
@@ -16,25 +16,55 @@ Summary description for CalendarView.
 
 ## Properties
 
-###  MonthStartDate `DateTime`
+###  ChildViews `CalendarViewCollection`
 
-Gets the month start date.
+Gets the current  child 
+            views as a .
 
-###  MonthEndDate `DateTime`
+###  ColumnHeaderImage `String`
 
-Gets the month end date.
+Gets or sets the column header image.
 
-###  TitleFormat `String`
+###  ColumnHeaderText `String`
 
-Gets or sets the string format of the title.
+Gets or sets the column header text.
 
-###  ParentCalendar `RadCalendar`
+###  ConditionsErrorMessage `String`
 
-Gets or sets the parent  controls.
+Gets or sets the conditions error message which will 
+            be displayed if there any errors in the settings.
 
-###  Parent `CalendarView`
+###  CurrentViewBeginDate `DateTime`
 
-Gets or sets the parent .
+Gets or sets the current view begin date.
+
+###  CurrentViewEndDate `DateTime`
+
+Gets or sets the current view end date.
+
+###  DefaultColumn `Int32`
+
+Gets the default column index.
+
+###  DefaultRow `Int32`
+
+Gets the default row index.
+
+###  EnableMultiSelect `Boolean`
+
+Gets or sets if the multi selection of dates will be enabled\disabled.
+
+###  EnableMultiView `Boolean`
+
+Gets or sets if MultiView Mode is enabled\disabled.
+
+###  EnableViewSelector `Boolean`
+
+Gets or sets if the view selector is enabled.
+
+###  HeaderSettings `TableItemStyle`
+
+Gets or sets the header .
 
 ###  ID `String`
 
@@ -42,10 +72,41 @@ Gets or sets the ID of the .
             Returns the parent  ClientID if 
             the view is TopView.
 
-###  ChildViews `CalendarViewCollection`
+###  IsHidden `Boolean`
 
-Gets the current  child 
-            views as a .
+Gets or sets if the  is hidden.
+
+###  IsInitialized `Boolean`
+
+Gets or sets if the calendar view is initialized.
+
+###  IsSingleView `Boolean`
+
+Gets if the MultiView Mode is enabled.
+
+###  IsTopView `Boolean`
+
+Gets if the view the top view or part of the child  views.
+
+###  MonthEndDate `DateTime`
+
+Gets the month end date.
+
+###  MonthStartDate `DateTime`
+
+Gets the month start date.
+
+###  MultiViewColumns `Int32`
+
+Gets the number of columns for the multi view.
+
+###  MultiViewRows `Int32`
+
+Gets the number of rows for the multi view.
+
+###  NextView `CalendarView`
+
+Gets the next .
 
 ###  Orientation `Orientation`
 
@@ -53,19 +114,31 @@ RenderInRows - Renders the calendar data row after row.
             RenderInColumns - Renders the calendar data column after column.
             None - Enforces fallback to the default Orientation for Telerik RadCalendar.
 
-###  TitleContent `String`
+###  Parent `CalendarView`
 
-Gets the title text.
+Gets or sets the parent .
 
-###  IsHidden `Boolean`
+###  ParentCalendar `RadCalendar`
 
-Gets or sets if the  is hidden.
+Gets or sets the parent  controls.
 
 ###  PresentationType `PresentationType`
 
 The presentation type which describes how RadCalendar will handle its layout, and how will
             react to user interaction. Interactive - user is allowed to select dates, navigate,
             etc. Preview - does not allow user interaction, for presentation purposes only.
+
+###  PreviousView `CalendarView`
+
+Gets the previous .
+
+###  RowHeaderImage `String`
+
+Gets or sets the row header image.
+
+###  RowSelectorText `String`
+
+Gets or sets the row selector text.
 
 ###  ShowCalendarViewHeader `Boolean`
 
@@ -79,164 +152,67 @@ Gets or sets if the column headers will be visible.
 
 Gets or sets if the row headers will be visible.
 
-###  UseRowHeadersAsSelectors `Boolean`
+###  SingleViewColumns `Int32`
 
-Gets or sets if the row headers will be used as selectors.
-
-###  UseColumnHeadersAsSelectors `Boolean`
-
-Gets or sets if the column headers will be used as selectors.
-
-###  EnableViewSelector `Boolean`
-
-Gets or sets if the view selector is enabled.
-
-###  EnableMultiView `Boolean`
-
-Gets or sets if MultiView Mode is enabled\disabled.
-
-###  EnableMultiSelect `Boolean`
-
-Gets or sets if the multi selection of dates will be enabled\disabled.
-
-###  IsSingleView `Boolean`
-
-Gets if the MultiView Mode is enabled.
-
-###  IsTopView `Boolean`
-
-Gets if the view the top view or part of the child  views.
-
-###  IsInitialized `Boolean`
-
-Gets or sets if the calendar view is initialized.
-
-###  MultiViewRows `Int32`
-
-Gets the number of rows for the multi view.
-
-###  MultiViewColumns `Int32`
-
-Gets the number of columns for the multi view.
-
-###  DefaultRow `Int32`
-
-Gets the default row index.
-
-###  DefaultColumn `Int32`
-
-Gets the default column index.
-
-###  SingleViewWidth `Unit`
-
-Gets or sets the width of the single view.
+Gets the single view columns.
 
 ###  SingleViewHeight `Unit`
 
 Gets or sets the height of the single view.
 
-###  HeaderSettings `TableItemStyle`
+###  SingleViewRows `Int32`
 
-Gets or sets the header .
+Gets the number of rows in the .
 
-###  ViewSettings `TableItemStyle`
+###  SingleViewWidth `Unit`
 
-Gets or sets the view .
-
-###  TitleAlign `HorizontalAlign`
-
-Gets or sets the title alignment.
-
-###  CurrentViewBeginDate `DateTime`
-
-Gets or sets the current view begin date.
-
-###  CurrentViewEndDate `DateTime`
-
-Gets or sets the current view end date.
-
-###  PreviousView `CalendarView`
-
-Gets the previous .
-
-###  NextView `CalendarView`
-
-Gets the next .
+Gets or sets the width of the single view.
 
 ###  Title `String`
 
 Gets or sets the calendar view title.
 
-###  ConditionsErrorMessage `String`
+###  TitleAlign `HorizontalAlign`
 
-Gets or sets the conditions error message which will 
-            be displayed if there any errors in the settings.
+Gets or sets the title alignment.
 
-###  SingleViewRows `Int32`
+###  TitleContent `String`
 
-Gets the number of rows in the .
+Gets the title text.
 
-###  SingleViewColumns `Int32`
+###  TitleFormat `String`
 
-Gets the single view columns.
+Gets or sets the string format of the title.
 
-###  RowSelectorText `String`
+###  UseColumnHeadersAsSelectors `Boolean`
 
-Gets or sets the row selector text.
+Gets or sets if the column headers will be used as selectors.
 
-###  RowHeaderImage `String`
+###  UseRowHeadersAsSelectors `Boolean`
 
-Gets or sets the row header image.
-
-###  ColumnHeaderText `String`
-
-Gets or sets the column header text.
-
-###  ColumnHeaderImage `String`
-
-Gets or sets the column header image.
-
-###  ViewSelectorText `String`
-
-Gets or sets the view selector text.
-
-###  ViewSelectorImage `String`
-
-Gets or sets the view selector image.
-
-###  ViewStartDate `DateTime`
-
-Gets or sets the view start date.
+Gets or sets if the row headers will be used as selectors.
 
 ###  ViewEndDate `DateTime`
 
 Gets or sets the view end date.
 
+###  ViewSelectorImage `String`
+
+Gets or sets the view selector image.
+
+###  ViewSelectorText `String`
+
+Gets or sets the view selector text.
+
+###  ViewSettings `TableItemStyle`
+
+Gets or sets the view .
+
+###  ViewStartDate `DateTime`
+
+Gets or sets the view start date.
+
 ## Methods
-
-###  CreateCalendarView
-
-#### Returns
-
-`Telerik.Web.UI.Calendar.View.CalendarView` 
-
-###  EnsureRenderSettings
-
-#### Returns
-
-`System.Void` 
-
-###  EnsureRenderSettings
-
-#### Returns
-
-`System.Void` 
-
-###  CreateCalendarView
-
-#### Returns
-
-`Telerik.Web.UI.Calendar.View.CalendarView` 
 
 ###  GetClientData
 
@@ -245,4 +221,22 @@ Returns an ArrayList of all properties of RadCalendar that are to be exported on
 #### Returns
 
 `System.Collections.ArrayList` 
+
+###  GetEffectiveVisibleDate
+
+GetEffectiveVisibleDate method. Returns the effective visible date.
+            Usage is demonstrated in the Title Customization topic
+
+#### Returns
+
+`System.DateTime` DateTime object
+
+###  GetEffectiveVisibleDate
+
+GetEffectiveVisibleDate method. Returns the effective visible date.
+            Usage is demonstrated in the Title Customization topic
+
+#### Returns
+
+`System.DateTime` DateTime object
 

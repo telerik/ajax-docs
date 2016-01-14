@@ -17,11 +17,11 @@ This class defines the Configuration Section of RadGantt.
 
 ## Properties
 
-###  TaskProviders `ProviderSettingsCollection`
-
-Gets the tasks providers.
-
 ###  DefaulTaskProvider `String`
 
 Gets the default task provider.
+
+###  TaskProviders `ProviderSettingsCollection`
+
+Gets the tasks providers.
 

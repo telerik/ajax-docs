@@ -16,11 +16,11 @@ Defines the selectable options.
 
 ## Properties
 
-###  StrokeSettings `Stroke`
-
-Defines the selection stroke configuration.
-
 ###  Key `ModifierKey`
 
 Defines the selectable modifier key.
+
+###  StrokeSettings `Stroke`
+
+Defines the selection stroke configuration.
 

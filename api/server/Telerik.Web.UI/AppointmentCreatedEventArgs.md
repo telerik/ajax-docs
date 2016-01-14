@@ -17,11 +17,11 @@ Provides data for the E:Telerik.Web.UI.RadScheduler.AppointmentCreated event of 
 
 ## Properties
 
-###  Container `SchedulerAppointmentContainer`
-
-Gets the container.
-
 ###  Appointment `Appointment`
 
 Gets the appointment.
+
+###  Container `SchedulerAppointmentContainer`
+
+Gets the container.
 

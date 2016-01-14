@@ -16,6 +16,10 @@ A class holding the various data source settings of the Telerik.Web.UI.RadClient
 
 ## Properties
 
+###  DataSourceControlSettings `DataSourceControlSettings`
+
+Contains data source control settings for the .
+
 ###  WebServiceDataSourceSettings `WebServiceDataSourceSettings`
 
 Contains web service data source settings for the .

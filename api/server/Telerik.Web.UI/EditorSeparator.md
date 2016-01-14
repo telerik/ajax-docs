@@ -18,71 +18,15 @@ A special EditorTool object, which is rendered as a separator by the default
 
 ## Properties
 
-###  Type `EditorToolType`
-
-Gets or sets the type of the tool - by default it is a button
-
-###  Type `EditorToolType`
-
-###  Visible `Boolean`
-
-Gets or sets a value indicating whether this  is visible.
-
 ###  Attributes `AttributeCollection`
 
 Gets the custom attributes which will be serialized on the client.
 
-###  PopUpWidth `String`
+###  Type `EditorToolType`
 
-###  PopUpHeight `String`
+Gets or sets the type of the tool - by default it is a button
 
-###  PopUpClassName `String`
+###  Visible `Boolean`
 
-###  SizeToFit `String`
-
-###  ItemsPerRow `String`
-
-## Methods
-
-###  SaveViewState
-
-#### Returns
-
-`System.Object` 
-
-###  LoadViewState
-
-#### Returns
-
-`System.Void` 
-
-###  SaveViewState
-
-#### Returns
-
-`System.Object` 
-
-###  LoadViewState
-
-#### Returns
-
-`System.Void` 
-
-###  TrackViewState
-
-#### Returns
-
-`System.Void` 
-
-###  System.Web.UI.IAttributeAccessor.GetAttribute
-
-#### Returns
-
-`System.String` 
-
-###  System.Web.UI.IAttributeAccessor.SetAttribute
-
-#### Returns
-
-`System.Void` 
+Gets or sets a value indicating whether this  is visible.
 

@@ -16,37 +16,9 @@ Used when column-based filtering feature of RadGrid is enabled. Defines properti
 
 ## Properties
 
-###  CurrentKnownFunction `GridKnownFunction`
-
 ###  IllegalStrings `String[]`
 
 Gets or sets the illegal strings array. These values indicate which strings could not be entered as a part of the filtering value.
             Excluding values from the array will allow these values to be entered in the filtering value. However, it is not recommended
             because possible security vulnerabilities could arise.
-
-## Methods
-
-###  GetFunctionString
-
-#### Returns
-
-`System.String` 
-
-###  GetFunctionString
-
-#### Returns
-
-`System.String` 
-
-###  GetFunctionString
-
-#### Returns
-
-`System.String` 
-
-###  GetValueForDateTime
-
-#### Returns
-
-`System.String` 
 

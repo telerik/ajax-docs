@@ -16,6 +16,10 @@ Defines an AND condition in a custom AutoFilter function.
 
 ## Properties
 
+###  Attributes `IAttributesCollection`
+
+Collection of the attributes of the current element
+
 ###  FilterCondition `AutoFilterConditionElement`
 
 Returns the AutoFilter condition for the current AutoFilterAndElement object
@@ -24,11 +28,21 @@ Returns the AutoFilter condition for the current AutoFilterAndElement object
 
 Collection of inner elements
 
-###  Attributes `IAttributesCollection`
-
-Collection of the attributes of the current element
-
 ## Methods
+
+###  AppendAttributes
+
+Appends the attirbutes to the output
+
+#### Parameters
+
+#### sb `System.Text.StringBuilder`
+
+StringBuilder object that holds the rendered output
+
+#### Returns
+
+`System.Void` 
 
 ###  Render
 
@@ -47,20 +61,6 @@ StringBuilder object that holds the rendered output
 ###  RenderChildElements
 
 Renders the child elements
-
-#### Parameters
-
-#### sb `System.Text.StringBuilder`
-
-StringBuilder object that holds the rendered output
-
-#### Returns
-
-`System.Void` 
-
-###  AppendAttributes
-
-Appends the attirbutes to the output
 
 #### Parameters
 

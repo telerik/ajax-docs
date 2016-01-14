@@ -16,12 +16,12 @@ Arguments class used when the DefaultViewChanged event is fired.
 
 ## Properties
 
+###  NewView `CalendarView`
+
+Gets the  new default CalendarView instance set by the DefaultViewChanged event.
+
 ###  OldView `CalendarView`
 
 Gets the CalendarView instance that was the default one prior to the rise of DefaultViewChanged
             event.
-
-###  NewView `CalendarView`
-
-Gets the  new default CalendarView instance set by the DefaultViewChanged event.
 

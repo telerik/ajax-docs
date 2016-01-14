@@ -17,13 +17,10 @@ Transformation filter which transform the image.
 
 ## Properties
 
-###  Name `String`
+###  CropPosition `BinaryImageCropPosition`
 
-Gets the filter's name as string representation
-
-###  Width `Int32`
-
-Gets or sets the width of the image.
+Gets or sets the crop position that  
+            can apply when cropping the binary image.
 
 ###  Height `Int32`
 
@@ -38,14 +35,17 @@ Gets or sets the interpolation mode which specifies the algorithm
 
 Gets or sets the resize mode of the image.
 
-###  CropPosition `BinaryImageCropPosition`
+###  Name `String`
 
-Gets or sets the crop position that  
-            can apply when cropping the binary image.
+Gets the filter's name as string representation
 
 ###  Name `String`
 
 Gets the filter's name
+
+###  Width `Int32`
+
+Gets or sets the width of the image.
 
 ## Methods
 

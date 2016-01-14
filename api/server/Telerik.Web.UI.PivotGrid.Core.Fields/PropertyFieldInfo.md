@@ -16,19 +16,31 @@ Represents an abstraction of a property info that can set and get values.
 
 ## Properties
 
-###  Name `String`
-
-###  DisplayName `String`
-
-###  DataType `Type`
-
-###  PreferredRole `FieldRoles`
-
 ###  AllowedRoles `FieldRoles`
 
 ###  AutoGenerateField `Boolean`
 
+###  DataType `Type`
+
+###  DisplayName `String`
+
+###  Name `String`
+
+###  PreferredRole `FieldRoles`
+
 ## Methods
+
+###  Equals
+
+#### Returns
+
+`System.Boolean` 
+
+###  GetHashCode
+
+#### Returns
+
+`System.Int32` 
 
 ###  GetValue
 
@@ -61,16 +73,4 @@ The field value.
 #### Returns
 
 `System.Void` 
-
-###  Equals
-
-#### Returns
-
-`System.Boolean` 
-
-###  GetHashCode
-
-#### Returns
-
-`System.Int32` 
 

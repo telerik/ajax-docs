@@ -16,22 +16,35 @@ description: Telerik.Web.UI.RadWizard
 
 ## Properties
 
-###  WizardSteps `RadWizardStepCollection`
-
-Gets the wizard steps.
-
 ###  ActiveStep `RadWizardStep`
 
 Gets the active step.
 
-###  RenderedSteps `RadWizardRenderedSteps`
+###  ActiveStepIndex `RadWizardStep`
 
-Gets or sets a value indicating whether tabs should postback when clicked.
+Gets or sets the index of the selected RadWizardStep.
 
-#### Remarks
-RadWizard will postback provided one of the following conditions is met:
-            	
-            			The RenderedSteps property is set to true.
+###  ClickActiveStep `RadWizardStep`
+
+Gets or sets the click active step.
+
+###  ClientIDMode `ClientIDMode`
+
+This property is overridden in order to support controls which implement INamingContainer.
+            The default value is changed to "AutoID".
+
+###  CssClassFormatString `String`
+
+The CssClass property will now be used instead of the former Skin 
+            and will be modified in AddAttributesToRender()
+
+###  Culture `CultureInfo`
+
+Gets or sets the selected culture. Localization strings will be loaded based on this value.
+
+###  DisplayCancelButton `Boolean`
+
+Gets or sets the display cancel button.
 
 ###  DisplayNavigationBar `Boolean`
 
@@ -41,90 +54,23 @@ Gets or sets the display navigationBar.
 
 Gets or sets the display navigation buttons.
 
-###  ImagePosition `RadWizardImagePostion`
-
-Gets or sets a value indicating the position of the image within the step.
-
 ###  DisplayProgressBar `Boolean`
 
 Gets or sets the display progress bar.
 
-###  DisplayCancelButton `Boolean`
+###  EnableAjaxSkinRendering `String`
 
-Gets or sets the display cancel button.
-
-###  ClickActiveStep `RadWizardStep`
-
-Gets or sets the click active step.
-
-###  ActiveStepIndex `RadWizardStep`
-
-Gets or sets the index of the selected RadWizardStep.
-
-###  NavigationBarPosition `RadWizardNavigationBarPosition`
-
-Gets or sets the position of the NavigationBar.
-
-###  NavigationButtonsPosition `RadWizardNavigationButtonsPosition`
-
-Gets or sets the position of the navigation buttons.
-
-###  ProgressBarPosition `RadWizardProgressBarPosition`
-
-Gets or sets the position of the ProgressBar.
-
-###  ProgressPercent `Int32`
-
-Gets or sets the position of the ProgressPercent.
-
-###  Localization `WizardButtons`
-
-Gets the localization.
-
-###  LocalizationPath `WizardButtons`
-
-Gets or sets a value indicating where RadWizard will look for its .resx localization files.
-
-###  Culture `CultureInfo`
-
-Gets or sets the selected culture. Localization strings will be loaded based on this value.
-
-###  OnClientButtonClicking `String`
-
-The client-side cancelable event that is fired when some button is clicked.
-
-###  OnClientButtonClicked `String`
-
-The client-side event that is fired when some button is clicked.
-
-###  OnClientLoad `String`
-
-Gets or sets a value indicating the client-side event handler that is called
-            after the RadWizard client-side object is initialized.
+Gets or sets the value, indicating whether to render the skin CSS files during Ajax requests
 
 #### Remarks
-If specified, the OnClienLoad client-side event handler is
-                called after the wizard is fully initialized on the client.A single parameter - the wizard client object - is passed to the
-                handler.This event cannot be cancelled.
+If EnableAjaxSkinRendering is set to false you will have to register the needed control base CSS file by hand when adding/showing the control with Ajax.
 
-###  RegisterWithScriptManager `Boolean`
+###  EnableEmbeddedBaseStylesheet `Boolean`
 
-Gets or sets the value, indicating whether to register with the ScriptManager control on the page.
+Gets or sets the value, indicating whether to render the link to the embedded base stylesheet of the control or not.
 
 #### Remarks
-If RegisterWithScriptManager is set to false the control can be rendered on the page using Web Services or normal callback requests/page methods.
-
-###  Skin `String`
-
-Gets or sets the skin name for the control user interface.
-
-#### Remarks
-If this property is not set, the control will render using the skin named "Default".
-            If EnableEmbeddedSkins is set to false, the control will not render skin.
-
-###  IsSkinSet `String`
-
-For internal use.
+If EnableEmbeddedBaseStylesheet is set to false you will have to register the needed control base CSS file by hand.
 
 ###  EnableEmbeddedScripts `Boolean`
 
@@ -140,26 +86,71 @@ Gets or sets the value, indicating whether to render links to the embedded skins
 #### Remarks
 If EnableEmbeddedSkins is set to false you will have to register the needed CSS files by hand.
 
-###  EnableEmbeddedBaseStylesheet `Boolean`
+###  ImagePosition `RadWizardImagePostion`
 
-Gets or sets the value, indicating whether to render the link to the embedded base stylesheet of the control or not.
+Gets or sets a value indicating the position of the image within the step.
+
+###  IsSkinSet `String`
+
+For internal use.
+
+###  Localization `WizardButtons`
+
+Gets the localization.
+
+###  LocalizationPath `WizardButtons`
+
+Gets or sets a value indicating where RadWizard will look for its .resx localization files.
+
+###  NavigationBarPosition `RadWizardNavigationBarPosition`
+
+Gets or sets the position of the NavigationBar.
+
+###  NavigationButtonsPosition `RadWizardNavigationButtonsPosition`
+
+Gets or sets the position of the navigation buttons.
+
+###  OnClientButtonClicked `String`
+
+The client-side event that is fired when some button is clicked.
+
+###  OnClientButtonClicking `String`
+
+The client-side cancelable event that is fired when some button is clicked.
+
+###  OnClientLoad `String`
+
+Gets or sets a value indicating the client-side event handler that is called
+            after the RadWizard client-side object is initialized.
 
 #### Remarks
-If EnableEmbeddedBaseStylesheet is set to false you will have to register the needed control base CSS file by hand.
+If specified, the OnClienLoad client-side event handler is
+                called after the wizard is fully initialized on the client.A single parameter - the wizard client object - is passed to the
+                handler.This event cannot be cancelled.
 
-###  RuntimeSkin `String`
+###  ProgressBarPosition `RadWizardProgressBarPosition`
 
-Gets the real skin name for the control user interface. If Skin is not set, returns
-            "Default", otherwise returns Skin.
+Gets or sets the position of the ProgressBar.
 
-###  EnableAjaxSkinRendering `String`
+###  ProgressPercent `Int32`
 
-Gets or sets the value, indicating whether to render the skin CSS files during Ajax requests
+Gets or sets the position of the ProgressPercent.
+
+###  RegisterWithScriptManager `Boolean`
+
+Gets or sets the value, indicating whether to register with the ScriptManager control on the page.
 
 #### Remarks
-If EnableAjaxSkinRendering is set to false you will have to register the needed control base CSS file by hand when adding/showing the control with Ajax.
+If RegisterWithScriptManager is set to false the control can be rendered on the page using Web Services or normal callback requests/page methods.
 
-###  ClientStateFieldID `String`
+###  RenderedSteps `RadWizardRenderedSteps`
+
+Gets or sets a value indicating whether tabs should postback when clicked.
+
+#### Remarks
+RadWizard will postback provided one of the following conditions is met:
+            	
+            			The RenderedSteps property is set to true.
 
 ###  RenderMode `RenderMode`
 
@@ -174,43 +165,24 @@ Lightweight rendering mode might change the outlook of the component in some old
 
 Returns resolved RenderMode should the original value was Auto
 
-###  CssClassFormatString `String`
+###  RuntimeSkin `String`
 
-The CssClass property will now be used instead of the former Skin 
-            and will be modified in AddAttributesToRender()
+Gets the real skin name for the control user interface. If Skin is not set, returns
+            "Default", otherwise returns Skin.
 
-###  ClientIDMode `ClientIDMode`
+###  Skin `String`
 
-This property is overridden in order to support controls which implement INamingContainer.
-            The default value is changed to "AutoID".
+Gets or sets the skin name for the control user interface.
 
-###  ScriptManager `ScriptManager`
+#### Remarks
+If this property is not set, the control will render using the skin named "Default".
+            If EnableEmbeddedSkins is set to false, the control will not render skin.
 
-###  RadScriptManager `ScriptManager`
+###  WizardSteps `RadWizardStepCollection`
+
+Gets the wizard steps.
 
 ## Methods
-
-###  RenderBeginTag
-
-Renders the HTML opening tag of the control to the specified writer.
-            This method is used primarily by control developers.
-
-#### Parameters
-
-#### writer `System.Web.UI.HtmlTextWriter`
-
-A  that represents
-            the output stream to render HTML content on the client.
-
-#### Returns
-
-`System.Void` 
-
-###  RenderEndTag
-
-#### Returns
-
-`System.Void` 
 
 ###  AddParsedSubObject
 
@@ -218,17 +190,29 @@ A  that represents
 
 `System.Void` 
 
-###  DescribeComponent
+###  ApplyConditionalRendering
+
+Use this from RenderContents of the inheritor
 
 #### Returns
 
 `System.Void` 
 
-###  DescribeClientEvents
+###  ControlPreRender
+
+Code moved into this method from OnPreRender to make sure it executed when the framework skips OnPreRender() for some reason
 
 #### Returns
 
 `System.Void` 
+
+###  GetEmbeddedSkinNames
+
+Returns the names of all embedded skins. Used by Telerik.Web.Examples.
+
+#### Returns
+
+`System.Collections.Generic.List`1` 
 
 ###  GetHistory
 
@@ -246,6 +230,40 @@ Gets the index of the previous step.
 
 `System.Int32` 
 
+###  LoadClientState
+
+Loads the client state data
+
+#### Parameters
+
+#### clientState `System.Collections.Generic.Dictionary{System.String,System.Object}`
+
+#### Returns
+
+`System.Void` 
+
+###  LoadPostData
+
+Executed when post data is loaded from the request
+
+#### Parameters
+
+#### postDataKey `System.String`
+
+#### postCollection `System.Collections.Specialized.NameValueCollection`
+
+#### Returns
+
+`System.Boolean` 
+
+###  OnActiveStepChanged
+
+Raises the  event.
+
+#### Returns
+
+`System.Void` 
+
 ###  OnCancelButtonClick
 
 Raises the  event.
@@ -261,6 +279,20 @@ The  instance containing the event data.
 `System.Void` 
 
 ###  OnFinishButtonClick
+
+Raises the  event.
+
+#### Parameters
+
+#### e `Telerik.Web.UI.WizardEventArgs`
+
+The  instance containing the event data.
+
+#### Returns
+
+`System.Void` 
+
+###  OnNavigationBarButtonClick
 
 Raises the  event.
 
@@ -302,51 +334,9 @@ The  instance containing the event data.
 
 `System.Void` 
 
-###  OnNavigationBarButtonClick
+###  RaisePostDataChangedEvent
 
-Raises the  event.
-
-#### Parameters
-
-#### e `Telerik.Web.UI.WizardEventArgs`
-
-The  instance containing the event data.
-
-#### Returns
-
-`System.Void` 
-
-###  OnActiveStepChanged
-
-Raises the  event.
-
-#### Returns
-
-`System.Void` 
-
-###  AddAttributesToRender
-
-#### Returns
-
-`System.Void` 
-
-###  OnPreRender
-
-#### Returns
-
-`System.Void` 
-
-###  ControlPreRender
-
-Code moved into this method from OnPreRender to make sure it executed when the framework skips OnPreRender() for some reason
-
-#### Returns
-
-`System.Void` 
-
-###  RegisterScriptControl
-
-Registers the control with the ScriptManager
+Executed when post data changes should invoke a changed event
 
 #### Returns
 
@@ -360,13 +350,25 @@ Registers the CSS references
 
 `System.Void` 
 
-###  LoadClientState
+###  RegisterScriptControl
 
-Loads the client state data
+Registers the control with the ScriptManager
+
+#### Returns
+
+`System.Void` 
+
+###  RenderBeginTag
+
+Renders the HTML opening tag of the control to the specified writer.
+            This method is used primarily by control developers.
 
 #### Parameters
 
-#### clientState `System.Collections.Generic.Dictionary{System.String,System.Object}`
+#### writer `System.Web.UI.HtmlTextWriter`
+
+A  that represents
+            the output stream to render HTML content on the client.
 
 #### Returns
 
@@ -379,114 +381,4 @@ Saves the client state data
 #### Returns
 
 `System.String` 
-
-###  RenderClientStateField
-
-#### Returns
-
-`System.Void` 
-
-###  RenderBeginTag
-
-#### Returns
-
-`System.Void` 
-
-###  RenderEndTag
-
-#### Returns
-
-`System.Void` 
-
-###  Render
-
-#### Returns
-
-`System.Void` 
-
-###  RenderScriptsNoScriptManager
-
-#### Returns
-
-`System.Void` 
-
-###  RenderDescriptorsNoScriptManager
-
-#### Returns
-
-`System.Void` 
-
-###  RenderContents
-
-#### Returns
-
-`System.Void` 
-
-###  ApplyConditionalRendering
-
-Use this from RenderContents of the inheritor
-
-#### Returns
-
-`System.Void` 
-
-###  DescribeComponent
-
-#### Returns
-
-`System.Void` 
-
-###  DescribeProperty
-
-#### Returns
-
-`System.Void` 
-
-###  DescribeIDReferenceProperty
-
-#### Returns
-
-`System.Void` 
-
-###  DescribeEvent
-
-#### Returns
-
-`System.Void` 
-
-###  GetEmbeddedSkinNames
-
-Returns the names of all embedded skins. Used by Telerik.Web.Examples.
-
-#### Returns
-
-`System.Collections.Generic.List`1` 
-
-###  LoadPostData
-
-Executed when post data is loaded from the request
-
-#### Parameters
-
-#### postDataKey `System.String`
-
-#### postCollection `System.Collections.Specialized.NameValueCollection`
-
-#### Returns
-
-`System.Boolean` 
-
-###  RaisePostDataChangedEvent
-
-Executed when post data changes should invoke a changed event
-
-#### Returns
-
-`System.Void` 
-
-###  GetViewStateValue
-
-#### Returns
-
-`Telerik.Web.UI.T` 
 

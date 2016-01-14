@@ -16,7 +16,3 @@ This class is not intended to be used directly.
 * System.Object
 * Telerik.Web.UI.MaskPart
 
-## Properties
-
-###  Value `String`
-

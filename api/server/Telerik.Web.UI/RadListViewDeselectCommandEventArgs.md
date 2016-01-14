@@ -18,6 +18,14 @@ For internal usage only.
 
 ## Properties
 
+###  Canceled `Boolean`
+
+Gets or sets a value, defining whether the command should be canceled.
+
+###  EventSource `Object`
+
+Gets or sets the event source which represent the control which fired the event.
+
 ###  ListViewDataItem `RadListViewDataItem`
 
 Gets or sets the deselected  item.
@@ -29,14 +37,6 @@ Gets or sets the  which was responsible for firing the event.
 ###  ListViewItem `RadListViewItem`
 
 Gets or sets the  which was responsible for firing the event.
-
-###  EventSource `Object`
-
-Gets or sets the event source which represent the control which fired the event.
-
-###  Canceled `Boolean`
-
-Gets or sets a value, defining whether the command should be canceled.
 
 ## Methods
 

@@ -16,11 +16,11 @@ SetMetaData event arguments.
 
 ## Properties
 
-###  MetaData `NameValueCollection`
-
-Gets or set the meta data associated with the current file.
-
 ###  Context `HttpContext`
 
 Gets or set the the context of the current request.
+
+###  MetaData `NameValueCollection`
+
+Gets or set the meta data associated with the current file.
 

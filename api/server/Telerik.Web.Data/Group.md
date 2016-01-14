@@ -23,10 +23,6 @@ Gets a value indicating whether this instance has any sub groups.
 
 Gets the number of items in this group.
 
-###  Subgroups `ReadOnlyCollection`1`
-
-Gets the subgroups, if  is true, otherwise empty collection.
-
 ###  Items `IEnumerable`
 
 Gets the items in this groups.
@@ -34,6 +30,10 @@ Gets the items in this groups.
 ###  Key `Object`
 
 Gets the key for this group.
+
+###  Subgroups `ReadOnlyCollection`1`
+
+Gets the subgroups, if  is true, otherwise empty collection.
 
 ## Methods
 

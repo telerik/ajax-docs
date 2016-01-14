@@ -19,6 +19,50 @@ description: Telerik.Web.UI.RadDataPagerButtonFieldBase
 
 This property specifies the type of the buttons for current pager field. Default value LinkButton.
 
+###  HiddenLg `Boolean`
+
+Hidden attribute - Large
+
+###  HiddenMd `Boolean`
+
+Hidden attribute - Medium
+
+###  HiddenSm `Boolean`
+
+Hidden attribute - Small
+
+###  HiddenXl `Boolean`
+
+Hidden attribute - Extra Large
+
+###  HiddenXs `Boolean`
+
+Hidden attribute - Extra Small
+
+###  HorizontalPosition `PagerFieldHorizontalPosition`
+
+Gets or sets the positioning of the pager field with regard to its CSS float style.
+
+###  HorizontalPositionLg `PagerFieldHorizontalPosition`
+
+Horizontal Position attribute - Large
+
+###  HorizontalPositionMd `PagerFieldHorizontalPosition`
+
+Horizontal Position attribute - Medium
+
+###  HorizontalPositionSm `PagerFieldHorizontalPosition`
+
+Horizontal Position attribute - Small
+
+###  HorizontalPositionXl `PagerFieldHorizontalPosition`
+
+Horizontal Position attribute - Extra Large
+
+###  HorizontalPositionXs `PagerFieldHorizontalPosition`
+
+Horizontal Position attribute - Extra Small
+
 ###  Owner `RadDataPager`
 
 Returns RadDataPager control that owns current pager field. 
@@ -30,53 +74,9 @@ Gets the string representation of the type-name of this instance. The value is
             used by RadDataPager to determine the type of the pager field persisted into the ViewState, when
             recreating the pager after postback. This property is read only.
 
-###  HorizontalPosition `PagerFieldHorizontalPosition`
-
-Gets or sets the positioning of the pager field with regard to its CSS float style.
-
 ###  Visible `Boolean`
 
 Gets or sets value that indicates whether RadDataPagerField is rendered.
-
-###  HiddenXs `Boolean`
-
-Hidden attribute - Extra Small
-
-###  HiddenSm `Boolean`
-
-Hidden attribute - Small
-
-###  HiddenMd `Boolean`
-
-Hidden attribute - Medium
-
-###  HiddenLg `Boolean`
-
-Hidden attribute - Large
-
-###  HiddenXl `Boolean`
-
-Hidden attribute - Extra Large
-
-###  HorizontalPositionXs `PagerFieldHorizontalPosition`
-
-Horizontal Position attribute - Extra Small
-
-###  HorizontalPositionSm `PagerFieldHorizontalPosition`
-
-Horizontal Position attribute - Small
-
-###  HorizontalPositionMd `PagerFieldHorizontalPosition`
-
-Horizontal Position attribute - Medium
-
-###  HorizontalPositionLg `PagerFieldHorizontalPosition`
-
-Horizontal Position attribute - Large
-
-###  HorizontalPositionXl `PagerFieldHorizontalPosition`
-
-Horizontal Position attribute - Extra Large
 
 ## Methods
 
@@ -141,40 +141,6 @@ Create button of type HyperLink whenever AllowSEOPaging is set to "true".
 
 `System.Web.UI.WebControls.WebControl` 
 
-###  PrepareSEOButtonContent
-
-Sets content of HyperLink button if SEO paging is enabled, depending on commandArgument.
-
-#### Returns
-
-`System.Void` 
-
-###  GetResolvedImageUrl
-
-Get reference to image from embeded resources. Internally used by PrepareSEOButtonContent method.
-
-#### Returns
-
-`System.String` 
-
-###  PrepareTextFormat
-
-Formats the text depending on PagerFieldButtonType. Text for LinkButton is wrapped with span tag.
-
-#### Parameters
-
-#### type `Telerik.Web.UI.PagerFieldButtonType`
-
-Value from PagerFieldButtonType enum.
-
-#### text `System.String`
-
-Text to be formatted.
-
-#### Returns
-
-`System.String` Returns string representing content of button.
-
 ###  EnsureEnableState
 
 Ensures button Enabled property. If button command argumetn is same as current page, button
@@ -194,6 +160,14 @@ Command argument for the button.
 
 `System.Web.UI.WebControls.WebControl` Returns same button with Enabled property set.
 
+###  GetResolvedImageUrl
+
+Get reference to image from embeded resources. Internally used by PrepareSEOButtonContent method.
+
+#### Returns
+
+`System.String` 
+
 ###  InitializeFieldControls
 
 After calling this method DataPagerField controls will be created and added to Controls colleciton
@@ -209,14 +183,39 @@ DataPagerFieldItem item where controls will be instanciated
 
 `System.Void` 
 
-###  ToString
+###  PrepareLightweightSEOButtonContent
 
-Returns a  that represents the 
-            current .
+Sets content of HyperLink button in Lightweight and Mobile rendering if SEO paging is enabled, depending on commandArgument.
 
 #### Returns
 
-`System.String` A  that represents the current .
+`System.Void` 
+
+###  PrepareSEOButtonContent
+
+Sets content of HyperLink button if SEO paging is enabled, depending on commandArgument.
+
+#### Returns
+
+`System.Void` 
+
+###  PrepareTextFormat
+
+Formats the text depending on PagerFieldButtonType. Text for LinkButton is wrapped with span tag.
+
+#### Parameters
+
+#### type `Telerik.Web.UI.PagerFieldButtonType`
+
+Value from PagerFieldButtonType enum.
+
+#### text `System.String`
+
+Text to be formatted.
+
+#### Returns
+
+`System.String` Returns string representing content of button.
 
 ###  SEOPagingLinkBuilder
 
@@ -231,4 +230,13 @@ Argument that the link must be build for.
 #### Returns
 
 `System.String` Returns string representation of navigation url.
+
+###  ToString
+
+Returns a  that represents the 
+            current .
+
+#### Returns
+
+`System.String` A  that represents the current .
 

@@ -19,12 +19,63 @@ Base class for Telerik.Web.UI.RadAjaxManager and
 
 ## Properties
 
+###  ClientEvents `AjaxClientEvents`
+
+Gets a reference to , which holds
+                properties for setting the  client-side events
+
+###  ClientIDMode `ClientIDMode`
+
+This property is overridden in order to support controls which implement INamingContainer.
+            The default value is changed to "AutoID".
+
+###  EnableAJAX `Boolean`
+
+Gets or sets if the ajax is enabled. If disabled
+            all ajaxified controls will cause postback.
+
+###  EnableAriaSupport `Boolean`
+
+When set to true enables support for WAI-ARIA
+
 ###  EnableEmbeddedScripts `Boolean`
 
 Gets or sets the value, indicating whether to render script references to the embedded scripts or not.
 
 #### Remarks
 If EnableEmbeddedScripts is set to false you will have to register the needed Scripts files by hand.
+
+###  EnableHistory `Boolean`
+
+Enables browser back/forward buttons state (browser history).
+            Please, review the RadAjax "Changes and backwards compatibility" - "Back and Forward buttons" article for more info.
+
+###  EnablePageHeadUpdate `Boolean`
+
+Gets or sets if the page html head tag will be 
+            updated during the ajax request.
+
+###  IsAjaxRequest `Boolean`
+
+Gets if the requst is ajax or full postback.
+
+###  PostBackControls `String[]`
+
+String array with filter strings. Ajax trigger control whose ID matches one of these values will perform a synchronous request.
+
+###  RequestQueueSize `Int32`
+
+By design ASP.NET AJAX Framework cancels the ongoing ajax request if you try to initiate another one prior to receiving the response for the first request. 
+            By setting the RequestQueueSize property to a value greater than zero, you are enabling the queuing mechanism of RadAjax 
+            that will allow you to complete the ongoing request and then initiate the pending requests in the control queue.
+
+#### Remarks
+If the queue is full (queue size equals RequestQueueSize), an attempt for new ajax request will be discarded.
+
+###  ResponseScripts `StringCollection`
+
+Gets the response scripts which represent JavaScript code
+            that will be passed to the client and executed.
 
 ###  RestoreOriginalRenderDelegate `Boolean`
 
@@ -36,73 +87,7 @@ RadAjax for ASP.NET has some limitations when running in medium trust.
             property RestoreOriginalRenderDelegate. By default it is true, if you work in 
             DNN or medium trust, you should set that to false.
 
-###  EnableAJAX `Boolean`
-
-Gets or sets if the ajax is enabled. If disabled
-            all ajaxified controls will cause postback.
-
-###  EnableHistory `Boolean`
-
-Enables browser back/forward buttons state (browser history).
-            Please, review the RadAjax "Changes and backwards compatibility" - "Back and Forward buttons" article for more info.
-
-###  EnableAriaSupport `Boolean`
-
-When set to true enables support for WAI-ARIA
-
-###  ResponseScripts `StringCollection`
-
-Gets the response scripts which represent JavaScript code
-            that will be passed to the client and executed.
-
-###  ClientEvents `AjaxClientEvents`
-
-Gets a reference to , which holds
-                properties for setting the  client-side events
-
-###  ClientIDMode `ClientIDMode`
-
-This property is overridden in order to support controls which implement INamingContainer.
-            The default value is changed to "AutoID".
-
-###  EnablePageHeadUpdate `Boolean`
-
-Gets or sets if the page html head tag will be 
-            updated during the ajax request.
-
-###  RequestQueueSize `Int32`
-
-By design ASP.NET AJAX Framework cancels the ongoing ajax request if you try to initiate another one prior to receiving the response for the first request. 
-            By setting the RequestQueueSize property to a value greater than zero, you are enabling the queuing mechanism of RadAjax 
-            that will allow you to complete the ongoing request and then initiate the pending requests in the control queue.
-
-#### Remarks
-If the queue is full (queue size equals RequestQueueSize), an attempt for new ajax request will be discarded.
-
-###  IsAjaxRequest `Boolean`
-
-Gets if the requst is ajax or full postback.
-
 ## Methods
-
-###  RaisePostBackEvent
-
-#### Returns
-
-`System.Void` 
-
-###  Redirect
-
-Redirects the page to another location.
-
-#### Remarks
-This method is usually used in the AJAX event handler instead of
-            Response.Redirect(). It provides the only way to redirect to a page which does not
-            contain any AJAX control at all.
-
-#### Returns
-
-`System.Void` None.
 
 ###  Alert
 
@@ -116,6 +101,24 @@ This is the easiest way to show a message, generated from the server, on the
 
 `System.Void` None.
 
+###  FocusControl
+
+Sets focus to the specified web control after the AJAX Request is
+            finished.
+
+#### Returns
+
+`System.Void` 
+
+###  FocusControl
+
+Sets focus to the specified web control after the AJAX Request is
+            finished.
+
+#### Returns
+
+`System.Void` 
+
 ###  GetAjaxEventReference
 
 Gets client side code which raises an AjaxRequest event in either AJAX Manager or
@@ -125,21 +128,16 @@ Gets client side code which raises an AjaxRequest event in either AJAX Manager o
 
 `System.String` 
 
-###  FocusControl
+###  Redirect
 
-Sets focus to the specified web control after the AJAX Request is
-            finished.
+Redirects the page to another location.
 
-#### Returns
-
-`System.Void` 
-
-###  FocusControl
-
-Sets focus to the specified web control after the AJAX Request is
-            finished.
+#### Remarks
+This method is usually used in the AJAX event handler instead of
+            Response.Redirect(). It provides the only way to redirect to a page which does not
+            contain any AJAX control at all.
 
 #### Returns
 
-`System.Void` 
+`System.Void` None.
 

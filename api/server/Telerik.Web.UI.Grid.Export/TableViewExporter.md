@@ -23,14 +23,6 @@ Exports the control to Excel
 
 `System.Void` 
 
-###  ExportToWord
-
-Exports the control to Word
-
-#### Returns
-
-`System.Void` 
-
 ###  ExportToPdf
 
 Exports the control to PDF
@@ -39,13 +31,13 @@ Exports the control to PDF
 
 `System.Void` 
 
-###  GetTemporaryDir
+###  ExportToWord
 
-Returns a temporary directory
+Exports the control to Word
 
 #### Returns
 
-`System.String` Temporary directory path
+`System.Void` 
 
 ###  ExtractTextFromCellControls
 
@@ -74,4 +66,12 @@ Template column object
 #### Returns
 
 `System.String` Resolved text
+
+###  GetTemporaryDir
+
+Returns a temporary directory
+
+#### Returns
+
+`System.String` Temporary directory path
 

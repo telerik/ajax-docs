@@ -64,43 +64,53 @@ The text of the new item.
 
 `System.Void` 
 
-###  FindItemByText
+###  AddRange
 
-Finds the first RadComboBoxItem with Text that
-            matches the given text value.
-
-#### Remarks
-This method is not recursive.
+Appends the specified array of RadComboBoxItem objects to the end of the 
+            current RadComboBoxItemCollection.
 
 #### Parameters
 
-#### text `System.String`
+#### items `System.Collections.Generic.IEnumerable{Telerik.Web.UI.RadComboBoxItem}`
 
-The string to search for.
+The array of RadComboBoxItem o append to the end of the current 
+            RadComboBoxItemCollection.
 
 #### Returns
 
-`Telerik.Web.UI.RadComboBoxItem` The first RadComboBoxItem that matches the
-            specified text value.
+`System.Void` 
 
-###  FindItemByValue
+###  Contains
 
-Finds the first RadComboBoxItem with Value that
-            matches the given value.
-
-#### Remarks
-This methods is not recursive.
+Determines whether the specified RadComboBoxItem object is in the current 
+            	RadComboBoxItemCollection.
 
 #### Parameters
 
-#### value `System.String`
+#### item `Telerik.Web.UI.RadComboBoxItem`
 
-The value to search for.
+The RadComboBoxItem object to find.
 
 #### Returns
 
-`Telerik.Web.UI.RadComboBoxItem` The first RadComboBoxItem that matches the
-            specified value.
+`System.Boolean` true if the current collection contains the specified RadComboBoxItem object; 
+            	otherwise, false.
+
+###  FindItem
+
+Returns  the first RadComboBoxItem 
+            that matches the conditions defined by the specified predicate.
+            The predicate should returns a boolean value.
+
+#### Parameters
+
+#### match `System.Predicate{Telerik.Web.UI.RadComboBoxItem}`
+
+The Predicate <> that defines the conditions of the element to search for.
+
+#### Returns
+
+`Telerik.Web.UI.RadComboBoxItem` 
 
 ###  FindItemByAttribute
 
@@ -128,6 +138,25 @@ The value of the target attribute
 Finds the first RadComboBoxItem with Text that
             matches the given text value.
 
+#### Remarks
+This method is not recursive.
+
+#### Parameters
+
+#### text `System.String`
+
+The string to search for.
+
+#### Returns
+
+`Telerik.Web.UI.RadComboBoxItem` The first RadComboBoxItem that matches the
+            specified text value.
+
+###  FindItemByText
+
+Finds the first RadComboBoxItem with Text that
+            matches the given text value.
+
 #### Parameters
 
 #### text `System.String`
@@ -142,6 +171,25 @@ A Boolean indicating a case-sensitive or insensitive comparison (true indicates 
 
 `Telerik.Web.UI.RadComboBoxItem` The first RadComboBoxItem that matches the
             specified text value.
+
+###  FindItemByValue
+
+Finds the first RadComboBoxItem with Value that
+            matches the given value.
+
+#### Remarks
+This methods is not recursive.
+
+#### Parameters
+
+#### value `System.String`
+
+The value to search for.
+
+#### Returns
+
+`Telerik.Web.UI.RadComboBoxItem` The first RadComboBoxItem that matches the
+            specified value.
 
 ###  FindItemByValue
 
@@ -230,54 +278,6 @@ A Boolean indicating a case-sensitive or insensitive comparison (true indicates 
 #### Returns
 
 `System.Int32` 
-
-###  FindItem
-
-Returns  the first RadComboBoxItem 
-            that matches the conditions defined by the specified predicate.
-            The predicate should returns a boolean value.
-
-#### Parameters
-
-#### match `System.Predicate{Telerik.Web.UI.RadComboBoxItem}`
-
-The Predicate <> that defines the conditions of the element to search for.
-
-#### Returns
-
-`Telerik.Web.UI.RadComboBoxItem` 
-
-###  Contains
-
-Determines whether the specified RadComboBoxItem object is in the current 
-            	RadComboBoxItemCollection.
-
-#### Parameters
-
-#### item `Telerik.Web.UI.RadComboBoxItem`
-
-The RadComboBoxItem object to find.
-
-#### Returns
-
-`System.Boolean` true if the current collection contains the specified RadComboBoxItem object; 
-            	otherwise, false.
-
-###  AddRange
-
-Appends the specified array of RadComboBoxItem objects to the end of the 
-            current RadComboBoxItemCollection.
-
-#### Parameters
-
-#### items `System.Collections.Generic.IEnumerable{Telerik.Web.UI.RadComboBoxItem}`
-
-The array of RadComboBoxItem o append to the end of the current 
-            RadComboBoxItemCollection.
-
-#### Returns
-
-`System.Void` 
 
 ###  IndexOf
 

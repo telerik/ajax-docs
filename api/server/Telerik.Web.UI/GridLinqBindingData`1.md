@@ -16,11 +16,11 @@ Generic object returned from the RadGrid.GetBindingData methods. Returns
 
 ## Properties
 
-###  Data `IQueryable`1`
-
-Gets or sets the binding data.
-
 ###  Count `Int32`
 
 Gets or sets the number of items in the binding data.
+
+###  Data `IQueryable`1`
+
+Gets or sets the binding data.
 

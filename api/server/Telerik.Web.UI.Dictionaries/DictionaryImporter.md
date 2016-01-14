@@ -15,20 +15,6 @@ Summary description for DictionarySorter.
 
 ## Methods
 
-###  Save
-
-Saves the dictionary to a file.
-
-#### Parameters
-
-#### outputFile `System.String`
-
-The output file name.
-
-#### Returns
-
-`System.Void` 
-
 ###  Load
 
 Load a word list from a file.
@@ -52,6 +38,20 @@ Load a word list from a StreamReader.
 #### input `System.IO.TextReader`
 
 The import reader.
+
+#### Returns
+
+`System.Void` 
+
+###  Save
+
+Saves the dictionary to a file.
+
+#### Parameters
+
+#### outputFile `System.String`
+
+The output file name.
 
 #### Returns
 

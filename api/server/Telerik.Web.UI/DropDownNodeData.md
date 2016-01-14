@@ -15,6 +15,14 @@ Data class used for transferring tree nodes from and to web services.
 
 ## Properties
 
+###  Attributes `IDictionary`2`
+
+Custom attributes for the item to pass to the client.
+
+###  ExpandMode `DropDownTreeNodeExpandMode`
+
+Expand mode of the node
+
 ###  Text `String`
 
 Text for the item to pass to the client.
@@ -22,12 +30,4 @@ Text for the item to pass to the client.
 ###  Value `String`
 
 Value for the item to pass to the client.
-
-###  ExpandMode `DropDownTreeNodeExpandMode`
-
-Expand mode of the node
-
-###  Attributes `IDictionary`2`
-
-Custom attributes for the item to pass to the client.
 

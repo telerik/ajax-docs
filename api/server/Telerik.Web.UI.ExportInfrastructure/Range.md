@@ -15,15 +15,39 @@ EI Range object. Represents two points (start and end) in the table.
 
 ## Properties
 
-###  Start `Point`
-
-Start point of the range
-
 ###  End `Point`
 
 End point of the range
 
+###  Start `Point`
+
+Start point of the range
+
 ## Methods
+
+###  Equals
+
+Returns true if the ranges are equal
+
+#### Returns
+
+`System.Boolean` 
+
+###  Equals
+
+Returns true if the ranges are equal
+
+#### Returns
+
+`System.Boolean` 
+
+###  GetHashCode
+
+Returns the hash code of the Range object
+
+#### Returns
+
+`System.Int32` 
 
 ###  op_Equality
 
@@ -60,30 +84,6 @@ Second range
 #### Returns
 
 `System.Boolean` Returns true if the ranges are different
-
-###  Equals
-
-Returns true if the ranges are equal
-
-#### Returns
-
-`System.Boolean` 
-
-###  Equals
-
-Returns true if the ranges are equal
-
-#### Returns
-
-`System.Boolean` 
-
-###  GetHashCode
-
-Returns the hash code of the Range object
-
-#### Returns
-
-`System.Int32` 
 
 ###  ToString
 

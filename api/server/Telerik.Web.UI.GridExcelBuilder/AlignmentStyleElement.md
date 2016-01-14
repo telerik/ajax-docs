@@ -16,9 +16,9 @@ AlignmentStyle object. Unifies the vertical and the horizontal alignment setting
 
 ## Properties
 
-###  VerticalAlignment `VerticalAlignmentType`
+###  Attributes `IAttributesCollection`
 
-Vertical alignment setting for the current element
+Collection of the attributes of the current element
 
 ###  HorizontalAlignment `HorizontalAlignmentType`
 
@@ -28,11 +28,25 @@ Horizontal alignment setting for the current element
 
 Collection of inner elements
 
-###  Attributes `IAttributesCollection`
+###  VerticalAlignment `VerticalAlignmentType`
 
-Collection of the attributes of the current element
+Vertical alignment setting for the current element
 
 ## Methods
+
+###  AppendAttributes
+
+Appends the attirbutes to the output
+
+#### Parameters
+
+#### sb `System.Text.StringBuilder`
+
+StringBuilder object that holds the rendered output
+
+#### Returns
+
+`System.Void` 
 
 ###  Render
 
@@ -51,20 +65,6 @@ StringBuilder object that holds the rendered output
 ###  RenderChildElements
 
 Renders the child elements
-
-#### Parameters
-
-#### sb `System.Text.StringBuilder`
-
-StringBuilder object that holds the rendered output
-
-#### Returns
-
-`System.Void` 
-
-###  AppendAttributes
-
-Appends the attirbutes to the output
 
 #### Parameters
 

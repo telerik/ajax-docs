@@ -20,93 +20,15 @@ RadGrid and GridTableView use instance of this class to set style of thir PagerI
 
 ## Properties
 
-###  IsDefault `Boolean`
+###  AlwaysVisible `Boolean`
 
-Gets a value indicating whether the default pager will be used, i.e. no
-            customizations have been made.
-
-###  IsPagerOnBottom `Boolean`
-
-Gets a value indicating whether the pager is displayed on the bottom of the
-            grid.
-
-###  IsPagerOnTop `Boolean`
-
-Gets a value indicating whether the pager is displayed on the top of the
-            grid.
-
-###  Mode `GridPagerMode`
-
-Gets or sets the mode of Telerik RadGrid Pager. The mode defines what the pager
-                will contain. This property accepts as values only members of the GridPagerMode Enumeration.
+Gets or set a value indicating whether the Pager will be visible regardless of
+            the number of items. (See the remarks)
 
 #### Remarks
-You should have Paging enabled by setting the 
-                property.
-
-###  PageSizes `Int32[]`
-
-Gets/sets a comma/semicolon delimited list of page size values.
-
-###  NextPageText `String`
-
-Text that would appear if Mode is PrevNext for 'next' page button
-
-###  LastPageText `String`
-
-Text that would appear if Mode is PrevNext for 'last' page button
-
-###  PrevPageImageUrl `String`
-
-Gets or sets url for Previous Page image
-
-###  NextPageImageUrl `String`
-
-Gets or sets url for Next Page image
-
-###  FirstPageImageUrl `String`
-
-Gets or sets url for first page image
-
-###  LastPageImageUrl `String`
-
-Gets or sets url for first page image
-
-###  FirstPageToolTip `String`
-
-ToolTip that would appear if Mode is PrevNext for 'next' page button
-
-###  NextPageToolTip `String`
-
-ToolTip that would appear if Mode is PrevNext for 'next' page button
-
-###  LastPageToolTip `String`
-
-ToolTip that would appear if Mode is PrevNext for 'last' page button
-
-###  PrevPageToolTip `String`
-
-ToolTip that would appear if Mode is PrevNext for 'prev' page button
-
-###  NextPagesToolTip `String`
-
-ToolTip that would appear if Mode is PrevNext for 'next' page button
-
-###  PrevPagesToolTip `String`
-
-ToolTip that would appear if Mode is PrevNext for 'prev' page button
-
-###  GoToPageTextBoxToolTip `String`
-
-The ToolTip that will be applied to the GoToPage  control.
-
-###  GoToPageButtonToolTip `String`
-
-The ToolTip that will be applied to the GoToPage input element.
-
-###  ChangePageSizeTextBoxToolTip `String`
-
-The ToolTip that will be applied to the ChangePageSize  control.
+In order to display the grid pager regardless of the number of records returned
+            and the page size, you should set this property of the corresponding GridTableView to
+            true. Its default value is false.
 
 ###  ChangePageSizeButtonToolTip `String`
 
@@ -120,44 +42,9 @@ The summary attribute that will be applied to the table which holds the ChangePa
 
 The ToolTip that will be applied to the input element in the ChangePageSize  control.
 
-###  PageSizeLabelText `String`
+###  ChangePageSizeTextBoxToolTip `String`
 
-The text of the page size label situated before the page size combo.
-
-###  PageButtonCount `Int32`
-
-Gets or sets the number of buttons that would be rendered if pager Mode is
-
-#### Remarks
-By default 10 buttons will be displayed. If the number of grid pages is greater
-            than 10, ellipsis will be displayed.
-
-###  Position `GridPagerPosition`
-
-Gets or sets the Position of pager item(s).Accepts only values, members of the
-                GridPagerPosition Enumeration.
-
-###  PrevPageText `String`
-
-Text that would appear if Mode is PrevNext for 'previous' page button
-
-###  FirstPageText `String`
-
-Text that would appear if Mode is PrevNext for 'first' page button
-
-###  Visible `Boolean`
-
-Gets or sets the visibility of the pager item
-
-###  AlwaysVisible `Boolean`
-
-Gets or set a value indicating whether the Pager will be visible regardless of
-            the number of items. (See the remarks)
-
-#### Remarks
-In order to display the grid pager regardless of the number of records returned
-            and the page size, you should set this property of the corresponding GridTableView to
-            true. Its default value is false.
+The ToolTip that will be applied to the ChangePageSize  control.
 
 ###  EnableAllOptionInPagerComboBox `Boolean`
 
@@ -168,33 +55,94 @@ When this property is enabled, the combobox control in the pager will have an "A
 Get or set a value indicating whether the SEO (Search Engine Optimized) paging
             enabled
 
-###  SEOPagingQueryStringKey `String`
+###  FirstPageImageUrl `String`
 
-Gets or sets the SEO paging query string key.
+Gets or sets url for first page image
 
-###  UseRouting `Boolean`
+###  FirstPageText `String`
 
-Gets or sets a value indicating whether URL Routing is enabled for the 
-            current web application
+Text that would appear if Mode is PrevNext for 'first' page button
 
-###  SEOPageIndexRouteParameterName `String`
+###  FirstPageToolTip `String`
 
-Gets or sets the name of the URL parameter that specifies the page number
-            when SEO paging and routing are enabled.
+ToolTip that would appear if Mode is PrevNext for 'next' page button
 
-###  SEORouteName `String`
+###  GoToPageButtonToolTip `String`
 
-Gets or sets the name of the route that is used when SEO paging and routing are enabled.
+The ToolTip that will be applied to the GoToPage input element.
+
+###  GoToPageTextBoxToolTip `String`
+
+The ToolTip that will be applied to the GoToPage  control.
 
 ###  HorizontalAlign `HorizontalAlign`
 
 Gets or sets the horizontal align of the pager. Accepts as values members of the
                  enumeration.
 
-###  ShowPagerText `Boolean`
+###  IsDefault `Boolean`
 
-Gets or sets a value indicating whether the pager text or only the pager buttons
-            will be displayed.
+Gets a value indicating whether the default pager will be used, i.e. no
+            customizations have been made.
+
+###  IsDefault `Boolean`
+
+Returns 'True' if none of the properties have been set
+
+###  IsPagerOnBottom `Boolean`
+
+Gets a value indicating whether the pager is displayed on the bottom of the
+            grid.
+
+###  IsPagerOnTop `Boolean`
+
+Gets a value indicating whether the pager is displayed on the top of the
+            grid.
+
+###  LastPageImageUrl `String`
+
+Gets or sets url for first page image
+
+###  LastPageText `String`
+
+Text that would appear if Mode is PrevNext for 'last' page button
+
+###  LastPageToolTip `String`
+
+ToolTip that would appear if Mode is PrevNext for 'last' page button
+
+###  Mode `GridPagerMode`
+
+Gets or sets the mode of Telerik RadGrid Pager. The mode defines what the pager
+                will contain. This property accepts as values only members of the GridPagerMode Enumeration.
+
+#### Remarks
+You should have Paging enabled by setting the 
+                property.
+
+###  NextPageImageUrl `String`
+
+Gets or sets url for Next Page image
+
+###  NextPagesToolTip `String`
+
+ToolTip that would appear if Mode is PrevNext for 'next' page button
+
+###  NextPageText `String`
+
+Text that would appear if Mode is PrevNext for 'next' page button
+
+###  NextPageToolTip `String`
+
+ToolTip that would appear if Mode is PrevNext for 'next' page button
+
+###  PageButtonCount `Int32`
+
+Gets or sets the number of buttons that would be rendered if pager Mode is
+
+#### Remarks
+By default 10 buttons will be displayed. If the number of grid pages is greater
+            than 10, ellipsis will be displayed.
 
 ###  PagerTextFormat `String`
 
@@ -215,9 +163,61 @@ The parameters {0) - {4} are mandatory.
 
 Gets or sets the type of the page size drop down control.
 
-###  IsDefault `Boolean`
+###  PageSizeLabelText `String`
 
-Returns 'True' if none of the properties have been set
+The text of the page size label situated before the page size combo.
+
+###  PageSizes `Int32[]`
+
+Gets/sets a comma/semicolon delimited list of page size values.
+
+###  Position `GridPagerPosition`
+
+Gets or sets the Position of pager item(s).Accepts only values, members of the
+                GridPagerPosition Enumeration.
+
+###  PrevPageImageUrl `String`
+
+Gets or sets url for Previous Page image
+
+###  PrevPagesToolTip `String`
+
+ToolTip that would appear if Mode is PrevNext for 'prev' page button
+
+###  PrevPageText `String`
+
+Text that would appear if Mode is PrevNext for 'previous' page button
+
+###  PrevPageToolTip `String`
+
+ToolTip that would appear if Mode is PrevNext for 'prev' page button
+
+###  SEOPageIndexRouteParameterName `String`
+
+Gets or sets the name of the URL parameter that specifies the page number
+            when SEO paging and routing are enabled.
+
+###  SEOPagingQueryStringKey `String`
+
+Gets or sets the SEO paging query string key.
+
+###  SEORouteName `String`
+
+Gets or sets the name of the route that is used when SEO paging and routing are enabled.
+
+###  ShowPagerText `Boolean`
+
+Gets or sets a value indicating whether the pager text or only the pager buttons
+            will be displayed.
+
+###  UseRouting `Boolean`
+
+Gets or sets a value indicating whether URL Routing is enabled for the 
+            current web application
+
+###  Visible `Boolean`
+
+Gets or sets the visibility of the pager item
 
 ## Methods
 

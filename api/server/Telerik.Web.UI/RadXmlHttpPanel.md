@@ -18,66 +18,34 @@ RadXmlHttpPanel class
 
 ## Properties
 
-###  LoadingPanelID `String`
+###  ClientIDMode `ClientIDMode`
 
-Gets or sets the ID of the RadAjaxLoadingPanel control that will be displayed over the control during the partial page update.
+This property is overridden in order to support controls which implement INamingContainer.
+            The default value is changed to "AutoID".
 
-###  RenderMode `XmlHttpPanelRenderMode`
+###  CssClassFormatString `String`
 
-Gets or sets a value that indicates how the content of an RadXmlHttpPanel control will be wrapped on a page.
-            In-line means the content will be wrapped in a span tag (Default), while Block means that the content will be wrapped in a div.
+The CssClass property will now be used instead of the former Skin 
+            and will be modified in AddAttributesToRender()
+
+###  EnableAjaxSkinRendering `String`
+
+Gets or sets the value, indicating whether to render the skin CSS files during Ajax requests
+
+#### Remarks
+If EnableAjaxSkinRendering is set to false you will have to register the needed control base CSS file by hand when adding/showing the control with Ajax.
 
 ###  EnableClientScriptEvaluation `Boolean`
 
 Gets or sets a boolean value indicating whether or not the client scripts loaded by the RadControls 
             hosted inside the RadXmlHttpPanel should be executed.
 
-###  WebMethodName `String`
+###  EnableEmbeddedBaseStylesheet `Boolean`
 
-Gets or sets a string value that indicates the WebService method used by the RadXmlHttpPanel.
-
-###  WebMethodPath `String`
-
-Gets or sets a string value that indicates the virtual path of the WebService used by the RadXmlHttpPanel.
-
-###  WcfRequestMethod `XmlHttpPanelWcfRequestMethod`
-
-Gets or sets the request method for WCF Service used to populate content GET, POST, PUT, DELETE
-
-###  WcfServicePath `String`
-
-Gets or sets a string value that indicates the virtual path of the WCF Service used by the RadXmlHttpPanel.
-
-###  WcfServiceMethod `String`
-
-Gets or sets a string value that indicates the WCF Service method used by the RadXmlHttpPanel.
-
-###  Value `String`
-
-Gets or sets a string value depending on which a certain content is loaded in the RadXmlHttpPanel.
-
-###  MaxJsonLength `Int32`
-
-Property to define the maximum length of the Value for the XmlHttpPanel. The default is 2097152 characters, which is equivalent to 4 MB of Unicode string data.
-
-###  RegisterWithScriptManager `Boolean`
-
-Gets or sets the value, indicating whether to register with the ScriptManager control on the page.
+Gets or sets the value, indicating whether to render the link to the embedded base stylesheet of the control or not.
 
 #### Remarks
-If RegisterWithScriptManager is set to false the control can be rendered on the page using Web Services or normal callback requests/page methods.
-
-###  Skin `String`
-
-Gets or sets the skin name for the control user interface.
-
-#### Remarks
-If this property is not set, the control will render using the skin named "Default".
-            If EnableEmbeddedSkins is set to false, the control will not render skin.
-
-###  IsSkinSet `String`
-
-For internal use.
+If EnableEmbeddedBaseStylesheet is set to false you will have to register the needed control base CSS file by hand.
 
 ###  EnableEmbeddedScripts `Boolean`
 
@@ -93,26 +61,29 @@ Gets or sets the value, indicating whether to render links to the embedded skins
 #### Remarks
 If EnableEmbeddedSkins is set to false you will have to register the needed CSS files by hand.
 
-###  EnableEmbeddedBaseStylesheet `Boolean`
+###  IsSkinSet `String`
 
-Gets or sets the value, indicating whether to render the link to the embedded base stylesheet of the control or not.
+For internal use.
+
+###  LoadingPanelID `String`
+
+Gets or sets the ID of the RadAjaxLoadingPanel control that will be displayed over the control during the partial page update.
+
+###  MaxJsonLength `Int32`
+
+Property to define the maximum length of the Value for the XmlHttpPanel. The default is 2097152 characters, which is equivalent to 4 MB of Unicode string data.
+
+###  RegisterWithScriptManager `Boolean`
+
+Gets or sets the value, indicating whether to register with the ScriptManager control on the page.
 
 #### Remarks
-If EnableEmbeddedBaseStylesheet is set to false you will have to register the needed control base CSS file by hand.
+If RegisterWithScriptManager is set to false the control can be rendered on the page using Web Services or normal callback requests/page methods.
 
-###  RuntimeSkin `String`
+###  RenderMode `XmlHttpPanelRenderMode`
 
-Gets the real skin name for the control user interface. If Skin is not set, returns
-            "Default", otherwise returns Skin.
-
-###  EnableAjaxSkinRendering `String`
-
-Gets or sets the value, indicating whether to render the skin CSS files during Ajax requests
-
-#### Remarks
-If EnableAjaxSkinRendering is set to false you will have to register the needed control base CSS file by hand when adding/showing the control with Ajax.
-
-###  ClientStateFieldID `String`
+Gets or sets a value that indicates how the content of an RadXmlHttpPanel control will be wrapped on a page.
+            In-line means the content will be wrapped in a span tag (Default), while Block means that the content will be wrapped in a div.
 
 ###  RenderMode `RenderMode`
 
@@ -127,41 +98,48 @@ Lightweight rendering mode might change the outlook of the component in some old
 
 Returns resolved RenderMode should the original value was Auto
 
-###  CssClassFormatString `String`
+###  RuntimeSkin `String`
 
-The CssClass property will now be used instead of the former Skin 
-            and will be modified in AddAttributesToRender()
+Gets the real skin name for the control user interface. If Skin is not set, returns
+            "Default", otherwise returns Skin.
 
-###  ClientIDMode `ClientIDMode`
+###  Skin `String`
 
-This property is overridden in order to support controls which implement INamingContainer.
-            The default value is changed to "AutoID".
+Gets or sets the skin name for the control user interface.
 
-###  ScriptManager `ScriptManager`
+#### Remarks
+If this property is not set, the control will render using the skin named "Default".
+            If EnableEmbeddedSkins is set to false, the control will not render skin.
 
-###  RadScriptManager `ScriptManager`
+###  Value `String`
+
+Gets or sets a string value depending on which a certain content is loaded in the RadXmlHttpPanel.
+
+###  WcfRequestMethod `XmlHttpPanelWcfRequestMethod`
+
+Gets or sets the request method for WCF Service used to populate content GET, POST, PUT, DELETE
+
+###  WcfServiceMethod `String`
+
+Gets or sets a string value that indicates the WCF Service method used by the RadXmlHttpPanel.
+
+###  WcfServicePath `String`
+
+Gets or sets a string value that indicates the virtual path of the WCF Service used by the RadXmlHttpPanel.
+
+###  WebMethodName `String`
+
+Gets or sets a string value that indicates the WebService method used by the RadXmlHttpPanel.
+
+###  WebMethodPath `String`
+
+Gets or sets a string value that indicates the virtual path of the WebService used by the RadXmlHttpPanel.
 
 ## Methods
 
-###  DescribeClientProperties
+###  ApplyConditionalRendering
 
-#### Returns
-
-`System.Void` 
-
-###  DescribeClientEvents
-
-#### Returns
-
-`System.Void` 
-
-###  AddAttributesToRender
-
-#### Returns
-
-`System.Void` 
-
-###  OnPreRender
+Use this from RenderContents of the inheritor
 
 #### Returns
 
@@ -175,21 +153,13 @@ Code moved into this method from OnPreRender to make sure it executed when the f
 
 `System.Void` 
 
-###  RegisterScriptControl
+###  GetEmbeddedSkinNames
 
-Registers the control with the ScriptManager
-
-#### Returns
-
-`System.Void` 
-
-###  RegisterCssReferences
-
-Registers the CSS references
+Returns the names of all embedded skins. Used by Telerik.Web.Examples.
 
 #### Returns
 
-`System.Void` 
+`System.Collections.Generic.List`1` 
 
 ###  LoadClientState
 
@@ -202,96 +172,6 @@ Loads the client state data
 #### Returns
 
 `System.Void` 
-
-###  SaveClientState
-
-Saves the client state data
-
-#### Returns
-
-`System.String` 
-
-###  RenderClientStateField
-
-#### Returns
-
-`System.Void` 
-
-###  RenderBeginTag
-
-#### Returns
-
-`System.Void` 
-
-###  RenderEndTag
-
-#### Returns
-
-`System.Void` 
-
-###  Render
-
-#### Returns
-
-`System.Void` 
-
-###  RenderScriptsNoScriptManager
-
-#### Returns
-
-`System.Void` 
-
-###  RenderDescriptorsNoScriptManager
-
-#### Returns
-
-`System.Void` 
-
-###  RenderContents
-
-#### Returns
-
-`System.Void` 
-
-###  ApplyConditionalRendering
-
-Use this from RenderContents of the inheritor
-
-#### Returns
-
-`System.Void` 
-
-###  DescribeComponent
-
-#### Returns
-
-`System.Void` 
-
-###  DescribeProperty
-
-#### Returns
-
-`System.Void` 
-
-###  DescribeIDReferenceProperty
-
-#### Returns
-
-`System.Void` 
-
-###  DescribeEvent
-
-#### Returns
-
-`System.Void` 
-
-###  GetEmbeddedSkinNames
-
-Returns the names of all embedded skins. Used by Telerik.Web.Examples.
-
-#### Returns
-
-`System.Collections.Generic.List`1` 
 
 ###  LoadPostData
 
@@ -315,9 +195,27 @@ Executed when post data changes should invoke a changed event
 
 `System.Void` 
 
-###  GetViewStateValue
+###  RegisterCssReferences
+
+Registers the CSS references
 
 #### Returns
 
-`Telerik.Web.UI.T` 
+`System.Void` 
+
+###  RegisterScriptControl
+
+Registers the control with the ScriptManager
+
+#### Returns
+
+`System.Void` 
+
+###  SaveClientState
+
+Saves the client state data
+
+#### Returns
+
+`System.String` 
 

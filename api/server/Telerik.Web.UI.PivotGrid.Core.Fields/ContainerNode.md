@@ -15,10 +15,6 @@ Represents a node in Telerik.Web.UI.PivotGrid.Core.Fields.FieldInfoNode hierarch
 
 ## Properties
 
-###  Name `String`
-
-Gets a string that can be used as an identifier of this instance.
-
 ###  Caption `String`
 
 Gets or sets the display name.
@@ -30,6 +26,10 @@ Gets the children.
 ###  HasChildren `IList`1`
 
 Value indicating whether this instance has child nodes.
+
+###  Name `String`
+
+Gets a string that can be used as an identifier of this instance.
 
 ###  Role `ContainerNodeRole`
 

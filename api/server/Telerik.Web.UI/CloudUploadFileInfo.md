@@ -15,19 +15,19 @@ Contains the information for the uploaded files.
 
 ## Properties
 
-###  OriginalFileName `String`
+###  ContentLength `Int64`
 
-Gets the original file name of the uploaded file.
-
-###  KeyName `String`
-
-Gets the key name under which the file is stored in the storage provider
+Gets the content length of the uploaded file.
 
 ###  ContentType `String`
 
 Gets the content type of the uploaded file.
 
-###  ContentLength `Int64`
+###  KeyName `String`
 
-Gets the content length of the uploaded file.
+Gets the key name under which the file is stored in the storage provider
+
+###  OriginalFileName `String`
+
+Gets the original file name of the uploaded file.
 

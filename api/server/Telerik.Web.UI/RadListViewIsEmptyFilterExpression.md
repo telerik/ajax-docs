@@ -16,17 +16,29 @@ Class representing the "IsEmpty" filter expression extending the Telerik.Web.UI.
 
 ## Properties
 
-###  FilterFunction `RadListViewFilterFunction`
+###  ExpressionType `String`
 
-Get the type of filter function
+Gets the type of the current filter expression object
+
+###  FieldName `String`
+
+Gets or sets the name of the field on which the filter expression should be applied
 
 ###  FieldType `Type`
 
 Gets the type of the field
 
-###  FieldName `String`
+###  FieldType `Type`
 
-Gets or sets the name of the field on which the filter expression should be applied
+Gets the type of the field
+
+###  FilterFunction `RadListViewFilterFunction`
+
+Get the type of filter function
+
+###  FilterFunction `RadListViewFilterFunction`
+
+Gets the type of filter function
 
 ###  IllegalStrings `String[]`
 
@@ -34,30 +46,7 @@ Gets or sets the illegal strings array. These values indicate which strings coul
             Excluding values from the array will allow these values to be entered in the filtering value. However, it is not recommended
             because possible security vulnerabilities could arise.
 
-###  FilterFunction `RadListViewFilterFunction`
-
-Gets the type of filter function
-
-###  FieldType `Type`
-
-Gets the type of the field
-
-###  ExpressionType `String`
-
-Gets the type of the current filter expression object
-
 ## Methods
-
-###  ToPredicate
-
-Returns a representation of the current filter expression as a delegate
-
-#### Remarks
-Not intended  for external usage
-
-#### Returns
-
-`System.Predicate`1` delegate's instance
 
 ###  ToDynamicLinq
 
@@ -70,41 +59,6 @@ Not intended  for external usage
 #### Returns
 
 `System.String` EntityDataSource string representation
-
-###  ToEntitySQL
-
-Returns a string representation of the filter expression
-            in format suitable for EntityDataSource usage.
-
-#### Remarks
-Not intended  for external usage
-
-#### Returns
-
-`System.String` EntityDataSource string representation
-
-###  ToOql
-
-Returns a string representation of the filter expression
-            in format suitable for OpenAccessDataSource control usage.
-
-#### Remarks
-Not intended for external usage
-
-#### Returns
-
-`System.String` OpenAccessDataSource string representation
-
-###  ToPredicate
-
-Returns a representation of the current filter expression as a delegate
-
-#### Remarks
-Not intended  for external usage
-
-#### Returns
-
-`System.Predicate`1` 
 
 ###  ToDynamicLinq
 
@@ -124,6 +78,18 @@ Returns a string representation of the filter expression
             in format suitable for EntityDataSource usage.
 
 #### Remarks
+Not intended  for external usage
+
+#### Returns
+
+`System.String` EntityDataSource string representation
+
+###  ToEntitySQL
+
+Returns a string representation of the filter expression
+            in format suitable for EntityDataSource usage.
+
+#### Remarks
 Not intended for external usage
 
 #### Returns
@@ -142,21 +108,37 @@ Not intended for external usage
 
 `System.String` OpenAccessDataSource string representation
 
-###  Equals
+###  ToOql
+
+Returns a string representation of the filter expression
+            in format suitable for OpenAccessDataSource control usage.
+
+#### Remarks
+Not intended for external usage
 
 #### Returns
 
-`System.Boolean` 
+`System.String` OpenAccessDataSource string representation
 
-###  Equals
+###  ToPredicate
+
+Returns a representation of the current filter expression as a delegate
+
+#### Remarks
+Not intended  for external usage
 
 #### Returns
 
-`System.Boolean` 
+`System.Predicate`1` delegate's instance
 
-###  GetHashCode
+###  ToPredicate
+
+Returns a representation of the current filter expression as a delegate
+
+#### Remarks
+Not intended  for external usage
 
 #### Returns
 
-`System.Int32` 
+`System.Predicate`1` 
 

@@ -21,91 +21,31 @@ Represents a Telerik.Web.UI.TreeListBoundColumn extended to display a RadCalenda
 
 ## Properties
 
-###  EditDataFormatString `String`
-
-Gets or sets the data format that will be applied to the edit field 
-            when a TreeListDataItem is edited in RadTreeList
-
-###  PickerType `TreeListDateTimeColumnPickerType`
-
-Gets or sets a value from the TreeListDateTimeColumnPickerType enumeration representing the
-            type of picker which will be shown in edit mode.
-
-###  MinDate `DateTime`
-
-Gets or sets a DateTime value representing the MinValue setting of the picker control in edit mode.
-
-###  MaxDate `DateTime`
-
-Gets or sets a DateTime value representing the MaxValue setting of the picker control in edit mode.
-
-###  DataFormatString `String`
-
-Gets or sets the string that specifies the display format for items in the
-            column.
-
-###  FooterAggregateFormatString `String`
-
-Gets or sets the string used to format the footer text.
-
 ###  Aggregate `TreeListAggregateFunction`
 
 Gets or sets the field name from the specified data source to bind to the
             TreeListBoundColumn.
 
-###  EmptyDataText `String`
+###  AllowSorting `Boolean`
 
-Sets or gets default text when column is empty. Default value is
-            "&nbsp;"
+Gets or sets a whether the column data can be sorted.
 
-###  HtmlEncode `Boolean`
+###  ColumnType `String`
 
-Sets or gets whether cell content must be encoded. Default value is
-            false.
+Returns a string which represents the type of the current column.
 
 ###  ConvertEmptyStringToNull `Boolean`
 
 Convert the emty string to null when extracting values during data editing operations.
 
-###  ReadOnly `Boolean`
-
-Gets or sets a value indicating whether the column is read-only. A read-only column
-            will be shown in items in view mode, but will not appear in the edit form of edited items.
-
-###  IsEditable `Boolean`
-
-Gets a value indicating whether this column is currently editable. Use the column's 
-            ReadOnly property if you want to change its editing capabilities.
-
-###  ForceExtractValue `TreeListForceExtractValues`
-
-Specifies how values for this column will be extracted when the column is read-only.
-
-###  DefaultInsertValue `String`
-
-Gets or sets the default value for this column's editor when a new item is inserted in RadTreeList.
-
-###  EditFormHeaderTextFormat `String`
-
-Gets or sets the format of the  that is set
-            to the edit cell inside an auto-generated edit form.
-
-###  EditFormColumnIndex `Int32`
-
-Specifies the vertical column number where this column will appear when
-            using EditForms editing mode and the form is auto-generated.
-
-###  UseNativeEditorsInMobileMode `Boolean`
-
-Gets or sets whether the column editor will be native when treelist's RenderMode is set to Mobile
-
 ###  DataField `String`
 
 Gets or sets the field name from the specified data source to bind to the TreeListDataColumn.
 
-###  AllowSorting `Boolean`
+###  DataFormatString `String`
 
-Gets or sets a whether the column data can be sorted.
+Gets or sets the string that specifies the display format for items in the
+            column.
 
 ###  DataType `Type`
 
@@ -116,18 +56,55 @@ Gets or sets (see the Remarks) the type of the data from the DataField as it
 The DataType property supports the following base .NET Framework data
                 types:BooleanByteCharDateTimeDecimalDoubleInt16Int32Int64SByteSingleStringTimeSpanUInt16UInt32UInt64
 
-###  Owner `RadTreeList`
+###  DefaultInsertValue `String`
 
-Gets a reference to the  object
-            to which the column belongs
+Gets or sets the default value for this column's editor when a new item is inserted in RadTreeList.
 
 ###  DesignMode `Boolean`
 
 Indicates if the control is in design-mode.
 
-###  ColumnType `String`
+###  Display `Boolean`
 
-Returns a string which represents the type of the current column.
+Gets or sets a value indicating whether the cells corresponding to a column would be rendered with a 'display:none' style attribute (end-user-not-visible).
+            To completely prevent cells from rendering, set the  property to false, instead of the Display property.
+
+###  EditDataFormatString `String`
+
+Gets or sets the data format that will be applied to the edit field 
+            when a TreeListDataItem is edited in RadTreeList
+
+###  EditFormColumnIndex `Int32`
+
+Specifies the vertical column number where this column will appear when
+            using EditForms editing mode and the form is auto-generated.
+
+###  EditFormHeaderTextFormat `String`
+
+Gets or sets the format of the  that is set
+            to the edit cell inside an auto-generated edit form.
+
+###  EmptyDataText `String`
+
+Sets or gets default text when column is empty. Default value is
+            "&nbsp;"
+
+###  FooterAggregateFormatString `String`
+
+Gets or sets the string used to format the footer text.
+
+###  FooterText `String`
+
+Use the FooterText property to specify your own or determine the current
+            text for the footer section of the column.
+
+###  ForceExtractValue `TreeListForceExtractValues`
+
+Specifies how values for this column will be extracted when the column is read-only.
+
+###  HeaderStyle `TableItemStyle`
+
+Style of the cell in the header item of the RadTreeList, corresponding to the column.
 
 ###  HeaderText `String`
 
@@ -137,32 +114,58 @@ Gets or sets the text which will appear in the header cell of the column.
 
 Gets or sets the tooltip of the header cell.
 
-###  FooterText `String`
+###  HtmlEncode `Boolean`
 
-Use the FooterText property to specify your own or determine the current
-            text for the footer section of the column.
+Sets or gets whether cell content must be encoded. Default value is
+            false.
 
-###  UniqueName `String`
+###  IsEditable `Boolean`
 
-Each column in Telerik RadTreeList has an UniqueName
-            property (string). This property is assigned automatically by the designer (or the
-            first time you want to access the columns if they are built dynamically).
-
-###  HeaderStyle `TableItemStyle`
-
-Style of the cell in the header item of the RadTreeList, corresponding to the column.
+Gets a value indicating whether this column is currently editable. Use the column's 
+            ReadOnly property if you want to change its editing capabilities.
 
 ###  ItemStyle `TableItemStyle`
 
 Style of the cell in the item of the RadTreeList, corresponding to the column.
 
-###  Visible `Boolean`
+###  MaxDate `DateTime`
 
-Gets or sets a value indicating if the column and all corresponding cells would be rendered.
+Gets or sets a DateTime value representing the MaxValue setting of the picker control in edit mode.
 
-###  Sortable `Boolean`
+###  MaxWidth `Unit`
 
-Should override if sorting will be disabled
+Gets or sets maximum width of the column. Used when resizing.
+
+###  MinDate `DateTime`
+
+Gets or sets a DateTime value representing the MinValue setting of the picker control in edit mode.
+
+###  MinWidth `Unit`
+
+Gets or sets minimum width of the column. Used when resizing.
+
+###  OrderIndex `Int32`
+
+Gets or sets the order index of column used when reordering the columns.
+
+###  Owner `RadTreeList`
+
+Gets a reference to the  object
+            to which the column belongs
+
+###  PickerType `TreeListDateTimeColumnPickerType`
+
+Gets or sets a value from the TreeListDateTimeColumnPickerType enumeration representing the
+            type of picker which will be shown in edit mode.
+
+###  ReadOnly `Boolean`
+
+Gets or sets a value indicating whether the column is read-only. A read-only column
+            will be shown in items in view mode, but will not appear in the edit form of edited items.
+
+###  Reorderable `Boolean`
+
+Gets or sets a value indicating whether the column can be reordered client-side.
 
 ###  Resizable `Boolean`
 
@@ -170,30 +173,27 @@ Gets or sets a value indicating whether the column can be resized client-side.
             You can use this property, by setting it to false, to disable resizing for a particular
             column, while preserving this functionality for all the other columns.
 
-###  Reorderable `Boolean`
+###  Sortable `Boolean`
 
-Gets or sets a value indicating whether the column can be reordered client-side.
-
-###  MinWidth `Unit`
-
-Gets or sets minimum width of the column. Used when resizing.
-
-###  MaxWidth `Unit`
-
-Gets or sets maximum width of the column. Used when resizing.
-
-###  Display `Boolean`
-
-Gets or sets a value indicating whether the cells corresponding to a column would be rendered with a 'display:none' style attribute (end-user-not-visible).
-            To completely prevent cells from rendering, set the  property to false, instead of the Display property.
-
-###  OrderIndex `Int32`
-
-Gets or sets the order index of column used when reordering the columns.
+Should override if sorting will be disabled
 
 ###  SortExpression `String`
 
 The string representing a filed-name from the DataSource that should be used when grid sorts by this column.
+
+###  UniqueName `String`
+
+Each column in Telerik RadTreeList has an UniqueName
+            property (string). This property is assigned automatically by the designer (or the
+            first time you want to access the columns if they are built dynamically).
+
+###  UseNativeEditorsInMobileMode `Boolean`
+
+Gets or sets whether the column editor will be native when treelist's RenderMode is set to Mobile
+
+###  Visible `Boolean`
+
+Gets or sets a value indicating if the column and all corresponding cells would be rendered.
 
 ## Methods
 
@@ -221,24 +221,6 @@ Create and return a default column editor for the current RadTreeList editable c
 
 `Telerik.Web.UI.ITreeListColumnEditor` 
 
-###  GetColumnEditor
-
-Gets the editor of this column from the specified  instance.
-
-#### Returns
-
-`Telerik.Web.UI.ITreeListColumnEditor` 
-
-###  ShouldExtractValues
-
-Gets or sets a value specifying whether RadTreeList should extract values from the specified 
-             instance based on the item's editable state, 
-            the current column's ReadOnly state and the value of ForceExtractValue property.
-
-#### Returns
-
-`System.Boolean` 
-
 ###  FillValues
 
 Extracts the values from the specified  instance and
@@ -258,15 +240,13 @@ The GridEditableItem to extract values from
 
 `System.Void` 
 
-###  TryGetColumnValueFromDataKeys
+###  GetColumnEditor
 
-Checks if the DataField of the current column is in the DataKeyNames or ParentDataKeyNames
-            collection of  and tries to extract the data key value from
-            the specified  instance.
+Gets the editor of this column from the specified  instance.
 
 #### Returns
 
-`System.Boolean` 
+`Telerik.Web.UI.ITreeListColumnEditor` 
 
 ###  GetColumnValueFromDataCell
 
@@ -283,6 +263,15 @@ Extracts the editor values from the specified  instance.
 #### Returns
 
 `System.Collections.IEnumerable` 
+
+###  GetSortExpression
+
+By default returns the SortExpression of the column. If the SortExpression is not set explicitly, it would be calculated, based on the
+            DataField of the column.
+
+#### Returns
+
+`System.String` 
 
 ###  InitializeCell
 
@@ -315,18 +304,23 @@ Prepares the cell of the given item when the treelist is rendered.
 
 `System.Void` 
 
-###  CompareTo
+###  ShouldExtractValues
+
+Gets or sets a value specifying whether RadTreeList should extract values from the specified 
+             instance based on the item's editable state, 
+            the current column's ReadOnly state and the value of ForceExtractValue property.
 
 #### Returns
 
-`System.Int32` 
+`System.Boolean` 
 
-###  GetSortExpression
+###  TryGetColumnValueFromDataKeys
 
-By default returns the SortExpression of the column. If the SortExpression is not set explicitly, it would be calculated, based on the
-            DataField of the column.
+Checks if the DataField of the current column is in the DataKeyNames or ParentDataKeyNames
+            collection of  and tries to extract the data key value from
+            the specified  instance.
 
 #### Returns
 
-`System.String` 
+`System.Boolean` 
 

@@ -20,8 +20,6 @@ the main class from which the button collections derive
 
 Gets or sets the button at the specified index.
 
-###  List `IList`
-
 ## Methods
 
 ###  Add
@@ -33,6 +31,22 @@ Adds the specified item.
 #### item ``0`
 
 The item.
+
+#### Returns
+
+`System.Void` 
+
+###  AddRange
+
+Adds the specified items to the collection.
+
+#### Returns
+
+`System.Void` 
+
+###  Clear
+
+Clears the collection of items
 
 #### Returns
 
@@ -55,14 +69,6 @@ The item.
 ###  CopyTo
 
 Copies the collection items to the specified array.
-
-#### Returns
-
-`System.Void` 
-
-###  AddRange
-
-Adds the specified items to the collection.
 
 #### Returns
 
@@ -101,32 +107,6 @@ Removes the item at the specified index.
 #### index `System.Int32`
 
 The zero-based index of the item to remove.
-
-#### Returns
-
-`System.Void` 
-
-###  Clear
-
-Clears the collection of items
-
-#### Returns
-
-`System.Void` 
-
-###  GetKnownTypes
-
-#### Returns
-
-`System.Type[]` 
-
-###  CreateKnownType
-
-#### Returns
-
-`System.Object` 
-
-###  SetDirtyObject
 
 #### Returns
 

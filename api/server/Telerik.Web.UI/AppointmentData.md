@@ -15,65 +15,65 @@ Represents the appointment data for an appointment such as Start, End, Subject, 
 
 ## Properties
 
-###  ID `Object`
+###  Attributes `IDictionary`2`
 
-Gets or sets the ID.
-
-###  EncodedID `Object`
-
-Gets or sets the encoded ID.
-
-###  Start `DateTime`
-
-Gets or sets the start.
-
-###  End `DateTime`
-
-Gets or sets the end.
-
-###  Subject `String`
-
-Gets or sets the subject.
+Gets or sets the attributes.
 
 ###  Description `String`
 
 Gets or sets the description.
 
-###  RecurrenceState `RecurrenceState`
+###  EncodedID `Object`
 
-Gets or sets the state of the recurrence.
-
-###  RecurrenceParentID `Object`
-
-Gets or sets the recurrence parent ID.
+Gets or sets the encoded ID.
 
 ###  EncodedRecurrenceParentID `Object`
 
 Gets or sets the encoded RecurrenceParentID.
 
+###  End `DateTime`
+
+Gets or sets the end.
+
+###  ID `Object`
+
+Gets or sets the ID.
+
+###  RecurrenceParentID `Object`
+
+Gets or sets the recurrence parent ID.
+
 ###  RecurrenceRule `String`
 
 Gets or sets the recurrence rule.
 
-###  Visible `Boolean`
+###  RecurrenceState `RecurrenceState`
 
-Gets or sets the visible.
+Gets or sets the state of the recurrence.
 
-###  TimeZoneID `Object`
+###  Reminders `IList`1`
 
-Gets or sets the time zone ID.
+Gets or sets the reminders.
 
 ###  Resources `IList`1`
 
 Gets or sets the resources.
 
-###  Attributes `IDictionary`2`
+###  Start `DateTime`
 
-Gets or sets the attributes.
+Gets or sets the start.
 
-###  Reminders `IList`1`
+###  Subject `String`
 
-Gets or sets the reminders.
+Gets or sets the subject.
+
+###  TimeZoneID `Object`
+
+Gets or sets the time zone ID.
+
+###  Visible `Boolean`
+
+Gets or sets the visible.
 
 ## Methods
 

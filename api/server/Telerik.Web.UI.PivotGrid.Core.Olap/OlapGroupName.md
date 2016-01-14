@@ -15,11 +15,11 @@ A class that represents an olap group name.
 
 ## Properties
 
-###  GroupKey `Object`
+###  GroupCaption `String`
 
 Gets or sets the GroupCaption. Use setter only on groups created by you.
 
-###  GroupCaption `String`
+###  GroupKey `Object`
 
 Gets or sets the GroupCaption. Use setter only on groups created by you.
 
@@ -29,13 +29,7 @@ Gets the keys based on which Sorting is applied.
 
 ## Methods
 
-###  ToString
-
-#### Returns
-
-`System.String` 
-
-###  GetHashCode
+###  CompareTo
 
 #### Returns
 
@@ -47,9 +41,15 @@ Gets the keys based on which Sorting is applied.
 
 `System.Boolean` 
 
-###  CompareTo
+###  GetHashCode
 
 #### Returns
 
 `System.Int32` 
+
+###  ToString
+
+#### Returns
+
+`System.String` 
 

@@ -17,6 +17,22 @@ The editor used for Telerik.Web.UI.GridRatingColumn .
 
 ## Properties
 
+###  ContainerControl `Control`
+
+Gets the instance of the Container control (generally a TableCell), after the last call of InstantiateInControl method
+
+###  IsInEditMode `Boolean`
+
+Get a value indicating whether the current row/column editor is in edit mode.
+
+###  IsInitialized `Boolean`
+
+Get value if the editor has been initialized after an InitializeInControl or InitializeFromControl method call
+
+###  IsInitialized `Boolean`
+
+Get value if the editor has been initialized after an InitializeInControl or InitializeFromControl method call
+
 ###  RatingControl `RadRating`
 
 Gets the RadRating control associated with this column editor
@@ -25,43 +41,12 @@ Gets the RadRating control associated with this column editor
 
 Gets the current value of the RadRating control
 
-###  IsInitialized `Boolean`
-
-Get value if the editor has been initialized after an InitializeInControl or InitializeFromControl method call
-
-###  ContainerControl `Control`
-
-Gets the instance of the Container control (generally a TableCell), after the last call of InstantiateInControl method
-
-###  IsInitialized `Boolean`
-
-Get value if the editor has been initialized after an InitializeInControl or InitializeFromControl method call
-
-###  IsInEditMode `Boolean`
-
-Get a value indicating whether the current row/column editor is in edit mode.
-
 ## Methods
 
-###  SetOwner
+###  AddControlsToContainer
 
-#### Returns
-
-`System.Void` 
-
-###  SetOwner
-
-#### Returns
-
-`System.Void` 
-
-###  InitializeInControl
-
-#### Returns
-
-`System.Void` 
-
-###  InitializeFromControl
+Implement this member to create the edit controls in the grid cell.
+            This method is called from each column's InitializeCell method, when a  initializes its cells.
 
 #### Returns
 
@@ -82,15 +67,6 @@ Copy setting from given column editor
 ###  CreateControls
 
 Create the input/edit controls belonging to the editor and prepare for AddControlsToContainer call.
-
-#### Returns
-
-`System.Void` 
-
-###  AddControlsToContainer
-
-Implement this member to create the edit controls in the grid cell.
-            This method is called from each column's InitializeCell method, when a  initializes its cells.
 
 #### Returns
 

@@ -24,23 +24,31 @@ Gets and sets Color
 
 Gets and sets Position
 
-###  ViewStateIgnoresCase `Boolean`
-
-Gets if view sate should ignore case
-
 ###  ViewState `StateBag`
 
 Sate bag to store view state content
 
+###  ViewStateIgnoresCase `Boolean`
+
+Gets if view sate should ignore case
+
 ## Methods
 
-###  Reset
+###  Clone
 
-Reset to default parameters
+Clone this object.
 
 #### Returns
 
-`System.Void` 
+`System.Object` New instance of GradientElement class with the same fields as this one
+
+###  CloneState
+
+Makes a view state clone
+
+#### Returns
+
+`System.Web.UI.StateBag` StateBag
 
 ###  Equals
 
@@ -64,13 +72,43 @@ Gets hash code
 
 `System.Int32` Hash code
 
-###  Clone
+###  LoadViewState
 
-Clone this object.
+Loads data from a view state
+
+#### Parameters
+
+#### state `System.Object`
+
+View state to load data from
 
 #### Returns
 
-`System.Object` New instance of GradientElement class with the same fields as this one
+`System.Void` 
+
+###  Reset
+
+Reset to default parameters
+
+#### Returns
+
+`System.Void` 
+
+###  SaveViewState
+
+Saves object data to a view state
+
+#### Returns
+
+`System.Object` Saved view state object
+
+###  SetDirty
+
+Sets the item dirty state
+
+#### Returns
+
+`System.Void` 
 
 ###  Telerik.Charting.IChartingStateManager.LoadViewState
 
@@ -102,22 +140,6 @@ Tracks view state changes
 
 `System.Void` 
 
-###  CloneState
-
-Makes a view state clone
-
-#### Returns
-
-`System.Web.UI.StateBag` StateBag
-
-###  SaveViewState
-
-Saves object data to a view state
-
-#### Returns
-
-`System.Object` Saved view state object
-
 ###  TrackViewState
 
 Tracks view state changes
@@ -125,34 +147,4 @@ Tracks view state changes
 #### Returns
 
 `System.Void` 
-
-###  LoadViewState
-
-Loads data from a view state
-
-#### Parameters
-
-#### state `System.Object`
-
-View state to load data from
-
-#### Returns
-
-`System.Void` 
-
-###  SetDirty
-
-Sets the item dirty state
-
-#### Returns
-
-`System.Void` 
-
-###  ToString
-
-ToString() override. Used in the properties grid to avoid object type showing.
-
-#### Returns
-
-`System.String` Empty string
 

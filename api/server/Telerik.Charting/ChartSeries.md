@@ -17,10 +17,6 @@ Series
 
 ## Properties
 
-###  IsActiveRegionSet `Boolean`
-
-Returns whether there is an active region associated with the series.
-
 ###  ActiveRegionAttributes `String`
 
 Default attributes for series items' active regions
@@ -33,29 +29,21 @@ Default tooltip for series items' active regions
 
 Default url for series items' active regions
 
-###  Visible `Boolean`
-
-Specifies whether to render the series or not.
-
 ###  Appearance `StyleSeries`
 
 Specifies the visual appearance of series items.
 
-###  Type `ChartSeriesType`
-
-Gets or sets the type of the series.
-
-###  PlotArea `ChartPlotArea`
-
-Plot area element for series drawing
-
-###  Parent `ChartSeriesCollection`
-
-Parent element
-
 ###  Chart `Chart`
 
 Link to Chart object
+
+###  Container `IContainer`
+
+Link to container element
+
+###  DataLabelsColumn `String`
+
+Gets or sets the name of the DataSource column (member) that will be used as ChartSeries names source when Y-values are taken from one column for a several chart ChartSeries
 
 ###  DataXColumn `String`
 
@@ -81,18 +69,6 @@ Gets or sets the name of the DataSource column (member) that is used to data-bin
 
 Gets or sets the name of the DataSource column (member) that is used to data-bind to the series Y4-value (Low for CandleStick chart).
 
-###  DataLabelsColumn `String`
-
-Gets or sets the name of the DataSource column (member) that will be used as ChartSeries names source when Y-values are taken from one column for a several chart ChartSeries
-
-###  IsDataBound `Boolean`
-
-Determines whether the series is configured as data bound or not.
-
-###  Name `String`
-
-Gets or sets the name of the data series.
-
 ###  DefaultLabelValue `String`
 
 Specifies the default value for the series items labels.
@@ -101,57 +77,49 @@ Specifies the default value for the series items labels.
 
 Current series index in the series collection
 
-###  YAxisType `ChartSeriesType`
+###  IsActiveRegionSet `Boolean`
 
-Y Axis used by series
+Returns whether there is an active region associated with the series.
 
-###  Item `ChartSeriesItem`
+###  IsArea `Boolean`
 
-Gets or sets a ChartSeries SeriesItem object at the specified index.
+Determines whether the series is normal area-type.
 
-###  Items `ChartSeriesItem`
+###  IsDataBound `Boolean`
 
-Gets a collection of series items.
+Determines whether the series is configured as data bound or not.
 
-###  LegendFormattedText `String`
+###  IsHasEmptyValues `Boolean`
 
-Formatted text string for a Legend
-
-###  IsScalable `Boolean`
-
-Defines whether series can be used with zoom or not
-
-###  IsXDependent `Boolean`
-
-If series depends of X value
-
-###  IsXDependentSeriesType `ChartSeriesType`
-
-If current series type is x dependent
-
-###  IsNormalStacked `Boolean`
-
-Determines whether the series is stacked and not stacked100 or not.
-
-###  IsStacked100 `Boolean`
-
-Determines whether the series is stacked100 or not.
-
-###  IsStacked `Boolean`
-
-Determines whether the series is stacked or not.
+Determines whether the series has items with empty values
 
 ###  IsLine `Boolean`
 
 Determines whether the series is line-type.
 
+###  IsNormalStacked `Boolean`
+
+Determines whether the series is stacked and not stacked100 or not.
+
+###  IsScalable `Boolean`
+
+Defines whether series can be used with zoom or not
+
 ###  IsSplineArea `Boolean`
 
 Determines whether the series is spline area-type.
 
-###  IsArea `Boolean`
+###  IsStacked `Boolean`
 
-Determines whether the series is normal area-type.
+Determines whether the series is stacked or not.
+
+###  IsStacked100 `Boolean`
+
+Determines whether the series is stacked100 or not.
+
+###  IsStackedArea `Boolean`
+
+Determines whether the series is stacked area-type.
 
 ###  IsStackedLine `Boolean`
 
@@ -165,281 +133,59 @@ Determines whether the series is stacked area-type.
 
 Determines whether the series is stacked area-type.
 
-###  IsStackedArea `Boolean`
+###  IsXDependent `Boolean`
 
-Determines whether the series is stacked area-type.
+If series depends of X value
 
-###  IsHasEmptyValues `Boolean`
+###  IsXDependentSeriesType `ChartSeriesType`
 
-Determines whether the series has items with empty values
+If current series type is x dependent
 
-###  Container `IContainer`
+###  Item `ChartSeriesItem`
 
-Link to container element
+Gets or sets a ChartSeries SeriesItem object at the specified index.
 
-###  ViewStateIgnoresCase `Boolean`
+###  Items `ChartSeriesItem`
 
-Gets if view sate should ignore case
+Gets a collection of series items.
+
+###  LegendFormattedText `String`
+
+Formatted text string for a Legend
+
+###  Name `String`
+
+Gets or sets the name of the data series.
+
+###  Parent `ChartSeriesCollection`
+
+Parent element
+
+###  PlotArea `ChartPlotArea`
+
+Plot area element for series drawing
+
+###  Type `ChartSeriesType`
+
+Gets or sets the type of the series.
 
 ###  ViewState `StateBag`
 
 Sate bag to store view state content
 
+###  ViewStateIgnoresCase `Boolean`
+
+Gets if view sate should ignore case
+
+###  Visible `Boolean`
+
+Specifies whether to render the series or not.
+
+###  YAxisType `ChartSeriesType`
+
+Y Axis used by series
+
 ## Methods
-
-###  SetParent
-
-Set series parent
-
-#### Parameters
-
-#### parent `Telerik.Charting.ChartSeriesCollection`
-
-#### Returns
-
-`System.Void` 
-
-###  ResetActiveRegionForItems
-
-Resets active region properties values
-
-#### Returns
-
-`System.Void` 
-
-###  FindItemIndex
-
-Search item index in series collection
-
-#### Parameters
-
-#### chartItem `Telerik.Charting.ChartSeriesItem`
-
-Item which index should to find
-
-#### Returns
-
-`System.Int32` Index of item
-
-###  SetFormattedLegendItemText
-
-Sets the legend item's formatted text
-
-#### Returns
-
-`System.Void` 
-
-###  GetEmptyPointYValue
-
-Gets a Y value for empty points
-
-#### Parameters
-
-#### item `Telerik.Charting.ChartSeriesItem`
-
-Series item
-
-#### itemIndex `System.Int32`
-
-Series item index
-
-#### Returns
-
-`System.Double` Empty point y value
-
-###  GetEmptyPointYValue
-
-Gets a Y value for empty points
-
-#### Returns
-
-`System.Double` 
-
-###  CheckBezierSeriesForItemsCount
-
-Performs check for a required Bezier series items amount
-
-#### Parameters
-
-#### mess `System.String@`
-
-Error message
-
-#### Returns
-
-`System.Boolean` Bezier series items amount is proper
-
-###  AddLabelsForPieSeries
-
-Creates Pie series labels
-
-#### Parameters
-
-#### points `System.Drawing.PointF`
-
-Points where labels should be located
-
-#### text `System.String`
-
-Labels text
-
-#### angles `System.Double`
-
-Angles
-
-#### pieCenter `System.Drawing.PointF`
-
-PieCenter point
-
-#### pieRadius `System.Single`
-
-PieRadius
-
-#### renderEngine `Telerik.Charting.RenderEngine`
-
-RenderEngine of chart
-
-#### Returns
-
-`System.Void` 
-
-###  PrepareSeriesByXValues
-
-Filters X dependent series items without X value
-
-#### Returns
-
-`System.Void` 
-
-###  Sum
-
-Sum of series items' Y values
-
-#### Returns
-
-`System.Double` Sum of series items' Y values
-
-###  GetCustomFormat
-
-Custom format string
-
-#### Parameters
-
-#### s `System.String@`
-
-String should be formatted
-
-#### expression `System.String`
-
-Format expression
-
-#### Returns
-
-`System.String` Formated string
-
-###  GetSumForStacked
-
-Return a sum value of items values
-
-#### Parameters
-
-#### item `Telerik.Charting.ChartSeriesItem`
-
-Series item
-
-#### Returns
-
-`System.Double` Sum
-
-###  ReplaceString
-
-Replaces string
-
-#### Parameters
-
-#### s `System.String@`
-
-String that should be changed
-
-#### expression `System.String`
-
-Expression for formatting
-
-#### val `System.Double`
-
-Item Value
-
-#### defaultFormat `System.String`
-
-Default format
-
-#### Returns
-
-`System.Void` 
-
-###  FormatValues
-
-#### Returns
-
-`System.String` 
-
-###  GetItemLabel
-
-Returns text for item label
-
-#### Parameters
-
-#### item `Telerik.Charting.ChartSeriesItem`
-
-Item which label should be taken
-
-#### Returns
-
-`System.String` Label text
-
-###  Clear
-
-Clears all series items from the data series.
-
-#### Returns
-
-`System.Void` 
-
-###  RemoveItem
-
-Removes a series item(s) from the series.
-
-#### Parameters
-
-#### seriesItem `Telerik.Charting.ChartSeriesItem`
-
-Item for removing
-
-#### seriesItems `Telerik.Charting.ChartSeriesItem`
-
-Items for removing
-
-#### Returns
-
-`System.Void` 
-
-###  RemoveItem
-
-Removes a series item(s) from the series.
-
-#### Parameters
-
-#### index `System.Int32`
-
-Index of item should be removed
-
-#### indexes `System.Int32`
-
-Indexes of items should be removed
-
-#### Returns
-
-`System.Void` 
 
 ###  AddItem
 
@@ -581,157 +327,73 @@ If item is exploded
 
 `System.Void` 
 
-###  SetItemColor
+###  AddLabelsForPieSeries
 
-Sets a new color to the series item at the specified index.
+Creates Pie series labels
 
 #### Parameters
 
-#### itemIndex `System.Int32`
+#### points `System.Drawing.PointF`
 
-Index of item to change color
+Points where labels should be located
 
-#### newColor `System.Drawing.Color`
+#### text `System.String`
 
-New color of item
+Labels text
+
+#### angles `System.Double`
+
+Angles
+
+#### pieCenter `System.Drawing.PointF`
+
+PieCenter point
+
+#### pieRadius `System.Single`
+
+PieRadius
+
+#### renderEngine `Telerik.Charting.RenderEngine`
+
+RenderEngine of chart
 
 #### Returns
 
 `System.Void` 
 
-###  SetItemValue
+###  BringForward
 
-Sets a new value for the series item at the specified index.
-
-#### Parameters
-
-#### itemIndex `System.Int32`
-
-Index of item to change YValue
-
-#### newValue `System.Double`
-
-New YValue
+Send element at one step forward in the render order list
 
 #### Returns
 
 `System.Void` 
 
-###  SetItemLabel
+###  BringToFront
 
-Sets a new label for the series item at the specified index.
-
-#### Parameters
-
-#### itemIndex `System.Int32`
-
-Index of item to change label
-
-#### newLabel `System.String`
-
-New label
+Set element at the first position in render order list
 
 #### Returns
 
 `System.Void` 
 
-###  SetItemExplode
+###  CheckBezierSeriesForItemsCount
 
-Sets a new explode status for the series item at the specified index.
+Performs check for a required Bezier series items amount
 
 #### Parameters
 
-#### itemIndex `System.Int32`
+#### mess `System.String@`
 
-Index of item
-
-#### exploded `System.Boolean`
-
-Shoul be exploded or not
+Error message
 
 #### Returns
 
-`System.Void` 
+`System.Boolean` Bezier series items amount is proper
 
-###  SetValues
+###  Clear
 
-Sets new values to the data series by passing an array of real values. Old values are cleared.
-
-#### Parameters
-
-#### values `System.Double`
-
-New values
-
-#### Returns
-
-`System.Void` 
-
-###  SetColors
-
-Sets new colors to the items in the data series.
-
-#### Parameters
-
-#### colors `System.Drawing.Color`
-
-New colors
-
-#### Returns
-
-`System.Void` 
-
-###  SetLabels
-
-Sets new labels to the items in the data series.
-
-#### Parameters
-
-#### labels `System.String`
-
-New labels
-
-#### Returns
-
-`System.Void` 
-
-###  SetExplodes
-
-Sets exploded statuses to the items in the data series.
-
-#### Parameters
-
-#### explodes `System.Boolean`
-
-New exploded values
-
-#### Returns
-
-`System.Void` 
-
-###  SetItems
-
-Sets new SeriesItems objects to the data series.
-
-#### Parameters
-
-#### seriesItems `Telerik.Charting.ChartSeriesItem`
-
-New Items to replace old items in series
-
-#### Returns
-
-`System.Void` 
-
-###  RemoveItem
-
-Removes the SeriesItem object at the specified index.
-
-#### Parameters
-
-#### itemIndex `System.Int32`
-
-Index to remove
+Clears all series items from the data series.
 
 #### Returns
 
@@ -745,13 +407,21 @@ Removes data binding links from series
 
 `System.Void` 
 
-###  ToString
+###  CloneSeries
 
-Overridden
+Return new ChartSeries instance with copied all properties from source object and cloned Items collection
 
 #### Returns
 
-`System.String` Series name
+`Telerik.Charting.ChartSeries` New instance of ChartSeries with copied fields
+
+###  CloneState
+
+Makes a view state clone
+
+#### Returns
+
+`System.Web.UI.StateBag` StateBag
 
 ###  CopyFrom
 
@@ -781,20 +451,6 @@ Series that items should be copied
 
 `System.Void` 
 
-###  CloneSeries
-
-Return new ChartSeries instance with copied all properties from source object and cloned Items collection
-
-#### Returns
-
-`Telerik.Charting.ChartSeries` New instance of ChartSeries with copied fields
-
-###  Clone
-
-#### Returns
-
-`System.Object` 
-
 ###  Dispose
 
 Releases unmanaged and - optionally - managed resources
@@ -809,13 +465,99 @@ true to release both managed and unmanaged resources; false to release only unma
 
 `System.Void` 
 
-###  TrackViewState
+###  FindItemIndex
 
-Track ViewState
+Search item index in series collection
+
+#### Parameters
+
+#### chartItem `Telerik.Charting.ChartSeriesItem`
+
+Item which index should to find
 
 #### Returns
 
-`System.Void` 
+`System.Int32` Index of item
+
+###  GetCustomFormat
+
+Custom format string
+
+#### Parameters
+
+#### s `System.String@`
+
+String should be formatted
+
+#### expression `System.String`
+
+Format expression
+
+#### Returns
+
+`System.String` Formated string
+
+###  GetEmptyPointYValue
+
+Gets a Y value for empty points
+
+#### Parameters
+
+#### item `Telerik.Charting.ChartSeriesItem`
+
+Series item
+
+#### itemIndex `System.Int32`
+
+Series item index
+
+#### Returns
+
+`System.Double` Empty point y value
+
+###  GetEmptyPointYValue
+
+Gets a Y value for empty points
+
+#### Returns
+
+`System.Double` 
+
+###  GetItemLabel
+
+Returns text for item label
+
+#### Parameters
+
+#### item `Telerik.Charting.ChartSeriesItem`
+
+Item which label should be taken
+
+#### Returns
+
+`System.String` Label text
+
+###  GetOrder
+
+Get this elements order position in container
+
+#### Returns
+
+`System.Int32` 
+
+###  GetSumForStacked
+
+Return a sum value of items values
+
+#### Parameters
+
+#### item `Telerik.Charting.ChartSeriesItem`
+
+Series item
+
+#### Returns
+
+`System.Double` Sum
 
 ###  LoadViewState
 
@@ -831,31 +573,31 @@ ViewState with data
 
 `System.Void` 
 
-###  SaveViewState
+###  LoadViewState
 
-Save Track ViewState
-
-#### Returns
-
-`System.Object` Object data as array
-
-###  GetOrder
-
-Get this elements order position in container
-
-#### Returns
-
-`System.Int32` 
-
-###  SetOrder
-
-Set this object in new render order position
+Loads data from a view state
 
 #### Parameters
 
-#### index `System.Int32`
+#### state `System.Object`
 
-New position
+View state to load data from
+
+#### Returns
+
+`System.Void` 
+
+###  OnRender
+
+Called after rendering
+
+#### Returns
+
+`System.Void` 
+
+###  PrepareSeriesByXValues
+
+Filters X dependent series items without X value
 
 #### Returns
 
@@ -869,21 +611,105 @@ Remove this  element from  render order list
 
 `System.Void` 
 
-###  BringForward
+###  RemoveItem
 
-Send element at one step forward in the render order list
+Removes a series item(s) from the series.
+
+#### Parameters
+
+#### seriesItem `Telerik.Charting.ChartSeriesItem`
+
+Item for removing
+
+#### seriesItems `Telerik.Charting.ChartSeriesItem`
+
+Items for removing
 
 #### Returns
 
 `System.Void` 
 
-###  BringToFront
+###  RemoveItem
 
-Set element at the first position in render order list
+Removes a series item(s) from the series.
+
+#### Parameters
+
+#### index `System.Int32`
+
+Index of item should be removed
+
+#### indexes `System.Int32`
+
+Indexes of items should be removed
 
 #### Returns
 
 `System.Void` 
+
+###  RemoveItem
+
+Removes the SeriesItem object at the specified index.
+
+#### Parameters
+
+#### itemIndex `System.Int32`
+
+Index to remove
+
+#### Returns
+
+`System.Void` 
+
+###  ReplaceString
+
+Replaces string
+
+#### Parameters
+
+#### s `System.String@`
+
+String that should be changed
+
+#### expression `System.String`
+
+Expression for formatting
+
+#### val `System.Double`
+
+Item Value
+
+#### defaultFormat `System.String`
+
+Default format
+
+#### Returns
+
+`System.Void` 
+
+###  ResetActiveRegionForItems
+
+Resets active region properties values
+
+#### Returns
+
+`System.Void` 
+
+###  SaveViewState
+
+Save Track ViewState
+
+#### Returns
+
+`System.Object` Object data as array
+
+###  SaveViewState
+
+Saves object data to a view state
+
+#### Returns
+
+`System.Object` Saved view state object
 
 ###  SendBackward
 
@@ -901,13 +727,197 @@ Send element at the end of render order list
 
 `System.Void` 
 
-###  OnRender
+###  SetColors
 
-Called after rendering
+Sets new colors to the items in the data series.
+
+#### Parameters
+
+#### colors `System.Drawing.Color`
+
+New colors
 
 #### Returns
 
 `System.Void` 
+
+###  SetDirty
+
+Sets the item dirty state
+
+#### Returns
+
+`System.Void` 
+
+###  SetExplodes
+
+Sets exploded statuses to the items in the data series.
+
+#### Parameters
+
+#### explodes `System.Boolean`
+
+New exploded values
+
+#### Returns
+
+`System.Void` 
+
+###  SetFormattedLegendItemText
+
+Sets the legend item's formatted text
+
+#### Returns
+
+`System.Void` 
+
+###  SetItemColor
+
+Sets a new color to the series item at the specified index.
+
+#### Parameters
+
+#### itemIndex `System.Int32`
+
+Index of item to change color
+
+#### newColor `System.Drawing.Color`
+
+New color of item
+
+#### Returns
+
+`System.Void` 
+
+###  SetItemExplode
+
+Sets a new explode status for the series item at the specified index.
+
+#### Parameters
+
+#### itemIndex `System.Int32`
+
+Index of item
+
+#### exploded `System.Boolean`
+
+Shoul be exploded or not
+
+#### Returns
+
+`System.Void` 
+
+###  SetItemLabel
+
+Sets a new label for the series item at the specified index.
+
+#### Parameters
+
+#### itemIndex `System.Int32`
+
+Index of item to change label
+
+#### newLabel `System.String`
+
+New label
+
+#### Returns
+
+`System.Void` 
+
+###  SetItems
+
+Sets new SeriesItems objects to the data series.
+
+#### Parameters
+
+#### seriesItems `Telerik.Charting.ChartSeriesItem`
+
+New Items to replace old items in series
+
+#### Returns
+
+`System.Void` 
+
+###  SetItemValue
+
+Sets a new value for the series item at the specified index.
+
+#### Parameters
+
+#### itemIndex `System.Int32`
+
+Index of item to change YValue
+
+#### newValue `System.Double`
+
+New YValue
+
+#### Returns
+
+`System.Void` 
+
+###  SetLabels
+
+Sets new labels to the items in the data series.
+
+#### Parameters
+
+#### labels `System.String`
+
+New labels
+
+#### Returns
+
+`System.Void` 
+
+###  SetOrder
+
+Set this object in new render order position
+
+#### Parameters
+
+#### index `System.Int32`
+
+New position
+
+#### Returns
+
+`System.Void` 
+
+###  SetParent
+
+Set series parent
+
+#### Parameters
+
+#### parent `Telerik.Charting.ChartSeriesCollection`
+
+#### Returns
+
+`System.Void` 
+
+###  SetValues
+
+Sets new values to the data series by passing an array of real values. Old values are cleared.
+
+#### Parameters
+
+#### values `System.Double`
+
+New values
+
+#### Returns
+
+`System.Void` 
+
+###  Sum
+
+Sum of series items' Y values
+
+#### Returns
+
+`System.Double` Sum of series items' Y values
 
 ###  Telerik.Charting.IChartingStateManager.LoadViewState
 
@@ -939,21 +949,21 @@ Tracks view state changes
 
 `System.Void` 
 
-###  CloneState
+###  ToString
 
-Makes a view state clone
-
-#### Returns
-
-`System.Web.UI.StateBag` StateBag
-
-###  SaveViewState
-
-Saves object data to a view state
+Overridden
 
 #### Returns
 
-`System.Object` Saved view state object
+`System.String` Series name
+
+###  TrackViewState
+
+Track ViewState
+
+#### Returns
+
+`System.Void` 
 
 ###  TrackViewState
 
@@ -962,34 +972,4 @@ Tracks view state changes
 #### Returns
 
 `System.Void` 
-
-###  LoadViewState
-
-Loads data from a view state
-
-#### Parameters
-
-#### state `System.Object`
-
-View state to load data from
-
-#### Returns
-
-`System.Void` 
-
-###  SetDirty
-
-Sets the item dirty state
-
-#### Returns
-
-`System.Void` 
-
-###  ToString
-
-ToString() override. Used in the properties grid to avoid object type showing.
-
-#### Returns
-
-`System.String` Empty string
 

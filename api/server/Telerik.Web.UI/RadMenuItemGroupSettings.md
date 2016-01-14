@@ -16,7 +16,14 @@ Represents settings controlling child item behavior.
 
 ## Properties
 
-###  DefaultSettings `RadMenuItemGroupSettings`
+###  ExpandDirection `ExpandDirection`
+
+Gets or sets the direction in which child items will open.
+
+#### Remarks
+Use the ExpandDirection property to specify different expand
+                direction than the automatically determined one. See the
+                ExpandDirection description for more information.
 
 ###  Flow `ItemFlow`
 
@@ -27,14 +34,14 @@ Use the Flow property to customize the flow of child menu items.
             By default RadMenu mimics the behavior of Windows and child items
             (apart from top level ones) flow vertically.
 
-###  ExpandDirection `ExpandDirection`
+###  Height `Unit`
 
-Gets or sets the direction in which child items will open.
+Gets or sets a value indicating the height of child menu items (the whole item
+            group).
 
 #### Remarks
-Use the ExpandDirection property to specify different expand
-                direction than the automatically determined one. See the
-                ExpandDirection description for more information.
+If the total height of menu items exceeds the Height property
+            scrolling will be applied.
 
 ###  OffsetX `Int32`
 
@@ -58,24 +65,6 @@ Use the OffsetY property to change the position where child
                     To customize the horizontal offset use the OffsetX
                     property.
 
-###  Width `Unit`
-
-Gets or sets a value indicating the width of child menu items (the whole item
-            group).
-
-#### Remarks
-If the total width of menu items exceeds the Width property
-            scrolling will be applied.
-
-###  Height `Unit`
-
-Gets or sets a value indicating the height of child menu items (the whole item
-            group).
-
-#### Remarks
-If the total height of menu items exceeds the Height property
-            scrolling will be applied.
-
 ###  RepeatColumns `Int32`
 
 Gets or sets the number of columns to display in this item group.
@@ -98,6 +87,15 @@ When this property is set to Vertical,
             items are displayed horizontally in rows from left to right, 
             then top to bottom, until all items are rendered.
 
+###  Width `Unit`
+
+Gets or sets a value indicating the width of child menu items (the whole item
+            group).
+
+#### Remarks
+If the total width of menu items exceeds the Width property
+            scrolling will be applied.
+
 ## Methods
 
 ###  ToString
@@ -108,10 +106,4 @@ Returns a  that represents the current
 #### Returns
 
 `System.String` A  that represents the current .
-
-###  GetViewStateValue
-
-#### Returns
-
-`Telerik.Web.UI.T` 
 

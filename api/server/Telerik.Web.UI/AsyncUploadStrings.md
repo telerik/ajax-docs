@@ -17,14 +17,6 @@ This Class gets or sets the Select, Cancel and Move strings in the LocalizationS
 
 ## Properties
 
-###  Select `String`
-
-Gets or sets the string "Select".
-
-###  Remove `String`
-
-Gets or sets the string "Remove".
-
 ###  Cancel `String`
 
 Gets or sets the string "Cancel".
@@ -32,4 +24,12 @@ Gets or sets the string "Cancel".
 ###  DropZone `String`
 
 Gets or sets the string "DropZone" text.
+
+###  Remove `String`
+
+Gets or sets the string "Remove".
+
+###  Select `String`
+
+Gets or sets the string "Select".
 

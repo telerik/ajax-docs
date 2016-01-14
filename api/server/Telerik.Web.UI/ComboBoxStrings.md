@@ -17,6 +17,18 @@ The localization strings to be used in RadComboBox.
 
 ## Properties
 
+###  AllItemsCheckedString `String`
+
+Gets or sets all items checked string.
+
+###  CheckAllString `String`
+
+Gets or sets the check all string.
+
+###  ItemsCheckedString `String`
+
+Gets or sets the items checked string.
+
 ###  NoMatches `String`
 
 Gets or sets the NoMatches.
@@ -24,16 +36,4 @@ Gets or sets the NoMatches.
 ###  ShowMoreFormatString `String`
 
 Gets or sets the show more format string.
-
-###  AllItemsCheckedString `String`
-
-Gets or sets all items checked string.
-
-###  ItemsCheckedString `String`
-
-Gets or sets the items checked string.
-
-###  CheckAllString `String`
-
-Gets or sets the check all string.
 

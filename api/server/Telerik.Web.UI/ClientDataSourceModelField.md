@@ -16,6 +16,18 @@ The class repsents a field in the Telerik.Web.UI.ClientDataSourceModel of the Te
 
 ## Properties
 
+###  DataType `ClientDataSourceModelFieldType`
+
+Gets or sets the corresponding client-side type of the field from the model.
+
+###  DefaultValue `Object`
+
+Gets or sets the default value of the field from the .
+
+###  Editable `Boolean`
+
+Gets or sets field from  is editable. Default is false.
+
 ###  FieldName `String`
 
 Gets or sets the name of the field from the .
@@ -24,6 +36,10 @@ Gets or sets the name of the field from the .
 
 Gets or sets Ignore Case for field
 
+###  Nullable `Boolean`
+
+Gets or sets field from  is nullable. Default is false.
+
 ###  OriginalFieldName `String`
 
 Gets or sets the name of the orginal field from the data.
@@ -31,20 +47,4 @@ Gets or sets the name of the orginal field from the data.
 ###  ParseFunctionName `String`
 
 Gets or sets the name of function which will parse the field value. If not set default parsers will be used.
-
-###  Editable `Boolean`
-
-Gets or sets field from  is editable. Default is false.
-
-###  Nullable `Boolean`
-
-Gets or sets field from  is nullable. Default is false.
-
-###  DefaultValue `Object`
-
-Gets or sets the default value of the field from the .
-
-###  DataType `ClientDataSourceModelFieldType`
-
-Gets or sets the corresponding client-side type of the field from the model.
 

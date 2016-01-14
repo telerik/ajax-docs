@@ -15,25 +15,25 @@ This class defines DropDownTreeNodes in the DropDownTree control.
 
 ## Properties
 
-###  Selected `Boolean`
+###  Checkable `Boolean`
 
-Gets or Sets whether the DropDownTreeNode is selected
+Gets or sets whether the node is checkable
 
 ###  Checked `Boolean`
 
 Gets or Sets whether the DropDownTreeNode is checked
 
-###  Text `String`
-
-Gets or Sets the DropDownTreeNode text
-
-###  Value `String`
-
-Gets or Sets the DropDownTreeNode value
-
 ###  CssClass `String`
 
 Gets or Sets the DropDownTreeNode CssClass
+
+###  DataItem `Object`
+
+Gets the DropDownTreeNode DataItem
+
+###  Expanded `Boolean`
+
+Gets or sets whether the node is checkable
 
 ###  FullPath `String`
 
@@ -43,23 +43,31 @@ Gets the DropDownTreeNode full path
 
 Gets the DropDownTreeNode ID
 
-###  DataItem `Object`
-
-Gets the DropDownTreeNode DataItem
-
 ###  Level `Int32`
 
 Gets the DropDownTreeNode Level
 
-###  Checkable `Boolean`
+###  Selected `Boolean`
 
-Gets or sets whether the node is checkable
+Gets or Sets whether the DropDownTreeNode is selected
 
-###  Expanded `Boolean`
+###  Text `String`
 
-Gets or sets whether the node is checkable
+Gets or Sets the DropDownTreeNode text
+
+###  Value `String`
+
+Gets or Sets the DropDownTreeNode value
 
 ## Methods
+
+###  CreateEntry
+
+Creates entry from the current DropDownNode
+
+#### Returns
+
+`System.Void` 
 
 ###  FindControl
 
@@ -72,12 +80,4 @@ Finds control in DropDownTreeNode controls collection
 #### Returns
 
 `System.Web.UI.Control` 
-
-###  CreateEntry
-
-Creates entry from the current DropDownNode
-
-#### Returns
-
-`System.Void` 
 

@@ -27,26 +27,27 @@ When the user clicks a toolbar button, the Telerik.Web.UI.RadToolBar RadToolBarc
 
 ## Properties
 
-###  Owner `IRadToolBarItemContainer`
+###  AccessKey `String`
 
-Gets a reference to the owner of the RadToolBarButton.
+Gets or sets the access key that allows you to quickly navigate to the Web server control.
 
-###  DataItem `Object`
+###  AllowSelfUnCheck `Boolean`
 
-Gets the data item that is bound to the button
+Gets or sets a value indicating if a checked button will get unchecked when clicked.
+
+###  CausesValidation `Boolean`
+
+Gets or sets a value indicating whether validation is performed when
+            the RadToolBarButton is clicked
 
 #### Remarks
-This property is applicable only during data binding. Use it along with the
-                ButtonDataBound event to perform additional
-                mapping of fields from the data item to RadToolBarButton properties.
-
-###  IsSeparator `Boolean`
-
-Gets or sets whether the button is separator.
-
-###  CheckOnClick `Boolean`
-
-Gets or sets whether the button has a check state.
+By default, page validation is performed when the button is clicked. Page
+                validation determines whether the input controls associated with a validation
+                control on the page all pass the validation rules specified by the validation
+                control. You can specify or determine whether validation is performed when the button is clicked
+            	on both the client and the server by using the CausesValidation
+                property. To prevent validation from being performed, set the
+                CausesValidation property to false.
 
 ###  Checked `Boolean`
 
@@ -60,18 +61,6 @@ The Checked property of the button depends on the
             	When a button's Checked state is set to true, all the buttons that belong
             	to the same group in the RadToolBar get their Checked
             	state set to false.
-
-###  Group `String`
-
-Gets or sets the group to which the button belongs.
-
-#### Remarks
-The Group property of the button depends on the
-            	CheckOnClick property. When several buttons
-            	in the RadToolBar are assigned to the same group, checking one
-            	of them will uncheck the one that is currently checked. If the
-            	CheckOnClick property is set to
-            	false, the Group property will be ignored.
 
 ###  CheckedCssClass `Boolean`
 
@@ -89,150 +78,9 @@ Use the CheckedImageUrl property to specify the image that will be
             property will be used. Use "~" (tilde) when referring to images within the current
             ASP.NET application.
 
-###  AllowSelfUnCheck `Boolean`
+###  CheckOnClick `Boolean`
 
-Gets or sets a value indicating if a checked button will get unchecked when clicked.
-
-###  ItemTemplate `ITemplate`
-
-Gets or sets the template for displaying the button.
-
-###  PostBack `Boolean`
-
-Gets or sets a value indicating whether clicking on the button will
-            postback.
-
-#### Remarks
-If you subscribe to the ButtonClick all toolbar
-                buttons will postback. To turn off that behavior you should set the
-                PostBack property to false.
-
-###  Value `String`
-
-Gets or sets the value associated with the toolbar button.
-
-#### Remarks
-Use the Value property to specify or determine the value associated
-                with the button.
-
-###  NavigateUrl `String`
-
-Gets or sets the URL to link to when the button is clicked.
-
-#### Remarks
-Use the NavigateUrl property to specify the URL to link to when
-            the button is clicked. Use "~" (tilde) in front of an URL within the same ASP.NET
-            application. When specifying external URL do not forget the protocol (e.g.
-            "http://").
-
-###  Target `String`
-
-Gets or sets the target window or frame to display the Web page content linked to
-            when the toolbar button is clicked.
-
-#### Remarks
-Use the Target property to specify the frame or window that displays the
-                    Web page linked to when the toolbar button is clicked. The Web page is specified by
-                    setting the NavigateUrl property.
-                If this property is not set, the Web page specified by the
-                NavigateUrl property is loaded in the current window.
-
-###  CommandName `String`
-
-Gets or sets the command name associated with the toolbar button that is passed to the
-            	ItemCommand event of the RadToolBar instance.
-
-###  CommandArgument `String`
-
-Gets or sets an optional parameter passed to the Command event of the
-            	RadToolBar instance along with the associated
-            	CommandName
-
-###  CausesValidation `Boolean`
-
-Gets or sets a value indicating whether validation is performed when
-            the RadToolBarButton is clicked
-
-#### Remarks
-By default, page validation is performed when the button is clicked. Page
-                validation determines whether the input controls associated with a validation
-                control on the page all pass the validation rules specified by the validation
-                control. You can specify or determine whether validation is performed when the button is clicked
-            	on both the client and the server by using the CausesValidation
-                property. To prevent validation from being performed, set the
-                CausesValidation property to false.
-
-###  ValidationGroup `String`
-
-Gets or sets the name of the validation group to which the
-            	RadToolBarButton belongs.
-
-#### Remarks
-This property works only when CausesValidation
-                is set to true.
-
-###  PostBackUrl `Boolean`
-
-Gets or sets the URL of the page to post to from the current page when the
-                RadToolBarButton is clicked.
-
-###  ToolBar `RadToolBar`
-
-Gets the RadToolBar instance which contains the item.
-
-#### Remarks
-Use this property to obtain an instance to the
-                RadToolBar object containing the item.
-
-###  Text `String`
-
-Gets or sets the text displayed for the current item.
-
-#### Remarks
-Use the Text property to specify or determine the text an item displays displays
-            	in the RadToolBar control.
-
-###  ImageUrl `String`
-
-Gets or sets the path to an image to display for the item.
-
-#### Remarks
-Use the ImageUrl property to specify the image for the item. If
-            the ImageUrl property is set to empty string no image will be
-            rendered. Use "~" (tilde) when referring to images within the current ASP.NET
-            application.
-
-###  HoveredImageUrl `String`
-
-Gets or sets the path to an image to display when the user moves the
-            mouse over the item.
-
-#### Remarks
-Use the HoveredImageUrl property to specify the image that will be
-            used when the user moves the mouse over the item. If the HoveredImageUrl
-            property is set to empty string the image specified by the ImageUrl
-            property will be used. Use "~" (tilde) when referring to images within the current
-            ASP.NET application.
-
-###  SpriteCssClass `String`
-
-Gets or sets the Cascading Style Sheet (CSS) class
-            that contains the sprite image for this item and the positioning for it.
-
-#### Remarks
-By default, the image in an item is defined by the ImageUrl property.
-            You can use SpriteCssClass to specify a class that will position a sprite
-            instead of using image.
-
-###  HoveredCssClass `String`
-
-Gets or sets the Cascading Style Sheet (CSS) class applied when the user moves the mouse
-            over the toolbar item.
-
-#### Remarks
-By default the visual appearance of a hovered toolbar items is defined in the skin CSS
-            file. You can use the HoveredCssClass property to specify unique
-            appearance for the toolbar item when it is hovered.
+Gets or sets whether the button has a check state.
 
 ###  ClickedCssClass `String`
 
@@ -250,6 +98,36 @@ Use the ClickedImageUrl property to specify the image that will be
             property will be used. Use "~" (tilde) when referring to images within the current
             ASP.NET application.
 
+###  CommandArgument `String`
+
+Gets or sets an optional parameter passed to the Command event of the
+            	RadToolBar instance along with the associated
+            	CommandName
+
+###  CommandName `String`
+
+Gets or sets the command name associated with the toolbar button that is passed to the
+            	ItemCommand event of the RadToolBar instance.
+
+###  DataItem `Object`
+
+Gets the data item that is bound to the button
+
+#### Remarks
+This property is applicable only during data binding. Use it along with the
+                ButtonDataBound event to perform additional
+                mapping of fields from the data item to RadToolBarButton properties.
+
+###  DisabledCssClass `String`
+
+Gets or sets the Cascading Style Sheet (CSS) class applied when the toolbar item is
+            disabled.
+
+#### Remarks
+By default the visual appearance of disabled toolbar items is defined in the skin CSS
+            file. You can use the DisabledCssClass property to specify unique
+            appearance for the toolbar item when it is disabled.
+
 ###  DisabledImageUrl `String`
 
 Gets or sets the path to an image to display when the item is disabled.
@@ -261,15 +139,9 @@ Use the DisabledImageUrl property to specify the image that will be
             property will be used. Use "~" (tilde) when referring to images within the current
             ASP.NET application.
 
-###  DisabledCssClass `String`
+###  EnableImageSprite `Boolean`
 
-Gets or sets the Cascading Style Sheet (CSS) class applied when the toolbar item is
-            disabled.
-
-#### Remarks
-By default the visual appearance of disabled toolbar items is defined in the skin CSS
-            file. You can use the DisabledCssClass property to specify unique
-            appearance for the toolbar item when it is disabled.
+Gets or sets a value indicating whether the item image should have sprite support.
 
 ###  FocusedCssClass `String`
 
@@ -293,6 +165,82 @@ Use the FocusedImageUrl property to specify the image that will be
             by the ImageUrl property will be used. Use "~" (tilde) when referring to
             images within the current ASP.NET application.
 
+###  Group `String`
+
+Gets or sets the group to which the button belongs.
+
+#### Remarks
+The Group property of the button depends on the
+            	CheckOnClick property. When several buttons
+            	in the RadToolBar are assigned to the same group, checking one
+            	of them will uncheck the one that is currently checked. If the
+            	CheckOnClick property is set to
+            	false, the Group property will be ignored.
+
+###  HoveredCssClass `String`
+
+Gets or sets the Cascading Style Sheet (CSS) class applied when the user moves the mouse
+            over the toolbar item.
+
+#### Remarks
+By default the visual appearance of a hovered toolbar items is defined in the skin CSS
+            file. You can use the HoveredCssClass property to specify unique
+            appearance for the toolbar item when it is hovered.
+
+###  HoveredImageUrl `String`
+
+Gets or sets the path to an image to display when the user moves the
+            mouse over the item.
+
+#### Remarks
+Use the HoveredImageUrl property to specify the image that will be
+            used when the user moves the mouse over the item. If the HoveredImageUrl
+            property is set to empty string the image specified by the ImageUrl
+            property will be used. Use "~" (tilde) when referring to images within the current
+            ASP.NET application.
+
+###  ID `String`
+
+The ID property is reserved for internal use. Please use the Value property or
+            use the Attributes collection if you need to assign
+            custom data to the item.
+
+###  ImagePosition `ToolBarImagePosition`
+
+Gets or sets the position of the item image according to the item text.
+
+###  ImageUrl `String`
+
+Gets or sets the path to an image to display for the item.
+
+#### Remarks
+Use the ImageUrl property to specify the image for the item. If
+            the ImageUrl property is set to empty string no image will be
+            rendered. Use "~" (tilde) when referring to images within the current ASP.NET
+            application.
+
+###  Index `Int32`
+
+Gets the zero based index of the item.
+
+###  IsSeparator `Boolean`
+
+Gets or sets whether the button is separator.
+
+###  ItemTemplate `ITemplate`
+
+Gets or sets the template for displaying the button.
+
+###  NavigateUrl `String`
+
+Gets or sets the URL to link to when the button is clicked.
+
+#### Remarks
+Use the NavigateUrl property to specify the URL to link to when
+            the button is clicked. Use "~" (tilde) in front of an URL within the same ASP.NET
+            application. When specifying external URL do not forget the protocol (e.g.
+            "http://").
+
 ###  OuterCssClass `String`
 
 Gets or sets the Cascading Style Sheet (CSS) class applied on the outmost element (<LI>).
@@ -301,37 +249,91 @@ Gets or sets the Cascading Style Sheet (CSS) class applied on the outmost elemen
 You can use the OuterCssClass property to specify unique
             	appearance for the item, or to insert elements that are before/after the link element.
 
-###  ImagePosition `ToolBarImagePosition`
+###  OverFlow `ToolBarOverflow`
 
-Gets or sets the position of the item image according to the item text.
+Gets or Sets OverFlow state
 
-###  EnableImageSprite `Boolean`
+###  Owner `IRadToolBarItemContainer`
 
-Gets or sets a value indicating whether the item image should have sprite support.
+Gets a reference to the owner of the RadToolBarButton.
 
-###  Enabled `Boolean`
+###  PostBack `Boolean`
 
-###  Visible `Boolean`
+Gets or sets a value indicating whether clicking on the button will
+            postback.
 
-###  ID `String`
+#### Remarks
+If you subscribe to the ButtonClick all toolbar
+                buttons will postback. To turn off that behavior you should set the
+                PostBack property to false.
 
-The ID property is reserved for internal use. Please use the Value property or
-            use the Attributes collection if you need to assign
-            custom data to the item.
+###  PostBackUrl `Boolean`
 
-###  Index `Int32`
+Gets or sets the URL of the page to post to from the current page when the
+                RadToolBarButton is clicked.
 
-Gets the zero based index of the item.
+###  ShowImage `ToolBarShowPosition`
 
-###  AccessKey `String`
+Gets or Sets ShowImage state
 
-Gets or sets the access key that allows you to quickly navigate to the Web server control.
+###  ShowText `String`
 
-###  BackColor `Color`
+Gets or Sets ShowText state
 
-###  ForeColor `Color`
+###  SpriteCssClass `String`
 
-###  BorderColor `Color`
+Gets or sets the Cascading Style Sheet (CSS) class
+            that contains the sprite image for this item and the positioning for it.
+
+#### Remarks
+By default, the image in an item is defined by the ImageUrl property.
+            You can use SpriteCssClass to specify a class that will position a sprite
+            instead of using image.
+
+###  Target `String`
+
+Gets or sets the target window or frame to display the Web page content linked to
+            when the toolbar button is clicked.
+
+#### Remarks
+Use the Target property to specify the frame or window that displays the
+                    Web page linked to when the toolbar button is clicked. The Web page is specified by
+                    setting the NavigateUrl property.
+                If this property is not set, the Web page specified by the
+                NavigateUrl property is loaded in the current window.
+
+###  Text `String`
+
+Gets or sets the text displayed for the current item.
+
+#### Remarks
+Use the Text property to specify or determine the text an item displays displays
+            	in the RadToolBar control.
+
+###  ToolBar `RadToolBar`
+
+Gets the RadToolBar instance which contains the item.
+
+#### Remarks
+Use this property to obtain an instance to the
+                RadToolBar object containing the item.
+
+###  ValidationGroup `String`
+
+Gets or sets the name of the validation group to which the
+            	RadToolBarButton belongs.
+
+#### Remarks
+This property works only when CausesValidation
+                is set to true.
+
+###  Value `String`
+
+Gets or sets the value associated with the toolbar button.
+
+#### Remarks
+Use the Value property to specify or determine the value associated
+                with the button.
 
 ## Methods
 

@@ -16,13 +16,13 @@ Used to change various aspects of the exported page - header/footer, layout, mar
 
 ## Properties
 
-###  PageMarginsElement `PageMarginsElement`
+###  Attributes `IAttributesCollection`
 
-Determines the page margins
+Collection of the attributes of the current element
 
-###  PageLayoutElement `PageLayoutElement`
+###  InnerElements `IElementsCollection`
 
-Determines the page orientation
+Collection of inner elements
 
 ###  PageFooterElement `PageFooterElement`
 
@@ -32,15 +32,29 @@ Used to setup a page footer's margins and content
 
 Used to setup a page header's margins and content
 
-###  InnerElements `IElementsCollection`
+###  PageLayoutElement `PageLayoutElement`
 
-Collection of inner elements
+Determines the page orientation
 
-###  Attributes `IAttributesCollection`
+###  PageMarginsElement `PageMarginsElement`
 
-Collection of the attributes of the current element
+Determines the page margins
 
 ## Methods
+
+###  AppendAttributes
+
+Appends the attirbutes to the output
+
+#### Parameters
+
+#### sb `System.Text.StringBuilder`
+
+StringBuilder object that holds the rendered output
+
+#### Returns
+
+`System.Void` 
 
 ###  Render
 
@@ -59,20 +73,6 @@ StringBuilder object that holds the rendered output
 ###  RenderChildElements
 
 Renders the child elements
-
-#### Parameters
-
-#### sb `System.Text.StringBuilder`
-
-StringBuilder object that holds the rendered output
-
-#### Returns
-
-`System.Void` 
-
-###  AppendAttributes
-
-Appends the attirbutes to the output
 
 #### Parameters
 

@@ -16,11 +16,11 @@ This Class defines Model of the Schema of the Telerik.Web.UI.RadClientDataSource
 
 ## Properties
 
-###  ID `String`
-
-Gets or sets the name of ID field of the model
-
 ###  Fields `ClientDataSourceModelFieldCollection`
 
 Gets a collection of
+
+###  ID `String`
+
+Gets or sets the name of ID field of the model
 

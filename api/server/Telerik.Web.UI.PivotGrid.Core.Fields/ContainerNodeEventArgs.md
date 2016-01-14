@@ -17,11 +17,11 @@ Provides data for the E:Telerik.Web.UI.PivotGrid.Core.Fields.LocalDataSourceFiel
 
 ## Properties
 
-###  ContainerNode `ContainerNode`
-
-Gets or sets the value for the current ContainerNode.
-
 ###  ContainerInfo `IPivotFieldInfo`
 
 Gets the value of the IPivotFieldInfo associated with the current ContainerNode .
+
+###  ContainerNode `ContainerNode`
+
+Gets or sets the value for the current ContainerNode.
 

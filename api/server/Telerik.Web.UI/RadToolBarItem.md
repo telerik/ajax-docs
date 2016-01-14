@@ -38,63 +38,9 @@ The Telerik.Web.UI.RadToolBar RadToolBarcontrol is made up of a list of toolbar 
 
 ## Properties
 
-###  ToolBar `RadToolBar`
+###  AccessKey `String`
 
-Gets the RadToolBar instance which contains the item.
-
-#### Remarks
-Use this property to obtain an instance to the
-                RadToolBar object containing the item.
-
-###  Text `String`
-
-Gets or sets the text displayed for the current item.
-
-#### Remarks
-Use the Text property to specify or determine the text an item displays displays
-            	in the RadToolBar control.
-
-###  ImageUrl `String`
-
-Gets or sets the path to an image to display for the item.
-
-#### Remarks
-Use the ImageUrl property to specify the image for the item. If
-            the ImageUrl property is set to empty string no image will be
-            rendered. Use "~" (tilde) when referring to images within the current ASP.NET
-            application.
-
-###  HoveredImageUrl `String`
-
-Gets or sets the path to an image to display when the user moves the
-            mouse over the item.
-
-#### Remarks
-Use the HoveredImageUrl property to specify the image that will be
-            used when the user moves the mouse over the item. If the HoveredImageUrl
-            property is set to empty string the image specified by the ImageUrl
-            property will be used. Use "~" (tilde) when referring to images within the current
-            ASP.NET application.
-
-###  SpriteCssClass `String`
-
-Gets or sets the Cascading Style Sheet (CSS) class
-            that contains the sprite image for this item and the positioning for it.
-
-#### Remarks
-By default, the image in an item is defined by the ImageUrl property.
-            You can use SpriteCssClass to specify a class that will position a sprite
-            instead of using image.
-
-###  HoveredCssClass `String`
-
-Gets or sets the Cascading Style Sheet (CSS) class applied when the user moves the mouse
-            over the toolbar item.
-
-#### Remarks
-By default the visual appearance of a hovered toolbar items is defined in the skin CSS
-            file. You can use the HoveredCssClass property to specify unique
-            appearance for the toolbar item when it is hovered.
+Gets or sets the access key that allows you to quickly navigate to the Web server control.
 
 ###  ClickedCssClass `String`
 
@@ -112,6 +58,16 @@ Use the ClickedImageUrl property to specify the image that will be
             property will be used. Use "~" (tilde) when referring to images within the current
             ASP.NET application.
 
+###  DisabledCssClass `String`
+
+Gets or sets the Cascading Style Sheet (CSS) class applied when the toolbar item is
+            disabled.
+
+#### Remarks
+By default the visual appearance of disabled toolbar items is defined in the skin CSS
+            file. You can use the DisabledCssClass property to specify unique
+            appearance for the toolbar item when it is disabled.
+
 ###  DisabledImageUrl `String`
 
 Gets or sets the path to an image to display when the item is disabled.
@@ -123,15 +79,9 @@ Use the DisabledImageUrl property to specify the image that will be
             property will be used. Use "~" (tilde) when referring to images within the current
             ASP.NET application.
 
-###  DisabledCssClass `String`
+###  EnableImageSprite `Boolean`
 
-Gets or sets the Cascading Style Sheet (CSS) class applied when the toolbar item is
-            disabled.
-
-#### Remarks
-By default the visual appearance of disabled toolbar items is defined in the skin CSS
-            file. You can use the DisabledCssClass property to specify unique
-            appearance for the toolbar item when it is disabled.
+Gets or sets a value indicating whether the item image should have sprite support.
 
 ###  FocusedCssClass `String`
 
@@ -155,6 +105,52 @@ Use the FocusedImageUrl property to specify the image that will be
             by the ImageUrl property will be used. Use "~" (tilde) when referring to
             images within the current ASP.NET application.
 
+###  HoveredCssClass `String`
+
+Gets or sets the Cascading Style Sheet (CSS) class applied when the user moves the mouse
+            over the toolbar item.
+
+#### Remarks
+By default the visual appearance of a hovered toolbar items is defined in the skin CSS
+            file. You can use the HoveredCssClass property to specify unique
+            appearance for the toolbar item when it is hovered.
+
+###  HoveredImageUrl `String`
+
+Gets or sets the path to an image to display when the user moves the
+            mouse over the item.
+
+#### Remarks
+Use the HoveredImageUrl property to specify the image that will be
+            used when the user moves the mouse over the item. If the HoveredImageUrl
+            property is set to empty string the image specified by the ImageUrl
+            property will be used. Use "~" (tilde) when referring to images within the current
+            ASP.NET application.
+
+###  ID `String`
+
+The ID property is reserved for internal use. Please use the Value property or
+            use the Attributes collection if you need to assign
+            custom data to the item.
+
+###  ImagePosition `ToolBarImagePosition`
+
+Gets or sets the position of the item image according to the item text.
+
+###  ImageUrl `String`
+
+Gets or sets the path to an image to display for the item.
+
+#### Remarks
+Use the ImageUrl property to specify the image for the item. If
+            the ImageUrl property is set to empty string no image will be
+            rendered. Use "~" (tilde) when referring to images within the current ASP.NET
+            application.
+
+###  Index `Int32`
+
+Gets the zero based index of the item.
+
 ###  OuterCssClass `String`
 
 Gets or sets the Cascading Style Sheet (CSS) class applied on the outmost element (<LI>).
@@ -163,37 +159,43 @@ Gets or sets the Cascading Style Sheet (CSS) class applied on the outmost elemen
 You can use the OuterCssClass property to specify unique
             	appearance for the item, or to insert elements that are before/after the link element.
 
-###  ImagePosition `ToolBarImagePosition`
+###  OverFlow `ToolBarOverflow`
 
-Gets or sets the position of the item image according to the item text.
+Gets or Sets OverFlow state
 
-###  EnableImageSprite `Boolean`
+###  ShowImage `ToolBarShowPosition`
 
-Gets or sets a value indicating whether the item image should have sprite support.
+Gets or Sets ShowImage state
 
-###  Enabled `Boolean`
+###  ShowText `String`
 
-###  Visible `Boolean`
+Gets or Sets ShowText state
 
-###  ID `String`
+###  SpriteCssClass `String`
 
-The ID property is reserved for internal use. Please use the Value property or
-            use the Attributes collection if you need to assign
-            custom data to the item.
+Gets or sets the Cascading Style Sheet (CSS) class
+            that contains the sprite image for this item and the positioning for it.
 
-###  Index `Int32`
+#### Remarks
+By default, the image in an item is defined by the ImageUrl property.
+            You can use SpriteCssClass to specify a class that will position a sprite
+            instead of using image.
 
-Gets the zero based index of the item.
+###  Text `String`
 
-###  AccessKey `String`
+Gets or sets the text displayed for the current item.
 
-Gets or sets the access key that allows you to quickly navigate to the Web server control.
+#### Remarks
+Use the Text property to specify or determine the text an item displays displays
+            	in the RadToolBar control.
 
-###  BackColor `Color`
+###  ToolBar `RadToolBar`
 
-###  ForeColor `Color`
+Gets the RadToolBar instance which contains the item.
 
-###  BorderColor `Color`
+#### Remarks
+Use this property to obtain an instance to the
+                RadToolBar object containing the item.
 
 ## Methods
 

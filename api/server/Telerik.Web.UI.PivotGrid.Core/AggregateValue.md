@@ -15,6 +15,20 @@ Holds a value presentation of an aggregate function accumulated during pivot gro
 
 ## Methods
 
+###  AccumulateOverride
+
+Add the  to the results in the current  instance.
+
+#### Parameters
+
+#### value `System.Object`
+
+The value to accumulate.
+
+#### Returns
+
+`System.Void` 
+
 ###  GetValue
 
 Gets a presentation friendly value of the results in the current .
@@ -31,20 +45,6 @@ Gets a presentation friendly value of the results in the current  instance to be
 #### Returns
 
 `System.Object` A result object.
-
-###  AccumulateOverride
-
-Add the  to the results in the current  instance.
-
-#### Parameters
-
-#### value `System.Object`
-
-The value to accumulate.
-
-#### Returns
-
-`System.Void` 
 
 ###  MergeOverride
 

@@ -23,13 +23,13 @@ Overrides the default ASP.NET Button to render elastic version represented by a 
 
 Gets or sets the class for the first inner Span element
 
-###  SecondSpanClass `String`
-
-Gets or sets the class for the second inner Span element
-
 ###  FirstSpanInnerText `String`
 
 Gets or sets the inner text of the first Span element
+
+###  SecondSpanClass `String`
+
+Gets or sets the class for the second inner Span element
 
 ###  SecondSpanInnerText `String`
 

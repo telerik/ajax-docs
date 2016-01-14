@@ -20,11 +20,11 @@ The event arguments passed when Telerik.Web.UI.RadPivotGrid exports its cells.
 
 Contains the export infrastructure cell which will be exported as excel cell.
 
-###  PivotGridModelCell `PivotGridBaseModelCell`
-
-Contains the PivotGrid model cell.
-
 ###  PivotGridCell `PivotGridCell`
 
 Returns the PivotGrid table cell
+
+###  PivotGridModelCell `PivotGridBaseModelCell`
+
+Contains the PivotGrid model cell.
 

@@ -18,15 +18,15 @@ Provides data for the E:Telerik.Web.UI.RadScheduler.ReminderDismiss event of the
 
 ## Properties
 
-###  Reminder `Reminder`
+###  Appointment `Appointment`
 
-Gets or sets the reminder.
+Gets the appointment.
 
 ###  ModifiedAppointment `Appointment`
 
 Gets or sets the modified appointment.
 
-###  Appointment `Appointment`
+###  Reminder `Reminder`
 
-Gets the appointment.
+Gets or sets the reminder.
 

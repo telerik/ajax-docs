@@ -18,17 +18,9 @@ The event arguments passed when Telerik.Web.UI.RadGrid sorts happens.
 
 ## Properties
 
-###  SortExpression `String`
+###  Canceled `Boolean`
 
-Gets the sort expression associated with the performed sorting.
-
-###  OldSortOrder `GridSortOrder`
-
-Gets the old sort order of the current sort expression.
-
-###  NewSortOrder `GridSortOrder`
-
-Gets the new sort order of the current sort expression.
+Gets or sets a value, defining whether the command should be canceled.
 
 ###  CommandSource `Object`
 
@@ -38,17 +30,19 @@ Gets the source of the command
 
 Gets the item containing the command source
 
-###  Canceled `Boolean`
+###  NewSortOrder `GridSortOrder`
 
-Gets or sets a value, defining whether the command should be canceled.
+Gets the new sort order of the current sort expression.
+
+###  OldSortOrder `GridSortOrder`
+
+Gets the old sort order of the current sort expression.
+
+###  SortExpression `String`
+
+Gets the sort expression associated with the performed sorting.
 
 ## Methods
-
-###  ExecuteCommand
-
-#### Returns
-
-`System.Void` 
 
 ###  ExecuteCommand
 

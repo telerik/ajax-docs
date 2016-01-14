@@ -18,21 +18,21 @@ Telerik.Web.UI.RadOrgChart RadOrgChartsupports binding to hierarchical data incl
 
 ## Properties
 
+###  DataFieldID `String`
+
+Gets or sets the name of the data field used to uniquely identify each row.
+
 ###  DataFieldNodeID `String`
 
 Gets or sets the name of the data field which indicates the GroupItem's parent Node.
-
-###  DataImageUrlField `String`
-
-Gets or sets the name of the data field containing the GroupItem's ImageUrl.
 
 ###  DataImageAltTextField `String`
 
 Gets or sets the name of the data field containing the GroupItem's ImageAltText.
 
-###  DataTextField `String`
+###  DataImageUrlField `String`
 
-Gets or sets the name of the data field containing the GroupItem's Text.
+Gets or sets the name of the data field containing the GroupItem's ImageUrl.
 
 ###  DataSource `Object`
 
@@ -42,7 +42,7 @@ Gets or sets an instance of GroupItem's data source.
 
 Gets or sets the ID of the GroupItem's data source.
 
-###  DataFieldID `String`
+###  DataTextField `String`
 
-Gets or sets the name of the data field used to uniquely identify each row.
+Gets or sets the name of the data field containing the GroupItem's Text.
 

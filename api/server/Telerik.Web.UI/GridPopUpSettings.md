@@ -16,9 +16,14 @@ The class holding settings when setting up P:Telerik.Web.UI.GridTableView.EditMo
 
 ## Properties
 
-###  ScrollBars `ScrollBars`
+###  CloseButtonToolTip `String`
 
-Gets or sets the visibility and position of scroll bars in the popup control.
+Gets or sets the tooltip that will be displayed when you hover the
+            close button of the popup edit form.
+
+###  Height `Unit`
+
+Gets or sets a value specifying the grid height in pixels (px).
 
 ###  Modal `Boolean`
 
@@ -26,32 +31,19 @@ Gets or sets if the popup will be modal. If set to true
             the background will be grayed and only operations in the popup
             will be possible.
 
-###  ZIndex `Int32`
+###  ScrollBars `ScrollBars`
 
-Gets or sets the z-index css property of the modal popup.
-
-###  Height `Unit`
-
-Gets or sets a value specifying the grid height in pixels (px).
-
-###  Width `Unit`
-
-Gets or sets a value specifying the grid height in pixels (px).
-
-###  CloseButtonToolTip `String`
-
-Gets or sets the tooltip that will be displayed when you hover the
-            close button of the popup edit form.
+Gets or sets the visibility and position of scroll bars in the popup control.
 
 ###  ShowCaptionInEditForm `Boolean`
 
 Gets or sets a value indicating whether the caption text is shown in the edit form.
 
-## Methods
+###  Width `Unit`
 
-###  GetViewStateValue
+Gets or sets a value specifying the grid height in pixels (px).
 
-#### Returns
+###  ZIndex `Int32`
 
-`Telerik.Web.UI.T` 
+Gets or sets the z-index css property of the modal popup.
 

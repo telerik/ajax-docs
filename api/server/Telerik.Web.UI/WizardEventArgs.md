@@ -17,19 +17,19 @@ Provides data for the RadWizard button click events of the
 
 ## Properties
 
-###  CurrentStepIndex `Int32`
-
-Gets the index of the current active step in the  control when the event is raised.
-
 ###  CurrentStep `RadWizardStep`
 
 Gets current active step in the  control when the event is raised.
 
-###  NextStepIndex `Int32`
+###  CurrentStepIndex `Int32`
 
-Gets the index of the next active step in the  control when the event is raised.
+Gets the index of the current active step in the  control when the event is raised.
 
 ###  NextStep `RadWizardStep`
 
 Gets the next active step in the  control when the event is raised.
+
+###  NextStepIndex `Int32`
+
+Gets the index of the next active step in the  control when the event is raised.
 

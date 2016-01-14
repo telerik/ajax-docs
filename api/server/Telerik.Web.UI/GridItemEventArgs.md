@@ -16,15 +16,15 @@ The class representing the event arguments holding arguments associated with an 
 
 ## Properties
 
-###  Item `GridItem`
+###  Canceled `Boolean`
 
-Gets the  which fired the event.
+Set to true to cancel the default event execution, if available. The ItemCreated and ItemDataBound events cannot be cancelled.
 
 ###  EventInfo `GridItemEventInfo`
 
 Event info object. Cast to derrived classes to obtain the appropriate instance
 
-###  Canceled `Boolean`
+###  Item `GridItem`
 
-Set to true to cancel the default event execution, if available. The ItemCreated and ItemDataBound events cannot be cancelled.
+Gets the  which fired the event.
 

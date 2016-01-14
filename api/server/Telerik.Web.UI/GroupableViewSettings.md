@@ -25,10 +25,6 @@ Gets or sets the resource to group by.
 
 Gets or sets the resource grouping direction.
 
-###  ShowResourceHeaders `Boolean`
-
-Gets or sets a value indicating whether to render resource headers for the current view.
-
 ###  ReadOnly `Boolean`
 
 Gets or sets a value indicating whether the view is in read-only mode.
@@ -40,15 +36,11 @@ By default the user is able to insert, edit and delete appointments. Use the Rea
 
 Gets or sets a value indicating whether to render date headers for the current view.
 
+###  ShowResourceHeaders `Boolean`
+
+Gets or sets a value indicating whether to render resource headers for the current view.
+
 ###  UserSelectable `Boolean`
 
 Gets or sets a value indicating whether to render a tab for the current view in the view chooser.
-
-## Methods
-
-###  GetViewStateValue
-
-#### Returns
-
-`Telerik.Web.UI.T` 
 

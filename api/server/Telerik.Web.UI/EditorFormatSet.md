@@ -17,15 +17,15 @@ Represents a FormatSet dropdown item.
 
 ## Properties
 
-###  Title `String`
+###  Attributes `EditorFormatSetAttributeCollection`
 
-The text which will be displayed in the FormatSets dropdown
+The tag which will be moidifed by the FormatSets tool
 
 ###  Tag `String`
 
 The tag which will be moidifed by the FormatSets tool
 
-###  Attributes `EditorFormatSetAttributeCollection`
+###  Title `String`
 
-The tag which will be moidifed by the FormatSets tool
+The text which will be displayed in the FormatSets dropdown
 

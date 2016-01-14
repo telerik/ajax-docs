@@ -18,21 +18,21 @@ The arguments passed when Telerik.Web.UI.TreeListDataItem fires the PageIndexCha
 
 ## Properties
 
-###  NewPageIndex `Int32`
+###  Canceled `Boolean`
 
-Gets an integer value indicating the new page index that will be set to the RadTreeList object.
-
-###  Item `TreeListItem`
-
-The item in which the command was triggered.
+Gets or sets a value indicating whether the current command is cancelled.
 
 ###  EventSource `Object`
 
 Gets the control which was responsible for firing the event.
 
-###  Canceled `Boolean`
+###  Item `TreeListItem`
 
-Gets or sets a value indicating whether the current command is cancelled.
+The item in which the command was triggered.
+
+###  NewPageIndex `Int32`
+
+Gets an integer value indicating the new page index that will be set to the RadTreeList object.
 
 ## Methods
 

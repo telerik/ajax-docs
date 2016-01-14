@@ -16,10 +16,6 @@ Provides data for the E:Telerik.Web.UI.RadListBox.Transferred event of the Teler
 
 ## Properties
 
-###  SourceListBox `RadListBox`
-
-Gets or sets the source listbox of the transfer operation.
-
 ###  DestinationListBox `RadListBox`
 
 Gets or sets the destination listbox of the transfer operation.
@@ -27,4 +23,8 @@ Gets or sets the destination listbox of the transfer operation.
 ###  Items `IList`1`
 
 Gets or sets the referenced items in the  control when the event is raised.
+
+###  SourceListBox `RadListBox`
+
+Gets or sets the source listbox of the transfer operation.
 

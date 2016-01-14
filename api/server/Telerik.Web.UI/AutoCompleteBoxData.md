@@ -19,11 +19,11 @@ This class defines the AutoCompleteBoxData object.
 
 Gets or sets the context.
 
-###  Items `AutoCompleteBoxItemData[]`
-
-Gets or sets the items.
-
 ###  EndOfItems `AutoCompleteBoxItemData[]`
 
 Gets or sets the end of items.
+
+###  Items `AutoCompleteBoxItemData[]`
+
+Gets or sets the items.
 

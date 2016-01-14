@@ -16,193 +16,31 @@ Defines arrays of elements and positions used for interpolating GradientElement 
 
 ## Properties
 
-###  List `IList`1`
+###  Count `Int32`
 
-Items list
+Gets items count in collection
 
 ###  First `T`
 
 Link to first item in collection
 
-###  Last `T`
+###  IsReadOnly `Boolean`
 
-Link to last item in collection
+Gets true if collection is read-only
 
 ###  Item `T`
 
 Gets the collection item at given index
 
-###  Count `Int32`
+###  Last `T`
 
-Gets items count in collection
+Link to last item in collection
 
-###  IsReadOnly `Boolean`
+###  List `IList`1`
 
-Gets true if collection is read-only
+Items list
 
 ## Methods
-
-###  AddRange
-
-Adds a range of elements to the collection.
-
-#### Parameters
-
-#### blend `Telerik.Charting.ColorBlend`
-
-Object that contains element to add
-
-#### Returns
-
-`System.Void` 
-
-###  LoadFrom
-
-Load pairs colors\positions from specified object.
-
-#### Parameters
-
-#### blend `Telerik.Charting.ColorBlend`
-
-Object to load from.
-
-#### Returns
-
-`System.Void` 
-
-###  GetColors
-
-Gets ColorBlend's colors.
-
-#### Returns
-
-`System.Drawing.Color[]` ColorBlend's colors.
-
-###  GetPositions
-
-Gets ColorBlend's positions.
-
-#### Returns
-
-`System.Single[]` ColorBlend's positions.
-
-###  GetColor
-
-Gets color at specified position.
-
-#### Parameters
-
-#### pos `System.Single`
-
-Position to get color.
-
-#### Returns
-
-`System.Drawing.Color` Color at specified position.
-
-###  GetBrush
-
-Returns gradient brush
-
-#### Parameters
-
-#### rectangle `System.Drawing.RectangleF`
-
-Rectangle of brush
-
-#### angle `System.Single`
-
-Angle of brush.
-
-#### Returns
-
-`System.Drawing.Drawing2D.LinearGradientBrush` Gradient brush
-
-###  Equals
-
-Comparing two objects.
-
-#### Parameters
-
-#### obj `System.Object`
-
-Object to compare.
-
-#### Returns
-
-`System.Boolean` Whether objects equal or not
-
-###  Compare
-
-Color blends comparer
-
-#### Parameters
-
-#### a `Telerik.Charting.ColorBlend`
-
-First object for comparing
-
-#### b `Telerik.Charting.ColorBlend`
-
-Second object for comparing
-
-#### Returns
-
-`System.Boolean` Whether objects equal or not
-
-###  Clone
-
-Clone this object.
-
-#### Returns
-
-`System.Object` New instance of ColorBlend class with the same fields as this one.
-
-###  IndexOf
-
-Item index in collection
-
-#### Parameters
-
-#### item ``0`
-
-Item to get index of
-
-#### Returns
-
-`System.Int32` Index
-
-###  Insert
-
-Inserts item at the given index
-
-#### Parameters
-
-#### index `System.Int32`
-
-Index
-
-#### item ``0`
-
-Item to insert
-
-#### Returns
-
-`System.Void` 
-
-###  RemoveAt
-
-Removes item from collection at given index
-
-#### Parameters
-
-#### index `System.Int32`
-
-Index to remove at
-
-#### Returns
-
-`System.Void` 
 
 ###  Add
 
@@ -213,6 +51,20 @@ Adds new item in collection
 #### item ``0`
 
 Item to add
+
+#### Returns
+
+`System.Void` 
+
+###  AddRange
+
+Adds a range of elements to the collection.
+
+#### Parameters
+
+#### blend `Telerik.Charting.ColorBlend`
+
+Object that contains element to add
 
 #### Returns
 
@@ -239,6 +91,32 @@ Clears collection
 #### Returns
 
 `System.Void` 
+
+###  Clone
+
+Clone this object.
+
+#### Returns
+
+`System.Object` New instance of ColorBlend class with the same fields as this one.
+
+###  Compare
+
+Color blends comparer
+
+#### Parameters
+
+#### a `Telerik.Charting.ColorBlend`
+
+First object for comparing
+
+#### b `Telerik.Charting.ColorBlend`
+
+Second object for comparing
+
+#### Returns
+
+`System.Boolean` Whether objects equal or not
 
 ###  Contains
 
@@ -273,19 +151,59 @@ The zero-based index in array at which copying begins
 
 `System.Void` 
 
-###  Remove
+###  Equals
 
-Removes item from collection
+Comparing two objects.
 
 #### Parameters
 
-#### item ``0`
+#### obj `System.Object`
 
-Item to remove
+Object to compare.
 
 #### Returns
 
-`System.Boolean` True in case of success
+`System.Boolean` Whether objects equal or not
+
+###  GetBrush
+
+Returns gradient brush
+
+#### Parameters
+
+#### rectangle `System.Drawing.RectangleF`
+
+Rectangle of brush
+
+#### angle `System.Single`
+
+Angle of brush.
+
+#### Returns
+
+`System.Drawing.Drawing2D.LinearGradientBrush` Gradient brush
+
+###  GetColor
+
+Gets color at specified position.
+
+#### Parameters
+
+#### pos `System.Single`
+
+Position to get color.
+
+#### Returns
+
+`System.Drawing.Color` Color at specified position.
+
+###  GetColors
+
+Gets ColorBlend's colors.
+
+#### Returns
+
+`System.Drawing.Color[]` ColorBlend's colors.
 
 ###  GetEnumerator
 
@@ -294,6 +212,60 @@ Returns an enumerator that iterates through the System.Collections.Generic.List>
 #### Returns
 
 `System.Collections.Generic.IEnumerator`1` A System.Collections.Generic.List>T<.Enumerator for the System.Collections.Generic.List>T<.
+
+###  GetPositions
+
+Gets ColorBlend's positions.
+
+#### Returns
+
+`System.Single[]` ColorBlend's positions.
+
+###  IndexOf
+
+Item index in collection
+
+#### Parameters
+
+#### item ``0`
+
+Item to get index of
+
+#### Returns
+
+`System.Int32` Index
+
+###  Insert
+
+Inserts item at the given index
+
+#### Parameters
+
+#### index `System.Int32`
+
+Index
+
+#### item ``0`
+
+Item to insert
+
+#### Returns
+
+`System.Void` 
+
+###  LoadFrom
+
+Load pairs colors\positions from specified object.
+
+#### Parameters
+
+#### blend `Telerik.Charting.ColorBlend`
+
+Object to load from.
+
+#### Returns
+
+`System.Void` 
 
 ###  LoadViewState
 
@@ -309,31 +281,17 @@ View state to load from
 
 `System.Void` 
 
-###  SaveViewState
+###  OnClear
 
-Saves collection to a view state
-
-#### Returns
-
-`System.Object` Saved state bag object
-
-###  SetDirty
-
-Sets is item in the dirty state
+Before collection clearing event
 
 #### Returns
 
 `System.Void` 
 
-###  SetItemDirty
+###  OnClearComplete
 
-Marks collection item dirty
-
-#### Parameters
-
-#### item ``0`
-
-Item to mark
+Collection after clean event
 
 #### Returns
 
@@ -411,22 +369,6 @@ Value to insert
 
 `System.Void` 
 
-###  OnClear
-
-Before collection clearing event
-
-#### Returns
-
-`System.Void` 
-
-###  OnClearComplete
-
-Collection after clean event
-
-#### Returns
-
-`System.Void` 
-
 ###  PopulateFromXml
 
 Populates collection from XML element
@@ -441,11 +383,61 @@ XmlElement to import from
 
 `System.Void` 
 
-###  ToString
+###  Remove
 
-ToString() override. Used in the properties grid to avoid object type showing.
+Removes item from collection
+
+#### Parameters
+
+#### item ``0`
+
+Item to remove
 
 #### Returns
 
-`System.String` Empty string
+`System.Boolean` True in case of success
+
+###  RemoveAt
+
+Removes item from collection at given index
+
+#### Parameters
+
+#### index `System.Int32`
+
+Index to remove at
+
+#### Returns
+
+`System.Void` 
+
+###  SaveViewState
+
+Saves collection to a view state
+
+#### Returns
+
+`System.Object` Saved state bag object
+
+###  SetDirty
+
+Sets is item in the dirty state
+
+#### Returns
+
+`System.Void` 
+
+###  SetItemDirty
+
+Marks collection item dirty
+
+#### Parameters
+
+#### item ``0`
+
+Item to mark
+
+#### Returns
+
+`System.Void` 
 

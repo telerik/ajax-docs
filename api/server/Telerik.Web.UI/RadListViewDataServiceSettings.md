@@ -17,38 +17,29 @@ Class containing data service settings for the client-bound Telerik.Web.UI.RadLi
 
 ## Properties
 
-###  Location `String`
+###  CountPath `String`
 
-Gets or sets the base URL of the web service.
+Gets or sets the count method name that gets appended to the base location
+            of the web service. The result URL is used for requesting the total item count.
+
+###  CountPropertyName `String`
+
+Gets or sets the name of the property in the result object returned by the data service 
+            that contains the total item count in the data source.
 
 ###  DataPath `String`
 
 Gets or sets the table, method or entity path that gets appended to the base location
             of the web service. The result URL is used for requesting the data.
 
-###  CountPath `String`
-
-Gets or sets the count method name that gets appended to the base location
-            of the web service. The result URL is used for requesting the total item count.
-
-###  HttpMethod `RadListViewDataServiceHttpMethod`
-
-Gets or sets the HTTP method that  will use 
-            to access the data service URL. Default is POST.
-
-###  EnableCaching `Boolean`
-
-Enables or disables client-side data caching in . Caching is disabled by default.
-
 ###  DataPropertyName `String`
 
 Gets or sets the name of the property in the result object returned by the data service 
             that contains the data objects  will bind to.
 
-###  CountPropertyName `String`
+###  EnableCaching `Boolean`
 
-Gets or sets the name of the property in the result object returned by the data service 
-            that contains the total item count in the data source.
+Enables or disables client-side data caching in . Caching is disabled by default.
 
 ###  FilterParameterName `String`
 
@@ -57,6 +48,23 @@ Gets or sets the name of the filter parameter that will be used with the data se
 ###  FilterParameterType `RadListViewClientDataBindingParameterType`
 
 Gets or sets the format in which the filter expressions will be sent to the web service. Default is List.
+
+###  HttpMethod `RadListViewDataServiceHttpMethod`
+
+Gets or sets the HTTP method that  will use 
+            to access the data service URL. Default is POST.
+
+###  Location `String`
+
+Gets or sets the base URL of the web service.
+
+###  MaximumRowsParameterName `String`
+
+Gets or sets the name of the maximum rows parameter that will be used with the data service.
+
+###  ResponseType `RadListViewDataServiceResponseType`
+
+Gets or sets the response type that is expected from the data service.
 
 ###  SortParameterName `String`
 
@@ -69,12 +77,4 @@ Gets or sets the format in which the sort expressions will be sent to the web se
 ###  StartRowIndexParameterName `String`
 
 Gets or sets the name of the start row index parameter that will be used with the data service.
-
-###  MaximumRowsParameterName `String`
-
-Gets or sets the name of the maximum rows parameter that will be used with the data service.
-
-###  ResponseType `RadListViewDataServiceResponseType`
-
-Gets or sets the response type that is expected from the data service.
 

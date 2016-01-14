@@ -21,14 +21,14 @@ You can get a reference to this class using
 
 ## Properties
 
-###  CellSelectionMode `GridCellSelectionMode`
-
-Gets or sets the cell selection mode.
-
 ###  AllowRowSelect `Boolean`
 
 Gets or sets a value indicating whether you will be able to select a grid row on
             the client by clicking on it with the mouse.
+
+###  CellSelectionMode `GridCellSelectionMode`
+
+Gets or sets the cell selection mode.
 
 ###  EnableDragToSelectRows `Boolean`
 
@@ -38,14 +38,4 @@ Gets or sets a value indicating whether you will be able to select multiple rows
 ###  UseClientSelectColumnOnly `Boolean`
 
 Gets or sets value indicating whether items can be only selected through GridClientSelectColumn
-
-###  IsSet `Boolean`
-
-## Methods
-
-###  GetViewStateValue
-
-#### Returns
-
-`Telerik.Web.UI.T` 
 

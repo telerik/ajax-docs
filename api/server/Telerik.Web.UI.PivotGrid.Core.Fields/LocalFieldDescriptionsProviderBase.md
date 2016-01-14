@@ -32,6 +32,18 @@ Retrieves the DescriptionsData for data source.
 
 `Telerik.Web.UI.PivotGrid.Core.Fields.IFieldInfoData` DescriptionsData instance.
 
+###  GetDescriptionsDataAsync
+
+#### Returns
+
+`System.Void` 
+
+###  GetDescriptionsDataAsync
+
+#### Returns
+
+`System.Void` 
+
 ###  GetFieldDescriptionHierarchy
 
 Gets the field description hierarchy.
@@ -46,19 +58,7 @@ Collection of  instances.
 
 `Telerik.Web.UI.PivotGrid.Core.Fields.ContainerNode` 
 
-###  GetDescriptionsDataAsync
-
-#### Returns
-
-`System.Void` 
-
 ###  OnDescriptionsDataCompleted
-
-#### Returns
-
-`System.Void` 
-
-###  GetDescriptionsDataAsync
 
 #### Returns
 

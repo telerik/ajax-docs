@@ -18,11 +18,11 @@ Provides data for the E:Telerik.Web.UI.RadScheduler.AppointmentCancelingEdit eve
 
 ## Properties
 
-###  Container `SchedulerFormContainer`
-
-Gets the container.
-
 ###  Appointment `Appointment`
 
 Gets the appointment.
+
+###  Container `SchedulerFormContainer`
+
+Gets the container.
 

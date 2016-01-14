@@ -18,63 +18,153 @@ Base axis ticks appearance settings
 
 ## Properties
 
-###  Length `Int32`
-
-Specifies the Length of tick
-
 ###  Color `Color`
 
 Tick line color
-
-###  Width `Single`
-
-Tick line width
-
-###  Item `Object`
-
-Gets the property by its name
-
-###  EndCap `LineCap`
-
-Specifies the end cap property
-
-###  StartCap `LineCap`
-
-Specifies the start cap property
-
-###  Item `Object`
-
-Gets property value by name
 
 ###  Color `Color`
 
 Specifies the line color property
 
-###  PenStyle `DashStyle`
+###  EndCap `LineCap`
 
-Specifies the pen style property
+Specifies the end cap property
 
-###  Width `Single`
+###  Item `Object`
 
-Specifies the width property
-
-###  Visible `Boolean`
-
-Visibility
+Gets the property by its name
 
 ###  Item `Object`
 
 Gets property value by name
 
-###  ViewStateIgnoresCase `Boolean`
+###  Item `Object`
 
-Gets if view sate should ignore case
+Gets property value by name
+
+###  Length `Int32`
+
+Specifies the Length of tick
+
+###  PenStyle `DashStyle`
+
+Specifies the pen style property
+
+###  StartCap `LineCap`
+
+Specifies the start cap property
 
 ###  ViewState `StateBag`
 
 Sate bag to store view state content
 
+###  ViewStateIgnoresCase `Boolean`
+
+Gets if view sate should ignore case
+
+###  Visible `Boolean`
+
+Visibility
+
+###  Width `Single`
+
+Tick line width
+
+###  Width `Single`
+
+Specifies the width property
+
 ## Methods
+
+###  Clone
+
+Clone this object
+
+#### Returns
+
+`System.Object` Object with the same fields as this one
+
+###  Clone
+
+Clone this object
+
+#### Returns
+
+`System.Object` Object with the same fields as this one
+
+###  CloneState
+
+Makes a view state clone
+
+#### Returns
+
+`System.Web.UI.StateBag` StateBag
+
+###  Equals
+
+Compare two objects
+
+#### Parameters
+
+#### obj `System.Object`
+
+Object tot compare
+
+#### Returns
+
+`System.Boolean` Result of comparing
+
+###  Equals
+
+Compare two objects
+
+#### Parameters
+
+#### obj `System.Object`
+
+Object tot compare
+
+#### Returns
+
+`System.Boolean` Result of comparing
+
+###  GetHashCode
+
+Gets hash code
+
+#### Returns
+
+`System.Int32` Hash code
+
+###  GetHashCode
+
+Gets hash code
+
+#### Returns
+
+`System.Int32` Hash code
+
+###  IsVisible
+
+Determines whether this instance is visible.
+
+#### Returns
+
+`System.Boolean` true if this instance is visible; otherwise, false.
+
+###  LoadViewState
+
+Loads data from a view state
+
+#### Parameters
+
+#### state `System.Object`
+
+View state to load data from
+
+#### Returns
+
+`System.Void` 
 
 ###  Reset
 
@@ -92,44 +182,6 @@ Reset to default settings
 
 `System.Void` 
 
-###  Equals
-
-Compare two objects
-
-#### Parameters
-
-#### obj `System.Object`
-
-Object tot compare
-
-#### Returns
-
-`System.Boolean` Result of comparing
-
-###  GetHashCode
-
-Gets hash code
-
-#### Returns
-
-`System.Int32` Hash code
-
-###  Clone
-
-Clone this object
-
-#### Returns
-
-`System.Object` Object with the same fields as this one
-
-###  IsVisible
-
-Determines whether this instance is visible.
-
-#### Returns
-
-`System.Boolean` true if this instance is visible; otherwise, false.
-
 ###  Reset
 
 Reset to default settings
@@ -138,35 +190,21 @@ Reset to default settings
 
 `System.Void` 
 
-###  Equals
+###  SaveViewState
 
-Compare two objects
-
-#### Parameters
-
-#### obj `System.Object`
-
-Object tot compare
+Saves object data to a view state
 
 #### Returns
 
-`System.Boolean` Result of comparing
+`System.Object` Saved view state object
 
-###  GetHashCode
+###  SetDirty
 
-Gets hash code
-
-#### Returns
-
-`System.Int32` Hash code
-
-###  Clone
-
-Clone this object
+Sets the item dirty state
 
 #### Returns
 
-`System.Object` Object with the same fields as this one
+`System.Void` 
 
 ###  Telerik.Charting.IChartingStateManager.LoadViewState
 
@@ -198,22 +236,6 @@ Tracks view state changes
 
 `System.Void` 
 
-###  CloneState
-
-Makes a view state clone
-
-#### Returns
-
-`System.Web.UI.StateBag` StateBag
-
-###  SaveViewState
-
-Saves object data to a view state
-
-#### Returns
-
-`System.Object` Saved view state object
-
 ###  TrackViewState
 
 Tracks view state changes
@@ -221,34 +243,4 @@ Tracks view state changes
 #### Returns
 
 `System.Void` 
-
-###  LoadViewState
-
-Loads data from a view state
-
-#### Parameters
-
-#### state `System.Object`
-
-View state to load data from
-
-#### Returns
-
-`System.Void` 
-
-###  SetDirty
-
-Sets the item dirty state
-
-#### Returns
-
-`System.Void` 
-
-###  ToString
-
-ToString() override. Used in the properties grid to avoid object type showing.
-
-#### Returns
-
-`System.String` Empty string
 

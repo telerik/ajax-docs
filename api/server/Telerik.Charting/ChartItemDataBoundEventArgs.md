@@ -16,13 +16,13 @@ Class containing event data for an ItemDataBound event
 
 ## Properties
 
-###  DataItem `Object`
-
-Real data source object for a chart.
-
 ###  ChartSeries `ChartSeries`
 
 Chart series
+
+###  DataItem `Object`
+
+Real data source object for a chart.
 
 ###  SeriesItem `ChartSeriesItem`
 

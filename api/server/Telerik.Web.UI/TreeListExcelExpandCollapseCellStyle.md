@@ -20,29 +20,9 @@ RadTreeList Excel export Expand/Collapse cell style
 
 ## Properties
 
-###  ExpandText `String`
+###  CollapseImageHeight `Unit`
 
-Represents the text that replaces the expand image
-
-###  CollapseText `String`
-
-Represents the text that replaces the collapse image
-
-###  EnableImageBestFit `Boolean`
-
-Determines whether the expand/collapse image will be resized to fit in the cell boundaries.
-
-###  ExpandImageUrl `String`
-
-Represents the path to the expand image
-
-###  ExpandImageWidth `Unit`
-
-Width of the expand image.
-
-###  ExpandImageHeight `Unit`
-
-Height of the expand image.
+Height of the collapse image.
 
 ###  CollapseImageUrl `String`
 
@@ -52,9 +32,29 @@ Represents the path to the collapse image
 
 Width of the collapse image.
 
-###  CollapseImageHeight `Unit`
+###  CollapseText `String`
 
-Height of the collapse image.
+Represents the text that replaces the collapse image
+
+###  EnableImageBestFit `Boolean`
+
+Determines whether the expand/collapse image will be resized to fit in the cell boundaries.
+
+###  ExpandImageHeight `Unit`
+
+Height of the expand image.
+
+###  ExpandImageUrl `String`
+
+Represents the path to the expand image
+
+###  ExpandImageWidth `Unit`
+
+Width of the expand image.
+
+###  ExpandText `String`
+
+Represents the text that replaces the expand image
 
 ###  IsDefault `Boolean`
 

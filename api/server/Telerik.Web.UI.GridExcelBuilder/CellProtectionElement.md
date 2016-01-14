@@ -16,19 +16,33 @@ Allows to change the 'protected' state of a cell
 
 ## Properties
 
-###  IsProtected `Boolean`
+###  Attributes `IAttributesCollection`
 
-Determines whether a given cell is protected (read-only) when the parent Worksheet is protected. Default value: true
+Collection of the attributes of the current element
 
 ###  InnerElements `IElementsCollection`
 
 Collection of inner elements
 
-###  Attributes `IAttributesCollection`
+###  IsProtected `Boolean`
 
-Collection of the attributes of the current element
+Determines whether a given cell is protected (read-only) when the parent Worksheet is protected. Default value: true
 
 ## Methods
+
+###  AppendAttributes
+
+Appends the attirbutes to the output
+
+#### Parameters
+
+#### sb `System.Text.StringBuilder`
+
+StringBuilder object that holds the rendered output
+
+#### Returns
+
+`System.Void` 
 
 ###  Render
 
@@ -47,20 +61,6 @@ StringBuilder object that holds the rendered output
 ###  RenderChildElements
 
 Renders the child elements
-
-#### Parameters
-
-#### sb `System.Text.StringBuilder`
-
-StringBuilder object that holds the rendered output
-
-#### Returns
-
-`System.Void` 
-
-###  AppendAttributes
-
-Appends the attirbutes to the output
 
 #### Parameters
 

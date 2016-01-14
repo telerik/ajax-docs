@@ -17,11 +17,11 @@ Provides data for the ToggleStateChanged event.
 
 ## Properties
 
-###  SelectedToggleStateIndex `Int32`
-
-Gets or sets the currently selected index of the RadButton control firing the event.
-
 ###  SelectedToggleState `RadButtonToggleState`
 
 Gets or sets the currently selected RadButtonToggleState of the RadButton control firing the event.
+
+###  SelectedToggleStateIndex `Int32`
+
+Gets or sets the currently selected index of the RadButton control firing the event.
 

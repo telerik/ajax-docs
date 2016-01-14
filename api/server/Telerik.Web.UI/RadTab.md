@@ -37,157 +37,9 @@ The Telerik.Web.UI.RadTabStrip RadTabStripcontrol is made up of tabs. Tabs which
 
 ## Properties
 
-###  IsSeparator `Boolean`
+###  AccessKey `String`
 
-Gets or sets a value indicating whether the tab will behave as separator.
-
-#### Remarks
-Use separators to visually separate the tabs. You also need to specify the width
-            	of the separator tab through the Width property.
-
-###  TabTemplate `ITemplate`
-
-Gets or sets the template for displaying the tab.
-
-###  Level `Int32`
-
-Gets the level of the current tab.
-
-###  Selected `Boolean`
-
-Gets or sets a value indicating whether the tab is selected.
-
-#### Remarks
-Use the Selected property to determine whether the tab is currently selected
-                within its parent RadTabCollection. Setting the Selected
-                property to true will deselect the previously selected tab.
-
-###  TabStrip `RadTabStrip`
-
-Gets the RadTabStrip instance which contains the current tab.
-
-###  PostBack `Boolean`
-
-Gets or sets a value indicating whether clicking on the tab will postback.
-
-#### Remarks
-If you subscribe to the TabClick event all tabs
-                will postback. To prevent the current tab from initiating postback you can set the PostBack
-            	property to false.
-
-###  DataItem `Object`
-
-Gets the data item that is bound to the tab
-
-#### Remarks
-This property is applicable only during data binding. Use it along with the
-                TabDataBound event to perform additional
-                mapping of fields from the data item to RadTab properties.
-
-###  ScrollChildren `Boolean`
-
-Gets or sets a value indicating whether the children of the tab will be
-            	scrollable.
-
-#### Remarks
-To enable scrolling of the child tabs the ScrollChildren property
-            	must also be set to true.
-
-###  ScrollButtonsPosition `TabStripScrollButtonsPosition`
-
-The position of the scroll buttons with regards to the tab band.
-
-#### Remarks
-This property is applicable when the
-                ScrollChildren property is set to
-                true; otherwise it is ignored.
-
-###  ScrollPosition `Int32`
-
-Gets or sets the position of the scrollable band of tabs relative to the
-            	beginning of the scrolling area.
-
-#### Remarks
-This property is applicable when the
-                ScrollChildren property is set to
-                true; otherwise it is ignored.
-
-###  PerTabScrolling `Boolean`
-
-Gets or sets a value indicating whether the tabstrip should scroll directly to
-            	the next tab.
-
-#### Remarks
-By default tabs are scrolled smoothly. If you want the tabstrip to scroll directly
-                to the next (or previous) tab set this property to true. This
-                property is applicable when the ScrollChildren
-                property is set to true; otherwise it is ignored.
-
-###  SelectedIndex `Boolean`
-
-Gets or sets the index of the selected child tab.
-
-#### Remarks
-Use the SelectedIndex property to programmatically specify the selected
-            		child tab in a IRadTabContainer (RadTabStrip or RadTab).
-            		To clear the selection set the SelectedIndex property to -1.
-
-###  SelectedTab `Boolean`
-
-Gets the selected child tab.
-
-###  Owner `IRadTabContainer`
-
-Gets the IRadTabContainer instance which contains the current tab.
-
-#### Remarks
-The value is of the IRadTabContainer type which is
-                implemented by the RadTabStrip class and the
-                RadTab class. Use the Owner property when
-                recursively traversing tabs in the RadTabStrip control.
-
-###  Tabs `RadTabCollection`
-
-Gets a RadTabCollection object that contains the child tabs of the current tab.
-
-#### Remarks
-Use the Tabs property to access the child tabs of the current tab. You can also use the Tabs property to
-            	manage the children of the current tab. You can add, remove or modify tabs from the Tabs collection.
-
-###  SelectedCssClass `Boolean`
-
-Gets or sets the Cascading Style Sheet (CSS) class applied when the tab is selected.
-
-#### Remarks
-By default the visual appearance of selected tabs is defined in the skin CSS
-            	file. You can use the SelectedCssClass property to specify unique
-            	appearance for the current tab when it is selected.
-
-###  DisabledCssClass `String`
-
-Gets or sets the Cascading Style Sheet (CSS) class applied when the tab is disabled.
-
-#### Remarks
-By default the visual appearance of disabled tabs is defined in the skin CSS
-            	file. You can use the DisabledCssClass property to specify unique
-            	appearance for the tab when it is disabled.
-
-###  HoveredCssClass `String`
-
-Gets or sets the Cascading Style Sheet (CSS) class applied when the tab is hovered with the mouse.
-
-#### Remarks
-By default the visual appearance of hovered tabs is defined in the skin CSS
-            	file. You can use the HoveredCssClass property to specify unique
-            	appearance for the tab when it is hovered.
-
-###  OuterCssClass `String`
-
-Gets or sets the Cascading Style Sheet (CSS) class applied on the outmost tab element (<LI>).
-
-#### Remarks
-You can use the OuterCssClass property to specify unique
-            	appearance for the tab, or to insert elements that are before/after the link element.
+Gets or sets the access key that allows you to quickly navigate to the Web server control.
 
 ###  ChildGroupCssClass `String`
 
@@ -200,61 +52,45 @@ Tabs are rendered as LI (list item) HTML elements inside a
                 ChildGroupCssClass property is applied to the UL
                 tag.
 
-###  IsBreak `Boolean`
+###  DataItem `Object`
 
-Gets or sets a value indicating whether next tab will be displayed on a new
-            line.
-
-#### Remarks
-Use the IsBreak property to create multi-row tabstrip. All tabs after the "break"
-            	tab will be displayed on a new line.
-
-###  PageViewID `String`
-
-Gets or sets the ID of the RadPageView in
-                a RadMultiPage that will be switched when the tab is
-                selected.
+Gets the data item that is bound to the tab
 
 #### Remarks
-This property overrides the default relation between the page views within a
-                RadMultiPage and the tabs in a
-                RadTabStrip. By default a tab activates the page view
-                with the same index.
+This property is applicable only during data binding. Use it along with the
+                TabDataBound event to perform additional
+                mapping of fields from the data item to RadTab properties.
 
-###  Text `String`
+###  DisabledCssClass `String`
 
-Gets or sets the text displayed for the current tab.
-
-#### Remarks
-Use the Text property to specify or determine the text that is displayed for the tab
-            	in the RadTabStrip control.
-
-###  Value `String`
-
-Gets or sets custom (user-defined) data associated with the current tab.
+Gets or sets the Cascading Style Sheet (CSS) class applied when the tab is disabled.
 
 #### Remarks
-Use the Value property to associate custom data with a RadTab object.
+By default the visual appearance of disabled tabs is defined in the skin CSS
+            	file. You can use the DisabledCssClass property to specify unique
+            	appearance for the tab when it is disabled.
 
-###  NavigateUrl `String`
+###  DisabledImageUrl `String`
 
-Gets or sets the URL to navigate to when the current tab is clicked.
+Gets or sets the URL to an image which is displayed when the tab is disabled
+            	(its Enabled property is set to false).
 
 #### Remarks
-By default clicking a tab will select it. If the tab has any child tabs they will be displayed. To make a tab
-            		navigate to some designated URL you can use the NavigateUrl property. You can optionally set the
-            		Target property to specify the window or frame in which to display the linked content.
+Use the DisabledImageUrl property to specify a custom image that will be
+            		displayed when the current tab is disabled. Setting the DisabledImageUrl
+            		property required the ImageUrl property to be set beforehand.
             	
-            		Setting the NavigateUrl property will disable tab selection and as a result the
-            		TabClick event won't be raised for the current tab.
+            		If the DisabledImageUrl property is not set the value of the ImageUrl
+            		will be used instead.
 
-###  ImageUrl `String`
+###  HoveredCssClass `String`
 
-Gets or sets the URL to an image which is displayed next to the text of a tab.
+Gets or sets the Cascading Style Sheet (CSS) class applied when the tab is hovered with the mouse.
 
 #### Remarks
-Use the ImageUrl property to specify a custom image that will be
-            	displayed before the text of the current tab.
+By default the visual appearance of hovered tabs is defined in the skin CSS
+            	file. You can use the HoveredCssClass property to specify unique
+            	appearance for the tab when it is hovered.
 
 ###  HoveredImageUrl `String`
 
@@ -269,6 +105,157 @@ Use the HoveredImageUrl property to specify a custom image that will be
             		If the HoveredImageUrl property is not set the value of the ImageUrl
             		will be used instead.
 
+###  ID `String`
+
+The ID property is reserved for internal use. Please use the Value property or
+            use the Attributes collection if you need to assign
+            custom data to the item.
+
+###  ImageUrl `String`
+
+Gets or sets the URL to an image which is displayed next to the text of a tab.
+
+#### Remarks
+Use the ImageUrl property to specify a custom image that will be
+            	displayed before the text of the current tab.
+
+###  Index `Int32`
+
+Gets the zero based index of the item.
+
+###  IsBreak `Boolean`
+
+Gets or sets a value indicating whether next tab will be displayed on a new
+            line.
+
+#### Remarks
+Use the IsBreak property to create multi-row tabstrip. All tabs after the "break"
+            	tab will be displayed on a new line.
+
+###  IsSeparator `Boolean`
+
+Gets or sets a value indicating whether the tab will behave as separator.
+
+#### Remarks
+Use separators to visually separate the tabs. You also need to specify the width
+            	of the separator tab through the Width property.
+
+###  Level `Int32`
+
+Gets the level of the current tab.
+
+###  NavigateUrl `String`
+
+Gets or sets the URL to navigate to when the current tab is clicked.
+
+#### Remarks
+By default clicking a tab will select it. If the tab has any child tabs they will be displayed. To make a tab
+            		navigate to some designated URL you can use the NavigateUrl property. You can optionally set the
+            		Target property to specify the window or frame in which to display the linked content.
+            	
+            		Setting the NavigateUrl property will disable tab selection and as a result the
+            		TabClick event won't be raised for the current tab.
+
+###  OuterCssClass `String`
+
+Gets or sets the Cascading Style Sheet (CSS) class applied on the outmost tab element (<LI>).
+
+#### Remarks
+You can use the OuterCssClass property to specify unique
+            	appearance for the tab, or to insert elements that are before/after the link element.
+
+###  Owner `IRadTabContainer`
+
+Gets the IRadTabContainer instance which contains the current tab.
+
+#### Remarks
+The value is of the IRadTabContainer type which is
+                implemented by the RadTabStrip class and the
+                RadTab class. Use the Owner property when
+                recursively traversing tabs in the RadTabStrip control.
+
+###  PageView `RadPageView`
+
+Gets the RadPageView activated when the tab is selected.
+
+###  PageViewID `String`
+
+Gets or sets the ID of the RadPageView in
+                a RadMultiPage that will be switched when the tab is
+                selected.
+
+#### Remarks
+This property overrides the default relation between the page views within a
+                RadMultiPage and the tabs in a
+                RadTabStrip. By default a tab activates the page view
+                with the same index.
+
+###  PerTabScrolling `Boolean`
+
+Gets or sets a value indicating whether the tabstrip should scroll directly to
+            	the next tab.
+
+#### Remarks
+By default tabs are scrolled smoothly. If you want the tabstrip to scroll directly
+                to the next (or previous) tab set this property to true. This
+                property is applicable when the ScrollChildren
+                property is set to true; otherwise it is ignored.
+
+###  PostBack `Boolean`
+
+Gets or sets a value indicating whether clicking on the tab will postback.
+
+#### Remarks
+If you subscribe to the TabClick event all tabs
+                will postback. To prevent the current tab from initiating postback you can set the PostBack
+            	property to false.
+
+###  ScrollButtonsPosition `TabStripScrollButtonsPosition`
+
+The position of the scroll buttons with regards to the tab band.
+
+#### Remarks
+This property is applicable when the
+                ScrollChildren property is set to
+                true; otherwise it is ignored.
+
+###  ScrollChildren `Boolean`
+
+Gets or sets a value indicating whether the children of the tab will be
+            	scrollable.
+
+#### Remarks
+To enable scrolling of the child tabs the ScrollChildren property
+            	must also be set to true.
+
+###  ScrollPosition `Int32`
+
+Gets or sets the position of the scrollable band of tabs relative to the
+            	beginning of the scrolling area.
+
+#### Remarks
+This property is applicable when the
+                ScrollChildren property is set to
+                true; otherwise it is ignored.
+
+###  Selected `Boolean`
+
+Gets or sets a value indicating whether the tab is selected.
+
+#### Remarks
+Use the Selected property to determine whether the tab is currently selected
+                within its parent RadTabCollection. Setting the Selected
+                property to true will deselect the previously selected tab.
+
+###  SelectedCssClass `Boolean`
+
+Gets or sets the Cascading Style Sheet (CSS) class applied when the tab is selected.
+
+#### Remarks
+By default the visual appearance of selected tabs is defined in the skin CSS
+            	file. You can use the SelectedCssClass property to specify unique
+            	appearance for the current tab when it is selected.
+
 ###  SelectedImageUrl `Boolean`
 
 Gets or sets the URL to an image which is displayed when the tab is selected.
@@ -281,18 +268,34 @@ Use the SelectedImageUrl property to specify a custom image that will be
             		If the SelectedImageUrl property is not set the value of the ImageUrl
             		will be used instead.
 
-###  DisabledImageUrl `String`
+###  SelectedIndex `Boolean`
 
-Gets or sets the URL to an image which is displayed when the tab is disabled
-            	(its Enabled property is set to false).
+Gets or sets the index of the selected child tab.
 
 #### Remarks
-Use the DisabledImageUrl property to specify a custom image that will be
-            		displayed when the current tab is disabled. Setting the DisabledImageUrl
-            		property required the ImageUrl property to be set beforehand.
-            	
-            		If the DisabledImageUrl property is not set the value of the ImageUrl
-            		will be used instead.
+Use the SelectedIndex property to programmatically specify the selected
+            		child tab in a IRadTabContainer (RadTabStrip or RadTab).
+            		To clear the selection set the SelectedIndex property to -1.
+
+###  SelectedTab `Boolean`
+
+Gets the selected child tab.
+
+###  Tabs `RadTabCollection`
+
+Gets a RadTabCollection object that contains the child tabs of the current tab.
+
+#### Remarks
+Use the Tabs property to access the child tabs of the current tab. You can also use the Tabs property to
+            	manage the children of the current tab. You can add, remove or modify tabs from the Tabs collection.
+
+###  TabStrip `RadTabStrip`
+
+Gets the RadTabStrip instance which contains the current tab.
+
+###  TabTemplate `ITemplate`
+
+Gets or sets the template for displaying the tab.
 
 ###  Target `String`
 
@@ -309,47 +312,31 @@ Use the Target property to target window or frame in which to display the
             		The Target property is taken into consideration only when the NavigateUrl
             		property is set.
 
-###  PageView `RadPageView`
+###  Text `String`
 
-Gets the RadPageView activated when the tab is selected.
+Gets or sets the text displayed for the current tab.
 
-###  Enabled `Boolean`
+#### Remarks
+Use the Text property to specify or determine the text that is displayed for the tab
+            	in the RadTabStrip control.
 
-###  Visible `Boolean`
+###  Value `String`
 
-###  ID `String`
+Gets or sets custom (user-defined) data associated with the current tab.
 
-The ID property is reserved for internal use. Please use the Value property or
-            use the Attributes collection if you need to assign
-            custom data to the item.
-
-###  Index `Int32`
-
-Gets the zero based index of the item.
-
-###  AccessKey `String`
-
-Gets or sets the access key that allows you to quickly navigate to the Web server control.
-
-###  BackColor `Color`
-
-###  ForeColor `Color`
-
-###  BorderColor `Color`
+#### Remarks
+Use the Value property to associate custom data with a RadTab object.
 
 ## Methods
 
-###  SelectParents
+###  IsChildControl
 
-Selects recursively all parent tabs in the hierarchy.
-
-#### Remarks
-Use this method to programmatically select all parents of the tab. Selected tabs
-            		will be visible in the browser.
+Returns true if the control is rendered by the ControlItem itself;
+            false if it was added by the user to the Controls collection.
 
 #### Returns
 
-`System.Void` 
+`System.Boolean` 
 
 ###  RenderEndTag
 
@@ -367,12 +354,15 @@ A  that represents
 
 `System.Void` 
 
-###  IsChildControl
+###  SelectParents
 
-Returns true if the control is rendered by the ControlItem itself;
-            false if it was added by the user to the Controls collection.
+Selects recursively all parent tabs in the hierarchy.
+
+#### Remarks
+Use this method to programmatically select all parents of the tab. Selected tabs
+            		will be visible in the browser.
 
 #### Returns
 
-`System.Boolean` 
+`System.Void` 
 

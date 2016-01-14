@@ -21,13 +21,13 @@ Represents the class used for configuring the track of the LinearGauge's pointer
 
 Gets or sets the color of the track.
 
-###  Size `Nullable`1`
-
-Gets or sets the size of the track.
-
 ###  Opacity `Single`
 
 Gets or sets the transparency of the track.
+
+###  Size `Nullable`1`
+
+Gets or sets the size of the track.
 
 ###  Visible `Boolean`
 

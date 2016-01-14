@@ -16,17 +16,23 @@ Represents a query provider for expressions used to filter a Telerik.Web.UI.RadL
 
 ## Properties
 
-###  SupportedFilterFunctions `IList`1`
-
-Gets a collection of the RadFilterFunctions supported by the current query provider.
-
-###  SupportedGroupOperations `IList`1`
-
-Gets a collection of the RadFilterGroupOperation supported by the current query provider.
-
 ###  ListViewExpressions `RadListViewFilterExpressionCollection`
 
 Gets a collection of the RadListViewFilterExpression objects created by the provider.
+
+###  OnExpressionEvaluated `Action`1`
+
+Gets\sets a delegate that will be called after every expression evaluation.
+            The property could be used to alter the result of the evaluation by changing
+            the values or the format based on the expression.
+
+###  Result `String`
+
+Gets string value representing the result from the processed filter expression.
+
+###  SupportedFilterFunctions `IList`1`
+
+Gets a collection of the RadFilterFunctions supported by the current query provider.
 
 ###  SupportedFilterFunctions `IList`1`
 
@@ -36,47 +42,11 @@ Gets a collection of the RadFilterFunction values supported by the current query
 
 Gets a collection of the RadFilterGroupOperation supported by the current query provider.
 
-###  Result `String`
+###  SupportedGroupOperations `IList`1`
 
-Gets string value representing the result from the processed filter expression.
-
-###  OnExpressionEvaluated `Action`1`
-
-Gets\sets a delegate that will be called after every expression evaluation.
-            The property could be used to alter the result of the evaluation by changing
-            the values or the format based on the expression.
+Gets a collection of the RadFilterGroupOperation supported by the current query provider.
 
 ## Methods
-
-###  ProcessGroup
-
-Processes the passed RadFilterGroupExpression to create the expressions for
-            filtering .
-
-#### Parameters
-
-#### rootGroup `Telerik.Web.UI.RadFilterGroupExpression`
-
-The RadFilterGroupExpression to process internally.
-
-#### Returns
-
-`System.Void` 
-
-###  ProcessGroup
-
-Processes the passed RadFilterGroupExpression to create the expressions for
-            filtering .
-
-#### Parameters
-
-#### rootGroup `Telerik.Web.UI.RadFilterGroupExpression`
-
-The RadFilterGroupExpression to process internally.
-
-#### Returns
-
-`System.Void` 
 
 ###  IsValidFilterFunction
 
@@ -107,4 +77,34 @@ A member of the RadFilterGroupOperation representing a group operation
 #### Returns
 
 `System.Boolean` true if the filter function is among the supported operations; otherwise returns false.
+
+###  ProcessGroup
+
+Processes the passed RadFilterGroupExpression to create the expressions for
+            filtering .
+
+#### Parameters
+
+#### rootGroup `Telerik.Web.UI.RadFilterGroupExpression`
+
+The RadFilterGroupExpression to process internally.
+
+#### Returns
+
+`System.Void` 
+
+###  ProcessGroup
+
+Processes the passed RadFilterGroupExpression to create the expressions for
+            filtering .
+
+#### Parameters
+
+#### rootGroup `Telerik.Web.UI.RadFilterGroupExpression`
+
+The RadFilterGroupExpression to process internally.
+
+#### Returns
+
+`System.Void` 
 

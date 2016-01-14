@@ -16,13 +16,13 @@ Defines the connectors the shape owns.You can easily define your own custom conn
 
 ## Properties
 
-###  Name `String`
-
-The connector name. Predefined names include:
-
 ###  Description `String`
 
 The connector description.
+
+###  Name `String`
+
+The connector name. Predefined names include:
 
 ###  Position `String`
 

@@ -16,11 +16,11 @@ Object returned from the GetBindingData methods. Returns
 
 ## Properties
 
-###  Data `IQueryable`
-
-Gets or sets the binding data.
-
 ###  Count `Int32`
 
 Gets or sets the number of items in the binding data.
+
+###  Data `IQueryable`
+
+Gets or sets the binding data.
 

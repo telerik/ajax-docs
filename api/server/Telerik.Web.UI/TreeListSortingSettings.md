@@ -16,11 +16,6 @@ Represents the settings for sorting Telerik.Web.UI.RadTreeList .
 
 ## Properties
 
-###  SortToolTip `String`
-
-Gets or sets the tooltip that will be displayed when you hover the sorting button
-            and there is no sorting applied.
-
 ###  SortedAscToolTip `String`
 
 Gets or sets the tooltip that will be displayed when you hover the sorting button
@@ -30,4 +25,9 @@ Gets or sets the tooltip that will be displayed when you hover the sorting butto
 
 Gets or sets the tooltip that will be displayed when you hover the sorting button
             and the column is sorted descending.
+
+###  SortToolTip `String`
+
+Gets or sets the tooltip that will be displayed when you hover the sorting button
+            and there is no sorting applied.
 

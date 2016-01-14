@@ -20,15 +20,15 @@ The default configuration for Bing (tm) tile layers.
 
 The attribution of all Bing (tm) layers.
 
-###  Opacity `Double`
+###  ImagerySet `String`
 
-The the opacity of all Bing (tm) tile layers.
+The bing map tile types. Possible options:
 
 ###  Key `String`
 
 The key of all Bing (tm) tile layers.
 
-###  ImagerySet `String`
+###  Opacity `Double`
 
-The bing map tile types. Possible options:
+The the opacity of all Bing (tm) tile layers.
 

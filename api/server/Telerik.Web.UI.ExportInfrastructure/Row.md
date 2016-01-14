@@ -15,23 +15,23 @@ EI Row object
 
 ## Properties
 
-###  Table `Table`
+###  Cells `CellCollection`
 
-Provides a reference to the owner Table
-
-###  Style `ExportStyle`
-
-Container of the Row styles
+Returns the current row's cells
 
 ###  Height `Double`
 
 Row height
 
-###  Cells `CellCollection`
-
-Returns the current row's cells
-
 ###  Index `Int32`
 
 Row index
+
+###  Style `ExportStyle`
+
+Container of the Row styles
+
+###  Table `Table`
+
+Provides a reference to the owner Table
 

@@ -15,20 +15,6 @@ Data type converter
 
 ## Methods
 
-###  ConvertDataEnumToString
-
-Converts a DataType value to string
-
-#### Parameters
-
-#### dataType `Telerik.Web.DataType`
-
-DataType value
-
-#### Returns
-
-`System.String` String representation of the DataType
-
 ###  CanConvert
 
 Returns true if the object can be converted to any of the supported data types
@@ -56,6 +42,20 @@ Object to be converted
 #### Returns
 
 `System.String` Converted string.
+
+###  ConvertDataEnumToString
+
+Converts a DataType value to string
+
+#### Parameters
+
+#### dataType `Telerik.Web.DataType`
+
+DataType value
+
+#### Returns
+
+`System.String` String representation of the DataType
 
 ###  ConvertToDataType
 

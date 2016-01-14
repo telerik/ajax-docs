@@ -18,13 +18,13 @@ A collection that stores Telerik.Web.UI.GridTableView objects. You can access
 
 ## Properties
 
-###  OwnerGrid `RadGrid`
-
-Get the instance of  that owns this instance
-
 ###  Item `GridTableView`
 
 Represents the entry at the specified index of the .
+
+###  OwnerGrid `RadGrid`
+
+Get the instance of  that owns this instance
 
 ## Methods
 
@@ -106,6 +106,15 @@ The index in  where copying begins.
 
 `System.Void` None.
 
+###  GetEnumerator
+
+Returns an enumerator that can iterate through 
+                  the  .
+
+#### Returns
+
+`Telerik.Web.UI.GridDataTableEnumerator` None.
+
 ###  IndexOf
 
 Returns the index of a  in 
@@ -139,15 +148,6 @@ The  to insert.
 #### Returns
 
 `System.Void` None.
-
-###  GetEnumerator
-
-Returns an enumerator that can iterate through 
-                  the  .
-
-#### Returns
-
-`Telerik.Web.UI.GridDataTableEnumerator` None.
 
 ###  Remove
 

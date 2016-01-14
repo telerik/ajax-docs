@@ -20,68 +20,6 @@ description: Telerik.Web.UI.RadSiteMap
 
 ## Properties
 
-###  Nodes `RadSiteMapNodeCollection`
-
-Gets a  object that contains the root nodes of the current RadSiteMap control.
-
-#### Remarks
-Use the nodes property to access the root nodes of the RadSiteMap control. You can also use the nodes property to
-            	manage the root nodes - you can add, remove or modify nodes.
-
-###  SelectedNode `RadSiteMapNode`
-
-Gets a collection of RadSiteMapNode objects that represent the node in the control
-            that is currently selected.
-
-###  DefaultLevelSettings `DefaultSiteMapLevelSetting`
-
-Gets or sets the SiteMapLevelSetting
-            object to be used when no specific settings have been defined for a given level.
-
-#### Remarks
-Individual levels can be customized using the LevelSettings
-            collection. Levels not specified in this collection will get the default settings.
-
-###  LevelSettings `SiteMapLevelSettingCollection`
-
-Gets the collection of LevelSettings objects that
-            define the appearance of the nodes according to their level in the hierarchy.
-
-###  ShowNodeLines `Boolean`
-
-Gets or sets a value indicating whether to render node lines in a fashion similar to RadTreeView.
-
-#### Remarks
-Node lines are supported in List rendering mode without columns.
-
-###  DataBindings `RadSiteMapNodeBindingCollection`
-
-Gets a collection of  objects that define the relationship 
-            	between a data item and the tree node it is binding to.
-
-###  EnableTextHTMLEncoding `Boolean`
-
-Gets or sets a value indicating whether the html encoding will be applied when the site map items are rendered.
-
-#### Remarks
-By default RadSiteMap will not apply a html encoding when the site map items are rendered.
-
-###  DataSource `Object`
-
-###  ValidationGroup `String`
-
-Gets or sets the name of the validation group to which this validation
-                control belongs.
-
-#### Remarks
-This property works only when CausesValidation
-                is set to true.
-
-###  PostBackUrl `String`
-
-Gets or sets the URL of the page to post to from the current page when a tab
-                from the tabstrip is clicked.
-
 ###  CausesValidation `Boolean`
 
 Gets or sets a value indicating whether validation is performed when an item within
@@ -96,24 +34,47 @@ By default, page validation is performed when an item is selected. Page
                 property. To prevent validation from being performed, set the
                 CausesValidation property to false.
 
-###  RegisterWithScriptManager `Boolean`
+###  ClientDataSourceID `String`
 
-Gets or sets the value, indicating whether to register with the ScriptManager control on the page.
+Gets or sets ID of ClientDataSource control that is used for client side binding
+
+###  ClientIDMode `ClientIDMode`
+
+This property is overridden in order to support controls which implement INamingContainer.
+            The default value is changed to "AutoID".
+
+###  CssClassFormatString `String`
+
+The CssClass property will now be used instead of the former Skin 
+            and will be modified in AddAttributesToRender()
+
+###  DataBindings `RadSiteMapNodeBindingCollection`
+
+Gets a collection of  objects that define the relationship 
+            	between a data item and the tree node it is binding to.
+
+###  DefaultLevelSettings `DefaultSiteMapLevelSetting`
+
+Gets or sets the SiteMapLevelSetting
+            object to be used when no specific settings have been defined for a given level.
 
 #### Remarks
-If RegisterWithScriptManager is set to false the control can be rendered on the page using Web Services or normal callback requests/page methods.
+Individual levels can be customized using the LevelSettings
+            collection. Levels not specified in this collection will get the default settings.
 
-###  Skin `String`
+###  EnableAjaxSkinRendering `String`
 
-Gets or sets the skin name for the control user interface.
+Gets or sets the value, indicating whether to render the skin CSS files during Ajax requests
 
 #### Remarks
-If this property is not set, the control will render using the skin named "Default".
-            If EnableEmbeddedSkins is set to false, the control will not render skin.
+If EnableAjaxSkinRendering is set to false you will have to register the needed control base CSS file by hand when adding/showing the control with Ajax.
 
-###  IsSkinSet `String`
+###  EnableEmbeddedBaseStylesheet `Boolean`
 
-For internal use.
+Gets or sets the value, indicating whether to render the link to the embedded base stylesheet of the control or not.
+
+#### Remarks
+If EnableEmbeddedBaseStylesheet is set to false you will have to register the needed control base CSS file by hand.
 
 ###  EnableEmbeddedScripts `Boolean`
 
@@ -129,34 +90,45 @@ Gets or sets the value, indicating whether to render links to the embedded skins
 #### Remarks
 If EnableEmbeddedSkins is set to false you will have to register the needed CSS files by hand.
 
-###  EnableEmbeddedBaseStylesheet `Boolean`
+###  EnableTextHTMLEncoding `Boolean`
 
-Gets or sets the value, indicating whether to render the link to the embedded base stylesheet of the control or not.
+Gets or sets a value indicating whether the html encoding will be applied when the site map items are rendered.
 
 #### Remarks
-If EnableEmbeddedBaseStylesheet is set to false you will have to register the needed control base CSS file by hand.
+By default RadSiteMap will not apply a html encoding when the site map items are rendered.
+
+###  IsSkinSet `String`
+
+For internal use.
+
+###  LevelSettings `SiteMapLevelSettingCollection`
+
+Gets the collection of LevelSettings objects that
+            define the appearance of the nodes according to their level in the hierarchy.
+
+###  Nodes `RadSiteMapNodeCollection`
+
+Gets a  object that contains the root nodes of the current RadSiteMap control.
+
+#### Remarks
+Use the nodes property to access the root nodes of the RadSiteMap control. You can also use the nodes property to
+            	manage the root nodes - you can add, remove or modify nodes.
 
 ###  ODataDataSourceID `String`
 
 Gets or sets the ODataDataSource used for data binding.
 
-###  ClientDataSourceID `String`
+###  PostBackUrl `String`
 
-Gets or sets ID of ClientDataSource control that is used for client side binding
+Gets or sets the URL of the page to post to from the current page when a tab
+                from the tabstrip is clicked.
 
-###  RuntimeSkin `String`
+###  RegisterWithScriptManager `Boolean`
 
-Gets the real skin name for the control user interface. If Skin is not set, returns
-            "Default", otherwise returns Skin.
-
-###  EnableAjaxSkinRendering `String`
-
-Gets or sets the value, indicating whether to render the skin CSS files during Ajax requests
+Gets or sets the value, indicating whether to register with the ScriptManager control on the page.
 
 #### Remarks
-If EnableAjaxSkinRendering is set to false you will have to register the needed control base CSS file by hand when adding/showing the control with Ajax.
-
-###  ClientStateFieldID `String`
+If RegisterWithScriptManager is set to false the control can be rendered on the page using Web Services or normal callback requests/page methods.
 
 ###  RenderMode `RenderMode`
 
@@ -172,67 +144,41 @@ Lightweight rendering mode might change the outlook of the component in some old
 
 Returns resolved RenderMode should the original value was Auto
 
-###  CssClassFormatString `String`
+###  RuntimeSkin `String`
 
-The CssClass property will now be used instead of the former Skin 
-            and will be modified in AddAttributesToRender()
+Gets the real skin name for the control user interface. If Skin is not set, returns
+            "Default", otherwise returns Skin.
 
-###  DefaultCssClass `String`
+###  SelectedNode `RadSiteMapNode`
 
-###  ClientIDMode `ClientIDMode`
+Gets a collection of RadSiteMapNode objects that represent the node in the control
+            that is currently selected.
 
-This property is overridden in order to support controls which implement INamingContainer.
-            The default value is changed to "AutoID".
+###  ShowNodeLines `Boolean`
 
-###  ScriptManager `ScriptManager`
+Gets or sets a value indicating whether to render node lines in a fashion similar to RadTreeView.
 
-###  RadScriptManager `ScriptManager`
+#### Remarks
+Node lines are supported in List rendering mode without columns.
+
+###  Skin `String`
+
+Gets or sets the skin name for the control user interface.
+
+#### Remarks
+If this property is not set, the control will render using the skin named "Default".
+            If EnableEmbeddedSkins is set to false, the control will not render skin.
+
+###  ValidationGroup `String`
+
+Gets or sets the name of the validation group to which this validation
+                control belongs.
+
+#### Remarks
+This property works only when CausesValidation
+                is set to true.
 
 ## Methods
-
-###  OnNodeDataBound
-
-Raises the  event.
-
-#### Parameters
-
-#### e `Telerik.Web.UI.RadSiteMapNodeEventArgs`
-
-The  instance containing the event data.
-
-#### Returns
-
-`System.Void` 
-
-###  OnNodeCreated
-
-Raises the  event.
-
-#### Parameters
-
-#### e `Telerik.Web.UI.RadSiteMapNodeEventArgs`
-
-The  instance containing the event data.
-
-#### Returns
-
-`System.Void` 
-
-###  ClearSelectedNode
-
-This methods clears the selected nodes of the current RadSiteMap instance.
-
-#### Returns
-
-`System.Void` 
-
-###  GetAllNodes
-
-Gets a linear list of all nodes in the RadSiteMap control.
-
-#### Returns
-
-`System.Collections.Generic.IList`1` An IList<RadSiteMapNode> containing all nodes (from all hierarchy levels).
 
 ###  AddProperty
 
@@ -260,6 +206,54 @@ The default value.
 
 `System.Void` 
 
+###  ApplyConditionalRendering
+
+Use this from RenderContents of the inheritor
+
+#### Returns
+
+`System.Void` 
+
+###  ClearSelectedNode
+
+This methods clears the selected nodes of the current RadSiteMap instance.
+
+#### Returns
+
+`System.Void` 
+
+###  ControlPreRender
+
+Code moved into this method from OnPreRender to make sure it executed when the framework skips OnPreRender() for some reason
+
+#### Returns
+
+`System.Void` 
+
+###  DescribeRenderingMode
+
+Should be  used by inheritors
+
+#### Returns
+
+`System.Void` 
+
+###  GetAllNodes
+
+Gets a linear list of all nodes in the RadSiteMap control.
+
+#### Returns
+
+`System.Collections.Generic.IList`1` An IList<RadSiteMapNode> containing all nodes (from all hierarchy levels).
+
+###  GetEmbeddedSkinNames
+
+Returns the names of all embedded skins. Used by Telerik.Web.Examples.
+
+#### Returns
+
+`System.Collections.Generic.List`1` 
+
 ###  GetXml
 
 Gets an XML string representing the state of the control. All child items and their properties are serialized in this
@@ -272,6 +266,32 @@ Use the GetXml method to get the XML state of the control. You can cache it and 
 #### Returns
 
 `System.String` A String representing the state of the control - child items, properties etc.
+
+###  LoadClientState
+
+Loads the client state data
+
+#### Parameters
+
+#### clientState `System.Collections.Generic.Dictionary{System.String,System.Object}`
+
+#### Returns
+
+`System.Void` 
+
+###  LoadPostData
+
+Executed when post data is loaded from the request
+
+#### Parameters
+
+#### postDataKey `System.String`
+
+#### postCollection `System.Collections.Specialized.NameValueCollection`
+
+#### Returns
+
+`System.Boolean` 
 
 ###  LoadXml
 
@@ -291,29 +311,37 @@ The string representing the XML from which the control will be populated.
 
 `System.Void` 
 
-###  AddAttributesToRender
+###  OnNodeCreated
+
+Raises the  event.
+
+#### Parameters
+
+#### e `Telerik.Web.UI.RadSiteMapNodeEventArgs`
+
+The  instance containing the event data.
 
 #### Returns
 
 `System.Void` 
 
-###  OnPreRender
+###  OnNodeDataBound
+
+Raises the  event.
+
+#### Parameters
+
+#### e `Telerik.Web.UI.RadSiteMapNodeEventArgs`
+
+The  instance containing the event data.
 
 #### Returns
 
 `System.Void` 
 
-###  ControlPreRender
+###  RaisePostDataChangedEvent
 
-Code moved into this method from OnPreRender to make sure it executed when the framework skips OnPreRender() for some reason
-
-#### Returns
-
-`System.Void` 
-
-###  RegisterScriptControl
-
-Registers the control with the ScriptManager
+Executed when post data changes should invoke a changed event
 
 #### Returns
 
@@ -327,13 +355,9 @@ Registers the CSS references
 
 `System.Void` 
 
-###  LoadClientState
+###  RegisterScriptControl
 
-Loads the client state data
-
-#### Parameters
-
-#### clientState `System.Collections.Generic.Dictionary{System.String,System.Object}`
+Registers the control with the ScriptManager
 
 #### Returns
 
@@ -346,116 +370,4 @@ Saves the client state data
 #### Returns
 
 `System.String` 
-
-###  RenderClientStateField
-
-#### Returns
-
-`System.Void` 
-
-###  RenderBeginTag
-
-#### Returns
-
-`System.Void` 
-
-###  RenderEndTag
-
-#### Returns
-
-`System.Void` 
-
-###  Render
-
-#### Returns
-
-`System.Void` 
-
-###  RenderScriptsNoScriptManager
-
-#### Returns
-
-`System.Void` 
-
-###  RenderDescriptorsNoScriptManager
-
-#### Returns
-
-`System.Void` 
-
-###  RenderContents
-
-#### Returns
-
-`System.Void` 
-
-###  ApplyConditionalRendering
-
-Use this from RenderContents of the inheritor
-
-#### Returns
-
-`System.Void` 
-
-###  DescribeComponent
-
-#### Returns
-
-`System.Void` 
-
-###  DescribeRenderingMode
-
-Should be  used by inheritors
-
-#### Returns
-
-`System.Void` 
-
-###  DescribeProperty
-
-#### Returns
-
-`System.Void` 
-
-###  DescribeEvent
-
-#### Returns
-
-`System.Void` 
-
-###  GetEmbeddedSkinNames
-
-Returns the names of all embedded skins. Used by Telerik.Web.Examples.
-
-#### Returns
-
-`System.Collections.Generic.List`1` 
-
-###  LoadPostData
-
-Executed when post data is loaded from the request
-
-#### Parameters
-
-#### postDataKey `System.String`
-
-#### postCollection `System.Collections.Specialized.NameValueCollection`
-
-#### Returns
-
-`System.Boolean` 
-
-###  RaisePostDataChangedEvent
-
-Executed when post data changes should invoke a changed event
-
-#### Returns
-
-`System.Void` 
-
-###  GetViewStateValue
-
-#### Returns
-
-`Telerik.Web.UI.T` 
 

@@ -16,20 +16,6 @@ Represents a collection of custom non-embedded skins.
 
 ## Methods
 
-###  IndexOf
-
-Returns the index of a given CustomNonEmbeddedSkin object in the collection.
-
-#### Parameters
-
-#### skin `Telerik.Web.UI.CustomNonEmbeddedSkin`
-
-The CustomNonEmbeddedSkin to search for.
-
-#### Returns
-
-`System.Int32` An integer value representing the position of the item in the collection.
-
 ###  Add
 
 Adds a passed CustomNonEmbeddedSkin to the collection.
@@ -86,4 +72,18 @@ A string representing the resource name.
 #### Returns
 
 `Telerik.Web.UI.CustomNonEmbeddedSkin` The located CustomNonEmbeddedSkin reference.
+
+###  IndexOf
+
+Returns the index of a given CustomNonEmbeddedSkin object in the collection.
+
+#### Parameters
+
+#### skin `Telerik.Web.UI.CustomNonEmbeddedSkin`
+
+The CustomNonEmbeddedSkin to search for.
+
+#### Returns
+
+`System.Int32` An integer value representing the position of the item in the collection.
 

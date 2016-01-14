@@ -16,6 +16,10 @@ Provides data for the E:Telerik.Web.UI.RadSearchBox.Search event of the Telerik.
 
 ## Properties
 
+###  DataItem `Object`
+
+Gets or sets the dataItem object of the referenced item in the  control when the event is raised.
+
 ###  Text `String`
 
 Gets or sets the text of the referenced item in the  control when the event is raised.
@@ -23,8 +27,4 @@ Gets or sets the text of the referenced item in the  control when the event is r
 ###  Value `String`
 
 Gets or sets the value of the referenced item in the  control when the event is raised.
-
-###  DataItem `Object`
-
-Gets or sets the dataItem object of the referenced item in the  control when the event is raised.
 

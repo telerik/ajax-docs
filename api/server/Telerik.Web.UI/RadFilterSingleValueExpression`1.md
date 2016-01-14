@@ -18,17 +18,13 @@ Represents a filter expression that takes a single value for filtering.
 
 ## Properties
 
-###  Value `T`
+###  FieldName `String`
 
-Gets or sets the value of the type provided when initializing the generic class.
+Gets or sets the name of the field the current expression is used for.
 
 ###  FieldType `Type`
 
 Gets the type of the field the expression is built for.
-
-###  FieldName `String`
-
-Gets or sets the name of the field the current expression is used for.
 
 ###  FieldType `Type`
 
@@ -37,4 +33,8 @@ Gets or sets the name of the field the current expression is used for.
 ###  FilterFunction `RadFilterFunction`
 
 Gets the filter function used in the current expression.
+
+###  Value `T`
+
+Gets or sets the value of the type provided when initializing the generic class.
 

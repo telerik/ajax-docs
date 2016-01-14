@@ -15,6 +15,10 @@ A reminder data class.
 
 ## Properties
 
+###  Attributes `IDictionary`2`
+
+Gets or sets the attributes.
+
 ###  ID `String`
 
 Gets or sets the ID.
@@ -22,10 +26,6 @@ Gets or sets the ID.
 ###  TriggerMinutes `Int32`
 
 Gets or sets the trigger minutes.
-
-###  Attributes `IDictionary`2`
-
-Gets or sets the attributes.
 
 ## Methods
 

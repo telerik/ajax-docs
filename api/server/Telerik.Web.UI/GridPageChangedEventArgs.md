@@ -18,9 +18,9 @@ The event arguments passed when the grid performs pagging and fires PageChanged 
 
 ## Properties
 
-###  NewPageIndex `Int32`
+###  Canceled `Boolean`
 
-Gets the new page index the grid will go on.
+Gets or sets a value, defining whether the command should be canceled.
 
 ###  CommandSource `Object`
 
@@ -30,17 +30,11 @@ Gets the source of the command
 
 Gets the item containing the command source
 
-###  Canceled `Boolean`
+###  NewPageIndex `Int32`
 
-Gets or sets a value, defining whether the command should be canceled.
+Gets the new page index the grid will go on.
 
 ## Methods
-
-###  ExecuteCommand
-
-#### Returns
-
-`System.Void` 
 
 ###  ExecuteCommand
 

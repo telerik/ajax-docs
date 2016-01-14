@@ -21,11 +21,11 @@ Used for internal grouping by days.
 
 Gets the Day part of the group.
 
-###  Month `Int32`
-
-Gets the Month part of the group.
-
 ###  IsValid `Boolean`
 
 Gets or sets a value indicating whether this instance is valid.
+
+###  Month `Int32`
+
+Gets the Month part of the group.
 

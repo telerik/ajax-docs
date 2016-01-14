@@ -15,10 +15,6 @@ Represents a collection of Telerik.Web.UI.GridColumnGroup . Used to define Multi
 
 ## Properties
 
-###  Item `GridColumnGroup`
-
-Gets the  at the specified index.
-
 ###  Count `Int32`
 
 Gets the number of elements contained in the .
@@ -33,54 +29,11 @@ Gets a value indicating whether the
 Gets a value indicating whether a the 
             is tracking its view state changes.
 
+###  Item `GridColumnGroup`
+
+Gets the  at the specified index.
+
 ## Methods
-
-###  IndexOf
-
-Gets the index of the  item in the collection.
-
-#### Parameters
-
-#### item `Telerik.Web.UI.GridColumnGroup`
-
-The item.
-
-#### Returns
-
-`System.Int32` index of the item
-
-###  Insert
-
-Inserts  group at the specified index.
-
-#### Parameters
-
-#### index `System.Int32`
-
-The index.
-
-#### item `Telerik.Web.UI.GridColumnGroup`
-
-The item.
-
-#### Returns
-
-`System.Void` 
-
-###  RemoveAt
-
-Removes the  item at the specified
-            index.
-
-#### Parameters
-
-#### index `System.Int32`
-
-The zero-based index of the item to remove.
-
-#### Returns
-
-`System.Void` 
 
 ###  Add
 
@@ -136,6 +89,77 @@ the index to start copying from.
 
 `System.Void` 
 
+###  FindGroupByName
+
+Finds the  in the collection by specifying its group name.
+
+#### Parameters
+
+#### groupName `System.String`
+
+The name of the group.
+
+#### Returns
+
+`Telerik.Web.UI.GridColumnGroup` Returns the  which was found. Otherwise 'null'.
+
+###  GetEnumerator
+
+Returns an enumerator that iterates through the collection.
+
+#### Returns
+
+`System.Collections.Generic.IEnumerator`1` An enumerator that can be used to
+            iterate through the collection.
+
+###  IndexOf
+
+Gets the index of the  item in the collection.
+
+#### Parameters
+
+#### item `Telerik.Web.UI.GridColumnGroup`
+
+The item.
+
+#### Returns
+
+`System.Int32` index of the item
+
+###  Insert
+
+Inserts  group at the specified index.
+
+#### Parameters
+
+#### index `System.Int32`
+
+The index.
+
+#### item `Telerik.Web.UI.GridColumnGroup`
+
+The item.
+
+#### Returns
+
+`System.Void` 
+
+###  LoadViewState
+
+Loads the  previously saved view
+            state to the collection.
+
+#### Parameters
+
+#### state `System.Object`
+
+An  that contains the saved view state values for
+            the collection.
+
+#### Returns
+
+`System.Void` 
+
 ###  Remove
 
 Removes the specified item.
@@ -150,14 +174,51 @@ The item.
 
 `System.Boolean` 
 
-###  GetEnumerator
+###  RemoveAt
 
-Returns an enumerator that iterates through the collection.
+Removes the  item at the specified
+            index.
+
+#### Parameters
+
+#### index `System.Int32`
+
+The zero-based index of the item to remove.
 
 #### Returns
 
-`System.Collections.Generic.IEnumerator`1` An enumerator that can be used to
-            iterate through the collection.
+`System.Void` 
+
+###  SaveViewState
+
+When implemented by a class, saves the changes to a server control's view state
+            to an .
+
+#### Returns
+
+`System.Object` The  that contains the view state changes.
+
+###  System.Collections.ICollection.CopyTo
+
+Copies the elements of the  to
+            an , starting at a particular 
+            index.
+
+#### Parameters
+
+#### array `System.Array`
+
+The one-dimensional  that is the destination of the
+            elements copied from . The 
+            must have zero-based indexing.
+
+#### index `System.Int32`
+
+The zero-based index in  at which copying begins.
+
+#### Returns
+
+`System.Void` 
 
 ###  System.Collections.IEnumerable.GetEnumerator
 
@@ -266,67 +327,6 @@ The zero-based index of the item to remove.
 #### Returns
 
 `System.Void` 
-
-###  System.Collections.ICollection.CopyTo
-
-Copies the elements of the  to
-            an , starting at a particular 
-            index.
-
-#### Parameters
-
-#### array `System.Array`
-
-The one-dimensional  that is the destination of the
-            elements copied from . The 
-            must have zero-based indexing.
-
-#### index `System.Int32`
-
-The zero-based index in  at which copying begins.
-
-#### Returns
-
-`System.Void` 
-
-###  FindGroupByName
-
-Finds the  in the collection by specifying its group name.
-
-#### Parameters
-
-#### groupName `System.String`
-
-The name of the group.
-
-#### Returns
-
-`Telerik.Web.UI.GridColumnGroup` Returns the  which was found. Otherwise 'null'.
-
-###  LoadViewState
-
-Loads the  previously saved view
-            state to the collection.
-
-#### Parameters
-
-#### state `System.Object`
-
-An  that contains the saved view state values for
-            the collection.
-
-#### Returns
-
-`System.Void` 
-
-###  SaveViewState
-
-When implemented by a class, saves the changes to a server control's view state
-            to an .
-
-#### Returns
-
-`System.Object` The  that contains the view state changes.
 
 ###  TrackViewState
 

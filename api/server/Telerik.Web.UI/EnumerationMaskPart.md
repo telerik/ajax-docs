@@ -21,10 +21,6 @@ Represents a MaskPart object which accepts only a predefined set of
 
 Gets the options collection of the part.
 
-###  Value `String`
-
-###  Value `String`
-
 ## Methods
 
 ###  ToString

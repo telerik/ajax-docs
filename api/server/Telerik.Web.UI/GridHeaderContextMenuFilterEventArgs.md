@@ -18,6 +18,10 @@ The event arguments passed when Telerik.Web.UI.RadGrid fires a filter command fr
 
 ## Properties
 
+###  Canceled `Boolean`
+
+Gets or sets a value, defining whether the command should be canceled.
+
 ###  CommandSource `Object`
 
 Gets the source of the command
@@ -26,17 +30,7 @@ Gets the source of the command
 
 Gets the item containing the command source
 
-###  Canceled `Boolean`
-
-Gets or sets a value, defining whether the command should be canceled.
-
 ## Methods
-
-###  ExecuteCommand
-
-#### Returns
-
-`System.Void` 
 
 ###  ExecuteCommand
 

@@ -17,11 +17,11 @@ This class gets and sets the localization properties in the buttons that are par
 
 ## Properties
 
-###  Clear `String`
-
-Gets or sets the Clear string.
-
 ###  CheckAll `String`
 
 Gets or sets the CheckAll string.
+
+###  Clear `String`
+
+Gets or sets the Clear string.
 

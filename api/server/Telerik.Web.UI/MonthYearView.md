@@ -18,6 +18,13 @@ The class representing the HTML table element which holds the month and years.
 
 ## Properties
 
+###  CaptionText `String`
+
+Gets or sets the caption for the table MonthYearView.
+
+#### Remarks
+Setting this property to empty string will force Telerik MonthYearView to not render caption tag.
+
 ###  Owner `RadMonthYearPicker`
 
 Gets the owner .
@@ -28,19 +35,4 @@ Gets or sets the summary attribute for the RadTimeView.
 
 #### Remarks
 Setting this property to empty string will force Telerik RadTimeView to not render summary attribute.
-
-###  CaptionText `String`
-
-Gets or sets the caption for the table MonthYearView.
-
-#### Remarks
-Setting this property to empty string will force Telerik MonthYearView to not render caption tag.
-
-## Methods
-
-###  Initialize
-
-#### Returns
-
-`System.Void` 
 

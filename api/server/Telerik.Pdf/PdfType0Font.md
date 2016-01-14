@@ -23,11 +23,6 @@ All versions of the PDF specification up to and including version 1.4
 
 ## Properties
 
-###  ToUnicode `PdfCMap`
-
-Sets the stream containing a CMap that maps character codes to 
-                unicode values.
-
 ###  Descendant `PdfCIDFont`
 
 Sets the descendant font.
@@ -40,73 +35,8 @@ Sets a value representing the character encoding.
 
 Returns the internal name used for this font.
 
-###  entries `Hashtable`
+###  ToUnicode `PdfCMap`
 
-###  Item `PdfObject`
-
-###  Keys `ICollection`
-
-###  Values `ICollection`
-
-###  Count `Int32`
-
-###  IsIndirect `Boolean`
-
-###  ObjectId `PdfObjectId`
-
-## Methods
-
-###  Add
-
-#### Returns
-
-`System.Void` 
-
-###  Clear
-
-#### Returns
-
-`System.Void` 
-
-###  Contains
-
-#### Returns
-
-`System.Boolean` 
-
-###  Remove
-
-#### Returns
-
-`System.Void` 
-
-###  GetEnumerator
-
-#### Returns
-
-`System.Collections.IEnumerator` 
-
-###  Write
-
-#### Returns
-
-`System.Void` 
-
-###  Write
-
-#### Returns
-
-`System.Void` 
-
-###  WriteIndirect
-
-#### Returns
-
-`System.Void` 
-
-###  GetReference
-
-#### Returns
-
-`Telerik.Pdf.PdfObjectReference` 
+Sets the stream containing a CMap that maps character codes to 
+                unicode values.
 

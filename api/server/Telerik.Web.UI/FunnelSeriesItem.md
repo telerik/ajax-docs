@@ -18,6 +18,10 @@ Creates an item for the Funnel series type.
 
 ## Properties
 
+###  BackgroundColor `Color`
+
+Specifies the background color of the series item
+
 ###  Name `String`
 
 Specifies the name of the item which will appear in the tooltip and in the legend.
@@ -26,11 +30,11 @@ Specifies the name of the item which will appear in the tooltip and in the legen
 
 Get/Set the visibility of the item.
 
+###  VisibleInLegend `Boolean`
+
+Get/Set the visibility of the item in the legend.
+
 ###  Y `Nullable`1`
 
 Get/Set the y value of the item.
-
-###  BackgroundColor `Color`
-
-Specifies the background color of the series item
 

@@ -31,13 +31,6 @@ The UploadedFileCollectionclass provides access to all
 
 Gets the size in bytes of an uploaded file.
 
-###  LastModifiedDate `DateTime`
-
-Gets the last modified date of the uploaded file.
-
-#### Remarks
-The property is available only in RadAsyncUpload control when FileApi module is used
-
 ###  ContentType `String`
 
 Gets the MIME content type of a file sent by a client.
@@ -51,30 +44,49 @@ Gets the fully-qualified name of the file on the client's computer (for example
 
 Gets a Stream object which points to the uploaded file to prepare for reading the contents of the file.
 
+###  LastModifiedDate `DateTime`
+
+Gets the last modified date of the uploaded file.
+
+#### Remarks
+The property is available only in RadAsyncUpload control when FileApi module is used
+
 ## Methods
 
-###  GetName
+###  FromHttpPostedFile
 
-Returns the name and extension of the file on the client's computer.
+Creates a UploadedFile instance from HttpPostedFile instance.
 
-#### Remarks
-The separator characters used to determine the start of the 
-            file name are DirectorySeparatorChar and AltDirectorySeparatorChar.
+#### Parameters
 
-#### Returns
+#### inputFieldName `System.String`
 
-`System.String` 
+The value of the name attribute of the file input field
+            	(equals the UniqueID of the FileUpload control)
 
-###  GetNameWithoutExtension
+#### file `System.Web.HttpPostedFile`
 
-Returns the name of the file on the client's computer without the extension.
-
-#### Remarks
-A string containing the string returned by GetFileName, minus the last period (.) and all characters following it.
+The HttpPostedFile instance. Usually, you could get this from a 
+            ASP:FileUpload control's PostedFile property
 
 #### Returns
 
-`System.String` 
+`Telerik.Web.UI.UploadedFile` 
+
+###  FromHttpPostedFile
+
+Creates a UploadedFile instance from HttpPostedFile instance.
+
+#### Parameters
+
+#### file `System.Web.HttpPostedFile`
+
+The HttpPostedFile instance. Usually, you could get this from a 
+            ASP:FileUpload control's PostedFile property
+
+#### Returns
+
+`Telerik.Web.UI.UploadedFile` 
 
 ###  GetExtension
 
@@ -117,6 +129,29 @@ The name of the field which checked state will be retrieved
 
 `System.Boolean` Check the general help for more information and an example.
 
+###  GetName
+
+Returns the name and extension of the file on the client's computer.
+
+#### Remarks
+The separator characters used to determine the start of the 
+            file name are DirectorySeparatorChar and AltDirectorySeparatorChar.
+
+#### Returns
+
+`System.String` 
+
+###  GetNameWithoutExtension
+
+Returns the name of the file on the client's computer without the extension.
+
+#### Remarks
+A string containing the string returned by GetFileName, minus the last period (.) and all characters following it.
+
+#### Returns
+
+`System.String` 
+
 ###  SaveAs
 
 Saves the contents of an uploaded file.
@@ -154,39 +189,4 @@ true to allow an existing file to be overwritten; otherwise, false.
 #### Returns
 
 `System.Void` 
-
-###  FromHttpPostedFile
-
-Creates a UploadedFile instance from HttpPostedFile instance.
-
-#### Parameters
-
-#### inputFieldName `System.String`
-
-The value of the name attribute of the file input field
-            	(equals the UniqueID of the FileUpload control)
-
-#### file `System.Web.HttpPostedFile`
-
-The HttpPostedFile instance. Usually, you could get this from a 
-            ASP:FileUpload control's PostedFile property
-
-#### Returns
-
-`Telerik.Web.UI.UploadedFile` 
-
-###  FromHttpPostedFile
-
-Creates a UploadedFile instance from HttpPostedFile instance.
-
-#### Parameters
-
-#### file `System.Web.HttpPostedFile`
-
-The HttpPostedFile instance. Usually, you could get this from a 
-            ASP:FileUpload control's PostedFile property
-
-#### Returns
-
-`Telerik.Web.UI.UploadedFile` 
 

@@ -16,10 +16,6 @@ Provides data for the E:Telerik.Web.UI.RadTreeView.NodeDrop event of the Telerik
 
 ## Properties
 
-###  SourceDragNode `RadTreeNode`
-
-Gets the source (dragged) node.
-
 ###  DestDragNode `RadTreeNode`
 
 Gets the destination node.
@@ -35,4 +31,8 @@ Gets or sets the position at which the user drops the source node(s) with regard
 ###  HtmlElementID `String`
 
 Gets or sets the ID of the HTML element on which the source node(s) is dropped.
+
+###  SourceDragNode `RadTreeNode`
+
+Gets the source (dragged) node.
 

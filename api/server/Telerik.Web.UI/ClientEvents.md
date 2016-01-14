@@ -15,6 +15,10 @@ This Class defiens the Client events in ODataDataSource.
 
 ## Properties
 
+###  RequestFailed `String`
+
+Gets or sets the RequestFailed event that is fired when a request to the server is started.
+
 ###  Requesting `String`
 
 Gets or sets the requesting event that is fired when a request to the server is about to be sent.
@@ -22,8 +26,4 @@ Gets or sets the requesting event that is fired when a request to the server is 
 ###  RequestSucceeded `String`
 
 Gets or sets the RequestSucceeded event that is fired when a request to the server is started.
-
-###  RequestFailed `String`
-
-Gets or sets the RequestFailed event that is fired when a request to the server is started.
 

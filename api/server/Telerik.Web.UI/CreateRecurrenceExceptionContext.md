@@ -15,12 +15,12 @@ This Class creates the recurrence Exception Context object.
 
 ## Properties
 
+###  ParentAppointment `Appointment`
+
+Gets or sets the parent appointment.
+
 ###  RecurrenceExceptionDate `DateTime`
 
 The date of the recurrence exception that is being created by
             the current Insert / Update operation pair.
-
-###  ParentAppointment `Appointment`
-
-Gets or sets the parent appointment.
 

@@ -20,6 +20,10 @@ Contains settings for TreeList resizing.
 
 Gets or sets a value indicating whether column reodering is allowed.
 
+###  ColumnsReorderMethod `TreeListColumnsReorderMethod`
+
+Gets or sets a value indicating the method that will be used when reordering columns: Swap or Reorder
+
 ###  ReorderColumnsOnClient `Boolean`
 
 Gets or sets a value indicating whether columns will be reordered on the client.
@@ -30,8 +34,4 @@ Gets or sets a value indicating whether columns will be reordered on the client.
 False by default, which means that each time you try to reorder columns a
                 postback will be performed.Note that in case this property is true the order changes will be persisted
                 on the server only after postback.
-
-###  ColumnsReorderMethod `TreeListColumnsReorderMethod`
-
-Gets or sets a value indicating the method that will be used when reordering columns: Swap or Reorder
 

@@ -16,19 +16,17 @@ Base class for Olap data providers.
 
 ## Properties
 
-###  FieldInfos `IFieldInfoData`
+###  AggregatesLevel `Int32`
+
+###  AggregatesPosition `PivotAxis`
 
 ###  DeferUpdates `Boolean`
 
 Gets or sets a value that indicates if changes to this  will trigger automatic .
 
-###  Status `DataProviderStatus`
-
-###  AggregatesPosition `PivotAxis`
-
-###  AggregatesLevel `Int32`
-
 ###  FieldDescriptionsProvider `IFieldDescriptionProvider`
+
+###  FieldInfos `IFieldInfoData`
 
 ###  HasPendingChanges `Boolean`
 
@@ -38,27 +36,11 @@ Gets or sets a value that indicates if changes to this  will trigger automatic .
 
 ###  State `Object`
 
+###  Status `DataProviderStatus`
+
 ## Methods
 
-###  Telerik.Web.UI.PivotGrid.Core.IDataProvider.Refresh
-
-#### Returns
-
-`System.Void` 
-
 ###  BeginInit
-
-#### Returns
-
-`System.Void` 
-
-###  EndInit
-
-#### Returns
-
-`System.Void` 
-
-###  Refresh
 
 #### Returns
 
@@ -70,6 +52,14 @@ Gets or sets a value that indicates if changes to this  will trigger automatic .
 
 `System.Void` 
 
+###  CreateFieldDescriptionsProvider
+
+Creates an instance of  for this .
+
+#### Returns
+
+`Telerik.Web.UI.PivotGrid.Core.Fields.IFieldDescriptionProvider` 
+
 ###  DeferRefresh
 
 Enters a defer cycle that you can use to merge changes to the provider and delay automatic refresh.
@@ -77,6 +67,78 @@ Enters a defer cycle that you can use to merge changes to the provider and delay
 #### Returns
 
 `System.IDisposable` An  object that you can use to dispose of the calling object.
+
+###  EndInit
+
+#### Returns
+
+`System.Void` 
+
+###  GetAggregateDescriptionForFieldDescription
+
+#### Returns
+
+`Telerik.Web.UI.PivotGrid.Core.IAggregateDescription` 
+
+###  GetAggregateDescriptionForFieldDescriptionCore
+
+Creates and returns an aggregate description suitable for the supplied field description.
+
+#### Parameters
+
+#### description `Telerik.Web.UI.PivotGrid.Core.Fields.IPivotFieldInfo`
+
+A  instance.
+
+#### Returns
+
+`Telerik.Web.UI.PivotGrid.Core.IAggregateDescription` An  instance.
+
+###  GetAggregateFunctionsForAggregateDescription
+
+#### Returns
+
+`System.Collections.Generic.IEnumerable`1` 
+
+###  GetFilterDescriptionForFieldDescription
+
+#### Returns
+
+`Telerik.Web.UI.PivotGrid.Core.FilterDescription` 
+
+###  GetFilterDescriptionForFieldDescriptionCore
+
+Returns a filter description suitable for the supplied field description.
+
+#### Parameters
+
+#### description `Telerik.Web.UI.PivotGrid.Core.Fields.IPivotFieldInfo`
+
+A  instance.
+
+#### Returns
+
+`Telerik.Web.UI.PivotGrid.Core.FilterDescription` An  instance.
+
+###  GetGroupDescriptionForFieldDescription
+
+#### Returns
+
+`Telerik.Web.UI.PivotGrid.Core.IGroupDescription` 
+
+###  GetGroupDescriptionForFieldDescriptionCore
+
+Creates and returns a group description suitable for the supplied field description.
+
+#### Parameters
+
+#### description `Telerik.Web.UI.PivotGrid.Core.Fields.IPivotFieldInfo`
+
+A  instance.
+
+#### Returns
+
+`Telerik.Web.UI.PivotGrid.Core.IGroupDescription` An  instance.
 
 ###  Invalidate
 
@@ -87,23 +149,9 @@ Notify that changes were applied that would alter the pivot results.
 
 `System.Void` 
 
-###  RefreshOverride
+###  OnFieldDescriptionsProviderChanged
 
-Recreates the .
-
-#### Returns
-
-`System.Void` 
-
-###  OnStatusChanged
-
-Raises the  event.
-
-#### Parameters
-
-#### args `Telerik.Web.UI.PivotGrid.Core.DataProviderStatusChangedEventArgs`
-
-The  instance containing the event data.
+Called when FieldDescriptionsProvider is changed.
 
 #### Returns
 
@@ -123,22 +171,6 @@ The  instance containing the event data.
 
 `System.Void` 
 
-###  OnFieldDescriptionsProviderChanged
-
-Called when FieldDescriptionsProvider is changed.
-
-#### Returns
-
-`System.Void` 
-
-###  CreateFieldDescriptionsProvider
-
-Creates an instance of  for this .
-
-#### Returns
-
-`Telerik.Web.UI.PivotGrid.Core.Fields.IFieldDescriptionProvider` 
-
 ###  OnPropertyChanged
 
 Raises PropertyChanged event.
@@ -147,73 +179,41 @@ Raises PropertyChanged event.
 
 `System.Void` 
 
-###  GetAggregateDescriptionForFieldDescriptionCore
+###  OnStatusChanged
 
-Creates and returns an aggregate description suitable for the supplied field description.
-
-#### Parameters
-
-#### description `Telerik.Web.UI.PivotGrid.Core.Fields.IPivotFieldInfo`
-
-A  instance.
-
-#### Returns
-
-`Telerik.Web.UI.PivotGrid.Core.IAggregateDescription` An  instance.
-
-###  GetGroupDescriptionForFieldDescriptionCore
-
-Creates and returns a group description suitable for the supplied field description.
+Raises the  event.
 
 #### Parameters
 
-#### description `Telerik.Web.UI.PivotGrid.Core.Fields.IPivotFieldInfo`
+#### args `Telerik.Web.UI.PivotGrid.Core.DataProviderStatusChangedEventArgs`
 
-A  instance.
-
-#### Returns
-
-`Telerik.Web.UI.PivotGrid.Core.IGroupDescription` An  instance.
-
-###  GetFilterDescriptionForFieldDescriptionCore
-
-Returns a filter description suitable for the supplied field description.
-
-#### Parameters
-
-#### description `Telerik.Web.UI.PivotGrid.Core.Fields.IPivotFieldInfo`
-
-A  instance.
+The  instance containing the event data.
 
 #### Returns
 
-`Telerik.Web.UI.PivotGrid.Core.FilterDescription` An  instance.
+`System.Void` 
 
-###  GetAggregateDescriptionForFieldDescription
-
-#### Returns
-
-`Telerik.Web.UI.PivotGrid.Core.IAggregateDescription` 
-
-###  GetGroupDescriptionForFieldDescription
+###  Refresh
 
 #### Returns
 
-`Telerik.Web.UI.PivotGrid.Core.IGroupDescription` 
+`System.Void` 
 
-###  GetFilterDescriptionForFieldDescription
+###  RefreshOverride
 
-#### Returns
-
-`Telerik.Web.UI.PivotGrid.Core.FilterDescription` 
-
-###  GetAggregateFunctionsForAggregateDescription
+Recreates the .
 
 #### Returns
 
-`System.Collections.Generic.IEnumerable`1` 
+`System.Void` 
 
 ###  SetAggregateFunctionToAggregateDescription
+
+#### Returns
+
+`System.Void` 
+
+###  Telerik.Web.UI.PivotGrid.Core.IDataProvider.Refresh
 
 #### Returns
 

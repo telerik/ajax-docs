@@ -16,11 +16,11 @@ Defines the settings for the source shape.
 
 ## Properties
 
-###  ShapeId `String`
-
-Id of the shape object.
-
 ###  Connector `String`
 
 Defines a specific connector from the shape to connect to.
+
+###  ShapeId `String`
+
+Id of the shape object.
 

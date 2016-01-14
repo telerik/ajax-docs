@@ -15,25 +15,36 @@ Represents the PDF settings needed to export SVG files with RadClientExportManag
 
 ## Properties
 
+###  Author `String`
+
+Gets or sets the author of the document
+
+###  Creator `String`
+
+Gets or sets the creator of the document
+
+###  Date `DateTime`
+
+Gets or sets when the PDF document is created. Default value is DateTime.Now
+
 ###  FileName `String`
 
 Gets or sets the name of the exported PDF file
 
-###  ProxyURL `String`
+###  Fonts `Dictionary`2`
 
-Gets or sets the proxy URL use to export files under Internet Explorer 9
+Gets or sets the fonts needed to export text using custom fonts
 
-###  PaperSize `String`
+#### Remarks
+The key contains the name of the font and the value contains the URL of the font file. E.g. Fonts.Add("Verdana", "/fonts/Verdana.ttf")
 
-Gets or sets the paper size of the PDF document. The default "auto" means paper size is determined by content.
+###  Keywords `String`
+
+Gets or sets the keywords of the document
 
 ###  Landscape `Boolean`
 
 Gets or sets the whether to reverse the document dimensions
-
-###  MarginTop `String`
-
-Gets or set the top margin of the document
 
 ###  MarginBottom `String`
 
@@ -47,38 +58,27 @@ Gets or sets the left margin of the document
 
 Gets or set the right margin of the document
 
-###  Title `String`
+###  MarginTop `String`
 
-Gets or sets the title of the document
-
-###  Author `String`
-
-Gets or sets the author of the document
-
-###  Subject `String`
-
-Gets or sets the subject of the document
-
-###  Keywords `String`
-
-Gets or sets the keywords of the document
-
-###  Creator `String`
-
-Gets or sets the creator of the document
+Gets or set the top margin of the document
 
 ###  PageBreakSelector `String`
 
 Gets or sets the CSS selector used for multi paging
 
-###  Date `DateTime`
+###  PaperSize `String`
 
-Gets or sets when the PDF document is created. Default value is DateTime.Now
+Gets or sets the paper size of the PDF document. The default "auto" means paper size is determined by content.
 
-###  Fonts `Dictionary`2`
+###  ProxyURL `String`
 
-Gets or sets the fonts needed to export text using custom fonts
+Gets or sets the proxy URL use to export files under Internet Explorer 9
 
-#### Remarks
-The key contains the name of the font and the value contains the URL of the font file. E.g. Fonts.Add("Verdana", "/fonts/Verdana.ttf")
+###  Subject `String`
+
+Gets or sets the subject of the document
+
+###  Title `String`
+
+Gets or sets the title of the document
 

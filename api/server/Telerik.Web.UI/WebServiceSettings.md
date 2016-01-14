@@ -16,11 +16,6 @@ Represents the settings to be used for load on demand through web service.
 
 ## Properties
 
-###  Path `String`
-
-Gets or sets the name of the web service to be used to populate items with
-            	ExpandMode set to WebService.
-
 ###  Method `String`
 
 Gets or sets the method name to be called to populate items with
@@ -30,15 +25,12 @@ Gets or sets the method name to be called to populate items with
 The method must be part of the web service specified through the
             	Path property.
 
+###  Path `String`
+
+Gets or sets the name of the web service to be used to populate items with
+            	ExpandMode set to WebService.
+
 ###  UseHttpGet `Boolean`
 
 Gets or sets a boolean value
-
-## Methods
-
-###  GetViewStateValue
-
-#### Returns
-
-`Telerik.Web.UI.T` 
 

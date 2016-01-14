@@ -6,7 +6,8 @@ description: Telerik.Web.UI.GridPagingManager
 
 # Telerik.Web.UI.GridPagingManager
 
-Summary description for GridPagingManager.
+Can be used in your class implementation to access the information from the PagerItem.Paging object.
+            See http://docs.telerik.com/devtools/aspnet-ajax/controls/grid/functionality/paging/changing-the-default-pager/programmatic-pager-customization Programmatic Pager Customizationfor an example.
 
 ## Inheritance Hierarchy
 
@@ -15,10 +16,18 @@ Summary description for GridPagingManager.
 
 ## Properties
 
+###  AllowCustomPaging `Boolean`
+
+Gets the a value indicating if the custom pagging functionality have been enabled.
+
 ###  AllowPaging `Boolean`
 
 Gets or sets a value indicating whether the automatic paging feature is
             enabled.
+
+###  Count `Int32`
+
+Number of items in the current page
 
 ###  CurrentPageIndex `Int32`
 
@@ -27,6 +36,35 @@ Gets or sets an integer value representing the current page index.
 #### Remarks
 Note that the Paging must be enabled ( must
                 be true) in order to use this property.
+
+###  DataSourceCount `Int32`
+
+Number of items in the data-source
+
+###  FirstIndexInPage `Int32`
+
+Gets the first index in the current page.
+
+###  IsCustomPagingEnabled `Boolean`
+
+Gets the a value indicating if the custom pagging functionality have been enabled.
+
+###  IsFirstPage `Boolean`
+
+Gets a value indicating if the control is on the first page.
+
+###  IsLastPage `Boolean`
+
+Gets a value indicating if the control is on the last page.
+
+###  IsPagingEnabled `Boolean`
+
+Gets or sets a value indicating whether the automatic paging feature is
+            enabled and supported.
+
+###  LastIndexInPage `Int32`
+
+Gets the last index in the current page.
 
 ###  PageCount `Int32`
 
@@ -40,11 +78,6 @@ When the paging feature is enabled (by setting the AllowPaging property to true)
             of records in the data source by the number of records displayed in a page (as
             specified by the PageSize property) and rounding up.
 
-###  IsPagingEnabled `Boolean`
-
-Gets or sets a value indicating whether the automatic paging feature is
-            enabled and supported.
-
 ###  PageSize `Int32`
 
 Gets or sets an integer value indicating the number of Items that a single page
@@ -54,42 +87,10 @@ Gets or sets an integer value indicating the number of Items that a single page
 Note that the Paging must be enabled ( must
                 be true) in order to use this property.
 
-###  FirstIndexInPage `Int32`
-
-Gets the first index in the current page.
-
-###  IsCustomPagingEnabled `Boolean`
-
-Gets the a value indicating if the custom pagging functionality have been enabled.
-
-###  AllowCustomPaging `Boolean`
-
-Gets the a value indicating if the custom pagging functionality have been enabled.
-
-###  IsFirstPage `Boolean`
-
-Gets a value indicating if the control is on the first page.
-
-###  IsLastPage `Boolean`
-
-Gets a value indicating if the control is on the last page.
-
 ###  VirtualCount `Int32`
 
 Gets or sets a value, indicating the total number of items in the data source
             when custom paging is used. Thus the grid "understands" that the data source contains
             the specified number of records and it should fetch merely part of them at a time to
             execute requested operation.
-
-###  LastIndexInPage `Int32`
-
-Gets the last index in the current page.
-
-###  DataSourceCount `Int32`
-
-Number of items in the data-source
-
-###  Count `Int32`
-
-Number of items in the current page
 

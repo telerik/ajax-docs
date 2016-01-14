@@ -15,19 +15,17 @@ Static class containing Export-related utilities
 
 ## Methods
 
-###  IsValidExcelCellIndex
+###  ConvertBorderStyle
 
-Checks if the provided Excel-style index is valid
+Converts the ASP.NET BorderStyle enumeration values to Excel BorderStyle enumeration values
 
 #### Parameters
 
-#### index `System.String`
-
-Excel-style string index
+#### borderStyle `System.Web.UI.WebControls.BorderStyle`
 
 #### Returns
 
-`System.Boolean` True if valid, false if not.
+`Telerik.Web.UI.ExcelBiff.BorderStyle` 
 
 ###  ConvertExcelCellIndexToPoint
 
@@ -57,6 +55,14 @@ Column index (Excel-style)
 
 `System.Int32` Integer column index
 
+###  ConvertHorizontalAlign
+
+BIFF: Convert from HorizontalAlign to HorizontalAlignment enumerations
+
+#### Returns
+
+`Telerik.Web.UI.ExcelBiff.HorizontalAlignment` 
+
 ###  ConvertPointToExcelCellIndex
 
 Converts a Point value to Excel-style cell index
@@ -71,19 +77,21 @@ Cell index (Point)
 
 `System.String` Excel-style cell index
 
-###  ReverseString
+###  ConvertToGuid
 
-Reverses a string
-
-#### Parameters
-
-#### str `System.String`
-
-String to be reversed
+Converts a string value to Guid
 
 #### Returns
 
-`System.String` Reversed string
+`System.Guid` Parsed Guid value. If parsing fails for some reason, the ConvertToGuid method will return Guid.Empty
+
+###  ConvertToTimeSpan
+
+Converts an object value to TimeSpan
+
+#### Returns
+
+`System.TimeSpan` Parsed TimeSpan value. If parsing fails for some reason, the ConvertToTimeSpan method will return TimeSpan.Zero
 
 ###  ConvertVerticalAlign
 
@@ -93,25 +101,19 @@ BIFF: Convert from VerticalAlign to VerticalAlignment enumerations
 
 `Telerik.Web.UI.ExcelBiff.VerticalAlignment` 
 
-###  ConvertHorizontalAlign
+###  FontSizeToPoints
 
-BIFF: Convert from HorizontalAlign to HorizontalAlignment enumerations
-
-#### Returns
-
-`Telerik.Web.UI.ExcelBiff.HorizontalAlignment` 
-
-###  ConvertBorderStyle
-
-Converts the ASP.NET BorderStyle enumeration values to Excel BorderStyle enumeration values
+Converts strongly typed relative FontSize unit to points (double)
 
 #### Parameters
 
-#### borderStyle `System.Web.UI.WebControls.BorderStyle`
+#### fs `System.Web.UI.WebControls.FontSize`
+
+FontSize value
 
 #### Returns
 
-`Telerik.Web.UI.ExcelBiff.BorderStyle` 
+`System.Double` Size in points
 
 ###  GetCellRange
 
@@ -131,30 +133,6 @@ End cell index
 
 `System.Collections.Generic.List`1` List of cells
 
-###  GetPointsPerUnit
-
-Returns the points (pt) per given Unit value
-
-#### Returns
-
-`System.Double` 
-
-###  GetInchesPerUnit
-
-Returns the inches (in) per given Unit value
-
-#### Returns
-
-`System.Double` 
-
-###  GetPixelsPerUnit
-
-Returns the pixels (px) per given Unit value
-
-#### Returns
-
-`System.Double` 
-
 ###  GetExcelCharactersPerUnit
 
 Converts the given Unit value to "Excel Characters" unit value
@@ -173,6 +151,58 @@ Default font used to calculate the Excel character width value
 
 `System.Double` Value converted in "Excel Characters"
 
+###  GetInchesPerUnit
+
+Returns the inches (in) per given Unit value
+
+#### Returns
+
+`System.Double` 
+
+###  GetPixelsPerUnit
+
+Returns the pixels (px) per given Unit value
+
+#### Returns
+
+`System.Double` 
+
+###  GetPointsPerUnit
+
+Returns the points (pt) per given Unit value
+
+#### Returns
+
+`System.Double` 
+
+###  IsValidExcelCellIndex
+
+Checks if the provided Excel-style index is valid
+
+#### Parameters
+
+#### index `System.String`
+
+Excel-style string index
+
+#### Returns
+
+`System.Boolean` True if valid, false if not.
+
+###  ReverseString
+
+Reverses a string
+
+#### Parameters
+
+#### str `System.String`
+
+String to be reversed
+
+#### Returns
+
+`System.String` Reversed string
+
 ###  SanitizeCellText
 
 Remove the recurring whitespaces; Remove the CR/LF chars, if any; Replace the HTML newline characters with CR/LFs; 
@@ -187,34 +217,4 @@ Remove the recurring whitespaces; Remove the CR/LF chars, if any; Replace the HT
 #### Returns
 
 `System.String` 
-
-###  ConvertToGuid
-
-Converts a string value to Guid
-
-#### Returns
-
-`System.Guid` Parsed Guid value. If parsing fails for some reason, the ConvertToGuid method will return Guid.Empty
-
-###  ConvertToTimeSpan
-
-Converts an object value to TimeSpan
-
-#### Returns
-
-`System.TimeSpan` Parsed TimeSpan value. If parsing fails for some reason, the ConvertToTimeSpan method will return TimeSpan.Zero
-
-###  FontSizeToPoints
-
-Converts strongly typed relative FontSize unit to points (double)
-
-#### Parameters
-
-#### fs `System.Web.UI.WebControls.FontSize`
-
-FontSize value
-
-#### Returns
-
-`System.Double` Size in points
 

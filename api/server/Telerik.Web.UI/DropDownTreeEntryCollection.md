@@ -16,32 +16,16 @@ This class defines DropDownTreeEntryCollection in the DropDownTree control.
 
 ## Properties
 
+###  IsReadOnly `Boolean`
+
+Gets the IsReadOnly.
+
 ###  Item `DropDownTreeEntry`
 
 Gets the DropDownTreeEntry at the specified index in 
                 the current DropDownTreeEntryCollection.
 
-###  IsReadOnly `Boolean`
-
-Gets the IsReadOnly.
-
 ## Methods
-
-###  Insert
-
-Inserts a DropDownTreeEntry.
-
-#### Returns
-
-`System.Void` 
-
-###  RemoveAt
-
-Removes a DropDownTreeEntry by index.
-
-#### Returns
-
-`System.Void` 
 
 ###  Add
 
@@ -69,6 +53,14 @@ Index of the array.
 
 `System.Void` 
 
+###  Insert
+
+Inserts a DropDownTreeEntry.
+
+#### Returns
+
+`System.Void` 
+
 ###  Remove
 
 Removes the specified entry.
@@ -82,4 +74,12 @@ The DropDownTreeEntry entry.
 #### Returns
 
 `System.Boolean` 
+
+###  RemoveAt
+
+Removes a DropDownTreeEntry by index.
+
+#### Returns
+
+`System.Void` 
 

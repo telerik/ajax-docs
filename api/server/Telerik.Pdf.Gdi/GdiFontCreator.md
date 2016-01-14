@@ -13,23 +13,3 @@ Retrieves all pertinent TrueType tables by invoking GetFontData.
 * System.Object
 * Telerik.Pdf.Gdi.GdiFontCreator : IDisposable
 
-## Methods
-
-###  Build
-
-#### Returns
-
-`System.Byte[]` 
-
-###  Dispose
-
-#### Returns
-
-`System.Void` 
-
-###  Dispose
-
-#### Returns
-
-`System.Void` 
-

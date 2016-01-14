@@ -18,6 +18,10 @@ Provides data for the E:Telerik.Web.UI.RadScheduler.AppointmentDelete event of t
 
 ## Properties
 
+###  Appointment `Appointment`
+
+Gets the appointment.
+
 ###  SchedulerInfo `ISchedulerInfo`
 
 Gets or sets the ISchedulerInfo object
@@ -27,8 +31,4 @@ Gets or sets the ISchedulerInfo object
 You can replace this object with your own implementation of
             ISchedulerInfo in order
             to pass additional information to the provider.
-
-###  Appointment `Appointment`
-
-Gets the appointment.
 

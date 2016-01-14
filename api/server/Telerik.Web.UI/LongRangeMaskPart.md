@@ -16,8 +16,6 @@ Represents a MaskPart which accepts numbers in a specified range.
 
 ## Properties
 
-###  Value `String`
-
 ###  LowerLimit `Int64`
 
 Gets or sets the smallest possible value the part can accept.
@@ -25,8 +23,6 @@ Gets or sets the smallest possible value the part can accept.
 ###  UpperLimit `Int64`
 
 Gets or sets the largest possible value the part can accept.
-
-###  Value `String`
 
 ## Methods
 

@@ -22,33 +22,27 @@ For internal usage only.
 
 Gets the attachment column from which the event was fired.
 
-###  FileName `String`
-
-Gets or sets the file name which was uploaded.
-
 ###  AttachmentKeyValues `IDictionary`
 
 Gets the associated attachment key values.
-
-###  CommandSource `Object`
-
-Gets the source of the command
-
-###  Item `GridItem`
-
-Gets the item containing the command source
 
 ###  Canceled `Boolean`
 
 Gets or sets a value, defining whether the command should be canceled.
 
+###  CommandSource `Object`
+
+Gets the source of the command
+
+###  FileName `String`
+
+Gets or sets the file name which was uploaded.
+
+###  Item `GridItem`
+
+Gets the item containing the command source
+
 ## Methods
-
-###  ExecuteCommand
-
-#### Returns
-
-`System.Void` 
 
 ###  ExecuteCommand
 

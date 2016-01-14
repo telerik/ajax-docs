@@ -17,13 +17,6 @@ Implements Adobe's standard security handler.  A security handler is
 
 ## Properties
 
-###  UserEntry `Byte[]`
-
-Access to the raw user entry byte array.
-
-#### Remarks
-Required for testing purposes;
-
 ###  OwnerEntry `Byte[]`
 
 Access to the raw owner entry byte array.
@@ -31,13 +24,75 @@ Access to the raw owner entry byte array.
 #### Remarks
 Required for testing purposes;
 
+###  UserEntry `Byte[]`
+
+Access to the raw user entry byte array.
+
+#### Remarks
+Required for testing purposes;
+
 ## Methods
 
-###  GetEncrypt
+###  CheckOwnerPassword
+
+Checks the owner password.
 
 #### Returns
 
-`Telerik.Pdf.PdfDictionary` 
+`System.Boolean` 
+
+###  CheckUserPassword
+
+Determines if the passed password matches the user password
+                used to initialise this security manager.
+
+#### Remarks
+Used for testing purposes only.  Corresponds to algorithm 3.5 in the
+                PDF 1.3 specification.
+
+#### Returns
+
+`System.Boolean` True if the password is correct.
+
+###  CheckUserPassword
+
+Performs the actual checking of the user password.
+
+#### Returns
+
+`System.Boolean` 
+
+###  CompareArray
+
+Compares two byte arrays and returns true if they are equal.
+
+#### Returns
+
+`System.Boolean` 
+
+###  ComputeEncryptionKey31
+
+Computes an encryption key that is used to encrypt string and stream data 
+                in the PDF document.
+
+#### Remarks
+Corresponds to algorithm 3.1 in section 3.5 of the PDF specficiation.
+
+#### Returns
+
+`System.Byte[]` 
+
+###  ComputeEncryptionKey32
+
+Computes an encryption key that is used to encrypt string and stream data 
+                in the PDF document.
+
+#### Remarks
+Corresponds to algorithm 3.2 in section 3.5 of the PDF specficiation.
+
+#### Returns
+
+`System.Byte[]` 
 
 ###  CreateMasterKey
 
@@ -101,30 +156,6 @@ Encrypts the passed byte array using the ARC4 cipher.
 
 `System.Byte[]` 
 
-###  ComputeEncryptionKey31
-
-Computes an encryption key that is used to encrypt string and stream data 
-                in the PDF document.
-
-#### Remarks
-Corresponds to algorithm 3.1 in section 3.5 of the PDF specficiation.
-
-#### Returns
-
-`System.Byte[]` 
-
-###  ComputeEncryptionKey32
-
-Computes an encryption key that is used to encrypt string and stream data 
-                in the PDF document.
-
-#### Remarks
-Corresponds to algorithm 3.2 in section 3.5 of the PDF specficiation.
-
-#### Returns
-
-`System.Byte[]` 
-
 ###  PadPassword
 
 Pads or truncates a password string to exactly 32-bytes.
@@ -141,41 +172,4 @@ The password to pad or truncate.
 #### Returns
 
 `System.Byte[]` A byte array of length 32 bytes containing the padded or truncated password.
-
-###  CheckUserPassword
-
-Determines if the passed password matches the user password
-                used to initialise this security manager.
-
-#### Remarks
-Used for testing purposes only.  Corresponds to algorithm 3.5 in the
-                PDF 1.3 specification.
-
-#### Returns
-
-`System.Boolean` True if the password is correct.
-
-###  CheckUserPassword
-
-Performs the actual checking of the user password.
-
-#### Returns
-
-`System.Boolean` 
-
-###  CheckOwnerPassword
-
-Checks the owner password.
-
-#### Returns
-
-`System.Boolean` 
-
-###  CompareArray
-
-Compares two byte arrays and returns true if they are equal.
-
-#### Returns
-
-`System.Boolean` 
 

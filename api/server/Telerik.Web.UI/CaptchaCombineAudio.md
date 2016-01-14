@@ -15,6 +15,20 @@ Class that combines the audio files (wav) of RadCaptcha to create the audio outp
 
 ## Methods
 
+###  Concatenate
+
+Concatenates Audio Files (wav) into a single file.
+
+#### Parameters
+
+#### filePaths `System.String`
+
+The string array containing the physical path to each file.
+
+#### Returns
+
+`System.IO.MemoryStream` The MemoryStream of the concatenated audio files.
+
 ###  ReadWaveHeader
 
 Get information about every audio file.
@@ -36,18 +50,4 @@ Outputs an empty wave file by writing its header.
 #### Returns
 
 `System.IO.MemoryStream` The memory stream of the empty file.
-
-###  Concatenate
-
-Concatenates Audio Files (wav) into a single file.
-
-#### Parameters
-
-#### filePaths `System.String`
-
-The string array containing the physical path to each file.
-
-#### Returns
-
-`System.IO.MemoryStream` The MemoryStream of the concatenated audio files.
 

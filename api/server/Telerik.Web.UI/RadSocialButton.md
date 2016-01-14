@@ -17,13 +17,13 @@ The main class from which Styled buttons are derived.
 
 ## Properties
 
-###  ToolTip `String`
+###  CssClass `String`
 
-Get/Set the tooltip of the button.
+Get/Set custom CssClass for the social button.
 
-###  LabelText `String`
+###  CustomIconHeight `Unit`
 
-Get/Set the the text of the button label.
+Get/Set the height of thr button's custom icon. 16px by default.
 
 ###  CustomIconUrl `String`
 
@@ -33,40 +33,40 @@ Get/Set the url of a custom icon for the button.
 
 Get/Set the width of thr button's custom icon. 16px by default.
 
-###  CustomIconHeight `Unit`
-
-Get/Set the height of thr button's custom icon. 16px by default.
-
-###  DialogWidth `Unit`
-
-Get/Set the width of the social dialog popup.
-
 ###  DialogHeight `Unit`
 
 Get/Set the height of the social dialog popup.
-
-###  DialogTop `Unit`
-
-Get/Set the top of the social dialog. By default it is centered.
 
 ###  DialogLeft `Unit`
 
 Get/Set the left of the social dialog popup. By default it is centered.
 
-###  CssClass `String`
+###  DialogTop `Unit`
 
-Get/Set custom CssClass for the social button.
+Get/Set the top of the social dialog. By default it is centered.
+
+###  DialogWidth `Unit`
+
+Get/Set the width of the social dialog popup.
+
+###  LabelText `String`
+
+Get/Set the the text of the button label.
 
 ###  SocialNetType `SocialNetType`
 
 Get/Set the the social net type of the button.
 
-###  UrlToShare `String`
-
-Get/Set the url to share. The default value is empty string which results in sharing the page on which the button resides.
-
 ###  TitleToShare `String`
 
 Get/Set the title of the shared message. The default value is an empty string
             which results in sharing the title of the current page or the url itself if there isn't a title.
+
+###  ToolTip `String`
+
+Get/Set the tooltip of the button.
+
+###  UrlToShare `String`
+
+Get/Set the url to share. The default value is empty string which results in sharing the page on which the button resides.
 

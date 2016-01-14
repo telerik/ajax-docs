@@ -23,12 +23,6 @@ A Telerik.Web.UI.RadDateInput control in time only mode with an integrated
 
 ## Properties
 
-###  Calendar `RadCalendar`
-
-###  DatePopupButton `CalendarPopupButton`
-
-###  SharedCalendarID `RadCalendar`
-
 ###  AutoPostBack `Boolean`
 
 Gets or sets a value indicating whether a postback to the server automatically occurs when the user interacts with the control.
@@ -36,97 +30,6 @@ Gets or sets a value indicating whether a postback to the server automatically o
 #### Remarks
 Setting this property to true will make RadTimePicker postback to the server 
             on time selection through the TimeView or the DateInput components.
-
-###  AutoPostBackControl `Boolean`
-
-Gets or sets a value indicating whether a postback to the server automatically
-            occurs when the user changes the list selection.
-
-#### Remarks
-Set this to Both, TimeView or Calendar if the server needs to capture the
-            selection changed event.This property is effective only for RadDateTimePicker; for RadTimePicker use the AutoPostBack property.
-
-###  UseTimeSpanForBinding `Boolean`
-
-Gets or set if TimeSpan object should be used for returning value of DbSelectedDate.
-            
-            Set to True if you want DbSelectedDate to return TimeSpan object.
-            Set to False(the default value) if you want the DbSelectedDate to return DateTime object.
-
-###  DbSelectedDate `Object`
-
-Gets or sets the date content of RadTimePicker in a database friendly way.
-
-#### Remarks
-This property behaves similar to SelectedDate property or to SelectedTime property, 
-            depending on UseTimeSpanForBinding is se to true or false.
-            Setting a null value will internally revert the SelectedDate to the null value, i.e. the input value will be empty.
-
-###  SelectedTime `Nullable`1`
-
-Gets or sets the time of the date in the selected date of RadTimePicker using TimeSpan object.
-            
-            Use values between 00:00:00 and 23:59:59 to specify the time of the day
-            
-            If you set SelectedTime to 'null' then the SelectedDate will also become 'null'.
-
-###  Skin `String`
-
-Gets or sets the skin name for the control user interface.
-
-#### Remarks
-If this property is not set, the control will render using the skin named "Default".
-            If EnableEmbeddedSkins is set to false, the control will not render skin.
-
-###  ImagesPath `String`
-
-Gets or sets default path for the grid images when EnableEmbeddedSkins is set to false.
-
-###  EnableEmbeddedSkins `String`
-
-Gets or sets the value, indicating whether to render links to the embedded skins or not.
-
-#### Remarks
-If EnableEmbeddedSkins is set to false you will have to register the needed CSS files by hand.
-
-###  EnableEmbeddedScripts `Boolean`
-
-Gets or sets the value, indicating whether to render script references to the embedded scripts or not.
-
-#### Remarks
-If EnableEmbeddedScripts is set to false you will have to register the needed Scripts files by hand.
-
-###  EnableEmbeddedBaseStylesheet `Boolean`
-
-Gets or sets the value, indicating whether to render the link to the embedded base stylesheet of the control or not.
-
-#### Remarks
-If EnableEmbeddedBaseStylesheet is set to false you will have to register the needed control base CSS file by hand.
-
-###  RegisterWithScriptManager `Boolean`
-
-Gets or sets the value, indicating whether to register with the ScriptManager control on the page.
-
-#### Remarks
-If RegisterWithScriptManager is set to false the control can be rendered on the page using Web Services or normal callback requests/page methods.
-
-###  ValidationDate `String`
-
-This property is used by the RadDateTimeInput's internals only. It is subject to
-            change in the future versions. Please do not use.
-
-###  TimeView `RadTimeView`
-
-Gets the RadTimeView instance of the datetimepicker control.
-
-###  TimePopupButton `TimePopupButton`
-
-Gets the TimePopupButton instance of the RadDateTimeView
-            control.
-
-#### Remarks
-You can use the object to customize the popup button's appearance and
-            behavior.
 
 ###  AutoPostBack `Boolean`
 
@@ -138,10 +41,22 @@ Setting this property to true will make RadDateTimePicker postback to the server
             on date selection through the Calendar and Time popups or the DateInput
             components.
 
-###  Culture `CultureInfo`
+###  AutoPostBack `Boolean`
 
-Gets or sets the culture used by RadDateTimePicker to format the date and time
-            value.
+Gets or sets a value indicating whether a postback to the server automatically occurs when the user interacts with the control.
+
+#### Remarks
+Setting this property to true will make RadDatePicker postback to the server 
+            on date selection through the Calendar or the DateInput components.
+
+###  AutoPostBackControl `Boolean`
+
+Gets or sets a value indicating whether a postback to the server automatically
+            occurs when the user changes the list selection.
+
+#### Remarks
+Set this to Both, TimeView or Calendar if the server needs to capture the
+            selection changed event.This property is effective only for RadDateTimePicker; for RadTimePicker use the AutoPostBack property.
 
 ###  AutoPostBackControl `Boolean`
 
@@ -152,30 +67,190 @@ Gets or sets a value indicating whether a postback to the server automatically
 Set this to Both, TimeView or Calendar if the server needs to capture the
                 selection changed event.This property is effective only for RadDateTimePicker; for RadTimePicker use the AutoPostBack property.
 
-###  SharedTimeViewID `RadTimeView`
+###  Calendar `RadCalendar`
 
-Gets or sets the ID of the timeview that will be used for picking time. This
-            property allows you to configure several datetimepickers to use a single RadTimeView
-            instance.
+Gets the RadCalendar instance of the datepicker control.
+
+###  ClientEvents `DatePickerClientEvents`
+
+Gets or sets an instance of
+            DatePickerClientEvents
+            class which defines the JavaScript functions (client-side event handlers) that are
+            invoked when specific client-side events are raised.
+
+###  ClientIDMode `ClientIDMode`
+
+This property is overridden in order to support controls which implement INamingContainer.
+            The default value is changed to "AutoID".
+
+###  CssClassFormatString `String`
+
+The CssClass property will now be used instead of the former Skin 
+            and will be modified in AddAttributesToRender()
+
+###  Culture `CultureInfo`
+
+Gets or sets the culture used by RadDateTimePicker to format the date and time
+            value.
+
+###  Culture `CultureInfo`
+
+Gets or sets the culture used by RadDatePicker to format the date.
+
+###  DateInput `RadDateInput`
+
+Gets the RadDateInput instance of the datepicker control.
+
+###  DatePopupButton `CalendarPopupButton`
+
+Gets the DatePopupButton instance of the datepicker control.  
+            You can use the object to customize the popup button's appearance and behavior.
+
+###  DbSelectedDate `Object`
+
+Gets or sets the date content of RadTimePicker in a database friendly way.
 
 #### Remarks
-RadDateTimePicker will look for the RadTimeView instance in a way similar to how
-                ASP.NET validators work. It will not go beyond the current naming container which
-                means that you will not be able to configure a timeview that is inside a control in
-                another naming container. You can still share a timeview, but you will have to pass
-                a direct object reference via the SharedTimeView
-                property.
+This property behaves similar to SelectedDate property or to SelectedTime property, 
+            depending on UseTimeSpanForBinding is se to true or false.
+            Setting a null value will internally revert the SelectedDate to the null value, i.e. the input value will be empty.
 
-###  SharedTimeView `RadTimeView`
+###  DbSelectedDate `Nullable`1`
 
-Gets or sets the reference to the timeview that will be used for picking time.
-            This property allows you to configure several datetimepickers to use a single RadTimeView
-            instance.
+Gets or sets the date content of RadDatePicker in a database friendly way.
 
 #### Remarks
-This property is not accessible from the VS.NET designer and you will have to
-                set it from the code-behind. It should be used when the shared timeview instance is
-                in another naming container or is created dynamically at runtime.
+This property behaves exactly like the SelectedDate property. The only difference
+            is that it will not throw an exception if the new value is null or DBNull. Setting a
+            null value will internally revert the SelectedDate to the null value, i.e. the input value will be empty.
+
+###  EnableAjaxSkinRendering `String`
+
+Gets or sets the value, indicating whether to render the skin CSS files during Ajax requests
+
+#### Remarks
+If EnableAjaxSkinRendering is set to false you will have to register the needed control base CSS file by hand when adding/showing the control with Ajax.
+
+###  EnableAriaSupport `Boolean`
+
+When set to true enables support for WAI-ARIA
+
+###  Enabled `Boolean`
+
+Gets or sets a value indicating whether the Web server control is enabled.
+
+###  EnableEmbeddedBaseStylesheet `Boolean`
+
+Gets or sets the value, indicating whether to render the link to the embedded base stylesheet of the control or not.
+
+#### Remarks
+If EnableEmbeddedBaseStylesheet is set to false you will have to register the needed control base CSS file by hand.
+
+###  EnableEmbeddedBaseStylesheet `Boolean`
+
+Gets or sets the value, indicating whether to render the link to the embedded base stylesheet of the control or not.
+
+#### Remarks
+If EnableEmbeddedBaseStylesheet is set to false you will have to register the needed control base CSS file by hand.
+
+###  EnableEmbeddedBaseStylesheet `Boolean`
+
+Gets or sets the value, indicating whether to render the link to the embedded base stylesheet of the control or not.
+
+#### Remarks
+If EnableEmbeddedBaseStylesheet is set to false you will have to register the needed control base CSS file by hand.
+
+###  EnableEmbeddedScripts `Boolean`
+
+Gets or sets the value, indicating whether to render script references to the embedded scripts or not.
+
+#### Remarks
+If EnableEmbeddedScripts is set to false you will have to register the needed Scripts files by hand.
+
+###  EnableEmbeddedScripts `Boolean`
+
+Gets or sets the value, indicating whether to render script references to the embedded scripts or not.
+
+#### Remarks
+If EnableEmbeddedScripts is set to false you will have to register the needed Scripts files by hand.
+
+###  EnableEmbeddedScripts `Boolean`
+
+Gets or sets the value, indicating whether to render script references to the embedded scripts or not.
+
+#### Remarks
+If EnableEmbeddedScripts is set to false you will have to register the needed Scripts files by hand.
+
+###  EnableEmbeddedSkins `String`
+
+Gets or sets the value, indicating whether to render links to the embedded skins or not.
+
+#### Remarks
+If EnableEmbeddedSkins is set to false you will have to register the needed CSS files by hand.
+
+###  EnableEmbeddedSkins `String`
+
+Gets or sets the value, indicating whether to render links to the embedded skins or not.
+
+#### Remarks
+If EnableEmbeddedSkins is set to false you will have to register the needed CSS files by hand.
+
+###  EnableEmbeddedSkins `String`
+
+Gets or sets the value, indicating whether to render links to the embedded skins or not.
+
+#### Remarks
+If EnableEmbeddedSkins is set to false you will have to register the needed CSS files by hand.
+
+###  EnableScreenBoundaryDetection `Boolean`
+
+Gets or sets whether the screen boundaries should be taken into consideration
+            when the Calendar or TimeView are displayed.
+
+###  EnableShadows `Boolean`
+
+Gets or sets whether popup shadows will appear.
+
+###  EnableTyping `Boolean`
+
+Enables or disables typing in the date input box.
+
+###  FocusedDate `DateTime`
+
+Gets or sets the date that the
+            Calendar uses for
+            focusing itself whenever the
+            RadDateInput component of
+            the RadDatePicker is
+            empty.
+
+###  HiddenInputTitleAttibute `String`
+
+Gets or sets the title attribute for the hidden field.
+
+###  HideAnimation `CalendarAnimationSettings`
+
+Gets the settings associated with hiding the  its popup controls.
+
+###  ImagesPath `String`
+
+Gets or sets default path for the grid images when EnableEmbeddedSkins is set to false.
+
+###  ImagesPath `String`
+
+Gets or sets default path for the grid images when EnableEmbeddedSkins is set to false.
+
+###  InvalidTextBoxValue `String`
+
+Gets the invalid date string in the control's textbox
+
+###  IsEmpty `Boolean`
+
+Used to determine if RadDatePicker is empty.
+
+###  IsSkinSet `String`
+
+For internal use.
 
 ###  LocalizationPath `DatePickerStrings`
 
@@ -189,148 +264,13 @@ If specified, the LocalizationPath
             property will allow you to load the grid localization file from any location in the 
             web application.
 
-###  Skin `String`
+###  MaxDate `DateTime`
 
-Gets or sets the skin name for the control user interface.
-
-#### Remarks
-If this property is not set, the control will render using the skin named "Default".
-            If EnableEmbeddedSkins is set to false, the control will not render skin.
-
-###  ImagesPath `String`
-
-Gets or sets default path for the grid images when EnableEmbeddedSkins is set to false.
-
-###  EnableEmbeddedSkins `String`
-
-Gets or sets the value, indicating whether to render links to the embedded skins or not.
+Gets or sets the latest valid date for selection.
+            Selecting a date later than that will not be allowed.
 
 #### Remarks
-If EnableEmbeddedSkins is set to false you will have to register the needed CSS files by hand.
-
-###  EnableEmbeddedScripts `Boolean`
-
-Gets or sets the value, indicating whether to render script references to the embedded scripts or not.
-
-#### Remarks
-If EnableEmbeddedScripts is set to false you will have to register the needed Scripts files by hand.
-
-###  EnableEmbeddedBaseStylesheet `Boolean`
-
-Gets or sets the value, indicating whether to render the link to the embedded base stylesheet of the control or not.
-
-#### Remarks
-If EnableEmbeddedBaseStylesheet is set to false you will have to register the needed control base CSS file by hand.
-
-###  RegisterWithScriptManager `Boolean`
-
-Gets or sets the value, indicating whether to register with the ScriptManager control on the page.
-
-#### Remarks
-If RegisterWithScriptManager is set to false the control can be rendered on the page using Web Services or normal callback requests/page methods.
-
-###  Calendar `RadCalendar`
-
-Gets the RadCalendar instance of the datepicker control.
-
-###  DateInput `RadDateInput`
-
-Gets the RadDateInput instance of the datepicker control.
-
-###  DatePopupButton `CalendarPopupButton`
-
-Gets the DatePopupButton instance of the datepicker control.  
-            You can use the object to customize the popup button's appearance and behavior.
-
-###  AutoPostBack `Boolean`
-
-Gets or sets a value indicating whether a postback to the server automatically occurs when the user interacts with the control.
-
-#### Remarks
-Setting this property to true will make RadDatePicker postback to the server 
-            on date selection through the Calendar or the DateInput components.
-
-###  Enabled `Boolean`
-
-Gets or sets a value indicating whether the Web server control is enabled.
-
-###  TabIndex `Int16`
-
-Gets or sets the tab index of the Web server control.
-
-###  HiddenInputTitleAttibute `String`
-
-Gets or sets the title attribute for the hidden field.
-
-###  WrapperTableSummary `String`
-
-Gets or sets summary attribute for the table which wraps the RadDatePicker controls.
-
-#### Remarks
-Setting this property to empty string will force Telerik RadDatePicker to not render summary tag.
-
-###  WrapperTableCaption `String`
-
-Gets or sets the caption for the table which wraps the RadDatePicker controls.
-
-#### Remarks
-Setting this property to empty string will force Telerik RadDatePicker to not render caption tag.
-
-###  PopupDirection `DatePickerPopupDirection`
-
-Gets or sets the direction in which the popup Calendar is displayed,
-            with relation to the DatePicker control.
-
-###  EnableScreenBoundaryDetection `Boolean`
-
-Gets or sets whether the screen boundaries should be taken into consideration
-            when the Calendar or TimeView are displayed.
-
-###  ZIndex `Int32`
-
-Gets or sets the z-index style of the control's popups
-
-###  EnableShadows `Boolean`
-
-Gets or sets whether popup shadows will appear.
-
-###  SelectedDate `Nullable`1`
-
-Gets or sets the date content of RadDatePicker.
-
-###  SkipMinMaxDateValidationOnServer `Boolean`
-
-Gets or sets if the server-side min/max date validation.
-
-###  ValidationDate `String`
-
-This property is used by the RadDateInput's internals only. It is subject to
-            change in the future versions. Please do not use.
-
-###  InvalidTextBoxValue `String`
-
-Gets the invalid date string in the control's textbox
-
-###  DbSelectedDate `Nullable`1`
-
-Gets or sets the date content of RadDatePicker in a database friendly way.
-
-#### Remarks
-This property behaves exactly like the SelectedDate property. The only difference
-            is that it will not throw an exception if the new value is null or DBNull. Setting a
-            null value will internally revert the SelectedDate to the null value, i.e. the input value will be empty.
-
-###  IsEmpty `Boolean`
-
-Used to determine if RadDatePicker is empty.
-
-###  EnableTyping `Boolean`
-
-Enables or disables typing in the date input box.
-
-###  ShowPopupOnFocus `Boolean`
-
-Gets or sets whether the popup control (Calendar or TimeView) is displayed when the DateInput textbox is focused.
+This property has a default value of 12/31/2099
 
 ###  MinDate `DateTime`
 
@@ -340,17 +280,80 @@ Gets or sets the minimal range date for selection.
 #### Remarks
 This property has a default value of 1/1/1980
 
-###  MaxDate `DateTime`
+###  Overlay `Boolean`
 
-Gets or sets the latest valid date for selection.
-            Selecting a date later than that will not be allowed.
+Gets or sets a value indicating whether the picker will create an overlay element to ensure popups are over a flash element or Java applet.
+
+###  PopupDirection `DatePickerPopupDirection`
+
+Gets or sets the direction in which the popup Calendar is displayed,
+            with relation to the DatePicker control.
+
+###  RegisterWithScriptManager `Boolean`
+
+Gets or sets the value, indicating whether to register with the ScriptManager control on the page.
 
 #### Remarks
-This property has a default value of 12/31/2099
+If RegisterWithScriptManager is set to false the control can be rendered on the page using Web Services or normal callback requests/page methods.
 
-###  Culture `CultureInfo`
+###  RegisterWithScriptManager `Boolean`
 
-Gets or sets the culture used by RadDatePicker to format the date.
+Gets or sets the value, indicating whether to register with the ScriptManager control on the page.
+
+#### Remarks
+If RegisterWithScriptManager is set to false the control can be rendered on the page using Web Services or normal callback requests/page methods.
+
+###  RegisterWithScriptManager `Boolean`
+
+Gets or sets the value, indicating whether to register with the ScriptManager control on the page.
+
+#### Remarks
+If RegisterWithScriptManager is set to false the control can be rendered on the page using Web Services or normal callback requests/page methods.
+
+###  RenderMode `RenderMode`
+
+Sets the render mode of the RadDatePicker and its child controls
+
+###  RenderMode `RenderMode`
+
+Specifies the rendering mode of the control. Setting the mode to Lightweight will yield
+            HTML 5/CSS 3 html and css.
+
+#### Remarks
+Lightweight rendering mode might change the outlook of the component in some older browsers
+            that don't support CSS3/HTML5.
+
+###  ResolvedRenderMode `RenderMode`
+
+Returns resolved RenderMode should the original value was Auto
+
+###  RuntimeSkin `String`
+
+Gets the real skin name for the control user interface. If Skin is not set, returns
+            "Default", otherwise returns Skin.
+
+###  SelectedDate `Nullable`1`
+
+Gets or sets the date content of RadDatePicker.
+
+###  SelectedTime `Nullable`1`
+
+Gets or sets the time of the date in the selected date of RadTimePicker using TimeSpan object.
+            
+            Use values between 00:00:00 and 23:59:59 to specify the time of the day
+            
+            If you set SelectedTime to 'null' then the SelectedDate will also become 'null'.
+
+###  SharedCalendar `RadCalendar`
+
+Gets or sets the reference to the calendar that will be used for picking dates.
+            This property allows you to configure several datepickers to use a single RadCalendar
+            instance.
+
+#### Remarks
+This property is not accessible from the VS.NET designer and you will have to
+                set it from the code-behind. It should be used when the shared calendar instance is
+                in another naming container or is created dynamically at runtime.
 
 ###  SharedCalendarID `RadCalendar`
 
@@ -366,63 +369,38 @@ RadDatePicker will look for the RadCalendar instance in a way similar to how
                 a direct object reference via the SharedCalendar
                 property.
 
-###  SharedCalendar `RadCalendar`
+###  SharedTimeView `RadTimeView`
 
-Gets or sets the reference to the calendar that will be used for picking dates.
-            This property allows you to configure several datepickers to use a single RadCalendar
+Gets or sets the reference to the timeview that will be used for picking time.
+            This property allows you to configure several datetimepickers to use a single RadTimeView
             instance.
 
 #### Remarks
 This property is not accessible from the VS.NET designer and you will have to
-                set it from the code-behind. It should be used when the shared calendar instance is
+                set it from the code-behind. It should be used when the shared timeview instance is
                 in another naming container or is created dynamically at runtime.
 
-###  FocusedDate `DateTime`
+###  SharedTimeViewID `RadTimeView`
 
-Gets or sets the date that the
-            Calendar uses for
-            focusing itself whenever the
-            RadDateInput component of
-            the RadDatePicker is
-            empty.
+Gets or sets the ID of the timeview that will be used for picking time. This
+            property allows you to configure several datetimepickers to use a single RadTimeView
+            instance.
 
-###  RenderMode `RenderMode`
-
-Sets the render mode of the RadDatePicker and its child controls
-
-###  Width `Unit`
-
-Gets or sets the width of the datepicker in pixels.
+#### Remarks
+RadDateTimePicker will look for the RadTimeView instance in a way similar to how
+                ASP.NET validators work. It will not go beyond the current naming container which
+                means that you will not be able to configure a timeview that is inside a control in
+                another naming container. You can still share a timeview, but you will have to pass
+                a direct object reference via the SharedTimeView
+                property.
 
 ###  ShowAnimation `CalendarAnimationSettings`
 
 Gets the settings associated with showing the  its popup controls.
 
-###  HideAnimation `CalendarAnimationSettings`
+###  ShowPopupOnFocus `Boolean`
 
-Gets the settings associated with hiding the  its popup controls.
-
-###  EnableAriaSupport `Boolean`
-
-When set to true enables support for WAI-ARIA
-
-###  ClientEvents `DatePickerClientEvents`
-
-Gets or sets an instance of
-            DatePickerClientEvents
-            class which defines the JavaScript functions (client-side event handlers) that are
-            invoked when specific client-side events are raised.
-
-###  Overlay `Boolean`
-
-Gets or sets a value indicating whether the picker will create an overlay element to ensure popups are over a flash element or Java applet.
-
-###  RegisterWithScriptManager `Boolean`
-
-Gets or sets the value, indicating whether to register with the ScriptManager control on the page.
-
-#### Remarks
-If RegisterWithScriptManager is set to false the control can be rendered on the page using Web Services or normal callback requests/page methods.
+Gets or sets whether the popup control (Calendar or TimeView) is displayed when the DateInput textbox is focused.
 
 ###  Skin `String`
 
@@ -432,73 +410,99 @@ Gets or sets the skin name for the control user interface.
 If this property is not set, the control will render using the skin named "Default".
             If EnableEmbeddedSkins is set to false, the control will not render skin.
 
-###  IsSkinSet `String`
+###  Skin `String`
 
-For internal use.
-
-###  EnableEmbeddedScripts `Boolean`
-
-Gets or sets the value, indicating whether to render script references to the embedded scripts or not.
+Gets or sets the skin name for the control user interface.
 
 #### Remarks
-If EnableEmbeddedScripts is set to false you will have to register the needed Scripts files by hand.
+If this property is not set, the control will render using the skin named "Default".
+            If EnableEmbeddedSkins is set to false, the control will not render skin.
 
-###  EnableEmbeddedSkins `String`
+###  Skin `String`
 
-Gets or sets the value, indicating whether to render links to the embedded skins or not.
-
-#### Remarks
-If EnableEmbeddedSkins is set to false you will have to register the needed CSS files by hand.
-
-###  EnableEmbeddedBaseStylesheet `Boolean`
-
-Gets or sets the value, indicating whether to render the link to the embedded base stylesheet of the control or not.
+Gets or sets the skin name for the control user interface.
 
 #### Remarks
-If EnableEmbeddedBaseStylesheet is set to false you will have to register the needed control base CSS file by hand.
+If this property is not set, the control will render using the skin named "Default".
+            If EnableEmbeddedSkins is set to false, the control will not render skin.
 
-###  RuntimeSkin `String`
+###  SkipMinMaxDateValidationOnServer `Boolean`
 
-Gets the real skin name for the control user interface. If Skin is not set, returns
-            "Default", otherwise returns Skin.
+Gets or sets if the server-side min/max date validation.
 
-###  EnableAjaxSkinRendering `String`
+###  TabIndex `Int16`
 
-Gets or sets the value, indicating whether to render the skin CSS files during Ajax requests
+Gets or sets the tab index of the Web server control.
 
-#### Remarks
-If EnableAjaxSkinRendering is set to false you will have to register the needed control base CSS file by hand when adding/showing the control with Ajax.
+###  TimePopupButton `TimePopupButton`
 
-###  ClientStateFieldID `String`
-
-###  RenderMode `RenderMode`
-
-Specifies the rendering mode of the control. Setting the mode to Lightweight will yield
-            HTML 5/CSS 3 html and css.
+Gets the TimePopupButton instance of the RadDateTimeView
+            control.
 
 #### Remarks
-Lightweight rendering mode might change the outlook of the component in some older browsers
-            that don't support CSS3/HTML5.
+You can use the object to customize the popup button's appearance and
+            behavior.
 
-###  ResolvedRenderMode `RenderMode`
+###  TimeView `RadTimeView`
 
-Returns resolved RenderMode should the original value was Auto
+Gets the RadTimeView instance of the datetimepicker control.
 
-###  CssClassFormatString `String`
+###  UseTimeSpanForBinding `Boolean`
 
-The CssClass property will now be used instead of the former Skin 
-            and will be modified in AddAttributesToRender()
+Gets or set if TimeSpan object should be used for returning value of DbSelectedDate.
+            
+            Set to True if you want DbSelectedDate to return TimeSpan object.
+            Set to False(the default value) if you want the DbSelectedDate to return DateTime object.
 
-###  ClientIDMode `ClientIDMode`
+###  ValidationDate `String`
 
-This property is overridden in order to support controls which implement INamingContainer.
-            The default value is changed to "AutoID".
+This property is used by the RadDateTimeInput's internals only. It is subject to
+            change in the future versions. Please do not use.
 
-###  ScriptManager `ScriptManager`
+###  ValidationDate `String`
 
-###  RadScriptManager `ScriptManager`
+This property is used by the RadDateInput's internals only. It is subject to
+            change in the future versions. Please do not use.
+
+###  Width `Unit`
+
+Gets or sets the width of the datepicker in pixels.
+
+###  WrapperTableCaption `String`
+
+Gets or sets the caption for the table which wraps the RadDatePicker controls.
+
+#### Remarks
+Setting this property to empty string will force Telerik RadDatePicker to not render caption tag.
+
+###  WrapperTableSummary `String`
+
+Gets or sets summary attribute for the table which wraps the RadDatePicker controls.
+
+#### Remarks
+Setting this property to empty string will force Telerik RadDatePicker to not render summary tag.
+
+###  ZIndex `Int32`
+
+Gets or sets the z-index style of the control's popups
 
 ## Methods
+
+###  ApplyConditionalRendering
+
+Use this from RenderContents of the inheritor
+
+#### Returns
+
+`System.Void` 
+
+###  Clear
+
+Clears the selected date of the RadDatePicker control and displays a blank date.
+
+#### Returns
+
+`System.Void` 
 
 ###  ConfigureCalendar
 
@@ -516,7 +520,9 @@ Override this method to provide any last minute configuration changes.  Make sur
 
 `System.Void` 
 
-###  ConfigureDateInput
+###  ControlPreRender
+
+Code moved into this method from OnPreRender to make sure it executed when the framework skips OnPreRender() for some reason
 
 #### Returns
 
@@ -530,55 +536,13 @@ Sets input focus to a control.
 
 `System.Void` 
 
-###  Clear
+###  GetEmbeddedSkinNames
 
-Clears the selected date of the RadDatePicker control and displays a blank date.
-
-#### Returns
-
-`System.Void` 
-
-###  System.Web.UI.IPostBackDataHandler.LoadPostData
+Returns the names of all embedded skins. Used by Telerik.Web.Examples.
 
 #### Returns
 
-`System.Boolean` 
-
-###  AddAttributesToRender
-
-#### Returns
-
-`System.Void` 
-
-###  OnPreRender
-
-#### Returns
-
-`System.Void` 
-
-###  ControlPreRender
-
-Code moved into this method from OnPreRender to make sure it executed when the framework skips OnPreRender() for some reason
-
-#### Returns
-
-`System.Void` 
-
-###  RegisterScriptControl
-
-Registers the control with the ScriptManager
-
-#### Returns
-
-`System.Void` 
-
-###  RegisterCssReferences
-
-Registers the CSS references
-
-#### Returns
-
-`System.Void` 
+`System.Collections.Generic.List`1` 
 
 ###  LoadClientState
 
@@ -591,96 +555,6 @@ Loads the client state data
 #### Returns
 
 `System.Void` 
-
-###  SaveClientState
-
-Saves the client state data
-
-#### Returns
-
-`System.String` 
-
-###  RenderClientStateField
-
-#### Returns
-
-`System.Void` 
-
-###  RenderBeginTag
-
-#### Returns
-
-`System.Void` 
-
-###  RenderEndTag
-
-#### Returns
-
-`System.Void` 
-
-###  Render
-
-#### Returns
-
-`System.Void` 
-
-###  RenderScriptsNoScriptManager
-
-#### Returns
-
-`System.Void` 
-
-###  RenderDescriptorsNoScriptManager
-
-#### Returns
-
-`System.Void` 
-
-###  RenderContents
-
-#### Returns
-
-`System.Void` 
-
-###  ApplyConditionalRendering
-
-Use this from RenderContents of the inheritor
-
-#### Returns
-
-`System.Void` 
-
-###  DescribeComponent
-
-#### Returns
-
-`System.Void` 
-
-###  DescribeProperty
-
-#### Returns
-
-`System.Void` 
-
-###  DescribeIDReferenceProperty
-
-#### Returns
-
-`System.Void` 
-
-###  DescribeEvent
-
-#### Returns
-
-`System.Void` 
-
-###  GetEmbeddedSkinNames
-
-Returns the names of all embedded skins. Used by Telerik.Web.Examples.
-
-#### Returns
-
-`System.Collections.Generic.List`1` 
 
 ###  LoadPostData
 
@@ -704,9 +578,33 @@ Executed when post data changes should invoke a changed event
 
 `System.Void` 
 
-###  GetViewStateValue
+###  RegisterCssReferences
+
+Registers the CSS references
 
 #### Returns
 
-`Telerik.Web.UI.T` 
+`System.Void` 
+
+###  RegisterScriptControl
+
+Registers the control with the ScriptManager
+
+#### Returns
+
+`System.Void` 
+
+###  SaveClientState
+
+Saves the client state data
+
+#### Returns
+
+`System.String` 
+
+###  System.Web.UI.IPostBackDataHandler.LoadPostData
+
+#### Returns
+
+`System.Boolean` 
 

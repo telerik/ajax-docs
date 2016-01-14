@@ -16,42 +16,61 @@ The RadColorPickerLocalizationclass defines the localization strings for the Rad
 
 ## Properties
 
-###  PickColorText `String`
+###  ApplyButtonText `String`
 
-Gets or sets the tooltip of the icon.
+Gets or sets the text for the 'Apply' button.
+
+###  BlankColorText `String`
+
+Gets ot sets the title of the icon when no color is selected.
+
+###  CancelButtonText `String`
+
+Gets or sets the text for 'Cancel' button.
 
 ###  CurrentColorText `String`
 
 Gets or sets the text in the icon.
 
-###  NoColorText `String`
+###  CustomColor `String`
 
-Gets or sets the text for the no color box.
+Gets or sets the text for the Custom Color icon tooltip.
 
-###  WebPaletteTabText `String`
+###  HexInputTitle `String`
 
-Gets or sets the text for the tab of the Web Palette mode.
+Gets or sets the text for the color hexadecimal code input.
 
-###  RGBSlidersTabText `String`
+###  HSBSliderDragText `String`
 
-Gets or sets the text for the tab of the RGB Sliders palette mode.
+Gets or sets the text for the drag handle of the HSB Slider.
 
 ###  HSBTabText `String`
 
 Gets or sets the text for the tab of the HSB palette mode.
 
+###  HSVSliderDragText `String`
+
+Gets or sets the text for the drag handle of the HSV Slider.
+
 ###  HSVTabText `String`
 
 Gets or sets the text for the tab of the HSV palette mode.
 
-###  ApplyButtonText `String`
+###  NoColorText `String`
 
-Gets or sets the text for the 'Apply' button.
+Gets or sets the text for the no color box.
 
-###  RGBSlidersIncreaseText `String`
+###  OkButtonText `String`
 
-Gets or sets the text for the increase handle of the RGB Slider. 
-            (This property is added for complete localization of the slider control. By default it is not used.)
+Gets or sets the text for 'OK' button.
+
+###  PickColorText `String`
+
+Gets or sets the tooltip of the icon.
+
+###  RecentColors `String`
+
+Gets or sets the text for the Recent Colors label.
 
 ###  RGBSlidersDecreaseText `String`
 
@@ -62,35 +81,16 @@ Gets or sets the text for the decrease handle of the RGB Slider.
 
 Gets or sets the text for the drag handle of the RGB Slider.
 
-###  HSBSliderDragText `String`
+###  RGBSlidersIncreaseText `String`
 
-Gets or sets the text for the drag handle of the HSB Slider.
+Gets or sets the text for the increase handle of the RGB Slider. 
+            (This property is added for complete localization of the slider control. By default it is not used.)
 
-###  HSVSliderDragText `String`
+###  RGBSlidersTabText `String`
 
-Gets or sets the text for the drag handle of the HSV Slider.
+Gets or sets the text for the tab of the RGB Sliders palette mode.
 
-###  BlankColorText `String`
+###  WebPaletteTabText `String`
 
-Gets ot sets the title of the icon when no color is selected.
-
-###  CustomColor `String`
-
-Gets or sets the text for the Custom Color icon tooltip.
-
-###  RecentColors `String`
-
-Gets or sets the text for the Recent Colors label.
-
-###  OkButtonText `String`
-
-Gets or sets the text for 'OK' button.
-
-###  CancelButtonText `String`
-
-Gets or sets the text for 'Cancel' button.
-
-###  HexInputTitle `String`
-
-Gets or sets the text for the color hexadecimal code input.
+Gets or sets the text for the tab of the Web Palette mode.
 

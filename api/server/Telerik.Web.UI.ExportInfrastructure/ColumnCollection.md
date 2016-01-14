@@ -15,10 +15,6 @@ EI Column collection
 
 ## Properties
 
-###  Table `Table`
-
-Returns a reference to the owner Table object
-
 ###  Count `Int32`
 
 Returns the number of Columns in the collection
@@ -26,6 +22,10 @@ Returns the number of Columns in the collection
 ###  Item `Column`
 
 Gets/sets the column by given index
+
+###  Table `Table`
+
+Returns a reference to the owner Table object
 
 ## Methods
 

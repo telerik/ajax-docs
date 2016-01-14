@@ -16,14 +16,6 @@ Defines the client events handlers.
 
 ## Properties
 
-###  OnInitialize `String`
-
-Gets or sets the client-side script that executes when a RadMap client-initialize event is raised.
-
-###  OnLoad `String`
-
-Gets or sets the client-side script that executes when a RadMap client-load event is raised.
-
 ###  OnBeforeReset `String`
 
 Fired immediately before the map is reset. This event is typically used for cleanup by layer implementers.
@@ -32,17 +24,25 @@ Fired immediately before the map is reset. This event is typically used for clea
 
 Fired when the user clicks on the map.
 
+###  OnInitialize `String`
+
+Gets or sets the client-side script that executes when a RadMap client-initialize event is raised.
+
+###  OnLoad `String`
+
+Gets or sets the client-side script that executes when a RadMap client-load event is raised.
+
 ###  OnMarkerActivate `String`
 
 Fired when a marker has been displayed.
 
-###  OnMarkerCreated `String`
-
-Fired when a marker has been created and is about to be displayed. Cancelling the event will prevent the marker from being shown.
-
 ###  OnMarkerClick `String`
 
 Fired when a marker has been clicked or tapped.
+
+###  OnMarkerCreated `String`
+
+Fired when a marker has been created and is about to be displayed. Cancelling the event will prevent the marker from being shown.
 
 ###  OnPan `String`
 
@@ -72,11 +72,11 @@ Fired when the mouse enters a shape.
 
 Fired when the mouse leaves a shape.
 
-###  OnZoomStart `String`
-
-Fired when the map zoom level is about to change. Cancelling the event will prevent the user action.
-
 ###  OnZoomEnd `String`
 
 Fired when the map zoom level has changed.
+
+###  OnZoomStart `String`
+
+Fired when the map zoom level is about to change. Cancelling the event will prevent the user action.
 

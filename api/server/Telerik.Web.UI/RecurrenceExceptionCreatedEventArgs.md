@@ -18,19 +18,19 @@ Provides data for the E:Telerik.Web.UI.RadScheduler.RecurrenceExceptionCreated e
 
 ## Properties
 
-###  ExceptionAppointment `Appointment`
-
-Gets the recurrence exception appointment that is about to be created.
-
 ###  Appointment `Appointment`
 
 Gets the master appointment to which the recurrence exception is about to be attached.
 
-###  OccurrenceAppointment `Appointment`
-
-Gets the occurrence appointment that is about to be overriden by the recurrence exception.
-
 ###  Appointment `Appointment`
 
 Gets the appointment.
+
+###  ExceptionAppointment `Appointment`
+
+Gets the recurrence exception appointment that is about to be created.
+
+###  OccurrenceAppointment `Appointment`
+
+Gets the occurrence appointment that is about to be overriden by the recurrence exception.
 

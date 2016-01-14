@@ -21,21 +21,29 @@ X Axis label
 
 ## Properties
 
-###  Visible `Boolean`
+###  ActiveRegion `ActiveRegion`
 
-Gets and sets Visibility of label
+Gets and sets Active region
 
 ###  Appearance `StyleLabel`
 
 Link to visualization and design properties
 
-###  TextBlock `TextBlock`
+###  Container `IContainer`
 
-ChartLabel TextBlock
+Link to container element
 
 ###  Marker `ChartMarker`
 
 Graphic marker of label
+
+###  NextPosition `Int32`
+
+Gets a next free order position
+
+###  OrderList `List`1`
+
+List, that represent the render order for taken up elements
 
 ###  Parent `Object`
 
@@ -45,93 +53,27 @@ Gets and sets Parent element
 
 Gets and sets Direction of label position in auto mode
 
-###  ActiveRegion `ActiveRegion`
+###  TextBlock `TextBlock`
 
-Gets and sets Active region
-
-###  Visible `Boolean`
-
-Gets and sets label's visibility
-
-###  OrderList `List`1`
-
-List, that represent the render order for taken up elements
-
-###  NextPosition `Int32`
-
-Gets a next free order position
-
-###  Container `IContainer`
-
-Link to container element
-
-###  ViewStateIgnoresCase `Boolean`
-
-Gets if view sate should ignore case
+ChartLabel TextBlock
 
 ###  ViewState `StateBag`
 
 Sate bag to store view state content
 
+###  ViewStateIgnoresCase `Boolean`
+
+Gets if view sate should ignore case
+
+###  Visible `Boolean`
+
+Gets and sets Visibility of label
+
+###  Visible `Boolean`
+
+Gets and sets label's visibility
+
 ## Methods
-
-###  IsVisible
-
-Gets visibility of label
-
-#### Returns
-
-`System.Boolean` Visible or not
-
-###  IsVisible
-
-Gets whether Label is real visible
-
-#### Returns
-
-`System.Boolean` Label's visibility
-
-###  Measure
-
-Measure label
-
-#### Parameters
-
-#### renderEngine `Telerik.Charting.RenderEngine`
-
-Render Engine of chart
-
-#### Returns
-
-`System.Drawing.SizeF` Calculated size of Label
-
-###  CalculatePosition
-
-Calculates position
-
-#### Parameters
-
-#### renderEngine `Telerik.Charting.RenderEngine`
-
-RenderEngine of chart
-
-#### Returns
-
-`System.Void` 
-
-###  GetOrder
-
-Gets elements order position
-
-#### Parameters
-
-#### element `Telerik.Charting.IOrdering`
-
-Element
-
-#### Returns
-
-`System.Int32` 
 
 ###  Add
 
@@ -147,185 +89,35 @@ Element
 
 `System.Void` 
 
-###  Insert
+###  BringForward
 
-Insert element at specific position in list
-
-#### Parameters
-
-#### order `System.Int32`
-
-Position
-
-#### element `Telerik.Charting.IOrdering`
-
-Element
+Send element at one step forward in the render order list
 
 #### Returns
 
 `System.Void` 
 
-###  Remove
+###  BringToFront
 
-Remove  element from list
-
-#### Parameters
-
-#### element `Telerik.Charting.IOrdering`
-
-Element
+Set element at the first position in render order list
 
 #### Returns
 
 `System.Void` 
 
-###  RemoveAt
+###  CalculatePosition
 
-Remove  element from list by it's index
+Calculates position
 
 #### Parameters
 
-#### index `System.Int32`
+#### renderEngine `Telerik.Charting.RenderEngine`
 
-Position
+RenderEngine of chart
 
 #### Returns
 
 `System.Void` 
-
-###  ReIndex
-
-Re-index order list
-
-#### Returns
-
-`System.Void` 
-
-###  Dispose
-
-Releases unmanaged and - optionally - managed resources
-
-#### Parameters
-
-#### disposing `System.Boolean`
-
-true to release both managed and unmanaged resources; false to release only unmanaged resources.
-
-#### Returns
-
-`System.Void` 
-
-###  TrackViewState
-
-Track ViewState
-
-#### Returns
-
-`System.Void` 
-
-###  LoadViewState
-
-Load ViewState
-
-#### Parameters
-
-#### savedState `System.Object`
-
-ViewState with data
-
-#### Returns
-
-`System.Void` 
-
-###  SaveViewState
-
-Save to ViewState
-
-#### Returns
-
-`System.Object` Saved data
-
-###  Clone
-
-Clone this object
-
-#### Returns
-
-`System.Object` New instance of ChartBaseLabel class with the same fields as this object
-
-###  GetOffset
-
-Gets element offset
-
-#### Parameters
-
-#### oelement `System.Object`
-
-Element
-
-#### calcMethod `Telerik.Charting.LayoutElement.OffsetCalculationDelegate`
-
-Offset calculation method delegate (left, right, top, bottom)
-
-#### Returns
-
-`System.Single` Offset value
-
-###  GetOffsetLeft
-
-Gets left offset
-
-#### Parameters
-
-#### oelement `System.Object`
-
-Element to get an offset of
-
-#### Returns
-
-`System.Single` Offset value
-
-###  GetOffsetTop
-
-Gets top offset
-
-#### Parameters
-
-#### element `System.Object`
-
-Element to get an offset of
-
-#### Returns
-
-`System.Single` Offset value
-
-###  GetOffsetRight
-
-Gets right offset
-
-#### Parameters
-
-#### element `System.Object`
-
-Element to get an offset of
-
-#### Returns
-
-`System.Single` Offset value
-
-###  GetOffsetBottom
-
-Gets bottom offset
-
-#### Parameters
-
-#### element `System.Object`
-
-Element to get an offset of
-
-#### Returns
-
-`System.Single` Offset value
 
 ###  CalculatePosition
 
@@ -353,9 +145,189 @@ Calculates element position. Makes an additional check for a container object ty
 
 `System.Void` 
 
-###  TrackViewState
+###  Clone
 
-Tracking view state changes
+Clone this object
+
+#### Returns
+
+`System.Object` New instance of ChartBaseLabel class with the same fields as this object
+
+###  CloneState
+
+Makes a view state clone
+
+#### Returns
+
+`System.Web.UI.StateBag` StateBag
+
+###  Dispose
+
+Releases unmanaged and - optionally - managed resources
+
+#### Parameters
+
+#### disposing `System.Boolean`
+
+true to release both managed and unmanaged resources; false to release only unmanaged resources.
+
+#### Returns
+
+`System.Void` 
+
+###  Dispose
+
+Releases unmanaged and - optionally - managed resources
+
+#### Parameters
+
+#### disposing `System.Boolean`
+
+true to release both managed and unmanaged resources; false to release only unmanaged resources.
+
+#### Returns
+
+`System.Void` 
+
+###  GetOffset
+
+Gets element offset
+
+#### Parameters
+
+#### oelement `System.Object`
+
+Element
+
+#### calcMethod `Telerik.Charting.LayoutElement.OffsetCalculationDelegate`
+
+Offset calculation method delegate (left, right, top, bottom)
+
+#### Returns
+
+`System.Single` Offset value
+
+###  GetOffsetBottom
+
+Gets bottom offset
+
+#### Parameters
+
+#### element `System.Object`
+
+Element to get an offset of
+
+#### Returns
+
+`System.Single` Offset value
+
+###  GetOffsetLeft
+
+Gets left offset
+
+#### Parameters
+
+#### oelement `System.Object`
+
+Element to get an offset of
+
+#### Returns
+
+`System.Single` Offset value
+
+###  GetOffsetRight
+
+Gets right offset
+
+#### Parameters
+
+#### element `System.Object`
+
+Element to get an offset of
+
+#### Returns
+
+`System.Single` Offset value
+
+###  GetOffsetTop
+
+Gets top offset
+
+#### Parameters
+
+#### element `System.Object`
+
+Element to get an offset of
+
+#### Returns
+
+`System.Single` Offset value
+
+###  GetOrder
+
+Gets elements order position
+
+#### Parameters
+
+#### element `Telerik.Charting.IOrdering`
+
+Element
+
+#### Returns
+
+`System.Int32` 
+
+###  GetOrder
+
+Get this elements order position in container
+
+#### Returns
+
+`System.Int32` 
+
+###  Insert
+
+Insert element at specific position in list
+
+#### Parameters
+
+#### order `System.Int32`
+
+Position
+
+#### element `Telerik.Charting.IOrdering`
+
+Element
+
+#### Returns
+
+`System.Void` 
+
+###  IsVisible
+
+Gets visibility of label
+
+#### Returns
+
+`System.Boolean` Visible or not
+
+###  IsVisible
+
+Gets whether Label is real visible
+
+#### Returns
+
+`System.Boolean` Label's visibility
+
+###  LoadViewState
+
+Load ViewState
+
+#### Parameters
+
+#### savedState `System.Object`
+
+ViewState with data
 
 #### Returns
 
@@ -375,45 +347,59 @@ Views state to load from
 
 `System.Void` 
 
-###  SaveViewState
+###  LoadViewState
 
-Saves settings to a view state
-
-#### Returns
-
-`System.Object` Saved view state
-
-###  Dispose
-
-Releases unmanaged and - optionally - managed resources
+Loads data from a view state
 
 #### Parameters
 
-#### disposing `System.Boolean`
+#### state `System.Object`
 
-true to release both managed and unmanaged resources; false to release only unmanaged resources.
+View state to load data from
 
 #### Returns
 
 `System.Void` 
 
-###  GetOrder
+###  Measure
 
-Get this elements order position in container
-
-#### Returns
-
-`System.Int32` 
-
-###  SetOrder
-
-Set this object in new render order position
+Measure label
 
 #### Parameters
 
-#### index `System.Int32`
+#### renderEngine `Telerik.Charting.RenderEngine`
 
-New position
+Render Engine of chart
+
+#### Returns
+
+`System.Drawing.SizeF` Calculated size of Label
+
+###  OnRender
+
+Called after rendering
+
+#### Returns
+
+`System.Void` 
+
+###  ReIndex
+
+Re-index order list
+
+#### Returns
+
+`System.Void` 
+
+###  Remove
+
+Remove  element from list
+
+#### Parameters
+
+#### element `Telerik.Charting.IOrdering`
+
+Element
 
 #### Returns
 
@@ -427,21 +413,43 @@ Remove this  element from  render order list
 
 `System.Void` 
 
-###  BringForward
+###  RemoveAt
 
-Send element at one step forward in the render order list
+Remove  element from list by it's index
 
-#### Returns
+#### Parameters
 
-`System.Void` 
+#### index `System.Int32`
 
-###  BringToFront
-
-Set element at the first position in render order list
+Position
 
 #### Returns
 
 `System.Void` 
+
+###  SaveViewState
+
+Save to ViewState
+
+#### Returns
+
+`System.Object` Saved data
+
+###  SaveViewState
+
+Saves settings to a view state
+
+#### Returns
+
+`System.Object` Saved view state
+
+###  SaveViewState
+
+Saves object data to a view state
+
+#### Returns
+
+`System.Object` Saved view state object
 
 ###  SendBackward
 
@@ -459,9 +467,23 @@ Send element at the end of render order list
 
 `System.Void` 
 
-###  OnRender
+###  SetDirty
 
-Called after rendering
+Sets the item dirty state
+
+#### Returns
+
+`System.Void` 
+
+###  SetOrder
+
+Set this object in new render order position
+
+#### Parameters
+
+#### index `System.Int32`
+
+New position
 
 #### Returns
 
@@ -497,21 +519,21 @@ Tracks view state changes
 
 `System.Void` 
 
-###  CloneState
+###  TrackViewState
 
-Makes a view state clone
-
-#### Returns
-
-`System.Web.UI.StateBag` StateBag
-
-###  SaveViewState
-
-Saves object data to a view state
+Track ViewState
 
 #### Returns
 
-`System.Object` Saved view state object
+`System.Void` 
+
+###  TrackViewState
+
+Tracking view state changes
+
+#### Returns
+
+`System.Void` 
 
 ###  TrackViewState
 
@@ -520,34 +542,4 @@ Tracks view state changes
 #### Returns
 
 `System.Void` 
-
-###  LoadViewState
-
-Loads data from a view state
-
-#### Parameters
-
-#### state `System.Object`
-
-View state to load data from
-
-#### Returns
-
-`System.Void` 
-
-###  SetDirty
-
-Sets the item dirty state
-
-#### Returns
-
-`System.Void` 
-
-###  ToString
-
-ToString() override. Used in the properties grid to avoid object type showing.
-
-#### Returns
-
-`System.String` Empty string
 

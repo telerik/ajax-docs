@@ -18,21 +18,21 @@ The event arguments passed when Telerik.Web.UI.RadPivotGrid fires Expand\Collaps
 
 ## Properties
 
-###  OwnerPivotGrid `RadPivotGrid`
-
-Gets the owner pivot grid.
-
 ###  GroupType `PivotGridGroupType`
 
 Gets the group which will be expanded or collapsed.
+
+###  Level `Int32`
+
+Get a value indicating which level will be expanded or collapsed.
 
 ###  OperationType `PivotGridExpandCollapseOperationType`
 
 Gets a value indicating if a expand or collapse operation will be performed.
 
-###  Level `Int32`
+###  OwnerPivotGrid `RadPivotGrid`
 
-Get a value indicating which level will be expanded or collapsed.
+Gets the owner pivot grid.
 
 ## Methods
 

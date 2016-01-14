@@ -16,11 +16,11 @@ The animation that will be used when a Tooltip closes.
 
 ## Properties
 
-###  Effects `String`
-
-Effect to be used for closing of the tooltip.
-
 ###  Duration `Double`
 
 Defines the animation duration.
+
+###  Effects `String`
+
+Effect to be used for closing of the tooltip.
 

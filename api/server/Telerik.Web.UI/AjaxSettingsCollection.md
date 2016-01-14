@@ -6,7 +6,8 @@ description: Telerik.Web.UI.AjaxSettingsCollection
 
 # Telerik.Web.UI.AjaxSettingsCollection
 
-Summary description for ConfiguredControls.
+AjaxSettings collection. 
+            See http://docs.telerik.com/devtools/aspnet-ajax/controls/ajax/radajaxmanager/how-to/add-ajaxsettings-programmatically AjaxSettingsfor more information.
 
 ## Inheritance Hierarchy
 
@@ -22,11 +23,19 @@ Default indexer for the collection.
 
 ## Methods
 
-###  ToString
+###  Add
+
+Adds an item to the collection.
+
+#### Parameters
+
+#### ajaxSetting `Telerik.Web.UI.AjaxSetting`
+
+An instance of AjaxSetting to be added.
 
 #### Returns
 
-`System.String` 
+`System.Int32` 
 
 ###  AddAjaxSetting
 
@@ -130,34 +139,6 @@ Determines the height of the update panel.
 
 `System.Void` 
 
-###  Add
-
-Adds an item to the collection.
-
-#### Parameters
-
-#### ajaxSetting `Telerik.Web.UI.AjaxSetting`
-
-An instance of AjaxSetting to be added.
-
-#### Returns
-
-`System.Int32` 
-
-###  Remove
-
-Removes an item from the collection.
-
-#### Parameters
-
-#### ajaxSetting `Telerik.Web.UI.AjaxSetting`
-
-An instance of AjaxSetting to be removed
-
-#### Returns
-
-`System.Void` 
-
 ###  Contains
 
 Checks wether the item is present in the collection.
@@ -199,6 +180,20 @@ The index at which the setting will be inserted
 #### ajaxSetting `Telerik.Web.UI.AjaxSetting`
 
 An instance of AjaxSetting
+
+#### Returns
+
+`System.Void` 
+
+###  Remove
+
+Removes an item from the collection.
+
+#### Parameters
+
+#### ajaxSetting `Telerik.Web.UI.AjaxSetting`
+
+An instance of AjaxSetting to be removed
 
 #### Returns
 

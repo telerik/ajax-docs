@@ -15,73 +15,73 @@ EI Table (Worksheet) object
 
 ## Properties
 
-###  Index `Int32`
+###  BottomMargin `Unit`
 
-Table index
-
-###  Title `String`
-
-Table name
-
-###  ImageCount `Int32`
-
-Intended for unit tests usage
+Gets/sets the bottom margin of the page
 
 ###  Cells `CellCollection`
 
 Table cells collection
 
-###  Rows `RowCollection`
-
-Table rows collection
-
 ###  Columns `ColumnCollection`
 
 Table columns collection
-
-###  Images `ImageCollection`
-
-Table images collection
-
-###  Style `ExportStyle`
-
-Container of the Table styles
-
-###  TopMargin `Unit`
-
-Gets/sets the top margin of the page
-
-###  BottomMargin `Unit`
-
-Gets/sets the bottom margin of the page
-
-###  LeftMargin `Unit`
-
-Gets/sets the left margin of the page
-
-###  RightMargin `Unit`
-
-Gets/sets the right margin of the page
-
-###  Landscape `Boolean`
-
-Set this to true to enable landscape orientation; otherwise will be false (portrait) which is the default value.
-
-###  HeaderText `String`
-
-Gets/sets the page header text
 
 ###  FooterText `String`
 
 Gets/sets the page footer text
 
+###  HeaderText `String`
+
+Gets/sets the page header text
+
+###  ImageCount `Int32`
+
+Intended for unit tests usage
+
+###  Images `ImageCollection`
+
+Table images collection
+
+###  Index `Int32`
+
+Table index
+
+###  Landscape `Boolean`
+
+Set this to true to enable landscape orientation; otherwise will be false (portrait) which is the default value.
+
+###  LeftMargin `Unit`
+
+Gets/sets the left margin of the page
+
 ###  PageSize `PaperKind`
 
 Determines the size of the page
 
+###  RightMargin `Unit`
+
+Gets/sets the right margin of the page
+
+###  Rows `RowCollection`
+
+Table rows collection
+
 ###  ShowGridlines `Boolean`
 
 Determines whether the grid lines will be visible by default
+
+###  Style `ExportStyle`
+
+Container of the Table styles
+
+###  Title `String`
+
+Table name
+
+###  TopMargin `Unit`
+
+Gets/sets the top margin of the page
 
 ## Methods
 

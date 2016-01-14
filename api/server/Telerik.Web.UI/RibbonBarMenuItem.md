@@ -17,32 +17,17 @@ This Class defines RibbonBarMenuItem.
 
 ## Properties
 
-###  ParentItem `RibbonBarMenuItem`
+###  CommandArgument `String`
 
-Gets the parent item of the menu item. Returns null if the parent is the menu itself.
+Gets or sets an optional parameter passed to the Command event along with the associated CommandName.
+
+###  CommandName `String`
+
+Gets or sets the command name associated with the MenuItem that is passed to the Command event.
 
 ###  Container `IRibbonBarSubComponent`
 
 Gets or sets the container.
-
-###  RibbonBar `RadRibbonBar`
-
-Gets a reference to the RibbonBar instance.
-
-#### Remarks
-Use the property to get the RibbonBar instance.
-
-###  ParentWebControl `WebControl`
-
-Gets or sets the parent web control.
-
-###  ImageUrl `String`
-
-Gets or sets the image's URL of the item, used when it's enabled.
-
-#### Remarks
-Use the ImageUrl property to specify a custom image that will be
-            	used when the item is enabled.
 
 ###  DisabledImageUrl `String`
 
@@ -59,6 +44,22 @@ Gets or sets the rendered alt text of the item's image dom element.
 #### Remarks
 Use the property to set the alt text for the item's image element, when needed for accessibility.
 
+###  ImageUrl `String`
+
+Gets or sets the image's URL of the item, used when it's enabled.
+
+#### Remarks
+Use the ImageUrl property to specify a custom image that will be
+            	used when the item is enabled.
+
+###  Items `RibbonBarMenuItemCollection`
+
+Gets a RibbonBarMenuItemCollection object that contains the sub-items of the MenuItem.
+
+#### Remarks
+Use the Items property to access the sub-items of the MenuItem. You can also use the Items property to
+            	manage the items. You can add, remove or modify items from the Items collection.
+
 ###  NavigateUrl `String`
 
 Gets or sets navigation URL for the item. Usually pointing to a page.
@@ -67,19 +68,27 @@ Gets or sets navigation URL for the item. Usually pointing to a page.
 Use the NavigateUrl property to specify a custom a url to a page
             	which should be loaded on click on the item.
 
+###  ParentItem `RibbonBarMenuItem`
+
+Gets the parent item of the menu item. Returns null if the parent is the menu itself.
+
+###  ParentWebControl `WebControl`
+
+Gets or sets the parent web control.
+
+###  RibbonBar `RadRibbonBar`
+
+Gets a reference to the RibbonBar instance.
+
+#### Remarks
+Use the property to get the RibbonBar instance.
+
 ###  Text `String`
 
 Gets or sets the text of a certain item.
 
 #### Remarks
 Use the property to set the displayed text for an item.
-
-###  Value `String`
-
-Gets or sets the value property of the item.
-
-#### Remarks
-You can use it to associate custom data with the item.
 
 ###  ToolTip `String`
 
@@ -90,47 +99,14 @@ When the ToolTip value is empty, the default ASP ToolTip is displayed
                 with the Text of the item as a value. When ToolTip is set, the enhanced RibbonBar tooltip 
                 is shown instead of the default one.
 
-###  CommandName `String`
+###  Value `String`
 
-Gets or sets the command name associated with the MenuItem that is passed to the Command event.
-
-###  CommandArgument `String`
-
-Gets or sets an optional parameter passed to the Command event along with the associated CommandName.
-
-###  Items `RibbonBarMenuItemCollection`
-
-Gets a RibbonBarMenuItemCollection object that contains the sub-items of the MenuItem.
+Gets or sets the value property of the item.
 
 #### Remarks
-Use the Items property to access the sub-items of the MenuItem. You can also use the Items property to
-            	manage the items. You can add, remove or modify items from the Items collection.
+You can use it to associate custom data with the item.
 
 ## Methods
-
-###  RenderControl
-
-Outputs server control content to a provided 
-            object and stores tracing information about the control if tracing is enabled.
-
-#### Parameters
-
-#### writer `System.Web.UI.HtmlTextWriter`
-
-The  object
-            that receives the control content.
-
-#### Returns
-
-`System.Void` 
-
-###  GetVisibleItems
-
-Returns the Visible sub-items.
-
-#### Returns
-
-`System.Collections.Generic.IList`1` All visible sub-items.
 
 ###  FindMenuItemByValue
 
@@ -149,6 +125,14 @@ The Value to search for.
 `Telerik.Web.UI.RibbonBarMenuItem` A sub-item of the current MenuItem whose Value property is equal to the specifed 
             	value. If a button is not found, null (Nothing in Visual Basic) is returned.
 
+###  GetVisibleItems
+
+Returns the Visible sub-items.
+
+#### Returns
+
+`System.Collections.Generic.IList`1` All visible sub-items.
+
 ###  ReadXml
 
 Reads the XML.
@@ -158,6 +142,22 @@ Reads the XML.
 #### reader `System.Xml.XmlReader`
 
 The reader.
+
+#### Returns
+
+`System.Void` 
+
+###  RenderControl
+
+Outputs server control content to a provided 
+            object and stores tracing information about the control if tracing is enabled.
+
+#### Parameters
+
+#### writer `System.Web.UI.HtmlTextWriter`
+
+The  object
+            that receives the control content.
 
 #### Returns
 

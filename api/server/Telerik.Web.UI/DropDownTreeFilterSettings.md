@@ -16,10 +16,6 @@ Represent the filter setting of the RadDropDownTree control
 
 ## Properties
 
-###  Highlight `DropDownTreeHighlight`
-
-Gets or sets a value indicating whether to highlight the matches.
-
 ###  EmptyMessage `String`
 
 Gets or sets a value indicating the empty message of the filter.
@@ -32,15 +28,11 @@ Gets or sets a value indicating the filter criteria.
 
 Gets or sets a value indicating the filter criteria when template is applied.
 
+###  Highlight `DropDownTreeHighlight`
+
+Gets or sets a value indicating whether to highlight the matches.
+
 ###  MinFilterLength `DropDownTreeFilter`
 
 Defines the minimum number of characters that must be typed before a filtering is made.
-
-## Methods
-
-###  GetViewStateValue
-
-#### Returns
-
-`Telerik.Web.UI.T` 
 

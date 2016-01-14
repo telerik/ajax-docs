@@ -15,13 +15,21 @@ This Clas defines the StyleSheetReference object.
 
 ## Properties
 
-###  Name `String`
-
-Gets or sets the name.
-
 ###  Assembly `String`
 
 Gets or sets the assembly.
+
+###  IsCommonCss `Boolean`
+
+Gets or sets the is common CSS.
+
+###  IsRequiredCss `Boolean`
+
+Gets or sets a value indicating whether this instance is required CSS.
+
+###  Name `String`
+
+Gets or sets the name.
 
 ###  OrderIndex `Int32`
 
@@ -31,12 +39,4 @@ Get or set the order index of the style sheet reference. The default is 0.
 ###  Path `String`
 
 Gets or sets the path.
-
-###  IsCommonCss `Boolean`
-
-Gets or sets the is common CSS.
-
-###  IsRequiredCss `Boolean`
-
-Gets or sets a value indicating whether this instance is required CSS.
 

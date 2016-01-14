@@ -35,38 +35,6 @@ Gets an object that can be used to synchronize access to the collection.
 
 ## Methods
 
-###  CopyTo
-
-Copies the elements of the collection
-            to an , starting at a particular 
-            index.
-
-#### Parameters
-
-#### array `System.Array`
-
-The one-dimensional  that is
-            the destination of the elements copied from .
-            The  must have zero-based indexing.
-
-#### index `System.Int32`
-
-The zero-based index in  at which
-            copying begins.
-
-#### Returns
-
-`System.Void` 
-
-###  GetEnumerator
-
-Returns an enumerator that iterates through a collection.
-
-#### Returns
-
-`System.Collections.IEnumerator` An  object that can be
-            used to iterate through the collection.
-
 ###  Add
 
 This method is for internal use only!
@@ -74,28 +42,6 @@ This method is for internal use only!
 #### Parameters
 
 #### hierarchicalIndex `System.String`
-
-#### Returns
-
-`System.Void` 
-
-###  Contains
-
-Determines whether the collection contains the specified item by providing its hierarchical index.
-
-#### Parameters
-
-#### hierarchicalIndex `System.String`
-
-The hierarchical index of the item.
-
-#### Returns
-
-`System.Boolean` Returns whethever the item is present in the collection
-
-###  Clear
-
-Clears all items from the collection.
 
 #### Returns
 
@@ -120,20 +66,6 @@ The hierarchical-index is based on sequential numbers of
 #### Returns
 
 `System.Void` 
-
-###  ContainsChildIndex
-
-Determines whether the collection contains the child index by providing a parent index.
-
-#### Parameters
-
-#### parentIndex `System.String`
-
-The parent index.
-
-#### Returns
-
-`System.Boolean` Returns a boolean property whether the index exists.
 
 ###  ChildIndexes
 
@@ -167,6 +99,82 @@ The index of the DetailTable.
 
 `Telerik.Web.UI.GridIndexCollection` The child indexes collection.
 
+###  Clear
+
+Clears all items from the collection.
+
+#### Returns
+
+`System.Void` 
+
+###  Contains
+
+Determines whether the collection contains the specified item by providing its hierarchical index.
+
+#### Parameters
+
+#### hierarchicalIndex `System.String`
+
+The hierarchical index of the item.
+
+#### Returns
+
+`System.Boolean` Returns whethever the item is present in the collection
+
+###  ContainsChildIndex
+
+Determines whether the collection contains the child index by providing a parent index.
+
+#### Parameters
+
+#### parentIndex `System.String`
+
+The parent index.
+
+#### Returns
+
+`System.Boolean` Returns a boolean property whether the index exists.
+
+###  CopyTo
+
+Copies the elements of the collection
+            to an , starting at a particular 
+            index.
+
+#### Parameters
+
+#### array `System.Array`
+
+The one-dimensional  that is
+            the destination of the elements copied from .
+            The  must have zero-based indexing.
+
+#### index `System.Int32`
+
+The zero-based index in  at which
+            copying begins.
+
+#### Returns
+
+`System.Void` 
+
+###  GetArrayList
+
+Persistence Framework need this method to get the internal list when restoring the state of the collection
+
+#### Returns
+
+`System.Collections.ArrayList` The internal ArrayList the GridIndexCollection is based on
+
+###  GetEnumerator
+
+Returns an enumerator that iterates through a collection.
+
+#### Returns
+
+`System.Collections.IEnumerator` An  object that can be
+            used to iterate through the collection.
+
 ###  RemoveChildIndexes
 
 Removes indexes from the collection of child indexes based on a provided parent index and detail table index.
@@ -184,12 +192,4 @@ The index of the DetailTable.
 #### Returns
 
 `System.Void` 
-
-###  GetArrayList
-
-Persistence Framework need this method to get the internal list when restoring the state of the collection
-
-#### Returns
-
-`System.Collections.ArrayList` The internal ArrayList the GridIndexCollection is based on
 

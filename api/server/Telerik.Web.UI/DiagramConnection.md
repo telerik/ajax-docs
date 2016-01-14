@@ -16,10 +16,6 @@ Defines the connections configuration.
 
 ## Properties
 
-###  Id `String`
-
-The unique identifier for a Connection.
-
 ###  ContentSettings `ConnectionContent`
 
 Defines the label displayed on the connection path.
@@ -32,33 +28,37 @@ Defines the editing behavior of the connections.
 
 Defines the editing behavior of the connections.
 
-###  Selectable `Boolean`
+###  EndCap `ConnectionEndCap`
 
-Defines the selection behavior of the connection.
+The end cap (arrow, head or decoration) of the connection.
 
-###  StrokeSettings `ConnectionStroke`
+###  FromSettings `ConnectionEndPoint`
 
-Defines the stroke configuration.
+Defines the settings for the source shape.
 
 ###  HoverSettings `ConnectionHover`
 
 Defines the hover configuration.
 
-###  StartCap `ConnectionStartCap`
+###  Id `String`
 
-The start cap (arrow, head or decoration) of the connection.
-
-###  EndCap `ConnectionEndCap`
-
-The end cap (arrow, head or decoration) of the connection.
+The unique identifier for a Connection.
 
 ###  PointsCollection `DiagramConnectionPointsCollection`
 
 Sets the intermediate points (in global coordinates) of the connection.
 
-###  FromSettings `ConnectionEndPoint`
+###  Selectable `Boolean`
 
-Defines the settings for the source shape.
+Defines the selection behavior of the connection.
+
+###  StartCap `ConnectionStartCap`
+
+The start cap (arrow, head or decoration) of the connection.
+
+###  StrokeSettings `ConnectionStroke`
+
+Defines the stroke configuration.
 
 ###  ToSettings `ConnectionEndPoint`
 

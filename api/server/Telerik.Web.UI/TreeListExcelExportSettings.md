@@ -16,9 +16,33 @@ RadTreeList Excel export settings
 
 ## Properties
 
+###  AlternatingItemStyle `TreeListExcelStyle`
+
+Excel export alternating item style
+
+###  ExpandCollapseCellStyle `TreeListExcelExpandCollapseCellStyle`
+
+Excel export expand/collapse cell style
+
+###  FooterItemStyle `TreeListExcelStyle`
+
+Excel export footer item style
+
 ###  Format `TreeListExcelFormat`
 
 Determines the Excel format used
+
+###  HeaderStyle `TreeListExcelStyle`
+
+Excel export header style
+
+###  ItemStyle `TreeListExcelStyle`
+
+Excel export item style
+
+###  PageBottomMargin `Unit`
+
+Determines the margin between the bottom of the page and the beginning of the page content
 
 ###  PageFooter `String`
 
@@ -28,22 +52,6 @@ Used to set the page footer of the exported worksheet
 
 Used to set the page header of the exported worksheet
 
-###  WorksheetName `String`
-
-Set the name of the worksheet
-
-###  ShowGridlines `Boolean`
-
-Determines whether the gridlines will be enabled in the worksheet
-
-###  PageTopMargin `Unit`
-
-Determines the margin between the top of the page and the beginning of the page content
-
-###  PageBottomMargin `Unit`
-
-Determines the margin between the bottom of the page and the beginning of the page content
-
 ###  PageLeftMargin `Unit`
 
 Determines the margin between the left side of the page and the beginning of the page content
@@ -52,35 +60,36 @@ Determines the margin between the left side of the page and the beginning of the
 
 Determines the margin between the right side of the page and the beginning of the page content
 
-###  RotatePaper `Boolean`
+###  PageTopMargin `Unit`
 
-This will swap the values of the PageWidth and PageHeight properties.
+Determines the margin between the top of the page and the beginning of the page content
 
 ###  PaperSize `PaperKind`
 
 Excel paper size
 
-###  ItemStyle `TreeListExcelStyle`
+###  RotatePaper `Boolean`
 
-Excel export item style
+This will swap the values of the PageWidth and PageHeight properties.
 
-###  AlternatingItemStyle `TreeListExcelStyle`
+###  ShowGridlines `Boolean`
 
-Excel export alternating item style
+Determines whether the gridlines will be enabled in the worksheet
 
-###  HeaderStyle `TreeListExcelStyle`
+###  WorksheetName `String`
 
-Excel export header style
-
-###  FooterItemStyle `TreeListExcelStyle`
-
-Excel export footer item style
-
-###  ExpandCollapseCellStyle `TreeListExcelExpandCollapseCellStyle`
-
-Excel export expand/collapse cell style
+Set the name of the worksheet
 
 ## Methods
+
+###  Dispose
+
+Performs application-defined tasks associated with freeing, releasing,
+            or resetting unmanaged resources.
+
+#### Returns
+
+`System.Void` 
 
 ###  GetPaperKindDimensions
 
@@ -98,31 +107,4 @@ PaperKind value to be converted to SizeF object
 #### Returns
 
 `System.Drawing.SizeF` 
-
-###  TrackViewState
-
-#### Returns
-
-`System.Void` 
-
-###  LoadViewState
-
-#### Returns
-
-`System.Void` 
-
-###  SaveViewState
-
-#### Returns
-
-`System.Object` 
-
-###  Dispose
-
-Performs application-defined tasks associated with freeing, releasing,
-            or resetting unmanaged resources.
-
-#### Returns
-
-`System.Void` 
 

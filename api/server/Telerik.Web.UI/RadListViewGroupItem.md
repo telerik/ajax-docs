@@ -17,6 +17,11 @@ Represents an item for the single group container
 
 ## Properties
 
+###  IsInEditMode `Boolean`
+
+Gets a value indicating whether the  item is in edit mode at the
+            moment.
+
 ###  ItemType `RadListViewItemType`
 
 Gets or sets the type of the item which represents enumeration and
@@ -25,11 +30,6 @@ Gets or sets the type of the item which represents enumeration and
 ###  OwnerListView `RadListView`
 
 Gets or sets the owner  of the item.
-
-###  IsInEditMode `Boolean`
-
-Gets a value indicating whether the  item is in edit mode at the
-            moment.
 
 ## Methods
 

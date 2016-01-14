@@ -15,9 +15,9 @@ Represents a helper type exposing information about paging in Telerik.Web.UI.Rad
 
 ## Properties
 
-###  DataSourceCount `Int32`
+###  AllowPaging `Boolean`
 
-Gets an integer value which indicates the total number of items in the resolved datasource of the control.
+Gets a boolean value which indicates whether paging is allowed in the RadTreeList control.
 
 ###  Count `Int32`
 
@@ -27,13 +27,9 @@ Gets an integer value which indicates the number of items in the current page.
 
 Gets an integer value which indicates the current page index of the RadTreeList control.
 
-###  PageSize `Int32`
+###  DataSourceCount `Int32`
 
-Gets an integer value which indicates the page size of the RadTreeList control.
-
-###  AllowPaging `Boolean`
-
-Gets a boolean value which indicates whether paging is allowed in the RadTreeList control.
+Gets an integer value which indicates the total number of items in the resolved datasource of the control.
 
 ###  FirstIndexInPage `Int32`
 
@@ -47,6 +43,10 @@ Gets a boolean value indicating whether the RadTreeList control is currently dis
 
 Gets a boolean value indicating whether the RadTreeList control is currently displaying its last page.
 
+###  IsPagingEnabled `Boolean`
+
+Gets a boolean value indicating whether paging is enabled in the current RadTreeList instance.
+
 ###  LastIndexInPage `Int32`
 
 Gets an integer value indicating the index of the current page's last item in the resolved datasource.
@@ -55,7 +55,7 @@ Gets an integer value indicating the index of the current page's last item in th
 
 Gets an integer value indicating the number of pages in the current RadTreeList instance.
 
-###  IsPagingEnabled `Boolean`
+###  PageSize `Int32`
 
-Gets a boolean value indicating whether paging is enabled in the current RadTreeList instance.
+Gets an integer value which indicates the page size of the RadTreeList control.
 

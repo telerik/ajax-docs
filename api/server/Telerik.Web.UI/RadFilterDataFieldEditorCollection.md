@@ -83,22 +83,6 @@ The zero-based index in array at which copying begins.
 
 `System.Void` 
 
-###  Remove
-
-Removes the first occurrence of a specific object from the collection.
-
-#### Parameters
-
-#### item `Telerik.Web.UI.RadFilterDataFieldEditor`
-
-The RadFilterDataFieldEditor to remove from the collection. 
-            The value can be a null reference (Nothing in Visual Basic) for reference types.
-
-#### Returns
-
-`System.Boolean` true if item is successfully removed; otherwise, false. 
-            This method also returns false if item was not found in the original collection.
-
 ###  GetEnumerator
 
 Returns an enumerator that iterates through the collection.
@@ -138,6 +122,22 @@ The RadFilterDataFieldEditor to insert into the list.
 #### Returns
 
 `System.Void` 
+
+###  Remove
+
+Removes the first occurrence of a specific object from the collection.
+
+#### Parameters
+
+#### item `Telerik.Web.UI.RadFilterDataFieldEditor`
+
+The RadFilterDataFieldEditor to remove from the collection. 
+            The value can be a null reference (Nothing in Visual Basic) for reference types.
+
+#### Returns
+
+`System.Boolean` true if item is successfully removed; otherwise, false. 
+            This method also returns false if item was not found in the original collection.
 
 ###  RemoveAt
 

@@ -24,7 +24,9 @@ Represents the footer item in Telerik.Web.UI.RadTreeList .
 
 Gets a value of type TreeListHierarchyIndex representing the nested level of the footer item.
 
-###  Item `TableCell`
+###  IsDataBinding `Boolean`
+
+Gets or sets a value indicating whether the control is currently being bound.
 
 ###  ItemType `TreeListItemType`
 
@@ -34,11 +36,27 @@ Gets a value from the TreeListItemType enumeration indicating what role the item
 
 Gets a reference to the owner RadTreeList object.
 
-###  IsDataBinding `Boolean`
-
-Gets or sets a value indicating whether the control is currently being bound.
-
 ## Methods
+
+###  FireCommandEvent
+
+Use this method to simulate item command event that bubbles to 
+             and can be handled automatically or in a
+            custom manner, handling .ItemCommand event.
+
+#### Parameters
+
+#### commandName `System.String`
+
+command to bubble, for example 'Page'
+
+#### commandArgument `System.Object`
+
+command argument, for example 'Next'
+
+#### Returns
+
+`System.Void` 
 
 ###  Initialize
 
@@ -63,34 +81,6 @@ Initializes the footer item.
 #### columns `System.Collections.Generic.IList{Telerik.Web.UI.TreeListColumn}`
 
 The columns to which the footer cells should be added.
-
-#### Returns
-
-`System.Void` 
-
-###  PrepareItemStyle
-
-Override this method to change the default logic for rendering the item
-
-#### Returns
-
-`System.Void` 
-
-###  FireCommandEvent
-
-Use this method to simulate item command event that bubbles to 
-             and can be handled automatically or in a
-            custom manner, handling .ItemCommand event.
-
-#### Parameters
-
-#### commandName `System.String`
-
-command to bubble, for example 'Page'
-
-#### commandArgument `System.Object`
-
-command argument, for example 'Next'
 
 #### Returns
 

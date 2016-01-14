@@ -23,34 +23,23 @@ Gets or sets the is initialized.
 
 ## Methods
 
-###  Initialize
+###  AreAssociated
 
-If the provider is created with code, put the initialization logic of the provider in this method.
-            Optionally you can set the IsInitialized property to true after the initialization finishes.
-            The  calls this method when the Provider property is set 
-            if the IsInitialized property of the provider returns false.
-
-#### Returns
-
-`System.Void` 
-
-###  Store
-
-Stores the combined web resources output for a given unique URL in cache.
+Checks whether the given unique key and URL are associated in cache.
 
 #### Parameters
 
+#### pageKey `System.String`
+
+The unique key with which the URL will be associated. The key is usually a unique identifier of a web page.
+
 #### resourceUid `System.String`
 
-The unqiue URL of the requested combination of web resources.
-
-#### output `System.String`
-
-The combined output of the requested web resources.
+The URL of the requested combination of web resources.
 
 #### Returns
 
-`System.Void` 
+`System.Boolean` True if the key and URL are associated in cache; false otherwise.
 
 ###  Associate
 
@@ -71,15 +60,11 @@ The URL of the requested combination of web resources.
 
 `System.Void` 
 
-###  AreAssociated
+###  Exists
 
-Checks whether the given unique key and URL are associated in cache.
+Checks whether there is an entry for the requested URL in the cache.
 
 #### Parameters
-
-#### pageKey `System.String`
-
-The unique key with which the URL will be associated. The key is usually a unique identifier of a web page.
 
 #### resourceUid `System.String`
 
@@ -87,7 +72,7 @@ The URL of the requested combination of web resources.
 
 #### Returns
 
-`System.Boolean` True if the key and URL are associated in cache; false otherwise.
+`System.Boolean` True if there is an entry in the cache; false otherwise.
 
 ###  Get
 
@@ -105,19 +90,16 @@ The URL of the requested combination of web resources.
 `System.String` The combined output of the requested web resources from the cache. 
             Returns null if there is no entry for the requested URL in the cache.
 
-###  Exists
+###  Initialize
 
-Checks whether there is an entry for the requested URL in the cache.
-
-#### Parameters
-
-#### resourceUid `System.String`
-
-The URL of the requested combination of web resources.
+If the provider is created with code, put the initialization logic of the provider in this method.
+            Optionally you can set the IsInitialized property to true after the initialization finishes.
+            The  calls this method when the Provider property is set 
+            if the IsInitialized property of the provider returns false.
 
 #### Returns
 
-`System.Boolean` True if there is an entry in the cache; false otherwise.
+`System.Void` 
 
 ###  Invalidate
 
@@ -137,6 +119,24 @@ The unique key with which URLs are associated.
 ###  Invalidate
 
 Clears the cache.
+
+#### Returns
+
+`System.Void` 
+
+###  Store
+
+Stores the combined web resources output for a given unique URL in cache.
+
+#### Parameters
+
+#### resourceUid `System.String`
+
+The unqiue URL of the requested combination of web resources.
+
+#### output `System.String`
+
+The combined output of the requested web resources.
 
 #### Returns
 

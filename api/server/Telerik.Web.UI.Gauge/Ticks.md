@@ -25,11 +25,11 @@ Gets or sets the color of the ticks.
 Gets or sets the size of the ticks. 
             This is the length of the line in pixels that is drawn to indicate the tick on the scale.
 
-###  Width `Double`
-
-Gets or sets the width of the ticks.
-
 ###  Visible `Boolean`
 
 Gets or sets a bool value indicating whether the ticks of the Gauge's scale will be visible.
+
+###  Width `Double`
+
+Gets or sets the width of the ticks.
 

@@ -21,49 +21,17 @@ Series appearance
 
 Determines the width of bars.
 
-###  Corners `Corners`
+###  Border `StyleBorder`
 
-Specifies the corners for background rectangle
+Specifies the border
 
-###  FillStyle `FillStyleSeries`
+###  Border `StyleBorder`
 
-Specifies the background property
+Specifies the border style
 
-###  PointShape `String`
+###  BubbleSize `Int32`
 
-Specifies the shape for point series
-
-###  PointDimentions `DimensionsPointMarker`
-
-Specifies the dimensions of points in point series
-
-###  PointRotationAngle `Single`
-
-Specifies the Rotation angle
-
-###  LegendDisplayMode `ChartSeriesLegendDisplayMode`
-
-Legend visualization mode
-
-###  ShowLabels `Boolean`
-
-Specifies whether the item labels should be shown or not.
-
-###  ShowLabelConnectors `Boolean`
-
-Specifies whether a line should be drawn between the label and the item.
-
-###  StartAngle `Double`
-
-Gets or sets the start angle of the pie. Zero angle is identical with the X axis direction.
-
-###  DiameterScale `Double`
-
-Gets or sets the pie's diameter length according to the size of the plot area.
-
-###  ExplodePercent `Int32`
-
-Gets or sets the explode percent of the exploded items.
+Default bubble size
 
 ###  CenterXOffset `Int32`
 
@@ -73,75 +41,99 @@ Specifies the x offset of the pie center.
 
 Specifies the y offset of the pie center.
 
-###  BubbleSize `Int32`
+###  Chart `Chart`
 
-Default bubble size
+Specifies chart style related to
 
-###  LabelAppearance `StyleSeriesItemLabel`
+###  Corners `Corners`
 
-Gets or sets the common settings for the series items labels
+Specifies the corners for background rectangle
 
-###  LineSeriesAppearance `StyleLineSeries`
+###  DiameterScale `Double`
 
-Line, Spline, Bezier series line style
-
-###  PointMark `StyleMarkerSeriesPoint`
-
-Series points appearance
-
-###  TextAppearance `StyleSeriesItemTextBlock`
-
-Gets or sets the common text settings for the series items
+Gets or sets the pie's diameter length according to the size of the plot area.
 
 ###  EmptyValue `EmptyValue`
 
 Empty value point mark
 
-###  Border `StyleBorder`
+###  ExplodePercent `Int32`
 
-Specifies the border
+Gets or sets the explode percent of the exploded items.
 
-###  Visible `Boolean`
+###  FillStyle `FillStyleSeries`
 
-Specifies visibility of series
-
-###  Border `StyleBorder`
-
-Specifies the border style
-
-###  Shadow `ShadowStyle`
-
-Specifies the shadow settings
-
-###  Visible `Boolean`
-
-Specifies visibility
+Specifies the background property
 
 ###  Item `Object`
 
 Gets property value by name
 
-###  Chart `Chart`
+###  LabelAppearance `StyleSeriesItemLabel`
 
-Specifies chart style related to
+Gets or sets the common settings for the series items labels
 
-###  ViewStateIgnoresCase `Boolean`
+###  LegendDisplayMode `ChartSeriesLegendDisplayMode`
 
-Gets if view sate should ignore case
+Legend visualization mode
+
+###  LineSeriesAppearance `StyleLineSeries`
+
+Line, Spline, Bezier series line style
+
+###  PointDimentions `DimensionsPointMarker`
+
+Specifies the dimensions of points in point series
+
+###  PointMark `StyleMarkerSeriesPoint`
+
+Series points appearance
+
+###  PointRotationAngle `Single`
+
+Specifies the Rotation angle
+
+###  PointShape `String`
+
+Specifies the shape for point series
+
+###  Shadow `ShadowStyle`
+
+Specifies the shadow settings
+
+###  ShowLabelConnectors `Boolean`
+
+Specifies whether a line should be drawn between the label and the item.
+
+###  ShowLabels `Boolean`
+
+Specifies whether the item labels should be shown or not.
+
+###  StartAngle `Double`
+
+Gets or sets the start angle of the pie. Zero angle is identical with the X axis direction.
+
+###  TextAppearance `StyleSeriesItemTextBlock`
+
+Gets or sets the common text settings for the series items
 
 ###  ViewState `StateBag`
 
 Sate bag to store view state content
 
+###  ViewStateIgnoresCase `Boolean`
+
+Gets if view sate should ignore case
+
+###  Visible `Boolean`
+
+Specifies visibility of series
+
+###  Visible `Boolean`
+
+Specifies visibility
+
 ## Methods
-
-###  Reset
-
-Reset to default settings
-
-#### Returns
-
-`System.Void` 
 
 ###  Clone
 
@@ -150,6 +142,22 @@ Cloned this object
 #### Returns
 
 `System.Object` New instance of StyleSeries class with the same fields as this one
+
+###  Clone
+
+Clone this object
+
+#### Returns
+
+`System.Object` Cloned object
+
+###  CloneState
+
+Makes a view state clone
+
+#### Returns
+
+`System.Web.UI.StateBag` StateBag
 
 ###  Dispose
 
@@ -165,35 +173,55 @@ true to release both managed and unmanaged resources; false to release only unma
 
 `System.Void` 
 
-###  TrackViewState
+###  Dispose
 
-Track ViewState
-
-#### Returns
-
-`System.Void` 
-
-###  LoadViewState
-
-Load data from ViewState
+Releases unmanaged and - optionally - managed resources
 
 #### Parameters
 
-#### savedState `System.Object`
+#### disposing `System.Boolean`
 
-ViewState with data
+true to release both managed and unmanaged resources; false to release only unmanaged resources.
 
 #### Returns
 
 `System.Void` 
 
-###  SaveViewState
+###  GetRealBounds
 
-Saved data to ViewState
+Calculate bounds of element depend on its rotation and previous dimensions
+
+#### Parameters
+
+#### dimensions `Telerik.Charting.Styles.Dimensions`
+
+Dimensions of element
+
+#### rotation `System.Nullable{System.Single}`
+
+Rotation angle
 
 #### Returns
 
-`System.Object` saved data
+`System.Drawing.RectangleF` 
+
+###  GetStyleProperty
+
+Gets property value of element by name
+
+#### Parameters
+
+#### element `System.Object`
+
+Element to get property
+
+#### propertyName `Telerik.Charting.Styles.StyleProperties`
+
+Property name
+
+#### Returns
+
+`System.Object` Property value of specified element
 
 ###  IsVisible
 
@@ -209,9 +237,91 @@ Element visibility to check
 
 `System.Boolean` Visibility of the specified element
 
+###  LoadViewState
+
+Load data from ViewState
+
+#### Parameters
+
+#### savedState `System.Object`
+
+ViewState with data
+
+#### Returns
+
+`System.Void` 
+
+###  LoadViewState
+
+Load data from ViewState
+
+#### Parameters
+
+#### savedState `System.Object`
+
+ViewState to load data
+
+#### Returns
+
+`System.Void` 
+
+###  LoadViewState
+
+Loads data from a view state
+
+#### Parameters
+
+#### state `System.Object`
+
+View state to load data from
+
+#### Returns
+
+`System.Void` 
+
+###  Reset
+
+Reset to default settings
+
+#### Returns
+
+`System.Void` 
+
 ###  Reset
 
 Reset settings to default
+
+#### Returns
+
+`System.Void` 
+
+###  SaveViewState
+
+Saved data to ViewState
+
+#### Returns
+
+`System.Object` saved data
+
+###  SaveViewState
+
+Save data to ViewState
+
+#### Returns
+
+`System.Object` Saved data
+
+###  SaveViewState
+
+Saves object data to a view state
+
+#### Returns
+
+`System.Object` Saved view state object
+
+###  SetDirty
+
+Sets the item dirty state
 
 #### Returns
 
@@ -279,94 +389,6 @@ Container's height
 
 `System.Void` 
 
-###  GetRealBounds
-
-Calculate bounds of element depend on its rotation and previous dimensions
-
-#### Parameters
-
-#### dimensions `Telerik.Charting.Styles.Dimensions`
-
-Dimensions of element
-
-#### rotation `System.Nullable{System.Single}`
-
-Rotation angle
-
-#### Returns
-
-`System.Drawing.RectangleF` 
-
-###  Clone
-
-Clone this object
-
-#### Returns
-
-`System.Object` Cloned object
-
-###  GetStyleProperty
-
-Gets property value of element by name
-
-#### Parameters
-
-#### element `System.Object`
-
-Element to get property
-
-#### propertyName `Telerik.Charting.Styles.StyleProperties`
-
-Property name
-
-#### Returns
-
-`System.Object` Property value of specified element
-
-###  Dispose
-
-Releases unmanaged and - optionally - managed resources
-
-#### Parameters
-
-#### disposing `System.Boolean`
-
-true to release both managed and unmanaged resources; false to release only unmanaged resources.
-
-#### Returns
-
-`System.Void` 
-
-###  TrackViewState
-
-Track ViewState
-
-#### Returns
-
-`System.Void` 
-
-###  LoadViewState
-
-Load data from ViewState
-
-#### Parameters
-
-#### savedState `System.Object`
-
-ViewState to load data
-
-#### Returns
-
-`System.Void` 
-
-###  SaveViewState
-
-Save data to ViewState
-
-#### Returns
-
-`System.Object` Saved data
-
 ###  Telerik.Charting.IChartingStateManager.LoadViewState
 
 Loads data from a view state
@@ -397,21 +419,21 @@ Tracks view state changes
 
 `System.Void` 
 
-###  CloneState
+###  TrackViewState
 
-Makes a view state clone
-
-#### Returns
-
-`System.Web.UI.StateBag` StateBag
-
-###  SaveViewState
-
-Saves object data to a view state
+Track ViewState
 
 #### Returns
 
-`System.Object` Saved view state object
+`System.Void` 
+
+###  TrackViewState
+
+Track ViewState
+
+#### Returns
+
+`System.Void` 
 
 ###  TrackViewState
 
@@ -420,34 +442,4 @@ Tracks view state changes
 #### Returns
 
 `System.Void` 
-
-###  LoadViewState
-
-Loads data from a view state
-
-#### Parameters
-
-#### state `System.Object`
-
-View state to load data from
-
-#### Returns
-
-`System.Void` 
-
-###  SetDirty
-
-Sets the item dirty state
-
-#### Returns
-
-`System.Void` 
-
-###  ToString
-
-ToString() override. Used in the properties grid to avoid object type showing.
-
-#### Returns
-
-`System.String` Empty string
 

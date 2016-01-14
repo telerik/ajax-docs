@@ -100,6 +100,15 @@ The index in  where copying begins.
 
 `System.Void` None.
 
+###  GetEnumerator
+
+Returns an enumerator that can iterate through 
+                  the  .
+
+#### Returns
+
+`Telerik.Web.UI.SpellCheckErrorEnumerator` None.
+
 ###  IndexOf
 
 Returns the index of a  in 
@@ -133,15 +142,6 @@ The  to insert.
 #### Returns
 
 `System.Void` None.
-
-###  GetEnumerator
-
-Returns an enumerator that can iterate through 
-                  the  .
-
-#### Returns
-
-`Telerik.Web.UI.SpellCheckErrorEnumerator` None.
 
 ###  Remove
 

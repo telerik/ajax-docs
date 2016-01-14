@@ -25,6 +25,32 @@ Sets or gets the current sorting order.
 
 ## Methods
 
+###  Parse
+
+Parses a string representation of the sort order and returns
+            GirdSortExpression.
+
+#### Returns
+
+`Telerik.Web.UI.GridSortExpression` 
+
+###  SetSortOrder
+
+Sets the sort order.The SortOrder paremeter should be either "Ascending", "Descending" or "None".
+
+#### Returns
+
+`System.Void` 
+
+###  SortOrderAsString
+
+This method gives the string representation of the sorting order. It can be
+            either "ASC" or "DESC"
+
+#### Returns
+
+`System.String` 
+
 ###  SortOrderAsString
 
 This method gives the string representation of the sorting order. It can be
@@ -42,48 +68,4 @@ Returns a GridSortOrder enumeration based on the string input. Takes either "ASC
 #### Returns
 
 `Telerik.Web.UI.GridSortOrder` 
-
-###  SortOrderAsString
-
-This method gives the string representation of the sorting order. It can be
-            either "ASC" or "DESC"
-
-#### Returns
-
-`System.String` 
-
-###  Equals
-
-#### Returns
-
-`System.Boolean` 
-
-###  GetHashCode
-
-#### Returns
-
-`System.Int32` 
-
-###  SetSortOrder
-
-Sets the sort order.The SortOrder paremeter should be either "Ascending", "Descending" or "None".
-
-#### Returns
-
-`System.Void` 
-
-###  ToString
-
-#### Returns
-
-`System.String` 
-
-###  Parse
-
-Parses a string representation of the sort order and returns
-            GirdSortExpression.
-
-#### Returns
-
-`Telerik.Web.UI.GridSortExpression` 
 

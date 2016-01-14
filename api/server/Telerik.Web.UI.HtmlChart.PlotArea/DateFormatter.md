@@ -16,11 +16,7 @@ A DateTime string formatter. This class provides configuration for each DateTime
 
 ## Properties
 
-###  SecondsFormat `String`
-
-Gets or Sets the format to be used when  is set to
-
-###  MinutesFormat `String`
+###  DaysFormat `String`
 
 Gets or Sets the format to be used when  is set to
 
@@ -28,15 +24,19 @@ Gets or Sets the format to be used when  is set to
 
 Gets or Sets the format to be used when  is set to
 
-###  DaysFormat `String`
-
-Gets or Sets the format to be used when  is set to
-
-###  WeeksFormat `String`
+###  MinutesFormat `String`
 
 Gets or Sets the format to be used when  is set to
 
 ###  MonthsFormat `String`
+
+Gets or Sets the format to be used when  is set to
+
+###  SecondsFormat `String`
+
+Gets or Sets the format to be used when  is set to
+
+###  WeeksFormat `String`
 
 Gets or Sets the format to be used when  is set to
 

@@ -17,39 +17,45 @@ An Telerik.Web.UI.PivotGrid.Core.Fields.IPivotFieldInfo that uses System.Func`2 
 
 ## Properties
 
-###  PropertyInfo `PropertyInfo`
+###  AllowedRoles `FieldRoles`
 
-Gets the .
+###  AutoGenerateField `Boolean`
+
+###  DataType `Type`
+
+###  DisplayName `String`
+
+###  Name `String`
+
+###  PreferredRole `FieldRoles`
 
 ###  PropertyAccess `Func`2`
 
 Gets the  for property access.
 
-###  Name `String`
+###  PropertyInfo `PropertyInfo`
 
-###  DisplayName `String`
-
-###  DataType `Type`
-
-###  PreferredRole `FieldRoles`
-
-###  AllowedRoles `FieldRoles`
-
-###  AutoGenerateField `Boolean`
+Gets the .
 
 ## Methods
+
+###  Equals
+
+#### Returns
+
+`System.Boolean` 
+
+###  GetHashCode
+
+#### Returns
+
+`System.Int32` 
 
 ###  GetValue
 
 #### Returns
 
 `System.Object` 
-
-###  SetValue
-
-#### Returns
-
-`System.Void` 
 
 ###  GetValue
 
@@ -64,6 +70,12 @@ The item.
 #### Returns
 
 `System.Object` 
+
+###  SetValue
+
+#### Returns
+
+`System.Void` 
 
 ###  SetValue
 
@@ -82,16 +94,4 @@ The field value.
 #### Returns
 
 `System.Void` 
-
-###  Equals
-
-#### Returns
-
-`System.Boolean` 
-
-###  GetHashCode
-
-#### Returns
-
-`System.Int32` 
 

@@ -20,6 +20,18 @@ This class defines the RadProgressContext object.
 
 Gets the current.
 
+###  CurrentOperationText `Object`
+
+Gets or sets the current operation text.
+
+###  OperationComplete `Boolean`
+
+Gets or sets the operation complete.
+
+###  PrimaryPercent `Object`
+
+Gets or sets the primary percent.
+
 ###  PrimaryTotal `Object`
 
 Gets or sets the primary total.
@@ -28,9 +40,9 @@ Gets or sets the primary total.
 
 Gets or sets the primary value.
 
-###  PrimaryPercent `Object`
+###  SecondaryPercent `Object`
 
-Gets or sets the primary percent.
+Gets or sets the secondary percent.
 
 ###  SecondaryTotal `Object`
 
@@ -40,29 +52,17 @@ Gets or sets the secondary total.
 
 Gets or sets the secondary value.
 
-###  SecondaryPercent `Object`
-
-Gets or sets the secondary percent.
-
-###  CurrentOperationText `Object`
-
-Gets or sets the current operation text.
-
 ###  Speed `Object`
 
 Gets or sets the speed.
-
-###  TimeEstimated `Object`
-
-Gets or sets the time estimated.
 
 ###  TimeElapsed `Object`
 
 Gets or sets the time elapsed.
 
-###  OperationComplete `Boolean`
+###  TimeEstimated `Object`
 
-Gets or sets the operation complete.
+Gets or sets the time estimated.
 
 ## Methods
 

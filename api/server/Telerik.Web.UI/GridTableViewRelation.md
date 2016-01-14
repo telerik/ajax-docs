@@ -20,8 +20,6 @@ A collection that stores Telerik.Web.UI.GridRelationFields objects.
 
 Represents the entry at the specified index of the .
 
-###  IsTrackingViewState `Boolean`
-
 ## Methods
 
 ###  Add
@@ -67,6 +65,14 @@ A  containing the objects to add to the collection.
 
 `System.Void` None.
 
+###  Clone
+
+Clones the  instance and returns a copy.
+
+#### Returns
+
+`Telerik.Web.UI.GridTableViewRelation` The cloned  instance.
+
 ###  Contains
 
 Gets a value indicating whether the 
@@ -102,6 +108,15 @@ The index in  where copying begins.
 
 `System.Void` None.
 
+###  GetEnumerator
+
+Returns an enumerator that can iterate through 
+                  the  .
+
+#### Returns
+
+`Telerik.Web.UI.GridRelationFieldsEnumerator` None.
+
 ###  IndexOf
 
 Returns the index of a  in 
@@ -136,15 +151,6 @@ The  to insert.
 
 `System.Void` None.
 
-###  GetEnumerator
-
-Returns an enumerator that can iterate through 
-                  the  .
-
-#### Returns
-
-`Telerik.Web.UI.GridRelationFieldsEnumerator` None.
-
 ###  Remove
 
 Removes a specific  from the 
@@ -159,30 +165,4 @@ The  to remove from the  .
 #### Returns
 
 `System.Void` None.
-
-###  LoadViewState
-
-#### Returns
-
-`System.Void` 
-
-###  SaveViewState
-
-#### Returns
-
-`System.Object` 
-
-###  TrackViewState
-
-#### Returns
-
-`System.Void` 
-
-###  Clone
-
-Clones the  instance and returns a copy.
-
-#### Returns
-
-`Telerik.Web.UI.GridTableViewRelation` The cloned  instance.
 

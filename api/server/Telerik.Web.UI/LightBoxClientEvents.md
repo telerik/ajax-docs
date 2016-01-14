@@ -16,31 +16,31 @@ RadLightBox Client Events
 
 ## Properties
 
-###  OnLoad `String`
+###  OnClosed `String`
 
-This client event will be fired when the RadLightBox client component is initializing.
+This client event will be fired when the RadLightBox popup is closed.
 
 ###  OnClosing `String`
 
 This client event will be fired when closing the RadLightBox popup.
 
-###  OnClosed `String`
+###  OnDestroying `String`
 
-This client event will be fired when the RadLightBox popup is closed.
+This client event fires when the client object is about to be destroyed.
 
-###  OnShowing `String`
+###  OnLoad `String`
 
-This client event will be fired when the RadLightBox popup is opening.
-
-###  OnShowed `String`
-
-This client event will be fired when the RadLightBox popup is opened.
+This client event will be fired when the RadLightBox client component is initializing.
 
 ###  OnNavigating `String`
 
 This client event fires when the user navigates out of the current page.
 
-###  OnDestroying `String`
+###  OnShowed `String`
 
-This client event fires when the client object is about to be destroyed.
+This client event will be fired when the RadLightBox popup is opened.
+
+###  OnShowing `String`
+
+This client event will be fired when the RadLightBox popup is opening.
 

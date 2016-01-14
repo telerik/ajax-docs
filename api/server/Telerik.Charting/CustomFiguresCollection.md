@@ -16,59 +16,31 @@ Custom figures collection
 
 ## Properties
 
-###  List `IList`1`
+###  Count `Int32`
 
-Items list
+Gets items count in collection
 
 ###  First `T`
 
 Link to first item in collection
 
-###  Last `T`
+###  IsReadOnly `Boolean`
 
-Link to last item in collection
+Gets true if collection is read-only
 
 ###  Item `T`
 
 Gets the collection item at given index
 
-###  Count `Int32`
+###  Last `T`
 
-Gets items count in collection
+Link to last item in collection
 
-###  IsReadOnly `Boolean`
+###  List `IList`1`
 
-Gets true if collection is read-only
+Items list
 
 ## Methods
-
-###  GetFigure
-
-Gets or sets a custom figures collection item.
-
-#### Parameters
-
-#### index `System.Int32`
-
-Index to get figure
-
-#### Returns
-
-`Telerik.Charting.CustomFigure` Figure at specified index
-
-###  GetFigure
-
-Gets or sets a custom figures collection item.
-
-#### Parameters
-
-#### name `System.String`
-
-Name of figure to get
-
-#### Returns
-
-`Telerik.Charting.CustomFigure` Figure with specified name
 
 ###  Add
 
@@ -84,108 +56,6 @@ Figure for adding
 
 `System.Void` 
 
-###  AddRange
-
-Adds an array of figure items to the figures collection.
-
-#### Parameters
-
-#### figure `Telerik.Charting.CustomFigure`
-
-Figures for adding
-
-#### Returns
-
-`System.Void` 
-
-###  Contains
-
-Indicates whether the specified figure item exists in the collection.
-
-#### Parameters
-
-#### figureName `System.String`
-
-Figure name
-
-#### Returns
-
-`System.Boolean` Whether the specified figure item exists in the collection or not
-
-###  IndexOf
-
-Returns the index of the specified figure item.
-
-#### Parameters
-
-#### figureName `System.String`
-
-Name of figure
-
-#### Returns
-
-`System.Int32` Index of figure with specified name
-
-###  Remove
-
-Removes figure with specified name
-
-#### Parameters
-
-#### figureName `System.String`
-
-Name of figure
-
-#### Returns
-
-`System.Void` 
-
-###  IndexOf
-
-Item index in collection
-
-#### Parameters
-
-#### item ``0`
-
-Item to get index of
-
-#### Returns
-
-`System.Int32` Index
-
-###  Insert
-
-Inserts item at the given index
-
-#### Parameters
-
-#### index `System.Int32`
-
-Index
-
-#### item ``0`
-
-Item to insert
-
-#### Returns
-
-`System.Void` 
-
-###  RemoveAt
-
-Removes item from collection at given index
-
-#### Parameters
-
-#### index `System.Int32`
-
-Index to remove at
-
-#### Returns
-
-`System.Void` 
-
 ###  Add
 
 Adds new item in collection
@@ -195,6 +65,20 @@ Adds new item in collection
 #### item ``0`
 
 Item to add
+
+#### Returns
+
+`System.Void` 
+
+###  AddRange
+
+Adds an array of figure items to the figures collection.
+
+#### Parameters
+
+#### figure `Telerik.Charting.CustomFigure`
+
+Figures for adding
 
 #### Returns
 
@@ -221,6 +105,20 @@ Clears collection
 #### Returns
 
 `System.Void` 
+
+###  Contains
+
+Indicates whether the specified figure item exists in the collection.
+
+#### Parameters
+
+#### figureName `System.String`
+
+Figure name
+
+#### Returns
+
+`System.Boolean` Whether the specified figure item exists in the collection or not
 
 ###  Contains
 
@@ -255,20 +153,6 @@ The zero-based index in array at which copying begins
 
 `System.Void` 
 
-###  Remove
-
-Removes item from collection
-
-#### Parameters
-
-#### item ``0`
-
-Item to remove
-
-#### Returns
-
-`System.Boolean` True in case of success
-
 ###  GetEnumerator
 
 Returns an enumerator that iterates through the System.Collections.Generic.List>T<.
@@ -276,6 +160,80 @@ Returns an enumerator that iterates through the System.Collections.Generic.List>
 #### Returns
 
 `System.Collections.Generic.IEnumerator`1` A System.Collections.Generic.List>T<.Enumerator for the System.Collections.Generic.List>T<.
+
+###  GetFigure
+
+Gets or sets a custom figures collection item.
+
+#### Parameters
+
+#### index `System.Int32`
+
+Index to get figure
+
+#### Returns
+
+`Telerik.Charting.CustomFigure` Figure at specified index
+
+###  GetFigure
+
+Gets or sets a custom figures collection item.
+
+#### Parameters
+
+#### name `System.String`
+
+Name of figure to get
+
+#### Returns
+
+`Telerik.Charting.CustomFigure` Figure with specified name
+
+###  IndexOf
+
+Returns the index of the specified figure item.
+
+#### Parameters
+
+#### figureName `System.String`
+
+Name of figure
+
+#### Returns
+
+`System.Int32` Index of figure with specified name
+
+###  IndexOf
+
+Item index in collection
+
+#### Parameters
+
+#### item ``0`
+
+Item to get index of
+
+#### Returns
+
+`System.Int32` Index
+
+###  Insert
+
+Inserts item at the given index
+
+#### Parameters
+
+#### index `System.Int32`
+
+Index
+
+#### item ``0`
+
+Item to insert
+
+#### Returns
+
+`System.Void` 
 
 ###  LoadViewState
 
@@ -291,31 +249,17 @@ View state to load from
 
 `System.Void` 
 
-###  SaveViewState
+###  OnClear
 
-Saves collection to a view state
-
-#### Returns
-
-`System.Object` Saved state bag object
-
-###  SetDirty
-
-Sets is item in the dirty state
+Before collection clearing event
 
 #### Returns
 
 `System.Void` 
 
-###  SetItemDirty
+###  OnClearComplete
 
-Marks collection item dirty
-
-#### Parameters
-
-#### item ``0`
-
-Item to mark
+Collection after clean event
 
 #### Returns
 
@@ -393,22 +337,6 @@ Value to insert
 
 `System.Void` 
 
-###  OnClear
-
-Before collection clearing event
-
-#### Returns
-
-`System.Void` 
-
-###  OnClearComplete
-
-Collection after clean event
-
-#### Returns
-
-`System.Void` 
-
 ###  PopulateFromXml
 
 Populates collection from XML element
@@ -423,11 +351,75 @@ XmlElement to import from
 
 `System.Void` 
 
-###  ToString
+###  Remove
 
-ToString() override. Used in the properties grid to avoid object type showing.
+Removes figure with specified name
+
+#### Parameters
+
+#### figureName `System.String`
+
+Name of figure
 
 #### Returns
 
-`System.String` Empty string
+`System.Void` 
+
+###  Remove
+
+Removes item from collection
+
+#### Parameters
+
+#### item ``0`
+
+Item to remove
+
+#### Returns
+
+`System.Boolean` True in case of success
+
+###  RemoveAt
+
+Removes item from collection at given index
+
+#### Parameters
+
+#### index `System.Int32`
+
+Index to remove at
+
+#### Returns
+
+`System.Void` 
+
+###  SaveViewState
+
+Saves collection to a view state
+
+#### Returns
+
+`System.Object` Saved state bag object
+
+###  SetDirty
+
+Sets is item in the dirty state
+
+#### Returns
+
+`System.Void` 
+
+###  SetItemDirty
+
+Marks collection item dirty
+
+#### Parameters
+
+#### item ``0`
+
+Item to mark
+
+#### Returns
+
+`System.Void` 
 

@@ -7,6 +7,7 @@ description: Telerik.Web.UI.Calendar.Collections.DateTimeCollection
 # Telerik.Web.UI.Calendar.Collections.DateTimeCollection
 
 Collection containing dates of type Telerik.Web.UI.RadDate .
+            Used in http://docs.telerik.com/devtools/aspnet-ajax/controls/calendar/functionality/date-selection Date Selectionfunctionality
 
 ## Inheritance Hierarchy
 
@@ -41,61 +42,16 @@ The RadDate object to add to the collection.
 
 `System.Int32` 
 
-###  IndexOf
+###  AddRange
 
-Returns a zero based index of a DateTime object depending on the passed index.
-
-#### Parameters
-
-#### inputItem `System.Object`
-
-The zero-based index, DateTime object or the date represented by  the searched DateTime object.
-
-#### Returns
-
-`System.Int32` A zero based index of the DateTime object in the collection, or -1 if the DateTime object is not found.
-
-###  Insert
-
-Adds a DateTime object in the collection at the specified index.
+Adds the elements of the specified collection to the end of the .
 
 #### Parameters
 
-#### insertIndex `System.Int32`
+#### inputItems `Telerik.Web.UI.RadDate`
 
-The index after which the DateTime object is inserted.
-
-#### inputItem `Telerik.Web.UI.RadDate`
-
-The DateTime object to insert.
-
-#### Returns
-
-`System.Void` 
-
-###  Remove
-
-Deletes a DateTime object from the collection.
-
-#### Parameters
-
-#### inputItem `Telerik.Web.UI.RadDate`
-
-The DateTime object to remove.
-
-#### Returns
-
-`System.Void` 
-
-###  RemoveAt
-
-Deletes the DateTime object from the collection at the specified index.
-
-#### Parameters
-
-#### index `System.Int32`
-
-The index in collection at which the DateTime object will be deleted.
+The collection whose  elements should be added 
+            to the end of the .
 
 #### Returns
 
@@ -108,6 +64,22 @@ Removes all DateTime objects in the collection of CalendarDays.
 #### Returns
 
 `System.Void` 
+
+###  Clone
+
+Clones the  instance.
+
+#### Returns
+
+`Telerik.Web.UI.Calendar.Collections.DateTimeCollection` 
+
+###  CloneInner
+
+Clones the inner  collection.
+
+#### Returns
+
+`System.Collections.ArrayList` 
 
 ###  Contains
 
@@ -181,59 +153,61 @@ A 32-bit integer that represents the index in array at which copying begins.
 
 `System.Void` 
 
-###  CloneInner
+###  IndexOf
 
-Clones the inner  collection.
+Returns a zero based index of a DateTime object depending on the passed index.
 
-#### Returns
+#### Parameters
 
-`System.Collections.ArrayList` 
+#### inputItem `System.Object`
 
-###  Clone
-
-Clones the  instance.
+The zero-based index, DateTime object or the date represented by  the searched DateTime object.
 
 #### Returns
 
-`Telerik.Web.UI.Calendar.Collections.DateTimeCollection` 
+`System.Int32` A zero based index of the DateTime object in the collection, or -1 if the DateTime object is not found.
 
-###  Reverse
+###  Insert
 
-Reverses the order of the elements in the entire collection.
+Adds a DateTime object in the collection at the specified index.
 
-#### Remarks
-Please refer to  for details.
+#### Parameters
+
+#### insertIndex `System.Int32`
+
+The index after which the DateTime object is inserted.
+
+#### inputItem `Telerik.Web.UI.RadDate`
+
+The DateTime object to insert.
 
 #### Returns
 
 `System.Void` 
 
-###  ToArray
+###  Remove
 
-Copies the elements of DateTimeCollection to a new
-             of  elements.
-
-#### Remarks
-Please refer to  for details.
-
-#### Returns
-
-`System.DateTime[]` A one-dimensional  of 
-            elements containing copies of the elements of the .
-
-###  SelectRange
-
-Selects a range of dates from start to end date.
+Deletes a DateTime object from the collection.
 
 #### Parameters
 
-#### fromDate `System.DateTime`
+#### inputItem `Telerik.Web.UI.RadDate`
 
-The From date.
+The DateTime object to remove.
 
-#### toDate `System.DateTime`
+#### Returns
 
-The To date.
+`System.Void` 
+
+###  RemoveAt
+
+Deletes the DateTime object from the collection at the specified index.
+
+#### Parameters
+
+#### index `System.Int32`
+
+The index in collection at which the DateTime object will be deleted.
 
 #### Returns
 
@@ -257,16 +231,30 @@ The number of elements to remove.
 
 `System.Void` 
 
-###  AddRange
+###  Reverse
 
-Adds the elements of the specified collection to the end of the .
+Reverses the order of the elements in the entire collection.
+
+#### Remarks
+Please refer to  for details.
+
+#### Returns
+
+`System.Void` 
+
+###  SelectRange
+
+Selects a range of dates from start to end date.
 
 #### Parameters
 
-#### inputItems `Telerik.Web.UI.RadDate`
+#### fromDate `System.DateTime`
 
-The collection whose  elements should be added 
-            to the end of the .
+The From date.
+
+#### toDate `System.DateTime`
+
+The To date.
 
 #### Returns
 
@@ -330,4 +318,17 @@ The  implementation to use when comparing elements.-or-A null reference to use t
 #### Returns
 
 `System.Void` 
+
+###  ToArray
+
+Copies the elements of DateTimeCollection to a new
+             of  elements.
+
+#### Remarks
+Please refer to  for details.
+
+#### Returns
+
+`System.DateTime[]` A one-dimensional  of 
+            elements containing copies of the elements of the .
 

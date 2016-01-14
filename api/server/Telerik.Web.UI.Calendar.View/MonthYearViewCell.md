@@ -26,11 +26,3 @@ Gets the type of cell which determines the rendered cell in the .
 
 Gets the owner .
 
-## Methods
-
-###  Initialize
-
-#### Returns
-
-`System.Void` 
-

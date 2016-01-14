@@ -15,13 +15,13 @@ This Class implements the ChunkMetaData object, its fields and constructors.
 
 ## Properties
 
-###  UploadID `String`
-
-Gets or sets the upload ID.
-
 ###  ChunkIndex `Int32`
 
 Gets or sets the ChunkIndex.
+
+###  IsSingleChunkUpload `Boolean`
+
+Gets or sets the value that shows if the upload is made within a single chunk.
 
 ###  TotalChunks `Int32`
 
@@ -31,7 +31,7 @@ Gets or sets the total chunks count.
 
 Gets or sets the total size of the file.
 
-###  IsSingleChunkUpload `Boolean`
+###  UploadID `String`
 
-Gets or sets the value that shows if the upload is made within a single chunk.
+Gets or sets the upload ID.
 

@@ -19,11 +19,11 @@ Represents an entity that describes current IRadFilterableContainer container fi
 
 Collection of all filterable fields
 
-###  SupportedGroupTypes `IList`1`
-
-Collection of all group operations that IRadFilterableContainer supports
-
 ###  SupportedFilterFunctions `IList`1`
 
 Collection of all filter functions that IRadFilterableContainer supports
+
+###  SupportedGroupTypes `IList`1`
+
+Collection of all group operations that IRadFilterableContainer supports
 

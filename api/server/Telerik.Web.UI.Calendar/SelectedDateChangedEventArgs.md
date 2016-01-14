@@ -16,11 +16,11 @@ Provides data for the SelectedDateChanged event of the DatePicker control.
 
 ## Properties
 
-###  OldDate `Nullable`1`
-
-Gets the previously selected date.
-
 ###  NewDate `Nullable`1`
 
 Gets the newly selected date.
+
+###  OldDate `Nullable`1`
+
+Gets the previously selected date.
 

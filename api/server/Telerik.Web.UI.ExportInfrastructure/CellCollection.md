@@ -15,10 +15,6 @@ EI Cell Collection
 
 ## Properties
 
-###  Table `Table`
-
-Provides a reference to the parent Table element
-
 ###  Count `Int32`
 
 Returns the total number of populated cells
@@ -35,7 +31,25 @@ Gets/Sets a cell object by given Excel-style index. If no such cell exists, it w
 
 Gets/Sets a cell object by given Point value. If no such cell exists, it will be created automatically.
 
+###  Table `Table`
+
+Provides a reference to the parent Table element
+
 ## Methods
+
+###  ChangeCellIndex
+
+Changing the cell index of an existing cell is not supported publicly because this requires changing
+
+#### Parameters
+
+#### cell `Telerik.Web.UI.ExportInfrastructure.Cell`
+
+#### newIndex `System.Drawing.Point`
+
+#### Returns
+
+`System.Void` 
 
 ###  GetEnumerator
 
@@ -52,18 +66,4 @@ Method to get the enumerator of the collection
 #### Returns
 
 `System.Collections.IEnumerator` 
-
-###  ChangeCellIndex
-
-Changing the cell index of an existing cell is not supported publicly because this requires changing
-
-#### Parameters
-
-#### cell `Telerik.Web.UI.ExportInfrastructure.Cell`
-
-#### newIndex `System.Drawing.Point`
-
-#### Returns
-
-`System.Void` 
 

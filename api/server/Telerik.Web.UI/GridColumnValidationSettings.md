@@ -16,9 +16,17 @@ The class containing properties associated with the columns' validation base on 
 
 ## Properties
 
+###  EnableModelErrorMessageValidation `Boolean`
+
+Gets or sets whether ModelErrorMessage control will be generated next to the column editor.
+
 ###  EnableRequiredFieldValidation `Boolean`
 
 Gets or sets whether RequiredFieldValidator control will be generated next to the column editor.
+
+###  ModelErrorMessage `ModelErrorMessage`
+
+Gets the ModelErrorMessage control which will be generated next to the column editor.
 
 ###  RenderValidatorBeforeEditor `Boolean`
 
@@ -27,14 +35,6 @@ Gets or sets whether RequiredFieldValidator control will be rendered before or a
 ###  RequiredFieldValidator `RequiredFieldValidator`
 
 Gets the RequiredFieldValidator control which will be generated next to the column editor.
-
-###  EnableModelErrorMessageValidation `Boolean`
-
-Gets or sets whether ModelErrorMessage control will be generated next to the column editor.
-
-###  ModelErrorMessage `ModelErrorMessage`
-
-Gets the ModelErrorMessage control which will be generated next to the column editor.
 
 ## Methods
 
@@ -45,10 +45,4 @@ Clean up used resources.
 #### Returns
 
 `System.Void` 
-
-###  GetViewStateValue
-
-#### Returns
-
-`Telerik.Web.UI.T` 
 

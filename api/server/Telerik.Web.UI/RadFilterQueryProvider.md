@@ -15,6 +15,16 @@ Represents a base class for all query providers in Telerik.Web.UI.RadFilter .
 
 ## Properties
 
+###  OnExpressionEvaluated `Action`1`
+
+Gets\sets a delegate that will be called after every expression evaluation.
+            The property could be used to alter the result of the evaluation by changing
+            the values or the format based on the expression.
+
+###  Result `String`
+
+Gets string value representing the result from the processed filter expression.
+
 ###  SupportedFilterFunctions `IList`1`
 
 Gets a collection of the RadFilterFunction values supported by the current query provider.
@@ -23,32 +33,7 @@ Gets a collection of the RadFilterFunction values supported by the current query
 
 Gets a collection of the RadFilterGroupOperation supported by the current query provider.
 
-###  Result `String`
-
-Gets string value representing the result from the processed filter expression.
-
-###  OnExpressionEvaluated `Action`1`
-
-Gets\sets a delegate that will be called after every expression evaluation.
-            The property could be used to alter the result of the evaluation by changing
-            the values or the format based on the expression.
-
 ## Methods
-
-###  ProcessGroup
-
-Processes the passed RadFilterGroupExpression to create the expressions for
-            filtering .
-
-#### Parameters
-
-#### rootGroup `Telerik.Web.UI.RadFilterGroupExpression`
-
-The RadFilterGroupExpression to process internally.
-
-#### Returns
-
-`System.Void` 
 
 ###  IsValidFilterFunction
 
@@ -79,4 +64,19 @@ A member of the RadFilterGroupOperation representing a group operation
 #### Returns
 
 `System.Boolean` true if the filter function is among the supported operations; otherwise returns false.
+
+###  ProcessGroup
+
+Processes the passed RadFilterGroupExpression to create the expressions for
+            filtering .
+
+#### Parameters
+
+#### rootGroup `Telerik.Web.UI.RadFilterGroupExpression`
+
+The RadFilterGroupExpression to process internally.
+
+#### Returns
+
+`System.Void` 
 

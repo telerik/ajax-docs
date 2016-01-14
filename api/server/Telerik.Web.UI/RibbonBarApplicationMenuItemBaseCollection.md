@@ -30,6 +30,20 @@ The item.
 
 `System.Void` 
 
+###  AddRange
+
+Adds the range.
+
+#### Parameters
+
+#### collection `System.Collections.Generic.IEnumerable{Telerik.Web.UI.RibbonBarApplicationMenuItemBase}`
+
+The collection.
+
+#### Returns
+
+`System.Void` 
+
 ###  Insert
 
 Inserts the specified index.
@@ -43,20 +57,6 @@ The index.
 #### item `Telerik.Web.UI.RibbonBarApplicationMenuItemBase`
 
 The item.
-
-#### Returns
-
-`System.Void` 
-
-###  AddRange
-
-Adds the range.
-
-#### Parameters
-
-#### collection `System.Collections.Generic.IEnumerable{Telerik.Web.UI.RibbonBarApplicationMenuItemBase}`
-
-The collection.
 
 #### Returns
 

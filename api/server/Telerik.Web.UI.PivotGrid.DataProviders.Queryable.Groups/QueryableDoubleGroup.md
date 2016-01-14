@@ -17,10 +17,6 @@ Used for internal grouping by numeric ranges.
 
 ## Properties
 
-###  Start `Double`
-
-Gets the start part of the group.
-
 ###  End `Double`
 
 Gets the end part of the group.
@@ -28,4 +24,8 @@ Gets the end part of the group.
 ###  IsValid `Boolean`
 
 Gets or sets a value indicating whether this instance is valid.
+
+###  Start `Double`
+
+Gets the start part of the group.
 

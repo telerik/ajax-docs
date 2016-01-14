@@ -22,16 +22,16 @@ Renders OrgChartGroupItem.
 
 ## Properties
 
-###  EnableCollapsing `Boolean`
-
-Gets or sets if collapsing is enabled.
-
 ###  Collapsed `Boolean`
 
 Gets or sets the Node collapsed state
 
 #### Remarks
 Determines what CSSClass to render on the Expand/Collapse Node
+
+###  EnableCollapsing `Boolean`
+
+Gets or sets if collapsing is enabled.
 
 ###  HasNodes `Boolean`
 

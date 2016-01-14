@@ -17,11 +17,11 @@ Telerik.Web.UI.GridItemEventInfo passed when Telerik.Web.UI.GridTableView initia
 
 ## Properties
 
-###  PagingManager `GridPagingManager`
-
-Gets the  holding values associated with the paging and its current state.
-
 ###  EventName `String`
 
 Gets the name of the event.
+
+###  PagingManager `GridPagingManager`
+
+Gets the  holding values associated with the paging and its current state.
 

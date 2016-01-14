@@ -16,9 +16,18 @@ Represents a directory item in the FileBrowser control.
 
 ## Properties
 
-###  Path `String`
+###  Attributes `NameValueCollection`
 
-Gets the full virtual path to the directory item.
+Gets or sets a string array containing custom values which can be used on the client when 
+            customizing the FileBrowser control.
+
+###  Directories `DirectoryItem[]`
+
+Gets a DirectoryItem array containing all child directory items.
+
+###  Files `FileItem[]`
+
+Gets a FileItem array containing all child file items.
 
 ###  FullPath `String`
 
@@ -30,26 +39,17 @@ Gets the virtual location of the directory item. When the item is not root, the 
             of this property should be string.Empty. The FileBrowser control recursively combines the names 
             of all parent directory items in order to get the full virtual path of the item.
 
-###  Directories `DirectoryItem[]`
+###  Name `String`
 
-Gets a DirectoryItem array containing all child directory items.
+Gets the name of the file item. The value of this property will be displayed in the FileBrowser control.
 
-###  Files `FileItem[]`
+###  Path `String`
 
-Gets a FileItem array containing all child file items.
-
-###  Attributes `NameValueCollection`
-
-Gets or sets a string array containing custom values which can be used on the client when 
-            customizing the FileBrowser control.
+Gets the full virtual path to the directory item.
 
 ###  Path `String`
 
 Gets the full virtual path to the file/directory item.
-
-###  Name `String`
-
-Gets the name of the file item. The value of this property will be displayed in the FileBrowser control.
 
 ###  Permissions `PathPermissions`
 
@@ -69,25 +69,19 @@ Clears the Directories array. Can be used when building the directory list in Li
 
 `System.Void` 
 
-###  Serialize
+###  RemoveLastSeparator
 
-Serializes the directory item into a javascript array. This method should be overridden only when developing 
-            a custom FileBrowser control.
-
-#### Parameters
-
-#### writer `System.IO.StringWriter`
-
-a StringWriter used as a target for the serialization.
+Utility method used when serializing. Removes the last javascript array separator from the underlying
+            StringBuilder of writer.
 
 #### Returns
 
 `System.Void` 
 
-###  SerializeContent
+###  Serialize
 
-Serializes the children of the directory item as a javascript array. 
-            Recursively calls the Serialize methods of all child objects.
+Serializes the directory item into a javascript array. This method should be overridden only when developing 
+            a custom FileBrowser control.
 
 #### Parameters
 
@@ -114,6 +108,33 @@ a StringWriter used as a target for the serialization.
 
 `System.Void` 
 
+###  SerializeAttributes
+
+Serializes the Attributes array.
+
+#### Parameters
+
+#### writer `System.IO.StringWriter`
+
+#### Returns
+
+`System.Void` 
+
+###  SerializeContent
+
+Serializes the children of the directory item as a javascript array. 
+            Recursively calls the Serialize methods of all child objects.
+
+#### Parameters
+
+#### writer `System.IO.StringWriter`
+
+a StringWriter used as a target for the serialization.
+
+#### Returns
+
+`System.Void` 
+
 ###  WriteJavascriptString
 
 Utility method used when serializing. Escapes a string for javascript.
@@ -125,27 +146,6 @@ Utility method used when serializing. Escapes a string for javascript.
 ###  WriteSeparator
 
 Utility method used when serializing. Writes a javascript array separator.
-
-#### Returns
-
-`System.Void` 
-
-###  RemoveLastSeparator
-
-Utility method used when serializing. Removes the last javascript array separator from the underlying
-            StringBuilder of writer.
-
-#### Returns
-
-`System.Void` 
-
-###  SerializeAttributes
-
-Serializes the Attributes array.
-
-#### Parameters
-
-#### writer `System.IO.StringWriter`
 
 #### Returns
 

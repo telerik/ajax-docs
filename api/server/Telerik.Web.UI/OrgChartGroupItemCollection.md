@@ -40,6 +40,28 @@ The added Item
 
 `System.Void` 
 
+###  AddRange
+
+Add an IEnumerable of GroupItems to the OrgChartGroupItemCollection.
+
+#### Parameters
+
+#### collection `System.Collections.Generic.IEnumerable{Telerik.Web.UI.OrgChartGroupItem}`
+
+IEnumerable ofGroupItems
+
+#### Returns
+
+`System.Void` 
+
+###  Clear
+
+Remove all GroupItems in the collection.
+
+#### Returns
+
+`System.Void` 
+
 ###  Insert
 
 Insert a new Item to the OrgChartGroupItemCollection on a specific position.
@@ -53,20 +75,6 @@ Integer position to insert at
 #### item `Telerik.Web.UI.OrgChartGroupItem`
 
 The added GroupItem
-
-#### Returns
-
-`System.Void` 
-
-###  AddRange
-
-Add an IEnumerable of GroupItems to the OrgChartGroupItemCollection.
-
-#### Parameters
-
-#### collection `System.Collections.Generic.IEnumerable{Telerik.Web.UI.OrgChartGroupItem}`
-
-IEnumerable ofGroupItems
 
 #### Returns
 
@@ -145,14 +153,6 @@ Integer index - the starting point of the range
 #### count `System.Int32`
 
 Integer count - the size of the range
-
-#### Returns
-
-`System.Void` 
-
-###  Clear
-
-Remove all GroupItems in the collection.
 
 #### Returns
 

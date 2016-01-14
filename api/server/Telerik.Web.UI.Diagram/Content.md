@@ -32,6 +32,10 @@ The font family of the shape content text.
 
 The font size of the shape content text.
 
+###  Html `String`
+
+Define rich-text content using Html syntax
+
 ###  Template `String`
 
 The template which renders the labels.The fields which can be used in the template are:
@@ -39,8 +43,4 @@ The template which renders the labels.The fields which can be used in the templa
 ###  Text `String`
 
 The text displayed in the shape.
-
-###  Html `String`
-
-Define rich-text content using Html syntax
 

@@ -15,14 +15,6 @@ RadStatePersisterManager setting object
 
 ## Properties
 
-###  SettingType `PersistenceSettingType`
-
-RadStatePersisterManager setting type
-
-###  ControlType `Type`
-
-Use this setting to persist a given type of controls
-
 ###  ControlID `String`
 
 ID of the persisted control
@@ -30,4 +22,12 @@ ID of the persisted control
 ###  ControlInstance `Control`
 
 This setting is used to persist the control by its instance
+
+###  ControlType `Type`
+
+Use this setting to persist a given type of controls
+
+###  SettingType `PersistenceSettingType`
+
+RadStatePersisterManager setting type
 

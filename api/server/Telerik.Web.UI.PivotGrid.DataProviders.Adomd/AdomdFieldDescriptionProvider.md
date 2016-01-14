@@ -29,23 +29,23 @@ Gets the loaded data.
 
 ## Methods
 
+###  GetDescriptionsDataAsync
+
+#### Returns
+
+`System.Void` 
+
+###  GetDescriptionsDataAsync
+
+#### Returns
+
+`System.Void` 
+
 ###  GetLoader
 
 #### Returns
 
 `Telerik.Web.UI.PivotGrid.Core.Olap.OlapMetadataLoader` 
-
-###  GetDescriptionsDataAsync
-
-#### Returns
-
-`System.Void` 
-
-###  GetDescriptionsDataAsync
-
-#### Returns
-
-`System.Void` 
 
 ###  OnDescriptionsDataCompleted
 

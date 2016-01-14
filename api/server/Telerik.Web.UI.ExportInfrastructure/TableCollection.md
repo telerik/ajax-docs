@@ -29,6 +29,20 @@ Returns a table by given Table name
 
 ## Methods
 
+###  Add
+
+Adds new Table to the collection
+
+#### Parameters
+
+#### table `Telerik.Web.UI.ExportInfrastructure.Table`
+
+Table element
+
+#### Returns
+
+`System.Void` 
+
 ###  GetEnumerator
 
 Returns the enumerator of the collection
@@ -44,18 +58,4 @@ Returns the enumerator of the collection
 #### Returns
 
 `System.Collections.IEnumerator` 
-
-###  Add
-
-Adds new Table to the collection
-
-#### Parameters
-
-#### table `Telerik.Web.UI.ExportInfrastructure.Table`
-
-Table element
-
-#### Returns
-
-`System.Void` 
 

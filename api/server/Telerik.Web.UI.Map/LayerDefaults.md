@@ -16,6 +16,14 @@ The default configuration for map layers by type.
 
 ## Properties
 
+###  BingSettings `Bing`
+
+The default configuration for Bing (tm) tile layers.
+
+###  BubbleSettings `Bubble`
+
+The default configuration for bubble layers.
+
 ###  MarkerSettings `Marker`
 
 The default configuration for marker layers.
@@ -24,15 +32,7 @@ The default configuration for marker layers.
 
 The default configuration for shape layers.
 
-###  BubbleSettings `Bubble`
-
-The default configuration for bubble layers.
-
 ###  TileSettings `Tile`
 
 The default configuration for tile layers.
-
-###  BingSettings `Bing`
-
-The default configuration for Bing (tm) tile layers.
 

@@ -6,7 +6,7 @@ description: Telerik.Web.UI.Barcode.ECIBase
 
 # Telerik.Web.UI.Barcode.ECIBase
 
-TODO: Update summary.
+ECI (Extended Channel Interpretations) base class
 
 ## Inheritance Hierarchy
 
@@ -15,11 +15,11 @@ TODO: Update summary.
 
 ## Properties
 
-###  UnicodeValues `List`1`
-
-Gets or sets the UnicodeValues.
-
 ###  EncodedValues `List`1`
 
 Gets or sets the EncodedValues.
+
+###  UnicodeValues `List`1`
+
+Gets or sets the UnicodeValues.
 

@@ -17,11 +17,6 @@ Event arguments passed when Telerik.Web.UI.RadGrid inserts a new record.
 
 ## Properties
 
-###  KeepInInsertMode `Boolean`
-
-Gets or sets a value determining if the  which
-            fired the event will stay in insert mode after the postback.
-
 ###  AffectedRows `Int32`
 
 Gets the rows affected from the operation that changed the  data.
@@ -31,13 +26,18 @@ Gets the rows affected from the operation that changed the  data.
 Gets the exception related with the operation. The property value will be
             'null' if no exception occured during the operation.
 
-###  Item `GridEditableItem`
-
-Gets the  caused the event.
-
 ###  ExceptionHandled `Exception`
 
 Gets or sets a value which if set to 'true' and exception was thrown
             will cause the  to skip throwing the exception
             and will let the user handle it.
+
+###  Item `GridEditableItem`
+
+Gets the  caused the event.
+
+###  KeepInInsertMode `Boolean`
+
+Gets or sets a value determining if the  which
+            fired the event will stay in insert mode after the postback.
 

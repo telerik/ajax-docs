@@ -24,9 +24,10 @@ Gets or sets the configuration.
 
 Gets the full path.
 
-###  TemporaryFolder `String`
+###  IsReusable `Boolean`
 
-Gets or sets the temporary folder.
+Gets a value indicating whether another request can use the 
+            instance.
 
 ###  MaxJsonLength `Int32`
 
@@ -36,29 +37,53 @@ Gets or sets the MaxJsonLength.
 
 Gets or sets the name of the temporary file.
 
-###  IsReusable `Boolean`
+###  TemporaryFolder `String`
 
-Gets a value indicating whether another request can use the 
-            instance.
+Gets or sets the temporary folder.
 
 ## Methods
 
-###  ProcessRequest
+###  CreateDefaultUploadResult
 
-Enables processing of HTTP Web requests by a custom HttpHandler that
-            implements the  interface.
+Creates an object of type T (that implements IAsyncUploadResult)
+            and populates all properties specified in the interface. The user is then free to populate any additional properties.
 
 #### Parameters
 
-#### context `System.Web.HttpContext`
+#### file `Telerik.Web.UI.UploadedFile`
 
-An  object that provides
-            references to the intrinsic server objects (for example, Request, Response, Session,
-            and Server) used to service HTTP requests.
+Contains information about the uploaded file
 
 #### Returns
 
-`System.Void` 
+`Telerik.Web.UI.T` An object of type T populated with all properties specified in IAsyncUploadResult
+
+###  DecryptFolder
+
+Decrypts a string encrypted with LOS serializer.
+
+#### Returns
+
+`System.String` The decrypted string
+
+###  IsFileSizeValid
+
+Indicates whether the currently processed file has valid size. The size is checked against the maximum size specified in the 
+            async upload configuration.
+
+#### Parameters
+
+#### contentLength `System.Int64`
+
+The content length of the current request.
+
+#### maxFileSize `System.Int32`
+
+The maximum allowed size for the file.
+
+#### Returns
+
+`System.Boolean` Boolean value indicating whether the file has valid size or not.
 
 ###  Process
 
@@ -88,6 +113,23 @@ The temporary name of the uploaded file.
 `Telerik.Web.UI.IAsyncUploadResult` Object that implements theIAsyncUploadResultinterface. 
             It can be a custom defined object and may contain additional information which can then be accessed on the server.
 
+###  ProcessRequest
+
+Enables processing of HTTP Web requests by a custom HttpHandler that
+            implements the  interface.
+
+#### Parameters
+
+#### context `System.Web.HttpContext`
+
+An  object that provides
+            references to the intrinsic server objects (for example, Request, Response, Session,
+            and Server) used to service HTTP requests.
+
+#### Returns
+
+`System.Void` 
+
 ###  SaveToTempFolder
 
 Saves the uploaded file to the temporary folder.
@@ -113,46 +155,4 @@ The temporary name of the uploaded fiel.
 #### Returns
 
 `System.Void` 
-
-###  CreateDefaultUploadResult
-
-Creates an object of type T (that implements IAsyncUploadResult)
-            and populates all properties specified in the interface. The user is then free to populate any additional properties.
-
-#### Parameters
-
-#### file `Telerik.Web.UI.UploadedFile`
-
-Contains information about the uploaded file
-
-#### Returns
-
-`Telerik.Web.UI.T` An object of type T populated with all properties specified in IAsyncUploadResult
-
-###  IsFileSizeValid
-
-Indicates whether the currently processed file has valid size. The size is checked against the maximum size specified in the 
-            async upload configuration.
-
-#### Parameters
-
-#### contentLength `System.Int64`
-
-The content length of the current request.
-
-#### maxFileSize `System.Int32`
-
-The maximum allowed size for the file.
-
-#### Returns
-
-`System.Boolean` Boolean value indicating whether the file has valid size or not.
-
-###  DecryptFolder
-
-Decrypts a string encrypted with LOS serializer.
-
-#### Returns
-
-`System.String` The decrypted string
 

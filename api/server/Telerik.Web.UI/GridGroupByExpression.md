@@ -30,16 +30,6 @@ If you use P:Telerik.Web.UI.GridGroupByExpression.Expression property to assign
 
 ## Properties
 
-###  SelectFields `GridGroupByFieldList`
-
-Gets a collection of SelectField objects (field names, aggregates etc.) that form
-            the "Select" clause. Standing on the left side of the "Group By" clause.
-
-###  GroupByFields `GridGroupByFieldList`
-
-Gets a collection of  objects that form the grouping
-                clause. Standing on the right side of the "Group By" clause
-
 ###  Expression `String`
 
 String representation of the GroupBy expression.
@@ -54,43 +44,21 @@ Expression syntax:fieldname[ alias]|aggregate(fieldname)[ alias][, ...] Group By
                     sort: asc or desc - the sort order of
                     the grouped items
 
+###  GroupByFields `GridGroupByFieldList`
+
+Gets a collection of  objects that form the grouping
+                clause. Standing on the right side of the "Group By" clause
+
 ###  Index `Int32`
 
 Gets the index of the expression if added in a
 
+###  SelectFields `GridGroupByFieldList`
+
+Gets a collection of SelectField objects (field names, aggregates etc.) that form
+            the "Select" clause. Standing on the left side of the "Group By" clause.
+
 ## Methods
-
-###  Parse
-
-Calls GridGroupByExpression(expression)
-
-#### Returns
-
-`Telerik.Web.UI.GridGroupByExpression` 
-
-###  ToString
-
-The same as the  property
-
-#### Returns
-
-`System.String` the string representation of the expression.
-
-###  IsSame
-
-Compares the current expression against the expression set as parameter and check
-            if both expressions contain field with the same name.
-
-#### Parameters
-
-#### expression `Telerik.Web.UI.GridGroupByExpression`
-
-expression to check against this expression
-
-#### Returns
-
-`System.Boolean` true if both expressions contain field with the same name,
-            otherwise false.
 
 ###  ContainsSameGroupByField
 
@@ -123,4 +91,36 @@ The  to be coppied from.
 #### Returns
 
 `System.Void` 
+
+###  IsSame
+
+Compares the current expression against the expression set as parameter and check
+            if both expressions contain field with the same name.
+
+#### Parameters
+
+#### expression `Telerik.Web.UI.GridGroupByExpression`
+
+expression to check against this expression
+
+#### Returns
+
+`System.Boolean` true if both expressions contain field with the same name,
+            otherwise false.
+
+###  Parse
+
+Calls GridGroupByExpression(expression)
+
+#### Returns
+
+`Telerik.Web.UI.GridGroupByExpression` 
+
+###  ToString
+
+The same as the  property
+
+#### Returns
+
+`System.String` the string representation of the expression.
 

@@ -15,11 +15,11 @@ This class gets or sets the log entries in the ClientState and enables or disabl
 
 ## Properties
 
-###  LogEntries `ClientStateLogEntry[]`
-
-Gets or sets the log entries.
-
 ###  Enabled `Boolean`
 
 Gets or sets the enabled.
+
+###  LogEntries `ClientStateLogEntry[]`
+
+Gets or sets the log entries.
 

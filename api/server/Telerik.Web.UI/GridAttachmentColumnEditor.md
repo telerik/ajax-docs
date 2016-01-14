@@ -18,6 +18,18 @@ The editor for the Telerik.Web.UI.GridAttachmentColumn column.
 
 ## Properties
 
+###  ContainerControl `Control`
+
+Gets the instance of the Container control (generally a TableCell), after the last call of InstantiateInControl method
+
+###  IsInEditMode `Boolean`
+
+Get a value indicating whether the current row/column editor is in edit mode.
+
+###  IsInitialized `Boolean`
+
+Get value if the editor has been initialized after an InitializeInControl or InitializeFromControl method call
+
 ###  RadUploadControl `RadUpload`
 
 Gets the  control placed in the current cell editor.
@@ -26,33 +38,12 @@ Gets the  control placed in the current cell editor.
 
 Gets the content as byte Array of the uploaded file.
 
-###  ContainerControl `Control`
-
-Gets the instance of the Container control (generally a TableCell), after the last call of InstantiateInControl method
-
-###  IsInitialized `Boolean`
-
-Get value if the editor has been initialized after an InitializeInControl or InitializeFromControl method call
-
-###  IsInEditMode `Boolean`
-
-Get a value indicating whether the current row/column editor is in edit mode.
-
 ## Methods
 
-###  SetOwner
+###  AddControlsToContainer
 
-#### Returns
-
-`System.Void` 
-
-###  InitializeInControl
-
-#### Returns
-
-`System.Void` 
-
-###  InitializeFromControl
+Implement this member to create the edit controls in the grid cell.
+            This method is called from each column's InitializeCell method, when a  initializes its cells.
 
 #### Returns
 
@@ -73,15 +64,6 @@ Copy setting from given column editor
 ###  CreateControls
 
 Create the input/edit controls belonging to the editor and prepare for AddControlsToContainer call.
-
-#### Returns
-
-`System.Void` 
-
-###  AddControlsToContainer
-
-Implement this member to create the edit controls in the grid cell.
-            This method is called from each column's InitializeCell method, when a  initializes its cells.
 
 #### Returns
 

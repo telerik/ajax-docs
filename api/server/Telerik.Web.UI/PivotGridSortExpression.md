@@ -25,17 +25,13 @@ Sets or gets the current sorting order.
 
 ## Methods
 
-###  Equals
+###  Parse
+
+Parses a string representation of the sort order and returns RadPivotGridSortExpression.
 
 #### Returns
 
-`System.Boolean` 
-
-###  GetHashCode
-
-#### Returns
-
-`System.Int32` 
+`Telerik.Web.UI.PivotGridSortExpression` 
 
 ###  SetSortOrder
 
@@ -44,12 +40,6 @@ Sets the sort order.The SortOrder paremeter should be either "Ascending" or "Des
 #### Returns
 
 `System.Void` 
-
-###  ToString
-
-#### Returns
-
-`System.String` 
 
 ###  SortOrderAsString
 
@@ -77,12 +67,4 @@ Returns a  enumeration based on the string input. Takes either "ASC"
 #### Returns
 
 `Telerik.Web.UI.PivotGridSortOrder` 
-
-###  Parse
-
-Parses a string representation of the sort order and returns RadPivotGridSortExpression.
-
-#### Returns
-
-`Telerik.Web.UI.PivotGridSortExpression` 
 

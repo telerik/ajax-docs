@@ -16,19 +16,19 @@ The default configuration for tile layers.
 
 ## Properties
 
-###  UrlTemplate `String`
-
-The URL template for tile layers. Template variables:
-
 ###  Attribution `String`
 
 The attribution of all tile layers.
+
+###  Opacity `Double`
+
+The the opacity of all tile layers.
 
 ###  Subdomains `String[]`
 
 The subdomain of all tile layers.
 
-###  Opacity `Double`
+###  UrlTemplate `String`
 
-The the opacity of all tile layers.
+The URL template for tile layers. Template variables:
 

@@ -18,6 +18,10 @@ For internal usage only.
 
 ## Properties
 
+###  Canceled `Boolean`
+
+Gets or sets a value, defining whether the command should be canceled.
+
 ###  CommandSource `Object`
 
 Gets the source of the command
@@ -25,10 +29,6 @@ Gets the source of the command
 ###  Item `GridItem`
 
 Gets the item containing the command source
-
-###  Canceled `Boolean`
-
-Gets or sets a value, defining whether the command should be canceled.
 
 ## Methods
 

@@ -17,6 +17,10 @@ Provides data for the E:Telerik.Web.UI.RadScheduler.ReminderSnooze event of the 
 
 ## Properties
 
+###  Appointment `Appointment`
+
+Gets the appointment.
+
 ###  Reminder `Reminder`
 
 Gets or sets the reminder.
@@ -24,8 +28,4 @@ Gets or sets the reminder.
 ###  SnoozeMinutes `Int32`
 
 Gets or sets the snooze minutes.
-
-###  Appointment `Appointment`
-
-Gets the appointment.
 

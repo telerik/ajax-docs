@@ -17,11 +17,11 @@ This Class defines RadScriptManagerConfigurationSection that inherits Configurat
 
 ## Properties
 
-###  Providers `ProviderSettingsCollection`
-
-Gets the providers.
-
 ###  DefaultCacheProvider `String`
 
 Gets or sets the default cache provider.
+
+###  Providers `ProviderSettingsCollection`
+
+Gets the providers.
 

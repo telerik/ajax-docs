@@ -26,6 +26,12 @@ Gets or sets the name of the unique.
 
 ## Methods
 
+###  CompareTo
+
+#### Returns
+
+`System.Int32` 
+
 ###  Equals
 
 #### Returns
@@ -33,12 +39,6 @@ Gets or sets the name of the unique.
 `System.Boolean` 
 
 ###  GetHashCode
-
-#### Returns
-
-`System.Int32` 
-
-###  CompareTo
 
 #### Returns
 

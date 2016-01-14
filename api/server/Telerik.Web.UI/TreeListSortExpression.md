@@ -25,17 +25,13 @@ Sets or gets the current sorting order.
 
 ## Methods
 
-###  Equals
+###  Parse
+
+Parses a string representation of the sort order and returns RadTreeListSortExpression.
 
 #### Returns
 
-`System.Boolean` 
-
-###  GetHashCode
-
-#### Returns
-
-`System.Int32` 
+`Telerik.Web.UI.TreeListSortExpression` 
 
 ###  SetSortOrder
 
@@ -44,12 +40,6 @@ Sets the sort order.The SortOrder paremeter should be either "Ascending", "Desce
 #### Returns
 
 `System.Void` 
-
-###  ToString
-
-#### Returns
-
-`System.String` 
 
 ###  SortOrderAsString
 
@@ -77,12 +67,4 @@ Returns a  enumeration based on the string input. Takes either "ASC"
 #### Returns
 
 `Telerik.Web.UI.TreeListSortOrder` 
-
-###  Parse
-
-Parses a string representation of the sort order and returns RadTreeListSortExpression.
-
-#### Returns
-
-`Telerik.Web.UI.TreeListSortExpression` 
 

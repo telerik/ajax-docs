@@ -26,19 +26,19 @@ Name of the current serializer. Every serializer should specify a name.
 
 ## Methods
 
-###  ToData
+###  Deserialize
 
-Serializes the content to an empty operation content with name being Empty. The input operation is not taken into account.
+Constructs an image operation from the serialized input
 
 #### Parameters
 
-#### operation `Telerik.Web.UI.ImageEditor.IImageOperation`
+#### value `System.String`
 
-The input operation. It is not taken into account for this method.
+The serialized input
 
 #### Returns
 
-`System.Collections.Generic.Dictionary`2` 
+`Telerik.Web.UI.ImageEditor.IImageOperation` The image operation represented by the serialized input
 
 ###  FromData
 
@@ -54,47 +54,19 @@ Data is not taken into account for this case.
 
 `Telerik.Web.UI.ImageEditor.IImageOperation` 
 
-###  Serialize
+###  FromData
 
-Serializes the image operation
-
-#### Parameters
-
-#### operation `Telerik.Web.UI.ImageEditor.IImageOperation`
-
-The operation that should be serialized
-
-#### Returns
-
-`System.String` The string representation of the serialized image operation
-
-###  Deserialize
-
-Constructs an image operation from the serialized input
+Constructs an image operation from the provided data input
 
 #### Parameters
 
-#### value `System.String`
+#### data `System.Collections.Generic.Dictionary{System.String,System.Object}`
 
-The serialized input
-
-#### Returns
-
-`Telerik.Web.UI.ImageEditor.IImageOperation` The image operation represented by the serialized input
-
-###  ToData
-
-Constructs a key/value pair collection from the image operation.
-
-#### Parameters
-
-#### operation `Telerik.Web.UI.ImageEditor.IImageOperation`
-
-The image operation, from which the data is contructed
+The data content representing an image operation
 
 #### Returns
 
-`System.Collections.Generic.Dictionary`2` The constructed data from the image operation
+`Telerik.Web.UI.ImageEditor.IImageOperation` An image operation represented by the provided data
 
 ###  NameInDataIsCorrect
 
@@ -110,17 +82,45 @@ The provided data
 
 `System.Boolean` True if the provided data is relevant to the current image operation. False otherwise.
 
-###  FromData
+###  Serialize
 
-Constructs an image operation from the provided data input
+Serializes the image operation
 
 #### Parameters
 
-#### data `System.Collections.Generic.Dictionary{System.String,System.Object}`
+#### operation `Telerik.Web.UI.ImageEditor.IImageOperation`
 
-The data content representing an image operation
+The operation that should be serialized
 
 #### Returns
 
-`Telerik.Web.UI.ImageEditor.IImageOperation` An image operation represented by the provided data
+`System.String` The string representation of the serialized image operation
+
+###  ToData
+
+Serializes the content to an empty operation content with name being Empty. The input operation is not taken into account.
+
+#### Parameters
+
+#### operation `Telerik.Web.UI.ImageEditor.IImageOperation`
+
+The input operation. It is not taken into account for this method.
+
+#### Returns
+
+`System.Collections.Generic.Dictionary`2` 
+
+###  ToData
+
+Constructs a key/value pair collection from the image operation.
+
+#### Parameters
+
+#### operation `Telerik.Web.UI.ImageEditor.IImageOperation`
+
+The image operation, from which the data is contructed
+
+#### Returns
+
+`System.Collections.Generic.Dictionary`2` The constructed data from the image operation
 

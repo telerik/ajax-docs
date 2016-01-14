@@ -22,7 +22,31 @@ Gets or sets the filter type that is expected from the data service.
 
 ## Methods
 
-###  OnUpdate
+###  OnBatch
+
+Raises the  event.
+
+#### Parameters
+
+#### e `Telerik.Web.UI.RadClientDataSourceBaseEventArgs`
+
+#### Returns
+
+`System.Void` 
+
+###  OnBatch
+
+Raises the  event.
+
+#### Parameters
+
+#### e `Telerik.Web.UI.RadClientDataSourceNeedDataSourceEventArgs`
+
+#### Returns
+
+`System.Void` 
+
+###  OnDelete
 
 Raises the  event.
 
@@ -46,37 +70,13 @@ Raises the  event.
 
 `System.Void` 
 
-###  OnDelete
+###  OnUpdate
 
 Raises the  event.
 
 #### Parameters
 
 #### e `Telerik.Web.UI.RadClientDataSourceBaseEventArgs`
-
-#### Returns
-
-`System.Void` 
-
-###  OnBatch
-
-Raises the  event.
-
-#### Parameters
-
-#### e `Telerik.Web.UI.RadClientDataSourceBaseEventArgs`
-
-#### Returns
-
-`System.Void` 
-
-###  OnBatch
-
-Raises the  event.
-
-#### Parameters
-
-#### e `Telerik.Web.UI.RadClientDataSourceNeedDataSourceEventArgs`
 
 #### Returns
 

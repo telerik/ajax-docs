@@ -15,9 +15,9 @@ EI Image object
 
 ## Properties
 
-###  Width `Int32`
+###  AutoSize `Boolean`
 
-Internal pixel width
+Boolean property. Will resize the image automatically if set to true. False by default.
 
 ###  Height `Int32`
 
@@ -27,17 +27,17 @@ Internal pixel height
 
 Byte array containing the image data. This property has higher priority compared to ImageUrl.
 
-###  ImageUrl `String`
-
-Image URL string
-
 ###  ImageRange `Range`
 
 Image range. This property has lower priority compared to ImageData.
 
-###  AutoSize `Boolean`
+###  ImageUrl `String`
 
-Boolean property. Will resize the image automatically if set to true. False by default.
+Image URL string
+
+###  Width `Int32`
+
+Internal pixel width
 
 ## Methods
 

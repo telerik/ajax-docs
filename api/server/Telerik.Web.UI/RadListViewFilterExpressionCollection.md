@@ -19,9 +19,21 @@ A collection holding Telerik.Web.UI.RadListView Telerik.Web.UI.RadListViewFilter
 
 Gets the number of elements contained in the collection.
 
-###  IsReadOnly `Boolean`
-
 ## Methods
+
+###  Add
+
+Adds the specified item to the end of the collection.
+
+#### Parameters
+
+#### item `Telerik.Web.UI.RadListViewFilterExpression`
+
+The item to be added.
+
+#### Returns
+
+`System.Void` 
 
 ###  BuildExpression
 
@@ -51,79 +63,6 @@ expression builder helper object
 #### Returns
 
 `Telerik.Web.UI.RadListViewFilterExpressionFluentBuilder` 
-
-###  ToDynamicLinq
-
-Returns a string representation of the filter expressions 
-            in format suitable for LinqDataSource usage.
-
-#### Remarks
-Not intended  for external usage
-
-#### Returns
-
-`System.String` LinqDataSource string representation
-
-###  ToEntitySQL
-
-Returns a string representation of the filter expressions 
-            in format suitable for EntityDataSource usage.
-
-#### Remarks
-Not intended  for external usage
-
-#### Returns
-
-`System.String` EntityDataSource string representation
-
-###  ToOql
-
-Returns a string representation of the filter expressions 
-            in format suitable for Oql usage.
-
-#### Remarks
-Not intended  for external usage
-
-#### Returns
-
-`System.String` Oql string representation
-
-###  FindByFieldName
-
-Finds a expression bound to a given fieldName
-
-#### Parameters
-
-#### fieldName `System.String`
-
-Field's name to search for
-
-#### Returns
-
-`Telerik.Web.UI.RadListViewFilterExpression` filterExpression
-
-###  GetEnumerator
-
-Returns an enumerator that iterates through the collection.
-
-#### Returns
-
-`System.Collections.Generic.IEnumerator`1` A  that can
-            be used to iterate through the collection.
-
-###  Add
-
-Adds the specified item to the end of the collection.
-
-#### Parameters
-
-#### item `Telerik.Web.UI.RadListViewFilterExpression`
-
-The item to be added.
-
-#### Returns
-
-`System.Void` 
 
 ###  Clear
 
@@ -165,19 +104,28 @@ The start index from where to copy the current collection.
 
 `System.Void` 
 
-###  Remove
+###  FindByFieldName
 
-Removes the specified item from the collection.
+Finds a expression bound to a given fieldName
 
 #### Parameters
 
-#### item `Telerik.Web.UI.RadListViewFilterExpression`
+#### fieldName `System.String`
 
-The item to be removed.
+Field's name to search for
 
 #### Returns
 
-`System.Boolean` 
+`Telerik.Web.UI.RadListViewFilterExpression` filterExpression
+
+###  GetEnumerator
+
+Returns an enumerator that iterates through the collection.
+
+#### Returns
+
+`System.Collections.Generic.IEnumerator`1` A  that can
+            be used to iterate through the collection.
 
 ###  IndexOf
 
@@ -211,6 +159,20 @@ The item which will be inserted.
 
 `System.Void` 
 
+###  Remove
+
+Removes the specified item from the collection.
+
+#### Parameters
+
+#### item `Telerik.Web.UI.RadListViewFilterExpression`
+
+The item to be removed.
+
+#### Returns
+
+`System.Boolean` 
+
 ###  RemoveAt
 
 Removes the item at the specified index.
@@ -224,4 +186,40 @@ The zero-based index of the item to remove.
 #### Returns
 
 `System.Void` 
+
+###  ToDynamicLinq
+
+Returns a string representation of the filter expressions 
+            in format suitable for LinqDataSource usage.
+
+#### Remarks
+Not intended  for external usage
+
+#### Returns
+
+`System.String` LinqDataSource string representation
+
+###  ToEntitySQL
+
+Returns a string representation of the filter expressions 
+            in format suitable for EntityDataSource usage.
+
+#### Remarks
+Not intended  for external usage
+
+#### Returns
+
+`System.String` EntityDataSource string representation
+
+###  ToOql
+
+Returns a string representation of the filter expressions 
+            in format suitable for Oql usage.
+
+#### Remarks
+Not intended  for external usage
+
+#### Returns
+
+`System.String` Oql string representation
 
