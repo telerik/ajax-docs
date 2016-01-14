@@ -42,6 +42,9 @@ The example below shows menu with two separator items: one on the horizontally f
 </telerik:RadMenu>
 ````
 
+>caution Telerik RadMenu does not support separators when control is in Lightweight RenderMode.
+>
+
 # See Also
 
  * [Layout of Root Items ]({%slug menu/appearance-and-styling/layout-of-root-items-%})
