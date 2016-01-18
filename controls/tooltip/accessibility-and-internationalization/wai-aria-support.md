@@ -10,10 +10,7 @@ position: 2
 
 # WAI-ARIA Support
 
-
-
-This article demonstrates how to enable and use the WAI-ARIA support of the **RadToolTip**	and **RadToolTipManager** controls.
-
+@[template](/_templates/common/wai-aria-templates.md#intro-two-controls "control1: RadToolTip, control2: RadToolTipManager")
 
 
 The [WAI-ARIA Suite	](http://www.w3.org/WAI/intro/aria) defines an approach to make web content and web applications more accessible to people with disabilities. **RadToolTip** and **RadToolTipManager** offer WAI-ARIA support.

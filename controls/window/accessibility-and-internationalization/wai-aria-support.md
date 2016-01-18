@@ -10,7 +10,7 @@ position: 3
 
 # WAI-ARIA Support
 
-This article demonstrates how to enable and use the WAI-ARIA support of the **RadWindow** and **RadWindowManager** controls.
+@[template](/_templates/common/wai-aria-templates.md#intro-two-controls "control1: RadWindow, control2: RadWindowManager")
 
 The [WAI-ARIA Suite](http://www.w3.org/WAI/intro/aria) defines an approach to make web content and web applications more accessible to people with disabilities. **RadWindow** and **RadWindowManager** offer WAI-ARIA support.
 

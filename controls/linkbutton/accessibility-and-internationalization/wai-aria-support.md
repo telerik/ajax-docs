@@ -10,7 +10,7 @@ position: 3
 
 # WAI-ARIA Support
 
-This article demonstrates how to enable and use the WAI-ARIA support of the **RadLinkButton** control.
+@[template](/_templates/common/wai-aria-templates.md#intro "control: RadLinkButton")
 
 The [WAI-ARIA Suite](http://www.w3.org/WAI/intro/aria) defines an approach to make web content and web applications more accessible to people with disabilities. **RadLinkButton** offers WAI-ARIA support.
 

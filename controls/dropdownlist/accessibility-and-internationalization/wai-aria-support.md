@@ -10,11 +10,7 @@ position: 1
 
 # WAI-ARIA Support
 
-
-
-This article demonstrates how to enable and use the WAI-ARIA support of the **RadDropDownList**
-
-## 
+@[template](/_templates/common/wai-aria-templates.md#intro "control: RadDropDownList")
 
 The [ WAI-ARIA Suite ](http://www.w3.org/WAI/intro/aria), defines an approach to make Web content and Web applications more accessible to people with disabilities.
 
