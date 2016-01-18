@@ -218,7 +218,7 @@ End Class
 * Lists cannot be exported.
 * The CSS [page-break-after](https://developer.mozilla.org/en-US/docs/Web/CSS/page-break-after) property is not exported.
 * Image borders are not exported.
-* Images with URL source cannot be exported—[http://feedback.telerik.com/Project/108/Feedback/Details/168922](http://feedback.telerik.com/Project/108/Feedback/Details/168922). 
+* Images with URL source cannot be exported. This is fixed in **Q2 2016**. For earlier versions, a workaround is available at [http://feedback.telerik.com/Project/108/Feedback/Details/168922](http://feedback.telerik.com/Project/108/Feedback/Details/168922). 
 
 ## See Also
 
