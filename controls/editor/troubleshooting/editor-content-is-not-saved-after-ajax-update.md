@@ -16,6 +16,7 @@ This help article describes an issue with the content saving of **RadEditor** af
 1. [Scenario Description - RadEditor Content is Not Saved After an AJAX Request](#scenario-description---radeditor-content-is-not-saved-after-an-ajax-request)
 1. [Resolutions](#resolutions)
 	* [telerik:RadButton initiates the request](#telerikradbutton-initiates-the-request)
+	* [telerik:RadCheckBox initiates the request](#telerikradcheckbox-initiates-the-request)
 	* [asp:Button initiates the request](#aspbutton-initiates-the-request)
 	* [asp:ImageButton initiates the request](#aspimagebutton-initiates-the-request)
 
@@ -110,12 +111,44 @@ Protected Sub btnSave_Click(sender As Object, e As EventArgs)
 End Sub
 ````
 
+### telerik:RadCheckBox initiates the request
+
+Use the **RadCheckBox** control events to prevent the default postback in order to initiate it via the standard `__doPostBack()` method. You also need to use the control API to change its checked state. See **Example 4**.
+
+>caption Example 4: A RadCheckBox updates the editor without loss of content.
+
+````ASP.NET
+<asp:UpdatePanel ID="Updatepanel1" runat="server">
+	<ContentTemplate>
+		<telerik:RadCheckBox runat="server" ID="RadCheckBox1" Text="check me" OnClientClicking="OnClientClicking" AutoPostBack="true" OnCheckedChanged="RadCheckBox1_CheckedChanged"></telerik:RadCheckBox>
+		<telerik:RadEditor ID="RadEditor1" runat="server"></telerik:RadEditor>
+	</ContentTemplate>
+</asp:UpdatePanel>
+<script type="text/javascript">
+	function OnClientClicking(sender, args) {
+		args.set_cancel(true); //prevent the framework postback
+		sender.set_checked(!sender.get_checked()); //toggle the checked state because cancelling the event cancels the state change as well
+		__doPostBack(sender.get_element().getAttribute("name"), ''); //initiate a postback
+	}
+</script>
+````
+````C#
+protected void RadCheckBox1_CheckedChanged(object sender, EventArgs e)
+{
+	string content = RadEditor1.Content;
+}
+````
+````VB
+Protected Sub RadCheckBox1_CheckedChanged(sender As Object, e As EventArgs)
+	Dim content As String = RadEditor1.Content
+End Sub
+
 
 ### asp:Button initiates the request
 
 Use RadAjaxPanel/RadAjaxManager with asp:Button because they automatically set the **UseSubmitBehavior** property to **false** for all asp push buttons (**Example 4**).
 
->caption Example 4: Editor content is properly saved after partial update with RadAjaxPanel triggered by а Button.
+>caption Example 5: Editor content is properly saved after partial update with RadAjaxPanel triggered by а Button.
 
 ````ASP.NET
 <telerik:RadAjaxPanel ID="RadAjaxPanel1" runat="server">
@@ -138,9 +171,9 @@ End Sub
 
 ### asp:ImageButton initiates the request
 
-Use the MS AJAX framework's [__doPostBack()](http://www.dotnetspider.com/resources/189-AutoPostBack-What-How-works.aspx) method inside the client-side event of the ImageButton because it doesn't have a **UseSubmitBehavior** property (**Example 5**).
+Use the MS AJAX framework's [__doPostBack()](http://www.dotnetspider.com/resources/189-AutoPostBack-What-How-works.aspx) method inside the client-side event of the ImageButton because it doesn't have a **UseSubmitBehavior** property (**Example 6**).
 
->caption Example 5: Triggering partial page update by calling the __doPostBack method inside the client click method of an asp:ImageButton, which allows the editor content to be sent to the server.
+>caption Example 6: Triggering partial page update by calling the __doPostBack method inside the client click method of an asp:ImageButton, which allows the editor content to be sent to the server.
 
 
 
@@ -163,9 +196,9 @@ End Sub
 ````
 
 
-When RadEditor and an ImageButton are used to update RadGrid fields, you can use the approach from **Example 5**. You should, however, properly reference the ImageButton from the code behind and handle its onclick event in order to call the __doPostBack() method (**Example 6**).
+When RadEditor and an ImageButton are used to update RadGrid fields, you can use the approach from **Example 5**. You should, however, properly reference the ImageButton from the code behind and handle its onclick event in order to call the __doPostBack() method (**Example 7**).
 
->caption Example 6: Calling the __doPostBack() method when image update button in RadGrid is clicked.
+>caption Example 7: Calling the __doPostBack() method when image update button in RadGrid is clicked.
 
 
 
