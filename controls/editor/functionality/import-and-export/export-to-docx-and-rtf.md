@@ -233,6 +233,6 @@ End Class
  
  * [Telerik UI for WPF - RadFlowDocument]({%slug radwordsprocessing-model-radflowdocument%})
 
- * [Live demo: Import and Export to DOCX](http://demos.telerik.com/aspnet-ajax/editor/examples/export-and-import-to-docx/defaultcs.aspx)
+ * [Live demo: Import and Export to DOCX](http://demos.telerik.com/aspnet-ajax/editor/examples/import-export/docx-import-export/defaultcs.aspx)
 
- * [Live demo: Import and Export to RTF](http://demos.telerik.com/aspnet-ajax/editor/examples/rtfexport/defaultcs.aspx)
+ * [Live demo: Import and Export to RTF](http://demos.telerik.com/aspnet-ajax/editor/examples/import-export/rtf-import-export/defaultcs.aspx)
