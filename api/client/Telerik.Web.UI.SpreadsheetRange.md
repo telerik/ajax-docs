@@ -1,10 +1,15 @@
 ---
-title:Telerik.Web.UI.SpreadsheetRange
-page_title:
-description:
+title: Telerik.Web.UI.SpreadsheetRange
+page_title: Client-side API Reference
+description: Telerik.Web.UI.SpreadsheetRange
+slug: Telerik.Web.UI.SpreadsheetRange
 ---
 
 # Telerik.Web.UI.SpreadsheetRange
+
+## Inheritance Hierarchy
+
+* *[Telerik.Web.UI.SpreadsheetRange]({%slug Telerik.Web.UI.SpreadsheetRange%})*
 
 ## Methods
 

@@ -1,10 +1,16 @@
 ---
-title:Telerik.Web.UI.RadSpreadsheet
-page_title:
-description:
+title: Telerik.Web.UI.RadSpreadsheet
+page_title: Client-side API Reference
+description: Telerik.Web.UI.RadSpreadsheet
+slug: Telerik.Web.UI.RadSpreadsheet
 ---
 
 # Telerik.Web.UI.RadSpreadsheet : Telerik.Web.UI.RadWebControl
+
+## Inheritance Hierarchy
+
+* [Telerik.Web.UI.RadWebControl]({%slug Telerik.Web.UI.RadWebControl%})
+* *Telerik.Web.UI.RadSpreadsheet]({%slug Telerik.Web.UI.RadSpreadsheet%})*
 
 ## Methods
 
