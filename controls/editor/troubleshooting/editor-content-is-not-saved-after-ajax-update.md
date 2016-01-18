@@ -142,6 +142,7 @@ protected void RadCheckBox1_CheckedChanged(object sender, EventArgs e)
 Protected Sub RadCheckBox1_CheckedChanged(sender As Object, e As EventArgs)
 	Dim content As String = RadEditor1.Content
 End Sub
+````
 
 
 ### asp:Button initiates the request
