@@ -29,7 +29,6 @@ Here is the markup:
 	<telerik:RibbonBarGroup Text="Font">
 		<items>
 			<telerik:RibbonBarTemplateItem>
-				<Template>
 					<telerik:RadComboBox ID="RadComboBox1" runat="server" Width="90px">
 						<Items>
 							<telerik:RadComboBoxItem Text="Cambria" />
@@ -38,7 +37,6 @@ Here is the markup:
 							<telerik:RadComboBoxItem Text="Book Antiqua" />
 						</Items>
 					</telerik:RadComboBox>
-				</Template>
 			</telerik:RibbonBarTemplateItem>
 		</items>
 	</telerik:RibbonBarGroup>
