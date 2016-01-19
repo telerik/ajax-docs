@@ -10,7 +10,7 @@ position: 0
 
 # Client-side Programming Overview
 
-**RadPushButton** provides a flexible client-side API. You can easily interact with the button in the browser using the RadPushButton client-side object. In addition to a variety of [client-side events]({%slug client-side-programming/events/overview%}), the [client-side object model]({%slug pushbutton/client-side-programming/pushbutton-object%}) lets you achieve complicated tasks while avoiding unnecessary post-backs.
+**RadPushButton** provides a flexible client-side API. You can easily interact with the button in the browser using the RadPushButton client-side object. In addition to a variety of [client-side events]({%slug pushbutton/client-side-programming/events/overview%}), the [client-side object model]({%slug pushbutton/client-side-programming/pushbutton-object%}) lets you achieve complicated tasks while avoiding unnecessary post-backs.
 
 ## Getting the RadPushButton client-side object
 
@@ -28,7 +28,7 @@ var button = $telerik.findpushbutton("<%= RadPushButton1.ClientID %>");
 
  * [PushButton Object]({%slug pushbutton/client-side-programming/pushbutton-object%})
  
- * [Events Overview]({%slug client-side-programming/events/overview%})
+ * [Events Overview]({%slug pushbutton/client-side-programming/events/overview%})
  
  * [OnClientClicking]({%slug pushbutton/client-side-programming/events/onclientclicking%})
  

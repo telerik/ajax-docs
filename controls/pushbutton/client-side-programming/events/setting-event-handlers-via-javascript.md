@@ -77,7 +77,7 @@ function removeEvents()
 
  * [PushButton Object]({%slug pushbutton/client-side-programming/pushbutton-object%})
  
- * [Events Overview]({%slug client-side-programming/events/overview%})
+ * [Events Overview]({%slug pushbutton/client-side-programming/events/overview%})
  
  * [OnClientClicking]({%slug pushbutton/client-side-programming/events/onclientclicking%})
  

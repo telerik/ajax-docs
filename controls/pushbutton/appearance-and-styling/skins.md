@@ -34,4 +34,4 @@ The stylesheet for a **RadPushButton** skin has the name **Button.[SkinName].css
 
  * [Create a Custom Skin]({%slug pushbutton/appearance-and-styling/create-a-custom-skin%})
 
- * [Primary and Secondary Action Buttons]({%slug pushbutton/appearance-and-styling/primary-and-secondary-action-buttons%})
+ * [Primary Action Button]({%slug pushbutton/appearance-and-styling/primary-action-button%})
