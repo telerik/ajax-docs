@@ -12,7 +12,7 @@ position: 0
 
 
 
-This article treats the most common issues related to placing **RadDock** in an **UpdatePanel**, [RadAjaxPanel]({%slug ajax/radajaxpanel/overview%}) or adding it as updated control in [RadAjaxManager]({%slug ajax/radajaxmanager/overview%}).
+This article treats the most common issues related to placing **RadDock** in an **UpdatePanel**, [RadAjaxPanel]({%slug ajaxpanel/overview%}) or adding it as updated control in [RadAjaxManager]({%slug ajaxmanager/overview%}).
 
 >note The focus of the article is the combination of RadDock and UpdatePanel, because this is the base scenario. Nevertheless, the included information and code samples are valid for RadAjaxPanel and RadAjaxManager as well.
 >
@@ -141,7 +141,7 @@ End Sub
 ````
 
 
-You can **avoid this error by preventing the dragging** of the dock while an AJAX request is processed. The [RadAjaxLoadingPanel]({%slug ajax/radajaxloadingpanel/overview%}) control, used in combination with RadAjaxPanel, is quite useful for this purpose (**Example 5**).
+You can **avoid this error by preventing the dragging** of the dock while an AJAX request is processed. The [RadAjaxLoadingPanel]({%slug ajaxloadingpanel/overview%}) control, used in combination with RadAjaxPanel, is quite useful for this purpose (**Example 5**).
 
 **Example 5**: Preventing the dragging of the dock by showing a loading panel.
 
@@ -226,11 +226,11 @@ The result should be similar to the implementation that is shown in **Example 7*
 
  * [Drag And Drop]({%slug dock/getting-started/drag-and-drop%})
  
- * [RadAjaxPanel Overview]({%slug ajax/radajaxpanel/overview%})
+ * [RadAjaxPanel Overview]({%slug ajaxpanel/overview%})
  
- * [RadAjaxManager Overview]({%slug ajax/radajaxmanager/overview%})
+ * [RadAjaxManager Overview]({%slug ajaxmanager/overview%})
  
- * [RadAjaxLoadingPanel Overview]({%slug ajax/radajaxloadingpanel/overview%})
+ * [RadAjaxLoadingPanel Overview]({%slug ajaxloadingpanel/overview%})
 
  * [RadDock OnClientDragStart event]({%slug dock/client-side-programming/events/onclientdragstart%})
 
