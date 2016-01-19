@@ -38,6 +38,4 @@ The stylesheet for a **RadToggleButton** skin has the name **Button.[SkinName].c
 
  * [Create a Custom Skin]({%slug togglebutton/appearance-and-styling/create-a-custom-skin%})
 
- * [Primary and Secondary Action Buttons]({%slug togglebutton/appearance-and-styling/primary-and-secondary-action-buttons%})
- 
  * [Image]({%slug togglebutton/functionality/image%})

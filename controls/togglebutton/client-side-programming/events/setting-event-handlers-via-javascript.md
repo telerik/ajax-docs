@@ -79,9 +79,9 @@ function removeEvents()
 
 ## See Also
 
- * [PushButton Object]({%slug togglebutton/client-side-programming/togglebutton-object%})
+ * [ToggleButton Object]({%slug togglebutton/client-side-programming/togglebutton-object%})
  
- * [Events Overview]({%slug client-side-programming/events/overview%})
+ * [Events Overview]({%slug togglebutton/client-side-programming/events/overview%})
  
  * [OnClientClicking]({%slug togglebutton/client-side-programming/events/onclientclicking%})
 
