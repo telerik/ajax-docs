@@ -138,6 +138,6 @@ You can add controls to **RadLinkButton** from the code-behind in two ways:
 
 ## See Also
 
- * [Split Button]({%slug splitbutton/overview%})
+ <!-- * [Split Button](slug-to-split-button-overview) -->
 
  * [Image Button]({%slug imagebutton/overview%})

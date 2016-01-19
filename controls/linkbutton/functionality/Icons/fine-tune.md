@@ -2,7 +2,7 @@
 title: Fine-tune
 page_title: Fine-tune | RadLinkButton for ASP.NET AJAX Documentation
 description: Fine-tune
-slug: pushbutton/functionality/icons/fine-tune
+slug: linkbutton/functionality/icons/fine-tune
 tags: fine,tune
 published: True
 position: 2
