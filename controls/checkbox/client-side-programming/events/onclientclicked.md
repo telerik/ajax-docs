@@ -10,7 +10,7 @@ position: 4
 
 # OnClientClicked
 
-The **clicked** event is subsequent to the [checkedChanged]({%slug checkbox/client-side-programming/events/onclientcheckedChanged%}) event, and occurs when the **RadCheckBox** control is clicked. The event is fired after the client-side validation is completed (just like the [PushButon's OnClientClicked event]({%slug pushbutton/client-side-programming/events/onclientclicked%})), just before the page is submitted, and cannot be canceled.
+The **clicked** event is subsequent to the [checkedChanged]({%slug checkbox/client-side-programming/events/onclientcheckedchanged%}) event, and occurs when the **RadCheckBox** control is clicked. The event is fired after the client-side validation is completed (just like the [PushButon's OnClientClicked event]({%slug pushbutton/client-side-programming/events/onclientclicked%})), just before the page is submitted, and cannot be canceled.
 
 The event handler receives two parameters:
 
@@ -54,7 +54,7 @@ This event can be used in scenarios where you need custom client-side code to be
  
  * [OnClientCheckedChanging]({%slug checkbox/client-side-programming/events/onclientcheckedchanging%})
 
- * [OnClientCheckedChanged]({%slug checkbox/client-side-programming/events/onclientcheckedchanged%})
+ * [OnClientCheckedChanged]({%slug checkbox/client-side-programming/events/onclientcheckedchanged%} 
  
  * [OnClientMouseOver]({%slug checkbox/client-side-programming/events/onclientmouseover%})
  

@@ -12,7 +12,7 @@ position: 1
 
 This article explains the **elastic design capabilities RadCheckBox offers**. **Example 1** shows the basic approach to scale the control by only changing its default font size.
 
-Generally, responsive design means that the page and its content are able to adapt to different screen resolutions without deteriorating the user experience. This often includes changing the font size and having [dimensions set in percent]({%slug checkbox/mobile-support/fluid-design%}).
+Generally, responsive design means that the page and its content are able to adapt to different screen resolutions without deteriorating the user experience. This often includes changing the font size and having dimensions set in percent.
 
 >caption Figure 1: Comparison between appearance of a RadCheckBox with regular font size and with increased font size.
 
