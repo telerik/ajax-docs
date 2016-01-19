@@ -19,8 +19,8 @@ This article explains the methods of the **SpreadsheetRange** client-side object
 function getActiveSheet() {
 	var spreadsheet = $find("<%= RadSpreadSheet1.ClientID %>");
 	var activeSheet = spreadsheet.get_activeSheet();
-	var singleCellRange = sheet.get_range("A1")  
-	var mutliCellRange = sheet.get_range("A1:B3"); // usign RC Notation
+	var singleCellRange = activeSheet.get_range("A1")  
+	var mutliCellRange = activeSheet.get_range("A1:B3"); // usign RC Notation
 }
 
 ````
@@ -53,9 +53,38 @@ function getActiveSheet() {
 | **set_borderRightColor** |string|none|Sets the color of the right border of the cells. If the range includes more than a single cell, the setting is applied to all cells. The color may be set to any valid [CSS color](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value).|
 | **get_borderRightSize** |none|int|Gets the size of the right border of the cells.|
 | **set_borderRightSize** |int|none|Sets the size of the right border of the cells. If the range includes more than a single cell, the setting is applied to all cells. The method accepts any valid [Length value](https://developer.mozilla.org/en-US/docs/Web/CSS/length).|
-| **get_get_borderTopColor** |none|string|Gets the color of the top border of the cells.|
-| **set_set_borderTopColor** |string|none|Sets the color of the top border of the cells. If the range includes more than a single cell, the setting is applied to all cells. The color may be set to any valid [CSS color](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value).|
-| **get_get_borderTopSize** |none|int|Gets the size of the top border of the cells.|
-| **set_set_borderTopSize** |int|none|Sets the size of the top border of the cells. If the range includes more than a single cell, the setting is applied to all cells. The method accepts any valid [Length value](https://developer.mozilla.org/en-US/docs/Web/CSS/length).|
-
+| **get_borderTopColor** |none|string|Gets the color of the top border of the cells.|
+| **set_borderTopColor** |string|none|Sets the color of the top border of the cells. If the range includes more than a single cell, the setting is applied to all cells. The color may be set to any valid [CSS color](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value).|
+| **get_borderTopSize** |none|int|Gets the size of the top border of the cells.|
+| **set_borderTopSize** |int|none|Sets the size of the top border of the cells. If the range includes more than a single cell, the setting is applied to all cells. The method accepts any valid [Length value](https://developer.mozilla.org/en-US/docs/Web/CSS/length).|
+| **get_background** |none|string|Gets the background color of the cells in the range.|
+| **set_background** |string|none|Sets the background color of the cells in the range. The background may be set to any valid [CSS color](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value).|
+| **get_bold** |none|bool|Gets the bold state of the cells in the range.|
+| **set_bold** |bool|none|Sets the bold state of the cells in the range.|
+| **get_color** |none|string|Gets the current text color of the top-left cell of the range.|
+| **set_color** |string|none|Sets the text color of the range. The color may be set to any valid [CSS color](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value).|
+| **get_fontFamily** |none|string|Gets the font family of the top-left cell of the range.|
+| **set_fontFamily** |string|none|Sets the font family of the cells in the range.|
+| **get_fontSize** |none|int|Gets the font size of the top-left cell of the range.|
+| **set_fontSize** |int|none|Sets the font size (in pixels) of the cells in the range.|
+| **get_format** |none|string|Gets the format (string) of the top-left cell of the range|
+| **set_format** |string|none|Sets the format of the cells in the range.|
+| **get_formula** |none|string|Gets the formula of the cells|
+| **set_formula** |string|none|Sets the formula of the cells. The string that the method accepts may optionally start with =.|
+| **get_input** |none|string|Gets the value of the cells. If the Range includes more than one cell - returns the top-left cell input value of the range.|
+| **set_input** |string|none|Sets the value of the cells. This is similar to value, but it parses the argument as if it was entered through the text box. Using the method you can set text, formula, number, boolean or Date.|
+| **get_italic** |none|bool|Gets the italic state of the cells in the range.|
+| **set_italic** |bool|none|Sets the italic state of the cells in the range.|
+| **get_textAlign** |none|string|Gets the text alignment of the cells in the range. Returns one of the following values: **left**, **center**, **right** and **justify**.|
+| **set_textAlign** |string|none|Sets the text alignment of the cells in the range. Accepts one of the following values: **left**, **center**, **right** and **justify**.|
+| **get_value** |none|string/int/Date|Gets the value of the cells.|
+| **set_value** |string/int/Date|none|Sets the value of the cells.|
+| **get_values** |none|array of arrays|Gets the values of the range cells.|
+| **set_values** |array of arrays|none|Sets the values of the range cells. The argument should be an array of arrays which match the dimensions of the range.|
+| **get_validation** |none|object|Gets the current validation of the top-left cell of the range.|
+| **set_validation** |object|none|Sets the validation of the cells. The object that is passed to the method may contain **type, comparerType, dataType, from, to, allowNulls, messageTemplate** and **titleTemplate** keys.|
+| **get_verticalAlign** |none|string|Gets current vertical text alignment of the top-left cell of the range. Returns one of the following values: **top**, **center** and **bottom**.|
+| **set_verticalAlign** |string|none|Sets the vertical alignment of the cells in the range. Accepts one of the following values: **top**, **center** and **bottom**.|
+| **get_wrap** |none|bool|Gets the wrap of the range cells.|
+| **set_wrap** |bool|none|Sets the wrap of the range cells.|
 

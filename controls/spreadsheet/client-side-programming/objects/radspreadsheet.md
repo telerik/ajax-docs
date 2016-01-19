@@ -9,8 +9,7 @@ position: 0
 ---
 
 # RadSpreadsheet Object
-This article explains the methods of the **Radspreadsheet** client-side object. The **Radspreadsheet** client API allows a complete control over the client object,
- giving the developer the opportunity to implement a preferable behavior depending on the custom scenario.
+This article explains the methods of the **Radspreadsheet** client-side object. The **Radspreadsheet** client API allows a complete control over the client object, giving the developer the opportunity to implement a preferable behavior depending on the custom scenario.
 
 
 >caption The following table lists the methods of the client-side **RadSpreadsheet** object:
