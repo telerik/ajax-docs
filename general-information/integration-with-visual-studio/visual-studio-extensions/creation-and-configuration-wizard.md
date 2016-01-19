@@ -65,7 +65,7 @@ On the second page the wizard suggests more site settings and several resource o
 
 * **Use jQuery Support** - Define if the pages that will be created via the Scenario Wizard will use jQuery support by default.
 
-* **Use Ajaxified Templates** - Define if the pages that will be created via the Scenario Wizard will use [RadAjaxManager]({%slug ajax/radajaxmanager/overview%}) by default.
+* **Use Ajaxified Templates** - Define if the pages that will be created via the Scenario Wizard will use [RadAjaxManager]({%slug ajaxmanager/overview%}) by default.
 
 
 >note The Project Configuration wizard does not allow the targeted Telerik controls distribution to be changed when configuring a project. In that mode you can change the other project properties though. Changing the Telerik UI for ASP.NET AJAX distribution of a project is handled by the [Upgrade Wizard]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/upgrade-wizard%}).

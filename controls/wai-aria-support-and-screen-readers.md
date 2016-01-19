@@ -19,7 +19,11 @@ Some controls from the Telerik UI for ASP.NET AJAX suite have support for WAI-AR
 
 The following controls offer WAI-ARIA support:
 
-* [Ajax]({%slug ajax/overview%})
+* [AjaxLoadingPanel]({%slug ajaxloadingpanel/overview%})
+
+* [AjaxManager]({%slug ajaxmanager/overview%})
+
+* [AjaxPanel]({%slug ajaxpanel/overview%})
 
 * [Barcode]({%slug barcode/overview%})
 

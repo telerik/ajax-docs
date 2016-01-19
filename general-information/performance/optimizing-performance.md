@@ -110,4 +110,4 @@ You can find a details information about optimizing **RadHtmlChart** control in 
 
 ## RadAjaxPanel and RadAjaxManager
 
-More detailed information is available in [Optimizing Performance Using RadAjaxManager]({%slug ajax/performance/optimizing-performance-using-radajaxmanager %})
+More detailed information is available in [Optimizing Performance Using RadAjaxManager]({%slug ajaxmanager/performance/optimizing-performance-using-radajaxmanager%})

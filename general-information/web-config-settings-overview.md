@@ -159,7 +159,7 @@ Here follows a list with all the available appSettings keys for the Telerik UI f
 
 * **CSApiKey**—the key provided by _http://www.hisoftware.com/_ . Required for using the [Accessibility Compliance Check RadEditor Dialog]({%slug editor/accessibility-and-internationalization/creating-accessible-content/compliance-check-dialog%}) . 
 
-* **KeepOriginalOrderOfScriptDescriptorsDuringAjax**—when set to true, the original order of the  statements of the controls that participate in the partial page rendering will be preserved in case RadAjaxManager or RadAjaxPanel is used. Otherwise, the order will be reversed. You can read more about this in the [Tips and tricks for ajaxifying specific controls]({%slug ajax/troubleshooting/tips-and-tricks-for-ajaxifying-specific-controls%}) help article. 
+* **KeepOriginalOrderOfScriptDescriptorsDuringAjax**—when set to true, the original order of the  statements of the controls that participate in the partial page rendering will be preserved in case RadAjaxManager or RadAjaxPanel is used. Otherwise, the order will be reversed. You can read more about this in the [Tips and tricks for ajaxifying specific controls]({%slug ajaxmanager/troubleshooting/tips-and-tricks-for-ajaxifying-specific-controls%}) help article. 
 
 * **Telerik.AsyncUpload.TemporaryFolder**—lets you set the temporary folder RadAsyncUpload uses on an application level. You can read more about this feature in the [RadAsyncUpload Overview]({%slug asyncupload/overview%}) help article. 
 
