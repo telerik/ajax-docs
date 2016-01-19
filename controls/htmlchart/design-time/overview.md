@@ -66,6 +66,6 @@ You can change the skin that your **RadHtmlChart** displays by clicking the Smar
 
  * [SqlDataSource]({%slug htmlchart/data-binding/sqldatasource%})
  
- * [RadAjaxManager Overview]({%slug ajax/radajaxmanager/overview%})
+ * [RadAjaxManager Overview]({%slug ajaxmanager/overview%})
 
  * [RadHtmlChart Data Binding to a SqlDataSource](http://demos.telerik.com/aspnet-ajax/htmlchart/examples/databinding/database/defaultcs.aspx)
