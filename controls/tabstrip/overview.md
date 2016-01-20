@@ -24,7 +24,7 @@ Using **RadTabStrip**, you get:
 
 * [Creating tabs dynamically on the server-side]({%slug tabstrip/tabs/working-with-tabs-at-the-server%}).
 
-* [Creating tabs dynamically on the client-side]({%slug tabstrip/tabs/working-with-tabs-at-thr-client%}).
+* [Creating tabs dynamically on the client-side]({%slug tabstrip/tabs/working-with-tabs-at-the-client%}).
 
 * [Loading tabs from an XML file or string]({%slug tabstrip/tabs/loading-tabs-from-xml%}).
 

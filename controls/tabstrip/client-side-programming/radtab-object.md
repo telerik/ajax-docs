@@ -122,4 +122,4 @@ tabStrip.get_tabs().getTab(tabStrip.get_tabs().get_count()-1).scrollIntoView();
 
  * [Overview]({%slug tabstrip/tabs/overview%})
 
- * [Working With Tabs at thr Client]({%slug tabstrip/tabs/working-with-tabs-at-thr-client%})
+ * [Working With Tabs at the Client]({%slug tabstrip/tabs/working-with-tabs-at-the-client%})

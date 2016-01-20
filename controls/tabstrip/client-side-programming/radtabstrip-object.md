@@ -184,4 +184,4 @@ function DetachHandler()
 
  * [Events]({%slug tabstrip/client-side-programming/events%})
 
- * [Working With Tabs at thr Client]({%slug tabstrip/tabs/working-with-tabs-at-thr-client%})
+ * [Working With Tabs at the Client]({%slug tabstrip/tabs/working-with-tabs-at-the-client%})

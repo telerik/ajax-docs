@@ -200,7 +200,7 @@ End Sub
 
 # See Also
 
- * [Working With Tabs at thr Client]({%slug tabstrip/tabs/working-with-tabs-at-thr-client%})
+ * [Working With Tabs at thr Client]({%slug tabstrip/tabs/working-with-tabs-at-the-client%})
 
  * [Overview]({%slug tabstrip/tabs/overview%})
 

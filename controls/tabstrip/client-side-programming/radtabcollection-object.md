@@ -128,7 +128,7 @@ for (var i=0; i < tabs.get_count(); i++)
 
 # See Also
 
- * [Working With Tabs at thr Client]({%slug tabstrip/tabs/working-with-tabs-at-thr-client%})
+ * [Working With Tabs at the Client]({%slug tabstrip/tabs/working-with-tabs-at-the-client%})
 
  * [Accessing Tabs]({%slug tabstrip/server-side-programming/accessing-tabs%})
 

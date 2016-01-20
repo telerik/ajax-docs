@@ -48,7 +48,7 @@ There are numerous ways to populate a tab strip with tabs. These include
 
 * [Adding tabs in server-side code]({%slug tabstrip/tabs/working-with-tabs-at-the-server%})
 
-* [Adding tabs in client-side code]({%slug tabstrip/tabs/working-with-tabs-at-thr-client%})
+* [Adding tabs in client-side code]({%slug tabstrip/tabs/working-with-tabs-at-the-client%})
 
 * [Loading tabs from an XML file or string]({%slug tabstrip/tabs/loading-tabs-from-xml%})
 
