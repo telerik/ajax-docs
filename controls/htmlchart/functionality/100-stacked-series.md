@@ -10,7 +10,7 @@ position: 6
 
 # 100% Stacked Series
 
-100% stacked series display the values from multiple series as stacks or group of stacks over the x-axis categories, where the values proportions from each stack totals 100%. This series type is useful for cases where the contribution of values within stacks is more meaningful than the amounts themselves.
+The 100% stacked series display the values from multiple series as stacks or group of stacks over the x-axis categories, where the values proportions from each stack totals 100%. This series type is useful for cases where the contribution of values within stacks is more meaningful than the amounts themselves.
 
 The functionality is available for category series - bar, column, line, area and radar (area, line and column).
 
@@ -68,7 +68,7 @@ You can create **Figure 1** using the markup in **Example 1**.
 
 ## Configure 100% Stacked and Grouped Series
 
-To configure 100% stacked and grouped series you should do the following:
+To configure 100% stacked and grouped series, you should do the following:
 
 1. Set the the following property to the first series - `StackType="Stack100"`.
 
