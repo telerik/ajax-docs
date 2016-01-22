@@ -22,6 +22,19 @@ Developers who want to create a custom skin for one or more Telerik control, hav
 
 In most cases the last option is an unnecessary overhead, unless you need to create a skin, which is totally unique in terms of look and feel, and dimensions. In order to create a custom skin from scratch, you need a better understanding for the control's HTML output and CSS classes.
 
+
+## Telerik ThemeBuilder application
+
+[Read the documentation]({%slug theme-builder/overview%}) for illustration and examples on how to create a custom theme.
+
+[Launch](http://themebuilder.telerik.com/) the application.
+
+
+
+>note The Theme Builder application can be used to create or modify themes used in **Lightweight** **RenderMode**
+>
+
+
 ## Visual Style Builder
 
 [launch the online tool](http://stylebuilder.telerik.com/)
