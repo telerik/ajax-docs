@@ -16,17 +16,19 @@ As of **Q2 2015 SP1**, **RadHtmlChart** doesn't try to parse automatically strin
 
 * [Incorrect Data Rendering When Data Source Field Types Are Not Defined](#incorrect-data-rendering-when-data-source-field-types-are-not-defined)
 
+>important You should always define the type of the data source fields, so that the chart can properly process and render the data.
+
 ## XAxis and Legend Labels Are Not 'TryParsed' to Decimal
 
 If the chart's category x-axis refers to a string type column from the data source that can be parsed to a decimal format, it will be handled as a string and the labels displayed will not be parsed.
 
-The old and the new behavior of the control are illustrated with the code from **Example 1** and you can see the difference in **Figure 1**.
+The old ([incorrect](http://feedback.telerik.com/Project/108/Feedback/Details/122627)) and the new behavior of the control are illustrated with the code from **Example 1** and you can see the difference in **Figure 1**.
 
 >caption Figure 1: String columns from the data source that can be parsed to a decimal format will be displayed as strings.
 
 ![data-source-string-fields-are-not-parsed-to-decimal](images/data-source-string-fields-are-not-parsed-to-decimal.png)
 
->caption Example 1: Binding a DataTable that contains a string column that can be parsed to a decimal format.
+>caption Example 1: Binding RadHtmlChart to a DataTable that contains a string column whose values can be parsed to a decimal format. Such values are not parsed by RadHtmlChart.
 
 ````ASP.NET
 <telerik:RadHtmlChart ID="ColumnChart1" runat="server" Width="200px" Height="150px">
@@ -115,7 +117,7 @@ If data source fields types are not defined, the data may not be properly proces
 
 ![incorrect-correct-data-rendering](images/incorrect-correct-data-rendering.png)
 
->caption Example 2: Binding a DataTable that contains a field without type defined.
+>caption Example 2: Binding RadHtmlChart to a DataTable that contains a field without type defined. This scenario is not supported by RadHtmlChart and you should always define the field/column types.
 
 ````C#
 protected void Page_Init(object sender, EventArgs e)
@@ -168,8 +170,6 @@ End Sub
 	</Legend>
 </telerik:RadHtmlChart>
 ````
-
->important You should always define the type of the data source fields, so that the chart can properly process and render the data.
 
 
 ## See Also
