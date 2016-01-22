@@ -32,11 +32,21 @@ RadEditor provides a flexible mechanism for adding custom dialogs that plug dire
 	**ASP.NET**
 	
 		<style type="text/css">
-	        .reToolbar.Default .InsertSpecialLink
-	        {
-	            background-image: url(http://www.telerik.com/DEMOS/ASPNET/RadControls/Editor/Skins/Default/buttons/Custom.gif);
-	        }
-	    </style>
+		/* Styles for Classic rendering */
+		.reToolbar.Default .InsertSpecialLink{
+		    background-image: url(http://demos.telerik.com/aspnet-ajax/editor/examples/customtools/Icons/custom.gif);
+		}
+		
+		/* Styles for Lightweight rendering */
+		.reToolBar .reTool.reInsertSpecialLink {
+		    background-image: url(http://demos.telerik.com/aspnet-ajax/editor/examples/customtools/Icons/custom.gif);
+		    background-repeat: no-repeat;
+		}
+		
+		    .reToolBar .reTool.reInsertSpecialLink:before {
+		        display:none;
+		    }
+		</style>
 
 1. Add the following JavaScript command under the editor's declaration:
 
