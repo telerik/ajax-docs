@@ -14,11 +14,13 @@ position: 0
 
 From Q2 2013 we provide a new export format which is based on the binary Excel format BIFF. Our implementation supports all versions of Microsoft Excel, starting from 2003. The Excel export is based on our "export infrastructure". It is a middle layer positioned between a server control (or user controlled) and a given export library. In this case, we have used it internally in RadGrid, RadTreeList and RadPivotGrid but every developer can take advantage of it.
 
+
 ## How to use it
 
 The only thing that you need to do when you want to export the RadPivotGrid in excel is to call its server side ExportToExcel method:
 
 RadPivotGrid1.ExportToExcel();
+
 
 ## Common properties and events
 
@@ -30,13 +32,12 @@ The ExportSettings group exposes several common properties which:
 
 * **OpenInNewWindow** - by default, the exported file will be handled by the program associated with the appropriate file type. If you prefer to give the user the option to choose whether to save, open (inline) or cancel you should enable this property.
 
->note Even if you set OpenInNewWindow="false", that doesn't guarantee that the file will be opened inside the browser window.The way the exported file will be displayed inline depends on the OS/browser settings. The end-user could manage the file extensions with programs like[NirSoft's FileTypesMan](http://www.nirsoft.net/utils/file_types_manager.html). For browsers, other than Internet Explorer, you should use the built-in settings.
+    >note Even if you set OpenInNewWindow="false", that doesn't guarantee that the file will be opened inside the browser window.The way the exported file will be displayed inline depends on the OS/browser settings. The end-user could manage the file extensions with programs like [NirSoft's FileTypesMan](http://www.nirsoft.net/utils/file_types_manager.html). For browsers, other than Internet Explorer, you should use the built-in settings.
 >
-
 
 * **FileName** - this is helpful when you want to give a predefined name for your file.Please note that the file name can't be longer than 256 symbols. Unicode names are not supported out-of-the-box for **Internet Explorer6** and **7**. Of course you can manually encode the file name and it will be shown properly in the "**Save**" dialog **(OpenInNewWindow="true").HttpUtility.UrlEncode ("unicode string", System.Text.Encoding.UTF8)**;
 
->note Internet Explorer ignores the FileName property when **OpenInNewWindow** is set to **false** .
+    >note Internet Explorer ignores the FileName property when **OpenInNewWindow** is set to **false** .
 >
 
 
@@ -49,6 +50,7 @@ The RadPivotGrid exposes three events which can be used for customizing the expo
 * **PivotGridBiffExporting event** - this event is useable in many scenarios when you want to modify the output file - for example you may want to add some custom information above RadPivotGrid or when you want to remove/add/replace parts of the content. Also into this event you have as argument the entire **ExportStructure**. It allows you to add additional table into the structure which will be exported as different sheet into the excel file.
 
 * **PivotGridCellExporting event** – this event is usable when you want to add formatting and styling options to the exported cell.
+
 
 ## Modifying exported excel’ cells formatting and applying styles to them
 
@@ -90,14 +92,17 @@ Protected Sub RadPivotGrid1_PivotGridCellExporting(sender As Object, e As PivotG
     End If
 End Sub
 ````
+
+
 ![pivotgrid-excel-export 1](images/pivotgrid-excel-export_1.png)
 ![pivotgrid-excel-export 2](images/pivotgrid-excel-export_2.png)
+
 
 >note The **Format** property of the **ExportedCell** object is the excel based cell format. For example:
 >
 
 
-The other parameter which is passed into the **PivotGridCellExporting** is the model cell from which the export structure cells are built.The PivotGridBaseModelCell class contains information related with the PivotGrid cells:
+The other parameter which is passed into the **PivotGridCellExporting** is the model cell from which the export structure cells are built. The **PivotGridBaseModelCell** class contains information related with the PivotGrid cells:
 
 * **Field** - Gets the pivot grid field related with this cell
 
@@ -117,9 +122,10 @@ The other parameter which is passed into the **PivotGridCellExporting** is the m
 
 * **TableCellType** - Gets the type of cell
 
-Since Q1 2015 version of UI for ASP.NET AJAX you can also access the **PivotGridCell** object from the**PivotGridCellExporting** arguments. You can cast the object to the appropriate type and use all its properties which will help you to change the text apply different styles etc.
+Since Q1 2015 version of UI for ASP.NET AJAX you can also access the **PivotGridCell** object from the **PivotGridCellExporting** arguments. You can cast the object to the appropriate type and use all its properties which will help you to change the text apply different styles etc.
 
-Additionally since Q1 2015 version you are able to style the elements of **RadPivotGrid** by using the built-in styles such as**RowHeaderCellStyle**, **ColumnTotalCellStyle** etc. It is important to note that you have to enable the**UseItemStyle** property in order the applied styles to be exported. This property gives you the ability to apply the item styles to the exported file.
+Additionally since Q1 2015 version you are able to style the elements of **RadPivotGrid** by using the built-in styles such as **RowHeaderCellStyle**, **ColumnTotalCellStyle** etc. It is important to note that you have to enable the **UseItemStyle** property in order for the applied styles to be exported. This property gives you the ability to apply the item styles to the exported file.
+
 
 ````ASPNET
 <RowHeaderCellStyle BackColor="Green" />
@@ -127,8 +133,7 @@ Additionally since Q1 2015 version you are able to style the elements of **RadPi
 ````
 
 
-
-Another new approach is to hook **CellDataBound** event handler and apply the styles in code behind. Note that styling via CSS classes is not possible. This approach requires **UseItemStyles** to be enabled as well.
+Another approach is to handle **CellDataBound** event handler and apply the styles in code behind. Note that styling via CSS classes is not possible. This approach requires **UseItemStyles** to be enabled as well.
 
 
 
@@ -187,3 +192,5 @@ newSheet.Cells(1, 1).Value = "NEW CELL"
 
 * No automatic column/row resizing.
 * RadPivotGrid export throws an error when using a **GetDataItem()** in template. - This is a known issue when the **Page.GetDataItem()** is used. In order to works as expected the **DataBinder.GetDataItem(this)** needs to be used. 
+
+
