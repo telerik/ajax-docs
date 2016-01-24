@@ -14,7 +14,7 @@ position: 1
 
 ## Built-in Send E-mail Form
 
-The **RadSocialShare** control offers the ability to send the link, provided in the `UrlToShare` property, via an E-mail, not just to the social networks. In order to do so there is a built-in form that prompts the user for the required information - sender name, e-mail, recipient mail and name, optional subject and message body. The URL can also be altered. There are several requirements to activate this functionality:
+The **RadSocialShare** control offers the ability to send a link, provided in the `UrlToShare` property, via an e-mail, not just to the social networks. In order to do so there is a built-in form that prompts the user for the required information - sender name, e-mail, recipient mail and name, optional subject and message body. The URL can also be altered. There are several requirements to activate this functionality:
 
 1. Add the `SendEmail` button ![Send Email button](images/send_e-mail_button.png) that will open the form to the `MainButtons` or `CompactButtons` collection of the **RadSocialShare**:
 
@@ -33,7 +33,7 @@ The **RadSocialShare** control offers the ability to send the link, provided in 
 	            UserName="username" />
 	    </telerik:RadSocialShare>
 
-	Alternatively, e-mail settings can be set in the code-behind on every page load (e.g., taken from the web.config's appSettings through the `ConfigurationManager.AppSettings["yourKey"]` appraoch). 
+	Alternatively, e-mail settings can be set in the code-behind on every page load (e.g., taken from the web.config's appSettings through the `ConfigurationManager.AppSettings["yourKey"]`). 
 
 	>note The e-mail settings are private information and are not managed by the ViewState to avoid any security implications.
 
@@ -60,9 +60,9 @@ The **RadSocialShare** control offers the ability to send the link, provided in 
 >note No server error will be thrown if these properties are not set, yet the e-mail will not be received as there is no server to send it. It is up to the developer to setup the mail server in each individual case according to the custom security policy, requirements and scenario of the site.
 
 
-## Using the E-mail Agent from the User Machine
+## Using the E-mail Agent from the User's Machine
 
-The **RadSocialShare** also allows the user to use the system's mail client - for example MS Outlook, Outlook Express, etc. This feature is activated by adding the `MailTo` button ![MailTo button](images/mail_to_button.png) to either the `MainButtons` or `CompactButtons` collection of the **RadSocialShare**:
+The **RadSocialShare** control also allows the user to use the system's mail client - for example MS Outlook, Outlook Express, etc. This feature is activated by adding the `MailTo` button ![MailTo button](images/mail_to_button.png) to either the `MainButtons` or `CompactButtons` collection of the **RadSocialShare**:
 
 ````ASP.NET
 <telerik:RadSocialButton SocialNetType="MailTo" />
@@ -70,8 +70,8 @@ The **RadSocialShare** also allows the user to use the system's mail client - fo
 
 
 
-Clicking this button results in the default mail agent opening a blank e-mail template with the `UrlToShare` property preset as the message body. The User can fully customize the mail and it will be sent from his/her account that is set up in the local software.
-
+Clicking the MailTo button results in the default mail agent opening a blank e-mail template with the `UrlToShare` property preset as the message body. <<Comment: Please review that my change to MailTo button did not create an error.>>The user can fully customize the mail and it will be sent from his/her account that is set up in the local software.
+<<Comment: "the local software" sounds odd to me. I think you mean, "set up on their local machine." or perhaps "set up use their local e-mail client.">>
 # See Also
 
  * [The `<smtp>` element in the web.config](http://msdn.microsoft.com/en-us/library/ms164240.aspx)
