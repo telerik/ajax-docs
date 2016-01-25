@@ -16,7 +16,7 @@ The **RadSpreadsheet** control allows you to create your own custom **Validation
 
 2. Create JavaScript file that will be the actual connection to the Spreadsheet.ValidationView. In this javascript file, you will need to create the interface for the **ValidationView** object of the **RadSpreadsheet** and the markup of the newly created custom dialog. Manipulating the prototypes of the **ValidationView** you will have a full access and ability to implement or modify the behavior of the default controls in the view and apply your custom one.
 
-3. Create the **RadSpreadsheet** on your page, referencing the custom WebUserControl that contains the new Validation view (dialog) in the ValidationTemplate tag and provide a reference to the javascript file that will create the communication between the **ValidationView** object of the **RadSpreadsheet** and the custom Validation dialog. At the end, the layout of the aspx page where the **RadSpreadsheet** is defined should look as simple as the below implementation:
+3. Create the **RadSpreadsheet** on your page, referencing the custom WebUserControl that contains the new Validation view (dialog) in the **ValidationTemplate** tag and provide a reference to the javascript file that serve as interface for **ValidationView** object of the **RadSpreadsheet** and the custom Validation dialog. At the end, the layout of the aspx page where the **RadSpreadsheet** is defined should look as simple as the below implementation:
 
 ````ASP.NET
 
@@ -38,5 +38,4 @@ The **RadSpreadsheet** control allows you to create your own custom **Validation
 
 ````
 
-You can investigate the entire setup and test the behavior of the **RadSpreadsheet** with Custom Validation dialog with the Code Library below:
-[Validation Template for RadSpreadsheet Code Library](http://www.telerik.com/support/code-library/validation-template).
+>note You can investigate the entire setup and test the behavior of the **RadSpreadsheet** with Custom **Validation** dialog in this Code Library: [Validation Template for RadSpreadsheet Code Library](http://www.telerik.com/support/code-library/validation-template).
