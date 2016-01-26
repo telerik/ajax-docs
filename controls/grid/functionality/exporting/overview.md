@@ -182,9 +182,9 @@ End Sub
 
 ## Export from AJAX-enabled RadGrid
 
-The exporting feature works only with regular postbacks. This means, that the asynchronous postback should be canceled when performing an export.
+The exporting feature works only with regular postbacks. This means, that the asynchronous postback should be canceled when performing an export. Since Q1 2016 the default built-in export buttons are already performing regular postback, therefore it is not needed to manually exclude them from Ajax, even the RadGrid control is ajaxified, to perform export with them.
 
-More information on this topic is available below:
+More details and manually canceling of the asynchronous postback can be found in following resources. 
 
 [Export from ajaxified grid]( http://www.telerik.com/help/aspnet-ajax/grdexportwithajax.html)
 
