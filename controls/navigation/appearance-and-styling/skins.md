@@ -23,4 +23,9 @@ To apply a skin to a **RadNavigation** control, set its **Skin** property.
 **RadNavigation** is installed with a number of preset skins. These are shown below:
 >caption 
 
-![navigation-skins](images/navigation-skins.png)
+![navigation-skins](images/navigation-skins.png) 
+
+
+ @[template - Material skin is available only in Lightweight mode](/_templates/common/skins-notes.md#material-only-in-lightweight) 
+
+

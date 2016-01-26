@@ -15,7 +15,12 @@ position: 3
 
 **RadToolBar** is installed with a number of built-in skins:
 
-![ToolBar Skins Thumbnails](images/toolbar-skins.png)
+![ToolBar Skins Thumbnails](images/toolbar-skins.png) 
+
+
+ @[template - Material skin is available only in Lightweight mode](/_templates/common/skins-notes.md#material-only-in-lightweight) 
+
+
 
 
 

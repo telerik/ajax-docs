@@ -19,5 +19,10 @@ RadPivotGrid uses skins to control its overall look-and-feel. A skin is a set of
 These are the skins provided by Telerik. They are embedded in the **Telerik.Web.UI.Skins.dll** assembly (except the Default one). To use a built-in skin the user only needs to set the **Skin** property of the control.
 
 Below is a set of the Telerik RadPivotGrid skins:
-![pivotgrid skins](images/pivotgrid-skins.png)
+![pivotgrid skins](images/pivotgrid-skins.png) 
+
+
+ @[template - Material skin is available only in Lightweight mode](/_templates/common/skins-notes.md#material-only-in-lightweight) 
+
+
 

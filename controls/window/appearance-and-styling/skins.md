@@ -16,7 +16,12 @@ Specify the Skin to use by setting the **Skin** property of the **RadWindowManag
 
 There is a number of built-in skins for the RadWindow control:
 
-![radwindow-skins](images/window-skins.png)
+![radwindow-skins](images/window-skins.png) 
+
+
+ @[template - Material skin is available only in Lightweight mode](/_templates/common/skins-notes.md#material-only-in-lightweight) 
+
+
 
 
 ## See Also

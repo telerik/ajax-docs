@@ -16,7 +16,12 @@ To apply a skin to a **RadButton** control, set its **Skin** property.
 
 **RadButton** is installed with a number of preset skins. These are shown below:
 
-![radbutton-skins](images/button-skins.png)
+![radbutton-skins](images/button-skins.png) 
+
+
+ @[template - Material skin is available only in Lightweight mode](/_templates/common/skins-notes.md#material-only-in-lightweight) 
+
+
 
 ## Customizing Skins
 

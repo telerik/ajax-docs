@@ -16,5 +16,10 @@ position: 0
 
 **RadCloudUpload** is installed with a number of preset skins:
 
-![cloudupload skins thumb](images/cloudupload-skins.png)
+![cloudupload skins thumb](images/cloudupload-skins.png) 
+
+
+ @[template - Material skin is available only in Lightweight mode](/_templates/common/skins-notes.md#material-only-in-lightweight) 
+
+
 

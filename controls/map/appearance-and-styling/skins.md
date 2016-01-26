@@ -16,7 +16,12 @@ To apply a skin to a **RadMap** control, set its **Skin** property.
 
 **RadMap** is installed with a number of preset skins. These are shown below:
 
-![map-skins](images/map-skins.png)
+![map-skins](images/map-skins.png) 
+
+
+ @[template - Material skin is available only in Lightweight mode](/_templates/common/skins-notes.md#material-only-in-lightweight) 
+
+
 
 
 # See Also

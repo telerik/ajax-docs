@@ -16,7 +16,12 @@ position: 4
 
 **RadTabStrip** is installed with a number of common skins:
 
-![](images/tabstrip-skins.png)
+![](images/tabstrip-skins.png) 
+
+
+ @[template - Material skin is available only in Lightweight mode](/_templates/common/skins-notes.md#material-only-in-lightweight) 
+
+
 
 
 

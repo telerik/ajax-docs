@@ -16,7 +16,12 @@ To apply a skin to a **RadToggleButton** control, set its **Skin** property.
 
 **RadToggleButton** is installed with a number of preset skins. These are shown below:
 
-![RadToggleButton-skins](images/radtogglebutton-skins.png)
+![RadToggleButton-skins](images/radtogglebutton-skins.png) 
+
+
+ @[template - Material skin is available only in Lightweight mode](/_templates/common/skins-notes.md#material-only-in-lightweight) 
+
+
 
 ## Using Custom Images in a State
 

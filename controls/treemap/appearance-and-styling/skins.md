@@ -18,4 +18,9 @@ position: 0
 
 **RadTreeMap** is installed with a number of preset skins:
 
-![treemap skinsthumb](images/treemap-skins.png)
+![treemap skinsthumb](images/treemap-skins.png) 
+
+
+ @[template - Material skin is available only in Lightweight mode](/_templates/common/skins-notes.md#material-only-in-lightweight) 
+
+

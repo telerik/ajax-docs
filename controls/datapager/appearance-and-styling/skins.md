@@ -17,7 +17,12 @@ By default all controls in Telerik controls for ASP.NET.AJAX suite take a new po
 All resources (scripts, skins, etc.) are implemented as **Embedded WebResources** in ASP.NET 3.x/4.x for a very easy and convenient deployment. The only thing you now need to do is drag Telerik RadDataPager for ASP.NET AJAX from your toolbox onto your web page (no external files will be required) and Telerik RadDataPager will use its default skin.
 
 Below is a set of some of the Telerik RadDataPager skins:
-![RadDataPager Skins](images/datapager-skins.png)
+![RadDataPager Skins](images/datapager-skins.png) 
+
+
+ @[template - Material skin is available only in Lightweight mode](/_templates/common/skins-notes.md#material-only-in-lightweight) 
+
+
 
 
 ## RadDataPager CSS classes

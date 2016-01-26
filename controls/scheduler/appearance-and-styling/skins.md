@@ -14,7 +14,12 @@ position: 1
 
 The visual appearance of **RadScheduler** can be changed by applying different skins.Specify a skin for the scheduler by setting the **Skin** property. **RadScheduler** supports a number of built-in skins:
 
-![Skins tumb](images/scheduler-skins.png)
+![Skins tumb](images/scheduler-skins.png) 
+
+
+ @[template - Material skin is available only in Lightweight mode](/_templates/common/skins-notes.md#material-only-in-lightweight) 
+
+
 
 
 ## Customizing Skins

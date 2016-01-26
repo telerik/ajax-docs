@@ -16,7 +16,12 @@ To apply a skin to a **RadDiagram** control, set its **Skin** property.
 
 **RadDiagram** is installed with a number of preset skins. These are shown below:
 
-![diagram-skins](images/diagram-skins.png)
+![diagram-skins](images/diagram-skins.png) 
+
+
+ @[template - Material skin is available only in Lightweight mode](/_templates/common/skins-notes.md#material-only-in-lightweight) 
+
+
 
 
 # See Also

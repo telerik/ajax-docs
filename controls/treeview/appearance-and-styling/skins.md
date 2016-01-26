@@ -15,7 +15,12 @@ To make customizing the appearance of **RadTreeView** as easy as possible, the c
 
 **RadTreeView** comes with a number of built-in skins:
 
-![RadTreeView Skins](images/treeview-skins.png)
+![RadTreeView Skins](images/treeview-skins.png) 
+
+
+ @[template - Material skin is available only in Lightweight mode](/_templates/common/skins-notes.md#material-only-in-lightweight) 
+
+
 
 
 

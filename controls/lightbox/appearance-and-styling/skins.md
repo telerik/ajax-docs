@@ -19,7 +19,12 @@ position: 2
 These are the skins provided by Telerik. They are embedded in the **Telerik.Web.UI.Skins.dll** assembly (except the Default one). To use a built-in skin the user only needs to set the **Skin** property of the control.
 
 Below is a set of the Telerik RadLightBox skins:
-![lightbox skins](images/lightbox-skins.png)
+![lightbox skins](images/lightbox-skins.png) 
+
+
+ @[template - Material skin is available only in Lightweight mode](/_templates/common/skins-notes.md#material-only-in-lightweight) 
+
+
 
 # See Also
 

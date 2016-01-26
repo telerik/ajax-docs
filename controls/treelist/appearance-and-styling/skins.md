@@ -19,7 +19,12 @@ RadTreeList uses skins to control its overall look-and-feel. A skin is a set of 
 These are the skins provided by Telerik. They are embedded in the Telerik.Web.UI.dll assembly as web resources. To use a built-in skin the user only needs to set the **Skin** property of the control. Built-in skins are also provided in "C:\Program Files\Telerik\UI for ASP.NET AJAX QX 20XX\Skins".
 
 Below is a set of the Telerik RadTreeList skins:
-![RadTreeList Skins](images/treelist-skins.png)
+![RadTreeList Skins](images/treelist-skins.png) 
+
+
+ @[template - Material skin is available only in Lightweight mode](/_templates/common/skins-notes.md#material-only-in-lightweight) 
+
+
 
 >note With Q2 2011 release of UI for ASP.NET AJAX RadTreeList has four new skins (Transparent + Office2010 variations). To use them you should add the Telerik.Web.UI.Skins assembly to your Bin folder. For more information refer to [this blog post](http://blogs.telerik.com/aspnet-ajax/posts/11-07-05/new-telerik-ajax-skins-assembly.aspx).
 >Since Q3 2011 all the built-in skins (except the Default one) have been relocated to the Telerik.Web.UI.Skins.dll assembly.Also new Metro skin has been added for RadTreeList.

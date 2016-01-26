@@ -16,5 +16,10 @@ To apply a skin, set the Skin server-side property of the control. You can set i
 
 **RadRating** is installed with a number of predefined skins:
 
-![radrating-skins](images/rating-skins.png)
+![radrating-skins](images/rating-skins.png) 
+
+
+ @[template - Material skin is available only in Lightweight mode](/_templates/common/skins-notes.md#material-only-in-lightweight) 
+
+
 

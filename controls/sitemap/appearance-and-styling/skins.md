@@ -16,6 +16,11 @@ To make customizing the appearance of **RadSiteMap** as easy as possible, the co
 
 The control comes with a number of built-in skins:
 
-![Skins](images/sitemap-skins.png)
+![Skins](images/sitemap-skins.png) 
+
+
+ @[template - Material skin is available only in Lightweight mode](/_templates/common/skins-notes.md#material-only-in-lightweight) 
+
+
 
 

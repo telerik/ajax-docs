@@ -15,4 +15,9 @@ position: 0
 ## Built-in skins
 
 These are the skins provided by Telerik. They are embedded in the **Telerik.Web.UI.Skins.dll** assembly (except the Default one). To use a built-in skin you need to set the **Skin** property of the control.Below is a set of the Telerik **DataForm** skins:
-![Rad Data Form](images/dataform-skins.png)
+![Rad Data Form](images/dataform-skins.png) 
+
+
+ @[template - Material skin is available only in Lightweight mode](/_templates/common/skins-notes.md#material-only-in-lightweight) 
+
+

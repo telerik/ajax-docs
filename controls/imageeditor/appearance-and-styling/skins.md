@@ -19,7 +19,12 @@ To apply a skin to a **RadImageEditor** control, set its **Skin** property.
 **RadImageEditor** is installed with a number of preset skins. These are shown below:
 
 
-![RadImageEditor-skins](images/imageeditor-skins.png)
+![RadImageEditor-skins](images/imageeditor-skins.png) 
+
+
+ @[template - Material skin is available only in Lightweight mode](/_templates/common/skins-notes.md#material-only-in-lightweight) 
+
+
 
 
 ## Customizing Skins

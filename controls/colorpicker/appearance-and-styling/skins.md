@@ -19,7 +19,12 @@ To apply a skin, set the **Skin** property of the **RadColorPicker** control. Yo
 **RadColorPicker** is installed with a number of predefined skins:
 
 
-![radcolorpicker-skins](images/colorpicker-skins.png)
+![radcolorpicker-skins](images/colorpicker-skins.png) 
+
+
+ @[template - Material skin is available only in Lightweight mode](/_templates/common/skins-notes.md#material-only-in-lightweight) 
+
+
 
 
 ## Customizing Skins

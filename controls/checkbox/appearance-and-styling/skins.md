@@ -16,7 +16,12 @@ To apply a skin to a **RadCheckBox** control, set its **Skin** property.
 
 **RadCheckBox** is installed with a number of preset skins. These are shown below:
 
-![RadCheckBox-skins](images/checkbox-skins.png)
+![RadCheckBox-skins](images/checkbox-skins.png) 
+
+
+ @[template - Material skin is available only in Lightweight mode](/_templates/common/skins-notes.md#material-only-in-lightweight) 
+
+
 
 ## Customizing Skins
 

@@ -16,7 +16,12 @@ The **RadInput** controls use **skins** to control their overall look-and-feel. 
 
 The **RadInput** controls are installed with a number of preset skins. These are shown below:
 
-![RadInput Skins](images/input-skins.png)
+![RadInput Skins](images/input-skins.png) 
+
+
+ @[template - Material skin is available only in Lightweight mode](/_templates/common/skins-notes.md#material-only-in-lightweight) 
+
+
 
 
 ## Not using skins

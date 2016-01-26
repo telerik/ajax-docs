@@ -16,7 +16,12 @@ To make customizing the appearance of **RadComboBox** as easy as possible, the c
 
 The control comes with a number of built-in skins:
 
-![ComboBox Skins Thumbnails](images/combobox-skins.png)
+![ComboBox Skins Thumbnails](images/combobox-skins.png) 
+
+
+ @[template - Material skin is available only in Lightweight mode](/_templates/common/skins-notes.md#material-only-in-lightweight) 
+
+
 
 
 ## Customizing Skins

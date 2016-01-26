@@ -16,7 +16,12 @@ To apply a skin, set the **Skin** property of the **RadSlider** control. Set the
 
 **RadSlider** is installed with a number of preset skins. These are shown below:
 
-![radslider-skins](images/slider-skins.png)
+![radslider-skins](images/slider-skins.png) 
+
+
+ @[template - Material skin is available only in Lightweight mode](/_templates/common/skins-notes.md#material-only-in-lightweight) 
+
+
 
 
 ## Customizing Skins

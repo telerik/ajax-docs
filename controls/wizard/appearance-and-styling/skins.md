@@ -21,4 +21,9 @@ To apply a skin to a **RadWizard** control, set its **Skin** property.
 **RadWizard** is installed with a number of preset skins. These are shown below:
 >caption 
 
-![wizard-skins](images/wizard-skins.png)
+![wizard-skins](images/wizard-skins.png) 
+
+
+ @[template - Material skin is available only in Lightweight mode](/_templates/common/skins-notes.md#material-only-in-lightweight) 
+
+

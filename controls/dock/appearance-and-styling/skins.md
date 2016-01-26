@@ -34,7 +34,12 @@ To apply a skin, set the **Skin** property of the **RadDockLayout** control, the
 
 * Setting the **Skin** property of **RadDock** changes only the appearance of the **RadDock** control and overrides the **Skin** property of any parent **RadDockZone** or **RadDockLayout**.
 
-The RadDock controls are installed with a number of preset skins:![dock skins thumb](images/dock-skins.png)
+The RadDock controls are installed with a number of preset skins:![dock skins thumb](images/dock-skins.png) 
+
+
+ @[template - Material skin is available only in Lightweight mode](/_templates/common/skins-notes.md#material-only-in-lightweight) 
+
+
 
 
 ## Customizing Skins
