@@ -55,7 +55,12 @@ The following controls offer WAI-ARIA support:
 
 * [Window]({%slug window/overview%})
 
-##
+* [RadAutoCompleteBox]({%slug autocompletebox/overview%})
+
+* [RadButton]({%slug button/telerik's-asp.net-button-overview%})
+
+* [RadAlert, RadConfirm, RadPrompt]({%slug window/alert,-confirm,-prompt-dialogs/overview%})
+
 
 To enable WAI-ARIA support, you need to set the **EnableAriaSupport** property of the control to **true**.
 
