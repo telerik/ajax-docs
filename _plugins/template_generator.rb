@@ -1,5 +1,7 @@
 module Reading
   class TemplateGenerator < Jekyll::Generator
+        priority :highest
+        
 		def generate(site)	
 			@site = site
 			@converter = site.getConverterImpl(Jekyll::Converters::Markdown)	
