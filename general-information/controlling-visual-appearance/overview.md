@@ -24,6 +24,10 @@ The visual appearance of Telerik UI for ASP.NET AJAX is defined through "skins".
 
 To use a skin you just need to set the **Skin** property of the control to the designated skin name.Keep in mind that skin names are case-sensitive. You can set the Skin property declaratively, in design time or from code-behind.
 
+
+>note @[template - Material skin is available only in Lightweight mode](/_templates/common/skins-notes.md#material-only-in-lightweight)
+
+
 >important If you are using a custom skin, you need to set the **EnableEmbeddedSkins** property to **false** .	If you don't do that, the control will try to register an embedded skin with the specified name and will fail with an exception. For more information you can check the [How skins work]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/how-skins-work%}) and [Skin registration]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/skin-registration%}) topics.
 
 ## Setting the skin from design time

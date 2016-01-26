@@ -24,6 +24,8 @@ These are the skins provided by Telerik. Since Q3 2011 they are embedded in the 
 
 1. **Glow**
 
+1. **Material** (available for the [Lightweight RenderMode]({%slug controls/render-modes%}) only)
+
 1. **Metro**
 
 1. **MetroTouch**
@@ -55,6 +57,10 @@ These are the skins provided by Telerik. Since Q3 2011 they are embedded in the 
 1. **Windows7**
 
 >important The **Bootstrap** skin has **no _font-size_** specified. This means that the Telerik UI for ASP.NET AJAX controls will inherit the font-size setting from the page (or their nearest parent element). This facilitates	customizations on the skin and integrating it in existing templates. Not all font-sizes may result in flawless appearance, however. The controls are tested with, and designed for **14px Arial** font.
+
+
+>note @[template - Material skin is available only in Lightweight mode](/_templates/common/skins-notes.md#material-only-in-lightweight)
+
 
 >note The **Hay** , **Forest** , **Sitefinity** and **Transparent** skins are obsolete and have been removed from the Telerik.Web.UI.Skins.dll assembly as of **Q1 2014** .	You can find more information on the matter in [this blog post](http://blogs.telerik.com/aspnet-ajax/posts/13-04-11/6-telerik-asp.net-ajax-skins-going-obsolete).
 
