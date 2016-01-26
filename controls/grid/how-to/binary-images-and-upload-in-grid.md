@@ -27,10 +27,16 @@ The image will be sized automatically to **ImageHeight** and **ImageWidth** pixe
 Additionally, you can set the **DataAlternateTextField** property to specify by which field in the grid source the column will be sorted/filtered. For the filtering you must also set explicitly the **DataType** property of the column to the type of the field specified through the DataAlternateTextField property (System.String in the common case). You can also apply format using the **DataAlternateTextFormatString** property.
 
 
->caption  
+You need to register the http handler of the RadBinaryImage control (which is part of built-in **GridBinaryImageColumn**) manually in the web.config file to ensure that it will be served as expected when the page is rendered.
 
-| ![](images/hs_note.gif) | You need to register the http handler of the RadBinaryImage control (which is part of built-in GridBinaryImageColumn) manually in the web.config file to ensure that it will be served as expected when the page is rendered. Namely: **web.config** <httpHandlers><remove path="*.asmx" verb="*" />...................................................... **<add path="Telerik.Web.UI.WebResource.axd" type="Telerik.Web.UI.WebResource" verb="*" validate="false" />** </httpHandlers> |
-| ------ | ------ |
+
+````XML
+<httpHandlers>
+    <remove path="*.asmx" verb="*" />
+    <add path="Telerik.Web.UI.WebResource.axd" type="Telerik.Web.UI.WebResource" verb="*" validate="false" />
+</httpHandlers> |
+````
+
 
 >caution If you would like to set the GridBinaryImageColumn's image filename which will appear inside SaveAs browser dialog when image is saved, set the *SavedImageName* property of the column
 >
@@ -69,7 +75,6 @@ function validateRadUpload(source, e) {
   } 
 }
 </telerik:RadCodeBlock>
-
 ````
 ````ASP.NET
 <telerik:RadAjaxPanel ID="RadAjaxPanel1" runat="server" ClientEvents-OnRequestStart="conditionalPostback">
@@ -200,4 +205,5 @@ Protected Function TrimDescription(ByVal description As String) As String
     Return description
 End Function
 ````
+
 
