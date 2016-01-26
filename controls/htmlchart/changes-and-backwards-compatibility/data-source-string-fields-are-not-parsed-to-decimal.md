@@ -10,13 +10,13 @@ position: 3
 
 # Data Source String Fields Are Not Parsed to Decimal
 
-As of **Q2 2015 SP1**, **RadHtmlChart** doesn't try to parse automatically string fields from the data source to a decimal format. This change may lead to the cases described below.
+As of **Q2 2015 SP1**, **RadHtmlChart** doesn't try to automatically parse string fields from the data source to a decimal format. This change may lead to the cases described below.
 
 * [XAxis and Legend Labels Are Not 'TryParsed' to Decimal](#xaxis-and-legend-labels-are-not-tryparsed-to-decimal)
 
 * [Incorrect Data Rendering When Data Source Field Types Are Not Defined](#incorrect-data-rendering-when-data-source-field-types-are-not-defined)
 
->important You should always define the type of the data source fields, so that the chart can properly process and render the data.
+>important You should always define the type of the data source fields so that the chart can properly process and render the data.
 
 ## XAxis and Legend Labels Are Not 'TryParsed' to Decimal
 
@@ -113,7 +113,7 @@ End Function
 
 If data source fields types are not defined, the data may not be properly processed and rendered by the chart since **Q2 2015 SP1**.  You can see the difference in **Figure 2** and the code that creates the image in **Example 2**.
 
->caption Figure 2: Data is not rendered properly if data source field type is not defined.
+>caption Figure 2: Data is not rendered properly if the data source field type is not defined.
 
 ![incorrect-correct-data-rendering](images/incorrect-correct-data-rendering.png)
 
