@@ -70,8 +70,8 @@ The **RadSocialShare** control also allows the user to use the system's mail cli
 
 
 
-Clicking the MailTo button results in the default mail agent opening a blank e-mail template with the `UrlToShare` property preset as the message body. <<Comment: Please review that my change to MailTo button did not create an error.>>The user can fully customize the mail and it will be sent from his/her account that is set up in the local software.
-<<Comment: "the local software" sounds odd to me. I think you mean, "set up on their local machine." or perhaps "set up use their local e-mail client.">>
+Clicking the MailTo button results in the default mail agent opening a blank e-mail template with the `UrlToShare` property preset as the message body. The user can fully customize the mail and it will be sent from his/her account that is set up in the local e-mail client.
+
 # See Also
 
  * [The `<smtp>` element in the web.config](http://msdn.microsoft.com/en-us/library/ms164240.aspx)
