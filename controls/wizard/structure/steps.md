@@ -26,7 +26,7 @@ Each RadWizardStep has the following properties:
 
 * **Enabled** - enables/disables the RadWizardStep.
 
-* **AllowReturn** - allows/prevents the step from being activated more than once. The default value is **"True"** and users are able to go back to this step as many times as they want.
+* **AllowReturn** - allows/prevents the step from being activated more than once. The default value is **"True"** and users are able to go back to this step as many times as they want. `AllowReturn="False"` is tracked correctly when the steps are changed only on the client or only on the server.
 
 * **DisplayCancel** - shows/hides the cancel button for a step.
 
