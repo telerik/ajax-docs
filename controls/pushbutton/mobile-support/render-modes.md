@@ -10,18 +10,10 @@ position: 3
 
 # Render Modes
 
-**RadPushButton** supports only **Lightweight** render mode. Generally it is exposed via the **RenderMode** property that can have five possible values - **Classic**, **Lightweight**, **Native**, **Mobile** and **Auto**.
 
-The possible options are:
+@[template](/_templates/common/render-mode.md#buttons-supported-modes "control: RadPushButton")
 
-* **Classic**, **Native**, **Mobile**—these modes are not supported. If you set them, the mode will fall back automatically to **Lightweight**.
-
-* **Lightweight**—this is the default mode and it emphasizes on semantic HTML and CSS3 which makes the control easy to customize (including custom skins creation).
-
-* **Auto**—this mode makes each control choose the appropriate rendering mode according to the used browser.
-
->important RadPushButton, as well as the other controls included in the Telerik UI for ASP.NET AJAX suite that utilize render modes, support only one type of render mode per page.This includes mode being set for a standalone RadPushButton. All such controls must have the same RenderMode on a given page.This also includes instances from user controls and master pages.
-
+@[template](/_templates/common/render-mode.md#do-not-mix-modes-buttons "control: RadPushButton")
 
 
 ## Setting Render Mode

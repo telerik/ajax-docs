@@ -10,17 +10,9 @@ position: 3
 
 # Render Modes
 
-**RadImageButton** has two different render modes (**Lightweight** and **Native**) that can change the actual CSS that is used. They are exposed via the **RenderMode** property that can have five possible values - **Classic**, **Lightweight**, **Native**, **Mobile** and **Auto**.
+@[template](/_templates/common/render-mode.md#buttons-supported-modes "control: RadImageButton")
 
-The possible options are:
-
-* **Classic**, **Native**, **Mobile**—these modes are not supported. If you set them, the mode will fall back automatically to **Lightweight**.
-
-* **Lightweight**—this is the default mode and it emphasizes on semantic HTML and CSS3 which makes the control easy to customize (including custom skins creation).
-
-* **Auto**—this mode makes each control choose the appropriate rendering mode according to the used browser.
-
->important RadImageButton, as well as the other controls included in the Telerik UI for ASP.NET AJAX suite that utilize render modes, supports only one type of render mode per page. This includes mode being set for a standalone RadImageButton. All such controls must have the same RenderMode on a given page. This also includes instances from user controls and master pages.
+@[template](/_templates/common/render-mode.md#do-not-mix-modes-buttons "control: RadImageButton")
 
 
 
