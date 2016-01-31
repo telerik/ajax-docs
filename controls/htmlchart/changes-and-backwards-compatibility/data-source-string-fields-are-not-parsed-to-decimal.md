@@ -28,7 +28,7 @@ The old ([incorrect](http://feedback.telerik.com/Project/108/Feedback/Details/12
 
 ![data-source-string-fields-are-not-parsed-to-decimal](images/data-source-string-fields-are-not-parsed-to-decimal.png)
 
->caption Example 1: Binding RadHtmlChart to a DataTable that contains a string column whose values can be parsed to a decimal format. Such values are not parsed by RadHtmlChart.
+>caption Example 1: Binding RadHtmlChart to a DataTable that contains a string column whose values can be parsed to a decimal format. These values are not parsed by RadHtmlChart.
 
 ````ASP.NET
 <telerik:RadHtmlChart ID="ColumnChart1" runat="server" Width="200px" Height="150px">
@@ -111,7 +111,7 @@ End Function
 
 ## Incorrect Data Rendering When Data Source Field Types Are Not Defined
 
-If data source fields types are not defined, the data may not be properly processed and rendered by the chart since **Q2 2015 SP1**.  You can see the difference in **Figure 2** and the code that creates the image in **Example 2**.
+As of **Q2 2015 SP1**, if data source fields types are not defined, the data may not be properly processed and rendered by the chart.  You can see the difference in **Figure 2** and the code that creates the image in **Example 2**.
 
 >caption Figure 2: Data is not rendered properly if the data source field type is not defined.
 
