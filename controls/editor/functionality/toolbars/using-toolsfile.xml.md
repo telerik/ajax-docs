@@ -15,7 +15,8 @@ This article shows how you can configure and fine-tune the **RadEditor** tools b
 * [ToolsFile XML structure](#toosfile-xml-structure)
 
 * [Adding Tools](#adding-tools)
-	* [Tools Collection](#tools-collectiontoolsandheadetools)
+	* [Tools Collection](#tools-collection--toolsandheadertools)
+	* [Tools Element](#tools-element---tools)
 	* [Tool Element](#tool-element---tool)
 		* [Example 1: Adding a plain Bold tool to the toolgroup.](#example-1)
 		* [Example 2: Assigning a keyboard shortcut for the Bold tool.](#example-2)
@@ -100,11 +101,14 @@ The **ToolsFile** must have a **valid** XML structure as shown below:
 
 The `headertools` element has no attributes. You can see how it can be configured and populated in the [Phone Layout Toolbar Configuration]({%slug editor/mobile-support/phone-layout/toolbar-configuration%}).
 
+
+### Tools Element - `<tools>`
+
 >caption Attributes for the `<tools>` element.
 
 |Attribute|Description|
 | ------ | ------ |
-| **name** |This string will identify the toolbar.|
+| **name** |This string will identify the toolbar. This is the rendered name of the tool group when a RibbonBar is used.|
 | **tab** *|This string will set a name to the **Tab** in the **ToolZone** _([Phone Layout Toolbar Configuration]({%slug editor/mobile-support/phone-layout/toolbar-configuration%}))_.|
 | **context** *|Configures the contextual behavior of a **Tab** _([Phone Layout Toolbar Configuration]({%slug editor/mobile-support/phone-layout/toolbar-configuration%}))_.|
 
