@@ -10,15 +10,9 @@ position: 1
 
 # Primary Action Button
 
+@[template](/_templates/common/primary-action-button.md#intro-base-release "value1: **RadButton**") For older versions, see the [Older Versions](#older-versions) section.
 
-**RadButton** can be a Primary Action Button (**Figure 1**). This feature is built-in as of **Q1 2016**. For older versions, see the [Older Versions](#older-versions) section.
-
-The primary action button on the form has bright and saturated colors to pop up more and catch attention easily. You should use a primary action button to make the default/preferred/main/safe operation on the form stand out. At this point the rest of the buttons with their default appearance become Secondary Action buttons and do not draw as much attention.
-
-
->caption Figure 1: Primary RadButton next to a default RadButton.
-
-![Primary action button overview](images/primary-action-button.png)
+@[template](/_templates/common/primary-action-button.md#intro-main "control: **RadButton**")
 
 To switch to a primary action button, set the `Primary` property of the **RadButton** control to `true` and its **[RenderMode]({%slug button/mobile-support/render-modes%})** property to `Lightweight` (**Example 1**). The property defaults to `false` to result in the regular (secondary) button appearance for most cases.
 

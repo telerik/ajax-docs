@@ -10,15 +10,16 @@ position: 2
 
 # Primary Action Button
 
-@[template](/_templates/common/primary-action-button.md#intro "control1: **RadPushButton**, control2: **RadPushButton**")
+@[template](/_templates/common/primary-action-button.md#intro-base "control: **RadPushButton**")
 
-@[template](/_templates/common/primary-action-button.md#configuration-buttons "control: RadPushButton")
+@[template](/_templates/common/primary-action-button.md#intro-main "control: **RadPushButton**")
+
+@[template](/_templates/common/primary-action-button.md#configuration "control: RadPushButton")
 
 ````ASP.NET
 <telerik:RadPushButton runat="server" ID="RadPushButton1" Primary="true" Text="Primary Button"></telerik:RadPushButton>
 <telerik:RadPushButton runat="server" ID="RadPushButton2" Text="Default Button"></telerik:RadPushButton>
 ````
-
 
 ## See Also
 
