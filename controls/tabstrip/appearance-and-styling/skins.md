@@ -50,3 +50,7 @@ For more information on the CSS File structure, see [Understanding the Skin CSS 
  * [Adding Images to Tabs]({%slug tabstrip/appearance-and-styling/adding-images-to-tabs%})
 
  * [Controlling Appearance]({%slug tabstrip/appearance-and-styling/controlling-appearance%})
+
+ * [Telerik ThemeBuilder for ASP.NET AJAX](http://themebuilder.telerik.com/)
+
+

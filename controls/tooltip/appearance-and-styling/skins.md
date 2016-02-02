@@ -33,3 +33,6 @@ To apply a skin, set the **Skin** property of the **RadToolTip** or **RadToolTip
 # See Also
 
  * [Smart Tag]({%slug tooltip/design-time/smart-tag%})
+ * [Telerik ThemeBuilder for ASP.NET AJAX](http://themebuilder.telerik.com/)
+
+

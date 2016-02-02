@@ -28,3 +28,7 @@ To apply a skin to a **RadProgressBar** control, set its **Skin** property.
  * [ASP.NET ProgressBar Control Product Overview]({%slug progressbar/overview%})
 
  * [RadProgressBar Getting Started]({%slug progressbar/getting-started/overview%})
+
+ * [Telerik ThemeBuilder for ASP.NET AJAX](http://themebuilder.telerik.com/)
+
+

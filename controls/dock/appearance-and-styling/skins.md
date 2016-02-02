@@ -63,3 +63,6 @@ For information on the CSS File structure, see the Understanding the Skin CSS Fi
  * [Highlighting]({%slug dock/structure/dock-zones/highlighting%})
 
  * [Styling Custom Commands]({%slug dock/commands/styling-custom-commands%})
+
+ * [Telerik ThemeBuilder for ASP.NET AJAX](http://themebuilder.telerik.com/)
+

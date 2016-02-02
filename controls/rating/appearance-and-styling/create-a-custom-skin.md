@@ -116,3 +116,7 @@ Explained below is a simple method for modifying the image sprite of RadRating i
  * [Understanding the Skin CSS File]({%slug rating/appearance-and-styling/understanding-the-skin-css-file%})
 
  * [CSS Classes]({%slug rating/appearance-and-styling/css-classes%})
+
+ * [Telerik ThemeBuilder for ASP.NET AJAX](http://themebuilder.telerik.com/)
+
+

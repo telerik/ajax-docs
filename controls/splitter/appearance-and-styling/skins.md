@@ -37,3 +37,10 @@ You can tweak the existing skins or create your own. Each skin has two main elem
 The stylesheet for a **RadSplitter** skin has the name **Splitter.[SkinName].css** and can be found in the **...Skins/[SkinName]** directory. The images are found in the **...Skins/[SkinName]/Splitter** directory. For example, the stylesheet for the "Black" skin is called Splitter.Black.css and is located in the ...Skins/Black directory. The images are found in the ...Skins/Black/Splitter directory. The images are referenced by name from within the stylesheet.
 
 For more information on the CSS File structure, see [Understanding the Skin CSS File]({%slug splitter/appearance-and-styling/understanding-the-skin-css-file%}).
+
+
+## See Also
+
+ * [Telerik ThemeBuilder for ASP.NET AJAX](http://themebuilder.telerik.com/)
+
+

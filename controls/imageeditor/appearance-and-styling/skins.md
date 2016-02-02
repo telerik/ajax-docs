@@ -38,3 +38,10 @@ You can tweak the existing skins or create your own. Each skin has two main elem
 1. Set the **EnableEmbeddedSkins** property of the control to **False**.
 
 The stylesheet for a **RadImageEditor** skin has the name **ImageEditor.[SkinName].css** and can be found in the **...Skins/[SkinName]** directory. The images are found in the **...Skins/[SkinName]/ImageEditor** directory. For example, the stylesheet for the "Black" skin is called ImageEditor.Black.css and is located in the ...Skins/Black directory. The images are found in the ...Skins/Black/ImageEditor directory. The images are referenced by name from within the stylesheet.
+
+
+## See Also
+
+ * [Telerik ThemeBuilder for ASP.NET AJAX](http://themebuilder.telerik.com/)
+
+

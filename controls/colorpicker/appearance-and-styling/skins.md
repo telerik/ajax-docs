@@ -48,3 +48,7 @@ For information on the CSS File structure, see the [Understanding the Skin CSS F
  * [Creating a Custom Skin]({%slug colorpicker/appearance-and-styling/creating-a-custom-skin%})
 
  * [Understanding the Skin CSS File]({%slug colorpicker/appearance-and-styling/understanding-the-skin-css-file%})
+
+ * [Telerik ThemeBuilder for ASP.NET AJAX](http://themebuilder.telerik.com/)
+
+

@@ -47,3 +47,7 @@ For more information on the CSS File structure, see [Understanding the Skin CSS 
  * [Adding Images to Items]({%slug panelbar/appearance-and-styling/adding-images-to-items%})
 
  * [Templates Overview]({%slug panelbar/templates/overview%})
+
+ * [Telerik ThemeBuilder for ASP.NET AJAX](http://themebuilder.telerik.com/)
+
+
