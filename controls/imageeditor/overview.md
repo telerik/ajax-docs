@@ -27,3 +27,5 @@ position: 0
 * **Undo/Redo Actions** - RadImageEditor saves all the operations, so each change performed on the image can be reverted or re-applied again. The operations stack is cleared on postbacks, because we assume the user won't initiate a postback unless she is finished with the editing.
 
 * **Image Operations** - A variety of operations can be performed on a given image. This includes rotation, resizing, changing the transparency, cropping and many more. For closer look at the specific operations please observe the different examples of the ImageEditor.
+
+* **Image formats** - RadImageEditor can work with four different image formats: JPEG, PNG, BMP and non-animated GIF.
