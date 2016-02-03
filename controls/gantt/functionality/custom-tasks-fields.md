@@ -76,9 +76,9 @@ End Class
 public class CustomTask : Task
 {
     ...
-    protected override IDictionary<string, object> GetSerialzationData()
+    protected override IDictionary<string, object> GetSerializationData()
     {
-        var dict = base.GetSerialzationData();
+        var dict = base.GetSerializationData();
 
         dict["Description"] = Description;
 
@@ -97,8 +97,8 @@ public class CustomTask : Task
 Public Class CustomTask
     Inherits Task
     ...
-    Protected Overrides Function GetSerialzationData() As IDictionary(Of String, Object)
-        Dim dict = MyBase.GetSerialzationData()
+    Protected Overrides Function GetSerializationData() As IDictionary(Of String, Object)
+        Dim dict = MyBase.GetSerializationData()
 
         dict("Description") = Description
 
