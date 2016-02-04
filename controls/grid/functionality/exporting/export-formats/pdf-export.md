@@ -486,9 +486,9 @@ Until now, the overflowing text was carried over the next lines only when there 
 
 Below, you can find the answers of some commonly asked questions
 
-Q: How to insert newline character - *BR* doesn't work?
+Q: How to insert newline character?
 
-A: You can use *P* instead of *BR*
+A: You can use *\<br/\>* tag to add a new line. Another solution is to use paragraph *\<p\>\<p/\>*.
 
 Q: How to fit XX columns on my page?
 
