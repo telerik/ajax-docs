@@ -62,3 +62,5 @@ Legal Values of the -moz-user-select css property
 |toggle|The contents are selected "following a standard toggling content model"[[1]](http://www.blooberry.com/indexdot/css/properties/extensions/nsextensions.htm).|
 |tri-state|unknown|
 |-moz-all|unknown|
+
+>important Typically, using `contenteditable="false"` can serve only custom needs. RadEditor tools and commands might fail to operate normally with non-edutable elements.
