@@ -162,7 +162,7 @@ In examples **1** and **2** you can see how defining initially the min and max v
 
 ## See Also
 
-* [Demo: Panning and Zooming](http://demos.telerik.com/aspnet-ajax/HtmlChart/Examples/Functionality/Panning-Zooming/DefaultCS.aspx)
+* [Demo: Panning and Zooming](http://demos.telerik.com/aspnet-ajax/HtmlChart/Examples/Functionality/Pan-Zoom/DefaultCS.aspx)
 
 * [Kendo Chart API - Pannable](http://docs.telerik.com/KENDO-UI/api/javascript/dataviz/ui/chart#configuration-pannable)
 
