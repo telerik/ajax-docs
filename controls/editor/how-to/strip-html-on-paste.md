@@ -12,7 +12,7 @@ position: 7
 
 Here you can see a basic solution to strip desired HTML tags or portions of the content that is going to be pasted in **RadEditor**. 
 
-In order to implement that you will need to handle the [OnClientPasteHtml event]({%slug editor/client-side-programming/events/onclientpastehtml%}). Where any stripping logic should be processed when the command name raised teh event is **Paste**. For the example here, we chose to show how to strip `<strong>`, `<em>` and `<span>` tags.
+In order to implement that you will need to handle the [OnClientPasteHtml event]({%slug editor/client-side-programming/events/onclientpastehtml%}). Where any stripping logic should be processed when the command name raised the event is **Paste**. For the example here, we chose to show how to strip `<strong>`, `<em>` and `<span>` tags.
 
 >caption Example 1: Example of a custom stripping logic that is processed during paste event of RadEditor.
 
