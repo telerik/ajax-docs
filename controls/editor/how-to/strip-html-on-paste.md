@@ -10,11 +10,14 @@ position: 7
 
 # Strip HTML on Paste
 
-Here you can see a basic solution to strip desired HTML tags or portions of the content that is going to be pasted in **RadEditor**. 
+This help article shows how to strip HTML tags from content that is pasted in **RadEditor**.
 
-In order to implement that you will need to handle the [OnClientPasteHtml event]({%slug editor/client-side-programming/events/onclientpastehtml%}). Where any stripping logic should be processed when the command name raised the event is **Paste**. For the example here, we chose to show how to strip `<strong>`, `<em>` and `<span>` tags.
+In order to implement that you should:
 
->caption Example 1: Example of a custom stripping logic that is processed during paste event of RadEditor.
+1. Handle the [OnClientPasteHtml event]({%slug editor/client-side-programming/events/onclientpastehtml%}); 
+2. Catch the **Paste** command to process and alter the content to be pasted.
+
+>caption Example 1: Basic example for strippping `<strong>`, `<em>` and `<span>` tags on paste in **RadEditor**.
 
 ````ASP.NET
 <telerik:RadEditor runat="server" ID="RadEditor1" OnClientPasteHtml="OnClientPasteHtml" />
@@ -27,7 +30,7 @@ In order to implement that you will need to handle the [OnClientPasteHtml event]
         if (commandName === "Paste") {
             var htmlToBePasted = args.get_value(); // Get the value to be pasted
             
-            // Use Regex to strip the desired HTML content
+            // Use Regex to strip <strong>, <em> and <span> tags.
             htmlToBePasted = htmlToBePasted.replace(/<(\/)*(strong|em|span)[^>]*>/gi, "");
 
             // Set the processed content to the arguments.
