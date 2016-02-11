@@ -72,6 +72,9 @@ navigation:
     "sharepoint/2010":
         title: "SharePoint 2010"
         position: 1
+    "sharepoint/troubleshooting":
+        title: "Troubleshooting"
+        position: 1
     "sharepoint/2010/installation-and-deployment":
         title: "Installation and Deployment"
         position: 0

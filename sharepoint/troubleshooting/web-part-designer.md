@@ -15,7 +15,7 @@ This article lists some suggestions that can help resolve common issues with the
 
 
 
-* Use the .msi installer to istall the controls. This way any additional resources that are required by the designer will be added automatically
+* Use the .msi installer to install the controls. This way any additional resources that are required by the designer will be added automatically
 
 * If you are using Internet Explorer, ensure that **Compatibility Mode** is **Disabled**
 
@@ -36,7 +36,7 @@ This article lists some suggestions that can help resolve common issues with the
 
 * Ensure that the Sharepoint administrator and the IIS processes have permission to access the **SPRadGridWebPartDesignerService.asmx** file located in the *C:\Program Files\Common Files\Microsoft Shared\Web Server Extensions\15\ISAPI* folder
 
-* Enable Network traffic capturing in the browser console and check it the requests made to the server are successfull when opening the designer
+* Enable Network traffic capturing in the browser console and check it the requests made to the server are successful when opening the designer
 
 * Disable Forms Authentication in the IIS settings of the current Sharepoint site
 
