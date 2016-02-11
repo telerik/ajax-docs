@@ -319,13 +319,9 @@ You can find more issues and solutions steps in the [Design-time Troubleshooting
 
 **System.IO.FileLoadException: Could not load file or assembly 'Telerik.Web.UI, Version=xxxx.x.xxx.xx, Culture=neutral, PublicKeyToken=xxxxxxxxxxxxxxxx' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)**
 
-**Cause**:
+**Cause and Solution**:
 
-There is a reference to a version of Telerik.Web.UI in the web.config that is different from the version of the deployed assembly.
-
-**Suggested Solution**:
-
-Update the reference in the web.config to match the version of the deployed assembly.
+Please check [this help article](http://docs.telerik.com/devtools/aspnet-ajax/installation/upgrading-instructions/upgrading-a-trial-to-a-developer-license-or-to-a-newer-version#could-not-load-file-or-assembly-telerikwebui-after-upgrade) for detailed information on what is causing this error and how to handle it.
 
 ## Telerik controls do not work if a Compression Module is used in the project/web site
 
