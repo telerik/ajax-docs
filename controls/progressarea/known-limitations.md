@@ -26,6 +26,7 @@ Here are the known limitations of **RadProgressArea**:
 
 * When an application is run with Visual Studio (under Cassini) it is not possible to cancel the RadProgressArea. The to able to cancel the progress the project should be deployed on IIS.
 
-* The RadProgressArea is not supported under SharePoint. In case you need to use it, however, you can do so with the **RadAsyncUpload** control.
+* There is a possibility that an exception will be thrown if the **RadUploadModule**'s **legacyCasModel**  property is set to true : "Assembly does not allow partially trusted caller "
 
+* **RadProgressArea** works properly in SharePoint environment if the **RadUploadModule** is not present in the web.config
 
