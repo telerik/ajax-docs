@@ -160,46 +160,55 @@ Set the RadImageEditor’s **ToolsFile** property to point to an XML file, which
 ````
 
 
-**Canvas Mode**
+**Canvas Mode (default set of tools)**
 ````XML
 <?xml version="1.0" encoding="utf-8" ?>
 <root>
-  <tools name="MainToolbar">
-    <tool name="Print" togglebutton="true" />
-    <tool name="Save" togglebutton="true" />
-	<tool name="Export" togglebutton="true" />
-    <tool separator="true"/>
-    <tool name="Undo" toolstrip="true" />
-    <tool name="Redo" toolstrip="true" />
-    <tool name="Reset" />
-    <tool separator="true"/>
-    <tool name="Crop" togglebutton="true" />
-    <tool name="Resize" togglebutton="true" />
-    <tool name="Zoom" togglebutton="true" />
-    <tool name="ZoomIn"  />
-    <tool name="ZoomOut" />
-    <tool name="Opacity" togglebutton="true" />
-    <tool name="Rotate" togglebutton="true" />
-    <tool name="RotateRight" />
-    <tool name="RotateLeft"  />
-    <tool name="Flip" togglebutton="true" />
-    <tool name="FlipVertical"   />
-    <tool name="FlipHorizontal" />
-    <tool name="AddText" togglebutton="true" tooltip="Add Text"  />
-	<tool name="InsertImage" togglebutton="true" />
-	<tool separator="true"/>
-	<tool name="BrightnessContrast" togglebutton="true" />
-	<tool name="InvertColor"/>
-	<tool name="Sepia"/>
-	<tool name="Greyscale"/>
-	<tool name="HueSaturation" togglebutton="true" />
-	<tool separator="true"/>
-	<tool name="Pencil" togglebutton="true" />
-	<tool name="DrawCircle" togglebutton="true" />
-	<tool name="DrawRectangle" togglebutton="true" />
-	<tool name="Line" togglebutton="true" />
-  </tools>
+	<tools name="MainToolbar">
+		<tool name="Print" togglebutton="true" />
+		<tool name="Save" togglebutton="true"  />
+		<tool name="Export" togglebutton="true"  />
+		<tool separator="true"/>
+		<tool name="Undo" toolstrip="true" />
+		<tool name="Redo" toolstrip="true" />
+		<tool name="Reset" />
+		<tool separator="true"/>
+		<tool name="Crop" togglebutton="true" />
+		<tool name="Resize" togglebutton="true" />
+		<tool toolstrip="true" name="Zoom" togglebutton="true" enabledefaulttool="true">
+			<tool name="Zoom" />
+			<tool name="ZoomIn" />
+			<tool name="ZoomOut" />
+		</tool>
+		<tool name="Opacity" togglebutton="true" />
+		<tool name="Rotate" togglebutton="true" toolstrip="true" enabledefaulttool="true">
+			<tool name="Rotate" />
+			<tool name="RotateRight" />
+			<tool name="RotateLeft" />
+		</tool>
+		<tool name="Flip" togglebutton="true" toolstrip="true" enabledefaulttool="true">
+			<tool name="Flip" />
+			<tool name="FlipVertical" />
+			<tool name="FlipHorizontal" />
+		</tool>
+		<tool name="AddText" togglebutton="true" />
+		<tool name="InsertImage" togglebutton="true" />
+		<tool separator="true"/>
+		<tool name="BrightnessContrast" togglebutton="true" toolstrip="true" enabledefaulttool="true">
+			<tool name="BrightnessContrast" togglebutton="true" />
+			<tool name="HueSaturation" togglebutton="true" />
+			<tool name="Blur" />
+			<tool name="Sharpen" />
+			<tool name="Greyscale" />
+			<tool name="Sepia" />
+			<tool name="InvertColor" />
+		</tool>
+		<tool name="Pencil" togglebutton="true" toolstrip="true" enabledefaulttool="true">
+			<tool name="Pencil" togglebutton="true" />
+			<tool name="Line" togglebutton="true" />
+			<tool name="DrawRectangle" togglebutton="true" />
+			<tool name="DrawCircle" togglebutton="true" />
+		</tool>
+	</tools>
 </root>
 ````
-
-
