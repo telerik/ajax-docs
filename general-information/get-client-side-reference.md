@@ -14,11 +14,11 @@ This article shows how to get a client-side reference to a **Telerik UI for ASP.
 
 You can quickly navigate through the sections from here:
 * [Using the MS AJAX Approach](#using-the-ms-ajax-approach)
-* [Using Native Methods](#using-native-methods)
+* [Using Plain JavaScript Methods](#using-plain-javascript-methods)
 * [Using jQuery Selectors](#using-jquery-selectors)
 * [Important MS AJAX Events](#important-ms-ajax-events)
 
-The **UI for ASP.NET AJAX** controls are created by following the [IScriptControl interface](https://msdn.microsoft.com/en-us/library/system.web.ui.iscriptcontrol(v=vs.110).aspx) and have the lifecycle of MS AJAX-based controls. Thus, they are initialized during the [Sys.Application.init](https://msdn.microsoft.com/library/bb397532(v=vs.100).aspx) event. And the instance of the control can be accessed during the [Sys.Application.load](https://msdn.microsoft.com/library/bb383829(v=vs.100).aspx) event. You can see how in [Important MS AJAX Events](#important-ms-ajax-events) section.
+The **UI for ASP.NET AJAX** controls are created by implementing the [IScriptControl interface](https://msdn.microsoft.com/en-us/library/system.web.ui.iscriptcontrol(v=vs.110).aspx) and have the lifecycle of MS AJAX-based controls. Thus, they are initialized during the [Sys.Application.init](https://msdn.microsoft.com/library/bb397532(v=vs.100).aspx) event and the instance of the control can be accessed during the [Sys.Application.load](https://msdn.microsoft.com/library/bb383829(v=vs.100).aspx) event at the earliest. You can see how in the [Important MS AJAX Events](#important-ms-ajax-events) section.
 
 ## Using the MS AJAX Approach
 
@@ -45,9 +45,9 @@ MS AJAX exposes the [Sys.Application.findComponent](https://msdn.microsoft.com/l
 
 ## Using Plain JavaScript Methods
 
-Typically, when an **UI for ASP.NET AJAX** control renders on the client, its client-side reference is assigned to the wrapper DOM element and exposed through the `control` property.
+Typically, when an MS AJAX-based control (like the ones from the **UI for ASP.NET AJAX** suite) renders on the client, its client-side reference is assigned to the wrapper DOM element and exposed through the `control` property.
 
-That said, you can use the MS AJAX [$get()](https://msdn.microsoft.com/library/bb397717(v=vs.100).aspx) or the native [document.getElementById()](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById) methods and get the instance via the `control` property. See **Example 2** and **Example 3**.
+This means you can use the MS AJAX [$get()](https://msdn.microsoft.com/library/bb397717(v=vs.100).aspx) or the native [document.getElementById()](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById) methods and get the instance via the `control` property. See **Example 2** and **Example 3**.
 
 >tip We recommend you use server-side scripting tags and get the dyncamically created client ID of the control (`<%= [ControlID].ClientID %>`). If, however, you do not have access to the server-side instance of the control see the options in [Using jQuery Selectors](#using-jquery-selectors) section.
 
@@ -91,13 +91,13 @@ That said, you can use the MS AJAX [$get()](https://msdn.microsoft.com/library/b
 
 ## Using jQuery Selectors
 
-Common scenario is when controls are added via User Controls, Content Templates and other similar techniques, or you need to access the reference in a script file (where server-side scripting is not allowed). In such scenarios, IDs are generated dynamically and getting the client-side reference from Master or main pages cannot be done by accessing the `ClientID` property of the control's server-side instance. 
+Often controls are added via User Controls, Content Templates and other similar techniques, or you need to access the reference in a script file (where server-side scripting is not possible). In such scenarios, IDs are generated dynamically and getting the client-side reference from Master or parent pages cannot be done by accessing the `ClientID` property of the control's server-side instance. 
 
-With the help of the [included jQuery]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/using-jquery/using-jquery%}#using-the-jquery-brought-by-telerik), you can use [attributeEndsWith selector](https://api.jquery.com/attribute-ends-with-selector/) to get the DOM element and access the client-side instance only by using the server-side ID of the control.
+With the help of the [included jQuery]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/using-jquery/using-jquery%}#using-the-jquery-brought-by-telerik), you can use [attributeEndsWith selector](https://api.jquery.com/attribute-ends-with-selector/) to get the DOM element and access the client-side instance only without using the server-side ID of the control.
 
->important If the same server-side ID is used with multiple controls, jQuery will return you all elements that ends with the same ending value. Such scenario should be handled manually as per to the exact requirments.
+>important If the same server-side ID is used with multiple controls, jQuery will return all elements that match the same ending value. Such scenario should be handled according to the exact requirements and scenario.
 
->caption Example 4: Using attributeEndsWith selector to get the client-side instance of a cotnrol.
+>caption Example 4: Using attributeEndsWith selector to get the client-side instance of a control.
 
 ````ASP.NET
 <telerik:RadPushButton runat="server" ID="RadButton1" Text="Button" OnClientClicked="showRadWindow" AutoPostBack="false" />
@@ -116,9 +116,11 @@ With the help of the [included jQuery]({%slug introduction/radcontrols-for-asp.n
 </script>
 ````
 
+>tip You can use other selectors for the ID (e.g., contains), or you can even use the CSS class you can assign to a control or its parent to build the desired jQuery selector.
+
 ## Important MS AJAX Events
 
-The client-side instances of the controls are initialized after their scripts are loaded (after [Sys.Application.init](https://msdn.microsoft.com/library/bb397532(v=vs.100).aspx)). You can reference the client-side instance of a contorl during [Sys.Application.load](https://msdn.microsoft.com/library/bb383829(v=vs.100).aspx) event.
+The client-side instances of the Telerik UI for ASP.NET AJAX controls are initialized after their scripts are loaded (after [Sys.Application.init](https://msdn.microsoft.com/library/bb397532(v=vs.100).aspx)). You can reference the client-side instance of a contorl during [Sys.Application.load](https://msdn.microsoft.com/library/bb383829(v=vs.100).aspx) event at the earliest.
 
 >caption Example 5: Using Sys.Application.load to get the instance.
 
@@ -163,7 +165,7 @@ Sub Page_Load(ByVal Sender As System.Object, ByVal e As System.EventArgs)
 End Sub
 ````
 
->note Using native DOM events, like the [window.load event](https://developer.mozilla.org/en-US/docs/Web/Events/load) might not give you the expected results. The client-side code is loaded dynamically and this event cannot guarantee you that the instances are initialized.
+>note Using native DOM events (like [window.load](https://developer.mozilla.org/en-US/docs/Web/Events/load) or [jQuery's $(document).ready](https://api.jquery.com/ready/) may not give you the expected results. Such events are usualy prior to the Sys.Application.load event and cannot guarantee that the control instances are initialized.
 
 
 ## See Also
@@ -180,7 +182,9 @@ End Sub
  
 * MDN - [document.getElementById()](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById)
  
-* jQуery - [attributeEndsWith selector](https://api.jquery.com/attribute-ends-with-selector/)
+* jQuery - [attributeEndsWith selector](https://api.jquery.com/attribute-ends-with-selector/)
+
+* jQuery [$(document).ready event](https://api.jquery.com/ready/)
 
 * [Using jQuery]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/using-jquery/using-jquery%})
 
