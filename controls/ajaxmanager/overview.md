@@ -13,7 +13,8 @@ position: 0
 
 
 
-**RadAjaxManager** is one of the two major controls of the UI for ASP.NET AJAX. The other one is [AJAX Panel]({%slug ajaxpanel/overview%}). **RadAjaxManager** allows developers to rapidly develop powerful and complex AJAX solutions.
+**RadAjaxManager** allows developers to rapidly develop powerful and complex AJAX solutions.
+
 
 The main features of **RadAjaxManager** are:
 
