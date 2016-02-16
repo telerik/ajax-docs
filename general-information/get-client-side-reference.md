@@ -180,7 +180,7 @@ End Sub
  
 * MDN - [document.getElementById()](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById)
  
-* jQUery - [attributeEndsWith selector](https://api.jquery.com/attribute-ends-with-selector/)
+* jQуery - [attributeEndsWith selector](https://api.jquery.com/attribute-ends-with-selector/)
 
 * [Using jQuery]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/using-jquery/using-jquery%})
 
