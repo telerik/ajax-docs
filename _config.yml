@@ -27,7 +27,7 @@ navigation:
         position: 4
     "general-information/integration-with-visual-studio":
         title: "Integration with Visual Studio"
-        position: 3
+        position: 10
     "general-information/integration-with-visual-studio/typescript-definitions":
         title: "TypeScript Definitions"
         position: 2
@@ -36,16 +36,16 @@ navigation:
         position: 3
     "general-information/controlling-visual-appearance":
         title: "Controlling Visual Appearance"
-        position: 4
+        position: 11
     "general-information/using-jquery":
         title: "Using jQuery"
-        position: 5
+        position: 12
     "general-information/performance":
         title: "Performance"
-        position: 6
+        position: 13
     "general-information/troubleshooting":
         title: "Troubleshooting"
-        position: 8
+        position: 14
     "mobile-support":
         title: "Mobile Support"
         position: 5
