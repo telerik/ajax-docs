@@ -16,6 +16,7 @@ You can quickly navigate through the sections from here:
 * [Using the MS AJAX Approach](#using-the-ms-ajax-approach)
 * [Using Plain JavaScript Methods](#using-plain-javascript-methods)
 * [Using jQuery Selectors](#using-jquery-selectors)
+* [Using Telerik Methods](#using-telerik-methods)
 * [Important MS AJAX Events](#important-ms-ajax-events)
 
 The **UI for ASP.NET AJAX** controls are created by implementing the [IScriptControl interface](https://msdn.microsoft.com/en-us/library/system.web.ui.iscriptcontrol(v=vs.110).aspx) and have the lifecycle of MS AJAX-based controls. Thus, they are initialized during the [Sys.Application.init](https://msdn.microsoft.com/library/bb397532(v=vs.100).aspx) event and the instance of the control can be accessed during the [Sys.Application.load](https://msdn.microsoft.com/library/bb383829(v=vs.100).aspx) event at the earliest. You can see how in the [Important MS AJAX Events](#important-ms-ajax-events) section.
@@ -118,11 +119,37 @@ With the help of the [included jQuery]({%slug introduction/radcontrols-for-asp.n
 
 >tip You can use other selectors for the ID (e.g., contains), or you can even use the CSS class you can assign to a control or its parent to build the desired jQuery selector.
 
+## Using Telerik Methods
+
+You can also use the `$telerik.findControl()` method that is exposed in the [Telerik Static Client Library]({%slug controls/telerik-static-client-library%}).
+
+>caption Example 5: Using $telerik.findControl method to get the control's client-side reference.
+
+````ASP.NET
+<telerik:RadPushButton runat="server" ID="RadButton1" Text="Button" OnClientClicked="showRadWindow" AutoPostBack="false" />
+
+<asp:Panel runat="server" ID="Panel1">
+    <telerik:RadWindow runat="server" ID="RadWindow1">
+        <ContentTemplate>
+            <p>Some content.</p>
+        </ContentTemplate>
+    </telerik:RadWindow>
+</asp:Panel>
+
+<script>
+    function showRadWindow(sender, args) {
+        var parentElement = $get("<%= Panel1.ClientID%>");
+        var radWindow = $telerik.findControl(parentElement, "<%= RadWindow1.ClientID %>");
+        radWindow.show();
+    }
+</script>
+````
+
 ## Important MS AJAX Events
 
 The client-side instances of the Telerik UI for ASP.NET AJAX controls are initialized after their scripts are loaded (after [Sys.Application.init](https://msdn.microsoft.com/library/bb397532(v=vs.100).aspx)). You can reference the client-side instance of a contorl during [Sys.Application.load](https://msdn.microsoft.com/library/bb383829(v=vs.100).aspx) event at the earliest.
 
->caption Example 5: Using Sys.Application.load to get the instance.
+>caption Example 6: Using Sys.Application.load to get the instance.
 
 ````ASP.NET
 <telerik:RadWindow runat="server" ID="RadWindow1">
@@ -141,7 +168,7 @@ The client-side instances of the Telerik UI for ASP.NET AJAX controls are initia
 </script>
 ````
 
->caption Example 6: Using server-side techiques to interact with control's client-side instances.
+>caption Example 7: Using server-side techiques to interact with control's client-side instances.
 
 ````ASP.NET
 <telerik:RadWindow runat="server" ID="RadWindow1">
@@ -185,6 +212,8 @@ End Sub
 * jQuery - [attributeEndsWith selector](https://api.jquery.com/attribute-ends-with-selector/)
 
 * jQuery [$(document).ready event](https://api.jquery.com/ready/)
+
+* [Telerik Static Client Library]({%slug controls/telerik-static-client-library%})
 
 * [Using jQuery]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/using-jquery/using-jquery%})
 
