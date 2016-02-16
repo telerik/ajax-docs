@@ -14,16 +14,21 @@ position: 5
 
 Developers who want to create a custom skin for one or more Telerik control, have the following options:
 
-* Use the [Visual Style Builder](http://stylebuilder.telerik.com/) tool - this is the fastest and easiest way to create a custom skin, if you are using the tool's "Colorize" or "Shift Colors" capabilities;
+* Use the [Telerik ThemeBuilder for ASP.NET AJAX](http://themebuilder.telerik.com/) application
 
-* Take an embedded skin and make changes to it until the desired look is achieved;
+* Use the [Visual Style Builder](http://stylebuilder.telerik.com/) tool
 
-* Create a custom skin from scratch;
+* Take an embedded skin and make changes to it until you have the desired look
+
+* Create a custom skin from scratch
+
 
 In most cases the last option is an unnecessary overhead, unless you need to create a skin, which is totally unique in terms of look and feel, and dimensions. In order to create a custom skin from scratch, you need a better understanding for the control's HTML output and CSS classes.
 
 
 ## Telerik ThemeBuilder application
+
+This is an easy to use application that enables you to customize the default look and feel. It can be used to customize only skins for **Lightweight RenderMode**.
 
 [Read the documentation]({%slug theme-builder/overview%}) for illustration and examples on how to create a custom theme.
 
@@ -36,6 +41,8 @@ In most cases the last option is an unnecessary overhead, unless you need to cre
 
 
 ## Visual Style Builder
+
+If you would like to modify a skin that will be used in **Classic RenderMode** you can use the StyleBuilder tool.
 
 [launch the online tool](http://stylebuilder.telerik.com/)
 
