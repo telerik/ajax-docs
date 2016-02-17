@@ -22,11 +22,11 @@ The replacement popups are implemented using **RadWindow**, and are a good deal 
 
 * Their appearance is unified across all browsers so your users get the same experience in all cases.
 
-* They use the same skins the rest of the Telerik controls on your site use to match the rest of the UI. The skin that they use is selected using the `Skin` property of the **RadWindowManager** that creates them. <Comment: Please confirm my change did not create an error.>
+* They use the same skins the rest of the Telerik controls on your site use to match the rest of the UI. The skin that they use is selected using the `Skin` property of the **RadWindowManager** that creates them.
 
 * Unlike browser popups, which can only display text, you can pass HTML to the RadWindow popups for a richer user experience and improved usability.
 
-	>tip With arbitrary messages, you have the option to display rather large content. To ensure proper appearance, you must set the dialog dimensions (they are passed as arguments to the corresponding method) to values that will accommodate your content. <Comment: Can you use messages, or messages and graphics, instead of content? The phrase "rather large content" sounds odd to me.>
+	>tip The Telerik replacement dialogs allow arbitrary content, so you have the option to display rather large messages or even graphics. To ensure proper appearance, you must set the dialog dimensions (they are passed as arguments to the corresponding method) to values that will accommodate your content. <Comment: Can you use messages, or messages and graphics, instead of content? The phrase "rather large content" sounds odd to me.>
 
 
 Since **Q1 2011** the **RadWindowManager** offers built-in [server-side methods]({%slug window/server-side-programming/methods%}) to call the **RadAlert**, **RadConfirm** and **RadPrompt** dialogs.
