@@ -15,7 +15,21 @@ You can see in this article how you can programmatically scale **RadMap** based 
 
 The approach showcased here is useful in data-binding scenarios, where the map should be zoomed and centered based on the bound markers. 
 
->caption Example 1: Scale RadMap to Markers collection.
+There two different approaches:
+* [for Server-side Data Binding](#approach-for-server-side-data-binding)
+* [for Client-side Data Binding](#approach-for-client-side-data-binding)
+
+
+## Approach for Server-side Data Binding
+
+Although **Example 1** shows a basic usage of the **MarkersCollection** tag, the approach to achieve the scale-to-markers functionality with [server-side data binding]({%slug map/data-binding/server-side%}) is the same:
+
+1. Use the client-side [OnLoad]({%slug map/client-side-programming%}#client-side-events) event in order to start the scaling;
+1. Get the markers from the `markers.items` collection of the Kendo widget;
+1. Create an [kendo.dataviz.map.Extent](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/map/extent) based on the markers' location;
+1. Pass the extent to the map (using the [extent()](http://docs.telerik.com/KENDO-UI/api/javascript/dataviz/ui/map#methods-extent) method) so that **RadMap** get centered to the extent's bounds. 
+
+>caption Example 1: Scale RadMap to Markers collection bound from the server.
 
 ````ASP.NET
 <script type="text/javascript">
@@ -50,7 +64,6 @@ The approach showcased here is useful in data-binding scenarios, where the map s
 
 <telerik:RadMap runat="server" ID="RadMap1">
 	<ClientEvents OnLoad="OnLoad" />
-	<CenterSettings Latitude="23" Longitude="10" />
 	<LayersCollection>
 		<telerik:MapLayer Type="Tile" Subdomains="a,b,c"
 			UrlTemplate="http://#= subdomain #.tile.openstreetmap.org/#= zoom #/#= x #/#= y #.png"
@@ -106,6 +119,76 @@ The approach showcased here is useful in data-binding scenarios, where the map s
 </telerik:RadMap>
 ````
 
+## Approach for Client-side Data Binding
+
+**Example 2** follows a [client-side data binding]({%slug map/data-binding/server-side%}) technique by integrating **RadClientDataSource** control (You can find the used .json file in the [Markers](http://demos.telerik.com/aspnet-ajax/map/examples/functionality/markers/defaultcs.aspx) demo). In order to implement the scale-to-markers functionality:
+
+1. Use the client-side [OnLoad]({%slug map/client-side-programming%}#client-side-events) event in order to start the scaling;
+1. Use the markers' layer to get the bound markers by using `layers[index].items` collection (Note that polling technique should be used as data is requested via AJAX);
+1. Create an [kendo.dataviz.map.Extent](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/map/extent) based on the markers' location;
+1. Pass the extent to the map (using the [extent()](http://docs.telerik.com/KENDO-UI/api/javascript/dataviz/ui/map#methods-extent) method) so that **RadMap** get centered to the extent's bounds. 
+
+````ASP.NET 
+<script type="text/javascript">
+    function OnLoad() {
+        var kendoMap = $find("<%= RadMap1.ClientID %>").get_kendoWidget();
+
+        // Get the Markers collection by polling
+        var interval = window.setInterval(function () {
+            var markers = kendoMap.layers[1].items;
+            if (markers.length > 0) {
+                window.clearInterval(interval);
+                startScaling(kendoMap, markers);
+            }
+        }, 10);
+    }
+
+    function startScaling(map, markers) {
+        var $ = $telerik.$;
+        var Extent = kendo.dataviz.map.Extent;
+
+        var markerLocations = [];
+        
+        // Extract the markers' locations.
+        for (var i = 0; i < markers.length; i++) {
+            markerLocations.push(markers[i].location());
+        }
+        // Create an extent based on the first marker
+        var myExtent = Extent.create(markerLocations[0], markerLocations[0]);
+
+        // Extend the extent with all markers
+        myExtent.includeAll(markerLocations);
+
+        // Center RadMap based on the created extent.
+        map.extent(myExtent);
+
+        // You may need to zoom out to show all markers properly. 
+        // This can be further adjusted based on your own preferences.
+        map.zoom(map.zoom() - 1);
+    }
+</script>
+
+<telerik:RadClientDataSource runat="server" ID="RadClientDataSource1">
+    <DataSource>
+        <WebServiceDataSourceSettings>
+            <Select DataType="JSON" Url="/JSON/MarkersData.json" />
+        </WebServiceDataSourceSettings>
+    </DataSource>
+</telerik:RadClientDataSource>
+
+<telerik:RadMap runat="server" ID="RadMap1">
+    <ClientEvents OnLoad="OnLoad" />
+    <LayersCollection>
+        <telerik:MapLayer Type="Tile" Subdomains="a,b,c"
+            UrlTemplate="http://#= subdomain #.tile.openstreetmap.org/#= zoom #/#= x #/#= y #.png"
+            Attribution="&copy; <a href='http://osm.org/copyright' title='OpenStreetMap contributors' target='_blank'>OpenStreetMap contributors</a>.">
+        </telerik:MapLayer>
+        <telerik:MapLayer Type="Marker" Shape="PinTarget" ClientDataSourceID="RadClientDataSource1" LocationField="location">
+        </telerik:MapLayer>
+    </LayersCollection>
+</telerik:RadMap>
+````
+
 ## See Also
 
  * [Markers]({%slug map/functionality/markers%})
@@ -115,3 +198,7 @@ The approach showcased here is useful in data-binding scenarios, where the map s
  * [Data Binding - Server-side]({%slug map/data-binding/server-side%})
 
  * [Data Binding - Client-side]({%slug map/data-binding/client-side%})
+
+ * [Kendo Map API](http://docs.telerik.com/KENDO-UI/api/javascript/dataviz/ui/map)
+
+ * [kendo.dataviz.map.Extent](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/map/extent)
