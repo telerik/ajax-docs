@@ -10,11 +10,11 @@ position: 7
 
 # Editable and Non-Editable Areas
 
-In this article you can see how you can add non-editable elements in the editable area of **RadEditor**. To better understand how editable areas oprate in HTML you can refer to this MDN article—[Content Editable](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_Editable).
+In this article you can see how you can add non-editable elements in the editable area of **RadEditor**. To better understand how editable areas operate in HTML, you can refer to this MDN article—[Content Editable](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_Editable).
 
-To Define editable and non-editable regions in **RadEditor**, you should place several DIV or SPAN element containers in the editor content area. After that, set the **unselectable="on"** attribute to their tags in order to prohibit selection of these elements. You should also set the **contentEditable** attribute to "**false**" to put these elements in non-editable mode.
+In order to define editable and non-editable regions in **RadEditor**, you should place several DIV or SPAN element containers in the editor content area. After that, set the **unselectable="on"** attribute to their tags in order to prohibit selection of these elements. You should also set the **contentEditable** attribute to "**false**" to put these elements in non-editable mode.
 
-Here is an example:
+Here is an example: <Comment: Since you have two examples in this article, I suggest you label this as Example 1 and give it an SEO-friendly caption.>
 
 ````HTML
 <div style="border: red 1px solid;" contenteditable="false" unselectable="on">
@@ -32,10 +32,11 @@ Here is an example:
 
 You can find additional information in the following MSDN article: [UNSELECTABLE Attribute](http://msdn.microsoft.com/en-us/library/ms537840.aspx).
 
-To disable the content editing in Firefox (Mozilla) use the [-moz-user-select: none;](http://developer.mozilla.org/en/docs/CSS:-moz-user-select) css property. It is a Mozilla property extension to CSS that is used to determine whether or not an element may have its content selected.
+To disable the content editing in Firefox (Mozilla), use the [-moz-user-select: none;](http://developer.mozilla.org/en/docs/CSS:-moz-user-select) css property. It is a Mozilla property extension to CSS that is used to determine whether or not an element may have its content selected.
 
 The following sample code provides a simple "Hello, World!" text which prevents the user from selecting the content:
 
+<Comment: Since you have two examples in this article, I suggest you label this as Example 2 and give it an SEO-friendly caption.>
 ````HTML
 <span style="-moz-user-select: none;">Hello, World!</span>
 ````
