@@ -12,11 +12,11 @@ position: 7
 
 This help article shows how to strip HTML tags from content that is pasted in **RadEditor**.
 
-In order to implement this solution, you should:
+Follow these steps:
 
 1. Handle the [OnClientPasteHtml event]({%slug editor/client-side-programming/events/onclientpastehtml%}). 
 2. Catch the **Paste** command.
-3. Obtain the content via the `get_value()` method of the event arguments and modify it as needed.
+2. Obtain the content via the `get_value()` method of the event arguments and modify it as needed.
 4. Set the modified content via the `set_value()` method of the event arguments.
  
 >caption Example 1: Stripping `<strong>`, `<em>` and `<span>` tags on paste in **RadEditor**.
