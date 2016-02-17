@@ -116,7 +116,7 @@ Restart Visual Studio between the reload one of the two projects
 
 * **SQLSERVER2008_ASAMO10**
 
-
+Client reports indicate that on Windows 10 you also need to reference the Telerik.Web.Spreadsheet.dll assembly in your project for Telerik versions after Q1 2016.
 
 ## Designer files are not updated or are missing Telerik controls
 
