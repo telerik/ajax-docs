@@ -12,7 +12,7 @@ position: 1
 
 ## 
 
-Since **Q1 2016** the **RadToolBar** control is fully responsive. It addapts to screen resizing by collapsing its elements under a dropdown button, if there is not enough space to display them all. When the button is clicked a dropdown containing the collapsed items is displayed.  
+Since **Q1 2016** the **RadToolBar** control is fully responsive. It adapts to screen resizing by collapsing its elements under a dropdown button, if there is not enough space to display them all. When the button is clicked a dropdown containing the collapsed items is displayed.  
 
 >important The **RadToolBar**'s responsive design is available only in Lightweight **RenderMode**.
 >
