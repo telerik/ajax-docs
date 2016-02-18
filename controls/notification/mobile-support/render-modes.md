@@ -10,23 +10,19 @@ position: 1
 
 # Render Modes
 
+@[template](/_templates/common/render-mode.md#intro-all "control: RadNotification, version: Q2 2015")
 
-**RadNotification** has two different render modes that can change the actual HTML markup that is rendered.	They are exposed via the **RenderMode** property that can have four	possible values - **Classic**, **Lightweight**, **Mobile** and **Auto**. This functionality was introduced in the **Q2 2015** version.
+* @[template](/_templates/common/render-mode.md#classic-desc) 	In this mode background images and icons (in several sprites) are used to create the appearance of the controls (gradients and icons). The HTML rendering is semantic and lightweight since its inception. CSS3 is used for rounded corners and shadows.
 
-The possible options are:
+* @[template](/_templates/common/render-mode.md#lightweight-desc) The titlebar background, [icons]({%slug notification/functionality/embedded-icons%}) and command buttons are implemented via CSS (a gradient, and font-icons respectively).
 
-* **Classic**—this mode is the rendering that has been used before. It remains without changes and it is the default value of the property. In this mode background images and icons (in several sprites) are used to create the appearance of the controls (gradients and icons). The HTML rendering is semantic and lightweight since its inception. CSS3 is used for rounded corners and shadows.
+* @[template](/_templates/common/render-mode.md#mobile-desc)
 
-* **Lightweight**—in this mode no images are used. The titlebar background, [icons]({%slug notification/functionality/embedded-icons%}) and command buttons are implemented via CSS (a gradient, and font-icons respectively).
+* @[template](/_templates/common/render-mode.md#auto-desc) This functionality was added in **Q3 2013**.
 
-* **Mobile**—this mode is currently not supported. If you set it, the mode will fall back automatically to **Lightweight**.
-
-* **Auto**—this mode makes each control choose the appropriate rendering mode according to the used	browser - **Classic** or **Lightweight**. This functionality was added in Q3 2013.
-
->important RadNotification, as well as the other controls included in the Telerik UI for ASP.NET AJAX suite that utilize render modes, supports only one type of render mode per page. All such controls must have the same RenderMode on a given page.	This also includes instances from user controls and master pages.
+@[template](/_templates/common/render-mode.md#do-not-mix-modes-all "control: RadNotification")
 
 >note RadNotification uses **RadContextMenu** internally and it inherits the notification's `RenderMode`, so it brings its stylesheets to the page and that can affect other **RadContextMenu** and **RadMenu** instances. You can remove the built-in context menu by setting the `Visible` property of the `NotificationMenu` composite tag to `false`.
-
 
 ## Setting Render Mode
 

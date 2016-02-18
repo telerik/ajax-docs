@@ -22,6 +22,28 @@ The possible options are:
 * **Auto**—this mode makes each control choose the appropriate rendering mode according to the used browser.
 #end
 
+#intro-all
+**@{control}** has different render modes that can change the actual HTML markup that is rendered.	They are exposed via the **RenderMode** property that can have four	possible values - **Classic**, **Lightweight**, **Mobile** and **Auto**. This functionality was introduced in the **@{version}** version.
 
+The possible options are:
+#end
 
+#classic-desc
+**Classic**—this mode is the rendering that has been used before. It remains without changes and it is the default value of the property.
+#end
 
+#lightweight-desc
+**Lightweight**—this mode emphasizes on semantic HTML and CSS3. It reduces the amount of markup the control renders	and makes it easier to customize. This also reduces the number of image sprites required by the control. All of this decreases the overall size and complexity of each skin, including custom ones.
+#end
+
+#mobile-desc
+**Mobile**—this mode is currently not supported. If you set it, the mode will fall back automatically to **Lightweight**.
+#end
+
+#auto-desc
+**Auto**—this mode makes each control choose the appropriate rendering mode according to the used	browser—**Classic** or **Lightweight**.
+#end
+
+#do-not-mix-modes-all
+>important **@{control}**, as well as the other Telerik controls that utilize render modes, supports only one type of render mode per page. This includes mode being set for a standalone instance(s), and a programmatically created instance(s). All such controls must have the same **RenderMode** on a given page.This also includes instances from user controls and master pages.
+#end

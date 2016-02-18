@@ -10,20 +10,17 @@ position: 1
 
 # Render Modes
 
-**RadSplitter** has two different render modes that can change the actual HTML markup that is rendered.	They are exposed via the **RenderMode** property that can have four	possible values - **Classic**, **Lightweight**, **Mobile** and **Auto**. This functionality was introduced in the **Q3 2015** version.
+@[template](/_templates/common/render-mode.md#intro-all "control: RadSplitter, version: Q3 2015")
 
-The possible options are:
+* @[template](/_templates/common/render-mode.md#classic-desc) In this mode `<table>` elements and background images are used to create the layout.
 
-* **Classic**—this mode is the rendering that has been used before. It remains without changes and it is the default value of the property.	In this mode `<table>` elemenhts and background images are used to create the layout.
+* @[template](/_templates/common/render-mode.md#lightweight-desc) This mode also enables the [Elastic design]({%slug  splitter/mobile-support/elastic-design%}) of the control. The general layout of the control still uses `<table>` elements however in order to preserve the existing functionality.
 
-* **Lightweight**—this mode uses CSS3 for the buttons and backgrounds which makes it easier to customize. Image sprites are no longer used and the icons are font-icons from a font that is used in all Telerik controls. All of this decreases the overall size and complexity of each skin, including custom ones. This mode also enables the [Elastic design]({%slug  splitter/mobile-support/elastic-design%}) of the control. The general layout of the control still uses `<table>` elements however in order to preserve the existing functionality.
+* @[template](/_templates/common/render-mode.md#mobile-desc)
 
-* **Mobile**—this mode is currently not supported. If you set it, the mode will fall back automatically to **Lightweight**.
+* @[template](/_templates/common/render-mode.md#auto-desc) This functionality was added in **Q3 2013**.
 
-* **Auto**—this mode makes each control choose the appropriate rendering mode according to the used	browser - **Classic** or **Lightweight**. This functionality was added in Q3 2013.
-
->important RadSplitter, as well as the other controls included in the Telerik UI for ASP.NET AJAX suite that utilize render modes, support only one type of render mode per page. All such controls must have the same RenderMode on a given page.	This also includes instances from user controls and master pages.
-
+@[template](/_templates/common/render-mode.md#do-not-mix-modes-all "control: RadSplitter")
 
 
 ## Setting Render Mode

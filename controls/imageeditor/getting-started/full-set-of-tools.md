@@ -212,3 +212,5 @@ Set the RadImageEditor’s **ToolsFile** property to point to an XML file, which
 	</tools>
 </root>
 ````
+
+

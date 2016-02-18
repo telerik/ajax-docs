@@ -10,24 +10,21 @@ position: 1
 
 # Render Modes
 
-
-
 **RadTileList** has different render modes that can change the behavior of the control under different screen resolutions.	They are exposed via the **RenderMode** property that has four possible values - **Classic**, **Lightweight**, **Mobile** and **Auto**.
 
 The markup **RadTileList** uses is as lightweight and as semantic as possible. The change that may occur is to enable its	[responsive layout]({%slug tilelist/mobile-support/responsive-capabilities%})—if needed, JavaScript code modifies the tiles' containers and CSS	applies a different layout to the control—or to enable its [elastic design]({%slug tilelist/mobile-support/elastic-capabilities%}).
 
 The possible options for the **RenderMode** property are:
 
-* **Classic** - this mode is the rendering that is used by default. It remains without changes.
+* @[template](/_templates/common/render-mode.md#classic-desc)
 
-* **Lightweight** - the control is [elastic]({%slug tilelist/mobile-support/elastic-capabilities%}) and font-icons are used instead of image sprites for the selection indicator and predefined badges.
+* @[template](/_templates/common/render-mode.md#lightweight-desc) Тhe control is [elastic]({%slug tilelist/mobile-support/elastic-capabilities%}) and font-icons are used instead of image sprites for the selection indicator and predefined badges.
 
 * **Mobile** - this mode enables the [Responsive layout capabilities]({%slug tilelist/mobile-support/responsive-capabilities%}) of the control.
 
 * **Auto** - this mode makes the control choose the appropriate rendering mode according to the browser. With **RadTileList**, *Mobile* will be set only under mobile devices.
 
->important  **RadTileList**, as well as the other controls included in the Telerik UI for ASP.NET AJAX suite that utilize render modes, supports only one type of render mode per page. All such controls must have the same **RenderMode** on a given page. This also includes instances from user controls and master pages.
-
+@[template](/_templates/common/render-mode.md#do-not-mix-modes-all "control: RadTileList")
 
 >note **RadTileList** uses **RadTile** controls internally, so all their instances must have the same render mode. Tiles that are children of a TileList will inherit the RenderMode of the TileList.
 

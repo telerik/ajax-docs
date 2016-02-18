@@ -10,19 +10,17 @@ position: 1
 
 # Render Modes
 
-**RadSlider** has different render modes that can change the behavior of the control under different screen resolutions. They are exposed via the **RenderMode** property that has four possible values - **Classic**,**Lightweight**, **Mobile** and **Auto**.
+@[template](/_templates/common/render-mode.md#intro-all "control: RadSlider, version: Q2 2014")
 
-The possible options for the **RenderMode** property are:
+* @[template](/_templates/common/render-mode.md#classic-desc)
 
-* **Classic** - this mode is the rendering that is used by default. It remains without changes.
+* @[template](/_templates/common/render-mode.md#lightweight-desc) The [elastic capabilities of RadSlider]({%slug slider/mobile-support/responsive,-adaptive-and-elastic-capabilities%}) are enabled in this mode.
 
-* **Lightweight** - this mode emphasizes on semantic HTML and CSS3. It reduces the amount of markup the control renders and makes it easierto customize. All of this decreases the overall size and complexity of each skin, including custom ones.The [elastic capabilities of RadSlider]({%slug slider/mobile-support/responsive,-adaptive-and-elastic-capabilities%}) are enabled in this mode.
+* @[template](/_templates/common/render-mode.md#mobile-desc)
 
-* **Mobile** - this mode is currently not supported. If you set it, the mode will fall back automatically to **Classic**.
+* @[template](/_templates/common/render-mode.md#auto-desc)
 
-* **Auto** - this mode makes the control choose the appropriate rendering mode according to the browser. Currently it is now supported and it will automatically fall back to **Classic**.
-
->important  **RadSlider** , as well as the other controls included in the Telerik UI for ASP.NET AJAX suite that utilize render modes, supports only one type of render mode per page. All such controls must have the same **RenderMode** on a given page. This also includes instances from user controls and master pages.
+@[template](/_templates/common/render-mode.md#do-not-mix-modes-all "control: RadSlider")
 
 ## Setting Render Mode
 

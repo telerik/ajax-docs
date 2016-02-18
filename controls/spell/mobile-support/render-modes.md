@@ -10,19 +10,17 @@ position: 1
 
 # Render Modes
 
-**RadSpell** have two different render modes that can change the actual HTML markup that is rendered.	They are exposed via the **RenderMode** property that can have four	possible values - **Classic**, **Lightweight**, **Mobile** and **Auto**. This functionality was introduced in the **Q1 2016** version.
+@[template](/_templates/common/render-mode.md#intro-all "control: RadSpell, version: Q1 2016")
 
-The possible options are:
+* @[template](/_templates/common/render-mode.md#classic-desc) In this mode tables and background images (in several sprites) are used to create	the layout (including rounded corners and shadows).
 
-* **Classic**—this mode is the rendering that has been used before. It remains without changes and it is the default value of the property.	In this mode tables and background images (in several sprites) are used to create	the layout (including rounded corners and shadows).
+* @[template](/_templates/common/render-mode.md#lightweight-desc)
 
-* **Lightweight**—this mode emphasizes on semantic HTML and CSS3. It reduces the amount of markup the control renders	(even though this happens with JavaScript) and makes it easier to customize. This also reduces the number of image sprites the control uses to a single one for the command buttons. All of this decreases the overall size and complexity of each skin, including custom ones.
+* @[template](/_templates/common/render-mode.md#mobile-desc)
 
-* **Mobile**—this mode is currently not supported. If you set it, the mode will fall back automatically to **Lightweight**.
+* @[template](/_templates/common/render-mode.md#auto-desc) This functionality was added in **Q3 2013**.
 
-* **Auto**—this mode makes each control choose the appropriate rendering mode according to the used	browser - **Classic** or **Lightweight**.
-
->important RadSpell, as well as the other controls included in the Telerik UI for ASP.NET AJAX suite that utilize render modes, support only one type of render mode per page. This includes mode being set for a standalone RadSpell. All such controls must have the same RenderMode on a given page.	This also includes instances from user controls and master pages.
+@[template](/_templates/common/render-mode.md#do-not-mix-modes-all "control: RadSpell")
 
 ## Setting Render Mode
 

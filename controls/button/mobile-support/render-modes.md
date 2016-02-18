@@ -10,23 +10,17 @@ position: 3
 
 # Render Modes
 
-**RadButton** has two different render modes that can change the actual HTML markup that is rendered.	They are exposed via the **RenderMode** property that can have four	possible values - **Classic**, **Lightweight**, **Mobile** and **Auto**.	This functionality was introduced in the **Q1 2015** version.
+@[template](/_templates/common/render-mode.md#intro-all "control: RadButton, version: Q1 2015")
 
-The possible options are:
+* @[template](/_templates/common/render-mode.md#classic-desc) In this mode span elements and background images (in several sprites) are used to create the layout (including rounded corners, shadows, icons etc.).
 
-* **Classic**—this mode is the rendering that has been used before. It remains without changes and it is the default value of the property.	In this mode span elements and background images (in several sprites) are used to create the layout (including rounded corners, shadows, icons etc.).
+* @[template](/_templates/common/render-mode.md#lightweight-desc)
 
-* **Lightweight**—this mode emphasizes on semantic HTML and CSS3. It reduces the amount of markup the control renders	and makes it easier to customize. This also reduces the number of image sprites required by the control. All of this decreases the overall size and complexity of each skin, including custom ones.
+* @[template](/_templates/common/render-mode.md#mobile-desc)
 
-* **Mobile**—this mode is currently not supported. If you set it, the mode will fall back automatically to **Lightweight**.
-
-* **Auto**—this mode makes each control choose the appropriate rendering mode according to the used	browser—**Classic** or **Lightweight**. This functionality was added in Q1 2015.
-
-
+* @[template](/_templates/common/render-mode.md#auto-desc)
 
 @[template](/_templates/common/render-mode.md#do-not-mix-modes-buttons "control: RadButton")
-
-
 
 ## Setting Render Mode
 

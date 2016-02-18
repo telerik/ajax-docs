@@ -10,23 +10,17 @@ position: 3
 
 # Render Modes
 
+@[template](/_templates/common/render-mode.md#intro-all "control: RadFileExplorer, version: Q3 2015")
 
+* @[template](/_templates/common/render-mode.md#classic-desc)
 
-A **RadFileExplorer** has different render modes that can change certain aspects of the control rendering or provide certain advantages.	They are exposed via the **RenderMode** property that has four possible values - **Classic**, **Lightweight**, **Mobile** and **Auto**.
+* @[template](/_templates/common/render-mode.md#lightweight-desc) In this mode RadFileExplorer is [elastic]({%slug fileexplorer/mobile-support/elastic-design%}).
 
+* @[template](/_templates/common/render-mode.md#mobile-desc)
 
-The possible options for the **RenderMode** property are:
+* @[template](/_templates/common/render-mode.md#auto-desc)
 
-* **Classic** - this mode is the rendering that is used by default. It remains without changes.
-
-* **Lightweight** - the control makes use of more semantic HTML and CSS3 and also applies the Lightweight mode to its child controls. In this mode RadFileExplorer is [elastic]({%slug fileexplorer/mobile-support/elastic-design%}) and font icons are used for toolbar and file icons instead of image sprites. This mode is available as of **Q3 2015**.
-
-* **Mobile** - this mode will be resolved to *Lightweight*.
-
-* **Auto** - this mode makes the control choose the appropriate rendering mode according to the browser.
-
-
->important  Each **RadFileExplorer**, as well as the other controls included in the Telerik UI for ASP.NET AJAX suite that utilize render modes, supports only one type of render mode per page. All such controls must have the same **RenderMode** on a given page. This also includes instances from user controls and master pages.
+@[template](/_templates/common/render-mode.md#do-not-mix-modes-all "control: RadFileExplorer")
 
 >note **RadFileExplorer** uses **RadButton**, **RadSplitter**, **RadSlider**, **RadTreeView**, **RadWindowManager** and **RadGrid** or **RadListView** controls internally, so all their instances must have the same render mode. Controls that are children of a RadFileExplorer will inherit the RenderMode of the File Explorer.
 

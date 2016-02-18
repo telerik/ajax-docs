@@ -10,22 +10,17 @@ position: 1
 
 # Render Modes
 
+@[template](/_templates/common/render-mode.md#intro-all "control: RadDock, version: Q2 2013")
 
+* @[template](/_templates/common/render-mode.md#classic-desc) In this mode tables and background images (in several sprites) are used to create the layout (including rounded corners and shadows).
 
-**RadDock** has two different render modes that can change the actual HTML markup that is rendered.They are exposed via the **RenderMode** property that can have threepossible values - **Classic**, **Lightweight** and **Auto**.This functionality was introduced in the **Q2 2013** version.
+* @[template](/_templates/common/render-mode.md#lightweight-desc)
 
-The possible options are:
+* @[template](/_templates/common/render-mode.md#mobile-desc)
 
-* **Classic** - this mode is the rendering that has been used before. It remains without changes and it is the default value of the property.In this mode tables and background images (in several sprites) are used to createthe layout (including rounded corners and shadows).
+* @[template](/_templates/common/render-mode.md#auto-desc) This functionality was added in **Q3 2013**.
 
-* **Lightweight** - this mode emphasizes on semantic HTML and CSS3. It reduces the amount of markup the control rendersand makes it easier to customize. This also reduces the number of image sprites the control uses to a single one for the command buttons.All of this decreases the overall size and complexity of each skin, including custom ones.
-
-* **Mobile** - this mode is currently not supported. If you set it, the mode will fall back automatically to **Lightweight**.
-
-* **Auto** - this mode makes each control choose the appropriate rendering mode according to the usedbrowser - **Classic** or **Lightweight**. This functionality was added in Q3 2013.
-
->important RadDock, as well as the other Telerik controls that utilize render modes, supports only one type of render mode per page.This includes mode being set for a standalone instance, and a programmatically created instance. All such controls must have the same RenderMode on a given page.This also includes instances from user controls and master pages.
->
+@[template](/_templates/common/render-mode.md#do-not-mix-modes-all "control: RadDock")
 
 
 ## Setting Render Mode
