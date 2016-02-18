@@ -10,7 +10,7 @@ position: 0
 
 # RadHtmlChart Types Overview
 
-In this article you will find a detailed list for the chart types  **RadHtmlChart** provides, what is their purpose and the most common scenarios in which they can be used.
+In this article you will find a detailed list of the chart types available in **RadHtmlChart**, information about their purpose and the most common scenarios in which they can be used.
 
 
 

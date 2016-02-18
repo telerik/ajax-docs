@@ -5,7 +5,7 @@ description: Area Chart
 slug: htmlchart/chart-types/area-chart
 tags: area,chart
 published: True
-position: 0
+position: 1
 ---
 
 # Area Chart

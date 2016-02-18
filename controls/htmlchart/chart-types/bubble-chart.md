@@ -5,7 +5,7 @@ description: Bubble Chart
 slug: htmlchart/chart-types/bubble-chart
 tags: bubble,chart
 published: True
-position: 3
+position: 4
 ---
 
 # Bubble Chart

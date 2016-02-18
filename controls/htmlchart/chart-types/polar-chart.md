@@ -5,7 +5,7 @@ description: Polar Chart
 slug: htmlchart/chart-types/polar-chart
 tags: polar,chart
 published: True
-position: 11
+position: 12
 ---
 
 # Polar Chart
