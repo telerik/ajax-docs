@@ -22,9 +22,7 @@ The Toolbox Configurator can be launched from the Telerik menu:
 
 ![introduction-vsx toolboxconfigurator](images/introduction-vsx_toolboxconfigurator.png)
 
-After running the Toolbox Configurator it shows the version of the currently installed distribution (if available). The user can make his selection using the dropdown menu which lists all versions discovered on the machine.
-
-The utility has an option to install the design assemblies of the selected version in the GAC, if they are not previously installed. The design assemblies are critical for the design-time support of the chosen distribution.
+After running the Toolbox Configurator the user can make his selection using the dropdown menu which lists all versions discovered on the machine.
 
 When the Finish button is clicked Visual Studio will be restarted so that the changes can take effect.
 
