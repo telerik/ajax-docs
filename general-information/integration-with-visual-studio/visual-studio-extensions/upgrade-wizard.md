@@ -47,7 +47,7 @@ The next screen allows you to update the Visual Studio ToolBox with the newly se
 
 >caption Figure 4: The Upgrade Wizard can update the toolbox and create a backup of the project(s)
 
-![Update Toolbox](images/introduction-vsx_upgradewizard_updatetoolbox.png)
+![Update Toolbox](images/introduction-vsx_upgradewizard_upgradeoptions.png)
 
 After choosing the preferred options and pressing the Finish button, the Upgrade Wizard will replace the existing assemblies in the selected project(s) with the ones from the selected distribution. The wizard will update only assemblies that are currently referenced, e.g. it won't add references to newly introduced assemblies.
 
