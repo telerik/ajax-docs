@@ -14,7 +14,7 @@ In this article you can see how you can add non-editable elements in the editabl
 
 In order to define editable and non-editable regions in **RadEditor**, you should place several DIV or SPAN element containers in the editor content area. After that, set the **unselectable="on"** attribute to their tags in order to prohibit selection of these elements. You should also set the **contentEditable** attribute to "**false**" to put these elements in non-editable mode.
 
-Here is an example: <Comment: Since you have two examples in this article, I suggest you label this as Example 1 and give it an SEO-friendly caption.>
+>caption Example 1: Adding editable and non-editable areas in RadEditor.
 
 ````HTML
 <div style="border: red 1px solid;" contenteditable="false" unselectable="on">
@@ -36,7 +36,8 @@ To disable the content editing in Firefox (Mozilla), use the [-moz-user-select: 
 
 The following sample code provides a simple "Hello, World!" text which prevents the user from selecting the content:
 
-<Comment: Since you have two examples in this article, I suggest you label this as Example 2 and give it an SEO-friendly caption.>
+>caption Example 2: Using inline style to prevent selection of text.
+
 ````HTML
 <span style="-moz-user-select: none;">Hello, World!</span>
 ````
