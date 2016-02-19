@@ -32,7 +32,7 @@ You can find all the available options for the `TextStyle` inner property in the
 >caption **Example 1**: Configure the appearance of the chart legend.
 
 ````ASP.NET
-<telerik:RadHtmlChart ID="RadHtmlChart1" runat="server" Width="600" Height="400">
+<telerik:RadHtmlChart ID="RadHtmlChart1" runat="server" Width="350" Height="150">
 	<Legend>
 		<Appearance BackgroundColor="Blue">
 			<TextStyle Color="Red" FontFamily="Segoe UI" FontSize="20" Italic="true" />
