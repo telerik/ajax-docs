@@ -26,7 +26,7 @@ The Convert Project Wizard’s first page lets you define settings related to Te
 
 ![introduction-vsx convertwizard versions](images/introduction-vsx_convertwizard_versionselection.png)
 
-* **Version** - Select the Telerik controls version which to be used in your project. The product versions which could be selected are detected from an installation folder (marked with [Install]) or from the default folder for downloads (the hotfix files which are downloaded through the [New Version Downloader]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/automatic-latest-version-retrieval%}) are marked with [Download] tag).
+* **Version** - Select the Telerik controls version which to be used in your project. The product versions which could be selected are detected from an installation folder (marked with [InstallFolder]) or from the default folder for downloads (the hotfix files which are downloaded through the [New Version Downloader]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/automatic-latest-version-retrieval%}) are marked with [Download] tag).
 
 * **Telerik Assemblies** - Select Telerik DPL assemblies which will be added to or removed from your project.
 
