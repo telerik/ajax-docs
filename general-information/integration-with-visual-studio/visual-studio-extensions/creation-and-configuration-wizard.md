@@ -1,14 +1,14 @@
 ---
-title: Creation and Configuration Wizard
-page_title: Creation and Configuration Wizard | UI for ASP.NET AJAX Documentation
-description: Creation and Configuration Wizard
+title: Create Project
+page_title: Create Project | UI for ASP.NET AJAX Documentation
+description: Create Project
 slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/creation-and-configuration-wizard
 tags: creation,and,configuration,wizard
 published: True
 position: 1
 ---
 
-# Creation and Configuration Wizard
+# Create Project
 
 
 

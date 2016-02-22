@@ -1,14 +1,14 @@
 ---
-title: Automatic Latest Version Retrieval
-page_title: Automatic Latest Version Retrieval | UI for ASP.NET AJAX Documentation
-description: Automatic Latest Version Retrieval
+title: Download New Version
+page_title: Download New Version | UI for ASP.NET AJAX Documentation
+description: Download New Version
 slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/automatic-latest-version-retrieval
 tags: automatic,latest,version,retrieval
 published: True
 position: 5
 ---
 
-# Automatic Latest Version Retrieval
+# Download New Version
 
 With the Telerik Visual Studio Extensions you keep your projects in an up-to-date state.The Latest Version Acquirer tool automatically retrieves the freshest Telerik UI for ASP.NET AJAX distribution, available on the Telerik website. Running the [Upgrade Wizard]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/upgrade-wizard%}) as a next step makes the task of latest Telerik UI for ASP.NET AJAX package utilization extremely easy.
 

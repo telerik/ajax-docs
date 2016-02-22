@@ -1,14 +1,14 @@
 ---
-title: Upgrade Wizard
-page_title: Upgrade Wizard | UI for ASP.NET AJAX Documentation
-description: Upgrade Wizard
+title: Upgrade Project 
+page_title: Upgrade Project  | UI for ASP.NET AJAX Documentation
+description: Upgrade Project 
 slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/upgrade-wizard
 tags: upgrade,wizard
 published: True
 position: 4
 ---
 
-# Upgrade Wizard
+# Upgrade Project
 
 An important feature in the Telerik Visual Studio Extensions is the **Upgrade Project Wizard**. It can facilitate the process of upgrading the Telerik UI for ASP.NET AJAX to the latest version in your project.
 

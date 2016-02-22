@@ -1,14 +1,14 @@
 ---
-title: Toolbox Configuration
-page_title: Toolbox Configuration | UI for ASP.NET AJAX Documentation
-description: Toolbox Configuration
+title: Set Toolbox Version
+page_title: Set Toolbox Version | UI for ASP.NET AJAX Documentation
+description: Set Toolbox Version
 slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/toolbox-configuration
 tags: toolbox,configuration
 published: True
 position: 7
 ---
 
-# Toolbox Configuration
+# Set Toolbox Version
 
 
 
