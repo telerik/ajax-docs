@@ -22,7 +22,7 @@ Telerik Project Configuration wizard could be accessed through the Telerik > Tel
 
 ![introduction-vsx configurewizard menu](images/introduction-vsx_telerikmenu_configurewizard.png)
 
-The Project Configuration Wizard’s first page lets you define which Telerik DPL assemblies will be added to your project:
+The Project Configuration Wizard’s first page lets you define which Telerik DPL assemblies will be added to or remove from your project:
 
 ![introduction-vsx configurewizard assemblies](images/introduction-vsx_configurewizard_assembliesselection.png) 
 
