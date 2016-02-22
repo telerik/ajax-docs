@@ -5,7 +5,7 @@ description: Telerik Web Design Assembly
 slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/telerik-web-design-assembly
 tags: telerik,web,design,assembly
 published: True
-position: 2
+position: 9
 ---
 
 # Telerik Web Design Assembly

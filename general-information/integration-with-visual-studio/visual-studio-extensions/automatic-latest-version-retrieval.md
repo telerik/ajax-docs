@@ -5,7 +5,7 @@ description: Download New Version
 slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/automatic-latest-version-retrieval
 tags: automatic,latest,version,retrieval
 published: True
-position: 5
+position: 6
 ---
 
 # Download New Version
