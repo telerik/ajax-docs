@@ -10,7 +10,7 @@ position: 6
 
 # Download New Version
 
-With the Telerik Visual Studio Extensions you keep your projects in an up-to-date state.The Latest Version Acquirer tool automatically retrieves the freshest Telerik UI for ASP.NET AJAX distribution, available on the Telerik website. Running the [Upgrade Wizard]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/upgrade-wizard%}) as a next step makes the task of latest Telerik UI for ASP.NET AJAX package utilization extremely easy.
+With the Telerik Visual Studio Extensions you keep your projects in an up-to-date state. The New Version Downloader tool automatically retrieves the freshest Telerik UI for ASP.NET AJAX distribution, available on the Telerik website. Running the [Upgrade Wizard]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/upgrade-wizard%}) as a next step makes the task of latest Telerik UI for ASP.NET AJAX package utilization extremely easy.
 
 Once a day, upon Visual Studio launch, the Telerik ASP.NET AJAX VSExtensions queue the Telerik website for a new version of Telerik UI for ASP.NET AJAX. A dialog gets displayed when a new version is discovered:
 
@@ -18,7 +18,7 @@ Once a day, upon Visual Studio launch, the Telerik ASP.NET AJAX VSExtensions que
 
 >note If you've disabled the notifications, you can use the [Options Dialog]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/visual-studio-extensions-options%}) to activate them again.
 
-Clicking the Get Now button starts the Latest Version Acquirer tool,	prompting for your Telerik credentials and the type of license you own in its first page.	If you do not have a [www.telerik.com](http://www.telerik.com)	account, you can create one through the **Create an account for free** link.
+Clicking the Get Now button starts the New Version Downloader tool,	prompting for your Telerik credentials and the type of license you own in its first page.	If you do not have a [www.telerik.com](http://www.telerik.com)	account, you can create one through the **Create an account for free** link.
 
 ![Latest Version Acquirer: Login](images/introduction-vsx_latestversionacquirer_login.png)
 
@@ -34,9 +34,9 @@ If your subscription has expired, you could either proceed with downloading a tr
 
 Once the download succeeds, the latest version of the Telerik UI for ASP.NET AJAX will be available for use in the [Upgrade Wizard]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/upgrade-wizard%}) and the [New Project Wizard]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/creation-and-configuration-wizard%}).
 
->tip The GET LATEST buttons of the [Upgrade Wizard]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/upgrade-wizard%}) and the [New Project Wizard]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/creation-and-configuration-wizard%}) launch the Latest Version Acquirer tool too.
+>tip The GET LATEST buttons of the [Upgrade Wizard]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/upgrade-wizard%}), [Convert Project Wizard]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/convert-project%}) and [New Project Wizard]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/creation-and-configuration-wizard%}) launch the New Version Downloader tool too.
 
->note The Latest Version Acquirer tool actually downloads the hotfix zip files, containing the latest Telerik binaries	and any resources vital for the Telerik Web Application/Web Site project creation. These get unpacked to the `%appdata%\Telerik\Updates` folder.
+>note The New Version Downloader tool actually downloads the hotfix zip files, containing the latest Telerik binaries	and any resources vital for the Telerik Web Application/Web Site project creation. These get unpacked to the `%appdata%\Telerik\Updates` folder.
 >If you find the list of packages offered too long and you don't need the older versions, you can	close Visual Studio and use Windows Explorer to delete these distributions.
 
 
