@@ -20,23 +20,23 @@ This functionality is handled by three wizards - the Project Configuration Wizar
 
 Telerik Project Configuration wizard could be accessed through the Telerik > Telerik UI for ASP.NET AJAX menu:
 
-![introduction-vsx newproject 1](images/introduction-vsx_telerikmenu_configurewizard.png)
+![introduction-vsx configurewizard menu](images/introduction-vsx_telerikmenu_configurewizard.png)
 
 The Project Configuration Wizard’s first page lets you define which Telerik DPL assemblies will be added to your project:
 
-![introduction-vsx newproject 1](images/introduction-vsx_configurewizard_assembliesselection.png) 
+![introduction-vsx configurewizard assemblies](images/introduction-vsx_configurewizard_assembliesselection.png) 
 
 The version of the assemblies are the same as the one with which your project has been created, converted or upgraded.
 
 The second page of the Project Configuration Wizard gives you the ability to select which theme pack will be added to your project. Check the content of each theme or see the preview of it when select it into the Project Configuration wizard and select the one you want to be included in the project:
 
-![introduction-vsx newproject 1](images/introduction-vsx_configurewizard_themes.png) 
+![introduction-vsx configurewizard themes](images/introduction-vsx_configurewizard_themes.png) 
 
 >note If you prefer the Telerik assemblies to be copied into your solution folder, the **Copy referenced assemblies to solution and source control** option could be selected *only* into the [Visual Studio Extensions Options]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/visual-studio-extensions-options%}) but it is not applicable for Visual Studio web site projects.
 
 On the third page the wizard suggests more site settings and several resource options:
 
-![introduction-vsx newproject 1](images/introduction-vsx_configurewizard_websettings.png)  
+![introduction-vsx configurewizard websettings](images/introduction-vsx_configurewizard_websettings.png)  
 
 * **Use ScriptManger CDN** - Define if the site will utilize [RadScriptManager CDN Support]({%slug scriptmanager/cdn-support/overview%}).
 
