@@ -15,41 +15,30 @@ position: 2
 
 The Project management functionality of the Visual Studio Extensions handles project assembly reference updates, web.config entry management and updates of the supporting resources.
 
-This functionality is handled by two wizards - the Project Configuration Wizard and the [Upgrade Wizard]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/upgrade-wizard%}).
+This functionality is handled by three wizards - the Project Convert Wizard, [Project Configuration Wizard]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/upgrade-wizard%}) and the [Upgrade Wizard]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/configure-project%}).
 
-The Project Configuration Wizard is called when:
 
-* Creating a new Telerik WebSite/WebApplication (through the Visual Studio New Project dialog).
+Telerik Convert Project wizard could be accessed through the Telerik > Telerik UI for ASP.NET AJAX menu:
 
-* Converting a web project to a Telerik one (accessed through the Telerik > Telerik UI for ASP.NET AJAX menu).
+![introduction-vsx convertwizard menu](images/introduction-vsx_telerikmenu_convertwizard.png)
 
-* Configuring a Telerik web project (accessed through the Telerik > Telerik UI for ASP.NET AJAX menu).
+The Convert Project Wizard’s first page lets you define settings related to Telerik controls:
 
-![introduction-vsx newproject 1](images/introduction-vsx_newproject1.png)
+![introduction-vsx convertwizard versions](images/introduction-vsx_convertwizard_versionselection.png)
 
-The Project Configuration Wizard’s first page lets you define settings related to Telerik controls:
+* **Version** - Select the Telerik controls version which to be used in your project. The product versions which could be selected are detected from an installation folder (marked with [Install]) or from the default folder for downloads (the hotfix files which are downloaded through the [New Version Downloader]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/automatic-latest-version-retrieval%}) are marked with [Download] tag).
 
-* **Telerik Assemblies** - Select the Telerik controls distribution to be used. You can choose from the detected assemblies (from an installation folder), or you can browse to an assemblies located somewhere on your hard drive (e.g. when you've downloaded a zip file from the [Latest Internal Builds](http://www.telerik.com/blogs/download-latest-internal-builds) page).
+* **Telerik Assemblies** - Select Telerik DPL assemblies which will be added to or removed from your project.
 
-* **Project type** – Select the Telerik project type (the option is only available in the **New Project Wizard**). The Empty site only references the assemblies and has the [mandatory additions to the web.config]({%slug general-information/web-config-settings-overview%}#mandatory-additions-to-the-webconfig). The *Responsive Web Site* is a template that uses the [RadPageLayout]({%slug pagelayout/overview%}) control to provide a basic template for a responsive web page.
+>note If you prefer the Telerik assemblies to be copied into your solution folder, the **Copy referenced assemblies to solution and source control** option could be selected *only* into the [Visual Studio Extensions Options]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/visual-studio-extensions-options%}) but it is not applicable for Visual Studio web site projects.
 
-* **Skin packs** - Choose the skin packs to be added to the project. Check the content of each skin pack (a skin pack is an assembly that contains one or more skins) and select the one(s) you want to be included in the project. If you want to add or remove a skin pack later, you can use the Configure Project wizard.
+The second page of the Convert Project Wizard gives you the ability to select which theme will be added to your project. Check the content of each theme or see the preview of it when select it into the Convert Project wizard and select the one you want to be included in the project:
 
-* **Default skin** - Select a global site-wide skin to be used by Telerik UI for ASP.NET AJAX. This can be overridden by using the [Skin]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/overview%}) property of each single control afterwards.
+![introduction-vsx convertewizard themes](images/introduction-vsx_convertwizard_themes.png) 
 
-* **Add referenced assemblies to solution** -	Choose whether to copy referenced assemblies to your solution folder. The assemblies will automatically get added to source control when using Microsoft Team Foundation Server.
+On the third page the wizard suggests more site settings and several resource options:
 
->note The **Add referenced assemblies to solution** option is not available for Visual Studio web site projects.
-
->note When creating a new project, the [Render Mode]({%slug controls/render-modes%}) of the Telerik controls is automatically set to **Lightweight**.
-
-![introduction-vsx Add Dpl Page](images/introduction-vsx_AddDplPage.png)
-
-On the third page the wizard suggests Document Processing assemblies to be included in your project.
-
-![introduction-vsx newproject 2](images/introduction-vsx_newproject2.png)
-
-On the second page the wizard suggests more site settings and several resource options:
+![introduction-vsx convertewizard websettings](images/introduction-vsx_convertwizard_web-settings.png) 
 
 * **Use ScriptManger CDN** - Define if the site will utilize [RadScriptManager CDN Support]({%slug scriptmanager/cdn-support/overview%}).
 
@@ -61,18 +50,14 @@ On the second page the wizard suggests more site settings and several resource o
 
 * **Copy TypeScript definitions** – Select whether you with the project wizard to copy the	[TypeScript definitions we provide for the UI for ASP.NET AJAX controls]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/typescript-definitions/what-is-typescript%}).
 
-* **General Web Project settings** - [RadUpload]({%slug upload/overview%})-related configuration - the [Maximum Request Length and Execution Timeout]({%slug upload/uploading-files/uploading-large-files%}) settings of the site.
-
 * **Use jQuery Support** - Define if the pages that will be created via the Scenario Wizard will use jQuery support by default.
 
 * **Use Ajaxified Templates** - Define if the pages that will be created via the Scenario Wizard will use [RadAjaxManager]({%slug ajaxmanager/overview%}) by default.
 
-
->note The Project Configuration wizard does not allow the targeted Telerik controls distribution to be changed when configuring a project. In that mode you can change the other project properties though. Changing the Telerik UI for ASP.NET AJAX distribution of a project is handled by the [Upgrade Wizard]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/upgrade-wizard%}).
->
+* **General Web Project settings** - [RadUpload]({%slug upload/overview%})-related configuration - the [Maximum Request Length and Execution Timeout]({%slug upload/uploading-files/uploading-large-files%}) settings of the site.
 
 
-When a web project gets reconfigured, Visual Studio Extensions perform the following changes:
+When a web project gets converted to Telerik one, Visual Studio Extensions perform the following changes:
 
 * Telerik assembly references get added or are changed in the project.
 
