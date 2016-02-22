@@ -29,6 +29,6 @@ After you click the OK button, you get the Create New Project Wizard, provided b
 
 * **Project Template** - Select the Telerik project template (the option is only available in the **New Project Wizard**). The Blank template only references the assemblies and has the [mandatory additions to the web.config]({%slug general-information/web-config-settings-overview%}#mandatory-additions-to-the-webconfig). The *Responsive* template uses the [RadPageLayout]({%slug pagelayout/overview%}) control to provide a basic template for a responsive web page.
 
->note If you prefer the Telerik assemblies to be copied into your solution folder, the **Copy referenced assemblies to solution and source control** option could be selected *only* into the [Visual Studio Extensions Options]({%slug images/visual-studio-extensions-options%}) but it is not applicable for Visual Studio web site projects.
+>note If you prefer the Telerik assemblies to be copied into your solution folder, the **Copy referenced assemblies to solution and source control** option could be selected *only* into the [Visual Studio Extensions Options]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/visual-studio-extensions-options%}) but it is not applicable for Visual Studio web site projects.
 
 >note When creating a new project, the [Render Mode]({%slug controls/render-modes%}) of the Telerik controls is automatically set to **Lightweight**.
