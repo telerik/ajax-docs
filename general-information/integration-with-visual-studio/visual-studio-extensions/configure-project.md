@@ -2,7 +2,7 @@
 title: Configure Project
 page_title: Configure Project | UI for ASP.NET AJAX Documentation
 description: Configure Project
-slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/creation-and-configuration-wizard
+slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/configure-project
 tags: creation,and,configuration,wizard
 published: True
 position: 3
