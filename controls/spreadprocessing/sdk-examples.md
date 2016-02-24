@@ -48,4 +48,4 @@ This example is related to SpreadProcessing blog post series "SpreadProcessing -
  3. Export the Workbook to PDF after all fonts are registered.
 {% endif %}
 
->You can also check the [SDK Samples Browser](http://docs.telerik.com/devtools/wpf/sdk-samples-browser.html) that provides a more convenient approach in exploring and executing the examples in the Telerik XAML SDK repository. The SDK Samples Browser application is available for download from [this link](http://demos.telerik.com/xaml-sdkbrowser/).
+>You can also check the [SDK Samples Browser]({%slug sdk-samples-browser%}) that provides a more convenient approach in exploring and executing the examples in the Telerik XAML SDK repository. The SDK Samples Browser application is available for download from [this link](http://demos.telerik.com/xaml-sdkbrowser/).

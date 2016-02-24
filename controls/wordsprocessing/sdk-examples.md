@@ -18,4 +18,4 @@ The [Telerik XAML SDK repository](https://github.com/telerik/xaml-sdk/tree/mast
 * __[Mail merge](https://github.com/telerik/xaml-sdk/tree/master/WordsProcessing/MailMerge)__ - This example demonstrates how you can perform mail-merge with RadFlowDocument.
 
 
->You can also check the [SDK Samples Browser](http://docs.telerik.com/devtools/wpf/sdk-samples-browser.html) that provides a more convenient approach in exploring and executing the examples in the Telerik XAML SDK repository. The SDK Samples Browser application is available for download from [this link](http://demos.telerik.com/xaml-sdkbrowser/).
+>You can also check the [SDK Samples Browser]({%slug sdk-samples-browser%}) that provides a more convenient approach in exploring and executing the examples in the Telerik XAML SDK repository. The SDK Samples Browser application is available for download from [this link](http://demos.telerik.com/xaml-sdkbrowser/).
