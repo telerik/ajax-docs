@@ -18,7 +18,7 @@ In almost all cases the issues related with updating process are caused by the m
 
 1. If you are using the wizard to update SharePoint you can open the ControlPanel and check the version in the Programs and Features. At the end of the name you can find the current installed version (for instance Q1 2016).
 
-2. If you receive the following error this might indicate that the version in the web.config file differs with the one of the WebParts. 
+2. If you receive *A Web Part or Web Form Control on this Page cannot be displayed or imported* error this might indicate that the version in the web.config file differs with the one of the WebParts. 
 ![import-exception](images/import-exeption.png). 
 A possible solution is to manually change **Telerik.Web.UI** version in the \<SafeControl\> and also the version of the **Telerik.Web.UI.WebResorces** handler.
 
