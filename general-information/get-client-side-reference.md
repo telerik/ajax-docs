@@ -147,7 +147,7 @@ You can also use the `$telerik.findControl()` method that is exposed in the [Tel
 
 ## Important MS AJAX Events
 
-The client-side instances of the Telerik UI for ASP.NET AJAX controls are initialized after their scripts are loaded (after [Sys.Application.init](https://msdn.microsoft.com/library/bb397532(v=vs.100).aspx)). You can reference the client-side instance of a control during the [Sys.Application.load](https://msdn.microsoft.com/library/bb383829(v=vs.100).aspx) event at the earliest. <Comment: The phrase "at the earliest" seems odd to me.>
+The client-side instances of the Telerik UI for ASP.NET AJAX controls are initialized after their scripts are loaded (after [Sys.Application.init](https://msdn.microsoft.com/library/bb397532(v=vs.100).aspx)). The earliest event that you can use to reference the client-side instance of a control is the [Sys.Application.load](https://msdn.microsoft.com/library/bb383829(v=vs.100).aspx) event. <Comment: The phrase "at the earliest" seems odd to me.>
 
 >caption Example 6: Using the Sys.Application.load event to get the instance.
 
