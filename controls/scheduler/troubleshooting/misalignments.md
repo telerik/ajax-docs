@@ -14,23 +14,17 @@ position: 0
 
 This article shows how to handle with some known issue with misalignments in the RadScheduler and the code that is fixing them.
 
-## If the TimeLabelSpan property for Timeline view is set, the time slots will be misaligned with respect to the date headers in IE9.(Fixed in Q3 2012)
+## Recommended RowHeight property values
 
-Here is how it usually looks like in the discribed scenario:
+Here are the recommended RowHeight property values for some of the Scheduler's skins, which should prevent misalignments and other appearance issues:
 
+* Default: 25
 
+* "BlackMetroTouch", "MetroTouch": 32
 
-````ASPNET
-<style type="text/css">
-	.rsHidden
-	{
-		display: block !important;
-	}
-</style>
-````
+* "Glow", "Silk": 25
 
-
-
+* "Bootstrap": 30
 
 
 ## In Browser Mode Compatibility IE9 the time slots of the RadScheduler twist to the left.
@@ -65,6 +59,21 @@ You need to add the following **CSS** to improve this behavior:
 ````
 
 
+## If the TimeLabelSpan property for Timeline view is set, the time slots will be misaligned with respect to the date headers in IE9.(Fixed in Q3 2012)
+
+Here is how it usually looks like in the discribed scenario:
+
+
+
+````ASPNET
+<style type="text/css">
+	.rsHidden
+	{
+		display: block !important;
+	}
+</style>
+````
+
 
 ## Timeline resources vertical formatting issue.(Fixed in Q3 2012)
 
@@ -87,17 +96,4 @@ Here bellow is shown a possible workaround with **JavaScript**:
 	}
 </script>
 ````
-
-
-## Recommended RowHeight property values
-
-Here are the recommended RowHeight property values for some of the Scheduler's skins, which should prevent misalignments and other appearance issues:
-
-* Default: 25
-
-* "BlackMetroTouch", "MetroTouch": 32
-
-* "Glow", "Silk": 25
-
-* "Bootstrap": 30
 
