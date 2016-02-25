@@ -11,8 +11,68 @@ position: 3
 # WebPart Designer Troubleshooting
 
 
-This article lists some suggestions that can help resolve common issues with the WebPart Designer.
+## Error HTTP 403 Forbidden
 
+If you see this error in **SharePoint 2013** make sure that the settings in your environment match the settings below.
+
+![](images/sharepoint-troubleshooting-4-403forbidden.png)
+
+* Make sure that **Forms Authentication** is disabled on application level. The IIS setings in this case should look like the following:
+![](images/sharepoint-troubleshooting-1-anonymous-authentication.png)
+
+* Disable **ClaimsBasedAuthentication** as shown in the code snippet below. 
+    ````PowerShell
+$webApp = Get-SPWebApplication "http://webapplicationurl"
+$webApp.UseClaimsAuthentication = 0;
+$webApp.Update()
+````
+
+
+    If the above code was executed correctly then **Authentication Type** should be set to **Windows**. You can verify this by opening **Central Administration** -> **Application Management** -> **Manage web applications** select the **Sharepoint-80** main application and click on **Authentication Providers**. It should say **Default - Windows** as shown below: 
+    
+    
+![](images/sharepoint-troubleshooting-3-claimsbasedauthentication.png)
+
+
+
+* Ensure that the **Negotiate (Kerberos)** option is selected for **Integrated Windows Authentication**.
+
+    ![](images/sharepoint-troubleshooting-3-claimsbasedauthentication2.png)
+
+
+* Check the **web.config** file in (C:\inetpub\wwwroot\wss\VirtualDirectories\80) and make sure it has the following settings there. Note that **authentication** mode is set to **Windows**.  
+````XML
+<system.web>
+    <httpHandlers />
+    <customErrors mode="Off" />
+    <httpRuntime maxRequestLength="51200" requestValidationMode="2.0" />
+    <authentication mode="Windows">
+      <forms loginUrl="/_login/default.aspx" />
+    </authentication>
+    <identity impersonate="true" />
+    <authorization>
+      <allow users="*" />
+    </authorization>
+    <httpModules>
+    </httpModules>
+	
+	. . .
+	
+</system.web>
+````
+
+
+* Ensure that the correct version of Telerik assemblies is referenced in the **web.config** 
+
+* Make sure that the IIS worker processes have full access to the **GridWebPartDesigner.aspx** and **gridbindingservice.svc** files.
+
+![](images/sharepoint-troubleshooting-5-iis-worker-access.png)
+
+
+## Other issues
+
+
+Below you can see suggestions that can help resolve other common issues with the WebPart Designer.
 
 
 * Use the .msi installer to install the controls. This way any additional resources that are required by the designer will be added automatically
