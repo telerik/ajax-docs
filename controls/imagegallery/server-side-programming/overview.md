@@ -43,6 +43,7 @@ position: 0
 | **PagerStyle** |Gets the setting for the page. Inner properties configure the position and look of the pager.|
 | **PageSize** |Get/sets the number of images that will be displayed.|
 | **ThumbnailsAreaSettings** |Gets the settings for the **ThumbnailsArea** . Inner properties configure the look of the area that holds the thumbnails.|
+| **LoopItems** |Specifies whether the slideshow should start over after the last item is shown.|
 
 ## Thumbnails Area Properties
 
