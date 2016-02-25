@@ -38,7 +38,7 @@ The Material skin includes the **Roboto** font-file from the Telerik assembly. I
 
 
 ## Font-weight specifics
-Regarding the font-weight: If you increase the font-size to 16px, 20px or even larger, it is recommend to set **font-weight: 100** on the page. This applies particularly for **BlackMetroTouch** and **MetroTouch** skins.
+Regarding the font-weight: If you increase the font-size to 16px, 20px or even larger, it is recommended to set **font-weight: 100** on the page. This applies particularly for **BlackMetroTouch** and **MetroTouch** skins.
 
 ## Font-icon size
 
