@@ -56,7 +56,11 @@ These are the skins provided by Telerik. Since Q3 2011 they are embedded in the 
 
 1. **Windows7**
 
->important The **Bootstrap** skin has **no _font-size_** specified. This means that the Telerik UI for ASP.NET AJAX controls will inherit the font-size setting from the page (or their nearest parent element). This facilitates	customizations on the skin and integrating it in existing templates. Not all font-sizes may result in flawless appearance, however. The controls are tested with, and designed for **14px Arial** font.
+>important Bootstrap, Material, Metro and (Black)MetroTouch skins have predefined **font-family** as follows:
+>
+* Material -  font-family: "Roboto", "Noto", sans-serif;
+* Bootstrap - font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+* Metro - font-family: "Segoe UI", Arial, Helvetica, sans-serif; 
 
 @[template - Material skin is available only in Lightweight mode](/_templates/common/skins-notes.md#material-only-in-lightweight)
 

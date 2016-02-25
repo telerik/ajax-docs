@@ -21,7 +21,7 @@ body {
 }
 ````
 >note
-Only Bootstrap, Material, Metro and (Black)MetroTouch skins have font-family defined. 
+Only Bootstrap, Material, Metro and (Black)MetroTouch skins have **font-family** defined. 
 
 ## Skins with predefined Font-family
 
