@@ -69,6 +69,8 @@ $webApp.Update()
 
 ![](images/sharepoint-troubleshooting-5-iis-worker-access.png)
 
+* Restart IIS and browser and try loading the designer again
+
 
 ## Other issues
 
