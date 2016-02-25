@@ -12,21 +12,33 @@ position: 2
 
 
 
-**RadGrid** has three different render modes that can change the actual HTML markup that is rendered.Those render modes are exposed via the **RenderMode** property that accepts the following values -**Classic**, **Mobile**, **Lightweight** and **Auto**.
+**RadGrid** has three different render modes that can change the actual HTML markup that is rendered.Those render modes are exposed via the **RenderMode** property that accepts the following values - **Classic**, **Mobile**, **Lightweight** and **Auto**.
 
 The possible options are:
 
 * **Classic** — this mode is the rendering that has been used before.It remains without changes and it is the default value of the property.	In this mode tables and background images (in several sprites) are used to create	the layout (including rounded corners and shadows).
 
-* **Lightweight** — this mode is supported since **Q1 2015 version** andemphasizes on semantic HTML and CSS3. It reduces the amount of markup the control renders	and makes it easier to customize. This also reduces the number of image sprites required by the control and the other controlsfrom the suite it uses. In addition, all table elements are removed from the layout of the control.	All of this decreases the overall size and complexity of each skin, including custom ones.
+* **Lightweight** — this mode is supported since **Q1 2015 version** and emphasizes on semantic HTML and CSS3. It reduces the amount of markup the control renders	and makes it easier to customize. This also reduces the number of image sprites required by the control and the other controls from the suite it uses. In addition, all table elements are removed from the layout of the control.	All of this decreases the overall size and complexity of each skin, including custom ones.
 
 * **Mobile** — this mode is supported since **Q3 2014 Beta** release	and with it, the control will change to create a user experience tailored to the device screen size.In this mode, **RadGrid** is mobile-friendly and its touch zones are bigger and easier to select.
 
-* **Auto** — this option will automatically decide how to render the control on a smartphone, tablet or PC and will switch	between **Classic** and **Mobile** render modes (depending on the used device).
+* **Auto** — this option will automatically decide how to render the control on a smartphone, tablet or desktop PC or notebook and will switch between different render modes depending on the used device and based on the user's browser. Further details can be found in the section below.
 
->important RadGrid and its child controls, as well as the other controls included in the	Telerik UI for ASP.NET AJAX suite that utilize render modes, support only one type of render mode per page.All such controls must have the same RenderMode on a given page.This also includes instances from user controls and master pages.
->
+## Important Notes about Render Mode
 
+**RadGrid** and its child controls, as well as the other controls included in the	Telerik UI for ASP.NET AJAX suite that utilize render modes, support only one type of render mode per page.All such controls must have the same **RenderMode** on a given page. This also includes instances from user controls and master pages.
+
+For the automatic RenderMode **Auto** detection to work, your project must reference the **Telerik.Web.Device.Detection.dll** assembly in your project. This mode makes each control choose the appropriate rendering mode according to the used browser and device - **Classic**, **Lightweight** or **Mobile**. The behavior of the affected controls depends also on the available render modes, for example in touch devices the mode will be changed automatically to **Mobile** if supported. If not, the mode will fall back until it meets the best mode that fits the environment.
+You can find a list with the controls that support alternative render modes in the [Render Modes List]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/mobile-support/render-modes%}) help article.
+
+The precedence is as follows:
+* If the web site is opened on a mobile device browser, the controls would try to render in **Mobile** render mode. If this is not supported for some controls, precedence goes over **Lightweight**, then **Classic**.
+* On desktop the controls would first try to render in **Lightweight** render mode, if not supported - only then they will fall back to **Classic**.
+* If a certain control does not support **Mobile** and **Lightweight**, it will be rendered in **Classic** render mode.
+
+Since the **Lightweight** render mode makes the controls more responsive, lightweight and easy to customize, it is the chosen mode for further development. All new controls (like **RadLabel**), skins (like **Material**), features and support for new browsers will be developed only for the modern **Lightweight** rendering. These newer controls are lightweight by design and setting the **RenderMode** to **Classic** won't have any effect. Nevertheless, the **Classic** render mode will continue to be supported and kept stable.
+
+Generally, there is also inherited **Native** option available in the **RenderMode** enumeration for each control from the entire toolset. However, it is meaningful only for a handful of the controls, for example **RadComboBox**, which causes it to render on the page as a **select** element with option elements representing its items. This comes handy on mobile devices, because selection would have the native mobile behavior. As many of the controls, especially RadGrid, are complex controls which do not have such specific HTML element equivalents, the **Native** render mode is not supported or have the same effect as **Classic**.
 
 ## Setting Render Mode
 
@@ -48,7 +60,6 @@ There are two ways to configure the rendering mode of the controls:
 	<add key="Telerik.Web.UI.Grid.RenderMode" value="Lightweight" />
 </appSettings>
 ````
-
 
 
 ## See Also
