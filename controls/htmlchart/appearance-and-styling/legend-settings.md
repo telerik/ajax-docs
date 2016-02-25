@@ -70,23 +70,23 @@ End Sub
 The color of the markers is automatically detected from the series colors.
 
 >tip To change the type, size and color of the legend markers you can:
-* Either use [visual templates]({%slug htmlchart/functionality/visual-template%}).
-* Or use the workaround from the following feedback item [ADD more legend markers options in RadHtmlChart](http://feedback.telerik.com/Project/108/Feedback/Details/123802).
+* Use [visual templates]({%slug htmlchart/functionality/visual-template%}).
+* Use the workaround from the following feedback item [ADD more legend markers options in RadHtmlChart](http://feedback.telerik.com/Project/108/Feedback/Details/123802).
 
 ## Position and Alignment
 
 You can control the position and the alignment of the legend with the following properties exposed by the `Legend.Appearance` tag:
 
 * `Position` - The position of the chart, relative to the plot area (**Example 2**). The supported values are:
- * `Top` - the legend is positioned on the top of the chart area.
- * `Bottom` - the legend is positioned on the bottom of the chart area.
- * `Left` - the legend is positioned on the left of the chart area.
- * `Right` - the legend is positioned on the right of the chart area.
- * `Custom` - the legend can be positioned on a custom position through the `OffsetX` and `OffsetY` properties.
+ * `Top` - The legend is positioned on the top of the chart area.
+ * `Bottom` - The legend is positioned on the bottom of the chart area.
+ * `Left` - The legend is positioned on the left of the chart area.
+ * `Right` - The legend is positioned on the right of the chart area.
+ * `Custom` - The legend can be positioned on a custom position through the `OffsetX` and `OffsetY` properties.
 * `Align` - The alignment of the legend, relative to the position (**Example 2**). When the legend is `Top` or `Bottom` positioned it can be horizontally aligned. When the legend is `Left` or `Right` positioned in can be vertically aligned. The supported values are:
- * `Start` - the legend is left or top aligned according to its position.
- * `End` - the legend is right or bottom aligned according to its position.
- * `Center` - the legend is centered according to its position.
+ * `Start` - The legend is left or top aligned according to its position.
+ * `End` - The legend is right or bottom aligned according to its position.
+ * `Center` - The legend is centered according to its position.
 * `OffsetX` - The x offset of the legend. The x value is relative to the current position of the legend. A positive and negative value can be set.
 * `OffsetY` - The y offset of the legend. The y value is relative to the current position of the legend. A positive and negative value can be set.
 
@@ -246,7 +246,7 @@ End Sub
 
 You can use client-side templates to display custom text in the legend labels since the **Q2 2016** release. 
 
-The functionality is available through the `ClientTemplate` inner property exposed by the `Legend.Appearance` tag. The fields which can be used inside the template are available in the [legend.labels.template](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/chart#configuration-legend.labels.template) article.
+The functionality is available through the `ClientTemplate` inner property exposed by the `Legend.Appearance` tag. The fields that can be used inside the template are available in the [legend.labels.template](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/chart#configuration-legend.labels.template) article.
 
 >tip You can also execute JavaScript in the `ClientTemplate`. More information is available in the [Execute JavaScript with a ClientTemplate]({%slug htmlchart/functionality/clienttemplate/display-html-and-execute-javascript%}) article.
 
