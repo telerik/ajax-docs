@@ -17,10 +17,11 @@ If you see this error in **SharePoint 2013** make sure that the settings in your
 
 ![](images/sharepoint-troubleshooting-4-403forbidden.png)
 
-* Make sure that **Forms Authentication** is disabled on application level. The IIS setings in this case should look like the following:
+* Make sure that **Forms Authentication** is disabled on application level. The IIS settings in this case should look like the following:
+
 ![](images/sharepoint-troubleshooting-1-anonymous-authentication.png)
 
-* Disable **ClaimsBasedAuthentication** as shown in the code snippet below. 
+* Disable **ClaimsBasedAuthentication** as shown in the code snippet below in PowerShell. 
     ````PowerShell
 $webApp = Get-SPWebApplication "http://webapplicationurl"
 $webApp.UseClaimsAuthentication = 0;
@@ -28,7 +29,7 @@ $webApp.Update()
 ````
 
 
-    If the above code was executed correctly then **Authentication Type** should be set to **Windows**. You can verify this by opening **Central Administration** -> **Application Management** -> **Manage web applications** select the **Sharepoint-80** main application and click on **Authentication Providers**. It should say **Default - Windows** as shown below: 
+    After the code executes then **Authentication Type** should be set to **Windows**. You can verify this by opening **Central Administration** -> **Application Management** -> **Manage web applications** select the **Sharepoint-80** main application and click on **Authentication Providers**. It should say **Default - Windows** as shown below: 
     
     
 ![](images/sharepoint-troubleshooting-3-claimsbasedauthentication.png)
