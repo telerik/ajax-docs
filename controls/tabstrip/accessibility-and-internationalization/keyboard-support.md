@@ -13,9 +13,9 @@ position: 0
 
 A critical requirement for software accessibility is keyboard support as a complete alternative to pointing devices (mouse, etc.). Keyboard support is comprised of access keys, keyboard navigation, and keyboard shortcuts. RadTabStrip seamlessly switches between mouse and keyboard navigation, just like in desktop applications.
 
-Setting the control's **KeyboardNaviagationSettings**, allows you to associate an activation combination (**CommandKey** + **FocusKey**), which moves focus to a particular tab and enables keyboard navigation. When there are multiple tabstrips on a given page, each of them may have a different activation combination.
+Setting the control's **KeyboardNavigationSettings**, allows you to associate an activation combination (**CommandKey** + **FocusKey**), which moves focus to a particular tab and enables keyboard navigation. When there are multiple tabstrips on a given page, each of them may have a different activation combination.
 
-## KeyboardNaviagationSettings
+## Keyboard Navigation Settings
 
 The **KeyboardNavigationSettings** exposes two properties to configure the keyboard combination that sets focus to the control: 
 
@@ -58,7 +58,7 @@ Pressing the keys set to these two properties at the same time places the focus 
 </telerik:RadTabStrip>
 ````
 
-## Keyboard navigation
+## Keyboard Navigation
 
 Once the TabStrip is focused by pressing [Tab] or [CommandKey] + [FocusKey] keyboard navigation is supported by using the arrow keys.
 
