@@ -74,8 +74,14 @@ If you prefer to manually perform the above-described process, you can easily do
 
 ## Enabling SPRadGrid Feature
 
-The Telerik SPRadGrid Web Part is deployed as a site collection feature. Therefore, after the addition and deployment of the web part you need to activate the feature associated with it. To do so, you can either go to **Site Actions -> Site Settings -> Site Collection Administration -> Site Collection Features** and enable the **SPRadGrid Feature**, or alternatively run the following **SP** **PowerShell** command:
+Telerik SPRadGrid, SPRadListView and SPRadScheduler Web Parts are deployed as a site collection feature. Therefore, after the addition and deployment of the web part you need to activate the feature associated with it. To do so, you can go to **Site Actions -> Site Settings -> Site Collection Administration -> Site Collection Features** and enable the **SPRadGrid Feature**, **SPRadListView  Feature** and **SPRadScheduler  Feature**. You can check [Enable publishing features in SharePoint 2010](https://support.office.com/en-us/article/Enable-publishing-features-in-SharePoint-2010-18ee3cfe-7ac1-4b47-93f0-98b5468c50a1) for additional information. 
+
+![installing-telerik-web-part-enabling-features-2010](images/installing-telerik-web-part-enabling-features-2010.png)
+
+Alternatively you can run the following **SP PowerShell** command:
 
 **`Enable-SPFeature TelerikSPRadGridWebPart_SPRadGridFeature -Url <url of your SP site>`**
+**`Enable-SPFeature TelerikSPRadGridWebPart_SPRadListViewFeature -Url <url of your SP site>`**
+**`Enable-SPFeature TelerikSPRadGridWebPart_SPRadSchedulerFeature -Url <url of your SP site>`**
 
 For an online demonstration of Telerik controls for SharePoint 2010, please, visit out web site at: [http://sharepoint.telerik.com](http://sharepoint.telerik.com)

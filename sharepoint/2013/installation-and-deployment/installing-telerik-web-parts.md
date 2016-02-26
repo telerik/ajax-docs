@@ -72,8 +72,14 @@ If you prefer to manually perform the above-described process, you can easily do
 
 	**`Remove-SPSolution -Identity RadControlsSP.wsp`**
 
-## Enabling SPRadGrid Feature
+## Enabling Features
 
-The Telerik SPRadGrid Web Part is deployed as a site collection feature. Therefore, after the addition and deployment of the web part you need to activate the feature associated with it. To do so, you can either go to **Site Actions -> Site Settings -> Site Collection Administration -> Site Collection Features** and enable the **SPRadGrid Feature**, or alternatively run the following **SP PowerShell** command:
+Telerik SPRadGrid, SPRadListView and SPRadScheduler Web Parts are deployed as a site collection feature. Therefore, after the addition and deployment of the web part you need to activate the feature associated with it. To do so, you can go to **Site Actions -> Site Settings -> Site Collection Administration -> Site Collection Features** and enable the **SPRadGrid Feature**, **SPRadListView  Feature** and **SPRadScheduler  Feature**. You can check [Enable publishing features](https://support.office.com/en-us/article/Enable-publishing-features-479677a6-8b33-4ac7-907d-071c1c7e4518) for additional information. 
+
+![installing-telerik-web-part-enabling-features-2013](images/installing-telerik-web-part-enabling-features-2013.png)
+
+Alternatively you can run the following **SP PowerShell** command:
 
 **`Enable-SPFeature TelerikSPRadGridWebPart_SPRadGridFeature -Url <url of your SP site>`**
+**`Enable-SPFeature TelerikSPRadGridWebPart_SPRadListViewFeature -Url <url of your SP site>`**
+**`Enable-SPFeature TelerikSPRadGridWebPart_SPRadSchedulerFeature -Url <url of your SP site>`**
