@@ -2,10 +2,10 @@
 title: SharePoint Update Issues
 page_title: SharePoint Update Issues | UI for ASP.NET AJAX Documentation
 description: SharePoint Update Issues
-slug: sharepoint/update-issues
+slug: sharepoint/troubleshooting/update-issues
 tags: sharepoint, issues,update
 published: True
-position: 2
+position: 1
 ---
 
 # SharePoint Update Issues

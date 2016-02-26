@@ -2,10 +2,11 @@
 title: Known Issues
 page_title: Known Issues | UI for ASP.NET AJAX Documentation
 description: Known Issues
-slug: sharepoint/known-issues
+slug: sharepoint/troubleshooting/known-issues
+previous_url: sharepoint/known-issues
 tags: known,issues
 published: True
-position: 3
+position: 0
 ---
 
 # Known Issues
