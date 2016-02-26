@@ -104,6 +104,6 @@ Below you can see suggestions that can help resolve other common issues with the
 * Disable Forms Authentication in the IIS settings of the current Sharepoint site
 
 * If you are seeing the following error make sure that **Telerik.Web.UI.dll** is present only in one of the folders (either GAC or the Bin folder)
-![](images/sharepoint-troubleshooting-2-dublicate-assembly-exception.png)
+![](images/sharepoint-troubleshooting-2-duplicate-assembly-exception.png)
 
 
