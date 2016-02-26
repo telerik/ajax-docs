@@ -5,7 +5,7 @@ description: Display HTML and Execute JavaScript
 slug: htmlchart/functionality/clienttemplate/display-html-and-execute-javascript
 tags: display,html,and,execute,javascript
 published: True
-position: 1
+position: 2
 ---
 
 # Display HTML and Execute JavaScript

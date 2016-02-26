@@ -5,7 +5,7 @@ description: Shared Template for ToolTips
 slug: htmlchart/functionality/clienttemplate/shared-template-for-tooltips
 tags: shared,template,for,tooltips
 published: True
-position: 2
+position: 3
 ---
 
 # Shared Template for ToolTips
