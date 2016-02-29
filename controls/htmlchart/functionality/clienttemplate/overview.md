@@ -10,7 +10,9 @@ position: 0
 
 # ClientTemplate Overview
 
-As of Q3 2012, **RadHtmlChart** offers client-side templates for the labels and tooltips used in the series. This Help article will discuss using client-side templates, connecting them to a data source and review the most used properties.
+As of **Q3 2012**, **RadHtmlChart** offers client-side templates for the labels and tooltips used in the series. This Help article will discuss using client-side templates, connecting them to a data source and review the most used properties.
+
+As of **Q2 2016**, client templates are also available for **Legend** items and **Axes** labels. In order to learn more details abouy how to configure them read the [Using Client Templates in Legend and Axes Labels]({%slug htmlchart/functionality/clienttemplate/using-client-templates-legend-axes%}) article. 
 
 The composite property that controls this functionality is **ClientTemplate** which is exposed in the **LabelsAppearance** and **TooltipsAppearance** tags for each series. You can use the **ClientTemplate** element to allow for runtime evaluation of the **dataItem** object and other fields associated with each series item. This means that additional columns from the data source and other fields like category, series name/type/stack can be displayed as the content instead of only a string formatted around the value.
 
@@ -230,6 +232,8 @@ You can set the following properties for a **ClientTemplate**:
 
 ## See Also
 
+ * [Using Client Templates in Legend and Axes Labels]({%slug htmlchart/functionality/clienttemplate/using-client-templates-legend-axes%})
+
  * [Format Numbers]({%slug htmlchart/appearance-and-styling/format-numbers%})
 
  * [Format Dates]({%slug htmlchart/appearance-and-styling/format-dates%})
@@ -237,3 +241,4 @@ You can set the following properties for a **ClientTemplate**:
  * [Display HTML and Execute JavaScript]({%slug htmlchart/functionality/clienttemplate/display-html-and-execute-javascript%})
 
  * [Shared Template for ToolTips]({%slug htmlchart/functionality/clienttemplate/shared-template-for-tooltips%})
+
