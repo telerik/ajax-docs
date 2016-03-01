@@ -11,18 +11,27 @@ position: 17
 # Center PopUp Edit Form in RadGrid
 
 
+Since Q2 2016 the RadGrid provides the option to center the popup edit form automatically. To enable the feature you need to set the **KeepInScreenBounds** property to **true**. In addition, with this approach the **EditForm** will be kept inside the screen boundaries.
 
-## 
 
-In some case where **RadGrid** uses **PopUp** edit forms for inserting/updating records, you may want to specify the pop-up form position on the page. For that purpose hook up the **OnPopUpShowing** client-side event of RadGrid to change the default position of the **PopUp** edit form.
+````ASP.NET
+<MasterTableView  EditMode="PopUp">
+    <EditFormSettings>
+        <PopUpSettings KeepInScreenBounds="true" />
+    </EditFormSettings> 
 
-Below is an example showing how to center the edit form in RadGrid:
+</MasterTableView>
+````
+ 
+
+In case you have an older version of the controls and you need to center the EditForm you can use the following approach. 
+
 
 ````ASP.NET
 <telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
   <script type="text/javascript">
     var popUp;
-    function PopUpShowing(sender, eventArgs) {
+    function popUpShowing(sender, eventArgs) {
       popUp = eventArgs.get_popUp();
       var gridWidth = sender.get_element().offsetWidth;
       var gridHeight = sender.get_element().offsetHeight;
@@ -41,7 +50,7 @@ Below is an example showing how to center the edit form in RadGrid:
       PopUpSettings-Height="260px" PopUpSettings-Width="400px" />
   </MasterTableView>
   <ClientSettings>
-    <ClientEvents OnPopUpShowing="PopUpShowing" />
+    <ClientEvents OnPopUpShowing="popUpShowing" />
     <Selecting AllowRowSelect="true" />
   </ClientSettings>
 </telerik:RadGrid>
