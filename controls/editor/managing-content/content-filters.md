@@ -38,7 +38,7 @@ The built-in filters are exposed by the **EditorFilters** enumeration. They are 
 |ConvertInlineStylesToAttributes|This filter converts XHTML compliant inline style attributes to Email compliant element attributes.|
 |PdfExportFilter|This filter fixes some pdf export issues.|
 |RemoveExtraBreaks|This filter strips all extra brakes inside some tags like p, h1, etc.|
-|DefaultFilters|This filter enables all default filters|
+|DefaultFilters|This filter enables all default filters (**RemoveScripts**, **FixUlBoldItalic**, **IECleanAnchors**, **MozEmStrong**, **ConvertFontToSpan**, **ConvertToXhtml**, **IndentHTMLContent**, **EncodeScripts**, **OptimizeSpans**, **ConvertCharactersToEntities**, **ConvertTags**, **StripCssExpressions**, **RemoveExtraBreaks**).|
 
 **ContentFilters**
 
