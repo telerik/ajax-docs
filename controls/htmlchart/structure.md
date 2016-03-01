@@ -12,6 +12,10 @@ position: 1
 
 The **RadHtmlChart** consists of a series of elements that have a strict hierarchy. The elements correspond to the structure of the controlin the markup or code behind. **Figure 1** illustrates the basic structure and shows the names of each element. **Example 1** shows the markup used to create **Figure 1**.
 
+* [Describing the Basic Elements of RadHtmlChart](#describing-the-basic-elements-of-radhtmlchart)
+* [Describing the Series Elements of RadHtmlChart](#describing-the-series-elements-of-radhtmlchart)
+* [The Axis Elements of RadHtmlChart](#the-axis-elements-of-radhtmlchart)
+
 >caption Figure 1: Basic structure of the RadHtmlChart.
 
 ![htmlchart-elements-structure](images/htmlchart-elements-structure.png)
@@ -24,7 +28,9 @@ The main parts of the chart that can be controlled outside of the specific serie
 
 * **Chart Title** - A chart title is the global title of the chart and you configure it using the **ChartTitle** inner tag. In the **ChartTitle** inner tag you set the string for the **RadHtmlChart**. The chart title also provides an **Appearance** inner tag where you set the position (**Bottom** or **Top**), alignment(**Left**, **Right** or **Center**), background color and visibility.
 
-* **Legend** - A chart legend lists series names (or item names in the case of a Pie chart) along with a symbol that indicates their color in the actual chart. You can customize a chart legend's via the **Appearance** tag inside the **Legend** tag that is a direct child of the main tag.You can set properties of a chart legend to control background color, position(**Left**, **Right**, **Top** or **Bottom**) and visibility.
+* **Legend** - A chart legend lists series names (or item names in the case of a Pie chart) along with a symbol that indicates their color in the actual chart. You can customize a chart legend's via the **Appearance** tag inside the **Legend** tag that is a direct child of the main tag.You can set properties of a chart legend to control background color, position(**Left**, **Right**, **Top** or **Bottom**) and visibility. 
+
+	You can find details regarding full legend customization in the [Legend Settings]({%slug htmlchart/appearance-and-styling/legend-settings%}) article.
 
 	>tip **Hovering** a mouse over or **clicking** on the series name in the chart legend will highlight and toggle the visibility of the series.
 
@@ -214,3 +220,5 @@ The axes are two perpendicular lines that define the scale of the chart and show
  * [RadHtmlChart Using the RadHtmlChart Visual Designer]({%slug htmlchart/design-time/configuration-wizard%})
 
  * [RadHtmlChart Visual Structure of the RadHtmlChart Control’s Tag Hierarchy]({%slug htmlchart/server-side-programming/overview%})
+ 
+ * [Legend Settings]({%slug htmlchart/appearance-and-styling/legend-settings%})
