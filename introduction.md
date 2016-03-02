@@ -94,6 +94,8 @@ Here are quick links to the control-specific sections of our documentation:
 
 * [Image Gallery]({%slug imagegallery/overview%})
 
+* [ImageButton]({%slug imagebutton/overview%})
+
 * [Input Manager]({%slug radinputmanager/overview%})
 
 * [Label]({%slug label/overview%})
