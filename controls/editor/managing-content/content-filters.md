@@ -32,6 +32,7 @@ The built-in filters are exposed by the **EditorFilters** enumeration. They are 
 |MozEmStrong|This filter changes b,strong and i,em in Mozilla browsers|
 |ConvertTags|This filter changes `<b>`, `<i>` and `<strike>` tags successively to `<strong>`, `<em>` and `<del>`.|
 |ConvertFontToSpan|This filter changes deprecated font tags to compliant span tags|
+|OptimizeSpans|This filter changes/removes unneeded span elements|
 |ConvertToXhtml|This filter converts the HTML from the editor content area to valid XHTML|
 |IndentHTMLContent|This filter indents the HTML content so it is more readable when you view the code|
 |ConvertCharactersToEntities|This filter converts reserved characters to their html entity names.|
