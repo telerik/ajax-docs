@@ -45,7 +45,7 @@ XML can also serve as a data provider for the **RadComboBox** control. The forma
 ````XML
 <Items>
   <Item Text="Africa" Value="1" Enabled="True" />
-  <Item Text="Australia" Value="2" Select="False" />
+  <Item Text="Australia" Value="2" Selected="False" />
   <Item Text="Asia" Value="3" CustomAttribute="CustomData" />
 </Items>
 ````
