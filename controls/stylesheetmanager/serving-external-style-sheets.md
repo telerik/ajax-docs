@@ -48,6 +48,36 @@ Register the external style sheets in **RadStyleSheetManager**. The paths to the
 ````
 
 
+You can also add external style sheets to the **RadStyleSheetManager** from the code-behind:
+
+````C#
+		
+	protected void Page_Load(object sender, EventArgs e)
+	{
+		StyleSheetReference relativeToTheRootFolder = new StyleSheetReference();
+        relativeToTheRootFolder.Path = "~/App_Themes/main.css";
+        RadStyleSheetManager1.StyleSheets.Add(relativeToTheRootFolder);
+
+        StyleSheetReference relativeToTheCurrentFolder= new StyleSheetReference();
+        relativeToTheCurrentFolder.Path = "../../StyleSheets/StyleSheet.css";
+        RadStyleSheetManager1.StyleSheets.Add(relativeToTheCurrentFolder);
+	}
+		
+````
+````VB.NET
+			
+	Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
+		Dim relativeToTheRootFolder As New StyleSheetReference()
+        relativeToTheRootFolder.Path = "~/App_Themes/main.css"
+        RadStyleSheetManager1.StyleSheets.Add(relativeToTheRootFolder)
+
+        Dim relativeToTheCurrentFolder As New StyleSheetReference()
+        relativeToTheCurrentFolder.Path = "../../StyleSheets/StyleSheet.css"
+        RadStyleSheetManager1.StyleSheets.Add(relativeToTheCurrentFolder)
+	End Sub
+		
+````
+
 
 >caution If an external style sheet, which is not in one of the folder designated in the configuration, an exception will be thrown.
 >

@@ -22,7 +22,7 @@ position: 3
 	
 	You can test the controls in the **head** are rendered in the comment with the following simple example:
 
-	````ASPNET
+````ASPNET
 	<!DOCTYPE html>
 	<html xmlns="http://www.w3.org/1999/xhtml">
 	<head id="Head1" runat="server">
@@ -34,23 +34,23 @@ position: 3
 		</form>
 	</body>
 	</html>
-	````
+````
 		
-	````C#
+````C#
 		
 	protected void Page_Load(object sender, EventArgs e)
 	{
 		Head1.Controls.Add(new Literal() { Text = "<link id='test'/>" });
 	}
 		
-	````
-	````VB.NET
+````
+````VB.NET
 			
 	Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
 		Head1.Controls.Add(New Literal() With {.Text = "<link id='test'/>"})
 	End Sub
 		
-	````
+````
 
-	In order to overcome any problematic behavior, related to this bug, we suggest to avoid using the **</ head >** in the comments of your Head section.
+In order to overcome any problematic behavior, related to this bug, we suggest to avoid using the **</ head >** in the comments of your Head section.
 	
