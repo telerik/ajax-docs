@@ -71,24 +71,3 @@ RadAutoCompleteBoxBinding:
 |getEntry()|number|Telerik.Web.UI.AutoCompleteBoxEntry|Returns the entry with the specified index.|
 |indexOf()|Telerik.Web.UI.AutoCompleteBoxEntry|number|Returns the index of the specified entry.|
 |get_count()|None|Number|Returns the number of the entries present in the Entry collection.|
-
-## RadAutoCompleteBox Client-Side Events
-
-
->caption  
-
-| Event | Description |
-| ------ | ------ |
-|[OnClientDropDownOpening]({%slug autocompletebox/client-side-programming/events/onclientdropdownopening%})|Occurs right before the drop-down container is opened.|
-|[OnClientDropDownOpened]({%slug autocompletebox/client-side-programming/events/onclientdropdownopened%})|Occurs right after the drop-down container is opened.|
-|[OnClientDropDownClosing]({%slug autocompletebox/client-side-programming/events/onclientdropdownclosing%})|Occurs right before the drop-down container is closed.|
-|[OnClientDropDownClosed]({%slug autocompletebox/client-side-programming/events/onclientdropdownclosed%})|Occurs right after the drop-down container is closed.|
-|[OnClientEntryAdding]({%slug autocompletebox/client-side-programming/events/oncliententryadding%})|Occurs right before an entry is added into the Entry collection. The event will be raised only if the input type of RadAutoCompleteBox is set to " *Token* ".|
-|[OnClientEntryAdded]({%slug autocompletebox/client-side-programming/events/oncliententryadded%})|Occurs right after an entry is added into the Entry collection. The event will be raised only if the input type of RadAutoCompleteBox is set to " *Token* ".|
-|[OnClientEntryRemoving]({%slug autocompletebox/client-side-programming/events/oncliententryremoving%})|Occurs right before an entry is removed from the Entry collection. The event will be raised only if the input type of RadAutoCompleteBox is set to " *Token* ".|
-|[OnClientEntryRemoved]({%slug autocompletebox/client-side-programming/events/oncliententryremoved%})|Occurs right after an entry is removed from the Entry collection. The event will be raised only if the input type of RadAutoCompleteBox is set to " *Token* ".|
-|[OnClientTextChanged]({%slug autocompletebox/client-side-programming/events/onclienttextchanged%})|Occurs when the text currently present in the input area is changed and RadAutoComplete has lost its focus. The event will be raised only if the input type of RadAutoCompleteBox is set to " *Text* ".|
-|[OnClientRequesting]({%slug autocompletebox/client-side-programming/events/onclientrequesting%})|Occurs right before a request for items is sent to the data source.|
-|[OnClientRequested]({%slug autocompletebox/client-side-programming/events/onclientrequested%})|Occurs when the request for items is completed, and the items are loaded into the drop-down container.|
-|[OnClientRequestFailed]({%slug autocompletebox/client-side-programming/events/onclientrequestfailed%})|Occurs in case of unsuccessful request sent to the data source.|
-|[OnClientDropDownItemDataBound]({%slug autocompletebox/client-side-programming/events/onclientdropdownitemdatabound%})|Occurs for each item that is created during a request to a Web service.|
