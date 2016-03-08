@@ -24,6 +24,8 @@ position: 0
 |get_inputElement()|none|DOM Object|Gets a reference to the HTML element representing the input area.|
 |get_isUsingODataSource()|none|boolean|Returns *true* if RadAutoCompleteBox is bound to OData, *false* otherwise.|
 |get_bindingMode()|none|Telerik.Web.UI.RadAutoCompleteBoxBinding Enum|Returns a number from the RadAutoCompleteBoxBinding enumeration.|
+|set_requestDelay()|int (milliseconds)|undefined|Sets delay time in milliseconds, when a request to the datasource is being triggered.|
+
 
 ````ASPNET
 RadAutoCompleteBoxBinding:
