@@ -189,7 +189,7 @@ This is unlike the **RadTreeView** control which supports different number of su
 >
 
 
-## 7. Comman Mistakes When Handling the ItemDataBound or ItemCreated Events.
+## 7. Common Mistakes When Handling the ItemDataBound or ItemCreated Events.
 
 **ItemDataBound** and **ItemCreated** event handler allows you to manipulate the controls and the	values of each cell in **RadGrid**. The differences between those two events is discussed thoroughly in	[this topic]({%slug grid/control-lifecycle/differences-between-itemcreated-and-itemdatabound-%}). When handling **ItemCreated** and	**ItemDataBound** events, forgetting to check for the appropriate:
 
