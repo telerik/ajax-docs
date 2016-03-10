@@ -166,6 +166,4 @@ Both **xlsx** and **docx** support exporting of images. The images are included 
 
 * No hierarchy support
 
-* No grouping support
-
 * No automatic column/row resizing

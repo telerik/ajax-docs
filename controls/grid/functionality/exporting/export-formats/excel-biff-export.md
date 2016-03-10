@@ -174,6 +174,4 @@ newSheet.Cells(1, 1).Value = "NEW CELL"
 
 * No hierarchy support
 
-* No grouping support
-
 * No automatic column/row resizing
