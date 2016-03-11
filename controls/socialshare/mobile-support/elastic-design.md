@@ -13,7 +13,7 @@ position: 2
 
 This article explains the **elastic design capabilities RadSocialShare offers**. The [Lightweight RenderMode]({%slug splitter/mobile-support/render-modes%}) of RadSocialShare supports **elastic design as of Q3 2015** (**Figure 1**). The Classic RenderMode offers more limited abilities (**Figure 2**). RadSocialShare also provides [Fluid Design]({%slug socialshare/mobile-support/fluid-design%}).
 
-Generally, responsive design means that the page and its content are able to adapt to different screen resolutions without deteriorating	the user experience. This often includes changing the font size and having dimensions set in percent.
+@[template](/_templates/common/render-mode.md#resp-design-desc "slug-el: no, slug-fl: socialshare/mobile-support/fluid-design")
 
 
 >caption Figure 1: Comparison between the appearance of a RadSocialShare with regular font size and with increased font size when `RenderMode=Lightweight`. See the code in **Examples 2-3**.

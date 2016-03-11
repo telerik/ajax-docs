@@ -10,13 +10,10 @@ position: 0
 
 # Resposnive, Adaptive and Elastic Capabilities
 
-
-
 This article explains the **elastic capabilities RadTagCloud offers**. The control supports **elastic design since Q2 2014**.
 
-## 
+@[template](/_templates/common/render-mode.md#resp-elastic-desc)
 
-Generally, elastic design means that the page and its content are able to adapt to different font size by scaling the elements properly depending on the chosen font-size.
 >caption Figure 1: Comparison between appearances of a RadTagCloud with two different values for font size.
 
 ![tagcloud-elastic-comparison](images/tagcloud-elastic-comparison.png)

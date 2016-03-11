@@ -12,7 +12,7 @@ position: 1
 
 This article explains the **elastic design capabilities offered by RadImageButton**. **Example 1** shows the basic approaches you can use to scale the control by only changing its default font size.
 
-Generally, responsive design means that the page and its content are able to adapt to different screen resolutions without deteriorating the user experience. This often includes changing the font size and having dimensions set in percent.
+@[template](/_templates/common/render-mode.md#resp-design-desc "slug-el: no, slug-fl: imagebutton/mobile-support/fluid-design")
 
 >caption Figure 1: Comparison between appearance of a RadImageButton with regular font size and with increased font size.
 

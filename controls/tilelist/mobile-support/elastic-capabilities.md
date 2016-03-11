@@ -13,8 +13,7 @@ position: 1
 
 This article explains the **elastic design capabilities RadTileList offers**.	The [Lightweight RenderMode]({%slug tilelist/mobile-support/render-modes%}) of RadTileList supports **elastic design as of Q3 2015** (**Figure 1**).
 
-Generally, responsive design means that the page and its content are able to adapt to different screen resolutions without deteriorating	the user experience. This often includes changing the font size and having dimensions set in percent.
-
+@[template](/_templates/common/render-mode.md#resp-design-desc "slug-el: no, slug-fl: no")
 
 >caption Figure 1: Comparison between the appearance of a RadTileList with regular font size and with increased font size (50% scale).
 

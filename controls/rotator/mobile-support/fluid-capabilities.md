@@ -12,6 +12,8 @@ position: 2
 
 This article explains the **fluid capabilities RadRotator offers**. The control supports **fluid design since Q2 2014**.
 
+@[template](/_templates/common/render-mode.md#resp-design-desc "slug-el: rotator/mobile-support/elastic-capabilities, slug-fl: no")
+
 ## Fluid Design with RadRotator
 
 **RadRotator** is a control that moves its content dynamically in order to display parts of it in a sequence. The size of the rotator and its items is usually set in pixels according to the instructions in the [How to configure RadRotator]({%slug rotator/getting-started/overview%}) help article so that the control can calculate how much items will be visible in its view port.

@@ -12,7 +12,7 @@ position: 2
 
 This article explains the **fluid design capabilities RadPushButton offers**. The **Example 1** below shows how you can set button size in percent so it can resize with its parent element.
 
-Generally, responsive design means that the page and its content are able to adapt to different screen resolutions without deteriorating the user experience. This often includes [changing the font size]({%slug pushbutton/mobile-support/elastic-design%}) and having dimensions set in percent.
+@[template](/_templates/common/render-mode.md#resp-design-desc "slug-el: pushbutton/mobile-support/elastic-design, slug-fl: no")
 
 >caption Figure 1: RadPushButton set to 100% width and and 25% height.
 

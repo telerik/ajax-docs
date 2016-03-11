@@ -15,7 +15,7 @@ position: 0
 
 This article explains the **responsive design capabilities RadNotification offers**.	RadNotification is built semantically, using CSS for defining rounded corners, shadows and gradients. In the example	bellow you will find a very simple way, allowing you to resize and scale the control only by	changing its default font size or set its dimensions in percent.
 
-Generally, responsive design means that the page and its content are able to adapt to different screen resolutions without deteriorating	the user experience. This often includes changing the font size and having dimensions set in percent.
+@[template](/_templates/common/render-mode.md#resp-design-desc "slug-el: no, slug-fl: no")
 
 ## Elastic Design with RadNotification
 >caption Figure 1: Comparison between appearance of a RadNotification with regular font size and with increased font size

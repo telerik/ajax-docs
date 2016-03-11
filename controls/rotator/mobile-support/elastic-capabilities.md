@@ -12,7 +12,7 @@ position: 1
 
 This article explains the **elastic capabilities RadRotator offers**. The control supports **elastic design since Q2 2014**.
 
-Generally, elastic design means that the page and its content are able to adapt to different font size by scaling the elements properly depending on the chosen font-size.
+@[template](/_templates/common/render-mode.md#resp-design-desc "slug-el: no, slug-fl: rotator/mobile-support/fluid-capabilities")
 
 >caption **Figure 1**: Comparison between appearance of a RadRotator with regular font size and with increased font size.
 

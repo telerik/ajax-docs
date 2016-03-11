@@ -12,7 +12,7 @@ position: 0
 
 This article explains the **responsive design capabilities RadWindow offers**.	The [Lightweight RenderMode]({%slug window/mobile-support/render-modes%}) of RadWindow supports	**elastic design since Q2 2014**.
 
-Generally, responsive design means that the page and its content are able to adapt to different screen resolutions without deteriorating	the user experience. This often includes changing the font size and having dimensions set in percent.
+@[template](/_templates/common/render-mode.md#resp-design-desc "slug-el: no, slug-fl: no")
 
 ## Elastic Design with RadWindow
 

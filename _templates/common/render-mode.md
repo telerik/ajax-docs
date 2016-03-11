@@ -47,3 +47,15 @@ The possible options are:
 #do-not-mix-modes-all
 >important **@{control}**, as well as the other Telerik controls that utilize render modes, supports only one type of render mode per page. This includes mode being set for a standalone instance(s), and a programmatically created instance(s). All such controls must have the same **RenderMode** on a given page.This also includes instances from user controls and master pages.
 #end
+
+#resp-design-desc
+Generally, responsive design means that the page and its content are able to adapt to different screen resolutions without deteriorating the user experience. This often includes {% if '@{slug-el}' == 'no' %} changing the font size {% else %} [changing the font size]({%slug @{slug-el}%}) {% endif %} and having {% if '@{slug-fl}' == 'no' %} dimensions set in percent{% else %} [dimensions set in percent]({%slug @{slug-fl}%}){% endif %}.
+#end
+
+#resp-elastic-desc
+Generally, elastic design means that the page and its content are able to adapt to different font size by scaling the elements properly depending on the chosen font-size.
+#end
+
+
+
+

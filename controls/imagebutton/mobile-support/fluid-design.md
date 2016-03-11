@@ -12,7 +12,7 @@ position: 2
 
 This article explains the **fluid design capabilities RadImageButton offers**. **Example 1** shows how you can set button size in percent so it can resize with its parent element. If you need the image to also respect the button size, you need to set the `Sizing` property of the `Image` tag to `Stretch`.
 
-Generally, responsive design means that the page and its content are able to adapt to different screen resolutions without deteriorating the user experience. This often includes [changing the font size]({%slug imagebutton/mobile-support/elastic-design%}) and having dimensions set in percent.
+@[template](/_templates/common/render-mode.md#resp-design-desc "slug-el: imagebutton/mobile-support/elastic-design, slug-fl: no")
 
 >caption Figure 1: RadImageButton set to 100% width and 25% height.
 

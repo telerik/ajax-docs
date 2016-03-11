@@ -12,7 +12,7 @@ position: 2
 
 This article explains the **elastic capabilities RadTicker offers**. The control supports **elastic design since Q1 2015**.
 
-Generally, elastic design means that the page and its content are able to adapt to different font size by scaling the elements properly depending on the chosen font-size.
+@[template](/_templates/common/render-mode.md#resp-elastic-desc)
 
 >caption **Figure 1**: Comparison between appearance of a RadTicker with regular font size and with increased font size.
 

@@ -13,7 +13,7 @@ position: 3
 
 This article explains the **fluid design capabilities RadSocialShare offers**. 
 
-Generally, responsive design means that the page and its content are able to adapt to different screen resolutions without deteriorating the user experience. This often includes [changing the font size]({%slug socialshare/mobile-support/elastic-design%}) and having dimensions set in percent.
+@[template](/_templates/common/render-mode.md#resp-design-desc "slug-el: socialshare/mobile-support/elastic-design, slug-fl: no")
 
 
 >caption Figure 1: RadSocialShare with dimensions set to 100% that occupies its entire parent element

@@ -12,7 +12,7 @@ position: 0
 
 This article explains the **elastic design capabilities RadProgressBar offers**. RadProgressBar is built semantically, using CSS for defining rounded corners, shadows and gradients. The example bellow shows the simple approach you can use to to resize and scale the control by only changing its default font size.
 
-Generally, responsive design means that the page and its content are able to adapt to different screen resolutions without deteriorating the user experience. This often includes changing the font size and having [dimensions set in percent]({%slug progressbar/mobile-support/fluid-design%}).
+@[template](/_templates/common/render-mode.md#resp-design-desc "slug-el: no, slug-fl: progressbar/mobile-support/fluid-design")
 
 ## Elastic Design with RadProgressBar
 

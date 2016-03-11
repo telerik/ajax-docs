@@ -14,7 +14,7 @@ This article explains the **elastic design capabilities RadEditor offers**.	The 
 
 >note The elastic design capabilities in the RadEditor control are available only when [RenderMode]({%slug editor/mobile-support/render-modes%}) is set to *Lightweight* .
 
-Generally, responsive design means that the page and its content are able to adapt to different screen resolutions without deteriorating the user experience. This often includes changing the font size and having [dimensions set in percent]({%slug editor/mobile-support/fluid-design%}).
+@[template](/_templates/common/render-mode.md#resp-design-desc "slug-el: no, slug-fl: editor/mobile-support/fluid-design")
 
 ## Elastic Design with RadEditor
 

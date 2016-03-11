@@ -12,7 +12,7 @@ position: 2
 
 This article explains the **fluid design capabilities RadButton offers**. The examples below show how you can set its size in percent so it can resize with its parent element.
 
-Generally, responsive design means that the page and its content are able to adapt to different screen resolutions without deteriorating the user experience. This often includes [changing the font size]({%slug button/mobile-support/elastic-design%}) and having dimensions set in percent.
+@[template](/_templates/common/render-mode.md#resp-design-desc "slug-el: button/mobile-support/elastic-design, slug-fl: no")
 
 ## Fluid Design with Lightweight Render Mode
 

@@ -12,7 +12,7 @@ position: 1
 
 This article explains the **elastic design capabilities RadRating offers**.	RadRating, when in [Lightweight RenderMode]({%slug rating/mobile-support/render-modes%}), uses font icons for its stars which provides its elastic capabilities.	The example below shows the simple approach you can use to resize and scale the control by only changing its default font size.
 
-Generally, responsive design means that the page and its content are able to adapt to different screen resolutions without deteriorating the user experience.	This often includes changing the font size and having dimensions set in percent.
+@[template](/_templates/common/render-mode.md#resp-design-desc "slug-el: no, slug-fl: no")
 
 ## Elastic Design with RadRating
 
