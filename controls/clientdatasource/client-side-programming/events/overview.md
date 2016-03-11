@@ -15,7 +15,6 @@ position: 1
 
 The following table decribes the client-side events provided by **RadClientDataSource**
 
-## 
 
 **Table 1: RadClientDataSource** client-side events
 

@@ -100,7 +100,7 @@ All of the above collections share the same common properties inherited from **T
 
  * [Overview]({%slug clientdatasource/client-side-programming/overview%})
 
- * [Events]({%slug clientdatasource/client-side-programming/events%})
+ * [Events]({%slug clientdatasource/client-side-programming/events/overview%})
 
  * [get_aggregates()]({%slug clientdatasource/client-side-programming/client-side-api/properties/get_aggregates()%})
 

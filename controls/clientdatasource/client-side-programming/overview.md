@@ -75,4 +75,4 @@ position: 0
 
  * [Client-side Objects]({%slug clientdatasource/client-side-programming/clientdatasource-object%})
 
- * [Client-side Events]({%slug clientdatasource/client-side-programming/events%})
+ * [Client-side Events]({%slug clientdatasource/client-side-programming/events/overview%})
