@@ -21,7 +21,7 @@ Using the **AccessKey** property, you can associate an activation combination (a
 
 >note In **Opera**, access keys work by pressing **Shift+ESC**, then pressing the assigned **access key**.
 >In **FireFox** and **Chrome**, access keys work by pressing **Alt + Shift + access key**.
->Note also that in some browsers like **FireFox** and **Chrome** some of the keyboard combination are already occupied by the browser itself. Therefore you will need to focus the Menu first, then use the Tab key to navigate between the RadMenuItems.
+>Note also that in some browsers like **FireFox** and **Chrome** some of the keyboard combination are already occupied by the browser itself. Therefore you will need to focus the Menu first, then use the arrow keys to navigate between the RadMenuItems.
 >
 
 
@@ -44,17 +44,18 @@ To set a keyboard shortcut to a menu item, simply set the **AccessKey** property
 
 ## Keyboard navigation
 
-Keyboard navigation is supported by using the [TAB] and arrow keys. Use the [TAB] key to move focus to the first menu item, and then use the arrow keys to move among menu items.
+Keyboard navigation is supported by using the [TAB] and arrow keys. Use the [TAB] key to move focus to the **RadMenu** control, and then use the arrow keys to move among menu items.
 
-An alternative to arrow keys for moving forward and backward along the menu are the [TAB] and [SHIFT]+[TAB] key combinations:
-
-* To move forward, use the [TAB] key.
-
-* To move backward, use the [SHIFT]+[TAB] key combination.
-
-Child menu items are expanded using the arrow keys from the opposite (perpendicular) axis: for example, in a horizontal menu, the left and right arrow keys (or [TAB] and [SHIFT]+[TAB] key combinations) navigate among the parent items; child items are accessed with the up and down arrow keys.
+Child menu items are expanded using the arrow keys from the opposite (perpendicular) axis: for example, in a horizontal menu, the left and right arrow keys navigate among the parent items; child items are accessed with the up and down arrow keys. As of **Q2 2016** release, sub-items list can also be expanded by using the [Space] key.
 
 Use the [ESC] key to go back one level.
+
+>note If you are using **Q1 2016 SP** or a previous release of the **UI for ASP.NET AJAX** controls, an alternative to arrow keys for moving forward and backward among the menu items are the [TAB] and [SHIFT]+[TAB] key combinations:
+>
+>* To move forward, use the [TAB] key.
+>
+>* To move backward, use the [SHIFT]+[TAB] key combination.
+>
 
 The following properties are related to keyboard accessibility as they define the flow and expanding direction of menu items:
 
