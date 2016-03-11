@@ -12,7 +12,7 @@ position: 0
 
 
 
-**Templates** are fully supported bu RadComboBox control. If you do not specify an **ItemTemplate**, all items are rendered using their **Text** property as plain text. If you specify an **ItemTemplate**, then the respective template is used for rendering. You can embed any content inside a template:
+**Templates** are fully supported by RadComboBox control. If you do not specify an **ItemTemplate**, all items are rendered using their **Text** property as plain text. If you specify an **ItemTemplate**, then the respective template is used for rendering. You can embed any content inside a template:
 
 * HTML markup.
 

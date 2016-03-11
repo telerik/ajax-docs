@@ -27,13 +27,13 @@ To work around the problem you could use the following approach:
 * Subscribe to the **OnClientDropDownOpening** event and call the **requestItems()** method of the combobox to load the items from the **ItemsRequested** server-side event
 
 ````ASPNET
-<telerik:radcombobox 
+<telerik:RadComboBox 
 	id="RadComboBox1" 
-	allowcustomtext="false" 
-	onclientdropdownopening="OnClientDropDownOpeningHandler"
-	onitemsrequested="RadComboBox1_ItemsRequested" 
+	AllowCustomText="false" 
+	OnClientDropDownOpening="OnClientDropDownOpeningHandler"
+	OnItemsRequested="RadComboBox1_ItemsRequested" 
 	runat="server">
-</telerik:radcombobox>
+</telerik:RadComboBox>
 ````
 
 

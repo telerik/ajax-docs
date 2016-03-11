@@ -26,7 +26,7 @@ The filtering functionality is enabled through the **Filter** property. The foll
 
 >note 
 * Filtering is NOT case sensitive;
-*  **CheckBox** functionality is NOT supported in combination with filtering. The reason is that the CheckBox selection is different from thestandard RadComboBox's selection - there is no single selected item.
+*  **CheckBox** functionality is NOT supported in combination with filtering. The reason is that the CheckBox selection is different from the standard RadComboBox's selection - there is no single selected item.
 >
 
 
