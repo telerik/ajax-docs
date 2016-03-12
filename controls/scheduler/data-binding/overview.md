@@ -16,7 +16,7 @@ position: 0
 
 **RadScheduler** requires some sort of data binding so that it can store and retrieve the informationit displays about appointments. At a minimum, the data for the scheduler must include for each appointment a **Subject**, a **Start time**, and an **End time**.Optionally, it can include fields for **Description, Reminder** and for handling appointmentrecurrence: the **Recurrence rule**, the **Recurrence state**, and the **RecurrenceParentID**. It can also include fields for any custom resources and attributes youwant to include. If you are including custom resources, there must also be additional data binding to supply the schedulerwith the possible values for each custom resource type.
 
-You can bind the scheduler to either a standard ASP.NET data source control, or to a custom provider. There are three waysof binding **RadScheduler** to its data:
+You can bind the scheduler to either a standard ASP.NET data source control, or to a custom provider. There are three ways of binding **RadScheduler** to its data:
 
 * Using [ASP.NET 2.0 declarative data source controls]({%slug scheduler/data-binding/declarative-data-binding%}). This method lets you use the [ Data Source Configuration Wizard ]({%slug scheduler/design-time/data-source-configuration-wizard%}) to set up the data binding in the designer. It is the simplest method of data binding. When using declarative data source controls, you can't assign multiple resource values to a single appointment.
 

@@ -40,7 +40,7 @@ Using **RadScheduler**, users can
 
 * [Localize]({%slug scheduler/accessibility-and-internationalization/translating-strings%}) the scheduler for different cultures, including adjusting to different [time zones]({%slug scheduler/accessibility-and-internationalization/handling-time-zones%}).
 
-A rich assortment of both [client-side]({%slug scheduler/client-side-programming/events/overview%}) and [server-side]({%slug scheduler/server-side-programming/server-events/overview%}) eventslets you adapt the scheduler's behavior to your own special purposes. The programming API lets you manage [recurring events]({%slug scheduler/server-side-programming/working-with-recurring-appointments%}), [custom resources]({%slug scheduler/server-side-programming/working-with-resources%}), and even interact with the [ICalendar interface]({%slug scheduler/export/export-to-icalendar%}).
+A rich assortment of both [client-side]({%slug scheduler/client-side-programming/events/overview%}) and [server-side]({%slug scheduler/server-side-programming/server-events/overview%}) events lets you adapt the scheduler's behavior to your own special purposes. The programming API lets you manage [recurring events]({%slug scheduler/server-side-programming/working-with-recurring-appointments%}), [custom resources]({%slug scheduler/server-side-programming/working-with-resources%}), and even interact with the [ICalendar interface]({%slug scheduler/export/export-to-icalendar%}).
 
 
 

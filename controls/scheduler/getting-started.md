@@ -26,7 +26,7 @@ This tutorial will walk you through creating a **RadScheduler** and shows how to
 
 ## Binding RadScheduler to XmlSchedulerProvider
 
-Firstly, you need to add an .xml file which will act as a repository for allappointments that are created and displayed.
+Firstly, you need to add an .xml file which will act as a repository for all appointments that are created and displayed.
 
 1. Download the Appointments.xml file from the App_Data folder in the local path where your RadControls areinstalled. For example: **C:\Program Files (x86)\Telerik\RadControls for ASP.NET AJAX Q3 2010\Live Demos\App_Data.**
 

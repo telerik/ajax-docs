@@ -14,7 +14,7 @@ position: 2
 
 ## Overview
 
-The Advanced Templates provide great flexibility for customizing the Advanced Form. However, a common problem when using the **AdvancedInsertTemplate** or the **AdvancedEditTemplate** is that the functionality relatedto recurrence and resources is lost. In other words, if you chose to customize the advanced form you will not be able to insert or edit recurringappointments or appointments with resources, unless you implement this functionality from scratch. For instance, consider the [Templates online example](http://demos.telerik.com/aspnet-ajax/Scheduler/Examples/Templates/DefaultCS.aspx).
+The Advanced Templates provide great flexibility for customizing the Advanced Form. However, a common problem when using the **AdvancedInsertTemplate** or the **AdvancedEditTemplate** is that the functionality related to recurrence and resources is lost. In other words, if you chose to customize the advanced form you will not be able to insert or edit recurring appointments or appointments with resources, unless you implement this functionality from scratch. For instance, consider the [Templates online example](http://demos.telerik.com/aspnet-ajax/Scheduler/Examples/Templates/DefaultCS.aspx).
 
 The solution which we offer is a set of user controls that recreates the default advanced form, yet allowing for unrestricted customization. We will show how to use the advanced form controls in both **Server Side** and **Client Side** binding scenarios.
 
