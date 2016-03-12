@@ -32,11 +32,11 @@ The items of **RadListBox** have a few important properties, which are listed be
 
 * **Enabled** determines whether the user can select the item from the list.
 
-* **CssClass** is the name of a CSS style to be applied to the ListBox item (the <LI> html element). The style can be declared in the CSS file of the applied skin.
+* **CssClass** is the name of a CSS style to be applied to the ListBox item (the \<li\> html element). The style can be declared in the CSS file of the applied skin.
 
 * **ImageUrl** determines the image that will be displayed on the left of the item's Text.
 
-* **Attributes** - in addition to the built-in properties, you can add your own custom attributes to ListBox items to expand their functionality. They will be rendered as an attribute of the <LI> tag of the items.
+* **Attributes** - in addition to the built-in properties, you can add your own custom attributes to ListBox items to expand their functionality. They will be rendered as an attribute of the \<li\> tag of the items.
 
 
 

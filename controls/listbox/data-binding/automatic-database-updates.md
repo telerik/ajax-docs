@@ -12,7 +12,7 @@ position: 4
 
 **RadListBox** supports automatic database updates. This means that the control can call the respective **UpdateCommand** or **DeleteCommand** of the [DataSource]({%slug listbox/data-binding/binding-to-asp.net-datasource-components%}).
 
->note To allow automatic updates you need to set the **AllowAutomaticUpdates="True"** and **AutoPostBackOn[Operation]="True"** property of the listbox. The listbox must be bound to a[declarative DataSource]({%slug listbox/data-binding/binding-to-asp.net-datasource-components%}) which has its **UpdateCommand** and/or **DeleteCommand** configured.
+>note To allow automatic updates you need to set the **AllowAutomaticUpdates="True"** and **AutoPostBackOn[Operation]="True"** property of the listbox. The listbox must be bound to a [declarative DataSource]({%slug listbox/data-binding/binding-to-asp.net-datasource-components%}) which has its **UpdateCommand** and/or **DeleteCommand** configured.
 >
 
 
