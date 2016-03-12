@@ -63,7 +63,8 @@ While the four RadInput controls (**RadTextBox**, **RadMaskedTextBox**, **RadDat
 
 * The **TextMode** property specifies how the control displays its value. It can be set to any of the following values:
 
-* **Telerik.Web.UI.InputMode.SingleLine**: When the **TextMode** property is **SingleLine**, the value of the text box appears in a single line of text. The **MaxLength** property determines the maximum length of the text the user can enter into the text box.
+* **Telerik.Web.UI.InputMode.SingleLine**: When the **TextMode** property is **SingleLine**, the value of the text box appears in a single line of text.
+The **MaxLength** property determines the maximum length of the text the user can enter into the text box. Note that The **MaxLength** is not applicable for using RadMaskedTextBox with given Mask. The mask itself clearly define the exact length of the input. 
 
 * **Telerik.Web.UI.InputMode.MultiLine**: When the **TextMode** property is **MultiLine**, the text box displays its value using multiple lines. The **Columns** property determines the width of each line in characters, and the **Rows** property determines the number of lines the text box displays.If the **Wrap** property is **True**, the value in the text box wraps over multiple lines, and a vertical scroll bar appears if the value exceeds the limits set by the **Rows** and **Columns** properties. If the **Wrap** property is **False**, the value does not wrap, and a horizontal scroll bar appears if the value exceeds the limit set by the **Columns** property.
 
