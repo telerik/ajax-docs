@@ -14,7 +14,7 @@ position: 0
 
 ## Entries Input Types
 
-RadAutoCompleteBox provides two different visual representations of its entries.The preferable visualization is set via the **InputType** property of RadAutoCompleteBoxwhich takes one of the following two values:
+RadAutoCompleteBox provides two different visual representations of its entries. The preferable visualization is set via the **InputType** property of **RadAutoCompleteBox** which takes one of the following two values:
 
 * **Token** - visualizes the entries as tokens.
 

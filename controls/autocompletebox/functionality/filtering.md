@@ -29,9 +29,9 @@ There are two **filtering** options available:
 
 
 
-As of **Q3 2013** release, we had introduced two properties - **MaxFilterLength** and **MaxResultCount**:
+As of **Q3 2013** release, we had introduced two properties - **MinFilterLength** and **MaxResultCount**:
 
-* **MaxFilterLength** - Sets the minimum length of the typed text before the control initiates a request for its DataSource.
+* **MinFilterLength** - Sets the minimum length of the typed text before the control initiates a request for its DataSource.
 
 * **MaxResultCount** - Sets how many results will the **RadAutoCompleteBox** be populated with.When this property is set, a "Show All Results" button appears at the bottom of the dropdown. Clicking this button will load all corresponding results.![autocomplte-showallresults](images/autocomplte-showallresults.png)
 
@@ -62,4 +62,4 @@ data.EndOfItems = True
 >
 
 
-Both properties could be very useful in a heavy-data scenario. Controlling the **MaxFilterLength**, could give you the ability to perform a search in your database, regarding the sequence of the typed characters. If the result is still potentially large, you could use the **MaxResultCount**, in order to return the first 100 results for example.
+Both properties could be very useful in a heavy-data scenario. Controlling the **MinFilterLength**, could give you the ability to perform a search in your database, regarding the sequence of the typed characters. If the result is still potentially large, you could use the **MaxResultCount**, in order to return the first 100 results for example.
