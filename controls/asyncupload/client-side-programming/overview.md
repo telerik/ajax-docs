@@ -38,7 +38,7 @@ function pageLoad() {
 
 ## RadAsyncUpload
 
-The following example uses only a single **RadAsyncUpload** controland demonstrates how by using client-side object the you can add an additional upload row tovisually demonstrate that the control can upload several files:
+The following example uses only a single **RadAsyncUpload** control and demonstrates how by using client-side object the you can add an additional upload row tovisually demonstrate that the control can upload several files:
 
 ````JavaScript
 function deleteUnusedFileInputs() {

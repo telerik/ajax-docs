@@ -15,11 +15,6 @@ This article provides a list and detailed description of the properties and meth
 
 ## Properties
 
-The **LastModifiedDate** property was added to the AsyncUploadedFile class as of Q3 2012. The value is available only when we are uploading files with IE10, FireFox, Google Chrome and Safari browsers. In IE9 it is not available because it does not support **File API** while in Opera, **LastModifiedDate** is not available due to security reasons.
-
-
->caption  
-
 | Name | Type | Description |
 | ------ | ------ | ------ |
 | **AccessKey** |string|Sets or returns a String that represents the shortcut key, also known as the accelerator key, for a specified object.|
@@ -67,24 +62,21 @@ The **LastModifiedDate** property was added to the AsyncUploadedFile class as of
 | **TargetFolder** |string|Gets or sets the virtual path of the folder, where **RadAsyncUpload** will automatically save the valid files after the upload completes.|
 | **TemporaryFileExpiration** |TimeSpan|Sets how long temporary files should be kept before automatically deleting them. The default value is 4 hours.|
 | **TemporaryFolder** |string|Gets or sets the path to a folder where RadAsyncUpload should save files temporarily until a postback occurs. Defaults to App_Data\RadUploadTemp subfolder of the Application Path.|
-| **UploadConfiguration** |IAsyncUploadConfiguration|Sets upload configuration. The generic object can be obtained using the CreateUploadConfiguration<T> method, where T is custom class that implements IAsyncUploadConfiguration.|
+| **UploadConfiguration** |IAsyncUploadConfiguration|Sets upload configuration. The generic object can be obtained using the CreateUploadConfiguration\<T\> method, where T is custom class that implements IAsyncUploadConfiguration.|
 | **UploadedFiles** |UploadedFileCollection|Provides access to the valid files uploaded by the RadAsyncUpload instance.|
 | **UploadedFilesRendering** |AsyncUpload.UploadedFilesRendering|Gets or sets a value indicating whether RadAsyncUpload will render the uploaded files above/below the current file input.|
 | **UseApplicationPoolImpersonation** |bool|Gets or sets whether the application pool impersonation should be used.|
 
+>note The **LastModifiedDate** property was added to the AsyncUploadedFile class as of Q3 2012. The value is available only when we are uploading files with IE10, FireFox, Google Chrome and Safari browsers. In IE9 it is not available because it does not support **File API** while in Opera, **LastModifiedDate** is not available due to security reasons.
+>
+
 ## Methods
-
-
->caption  
 
 | Name | Description |
 | ------ | ------ |
-| **CreateDefaultUploadConfiguration<T>** |Creates an object of type T (that implements IAsyncUploadConfiguration) and populates all properties specified in the interface from this RadAsyncUpload instance.|
+| **CreateDefaultUploadConfiguration\<T\>** |Creates an object of type T (that implements IAsyncUploadConfiguration) and populates all properties specified in the interface from this RadAsyncUpload instance.|
 
 ## Properties of the UploadedFiles Collection
-
-
->caption  
 
 | Name | Type | Description |
 | ------ | ------ | ------ |
@@ -94,10 +86,7 @@ The **LastModifiedDate** property was added to the AsyncUploadedFile class as of
 | **InputStream** |System.IO.Stream|Gets a Stream object which points to the uploaded file to prepare for reading the contents of the file. The property is available only in RadAsyncUpload control when FileApi module is used.|
 | **LastModifiedDate** |DateTime|Gets the last modified date of the uploaded file. The property is available only in RadAsyncUpload control when FileApi module is used.|
 
-## Methods of the UploadedFiles Collection
-
-
->caption  
+## Methods of the UploadedFiles Collection 
 
 | Name | Description |
 | ------ | ------ |

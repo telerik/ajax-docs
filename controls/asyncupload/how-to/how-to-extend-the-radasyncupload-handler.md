@@ -43,7 +43,7 @@ UploadedFile is the file that is currently processed.
 
 * TempFileName is the uploaded file's temporary name.
 
-As you may have noticed, the return type of the method is of type interface - IAsyncUploadResult. The reason for this is that if one want toreturn custom information they can create class that implements IAsyncUploadResult, populate it with the **CreateUploadResult<T>**method, set any custom added properties and then return it. The returned class is serialized and sent to the server. This means that one will be able to access it in the FileUploaded server-side event. Example:
+As you may have noticed, the return type of the method is of type interface - IAsyncUploadResult. The reason for this is that if one want to return custom information they can create class that implements IAsyncUploadResult, populate it with the **CreateUploadResult\<T\>** method, set any custom added properties and then return it. The returned class is serialized and sent to the server. This means that one will be able to access it in the FileUploaded server-side event. Example:
 
 ````C#
 protected void RadAsyncUpload1_FileUploaded(object sender, FileUploadedEventArgs e)
@@ -57,7 +57,7 @@ Protected Sub RadAsyncUpload1_FileUploaded(ByVal sender As Object, ByVal e As Fi
 End Sub	
 ````
 
-The other way around is also possible, to sent information from the page to the handler. The approach is pretty much the same, object that implements theIAsyncUploadConfiguration should be set to the RadAsyncUpload's UploadConfiguration property. The config object can be obtained using the **CreateDefaultUploadConfiguration\<T\>** method that is provided by RadAsyncUpload. The object passed to this generic method should implement the IAsyncUploadConfiguration interface. After that, the object is serialized and sent to the handler with each request. Example:
+The other way around is also possible, to sent information from the page to the handler. The approach is pretty much the same, object that implements the IAsyncUploadConfiguration should be set to the RadAsyncUpload's UploadConfiguration property. The config object can be obtained using the **CreateDefaultUploadConfiguration\<T\>** method that is provided by RadAsyncUpload. The object passed to this generic method should implement the IAsyncUploadConfiguration interface. After that, the object is serialized and sent to the handler with each request. Example:
 
 ````C#
 protected void Page_Load(object sender, EventArgs e) 

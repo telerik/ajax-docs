@@ -26,11 +26,11 @@ See [Understanding the Skin CSS File]({%slug upload/appearance-and-styling/under
 
 * In the Solution Explorer, double-click the **Web.config** file to open it for editing.
 
-* Under the **<configuration>** element, locate the **<system.web>** element. Add it if it does not exist.
+* Under the **\<configuration\>** element, locate the **\<system.web\>** element. Add it if it does not exist.
 
-* Under the **<system.web>** element, locate the **<httpModules>** element. Add it if it does not exist.
+* Under the **\<system.web\>** element, locate the **\<httpModules\>** element. Add it if it does not exist.
 
-* In the **<httpModules>** element, add the following tag to register RadUploadHttpModule:
+* In the **\<httpModules\>** element, add the following tag to register RadUploadHttpModule:
 
 ````XML
 <add name="RadUploadModule" type="Telerik.Web.UI.RadUploadHttpModule, Telerik.Web.UI" />
@@ -38,9 +38,9 @@ See [Understanding the Skin CSS File]({%slug upload/appearance-and-styling/under
 
 
 
-* Under the **<system.web>** element, locate the **<httpHandlers>** element. Add it if it does not exist.
+* Under the **\<system.web\>** element, locate the **\<httpHandlers\>** element. Add it if it does not exist.
 
-* In the **<httpHandlers>** element, add the following tag to register RadUploadProgressHandler:
+* In the **\<httpHandlers\>** element, add the following tag to register RadUploadProgressHandler:
 
 ````XML
 <add verb="*" path="Telerik.RadUploadProgressHandler.ashx" type="Telerik.Web.UI.RadUploadProgressHandler, Telerik.Web.UI" />
@@ -81,7 +81,7 @@ See [Understanding the Skin CSS File]({%slug upload/appearance-and-styling/under
 
 * Open **Upload.Green.css** and replace all instances of **_Default** with **_Green**. Then save the file.
 
-* Drag the **"Upload.Green.Css"** file from the Solution Explorer onto your web page. This automatically adds a reference to the page "<head>" tag as a "<link>" to the new style sheet:![Drag and Drop](images/asyncupload_draganddrop.png)
+* Drag the **"Upload.Green.Css"** file from the Solution Explorer onto your web page. This automatically adds a reference to the page "\<head\>" tag as a "\<link\>" to the new style sheet:![Drag and Drop](images/asyncupload_draganddrop.png)
 
 * Drag a **RadAsyncUpload** control from the toolbox onto your webpage.
 
@@ -169,7 +169,7 @@ End Sub
 
 * Each button has an additional class applied that is specific to that type of button. These classes include **ruCheck**, **ruBrowse**, **ruRemove**, **ruAdd**, and **ruDelete**. The "Green" style sheet is not going to do anything special for different button types, so locate the selectors for **.RadAsyncUpload_Green .ruBrowse** and **.RadaAsyncUpload_Green .ruRemove**, and delete those class definitions.
 
-* The Add and Remove buttons appear inside a separate <li> element with the **ruActions** class applied. Locate the **.RadUpload_Green .ruActions .ruButton** selector. Remove the background rule from this class definition:
+* The Add and Remove buttons appear inside a separate \<li\> element with the **ruActions** class applied. Locate the **.RadUpload_Green .ruActions .ruButton** selector. Remove the background rule from this class definition:
 
 ````CSS
     .RadUpload_Green .ruActions .ruButton { width:115px; margin:0 0.8em 0 0;}
@@ -191,13 +191,13 @@ End Sub
 .RadUpload_Green .ruProgress li { margin:0 0 0.8em; color:green;}
 ````
 
-* Each row in the Progress dialog box has its own style class, which is assigned to the <li> element. Locate the element for the row with the current file name, which has the **ruCurrentFile** class (**.radAsyncUpload_Green .ruProgress li.ruCurrentFile**). Change the color to "#0b0" and reduce the font-size to 14px:
+* Each row in the Progress dialog box has its own style class, which is assigned to the \<li\> element. Locate the element for the row with the current file name, which has the **ruCurrentFile** class (**.radAsyncUpload_Green .ruProgress li.ruCurrentFile**). Change the color to "#0b0" and reduce the font-size to 14px:
 
 ````CSS
 .RadUpload_Green .ruProgress li.ruCurrentFile { margin:0 0 0.3em; font-size:14px; color:#0b0;}
 ````
 
-* The name of the current file is rendered using a <span> element inside the <li> element for the row. Locate the **.radUpload_Green .ruProgress li.ruCurrentFile span** selector. Use this rule to change the color to green and reduce the font size to 14 px:
+* The name of the current file is rendered using a \<span\> element inside the \<li\> element for the row. Locate the **.radUpload_Green .ruProgress li.ruCurrentFile span** selector. Use this rule to change the color to green and reduce the font size to 14 px:
 
 ````CSSS
 .RadUpload_Green .ruProgress li.ruCurrentFile span { font-size:14px; color:green;}

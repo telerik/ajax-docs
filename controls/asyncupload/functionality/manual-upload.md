@@ -14,7 +14,7 @@ position: 4
 
 ## ManualUpload property
 
-As of Q3 2012, the **RadAsyncUpload** control supports a **ManualUpload** property. By setting the **ManualUpload** property to **true** users could start the upload of the selected files when they want.In order to start the upload your application code should invoke the **startUpload()** method from the client side API of the **RadAsyncUpload** object.
+As of Q3 2012, the **RadAsyncUpload** control supports a **ManualUpload** property. By setting the **ManualUpload** property to **true** users could start the upload of the selected files when they want. In order to start the upload your application code should invoke the **startUpload()** method from the client side API of the **RadAsyncUpload** object.
 
 As of Q1 2013, the **RadAsyncUpload** control supports two more methods, **pauseUpload()** and **resumeUpload()** to complete manual upload functionality. Both of them should be invoked from the client side API of the **RadAsyncUpload** object.
 

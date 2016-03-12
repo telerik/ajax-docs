@@ -20,7 +20,7 @@ When you set the **Multiple file selection**, the user can select more than one 
 
 ## Succession of the client events
 
-After the user selects files and clicks "Open", the [OnClientFilesSelected]({%slug asyncupload/client-side-programming/onclientfilesselected%}) event is invoked and after thatthe [OnClientFileSelected]({%slug asyncupload/client-side-programming/onclientfileselected%}) event is fired for every separate file.
+After the user selects files and clicks "Open", the [OnClientFilesSelected]({%slug asyncupload/client-side-programming/onclientfilesselected%}) event is invoked and after that the [OnClientFileSelected]({%slug asyncupload/client-side-programming/onclientfileselected%}) event is fired for every separate file.
 
 If the first file passes validation, [OnClientFileUploading]({%slug asyncupload/client-side-programming/onclientfileuploading%}) is thrown and if the selected file is successfully uploaded, the [OnClientFileUploaded]({%slug asyncupload/client-side-programming/onclientfileuploaded%}) event is thrown. If the file upload fails, the [OnClientFileUploadFailed]({%slug asyncupload/client-side-programming/onclientfileuploadfailed%}) event is thrown instead. If the selected file does not pass the validation, [OnClientValidationFailed]({%slug asyncupload/client-side-programming/onclientvalidationfailed%}) is thrown instead of **OnClientFileUploading** event. In such case any other event that follows are not reached at all for this file.
 

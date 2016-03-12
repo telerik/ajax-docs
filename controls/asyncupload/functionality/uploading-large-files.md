@@ -34,11 +34,11 @@ To make modifications to your application for large file uploads, you need to:
 
 1. Open the **Solution Explorer**, navigate to the application **Web.config** file and open it.
 
-1. Under the **<configuration>** element, locate the **<system.web>** element. Add it if it does not exist.
+1. Under the **\<configuration\>** element, locate the **\<system.web\>** element. Add it if it does not exist.
 
-1. Under the **<system.web>** element, locate the **<httpRuntime>** element. Add it if it does not exist.
+1. Under the **\<system.web\>** element, locate the **\<httpRuntime\>** element. Add it if it does not exist.
 
-1. In the **<httpRuntime>** element, locate the **maxRequestLength** and **executionTimeout** attributes. If they do not exist, add them.
+1. In the **\<httpRuntime\>** element, locate the **maxRequestLength** and **executionTimeout** attributes. If they do not exist, add them.
 
 Modify the configuration file to allow uploads of files up to 100MB and upload periods up to 1 hour:
 
@@ -74,9 +74,9 @@ Modify the configuration file to allow uploads of files up to 100MB and upload p
 
 
 
-1. Open the file **C:\Windows\System32\inetsrv\config\applicationHost.config** and find the line:<section name="requestFiltering" overrideModeDefault="Deny" />
+1. Open the file **C:\Windows\System32\inetsrv\config\applicationHost.config** and find the line: \<section name="requestFiltering" overrideModeDefault="Deny" /\>
 
-1. Change the **overrideModeDefault** property from "Deny" to **Allow**. So now the line should look like:<section name="requestFiltering" overrideModeDefault="Allow" />
+1. Change the **overrideModeDefault** property from "Deny" to **Allow**. So now the line should look like: \<section name="requestFiltering" overrideModeDefault="Allow" /\>
 
 ## Modules Information
 

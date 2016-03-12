@@ -12,7 +12,7 @@ position: 3
 
 ## RadAsyncUpload File Filtering
 
-As of Q1 2011, **RadAsyncUpload** supports file filtering.A file filter is an object with two properties: **Description** and **Extensions**. The **Extensions** property accepts a comma separated list of extensions upon whichthe select file dialog should be filtered. The **Description** property, as its name suggests, describes the extensions set.
+As of Q1 2011, **RadAsyncUpload** supports file filtering. A file filter is an object with two properties: **Description** and **Extensions**. The **Extensions** property accepts a comma separated list of extensions upon whichthe select file dialog should be filtered. The **Description** property, as its name suggests, describes the extensions set.
 
 ````ASP.NET
 <telerik:RadAsyncUpload runat="server" ID="RadAsyncUpload1">
