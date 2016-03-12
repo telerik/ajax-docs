@@ -16,7 +16,7 @@ position: 2
 
 The resource files should be placed within the **App_GlobalResources** folder in your application. You can either create your own language pack (see below) or use an existing one (if available for your language). Telerik controls installation wizard automatically copies the built-in resources to the **App_GlobalResources** in your local installation.
 
-![ImageGallery LocalizationPath](images/mediaplayer-globalresources-folder.png)
+![MediaPlayer Global Resources Folder](images/mediaplayer-globalresources-folder.png)
 
 
 
@@ -26,7 +26,7 @@ The resource files should be placed within the **App_GlobalResources** folder in
 The resource files are represented in a human-readable format (XML) and can be easily modified either in the built-in Visual Studio resource editor or directly in the file, by hand.
 
 
-![ImageGallert Resource File](images/mediaplayer-resourcefile.png)
+![MediaPlayer Resource File](images/mediaplayer-resourcefile.png)
 
 
 ## Creating a new localization resource
