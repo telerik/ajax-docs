@@ -29,7 +29,8 @@ protected void Page_Load(object sender, EventArgs e)
         RadPanelItem item1 = new RadPanelItem(); 
         item1.Text = "Item 1"; 
         RadPanelItem item11 = new RadPanelItem(); 
-        item11.Text = "Child 1"; item1.Items.Add(item11); 
+        item11.Text = "Child 1";
+		item1.Items.Add(item11);
         RadPanelItem item2 = new RadPanelItem();
         item2.Text = "Item 2"; 
         RadPanelItem item3 = new RadPanelItem();
