@@ -10,10 +10,24 @@ position: 4
 
 # Change the height of the input element
 
->caution This page contains information about RadComboBox for ASP.NET Ajax version **2009.1.311 and later.** If you are using any previous version - please check [this article]({%slug combobox/appearance-and-styling/change-the-height-of-the-input-element%}).
+>caution This page contains information about RadComboBox for ASP.NET Ajax version **2009.1.311 and later.** If you are using any previous version - please check [this article]({%slug combobox/appearance-and-styling/change-the-appearance-of-the-input-element%}).
 >
 
 ## Introduction
+
+**Vertical dimensions** [Telerik Visual Style Builder](http://stylebuilder.telerik.com/)
+
+## Changing the height of the input element in Lightweight render mode
+
+If the RadComboBox' render mode is set to Lightweight (available since Q1 2013), the height of its input element can be easily set with the following CSS rule:
+
+````CSS
+html .RadComboBox .rcbInput {
+    height: 25px ;
+}
+````
+
+Unlike Lightweight, in which no sprite images are used, the Classic render mode does make use of them so changing the input's height would require more effort. The next article sections explain how this can be achieved in Classic render mode. 
 
 **Vertical dimensions** [Telerik Visual Style Builder](http://stylebuilder.telerik.com/)
 
@@ -253,4 +267,3 @@ Refresh your page – your 50px RadComboBox looks great! One finishing touch –
 
 That’s all. I hope this tutorial was helpful to you. Have fun designing new and exciting skins for RadComboBox.
 
-You can download a sample project from [here](http://blogs.telerik.com/Files/ComboResizeTutorial.zip).
