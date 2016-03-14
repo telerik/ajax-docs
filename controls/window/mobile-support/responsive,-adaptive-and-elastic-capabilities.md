@@ -24,7 +24,9 @@ This article explains the **responsive design capabilities RadWindow offers**.	T
 
 Elements that use images or images sprites, however, cannot be increased in size, so the commands will keep having their original dimensions and position(aligned to the top of the titlebar).
 
-The following sample shows how to increase the font size of a RadWindow and the effect can be seen in comparison in Figure 1.
+@[template](/_templates/common/font-size-notes.md#note-and-example "control: RadWindow")
+
+**Example 2:** The following sample shows how to increase the font size of a RadWindow and the effect can be seen in comparison in Figure 1.
 
 ````ASP.NET
 <style type="text/css">
@@ -42,3 +44,5 @@ The following sample shows how to increase the font size of a RadWindow and the 
 ## See Also
 
  * [Render Modes]({%slug window/mobile-support/render-modes%})
+
+@[template](/_templates/common/font-size-notes.md#related-resources)

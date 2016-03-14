@@ -20,7 +20,9 @@ This article explains the **elastic design capabilities that RadToggleButton off
 
 ![togglebutton-elastic-design](images/togglebutton-elastic-design.png)
 
->caption Example 1: Shows how to increase the font size of a RadToggleButton in Figure 1.
+@[template](/_templates/common/font-size-notes.md#note-and-example "control: RadToggleButton")
+
+>caption Example 2: Shows how to increase the font size of a RadToggleButton in Figure 1.
 
 ````CSS
 <style type="text/css">
@@ -47,3 +49,4 @@ This article explains the **elastic design capabilities that RadToggleButton off
 
  * [Fluid Design]({%slug togglebutton/mobile-support/fluid-design%})
 
+@[template](/_templates/common/font-size-notes.md#related-resources)

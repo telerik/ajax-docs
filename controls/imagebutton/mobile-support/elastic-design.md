@@ -18,7 +18,9 @@ This article explains the **elastic design capabilities offered by RadImageButto
 
 ![imagebutton-elastic-design](images/imagebutton-elastic-design.png)
 
->caption Example 1: Shows how to increase the font size of a RadImageButton in Figure 1.
+@[template](/_templates/common/font-size-notes.md#note-and-example "control: RadImageButton")
+
+>caption **Example 2**: Shows how to increase the font size of a RadImageButton in Figure 1.
 
 ````CSS
 <style type="text/css">
@@ -44,3 +46,4 @@ You can download the image used in this example from here—[blue_button_bg.png]
 
  * [Fluid Design]({%slug imagebutton/mobile-support/fluid-design%})
 
+@[template](/_templates/common/font-size-notes.md#related-resources)

@@ -22,7 +22,9 @@ The [Lightweight Render Mode]({%slug button/mobile-support/render-modes%}) is av
 
 ![button-elastic-design-lightweight](images/button-elastic-design-lightweight.png)
 
->caption Example 1: Shows how to increase the font size of a RadButton with Lightweight render mode as shown in Figure 1.
+@[template](/_templates/common/font-size-notes.md#note-and-example "control: RadButton")
+
+>caption Example 2: Shows how to increase the font size of a RadButton with Lightweight render mode as shown in Figure 1.
 
 ````ASP.NET
 <style type="text/css">
@@ -61,7 +63,7 @@ The [Lightweight Render Mode]({%slug button/mobile-support/render-modes%}) is av
 
 **RadButton** with Classic render mode provides two [Button Types]({%slug button/button-types/overview%}) that are built semantically, using CSS for defining rounded corners, shadows and gradients.They are **LinkButton** and **SkinnedButton**.In the example below you will find a basic approach that enables you to resize and scale these buttons only by changing the default font size.
 
->caption Example 2: Shows how to increase the font size of a RadButton with Lightweight render mode as shown in Figure 2.
+>caption Example 3: Shows how to increase the font size of a RadButton with Lightweight render mode as shown in Figure 2.
 
 ````ASP.NET
 <style type="text/css">
@@ -91,3 +93,5 @@ Elements that use images or images sprites, however, cannot be increased in size
  * [Fluid Design]({%slug button/mobile-support/fluid-design%})
 
  * [Button Types]({%slug button/button-types/overview%})
+@[template](/_templates/common/font-size-notes.md#related-resources)
+

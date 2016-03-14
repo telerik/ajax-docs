@@ -18,13 +18,15 @@ This article explains the **responsive design capabilities RadSlider offers**. T
 
 The **Lightweight RenderMode** of the slider supports changing the font size without breaking the control's appearance - if the new size is larger than the original, the elements in the control will simply increase their size as well to accommodate the text. This fluid layout is achieved by using em units for setting dimensions and paddings in the control, instead of px because em units are tied to the font size.This allows dimensions and sizes to scale with the font size.
 
+@[template](/_templates/common/font-size-notes.md#note-and-example "control: RadSlider")
+
 The following sample shows how to increase the font size of a slider and the effect can be seen in comparison in **Figure 1**.
 
 >caption Figure 1: Comparison between appearance of a slider with regular font size and with increased font size.
 
 ![Font size comparison](images/slider-font-size-comparison.png)
 
->caption Example 1: Slider with increased font size to 18px.
+>caption Example 2: Slider with increased font size to 18px.
 
 ````ASP.NET
 <style type="text/css">
@@ -39,7 +41,7 @@ The following sample shows how to increase the font size of a slider and the eff
 
 ## Fluid Design with RadSlider
 
-**RadSlider** supports setting its **Width** property in percentage only when Lightweight render mode is enabled as of the Q3 2014 release of UI for ASP.NET AJAX.This means that the slider changes its width according to the current screen resolution when you set its **Width** property in percentage as shown in **Example 1**. The actual width of the slider is calculated from its parent element, so if you place the slider from **Example 1** in an HTML div element that is 300px wide, the width of the slider should also be 300px.
+**RadSlider** supports setting its **Width** property in percentage only when Lightweight render mode is enabled as of the Q3 2014 release of UI for ASP.NET AJAX.This means that the slider changes its width according to the current screen resolution when you set its **Width** property in percentage as shown in **Example 2**. The actual width of the slider is calculated from its parent element, so if you place the slider from **Example 2** in an HTML div element that is 300px wide, the width of the slider should also be 300px.
 
 >caption Example 1: Slider with 100% width.
 
@@ -86,3 +88,5 @@ There are controls and elements that allow you to resize them by dragging their 
  * [RadWindow Overview]({%slug window/overview%})
  
  * [RadSplitter Overview]({%slug splitter/overview%})
+
+@[template](/_templates/common/font-size-notes.md#related-resources)

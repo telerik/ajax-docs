@@ -14,6 +14,8 @@ This article explains the **elastic design capabilities RadProgressBar offers**.
 
 @[template](/_templates/common/render-mode.md#resp-design-desc "slug-el: no, slug-fl: progressbar/mobile-support/fluid-design")
 
+@[template](/_templates/common/font-size-notes.md#note-and-example "control: RadProgressBar")
+
 ## Elastic Design with RadProgressBar
 
 >caption Figure 1: Comparison between a RadProgressBar with the default 12px font size and with increased font-size
@@ -37,3 +39,5 @@ This article explains the **elastic design capabilities RadProgressBar offers**.
 ## See Also
 
  * [Fluid Design]({%slug progressbar/mobile-support/fluid-design%})
+
+@[template](/_templates/common/font-size-notes.md#related-resources)

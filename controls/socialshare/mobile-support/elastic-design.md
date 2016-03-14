@@ -15,6 +15,7 @@ This article explains the **elastic design capabilities RadSocialShare offers**.
 
 @[template](/_templates/common/render-mode.md#resp-design-desc "slug-el: no, slug-fl: socialshare/mobile-support/fluid-design")
 
+@[template](/_templates/common/font-size-notes.md#note-and-example "control: RadSocialShare")
 
 >caption Figure 1: Comparison between the appearance of a RadSocialShare with regular font size and with increased font size when `RenderMode=Lightweight`. See the code in **Examples 2-3**.
 
@@ -31,7 +32,7 @@ This article explains the **elastic design capabilities RadSocialShare offers**.
 >note **RadSocialShare** takes the font-size of the page automatically. If the developer does not set it explicitly (**Example 1**), this is up to the client's browser and a common default value is 16px.
 
 
->caption **Example 1**: Setting default font for the page with the default value for the Telerik controls.
+>caption **Example 2**: Setting default font for the page with the default value for the Telerik controls.
 
 ```CSS
 body {
@@ -42,7 +43,7 @@ body {
 
 
 
->caption **Example 2**: Changing the font-size of a RadSocialShare via a page-wide CSS rule. 
+>caption **Example 3**: Changing the font-size of a RadSocialShare via a page-wide CSS rule. 
 
 ````CSS
 body
@@ -68,7 +69,7 @@ body
 ````
 
 
->caption **Example 3**: Changing the font-size of a RadSocialShare via the control's properties. 
+>caption **Example 4**: Changing the font-size of a RadSocialShare via the control's properties. 
 
 ````ASP.NET
 <telerik:RadSocialShare Font-Size="18px" RenderMode="Lightweight" runat="server" ID="RadSocialShare1">
@@ -85,7 +86,7 @@ body
 </telerik:RadSocialShare>
 ````
 
->caption **Example 4**: Changing the font-size of a RadSocialShare a specific CSS rule for, primarily for the Classic RenderMode.
+>caption **Example 5**: Changing the font-size of a RadSocialShare a specific CSS rule for, primarily for the Classic RenderMode.
 
 ````CSS
 div.RadSocialShare {
@@ -116,5 +117,5 @@ div.RadSocialShare {
 
  * [Fluid Design]({%slug socialshare/mobile-support/fluid-design%})
 
-
+@[template](/_templates/common/font-size-notes.md#related-resources)
 

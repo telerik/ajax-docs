@@ -21,7 +21,9 @@ By default **RadPivotGrid** expands to take all the available space in its conta
 
 **Elastic behavior** - When you use the **RadPivotGrid** **RenderMode** property to **Leightweight**, changing the font-size for the RadPivotGrid wrapper will resize the control elements accordingly. This is usually achieved by using em units for font-size and padding settings.
 
-To change the font-size for RadPivotGrid you can use the code snippet below:
+@[template](/_templates/common/font-size-notes.md#note-and-example "control: RadPivotGrid")
+
+**Example 2:** To change the font-size only for RadPivotGrid you can use the code snippet below:
 
 ````ASPNET
 <style type="text/css">
@@ -34,5 +36,9 @@ To change the font-size for RadPivotGrid you can use the code snippet below:
 ````
 
 >note RadPivotGrid does not take care of the metrics of the controls that are place in it. This means that if you simply change its font-size that won’t affect the child controls in the template. They should be handled manually.
->
+
+
+# See also
+
+@[template](/_templates/common/font-size-notes.md#related-resources)
 

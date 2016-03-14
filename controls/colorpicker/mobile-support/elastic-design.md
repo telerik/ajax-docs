@@ -24,18 +24,7 @@ This article explains the **elastic design capabilities RadColorPicker offers**.
 **RadColorPicker** does not create elastic design by itself, but can fit in a page that follows this pattern. This means that its **Lightweight RenderMode** supports **changing the font size** without breaking the control's appearance - if the new size is larger than the original, the elements in the control will simply increase their size as well to accommodate the text. This fluid layout is achieved by using `em` units for setting dimensions and paddings in the control, instead of `px`because `em` units are tied to the font size. This allows dimensions and sizes to scale with the font size.
 
 
->note **RadColorPicker** takes the font-size of the page automatically. If the developer does not set it explicitly (**Example 1**), this is up to the client's browser and a common default value is 16px.
-
-
->caption **Example 1**: Setting default font for the page with the default value for the Telerik controls.
-
-```CSS
-body {
-	font-size: 12px; /* 12px is the default value for Telerik controls */
-	font-family: "Segoe UI", Arial, Sans-serif;
-}
-````
-
+@[template](/_templates/common/font-size-notes.md#note-and-example "control: RadColorPicker")
 
 >caption **Example 2**: Changing the font-size of a RadColorPicker via page-level CSS rules. 
 
@@ -63,4 +52,4 @@ body {
 
  * [Render Modes]({%slug colorpicker/mobile-support/render-modes%})
 
-
+@[template](/_templates/common/font-size-notes.md#related-resources)

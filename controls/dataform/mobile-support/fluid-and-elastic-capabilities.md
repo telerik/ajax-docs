@@ -22,7 +22,9 @@ If you want the form to expand based on the content then add **rdfInlineBlock** 
 
 **Elastic behavior** - the form itself and the text in it (label and field hint text, as well as their margin and paddings) are scalable based on the base font size.
 
-To change it you can use the code snippet below:
+@[template](/_templates/common/font-size-notes.md#note-and-example "control: RadDataForm")
+
+>caption **Example 2**: You can use the code snippet below to change only the font-size of **RadDataForm**:
 
 ````ASPNET
 <style type="text/css">
@@ -36,3 +38,5 @@ To change it you can use the code snippet below:
 >note RadDataForm does not take care of the metrics of the controls that are place in it. This means that if you simply change its font-size that won’t affect the child controls in the template. They should be handled manually.
 >
 
+# See also
+@[template](/_templates/common/font-size-notes.md#related-resources)

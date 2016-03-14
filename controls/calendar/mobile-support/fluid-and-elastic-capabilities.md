@@ -14,6 +14,8 @@ position: 1
 
 The RadCalendar including the picker controls provide elastic and fluid capabilities which allow keeping the control’s component proportion on different mobile devices.
 
+@[template](/_templates/common/font-size-notes.md#note-and-example "control: RadCalendar")
+
 ## Fluid capability
 
 The **fluid** capabilities are simply achievable by setting the control’s width in **percentages**.
@@ -59,3 +61,8 @@ To take advantage **elastic** functionality advantage you could set a specific *
 
 	* DatePicker control's rendering in case the body font size is set to 18px
 	![mobile-support-18px](images/mobile-support-18px.png)
+
+
+# See Also
+
+@[template](/_templates/common/font-size-notes.md#related-resources)

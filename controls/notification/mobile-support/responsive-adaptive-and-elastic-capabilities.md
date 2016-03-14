@@ -17,6 +17,8 @@ This article explains the **responsive design capabilities RadNotification offer
 
 @[template](/_templates/common/render-mode.md#resp-design-desc "slug-el: no, slug-fl: no")
 
+@[template](/_templates/common/font-size-notes.md#note-and-example "control: RadNotification")
+
 ## Elastic Design with RadNotification
 >caption Figure 1: Comparison between appearance of a RadNotification with regular font size and with increased font size
 
@@ -67,3 +69,4 @@ You can see this feature in the [Size in percent](http://demos.telerik.com/aspne
 
  * [Render Modes]({%slug notification/mobile-support/render-modes%}) 
 
+@[template](/_templates/common/font-size-notes.md#related-resources)

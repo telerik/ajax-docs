@@ -24,7 +24,9 @@ This article explains the **elastic design capabilities RadEditor offers**.	The 
 
 **RadEditor** does not create elastic design by itself, but can fit in a page that follows this pattern.This means that you can change its font size without breaking the control's appearance - if the new size is larger than the original,the elements in the control will simply increase their size.This fluid layout is achieved by using `em` units for setting dimensions and paddings in the control,instead of `px` because em units are tied to the font size.This allows dimensions and sizes to scale with the font size.
 
->caption Example 1: How to increase the font size of a RadEditor as shown in Figure 1.
+@[template](/_templates/common/font-size-notes.md#note-and-example "control: RadEditor")
+
+>caption **Example 2**: How to increase the font size of a RadEditor as shown in Figure 1.
 
 ````ASP.NET
 <style type="text/css">
@@ -45,3 +47,5 @@ This article explains the **elastic design capabilities RadEditor offers**.	The 
  * [Render Modes]({%slug editor/mobile-support/render-modes%})
 
  * [Fluid Design]({%slug editor/mobile-support/fluid-design%})
+
+@[template](/_templates/common/font-size-notes.md#related-resources)

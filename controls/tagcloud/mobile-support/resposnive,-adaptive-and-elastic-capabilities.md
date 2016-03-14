@@ -24,9 +24,11 @@ This article explains the **elastic capabilities RadTagCloud offers**. The contr
 >
 
 
-To use the elasticity of the RadTagCloud change the font size of the control's element (Example 1). As a result the sizing of the tags is proportionally changed (Figure 1).
+To use the elasticity of the RadTagCloud change the font size of the control's element (Example 2). As a result the sizing of the tags is proportionally changed (Figure 1).
 
-Example 1: The font size of **RadTagCloud** is set to 20px.
+@[template](/_templates/common/font-size-notes.md#note-and-example "control: RadTagCloud")
+
+**Example 2**: The font size of **RadTagCloud** is set to 20px.
 
 ````ASPNET
 <style type="text/css">
@@ -58,3 +60,5 @@ Example 1: The font size of **RadTagCloud** is set to 20px.
  * [RadTagCloud Server-Side]({%slug tagcloud/server-side-programming/tagcloud-object%})
 
  * [RadTagCloud Getting Started]({%slug tagcloud/getting-started%})
+
+@[template](/_templates/common/font-size-notes.md#related-resources)

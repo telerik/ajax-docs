@@ -23,10 +23,11 @@ This article explains the **elastic design capabilities RadFileExplorer offers**
 
 **RadFileExplorer** does not create elastic design by itself, but can fit in a page that follows this pattern. This means that its **Lightweight RenderMode** supports **changing the font size** without breaking the control's appearance - if the new size is larger than the original, the elements in the control will simply increase their size as well to accommodate the text. This fluid layout is achieved by using `em` units for setting dimensions and paddings in the control, instead of `px`because `em` units are tied to the font size. This allows dimensions and sizes to scale with the font size.
 
+@[template](/_templates/common/font-size-notes.md#note-and-example "control: RadFileExplorer")
+
 >important As of Q3 2015 only the some child controls of the File Explorer are elastic (i.e., take the font size from the CSS) and they require separate CSS rules. These are TreeView, ToolBar, Slider. The other controls are not elastic yet. This will be improved in future releases.
 
-
->caption **Example 1**: Changing the font-size of a File Explorer. The result is shown in Figure 1. 
+>caption **Example 2**: Changing the font-size of a File Explorer. The result is shown in Figure 1. 
 
 ````ASP.NET
 <style type="text/css">
@@ -48,4 +49,4 @@ This article explains the **elastic design capabilities RadFileExplorer offers**
 
  * [Render Modes]({%slug fileexplorer/mobile-support/render-modes%})
 
-
+@[template](/_templates/common/font-size-notes.md#related-resources)

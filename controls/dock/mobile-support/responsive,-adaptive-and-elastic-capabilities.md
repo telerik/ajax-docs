@@ -25,7 +25,9 @@ This article explains the **responsive design capabilities RadDock offers**.The 
 
 Elements that use images or images sprites, however, cannot be increased in size, so the commands will keep having their original dimensions and position(aligned to the top of the titlebar).
 
-The following sample shows how to increase the font size of a RadDock and the effect can be seen in comparison in Figure 1.
+@[template](/_templates/common/font-size-notes.md#note-and-example "control: RadDock")
+
+>caption **Example 2**: The following sample shows how to increase the font size of a RadDock and the effect can be seen in comparison in Figure 1.
 
 ````ASP.NET
 <style type="text/css">
@@ -58,3 +60,4 @@ The following sample shows how to increase the font size of a RadDock and the ef
  * [Render Modes]({%slug dock/mobile-support/render-modes%})
 
  * [Drag And Drop]({%slug dock/getting-started/drag-and-drop%})
+@[template](/_templates/common/font-size-notes.md#related-resources)

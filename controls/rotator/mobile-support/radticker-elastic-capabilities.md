@@ -20,11 +20,13 @@ This article explains the **elastic capabilities RadTicker offers**. The control
 
 **RadTicker** supports changing the font size without breaking the control's appearance - if the new size is larger than the original, the ticker items' text will increase in size as well. This fluid layout is achieved by using em units for setting dimensions and paddings in the control, instead of px because em units are tied to the font size. This allows dimensions and sizes to scale with the font size of the page.
 
-**Example 1** shows how to increase the font size of a **RadTicker** control and the effect can be seen in comparison in **Figure 1**.
+@[template](/_templates/common/font-size-notes.md#note-and-example "control: RadTicker")
+
+**Example 2** shows how to increase the font size of a **RadTicker** control and the effect can be seen in comparison in **Figure 1**.
 
 >tip  **RadTicker** does not render additional HTML elements or apply any CSS to the text it shows.	Thus, it inherits the font settings of the browser (usually 16px Arial) or the page (defined by the developer).	This means that you can use any appropriate selector for its parent element to change the ticker items' font-size.	This can be a the CSS class of its parent and it is not mandatory to use the body element for the cascade.
 
-**Example 1**: The font size of RadTicker is set to 22px.
+**Example 2**: The font size of RadTicker is set to 22px.
 
 ````ASP.NET
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -50,3 +52,6 @@ This article explains the **elastic capabilities RadTicker offers**. The control
 </html>
 ````
 
+# See also
+
+@[template](/_templates/common/font-size-notes.md#related-resources)

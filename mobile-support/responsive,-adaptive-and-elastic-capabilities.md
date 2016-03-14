@@ -123,9 +123,12 @@ A control can hardly be considered responsive by itself, because this heavily de
 
 ## CSS Selectors for Elastic Design
 
-**Example 1** provides the CSS selectors that let you resize the supported controls' UI elements via a font-size change. You can find detailed explanations on how this feature is supported in each control in **Table 1** above. **Example 2** shows the selectors used for *RadFormDecorator*. For more information, see the [Elastic capabilities in RadFormDecorator]({%slug formdecorator/mobile-support/responsive,-adaptive-and-elastic-capabilities%}) help article.
+**Example 1** demonstrates how setting the default font size of the page can affect all Telerik controls in it.
+**Example 2** provides the CSS selectors that let you resize the supported controls' UI elements via a font-size change. You can find detailed explanations on how this feature is supported in each control in **Table 1** above. **Example 3** shows the selectors used for *RadFormDecorator*. For more information, see the [Elastic capabilities in RadFormDecorator]({%slug formdecorator/mobile-support/responsive,-adaptive-and-elastic-capabilities%}) help article.
 
-**Example 1:** CSS selectors to make avail of the elastic design capabilities of the controls in the UI for ASP.NET AJAX suite
+@[template](/_templates/common/font-size-notes.md#note-and-example "control: each Telerik UI for ASP.NET AJAX control")
+
+**Example 2:** CSS selectors to make avail of the elastic design capabilities of the controls in the UI for ASP.NET AJAX suite
 
 ````CSS
 /* AutoCompleteBox */ html .RadAutoCompleteBox, html .RadAutoCompleteBoxPopup,
@@ -174,7 +177,7 @@ A control can hardly be considered responsive by itself, because this heavily de
 
 
 
-**Example 2:** CSS selectors to make avail of elastic design capabilities for elements decorated by RadFormDecorator
+**Example 3:** CSS selectors to make avail of elastic design capabilities for elements decorated by RadFormDecorator
 
 ````CSS
 /* FormDecorator */
@@ -229,5 +232,7 @@ html.RadForm .rfdRadioUnchecked .rfdToggleImage
 }
 ````
 
+# See also
 
-   
+@[template](/_templates/common/font-size-notes.md#related-resources)
+

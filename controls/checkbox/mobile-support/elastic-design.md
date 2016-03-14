@@ -14,11 +14,13 @@ This article explains the **elastic design capabilities RadCheckBox offers**. **
 
 @[template](/_templates/common/render-mode.md#resp-design-desc "slug-el: no, slug-fl: no")
 
+@[template](/_templates/common/font-size-notes.md#note-and-example "control: RadCheckbox")
+
 >caption Figure 1: Comparison between appearance of a RadCheckBox with regular font size and with increased font size.
 
 ![checkbox-elastic-design](images/checkbox-elastic-design.png)
 
->caption Example 1: Shows how to increase the font size of a RadCheckBox in Figure 1.
+>caption Example 2: Shows how to increase the font size of a RadCheckBox in Figure 1.
 
 ````CSS
 <style type="text/css">
@@ -39,3 +41,4 @@ This article explains the **elastic design capabilities RadCheckBox offers**. **
 
  * [Render Modes]({%slug checkbox/mobile-support/render-modes%})
 
+@[template](/_templates/common/font-size-notes.md#related-resources)

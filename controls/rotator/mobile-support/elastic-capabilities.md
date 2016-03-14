@@ -20,6 +20,8 @@ This article explains the **elastic capabilities RadRotator offers**. The contro
 
 **RadRotator** supports changing the font size without breaking the control's appearance - if the new size is larger than the original, the elements of the rotator's control buttons will simply increase their size as well to accommodate the element inside. This fluid layout is achieved by using em units for setting dimensions and paddings in the control, instead of px because em units are tied to the font size. This allows dimensions and sizes to scale with the font size. The elastic capabilities of **RadRotator are supported by IE10+ and all modern browsers**.
 
+@[template](/_templates/common/font-size-notes.md#note-and-example "control: RadRotator")
+
 >note The size of **RadRotator** remains the same when the control buttons are resized. As a result the rotator changes the width of its view port (the area in which the items are visible), which means that most probably the first or/and last item will be cut off.
 
 **Example 1** shows how to increase the font size of a **RadRotator** control and the effect can be seen in comparison in **Figure 1**.
@@ -69,3 +71,5 @@ These elastic capabilities also allow you to easily modify the appearance of the
  * [RadRotator - RadRotator types]({%slug rotator/functionality/radrotator-types%})
 
  * [RadRotator - Creating a Custom Skin from an Existing One]({%slug rotator/appearance-and-styling/create-a-custom-skin-from-an-existing-one%})
+
+@[template](/_templates/common/font-size-notes.md#related-resources)

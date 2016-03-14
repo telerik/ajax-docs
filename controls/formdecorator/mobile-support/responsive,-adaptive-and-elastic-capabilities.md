@@ -24,11 +24,13 @@ This article explains the **responsive design capabilities RadFormDecorator offe
 
 Elements that use images or images sprites, however, cannot be increased in size, so the icons will keep having their original dimensions and position.
 
-**Example 1** shows how to increase the font size of the elements on the page with RadFormDecorator and the effect can be seen in comparison in **Figure 1**. RadFormDecorator should have a specific approach as its root element is set to the HTML element and giving some specific font size could change some parts that are not part of RadFormDecorator. So, we will need to group the RadFormDecorator elements that should be increased:
+@[template](/_templates/common/font-size-notes.md#note-and-example "control: RadFormDecorator")
 
-When using a [Decoration Zone](http://demos.telerik.com/aspnet-ajax/formdecorator/examples/decorationzoneid/defaultcs.aspx), you should cascade the selectors through that zone to make them heavier, as shown in **Example 2**.
+**Example 2** shows how to increase the font size of the elements on the page with RadFormDecorator and the effect can be seen in comparison in **Figure 1**. RadFormDecorator should have a specific approach as its root element is set to the HTML element and giving some specific font size could change some parts that are not part of RadFormDecorator. So, we will need to group the RadFormDecorator elements that should be increased:
 
->caption **Example 1**: CSS selectors for using elastic design with RadFormDecorator.
+When using a [Decoration Zone](http://demos.telerik.com/aspnet-ajax/formdecorator/examples/decorationzoneid/defaultcs.aspx), you should cascade the selectors through that zone to make them heavier, as shown in **Example 3**.
+
+>caption **Example 2**: CSS selectors for using elastic design with RadFormDecorator.
 
 ````ASP.NET
 <style type="text/css">
@@ -102,7 +104,7 @@ html.RadForm .rfdRadioUnchecked .rfdToggleImage
 </select>
 ````
 
->caption **Example 2**: CSS selectors for using elastic design with RadFormDecorator and a Decoration Zone.
+>caption **Example 3**: CSS selectors for using elastic design with RadFormDecorator and a Decoration Zone.
 
 ````ASP.NET
 <style type="text/css">
@@ -187,3 +189,5 @@ Elements outside of this div will not be affected
 # See Also
 
  * [Render Modes]({%slug formdecorator/mobile-support/render-modes%})
+
+@[template](/_templates/common/font-size-notes.md#related-resources)

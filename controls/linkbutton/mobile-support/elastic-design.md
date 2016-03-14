@@ -18,7 +18,10 @@ This article explains the **elastic design capabilities RadLinkButton offers**. 
 
 ![button-elastic-design](images/button-elastic-design.png)
 
->caption Example 1: Shows how to increase the font size of a RadLinkButton in Figure 1.
+
+@[template](/_templates/common/font-size-notes.md#note-and-example "control: RadLinkButton")
+
+>caption Example 2: Shows how to increase the font size of a RadLinkButton in Figure 1.
 
 ````CSS
 <style type="text/css">
@@ -42,3 +45,4 @@ This article explains the **elastic design capabilities RadLinkButton offers**. 
 
  * [Fluid Design]({%slug linkbutton/mobile-support/fluid-design%})
 
+@[template](/_templates/common/font-size-notes.md#related-resources)
