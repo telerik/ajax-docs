@@ -136,6 +136,8 @@ On rare occasions, the `designer.cs`/`designer.vb` files may not be updated when
 
 * Try moving the control declaration from the markup to the code-behind, if possible in your scenario.
 
+* Try removing the Telerik assembly references and adding them again via the VS dialogs. We advise that you copy them to the BIN folder of your application and point the references there.
+
 * Ensure the Telerik control tags are in PascalCase and not in all lowercase, a report suggested that this caused their classes in the designer files to also become lowercase which causes them to be a mismatch for the actual classes.
 
 
