@@ -6,7 +6,7 @@ The appearance of **@{control}** may be distorted (**Figure 1**) when the contro
 >caption Figure 1: Distorted appearance of **@{control}** when placed on the same page with **RadButton** `RenderMode`="`Classic`".
 
 ![distorted appearance](images/distorted-appearance.png)
-<Comment: I do not see the code for Example 1.>
+
 >caption Example 1: The code that reproduces the appearance issue from **Figure 1**.
 #end
 
