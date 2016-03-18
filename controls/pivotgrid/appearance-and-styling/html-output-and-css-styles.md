@@ -221,6 +221,10 @@ Below you will find a list of all CSS classes used in RadPivotGrid along with th
 
 * **tr.rpgPager** - a table row element that contains the pager item.
 
+* **tr.rpgPagerTop** - a table row element that contains the top pager item.
+
+* **tr.rpgPagerBottom** - a table row element that contains the bottom pager item.
+
 * **td.rpgVerticalScroll** - contains the vertical scroll if it is turned on and is necessary.
 
 * **td.rpgHorizontalScroll** - contains the vertical scroll, if it is necessary.
