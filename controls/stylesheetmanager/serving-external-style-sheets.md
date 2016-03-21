@@ -83,6 +83,20 @@ You can also add external style sheets to the **RadStyleSheetManager** from the 
 >
 
 
+### OrderIndex
+
+The **OrderIndex** property gets or sets the order index of the style sheet reference. The default value is 0. Items with smaller index will appear first in the output HTML, as well as in the combined StyleSheet
+
+````ASPNET
+<telerik:RadStyleSheetManager id="RadStyleSheetManager1" runat="server">
+    <StyleSheets>
+        <telerik:StyleSheetReference Path="~/App_Themes/main.css" OrderIndex="1" />
+        <telerik:StyleSheetReference Path="../../StyleSheets/StyleSheet.css" OrderIndex="3" />
+    </StyleSheets>
+</telerik:RadStyleSheetManager>
+````
+
+
 ## Remarks
 
 * You can specify more than one style sheet folder.
