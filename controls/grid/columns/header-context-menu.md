@@ -11,8 +11,26 @@ position: 6
 # Header Context Menu
 
 
+The context menu can be enabled by setting the **EnableHeaderContextMenu** property of the corresponding **GridTableView** or column to **true** (the default value is false). The menu can be enabled/disabled for an entire **GridTableView** or for specific column only.
+
+
+````ASP.NET
+<MasterTableView CommandItemDisplay="Top" DataKeyNames="ID" EnableHeaderContextMenu="true">
+    <Columns>
+        <telerik:GridBoundColumn DataField="ID" HeaderText="ID" UniqueName="ID" EnableHeaderContextMenu="false">
+        </telerik:GridBoundColumn>
+        <telerik:GridBoundColumn DataField="Name" HeaderText="Name" UniqueName="Name">
+        </telerik:GridBoundColumn>
+        <telerik:GridBoundColumn DataField="Description" HeaderText="Description" UniqueName="Description">
+        </telerik:GridBoundColumn>
+    </Columns>
+</MasterTableView>
+````
+
+
 
 [ This online demo ](http://demos.telerik.com/ASPNET/Prometheus/Grid/Examples/GeneralFeatures/HeaderContextMenu/DefaultCS.aspx) illustrates how to use a header context menu in RadGrid for ASP.NET AJAX. It is quite useful if you would like to process operations like sorting or grouping on a per-column basis or show/hide some of the grid columns based on the end user's preferences.
+
 ![grid headercontextmenu](images/grid_headercontextmenu.jpg)
 
 The header context menu exposes the following default options:
@@ -25,7 +43,6 @@ The header context menu exposes the following default options:
 
 * Filter the column data on two conditions related with a logical AND operator.
 
-This context menu can be enabled by setting the EnableHeaderContextMenu property of the corresponding table to true (the default value is false). The menu is designed on a per-table basis and can be switched on/off for different levels in a hierarchical grid on demand. In this example the header context menu is disabled for the second level in the hierarchy.
 
 Note that the items from the menu will be displayed dynamically depending on the grid configuration. For example, if the grouping feature is disabled the 'Group By'/'Ungroup' options will be hidden, or if you choose not to use natural sorting (AllowNaturalSort=false) the 'Clear Sorting' item will be absent.
 
