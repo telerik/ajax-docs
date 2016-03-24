@@ -32,34 +32,36 @@ You can see in **Example 1** and **Figure 1**, an example of a localized **PieSe
 >caption Example 1: Use the KendoUI framework JavaScript culture files to localize the labels and tooltips of a Pie chart.
 
 ````ASP.NET
-<script type="text/javascript" src="kendo/js/cultures/kendo.culture.fr-FR.min.js"></script>
-<script type="text/javascript">
-	kendo.culture("fr-FR");
-</script>
-<!--Where "fr-FR" is the desired culture-->
-<asp:ScriptManager runat="server" ID="ScriptManager1">
-</asp:ScriptManager>
-<telerik:RadHtmlChart runat="server" ID="RadHtmlChart1" Height="400px" Width="400px">
-	<PlotArea>
-		<Series>
-			<telerik:PieSeries>
-				<SeriesItems>
-					<telerik:PieSeriesItem Exploded="true" Y="53000" Name="Q1" />
-					<telerik:PieSeriesItem Exploded="false" Y="35000" Name="Q2" />
-					<telerik:PieSeriesItem Exploded="false" Y="47500" Name="Q3" />
-					<telerik:PieSeriesItem Exploded="false" Y="22300" Name="Q4" />
-				</SeriesItems>
-				<LabelsAppearance DataFormatString="C">
-				</LabelsAppearance>
-				<TooltipsAppearance DataFormatString="C"></TooltipsAppearance>
-			</telerik:PieSeries>
-		</Series>
-		<YAxis>
-		</YAxis>
-	</PlotArea>
-	<ChartTitle Text="Revenue">
-	</ChartTitle>
-</telerik:RadHtmlChart>
+<form id="form1" runat="server">
+	<script type="text/javascript" src="kendo/js/cultures/kendo.culture.fr-FR.min.js"></script>
+	<script type="text/javascript">
+		kendo.culture("fr-FR");
+	</script>
+	<!--Where "fr-FR" is the desired culture-->
+	<asp:ScriptManager runat="server" ID="ScriptManager1">
+	</asp:ScriptManager>
+	<telerik:RadHtmlChart runat="server" ID="RadHtmlChart1" Height="400px" Width="400px">
+		<PlotArea>
+			<Series>
+				<telerik:PieSeries>
+					<SeriesItems>
+						<telerik:PieSeriesItem Exploded="true" Y="53000" Name="Q1" />
+						<telerik:PieSeriesItem Exploded="false" Y="35000" Name="Q2" />
+						<telerik:PieSeriesItem Exploded="false" Y="47500" Name="Q3" />
+						<telerik:PieSeriesItem Exploded="false" Y="22300" Name="Q4" />
+					</SeriesItems>
+					<LabelsAppearance DataFormatString="C">
+					</LabelsAppearance>
+					<TooltipsAppearance DataFormatString="C"></TooltipsAppearance>
+				</telerik:PieSeries>
+			</Series>
+			<YAxis>
+			</YAxis>
+		</PlotArea>
+		<ChartTitle Text="Revenue">
+		</ChartTitle>
+	</telerik:RadHtmlChart>
+</form>
 ````
 
 >caption Figure 1: Localized labels and tooltips using the KendoUI framework.
