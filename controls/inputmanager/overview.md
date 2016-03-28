@@ -182,6 +182,27 @@ Below is a list of tables covering the most important properties of the elements
 | **MinDate** |The minimal date which the user will be allowed to enter|
 | **ShortYearCenturyEnd** | Indicates the end of the century that is used to interpret the year value when a short year (single-digit or two-digit year) is entered in the input.|
 
+## DatePickerSetting
+
+
+>caption  
+
+| Name | Description |
+| ------ | ------ |
+| **ClearValueOnError**  | Indicates whether the value entered into the textbox should be cleared on error. |
+| **Culture**  | The culture used to format the date.|
+| **DateFormat**  | The date format string for the control. |
+| **DisplayDateFormat**  | The display date format used for the control. (Visible when the control is not on focus.) |
+| **EnableScreenBoundaryDetection**  | Gets or sets whether the screen boundaries should be taken into consideration when the Calendar or TimeView are displayed.|
+| **EnableShadows**  | Gets or sets whether popup shadows will appear.|
+| **MaxDate** |The maximal date which the user will be allowed to enter.|
+| **MinDate** |The minimal date which the user will be allowed to enter.|
+| **Overlay** |Gets or sets a value indicating whether the picker will create an overlay element to ensure popups are over a flash element or Java applet.|
+| **PopupDirection** |Gets or sets the direction in which the popup Calendar is displayed, with relation to the DatePicker control.|
+| **SharedCalendarID** |Gets or sets the ID of the calendar that will be used for picking dates. This property allows you to configure several datepickers to use a single RadCalendar instance.|
+| **ShortYearCenturyEnd** | Indicates the end of the century that is used to interpret the year value when a short year (single-digit or two-digit year) is entered in the input.|
+
+
 ## RadMaskedTextBoxSetting
 
 
