@@ -87,27 +87,57 @@ Below is a list of tables covering the most important properties of the elements
 ## Common Settings
 
 
->caption  
+>caption
+
+***General***
 
 | Name | Description |
 | ------ | ------ |
 | **BehaviorID**  | A unique id for the settings related to a given textbox. |
-| **ClientEvents-OnBlur** |The name of the client side handler which will be raised when the control loses focus.|
-| **ClientEvents-OnError** |The name of the client side function which will be called when an error occurs – the user enters invalid input. This event is not raised for the textbox control, since there is no input restriction.|
-| **ClientEvents-OnFocus** |The name of the client side function which will be called when the control receives focus.|
-| **ClientEvents-OnKeyPress** |The name of the client side function which will be called when the user presses a button, while the control has the focus.|
 | **EmptyMessage** |The text which will be displayed before the user has entered any text.|
-| **EmptyMessageCssClass** |The name of the css class which will be used to style the empty message text.|
-| **InvalidCssClass** |The name of the css class, which will be used to style the control, when the user enters invalid input|
-| **DisabledCssClass** |The name of the css class which will be used to style the control when it is disabled.|
 | **SelectionOnFocus** |An enumeration which is used to determine how the input control behaves when it first gets input focus. The possible values are CaretToBeginning, CaretToEnd, None and SelectAll. The default one is CaretToEnd.|
 | **InitializeOnClient** |A property which indicates whether the client event handlers and css classes will be set on the client.|
 | **ErrorMessage** |A message which is displayed if the regular expression matching fails|
+
+***Client Events***
+
+| Name | Description |
+| ------ | ------ |
+| **OnBlur** |The name of the client side handler which will be raised when the control loses focus.|
+| **OnError** |The name of the client side function which will be called when an error occurs – the user enters invalid input. This event is not raised for the textbox control, since there is no input restriction.|
+| **OnFocus** |The name of the client side function which will be called when the control receives focus.|
+| **OnKeyPress** |The name of the client side function which will be called when the user presses a button, while the control has the focus.|
+| **OnValidating** |The name of the client side function which will be called when the entered data is being validated and parsed.|
+| **OnValueChanged** |The name of the client side function which will be called when the user changes the value of the input control.|
+
+***CSS Classes***
+
+| Name | Description |
+| ------ | ------ |
+| **EnabledCssClass**  | The css style for enabled input control. |
+| **EmptyMessageCssClass** |The name of the css class which will be used to style the empty message text.|
+| **FocusedCssClass**  | The css style for the focused state of the input control. |
+| **HoveredCssClass**  | The css style for hovered state of the input control. |
+| **InvalidCssClass** |The name of the css class, which will be used to style the control, when the user enters invalid input|
+| **DisabledCssClass** |The name of the css class which will be used to style the control when it is disabled.|
+| **ReadOnlyCssClass** |The css style for read only state of the input control.|
+
+***Validation***
+
+| Name | Description |
+| ------ | ------ |
+| **IsRequired**  | Indicates whether the control should be required on client or not. |
+| **Location** |Th URL for the WebService or Page which will be requested to validate data.|
+| **Method**  | The method name in the WebService or Page which will be requested to validate data. |
+| **ValidateOnEvent**  | Determines which event will cause the control to be validated. |
+| **ValidationGroup** | The name of the validation group to which this setting belongs.|
+
 
 ## TextBoxSettings
 
 
 >caption  
+
 | Name | Description |
 | ------ | ------ |
 | **PasswordStrengthSettings**  | A group of properties used for setting up the password strength check feature when using a TextBox with TextMode set to Password.|
@@ -144,14 +174,13 @@ Below is a list of tables covering the most important properties of the elements
 
 | Name | Description |
 | ------ | ------ |
-| **DateFormat**  | The date format string for the control |
+| **ClearValueOnError**  | Indicates whether the value entered into the textbox should be cleared on error. |
+| **Culture**  | The culture used to format the date.|
+| **DateFormat**  | The date format string for the control. |
+| **DisplayDateFormat**  | The display date format used for the control. (Visible when the control is not on focus.) |
 | **MaxDate** |The maximal date which the user will be allowed to enter|
 | **MinDate** |The minimal date which the user will be allowed to enter|
-| **SharedCalendarID** |Gets or sets the ID of the calendar that will be used for picking dates. Thisproperty allows you to configure several datepickers to use a single RadCalendar|
-| **EnableShadows** |Gets or sets whether popup shadows will appear|
-| **Overlay** |Gets or sets a value indicating whether the picker will create an overlay element to ensure popups are over a flash element or Java applet|
-| **PopupDirection** |Gets or sets the direction in which the popup Calendar is displayed, with relation to the DatePicker control|
-| **EnableScreenBoundaryDetection** |Gets or sets whether the screen boundaries should be taken into consideration when the Calendar or TimeView are displayed|
+| **ShortYearCenturyEnd** | Indicates the end of the century that is used to interpret the year value when a short year (single-digit or two-digit year) is entered in the input.|
 
 ## RadMaskedTextBoxSetting
 
