@@ -26,8 +26,8 @@ Although **Example 1** shows a basic usage of the **MarkersCollection** tag, the
 
 1. Use the client-side [OnLoad]({%slug map/client-side-programming%}#client-side-events) event in order to start the scaling;
 1. Get the markers from the `markers.items` collection of the Kendo widget.
-1. Create an [kendo.dataviz.map.Extent](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/map/extent) based on the markers' location. <Comment: why does an AJAX article require Kendo? If it is true, you should state that at the beginning of the article.>
-1. Pass the extent to the map (using the [extent()](http://docs.telerik.com/KENDO-UI/api/javascript/dataviz/ui/map#methods-extent) method) so that **RadMap** get centered to the extent's bounds. <Comment: What are extent's bounds?>
+1. Create an [kendo.dataviz.map.Extent](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/map/extent) based on the markers' location.
+1. Pass the extent to the map (using the [extent()](http://docs.telerik.com/KENDO-UI/api/javascript/dataviz/ui/map#methods-extent) method) so that **RadMap** get centered to the [extent's bounds](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/map/extent).
 
 >caption Example 1: Scale RadMap to Markers collection bound from the server.
 
@@ -125,8 +125,8 @@ Although **Example 1** shows a basic usage of the **MarkersCollection** tag, the
 
 1. Use the client-side [OnLoad]({%slug map/client-side-programming%}#client-side-events) event in order to start the scaling.
 1. Use the markers' layer to get the bound markers by using the `layers[index].items` collection. (Note that you should use a polling technique because data is requested via AJAX).
-1. Create a [kendo.dataviz.map.Extent](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/map/extent) based on the markers' location. <Comment: Again you are using Kendo. Please mention that above that both data binding techniques require Kendo.>
-1. Pass the extent to the map (using the [extent()](http://docs.telerik.com/KENDO-UI/api/javascript/dataviz/ui/map#methods-extent) method) so that **RadMap** get centered to the extent's bounds. <Comment: Same as my previous comment. What are extent's bound?>
+1. Create a [kendo.dataviz.map.Extent](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/map/extent) based on the markers' location. 
+1. Pass the extent to the map (using the [extent()](http://docs.telerik.com/KENDO-UI/api/javascript/dataviz/ui/map#methods-extent) method) so that **RadMap** get centered to the [extent's bounds](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/map/extent).
 
 ````ASP.NET 
 <script type="text/javascript">
