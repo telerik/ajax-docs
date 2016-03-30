@@ -65,7 +65,7 @@ grid.MasterTableView.SwapColumns(3, 4)
 
 ````C#
 GridColumnCollection cols = grid.MasterTableView.Columns;
-GridColumn c = cols.FindByUniqueName(columnName);
+GridColumn c = cols.FindByUniqueNameSafe(columnName);
 if (c != null){ 
     int start = c.OrderIndex; 
     for (int i= start; i < cols.Count; i++)  
@@ -80,7 +80,7 @@ if (c != null){
 ````
 ````VB
 Dim cols As GridColumnCollection = grid.MasterTableView.Columns
-Dim c As GridColumn = cols.FindByUniqueName(columnName)
+Dim c As GridColumn = cols.FindByUniqueNameSafe(columnName)
 If c IsNot Nothing Then
 Dim start As Integer = c.OrderIndex
     For i As Integer = start To cols.Count - 1
