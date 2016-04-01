@@ -26,9 +26,9 @@ This article explains the how fonts are used by the Telerik UI for ASP.NET AJAX 
 
 ### Lightweight Render Mode
 
-In the [Lightweight Render Mode]({%slug controls/render-modes%}) all UI for ASP.NET AJAX controls do not have a default font as of **Q1 2016 SP1**. 
+In the [Lightweight Render Mode]({%slug controls/render-modes%}) all UI for ASP.NET AJAX controls do not have a default font as of **Q1 2016 SP1**.
 
-This means the controls do not have `font-size`, `font-family`, `font-weight` and `font-style` predefined and inherit the font-size of the `<body>` element if such is set. Otherwise, the default browser values apply. This provides all Telerik controls on the page with have the same look and feel by making use of their [elastic design capabilities]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/mobile-support/responsive,-adaptive-and-elastic-capabilities%}).
+This means the controls do not have `font-size`, `font-family`, `font-weight` and `font-style` predefined and inherit the font-size of the `<body>` element if such is set. Otherwise, the default browser values apply. This provides all Telerik controls on the page with the same look and feel by making use of their [elastic design capabilities]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/mobile-support/responsive,-adaptive-and-elastic-capabilities%}).
 
 In case a Telerik control is placed in a container with explicit font set, the Telerik control will inherit this font or the font of the first wrapper element that has font specified.
 
@@ -43,7 +43,9 @@ body {
 }
 ````
 >note
-The Bootstrap, Material, Metro and (Black)MetroTouch skins have `font-family` defined. 
+The Bootstrap, Material, Metro and (Black)MetroTouch skins have `font-family` defined.
+
+With the mentioned Release we have also improved the metrics of AJAX form controls. The ASP.NET AJAX skin palette is divided into three main categories: Default skins, Bootstrap skin and the Material skin. In each of the above there are established interrelated connections between width, height, font size (14px), line height (20px), paddings and borders. A dimension-orientated scheme based on line height and font size ratio is created—1.428571429 (20/14)—that keeps the main proportions of controls consistent with each other, used individually, combined in a complex data form or integrated in composite container controls. By changing just the font size, the layout of the controls can easily be adjusted to fulfill various needs. This provides convenient scalability.
 
 ### Classic Render Mode
 
@@ -59,7 +61,7 @@ The skins listed below have predefined font-family as follows:
 
 * Bootstrap—font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
-* Metro—font-family: "Segoe UI", Arial, Helvetica, sans-serif; 
+* Metro—font-family: "Segoe UI", Arial, Helvetica, sans-serif;
 
 >note The Material skin includes the **Roboto** font-file from the Telerik assembly. It will be used even if it is not installed on the user computer.
 
@@ -73,5 +75,14 @@ If you increase the `font-size` to 16px, 20px or even larger, we recommended you
 
 ## Font Icon Size
 
-For **Lightweight** RenderMode of the controls font icons are used instead of image sprites for the tool icons, selection indicators, predefined badges, etc. The default size of these font-icons is **16px**, except for the Material skin, in which it is **18px**. 
+In **Lightweight** RenderMode of the controls font icons are used for better performance instead of image sprites for the tool icons, selection indicators, predefined badges, etc. These font-icons are designed in a **16px** grid base, so for best image quality the resizing should be in a 16-scalable size. The only exception is Material skin, in which the grid base of the icons is optimized for **18px**.
 
+One of the greatest benefits of using font icons is the ability to scale them up and down with ease. However, if we would like to have crisp, sharp images, we need to deal with some technical limitations—especially in small sizes.
+
+Although font icons consist of vector graphics, we should keep in mind that each icon is designed in a fixed pixel grid. A pixel grid is the minimum-scaled canvas in which our icon would look pixel-perfect. Every detail of the icon should be aligned to that grid system. Therefore, the final image-icon will have the best quality when its size equals the base pixel grid size or multiplies it.
+
+If you'd like to use icons with a font size of 16px, 32px or 48px, you should use a font icon design in a base grid canvas scalable to 16x16. If you'd like to use an icon in 14px, 28px or 42px size, the base canvas should be 14x14, etc. So, when one uses a font with a pixel grid base of 16px and sets the font size to 17px, the browser is going to antialiase the semi-transparent pixels and render a blurred image. Have in mind that the bigger the font icon size is, the better quality the image will be.
+
+# See Also
+
+ * [Visual and Dimension Improvements in UI for ASP.NET AJAX](http://www.telerik.com/blogs/visual-and-dimension-improvements-in-ui-for-asp.net-ajax)
