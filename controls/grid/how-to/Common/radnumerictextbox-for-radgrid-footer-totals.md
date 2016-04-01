@@ -2,7 +2,7 @@
 title: RadNumericTextBox for RadGrid Footer Totals
 page_title: RadNumericTextBox for RadGrid Footer Totals | RadGrid for ASP.NET AJAX Documentation
 description: RadNumericTextBox for RadGrid Footer Totals
-slug: grid/how-to/radnumerictextbox-for-radgrid-footer-totals
+slug: grid/how-to/common/radnumerictextbox-for-radgrid-footer-totals
 tags: radnumerictextbox,for,radgrid,footer,totals
 published: True
 position: 8
@@ -12,7 +12,7 @@ position: 8
 
 
 
-## 
+##
 
 [This demo](http://demos.telerik.com/aspnet-ajax/Controls/Examples/Integration/GridAndInput/DefaultCS.aspx?product=grid) represents how to calculate footer totals client-side having RadNumericTextBoxes in the RadGrid rows and footer. The sums are calculated dynamically with javascript wiring the OnFocus and OnBlur events of RadInput. Additionally, for easy extraction of the input values, the code takes advantage of the Client-side API of the RadNumericTextBox and its get_value()/set_value(val) methods.
 

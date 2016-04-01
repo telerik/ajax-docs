@@ -2,7 +2,7 @@
 title: Scroll RadGrid to Specific item
 page_title: Scroll RadGrid to Specific item | RadGrid for ASP.NET AJAX Documentation
 description: Scroll RadGrid to Specific item
-slug: grid/how-to/scroll-to-item
+slug: grid/how-to/scrolling/scroll-to-item
 tags: scroll,grid,to,specific,item
 published: True
 position: 10
@@ -37,7 +37,7 @@ protected void RadGrid1_NeedDataSource(object sender, GridNeedDataSourceEventArg
     table.Columns.Add("Age", typeof(int));
     table.Columns.Add("Date", typeof(DateTime));
     table.Columns.Add("BoolValue", typeof(Boolean));
-    
+
     for (int i = 0; i < 50; i++)
     {
         table.Rows.Add(i, "FirstName" + i, null, 20 + i, DateTime.Now.AddDays(i), i % 2 == 0);
@@ -67,7 +67,7 @@ function setScroll(grid, scrollTop) {
     var dataDiv = $telerik.findElement(grid.get_element(), grid.get_id() + "_GridData");
     dataDiv.scrollTop = scrollTop;
 }
-```` 
+````
 
 
 

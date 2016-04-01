@@ -2,7 +2,7 @@
 title: Customize GridDropDownColumn
 page_title: Customize GridDropDownColumn | RadGrid for ASP.NET AJAX Documentation
 description: Customize GridDropDownColumn
-slug: grid/how-to/customize-griddropdowncolumn
+slug: grid/how-to/common/customize-griddropdowncolumn
 tags: customize,griddropdowncolumn
 published: True
 position: 2
@@ -40,7 +40,7 @@ Here is some insight about the mechanism which Telerik RadGrid uses to present v
 DBadapter.SelectCommand = New OleDbCommand("SELECT DDL_AccessLevelID, Description FROM AccessLevel", conn)
 DBadapter.Fill(MyUsersData, "AccessLevel")        
 ````
-````VB	
+````VB
 'sample select command for GridDropDownColumn data-source generation
 DBadapter.SelectCommand = New OleDbCommand("SELECT DDL_AccessLevelID, Description FROM AccessLevel", conn)
 DBadapter.Fill(MyUsersData, "AccessLevel")
@@ -82,7 +82,7 @@ Protected Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.
     End If
 End Sub
 ````
-````C#	
+````C#
 protected void RadGrid1_ItemDataBound(object sender, Telerik.Web.UI.GridItemEventArgs e)
 {
     if (e.Item is GridEditableItem && e.Item.IsInEditMode)
@@ -132,7 +132,7 @@ private void RadGrid1_ItemDataBound(object sender, Telerik.Web.UI.GridItemEventA
 
         GridDropDownListColumnEditor editor = editMan.GetColumnEditor("DropDownColumnUniqueName") as GridDropDownListColumnEditor;
         //in case you have RadComboBox editor for the GridDropDownColumn (this is the default editor),   
-        //you will need to use ComboBoxControl below instead of DropDownListControl 
+        //you will need to use ComboBoxControl below instead of DropDownListControl
         //Then you can modify the list control as per your custom conventions
         editor.DataSource = new object[] { 1, 2, 3 };
         editor.DataBind();
@@ -150,7 +150,7 @@ If (TypeOf e.Item is GridEditableItem AndAlso (e.Item,GridEditableItem).IsInEdit
 
         Dim editor As GridDropDownListColumnEditor = CType(editMan.GetColumnEditor("DropDownColumnUniqueName"), GridDropDownListColumnEditor)
         'in case you have RadComboBox editor for the GridDropDownColumn (this is the default editor),            
-        'you will need to use ComboBoxControl below instead of DropDownListControl 
+        'you will need to use ComboBoxControl below instead of DropDownListControl
         'Then you can modify the list control as per your custom conventions
         editor.DataSource = New Object() {1, 2, 3}
         editor.DataBind()

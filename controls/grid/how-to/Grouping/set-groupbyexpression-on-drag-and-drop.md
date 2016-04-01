@@ -2,7 +2,8 @@
 title: Set GroupByExpression on Drag and Drop
 page_title: Set GroupByExpression on Drag and Drop | RadGrid for ASP.NET AJAX Documentation
 description: Set GroupByExpression on Drag and Drop
-slug: grid/functionality/grouping/how-to/set-groupbyexpression-on-drag-and-drop
+slug: grid/how-to/grouping/set-groupbyexpression-on-drag-and-drop
+previous_url: grid/functionality/grouping/how-to/set-groupbyexpression-on-drag-and-drop
 tags: set,groupbyexpression,on,drag,and,drop
 published: True
 position: 3
@@ -12,7 +13,7 @@ position: 3
 
 
 
-## 
+##
 
 You can dynamically alter the **GroupByExpression** that is added when the user drags a column header to the group panel.
 
@@ -56,7 +57,7 @@ private Boolean IsGroupedByCustomer(GridGroupByExpressionCollection groups)
     return false;
 }
 ````
-````VB	
+````VB
 Protected Sub RadGrid1_GroupsChanging(ByVal source As Object, ByVal e As GridGroupsChangingEventArgs)
     'Expression is added (by drag/drop on group panel)
     If e.Action = GridGroupsChangingAction.Group Then

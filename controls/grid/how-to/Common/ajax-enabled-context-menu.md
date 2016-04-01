@@ -2,7 +2,7 @@
 title: AJAX-enabled Context Menu
 page_title: AJAX-enabled Context Menu | RadGrid for ASP.NET AJAX Documentation
 description: AJAX-enabled Context Menu
-slug: grid/how-to/ajax-enabled-context-menu
+slug: grid/how-to/common/ajax-enabled-context-menu
 tags: ajax-enabled,context,menu
 published: True
 position: 4
@@ -12,7 +12,7 @@ position: 4
 
 
 
-## 
+##
 
 In numerous cases you may want to display a context menu when right-clicking an arbitrary row in RadGrid. Through a command from that context menu you may want to change the state for the grid row (for example edit/delete/add record). Furthermore, you may prefer the operation with asynchronous request instead of postback.
 

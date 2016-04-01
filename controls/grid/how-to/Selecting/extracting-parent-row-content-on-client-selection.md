@@ -2,7 +2,8 @@
 title: Extracting Parent Row Content on Client Selection in Hierarchy
 page_title: Extracting Parent Row Content on Client Selection in Hierarchy | RadGrid for ASP.NET AJAX Documentation
 description: Extracting Parent Row Content on Client Selection in Hierarchy
-slug: grid/functionality/selecting/how-to/extracting-parent-row-content-on-client-selection
+slug: grid/how-to/selecting/extracting-parent-row-content-on-client-selection
+previous_url: grid/functionality/selecting/how-to/extracting-parent-row-content-on-client-selection
 tags: client-side,selecting, extracting
 published: True
 position: 6
@@ -19,7 +20,7 @@ To accomplish this,
 1. In the **RowSelected** event handler, check whether the selection is raised from the detail table.
 
 1. If a detail row is selected, get a reference to the parent item, and get the value for the desired cell in that row.
-	
+
 The following example illustrates this approach in a two-level hierarchy:
 
 ````ASP.NET

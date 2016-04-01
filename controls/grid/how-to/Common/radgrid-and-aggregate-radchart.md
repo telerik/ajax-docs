@@ -2,7 +2,7 @@
 title: RadGrid and Aggregate RadChart
 page_title: RadGrid and Aggregate RadChart | RadGrid for ASP.NET AJAX Documentation
 description: RadGrid and Aggregate RadChart
-slug: grid/how-to/radgrid-and-aggregate-radchart
+slug: grid/how-to/common/radgrid-and-aggregate-radchart
 tags: radgrid,and,aggregate,radchart
 published: True
 position: 10
@@ -12,7 +12,7 @@ position: 10
 
 
 
-## 
+##
 
 [This demo](http://demos.telerik.com/aspnet-ajax/Controls/Examples/Integration/GridAndChart/GridAndAggregateChart/DefaultCS.aspx?product=grid) represents how RadGrid and RadChart can display the same data in their presentation format. To see the functionality in action select customer from the RadComboBox instance and both the grid and the chart controls will show his/her products information in par with the orders he/she made. The name of the series items are created on-the-fly wiring the **ItemDataBound** event of the RadChart.
 
@@ -37,9 +37,9 @@ Below are the relevant code excerpts:
           </telerik:AjaxSetting>
       </AjaxSettings>
   </telerik:RadAjaxManager>
- <telerik:RadAjaxLoadingPanel ID="RadAjaxLoadingPanel1" runat="server"> 
+ <telerik:RadAjaxLoadingPanel ID="RadAjaxLoadingPanel1" runat="server">
  </telerik:RadAjaxLoadingPanel>
-    
+
     Select Customer:
     <telerik:RadComboBox ID="RadComboBox1" runat="server" DataSourceID="SqlDataSource1"
         DataTextField="ContactName" DataValueField="CustomerID" AutoPostBack="true">
@@ -71,7 +71,7 @@ Below are the relevant code excerpts:
 </div>
 <div style="float: right">
     <telerik:RadChart ID="RadChart1" DataSourceID="SqlDataSource2" runat="server"
-        Width="465px" Height="260px" DefaultType="Pie" OnItemDataBound="RadChart1_ItemDataBound" 
+        Width="465px" Height="260px" DefaultType="Pie" OnItemDataBound="RadChart1_ItemDataBound"
         AutoLayout="true" AutoTextWrap="true" CreateImageMap="false">
         <ChartTitle>
             <TextBlock Text="Amount spent">
@@ -98,7 +98,7 @@ Below are the relevant code excerpts:
     </SelectParameters>
 </asp:SqlDataSource>
 ````
-````C#	
+````C#
 protected void RadChart1_ItemDataBound(object sender, Telerik.Charting.ChartItemDataBoundEventArgs e)
 {
     e.SeriesItem.Name = (string)DataBinder.Eval(e.DataItem, "pName");

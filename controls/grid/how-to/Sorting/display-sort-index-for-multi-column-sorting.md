@@ -2,7 +2,7 @@
 title: Display Sort Index for Multi-Column Sorting
 page_title: Display Sort Index for Multi-Column Sorting | RadGrid for ASP.NET AJAX Documentation
 description: Display Sort Index for Multi-Column Sorting
-slug: grid/how-to/display-sort-index-for-multi-column-sorting
+slug: grid/how-to/sorting/display-sort-index-for-multi-column-sorting
 tags: sort,index,grid,multi-column
 published: True
 position: 8
@@ -16,7 +16,7 @@ This how to article presents a possible solution for displaying sort index of gr
 From the code inside grid **PreRender** event you can see how to represent a numeric sequence of the order in which the columns are sorted.
 
 ````ASP.NET
-<telerik:RadGrid runat="server" ID="RadGrid1" OnNeedDataSource="RadGrid1_NeedDataSource" AllowPaging="true" 
+<telerik:RadGrid runat="server" ID="RadGrid1" OnNeedDataSource="RadGrid1_NeedDataSource" AllowPaging="true"
 	OnPreRender="RadGrid1_PreRender" MasterTableView-AllowMultiColumnSorting="true"
 	 AllowSorting="true">
 </telerik:RadGrid>

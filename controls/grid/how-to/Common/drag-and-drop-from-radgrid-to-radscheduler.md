@@ -2,7 +2,7 @@
 title: Drag and Drop from RadGrid to RadScheduler
 page_title: Drag and Drop from RadGrid to RadScheduler | RadGrid for ASP.NET AJAX Documentation
 description: Drag and Drop from RadGrid to RadScheduler
-slug: grid/how-to/drag-and-drop-from-radgrid-to-radscheduler
+slug: grid/how-to/common/drag-and-drop-from-radgrid-to-radscheduler
 tags: drag,and,drop,from,radgrid,to,radscheduler
 published: True
 position: 17
@@ -22,7 +22,7 @@ The appointments can be modified in the grid on row double-click, or new ones ca
 
 ![Drag and drop from grid to scheduler](images/grid_drag-drop-to-scheduler.png)
 
-## 
+##
 
 Here follows the code used to achieve this:
 
@@ -91,7 +91,7 @@ Here follows the code used to achieve this:
          DataSubjectField="Subject" CustomAttributeNames="Due, Priority" RowHeight="37px"
             OnAppointmentCommand="RadScheduler1_AppointmentCommand" OnAppointmentInsert="RadScheduler1_AppointmentInsert">
             <AdvancedForm Modal="true" />
-         
+
             <AppointmentTemplate>
                 <%# Eval("Subject") %>
                 <asp:Button runat="server" ID="UnscheduleAppointment" CssClass="simpleButton" CommandName="Unschedule"

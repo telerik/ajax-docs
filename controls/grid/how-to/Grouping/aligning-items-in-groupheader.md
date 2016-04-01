@@ -2,7 +2,8 @@
 title: Aligning Items in GroupHeader
 page_title: Aligning Items in GroupHeader | RadGrid for ASP.NET AJAX Documentation
 description: Aligning Items in GroupHeader
-slug: grid/functionality/grouping/how-to/aligning-items-in-groupheader
+slug: grid/how-to/grouping/aligning-items-in-groupheader
+previous_url: grid/functionality/grouping/how-to/aligning-items-in-groupheader
 tags: aligning,items,in,groupheader
 published: True
 position: 1
@@ -12,7 +13,7 @@ position: 1
 
 
 
-## 
+##
 
 Sometimes it is necessary to align an item in the GroupHeader of the grid, so that it is positioned beneath a given column cell. For example, let us assume that we have a grid with four columns - "ProductID", "ProductName", "UnitPrice" and "UnitsInStock". Then, if the user groups on the "UnitPrice" column, it will be positioned in the left-most part of the group header. In some situations, however, it is visually more intuitive to position this item beneath the "UnitPrice" column header cell. The code below demonstrates one similar setup, along with the code required to handle this logic.
 

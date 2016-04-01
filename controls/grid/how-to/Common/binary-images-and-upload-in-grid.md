@@ -2,7 +2,7 @@
 title: Binary Images and Upload in Grid
 page_title: Binary Images and Upload in Grid | RadGrid for ASP.NET AJAX Documentation
 description: Binary Images and Upload in Grid
-slug: grid/how-to/binary-images-and-upload-in-grid
+slug: grid/how-to/common/binary-images-and-upload-in-grid
 tags: binary,images,and,upload,in,grid
 published: True
 position: 7
@@ -12,7 +12,7 @@ position: 7
 
 
 
-## 
+##
 
 [This example](http://demos.telerik.com/aspnet-ajax/controls/examples/integration/raduploadinajaxifiedgrid/defaultcs.aspx?product=grid) illustrates the usage of built-in GridBinaryImageColumn and how to display and edit images in it.Each cell in a **GridBinaryImageColumn** contains an image streamed from a binary image source field (specified through the **DataField** property of the column). When used this column willshow a RadBinaryImage control in view mode and RadUpload in edit mode to upload an image.
 
@@ -50,7 +50,7 @@ You can also perform validation over the file input as shown in the demo code:
 
 
 
-````JavaScript	
+````JavaScript
 <telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
 //On insert and update buttons click temporarily disables ajax to perform upload actions      
 function conditionalPostback(e, sender) {
@@ -71,8 +71,8 @@ function validateRadUpload(source, e) {
     if (inputs[i].value != "" && upload.isExtensionValid(inputs[i].value)) {
       e.IsValid = true;
       break;
-    } 
-  } 
+    }
+  }
 }
 </telerik:RadCodeBlock>
 ````

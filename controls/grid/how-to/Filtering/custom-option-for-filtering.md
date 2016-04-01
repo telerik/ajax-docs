@@ -2,7 +2,8 @@
 title: Custom Option for Filtering
 page_title: Custom Option for Filtering | RadGrid for ASP.NET AJAX Documentation
 description: Custom Option for Filtering
-slug: grid/functionality/filtering/how-to/custom-option-for-filtering
+slug: grid/how-to/filtering/custom-option-for-filtering
+previous_url: grid/functionality/filtering/how-to/custom-option-for-filtering
 tags: custom,option,for,filtering
 published: True
 position: 12
@@ -61,9 +62,9 @@ Suppose you want to remove a filtering option from the menu of a column while le
 protected void RadGrid1_Init(object sender, EventArgs e)
 {
     GridFilterMenu menu = RadGrid1.FilterMenu;
-    // Iterate through the items backwards 
-    // so that the indexing is not thrown off 
-    // when items are removed! 
+    // Iterate through the items backwards
+    // so that the indexing is not thrown off
+    // when items are removed!
     for (int i = menu.Items.Count - 1; i >= 0; i--)
     {
         if (menu.Items[i].Text == "Between")

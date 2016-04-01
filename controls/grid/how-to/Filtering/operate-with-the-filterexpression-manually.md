@@ -2,7 +2,8 @@
 title: Operate with the FilterExpression Manually
 page_title: Operate with the FilterExpression Manually | RadGrid for ASP.NET AJAX Documentation
 description: Operate with the FilterExpression Manually
-slug: grid/functionality/filtering/how-to/operate-with-the-filterexpression-manually
+slug: grid/how-to/filtering/operate-with-the-filterexpression-manually
+previous_url: grid/functionality/filtering/how-to/operate-with-the-filterexpression-manually
 tags: operate,with,the,filterexpression,manually
 published: True
 position: 0

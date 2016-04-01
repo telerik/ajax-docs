@@ -2,7 +2,7 @@
 title: RadChart in RadGrid column
 page_title: RadChart in RadGrid column | RadGrid for ASP.NET AJAX Documentation
 description: RadChart in RadGrid column
-slug: grid/how-to/radchart-in-radgrid-column
+slug: grid/how-to/common/radchart-in-radgrid-column
 tags: radchart,in,radgrid,column
 published: True
 position: 9
@@ -12,7 +12,7 @@ position: 9
 
 
 
-## 
+##
 
 [This example](http://demos.telerik.com/aspnet-ajax/Controls/Examples/Integration/GridAndChart/ChartInGrid/DefaultCS.aspx?product=grid) demonstrates how to embed RadChart instances in template column of RadGrid. The data source of the charts is set in the ItemDataBound event handler of the grid depending on the corresponding item's data. This is especially useful when you want to display a diagram showing summarized graphical information for each record in the grid table.
 
@@ -34,7 +34,7 @@ Here are the code snippets extracted from the online demo:
         </telerik:AjaxSetting>
     </AjaxSettings>
 </telerik:RadAjaxManager>
-<telerik:RadAjaxLoadingPanel ID="RadAjaxLoadingPanel1" runat="server"> 
+<telerik:RadAjaxLoadingPanel ID="RadAjaxLoadingPanel1" runat="server">
 </telerik:RadAjaxLoadingPanel>
 <telerik:Header runat="server" ID="Header1" NavigationLanguage="C#"></telerik:Header>
 <!-- content start -->
@@ -73,7 +73,7 @@ Here are the code snippets extracted from the online demo:
     SelectCommand="SELECT [CustomerID], [CompanyName], [ContactName], [ContactTitle] FROM [Customers]">
 </asp:SqlDataSource>
 <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
-    SelectCommand="SELECT top 5 p.ProductName as pName, p.ProductID as pID, od.Quantity as quantity FROM orders as o, [order details] as od, products as p 
+    SelectCommand="SELECT top 5 p.ProductName as pName, p.ProductID as pID, od.Quantity as quantity FROM orders as o, [order details] as od, products as p
                    WHERE od.ProductID = p.ProductID and od.OrderID = o.OrderID and CustomerID = @CustomerID">
     <SelectParameters>
         <asp:Parameter Name="CustomerID" />

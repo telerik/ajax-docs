@@ -2,7 +2,8 @@
 title: Retrieving Primary Key Field Values for Selected Items
 page_title: Retrieving Primary Key Field Values for Selected Items | RadGrid for ASP.NET AJAX Documentation
 description: Retrieving Primary Key Field Values for Selected Items
-slug: grid/functionality/selecting/how-to/retrieving-primary-key-field-values-for-selected-items
+slug: grid/how-to/selecting/retrieving-primary-key-field-values-for-selected-items
+previous_url: grid/functionality/selecting/how-to/retrieving-primary-key-field-values-for-selected-items
 tags: client-side,selecting,values,primary key
 published: True
 position: 2
@@ -11,7 +12,7 @@ position: 2
 # Retrieving Primary Key Field Values for Selected Items
 
 
-There are many times you may need to fetch the primary key field values for grid items. You can use the **DataKeyNames** and **DataKeyValues** arrays of the **GridTableView** object for this purpose. When you specify a primary key field by adding it to the **DataKeyNames** array, the value of the specified column becomes available in **DataKeyValues** array. 
+There are many times you may need to fetch the primary key field values for grid items. You can use the **DataKeyNames** and **DataKeyValues** arrays of the **GridTableView** object for this purpose. When you specify a primary key field by adding it to the **DataKeyNames** array, the value of the specified column becomes available in **DataKeyValues** array.
 
 The following example illustrates this use of **DataKeyNames** and **DataKeyValues**. The **ItemCommand** and **SelectedIndexChanged** event handlers use the **DataKeyValues** array to access the primary key of a row when it enters edit mode or when it is selected, respectively:
 

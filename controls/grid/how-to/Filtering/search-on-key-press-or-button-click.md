@@ -2,7 +2,8 @@
 title: Search on Key Press/Button Click
 page_title: Search on Key Press/Button Click | RadGrid for ASP.NET AJAX Documentation
 description: Search on Key Press/Button Click
-slug: grid/functionality/filtering/how-to/search-on-key-press-or-button-click
+slug: grid/how-to/filtering/search-on-key-press-or-button-click
+previous_url: grid/functionality/filtering/how-to/search-on-key-press-or-button-click
 tags: search,on,key,press/button,click
 published: True
 position: 11
@@ -12,7 +13,7 @@ position: 11
 
 
 
-## 
+##
 
 By default, **RadGrid** does not apply a filter until the user clicks on the filter button and selects a filter function.
 

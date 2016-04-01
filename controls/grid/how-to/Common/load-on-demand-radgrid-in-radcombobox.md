@@ -2,7 +2,7 @@
 title: Load-on-demand RadGrid in RadComboBox
 page_title: Load-on-demand RadGrid in RadComboBox | RadGrid for ASP.NET AJAX Documentation
 description: Load-on-demand RadGrid in RadComboBox
-slug: grid/how-to/load-on-demand-radgrid-in-radcombobox
+slug: grid/how-to/common/load-on-demand-radgrid-in-radcombobox
 tags: load-on-demand,radgrid,in,radcombobox
 published: True
 position: 2
@@ -12,7 +12,7 @@ position: 2
 
 
 
-## 
+##
 
 The example below shows how to embed a **RadGrid** control in the template of a **RadComboBox**. This might be is a swift solution when you want to let users type a string sequence in the combobox input and load data (which matches the given pattern) in a table structure inside the combobox drop-down list. The integration between **RadGrid** and **RadComboBox** extends the built-in [multi-column combobox](http://demos.telerik.com/aspnet-ajax/Combobox/Examples/Functionality/MultiColumnCombo/DefaultCS.aspx) feature by feeding the combo with data loaded on demand. When you scroll to navigate through the loaded records, the table headers remain static at the top for a better user experience.
 

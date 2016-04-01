@@ -2,7 +2,8 @@
 title: Change Filter Items
 page_title: Change Filter Items | RadGrid for ASP.NET AJAX Documentation
 description: Change Filter Items
-slug: grid/functionality/filtering/how-to/change-filter-items
+slug: grid/how-to/filtering/change-filter-items
+previous_url: grid/functionality/filtering/how-to/change-filter-items
 tags: change,filter,items
 published: True
 position: 3
@@ -12,7 +13,7 @@ position: 3
 
 
 
-## 
+##
 
 You can change the appearance of the items in the filtering item (the filter textbox and filter menu image). For example, you may want to change the height and width of the default filter textbox to prevent it from wrapping text or hiding the filter menu image. You can change the url for the default filter menu image to use your own custom image.
 

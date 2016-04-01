@@ -2,7 +2,8 @@
 title: Traversing Items in Group Panel
 page_title: Traversing Items in Group Panel | RadGrid for ASP.NET AJAX Documentation
 description: Traversing Items in Group Panel
-slug: grid/functionality/grouping/how-to/traversing-items-in-group-panel
+slug: grid/how-to/grouping/traversing-items-in-group-panel
+previous_url: grid/functionality/grouping/how-to/traversing-items-in-group-panel
 tags: traversing,items,in,group,panel
 published: True
 position: 4
@@ -12,7 +13,7 @@ position: 4
 
 
 
-## 
+##
 
 You can iterate through the items placed in the group panel of a grid and modify their settings. This can be done quite easily using the **PreRender** event of the grid. The items in the group panel can be accessed using the **RadGrid.GroupPanel.GroupPanelItems** collection.
 
@@ -20,7 +21,7 @@ The following example illustrates how this is done. It changes the **ImageUrl** 
 
 
 
-````C#	
+````C#
 protected void RadGrid1_PreRender(object sender, System.EventArgs e)
 {
     foreach (TableCell cell in RadGrid1.GroupPanel.GroupPanelItems)

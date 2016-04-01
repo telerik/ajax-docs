@@ -2,7 +2,8 @@
 title: Hiding the Expand/Collapse Images
 page_title: Hiding the Expand/Collapse Images | RadGrid for ASP.NET AJAX Documentation
 description: Hiding the Expand/Collapse Images
-slug: grid/functionality/grouping/how-to/hiding-the-expand-and-collapse-images
+slug: grid/how-to/grouping/hiding-the-expand-and-collapse-images
+previous_url: grid/functionality/grouping/how-to/hiding-the-expand-and-collapse-images
 tags: hiding,the,expand/collapse,images
 published: True
 position: 5
@@ -25,8 +26,8 @@ Note that if the **GroupSplitterColumn** cells have side paddings (and they do w
 
 ````ASP.NET
 .rgGroupCol
-{ 
-    padding-left: 0 !important; 
+{
+    padding-left: 0 !important;
     padding-right: 0 !important;
 }
 ````
@@ -50,7 +51,7 @@ protected void RadGrid1_ItemCreated(object sender, GridItemEventArgs e)
     }
 }
 ````
-````VB	
+````VB
 Protected Sub RadGrid1_ColumnCreated(ByVal sender As Object, ByVal e As GridColumnCreatedEventArgs)
     If TypeOf e.Column Is GridGroupSplitterColumn Then
         e.Column.HeaderStyle.Width = Unit.Pixel(1)

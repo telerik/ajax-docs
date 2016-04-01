@@ -2,7 +2,8 @@
 title: Scrolling to the Selected Item
 page_title: Scrolling to the Selected Item | RadGrid for ASP.NET AJAX Documentation
 description: Scrolling to the Selected Item
-slug: grid/functionality/scrolling/how-to/scrolling-to-the-selected-item
+slug: grid/how-to/scrolling/scrolling-to-the-selected-item
+previous_url: grid/functionality/scrolling/how-to/scrolling-to-the-selected-item
 tags: scrolling,to,the,selected,item
 published: True
 position: 0
@@ -12,7 +13,7 @@ position: 0
 
 
 
-## 
+##
 
 If you have an initially selected item (row) in a scrollable grid, you may want to bring the focus to this item when the page first loads. The following steps describe how to accomplish this:
 

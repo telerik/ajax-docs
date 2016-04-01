@@ -2,7 +2,8 @@
 title: Persisting the Selected Rows Server-side on Sorting/Paging/Filtering/Grouping
 page_title: Persisting the Selected Rows Server-side on Sorting/Paging/Filtering/Grouping | RadGrid for ASP.NET AJAX Documentation
 description: Persisting the Selected Rows Server-side on Sorting/Paging/Filtering/Grouping
-slug: grid/functionality/selecting/how-to/persisting-selected-rows-server-side
+slug: grid/how-to/selecting/persisting-selected-rows-server-side
+previous_url: grid/functionality/selecting/how-to/persisting-selected-rows-server-side
 tags: Server-side,selecting,persisting
 published: True
 position: 5

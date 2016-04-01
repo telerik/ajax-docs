@@ -2,7 +2,7 @@
 title: Prevent Auto-Deselecting of Items
 page_title: Prevent Auto-Deselecting of Items | RadGrid for ASP.NET AJAX Documentation
 description: Prevent Auto-Deselecting of Items
-slug: controls/grid/how-to/Selecting/prevent-auto-deselecting-of-items
+slug: controls/grid/how-to/selecting/Selecting/prevent-auto-deselecting-of-items
 tags: how to
 published: True
 position: 11

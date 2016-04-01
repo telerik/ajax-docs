@@ -2,7 +2,7 @@
 title: Saving Grid Settings on a Per User Basis
 page_title: Saving Grid Settings on a Per User Basis | RadGrid for ASP.NET AJAX Documentation
 description: Saving Grid Settings on a Per User Basis
-slug: grid/how-to/saving-grid-settings-on-a-per-user-basis
+slug: grid/how-to/common/saving-grid-settings-on-a-per-user-basis
 tags: saving,grid,settings,on,a,per,user,basis
 published: True
 position: 9
@@ -71,7 +71,7 @@ Following is the definition of the **GridSettingsPersister** class along with a 
 
 
 
-````C#	
+````C#
 /// <summary>
 /// Imports and exports settings from a RadGrid instance.
 /// </summary>

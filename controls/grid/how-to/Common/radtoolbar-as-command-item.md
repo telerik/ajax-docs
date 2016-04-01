@@ -2,7 +2,7 @@
 title: RadToolBar as Command Item
 page_title: RadToolBar as Command Item | RadGrid for ASP.NET AJAX Documentation
 description: RadToolBar as Command Item
-slug: grid/how-to/radtoolbar-as-command-item
+slug: grid/how-to/common/radtoolbar-as-command-item
 tags: radtoolbar,as,command,item
 published: True
 position: 13
@@ -12,7 +12,7 @@ position: 13
 
 
 
-## 
+##
 
 [This example](http://demos.telerik.com/aspnet-ajax/toolbar/examples/applicationscenarios/gridcommanditem/defaultcs.aspx?product=grid) demonstrates how to use **RadToolBar**as a custom **RadGrid**Command item container. The buttons in the toolbar have CommandName values set which are internally 'recognized' by the grid when its event bubbling mechanism is triggered (after pressing a button from the command item toolbar). Thus the respective command is executed without any extra coding.
 ![](images/grdToolBarAsCommandItem_thumb.png)

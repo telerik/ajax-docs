@@ -2,7 +2,7 @@
 title: RadComboBox in RadGrid
 page_title: RadComboBox in RadGrid | RadGrid for ASP.NET AJAX Documentation
 description: RadComboBox in RadGrid
-slug: grid/how-to/radcombobox-in-radgrid
+slug: grid/how-to/common/radcombobox-in-radgrid
 tags: radcombobox,in,radgrid
 published: True
 position: 12
@@ -12,7 +12,7 @@ position: 12
 
 
 
-## 
+##
 
 The [Combo in Grid](http://demos.telerik.com/aspnet-ajax/combobox/examples/functionality/comboingrid/defaultcs.aspx?product=grid) online example demonstrates how to load the ComboBox Items on demand in the RadGrid edit form. There are two options to pre-select a value in a RadComboBox when it is nested in a RadGrid EditTemplate:
 

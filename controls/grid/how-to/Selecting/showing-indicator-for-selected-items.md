@@ -2,7 +2,8 @@
 title: Showing Indicator for Selected Items
 page_title: Showing Indicator for Selected Items | RadGrid for ASP.NET AJAX Documentation
 description: Showing Indicator for Selected Items
-slug: grid/functionality/selecting/how-to/showing-indicator-for-selected-items
+slug: grid/how-to/selecting/showing-indicator-for-selected-items
+previous_url: grid/functionality/selecting/how-to/showing-indicator-for-selected-items
 tags: client-side,selecting, indicator
 published: True
 position: 7

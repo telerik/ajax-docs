@@ -1,18 +1,19 @@
 ---
-title: Filter Template and Custom Columns 
+title: Filter Template and Custom Columns
 page_title: Filter Template and Custom Columns  | RadGrid for ASP.NET AJAX Documentation
-description: Filter Template and Custom Columns 
-slug: grid/functionality/filtering/how-to/filter-template-and-custom-columns-
+description: Filter Template and Custom Columns
+slug: grid/how-to/filtering/filter-template-and-custom-columns
+previous_url: grid/functionality/filtering/how-to/filter-template-and-custom-columns
 tags: filter,template,and,custom,columns,
 published: True
 position: 10
 ---
 
-# Filter Template and Custom Columns 
+# Filter Template and Custom Columns
 
 
 
-## 
+##
 
 Filtering is automatically supported for **Template** columns.To allow filtering in template columns, you need only do the following:
 

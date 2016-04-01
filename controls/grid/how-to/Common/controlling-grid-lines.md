@@ -2,7 +2,7 @@
 title: Controlling Grid Lines
 page_title: Controlling Grid Lines | RadGrid for ASP.NET AJAX Documentation
 description: Controlling Grid Lines
-slug: grid/how-to/controlling-grid-lines
+slug: grid/how-to/common/controlling-grid-lines
 tags: controlling,grid,lines
 published: True
 position: 11

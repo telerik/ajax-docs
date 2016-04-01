@@ -2,7 +2,8 @@
 title: Extracting Key Values Client-side
 page_title: Extracting Key Values Client-side | RadGrid for ASP.NET AJAX Documentation
 description: Extracting Key Values Client-side
-slug: grid/functionality/selecting/how-to/extracting-key-values-client-side
+slug: grid/how-to/selecting/extracting-key-values-client-side
+previous_url: grid/functionality/selecting/how-to/extracting-key-values-client-side
 tags: client-side,selecting,values,rows
 published: True
 position: 1
@@ -12,7 +13,7 @@ position: 1
 
 
 
-## 
+##
 
 To simplify your code logic, you can specify certain columns whose values you want to access easily on the client. When you add the value of the DateField to the **ClientDataKeyNames** array of the **MasterTableView** or a detail **GridTableView**, **RadGrid** makes that column's value available through the getDataKeyValue() function of the GridDataItem client-side object and of the arguments for client-side event handlers that respond to item events.
 

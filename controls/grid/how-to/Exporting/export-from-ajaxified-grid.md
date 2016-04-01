@@ -2,7 +2,8 @@
 title: Export from Ajaxified Grid
 page_title: Export from Ajaxified Grid | RadGrid for ASP.NET AJAX Documentation
 description: Export from Ajaxified Grid
-slug: grid/ajaxified-radgrid/what-you-should-have-in-mind/export-from-ajaxified-grid
+slug: grid/how-to/exporting/what-you-should-have-in-mind/export-from-ajaxified-grid
+previous_url: grid/ajaxified-radgrid/what-you-should-have-in-mind/export-from-ajaxified-grid
 tags: export,from,ajaxified,grid
 published: True
 position: 0

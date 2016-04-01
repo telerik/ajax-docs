@@ -2,7 +2,7 @@
 title: File Browser
 page_title: File Browser | RadGrid for ASP.NET AJAX Documentation
 description: File Browser
-slug: grid/how-to/file-browser
+slug: grid/how-to/common/file-browser
 tags: file,browser
 published: True
 position: 0
@@ -12,7 +12,7 @@ position: 0
 
 
 
-## 
+##
 
 The [following example](http://demos.telerik.com/aspnet-ajax/Controls/Examples/Integration/FileBrowser/DefaultCS.aspx) demonstrates how RadSplitter, RadTreeView, RadGrid and RadMenu can be integrated with the RadAjax framework. The example features the following components:
 
@@ -46,7 +46,7 @@ function updateGrid(result) {
   }
 }
 function rowDataBound(sender, args) {
-  var value = args.get_dataItem()["Name"]; 
+  var value = args.get_dataItem()["Name"];
   args.get_item().get_cell("Name").innerHTML = String.format('<img src="Img/{0}" align="absmiddle" style="border-width: 0px; vertical-align: middle;margin-right:5px;" alt="icon" />{1}', getImageByFileExt(value), value);
 }
 function getImageByFileExt(fileName) {

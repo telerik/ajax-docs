@@ -2,7 +2,7 @@
 title: Referencing Controls in Grid Row Edit Form
 page_title: Referencing Controls in Grid Row Edit Form | RadGrid for ASP.NET AJAX Documentation
 description: Referencing Controls in Grid Row Edit Form
-slug: grid/how-to/referencing-controls-in-grid-row-edit-form
+slug: grid/how-to/common/referencing-controls-in-grid-row-edit-form
 tags: referencing,controls,in,grid,row,edit,form
 published: True
 position: 4
@@ -12,7 +12,7 @@ position: 4
 
 
 
-## 
+##
 
 There are numerous situations in which you may need to get reference to controls in grid row/edit form and modify their state depending on the option the user chooses for another control in the same row/edit form. Basically, you can reference the grid item which wraps the controls (either data item or edit form item), then locate the other control and modify its state as per your custom needs. In some cases (when there are additional containers in the rows), you may need to find the container first and then propagate the same steps (depicted above).
 
@@ -64,7 +64,7 @@ private void RadGrid1_ItemCreated(object sender, Telerik.Web.UI.GridItemEventArg
     {
         //the dropdown list will be the first control in the Controls collection of the corresponding cell  
         DropDownList list = (e.Item as GridEditableItem)["ddlContactName"].Controls[0] as DropDownList;
-        //attach SelectedIndexChanged event for the drodown control 
+        //attach SelectedIndexChanged event for the drodown control
         list.AutoPostBack = true;
         list.SelectedIndexChanged += new System.EventHandler(this.list_SelectedIndexChanged);
     }

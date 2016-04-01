@@ -2,7 +2,8 @@
 title: Customizing GridGroupHeaderItem
 page_title: Customizing GridGroupHeaderItem | RadGrid for ASP.NET AJAX Documentation
 description: Customizing GridGroupHeaderItem
-slug: grid/functionality/grouping/how-to/customizing-gridgroupheaderitem
+slug: grid/how-to/grouping/customizing-gridgroupheaderitem
+previous_url: grid/functionality/grouping/how-to/customizing-gridgroupheaderitem
 tags: customizing,gridgroupheaderitem
 published: True
 position: 0
@@ -12,7 +13,7 @@ position: 0
 
 
 
-## 
+##
 
 You can have complete control over the display of the fields in a **GridGroupHeaderItem** and even [perform calculations]({%slug grid/functionality/grouping/how-to/performing-calculations-in-group-header%}) and display the results in the group header.
 

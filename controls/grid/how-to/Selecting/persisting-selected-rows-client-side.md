@@ -2,7 +2,8 @@
 title: Persisting the Selected Rows Client-side on Sorting/Paging/Filtering/Grouping
 page_title: Persisting the Selected Rows Client-side on Sorting/Paging/Filtering/Grouping | RadGrid for ASP.NET AJAX Documentation
 description: Persisting the Selected Rows Client-side on Sorting/Paging/Filtering/Grouping
-slug: grid/functionality/selecting/how-to/persisting-selected-rows-client-side
+slug: grid/how-to/selecting/persisting-selected-rows-client-side
+previous_url: grid/functionality/selecting/how-to/persisting-selected-rows-client-side
 tags: client-side,selecting,persisting
 published: True
 position: 4
@@ -10,16 +11,16 @@ position: 4
 
 # Persisting the Selected Rows Client-side on Sorting/Paging/Filtering/Grouping
 
-**RadGrid** loses its current selection on postback - e.g. when the data is sorted, a new group or filter is added, or when the current page changes. The following snippets illustrate how you can persist the selection client-side. 
+**RadGrid** loses its current selection on postback - e.g. when the data is sorted, a new group or filter is added, or when the current page changes. The following snippets illustrate how you can persist the selection client-side.
 
 The following logic is used to persist the selected rows:
 
-1. Handle **OnRowSelected** and **OnRowDeselected** events for **RadGrid**. In the handlers you should update the collection of the selected items. 
+1. Handle **OnRowSelected** and **OnRowDeselected** events for **RadGrid**. In the handlers you should update the collection of the selected items.
 
 1. Handle **OnRowCreated** event. In this handler you should check if the current item is present in the selected rows collection and select it if necessary.
 
 
-Below you can see two approaches for implementing the functionality. 
+Below you can see two approaches for implementing the functionality.
 
 
 ## Using Web Storage
@@ -141,7 +142,7 @@ For older browsers you can use a static JavaScript array to keep the selected it
         <div>
             <telerik:RadScriptManager ID="RadScriptManager2" runat="server">
             </telerik:RadScriptManager>
-            
+
             <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server" EnablePageHeadUpdate="false">
                 <AjaxSettings>
                     <telerik:AjaxSetting AjaxControlID="RadGrid1">
@@ -174,7 +175,7 @@ For older browsers you can use a static JavaScript array to keep the selected it
 
 
 
-## See Also 
+## See Also
 
 * [Persisting the Selected Rows Server-side]({%slug grid/functionality/selecting/how-to/persisting-selected-rows-server-side%})
 

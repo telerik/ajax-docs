@@ -2,7 +2,8 @@
 title: Apply Default Filter on Initial Load
 page_title: Apply Default Filter on Initial Load | RadGrid for ASP.NET AJAX Documentation
 description: Apply Default Filter on Initial Load
-slug: grid/functionality/filtering/how-to/apply-default-filter-on-initial-load
+slug: grid/how-to/filtering/apply-default-filter-on-initial-load
+previous_url: grid/functionality/filtering/how-to/apply-default-filter-on-initial-load
 tags: apply,default,filter,on,initial,load
 published: True
 position: 4
@@ -71,7 +72,7 @@ protected void RadGrid1_PreRender(object sender, System.EventArgs e)
     }
 }
 ````
-````VB	
+````VB
 Protected Sub RadGrid1_PreRender(ByVal sender As Object, ByVal e As System.EventArgs) Handles RadGrid1.PreRender
     If (Not Page.IsPostBack) Then
         RadGrid1.MasterTableView.FilterExpression = "([Country] LIKE '%Germany%') "

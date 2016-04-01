@@ -2,7 +2,8 @@
 title: Filter By ListTextField for GridDropDownColumn
 page_title: Filter By ListTextField for GridDropDownColumn | RadGrid for ASP.NET AJAX Documentation
 description: Filter By ListTextField for GridDropDownColumn
-slug: grid/functionality/filtering/how-to/filter-by-listtextfield-for-griddropdowncolumn
+slug: grid/how-to/filtering/filter-by-listtextfield-for-griddropdowncolumn
+previous_url: grid/functionality/filtering/how-to/filter-by-listtextfield-for-griddropdowncolumn
 tags: filter,by,listtextfield,for,griddropdowncolumn
 published: True
 position: 6
@@ -12,7 +13,7 @@ position: 6
 
 
 
-## 
+##
 
 The built-in **GridDropDownColumn** is filtered by its **ListValueField** when the default filtering feature of the control is used. **RadGrid** does not include any support for filtering by **ListTextField** instead.
 
@@ -48,10 +49,10 @@ protected void RadGrid1_ItemCommand(object source, GridCommandEventArgs e)
 }
 protected void RadGrid1_ItemDataBound(object sender, GridItemEventArgs e)
 {  
-    if (e.Item is GridFilteringItem) 
+    if (e.Item is GridFilteringItem)
     {  
-        GridFilteringItem item = e.Item as GridFilteringItem; 
-        ((item["CategoryddColumn"].Controls[0]) as TextBox).Text = ((item["CategoryName"].Controls[0]) as TextBox).Text; 
+        GridFilteringItem item = e.Item as GridFilteringItem;
+        ((item["CategoryddColumn"].Controls[0]) as TextBox).Text = ((item["CategoryName"].Controls[0]) as TextBox).Text;
     }
 }
 ````

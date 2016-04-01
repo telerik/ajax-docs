@@ -2,7 +2,8 @@
 title: Filter for GridDateTimeColumn
 page_title: Filter for GridDateTimeColumn | RadGrid for ASP.NET AJAX Documentation
 description: Filter for GridDateTimeColumn
-slug: grid/functionality/filtering/how-to/filter-for-griddatetimecolumn
+slug: grid/how-to/filtering/filter-for-griddatetimecolumn
+previous_url: grid/functionality/filtering/how-to/filter-for-griddatetimecolumn
 tags: filter,for,griddatetimecolumn
 published: True
 position: 7
@@ -12,7 +13,7 @@ position: 7
 
 
 
-## 
+##
 
 The default drop-down list of filter functions for **GridDateTimeColumn** contains the following items:
 

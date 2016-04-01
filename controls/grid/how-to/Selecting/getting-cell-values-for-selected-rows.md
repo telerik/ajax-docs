@@ -2,7 +2,8 @@
 title: Getting Cell Values for Selected Rows Client-side
 page_title: Getting Cell Values for Selected Rows Client-side | RadGrid for ASP.NET AJAX Documentation
 description: Getting Cell Values for Selected Rows Client-side
-slug: grid/functionality/selecting/how-to/getting-cell-values-for-selected-rows
+slug: grid/how-to/selecting/getting-cell-values-for-selected-rows
+previous_url: grid/functionality/selecting/how-to/getting-cell-values-for-selected-rows
 tags: client-side,selecting,values,rows
 published: True
 position: 0
@@ -12,7 +13,7 @@ position: 0
 
 
 
-## 
+##
 
 A fairly common task is to retrieve the values of column cells when the row that contains them is selected. You can do this using the **getCellByColumnUniqueName** method of the **GridTableView** client-side object. This method takes two parameters: a row object and the **UniqueName** of a column. It returns the corresponding cell from the grid table.
 

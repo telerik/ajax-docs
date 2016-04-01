@@ -2,7 +2,7 @@
 title: Adding Row Numbers
 page_title: Adding Row Numbers | RadGrid for ASP.NET AJAX Documentation
 description: Adding Row Numbers
-slug: grid/how-to/adding-row-numbers
+slug: grid/how-to/common/adding-row-numbers
 tags: adding,row,numbers
 published: True
 position: 8
@@ -12,7 +12,7 @@ position: 8
 
 
 
-## 
+##
 
 In some occasions you may want to display row numbers in Telerik RadGrid- for example to correlate the grid items when exporting the control's structure to Excel or just for easier navigation/access. The functionality is not built-in in the product, however such layout is achievable with a few lines of code:
 
@@ -45,7 +45,7 @@ In the example code below the item index is presented in MS Label control which 
       SelectCommand="SELECT [CustomerID], [CompanyName], [ContactName], [ContactTitle], [Address], [City], [Region], [PostalCode] FROM [Customers]">
 </asp:SqlDataSource>
 ````
-````C#	
+````C#
 protected void RadGrid1_ItemDataBound(object sender, Telerik.Web.UI.GridItemEventArgs e)
 {
     if (e.Item is GridDataItem && e.Item.OwnerTableView.DataSourceID == "AccessDataSource1")

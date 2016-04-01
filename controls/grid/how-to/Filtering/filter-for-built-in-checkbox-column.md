@@ -2,7 +2,8 @@
 title: Filter for Built-in Checkbox Column
 page_title: Filter for Built-in Checkbox Column | RadGrid for ASP.NET AJAX Documentation
 description: Filter for Built-in Checkbox Column
-slug: grid/functionality/filtering/how-to/filter-for-built-in-checkbox-column
+slug: grid/how-to/filtering/filter-for-built-in-checkbox-column
+previous_url: grid/functionality/filtering/how-to/filter-for-built-in-checkbox-column
 tags: filter,for,built-in,checkbox,column
 published: True
 position: 5
@@ -12,7 +13,7 @@ position: 5
 
 
 
-## 
+##
 
 The default drop-down list of filter functions for **GridCheckBoxColumn** contains the following items:
 
@@ -52,7 +53,7 @@ The following example illustrates this approach:
     </Columns>
   </MasterTableView></telerik:RadGrid>
 ````
-````C#	
+````C#
 protected void RadGrid1_ItemCreated(object sender, Telerik.Web.UI.GridItemEventArgs e)
 {
     if (e.Item is GridFilteringItem)
@@ -76,7 +77,7 @@ protected void ddList_SelectedIndexChanged(object sender, System.EventArgs e)
 {
     DropDownList ddList = (DropDownList)sender;  Session["ddlSelValue"] = ddList.SelectedValue;
     Switch (ddList.SelectedValue)  
-    { 
+    {
     case "True":
         RadGrid1.MasterTableView.FilterExpression = "([Bool] = True) ";
         foreach (GridColumn column in RadGrid1.MasterTableView.Columns)      
@@ -93,7 +94,7 @@ protected void ddList_SelectedIndexChanged(object sender, System.EventArgs e)
             column.CurrentFilterFunction = GridKnownFunction.NoFilter;    
             column.CurrentFilterValue = String.Empty;   
         }     
-        RadGrid1.MasterTableView.Rebind(); 
+        RadGrid1.MasterTableView.Rebind();
     break;
     case "Empty":  
         RadGrid1.MasterTableView.FilterExpression = String.Empty;
@@ -103,7 +104,7 @@ protected void ddList_SelectedIndexChanged(object sender, System.EventArgs e)
             column.CurrentFilterValue = String.Empty;      
         }   
         RadGrid1.MasterTableView.Rebind();     
-    break; 
+    break;
   }
 }
 string connectionString = ("Provider=Microsoft.Jet.OLEDB.4.0; Data Source=" + System.Web.HttpContext.Current.Server.MapPath("~/App_Data/Nwind.mdb"));

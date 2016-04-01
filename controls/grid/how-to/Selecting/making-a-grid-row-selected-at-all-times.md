@@ -2,7 +2,8 @@
 title: Making a Grid Row Selected at All Times
 page_title: Making a Grid Row Selected at All Times | RadGrid for ASP.NET AJAX Documentation
 description: Making a Grid Row Selected at All Times
-slug: grid/functionality/selecting/how-to/making-a-grid-row-selected-at-all-times
+slug: grid/how-to/selecting/making-a-grid-row-selected-at-all-times
+previous_url: grid/functionality/selecting/how-to/making-a-grid-row-selected-at-all-times
 tags: selecting
 published: True
 position: 8
@@ -49,9 +50,9 @@ In the code-behind, the ItemDataBound and PreRender event handlers ensure that a
   <SelectedItemStyle BackColor="Aqua"></SelectedItemStyle>
 </telerik:RadGrid>
 <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
-     SelectCommand="SELECT [OrderID], [CustomerID], [EmployeeID], [OrderDate], [ShipName] FROM [Orders]" 
-     DeleteCommand="DELETE FROM [Orders] WHERE [OrderID] = @OrderID" 
-     InsertCommand="INSERT INTO [Orders] ([CustomerID], [EmployeeID], [OrderDate], [ShipName]) VALUES (@CustomerID, @EmployeeID, @OrderDate, @ShipName)" 
+     SelectCommand="SELECT [OrderID], [CustomerID], [EmployeeID], [OrderDate], [ShipName] FROM [Orders]"
+     DeleteCommand="DELETE FROM [Orders] WHERE [OrderID] = @OrderID"
+     InsertCommand="INSERT INTO [Orders] ([CustomerID], [EmployeeID], [OrderDate], [ShipName]) VALUES (@CustomerID, @EmployeeID, @OrderDate, @ShipName)"
      UpdateCommand="UPDATE [Orders] SET [CustomerID] = @CustomerID, [EmployeeID] = @EmployeeID, [OrderDate] = @OrderDate, [ShipName] = @ShipName WHERE [OrderID] = @OrderID">
      <DeleteParameters>
          <asp:Parameter Name="OrderID" Type="Int32" />
@@ -99,7 +100,7 @@ protected void RadGrid1_PreRender(object sender, EventArgs e)
   {
 		RadGrid1.MasterTableView.Items[0].Selected = true;
   }
-  
+
   isSelected = false;
 }
 ````

@@ -2,7 +2,7 @@
 title: No Wrap for Grid Cell Content
 page_title: No Wrap for Grid Cell Content | RadGrid for ASP.NET AJAX Documentation
 description: No Wrap for Grid Cell Content
-slug: grid/how-to/no-wrap-for-grid-cell-content
+slug: grid/how-to/common/no-wrap-for-grid-cell-content
 tags: no,wrap,for,grid,cell,content
 published: True
 position: 1
@@ -12,7 +12,7 @@ position: 1
 
 
 
-## 
+##
 
 This appearance customization is not supported out-of-the-box in the current version of Telerik RadGrid. However, there is a workaround which you can apply to prevent the wrapping for column cells content. Set the DataFormatString property for each column to **<nobr>{0}</nobr>**. Thus the column(s) in your grid instance should stretch to fit the width of the longest text inside the column(s) cells.
 

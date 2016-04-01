@@ -1,14 +1,15 @@
 ---
-title: Filter with MS DropDownList Instead of Textbox 
+title: Filter with MS DropDownList Instead of Textbox
 page_title: Filter with MS DropDownList Instead of Textbox  | RadGrid for ASP.NET AJAX Documentation
-description: Filter with MS DropDownList Instead of Textbox 
-slug: grid/functionality/filtering/how-to/filter-with-ms-dropdownlist-instead-of-textbox-
+description: Filter with MS DropDownList Instead of Textbox
+slug: grid/how-to/filtering/filter-with-ms-dropdownlist-instead-of-textbox
+previous_url: grid/functionality/filtering/how-to/filter-with-ms-dropdownlist-instead-of-textbox-
 tags: filter,with,ms,dropdownlist,instead,of,textbox,
 published: True
 position: 9
 ---
 
-# Filter with MS DropDownList Instead of Textbox 
+# Filter with MS DropDownList Instead of Textbox
 
 
 You can create a custom column class that replaces the filter text box with a drop-down list. This provides an alternate way for users to enter filter criteria. The drop down list can be configured so that it causes the grid to filter records when the user selects an item.
@@ -29,11 +30,11 @@ The following steps describe how to achieve this result:
 The following example illustrates how to create a custom column class that replaces the filter text box with a drop-down list.
 
 **C#**
-	
+
 		public class MyCustomFilteringColumn : GridBoundColumn
 		{
 		    private object listDataSource = null;
-		    //RadGrid calls this method when it initializes the controls inside the filtering item cells 
+		    //RadGrid calls this method when it initializes the controls inside the filtering item cells
 		    protected override void SetupFilterControls(TableCell cell)
 		    {
 		        base.SetupFilterControls(cell);
@@ -94,19 +95,19 @@ The following example illustrates how to create a custom column class that repla
 
 
 **VB**
-	
+
 		Imports Microsoft.VisualBasic
 		Imports Telerik.Web.UI
 		Imports System.Collections
 		Imports System.Web.UI
 		Imports System.Web.UI.WebControls
 		Imports System.Data
-		
+
 		Namespace MyStuff
-		
+
 		        Public Class MyCustomFilteringColumn
 		            Inherits GridBoundColumn
-		
+
 		            Private _listDataSource As Object = Nothing
 		            Public Property ListDataSource() As Object
 		                Get
@@ -116,8 +117,8 @@ The following example illustrates how to create a custom column class that repla
 		                    _listDataSource = value
 		                End Set
 		            End Property
-		
-		
+
+
 		            'RadGrid calls this method when it initializes the controls inside the filtering item cells
 		            Protected Overloads Overrides Sub SetupFilterControls(ByVal cell As TableCell)
 		                MyBase.SetupFilterControls(cell)
@@ -133,10 +134,10 @@ The following example illustrates how to create a custom column class that repla
 		                list.DataSource = _listDataSource
 		                list.DataBind()
 		            End Sub
-		
+
 		            Sub list_SelectedIndexChanged(ByVal sender As Object, ByVal e As EventArgs)
 		                Dim filterItem As GridFilteringItem = TryCast((TryCast(sender, DropDownList)).NamingContainer, GridFilteringItem)
-		
+
 		                If Me.DataType Is Type.GetType("System.Int32") OrElse Me.DataType Is Type.GetType("System.Int16") OrElse Me.DataType Is Type.GetType("System.Int64") Then
 		                    filterItem.FireCommandEvent("Filter", New Pair("EqualTo", Me.UniqueName))
 		                Else
@@ -144,7 +145,7 @@ The following example illustrates how to create a custom column class that repla
 		                    ' treat everything else like a string
 		                End If
 		            End Sub
-		
+
 		            'RadGrid calls this method when the value should be set to the filtering input control(s)
 		            Protected Overloads Overrides Sub SetCurrentFilterValueToControl(ByVal cell As TableCell)
 		                MyBase.SetCurrentFilterValueToControl(cell)
@@ -153,18 +154,18 @@ The following example illustrates how to create a custom column class that repla
 		                    list.SelectedValue = Me.CurrentFilterValue
 		                End If
 		            End Sub
-		
+
 		            'RadGrid calls this method to extract the filtering value from the filtering input control(s)
 		            Protected Overloads Overrides Function GetCurrentFilterValueFromControl(ByVal cell As TableCell) As String
 		                Dim list As DropDownList = DirectCast(cell.Controls(0), DropDownList)
 		                Return list.SelectedValue
 		            End Function
-		
+
 		            Protected Overloads Overrides Function GetFilterDataField() As String
 		                Return Me.DataField
 		            End Function
 		        End Class
-		
+
 		    End Namespace
 
 
@@ -175,7 +176,7 @@ You can add instances of your custom column type **RadGrid** as follows:
 1. At the top of the the ASPX page, register the namespace for the custom column class. You do not need to add an Assembly attribute, unless the class is defined in another assembly:
 
 	**ASP.NET**
-	
+
 		<%@ register namespace="MyStuff" tagprefix="custom" %>
 
 
@@ -270,7 +271,7 @@ You can add instances of your custom column type **RadGrid** as follows:
 
 
 	**VB**
-	
+
 		Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
 		    For Each column As GridBoundColumn In RadGrid1.MasterTableView.Columns
 		        If TypeOf column Is MyStuff.MyCustomFilteringColumn Then

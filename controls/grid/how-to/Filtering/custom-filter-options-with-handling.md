@@ -2,7 +2,8 @@
 title: Custom Filter Options with Handling
 page_title: Custom Filter Options with Handling | RadGrid for ASP.NET AJAX Documentation
 description: Custom Filter Options with Handling
-slug: grid/functionality/filtering/how-to/custom-filter-options-with-handling
+slug: grid/how-to/filtering/custom-filter-options-with-handling
+previous_url: grid/functionality/filtering/how-to/custom-filter-options-with-handling
 tags: custom,filter,options,with,handling
 published: True
 position: 13
@@ -12,12 +13,12 @@ position: 13
 
 
 
-## 
+##
 
 You can replace the items in the filtering menu with your own custom options, and add an event handler filter the records based on your custom filter functions. To accomplish this goal:
 
 1. In the **Page_Init** event handler,
-	1. Clear the **FilterMenu.Items** collection.	
+	1. Clear the **FilterMenu.Items** collection.
 	2. Create your own menu items, setting their **Text** and **Value** properties to reflect your custom filtering options.
 	3. Attach an **OnClick** event handler of the filtering menu (RadContextMenu).
 2. In the **OnClick** event handler, filter the data based on your custom filter function. You can do this in two ways:

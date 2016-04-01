@@ -2,7 +2,7 @@
 title: BinaryImages and RadAsyncUpload in Grid
 page_title: BinaryImages and RadAsyncUpload in Grid | RadGrid for ASP.NET AJAX Documentation
 description: BinaryImages and RadAsyncUpload in Grid
-slug: grid/how-to/binaryimages-and-radasyncupload-in-grid
+slug: grid/how-to/common/binaryimages-and-radasyncupload-in-grid
 tags: binaryimages,and,radasyncupload,in,grid
 published: True
 position: 15
@@ -12,7 +12,7 @@ position: 15
 
 
 
-## 
+##
 
 [This example](http://demos.telerik.com/aspnet-ajax/controls/examples/integration/gridandradasyncupload/defaultcs.aspx?product=grid) illustrates the usage of RadAsyncUpload and BinaryImage and how to display and edit images. RadAsyncUpload offers asynchronous upload capability while maintaining the look of the regular RadUpload control. The upload process requires that the files are uploaded to a custom handler and not to the hosting page. Files are stored in a temporary location until a Postback occurs. The temporary location is cleaned-up automatically.
 
@@ -41,7 +41,7 @@ You can also perform validation over the file input as shown in the demo code:
 <telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
   <script>
     var uploadedFilesCount = 0; var isEditMode; function validateRadUpload(source, e) {
-      // When the RadGrid is in Edit mode the user is not obliged to upload file. 
+      // When the RadGrid is in Edit mode the user is not obliged to upload file.
       if (isEditMode == null || isEditMode == undefined) {
         e.IsValid = false;
         if (uploadedFilesCount > 0) {

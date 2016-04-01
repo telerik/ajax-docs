@@ -2,7 +2,8 @@
 title: RadGrid Filtered by RadComboBox
 page_title: RadGrid Filtered by RadComboBox | RadGrid for ASP.NET AJAX Documentation
 description: RadGrid Filtered by RadComboBox
-slug: grid/how-to/radgrid-filtered-by-radcombobox
+slug: grid/how-to/filtering/radgrid-filtered-by-radcombobox
+previous_url: grid/functionality/filtering/how-to/radgrid-filtered-by-radcombobox
 tags: radgrid,filtered,by,radcombobox
 published: True
 position: 1
@@ -12,7 +13,7 @@ position: 1
 
 
 
-## 
+##
 
 The [Grid Filtered by Combo]( http://demos.telerik.com/aspnet-ajax/Controls/Examples/Integration/GridComboAjax/DefaultCS.aspx ) demo presents how to display dependant records in **RadGrid**when a filtering criterion is selected in an external **RadComboBox** control. The grid is populated through an asynchronous call that is made using a **RadAjaxManager** instance which is configured to refresh the grid and the combobox. A loading panel indicates when the ajax request is in progress.
 

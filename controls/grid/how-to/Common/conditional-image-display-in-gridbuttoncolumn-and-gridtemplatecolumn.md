@@ -2,7 +2,7 @@
 title: Conditional Image Display in GridButtonColumn and GridTemplateColumn
 page_title: Conditional Image Display in GridButtonColumn and GridTemplateColumn | RadGrid for ASP.NET AJAX Documentation
 description: Conditional Image Display in GridButtonColumn and GridTemplateColumn
-slug: grid/how-to/conditional-image-display-in-gridbuttoncolumn-and-gridtemplatecolumn
+slug: grid/how-to/common/conditional-image-display-in-gridbuttoncolumn-and-gridtemplatecolumn
 tags: conditional,image,display,in,gridbuttoncolumn,and,gridtemplatecolumn
 published: True
 position: 6
@@ -12,7 +12,7 @@ position: 6
 
 
 
-## 
+##
 
 There are cases in which you would like to display/not display image inside **GridButtonColumn/GridTemplateColumn** in relation with value in other column.
 

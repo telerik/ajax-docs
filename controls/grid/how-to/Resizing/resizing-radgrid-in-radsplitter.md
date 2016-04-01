@@ -2,7 +2,7 @@
 title: Resizing RadGrid in RadSplitter
 page_title: Resizing RadGrid in RadSplitter | RadGrid for ASP.NET AJAX Documentation
 description: Resizing RadGrid in RadSplitter
-slug: grid/how-to/resizing-radgrid-in-radsplitter
+slug: grid/how-to/resizing/resizing-radgrid-in-radsplitter
 tags: resizing,radgrid,in,radsplitter
 published: True
 position: 6
@@ -12,7 +12,7 @@ position: 6
 
 
 
-## 
+##
 
 [This example](http://demos.telerik.com/aspnet-ajax/Controls/Examples/Integration/GridAndSplitterResizing/DefaultCS.aspx?product=grid) shows how you can resize RadGrid when resizing its splitter container. The RadSplitter control exposes **OnClientPaneResized** client event which can be handled to initiate an AJAX request and then all you need to do is calculate and set the new value of the **PageSize** property on the server.
 

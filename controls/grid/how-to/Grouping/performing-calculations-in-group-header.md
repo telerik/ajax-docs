@@ -2,7 +2,8 @@
 title: Performing Calculations in Group Header
 page_title: Performing Calculations in Group Header | RadGrid for ASP.NET AJAX Documentation
 description: Performing Calculations in Group Header
-slug: grid/functionality/grouping/how-to/performing-calculations-in-group-header
+slug: grid/how-to/grouping/performing-calculations-in-group-header
+previous_url: grid/functionality/grouping/how-to/performing-calculations-in-group-header
 tags: performing,calculations,in,group,header
 published: True
 position: 2
@@ -12,7 +13,7 @@ position: 2
 
 
 
-## 
+##
 
 Although you can add aggregations to group expressions so that the group headers in **RadGrid** display aggregated values, there may be times when you want to display other calculated values that are not included in the standard aggregations. You can use the **ItemDataBound** event to calculate your own values and add them to the group headers.
 
@@ -51,7 +52,7 @@ The following example illustrates how this is done. It uses the "Sum" and "Count
                          Group By Customers.CustomerID, Country, City, CompanyName, ContactName">
 </asp:SqlDataSource>
 ````
-````C#	
+````C#
 protected void RadGrid1_ItemDataBound(object sender, GridItemEventArgs e)
 {
     if (e.Item is GridGroupHeaderItem)

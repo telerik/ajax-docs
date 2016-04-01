@@ -2,7 +2,8 @@
 title: Localize Filtering Menu Options
 page_title: Localize Filtering Menu Options | RadGrid for ASP.NET AJAX Documentation
 description: Localize Filtering Menu Options
-slug: grid/functionality/filtering/how-to/localize-filtering-menu-options
+slug: grid/how-to/filtering/localize-filtering-menu-options
+previous_url: grid/functionality/filtering/how-to/localize-filtering-menu-options
 tags: localize,filtering,menu,options
 published: True
 position: 1
