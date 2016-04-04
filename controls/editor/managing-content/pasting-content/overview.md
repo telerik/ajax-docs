@@ -21,7 +21,7 @@ Here is a list with the sections in this article:
 
 ## RadEditor and the Browser Clipboard
 
-Basically, the **RadEditor**’s paste functionality uses the browser’s DOM clipboard events.Therefore, any content pasted, is first processed by the browser. Images, HTML, MS Word, plain text etc., are data types that are first translated to HTML by the browser and then fetched viathe clipboard event’s data to the editor.
+Basically, the **RadEditor**’s paste functionality uses the browser’s DOM clipboard events.Therefore, any content pasted, is first processed by the browser. Images, HTML, MS Word, plain text etc., are data types that are first translated to HTML by the browser and then fetched via the clipboard event’s data to the editor.
 
 Subsequently, the editor can execute logic (Using the StripFormattingOptions Property)that only transforms the received HTML content to improve the markup, in order to facilitate further changes by the **RadEditor** tools. You can find a simple diagram of how pasting works in **Figure 1**. As you can see, the **RadEditor**’s pasting functionality heavily depends on the clipboard data provided by the browser.
 
