@@ -22,7 +22,7 @@ This article explains how **RadEditor** handles content pasted from MS Word, and
 
 ## Strip MS Word Content via Paste Tools
 
-**RadEditor** exposes two easy-to-use built-in tools, which enable end-users to get proper HTMLfrom pasted MS Word content - **Paste from Word** (in **Figure 1**) and	**Paste from Word, strip font**.
+**RadEditor** exposes two easy-to-use built-in tools, which enable end-users to get proper HTML from pasted MS Word content - **Paste from Word** (in **Figure 1**) and	**Paste from Word, strip font**.
 
 These tools are categorized as built-in clipboard tools. You can find more details about how they behave in the Using the Built-in Clipboard Tools section of the [Overview]({%slug editor/managing-content/pasting-content/overview%}) article.
 
