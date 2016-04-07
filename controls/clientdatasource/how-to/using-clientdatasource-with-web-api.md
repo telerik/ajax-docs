@@ -14,7 +14,7 @@ position: 0
 This article will illustrate how you can use the **RadClientDataSource** control with Web API. 
 
 
-You can download a fully runnable sample from [here](link).
+You can get a fully runnable sample from [here](http://www.telerik.com/support/code-library/radgrid---client-side-databinding-with-webapi).
 
 
 ## Retrieving data
