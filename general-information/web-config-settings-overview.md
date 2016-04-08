@@ -193,6 +193,8 @@ Here follows a list with all the available appSettings keys for the Telerik UI f
 
 * **Telerik.Web.CaptchaImageStorageProviderTypeName**—lets you set the RadCaptcha custom caching provider for the entire application. You can read more about using custom providers for RadCaptcha in the [Caching Provider]({%slug captcha/functionality/caching-provider%}) article. 
 
+* **Telerik.Web.CaptchaDenyAudioHandler**—lets you disabled requests to the built-in audio handler of **RadCaptcha**. Further details are available in [Optimizing RadTabStrip Performance]({%slug tabstrip/performance/optimizing-radtabstrip-performance%}) article.
+
 * **Telerik.Web.SkinsAssembly**—in order to load skins from an external assembly, you need to register its name via this key. You can read more about using external skins assemblies in the [How to Load Skins from External Assemblies]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/how-to-load-skins-from-external-assemblies%}) article and you may also find useful the [RadSkinManager]({%slug controls/radskinmanager%}) control. 
 
 * **Telerik.Web.UI.DialogParametersEncryptionKey**—lets you set a static key that RadEditor will use when deserializing its dialog parameters. By default, this key is randomly generated each time the application recycles. You can read more about its use in the [Cannot Deserialize Dialog Parameters. Invalid character in a Base-64 string]({%slug editor/troubleshooting/cannot-deserialize-dialog-parameters.-invalid-character-in-a-base-64-string.%}) troubleshooting article. 
@@ -231,6 +233,7 @@ Here follows a list with all the available appSettings keys for the Telerik UI f
   <add key="Telerik.StyleSheetManager.TelerikCdn.CombinedResource" value="disabled" />
         <add key="Telerik.Skin" value="Default" />
         <add key="Telerik.Web.CaptchaImageStorageProviderTypeName" value="MyCustomCaptchaStorageProvider" />
+        <add key="Telerik.Web.CaptchaDenyAudioHandler" value="true" />
         <add key="Telerik.Web.SkinsAssembly" value="MyCustomSkinsAssembly" />
         <add key="Telerik.Web.UI.DialogParametersEncryptionKey" value="TheseMustBe46Characters-abcdefghijklmnopqrstu" />
         <add key="Telerik.Web.UI.ScriptFolder" value="~/MyScripts/" />

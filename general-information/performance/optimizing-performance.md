@@ -68,6 +68,11 @@ Below you can find a list of performance optimization help articles for RadEdito
 
 You can read more information about optimization RadTreeView performance in [Optimizing RadTreeView Performance]({%slug treeview/troubleshooting/optimizing-radtreeview-performance %}) help article.
 
+## RadCaptcha
+
+You can disable **RadCaptcha** audio to eliminate requests to the built-in audio handler. You can find out how in the [Performance Optimization by Disabling Audio Handler]({%slug captcha/troubleshooting/optimize-application-performance-disable-audio%})
+
+
 ## RadComboBox
 
 Performance might degrade with lots of items and lots of combobox instances on the page. [Optimizing the Combobox]({%slug combobox/troubleshooting/optimizing-the-combobox%}) help article gives some hints how to achieve better performance.
