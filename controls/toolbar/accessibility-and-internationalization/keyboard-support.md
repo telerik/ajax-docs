@@ -10,60 +10,50 @@ position: 0
 
 # Keyboard Support
 
-A critical requirement for software accessibility is keyboard support as a complete alternative to pointing devices (mouse, etc.). Keyboard support is comprised of access keys, keyboard navigation, and keyboard shortcuts. RadMenu seamlessly switches between mouse and keyboard navigation, just like in desktop applications.
-
-Using the **AccessKey** property, you can associate an activation combination (access key) which moves focus to a particular button in the toolbar and enables keyboard navigation. When there are multiple tool bars on a given page, each of them may have a different activation combination.
-
-## Setting access keys
-
-**AccessKey** is a property of the **RadToolBarItem** class (the base class for **RadToolBarButton**, **RadToolBarDropDown**, and **RadToolBarSplitButton**). **AccessKey** sets the keyboard shortcut that can be used to move focus to a button in the toolbar. The value of the **AccessKey** property can only be a single character. When the user presses the [ALT] key in combination with the value specified by **AccessKey**, focus moves to the associated button. The user can then subsequently use the arrow keys for navigation. (See below.)
-
->note In Opera, access keys work by pressing Shift+ESC, then pressing the assigned access key.
->
+A critical requirement for software accessibility is keyboard support as a complete alternative to pointing devices (mouse, etc.). Keyboard support is comprised of navigation key, command key, keyboard navigation, and keyboard shortcuts. RadToolBar seamlessly switches between mouse and keyboard navigation.
 
 
-To set a keyboard shortcut to a menu item, simply set the **AccessKey** property to the desired key:
+## KeyboardNavigationSettings
+
+Setting the control's **KeyboardNavigationSettings**, allows you to associate an activation combination (**CommandKey** + **FocusKey**), which moves focus to a particular item of the RadToolBar and enables keyboard navigation. When there are multiple ToolBars on a given page, each of them may have a different activation combination.
+
+The **KeyboardNavigationSettings** exposes two properties to configure the keyboard combination that sets focus to the control: 
+
+* **FocusKey**: An upper-case letter or number.
+
+* **CommandKey**: [Ctrl] , [Alt] or [Shift].
+
+Pressing the keys set to these two properties at the same time places the focus on the ToolBar. The user can then use the arrow keys for navigation. 
+
+**Example 1**: Setting the KeyboardNavigationSettings for **RadToolBar**
 
 ````ASPNET
-<telerik:RadToolBar ID="RadToolBar1" runat="server" Skin="Outlook" OnButtonClick="RadToolBar1_ButtonClick">
-    <Items>
-        <telerik:RadToolBarButton runat="server" Text="Exit" AccessKey="X" />
-        <telerik:RadToolBarDropDown runat="server" Text="Open" AccessKey="O">
-            <Buttons>
-                <telerik:RadToolBarButton runat="server" AccessKey="B" Text="Browse">
-                </telerik:RadToolBarButton>
-                <telerik:RadToolBarButton runat="server" IsSeparator="True" Text="-">
-                </telerik:RadToolBarButton>
-            </Buttons>
-        </telerik:RadToolBarDropDown>
-        <telerik:RadToolBarSplitButton runat="server" Text="Create New" AccessKey="N" DefaultButtonIndex="0">
-            <Buttons>
-                <telerik:RadToolBarButton runat="server" Text="File" AccessKey="F" />
-                <telerik:RadToolBarButton runat="server" Text="Folder" AccessKey="D" />
-            </Buttons>
-        </telerik:RadToolBarSplitButton>
-    </Items>
+<telerik:RadToolBar ID="RadToolBar1" runat="server" >
+    <KeyboardNavigationSettings CommandKey="Alt" FocusKey="M" />
 </telerik:RadToolBar>
 ````
 
-## Keyboard navigation
+>note Note that in some browsers certain keyboard combinations are already occupied and used by the browser itself. 
+>
 
-Keyboard navigation is supported by using the [TAB] and arrow keys. Use the [TAB] key to move focus to the first button in the toolbar. Then use the arrow keys to move among the buttons.
 
 ## Moving through the buttons
 
-An alternative to arrow keys for moving forward and backward along the toolbar are the [TAB] and [SHIFT]+[TAB] key combinations:
+Keyboard navigation is supported by using the arrow keys. Use the [CommandKey] + [FocusKey] to move focus to the first button in the ToolBar. Then use the arrow keys to move among the buttons.
+![Arrows](images/arrows.png)
 
-* To move forward, use the [TAB] key.
-
-* To move backward, use the [SHIFT]+[TAB] key combination.
 
 ## Drop-down lists
 
-Drop-down lists are expanded using the arrow keys in the direction in which they expand: for example, in a horizontal toolbar, drop-down lists are expanded using the down arrow key. In a vertical toolbar, the right arrow key expands a drop-down list (unless right-to-left support is enabled, in which case the left arrow key expands a drop-down list).
+Drop-down lists are expanded using the arrow keys in the direction in which they expand: for example, in a horizontal ToolBar, drop-down lists are expanded using the [Down arrow key]. In a vertical ToolBar, the [Right arrow key] expands a drop-down list (unless right-to-left support is enabled, in which case the [Left arrow key] expands a drop-down list). Drop-down lists can also be expanded by using the [Space] key.
+![Arrows](images/expand-arrows.png) ![Space](images/space.png)
 
 Drop-down lists are contracted using the [ESC] key. They can also be contracted by navigating to the first item in the list and then using the arrow key in the opposite direction from the one that expands the list.
+![Escape](images/esc.png)
+
 
 ## Executing buttons
 
-When focus is on a button in the toolbar, pressing the [ENTER] key causes the button to execute (triggers the client- and server-side click events).
+When focus is on a button in the ToolBar, pressing the [ENTER] key causes the button to execute (triggers the client- and server-side click events):
+![Enter](images/enter.png)
+
