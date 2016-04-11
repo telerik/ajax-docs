@@ -12,26 +12,35 @@ position: 0
 
 
 
-This article demonstrates the usage and the advantages that the **RadTrewView** provides through its keyboard support. A critical requirement for software accessibility is keyboard support as a complete alternative to pointing devices (mouse, etc.). **RadTreeView** provides two aspects of keyboard support.
+This article demonstrates the usage and the advantages that the **RadTrewView** provides through its keyboard support. A critical requirement for software accessibility is keyboard support as a complete alternative to pointing devices (mouse, etc.). Keyboard support is comprised of command key, focus key, keyboard navigation and key commands.
 
-## Access Keys 
+**RadTreeView** provides two aspects of keyboard support:
 
-A key combination that allows the end-user to focus on the respective **RadTreeView** (e.g. Alt+W) and subsequently use the arrow keys for navigation. The access key is defined using the **AccessKey** property (you need to set **TabIndex** as well if you want to use **AccessKey**).
+## Focus the control 
 
-The **TabIndex** attribute (**RadTreeView** class) specifies the tab stop index of the **RadTreeView**, e.g. when set to 3 the user will have to press Tab three times to focus on the TreeView.
-
->note To focus the **RadTreeView** in Firefox use the **Shift + Alt + AccessKey** (or **Alt** + **AccessKey** for Chrome and Safari).
->
+A key combination that allows the end-user to focus on the respective **RadTreeView** and subsequently use the arrow keys for navigation. 
 
 
-**Example 1**: Setting the **TabIndex** and **AccessKey** properties for **RadTrewView**
+**Example 1**: Setting the KeyboardNavigationSettings for **RadTrewView**
 
 ````ASPNET
-<telerik:RadTreeView runat="server" TabIndex="1" AccessKey="W" ... /> </para>
+<telerik:RadTreeView ID="RadTreeView1" runat="server" >
+    <KeyboardNavigationSettings CommandKey="Alt" FocusKey="W" />
+</telerik:RadTreeView>
 ````
 
+The **KeyboardNavigationSettings** exposes two properties to configure the keyboard combination that sets focus to the control: 
+
+* **FocusKey**: An upper-case letter or number.
+
+* **CommandKey**: [Ctrl] , [Alt] or [Shift].
+
+Pressing the keys set to these two properties at the same time places the focus on the TreeView. The user can then use the arrow keys for navigation. 
 
 ![RadTreeView ArrowKey Navigation](images/treeview_keyboardsupport01g.gif)
+
+>note Note that in some browsers certain keyboard combinations are already occupied and used by the browser itself. 
+>
 
 ## Arrow Key Navigation and Key Commands
 
