@@ -13,7 +13,7 @@ position: 1
 
 A critical requirement for software accessibility is keyboard support as a complete alternative to pointing devices (mouse, etc.). Keyboard support is comprised of command key, focus key, and keyboard navigation. **RadNavigation** seamlessly switches between mouse and keyboard navigation.
 
-Setting the control's **KeyboardNavigationSettings**, allows you to associate an activation combination (**CommandKey** + **FocusKey**), which moves focus to the Navigation's first node and enables keyboard navigation. When there are multiple **RadNavigation** controls on a given page, each of them may have a different activation combination.
+Setting the control's **KeyboardNavigationSettings**, allows you to associate an activation combination (**CommandKey** + **FocusKey**), which moves focus to the **Navigation**'s first node and enables keyboard navigation. When there are multiple **RadNavigation** controls on a given page, each of them may have a different activation combination.
 
 ## Keyboard Navigation Settings
 
@@ -25,10 +25,9 @@ The **KeyboardNavigationSettings** exposes two properties to configure the keybo
 
 Pressing **CommandKey** + **FocusKey** sets the focus on the **RadNavigation**'s first node and enables keyboard navigation. 
 
->note In the browsers certain keyboard combinations are reserved and used as shortcuts. 
+>note Certain keyboard combinations are reserved and used as shortcuts in the browsers. 
 >
 
-![Keyboard Support](images/KeyboardSupport.png)
 
 ````ASP.NET
 <telerik:RadNavigation ID="RadTabStrip1" runat="server" RenderMode="Lightweight">
