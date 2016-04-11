@@ -11,7 +11,7 @@ position: 0
 # Keyboard Support
 
 
-A critical requirement for software accessibility is keyboard support as a complete alternative to pointing devices (mouse, etc.). Keyboard support is comprised of access keys, keyboard navigation, and keyboard shortcuts. RadTabStrip seamlessly switches between mouse and keyboard navigation, just like in desktop applications.
+A critical requirement for software accessibility is keyboard support as a complete alternative to pointing devices (mouse, etc.). Keyboard support is comprised of command key, focus key, and keyboard navigation. RadTabStrip seamlessly switches between mouse and keyboard navigation.
 
 Setting the control's **KeyboardNavigationSettings**, allows you to associate an activation combination (**CommandKey** + **FocusKey**), which moves focus to a particular tab and enables keyboard navigation. When there are multiple tabstrips on a given page, each of them may have a different activation combination.
 
@@ -21,7 +21,7 @@ The **KeyboardNavigationSettings** exposes two properties to configure the keybo
 
 * **FocusKey**: An upper-case letter or number.
 
-* **CommandKey**: [Ctrl] , [Alt] , [Shift] , or any combination of them.
+* **CommandKey**: [Ctrl] , [Alt] or [Shift].
 
 Pressing the keys set to these two properties at the same time places the focus on the TabStrip. The user can then use the arrow keys for navigation. 
 
@@ -60,9 +60,20 @@ Pressing the keys set to these two properties at the same time places the focus 
 
 ## Keyboard Navigation
 
-Once the TabStrip is focused by pressing [Tab] or [CommandKey] + [FocusKey] keyboard navigation is supported by using the arrow keys.
+Once the TabStrip is focused by pressing [CommandKey] + [FocusKey] keyboard navigation is supported by using the arrow keys:
 
-Child menu items are expanded by pressing [Enter].
+* Navigate among RadTabs using Left and Right arrows:
+![Left right arrows](images/left-right-arrows.png).
 
-Use the [ESC] key to go back one level.
+* Perform a click on the active RadTab and expand its children tabs (if any exist) by pressing Enter:
+![Enter](images/enter.png).
+
+* Navigate from parent tab to its children using Down arrow:
+![Down arrow](images/down-arrow.png).
+
+* Navigate back to the parent tab using Up arrow:
+![Up arrow](images/up-arrow.png).
+
+* Navigate among the children tabs using Left and Right arrows:
+![Left right arrows](images/left-right-arrows.png).
 
