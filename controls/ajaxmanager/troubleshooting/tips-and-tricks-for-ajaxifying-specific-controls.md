@@ -17,17 +17,15 @@ This article includes tips and tricks that can be helpful in common scenarios wh
 
 * [The usage of RadAjaxManager and RadAjaxPanel leads to reversed control's $create function execution order](#the-usage-of-radajaxmanager-and-radajaxpanel-leads-to-reversed-control's-$create-function-execution-order)
 
-* [Ajaxifying invisible controls](#ajaxifying-invisible-controls)
+* [Ajaxifying Invisible Controls](#ajaxifying-invisible-controls)
 
-* [Ajaxifying RadMultiPage and RadTabStrip controls](#ajaxifying-radmultipage-and-radtabstrip-controls)
+* [Ajaxifying RadMultiPage and RadTabStrip Controls](#ajaxifying-radmultipage-and-radtabstrip-controls)
 
-* [Ajaxifying RadDock](#ajaxifying-raddock)
-
-* [Ajaxifying container controls](#ajaxifying-container-controls)
+* [Ajaxifying Container Controls](#ajaxifying-container-controls)
 
 ## The usage of RadAjaxManager and RadAjaxPanel leads to reversed control's $create function execution order
 
-This way the execution order is different than the same in regular post back. For example if you have the code below, you could see that the**$create** functions for both inputs will execute in different order on **initial load** and after **AJAX request**:
+This way the execution order is different than the same in regular post back. For example if you have the code below, you could see that the **$create** functions for both inputs will execute in different order on **initial load** and after **AJAX request**:
 
 ````ASP.NET
 <telerik:RadCodeBlock ID="RCB1" runat="server">
@@ -91,7 +89,7 @@ Since Q1 2014 release of the controls the both cases presented above could be ha
 
 
 
-## Ajaxifying invisible controls
+## Ajaxifying Invisible Controls
 
 Note that you could not add control which is initially invisible on the page, to the **RadAjaxManager** settings. The initiator or the updated control should be always placed in a visible container so that the manager can locate it when necessary.
 
@@ -113,7 +111,7 @@ Note that you could not add control which is initially invisible on the page, to
 
 
 
-## Ajaxifying RadMultiPage and RadTabStrip controls
+## Ajaxifying RadMultiPage and RadTabStrip Controls
 
 Single **PageView** could not be added as AJAX initiator or updated control in the AJAX settings. The only possible approach is to add the whole **RadMultiPage** in the **RadAjaxManager** settings or wrap the whole control into **RadAjaxPanel** . When we set the **MultiPage** as an updated control, you should also include the **TabStrip** associated with it in the **AjaxSettings** .
 
@@ -154,11 +152,9 @@ Single **PageView** could not be added as AJAX initiator or updated control in t
 ````
 
 
+## Ajaxifying Container Controls
 
-## Ajaxifying RadDock
-
-The RadDock is not a standard control and you can't update only one **RadDock** separately. If you want to make an AJAX call you should update the parent **RadDockZone**.
-
-## Ajaxifying container controls
-
-Controls like **RadioButtonList** , **RadPane** , **RadDock** should be added to the **RadAjaxManager** settings except as AJAX initiator as **UpdatedControls** also. This is due to their nature of container controls.
+You should not directly ajaxify container controls like **RadWindow** , **RadDock** and **RadSplitter** but instead update only their content. More information on ajaxifying these controls is available in the following articles:
+* [How to Use RadWindow with AJAX]({%slug window/how-to/how-to-use-radwindow-with-ajax%})
+* [Placing RadDock In UpdatePanel]({%slug dock/troubleshooting/placing-raddock-in-updatepanel%})
+* [RadSplitter - AJAX updates]({%slug splitter/how-to/ajax-updates%})
