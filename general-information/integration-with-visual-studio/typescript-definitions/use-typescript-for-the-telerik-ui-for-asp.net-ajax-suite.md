@@ -74,7 +74,7 @@ The name of the JavaScript function should be set as a value to the event proper
 **Example 4**: Attaching an event handler via property.
 
 ````ASP.NET
-<telerik:RadWindow runat="server" ID="RadWindow1" Title="My RadWindow"
+<telerik:RadWindow RenderMode="Lightweight" runat="server" ID="RadWindow1" Title="My RadWindow"
 	OnClientShow="OnClientShowHandler" VisibleOnPageLoad="true">
 	<ContentTemplate>
 		Popup's Content

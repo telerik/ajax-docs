@@ -22,7 +22,7 @@ You can overcome this difficulty by casting the objects which hold references to
 
 ````JavaScript
 <telerik:RadScriptManager runat="server" ID="rsm1"></telerik:RadScriptManager>
-<telerik:RadWindow runat="server" ID="RadWindow1"></telerik:RadWindow>
+<telerik:RadWindow RenderMode="Lightweight" runat="server" ID="RadWindow1"></telerik:RadWindow>
 <script type="text/javascript">
     var oWnd = $find("RadWindow1");
     oWnd = $telerik.toWindow(oWnd);

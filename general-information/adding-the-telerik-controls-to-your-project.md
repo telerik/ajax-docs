@@ -77,7 +77,7 @@ You can add any Telerik Control manually to the page by following the instructio
 
 	**ASP.NET**
 
-		<telerik:RadScheduler ID="RadScheduler1" runat="server" />
+		<telerik:RadScheduler RenderMode="Lightweight" ID="RadScheduler1" runat="server" />
 
 >note AJAX-based controls like ours must be placed on the page after ScriptManager's declaration and inside the `<form>` tag.
 

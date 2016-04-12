@@ -30,7 +30,7 @@ MS AJAX exposes the [Sys.Application.findComponent](https://msdn.microsoft.com/l
 ````ASP.NET
 <telerik:RadPushButton runat="server" ID="RadButton1" Text="Button" OnClientClicked="showRadWindow" AutoPostBack="false" />
 
-<telerik:RadWindow runat="server" ID="RadWindow1">
+<telerik:RadWindow RenderMode="Lightweight" runat="server" ID="RadWindow1">
     <ContentTemplate>
         <p>Some content.</p>
     </ContentTemplate>
@@ -57,7 +57,7 @@ This means you can use the MS AJAX [$get()](https://msdn.microsoft.com/library/b
 ````ASP.NET
 <telerik:RadPushButton runat="server" ID="RadButton1" Text="Button" OnClientClicked="showRadWindow" AutoPostBack="false" />
 
-<telerik:RadWindow runat="server" ID="RadWindow1">
+<telerik:RadWindow RenderMode="Lightweight" runat="server" ID="RadWindow1">
     <ContentTemplate>
         <p>Some content.</p>
     </ContentTemplate>
@@ -76,7 +76,7 @@ This means you can use the MS AJAX [$get()](https://msdn.microsoft.com/library/b
 ````ASP.NET
 <telerik:RadPushButton runat="server" ID="RadButton1" Text="Button" OnClientClicked="showRadWindow" AutoPostBack="false" />
 
-<telerik:RadWindow runat="server" ID="RadWindow1">
+<telerik:RadWindow RenderMode="Lightweight" runat="server" ID="RadWindow1">
     <ContentTemplate>
         <p>Some content.</p>
     </ContentTemplate>
@@ -103,7 +103,7 @@ With the help of the [included jQuery]({%slug introduction/radcontrols-for-asp.n
 ````ASP.NET
 <telerik:RadPushButton runat="server" ID="RadButton1" Text="Button" OnClientClicked="showRadWindow" AutoPostBack="false" />
 
-<telerik:RadWindow runat="server" ID="RadWindow1">
+<telerik:RadWindow RenderMode="Lightweight" runat="server" ID="RadWindow1">
     <ContentTemplate>
         <p>Some content.</p>
     </ContentTemplate>
@@ -129,7 +129,7 @@ You can also use the `$telerik.findControl()` method that is exposed in the [Tel
 <telerik:RadPushButton runat="server" ID="RadButton1" Text="Button" OnClientClicked="showRadWindow" AutoPostBack="false" />
 
 <asp:Panel runat="server" ID="Panel1">
-    <telerik:RadWindow runat="server" ID="RadWindow1">
+    <telerik:RadWindow RenderMode="Lightweight" runat="server" ID="RadWindow1">
         <ContentTemplate>
             <p>Some content.</p>
         </ContentTemplate>
@@ -152,7 +152,7 @@ The client-side instances of the Telerik UI for ASP.NET AJAX controls are initia
 >caption Example 6: Using the Sys.Application.load event to get the instance.
 
 ````ASP.NET
-<telerik:RadWindow runat="server" ID="RadWindow1">
+<telerik:RadWindow RenderMode="Lightweight" runat="server" ID="RadWindow1">
     <ContentTemplate>
         <p>Some content.</p>
     </ContentTemplate>
@@ -171,7 +171,7 @@ The client-side instances of the Telerik UI for ASP.NET AJAX controls are initia
 >caption Example 7: Using server-side techniques to interact with a control's client-side instances.
 
 ````ASP.NET
-<telerik:RadWindow runat="server" ID="RadWindow1">
+<telerik:RadWindow RenderMode="Lightweight" runat="server" ID="RadWindow1">
     <ContentTemplate>
         <p>Some content.</p>
     </ContentTemplate>

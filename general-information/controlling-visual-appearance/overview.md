@@ -62,7 +62,7 @@ To set the skin in design time you need to follow these steps:
 
 To set the skin declaratively you need to set the **Skin** attribute of the control tag. Keep in mind that it is case-sensitive.
 
-`<telerik:RadSlider ID="RadSlider1" Skin="Outlook" runat="server" />`
+`<telerik:RadSlider RenderMode="Lightweight" ID="RadSlider1" Skin="Outlook" runat="server" />`
 
 ## Setting the skin from code-behind
 

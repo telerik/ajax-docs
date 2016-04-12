@@ -158,7 +158,7 @@ Use any of the approaches above.
 ````ASP.NET
 <telerik:RadScriptManager runat="server" ID="RadScriptManager1">
 </telerik:RadScriptManager>
-<telerik:RadComboBox runat="server" ID="RadComboBox1" Width="300px" Skin="Telerik">
+<telerik:RadComboBox RenderMode="Lightweight" runat="server" ID="RadComboBox1" Width="300px" Skin="Telerik">
    <Items>
        <telerik:RadComboBoxItem Text="ASP.NET AJAX UI Controls" />
        <telerik:RadComboBoxItem Text="WinForms UI Controls" />

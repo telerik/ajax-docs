@@ -19,7 +19,7 @@ Skins can be used along with ASP.NET themes.
 If you intend to use a built-in skin for your theme you need to set the Skin property of your control inside your *.skin file. For example if you have created a "MyTheme" theme and you wish to use the "Hay" skin of the slider add the following to the .skin file of your theme:
 
 ````ASP.NET
-<telerik:RadSlider runat="server" Skin="Silk" />
+<telerik:RadSlider RenderMode="Lightweight" runat="server" Skin="Silk" />
 ````
 
 Also don't forget the Register directive (you need only one per .skin file):
