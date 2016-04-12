@@ -17,12 +17,12 @@ position: 0
 To clone a Tree, use the **GetXml()** and **LoadXmlString()** methods of **RadTreeView**.
 
 ````ASPNET
-<telerik:RadTreeView ID="RadTreeView1" runat="server">
+<telerik:RadTreeView RenderMode="Lightweight" ID="RadTreeView1" runat="server">
     <Nodes>
         ...
     </Nodes>
 </telerik:RadTreeView>
-<telerik:RadTreeView ID="RadTreeView2" runat="server">
+<telerik:RadTreeView RenderMode="Lightweight" ID="RadTreeView2" runat="server">
 </telerik:RadTreeView>
 <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Button" />
 ````

@@ -31,7 +31,7 @@ From Q2 2013 RadTreeList could be bound to the SiteMapDataSource. When binding t
 Refer to the code snippet in the next paragraph:
 
 ````ASPNET
-<telerik:RadTreeList runat="server" ID="TreeList1" DataSourceID="SqlDataSource1"
+<telerik:RadTreeList RenderMode="Lightweight" runat="server" ID="TreeList1" DataSourceID="SqlDataSource1"
 	AutoGenerateColumns="false" AllowPaging="true" PageSize="3" DataKeyNames="EmployeeID"
 	ParentDataKeyNames="ReportsTo">
 	<Columns>
@@ -47,7 +47,7 @@ Refer to the code snippet in the next paragraph:
 		</telerik:TreeListBoundColumn>
 	</Columns>
 </telerik:RadTreeList>
-<telerik:RadTreeList runat="server" ID="TreeList2" AllowPaging="true" DataSourceID="XmlDataSource1"
+<telerik:RadTreeList RenderMode="Lightweight" runat="server" ID="TreeList2" AllowPaging="true" DataSourceID="XmlDataSource1"
 	PageSize="5" DataKeyNames="categoryID" ParentDataKeyNames="parentCategoryID"
 	AutoGenerateColumns="false">
 	<Columns>
@@ -55,7 +55,7 @@ Refer to the code snippet in the next paragraph:
 		</telerik:TreeListBoundColumn>
 	</Columns>
 </telerik:RadTreeList>
-<telerik:RadTreeList runat="server" ID="RadTreeList3" DataSourceID="ObjectDataSource1"
+<telerik:RadTreeList RenderMode="Lightweight" runat="server" ID="RadTreeList3" DataSourceID="ObjectDataSource1"
 	AllowPaging="true" PageSize="5" DataKeyNames="ID" ParentDataKeyNames="ParentID"
 	AutoGenerateColumns="false">
 	<Columns>
@@ -63,7 +63,7 @@ Refer to the code snippet in the next paragraph:
 		</telerik:TreeListBoundColumn>
 	</Columns>
 </telerik:RadTreeList>
-<telerik:RadTreeList ID="RadTreeList4" runat="server" DataSourceID="SiteMapDataSource1" AutoGenerateColumns="false">
+<telerik:RadTreeList RenderMode="Lightweight" ID="RadTreeList4" runat="server" DataSourceID="SiteMapDataSource1" AutoGenerateColumns="false">
 	<Columns>
 		<telerik:TreeListBoundColumn DataField="Description" HeaderText="Description" UniqueName="Description" ></telerik:TreeListBoundColumn>
 		<telerik:TreeListBoundColumn DataField="Key" HeaderText="Key" UniqueName="Key"></telerik:TreeListBoundColumn>

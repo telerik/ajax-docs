@@ -23,18 +23,18 @@ position: 0
 1. Define the respective edit and insert templates and assign appropriate commands for the buttons.
 
 ````ASPNET
-<telerik:RadDataForm ID="RadDataForm1"  DataSourceID="SqlDataSource1" DataKeyNames="ProductID" runat="server">
+<telerik:RadDataForm RenderMode="Lightweight" ID="RadDataForm1"  DataSourceID="SqlDataSource1" DataKeyNames="ProductID" runat="server">
     <ItemTemplate>
         ProductName:   '<%# Eval("ProductName") %>'
 		<br />
         UnitPrice: <%# Eval("UnitPrice") %>
 		<br />
         UnitsInStock: <%# Eval("UnitsInStock") %>
-        <telerik:RadButton ID="InitInsertButton" runat="server" ButtonType="SkinnedButton" CausesValidation="False" CommandName="InitInsert" Text="Insert" ToolTip="Insert" />
+        <telerik:RadButton RenderMode="Lightweight" ID="InitInsertButton" runat="server" ButtonType="SkinnedButton" CausesValidation="False" CommandName="InitInsert" Text="Insert" ToolTip="Insert" />
         <br />
-        <telerik:RadButton ID="EditButton" runat="server" ButtonType="SkinnedButton" CausesValidation="False" CommandName="Edit" Text="Edit" ToolTip="Edit" />
+        <telerik:RadButton RenderMode="Lightweight" ID="EditButton" runat="server" ButtonType="SkinnedButton" CausesValidation="False" CommandName="Edit" Text="Edit" ToolTip="Edit" />
         <br />
-        <telerik:RadButton ID="DeleteButton" runat="server" ButtonType="SkinnedButton" CausesValidation="False" CommandName="Delete" Text="Delete" ToolTip="Delete" />
+        <telerik:RadButton RenderMode="Lightweight" ID="DeleteButton" runat="server" ButtonType="SkinnedButton" CausesValidation="False" CommandName="Delete" Text="Delete" ToolTip="Delete" />
     </ItemTemplate>
     <EditItemTemplate>
         Edit product with ID: '<%# Eval("ProductID") %>'
@@ -43,12 +43,12 @@ position: 0
 		<asp:TextBox ID="ProductNameTextBox" Text='<%# Bind("ProductName") %>' runat="server" />
         <br />
         UnitPrice:
-		<telerik:RadNumericTextBox ID="UnitPriceTextBox" DbValue='<%# Bind("UnitPrice") %>' runat="server" />
+		<telerik:RadNumericTextBox RenderMode="Lightweight" ID="UnitPriceTextBox" DbValue='<%# Bind("UnitPrice") %>' runat="server" />
         <br />
         UnitsInStock:
-		<telerik:RadNumericTextBox ID="UnitsInStockTextBox" DbValue='<%# Bind("UnitsInStock") %>' runat="server" />
-        <telerik:RadButton ID="UpdateButton" runat="server" ButtonType="SkinnedButton" CommandName="Update" Text="Update" ToolTip="Update" />
-        <telerik:RadButton ID="CancelButton" runat="server" ButtonType="SkinnedButton" CausesValidation="False" CommandName="Cancel" Text="Cancel" ToolTip="Cancel" />
+		<telerik:RadNumericTextBox RenderMode="Lightweight" ID="UnitsInStockTextBox" DbValue='<%# Bind("UnitsInStock") %>' runat="server" />
+        <telerik:RadButton RenderMode="Lightweight" ID="UpdateButton" runat="server" ButtonType="SkinnedButton" CommandName="Update" Text="Update" ToolTip="Update" />
+        <telerik:RadButton RenderMode="Lightweight" ID="CancelButton" runat="server" ButtonType="SkinnedButton" CausesValidation="False" CommandName="Cancel" Text="Cancel" ToolTip="Cancel" />
     </EditItemTemplate>
     <InsertItemTemplate>
         Add New Record :
@@ -57,12 +57,12 @@ position: 0
 		<asp:TextBox ID="ProductNameTextBox" Text='<%# Bind("ProductName") %>' runat="server" />
         <br />
         UnitPrice:
-		<telerik:RadNumericTextBox ID="UnitPriceTextBox" Value='<%# Bind("UnitPrice") %>' runat="server" />
+		<telerik:RadNumericTextBox RenderMode="Lightweight" ID="UnitPriceTextBox" Value='<%# Bind("UnitPrice") %>' runat="server" />
         <br />
         UnitsInStock:
-		<telerik:RadNumericTextBox ID="UnitsInStockTextBox" Value='<%# Bind("UnitsInStock") %>' runat="server" />
-        <telerik:RadButton ID="PerformInsertButton" runat="server" ButtonType="SkinnedButton" CommandName="PerformInsert" Text="Insert" ToolTip="Insert" />
-        <telerik:RadButton ID="CancelButton" runat="server" ButtonType="SkinnedButton" CausesValidation="False" CommandName="Cancel" Text="Cancel" ToolTip="Cancel" />
+		<telerik:RadNumericTextBox RenderMode="Lightweight" ID="UnitsInStockTextBox" Value='<%# Bind("UnitsInStock") %>' runat="server" />
+        <telerik:RadButton RenderMode="Lightweight" ID="PerformInsertButton" runat="server" ButtonType="SkinnedButton" CommandName="PerformInsert" Text="Insert" ToolTip="Insert" />
+        <telerik:RadButton RenderMode="Lightweight" ID="CancelButton" runat="server" ButtonType="SkinnedButton" CausesValidation="False" CommandName="Cancel" Text="Cancel" ToolTip="Cancel" />
     </InsertItemTemplate>
 </telerik:RadDataForm>
 <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"

@@ -17,13 +17,13 @@ position: 5
 Sets the current page index for the respective **GridTableView** object. Can be used to control the active page currentlyviewed by the user.
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="True"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" AllowPaging="True"
     OnNeedDataSource="RadGrid1_NeedDataSource">
     <MasterTableView DataKeyNames="OrderID">
     </MasterTableView>
 </telerik:RadGrid>
 <br />
-<telerik:RadNumericTextBox ID="RadNumericTextBox1" runat="server" MinValue="1" MaxValue="9"
+<telerik:RadNumericTextBox RenderMode="Lightweight" ID="RadNumericTextBox1" runat="server" MinValue="1" MaxValue="9"
     Label="Go to page:">
     <NumberFormat DecimalDigits="0" />
 </telerik:RadNumericTextBox>

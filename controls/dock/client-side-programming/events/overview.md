@@ -48,7 +48,7 @@ To use these events, simply write a javascript function that can be called when 
 </script>
 <telerik:raddocklayout id="RadDockLayout1" runat="server">  
     <telerik:RadDockZone ID="RadDockZone1" runat="server">     
-    <telerik:RadDock ID="RadDock1" 
+    <telerik:RadDock RenderMode="Lightweight" ID="RadDock1" 
         runat="server" 
         Text="Undock, Expand/Collapse, and Close" 
         Title="Commands"

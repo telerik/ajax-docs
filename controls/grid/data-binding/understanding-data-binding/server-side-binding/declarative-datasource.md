@@ -111,7 +111,7 @@ For each field that links the detail table to its parent, you must add a **GridR
 The following declaration is the result of following the steps listed above:
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1">
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1">
   <MasterTableView DataKeyNames="CustomerID" DataSourceID="SqlDataSource1">
     <DetailTables>
       <telerik:GridTableView runat="server" DataKeyNames="OrderID" DataSourceID="SqlDataSource2">

@@ -19,7 +19,7 @@ position: 2
 The following example shows how to use this approach to use **RadTextBox** for entering Email addresses:
 
 ````ASPNET
-<telerik:RadTextBox ID="RadTextBox1" runat="server">
+<telerik:RadTextBox RenderMode="Lightweight" ID="RadTextBox1" runat="server">
 	</telerik:RadTextBox>
 	<asp:RegularExpressionValidator
 	id="emailValidator"

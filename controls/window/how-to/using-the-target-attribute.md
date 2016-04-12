@@ -30,13 +30,13 @@ Copy the following markup into your default.aspx source. Run the application and
 				<a href="http://www.yahoo.com" target="ContentWindow">Load Yahoo in Content Window</a>
 			</td>
 			<td id="ContentDiv" style="width: 213px">
-				<telerik:RadWindowManager ID="RadWindowManager1" runat="server" Skin="Vista" VisibleOnPageLoad="True">
+				<telerik:RadWindowManager RenderMode="Lightweight" ID="RadWindowManager1" runat="server" Skin="Vista" VisibleOnPageLoad="True">
 					<Windows>
-						<telerik:RadWindow OffsetElementID="NavigationDiv" runat="server" Width="200px" Height="200px"
+						<telerik:RadWindow RenderMode="Lightweight" OffsetElementID="NavigationDiv" runat="server" Width="200px" Height="200px"
 							Top="50px" ID="NavigationWindow" Style="display: none;" Behaviors="Default" InitialBehaviors="None"
 							Title="Navigation Window">
 						</telerik:RadWindow>
-						<telerik:RadWindow OffsetElementID="ContentDiv" runat="server" Height="400px" ID="ContentWindow"
+						<telerik:RadWindow RenderMode="Lightweight" OffsetElementID="ContentDiv" runat="server" Height="400px" ID="ContentWindow"
 							Style="display: none;" Behaviors="Default" InitialBehaviors="None" Title="Content Window">
 						</telerik:RadWindow>
 					</Windows>

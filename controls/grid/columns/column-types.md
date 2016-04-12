@@ -37,7 +37,7 @@ Explicitly-created columns (columns created in the **Property Builder** or at ru
 The following excerpt shows a **RadGrid** declaration with explicitly-created columns. This method of declaring the columns is called column binding:
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" runat="server">
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server">
   ...
   <MasterTableView DataSourceID="ProductsDataSource" TableLayout="Auto">
     ...

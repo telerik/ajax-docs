@@ -29,7 +29,7 @@ With RadTreeList you might want to provide the ability for multi-item selection.
 The below sample illustrates a simple usage of the above properties:
 
 ````ASPNET
-<telerik:RadTreeList ID="RadTreeList1" runat="server" AllowPaging="True" DataKeyNames="EmployeeID"
+<telerik:RadTreeList RenderMode="Lightweight" ID="RadTreeList1" runat="server" AllowPaging="True" DataKeyNames="EmployeeID"
 	DataSourceID="SqlDataSource1" ParentDataKeyNames="ReportsTo" AllowMultiItemSelection="True"
 	AutoGenerateColumns="false">
 	<Columns>

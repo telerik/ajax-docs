@@ -22,7 +22,7 @@ The following table lists the important **RadAsyncUpload** client-side methods:
 | **addFileInput** |none|none|Adds a new row to the **RadAsyncUpload** control.|
 
 ````ASPNET
-<telerik:RadAsyncUpload runat="server" id="RadAsyncUpload1" />
+<telerik:RadAsyncUpload RenderMode="Lightweight" runat="server" id="RadAsyncUpload1" />
 <input type="button" value="Add" onclick="myAdd()" />
 <script type="text/javascript">
     function myAdd() {
@@ -78,7 +78,7 @@ function ClearInvalidInputs() {
 >
 
 ````ASPNET
-<telerik:RadAsyncUpload runat="server" id="RadAsyncUpload1" OnClientAdded="addTitle" />
+<telerik:RadAsyncUpload RenderMode="Lightweight" runat="server" id="RadAsyncUpload1" OnClientAdded="addTitle" />
 <script type="text/javascript">
     function addTitle(RadAsyncUpload, args) {
         var row = args.get_row();

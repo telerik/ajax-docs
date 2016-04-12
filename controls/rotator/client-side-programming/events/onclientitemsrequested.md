@@ -27,7 +27,7 @@ This event can be used for executing custom code after the items of the RadRotat
 		eventLog.innerHTML = "A request for items had just successfully finished! The total count of the items now is: " + sender.get_items().length;
 	}
 </script>
-<telerik:RadRotator ID="RadRotator1" runat="server" Width="220px" Height="135px"
+<telerik:RadRotator RenderMode="Lightweight" ID="RadRotator1" runat="server" Width="220px" Height="135px"
 	ItemHeight="135" ItemWidth="110" CssClass="positionCenter" ScrollDuration="500"
 	OnClientItemsRequested="OnClientItemsRequested">
 	<WebServiceSettings Path="RotatorWebService.asmx" Method="GetRotatorData" />

@@ -36,7 +36,7 @@ The following application scenario shows an example of such scenario.
 	<ClientEvents />
 </telerik:RadClientDataSource>
 <br />
-<telerik:RadListBox Height="100px" TabIndex="1" runat="server" ID="ListBox1" ClientDataSourceID="CD1"
+<telerik:RadListBox RenderMode="Lightweight" Height="100px" TabIndex="1" runat="server" ID="ListBox1" ClientDataSourceID="CD1"
 	DataTextField="Name" DataValueField="Value" EnableLoadOnDemand="true">
 </telerik:RadListBox>
 ````

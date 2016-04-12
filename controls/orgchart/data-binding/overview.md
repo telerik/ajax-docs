@@ -43,7 +43,7 @@ The fastest and most simple way to bind the chart to a data source, is to simply
 2. **DataFieldParentID** - The name of the field in the data source that identifies the key field value of the parent node. The value of this field for the root should be null (table- or object-based data source) or the default value of the corresponding value type used (object-based data source).
 
 ````ASPNET
-<telerik:RadOrgChart runat="server" ID="RadOrgChart1" DataSource="RadOrgChartDataSource1"
+<telerik:RadOrgChart RenderMode="Lightweight" runat="server" ID="RadOrgChart1" DataSource="RadOrgChartDataSource1"
 	DataFieldID="ID" DataFieldParentId="ParentID" DataTextField="Text">
 </telerik:RadOrgChart>
 	

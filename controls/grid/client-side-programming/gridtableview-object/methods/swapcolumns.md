@@ -26,7 +26,7 @@ This method allows you to swap the columns with the specified UniqueName. The me
 ````
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="true" AllowSorting="true"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" AllowPaging="true" AllowSorting="true"
     AllowFilteringByColumn="true" PageSize="5">
     <MasterTableView ClientDataKeyNames="ProductID" CommandItemDisplay="Top">
         <Columns>

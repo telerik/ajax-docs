@@ -32,7 +32,7 @@ The event handler receives two arguments:
 The following example uses the **OnPopupClosing** event to prevent the popup from closing if nothing is selected:
 
 ````ASPNET
-<telerik:RadDatePicker ID="RadDatePicker1" runat="server">
+<telerik:RadDatePicker RenderMode="Lightweight" ID="RadDatePicker1" runat="server">
     <Calendar DayNameFormat="FirstLetter"
            UseColumnHeadersAsSelectors="False"
            UseRowHeadersAsSelectors="False">

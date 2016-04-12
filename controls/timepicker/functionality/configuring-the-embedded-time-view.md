@@ -26,7 +26,7 @@ By default, the embedded **RadTimeView** control that the **RadTimePicker** cont
 You can set these properties at design time by expanding the **TimeView** property:
 
 ````ASPNET
-<telerik:RadTimePicker ID="RadTimePicker1" runat="server" Skin="Default">
+<telerik:RadTimePicker RenderMode="Lightweight" ID="RadTimePicker1" runat="server" Skin="Default">
     <TimeView Skin="Default"
         ShowHeader="False"
         StartTime="08:00:00"
@@ -122,7 +122,7 @@ Here is how a configured **RadTimePicker** should look like
 To enable scrolling for the **TimeView** you can set its Width and Height properties:
 
 ````ASPNET
-<telerik:RadTimePicker runat="server" ID="RadTimePicker2">
+<telerik:RadTimePicker RenderMode="Lightweight" runat="server" ID="RadTimePicker2">
     <TimeView Width="100px" Height="200px" Interval="00:15:00"
     Columns="5"></TimeView>
 </telerik:RadTimePicker>

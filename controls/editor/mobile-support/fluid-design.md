@@ -48,7 +48,7 @@ You can set the **Width** and **Height** properties of the **RadEditor** in **pe
 </script>
 
 <div style="width: 70%; height: 70%;">
-	<telerik:RadEditor runat="server" ID="RadEditor1" Width="100%" Height="100%"></telerik:RadEditor>
+	<telerik:RadEditor RenderMode="Lightweight" runat="server" ID="RadEditor1" Width="100%" Height="100%"></telerik:RadEditor>
 </div>
 ````
 

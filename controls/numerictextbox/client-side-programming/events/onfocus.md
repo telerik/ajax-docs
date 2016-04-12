@@ -28,7 +28,7 @@ Two parameters are passed to the event handler:
 The following example uses the **OnFocus** event to show an alert:
 
 ````ASPNET
-<telerik:RadNumericTextBox ID="RadNumericTextBox1" runat="server">
+<telerik:RadNumericTextBox RenderMode="Lightweight" ID="RadNumericTextBox1" runat="server">
 	<ClientEvents OnFocus="Focus" />
 </telerik:RadNumericTextBox>
 ````

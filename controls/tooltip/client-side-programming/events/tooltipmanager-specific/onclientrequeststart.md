@@ -35,7 +35,7 @@ The **OnClientRequestStart** event is fired when the call to the WebService or t
         }
     }
 </script>
-<telerik:RadToolTipManager ID="RadToolTipManager1" OnClientRequestStart="OnClientRequestStart">
+<telerik:RadToolTipManager RenderMode="Lightweight" ID="RadToolTipManager1" OnClientRequestStart="OnClientRequestStart">
     <WebServiceSettings Method="GetToolTipData" Path="ToolTipWebService.asmx" />
 </telerik:RadToolTipManager>
 ````

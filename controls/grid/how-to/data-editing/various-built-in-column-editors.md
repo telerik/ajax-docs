@@ -58,7 +58,7 @@ Here are the relevant code snippets from the online demo:
     <NumberFormat GroupSeparator="" />
   </NumericTextBox>
 </telerik:GridNumericColumnEditor>
-<telerik:RadGrid DataSourceID="SqlDataSource1" Skin="Vista" AllowAutomaticDeletes="true"
+<telerik:RadGrid RenderMode="Lightweight" DataSourceID="SqlDataSource1" Skin="Vista" AllowAutomaticDeletes="true"
   AllowAutomaticInserts="true" AllowAutomaticUpdates="true" ID="RadGrid1" runat="server">
   <MasterTableView DataKeyNames="EmployeeID" Width="100%" CommandItemDisplay="Top"
     AutoGenerateColumns="false">

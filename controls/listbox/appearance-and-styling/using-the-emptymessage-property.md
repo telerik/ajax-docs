@@ -31,7 +31,7 @@ End Sub
 ## Setting the EmptyMessage inline
 
 ````ASPNET	    
-<telerik:RadListBox ID="RadListBox2" runat="server"
+<telerik:RadListBox RenderMode="Lightweight" ID="RadListBox2" runat="server"
 	EmptyMessage="No items added">
 </telerik:RadListBox> 	
 ````
@@ -52,7 +52,7 @@ To control the appearance of the **EmptyMessage** text you can add and change th
 In addition you can define your own template on how the empty message should look like by using the <**EmptyMessageTemplate**> tag. Just like the ItemTemplate you can place any html / asp.net controls in it and it will be shown when the RadListBox is empty. Here is an example:
 
 ````XML	        
-<telerik:RadListBox ID="RadListBox1" runat="server"
+<telerik:RadListBox RenderMode="Lightweight" ID="RadListBox1" runat="server"
    Height="180px"         
    AllowTransferOnDoubleClick="true"
    Skin="Vista"
@@ -64,7 +64,7 @@ In addition you can define your own template on how the empty message should loo
 	   <telerik:RadListBoxItem Text="Grapefruit" />
    </Items>
 </telerik:RadListBox>
-<telerik:RadListBox ID="RadListBox2" runat="server"
+<telerik:RadListBox RenderMode="Lightweight" ID="RadListBox2" runat="server"
    Height="180px" >
    <EmptyMessageTemplate>
 	   <img src="empty-cart.png" alt="No items selected">

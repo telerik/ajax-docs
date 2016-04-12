@@ -31,7 +31,7 @@ Below are some sample settings of the **FormatSets** collection:![radeditor-form
 ## Using the FormatSets Collection Declaratively
 
 ````ASP.NET
-<telerik:RadEditor runat="server" ID="RadEditor1">
+<telerik:RadEditor RenderMode="Lightweight" runat="server" ID="RadEditor1">
 	<FormatSets>
 		<telerik:EditorFormatSet Tag="H1" Title="<h1 style='color: green'>green header 1</h1>">
 			<Attributes>

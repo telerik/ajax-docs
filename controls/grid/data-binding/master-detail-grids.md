@@ -56,7 +56,7 @@ The following example shows how the screenshot above was generated:
     </telerik:AjaxSetting>
   </AjaxSettings>
 </telerik:RadAjaxManager>
-<telerik:RadGrid ID="RadGrid1" runat="server" AllowSorting="true" AllowPaging="true"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" AllowSorting="true" AllowPaging="true"
   PageSize="5" DataSourceID="SqlDataSource1" GridLines="None" Skin="Web20" Width="95%">
   <ClientSettings AllowKeyboardNavigation="true" EnablePostBackOnRowClick="true">
     <Selecting AllowRowSelect="true" />
@@ -67,7 +67,7 @@ The following example shows how the screenshot above was generated:
 <br />
 <br />
 <strong>Orders:</strong>
-<telerik:RadGrid ID="RadGrid2" ShowStatusBar="true" runat="server" AllowSorting="True"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid2" ShowStatusBar="true" runat="server" AllowSorting="True"
   AllowPaging="True" PageSize="5" DataSourceID="SqlDataSource2" GridLines="None"
   Skin="Web20" Width="95%" HorizontalAlign="NotSet">
   <MasterTableView Width="100%" AutoGenerateColumns="False" DataKeyNames="OrderID"
@@ -92,7 +92,7 @@ The following example shows how the screenshot above was generated:
 <br />
 <br />
 <strong>Orders details:</strong>
-<telerik:RadGrid ID="RadGrid3" ShowStatusBar="true" runat="server" AllowSorting="True"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid3" ShowStatusBar="true" runat="server" AllowSorting="True"
   AllowPaging="True" PageSize="5" DataSourceID="SqlDataSource3" GridLines="None"
   Skin="Web20" Width="95%" HorizontalAlign="NotSet">
   <MasterTableView Width="100%" AutoGenerateColumns="False" DataKeyNames="OrderID"

@@ -23,7 +23,7 @@ The following steps describe how to implement Day Templates:
     
     2. In the collection editor, create individual template types for each type of day you want to customize, giving each unique ID. The following example shows the result of this step:
         ````ASPNET
-        <telerik:RadCalendar ID="RadCalendar1" runat="server" AutoPostBack="true" Skin="Special"
+        <telerik:RadCalendar RenderMode="Lightweight" ID="RadCalendar1" runat="server" AutoPostBack="true" Skin="Special"
                EnableEmbeddedSkins="false" EnableEmbeddedBaseStylesheet="false" EnableMonthYearFastNavigation="false" DayNameFormat="Short"
                ShowRowHeaders="false" ShowOtherMonthsDays="false" OnDefaultViewChanged="RadCalendar1_DefaultViewChanged">
                <CalendarDayTemplates>
@@ -45,7 +45,7 @@ The following steps describe how to implement Day Templates:
     
     2. Drag controls from the toolbox onto the template design surface and set their properties to create the templates:
         ````ASPNET
-        <telerik:RadCalendar ID="RadCalendar1" runat="server" AutoPostBack="true" Skin="Special"
+        <telerik:RadCalendar RenderMode="Lightweight" ID="RadCalendar1" runat="server" AutoPostBack="true" Skin="Special"
                EnableEmbeddedSkins="false" EnableEmbeddedBaseStylesheet="false" EnableMonthYearFastNavigation="false" DayNameFormat="Short"
                ShowRowHeaders="false" ShowOtherMonthsDays="false" OnDefaultViewChanged="RadCalendar1_DefaultViewChanged">
                 <CalendarDayTemplates>
@@ -80,7 +80,7 @@ The following steps describe how to implement Day Templates:
 
     1. You can define the special days at design time using the [RadCalendarDay Collection Editor]({%slug calendar/design-time/radcalendarday-collection-editor%}). For each special day you add, in addition to any other properties, set the **TemplateID** property to the ID of the template you want to assign to that special day:
         ````ASPNET
-        <telerik:RadCalendar ID="RadCalendar1" runat="server" AutoPostBack="true" Skin="Special"
+        <telerik:RadCalendar RenderMode="Lightweight" ID="RadCalendar1" runat="server" AutoPostBack="true" Skin="Special"
                EnableEmbeddedSkins="false" EnableEmbeddedBaseStylesheet="false" EnableMonthYearFastNavigation="false" DayNameFormat="Short"
                ShowRowHeaders="false" ShowOtherMonthsDays="false" OnDefaultViewChanged="RadCalendar1_DefaultViewChanged">
                <SpecialDays>

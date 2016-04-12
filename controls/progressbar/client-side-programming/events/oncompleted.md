@@ -21,7 +21,7 @@ The client-side **OnCompleted** event handler receives one argument:
 >caption Example 1: Handle the **RadProgressBar**'s client-side **Completed** event.
 
 ````ASP.NET
-<telerik:RadProgressBar runat="server" ID="RadProgressBar5" Value="30">
+<telerik:RadProgressBar RenderMode="Lightweight" runat="server" ID="RadProgressBar5" Value="30">
 	<ClientEvents OnCompleted="onCompleted"/>
 </telerik:RadProgressBar>
 <asp:Button ID="Button3" runat="server" Text="Change Value" OnClientClick="updateValue(); return false;" />

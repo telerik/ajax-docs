@@ -24,7 +24,7 @@ position: 1
 	</ToggleStates>
 </telerik:RadToggleButton>
 <br />
-<telerik:RadButton ID="RadButton1" runat="server" Text="RadButton" />
+<telerik:RadButton RenderMode="Lightweight" ID="RadButton1" runat="server" Text="RadButton" />
 ```` 
 
 @[template](/_templates/button/distorted-appearance.md#cause-resolve "control: RadToggleButton")

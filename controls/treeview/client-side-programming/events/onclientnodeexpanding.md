@@ -35,7 +35,7 @@ The event handler receives parameters:
 The example below shows how to prevent expanding a "Recent Searches" node. Note that the **OnClientNodeExpanded** event does not fire when the expand (plus) button is clicked.
 
 ````ASPNET	
-<telerik:RadTreeView ID="RadTreeView1" runat="server" AllowNodeEditing="True" 
+<telerik:RadTreeView RenderMode="Lightweight" ID="RadTreeView1" runat="server" AllowNodeEditing="True" 
                      OnClientNodeExpanded="ClientNodeExpanded"
                      OnClientNodeExpanding="ClientNodeExpanding">
 </telerik:RadTreeView>

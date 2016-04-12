@@ -30,7 +30,7 @@ The following example uses the **OnClientResizeStart** event handler to update a
 </script>
 <telerik:RadDockLayout ID="RadDockLayout1" runat="server">
 	<telerik:RadDockZone ID="RadDockZone1" runat="server" Height="200px" Width="200px">
-		<telerik:RadDock ID="RadDock1" runat="server" Resizable="true" OnClientResizeStart="OnClientResizeStart"
+		<telerik:RadDock RenderMode="Lightweight" ID="RadDock1" runat="server" Resizable="true" OnClientResizeStart="OnClientResizeStart"
 			Height="100px" Width="200px" />
 	</telerik:RadDockZone>
 </telerik:RadDockLayout>

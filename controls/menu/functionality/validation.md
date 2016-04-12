@@ -19,7 +19,7 @@ You can use the built in ASP.NET validation with **RadMenu**. The menu can trigg
 By default, all validators on the Web page must be successful before the postback can occur. You can limit the controls that must be validated when the menu performs a post-back, while still allowing other controls on the Web page to be validated, by using **Validation Groups**. The validator controls have a **ValidationGroup** property. The menu also has a **ValidationGroup** property. The menu only causes validation by those validators whose **ValidationGroup** property matches the **ValidationGroup** property of the menu. (The reason the default behavior is for all validators to execute on post-back is because the default value of the **ValidationGroup** property on both **Radmenu** and validators is an empty string.)
 
 ````ASP.NET
-<telerik:RadMenu runat="server" ID="RadMenu1" Skin="Inox" ValidationGroup="LoginValidationGroup"
+<telerik:RadMenu RenderMode="Lightweight" runat="server" ID="RadMenu1" Skin="Inox" ValidationGroup="LoginValidationGroup"
     CausesValidation="True" OnItemClick="RadMenu1_ItemClick">
     <Items>
         <telerik:RadMenuItem Text="Products">

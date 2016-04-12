@@ -15,7 +15,7 @@ Since Q1 2012 the **RadFileExplorer** offers the Thumbnails Explorer mode. This 
 You can enable this mode by setting the **ExplorerMode** property to **Thumbnails**, e.g.
 
 ````ASP.NET
-<telerik:RadFileExplorer runat="server" ID="FileExplorer1" ExplorerMode="Thumbnails"></telerik:RadFileExplorer>
+<telerik:RadFileExplorer RenderMode="Lightweight" runat="server" ID="FileExplorer1" ExplorerMode="Thumbnails"></telerik:RadFileExplorer>
 ````
 
 ![radfileexplorer-thumbnails-mode-preview](images/radfileexplorer-thumbnails-mode-preview.png)

@@ -27,7 +27,7 @@ Another item gets selected.
 Items have identical values. On blur or postback the RadComboBox searches for the first Item with the selected value and selects it.
 
 ````ASPNET
-<telerik:RadComboBox ID="RadComboBox1" runat="server">
+<telerik:RadComboBox RenderMode="Lightweight" ID="RadComboBox1" runat="server">
    <Items>
 	   <telerik:RadComboBoxItem Text="Item 1" Value="1" />
 	   <telerik:RadComboBoxItem Text="Item 2" Value="1" />
@@ -41,7 +41,7 @@ Items have identical values. On blur or postback the RadComboBox searches for th
 The same behavior will manifest when the items are having the same Text and no Values:
 
 ````ASPNET
-<telerik:RadComboBox ID="RadComboBox1" runat="server">
+<telerik:RadComboBox RenderMode="Lightweight" ID="RadComboBox1" runat="server">
    <Items>
 	   <telerik:RadComboBoxItem Text="Item" />
 	   <telerik:RadComboBoxItem Text="Item" />

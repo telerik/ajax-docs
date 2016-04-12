@@ -48,7 +48,7 @@ if (navigateUrl && navigateUrl != "#")
  }
 }
 </script>
-<telerik:RadTabStrip ID="RadTabStrip1" runat="server" OnClientTabSelecting="OnClientTabSelecting" ... /> 	 
+<telerik:RadTabStrip RenderMode="Lightweight" ID="RadTabStrip1" runat="server" OnClientTabSelecting="OnClientTabSelecting" ... /> 	 
 ````
 
 

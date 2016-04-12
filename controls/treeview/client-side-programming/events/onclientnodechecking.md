@@ -31,7 +31,7 @@ The event handler receives parameters:
 The example below shows how to cancel the event if the category for the node is "NonCheckable". Note that the **OnClientNodeChecked** event does not fire if set_cancel(true) is called.
 
 ````ASPNET
-<telerik:RadTreeView ID="RadTreeView1" runat="server" CheckBoxes="true" OnClientNodeChecked="ClientNodeChecked"
+<telerik:RadTreeView RenderMode="Lightweight" ID="RadTreeView1" runat="server" CheckBoxes="true" OnClientNodeChecked="ClientNodeChecked"
                                        OnClientNodeChecking="ClientNodeChecking">
 </telerik:RadTreeView>
 ````

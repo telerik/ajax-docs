@@ -22,7 +22,7 @@ Once the **UpdateCommand** event of RadTreeList is fired, you can access the **T
 
 
 ````ASPNET
-<telerik:RadTreeList ID="RadTreeList1" runat="server" DataKeyNames="EmployeeID" ParentDataKeyNames="ReportsTo"
+<telerik:RadTreeList RenderMode="Lightweight" ID="RadTreeList1" runat="server" DataKeyNames="EmployeeID" ParentDataKeyNames="ReportsTo"
 	AutoGenerateColumns="false" DataSourceID="SqlDataSource1" OnUpdateCommand="RadTreeList1_UpdateCommand">
 	<Columns>
 		<telerik:TreeListBoundColumn DataField="EmployeeID" HeaderText="EmployeeID" UniqueName="EmployeeID"
@@ -60,7 +60,7 @@ Once the **UpdateCommand** event of RadTreeList is fired, you can access the **T
 						Home Phone:
 					</td>
 					<td>
-						<telerik:RadMaskedTextBox ID="RadMaskedTextBox1" runat="server" SelectionOnFocus="SelectAll"
+						<telerik:RadMaskedTextBox RenderMode="Lightweight" ID="RadMaskedTextBox1" runat="server" SelectionOnFocus="SelectAll"
 							TextWithLiterals='<%# Bind("HomePhone") %>'  Mask="(###) ###-####">
 						</telerik:RadMaskedTextBox>
 					</td>
@@ -70,7 +70,7 @@ Once the **UpdateCommand** event of RadTreeList is fired, you can access the **T
 						Hire Date:
 					</td>
 					<td>
-						<telerik:RadDatePicker ID="RadDatePicker1" DbSelectedDate='<%# Bind("HireDate") %>'
+						<telerik:RadDatePicker RenderMode="Lightweight" ID="RadDatePicker1" DbSelectedDate='<%# Bind("HireDate") %>'
 							runat="server">
 						</telerik:RadDatePicker>
 					</td>
@@ -150,7 +150,7 @@ This is also identical with inserting values using a WebUserControl. Once you ge
 
 
 ````ASPNET
-<telerik:RadTreeList ID="RadTreeList2" runat="server" DataKeyNames="EmployeeID" ParentDataKeyNames="ReportsTo"
+<telerik:RadTreeList RenderMode="Lightweight" ID="RadTreeList2" runat="server" DataKeyNames="EmployeeID" ParentDataKeyNames="ReportsTo"
 AutoGenerateColumns="false" EditMode="EditForms" DataSourceID="SqlDataSource1" OnUpdateCommand="RadTreeList2_UpdateCommand">
 	<Columns>
 		<telerik:TreeListBoundColumn DataField="EmployeeID" HeaderText="EmployeeID" UniqueName="EmployeeID"
@@ -263,7 +263,7 @@ Again, you can configure the user control to implement the IBindable interface i
 			Home Phone:
 		</td>
 		<td>
-			<telerik:RadMaskedTextBox ID="RadMaskedTextBox1" runat="server" SelectionOnFocus="SelectAll"
+			<telerik:RadMaskedTextBox RenderMode="Lightweight" ID="RadMaskedTextBox1" runat="server" SelectionOnFocus="SelectAll"
 				TextWithLiterals='<%# DataBinder.Eval( Container, "DataItem.HomePhone") %>' Mask="(###) ###-####">
 			</telerik:RadMaskedTextBox>
 		</td>
@@ -273,7 +273,7 @@ Again, you can configure the user control to implement the IBindable interface i
 			Hire Date:
 		</td>
 		<td>
-			<telerik:RadDatePicker ID="RadDatePicker1" DbSelectedDate='<%# DataBinder.Eval( Container, "DataItem.HireDate") %>'
+			<telerik:RadDatePicker RenderMode="Lightweight" ID="RadDatePicker1" DbSelectedDate='<%# DataBinder.Eval( Container, "DataItem.HireDate") %>'
 				runat="server">
 			</telerik:RadDatePicker>
 		</td>

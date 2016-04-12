@@ -15,10 +15,10 @@ The **RadWindow** moves its contents in the DOM when it is opened - i.e. control
 There is an easy fix that causes the **RadEditor** to reattach its handlers and start functioning again - this is done by calling its **onParentNodeChanged()** method when you move it, which, in this case, is the **OnClientShow** event of the **RadWindow**:
 
 ````ASP.NET
-<telerik:RadWindow runat="server" ID="RadWindowWithEditor" AutoSize="true" OnClientShow="fixEditor"
+<telerik:RadWindow RenderMode="Lightweight" runat="server" ID="RadWindowWithEditor" AutoSize="true" OnClientShow="fixEditor"
 	OpenerElementID="Button5">
 	<ContentTemplate>
-		<telerik:RadEditor runat="server" ID="RadEditor1" Width="700px" Height="300px">
+		<telerik:RadEditor RenderMode="Lightweight" runat="server" ID="RadEditor1" Width="700px" Height="300px">
 			<Content>
 				Lorem ipsum dolor sit amet
 			</Content>

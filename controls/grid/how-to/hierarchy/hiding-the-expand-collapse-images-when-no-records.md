@@ -29,7 +29,7 @@ Below is the code of a simple demo with two level hierarchy:
 
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" DataSourceID="SqlDataSource1" runat="server" Width="95%"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" DataSourceID="SqlDataSource1" runat="server" Width="95%"
   AutoGenerateColumns="False" PageSize="3" AllowPaging="True" OnPreRender="RadGrid1_PreRender">
   <MasterTableView DataSourceID="SqlDataSource1" DataKeyNames="CustomerID" Width="100%"
     HierarchyLoadMode="ServerBind">

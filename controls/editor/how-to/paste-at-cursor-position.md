@@ -35,7 +35,7 @@ Enter text here:
 <asp:Button ID="Button1" Text="paste at cursor position" OnClientClick="pasteAtCursorPos(); return false;" runat="server" />
 <br />
 Type text, select content or move the cursor in the editor and click the button again
-<telerik:RadEditor ID="RadEditor1" runat="server" OnClientSelectionChange="OnClientSelectionChange">
+<telerik:RadEditor RenderMode="Lightweight" ID="RadEditor1" runat="server" OnClientSelectionChange="OnClientSelectionChange">
 	<Content>
 		<p>paragraph 1</p>
 		<p>paragraph two</p>

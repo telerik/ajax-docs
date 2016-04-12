@@ -31,7 +31,7 @@ The event handler function receives two arguments:
 	* **Index** - the index of the clicked button in its containing group.
 
 ````ASPNET
-<telerik:RadRibbonBar ID="RadRibbonBar1" runat="server" OnSplitButtonClick="RadRibbonBar1_SplitButtonClick">
+<telerik:RadRibbonBar RenderMode="Lightweight" ID="RadRibbonBar1" runat="server" OnSplitButtonClick="RadRibbonBar1_SplitButtonClick">
     <telerik:RibbonBarTab Text="Home">
         <telerik:RibbonBarGroup Text="Image">
             <Items>

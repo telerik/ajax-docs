@@ -19,7 +19,7 @@ position: 2
 The declaration of the **RadTreeView** object includes no **DataSourceID** property or <*Items*> section:
 
 ````ASPNET
-<telerik:RadTreeView ID="RadTreeView1" runat="server" Skin="WebBlue" OnNodeDataBound="RadTreeView1_NodeDataBound">
+<telerik:RadTreeView RenderMode="Lightweight" ID="RadTreeView1" runat="server" Skin="WebBlue" OnNodeDataBound="RadTreeView1_NodeDataBound">
 </telerik:RadTreeView>
 ````
 

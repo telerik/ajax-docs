@@ -48,7 +48,7 @@ The event handler receives two arguments:
 	</DataSource>
 </telerik:RadClientDataSource>
 
-<telerik:RadTileList runat="server" ID="RadTileList1" Height="400"
+<telerik:RadTileList RenderMode="Lightweight" runat="server" ID="RadTileList1" Height="400"
 	ClientDataSourceID="RadClientDataSource1" OnClientTileCreating="OnClientTileCreating">
 	<DataBindings>
 		<CommonTileBinding TileType="RadTextTile" DataNameField="ProductID" DataTitleTextField="UnitsInStock" />

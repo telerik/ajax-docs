@@ -16,7 +16,7 @@ You can enable keyboard navigation in the **RadLightBox** control by setting the
 
 * **Access Keys**: An access key is a key combination (e.g. Ctrl+Y) that lets the user move focus to the LightBox control and subsequently use the Left and Rigth arrow keys for navigation. The access key is defined using the **AccessKey** property. For example, setting the **AccessKey** property to "Y" enables users to move focus to the LightBox by typing Ctrl+Y.
 	````ASP.NET
-	<telerik:RadLightBox ID="RadLightBox1" runat="server" AccessKey="Y">
+	<telerik:RadLightBox RenderMode="Lightweight" ID="RadLightBox1" runat="server" AccessKey="Y">
 		<ClientSettings AllowKeyboardNavigation="true">
 			<ClientEvents />
 		</ClientSettings>

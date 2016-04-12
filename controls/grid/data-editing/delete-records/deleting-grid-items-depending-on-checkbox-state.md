@@ -21,7 +21,7 @@ The default delete functionality for each row through **DeleteColumn** button is
 
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" Style="z-index: 101; left: 48px; position: absolute;
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" Style="z-index: 101; left: 48px; position: absolute;
   top: 32px" runat="server" AutoGenerateColumns="False" AllowSorting="True" PageSize="13"
   AllowPaging="True">
   <MasterTableView>

@@ -22,7 +22,7 @@ To create templates for the header and footer, right click on the **RadCalendar*
 The following code shows a **RadCalendar** definition with header and footer template definitions:
 
 ````ASPNET
-<telerik:RadCalendar id="RadCalendar1" runat="server">
+<telerik:RadCalendar RenderMode="Lightweight" id="RadCalendar1" runat="server">
     <HeaderTemplate>
         <asp:Image id="HeaderImage" runat="server" Width="100%" ImageUrl="Images/spring_header.gif"></asp:Image>
     </HeaderTemplate>

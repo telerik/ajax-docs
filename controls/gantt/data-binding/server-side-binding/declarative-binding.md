@@ -27,7 +27,7 @@ The steps listed below demonstrate how to bind the control using **SqlDataSource
 After performing the above steps you should get a configuration similar to the below provided.
 
 ````ASP.NET
-<telerik:RadGantt ID="RadGantt1" runat="server" DataSourceID="SqlDataSource1" DependenciesDataSourceID="SqlDataSource2">
+<telerik:RadGantt RenderMode="Lightweight" ID="RadGantt1" runat="server" DataSourceID="SqlDataSource1" DependenciesDataSourceID="SqlDataSource2">
     <DataBindings>
         <TasksDataBindings IdField="ID" ParentIdField="ParentID" StartField="Start" EndField="End" TitleField="Title" PercentCompleteField="PercentComplete" />
         <DependenciesDataBindings TypeField="Type" IdField="ID" PredecessorIdField="PredecessorID" SuccessorIdField="SuccessorID" />

@@ -19,7 +19,7 @@ There are cases in which you may want to have two level headers or custom comple
 ![Customizing the HeaderTemplate](images/grd_ControllingVisualAppearance_HeaderTemlate.png)
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" runat="server" AllowSorting="True" AutoGenerateColumns="false">
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" AllowSorting="True" AutoGenerateColumns="false">
   <MasterTableView>
     <Columns>
       <telerik:GridBoundColumn HeaderText="ContactName" DataField="ContactName" UniqueName="ContactName">

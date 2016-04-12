@@ -77,7 +77,7 @@ Note that the event handler finds the RadCalendar control within the RadComboBox
 ````ASPNET
 <telerik:radcombobox id="RadComboBox1" runat="server">      
 <ItemTemplate>      
-	<telerik:RadCalendar 
+	<telerik:RadCalendar RenderMode="Lightweight" 
 		ID="RadCalendar1"
 		runat="server" 
 		TitleFormat="MMMM yyyy" 

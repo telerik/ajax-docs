@@ -29,7 +29,7 @@ The event handler receives two arguments:
 	}
 </script>
 
-<telerik:RadTagCloud ID="tagCloud" runat="server" 
+<telerik:RadTagCloud RenderMode="Lightweight" ID="tagCloud" runat="server" 
 	ClientDataSourceID="tagsDataSource" DataTextField="ProductName"
 	DataWeightField="UnitPrice" RenderItemWeight="true" OnClientDataBound="OnClientDataBound" >
 </telerik:RadTagCloud>

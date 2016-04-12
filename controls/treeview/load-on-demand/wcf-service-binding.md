@@ -115,7 +115,7 @@ function OnClientNodeDataBoundHandler(sender, e) {
     <asp:ListItem>Silverlight</asp:ListItem>
     <asp:ListItem>Winforms</asp:ListItem>
 </asp:RadioButtonList>
-<telerik:RadTreeView runat="server" ID="RadTreeView1" OnClientNodePopulating="OnClientNodePopulatingHandler"
+<telerik:RadTreeView RenderMode="Lightweight" runat="server" ID="RadTreeView1" OnClientNodePopulating="OnClientNodePopulatingHandler"
     OnClientNodeDataBound="OnClientNodeDataBoundHandler">
     <Nodes>
         <telerik:RadTreeNode Text="Products" ExpandMode="WebService">

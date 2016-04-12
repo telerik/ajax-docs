@@ -37,7 +37,7 @@ The event handler receives two arguments:
 The following code snippet shows how to get information about a selected tile through the methods exposed by the **OnClientTileSelected** event's arguments. Note that selection is performed by right-clicking on a tile.
 
 ````JavaScript
-<telerik:RadTileList runat="server" ID="RadTileList1" AutoPostBack="false" OnClientTileSelected="OnClientTileSelected" SelectionMode="Single">
+<telerik:RadTileList RenderMode="Lightweight" runat="server" ID="RadTileList1" AutoPostBack="false" OnClientTileSelected="OnClientTileSelected" SelectionMode="Single">
 	<Groups>
 		<telerik:TileGroup>
 			<telerik:RadTextTile Name="Sample Text Tile" Text="Lorem ipsum dolor sit amet" Title-Text="Sample"></telerik:RadTextTile>
@@ -64,7 +64,7 @@ The following code snippet shows how to get information about a selected tile th
 The example below demonstrates how the **get_value()** method exposed by the **OnClientTileSelected** event arguments can be used to determine whether a tile is selected or deselected.
 
 ````JavaScript
-<telerik:RadTileList runat="server" ID="RadTileList1" AutoPostBack="true" SelectionMode="Single" OnClientTileSelected="OnClientTileSelected">
+<telerik:RadTileList RenderMode="Lightweight" runat="server" ID="RadTileList1" AutoPostBack="true" SelectionMode="Single" OnClientTileSelected="OnClientTileSelected">
 	<Groups>
 		<telerik:TileGroup>
 			<telerik:RadTextTile Name="Sample Text Tile" Text="Lorem ipsum dolor sit amet" Title-Text="Sample" NavigateUrl="http://www.telerik.com"></telerik:RadTextTile>

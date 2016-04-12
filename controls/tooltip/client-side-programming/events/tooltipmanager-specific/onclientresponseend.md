@@ -31,7 +31,7 @@ The **OnClientResponseEnd** event is fired immediately after the response from a
         }
     }
 </script>
-<telerik:RadToolTipManager ID="RadToolTipManager1" OnClientResponseEnd="OnClientResponseEnd">
+<telerik:RadToolTipManager RenderMode="Lightweight" ID="RadToolTipManager1" OnClientResponseEnd="OnClientResponseEnd">
     <WebServiceSettings Method="GetToolTipData" Path="ToolTipWebService.asmx" />
 </telerik:RadToolTipManager>
 ````

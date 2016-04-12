@@ -17,7 +17,7 @@ The following example demonstrates how to set the animation options if a RadRota
 ````ASP.NET
 <asp:UpdatePanel ID="UpdatePanel1" runat="server">
 	<ContentTemplate>
-		<telerik:RadRotator ID="RadRotator1" runat="server" RotatorType="CoverFlow" ScrollDirection="Left,Right"
+		<telerik:RadRotator RenderMode="Lightweight" ID="RadRotator1" runat="server" RotatorType="CoverFlow" ScrollDirection="Left,Right"
 			Height="233px" ItemHeight="113px" Width="490px" ItemWidth="150px">
 			<ItemTemplate>
 				<img src="........" alt="" />

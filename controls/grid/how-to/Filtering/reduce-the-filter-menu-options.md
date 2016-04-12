@@ -24,7 +24,7 @@ Below is a sample code implementation (based on the approach explained above) th
 
 
 ````ASP.NET
-<telerik:RadGrid AutoGenerateColumns="false" ID="RadGrid1" DataSourceID="SqlDataSource1"
+<telerik:RadGrid RenderMode="Lightweight" AutoGenerateColumns="false" ID="RadGrid1" DataSourceID="SqlDataSource1"
     Width="760px" AllowFilteringByColumn="True" AllowSorting="True" PageSize="15"
     ShowFooter="True" AllowPaging="True" runat="server" GridLines="None" EnableLinqExpressions="false">
     <PagerStyle Mode="NextPrevAndNumeric" />

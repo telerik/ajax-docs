@@ -38,7 +38,7 @@ Suppose you want to remove a filtering option from the menu of a column while le
 
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" runat="server" AllowFilteringByColumn="True" AutoGenerateColumns="False"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" AllowFilteringByColumn="True" AutoGenerateColumns="False"
    DataSourceID="SqlDataSource1" OnInit="RadGrid1_Init" OnItemCommand="RadGrid1_ItemCommand">
    <MasterTableView>
      <Columns>

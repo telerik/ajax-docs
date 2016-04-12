@@ -14,7 +14,7 @@ The **RadSlider** fully supports right-to-left (RTL) language locales. In order 
 
 ````ASP.NET
 <div dir="rtl">
-	<telerik:RadSlider runat="server" Skin="Simple" ID="RadSlider1" Orientation="Horizontal" Width="300"
+	<telerik:RadSlider RenderMode="Lightweight" runat="server" Skin="Simple" ID="RadSlider1" Orientation="Horizontal" Width="300"
 		Height="50" MinimumValue="0" MaximumValue="50" LargeChange="10" ItemType="Tick" IsDirectionReversed="true"
 		EnableServerSideRendering="true">
 	</telerik:RadSlider>

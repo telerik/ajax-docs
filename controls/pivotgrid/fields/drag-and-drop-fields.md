@@ -20,7 +20,7 @@ In order to use the Drag/Drop functionality you need to enable the zone-context 
 
 
 ````ASPNET
-<telerik:RadPivotGrid runat="server" ID="RadPivotGrid1" OnNeedDataSource="RadPivotGrid1_NeedDataSource"
+<telerik:RadPivotGrid RenderMode="Lightweight" runat="server" ID="RadPivotGrid1" OnNeedDataSource="RadPivotGrid1_NeedDataSource"
     ShowDataHeaderZone="true" ShowColumnHeaderZone="true" ShowRowHeaderZone="true"
     Width="100%" Skin="Default" EnableZoneContextMenu="true" AllowSorting="true">
     <fields>

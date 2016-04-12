@@ -15,7 +15,7 @@ position: 1
 You can have the buttons in your toolbar cause postbacks to a different Web page from the one that contains them. Simply set the **PostBackUrl** property to the page that should handle the postback. You can set the **PostBackUrl** for the entire toolbar, or for individual buttons. If you set the **PostBackUrl** in both places, the URL of the button overrides the setting on the toolbar:
 
 ````ASPNET
-<telerik:RadToolBar ID="RadToolBar1" runat="server" Skin="Outlook" PostBackUrl="CrossPage.aspx">
+<telerik:RadToolBar RenderMode="Lightweight" ID="RadToolBar1" runat="server" Skin="Outlook" PostBackUrl="CrossPage.aspx">
     <Items>
         <telerik:RadToolBarButton runat="server" Text="Button1" PostBackUrl="PageA.aspx" />
         <telerik:RadToolBarButton runat="server" Text="Button2">

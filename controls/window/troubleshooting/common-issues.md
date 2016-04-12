@@ -61,7 +61,7 @@ There are two ways to fix the problem:
 This behavior is expected – by design RadMenu has a higher z-Index value than the RadWindow control. This is needed in common cases where a [RestrictionZone](http://demos.telerik.com/aspnet-ajax/window/examples/restrictionzone/defaultcs.aspx) is used and the RadMenu control is above that zone. To render the RadWindow control above RadMenu, all you need to do is to change its z-Index, according to [this help article]({%slug controls/controlling-absolute-positioning-with-z-index%}). There is a [KB article](http://www.telerik.com/support/kb/aspnet-ajax/window/show-radwindow-above-radmenu.aspx) on the same subject as well. For example:
 
 ````ASP.NET
-<telerik:RadWindowManager ID="RadWindowManager1" runat="server" Style="z-index: 9999;">
+<telerik:RadWindowManager RenderMode="Lightweight" ID="RadWindowManager1" runat="server" Style="z-index: 9999;">
 </telerik:RadWindowManager>
 ````
 
@@ -94,7 +94,7 @@ This happens because, by default, when a RadWindow is closed, its object is not 
 
 		**ASP.NET**
 
-			<telerik:RadWindowManager ID="RadWindowManager1" runat="server"> 
+			<telerik:RadWindowManager RenderMode="Lightweight" ID="RadWindowManager1" runat="server"> 
 			</telerik:RadWindowManager> 
 			<button onclick="ShowWindow(); return false;">open RadWindow</button> 
 

@@ -64,7 +64,7 @@ In the **RadEditor** declaration, add **EditorCssClass** elements to **CssClasse
 
 ...
 
-<telerik:RadEditor runat="server" ID="RadEditor1" Skin="WebBlue">    
+<telerik:RadEditor RenderMode="Lightweight" runat="server" ID="RadEditor1" Skin="WebBlue">    
 	<CssClasses>        
 		<telerik:EditorCssClass Name="Clear Class" Value="" /> 
 		<telerik:EditorCssClass Name="Paragraph-Red Background" Value="p.red-background" />        

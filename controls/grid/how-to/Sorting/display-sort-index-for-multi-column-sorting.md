@@ -16,7 +16,7 @@ This how to article presents a possible solution for displaying sort index of gr
 From the code inside grid **PreRender** event you can see how to represent a numeric sequence of the order in which the columns are sorted.
 
 ````ASP.NET
-<telerik:RadGrid runat="server" ID="RadGrid1" OnNeedDataSource="RadGrid1_NeedDataSource" AllowPaging="true"
+<telerik:RadGrid RenderMode="Lightweight" runat="server" ID="RadGrid1" OnNeedDataSource="RadGrid1_NeedDataSource" AllowPaging="true"
 	OnPreRender="RadGrid1_PreRender" MasterTableView-AllowMultiColumnSorting="true"
 	 AllowSorting="true">
 </telerik:RadGrid>

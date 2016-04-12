@@ -38,7 +38,7 @@ This approach can be extended to a grid with more levels of hierarchy as well.
     }
   }
 </script>
-<telerik:RadGrid ID="RadGrid1" runat="server" AllowMultiRowSelection="False" DataSourceID="SqlDataSource1">
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" AllowMultiRowSelection="False" DataSourceID="SqlDataSource1">
   <MasterTableView DataSourceID="SqlDataSource1" DataKeyNames="CustomerID" AllowPaging="True"
     PageSize="3" AllowSorting="True" Width="100%" Name="Customers">
     <DetailTables>

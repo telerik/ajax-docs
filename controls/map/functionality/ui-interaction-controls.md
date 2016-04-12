@@ -25,7 +25,7 @@ In **Figure 1** you can examine the distinct controls in a simple **RadMap** set
 >caption **Example 1**: UI elements enabled by default in the **RadMap** control.
 
 ````ASP.NET
-<telerik:RadMap runat="server" ID="RadMap1" Width="500" Height="200">
+<telerik:RadMap RenderMode="Lightweight" runat="server" ID="RadMap1" Width="500" Height="200">
 	<CenterSettings Latitude="1" Longitude="1" />
 	<LayersCollection>
 		<telerik:MapLayer Type="Tile" Subdomains="a,b,c"
@@ -45,7 +45,7 @@ In the **RadMap** you can easily enable or disable the UI controls using the **C
 >caption **Example 2**: Disabling the **UI Controls** of the **RadMap**.
 
 ````ASP.NET
- <telerik:RadMap runat="server" ID="RadMap1">
+ <telerik:RadMap RenderMode="Lightweight" runat="server" ID="RadMap1">
 	<ControlsSettings Attribution="false" Navigator="false" Zoom="false"></ControlsSettings>
 	<LayersCollection>
 		<telerik:MapLayer Type="Tile" Subdomains="a,b,c"
@@ -67,7 +67,7 @@ In **Example 3** you can see how the **AttributionSettings**, **NavigatorSetting
 >caption **Example 3**: How to reposition the Map’s UI controls.
 
 ````ASP.NET
- <telerik:RadMap runat="server" ID="RadMap1" Width="500" Height="200">
+ <telerik:RadMap RenderMode="Lightweight" runat="server" ID="RadMap1" Width="500" Height="200">
 	<CenterSettings Latitude="1" Longitude="1" />
 	<ControlsSettings>
 		<AttributionSettings Position="BottomLeft" />

@@ -34,7 +34,7 @@ On the server the template will be presented as a string property of the control
 
 ````ASPNET
 	
-<telerik:RadComboBox ID="RadComboBox1" runat="server">
+<telerik:RadComboBox RenderMode="Lightweight" ID="RadComboBox1" runat="server">
 	<ClientItemTemplate>
 		<div class="customClass">
 			<img src="#= ImagePath #" alt="Photo" />
@@ -97,7 +97,7 @@ Sample code for the usage of the new method is demonstrated below.
 
 ````ASPNET
 
-<telerik:RadComboBox ID="RadComboBox1" runat="server">
+<telerik:RadComboBox RenderMode="Lightweight" ID="RadComboBox1" runat="server">
 	<ClientItemTemplate>
 		Template text: #= Text #
 	</ClientItemTemplate>
@@ -148,7 +148,7 @@ item.bindTemplate();
 * Bind the client template to an item rendered on the server:
 
 ````ASPNET
-<telerik:RadComboBox ID="RadComboBox1" runat="server">
+<telerik:RadComboBox RenderMode="Lightweight" ID="RadComboBox1" runat="server">
 	<Items>
 		<telerik:RadComboBoxItem Text="Item" />
 	</Items>

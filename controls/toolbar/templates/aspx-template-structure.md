@@ -19,7 +19,7 @@ Only RadToolBarButtons and RadToolBarSplitButtons support templates.
 
 
 ````ASPNET
-<telerik:RadToolBar ID="RadToolBar1" runat="server">
+<telerik:RadToolBar RenderMode="Lightweight" ID="RadToolBar1" runat="server">
     <CollapseAnimation Duration="200" Type="OutQuint" />
     <Items>
         <telerik:RadToolBarButton runat="server" CausesValidation="True" Text="Button 0">
@@ -64,11 +64,11 @@ The following demonstrates how to embed RadMenu, RadComboBox and a color picker 
 
 
 ````ASPNET
-<telerik:RadToolBar runat="server" ID="RadToolBar1" Style="overflow: visible;" Skin="Web20">
+<telerik:RadToolBar RenderMode="Lightweight" runat="server" ID="RadToolBar1" Style="overflow: visible;" Skin="Web20">
     <Items>
         <telerik:RadToolBarButton>
             <ItemTemplate>
-                <telerik:RadMenu ID="RadMenu1" runat="server" Skin="Web20">
+                <telerik:RadMenu RenderMode="Lightweight" ID="RadMenu1" runat="server" Skin="Web20">
                     <Items>
                         <telerik:RadMenuItem Text="Template">
                             ...
@@ -82,7 +82,7 @@ The following demonstrates how to embed RadMenu, RadComboBox and a color picker 
         <telerik:RadToolBarButton>
             <ItemTemplate>
                 <div style="padding-left: 30px">
-                    <telerik:RadComboBox ID="RadComboBox1" runat="server" ...>
+                    <telerik:RadComboBox RenderMode="Lightweight" ID="RadComboBox1" runat="server" ...>
                     </telerik:RadComboBox>
                 </div>
             </ItemTemplate>
@@ -95,7 +95,7 @@ The following demonstrates how to embed RadMenu, RadComboBox and a color picker 
         </telerik:RadToolBarButton>
         <telerik:RadToolBarButton>
             <ItemTemplate>
-                <telerik:RadColorPicker ID="RadColorPicker1" runat="server" ShowIcon="true" Preset="module"
+                <telerik:RadColorPicker RenderMode="Lightweight" ID="RadColorPicker1" runat="server" ShowIcon="true" Preset="module"
                     Skin="Web20">
                 </telerik:RadColorPicker>
             </ItemTemplate>

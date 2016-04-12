@@ -43,7 +43,7 @@ To get reference of the RadFilter client-side object, you can use one of the fol
         }
     </script>
 </telerik:RadCodeBlock>
-<telerik:RadFilter ID="RadFilter1" runat="server">
+<telerik:RadFilter RenderMode="Lightweight" ID="RadFilter1" runat="server">
     <ClientSettings>
         <ClientEvents OnFilterCreated="OnFilterCreated" />
     </ClientSettings>
@@ -90,7 +90,7 @@ The following example shows how to add a new expression to the second group of t
 ![Before](images/filter_before.png)
 
 ````ASPNET
-<telerik:RadFilter runat="server" ID="RadFilter1" Skin="Black">
+<telerik:RadFilter RenderMode="Lightweight" runat="server" ID="RadFilter1" Skin="Black">
     <FieldEditors>
         <telerik:RadFilterTextFieldEditor FieldName="ShipName" />
         <telerik:RadFilterDateFieldEditor FieldName="OrderDate" />

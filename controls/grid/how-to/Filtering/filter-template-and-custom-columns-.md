@@ -41,7 +41,7 @@ Here is how this can be done with column which extends GridTemplateColumn:
 
 ````ASP.NET
 <%@ Register TagPrefix="custom" Namespace="<MyApplicationNamespace>" Assembly="<MyApplicationAssembly>" %>
-<telerik:RadGrid ID="RadGrid1" AllowPaging="True" AutoGenerateColumns="False" AllowFilteringByColumn="True"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" AllowPaging="True" AutoGenerateColumns="False" AllowFilteringByColumn="True"
    runat="server">
    <MasterTableView>
        <Columns>

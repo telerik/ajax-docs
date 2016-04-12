@@ -29,7 +29,7 @@ The following properties should be used to enable the single click functionality
 >caption Example 1: The code that enables the SingleClick functionality in **RadImageButton** from **Figure 1** and **Figure 2**.
 
 ````ASP.NET
-<telerik:RadTextBox ID="txtName" runat="server" Width="180px" EmptyMessage="Enter your name..."/>
+<telerik:RadTextBox RenderMode="Lightweight" ID="txtName" runat="server" Width="180px" EmptyMessage="Enter your name..."/>
 
 <telerik:RadImageButton ID="btnSubmit" runat="server" Text="Submit" OnClick="btnSubmit_Click"
 	SingleClick="true" SingleClickText="Processing...">

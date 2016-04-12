@@ -83,7 +83,7 @@ Then if you want to have your client-side bound grid sorted and filtered by defa
 
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" AllowSorting="true" AllowPaging="true" AllowFilteringByColumn="true"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" AllowSorting="true" AllowPaging="true" AllowFilteringByColumn="true"
     AutoGenerateColumns="false" runat="server">
     <MasterTableView>
         <Columns>

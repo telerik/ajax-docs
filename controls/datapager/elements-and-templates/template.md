@@ -24,12 +24,12 @@ The following example shows how to add a RadDataPagerTemplatePageField, which co
 
 
 ````ASPNET
-<telerik:RadDataPager runat="server" ID="RadDataPager1" PagedControlID="ListView1">
+<telerik:RadDataPager RenderMode="Lightweight" runat="server" ID="RadDataPager1" PagedControlID="ListView1">
     <Fields>
         <telerik:RadDataPagerTemplatePageField>
             <PagerTemplate>
                 <asp:Button runat="server" ID="CustomButton" Text="My custom button" CommandName="Custom Command Name" />
-                <telerik:RadComboBox runat="server" ID="RadComboBox1" AutoPostBack="true" SelectedValue='<%# Container.Owner.PageSize %>'
+                <telerik:RadComboBox RenderMode="Lightweight" runat="server" ID="RadComboBox1" AutoPostBack="true" SelectedValue='<%# Container.Owner.PageSize %>'
                     OnSelectedIndexChanged="RadComboBox1_SelectedIndexChanged">
                     <Items>
                         <telerik:RadComboBoxItem Text="15" Value="15" />

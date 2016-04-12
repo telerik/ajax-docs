@@ -44,7 +44,7 @@ In addition to the methods listed above, on **RadDateInput** the **eventArgs** p
 The following example uses the **OnValueChanged** event to prevent a postback if the user entered an empty string:
 
 ````ASPNET
-<telerik:RadMaskedTextBox ID="RadMaskedTextBox1" runat="server" AutoPostBack="True">
+<telerik:RadMaskedTextBox RenderMode="Lightweight" ID="RadMaskedTextBox1" runat="server" AutoPostBack="True">
 	<ClientEvents OnValueChanged="PreventPostback" />
 </telerik:RadMaskedTextBox>
 ````

@@ -22,7 +22,7 @@ In order to enable the WAI-ARIA support, set the **RadNotification**'s **EnableA
 
 
 ````ASP.NET
-<telerik:RadNotification EnableAriaSupport="true" runat="server" ID="RadNotification1"></telerik:RadNotification>
+<telerik:RadNotification RenderMode="Lightweight" EnableAriaSupport="true" runat="server" ID="RadNotification1"></telerik:RadNotification>
 ````
 ````C#
 RadNotification1.EnableAriaSupport = true;

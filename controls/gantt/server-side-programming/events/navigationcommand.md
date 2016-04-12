@@ -21,7 +21,7 @@ The **RadGantt NavigationCommand** event is fired when the **RadGantt** control 
 ## Example
 
 ````ASP.NET
-<telerik:RadGantt ID="RadGantt1" runat="server" OnNavigationCommand="RadGantt1_NavigationCommand"></telerik:RadGantt>
+<telerik:RadGantt RenderMode="Lightweight" ID="RadGantt1" runat="server" OnNavigationCommand="RadGantt1_NavigationCommand"></telerik:RadGantt>
 ````
 
 ````C#

@@ -23,7 +23,7 @@ If you would like to open the editor in full screen mode when the page is loaded
 		editor.fire("ToggleScreenMode");
 	}
 </script>
-<telerik:RadEditor runat="server" ID="RadEditor1" OnClientLoad="OnClientLoad">
+<telerik:RadEditor RenderMode="Lightweight" runat="server" ID="RadEditor1" OnClientLoad="OnClientLoad">
 	<Content>Full Screen Mode on Load</Content>
 </telerik:RadEditor>
 ````

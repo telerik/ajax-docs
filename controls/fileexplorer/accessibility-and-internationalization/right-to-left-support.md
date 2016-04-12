@@ -14,7 +14,7 @@ The **RadFileExplorer** fully supports right-to-left (RTL) language locales. In 
 
 ````ASP.NET
 <div style="direction: rtl;">
-	 <telerik:RadFileExplorer runat="server" ID="FileExplorer1" Width="520px" Height="520px">
+	 <telerik:RadFileExplorer RenderMode="Lightweight" runat="server" ID="FileExplorer1" Width="520px" Height="520px">
 		 <Configuration ViewPaths="~/Images" UploadPaths="~/Images"
 			 DeletePaths="~/Images" />
 	 </telerik:RadFileExplorer>

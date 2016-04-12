@@ -71,7 +71,7 @@ End Sub
 You can dynamically update the **Items** collection of **RadPanelBar** and **RadPanelItem** in response to a postback as well. Consider the following panel bar declaration:
 
 ````ASPNET
-<telerik:RadPanelBar ID="RadPanelBar1" runat="server">
+<telerik:RadPanelBar RenderMode="Lightweight" ID="RadPanelBar1" runat="server">
    <Items>
        <telerik:RadPanelItem runat="server" Text="Root Item1">
        </telerik:RadPanelItem>
@@ -128,7 +128,7 @@ To remove a panel item in server-side code, use the **Remove** method of the **R
 Consider the following panel bar:
 
 ````ASPNET
-<telerik:RadPanelBar ID="RadPanelBar1" runat="server">
+<telerik:RadPanelBar RenderMode="Lightweight" ID="RadPanelBar1" runat="server">
    <Items>
        <telerik:RadPanelItem runat="server" Text="Root Item1" Expanded="true">
            <Items>

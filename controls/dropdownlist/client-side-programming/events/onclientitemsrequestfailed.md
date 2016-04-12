@@ -35,7 +35,7 @@ You can use this event to hide the default error message that appears in the **R
         eventArgs.set_cancel(true);
     }
 </script>
-<telerik:RadDropDownList ID="RadDropDownList1" runat="server" EmptySelectionMessage="Select" OnClientItemsRequestFailed="ClientItemsRequestFailed">
+<telerik:RadDropDownList RenderMode="Lightweight" ID="RadDropDownList1" runat="server" EmptySelectionMessage="Select" OnClientItemsRequestFailed="ClientItemsRequestFailed">
          <WebServiceSettings Path="WebService.asmx" Method="LoadItems" />
 </telerik:RadDropDownList> 
 ````

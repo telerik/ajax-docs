@@ -15,7 +15,7 @@ position: 2
 You can define the ItemTemplate programmatically by assigning a new **ITemplate** instanceto the **ItemTemplate** property of the searchBox, as shown in the code below:
 
 ````ASPNET
-<telerik:RadSearchBox ID="RadSearchBox1" runat="server" DataSourceID="SqlDataSource1"
+<telerik:RadSearchBox RenderMode="Lightweight" ID="RadSearchBox1" runat="server" DataSourceID="SqlDataSource1"
 	 DataTextField="ProductName"  
 	DataKeyNames="ProductId, ProductName"
 	DataValueField="ProductId" EmptyMessage="empty message" MaxResultCount="10"> 

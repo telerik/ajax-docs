@@ -28,7 +28,7 @@ The following restrictions apply to editing XML data when using **XmlDataSource*
 
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" runat="server" Skin="Web20" Width="95%" DataSourceID="XmlDataSource1"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" Skin="Web20" Width="95%" DataSourceID="XmlDataSource1"
   OnInsertCommand="RadGrid1_InsertCommand" OnUpdateCommand="RadGrid1_UpdateCommand"
   OnDeleteCommand="RadGrid1_DeleteCommand">
   <MasterTableView AutoGenerateColumns="false" DataKeyNames="CustomerID" CommandItemDisplay="Top">

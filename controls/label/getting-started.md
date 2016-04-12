@@ -24,7 +24,7 @@ This article describes a sample scenario where **RadLabel** is used with a **Rad
 1. Next, place a **RadDatePicker** control on the page.
 
     ````ASP.NET
-<telerik:RadDatePicker runat="server" ID="RadDatePicker1">
+<telerik:RadDatePicker RenderMode="Lightweight" runat="server" ID="RadDatePicker1">
 </telerik:RadDatePicker>
 ````
 
@@ -63,7 +63,7 @@ This article describes a sample scenario where **RadLabel** is used with a **Rad
     <img src="/images/myImage.png" alt="" />
 </telerik:RadLabel>
 <br />
-<telerik:RadDatePicker runat="server" ID="RadDatePicker1"></telerik:RadDatePicker>
+<telerik:RadDatePicker RenderMode="Lightweight" runat="server" ID="RadDatePicker1"></telerik:RadDatePicker>
 ````
 
 

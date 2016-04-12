@@ -31,7 +31,7 @@ The example below iterates the **Attributes** collection of a selected node and 
 ![RadTreeView Custom Attributes](images/treeview_customattributesserverside.png)
 
 ````ASPNET
-<telerik:RadTreeView ID="RadTreeView1" runat="server" OnNodeClick="RadTreeView1_NodeClick"
+<telerik:RadTreeView RenderMode="Lightweight" ID="RadTreeView1" runat="server" OnNodeClick="RadTreeView1_NodeClick"
     Skin="Black">
     <Nodes>
         <telerik:RadTreeNode runat="server" Text="Alpine Parka" ProductNumber="AP0234" ProductColor="Blue"

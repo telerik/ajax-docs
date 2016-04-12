@@ -29,7 +29,7 @@ The automatic data source operations only work when binding the grid to a [decla
 You also need to set the **DataKeyNames** property of the table views in the grid so that the insert, update, and delete operations perform as expected.
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="True" PageSize="5" Skin="Silk"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" AllowPaging="True" PageSize="5" Skin="Silk"
   DataSourceID="SqlDataSource1" AllowAutomaticInserts="True" AllowAutomaticUpdates="True"
   AllowAutomaticDeletes="True">
   <MasterTableView EditMode="InPlace" CommandItemDisplay="Bottom" DataSourceID="SqlDataSource1"
@@ -166,7 +166,7 @@ Automatic operations through the **DataSource** control are not supported when y
 
 	**ASP.NET**
 
-		<telerik:RadGrid ID="RadGrid1" AllowSorting="true" AllowPaging="true" DataSourceID="SqlDataSource1"
+		<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" AllowSorting="true" AllowPaging="true" DataSourceID="SqlDataSource1"
 		  runat="server">
 		  <MasterTableView DataKeyNames="ProductID" AllowAutomaticDeletes="true" AllowAutomaticUpdates="true"
 			AllowAutomaticInserts="true" AutoGenerateColumns="false" CommandItemDisplay="Top">

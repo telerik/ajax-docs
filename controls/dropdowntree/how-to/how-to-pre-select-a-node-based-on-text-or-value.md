@@ -37,7 +37,7 @@ This section describes how one can pre-select several nodes in the scenario when
 In contrast to that, when the **SelectedValue** property is set in the code behind, the values for the nodes are separated by comma. Below you can find and example how to select few nodes from the RadDropDownTree when using SelectedValue and/or SelectedText property.
 
 ````ASPNET
-<telerik:RadDropDownTree runat="server" Skin="Default" ID="RadDropDownTreeTest" DataTextField="LastName" DataFieldParentID="ReportsTo"
+<telerik:RadDropDownTree RenderMode="Lightweight" runat="server" Skin="Default" ID="RadDropDownTreeTest" DataTextField="LastName" DataFieldParentID="ReportsTo"
     DataFieldID="EmployeeID" OnDataBound="RadDropDownTreeTest_DataBound" CheckBoxes="TriState"
     DataValueField="EmployeeID" DataSourceID="SqlDataSource2">
     <DropDownSettings OpenDropDownOnLoad="true" />

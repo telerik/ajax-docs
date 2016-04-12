@@ -27,7 +27,7 @@ The [RadClientExportManager object API]({%slug clientexportmanager/client-side-p
 	
 	
 <div id="foo" style="width:600px; height:300px; overflow:scroll;">
-	<telerik:RadOrgChart ID="RadOrgChart1" runat="server" Orientation="Vertical">
+	<telerik:RadOrgChart RenderMode="Lightweight" ID="RadOrgChart1" runat="server" Orientation="Vertical">
 		<Nodes>
 			<telerik:OrgChartNode>
 				<GroupItems>
@@ -52,7 +52,7 @@ The [RadClientExportManager object API]({%slug clientexportmanager/client-side-p
 
 </div>
 
-<telerik:RadButton ID="RadButton1" runat="server" AutoPostBack="false" OnClientClicked="OnClientClicked" Text="Export To Image"></telerik:RadButton>
+<telerik:RadButton RenderMode="Lightweight" ID="RadButton1" runat="server" AutoPostBack="false" OnClientClicked="OnClientClicked" Text="Export To Image"></telerik:RadButton>
 ````
 
 

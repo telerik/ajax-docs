@@ -52,7 +52,7 @@ If you want to assign declarative custom editors at runtime, you need to instant
 
 ````ASP.NET
 <asp:PlaceHolder ID="PlaceHolder1" runat="server" />
-<telerik:RadGrid ID="RadGrid1" runat="server" Width="97%" AutoGenerateColumns="False">
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" Width="97%" AutoGenerateColumns="False">
   <MasterTableView>
     <Columns>
       <telerik:GridDropDownColumn UniqueName="DropDownListColumn" ListTextField="ContactName"

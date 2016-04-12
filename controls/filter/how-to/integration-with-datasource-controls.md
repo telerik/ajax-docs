@@ -21,12 +21,12 @@ Here is a simple example which demonstrates how you can filter RadListBox bound 
 ````C#
 <telerik:RadScriptManager ID="RadScriptManager1" runat="server">
 </telerik:RadScriptManager>
-<telerik:RadFilter runat="server" ID="RadFilter1" DataSourceControlID="EntityDataSourceCategories">
+<telerik:RadFilter RenderMode="Lightweight" runat="server" ID="RadFilter1" DataSourceControlID="EntityDataSourceCategories">
 </telerik:RadFilter>
 <asp:EntityDataSource ID="EntityDataSourceCategories" runat="server" ConnectionString="name=NorthwindEntities"
     DefaultContainerName="NorthwindEntities" EntitySetName="Categories" EntityTypeFilter="Categories">
 </asp:EntityDataSource>
-<telerik:RadListBox runat="server" ID="RadListBox1" DataSourceID="EntityDataSourceCategories"
+<telerik:RadListBox RenderMode="Lightweight" runat="server" ID="RadListBox1" DataSourceID="EntityDataSourceCategories"
     Height="200px" Width="250px">
     <EmptyMessageTemplate>
         No records to display.

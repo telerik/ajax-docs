@@ -28,7 +28,7 @@ The **RadSocialShare** control offers the ability to send a link, provided in th
 
 	**ASP.NET**
 
-	    <telerik:RadSocialShare ID="RadSocialShare1" runat="server">
+	    <telerik:RadSocialShare RenderMode="Lightweight" ID="RadSocialShare1" runat="server">
 	        <EmailSettings SMTPServer="localhost" FromEmail="my@email.com" Password="password"
 	            UserName="username" />
 	    </telerik:RadSocialShare>

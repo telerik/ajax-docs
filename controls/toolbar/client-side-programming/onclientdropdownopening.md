@@ -41,7 +41,7 @@ You can use this event to control when drop-down can expand, or customize the ch
     }       
 </script>
 
-<telerik:RadToolBar ID="RadToolBar1" runat="server" Orientation="Horizontal" OnClientDropDownOpening="OnClientDropDownOpening">
+<telerik:RadToolBar RenderMode="Lightweight" ID="RadToolBar1" runat="server" Orientation="Horizontal" OnClientDropDownOpening="OnClientDropDownOpening">
     <CollapseAnimation Duration="200" Type="OutQuint" />
     <Items>
         <telerik:RadToolBarButton Text="button1" runat="server">

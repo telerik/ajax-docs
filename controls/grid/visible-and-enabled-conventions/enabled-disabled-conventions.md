@@ -114,7 +114,7 @@ In addition, you can disable the keyboard navigation of the grid and the scrolli
     </AjaxSettings>
   </telerik:RadAjaxManager>
   <pre xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">
-<telerik:RadGrid ID="RadGrid1" DataSourceID="AccessDataSource1" runat="server" Skin="Outlook"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" DataSourceID="AccessDataSource1" runat="server" Skin="Outlook"
     Width="95%" AutoGenerateColumns="False" PageSize="10" AllowSorting="True" AllowPaging="True"
     GridLines="None" ShowGroupPanel="true" ShowStatusBar="true">
     <PagerStyle Mode="NumericPages"></PagerStyle>
@@ -207,7 +207,7 @@ The approach differs a bit when you prefer to disable the grid server-side. To s
       </telerik:AjaxSetting>
     </AjaxSettings>
   </telerik:RadAjaxManager>
-<telerik:RadGrid ID="RadGrid1" DataSourceID="AccessDataSource1" runat="server" Skin="Outlook"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" DataSourceID="AccessDataSource1" runat="server" Skin="Outlook"
     Width="95%" AutoGenerateColumns="False" PageSize="10" AllowSorting="True" AllowPaging="True"
     GridLines="None" ShowGroupPanel="true" ShowStatusBar="true" OnItemCreated="RadGrid1_ItemCreated"
     OnPreRender="RadGrid1_PreRender">

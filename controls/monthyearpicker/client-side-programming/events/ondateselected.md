@@ -30,7 +30,7 @@ The event handler receives two arguments:
 
 
 ````ASPNET
-<telerik:RadMonthYearPicker ID="RadMonthYearPicker1" runat="server"  >
+<telerik:RadMonthYearPicker RenderMode="Lightweight" ID="RadMonthYearPicker1" runat="server"  >
     <ClientEvents OnDateSelected="dateSelected" />
 </telerik:RadMonthYearPicker>	
 ````

@@ -33,7 +33,7 @@ Simple data binding is used when the desired data source is already retrieved fr
 
 
 ````ASP.NET
-<telerik:RadRotator runat="server" ID="RadRotator1" RotatorType="Buttons" 
+<telerik:RadRotator RenderMode="Lightweight" runat="server" ID="RadRotator1" RotatorType="Buttons" 
 	Width="370" Height="100"  ItemWidth="100" ItemHeight="100" OnClientLoad="OnClientLoad">
 	<ClientTemplate>
 		<h4 class="productName">#= ProductName #</h4>
@@ -91,7 +91,7 @@ The **RadClientDataSource** provides the ability to connect to a web service and
 	</DataSource>
  </telerik:RadClientDataSource>
  
- <telerik:RadRotator runat="server" ID="Rotator" ClientDataSourceID="RadClientDataSource1"
+ <telerik:RadRotator RenderMode="Lightweight" runat="server" ID="Rotator" ClientDataSourceID="RadClientDataSource1"
 	RotatorType="Buttons" Width="370" Height="100"  ItemWidth="100" ItemHeight="100">
 	<ClientTemplate>
 		 <h4 class="productName">#= ProductName #</h4>

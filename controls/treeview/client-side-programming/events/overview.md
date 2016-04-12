@@ -79,7 +79,7 @@ position: 0
 To use these events, write a javascript function that can be called when an event occurs. Then assign the name of the JavaScript function as the value of the corresponding **RadTreeView** event property.
 
 ````ASPNET
-<telerik:RadTreeView 
+<telerik:RadTreeView RenderMode="Lightweight" 
     ID="RadTreeView1" 
     runat="server"  
     OnClientNodeClicked="ClientNodeClicked">

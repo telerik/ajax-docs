@@ -20,7 +20,7 @@ The **RadSplitter** fully supports right-to-left (RTL) language locales.In order
 ````
 
 ````ASP.NET
-<telerik:RadSplitter runat="server" ID="RadSplitter1">
+<telerik:RadSplitter RenderMode="Lightweight" runat="server" ID="RadSplitter1">
 	<telerik:RadPane runat="server" ID="RadPane1">
 		<telerik:RadSlidingZone Width="22px" ID="RadSlidingZone1" runat="server">
 			<telerik:RadSlidingPane runat="server" ID="RadSlidingPane1" Title="Sliding pane 1" CssClass="rtlClass">

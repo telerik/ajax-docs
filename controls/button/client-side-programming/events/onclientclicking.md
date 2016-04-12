@@ -39,7 +39,7 @@ This event comes handy in scenarios when the user wants to cancel the page submi
 		args.set_cancel(!window.confirm("Are you sure you want to submit the page?"));
 	}
 </script>
-<telerik:RadButton ID="RadButton1" runat="server" Text="Submit"	OnClientClicking="Clicking" OnClick="RadButton1_Click">
+<telerik:RadButton RenderMode="Lightweight" ID="RadButton1" runat="server" Text="Submit"	OnClientClicking="Clicking" OnClick="RadButton1_Click">
 </telerik:RadButton>
 ````
 

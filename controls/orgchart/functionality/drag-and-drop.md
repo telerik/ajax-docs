@@ -21,7 +21,7 @@ Binding scenarios:
 Using **SimpleBinding** the user can only drag-and-drop Nodes which enables him to change the hierarchy.
 
 ````ASPNET
-<telerik:RadOrgChart runat="server" ID="RadOrgChart1" EnableDragAndDrop="true">
+<telerik:RadOrgChart RenderMode="Lightweight" runat="server" ID="RadOrgChart1" EnableDragAndDrop="true">
 </telerik:RadOrgChart>
 <asp:SqlDataSource runat="server" ID="DataSource1"
     ConnectionString="<%$ ConnectionStrings:EmployeeConnectionString %>" 
@@ -77,7 +77,7 @@ Using **GroupEnabledBinding** one can drag-and-drop both Nodes and GroupItems. T
 
 ````ASPNET
 
-<telerik:RadOrgChart runat="server" ID="RadOrgChart3" EnableDragAndDrop="true">
+<telerik:RadOrgChart RenderMode="Lightweight" runat="server" ID="RadOrgChart3" EnableDragAndDrop="true">
 </telerik:RadOrgChart>
 <asp:SqlDataSource runat="server" ID="SqlDataSource1"
     ConnectionString="<%$ ConnectionStrings:EmployeeConnectionString %>" 

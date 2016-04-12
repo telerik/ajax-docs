@@ -30,7 +30,7 @@ You have to set the mode to either **ServerSide** or **Manual** in order to enab
 
 ````ASPNET
 	
-<telerik:RadScheduler runat="server" ID="RadScheduler1" Skin="Vista"
+<telerik:RadScheduler RenderMode="Lightweight" runat="server" ID="RadScheduler1" Skin="Vista"
    SelectedView="DayView" SelectedDate="2009-04-18">
    <DayView GroupBy="User" />
    <WebServiceSettings Path="~/SchedulerDataService.asmx" ResourcePopulationMode="Manual" />

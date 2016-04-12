@@ -19,7 +19,7 @@ Generally speaking, the exporting feature of the control works with regular post
 ````ASPNET
 <telerik:RadAjaxPanel ID="RadAjaxPanel1" runat="server" ClientEvents-OnRequestStart="onRequestStart">
 	<asp:Button Text="Export to PDF" ID="btnExport" runat="server" OnClick="Button1_Click" />
-	<telerik:RadTreeList runat="server" ID="RadTreeList1" DataSourceID="SqlDataSource1"
+	<telerik:RadTreeList RenderMode="Lightweight" runat="server" ID="RadTreeList1" DataSourceID="SqlDataSource1"
 		AutoGenerateColumns="true" AllowPaging="true" PageSize="5" DataKeyNames="id"
 		ParentDataKeyNames="parentId">
 	</telerik:RadTreeList>

@@ -15,7 +15,7 @@ position: 3
 Use the **ShowIcon** property to display the color picker as an icon. When the user clicks on the icon, the color palette is displayed below the icon. This mode is well suited for scenarios where the color picker is placed on a tool bar.
 
 ````ASP.NET
-<telerik:RadColorPicker runat="server" ShowIcon="true"/> 
+<telerik:RadColorPicker RenderMode="Lightweight" runat="server" ShowIcon="true"/> 
 ````
 
 

@@ -38,7 +38,7 @@ The automatic data source operations only work when binding the grid to a declar
                 </tr>
                 <tr>
                     <td>
-                        <telerik:RadDataPager ID="RadDataPager1" runat="server" PagedControlID="RadListView1"
+                        <telerik:RadDataPager RenderMode="Lightweight" ID="RadDataPager1" runat="server" PagedControlID="RadListView1"
                             PageSize="3">
                             <Fields>
                                 <telerik:RadDataPagerButtonField FieldType="FirstPrev" />

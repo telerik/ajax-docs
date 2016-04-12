@@ -19,7 +19,7 @@ Following code shows how to import [MS Project XML data](http://msdn.microsoft.c
 1. Add simple **RadGantt** definition in the page markup.
 
 ````ASP.NET
-<telerik:RadGantt runat="server" ID="RadGantt1" SelectedView="MonthView"></telerik:RadGantt>
+<telerik:RadGantt RenderMode="Lightweight" runat="server" ID="RadGantt1" SelectedView="MonthView"></telerik:RadGantt>
 <asp:Button ID="btnImport" Text="Import Tasks" runat="server" OnClick="btnImport_Click" />
 ````
 

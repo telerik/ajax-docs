@@ -41,7 +41,7 @@ Here is a sample:
    <asp:Parameter Name="ID" Type="Int32" />
 </DeleteParameters>
 </asp:SqlDataSource>
-<telerik:RadListBox ID="RadListBox1"
+<telerik:RadListBox RenderMode="Lightweight" ID="RadListBox1"
    runat="server"
    AllowDelete="True"
    AutoPostBackOnDelete="true"
@@ -80,7 +80,7 @@ Here is an example:
    <asp:Parameter Name="ID" Type="Int32" />
 </UpdateParameters>
 </asp:SqlDataSource>
-<telerik:RadListBox ID="RadListBox1"
+<telerik:RadListBox RenderMode="Lightweight" ID="RadListBox1"
    runat="server"
    AllowAutomaticUpdates="true"
    AllowReorder="True"        
@@ -124,7 +124,7 @@ Here is an example:
    <asp:Parameter Name="ID" Type="Int32" />
 <//DeleteParameters>
 </asp:SqlDataSource>
-<telerik:RadListBox ID="RadListBox1"
+<telerik:RadListBox RenderMode="Lightweight" ID="RadListBox1"
    runat="server"
    AllowAutomaticUpdates="true"   
    AllowTransfer="true"
@@ -155,7 +155,7 @@ Here is an example:
    <asp:Parameter Name="ID" Type="Int32" />
 <//DeleteParameters>
 </asp:SqlDataSource>
-<telerik:RadListBox ID="RadListBox1"
+<telerik:RadListBox RenderMode="Lightweight" ID="RadListBox1"
    runat="server"
    AllowAutomaticUpdates="true"   
    AllowTransfer="true"
@@ -186,7 +186,7 @@ Here is an example:
    <asp:Parameter Name="Order" Type="Int32" />
 </InsertParameters>
 </asp:SqlDataSource>
-<telerik:RadListBox ID="RadListBox2"
+<telerik:RadListBox RenderMode="Lightweight" ID="RadListBox2"
    runat="server"
    AllowAutomaticUpdates="true"  
    DataKeyField="ID"            

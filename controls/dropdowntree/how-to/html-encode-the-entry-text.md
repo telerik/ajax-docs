@@ -14,7 +14,7 @@ position: 1
 The RadDropDownTree's **EnableEntryTextHtmlEncoding** property controls whether the text of the entries will be encoded. By default the property's value is set to "false". 
 
 ````ASPNET
-<telerik:RadDropDownTree runat="server" ID="RadDropDownTree1"
+<telerik:RadDropDownTree RenderMode="Lightweight" runat="server" ID="RadDropDownTree1"
     EnableEntryTextHtmlEncoding="true"
     Width="300px"
     DataFieldID="ID"

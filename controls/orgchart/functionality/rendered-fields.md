@@ -37,7 +37,7 @@ In general there are two ways to set custom fields. They include:
 * Set Rendered fields when the RadOrgChart is Databound (in the markup or in code behind) - using the name of the column of your database you can set the **DataField** property and the **Label** property of the **OrgChartRenderedField** as follows:
 
 ````ASPNET
-<telerik:RadOrgChart ID="RadOrgChart1" runat="server">
+<telerik:RadOrgChart RenderMode="Lightweight" ID="RadOrgChart1" runat="server">
 	<RenderedFields>
 		<NodeFields>
 			<telerik:OrgChartRenderedField DataField="TeamName" Label="TeamName: " />
@@ -54,7 +54,7 @@ In general there are two ways to set custom fields. They include:
 * Set Rendered fields when the RadOrgChart is NOT Databound
 
 ````ASPNET
-<telerik:RadOrgChart runat="server" ID="RadOrgChart1">
+<telerik:RadOrgChart RenderMode="Lightweight" runat="server" ID="RadOrgChart1">
 	<Nodes>
 		<telerik:OrgChartNode>
 			<RenderedFields>

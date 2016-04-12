@@ -35,7 +35,7 @@ The following example illustrates how you could get the columns in the MasterTab
 ````
 
 ````ASP.NET
-<telerik:RadGrid runat="server" ID="RadGrid1"
+<telerik:RadGrid RenderMode="Lightweight" runat="server" ID="RadGrid1"
     OnNeedDataSource="RadGrid1_NeedDataSource"
     AutoGenerateColumns="false"
     AllowPaging="true" PageSize="10">

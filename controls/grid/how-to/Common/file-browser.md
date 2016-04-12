@@ -79,7 +79,7 @@ function getImageByFileExt(fileName) {
     <h3 class="browser">
       File Browser</h3>
     <div class="wrapper3">
-      <telerik:RadMenu ID="RadMenu1" runat="server" Skin="Vista" Width="708px" BorderWidth="0">
+      <telerik:RadMenu RenderMode="Lightweight" ID="RadMenu1" runat="server" Skin="Vista" Width="708px" BorderWidth="0">
         <ExpandAnimation Duration="100" />
         <CollapseAnimation Duration="100" />
         <Items>
@@ -101,12 +101,12 @@ function getImageByFileExt(fileName) {
         </Items>
       </telerik:RadMenu>
       <div class="innerWrapper">
-        <telerik:RadSplitter ID="RadSplitterBrowser" runat="server" Height="500px" Width="708px"
+        <telerik:RadSplitter RenderMode="Lightweight" ID="RadSplitterBrowser" runat="server" Height="500px" Width="708px"
           BorderSize="0" BorderStyle="None" Skin="Vista">
           <telerik:RadPane ID="RadPaneTreeView" runat="server" Height="500px" Width="222px">
             <div class="leftPaneHeader">
             </div>
-            <telerik:RadTreeView ID="RadTreeView1" OnClientNodeClicked="clientNodeClicked" runat="server"
+            <telerik:RadTreeView RenderMode="Lightweight" ID="RadTreeView1" OnClientNodeClicked="clientNodeClicked" runat="server"
               Skin="Vista" Width="100%" Height="476px" AccessKey="T">
               <WebServiceSettings Path="Directories.asmx" Method="GetDirectories" />
               <DataBindings>
@@ -116,7 +116,7 @@ function getImageByFileExt(fileName) {
           </telerik:RadPane>
           <telerik:RadSplitBar ID="RadSplitBar1" runat="server" />
           <telerik:RadPane ID="RadPaneGrid" runat="server" Width="480px">
-            <telerik:RadGrid ID="RadGrid1" runat="server" AutoGenerateColumns="False" GridLines="None"
+            <telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" AutoGenerateColumns="False" GridLines="None"
               Width="100%" Height="498px" Skin="Vista">
               <MasterTableView Width="100%">
                 <Columns>

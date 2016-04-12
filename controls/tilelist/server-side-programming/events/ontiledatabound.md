@@ -24,7 +24,7 @@ The entire **DataRowView** object from the datasource that is related to the giv
 The example below shows two different ways of obtaining data from the datasource in order to modify certain tile properties:
 
 ````ASP.NET
-<telerik:RadTileList runat="server" DataSourceID="SqlDataSource1" ID="RadTileList1" Width="634px" TileRows="4"
+<telerik:RadTileList RenderMode="Lightweight" runat="server" DataSourceID="SqlDataSource1" ID="RadTileList1" Width="634px" TileRows="4"
 	OnTileDataBound="RadTileList1_TileDataBound">
 	<DataBindings>
 		<CommonTileBinding TileType="RadImageTile" DataTitleTextField="ContactName" DataGroupNameField="ContactTitle" Shape="Square" />

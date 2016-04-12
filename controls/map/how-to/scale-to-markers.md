@@ -62,7 +62,7 @@ Although **Example 1** shows a basic usage of the **MarkersCollection** tag, the
 	}
 </script>
 
-<telerik:RadMap runat="server" ID="RadMap1">
+<telerik:RadMap RenderMode="Lightweight" runat="server" ID="RadMap1">
 	<ClientEvents OnLoad="OnLoad" />
 	<LayersCollection>
 		<telerik:MapLayer Type="Tile" Subdomains="a,b,c"
@@ -176,7 +176,7 @@ Although **Example 1** shows a basic usage of the **MarkersCollection** tag, the
     </DataSource>
 </telerik:RadClientDataSource>
 
-<telerik:RadMap runat="server" ID="RadMap1">
+<telerik:RadMap RenderMode="Lightweight" runat="server" ID="RadMap1">
     <ClientEvents OnLoad="OnLoad" />
     <LayersCollection>
         <telerik:MapLayer Type="Tile" Subdomains="a,b,c"

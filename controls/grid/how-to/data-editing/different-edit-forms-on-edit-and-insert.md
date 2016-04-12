@@ -20,7 +20,7 @@ In some editing scenarios you may need to display different edit forms for Teler
 
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1" AutoGenerateColumns="False"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1" AutoGenerateColumns="False"
   Width="100%" AllowSorting="True" AllowPaging="True">
   <MasterTableView CommandItemDisplay="Top">
     <EditFormSettings UserControlName="EmployeeDetailsVB.ascx" EditFormType="WebUserControl">

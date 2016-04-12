@@ -19,7 +19,7 @@ The **RadInput** controls provide support for Access Keys, Shortcut Key combinat
 * **Access Keys** - You can specify a key that lets the end user move focus directly to the input control. Once focus is on the control, the user can edit the contents of the control and use the arrow keys for navigation. The access key is defined using the **AccessKey** property. For example, if you set the **AccessKey** property to "N", focus moves to the **RadInput** control when the user types "Alt+N".
 
 ````ASPNET
-<telerik:RadDateInput ID="RadDateInput1" runat="server" TextMode="SingleLine" Label="Name:"
+<telerik:RadDateInput RenderMode="Lightweight" ID="RadDateInput1" runat="server" TextMode="SingleLine" Label="Name:"
 	AccessKey="N">
 </telerik:RadDateInput>
 ````

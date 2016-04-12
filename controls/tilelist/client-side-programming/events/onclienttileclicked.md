@@ -38,7 +38,7 @@ The event handler receives two arguments:
 The following example shows how to get and set the **navigateURL** property of a Tile in the **OnClientTileClicked** event.
 
 ````JavaScript
-<telerik:RadTileList runat="server" ID="RadTileList1" OnClientTileClicked="OnClientTileClicked" AutoPostBack="false" SelectionMode="Single">
+<telerik:RadTileList RenderMode="Lightweight" runat="server" ID="RadTileList1" OnClientTileClicked="OnClientTileClicked" AutoPostBack="false" SelectionMode="Single">
 	<Groups>
 		<telerik:TileGroup>
 			<telerik:RadTextTile Name="Sample Text Tile" Text="Lorem ipsum dolor sit amet" Title-Text="Sample"></telerik:RadTextTile>
@@ -68,7 +68,7 @@ The following example shows how to get and set the **navigateURL** property of a
 The code snippet below shows how to use the **OnClientClicked** event to check if the navigation URL of a Tile has been set to a new value.
 
 ````JavaScript
-<telerik:RadTileList runat="server" ID="RadTileList1" SelectionMode="Single"
+<telerik:RadTileList RenderMode="Lightweight" runat="server" ID="RadTileList1" SelectionMode="Single"
 	OnClientTileClicking="OnClientTileClicking" OnClientTileClicked="OnClientTileClicked">
 	<Groups>
 		<telerik:TileGroup>

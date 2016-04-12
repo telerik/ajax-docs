@@ -31,7 +31,7 @@ The event handler receives two arguments:
 The following example uses the **OnPopupOpening** event to initialize the selection if the input area is empty:
 
 ````ASPNET
-<telerik:RadTimePicker ID="RadTimePicker1" runat="server">
+<telerik:RadTimePicker RenderMode="Lightweight" ID="RadTimePicker1" runat="server">
     <ClientEvents OnPopupOpening="popupOpening" />
 </telerik:RadTimePicker>
 ````

@@ -33,7 +33,7 @@ The event handler function receives two arguments:
 	* **Index** - the index of the clicked item in its containing group.
 
 ````ASPNET
-<telerik:RadRibbonBar ID="RadRibbonBar1" runat="server" 
+<telerik:RadRibbonBar RenderMode="Lightweight" ID="RadRibbonBar1" runat="server" 
     onmenuitemclick="RadRibbonBar1_MenuItemClick">
     <telerik:RibbonBarTab Text="Home">
         <telerik:RibbonBarGroup Text="Image">

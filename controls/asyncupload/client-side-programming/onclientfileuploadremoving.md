@@ -31,7 +31,7 @@ The event handler receives two parameters:
 * **get_rowIndex** the index of the row that is about to be removed from the uploaded files collection.
 
 ````ASPNET
-<telerik:RadAsyncUpload runat="server" ID="RadAsyncUpload1" OnClientFileUploadRemoving="OnClientFileUploadRemoving"></telerik:RadAsyncUpload>
+<telerik:RadAsyncUpload RenderMode="Lightweight" runat="server" ID="RadAsyncUpload1" OnClientFileUploadRemoving="OnClientFileUploadRemoving"></telerik:RadAsyncUpload>
 ````
 
 ````JavaScript

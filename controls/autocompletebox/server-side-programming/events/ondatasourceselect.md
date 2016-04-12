@@ -30,7 +30,7 @@ Here is a sample code demonstrating how this event can be used:
 
 ````ASPNET
 	
-<telerik:RadAutoCompleteBox runat="server" ID="RadAutoCompleteBox1"
+<telerik:RadAutoCompleteBox RenderMode="Lightweight" runat="server" ID="RadAutoCompleteBox1"
 	OnDataSourceSelect="RadAutoCompleteBox1_DataSourceSelect"
 	DataSourceID="SqlDataSource1"
 	DataKeyNames="UnitPrice"

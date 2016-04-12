@@ -33,7 +33,7 @@ The implementation of the **RadImageEditor**’s toolbar is based on RadToolBar.
 
 **Image Mode**
 ````ASP.NET
-<telerik:RadImageEditor ID="theImageEditor" runat="server" ImageUrl="~/content/pg.png" Width="1100" Height="860"> 
+<telerik:RadImageEditor RenderMode="Lightweight" ID="theImageEditor" runat="server" ImageUrl="~/content/pg.png" Width="1100" Height="860"> 
     <Tools> 
         <telerik:ImageEditorToolGroup> 
             <telerik:ImageEditorTool Text="Print" CommandName="Print" /> 
@@ -68,7 +68,7 @@ The implementation of the **RadImageEditor**’s toolbar is based on RadToolBar.
 
 **Canvas Mode**
 ````ASP.NET
-<telerik:RadImageEditor ID="theImageEditor" runat="server" ImageUrl="~/content/pg.png"
+<telerik:RadImageEditor RenderMode="Lightweight" ID="theImageEditor" runat="server" ImageUrl="~/content/pg.png"
 	Width="1100" Height="860">
 	<Tools>
 		<telerik:ImageEditorToolGroup>

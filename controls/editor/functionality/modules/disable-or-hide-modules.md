@@ -16,7 +16,7 @@ There are a couple of ways to hide or remove the RadEditor's modules: inline, vi
 
 	**ASP.NET**
 	
-		<telerik:RadEditor ID="RadEditor1" runat="server">
+		<telerik:RadEditor RenderMode="Lightweight" ID="RadEditor1" runat="server">
 			<Modules>
 				<telerik:EditorModule Name="RadEditorHtmlInspector" Enabled="true" Visible="true" />
 				<telerik:EditorModule Name="RadEditorNodeInspector" Enabled="true" Visible="false" />

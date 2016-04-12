@@ -21,7 +21,7 @@ Here is a sample code (note that this approach is applicable for auto-generated 
 
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" DataSourceID="SqlDataSource1" AllowSorting="True"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" DataSourceID="SqlDataSource1" AllowSorting="True"
   runat="server" OnItemCommand="RadGrid1_ItemCommand" AutoGenerateColumns="true">
   <MasterTableView DataSourceID="SqlDataSource1">
     <Columns>
@@ -78,7 +78,7 @@ If you have **GridTemplateColumn** inside the grid and want to obtain its origin
 
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" DataSourceID="SqlDataSource1" Skin="WinXP" runat="server"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" DataSourceID="SqlDataSource1" Skin="WinXP" runat="server"
   Width="150px">
   <MasterTableView AutoGenerateColumns="false">
     <Columns>

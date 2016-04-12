@@ -25,7 +25,7 @@ The event handler receives two arguments:
 The following example shows how to set the **SelectionMode** of a RadTileList in its **OnClientLoad** event.
 
 ````JavaScript
-<telerik:RadTileList runat="server" ID="RadTileList1" OnClientLoad="OnClientLoad" AutoPostBack="true">
+<telerik:RadTileList RenderMode="Lightweight" runat="server" ID="RadTileList1" OnClientLoad="OnClientLoad" AutoPostBack="true">
 	<Groups>
 		<telerik:TileGroup>
 			<telerik:RadTextTile Name="Sample Text Tile" Text="Lorem ipsum dolor sit amet" Title-Text="Sample"></telerik:RadTextTile>
@@ -58,7 +58,7 @@ The following example shows how to set the **SelectionMode** of a RadTileList in
 The code snippet below demonstrates how an event handler can be attached in the **OnClientLoad** event of the **RadTileList**.
 
 ````JavaScript
-		<telerik:RadTileList runat="server" ID="RadTileList1" OnClientLoad="OnClientLoad" AutoPostBack="false">
+		<telerik:RadTileList RenderMode="Lightweight" runat="server" ID="RadTileList1" OnClientLoad="OnClientLoad" AutoPostBack="false">
 			<Groups>
 				<telerik:TileGroup>
 					<telerik:RadTextTile Name="Sample Text Tile" Text="Lorem ipsum dolor sit amet" Title-Text="Sample"></telerik:RadTextTile>

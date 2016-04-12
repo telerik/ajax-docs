@@ -25,7 +25,7 @@ The embedded **RadDateInput** has two properties that you can use to specify a f
 Both properties take a [date format pattern]({%slug calendar/accessibility-and-internationalization/date-format-patterns%}) as a value.
 
 ````ASPNET
-<telerik:RadMonthYearPicker ID="RadMonthYearPicker1" runat="server">
+<telerik:RadMonthYearPicker RenderMode="Lightweight" ID="RadMonthYearPicker1" runat="server">
     <DateInput DateFormat="MM/yyyy"></DateInput>
 </telerik:RadMonthYearPicker>
 ````

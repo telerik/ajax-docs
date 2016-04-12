@@ -35,7 +35,7 @@ If you need to get the previously selected tab you can use the approach describe
        $get("<%= previousTabHidden.ClientID%>").value = sender.get_selectedTab().get_text();
    }
    </script>
-   <telerik:RadTabStrip ID="RadTabStrip1" runat="server" Skin="Outlook" SelectedIndex="3" AutoPostBack="true" OnTabClick="RadTabStrip1_TabClick" OnClientTabSelecting="OnSelecting">
+   <telerik:RadTabStrip RenderMode="Lightweight" ID="RadTabStrip1" runat="server" Skin="Outlook" SelectedIndex="3" AutoPostBack="true" OnTabClick="RadTabStrip1_TabClick" OnClientTabSelecting="OnSelecting">
        <Tabs>
            <telerik:RadTab Text="Advanced">
            </telerik:RadTab>

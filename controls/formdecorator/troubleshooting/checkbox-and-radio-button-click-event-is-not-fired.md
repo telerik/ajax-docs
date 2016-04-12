@@ -38,7 +38,7 @@ There are a few options you can choose from, in order to handle the scenario des
 
 	**ASP.NET**
 
-		<telerik:RadFormDecorator ID="RadFormDecorator1" runat="server" DecoratedControls="All" />
+		<telerik:RadFormDecorator RenderMode="Lightweight" ID="RadFormDecorator1" runat="server" DecoratedControls="All" />
 		<input type="checkbox" id="checkbox1" name="name1" value="value1" onclick="alert(1);" /><label for="checkbox1">label 1</label>
 		<input type="radio" id="radio1" name="name2" value="value2" onclick="alert(2);" /><label for="radio1">label 2</label>
 
@@ -48,7 +48,7 @@ There are a few options you can choose from, in order to handle the scenario des
 
 	**ASP.NET**
 
-		<telerik:RadFormDecorator ID="RadFormDecorator1" runat="server" DecoratedControls="All" />
+		<telerik:RadFormDecorator RenderMode="Lightweight" ID="RadFormDecorator1" runat="server" DecoratedControls="All" />
 		<input type="checkbox" name="name1" value="value1" onclick="alert(1);" /> <label>label 1</label>
 		<input type="radio" name="name2" value="value2" onclick="alert(2);" /> <label>label 2</label>
 
@@ -68,7 +68,7 @@ There are a few options you can choose from, in order to handle the scenario des
 
 	**ASP.NET**
 
-		<telerik:RadFormDecorator ID="RadFormDecorator1" runat="server" DecoratedControls="All" />
+		<telerik:RadFormDecorator RenderMode="Lightweight" ID="RadFormDecorator1" runat="server" DecoratedControls="All" />
 		<input type="checkbox" name="name1" value="value1" onclick="alert(1);" /><label>label 1</label>
 		<input type="radio" name="name2" value="value2" onclick="alert(2);" /><label>label 2</label>
 

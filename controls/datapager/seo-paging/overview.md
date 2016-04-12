@@ -40,7 +40,7 @@ In addition, you can specify the query page key for the grid that is used as par
             <tr runat="server" id="itemPlaceholder" />
         </table>
         <fieldset style="text-align: center; background-color: #D9DFDF; width:850px">
-            <telerik:RadDataPager ID="RadDataPager1" runat="server" SEOPagingQueryPageKey="CurrentPageKey"
+            <telerik:RadDataPager RenderMode="Lightweight" ID="RadDataPager1" runat="server" SEOPagingQueryPageKey="CurrentPageKey"
                 PagedControlID="RadListView1" AllowSEOPaging="true" PageSize="7">
                 <Fields>
                     <telerik:RadDataPagerButtonField FieldType="FirstPrev" />

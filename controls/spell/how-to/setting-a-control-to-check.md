@@ -18,7 +18,7 @@ The easiest way set a control to check is by setting the **ControlToCheck** prop
 
 ````ASP.NET
 <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
-<telerik:RadSpell ID="RadSpell1" runat="server" ControlToCheck="TextBox1"/> 
+<telerik:RadSpell RenderMode="Lightweight" ID="RadSpell1" runat="server" ControlToCheck="TextBox1"/> 
 ````
 
 ## Checking Multiple Controls at Once

@@ -34,7 +34,7 @@ Below is an example showing how to center the edit form in RadGrid:
     }
   </script>
 </telerik:RadCodeBlock>
-<telerik:RadGrid ID="RadGrid1" AutoGenerateEditColumn="true" runat="server" AllowAutomaticDeletes="True"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" AutoGenerateEditColumn="true" runat="server" AllowAutomaticDeletes="True"
   AllowAutomaticInserts="True" AllowAutomaticUpdates="True" DataSourceID="SqlDataSource1"
   AllowSorting="true" Skin="Silk" AllowPaging="true">
   <MasterTableView EditMode="PopUp" CommandItemDisplay="Top" DataKeyNames="ProductID">

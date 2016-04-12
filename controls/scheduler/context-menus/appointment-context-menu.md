@@ -32,7 +32,7 @@ The default appointment context menu can be customized declaratively:
 
 ````ASPNET
 	
-<telerik:RadScheduler ID="RadScheduler1" runat="server">
+<telerik:RadScheduler RenderMode="Lightweight" ID="RadScheduler1" runat="server">
    <AppointmentContextMenus>
 	   <telerik:RadSchedulerContextMenu runat="server" ID="ContextMenu1">
 		   <Items>

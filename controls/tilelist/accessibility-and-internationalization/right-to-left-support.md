@@ -29,7 +29,7 @@ When in RTL mode, the **RadTileList** reverses the tiles order, i.e., the first 
 
 ````ASP.NET
 <div style="direction: rtl; width: 750px;">
-	<telerik:RadTileList runat="server" ID="RadTileList1" TileRows="2" SelectionMode="Single" EnableDragAndDrop="true">
+	<telerik:RadTileList RenderMode="Lightweight" runat="server" ID="RadTileList1" TileRows="2" SelectionMode="Single" EnableDragAndDrop="true">
 		<Groups>
 			<telerik:TileGroup>
 				<telerik:RadIconTile ImageUrl="../../Img/Tiles/IconTile.png" Shape="Wide">

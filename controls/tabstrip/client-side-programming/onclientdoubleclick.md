@@ -37,7 +37,7 @@ function onDoubleClick(sender, eventArgs)
   alert (tab.get_text() + " was double-clicked.");
 }
 </script>
-<telerik:RadTabStrip ID="RadTabStrip1" runat="server"
+<telerik:RadTabStrip RenderMode="Lightweight" ID="RadTabStrip1" runat="server"
    OnClientDoubleClick="onDoubleClick">
 ...
 </telerik:RadTabStrip> 	

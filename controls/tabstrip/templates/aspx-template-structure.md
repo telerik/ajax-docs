@@ -35,7 +35,7 @@ There is also a multipage control associated with the tabstrip to provide additi
 
 
 ````ASPNET	
-<telerik:RadTabStrip ID="RadTabStrip1" runat="server" SelectedIndex="0" CssClass="tabStrip" MultiPageID="RadMultiPage1" OnClientTabSelected="onTabSelected">
+<telerik:RadTabStrip RenderMode="Lightweight" ID="RadTabStrip1" runat="server" SelectedIndex="0" CssClass="tabStrip" MultiPageID="RadMultiPage1" OnClientTabSelected="onTabSelected">
    <Tabs>
        <telerik:RadTab Width="250px" PageViewID="RadPageView1">
            <TabTemplate>
@@ -45,7 +45,7 @@ There is also a multipage control associated with the tabstrip to provide additi
                            Products: <span id="products">Books</span>
                        </td>
                        <td>
-                           <telerik:RadMenu runat="server" ID="RadMenu1" Skin="Telerik" OnClientItemClicked="onClicked">
+                           <telerik:RadMenu RenderMode="Lightweight" runat="server" ID="RadMenu1" Skin="Telerik" OnClientItemClicked="onClicked">
                                <CollapseAnimation Type="none" />
                                <Items>
                                    <telerik:RadMenuItem CssClass="rootItem" Text="(change <img src='Images/arrow.gif' alt='' />)">
@@ -73,7 +73,7 @@ There is also a multipage control associated with the tabstrip to provide additi
                            Services: <span id="services">Web</span>
                        </td>
                        <td>
-                           <telerik:RadMenu runat="server" ID="RadMenu2" Skin="Telerik" OnClientItemClicked="onClicked">
+                           <telerik:RadMenu RenderMode="Lightweight" runat="server" ID="RadMenu2" Skin="Telerik" OnClientItemClicked="onClicked">
                                <CollapseAnimation Type="none" />
                                <Items>
                                    <telerik:RadMenuItem CssClass="rootItem" Text="(change <img src='Images/arrow.gif' alt='' />)">

@@ -35,7 +35,7 @@ Two parameters are passed to the event handler:
 The following example uses the **OnValueChanged** event to prevent a postback if the user entered an empty string:
 
 ````ASPNET
-<telerik:RadNumericTextBox ID="RadNumericTextBox1" runat="server" AutoPostBack="True">
+<telerik:RadNumericTextBox RenderMode="Lightweight" ID="RadNumericTextBox1" runat="server" AutoPostBack="True">
 	<ClientEvents OnValueChanged="PreventPostback" />
 </telerik:RadNumericTextBox>
 ````

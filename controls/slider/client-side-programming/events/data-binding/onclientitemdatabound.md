@@ -41,7 +41,7 @@ You can check in **Example 1** how this event can be used for modifying the text
 		</WebServiceDataSourceSettings>
 	</DataSource>
 </telerik:RadClientDataSource>
-<telerik:RadSlider runat="server" ID="RadSlider1" Width="800px" Height="150px" ItemType="Item" 
+<telerik:RadSlider RenderMode="Lightweight" runat="server" ID="RadSlider1" Width="800px" Height="150px" ItemType="Item" 
 	ClientDataSourceID="RadClientDataSource1" OnClientItemDataBound="sliderItemDataBound">
 	<ItemBinding TextField="Title" ToolTipField="Description" ValueField="Date"></ItemBinding>
 </telerik:RadSlider>

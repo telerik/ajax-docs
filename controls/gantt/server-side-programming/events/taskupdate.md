@@ -22,7 +22,7 @@ The **RadGantt TaskUpdate** is fired when a task's collection is about to be upd
 ## Example
 
 ````ASP.NET
-<telerik:RadGantt ID="RadGantt1" runat="server" OnTaskUpdate="RadGantt1_TaskUpdate"></telerik:RadGantt>
+<telerik:RadGantt RenderMode="Lightweight" ID="RadGantt1" runat="server" OnTaskUpdate="RadGantt1_TaskUpdate"></telerik:RadGantt>
 ````
 
 ````C#

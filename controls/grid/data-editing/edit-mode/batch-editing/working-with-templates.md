@@ -98,7 +98,7 @@ The subscription of the events
         <asp:Label ID="LabelLastName" runat="server" Text='<%# Eval("LastName") %>'></asp:Label>
     </ItemTemplate>
     <EditItemTemplate>
-        <telerik:RadTextBox ID="RadTextBoxFirstName" runat="server" Width="100px"></telerik:RadTextBox>
+        <telerik:RadTextBox RenderMode="Lightweight" ID="RadTextBoxFirstName" runat="server" Width="100px"></telerik:RadTextBox>
         <asp:TextBox ID="TextBoxLastName" runat="server" Width="100px"></asp:TextBox>
     </EditItemTemplate>
 </telerik:GridTemplateColumn>

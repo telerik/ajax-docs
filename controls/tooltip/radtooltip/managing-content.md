@@ -37,7 +37,7 @@ Content can be added to **RadTooltip** in multiple ways and is displayed in the 
 	__ASP.NET__
 
 		<asp:Image runat="server" ID="Image1" AlternateText="the alternate text" Width="100px" Height="100px" />
-		<telerik:RadToolTip runat="server" ID="RadToolTip1" TargetControlID="Image1" IsClientID="false"
+		<telerik:RadToolTip RenderMode="Lightweight" runat="server" ID="RadToolTip1" TargetControlID="Image1" IsClientID="false"
 		    ShowEvent="OnMouseOver" HideEvent="Default" Position="BottomRight" RelativeTo="Mouse"
 		    Width="100px" Height="50px" Title="title">
 		    <asp:Label ID="Label1" Text="text within the tooltip declaration" runat="server" />
@@ -52,7 +52,7 @@ Content can be added to **RadTooltip** in multiple ways and is displayed in the 
 
 	__ASP.NET__
 
-		<telerik:RadToolTip ID="RadToolTip1" Skin="Inox" runat="server" TargetControlID="HyperLink1">
+		<telerik:RadToolTip RenderMode="Lightweight" ID="RadToolTip1" Skin="Inox" runat="server" TargetControlID="HyperLink1">
 		    Rich content:
 		    <asp:Button ID="btnA" runat="server" Text="Button in a ToolTip" />
 		</telerik:RadToolTip>

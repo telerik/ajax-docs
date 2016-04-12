@@ -21,7 +21,7 @@ To enable sorting for **GridHyperLinkColumn** and **GridTemplateColumn**, you ne
 * When using **GridTemplateColumn**, the **SortExpression** value should match the data field you want to sort on (typically the field a control in the template is bound to).
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1" AllowSorting="True"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1" AllowSorting="True"
   Width="400px">
   <MasterTableView AutoGenerateColumns="false" AllowSorting="true">
     <Columns>

@@ -73,7 +73,7 @@ Finally, configure the ajax manager settings in order to refresh the grid and th
 <telerik:RadAjaxLoadingPanel ID="RadAjaxLoadingPanel1" runat="server" />
 
 <input type="hidden" id="radGridClickedRowIndex" name="radGridClickedRowIndex" />
-    <telerik:RadGrid ID="RadGrid1" runat="server" Width="100%"
+    <telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" Width="100%"
         DataSourceID="SqlDataSource1" AllowAutomaticDeletes="true" AllowAutomaticInserts="true"
         AllowAutomaticUpdates="true" OnPreRender="RadGrid1_PreRender">
         <MasterTableView AllowSorting="False" PageSize="10" AllowPaging="True" Width="100%"

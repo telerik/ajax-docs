@@ -19,7 +19,7 @@ The localization support for **RadFilter** lets you completely translate the use
 The Localization property specifies the strings that appear in the runtime user interface of the filter, including the message pop-up dialogs and edit forms. By changing the values of each named sub-property, you change the appearance of the string the RadFilter uses:
 
 ````ASPNET
-<telerik:RadFilter ID="RadFilter1" runat="server">
+<telerik:RadFilter RenderMode="Lightweight" ID="RadFilter1" runat="server">
     <Localization GroupOperationAnd="My AND Operation" />
 </telerik:RadFilter>
 ````
@@ -29,7 +29,7 @@ The Localization property specifies the strings that appear in the runtime user 
 The RadFilter control extracts the header text from the grid column when filter container is the RadGrid control and use it as DisplayName. In case of other container control by default RadFilter uses the FieldName as DisplayName. In case of declarative field editors you could customize the name of the fields displayed in RadFilter as shown bellow:
 
 ````ASPNET
-<telerik:RadFilter ID="RadFilter1" runat="server" Culture="bg-BG">
+<telerik:RadFilter RenderMode="Lightweight" ID="RadFilter1" runat="server" Culture="bg-BG">
     <Localization GroupOperationAnd="My AND Operation" />
     <FieldEditors>
         <telerik:RadFilterTextFieldEditor FieldName="Name1" DisplayName="Custom Text" />
@@ -44,7 +44,7 @@ To customize the name of the fields when using filter container control you coul
 
 
 ````ASPNET
-<telerik:RadFilter runat="server" ID="RadFilter1" Culture="bg-BG" FilterContainerID="RadGrid1"
+<telerik:RadFilter RenderMode="Lightweight" runat="server" ID="RadFilter1" Culture="bg-BG" FilterContainerID="RadGrid1"
     OnFieldEditorCreated="RadFilter1_FieldEditorCreated" ShowApplyButton="true">
 </telerik:RadFilter>
 ````

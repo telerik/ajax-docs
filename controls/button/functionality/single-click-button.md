@@ -33,7 +33,7 @@ The following properties should be used to enable the single click functionality
 ````ASP.NET
 <asp:TextBox ID="txtName" runat="server" />
 
-<telerik:RadButton ID="btnSubmit" runat="server" Text="Submit" OnClick="btnSubmit_Click"
+<telerik:RadButton RenderMode="Lightweight" ID="btnSubmit" runat="server" Text="Submit" OnClick="btnSubmit_Click"
 	SingleClick="true"  SingleClickText="Processing...">
 </telerik:RadButton>
 

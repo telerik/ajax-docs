@@ -34,7 +34,7 @@ The solution below demonstrates how to implement an adaptive custom button that 
 		}
 	}
 </script>
-<telerik:RadEditor OnClientSelectionChange="OnClientSelectionChange" runat="server"
+<telerik:RadEditor RenderMode="Lightweight" OnClientSelectionChange="OnClientSelectionChange" runat="server"
 	ID="RadEditor2">
 	<Content>
 	Sample content: <img src="http://www.telerik.com/demos/aspnet/for ASP.NET AJAX-futures/Editor/Img/productLogo.gif"></img>
@@ -72,7 +72,7 @@ By default the EditorSplitButton tools memorize the value of the lastly selected
 		tool.set_updateHeader(false);
 	}
 </script>
-<telerik:RadEditor runat="server" ID="RadEditor1" OnClientLoad="OnClientLoad">
+<telerik:RadEditor RenderMode="Lightweight" runat="server" ID="RadEditor1" OnClientLoad="OnClientLoad">
 </telerik:RadEditor>
 ````
 

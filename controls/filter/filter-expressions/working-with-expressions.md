@@ -48,7 +48,7 @@ In the following sample it is shown how to programmatically create a expression 
 
 
 ````ASPNET
-<telerik:RadFilter runat="server" ID="RadFilter1" ExpressionPreviewPosition="Bottom">
+<telerik:RadFilter RenderMode="Lightweight" runat="server" ID="RadFilter1" ExpressionPreviewPosition="Bottom">
     <FieldEditors>
         <telerik:RadFilterTextFieldEditor FieldName="ShipName" />
         <telerik:RadFilterDateFieldEditor FieldName="OrderDate" />

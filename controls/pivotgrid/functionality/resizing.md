@@ -35,7 +35,7 @@ When **EnableRealTimeResize** is **True**, the column content is rendered during
 You can set the resizing-related properties declaratively at design time:
 
 ````ASP.NET
-<telerik:RadPivotGrid runat="server">
+<telerik:RadPivotGrid RenderMode="Lightweight" runat="server">
   <ClientSettings>
     <Resizing AllowColumnResize="True" EnableRealTimeResize="True"/>
   </ClientSettings>

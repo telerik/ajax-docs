@@ -19,7 +19,7 @@ If the **ItemTemplate** is not specified inside the DropDownSettings tag, the it
 The following application scenario shows an example of RadSearchBox using ItemTemplate. Here is a sample markup of a possible usage of server templates.
 
 ````ASPNET
-<telerik:RadSearchBox runat="server" ID="RadSearchBox1" 
+<telerik:RadSearchBox RenderMode="Lightweight" runat="server" ID="RadSearchBox1" 
 	DataSourceID="SqlDataSource1"
 	DataValueField="ProductId"
 	DataTextField="ProductName">

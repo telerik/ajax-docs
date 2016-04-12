@@ -29,7 +29,7 @@ The example below demonstrates accessing the node attributes within the **OnClie
 
 
 ````ASPNET
-<telerik:RadTreeView ID="RadTreeView1" runat="server" OnClientNodeClicked="onNodeClicked">
+<telerik:RadTreeView RenderMode="Lightweight" ID="RadTreeView1" runat="server" OnClientNodeClicked="onNodeClicked">
     <Nodes>
         <telerik:RadTreeNode runat="server" Text="Red Oak" ScientificName="Quercus rubra">
         </telerik:RadTreeNode>

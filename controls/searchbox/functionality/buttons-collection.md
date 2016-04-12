@@ -35,7 +35,7 @@ Here is how a sample RadSearchBox would look like with additional buttons:
 
 ````ASPNET
 		
-<telerik:RadSearchBox runat="server" ID="RadSearchBox2" Width="300">
+<telerik:RadSearchBox RenderMode="Lightweight" runat="server" ID="RadSearchBox2" Width="300">
 	<Buttons>
 		<telerik:SearchBoxButton ImageUrl="../Img/icon_globe.png" CommandName="Globe"
 			CommandArgument="globe" Position="Left" AlternateText="globe" />

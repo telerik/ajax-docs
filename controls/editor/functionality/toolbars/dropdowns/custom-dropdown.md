@@ -16,7 +16,7 @@ Follow the steps below to create custom dropdown in-line in the editor's declara
 
 	**ASP.NET**
 	
-		<telerik:RadEditor runat="server" ID="RadEditor1" OnClientCommandExecuting="OnClientCommandExecuting">
+		<telerik:RadEditor RenderMode="Lightweight" runat="server" ID="RadEditor1" OnClientCommandExecuting="OnClientCommandExecuting">
 			<Tools>
 				<telerik:EditorToolGroup>
 					<telerik:EditorDropDown Name="Emoticons" Text="Emoticons" ItemsPerRow="3" PopupWidth="90"
@@ -89,7 +89,7 @@ Follow the steps below to create custom dropdown in-line in the editor's declara
 
 	**ASP.NET**
 		
-		<telerik:RadEditor runat="server" ID="RadEditor1" OnClientCommandExecuting="OnClientCommandExecuting">
+		<telerik:RadEditor RenderMode="Lightweight" runat="server" ID="RadEditor1" OnClientCommandExecuting="OnClientCommandExecuting">
 			<Tools>
 				<telerik:EditorToolGroup>
 					<telerik:EditorDropDown Name="Emoticons" Text="Emoticons" ItemsPerRow="3" PopupWidth="90"

@@ -17,7 +17,7 @@ position: 3
 By default, **RadTreeView** expands a node by clicking the plus button or by double clicking the parent node. You can change this behavior by handling the **OnClientNodeClicked** event, getting a reference to the clicked on node and calling the **RadTreeNode toggle()** function. You can tailor this behavior to only occur when particular nodes are clicked by [checking the node text, value, category or attributes]({%slug treeview/client-side-programming/objects/radtreenode%}).
 
 ````ASPNET
-<telerik:RadTreeView ID="RadTreeView1" runat="server" OnClientNodeClicked="ClientNodeClicked">
+<telerik:RadTreeView RenderMode="Lightweight" ID="RadTreeView1" runat="server" OnClientNodeClicked="ClientNodeClicked">
     <Nodes>
         <telerik:RadTreeNode runat="server" ExpandMode="ClientSide" Text="Search" ImageUrl="~/images/search.ico"
             Expanded="True" Value="1">

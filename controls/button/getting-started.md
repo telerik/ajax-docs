@@ -16,7 +16,7 @@ The following tutorial demonstrates how to set up a page with a **RadButton** co
 
 	**ASP.NET**	
 	
-		<telerik:RadButton id="RadButton1" runat="server" text="My Button">
+		<telerik:RadButton RenderMode="Lightweight" id="RadButton1" runat="server" text="My Button">
 		</telerik:RadButton>	
 
 	The **Text** property specifies the text displayed in the **RadButton** control.

@@ -39,7 +39,7 @@ The following example illustrates this approach in a two-level hierarchy:
     }
   }                    
 </script>
-<telerik:RadGrid ID="RadGrid1" runat="server" AllowSorting="true" DataSourceID="SqlDataSource1"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" AllowSorting="true" DataSourceID="SqlDataSource1"
   AllowPaging="true" PageSize="3" AllowMultiRowSelection="true">
   <MasterTableView DataKeyNames="CustomerID" Name="Customers">
     <DetailTables>

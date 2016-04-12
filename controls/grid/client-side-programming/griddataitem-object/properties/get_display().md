@@ -24,7 +24,7 @@ The property which specifies if the row is visible. It returns a boolean value w
         alert("The first item is display: " + masterTableView.get_dataItems()[0].get_display());
     }
 </script>
-<telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="true" AllowSorting="true"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" AllowPaging="true" AllowSorting="true"
     AllowFilteringByColumn="true" PageSize="5">
     <MasterTableView ClientDataKeyNames="ProductID" CommandItemDisplay="Top">
         <Columns>

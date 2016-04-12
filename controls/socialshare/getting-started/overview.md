@@ -21,7 +21,7 @@ The following tutorial demonstrates how a simple **RadSocialShare** control can 
 
 	__ASP.NET__
 
-		<telerik:RadSocialShare runat="server" ID="RadSocialShare1">
+		<telerik:RadSocialShare RenderMode="Lightweight" runat="server" ID="RadSocialShare1">
 		</telerik:RadSocialShare>
 
 
@@ -34,7 +34,7 @@ The following tutorial demonstrates how a simple **RadSocialShare** control can 
 
 	__ASP.NET__
 
-		<telerik:RadSocialShare runat="server" ID="RadSocialShare1" UrlToShare="http://www.telerik.com/products/aspnet-ajax.aspx"
+		<telerik:RadSocialShare RenderMode="Lightweight" runat="server" ID="RadSocialShare1" UrlToShare="http://www.telerik.com/products/aspnet-ajax.aspx"
 		        TitleToShare="ASP.NET AJAX Controls, .NET Web UI Components | Telerik">
 		    <MainButtons>
 		        <telerik:RadSocialButton SocialNetType="ShareOnTwitter" />

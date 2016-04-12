@@ -13,7 +13,7 @@ position: 1
 @[template](/_templates/button/distorted-appearance.md#intro "control: RadCheckBox")
 
 ````ASP.NET
-<telerik:RadButton ID="RadButton1" runat="server" Text="RadButton" />
+<telerik:RadButton RenderMode="Lightweight" ID="RadButton1" runat="server" Text="RadButton" />
 <br />
 <telerik:RadCheckBox ID="RadCheckBox1" runat="server" Text="RadCheckBox" Checked="true"></telerik:RadCheckBox>
 ```` 

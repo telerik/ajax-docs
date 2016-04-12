@@ -18,7 +18,7 @@ position: 0
 
 	__ASP.NET__
 
-		<telerik:RadColorPicker ID="RadColorPicker1" runat="server" Preset="Standard" />
+		<telerik:RadColorPicker RenderMode="Lightweight" ID="RadColorPicker1" runat="server" Preset="Standard" />
 		
 
 	The result is:
@@ -29,7 +29,7 @@ position: 0
 
 	__ASP.NET__
 	
-		<telerik:RadColorPicker ID="RadColorPicker1" runat="server" Preset="none">
+		<telerik:RadColorPicker RenderMode="Lightweight" ID="RadColorPicker1" runat="server" Preset="none">
 		   <telerik:ColorPickerItem Title="Yellow" Value="#FFFF00" />
 		   <telerik:ColorPickerItem Title="Light Green" Value="#00FF00" />
 		   <telerik:ColorPickerItem Title="Turquoise" Value="#00FFFF" />
@@ -56,7 +56,7 @@ position: 0
 
 	__ASP.NET__
 
-		<telerik:RadColorPicker ID="RadColorPicker1" runat="server" Preset="Grayscale">
+		<telerik:RadColorPicker RenderMode="Lightweight" ID="RadColorPicker1" runat="server" Preset="Grayscale">
 		   <telerik:ColorPickerItem Title="Blue" Value="#0000FF" />
 		   <telerik:ColorPickerItem Title="Red" Value="#FF0000" />
 		   <telerik:ColorPickerItem Title="Green" Value="#008000" />
@@ -72,7 +72,7 @@ position: 0
 
 	__ASP.NET__
 	     
-		<telerik:RadColorPicker ID="RadColorPicker1" runat="server" />
+		<telerik:RadColorPicker RenderMode="Lightweight" ID="RadColorPicker1" runat="server" />
 		
 	__C#__
 

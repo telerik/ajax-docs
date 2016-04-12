@@ -37,7 +37,7 @@ The two approaches give you solutions to decorate and customize the content area
 >
 >    **ASP.NET**
 >    - - -
->        <telerik:RadEditor ID="RadEditor1" runat="server">
+>        <telerik:RadEditor RenderMode="Lightweight" ID="RadEditor1" runat="server">
 >            <CssFiles>
 >                <telerik:EditorCssFile Value="" />
 >            </CssFiles>

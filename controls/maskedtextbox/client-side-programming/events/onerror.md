@@ -32,7 +32,7 @@ On **RadMaskedTextBox**, the following two parameters are passed to the event ha
 The following example uses the **OnError** event to raise an alert when an error is detected:
 
 ````ASPNET
-<telerik:RadMaskedTextBox ID="RadMaskedTextBox1" runat="server" Mask="(###) ###-#####">
+<telerik:RadMaskedTextBox RenderMode="Lightweight" ID="RadMaskedTextBox1" runat="server" Mask="(###) ###-#####">
 	<ClientEvents OnError="HandleError" />
 </telerik:RadMaskedTextBox>
 

@@ -17,14 +17,14 @@ Sometimes you may need to check if a user has selected a value from a **RadRatin
 For the server-side validation, we have the following markup. On the ASPX page are added **RadRating**, CustomValidator that executes the validation and **RadButton** that submits the page:
 
 ````ASP.NET
-<telerik:RadRating ID="RadRating1" runat="server">
+<telerik:RadRating RenderMode="Lightweight" ID="RadRating1" runat="server">
 </telerik:RadRating>
 <asp:CustomValidator ID="CustomValidator1" runat="server" ErrorMessage="Please rate"
 	ControlToValidate="RadRating1" OnServerValidate="CustomValidator1_ServerValidate"
 	ForeColor="Red">
 </asp:CustomValidator>
 <br />
-<telerik:RadButton ID="RadButton1" runat="server" Text="RadButton">
+<telerik:RadButton RenderMode="Lightweight" ID="RadButton1" runat="server" Text="RadButton">
 </telerik:RadButton>
 ````
 
@@ -53,13 +53,13 @@ To implement client-side validation, a similar markup will be used. The differen
 		}
 </script>
 
-<telerik:RadRating id="RadRating1" runat="server">
+<telerik:RadRating RenderMode="Lightweight" id="RadRating1" runat="server">
 </telerik:RadRating>
 <asp:CustomValidator ID="CustomValidator2" runat="server" ErrorMessage="Please rate"
 		ControlToValidate="RadRating1" ForeColor="Red" ClientValidationFunction="ValidateRating">
 </asp:CustomValidator>
 <br />
-<telerik:RadButton id="RadButton1" runat="server" text="RadButton">
+<telerik:RadButton RenderMode="Lightweight" id="RadButton1" runat="server" text="RadButton">
 </telerik:RadButton>
 ````
 

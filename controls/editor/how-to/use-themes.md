@@ -41,7 +41,7 @@ RadEditor can be configured to use **ASP.NET 2.0 Themes** in the same manner as 
 
 	**ASP.NET**
 	
-		<telerik:RadEditor ID="RadEditor1" SkinID="SettingProperties" runat="server">
+		<telerik:RadEditor RenderMode="Lightweight" ID="RadEditor1" SkinID="SettingProperties" runat="server">
 		</telerik:RadEditor>
 
 

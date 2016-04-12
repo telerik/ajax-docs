@@ -43,7 +43,7 @@ Here are a few examples of setting a custom toolbar position:
 
 	**ASP.NET**
 
-		<telerik:RadEditor ID="RadEditor1" runat="server">
+		<telerik:RadEditor RenderMode="Lightweight" ID="RadEditor1" runat="server">
 		    <Tools>
 		        <telerik:EditorToolGroup DockingZone="Left">
 		            <telerik:EditorTool Name="AjaxSpellCheck" />

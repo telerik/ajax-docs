@@ -90,7 +90,7 @@ This general approach can be used not just for TextBoxes, but for spell checking
 <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
 <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
 <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
-<telerik:RadSpell ID="RadSpell1" runat="server" ButtonType="None" />
+<telerik:RadSpell RenderMode="Lightweight" ID="RadSpell1" runat="server" ButtonType="None" />
 <input id="Button1" type="button" value="Spell Check All" onclick="spellCheck();" /> 
 ````
 

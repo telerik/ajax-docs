@@ -73,7 +73,7 @@ function gridCreated(sender, eventArgs) {
 }
 ````
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" AllowMultiRowSelection="true"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" AllowMultiRowSelection="true"
     OnNeedDataSource="RadGrid1_NeedDataSource"
     AllowPaging="true" AllowSorting="true" runat="server" AllowFilteringByColumn="true"
     ShowGroupPanel="true">
@@ -152,7 +152,7 @@ For older browsers you can use a static JavaScript array to keep the selected it
                     </telerik:AjaxSetting>
                 </AjaxSettings>
             </telerik:RadAjaxManager>
-            <telerik:RadGrid ID="RadGrid1" AllowMultiRowSelection="true" DataSourceID="SqlDataSource1"
+            <telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" AllowMultiRowSelection="true" DataSourceID="SqlDataSource1"
                 AllowPaging="true" AllowSorting="true" runat="server" AllowFilteringByColumn="true"
                 ShowGroupPanel="true">
                 <MasterTableView ClientDataKeyNames="MailID">

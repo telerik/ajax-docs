@@ -42,7 +42,7 @@ Here are the code snippets from the example referenced in the previous paragraph
 </ajaxsettings>
 </telerik:RadAjaxManager>
 <telerik:RadAjaxLoadingPanel runat="server" ID="RadAjaxLoadingPanel1" />
-<telerik:RadGrid runat="server" ID="RadGrid1" DataSourceID="LinqDataSource1" AllowAutomaticUpdates="true"
+<telerik:RadGrid RenderMode="Lightweight" runat="server" ID="RadGrid1" DataSourceID="LinqDataSource1" AllowAutomaticUpdates="true"
     AllowAutomaticInserts="true" AllowAutomaticDeletes="true" AutoGenerateColumns="false"
     AllowPaging="true" OnItemUpdated="RadGrid1_ItemUpdated" OnItemInserted="RadGrid1_ItemInserted"
     OnItemDeleted="RadGrid1_ItemDeleted" OnPreRender="RadGrid1_PreRender">
@@ -88,7 +88,7 @@ Here are the code snippets from the example referenced in the previous paragraph
 </mastertableview>
     <pagerstyle alwaysvisible="true" />
 </telerik:RadGrid>
-<telerik:RadWindowManager ID="RadWindowManager1" runat="server" />
+<telerik:RadWindowManager RenderMode="Lightweight" ID="RadWindowManager1" runat="server" />
 <asp:LinqDataSource ID="LinqDataSource1" runat="server" ContextTypeName="LinqToSql.NorthwindDataContext"
     EnableDelete="True" EnableInsert="True" EnableUpdate="True" TableName="Categories">
 </asp:LinqDataSource>
@@ -185,14 +185,14 @@ End Sub
     <li>
         <label>
             Product Name:</label>
-        <telerik:RadTextBox runat="server" ID="ProductName" Text='<%#DataBinder.Eval(DataItem,"ProductName") %>'
+        <telerik:RadTextBox RenderMode="Lightweight" runat="server" ID="ProductName" Text='<%#DataBinder.Eval(DataItem,"ProductName") %>'
             Width="150px" TextMode="MultiLine" /><asp:RequiredFieldValidator runat="server" ID="ProductNameValidator"
                 ControlToValidate="ProductName" Text="*" Display="Dynamic" />
     </li>
     <li>
         <label>
             Price:</label>
-        <telerik:RadNumericTextBox runat="server" ID="UnitPrice" MinValue="0" Type="Currency"
+        <telerik:RadNumericTextBox RenderMode="Lightweight" runat="server" ID="UnitPrice" MinValue="0" Type="Currency"
             Text='<%#DataBinder.Eval(DataItem,"UnitPrice") %>' Width="50px">
             <numberformat decimaldigits="2" keepnotroundedvalue="true" allowrounding="true" />
         </telerik:RadNumericTextBox><asp:RequiredFieldValidator runat="server" ID="UnitPriceValidator"
@@ -201,7 +201,7 @@ End Sub
     <li>
         <label>
             Units in Stock:</label>
-        <telerik:RadNumericTextBox runat="server" ID="UnitsInStock" MinValue="0" Type="Number"
+        <telerik:RadNumericTextBox RenderMode="Lightweight" runat="server" ID="UnitsInStock" MinValue="0" Type="Number"
             Text='<%#DataBinder.Eval(DataItem,"UnitsInStock") %>' Width="50px">
             <numberformat decimaldigits="0" allowrounding="true" />
             <incrementsettings step="1" />

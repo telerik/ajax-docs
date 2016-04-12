@@ -42,7 +42,7 @@ In case you have an older version of the controls and you need to center the Edi
     } 
   </script>
 </telerik:RadCodeBlock>
-<telerik:RadGrid ID="RadGrid1" AutoGenerateEditColumn="true" runat="server" AllowAutomaticDeletes="True"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" AutoGenerateEditColumn="true" runat="server" AllowAutomaticDeletes="True"
   AllowAutomaticInserts="True" AllowAutomaticUpdates="True" DataSourceID="SqlDataSource1"
   AllowSorting="true" Skin="Silk" AllowPaging="true">
   <MasterTableView EditMode="PopUp" CommandItemDisplay="Top" DataKeyNames="ProductID">

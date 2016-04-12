@@ -48,7 +48,7 @@ To use these events, simply write a javascript function that can be called when 
 		alert(message);
 	}
 </script>
-<telerik:RadDateInput ID="RadDateInput1" runat="server"
+<telerik:RadDateInput RenderMode="Lightweight" ID="RadDateInput1" runat="server"
 	Skin="Web20">
 	<ClientEvents OnError="OnDateError" />
 </telerik:RadDateInput>

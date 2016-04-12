@@ -17,7 +17,7 @@ position: 2
 
 ````ASP.NET
 <div dir="rtl">
-    <telerik:RadColorPicker runat="server" ID="RadColorPicker1" PaletteModes="All">
+    <telerik:RadColorPicker RenderMode="Lightweight" runat="server" ID="RadColorPicker1" PaletteModes="All">
     </telerik:RadColorPicker>
 </div>
 ````

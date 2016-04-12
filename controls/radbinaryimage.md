@@ -107,7 +107,7 @@ Here is an [online demo](http://demos.telerik.com/aspnet-ajax/binaryimage/exampl
         </asp:Repeater>
         <div style="clear: both;">
         </div>
-        <telerik:RadFormDecorator runat="server" ID="radFormDecorator" DecoratedControls="All" />
+        <telerik:RadFormDecorator RenderMode="Lightweight" runat="server" ID="radFormDecorator" DecoratedControls="All" />
         <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<$ ConnectionStrings>"
             ProviderName="<$ ConnectionStrings>" SelectCommand="SELECT TOP 6 * FROM [CustomerPhotos]">
         </asp:SqlDataSource>

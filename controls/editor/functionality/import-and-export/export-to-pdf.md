@@ -42,7 +42,7 @@ There is an additional sub-category (**Pdf**) for the **ExportSettings** dedicat
 >caption Example 1: Configure PDF export settings - title, author, header and footer.
 
 ````ASP.NET
-<telerik:RadEditor runat="server" ID="RadEditor2" ContentFilters="DefaultFilters, PdfExportFilter">
+<telerik:RadEditor RenderMode="Lightweight" runat="server" ID="RadEditor2" ContentFilters="DefaultFilters, PdfExportFilter">
 	<Content>
 <p>Some content in RadEditor.</p>
 	</Content>
@@ -91,7 +91,7 @@ It is possible to silently export the content as PDF on the server via the **OnE
 Below you can find an example demonstrating how to export the editor's content as PDF on the server using the **OnExportContent** event of **Telerik Editor**.
 
 ````ASP.NET
-<telerik:RadEditor runat="server" ID="RadEditor1" OnExportContent="RadEditor1_ExportContent" ContentFilters="DefaultFilters, PdfExportFilter">
+<telerik:RadEditor RenderMode="Lightweight" runat="server" ID="RadEditor1" OnExportContent="RadEditor1_ExportContent" ContentFilters="DefaultFilters, PdfExportFilter">
 </telerik:RadEditor>
 <asp:Button runat="server" ID="Button1" Text="Export to PDF" OnClick="Button1_Click" />
 ````

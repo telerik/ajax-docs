@@ -28,7 +28,7 @@ Below are the code snippets from the demo referred above:
 
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" GridLines="None" AutoGenerateColumns="false" PageSize="10"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" GridLines="None" AutoGenerateColumns="false" PageSize="10"
   AllowPaging="true" AllowSorting="true" runat="server" OnItemDataBound="OnItemDataBoundHandler"
   DataSourceID="ProductsDataSource" AllowAutomaticUpdates="true" AllowAutomaticInserts="True"
   ShowStatusBar="true">
@@ -46,7 +46,7 @@ Below are the code snippets from the demo referred above:
           <%#DataBinder.Eval(Container.DataItem, "CompanyName")%>
         </ItemTemplate>
         <EditItemTemplate>
-          <telerik:RadComboBox runat="server" ID="RadComboBox1" EnableLoadOnDemand="True" DataTextField="CompanyName"
+          <telerik:RadComboBox RenderMode="Lightweight" runat="server" ID="RadComboBox1" EnableLoadOnDemand="True" DataTextField="CompanyName"
             OnItemsRequested="RadComboBox1_ItemsRequested" DataValueField="SupplierID" AutoPostBack="true"
             HighlightTemplatedItems="true" Height="140px" Width="220px" DropDownWidth="420px"
             OnSelectedIndexChanged="OnSelectedIndexChangedHandler">
@@ -73,7 +73,7 @@ Below are the code snippets from the demo referred above:
           <%#DataBinder.Eval(Container.DataItem, "CategoryName")%>
         </ItemTemplate>
         <EditItemTemplate>
-          <telerik:RadComboBox runat="server" ID="RadComboBox2" DataTextField="CategoryName"
+          <telerik:RadComboBox RenderMode="Lightweight" runat="server" ID="RadComboBox2" DataTextField="CategoryName"
             DataValueField="CategoryID" DataSourceID="CategoriesDataSource" SelectedValue='<%#Bind("CategoryID") %>'>
           </telerik:RadComboBox>
         </EditItemTemplate>

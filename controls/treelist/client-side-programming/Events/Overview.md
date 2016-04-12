@@ -19,7 +19,7 @@ This topic will introduce you to the client-side events of the **RadTreeList** c
 You can execute code on a certain event in the **TreeList** by attaching a function to the event in the ClientSettings-ClientEvents tag of the control:
 
 ````JavaScript
-<telerik:RadTreeList ID="RadTreeList1" runat="server" DataKeyNames="EmployeeID" ParentDataKeyNames="ReportsTo"
+<telerik:RadTreeList RenderMode="Lightweight" ID="RadTreeList1" runat="server" DataKeyNames="EmployeeID" ParentDataKeyNames="ReportsTo"
 	DataSourceID="SqlDataSource1" AutoGenerateColumns="true">
 	<ClientSettings>
 		<ClientEvents OnTreeListCreated="TreeListCreated" />

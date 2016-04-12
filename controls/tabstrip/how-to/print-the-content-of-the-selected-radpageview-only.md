@@ -30,7 +30,7 @@ position: 2
                myDoc.close();         
    }
    </script>
-   <telerik:RadTabStrip ID="RadTabStrip1" runat="server" MultiPageID="RadMultiPage1">
+   <telerik:RadTabStrip RenderMode="Lightweight" ID="RadTabStrip1" runat="server" MultiPageID="RadMultiPage1">
        <Tabs>
            <telerik:RadTab runat="server" Text="Root RadTab1">
            </telerik:RadTab>

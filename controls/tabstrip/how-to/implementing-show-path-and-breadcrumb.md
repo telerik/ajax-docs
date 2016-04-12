@@ -23,7 +23,7 @@ position: 5
 <telerik:RadSiteMap ID="BreadCrumbSiteMap" runat="server" DataTextField="Text" DataNavigateUrlField="NavigateUrl">
 	<DefaultLevelSettings ListLayout-RepeatDirection="Horizontal" SeparatorText="/" Layout="Flow" />
 </telerik:RadSiteMap>
-<telerik:RadTabStrip ID="RadTabStrip1" runat="server">
+<telerik:RadTabStrip RenderMode="Lightweight" ID="RadTabStrip1" runat="server">
 	<Tabs>
 		<telerik:RadTab runat="server" Text="Root RadTab1" NavigateUrl="BreadCrumbMenuTabstrip.aspx?Page=Root RadTab1">
 		</telerik:RadTab>

@@ -35,7 +35,7 @@ position: 3
 		}
 	}
 </script>
-<telerik:RadWindow ID="RadWindow1" runat="server" Modal="True" NavigateUrl="Dialog.aspx"
+<telerik:RadWindow RenderMode="Lightweight" ID="RadWindow1" runat="server" Modal="True" NavigateUrl="Dialog.aspx"
 	OpenerElementID="showDialog" OnClientClose="clientClose" OnClientShow="clientShow" ReloadOnShow="true">
 </telerik:RadWindow>
 Type initial value here:

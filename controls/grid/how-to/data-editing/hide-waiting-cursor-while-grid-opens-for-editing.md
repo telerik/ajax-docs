@@ -30,7 +30,7 @@ Here is some sample code:
   </AjaxSettings>  
   <ClientEvents OnRequestStart="RequestStart" OnResponseEnd="ResponseEnd" />
 </telerik:RadAjaxManager>
-<telerik:RadGrid id="RadGrid1" runat="server" ... /> 			
+<telerik:RadGrid RenderMode="Lightweight" id="RadGrid1" runat="server" ... /> 			
 ````
 
 

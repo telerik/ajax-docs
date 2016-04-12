@@ -43,7 +43,7 @@ You can check in **Example 1** how this event can be used for canceling the data
 		</WebServiceDataSourceSettings>
 	</DataSource>
 </telerik:RadClientDataSource>
-<telerik:RadSlider runat="server" ID="RadSlider1" Width="800px" Height="100px" ItemType="Item" 
+<telerik:RadSlider RenderMode="Lightweight" runat="server" ID="RadSlider1" Width="800px" Height="100px" ItemType="Item" 
 	ClientDataSourceID="RadClientDataSource1" OnClientItemDataBinding="sliderItemDataBinding">
 	<ItemBinding TextField="Title" ToolTipField="Description" ValueField="Date"></ItemBinding>
 </telerik:RadSlider>

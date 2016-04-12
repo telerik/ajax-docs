@@ -34,7 +34,7 @@ Configure the RadAjaxManager and RadEditor controls similar to the example marku
 ````ASP.NET
 <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server" OnAjaxRequest="RadAjaxManager1_AjaxRequest">
 </telerik:RadAjaxManager>
-<telerik:RadEditor ID="RadEditor1" runat="server" Skin="Web20" ToolsFile="ToolsFile.xml">
+<telerik:RadEditor RenderMode="Lightweight" ID="RadEditor1" runat="server" Skin="Web20" ToolsFile="ToolsFile.xml">
 </telerik:RadEditor>
 <script type="text/javascript">
 	Telerik.Web.UI.Editor.CommandList["Save"] = function (commandName, editor, oTool)

@@ -83,9 +83,9 @@ if (ValidatorUpdateDisplay && typeof (ValidatorUpdateDisplayOriginal) === "undef
 
 
 ````ASPNET
-<telerik:RadNumericTextBox ID="RadNumericTextBox1" runat="server" EmptyMessage="Enter ID">
+<telerik:RadNumericTextBox RenderMode="Lightweight" ID="RadNumericTextBox1" runat="server" EmptyMessage="Enter ID">
 </telerik:RadNumericTextBox>
-<telerik:RadNumericTextBox ID="RadNumericTextBox2" runat="server" EmptyMessage="Enter password">
+<telerik:RadNumericTextBox RenderMode="Lightweight" ID="RadNumericTextBox2" runat="server" EmptyMessage="Enter password">
 </telerik:RadNumericTextBox>
 <asp:Button ID="Button1" runat="server" Text="PostBack" />
 <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" Text="ID is required" ControlToValidate="RadNumericTextBox1"

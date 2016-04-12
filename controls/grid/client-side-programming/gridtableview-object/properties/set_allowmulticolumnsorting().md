@@ -17,7 +17,7 @@ position: 1
 Sets whether multi-column sorting is enabled for the grid instance when bound on client-side. Review the [toggleAllowMultiColumnSorting client-side method](http://demos.telerik.com/aspnet-ajax/grid/examples/client/databinding/defaultcs.aspx) on this online demo for more details.
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="True"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" AllowPaging="True"
     AllowSorting="true">
     <ClientSettings>
         <DataBinding SelectMethod="GetDataAndCount" Location="Service.svc"

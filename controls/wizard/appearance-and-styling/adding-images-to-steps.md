@@ -33,7 +33,7 @@ The following properties let you add images to steps:
 The following example uses the **ImageUrl** property to apply images to the steps:
 
 ````ASPNET
-<telerik:RadWizard runat="server">
+<telerik:RadWizard RenderMode="Lightweight" runat="server">
 	<WizardSteps>
 		<telerik:RadWizardStep ImageUrl="Images/YourAccount.png" Title="Your account">
 			

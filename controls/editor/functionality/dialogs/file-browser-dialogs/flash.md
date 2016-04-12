@@ -41,7 +41,7 @@ With the settings above, the users will be able to browse all subfolders of the 
 >caption Example 1: Setting Flash manager properties inline.
 
 ````ASP.NET
-<telerik:RadEditor runat="server" ID="RadEditor1">
+<telerik:RadEditor RenderMode="Lightweight" runat="server" ID="RadEditor1">
 	<ImageManager ViewPaths="~/Flash" UploadPaths="~/Flash/New" DeletePaths="~/Flash/New/Articles,~/Flash/New/News" />
 </telerik:RadEditor>
 ````

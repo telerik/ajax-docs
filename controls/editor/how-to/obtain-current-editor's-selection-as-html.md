@@ -27,7 +27,7 @@ The example below shows how to obtain the current selection using a custom butto
 			}
 		</style>
 		...
-		<telerik:RadEditor runat="server" ID="RadEditor1">
+		<telerik:RadEditor RenderMode="Lightweight" runat="server" ID="RadEditor1">
 			<Tools>
 				<telerik:EditorToolGroup>
 					<telerik:EditorTool Name="CustomSelectionTool" />

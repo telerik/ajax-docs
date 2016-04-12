@@ -24,7 +24,7 @@ The event passes a **RadNotificationEventArgs** to the handler which contains th
 In the example below the server time is populated in the notification by using its **Text** property.
 
 ````ASP.NET
-<telerik:RadNotification runat="server" ID="RadNotification1" ShowInterval="5000"
+<telerik:RadNotification RenderMode="Lightweight" runat="server" ID="RadNotification1" ShowInterval="5000"
         AutoCloseDelay="2000" Position="BottomRight" Width="250px" Height="150px"
         LoadContentOn="EveryShow" OnCallbackUpdate="OnCallbackUpdate">
 </telerik:RadNotification>

@@ -42,7 +42,7 @@ With the settings above, the users will be able to browse all subfolders of the 
 >caption Example 1: Setting Media manager properties inline.
 
 ````ASP.NET
-<telerik:RadEditor runat="server" ID="RadEditor1">
+<telerik:RadEditor RenderMode="Lightweight" runat="server" ID="RadEditor1">
 	<ImageManager ViewPaths="~/Media" UploadPaths="~/Media/New" 
 		DeletePaths="~/Media/New/Articles,~/Media/New/News" />
 </telerik:RadEditor>

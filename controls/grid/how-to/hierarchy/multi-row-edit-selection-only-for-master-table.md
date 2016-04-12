@@ -51,7 +51,7 @@ function RowSelecting(sender, eventArgs) {
     }
   }
 </script>
-<telerik:RadGrid ID="RadGrid1" runat="server" AllowMultiRowEdit="true" AllowSorting="true"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" AllowMultiRowEdit="true" AllowSorting="true"
   DataSourceID="SqlDataSource1" AllowPaging="true" PageSize="3" AllowMultiRowSelection="true"
   OnItemCommand="RadGrid1_ItemCommand">
   <MasterTableView DataKeyNames="CustomerID" Name="Customers">

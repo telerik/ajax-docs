@@ -21,7 +21,7 @@ position: 8
 **SOLUTION** To achieve the task we will leave the node enabled, but we will add an additional CSS class ("rtDisabled") to its parent element. This will give the node a "disabled" look. We will assign a category "Disabled" to the node so we can distinguish it from the others. To prevent selecting that node we will subscribe to the [OnClientNodeClicking]({%slug treeview/client-side-programming/events/onclientnodeclicking%}) event and cancel the event if that node is clicked.
 
 ````ASPNET
-<telerik:RadTreeView ID="RadTreeView1" OnClientNodeClicking="OnClientNodeClickingHandler"
+<telerik:RadTreeView RenderMode="Lightweight" ID="RadTreeView1" OnClientNodeClicking="OnClientNodeClickingHandler"
     runat="server">
     <Nodes>
         <telerik:RadTreeNode runat="server" Text="Root RadTreeNode1" Category="Disabled">

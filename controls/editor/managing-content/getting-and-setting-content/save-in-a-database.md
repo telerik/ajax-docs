@@ -71,7 +71,7 @@ In a new AJAX Enabled Web Application:
 </telerik:RadComboBox>
 <asp:Button ID="btnNew" runat="server" OnClick="btnNew_Click" Text="New" />
 <asp:Button ID="btnSave" runat="server" Text="Save" OnClick="btnSave_Click" /><br />
-<telerik:RadEditor ID="RadEditor1" runat="server" Skin="Vista" Width="500px" Height="400px">               
+<telerik:RadEditor RenderMode="Lightweight" ID="RadEditor1" runat="server" Skin="Vista" Width="500px" Height="400px">               
    <Tools>
 	   <telerik:EditorToolGroup>
 		   <telerik:EditorTool Name="Bold" />

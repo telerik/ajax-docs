@@ -57,7 +57,7 @@ You can also perform validation over the file input as shown in the demo code:
 </telerik:RadCodeBlock>
 ````
 ````ASP.NET
-<telerik:RadGrid runat="server" ID="RadGrid1" Skin="Office2007" AllowPaging="True"
+<telerik:RadGrid RenderMode="Lightweight" runat="server" ID="RadGrid1" Skin="Office2007" AllowPaging="True"
   AllowSorting="True" AutoGenerateColumns="False" Width="97%" ShowStatusBar="True"
   GridLines="None" OnItemCreated="RadGrid1_ItemCreated" PageSize="3" OnInsertCommand="RadGrid1_InsertCommand"
   OnNeedDataSource="RadGrid1_NeedDataSource" OnDeleteCommand="RadGrid1_DeleteCommand"
@@ -73,7 +73,7 @@ You can also perform validation over the file input as shown in the demo code:
           <asp:Label runat="server" ID="lblName" Text='<%# Eval("Name") %>' />
         </ItemTemplate>
         <EditItemTemplate>
-          <telerik:RadTextBox runat="server" Width="200px" ID="txbName" Text='<%# Eval("Name") %>' /><asp:RequiredFieldValidator
+          <telerik:RadTextBox RenderMode="Lightweight" runat="server" Width="200px" ID="txbName" Text='<%# Eval("Name") %>' /><asp:RequiredFieldValidator
             ID="Requiredfieldvalidator1" runat="server" ControlToValidate="txbName" ErrorMessage="Please, enter a name!"
             Display="Dynamic" SetFocusOnError="true" />
         </EditItemTemplate>
@@ -84,7 +84,7 @@ You can also perform validation over the file input as shown in the demo code:
           <asp:Label ID="lblDescription" runat="server" Text='<%# TrimDescription(Eval("Description") as string) %>' />
         </ItemTemplate>
         <EditItemTemplate>
-          <telerik:RadTextBox ID="txbDescription" Width="300px" runat="server" TextMode="MultiLine"
+          <telerik:RadTextBox RenderMode="Lightweight" ID="txbDescription" Width="300px" runat="server" TextMode="MultiLine"
             Text='<%# Eval("Description") %>' Height="150px" />
         </EditItemTemplate>
         <ItemStyle VerticalAlign="Top" />
@@ -96,7 +96,7 @@ You can also perform validation over the file input as shown in the demo code:
             AlternateText='<%#Eval("Name", "Photo of {0}") %>' />
         </ItemTemplate>
         <EditItemTemplate>
-          <telerik:RadAsyncUpload runat="server" ID="AsyncUpload1" OnClientFileUploaded="OnClientFileUploaded"
+          <telerik:RadAsyncUpload RenderMode="Lightweight" runat="server" ID="AsyncUpload1" OnClientFileUploaded="OnClientFileUploaded"
             Skin="Office2007" AllowedFileExtensions="jpg,jpeg,png,gif" MaxFileSize="1048576"
             OnValidatingFile="RadAsyncUpload1_ValidatingFile">
           </telerik:RadAsyncUpload>

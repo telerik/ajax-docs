@@ -60,7 +60,7 @@ The upcoming example uses **ObjectDataSource** and **SelectParameter** to repres
         }
     }
 </script>
-<telerik:RadGrid AllowFilteringByColumn="False" id="RadGrid1" runat="server" Width="500px" DataSourceID="ObjectDataSource1" AutoGenerateColumns="False" AllowPaging="True" PageSize="20">
+<telerik:RadGrid RenderMode="Lightweight" AllowFilteringByColumn="False" id="RadGrid1" runat="server" Width="500px" DataSourceID="ObjectDataSource1" AutoGenerateColumns="False" AllowPaging="True" PageSize="20">
      <MasterTableView CommandItemDisplay="Top">
           <CommandItemTemplate>
                <div style="float: right">

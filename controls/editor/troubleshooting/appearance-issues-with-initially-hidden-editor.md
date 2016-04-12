@@ -54,11 +54,11 @@ The workaround for this problem is to register the RadEditor’s CSS files manua
 			<asp:UpdatePanel runat="server">
 				<ContentTemplate>
 					<div id="wrapper" runat="server">
-						<telerik:RadEditor ID="RadEditor1" runat="server">
+						<telerik:RadEditor RenderMode="Lightweight" ID="RadEditor1" runat="server">
 						</telerik:RadEditor>
 					</div>
 
-					<telerik:RadButton runat="server" ID="RadButton1" Text="Show Editor" OnClick="RadButton1_Click">
+					<telerik:RadButton RenderMode="Lightweight" runat="server" ID="RadButton1" Text="Show Editor" OnClick="RadButton1_Click">
 					</telerik:RadButton>
 
 				</ContentTemplate>
@@ -104,11 +104,11 @@ To resolve this, call the **repaint()** method of the editor, after the containe
 
 ````ASP.NET
 <div id="wrapper" style="display:none;">
-	<telerik:RadEditor ID="RadEditor1" runat="server">
+	<telerik:RadEditor RenderMode="Lightweight" ID="RadEditor1" runat="server">
 	</telerik:RadEditor>
 </div>
 
-<telerik:RadButton runat="server" ID="RadButton1" Text="Toggle Visibility"
+<telerik:RadButton RenderMode="Lightweight" runat="server" ID="RadButton1" Text="Toggle Visibility"
 	OnClientClicked="OnClientClicked" AutoPostBack="false">
 </telerik:RadButton>
 
@@ -143,14 +143,14 @@ To resolve this, the editor’s **onParentNodeChanged()** method must be called 
 
 ````ASP.NET
 <div class="container">
-	<telerik:RadEditor ID="RadEditor1" runat="server">
+	<telerik:RadEditor RenderMode="Lightweight" ID="RadEditor1" runat="server">
 	</telerik:RadEditor>
-	<telerik:RadButton runat="server" ID="RadButton1" Text="Move editor here" 
+	<telerik:RadButton RenderMode="Lightweight" runat="server" ID="RadButton1" Text="Move editor here" 
 		AutoPostBack="false" OnClientClicked="OnClientClicked" CssClass="button"></telerik:RadButton>
 </div>
 
 <div class="container">
-	<telerik:RadButton runat="server" ID="RadButton2" Text="Move editor here" 
+	<telerik:RadButton RenderMode="Lightweight" runat="server" ID="RadButton2" Text="Move editor here" 
 		AutoPostBack="false" OnClientClicked="OnClientClicked" CssClass="button"></telerik:RadButton>
 </div>
 
@@ -192,7 +192,7 @@ The solution for this problem is to attach a handler to the resize event of the 
 		</telerik:RadScriptManager>
 
 		<div style="width: 60%;">
-			<telerik:RadEditor runat="server" ID="RadEditor1"
+			<telerik:RadEditor RenderMode="Lightweight" runat="server" ID="RadEditor1"
 				Width="100%" OnClientLoad="OnClientLoad">
 		
 			</telerik:RadEditor>

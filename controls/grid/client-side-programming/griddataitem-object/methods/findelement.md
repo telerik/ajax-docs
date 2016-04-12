@@ -26,7 +26,7 @@ This method takes control id for an argument and returns the corresponding DOM e
 Example:
 
 ````ASP.NET
-	    <telerik:RadGrid ID="RadGrid1" runat="server">
+	    <telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server">
 	        <MasterTableView> 
 	            <Columns> 
 	                <telerik:GridTemplateColumn> 

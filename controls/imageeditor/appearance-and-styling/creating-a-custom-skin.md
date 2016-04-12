@@ -40,7 +40,7 @@ The second file represents the actual skin of the control, and its name consists
 
 	__ASP.NET__
 
-		<telerik:RadImageEditor ID="rim1" runat="server" EnableEmbeddedSkins="false" Skin="MyCustomSkin">
+		<telerik:RadImageEditor RenderMode="Lightweight" ID="rim1" runat="server" EnableEmbeddedSkins="false" Skin="MyCustomSkin">
 		</telerik:RadImageEditor>
 
 

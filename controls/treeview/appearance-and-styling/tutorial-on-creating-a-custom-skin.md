@@ -42,7 +42,7 @@ In the ASP.NET markup, replace the existing definition for the **RadTreeView** w
 
 
 ````ASPNET
-<telerik:RadTreeView ID="RadTreeView1" runat="server" CheckBoxes="True" EnableEmbeddedSkins="False">
+<telerik:RadTreeView RenderMode="Lightweight" ID="RadTreeView1" runat="server" CheckBoxes="True" EnableEmbeddedSkins="False">
     <Nodes>
         <telerik:RadTreeNode runat="server" Text="Composers" Expanded="True" ExpandMode="ClientSide">
             <Nodes>

@@ -53,7 +53,7 @@ When you have already retrieved the desired data source from a web service or fr
 	}
 </script>
 
-<telerik:RadSlider runat="server" ID="RadSlider1" Width="400px" Height="70px" ItemType="Item" 
+<telerik:RadSlider RenderMode="Lightweight" runat="server" ID="RadSlider1" Width="400px" Height="70px" ItemType="Item" 
 	OnClientLoad="OnClientLoad">
 	<ItemBinding TextField="ItemName" ToolTipField="ItemToolTip" ValueField="ItemValue">
 	</ItemBinding>
@@ -79,7 +79,7 @@ The **RadClientDataSource** control allows you to connect to a web service and f
 	</DataSource>
 </telerik:RadClientDataSource>
 
-<telerik:RadSlider runat="server" ID="RadSlider2" Width="800px" Height="100px" ItemType="Item" IsSelectionRangeEnabled="true"
+<telerik:RadSlider RenderMode="Lightweight" runat="server" ID="RadSlider2" Width="800px" Height="100px" ItemType="Item" IsSelectionRangeEnabled="true"
 	SelectionStart="0" SelectionEnd="3" ClientDataSourceID="RadClientDataSource1">
 	<ItemBinding TextField="Title" ToolTipField="Description" ValueField="Date"></ItemBinding>
 </telerik:RadSlider>

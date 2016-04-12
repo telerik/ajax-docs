@@ -23,7 +23,7 @@ In order this to work, you need to select/unselect the node on its checking/unch
 Here is the relevant code:
 
 ````ASPNET
-<telerik:RadTreeView ID="RadTreeView1" runat="server" CheckBoxes="true" OnClientNodeChecked="OnClientNodeCheckedHandler"
+<telerik:RadTreeView RenderMode="Lightweight" ID="RadTreeView1" runat="server" CheckBoxes="true" OnClientNodeChecked="OnClientNodeCheckedHandler"
     Skin="Sunset">
 </telerik:RadTreeView>
 
@@ -45,7 +45,7 @@ function OnClientNodeCheckedHandler(sender, eventArgs) {
 The custom validator will check if the array containing the checked nodes has at least one node.
 
 ````ASPNET
-<telerik:RadTreeView ID="RadTreeView2" runat="server" CheckBoxes="true" Skin="Hay">
+<telerik:RadTreeView RenderMode="Lightweight" ID="RadTreeView2" runat="server" CheckBoxes="true" Skin="Hay">
 </telerik:RadTreeView>
 
 <asp:CustomValidator ID="CustomValidator1" runat="server" ClientValidationFunction="validateTreeViewCheckboxes"

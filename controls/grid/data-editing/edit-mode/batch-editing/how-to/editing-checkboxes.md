@@ -17,7 +17,7 @@ The following example illustrates how you can cahnge the value of a cell by clic
 
 
 ````ASP.NET
-<telerik:RadGrid runat="server" ID="RadGrid1"
+<telerik:RadGrid RenderMode="Lightweight" runat="server" ID="RadGrid1"
 	OnNeedDataSource="RadGrid1_NeedDataSource"
 	AutoGenerateColumns="false"
 	AllowPaging="true" PageSize="10">

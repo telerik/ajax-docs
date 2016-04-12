@@ -37,7 +37,7 @@ You can attach to the browser event such as:
 		});
 	}
 </script>
-<telerik:RadEditor runat="server" ID="RadEditor1" OnClientLoad="OnClientLoad">
+<telerik:RadEditor RenderMode="Lightweight" runat="server" ID="RadEditor1" OnClientLoad="OnClientLoad">
 </telerik:RadEditor>
 ````
 
@@ -64,7 +64,7 @@ Here is an example:
 		});
 	}
 </script>
-<telerik:RadEditor runat="server" OnClientLoad="OnClientLoad" ID="RadEditor1">
+<telerik:RadEditor RenderMode="Lightweight" runat="server" OnClientLoad="OnClientLoad" ID="RadEditor1">
 </telerik:RadEditor>
 ````
 

@@ -37,7 +37,7 @@ Later, this class can be used to specify the look of the **Marker** using a CSS 
 **Example 1**: Setting the Shape property to a custom value
 
 ````ASP.NET
-<telerik:RadMap runat="server" ID="RadMap1">
+<telerik:RadMap RenderMode="Lightweight" runat="server" ID="RadMap1">
 	<MarkersCollection>
 		<telerik:MapMarker Shape="myCustomShape"></telerik:MapMarker>
 		<telerik:MapMarker Shape="my-custom-shape"></telerik:MapMarker>
@@ -66,7 +66,7 @@ In order to change the marker color, you will need to decorate the **:before** p
 	}
 </style>
 
-<telerik:RadMap runat="server" ID="RadMap1" Zoom="1">
+<telerik:RadMap RenderMode="Lightweight" runat="server" ID="RadMap1" Zoom="1">
 	<MarkersCollection>
 		<telerik:MapMarker Shape="myCustomShape">
 			<LocationSettings Latitude="0" Longitude="0"/>
@@ -123,7 +123,7 @@ In order to replace the **Marker**’s glyph icon with an actual image, you shou
 	}
 </style>
 
-<telerik:RadMap runat="server" ID="RadMap1" Zoom="1">
+<telerik:RadMap RenderMode="Lightweight" runat="server" ID="RadMap1" Zoom="1">
 	<MarkersCollection>
 		<telerik:MapMarker Shape="myCustomShape">
 			<LocationSettings Latitude="0" Longitude="0" />
@@ -187,7 +187,7 @@ To make sure the tooltip looks as expected when its marker size is changed,you s
 	}
 </style>
 
-<telerik:RadMap runat="server" ID="RadMap1" Zoom="1">
+<telerik:RadMap RenderMode="Lightweight" runat="server" ID="RadMap1" Zoom="1">
 	<MarkersCollection>
 		<telerik:MapMarker Shape="myCustomShape" Title="Tooltip Text">
 			<LocationSettings Latitude="0" Longitude="0" />
@@ -227,7 +227,7 @@ After changing the height of the span element rendered by the **Marker**, in ord
 	}
 </style>
 
-<telerik:RadMap runat="server" ID="RadMap1" Zoom="1">
+<telerik:RadMap RenderMode="Lightweight" runat="server" ID="RadMap1" Zoom="1">
 	<MarkersCollection>
 		<telerik:MapMarker Shape="pinTarget" >
 			<LocationSettings Latitude="0" Longitude="50" />

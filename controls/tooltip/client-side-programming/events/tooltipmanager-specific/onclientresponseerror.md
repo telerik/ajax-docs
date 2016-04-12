@@ -32,7 +32,7 @@ The **OnClientResponseError** event is fired when a server error occurs during t
         }
     }
 </script>
-<telerik:RadToolTipManager ID="RadToolTipManager1" OnClientResponseError="OnClientResponseError">
+<telerik:RadToolTipManager RenderMode="Lightweight" ID="RadToolTipManager1" OnClientResponseError="OnClientResponseError">
     <WebServiceSettings Method="GetToolTipData" Path="ToolTipWebService.asmx" />
 </telerik:RadToolTipManager>
 ````

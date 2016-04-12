@@ -25,7 +25,7 @@ The **RadTextTile** is designed to only show some text as its primary content. T
 **RadTileList** example:
 
 ````ASP.NET
-<telerik:RadTileList runat="server" ID="RadTileList1" Skin="Glow">
+<telerik:RadTileList RenderMode="Lightweight" runat="server" ID="RadTileList1" Skin="Glow">
 	<Groups>
 		<telerik:TileGroup>
 			<telerik:RadTextTile Shape="Wide" Font-Size="18px" Font-Bold="true"

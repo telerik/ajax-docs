@@ -24,13 +24,13 @@ My RadComboBoxes' declaration is below:
 
 ````ASPNET
 Enter Your Name:
-<telerik:RadComboBox ID="FullName" runat="server" Skin="Vista" AllowCustomText="true">
+<telerik:RadComboBox RenderMode="Lightweight" ID="FullName" runat="server" Skin="Vista" AllowCustomText="true">
 </telerik:RadComboBox><br />
 Enter Your Email :
-<telerik:RadComboBox ID="Email" runat="server" Skin="Vista" AllowCustomText="true">
+<telerik:RadComboBox RenderMode="Lightweight" ID="Email" runat="server" Skin="Vista" AllowCustomText="true">
 </telerik:RadComboBox><br />
 Enter Your ..........
-<telerik:RadComboBox ID="RadComboBox1" runat="server" Skin="Vista" AllowCustomText="true">
+<telerik:RadComboBox RenderMode="Lightweight" ID="RadComboBox1" runat="server" Skin="Vista" AllowCustomText="true">
 </telerik:RadComboBox>
 ````
 

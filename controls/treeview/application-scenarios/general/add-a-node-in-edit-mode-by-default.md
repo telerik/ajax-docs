@@ -80,7 +80,7 @@ Protected Sub RadTreeView1_NodeEdit(ByVal sender As Object, ByVal e As RadTreeNo
 End Sub
 ````
 ````ASPNET
-<telerik:RadTreeView ID="RadTreeView1" OnNodeEdit="RadTreeView1_NodeEdit" OnContextMenuItemClick="RadTreeView1_ContextMenuItemClick"
+<telerik:RadTreeView RenderMode="Lightweight" ID="RadTreeView1" OnNodeEdit="RadTreeView1_NodeEdit" OnContextMenuItemClick="RadTreeView1_ContextMenuItemClick"
     runat="Server">
     <ContextMenus>
         <telerik:RadTreeViewContextMenu runat="server" ID="RadTreeViewContextMenu">

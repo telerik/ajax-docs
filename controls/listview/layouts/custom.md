@@ -26,7 +26,7 @@ ItemPlaceholderID="PlaceHolder1" AllowPaging="true">
                     <asp:PlaceHolder ID="PlaceHolder1" runat="server"></asp:PlaceHolder>
                 </div>
                 <div class="pager">
-                    <telerik:RadDataPager ID="RadDataPager1" runat="server" PageSize="4"
+                    <telerik:RadDataPager RenderMode="Lightweight" ID="RadDataPager1" runat="server" PageSize="4"
                         Skin="Default" Width="100%">
                         <Fields>
                             <telerik:RadDataPagerSliderField />

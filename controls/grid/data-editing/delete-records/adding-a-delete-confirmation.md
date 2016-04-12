@@ -41,7 +41,7 @@ In this case you need to implement a different approach (without setting the **C
 
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" runat="server">
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server">
   <MasterTableView AutoGenerateColumns="False">
     <Columns>
       <telerik:GridBoundColumn HeaderText="ContactName" DataField="ContactName" UniqueName="ContactName">
@@ -91,7 +91,7 @@ In case you would like to display a confirmation dialog to prompt the user wheth
 Here is an example usage:
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="AccessDataSource1" OnNeedDataSource="RadGrid1_NeedDataSource">
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" DataSourceID="AccessDataSource1" OnNeedDataSource="RadGrid1_NeedDataSource">
   <MasterTableView AutoGenerateColumns="False" DataKeyNames="CustomerID" DataSourceID="AccessDataSource1">
     <Columns>
       <telerik:GridBoundColumn DataField="CustomerID" HeaderText="CustomerID" ReadOnly="True"

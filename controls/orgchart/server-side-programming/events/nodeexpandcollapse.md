@@ -29,7 +29,7 @@ The event handler receives two parameters:
 When this event is handled in order to make the changes persist properly the collapsed state of the node should be updated as it is shown in the sample code below:
 
 ````ASPNET
-<telerik:RadOrgChart runat="server" ID="RadOrgChart1" EnableCollapsing="true" 
+<telerik:RadOrgChart RenderMode="Lightweight" runat="server" ID="RadOrgChart1" EnableCollapsing="true" 
     EnableGroupCollapsing="true"  OnNodeExpandCollapse="RadOrgChart1_NodeExpandCollapse" OnGroupExpandCollapse="RadOrgChart1_GroupExpandCollapse">
     <GroupEnabledBinding>
         <NodeBindingSettings DataSourceID="NodesDataSource" DataFieldID="ID" DataFieldParentID="ParentID" DataCollapsedField="Collapsed"

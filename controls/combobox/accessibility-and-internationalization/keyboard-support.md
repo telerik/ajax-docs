@@ -20,7 +20,7 @@ position: 0
 
 ````ASPNET
 	     
-<telerik:RadComboBox runat="server" AccessKey="W" ... />
+<telerik:RadComboBox RenderMode="Lightweight" runat="server" AccessKey="W" ... />
 				
 ````
 

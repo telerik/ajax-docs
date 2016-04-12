@@ -42,7 +42,7 @@ In order to explain better the CSS classes of RadRotator, we will use both Rotat
 
 	**ASP.NET**
 
-		<telerik:RadRotator ID="RadRotator1" runat="server" Skin="MyCustomSkin" EnableEmbeddedSkins="false"
+		<telerik:RadRotator RenderMode="Lightweight" ID="RadRotator1" runat="server" Skin="MyCustomSkin" EnableEmbeddedSkins="false"
 			EnableEmbeddedBaseStylesheet="false">
 		</telerik:RadRotator>
 

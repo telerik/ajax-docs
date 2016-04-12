@@ -31,7 +31,7 @@ The example below demonstrates how to attach the onkeydown event to the content 
 	}
 </script>
 
-<telerik:RadEditor runat="server" ID="RadEditor1" OnClientLoad="OnClientLoad"></telerik:RadEditor> 
+<telerik:RadEditor RenderMode="Lightweight" runat="server" ID="RadEditor1" OnClientLoad="OnClientLoad"></telerik:RadEditor> 
 ````
 
 

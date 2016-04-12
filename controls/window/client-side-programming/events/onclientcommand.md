@@ -29,7 +29,7 @@ The event handler receives the following arguments:
 >caption Example 1: Getting the command and cancelling its execution according to a condition.
 
 ````ASP.NET
-<telerik:RadWindow runat="server" ID="RadWindow1" OnClientCommand="OnClientCommandHandler" VisibleonPageLoad="true"></telerik:RadWindow>
+<telerik:RadWindow RenderMode="Lightweight" runat="server" ID="RadWindow1" OnClientCommand="OnClientCommandHandler" VisibleonPageLoad="true"></telerik:RadWindow>
 <script type="text/javascript">
 	function OnClientCommandHandler(sender, args) {
 		var command = args.get_commandName(); //get the initiated command

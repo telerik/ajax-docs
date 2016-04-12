@@ -31,7 +31,7 @@ Inside a **TimeTemplate** or **AlternatingTimeTemplate**, you can use a **DataBi
 The following example illustrates how to add templates at design time to the embedded **RadTimeView** control:
 
 ````ASPNET
-<telerik:RadTimePicker ID="RadTimePicker1" runat="server">
+<telerik:RadTimePicker RenderMode="Lightweight" ID="RadTimePicker1" runat="server">
     <TimeView
         StartTime="09:00:00"
         EndTime="17:00:10"

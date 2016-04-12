@@ -31,13 +31,13 @@ Here it is also demonstrated how to hide the default Apply button of the RadFilt
 
 
 ````ASPNET
-<telerik:RadFilter runat="server" ID="RadFilter1" FilterContainerID="RadGrid1" ShowApplyButton="false" />
-<telerik:RadGrid runat="server" ID="RadGrid1" AutoGenerateColumns="false" DataSourceID="SqlDataSource1"
+<telerik:RadFilter RenderMode="Lightweight" runat="server" ID="RadFilter1" FilterContainerID="RadGrid1" ShowApplyButton="false" />
+<telerik:RadGrid RenderMode="Lightweight" runat="server" ID="RadGrid1" AutoGenerateColumns="false" DataSourceID="SqlDataSource1"
     Skin="Vista" AllowPaging="true" AllowSorting="true" AllowFilteringByColumn="true"
     OnItemCommand="RadGrid1_ItemCommand">
     <MasterTableView IsFilterItemExpanded="false" CommandItemDisplay="Top">
         <CommandItemTemplate>
-            <telerik:RadToolBar runat="server" ID="RadToolBar1">
+            <telerik:RadToolBar RenderMode="Lightweight" runat="server" ID="RadToolBar1">
                 <Items>
                     <telerik:RadToolBarButton Text="Apply filter" CommandName="FilterRadGrid" ImageUrl="<%# GetFilterIcon() %>"
                         ImagePosition="Right" />

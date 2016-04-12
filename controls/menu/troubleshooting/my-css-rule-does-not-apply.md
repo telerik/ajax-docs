@@ -23,7 +23,7 @@ position: 2
         color: red;
     }
 </style>
-<telerik:RadMenu ID="RadMenu1" runat="server">
+<telerik:RadMenu RenderMode="Lightweight" ID="RadMenu1" runat="server">
     <Items>
         <telerik:RadMenuItem Text="Home" CssClass="MyItem">
         </telerik:RadMenuItem>

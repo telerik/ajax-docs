@@ -24,7 +24,7 @@ Please review the code for more details.
 <form id="form1" runat="server">
 <asp:ScriptManager ID="ScriptManager1" runat="server">
 </asp:ScriptManager>
-<telerik:RadTreeView ID="RadTreeView1" runat="server">
+<telerik:RadTreeView RenderMode="Lightweight" ID="RadTreeView1" runat="server">
     <Nodes>
         <telerik:RadTreeNode runat="server" Text="Root RadTreeNode1">
             <Nodes>

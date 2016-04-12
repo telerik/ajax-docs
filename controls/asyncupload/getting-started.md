@@ -29,7 +29,7 @@ This tutorial will walk you through creating a Web page that uses **RadAsyncUplo
 By default the **TemporaryFolder** property is set to the **App_Data/RadUploadTemp** folder. The files are uploaded with randomly generated unique names.
 
 ````ASPNET
-<telerik:RadAsyncUpload ID="RadAsyncUpload1" TargetFolder="uploads" runat="server"></telerik:RadAsyncUpload>				
+<telerik:RadAsyncUpload RenderMode="Lightweight" ID="RadAsyncUpload1" TargetFolder="uploads" runat="server"></telerik:RadAsyncUpload>				
 ````
 
 1. Finally, add a simple RadButton or an asp.net Button on the page that will postback. Press F5 from the keyboard to build and run the application. Now you need to select a file that will be uploaded. You will see the loading image indicating that the file is uploaded asynchronously. During the upload the page is interactive to the user. After clicking on the postback button - the file is saved to the **TargetFolder**.

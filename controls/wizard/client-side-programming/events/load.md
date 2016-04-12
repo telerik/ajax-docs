@@ -33,15 +33,15 @@ The client-side **OnLoad** event handler receives one argument:
 	}
 </script>
 
-<telerik:RadWizard ID="RadWizard1" runat="server" OnClientLoad="OnClientLoad">
+<telerik:RadWizard RenderMode="Lightweight" ID="RadWizard1" runat="server" OnClientLoad="OnClientLoad">
 	<WizardSteps>
 		<telerik:RadWizardStep Title="Step1">
-			<telerik:RadTextBox ID="RadTextBox2" runat="server"></telerik:RadTextBox>
-			<telerik:RadTextBox ID="RadTextBox1" runat="server"></telerik:RadTextBox>
+			<telerik:RadTextBox RenderMode="Lightweight" ID="RadTextBox2" runat="server"></telerik:RadTextBox>
+			<telerik:RadTextBox RenderMode="Lightweight" ID="RadTextBox1" runat="server"></telerik:RadTextBox>
 		</telerik:RadWizardStep>
 		<telerik:RadWizardStep Title="Step2">
-			<telerik:RadTextBox ID="RadTextBox3" runat="server"></telerik:RadTextBox>
-			<telerik:RadTextBox ID="RadTextBox4" runat="server"></telerik:RadTextBox>
+			<telerik:RadTextBox RenderMode="Lightweight" ID="RadTextBox3" runat="server"></telerik:RadTextBox>
+			<telerik:RadTextBox RenderMode="Lightweight" ID="RadTextBox4" runat="server"></telerik:RadTextBox>
 		</telerik:RadWizardStep>
 	</WizardSteps>
 </telerik:RadWizard>

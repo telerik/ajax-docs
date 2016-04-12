@@ -35,7 +35,7 @@ The **ItemSelected** event handler receives two arguments:
 Use the **ItemSelected** event handler to respond in server-side code when the user changes the current selection:
 
 ````ASPNET
-<telerik:RadDropDownList ID="RadDropDownList1"
+<telerik:RadDropDownList RenderMode="Lightweight" ID="RadDropDownList1"
 	 runat="server"
 	 AutoPostBack="true"
 	 OnItemSelected="RadDropDownList1_ItemSelected">

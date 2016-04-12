@@ -161,7 +161,7 @@ Below are the code snippets from the sample:
 
 <div style="height: 100%; padding: 10px">
 
-<telerik:RadGrid ID="RadGrid1" CssClass="grid" DataSourceID="SqlDataSource1" runat="server" Skin="Silk"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" CssClass="grid" DataSourceID="SqlDataSource1" runat="server" Skin="Silk"
     GridLines="None" OnDataBound="RadGrid1_DataBound" OnColumnCreated="RadGrid1_ColumnCreated" Height="300px">
     <MasterTableView TableLayout="Fixed" ClientDataKeyNames="EmployeeID" />                       
     <ClientSettings>
@@ -177,7 +177,7 @@ Below are the code snippets from the sample:
     SelectCommand="SELECT [EmployeeID], [LastName], [FirstName], [Title], [TitleOfCourtesy], [BirthDate], [Notes] FROM [Employees]">            
 </asp:SqlDataSource>
 
-<telerik:RadTabStrip ID="RadTabStrip1" OnClientTabSelected="tabSelected" Style="margin-top: 10px;"
+<telerik:RadTabStrip RenderMode="Lightweight" ID="RadTabStrip1" OnClientTabSelected="tabSelected" Style="margin-top: 10px;"
     SelectedIndex="0" runat="server" Skin="Silk">
     <Tabs>
         <telerik:RadTab Text="Edit employee" />
@@ -205,7 +205,7 @@ Below are the code snippets from the sample:
                  Last name:
             </td>
             <td>
-                 <telerik:RadTextBox ID="LastName" runat="server" Skin="Silk" />
+                 <telerik:RadTextBox RenderMode="Lightweight" ID="LastName" runat="server" Skin="Silk" />
             </td>
         </tr>
         <tr>
@@ -213,7 +213,7 @@ Below are the code snippets from the sample:
                  First name:
             </td>
             <td>
-                 <telerik:RadTextBox ID="FirstName" runat="server" Skin="Silk" />
+                 <telerik:RadTextBox RenderMode="Lightweight" ID="FirstName" runat="server" Skin="Silk" />
             </td>
         </tr>
         <tr>
@@ -221,7 +221,7 @@ Below are the code snippets from the sample:
                  Title:
             </td>
             <td>
-                 <telerik:RadTextBox ID="Title" runat="server" Skin="Silk" />
+                 <telerik:RadTextBox RenderMode="Lightweight" ID="Title" runat="server" Skin="Silk" />
             </td>
         </tr>
         <tr>
@@ -229,7 +229,7 @@ Below are the code snippets from the sample:
                  Title of courtesy:
             </td>
             <td>
-                 <telerik:RadComboBox ID="TitleOfCourtesy" runat="server" Skin="Silk">
+                 <telerik:RadComboBox RenderMode="Lightweight" ID="TitleOfCourtesy" runat="server" Skin="Silk">
                      <Items>
                          <telerik:RadComboBoxItem Text="" Value="" />
                          <telerik:RadComboBoxItem Text="Dr." Value="Dr." />
@@ -245,7 +245,7 @@ Below are the code snippets from the sample:
                  Birth date:
             </td>
             <td>
-                 <telerik:RadDatePicker ID="BirthDate" MinDate="01/01/1900" runat="server" Skin="Silk" />
+                 <telerik:RadDatePicker RenderMode="Lightweight" ID="BirthDate" MinDate="01/01/1900" runat="server" Skin="Silk" />
             </td>
         </tr>
         <tr>
@@ -253,7 +253,7 @@ Below are the code snippets from the sample:
                  Notes:
             </td>
             <td style="height: 400px;float:left;">
-                 <telerik:RadEditor ID="Notes"  Width="100%" runat="server" Skin="Silk" />
+                 <telerik:RadEditor RenderMode="Lightweight" ID="Notes"  Width="100%" runat="server" Skin="Silk" />
             </td>
         </tr>
     </table>

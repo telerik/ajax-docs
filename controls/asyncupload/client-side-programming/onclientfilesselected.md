@@ -25,7 +25,7 @@ The event handler receives two parameters:
 * **set_cancel** lets you cancel the event andprevent items from being uploaded
 
 ````ASPNET
-<telerik:RadAsyncUpload runat="server" ID="RadAsyncUpload1" OnClientFilesSelected="OnClientFilesSelected" MultipleFileSelection="Automatic"></telerik:RadAsyncUpload>
+<telerik:RadAsyncUpload RenderMode="Lightweight" runat="server" ID="RadAsyncUpload1" OnClientFilesSelected="OnClientFilesSelected" MultipleFileSelection="Automatic"></telerik:RadAsyncUpload>
 ````
 
 ````JavaScript

@@ -19,7 +19,7 @@ position: 2
 The declaration of **RadAutoCompleteBox** in the markup includes no **DataSourceID** property or **Items** section.
 
 ````ASPNET
-<telerik:RadAutoCompleteBox ID="RadAutoCompleteBox1" InputType="Text" runat="server">
+<telerik:RadAutoCompleteBox RenderMode="Lightweight" ID="RadAutoCompleteBox1" InputType="Text" runat="server">
 </telerik:RadAutoCompleteBox>
 ````
 

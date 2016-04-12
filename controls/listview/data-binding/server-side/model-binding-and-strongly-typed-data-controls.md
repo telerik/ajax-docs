@@ -35,7 +35,7 @@ When we perform two-way data-binding the Bind() method is used:
 <telerik:GridTemplateColumn HeaderText="Category" UniqueName="CategoryID"
    DataField="CategoryID" SortExpression="CategoryID">
    <EditItemTemplate>
-      <telerik:RadComboBox Skin="Metro" ID="ComboBox1" runat="server" SelectMethod="GetCategories"
+      <telerik:RadComboBox RenderMode="Lightweight" Skin="Metro" ID="ComboBox1" runat="server" SelectMethod="GetCategories"
           DataValueField="CategoryID" DataTextField="CategoryName"
           SelectedValue='<%# Bind("CategoryID") %>'></telerik:RadComboBox>
     </EditItemTemplate>
@@ -53,7 +53,7 @@ DataField="CategoryID" SortExpression="CategoryID">
                             <%# Item.Category.CategoryName %>
                         </ItemTemplate>
                         <EditItemTemplate>
-                            <telerik:RadComboBox Skin="Metro" ID="ComboBox1" runat="server" SelectMethod="GetCategories"
+                            <telerik:RadComboBox RenderMode="Lightweight" Skin="Metro" ID="ComboBox1" runat="server" SelectMethod="GetCategories"
                                 DataValueField="CategoryID" DataTextField="CategoryName" SelectedValue="<%# BindItem.CategoryID %>"></telerik:RadComboBox>
                         </EditItemTemplate>
                     </telerik:GridTemplateColumn>
@@ -69,7 +69,7 @@ The developers could use these variables in data-binding expressions and to get 
 To bind databound controls via ModelBinding you need to set only the SelectMethod property to the name of the public methodplaced into the page's code-behind file:
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" GridLines="None" runat="server" AllowSorting="true" PageSize="10" AllowPaging="True" SelectMethod="GetProducts"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" GridLines="None" runat="server" AllowSorting="true" PageSize="10" AllowPaging="True" SelectMethod="GetProducts"
             AutoGenerateColumns="False">
 ````
 

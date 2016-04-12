@@ -105,7 +105,7 @@ The following images show the columns before and after resizing with **EnableNex
 You can set the resizing-related properties declaratively at design time:
 
 ````ASP.NET
-<telerik:RadGrid runat="server">
+<telerik:RadGrid RenderMode="Lightweight" runat="server">
   <ClientSettings>
     <Resizing AllowColumnResize="True" AllowRowResize="false" ResizeGridOnColumnResize="false"
       ClipCellContentOnResize="true" EnableRealTimeResize="false" AllowResizeToFit="true" />

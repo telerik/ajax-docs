@@ -43,7 +43,7 @@ When the input control is not skinned, its wrapper element class is rendered wit
 	<form runat="server" id="mainForm" method="post">
 	<asp:ScriptManager ID="ScriptManager1" runat="server">
 	</asp:ScriptManager>
-	<telerik:RadNumericTextBox ID="RadNumericTextBox1" runat="server" EnableEmbeddedSkins="false" Skin="">
+	<telerik:RadNumericTextBox RenderMode="Lightweight" ID="RadNumericTextBox1" runat="server" EnableEmbeddedSkins="false" Skin="">
 	</telerik:RadNumericTextBox>
 	</form>
 </body>

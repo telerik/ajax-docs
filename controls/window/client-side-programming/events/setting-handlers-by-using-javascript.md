@@ -147,7 +147,7 @@ You can set client events for **RadWindow** on the client via JavaScript by usin
 		document.getElementById("eventConsole").innerHTML = "[" + dateStr + "] " + eventString + "<br/>" + document.getElementById("eventConsole").innerHTML;
 	}
 </script>
-<telerik:RadWindow ID="RadWindow1" runat="server" NavigateUrl="Dialog.aspx">
+<telerik:RadWindow RenderMode="Lightweight" ID="RadWindow1" runat="server" NavigateUrl="Dialog.aspx">
 </telerik:RadWindow>
 <button onclick="openAndSet(); return false">
 	Open RadWindow and set events</button>

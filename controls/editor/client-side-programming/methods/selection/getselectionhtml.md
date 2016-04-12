@@ -17,7 +17,7 @@ Returns the HTML of the selection.
 The example below demonstrates how to get the selected HTML and wrap it inside a DIV element with applied formatting:
 
 ````ASP.NET
-<telerik:RadEditor runat="server" ID="RadEditor1">
+<telerik:RadEditor RenderMode="Lightweight" runat="server" ID="RadEditor1">
 	<Content>        
 		Here is sample content!    
 	</Content>

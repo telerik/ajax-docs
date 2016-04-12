@@ -20,7 +20,7 @@ To enable it, assign a value to the **ColumnWidth** property:
 
 ````ASPNET
 	     
-<telerik:RadScheduler ... ColumnWidth="200px" />
+<telerik:RadScheduler RenderMode="Lightweight" ... ColumnWidth="200px" />
 				
 ````
 

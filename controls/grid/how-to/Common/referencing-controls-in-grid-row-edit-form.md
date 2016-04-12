@@ -21,7 +21,7 @@ The upcoming code sample represents how to alter the color for the **City** colu
 
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" runat="server" Width="400px">
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" Width="400px">
   <MasterTableView AutoGenerateColumns="false">
     <Columns>
       <telerik:GridTemplateColumn UniqueName="TemplateColumn" HeaderText="Check/UnCheck">

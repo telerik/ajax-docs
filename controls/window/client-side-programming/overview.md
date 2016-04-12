@@ -40,7 +40,7 @@ The first thing you need to do with a popup is to show it. The [Opening Windows]
 
 ````ASP.NET
 <asp:Button ID="Button1" Text="show the dialog" OnClientClick="showDialog(); return false;" runat="server" />
-<telerik:RadWindow runat="server" ID="RadWindow1"></telerik:RadWindow>
+<telerik:RadWindow RenderMode="Lightweight" runat="server" ID="RadWindow1"></telerik:RadWindow>
 <script type="text/javascript">
 	function showDialog() {
 		var wnd = $find("<%= RadWindow1.ClientID%>");
@@ -54,9 +54,9 @@ The first thing you need to do with a popup is to show it. The [Opening Windows]
 >caption Example 2: Get a reference to a RadWindow in the Windows collection of a RadWindowManager through the RadWindowManager API.
 
 ````ASP.NET
-<telerik:RadWindowManager runat="server" ID="RadWindowManager1">
+<telerik:RadWindowManager RenderMode="Lightweight" runat="server" ID="RadWindowManager1">
 	<Windows>
-		<telerik:RadWindow runat="server" ID="RadWindow1"></telerik:RadWindow>
+		<telerik:RadWindow RenderMode="Lightweight" runat="server" ID="RadWindow1"></telerik:RadWindow>
 	</Windows>
 </telerik:RadWindowManager>
 <asp:Button ID="Button1" Text="open dialog" OnClientClick="openDialog(); return false;" runat="server" />
@@ -109,7 +109,7 @@ When user controls are loaded in the *ContentTemplate*, it is often simplest to 
 
 ````ASP.NET
 <asp:Button ID="Button1" Text="show dialog" OnClientClick="showDialog(); return false;" runat="server" />
-<telerik:RadWindow runat="server" ID="RadWindow1">
+<telerik:RadWindow RenderMode="Lightweight" runat="server" ID="RadWindow1">
 	<ContentTemplate>
 		<uc:SomeControl runat="server" id="SomeControl1"></uc:SomeControl>
 	</ContentTemplate>

@@ -19,7 +19,7 @@ RadOrgChart supports Export and Import to XML data.
 Here is sample OrgChart declaration:
 
 ````ASPNET
-<telerik:RadOrgChart runat="server" ID="RadOrgChart1" GroupColumnCount="2">
+<telerik:RadOrgChart RenderMode="Lightweight" runat="server" ID="RadOrgChart1" GroupColumnCount="2">
 	<Nodes>
 		<telerik:OrgChartNode>
 			<RenderedFields>

@@ -20,7 +20,7 @@ position: 4
     <telerik:RadScriptManager ID="RadScriptManager1" runat="server">
     </telerik:RadScriptManager>
     <div>
-        <telerik:RadCalendar ID="RadCalendar1" runat="server" FirstDayOfWeek="Monday" />
+        <telerik:RadCalendar RenderMode="Lightweight" ID="RadCalendar1" runat="server" FirstDayOfWeek="Monday" />
     </div>
 </form>
 ````

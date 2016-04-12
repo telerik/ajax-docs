@@ -25,14 +25,14 @@ Here is a screen shot from the example and the aspx code:
 
 ````ASP.NET
 <asp:Label ID="comboLbl" runat="server" Text="Select contact name to view its product orders." />
-<telerik:RadComboBox ID="NamesDDL" runat="server" AutoPostBack="True" DataSourceID="dllDataSource"
+<telerik:RadComboBox RenderMode="Lightweight" ID="NamesDDL" runat="server" AutoPostBack="True" DataSourceID="dllDataSource"
     DataTextField="ContactName" DataValueField="SupplierID" Width="250px" Height="150px"
     AppendDataBoundItems="true">
     <Items>
         <telerik:RadComboBoxItem Text="All" Value="0" Selected="true" />
     </Items>
 </telerik:RadComboBox>
-<telerik:RadGrid ID="OrdersGrid" AllowPaging="true" DataSourceID="gridSource" runat="server"
+<telerik:RadGrid RenderMode="Lightweight" ID="OrdersGrid" AllowPaging="true" DataSourceID="gridSource" runat="server"
         GridLines="None" Width="97%" AllowSorting="true">
 </telerik:RadGrid>
 <asp:SqlDataSource ID="dllDataSource" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"

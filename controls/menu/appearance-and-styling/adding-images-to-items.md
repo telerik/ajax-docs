@@ -154,7 +154,7 @@ Since Q3 2010 RadMenu provides support for sprites - two new properties have bee
     }
 </style>
 
-<telerik:RadMenu id="RadMenu1" runat="server" enableimagesprites="true">
+<telerik:RadMenu RenderMode="Lightweight" id="RadMenu1" runat="server" enableimagesprites="true">
    <Items>
        <telerik:RadMenuItem Text="Item1" CssClass="icon1" />
        <telerik:RadMenuItem Text="Item2" CssClass="icon2" />

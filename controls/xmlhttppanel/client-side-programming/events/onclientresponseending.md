@@ -54,7 +54,7 @@ function OnClientResponseEnding(panel, args)
 <input type="button" value="Refresh RadXmlHttpPanel1" onclick="SetValue()" />
 <telerik:RadXmlHttpPanel ID="RadXmlHttpPanel1" runat="server" OnServiceRequest=" RadXmlHttpPanel1_ServiceRequest"
     OnClientResponseEnding="OnClientResponseEnding">
-    <telerik:RadGrid ID="RadGrid1" RegisterWithScriptManager="false" ID="RadGridTeamPlayer"
+    <telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" RegisterWithScriptManager="false" ID="RadGridTeamPlayer"
         runat="server" AllowSorting="False" AutoGenerateColumns="True" GridLines="Both"
         Height="100%" ShowFooter="false" Style="border: solid 1px black; outline: 0">
         <MasterTableView>

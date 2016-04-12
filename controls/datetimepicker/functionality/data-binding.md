@@ -25,7 +25,7 @@ In addition to calling **Eval** and **Bind** methods to perform data binding in 
 The following example demonstrates how to bind a **RadDateTimePicker** control inside a RadGrid.
 
 ````ASPNET
-<telerik:RadGrid ID="RadGrid1" runat="server" AutoGenerateColumns="False"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" AutoGenerateColumns="False"
     OnNeedDataSource="RadGrid1_NeedDataSource" OnUpdateCommand="RadGrid1_UpdateCommand"
     OnItemCreated="RadGrid1_ItemCreated">
     <MasterTableView EditMode="InPlace">
@@ -36,7 +36,7 @@ The following example demonstrates how to bind a **RadDateTimePicker** control i
                     </asp:Label>&nbsp;
                 </ItemTemplate>
                 <EditItemTemplate>
-                    <telerik:RadDateTimePicker ID="picker1" runat="server" DbSelectedDate='<%# Bind("Dates") %>'
+                    <telerik:RadDateTimePicker RenderMode="Lightweight" ID="picker1" runat="server" DbSelectedDate='<%# Bind("Dates") %>'
                         Width="180px">
                     </telerik:RadDateTimePicker>
                 </EditItemTemplate>

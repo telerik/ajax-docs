@@ -20,7 +20,7 @@ The sample code below shows how to dynamically create Radmenu inside a RadPanelI
 <form id="form2" runat="server">
    <asp:ScriptManager ID="ScriptManager1" runat="server">
    </asp:ScriptManager>
-   <telerik:RadPanelBar ID="RadPanelBar1" runat="server" Skin="Outlook" Width="190px">
+   <telerik:RadPanelBar RenderMode="Lightweight" ID="RadPanelBar1" runat="server" Skin="Outlook" Width="190px">
        <Items>
            <telerik:RadPanelItem runat="server" Text="Root Panel Item" Expanded="true" Selected="true">
                <Items>

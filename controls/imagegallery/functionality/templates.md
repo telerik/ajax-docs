@@ -28,7 +28,7 @@ The first step is to create a new ImageGalleryTemplateItem in the Items collecti
 Inside the **ContentTemplate** of the item you can build-up your custom configuration.
 
 ````ASPNET
-<telerik:RadImageGallery ID="RadImageGallery1" runat="server" Skin="Silk"
+<telerik:RadImageGallery RenderMode="Lightweight" ID="RadImageGallery1" runat="server" Skin="Silk"
 	Height="500px" Width="700px">
 	<Items>
 		<telerik:ImageGalleryTemplateItem Description="Welcome Back to Our Gallery!"
@@ -39,14 +39,14 @@ Inside the **ContentTemplate** of the item you can build-up your custom configur
 						Font-Names="Arial,​Helvetica,​sans-serif"
 						Text="Explore the Gallery<br/>or click the button below"></asp:Label>
 					<div style="padding: 30px 0 0 25px;">
-						<telerik:RadButton ID="RadButton1" runat="server" Text="Official Site"
+						<telerik:RadButton RenderMode="Lightweight" ID="RadButton1" runat="server" Text="Official Site"
 							Skin="MetroTouch">
 						</telerik:RadButton>
 						<div style="padding-top: 50px; margin-left: -8px;">
 							<asp:Label ID="Label2" runat="server" ForeColor="White" Font-Size="Small"
 								Font-Names="Arial,​Helvetica,​sans-serif" Style="margin-left: 30px;"
 								Text="Rate us:"></asp:Label>
-							<telerik:RadRating ID="RadRating1" runat="server" Skin="Silk"></telerik:RadRating>
+							<telerik:RadRating RenderMode="Lightweight" ID="RadRating1" runat="server" Skin="Silk"></telerik:RadRating>
 						</div>
 					</div>
 				</div>
@@ -69,7 +69,7 @@ The ImageGalleryTemplateItem supports the use of data-bound controls.
 ````ASPNET
 <telerik:ImageGalleryTemplateItem>
 	<ContentTemplate>
-		<telerik:RadComboBox ID="RadComboBox1" EmptyMessage="Select a Country"
+		<telerik:RadComboBox RenderMode="Lightweight" ID="RadComboBox1" EmptyMessage="Select a Country"
 			DataSourceID="SqlDataSource1" DataTextField="ShipCountry"
 			DataValueField="ShipCountry" runat="server">
 		</telerik:RadComboBox>

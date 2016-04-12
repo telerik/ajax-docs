@@ -25,7 +25,7 @@ Therefore this scenario is not supported by FormDecorator as the ContentTemplate
 ````
 
 ````ASP.NET
-<telerik:RadFormDecorator ID="FormDecorator1" runat="server" DecoratedControls="All"
+<telerik:RadFormDecorator RenderMode="Lightweight" ID="FormDecorator1" runat="server" DecoratedControls="All"
 	DecorationZoneID="div1" Skin="Metro"></telerik:RadFormDecorator>
 <asp:Button ID="Button1" Text="Open RadWindow" runat="server" OnClientClick="openRadWindowDecorated();return false;" />
 <br />
@@ -36,7 +36,7 @@ Therefore this scenario is not supported by FormDecorator as the ContentTemplate
 		<asp:Button ID="Button2" runat="server" Text="ASP Button" />
 		<input type="text" value="Input text" />
 	</fieldset>
-	<telerik:RadWindow runat="server" ID="RadWindow1" Title="This is RadWindow" Height="200px"
+	<telerik:RadWindow RenderMode="Lightweight" runat="server" ID="RadWindow1" Title="This is RadWindow" Height="200px"
 		Width="300px">
 		<ContentTemplate>
 			<asp:RadioButtonList ID="RadioButtonList1" runat="server">
@@ -47,7 +47,7 @@ Therefore this scenario is not supported by FormDecorator as the ContentTemplate
 			<asp:Button ID="Button3" runat="server" Text="ASP Button" />
 			<input type="text" value="Input text" />
 			<input type="button" value="Input button" />
-			<telerik:RadButton ID="RadButton1" runat="server" Text="RadButton">
+			<telerik:RadButton RenderMode="Lightweight" ID="RadButton1" runat="server" Text="RadButton">
 			</telerik:RadButton>
 		</ContentTemplate>
 	</telerik:RadWindow>

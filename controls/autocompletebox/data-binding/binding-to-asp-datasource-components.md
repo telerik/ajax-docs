@@ -31,7 +31,7 @@ To bind RadAutoCompleteBox to a DataSource component, you need to set its **Data
 ## AccessDataSource
 
 ````ASPNET
-<telerik:RadAutoCompleteBox ID="RadAutoCompleteBox1" runat="server" DataSourceID="AccessDataSource1"
+<telerik:RadAutoCompleteBox RenderMode="Lightweight" ID="RadAutoCompleteBox1" runat="server" DataSourceID="AccessDataSource1"
 		DataTextField="ProductName" DataValueField="ProductID">
 </telerik:RadAutoCompleteBox>
 
@@ -46,7 +46,7 @@ To bind RadAutoCompleteBox to a DataSource component, you need to set its **Data
 ## SqlDataSource
 
 ````ASPNET
-<telerik:RadAutoCompleteBox ID="RadAutoCompleteBox1" runat="server" DataSourceID="SqlDataSource1"
+<telerik:RadAutoCompleteBox RenderMode="Lightweight" ID="RadAutoCompleteBox1" runat="server" DataSourceID="SqlDataSource1"
 		DataTextField="ProductName" DataValueField="ProductID">
 </telerik:RadAutoCompleteBox>
 
@@ -62,7 +62,7 @@ To bind RadAutoCompleteBox to a DataSource component, you need to set its **Data
 ## XmlDataSource
 
 ````ASPNET
-<telerik:RadAutoCompleteBox ID="RadAutoCompleteBox1" runat="server" DataSourceID="Xmldatasource1"
+<telerik:RadAutoCompleteBox RenderMode="Lightweight" ID="RadAutoCompleteBox1" runat="server" DataSourceID="Xmldatasource1"
 	DataTextField="Text" DataValueField="Value">
 </telerik:RadAutoCompleteBox>
 
@@ -87,7 +87,7 @@ When using an **XmlDataSource**, the XML file should have the format shown below
 ## ObjectDataSource
 
 ````ASPNET
-<telerik:RadAutoCompleteBox ID="RadAutoCompleteBox1" runat="server" DataSourceID="ObjectDataSource1"
+<telerik:RadAutoCompleteBox RenderMode="Lightweight" ID="RadAutoCompleteBox1" runat="server" DataSourceID="ObjectDataSource1"
 	DataTextField="Text" DataValueField="ID">
 </telerik:RadAutoCompleteBox>
 		

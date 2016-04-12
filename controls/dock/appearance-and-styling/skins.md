@@ -21,10 +21,10 @@ To apply a skin, set the **Skin** property of the **RadDockLayout** control, the
 ````ASP.NET
 <telerik:RadDockLayout id="RadDockLayout1" runat="server" skin="WebBlue">  
     <telerik:RadDockZone ID="RadDockZone1" runat="server" >     
-        <telerik:RadDock ID="RadDock1" runat="server" />     
-        <telerik:RadDock ID="RadDock2" runat="server" />  
+        <telerik:RadDock RenderMode="Lightweight" ID="RadDock1" runat="server" />     
+        <telerik:RadDock RenderMode="Lightweight" ID="RadDock2" runat="server" />  
     </telerik:RadDockZone>  
-    <telerik:RadDock ID="RadDock3" runat="server" />
+    <telerik:RadDock RenderMode="Lightweight" ID="RadDock3" runat="server" />
 </telerik:RadDockLayout>
 ````
 

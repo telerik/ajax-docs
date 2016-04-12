@@ -52,7 +52,7 @@ The event handler receives two arguments:
 	</DataSource>
 </telerik:RadClientDataSource>
 
-<telerik:RadTileList runat="server" ID="RadTileList1" Width="1015px" Height="500px"
+<telerik:RadTileList RenderMode="Lightweight" runat="server" ID="RadTileList1" Width="1015px" Height="500px"
 	ClientDataSourceID="RadClientDataSource1"
 	OnClientTilePeekTemplateDataBound="OnClientTilePeekTemplateDataBound">
 	<DataBindings>

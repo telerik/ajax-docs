@@ -17,7 +17,7 @@ position: 1
 Dynamically adding Items to the PanelBar with the **InsertAt()** server-side method may cause the ContentTemplate of a statically defined Item (as shown below) to be lost after a subsequent postback.
 
 ````ASPNET
-<telerik:RadPanelBar ID="RadPanelBar1" runat="server" ExpandMode="SingleExpandedItem">
+<telerik:RadPanelBar RenderMode="Lightweight" ID="RadPanelBar1" runat="server" ExpandMode="SingleExpandedItem">
     <Items>
         <telerik:RadPanelItem Text="Item1">
             <ContentTemplate>

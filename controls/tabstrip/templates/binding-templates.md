@@ -15,7 +15,7 @@ position: 5
 Often, when you use tab templates, you want the controls in the template to display information associated with the tab properties. For example, consider a simple tab strip with a check box in the item template:
 
 ````ASPNET	     
-<telerik:RadTabStrip ID="RadTabStrip1" runat="server" SelectedIndex="0">  
+<telerik:RadTabStrip RenderMode="Lightweight" ID="RadTabStrip1" runat="server" SelectedIndex="0">  
     <Tabs>    
         <telerik:RadTab runat="server" Text="Products" Selected="True" SelectedIndex="0">      
     <Tabs>        

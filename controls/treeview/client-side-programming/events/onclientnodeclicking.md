@@ -31,7 +31,7 @@ The event handler receives parameters:
 The example below shows how to cancel the event if the text of the node is "Search"
 
 ````ASPNET
-<telerik:RadTreeView ID="RadTreeView1" runat="server" OnClientNodeClicking="ClientNodeClicking">
+<telerik:RadTreeView RenderMode="Lightweight" ID="RadTreeView1" runat="server" OnClientNodeClicking="ClientNodeClicking">
 </telerik:RadTreeView>
 ````
 ````JavaScript

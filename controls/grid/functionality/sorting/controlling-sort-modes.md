@@ -43,7 +43,7 @@ The following example shows how to change the sequence of sort modes using the *
 The ASPX file declares a grid with a two-level hierarchy and a **SortCommand** event handler:
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" runat="server" Width="95%" AutoGenerateColumns="False"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" Width="95%" AutoGenerateColumns="False"
   PageSize="3" AllowSorting="True" AllowPaging="True" DataSourceID="AccessDataSource1"
   OnSortCommand="RadGrid1_SortCommand">
   <PagerStyle Mode="NumericPages" />

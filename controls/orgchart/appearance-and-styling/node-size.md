@@ -34,7 +34,7 @@ This appearance can be achieved in the NodeDataBound event by association the in
 		height:140px !important;
 	}
 </style>
-  <telerik:RadOrgChart runat="server" ID="RadOrgChart1"
+  <telerik:RadOrgChart RenderMode="Lightweight" runat="server" ID="RadOrgChart1"
     OnNodeDataBound="RadOrgChart1_NodeDataBound">
 </telerik:RadOrgChart>
 ````
@@ -122,7 +122,7 @@ End Sub
     height:60px !important;
 }
  </style>
-<telerik:RadOrgChart runat="server" ID="RadOrgChart2"
+<telerik:RadOrgChart RenderMode="Lightweight" runat="server" ID="RadOrgChart2"
     OnNodeDataBound="RadOrgChart2_NodeDataBound">
 </telerik:RadOrgChart>
 ````

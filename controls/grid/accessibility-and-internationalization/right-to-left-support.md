@@ -19,7 +19,7 @@ You can present the content of your grid instance in a right-to-left direction v
 Here is an example:
 
 ````ASP.NET
-      <telerik:RadGrid ID="RadGrid1" DataSourceID="SqlDataSource1" runat="server" Width="97%" AllowPaging="True" 
+      <telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" DataSourceID="SqlDataSource1" runat="server" Width="97%" AllowPaging="True" 
         PageSize="12" AllowSorting="True" ShowGroupPanel="True" AutoGenerateColumns="False"
         GridLines="none" AllowFilteringByColumn="true">
         <PagerStyle Mode="NextPrevNumericAndAdvanced"></PagerStyle>

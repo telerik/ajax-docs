@@ -17,7 +17,7 @@ position: 4
 Each browser has a default font, which is used by the page when there is no style set to any of the objects on the page. It is set from **Tools** -> **Internet Options** -> **General** -> **Fonts**. The Rich Text content area of RadEditor for ASP.NET AJAX is an editable IFRAME element, which is a separate document that has its own CSS styles applied through the embedded in the **Telerik.Web.UI.dll** skin. This default font appearance in the content area can be easily overridden by setting the editor's **CssFiles** property to point to your own CSS file
 
 ````ASP.NET
-<telerik:RadEditor runat="server" ID="RadEditor1">
+<telerik:RadEditor RenderMode="Lightweight" runat="server" ID="RadEditor1">
 	<CssFiles>
 		<telerik:EditorCssFile Value="~/EditorContentArea.css" />
 	</CssFiles>

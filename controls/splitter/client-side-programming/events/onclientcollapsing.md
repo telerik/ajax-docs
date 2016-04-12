@@ -29,7 +29,7 @@ The following example uses the **OnClientCollapsing** event to show a confirmati
 		eventArgs.set_cancel(!confirm("Are you sure you want to close " + sender.get_id() + "?"));
 	}
 </script>
-<telerik:RadSplitter runat="server" id="RadSplitter1" Orientation="Horizontal" >
+<telerik:RadSplitter RenderMode="Lightweight" runat="server" id="RadSplitter1" Orientation="Horizontal" >
  <telerik:RadPane
 	 runat="server"
 	 id="RadPane1"

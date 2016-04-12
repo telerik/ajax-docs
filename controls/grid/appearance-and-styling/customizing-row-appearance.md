@@ -33,7 +33,7 @@ You can set the appearance of the normal and alternating rows programmatically o
 
 
 ````ASP.NET
-<telerik:RadGrid runat="server" ... />
+<telerik:RadGrid RenderMode="Lightweight" runat="server" ... />
 <AlternatingItemStyle BackColor="Orange" ... />
 <ItemStyle BackColor="White" ... />
 ````
@@ -108,7 +108,7 @@ You can customize the appearance of the selected row, using the **EditItemStyle*
 	 }
 	</style>
 	
-	<telerik:RadGrid id="RadGrid1" CssClass="RadGrid" runat="server" AllowPaging="True" AllowSorting="True" PageSize="10" Width="95%" ShowFooter="True" GridLines="None">
+	<telerik:RadGrid RenderMode="Lightweight" id="RadGrid1" CssClass="RadGrid" runat="server" AllowPaging="True" AllowSorting="True" PageSize="10" Width="95%" ShowFooter="True" GridLines="None">
 	 <Columns>
 	  <telerik:GridEditCommandColumn ButtonType="LinkButton" UpdateText="Update" CancelText="Cancel" EditText="Edit">
 	   <HeaderStyle Width="37px"></HeaderStyle>

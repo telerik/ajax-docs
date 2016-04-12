@@ -27,7 +27,7 @@ position: 5
 >
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1" Width="97%"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1" Width="97%"
   AllowPaging="True" PageSize="15" AllowSorting="True" AllowMultiRowSelection="True"
   ShowGroupPanel="True" AllowFilteringByColumn="true" OnItemCommand="RadGrid1_ItemCommand"
   OnPreRender="RadGrid1_PreRender">

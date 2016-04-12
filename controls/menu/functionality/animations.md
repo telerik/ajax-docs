@@ -80,7 +80,7 @@ By default, the children of a menu item are displayed when the user hovers the m
 
 
 ````ASP.NET
-<telerik:RadMenu ID="RadMenu1" runat="server">
+<telerik:RadMenu RenderMode="Lightweight" ID="RadMenu1" runat="server">
     <ExpandAnimation Type="OutQuart" Duration="300" />
     <CollapseAnimation Type="OutQuint" Duration="200" />
 </telerik:RadMenu>

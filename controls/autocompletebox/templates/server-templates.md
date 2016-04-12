@@ -21,7 +21,7 @@ The following application scenario shows an example of RadAutoCompleteBox using 
 A <DropDownItemTemplate> section is added to the **RadAutoCompleteBox** declaration. The image and the text that appear in the template are taken from the DataItem using <%# DataBinder.Eval %> statements.
 
 ````C#
-<telerik:RadAutoCompleteBox runat="server" ID="RadAutoCompleteBox1" InputType="Token"
+<telerik:RadAutoCompleteBox RenderMode="Lightweight" runat="server" ID="RadAutoCompleteBox1" InputType="Token"
 	DataSourceID="SqlDataSource1" Width="400px" DataTextField="ContactName" DropDownWidth="400px">
 	<DropDownItemTemplate>
 		<table cellpadding="0" cellspacing="0">

@@ -45,7 +45,7 @@ To specify what values will be displayed in the ListBox control you need to defi
 
 	**ASP.NET**
 
-		<telerik:RadGrid ID="RadGrid1" AllowFilteringByColumn="True" runat="server" FilterType="Combined"
+		<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" AllowFilteringByColumn="True" runat="server" FilterType="Combined"
 		    AllowPaging="True" OnFilterCheckListItemsRequested="RadGrid1_FilterCheckListItemsRequested"
 		    DataSourceID="SqlDataSource1">
 		    <CommandItemStyle />
@@ -151,7 +151,7 @@ To specify what values will be displayed in the ListBox control you need to defi
 
 	**ASP.NET**
 
-		<telerik:RadGrid runat="server" ID="RadGrid2" AllowFilteringByColumn="true" FilterType="CheckList"
+		<telerik:RadGrid RenderMode="Lightweight" runat="server" ID="RadGrid2" AllowFilteringByColumn="true" FilterType="CheckList"
 		    AllowPaging="true" PagerStyle-AlwaysVisible="true" AllowSorting="true">
 		    <MasterTableView AutoGenerateColumns="False" CheckListWebServicePath="NorthwindCustomersWcfService.svc"
 		        DataKeyNames="CustomerID" ClientDataKeyNames="CustomerID">
@@ -516,7 +516,7 @@ The code snippets below showcase a sample scenario where the HeaderContext Filte
 
 
 ````ASP.NET
-<telerik:RadGrid runat="server" ID="RadGrid1"
+<telerik:RadGrid RenderMode="Lightweight" runat="server" ID="RadGrid1"
 	OnNeedDataSource="RadGrid1_NeedDataSource"
 	AutoGenerateColumns="false"
 	AllowFilteringByColumn="true"

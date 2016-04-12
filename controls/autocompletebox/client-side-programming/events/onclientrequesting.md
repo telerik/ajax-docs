@@ -47,7 +47,7 @@ This event is used in scenarios when operations need to be preformed to RadAutoC
 
 
 ````ASPNET
-<telerik:RadAutoCompleteBox runat="server" ID="RadAutoComplete1" OnClientRequesting="requesting"
+<telerik:RadAutoCompleteBox RenderMode="Lightweight" runat="server" ID="RadAutoComplete1" OnClientRequesting="requesting"
 	DataSourceID="SqlDataSource1" DataTextField="Name" DataValueField="ID">
 </telerik:RadAutoCompleteBox>
 

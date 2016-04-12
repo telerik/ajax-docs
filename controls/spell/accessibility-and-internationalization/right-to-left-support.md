@@ -23,7 +23,7 @@ body
 ````ASP.NET
 <div dir="rtl">
 	 <asp:TextBox ID="TextBox1" runat="server" Height="100" TextMode="MultiLine">mizpelled conttent</asp:TextBox><br />
-	 <telerik:RadSpell ID="RadSpell1" runat="server" ControlToCheck="TextBox1" DialogsCssFile="dialogsRTL.css" />
+	 <telerik:RadSpell RenderMode="Lightweight" ID="RadSpell1" runat="server" ControlToCheck="TextBox1" DialogsCssFile="dialogsRTL.css" />
 </div>
 ````
 

@@ -32,7 +32,7 @@ The following example illustrates the use of the **OnClientLoad** event handler 
     }
 </script>
 
-<telerik:RadMenu ID="RadMenu1" runat="server" OnClientLoad="StoreMenuClientObject">
+<telerik:RadMenu RenderMode="Lightweight" ID="RadMenu1" runat="server" OnClientLoad="StoreMenuClientObject">
     <Items>
         <telerik:RadMenuItem runat="server" ExpandMode="ClientSide" Text="One" />
         <telerik:RadMenuItem runat="server" ExpandMode="ClientSide" Text="Two" />

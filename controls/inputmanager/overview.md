@@ -36,7 +36,7 @@ Each one of these setting groups allows for different behavior. Let us assume th
 <br />
 <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
 <br />
-<telerik:RadInputManager ID="RadInputManager1" runat="server">
+<telerik:RadInputManager RenderMode="Lightweight" ID="RadInputManager1" runat="server">
 	<telerik:TextBoxSetting BehaviorID="Setting1" EmptyMessage="EmptyMessage55">
 		<TargetControls>
 			<telerik:TargetInput ControlID="TextBox1" />
@@ -70,7 +70,7 @@ Additionally, we can extend text boxes located in other controls. For example, l
 		<asp:TextBox ID="TextBox1" Text="mailto:e-mail@goes.here" runat="server"></asp:TextBox>
 	</ItemTemplate>
 </asp:Repeater>
-<telerik:RadInputManager ID="RadInputManager1" runat="server">
+<telerik:RadInputManager RenderMode="Lightweight" ID="RadInputManager1" runat="server">
 	<telerik:RegExpTextBoxSetting EmptyMessage="EmptyMessage" BehaviorID="Setting3" ValidationExpression="^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$"
 		ErrorMessage="ErrorMessage">
 		<TargetControls>

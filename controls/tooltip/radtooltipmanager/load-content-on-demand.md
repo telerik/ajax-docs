@@ -73,7 +73,7 @@ When a tooltip controlled by the **RadToolTipManager** needs to be shown a call 
 ### ASMX WebService
 
 ````ASP.NET
-<telerik:RadToolTipManager ID="RadToolTipManager1" runat="server" EnableShadow="true" Position="BottomCenter"
+<telerik:RadToolTipManager RenderMode="Lightweight" ID="RadToolTipManager1" runat="server" EnableShadow="true" Position="BottomCenter"
     Animation="Fade" Width="415px" Height="250px" elativeTo="Element">
     <WebServiceSettings Method="GetToolTipData" Path="ToolTipWebService.asmx" />
 </telerik:RadToolTipManager>
@@ -132,7 +132,7 @@ End Class
 ### WCF WebService
 
 ````ASP.NET
-<telerik:RadToolTipManager ID="RadToolTipManager2" runat="server" Poosition="BottomCenter" Hideevent="ManualClose"
+<telerik:RadToolTipManager RenderMode="Lightweight" ID="RadToolTipManager2" runat="server" Poosition="BottomCenter" Hideevent="ManualClose"
 	Animation="Fade" Width="430px" Height="250px" RelativeTo="Element">
 	<WebServiceSettings Method="GetCustomerInfo" Path="TooltipWcfService.svc"></WebServiceSettings>
 </telerik:RadToolTipManager>

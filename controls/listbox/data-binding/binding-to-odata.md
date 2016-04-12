@@ -19,7 +19,7 @@ Forth from Q3 2011, RadListBox can be bound to an OData service. The Open Data P
 This means binding to a non-hierarchical data. It is rather easy to bind to such data, here is sample markup that binds to the Category table exposed by the OData.org sample services:
 
 ````ASPNET
-<telerik:RadListBox runat="server" ID="RadListBox2">
+<telerik:RadListBox RenderMode="Lightweight" runat="server" ID="RadListBox2">
 	<WebServiceSettings Path="http://services.odata.org/OData/OData.svc">
 		<ODataSettings ResponseType="JSONP">
 			<Entities>

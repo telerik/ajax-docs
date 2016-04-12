@@ -22,7 +22,7 @@ The event handler receives the following parameters:
 1. Event arguments object.
 
 ````ASP.NET
-<telerik:RadImageEditor runat="server" ID="RadImageEditor1" OnClientImageChanged="OnClientImageLoad"></telerik:RadImageEditor>
+<telerik:RadImageEditor RenderMode="Lightweight" runat="server" ID="RadImageEditor1" OnClientImageChanged="OnClientImageLoad"></telerik:RadImageEditor>
 	<script type="text/javascript">
 		function OnClientImageLoad(imgEditor)
 		{

@@ -23,7 +23,7 @@ This article explains the **fluid capabilities RadRotator offers**. The control 
 >caption **Example 1**: **RadRotator** with 100% width.
 
 ````ASP.NET
-<telerik:RadRotator runat="server" ID="RadRotator1" RotatorType="Buttons" Width="100%" ItemWidth="200px" Height="50px">
+<telerik:RadRotator RenderMode="Lightweight" runat="server" ID="RadRotator1" RotatorType="Buttons" Width="100%" ItemWidth="200px" Height="50px">
 	<ItemTemplate>
 		RadRotatorItem <%# Container.DataItem %>
 	</ItemTemplate>
@@ -67,7 +67,7 @@ If you have set the RotatorType property to **Carousel**, **CarouselButtons**, *
 		rotator.repaint();
 	}
 </script>
-<telerik:RadRotator runat="server" ID="RadRotator2" RotatorType="CarouselButtons" Width="100%" ItemWidth="200px" Height="450px" 
+<telerik:RadRotator RenderMode="Lightweight" runat="server" ID="RadRotator2" RotatorType="CarouselButtons" Width="100%" ItemWidth="200px" Height="450px" 
 	OnClientLoad="OnClientLoad" >
 	<ItemTemplate>
 		RadRotatorItem <%# Container.DataItem %>

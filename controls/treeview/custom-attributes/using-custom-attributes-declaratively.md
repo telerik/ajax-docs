@@ -22,7 +22,7 @@ Custom attributes can be added to a node by simply adding an HTML attribute to a
 ![RadTreeView Custom Attributes](images/treeview_customattribute1.png)
 
 ````ASPNET
-<telerik:RadTreeView ID="RadTreeView1" runat="server" OnNodeClick="RadTreeView1_NodeClick">
+<telerik:RadTreeView RenderMode="Lightweight" ID="RadTreeView1" runat="server" OnNodeClick="RadTreeView1_NodeClick">
     <Nodes>
         <telerik:RadTreeNode runat="server" ExpandMode="ClientSide" Text="Red Oak" ScientificName="Quercus rubra">
         </telerik:RadTreeNode>

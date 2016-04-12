@@ -23,7 +23,7 @@ As the detail item is part of each treelist item, it is visible when its parent 
 The following sample illustrates one possible usage of the detail item feature of RadTreeList:
 
 ````ASPNET
-<telerik:RadTreeList runat="server" ID="RadTreeList1" DataSourceID="SqlDataSource1"
+<telerik:RadTreeList RenderMode="Lightweight" runat="server" ID="RadTreeList1" DataSourceID="SqlDataSource1"
 	AutoGenerateColumns="false" AllowPaging="true" PageSize="5" DataKeyNames="EmployeeID"
 	ParentDataKeyNames="ReportsTo">
 	<DetailTemplate>

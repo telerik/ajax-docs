@@ -52,7 +52,7 @@ function ClientTabSelectedHandler(sender, eventArgs) {
 ````
 
 ````ASPNET	
-<telerik:RadTabStrip id="RadTabStrip" runat="server" Skin="Outlook" EnableViewState="False" OnClientTabSelected="ClientTabSelectedHandler">
+<telerik:RadTabStrip RenderMode="Lightweight" id="RadTabStrip" runat="server" Skin="Outlook" EnableViewState="False" OnClientTabSelected="ClientTabSelectedHandler">
   <Tabs>
     <telerik:RadTab runat="server" Text="RootTabLevel0Tab0" NavigateUrl="~/Tabs/Home.aspx"></ telerik:RadTab>
     <telerik:RadTab runat="server" Text="RootTabLevel0Tab1">
@@ -86,7 +86,7 @@ function ClientTabSelectedHandler(sender, eventArgs) {
 ````
 
 ````ASPNET
-<telerik:RadTabStrip ID="Radtabstrip1" runat="server" SelectedIndex="1" Orientation="VerticalLeft">
+<telerik:RadTabStrip RenderMode="Lightweight" ID="Radtabstrip1" runat="server" SelectedIndex="1" Orientation="VerticalLeft">
 	<Tabs>
 		<telerik:RadTab ImageUrl="VImg/icon_05.gif" Text="Management" CssClass="border">
 		</telerik:RadTab>

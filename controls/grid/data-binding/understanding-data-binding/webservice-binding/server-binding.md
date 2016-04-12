@@ -73,7 +73,7 @@ Sys.Application.notifyScriptLoaded();
       </asp:Timer>
       <div class="quotes">
         Important: Quote values are generated for the puprose of the example only!</div>
-      <telerik:RadGrid ID="RadGrid1" runat="server" Width="718px" Skin="Web20" AutoGenerateColumns="False"
+      <telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" Width="718px" Skin="Web20" AutoGenerateColumns="False"
         DataSourceID="ObjectDataSource1" HorizontalAlign="NotSet" GridLines="none" OnItemDataBound="RadGrid1_ItemDataBound">
         <MasterTableView DataSourceID="ObjectDataSource1">
           <Columns>

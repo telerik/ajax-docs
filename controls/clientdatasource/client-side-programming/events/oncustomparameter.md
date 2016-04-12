@@ -41,7 +41,7 @@ The following example demonstrates how to use **CustomParameter** client event a
     </script>
     <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
     </telerik:RadAjaxManager>
-    <telerik:RadGrid ID="RadGrid1" runat="server" ClientDataSourceID="RadClientDataSource1" AutoGenerateColumns="false" PageSize="4">
+    <telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" ClientDataSourceID="RadClientDataSource1" AutoGenerateColumns="false" PageSize="4">
         <MasterTableView CommandItemDisplay="Top">
             <Columns>
                 <telerik:GridBoundColumn DataField="ProductName" HeaderText="Product Name"></telerik:GridBoundColumn>

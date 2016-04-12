@@ -28,7 +28,7 @@ The event handler receives the following parameters:
 This code sample will throw the event every time the notification is shown:
 
 ````ASP.NET
-<telerik:RadNotification runat="server" ID="RadNotification1" Position="BottomRight"
+<telerik:RadNotification RenderMode="Lightweight" runat="server" ID="RadNotification1" Position="BottomRight"
     Width="250px" Height="100px" OnClientUpdating="OnClientUpdating"
     LoadContentOn="EveryShow" ShowInterval="5000" Text="Sample notification text">
 </telerik:RadNotification>

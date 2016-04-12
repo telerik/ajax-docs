@@ -38,7 +38,7 @@ position: 3
 The example below demonstrates how you can subscribe to the **RadImageGallery** events and extract values from the event arguments.In the scenario, the main image will not be loaded unless it has a title.
 
 ````ASPNET
-<telerik:RadImageGallery ID="RadImageGallery1" runat="server" AllowPaging="true"
+<telerik:RadImageGallery RenderMode="Lightweight" ID="RadImageGallery1" runat="server" AllowPaging="true"
 	DataSourceID="SqlDataSource1" Width="800px" DataTitleField="PhotoTitle" DataImageField="Photo" DataThumbnailField="Photo" ContentViewMode="ContentArea">
 	<ClientSettings>
 		<ClientEvents

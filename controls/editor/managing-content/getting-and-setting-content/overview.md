@@ -17,7 +17,7 @@ Most development tasks with RadEditor involve getting and setting content.
 Use the **Content** property to set or get text content, including HTML markup. You can set the **Content** directly inline within the **<Content>** tag:
 
 ````ASP.NET
-<telerik:RadEditor ID="RadEditor1" runat="server">
+<telerik:RadEditor RenderMode="Lightweight" ID="RadEditor1" runat="server">
 	<Content>This content is set <b>directly</b> inline and includes HTML markup</Content>
 </telerik:RadEditor>
 ````
@@ -53,7 +53,7 @@ You can access RadEditor content through the following properties:
 <asp:Button ID="Button1" runat="server" Text="Send" OnClick="Button1_Click" />
 <asp:TextBox ID="TextBox1" runat="server" TextMode="multiline"></asp:TextBox>
 <asp:TextBox ID="TextBox2" runat="server" TextMode="multiline"></asp:TextBox>
-<telerik:RadEditor ID="RadEditor1" runat="server">
+<telerik:RadEditor RenderMode="Lightweight" ID="RadEditor1" runat="server">
 </telerik:RadEditor>
 ````
 

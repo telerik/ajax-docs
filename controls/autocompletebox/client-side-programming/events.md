@@ -49,7 +49,7 @@ To use these events, simply write a JavaScript function that can be called when 
 	}
 </script>
 
-<telerik:RadAutoCompleteBox 
+<telerik:RadAutoCompleteBox RenderMode="Lightweight" 
 	id="RadAutoCompleteBox1" 
 	runat="server" 
 	OnClientDropDownClosed="MyClientDropDownClosed">

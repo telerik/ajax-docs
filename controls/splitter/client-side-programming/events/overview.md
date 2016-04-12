@@ -34,7 +34,7 @@ The following table lists the client-side events for **RadSplitter**, **RadPane*
 			eventArgs.set_cancel(true);
 	}
 </script>
-<telerik:RadSplitter runat="server" id="RadSplitter1">
+<telerik:RadSplitter RenderMode="Lightweight" runat="server" id="RadSplitter1">
  <telerik:RadPane runat="server" id="RadPane1">
  <telerik:RadSlidingZone runat="server" id="RadSlidingZone1">
    <telerik:RadSlidingPane runat="server" Title="Pane1" id="RadSlidingPane1" OnClientBeforeDock="confirmDock" >

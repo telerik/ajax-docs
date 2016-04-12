@@ -22,7 +22,7 @@ Below follow descriptions of the Aggregate positions based on the **RowTableLayo
 
 * Below is an example with aggregates on level three:
 ````ASPNET
-<telerik:RadPivotGrid ID="RadPivotGrid1" runat="server" DataSourceID="SqlDataSource1" Skin="Metro" AggregatesPosition="Rows" RowTableLayout="Tabular" AggregatesLevel="3">
+<telerik:RadPivotGrid RenderMode="Lightweight" ID="RadPivotGrid1" runat="server" DataSourceID="SqlDataSource1" Skin="Metro" AggregatesPosition="Rows" RowTableLayout="Tabular" AggregatesLevel="3">
 ````           
 
 ![Pivot Grid-Rows Tabular 3 Level](images/PivotGrid-RowsTabular3Level.jpg)
@@ -31,7 +31,7 @@ Here is the same layout with items on the first level collapsed:
 
 * Below is an example with aggregates on level two:
 ````ASPNET
-<telerik:RadPivotGrid ID="RadPivotGrid1" runat="server" DataSourceID="SqlDataSource1" Skin="Metro" AggregatesPosition="Rows" RowTableLayout="Tabular" AggregatesLevel="2">
+<telerik:RadPivotGrid RenderMode="Lightweight" ID="RadPivotGrid1" runat="server" DataSourceID="SqlDataSource1" Skin="Metro" AggregatesPosition="Rows" RowTableLayout="Tabular" AggregatesLevel="2">
 ````                
 
 ![Pivot Grid-Rows Tabular 2 Level](images/PivotGrid-RowsTabular2Level.jpg)
@@ -40,7 +40,7 @@ Here is the same layout with some collapsed items:
 
 * Below is an example with aggregates on level one:
 ````ASPNET
-<telerik:RadPivotGrid ID="RadPivotGrid1" runat="server" DataSourceID="SqlDataSource1" Skin="Metro" AggregatesPosition="Rows" RowTableLayout="Tabular" AggregatesLevel="1">
+<telerik:RadPivotGrid RenderMode="Lightweight" ID="RadPivotGrid1" runat="server" DataSourceID="SqlDataSource1" Skin="Metro" AggregatesPosition="Rows" RowTableLayout="Tabular" AggregatesLevel="1">
 ````                
 
 ![Pivot Grid-Rows Tabular 1 Level](images/PivotGrid-RowsTabular1Level.jpg)
@@ -49,7 +49,7 @@ Here is the same layout with some collapsed items:
 
 * Below is an example with aggregates on level zero:
 ````ASPNET
-<telerik:RadPivotGrid ID="RadPivotGrid1" runat="server" DataSourceID="SqlDataSource1" Skin="Metro" AggregatesPosition="Rows" RowTableLayout="Tabular" AggregatesLevel="0">
+<telerik:RadPivotGrid RenderMode="Lightweight" ID="RadPivotGrid1" runat="server" DataSourceID="SqlDataSource1" Skin="Metro" AggregatesPosition="Rows" RowTableLayout="Tabular" AggregatesLevel="0">
 ````                
 
 ![Pivot Grid-Rows Tabular 0 Level](images/PivotGrid-RowsTabular0Level.jpg)
@@ -60,7 +60,7 @@ Here is the same layout with some collapsed items:
 
 * Below is an example with aggregates on level three:
 ````ASPNET
-<telerik:RadPivotGrid ID="RadPivotGrid1" runat="server" DataSourceID="SqlDataSource1" Skin="Metro" AggregatesPosition="Rows" RowTableLayout="Outline" AggregatesLevel="3">
+<telerik:RadPivotGrid RenderMode="Lightweight" ID="RadPivotGrid1" runat="server" DataSourceID="SqlDataSource1" Skin="Metro" AggregatesPosition="Rows" RowTableLayout="Outline" AggregatesLevel="3">
 ````                
 
 ![Pivot Grid-Rows Outline 3 Level](images/PivotGrid-RowsOutline3Level.jpg)
@@ -69,21 +69,21 @@ Here is the same layout with some collapsed items:
 
 * Below is an example with aggregates on level two:
 ````ASPNET
-<telerik:RadPivotGrid ID="RadPivotGrid1" runat="server" DataSourceID="SqlDataSource1" Skin="Metro" AggregatesPosition="Rows" RowTableLayout="Outline" AggregatesLevel="2">
+<telerik:RadPivotGrid RenderMode="Lightweight" ID="RadPivotGrid1" runat="server" DataSourceID="SqlDataSource1" Skin="Metro" AggregatesPosition="Rows" RowTableLayout="Outline" AggregatesLevel="2">
 ````                
 
 ![Pivot Grid-Rows Outline 2 Level](images/PivotGrid-RowsOutline2Level.jpg)
 
 * Below is an example with aggregates on level one with collapsed items:
 ````ASPNET
-<telerik:RadPivotGrid ID="RadPivotGrid1" runat="server" DataSourceID="SqlDataSource1" Skin="Metro" AggregatesPosition="Rows" RowTableLayout="Outline" AggregatesLevel="1">
+<telerik:RadPivotGrid RenderMode="Lightweight" ID="RadPivotGrid1" runat="server" DataSourceID="SqlDataSource1" Skin="Metro" AggregatesPosition="Rows" RowTableLayout="Outline" AggregatesLevel="1">
 ````                
 
 ![Pivot Grid-Rows Outline 1 Level Collapsed](images/PivotGrid-RowsOutline1LevelCollapsed.jpg)
 
 * Below is an example with aggregates on level zero with collapsed items:
 ````ASPNET
-<telerik:RadPivotGrid ID="RadPivotGrid1" runat="server" DataSourceID="SqlDataSource1" Skin="Metro" AggregatesPosition="Rows" RowTableLayout="Outline" AggregatesLevel="0">
+<telerik:RadPivotGrid RenderMode="Lightweight" ID="RadPivotGrid1" runat="server" DataSourceID="SqlDataSource1" Skin="Metro" AggregatesPosition="Rows" RowTableLayout="Outline" AggregatesLevel="0">
 ````                
 
 ![Pivot Grid-Rows Outline 0 Level Collapsed](images/PivotGrid-RowsOutline0LevelCollapsed.jpg)
@@ -92,7 +92,7 @@ Here is the same layout with some collapsed items:
 
 * Below is an example with aggregates on level three:
 ````ASPNET
-<telerik:RadPivotGrid ID="RadPivotGrid1" runat="server" DataSourceID="SqlDataSource1" Skin="Metro" AggregatesPosition="Rows" RowTableLayout="Compact" AggregatesLevel="3">
+<telerik:RadPivotGrid RenderMode="Lightweight" ID="RadPivotGrid1" runat="server" DataSourceID="SqlDataSource1" Skin="Metro" AggregatesPosition="Rows" RowTableLayout="Compact" AggregatesLevel="3">
 ````                
 
 ![Pivot Grid-Rows Compact 3 Level](images/PivotGrid-RowsCompact3Level.jpg) 
@@ -101,21 +101,21 @@ Here is the same layout with items on the first level collapsed:
 
 * Below is an example with aggregates on level two:
 ````ASPNET
-<telerik:RadPivotGrid ID="RadPivotGrid1" runat="server" DataSourceID="SqlDataSource1" Skin="Metro" AggregatesPosition="Rows" RowTableLayout="Compact" AggregatesLevel="2">
+<telerik:RadPivotGrid RenderMode="Lightweight" ID="RadPivotGrid1" runat="server" DataSourceID="SqlDataSource1" Skin="Metro" AggregatesPosition="Rows" RowTableLayout="Compact" AggregatesLevel="2">
 ````                
 
 ![Pivot Grid-Rows Compact 2 Level](images/PivotGrid-RowsCompact2Level.jpg)
 
 * Below is an example with aggregates on level one with some collapsed items:
 ````ASPNET
-<telerik:RadPivotGrid ID="RadPivotGrid1" runat="server" DataSourceID="SqlDataSource1" Skin="Metro" AggregatesPosition="Rows" RowTableLayout="Compact" AggregatesLevel="1">
+<telerik:RadPivotGrid RenderMode="Lightweight" ID="RadPivotGrid1" runat="server" DataSourceID="SqlDataSource1" Skin="Metro" AggregatesPosition="Rows" RowTableLayout="Compact" AggregatesLevel="1">
 ````                
 
 ![Pivot Grid-Rows Compact 1 Level Collapsed](images/PivotGrid-RowsCompact1LevelCollapsed.jpg)
 
 * Below is an example with aggregates on level zero with some collapsed items:
 ````ASPNET
-<telerik:RadPivotGrid ID="RadPivotGrid1" runat="server" DataSourceID="SqlDataSource1" Skin="Metro" AggregatesPosition="Rows" RowTableLayout="Compact" AggregatesLevel="0">
+<telerik:RadPivotGrid RenderMode="Lightweight" ID="RadPivotGrid1" runat="server" DataSourceID="SqlDataSource1" Skin="Metro" AggregatesPosition="Rows" RowTableLayout="Compact" AggregatesLevel="0">
 ````                
 
 ![Pivot Grid-Rows Compact 0 Level Collapsed](images/PivotGrid-RowsCompact0LevelCollapsed.jpg)
@@ -126,14 +126,14 @@ Here is the same layout with items on the first level collapsed:
 
 * Below is an example with aggregates on level two:
 ````ASPNET
-<telerik:RadPivotGrid ID="RadPivotGrid1" runat="server" DataSourceID="SqlDataSource1" Skin="Metro" AggregatesPosition="Columns" RowTableLayout="Tabular" AggregatesLevel="2">
+<telerik:RadPivotGrid RenderMode="Lightweight" ID="RadPivotGrid1" runat="server" DataSourceID="SqlDataSource1" Skin="Metro" AggregatesPosition="Columns" RowTableLayout="Tabular" AggregatesLevel="2">
 ````                
 
 ![Pivot Grid-Columns Tabular 2 Level](images/PivotGrid-ColumnsTabular2Level.jpg)
 
 * Below is an example with aggregates on level one:
 ````ASPNET
-<telerik:RadPivotGrid ID="RadPivotGrid1" runat="server" DataSourceID="SqlDataSource1" Skin="Metro" AggregatesPosition="Columns" RowTableLayout="Tabular" AggregatesLevel="1">
+<telerik:RadPivotGrid RenderMode="Lightweight" ID="RadPivotGrid1" runat="server" DataSourceID="SqlDataSource1" Skin="Metro" AggregatesPosition="Columns" RowTableLayout="Tabular" AggregatesLevel="1">
 ````                
 
 ![Pivot Grid-Columns Tabular 1 Level](images/PivotGrid-ColumnsTabular1Level.jpg)
@@ -142,7 +142,7 @@ Here is the same layout with some collapsed items:
 
 * Below is an example with aggregates on level zero:
 ````ASPNET
-<telerik:RadPivotGrid ID="RadPivotGrid1" runat="server" DataSourceID="SqlDataSource1" Skin="Metro" AggregatesPosition="Rows" RowTableLayout="Tabular" AggregatesLevel="0">
+<telerik:RadPivotGrid RenderMode="Lightweight" ID="RadPivotGrid1" runat="server" DataSourceID="SqlDataSource1" Skin="Metro" AggregatesPosition="Rows" RowTableLayout="Tabular" AggregatesLevel="0">
 ````                
 
 ![Pivot Grid-Columns Tabular 0 Level](images/PivotGrid-ColumnsTabular0Level.jpg)
@@ -151,21 +151,21 @@ Here is the same layout with some collapsed items:
 
 * Below is an example with aggregates on level two:
 ````ASPNET
-<telerik:RadPivotGrid ID="RadPivotGrid1" runat="server" DataSourceID="SqlDataSource1" Skin="Metro" AggregatesPosition="Columns" RowTableLayout="Outline" AggregatesLevel="2">
+<telerik:RadPivotGrid RenderMode="Lightweight" ID="RadPivotGrid1" runat="server" DataSourceID="SqlDataSource1" Skin="Metro" AggregatesPosition="Columns" RowTableLayout="Outline" AggregatesLevel="2">
 ````                
 
 ![Pivot Grid-Columns Outline 2 Level](images/PivotGrid-ColumnsOutline2Level.jpg)
 
 * Below is an example with aggregates on level one :
 ````ASPNET
-<telerik:RadPivotGrid ID="RadPivotGrid1" runat="server" DataSourceID="SqlDataSource1" Skin="Metro" AggregatesPosition="Columns" RowTableLayout="Outline" AggregatesLevel="1">
+<telerik:RadPivotGrid RenderMode="Lightweight" ID="RadPivotGrid1" runat="server" DataSourceID="SqlDataSource1" Skin="Metro" AggregatesPosition="Columns" RowTableLayout="Outline" AggregatesLevel="1">
 ````                
 
 ![Pivot Grid-Columns Outline 1 Level](images/PivotGrid-ColumnsOutline1Level.jpg)
 
 * Below is an example with aggregates on level zero:
 ````ASPNET
-<telerik:RadPivotGrid ID="RadPivotGrid1" runat="server" DataSourceID="SqlDataSource1" Skin="Metro" AggregatesPosition="Columns" RowTableLayout="Outline" AggregatesLevel="0">
+<telerik:RadPivotGrid RenderMode="Lightweight" ID="RadPivotGrid1" runat="server" DataSourceID="SqlDataSource1" Skin="Metro" AggregatesPosition="Columns" RowTableLayout="Outline" AggregatesLevel="0">
 ````                
 
 ![Pivot Grid-Columns Outline 0 Level](images/PivotGrid-ColumnsOutline0Level.jpg)
@@ -174,7 +174,7 @@ Here is the same layout with some collapsed items:
 
 * Below is an example with aggregates on level two:
 ````ASPNET
-<telerik:RadPivotGrid ID="RadPivotGrid1" runat="server" DataSourceID="SqlDataSource1" Skin="Metro" AggregatesPosition="Columns" RowTableLayout="Compact" AggregatesLevel="2">
+<telerik:RadPivotGrid RenderMode="Lightweight" ID="RadPivotGrid1" runat="server" DataSourceID="SqlDataSource1" Skin="Metro" AggregatesPosition="Columns" RowTableLayout="Compact" AggregatesLevel="2">
 ````                
 
 ![Pivot Grid-Columns Compact 2 Level](images/PivotGrid-ColumnsCompact2Level.jpg)
@@ -183,14 +183,14 @@ Here is the same layout with three column fields and some collapsed items:
 
 * Below is an example with aggregates on level one with three column fields and some collapsed items:
 ````ASPNET
-<telerik:RadPivotGrid ID="RadPivotGrid1" runat="server" DataSourceID="SqlDataSource1" Skin="Metro" AggregatesPosition="Columns" RowTableLayout="Compact" AggregatesLevel="1">
+<telerik:RadPivotGrid RenderMode="Lightweight" ID="RadPivotGrid1" runat="server" DataSourceID="SqlDataSource1" Skin="Metro" AggregatesPosition="Columns" RowTableLayout="Compact" AggregatesLevel="1">
 ````                
 
 ![Pivot Grid-Columns Compact 1 Level Collapsed](images/PivotGrid-ColumnsCompact1LevelCollapsed.jpg)
 
 * Below is an example with aggregates on level zero with three column fields and some collapsed items:
 ````ASPNET
-<telerik:RadPivotGrid ID="RadPivotGrid1" runat="server" DataSourceID="SqlDataSource1" Skin="Metro" AggregatesPosition="Columns" RowTableLayout="Compact" AggregatesLevel="0">
+<telerik:RadPivotGrid RenderMode="Lightweight" ID="RadPivotGrid1" runat="server" DataSourceID="SqlDataSource1" Skin="Metro" AggregatesPosition="Columns" RowTableLayout="Compact" AggregatesLevel="0">
 ````
 
 ![Pivot Grid-Columns Compact 0 Level Collapsed](images/PivotGrid-ColumnsCompact0LevelCollapsed.jpg)

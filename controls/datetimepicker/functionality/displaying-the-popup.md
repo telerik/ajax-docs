@@ -19,7 +19,7 @@ You can alter this behavior by hiding the **DatePopupButton** or **TimePopupButt
 The following example illustrates how to hide the popup buttons and use client-side code to display the popup. The **RadDatePicker** control displays its popup when the input area gets focus. The **RadTimePicker** control displays its popup when the user clicks in the input area. The **RadDateTimePicker** control displays its popup in response to a user key press.
 
 ````ASPNET
-<telerik:RadDateTimePicker ID="RadDateTimePicker1" runat="server">
+<telerik:RadDateTimePicker RenderMode="Lightweight" ID="RadDateTimePicker1" runat="server">
     <DateInput>
         <ClientEvents OnKeyPress="ShowDateTimePopup" />
     </DateInput>

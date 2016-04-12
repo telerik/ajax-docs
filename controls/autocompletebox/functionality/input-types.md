@@ -32,11 +32,11 @@ RadAutoCompleteBox provides two different visual representations of its entries.
 Despite of the chosen input type, the entries of RadAutoCompleteBox will be accessible server-side through the **Entries** collection.
 
 ````ASPNET
-<telerik:RadAutoCompleteBox ID="RadAutoCompleteBox1" runat="server" DataSourceID="SqlDataSource1"
+<telerik:RadAutoCompleteBox RenderMode="Lightweight" ID="RadAutoCompleteBox1" runat="server" DataSourceID="SqlDataSource1"
 	DataValueField="ID" DataTextField="Name" InputType="Token">
 </telerik:RadAutoCompleteBox>
 <br /><br />
-<telerik:RadButton runat="server" ID="RadButton2" OnClick="RadButton1_Click" Text="Get Selected Entries" />
+<telerik:RadButton RenderMode="Lightweight" runat="server" ID="RadButton2" OnClick="RadButton1_Click" Text="Get Selected Entries" />
 <div>
 	<strong>Selected Entries: </strong>
 	<br /> 

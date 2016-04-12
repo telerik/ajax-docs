@@ -17,7 +17,7 @@ position: 1
 ## Setting the Default Message in the markup code
 
 ````ASPNET
-<telerik:RadDropDownList ID="RadDropDownList1"
+<telerik:RadDropDownList RenderMode="Lightweight" ID="RadDropDownList1"
 	 runat="server"
 	 AutoPostBack="true"
 	 DefaultMessage="Select an item">

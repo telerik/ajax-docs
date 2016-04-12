@@ -27,7 +27,7 @@ To precisely position the tooltip, use the following **RadToolTip** and **RadToo
 The wide range of properties used to configure where the ToolTip will appear on the page, lead to a wide range of possible configurations. The following example demonstrates one possible configuration of RadToolTip and the identical settings with RadToolTipManager:
 
 ````ASP.NET
-<telerik:RadToolTip ID="RadToolTip1" runat="server" TargetControlID="Label1" ShowCallout="false"
+<telerik:RadToolTip RenderMode="Lightweight" ID="RadToolTip1" runat="server" TargetControlID="Label1" ShowCallout="false"
     RelativeTo="Element" Position="BottomRight" OffsetY="-10" OffsetX="-10" Text="This is a RadToolTip">
 </telerik:RadToolTip>
 <asp:Label ID="Label1" runat="server" Text="Label 1"></asp:Label>

@@ -20,19 +20,19 @@ You can use RadSplitter to create several non-resizable regions. To do this, sim
 The layout above was produced by the following declaration:
 
 ````ASP.NET	 
-<telerik:RadSplitter runat="server" id="RadSplitter1"
+<telerik:RadSplitter RenderMode="Lightweight" runat="server" id="RadSplitter1"
    Orientation="Vertical" width="600px" height="400px">
  <telerik:RadPane runat="server" id="LeftPane" Width="200px">
    Left pane
  </telerik:RadPane>
  <telerik:RadPane runat="server" id="RightPane" Width="400px">
-   <telerik:RadSplitter runat="server" id="RadSplitter2"
+   <telerik:RadSplitter RenderMode="Lightweight" runat="server" id="RadSplitter2"
 	   Orientation="Horizontal">
 	 <telerik:RadPane runat="server" id="TopPane">
 	   Top Pane
 	 </telerik:RadPane>
 	 <telerik:RadPane runat="server" id="BottomPane">
-	   <telerik:RadSplitter runat="server"
+	   <telerik:RadSplitter RenderMode="Lightweight" runat="server"
 		   Orientation="Vertical" Width="400px">
 		 <telerik:RadPane runat="server" Width="40%">
 		   Bottom Left Pane

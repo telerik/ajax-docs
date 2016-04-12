@@ -38,7 +38,7 @@ This method also returns a reference to the RadAlert object (which is essentiall
 Since Q1 2011 the **RadWindowManager** offers a built-in server-side method to call the **RadAlert**:
 
 ````ASP.NET
-<telerik:RadWindowManager runat="server" id="RadWindowManager1"></telerik:RadWindowManager>
+<telerik:RadWindowManager RenderMode="Lightweight" runat="server" id="RadWindowManager1"></telerik:RadWindowManager>
 <script type="text/javascript">
 	function callBackFn(arg)
 	{

@@ -35,7 +35,7 @@ To enable spell checking in your web application you need to accomplish the foll
 
 	**ASP.NET**
 	
-		<telerik:RadEditor runat="server" ID="RadEditor1">
+		<telerik:RadEditor RenderMode="Lightweight" runat="server" ID="RadEditor1">
 			<Languages>
 				<telerik:SpellCheckerLanguage Code="fr-FR" Title="French" />
 			</Languages>

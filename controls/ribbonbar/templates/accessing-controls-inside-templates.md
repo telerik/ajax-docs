@@ -29,7 +29,7 @@ Here is the markup:
 	<telerik:RibbonBarGroup Text="Font">
 		<items>
 			<telerik:RibbonBarTemplateItem>
-					<telerik:RadComboBox ID="RadComboBox1" runat="server" Width="90px">
+					<telerik:RadComboBox RenderMode="Lightweight" ID="RadComboBox1" runat="server" Width="90px">
 						<Items>
 							<telerik:RadComboBoxItem Text="Cambria" />
 							<telerik:RadComboBoxItem Text="Calibri" Selected="true" />

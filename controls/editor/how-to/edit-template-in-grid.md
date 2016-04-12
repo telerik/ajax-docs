@@ -51,7 +51,7 @@ In a new AJAX Enabled Web Application:
 				<asp:Label ID="lblField1" CssClass="text" runat="server" Text='<%# DataBinder.Eval(Container.DataItem, "Subject") %>' />
 			</ItemTemplate>
 			<EditItemTemplate>
-				<telerik:RadEditor ID="RadEditor1" runat="server" Content='<%# Eval("Body") %>' EditModes="Design"
+				<telerik:RadEditor RenderMode="Lightweight" ID="RadEditor1" runat="server" Content='<%# Eval("Body") %>' EditModes="Design"
 					Skin="Vista" Width="300px" Height="200px">
 					<Tools>
 						<telerik:EditorToolGroup>

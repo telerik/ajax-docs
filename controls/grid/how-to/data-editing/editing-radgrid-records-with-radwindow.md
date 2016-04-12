@@ -84,7 +84,7 @@ function refreshGrid(arg) {
     </telerik:AjaxSetting>
   </AjaxSettings>
 </telerik:RadAjaxManager>
-<telerik:RadGrid OnItemCreated="RadGrid1_ItemCreated" ID="RadGrid1" runat="server"
+<telerik:RadGrid RenderMode="Lightweight" OnItemCreated="RadGrid1_ItemCreated" ID="RadGrid1" runat="server"
   Skin="Vista" AllowPaging="True" Width="97%" DataSourceID="SqlDataSource1">
   <PagerStyle Mode="NumericPages" />
   <MasterTableView AutoGenerateColumns="False" DataKeyNames="EmployeeID" Width="100%"
@@ -116,9 +116,9 @@ function refreshGrid(arg) {
     <Selecting AllowRowSelect="true" />
   </ClientSettings>
 </telerik:RadGrid>
-<telerik:RadWindowManager ID="RadWindowManager1" runat="server" Skin="Vista">
+<telerik:RadWindowManager RenderMode="Lightweight" ID="RadWindowManager1" runat="server" Skin="Vista">
   <Windows>
-    <telerik:RadWindow Skin="Vista" ID="UserListDialog" runat="server" Title="User List Dialog"
+    <telerik:RadWindow RenderMode="Lightweight" Skin="Vista" ID="UserListDialog" runat="server" Title="User List Dialog"
       Height="400px" Width="300px" Left="150px" ReloadOnShow="true" Modal="true" />
   </Windows>
 </telerik:RadWindowManager>

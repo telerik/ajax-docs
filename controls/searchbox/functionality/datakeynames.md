@@ -22,9 +22,9 @@ position: 4
 		alert(args.get_dataItem().SupplierID);
 	}
 </script>
-  <telerik:RadTextBox runat="server" ID="RadTextBox1">
+  <telerik:RadTextBox RenderMode="Lightweight" runat="server" ID="RadTextBox1">
   </telerik:RadTextBox>
-<telerik:RadSearchBox runat="server" ID="RadSearchBox1" OnClientSearch="OnClientSearch" OnSearch="RadSearchBox1_Search" 
+<telerik:RadSearchBox RenderMode="Lightweight" runat="server" ID="RadSearchBox1" OnClientSearch="OnClientSearch" OnSearch="RadSearchBox1_Search" 
 	DataSourceID="SqlDataSource1"
 	DataKeyNames="UnitPrice, SupplierID"
 	DataValueField="ProductId"  MaxResultCount="10"

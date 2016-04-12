@@ -41,14 +41,14 @@ A sliding pane, like a regular pane, can contain any HTML elements, including AS
 The ASP.NET declaration for the **RadSplitter** shown above is as follows:
 
 ````ASP.NET	     
-<telerik:RadSplitter ID="RadSplitter1" runat="server" Skin="Office2007">
+<telerik:RadSplitter RenderMode="Lightweight" ID="RadSplitter1" runat="server" Skin="Office2007">
  <telerik:RadPane ID="LeftPane" runat="server">
 	Left Pane
  </telerik:RadPane>
  <telerik:RadSplitBar ID="RadSplitBar1" runat="server" CollapseMode="Both" />
  <telerik:RadPane ID="MiddlePane" runat="server" Scrolling="None">
    Middle Pane
-   <telerik:RadSplitter ID="NestedSplitter" runat="server"
+   <telerik:RadSplitter RenderMode="Lightweight" ID="NestedSplitter" runat="server"
 						Orientation="Horizontal" Skin="Office2007" >
 	 <telerik:RadPane ID="TopPane" runat="server">
 	   Top Pane

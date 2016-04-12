@@ -19,7 +19,7 @@ By default, the item's text is wrapped so the horizontal scrollbar does not appe
 This article shows how to make the text of the items lie on one line thus showing the horizontal scrollbar. Here is the declaration:
 
 ````ASPNET	     
-<telerik:RadListBox ID="list1" runat="server"
+<telerik:RadListBox RenderMode="Lightweight" ID="list1" runat="server"
    Width="130px" Height="200px" Skin="Office2007">
    <Items>
 	   <telerik:RadListBoxItem Text="ASP.NET AJAX UI Controls" />

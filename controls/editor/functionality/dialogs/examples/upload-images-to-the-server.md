@@ -19,14 +19,14 @@ For example, to enable users to upload images in the "~/Images" folder and all o
 There are two approaches to set the Image Manager's paths:
 
 ````ASP.NET
-<telerik:RadEditor ID="RadEditor1" runat="server"
+<telerik:RadEditor RenderMode="Lightweight" ID="RadEditor1" runat="server"
 	ImageManager-ViewPaths="~/Images"
 	ImageManager-UploadPaths="~/Images"
 	ImageManager-DeletePaths="~/Images" >
 </telerik:RadEditor>
 ````
 ````ASP.NET
-<telerik:RadEditor ID="RadEditor1" runat="server">
+<telerik:RadEditor RenderMode="Lightweight" ID="RadEditor1" runat="server">
 	<ImageManager
 		ViewPaths="~/Images"
 		DeletePaths="~/Images"

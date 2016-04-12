@@ -42,7 +42,7 @@ position: 1
 Below is a sample illustrating how you can use the fireCommand() client-side method of **RadDataPager**:
 
 ````JavaScript
-<telerik:RadDataPager ID="RadDataPager1" runat="server">
+<telerik:RadDataPager RenderMode="Lightweight" ID="RadDataPager1" runat="server">
 </telerik:RadDataPager>
 <telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
     <script type="text/javascript">

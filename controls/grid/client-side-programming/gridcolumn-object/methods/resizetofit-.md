@@ -30,7 +30,7 @@ This method resizes the column to fit the widest cell's content without wrapping
     }
  </script>
 </telerik:RadCodeBlock>    
-<telerik:RadGrid id="RadGrid1" runat="server">
+<telerik:RadGrid RenderMode="Lightweight" id="RadGrid1" runat="server">
     <ClientSettings>
         <Resizing AllowColumnResize="true" ResizeGridOnColumnResize="true" AllowResizeToFit="true" />
     </ClientSettings>

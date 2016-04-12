@@ -24,7 +24,7 @@ Two parameters are passed to the event handler:
 The following example uses the **OnMouseOut** event to display an alert:
 
 ````ASPNET
-<telerik:RadMaskedTextBox ID="RadMaskedTextBox1" runat="server">
+<telerik:RadMaskedTextBox RenderMode="Lightweight" ID="RadMaskedTextBox1" runat="server">
 	<ClientEvents OnMouseOut="MouseOut" />
 </telerik:RadMaskedTextBox>
 ````

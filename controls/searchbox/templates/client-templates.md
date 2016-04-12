@@ -25,7 +25,7 @@ RadSearchBox provides support for client templates. The template itself contains
 
 
 ````ASPNET
-<telerik:RadSearchBox runat="server" ID="RadSearchBox1" 
+<telerik:RadSearchBox RenderMode="Lightweight" runat="server" ID="RadSearchBox1" 
 	DataSourceID="SqlDataSource1"
 	DataValueField="ProductId"
 	DataTextField="ProductName">

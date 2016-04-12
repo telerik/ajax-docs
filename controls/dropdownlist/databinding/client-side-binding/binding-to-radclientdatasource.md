@@ -41,7 +41,7 @@ The following application scenario shows a sample configuration of RadDropDownLi
 	<ClientEvents />
 </telerik:RadClientDataSource>
 
-<telerik:RadDropDownList DropDownHeight="100px" runat="server" ID="List1" ClientDataSourceID="CD1"
+<telerik:RadDropDownList RenderMode="Lightweight" DropDownHeight="100px" runat="server" ID="List1" ClientDataSourceID="CD1"
 	DataTextField="Name" DataValueField="Value" EnableVirtualScrolling="true">
 </telerik:RadDropDownList>
 ````

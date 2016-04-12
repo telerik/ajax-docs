@@ -16,7 +16,7 @@ The example below demonstrates how to insert text at the cursor position in RadE
 
 	**ASP.NET**
 	
-		<telerik:RadEditor runat="server" ID="RadEditor1">
+		<telerik:RadEditor RenderMode="Lightweight" runat="server" ID="RadEditor1">
 		</telerik:RadEditor>
 		<asp:TextBox ID="TextBox1" runat="server" Height="97px"></asp:TextBox>
 

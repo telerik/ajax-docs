@@ -25,7 +25,7 @@ html
 
 
 ````ASP.NET
-<telerik:RadNotification ID="RadNotification1" runat="server" VisibleOnPageLoad="true"
+<telerik:RadNotification RenderMode="Lightweight" ID="RadNotification1" runat="server" VisibleOnPageLoad="true"
     ShowTitleMenu="true" Title="Sample Title" Text="Sample notification text" Position="BottomLeft"
     OffsetX="30" OffsetY="-30" Height="100" Width="400" AutoCloseDelay="0" EnableRoundedCorners="true"
     EnableShadow="true">

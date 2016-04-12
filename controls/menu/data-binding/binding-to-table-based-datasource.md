@@ -52,7 +52,7 @@ End Sub
 The resulting declaration looks something like the following:
 
 ````ASP.NET
-<telerik:RadMenu runat="server" ID="RadMenu1" DataSourceID="SqlDataSource1" DataFieldID="id"
+<telerik:RadMenu RenderMode="Lightweight" runat="server" ID="RadMenu1" DataSourceID="SqlDataSource1" DataFieldID="id"
 	DataFieldParentID="parentID" DataTextField="Targetname" DataNavigatUrlField="target"
 	OnItemDataBound="RadMenu1_ItemDataBound">
 </telerik:RadMenu>

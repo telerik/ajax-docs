@@ -166,7 +166,7 @@ Here is also an example that uses a Content Template at run-time.
 
 ````ASPNET
 	  
-<telerik:RadPanelBar ID="RadPanelBar1" runat="server">
+<telerik:RadPanelBar RenderMode="Lightweight" ID="RadPanelBar1" runat="server">
     <Items>
         <telerik:RadPanelItem runat="server" Text="Root RadPanelItem1" Value="A">
         </telerik:RadPanelItem>
@@ -269,7 +269,7 @@ Here is also an example that uses a Header Template at run-time.
 
 ````ASPNET
 	  
-<telerik:RadPanelBar ID="RadPanelBar1" runat="server" Skin="Metro">
+<telerik:RadPanelBar RenderMode="Lightweight" ID="RadPanelBar1" runat="server" Skin="Metro">
     <Items>
         <telerik:RadPanelItem runat="server" Text="Root RadPanelItem1" Value="A" Expanded="true">
             <Items>

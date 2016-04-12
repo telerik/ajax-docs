@@ -29,10 +29,10 @@ The solution is to attach a handler to the **Cancel** button that will use the [
 		$telerik.$(".ruCancel", $find("<%=RadProgressArea1.ClientID%>").get_element()).on("mousedown", reEnable);
 	}
 </script>
-<telerik:RadButton ID="RadButton1" runat="server" Text="Submit" SingleClick="true" SingleClickText="Please wait..." OnClick="RadButton1_Click" OnClientClicking="attachHandlersToCancelButton">
+<telerik:RadButton RenderMode="Lightweight" ID="RadButton1" runat="server" Text="Submit" SingleClick="true" SingleClickText="Please wait..." OnClick="RadButton1_Click" OnClientClicking="attachHandlersToCancelButton">
 </telerik:RadButton>
 <telerik:RadProgressManager ID="RadProgressManager1" runat="server" />
-<telerik:RadProgressArea ID="RadProgressArea1" runat="server" DisplayCancelButton="True"
+<telerik:RadProgressArea RenderMode="Lightweight" ID="RadProgressArea1" runat="server" DisplayCancelButton="True"
 						 ProgressIndicators="FilesCountBar,
 						 FilesCount,
 						 FilesCountPercent,                      

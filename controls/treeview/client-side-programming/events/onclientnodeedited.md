@@ -29,7 +29,7 @@ The event handler receives parameters:
 The example below displays the new node text just after the user has finished editing it.
 
 ````ASPNET
-<telerik:RadTreeView ID="RadTreeView1" 
+<telerik:RadTreeView RenderMode="Lightweight" ID="RadTreeView1" 
     runat="server" 
     AllowNodeEditing="true" 
     OnClientNodeEdited="ClientNodeEdited">

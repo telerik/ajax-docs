@@ -29,7 +29,7 @@ To the right, towards the badge, there are 35 pixels left available and the badg
 **RadTileList** example:
 
 ````ASP.NET
-<telerik:RadTileList runat="server" ID="RadTileList1">
+<telerik:RadTileList RenderMode="Lightweight" runat="server" ID="RadTileList1">
 	<Groups>
 		<telerik:TileGroup>
 			<telerik:RadImageAndTextTile Shape="Wide" BackColor="Orange" ImageUrl="images/swim.png"

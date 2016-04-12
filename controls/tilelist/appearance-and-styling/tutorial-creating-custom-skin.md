@@ -39,7 +39,7 @@ Each of the controls included in the Telerik UI for ASP.NET AJAX suite is styled
 
 	__ASP.NET__
 
-		<telerik:RadTileList runat="server" EnableEmbeddedSkins="false" Skin="MyCustomSkin"></telerik:RadTileList>
+		<telerik:RadTileList RenderMode="Lightweight" runat="server" EnableEmbeddedSkins="false" Skin="MyCustomSkin"></telerik:RadTileList>
 
 
 1. Register TileList.MyCustomSkin.css in the `<head>...</head>` section of your webpage. In order to have the CSS applied correctly, the base stylesheet should come first in the DOM:

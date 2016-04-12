@@ -33,7 +33,7 @@ In **Example 1** you can examine a sample markup created by following the above 
 >caption **Example 1**: Adding a simple **Marker** in **RadMap** with ASP.NET markup
 
 ````ASP.NET
-<telerik:RadMap runat="server" ID="RadMap1">
+<telerik:RadMap RenderMode="Lightweight" runat="server" ID="RadMap1">
 	<MarkersCollection>
 		<telerik:MapMarker Shape="Pin" Title="This is <strong>HTML</strong> markup">
 			<LocationSettings Latitude="51.500925" Longitude="-0.124507" />
@@ -45,7 +45,7 @@ In **Example 1** you can examine a sample markup created by following the above 
 >caption **Example 2**: Programmatic approach to add a simple **Marker** in **RadMap**
 
 ````ASP.NET
-<telerik:RadMap runat="server" ID="RadMap1">
+<telerik:RadMap RenderMode="Lightweight" runat="server" ID="RadMap1">
 </telerik:RadMap>
 ````
 ````C#
@@ -80,7 +80,7 @@ The Markers in **RadMap** are two types - **Pin** and **PinTarget** (see **Figur
 >caption **Example 3**: Setting **Marker** shapes.
 
 ````ASP.NET
-<telerik:RadMap runat="server" ID="RadMap1" Skin="Default" Zoom="4">
+<telerik:RadMap RenderMode="Lightweight" runat="server" ID="RadMap1" Skin="Default" Zoom="4">
 	<CenterSettings Latitude="1" Longitude="1" />
 	<MarkersCollection>
 		<telerik:MapMarker Shape="Pin">
@@ -102,7 +102,7 @@ In **Example 4** you can see how the marker tooltip is configured to show a [Ken
 >caption **Example 4**: Creating a complex tooltip.
 
 ````ASP.NET
-<telerik:RadMap runat="server" ID="RadMap1" Zoom="4">
+<telerik:RadMap RenderMode="Lightweight" runat="server" ID="RadMap1" Zoom="4">
 	<CenterSettings Latitude="1" Longitude="1" />
 	<MarkersCollection>
 		<telerik:MapMarker Shape="Pin">

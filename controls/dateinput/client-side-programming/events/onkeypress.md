@@ -35,7 +35,7 @@ Two parameters are passed to the event handler:
 The following example uses the **OnKeyPress** event to limit input to the letters 'a' to 'z' and 'A' to 'Z':
 
 ````ASPNET
-<telerik:RadDateInput ID="RadDateInput1" runat="server">
+<telerik:RadDateInput RenderMode="Lightweight" ID="RadDateInput1" runat="server">
 	<ClientEvents OnKeyPress="AlphabetOnly" />
 </telerik:RadDateInput>
 ````

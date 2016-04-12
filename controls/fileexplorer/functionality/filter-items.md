@@ -52,7 +52,7 @@ It is not necessary to have the built-in filter textbox enabled in order to perf
 
 <div>
 	<span>Search:</span><input type="text" onkeyup="Search(this); return false;" />
-	<telerik:RadFileExplorer ID="RadFileExplorer1" runat="server" PageSize="4" AllowPaging="true">
+	<telerik:RadFileExplorer RenderMode="Lightweight" ID="RadFileExplorer1" runat="server" PageSize="4" AllowPaging="true">
 		<Configuration ViewPaths="~/Images/Northwind/" UploadPaths="~/Images/Northwind/"
 			DeletePaths="~/Images/Northwind/" />
 	</telerik:RadFileExplorer>

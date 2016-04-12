@@ -91,7 +91,7 @@ End Namespace
 
 1. In the ASP.NET markup for the page add the script code below. This code gets references to the Context Menu Item that was clicked and the Node for that Context Menu Item. If the Menu Item text is "Edit" then the Node is put into editing state. **set_cancel()** is called to prevent the Postback. If you don't prevent the postback the refresh will end the Node editing, subsequently producing the following visual effect: Node opens for editing momentarily, then closes. Finally, the Menu is closed calling its hide() function.
 	````ASPNET
-<telerik:RadTreeView ID="RadTreeView1" 
+<telerik:RadTreeView RenderMode="Lightweight" ID="RadTreeView1" 
      runat="server" 
      OnClientContextMenuItemClicking="clientContextMenuItemClicking"
      Skin="Default">

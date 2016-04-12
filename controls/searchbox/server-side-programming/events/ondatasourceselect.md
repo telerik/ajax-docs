@@ -31,7 +31,7 @@ Here is a sample code demonstrating how this event can be used:
 
 ````ASPNET
 	
-<telerik:RadSearchBox runat="server" ID="RadSearchBox1"
+<telerik:RadSearchBox RenderMode="Lightweight" runat="server" ID="RadSearchBox1"
 	OnDataSourceSelect="RadSearchBox1_DataSourceSelect"
 	DataSourceID="SqlDataSource1"
 	DataKeyNames="UnitPrice"

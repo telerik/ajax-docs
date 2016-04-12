@@ -35,7 +35,7 @@ The selected item can be accessed by calling the **get_selectedItems()** method 
 The style of the selected row is defined by the **SelectedItemStyle** property. You can set this property declaratively:
 
 ````ASP.NET
-	  <telerik:RadGrid ID="RadGrid1" runat="server">
+	  <telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server">
 	    <ClientSettings>
 	      <Selecting AllowRowSelect="True" />
 	    </ClientSettings>

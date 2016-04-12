@@ -27,7 +27,7 @@ These screenshots: ![peek template example 1](images/tileList-peekTemplate-examp
 **RadTileList** example:
 
 ````ASP.NET
-<telerik:RadTileList runat="server" id="RadTileList1">
+<telerik:RadTileList RenderMode="Lightweight" runat="server" id="RadTileList1">
 	<Groups>
 		<telerik:TileGroup>
 			<telerik:RadTextTile Text="Original content of the tile.">

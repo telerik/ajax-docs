@@ -15,7 +15,7 @@ position: 1
 You can have your tab strip cause postbacks to a different Web page from the one that contains it. Simply set the **PostBackUrl** property to the page that should handle the postback.
 
 ````ASPNET	 
-<telerik:RadTabStrip ID="RadTabStrip1" runat="server" PostBackUrl="CrossPageCS.aspx" OnTabClick="RadTabStrip1_TabClick" DataSourceID="TabStripDS">
+<telerik:RadTabStrip RenderMode="Lightweight" ID="RadTabStrip1" runat="server" PostBackUrl="CrossPageCS.aspx" OnTabClick="RadTabStrip1_TabClick" DataSourceID="TabStripDS">
 </telerik:RadTabStrip> 	 
 ````
 

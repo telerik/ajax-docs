@@ -35,7 +35,7 @@ Use this event to respond to the newly checked item:
 		sender.set_text("You checked " + item.get_text());
 	}
 </script>
-<telerik:RadComboBox ID="RadComboBox1" runat="server" 
+<telerik:RadComboBox RenderMode="Lightweight" ID="RadComboBox1" runat="server" 
 	OnClientItemChecked="OnClientItemChecked" CheckBoxes="true">
 </telerik:RadComboBox>
 ````

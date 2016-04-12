@@ -32,7 +32,7 @@ The following sample code shows how RadPanelItems can be expanded/collapsed when
                }
            }
        </script>
-       <telerik:RadPanelBar ID="RadPanelBar1" runat="server" OnClientMouseOver="ExpandItem">
+       <telerik:RadPanelBar RenderMode="Lightweight" ID="RadPanelBar1" runat="server" OnClientMouseOver="ExpandItem">
            <CollapseAnimation Duration="100" Type="None" />
            <Items>
                <telerik:RadPanelItem runat="server" Text="Root RadPanelItem1">

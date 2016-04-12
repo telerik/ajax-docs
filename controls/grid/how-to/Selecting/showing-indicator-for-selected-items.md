@@ -40,7 +40,7 @@ The following example shows how to access the template image and show or hide it
   function RowCreated(sender, eventArgs) {
   }      
 </script>
-<telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1" AllowSorting="True"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1" AllowSorting="True"
   Skin="Web20" Width="95%" AllowMultiRowSelection="true" AllowPaging="true" ShowGroupPanel="true">
   <MasterTableView Width="100%">
     <Columns>

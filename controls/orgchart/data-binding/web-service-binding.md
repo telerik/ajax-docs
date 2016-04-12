@@ -21,7 +21,7 @@ Here is how the web service bindings should look like in the mark up and code be
 In Simple binding:
 
 ````XML
-<telerik:RadOrgChart runat="server" ID="RadOrgChart1">
+<telerik:RadOrgChart RenderMode="Lightweight" runat="server" ID="RadOrgChart1">
     <webservicebindings>
             <Simple>
                 <GroupItemServiceSettings Method="LoadData� Path="OrgChartGroupItemDataService.svc"     
@@ -48,7 +48,7 @@ RadOrgChart1.WebServiceBindings.Simple.GroupItemServiceSettings.Path ="OrgChartG
 In Group Enabled binding:
 
 ````XML
-<telerik:RadOrgChart runat="server" ID="RadOrgChart2">
+<telerik:RadOrgChart RenderMode="Lightweight" runat="server" ID="RadOrgChart2">
     <WebServiceBindings>
         <GroupEnabled>
 			<NodeServiceSettings Method="LoadData" Path="OrgChartNodeDataService.svc"
@@ -86,7 +86,7 @@ The web service should return items from OrgChartGroupItemData type.
 Here is an example of RadOrgChart that is bound to Web Service in simple binding:
 
 ````XML
-<telerik:RadOrgChart runat="server" ID="RadOrgChart1" >
+<telerik:RadOrgChart RenderMode="Lightweight" runat="server" ID="RadOrgChart1" >
 </telerik:RadOrgChart>
 ````
 
@@ -276,7 +276,7 @@ The Node web service should return items from **OrgChartNodeData** type. In case
 Here is an example of RadOrgChart that is bound to Web Service in Group-Enabled binding:
 
 ````XML
-<telerik:RadOrgChart runat="server" ID="RadOrgChart1" >
+<telerik:RadOrgChart RenderMode="Lightweight" runat="server" ID="RadOrgChart1" >
 </telerik:RadOrgChart>
 ````
 

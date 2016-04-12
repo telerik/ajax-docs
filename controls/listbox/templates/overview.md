@@ -30,7 +30,7 @@ Here is the declaration:
 >
 
 ````C#	
-<telerik:RadListBox ID="RadListBox3" runat="server" AllowTransfer="true" AutoPostBackOnTransfer="true"
+<telerik:RadListBox RenderMode="Lightweight" ID="RadListBox3" runat="server" AllowTransfer="true" AutoPostBackOnTransfer="true"
 	Height="200px" OnTransferred="RadListBox1_Transferred" SelectionMode="Multiple"
 	TransferToID="RadListBox2" Width="215px">
 <ButtonSettings ShowTransferAll="false" VerticalAlign="Middle" />
@@ -51,7 +51,7 @@ Here is the declaration:
 </Items>
 </telerik:RadListBox>
 
-<telerik:RadListBox runat="server" ID="RadListBox4" Height="200px" Width="270px"
+<telerik:RadListBox RenderMode="Lightweight" runat="server" ID="RadListBox4" Height="200px" Width="270px"
 	SelectionMode="Multiple">
 <ItemTemplate>
 	 <img class="product-image" src='Images/<%# DataBinder.Eval(Container, "Value")%>' />
@@ -67,7 +67,7 @@ Here is the declaration:
 	  <li>
 	   <label>
 		Quantity:</label>
-	   <telerik:RadNumericTextBox runat="server" ID="QuantityTextBox" Width="40px" MinValue="1"
+	   <telerik:RadNumericTextBox RenderMode="Lightweight" runat="server" ID="QuantityTextBox" Width="40px" MinValue="1"
 		MaxValue="10" ShowSpinButtons="true" Value="1" NumberFormat-DecimalDigits="0" />
 	  </li>
 	 </ul>

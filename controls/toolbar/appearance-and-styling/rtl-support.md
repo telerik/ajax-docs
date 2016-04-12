@@ -20,7 +20,7 @@ position: 10
 ![ToolBar RTL](images/toolbar_rtl.png)
 
 ````ASPNET
-<telerik:RadToolBar ID="RadToolBar1" runat="server" dir="rtl">
+<telerik:RadToolBar RenderMode="Lightweight" ID="RadToolBar1" runat="server" dir="rtl">
     <Items>
         <telerik:RadToolBarButton runat="server" Text="A" />
         <telerik:RadToolBarButton runat="server" Text="B" />

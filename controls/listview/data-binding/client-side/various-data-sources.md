@@ -237,7 +237,7 @@ To bind RadListView to an ASMX Web Service, you need to set the following proper
 </telerik:RadListView>
 
 <%--We add a hidden data pager to have its styles applied on the page--%>
-<telerik:RadDataPager runat="server" style="display:none"></telerik:RadDataPager>
+<telerik:RadDataPager RenderMode="Lightweight" runat="server" style="display:none"></telerik:RadDataPager>
 ````
 ````JavaScript
 <script type="text/javascript">
@@ -371,7 +371,7 @@ For automatic databinding to WCF services, RadListView is configured in an ident
 </telerik:RadListView>
 
 <%--We add a hidden data pager to have its styles applied on the page--%>
-<telerik:RadDataPager ID="RadDataPager1" runat="server" style="display:none"></telerik:RadDataPager>
+<telerik:RadDataPager RenderMode="Lightweight" ID="RadDataPager1" runat="server" style="display:none"></telerik:RadDataPager>
 ````
 ````JavaScript
 <script type="text/javascript">
@@ -506,7 +506,7 @@ Binding RadListView to OData service is quite straightforward. The only two requ
 </telerik:RadListView>
 
 <%--We add a hidden data pager to have its styles applied on the page--%>
-<telerik:RadDataPager ID="RadDataPager1" runat="server" style="display:none"></telerik:RadDataPager>
+<telerik:RadDataPager RenderMode="Lightweight" ID="RadDataPager1" runat="server" style="display:none"></telerik:RadDataPager>
 ````
 ````JavaScript
 <script type="text/javascript">

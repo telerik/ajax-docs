@@ -17,11 +17,11 @@ position: 1
 To copy nodes from one **TreeView** to another, you should make a clone of the dragged TreeNode (sourceNode) and add it to the Nodes collection of the other **TreeView**. An example is shown below. A hidden field is used to indicate whether a node is being moved or copied.
 
 ````ASPNET
-<telerik:RadTreeView ID="RadTreeView1" runat="server" EnableDragAndDrop="True" OnClientNodeDropping="SaveCtrlState"
+<telerik:RadTreeView RenderMode="Lightweight" ID="RadTreeView1" runat="server" EnableDragAndDrop="True" OnClientNodeDropping="SaveCtrlState"
     OnNodeDrop="HandleDrop">
 </telerik:RadTreeView>
 ...
-<telerik:RadTreeView ID="RadTreeView2" runat="server" EnableDragAndDrop="True">
+<telerik:RadTreeView RenderMode="Lightweight" ID="RadTreeView2" runat="server" EnableDragAndDrop="True">
 </telerik:RadTreeView>
 ...
 <asp:HiddenField ID="CtrlKeyField" runat="server" Value="False" />

@@ -37,10 +37,10 @@ This way the execution order is different than the same in regular post back. Fo
 	</script>
 </telerik:RadCodeBlock>
 <telerik:RadAjaxPanel ID="RadAjaxPanel1" runat="server">
-<telerik:RadTextBox runat="server" ID="RadTextBox1">
+<telerik:RadTextBox RenderMode="Lightweight" runat="server" ID="RadTextBox1">
 	    <ClientEvents OnLoad="onTextBoxLoad" />
 </telerik:RadTextBox>
-<telerik:RadTextBox runat="server" ID="RadTextBox2">
+<telerik:RadTextBox RenderMode="Lightweight" runat="server" ID="RadTextBox2">
 	    <ClientEvents OnLoad="onTextBoxLoad" />
 </telerik:RadTextBox>
 <asp:Button ID="Button2" runat="server" Text="Do Ajax Call" />
@@ -70,11 +70,11 @@ Also the **$create function** execution depends on the **AJAX settings** order i
 	    </telerik:AjaxSetting>
 	</AjaxSettings>
 </telerik:RadAjaxManager>
-<telerik:RadButton ID="RadButton1" runat="server" OnClientLoad="buttonLoad" Text="Click">
+<telerik:RadButton RenderMode="Lightweight" ID="RadButton1" runat="server" OnClientLoad="buttonLoad" Text="Click">
 </telerik:RadButton>
-<telerik:RadButton ID="RadButton2" runat="server" OnClientLoad="buttonLoad">
+<telerik:RadButton RenderMode="Lightweight" ID="RadButton2" runat="server" OnClientLoad="buttonLoad">
 </telerik:RadButton>
-<telerik:RadButton ID="RadButton3" runat="server" OnClientLoad="buttonLoad">
+<telerik:RadButton RenderMode="Lightweight" ID="RadButton3" runat="server" OnClientLoad="buttonLoad">
 </telerik:RadButton>
 ````
 
@@ -133,7 +133,7 @@ Single **PageView** could not be added as AJAX initiator or updated control in t
 	     </telerik:AjaxSetting>
 	</AjaxSettings>
 </telerik:RadAjaxManager>
-<telerik:RadTabStrip ID="RadTabStrip1" runat="server" MultiPageID="RadMultiPage1"
+<telerik:RadTabStrip RenderMode="Lightweight" ID="RadTabStrip1" runat="server" MultiPageID="RadMultiPage1"
 	        SelectedIndex="0" AutoPostBack="True">
 	        <Tabs>
 	            <telerik:RadTab runat="server" Text="Tab # 1" PageViewID="Tab1" Selected="True">

@@ -54,7 +54,7 @@ End Sub
 ## AccessDataSource
 
 ````ASPNET
-<telerik:RadListBox ID="RadListBox1"
+<telerik:RadListBox RenderMode="Lightweight" ID="RadListBox1"
        runat="server"
        DataTextField="Name"
        DataValueField="ID"
@@ -69,7 +69,7 @@ End Sub
 ## SqlDataSource
 
 ````ASPNET
-<telerik:RadListBox ID="RadListBox1"
+<telerik:RadListBox RenderMode="Lightweight" ID="RadListBox1"
    runat="server"
    DataTextField="ProductName"
    DataValueField="ProductID"
@@ -84,7 +84,7 @@ End Sub
 ## XmlDataSource
 
 ````ASPNET
-<telerik:RadListBox ID="RadListBox1"
+<telerik:RadListBox RenderMode="Lightweight" ID="RadListBox1"
        runat="server"
        DataTextField="Text"
        DataValueField="Value"
@@ -109,7 +109,7 @@ When using an **XmlDataSource**, the XML file should have the format shown below
 ## ObjectDataSource
 
 ````ASPNET
-<telerik:RadListBox ID="RadListBox1"
+<telerik:RadListBox RenderMode="Lightweight" ID="RadListBox1"
        runat="server"
        DataTextField="Text"
        DataValueField="ID"
@@ -199,7 +199,7 @@ End Class
 ## LinqDataSource
 
 ````ASPNET
-<telerik:RadListBox ID="RadListBox1"
+<telerik:RadListBox RenderMode="Lightweight" ID="RadListBox1"
    runat="server"
    DataTextField="ProductName"
    DataValueField="ProductID"
@@ -215,7 +215,7 @@ End Class
 ## EntityDataSource
 
 ````ASPNET
-<telerik:RadListBox runat="server" ID="RadListBox1" Height="200px" Width="200px"
+<telerik:RadListBox RenderMode="Lightweight" runat="server" ID="RadListBox1" Height="200px" Width="200px"
     DataSourceID="EntityDataSource1" DataTextField="ContactName">
 </telerik:RadListBox>
 <asp:EntityDataSource ID="EntityDataSource1" runat="server"

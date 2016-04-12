@@ -33,7 +33,7 @@ Additionally, each tab in **RadTabStrip** has a property named **PageViewID**, w
 Here is an example definition of **RadTabStrip** connected to a **RadMultiPage**:
 
 ````ASPNET	
-<telerik:RadTabStrip ID="RadTabStrip1" SelectedIndex="0" runat="server" MultiPageID="RadMultiPage1" skin="Outlook" CssClass="NoBg">
+<telerik:RadTabStrip RenderMode="Lightweight" ID="RadTabStrip1" SelectedIndex="0" runat="server" MultiPageID="RadMultiPage1" skin="Outlook" CssClass="NoBg">
  <Tabs>
    <telerik:RadTab runat="server" Text="Root RadTab1" PageViewID="PageView1">
    </telerik:RadTab>

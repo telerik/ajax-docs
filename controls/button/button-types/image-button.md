@@ -53,7 +53,7 @@ This approach is preferred when you want to use an image sprite for the button (
 ````
 
 ````ASP.NET
-<telerik:RadButton ID="RadButton1" runat="server" Text="Image Button" CssClass="classImage"
+<telerik:RadButton RenderMode="Lightweight" ID="RadButton1" runat="server" Text="Image Button" CssClass="classImage"
     HoveredCssClass="classHoveredImage" PressedCssClass="classPressedImage">
     <Image EnableImageButton="true" />
 </telerik:RadButton>

@@ -33,7 +33,7 @@ Two parameters are passed to the event handler:
 The following example uses the **OnValueChanging** event to force the value of a text box to be one of a limited number of possible values:
 
 ````ASPNET
-<telerik:RadTextBox ID="RadTextBox1" runat="server">
+<telerik:RadTextBox RenderMode="Lightweight" ID="RadTextBox1" runat="server">
 	<ClientEvents OnValueChanging="LimitOptions" />
 </telerik:RadTextBox>
 ````

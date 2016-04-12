@@ -31,7 +31,7 @@ The event handler receives parameters:
 The example below displays the text for the selected context menu item, the text for the node and the ID for the menu.
 
 ````ASPNET
-<telerik:RadTreeView ID="RadTreeView1" runat="server" MultipleSelect="True" CheckBoxes="True"
+<telerik:RadTreeView RenderMode="Lightweight" ID="RadTreeView1" runat="server" MultipleSelect="True" CheckBoxes="True"
     EnableDragAndDrop="True" AllowNodeEditing="True" OnClientContextMenuItemClicked="ClientContextMenuItemClicked">
     <Nodes>
         <telerik:RadTreeNode runat="server" ExpandMode="ClientSide" Text="Search" ImageUrl="~/images/search.ico"

@@ -30,7 +30,7 @@ function onToolBarClientButtonClicking(sender, args) {
 }
 ````
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid2" AllowAutomaticUpdates="true" AllowAutomaticDeletes="true"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid2" AllowAutomaticUpdates="true" AllowAutomaticDeletes="true"
   DataSourceID="SqlDataSource1" Width="97%" AllowSorting="True" AutoGenerateColumns="true"
   AllowPaging="True" GridLines="None" runat="server" ShowFooter="True" AllowMultiRowSelection="True"
   PageSize="7" AllowMultiRowEdit="True" HorizontalAlign="NotSet" OnItemDeleted="RadGrid1_ItemDeleted">
@@ -38,7 +38,7 @@ function onToolBarClientButtonClicking(sender, args) {
   <MasterTableView Width="100%" GridLines="None" CommandItemDisplay="Top" DataSourceID="SqlDataSource1"
     EditMode="InPlace" HorizontalAlign="NotSet" DataKeyNames="CustomerID" AllowAutomaticInserts="True">
     <CommandItemTemplate>
-      <telerik:RadToolBar ID="RadToolBar1" runat="server" OnClientButtonClicking="onToolBarClientButtonClicking">
+      <telerik:RadToolBar RenderMode="Lightweight" ID="RadToolBar1" runat="server" OnClientButtonClicking="onToolBarClientButtonClicking">
         <Items>
           <telerik:RadToolBarButton Text="Edit selected" CommandName="EditSelected" ImageUrl="~/ToolBar/Examples/ApplicationScenarios/GridCommandItem/Images/Edit.gif"
             Visible='<%# RadGrid1.EditIndexes.Count == 0 %>'>

@@ -22,9 +22,9 @@ This approach can be used for **RadDock**, **RadWindow** (with **ContentTemplate
 <telerik:RadPersistenceManager ID="RadPersistenceManager1" runat="server">
 </telerik:RadPersistenceManager>
 
-<telerik:RadDock ID="RadDock1" runat="server">
+<telerik:RadDock RenderMode="Lightweight" ID="RadDock1" runat="server">
 	<ContentTemplate>
-		<telerik:RadComboBox ID="RadComboBox1" runat="server">
+		<telerik:RadComboBox RenderMode="Lightweight" ID="RadComboBox1" runat="server">
 			<Items>
 				<telerik:RadComboBoxItem Text="Item1" />
 				<telerik:RadComboBoxItem Text="Item2" />

@@ -29,7 +29,7 @@ The event handler receives parameters:
 The example below demonstrates retrieving a reference to the collapsed parent node.
 
 ````ASPNET
-<telerik:RadTreeView ID="RadTreeView1" 
+<telerik:RadTreeView RenderMode="Lightweight" ID="RadTreeView1" 
      runat="server"  
      OnClientNodeCollapsed="ClientNodeCollapsed">
 </telerik:RadTreeView>			

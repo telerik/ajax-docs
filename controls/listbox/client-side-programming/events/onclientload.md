@@ -27,7 +27,7 @@ function OnClientLoadHandler(sender)  {
  listbox = sender;
 }
 
-<telerik:RadListBox ID="RadListBox1" runat="server" OnClientLoad="OnClientLoadHandler" ... /> 
+<telerik:RadListBox RenderMode="Lightweight" ID="RadListBox1" runat="server" OnClientLoad="OnClientLoadHandler" ... /> 
 ````
 
 

@@ -21,7 +21,7 @@ position: 6
 
 
 ````ASPNET
-<telerik:RadComboBox ID="RadComboBox1" runat="server">
+<telerik:RadComboBox RenderMode="Lightweight" ID="RadComboBox1" runat="server">
    <DefaultItem Text="Please select country" Value="-1"/>
 </telerik:RadComboBox>
 ````
@@ -50,7 +50,7 @@ The **Default Item** will not persist in the server/client side **RadComboBoxIte
 Shows how to use **Default Item** with a **RequiredFieldValidator**
 
 ````ASPNET
-<telerik:RadComboBox runat="server" ID="RadComboBox1" ValidationGroup="validationGroup">
+<telerik:RadComboBox RenderMode="Lightweight" runat="server" ID="RadComboBox1" ValidationGroup="validationGroup">
 	<DefaultItem Text="Please select item" Value="-1" />
 	<Items>
 		<telerik:RadComboBoxItem Text="Item1" Value="1" />
@@ -59,7 +59,7 @@ Shows how to use **Default Item** with a **RequiredFieldValidator**
 		<telerik:RadComboBoxItem Text="Item4" Value="4" />
 	</Items>
 </telerik:RadComboBox>
-<telerik:RadButton runat="server" ValidationGroup="validationGroup" Text="Submit">
+<telerik:RadButton RenderMode="Lightweight" runat="server" ValidationGroup="validationGroup" Text="Submit">
 </telerik:RadButton>
 <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ValidationGroup="validationGroup" ControlToValidate="RadComboBox1" ErrorMessage="You should select item!"
 	InitialValue="-1"></asp:RequiredFieldValidator>
@@ -74,15 +74,15 @@ Shows how validate several **RadComboBoxes** with **Default Item**
 	<ul>
 		<li>
 			<label>Gender:</label>
-			<telerik:RadComboBox ID="RadComboBox2" runat="server" Width="180" skin="Office2010Blue"/>
+			<telerik:RadComboBox RenderMode="Lightweight" ID="RadComboBox2" runat="server" Width="180" skin="Office2010Blue"/>
 		</li>
 		<li>
 			<label>Country:</label>
-			<telerik:RadComboBox ID="RadComboBox3" runat="server" Width="180" skin="Office2010Blue"/>
+			<telerik:RadComboBox RenderMode="Lightweight" ID="RadComboBox3" runat="server" Width="180" skin="Office2010Blue"/>
 		</li>
 		<li>
 			<label>Age:</label>
-			<telerik:RadComboBox ID="RadComboBox4" runat="server" Width="180" skin="Office2010Blue"/>
+			<telerik:RadComboBox RenderMode="Lightweight" ID="RadComboBox4" runat="server" Width="180" skin="Office2010Blue"/>
 		</li>
 	</ul>
 	<asp:CustomValidator ID="CustomValidator1" ErrorMessage="Please choose your gender, age and country !" ClientValidationFunction="selectionFormValidationGroup"

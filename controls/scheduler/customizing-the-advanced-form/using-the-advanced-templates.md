@@ -67,7 +67,7 @@ The advanced form looks like this:
 	**ASP.NET**
 		
 		<label>Color: </label>
-		<telerik:RadColorPicker ID="AppointmentColorPicker" CssClass="rsAdvResourceValue" NoColorText="transparent" ShowIcon="true" PaletteModes="HSV"
+		<telerik:RadColorPicker RenderMode="Lightweight" ID="AppointmentColorPicker" CssClass="rsAdvResourceValue" NoColorText="transparent" ShowIcon="true" PaletteModes="HSV"
 		   runat="server">
 		</telerik:RadColorPicker>     	
 		
@@ -122,7 +122,7 @@ The advanced form looks like this:
 
 	**JavaScript**
 	
-		<telerik:RadScheduler runat="server" ID="RadScheduler1" Width="750px" SelectedDate="2009-03-30"
+		<telerik:RadScheduler RenderMode="Lightweight" runat="server" ID="RadScheduler1" Width="750px" SelectedDate="2009-03-30"
 		   DayStartTime="08:00:00" DayEndTime="18:00:00" CustomAttributeNames="AppointmentColor" Localization-AdvancedDescription="Subject"
 		   TimeZoneOffset="03:00:00" OnDataBound="RadScheduler1_DataBound" OnAppointmentDataBound="RadScheduler1_AppointmentDataBound"
 		   OnClientFormCreated="schedulerFormCreated">
@@ -256,7 +256,7 @@ The advanced form looks like this:
 		
 		   //]]>
 		</script>
-		<telerik:RadScheduler runat="server" ID="RadScheduler1"
+		<telerik:RadScheduler RenderMode="Lightweight" runat="server" ID="RadScheduler1"
 		 OnClientFormCreated="schedulerFormCreated" .../>
 					
 7. Run and test the application. If you experience problems, please refer to the **Modified_AddedDescription** folder for a solution.
@@ -279,7 +279,7 @@ The AdvancedForm.js will automatically handle resources and custom attributes de
 
 ````ASPNET
 	     
-	<telerik:RadTextBox runat="server" ID="AttrDescription"  Label='Annotation:' Width="100%" Skin='<%# Owner.Skin %>' />
+	<telerik:RadTextBox RenderMode="Lightweight" runat="server" ID="AttrDescription"  Label='Annotation:' Width="100%" Skin='<%# Owner.Skin %>' />
 				
 ````
 
@@ -296,7 +296,7 @@ In this tutorial, we will show how to add to the advanced form a RadColorPicker 
 	**ASP.NET**
 	
 		<label>Color: </label>
-		<telerik:RadColorPicker ID="AppointmentColorPicker" CssClass="rsAdvResourceValue" NoColorText="transparent" ShowIcon="true" PaletteModes="HSV"
+		<telerik:RadColorPicker RenderMode="Lightweight" ID="AppointmentColorPicker" CssClass="rsAdvResourceValue" NoColorText="transparent" ShowIcon="true" PaletteModes="HSV"
 		   runat="server">
 		</telerik:RadColorPicker>     
 	
@@ -403,7 +403,7 @@ In this tutorial, we will show how to add to the advanced form a RadColorPicker 
 		 }
 		//]]>
 		</script>
-		<telerik:RadScheduler runat="server" ID="RadScheduler1"      
+		<telerik:RadScheduler RenderMode="Lightweight" runat="server" ID="RadScheduler1"      
 			OnClientAppointmentDataBound="OnClientAppointmentDataBound">
 		</telerik:RadScheduler>     
 	

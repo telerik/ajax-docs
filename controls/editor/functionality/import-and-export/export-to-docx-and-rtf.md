@@ -54,7 +54,7 @@ You can [modify the exported content](#modifying-the-exported-content) when the 
 >caption Example 1: Exporting the **RadEditor** content to Word documents by using two simple ASP Button controls for **.docx** and **.rtf**
 
 ````ASP.NET
-<telerik:RadEditor runat="server" ID="RadEditor1" ContentFilters="PdfExportFilter, DefaultFilters">
+<telerik:RadEditor RenderMode="Lightweight" runat="server" ID="RadEditor1" ContentFilters="PdfExportFilter, DefaultFilters">
 	<Content>
 		<h1>Heading</h1>
 		<p>Some content</p>
@@ -101,7 +101,7 @@ The available options are:
 >caption Example 2: Using the **ExportSettings** options of the DOCX and RTF exporting functionality
 
 ````ASP.NET
-<telerik:RadEditor runat="server" ID="RadEditor1" ContentFilters="PdfExportFilter, DefaultFilters">
+<telerik:RadEditor RenderMode="Lightweight" runat="server" ID="RadEditor1" ContentFilters="PdfExportFilter, DefaultFilters">
 	<ExportSettings>
 		<Docx DefaultFontName="Arial" DefaultFontSizeInPoints="12" HeaderFontSizeInPoints="8" PageHeader="Some header text for DOCX documents" />
 		<Rtf DefaultFontName="Times New Roman" DefaultFontSizeInPoints="13" HeaderFontSizeInPoints="9" PageHeader="Some header text for RTF documents" />
@@ -120,7 +120,7 @@ Exporting content from the Editor raises the **ExportContent** event that can be
 >caption Example 3: Dynamically adding header and footer elements to the exported document via the **ExportContent** event
 
 ````ASP.NET
-<telerik:RadEditor runat="server" ID="RadEditor1" OnExportContent="RadEditor1_ExportContent" ContentFilters="DefaultFilters, PdfExportFilter"></telerik:RadEditor>
+<telerik:RadEditor RenderMode="Lightweight" runat="server" ID="RadEditor1" OnExportContent="RadEditor1_ExportContent" ContentFilters="DefaultFilters, PdfExportFilter"></telerik:RadEditor>
 <asp:Button runat="server" ID="Button1" Text="Export to DOCX" OnClick="Button1_Click" />
 ````
 ````C#

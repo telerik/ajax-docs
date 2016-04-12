@@ -15,7 +15,7 @@ position: 0
 A standard declaration of the RadFilter control looks like this:
 
 ````ASPNET
-<telerik:RadFilter runat="server" ID="RadFilter1" Skin="Black">
+<telerik:RadFilter RenderMode="Lightweight" runat="server" ID="RadFilter1" Skin="Black">
     <FieldEditors>
         <telerik:RadFilterTextFieldEditor FieldName="Field1" />
         <telerik:RadFilterNumericFieldEditor FieldName="Field2" DataType="System.Int32" />

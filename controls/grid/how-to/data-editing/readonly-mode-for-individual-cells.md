@@ -20,7 +20,7 @@ Setting individual cells in read-only mode is not achievable in the current vers
 
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" DataSourceID="SqlDataSource1" AllowSorting="True"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" DataSourceID="SqlDataSource1" AllowSorting="True"
   runat="server" GridLines="None" Width="95%" AllowMultiRowEdit="True" HorizontalAlign="NotSet">
   <MasterTableView Width="100%" DataSourceID="SqlDataSource1" EditMode="InPlace"
     DataKeyNames="CustomerID">

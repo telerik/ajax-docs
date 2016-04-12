@@ -35,7 +35,7 @@ This event can be used for executing a custom code before a new item of the RadR
 		}
 	}
 </script>
-<telerik:RadRotator ID="RadRotator1" runat="server" ScrollDirection="Left" Height="113px"
+<telerik:RadRotator RenderMode="Lightweight" ID="RadRotator1" runat="server" ScrollDirection="Left" Height="113px"
 	ItemHeight="113px" Width="150px" ItemWidth="150px" OnClientItemShowing="OnClientItemShowing">
 	<ItemTemplate>
 		<img src=".........." alt="" />

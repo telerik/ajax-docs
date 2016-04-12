@@ -33,7 +33,7 @@ After you get the IDictionary object populated, you can use the provided values 
 
 
 ````ASPNET
-<telerik:RadTreeList ID="RadTreeList1" runat="server" DataKeyNames="EmployeeID" ParentDataKeyNames="ReportsTo"
+<telerik:RadTreeList RenderMode="Lightweight" ID="RadTreeList1" runat="server" DataKeyNames="EmployeeID" ParentDataKeyNames="ReportsTo"
 	AutoGenerateColumns="false" EditMode="EditForms" DataSourceID="SqlDataSource1" OnInsertCommand="RadTreeList1_InsertCommand">
 	<Columns>
 		<telerik:TreeListBoundColumn DataField="EmployeeID" HeaderText="EmployeeID" UniqueName="EmployeeID" ReadOnly="true" />
@@ -105,7 +105,7 @@ This can be achieved by getting hold of the current editable item and then acces
 
 
 ````ASPNET
-<telerik:RadTreeList ID="RadTreeList2" runat="server" DataKeyNames="EmployeeID" ParentDataKeyNames="ReportsTo"
+<telerik:RadTreeList RenderMode="Lightweight" ID="RadTreeList2" runat="server" DataKeyNames="EmployeeID" ParentDataKeyNames="ReportsTo"
 	AutoGenerateColumns="false" EditMode="InPlace" DataSourceID="SqlDataSource1" OnInsertCommand="RadTreeList2_InsertCommand">
 	<Columns>
 		<telerik:TreeListBoundColumn DataField="EmployeeID" HeaderText="EmployeeID" UniqueName="EmployeeID" ReadOnly="true" />

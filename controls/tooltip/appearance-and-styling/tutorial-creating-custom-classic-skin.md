@@ -37,7 +37,7 @@ In order to explain better the CSS classes of RadToolTip, we will use ToolTip.Sk
 
 	__ASP.NET__
 
-		<telerik:RadToolTip runat="server" ID="RadToolTip1" EnableEmbeddedSkins="false" Skin="MyCustomSkin">
+		<telerik:RadToolTip RenderMode="Lightweight" runat="server" ID="RadToolTip1" EnableEmbeddedSkins="false" Skin="MyCustomSkin">
 		</telerik:RadToolTip>
 
 

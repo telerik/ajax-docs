@@ -21,7 +21,7 @@ The client-side **OnLoad** event handler receives one argument:
 >caption Example 1: Handle the **RadProgressBar**'s client-side **Load** event.
 
 ````ASP.NET
-<telerik:RadProgressBar runat="server" ID="RadProgressBar2" Value="30">
+<telerik:RadProgressBar RenderMode="Lightweight" runat="server" ID="RadProgressBar2" Value="30">
 	<ClientEvents OnLoad="onLoad" />
 </telerik:RadProgressBar>
 

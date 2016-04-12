@@ -46,7 +46,7 @@ The second approach uses the [OnClientLoad]({%slug combobox/client-side-programm
    }
 </script>
 
-<telerik:RadComboBox ID="RadComboBox1" runat="server" OnClientLoad="onLoad" /> 
+<telerik:RadComboBox RenderMode="Lightweight" ID="RadComboBox1" runat="server" OnClientLoad="onLoad" /> 
 				
 ````
 

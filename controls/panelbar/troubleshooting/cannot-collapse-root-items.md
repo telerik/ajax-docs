@@ -27,11 +27,11 @@ Add an additional item with no text as a child item of the root item and set its
 The root item of this panelbar cannot be collapsed:
 
 ````ASPNET
-<telerik:RadPanelBar ID="RadPanelBar2" runat="server" ExpandMode="FullExpandedItem">
+<telerik:RadPanelBar RenderMode="Lightweight" ID="RadPanelBar2" runat="server" ExpandMode="FullExpandedItem">
    <Items>
        <telerik:RadPanelItem runat="server" Text="Root RadPanelItem1">
            <ItemTemplate>
-               <telerik:RadComboBox ID="RadComboBox1" runat="server">
+               <telerik:RadComboBox RenderMode="Lightweight" ID="RadComboBox1" runat="server">
                </telerik:RadComboBox>
            </ItemTemplate>
        </telerik:RadPanelItem>
@@ -44,13 +44,13 @@ The root item of this panelbar cannot be collapsed:
 The root item of this panelbar can be collapsed:
 
 ````ASPNET
-<telerik:RadPanelBar ID="RadPanelBar1" runat="server">
+<telerik:RadPanelBar RenderMode="Lightweight" ID="RadPanelBar1" runat="server">
    <Items>
        <telerik:RadPanelItem runat="server" Text="Root RadPanelItem1">
            <Items>
                <telerik:RadPanelItem>
                    <ItemTemplate>
-                       <telerik:RadComboBox ID="RadComboBox1" runat="server">
+                       <telerik:RadComboBox RenderMode="Lightweight" ID="RadComboBox1" runat="server">
                        </telerik:RadComboBox>
                    </ItemTemplate>
                </telerik:RadPanelItem>

@@ -38,7 +38,7 @@ The following application scenario shows an example of RadSearchBox bound to Rad
 	<ClientEvents />
 </telerik:RadClientDataSource>
 
-<telerik:RadSearchBox ID="RadSearchBox2" MaxResultCount="2" Filter="StartsWith" runat="server"
+<telerik:RadSearchBox RenderMode="Lightweight" ID="RadSearchBox2" MaxResultCount="2" Filter="StartsWith" runat="server"
 	DataTextField="Name"
 	DataValueField="Value"
 	ClientDataSourceID="CD1">

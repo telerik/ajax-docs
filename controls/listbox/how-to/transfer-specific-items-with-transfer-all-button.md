@@ -17,7 +17,7 @@ By default, the Transfer All button will transfer all the items from RadListBox 
 1. RadListBox declaration:
 
 ````ASPNET
-<telerik:RadListBox ID="RadListBox1"
+<telerik:RadListBox RenderMode="Lightweight" ID="RadListBox1"
    runat="server"
    Skin="Vista"
    AllowTransfer="true"   
@@ -28,7 +28,7 @@ By default, the Transfer All button will transfer all the items from RadListBox 
    DataValueField="ID"       
    DataSourceID="SqlDataSource1" >    
 </telerik:RadListBox>
-<telerik:RadListBox ID="RadListBox2" runat="server"
+<telerik:RadListBox RenderMode="Lightweight" ID="RadListBox2" runat="server"
    Skin="Vista"
    AllowTransfer="true">
 </telerik:RadListBox>   

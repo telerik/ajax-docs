@@ -79,7 +79,7 @@ The **ExpandAnimation** and **CollapseAnimation** tags of **RadDropDownList** ar
 **Example 1:** A sample animation configuration.
 
 ````ASPNET
-<telerik:RadDropDownList ID="RadDropDownList1" runat="server">
+<telerik:RadDropDownList RenderMode="Lightweight" ID="RadDropDownList1" runat="server">
 	<ExpandAnimation Type="InBounce" Duration="300" />
 	<CollapseAnimation Type="OutQuint" Duration="200" />
 </telerik:RadDropDownList>

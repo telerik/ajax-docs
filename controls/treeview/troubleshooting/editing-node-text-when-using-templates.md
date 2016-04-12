@@ -23,7 +23,7 @@ The approach demonstrated in the example below is an elegant way to edit Node Te
 This example shows a **TreeView** that is bound to a database. It uses Templates for its Nodes. The Template displays the Text of Nodes using the **DataBinder.Eval** expression.
 
 ````ASPNET
-<telerik:RadTreeView ID="RadTreeView1" runat="server" AllowNodeEditing="true" OnNodeEdit="RadTreeView1_NodeEdit">
+<telerik:RadTreeView RenderMode="Lightweight" ID="RadTreeView1" runat="server" AllowNodeEditing="true" OnNodeEdit="RadTreeView1_NodeEdit">
     <NodeTemplate>
         node text:
         <%# DataBinder.Eval(Container.DataItem, "Text") %>

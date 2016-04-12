@@ -19,10 +19,10 @@ Both **Array** and **ArrayList** could make an excelent data source for RadAutoC
 The declarations of RadAutoCompleteBox objects include no DataSourceID property or Items section:
 
 ````ASPNET
-<telerik:RadAutoCompleteBox ID="RadAutoCompleteBox1" runat="server">
+<telerik:RadAutoCompleteBox RenderMode="Lightweight" ID="RadAutoCompleteBox1" runat="server">
 </telerik:RadAutoCompleteBox>
 
-<telerik:RadAutoCompleteBox ID="RadAutoCompleteBox2" runat="server">
+<telerik:RadAutoCompleteBox RenderMode="Lightweight" ID="RadAutoCompleteBox2" runat="server">
 </telerik:RadAutoCompleteBox>
 ````
 

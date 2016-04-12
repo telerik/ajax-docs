@@ -34,7 +34,7 @@ function OnClientTabSelected(sender, eventArgs)
 	alert(tab.get_text());
 }
 </script>
-<telerik:RadTabStrip ID="RadTabStrip1" runat="server" OnClientTabSelected="OnClientTabSelected" ... /> 
+<telerik:RadTabStrip RenderMode="Lightweight" ID="RadTabStrip1" runat="server" OnClientTabSelected="OnClientTabSelected" ... /> 
 ````
 
 

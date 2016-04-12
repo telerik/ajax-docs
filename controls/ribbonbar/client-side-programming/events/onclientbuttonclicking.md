@@ -37,7 +37,7 @@ The event handler receives two parameters:
 
 
 ````ASPNET
-<telerik:RadRibbonBar ID="RadRibbonBar1" runat="server" OnClientButtonClicking="OnClientButtonClicking">
+<telerik:RadRibbonBar RenderMode="Lightweight" ID="RadRibbonBar1" runat="server" OnClientButtonClicking="OnClientButtonClicking">
     <telerik:RibbonBarTab Text="Home">
         <telerik:RibbonBarGroup Text="Clipboard" EnableLauncher="true">
             <Items>
@@ -68,7 +68,7 @@ The event handler receives two parameters:
 
 
 ````ASPNET
-<telerik:RadRibbonBar ID="RadRibbonBar1" runat="server" OnClientButtonClicking="OnClientButtonClicking">
+<telerik:RadRibbonBar RenderMode="Lightweight" ID="RadRibbonBar1" runat="server" OnClientButtonClicking="OnClientButtonClicking">
     <telerik:RibbonBarTab Text="Home">
         <telerik:RibbonBarGroup Text="Clipboard" EnableLauncher="true">
             <Items>

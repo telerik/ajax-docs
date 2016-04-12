@@ -25,7 +25,7 @@ The example below shows a drop-down list with a separator:
 ![ToolBar Separator](images/toolbar_separator.png)
 
 ````ASPNET
-<telerik:RadToolBar ID="RadToolBar1" runat="server">
+<telerik:RadToolBar RenderMode="Lightweight" ID="RadToolBar1" runat="server">
     <Items>
         <telerik:RadToolBarDropDown runat="server" Text="Clipboard">
             <Buttons>

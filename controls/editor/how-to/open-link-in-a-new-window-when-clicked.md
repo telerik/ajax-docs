@@ -29,7 +29,7 @@ The code below demonstrates how to iterate RadEditor document links when the edi
 ````
 
 ````ASP.NET
-<telerik:RadEditor ID="RadEditor1" runat="server" Skin="Default" OnClientLoad="OnClientLoad"
+<telerik:RadEditor RenderMode="Lightweight" ID="RadEditor1" runat="server" Skin="Default" OnClientLoad="OnClientLoad"
 	EditModes="Preview">
 	<Content>       
 		Sample Content        

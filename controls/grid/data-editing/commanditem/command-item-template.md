@@ -108,7 +108,7 @@ You can use the **CommandItemTemplate** to customize the “Add new item/refresh
 **Example 3**: Shows how to customize the text of the command buttons.
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" runat="server">
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server">
   <MasterTableView CommandItemDisplay="Top">
       <CommandItemTemplate>
           <asp:Button ID="Button1" Text="Add new item" runat="server" CommandName="InitInsert">
@@ -162,7 +162,7 @@ There are cases in which you may want to access the controls inside your **Comma
 
 
 ````ASP.NET	
-<telerik:RadGrid ID="RadGrid1" DataSourceID="SqlDataSource1" runat="server" OnItemCreated="RadGrid1_ItemCreated">
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" DataSourceID="SqlDataSource1" runat="server" OnItemCreated="RadGrid1_ItemCreated">
   <MasterTableView Width="100%" CssClass="MasterTable" DataSourceID="SqlDataSource1"
     CommandItemDisplay="Top">
     <CommandItemTemplate>
@@ -211,7 +211,7 @@ There are cases in which you may want to display different controls inside the t
 
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid2" runat="server" AllowSorting="true" AllowMultiRowSelection="true"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid2" runat="server" AllowSorting="true" AllowMultiRowSelection="true"
     AllowMultiRowEdit="true">
     <MasterTableView CommandItemDisplay="TopAndBottom">
         <CommandItemTemplate>

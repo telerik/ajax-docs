@@ -65,7 +65,7 @@ Each style maps to a "class" attribute in an HTML tag. For example, consider the
 ````
 
 ````ASP.NET
-<telerik:RadRotator ID="RadRotator1" runat="server" Width="330px" Height="110px"
+<telerik:RadRotator RenderMode="Lightweight" ID="RadRotator1" runat="server" Width="330px" Height="110px"
 	CssClass="horizontalRotator" ScrollDuration="500" FrameDuration="2000" ItemHeight="110"
 	ItemWidth="110">
 	<ItemTemplate>

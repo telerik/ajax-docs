@@ -29,7 +29,7 @@ The following example shows how to apply custom sort pattern for two columns - F
 
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" runat="server" AllowSorting="True" AutoGenerateColumns="False"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" AllowSorting="True" AutoGenerateColumns="False"
       GridLines="None" OnSortCommand="RadGrid1_SortCommand" OnNeedDataSource="RadGrid1_NeedDataSource">
       <MasterTableView AllowCustomSorting="true">
           <Columns>

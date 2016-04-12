@@ -27,7 +27,7 @@ Use the **ButtonClick** event handler to respond when the user clicks a button i
 
 
 ````ASPNET
-<telerik:RadToolBar ID="RadToolBar1" runat="server" OnButtonClick="RadToolBar1_ButtonClick">
+<telerik:RadToolBar RenderMode="Lightweight" ID="RadToolBar1" runat="server" OnButtonClick="RadToolBar1_ButtonClick">
     <CollapseAnimation Type="OutQuint" Duration="200"></CollapseAnimation>
     <Items>
         <telerik:RadToolBarButton runat="server" Text="Bold" CommandName="Bold" CheckOnClick="true"

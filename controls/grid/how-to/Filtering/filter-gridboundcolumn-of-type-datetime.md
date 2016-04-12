@@ -31,7 +31,7 @@ For more details review the forthcoming code snippets (feel free to modify the l
 
 ````ASP.NET
 <pre xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">
-<telerik:RadGrid runat="server" AutoGenerateColumns="false" ID="RadGrid1" OnNeedDataSource="RadGrid1_NeedDataSource"
+<telerik:RadGrid RenderMode="Lightweight" runat="server" AutoGenerateColumns="false" ID="RadGrid1" OnNeedDataSource="RadGrid1_NeedDataSource"
   Width="96%" AllowFilteringByColumn="True" AllowSorting="True" PageSize="15" AllowPaging="true"
   ShowStatusBar="true">
   <PagerStyle Mode="NextPrevAndNumeric" />

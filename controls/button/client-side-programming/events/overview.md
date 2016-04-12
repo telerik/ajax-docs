@@ -47,7 +47,7 @@ To handle the desired event, the user must set the respective property to the na
 		alert("RadButton was clicked.");
 	}
 </script>
-<telerik:RadButton ID="RadButton1" runat="server" OnClientClicked="Click">
+<telerik:RadButton RenderMode="Lightweight" ID="RadButton1" runat="server" OnClientClicked="Click">
 </telerik:RadButton>
 ````
 
@@ -69,7 +69,7 @@ RadButton1.OnClientClicked = "Click"  'passing the name of the JS function
 	}
 </script>
 
-<telerik:RadButton ID="RadButton1" runat="server" OnClientClicked="function(sender,args){Click(sender, args, 'Value1', 'Value2');}">
+<telerik:RadButton RenderMode="Lightweight" ID="RadButton1" runat="server" OnClientClicked="function(sender,args){Click(sender, args, 'Value1', 'Value2');}">
 </telerik:RadButton>
 ````
 

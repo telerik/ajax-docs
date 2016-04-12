@@ -41,7 +41,7 @@ You can make your button more intuitive by showing an icon on the left-hand and/
 	}
 </style>
 
-<telerik:RadButton ID="RadButton1" runat="server" Text="Button With Two Icons">
+<telerik:RadButton RenderMode="Lightweight" ID="RadButton1" runat="server" Text="Button With Two Icons">
 	<Icon PrimaryIconUrl="http://demos.telerik.com/aspnet-ajax/button/examples/embeddedicons/images/rbPredefinedIcons.png" 
 		PrimaryIconCssClass="classNextArrow"
 		SecondaryIconCssClass="classPreviousArrow" />
@@ -77,7 +77,7 @@ You can make your button more intuitive by showing an icon on the left-hand and/
 	}
 </style>
 
-<telerik:RadButton ID="RadButton1" runat="server" Text="Button With Two Icons">
+<telerik:RadButton RenderMode="Lightweight" ID="RadButton1" runat="server" Text="Button With Two Icons">
 	<Icon PrimaryIconUrl="http://demos.telerik.com/aspnet-ajax/button/examples/embeddedicons/images/rbPredefinedIcons.png" PrimaryIconCssClass="classNextArrow"
 		SecondaryIconCssClass="classPreviousArrow" />
 </telerik:RadButton>
@@ -102,7 +102,7 @@ Alternatively, a CSS class can be set to the icon, and the position configured u
 
 	**ASP.NET**
 	
-		<telerik:RadButton ID="RadButton2" runat="server" Text="Spell Check Html">
+		<telerik:RadButton RenderMode="Lightweight" ID="RadButton2" runat="server" Text="Spell Check Html">
 			<Icon PrimaryIconUrl="http://demos.telerik.com/aspnet-ajax/button/examples/customicons/images/eSpellCheck.png" 
 				PrimaryIconTop="4px" PrimaryIconLeft="5px"
 				SecondaryIconUrl="http://demos.telerik.com/aspnet-ajax/button/examples/customicons/images/eHtml.png" 
@@ -127,7 +127,7 @@ Alternatively, a CSS class can be set to the icon, and the position configured u
 
 	**ASP.NET**
 
-		<telerik:RadButton ID="RadButton3" runat="server" Text="Spell Check Html">
+		<telerik:RadButton RenderMode="Lightweight" ID="RadButton3" runat="server" Text="Spell Check Html">
 			<Icon PrimaryIconUrl="http://demos.telerik.com/aspnet-ajax/button/examples/customicons/images/eSpellCheck.png" PrimaryIconCssClass="classSpellCheck"
 				SecondaryIconUrl="http://demos.telerik.com/aspnet-ajax/button/examples/customicons/images/eHtml.png" SecondaryIconCssClass="classHtml" />
 		</telerik:RadButton>

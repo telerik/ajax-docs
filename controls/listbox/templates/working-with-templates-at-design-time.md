@@ -45,7 +45,7 @@ This example shows how to use the Template Design Surface to add **several contr
 7. From the [Smart Tag]({%slug listbox/design-time/smart-tag%}) add some items to RadListBox or [bind it to a datasource]({%slug listbox/data-binding/overview%}). At this point, the declaration for your RadListBox should look as follows:
 
 ````ASPNET
-<telerik:RadListBox Height="200px" AllowReorder="true"
+<telerik:RadListBox RenderMode="Lightweight" Height="200px" AllowReorder="true"
    Width="290px"
    ID="RadListBox1"
    runat="server"

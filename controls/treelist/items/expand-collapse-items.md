@@ -28,7 +28,7 @@ In order to enable the feature you need to set the **ExpandCollapseMode** proper
 
 
 ````ASPNET
-<telerik:RadTreeList runat="server" ID="RadTreeList1"
+<telerik:RadTreeList RenderMode="Lightweight" runat="server" ID="RadTreeList1"
 	ExpandCollapseMode="Client">
 </telerik:RadTreeList>
 ````

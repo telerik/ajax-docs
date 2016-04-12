@@ -35,7 +35,7 @@ This event will be raised when the grid fails to bind to data client-side (after
 Example:
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" runat="server">
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server">
     <ClientSettings>
         <ClientEvents OnDataBindingFailed="RadGrid1_DataBindingFailed" />
     </ClientSettings>

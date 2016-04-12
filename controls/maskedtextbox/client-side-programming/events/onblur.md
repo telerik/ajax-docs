@@ -27,7 +27,7 @@ Two parameters are passed to the event handler:
 The following example uses the **OnBlur** event to show an alert:
 
 ````ASPNET
-<telerik:RadMaskedTextBox ID="RadMaskedTextBox1" runat="server">
+<telerik:RadMaskedTextBox RenderMode="Lightweight" ID="RadMaskedTextBox1" runat="server">
 	<ClientEvents OnBlur="Blur" />
 </telerik:RadMaskedTextBox>
 ````

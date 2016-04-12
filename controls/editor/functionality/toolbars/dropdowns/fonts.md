@@ -29,7 +29,7 @@ The WYSIWYG Fonts dropdown of RadEditor display a predefined set of fonts which 
 ## Using the FontNames Collection Declaratively
 
 ````ASP.NET
-<telerik:RadEditor runat="server" ID="RadEditor1">
+<telerik:RadEditor RenderMode="Lightweight" runat="server" ID="RadEditor1">
 	<FontNames>
 		<telerik:EditorFont Value="Arial" />
 		<telerik:EditorFont Value="Arial Narrow" />

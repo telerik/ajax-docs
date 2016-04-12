@@ -19,9 +19,9 @@ position: 2
 The declaration of the **RadTagCloud** objects includes no **DataSourceID** property or `<Items>` section:
 
 ````ASP.NET
-<telerik:RadTagCloud ID="RadTagCloud1" runat="server" Width="400px">
+<telerik:RadTagCloud RenderMode="Lightweight" ID="RadTagCloud1" runat="server" Width="400px">
 </telerik:RadTagCloud>
-<telerik:RadTagCloud ID="RadTagCloud2" runat="server" Width="400px">
+<telerik:RadTagCloud RenderMode="Lightweight" ID="RadTagCloud2" runat="server" Width="400px">
 </telerik:RadTagCloud>
 ````
 

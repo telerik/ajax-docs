@@ -159,7 +159,7 @@ Another option is to set **FilterDelay** property for grid column that can be fi
 In some cases when the **RadGrid** uses absolute positioning, you may find the filtering pop-up hidden behind the grid. You can easily fix the problem by setting the Z-index of the corresponding element in the ASPX to 0:
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" Style="z-index: 0; left: 64; position: absolute..." />
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" Style="z-index: 0; left: 64; position: absolute..." />
 ````
 
 

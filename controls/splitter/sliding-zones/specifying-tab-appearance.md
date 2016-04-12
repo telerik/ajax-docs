@@ -31,7 +31,7 @@ Once you have set the **Title** and/or **IconUrl** properties of a **RadSlidingP
 The following example shows a splitter that contains a sliding pane with each of the possible **TabView** values:
 
 ````ASP.NET
-<telerik:RadSplitter ID="RadSplitter1" runat="server" Height="300" Width="700">
+<telerik:RadSplitter RenderMode="Lightweight" ID="RadSplitter1" runat="server" Height="300" Width="700">
  <telerik:RadPane ID="LeftPane" runat="server" width="22" Scrolling="None">
    <telerik:RadSlidingZone ID="SlidingZone1" runat="server" width="22">
 	 <telerik:RadSlidingPane

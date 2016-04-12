@@ -34,7 +34,7 @@ You can use this event to respond when the user clicks on a toolbar button:
     }       
 </script>
 
-<telerik:RadToolBar ID="RadToolBar1" runat="server" Orientation="Horizontal" OnClientButtonClicked="OnClientButtonClicked">
+<telerik:RadToolBar RenderMode="Lightweight" ID="RadToolBar1" runat="server" Orientation="Horizontal" OnClientButtonClicked="OnClientButtonClicked">
     <CollapseAnimation Duration="200" Type="OutQuint" />
     <Items>
         <telerik:RadToolBarButton Text="button1" runat="server">

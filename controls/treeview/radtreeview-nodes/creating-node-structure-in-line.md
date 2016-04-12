@@ -16,7 +16,7 @@ You can define the **RadTreeView** structure inline, directly in the ASPX/ASCX f
 ![RadTreeView Node Structure](images/treeview_nodesstructure.png)
 
 ````ASPNET
-<telerik:RadTreeView ID="RadTreeView1" runat="server">
+<telerik:RadTreeView RenderMode="Lightweight" ID="RadTreeView1" runat="server">
     <Nodes>
         <telerik:RadTreeNode runat="server" Text="My First Node">
             <Nodes>

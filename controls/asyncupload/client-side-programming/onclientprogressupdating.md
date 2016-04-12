@@ -33,7 +33,7 @@ The event handler receives two parameters:
 * uploadedBytes - returns the number of uploaded bytes.
 
 ````ASPNET
-<telerik:RadAsyncUpload runat="server" ID="RadAsyncUpload1" OnClientProgressUpdating="onClientFileUploading" MultipleFileSelection="Automatic"></telerik:RadAsyncUpload>
+<telerik:RadAsyncUpload RenderMode="Lightweight" runat="server" ID="RadAsyncUpload1" OnClientProgressUpdating="onClientFileUploading" MultipleFileSelection="Automatic"></telerik:RadAsyncUpload>
 ````
 
 ````JavaScript

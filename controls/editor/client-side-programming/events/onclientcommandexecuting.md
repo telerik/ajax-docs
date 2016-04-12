@@ -46,7 +46,7 @@ The following example demonstrates how to alert the selected dropdown item name 
 		args.set_cancel(!answer);
 	}
 </script>
-<telerik:RadEditor runat="server" ID="RadEditor1" OnClientCommandExecuting="OnClientCommandExecuting">
+<telerik:RadEditor RenderMode="Lightweight" runat="server" ID="RadEditor1" OnClientCommandExecuting="OnClientCommandExecuting">
 </telerik:RadEditor>
 ````
 

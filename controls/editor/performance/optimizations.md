@@ -38,7 +38,7 @@ You can easily decrease the number of scripts and styles requests of **RadEditor
 >caption Example 1: Improve RadEditor's dialog resources optimization by setting the **RadEditor.DialogOpener.EnableTelerikManagers** property to **True**.
 
 ````ASP.NET
-<telerik:RadEditor ID="RadEditor1" runat="server">
+<telerik:RadEditor RenderMode="Lightweight" ID="RadEditor1" runat="server">
 </telerik:RadEditor>
 ````
 ````C#	

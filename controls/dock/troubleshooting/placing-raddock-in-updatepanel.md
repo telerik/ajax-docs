@@ -47,7 +47,7 @@ This happens because the floating dock becomes a child of the form tag, but the 
 ````ASP.NET
 <asp:UpdatePanel ID="UpdatePanel1" runat="server">
     <ContentTemplate>
-        <telerik:RadDock runat="server" ID="RadDock1"></telerik:RadDock>
+        <telerik:RadDock RenderMode="Lightweight" runat="server" ID="RadDock1"></telerik:RadDock>
         <asp:Button ID="Button1" Text="Trigger Postback" runat="server" />
     </ContentTemplate>
 </asp:UpdatePanel>
@@ -60,7 +60,7 @@ You can **avoid this problem** by moving the update panel in the ContentTemplate
 **Example 2**: Moving the update panel in the content of the dock.
 
 ````ASP.NET
-<telerik:RadDock runat="server" ID="RadDock1">
+<telerik:RadDock RenderMode="Lightweight" runat="server" ID="RadDock1">
     <ContentTemplate>
         <asp:UpdatePanel ID="UpdatePanel1" runat="server">
             <ContentTemplate>
@@ -81,7 +81,7 @@ If you do not need to drag the dock, you can also place it in a RadDockZone and 
 <asp:UpdatePanel ID="UpdatePanel1" runat="server">
     <ContentTemplate>
         <telerik:RadDockZone runat="server" ID="RadDockZone1" Width="300px">
-            <telerik:RadDock runat="server" DockMode="Docked" ID="RadDock1"></telerik:RadDock>
+            <telerik:RadDock RenderMode="Lightweight" runat="server" DockMode="Docked" ID="RadDock1"></telerik:RadDock>
         </telerik:RadDockZone>
         <asp:Button ID="Button1" Text="Trigger Postback" runat="server" />
     </ContentTemplate>
@@ -112,7 +112,7 @@ What happens is that the dock becomes a child of the form while being dragged. W
 <asp:UpdatePanel ID="UpdatePanel1" runat="server">
     <ContentTemplate>
         <telerik:RadDockZone runat="server" ID="RadDockZone1" Width="300px">
-            <telerik:RadDock runat="server" ID="RadDock1" DockMode="Docked"></telerik:RadDock>
+            <telerik:RadDock RenderMode="Lightweight" runat="server" ID="RadDock1" DockMode="Docked"></telerik:RadDock>
         </telerik:RadDockZone>
         <asp:Button ID="Button1" OnClick="Button1_Click" Text="Trigger Postback" runat="server" />
     </ContentTemplate>
@@ -148,7 +148,7 @@ You can **avoid this error by preventing the dragging** of the dock while an AJA
 ````ASP.NET
 <telerik:RadAjaxPanel runat="server" ID="RadAjaxPanel1" LoadingPanelID="RadAjaxLoadingPanel1">
     <telerik:RadDockZone runat="server" ID="RadDockZone1" Width="300px">
-        <telerik:RadDock runat="server" ID="RadDock1" DockMode="Docked"></telerik:RadDock>
+        <telerik:RadDock RenderMode="Lightweight" runat="server" ID="RadDock1" DockMode="Docked"></telerik:RadDock>
     </telerik:RadDockZone>
     <asp:Button ID="Button1" OnClick="Button1_Click" Text="Trigger Postback" runat="server" />
 </telerik:RadAjaxPanel>
@@ -170,7 +170,7 @@ If the updating of the update panel is triggered by a **Timer** (**Example 6**) 
 <asp:UpdatePanel ID="UpdatePanel1" runat="server">
     <ContentTemplate>
         <telerik:RadDockZone runat="server" ID="RadDockZone1" Width="300px">
-            <telerik:RadDock runat="server" ID="RadDock1" DockMode="Docked">
+            <telerik:RadDock RenderMode="Lightweight" runat="server" ID="RadDock1" DockMode="Docked">
             </telerik:RadDock>
         </telerik:RadDockZone>
     </ContentTemplate>
@@ -207,7 +207,7 @@ The result should be similar to the implementation that is shown in **Example 7*
 <asp:UpdatePanel ID="UpdatePanel1" runat="server">
     <ContentTemplate>
         <telerik:RadDockZone runat="server" ID="RadDockZone1" Width="300px">
-            <telerik:RadDock runat="server" ID="RadDock1" DockMode="Docked" 
+            <telerik:RadDock RenderMode="Lightweight" runat="server" ID="RadDock1" DockMode="Docked" 
                 OnClientDragStart="dockDragStart" OnClientDragEnd="dockDragEnd">
             </telerik:RadDock>
         </telerik:RadDockZone>

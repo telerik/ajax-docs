@@ -36,7 +36,7 @@ In the example below, when the mouse passes over "Button1", the `clientBeforeSho
         eventArgs.set_cancel(true);
     }
 </script>
-<telerik:RadToolTip ID="RadToolTip1" runat="server" Skin="Inox" TargetControlID="Button1"
+<telerik:RadToolTip RenderMode="Lightweight" ID="RadToolTip1" runat="server" Skin="Inox" TargetControlID="Button1"
     IsClientID="true" OnClientBeforeShow="clientBeforeShow" OnClientShow="clientShow"
     Text="text">
 </telerik:RadToolTip>

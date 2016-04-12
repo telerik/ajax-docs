@@ -38,7 +38,7 @@ position: 0
        initialTab.selectParents();
    }        
    </script>
-   <telerik:RadTabStrip ID="RadTabStrip1" runat="server" UnSelectChildren="true" OnClientMouseOver="SelectMyTab" ClickSelectedTab="True" AutoPostBack="True" onmouseout="UnSelectMyTab(event)" SelectedIndex="0" Skin="Outlook" MultiPageID="RadMultiPage1">
+   <telerik:RadTabStrip RenderMode="Lightweight" ID="RadTabStrip1" runat="server" UnSelectChildren="true" OnClientMouseOver="SelectMyTab" ClickSelectedTab="True" AutoPostBack="True" onmouseout="UnSelectMyTab(event)" SelectedIndex="0" Skin="Outlook" MultiPageID="RadMultiPage1">
        <Tabs>
            <telerik:RadTab ID="Tab1" runat="server" Text="Root Tab 1">
                <Tabs>

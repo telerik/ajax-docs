@@ -31,7 +31,7 @@ This event is fired before two columns are swapped.
 Example:
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" runat="server">
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server">
     <ClientSettings>
         <ClientEvents OnColumnSwapping="ColumnSwapping" />
     </ClientSettings>

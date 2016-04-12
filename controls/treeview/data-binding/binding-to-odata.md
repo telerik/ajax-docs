@@ -21,7 +21,7 @@ Forth from Q3 2011, **RadTreeView** can be bound to an OData service. The Open D
 This means binding to a non-hierarchical data. It is rather easy to bind to such data, here is sample markup that binds to the Category table exposed by the OData.org sample services:
 
 ````ASPNET
-<telerik:RadTreeView runat="server" ID="RadTree1">
+<telerik:RadTreeView RenderMode="Lightweight" runat="server" ID="RadTree1">
 	<WebServiceSettings Path="http://services.odata.org/OData/OData.svc">
 		<ODataSettings ResponseType="JSONP">
 			<Entities>
@@ -56,7 +56,7 @@ The applied settings are described below:
 The hierarchical binding is pretty much the same. Here is how the declaration of a bound TreeView would look like:
 
 ````ASPNET
-<telerik:RadTreeView runat="server" ID="RadTree1">
+<telerik:RadTreeView RenderMode="Lightweight" runat="server" ID="RadTree1">
 	<webservicesettings path="http://services.odata.org/OData1/OData.svc">
                        <ODataSettings ResponseType="JSONP" InitialContainerName="Categories">
                               <Entities>

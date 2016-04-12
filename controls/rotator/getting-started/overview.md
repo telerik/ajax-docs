@@ -35,7 +35,7 @@ This example demonstrates the purpose of the [Width, ItemWidth, Height and ItemH
 * Set the [Width, ItemWidth, Height and ItemHeight]({%slug rotator/server-side-programming/overview%}) properties:
 
 ````XML
-<telerik:RadRotator ID="RadRotator1" runat="server" Width="200" ItemWidth="100" Height="100"
+<telerik:RadRotator RenderMode="Lightweight" ID="RadRotator1" runat="server" Width="200" ItemWidth="100" Height="100"
 	ItemHeight="100" DataSourceID="XmlDataSource1" FrameDuration="1000">
 	<ItemTemplate>
 		<asp:Image CssClass="itemTemplate" ID="Image1" runat="server" ImageUrl='<%# XPath("ImageURL") %>'

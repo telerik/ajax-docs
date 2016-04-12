@@ -35,7 +35,7 @@ function onRightClick(sender, eventArgs)
 	alert (tab.get_text() + " was right-clicked.");
 }
 </script>
-<telerik:RadTabStrip ID="RadTabStrip1" runat="server" OnClientContextMenu="onRightClick">
+<telerik:RadTabStrip RenderMode="Lightweight" ID="RadTabStrip1" runat="server" OnClientContextMenu="onRightClick">
 ...
 </telerik:RadTabStrip> 	
 ````

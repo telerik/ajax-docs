@@ -38,7 +38,7 @@ The following application scenario shows an example of RadAutoCompleteBox bound 
 	<ClientEvents />
 </telerik:RadClientDataSource>
 
-<telerik:RadAutoCompleteBox ID="RadAutoCompleteBox1" Filter="StartsWith" ShowLoadingIcon="true" runat="server" Width="500" DropDownHeight="150"
+<telerik:RadAutoCompleteBox RenderMode="Lightweight" ID="RadAutoCompleteBox1" Filter="StartsWith" ShowLoadingIcon="true" runat="server" Width="500" DropDownHeight="150"
 	MaxResultCount="2"
 	DataTextField="Name"
 	DataValueField="Value"

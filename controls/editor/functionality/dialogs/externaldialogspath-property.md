@@ -17,7 +17,7 @@ By default, all RadEditor dialogs are embedded as resource files in the Telerik.
 >note In order to use the external dialogs of the control in a [precompiled site scenario](https://msdn.microsoft.com/en-us/library/399f057w%28v=vs.85%29.aspx) you have to manually copy the folder with the modified dialogs to the precompiled version of the site.
 
 ````ASP.NET
-<telerik:RadEditor ID="RadEditor1" ExternalDialogsPath="~/EditorDialogs" runat="server">
+<telerik:RadEditor RenderMode="Lightweight" ID="RadEditor1" ExternalDialogsPath="~/EditorDialogs" runat="server">
 	<ImageManager ViewPaths="~/Images" UploadPaths="~/Images" />
 </telerik:RadEditor>
 ````
@@ -32,14 +32,14 @@ The example below demonstrates how to hide the "New Folder" button in all the di
 
 	**ASP.NET**
 
-		<telerik:RadFileExplorer ID="RadFileExplorer1" Height="450px" Width="400px" TreePaneWidth="150px"
+		<telerik:RadFileExplorer RenderMode="Lightweight" ID="RadFileExplorer1" Height="450px" Width="400px" TreePaneWidth="150px"
 			runat="Server" EnableOpenFile="false" AllowPaging="true" />
 
 1. To hide the "New Folder" button set the **EnableCreateNewFolder** property to **false**.
 
 	**ASP.NET**
 	
-		<telerik:RadFileExplorer ID="RadFileExplorer1" Height="450px" Width="400px" TreePaneWidth="150px"
+		<telerik:RadFileExplorer RenderMode="Lightweight" ID="RadFileExplorer1" Height="450px" Width="400px" TreePaneWidth="150px"
 			EnableCreateNewFolder="false" runat="Server" EnableOpenFile="false" AllowPaging="true" />
 
 1. Save the file and test the editor.

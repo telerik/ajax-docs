@@ -36,7 +36,7 @@ Example:
  </script>
 </telerik:RadCodeBlock>
 
-<telerik:RadGrid id="RadGrid1" runat="server">
+<telerik:RadGrid RenderMode="Lightweight" id="RadGrid1" runat="server">
     <MasterTableView EnableHeaderContextMenu="true">
     </MasterTableView>
 </telerik:RadGrid> 

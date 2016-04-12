@@ -42,7 +42,7 @@ function BatchEditGetCellValue(sender, args) {
 
 
 ````JavaScript
-<telerik:RadGrid ID="RadGrid1" DataSourceID="SqlDataSource1">
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" DataSourceID="SqlDataSource1">
     <MasterTableView EditMode="Batch">
     <ClientSettings>
         <ClientEvents OnBatchEditGetCellValue="BatchEditGetCellValue"/>

@@ -60,7 +60,7 @@ Below is a sample approach:
 <body style="margin: 0px;">
   <form id="form1" runat="server">
   <div>
-    <telerik:RadGrid ID="RadGrid1" DataSourceID="SqlDataSource1" runat="server" Skin="WebBlue"
+    <telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" DataSourceID="SqlDataSource1" runat="server" Skin="WebBlue"
       Width="95%" AutoGenerateColumns="False" PageSize="3" AllowSorting="True" AllowPaging="True"
       GridLines="None">
       <PagerStyle Mode="NumericPages"></PagerStyle>

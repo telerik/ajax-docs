@@ -188,7 +188,7 @@ End Sub
 	</AjaxSettings>
 </telerik:RadAjaxManager>
 <h3>RadTreeList decalared statically with structure defined on Page_Load</h3>
-<telerik:RadTreeList ID="RadTreeList2" runat="server">
+<telerik:RadTreeList RenderMode="Lightweight" ID="RadTreeList2" runat="server">
 </telerik:RadTreeList>
 <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
 	SelectCommand="SELECT [ReportsTo], [EmployeeID], [LastName], [FirstName], [HireDate], [City], [PostalCode], [Country] FROM [Employees]" />

@@ -95,7 +95,7 @@ Using the CssClass property:
 
 ````ASPNET
 
-<telerik:RadComboBox 
+<telerik:RadComboBox RenderMode="Lightweight" 
 	ID="RadComboBox4" 
 	Width="180" 
 	CssClass="CustomCssClass" 

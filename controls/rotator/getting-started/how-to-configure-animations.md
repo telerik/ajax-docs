@@ -35,7 +35,7 @@ Essentially, the required properties must be set to an object and provided as th
 ````
 
 ````ASP.NET
-<telerik:RadRotator ID="RadRotator1" runat="server" Width="200" ItemWidth="100" Height="100"
+<telerik:RadRotator RenderMode="Lightweight" ID="RadRotator1" runat="server" Width="200" ItemWidth="100" Height="100"
 	ItemHeight="100" DataSourceID="XmlDataSource1" FrameDuration="1000">
 	<ItemTemplate>
 		<asp:Image CssClass="itemTemplate" ID="Image2" runat="server" ImageUrl='<%# XPath("ImageURL") %>'

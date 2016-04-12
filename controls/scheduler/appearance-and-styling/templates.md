@@ -164,12 +164,12 @@ The edit template is similar to the insert template, except that it does not nee
    
 		   <div class="qsfexAdvEditControlWrapper">
 			   <asp:Label ID="Label2" AssociatedControlID="StartInput" runat="server" CssClass="inline-label">Start time:</asp:Label>
-			   <telerik:RadDateInput ID="StartInput" SelectedDate='<%# Bind("Start") %>' runat="server"></telerik:RadDateInput><br />
+			   <telerik:RadDateInput RenderMode="Lightweight" ID="StartInput" SelectedDate='<%# Bind("Start") %>' runat="server"></telerik:RadDateInput><br />
 		   </div>
   
 		   <div class="qsfexAdvEditControlWrapper">
 			   <asp:Label ID="Label3" AssociatedControlID="EndInput" runat="server" CssClass="inline-label">End time:</asp:Label>
-			   <telerik:RadDateInput ID="EndInput" SelectedDate='<%# Bind("End") %>' runat="server"></telerik:RadDateInput><br />
+			   <telerik:RadDateInput RenderMode="Lightweight" ID="EndInput" SelectedDate='<%# Bind("End") %>' runat="server"></telerik:RadDateInput><br />
 		   </div>
   
 		   <div class="qsfexAdvEditControlWrapper">
@@ -319,12 +319,12 @@ The result of the above code is shown below:![Advanced insert template](images/s
    
   <div class="qsfexAdvEditControlWrapper">
    <asp:Label ID="Label5" AssociatedControlID="StartInput" runat="server" CssClass="inline-label">Start time:</asp:Label>
-   <telerik:RadDateInput ID="StartInput" SelectedDate='<%# Bind("Start") %>' runat="server"></telerik:RadDateInput><br />
+   <telerik:RadDateInput RenderMode="Lightweight" ID="StartInput" SelectedDate='<%# Bind("Start") %>' runat="server"></telerik:RadDateInput><br />
   </div>
   
   <div class="qsfexAdvEditControlWrapper">
    <asp:Label ID="Label6" AssociatedControlID="EndInput" runat="server" CssClass="inline-label">End time:</asp:Label>
-   <telerik:RadDateInput ID="EndInput" SelectedDate='<%# Bind("End") %>' runat="server"></telerik:RadDateInput><br />
+   <telerik:RadDateInput RenderMode="Lightweight" ID="EndInput" SelectedDate='<%# Bind("End") %>' runat="server"></telerik:RadDateInput><br />
   </div>
   
   <div class="qsfexAdvEditControlWrapper">

@@ -29,7 +29,7 @@ to the following:
 1. Use the **RadToolBar Item Builder** to add items to the toolbar, or add them in the HTML markup:
 
 ````ASPNET
-<telerik:RadToolBar ID="RadToolBar1" runat="server">
+<telerik:RadToolBar RenderMode="Lightweight" ID="RadToolBar1" runat="server">
     <Items>
         <telerik:RadToolBarButton runat="server" Checked="True" CheckOnClick="True" Group="Group1"
             Text="A">

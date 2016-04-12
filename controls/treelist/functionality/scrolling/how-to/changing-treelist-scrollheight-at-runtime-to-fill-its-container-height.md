@@ -41,7 +41,7 @@ The following example illustrates this technique:
 
 ````ASPNET
   <div style="height: 500px; width: 800px" id="treelistContainer">
-	<telerik:RadTreeList ID="RadTreeList1" runat="server" DataSourceID="SqlDataSource1"
+	<telerik:RadTreeList RenderMode="Lightweight" ID="RadTreeList1" runat="server" DataSourceID="SqlDataSource1"
 		AutoGenerateColumns="true" DataKeyNames="EmployeeID" ParentDataKeyNames="ReportsTo">
 		<ClientSettings>
 			<Scrolling AllowScroll="true" UseStaticHeaders="true" ScrollHeight="300px" />

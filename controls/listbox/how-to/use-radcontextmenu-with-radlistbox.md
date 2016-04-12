@@ -17,7 +17,7 @@ This article will show you how to integrate **RadContextMenu** in **RadListBox**
 Here is the declaration:
 
 ````ASPNET
-<telerik:RadListBox ID="RadListBox1"
+<telerik:RadListBox RenderMode="Lightweight" ID="RadListBox1"
    Skin="Vista"
    Height="150px"
    AllowReorder="true"

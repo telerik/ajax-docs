@@ -21,7 +21,7 @@ The event handler receives one parameter
 This event is suitable for invoking a client click or and Ajax request that will upload the files automatically.
 
 ````ASPNET
-<telerik:RadAsyncUpload runat="server" ID="RadAsyncUpload1" OnClientFilesUploaded="OnClientFilesUploaded" MultipleFileSelection="Automatic"></telerik:RadAsyncUpload>
+<telerik:RadAsyncUpload RenderMode="Lightweight" runat="server" ID="RadAsyncUpload1" OnClientFilesUploaded="OnClientFilesUploaded" MultipleFileSelection="Automatic"></telerik:RadAsyncUpload>
 <asp:Button runat="server" ID="Upload" />
 ````
 

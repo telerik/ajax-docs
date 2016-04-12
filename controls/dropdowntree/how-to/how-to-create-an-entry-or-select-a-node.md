@@ -23,7 +23,7 @@ By creating an entry with the **CreateEntry()** method a node can be set as sele
 Below is the example demonstrating how to achieve that by using the NodeDataBound event:
 
 ````ASPNET
-<telerik:RadDropDownTree runat="server" ID="RadDropDownTree1" CheckBoxes="CheckChildNodes"
+<telerik:RadDropDownTree RenderMode="Lightweight" runat="server" ID="RadDropDownTree1" CheckBoxes="CheckChildNodes"
     Width="300px" DataFieldID="ID" DefaultMessage="Select ..." DataFieldParentID="ParentID"
     DataTextField="Text">  
     <DropDownSettings  Width="300px"/>

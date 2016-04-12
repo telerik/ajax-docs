@@ -31,7 +31,7 @@ The code in the next paragraph demonstrates how to:
 <b>Binding RadTreeList to:</b>
 <h3>List of custom objects with <b>Nullable</b> properties</h3>
 <telerik:RadAjaxPanel ID="RadAjaxPanel1" LoadingPanelID="RadAjaxLoadingPanel1" runat="server">
-	<telerik:RadTreeList runat="server" ID="RadTreeList1" DataKeyNames="ID" ParentDataKeyNames="PID"
+	<telerik:RadTreeList RenderMode="Lightweight" runat="server" ID="RadTreeList1" DataKeyNames="ID" ParentDataKeyNames="PID"
 		OnNeedDataSource="RadTreeList1_NeedDataSource" AutoGenerateColumns="false">
 		<Columns>
 			<telerik:TreeListBoundColumn DataField="Text" HeaderText="Text" UniqueName="Text">
@@ -45,7 +45,7 @@ The code in the next paragraph demonstrates how to:
 </telerik:RadAjaxPanel>
 <h3>Generic list</h3>
 <telerik:RadAjaxPanel ID="RadAjaxPanel2" LoadingPanelID="RadAjaxLoadingPanel1" runat="server">
-	<telerik:RadTreeList runat="server" ID="RadTreeList2" DataKeyNames="ID" ParentDataKeyNames="ParentID"
+	<telerik:RadTreeList RenderMode="Lightweight" runat="server" ID="RadTreeList2" DataKeyNames="ID" ParentDataKeyNames="ParentID"
 		OnNeedDataSource="RadTreeList2_NeedDataSource" AutoGenerateColumns="false">
 		<Columns>
 			<telerik:TreeListBoundColumn DataField="Title" HeaderText="Title" UniqueName="Title">
@@ -58,7 +58,7 @@ The code in the next paragraph demonstrates how to:
 </telerik:RadAjaxPanel>
 <h3>DataReader</h3>
 <telerik:RadAjaxPanel ID="RadAjaxPanel3" LoadingPanelID="RadAjaxLoadingPanel1" runat="server">
-	<telerik:RadTreeList runat="server" ID="RadTreeList3" DataKeyNames="EmployeeID" ParentDataKeyNames="ReportsTo"
+	<telerik:RadTreeList RenderMode="Lightweight" runat="server" ID="RadTreeList3" DataKeyNames="EmployeeID" ParentDataKeyNames="ReportsTo"
 		OnNeedDataSource="RadTreeList3_NeedDataSource" OnDataBound="RadTreeList3_DataBound">
 	</telerik:RadTreeList>
 </telerik:RadAjaxPanel>
@@ -69,7 +69,7 @@ The code in the next paragraph demonstrates how to:
 <b>Binding RadTreeList to:</b>
 <h3>List of custom objects with <b>Nullable</b> properties</h3>
 <telerik:RadAjaxPanel ID="RadAjaxPanel1" LoadingPanelID="RadAjaxLoadingPanel1" runat="server">
-	<telerik:RadTreeList runat="server" ID="RadTreeList1" DataKeyNames="ID" ParentDataKeyNames="PID"
+	<telerik:RadTreeList RenderMode="Lightweight" runat="server" ID="RadTreeList1" DataKeyNames="ID" ParentDataKeyNames="PID"
 		AutoGenerateColumns="false">
 		<Columns>
 			<telerik:TreeListBoundColumn DataField="Text" HeaderText="Text" UniqueName="Text">
@@ -83,7 +83,7 @@ The code in the next paragraph demonstrates how to:
 </telerik:RadAjaxPanel>
 <h3>Generic list</h3>
 <telerik:RadAjaxPanel ID="RadAjaxPanel2" LoadingPanelID="RadAjaxLoadingPanel1" runat="server">
-	<telerik:RadTreeList runat="server" ID="RadTreeList2" DataKeyNames="ID" ParentDataKeyNames="ParentID"
+	<telerik:RadTreeList RenderMode="Lightweight" runat="server" ID="RadTreeList2" DataKeyNames="ID" ParentDataKeyNames="ParentID"
 		AutoGenerateColumns="false">
 		<Columns>
 			<telerik:TreeListBoundColumn DataField="Title" HeaderText="Title" UniqueName="Title">
@@ -96,7 +96,7 @@ The code in the next paragraph demonstrates how to:
 </telerik:RadAjaxPanel>
 <h3>DataReader</h3>
 <telerik:RadAjaxPanel ID="RadAjaxPanel3" LoadingPanelID="RadAjaxLoadingPanel1" runat="server">
-	<telerik:RadTreeList runat="server" ID="RadTreeList3" DataKeyNames="EmployeeID" ParentDataKeyNames="ReportsTo"
+	<telerik:RadTreeList RenderMode="Lightweight" runat="server" ID="RadTreeList3" DataKeyNames="EmployeeID" ParentDataKeyNames="ReportsTo"
 		AutoGenerateColumns="false">
 		<Columns>
 			<telerik:TreeListBoundColumn DataField="LastName" HeaderText="Last Name" UniqueName="LastName">

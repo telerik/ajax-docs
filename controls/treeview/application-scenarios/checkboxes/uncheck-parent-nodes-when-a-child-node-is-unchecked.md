@@ -28,7 +28,7 @@ function clientNodeChecked(sender, eventArgs) {
 }
 ````
 ````ASPNET
-<telerik:RadTreeView ID="RadTreeView1" runat="server" CheckBoxes="True" OnClientNodeChecked="clientNodeChecked">
+<telerik:RadTreeView RenderMode="Lightweight" ID="RadTreeView1" runat="server" CheckBoxes="True" OnClientNodeChecked="clientNodeChecked">
 </telerik:RadTreeView>
 ````
 

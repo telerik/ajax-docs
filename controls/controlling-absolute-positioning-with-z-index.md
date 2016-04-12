@@ -75,7 +75,7 @@ A number of Telerik controls render with absolute positioning and have their def
 In different scenarios, you may need to change these values in order to ensure that one specific control will be shown above the other—for example **RadWindow** over **RadMenu**. To do this, you can simply set the value of the z-index property of every control by using the common style property, e.g.:
 
 ````ASPNET
-<telerik:RadWindowManager ID="RadWindowManager1" runat="server" Style="z-index: 12345">
+<telerik:RadWindowManager RenderMode="Lightweight" ID="RadWindowManager1" runat="server" Style="z-index: 12345">
 </telerik:RadWindowManager>
 ````
 

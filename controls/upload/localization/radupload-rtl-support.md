@@ -29,7 +29,7 @@ position: 2
     Skin="Vista"
     ControlObjectsVisibility="all">
 </telerik:RadUpload><br />
-<telerik:RadProgressArea ID="RadProgressArea1"
+<telerik:RadProgressArea RenderMode="Lightweight" ID="RadProgressArea1"
     runat="server"
     Skin="Vista"
     dir="rtl"

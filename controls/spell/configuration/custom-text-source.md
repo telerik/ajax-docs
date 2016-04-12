@@ -44,7 +44,7 @@ To implement spellchecking for text sources other than HTML, define a JavaScript
 	   <asp:ScriptManager ID="ScriptManager1" runat="server" />
 	   <div>
 		   <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
-		   <telerik:RadSpell ID="RadSpell1" runat="server" ControlToCheck="TextBox1" />
+		   <telerik:RadSpell RenderMode="Lightweight" ID="RadSpell1" runat="server" ControlToCheck="TextBox1" />
 	   </div>
    </form>
 </body> 

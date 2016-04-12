@@ -27,7 +27,7 @@ To do this,
 
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1" Width="97%"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1" Width="97%"
   AllowSorting="True" AllowPaging="True" Skin="Office2007" OnItemEvent="RadGrid1_ItemEvent">
   <MasterTableView Width="100%">
     <PagerStyle Mode="NumericPages" AlwaysVisible="true" />

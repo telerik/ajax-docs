@@ -27,7 +27,7 @@ To disable a specific command shortcut attach a function to the OnCommandExecuti
 			args.set_cancel(true);
 	}
 </script>
-<telerik:RadEditor ID="RadEditor1" OnClientCommandExecuting="OnClientCommandExecuting" runat="server">
+<telerik:RadEditor RenderMode="Lightweight" ID="RadEditor1" OnClientCommandExecuting="OnClientCommandExecuting" runat="server">
 </telerik:RadEditor>
 ````
 

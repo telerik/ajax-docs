@@ -15,7 +15,7 @@ RadRotator control exposes 3 important events
 ## ASPX
 
 ````ASP.NET
-<telerik:RadRotator ID="RadRotator1" runat="server" Width="200" ItemWidth="100" Height="100"
+<telerik:RadRotator RenderMode="Lightweight" ID="RadRotator1" runat="server" Width="200" ItemWidth="100" Height="100"
 	ItemHeight="100" DataSourceID="XmlDataSource1" OnItemCreated="RadRotator1_ItemCreated"
 	OnItemDataBound="RadRotator1_ItemDataBound" OnItemClick="RadRotator1_ItemClick">
 	<ItemTemplate>

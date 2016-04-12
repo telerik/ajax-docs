@@ -34,7 +34,7 @@ This article explains the **elastic capabilities RadRotator offers**. The contro
 		font-size: 18px;
 	}
 </style>
-<telerik:RadRotator runat="server" ID="RadRotator1" Skin="Silk" RotatorType="Buttons" Width="400px" ItemWidth="200px" Height="150px">
+<telerik:RadRotator RenderMode="Lightweight" runat="server" ID="RadRotator1" Skin="Silk" RotatorType="Buttons" Width="400px" ItemWidth="200px" Height="150px">
 	<Items>
 		<telerik:RadRotatorItem ID="RadRotatorItem1" runat="server">
 			<ItemTemplate>

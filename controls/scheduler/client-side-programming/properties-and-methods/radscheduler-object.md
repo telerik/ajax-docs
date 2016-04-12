@@ -80,7 +80,7 @@ function clientFormCreated(scheduler, args)
 
 
 ````ASP.NET
-<telerik:RadScheduler runat="server" ID="RadScheduler1" 
+<telerik:RadScheduler RenderMode="Lightweight" runat="server" ID="RadScheduler1" 
 	GroupBy="Date, User" GroupingDirection="Horizontal">
 </telerik:RadScheduler>
 ````

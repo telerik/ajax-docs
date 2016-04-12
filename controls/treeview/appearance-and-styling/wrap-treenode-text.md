@@ -23,7 +23,7 @@ If you apply **style="white-space:normal"** to the whole **TreeView**, each Node
 **Example:**
 
 ````ASPNET
-<telerik:RadTreeView ID="RadTreeView1" runat="server" LoadingStatusPosition="BeforeNodeText"
+<telerik:RadTreeView RenderMode="Lightweight" ID="RadTreeView1" runat="server" LoadingStatusPosition="BeforeNodeText"
     Width="200px">
     <Nodes>
         <telerik:RadTreeNode runat="server" ExpandMode="ClientSide" Text="Root RadTreeNode1 Root RadTreeNode1"

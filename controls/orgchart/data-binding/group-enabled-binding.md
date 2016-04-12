@@ -29,7 +29,7 @@ And this is how one can bind RadOrgChart to the data:
 
 ````ASPNET
 
-<telerik:RadOrgChart runat="server" ID="RadOrgChart1">
+<telerik:RadOrgChart RenderMode="Lightweight" runat="server" ID="RadOrgChart1">
 	<GroupEnabledBinding>
 		<NodeBindingSettings DataSourceID="NodesDataSource" DataFieldID="ID" DataFieldParentID="ParentID" />
 		<GroupItemBindingSettings DataSourceID="ItemsDataSource" DataFieldID="ID" DataFieldNodeID="NodeID"

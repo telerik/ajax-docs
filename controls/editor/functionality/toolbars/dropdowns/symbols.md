@@ -17,7 +17,7 @@ The RadEditor Symbols dropdown by default displays a predefined set of symbols. 
 ## Using the Symbols Collection Declaratively
 
 ````ASP.NET
-<telerik:RadEditor runat="server" ID="RadEditor1" Skin="WebBlue">
+<telerik:RadEditor RenderMode="Lightweight" runat="server" ID="RadEditor1" Skin="WebBlue">
    <Symbols>
 	   <telerik:EditorSymbol Char="\u20AC" />
 	   <telerik:EditorSymbol Char="\u00A2" />

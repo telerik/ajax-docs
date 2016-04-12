@@ -31,7 +31,7 @@ The event handler receives parameters:
 The example below displays the menu id and the node that the context menu is being opened for. The event is canceled if the menu is being opened for node "Printers".
 
 ````ASPNET
-<telerik:RadTreeView ID="RadTreeView1" runat="server" OnClientContextMenuShowing="ClientContextMenuShown">
+<telerik:RadTreeView RenderMode="Lightweight" ID="RadTreeView1" runat="server" OnClientContextMenuShowing="ClientContextMenuShown">
     <Nodes>
         <telerik:RadTreeNode runat="server" ExpandMode="ClientSide" Text="Search" ImageUrl="~/images/search.ico"
             Expanded="True" Value="1">

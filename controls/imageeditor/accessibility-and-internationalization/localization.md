@@ -44,7 +44,7 @@ The following steps demonstrate how to create a new language pack for **RadImage
 
 	**ASP.NET**
 
-		<telerik:RadImageEditor runat="server" ID="RadImageEditor1" Language="bg-BG">
+		<telerik:RadImageEditor RenderMode="Lightweight" runat="server" ID="RadImageEditor1" Language="bg-BG">
 		</telerik:RadImageEditor>
 
 	**C#**

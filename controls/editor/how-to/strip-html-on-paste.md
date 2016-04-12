@@ -22,7 +22,7 @@ In order to implement this solution, you should:
 >caption Example 1: Stripping `<strong>`, `<em>` and `<span>` tags on paste in **RadEditor**.
 
 ````ASP.NET
-<telerik:RadEditor runat="server" ID="RadEditor1" OnClientPasteHtml="OnClientPasteHtml" />
+<telerik:RadEditor RenderMode="Lightweight" runat="server" ID="RadEditor1" OnClientPasteHtml="OnClientPasteHtml" />
 
 <script>
     function OnClientPasteHtml(editor, args) {

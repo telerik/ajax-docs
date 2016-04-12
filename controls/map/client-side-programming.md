@@ -44,7 +44,7 @@ There are two ways to get a reference to the Kendo Map widget in order to use it
 >caption **Example 3**: Center the map on a pair of coordinates:
 
 ````ASP.NET
-<telerik:RadMap runat="server" ID="RadMap1" Zoom="6" Width="500" Height="500">
+<telerik:RadMap RenderMode="Lightweight" runat="server" ID="RadMap1" Zoom="6" Width="500" Height="500">
 	<CenterSettings Latitude="51.525619" Longitude="-0.111802" />
 	<LayersCollection>
 		<telerik:MapLayer Type="Tile"
@@ -79,7 +79,7 @@ There are two additional events that are specific to the nature of the ISciptCon
 
 ````ASP.NET
 The Click handler is attached from the code-behind
-<telerik:RadMap runat="server" ID="RadMap1" Zoom="4" Width="500" Height="500">
+<telerik:RadMap RenderMode="Lightweight" runat="server" ID="RadMap1" Zoom="4" Width="500" Height="500">
 	<ClientEvents OnPanEnd="OnPanEndHandler" />
 	<CenterSettings Latitude="51.525619" Longitude="-0.111802" />
 	<LayersCollection>
@@ -125,7 +125,7 @@ You can use the **OnInitialize** event **RadMap** exposes to get the JSON litera
 **Example 5:** Add a new markers layer to the map options before the widget initializes.
 
 ````ASP.NET
-<telerik:RadMap runat="server" ID="RadMap1" Zoom="4" Width="500" Height="500">
+<telerik:RadMap RenderMode="Lightweight" runat="server" ID="RadMap1" Zoom="4" Width="500" Height="500">
 	<ClientEvents OnInitialize="OnInitializeHandler" />
 	<CenterSettings Latitude="15" Longitude="10" />
 	<LayersCollection>

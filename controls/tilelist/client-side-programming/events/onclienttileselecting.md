@@ -37,7 +37,7 @@ The event handler receives two arguments:
 The following example shows how to get information about a tile using the **OnClientTileSelecting** event of the **RadTileList**. Note that the event is cancellable and that selection is performed by right-clicking on a tile.
 
 ````JavaScript
-<telerik:RadTileList runat="server" ID="RadTileList1" AutoPostBack="false" SelectionMode="Single" OnClientTileSelecting="OnClientTileSelecting">
+<telerik:RadTileList RenderMode="Lightweight" runat="server" ID="RadTileList1" AutoPostBack="false" SelectionMode="Single" OnClientTileSelecting="OnClientTileSelecting">
 	<Groups>
 		<telerik:TileGroup>
 			<telerik:RadTextTile Name="Sample Text Tile" Text="Lorem ipsum dolor sit amet" Title-Text="Sample"></telerik:RadTextTile>

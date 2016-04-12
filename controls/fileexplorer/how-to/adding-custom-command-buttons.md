@@ -90,7 +90,7 @@ function attachHandlers(explorer, args)
 ````
 
 ````ASP.NET
-<telerik:RadFileExplorer ID="RadFileExplorer1" runat="server" OnClientLoad="attachHandlers">
+<telerik:RadFileExplorer RenderMode="Lightweight" ID="RadFileExplorer1" runat="server" OnClientLoad="attachHandlers">
 </telerik:RadFileExplorer>
 ````
 

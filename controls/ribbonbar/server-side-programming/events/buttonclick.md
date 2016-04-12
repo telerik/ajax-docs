@@ -29,7 +29,7 @@ The event handler function receives two arguments:
 	* **Index** - the index of the clicked button in its containing group.
 
 ````ASPNET
-<telerik:RadRibbonBar ID="RadRibbonBar1" runat="server" OnButtonClick="RadRibbonBar1_ButtonClick">
+<telerik:RadRibbonBar RenderMode="Lightweight" ID="RadRibbonBar1" runat="server" OnButtonClick="RadRibbonBar1_ButtonClick">
     <telerik:RibbonBarTab Text="Home">
         <telerik:RibbonBarGroup Text="Clipboard" EnableLauncher="true">
             <Items>

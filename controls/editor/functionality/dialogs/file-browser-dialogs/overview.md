@@ -29,7 +29,7 @@ All dialogs have the ViewPaths, UploadPaths and deletePaths properties in common
 The example below shows **ViewPaths** in the parent "/Images" directory, **UploadPaths** located in a "/New" subdirectory and **DeletePaths** with two paths under "/New". This set of paths is defined for each of the FileBrowser dialogs:
 
 ````ASP.NET
-<telerik:RadEditor runat="server" ID="RadEditor1">
+<telerik:RadEditor RenderMode="Lightweight" runat="server" ID="RadEditor1">
 	<ImageManager ViewPaths="~/Images" UploadPaths="~/Images/New" DeletePaths="~/Images/New/Articles,~/Images/New/News" />
 	<MediaManager ViewPaths="~/Images" UploadPaths="~/Images/New" DeletePaths="~/Images/New/Articles,~/Images/New/News" />
 	<FlashManager ViewPaths="~/Images" UploadPaths="~/Images/New" DeletePaths="~/Images/New/Articles,~/Images/New/News" />

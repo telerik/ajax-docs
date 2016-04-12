@@ -40,7 +40,7 @@ You can use this event to control when menu items can contract, or reset the chi
  }
 </script>
 
-<telerik:RadMenu ID="RadMenu1" runat="server" Flow="Horizontal" OnClientItemClosing="ItemClosing">
+<telerik:RadMenu RenderMode="Lightweight" ID="RadMenu1" runat="server" Flow="Horizontal" OnClientItemClosing="ItemClosing">
     <Items>
         ...
     </Items>

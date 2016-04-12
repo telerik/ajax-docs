@@ -26,7 +26,7 @@ The following example demonstrates how to bind a **RadMonthYearPicker** control 
 
 
 ````ASPNET
- <telerik:RadGrid ID="RadGrid1" runat="server" AutoGenerateColumns="False" Width="300px"
+ <telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" AutoGenerateColumns="False" Width="300px"
     OnNeedDataSource="RadGrid1_NeedDataSource" OnUpdateCommand="RadGrid1_UpdateCommand"
     OnItemCreated="RadGrid1_ItemCreated">
     <MasterTableView Width="100%" EditMode="InPlace">
@@ -38,7 +38,7 @@ The following example demonstrates how to bind a **RadMonthYearPicker** control 
                     &nbsp;
                 </ItemTemplate>
                 <EditItemTemplate>
-                    <telerik:RadMonthYearPicker ID="picker1" MinDate="2006/1/1" runat="server" DbSelectedDate='<%# Bind("Dates") %>'>
+                    <telerik:RadMonthYearPicker RenderMode="Lightweight" ID="picker1" MinDate="2006/1/1" runat="server" DbSelectedDate='<%# Bind("Dates") %>'>
                     </telerik:RadMonthYearPicker>
                 </EditItemTemplate>
             </telerik:GridTemplateColumn>

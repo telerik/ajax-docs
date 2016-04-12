@@ -30,7 +30,7 @@ The event handler receives two arguments:
 This event can be used to pre-process some conditions or visual styles and content before the final rendering of the calendar. The following example uses the **OnCalendarViewChanging** event to prevent the view from changing unless a date in the current month is selected:
 
 ````ASPNET
-<telerik:RadCalendar ID="RadCalendar1" runat="server" ShowOtherMonthsDays="False" >
+<telerik:RadCalendar RenderMode="Lightweight" ID="RadCalendar1" runat="server" ShowOtherMonthsDays="False" >
 	<ClientEvents OnCalendarViewChanging="checkSelections" />
 </telerik:RadCalendar>
 ````

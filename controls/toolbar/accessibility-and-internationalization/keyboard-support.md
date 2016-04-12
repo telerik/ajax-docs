@@ -28,7 +28,7 @@ Pressing the keys set to these two properties at the same time places the focus 
 **Example 1**: Setting the KeyboardNavigationSettings for **RadToolBar**
 
 ````ASPNET
-<telerik:RadToolBar ID="RadToolBar1" runat="server" >
+<telerik:RadToolBar RenderMode="Lightweight" ID="RadToolBar1" runat="server" >
     <KeyboardNavigationSettings CommandKey="Alt" FocusKey="M" />
 </telerik:RadToolBar>
 ````

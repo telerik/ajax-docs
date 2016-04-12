@@ -27,7 +27,7 @@ The event handler receives two parameters:
 * **get_row** returns the upload row for which the event	was fired.
 
 ````ASPNET
-<telerik:RadAsyncUpload runat="server" ID="RadAsyncUpload1" OnClientFileUploaded="OnClientFileUploaded"></telerik:RadAsyncUpload>
+<telerik:RadAsyncUpload RenderMode="Lightweight" runat="server" ID="RadAsyncUpload1" OnClientFileUploaded="OnClientFileUploaded"></telerik:RadAsyncUpload>
 ````
 
 ````JavaScript

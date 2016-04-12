@@ -20,7 +20,7 @@ You can use a number of properties to control the look and feel of the **RadMont
 Here is an example using the **ImagesPath** property:
 
 ````ASPNET
-<telerik:RadMonthYearPicker ID="RadMonthYearPicker1" runat="server" EnableEmbeddedSkins="false" ImagesPath="~/Images"> 
+<telerik:RadMonthYearPicker RenderMode="Lightweight" ID="RadMonthYearPicker1" runat="server" EnableEmbeddedSkins="false" ImagesPath="~/Images"> 
 </telerik:RadMonthYearPicker>
 ````
 
@@ -34,7 +34,7 @@ In order to change the duration of the animation, use the **HideAnimation-Durati
 Following are some sample configurations:
 
 ````ASPNET
-<telerik:RadMonthYearPicker ID="RadMonthYearPicker1" runat="server">
+<telerik:RadMonthYearPicker RenderMode="Lightweight" ID="RadMonthYearPicker1" runat="server">
     <HideAnimation Duration="4444" />
     <ShowAnimation Duration="1111" />
 </telerik:RadMonthYearPicker>	

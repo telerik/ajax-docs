@@ -31,7 +31,7 @@ In this example we will use Web API to send the file data to the server and perf
 <telerik:RadFilEexplorer ID="FileExplorer1" Configuration-deletepaths="~/files" runat="server" Configuration-viewpaths="~/files"></telerik:RadFilEexplorer>
 
 <div id="Div1">
-	<telerik:RadOrgChart ID="RadOrgChart2" runat="server">
+	<telerik:RadOrgChart RenderMode="Lightweight" ID="RadOrgChart2" runat="server">
 		<Nodes>
 			<telerik:OrgChartNode>
 				<GroupItems>

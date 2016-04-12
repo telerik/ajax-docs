@@ -30,7 +30,7 @@ Flat OData Binding means binding to a non-hierarchical data. Here is an example 
 		</telerik:DataModel>
 	</Schema>
 </telerik:RadODataDataSource>
-<telerik:RadDropDownList ID="RadDropDownList1" runat="server" ODataDataSourceID="RadODataDataSource1"
+<telerik:RadDropDownList RenderMode="Lightweight" ID="RadDropDownList1" runat="server" ODataDataSourceID="RadODataDataSource1"
 	DataModelID="Category" DataTextField="CategoryName" DataValueField="CategoryID">
 </telerik:RadDropDownList>
 ````

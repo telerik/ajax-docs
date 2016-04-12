@@ -29,7 +29,7 @@ In the following example a route is defined in *Global.asax* file that leads to 
 
 
 ````ASPNET
-<telerik:RadDataPager runat="server" ID="Pager" PagedControlID="RadListView1" AllowSEOPaging="true"
+<telerik:RadDataPager RenderMode="Lightweight" runat="server" ID="Pager" PagedControlID="RadListView1" AllowSEOPaging="true"
     AllowRouting="true" RouteName="SeoRouting" RoutePageIndexParameterName="pager">
     <Fields>
         <telerik:RadDataPagerButtonField FieldType="Numeric" PageButtonCount="5" />

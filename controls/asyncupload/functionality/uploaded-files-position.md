@@ -19,7 +19,7 @@ The **UploadedFilesRendering** property defines whether the uploaded files would
 
 
 ````ASP.NET
-<telerik:RadAsyncUpload runat="server" ID="AsyncUpload1" UploadedFilesRendering="BelowFileInput" />
+<telerik:RadAsyncUpload RenderMode="Lightweight" runat="server" ID="AsyncUpload1" UploadedFilesRendering="BelowFileInput" />
 ````
 
 ## See Also

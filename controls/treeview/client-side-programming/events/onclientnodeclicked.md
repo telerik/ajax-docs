@@ -29,7 +29,7 @@ The event handler receives parameters:
 The example below displays the text for the clicked node.
 
 ````ASPNET	
-<telerik:RadTreeView ID="RadTreeView1" runat="server" OnClientNodeClicked="ClientNodeClicked">
+<telerik:RadTreeView RenderMode="Lightweight" ID="RadTreeView1" runat="server" OnClientNodeClicked="ClientNodeClicked">
 </telerik:RadTreeView>
 ````
 ````JavaScript

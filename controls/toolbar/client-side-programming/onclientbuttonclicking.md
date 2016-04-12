@@ -35,7 +35,7 @@ You can use this event to pre-process an item click or to cancel the default res
     }       
 </script>
 
-<telerik:RadToolBar ID="RadToolBar1" runat="server" Orientation="Horizontal" OnClientButtonClicking="OnClientButtonClicking">
+<telerik:RadToolBar RenderMode="Lightweight" ID="RadToolBar1" runat="server" Orientation="Horizontal" OnClientButtonClicking="OnClientButtonClicking">
     <CollapseAnimation Duration="200" Type="OutQuint" />
     <Items>
         <telerik:RadToolBarButton Text="button1" runat="server">

@@ -25,9 +25,9 @@ By default, the ProgressBar's **Label** displays the current **Value** of the [p
 >caption Example 1: Configure the visibility of the progress Label in a RadProgressBar with value in percent. The result of this example is displayed in **Figure 1**.
 
 ````ASP.NET
-<telerik:RadProgressBar runat="server" ID="RadProgressBar1" Value="38" Skin="Silk" BarType="Percent" Width="250px" ShowLabel="true" >
+<telerik:RadProgressBar RenderMode="Lightweight" runat="server" ID="RadProgressBar1" Value="38" Skin="Silk" BarType="Percent" Width="250px" ShowLabel="true" >
 </telerik:RadProgressBar>
-<telerik:RadProgressBar runat="server" ID="RadProgressBar2" Value="38" Skin="Silk" BarType="Percent" Width="250px" ShowLabel="false">
+<telerik:RadProgressBar RenderMode="Lightweight" runat="server" ID="RadProgressBar2" Value="38" Skin="Silk" BarType="Percent" Width="250px" ShowLabel="false">
 </telerik:RadProgressBar>
 ````
 
@@ -44,7 +44,7 @@ If you want to customize the displayed label, you can show the desired progress 
 >caption Example 2: Configure RadProgressBar to display a custom progress label. The result of this example is displayed in **Figure 2**.
 
 ````ASP.NET
-<telerik:RadProgressBar runat="server" Width="264px" ID="PasswordStrengtProgress" 
+<telerik:RadProgressBar RenderMode="Lightweight" runat="server" Width="264px" ID="PasswordStrengtProgress" 
 	MaxValue="10" Value="8" ShowLabel="true" Label="Strong" Skin="Silk">
 </telerik:RadProgressBar>
 ````

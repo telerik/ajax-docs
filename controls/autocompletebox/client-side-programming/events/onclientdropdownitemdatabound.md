@@ -37,7 +37,7 @@ The event handler receives two parameters:
 
 
 ````ASPNET
-<telerik:RadAutoCompleteBox runat="server" ID="RadAutoCompleteBox1" OnClientDropDownItemDataBound="dropDownItemDataBound">
+<telerik:RadAutoCompleteBox RenderMode="Lightweight" runat="server" ID="RadAutoCompleteBox1" OnClientDropDownItemDataBound="dropDownItemDataBound">
 	<WebServiceSettings Path="ClientTemplates.aspx" Method="GetChildren" />
 </telerik:RadAutoCompleteBox>
 ````

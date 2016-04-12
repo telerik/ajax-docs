@@ -30,7 +30,7 @@ The event handler receives the following arguments:
 >caption Example 1: Cancelling the OnClientBeforeClose event of the RadWindow to prevent its closing operation.
 
 ````ASP.NET
-<telerik:RadWindow runat="server" ID="RadWindow1" OnClientBeforeClose="OnClientBeforeClose" VisibleOnPageLoad="true"></telerik:RadWindow>
+<telerik:RadWindow RenderMode="Lightweight" runat="server" ID="RadWindow1" OnClientBeforeClose="OnClientBeforeClose" VisibleOnPageLoad="true"></telerik:RadWindow>
 <script type="text/javascript">
 	function OnClientBeforeClose(sender, args) {
 		args.set_cancel(true);//you cannot close this RadWindow

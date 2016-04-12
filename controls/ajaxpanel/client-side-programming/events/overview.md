@@ -36,7 +36,7 @@ Example 1: Displays a message when request starts and ends.
 	}
 </script>
 <telerik:RadAjaxPanel ID="RadAjaxPanel1" runat="server" ClientEvents-OnRequestStart="requestStart" ClientEvents-OnResponseEnd="responseEnd" >
-	<telerik:RadButton runat="server" Text="Click me!"></telerik:RadButton>
+	<telerik:RadButton RenderMode="Lightweight" runat="server" Text="Click me!"></telerik:RadButton>
 </telerik:RadAjaxPanel>
 ````
 

@@ -29,7 +29,7 @@ The event handler receives two arguments:
 The following example uses the **OnPopupOpening** event to initialize the selection if the input area is empty:
 
 ````ASPNET
-<telerik:RadDatePicker ID="RadDatePicker1" runat="server">
+<telerik:RadDatePicker RenderMode="Lightweight" ID="RadDatePicker1" runat="server">
     <Calendar DayNameFormat="FirstLetter"
            UseColumnHeadersAsSelectors="False"
            UseRowHeadersAsSelectors="False">

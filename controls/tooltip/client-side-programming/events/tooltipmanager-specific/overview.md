@@ -31,7 +31,7 @@ To use these events, simply write a JavaScript function that can be called when 
         alert("RadToolTipManager with ID: " + sender.get_id() + " is requesting data...");
     }
 </script>
-<telerik:RadToolTipManager ID="RadToolTipManager1" OnClientRequestStart="OnClientRequestStart">
+<telerik:RadToolTipManager RenderMode="Lightweight" ID="RadToolTipManager1" OnClientRequestStart="OnClientRequestStart">
     <WebServiceSettings Method="GetToolTipData" Path="ToolTipWebService.asmx" />
 </telerik:RadToolTipManager>
 ````

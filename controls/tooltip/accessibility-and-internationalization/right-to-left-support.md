@@ -26,7 +26,7 @@ html
 
 
 ````ASP.NET
-<telerik:RadToolTip runat="server" ID="RadToolTip1" Width="200px" Height="50px" ShowEvent="OnClick"
+<telerik:RadToolTip RenderMode="Lightweight" runat="server" ID="RadToolTip1" Width="200px" Height="50px" ShowEvent="OnClick"
     HideEvent="ManualClose" Title="Title" Text="Lorem ipsum dolor sit amet" RelativeTo="Element"
     Position="MiddleRight" TargetControlID="target" IsClientID="true">
 </telerik:RadToolTip>

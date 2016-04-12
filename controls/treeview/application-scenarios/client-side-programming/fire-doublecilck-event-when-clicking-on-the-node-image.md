@@ -20,7 +20,7 @@ The JavaScript code below uses the [jQuery](http://jQuery.com) library which is 
 
 
 ````ASPNET
-<telerik:RadTreeView ID="RadTreeView1" runat="server" OnClientDoubleClick="onDoubleClick"
+<telerik:RadTreeView RenderMode="Lightweight" ID="RadTreeView1" runat="server" OnClientDoubleClick="onDoubleClick"
     Skin="Vista">
     <Nodes>
         <telerik:RadTreeNode Text="Node 1" ImageUrl="image1.jpg" runat="server">

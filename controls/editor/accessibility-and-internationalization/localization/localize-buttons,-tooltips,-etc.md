@@ -25,7 +25,7 @@ The tools can be defined through the ToolsFile.xml, added declaratively or progr
 ````
 
 ````ASP.NET
-<telerik:RadEditor ID="RadEditor1" runat="server">
+<telerik:RadEditor RenderMode="Lightweight" ID="RadEditor1" runat="server">
 	<Tools>
 		<telerik:EditorToolGroup>
 			<telerik:EditorTool Name="Custom1" ShortCut="CTRL+1" />

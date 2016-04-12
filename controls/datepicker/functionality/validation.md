@@ -15,7 +15,7 @@ position: 5
 The **RadDatePicker** control can work seamlessly with standard ASP.NET validation controls. Nevertheless, the validation controls such as **RangeValidator** and **CompareValidator** are using a culture-neutral format when comparing the date. For this purpose, we parse the entered date in such culture which format is represented as follow **"yyyy-MM-dd-hh-mm-ss"** and saving it in **RadInputValidationValue** client property. When using **RangeValidator** you need to set its **MaximumValue** and **MinimumValue** in such format in order to work correctly. You have to use this format also when using a custom validator. The code snippet below demonstrates how to configure **RangeValidator**.
 
 ````ASPNET
-<telerik:RadDateInput ID="RadDateInput1" runat="server" DateFormat="d" MinDate="01/01/1990"
+<telerik:RadDateInput RenderMode="Lightweight" ID="RadDateInput1" runat="server" DateFormat="d" MinDate="01/01/1990"
 	MaxDate="01/01/3000">
 </telerik:RadDateInput>
 <asp:RangeValidator ID="DateInputRangeValidator" runat="server" ControlToValidate="RadDateInput1"
@@ -31,7 +31,7 @@ The following example shows a sample period selection page.The user has to enter
     <tr>
         <td>Start:</td>
         <td>
-            <telerik:RadDatePicker ID="StartDate" MinDate="2008/1/1" runat="server" >
+            <telerik:RadDatePicker RenderMode="Lightweight" ID="StartDate" MinDate="2008/1/1" runat="server" >
             </telerik:RadDatePicker>
             <asp:RequiredFieldValidator runat="server" ID="validator1"
             ControlToValidate="StartDate"
@@ -42,7 +42,7 @@ The following example shows a sample period selection page.The user has to enter
     <tr>
         <td>End:</td>
         <td>
-            <telerik:RadDatePicker ID="EndDate" MinDate="2008/1/1" runat="server" >
+            <telerik:RadDatePicker RenderMode="Lightweight" ID="EndDate" MinDate="2008/1/1" runat="server" >
             </telerik:RadDatePicker>
             <asp:RequiredFieldValidator runat="server" ID="validator2"
             ControlToValidate="EndDate"

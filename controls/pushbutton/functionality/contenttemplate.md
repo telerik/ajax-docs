@@ -30,7 +30,7 @@ In order to add controls to the **RadPushButton** in the markup, you should plac
 <telerik:RadPushButton runat="server" ID="RadPushButton1">
 	<ContentTemplate>
         <img alt="cog" src="http://demos.telerik.com/aspnet-ajax/button/examples/contenttemplate/Images/cog.png" />
-        <telerik:RadRating ID="RadRating1" runat="server" Enabled="false" Value="3" SelectionMode="Continuous" ItemCount="5" />
+        <telerik:RadRating RenderMode="Lightweight" ID="RadRating1" runat="server" Enabled="false" Value="3" SelectionMode="Continuous" ItemCount="5" />
 		<div>Tasks</div>
 	</ContentTemplate>
 </telerik:RadPushButton>

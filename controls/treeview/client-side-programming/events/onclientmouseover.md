@@ -29,7 +29,7 @@ The event handler receives parameters:
 The example below retrieves text of the node the mouse is passing over and displays the text in a div.
 
 ````ASPNET
-<telerik:RadTreeView ID="RadTreeView1" runat="server" OnClientMouseOver="ClientMouseOver">
+<telerik:RadTreeView RenderMode="Lightweight" ID="RadTreeView1" runat="server" OnClientMouseOver="ClientMouseOver">
 </telerik:RadTreeView>
 <br />
 <div id="myDiv" style="width: 489px; height: 100px">

@@ -65,7 +65,7 @@ The following declaration demonstrates how to use the internal event bubbling me
                 </div>
                 <div>
                     <span style="vertical-align: middle; font-weight: bold; padding-left: 5px;">Page Size:</span>
-                    <telerik:RadComboBox runat="server" ID="cmbPageSize" OnSelectedIndexChanged="cmbPageSize_SelectedIndexChanged"
+                    <telerik:RadComboBox RenderMode="Lightweight" runat="server" ID="cmbPageSize" OnSelectedIndexChanged="cmbPageSize_SelectedIndexChanged"
                         AutoPostBack="true" Width="40px" SelectedValue="<%#Container.PageSize %>">
                         <Items>
                             <telerik:RadComboBoxItem Text="3" Value="3" />

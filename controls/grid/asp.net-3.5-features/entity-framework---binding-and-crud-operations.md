@@ -45,7 +45,7 @@ Here are the code snippets from the example referenced in the previous paragraph
   </AjaxSettings>
 </telerik:RadAjaxManager>
 <telerik:RadAjaxLoadingPanel ID="RadAjaxLoadingPanel1" runat="server" />
-<telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="EntityDataSourceCustomers"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" DataSourceID="EntityDataSourceCustomers"
   GridLines="None" AllowPaging="True" AllowAutomaticUpdates="True" AllowAutomaticInserts="True"
   AllowSorting="true" Width="750px" OnItemCreated="RadGrid1_ItemCreated">
   <PagerStyle Mode="NextPrevAndNumeric" />

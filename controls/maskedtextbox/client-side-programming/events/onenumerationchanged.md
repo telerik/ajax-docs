@@ -35,7 +35,7 @@ Two parameters are passed to the event handler:
 The following example uses the **OnEnumerationChanged** event display an alert when the user changes the value of an enumerated mask part :
 
 ````ASPNET
-<telerik:RadMaskedTextBox ID="RadMaskedTextBox1" runat="server" Mask="<Mon|Tue|Wed|Thu|Fri|Sat|Sun>" PromptChar="_">
+<telerik:RadMaskedTextBox RenderMode="Lightweight" ID="RadMaskedTextBox1" runat="server" Mask="<Mon|Tue|Wed|Thu|Fri|Sat|Sun>" PromptChar="_">
 	<ClientEvents OnEnumerationChanged="EnumerationChanged" />
 </telerik:RadMaskedTextBox>
 ````

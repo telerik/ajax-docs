@@ -31,7 +31,7 @@ One item in the panel bar can be designated as the Selected item. This is the la
 If the items are created at design time, the hierarchy is reflected in the ASP.NET declaration of the panel bar:
 
 ````ASPNET
-<telerik:RadPanelBar id="RadPanelBar1" runat="server" skin="Outlook">  
+<telerik:RadPanelBar RenderMode="Lightweight" id="RadPanelBar1" runat="server" skin="Outlook">  
 	<Items>    
 		<telerik:RadPanelItem runat="server" Text="Mail">      
 			<Items>       
@@ -44,7 +44,7 @@ If the items are created at design time, the hierarchy is reflected in the ASP.N
 			<Items>        
 				<telerik:RadPanelItem runat="server">          
 				<ItemTemplate>            
-					<telerik:RadCalendar ID="RadCalendar1" runat="server" Skin="Outlook" />          
+					<telerik:RadCalendar RenderMode="Lightweight" ID="RadCalendar1" runat="server" Skin="Outlook" />          
 				</ItemTemplate>        
 				</telerik:RadPanelItem>      
 			</Items>   

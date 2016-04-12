@@ -31,7 +31,7 @@ function OnClientLoad(sender) {
 }
 </script>
 
-<telerik:RadTreeMap runat="server" ID="TreeMap1" OnClientLoad="OnClientLoad">
+<telerik:RadTreeMap RenderMode="Lightweight" runat="server" ID="TreeMap1" OnClientLoad="OnClientLoad">
 <Items>
     <telerik:TreeMapItem Text="Parent Item">
         <Items>

@@ -24,7 +24,7 @@ This property allows you to show a column which has been previously hidden. The 
        masterTableView.showColumn(columnIndex);
    }
 </script>
-<telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="true" AllowSorting="true"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" AllowPaging="true" AllowSorting="true"
     AllowFilteringByColumn="true" PageSize="5">
     <MasterTableView ClientDataKeyNames="ProductID" CommandItemDisplay="Top">
         <Columns>

@@ -37,7 +37,7 @@ The event handler receives two parameters:
 	</DataSource>
 </telerik:RadClientDataSource>
 
-<telerik:RadRotator runat="server" ID="Rotator" ClientDataSourceID="RadClientDataSource1" 
+<telerik:RadRotator RenderMode="Lightweight" runat="server" ID="Rotator" ClientDataSourceID="RadClientDataSource1" 
 	OnClientItemDataBound="OnClientItemDataBound">
 	<ClientTemplate>
 		<span class="productName">#= ProductName #</span>

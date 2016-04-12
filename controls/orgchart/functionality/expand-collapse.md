@@ -31,7 +31,7 @@ To further customize the functionality of the RadOrgChart control there are also
 Here is an example how to enable the Expand/Collapse functionality from the markup.
 
 ````ASPNET
-<telerik:RadOrgChart ID="RadOrgChart1" runat="server" EnableCollapsing="true">
+<telerik:RadOrgChart RenderMode="Lightweight" ID="RadOrgChart1" runat="server" EnableCollapsing="true">
     <Nodes>
         <telerik:OrgChartNode>
             <GroupItems>
@@ -76,7 +76,7 @@ Here is an example how to enable the Expand/Collapse functionality from the mark
 Bind Node's Collapsed property in simple binding scenario:
 
 ````ASPNET
-<telerik:RadOrgChart runat="server" ID="RadOrgChart2" EnableCollapsing="true">
+<telerik:RadOrgChart RenderMode="Lightweight" runat="server" ID="RadOrgChart2" EnableCollapsing="true">
 </telerik:RadOrgChart>
 ````
 
@@ -206,7 +206,7 @@ RadOrgChart5.DataBind()
 Bind Node's Collapsed property in group-enabled binding scenario:
 
 ````ASPNET
-<telerik:RadOrgChart runat="server" ID="RadOrgChart3" EnableCollapsing="true">
+<telerik:RadOrgChart RenderMode="Lightweight" runat="server" ID="RadOrgChart3" EnableCollapsing="true">
 </telerik:RadOrgChart>
 ````
 
@@ -319,7 +319,7 @@ To further customize the functionality of the RadOrgChart control there are also
 Here is an example how to enable the Expanding/Collapsing of a Group from the markup.
 
 ````ASPNET
-<telerik:RadOrgChart runat="server" ID="RadOrgChart4" EnableGroupCollapsing="true">
+<telerik:RadOrgChart RenderMode="Lightweight" runat="server" ID="RadOrgChart4" EnableGroupCollapsing="true">
     <Nodes>
         <telerik:OrgChartNode>
             <GroupItems>
@@ -348,7 +348,7 @@ Here is an example how to enable the Expanding/Collapsing of a Group from the ma
 Bind Node's GroupCollapsed property in group-enabled binding:
 
 ````ASPNET
-<telerik:RadOrgChart runat="server" ID="RadOrgChart5" EnableGroupCollapsing="true">
+<telerik:RadOrgChart RenderMode="Lightweight" runat="server" ID="RadOrgChart5" EnableGroupCollapsing="true">
 </telerik:RadOrgChart>
 ````
 

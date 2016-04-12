@@ -27,7 +27,7 @@ As of **Q3 2009**, **RadMenu** supports multi-column rendering of child items. T
 For all menu item groups:
 
 ````ASP.NET
-<telerik:RadMenu runat="server" ID="RadMenu1" DataSourceID="SiteMapDataSource">
+<telerik:RadMenu RenderMode="Lightweight" runat="server" ID="RadMenu1" DataSourceID="SiteMapDataSource">
     <DefaultGroupSettings RepeatColumns="2" RepeatDirection="Vertical" />
 </telerik:RadMenu>
 ````

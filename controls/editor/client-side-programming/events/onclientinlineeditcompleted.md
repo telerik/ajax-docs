@@ -39,7 +39,7 @@ The **Example 1** showcases how to perform an AJAX request when the **OnClientIn
 		}
 	</script>
 </telerik:RadCodeBlock>
-<telerik:RadEditor ID="RadEditor1" runat="server" EditType="Inline" OnClientInlineEditCompleted="OnClientInlineEditCompleted">
+<telerik:RadEditor RenderMode="Lightweight" ID="RadEditor1" runat="server" EditType="Inline" OnClientInlineEditCompleted="OnClientInlineEditCompleted">
 	<Content>
 	<div style="width: 420px">
 		<h2 class="titleText">RadEditor for ASP.NET AJAX</h2>

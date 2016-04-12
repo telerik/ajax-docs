@@ -121,7 +121,7 @@ After following these steps you will get the following example that presents exp
 <telerik:RadScriptManager ID="RadScriptManager2" runat="server">  
 </telerik:RadScriptManager>
 <asp:Button Text="Export to excel" ID="ExportToExcel" OnClick="ExportToExcel_Click" runat="server" />
-<telerik:RadGrid ID="RadGrid1" runat="server" OnNeedDataSource="RadGrid1_NeedDataSource" AutoGenerateColumns="false">
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" OnNeedDataSource="RadGrid1_NeedDataSource" AutoGenerateColumns="false">
     <MasterTableView CommandItemDisplay="Top">
         <Columns>
             <telerik:GridBoundColumn DataField="ID" HeaderText="ID"></telerik:GridBoundColumn>
@@ -344,7 +344,7 @@ After following these steps you will get the following example that presents exp
 <telerik:RadScriptManager ID="RadScriptManager3" runat="server">  
 </telerik:RadScriptManager>
 <asp:Button Text="Export to word" ID="Button1" OnClick="ExportToWord_Click" runat="server" />
-<telerik:RadGrid ID="RadGrid2" runat="server" OnNeedDataSource="RadGrid1_NeedDataSource" AutoGenerateColumns="false">
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid2" runat="server" OnNeedDataSource="RadGrid1_NeedDataSource" AutoGenerateColumns="false">
     <MasterTableView CommandItemDisplay="Top">
         <Columns>
             <telerik:GridBoundColumn DataField="ID" HeaderText="ID"></telerik:GridBoundColumn>

@@ -31,7 +31,7 @@ Two parameters are passed to the event handler:
 The following example illustrates how you can handle the **OnCommand** event and retrieve the command name and argument:
 
 ````ASPNET
-<telerik:RadDataForm runat="server" ID="RadDataForm2">
+<telerik:RadDataForm RenderMode="Lightweight" runat="server" ID="RadDataForm2">
     <ClientSettings>
         <ClientEvents OnCommand="onCommand" />
     </ClientSettings>

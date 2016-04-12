@@ -31,7 +31,7 @@ This event will be raised for each grid item which is about to be bound on the c
 Example:
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" runat="server">
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server">
     <ClientSettings>
         <ClientEvents OnRowDataBound="RowDataBound" />
     </ClientSettings>

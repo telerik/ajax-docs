@@ -15,7 +15,7 @@ position: 0
 The context menus are available in the ContextMenus Collection. You can define this collection in the ContextMenus section of RadEditor’s declaration:
 
 ````ASP.NET
-<telerik:RadEditor runat="server" ID="RadEditor1">
+<telerik:RadEditor RenderMode="Lightweight" runat="server" ID="RadEditor1">
 	<ContextMenus>
 		<telerik:EditorContextMenu TagName="IMG">
 			<telerik:EditorTool Name="Cut" />
@@ -59,7 +59,7 @@ imgTag.Tools.Add(New EditorTool("Copy"))
 If needed, you can disable specific context menus. Note that when you disable a certain context menu, you are disabling only that specific menu while the default one (the one applied to all tags) is still available. That is why, if you want to customize the context menus, you should disable/remove all menus first and then declare only the ones that you need.
 
 ````ASP.NET
-<telerik:RadEditor ID="RadEditor1" runat="server">
+<telerik:RadEditor RenderMode="Lightweight" ID="RadEditor1" runat="server">
 	<Tools>
 		<telerik:EditorToolGroup>
 			<telerik:EditorTool Name="SelectAll" ShortCut="CTRL+A" />

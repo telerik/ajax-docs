@@ -15,7 +15,7 @@ The following example demonstrates how to implement custom **IncreaseSize** and 
 Place IncreaseSize and DecreaseSize JavaScript commands below the editor declaration. Both commands get the editor DOM element the RadEditor **get_element()** method. The **clientWidth** and **clientHeight** DOM properties of the element provide the current editor dimensions. Then the RadEditor **setSize()** is used to assign new editor dimensions, this time with 30 pixels more or less, depending on the button clicked.
 
 ````ASP.NET
-<telerik:RadEditor runat="server" ID="RadEditor1">
+<telerik:RadEditor RenderMode="Lightweight" runat="server" ID="RadEditor1">
 	<Tools>
 		<telerik:EditorToolGroup>
 			<telerik:EditorTool Name="IncreaseSize" />

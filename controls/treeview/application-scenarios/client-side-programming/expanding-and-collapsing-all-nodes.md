@@ -68,7 +68,7 @@ function treeCollapseAllNodes() {
 <form id="form1" runat="server">
 <asp:ScriptManager ID="ScriptManager1" runat="server" />
 <div>
-    <telerik:RadTreeView ID="RadTreeView2" runat="server" Skin="Hay">
+    <telerik:RadTreeView RenderMode="Lightweight" ID="RadTreeView2" runat="server" Skin="Hay">
         <nodes>
             <telerik:RadTreeNode runat="server" Text="Products" ExpandMode="ClientSide">
                 <Nodes>

@@ -57,7 +57,7 @@ Content can be added to **RadNotification** in multiple ways and is displayed in
 	
 		__ASP.NET__
 
-		    <telerik:RadNotification runat="server" ID="RadNotification1" VisibleOnPageLoad="true"
+		    <telerik:RadNotification RenderMode="Lightweight" runat="server" ID="RadNotification1" VisibleOnPageLoad="true"
 		        TitleIcon="info" ContentIcon="info" Width="250px" Height="100px">
 		        <ContentTemplate>
 		            Rich content:<br />
@@ -73,7 +73,7 @@ Content can be added to **RadNotification** in multiple ways and is displayed in
 
 		__ASP.NET__
 
-		    <telerik:RadNotification runat="server" ID="RadNotification2" VisibleOnPageLoad="true"
+		    <telerik:RadNotification RenderMode="Lightweight" runat="server" ID="RadNotification2" VisibleOnPageLoad="true"
 		        Width="250px" Height="100px">
 		        <ContentTemplate>
 		        </ContentTemplate>

@@ -24,7 +24,7 @@ The event handler receives the following parameters:
 This code sample will throw the event every time the notification is shown, yet no error alert will be shown to the user and the notification will be empty:
 
 ````ASP.NET
-<telerik:RadNotification runat="server" ID="RadNotification1" Position="BottomRight"
+<telerik:RadNotification RenderMode="Lightweight" runat="server" ID="RadNotification1" Position="BottomRight"
     Width="250px" Height="100px" OnClientUpdateError="OnClientUpdateError"
     LoadContentOn="EveryShow" ShowInterval="5000" OnCallbackUpdate="OnCallbackUpdate">
 </telerik:RadNotification>

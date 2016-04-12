@@ -41,7 +41,7 @@ This event is used in scenarios when the default error message need to be hidden
 
 
 ````ASPNET
-<telerik:RadAutoCompleteBox runat="server" ID="RadAutoComplete1" OnClientRequestFailed="requestFailed"
+<telerik:RadAutoCompleteBox RenderMode="Lightweight" runat="server" ID="RadAutoComplete1" OnClientRequestFailed="requestFailed"
 	DataSourceID="SqlDataSource1" DataTextField="Name" DataValueField="ID">
 </telerik:RadAutoCompleteBox>
 <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:TelerikVSXConnectionString %>"

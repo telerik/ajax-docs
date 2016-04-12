@@ -21,7 +21,7 @@ position: 0
 Given the following markup there are some examples of how you can get different elements of the RadRibbonBard control.
 
 ````ASPNET
-<telerik:RadRibbonBar runat="server" ID="RadRibbonBar1" OnClientLoad="OnClientLoad"
+<telerik:RadRibbonBar RenderMode="Lightweight" runat="server" ID="RadRibbonBar1" OnClientLoad="OnClientLoad"
 	OnClientButtonClicking="OnClientButtonClicking">
 	<telerik:RibbonBarTab Text="Tab0" Value="Tab0Value">
 		<telerik:RibbonBarGroup Text="Group0" Value="Group0Value">

@@ -17,7 +17,7 @@ The localization support for **RadListBox** lets you completely translate the us
 The **Localization** property specifies the strings that appear in the runtime user interface of **RadListBox**. By changing the values of each named sub-property, you change the appearance of the string the ListBox uses:
 
 ````ASPNET
-<telerik:RadListBox ID="RadListBox1"    
+<telerik:RadListBox RenderMode="Lightweight" ID="RadListBox1"    
 	runat="server"
 	Localization-ToLeft="To The Left"    
 	AllowReorder="true" ...>

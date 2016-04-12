@@ -41,11 +41,11 @@ Here is a complete source code sample:
 </telerik:RadAjaxManager>
 <telerik:RadAjaxLoadingPanel ID="RadAjaxLoadingPanel1" runat="server">
 </telerik:RadAjaxLoadingPanel>
-<telerik:RadToolTipManager ID="RadToolTipManager1" OffsetY="-1" HideEvent="ManualClose"
+<telerik:RadToolTipManager RenderMode="Lightweight" ID="RadToolTipManager1" OffsetY="-1" HideEvent="ManualClose"
   Width="250" Height="350" runat="server" EnableShadow="true" OnAjaxUpdate="OnAjaxUpdate"
   RelativeTo="Element" Position="MiddleRight">
 </telerik:RadToolTipManager>
-<telerik:RadGrid ID="RadGrid1" Width="550" runat="server" DataSourceID="SqlDataSource1"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" Width="550" runat="server" DataSourceID="SqlDataSource1"
   GridLines="None" OnItemDataBound="RadGrid1_ItemDataBound" AllowPaging="true" AllowSorting="true"
   PageSize="10" OnItemCommand="RadGrid1_ItemCommand">
   <MasterTableView AutoGenerateColumns="False" CommandItemDisplay="None" CurrentResetPageIndexAction="SetPageIndexToFirst"

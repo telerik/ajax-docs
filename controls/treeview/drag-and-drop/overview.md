@@ -37,7 +37,7 @@ The following example handles the **OnNodeDrop** event and adds the **DraggedNod
 ![RadTreeView Drad and Drop Overview](images/treeview_draganddropoverview.png)
 
 ````ASPNET
-<telerik:RadTreeView ID="RadTreeView1" runat="server" EnableDragAndDrop="true" EnableDragAndDropBetweenNodes="true"
+<telerik:RadTreeView RenderMode="Lightweight" ID="RadTreeView1" runat="server" EnableDragAndDrop="true" EnableDragAndDropBetweenNodes="true"
     MultipleSelect="true" OnNodeDrop="RadTreeView1_NodeDrop" Skin="Vista">
     <Nodes>
         <telerik:RadTreeNode runat="server" Text="Root RadTreeNode1" ExpandMode="ClientSide">

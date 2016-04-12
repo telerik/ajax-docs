@@ -24,7 +24,7 @@ The event handler receives one argument:
 The following example uses the **OnLoad** event to navigate to December when the page loads:
 
 ````ASPNET
-<telerik:RadCalendar ID="RadCalendar1" runat="server">
+<telerik:RadCalendar RenderMode="Lightweight" ID="RadCalendar1" runat="server">
     <ClientEvents OnLoad="navigateToDecember"  />
 </telerik:RadCalendar>			
 ````

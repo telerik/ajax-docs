@@ -33,7 +33,7 @@ The **ImageGalleryItemCollection** available through the **get_items()** method 
 The example below illustrates how you can add a **RadImageGalleryItem** to the collection using the **add()** method.
 
 ````ASPNET
-<telerik:RadImageGallery runat="server" ID="RadImageGallery1" ></telerik:RadImageGallery>
+<telerik:RadImageGallery RenderMode="Lightweight" runat="server" ID="RadImageGallery1" ></telerik:RadImageGallery>
 ````
 
 

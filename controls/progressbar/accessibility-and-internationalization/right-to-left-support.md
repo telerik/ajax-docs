@@ -23,7 +23,7 @@ This parent element can be the **BODY**, the **HTML** element,	or just a simple 
 
 ````ASP.NET
 <div style="direction:rtl;">
-	<telerik:RadProgressBar runat="server" ID="RadProgressBar1" BarType="Value" Value="80" MinValue="0" MaxValue="100" Skin="Silk">
+	<telerik:RadProgressBar RenderMode="Lightweight" runat="server" ID="RadProgressBar1" BarType="Value" Value="80" MinValue="0" MaxValue="100" Skin="Silk">
 	</telerik:RadProgressBar>
 </div>
 ````

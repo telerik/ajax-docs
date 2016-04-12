@@ -27,7 +27,7 @@ Two parameters are passed to the event handler:
 The following RadNumericTextBox uses the **OnLoad** event to change the background color of a text box:
 
 ````ASPNET
-<telerik:RadNumericTextBox ID="RadNumericTextBox1" runat="server">
+<telerik:RadNumericTextBox RenderMode="Lightweight" ID="RadNumericTextBox1" runat="server">
 	<ClientEvents OnLoad="Load" />
 </telerik:RadNumericTextBox>
 ````

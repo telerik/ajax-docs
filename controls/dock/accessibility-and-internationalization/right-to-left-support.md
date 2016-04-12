@@ -24,7 +24,7 @@ html
 
 
 ````ASP.NET
-<telerik:RadDock runat="server" ID="RadDock1" Title="Right-to-left">
+<telerik:RadDock RenderMode="Lightweight" runat="server" ID="RadDock1" Title="Right-to-left">
     <ContentTemplate>
         <asp:Label ID="Label1" Text="Lorem ipsum dolor sit amet" runat="server"></asp:Label>
     </ContentTemplate>

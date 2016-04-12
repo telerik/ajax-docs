@@ -37,7 +37,7 @@ The following example asks the user to confirm the checking of a CheckBox.Here i
 	}
 </script>
 
-<telerik:RadButton ID="RadButton1" runat="server" Text="Checkbox" ToggleType="CheckBox"	
+<telerik:RadButton RenderMode="Lightweight" ID="RadButton1" runat="server" Text="Checkbox" ToggleType="CheckBox"	
 	ButtonType="ToggleButton" OnClick="RadButton1_Click" OnClientCheckedChanging="CheckedChanging">
 </telerik:RadButton>
 ````

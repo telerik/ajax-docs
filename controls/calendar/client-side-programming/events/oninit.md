@@ -22,7 +22,7 @@ The event handler receives one argument:
 The following example uses the **OnInit** event to initialize the selection to today's date:
 
 ````ASPNET
-<telerik:RadCalendar ID="RadCalendar1" runat="server" >
+<telerik:RadCalendar RenderMode="Lightweight" ID="RadCalendar1" runat="server" >
     <ClientEvents OnInit="initializeCalendar" />
 </telerik:RadCalendar>
 ````

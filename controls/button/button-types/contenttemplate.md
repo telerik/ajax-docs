@@ -23,11 +23,11 @@ In order to add controls to the **RadButton** in the markup, you should place th
 >caption Example 1: Adding controls to the **ContentTemplate** of a **RadButton** in the markup.
 
 ````ASP.NET
-<telerik:RadButton runat="server" ID="RadButton1">
+<telerik:RadButton RenderMode="Lightweight" runat="server" ID="RadButton1">
 	<ContentTemplate>
 		<img alt="cog" src="http://demos.telerik.com/aspnet-ajax/button/examples/contenttemplate/Img/cog.png" />
 		<span>Tasks</span>
-		<telerik:RadRating ID="RadRating1" runat="server" Enabled="false" Value="3" SelectionMode="Continuous" ItemCount="5" />
+		<telerik:RadRating RenderMode="Lightweight" ID="RadRating1" runat="server" Enabled="false" Value="3" SelectionMode="Continuous" ItemCount="5" />
 	</ContentTemplate>
 </telerik:RadButton>
 ````
@@ -39,7 +39,7 @@ You can add controls to the **RadButton** from the code-behind in two ways:
 * Add elements to the **Controls** collection of the **RadButton** (**Example 2**).**Example 2**: Adding controls to the **Controls** collection of **RadButton** from code behind.
 
 ````ASP.NET
-<telerik:RadButton runat="server" ID="RadButton1" Width="160px" Height="70px">
+<telerik:RadButton RenderMode="Lightweight" runat="server" ID="RadButton1" Width="160px" Height="70px">
 </telerik:RadButton>
 ````
 ````C#	
@@ -65,7 +65,7 @@ End Sub
 
 
 ````ASP.NET
-<telerik:RadButton runat="server" ID="RadButton1" Width="160px" Height="70px">
+<telerik:RadButton RenderMode="Lightweight" runat="server" ID="RadButton1" Width="160px" Height="70px">
 </telerik:RadButton>
 ````
 ````C#

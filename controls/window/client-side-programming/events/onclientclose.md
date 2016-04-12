@@ -31,7 +31,7 @@ To see how to get a reference to the **RadWindow** [client-side object]({%slug w
 
 ````ASP.NET
 <asp:Button ID="Button2" Text="show the dialog" runat="server" />
-<telerik:RadWindow runat="server" ID="RadWindow1" OnClientClose="OnClientCloseHandler" NavigateUrl="dialog-page.aspx" VisibleOnPageLoad="true"></telerik:RadWindow>
+<telerik:RadWindow RenderMode="Lightweight" runat="server" ID="RadWindow1" OnClientClose="OnClientCloseHandler" NavigateUrl="dialog-page.aspx" VisibleOnPageLoad="true"></telerik:RadWindow>
 <script type="text/javascript">
 	function OnClientCloseHandler(sender, args) {
 		var data = args.get_argument();

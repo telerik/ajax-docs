@@ -19,7 +19,7 @@ The buttons of **RadRotator** are styled with CSS3 since the Q2 2014 release of 
 **Example 1**: The CSS rules that change the default RadRotator buttons to result in **Figure 1**.
 
 ````ASP.NET
-<telerik:RadRotator ID="RadRotator1" runat="server" Skin="MyCustomSkin" EnableEmbeddedSkins="false"
+<telerik:RadRotator RenderMode="Lightweight" ID="RadRotator1" runat="server" Skin="MyCustomSkin" EnableEmbeddedSkins="false"
 	EnableEmbeddedBaseStylesheet="false">
 </telerik:RadRotator>
 ````
@@ -29,7 +29,7 @@ When you create the custom CSS class **customButtons** you need to set it to the
 **Example 2**: Applying the custom CSS class from Example 1 to a **RadRotator**.
 
 ````ASP.NET
-<telerik:RadRotator ID="RadRotator1" runat="server" RotatorType="Buttons" CssClass="customButtons"
+<telerik:RadRotator RenderMode="Lightweight" ID="RadRotator1" runat="server" RotatorType="Buttons" CssClass="customButtons"
 	Height="113px" ItemHeight="113px" Width="490px" ItemWidth="150px">
 	<ItemTemplate>
 		...

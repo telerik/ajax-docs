@@ -42,7 +42,7 @@ function populationFailed(sender, eventArgs)
 }
 </script>
 
-<telerik:RadMenu ID="RadMenu1" runat="server" Skin="Vista" OnClientItemPopulationFailed="populationFailed">
+<telerik:RadMenu RenderMode="Lightweight" ID="RadMenu1" runat="server" Skin="Vista" OnClientItemPopulationFailed="populationFailed">
     <WebServiceSettings Path="ProductCategories.asmx" Method="GetMenuCategories" />
     <LoadingStatusTemplate>
         <asp:Image runat="server" ID="LoadingImage" ImageUrl="~/Ajax/Img/loading7.gif" ToolTip="Loading..."
@@ -61,7 +61,7 @@ function populationFailed(sender, eventArgs)
         </telerik:RadMenuItem>
     </Items>
 </telerik:RadMenu>
-<telerik:RadWindowManager ID="RadWindowManager1" runat="server" Skin="Vista">
+<telerik:RadWindowManager RenderMode="Lightweight" ID="RadWindowManager1" runat="server" Skin="Vista">
 </telerik:RadWindowManager>
 ````
 

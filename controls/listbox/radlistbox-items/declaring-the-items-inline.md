@@ -19,7 +19,7 @@ You can also directly edit the ASPX or ASCX file by adding items to the <Items><
 Add the following **inline** definition of RadListBox to your ASPX or ASCX file:
 
 ````ASPNET
-<telerik:RadListBox ID="RadListBox2"
+<telerik:RadListBox RenderMode="Lightweight" ID="RadListBox2"
    runat="server"
    Skin="Vista">
    <Items>

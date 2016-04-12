@@ -26,7 +26,7 @@ A number of properties let you control the look and feel of the **RadCalendar** 
 Here is an example using the **ImagesPath** property:
 
 ````ASPNET
-<telerik:RadCalendar EnableEmbeddedSkins="false" ImagesPath="~/Images" ID="RadCalendar1" runat="server">
+<telerik:RadCalendar RenderMode="Lightweight" EnableEmbeddedSkins="false" ImagesPath="~/Images" ID="RadCalendar1" runat="server">
 </telerik:RadCalendar>
 ````
 
@@ -52,7 +52,7 @@ In addition you can configure most aspects of the **RadCalendar** layout :
 In order to change the duration of the animation, use the **FastNavigationSettings.HideAnimation-Duration** and **FastNavigationSettings.ShowAnimation-Duration** properties of **RadCalendar**.
 
 ````ASPNET
-<telerik:RadCalendar ID="RadCalendar1" runat="server">
+<telerik:RadCalendar RenderMode="Lightweight" ID="RadCalendar1" runat="server">
     <FastNavigationSettings>
     <HideAnimation Duration="444" />
     <ShowAnimation Duration="111" />

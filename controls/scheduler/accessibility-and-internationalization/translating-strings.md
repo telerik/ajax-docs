@@ -20,7 +20,7 @@ The **Localization** property specifies the strings that appear in the runtime u
 
 ````ASPNET
 	
-<telerik:RadScheduler ID="RadScheduler1" runat="server">
+<telerik:RadScheduler RenderMode="Lightweight" ID="RadScheduler1" runat="server">
   <Localization AdvancedDay="Work Day" />
 </telerik:RadScheduler>     
 							

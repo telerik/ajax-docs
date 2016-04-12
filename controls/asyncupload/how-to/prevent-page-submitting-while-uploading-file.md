@@ -23,7 +23,7 @@ prevents the page submit and pops up a message that explains why the action is c
 The following code snippets demonstrate how it can be used:
 
 ````ASPNET
-<telerik:RadAsyncUpload runat="server" ID="RadAsyncUpload1">
+<telerik:RadAsyncUpload RenderMode="Lightweight" runat="server" ID="RadAsyncUpload1">
 </telerik:RadAsyncUpload>
 <input type="button" onclick="submitPage()" value="submit page" />
 ````

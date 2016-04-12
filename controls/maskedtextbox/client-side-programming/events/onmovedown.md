@@ -32,7 +32,7 @@ Two parameters are passed to the event handler:
 The following example uses the **OnMoveDown** event display an alert when the user decreases the value of a numeric range :
 
 ````ASPNET
-<telerik:RadMaskedTextBox ID="RadMaskedTextBox1" runat="server" 
+<telerik:RadMaskedTextBox RenderMode="Lightweight" ID="RadMaskedTextBox1" runat="server" 
 	Mask="<0..255>.<0..255>.<0..255>.<0..255>" PromptChar="_" Label="IP Address">
 	<ClientEvents OnMoveDown="MoveDown" />
 </telerik:RadMaskedTextBox>

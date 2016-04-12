@@ -21,7 +21,7 @@ You can also directly edit the ASPX or ASCX file by adding items to the <Items><
 Add the following **inline** definition of a toolbar to your ASPX or ASCX file:
 
 ````ASPNET
-<telerik:RadToolBar ID="RadToolBar1" runat="server" Orientation="Horizontal">
+<telerik:RadToolBar RenderMode="Lightweight" ID="RadToolBar1" runat="server" Orientation="Horizontal">
     <CollapseAnimation Duration="200" Type="OutQuint" />
     <Items>
         <telerik:RadToolBarButton runat="server" Text="Button 1">

@@ -41,7 +41,7 @@ position: 6
    <form id="form2" runat="server">
    <telerik:RadScriptManager ID="RadScriptManager1" runat="server">
    </telerik:RadScriptManager>
-   <telerik:RadPanelBar ID="RadPanelBar1" runat="server">
+   <telerik:RadPanelBar RenderMode="Lightweight" ID="RadPanelBar1" runat="server">
        <Items>
            <telerik:RadPanelItem runat="server" Text="Root RadPanelItem1">
                <Items>

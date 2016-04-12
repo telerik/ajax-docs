@@ -29,7 +29,7 @@ The only thing needed once you set up the data source control is to set the pivo
 A sample RadPivotGrid declaration, using an EntityDataSource is shown below:
 
 ````ASPNET
-<telerik:RadPivotGrid ID="RadPivotGrid2" runat="server" DataSourceID="EntityDataSource1"
+<telerik:RadPivotGrid RenderMode="Lightweight" ID="RadPivotGrid2" runat="server" DataSourceID="EntityDataSource1"
 AllowPaging="true">
 <ClientSettings Scrolling-AllowVerticalScroll="true">>
 </ClientSettings>

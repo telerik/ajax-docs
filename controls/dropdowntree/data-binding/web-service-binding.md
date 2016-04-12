@@ -17,7 +17,7 @@ position: 3
 Since **Q2 2013** the RadDropDownTree control supports web service binding (WCF and ASMX). By using the **Databindings** settings of the RadDropDownTree control you can set the **ExpandMode** property to *WebService*. You will also need to set the path to the Web service and the name of the service method as specified in the WebServiceSettings' Path and Method properties below:
 
 ````ASPNET
-<telerik:RadDropDownTree ID="RadDropDownTree1" runat="server" DataSourceID="LinqDataSource1"
+<telerik:RadDropDownTree RenderMode="Lightweight" ID="RadDropDownTree1" runat="server" DataSourceID="LinqDataSource1"
     DataTextField="Text" DataValueField="id" Width="280px">
     <databindings>
         <telerik:DropDownNodeBinding Depth="0" ExpandMode="WebService" />

@@ -18,7 +18,7 @@ The **RadTagCloud** fully supports right-to-left (RTL) language locales. The **R
 
 ````ASPNET
 <div dir="rtl">
-	<telerik:RadTagCloud ID="RadTagCloud1" runat="server" Width="400px">
+	<telerik:RadTagCloud RenderMode="Lightweight" ID="RadTagCloud1" runat="server" Width="400px">
 		<Items>
 			<telerik:RadTagCloudItem Text="ASP.NET" Weight="12" />
 			<telerik:RadTagCloudItem Text="AJAX" Weight="134" />

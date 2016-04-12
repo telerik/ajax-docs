@@ -24,7 +24,7 @@ The Playlist feature of **RadMediaPlayer** provides a user-friendly functionalit
 You can define your own custom Playlist by filling the **RadMediaPlayer** Playlist collection. This collection may contain both Audio and Video files. Every media file has properties for setting up its paths, poster, title, start volume, autoplay, etc.
 
 ````ASP.NET
-<telerik:RadMediaPlayer ID="RadMediaPlayer1" runat="server"
+<telerik:RadMediaPlayer RenderMode="Lightweight" ID="RadMediaPlayer1" runat="server"
     Height="360px" Width="640px" Source="">
     <Playlist>
         <telerik:MediaPlayerVideoFile Title="Icenium" Poster="icenium.png">
@@ -46,7 +46,7 @@ You can define your own custom Playlist by filling the **RadMediaPlayer** Playli
 Another way of populating the Playlist collection is by using the YouTube Playlist functionality located under the **RadMediaPlayer.PlaylistSettings**. The only required step is to specify an ID of a YouTube Playlist.
 
 ````ASP.NET
-<telerik:RadMediaPlayer ID="RadMediaPlayer1" runat="server"
+<telerik:RadMediaPlayer RenderMode="Lightweight" ID="RadMediaPlayer1" runat="server"
    Height="360px" Width="640px">
    <PlaylistSettings YouTubePlaylist="PL2563A3577E5B6B9D" />
 </telerik:RadMediaPlayer>
@@ -74,7 +74,7 @@ You can find the Playlist settings within the **RadMediaPlayer.PlaylistSettings*
 RadMediaPlayer automatically generates its Playlist for a source from a third-party provider, namely the Google YouTube, when the **YouTubePlaylist** property is set.
 
 ````ASP.NET
-<telerik:RadMediaPlayer ID="RadMediaPlayer1" runat="server" Width="640px" Height="360px">
+<telerik:RadMediaPlayer RenderMode="Lightweight" ID="RadMediaPlayer1" runat="server" Width="640px" Height="360px">
     <PlaylistSettings YouTubePlaylist="PL2HUH5okl73JFq_QDyqVq9GCZ0Dd9L0OH" />
 </telerik:RadMediaPlayer>
 ````

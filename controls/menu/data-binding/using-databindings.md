@@ -47,7 +47,7 @@ The properties of each item in the collection specify how the **RadMenuItem** pr
 * The **DataMember** property specifies the table from which to map items. This property lets you use different tables from the same **DataSet** to supply values at different levels of the menu.
 
 ````ASP.NET
-<telerik:RadMenu runat="server" ID="RadMenu1" DataSourceID="SqlDataSource1" DataFieldID="id"
+<telerik:RadMenu RenderMode="Lightweight" runat="server" ID="RadMenu1" DataSourceID="SqlDataSource1" DataFieldID="id"
 	DataFieldParentID="parentID">
 	<DataBindings>
 		<telerik:RadMenuItemBinding TextField="Category" />

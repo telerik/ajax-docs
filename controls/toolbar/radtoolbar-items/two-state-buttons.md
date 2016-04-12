@@ -27,7 +27,7 @@ The following example illustrates how to create both types of two-state buttons:
 ![ToolBar Checked Buttons](images/toolbar_checkedbuttons.png)
 
 ````ASPNET
-<telerik:RadToolBar ID="RadToolBar1" runat="server" Skin="Hay">
+<telerik:RadToolBar RenderMode="Lightweight" ID="RadToolBar1" runat="server" Skin="Hay">
     <Items>
         <telerik:RadToolBarButton runat="server" ImageUrl="~/Images/bold.gif" AllowSelfUnCheck="True"
             CheckOnClick="True" />

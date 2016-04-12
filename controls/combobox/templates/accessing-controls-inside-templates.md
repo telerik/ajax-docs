@@ -19,7 +19,7 @@ Here follows the markup:
 ````ASPNET
 <telerik:radcombobox id="RadComboBox1" runat="server">    
 <ItemTemplate>                           
-	<telerik:RadTreeView ID="RadTreeView1" runat="server">            
+	<telerik:RadTreeView RenderMode="Lightweight" ID="RadTreeView1" runat="server">            
 	<Nodes>                
 		<telerik:RadTreeNode Text="Products"></telerik:RadTreeNode>                
 		<telerik:RadTreeNode Text="Services"></telerik:RadTreeNode>            

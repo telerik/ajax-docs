@@ -36,10 +36,10 @@ How to use saving and loading with this example:
 	</PersistenceSettings>
 </telerik:RadPersistenceManager>
 
-<telerik:RadButton ID="SaveButton" runat="server" Text="Save state" OnClick="SaveButton_Click" />
-<telerik:RadButton ID="LoadButton" runat="server" Text="Load state" OnClick="LoadButton_Click" />
+<telerik:RadButton RenderMode="Lightweight" ID="SaveButton" runat="server" Text="Save state" OnClick="SaveButton_Click" />
+<telerik:RadButton RenderMode="Lightweight" ID="LoadButton" runat="server" Text="Load state" OnClick="LoadButton_Click" />
 
-<telerik:RadTileList runat="server" ID="RadTileList1" Width="700px" Height="360px" TileRows="2" SelectionMode="Multiple" EnableDragAndDrop="true">
+<telerik:RadTileList RenderMode="Lightweight" runat="server" ID="RadTileList1" Width="700px" Height="360px" TileRows="2" SelectionMode="Multiple" EnableDragAndDrop="true">
 	<Groups>
 		<telerik:TileGroup>
 			<telerik:RadTextTile ID="RadTextTile1" runat="server" Text="group 1, tile 1" BackColor="Red"></telerik:RadTextTile>
@@ -131,9 +131,9 @@ To **hide tiles** and persist their state you can use **JavaScript** as of **Q1 
 	</PersistenceSettings>
 </telerik:RadPersistenceManager>
 
-<telerik:RadButton ID="SaveButton" runat="server" Text="Save state" OnClick="SaveButton_Click" />
-<telerik:RadButton ID="LoadButton" runat="server" Text="Load state" OnClick="LoadButton_Click" />
-<telerik:RadButton ID="HideTileButton" runat="server" Text="Hide Tile" OnClientClicked="hideTile" AutoPostBack="false" />
+<telerik:RadButton RenderMode="Lightweight" ID="SaveButton" runat="server" Text="Save state" OnClick="SaveButton_Click" />
+<telerik:RadButton RenderMode="Lightweight" ID="LoadButton" runat="server" Text="Load state" OnClick="LoadButton_Click" />
+<telerik:RadButton RenderMode="Lightweight" ID="HideTileButton" runat="server" Text="Hide Tile" OnClientClicked="hideTile" AutoPostBack="false" />
 
 <script>
 	function hideTile() {
@@ -148,7 +148,7 @@ To **hide tiles** and persist their state you can use **JavaScript** as of **Q1 
 	}
 </script>
 
-<telerik:RadTileList runat="server" ID="RadTileList1" Width="700px" Height="360px" TileRows="2" SelectionMode="Multiple" EnableDragAndDrop="true">
+<telerik:RadTileList RenderMode="Lightweight" runat="server" ID="RadTileList1" Width="700px" Height="360px" TileRows="2" SelectionMode="Multiple" EnableDragAndDrop="true">
 	<Groups>
 		<telerik:TileGroup>
 			<telerik:RadTextTile ID="RadTextTile1" runat="server" Text="group 1, tile 1" BackColor="Red"></telerik:RadTextTile>

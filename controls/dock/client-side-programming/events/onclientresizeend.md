@@ -29,7 +29,7 @@ The following example uses the **OnClientResizeEnd** event handler to update a l
 </script>
 <telerik:RadDockLayout ID="RadDockLayout1" runat="server">
 	<telerik:RadDockZone ID="RadDockZone1" runat="server" Height="200px" Width="200px">
-		<telerik:RadDock ID="RadDock1" runat="server" Resizable="true" OnClientResizeEnd="OnClientResizeEnd"
+		<telerik:RadDock RenderMode="Lightweight" ID="RadDock1" runat="server" Resizable="true" OnClientResizeEnd="OnClientResizeEnd"
 			Height="100px" Width="200px" />
 	</telerik:RadDockZone>
 </telerik:RadDockLayout>

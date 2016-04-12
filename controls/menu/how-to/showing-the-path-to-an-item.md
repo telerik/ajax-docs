@@ -17,7 +17,7 @@ position: 10
 Consider the following menu:
 
 ````ASP.NET
-<telerik:RadMenu ID="RadMenu1" runat="server" Skin="Outlook">
+<telerik:RadMenu RenderMode="Lightweight" ID="RadMenu1" runat="server" Skin="Outlook">
     <Items>
         <telerik:RadMenuItem Text="Corporate" NavigateUrl="Default.aspx?Item=Corporate">
             <Items>

@@ -25,7 +25,7 @@ There are two values that can be set with the **TextSettings-SelectionMode** pro
 Either of the two approaches below can be applied:
 
 ````ASPNET
-<telerik:RadAutoCompleteBox runat="server" ID="RadAutoCompleteBox1" InputType="Text">
+<telerik:RadAutoCompleteBox RenderMode="Lightweight" runat="server" ID="RadAutoCompleteBox1" InputType="Text">
 	<TextSettings SelectionMode="Single" />
 </telerik:RadAutoCompleteBox>
 ````
@@ -33,7 +33,7 @@ Either of the two approaches below can be applied:
 
 
 ````ASPNET
-<telerik:RadAutoCompleteBox runat="server" ID="RadAutoCompleteBox1" InputType="Text" TextSettings-SelectionMode="Single">
+<telerik:RadAutoCompleteBox RenderMode="Lightweight" runat="server" ID="RadAutoCompleteBox1" InputType="Text" TextSettings-SelectionMode="Single">
 </telerik:RadAutoCompleteBox>
 ````
 

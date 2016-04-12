@@ -31,7 +31,7 @@ to the following:
 
 ````ASPNET
 
-<telerik:RadPanelBar 
+<telerik:RadPanelBar RenderMode="Lightweight" 
     id="RadPanelBar1" 
     runat="server">  
     <Items>    

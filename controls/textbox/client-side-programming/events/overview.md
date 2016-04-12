@@ -44,7 +44,7 @@ To use these events, simply write a javascript function that can be called when 
 		alert(message);
 	}
 </script>
-<telerik:RadTextBox ID="RadTextBox1" runat="server"
+<telerik:RadTextBox RenderMode="Lightweight" ID="RadTextBox1" runat="server"
 	Skin="Web20">
 	<ClientEvents OnError="OnTextError" />
 </telerik:RadTextBox>

@@ -47,7 +47,7 @@ To use these events, simply write a javascript function that can be called when 
     }
 </script>
 
-<telerik:RadToolBar ID="RadToolBar1" runat="server" Orientation="Horizontal" OnClientButtonClicking="OnClientButtonClicking">
+<telerik:RadToolBar RenderMode="Lightweight" ID="RadToolBar1" runat="server" Orientation="Horizontal" OnClientButtonClicking="OnClientButtonClicking">
     <CollapseAnimation Duration="200" Type="OutQuint" />
     <Items>
         <telerik:RadToolBarButton Text="button1" runat="server">

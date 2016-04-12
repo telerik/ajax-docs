@@ -39,7 +39,7 @@ function OnClientLoad(editor, args) {
 }
 ````
 ````ASP.NET
-<telerik:RadEditor ID="RadEditor1" runat="server" OnClientLoad="OnClientLoad">
+<telerik:RadEditor RenderMode="Lightweight" ID="RadEditor1" runat="server" OnClientLoad="OnClientLoad">
 	<Content>
 		<p>some paragraph</p>
 		<ul>

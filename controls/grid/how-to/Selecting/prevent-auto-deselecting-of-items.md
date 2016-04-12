@@ -17,7 +17,7 @@ By design, simply clicking on a row will select it, but will also deselect any p
 If you prefer to toggle the selected state of the row using single clicks without holding any keys, you can prevent the auto-deselecting using the approach provided below.
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="True" Width="800px"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" AllowPaging="True" Width="800px"
     OnNeedDataSource="RadGrid1_NeedDataSource" AllowMultiRowSelection="true">
     <ClientSettings>
         <Selecting AllowRowSelect="true" UseClientSelectColumnOnly="true" />

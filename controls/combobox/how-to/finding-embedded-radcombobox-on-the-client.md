@@ -26,7 +26,7 @@ Telerik RadComboBox is embedded in Telerik RadMenu and you need to find the clie
 	<Items>                
 		<telerik:RadMenuItem runat="server" Text="Child RadMenuItem 1">                    
 			<ItemTemplate>                        
-				<telerik:RadComboBox ID="RadComboBox1" runat="server">                            
+				<telerik:RadComboBox RenderMode="Lightweight" ID="RadComboBox1" runat="server">                            
 				<Items>                                
 					<telerik:RadComboBoxItem runat="server" Text="RadComboBoxItem1" />                                
 					<telerik:RadComboBoxItem runat="server" Text="RadComboBoxItem2" />                            

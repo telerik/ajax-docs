@@ -21,7 +21,7 @@ position: 2
 ![](images/treeview_webpages.png)
 
 ````ASPNET
-<telerik:RadTreeView ID="RadTreeView1" runat="server" LoadingStatusPosition="BeforeNodeText">
+<telerik:RadTreeView RenderMode="Lightweight" ID="RadTreeView1" runat="server" LoadingStatusPosition="BeforeNodeText">
     <Nodes>
         <telerik:RadTreeNode runat="server" Text="Root Node" ExpandMode="ClientSide">
             <Nodes>

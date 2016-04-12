@@ -31,7 +31,7 @@ The following example showcases how to get a client-side reference to the RadEdi
 ````ASP.NET
 <telerik:RadScriptManager ID="RadScriptManager1" runat="server" />
 
-<telerik:RadEditor ID="RadEditor1" runat="server"></telerik:RadEditor>
+<telerik:RadEditor RenderMode="Lightweight" ID="RadEditor1" runat="server"></telerik:RadEditor>
 
 <script type="text/javascript">
 	Sys.Application.add_load(function () {
@@ -63,7 +63,7 @@ This example demonstrates how add a handler the [OnClientLoad event]({%slug edit
 	}
 </script>
 
-<telerik:RadEditor runat="server" ID="RadEditor1" OnClientLoad="OnClientLoad"></telerik:RadEditor> 
+<telerik:RadEditor RenderMode="Lightweight" runat="server" ID="RadEditor1" OnClientLoad="OnClientLoad"></telerik:RadEditor> 
 ````
 
 

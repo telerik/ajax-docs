@@ -32,7 +32,7 @@ Bind to **SqlDataSource**
 <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>"
 	SelectCommand="SELECT * FROM [Customers] WHERE Country = 'Argentina' OR Country = 'Austria' OR Country = 'Belgium' OR Country = 'Canada' OR Country = 'Denmark' OR Country = 'Finland' OR Country = 'Mexico' OR Country = 'Norway'">
 </asp:SqlDataSource>
-<telerik:RadRotator ID="RadRotator1" runat="server" Width="305px" Height="114px"
+<telerik:RadRotator RenderMode="Lightweight" ID="RadRotator1" runat="server" Width="305px" Height="114px"
 	ScrollDuration="500" FrameDuration="2000" ItemHeight="110" ItemWidth="100" DataSourceID="SqlDataSource1">
 	<ItemTemplate>
 		<asp:Image ID="CustomerImage" runat="server" ImageAlign="Left" ImageUrl='<%# String.Format("~/Img/Northwind/Customers/Thumbs/{0}.jpg", DataBinder.Eval(Container.DataItem, "CustomerID")) %>' />
@@ -43,7 +43,7 @@ Bind to **SqlDataSource**
 Bind to **XmlDataSource**
 
 ````ASP.NET
-<telerik:RadRotator ID="RadRotator1" RotatorType="AutomaticAdvance" ScrollDirection="Up"
+<telerik:RadRotator RenderMode="Lightweight" ID="RadRotator1" RotatorType="AutomaticAdvance" ScrollDirection="Up"
 	ScrollDuration="2000" runat="server" DataSourceID="XmlDataSource1" Width="500"
 	Height="200" FrameDuration="0">
 	<ItemTemplate>
@@ -71,7 +71,7 @@ Both rotators from the screenshot below are bound to this data source
 ![RotatorDeclarativeDataBinding](images/rotator-declarative_data_binding.png)
 
 ````ASP.NET
-<telerik:RadRotator ID="RadRotator1" runat="server" DataSourceID="AccessDataSource1"
+<telerik:RadRotator RenderMode="Lightweight" ID="RadRotator1" runat="server" DataSourceID="AccessDataSource1"
 	Width="300px" Height="114px" ScrollDirection="Right" RotatorType="AutomaticAdvance">
 	<ItemTemplate>
 		<div style="width: 300px; height: 110px;">
@@ -101,7 +101,7 @@ Both rotators from the screenshot below are bound to this data source
 ````
 
 ````ASP.NET
-<telerik:RadRotator ID="RadRotator2" runat="server" DataSourceID="AccessDataSource1"
+<telerik:RadRotator RenderMode="Lightweight" ID="RadRotator2" runat="server" DataSourceID="AccessDataSource1"
 	RotatorType="AutomaticAdvance" Width="104px" Height="144px" ScrollDirection="Down">
 	<ItemTemplate>
 		<asp:Image runat="server" ID="Image" ImageUrl='<%# String.Format("~/Rotator/Img/Northwind/Customers/Thumbs/{0}.jpg", DataBinder.Eval(Container.DataItem, "CustomerID")) %>'

@@ -21,7 +21,7 @@ The code in **Example 1** shows how to use the [OnClientTileClicking]({%slug til
 **Example 1**: Select a tile with left click inside a **RadTileList**.
 
 ````ASP.NET
-<telerik:RadTileList runat="server" ID="RadTileList1" OnClientTileClicking="toggleTileSelection"
+<telerik:RadTileList RenderMode="Lightweight" runat="server" ID="RadTileList1" OnClientTileClicking="toggleTileSelection"
 	SelectionMode="Multiple">
 	<Groups>
 		<telerik:TileGroup>

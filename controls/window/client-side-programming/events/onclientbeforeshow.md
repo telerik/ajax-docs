@@ -28,7 +28,7 @@ The event handler receives the following arguments:
 
 ````ASP.NET
 <asp:Button ID="Button1" Text="show the dialog" runat="server" />
-<telerik:RadWindow runat="server" ID="RadWindow1" OnClientBeforeShow="OnClientBeforeShowHandler" OpenerElementId="Button1"></telerik:RadWindow>
+<telerik:RadWindow RenderMode="Lightweight" runat="server" ID="RadWindow1" OnClientBeforeShow="OnClientBeforeShowHandler" OpenerElementId="Button1"></telerik:RadWindow>
 <script type="text/javascript">
 	function OnClientBeforeShowHandler(sender, args) {
 		var shouldShow = confirm("Should this dialog show up?");

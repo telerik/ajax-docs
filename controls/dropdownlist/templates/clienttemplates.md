@@ -33,7 +33,7 @@ The template contains mark up and binding expressions which are evaluated agains
 On the server the template will be presented as a string property of the control, named **ClientItemTemplate**. Below a static and dynamic definition of a client template is shown
 
 ````ASPNET
-<telerik:RadDropDownList ID="RadDropDownList1" runat="server">           
+<telerik:RadDropDownList RenderMode="Lightweight" ID="RadDropDownList1" runat="server">           
 	<ClientItemTemplate>
 		<div class="customClass">
 			<img src="#= ImagePath #" alt="Picture" />
@@ -99,7 +99,7 @@ Sample code for the usage of the method is demonstrated below.
 * Adding item and then binding the Control’s template to it:
 
 ````ASPNET
-<telerik:RadDropDownList ID="RadDropDownList1" runat="server">
+<telerik:RadDropDownList RenderMode="Lightweight" ID="RadDropDownList1" runat="server">
 	<ClientItemTemplate>
 		Template text: #= Text #
 	</ClientItemTemplate>
@@ -144,7 +144,7 @@ item.bindTemplate();
 * Bind the client template to an item rendered on the server:
 
 ````ASPNET
-<telerik:RadDropDownList ID="RadDropDownList1" runat="server">
+<telerik:RadDropDownList RenderMode="Lightweight" ID="RadDropDownList1" runat="server">
 	<Items>
 		<telerik:DropDownListItem Text="Item" />
 	</Items>

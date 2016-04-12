@@ -36,7 +36,7 @@ Before you can bind the **RadDataForm**, you need to add a **DataSource** contro
 After you set the **DataSourceID** property to point to the **DataSource** created in the previous step, the markup will look like below.
 
 ````ASPNET
-<telerik:RadDataForm runat="server" ID="RadDataForm1" DataSourceID="SqlDataSource1" DataKeyNames="CustomerID">
+<telerik:RadDataForm RenderMode="Lightweight" runat="server" ID="RadDataForm1" DataSourceID="SqlDataSource1" DataKeyNames="CustomerID">
 </telerik:RadDataForm>
 ````
 
@@ -47,7 +47,7 @@ After you set the **DataSourceID** property to point to the **DataSource** creat
 In order to define how the data will look, you need to configure the templates of the control. You can do this manually or via the **Configuration Wizard**. The complete markup for **RadDataForm** with the templates will look similar to the one below.
 
 ````ASPNET
-<telerik:RadDataForm runat="server" ID="RadDataForm2" DataSourceID="SqlDataSource1" DataKeyNames="CustomerID">
+<telerik:RadDataForm RenderMode="Lightweight" runat="server" ID="RadDataForm2" DataSourceID="SqlDataSource1" DataKeyNames="CustomerID">
     <LayoutTemplate>
         <div class="RadDataForm RadDataForm_<%# Container.Skin %> rdfLeftAligned rdfNoFieldHint rdfNoFieldHint">
             <div runat="server" id="itemPlaceholder"></div>
@@ -79,9 +79,9 @@ In order to define how the data will look, you need to configure the templates o
             </div>
             <div class="rdfCommandButtons">
                 <hr class="rdfHr" />
-                <telerik:RadButton runat="server" ButtonType="SkinnedButton" CommandName="InitInsert" Text="Insert" ID="InitInsertButton" ToolTip="Insert" CausesValidation="False" />
-                <telerik:RadButton runat="server" ButtonType="SkinnedButton" CommandName="Edit" Text="Edit" ID="EditButton" ToolTip="Edit" CausesValidation="False" />
-                <telerik:RadButton runat="server" ButtonType="SkinnedButton" CommandName="Delete" Text="Delete" ID="DeleteButton" ToolTip="Delete" CausesValidation="False" />
+                <telerik:RadButton RenderMode="Lightweight" runat="server" ButtonType="SkinnedButton" CommandName="InitInsert" Text="Insert" ID="InitInsertButton" ToolTip="Insert" CausesValidation="False" />
+                <telerik:RadButton RenderMode="Lightweight" runat="server" ButtonType="SkinnedButton" CommandName="Edit" Text="Edit" ID="EditButton" ToolTip="Edit" CausesValidation="False" />
+                <telerik:RadButton RenderMode="Lightweight" runat="server" ButtonType="SkinnedButton" CommandName="Delete" Text="Delete" ID="DeleteButton" ToolTip="Delete" CausesValidation="False" />
             </div>
         </fieldset>
     </ItemTemplate>
@@ -92,18 +92,18 @@ In order to define how the data will look, you need to configure the templates o
                 <asp:Label runat="server" ID="Label1" CssClass="rdfLabel" Text="CustomerID"></asp:Label><asp:Label CssClass="rdfFieldValue" Text='<%# Eval("CustomerID") %>' runat="server" ID="Label2" />
             </div>
             <div class="rdfRow">
-                <asp:Label runat="server" ID="Label3" CssClass="rdfLabel" Text="CompanyName" AssociatedControlID="CompanyNameTextBox"></asp:Label><telerik:RadTextBox WrapperCssClass="rdfInput" Text='<%# Bind("CompanyName") %>' runat="server" ID="CompanyNameTextBox" />
+                <asp:Label runat="server" ID="Label3" CssClass="rdfLabel" Text="CompanyName" AssociatedControlID="CompanyNameTextBox"></asp:Label><telerik:RadTextBox RenderMode="Lightweight" WrapperCssClass="rdfInput" Text='<%# Bind("CompanyName") %>' runat="server" ID="CompanyNameTextBox" />
             </div>
             <div class="rdfRow">
-                <asp:Label runat="server" ID="Label4" CssClass="rdfLabel" Text="ContactName" AssociatedControlID="ContactNameTextBox"></asp:Label><telerik:RadTextBox WrapperCssClass="rdfInput" Text='<%# Bind("ContactName") %>' runat="server" ID="ContactNameTextBox" />
+                <asp:Label runat="server" ID="Label4" CssClass="rdfLabel" Text="ContactName" AssociatedControlID="ContactNameTextBox"></asp:Label><telerik:RadTextBox RenderMode="Lightweight" WrapperCssClass="rdfInput" Text='<%# Bind("ContactName") %>' runat="server" ID="ContactNameTextBox" />
             </div>
             <div class="rdfRow">
-                <asp:Label runat="server" ID="Label5" CssClass="rdfLabel" Text="ContactTitle" AssociatedControlID="ContactTitleTextBox"></asp:Label><telerik:RadTextBox WrapperCssClass="rdfInput" Text='<%# Bind("ContactTitle") %>' runat="server" ID="ContactTitleTextBox" />
+                <asp:Label runat="server" ID="Label5" CssClass="rdfLabel" Text="ContactTitle" AssociatedControlID="ContactTitleTextBox"></asp:Label><telerik:RadTextBox RenderMode="Lightweight" WrapperCssClass="rdfInput" Text='<%# Bind("ContactTitle") %>' runat="server" ID="ContactTitleTextBox" />
             </div>
             <div class="rdfCommandButtons">
                 <hr class="rdfHr" />
-                <telerik:RadButton runat="server" ButtonType="SkinnedButton" CommandName="Update" Text="Update" ID="UpdateButton" ToolTip="Update" />
-                <telerik:RadButton runat="server" ButtonType="SkinnedButton" CommandName="Cancel" Text="Cancel" ID="CancelButton" ToolTip="Cancel" CausesValidation="False" />
+                <telerik:RadButton RenderMode="Lightweight" runat="server" ButtonType="SkinnedButton" CommandName="Update" Text="Update" ID="UpdateButton" ToolTip="Update" />
+                <telerik:RadButton RenderMode="Lightweight" runat="server" ButtonType="SkinnedButton" CommandName="Cancel" Text="Cancel" ID="CancelButton" ToolTip="Cancel" CausesValidation="False" />
 
             </div>
         </fieldset>
@@ -112,21 +112,21 @@ In order to define how the data will look, you need to configure the templates o
         <fieldset class="rdfFieldset rdfBorders">
             <legend class="rdfLegend">Insert</legend>
             <div class="rdfRow">
-                <asp:Label runat="server" ID="Label6" CssClass="rdfLabel" Text="CustomerID"></asp:Label><telerik:RadTextBox WrapperCssClass="rdfInput" Text='<%# Bind("CustomerID") %>' runat="server" ID="CustomerIDTextBox" />
+                <asp:Label runat="server" ID="Label6" CssClass="rdfLabel" Text="CustomerID"></asp:Label><telerik:RadTextBox RenderMode="Lightweight" WrapperCssClass="rdfInput" Text='<%# Bind("CustomerID") %>' runat="server" ID="CustomerIDTextBox" />
             </div>
             <div class="rdfRow">
-                <asp:Label runat="server" ID="Label7" CssClass="rdfLabel" Text="CompanyName" AssociatedControlID="CompanyNameTextBox"></asp:Label><telerik:RadTextBox WrapperCssClass="rdfInput" Text='<%# Bind("CompanyName") %>' runat="server" ID="RadTextBox1" />
+                <asp:Label runat="server" ID="Label7" CssClass="rdfLabel" Text="CompanyName" AssociatedControlID="CompanyNameTextBox"></asp:Label><telerik:RadTextBox RenderMode="Lightweight" WrapperCssClass="rdfInput" Text='<%# Bind("CompanyName") %>' runat="server" ID="RadTextBox1" />
             </div>
             <div class="rdfRow">
-                <asp:Label runat="server" ID="Label8" CssClass="rdfLabel" Text="ContactName" AssociatedControlID="ContactNameTextBox"></asp:Label><telerik:RadTextBox WrapperCssClass="rdfInput" Text='<%# Bind("ContactName") %>' runat="server" ID="RadTextBox2" />
+                <asp:Label runat="server" ID="Label8" CssClass="rdfLabel" Text="ContactName" AssociatedControlID="ContactNameTextBox"></asp:Label><telerik:RadTextBox RenderMode="Lightweight" WrapperCssClass="rdfInput" Text='<%# Bind("ContactName") %>' runat="server" ID="RadTextBox2" />
             </div>
             <div class="rdfRow">
-                <asp:Label runat="server" ID="Label9" CssClass="rdfLabel" Text="ContactTitle" AssociatedControlID="ContactTitleTextBox"></asp:Label><telerik:RadTextBox WrapperCssClass="rdfInput" Text='<%# Bind("ContactTitle") %>' runat="server" ID="RadTextBox3" />
+                <asp:Label runat="server" ID="Label9" CssClass="rdfLabel" Text="ContactTitle" AssociatedControlID="ContactTitleTextBox"></asp:Label><telerik:RadTextBox RenderMode="Lightweight" WrapperCssClass="rdfInput" Text='<%# Bind("ContactTitle") %>' runat="server" ID="RadTextBox3" />
             </div>
             <div class="rdfCommandButtons">
                 <hr class="rdfHr" />
-                <telerik:RadButton runat="server" ButtonType="SkinnedButton" CommandName="PerformInsert" Text="Insert" ID="PerformInsertButton" ToolTip="Insert" />
-                <telerik:RadButton runat="server" ButtonType="SkinnedButton" CommandName="Cancel" Text="Cancel" ID="RadButton1" ToolTip="Cancel" CausesValidation="False" />
+                <telerik:RadButton RenderMode="Lightweight" runat="server" ButtonType="SkinnedButton" CommandName="PerformInsert" Text="Insert" ID="PerformInsertButton" ToolTip="Insert" />
+                <telerik:RadButton RenderMode="Lightweight" runat="server" ButtonType="SkinnedButton" CommandName="Cancel" Text="Cancel" ID="RadButton1" ToolTip="Cancel" CausesValidation="False" />
             </div>
         </fieldset>
     </InsertItemTemplate>

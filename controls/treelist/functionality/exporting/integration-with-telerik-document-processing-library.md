@@ -203,7 +203,7 @@ After following all these steps you will get the following example that presents
 <telerik:RadScriptManager ID="RadScriptManager2" runat="server">  
 </telerik:RadScriptManager>
 <asp:Button ID="Button2" runat="server" Text="XLSX" OnClick="Button2_Click" />
-<telerik:RadTreeList ID="RadTreeList1" runat="server" OnNeedDataSource="RadTreeList1_NeedDataSource" AllowPaging="true" ParentDataKeyNames="ParentIndex" DataKeyNames="Index">
+<telerik:RadTreeList RenderMode="Lightweight" ID="RadTreeList1" runat="server" OnNeedDataSource="RadTreeList1_NeedDataSource" AllowPaging="true" ParentDataKeyNames="ParentIndex" DataKeyNames="Index">
 	<ExportSettings IgnorePaging="true"></ExportSettings>
 </telerik:RadTreeList>
 ````
@@ -609,7 +609,7 @@ After following all these steps you will get the following example that presents
 <telerik:RadScriptManager ID="RadScriptManager3" runat="server">  
 </telerik:RadScriptManager>
 <asp:Button ID="Button1" runat="server" Text="DOCX" OnClick="Button1_Click" />
-<telerik:RadTreeList ID="RadTreeList2" runat="server" OnNeedDataSource="RadTreeList1_NeedDataSource" AllowPaging="true" ParentDataKeyNames="ParentIndex" DataKeyNames="Index">
+<telerik:RadTreeList RenderMode="Lightweight" ID="RadTreeList2" runat="server" OnNeedDataSource="RadTreeList1_NeedDataSource" AllowPaging="true" ParentDataKeyNames="ParentIndex" DataKeyNames="Index">
 	<ExportSettings IgnorePaging="true"></ExportSettings>
 </telerik:RadTreeList>
 ````

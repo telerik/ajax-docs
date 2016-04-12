@@ -18,7 +18,7 @@ position: 3
 In the ASP.NET declaration of your **RadTabStrip** object, you can add custom attributes to tabs by simply adding Name="value" to the **RadTab** declaration. For example, the following **RadTabStrip** definition adds two custom attributes named "state" and "labelName" to its tabs:
 
 ````ASPNET
-<telerik:RadTabStrip ID="RadTabStrip1" runat="server" MultiPageID="RadMultiPage1" OnTabClick="RadTabStrip1_TabClick1" OnClientTabSelected="VisitTab">
+<telerik:RadTabStrip RenderMode="Lightweight" ID="RadTabStrip1" runat="server" MultiPageID="RadMultiPage1" OnTabClick="RadTabStrip1_TabClick1" OnClientTabSelected="VisitTab">
   <Tabs>
     <telerik:RadTab runat="server" Text="Tab1" State="unvisited" labelName="Label1">
     </telerik:RadTab>

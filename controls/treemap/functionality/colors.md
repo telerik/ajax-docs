@@ -22,7 +22,7 @@ In the example bellow, you could examine how several colors are assigned to the 
 
 
 ````ASPNET
-<telerik:RadTreeMap runat="server" ID="TreeMap1"  Height="250" Width="400" AlgorithmType="Horizontal">
+<telerik:RadTreeMap RenderMode="Lightweight" runat="server" ID="TreeMap1"  Height="250" Width="400" AlgorithmType="Horizontal">
     <Items>
         <telerik:TreeMapItem Text="Parent Item">
             <Items>

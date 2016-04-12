@@ -34,14 +34,14 @@ The following table describes all RadFilter query providers:
 In order to get the expression tree built by the RadFilter control, you can use the *ApplyFilterExpressions* event. The following example demonstrates how to get the built expression for a RadListBox bound to LinqDataSource and display it in a label:
 
 ````ASPNET
-<telerik:RadFilter runat="server" ID="RadFilter1" DataSourceControlID="LinqDataSourceCategories"
+<telerik:RadFilter RenderMode="Lightweight" runat="server" ID="RadFilter1" DataSourceControlID="LinqDataSourceCategories"
     OnApplyExpressions="RadFilter1_ApplyExpressions">
 </telerik:RadFilter>
 <br />
 <asp:LinqDataSource ID="LinqDataSourceCategories" runat="server" ContextTypeName="LinqToSql.NorthwindDataContext"
     TableName="Categories">
 </asp:LinqDataSource>
-<telerik:RadListBox runat="server" ID="RadListBox1" DataSourceID="LinqDataSourceCategories"
+<telerik:RadListBox RenderMode="Lightweight" runat="server" ID="RadListBox1" DataSourceID="LinqDataSourceCategories"
     Height="200px" Width="250px">
     <EmptyMessageTemplate>
         No records to display.
@@ -81,7 +81,7 @@ End Sub
 Below is demonstrated how you could replace any **EqualTo** and **NotEqualTo** respectevely with **Between** and **NotBetween** functions when filtering by date. The approach allows you to include all hours for the selected date as by default if you filter by a date only dates which time is set to 12:00 PM will be included in the result.
 
 ````ASPNET
-<telerik:RadFilter runat="server" ID="RadFilter1"
+<telerik:RadFilter RenderMode="Lightweight" runat="server" ID="RadFilter1"
     ExpressionPreviewPosition="Bottom"
     OnExpressionItemCreated="RadFilter1_ExpressionItemCreated"
     OnApplyExpressions="RadFilter1_ApplyExpressions">
@@ -92,7 +92,7 @@ Below is demonstrated how you could replace any **EqualTo** and **NotEqualTo** r
     </FieldEditors>
 </telerik:RadFilter>
 
-<telerik:RadGrid ID="RadGrid1" AllowPaging="true" AllowSorting="true" PageSize="5"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" AllowPaging="true" AllowSorting="true" PageSize="5"
     runat="server" EnableLinqExpressions="false" OnNeedDataSource="RadGrid1_NeedDataSource">
 </telerik:RadGrid>
 ````

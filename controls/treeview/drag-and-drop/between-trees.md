@@ -25,7 +25,7 @@ In the example below, both **RadTreeViews** have their **EnableDragAndDrop** pro
 ![RadTreeView Drag and Drop Between Trees](images/treeview_draganddropbetweentreespng.png)
 
 ````ASPNET
-<telerik:RadTreeView ID="RadTreeView1" runat="server" EnableDragAndDrop="true" OnNodeDrop="RadTreeView1_NodeDrop"
+<telerik:RadTreeView RenderMode="Lightweight" ID="RadTreeView1" runat="server" EnableDragAndDrop="true" OnNodeDrop="RadTreeView1_NodeDrop"
     Skin="Vista">
     <Nodes>
         <telerik:RadTreeNode runat="server" Text="Root RadTreeNode1" ExpandMode="ClientSide">
@@ -53,7 +53,7 @@ In the example below, both **RadTreeViews** have their **EnableDragAndDrop** pro
     </Nodes>
 </telerik:RadTreeView>
 <br />
-<telerik:RadTreeView ID="RadTreeView2" runat="server" EnableDragAndDrop="true" OnNodeDrop="RadTreeView1_NodeDrop"
+<telerik:RadTreeView RenderMode="Lightweight" ID="RadTreeView2" runat="server" EnableDragAndDrop="true" OnNodeDrop="RadTreeView1_NodeDrop"
     Skin="Vista">
     <Nodes>
         <telerik:RadTreeNode runat="server" ExpandMode="ClientSide" Text="Tree 2 Node 1">

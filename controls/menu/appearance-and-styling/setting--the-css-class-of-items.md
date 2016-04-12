@@ -65,7 +65,7 @@ You can use a small CSS class with the **white-space:normal** attribute to chang
 1. Set the **CssClass** property of any items with long text to your new class:
 
 ````ASP.NET
-<telerik:RadMenu ID="RadMenu1" runat="server" Flow="Horizontal">
+<telerik:RadMenu RenderMode="Lightweight" ID="RadMenu1" runat="server" Flow="Horizontal">
     <Items>
         <telerik:RadMenuItem runat="server" ExpandMode="ClientSide" Text="Root Item 1">
             <GroupSettings ExpandDirection="Auto" Flow="Vertical" />
@@ -124,7 +124,7 @@ This continues the previous example to show how to change the appearance of item
 1. Set the **ExpandedCssClass** property of all root level items to the new CSS class:
 
 ````ASP.NET
-<telerik:RadMenu ID="RadMenu1" runat="server" Flow="Horizontal">
+<telerik:RadMenu RenderMode="Lightweight" ID="RadMenu1" runat="server" Flow="Horizontal">
     <Items>
         <telerik:RadMenuItem runat="server" ExpandMode="ClientSide" Text="Root Item 1" ExpandedCssClass="RedItem">
             <Items>

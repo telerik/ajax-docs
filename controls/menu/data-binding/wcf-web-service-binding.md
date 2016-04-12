@@ -130,7 +130,7 @@ Here is the menu declaration:
 	<asp:ListItem>Silverlight</asp:ListItem>
 	<asp:ListItem>Winforms</asp:ListItem>
 </asp:RadioButtonList>
-<telerik:RadMenu ID="RadMenu1" OnClientItemPopulating="OnClientItemPopulatingHandler"
+<telerik:RadMenu RenderMode="Lightweight" ID="RadMenu1" OnClientItemPopulating="OnClientItemPopulatingHandler"
 	OnClientItemPopulated="OnClientItemPopulatedHandler" runat="server">
 	<Items>
 		<telerik:RadMenuItem Text="Products" ExpandMode="WebService">

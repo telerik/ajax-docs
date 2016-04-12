@@ -25,7 +25,7 @@ UI controls rely on a complex HTML markup structure to create the layout expecte
 	td { padding: 10px; }
 	li { margin: 5px; }
 </style>
-<telerik:RadWindow ID="RadWindow1" runat="server" VisibleOnPageLoad="true" Skin="Black">
+<telerik:RadWindow RenderMode="Lightweight" ID="RadWindow1" runat="server" VisibleOnPageLoad="true" Skin="Black">
 </telerik:RadWindow>
 ````
 

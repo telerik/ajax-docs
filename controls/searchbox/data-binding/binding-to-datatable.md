@@ -19,7 +19,7 @@ position: 2
 The declaration of **RadSearchBox** in the markup does not include **DataSourceID** property.
 
 ````ASPNET
-<telerik:RadSearchBox runat="server" ID="RadSearchBox1" >
+<telerik:RadSearchBox RenderMode="Lightweight" runat="server" ID="RadSearchBox1" >
 	<DropDownSettings Height="400" Width="300" />
 </telerik:RadSearchBox>
 ````

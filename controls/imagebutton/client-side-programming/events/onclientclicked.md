@@ -54,7 +54,7 @@ This event should be used in scenarios where the user needs to execute custom cl
 <telerik:RadImageButton id="RadImageButton1" runat="server" text="Open Window" OnClientClicked="OpenWindow"
 	ValidationGroup="UrlVG" AutoPostback="false">
 </telerik:RadImageButton>
-<telerik:RadWindow id="RadWindow1" runat="server">
+<telerik:RadWindow RenderMode="Lightweight" id="RadWindow1" runat="server">
 </telerik:RadWindow>
 ````
 

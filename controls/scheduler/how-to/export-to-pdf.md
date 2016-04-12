@@ -18,7 +18,7 @@ To export the scheduler content to PDF format simply use the**ExportToPdf()**ser
 
 ````ASPNET
 	 
-	 <telerik:RadButton ID="RadButton1" runat="server" Text="Export to PDF" OnClick="RadButton1_Click">
+	 <telerik:RadButton RenderMode="Lightweight" ID="RadButton1" runat="server" Text="Export to PDF" OnClick="RadButton1_Click">
 	 </telerik:RadButton>
 	
 	

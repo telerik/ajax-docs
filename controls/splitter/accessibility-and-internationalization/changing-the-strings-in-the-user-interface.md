@@ -31,7 +31,7 @@ The **CollapseExpandPanelText** property lets you change the tool tip that appea
 The following example shows a **RadSplitter** control with the text of the tool tips changed:
 
 ````ASP.NET	 
-<telerik:RadSplitter runat="server" id="RadSplitter1" width="90%" height="90%">
+<telerik:RadSplitter RenderMode="Lightweight" runat="server" id="RadSplitter1" width="90%" height="90%">
  <telerik:RadPane runat="server" id="SlidingZonePane" Height="75">
  <telerik:RadSlidingZone runat="server" id="RadSlidingZone1">
    <telerik:RadSlidingPane

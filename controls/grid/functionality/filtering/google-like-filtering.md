@@ -55,7 +55,7 @@ In addition, there is **Clear filter** button on the page which restores the ini
           </telerik:AjaxSetting>
       </AjaxSettings>
   </telerik:RadAjaxManager>
-  <telerik:RadGrid ID="RadGrid1" AutoGenerateColumns="false" AllowPaging="true" AllowSorting="true"
+  <telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" AutoGenerateColumns="false" AllowPaging="true" AllowSorting="true"
       AllowFilteringByColumn="true" Width="560px" Skin="Office2007" runat="server"
       OnColumnCreating="RadGrid1_ColumnCreating" OnItemCommand="RadGrid1_ItemCommand"
       OnNeedDataSource="RadGrid1_NeedDataSource">

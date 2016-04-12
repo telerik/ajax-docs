@@ -15,7 +15,7 @@ position: 0
 **RadPivotGrid** offers three options for setting its row table layout, so that it better fits the requirements for displaying data	of a given scenario. To choose which layout your pivot grid should use, set the **RowTableLayout** property	of the control to one of the listed values:	**Compact**, **Outline** or **Tabular**.
 
 ````ASPNET
-<telerik:RadPivotGrid ID="RadPivotGrid1" runat="server" DataSourceID="SqlDataSource1" Skin="Metro" RowTableLayout="Compact">
+<telerik:RadPivotGrid RenderMode="Lightweight" ID="RadPivotGrid1" runat="server" DataSourceID="SqlDataSource1" Skin="Metro" RowTableLayout="Compact">
 ````			
 
 

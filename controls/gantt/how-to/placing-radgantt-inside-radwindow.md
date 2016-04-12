@@ -25,11 +25,11 @@ If you place **RadGantt** inside a **RadWindow** and set its width and height to
 }
 ````
 ````ASPNET
-<telerik:RadWindow ID="RadWindow1" runat="server" VisibleOnPageLoad="true"
+<telerik:RadWindow RenderMode="Lightweight" ID="RadWindow1" runat="server" VisibleOnPageLoad="true"
      Height="700" Width="1000" OnClientShow="OnClientShow">
     <ContentTemplate>
         <div class="gantt-container">
-            <telerik:RadGantt ID="RadGantt1" runat="server" Width="100%" 
+            <telerik:RadGantt RenderMode="Lightweight" ID="RadGantt1" runat="server" Width="100%" 
                 Height="100%" Skin="Default" ShowFullTime="true">
             </telerik:RadGantt>
         </div>

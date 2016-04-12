@@ -56,7 +56,7 @@ Here is a sample RadSkinManager definition which will apply **Web20** skin for a
         </TargetControls>
     </telerik:RadSkinManager>
 </div>
-<telerik:RadComboBox ID="RadComboBox1" runat="server">
+<telerik:RadComboBox RenderMode="Lightweight" ID="RadComboBox1" runat="server">
     <Items>
         <telerik:RadComboBoxItem runat="server" Text="RadComboBoxItem1" Value="RadComboBoxItem1" />
         <telerik:RadComboBoxItem runat="server" Text="RadComboBoxItem2" Value="RadComboBoxItem2" />
@@ -64,7 +64,7 @@ Here is a sample RadSkinManager definition which will apply **Web20** skin for a
     </Items>
     <CollapseAnimation Type="OutQuint" Duration="200"></CollapseAnimation>
 </telerik:RadComboBox>
-<telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1" AllowSorting="True"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1" AllowSorting="True"
     Skin="Office2007" ShowStatusBar="true" GridLines="None" Width="95%">
     <MasterTableView Width="100%" AllowMultiColumnSorting="true" />
     <SortingSettings SortedBackColor="Azure" />
@@ -73,14 +73,14 @@ Here is a sample RadSkinManager definition which will apply **Web20** skin for a
 <asp:SqlDataSource ID="SqlDataSource1" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
     ProviderName="System.Data.SqlClient" SelectCommand="SELECT TOP 10 CustomerID, CompanyName, ContactName, ContactTitle, Address, PostalCode FROM Customers"
     runat="server"></asp:SqlDataSource>
-<telerik:RadEditor ID="RadEditor1" runat="server" />
-<telerik:RadCalendar ID="RadCalendar1" runat="server">
+<telerik:RadEditor RenderMode="Lightweight" ID="RadEditor1" runat="server" />
+<telerik:RadCalendar RenderMode="Lightweight" ID="RadCalendar1" runat="server">
 </telerik:RadCalendar>
-<telerik:RadDatePicker ID="RadDatePicker1" runat="server">
+<telerik:RadDatePicker RenderMode="Lightweight" ID="RadDatePicker1" runat="server">
 </telerik:RadDatePicker>
-<telerik:RadNumericTextBox ID="RadNumericTextBox1" runat="server">
+<telerik:RadNumericTextBox RenderMode="Lightweight" ID="RadNumericTextBox1" runat="server">
 </telerik:RadNumericTextBox>
-<telerik:RadTreeView ID="RadTreeView1" runat="server">
+<telerik:RadTreeView RenderMode="Lightweight" ID="RadTreeView1" runat="server">
     <Nodes>
         <telerik:RadTreeNode runat="server" Text="Root RadTreeNode1">
             <Nodes>
@@ -104,7 +104,7 @@ Here is a sample RadSkinManager definition which will apply **Web20** skin for a
     <CollapseAnimation Type="OutQuint" Duration="100"></CollapseAnimation>
     <ExpandAnimation Duration="100"></ExpandAnimation>
 </telerik:RadTreeView>
-<telerik:RadMenu ID="RadMenu1" runat="server">
+<telerik:RadMenu RenderMode="Lightweight" ID="RadMenu1" runat="server">
     <CollapseAnimation Type="OutQuint" Duration="200"></CollapseAnimation>
     <Items>
         <telerik:RadMenuItem runat="server" Text="Root RadMenuItem1">
@@ -115,7 +115,7 @@ Here is a sample RadSkinManager definition which will apply **Web20** skin for a
         </telerik:RadMenuItem>
     </Items>
 </telerik:RadMenu>
-<telerik:RadTabStrip ID="RadTabStrip1" runat="server">
+<telerik:RadTabStrip RenderMode="Lightweight" ID="RadTabStrip1" runat="server">
     <Tabs>
         <telerik:RadTab runat="server" Text="Root RadTab1">
         </telerik:RadTab>
@@ -125,7 +125,7 @@ Here is a sample RadSkinManager definition which will apply **Web20** skin for a
         </telerik:RadTab>
     </Tabs>
 </telerik:RadTabStrip>
-<telerik:RadPanelBar ID="RadPanelBar1" runat="server">
+<telerik:RadPanelBar RenderMode="Lightweight" ID="RadPanelBar1" runat="server">
     <CollapseAnimation Type="None" Duration="100"></CollapseAnimation>
     <Items>
         <telerik:RadPanelItem runat="server" Text="Root RadPanelItem1">

@@ -58,7 +58,7 @@ For a data-bound scenario you can use the `SelectedToggleStateIndex` of the cont
 >caption Example 3: Databind the selected state of a RadToggleButton.
 
 ````ASP.NET
-<telerik:RadGrid runat="server" ID="RadGrid1" Width="150px">
+<telerik:RadGrid RenderMode="Lightweight" runat="server" ID="RadGrid1" Width="150px">
 	<MasterTableView AutoGenerateColumns="false">
 		<Columns>
 			<telerik:GridTemplateColumn DataField="SelectToggleStateField" HeaderText="SelectToggleStateField">

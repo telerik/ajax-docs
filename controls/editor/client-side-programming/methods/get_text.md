@@ -29,7 +29,7 @@ The table below shows more details about their purpose:
 The example below demonstrates how to obtain the RadEditor's content as plain text and alert it:
 
 ````ASP.NET
-<telerik:RadEditor runat="server" ID="RadEditor1">
+<telerik:RadEditor RenderMode="Lightweight" runat="server" ID="RadEditor1">
 	<Content>        
 		<b>Here is sample content!</b>    
 	</Content>

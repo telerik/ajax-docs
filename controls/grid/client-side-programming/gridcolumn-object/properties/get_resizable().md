@@ -17,7 +17,7 @@ position: 5
 Returns a Boolean value indicating whether a column is resizable in case column resizing is enabled on the server.
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="True"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" AllowPaging="True"
     OnNeedDataSource="RadGrid1_NeedDataSource">
     <MasterTableView DataKeyNames="OrderID">
     </MasterTableView>

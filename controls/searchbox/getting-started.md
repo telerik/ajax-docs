@@ -37,7 +37,7 @@ position: 1
 The following code demonstrates the RadSearchBox's markup in Source mode:
 
 ````ASPNET
-<telerik:RadSearchBox runat="server" ID="RadSearchBox1"  />
+<telerik:RadSearchBox RenderMode="Lightweight" runat="server" ID="RadSearchBox1"  />
 </telerik:RadSearchBox>
 ````
 

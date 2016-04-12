@@ -29,7 +29,7 @@ The event handler receives two arguments:
 The following example uses the **OnCalendarViewChanged** event to display an alert:
 
 ````ASPNET
-<telerik:RadCalendar ID="RadCalendar1" runat="server">
+<telerik:RadCalendar RenderMode="Lightweight" ID="RadCalendar1" runat="server">
  <ClientEvents OnCalendarViewChanged="viewChanged" />
 </telerik:RadCalendar>		
 ````

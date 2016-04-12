@@ -26,7 +26,7 @@ position: 0
 1. The last touch to the control would be customizing its appearance - you can setits **Skin** property to point to one of our built-in Skins or a custom one. Also, you can use the styling properties exposed in order to access and modify the look of only certainparts of the control. These are: **PagerStyle**, **ItemStyle**, **AlternatingItemStyle**, **HeaderStyle**,**SelectedItemStyle**.
 
 ````C#
-<telerik:RadTreeList ID="RadTreeList1" runat="server" DataSourceID="SqlDataSource1"
+<telerik:RadTreeList RenderMode="Lightweight" ID="RadTreeList1" runat="server" DataSourceID="SqlDataSource1"
 	ParentDataKeyNames="ReportsTo" DataKeyNames="EmployeeID" AutoGenerateColumns="false"
 	AllowPaging="true" PageSize="7" AllowMultiItemSelection="true" Skin="Vista">
 	<ClientSettings Selecting-AllowItemSelection="true" />

@@ -17,7 +17,7 @@ position: 6
 You can have your RadComboBox cause postbacks to a different web page from the one that it resides. To achieve this behavior, simply set the **PostBackUrl** property to the page that should handle the postback.
 
 ````ASPNET
-<telerik:RadComboBox ID="RadComboBox1" runat="server" PostBackUrl="CrossPageCs.aspx"></telerik:RadComboBox>
+<telerik:RadComboBox RenderMode="Lightweight" ID="RadComboBox1" runat="server" PostBackUrl="CrossPageCs.aspx"></telerik:RadComboBox>
 ````
 
 

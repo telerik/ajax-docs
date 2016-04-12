@@ -27,7 +27,7 @@ When client-side grouping is used, you can use the same approaches, as with serv
 	</DataSource>
 </telerik:RadClientDataSource>
         
-<telerik:RadGrid ID="RadGrid1" ClientDataSourceID="RadClientDataSource1" runat="server" AllowMultiRowSelection="true"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" ClientDataSourceID="RadClientDataSource1" runat="server" AllowMultiRowSelection="true"
 	AllowSorting="True" AllowPaging="True" PageSize="12" ShowGroupPanel="True" AutoGenerateColumns="false" AllowFilteringByColumn="true">
 	<GroupingSettings ShowUnGroupButton="true"></GroupingSettings>
 	<MasterTableView GroupLoadMode="Client" TableLayout="Fixed" EnableGroupsExpandAll="true">

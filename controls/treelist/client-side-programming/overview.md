@@ -41,7 +41,7 @@ To get reference of the RadTreeList client-side object, you can use one of the f
 		treeList = sender;
 	}
 </script>
-<telerik:RadTreeList ID="RadTreeList1" runat="server">
+<telerik:RadTreeList RenderMode="Lightweight" ID="RadTreeList1" runat="server">
 	<ClientSettings>
 		<ClientEvents OnTreeListCreated="TreeListCreated" />
 	</ClientSettings>

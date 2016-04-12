@@ -28,7 +28,7 @@ The forthcoming code implementation demonstrates the approach in a real-life sce
     activeGrid = eventArgs.get_tableView().get_owner().get_id();
   }
 </script>
-<telerik:RadGrid ID="RadGrid1" DataSourceID="SqlDataSource1" GridLines="None"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" DataSourceID="SqlDataSource1" GridLines="None"
   AllowMultiRowSelection="True" ShowStatusBar="True" PageSize="5" Width="97%" AllowPaging="True"
   AllowSorting="True" runat="server" Skin="Web20">
   <ClientSettings AllowKeyboardNavigation="True" AllowColumnsReorder="True" ReorderColumnsOnClient="True">
@@ -42,7 +42,7 @@ The forthcoming code implementation demonstrates the approach in a real-life sce
 <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
 SelectCommand="SELECT * FROM [Customers]"></asp:SqlDataSource>
 <br />
-<telerik:RadGrid ID="RadGrid2" DataSourceID="SqlDataSource1" GridLines="None"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid2" DataSourceID="SqlDataSource1" GridLines="None"
   AllowMultiRowSelection="True" ShowStatusBar="True" PageSize="5" Width="97%" AllowPaging="True"
   AllowSorting="True" runat="server" Skin="Web20">
   <ClientSettings AllowKeyboardNavigation="True" AllowColumnsReorder="True" ReorderColumnsOnClient="True">

@@ -37,7 +37,7 @@ Use this event to respond to the newly selected item:
     }
 </script>
 
-<telerik:RadDropDownList ID="RadDropDownList1" runat="server" OnClientItemSelected="OnClientItemSelected">
+<telerik:RadDropDownList RenderMode="Lightweight" ID="RadDropDownList1" runat="server" OnClientItemSelected="OnClientItemSelected">
     <Items>
 
         <telerik:DropDownListItem runat="server" Text="Item 1" Value="1" />

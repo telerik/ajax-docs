@@ -21,7 +21,7 @@ You can print the content of a **RadPane** control using its [client-side API]({
 The following example demonstrates how to print the content of a pane:
 
 ````ASP.NET
-<telerik:RadSplitter id="RadSplitter1" runat="server" height="200">
+<telerik:RadSplitter RenderMode="Lightweight" id="RadSplitter1" runat="server" height="200">
  <telerik:RadPane id="InternalContentPane" runat="server" width="120">
    <p>Founded in 2002, Telerik Corporation is a leading vendor
 	  of User Interface (UI) components for ASP.NET and Windows Forms.

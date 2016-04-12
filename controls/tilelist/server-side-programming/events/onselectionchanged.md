@@ -23,7 +23,7 @@ The event handler receives two arguments - of type **object** that is a referenc
 
 
 ````ASP.NET
-<telerik:RadTileList runat="server" ID="RadTileList1" AutoPostBack="true" OnSelectionChanged="OnSelectionChanged"
+<telerik:RadTileList RenderMode="Lightweight" runat="server" ID="RadTileList1" AutoPostBack="true" OnSelectionChanged="OnSelectionChanged"
 	SelectionMode="Multiple">
 	<Groups>
 		<telerik:TileGroup>

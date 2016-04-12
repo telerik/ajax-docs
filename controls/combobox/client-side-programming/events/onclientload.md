@@ -30,7 +30,7 @@ function OnClientLoadHandler(sender)   {
 	combo=sender;
 }
 
-<telerik:RadComboBox 
+<telerik:RadComboBox RenderMode="Lightweight" 
 	ID="RadComboBox1" 
 	runat="server" 
 	OnClientLoad="OnClientLoadHandler" .../>

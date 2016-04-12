@@ -17,7 +17,7 @@ To display the grid column editors in an auto-generated form when the grid switc
 When **EditMode** is "EditForms", the edit form appears immediately below the item that is being edited:
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1">
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1">
   <MasterTableView EditMode="EditForms" DataSourceID="SqlDataSource1">
     <Columns>
       <telerik:GridEditCommandColumn />
@@ -33,7 +33,7 @@ When **EditMode** is "EditForms", the edit form appears immediately below the it
 When **EditMode** is "PopUp", the edit form appears in a popup window above the grid:
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1">
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1">
   <MasterTableView EditMode="PopUp" DataSourceID="SqlDataSource1">
     <Columns>
       <telerik:GridEditCommandColumn />

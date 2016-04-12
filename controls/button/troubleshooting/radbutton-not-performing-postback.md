@@ -18,7 +18,7 @@ For example you can take the following situation – a page with ASP TextBox and
 <asp:TextBox ID="NameInput" runat="server" />
 <asp:RequiredFieldValidator ID="RequiredNameValidator" ControlToValidate="NameInput"
 		runat="server" Display="Dynamic" />
-<telerik:RadButton ID="btnSubmit" runat="server" Text="Submit">
+<telerik:RadButton RenderMode="Lightweight" ID="btnSubmit" runat="server" Text="Submit">
 </telerik:RadButton>
 ````
 

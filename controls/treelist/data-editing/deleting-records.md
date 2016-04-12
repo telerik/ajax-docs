@@ -38,7 +38,7 @@ Once the user clicks the delete button inside the treelist, you can handle the *
 
 
 ````ASPNET
-<telerik:RadTreeList ID="RadTreeList1" runat="server" DataKeyNames="ID" ParentDataKeyNames="ParentID"
+<telerik:RadTreeList RenderMode="Lightweight" ID="RadTreeList1" runat="server" DataKeyNames="ID" ParentDataKeyNames="ParentID"
 	AutoGenerateColumns="false" OnNeedDataSource="RadTreeList1_NeedDataSource" OnDeleteCommand="RadTreeList1_DeleteCommand">
 	<Columns>
 		<telerik:TreeListBoundColumn DataField="ID" UniqueName="ID" HeaderText="ID">

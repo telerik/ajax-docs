@@ -27,7 +27,7 @@ You can handle the client-side [OnClientClicked]({%slug button/client-side-progr
 >caption Example 1: Utilizing the split button functionality on the client-side.
 
 ````ASP.NET
-<telerik:RadButton ID="SplitButton1" Text="SplitButton" runat="server" EnableSplitButton="true"
+<telerik:RadButton RenderMode="Lightweight" ID="SplitButton1" Text="SplitButton" runat="server" EnableSplitButton="true"
 	OnClick="SplitButton1_Click" OnCommand="SplitButton1_Command">
 </telerik:RadButton> 
 ````
@@ -51,7 +51,7 @@ The server-side Click and Command events can be handled to execute "split button
 >caption Example 2: Utilizing the split button functionality on the server-side.
 
 ````ASP.NET
-<telerik:RadButton EnableSplitButton="true" ID="SplitButton" AutoPostBack="false" runat="server" 
+<telerik:RadButton RenderMode="Lightweight" EnableSplitButton="true" ID="SplitButton" AutoPostBack="false" runat="server" 
 	Text="Transfer Item" OnClientClicked="OnClientClicked">
 </telerik:RadButton> 
 ````

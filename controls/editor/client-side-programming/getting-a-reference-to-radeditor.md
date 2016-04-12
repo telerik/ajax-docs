@@ -15,7 +15,7 @@ Telerik RadEditor provides a client-side object of type **Telerik.Web.UI.RadEdit
 ````ASP.NET
 <telerik:RadScriptManager ID="RadScriptManager1" runat="server" />
 
-<telerik:RadEditor ID="RadEditor1" runat="server"></telerik:RadEditor>
+<telerik:RadEditor RenderMode="Lightweight" ID="RadEditor1" runat="server"></telerik:RadEditor>
 
 <script type="text/javascript">
 	Sys.Application.add_load(function () {

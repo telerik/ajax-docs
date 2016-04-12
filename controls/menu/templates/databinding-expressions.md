@@ -15,7 +15,7 @@ position: 4
 Often, when you use item templates, you want the controls in the template to display information associated with the menu item properties. For example, consider a simple menu with a check box in the item template:
 
 ````ASP.NET
-<telerik:RadMenu ID="RadMenu1" runat="server" Flow="Horizontal" Skin="Gray">
+<telerik:RadMenu RenderMode="Lightweight" ID="RadMenu1" runat="server" Flow="Horizontal" Skin="Gray">
     <Items>
         <telerik:RadMenuItem runat="server" ExpandMode="ClientSide" Text="Data">
             <GroupSettings ExpandDirection="Auto" Flow="Vertical" />

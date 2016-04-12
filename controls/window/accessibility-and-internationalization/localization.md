@@ -21,7 +21,7 @@ To activate the localization you need to use the **Localization** property and d
 The easiest way is to just set a string that you wish to use instead of the built-in ones, for example:
 
 ````ASP.NET
-<telerik:RadWindow runat="server" ID="RadWindow1">
+<telerik:RadWindow RenderMode="Lightweight" runat="server" ID="RadWindow1">
 	<Localization Maximize="Maximize the RadWindow" Close="Close this popup" />
 </telerik:RadWindow>
 ````
@@ -41,7 +41,7 @@ RadWindow1.Localization.Maximize = "Maximize the RadWindow";
 You need to create the resource (.resx) files in the **App_GlobalResources** folder of your web application and name them accordingly: **RadWindow.<language>.resx**. Then you need to point the **Localization** property to read the resource files:
 
 ````ASP.NET
-<telerik:RadWindow runat="server" ID="RadWindow1">
+<telerik:RadWindow RenderMode="Lightweight" runat="server" ID="RadWindow1">
 <Localization Maximize="<%$ Resources:RadWindow, Maximize %>" Minimize="<%$ Resources:RadWindow, Minimize %>"
 		Close="<%$ Resources:RadWindow, Close %>" PinOff="<%$ Resources:RadWindow, PinOff %>"
 		PinOn="<%$ Resources:RadWindow, PinOn %>" Reload="<%$ Resources:RadWindow,Reload %>"

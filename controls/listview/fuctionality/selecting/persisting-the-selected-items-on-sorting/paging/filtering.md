@@ -31,7 +31,7 @@ By default RadListView clears its selected items upon sorting, paging or filteri
 
 
 ````C#
-<telerik:RadFilter ID="RadFilter1" runat="server" FilterContainerID="RadListView1">
+<telerik:RadFilter RenderMode="Lightweight" ID="RadFilter1" runat="server" FilterContainerID="RadListView1">
 </telerik:RadFilter>
 <telerik:RadListView ID="RadListView1" runat="server" DataKeyNames="CustomerID" OnNeedDataSource="RadListView1_NeedDataSource"
     AllowPaging="True" AllowMultiItemSelection="True" OnItemCommand="RadListView1_ItemCommand"
@@ -116,7 +116,7 @@ By default RadListView clears its selected items upon sorting, paging or filteri
                 <tfoot>
                     <tr>
                         <td colspan="6">
-                            <telerik:RadDataPager ID="RadDataPager1" runat="server">
+                            <telerik:RadDataPager RenderMode="Lightweight" ID="RadDataPager1" runat="server">
                                 <Fields>
                                     <telerik:RadDataPagerButtonField FieldType="FirstPrev" />
                                     <telerik:RadDataPagerButtonField FieldType="Numeric" />
@@ -160,7 +160,7 @@ By default RadListView clears its selected items upon sorting, paging or filteri
 </telerik:RadListView>
 ````
 ````VB
-<telerik:RadFilter ID="RadFilter1" runat="server" FilterContainerID="RadListView1">
+<telerik:RadFilter RenderMode="Lightweight" ID="RadFilter1" runat="server" FilterContainerID="RadListView1">
 </telerik:RadFilter>
 <telerik:RadListView ID="RadListView1" runat="server" DataKeyNames="CustomerID" OnNeedDataSource="RadListView1_NeedDataSource"
     AllowPaging="True" AllowMultiItemSelection="True" OnItemCommand="RadListView1_ItemCommand"
@@ -245,7 +245,7 @@ By default RadListView clears its selected items upon sorting, paging or filteri
                 <tfoot>
                     <tr>
                         <td colspan="6">
-                            <telerik:RadDataPager ID="RadDataPager1" runat="server">
+                            <telerik:RadDataPager RenderMode="Lightweight" ID="RadDataPager1" runat="server">
                                 <Fields>
                                     <telerik:RadDataPagerButtonField FieldType="FirstPrev" />
                                     <telerik:RadDataPagerButtonField FieldType="Numeric" />

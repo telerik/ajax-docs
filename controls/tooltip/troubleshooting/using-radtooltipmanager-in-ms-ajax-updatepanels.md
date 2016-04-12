@@ -34,7 +34,7 @@ One common scenario is to place a RadGrid and a RadToolTipManager together in an
 </asp:ScriptManager>
 <asp:UpdatePanel ID="UpdatePanel1" runat="server" UpdateMode="Conditional">
     <ContentTemplate>
-        <telerik:RadGrid ID="telerikrid1" runat="server" DataSourceID="AccessDataSource1"
+        <telerik:RadGrid RenderMode="Lightweight" ID="telerikrid1" runat="server" DataSourceID="AccessDataSource1"
             Width="95%" AutoGenerateColumns="False" PageSize="3" AllowSorting="True" AllowPaging="True"
             GridLines="None" AllowAutomaticDeletes="True" OnItemDataBound="telerikrid1_ItemDataBound">
             <PagerStyle Mode="NumericPages"></PagerStyle>
@@ -80,7 +80,7 @@ One common scenario is to place a RadGrid and a RadToolTipManager together in an
         </telerik:RadGrid>
         <asp:AccessDataSource ID="AccessDataSource1" runat="server" DataFile="Nwind.mdb"
             SelectCommand="SELECT * FROM [Suppliers]"></asp:AccessDataSource>
-        <telerik:RadToolTipManager ID="RadToolTipManager1" runat="server" OnAjaxUpdate="RadToolTipManager1_AjaxUpdate"
+        <telerik:RadToolTipManager RenderMode="Lightweight" ID="RadToolTipManager1" runat="server" OnAjaxUpdate="RadToolTipManager1_AjaxUpdate"
             RelativeTo="Element" Width="350px" Height="250px" Position="BottomLeft" Sticky="true"
             Title="Products">
         </telerik:RadToolTipManager>

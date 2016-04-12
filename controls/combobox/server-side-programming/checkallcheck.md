@@ -23,7 +23,7 @@ The CheckAllCheck event occurs when the check all items check box of the **RadCo
 The **CheckAllCheck** receives one argument which indicates whether the check all check box is checked or unchecked.
 
 ````ASPNET
-<telerik:RadComboBox ID="RadComboBox1" runat="server" OnCheckAllCheck="RadComboBox1_CheckAllCheck"
+<telerik:RadComboBox RenderMode="Lightweight" ID="RadComboBox1" runat="server" OnCheckAllCheck="RadComboBox1_CheckAllCheck"
 	EnableCheckAllItemsCheckBox="true" AutoPostBack="true" CheckBoxes="true">
 	<Items>
 		<telerik:RadComboBoxItem Text="Item1" />

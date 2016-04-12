@@ -31,7 +31,7 @@ You can take advantage of the additional functionality that we implemented with 
 Here is sample code demonstrating how to set them inline:
 
 ````ASPNET
-<telerik:RadDropDownTree ID="RadDropDownTree1" runat="server" Width="250px" 
+<telerik:RadDropDownTree RenderMode="Lightweight" ID="RadDropDownTree1" runat="server" Width="250px" 
     DefaultMessage="Please select" CheckBoxes="SingleCheck"
     DataSourceID="ObjectDataSource1" DataFieldID="ID" DataFieldParentID="ParentID"
     DataTextField="Text">

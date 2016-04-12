@@ -44,7 +44,7 @@ The following example demonstrates retrieving the full node path. The main logic
 <div>
 	<div id="pathText" class="RadTreeView_Hay" style="height: 20px">
 	</div>
-	<telerik:RadTreeView ID="RadTreeView2" runat="server" OnClientMouseOver="onMouseOver"
+	<telerik:RadTreeView RenderMode="Lightweight" ID="RadTreeView2" runat="server" OnClientMouseOver="onMouseOver"
 		OnClientMouseOut="onMouseOut" Skin="Hay">
 		<Nodes>
 			<telerik:RadTreeNode runat="server" Text="Products" ExpandMode="ClientSide">

@@ -34,7 +34,7 @@ Below are the code snippets from the demo referred above:
 <telerik:RadAjaxLoadingPanel ID="RadAjaxLoadingPanel1" runat="server" />
 <asp:UpdatePanel ID="UpdatePanel1" runat="server" UpdateMode="Conditional">
     <ContentTemplate>
-        <telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1" Width="700px"
+        <telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1" Width="700px"
             AutoGenerateColumns="False" PageSize="10" AllowSorting="True" AllowPaging="True"
             GridLines="None" ShowStatusBar="true" OnItemDataBound="RadGrid1_ItemDataBound"
             OnDataBound="RadGrid1_DataBound">
@@ -120,7 +120,7 @@ Below are the code snippets from the demo referred above:
                 <asp:SessionParameter Name="SupplierID" SessionField="SupplierID" Type="Int32" />
             </SelectParameters>
         </asp:SqlDataSource>
-        <telerik:RadToolTipManager ID="RadToolTipManager1" runat="server" OnAjaxUpdate="RadToolTipManager1_AjaxUpdate"
+        <telerik:RadToolTipManager RenderMode="Lightweight" ID="RadToolTipManager1" runat="server" OnAjaxUpdate="RadToolTipManager1_AjaxUpdate"
             RelativeTo="Element" Width="225px" Height="390px" style="z-index: 31000" Position="BottomLeft" HideEvent="ManualClose"
             Title="Products" ShowEvent="OnClick">
         </telerik:RadToolTipManager>

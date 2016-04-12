@@ -17,7 +17,7 @@ You can use the **ClickToOpen** property to specify that menu items do not expan
 This example will show how to prevent expanding of the other root items on hover.
 
 ````ASP.NET
-<telerik:RadMenu ID="RadMenu1" runat="server" ClickToOpen="True" OnClientMouseOver="OnClientMouseOverHandler">
+<telerik:RadMenu RenderMode="Lightweight" ID="RadMenu1" runat="server" ClickToOpen="True" OnClientMouseOver="OnClientMouseOverHandler">
 ````
 
 ````JavaScript

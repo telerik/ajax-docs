@@ -17,7 +17,7 @@ The Paragraph style dropdown of RadEditor displays a predefined set of styles by
 ## Using the Paragraphs Collection Declaratively
 
 ````ASP.NET
-<telerik:RadEditor ID="Radeditor1" runat="server" Skin="WebBlue">
+<telerik:RadEditor RenderMode="Lightweight" ID="Radeditor1" runat="server" Skin="WebBlue">
    <Paragraphs>
 	   <telerik:EditorParagraph Title="Normal" Tag="<p>" />
 	   <telerik:EditorParagraph Title="Heading 1" Tag="<H1>" />

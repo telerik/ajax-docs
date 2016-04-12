@@ -64,7 +64,7 @@ End Sub
 You can dynamically update the **Tabs** collection of **RadTabStrip** and **RadTab** in response to a postback as well. Consider the following tab strip declaration:
 
 ````ASPNET	   	
-<telerik:RadTabStrip ID="RadTabStrip1" runat="server" OnTabClick="RadTabStrip1_TabClick">
+<telerik:RadTabStrip RenderMode="Lightweight" ID="RadTabStrip1" runat="server" OnTabClick="RadTabStrip1_TabClick">
   <Tabs>
     <telerik:RadTab runat="server" Text="Add Root Tab" Value="R">
     </telerik:RadTab>
@@ -129,7 +129,7 @@ To remove a tab in server-side code, use the **Remove** method of the **RadTabCo
 Consider the following tab strip:
 
 ````ASPNET
-<telerik:RadTabStrip ID="RadTabStrip1" runat="server" OnTabClick="RadTabStrip1_TabClick">
+<telerik:RadTabStrip RenderMode="Lightweight" ID="RadTabStrip1" runat="server" OnTabClick="RadTabStrip1_TabClick">
   <Tabs>
     <telerik:RadTab runat="server" Text="Delete a Tab" Value="D">
       <Tabs>

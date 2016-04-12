@@ -78,7 +78,7 @@ The **ExpandAnimation** and **CollapseAnimation** tags of **RadComboBox** are us
 
 
 ````ASPNET
-<telerik:RadComboBox ID="RadComboBox1" runat="server">
+<telerik:RadComboBox RenderMode="Lightweight" ID="RadComboBox1" runat="server">
 	<ExpandAnimation Type="InBounce" Duration="300" />
 	<CollapseAnimation Type="OutQuint" Duration="200" />
 </telerik:RadComboBox>

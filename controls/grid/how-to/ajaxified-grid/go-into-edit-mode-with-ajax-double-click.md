@@ -76,7 +76,7 @@ The example uses **<RadAjaxManagerInstance>.AjaxRequest(args)** calls (wiring th
     </telerik:AjaxSetting>
   </AjaxSettings>
 </telerik:RadAjaxManager>
-<telerik:RadGrid ID="RadGrid1" DataSourceID="SessionDataSource1" Width="97%" Skin="Office2007"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" DataSourceID="SessionDataSource1" Width="97%" Skin="Office2007"
   ShowStatusBar="True" AllowSorting="True" PageSize="7" GridLines="None" AllowPaging="True"
   runat="server" AllowAutomaticUpdates="True" OnItemUpdated="RadGrid1_ItemUpdated"
   AutoGenerateColumns="False" OnDataBound="RadGrid1_DataBound">

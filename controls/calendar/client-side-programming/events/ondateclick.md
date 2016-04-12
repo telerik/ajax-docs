@@ -31,7 +31,7 @@ The event handler receives two arguments:
 The following example uses the **OnDateClick** event to confirm the selection of a date:
 
 ````ASPNET
-<telerik:RadCalendar ID="RadCalendar1" runat="server">
+<telerik:RadCalendar RenderMode="Lightweight" ID="RadCalendar1" runat="server">
     <ClientEvents OnDateClick="confirmClick" />
 </telerik:RadCalendar>		
 ````

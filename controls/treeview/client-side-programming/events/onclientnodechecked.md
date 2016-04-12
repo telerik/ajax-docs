@@ -29,7 +29,7 @@ The event handler receives parameters:
 The example below shows a message containing the text of a node and the checked state of its checkbox when checked/unchecked.
 
 ````ASPNET
-<telerik:RadTreeView ID="RadTreeView1" runat="server" CheckBoxes="true" OnClientNodeChecked="ClientNodeChecked">
+<telerik:RadTreeView RenderMode="Lightweight" ID="RadTreeView1" runat="server" CheckBoxes="true" OnClientNodeChecked="ClientNodeChecked">
 </telerik:RadTreeView>
 ````
 ````JavaScript

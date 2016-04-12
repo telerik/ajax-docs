@@ -75,7 +75,7 @@ The example below demonstrates how to store the state of the **RadGrid** directl
         <telerik:PersistenceSetting ControlID="RadGrid1" />
     </PersistenceSettings>
 </telerik:RadPersistenceManager>
-<telerik:RadComboBox runat="server" ID="UserSelection" AutoPostBack="true" Width="200px">
+<telerik:RadComboBox RenderMode="Lightweight" runat="server" ID="UserSelection" AutoPostBack="true" Width="200px">
     <Items>
         <telerik:RadComboBoxItem Text="User1" Value="1" Selected="true"></telerik:RadComboBoxItem>
         <telerik:RadComboBoxItem Text="User2" Value="2"></telerik:RadComboBoxItem>
@@ -84,7 +84,7 @@ The example below demonstrates how to store the state of the **RadGrid** directl
 </telerik:RadComboBox>
 <asp:Button Text="Save settings" ID="SaveSetting" OnClick="SaveSetting_Click" runat="server" />
 <asp:Button Text="Load settings" ID="LoadSetting" OnClick="LoadSetting_Click" runat="server" />
-<telerik:RadGrid runat="server" ID="RadGrid1" GridLines="None" ShowFooter="True"
+<telerik:RadGrid RenderMode="Lightweight" runat="server" ID="RadGrid1" GridLines="None" ShowFooter="True"
     DataSourceID="SqlDataSource1" AllowFilteringByColumn="True" AllowSorting="True"
     ShowGroupPanel="True" AllowPaging="true" PageSize="10">
     <MasterTableView AutoGenerateColumns="False" DataKeyNames="CustomerID" DataSourceID="SqlDataSource1"

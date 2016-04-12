@@ -17,7 +17,7 @@ It is a common scenario that a confirmation is required from the user just befor
 The simplest approach is to use the standard browser confirm() dialog. It blocks the execution thread and thus interrupts the entire page:
 
 ````ASP.NET
-<telerik:RadWindow runat="server" ID="RadWindow1" OnClientBeforeClose="OnClientBeforeClose">
+<telerik:RadWindow RenderMode="Lightweight" runat="server" ID="RadWindow1" OnClientBeforeClose="OnClientBeforeClose">
 </telerik:RadWindow>
 <asp:Button ID="Button1" Text="text" runat="server" />
 <script type="text/javascript">
@@ -33,8 +33,8 @@ The simplest approach is to use the standard browser confirm() dialog. It blocks
 The **RadConfirm** dialog is a standard RadWindow and thus cannot block the thread execution like the browser confirm() can. This means that the logic must be extended to [dynamically add/remove the OnClientBeforeClose handler]({%slug window/client-side-programming/events/setting-handlers-by-using-javascript%}). The RadConfirm also requires that there is a **RadWindowManager** on the same page and that the event is cancelled each time so that the RadWindow can be closed with code depending on the user input. The benefit from this approach is that it provided consistent look and styling.
 
 ````ASP.NET
-<telerik:RadWindowManager runat="server" id="RadWindowManager1"></telerik:RadWindowManager>
-<telerik:RadWindow runat="server" ID="RadWindow1" OnClientBeforeClose="OnClientBeforeClose">
+<telerik:RadWindowManager RenderMode="Lightweight" runat="server" id="RadWindowManager1"></telerik:RadWindowManager>
+<telerik:RadWindow RenderMode="Lightweight" runat="server" ID="RadWindow1" OnClientBeforeClose="OnClientBeforeClose">
 </telerik:RadWindow>
 <script type="text/javascript">
 	function OnClientBeforeClose(sender, args)

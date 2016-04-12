@@ -22,8 +22,8 @@ In order to enable the WAI-ARIA support, set the **RadToolTip** / **RadToolTipMa
 
 
 ````ASP.NET
-<telerik:RadToolTip EnableAriaSupport="true" runat="server" ID="RadToolTip1"></telerik:RadToolTip>
-<telerik:RadToolTipManager EnableAriaSupport="true" runat="server" ID="RadToolTipManager1"></telerik:RadToolTipManager>
+<telerik:RadToolTip RenderMode="Lightweight" EnableAriaSupport="true" runat="server" ID="RadToolTip1"></telerik:RadToolTip>
+<telerik:RadToolTipManager RenderMode="Lightweight" EnableAriaSupport="true" runat="server" ID="RadToolTipManager1"></telerik:RadToolTipManager>
 ````
 ````C#
 RadToolTip1.EnableAriaSupport = true;

@@ -28,7 +28,7 @@ Here is an example that demonstrates how the above mentioned templates can be ap
 
 ````ASPNET
 			
-<telerik:RadOrgChart runat="server" ID="RadOrgChart1" Skin="Default" GroupColumnCount="1">
+<telerik:RadOrgChart RenderMode="Lightweight" runat="server" ID="RadOrgChart1" Skin="Default" GroupColumnCount="1">
 	<ItemTemplate>
 		<div style="background-color: Yellow; height: 80px; width: 180px;">
 			Template A</div>
@@ -107,7 +107,7 @@ Here is an example that demonstrates how to add dynamically a template:
 
 ````ASPNET
 
-<telerik:RadOrgChart runat="server" ID="RadOrgChart2">
+<telerik:RadOrgChart RenderMode="Lightweight" runat="server" ID="RadOrgChart2">
 </telerik:RadOrgChart>
 
 ````
@@ -181,7 +181,7 @@ Here is an example that demonstrates how to evaluate a template. Please keep in 
 
 ````C#
 
-<telerik:RadOrgChart runat="server" ID="RadOrgChart3" DataFieldID="ID" DataFieldParentID="ParentID">
+<telerik:RadOrgChart RenderMode="Lightweight" runat="server" ID="RadOrgChart3" DataFieldID="ID" DataFieldParentID="ParentID">
     <ItemTemplate>
         <span>Identifier: <%#Eval("ID")%></span>
         <br />

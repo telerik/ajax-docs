@@ -20,7 +20,7 @@ When RadEditor is set in non-editable mode (**Enabled**="**false**") it is displ
 	}
 </style>
 
-<telerik:RadEditor runat="server" ID="RadEditor1" Enabled="false" CssClass="MyEditor" Width="75px" Height="100px">
+<telerik:RadEditor RenderMode="Lightweight" runat="server" ID="RadEditor1" Enabled="false" CssClass="MyEditor" Width="75px" Height="100px">
    <Content>
    <strong>Line 1</strong><br />
    <strong>Line 2</strong><br />

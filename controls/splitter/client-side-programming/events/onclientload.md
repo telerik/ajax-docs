@@ -55,7 +55,7 @@ The following example uses the **OnClientLoad** event to set the height of a spl
 		}
 	}
 </script>
- <telerik:RadSplitter runat="server" id="RadSplitter3" Orientation="Horizontal">
+ <telerik:RadSplitter RenderMode="Lightweight" runat="server" id="RadSplitter3" Orientation="Horizontal">
  <telerik:RadPane runat="server" id="RadPane5" Height="80px" >
  <telerik:RadSlidingZone
 	 runat="server"

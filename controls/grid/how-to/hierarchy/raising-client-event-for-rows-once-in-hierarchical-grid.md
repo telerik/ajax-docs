@@ -37,7 +37,7 @@ function RowDblClick(sender, eventArgs) {
     }
   }
 </script>
-<telerik:RadGrid ID="RadGrid1" runat="server" AutoGenerateColumns="False" PageSize="3"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" AutoGenerateColumns="False" PageSize="3"
   AllowSorting="True" AllowPaging="True">
   <PagerStyle Mode="NumericPages"></PagerStyle>
   <MasterTableView DataKeyNames="CustomerID" AllowMultiColumnSorting="True" Width="100%">

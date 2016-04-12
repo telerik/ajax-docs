@@ -43,7 +43,7 @@ function OnClientItemCreated(sender, eventArgs) {
     }
 }
 </script>
-<telerik:RadTreeMap runat="server" ID="RadTreeMap1" OnClientItemCreated="OnClientItemCreated">
+<telerik:RadTreeMap RenderMode="Lightweight" runat="server" ID="RadTreeMap1" OnClientItemCreated="OnClientItemCreated">
     <Items>
         <telerik:TreeMapItem Text="Parent Item">
             <Items>

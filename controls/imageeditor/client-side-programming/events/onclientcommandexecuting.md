@@ -23,7 +23,7 @@ The event handler receives the following parameters:
 1. Event arguments object. You can call its get_commandName() method to get the command name. You can cancel the event by calling its set_cancel(true) method
 
 ````ASP.NET
-<telerik:RadImageEditor runat="server" ID="RadImageEditor1" OnClientCommandExecuting="OnClientCommandExecuting"></telerik:RadImageEditor>
+<telerik:RadImageEditor RenderMode="Lightweight" runat="server" ID="RadImageEditor1" OnClientCommandExecuting="OnClientCommandExecuting"></telerik:RadImageEditor>
 <script type="text/javascript">
     function OnClientCommandExecuting(sender, eventArgs)
     {

@@ -17,7 +17,7 @@ RadEditor offers the ability to specify the max characters length that will be s
 
 
 ````ASP.NET
-<telerik:RadEditor runat="server" MaxTextLength="150" ID="RadEditor1">
+<telerik:RadEditor RenderMode="Lightweight" runat="server" MaxTextLength="150" ID="RadEditor1">
 	<Modules>
 		<telerik:EditorModule Name="RadEditorStatistics" Visible="true" />
 	</Modules>

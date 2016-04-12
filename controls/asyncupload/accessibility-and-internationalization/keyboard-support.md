@@ -14,7 +14,6 @@ position: 0
 
 A critical requirement for software accessibility is keyboard support as a complete alternative to pointing devices (mouse, etc.). Keyboard support is comprised of navigation key, command key, keyboard navigation, and action keys. **RadAsyncUpload** seamlessly switches between mouse and keyboard navigation. As a part of **Q2 2013** **RadAsyncUpload** control introduced fully built-in keyboard support. 
 
-
 ## KeyboardNavigationSettings
 
 Setting the control's **KeyboardNavigationSettings**, allows you to associate an activation combination (**CommandKey** + **FocusKey**), which moves focus directly to the **RadAsyncUpload** and enables keyboard navigation. When there are multiple AsyncUpload controls on a given page, each of them may have a different activation combination.
@@ -30,7 +29,7 @@ Pressing the keys set to these two properties at the same time places the focus 
 **Example 1**: Setting the **KeyboardNavigationSettings** for **RadAsyncUpload**
 
 ````ASPNET
-<telerik:RadAsyncUpload ID="RadAsyncUpload1" runat="server" >
+<telerik:RadAsyncUpload RenderMode="Lightweight" ID="RadAsyncUpload1" runat="server" >
     <KeyboardNavigationSettings CommandKey="Alt" FocusKey="P" />
 </telerik:RadAsyncUpload>
 ````

@@ -100,7 +100,7 @@ Here is a detailed list of steps:
 		   Title="Calendar"
 		   Width="150px">
 		<ContentTemplate>
-		  <telerik:RadCalendar ID="RadCalendar1" runat="Server" />
+		  <telerik:RadCalendar RenderMode="Lightweight" ID="RadCalendar1" runat="Server" />
 		</ContentTemplate>
 		</telerik:RadDock> 
 

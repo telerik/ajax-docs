@@ -32,7 +32,7 @@ You can use this event to respond when the list of child items closes.
         alert("Closing " + args.get_item().get_text());
     }
 </script>
-<telerik:RadMenu ID="RadMenu1" runat="server" Flow="Horizontal" OnClientItemClosed="ItemClosed">
+<telerik:RadMenu RenderMode="Lightweight" ID="RadMenu1" runat="server" Flow="Horizontal" OnClientItemClosed="ItemClosed">
     <Items>
         ...
     </Items>

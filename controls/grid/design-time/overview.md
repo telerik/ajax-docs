@@ -21,7 +21,7 @@ Before you start your work with the design-time, you will need to set the necess
 In order to use the Telerik RadGrid design-time support effectively, you need to set the **DataSource** property in the ASPX declaration of the grid.
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" runat="server" DataSource="<%# dataSet11 %>"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" DataSource="<%# dataSet11 %>"
   DataMember="Customers" AutoGenerateColumns="False">
 ````
 

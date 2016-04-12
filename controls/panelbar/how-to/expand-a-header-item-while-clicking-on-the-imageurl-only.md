@@ -49,7 +49,7 @@ position: 2
 
 
 ````ASPNET
-	   <telerik:RadPanelBar ID="RadPanelBar1" runat="server" Skin="Outlook" OnClientLoad="OnLoad">
+	   <telerik:RadPanelBar RenderMode="Lightweight" ID="RadPanelBar1" runat="server" Skin="Outlook" OnClientLoad="OnLoad">
 	       <Items>
 	           <telerik:RadPanelItem ImageUrl="Img/inbox.gif" Text="Index" runat="server" NavigateUrl="http://www.yahoo.com" Target="_blank">
 	               <Items>

@@ -108,7 +108,7 @@ For configuring the remaining settings of the **RadMediaPlayer** please refer to
 You can easily enable users to play YouTube videos on your web site by including a RadMediaPlayer on your page and setting its **Source** to the desired YouTube video link.
 
 ````ASP.NET
-<telerik:RadMediaPlayer ID="RadMediaPlayer1" runat="server" Width="640px" Height="360px"
+<telerik:RadMediaPlayer RenderMode="Lightweight" ID="RadMediaPlayer1" runat="server" Width="640px" Height="360px"
     Source="https://www.youtube.com/watch?v=rLtTuFbuf1c">
 </telerik:RadMediaPlayer>
 ````

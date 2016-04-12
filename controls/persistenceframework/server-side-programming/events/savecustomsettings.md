@@ -21,9 +21,9 @@ The example below demonstrates how to store **CustomSettings** from a hidden fie
 	OnSaveCustomSettings="persistenceMngr_SaveCustomSettings" OnLoadCustomSettings="persistenceMngr_LoadCustomSettings">
 </telerik:RadPersistenceManager>
 
-<telerik:RadButton ID="saveBtn" Text="Save State" runat="server" Width="67px" OnClick="saveBtn_Click">
+<telerik:RadButton RenderMode="Lightweight" ID="saveBtn" Text="Save State" runat="server" Width="67px" OnClick="saveBtn_Click">
 </telerik:RadButton>
-<telerik:RadButton ID="loadBtn" Text="Load State" runat="server" Width="67px" OnClick="loadBtn_Click">
+<telerik:RadButton RenderMode="Lightweight" ID="loadBtn" Text="Load State" runat="server" Width="67px" OnClick="loadBtn_Click">
 </telerik:RadButton>
 ````
 ````C#

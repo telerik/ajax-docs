@@ -102,7 +102,7 @@ function OnClientButtonClicking() {
 			<telerik:RibbonBarApplicationMenuItem Text="Item6" />
 		</Items>
 	</telerik:RibbonBarApplicationMenu>
-<telerik:RadRibbonBar ID="RadRibbonBar1" runat="server"  OnClientButtonClicking="OnClientButtonClicking" ApplicationMenuID="ApplicationMenu1"/>
+<telerik:RadRibbonBar RenderMode="Lightweight" ID="RadRibbonBar1" runat="server"  OnClientButtonClicking="OnClientButtonClicking" ApplicationMenuID="ApplicationMenu1"/>
 	
 ````
 

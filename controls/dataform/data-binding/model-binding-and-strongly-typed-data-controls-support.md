@@ -19,7 +19,7 @@ The **.NET 4.5** framework provides ability to enable **strongly-typed** data te
 The code snippet bellow presents the usage of the new types:
 
 ````ASPNET
-<telerik:RadDataForm ItemType="Product" ID="RadDataForm3" runat="server" ItemPlaceholderID="ProductItemContainer" DataKeyNames="ProductID"
+<telerik:RadDataForm RenderMode="Lightweight" ItemType="Product" ID="RadDataForm3" runat="server" ItemPlaceholderID="ProductItemContainer" DataKeyNames="ProductID"
     SelectMethod="GetProducts">
 
     <ItemTemplate>
@@ -59,19 +59,19 @@ The code snippet bellow presents the usage of the new types:
             <legend class="rdfLegend">Edit Product</legend>
             <div class="rdfRow">
                 <asp:Label ID="Label19" runat="server" AssociatedControlID="ProductNameTextBox" CssClass="rdfLabel" Text="Name:"></asp:Label>
-                <telerik:RadTextBox ID="RadTextBox3" runat="server" Text='<%# BindItem.ProductName %>' WrapperCssClass="rdfInput" />
+                <telerik:RadTextBox RenderMode="Lightweight" ID="RadTextBox3" runat="server" Text='<%# BindItem.ProductName %>' WrapperCssClass="rdfInput" />
             </div>
             <div class="rdfRow">
                 <asp:Label ID="Label20" runat="server" AssociatedControlID="QuantityPerUnitTextBox" CssClass="rdfLabel" Text="Quantity:"></asp:Label>
-                <telerik:RadTextBox ID="RadTextBox4" runat="server" Text='<%# BindItem.QuantityPerUnit %>' WrapperCssClass="rdfInput" />
+                <telerik:RadTextBox RenderMode="Lightweight" ID="RadTextBox4" runat="server" Text='<%# BindItem.QuantityPerUnit %>' WrapperCssClass="rdfInput" />
             </div>
             <div class="rdfRow">
                 <asp:Label ID="Label21" runat="server" AssociatedControlID="UnitPriceTextBox" CssClass="rdfLabel" Text="Price:"></asp:Label>
-                <telerik:RadNumericTextBox ID="RadNumericTextBox3" runat="server" DataType="Decimal" DbValue='<%# BindItem.UnitPrice %>' Skin="<%#Container.OwnerDataForm.Skin %>" WrapperCssClass="rdfInput" />
+                <telerik:RadNumericTextBox RenderMode="Lightweight" ID="RadNumericTextBox3" runat="server" DataType="Decimal" DbValue='<%# BindItem.UnitPrice %>' Skin="<%#Container.OwnerDataForm.Skin %>" WrapperCssClass="rdfInput" />
             </div>
             <div class="rdfRow">
                 <asp:Label ID="Label22" runat="server" AssociatedControlID="UnitsInStockTextBox" CssClass="rdfLabel" Text="Units:"></asp:Label>
-                <telerik:RadNumericTextBox ID="RadNumericTextBox4" runat="server" DataType="Int16" DbValue='<%# BindItem.UnitsInStock %>' NumberFormat-DecimalDigits="0" Skin="<%#Container.OwnerDataForm.Skin %>" WrapperCssClass="rdfInput" />
+                <telerik:RadNumericTextBox RenderMode="Lightweight" ID="RadNumericTextBox4" runat="server" DataType="Int16" DbValue='<%# BindItem.UnitsInStock %>' NumberFormat-DecimalDigits="0" Skin="<%#Container.OwnerDataForm.Skin %>" WrapperCssClass="rdfInput" />
             </div>
             <div class="rdfRow">
                 <asp:Label ID="Label23" runat="server" AssociatedControlID="DiscontinuedCheckBox" CssClass="rdfLabel" Text="Discontinued:"></asp:Label>

@@ -41,7 +41,7 @@ In order to explain better the CSS classes of RadToolTip, we will use ToolTip.Sk
 
 	__ASP.NET__
 
-		<telerik:RadFormDecorator ID="rfd1" runat="server" DecoratedControls="All" EnableEmbeddedSkins="false" Skin="MyCustomSkin" />
+		<telerik:RadFormDecorator RenderMode="Lightweight" ID="rfd1" runat="server" DecoratedControls="All" EnableEmbeddedSkins="false" Skin="MyCustomSkin" />
 
 
 1. Register FormDecorator.MyCustomSkin.css in the `<head>...</head>` section of your webpage. In order to have the CSS applied correctly, the base stylesheet should come first in the DOM:

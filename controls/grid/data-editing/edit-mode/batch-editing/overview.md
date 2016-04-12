@@ -18,7 +18,7 @@ position: 0
 The feature could be easily enabled by setting the **GridTableView.EditMode** property to **Batch**. Additional properties for configuring the behavior of the functionality can be found in the **GridTableView.BatchEditingSettings** collection.
 
 ````ASP.NET
-<telerik:RadGrid runat="server" ID="RadGrid1">
+<telerik:RadGrid RenderMode="Lightweight" runat="server" ID="RadGrid1">
 
 	<MasterTableView CommandItemDisplay="Top" DataKeyNames="ID" EditMode="Batch">
 	   <BatchEditingSettings />

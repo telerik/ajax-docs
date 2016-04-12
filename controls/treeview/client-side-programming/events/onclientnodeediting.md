@@ -33,7 +33,7 @@ The event handler receives parameters:
 The example below demonstrates preventing non-numeric entry to a node.
 
 ````ASPNET
-<telerik:RadTreeView ID="RadTreeView1" 
+<telerik:RadTreeView RenderMode="Lightweight" ID="RadTreeView1" 
     runat="server" 
     AllowNodeEditing="True" 
     OnClientNodeEditing="ClientNodeEditing">

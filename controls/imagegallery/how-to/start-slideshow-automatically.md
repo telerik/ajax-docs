@@ -19,7 +19,7 @@ function pageLoad() {
 }
 ````
 ````ASP.NET
-<telerik:RadImageGallery runat="server" ID="RadImageGallery1" ImagesFolderPath="~/Images">
+<telerik:RadImageGallery RenderMode="Lightweight" runat="server" ID="RadImageGallery1" ImagesFolderPath="~/Images">
 </telerik:RadImageGallery>
 ````
 

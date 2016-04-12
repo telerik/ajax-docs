@@ -23,7 +23,7 @@ One can specify what's the value of the Column Count for a certain OrgChartNode,
 Here is a sample of setting the property on OrgChartNode declared in the markup:
 
 ````ASPNET
-<telerik:RadOrgChart runat="server" ID="RadOrgChart1">
+<telerik:RadOrgChart RenderMode="Lightweight" runat="server" ID="RadOrgChart1">
 	<Nodes>
 		<telerik:OrgChartNode ColumnCount="2">
 			<GroupItems>
@@ -51,7 +51,7 @@ It's property of RadOrgChart called GroupColumnCount and setting this property g
 Here is an example:
 
 ````ASPNET
-<telerik:RadOrgChart runat="server" ID="RadOrgChart2" GroupColumnCount="1">
+<telerik:RadOrgChart RenderMode="Lightweight" runat="server" ID="RadOrgChart2" GroupColumnCount="1">
 	<Nodes>
 		<telerik:OrgChartNode>
 			<GroupItems>
@@ -97,7 +97,7 @@ You can set on OrgChart-level (OrgChart.GroupColumnCount) the most repeatedly oc
 Here is an example:
 
 ````ASPNET
-<telerik:RadOrgChart runat="server" ID="RadOrgChart3" GroupColumnCount="1">
+<telerik:RadOrgChart RenderMode="Lightweight" runat="server" ID="RadOrgChart3" GroupColumnCount="1">
 	<Nodes>
 		<telerik:OrgChartNode>
 			<GroupItems>

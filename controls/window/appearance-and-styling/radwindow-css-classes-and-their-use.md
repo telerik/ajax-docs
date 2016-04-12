@@ -44,7 +44,7 @@ In order to explain better the CSS classes of RadWindow, we will use both Window
 
 	**ASP.NET**
 	
-		<telerik:RadWindow ID="RadWindow1" runat="server" NavigateUrl="http://www.google.com"
+		<telerik:RadWindow RenderMode="Lightweight" ID="RadWindow1" runat="server" NavigateUrl="http://www.google.com"
 			Title="Google" Skin="MyCustomSkin" EnableEmbeddedSkins="false" EnableEmbeddedBaseStylesheet="false"
 			VisibleOnPageLoad="true">
 		</telerik:RadWindow>

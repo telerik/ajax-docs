@@ -364,9 +364,9 @@ By editing the editor's ToolsFile.xml file you easily customize the editor's too
 >caption Example 14: Using different ToolsFile xml files with multiple RadEditor on the page.
 
 ````ASP.NET
-<telerik:RadEditor ToolsFile="~/ToolsFile1.xml" ID="RadEditor2" runat="server"></telerik:RadEditor>
-<telerik:RadEditor ToolsFile="~/ToolsFile2.xml" ID="RadEditor3" runat="server"></telerik:RadEditor>
-<telerik:RadEditor ToolsFile="~/ToolsFile3.xml" ID="RadEditor4" runat="server"></telerik:RadEditor>
+<telerik:RadEditor RenderMode="Lightweight" ToolsFile="~/ToolsFile1.xml" ID="RadEditor2" runat="server"></telerik:RadEditor>
+<telerik:RadEditor RenderMode="Lightweight" ToolsFile="~/ToolsFile2.xml" ID="RadEditor3" runat="server"></telerik:RadEditor>
+<telerik:RadEditor RenderMode="Lightweight" ToolsFile="~/ToolsFile3.xml" ID="RadEditor4" runat="server"></telerik:RadEditor>
 ````
 
 ## See Also

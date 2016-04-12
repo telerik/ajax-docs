@@ -29,7 +29,7 @@ The event handler receives parameters:
 The example below demonstrates retrieving the parent node that is being populated and also getting information about the child nodes.
 
 ````ASPNET
-<telerik:RadTreeView ID="RadTreeView1" runat="server" OnClientNodePopulated="ClientNodePopulated"
+<telerik:RadTreeView RenderMode="Lightweight" ID="RadTreeView1" runat="server" OnClientNodePopulated="ClientNodePopulated"
     OnNodeExpand="RadTreeView1_NodeExpand">
     <Nodes>
         <telerik:RadTreeNode runat="server" ExpandMode="ClientSide" Text="Search" ImageUrl="~/images/search.ico"

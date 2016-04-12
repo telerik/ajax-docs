@@ -22,7 +22,7 @@ A **RadIconTile** has an image centered in its content area that is called an ic
 **RadTileList** example:
 
 ````ASP.NET
-<telerik:RadTileList runat="server" ID="RadTileList1">
+<telerik:RadTileList RenderMode="Lightweight" runat="server" ID="RadTileList1">
 	<Groups>
 		<telerik:TileGroup>
 			<telerik:RadIconTile ImageUrl="icon_ajax.png" Shape="Wide">

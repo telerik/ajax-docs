@@ -43,7 +43,7 @@ The following example shows a **RadMenu** that fetches all child items from a We
 
 
 ````ASP.NET
-<telerik:RadMenu ID="RadMenu1" runat="server" Skin="Default">
+<telerik:RadMenu RenderMode="Lightweight" ID="RadMenu1" runat="server" Skin="Default">
 	<WebServiceSettings Path="ProductCategories.asmx" Method="GetMenuCategories" />
 	<LoadingStatusTemplate>
 		<asp:Image runat="server" ID="LoadingImage" ImageUrl="~/Ajax/Img/loading7.gif" ToolTip="Loading..."

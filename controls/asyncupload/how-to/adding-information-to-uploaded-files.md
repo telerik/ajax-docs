@@ -53,7 +53,7 @@ function createLabel(forArrt) {
 ````
 
 ````ASPNET
-<telerik:RadAsyncUpload runat="server" id="RadAsyncUpload1" OnClientFileUploaded="onClientFileUploaded"></telerik:RadAsyncUpload>
+<telerik:RadAsyncUpload RenderMode="Lightweight" runat="server" id="RadAsyncUpload1" OnClientFileUploaded="onClientFileUploaded"></telerik:RadAsyncUpload>
 ````
 
 ## Retrieving Field Values

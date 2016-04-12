@@ -37,7 +37,7 @@ The following demonstrates how multiple elements are placed into a Template and 
 ![RadTreeView Templates Structure](images/treeview_templatesstructure02.png)
 
 ````ASPNET
-<telerik:RadTreeView ID="RadTreeView1" runat="server" LoadingStatusPosition="BeforeNodeText">
+<telerik:RadTreeView RenderMode="Lightweight" ID="RadTreeView1" runat="server" LoadingStatusPosition="BeforeNodeText">
     <NodeTemplate>
         No Image Available for
         <%# DataBinder.Eval(Container, "Text") %><br />

@@ -21,7 +21,7 @@ The example below defines both the **RadTreeView** structure and a Context Menu,
 ![RadTreeView Context Menu Overview](images/treeview_contextmenuoverview.png)
 
 ````ASPNET
-<telerik:RadTreeView ID="RadTreeView1" runat="server" Skin="Vista" OnContextMenuItemClick="RadTreeView1_ContextMenuItemClick">
+<telerik:RadTreeView RenderMode="Lightweight" ID="RadTreeView1" runat="server" Skin="Vista" OnContextMenuItemClick="RadTreeView1_ContextMenuItemClick">
     <ContextMenus>
         <telerik:RadTreeViewContextMenu runat="server" ID="HelpDeskMenu" ClickToOpen="True"
             Skin="Vista">

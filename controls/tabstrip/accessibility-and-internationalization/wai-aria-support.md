@@ -18,7 +18,7 @@ The [WAI-ARIA Suite](http://www.w3.org/WAI/intro/aria) defines an approach to ma
 
 
 ````ASPNET
-<telerik:RadTabStrip ID="RadTabStrip1" runat="server" EnableAriaSupport="true">
+<telerik:RadTabStrip RenderMode="Lightweight" ID="RadTabStrip1" runat="server" EnableAriaSupport="true">
     <Tabs>
         <telerik:RadTab runat="server" Text="Root Tab1">
             <Tabs>

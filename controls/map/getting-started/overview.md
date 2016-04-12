@@ -25,7 +25,7 @@ To add a Map control into the page you can simply drag it from the Visual Studio
 ````ASP.NET
 <telerik:RadScriptManager runat="server" ID="RadScriptManager1" />
 
-<telerik:RadMap runat="server" ID="RadMap1">
+<telerik:RadMap RenderMode="Lightweight" runat="server" ID="RadMap1">
 </telerik:RadMap>
 ````
 
@@ -48,7 +48,7 @@ These steps will lead you to a markup similar to the one in **Example 2** and a 
 >caption **Example 2**: Sample **RadMap** markup with configured Tile Layer
 
 ````ASP.NET
-<telerik:RadMap runat="server" ID="RadMap1">
+<telerik:RadMap RenderMode="Lightweight" runat="server" ID="RadMap1">
 	<LayersCollection>
 		<telerik:MapLayer Type="Tile" 
 			UrlTemplate="http://a.tile.opencyclemap.org/transport/#= zoom #/#= x #/#= y #.png">
@@ -76,7 +76,7 @@ In **Example 3** you can examine a sample code achieved by following these steps
 >caption **Example 3**: Simple layout configuration of the **RadMap**.
 
 ````ASP.NET
-<telerik:RadMap runat="server" ID="RadMap1" Zoom="6" Width="1000" Height="500" >
+<telerik:RadMap RenderMode="Lightweight" runat="server" ID="RadMap1" Zoom="6" Width="1000" Height="500" >
 	<CenterSettings Latitude="51.525619" Longitude="-0.111802" />
 	<LayersCollection>
 		<telerik:MapLayer Type="Tile" 
@@ -107,7 +107,7 @@ The code in **Example 4** is a final result of the steps from the above sections
 >caption **Example 4**: Adding Markers in the **RadMap**.
 
 ````ASP.NET
-<telerik:RadMap runat="server" ID="RadMap1" Zoom="6" Width="1000" Height="500" >
+<telerik:RadMap RenderMode="Lightweight" runat="server" ID="RadMap1" Zoom="6" Width="1000" Height="500" >
 	<CenterSettings Latitude="51.525619" Longitude="-0.111802" />
 	<LayersCollection>
 		<telerik:MapLayer Type="Tile" 

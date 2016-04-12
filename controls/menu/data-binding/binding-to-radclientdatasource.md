@@ -37,7 +37,7 @@ The code snippet below shows sample configuration of RadMenu bound to RadClientD
 	<ClientEvents />
 </telerik:RadClientDataSource>
 
-<telerik:RadMenu ID="RadMenu1" runat="server" Height="300px" Width="100%" ClientDataSourceID="CD1" PersistLoadOnDemandNodes="false"
+<telerik:RadMenu RenderMode="Lightweight" ID="RadMenu1" runat="server" Height="300px" Width="100%" ClientDataSourceID="CD1" PersistLoadOnDemandNodes="false"
 	DataFieldParentID="ParentID" DataFieldID="ID" DataTextField="Name" DataValueField="Value" DataNavigateUrlField="URL">
 </telerik:RadMenu>
 ````

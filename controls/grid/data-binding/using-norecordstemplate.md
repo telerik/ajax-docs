@@ -23,7 +23,7 @@ The **NoRecordsTemplate** should be populated for each detail table (in case of 
 You can control the visibility of thetable/NoRecordsTemplate controls by using corresponding Controls(0), Controls(1) of each **GridTableView**. This should happen after it was data-bound.
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" runat="server">
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server">
   <MasterTableView>
     <NoRecordsTemplate>
       <div>

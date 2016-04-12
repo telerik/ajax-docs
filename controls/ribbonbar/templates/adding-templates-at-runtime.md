@@ -21,7 +21,7 @@ The following help article demonstrates how you can add templates to RadRibbonBa
 
 
 ````ASPNET
-<telerik:RadRibbonBar ID="RadRibbonBar1" runat="server" />
+<telerik:RadRibbonBar RenderMode="Lightweight" ID="RadRibbonBar1" runat="server" />
 ````
 
 

@@ -50,7 +50,7 @@ The recommended approach to style a DIV content area is to target the elements i
         }
 </style>
 
-<telerik:RadEditor ID="Editor" runat="server" ContentAreaMode="Div" Skin="Silk">
+<telerik:RadEditor RenderMode="Lightweight" ID="Editor" runat="server" ContentAreaMode="Div" Skin="Silk">
     <Content>
         <h1>This is a Heading</h1>
         <p>Plain paragraph.</p>

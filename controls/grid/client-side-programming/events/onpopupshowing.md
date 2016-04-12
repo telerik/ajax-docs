@@ -31,7 +31,7 @@ This event fires when the pop-up edit form is being shown. The event could be ha
 Example:
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" runat="server">
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server">
     <ClientSettings>
         <ClientEvents OnPopUpShowing ="PopUpShowing" />
     </ClientSettings>

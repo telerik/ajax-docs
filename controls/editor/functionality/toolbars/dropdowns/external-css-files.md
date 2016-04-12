@@ -26,7 +26,7 @@ Thanks to the **CssFiles** collection, you can add multiple CSS files to the **R
 >caption Example 1: Adding external CSS files via markup.
 
 ````ASP.NET
-<telerik:RadEditor runat="server" ID="RadEditor1">
+<telerik:RadEditor RenderMode="Lightweight" runat="server" ID="RadEditor1">
 	<CssFiles>
 		<telerik:EditorCssFile Value="~/ExternalCssFiles/Styles1.css" />
 		<telerik:EditorCssFile Value="~/ExternalCssFiles/Styles2.css" />
@@ -90,7 +90,7 @@ The CSS classes available in the external CSS files will populate the **Apply Cs
 >
 >    **ASP.NET**
 >    - - -
->        <telerik:RadEditor ID="RadEditor1" runat="server">
+>        <telerik:RadEditor RenderMode="Lightweight" ID="RadEditor1" runat="server">
 >            <CssFiles>
 >                <telerik:EditorCssFile Value="" />
 >            </CssFiles>

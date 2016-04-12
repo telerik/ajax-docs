@@ -84,7 +84,7 @@ The same settings are available as properties of the grid control:
 The style settings can also be set through the **MasterTableView** declaration:
 
 ````ASP.NET
-<telerik:RadGrid        
+<telerik:RadGrid RenderMode="Lightweight"        
    ID="RadGrid1" runat="server" AllowSorting="True" DataSourceID="SqlDataSource1" GridLines="None">        
       <MasterTableView CommandItemDisplay="Top" CommandItemStyle-BackColor="lightblue"  CommandItemStyle-Font-Bold="true">...			
 ````

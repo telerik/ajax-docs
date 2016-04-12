@@ -71,11 +71,11 @@ The following markup shows how to use **radopen()**, **GetRadWindowManager().ope
 
 ````ASP.NET
 //The RadWindowManager object has two child windows
-<telerik:RadWindowManager ID="RadWindowManager1" runat="server">
+<telerik:RadWindowManager RenderMode="Lightweight" ID="RadWindowManager1" runat="server">
 	<Windows>
-		<telerik:RadWindow ID="RadWindow1" runat="server" NavigateUrl="http://www.google.com">
+		<telerik:RadWindow RenderMode="Lightweight" ID="RadWindow1" runat="server" NavigateUrl="http://www.google.com">
 		</telerik:RadWindow>
-		<telerik:RadWindow ID="RadWindow2" runat="server" NavigateUrl="http://www.telerik.com">
+		<telerik:RadWindow RenderMode="Lightweight" ID="RadWindow2" runat="server" NavigateUrl="http://www.telerik.com">
 		</telerik:RadWindow>
 	</Windows>
 </telerik:RadWindowManager>

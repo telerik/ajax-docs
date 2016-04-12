@@ -21,7 +21,7 @@ In order to enable the WAI-ARIA support, set the **RadDropDownList** contol's **
 
 
 ````ASPNET
-<telerik:RadDropDownList ID="RadDropDownList1" runat="server" EnableAriaSupport="true">
+<telerik:RadDropDownList RenderMode="Lightweight" ID="RadDropDownList1" runat="server" EnableAriaSupport="true">
     <Items>
         <telerik:DropDownListItem Text="RadDropDownListItem 1" Value="1" />
         <telerik:DropDownListItem Text="RadDropDownListItem 2" Value="2" />
