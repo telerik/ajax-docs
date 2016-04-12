@@ -8,54 +8,60 @@ published: True
 position: 0
 ---
 
+
 # Keyboard Support
 
 
-A critical requirement for software accessibility is keyboard support as a complete alternative to pointing devices (mouse, etc.). Keyboard support is comprised of access keys, keyboard navigation, and keyboard shortcuts. RadMenu seamlessly switches between mouse and keyboard navigation, just like in desktop applications.
+A critical requirement for software accessibility is keyboard support as a complete alternative to pointing devices (mouse, etc.). Keyboard support is comprised of command key, focus key, and keyboard navigation. **RadMenu** seamlessly switches between mouse and keyboard navigation.
 
-Using the **AccessKey** property, you can associate an activation combination (access key) which moves focus to a particular menu item and enables keyboard navigation. When there are multiple menus on a given page, each of them may have a different activation combination.
+Setting the control's **KeyboardNavigationSettings**, allows you to associate an activation combination (**CommandKey** + **FocusKey**), which moves focus to the **RadMenu**'s first item and enables keyboard navigation. When there are multiple **RadMenu** controls on a given page, each of them may have a different activation combination.
 
-## Setting access keys
+## Keyboard Navigation Settings
 
-**AccessKey** is a property of the **RadMenuItem** class. **AccessKey** sets the keyboard shortcut that may be used to activate a menu item. The value of the **AccessKey** property can only be a single character. When the user presses the [ALT] key in combination with the value specified by **AccessKey**, focus moves to the associated item.The user can then subsequently use the arrow keys for navigation. (See below.)
+The **KeyboardNavigationSettings** exposes two properties to configure the keyboard combination that sets focus to the control: 
 
->note In **Opera**, access keys work by pressing **Shift+ESC**, then pressing the assigned **access key**.
->In **FireFox** and **Chrome**, access keys work by pressing **Alt + Shift + access key**.
->Note also that in some browsers like **FireFox** and **Chrome** some of the keyboard combination are already occupied by the browser itself. Therefore you will need to focus the Menu first, then use the arrow keys to navigate between the RadMenuItems.
+* **CommandKey**: [Ctrl] , [Alt] or [Shift].
+
+* **FocusKey**: An upper-case letter or number.
+
+Pressing **CommandKey** + **FocusKey** sets the focus on the **RadMenu**'s first item and enables keyboard navigation. 
+
+>note Certain keyboard combinations are reserved and used as shortcuts in the browsers. 
 >
 
 
-To set a keyboard shortcut to a menu item, simply set the **AccessKey** property to the desired key. When AccessKey is set, the character specified by AccessKey appears underlined in the menu item text:
-
-![](images/menu_accesskeys.png)
-
 ````ASP.NET
-<telerik:RadMenu ID="RadMenu1" runat="server" Flow="Horizontal" Skin="Inox">
-    <Items>
-        <telerik:RadMenuItem runat="server" ExpandMode="ClientSide" Text="Company" AccessKey="C">
-        </telerik:RadMenuItem>
-        <telerik:RadMenuItem runat="server" ExpandMode="ClientSide" Text="Products" AccessKey="P">
-        </telerik:RadMenuItem>
-        <telerik:RadMenuItem runat="server" ExpandMode="ClientSide" Text="Support" AccessKey="S">
-        </telerik:RadMenuItem>
-    </Items>
+<telerik:RadMenu ID="RadMenu1" runat="server" RenderMode="Lightweight">
+    <KeyboardNavigationSettings CommandKey="Alt" FocusKey="M" />
+	<Items>
+		<telerik:RadMenuItem Text="File" >
+		</telerik:RadMenuItem>
+		<telerik:RadMenuItem Text="Edit" >
+		</telerik:RadMenuItem>
+	</Items>
 </telerik:RadMenu>
 ````
 
-## Keyboard navigation
+## Keyboard Navigation
 
-Keyboard navigation is supported by using the [TAB] and arrow keys. Use the [TAB] key to move focus to the **RadMenu** control, and then use the arrow keys to move among menu items.
+* Focus the **RadMenu**'s first item by pressing **CommandKey** + **FocusKey**:
 
-Child menu items are expanded using the arrow keys from the opposite (perpendicular) axis: for example, in a horizontal menu, the left and right arrow keys navigate among the parent items; child items are accessed with the up and down arrow keys. As of **Q2 2016** release, sub-items list can also be expanded by using the [Space] key.
+![Control Focus](images/menu-focus.png)
 
-Use the [ESC] key to go back one level.
+* Navigate the items using **Left** and **Right Arrow** keys:
 
->note If you are using **Q1 2016 SP** or a previous release of the **UI for ASP.NET AJAX** controls, an alternative to arrow keys for moving forward and backward among the menu items are the [TAB] and [SHIFT]+[TAB] key combinations:
+![Item Navigation](images/menu-left-right-arrow.png)
+
+>note If you are using **Q1 2016 SP** or a previous release of the **UI for ASP.NET AJAX** controls, an alternative to arrow keys for moving forward and backward among the menu items are the **TAB** and **SHIFT** + **TAB** key combinations:
 >
->* To move forward, use the [TAB] key.
+>* To move forward, use the **TAB** key.
 >
->* To move backward, use the [SHIFT]+[TAB] key combination.
+>* To move backward, use the **SHIFT** + **TAB** key combination.
 >
+
+* Expand the submenus using **Down** and **Up Arrow** keys:
+
+![Expand Submenu](images/menu-up-down-arrow.png)
 
 The following properties are related to keyboard accessibility as they define the flow and expanding direction of menu items:
 
@@ -64,6 +70,14 @@ The following properties are related to keyboard accessibility as they define th
 * **GroupSettings** Each **RadMenuItem** has a **GroupSettings** property that specifies how its child menu expands. Apart from setting the **Flow** property on the menu level, you can explicitly set the flow and the expanding direction for each particular menu item. The values you set at this level affect the selected item's children.
 
 To learn more about the **Flow** and **ExpandDirection** properties, see [Controlling the Layout of Child Items]({%slug menu/appearance-and-styling/layout-of-child-items%}).
+
+* Select a focused item and expand its submenu by pressing **Enter** or **Space bar**. As of **Q2 2016** release, sub-items list can also be expanded by using the **Space bar** key:
+
+![Select Enter](images/menu-enter.png)
+
+* Close an expanded submenu by pressing **Esc**:
+
+![Close Submenu](images/menu-escape.png)
 
 # See Also
 

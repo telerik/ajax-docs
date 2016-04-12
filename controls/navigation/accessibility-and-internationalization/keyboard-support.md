@@ -30,8 +30,16 @@ Pressing **CommandKey** + **FocusKey** sets the focus on the **RadNavigation**'s
 
 
 ````ASP.NET
-<telerik:RadNavigation ID="RadTabStrip1" runat="server" RenderMode="Lightweight">
+<telerik:RadNavigation ID="RadNavigation1" runat="server">
     <KeyboardNavigationSettings CommandKey="Alt" FocusKey="M" />
+	<Nodes>
+		<telerik:NavigationNode Text="Home" >
+		</telerik:NavigationNode>
+		<telerik:NavigationNode Text="Products" >
+		</telerik:NavigationNode>
+		<telerik:NavigationNode Text="About Us" >
+		</telerik:NavigationNode>
+	</Nodes>
 </telerik:RadNavigation>
 ````
 
