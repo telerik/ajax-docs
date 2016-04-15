@@ -5,7 +5,7 @@ description: How To Configure Animations
 slug: rotator/getting-started/how-to-configure-animations
 tags: how,to,configure,animations
 published: True
-position: 1
+position: 2
 ---
 
 # How To Configure Animations

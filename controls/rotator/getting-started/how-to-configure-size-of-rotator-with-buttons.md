@@ -10,21 +10,78 @@ position: 1
 
 # How To Configure Size of Rotator with Buttons
 
-This help article illustrates how to properly configure the size of a rotator with buttons, so that the items are not cut/misaligned on shown/during animiation playing.
+This help article illustrates how to properly configure the size of a rotator with buttons, so that the items are not cut or misaligned on initial showing or during animiation playing.
 
- * [Configure Rotator without Buttons]({%slug rotator/getting-started/overview%})
+ * [RadRotator Dimensions Configuration]({%slug rotator/getting-started/overview%}#radrotator-dimensions-configuration)
  
  * [Configure Rotator with Buttons](#configure-rotator-with-buttons)
+ 
+ * [Example (RadRotatorSizeConfigurator Class Implementation)](#example-radrotatorsizeconfigurator-class-implementation)
 
 ## Configure Rotator with Buttons
 
 To configure a rotator with buttons you should do the following:
- * Define the proper dimensions for the rotator, its items and item template as per the [Configure Rotator without Buttons]({%slug rotator/getting-started/overview%}) article.
- * Determine the size of the buttons and just add it to the rotator's width.
+ * Define the proper dimensions for the rotator, its items and item template as per the [RadRotator Dimensions Configuration]({%slug rotator/getting-started/overview%}#radrotator-dimensions-configuration) article.
+ * Determine the size of the buttons and just add it to the rotator's width/height. 
  
->caption **Figure 1**: A snapshot of a rotator with buttons that has 4 items. The code that creates it is available in **Example 1** and **Example 2**.
+For example if we want to show four items(100x100 pixels) in a  horizontal rotator with buttons for the black skin with Lightweight render mode we can follow the steps below:
+* Set the single item's dimensions - `ItemWidth`="100" `ItemHeight`="100".
+* Set the item template dimensions - .itemTemplate {width: 100px; height: 100px;}.
+* Inspect the size of a single button - 30x30. 
+
+	![rotator-size-buttons](images/inspect-button-size.png)
+	
+* Calculate and set the rotator's width - (4 items * 100) + 2 buttons * 30 = 400 + 60 = 460px.
+
+>tip All of the explained logic stays the same if the `ScrollDirection`="Up, Down" is set, but it should be applied to the `Height` and `ItemHeight` properties, respectively.
+
+>caption **Figure 1**: A snapshot of a rotator with buttons that has 4 items. The code that creates it is available in **Example 1**.
 
 ![rotator-size-buttons](images/rotator-size-buttons.png)
+
+>caption **Example 1**: Configure rotator with button that will have 4 items.
+
+````CSS
+<style type="text/css">
+	body {
+		font-size: 14px;
+	}
+
+	.itemTemplate {
+		width: 100px;
+		height: 100px;
+	}
+</style>
+````
+ 
+````ASPX
+<telerik:RadRotator ID="RadRotator1" runat="server" Width="460" ItemWidth="100" Height="100" RotatorType="Buttons" RenderMode="Lightweight" Skin="Black"
+	ItemHeight="100" DataSourceID="SqlDataSource1" FrameDuration="1000">
+	<ItemTemplate>
+		<asp:Image CssClass="itemTemplate" ID="Image1" runat="server" ImageUrl='<%# Eval("CustomerID", "~/Img/Northwind/Customers/{0}.jpg") %>'
+			AlternateText="IMAGE" />
+	</ItemTemplate>
+</telerik:RadRotator>
+
+<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
+	SelectCommand="SELECT [CustomerID] FROM [Customers]"></asp:SqlDataSource>
+````
+ 
+You can find the list of the button sizes for the different skins in **Classic** and **Lightweight** render mode in **List 1** and **List 2**. The base is 14px font-size.
+
+>caption **List 1**: RadRotator button sizes for all the skins with "Lightweight" render mode.
+* **Bootstrap** - 34px
+* **Material** - 38px
+* The rest skins - 30px
+
+>caption **List 2**: RadRotator button sizes for all the skins with "Classic" render mode.
+* **Glow**, **Silk**, **MetroTouch**, **BlackMetroTouch** - 28px
+* **Bootstrap** - 34px
+* The rest skins - 20px
+
+## Example (RadRotatorSizeConfigurator Class Implementation)
+
+You can find below an example of a helper class (i.e., RadRotatorSizeConfigurator) that automatically calculates and set the rotator's width based on the desired number of items, the set skin and render mode. The class accepts three parameters - the instance of the rotator, the number of the visible items in the view port and the skin (optional). 
  
 >caption **Example 1**:  Configure rotator with buttons that has 4 items (100px x 100px) per view. The method that calculates the actual width is shown in **Example 2**.
 
@@ -42,14 +99,14 @@ To configure a rotator with buttons you should do the following:
 ````
 
 ````ASPX
-<telerik:RadRotator ID="RadRotator1" runat="server" Width="300" ItemWidth="100" Height="100" RotatorType="Buttons" RenderMode="Lightweight" Skin="Black"
+<telerik:RadRotator ID="RadRotator1" runat="server" ItemWidth="100" Height="100" RotatorType="Buttons" RenderMode="Lightweight" Skin="Black"
 	ItemHeight="100"  DataSourceID="SqlDataSource1" FrameDuration="1000">
 	<ItemTemplate>
 		<asp:Image CssClass="itemTemplate" ID="Image1" runat="server" ImageUrl='<%# Eval("CustomerID", "~/Img/Northwind/Customers/{0}.jpg") %>'
 			AlternateText="IMAGE" />
 	</ItemTemplate>
 </telerik:RadRotator>
-<asp:Label ID="Label1" Text="" runat="server" />
+
 <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
 	SelectCommand="SELECT [CustomerID] FROM [Customers]"></asp:SqlDataSource>
 ````
@@ -226,6 +283,5 @@ End Class
 
 # See Also
 
- * [CoverFlow Mode Online Demo](http://demos.telerik.com/aspnet-ajax/rotator/examples/coverflowmode/defaultcs.aspx)
-
- * [RadRotator Types Online Demo](http://demos.telerik.com/aspnet-ajax/rotator/examples/rotatortypes/defaultcs.aspx)
+ * [RadRotator Dimensions Configuration]({%slug rotator/getting-started/overview%}#radrotator-dimensions-configuration)
+ 
