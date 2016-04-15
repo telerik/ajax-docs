@@ -12,51 +12,76 @@ position: 0
 
 
 
-A critical requirement for software accessibility is keyboard support as a complete alternative to pointing devices (mouse, etc.). Keyboard support is comprised of access keys, keyboard navigation, and keyboard shortcuts. **RadPanelBar** seamlessly switches between mouse and keyboard navigation, just like in desktop applications.
+A critical requirement for software accessibility is keyboard support as a complete alternative to pointing devices (mouse, etc.). Keyboard support is comprised of navigation key, command key, keyboard navigation, and action keys. **RadPanelBar** seamlessly switches between mouse and keyboard navigation.
 
-Using the **AccessKey** property, you can associate an activation combination (access key) which moves focus to a particular panel item and enables keyboard navigation. When there are multiple panel bars on a given page, each of them may have a different activation combination.
+## KeyboardNavigationSettings
 
-## Setting access keys
+Setting the control's **KeyboardNavigationSettings**, allows you to associate an activation combination (**CommandKey** + **FocusKey**), which moves focus directly to the **RadPanelBar** and enables keyboard navigation. When there are multiple PanelBars on a given page, each of them may have a different activation combination.
 
-**AccessKey** is a property of the **RadPanelItem** class. **AccessKey** sets the keyboard shortcut that can be used to move focus to a panel item. The value of the **AccessKey** property can only be a single character. When the user presses the [ALT] key in combination with the value specified by **AccessKey**, focus moves to the associated item. The user can then subsequently use the arrow keys for navigation. (See below.)
+The **KeyboardNavigationSettings** exposes two properties to configure the keyboard combination that sets focus to the control: 
 
->note In Opera, access keys work by pressing Shift+ESC, then pressing the assigned access key.
->
+* **FocusKey**: An upper-case letter or number.
 
+* **CommandKey**: [Ctrl] , [Alt] or [Shift].
 
-To set a keyboard shortcut to a menu item, simply set the **AccessKey** property to the desired key. When **AccessKey** is set, the character specified by **AccessKey** appears underlined in the panel item text:
+Pressing the keys set to these two properties at the same time places the focus on the PanelBar. The user can then use the **arrow keys** to navigate among the items in the control or the **action keys** to trigger specific action. 
 
-![Access Keys](images/panelbar_accesskeys.png)
+**Example 1**: Setting the **KeyboardNavigationSettings** for **RadPanelBar**
 
 ````ASPNET
-<telerik:radpanelbar id="RadPanelBar1" runat="server" skin="Metro">  
-	<Items>    
-		<telerik:RadPanelItem  runat="server" Text="Personal" AccessKey="P" />    
-		<telerik:RadPanelItem  runat="server" Text="Education" AccessKey="E" />    
-		<telerik:RadPanelItem  runat="server" Text="Job History" AccessKey="H" />  
-	</Items>
-</telerik:radpanelbar>
+<telerik:RadPanelBar RenderMode="Lightweight" ID="RadPanelBar1" runat="server" >
+    <KeyboardNavigationSettings CommandKey="Alt" FocusKey="W" />
+</telerik:RadPanelBar>
 ````
 
+![panelbar-accessibilityandinternalization-keyboardsupport-focus](images/navigation-and-command.png)
+
+>note Note that in some browsers certain keyboard combinations are already occupied and used by the browser itself. 
+>
 
 
 ## Keyboard navigation
 
-Keyboard navigation is supported by using the [TAB] and arrow keys. Use the [TAB] key to move focus to the first panel item, and then use the up and down arrow keys to move among panel items.
+Keyboard navigation is supported by using the **arrow keys** and special keyboard shortcuts:
 
-An alternative to arrow keys for moving forward and backward along the panel bar are the [TAB] and [SHIFT]+[TAB] key combinations:
+* To move forward (down), use the [Down arrow] or the [Right arrow] key.
 
-* To move forward, use the [TAB] key.
+	![panelbar-accessibilityandinternalization-keyboardsupport-doun-right-arrows](images/down-right-arrows.png)
 
-* To move backward, use the [SHIFT]+[TAB] key combination.
+* To move backward (up), use the [Up arrow] or the [Left arrow] key.
 
-Child panel items are expanded using the [ENTER] key when the parent panel item has focus. Once a panel is expanded, the child items enter the tab sequence, so that the arrow key or [TAB] key navigation now includes all visible panel items, regardless of their level.
+	![panelbar-accessibilityandinternalization-keyboardsupport-left-up-arrows](images/left-up-arrows.png)
 
-If a panel item has no child items, then pressing the [ENTER] key when the item has focus causes the item to be selected.
+* To move to the parent of the focused item, use [Ctrl] + [Up arrow].
 
-To collapse a group of child panel items, use the [ESC] when the parent item has focus.
+	![panelbar-accessibilityandinternalization-keyboardsupport-control](images/ctrl-and-up.png)
 
->note Collapsing items using the [ESC] key does not always work. It depends on the [ExpandMode property]({%slug panelbar/radpanelbar-items/expanding-and-collapsing-items%}).
+* To move to the first sibling element at the same level of the currently active item, use the [Home] key.
+
+	![panelbar-accessibilityandinternalization-keyboardsupport-home](images/home.png)
+
+* To move to the last sibling element at the same level of the currently active item, use the [End] key.
+
+	![panelbar-accessibilityandinternalization-keyboardsupport-end](images/end.png)
+
+>note The arrow keyboard navigation includes all visible panel items, regardless of their level
+>
+
+
+## Action keys
+
+**RadPanelBar** uses also two action keys to perform specific actions:
+
+* To expand or collapse child items of an item, use the [Space] key.
+
+	![panelbar-accessibilityandinternalization-keyboardsupport-space](images/space.png)
+
+* To select / trigger click on an item, use the [Enter] key.
+
+	![panelbar-accessibilityandinternalization-keyboardsupport-enter](images/enter.png)
+
+
+>note Collapsing items does not always work. It depends on the [ExpandMode property]({%slug panelbar/radpanelbar-items/expanding-and-collapsing-items%}).
 >
 
 
