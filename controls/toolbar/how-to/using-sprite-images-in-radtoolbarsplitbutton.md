@@ -41,7 +41,7 @@ To change the text and the image of the selected RadToolBarButton in the **RadTo
 ````
 
 ````ASPNET
-<telerik:RadToolBar ID="RadToolBar1" runat="server" OnClientButtonClicking="onClientButtonClicking" EnableRoundedCorners="true" EnableShadows="true" Skin="Metro">
+<telerik:RadToolBar RenderMode="Lightweight" ID="RadToolBar1" runat="server" OnClientButtonClicking="onClientButtonClicking" EnableRoundedCorners="true" EnableShadows="true" Skin="Metro">
     <Items>
         <telerik:RadToolBarSplitButton EnableImageSprite="true" CssClass="red">
             <Buttons>

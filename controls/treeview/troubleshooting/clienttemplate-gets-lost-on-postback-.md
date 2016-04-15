@@ -21,7 +21,7 @@ When initially loading data form the web service the **ClientTemplates** are app
 
 
 ````ASPNET
-<telerik:RadTreeView ID="RadTreeView1" runat="server" >
+<telerik:RadTreeView RenderMode="Lightweight" ID="RadTreeView1" runat="server" >
         <ClientNodeTemplate>
            Template Text: #= Text #
         </ClientNodeTemplate>

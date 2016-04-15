@@ -28,7 +28,7 @@ function OnClientLoad(sender)
  tabStrip1 = sender;
 }
 </script>
-<telerik:RadTabStrip ID="RadTabStrip1" runat="server" OnClientLoad="OnClientLoad" ... /> 				
+<telerik:RadTabStrip RenderMode="Lightweight" ID="RadTabStrip1" runat="server" OnClientLoad="OnClientLoad" ... /> 				
 ````
 
 >note The technique illustrated here can be used when the tab strip is nested within another control, but the **RadTabStrip** must be rendered only once. For example, you can use this approach if **RadTabStrip** is nested in a tool bar template button. However, if **RadTabStrip** is nested in a grid with more than one row, the method fails since there will be multiple instances of the rendered tab strip.

@@ -39,7 +39,7 @@ Two parameters are passed to the event handler:
 Use the **OnButtonClick** event to provide a client-side response when the user clicks on a button:
 
 ````ASPNET
-<telerik:RadDateInput ID="RadDateInput1" runat="server" ShowButton="True">
+<telerik:RadDateInput RenderMode="Lightweight" ID="RadDateInput1" runat="server" ShowButton="True">
 	<ClientEvents OnButtonClick="ToggleEnabled" />
 </telerik:RadDateInput>
 ````

@@ -20,7 +20,7 @@ The Header and Footer templates let you specify custom header or footer that wil
 For example, consider the following markup:
 
 ````XML	    
-<telerik:RadListBox runat="server" ID="DemoListBox">
+<telerik:RadListBox RenderMode="Lightweight" runat="server" ID="DemoListBox">
 	<HeaderTemplate>
 		 <h5>Header template</h5>
 	</HeaderTemplate>

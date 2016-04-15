@@ -19,7 +19,7 @@ By default, all **RadImageEditor** dialogs are embedded as resource fils in the 
 >note In order to use the external dialogs of the control in a [precompiled site scenario](https://msdn.microsoft.com/en-us/library/399f057w%28v=vs.85%29.aspx) you have to manually copy the folder with the modified dialogs to the precompiled version of the site.
 
 ````ASP.NET
-<telerik:RadImageEditor ID="RadImageEditor1" ExternalDialogsPath="~/ImageEditorDialogs" runat="server">
+<telerik:RadImageEditor RenderMode="Lightweight" ID="RadImageEditor1" ExternalDialogsPath="~/ImageEditorDialogs" runat="server">
 </telerik:RadImageEditor>
 ````
 
@@ -36,7 +36,7 @@ This example demonstrates how to add fonts in the AddText dialog's dropdown:
 1. Open the **AddText.ascx** file and locate the **RadComboBox** with ID **fontFamily** so you can add more options to it:
 
 ````ASP.NET
-<telerik:RadComboBox ID="fontFamily" runat="server" AutoPostBack="false" EnableViewState="false"
+<telerik:RadComboBox RenderMode="Lightweight" ID="fontFamily" runat="server" AutoPostBack="false" EnableViewState="false"
   CausesValidation="false" Width="130px">
   <Items>
     <telerik:RadComboBoxItem Text="Arial" Value="arial" />
@@ -64,7 +64,7 @@ If you want to **hide some functionality** in some dialog, you can do that by ap
 	        Preset Sizes:</label>
 	</td>
 	<td colspan="2">
-	    <telerik:RadComboBox ID="PresetSizes" runat="server" AutoPostBack="false" EnableViewState="false"
+	    <telerik:RadComboBox RenderMode="Lightweight" ID="PresetSizes" runat="server" AutoPostBack="false" EnableViewState="false"
 	        CausesValidation="false" Width="140px">
 	        <Items>
 	            <telerik:RadComboBoxItem Text="Original W x H" Value="original" />

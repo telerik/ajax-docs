@@ -17,7 +17,7 @@ The **RadConfirm** dialog is essentially a RadWindow, which means it is entirely
 A hidden button with the desired event handler can be placed on the page and the **__doPostBack()** function can be used to call it. There are different ways to use it and some of them are listed in the [Confirm Server Clicks Online Demo](http://demos.telerik.com/aspnet-ajax/window/examples/confirmserverclicks/defaultcs.aspx) or in [this article in the net](http://www.codedigest.com/Articles/ASPNET/320_Doing_or_Raising_Postback_using**_doPostBack()_function_from_Javascript_in_AspNet.aspx). For example:
 
 ````ASP.NET
-<telerik:RadWindowManager runat="server" ID="RadWindowManager1"></telerik:RadWindowManager>
+<telerik:RadWindowManager RenderMode="Lightweight" runat="server" ID="RadWindowManager1"></telerik:RadWindowManager>
 <asp:Button ID="Button1" Text="call the RadConfirm" OnClick="Button1_Click" runat="server" />
 <asp:Button ID="HiddenButton" Text="" Style="display: none;" OnClick="HiddenButton_Click" runat="server" />
 <script type="text/javascript">
@@ -65,7 +65,7 @@ The above example can contain an UpdatePanel around the hidden button in order t
 
 
 ````ASP.NET
-<telerik:RadWindowManager runat="server" ID="RadWindowManager1"></telerik:RadWindowManager>
+<telerik:RadWindowManager RenderMode="Lightweight" runat="server" ID="RadWindowManager1"></telerik:RadWindowManager>
 <telerik:RadAjaxManager runat="server" ID="RadAjaxManager1" OnAjaxRequest="OnAjaxRequest">
 	<AjaxSettings>
 		<telerik:AjaxSetting AjaxControlID="RadAjaxManager1">
@@ -134,7 +134,7 @@ An alternative is to use Page methods to finish the task as they also provide an
 
 ````ASP.NET
 <asp:ScriptManager ID="Scriptmanager1" runat="server" EnablePageMethods="true" />
-<telerik:RadWindowManager runat="server" ID="RadWindowManager1">
+<telerik:RadWindowManager RenderMode="Lightweight" runat="server" ID="RadWindowManager1">
 </telerik:RadWindowManager>
 <asp:Button ID="Button3" Text="call the RadConfirm" OnClick="Button3_Click" runat="server" />
 <script type="text/javascript">
@@ -218,9 +218,9 @@ Another approach is to use a RadWindow to mimic the built-in RadConfirm dialog -
 
 
 ````ASP.NET
-<telerik:RadWindowManager runat="server" ID="RadWindowManager1">
+<telerik:RadWindowManager RenderMode="Lightweight" runat="server" ID="RadWindowManager1">
 	<Windows>
-		<telerik:RadWindow ID="rw_customConfirm" Modal="true" Behaviors="Close, Move" VisibleStatusbar="false"
+		<telerik:RadWindow RenderMode="Lightweight" ID="rw_customConfirm" Modal="true" Behaviors="Close, Move" VisibleStatusbar="false"
 			Width="300px" Height="200px" runat="server">
 			<ContentTemplate>
 				<div class="rwDialogPopup radconfirm">
@@ -228,9 +228,9 @@ Another approach is to use a RadWindow to mimic the built-in RadConfirm dialog -
 						<asp:Literal ID="confirmMessage" Text="" runat="server" />
 					</div>
 					<div>
-						<telerik:RadButton runat="server" ID="rbConfirm_OK" Text="OK" OnClick="rbConfirm_OK_Click">
+						<telerik:RadButton RenderMode="Lightweight" runat="server" ID="rbConfirm_OK" Text="OK" OnClick="rbConfirm_OK_Click">
 						</telerik:RadButton>
-						<telerik:RadButton runat="server" ID="rbConfirm_Cancel" Text="Cancel" OnClientClicked="closeCustomConfirm">
+						<telerik:RadButton RenderMode="Lightweight" runat="server" ID="rbConfirm_Cancel" Text="Cancel" OnClientClicked="closeCustomConfirm">
 						</telerik:RadButton>
 					</div>
 				</div>

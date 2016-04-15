@@ -45,7 +45,7 @@ By default the selected value is Auto.
 As previously mentioned, the ImageRenderingMode can be set on RadRibbonBar and on any RibbonBarItem. This means that you can set a general rule on RibbonBar level and make exceptions on the level of item. In order to fully show the power of this approach, here is an example:
 
 ````ASPNET
-<telerik:RadRibbonBar runat="server" ID="RadRibbonBar1" ImageRenderingMode="Clip">
+<telerik:RadRibbonBar RenderMode="Lightweight" runat="server" ID="RadRibbonBar1" ImageRenderingMode="Clip">
 	<telerik:RibbonBarTab Text="Tab1">
 		<telerik:RibbonBarGroup Text="Group1">
 			<Items>

@@ -23,7 +23,7 @@ Similar actions could be performed for persistence of other controls state in **
 
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" runat="server" AutoGenerateColumns="False" AllowSorting="True"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" AutoGenerateColumns="False" AllowSorting="True"
   AllowPaging="True" PageSize="3">
   <MasterTableView DataMember="Customers" PageSize="3" AllowPaging="True">
     <PagerStyle Mode="NumericPages"></PagerStyle>

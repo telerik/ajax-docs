@@ -36,7 +36,7 @@ This situation is useful when there is some description (or another DOM element)
 <div id="wrapper" style="position: relative; width: 98%;">
     <asp:Label Text="The ShowOnFocus toolbar should appear above this element." runat="server" />
 
-    <telerik:RadEditor ID="RadEditor1" runat="server" ToolbarMode="ShowOnFocus"
+    <telerik:RadEditor RenderMode="Lightweight" ID="RadEditor1" runat="server" ToolbarMode="ShowOnFocus"
          OnClientLoad="OnClientLoad" Skin="Silk">
         <Content>
             Some content.

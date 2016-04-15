@@ -29,7 +29,7 @@ This event can be used for executing a custom code when the mouse pointer leaves
 		eventLog.innerHTML = "You moved the cursor out of item with index " + eventArgs.get_item().get_index();
 	}
 </script>
-<telerik:RadRotator ID="RadRotator1" runat="server" ScrollDirection="Left" Height="113px"
+<telerik:RadRotator RenderMode="Lightweight" ID="RadRotator1" runat="server" ScrollDirection="Left" Height="113px"
 	ItemHeight="113px" Width="150px" ItemWidth="150px" OnClientMouseOut="OnClientMouseOut">
 	<ItemTemplate>
 		<img src=".........." alt="" />

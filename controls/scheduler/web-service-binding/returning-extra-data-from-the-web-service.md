@@ -89,7 +89,7 @@ You can then access the Code from the client-side requestSuccess event:
 	 alert("Code: " + e.get_result().Code);
 	}
 </script>
-<telerik:RadScheduler runat="server" ID="RadScheduler1" ...
+<telerik:RadScheduler RenderMode="Lightweight" runat="server" ID="RadScheduler1" ...
 OnClientRequestSuccess="requestSuccess">
 <WebServiceSettings Path="~/SchedulerDataService.asmx" />
 </telerik:RadScheduler>

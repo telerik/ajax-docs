@@ -38,7 +38,7 @@ The **RadNotification** control contains one more control from Telerik AJAX UI S
 
 	**ASP.NET**
 
-		    <telerik:RadNotification ID="RadNotification1" runat="server" Title="Title" EnableShadow="true"
+		    <telerik:RadNotification RenderMode="Lightweight" ID="RadNotification1" runat="server" Title="Title" EnableShadow="true"
 		        EnableRoundedCorners="true" EnableEmbeddedSkins="false" ShowTitleMenu="true"
 		        Width="400" OffsetX="-60" OffsetY="-230" ShowInterval="500" Animation="Fade" Skin="MyCustomSKin"
 		        Text="Morbi sed turpis at tortor malesuada condimentum id laoreet felis.">

@@ -73,7 +73,7 @@ The following example demonstrates how to benefit by using both of the controls 
                     RadXmlHttpPanel here:
                     <br />
                     <br />
-                    <telerik:RadGrid ID="RadGrid1" OnNeedDataSource="RadGrid1_NeedDataSource" OnUpdateCommand="RadGrid1_UpdateCommand"
+                    <telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" OnNeedDataSource="RadGrid1_NeedDataSource" OnUpdateCommand="RadGrid1_UpdateCommand"
                         Width="97%" AllowSorting="True" PageSize="10" AllowPaging="True" AllowMultiRowSelection="True"
                         runat="server" GridLines="None" RegisterWithScriptManager="false">
                         <MasterTableView Width="100%" Summary="RadGrid table">

@@ -19,9 +19,9 @@ position: 0
 The declaration of RadDropDownList objects includes no **DataSourceID** property or **`<items>`** section:
 
 ````ASPNET
-<telerik:RadDropDownList ID="RadDropDownList1" EmptySelectionMessage="sadasd" runat="server">
+<telerik:RadDropDownList RenderMode="Lightweight" ID="RadDropDownList1" EmptySelectionMessage="sadasd" runat="server">
 </telerik:RadDropDownList>
-<telerik:RadDropDownList ID="RadDropDownList2" EmptySelectionMessage="sadasd" runat="server">
+<telerik:RadDropDownList RenderMode="Lightweight" ID="RadDropDownList2" EmptySelectionMessage="sadasd" runat="server">
 </telerik:RadDropDownList>
 ````
 

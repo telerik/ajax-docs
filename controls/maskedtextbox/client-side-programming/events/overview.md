@@ -45,7 +45,7 @@ To use these events, simply write a javascript function that can be called when 
 		alert(message);
 	}
 </script>
-<telerik:RadMaskedTextBox ID="RadMaskedTextBox1" runat="server" PromptChar="_" Mask="(###) ###-#####"
+<telerik:RadMaskedTextBox RenderMode="Lightweight" ID="RadMaskedTextBox1" runat="server" PromptChar="_" Mask="(###) ###-#####"
 	Skin="Web20">
 	<ClientEvents OnError="OnMaskError" />
 </telerik:RadMaskedTextBox>

@@ -49,7 +49,7 @@ The **OnImageEditing** server-side handler receives two arguments - one is of ty
 The below example shows how to add a custom command that will add some text to the image on the server. The added text is passed as an argument from the client and then some information is returned from the server to the client
 
 ````ASP.NET
-<telerik:RadImageEditor runat="server" ID="RadImageEditor1" ImageUrl="~/image1.png"
+<telerik:RadImageEditor RenderMode="Lightweight" runat="server" ID="RadImageEditor1" ImageUrl="~/image1.png"
     OnImageEditing="OnImageEditing">
     <Tools>
         <telerik:ImageEditorToolGroup>

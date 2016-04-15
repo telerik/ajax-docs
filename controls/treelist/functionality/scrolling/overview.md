@@ -42,7 +42,7 @@ When **UseStaticHeaders** is **False**, the header scrolls along with the data r
 You can set the scrolling properties as below:
 
 ````ASPNET
-<telerik:RadTreeList ID="RadTreeList1" runat="server">
+<telerik:RadTreeList RenderMode="Lightweight" ID="RadTreeList1" runat="server">
 	<ClientSettings>
 		<Scrolling AllowScroll="true" UseStaticHeaders="true" SaveScrollPosition="true" ScrollHeight="350px" />
 	</ClientSettings>

@@ -24,7 +24,7 @@ Alternatively, you can traverse the entire **ContextMenus** collection and disab
 >caption Example 1: Disable context menus by using the server-side `Enabled` property.
 
 ````ASP.NET
-<telerik:RadEditor runat="server" ID="RadEditor1">
+<telerik:RadEditor RenderMode="Lightweight" runat="server" ID="RadEditor1">
 </telerik:RadEditor>
 ````
 
@@ -49,7 +49,7 @@ In order to disable context menus through client-side script:
 >caption Example 2: Disable all context menus via clinet-side script.
 
 ````ASP.NET
-<telerik:RadEditor runat="server" ID="RadEditor1" OnClientLoad="OnClientLoad">
+<telerik:RadEditor RenderMode="Lightweight" runat="server" ID="RadEditor1" OnClientLoad="OnClientLoad">
 </telerik:RadEditor>
 
 <script>

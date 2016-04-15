@@ -31,7 +31,7 @@ This event should be attached to identify the target element on which the dragge
 Example:
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" runat="server">
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server">
     <ClientSettings>
         <ClientEvents OnRowDropping="RowDropping" />
     </ClientSettings>

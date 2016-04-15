@@ -29,7 +29,7 @@ To be able to get or set values client-side, first you should know how to get th
 	</script>
 </telerik:RadCodeBlock>
 <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
-<telerik:RadInputManager ID="RadInputManager1" runat="server">
+<telerik:RadInputManager RenderMode="Lightweight" ID="RadInputManager1" runat="server">
 	<telerik:TextBoxSetting BehaviorID="Behavior1">
 		<TargetControls>
 			<telerik:TargetInput ControlID="TextBox1" />
@@ -84,7 +84,7 @@ On the Server-side, you can operate with the TextBox value directly through the 
 
 ````ASPNET
 <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
-<telerik:RadInputManager ID="RadInputManager1" runat="server">
+<telerik:RadInputManager RenderMode="Lightweight" ID="RadInputManager1" runat="server">
 	<telerik:TextBoxSetting BehaviorID="Behavior1">
 		<TargetControls>
 			<telerik:TargetInput ControlID="TextBox1" />

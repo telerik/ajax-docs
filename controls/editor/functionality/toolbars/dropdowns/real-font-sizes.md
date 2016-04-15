@@ -17,7 +17,7 @@ The Real Font Sizes dropdown displays a predefined set of font sizes in pixels a
 ## Using the RealFontSizes Collection Declaratively
 
 ````ASP.NET
-<telerik:RadEditor runat="server" ID="RadEditor1">
+<telerik:RadEditor RenderMode="Lightweight" runat="server" ID="RadEditor1">
 	<RealFontSizes>
 		<telerik:EditorRealFontSize Value="12pt" />
 		<telerik:EditorRealFontSize Value="18pt" />

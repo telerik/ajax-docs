@@ -21,7 +21,7 @@ The event handler receives two arguments:
 >caption Example 1: How to save the **ExportOutput** to a file on the server and prevent it from being sent to the client.
 
 ````ASP.NET
-<telerik:RadEditor runat="server" ID="RadEditor1" OnExportContent="RadEditor1_ExportContent" ContentFilters="DefaultFilters, PdfExportFilter">
+<telerik:RadEditor RenderMode="Lightweight" runat="server" ID="RadEditor1" OnExportContent="RadEditor1_ExportContent" ContentFilters="DefaultFilters, PdfExportFilter">
 </telerik:RadEditor>
 <asp:Button runat="server" ID="Button1" Text="Export to PDF" OnClick="Button1_Click" />
 ````
@@ -89,7 +89,7 @@ End Class
 >caption Example 2: Dynamically adding header and footer elements to the exported document in the **OnExportContent** event.
 
 ````ASP.NET
-<telerik:RadEditor runat="server" ID="RadEditor1" OnExportContent="RadEditor1_ExportContent" ContentFilters="DefaultFilters, PdfExportFilter"></telerik:RadEditor>
+<telerik:RadEditor RenderMode="Lightweight" runat="server" ID="RadEditor1" OnExportContent="RadEditor1_ExportContent" ContentFilters="DefaultFilters, PdfExportFilter"></telerik:RadEditor>
 <asp:Button runat="server" ID="Button1" Text="Export to DOCX" OnClick="Button1_Click" />
 ````
 ````C#

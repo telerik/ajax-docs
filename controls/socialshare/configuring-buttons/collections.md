@@ -15,7 +15,7 @@ position: 2
 **RadSocialShare** offers two inner tags that are used to declare the list of buttons that are shown to the user. These are the **MainButtons** and **CompactButtons** collections. They both contain the **`<telerik:RadSocialButton />`** items which are the actual buttons.
 
 ````ASP.NET
-<telerik:RadSocialShare runat="server" ID="RadSocialShare1" UrlToShare="http://www.telerik.com/products/aspnet-ajax.aspx">
+<telerik:RadSocialShare RenderMode="Lightweight" runat="server" ID="RadSocialShare1" UrlToShare="http://www.telerik.com/products/aspnet-ajax.aspx">
     <MainButtons>
         <telerik:RadSocialButton SocialNetType="ShareOnFacebook" />
         <telerik:RadSocialButton SocialNetType="ShareOnTwitter" />

@@ -40,28 +40,28 @@ Enter values in the text boxes and click the Submit button.<br />
 <!-- The following TextBox controls have different -->
 <!-- categories assigned to their AutoCompleteType -->
 <!-- properties. -->
-<telerik:RadTextBox ID="FirstNameTextBox" AutoCompleteType="FirstName" runat="server"
+<telerik:RadTextBox RenderMode="Lightweight" ID="FirstNameTextBox" AutoCompleteType="FirstName" runat="server"
 	Label="First Name:" /><br />
-<telerik:RadTextBox ID="LastNameTextBox" AutoCompleteType="LastName" runat="server"
+<telerik:RadTextBox RenderMode="Lightweight" ID="LastNameTextBox" AutoCompleteType="LastName" runat="server"
 	Label="Last Name:" /><br />
-<telerik:RadTextBox ID="EmailTextBox" AutoCompleteType="Email" runat="server" Label="Email:" /><br />
+<telerik:RadTextBox RenderMode="Lightweight" ID="EmailTextBox" AutoCompleteType="Email" runat="server" Label="Email:" /><br />
 <!-- The following TextBox controls have the same -->
 <!-- categories assigned to their AutoCompleteType -->
 <!-- properties. They share the same AutoComplete -->
 <!-- list. -->
-<telerik:RadTextBox ID="Phone1TextBox" AutoCompleteType="HomePhone" runat="server"
+<telerik:RadTextBox RenderMode="Lightweight" ID="Phone1TextBox" AutoCompleteType="HomePhone" runat="server"
 	Label="Phone Line #1:" /><br />
-<telerik:RadTextBox ID="Phone2TextBox" AutoCompleteType="HomePhone" runat="server"
+<telerik:RadTextBox RenderMode="Lightweight" ID="Phone2TextBox" AutoCompleteType="HomePhone" runat="server"
 	Label="Phone Line #2:" /><br />
 <!-- The following TextBox control has its -->
 <!-- AutoCompleteType property set to -->
 <!-- AutoCompleteType.None. All TextBox controls -->
 <!-- with the same ID across different pages share -->
 <!-- the same AutoComplete list. -->
-<telerik:RadTextBox ID="CategoryTextBox" AutoCompleteType="None" runat="server" Label="Category:" /><br />
+<telerik:RadTextBox RenderMode="Lightweight" ID="CategoryTextBox" AutoCompleteType="None" runat="server" Label="Category:" /><br />
 <!-- The following TextBox control has the -->
 <!-- AutoComplete feature disabled. -->
-<telerik:RadTextBox ID="CommentsTextBox" AutoCompleteType="Disabled" runat="server"
+<telerik:RadTextBox RenderMode="Lightweight" ID="CommentsTextBox" AutoCompleteType="Disabled" runat="server"
 	Label="Comments:" /><br />
 <br />
 <br />

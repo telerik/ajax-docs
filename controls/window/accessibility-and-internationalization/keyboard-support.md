@@ -21,14 +21,14 @@ There are three ways to specify these shortcuts. The more common two are: in the
 >caption **Example 1**: Set keyboard shortcuts in the markup.
 
 ````ASP.NET
-<telerik:RadWindowManager ID="RadWindowManager1" runat="server">
+<telerik:RadWindowManager RenderMode="Lightweight" ID="RadWindowManager1" runat="server">
 	<Shortcuts>
 		<telerik:WindowShortcut CommandName="RestoreAll" Shortcut="Alt+F3" />
 		<telerik:WindowShortcut CommandName="Tile" Shortcut="Alt+F6" />
 		<telerik:WindowShortcut CommandName="CloseAll" Shortcut="Esc" />
 	</Shortcuts>
 	<Windows>
-		<telerik:RadWindow ID="RadWindow1" runat="server" VisibleOnPageLoad="true"
+		<telerik:RadWindow RenderMode="Lightweight" ID="RadWindow1" runat="server" VisibleOnPageLoad="true"
 			NavigateUrl="http://www.telerik.com">
 			<Shortcuts>
 				<telerik:WindowShortcut CommandName="Maximize" Shortcut="Ctrl+F2" />

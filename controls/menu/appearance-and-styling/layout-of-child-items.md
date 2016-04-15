@@ -53,7 +53,7 @@ Similarly, when **Flow** is **Horizontal**, and **Width** is too small to fit al
 The following **RadMenu** declaration shows how the **GroupSettings** is attached to the parent menu item. It gives all items that have children an **ExpandDirection** of **Down**, a **Flow** of **Horizontal**, and an **OffsetX** of 10 pixels:
 
 ````ASP.NET
-<telerik:RadMenu ID="RadMenu1" runat="server" Flow="Horizontal" Skin="Vista">
+<telerik:RadMenu RenderMode="Lightweight" ID="RadMenu1" runat="server" Flow="Horizontal" Skin="Vista">
     <Items>
         <telerik:RadMenuItem runat="server" Text="Root Item 1">
             <Items>

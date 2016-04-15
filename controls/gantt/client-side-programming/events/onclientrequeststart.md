@@ -27,7 +27,7 @@ The event handler receives two parameters:
 * **set_cancel** lets you cancel the event and stop the request.
 
 ````ASP.NET
-<telerik:RadGantt runat="server" id="RadGantt1" OnClientRequestStart="OnClientRequestStart">
+<telerik:RadGantt RenderMode="Lightweight" runat="server" id="RadGantt1" OnClientRequestStart="OnClientRequestStart">
 </telerik:RadGantt>
 ````
 

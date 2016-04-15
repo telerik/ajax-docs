@@ -31,7 +31,7 @@ The event handler receives parameters:
 The example below shows how to prevent collapsing the "Search" node. Note that the **OnClientNodeCollapsed** event does not fire when the collapse (minus) button is clicked.
 
 ````ASPNET
-<telerik:RadTreeView ID="RadTreeView1" 
+<telerik:RadTreeView RenderMode="Lightweight" ID="RadTreeView1" 
     runat="server" 
     OnClientNodeCollapsed="ClientNodeCollapsed"
     OnClientNodeCollapsing="ClientNodeCollapsing">

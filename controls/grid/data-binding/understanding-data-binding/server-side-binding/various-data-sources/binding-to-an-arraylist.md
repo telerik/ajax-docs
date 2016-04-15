@@ -19,14 +19,14 @@ You can use a wide variety of custom objects as data sources for **RadGrid**. Th
 
 
 ````C#
-<telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="True" CellSpacing="0"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" AllowPaging="True" CellSpacing="0"
     GridLines="None" OnNeedDataSource="RadGrid1_NeedDataSource1" PageSize="10">
     <MasterTableView AutoGenerateColumns="true">
     </MasterTableView>
 </telerik:RadGrid>
 ````
 ````VB
-<telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="True" CellSpacing="0"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" AllowPaging="True" CellSpacing="0"
     GridLines="None" PageSize="10">
     <MasterTableView AutoGenerateColumns="true">
     </MasterTableView>

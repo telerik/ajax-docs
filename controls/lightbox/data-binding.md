@@ -131,7 +131,7 @@ End Sub
 		}
 	</script>
 </telerik:RadCodeBlock>
-<telerik:RadLightBox ID="RadLightBox1" runat="server" SelectMethod="GetPictures" DataImageUrlField="Path">
+<telerik:RadLightBox RenderMode="Lightweight" ID="RadLightBox1" runat="server" SelectMethod="GetPictures" DataImageUrlField="Path">
 	 
 </telerik:RadLightBox>
 <asp:Button ID="Button8" runat="server" Text="Show LightBox" OnClientClick="OpenLightBox(); return false;" />
@@ -496,7 +496,7 @@ To bind the databound **RadLightBox** via ModelBinding you need to set only the 
 		}
 	</script>
 </telerik:RadCodeBlock>
-<telerik:RadLightBox ID="RadLightBox1" runat="server" SelectMethod="GetPictures" DataImageUrlField="Path">
+<telerik:RadLightBox RenderMode="Lightweight" ID="RadLightBox1" runat="server" SelectMethod="GetPictures" DataImageUrlField="Path">
 	 
 </telerik:RadLightBox>
 <asp:Button ID="Button7" runat="server" Text="Show LightBox" OnClientClick="OpenLightBox(); return false;" />

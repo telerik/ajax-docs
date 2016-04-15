@@ -22,7 +22,7 @@ There are scenarios in which you may want to include additional button right aft
 
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" runat="server">
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server">
   <MasterTableView EditMode="InPlace">
     <Columns>
       <telerik:GridEditCommandColumn UniqueName="EditCommandColumn">

@@ -77,7 +77,7 @@ End Function
 Another example, demonstrating binding to a declarative datasource. In this case there is no code behind code needed. One only need to set the DataSourceID and DataTextField property of RadListBox:
 
 ````ASPNET
-<telerik:RadListBox runat="server" ID="RadListBox1" Height="200px" DataKeyField="ProductID"
+<telerik:RadListBox RenderMode="Lightweight" runat="server" ID="RadListBox1" Height="200px" DataKeyField="ProductID"
 	DataTextField="ProductName" DataValueField="ProductID"
 	EnableLoadOnDemand="true" Width="300px" CheckBoxes="true" DataSourceID="SqlDataSource1">
 </telerik:RadListBox>
@@ -139,7 +139,7 @@ The **ItemsRequested** event handler of the **RadListBox** could be use for achi
 In the example bellow, you could observe how a button in the **FooterTemplate** of the RadListBox is used, in order to load the underlying datasource in portions.
 
 ````ASPNET
-<telerik:RadListBox runat="server"
+<telerik:RadListBox RenderMode="Lightweight" runat="server"
 	ID="RadListBox1"
 	Height="200px"
 	OnItemsRequested="RadListBox1_ItemsRequested"

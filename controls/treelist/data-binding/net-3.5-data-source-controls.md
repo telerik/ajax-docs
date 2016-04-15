@@ -26,7 +26,7 @@ All you need to do is set the **DataSourceID** property of the TreeList tothe ID
 Refer to the code snippet in the next paragraph:
 
 ````ASPNET
-<telerik:RadTreeList runat="server" ID="TreeList1" DataSourceID="LinqDataSource1"
+<telerik:RadTreeList RenderMode="Lightweight" runat="server" ID="TreeList1" DataSourceID="LinqDataSource1"
 	AllowPaging="true" PageSize="5" DataKeyNames="id" ParentDataKeyNames="parentId">
 </telerik:RadTreeList>
 <asp:LinqDataSource runat="server" ID="LinqDataSource1" ContextTypeName="TelerikSamplesDataContext"

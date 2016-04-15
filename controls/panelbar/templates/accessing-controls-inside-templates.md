@@ -17,9 +17,9 @@ position: 3
 In order to access a control (a CheckBox in the particular example) embedded in a **HeaderTemplate** of a RadPanelBar control using server-side you can use the following code:
 
 ````ASPNET
-<telerik:RadButton runat="server" ID="button0" Text="UncheckCheckBox" OnClick="button0_Click">
+<telerik:RadButton RenderMode="Lightweight" runat="server" ID="button0" Text="UncheckCheckBox" OnClick="button0_Click">
     </telerik:RadButton> 
-    <telerik:RadPanelBar ID="RadPanelBar0" runat="server">
+    <telerik:RadPanelBar RenderMode="Lightweight" ID="RadPanelBar0" runat="server">
     <Items>
         <telerik:RadPanelItem Text="PanleItem1">
             <HeaderTemplate>
@@ -70,7 +70,7 @@ For example, use the following panel bar:
 <Items>        
     <telerik:RadPanelItem Text="Color Picker" runat="server">            
     <ContentTemplate>                
-        <telerik:RadColorPicker ID="RadColorPicker1" runat="server" AutoPostBack="True" Preset="Standard" OnColorChanged="RadColorPicker1_ColorChanged">              
+        <telerik:RadColorPicker RenderMode="Lightweight" ID="RadColorPicker1" runat="server" AutoPostBack="True" Preset="Standard" OnColorChanged="RadColorPicker1_ColorChanged">              
          </telerik:RadColorPicker>    
          <asp:Label ID="Label1" runat="server" BackColor="White"> Example</asp:Label>            
       </ContentTemplate>        
@@ -127,7 +127,7 @@ For example, consider the following panel bar:
     <Items>        
         <telerik:RadPanelItem runat="server" >            
         <ItemTemplate>                
-            <telerik:RadColorPicker ID="RadColorPicker1" runat="server" AutoPostBack="True" Preset="Standard" OnColorChanged="RadColorPicker1_ColorChanged">               
+            <telerik:RadColorPicker RenderMode="Lightweight" ID="RadColorPicker1" runat="server" AutoPostBack="True" Preset="Standard" OnColorChanged="RadColorPicker1_ColorChanged">               
              </telerik:RadColorPicker>                
              <asp:Label ID="Label1" runat="server" BackColor="White"> Example </asp:Label>            
          </ItemTemplate>        

@@ -25,7 +25,7 @@ Here is the sample declaration that results in the above screenshot:
 **RadTileList** example:
 
 ````ASP.NET
-<telerik:RadTileList runat="server" id="RadTileList1">
+<telerik:RadTileList RenderMode="Lightweight" runat="server" id="RadTileList1">
 <Groups>
 	<telerik:TileGroup>
 		<telerik:RadTextTile Text="Lorem ipsum dolor sit amet.">

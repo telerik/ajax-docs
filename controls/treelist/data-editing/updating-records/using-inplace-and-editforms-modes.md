@@ -29,7 +29,7 @@ It would be easy to recognize the currently updated item by its DataKeyValue if 
 
 
 ````ASPNET
-<telerik:RadTreeList ID="RadTreeList1" runat="server" DataKeyNames="EmployeeID" ParentDataKeyNames="ReportsTo"
+<telerik:RadTreeList RenderMode="Lightweight" ID="RadTreeList1" runat="server" DataKeyNames="EmployeeID" ParentDataKeyNames="ReportsTo"
 	AutoGenerateColumns="false" DataSourceID="SqlDataSource1"
 	OnUpdateCommand="RadTreeList1_UpdateCommand">
 	<Columns>
@@ -112,7 +112,7 @@ This can be achieved by getting hold of the current editable item and then acces
 
 
 ````ASPNET
-<telerik:RadTreeList ID="RadTreeList2" runat="server" DataKeyNames="EmployeeID" ParentDataKeyNames="ReportsTo"
+<telerik:RadTreeList RenderMode="Lightweight" ID="RadTreeList2" runat="server" DataKeyNames="EmployeeID" ParentDataKeyNames="ReportsTo"
 	AutoGenerateColumns="false" DataSourceID="SqlDataSource1"
 	OnUpdateCommand="RadTreeList2_UpdateCommand">
 	<Columns>

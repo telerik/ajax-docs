@@ -25,7 +25,7 @@ The embedded **RadDateInput** has two properties that you can use to specify a f
 Both properties expect [date format pattern]({%slug calendar/accessibility-and-internationalization/date-format-patterns%}) as a value.
 
 ````ASPNET
-<telerik:RadDateTimePicker ID="RadDateTimePicker1" runat="server">
+<telerik:RadDateTimePicker RenderMode="Lightweight" ID="RadDateTimePicker1" runat="server">
     <DateInput
         DateFormat="M/d/yyyy hh:mm tt"
         DisplayDateFormat="MMMM d, yyyy  hh:mm tt"  >
@@ -53,7 +53,7 @@ Both properties take a [date format pattern]({%slug calendar/accessibility-and-i
 In addition, the **CellDayFormat** property lets you specify how to format the numbers that label each day in the day matrix. This is a standard ASP.NET number format string.
 
 ````ASPNET
-<telerik:RadDateTimePicker ID="RadDateTimePicker1" runat="server">
+<telerik:RadDateTimePicker RenderMode="Lightweight" ID="RadDateTimePicker1" runat="server">
     <Calendar UseColumnHeadersAsSelectors="False" UseRowHeadersAsSelectors="False"
         CellDayFormat="[%d]"
         DayCellToolTipFormat="MMM d, yyyy"
@@ -69,7 +69,7 @@ In addition, the **CellDayFormat** property lets you specify how to format the n
 You can control the **TimeFormat** property for the embedded **RadTimeView** control by using a [date format pattern]({%slug calendar/accessibility-and-internationalization/date-format-patterns%}) that specifies how the time values will be displayed.
 
 ````ASPNET
-<telerik:RadDateTimePicker ID="RadDateTimePicker1" runat="server">
+<telerik:RadDateTimePicker RenderMode="Lightweight" ID="RadDateTimePicker1" runat="server">
     <TimeView runat="server" TimeFormat="h:mm t"></TimeView>
 </telerik:RadDateTimePicker>
 ````

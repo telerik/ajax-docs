@@ -19,7 +19,7 @@ This help article describes how you can add query string parameters to the uploa
 As of Q3 2012 one can add string parameters to each uploading file in the **onClientFileUploading** client event by using the **set_queryStringParams()** method of the eventArgs parameter.
 
 ````ASP.NET
-<telerik:RadAsyncUpload runat="server" ID="RadAsyncUpload1" MultipleFileSelection="Automatic" OnClientFileUploading="onClientFileUploading">
+<telerik:RadAsyncUpload RenderMode="Lightweight" runat="server" ID="RadAsyncUpload1" MultipleFileSelection="Automatic" OnClientFileUploading="onClientFileUploading">
 </telerik:RadAsyncUpload>
 	         
 ````

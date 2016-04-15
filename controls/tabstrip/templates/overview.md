@@ -29,7 +29,7 @@ At design time, add item templates to your **RadTabStrip** control using the [Te
 The following example uses both a global **RadTab** Template and individual **Item** templates to override the global template for the root level tabs:
 
 ````ASPNET	
-<telerik:RadTabStrip ID="RadTabStrip1" runat="server" SelectedIndex="0">
+<telerik:RadTabStrip RenderMode="Lightweight" ID="RadTabStrip1" runat="server" SelectedIndex="0">
  <Tabs>
    <telerik:RadTab runat="server" Text="Products" Selected="True" SelectedIndex="0">
      <Tabs>

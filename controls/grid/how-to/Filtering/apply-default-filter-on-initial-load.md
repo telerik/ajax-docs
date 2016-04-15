@@ -24,7 +24,7 @@ You can set the initial filter for a **RadGrid** control so that when the Web pa
 The following example shows a grid that sets an initial filter so that when the Web page first appears, the only items that are displayed are from Germany:
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" runat="server" AllowFilteringByColumn="True" AutoGenerateColumns="False"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" AllowFilteringByColumn="True" AutoGenerateColumns="False"
 DataSourceID="SqlDataSource1">
    <MasterTableView FilterExpression="([Country] LIKE '%Germany%')">
       <Columns>
@@ -98,7 +98,7 @@ End Sub
 When the grid contains a **GridCheckBoxColumn**, the syntax for the **FilterExpression** is slightly different, as shown in the following example:
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" runat="server" AllowFilteringByColumn="True" AutoGenerateColumns="False"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" AllowFilteringByColumn="True" AutoGenerateColumns="False"
   OnNeedDataSource="RadGrid1_NeedDataSource">
   <MasterTableView FilterExpression="([chkBoxColumnDataField] = True)">
     <Columns>

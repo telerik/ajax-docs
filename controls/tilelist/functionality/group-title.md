@@ -21,7 +21,7 @@ When data binding a TileList control, you can set the group titles declaratively
 >caption Example 1: Set group title via server property. This code results in Figure 1.
 
 ````
-<telerik:RadTileList runat="server" ID="RadTileList1">
+<telerik:RadTileList RenderMode="Lightweight" runat="server" ID="RadTileList1">
 	<Groups>
 		<telerik:TileGroup Title="First Group">
 			<telerik:RadTextTile runat="server" ID="RadTextTile1" Text="tile 1, group 1"></telerik:RadTextTile>
@@ -52,7 +52,7 @@ When data binding a TileList control, you can set the group titles declaratively
 		});
 	}
 </script>
-<telerik:RadTileList runat="server" ID="RadTileList1">
+<telerik:RadTileList RenderMode="Lightweight" runat="server" ID="RadTileList1">
 	<Groups>
 		<telerik:TileGroup>
 			<telerik:RadTextTile runat="server" ID="RadTextTile1" Text="tile 1, group 1"></telerik:RadTextTile>
@@ -78,7 +78,7 @@ When data binding a TileList control, you can set the group titles declaratively
 		tileList.clearGroupTitles();
 	}
 </script>
-<telerik:RadTileList runat="server" ID="RadTileList1">
+<telerik:RadTileList RenderMode="Lightweight" runat="server" ID="RadTileList1">
 	<Groups>
 		<telerik:TileGroup Title="First Group">
 			<telerik:RadTextTile runat="server" ID="RadTextTile1" Text="tile 1, group 1"></telerik:RadTextTile>

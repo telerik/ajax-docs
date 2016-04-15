@@ -17,7 +17,7 @@ This help article demonstrates how to bind, display and customize shapes with **
 For displaying shapes in a **RadMap** layer, the **Type** property of the **MapLayer** should be set to **Shape:**
 
 ````ASP.NET
-<telerik:RadMap runat="server" ID="RadMap1">
+<telerik:RadMap RenderMode="Lightweight" runat="server" ID="RadMap1">
 	<LayersCollection>
 		<telerik:MapLayer Type="Shape"></telerik:MapLayer>
 	</LayersCollection>
@@ -35,7 +35,7 @@ For binding **GeoJSON** data to a **Shape** layer, the **ClientDataSourceID** pr
 	 </DataSource>
 </telerik:RadClientDataSource>
 	
-<telerik:RadMap runat="server" ID="RadMap1">
+<telerik:RadMap RenderMode="Lightweight" runat="server" ID="RadMap1">
 	 <LayersCollection>
 		  <telerik:MapLayer ClientDataSourceID="RadClientDataSource1" Type="Shape"></telerik:MapLayer>
 	 </LayersCollection>
@@ -61,7 +61,7 @@ Following is an example for handling the client-side **OnShapeCreated** event an
 	</DataSource>
 </telerik:RadClientDataSource>
 
-<telerik:RadMap runat="server" ID="RadMap1" Width="800px" Height="500px">
+<telerik:RadMap RenderMode="Lightweight" runat="server" ID="RadMap1" Width="800px" Height="500px">
 	<LayersCollection>
 		<telerik:MapLayer ClientDataSourceID="RadClientDataSource1" Type="Shape"></telerik:MapLayer>
 	</LayersCollection>
@@ -94,7 +94,7 @@ The Circle objects then could be customized within the client-side **OnShapeCrea
 	</DataSource>
 </telerik:RadClientDataSource>
 
-<telerik:RadMap runat="server" ID="RadMap1" Width="800px" Height="500px">
+<telerik:RadMap RenderMode="Lightweight" runat="server" ID="RadMap1" Width="800px" Height="500px">
 	<LayersCollection>
 		<telerik:MapLayer ClientDataSourceID="RadClientDataSource1" Type="Shape"></telerik:MapLayer>
 	</LayersCollection>

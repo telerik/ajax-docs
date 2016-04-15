@@ -17,7 +17,7 @@ When binding the Telerik RadMenu to data, custom attributes can be set in the [I
 Here is an example:
 
 ````ASP.NET
-<telerik:RadMenu ID="RadMenu1" runat="server" OnItemDataBound="RadMenu1_ItemDataBound">
+<telerik:RadMenu RenderMode="Lightweight" ID="RadMenu1" runat="server" OnItemDataBound="RadMenu1_ItemDataBound">
 </telerik:RadMenu>
 ````
 

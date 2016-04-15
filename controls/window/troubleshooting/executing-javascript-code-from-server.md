@@ -73,7 +73,7 @@ For example let’s call the RadWindow’s radalert() function after a postback 
 ````ASP.NET
 <form id="form3" runat="server">  
 	<asp:ScriptManager ID="ScriptManager1" runat="server" /> 
-	<telerik:RadWindowManager ID="RadWindowManager1" runat="server">  
+	<telerik:RadWindowManager RenderMode="Lightweight" ID="RadWindowManager1" runat="server">  
 	</telerik:RadWindowManager>  
 	<asp:Button ID="Button2" Text="Postback and show RadAlert" runat="server"  OnClick="Button1_Click" /> 
 </form> 
@@ -103,7 +103,7 @@ End Sub
 <form id="form4" runat="server">  
 	<asp:ScriptManager ID="ScriptManager2" runat="server">  
 	</asp:ScriptManager>  
-	<telerik:RadWindowManager ID="RadWindowManager1" runat="server">  
+	<telerik:RadWindowManager RenderMode="Lightweight" ID="RadWindowManager1" runat="server">  
 	</telerik:RadWindowManager>  
 	<asp:UpdatePanel ID="UpdatePanel1" runat="server">  
 		<ContentTemplate>  

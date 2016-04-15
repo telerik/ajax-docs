@@ -19,7 +19,7 @@ The controls inside can be accessed directly from the page without first going t
 
 
 ````ASP.NET
-<telerik:RadWindow runat="server" id="RadWindow2" VisibleOnPageLoad="true">
+<telerik:RadWindow RenderMode="Lightweight" runat="server" id="RadWindow2" VisibleOnPageLoad="true">
 	<ContentTemplate>
 		<asp:Label ID="Label1" Text="" runat="server" />
 	</ContentTemplate>
@@ -41,7 +41,7 @@ End Sub
 For more complex scenarios (e.g. accessing user controls and casting them to their type) or to add controls you can use the full hierarchy of the control tree:
 
 ````ASP.NET
-<telerik:RadWindow ID="RadWindow1" VisibleOnPageLoad="true" runat="server">
+<telerik:RadWindow RenderMode="Lightweight" ID="RadWindow1" VisibleOnPageLoad="true" runat="server">
 	<ContentTemplate>
 		<asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
 		<asp:Button ID="Button1" runat="server" Text="Click me" OnClick="Button1_Click" />
@@ -72,7 +72,7 @@ End Sub
 The RadWindow in this case is only an [INaming container](http://msdn.microsoft.com/en-us/library/system.web.ui.inamingcontainer.aspx) and thus using the controls inside via **JavaScript** requires their correct **Client IDs**:
 
 ````ASP.NET
-<telerik:RadWindow runat="server" id="RadWindow3" VisibleOnPageLoad="true">
+<telerik:RadWindow RenderMode="Lightweight" runat="server" id="RadWindow3" VisibleOnPageLoad="true">
 	<ContentTemplate>
 		<asp:Label ID="Label2" Text="" runat="server" />
 	</ContentTemplate>

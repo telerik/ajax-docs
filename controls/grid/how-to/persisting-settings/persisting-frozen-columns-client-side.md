@@ -44,7 +44,7 @@ function gridCommand(sender, args) {
 ````
 ````ASP.NET
 <telerik:RadAjaxPanel runat="server">
-    <telerik:RadGrid runat="server" ID="RadGrid1" OnNeedDataSource="RadGrid1_NeedDataSource" AllowPaging="true" EnableHeaderContextMenu="true" Width="700px">
+    <telerik:RadGrid RenderMode="Lightweight" runat="server" ID="RadGrid1" OnNeedDataSource="RadGrid1_NeedDataSource" AllowPaging="true" EnableHeaderContextMenu="true" Width="700px">
         <HeaderStyle Width="200px" />
         <MasterTableView>
         </MasterTableView>

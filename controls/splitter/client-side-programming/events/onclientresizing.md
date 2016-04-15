@@ -46,7 +46,7 @@ The following example uses the **OnClientResizing** event to prevent resizes tha
 			eventArgs.set_cancel(true);
 	}
 </script>
-<telerik:RadSplitter runat="server" id="RadSplitter1" >
+<telerik:RadSplitter RenderMode="Lightweight" runat="server" id="RadSplitter1" >
  <telerik:RadPane runat="server" id="RadPane1" Height="80px"  >
  </telerik:RadPane>
  <telerik:RadSplitBar runat="server" id="RadSplitBar1" CollapseMode="Both"  />

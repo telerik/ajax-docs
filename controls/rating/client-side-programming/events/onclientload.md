@@ -23,7 +23,7 @@ You can check how to set the value of the rating control in its **OnClientLoad**
 **Example 1**: Using the **OnClientLoad** event.
 
 ````ASP.NET
-<telerik:RadRating runat="server" ID="RadRating1" OnClientLoad="OnClientLoad"></telerik:RadRating>
+<telerik:RadRating RenderMode="Lightweight" runat="server" ID="RadRating1" OnClientLoad="OnClientLoad"></telerik:RadRating>
 <script type="text/javascript">
 	function OnClientLoad(sender, args) {
 		sender.set_value(3);

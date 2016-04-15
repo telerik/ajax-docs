@@ -39,7 +39,7 @@ You can use this event to respond when the user clicks on a ribbonbar menu item:
     }       
 </script>
 
-<telerik:RadRibbonBar ID="RadRibbonBar1" runat="server" OnClientMenuItemClicking="OnClientMenuItemClicking">
+<telerik:RadRibbonBar RenderMode="Lightweight" ID="RadRibbonBar1" runat="server" OnClientMenuItemClicking="OnClientMenuItemClicking">
     <telerik:RibbonBarTab Text="Home">
         <telerik:RibbonBarGroup Text="Image">
             <Items>

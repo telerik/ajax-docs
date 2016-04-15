@@ -46,7 +46,7 @@ To scroll a node into view when the page first loads:
             }
         </script>
 
-        <telerik:RadTreeView ID="RadTreeView1" runat="server" Width="150" Height="200">
+        <telerik:RadTreeView RenderMode="Lightweight" ID="RadTreeView1" runat="server" Width="150" Height="200">
             <Nodes>
                 . . . other nodes
                 <telerik:RadTreeNode runat="server" ExpandMode="ClientSide" Text="Selected Node"

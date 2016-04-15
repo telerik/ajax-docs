@@ -31,7 +31,7 @@ As of Q2 2012 **RadTreeView** provides support for client templates. The templat
 On the server the template will be presented as a string property of the control, named **ClientItemTemplate**. Below a static and dynamic definition of a client template is shown
 
 ````ASPNET
-<telerik:RadTreeView ID="RadTreeView1" runat="server">
+<telerik:RadTreeView RenderMode="Lightweight" ID="RadTreeView1" runat="server">
     <Nodes>
         ...
     </Nodes>
@@ -96,7 +96,7 @@ Sample code for the usage of the new method is demonstrated below.
 
 * Adding item and then binding the Control’s template to it:
 ````ASPNET
-<telerik:RadTreeView runat="server" ID="RadTreeView1">
+<telerik:RadTreeView RenderMode="Lightweight" runat="server" ID="RadTreeView1">
     <ClientNodeTemplate>
         Template text: #= Text #
     </ClientNodeTemplate>
@@ -135,7 +135,7 @@ node.bindTemplate();
 
 * Bind the client template to an item rendered on the server:
 ````ASPNET
-<telerik:RadTreeView runat="server" ID="RadTreeView1">
+<telerik:RadTreeView RenderMode="Lightweight" runat="server" ID="RadTreeView1">
     <Nodes>
         <telerik:RadTreeNode Text"node"></telerik:RadTreeNode>
     </Nodes>

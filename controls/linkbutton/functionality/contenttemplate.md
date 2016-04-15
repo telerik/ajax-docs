@@ -31,7 +31,7 @@ In order to add controls to the **RadLinkButton** in the markup, you should plac
 	<telerik:RadLinkButton runat="server" ID="RadLinkButton1" NavigateUrl="http://www.telerik.com" Target="_blank">
 		<ContentTemplate>
 			<img alt="cog" src="http://demos.telerik.com/aspnet-ajax/button/examples/contenttemplate/Images/cog.png" />
-			<telerik:RadRating ID="RadRating1" runat="server" Enabled="false" Value="3" SelectionMode="Continuous" ItemCount="5" />
+			<telerik:RadRating RenderMode="Lightweight" ID="RadRating1" runat="server" Enabled="false" Value="3" SelectionMode="Continuous" ItemCount="5" />
 			<div>Tasks</div>
 		</ContentTemplate>
 	</telerik:RadLinkButton>

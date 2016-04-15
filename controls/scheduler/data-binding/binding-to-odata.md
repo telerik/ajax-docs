@@ -60,7 +60,7 @@ Here is how the declaration of a RadScheduler bound to a RadODataDataSource cont
 		</telerik:DataModel>
 	</Schema>
 </telerik:RadODataDataSource>
-<telerik:RadScheduler ID="RadScheduler1" runat="server" SelectedView="WeekView" SelectedDate="4/15/2012" ODataDataSourceID="ODataDataSource1"
+<telerik:RadScheduler RenderMode="Lightweight" ID="RadScheduler1" runat="server" SelectedView="WeekView" SelectedDate="4/15/2012" ODataDataSourceID="ODataDataSource1"
 	DataKeyField="ID" DataModelID="Appointments" DataStartField="Start" DataEndField="End"
 	DataSubjectField="Subject" ReadOnly="True">
 </telerik:RadScheduler>

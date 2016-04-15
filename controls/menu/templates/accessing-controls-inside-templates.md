@@ -17,13 +17,13 @@ If your **RadMenu** has items with templates that have embedded controls, you ma
 For example, consider the following, very simple, menu:
 
 ````ASP.NET
-<telerik:RadMenu ID="RadMenu1" runat="server" Flow="Horizontal">
+<telerik:RadMenu RenderMode="Lightweight" ID="RadMenu1" runat="server" Flow="Horizontal">
     <Items>
         <telerik:RadMenuItem runat="server" ExpandMode="ClientSide" Text="Color">
             <Items>
                 <telerik:RadMenuItem runat="server" ExpandMode="ClientSide" Text="ColorPicker">
                     <ItemTemplate>
-                        <telerik:RadColorPicker ID="RadColorPicker1" runat="server" Preset="Standard" ShowEmptyColor="False">
+                        <telerik:RadColorPicker RenderMode="Lightweight" ID="RadColorPicker1" runat="server" Preset="Standard" ShowEmptyColor="False">
                         </telerik:RadColorPicker>
                     </ItemTemplate>
                     <GroupSettings ExpandDirection="Auto" Flow="Vertical" />

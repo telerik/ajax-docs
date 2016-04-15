@@ -17,7 +17,7 @@ The thumbnail item of the **RadFileExplorer** consists of an image preview icon 
 By default, the thumbnail items of the **RadFileExplorer** have built-in dimension of 65x65px along with the image preview/extensionicons' size of 32x32px. The **RadFileExplorer** offers one additional built-in larger item size of 100x100px. Note that the built-in extension icon will be rendered as 32x32px, but the image preview thumbnail icon will be shown as 64x64px. To enable this mode set the **CssClasses** property to **rfeLargeThumbnails**:
 
 ````ASP.NET
-<telerik:RadFileExplorer ID="RadFileExplorer1" runat="server" ExplorerMode="Thumbnails" CssClass="rfeLargeThumbnails">
+<telerik:RadFileExplorer RenderMode="Lightweight" ID="RadFileExplorer1" runat="server" ExplorerMode="Thumbnails" CssClass="rfeLargeThumbnails">
 </telerik:RadFileExplorer>
 ````
 

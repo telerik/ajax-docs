@@ -26,7 +26,7 @@ Note that you can extend the example to switch the visibility for multiple colum
 
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" runat="server" Width="400px">
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" Width="400px">
   <MasterTableView CommandItemDisplay="TopAndBottom" AutoGenerateColumns="false" EditMode="EditForms">
     <Columns>
       <telerik:GridBoundColumn UniqueName="BirthDate" DataField="BirthDate" Display="false"

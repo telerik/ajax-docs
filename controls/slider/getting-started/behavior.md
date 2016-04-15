@@ -73,7 +73,7 @@ Each slider item exposes the following properties:
 >caption Example 3: Get the selected item by value.
 
 ````ASP.NET
-<telerik:RadSlider runat="server" ID="RadSlider1" Orientation="Horizontal" Width="400"
+<telerik:RadSlider RenderMode="Lightweight" runat="server" ID="RadSlider1" Orientation="Horizontal" Width="400"
     Height="40" ItemType="Item" Value="2">
     <Items>
         <telerik:RadSliderItem Text="Very bad" Value="VeryBad" ToolTip="Very bad" runat="server"></telerik:RadSliderItem>
@@ -103,7 +103,7 @@ var selectedItem = slider.get_items()[slider.get_value()];
 >caption Example 4: Get the selected items by using SelectionStart and SelectionEnd values.
 
 ````ASP.NET
-<telerik:RadSlider runat="server" ID="RadSlider1" Orientation="Horizontal" Width="400"
+<telerik:RadSlider RenderMode="Lightweight" runat="server" ID="RadSlider1" Orientation="Horizontal" Width="400"
     Height="40" ItemType="Item" SelectionStart="2" SelectionEnd="4" IsSelectionRangeEnabled="true">
     <Items>
         <telerik:RadSliderItem Text="Very bad" Value="VeryBad" ToolTip="Very bad" runat="server"></telerik:RadSliderItem>

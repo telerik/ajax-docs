@@ -33,7 +33,7 @@ The event handler receives two arguments:
 The following example uses the **OnYearSelected** event to display the previous and the new selected year:
 
 ````ASPNET
-<telerik:RadMonthYearPicker ID="RadMonthYearPicker1" runat="server">
+<telerik:RadMonthYearPicker RenderMode="Lightweight" ID="RadMonthYearPicker1" runat="server">
     <ClientEvents OnYearSelected="OnYearSelected" />
 </telerik:RadMonthYearPicker>	
 ````

@@ -30,10 +30,10 @@ The following example shows how to use the **attachDropDown** method to overcome
 
 ````ASPNET
 
-<telerik:RadComboBox ID="RadComboBox1" runat="server">
+<telerik:RadComboBox RenderMode="Lightweight" ID="RadComboBox1" runat="server">
 <ItemTemplate>
 <div id="div1" onclick="StopPropagation(event)">
- <telerik:RadCalendar ID="RadCalendar1"
+ <telerik:RadCalendar RenderMode="Lightweight" ID="RadCalendar1"
 	TitleFormat="MMMM yyyy"
 	Skin="Vista"
 	style="margin: 0 auto;"

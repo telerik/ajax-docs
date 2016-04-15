@@ -45,7 +45,7 @@ position: 0
 To use these events, simply write a javascript function that can be called when the event occurs. Then assign the name of the javascript function as the value of the the corresponding property.
 
 ````ASP.NET
-<telerik:RadImageEditor runat="server" ID="RadImageEditor1" OnClientLoad="OnClientLoad"></telerik:RadImageEditor>
+<telerik:RadImageEditor RenderMode="Lightweight" runat="server" ID="RadImageEditor1" OnClientLoad="OnClientLoad"></telerik:RadImageEditor>
 <script type="text/javascript">
     function OnClientLoad(sender, eventArgs)
     {

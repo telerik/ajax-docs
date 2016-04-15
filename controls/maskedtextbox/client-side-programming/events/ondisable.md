@@ -28,10 +28,10 @@ Two parameters are passed to the event handler:
 The following example uses the **OnDisable** event to enable another control when the input control is disabled:
 
 ````ASPNET
-<telerik:RadMaskedTextBox ID="RadMaskedTextBox1" runat="server" ShowButton="True">
+<telerik:RadMaskedTextBox RenderMode="Lightweight" ID="RadMaskedTextBox1" runat="server" ShowButton="True">
 	<ClientEvents OnDisable="EnableOtherInput" OnButtonClick="ToggleEnabled" />
 </telerik:RadMaskedTextBox>
-<telerik:RadNumericTextBox ID="RadNumericTextBox1" runat="server" Enabled="False" ShowButton="True">
+<telerik:RadNumericTextBox RenderMode="Lightweight" ID="RadNumericTextBox1" runat="server" Enabled="False" ShowButton="True">
 	<Clientevents ondisable="EnableOtherInput" onbuttonclick="ToggleEnabled" />
 </telerik:RadNumericTextBox>
 ````

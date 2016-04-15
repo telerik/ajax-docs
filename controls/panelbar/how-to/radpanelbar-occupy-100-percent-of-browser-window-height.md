@@ -54,7 +54,7 @@ Here’s a sample code snippet that demonstrates the approach:
 <body>
    <form runat="server" id="mainForm" method="post">
 	   <telerik:RadScriptManager ID="ScriptManager" runat="server" />
-	   <telerik:RadPanelBar ID="RadPanelBar1" runat="server" Skin="Outlook" Height="100%" ExpandMode="FullExpandedItem">
+	   <telerik:RadPanelBar RenderMode="Lightweight" ID="RadPanelBar1" runat="server" Skin="Outlook" Height="100%" ExpandMode="FullExpandedItem">
 		   <Items>
 			   <telerik:RadPanelItem runat="server" Expanded="True" Selected="True" Text="Root RadPanelItem1">
 				   <Items>

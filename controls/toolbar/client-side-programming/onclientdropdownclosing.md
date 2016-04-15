@@ -37,7 +37,7 @@ You can use this event to respond to an action before the buttons list of the dr
 	}       
 </script>
 
-<telerik:RadToolBar ID="RadToolBar1" runat="server" Orientation="Horizontal" OnClientDropDownClosing="OnClientDropDownClosing">
+<telerik:RadToolBar RenderMode="Lightweight" ID="RadToolBar1" runat="server" Orientation="Horizontal" OnClientDropDownClosing="OnClientDropDownClosing">
     <CollapseAnimation Duration="200" Type="OutQuint" />
     <Items>
         <telerik:RadToolBarButton Text="button1" runat="server">

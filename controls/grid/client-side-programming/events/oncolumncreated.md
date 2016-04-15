@@ -31,7 +31,7 @@ This event is fired after a column is created at client-side .
 Example:
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" runat="server">
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server">
     <ClientSettings>
         <ClientEvents OnColumnCreated="ColumnCreated" />
     </ClientSettings>

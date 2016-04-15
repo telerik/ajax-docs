@@ -15,7 +15,7 @@ position: 0
 There are a couple of Skins (**Black**, **BlackMetroTouch**, **Glow**, **Office2010Black** and **Office2010Silver**) which can decorate the **"Zone"** by applying background-color, and color. The following example shows full decoration on the page (the Label element and the Zone) with the "Office2010Black" Skin:
 
 ````ASP.NET
-<telerik:RadFormDecorator runat="server" ID="rfd1" Skin="Office2010Black" DecoratedControls="All" />
+<telerik:RadFormDecorator RenderMode="Lightweight" runat="server" ID="rfd1" Skin="Office2010Black" DecoratedControls="All" />
 <br />
 <br />
 <label>
@@ -29,7 +29,7 @@ There are a couple of Skins (**Black**, **BlackMetroTouch**, **Glow**, **Office2
 The following example shows decoration only on the simple Label element (Zone is excluded from decoration) with the "Office2010Black" Skin:
 
 ````ASP.NET
-<telerik:RadFormDecorator runat="server" ID="RadFormDecorator1" Skin="Office2010Black" DecoratedControls="All"
+<telerik:RadFormDecorator RenderMode="Lightweight" runat="server" ID="RadFormDecorator1" Skin="Office2010Black" DecoratedControls="All"
 	ControlsToSkip="Zone" />
 <br />
 <br />

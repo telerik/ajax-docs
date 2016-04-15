@@ -21,7 +21,7 @@ The **Localization** property specifies the strings that appear in the runtime u
 Currently you can change the string for the **Clear** button as well as the string for the **CheckAll** property as exemplified below.
 
 ````ASPNET
-<telerik:RadDropDownTree ID="RadDropDownTree1" runat="server" Width="250px" 
+<telerik:RadDropDownTree RenderMode="Lightweight" ID="RadDropDownTree1" runat="server" Width="250px" 
     DefaultMessage="Please select" CheckBoxes="SingleCheck"
     DataSourceID="ObjectDataSource1" DataFieldID="ID" DataFieldParentID="ParentID"
     DataTextField="Text">

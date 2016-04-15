@@ -21,7 +21,7 @@ The following example illustrates how to hide the popup buttons and use client-s
 ````ASPNET
 <asp:Label ID="Label2" runat="server"
     AssociatedControlID="RadTimePicker1" Text="Time" />
-<telerik:RadTimePicker ID="RadTimePicker1" runat="server">
+<telerik:RadTimePicker RenderMode="Lightweight" ID="RadTimePicker1" runat="server">
     <DateInput onclick="ShowTimePopup()"></DateInput>
     <TimePopupButton Visible="False" />
 </telerik:RadTimePicker>

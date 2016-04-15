@@ -23,7 +23,7 @@ The event handler receives two arguments:
 **Example 1**: Shows how you can use the event to alert the count of the loaded items in the TagCloud.
 
 ````ASPNET
-<telerik:RadTagCloud runat="server" ID="RadTagCloud1" OnClientLoad="OnClientLoad">
+<telerik:RadTagCloud RenderMode="Lightweight" runat="server" ID="RadTagCloud1" OnClientLoad="OnClientLoad">
 	<Items>
 		<telerik:RadTagCloudItem Text="Item 1" />
 		<telerik:RadTagCloudItem Text="Item 2" />

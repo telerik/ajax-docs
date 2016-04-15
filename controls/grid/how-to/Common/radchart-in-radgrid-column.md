@@ -38,7 +38,7 @@ Here are the code snippets extracted from the online demo:
 </telerik:RadAjaxLoadingPanel>
 <telerik:Header runat="server" ID="Header1" NavigationLanguage="C#"></telerik:Header>
 <!-- content start -->
-<telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1" GridLines="None"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1" GridLines="None"
     OnItemDataBound="RadGrid1_ItemDataBound" AllowPaging="True" PageSize="3"
     Width="750px" AllowSorting="True">
     <MasterTableView DataSourceID="SqlDataSource1" AutoGenerateColumns="False" DataKeyNames="CustomerID">

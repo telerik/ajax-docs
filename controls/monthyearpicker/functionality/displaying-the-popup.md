@@ -18,7 +18,7 @@ To alter this behavior, you can hide the **DatePopupButton** of the **RadMonthYe
 
 
 ````ASPNET
-<telerik:RadMonthYearPicker ID="RadMonthYearPicker1" runat="server" ShowPopupOnFocus="true">
+<telerik:RadMonthYearPicker RenderMode="Lightweight" ID="RadMonthYearPicker1" runat="server" ShowPopupOnFocus="true">
    <DatePopupButton Visible="false" />
 </telerik:RadMonthYearPicker>
 ````
@@ -28,7 +28,7 @@ Alternatively you can use client-side code. The client-side **showPopup()** meth
 
 
 ````ASPNET
-<telerik:RadMonthYearPicker ID="RadMonthYearPicker1" runat="server" DatePopupButton-Visible="false">
+<telerik:RadMonthYearPicker RenderMode="Lightweight" ID="RadMonthYearPicker1" runat="server" DatePopupButton-Visible="false">
     <DateInput>
         <ClientEvents OnFocus="showMontYearPopup" />
     </DateInput>

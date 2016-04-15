@@ -28,7 +28,7 @@ position: 15
 
 ````ASPNET
 	
-<telerik:RadScheduler ID="RadScheduler1" runat="server"
+<telerik:RadScheduler RenderMode="Lightweight" ID="RadScheduler1" runat="server"
    GroupBy="Room"        
    onresourceheadercreated="RadScheduler1_ResourceHeaderCreated">
    <ResourceHeaderTemplate>

@@ -29,7 +29,7 @@ You can fine-tune the results in the Statistics module by overriding its counter
 >caption Example 1: Override counter mechanism of Statistics module.
 
 ````ASP.NET
-<telerik:RadEditor ID="RadEditor1" runat="server">
+<telerik:RadEditor RenderMode="Lightweight" ID="RadEditor1" runat="server">
 </telerik:RadEditor>
 
 <script>

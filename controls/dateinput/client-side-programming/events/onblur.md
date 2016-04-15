@@ -29,7 +29,7 @@ Two parameters are passed to the event handler:
 The following example uses the **OnBlur** event to show an alert:
 
 ````ASPNET
-<telerik:RadDateInput ID="RadDateInput1" runat="server">
+<telerik:RadDateInput RenderMode="Lightweight" ID="RadDateInput1" runat="server">
 	<ClientEvents OnBlur="Blur" />
 </telerik:RadDateInput>
 ````

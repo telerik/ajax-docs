@@ -27,7 +27,7 @@ The event handler receives two parameters:
 One useful case that can be applied in this event is getting information if the validation is triggered by the size of the file or by its extension:
 
 ````ASPNET
-<telerik:RadAsyncUpload runat="server" ID="RadAsyncUpload1" OnClientValidationFailed="OnClientValidationFailed"></telerik:RadAsyncUpload>
+<telerik:RadAsyncUpload RenderMode="Lightweight" runat="server" ID="RadAsyncUpload1" OnClientValidationFailed="OnClientValidationFailed"></telerik:RadAsyncUpload>
 ````
 
 ````JavaScript

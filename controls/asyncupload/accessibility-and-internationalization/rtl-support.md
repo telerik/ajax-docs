@@ -15,7 +15,7 @@ position: 2
 **RadAsyncUpload** include support for right-to-left locales using the direction attribute. If you set **dir="rtl"** on the **RadAsyncUpload** or for any parent HTML element, the control reverses order of the elements and aligns itself to the right side of its container:
 
 ````ASPNET
-<telerik:RadAsyncUpload id="RadAsyncUpload1" runat="server" dir="rtl" Skin="Office2007">
+<telerik:RadAsyncUpload RenderMode="Lightweight" id="RadAsyncUpload1" runat="server" dir="rtl" Skin="Office2007">
 </telerik:RadAsyncUpload>
 ````
 

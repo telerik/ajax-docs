@@ -25,7 +25,7 @@ The event handler has two parameters:
 The example below demonstrates handling the **OnClientLoad** event and displaying the id of the initialized **RadTreeView** object to the user:
 
 ````ASPNET
-<telerik:RadTreeView ID="RadTreeView1" 
+<telerik:RadTreeView RenderMode="Lightweight" ID="RadTreeView1" 
                      runat="server" 
                      OnClientLoad="onLoad">
 </telerik:RadTreeView>

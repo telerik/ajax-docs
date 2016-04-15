@@ -43,7 +43,7 @@ function ItemOpening(menu, args) {
 }
 </script>
 
-<telerik:RadMenu ID="RadMenu1" runat="server" Flow="Horizontal" OnClientItemOpening="ItemOpening">
+<telerik:RadMenu RenderMode="Lightweight" ID="RadMenu1" runat="server" Flow="Horizontal" OnClientItemOpening="ItemOpening">
     <Items>
         ...
     </Items>

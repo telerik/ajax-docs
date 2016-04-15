@@ -27,11 +27,11 @@ The ASPX file declares a combo box with an **ItemTemplate** that includes the **
   Width="75px" Transparency="15">
   <img alt="Loading..." src='<%= RadAjaxLoadingPanel.GetWebResourceUrl(Page, "Telerik.Web.UI.Skins.Default.Ajax.loading.gif") %>'
     style="border: 0; margin-top: 100px;" /></telerik:RadAjaxLoadingPanel>
-<telerik:RadComboBox ID="RadComboBox1" Width="320px" runat="server" MarkFirstMatch="True"
+<telerik:RadComboBox RenderMode="Lightweight" ID="RadComboBox1" Width="320px" runat="server" MarkFirstMatch="True"
   AllowCustomText="True" OnClientDropDownOpening="HandleOpen" Skin="Telerik" ExpandAnimation-Type="None"
   CollapseAnimation-Type="None">
   <ItemTemplate>
-    <telerik:RadGrid ID="RadGrid1" Width="315px" runat="server" Skin="Telerik" OnNeedDataSource="RadGrid1_NeedDataSource">
+    <telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" Width="315px" runat="server" Skin="Telerik" OnNeedDataSource="RadGrid1_NeedDataSource">
       <MasterTableView NoMasterRecordsText="" AutoGenerateColumns="False" DataKeyNames="OrderID,ProductName,UnitPrice"
         Width="278px" ClientDataKeyNames="OrderID,ProductName,UnitPrice" TableLayout="Fixed">
         <Columns>

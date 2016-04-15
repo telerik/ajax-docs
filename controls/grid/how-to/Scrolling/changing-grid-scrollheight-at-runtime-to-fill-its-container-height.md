@@ -36,7 +36,7 @@ The following example illustrates this technique:
   }
 </script>
 <div style="height: 500px; width: 800px" id="gridContainer">
-  <telerik:RadGrid ID="RadGrid1" runat="server" AutoGenerateColumns="true" DataSourceID="AccessDataSource1">
+  <telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" AutoGenerateColumns="true" DataSourceID="AccessDataSource1">
     <ClientSettings>
       <Scrolling AllowScroll="true" ScrollHeight="300px" UseStaticHeaders="true" />
       <ClientEvents OnGridCreated="GridCreated" />

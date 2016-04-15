@@ -54,7 +54,7 @@ These methods can be used with different overloads to best fit the application s
 
 
 ````ASP.NET
-<telerik:RadEditor runat="server" ID="RadEditor1">
+<telerik:RadEditor RenderMode="Lightweight" runat="server" ID="RadEditor1">
 </telerik:RadEditor>
 ````
 ````C#
@@ -78,7 +78,7 @@ End Sub
 
 
 ````ASP.NET
-<telerik:RadEditor runat="server" ID="RadEditor1">
+<telerik:RadEditor RenderMode="Lightweight" runat="server" ID="RadEditor1">
 </telerik:RadEditor>
 ````
 ````C#
@@ -136,7 +136,7 @@ Importing content in the Editor raises the **ImportContent** event that can be h
 >caption Example 3: Adding an additional paragraph to the [RadFlowDocument]({%slug radwordsprocessing-model-radflowdocument%}) through the **OnImportContent** event
 
 ````ASPNET
-<telerik:RadEditor runat="server" ID="RadEditor1" OnImportContent="RadEditor1_ImportContent">
+<telerik:RadEditor RenderMode="Lightweight" runat="server" ID="RadEditor1" OnImportContent="RadEditor1_ImportContent">
 </telerik:RadEditor>
 <asp:Button runat="server" ID="Button1" Text="Import DOCX" OnClick="Button1_Click" />
 ````

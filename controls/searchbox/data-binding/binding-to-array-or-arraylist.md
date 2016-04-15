@@ -19,10 +19,10 @@ Both **Array** and **ArrayList** could be used as a Data Source by RadSearchBox.
 The declarations of the RadSearchBox objects does not include DataSourceID property:
 
 ````ASPNET
-<telerik:RadSearchBox runat="server" ID="RadSearchBox1" >
+<telerik:RadSearchBox RenderMode="Lightweight" runat="server" ID="RadSearchBox1" >
 	<DropDownSettings Height="400" Width="300" />
 </telerik:RadSearchBox>
-<telerik:RadSearchBox runat="server" ID="RadSearchBox2" >
+<telerik:RadSearchBox RenderMode="Lightweight" runat="server" ID="RadSearchBox2" >
 	<DropDownSettings Height="400" Width="300" />
 </telerik:RadSearchBox>
 ````

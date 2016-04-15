@@ -19,7 +19,7 @@ You can use the built in ASP.NET validation with **RadTreeView**.
 To validate for selected node of a TreeView, just specify the ID of the tree in the **ControlToValidate** property of the **RequiredFieldValidator**. Validation checks to see if there is at least one selected node.
 
 ````ASPNET
-<telerik:RadTreeView runat="server" ID="RadTreeView1">
+<telerik:RadTreeView RenderMode="Lightweight" runat="server" ID="RadTreeView1">
     <Nodes>
         ...
 	</Nodes>
@@ -42,7 +42,7 @@ If no node is selected, the validator detects an error and displays the error me
 You can validate the TreeView using **CompareValidator** control. You need to specify the ID of the tree in the **ControlToValidate** property, the **Operator** and **ValueToCompare** properties. The validation will be made against the **Value** property of the nodes if they have values and if not - against their **Text** property.
 
 ````ASPNET
-<telerik:RadTreeView runat="server" ID="RadTreeView1" Skin="Hay">
+<telerik:RadTreeView RenderMode="Lightweight" runat="server" ID="RadTreeView1" Skin="Hay">
     <Nodes>
         <telerik:RadTreeNode runat="server" Text="Australia" Value="RootItems">
             <Nodes>

@@ -19,7 +19,7 @@ You can add **GridButtonColumn** columns to a grid to handle the selection and d
 ![](images/SelectButtonColumns.png)
 
 ````ASP.NET
-	  <telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="True" PageSize="5" Skin="Silk"
+	  <telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" AllowPaging="True" PageSize="5" Skin="Silk"
 	    DataSourceID="SqlDataSource1" AllowMultiRowSelection="True">
 	    <MasterTableView DataSourceID="AccessDataSource1">
 	      <Columns>

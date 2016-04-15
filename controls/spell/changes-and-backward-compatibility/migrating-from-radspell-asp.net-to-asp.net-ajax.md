@@ -26,7 +26,7 @@ position: 1
 
 1. Replace the classic RadSpell's directive `<%@ Register Assembly="RadSpell.Net2" Namespace="Telerik.WebControls" TagPrefix="rads" %>` with the new one of RadSpell: `<%@ Register Assembly="Telerik.Web.UI" Namespace="Telerik.Web.UI" TagPrefix="telerik" %>`
 
-1. Replace the classic RadSpell's declaration: `<rads:radspell id="RadSpell1" runat="server"/>` with the new RadSpell for ASP.NET AJAX declaration: `<telerik:RadSpell ID="RadSpell1" runat="server"></telerik:RadSpell>`
+1. Replace the classic RadSpell's declaration: `<rads:radspell id="RadSpell1" runat="server"/>` with the new RadSpell for ASP.NET AJAX declaration: `<telerik:RadSpell RenderMode="Lightweight" ID="RadSpell1" runat="server"></telerik:RadSpell>`
 
 1. Add Handlers to the "httpHandlers" section of the web.config. The handlers can also be added through the Smart Tag of the control in the design environment. The handlers are used for the spell check dialog and for spell checking.
 

@@ -30,7 +30,7 @@ Here is an example on how to submit the content and strip its MS Word formatting
 		});
 	}
 </script>
-<telerik:RadEditor runat="server" OnClientLoad="OnClientLoad" ID="RadEditor1">
+<telerik:RadEditor RenderMode="Lightweight" runat="server" OnClientLoad="OnClientLoad" ID="RadEditor1">
 	<Content>
 					
 		<p><span style="FONT-SIZE: 10pt; FONT-FAMILY: Arial"><span style="FONT-SIZE: 10pt; FONT-FAMILY: Arial"></p>        

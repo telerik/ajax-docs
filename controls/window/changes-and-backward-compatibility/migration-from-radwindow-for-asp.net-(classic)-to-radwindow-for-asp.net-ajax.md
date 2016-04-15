@@ -24,7 +24,7 @@ You can find below the list of steps to migrate your web applications from the c
 
 1. Replace the classic RadWindow's directive `<%@ Register Assembly="RadWindow.NET2" Namespace="Telerik.WebControls" TagPrefix="radW" %>` with the new one of RadWindow for ASP.NET AJAX: `<%@ Register Assembly="Telerik.Web.UI" Namespace="Telerik.Web.UI" TagPrefix="telerik" %>`
 
-1. Replace the classic RadWindow's declaration: `<radW:RadWindow id="RadWindow1" Runat="server">Sample Content</radW:RadWindow>` with the new RadWindow for ASP.NET AJAX one: `<telerik:RadWindow ID="RadWindow1" runat="server"></telerik:RadWindow>`
+1. Replace the classic RadWindow's declaration: `<radW:RadWindow id="RadWindow1" Runat="server">Sample Content</radW:RadWindow>` with the new RadWindow for ASP.NET AJAX one: `<telerik:RadWindow RenderMode="Lightweight" ID="RadWindow1" runat="server"></telerik:RadWindow>`
 
 ## See Also
 

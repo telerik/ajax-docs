@@ -41,7 +41,7 @@ To get reference to the RadDataPager client-side object, you can use one of the 
         }
     </script>
 </telerik:RadCodeBlock>
-<telerik:RadDataPager ID="RadDataPager1" runat="server">
+<telerik:RadDataPager RenderMode="Lightweight" ID="RadDataPager1" runat="server">
     <ClientEvents OnDataPagerCreated="DataPagerCreated" />
 </telerik:RadDataPager>
 ````

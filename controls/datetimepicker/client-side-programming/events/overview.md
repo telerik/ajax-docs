@@ -30,7 +30,7 @@ The **RadCalendar** controls support a number of client-side events that let you
 To use these events, simply write a JavaScript function that can be called when the event occurs. Then assign the name of the JavaScript function as the value of the the corresponding property.
 
 ````ASPNET
-<telerik:RadDateTimePicker ID="RadDateTimePicker1" runat="server">
+<telerik:RadDateTimePicker RenderMode="Lightweight" ID="RadDateTimePicker1" runat="server">
     <ClientEvents OnPopupOpening="popupOpening" />
 </telerik:RadDateTimePicker>
 ````

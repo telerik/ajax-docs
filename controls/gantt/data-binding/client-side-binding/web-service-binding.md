@@ -111,7 +111,7 @@ End Function
 And bellow are the settings needed for binding **RadGantt** to the above web service:
 
 ````ASPNET
-<telerik:RadGantt runat="server" ID="RadGantt1">
+<telerik:RadGantt RenderMode="Lightweight" runat="server" ID="RadGantt1">
 	<WebServiceSettings Path="GanttService.asmx" />
 </telerik:RadGantt>
 ````

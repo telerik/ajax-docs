@@ -17,7 +17,7 @@ The Code snippets dropdown is a convenient tool for inserting predefined chunks 
 ## Using the Snippets Collection Declaratively
 
 ````ASP.NET
-<telerik:RadEditor runat="server" ID="RadEditor1">
+<telerik:RadEditor RenderMode="Lightweight" runat="server" ID="RadEditor1">
 	<Snippets>
 		<telerik:EditorSnippet Name="Product Template">            
 			<!-- my table HTML snippet -->            

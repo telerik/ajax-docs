@@ -15,7 +15,7 @@ When the **RadSlider** in not initially visible on the page and it is loaded thr
 ````ASP.NET
 <telerik:RadAjaxPanel runat="server" ID="panUpdate">
 <asp:Panel runat="server" Visible="false" ID="Panel1">
-	 <telerik:RadSlider runat="server" ID="RadSlider1">
+	 <telerik:RadSlider RenderMode="Lightweight" runat="server" ID="RadSlider1">
 	 </telerik:RadSlider>
 </asp:Panel>
 <asp:Button runat="server" ID="btnUpdate" Text="Update" OnClick="btnUpdate_Click" />
@@ -76,7 +76,7 @@ The way around this issue is to have the styles already loaded on the page. Ther
 Regardless of the approach you choose, you need to make sure that the control does not try to load the CSS on its own by preventing its	embedded base stylesheets and skin:
 
 ````ASP.NET
-<telerik:RadSlider runat="server" ID="RadSlider1" EnableEmbeddedBaseStylesheet="false" EnableEmbeddedSkins="false">
+<telerik:RadSlider RenderMode="Lightweight" runat="server" ID="RadSlider1" EnableEmbeddedBaseStylesheet="false" EnableEmbeddedSkins="false">
 </telerik:RadSlider>
 ````
 

@@ -22,7 +22,7 @@ The following example illustrates how this is done. It uses the "Sum" and "Count
 
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1" Width="100%"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1" Width="100%"
   PageSize="10" AllowSorting="True" AllowPaging="True" ShowGroupPanel="True">
   <MasterTableView>
     <GroupByExpressions>

@@ -29,7 +29,7 @@ The example below updates a span tag with the slider selection start and selecti
    }
 </script>
 <span id="message"></span>
-<telerik:RadSlider ID="RadSlider2" runat="server" EnableDragRange="true" IsSelectionRangeEnabled="true" OnClientSlideRange="clientSlideRange" />
+<telerik:RadSlider RenderMode="Lightweight" ID="RadSlider2" runat="server" EnableDragRange="true" IsSelectionRangeEnabled="true" OnClientSlideRange="clientSlideRange" />
 ````
 
 

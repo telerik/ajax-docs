@@ -45,7 +45,7 @@ In the example below you will see a way to databind the layers and the markers o
 >caption **Example 1**: Data binding layers and markers in a map to a collection of custom objects.
 
 ````ASP.NET
-<telerik:RadMap runat="server" ID="RadMap1" Zoom="3" Width="800" Height="400">
+<telerik:RadMap RenderMode="Lightweight" runat="server" ID="RadMap1" Zoom="3" Width="800" Height="400">
 	<CenterSettings Latitude="40" Longitude="30" />
 	<DataBindings>
 		<LayerBinding

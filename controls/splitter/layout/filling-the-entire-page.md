@@ -42,7 +42,7 @@ The following example shows how to configure **RadSplitter** to fill the entire 
    <form id="Form2" method="post" runat="server"
 		 style="height:100%;margin:0px" >
 	 <asp:ScriptManager ID="ScriptManager1" runat="server" />
-	 <telerik:RadSplitter id="MainSplitter" runat="server"   
+	 <telerik:RadSplitter RenderMode="Lightweight" id="MainSplitter" runat="server"   
 		 Height="100%"
 		 Width="100%">
 	   <telerik:RadPane id="LeftPane" runat="server"

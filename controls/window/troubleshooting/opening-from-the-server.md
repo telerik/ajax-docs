@@ -23,7 +23,7 @@ There are several ways to work around this:
 
 	**ASP.NET**
 
-		<telerik:RadWindow runat="server" ID="RadWindow1" NavigateUrl="http://google.com/"></telerik:RadWindow>
+		<telerik:RadWindow RenderMode="Lightweight" runat="server" ID="RadWindow1" NavigateUrl="http://google.com/"></telerik:RadWindow>
 		<asp:Button ID="Button4" Text="open the RadWindow from the server" runat="server" OnClick="Button1_Click" />
 
 

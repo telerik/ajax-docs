@@ -50,7 +50,7 @@ At the end you need to use set the **Language** property of Telerik RadEditor to
 
 ````ASP.NET
 <pre xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">
-	<telerik:RadEditor Id="RadEditor1" Language="fr-FR" Runat="server">
+	<telerik:RadEditor RenderMode="Lightweight" Id="RadEditor1" Language="fr-FR" Runat="server">
 	</telerik:RadEditor>
 </pre>          
 ````

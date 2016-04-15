@@ -17,7 +17,7 @@ You can bind **RadImageGallery** to a virtual folder path and display all images
 ## 
 
 ````ASPNET
-<telerik:RadImageGallery runat="server" ID="RadImageGallery1" 
+<telerik:RadImageGallery RenderMode="Lightweight" runat="server" ID="RadImageGallery1" 
 	ImagesFolderPath="~/Images"
 	Width="600px" Height="480px">
 	<ThumbnailsAreaSettings Position="Left" ScrollOrientation="Vertical" ScrollButtonsTrigger="Click" />

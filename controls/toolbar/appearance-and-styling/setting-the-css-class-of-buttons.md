@@ -95,7 +95,7 @@ The following example shows how to use the CssClass property to change the appea
     <form id="form1" runat="server">
     <asp:ScriptManager ID="ScriptManager1" runat="server" />
     <div>
-        <telerik:RadToolBar ID="RadToolBar1" runat="server" Skin="Telerik">
+        <telerik:RadToolBar RenderMode="Lightweight" ID="RadToolBar1" runat="server" Skin="Telerik">
             <Items>
                 <telerik:RadToolBarButton runat="server" CssClass="RedButton" Text="Red" />
                 <telerik:RadToolBarDropDown runat="server" CssClass="BlueButton" Text="DropDown">

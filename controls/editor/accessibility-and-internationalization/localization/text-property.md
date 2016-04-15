@@ -40,7 +40,7 @@ End Sub
 You can also set the **Text** property inline in the RadEditor declaration:
 
 ````ASP.NET
-<telerik:RadEditor runat="server" ID="RadEditor1">
+<telerik:RadEditor RenderMode="Lightweight" runat="server" ID="RadEditor1">
    <Tools>
 	   <telerik:EditorToolGroup>
 		   <telerik:EditorTool Name="Copy" Text="My copy button" />

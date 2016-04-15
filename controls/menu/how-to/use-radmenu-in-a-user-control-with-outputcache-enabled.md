@@ -18,7 +18,7 @@ Suppose you need to cache a user control which has a RadMenu control in it.
 <%@ control language="C#" autoeventwireup="true" codefile="Menu.ascx.cs" inherits="Menu" %>
 <%@ outputcache duration="10" varybyparam="None" %>
 <%@ register assembly="Telerik.Web.UI" namespace="Telerik.Web.UI" tagprefix="telerik" %>
-<telerik:RadMenu ID="RadMenu1" runat="server">
+<telerik:RadMenu RenderMode="Lightweight" ID="RadMenu1" runat="server">
 ````
 
 After a postback the menu will lose reference to its scripts and css styles. Here is a screenshot of a typical case when this happens after postback:![RadMenu without Styles](images/menu_nostyles.png)

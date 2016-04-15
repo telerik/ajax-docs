@@ -37,7 +37,7 @@ The event handler receives two arguments:
 The following example shows the **OnDateSelected** event for **RadCalendar**:
 
 ````ASPNET
-<telerik:RadCalendar ID="RadCalendar1" runat="server">
+<telerik:RadCalendar RenderMode="Lightweight" ID="RadCalendar1" runat="server">
     <ClientEvents OnDateSelected="dateSelected" />
 </telerik:RadCalendar>			
 ````
@@ -55,7 +55,7 @@ function dateSelected(sender, eventArgs) {
 The following example shows the **OnDateSelected** event for **RadDatePicker**. The **OnDateSelected** event works the same way for **RadTimePicker** and **RadDateTimePicker**.
 
 ````ASPNET
-<telerik:RadDatePicker ID="RadDatePicker1" runat="server">
+<telerik:RadDatePicker RenderMode="Lightweight" ID="RadDatePicker1" runat="server">
     <ClientEvents OnDateSelected="dateSelected" />
 </telerik:RadDatePicker>		
 ````

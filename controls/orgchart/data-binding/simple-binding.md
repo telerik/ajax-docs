@@ -22,11 +22,11 @@ For example, having a RadTreeView bound to a self referenced data with specified
 
 ````ASPNET
 
-<telerik:RadTreeView runat="server" ID="RadTreeView1" DataSource="RadTreeViewDataSource1"
+<telerik:RadTreeView RenderMode="Lightweight" runat="server" ID="RadTreeView1" DataSource="RadTreeViewDataSource1"
 	DataFieldID="ID" DataFieldParentID="ParentID" DataTextField="Text">
 </telerik:RadTreeView>
 
-<telerik:RadOrgChart runat="server" ID="RadOrgChart1" DataSource="RadTreeViewDataSource1"
+<telerik:RadOrgChart RenderMode="Lightweight" runat="server" ID="RadOrgChart1" DataSource="RadTreeViewDataSource1"
 	DataFieldID="ID" DataFieldParentID="ParentID" DataTextField="Text">
 </telerik:RadOrgChart>
 	

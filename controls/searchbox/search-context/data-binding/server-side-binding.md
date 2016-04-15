@@ -14,7 +14,7 @@ position: 2
 SearchContext can be easily bound declaratively to some DataSource by setting DatasourceID, DataTextField and DataKeyField properties to the desired fields so that the DataKeyField is the same as the one set to DataContextKeyField of Searchbox control.In server side bindingImageUrl property can be assigned to the SearchContextItem in the ItemDataBound of SearchContext as it is achieved in the code below:
 
 ````ASPNET
-<telerik:RadSearchBox ID="RadSearchBox3" runat="server" Width="500" DataSourceID="SqlDataSource3" 
+<telerik:RadSearchBox RenderMode="Lightweight" ID="RadSearchBox3" runat="server" Width="500" DataSourceID="SqlDataSource3" 
 		DataTextField="LastName" DataValueField="FirstName" DataContextKeyField="EmployeeID" >
 	<SearchContext DataSourceID="SqlDataSource3" DataTextField="City" DataKeyField="EmployeeID">
 	</SearchContext>

@@ -20,7 +20,7 @@ Indeed **RadAsyncUpload** persists it’s client state(it is a hidden field on t
 
 ````ASPNET
 <telerik:RadScriptManager runat="server" ID="RadScriptManager"></telerik:RadScriptManager>         
-<telerik:RadAsyncUpload runat="server" ID="RadAsyncUpload1" PostbackTriggers="Button3,Button4"></telerik:RadAsyncUpload>
+<telerik:RadAsyncUpload RenderMode="Lightweight" runat="server" ID="RadAsyncUpload1" PostbackTriggers="Button3,Button4"></telerik:RadAsyncUpload>
 
 <asp:Button Text="Button1" ID="Button1" runat="server" />
 <asp:Button Text="Button2" ID="Button2" runat="server" />

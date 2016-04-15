@@ -34,7 +34,7 @@ Compares the RadComboBox's text with the specified text in the CompareValidator'
 	color: Red;
 }   
   
-<telerik:RadComboBox ID="RadComboBox1" runat="server">
+<telerik:RadComboBox RenderMode="Lightweight" ID="RadComboBox1" runat="server">
 	<Items>
 		<telerik:RadComboBoxItem Text=" - Select a City - " Value="SelectCity" />
 		<telerik:RadComboBoxItem Text="Paris" Value="Paris" />
@@ -64,7 +64,7 @@ Validates to make sure the user entered a value.
 
 ````ASPNET
 	
-<telerik:RadComboBox runat="server" ID="RadComboBox1">
+<telerik:RadComboBox RenderMode="Lightweight" runat="server" ID="RadComboBox1">
 	<Items>
 		<telerik:RadComboBoxItem Text="" Value="EmptyItem" />
 		<telerik:RadComboBoxItem Text="Paris" Value="Paris" />
@@ -98,7 +98,7 @@ function validationFunction(source, args)
 	}
 }
 
-<telerik:RadComboBox runat="server" ID="RadComboBox1" >
+<telerik:RadComboBox RenderMode="Lightweight" runat="server" ID="RadComboBox1" >
 	<Items>
 		<telerik:RadComboBoxItem Text=" - Select a City - " Value="SelectCity" />			
 		<telerik:RadComboBoxItem Text="Paris" Value="Paris" />
@@ -133,7 +133,7 @@ When no **ValidationGroup** is specified, all validators will execute when a pos
 </div>
 <div>
 	<asp:Label runat="server" Text="Enter your destination:" AssociatedControlID="RadComboBox1" />
-	<telerik:RadComboBox ID="RadComboBox1" runat="server" Skin="Default" CausesValidation="True"
+	<telerik:RadComboBox RenderMode="Lightweight" ID="RadComboBox1" runat="server" Skin="Default" CausesValidation="True"
 		ValidationGroup="ComboBoxValidationGroup">
 		<Items>
 			<telerik:RadComboBoxItem Text="" Value="" />

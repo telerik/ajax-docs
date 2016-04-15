@@ -15,7 +15,7 @@ You can find here a solution that shows how to create a custom Print tool that w
 >caption Example 1: Custom tool for printing the div content area.
 
 ````ASP.NET
-<telerik:RadEditor ID="RE1" runat="server" ContentAreaMode="Div">
+<telerik:RadEditor RenderMode="Lightweight" ID="RE1" runat="server" ContentAreaMode="Div">
     <Content>
         <h1>Title</h1>
          <p>Some content.</p>

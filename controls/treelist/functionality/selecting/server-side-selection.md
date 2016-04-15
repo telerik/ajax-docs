@@ -27,7 +27,7 @@ RadTreeList server-side selection is enabled for the users once you add the **Tr
 
 
 ````ASPNET
-<telerik:RadTreeList ID="RadTreeList1" runat="server" DataKeyNames="EmployeeID" DataSourceID="SqlDataSource1"
+<telerik:RadTreeList RenderMode="Lightweight" ID="RadTreeList1" runat="server" DataKeyNames="EmployeeID" DataSourceID="SqlDataSource1"
 	ParentDataKeyNames="ReportsTo" AllowMultiItemSelection="True" OnItemCommand="RadTreeList1_ItemCommand">
 	<Columns>
 		<telerik:TreeListSelectColumn UniqueName="SelectColumn">

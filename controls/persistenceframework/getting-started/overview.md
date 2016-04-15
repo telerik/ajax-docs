@@ -31,9 +31,9 @@ The below tutorial will walk you through enabling a state persistence for a page
 	.......
 </telerik:RadPersistenceManager>
 
-<telerik:RadButton ID="saveBtn" Text="Save State" runat="server" Width="67px" OnClick="saveBtn_Click">
+<telerik:RadButton RenderMode="Lightweight" ID="saveBtn" Text="Save State" runat="server" Width="67px" OnClick="saveBtn_Click">
 </telerik:RadButton>
-<telerik:RadButton ID="loadBtn" Text="Load State" runat="server" Width="67px" OnClick="loadBtn_Click">
+<telerik:RadButton RenderMode="Lightweight" ID="loadBtn" Text="Load State" runat="server" Width="67px" OnClick="loadBtn_Click">
 </telerik:RadButton>
 ````
 ````C#

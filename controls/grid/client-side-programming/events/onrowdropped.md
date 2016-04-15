@@ -31,7 +31,7 @@ This event can be handled if you would like to execute some extra code logic pri
 Example:
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" runat="server">
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server">
     <ClientSettings>
         <ClientEvents OnRowDropped="RowDropped" />
     </ClientSettings>

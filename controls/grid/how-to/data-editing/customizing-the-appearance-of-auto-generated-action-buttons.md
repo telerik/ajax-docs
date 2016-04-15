@@ -28,7 +28,7 @@ Below is a simple example which changes the text and some of the styles for thos
 
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1" AllowSorting="True"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1" AllowSorting="True"
   Skin="Office2007" GridLines="None" Width="95%">
   <MasterTableView Width="100%" DataKeyNames="CustomerID" CommandItemDisplay="Top"
     AutoGenerateColumns="false">

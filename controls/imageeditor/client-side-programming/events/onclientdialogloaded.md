@@ -23,7 +23,7 @@ The event handler receives the following parameters:
 1. Event arguments object.
 
 ````ASP.NET
-<telerik:RadImageEditor runat="server" ID="RadImageEditor1" OnClientToolsDialogClosed="OnClientDialogLoaded"></telerik:RadImageEditor>
+<telerik:RadImageEditor RenderMode="Lightweight" runat="server" ID="RadImageEditor1" OnClientToolsDialogClosed="OnClientDialogLoaded"></telerik:RadImageEditor>
 <script type="text/javascript">
 	function OnClientDialogLoaded(sender, eventArgs) {
 		alert("OnClientDialogLoaded event fired by RadImageEditor with ID: " + sender.get_id());

@@ -26,7 +26,7 @@ The below provided example illustrates a possible realization of the above menti
 
 
 ````ASPNET
-<telerik:RadGantt ID="RadGantt1" runat="server" >
+<telerik:RadGantt RenderMode="Lightweight" ID="RadGantt1" runat="server" >
 </telerik:RadGantt>
 ````
 

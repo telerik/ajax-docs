@@ -23,7 +23,7 @@ With **RadSplitter** you can define any table layout.
 The easiest way to define the **RadSplitter** structure is declaratively in the ASPX page. The following example demonstrates how to declare a **Vertical** splitter with three collapsible panes and split bars with different collapse modes:
 
 ````ASP.NET	 
-<telerik:RadSplitter runat="server" id="RadSplitter1"
+<telerik:RadSplitter RenderMode="Lightweight" runat="server" id="RadSplitter1"
  Orientation="Vertical" width="400px" height="300px">
  <telerik:RadPane runat="server" id="LeftPane">
    <asp:Label runat="server" id="LeftLabel">Left pane</asp:Label>

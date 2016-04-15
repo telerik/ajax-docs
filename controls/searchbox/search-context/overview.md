@@ -16,7 +16,7 @@ SearchBox's Search Context behaves as a standard DropDownList control with singl
 ![searchbox searchcontext overview](images/searchbox_searchcontext_overview.png)
 
 ````ASPNET
-<telerik:RadSearchBox ID="RadSearchBox2" runat="server" Width="500" DataSourceID="SqlDataSource3" 
+<telerik:RadSearchBox RenderMode="Lightweight" ID="RadSearchBox2" runat="server" Width="500" DataSourceID="SqlDataSource3" 
 		DataTextField="LastName" DataValueField="FirstName" DataContextKeyField="EmployeeID"  >
 	<Localization DefaultItemText="AllItems" LoadingItemsMessage="Some Loading" />
 	<SearchContext>

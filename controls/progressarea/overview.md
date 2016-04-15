@@ -21,8 +21,8 @@ RadProgressArea control provides support for custom progress monitoring. It can 
 The following example shows the basic usage of **RadProgressArea** with RadAsyncUpload:
 
 ````ASPNET
-<telerik:RadAsyncUpload ID="RadAsyncUpload1" runat="server"></telerik:RadAsyncUpload>
-<telerik:RadProgressArea ID="RadProgressArea1" runat="server"></telerik:RadProgressArea>			
+<telerik:RadAsyncUpload RenderMode="Lightweight" ID="RadAsyncUpload1" runat="server"></telerik:RadAsyncUpload>
+<telerik:RadProgressArea RenderMode="Lightweight" ID="RadProgressArea1" runat="server"></telerik:RadProgressArea>			
 ````
 
 

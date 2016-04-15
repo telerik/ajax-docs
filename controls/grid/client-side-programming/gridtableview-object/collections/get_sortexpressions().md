@@ -19,7 +19,7 @@ A collection of **Telerik.Web.UI.GridSortExpression** objects. Represents the so
 Below is a sample code excerpt using OnCommand client event handler:
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" runat="server">
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server">
     <ClientSettings>
         <clientEvents OnCommand="RaiseCommand" />
     </ClientSettings>

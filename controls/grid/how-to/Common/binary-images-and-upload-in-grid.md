@@ -79,8 +79,8 @@ function validateRadUpload(source, e) {
 ````ASP.NET
 <telerik:RadAjaxPanel ID="RadAjaxPanel1" runat="server" ClientEvents-OnRequestStart="conditionalPostback">
   <telerik:RadProgressManager ID="RadProgressManager1" runat="server" />
-  <telerik:RadProgressArea ID="RadProgressArea1" runat="server" />
-  <telerik:RadGrid runat="server" ID="RadGrid1" AllowPaging="True" AllowSorting="True"
+  <telerik:RadProgressArea RenderMode="Lightweight" ID="RadProgressArea1" runat="server" />
+  <telerik:RadGrid RenderMode="Lightweight" runat="server" ID="RadGrid1" AllowPaging="True" AllowSorting="True"
     AutoGenerateColumns="False" Width="97%" DataSourceID="SqlDataSource1" AllowAutomaticInserts="true"
     AllowAutomaticUpdates="true" AllowAutomaticDeletes="true" ShowStatusBar="True"
     GridLines="None" OnItemDataBound="RadGrid1_ItemDataBound" OnItemCreated="RadGrid1_ItemCreated"
@@ -96,7 +96,7 @@ function validateRadUpload(source, e) {
             <asp:Label runat="server" ID="lblName" Text='<%# Eval("Name") %>' />
           </ItemTemplate>
           <EditItemTemplate>
-            <telerik:RadTextBox runat="server" Width="200px" ID="txbName" Text='<%# Bind("Name") %>' />
+            <telerik:RadTextBox RenderMode="Lightweight" runat="server" Width="200px" ID="txbName" Text='<%# Bind("Name") %>' />
             <asp:RequiredFieldValidator ID="Requiredfieldvalidator1" runat="server" ControlToValidate="txbName"
               ErrorMessage="Please, enter a name!" Display="Dynamic" SetFocusOnError="true" />
           </EditItemTemplate>
@@ -107,7 +107,7 @@ function validateRadUpload(source, e) {
             <asp:Label ID="lblDescription" runat="server" Text='<%# TrimDescription(CType(Eval("Description"),String)) %>' />
           </ItemTemplate>
           <EditItemTemplate>
-            <telerik:RadTextBox ID="txbDescription" Width="300px" runat="server" TextMode="MultiLine"
+            <telerik:RadTextBox RenderMode="Lightweight" ID="txbDescription" Width="300px" runat="server" TextMode="MultiLine"
               Text='<%# Bind("Description") %>' Height="150px" />
           </EditItemTemplate>
           <ItemStyle VerticalAlign="Top" />

@@ -29,7 +29,7 @@ Shows how to use templates to create the following RadDropDownList:
 An <ItemTemplate> section is added to the **RadDropDownList** declaration. The image in the template and the text that appears in the template is taken from the RadDropDownListItem using <%# DataBinder.Eval %> statements.
 
 ````C#
-<telerik:RadDropDownList ID="RadDropDownList1"
+<telerik:RadDropDownList RenderMode="Lightweight" ID="RadDropDownList1"
 	 runat="server">
 	<ItemTemplate>
 		<table >

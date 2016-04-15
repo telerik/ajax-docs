@@ -29,7 +29,7 @@ The event handler receives two parameters:
 * **get_fileName** returns the name of the file selected
 
 ````ASPNET
-<telerik:RadAsyncUpload runat="server" ID="RadAsyncUpload1" OnClientFileSelected="OnClientFileSelected"></telerik:RadAsyncUpload>
+<telerik:RadAsyncUpload RenderMode="Lightweight" runat="server" ID="RadAsyncUpload1" OnClientFileSelected="OnClientFileSelected"></telerik:RadAsyncUpload>
 ````
 
 ````JavaScript

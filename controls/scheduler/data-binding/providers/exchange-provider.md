@@ -88,7 +88,7 @@ The provider is now set up and will be shared by all RadScheduler instances that
 
 ````ASPNET
 	
-<telerik:RadScheduler runat="server" ID="RadScheduler1"
+<telerik:RadScheduler RenderMode="Lightweight" runat="server" ID="RadScheduler1"
 ProviderName="ExchangeSchedulerProvider">
 </telerik:RadScheduler>  
 	

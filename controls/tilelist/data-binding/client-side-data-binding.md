@@ -47,7 +47,7 @@ The **RadClientDataSource** provides the ability to connect to a web service and
 	</DataSource>
 </telerik:RadClientDataSource>
 
-<telerik:RadTileList runat="server" ID="RadTileList1" Height="400" ClientDataSourceID="RadClientDataSource1">
+<telerik:RadTileList RenderMode="Lightweight" runat="server" ID="RadTileList1" Height="400" ClientDataSourceID="RadClientDataSource1">
 	<DataBindings>
 		<CommonTileBinding TileType="RadContentTemplateTile" DataNameField="ProductID" />
 		<ContentTemplateTileBinding>
@@ -92,7 +92,7 @@ And in **Figure 3** - how the **ClientTilePeekTemplate** is designed using HTML 
 **Example 2**: Simple data binding of the **RadTileList** control.
 
 ````ASP.NET
-<telerik:RadTileList runat="server" ID="RadTileList1" Height="400" OnClientLoad="OnClientLoad">
+<telerik:RadTileList RenderMode="Lightweight" runat="server" ID="RadTileList1" Height="400" OnClientLoad="OnClientLoad">
 	<DataBindings>
 		<CommonTileBinding TileType="RadTextTile" DataNameField="ProductID" DataGroupNameField="Group" />
 		<TextTileBinding DataTextField="ProductName" />

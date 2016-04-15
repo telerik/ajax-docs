@@ -31,7 +31,7 @@ You can check in **Example 1** how this event can be used for notifying the user
 		</WebServiceDataSourceSettings>
 	</DataSource>
 </telerik:RadClientDataSource>
-<telerik:RadSlider runat="server" ID="RadSlider2" Width="800px" Height="100px" ItemType="Item" 
+<telerik:RadSlider RenderMode="Lightweight" runat="server" ID="RadSlider2" Width="800px" Height="100px" ItemType="Item" 
 	ClientDataSourceID="RadClientDataSource1" OnClientDataBound="sliderDataBound">
 	<ItemBinding TextField="Title" ToolTipField="Description" ValueField="Date"></ItemBinding>
 </telerik:RadSlider>

@@ -50,7 +50,7 @@ function onClicking(sender, eventArgs) {
 }
 </script>
 
-<telerik:RadMenu ID="RadMenu1" runat="server" OnClientItemClicking="onClicking">
+<telerik:RadMenu RenderMode="Lightweight" ID="RadMenu1" runat="server" OnClientItemClicking="onClicking">
     ...
 </telerik:RadMenu>
 ````

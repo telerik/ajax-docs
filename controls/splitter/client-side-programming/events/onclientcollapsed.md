@@ -38,7 +38,7 @@ The following example uses the **OnClientCollapsed** event to update the content
 			pane.setContent("This pane has collapsed " + count + " times.");
 	}
 </script>
-<telerik:RadSplitter runat="server" id="RadSplitter1" Width="90%" Orientation="Horizontal" >
+<telerik:RadSplitter RenderMode="Lightweight" runat="server" id="RadSplitter1" Width="90%" Orientation="Horizontal" >
  <telerik:RadPane runat="server" id="RadPane1" Height="80px" >
    <telerik:RadSlidingZone runat="server" id="RadSlidingZone1" >
 	 <telerik:RadSlidingPane runat="server"

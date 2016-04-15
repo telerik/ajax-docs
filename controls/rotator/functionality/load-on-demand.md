@@ -21,7 +21,7 @@ Since the RadRotator functionality is entirely controlled by the WebMethod, you 
 Below you can find an example of the setup that is used with enabled **Load on Demand**:
 
 ````ASP.NET
-<telerik:RadRotator ID="RadRotator1" runat="server" Width="220px" Height="135px"
+<telerik:RadRotator RenderMode="Lightweight" ID="RadRotator1" runat="server" Width="220px" Height="135px"
    ItemHeight="135" ItemWidth="110" CssClass="positionCenter" ScrollDuration="500" >
    <WebServiceSettings Path="RotatorWebService.asmx" Method="GetRotatorData" />
 </telerik:RadRotator>

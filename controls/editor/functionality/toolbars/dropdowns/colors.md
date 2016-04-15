@@ -17,7 +17,7 @@ The RadEditor **Colors** dropdown displays a predefined set of colors by default
 ## Using the ColorsCollection Declaratively
 
 ````ASP.NET
-<telerik:RadEditor runat="server" ID="RadEditor1" Skin="WebBlue">
+<telerik:RadEditor RenderMode="Lightweight" runat="server" ID="RadEditor1" Skin="WebBlue">
 	<Colors>
 		<telerik:EditorColor Title="Dark Orange" Value="#FF8C00" />
 		<telerik:EditorColor Title="Red" Value="red" />

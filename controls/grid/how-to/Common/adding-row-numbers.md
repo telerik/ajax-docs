@@ -27,7 +27,7 @@ In the example code below the item index is presented in MS Label control which 
 
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" DataSourceID="SqlDataSource1" AllowSorting="True"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" DataSourceID="SqlDataSource1" AllowSorting="True"
   Skin="Vista" runat="server" Width="95%" OnItemDataBound="RadGrid1_ItemDataBound">
   <MasterTableView>
     <Columns>

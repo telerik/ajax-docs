@@ -246,7 +246,7 @@ Below are some code excerpts from the second QSF example:
            AutoPostBack="true" runat="server" />
        <br />
        <br />
-       <telerik:RadGrid ID="RadGrid1" EnableViewState="false" PageSize="2" Skin="Sunset"
+       <telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" EnableViewState="false" PageSize="2" Skin="Sunset"
            runat="server" AllowPaging="true" AllowSorting="True" AllowFilteringByColumn="true"
            GridLines="None">
            <MasterTableView AllowMultiColumnSorting="true" />

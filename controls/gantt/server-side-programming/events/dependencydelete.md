@@ -22,7 +22,7 @@ The **RadGantt DependencyDelete** is fired when a [dependency]({%slug gantt/stru
 ## Example
 
 ````ASP.NET
-<telerik:RadGantt ID="RadGantt1" runat="server" OnDependencyDelete="RadGantt1_DependencyDelete"></telerik:RadGantt>
+<telerik:RadGantt RenderMode="Lightweight" ID="RadGantt1" runat="server" OnDependencyDelete="RadGantt1_DependencyDelete"></telerik:RadGantt>
 ````
 
 ````C#

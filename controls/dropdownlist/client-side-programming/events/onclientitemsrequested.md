@@ -21,7 +21,7 @@ The event handler receives the following parameter:
 1. The instance of the **RadDropDownList** firing the event.
 
 ````ASPNET
-<telerik:RadDropDownList ID="RadDropDownList1" runat="server" EnableVirtualScrolling="true" DropDownHeight="150px" OnClientItemsRequested="OnClientItemsRequested">
+<telerik:RadDropDownList RenderMode="Lightweight" ID="RadDropDownList1" runat="server" EnableVirtualScrolling="true" DropDownHeight="150px" OnClientItemsRequested="OnClientItemsRequested">
     <WebServiceSettings Path="WebService.asmx" Method="GetCustomerNames" />
 </telerik:RadDropDownList>
 ````

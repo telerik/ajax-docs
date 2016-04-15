@@ -54,7 +54,7 @@ To define the structure of a **RadGrid** control that is declared in the ASPX pa
 
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" runat="server" />
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" />
 <asp:SqlDataSource ID="SqlDataSource1" 
       ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
       ProviderName="System.Data.SqlClient"

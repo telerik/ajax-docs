@@ -31,7 +31,7 @@ The event handler receives two arguments:
 The following example uses the **OnDayRender** event to change the text for the non-current month and for dates that fall outside the selectable range. It also changes the background color on weekend days:
 
 ````ASPNET
-<telerik:RadCalendar ID="RadCalendar1" runat="server">
+<telerik:RadCalendar RenderMode="Lightweight" ID="RadCalendar1" runat="server">
     <ClientEvents OnDayRender="dayRender" />
 </telerik:RadCalendar>  			
 ````

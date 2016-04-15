@@ -70,7 +70,7 @@ Another common scenario, where changing the exported content could be needed, is
 
 ````ASPNET
 <div class="foo">
-    <telerik:RadPivotGrid IgnorePaging="true" Width="700" Height="100%" runat="server" ID="RadPivotGrid1" OnNeedDataSource="RadPivotGrid1_NeedDataSource"
+    <telerik:RadPivotGrid RenderMode="Lightweight" IgnorePaging="true" Width="700" Height="100%" runat="server" ID="RadPivotGrid1" OnNeedDataSource="RadPivotGrid1_NeedDataSource"
         AllowSorting="true" AllowFiltering="false" ShowFilterHeaderZone="false" RowTableLayout="Compact">
         <Fields>
             <telerik:PivotGridRowField DataField="Company">

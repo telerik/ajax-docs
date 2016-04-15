@@ -44,7 +44,7 @@ To handle the desired event, the user must set the respective property to the na
 		alert("RadRotator was clicked.");
 	}
 </script>
-<telerik:RadRotator ID="RadRotator1" runat="server" ScrollDirection="Left" Height="113px"
+<telerik:RadRotator RenderMode="Lightweight" ID="RadRotator1" runat="server" ScrollDirection="Left" Height="113px"
 	ItemHeight="113px" Width="150px" ItemWidth="150px" OnClientItemClicked="OnClientItemClicked">
 	<ItemTemplate>
 		<img src=".........." alt="" />
@@ -66,7 +66,7 @@ To handle the desired event, the user should use the respective **add_<eventName
 		rotator.add_itemClicked(Click);
 	}
 </script>
-<telerik:RadRotator ID="RadRotator1" runat="server" ScrollDirection="Left" Height="113px"
+<telerik:RadRotator RenderMode="Lightweight" ID="RadRotator1" runat="server" ScrollDirection="Left" Height="113px"
 	ItemHeight="113px" Width="150px" ItemWidth="150px">
 	<ItemTemplate>
 		<img src=".........." alt="" />

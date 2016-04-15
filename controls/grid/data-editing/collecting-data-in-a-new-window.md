@@ -29,7 +29,7 @@ There are various cases in which you may want to get the content of the cells in
 
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" DataSourceID="SqlDataSource1" runat="server">
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" DataSourceID="SqlDataSource1" runat="server">
   <SelectedItemStyle BackColor="Aqua" />
   <MasterTableView AutoGenerateColumns="True">
     <Columns>

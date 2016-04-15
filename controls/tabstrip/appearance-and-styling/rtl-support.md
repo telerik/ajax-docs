@@ -16,7 +16,7 @@ position: 9
 **RadTabStrip** includes support for right-to-left locales using the direction attribute. If you set **dir="tabstrip-rtl"** on the **RadTabStrip** objector to any parent HTML element, **RadTabStrip** reverses the tab order:
 
 ````ASPNET	     
-<telerik:RadTabStrip ID="RadTabStrip1" runat="server" dir="rtl">
+<telerik:RadTabStrip RenderMode="Lightweight" ID="RadTabStrip1" runat="server" dir="rtl">
  <Tabs>
    <telerik:RadTab runat="server" Text="Documents A-F">
      <Tabs>

@@ -62,27 +62,27 @@ The following case scenario gives an insight into the AutoCompleteBoxEntry colle
 
 ````ASPNET
 <div>
-	<telerik:RadTextBox runat="server" ID="RadTextBox1" EmptyMessage="Type an entry" />
-	<telerik:RadButton runat="server" ID="RadButton1" OnClientClicked="addNewEntry" Text="Add new entry"
+	<telerik:RadTextBox RenderMode="Lightweight" runat="server" ID="RadTextBox1" EmptyMessage="Type an entry" />
+	<telerik:RadButton RenderMode="Lightweight" runat="server" ID="RadButton1" OnClientClicked="addNewEntry" Text="Add new entry"
 		AutoPostBack="false" />
 </div>
 <br />
 <div>
-	<telerik:RadButton runat="server" ID="RadButton2" OnClientClicked="removeEntry" Text="Remove first entry"
+	<telerik:RadButton RenderMode="Lightweight" runat="server" ID="RadButton2" OnClientClicked="removeEntry" Text="Remove first entry"
 		AutoPostBack="false" />
-	<telerik:RadButton runat="server" ID="RadButton4" OnClientClicked="clearAllEntries"
+	<telerik:RadButton RenderMode="Lightweight" runat="server" ID="RadButton4" OnClientClicked="clearAllEntries"
 		Text="Clear all entries" AutoPostBack="false" />
 </div>
 <br />
 <div>
-	<telerik:RadButton runat="server" ID="RadButton3" OnClientClicked="printSelectedEntries"
+	<telerik:RadButton RenderMode="Lightweight" runat="server" ID="RadButton3" OnClientClicked="printSelectedEntries"
 		Text="Print all selected entries" AutoPostBack="false" />
 	<asp:Label runat="server" ID="Label1" />
 </div>
 <br />
 <div>
 	<label>RadAutoCompleteBox:</label>
-	<telerik:RadAutoCompleteBox ID="RadAutoCompleteBox1" runat="server" AllowCustomEntry="true"
+	<telerik:RadAutoCompleteBox RenderMode="Lightweight" ID="RadAutoCompleteBox1" runat="server" AllowCustomEntry="true"
 		InputType="Token" Delimiter=";" DataSourceID="SqlDataSource1" DataTextField="Name"
 		DataValueField="ID">
 	</telerik:RadAutoCompleteBox>

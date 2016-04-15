@@ -30,7 +30,7 @@ The event handler receives two arguments:
 The following example uses the **OnRowHeaderClick** event to confirm the selection:
 
 ````ASPNET
-<telerik:RadCalendar ID="RadCalendar1" runat="server">
+<telerik:RadCalendar RenderMode="Lightweight" ID="RadCalendar1" runat="server">
     <ClientEvents OnRowHeaderClick="confirmRowSelection" />
 </telerik:RadCalendar>
 ````

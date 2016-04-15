@@ -21,7 +21,7 @@ As with any other control which uses templates, the structure needs to be create
 On the *aspx *page there is a simple placeholder, where the actual contents of the *ListView *control will be added:
 
 ````ASP.NET
-<telerik:RadFormDecorator ID="RadFormDecorator1" runat="server" />
+<telerik:RadFormDecorator RenderMode="Lightweight" ID="RadFormDecorator1" runat="server" />
 <telerik:RadAjaxLoadingPanel ID="RadAjaxLoadingPanel1" runat="server" />
 <telerik:RadAjaxPanel runat="server" ID="RadAjaxPanel1" LoadingPanelID="RadAjaxLoadingPanel1">
     <asp:PlaceHolder runat="server" ID="PlaceHolder1"></asp:PlaceHolder>

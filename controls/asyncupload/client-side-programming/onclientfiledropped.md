@@ -27,7 +27,7 @@ The event handler receives two parameters:
 * **get_originalDropEvent** returns the original drop event that can provide the drop target element.
 
 ````ASPNET
-<telerik:RadAsyncUpload runat="server" ID="RadAsyncUpload1" OnClientFileDropped="OnClientFileDropped"></telerik:RadAsyncUpload>
+<telerik:RadAsyncUpload RenderMode="Lightweight" runat="server" ID="RadAsyncUpload1" OnClientFileDropped="OnClientFileDropped"></telerik:RadAsyncUpload>
 ````
 
 ````JavaScript

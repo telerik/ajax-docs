@@ -26,7 +26,7 @@ Only the first two of them will be displayed on initial load (**CompanyName** an
 Note that this edit form will present the **ContactName**, **ContactTitle** and **Country** fields. The **CompanyName** column is shown/hidden through binding expression syntax which sets the **Visible** property of the respective label/textbox editor.
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" DataSourceID="SqlDataSource1" runat="server" Width="300px">
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" DataSourceID="SqlDataSource1" runat="server" Width="300px">
   <MasterTableView Width="100%" CssClass="MasterTable" DataSourceID="SqlDataSource1"
     AutoGenerateColumns="False">
     <EditFormSettings EditFormType="Template">

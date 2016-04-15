@@ -28,7 +28,7 @@ See [Understanding the Skin CSS File]({%slug tabstrip/appearance-and-styling/und
 * Use the **RadTabStrip Item Builder** to add tabs to the tab strip, or add them in the HTML markup. Include two levels of tabs, and include a disabled tab:
 
 ````ASPNET	 
-<telerik:RadTabStrip ID="RadTabStrip1" runat="server" SelectedIndex="0">
+<telerik:RadTabStrip RenderMode="Lightweight" ID="RadTabStrip1" runat="server" SelectedIndex="0">
     <Tabs>
         <telerik:RadTab runat="server" Text="Root RadTab1" Selected="True">
             <Tabs>

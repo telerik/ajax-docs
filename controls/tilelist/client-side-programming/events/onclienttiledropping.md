@@ -36,7 +36,7 @@ The event handler receives two arguments:
 The following example shows how the drop operation can be prevented upon certain condition, e.g. that the user has been dragging the tile for too long which may indicate uncertainty on their part:
 
 ````ASP.NET
-<telerik:RadTileList EnableDragAndDrop="true" ID="TileList2" runat="server" OnClientTileDropping="OnClientTileDroppingHandler"
+<telerik:RadTileList RenderMode="Lightweight" EnableDragAndDrop="true" ID="TileList2" runat="server" OnClientTileDropping="OnClientTileDroppingHandler"
 	OnClientTileDragStart="OnClientTileDragStartHandler">
 	<Groups>
 		<telerik:TileGroup>

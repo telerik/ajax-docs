@@ -39,7 +39,7 @@ The appearance of the arrow varies, depending on the [Skin]({%slug numerictextbo
 1. Set the **ButtonCssClass** property:
 
 ````ASPNET
-<telerik:RadTextBox ID="RadTextBox1" runat="server" ShowButton="True" Skin="WebBlue"
+<telerik:RadTextBox RenderMode="Lightweight" ID="RadTextBox1" runat="server" ShowButton="True" Skin="WebBlue"
 	ButtonCssClass="MyButton">
 	<ClientEvents OnButtonClick="HandleButtonClick" />
 </telerik:RadTextBox>
@@ -79,7 +79,7 @@ Generic buttons have no such built-in behavior. To implement the behavior of a g
 		window.radopen("SelectionForm.aspx", "Specify a Value");
 	}
 </script>
-<telerik:RadTextBox ID="RadTextBox1" runat="server" ShowButton="True">
+<telerik:RadTextBox RenderMode="Lightweight" ID="RadTextBox1" runat="server" ShowButton="True">
 	<ClientEvents OnButtonClick="ShowSelectionForm" />
 </telerik:RadTextBox>
 ````

@@ -115,7 +115,7 @@ Examine the code implementation and the comments in the source for more details.
 </telerik:RadAjaxManager>
 <telerik:RadAjaxLoadingPanel ID="RadAjaxLoadingPanel1" runat="server" />
 <asp:Label ID="Label1" runat="server" EnableViewState="false" Font-Bold="true" Text="Orders List" />
-<telerik:RadGrid ID="RadGrid1" AutoGenerateColumns="false" PageSize="15" AllowPaging="true"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" AutoGenerateColumns="false" PageSize="15" AllowPaging="true"
     AllowSorting="true" runat="server" DataSourceID="OrdersDataSource" AllowAutomaticUpdates="true"
     AllowAutomaticInserts="True" ShowStatusBar="true" OnItemDataBound="RadGrid1_ItemDataBound"
     OnUpdateCommand="RadGrid1_UpdateCommand" OnInsertCommand="RadGrid1_InsertCommand"
@@ -135,12 +135,12 @@ Examine the code implementation and the comments in the source for more details.
                 </ItemTemplate>
                 <EditItemTemplate>
                     <!-- Show employees in the treeview -->
-                    <telerik:RadComboBox ID="RadComboBox1" runat="server" Width="180px"
+                    <telerik:RadComboBox RenderMode="Lightweight" ID="RadComboBox1" runat="server" Width="180px"
                         ShowToggleImage="True" Style="vertical-align: middle;" OnClientDropDownOpened="OnClientDropDownOpenedHandler"
                         ExpandAnimation-Type="None" CollapseAnimation-Type="None">
                         <ItemTemplate>
                             <div id="div1" onclick="StopPropagation(event);">
-                                <telerik:RadTreeView runat="server" ID="RadTreeView1" OnClientNodeClicking="nodeClicking"
+                                <telerik:RadTreeView RenderMode="Lightweight" runat="server" ID="RadTreeView1" OnClientNodeClicking="nodeClicking"
                                     Height="140px" DataTextField="LastName" DataValueField="EmployeeID" DataFieldID="EmployeeID"
                                     DataFieldParentID="ReportsTo" DataSourceID="EmployeesDataSource" />
                             </div>

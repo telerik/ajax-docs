@@ -28,7 +28,7 @@ To migrate a web application from **RadUpload for ASP.NET AJAX** to the new **Ra
 
 	**ASP.NET**
 	
-		<telerik:RadAsyncUpload …></telerik:RadAsyncUpload> 
+		<telerik:RadAsyncUpload RenderMode="Lightweight" …></telerik:RadAsyncUpload> 
 
 
 1. You can leave all old properties intact.

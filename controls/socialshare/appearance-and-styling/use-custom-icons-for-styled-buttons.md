@@ -43,7 +43,7 @@ The **RadSocialShare** offers several ways to change the default icons that the 
 
 	__ASP.NET__
 
-		<telerik:RadSocialShare ID="RadSocialShare1" runat="server" CssClass="myClass">
+		<telerik:RadSocialShare RenderMode="Lightweight" ID="RadSocialShare1" runat="server" CssClass="myClass">
 		    <MainButons>
 		        <telerik:RadSocialButton SocialNetType="MailTo" CustomIconUrl="custom-mailto-icon-24px.png" />
 		    </MainButons>
@@ -79,7 +79,7 @@ The **RadSocialShare** offers several ways to change the default icons that the 
 
 	__ASP.NET__
 
-		<telerik:RadSocialShare ID="RadSocialShare1" runat="server">
+		<telerik:RadSocialShare RenderMode="Lightweight" ID="RadSocialShare1" runat="server">
 		    <MainButons>
 		        <telerik:RadSocialButton SocialNetType="MailTo" CssClass="sshCustomSpriteMailTo" />
 		        <telerik:RadCompactButton CssClass="sshCustomSpriteCompactButton" />

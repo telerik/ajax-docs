@@ -34,7 +34,7 @@ In the code-behind, the ItemDataBound and PreRender event handlers ensure that a
 *Note that in the declaration of the grid, client-side selection is NOT enabled.*
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="True" PageSize="5" Skin="Silk"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" AllowPaging="True" PageSize="5" Skin="Silk"
   DataSourceID="SqlDataSource1" AllowAutomaticInserts="True" AllowAutomaticUpdates="True"
   OnItemDataBound="RadGrid1_ItemDataBound" OnPreRender="RadGrid1_PreRender">
   <MasterTableView EditMode="InPlace" CommandItemDisplay="Bottom" DataSourceID="SqlDataSource1"

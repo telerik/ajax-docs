@@ -20,7 +20,7 @@ If the **ShowTitleMenu** property is set to **true** the menu icon will appear n
 To activate the Notification Menu you need to declare some items in it and also a target. In this case the **ShowTitleMenu** property is used:
 
 ````ASP.NET
-<telerik:RadNotification runat="server" ID="RadNotification1" VisibleOnPageLoad="true"
+<telerik:RadNotification RenderMode="Lightweight" runat="server" ID="RadNotification1" VisibleOnPageLoad="true"
     ShowTitleMenu="true" Text="Sample notification text">
     <NotificationMenu>
         <Items>

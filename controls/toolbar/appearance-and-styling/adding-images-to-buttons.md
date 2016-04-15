@@ -49,7 +49,7 @@ The following example adds images (in various positions) to the buttons in a too
 ![ToolBar](images/toolbar_overview.png)
 
 ````ASPNET
-<telerik:RadToolBar ID="RadToolBar1" runat="server" Skin="Telerik">
+<telerik:RadToolBar RenderMode="Lightweight" ID="RadToolBar1" runat="server" Skin="Telerik">
     <Items>
         <telerik:RadToolBarButton runat="server" ClickedImageUrl="~/Images/backClicked.gif"
             ImageUrl="~/Images/back.gif" Text="Back">
@@ -95,7 +95,7 @@ Since Q3 2010 RadToolBar provides support for sprites - two new properties have 
       background-position: -16px 0;
     }
 </style>
-<telerik:RadToolBar ID="RadToolBar1" runat="server" EnableImageSprites="true">
+<telerik:RadToolBar RenderMode="Lightweight" ID="RadToolBar1" runat="server" EnableImageSprites="true">
    <Items>
        <telerik:RadToolBarButton Text="Button1" CssClass="icon1" />
        <telerik:RadToolBarButton Text="Button2" CssClass="icon2" />

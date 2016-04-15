@@ -25,7 +25,7 @@ Groups from the data source that do not already exist are appended to the curren
 In the following example a simple DataTable is used for a dummy data source just to visualize some simple data and evaluate the results:
 
 ````ASP.NET
-<telerik:RadTileList runat="server" ID="RadTileList1">
+<telerik:RadTileList RenderMode="Lightweight" runat="server" ID="RadTileList1">
 	<DataBindings>
 		<CommonTileBinding DataGroupNameField="GroupNameColumn" TileType="RadTextTile" Shape="Square" />
 		<TextTileBinding DataTextField="TextColumn" />
@@ -115,7 +115,7 @@ The default value of `AppendDataBoundItems` is `false`.
 Let's take the above code as base and add a few tiles. Toggling the AppendDataBoundItems property can show the different options:
 
 ````ASP.NET
-<telerik:RadTileList runat="server" ID="RadTileList1" AppendDataBoundItems="true">
+<telerik:RadTileList RenderMode="Lightweight" runat="server" ID="RadTileList1" AppendDataBoundItems="true">
 	<DataBindings>
 		<CommonTileBinding DataGroupNameField="GroupNameColumn" TileType="RadTextTile" Shape="Square" />
 		<TextTileBinding DataTextField="TextColumn" />

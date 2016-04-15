@@ -19,7 +19,7 @@ position: 2
 Below is the markup, used in the example:
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" AutoGenerateEditColumn="True" runat="server" AllowAutomaticDeletes="True"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" AutoGenerateEditColumn="True" runat="server" AllowAutomaticDeletes="True"
     Skin="Silk" DataSourceID="SqlDataSource1" AllowPaging="True" CellSpacing="0" GridLines="None"
     OnItemDataBound="RadGrid1_ItemDataBound">
     <PagerStyle Mode="NextPrevAndNumeric" />

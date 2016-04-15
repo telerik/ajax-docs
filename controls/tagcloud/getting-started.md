@@ -25,7 +25,7 @@ position: 2
 1. Add the following list of items between the opening and the closing tag of the `<Items>` property. Every item represents a country, with the Weight of the item equal representing the millions of people living there, and the NavigateUrl pointing to the country's Wikipedia article
 
 	````ASPNET
-	<telerik:RadTagCloud ID="RadTagCloud1" runat="server" Width="400px" MaxFontSize="50px">
+	<telerik:RadTagCloud RenderMode="Lightweight" ID="RadTagCloud1" runat="server" Width="400px" MaxFontSize="50px">
 		<Items>
 			<telerik:RadTagCloudItem Text="Russia" Weight="141.9" NavigateUrl="http://en.wikipedia.org/wiki/Russia" />
 			<telerik:RadTagCloudItem Text="Nigeria" Weight="154.7" NavigateUrl="http://en.wikipedia.org/wiki/Nigeria" />

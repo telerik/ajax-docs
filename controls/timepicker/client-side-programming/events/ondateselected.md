@@ -34,7 +34,7 @@ The event handler receives two arguments:
 The following example shows the **OnDateSelected** event for **RadDatePicker**. The **OnDateSelected** event works the same way for **RadTimePicker** and **RadDateTimePicker**.
 
 ````ASPNET
-<telerik:RadTimePicker runat="server" ID="RadTimePicker1">
+<telerik:RadTimePicker RenderMode="Lightweight" runat="server" ID="RadTimePicker1">
     <ClientEvents OnDateSelected="dateSelected" />
 </telerik:RadTimePicker>	
 ````

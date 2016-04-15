@@ -17,7 +17,7 @@ You can repopulate the Font Size dropdown with the sizes from 1 to 7 (these are 
 ## Adding to FontSizes Collection Declaratively
 
 ````ASP.NET
-<telerik:RadEditor runat="server" ID="RadEditor1">
+<telerik:RadEditor RenderMode="Lightweight" runat="server" ID="RadEditor1">
 	<FontSizes>
 		<telerik:EditorFontSize Value="1" />
 		<telerik:EditorFontSize Value="3" />

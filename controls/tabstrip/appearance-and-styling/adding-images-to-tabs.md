@@ -31,7 +31,7 @@ To set the image properties at design time, use the [RadTabStrip Item Builder]({
 The following example uses the **ImageUrl** and **SelectedImageUrl** properties to create a **RadTabStrip** that adds images to the top-level items:
 
 ````ASPNET	 
- <telerik:RadTabStrip ID="RadTabStrip1" runat="server">
+ <telerik:RadTabStrip RenderMode="Lightweight" ID="RadTabStrip1" runat="server">
 	 <Tabs>
 	   <telerik:RadTab runat="server"
 	     Text=" Documents A-F"

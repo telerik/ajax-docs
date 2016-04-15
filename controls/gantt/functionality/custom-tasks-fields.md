@@ -240,7 +240,7 @@ To add new **Custom Task Field** you will have to:
 * In the Markup:
 
 ````ASP.NET
-<telerik:RadGantt runat="server" ID="RadGantt1" SelectedView="WeekView" AutoGenerateColumns="false">
+<telerik:RadGantt RenderMode="Lightweight" runat="server" ID="RadGantt1" SelectedView="WeekView" AutoGenerateColumns="false">
     <Columns>
         <telerik:GanttBoundColumn DataField="ID" Width="90px"></telerik:GanttBoundColumn>
         <telerik:GanttBoundColumn DataField="Title"></telerik:GanttBoundColumn>

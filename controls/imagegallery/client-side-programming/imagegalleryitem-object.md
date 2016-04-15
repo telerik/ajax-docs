@@ -32,7 +32,7 @@ position: 1
 The example below illustrates how you can use a property to extract a value from the **RadImageGalleryItem**. The logic shown traverses all the items and stores the titles in a collection.
 
 ````ASPNET
-<telerik:RadImageGallery ID="RadImageGallery1" runat="server" AllowPaging="true"
+<telerik:RadImageGallery RenderMode="Lightweight" ID="RadImageGallery1" runat="server" AllowPaging="true"
 	DataSourceID="SqlDataSource1" Width="800px" DataTitleField="PhotoTitle" DataImageField="Photo" DataThumbnailField="Photo" >
 </telerik:RadImageGallery>
 ````

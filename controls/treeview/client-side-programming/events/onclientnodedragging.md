@@ -35,7 +35,7 @@ The event handler receives parameters:
 The example below demonstrates getting the current x and y coordinates of the mouse while the node is being dragged.
 
 ````ASPNET
-<telerik:RadTreeView ID="RadTreeView1" 
+<telerik:RadTreeView RenderMode="Lightweight" ID="RadTreeView1" 
                      runat="server" 
                      EnableDragAndDrop="True" 
                      OnClientNodeDragging="ClientNodeDragging">

@@ -21,7 +21,7 @@ This article shows how make **RadComboBox** look and feel the same way.
 1. Use the [IsSeparator]({%slug combobox/appearance-and-styling/separators%}) property to make the appropriate items not clickable:
 
 ````ASPNET
-<telerik:RadComboBox ID="RadComboBox1"
+<telerik:RadComboBox RenderMode="Lightweight" ID="RadComboBox1"
    runat="server"
    Skin="Vista"
    Width="150px"

@@ -26,7 +26,7 @@ Called on the following commands:
 * **CopyDirectory** - fired before the file explorer copies a folder
 
 ````ASP.NET
-<telerik:RadFileExplorer runat="server" ID="RadFileExplorer1" Width="575px" EnableCopy="true"
+<telerik:RadFileExplorer RenderMode="Lightweight" runat="server" ID="RadFileExplorer1" Width="575px" EnableCopy="true"
 	Height="375px" OnItemCommand="RadFileExplorer1_ItemCommand">
 	<Configuration ViewPaths="~/ROOT/" DeletePaths="~/ROOT/" UploadPaths="~/ROOT/" />
 </telerik:RadFileExplorer>
@@ -80,7 +80,7 @@ End Sub
 This event is fired twice - once when the TreeView's items are populated and second time when the Grid's items are populated. The *ControlName* property contains the name of the control, which will consume the populated data (e.List). This event can be used to sort the FileExplorer's items for example.
 
 ````ASP.NET
-<telerik:RadFileExplorer runat="server" ID="RadFileExplorer1" Width="575px" EnableCopy="true"
+<telerik:RadFileExplorer RenderMode="Lightweight" runat="server" ID="RadFileExplorer1" Width="575px" EnableCopy="true"
 	Height="375px" OnExplorerPopulated="RadFileExplorer1_ExplorerPopulated">
 	<Configuration ViewPaths="~/ROOT/" DeletePaths="~/ROOT/" UploadPaths="~/ROOT/" />
 </telerik:RadFileExplorer>

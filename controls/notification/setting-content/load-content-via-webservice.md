@@ -54,7 +54,7 @@ End Class
 An example method in the WebService:
 
 ````ASP.NET
-<telerik:RadNotification ID="RadNotification1" Animation="Slide" runat="server" OffsetX="-20"
+<telerik:RadNotification RenderMode="Lightweight" ID="RadNotification1" Animation="Slide" runat="server" OffsetX="-20"
     VisibleOnPageLoad="true" OffsetY="-20" Width="250px" Height="80px" LoadContentOn="EveryShow"
     WebMethodName="GetWeatherForcast" WebMethodPath="NotificationWebService.asmx"
     VisibleTitlebar="false" Value="rainyState" EnableRoundedCorners="true" Skin="Office2007">

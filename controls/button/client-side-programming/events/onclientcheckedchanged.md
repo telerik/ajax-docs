@@ -42,11 +42,11 @@ This event is useful when the user wants to execute custom client code when the 
 	}
 </script>
 
-<telerik:RadButton ID="RadButton1" runat="server" Text="Show/Hide Window" ToggleType="CheckBox"
+<telerik:RadButton RenderMode="Lightweight" ID="RadButton1" runat="server" Text="Show/Hide Window" ToggleType="CheckBox"
 	ButtonType="ToggleButton" OnClientCheckedChanged="ShowHideWindow" AutoPostBack="false">
 </telerik:RadButton>
 
-<telerik:RadWindow ID="RadWindow1" runat="server" NavigateUrl="http://www.telerik.com">
+<telerik:RadWindow RenderMode="Lightweight" ID="RadWindow1" runat="server" NavigateUrl="http://www.telerik.com">
 </telerik:RadWindow>
 ````
 

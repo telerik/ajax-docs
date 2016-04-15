@@ -33,7 +33,7 @@ You can also set the **DataKeyNames** property to add additional fields from the
 Here is a sample that shows how to achieve binding with SqlDataSource.
 
 ````ASPNET
-<telerik:RadSearchBox runat="server" ID="RadSearchBox1" 
+<telerik:RadSearchBox RenderMode="Lightweight" runat="server" ID="RadSearchBox1" 
 	DataSourceID="SqlDataSource1"
 	DataValueField="ProductId"
 	DataTextField="ProductName">
@@ -57,7 +57,7 @@ Here is a sample that shows how to achieve binding with LinqDataSource.
 	OrderBy="ContactName" Select="new (ContactName, City, ContactTitle)" TableName="Customers">
 </asp:LinqDataSource>
 
- <telerik:RadSearchBox runat="server" ID="RadSearchBox2"  EmptyMessage="Linq"
+ <telerik:RadSearchBox RenderMode="Lightweight" runat="server" ID="RadSearchBox2"  EmptyMessage="Linq"
 	DataSourceID="LinqDataSource1" DataValueField="ContactName"
 	DataTextField="City">
 	<DropDownSettings Height="400" Width="300" />
@@ -76,7 +76,7 @@ Here is a sample how to doe how to achieve it with EntityDateSource.
 	DefaultContainerName="NorthwindEntities35" EntitySetName="Customers" Select="it.[ContactName], it.[City], it.[ContactTitle]"
 	AutoPage="true" OrderBy="it.[ContactName]">
 </asp:EntityDataSource>
-<telerik:RadSearchBox runat="server" ID="RadSearchBox3"  EmptyMessage="Entity"
+<telerik:RadSearchBox RenderMode="Lightweight" runat="server" ID="RadSearchBox3"  EmptyMessage="Entity"
 	DataSourceID="EntityDataSource1" DataValueField="ContactName"
 	DataTextField="City">
 	<DropDownSettings Height="400" Width="300" />
@@ -90,7 +90,7 @@ Here is a sample how to doe how to achieve it with EntityDateSource.
 Here is a sample that shows how to achieve binding with ObjectDateSource.
 
 ````ASPNET
-<telerik:RadSearchBox runat="server" ID="RadSearchBox4"  EmptyMessage="Object"
+<telerik:RadSearchBox RenderMode="Lightweight" runat="server" ID="RadSearchBox4"  EmptyMessage="Object"
 	DataSourceID="ObjectDataSource1" DataValueField="ID"
 	DataTextField="Text">
 	<DropDownSettings Height="400" Width="300" />
@@ -199,7 +199,7 @@ End Class
 Here is a sample that shows how to achieve binding with XMLDataSource.
 
 ````ASPNET
-<telerik:RadSearchBox runat="server" ID="RadSearchBox5"  EmptyMessage="XML"
+<telerik:RadSearchBox RenderMode="Lightweight" runat="server" ID="RadSearchBox5"  EmptyMessage="XML"
 	DataSourceID="XmlDataSource1" DataValueField="Value"
 	DataTextField="Text">
 	<DropDownSettings Height="400" Width="300" />

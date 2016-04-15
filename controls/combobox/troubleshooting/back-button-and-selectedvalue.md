@@ -69,7 +69,7 @@ function pageLoad() {
 Here is the final code:
 
 ````ASPNET
-<telerik:RadComboBox ID="RadComboBox1"
+<telerik:RadComboBox RenderMode="Lightweight" ID="RadComboBox1"
    runat="server"
    OnClientSelectedIndexChanged="onSelectedIndexChanged">
    <Items>

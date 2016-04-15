@@ -105,7 +105,7 @@ The client-side objects for all the **RadInput** controls have a **focus** metho
 				radInput.focus();
 			}  
 		</script>
-		<telerik:RadNumericTextBox ID="RadInput1" runat="server">
+		<telerik:RadNumericTextBox RenderMode="Lightweight" ID="RadInput1" runat="server">
 		</telerik:RadNumericTextBox>
 	</div>
 	</form>

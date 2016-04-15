@@ -46,7 +46,7 @@ We will achieve the following: when you edit a node like **Drafts (2)** you will
 
 
 ````ASPNET
-<telerik:RadTreeView ID="RadTreeView1" 
+<telerik:RadTreeView RenderMode="Lightweight" ID="RadTreeView1" 
     OnClientNodeEditStart="OnClientNodeEditStartHandler"
     OnClientNodeEdited="OnClientNodeEditedHandler" 
     Skin="Office2007" 

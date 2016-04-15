@@ -24,7 +24,7 @@ The API methods are accessible via the registered JavaScript object. A global va
 </script>
 ````
 ````ASPNET
-<telerik:RadTimePicker runat="server" ID="RadTimePicker1">
+<telerik:RadTimePicker RenderMode="Lightweight" runat="server" ID="RadTimePicker1">
 </telerik:RadTimePicker>
 ````
 
@@ -119,7 +119,7 @@ function enable() {
 ````
 ````ASPNET
 <telerik:RadScriptManager id="RadScriptManager1" runat="server"></telerik:RadScriptManager>
-<telerik:RadTimePicker ID="RadTimePicker1" runat="server"></telerik:RadTimePicker>
+<telerik:RadTimePicker RenderMode="Lightweight" ID="RadTimePicker1" runat="server"></telerik:RadTimePicker>
 <br />
 <input type="button" value="disable" onclick="disable()" />
 <input type="button" value="enable" onclick="enable()" />

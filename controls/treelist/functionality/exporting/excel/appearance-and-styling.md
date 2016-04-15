@@ -52,7 +52,7 @@ The first three inherit the [TableItemStyle](http://msdn.microsoft.com/en-us/lib
 Another option to export styled treelist is to specify the styles declaratively to the control:
 
 ````ASPNET
-<telerik:RadTreeList runat="server" ID="RadTreeList1" DataSourceID="SqlDataSource1"
+<telerik:RadTreeList RenderMode="Lightweight" runat="server" ID="RadTreeList1" DataSourceID="SqlDataSource1"
 	AllowPaging="true" PageSize="5" DataKeyNames="id" ParentDataKeyNames="parentId"
 	AutoGenerateColumns="false">
 	<HeaderStyle ForeColor="BlueViolet" />

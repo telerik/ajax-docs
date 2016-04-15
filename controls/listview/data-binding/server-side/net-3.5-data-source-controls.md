@@ -26,7 +26,7 @@ Refer to the [respective online demo](http://demos.telerik.com/aspnet-ajax/listv
 
 ````C#
 <asp:ScriptManager ID="ScriptManager1" runat="server" />
-<telerik:RadFormDecorator ID="RadFormDecorator1" runat="server" />
+<telerik:RadFormDecorator RenderMode="Lightweight" ID="RadFormDecorator1" runat="server" />
 <h3>
     LinqDataSource</h3>
 <telerik:RadListView ID="RadListView1" DataSourceID="LinqDataSource1" runat="server"
@@ -135,7 +135,7 @@ Refer to the [respective online demo](http://demos.telerik.com/aspnet-ajax/listv
 ````
 ````VB
 <asp:ScriptManager ID="ScriptManager1" runat="server" />
-<telerik:RadFormDecorator ID="RadFormDecorator1" runat="server" />
+<telerik:RadFormDecorator RenderMode="Lightweight" ID="RadFormDecorator1" runat="server" />
 <h3>
     LinqDataSource</h3>
 <telerik:RadListView ID="RadListView1" DataSourceID="LinqDataSource1" runat="server"

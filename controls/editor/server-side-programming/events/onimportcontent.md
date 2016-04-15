@@ -21,7 +21,7 @@ The event handler receives two arguments:
 >caption Example 1: Using the event to modify the ExportSettings of the HtmlFormatProvider instance.
 
 ````ASP.NET
-<telerik:RadEditor runat="server" ID="RadEditor1" OnImportContent="RadEditor1_ImportContent">
+<telerik:RadEditor RenderMode="Lightweight" runat="server" ID="RadEditor1" OnImportContent="RadEditor1_ImportContent">
 </telerik:RadEditor>
 <asp:Button runat="server" ID="Button1" Text="Import DOCX Content" OnClick="Button1_Click" />
 ````
@@ -74,7 +74,7 @@ End Class
 >caption Example 2: Adding an additional paragraph to the **RadFlowDocument** through the **OnImportContent** event.
 
 ````ASP.NET
-<telerik:RadEditor runat="server" ID="RadEditor1" OnImportContent="RadEditor1_ImportContent">
+<telerik:RadEditor RenderMode="Lightweight" runat="server" ID="RadEditor1" OnImportContent="RadEditor1_ImportContent">
 </telerik:RadEditor>
 <asp:Button runat="server" ID="Button1" Text="Import DOCX" OnClick="Button1_Click" />
 ````

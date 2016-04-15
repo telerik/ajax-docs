@@ -79,7 +79,7 @@ The **ExpandAnimation** and **CollapseAnimation** tags of **RadAutoCompleteBox**
 **Example 1:** A sample animation configuration.
 
 ````ASPNET
-<telerik:RadAutoCompleteBox ID="RadAutoCompleteBox1" runat="server">
+<telerik:RadAutoCompleteBox RenderMode="Lightweight" ID="RadAutoCompleteBox1" runat="server">
     <ExpandAnimation Type="InBounce" Duration="300" />
     <CollapseAnimation Type="OutQuint" Duration="200" />
 </telerik:RadAutoCompleteBox>

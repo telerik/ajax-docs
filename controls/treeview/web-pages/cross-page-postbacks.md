@@ -22,7 +22,7 @@ In the example below, the default page contains a **RadTreeView** with a single 
 <form id="form1" runat="server">
 <asp:ScriptManager ID="ScriptManager1" runat="server" />
 <div>
-    <telerik:RadTreeView ID="RadTreeView1" runat="server" PostBackUrl="page2.aspx" OnNodeClick="RadTreeView1_NodeClick">
+    <telerik:RadTreeView RenderMode="Lightweight" ID="RadTreeView1" runat="server" PostBackUrl="page2.aspx" OnNodeClick="RadTreeView1_NodeClick">
         <Nodes>
             <telerik:RadTreeNode runat="server" Text="A node from the Default page" />
         </Nodes>

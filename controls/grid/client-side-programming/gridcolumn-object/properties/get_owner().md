@@ -19,7 +19,7 @@ position: 2
 Returns a client-side object of type **Telerik.Web.UI.GridTableView** which represents the parent of the current column.
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="True"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" AllowPaging="True"
     OnNeedDataSource="RadGrid1_NeedDataSource">
     <MasterTableView DataKeyNames="OrderID">
     </MasterTableView>

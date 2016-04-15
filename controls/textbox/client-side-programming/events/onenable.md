@@ -24,10 +24,10 @@ Two parameters are passed to the event handler:
 The following example uses the **OnEnable** event to disable another control when the input control is enabled:
 
 ````ASPNET
-<telerik:RadTextBox ID="RadTextBox1" runat="server" ShowButton="True">
+<telerik:RadTextBox RenderMode="Lightweight" ID="RadTextBox1" runat="server" ShowButton="True">
 	<ClientEvents OnEnable="DisableOtherInput" OnButtonClick="ToggleEnabled" />
 </telerik:RadTextBox>
-<telerik:RadNumericTextBox ID="RadNumericTextBox1" runat="server" Enabled="False" ShowButton="True">
+<telerik:RadNumericTextBox RenderMode="Lightweight" ID="RadNumericTextBox1" runat="server" Enabled="False" ShowButton="True">
 		<ClientEvents onenable="DisableOtherInput" onbuttonclick="ToggleEnabled" />
 </telerik:RadNumericTextBox>
 ````

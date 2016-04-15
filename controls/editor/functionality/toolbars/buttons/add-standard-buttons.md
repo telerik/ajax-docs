@@ -15,7 +15,7 @@ RadEditor provides 4 different ways to configure toolbars:
 ## Setting Tools in the RadEditor declaration
 
 ````ASP.NET
-<telerik:RadEditor runat="server" ID="RadEditor1" Height="100px">
+<telerik:RadEditor RenderMode="Lightweight" runat="server" ID="RadEditor1" Height="100px">
 	<Tools>
 		<telerik:EditorToolGroup>
 			<telerik:EditorTool Name="Cut" />
@@ -37,7 +37,7 @@ A useful design-time feature of the **Name** attribute is that it offers a list 
 As in earlier versions of RadEditor, you can configure the toolbar using a ToolsFile.xml file:
 
 ````ASP.NET
-<telerik:RadEditor ToolsFile="~/ToolsFile.xml" runat="server" ID="RadEditor1">
+<telerik:RadEditor RenderMode="Lightweight" ToolsFile="~/ToolsFile.xml" runat="server" ID="RadEditor1">
 </telerik:RadEditor>
 ````
 
@@ -125,7 +125,7 @@ In your .skin file declare RadEditor with the tools that will be displayed in th
 
 ````XML
 <%@ register tagprefix="telerik" namespace="Telerik.Web.UI" assembly="Telerik.Web.UI" %>
-<telerik:RadEditor ID="Radeditor1" runat="server" SkinID="SomeTools">
+<telerik:RadEditor RenderMode="Lightweight" ID="Radeditor1" runat="server" SkinID="SomeTools">
 	<Tools>
 		<telerik:EditorToolGroup>
 			<telerik:EditorTool Name="Bold" />
@@ -142,7 +142,7 @@ Once the skin is set, you need to declare the RadEditor and specify the **SkinId
 	theme="Skin1" %>
 
 ...
-<telerik:RadEditor SkinID="SomeTools" Height="100px" runat="server" ID="RadEditor1">
+<telerik:RadEditor RenderMode="Lightweight" SkinID="SomeTools" Height="100px" runat="server" ID="RadEditor1">
 </telerik:RadEditor>
 ````
 

@@ -38,7 +38,7 @@ Another approach for getting the client-side object is to handle any client-side
 		textBox = sender;
 	}
 </script>
-<telerik:RadDateInput ID="RadDateInput1" runat="server">
+<telerik:RadDateInput RenderMode="Lightweight" ID="RadDateInput1" runat="server">
 	<ClientEvents OnLoad="Load" />
 </telerik:RadDateInput>
 ````
@@ -52,7 +52,7 @@ The input area of a **RadInput** control is an HTML \<input\> element with a cli
 The following example demonstrates how to access RadInput client object after Q2 2012:
 
 ````ASPNET
-<telerik:RadDateInput id="RadDateInput1" runat="server" ClientEvents-OnLoad="loadHandler" />
+<telerik:RadDateInput RenderMode="Lightweight" id="RadDateInput1" runat="server" ClientEvents-OnLoad="loadHandler" />
 ````
 
 
@@ -141,7 +141,7 @@ Because the **RadInput** controls have their own style mechanism, you can change
 		sender.updateCssClass();
 	}
 </script>
-<telerik:RadDateInput ID="RadDateInput1" runat="server">
+<telerik:RadDateInput RenderMode="Lightweight" ID="RadDateInput1" runat="server">
 	<ClientEvents OnLoad="Load" />
 </telerik:RadDateInput>
 ````

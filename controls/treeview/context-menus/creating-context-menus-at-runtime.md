@@ -21,7 +21,7 @@ The example below shows how to dynamically create Context Menus and apply them t
 ![RadTreeView Context Menus at Runtime](images/treeview_contextmenuruntime.png)
 
 ````ASPNET
-<telerik:RadTreeView ID="RadTreeView1" runat="server" Skin="Vista">
+<telerik:RadTreeView RenderMode="Lightweight" ID="RadTreeView1" runat="server" Skin="Vista">
     <Nodes>
         <telerik:RadTreeNode runat="server" Text="Root Item" ContextMenuID="HelpDeskMenu">
             <Nodes>

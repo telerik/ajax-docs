@@ -15,7 +15,7 @@ When the **RadRating** in not initially visible on the page and it is loaded thr
 ````ASP.NET
 <telerik:RadAjaxPanel runat="server" ID="panUpdate">
 	<asp:Panel runat="server" Visible="false" ID="Panel1">
-		<telerik:RadRating runat="server" ID="RadRating1"></telerik:RadRating>
+		<telerik:RadRating RenderMode="Lightweight" runat="server" ID="RadRating1"></telerik:RadRating>
 	</asp:Panel>
 	<asp:Button runat="server" ID="btnUpdate" Text="Update" OnClick="btnUpdate_Click" />
 </telerik:RadAjaxPanel>

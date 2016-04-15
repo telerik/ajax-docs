@@ -17,7 +17,7 @@ position: 6
 Returns a **Boolean** value, indicating whether the GridDataItem is in edit mode or not. Can be used to create a condition to execute script logic depending on the item status.
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="True"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" AllowPaging="True"
     OnNeedDataSource="RadGrid1_NeedDataSource" AutoGenerateEditColumn="true">
     <ClientSettings>
         <ClientEvents OnRowCreated="rowCreated" />

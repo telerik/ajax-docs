@@ -22,7 +22,7 @@ To change the **GroupByExpression** dynamically when the user drags a column hea
 
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1" ShowGroupPanel="true"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1" ShowGroupPanel="true"
   OnGroupsChanging="RadGrid1_GroupsChanging">
   <ClientSettings AllowDragToGroup="True" />
 </telerik:RadGrid>

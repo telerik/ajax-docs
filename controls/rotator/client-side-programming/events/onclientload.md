@@ -26,7 +26,7 @@ This event can be used for executing custom code when the RadRotator is loaded. 
 		sender.set_scrollDuration(500);
 	}
 </script>
-<telerik:RadRotator ID="RadRotator1" runat="server" ScrollDirection="Left" Height="113px"
+<telerik:RadRotator RenderMode="Lightweight" ID="RadRotator1" runat="server" ScrollDirection="Left" Height="113px"
 	ItemHeight="113px" Width="150px" ItemWidth="150px" OnClientLoad="OnClientLoad">
 	<ItemTemplate>
 		<img src=".........." alt="" />

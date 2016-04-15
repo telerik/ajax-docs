@@ -30,7 +30,7 @@ To change the current language/resource you should set the Culture property acco
 
 
 ````ASPNET
-<telerik:RadCalendar  ID="RadCalendar1" runat="server" Culture="en-US" ... </telerik:RadCalendar>
+<telerik:RadCalendar RenderMode="Lightweight"  ID="RadCalendar1" runat="server" Culture="en-US" ... </telerik:RadCalendar>
 ````
 
 

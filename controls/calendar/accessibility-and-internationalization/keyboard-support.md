@@ -16,7 +16,7 @@ The **RadCalendar** control provides support for **Access Keys** and navigation 
 * **Access Keys** - You can specify a key that lets the end user move focus directly to the **RadCalendar** control. Once focus is on the control, the user can use the keyboard to navigate around the control select a value. The access key is defined using the **AccessKey** property. For example, if you set the **AccessKey** property to "C", focus moves to the **RadCalendar** control when the user presses "**Alt+C**".
 
     ````ASPNET
-<telerik:RadCalendar ID="RadCalendar1" runat="server" MonthLayout="Layout_7columns_x_6rows" AccessKey="C">       
+<telerik:RadCalendar RenderMode="Lightweight" ID="RadCalendar1" runat="server" MonthLayout="Layout_7columns_x_6rows" AccessKey="C">       
 </telerik:RadCalendar>
 ````
 

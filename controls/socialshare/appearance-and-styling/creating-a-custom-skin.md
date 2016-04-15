@@ -36,7 +36,7 @@ Each of the controls included in the Telerik UI for ASP.NET AJAX suite is styled
 
 	__ASP.NET__
 
-	    <telerik:RadSocialShare ID="ssh1" runat="server" EnableEmbeddedSkins="false" Skin="MyCustomSkin">
+	    <telerik:RadSocialShare RenderMode="Lightweight" ID="ssh1" runat="server" EnableEmbeddedSkins="false" Skin="MyCustomSkin">
 	    </telerik:RadSocialShare>
 
 

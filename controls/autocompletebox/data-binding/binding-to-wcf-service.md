@@ -31,7 +31,7 @@ RadAutoCompleteBox supports WCF binding. The steps below show how to load items 
 The path to the Web service and the name of the service method are specified in the **WebServiceSettings' Path** and **Method** properties:
 
 ````ASPNET
-<telerik:RadAutoCompleteBox runat="server" ID="RadAutoCompleteBox2" OnClientRequesting="requesting">
+<telerik:RadAutoCompleteBox RenderMode="Lightweight" runat="server" ID="RadAutoCompleteBox2" OnClientRequesting="requesting">
 	<WebServiceSettings Path="LoadEntriesWCF.svc" Method="GetCompanyNames" />
 </telerik:RadAutoCompleteBox>
 ````

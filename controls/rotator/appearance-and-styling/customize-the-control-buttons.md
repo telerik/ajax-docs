@@ -16,7 +16,7 @@ position: 2
 <asp:Image ImageUrl="images/right.gif" ID="img_right" AlternateText="right" runat="server" Style="cursor: hand; float: right;" />
 <asp:Image ImageUrl="images/left.gif" ID="img_left" AlternateText="left" runat="server" Style="cursor: hand; float: left;" />
 	
-<telerik:RadRotator DataSourceID="xmlDataSource1" runat="server" ID="RadRotator1" Width="314" Height="55" ItemWidth="100" ItemHeight="50" ScrollDirection="Left" RotatorType="Buttons">
+<telerik:RadRotator RenderMode="Lightweight" DataSourceID="xmlDataSource1" runat="server" ID="RadRotator1" Width="314" Height="55" ItemWidth="100" ItemHeight="50" ScrollDirection="Left" RotatorType="Buttons">
 	<ItemTemplate>
 		<img src="Images/<%# XPath("Image") %>" alt="" style="margin: 0px 11px;" />
 	</ItemTemplate>

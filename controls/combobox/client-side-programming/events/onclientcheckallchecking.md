@@ -31,7 +31,7 @@ The event handler receives two parameters:
 The example below shows how to cancel the event if the check all check box is unchecked:
 
 ````ASPNET
-<telerik:RadComboBox ID="RadComboBox1" runat="server" OnClientCheckAllChecking="OnClientCheckAllChecking"
+<telerik:RadComboBox RenderMode="Lightweight" ID="RadComboBox1" runat="server" OnClientCheckAllChecking="OnClientCheckAllChecking"
 	CheckBoxes="true" EnableCheckAllItemsCheckBox="true">
 	<items>
 	<telerik:RadComboBoxItem Text="Item1" />

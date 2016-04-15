@@ -18,7 +18,7 @@ It is easy to define the hierarchy of tabs statically at design time. You can us
 Alternately, you can use the Source page to specify the items declaratively:
 
 ````ASPNET	
-<telerik:RadTabStrip ID="RadTabStrip1" runat="server" Skin="Vista" >
+<telerik:RadTabStrip RenderMode="Lightweight" ID="RadTabStrip1" runat="server" Skin="Vista" >
  <Tabs>
    <telerik:RadTab runat="server" Text="Documents A-F">
      <Tabs>

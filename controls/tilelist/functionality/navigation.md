@@ -43,7 +43,7 @@ The possible targets for the navigation are similar to those a standard *anchor*
 The following code snippet examines the possible values of the the Tiles' **Target** property and the ways **NavigateUrl** paths can be specified.
 
 ````ASP.NET
-<telerik:RadTileList runat="server" ID="RadTileList1" Width="1030px" TileRows="3"
+<telerik:RadTileList RenderMode="Lightweight" runat="server" ID="RadTileList1" Width="1030px" TileRows="3"
 	SelectionMode="Multiple">
 	<Groups>
 		<telerik:TileGroup>
@@ -101,7 +101,7 @@ The following code snippet examines the possible values of the the Tiles' **Targ
 The **OnClientTileClicking** event can be used to prevent navigation (according to given criteria) by cancelling the event itself:
 
 ````JavaScript
-<telerik:RadTileList runat="server" ID="RadTileList1" OnClientTileClicking="OnClientTileClicking">
+<telerik:RadTileList RenderMode="Lightweight" runat="server" ID="RadTileList1" OnClientTileClicking="OnClientTileClicking">
 	<Groups>
 		<telerik:TileGroup>
 			<telerik:RadIconTile NavigateUrl="somePage.aspx" Target="_blank"></telerik:RadIconTile>

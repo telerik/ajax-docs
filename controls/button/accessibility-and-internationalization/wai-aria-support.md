@@ -19,7 +19,7 @@ In order to enable the WAI-ARIA support, set the **RadButton** control's `Enable
 >caption **Example 1**: Enabling WAI-ARIA support for RadButton
 
 ````ASP.NET
-<telerik:RadButton ID="RadButton1" runat="server" EnableAriaSupport="true" Text="Button with WAI-ARIA attributes">
+<telerik:RadButton RenderMode="Lightweight" ID="RadButton1" runat="server" EnableAriaSupport="true" Text="Button with WAI-ARIA attributes">
 </telerik:RadButton>
 ````
 

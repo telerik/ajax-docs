@@ -30,7 +30,7 @@ In the example below, when the mouse passes out of "Button1", `clientHide()` dis
         alert("OnClientHide tool tip: " + sender.get_text());
     }
 </script>
-<telerik:RadToolTip ID="RadToolTip1" runat="server" Skin="Inox" TargetControlID="Button1"
+<telerik:RadToolTip RenderMode="Lightweight" ID="RadToolTip1" runat="server" Skin="Inox" TargetControlID="Button1"
     IsClientID="true" OnClientHide="clientHide" Text="text">
 </telerik:RadToolTip>
 ````

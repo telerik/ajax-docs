@@ -18,7 +18,7 @@ This article shows how you can easily send additional information from the clien
 First you have to use the **OnClientRequestStart** client event to set some custom attributes on the context:
 
 ````ASPNET
-<telerik:RadGantt runat="server" ID="RadGantt1"
+<telerik:RadGantt RenderMode="Lightweight" runat="server" ID="RadGantt1"
 	OnClientRequestStart="onClientRequestStart">
 	<WebServiceSettings Path="GanttService.asmx" />
 </telerik:RadGantt>

@@ -34,7 +34,7 @@ You can use this event to respond when the mouse moves off an item:
     }
 </script>
 
-<telerik:RadMenu ID="RadMenu1" runat="server" Flow="Horizontal" OnClientMouseOut="markItem">
+<telerik:RadMenu RenderMode="Lightweight" ID="RadMenu1" runat="server" Flow="Horizontal" OnClientMouseOut="markItem">
     <Items>
         <telerik:RadMenuItem runat="server" ExpandMode="ClientSide" Text="Item 1" visited="false" />
         <telerik:RadMenuItem runat="server" ExpandMode="ClientSide" Text="Item 2" visited="false" />

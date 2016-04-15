@@ -24,7 +24,7 @@ The following tutorial demonstrates how you can add a simple **RadProgressBar** 
 
 	**ASP.NET**
 			
-		<telerik:RadProgressBar runat="server" ID="RadProgressBar1">
+		<telerik:RadProgressBar RenderMode="Lightweight" runat="server" ID="RadProgressBar1">
 		</telerik:RadProgressBar>
 
 
@@ -34,7 +34,7 @@ The following tutorial demonstrates how you can add a simple **RadProgressBar** 
 
 	**ASP.NET**	
 	
-		<telerik:RadProgressBar runat="server" ID="RadProgressBar1" 
+		<telerik:RadProgressBar RenderMode="Lightweight" runat="server" ID="RadProgressBar1" 
 			BarType="Percent" MaxValue="100" Value="33" Width="250" 
 			Orientation="Horizontal" ShowLabel="true" Skin="Silk">
 		</telerik:RadProgressBar>

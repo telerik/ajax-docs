@@ -55,7 +55,7 @@ MS Word specific options:
 >caption Example 1: How to set multiple values to the **StripFormattingOptions** property.
 
 ````ASP.NET
-<telerik:RadEditor runat="server" ID="RadEditor1" StripFormattingOptions="MsWord,Span,Css,ConvertWordLists">
+<telerik:RadEditor RenderMode="Lightweight" runat="server" ID="RadEditor1" StripFormattingOptions="MsWord,Span,Css,ConvertWordLists">
 </telerik:RadEditor>
 ````
 

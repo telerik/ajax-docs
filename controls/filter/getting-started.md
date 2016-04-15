@@ -48,7 +48,7 @@ In addition to the filtering groups, the filter control renders an "Apply" butto
 There are cases when the filter expressions of the RadFilter control can be directly correlated to a data bound control such as the RadListView. To do so, you can set the FilterContainerID property to the ID of the control whose data will reflect the filter expression built via RadFilter. The code for this example is below:
 
 ````ASPNET
-<telerik:RadFilter runat="server" ID="RadFilter1" Skin="Black" FilterContainerID="RadListView1">
+<telerik:RadFilter RenderMode="Lightweight" runat="server" ID="RadFilter1" Skin="Black" FilterContainerID="RadListView1">
 </telerik:RadFilter>
 ````
 

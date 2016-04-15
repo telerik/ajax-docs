@@ -29,7 +29,7 @@ The user is expected to provide a delegate function to **e.CustomEditorInitializ
 
 
 ````ASPNET
-<telerik:RadTreeList runat="server" ID="RadTreeList1" OnCreateColumnEditor="RadTreeList1_CreateColumnEditor"
+<telerik:RadTreeList RenderMode="Lightweight" runat="server" ID="RadTreeList1" OnCreateColumnEditor="RadTreeList1_CreateColumnEditor"
 	DataSourceID="SqlDataSource1" AutoGenerateColumns="false" DataKeyNames="EmployeeID" ParentDataKeyNames="ReportsTo">
 	<Columns>
 		<telerik:TreeListBoundColumn DataField="EmployeeID" HeaderStyle-Width="60px" HeaderText="EmployeeID"
@@ -113,7 +113,7 @@ To create a custom column editor, a developer needs to implement the ITreeListCo
 
 
 ````ASPNET
-<telerik:RadTreeList runat="server" ID="RadTreeList1" OnCreateColumnEditor="RadTreeList1_CreateColumnEditor"
+<telerik:RadTreeList RenderMode="Lightweight" runat="server" ID="RadTreeList1" OnCreateColumnEditor="RadTreeList1_CreateColumnEditor"
 	DataSourceID="SqlDataSource1" AutoGenerateColumns="false" DataKeyNames="EmployeeID" ParentDataKeyNames="ReportsTo">
 	<Columns>
 		<telerik:TreeListBoundColumn DataField="EmployeeID" HeaderStyle-Width="60px" HeaderText="EmployeeID"

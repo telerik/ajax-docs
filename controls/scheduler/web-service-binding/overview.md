@@ -36,7 +36,7 @@ Here is a step-by-step tutorial on how to bind RadScheduler to Web Services:
 		<form id="form2" runat="server">   
 		   <asp:ScriptManager ID="ScriptManager1" runat="server">
 		   </asp:ScriptManager>
-		   <telerik:RadScheduler ID="RadScheduler1" runat="server" Height=""
+		   <telerik:RadScheduler RenderMode="Lightweight" ID="RadScheduler1" runat="server" Height=""
 			   HoursPanelTimeFormat="htt" ValidationGroup="RadScheduler1">
 		   </telerik:RadScheduler>
 		</form>      
@@ -127,7 +127,7 @@ Here is a step-by-step tutorial on how to bind RadScheduler to Web Services:
 
 	**ASP.NET**
 			
-		<telerik:RadScheduler runat="server" ID="RadScheduler1" SelectedView="WeekView" SelectedDate="2009-02-02"
+		<telerik:RadScheduler RenderMode="Lightweight" runat="server" ID="RadScheduler1" SelectedView="WeekView" SelectedDate="2009-02-02"
 		  TimeZoneOffset="03:00:00" StartEditingInAdvancedForm="false">
 		  <WebServiceSettings Path="SchedulerWebService.asmx" ResourcePopulationMode="ServerSide" />
 		</telerik:RadScheduler> 

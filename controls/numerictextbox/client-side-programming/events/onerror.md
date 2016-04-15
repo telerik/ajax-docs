@@ -37,7 +37,7 @@ The following example uses the **OnError** event to raise an alert when an error
 
 ````ASPNET
 
-<telerik:RadNumericTextBox ID="RadNumericTextBox1" runat="server" MaxValue="10" MinValue="0">
+<telerik:RadNumericTextBox RenderMode="Lightweight" ID="RadNumericTextBox1" runat="server" MaxValue="10" MinValue="0">
 	<Clientevents onerror="HandleError" />
 </telerik:RadNumericTextBox>
 ````

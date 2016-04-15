@@ -22,7 +22,7 @@ A number of properties let you control the look and feel of the **RadDatePicker*
 
 
 ````ASPNET
-<telerik:RadDatePicker EnableEmbeddedSkins="false" ImagesPath="~/Images" ID="RadDatePicker1" runat="server">
+<telerik:RadDatePicker RenderMode="Lightweight" EnableEmbeddedSkins="false" ImagesPath="~/Images" ID="RadDatePicker1" runat="server">
 </telerik:RadDatePicker>
 ````
 
@@ -39,7 +39,7 @@ In order to change the duration of the animation, use the **HideAnimation-Durati
 Following are some sample configurations:
 
 ````ASPNET
-<telerik:RadDatePicker ID="RadDatePicker1" runat="server">
+<telerik:RadDatePicker RenderMode="Lightweight" ID="RadDatePicker1" runat="server">
     <HideAnimation Duration="4444" />
     <ShowAnimation Duration="1111" />
 </telerik:RadDatePicker>	

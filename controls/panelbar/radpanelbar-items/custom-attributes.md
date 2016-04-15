@@ -19,7 +19,7 @@ position: 6
 In the ASP.NET declaration of your **RadPanelBar** object, you can add custom attributes to panel items by simply adding Name="value" to the **RadPanelItem** declaration. For example, the following RadPanelBar definition adds a "State" custom attribute to its non-root panel items:
 
 ````ASPNET
-<telerik:RadPanelBar ID="RadPanelBar1" runat="server" Skin="Office2007" Width="54px">
+<telerik:RadPanelBar RenderMode="Lightweight" ID="RadPanelBar1" runat="server" Skin="Office2007" Width="54px">
 <Items >
    <telerik:RadPanelItem Text="Format">
       <Items>

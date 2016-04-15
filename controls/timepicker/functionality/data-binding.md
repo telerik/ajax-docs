@@ -26,7 +26,7 @@ The following example demonstrates how to bind a **RadTimePicker** control insid
 
 
 ````ASPNET
- <telerik:RadGrid ID="RadGrid1" runat="server" AutoGenerateColumns="False" 
+ <telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" AutoGenerateColumns="False" 
     OnNeedDataSource="RadGrid1_NeedDataSource" OnUpdateCommand="RadGrid1_UpdateCommand">
     <MasterTableView Width="100%" EditMode="InPlace">
         <Columns>
@@ -37,7 +37,7 @@ The following example demonstrates how to bind a **RadTimePicker** control insid
                     &nbsp;
                 </ItemTemplate>
                 <EditItemTemplate>
-                    <telerik:RadTimePicker ID="picker1" MinDate="2006/1/1" runat="server" DbSelectedDate='<%# Bind("Times") %>'>
+                    <telerik:RadTimePicker RenderMode="Lightweight" ID="picker1" MinDate="2006/1/1" runat="server" DbSelectedDate='<%# Bind("Times") %>'>
                     </telerik:RadTimePicker>
                 </EditItemTemplate>
             </telerik:GridTemplateColumn>
@@ -54,16 +54,16 @@ You can also bind **RadTimePicker** to a custom collection of time. Check out th
 
 ````ASPNET
 <h4>Binding to generic list of DateTime</h4>
-<telerik:RadTimePicker ID="RadTimePicker3" Skin="Silk" runat="server" />
+<telerik:RadTimePicker RenderMode="Lightweight" ID="RadTimePicker3" Skin="Silk" runat="server" />
 <br />
 <h4>Binding to ArrayList of DateTime</h4>
-<telerik:RadTimePicker ID="RadTimePicker4" Skin="Silk" runat="server" />
+<telerik:RadTimePicker RenderMode="Lightweight" ID="RadTimePicker4" Skin="Silk" runat="server" />
 <br />
 <h4>Binding to DateTime array</h4>
-<telerik:RadTimePicker ID="RadTimePicker5" Skin="Silk" runat="server" />
+<telerik:RadTimePicker RenderMode="Lightweight" ID="RadTimePicker5" Skin="Silk" runat="server" />
 <br />
 <h4>Binding to object array with DateTime</h4>
-<telerik:RadTimePicker ID="RadTimePicker6" Skin="Silk" runat="server" />
+<telerik:RadTimePicker RenderMode="Lightweight" ID="RadTimePicker6" Skin="Silk" runat="server" />
 ````
 ````C#
 protected void Page_Load(object sender, EventArgs e)

@@ -19,7 +19,7 @@ position: 7
 
 ````ASPNET
 <div dir="rtl">
-    <telerik:RadTreeView ID="RadTreeView1" runat="server" Skin="Telerik">
+    <telerik:RadTreeView RenderMode="Lightweight" ID="RadTreeView1" runat="server" Skin="Telerik">
         <Nodes>
             . . .
 ````

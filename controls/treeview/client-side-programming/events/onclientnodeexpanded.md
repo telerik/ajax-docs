@@ -33,7 +33,7 @@ The event handler receives parameters:
 The example below displays the text for the parent node and a count of child nodes.
 
 ````ASPNET
-<telerik:RadTreeView ID="RadTreeView1" runat="server" 
+<telerik:RadTreeView RenderMode="Lightweight" ID="RadTreeView1" runat="server" 
                      OnClientNodeExpanded="ClientNodeExpanded">
 </telerik:RadTreeView>
 ````

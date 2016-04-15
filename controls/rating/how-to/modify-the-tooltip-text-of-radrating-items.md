@@ -31,7 +31,7 @@ The code sample below demonstrates how to configure the rating to show textual r
 		}
 	}
 </script>
-<telerik:RadRating ID="RadRating1" runat="server" Precision="Item" SelectionMode="Continuous"
+<telerik:RadRating RenderMode="Lightweight" ID="RadRating1" runat="server" Precision="Item" SelectionMode="Continuous"
 	OnClientLoad="OnClientLoad" ItemCount="5">
 </telerik:RadRating>
 ````

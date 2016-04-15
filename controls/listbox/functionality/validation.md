@@ -17,7 +17,7 @@ You can use the built in ASP.NET validation with **RadListBox**.
 To validate for selected item of a listbox, just specify the ID of the listbox in the **ControlToValidate** property of the **RequiredFieldValidator**. Validation checks to see if there is at least one selected item.
 
 ````ASPNET
-<telerik:RadListBox runat="server" ID="RadListBox1"> 
+<telerik:RadListBox RenderMode="Lightweight" runat="server" ID="RadListBox1"> 
 	<Items>  
 	<telerik:RadListBoxItem Text="Apartments" />  
 	<telerik:RadListBoxItem Text="Campings" />  

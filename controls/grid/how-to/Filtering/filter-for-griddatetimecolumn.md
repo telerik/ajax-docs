@@ -44,7 +44,7 @@ In order to enable the range filtering function you should set the **EnableRange
 
 
 ````ASP.NET
-<telerik:RadGrid AutoGenerateColumns="false" ID="RadGrid1" DataSourceID="SqlDataSource1"
+<telerik:RadGrid RenderMode="Lightweight" AutoGenerateColumns="false" ID="RadGrid1" DataSourceID="SqlDataSource1"
     Width="760px" AllowFilteringByColumn="True" AllowSorting="True" PageSize="15"
     ShowFooter="True" AllowPaging="True" runat="server" GridLines="None" EnableLinqExpressions="false">
     <PagerStyle Mode="NextPrevAndNumeric" />
@@ -114,7 +114,7 @@ Time independent filtering functionality is controlled by the **EnableTimeIndepe
 
 
 ````ASP.NET
-<telerik:RadGrid AutoGenerateColumns="false" ID="RadGrid2" DataSourceID="SqlDataSource1"
+<telerik:RadGrid RenderMode="Lightweight" AutoGenerateColumns="false" ID="RadGrid2" DataSourceID="SqlDataSource1"
     Width="760px" AllowFilteringByColumn="True" AllowSorting="True" PageSize="15"
     ShowFooter="True" AllowPaging="True" runat="server" GridLines="None" EnableLinqExpressions="false">
     <PagerStyle Mode="NextPrevAndNumeric" />

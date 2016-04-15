@@ -17,7 +17,7 @@ position: 15
 Returns the page size for the respective **GridTableView** object. You should keep in mind that itindicates how many records a full page contains, not the current records count. For example, the last page of the grid usually contains less records than the standard page size. In this case, the exact count of the records can be obtained fromthe length of the [dataItems collection]({%slug grid/client-side-programming/gridtableview-object/properties/get_dataitems()%}).
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="True"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" AllowPaging="True"
     OnNeedDataSource="RadGrid1_NeedDataSource">
     <MasterTableView DataKeyNames="OrderID">
     </MasterTableView>

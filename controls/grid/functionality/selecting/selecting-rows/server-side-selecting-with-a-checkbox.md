@@ -35,7 +35,7 @@ To simulate the **GridClientSelectColumn** in a template column:
 Note that in the grid declaration, you do not need to enable client-side selection:
 
 ````ASP.NET
-	  <telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="True" PageSize="5" Skin="Silk"
+	  <telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" AllowPaging="True" PageSize="5" Skin="Silk"
 	    DataSourceID="SqlDataSource1" AllowMultiRowSelection="true">
 	    <MasterTableView>
 	      <Columns>

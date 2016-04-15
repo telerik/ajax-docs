@@ -51,7 +51,7 @@ LinqDataSource:
                 </tr>
                 <tr>
                     <td>
-                        <telerik:RadDataPager ID="RadDataPager1" runat="server" PagedControlID="RadListView1"
+                        <telerik:RadDataPager RenderMode="Lightweight" ID="RadDataPager1" runat="server" PagedControlID="RadListView1"
                             PageSize="6">
                             <Fields>
                                 <telerik:RadDataPagerButtonField FieldType="FirstPrev" />
@@ -275,7 +275,7 @@ EntityDataSource:
             <tfoot>
                 <tr>
                     <td colspan="7">
-                        <telerik:RadDataPager ID="RadDataPager1" runat="server" PagedControlID="RadListView2"
+                        <telerik:RadDataPager RenderMode="Lightweight" ID="RadDataPager1" runat="server" PagedControlID="RadListView2"
                             PageSize="5">
                             <Fields>
                                 <telerik:RadDataPagerButtonField FieldType="FirstPrev" />

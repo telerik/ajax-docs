@@ -53,7 +53,7 @@ position: 0
 The following example shows how to add and remove event handlers dynamically by using the methods exposed by the **TileList's** [Client-side API]({%slug tilelist/client-side-programming/tilelist-object%}).
 
 ````JavaScript
-<telerik:RadTileList runat="server" ID="RadTileList1" AutoPostBack="false" SelectionMode="Single">
+<telerik:RadTileList RenderMode="Lightweight" runat="server" ID="RadTileList1" AutoPostBack="false" SelectionMode="Single">
 	<Groups>
 		<telerik:TileGroup>
 			<telerik:RadTextTile Name="Sample Text Tile" Text="Lorem ipsum dolor sit amet" Title-Text="Sample"></telerik:RadTextTile>

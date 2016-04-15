@@ -44,7 +44,7 @@ The built-in filters are exposed by the **EditorFilters** enumeration. They are 
 **ContentFilters**
 
 ````ASP.NET
-<telerik:RadEditor ID="RadEditor1" ContentFilters="MakeUrlsAbsolute,FixEnclosingP" runat="server" />
+<telerik:RadEditor RenderMode="Lightweight" ID="RadEditor1" ContentFilters="MakeUrlsAbsolute,FixEnclosingP" runat="server" />
 ````
 
 ````C#	
@@ -95,7 +95,7 @@ There are two steps that you should take to implement a custom filter:
 The filter modifies the editor content so that in **HTML** mode it is presented with capital letters while in **Design** mode, it is shown in lower-case letters. This is a fairly simplistic and unrealistic scenario that is only used to demonstrate what is necessary to create and "hook" a filter into Telerik RadEditor. In a real life scenario, the filter would likely employ a number of regular expressions of varying complexity that will make the necessary changes to the content.
 
 ````ASP.NET
-<telerik:RadEditor runat="server" ID="RadEditor1" OnClientLoad="OnClientLoad">
+<telerik:RadEditor RenderMode="Lightweight" runat="server" ID="RadEditor1" OnClientLoad="OnClientLoad">
 </telerik:RadEditor>
 <script type="text/javascript">
 	function OnClientLoad(editor, args)

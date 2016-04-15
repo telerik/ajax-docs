@@ -31,7 +31,7 @@ Four properties are exposed through the event arguments:
 * **set_indicatorText** - sets the text that will be used in the indicator element instead of the correspondading one from TextStrengthDescriptions.
 
 ````ASPNET
-<telerik:RadTextBox runat="server" ID="RadTextBox1" Text="Enter Password" TextMode="Password">
+<telerik:RadTextBox RenderMode="Lightweight" runat="server" ID="RadTextBox1" Text="Enter Password" TextMode="Password">
 	<PasswordStrengthSettings ShowIndicator="true" OnClientPasswordStrengthCalculating="CalculatingStrength" />
 </telerik:RadTextBox>    
 ````

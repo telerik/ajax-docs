@@ -15,7 +15,7 @@ position: 3
 Each of the localization strings can be modified at runtime using the **Localization** server property. This saves the need to create a new localization file to change a single string.
 
 ````ASP.NET
-<telerik:RadColorPicker runat="server" ID="RadColorPicker1" PaletteModes="All">
+<telerik:RadColorPicker RenderMode="Lightweight" runat="server" ID="RadColorPicker1" PaletteModes="All">
     <Localization ApplyButtonText="<%$ Resources:RadColorPicker, ApplyButtonText %>"
                   CurrentColorText="<%$ Resources:RadColorPicker, CurrentColorText %>"
                   HSBTabText="<%$ Resources:RadColorPicker, HSBTabText %>"

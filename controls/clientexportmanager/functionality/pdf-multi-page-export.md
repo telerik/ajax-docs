@@ -30,11 +30,11 @@ You can export each of the **RadPanelBar's** root items and its content to a dif
 
 
 <div class="exportButtonContainer">
-    <telerik:RadButton ID="RadButton1" runat="server" OnClientClicked="exportAllPanelItems" Text="Export Items" AutoPostBack="false" UseSubmitBehavior="false"></telerik:RadButton>
+    <telerik:RadButton RenderMode="Lightweight" ID="RadButton1" runat="server" OnClientClicked="exportAllPanelItems" Text="Export Items" AutoPostBack="false" UseSubmitBehavior="false"></telerik:RadButton>
 </div>
 
 <div class="panel-container">
-    <telerik:RadPanelBar ID="RadPanelBar1" Skin="Web20" runat="server" Width="300">
+    <telerik:RadPanelBar RenderMode="Lightweight" ID="RadPanelBar1" Skin="Web20" runat="server" Width="300">
         <Items>
             <telerik:RadPanelItem ImageUrl="images/Honda.png" CssClass="pageBreak" runat="server" Height="60" Expanded="True">
                 <Items>

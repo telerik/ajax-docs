@@ -40,7 +40,7 @@ The following table shows the properties of the various **RadInput** controls to
 The following example shows how to use the different **RadInput** controls inside a databound control (in this case, **RadGrid**):
 
 ````ASPNET
-	    <telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1" GridLines="None">
+	    <telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1" GridLines="None">
 	        <MasterTableView AutoGenerateColumns="False" DataKeyNames="id" AllowAutomaticDeletes="true"
 	            AllowAutomaticInserts="true" AllowAutomaticUpdates="true" DataSourceID="SqlDataSource1">
 	            <RowIndicatorColumn CurrentFilterFunction="NoFilter" FilterListOptions="VaryByDataType"
@@ -51,47 +51,47 @@ The following example shows how to use the different **RadInput** controls insid
 	                </telerik:GridEditCommandColumn>
 	                <telerik:GridTemplateColumn HeaderText="TextData" UniqueName="TextData">
 	                    <ItemTemplate>
-	                        <telerik:RadTextBox Text='<%# Eval("TextData") %>' ID="DisplayTextBox" runat="server"
+	                        <telerik:RadTextBox RenderMode="Lightweight" Text='<%# Eval("TextData") %>' ID="DisplayTextBox" runat="server"
 	                            ReadOnly="true">
 	                        </telerik:RadTextBox>
 	                    </ItemTemplate>
 	                    <EditItemTemplate>
-	                        <telerik:RadTextBox Text='<%# Bind("TextData") %>' ID="EditTextBox" runat="server">
+	                        <telerik:RadTextBox RenderMode="Lightweight" Text='<%# Bind("TextData") %>' ID="EditTextBox" runat="server">
 	                        </telerik:RadTextBox>
 	                    </EditItemTemplate>
 	                </telerik:GridTemplateColumn>
 	                <telerik:GridTemplateColumn HeaderText="NumericData" UniqueName="NumericData">
 	                    <ItemTemplate>
-	                        <telerik:RadNumericTextBox DbValue='<%# Eval("NumericData") %>' ID="DisplayNumericTextBox"
+	                        <telerik:RadNumericTextBox RenderMode="Lightweight" DbValue='<%# Eval("NumericData") %>' ID="DisplayNumericTextBox"
 	                            runat="server" ReadOnly="true">
 	                        </telerik:RadNumericTextBox>
 	                    </ItemTemplate>
 	                    <EditItemTemplate>
-	                        <telerik:RadNumericTextBox DbValue='<%# Bind("NumericData") %>' ID="EditNumericTextBox"
+	                        <telerik:RadNumericTextBox RenderMode="Lightweight" DbValue='<%# Bind("NumericData") %>' ID="EditNumericTextBox"
 	                            runat="server">
 	                        </telerik:RadNumericTextBox>
 	                    </EditItemTemplate>
 	                </telerik:GridTemplateColumn>
 	                <telerik:GridTemplateColumn HeaderText="MaskedData" UniqueName="MaskedData">
 	                    <ItemTemplate>
-	                        <telerik:RadMaskedTextBox Text='<%# Eval("MaskedData") %>' ID="DisplayMaskedTextBox"
+	                        <telerik:RadMaskedTextBox RenderMode="Lightweight" Text='<%# Eval("MaskedData") %>' ID="DisplayMaskedTextBox"
 	                            runat="server" Mask="###-####" ReadOnly="true">
 	                        </telerik:RadMaskedTextBox>
 	                    </ItemTemplate>
 	                    <EditItemTemplate>
-	                        <telerik:RadMaskedTextBox Text='<%# Bind("MaskedData") %>' Mask="###-####" ID="EditMaskedTextBox"
+	                        <telerik:RadMaskedTextBox RenderMode="Lightweight" Text='<%# Bind("MaskedData") %>' Mask="###-####" ID="EditMaskedTextBox"
 	                            runat="server">
 	                        </telerik:RadMaskedTextBox>
 	                    </EditItemTemplate>
 	                </telerik:GridTemplateColumn>
 	                <telerik:GridTemplateColumn HeaderText="DateData" UniqueName="DateData">
 	                    <ItemTemplate>
-	                        <telerik:RadDateInput DbSelectedDate='<%# Eval("DateData") %>' ID="DisplayDateInput"
+	                        <telerik:RadDateInput RenderMode="Lightweight" DbSelectedDate='<%# Eval("DateData") %>' ID="DisplayDateInput"
 	                            runat="server" ReadOnly="true">
 	                        </telerik:RadDateInput>
 	                    </ItemTemplate>
 	                    <EditItemTemplate>
-	                        <telerik:RadDateInput DbSelectedDate='<%# Bind("DateData") %>' ID="EditDateInput"
+	                        <telerik:RadDateInput RenderMode="Lightweight" DbSelectedDate='<%# Bind("DateData") %>' ID="EditDateInput"
 	                            runat="server">
 	                        </telerik:RadDateInput>
 	                    </EditItemTemplate>

@@ -44,10 +44,10 @@ function ClientResized(sender, eventArgs) {
     </telerik:AjaxSetting>
   </AjaxSettings>
 </telerik:RadAjaxManager>
-<telerik:RadSplitter ID="RadSplitter1" Width="700px" runat="server" Orientation="Horizontal">
+<telerik:RadSplitter RenderMode="Lightweight" ID="RadSplitter1" Width="700px" runat="server" Orientation="Horizontal">
   <telerik:RadPane ID="gridPane" runat="server" Height="200px" OnClientResized="ClientResized"
     Scrolling="None">
-    <telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="true" Width="700px" Skin="Telerik">
+    <telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" AllowPaging="true" Width="700px" Skin="Telerik">
       <MasterTableView AllowPaging="true" />
       <PagerStyle Mode="NumericPages" />
     </telerik:RadGrid>

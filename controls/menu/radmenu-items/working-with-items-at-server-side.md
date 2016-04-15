@@ -67,7 +67,7 @@ End Sub
 You can dynamically update the **Items** collection of **RadMenu** and **RadMenuItem** in response to a postback as well. Consider the following menu declaration:
 
 ````ASP.NET
-<telerik:RadMenu ID="RadMenu1" runat="server" Flow="Horizontal" Skin="Gray" OnItemClick="RadMenu1_ItemClick">
+<telerik:RadMenu RenderMode="Lightweight" ID="RadMenu1" runat="server" Flow="Horizontal" Skin="Gray" OnItemClick="RadMenu1_ItemClick">
     <Items>
         <telerik:RadMenuItem runat="server" ExpandMode="ClientSide" Text="Add Root Item"
             Value="R">
@@ -136,7 +136,7 @@ To remove a menu item in server-side code, use the **Remove** method of the **Ra
 Consider the following menu:
 
 ````ASP.NET
-<telerik:RadMenu ID="RadMenu1" runat="server" OnItemClick="RadMenu1_ItemClick">
+<telerik:RadMenu RenderMode="Lightweight" ID="RadMenu1" runat="server" OnItemClick="RadMenu1_ItemClick">
     <Items>
         <telerik:RadMenuItem runat="server" ExpandMode="ClientSide" Text="Delete an Item"
             Value="D">

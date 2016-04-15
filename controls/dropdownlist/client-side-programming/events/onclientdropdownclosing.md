@@ -38,7 +38,7 @@ The following example uses the **OnClientDropDownClosing** event to prevent the 
     }
 </script>
 
-<telerik:RadDropDownList runat="server" ID="RadDropDownList1" OnClientDropDownClosing="OnClientDropDownClosing">
+<telerik:RadDropDownList RenderMode="Lightweight" runat="server" ID="RadDropDownList1" OnClientDropDownClosing="OnClientDropDownClosing">
     <Items>
         <telerik:DropDownListItem runat="server" Text="Select An Item" />
         <telerik:DropDownListItem runat="server" Text="Item 1" />

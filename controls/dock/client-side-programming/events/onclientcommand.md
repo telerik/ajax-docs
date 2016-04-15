@@ -46,7 +46,7 @@ The following example uses the **OnClientCommand** event to implement an "Undock
 </script>
 <telerik:raddocklayout id="RadDockLayout1" runat="server">  
     <telerik:RadDockZone ID="RadDockZone1" runat="server">     
-        <telerik:RadDock ID="RadDock1" runat="server">
+        <telerik:RadDock RenderMode="Lightweight" ID="RadDock1" runat="server">
             <Commands>         
                 <telerik:DockCommand Name="Undock" OnClientCommand="Undock" />         
                 <telerik:DockExpandCollapseCommand />         

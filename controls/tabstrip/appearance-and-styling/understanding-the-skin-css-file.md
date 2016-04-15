@@ -108,7 +108,7 @@ The **ID** attribute of the DIV tag is set to the **ClientID** property of the *
 If you set the **Style** or **CssClass** property of the **RadTabStrip** control they would be applied to the root menu tag:
 
 ````HTML	     
-<telerik:RadTabStrip runat="server" ID="RadTabStrip1" Skin="Default" CssClass="MyTabStrip" Style="position:relative; z-index: 1000">				
+<telerik:RadTabStrip RenderMode="Lightweight" runat="server" ID="RadTabStrip1" Skin="Default" CssClass="MyTabStrip" Style="position:relative; z-index: 1000">				
 ````
 
 ## Level groups

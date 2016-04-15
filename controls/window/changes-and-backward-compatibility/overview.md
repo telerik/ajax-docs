@@ -19,7 +19,7 @@ A complete list of all changes can be found on Release History page: [http://www
 When the RadWindow's *ContentTemplate* element is used, then the control will not call its DataBind() method. This method is called in order to evaluate the databinding expressions that set RadWindow's properties. For example, setting the RadWindow's *OpenerElementID* property using the code shown bellow will not not work if the *ContentTemplate* element is used.
 
 ````ASP.NET
-<telerik:RadWindow 
+<telerik:RadWindow RenderMode="Lightweight" 
 	ID="RadWindowDetails" 
 	runat="server" 
 	OpenerElementID="<%# ButtonOpenWindow.ClientID %>">

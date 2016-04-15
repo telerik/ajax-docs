@@ -17,7 +17,7 @@ position: 4
 **RadAutoCompleteBox** allows user to edit a single token by double-clicking it when the **AllowTokenEditing** property is set to **"true"**:
 
 ````ASPNET
-<telerik:RadAutoCompleteBox runat="server" ID="RadAutoCompleteBox1" 
+<telerik:RadAutoCompleteBox RenderMode="Lightweight" runat="server" ID="RadAutoCompleteBox1" 
 	 DataSourceID="SqlDataSource1"  DataTextField="FirstName" InputType="Token" > 
 	<TokensSettings AllowTokenEditing="true" /> 
 </telerik:RadAutoCompleteBox > 

@@ -22,7 +22,7 @@ The event handler receives the following parameters:
 1. Event arguments object. You can cancel the event by calling its set_cancel(true) method
 
 ````ASP.NET
-<telerik:RadImageEditor runat="server" ID="RadImageEditor1" OnClientImageChanging="OnClientImageChanging"></telerik:RadImageEditor>
+<telerik:RadImageEditor RenderMode="Lightweight" runat="server" ID="RadImageEditor1" OnClientImageChanging="OnClientImageChanging"></telerik:RadImageEditor>
 <script type="text/javascript">
     function OnClientImageChanging(sender, eventArgs)
     {

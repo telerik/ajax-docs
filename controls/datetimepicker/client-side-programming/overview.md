@@ -24,7 +24,7 @@ All the API methods are accessible via the registered JavaScript objects for the
 </script>
 ````
 ````ASPNET
-<telerik:RadDateTimePicker runat="server" ID="RadDateTimePicker1">
+<telerik:RadDateTimePicker RenderMode="Lightweight" runat="server" ID="RadDateTimePicker1">
 </telerik:RadDateTimePicker>
 ````
 
@@ -122,7 +122,7 @@ function enable() {
 ````
 ````ASPNET
 <telerik:RadScriptManager id="RadScriptManager1" runat="server"></telerik:RadScriptManager>
-<telerik:RadDateTimePicker ID="RadDateTimePicker1" runat="server"></telerik:RadDateTimePicker>
+<telerik:RadDateTimePicker RenderMode="Lightweight" ID="RadDateTimePicker1" runat="server"></telerik:RadDateTimePicker>
 
 
 <input type="button" value="disable" onclick="disable()" />

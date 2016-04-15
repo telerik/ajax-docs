@@ -56,7 +56,7 @@ Table-based **DataSource** components, such as **SqlDataSource** and **AccessDat
 ````ASPNET
 <asp:AccessDataSource ID="AccessDataSource1" runat="server" DataFile="~/Data/ToolBar.mdb"
     SelectCommand="SELECT * FROM [Tools]"></asp:AccessDataSource>
-<telerik:RadToolBar ID="RadToolBar1" runat="server" DataTextField="Text" DataValueField="Value"
+<telerik:RadToolBar RenderMode="Lightweight" ID="RadToolBar1" runat="server" DataTextField="Text" DataValueField="Value"
     DataSourceID="AccessDataSource1" OnItemDataBound="RadToolBar1_ButtonDataBound" />
 ````
 
@@ -64,7 +64,7 @@ Table-based **DataSource** components, such as **SqlDataSource** and **AccessDat
 ## SqlDataSource
 
 ````ASPNET
-<telerik:RadToolBar runat="server" ID="RadToolBar1" DataSourceID="SqlDataSource1"
+<telerik:RadToolBar RenderMode="Lightweight" runat="server" ID="RadToolBar1" DataSourceID="SqlDataSource1"
     DataTextField="TargetName" DataValueField="TargetValue" OnTabDataBound="RadToolBar1_ButtonDataBound">
 </telerik:RadToolBar>
 <asp:SqlDataSource runat="server" ID="SqlDataSource1" ConnectionString="Persist Security Info=False;Integrated Security=true;Initial Catalog=MyDB;server=(local)"
@@ -74,7 +74,7 @@ Table-based **DataSource** components, such as **SqlDataSource** and **AccessDat
 ## XmlDataSource
 
 ````ASPNET
-<telerik:RadToolBar ID="RadToolBar1" runat="server" DataSourceID="XmlDataSource1"
+<telerik:RadToolBar RenderMode="Lightweight" ID="RadToolBar1" runat="server" DataSourceID="XmlDataSource1"
     Orientation="Horizontal" DataTextField="Text" DataValueField="Value">
     <CollapseAnimation Duration="200" Type="OutQuint" />
 </telerik:RadToolBar>
@@ -104,7 +104,7 @@ To map additional properties from the object to other properties of the respecti
 The following example shows a **RadToolBar** bound declaratively to an **ObjectDataSource**:
 
 ````ASPNET
-<telerik:RadToolBar ID="RadToolBar1" runat="server" DataSourceID="ObjectDataSource1">
+<telerik:RadToolBar RenderMode="Lightweight" ID="RadToolBar1" runat="server" DataSourceID="ObjectDataSource1">
 </telerik:RadToolBar>
 <asp:ObjectDataSource ID="ObjectDataSource1" runat="server" SelectMethod="GetButtons" TypeName="ButtonsArray"></asp:ObjectDataSource>
 ````

@@ -37,7 +37,7 @@ Elements that use images or images sprites, however, cannot be increased in size
 		font-size: 18px;
 	}
 </style>
-<telerik:RadNotification ID="RadNotification1" runat="server" ShowCloseButton="true" VisibleOnPageLoad="true"
+<telerik:RadNotification RenderMode="Lightweight" ID="RadNotification1" runat="server" ShowCloseButton="true" VisibleOnPageLoad="true"
 	Title="This is a very very very long title" AutoCloseDelay="100000000" Position="Center">
 	<ContentTemplate>
 		<p>Hello World</p>
@@ -59,7 +59,7 @@ You can see this feature in the [Size in percent](http://demos.telerik.com/aspne
 **Example 2:** create a full width notification bar at the top of the page:
 
 ````ASP.NET
-<telerik:RadNotification ID="RadNotification1" runat="server" Width="100%" Height="100px" Position="TopCenter" Animation="Slide"
+<telerik:RadNotification RenderMode="Lightweight" ID="RadNotification1" runat="server" Width="100%" Height="100px" Position="TopCenter" Animation="Slide"
 	Title="Information box" Text="Resize the browser to see how I react. I will stay shown for 15 seconds"
 	VisibleOnPageLoad="true" AutoCloseDelay="15000">
 </telerik:RadNotification>

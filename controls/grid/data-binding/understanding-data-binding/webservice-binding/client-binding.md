@@ -518,7 +518,7 @@ and the source code of the page holding the grid instance populated through a we
   <!-- content start -->
   <h3>
     RadGrid bound to live data:</h3>
-  <telerik:RadGrid ID="RadGrid1" AutoGenerateColumns="false" runat="server">
+  <telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" AutoGenerateColumns="false" runat="server">
     <MasterTableView TableLayout="Fixed">
       <Columns>
         <telerik:GridHyperLinkColumn DataTextField="StockTicker" DataNavigateUrlFields="StockTicker"

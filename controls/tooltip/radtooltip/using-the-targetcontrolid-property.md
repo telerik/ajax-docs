@@ -16,7 +16,7 @@ position: 1
 The **TargetControlID** property specifies the ID of the element that should be 'tooltipified'. It can be set declaratively on the page:
 
 ````ASP.NET
-<telerik:RadToolTip ID="RadToolTip1" runat="server" TargetControlID="Button1" IsClientID="true">
+<telerik:RadToolTip RenderMode="Lightweight" ID="RadToolTip1" runat="server" TargetControlID="Button1" IsClientID="true">
 </telerik:RadToolTip>
 ````
 

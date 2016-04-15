@@ -24,7 +24,7 @@ RadEditor provides 4 different ways to configure the toolbars:
 
 
 ````ASP.NET
-<telerik:RadEditor runat="server" ID="RadEditor1">
+<telerik:RadEditor RenderMode="Lightweight" runat="server" ID="RadEditor1">
 	<Tools>
 		<telerik:EditorToolGroup>
 			<telerik:EditorTool Name="Custom1" />
@@ -42,7 +42,7 @@ RadEditor provides 4 different ways to configure the toolbars:
 You can add any number of custom buttons using the sample code below. All you need to do is provide different names for them, e.g. in your
 
 ````ASP.NET
-<telerik:RadEditor ToolsFile="~/ToolsFile.xml" runat="server" ID="RadEditor2" Height="100px">
+<telerik:RadEditor RenderMode="Lightweight" ToolsFile="~/ToolsFile.xml" runat="server" ID="RadEditor2" Height="100px">
 </telerik:RadEditor>
 ````
 
@@ -108,7 +108,7 @@ Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Han
 End Sub
 ````
 ````ASP.NET
-<telerik:RadEditor ID="RadEditor3" runat="server"></telerik:RadEditor>
+<telerik:RadEditor RenderMode="Lightweight" ID="RadEditor3" runat="server"></telerik:RadEditor>
 ````
 
 ## Setting the tools by using Theme:
@@ -117,7 +117,7 @@ In your .skin file:
 
 ````ASP.NET
 <%@ Register TagPrefix="telerik" Namespace="Telerik.Web.UI" Assembly="Telerik.Web.UI" %>
-<telerik:RadEditor runat="server" SkinID="SomeTools">
+<telerik:RadEditor RenderMode="Lightweight" runat="server" SkinID="SomeTools">
 	<Tools>
 		<telerik:EditorToolGroup>
 			<telerik:EditorTool Name="Custom1" />
@@ -133,7 +133,7 @@ Once the skin is set, you need to declare it in the RadEditor's declaration by u
 ````ASP.NET
 <%@ Page Theme="Default" Language="C#" AutoEventWireup="true" CodeFile="DefaultCS.aspx.cs" Inherits="Telerik.Web.Examples.Editor.Default.DefaultCS" %>
 ...
-<telerik:RadEditor SkinID="SomeTools" runat="server" ID="RadEditor4">
+<telerik:RadEditor RenderMode="Lightweight" SkinID="SomeTools" runat="server" ID="RadEditor4">
 </telerik:RadEditor>
 ````
 

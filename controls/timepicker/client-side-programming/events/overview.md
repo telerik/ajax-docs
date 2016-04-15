@@ -29,7 +29,7 @@ The **RadTimePicker** control supports a number of client-side events that let y
 To use these events, simply write a JavaScript function that can be called when the event occurs. Then assign the name of the JavaScript function as the value of the the corresponding property.
 
 ````ASPNET
-<telerik:RadTimePicker ID="RadTimePicker1" runat="server">
+<telerik:RadTimePicker RenderMode="Lightweight" ID="RadTimePicker1" runat="server">
     <TimeView OnClientTimeSelected="clientTimeSelected"></TimeView>
 </telerik:RadTimePicker>
 ````

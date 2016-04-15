@@ -40,7 +40,7 @@ The following example uses the **OnClientItemSelecting** event to prevent the se
     }
 </script>
 
-<telerik:RadDropDownList runat="server" ID="RadDropDownList1" OnClientItemSelecting="OnClientItemSelecting">
+<telerik:RadDropDownList RenderMode="Lightweight" runat="server" ID="RadDropDownList1" OnClientItemSelecting="OnClientItemSelecting">
     <Items>
         <telerik:DropDownListItem runat="server" Text="Select An Item" />
         <telerik:DropDownListItem runat="server" Text="Item1" />

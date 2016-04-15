@@ -26,7 +26,7 @@ To change the visibility of a grid client-side, obtain a reference to the grid's
     $find("<%=RadGrid1.ClientID%>").get_element().style.display = "none";
   }
 </script>
-<telerik:RadGrid ID="RadGrid1" runat="server">
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server">
   <!-- your grid definition here -->
 </telerik:RadGrid>
 <br />

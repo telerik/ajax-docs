@@ -105,7 +105,7 @@ FormatCodeBlock
 		}
 	}
 </script>
-<telerik:RadEditor runat="server"
+<telerik:RadEditor RenderMode="Lightweight" runat="server"
 OnClientPasteHtml="OnClientPasteHtml"
 ImageManager-ViewPaths="~/"
 ID="RadEditor1">

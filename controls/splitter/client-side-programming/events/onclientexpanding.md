@@ -30,7 +30,7 @@ The following example uses the **OnClientExpanding** event to show a confirmatio
 		eventArgs.set_cancel(!confirm("Are you sure you want to open " + sender.get_id() + "?"));
 	}
 </script>
-<telerik:RadSplitter runat="server" id="RadSplitter1" Orientation="Horizontal" >
+<telerik:RadSplitter RenderMode="Lightweight" runat="server" id="RadSplitter1" Orientation="Horizontal" >
  <telerik:RadPane
 	 runat="server"
 	 id="RadPane1"

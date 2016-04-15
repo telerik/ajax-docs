@@ -31,7 +31,7 @@ This event is fired when the hierarchy is being expanded and the HierarchyLoadMo
 Example:
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" runat="server">
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server">
     <ClientSettings>
         <ClientEvents OnHierarchyExpanding="HierarchyExpanding" />
     </ClientSettings>

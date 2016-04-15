@@ -34,7 +34,7 @@ You can use this event to respond when an item loses focus.
     }
 </script>
 
-<telerik:RadMenu ID="RadMenu1" runat="server" Flow="Horizontal" OnClientItemBlur="BlurItem">
+<telerik:RadMenu RenderMode="Lightweight" ID="RadMenu1" runat="server" Flow="Horizontal" OnClientItemBlur="BlurItem">
     <Items>
         ...
     </Items>

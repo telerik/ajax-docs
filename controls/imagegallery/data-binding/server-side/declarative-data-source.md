@@ -37,7 +37,7 @@ In addition, you could set different optional properties:
 ## Example 1: Binding a RadImageGallery to a SqlDataSource
 
 ````ASPNET
-<telerik:RadImageGallery runat="server" ID="RadImageGallery2" DataSourceID="SqlDataSource1" DataDescriptionField="Description" DataImageField="ImageUrl"
+<telerik:RadImageGallery RenderMode="Lightweight" runat="server" ID="RadImageGallery2" DataSourceID="SqlDataSource1" DataDescriptionField="Description" DataImageField="ImageUrl"
 	DataTitleField="Title">
 </telerik:RadImageGallery>
 

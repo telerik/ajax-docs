@@ -17,7 +17,7 @@ position: 1
 The items in the SearchContext drop-down can be also loaded from Web Service by setting the WebServiceSettings for SearchContext and the appropriate path and name. In this case one can assign the ImageUrl of an item directly in the service method as below:
 
 ````ASPNET
- <telerik:RadSearchBox runat="server" ID="RadSearchBox4"  DataSourceID="SqlDataSource3" Label="Three"
+ <telerik:RadSearchBox RenderMode="Lightweight" runat="server" ID="RadSearchBox4"  DataSourceID="SqlDataSource3" Label="Three"
 			 DataTextField="LastName" DataValueField="FirstName" DataContextKeyField="EmployeeID" >
 	<DropDownSettings Height="400" Width="300" />
 	<Localization LoadingItemsMessage="Loading Items" />
@@ -91,7 +91,7 @@ When SearchContext is bound to **RadODataDataSource** control, its **DataModelID
 	</telerik:DataModel>
 </Schema>
 </telerik:RadODataDataSource>
-<telerik:RadSearchBox runat="server" ID="RadSearchBox1"
+<telerik:RadSearchBox RenderMode="Lightweight" runat="server" ID="RadSearchBox1"
 	ODataDataSourceID="DataSource1"
 	DataModelID="Product"
 	DataKeyNames="ProductID, ProductName"

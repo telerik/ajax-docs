@@ -23,7 +23,7 @@ When using the load-on-demand mechanism with **ItemsRequested** event you should
 2. Subscribe to the **ItemsRequested** event and add the items there.
 
 ````ASPNET
-<telerik:RadComboBox 
+<telerik:RadComboBox RenderMode="Lightweight" 
 	id="RadComboBox1" 
 	runat="server" 
 	EnableLoadOnDemand="true" 

@@ -45,11 +45,11 @@ The code snippets below illustrate direct comparison between the simple and adva
 
 
 ````ASPNET
-<telerik:RadTreeList runat="server" ID="RadTreeList1" AllowPaging="true" PageSize="3"
+<telerik:RadTreeList RenderMode="Lightweight" runat="server" ID="RadTreeList1" AllowPaging="true" PageSize="3"
 	DataKeyNames="EmployeeID" OnItemCommand="RadTreeList1_ItemCommand" OnPageIndexChanged="RadTreeList1_PageIndexChanged"
 	ParentDataKeyNames="ReportsTo">
 </telerik:RadTreeList>
-<telerik:RadTreeList runat="server" ID="RadTreeList2" AllowPaging="true" PageSize="3"
+<telerik:RadTreeList RenderMode="Lightweight" runat="server" ID="RadTreeList2" AllowPaging="true" PageSize="3"
 	DataKeyNames="EmployeeID" ParentDataKeyNames="ReportsTo" OnNeedDataSource="RadTreeList2_NeedDataSource">
 </telerik:RadTreeList>
 ````

@@ -89,7 +89,7 @@ Since **UI for ASP.NET AJAX Q3 2014 SP1** version, you are able to change the de
 Along with **Encoding** property we introduce a possibility to disable the **BOM (Byte Order Mark)** header by setting **EnableBomHeader**. This property is of type boolean and accepts **True** (Default) and **False** values. You can find more information about **BOM** header in the following [article](http://en.wikipedia.org/wiki/Byte_order_mark).
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" runat="server">
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server">
     <MasterTableView CommandItemDisplay="Top">
         <CommandItemSettings ShowExportToCsvButton="true" />
     </MasterTableView>

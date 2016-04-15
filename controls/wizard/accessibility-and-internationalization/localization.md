@@ -22,9 +22,9 @@ By changing the values of each of its named properties, you change the appearanc
 <telerik:radwizard id="RadWizard8" runat="server" width="500px" Localization-Next="Next" Localization-Finish="Finish" >
 	<WizardSteps>
 		<telerik:RadWizardStep Title="First Step">
-			<telerik:RadTextBox ID="RadTextBox17" Label="First Name:" runat="server"></telerik:RadTextBox>
+			<telerik:RadTextBox RenderMode="Lightweight" ID="RadTextBox17" Label="First Name:" runat="server"></telerik:RadTextBox>
 			<br />
-			<telerik:RadTextBox ID="RadTextBox18" Label="Last Name:" runat="server"></telerik:RadTextBox>
+			<telerik:RadTextBox RenderMode="Lightweight" ID="RadTextBox18" Label="Last Name:" runat="server"></telerik:RadTextBox>
 		</telerik:RadWizardStep>
 		<telerik:RadWizardStep Title="Second Step">
 		</telerik:RadWizardStep>

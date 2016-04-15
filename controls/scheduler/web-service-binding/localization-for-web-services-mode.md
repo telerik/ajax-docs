@@ -55,7 +55,7 @@ RadScheduler.
 
 ````ASPNET
 	  
-<telerik:RadScheduler runat="server" ID="RadScheduler1" Culture="fr-CA">
+<telerik:RadScheduler RenderMode="Lightweight" runat="server" ID="RadScheduler1" Culture="fr-CA">
 <WebServiceSettings Path="~/SchedulerDataService.asmx" />
 </telerik:RadScheduler>  
 	

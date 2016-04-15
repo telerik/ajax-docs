@@ -59,7 +59,7 @@ In **Example 1**, the *urban-areas.json* file is the one that contains the data 
 	</DataSource>
 </telerik:RadClientDataSource>
 
-<telerik:RadMap runat="server" ID="RadMap1">
+<telerik:RadMap RenderMode="Lightweight" runat="server" ID="RadMap1">
 	<CenterSettings Latitude="23" Longitude="10" />
 	<LayersCollection>
 		<telerik:MapLayer Type="Tile" Subdomains="a,b,c"
@@ -121,7 +121,7 @@ The data source items should contain two important fields: location and value (*
 	}
 </script>
 
-<telerik:RadMap runat="server" ID="RadMap1" Width="500px" Height="250px">
+<telerik:RadMap RenderMode="Lightweight" runat="server" ID="RadMap1" Width="500px" Height="250px">
 	<ClientEvents OnInitialize="OnInitialize" />
 	<CenterSettings Latitude="42.7" Longitude="43.33" />
 	<LayersCollection>
@@ -192,7 +192,7 @@ In **Example 3**, you can see how the **OnShapeCreated** event is used to alter 
 	</DataSource>
 </telerik:RadClientDataSource>
 
-<telerik:RadMap runat="server" ID="RadMap1" Zoom="1" Width="700" Height="400">
+<telerik:RadMap RenderMode="Lightweight" runat="server" ID="RadMap1" Zoom="1" Width="700" Height="400">
 	<ClientEvents OnShapeCreated="OnShapeCreated" OnShapeClick OnShapeMouseEnter OnShapeMouseLeave/>
 	<CenterSettings Latitude="23" Longitude="10" />
 	<LayersCollection>

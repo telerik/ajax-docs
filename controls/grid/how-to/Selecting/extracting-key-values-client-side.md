@@ -48,7 +48,7 @@ To use **getDataKeyValue()**, pass the **UniqueName** of the column as an argume
 <asp:Button ID="Button1" runat="server" Text="Get first GridDataItem key values"
   OnClientClick="GetFirstDataItemKeyValues(); return false;" /><br />
 <br />
-<telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="SqlDataSource" AllowPaging="true"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" DataSourceID="SqlDataSource" AllowPaging="true"
   PageSize="10" Width="97%" AllowSorting="true">
   <MasterTableView Width="100%" ClientDataKeyNames="CustomerID,CompanyName" />
   <ClientSettings>

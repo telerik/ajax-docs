@@ -25,7 +25,7 @@ You also need to set the **DataKeyNames** and **ParentDataKeyNames** properties 
 
 
 ````ASPNET
-<telerik:RadTreeList runat="server" ID="RadTreeList1" DataSourceID="SqlDataSource1"
+<telerik:RadTreeList RenderMode="Lightweight" runat="server" ID="RadTreeList1" DataSourceID="SqlDataSource1"
 	AutoGenerateColumns="False" AllowPaging="True" PageSize="5" DataKeyNames="EmployeeID"
 	ParentDataKeyNames="ReportsTo" AllowMultiItemEdit="False" Culture="(Default)"
 	IsItemInserted="False">
@@ -72,7 +72,7 @@ You also need to set the **DataKeyNames** and **ParentDataKeyNames** properties 
 
 
 ````ASPNET
-<telerik:RadTreeList runat="server" ID="RadTreeList1" DataSourceID="LinqDataSource1"
+<telerik:RadTreeList RenderMode="Lightweight" runat="server" ID="RadTreeList1" DataSourceID="LinqDataSource1"
 	AllowPaging="true" PageSize="5" DataKeyNames="id" ParentDataKeyNames="parentId"
 	AutoGenerateColumns="false">
 	<Columns>

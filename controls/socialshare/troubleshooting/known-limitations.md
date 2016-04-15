@@ -19,7 +19,7 @@ When the end user posts their Tweet on Twitter, their scripts should return this
 **Example 1**: Twitter does not raise the Tweet event with RadSocialShare.
 
 ````ASP.NET
-<telerik:RadSocialShare runat="server" ID="RadSocialShare1" OnTweet="OnTweetHandler">
+<telerik:RadSocialShare RenderMode="Lightweight" runat="server" ID="RadSocialShare1" OnTweet="OnTweetHandler">
 	<MainButtons>
 		<telerik:RadTwitterButton />
 	</MainButtons>

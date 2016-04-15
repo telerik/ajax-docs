@@ -17,7 +17,7 @@ position: 11
 Returns a Boolean value indicating if the **GridTableView** is currently in insert mode. Can be used to create some condition for executing different script logic depending on the visibility status of the insert item.
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="True"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" AllowPaging="True"
     OnNeedDataSource="RadGrid1_NeedDataSource">
     <MasterTableView DataKeyNames="OrderID" CommandItemDisplay="Top">
     </MasterTableView>

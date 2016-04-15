@@ -26,7 +26,7 @@ To change the current language/resource you should set the **Culture** property 
 
 
 ````ASPNET
-	        <telerik:RadPivotGrid ID="RadPivotGrid1"    runat="server"    Culture="en-US" ... </telerik:RadPivotGrid>
+	        <telerik:RadPivotGrid RenderMode="Lightweight" ID="RadPivotGrid1"    runat="server"    Culture="en-US" ... </telerik:RadPivotGrid>
 ````
 
 

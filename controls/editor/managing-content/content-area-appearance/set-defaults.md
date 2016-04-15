@@ -26,7 +26,7 @@ For example, to set the editor to use white text on a black background as well a
 >caption Example 1: Adding an external CSS file to the editor's content area.
 
 ````ASP.NET
-<telerik:RadEditor ID="RadEditor1" runat="server">
+<telerik:RadEditor RenderMode="Lightweight" ID="RadEditor1" runat="server">
 	<CssFiles>
 		<telerik:EditorCssFile Value="~/EditorContentArea.css" />
 	</CssFiles>
@@ -66,7 +66,7 @@ ul ul{
 >
 >    **ASP.NET**
 >    - - -
->        <telerik:RadEditor ID="RadEditor1" runat="server">
+>        <telerik:RadEditor RenderMode="Lightweight" ID="RadEditor1" runat="server">
 >            <CssFiles>
 >                <telerik:EditorCssFile Value="" />
 >            </CssFiles>

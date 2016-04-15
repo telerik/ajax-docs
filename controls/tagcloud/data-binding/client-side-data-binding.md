@@ -55,7 +55,7 @@ You can pass an array of JSON literals to the **RadTagCloud** via its **set_data
 		sender.dataBind();
 	}
 </script>
-<telerik:RadTagCloud ID="RadTagCloud1" runat="server" OnClientLoad="OnClientLoad" DataTextField="TextField" 
+<telerik:RadTagCloud RenderMode="Lightweight" ID="RadTagCloud1" runat="server" OnClientLoad="OnClientLoad" DataTextField="TextField" 
 	DataWeightField="WeightField" RenderItemWeight="true" Width="50em">
 </telerik:RadTagCloud>
 ````
@@ -72,7 +72,7 @@ The **RadClientDataSource** control allows you to connect to a web service and f
 **Example 2**: Using RadClientDataSource control for data binding a RadTagCloud.
 
 ````ASP.NET
-<telerik:RadTagCloud ID="RadTagCloud1" runat="server" ClientDataSourceID="tagsDataSource" DataTextField="ProductName" 
+<telerik:RadTagCloud RenderMode="Lightweight" ID="RadTagCloud1" runat="server" ClientDataSourceID="tagsDataSource" DataTextField="ProductName" 
 	DataWeightField="UnitPrice" RenderItemWeight="true" Width="50em">
 </telerik:RadTagCloud>
 <telerik:RadClientDataSource ID="TagsDataSource" runat="server">

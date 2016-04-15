@@ -42,7 +42,7 @@ In addition, you can use declarative binding expressions in template controls, s
 ![Pager Template](images/grd_PagerTemplate.png)
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" runat="server" Width="97%" AllowPaging="true" PageSize="10"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" Width="97%" AllowPaging="true" PageSize="10"
     DataSourceID="SqlDataSource1" Skin="Windows7">
     <MasterTableView>
         <PagerTemplate>
@@ -105,7 +105,7 @@ In the example below, The **ItemCreated** event handler is used to change the **
 
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid2" runat="server" Width="97%" AllowPaging="true" PageSize="10"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid2" runat="server" Width="97%" AllowPaging="true" PageSize="10"
     DataSourceID="SqlDataSource2" OnItemCreated="RadGrid2_ItemCreated" Skin="Windows7">
     <MasterTableView>
         <PagerTemplate>
@@ -205,7 +205,7 @@ The following example illustrates this technique:
 
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid3" runat="server" DataSourceID="SqlDataSource3" Width="97%"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid3" runat="server" DataSourceID="SqlDataSource3" Width="97%"
     AllowSorting="True" AllowPaging="True" Skin="Windows7" OnItemCreated="RadGrid3_ItemCreated">
     <PagerStyle Mode="NumericPages" Position="TopAndBottom" />
     <MasterTableView Width="100%">
@@ -302,7 +302,7 @@ To assign the **PagerTemplate** for a grid in the code-behind, you need to desig
 
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid4" runat="server" DataSourceID="SqlDataSource4" Width="97%"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid4" runat="server" DataSourceID="SqlDataSource4" Width="97%"
     AllowSorting="True" AllowPaging="True" Skin="Windows7">
     <PagerStyle Mode="NumericPages" Position="TopAndBottom" />
     <MasterTableView Width="100%">

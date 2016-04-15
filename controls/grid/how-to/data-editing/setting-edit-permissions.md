@@ -22,7 +22,7 @@ In the example below we assume that the **Bool** column in the grid data source 
 
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" runat="server">
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server">
   <MasterTableView AutoGenerateColumns="False">
     <Columns>
       <telerik:GridBoundColumn HeaderText="Contact name" DataField="ContactName" UniqueName="Contact name">

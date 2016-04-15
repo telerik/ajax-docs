@@ -30,7 +30,7 @@ OnPopupOpening event arguments object
 The following example uses the **OnPopupOpening** event to initialize the selection if the input area is empty:
 
 ````ASPNET
-<telerik:RadMonthYearPicker ID="RadMonthYearPicker1" runat="server"  >
+<telerik:RadMonthYearPicker RenderMode="Lightweight" ID="RadMonthYearPicker1" runat="server"  >
     <ClientEvents OnPopupOpening="popupOpening" />
 </telerik:RadMonthYearPicker>
 ````

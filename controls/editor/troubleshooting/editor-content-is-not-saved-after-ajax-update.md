@@ -37,7 +37,7 @@ In the case of ImageButtons and server buttons, by the time the MS AJAX framewor
 ````ASP.NET
 <telerik:RadAjaxPanel ID="RadAjaxPanel1" runat="server">
 	<asp:ImageButton ID="ImageButton1" runat="server" OnClick="btnSave_Click" ImageUrl="http://demos.telerik.com/aspnet-ajax/button/images/images/button.png" />
-	<telerik:RadEditor ID="RadEditor1" runat="server"></telerik:RadEditor>
+	<telerik:RadEditor RenderMode="Lightweight" ID="RadEditor1" runat="server"></telerik:RadEditor>
 </telerik:RadAjaxPanel>
 ````
 ````C#
@@ -60,7 +60,7 @@ End Sub
 <asp:UpdatePanel ID="UpdatePanel1" runat="server">
 	<ContentTemplate>
 		<asp:Button ID="Button1" runat="server" OnClick="btnSave_Click" Text="Save" />
-		<telerik:RadEditor ID="RadEditor1" runat="server"></telerik:RadEditor>
+		<telerik:RadEditor RenderMode="Lightweight" ID="RadEditor1" runat="server"></telerik:RadEditor>
 	</ContentTemplate>
 </asp:UpdatePanel>
 ````
@@ -95,7 +95,7 @@ Set the **UseSubmitBehavior** property of the push button to **false** when:
 <asp:UpdatePanel ID="UpdatePanel1" runat="server">
 	<ContentTemplate>
 		<asp:Button ID="Button1" runat="server" OnClick="btnSave_Click" UseSubmitBehavior="false" Text="Save" />
-		<telerik:RadEditor ID="RadEditor1" runat="server"></telerik:RadEditor>
+		<telerik:RadEditor RenderMode="Lightweight" ID="RadEditor1" runat="server"></telerik:RadEditor>
 	</ContentTemplate>
 </asp:UpdatePanel>
 ````
@@ -121,7 +121,7 @@ Use the **RadCheckBox** control events to prevent the default postback in order 
 <asp:UpdatePanel ID="Updatepanel1" runat="server">
 	<ContentTemplate>
 		<telerik:RadCheckBox runat="server" ID="RadCheckBox1" Text="check me" OnClientClicking="OnClientClicking" AutoPostBack="true" OnCheckedChanged="RadCheckBox1_CheckedChanged"></telerik:RadCheckBox>
-		<telerik:RadEditor ID="RadEditor1" runat="server"></telerik:RadEditor>
+		<telerik:RadEditor RenderMode="Lightweight" ID="RadEditor1" runat="server"></telerik:RadEditor>
 	</ContentTemplate>
 </asp:UpdatePanel>
 <script type="text/javascript">
@@ -154,7 +154,7 @@ Use RadAjaxPanel/RadAjaxManager with asp:Button because they automatically set t
 ````ASP.NET
 <telerik:RadAjaxPanel ID="RadAjaxPanel1" runat="server">
 	<asp:Button ID="Button2" runat="server" OnClick="btnSave_Click" Text="Save" />
-	<telerik:RadEditor ID="RadEditor1" runat="server"></telerik:RadEditor>
+	<telerik:RadEditor RenderMode="Lightweight" ID="RadEditor1" runat="server"></telerik:RadEditor>
 </telerik:RadAjaxPanel>
 ````
 ````C#
@@ -181,7 +181,7 @@ Use the MS AJAX framework's [__doPostBack()](http://www.dotnetspider.com/resourc
 ````ASP.NET
 <telerik:RadAjaxPanel ID="RadAjaxPanel1" runat="server">
 	<asp:ImageButton ID="ImageButton1" runat="server" OnClientClick="javascript:__doPostBack(this.name,'');return false;" OnClick="btnSave_Click" ImageUrl="http://demos.telerik.com/aspnet-ajax/button/images/images/button.png" />
-	<telerik:RadEditor ID="RadEditor1" runat="server"></telerik:RadEditor>
+	<telerik:RadEditor RenderMode="Lightweight" ID="RadEditor1" runat="server"></telerik:RadEditor>
 </telerik:RadAjaxPanel>
 ````
 ````C#
@@ -206,7 +206,7 @@ When RadEditor and an ImageButton are used to update RadGrid fields, you can use
 ````ASP.NET
 <asp:UpdatePanel ID="Updatepanel2" runat="server">
 	<ContentTemplate>
-		<telerik:RadGrid ID="RadGrid1" runat="server" OnNeedDataSource="RadGrid1_NeedDataSource" OnItemCreated="RadGrid1_ItemCreated" OnItemCommand="RadGrid1_ItemCommand">
+		<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" OnNeedDataSource="RadGrid1_NeedDataSource" OnItemCreated="RadGrid1_ItemCreated" OnItemCommand="RadGrid1_ItemCommand">
 			<MasterTableView AutoGenerateColumns="false" EditMode="InPlace">
 				<Columns>
 					<telerik:GridEditCommandColumn ButtonType="ImageButton" HeaderText="Edit" UniqueName="EditButton">

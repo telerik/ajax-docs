@@ -30,7 +30,7 @@ To use these events, simply write a JavaScript function that can be called when 
 
 
 ````ASPNET
-<telerik:RadDatePicker ID="RadDatePicker1" runat="server">
+<telerik:RadDatePicker RenderMode="Lightweight" ID="RadDatePicker1" runat="server">
     <ClientEvents OnPopupOpening="popupOpening" />
 </telerik:RadDatePicker>
 ````

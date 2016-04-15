@@ -30,7 +30,7 @@ After performing the above steps you should get a configuration similar to the d
 
 
 ````ASP.NET
-<telerik:RadGantt runat="server" ID="RadGantt1"
+<telerik:RadGantt RenderMode="Lightweight" runat="server" ID="RadGantt1"
     DataSourceID="TasksDataSource"
     DependenciesDataSourceID="DependenciesDataSource"
     ResourcesDataSourceID="ResourcesDataSource"

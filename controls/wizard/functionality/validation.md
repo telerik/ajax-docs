@@ -31,17 +31,17 @@ There are some specifics about the RadWizard validation functionality:
 Please find below a little demonstration on how to make a text field within a RadWizardStep to be required in order to activate another step.
 
 ````ASPNET
-<telerik:RadWizard ID="RadWizard6" runat="server">
+<telerik:RadWizard RenderMode="Lightweight" ID="RadWizard6" runat="server">
 	<WizardSteps>
 		<telerik:RadWizardStep ID="RadWizardStep1" Title="Personal Info" runat="server" StepType="Step" ValidationGroup="personalInfo">
 			<div class="inputWapper first">
 				<asp:Label ID="Label3" Text="First Name: *" runat="server" AssociatedControlID="FirstNameTextBox" />
-				<telerik:RadTextBox ID="FirstNameTextBox" runat="server" ValidationGroup="personalInfo" Width="320px"></telerik:RadTextBox>
+				<telerik:RadTextBox RenderMode="Lightweight" ID="FirstNameTextBox" runat="server" ValidationGroup="personalInfo" Width="320px"></telerik:RadTextBox>
 				<asp:RequiredFieldValidator ID="FirstNameRequiredFieldValidator" runat="server" ControlToValidate="FirstNameTextBox" EnableClientScript="true" ValidationGroup="personalInfo" ErrorMessage="required field" CssClass="validator" ForeColor="Red"></asp:RequiredFieldValidator>
 			</div>
 			<div class="inputWapper">
 				<asp:Label ID="Label4" Text="Last Name: *" runat="server" AssociatedControlID="LastNameTextBox" />
-				<telerik:RadTextBox ID="LastNameTextBox" runat="server" ValidationGroup="personalInfo" Width="320px"></telerik:RadTextBox>
+				<telerik:RadTextBox RenderMode="Lightweight" ID="LastNameTextBox" runat="server" ValidationGroup="personalInfo" Width="320px"></telerik:RadTextBox>
 				<asp:RequiredFieldValidator ID="LastNameRequiredFieldValidator" runat="server" ControlToValidate="LastNameTextBox" EnableClientScript="true" ValidationGroup="personalInfo" ErrorMessage="required field" CssClass="validator" ForeColor="Red"></asp:RequiredFieldValidator>
 			</div>
 		</telerik:RadWizardStep>

@@ -16,7 +16,7 @@ The following example demonstrates how to get a reference to the editor's docume
 
 ````ASP.NET
 <asp:ScriptManager ID="ScriptManager1" runat="server" />
-<telerik:RadEditor ID="RadEditor1" runat="server">
+<telerik:RadEditor RenderMode="Lightweight" ID="RadEditor1" runat="server">
 </telerik:RadEditor>
 <button onclick="ApplyBold()" unselectable="on">
 	Click to apply bold over selection</button>

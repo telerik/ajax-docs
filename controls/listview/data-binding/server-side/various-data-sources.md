@@ -44,7 +44,7 @@ You can use a wide variety of data sources for RadListView structure generation 
 ````C#
 <asp:ScriptManager ID="ScriptManager1" runat="server" />
 <br />
-<telerik:RadFormDecorator ID="RadFormDecorator1" runat="server" />
+<telerik:RadFormDecorator RenderMode="Lightweight" ID="RadFormDecorator1" runat="server" />
 <table id="Table1" cellspacing="1" cellpadding="11" border="0" rules="rows" style="width: 95%;">
     <tr>
         <td style="white-space: nowrap">
@@ -178,7 +178,7 @@ You can use a wide variety of data sources for RadListView structure generation 
 ````VB
 <asp:ScriptManager ID="ScriptManager1" runat="server" />
 <br />
-<telerik:RadFormDecorator ID="RadFormDecorator1" runat="server" />
+<telerik:RadFormDecorator RenderMode="Lightweight" ID="RadFormDecorator1" runat="server" />
 <table id="Table1" cellspacing="1" cellpadding="11" border="0" rules="rows" style="width: 95%;">
     <tr>
         <td style="white-space: nowrap">

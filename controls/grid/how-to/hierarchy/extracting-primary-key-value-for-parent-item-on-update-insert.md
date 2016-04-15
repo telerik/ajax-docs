@@ -28,7 +28,7 @@ The code section shows how to get the primary key field for up-level rows using 
 
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" DataSourceID="SqlDataSource1" runat="server" Skin="Desert"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" DataSourceID="SqlDataSource1" runat="server" Skin="Desert"
   Width="95%" AutoGenerateColumns="False" PageSize="3" AllowSorting="True" AllowPaging="True">
   <PagerStyle Mode="NumericPages"></PagerStyle>
   <MasterTableView DataSourceID="SqlDataSource1" DataKeyNames="CustomerID" Width="100%">

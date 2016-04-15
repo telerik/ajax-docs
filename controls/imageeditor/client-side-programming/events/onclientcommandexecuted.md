@@ -22,7 +22,7 @@ The event handler receives the following parameters:
 1. Event arguments object. You can call its get_commandName() method to get the command name.
 
 ````ASP.NET
-<telerik:RadImageEditor runat="server" ID="RadImageEditor1" OnClientCommandExecuted="OnClientCommandExecuted"></telerik:RadImageEditor>
+<telerik:RadImageEditor RenderMode="Lightweight" runat="server" ID="RadImageEditor1" OnClientCommandExecuted="OnClientCommandExecuted"></telerik:RadImageEditor>
 <script type="text/javascript">
     function OnClientCommandExecuted(sender, eventArgs)
     {

@@ -101,7 +101,7 @@ The **ID** attribute of the DIV tag is set to the **ClientID** property of the *
 If you set the **Style** or **CssClass**s property of the RadMenu control they would be applied to the root menu tag:
 
 ````HTML
-<telerik:RadMenu runat="server" ID="RadMenu1" Skin="Green" CssClass="MyMenu" Style="position: relative; z-index: 1000">
+<telerik:RadMenu RenderMode="Lightweight" runat="server" ID="RadMenu1" Skin="Green" CssClass="MyMenu" Style="position: relative; z-index: 1000">
 ````
 
 ## Root item group

@@ -43,15 +43,15 @@ The client-side **ButtonClicked** event handler receives two arguments:
 </script>
 
 
-<telerik:RadWizard ID="RadWizard3" runat="server" OnClientButtonClicked="OnClientButtonClicked">
+<telerik:RadWizard RenderMode="Lightweight" ID="RadWizard3" runat="server" OnClientButtonClicked="OnClientButtonClicked">
 	<WizardSteps>
 		<telerik:RadWizardStep Title="Step1">
-			<telerik:RadTextBox ID="RadTextBox9" runat="server"></telerik:RadTextBox>
-			<telerik:RadTextBox ID="RadTextBox10" runat="server"></telerik:RadTextBox>
+			<telerik:RadTextBox RenderMode="Lightweight" ID="RadTextBox9" runat="server"></telerik:RadTextBox>
+			<telerik:RadTextBox RenderMode="Lightweight" ID="RadTextBox10" runat="server"></telerik:RadTextBox>
 		</telerik:RadWizardStep>
 		<telerik:RadWizardStep Title="Step2">
-			<telerik:RadTextBox ID="RadTextBox11" runat="server"></telerik:RadTextBox>
-			<telerik:RadTextBox ID="RadTextBox12" runat="server"></telerik:RadTextBox>
+			<telerik:RadTextBox RenderMode="Lightweight" ID="RadTextBox11" runat="server"></telerik:RadTextBox>
+			<telerik:RadTextBox RenderMode="Lightweight" ID="RadTextBox12" runat="server"></telerik:RadTextBox>
 		</telerik:RadWizardStep>
 	</WizardSteps>
 </telerik:RadWizard>

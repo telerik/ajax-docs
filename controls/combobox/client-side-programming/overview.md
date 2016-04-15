@@ -170,12 +170,12 @@ If **RadComboBox** controls are embedded in another control, you can simply get 
 		var combo3 = Telerik.Web.UI.RadComboBox.ComboBoxes[2];
 	}
 </script>
-<telerik:RadGrid ID="RadGrid1" runat="server" ...>    
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" ...>    
 	...     
 	<EditItemTemplate>        
-	<telerik:RadComboBox ID="RadComboBox1" runat="server"></telerik:RadComboBox>        
-	<telerik:RadComboBox ID="RadComboBox2" runat="server"></telerik:RadComboBox>        
-	<telerik:RadComboBox ID="RadComboBox3" runat="server"></telerik:RadComboBox>    
+	<telerik:RadComboBox RenderMode="Lightweight" ID="RadComboBox1" runat="server"></telerik:RadComboBox>        
+	<telerik:RadComboBox RenderMode="Lightweight" ID="RadComboBox2" runat="server"></telerik:RadComboBox>        
+	<telerik:RadComboBox RenderMode="Lightweight" ID="RadComboBox3" runat="server"></telerik:RadComboBox>    
 	</EditItemTemplate>   
 	 ...
 </telerik:RadGrid>

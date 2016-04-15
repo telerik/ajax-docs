@@ -18,7 +18,7 @@ This article explains how to configure the control (and its parent application) 
 When **RadImageEditor** is used in enabled **CanvasMode** (which is used by default) the image inside it is loaded as a JSON string. The default max size of this string can transfer images up to about 2MB otherwise the image is not being saved properly (the image data will not be passed to the server successfully). You can increase this size by configuring the ImageEditor's **MaxJsonLength** property:
 
 ````ASP.NET
-<telerik:RadImageEditor ID="RadImageEditor1" CanvasMode="Yes" runat="server" ImageUrl="~/Images/image.jpg">
+<telerik:RadImageEditor RenderMode="Lightweight" ID="RadImageEditor1" CanvasMode="Yes" runat="server" ImageUrl="~/Images/image.jpg">
     <EditableImageSettings MaxJsonLength="2147483640" />
 </telerik:RadImageEditor>
 ````

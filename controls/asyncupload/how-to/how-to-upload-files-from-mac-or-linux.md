@@ -17,7 +17,7 @@ On some operating systems like MAC OS and Linux it is possible to have file name
 1. Configure **AsyncUpload** to use a [Custom Handler]({%slug asyncupload/how-to/how-to-extend-the-radasyncupload-handler%})
 
 ````ASPNET
-<telerik:RadAsyncUpload ID="RadAsyncUpload1" runat="server" HttpHandlerUrl="~/CustomHandler.ashx"  Target="~/Uploads"></telerik:RadAsyncUpload>
+<telerik:RadAsyncUpload RenderMode="Lightweight" ID="RadAsyncUpload1" runat="server" HttpHandlerUrl="~/CustomHandler.ashx"  Target="~/Uploads"></telerik:RadAsyncUpload>
 <asp:Button ID="btnSubmit" runat="server" Text="Submit Uploaded Files" />
 ````
 

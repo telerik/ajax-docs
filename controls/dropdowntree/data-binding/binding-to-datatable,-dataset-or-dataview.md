@@ -19,7 +19,7 @@ position: 2
 ![Binding to a DataTable](images/dropdowntree_datatable.png)
 
 ````ASPNET
-<telerik:RadDropDownTree ID="RadDropDownTree1" runat="server" Width="350px" DefaultMessage="Select an entry from the list">
+<telerik:RadDropDownTree RenderMode="Lightweight" ID="RadDropDownTree1" runat="server" Width="350px" DefaultMessage="Select an entry from the list">
 	<DropDownSettings Width="350px" />
 </telerik:RadDropDownTree>
 ````

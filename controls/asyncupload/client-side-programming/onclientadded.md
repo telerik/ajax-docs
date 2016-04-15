@@ -31,7 +31,7 @@ The event handler receives two parameters:
 Use the **OnClientAdded** event to perform any last minute changes to the rows in the **RadAsyncUpload** control.
 
 ````ASPNET
-<telerik:RadAsyncUpload runat="server" ID="RadAsyncUpload1" OnClientAdded="OnClientAdded"></telerik:RadAsyncUpload>
+<telerik:RadAsyncUpload RenderMode="Lightweight" runat="server" ID="RadAsyncUpload1" OnClientAdded="OnClientAdded"></telerik:RadAsyncUpload>
 ````
 
 

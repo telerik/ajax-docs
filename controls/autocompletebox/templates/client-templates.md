@@ -33,7 +33,7 @@ RadAutoCompleteBox provides support for client templates. The template itself co
 On the server, the template will be represented as a string property of the control named **ClientDropDownItemTemplate**. The following application scenario shows an example of client templates.
 
 ````ASPNET
-<telerik:RadAutoCompleteBox runat="server" ID="RadAutoCompleteBox2" InputType="Token"
+<telerik:RadAutoCompleteBox RenderMode="Lightweight" runat="server" ID="RadAutoCompleteBox2" InputType="Token"
 	Filter="StartsWith" Width="300px" DropDownWidth="300px" DropDownHeight="298px">
 	<WebServiceSettings Path="AutoCompleteBox.aspx" Method="GetChildren" />
 	<ClientDropDownItemTemplate> 

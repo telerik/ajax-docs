@@ -21,7 +21,7 @@ In order to enable the WAI-ARIA support, set the **RadComboBox** contol's **Enab
 
 
 ````ASPNET
-<telerik:RadComboBox runat="server" id="RadComboBox2" EnableAriaSupport="true">
+<telerik:RadComboBox RenderMode="Lightweight" runat="server" id="RadComboBox2" EnableAriaSupport="true">
 	<Items>
 		<telerik:RadComboBoxItem Text="RadComboBoxItem 1" Value="1" />
 		<telerik:RadComboBoxItem Text="RadComboBoxItem 2" Value="2" />

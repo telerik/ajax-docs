@@ -34,7 +34,7 @@ The event handler receives two arguments:
 The following example demonstrates how to use the event arguments of the **OnPageIndexChanging** object:
 
 ````ASPNET
-<telerik:RadDataPager ID="RadDataPager1" runat="server">
+<telerik:RadDataPager RenderMode="Lightweight" ID="RadDataPager1" runat="server">
     <ClientEvents OnPageIndexChanging="PageIndexChanging" />
 </telerik:RadDataPager>
 ````

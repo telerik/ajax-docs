@@ -34,7 +34,7 @@ This is shown in the following example:
 	<form id="form1" runat="server">
 	<asp:ScriptManager ID="ScriptManager1" runat="server" />
 	<div>
-		<telerik:RadTextBox ID="RadTextBox1" runat="server" Label="Name:" LabelCssClass="MyLabelStyle">
+		<telerik:RadTextBox RenderMode="Lightweight" ID="RadTextBox1" runat="server" Label="Name:" LabelCssClass="MyLabelStyle">
 		</telerik:RadTextBox>
 	</div>
 	</form>

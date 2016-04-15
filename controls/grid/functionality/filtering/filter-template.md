@@ -44,7 +44,7 @@ You can nest any control in the filter template, which allows for a great deal o
 ````C#
 <telerik:GridTemplateColumn DataField="Country" HeaderText="Country" UniqueName="Country">
   <FilterTemplate>
-    <telerik:RadComboBox ID="RadComboBox1" DataSourceID="EntityDataSource2" DataTextField="Country"
+    <telerik:RadComboBox RenderMode="Lightweight" ID="RadComboBox1" DataSourceID="EntityDataSource2" DataTextField="Country"
       DataValueField="Country" Height="200px" AppendDataBoundItems="true" 
       SelectedValue='<%# ((GridItem)Container).OwnerTableView.GetColumn("Country").CurrentFilterValue %>'
       runat="server" OnClientSelectedIndexChanged="SelectedIndexChanged">
@@ -72,7 +72,7 @@ You can nest any control in the filter template, which allows for a great deal o
 ````VB
 <telerik:GridTemplateColumn DataField="Country" HeaderText="Country" UniqueName="Country">
 <FilterTemplate>
-<telerik:RadComboBox ID="RadComboBox1" DataSourceID="EntityDataSource2"
+<telerik:RadComboBox RenderMode="Lightweight" ID="RadComboBox1" DataSourceID="EntityDataSource2"
 DataTextField="Country"
 DataValueField="Country" Height="200px" AppendDataBoundItems="true"
 SelectedValue='<%# TryCast(Container, GridItem).OwnerTableView.GetColumn("Country").CurrentFilterValue %>'
@@ -116,7 +116,7 @@ Another approach, which is possible with the filter template, for example if you
 <telerik:GridBoundColumn DataField="CategoryName" HeaderText="CategoryName" SortExpression="CategoryName"
   UniqueName="CategoryName">
   <FilterTemplate>
-    <telerik:RadComboBox runat="server" ID="FilterCombo" DataSourceID="AccessDataSource1"
+    <telerik:RadComboBox RenderMode="Lightweight" runat="server" ID="FilterCombo" DataSourceID="AccessDataSource1"
       DataValueField="CategoryName" DataTextField="CategoryName" AutoPostBack="true"
       OnSelectedIndexChanged="FilterCombo_SelectedIndexChanged">
     </telerik:RadComboBox>

@@ -41,12 +41,12 @@ Below are the relevant code excerpts:
  </telerik:RadAjaxLoadingPanel>
 
     Select Customer:
-    <telerik:RadComboBox ID="RadComboBox1" runat="server" DataSourceID="SqlDataSource1"
+    <telerik:RadComboBox RenderMode="Lightweight" ID="RadComboBox1" runat="server" DataSourceID="SqlDataSource1"
         DataTextField="ContactName" DataValueField="CustomerID" AutoPostBack="true">
     </telerik:RadComboBox>
  <strong>Products and amount in USD for the selected customer</strong><br />
  <div style="float: left">
-    <telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="SqlDataSource2" AutoGenerateColumns="False"
+    <telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" DataSourceID="SqlDataSource2" AutoGenerateColumns="False"
         Width="240px" Style="float: left; margin-right: 7px;" GridLines="None">
         <MasterTableView DataSourceID="SqlDataSource2">
             <Columns>

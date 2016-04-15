@@ -24,7 +24,7 @@ This example below demonstrates how you can pass an integer value to the Web Ser
 		args.get_userContext()["maxUnitPrice"] = 10;
 	}
 </script>
-<telerik:RadSearchBox runat="server" id="RadSearchBox4"
+<telerik:RadSearchBox RenderMode="Lightweight" runat="server" id="RadSearchBox4"
 	onclientdatarequesting="OnClientDataRequesting">
 	<DropDownSettings Height="400" Width="300" />
 	<WebServiceSettings Path="SearchBox.aspx" Method="GetResults" />
@@ -103,7 +103,7 @@ In the example below it is explained how to achieve the same scenario by passing
 	   args.get_userContext()["maxUnitPrice"] = 10;
    }
 </script>
-<telerik:RadSearchBox ID="RadSearchBox1" runat="server" Width="500"
+<telerik:RadSearchBox RenderMode="Lightweight" ID="RadSearchBox1" runat="server" Width="500"
 	DropDownSettings-Height="200px"
 	OnClientDataRequesting="OnClientDataRequesting" DataSourceID="SqlDataSource1" 
 	DataTextField="ProductName" DataValueField="ProductID" 

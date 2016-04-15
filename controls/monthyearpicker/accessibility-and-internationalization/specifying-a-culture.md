@@ -44,7 +44,7 @@ The **CultureInfo** property of **RadCalendar** does not affect the labels on th
 You can assign the culture of a **RadCalendar** control declaratively in the source:
 
 ````ASPNET
-<telerik:RadMonthYearPicker ID="RadMonthYearPicker1" runat="server" Culture="en-US"> 
+<telerik:RadMonthYearPicker RenderMode="Lightweight" ID="RadMonthYearPicker1" runat="server" Culture="en-US"> 
     <DateInput Culture="en-US"></DateInput>
 </telerik:RadMonthYearPicker>
 ````

@@ -17,7 +17,7 @@ position: 5
 RadSearchBox can be bound to Web service. The path to the Web service and the name of the service method are specified in the **WebServiceSettings' Path** and **Method** properties:
 
 ````ASPNET
-<telerik:RadSearchBox runat="server" ID="RadSearchBox1">
+<telerik:RadSearchBox RenderMode="Lightweight" runat="server" ID="RadSearchBox1">
 	<WebServiceSettings Method="GetItems" Path="WebService.asmx" />
 </telerik:RadSearchBox>
 ````

@@ -33,7 +33,7 @@ You can use this event to respond to an action right after the drop-down has bee
     }       
 </script>
 
-<telerik:RadToolBar ID="RadToolBar1" runat="server" Orientation="Horizontal" OnClientDropDownOpened="OnClientDropDownOpened">
+<telerik:RadToolBar RenderMode="Lightweight" ID="RadToolBar1" runat="server" Orientation="Horizontal" OnClientDropDownOpened="OnClientDropDownOpened">
     <CollapseAnimation Duration="200" Type="OutQuint" />
     <Items>
         <telerik:RadToolBarButton Text="button1" runat="server">

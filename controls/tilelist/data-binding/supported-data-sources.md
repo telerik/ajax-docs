@@ -35,7 +35,7 @@ Here is a simple example with an SqlDataSource:
 		<asp:Parameter DefaultValue="8" Name="CategoryID" Type="Int32"></asp:Parameter>
 	</SelectParameters>
 </asp:SqlDataSource>
-<telerik:RadTileList runat="server" DataSourceID="SqlDataSource1" ID="RadTileList1" Width="634px" TileRows="3"
+<telerik:RadTileList RenderMode="Lightweight" runat="server" DataSourceID="SqlDataSource1" ID="RadTileList1" Width="634px" TileRows="3"
 	ScrollingMode="None" SelectionMode="Multiple" AutoPostBack="false">
 	<DataBindings>
 		<CommonTileBinding TileType="RadImageTile" DataTitleTextField="UnitPrice" DataNameField="ProductName" />
@@ -60,7 +60,7 @@ Here is a simple example with a **RadClientDataSource**:
           </WebServiceDataSourceSettings>
      </DataSource>
 </telerik:RadClientDataSource>
-<telerik:RadTileList runat="server" ID="RadTileList1" Width="1015px" Height="500px"
+<telerik:RadTileList RenderMode="Lightweight" runat="server" ID="RadTileList1" Width="1015px" Height="500px"
      ClientDataSourceID="RadClientDataSource1">
      <DataBindings>
           <CommonTileBinding DataNameField="ProductName" DataGroupNameField="CategoryID" 
@@ -82,7 +82,7 @@ Here follow several examples.
 This example will generate a simple DataTable with code so that its structure is clearly visible and easy to follow. Run the code to see how it behaves.
 
 ````ASP.NET
-<telerik:RadTileList runat="server" ID="RadTileList2">
+<telerik:RadTileList RenderMode="Lightweight" runat="server" ID="RadTileList2">
 	<DataBindings>
 		<CommonTileBinding DataGroupNameField="GroupNameColumn" TileType="RadTextTile" Shape="Square" />
 		<TextTileBinding DataTextField="TextColumn" />
@@ -150,7 +150,7 @@ End Function
 This example will use a custom class and create a short List with its instances that will be passed to the RadTileList. The names of the fields in thecustom class are used for the databinding properties of the TileList.
 
 ````ASP.NET
-<telerik:RadTileList runat="server" ID="RadTileList2">
+<telerik:RadTileList RenderMode="Lightweight" runat="server" ID="RadTileList2">
 	<DataBindings>
 		<CommonTileBinding TileType="RadTextTile" Shape="Wide" DataNavigateUrlField="TileUrls" Target="_blank" />
 		<TextTileBinding DataTextField="TileTexts" />

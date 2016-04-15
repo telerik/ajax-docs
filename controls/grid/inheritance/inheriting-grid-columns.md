@@ -20,7 +20,7 @@ In some scenarios you may want to extend the default functionality of **GridColu
 
 ````ASP.NET
 <%@ Register tagprefix="custom" namespace="MyNamespace" %>
-<telerik:RadGrid ID="RadGrid1" DataSourceID="SqlDataSource1" AllowPaging="True"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" DataSourceID="SqlDataSource1" AllowPaging="True"
   AllowSorting="True" runat="server" AutoGenerateColumns="false">
   <MasterTableView DataKeyNames="CustomerID">
     <Columns>

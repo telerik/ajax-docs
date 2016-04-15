@@ -39,7 +39,7 @@ The event handler receives parameters:
 The example below demonstrates preventing a node from being dropped between levels and also displays information from each of the eventArgs functions.
 
 ````ASPNET
-	    <telerik:RadTreeView ID="RadTreeView1" 
+	    <telerik:RadTreeView RenderMode="Lightweight" ID="RadTreeView1" 
 	                         runat="server" 
 	                         EnableDragAndDrop="True" 
 	                         MultipleSelect="True"

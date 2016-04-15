@@ -27,7 +27,7 @@ The default edit mode of RadTreeList is **EditForms**. To specify which edit mod
 To display the treelist in-place edit form, you need to set the **EditMode** property of your RadTreeList control to **InPlace**. When an item goes in edit mode, the edit form will be displayed instead of the regular treelist item.
 
 ````ASPNET
-<telerik:RadTreeList ID="RadTreeList1" runat="server" EditMode="InPlace" 
+<telerik:RadTreeList RenderMode="Lightweight" ID="RadTreeList1" runat="server" EditMode="InPlace" 
 	DataKeyNames="EmployeeID" ParentDataKeyNames="ReportsTo" DataSourceID="SqlDataSource1">            
 </telerik:RadTreeList>
 ````
@@ -79,7 +79,7 @@ End Sub
 To display the treelist in-forms edit form, you need to set the **EditMode** property of your RadTreeList control to **EditForms**. When an item goes in edit mode, the edit form will be displaed just below the edited item.
 
 ````ASPNET
-<telerik:RadTreeList ID="RadTreeList2" runat="server" EditMode="EditForms" 
+<telerik:RadTreeList RenderMode="Lightweight" ID="RadTreeList2" runat="server" EditMode="EditForms" 
 	DataKeyNames="EmployeeID" ParentDataKeyNames="ReportsTo" DataSourceID="SqlDataSource1">            
 </telerik:RadTreeList>
 ````
@@ -127,7 +127,7 @@ End Sub
 To display the treelist pop-up edit form, you need to set the **EditMode** property of your RadTreeList control to **PopUp**. When an item goes into edit mode, the edit form will be displayed in front of the treelist and the edited item style will change respectively.
 
 ````ASPNET
-<telerik:RadTreeList ID="RadTreeList3" runat="server" EditMode="PopUp" 
+<telerik:RadTreeList RenderMode="Lightweight" ID="RadTreeList3" runat="server" EditMode="PopUp" 
 	DataKeyNames="EmployeeID" ParentDataKeyNames="ReportsTo" DataSourceID="SqlDataSource1">            
 </telerik:RadTreeList>
 ````

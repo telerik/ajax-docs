@@ -19,7 +19,7 @@ The **TileClick** server side event is triggered when a tile is clicked with the
 The event handler receives two arguments - of type **object** that is a reference to the RadTileList control that fired the event and can be cast to it, and a **Telerik.Web.UI.TileListEventArgs** object that can be used to get a reference to the clicked [Tile]({%slug tilelist/tiles/server-side-programming/tile-object%}) through its **Tile** property. It returns an object of type *RadBaseTile*.
 
 ````ASP.NET
-<telerik:RadTileList runat="server" ID="RadTileList1" AutoPostBack="true" OnTileClick="OnTileClick">
+<telerik:RadTileList RenderMode="Lightweight" runat="server" ID="RadTileList1" AutoPostBack="true" OnTileClick="OnTileClick">
 	<Groups>
 		<telerik:TileGroup>
 			<telerik:RadTextTile Name="First" NavigateUrl="http://www.telerik.com/" Title-Text="Telerik" Shape="Wide">

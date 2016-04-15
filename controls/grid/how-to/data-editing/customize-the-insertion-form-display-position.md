@@ -28,7 +28,7 @@ The code snippets below represent a sample implementation:
 
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" DataSourceID="SqlDataSource1" AllowSorting="True"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" DataSourceID="SqlDataSource1" AllowSorting="True"
   Skin="Silk" runat="server" GridLines="None" Width="95%" AllowPaging="true">
   <MasterTableView Width="100%" CommandItemDisplay="TopAndBottom" />
   <PagerStyle Mode="NextPrevAndNumeric" />

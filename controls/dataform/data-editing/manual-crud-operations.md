@@ -135,7 +135,7 @@ The below provided code snippets illustrate a sample implementation of a scenari
 
 
 ````ASPNET
-<telerik:RadDataForm ID="RadDataForm1" OnNeedDataSource="RadDataForm1_NeedDataSource" OnItemUpdating="RadDataForm1_ItemUpdating" 
+<telerik:RadDataForm RenderMode="Lightweight" ID="RadDataForm1" OnNeedDataSource="RadDataForm1_NeedDataSource" OnItemUpdating="RadDataForm1_ItemUpdating" 
     OnItemInserting="RadDataForm1_ItemInserting" OnItemDeleting="RadDataForm1_ItemDeleting"
      DataKeyNames="ID" runat="server">
     <ItemTemplate>
@@ -144,11 +144,11 @@ The below provided code snippets illustrate a sample implementation of a scenari
         CompanyName: <%# Eval("CompanyName") %>
 		<br />
         ContactName: <%# Eval("ContactName") %>
-        <telerik:RadButton ID="InitInsertButton" runat="server" ButtonType="SkinnedButton" CausesValidation="False" CommandName="InitInsert" Text="Insert" ToolTip="Insert" />
+        <telerik:RadButton RenderMode="Lightweight" ID="InitInsertButton" runat="server" ButtonType="SkinnedButton" CausesValidation="False" CommandName="InitInsert" Text="Insert" ToolTip="Insert" />
         <br />
-        <telerik:RadButton ID="EditButton" runat="server" ButtonType="SkinnedButton" CausesValidation="False" CommandName="Edit" Text="Edit" ToolTip="Edit" />
+        <telerik:RadButton RenderMode="Lightweight" ID="EditButton" runat="server" ButtonType="SkinnedButton" CausesValidation="False" CommandName="Edit" Text="Edit" ToolTip="Edit" />
         <br />
-        <telerik:RadButton ID="DeleteButton" runat="server" ButtonType="SkinnedButton" CausesValidation="False" CommandName="Delete" Text="Delete" ToolTip="Delete" />
+        <telerik:RadButton RenderMode="Lightweight" ID="DeleteButton" runat="server" ButtonType="SkinnedButton" CausesValidation="False" CommandName="Delete" Text="Delete" ToolTip="Delete" />
     </ItemTemplate>
     <EditItemTemplate>
         Edit product with ID: '<%# Eval("ID") %>'
@@ -161,8 +161,8 @@ The below provided code snippets illustrate a sample implementation of a scenari
         <br />
         ContactName:
 <asp:TextBox ID="ContactNameTextBox" Text='<%# Bind("ContactName") %>' runat="server" />
-        <telerik:RadButton ID="UpdateButton" runat="server" ButtonType="SkinnedButton" CommandName="Update" Text="Update" ToolTip="Update" />
-        <telerik:RadButton ID="CancelButton" runat="server" ButtonType="SkinnedButton" CausesValidation="False" CommandName="Cancel" Text="Cancel" ToolTip="Cancel" />
+        <telerik:RadButton RenderMode="Lightweight" ID="UpdateButton" runat="server" ButtonType="SkinnedButton" CommandName="Update" Text="Update" ToolTip="Update" />
+        <telerik:RadButton RenderMode="Lightweight" ID="CancelButton" runat="server" ButtonType="SkinnedButton" CausesValidation="False" CommandName="Cancel" Text="Cancel" ToolTip="Cancel" />
     </EditItemTemplate>
     <InsertItemTemplate>
         Add New Record :
@@ -175,8 +175,8 @@ The below provided code snippets illustrate a sample implementation of a scenari
         <br />
         ContactName:
 <asp:TextBox ID="ContactNameTextBox" Text='<%# Bind("ContactName") %>' runat="server" />
-        <telerik:RadButton ID="PerformInsertButton" runat="server" ButtonType="SkinnedButton" CommandName="PerformInsert" Text="Insert" ToolTip="Insert" />
-        <telerik:RadButton ID="CancelButton" runat="server" ButtonType="SkinnedButton" CausesValidation="False" CommandName="Cancel" Text="Cancel" ToolTip="Cancel" />
+        <telerik:RadButton RenderMode="Lightweight" ID="PerformInsertButton" runat="server" ButtonType="SkinnedButton" CommandName="PerformInsert" Text="Insert" ToolTip="Insert" />
+        <telerik:RadButton RenderMode="Lightweight" ID="CancelButton" runat="server" ButtonType="SkinnedButton" CausesValidation="False" CommandName="Cancel" Text="Cancel" ToolTip="Cancel" />
     </InsertItemTemplate>
 </telerik:RadDataForm>
 ````

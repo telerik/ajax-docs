@@ -79,7 +79,7 @@ To use URL routing with RadGrid, your application must specify a route to the .a
 Once routing is enabled in your application, you can configure RadGrid to use the URL parameter in the specified route:
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="True" PageSize="5">
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" AllowPaging="True" PageSize="5">
     <PagerStyle EnableSEOPaging="True" UseRouting="true" SEORouteName="RadGridSEOPaging"
         SEOPageIndexRouteParameterName="grid1page"></PagerStyle>
 </telerik:RadGrid>

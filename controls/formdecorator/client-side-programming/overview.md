@@ -25,7 +25,7 @@ position: 0
 ````
 
 ````ASP.NET
-<telerik:RadFormDecorator ID="RadFormDecorator1" runat="server" DecoratedControls="All" Skin="Forest"
+<telerik:RadFormDecorator RenderMode="Lightweight" ID="RadFormDecorator1" runat="server" DecoratedControls="All" Skin="Forest"
 	EnableRoundedCorners="True" DecorationZoneID="tr1" />
 <table>
 	<tr id="tr1">

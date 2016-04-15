@@ -34,7 +34,7 @@ function OnClientTabUnSelected(sender, args)
 	alert("The previously selected tab was " + tab.get_text());
 }
 </script>
-<telerik:RadTabStrip ID="RadTabStrip1" runat="server" OnClientTabUnSelected="OnClientTabUnSelected" ... /> 	
+<telerik:RadTabStrip RenderMode="Lightweight" ID="RadTabStrip1" runat="server" OnClientTabUnSelected="OnClientTabUnSelected" ... /> 	
 ````
 
 

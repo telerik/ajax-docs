@@ -41,7 +41,7 @@ The below table illustrates a sample structure with the corresponding indexes. N
 
 
 ````ASPNET
-	    <telerik:RadTreeList ID="RadTreeList1" runat="server" DataKeyNames="ID" ParentDataKeyNames="ParentID"
+	    <telerik:RadTreeList RenderMode="Lightweight" ID="RadTreeList1" runat="server" DataKeyNames="ID" ParentDataKeyNames="ParentID"
 	        Width="410px" Skin="Windows7" GridLines="Both" AutoGenerateColumns="true" OnNeedDataSource="RadTreeList1_NeedDataSource"
 	        OnItemDataBound="RadTreeList1_ItemDataBound">
 	    </telerik:RadTreeList>

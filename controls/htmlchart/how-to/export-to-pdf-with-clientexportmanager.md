@@ -25,7 +25,7 @@ The following steps will enable you to easily implement the export functionality
 
 	**ASP.NET**
 
-		<telerik:RadButton runat="server" OnClientClicked="exportChart" Text="Export" AutoPostBack="false" />
+		<telerik:RadButton RenderMode="Lightweight" runat="server" OnClientClicked="exportChart" Text="Export" AutoPostBack="false" />
 		
 		<script>
 			function exportChart() {
@@ -58,10 +58,10 @@ The following steps will enable you to easily implement the export functionality
 <telerik:RadClientExportManager runat="server" ID="RadClientExportManager1">
 </telerik:RadClientExportManager>
 
-<telerik:RadButton runat="server" OnClientClicked="exportChartToPDF" 
+<telerik:RadButton RenderMode="Lightweight" runat="server" OnClientClicked="exportChartToPDF" 
     Text="Export RadHtmlChart to PDF" AutoPostBack="false" />
 
-<telerik:RadButton runat="server" OnClientClicked="exportChartToImage" 
+<telerik:RadButton RenderMode="Lightweight" runat="server" OnClientClicked="exportChartToImage" 
     Text="Export RadHtmlChart to Image" AutoPostBack="false" />
 
 

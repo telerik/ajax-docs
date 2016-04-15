@@ -15,7 +15,7 @@ There are several different ways for setting RadEditor properties:
 * **Inline, in the control declaration**: You can edit RadEditor properties directly in the ASP.NET aspx or ascx declaration. The advantages to this approach is that editing is easy and no compilation is required to apply the changes. The "best practice" here would be to set properties that will not be changed in the application logic:
 
 ````ASP.NET
-<telerik:RadEditor ID="RadEditor1" runat="server" Width="500" Height="500">
+<telerik:RadEditor RenderMode="Lightweight" ID="RadEditor1" runat="server" Width="500" Height="500">
    <Content>
 	 <b>Setting inline properties</b>
    </Content>

@@ -31,7 +31,7 @@ The event handler receives two arguments:
 The following example uses the **OnColumnHeaderClick** event to confirm the selection:
 
 ````ASPNET
-<telerik:RadCalendar ID="RadCalendar1" runat="server">
+<telerik:RadCalendar RenderMode="Lightweight" ID="RadCalendar1" runat="server">
 	<ClientEvents OnColumnHeaderClick="confirmColumnSelection" />
 </telerik:RadCalendar>
 ````

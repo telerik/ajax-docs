@@ -52,7 +52,7 @@ function checkUploadedFilesSize(progressArea, args)  {
 }
 </script>
 <telerik:RadUpload runat="server" id="RadUpload1" />
-<telerik:RadProgressArea runat="server" id="RadProgressArea1"  OnClientProgressUpdating ="checkUploadedFilesSize" />
+<telerik:RadProgressArea RenderMode="Lightweight" runat="server" id="RadProgressArea1"  OnClientProgressUpdating ="checkUploadedFilesSize" />
 <telerik:RadProgressManager runat="server" id="RadProgressManager1" />
 <asp:Button runat="server" id="Button1" text="Upload" />
 				

@@ -21,10 +21,10 @@ You can get a fully runnable sample from [here](http://www.telerik.com/support/c
 
 
 ````ASP.NET
-<telerik:RadNumericTextBox runat="server" ID="RadNumericTextBox1" Label="Filter by ID: " LabelWidth="65px" NumberFormat-DecimalDigits="0"></telerik:RadNumericTextBox>
-<telerik:RadButton AutoPostBack="false" runat="server" ID="RadButton1" Text="Filter" OnClientClicked="btnClick"></telerik:RadButton>
+<telerik:RadNumericTextBox RenderMode="Lightweight" runat="server" ID="RadNumericTextBox1" Label="Filter by ID: " LabelWidth="65px" NumberFormat-DecimalDigits="0"></telerik:RadNumericTextBox>
+<telerik:RadButton RenderMode="Lightweight" AutoPostBack="false" runat="server" ID="RadButton1" Text="Filter" OnClientClicked="btnClick"></telerik:RadButton>
 
-<telerik:RadGrid AllowFilteringByColumn="true" AllowSorting="true" AllowPaging="true" runat="server" ID="RadGrid1" AutoGenerateColumns="false"
+<telerik:RadGrid RenderMode="Lightweight" AllowFilteringByColumn="true" AllowSorting="true" AllowPaging="true" runat="server" ID="RadGrid1" AutoGenerateColumns="false"
     ClientDataSourceID="RadClientDataSource1">
     <MasterTableView EditMode="Batch" CommandItemDisplay="Top" ClientDataKeyNames="ID">
         <Columns>
@@ -35,7 +35,7 @@ You can get a fully runnable sample from [here](http://www.telerik.com/support/c
                     <span>#=Category #</span>
                 </ClientItemTemplate>
                 <EditItemTemplate>
-                <telerik:RadDropDownList runat="server" ID="CategoryIDDropDown">
+                <telerik:RadDropDownList RenderMode="Lightweight" runat="server" ID="CategoryIDDropDown">
                     <Items>
                         <telerik:DropDownListItem Text="Category1" Value="Category1" />
                         <telerik:DropDownListItem Text="Category2" Value="Category2" />

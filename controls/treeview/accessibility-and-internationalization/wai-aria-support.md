@@ -18,7 +18,7 @@ This article demonstrates how you can take advantage of the WAI-ARIA support of 
 
 
 ````ASPNET
-<telerik:RadTreeView ID="RadTreeView1" runat="server" EnableAriaSupport="true">
+<telerik:RadTreeView RenderMode="Lightweight" ID="RadTreeView1" runat="server" EnableAriaSupport="true">
     <nodes>
         <telerik:RadTreeNode runat="server" Text="Root RadTreeNode1">
             <Nodes>

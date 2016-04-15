@@ -29,7 +29,7 @@ The event handler receives two arguments:
 The following example uses the **OnViewSelectorClick** event to confirm the selection and, if the selection proceeds, to change the appearance of the view selector:
 
 ````ASPNET
-<telerik:RadCalendar ID="RadCalendar1" runat="server" EnableViewSelector="True" >
+<telerik:RadCalendar RenderMode="Lightweight" ID="RadCalendar1" runat="server" EnableViewSelector="True" >
     <ClientEvents OnViewSelectorClick="ConfirmSelection" />
 </telerik:RadCalendar>	
 ````

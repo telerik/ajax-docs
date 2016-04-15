@@ -46,7 +46,7 @@ The following example illustrates this process. It gets the cell in two cases:
     }
   }
 </script>
-<telerik:RadGrid ID="RadGrid1" runat="server" AllowMultiRowSelection="True" DataSourceID="dsProducts">
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" AllowMultiRowSelection="True" DataSourceID="dsProducts">
   <ClientSettings>
     <Selecting AllowRowSelect="True" />
     <ClientEvents OnRowSelected="RowSelected" />

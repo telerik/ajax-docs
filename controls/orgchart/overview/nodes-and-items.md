@@ -54,7 +54,7 @@ Here is an example that will illustrate the case of single-item group:
 
 ````ASPNET
 	
-<telerik:RadOrgChart runat="server" ID="RadOrgChart1">
+<telerik:RadOrgChart RenderMode="Lightweight" runat="server" ID="RadOrgChart1">
 	<Nodes>
 		<telerik:OrgChartNode>
 			<RenderedFields>

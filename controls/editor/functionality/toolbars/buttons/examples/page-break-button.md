@@ -16,7 +16,7 @@ Here are the details on how to implement a print break button on the editor's to
 
 	**ASP.NET**
 	
-		<telerik:RadEditor runat="server" ID="RadEditor1">
+		<telerik:RadEditor RenderMode="Lightweight" runat="server" ID="RadEditor1">
 			<Tools>
 				<telerik:EditorToolGroup>
 					<telerik:EditorTool Name="PageBreak" />

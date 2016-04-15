@@ -13,7 +13,7 @@ position: 2
 **RadGantt** introduces keyboard support. In order to activate it, you must set the **KeyboardNavigationSettings**:
 
 ````ASP.NET
-<telerik:RadGantt ID="RadGantt1" runat="server">
+<telerik:RadGantt RenderMode="Lightweight" ID="RadGantt1" runat="server">
     <KeyboardNavigationSettings FocusKey="W" CommandKey="Alt" />
 </telerik:RadGantt>              
 ````

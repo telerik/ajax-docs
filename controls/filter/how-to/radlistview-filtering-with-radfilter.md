@@ -17,7 +17,7 @@ RadFilter can be used to build complex filtering criteria by means of intuitive 
 ## Using the FilterContainerID property
 
 ````ASPNET
-<telerik:RadFilter runat="server" ID="RadFilter1" FilterContainerID="RadListView1" />
+<telerik:RadFilter RenderMode="Lightweight" runat="server" ID="RadFilter1" FilterContainerID="RadListView1" />
 <telerik:RadListView ID="RadListView1" DataSourceID="SqlDataSource1" PageSize="6"
     AllowPaging="True" runat="server" ItemPlaceholderID="ProductsHolder" DataKeyNames="OrderID">
     <ItemTemplate>
@@ -55,7 +55,7 @@ RadFilter can be used to build complex filtering criteria by means of intuitive 
                     </div>
                 </div>
                 <div>
-                    <telerik:RadDataPager ID="RadDataPager1" PageSize="6" runat="server">
+                    <telerik:RadDataPager RenderMode="Lightweight" ID="RadDataPager1" PageSize="6" runat="server">
                         <Fields>
                             <telerik:RadDataPagerButtonField FieldType="Numeric" />
                         </Fields>
@@ -77,7 +77,7 @@ RadFilter can be used to build complex filtering criteria by means of intuitive 
 
 
 ````ASPNET
-<telerik:RadFilter runat="server" ID="RadFilter1" OnApplyExpressions="RadFilter1_AppyExpressions">
+<telerik:RadFilter RenderMode="Lightweight" runat="server" ID="RadFilter1" OnApplyExpressions="RadFilter1_AppyExpressions">
     <FieldEditors>
         <telerik:RadFilterNumericFieldEditor DataType="System.Int32" FieldName="OrderID" />
         <telerik:RadFilterDateFieldEditor DataType="System.DateTime" FieldName="OrderDate" />
@@ -123,7 +123,7 @@ RadFilter can be used to build complex filtering criteria by means of intuitive 
                     </div>
                 </div>
                 <div>
-                    <telerik:RadDataPager ID="RadDataPager1" PageSize="6" runat="server">
+                    <telerik:RadDataPager RenderMode="Lightweight" ID="RadDataPager1" PageSize="6" runat="server">
                         <Fields>
                             <telerik:RadDataPagerButtonField FieldType="Numeric" />
                         </Fields>

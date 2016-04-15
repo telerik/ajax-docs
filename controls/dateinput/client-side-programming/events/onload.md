@@ -28,7 +28,7 @@ Two parameters are passed to the event handler:
 The following example uses the **OnLoad** event to change the background color of a text box:
 
 ````ASPNET
-<telerik:RadDateInput ID="RadDateInput1" runat="server">
+<telerik:RadDateInput RenderMode="Lightweight" ID="RadDateInput1" runat="server">
 	<ClientEvents OnLoad="Load" />
 </telerik:RadDateInput>
 ````

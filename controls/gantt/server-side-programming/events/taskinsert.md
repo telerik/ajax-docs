@@ -22,7 +22,7 @@ The **RadGantt TaskInsert** is fired when a task's collection is about to be ins
 ## Example
 
 ````ASP.NET
-<telerik:RadGantt ID="RadGantt1" runat="server" OnTaskInsert="RadGantt1_TaskInsert"></telerik:RadGantt>
+<telerik:RadGantt RenderMode="Lightweight" ID="RadGantt1" runat="server" OnTaskInsert="RadGantt1_TaskInsert"></telerik:RadGantt>
 ````
 
 ````C#

@@ -35,7 +35,7 @@ Shows how to use templates to create the following RadComboBox:
 An `<ItemTemplate>` section is added to the **RadComboBox** declaration. The image in the template and the text that appears in the template is taken from the RadComboBoxItem using <%# DataBinder.Eval %> statements.
 
 ````C#
-<telerik:RadComboBox ID="RadComboBox1" MarkFirstMatch="True" runat="server" Height="297px"
+<telerik:RadComboBox RenderMode="Lightweight" ID="RadComboBox1" MarkFirstMatch="True" runat="server" Height="297px"
 	Width="350px" Skin="Default" AutoPostBack="False" HighlightTemplatedItems="True"
 	ShowToggleImage="True">
 	<ItemTemplate>

@@ -191,7 +191,7 @@ End Function
 </telerik:RadAjaxLoadingPanel>
 <telerik:RadAjaxPanel ID="radAjaxPanel1" runat="server" LoadingPanelID="RadAjaxLoadingPanel1">
  <h3>RadTreeList declared statically with structure defined on Page_Load</h3>
-    <telerik:RadPivotGrid runat="server" ID="RadPivotGrid1"></telerik:RadPivotGrid>
+    <telerik:RadPivotGrid RenderMode="Lightweight" runat="server" ID="RadPivotGrid1"></telerik:RadPivotGrid>
 </telerik:RadAjaxPanel>
 ````
 ````C#

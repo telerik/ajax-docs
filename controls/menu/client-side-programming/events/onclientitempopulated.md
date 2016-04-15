@@ -45,7 +45,7 @@ You can use this event to tweak the child items that have just been added:
 ````
 
 ````ASP.NET
-<telerik:RadMenu ID="RadMenu1" runat="server" Skin="Default" OnClientItemPopulated="itemPopulated">
+<telerik:RadMenu RenderMode="Lightweight" ID="RadMenu1" runat="server" Skin="Default" OnClientItemPopulated="itemPopulated">
     <WebServiceSettings Path="ProductOfferings.asmx" Method="GetProductsByCategory" />
     <LoadingStatusTemplate>
         <asp:Image runat="server" ID="LoadingImage" ImageUrl="~/Ajax/Img/loading7.gif" ToolTip="Loading..."

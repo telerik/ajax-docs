@@ -22,7 +22,7 @@ The main logic here lies on using the FindControl(controlID) method - once you o
 
 
 ````ASPNET
-<telerik:RadTreeList ID="RadTreeList1" runat="server" DataKeyNames="EmployeeID" ParentDataKeyNames="ReportsTo"
+<telerik:RadTreeList RenderMode="Lightweight" ID="RadTreeList1" runat="server" DataKeyNames="EmployeeID" ParentDataKeyNames="ReportsTo"
 	AutoGenerateColumns="false" EditMode="EditForms" DataSourceID="SqlDataSource1"
 	OnInsertCommand="RadTreeList1_InsertCommand">
 	<Columns>
@@ -66,7 +66,7 @@ The main logic here lies on using the FindControl(controlID) method - once you o
 							Home Phone:
 						</td>
 						<td>
-							<telerik:RadMaskedTextBox ID="RadMaskedTextBox1" runat="server" SelectionOnFocus="SelectAll"
+							<telerik:RadMaskedTextBox RenderMode="Lightweight" ID="RadMaskedTextBox1" runat="server" SelectionOnFocus="SelectAll"
 								TextWithLiterals='<%# Bind("HomePhone") %>'  Mask="(###) ###-####">
 							</telerik:RadMaskedTextBox>
 						</td>
@@ -76,7 +76,7 @@ The main logic here lies on using the FindControl(controlID) method - once you o
 							Hire Date:
 						</td>
 						<td>
-							<telerik:RadDatePicker ID="RadDatePicker1" DbSelectedDate='<%# Bind("HireDate") %>'
+							<telerik:RadDatePicker RenderMode="Lightweight" ID="RadDatePicker1" DbSelectedDate='<%# Bind("HireDate") %>'
 								runat="server">
 							</telerik:RadDatePicker>
 						</td>
@@ -151,7 +151,7 @@ Here is sample code for extracting the values from the user control on InsertCom
 
 
 ````ASPNET
-<telerik:RadTreeList ID="RadTreeList2" runat="server" DataKeyNames="EmployeeID" ParentDataKeyNames="ReportsTo"
+<telerik:RadTreeList RenderMode="Lightweight" ID="RadTreeList2" runat="server" DataKeyNames="EmployeeID" ParentDataKeyNames="ReportsTo"
 	AutoGenerateColumns="false" EditMode="EditForms" DataSourceID="SqlDataSource1"
 	OnInsertCommand="RadTreeList2_InsertCommand">
 	<editformsettings editformtype="WebUserControl" usercontrolpath="~/WebUserControl.ascx">
@@ -256,7 +256,7 @@ Additionally, if you want the treelist to be able to extract values from the use
 			Home Phone:
 		</td>
 		<td>
-			<telerik:RadMaskedTextBox ID="RadMaskedTextBox1" runat="server" SelectionOnFocus="SelectAll"
+			<telerik:RadMaskedTextBox RenderMode="Lightweight" ID="RadMaskedTextBox1" runat="server" SelectionOnFocus="SelectAll"
 				TextWithLiterals='<%# DataBinder.Eval( Container, "DataItem.HomePhone") %>' Mask="(###) ###-####">
 			</telerik:RadMaskedTextBox>
 		</td>
@@ -266,7 +266,7 @@ Additionally, if you want the treelist to be able to extract values from the use
 			Hire Date:
 		</td>
 		<td>
-			<telerik:RadDatePicker ID="RadDatePicker1" DbSelectedDate='<%# DataBinder.Eval( Container, "DataItem.HireDate") %>'
+			<telerik:RadDatePicker RenderMode="Lightweight" ID="RadDatePicker1" DbSelectedDate='<%# DataBinder.Eval( Container, "DataItem.HireDate") %>'
 				runat="server">
 			</telerik:RadDatePicker>
 		</td>

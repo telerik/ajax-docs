@@ -43,7 +43,7 @@ The example below demonstrates how the **RadLightBox** control can be bound to a
       </AjaxSettings>
   </telerik:RadAjaxManager>
   <asp:Button Text="Open LightBox" OnClientClick="OpenLigthBox(); return false;" runat="server" />
-  <telerik:RadLightBox ID="RadLightBox1" runat="server" PreserveCurrentItemTemplates="true">
+  <telerik:RadLightBox RenderMode="Lightweight" ID="RadLightBox1" runat="server" PreserveCurrentItemTemplates="true">
       <ClientSettings AllowKeyboardNavigation="true"></ClientSettings>
   </telerik:RadLightBox>
 

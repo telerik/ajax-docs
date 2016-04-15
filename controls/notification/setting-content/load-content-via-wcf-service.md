@@ -29,7 +29,7 @@ The following steps describe how to configure RadXmlHttpPanel so that it can use
 
 	__ASP.NET__
 
-		<telerik:RadNotification ID="RadNotification1" runat="server" LoadContentOn="EveryShow"
+		<telerik:RadNotification RenderMode="Lightweight" ID="RadNotification1" runat="server" LoadContentOn="EveryShow"
 			WcfRequestMethod="POST"
 			WcfServicePath="XmlHttpPanelWcfService.svc"
 			WcfServiceMethod="GetCustomerByID"

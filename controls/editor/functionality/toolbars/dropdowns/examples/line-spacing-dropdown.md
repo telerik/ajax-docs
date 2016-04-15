@@ -15,7 +15,7 @@ Here is an example demonstrating how to create a line spacing dropdown, from whi
 ````ASP.NET
 <asp:ScriptManager ID="ScriptManager1" runat="server">
 </asp:ScriptManager>
-<telerik:RadEditor runat="server" ID="RadEditor1" OnClientCommandExecuting="OnClientCommandExecuting">
+<telerik:RadEditor RenderMode="Lightweight" runat="server" ID="RadEditor1" OnClientCommandExecuting="OnClientCommandExecuting">
 	<Tools>
 		<telerik:EditorToolGroup>
 			<telerik:EditorDropDown Name="LineSpacing" Text="Line Spacing" PopupWidth="110" PopupHeight="90">

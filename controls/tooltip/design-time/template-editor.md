@@ -22,7 +22,7 @@ The template editor appears as the lower area in the RadToolTip at design-time. 
 Elements placed in the template editor will show up within the ASP.NET markup RadToolTip tags:
 
 ````ASP.NET
-<telerik:RadToolTip ID="RadToolTip1" runat="server" TargetControlID="HyperLink1"
+<telerik:RadToolTip RenderMode="Lightweight" ID="RadToolTip1" runat="server" TargetControlID="HyperLink1"
 	        Position="BottomCenter">
 	My Content:<asp:Button ID="Button1" runat="server" Text="Button" />
 </telerik:RadToolTip>

@@ -15,7 +15,7 @@ There are situations when you may want the today's date in the **RadCalendar** h
 
 
 ````ASP.NET
-<telerik:RadCalendar runat="server" ID="RadCalendar1">
+<telerik:RadCalendar RenderMode="Lightweight" runat="server" ID="RadCalendar1">
     <SpecialDays>
         <telerik:RadCalendarDay Repeatable="Today">
             <ItemStyle CssClass="rcToday" />

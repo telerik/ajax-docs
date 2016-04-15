@@ -50,7 +50,7 @@ function pageLoad() {
 ````ASP.NET
 <asp:ScriptManager runat="server" ID="ScriptManager1">
 </asp:ScriptManager>
-<telerik:RadGrid runat="server" ID="RadGrid1" AutoGenerateColumns="false">
+<telerik:RadGrid RenderMode="Lightweight" runat="server" ID="RadGrid1" AutoGenerateColumns="false">
   <MasterTableView>
     <Columns>
       <telerik:GridBoundColumn DataField="ID" HeaderText="ID">

@@ -17,7 +17,7 @@ position: 1
 This example shows how to expand all levels of child items when clicking the root item.
 
 ````ASPNET
-<telerik:RadPanelBar ID="RadPanelBar1" runat="server" Skin="Outlook" OnClientItemClicking="ExpandAllChildren">
+<telerik:RadPanelBar RenderMode="Lightweight" ID="RadPanelBar1" runat="server" Skin="Outlook" OnClientItemClicking="ExpandAllChildren">
     <CollapseAnimation Duration="100" Type="None" />
     <Items>
         <telerik:RadPanelItem runat="server" Text="Root RadPanelItem1">

@@ -26,7 +26,7 @@ The event handler receives the following arguments:
 
 ````ASP.NET
 <asp:Button ID="Button4" Text="show the RadWindow" runat="server" />
-<telerik:RadWindow runat="server" ID="RadWindow1" OnClientShow="OnClientShowHandler" OpenerElementId="Button1"></telerik:RadWindow>
+<telerik:RadWindow RenderMode="Lightweight" runat="server" ID="RadWindow1" OnClientShow="OnClientShowHandler" OpenerElementId="Button1"></telerik:RadWindow>
 <script type="text/javascript">
 	function OnClientShowHandler(sender, args) {
 		sender.maximize();
@@ -40,7 +40,7 @@ The event handler receives the following arguments:
 
 ````ASP.NET
 <asp:Button ID="Button5" Text="show the RadWindow" runat="server" />
-<telerik:RadWindow runat="server" ID="RadWindow1" OnClientShow="OnClientShowHandler" OpenerElementId="Button1"></telerik:RadWindow>
+<telerik:RadWindow RenderMode="Lightweight" runat="server" ID="RadWindow1" OnClientShow="OnClientShowHandler" OpenerElementId="Button1"></telerik:RadWindow>
 <script type="text/javascript">
 	function OnClientShowHandler(sender, args) {
 		if (!sender.isPinned()) {
@@ -56,7 +56,7 @@ The event handler receives the following arguments:
 
 ````ASP.NET
 <asp:Button ID="Button6" Text="show the RadWindow" runat="server" />
-<telerik:RadWindow runat="server" ID="RadWindow1" OnClientShow="OnClientShowHandler" OpenerElementId="Button1" NavigateUrl="some-page.aspx"></telerik:RadWindow>
+<telerik:RadWindow RenderMode="Lightweight" runat="server" ID="RadWindow1" OnClientShow="OnClientShowHandler" OpenerElementId="Button1" NavigateUrl="some-page.aspx"></telerik:RadWindow>
 <script type="text/javascript">
 	function OnClientShowHandler(sender, args) {
 		sender.add_close(OnClientCloseHandler);

@@ -36,7 +36,7 @@ If the **TreeView** resides in a naming container, you can get the name of the d
 Another way of applying the style is putting the style directly to the **TreeView** or **TreeNode** definition like this:
 
 ````ASPNET
-<telerik:RadTreeView ID="RadTreeView1" runat="server" Style="white-space: normal;" />
+<telerik:RadTreeView RenderMode="Lightweight" ID="RadTreeView1" runat="server" Style="white-space: normal;" />
 ````
 
 

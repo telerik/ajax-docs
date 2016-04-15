@@ -48,7 +48,7 @@ Here is an example that shows how to bind the tagCloud to an ObjectDataSource. I
 
 ````ASP.NET
 <div>
-	<telerik:RadTagCloud ID="RadTagCloud2" runat="server" Width="400px" MaxFontSize="50px"
+	<telerik:RadTagCloud RenderMode="Lightweight" ID="RadTagCloud2" runat="server" Width="400px" MaxFontSize="50px"
 		Sorting="AlphabeticAsc" DataSourceID="ObjectDataSource1" DataTextField="Text"
 		DataWeightField="Weight" DataNavigateUrlField="NavigateUrl">
 	</telerik:RadTagCloud>

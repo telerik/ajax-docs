@@ -23,7 +23,7 @@ The top of the control has an area, which displays the selected item of the defa
 ## The asociated markup code
 
 ````ASPNET
-<telerik:RadDropDownList ID="RadDropDownList1" runat="server" DefaultMessage="Select.." DropDownHeight="110px" >
+<telerik:RadDropDownList RenderMode="Lightweight" ID="RadDropDownList1" runat="server" DefaultMessage="Select.." DropDownHeight="110px" >
 	<Items>
 		<telerik:DropDownListItem Text="London" />
 		<telerik:DropDownListItem Text="San Diego" />

@@ -50,7 +50,7 @@ The following tutorial demonstrates how DataBindings can be used to map data ind
     * **Depth**: 1, **HoveredImageUrl**: "folderopen.ico", **ImageUrl**: "folderclosed.ico", **TextField**: "Name".
     * **Depth**: 4, **TextField**: "Name", **ToolTipField**: "Size".The ASP.NET markup should look like the example below:
     ````ASPNET
-<telerik:RadTreeView ID="RadTreeView1" runat="server" DataSourceID="AccessDataSource1"
+<telerik:RadTreeView RenderMode="Lightweight" ID="RadTreeView1" runat="server" DataSourceID="AccessDataSource1"
     DataFieldID="ItemID" DataFieldParentID="ParentID" LoadingStatusPosition="BeforeNodeText">
     <DataBindings>
         <telerik:RadTreeNodeBinding TextField="Name" ValueField="ItemID" />

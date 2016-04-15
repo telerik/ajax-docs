@@ -38,7 +38,7 @@ When the advanced form is modal (<AdvancedForm Modal="true" />), it relies on a 
 		   </asp:LinkButton>
 	   </div>
 	   <div class="rsAdvContentWrapper">
-		   <telerik:RadTextBox ID="SubjectTextBox" runat="server" Text='<%# Bind("Subject") %>'
+		   <telerik:RadTextBox RenderMode="Lightweight" ID="SubjectTextBox" runat="server" Text='<%# Bind("Subject") %>'
 			   Label='<%# Container.Appointment.Owner.Localization.AdvancedSubject%>'>
 		   </telerik:RadTextBox>
 		   <p>
@@ -82,7 +82,7 @@ When the advanced form is modal (<AdvancedForm Modal="true" />), it relies on a 
 		   </asp:LinkButton>
 	   </div>
 	   <div class="rsAdvContentWrapper">
-		   <telerik:RadTextBox ID="SubjectTextBox" runat="server" Text='<%# Bind("Subject") %>'
+		   <telerik:RadTextBox RenderMode="Lightweight" ID="SubjectTextBox" runat="server" Text='<%# Bind("Subject") %>'
 			   Label='<%# Container.Appointment.Owner.Localization.AdvancedSubject%>'>
 		   </telerik:RadTextBox>
 		   <p>

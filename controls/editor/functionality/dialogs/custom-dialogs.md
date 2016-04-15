@@ -16,7 +16,7 @@ RadEditor provides a flexible mechanism for adding custom dialogs that plug dire
 
 	**ASP.NET**
 
-		<telerik:RadEditor runat="server" ID="RadEditor1">
+		<telerik:RadEditor RenderMode="Lightweight" runat="server" ID="RadEditor1">
 			<Tools>
 				<telerik:EditorToolGroup>
 					<telerik:EditorTool Name="InsertSpecialLink" Text="Insert Special Link" />

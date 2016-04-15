@@ -34,7 +34,7 @@ The main difference between setting this property in **RadAjaxManger** and the s
 </asp:UpdatePanel>
 <asp:UpdatePanel ID="UpdatePanel2" UpdateMode="Conditional" runat="server">
 	<ContentTemplate>
-	   <telerik:RadTreeView ID="RadTreeView2" runat="server" OnNodeClick="RadTreeView_NodeClick"
+	   <telerik:RadTreeView RenderMode="Lightweight" ID="RadTreeView2" runat="server" OnNodeClick="RadTreeView_NodeClick"
 	    OnNodeExpand="RadTreeView_NodeExpand">
 	    <Nodes>
 	    <telerik:RadTreeNode runat="server" ExpandMode="ServerSide" Text="Node1">
@@ -116,7 +116,7 @@ End Class
 	</AjaxSettings>
 </telerik:RadAjaxManager>
 	        <br />
-<telerik:RadTreeView ID="RadTreeView1" runat="server" OnNodeClick="RadTreeView_NodeClick"
+<telerik:RadTreeView RenderMode="Lightweight" ID="RadTreeView1" runat="server" OnNodeClick="RadTreeView_NodeClick"
 	OnNodeExpand="RadTreeView_NodeExpand">
 	<Nodes>
 	    <telerik:RadTreeNode runat="server" ExpandMode="ServerSide" Text="Node1">

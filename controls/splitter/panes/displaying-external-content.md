@@ -31,7 +31,7 @@ If the resulting content of the pane exceeds its size, the **RadPane** control d
 The following example shows how to display external URL in a **RadPane** control and how to change it with hyperlinks. Note that the "MiddlePane" text is never displayed:
 
 ````ASP.NET
-<telerik:RadSplitter runat="server" id="RadSplitter1"
+<telerik:RadSplitter RenderMode="Lightweight" runat="server" id="RadSplitter1"
    Orientation="Horizontal" width="90%" height="600px">
  <telerik:RadPane runat="server" id="LinkPane" Height="75">
    <a href="http://www.telerik.com"

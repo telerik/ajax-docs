@@ -50,7 +50,7 @@ For example, to provide the default pasting experience, but suppress the confirm
 >caption Example 1: Keeping the default MS Word pasting behavior but removing the confirmation message through the markup.
 
 ````ASP.NET
-<telerik:RadEditor ID="RadEditor1" runat="server" 
+<telerik:RadEditor RenderMode="Lightweight" ID="RadEditor1" runat="server" 
 	StripFormattingOptions="ConvertWordLists, MSWordNoMargins">
 </telerik:RadEditor>
 ````
@@ -60,7 +60,7 @@ For example, to provide the default pasting experience, but suppress the confirm
 >caption Example 2: Keeping the default MS Word pasting behavior but removing the confirmation message via the code behind.
 
 ````ASP.NET
-<telerik:RadEditor ID="RadEditor1" runat="server">
+<telerik:RadEditor RenderMode="Lightweight" ID="RadEditor1" runat="server">
 </telerik:RadEditor>
 ````
 

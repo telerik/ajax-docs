@@ -207,7 +207,7 @@ When have a custom editor defined, you can use it in the field editors collectio
 
 
 ````ASPNET
-<telerik:RadFilter runat="server" ID="RadFilter1" FilterContainerID="SqlDataSource1"
+<telerik:RadFilter RenderMode="Lightweight" runat="server" ID="RadFilter1" FilterContainerID="SqlDataSource1"
     OnFieldEditorCreating="RadFilter1_FieldEditorCreating" ExpressionPreviewPosition="Bottom">
     <FieldEditors>
         <custom:RadCustomFilterDropDownEditor FieldName="ShipCountry" DataTextField="ShipCountry"

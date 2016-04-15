@@ -42,7 +42,7 @@ You can set the **Width** and **Height** properties of the **RadProgressBar** in
 	}
 </style>
 <div style="width: 50%; height: 50%">
-	<telerik:RadProgressBar Width="100%" Height="100%" CssClass="fluidProgressBar" runat="server" Value="30" ID="RadProgressBar1" BarType="Percent" />
+	<telerik:RadProgressBar RenderMode="Lightweight" Width="100%" Height="100%" CssClass="fluidProgressBar" runat="server" Value="30" ID="RadProgressBar1" BarType="Percent" />
 </div>
 ````
 

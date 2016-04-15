@@ -70,9 +70,9 @@ function SpellCheckClosed(sender, args) {
 </telerik:RadAjaxManager>
 <telerik:RadAjaxLoadingPanel ID="RadAjaxLoadingPanel1" runat="server" />
 <asp:HiddenField ID="HiddenField1" runat="server" />
-<telerik:RadSpell ID="RadSpell1" runat="server" ButtonType="None" OnClientDialogClosed="SpellCheckClosed"
+<telerik:RadSpell RenderMode="Lightweight" ID="RadSpell1" runat="server" ButtonType="None" OnClientDialogClosed="SpellCheckClosed"
   OnClientCheckFinished="SpellCheckFinished" />
-<telerik:RadGrid ID="RadGrid2" runat="server" Width="100%" DataSourceID="SqlDataSource1"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid2" runat="server" Width="100%" DataSourceID="SqlDataSource1"
   AllowAutomaticInserts="true" AllowAutomaticUpdates="true" OnItemCreated="RadGrid1_ItemCreated"
   OnColumnCreated="RadGrid1_ColumnCreated" OnItemUpdated="RadGrid1_ItemUpdated" OnItemInserted="RadGrid1_ItemInserted">
   <MasterTableView AllowSorting="true" PageSize="10" AllowPaging="True" Width="100%"

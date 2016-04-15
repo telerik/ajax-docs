@@ -22,7 +22,7 @@ Executes RadEditor commands.
 The example below demonstrates how to add a custom MyBold button to the editor's toolbar and when pressed to fire the editor's bold command:
 
 ````ASP.NET
-<telerik:RadEditor ID="RadEditor1" runat="server">
+<telerik:RadEditor RenderMode="Lightweight" ID="RadEditor1" runat="server">
 	<Tools>
 		<telerik:EditorToolGroup>
 			<telerik:EditorTool Name="MyBold" ShowText="true" ShowIcon="false" />

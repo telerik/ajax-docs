@@ -24,10 +24,10 @@ By default, windows are not visible on the page, and appear centered on the scre
 <asp:Button ID="ServerButton" runat="server" Text="Open RadWindow from a Server Button" />
 <br />
 <input type="button" id="HtmlButton" value="Open RadWindow from HTML Button" />
-<telerik:RadWindow ID="RadWindow1" OffsetElementID="HtmlButton" OpenerElementID="HtmlButton"
+<telerik:RadWindow RenderMode="Lightweight" ID="RadWindow1" OffsetElementID="HtmlButton" OpenerElementID="HtmlButton"
 	NavigateUrl="http://www.telerik.com" runat="server">
 </telerik:RadWindow>
-<telerik:RadWindow ID="RadWindow2" NavigateUrl="http://www.telerik.com"
+<telerik:RadWindow RenderMode="Lightweight" ID="RadWindow2" NavigateUrl="http://www.telerik.com"
 	runat="server">
 </telerik:RadWindow>
 ````

@@ -34,7 +34,7 @@ If a **Notification Menu** is configured, it has its own client events as specif
 To use these events, simply write a JavaScript function that can be called when the event occurs. Then assign the name of the JavaScript function as the value of the the corresponding property.
 
 ````ASP.NET
-<telerik:RadNotification runat="server" ID="RadNotification1" VisibleOnPageLoad="true"
+<telerik:RadNotification RenderMode="Lightweight" runat="server" ID="RadNotification1" VisibleOnPageLoad="true"
     Position="BottomRight" Width="250px" Height="100px"
     OnClientShowing="OnClientShowing" Text="Sample notification text">
 </telerik:RadNotification>

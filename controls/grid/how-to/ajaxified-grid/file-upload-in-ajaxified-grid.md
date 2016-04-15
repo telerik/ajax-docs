@@ -35,8 +35,8 @@ The following example illustrates this approach:
 </telerik:RadCodeBlock>
 <telerik:RadAjaxPanel ID="RadAjaxPanel1" runat="server" ClientEvents-OnRequestStart="conditionalPostback">
   <telerik:RadProgressManager ID="RadProgressManager1" runat="server" />
-  <telerik:RadProgressArea ID="RadProgressArea1" runat="server" />
-  <telerik:RadGrid runat="server" ID="RadGrid1" AllowPaging="True" AllowSorting="True"
+  <telerik:RadProgressArea RenderMode="Lightweight" ID="RadProgressArea1" runat="server" />
+  <telerik:RadGrid RenderMode="Lightweight" runat="server" ID="RadGrid1" AllowPaging="True" AllowSorting="True"
     AutoGenerateColumns="False" Width="97%" DataSourceID="SqlDataSource1" AllowAutomaticInserts="true"
     AllowAutomaticUpdates="true" AllowAutomaticDeletes="true" ShowStatusBar="True"
     GridLines="None" OnItemDataBound="RadGrid1_ItemDataBound" OnItemCreated="RadGrid1_ItemCreated"

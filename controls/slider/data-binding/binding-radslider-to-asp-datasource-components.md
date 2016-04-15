@@ -25,7 +25,7 @@ In addition, you can also add the data bound items to already declared items by 
 Below is demonstrated how a data source for a RadSlider can be configured. You can also refer to the [Databinding online demo](http://demos.telerik.com/aspnet-ajax/slider/examples/databinding/defaultcs.aspx), which contains a more detailed example of this feature.
 
 ````ASP.NET
-<telerik:RadSlider ID="slider" runat="server" DataSourceID="SqlDataSource1" Width="800"
+<telerik:RadSlider RenderMode="Lightweight" ID="slider" runat="server" DataSourceID="SqlDataSource1" Width="800"
    ItemType="Item" Height="100" AutoPostBack="true">
    <ItemBinding TextField="Name" ToolTipField="Description" ValueField="ID" />
 </telerik:RadSlider>

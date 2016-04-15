@@ -31,7 +31,7 @@ At design time, add item templates to your **RadToolBar** control using the [Tem
 ![toolbar attributes](images/toolbar_attributes.png)
 
 ````ASPNET
-<telerik:RadToolBar ID="RadToolBar1" runat="server">
+<telerik:RadToolBar RenderMode="Lightweight" ID="RadToolBar1" runat="server">
     <Items>
         <telerik:RadToolBarButton runat="server" Text="Button 1" DisplayName="TextBox1">
             <ItemTemplate>

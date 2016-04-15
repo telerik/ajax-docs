@@ -41,7 +41,7 @@ In **Example 1** you can examine how the **Shape** layer is bound to a .json fil
 	  </DataSource>
  </telerik:RadClientDataSource>
 
-<telerik:RadMap runat="server" ID="RadMap1" Zoom="3" Width="940" Height="500">
+<telerik:RadMap RenderMode="Lightweight" runat="server" ID="RadMap1" Zoom="3" Width="940" Height="500">
 	<LayersCollection>
 			<telerik:MapLayer Type="Shape" ClientDataSourceID="RadClientDataSource1">
 			</telerik:MapLayer>
@@ -72,7 +72,7 @@ In **Example 2** you can see how to use a simple data binding approach with an a
 	}
 </script>
 
-<telerik:RadMap runat="server" ID="RadMap1" Zoom="2" Width="500" Height="200"> 
+<telerik:RadMap RenderMode="Lightweight" runat="server" ID="RadMap1" Zoom="2" Width="500" Height="200"> 
 	<ClientEvents OnInitialize="OnInitialize" />
 	<CenterSettings Latitude="30" Longitude="10" />
 	<LayerDefaultsSettings>
@@ -105,7 +105,7 @@ To bind a **Marker** layer to a **RadClientDataSource** you need to set its ID t
 	</DataSource>
 </telerik:RadClientDataSource>
 
-<telerik:RadMap runat="server" ID="RadMap1" Zoom="2" Width="940" Height="500">
+<telerik:RadMap RenderMode="Lightweight" runat="server" ID="RadMap1" Zoom="2" Width="940" Height="500">
 	<CenterSettings Latitude="23" Longitude="10" />
 	<LayersCollection>
 		<telerik:MapLayer Type="Tile" Subdomains="a,b,c"
@@ -142,7 +142,7 @@ In **Example 4** you can see how to use simple data binding with a **Marker** la
 	}
 </script>
 
-<telerik:RadMap runat="server" ID="RadMap1" Zoom="7" Width="500" Height="200">
+<telerik:RadMap RenderMode="Lightweight" runat="server" ID="RadMap1" Zoom="7" Width="500" Height="200">
 	<ClientEvents OnInitialize="OnInitialize"/> 
 	<CenterSettings Latitude="51.506421" Longitude="-0.127215" />
 	<LayersCollection>

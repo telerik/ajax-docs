@@ -29,7 +29,7 @@ The following example outlines how you can bind the **RadDataForm** to **RadClie
 
 
 ````ASPNET	
-<telerik:RadDataForm runat="server" ID="RadDataForm1"
+<telerik:RadDataForm RenderMode="Lightweight" runat="server" ID="RadDataForm1"
     DataKeyNames="CustomerID" RenderWrapper="true" class="rdfRightAligned rdfNoFieldHint rdfNoFieldHint" ClientDataSourceID="RadClientDataSource1">
     <clientsettings>
         <ClientEvents OnSetValues="dataFormSetValues" OnGetValues="dataFormGetValues" OnDataFormCreated="dataFormCreated" />
@@ -71,9 +71,9 @@ The following example outlines how you can bind the **RadDataForm** to **RadClie
 
             <div class="rdfCommandButtons">
                 <hr class="rdfHr" />
-                <telerik:RadButton ID="InitInsertButton" runat="server" ButtonType="SkinnedButton" OnClientClicked="function(){dataform1.showInsertItem();}" AutoPostBack="false" Text="Insert" ToolTip="Insert" />
-                <telerik:RadButton ID="EditButton" runat="server" ButtonType="SkinnedButton" OnClientClicked="function(){dataform1.editItem();}" AutoPostBack="false" Text="Edit" ToolTip="Edit" />
-                <telerik:RadButton ID="DeleteButton" runat="server" ButtonType="SkinnedButton" CausesValidation="False"
+                <telerik:RadButton RenderMode="Lightweight" ID="InitInsertButton" runat="server" ButtonType="SkinnedButton" OnClientClicked="function(){dataform1.showInsertItem();}" AutoPostBack="false" Text="Insert" ToolTip="Insert" />
+                <telerik:RadButton RenderMode="Lightweight" ID="EditButton" runat="server" ButtonType="SkinnedButton" OnClientClicked="function(){dataform1.editItem();}" AutoPostBack="false" Text="Edit" ToolTip="Edit" />
+                <telerik:RadButton RenderMode="Lightweight" ID="DeleteButton" runat="server" ButtonType="SkinnedButton" CausesValidation="False"
                     CommandName="Delete" CommandArgument='<%#Eval("ProductID") %>'
                     OnClientClicking='function(sender, args){args.set_cancel(!window.confirm("Are you sure you want to delete this record?"));}'
                     Text="Delete" ToolTip="Delete" />
@@ -90,21 +90,21 @@ The following example outlines how you can bind the **RadDataForm** to **RadClie
 
             <div class="rdfRow">
                 <asp:Label ID="EditCompanyNameLabel" runat="server" AssociatedControlID="EditCompanyName" CssClass="rdfLabel" Text="Company Name:"></asp:Label>
-                <telerik:RadTextBox ID="EditCompanyName" runat="server" Text='' WrapperCssClass="rdfInput" />
+                <telerik:RadTextBox RenderMode="Lightweight" ID="EditCompanyName" runat="server" Text='' WrapperCssClass="rdfInput" />
             </div>
             <div class="rdfRow">
                 <asp:Label ID="EditContactNameLabel" runat="server" AssociatedControlID="EditContactName" CssClass="rdfLabel" Text="Contact Name:"></asp:Label>
-                <telerik:RadTextBox ID="EditContactName" runat="server" WrapperCssClass="rdfInput" />
+                <telerik:RadTextBox RenderMode="Lightweight" ID="EditContactName" runat="server" WrapperCssClass="rdfInput" />
             </div>
             <div class="rdfRow">
                 <asp:Label ID="EditContactTitlelabel" runat="server" AssociatedControlID="EditContactTitle" CssClass="rdfLabel" Text="Contact Title:"></asp:Label>
-                <telerik:RadTextBox ID="EditContactTitle" runat="server" WrapperCssClass="rdfInput" />
+                <telerik:RadTextBox RenderMode="Lightweight" ID="EditContactTitle" runat="server" WrapperCssClass="rdfInput" />
             </div>
 
             <div class="rdfCommandButtons">
                 <hr class="rdfHr" />
-                <telerik:RadButton ID="UpdateButton" runat="server" ButtonType="SkinnedButton" CommandName="Update" Text="Update" ToolTip="Update" />
-                <telerik:RadButton ID="CancelButton" runat="server" ButtonType="SkinnedButton" CausesValidation="False" CommandName="Cancel" Text="Cancel" ToolTip="Cancel" />
+                <telerik:RadButton RenderMode="Lightweight" ID="UpdateButton" runat="server" ButtonType="SkinnedButton" CommandName="Update" Text="Update" ToolTip="Update" />
+                <telerik:RadButton RenderMode="Lightweight" ID="CancelButton" runat="server" ButtonType="SkinnedButton" CausesValidation="False" CommandName="Cancel" Text="Cancel" ToolTip="Cancel" />
             </div>
         </fieldset>
     </EditItemTemplate>
@@ -113,21 +113,21 @@ The following example outlines how you can bind the **RadDataForm** to **RadClie
             <legend class="rdfLegend">Insert New Customers</legend>
             <div class="rdfRow">
                 <asp:Label ID="ProductNameLabel2" runat="server" AssociatedControlID="InsertCompanyName" CssClass="rdfLabel" Text="Company Name:"></asp:Label>
-                <telerik:RadTextBox ID="InsertCompanyName" runat="server" Text='' WrapperCssClass="rdfInput" />
+                <telerik:RadTextBox RenderMode="Lightweight" ID="InsertCompanyName" runat="server" Text='' WrapperCssClass="rdfInput" />
             </div>
             <div class="rdfRow">
                 <asp:Label ID="Label1" runat="server" AssociatedControlID="InsertContactName" CssClass="rdfLabel" Text="Contact Name:"></asp:Label>
-                <telerik:RadTextBox ID="InsertContactName" runat="server" WrapperCssClass="rdfInput" />
+                <telerik:RadTextBox RenderMode="Lightweight" ID="InsertContactName" runat="server" WrapperCssClass="rdfInput" />
             </div>
             <div class="rdfRow">
                 <asp:Label ID="Label2" runat="server" AssociatedControlID="InsertContactTitle" CssClass="rdfLabel" Text="Contact Title:"></asp:Label>
-                <telerik:RadTextBox ID="InsertContactTitle" runat="server" WrapperCssClass="rdfInput" />
+                <telerik:RadTextBox RenderMode="Lightweight" ID="InsertContactTitle" runat="server" WrapperCssClass="rdfInput" />
             </div>
 
             <div class="rdfCommandButtons">
                 <hr class="rdfHr" />
-                <telerik:RadButton ID="PerformInsertButton" runat="server" ButtonType="SkinnedButton" OnClientClicked="function(){dataform1.insertItem();}" AutoPostBack="false" Text="Insert" ToolTip="Insert" />
-                <telerik:RadButton ID="CancelButton" runat="server" ButtonType="SkinnedButton" OnClientClicked="function(){dataform1.cancelInsert();}" AutoPostBack="false" Text="Cancel" ToolTip="Cancel" />
+                <telerik:RadButton RenderMode="Lightweight" ID="PerformInsertButton" runat="server" ButtonType="SkinnedButton" OnClientClicked="function(){dataform1.insertItem();}" AutoPostBack="false" Text="Insert" ToolTip="Insert" />
+                <telerik:RadButton RenderMode="Lightweight" ID="CancelButton" runat="server" ButtonType="SkinnedButton" OnClientClicked="function(){dataform1.cancelInsert();}" AutoPostBack="false" Text="Cancel" ToolTip="Cancel" />
             </div>
         </fieldset>
     </InsertItemTemplate>

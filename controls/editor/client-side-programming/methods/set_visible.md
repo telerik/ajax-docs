@@ -27,7 +27,7 @@ In the form's declaration, the checkbox input control references a "myCheckboxCl
 ````ASP.NET
 Editor Visible?
 <input type="checkbox" id="myCheckBox" checked="checked" onclick="myCheckboxClick()" />
-<telerik:RadEditor ID="RadEditor1" runat="server">
+<telerik:RadEditor RenderMode="Lightweight" ID="RadEditor1" runat="server">
 </telerik:RadEditor>
 ````
 

@@ -96,7 +96,7 @@ The full project shows several links that call **selectNode()** with text of spe
 <form id="form1" runat="server">
 <asp:ScriptManager ID="ScriptManager1" runat="server" />
 <div>
-    <telerik:RadTreeView ID="RadTreeView2" runat="server" Skin="Hay">
+    <telerik:RadTreeView RenderMode="Lightweight" ID="RadTreeView2" runat="server" Skin="Hay">
         <Nodes>
             <telerik:RadTreeNode runat="server" Text="Products" ExpandMode="ClientSide">
                 <Nodes>

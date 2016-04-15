@@ -22,7 +22,7 @@ Forth from Q3 2011, RadMenu can be bound to an OData service. The Open Data Prot
 This means binding to a non-hierarchical data. It is rather easy to bind to such data, here is sample markup that binds to the Category table exposed by the OData.org sample services:
 
 ````ASP.NET	     
-<telerik:RadMenu runat="server" ID="RadMenu1">
+<telerik:RadMenu RenderMode="Lightweight" runat="server" ID="RadMenu1">
 	<WebServiceSettings Path="http://services.odata.org/OData/OData.svc">
 		<ODataSettings ResponseType="JSONP">
 			<Entities>
@@ -55,7 +55,7 @@ The applied settings are described below:
 The hierarchical binding is pretty much the same. Here is how the declaration of a bound menu would look like:
 
 ````ASP.NET     
-<telerik:RadMenu runat="server" ID="RadMenu1" PersistLoadOnDemandItems="true">
+<telerik:RadMenu RenderMode="Lightweight" runat="server" ID="RadMenu1" PersistLoadOnDemandItems="true">
 	<WebServiceSettings  Path="http://services.odata.org/OData/OData.svc">
 		<ODataSettings ResponseType="JSONP" InitialContainerName="Categories">
 			<Entities>

@@ -31,7 +31,7 @@ This **NeedDataSource** event fires in the following cases:
 In the **NeedDataSource** event handler, you should prepare the data source (list of objects) for RadImageGallery and assign it to the **DataSource** property.The following example demonstrated how to assign a **DataTable** as a data source for the **RadImageGallery**:
 
 ````ASPNET
-<telerik:RadImageGallery ID="RadImageGallery1" runat="server"
+<telerik:RadImageGallery RenderMode="Lightweight" ID="RadImageGallery1" runat="server"
 	OnNeedDataSource="RadImageGallery1_NeedDataSource"
 	DataTitleField="Title"
 	DataDescriptionField="Description"

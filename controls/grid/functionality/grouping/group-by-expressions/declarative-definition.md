@@ -55,7 +55,7 @@ You can set the value of a table view's **GroupByExpressions** property declarat
 The following example shows the declaration of a grid with the **GroupByExpressions** property set to provide grouping in the **MasterTableView**. In this example, the ShowGroupPanel property is not set to **True**, so users cannot change the specified grouping.
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1" GridLines="None"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1" GridLines="None"
   AllowPaging="True" PageSize="5" Skin="Outlook">
   <MasterTableView DataSourceID="gridSource">
     <GroupByExpressions>
@@ -143,7 +143,7 @@ When you set the **GroupByExpression** property for a **GridTemplateColumn** ins
 The following example illustrates how this is done. It assigns an alias of "ID" in the **GroupByExpression** property of the first template column, and an alias of "Name" in the **GroupByExpression** property of the second template column.
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1" AutoGenerateColumns="False"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1" AutoGenerateColumns="False"
   AllowPaging="true" ShowGroupPanel="true">
   <ClientSettings AllowDragToGroup="true" />
   <MasterTableView>

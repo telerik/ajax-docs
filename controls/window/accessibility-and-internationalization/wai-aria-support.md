@@ -19,8 +19,8 @@ In order to enable the WAI-ARIA support, set the **RadWindow** / **RadWindowMana
 >caption **Example 1**: Setting the **EnableAriaSupport** property for **RadWindow** and **RadWindowManager**
 
 ````ASP.NET
-<telerik:RadWindow EnableAriaSupport="true" runat="server" ID="RadWindow1"></telerik:RadWindow>
-<telerik:RadWindowManager EnableAriaSupport="true" runat="server" ID="RadWindowManager1"></telerik:RadWindowManager>
+<telerik:RadWindow RenderMode="Lightweight" EnableAriaSupport="true" runat="server" ID="RadWindow1"></telerik:RadWindow>
+<telerik:RadWindowManager RenderMode="Lightweight" EnableAriaSupport="true" runat="server" ID="RadWindowManager1"></telerik:RadWindowManager>
 ````
 ````C#
 RadWindow1.EnableAriaSupport = true;
@@ -40,7 +40,7 @@ Optionally, you can adjust the [aria-label](http://www.w3.org/WAI/PF/aria/states
 >caption Example 2: Adjusting `aria-label` and `aria-describedby` attributes in **RadWindow**.
 
 ````ASP.NET
-<telerik:RadWindow runat="server" ID="RadWindow1" EnableAriaSupport="true">
+<telerik:RadWindow RenderMode="Lightweight" runat="server" ID="RadWindow1" EnableAriaSupport="true">
     <AriaSettings Label="Label for this dialog." DescribedBy="describe_dialog" />
     <ContentTemplate>
         <p id="describe_dialog">
@@ -53,10 +53,10 @@ Optionally, you can adjust the [aria-label](http://www.w3.org/WAI/PF/aria/states
 >caption Example 3: Adjusting `aria-label` and `aria-describedby` attributes in **RadWindowManager**.
 
 ````ASP.NET
-<telerik:RadWindowManager runat="server" ID="RadWindowManager1" EnableAriaSupport="true">
+<telerik:RadWindowManager RenderMode="Lightweight" runat="server" ID="RadWindowManager1" EnableAriaSupport="true">
     <AriaSettings LabelledBy="[Element_ID]" />
     <Windows>
-        <telerik:RadWindow runat="server" ID="RadWindow1">
+        <telerik:RadWindow RenderMode="Lightweight" runat="server" ID="RadWindow1">
             <AriaSettings Label="Label for this dialog." DescribedBy="describe_dialog" />
             <ContentTemplate>
                 <p id="describe_dialog">
@@ -71,7 +71,7 @@ Optionally, you can adjust the [aria-label](http://www.w3.org/WAI/PF/aria/states
 >caption Example 4: Customizing **RadAlert** template and adjusting the `aria-describedby` attribute.
 
 ````ASP.NET
-<telerik:RadWindowManager runat="server" ID="RadWindowManager2" EnableAriaSupport="true">
+<telerik:RadWindowManager RenderMode="Lightweight" runat="server" ID="RadWindowManager2" EnableAriaSupport="true">
     <AriaSettings DescribedBy="describe_id" />
     <AlertTemplate>
         <div class="rwDialogPopup radalert">

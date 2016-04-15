@@ -48,7 +48,7 @@ There are two cases when you want to change the default color of links in **Grid
 </head>
 <body>
   <form id="Form1" method="post" runat="server">
-  <telerik:RadGrid ID="RadGrid1" CssClass="RadGrid" runat="server" AutoGenerateColumns="False"
+  <telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" CssClass="RadGrid" runat="server" AutoGenerateColumns="False"
     Skin="Default">
     <MasterTableView>
       <Columns>
@@ -97,7 +97,7 @@ There are two cases when you want to change the default color of links in **Grid
 </head>
 <body>
   <form id="Form2" method="post" runat="server">
-  <telerik:RadGrid ID="RadGrid1" CssClass="RadGrid" runat="server" AutoGenerateColumns="False"
+  <telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" CssClass="RadGrid" runat="server" AutoGenerateColumns="False"
     Skin="">
     <MasterTableView>
       <Columns>

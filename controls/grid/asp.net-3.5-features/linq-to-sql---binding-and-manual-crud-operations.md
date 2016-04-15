@@ -44,7 +44,7 @@ Here are the code snippets from the example referenced in the previous paragraph
 </ajaxsettings>
 </telerik:RadAjaxManager>
 <telerik:RadAjaxLoadingPanel runat="server" ID="RadAjaxLoadingPanel1" />
-<telerik:RadGrid runat="server" ID="RadGrid1" AutoGenerateColumns="false" AllowPaging="true"
+<telerik:RadGrid RenderMode="Lightweight" runat="server" ID="RadGrid1" AutoGenerateColumns="false" AllowPaging="true"
     OnNeedDataSource="RadGrid1_NeedDataSource" OnUpdateCommand="RadGrid1_UpdateCommand"
     OnItemCreated="RadGrid1_ItemCreated" OnDeleteCommand="RadGrid1_DeleteCommand"
     OnInsertCommand="RadGrid1_InsertCommand">
@@ -68,7 +68,7 @@ Here are the code snippets from the example referenced in the previous paragraph
   <ClientEvents OnRowDblClick="rowDblClick" />
 </clientsettings>
 </telerik:RadGrid>
-<telerik:RadInputManager runat="server" ID="RadInputManager1" Enabled="true">
+<telerik:RadInputManager RenderMode="Lightweight" runat="server" ID="RadInputManager1" Enabled="true">
     <telerik:TextBoxSetting BehaviorID="TextBoxSetting1">
     </telerik:TextBoxSetting>
     <telerik:NumericTextBoxSetting BehaviorID="NumericTextBoxSetting1" Type="Currency"
@@ -78,7 +78,7 @@ Here are the code snippets from the example referenced in the previous paragraph
         AllowRounding="true" DecimalDigits="0" MinValue="0">
     </telerik:NumericTextBoxSetting>
 </telerik:RadInputManager>
-<telerik:RadWindowManager ID="RadWindowManager1" runat="server" />
+<telerik:RadWindowManager RenderMode="Lightweight" ID="RadWindowManager1" runat="server" />
 ````
 ````C#
 private NorthwindDataContext _dataContext;

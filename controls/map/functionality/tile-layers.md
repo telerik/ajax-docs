@@ -51,7 +51,7 @@ You can find more details about Web Map Services the following public pages:
 >caption **Example 1**: Configuring **MapLayer** with ASP.NET markup.
 
 ````ASP.NET
-<telerik:RadMap runat="server" ID="RadMap1">
+<telerik:RadMap RenderMode="Lightweight" runat="server" ID="RadMap1">
 	<LayersCollection>
 		<telerik:MapLayer Type="Tile" 
 			Subdomains="a,b,c"
@@ -64,7 +64,7 @@ You can find more details about Web Map Services the following public pages:
 >caption **Example 2**: Programmatic configuration of the **MapLayer**.
 
 ````ASP.NET
-<telerik:RadMap runat="server" ID="RadMap1">
+<telerik:RadMap RenderMode="Lightweight" runat="server" ID="RadMap1">
 </telerik:RadMap>
 ````
 ````C#
@@ -93,7 +93,7 @@ In **Example 3** you can see how these attributes can be used in the Map control
 >caption **Example 3**: Setting attribution to the map and changing the opacity.
 
 ````ASP.NET
-<telerik:RadMap runat="server" ID="RadMap1">
+<telerik:RadMap RenderMode="Lightweight" runat="server" ID="RadMap1">
 	<LayersCollection>
 		<telerik:MapLayer Type="Tile" 
 			Subdomains="a,b,c"
@@ -114,7 +114,7 @@ In **Example 4** you can examine a sample setup of a **RadMap** with a Bing laye
 >caption **Example 4**: Using Bing service for map layer
 
 ````ASP.NET
-<telerik:RadMap runat="server" ID="RadMap1">
+<telerik:RadMap RenderMode="Lightweight" runat="server" ID="RadMap1">
 	<LayersCollection>
 		<telerik:MapLayer Type="Bing"
 			Key="SET A VALID KEY PROVIDED BY MICROSOFT">

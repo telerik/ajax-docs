@@ -26,7 +26,7 @@ And here is the code of a simple demo:
 
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" runat="server" AutoGenerateColumns="False">
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" AutoGenerateColumns="False">
   <MasterTableView DataKeyNames="CustomerID" Width="100%">
     <DetailTables>
       <telerik:GridTableView DataKeyNames="OrderID" DataMember="Orders" Width="100%">

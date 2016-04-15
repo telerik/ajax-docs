@@ -37,7 +37,7 @@ You can also control the displaying of the Design, Html and Preview buttons by u
 >caption Example 1: Display only the Design and Preview modes (configure the editor inline or in the code behind):
 
 ````ASP.NET
-<telerik:RadEditor runat="server" ID="RadEditor1" EditModes="Design,Preview">
+<telerik:RadEditor RenderMode="Lightweight" runat="server" ID="RadEditor1" EditModes="Design,Preview">
 </telerik:RadEditor>
 ````
 
@@ -53,7 +53,7 @@ RadEditor1.EditModes = EditModes.Design Or EditModes.Preview
 >caption Example 2: Display the Html mode only (configure the editor inline or in the code-behind):
 
 ````ASP.NET
-<telerik:RadEditor runat="server" ID="RadEditor1" EditModes="Html">
+<telerik:RadEditor RenderMode="Lightweight" runat="server" ID="RadEditor1" EditModes="Html">
 </telerik:RadEditor>
 ````
 

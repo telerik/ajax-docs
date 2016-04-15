@@ -24,7 +24,7 @@ A number of properties let you control the look and feel of the **RadTimePicker*
 Here is an example using the **ImagesPath** property:
 
 ````ASPNET
-<telerik:RadTimePicker EnableEmbeddedSkins="false" ImagesPath="~/Images" ID="RadTimePicker1" runat="server">
+<telerik:RadTimePicker RenderMode="Lightweight" EnableEmbeddedSkins="false" ImagesPath="~/Images" ID="RadTimePicker1" runat="server">
 </telerik:RadTimePicker>
 ````
 
@@ -46,7 +46,7 @@ In order to change the duration of the animation, use the **HideAnimation-Durati
 Following are some sample configurations:
 
 ````ASPNET
-<telerik:RadTimePicker ID="RadTimePicker1" runat="server">
+<telerik:RadTimePicker RenderMode="Lightweight" ID="RadTimePicker1" runat="server">
     <HideAnimation Duration="4444" />
     <ShowAnimation Duration="1111" />
 </telerik:RadTimePicker>	

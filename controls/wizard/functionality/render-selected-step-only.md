@@ -21,7 +21,7 @@ When a large amount of data and HTML is loaded in each RadWizardStep, setting th
 **Example 1** demonstrates how to enable this option by setting the **RenderedSteps** to **Active**.
 
 ````ASPNET
-<telerik:RadWizard ID="RadWizard7" runat="server" RenderedSteps="Active">
+<telerik:RadWizard RenderMode="Lightweight" ID="RadWizard7" runat="server" RenderedSteps="Active">
 	<WizardSteps>
 		<telerik:RadWizardStep ID="RadGridStep" runat="server" StepType="Step">
 			<uc:radgridsusercontrolcs runat="server" id="RadGridsUserControlCS" />

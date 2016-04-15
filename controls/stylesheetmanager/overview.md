@@ -198,7 +198,7 @@ If the stylesheet combination is not needed for some reason (e.g. debugging) it 
 * Test the page by adding RadComboBox with Skin="Telerik" and **EnableEmbeddedSkins="False"**. The expected result is that the Telerik skin is successfully applied to RadCombobBox.
 
 	````ASPNET
-	<telerik:RadComboBox ID="RadComboBox1" Skin="Telerik" EnableEmbeddedSkins="False"
+	<telerik:RadComboBox RenderMode="Lightweight" ID="RadComboBox1" Skin="Telerik" EnableEmbeddedSkins="False"
 		runat="server">
 	````
 

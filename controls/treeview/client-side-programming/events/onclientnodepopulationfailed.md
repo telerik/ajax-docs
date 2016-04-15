@@ -39,7 +39,7 @@ The event handler receives parameters:
 In the example below an exception is raised in the server-side [NodeExpand]({%slug treeview/server-side-programming/events/nodeexpand%}) event handler
 
 ````ASPNET
-<telerik:RadTreeView ID="RadTreeView1" runat="server" OnClientNodePopulationFailed="ClientNodePopulationFailed"
+<telerik:RadTreeView RenderMode="Lightweight" ID="RadTreeView1" runat="server" OnClientNodePopulationFailed="ClientNodePopulationFailed"
     OnNodeExpand="RadTreeView1_NodeExpand">
     <Nodes>
         <telerik:RadTreeNode runat="server" ExpandMode="ClientSide" Text="Search" ImageUrl="~/images/search.ico"

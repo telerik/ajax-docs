@@ -24,7 +24,7 @@ The Banners are the perfect tool in cases when you want to display your company 
 You can define your own custom Banners by adding **MediaPlayerBanner** elements within the **RadMediaPlayer.Banners** collection.
 
 ````ASP.NET
-<telerik:RadMediaPlayer ID="RadMediaPlayer1" runat="server"
+<telerik:RadMediaPlayer RenderMode="Lightweight" ID="RadMediaPlayer1" runat="server"
    Title="Take a Tour of the Telerik Platform"
    Height="360px" Width="640px"
    Source="http://www.youtube.com/watch?v=rLtTuFbuf1c">

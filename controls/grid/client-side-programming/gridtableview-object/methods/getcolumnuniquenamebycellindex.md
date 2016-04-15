@@ -31,7 +31,7 @@ Method which returns the UniqueName of the column by given **header row** elemen
         alert(masterTableView.getColumnUniqueNameByCellIndex(headerRow, cellIndex));
     }
 </script>
-<telerik:RadGrid ID="RadGrid3" runat="server" AllowPaging="true" AllowSorting="true" OnItemCommand="RadGrid3_ItemCommand"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid3" runat="server" AllowPaging="true" AllowSorting="true" OnItemCommand="RadGrid3_ItemCommand"
     AllowFilteringByColumn="true" PageSize="5">
     <MasterTableView ClientDataKeyNames="ProductID" CommandItemDisplay="Top">
         <Columns>

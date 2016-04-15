@@ -33,7 +33,7 @@ The **ItemDataBound** event handler receives two arguments:
 Use the **ItemDataBound** event handler to make changes to items as they are bound to the data. For example, you can set custom attributes based on other fields in the DataItem:
 
 ````ASPNET
-<telerik:RadDropDownList ID="RadDropDownList1"
+<telerik:RadDropDownList RenderMode="Lightweight" ID="RadDropDownList1"
 	 runat="server"
 	 AutoPostBack="true"
 	 OnItemDataBound="RadDropDownList1_ItemDataBound">

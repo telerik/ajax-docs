@@ -82,10 +82,10 @@ Here follows the code used to achieve this:
             </telerik:AjaxSetting>
         </AjaxSettings>
 </telerik:RadAjaxManager>
-<telerik:RadSplitter runat="server" ID="RadSplitter1" Height="552px" Width="880px"
+<telerik:RadSplitter RenderMode="Lightweight" runat="server" ID="RadSplitter1" Height="552px" Width="880px"
     CssClass="exampleContainer" Orientation="Horizontal" Skin="Office2007">
     <telerik:RadPane runat="server" ID="TopPane" Height="400px" Scrolling="None">
-        <telerik:RadScheduler ID="RadScheduler1" runat="server" Skin="Office2007" Height="100%" Width="100%"
+        <telerik:RadScheduler RenderMode="Lightweight" ID="RadScheduler1" runat="server" Skin="Office2007" Height="100%" Width="100%"
          RowHeaderWidth="52" OverflowBehavior="Scroll" ShowFooter="false"
          DataSourceID="SchedulerDataSource" DataKeyField="AppointmentID" DataStartField="Start" DataEndField="End"
          DataSubjectField="Subject" CustomAttributeNames="Due, Priority" RowHeight="37px"
@@ -107,7 +107,7 @@ Here follows the code used to achieve this:
             border-right: 1px solid #6593CF;">
             <img src="images/tasks.gif" alt="" /></div>
         <div style="margin-left: 56px; border: none;">
-            <telerik:RadGrid runat="server" ID="RadGrid1" DataSourceID="GridDataSource" GridLines="None"
+            <telerik:RadGrid RenderMode="Lightweight" runat="server" ID="RadGrid1" DataSourceID="GridDataSource" GridLines="None"
                 AutoGenerateColumns="False" OnRowDrop="RadGrid1_RowDrop" Skin="Office2007" Style="border: none;
                 outline: 0" Height="100%" AllowAutomaticInserts="True" AllowAutomaticUpdates="true"
                 ShowFooter="true" OnItemCreated="RadGrid1_ItemCreated" OnItemCommand="RadGrid1_ItemCommand"
@@ -141,7 +141,7 @@ Here follows the code used to achieve this:
                                     <asp:Label runat="Server" ID="Label2" Text='<%#Bind("Priority") %>'></asp:Label>
                                 </ItemTemplate>
                                 <EditItemTemplate>
-                                    <telerik:RadComboBox runat="server" ID="priorityComboBox" SelectedValue='<%#Bind("Priority") %>' Skin="Office2007" Width="80px">
+                                    <telerik:RadComboBox RenderMode="Lightweight" runat="server" ID="priorityComboBox" SelectedValue='<%#Bind("Priority") %>' Skin="Office2007" Width="80px">
                                         <Items>
                                             <telerik:RadComboBoxItem Text="High" Value="High" />
                                             <telerik:RadComboBoxItem Text="Medium" Value="Medium" />

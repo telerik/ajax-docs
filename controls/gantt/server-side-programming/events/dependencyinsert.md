@@ -21,7 +21,7 @@ The **RadGantt DependencyInsert** is fired when a [dependency's]({%slug gantt/st
 ## Example
 
 ````ASP.NET
-<telerik:RadGantt ID="RadGantt1" runat="server" OnDependencyInsert="RadGantt1_DependencyInsert"></telerik:RadGantt>
+<telerik:RadGantt RenderMode="Lightweight" ID="RadGantt1" runat="server" OnDependencyInsert="RadGantt1_DependencyInsert"></telerik:RadGantt>
 ````
 
 ````C#

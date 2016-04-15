@@ -18,7 +18,7 @@ Upload files larger than 4096 kilobytes using Telerik RadEditor
 
 	**ASP.NET**
 
-		<telerik:RadEditor ID="RadEditor1" runat="server">
+		<telerik:RadEditor RenderMode="Lightweight" ID="RadEditor1" runat="server">
 			<ImageManager ViewPaths="~/Images" UploadPaths="~/Images" MaxUploadFileSize="7100000" />
 		</telerik:RadEditor>
 

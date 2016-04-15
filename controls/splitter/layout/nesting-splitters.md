@@ -19,12 +19,12 @@ By default, the nested splitters are resized when the panes that contain them ar
 The following layout nests a splitter with a horizontal split bars inside a splitter with vertical split bars:
 
 ````ASP.NET	 
-<telerik:RadSplitter runat="server" id="RadSplitter1"
+<telerik:RadSplitter RenderMode="Lightweight" runat="server" id="RadSplitter1"
    Orientation="Vertical" width="400px" height="300px">
  <telerik:RadPane runat="server" id="LeftPane">Left pane</telerik:RadPane>
  <telerik:RadSplitBar runat="server" id="RadSplitBar1" />
  <telerik:RadPane runat="server" id="MiddlePane">
-   <telerik:RadSplitter runat="server" id="InnerSplitter" Orientation="Horizontal">
+   <telerik:RadSplitter RenderMode="Lightweight" runat="server" id="InnerSplitter" Orientation="Horizontal">
 	 <telerik:RadPane runat="server" id="TopPane">Top Pane</telerik:RadPane>
 	 <telerik:RadSplitBar runat="server" id="RadSplitBar2" />
 	 <telerik:RadPane runat="server" id="BottomPane">Bottom Pane</telerik:RadPane>

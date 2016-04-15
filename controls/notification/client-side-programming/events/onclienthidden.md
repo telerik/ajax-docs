@@ -22,7 +22,7 @@ The event handler receives the following parameters:
 1. Event arguments object.
 
 ````ASP.NET
-<telerik:RadNotification runat="server" ID="RadNotification1" VisibleOnPageLoad="true"
+<telerik:RadNotification RenderMode="Lightweight" runat="server" ID="RadNotification1" VisibleOnPageLoad="true"
     Position="BottomRight" Width="250px" Height="100px"
     OnClientHidden="OnClientHidden" Text="Sample notification text">
 </telerik:RadNotification>

@@ -21,7 +21,7 @@ In order to get a custom position for a modal RadWindow the **CenterIfModal** pr
 The **CenterIfModal** property is available and setting it to false will have the RadWindow honor the Left and Top. Its default value is true to preserve the original behavior of the control.
 
 ````ASP.NET
-<telerik:RadWindow ID="RadWindow1" runat="server" CenterIfModal="false" Left="20"
+<telerik:RadWindow RenderMode="Lightweight" ID="RadWindow1" runat="server" CenterIfModal="false" Left="20"
 	Top="20" Modal="true" VisibleOnPageLoad="true">
 </telerik:RadWindow>
 ````
@@ -31,7 +31,7 @@ The **CenterIfModal** property is available and setting it to false will have th
 The following example shows how the Left and Top properties can be retrieved and the RadWindow moved after it shows:
 
 ````ASP.NET
-<telerik:RadWindow runat="server" ID="RadWindow1" Modal="true" OnClientShow="setCustomPosition"
+<telerik:RadWindow RenderMode="Lightweight" runat="server" ID="RadWindow1" Modal="true" OnClientShow="setCustomPosition"
 	Left="10px" Top="10px">
 </telerik:RadWindow>
 <asp:Button ID="Button6" Text="text" runat="server" />

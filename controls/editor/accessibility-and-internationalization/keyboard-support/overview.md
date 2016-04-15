@@ -55,7 +55,7 @@ RadEditor for ASP.NET AJAX is a fully keyboard navigable component. This include
 You can assign a shortcut to all editor's buttons and dropdowns by using the **ShortCut** attribute of the inner telerik:EditorTool tag of the RadEditor:
 
 ````ASP.NET
-<telerik:RadEditor ID="RadEditor1" runat="server">
+<telerik:RadEditor RenderMode="Lightweight" ID="RadEditor1" runat="server">
 	<Tools>
 		<telerik:EditorToolGroup>
 			<telerik:EditorTool Name="Cut" ShortCut="Ctrl+X" />

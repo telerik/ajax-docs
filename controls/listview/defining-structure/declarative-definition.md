@@ -33,7 +33,7 @@ To help with determining the layout of the control, there are a number of templa
 A typical declaration for the *ListView* control will look like this:
 
 ````ASP.NET
-<telerik:RadFormDecorator ID="RadFormDecorator1" runat="server" />
+<telerik:RadFormDecorator RenderMode="Lightweight" ID="RadFormDecorator1" runat="server" />
 <telerik:RadAjaxLoadingPanel ID="RadAjaxLoadingPanel1" runat="server" />
 <telerik:RadAjaxPanel runat="server" ID="Panel1" LoadingPanelID="RadAjaxLoadingPanel1">
     <fieldset>
@@ -61,7 +61,7 @@ A typical declaration for the *ListView* control will look like this:
                     <tr runat="server" id="itemPlaceholder" />
                 </table>
                 <fieldset style="text-align: center; background-color: #D9DFDF;">
-                    <telerik:RadDataPager ID="RadDataPager1" runat="server" PagedControlID="TelerikListView1"
+                    <telerik:RadDataPager RenderMode="Lightweight" ID="RadDataPager1" runat="server" PagedControlID="TelerikListView1"
                         PageSize="7">
                         <Fields>
                             <telerik:RadDataPagerButtonField FieldType="FirstPrev" ButtonType="PushButton" />

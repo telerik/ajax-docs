@@ -28,7 +28,7 @@ The following example illustrates how you can customize the formatting of the gr
 
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1" OnItemDataBound="RadGrid1_ItemDataBound">
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1" OnItemDataBound="RadGrid1_ItemDataBound">
   <MasterTableView DataSourceID="SqlDataSource1">
     <GroupByExpressions>
       <telerik:GridGroupByExpression>

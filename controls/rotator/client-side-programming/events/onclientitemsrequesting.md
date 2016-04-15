@@ -35,7 +35,7 @@ This event can be used for executing custom code before the items of the RadRota
 		eventArgs.set_argument("value");
 	}
 </script>
-<telerik:RadRotator ID="RadRotator1" runat="server" Width="220px" Height="135px"
+<telerik:RadRotator RenderMode="Lightweight" ID="RadRotator1" runat="server" Width="220px" Height="135px"
 	ItemHeight="135" ItemWidth="110" CssClass="positionCenter" ScrollDuration="500"
 	OnClientItemsRequesting="OnClientItemsRequesting">
 	<WebServiceSettings Path="RotatorWebService.asmx" Method="GetRotatorData" />

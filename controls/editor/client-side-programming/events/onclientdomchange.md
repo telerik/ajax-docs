@@ -59,7 +59,7 @@ Tools supporting the OnClientDomChange event:
 		}
 	}
 </script>
-<telerik:RadEditor runat="server" OnClientDomChange="OnClientDomChange" ID="RadEditor1"></telerik:RadRditor>
+<telerik:RadEditor RenderMode="Lightweight" runat="server" OnClientDomChange="OnClientDomChange" ID="RadEditor1"></telerik:RadRditor>
 </telerik:RadEditor>
 ````
 

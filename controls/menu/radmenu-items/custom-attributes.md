@@ -19,7 +19,7 @@ position: 1
 In the ASP.NET declaration of your **RadMenu** object, you can add custom attributes to menu items by simply adding Name="value" to the **RadMenuItem** declaration. For example, the following RadMenu definition adds a "State" custom attribute to its non-root menu items:
 
 ````ASP.NET
-<telerik:RadMenu ID="RadMenu1" runat="server" Skin="Office2007" Width="54px" OnClientItemClicked="ToggleCheck"
+<telerik:RadMenu RenderMode="Lightweight" ID="RadMenu1" runat="server" Skin="Office2007" Width="54px" OnClientItemClicked="ToggleCheck"
     CssClass="qsfexMenu" OnClientItemOpening="ApplyChildrenImages">
     <Items>
         <telerik:RadMenuItem Text="Format">

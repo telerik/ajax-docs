@@ -38,7 +38,7 @@ Use the **OnButtonClick** event to provide a client-side response when the user 
 
 
 ````ASPNET
-<telerik:RadNumericTextBox ID="RadNumericTextBox1" runat="server" ShowButton="True">
+<telerik:RadNumericTextBox RenderMode="Lightweight" ID="RadNumericTextBox1" runat="server" ShowButton="True">
 	<ClientEvents OnButtonClick="ToggleEnabled" />
 </telerik:RadNumericTextBox>
 ````

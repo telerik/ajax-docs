@@ -76,7 +76,7 @@ Below are the code snippets of an example in which we add **RequiredFieldValidat
 
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" runat="server" AutoGenerateColumns="False">
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" AutoGenerateColumns="False">
   <MasterTableView>
     <Columns>
       <telerik:GridBoundColumn UniqueName="ContactName" HeaderText="ContactName" DataField="ContactName">
@@ -126,7 +126,7 @@ End Sub
 
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" runat="server" AutoGenerateColumns="False">
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" AutoGenerateColumns="False">
   <MasterTableView>
     <Columns>
       <telerik:GridBoundColumn UniqueName="ContactName" HeaderText="ContactName" DataField="ContactName">
@@ -175,7 +175,7 @@ End Sub
 The approach is the same as with the standard MS DataGrid control. You can place the respective validator in the **EditItemTemplate** of your **GridTemplateColumn** and relate its **ControlToValidate** property with the ID of the control you would like to validate. In the forthcoming sample the **RequiredFieldValidator** control will validate the **TextBox** control inside the **EditItemTemplate**:
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" runat="server">
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server">
   <MasterTableView AutoGenerateColumns="False">
     <Columns>
       <telerik:GridTemplateColumn HeaderText="ContactName" UniqueName="TemplateColumn">

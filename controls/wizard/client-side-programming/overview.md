@@ -57,15 +57,15 @@ Several client side events occur immediately before the wizard performs some act
 	}
 </script>
 
-<telerik:RadWizard ID="RadWizard2" runat="server" OnClientButtonClicking="OnClientButtonClicking">
+<telerik:RadWizard RenderMode="Lightweight" ID="RadWizard2" runat="server" OnClientButtonClicking="OnClientButtonClicking">
 	<WizardSteps>
 		<telerik:RadWizardStep Title="Step1">
-			<telerik:RadTextBox ID="RadTextBox5" runat="server"></telerik:RadTextBox>
-			<telerik:RadTextBox ID="RadTextBox6" runat="server"></telerik:RadTextBox>
+			<telerik:RadTextBox RenderMode="Lightweight" ID="RadTextBox5" runat="server"></telerik:RadTextBox>
+			<telerik:RadTextBox RenderMode="Lightweight" ID="RadTextBox6" runat="server"></telerik:RadTextBox>
 		</telerik:RadWizardStep>
 		<telerik:RadWizardStep Title="Step2">
-			<telerik:RadTextBox ID="RadTextBox7" runat="server"></telerik:RadTextBox>
-			<telerik:RadTextBox ID="RadTextBox8" runat="server"></telerik:RadTextBox>
+			<telerik:RadTextBox RenderMode="Lightweight" ID="RadTextBox7" runat="server"></telerik:RadTextBox>
+			<telerik:RadTextBox RenderMode="Lightweight" ID="RadTextBox8" runat="server"></telerik:RadTextBox>
 		</telerik:RadWizardStep>
 	</WizardSteps>
 </telerik:RadWizard>

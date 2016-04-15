@@ -41,7 +41,7 @@ When a pane starts out as collapsed, the adjacent split bar shows an expand butt
 The following example demonstrates how to set the **CollapseMode** property of the **RadSplitBar** controls and the **Collapsed** property of the **RadPane** controls:
 
 ````ASP.NET	 
-<telerik:RadSplitter runat="server" id="RadSplitter1">
+<telerik:RadSplitter RenderMode="Lightweight" runat="server" id="RadSplitter1">
  <telerik:RadPane ID="RadPane1" runat="server" >
 	Left Pane
  </telerik:RadPane>

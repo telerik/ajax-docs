@@ -143,7 +143,7 @@ Since the creation of the **RadEditor** control, building a [Custom Content Filt
 
 
 ````ASP.NET
-<telerik:RadEditor runat="server" ID="RadEditor1" OnClientLoad="OnClientLoad">
+<telerik:RadEditor RenderMode="Lightweight" runat="server" ID="RadEditor1" OnClientLoad="OnClientLoad">
 </telerik:RadEditor>
 
 <script type="text/javascript">

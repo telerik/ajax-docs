@@ -22,7 +22,7 @@ The **RadFormDecorator** fully supports right-to-left (RTL) language locales. It
 ````
 
 ````ASP.NET
-<telerik:RadFormDecorator id="FormDecorator1" runat="server" DecoratedControls="all"
+<telerik:RadFormDecorator RenderMode="Lightweight" id="FormDecorator1" runat="server" DecoratedControls="all"
 	Skin="Default" DecorationZoneID="Rtl1">
 </telerik:RadFormDecorator>
 <div dir="rtl" id="Rtl1">

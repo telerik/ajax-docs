@@ -17,7 +17,7 @@ position: 13
 Returns the parent of type **Telerik.Web.UI.RadGrid** of the current object. Can be used to identify the owner grid object of the table view.
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="True"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" AllowPaging="True"
     OnNeedDataSource="RadGrid1_NeedDataSource">
     <MasterTableView DataKeyNames="OrderID">
         <Columns>
@@ -29,7 +29,7 @@ Returns the parent of type **Telerik.Web.UI.RadGrid** of the current object. Can
                         onchange='<%# "textBoxChange(this, event,"+Container.ItemIndex+",\""
                     +Container.OwnerTableView.ClientID+"\");" %>'>
                     </asp:TextBox>
-                    <telerik:RadTextBox ID="RadTextBox1" runat="server" Text='<%# Eval("ShipCountry") %>'
+                    <telerik:RadTextBox RenderMode="Lightweight" ID="RadTextBox1" runat="server" Text='<%# Eval("ShipCountry") %>'
                         ClientEvents-OnValueChanged='<%# "function(s,a){valueChanged(s,a,"+
                     Container.ItemIndex+",\""+Container.OwnerTableView.ClientID+"\");}" %>'>
                     </telerik:RadTextBox>

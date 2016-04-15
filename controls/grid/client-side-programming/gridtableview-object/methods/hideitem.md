@@ -23,7 +23,7 @@ This method allows you to hide the **GridDataItem** from the grid. The method ac
          alert("The first row is hidden.");
      }
 </script>
-<telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="true" AllowSorting="true"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" AllowPaging="true" AllowSorting="true"
     AllowFilteringByColumn="true" PageSize="5">
     <MasterTableView ClientDataKeyNames="ProductID" CommandItemDisplay="Top">
         <Columns>

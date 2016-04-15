@@ -131,7 +131,7 @@ Below is a code extraction from the [ relevant online demo ](http://demos.teleri
      Drop a shipped order over the recycle bin to delete it</p>
      <div style="float:left; padding:0 6px 0 10px">
          <h2 style="color:#9c3608">Pending Orders</h2>
-         <telerik:RadGrid runat="server" ID="grdPendingOrders" Skin="Silk" OnNeedDataSource="grdPendingOrders_NeedDataSource"
+         <telerik:RadGrid RenderMode="Lightweight" runat="server" ID="grdPendingOrders" Skin="Silk" OnNeedDataSource="grdPendingOrders_NeedDataSource"
              AllowPaging="True" Width="350px" OnRowDrop="grdPendingOrders_RowDrop"
              AllowMultiRowSelection="true">
              <MasterTableView DataKeyNames="OrderId">
@@ -144,7 +144,7 @@ Below is a code extraction from the [ relevant online demo ](http://demos.teleri
      </div>
      <div style="float:right; padding:0 10px 0 6px">
          <h2 style="color:#3c8b04">Shipped Orders</h2>
-         <telerik:RadGrid runat="server" AllowPaging="True" ID="grdShippedOrders" Skin="Silk"
+         <telerik:RadGrid RenderMode="Lightweight" runat="server" AllowPaging="True" ID="grdShippedOrders" Skin="Silk"
               OnNeedDataSource="grdShippedOrders_NeedDataSource" Width="350px"
               OnRowDrop="grdShippedOrders_RowDrop" AllowMultiRowSelection="false">
              <MasterTableView DataKeyNames="OrderId">

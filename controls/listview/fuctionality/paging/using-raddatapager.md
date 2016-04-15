@@ -46,7 +46,7 @@ The following example shows a RadDataPager in the LayoutTemplate of a RadListVie
             <table cellpadding="0" cellspacing="0" width="100%">
                 <tr>
                     <td>
-                        <telerik:RadDataPager ID="RadDataPager1" runat="server" PagedControlID="RadListView1"
+                        <telerik:RadDataPager RenderMode="Lightweight" ID="RadDataPager1" runat="server" PagedControlID="RadListView1"
                             PageSize="6">
                             <Fields>
                                 <telerik:RadDataPagerButtonField FieldType="FirstPrev" />

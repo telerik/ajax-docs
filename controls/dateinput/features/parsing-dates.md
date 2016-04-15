@@ -104,7 +104,7 @@ The following example demonstrates how you could use **ValueChanging** client si
 		}
 	}
 </script>
-<telerik:RadDatePicker ID="RadDatePicker1" runat="server">
+<telerik:RadDatePicker RenderMode="Lightweight" ID="RadDatePicker1" runat="server">
 	<DateInput>
 		<ClientEvents OnValueChanging="valueChanging" />
 	</DateInput>

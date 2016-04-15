@@ -66,7 +66,7 @@ To use these events, simply write a javascript function that can be called when 
         } 
     }
 </script>
-<telerik:RadMenu ID="RadMenu1" runat="server" OnClientItemClicking="onClicking">
+<telerik:RadMenu RenderMode="Lightweight" ID="RadMenu1" runat="server" OnClientItemClicking="onClicking">
 ...
 </telerik:RadMenu>
 ````

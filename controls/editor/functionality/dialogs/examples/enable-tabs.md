@@ -21,7 +21,7 @@ Enable **Upload Image** tab of the [Image Manager]({%slug editor/functionality/d
 To use the Upload tab of the image dialog you would need to set two properties: **ImageManager.ViewPaths** and **ImageManager.UploadPaths**. These properties should point to the folders where the files will reside on the server. Here's an example that assumes you have a "mypics" and "mypics/upload" directories in your web application root folder:
 
 ````ASP.NET
-<telerik:RadEditor runat="server" ID="RadEditor1">
+<telerik:RadEditor RenderMode="Lightweight" runat="server" ID="RadEditor1">
 	<ImageManager ViewPaths="~/mypics" UploadPaths="~/mypics/upload" />
 </telerik:RadEditor>
 ````

@@ -20,16 +20,16 @@ The **RadButton** fully supports right-to-left (RTL) language locales (**Figure 
 
 ````ASP.NET
 <div dir="rtl">
-	<telerik:RadButton runat="server" ID="RadButton1" Text="Push Button 1">
+	<telerik:RadButton RenderMode="Lightweight" runat="server" ID="RadButton1" Text="Push Button 1">
 		<Icon SecondaryIconCssClass="rbUpload" SecondaryIconRight="10" SecondaryIconTop="3" />
 	</telerik:RadButton>
 	<br />
 	<br />
-	<telerik:RadButton runat="server" ID="RadButton2" Text="Link Button 1" ButtonType="LinkButton">
+	<telerik:RadButton RenderMode="Lightweight" runat="server" ID="RadButton2" Text="Link Button 1" ButtonType="LinkButton">
 	</telerik:RadButton>
 	<br />
 	<br />
-	<telerik:RadButton ID="BuiltinIconsButton2" runat="server" ButtonType="StandardButton"
+	<telerik:RadButton RenderMode="Lightweight" ID="BuiltinIconsButton2" runat="server" ButtonType="StandardButton"
 		ToggleType="CustomToggle" AutoPostBack="false">
 		<ToggleStates>
 			<telerik:RadButtonToggleState SecondaryIconCssClass="rbOk" Text="OK" />

@@ -25,7 +25,7 @@ The following below demonstrates spell checking a standard TextBox when the page
 <telerik:SpellCheckValidator ID="SpellCheckValidator1" runat="server" ControlToValidate="RadSpell1"
    ErrorMessage="Please spellcheck first!" Display="Dynamic"></telerik:SpellCheckValidator>
 <asp:Button ID="Button1" runat="server" Text="Submit Page" OnClick="Button1_Click" />
-<telerik:RadSpell ID="RadSpell1" runat="server" ButtonType="PushButton" ControlToCheck="TextBox1" />
+<telerik:RadSpell RenderMode="Lightweight" ID="RadSpell1" runat="server" ButtonType="PushButton" ControlToCheck="TextBox1" />
 <br />
 <asp:ValidationSummary ID="ValidationSummary1" runat="server" /> 
 ````

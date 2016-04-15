@@ -39,7 +39,7 @@ You can also use the **RadProgressBar** in percent mode as a label which shows t
 >caption Example 1: Configure RadProgressBar in Percent mode.
 
 ````ASP.NET
-<telerik:RadProgressBar runat="server" ID="RadProgressBar1" BarType="Percent" Width="300" ShowStatus="true" Skin="WebBlue"
+<telerik:RadProgressBar RenderMode="Lightweight" runat="server" ID="RadProgressBar1" BarType="Percent" Width="300" ShowStatus="true" Skin="WebBlue"
 	MaxValue="100" Value="35" >
 </telerik:RadProgressBar>
 ````
@@ -57,7 +57,7 @@ The progress bar in **Value** mode (**Figure 2**) is similar to the Percent bar 
 >caption Example 2: Configure **RadProgressBar** in **Value** mode.
 
 ````ASP.NET
-<telerik:RadProgressBar runat="server" ID="RadProgressBar2" BarType="Value" Width="300" ShowStatus="true"
+<telerik:RadProgressBar RenderMode="Lightweight" runat="server" ID="RadProgressBar2" BarType="Value" Width="300" ShowStatus="true"
 	MaxValue="10" Value="6" Skin="Silk">
 </telerik:RadProgressBar>
 ````
@@ -77,7 +77,7 @@ The progress bar in **Chunk** mode (**Figure 3**) is divided in equal pieces (ch
 >caption Example 3: Configure RadProgressBar in Chunk mode.
 
 ````ASP.NET
-<telerik:RadProgressBar runat="server" ID="RadProgressBar3" BarType="Chunk" Width="300" ChunksCount="5" MaxValue="5" Value="2" Skin="WebBlue">
+<telerik:RadProgressBar RenderMode="Lightweight" runat="server" ID="RadProgressBar3" BarType="Chunk" Width="300" ChunksCount="5" MaxValue="5" Value="2" Skin="WebBlue">
 </telerik:RadProgressBar>
 ````
 
@@ -100,7 +100,7 @@ There are two possible ways to make a **RadProgressBar** indeterminate:
 >caption Example 3: Configure RadProgressBar in Indeterminate mode in the mark-up.
 
 ````ASP.NET
-<telerik:RadProgressBar runat="server" ID="RadProgressBar4" Indeterminate="true">
+<telerik:RadProgressBar RenderMode="Lightweight" runat="server" ID="RadProgressBar4" Indeterminate="true">
 </telerik:RadProgressBar>
 ````
 
@@ -109,7 +109,7 @@ There are two possible ways to make a **RadProgressBar** indeterminate:
 >caption Example 4: Configure RadProgressBar in Indeterminate mode with JavaScript.
 
 ````ASP.NET
-<telerik:RadProgressBar runat="server" ID="RadProgressBar5" BarType="Percent" Value="35">
+<telerik:RadProgressBar RenderMode="Lightweight" runat="server" ID="RadProgressBar5" BarType="Percent" Value="35">
 </telerik:RadProgressBar>
 <script>
 	Sys.Application.add_load(

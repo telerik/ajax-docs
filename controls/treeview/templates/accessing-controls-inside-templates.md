@@ -19,10 +19,10 @@ If your **RadTreeView** has Nodes with Templates that have embedded controls, yo
 For example, consider the following, very simple TreeView:
 
 ````ASPNET
-<telerik:RadTreeView ID="RadTreeView1" runat="server">
+<telerik:RadTreeView RenderMode="Lightweight" ID="RadTreeView1" runat="server">
     <NodeTemplate>
         <div>
-            <telerik:RadDatePicker ID="RadDatePicker1" runat="server">
+            <telerik:RadDatePicker RenderMode="Lightweight" ID="RadDatePicker1" runat="server">
             </telerik:RadDatePicker>
         </div>
     </NodeTemplate>

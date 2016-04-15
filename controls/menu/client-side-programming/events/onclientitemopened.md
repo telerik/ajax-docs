@@ -41,7 +41,7 @@ function ItemOpened(menu, args) {
 }
 </script>
 
-<telerik:RadMenu ID="RadMenu1" runat="server" Flow="Horizontal" OnClientItemOpened="ItemOpened">
+<telerik:RadMenu RenderMode="Lightweight" ID="RadMenu1" runat="server" Flow="Horizontal" OnClientItemOpened="ItemOpened">
     <Items>
         <telerik:RadMenuItem runat="server" ExpandMode="ClientSide" Text="Time">
             <Items>

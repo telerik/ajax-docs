@@ -41,7 +41,7 @@ Below follows and example of group header and footer templates usage.
 
 
 ````C#
-<telerik:RadGrid ID="RadGrid1" ShowGroupPanel="true" AutoGenerateColumns="false"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" ShowGroupPanel="true" AutoGenerateColumns="false"
     DataSourceID="SqlDataSource1" ShowFooter="True" runat="server" GridLines="None"
     AllowPaging="true" PageSize="7" Skin="Office2007" OnPreRender="RadGrid1_PreRender"
     GroupingSettings-RetainGroupFootersVisibility="true">
@@ -116,7 +116,7 @@ Below follows and example of group header and footer templates usage.
 </telerik:RadGrid>
 ````
 ````VB
-<telerik:RadGrid ID="RadGrid1" ShowGroupPanel="true" AutoGenerateColumns="false"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" ShowGroupPanel="true" AutoGenerateColumns="false"
     DataSourceID="SqlDataSource1" ShowFooter="True" runat="server" GridLines="None"
     AllowPaging="true" PageSize="7" Skin="Office2007" OnPreRender="RadGrid1_PreRender">
     <MasterTableView ShowGroupFooter="true">

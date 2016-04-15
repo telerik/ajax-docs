@@ -23,7 +23,7 @@ There are three common techniques for updating a grid row when the user edits it
 When using the second or third approach, you can refresh the grid content inside an **UpdateCommand** event handler. The following examples illustrate these techniques. They both use the same grid declaration:
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" runat="server" OnNeedDataSource="RadGrid1_NeedDataSource"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" OnNeedDataSource="RadGrid1_NeedDataSource"
   OnUpdateCommand="RadGrid1_UpdateCommand">
   <MasterTableView AutoGenerateColumns="False" DataKeyNames="OrderID">
     <Columns>

@@ -86,7 +86,7 @@ With the new Q1 2011 release, developers will be able to load skins from an exte
 
 	**ASP.NET**
 
-		<telerik:RadWindow 
+		<telerik:RadWindow RenderMode="Lightweight" 
 			ID="RadWindow1" 
 			runat="server" 
 			NavigateUrl="http://www.telerik.com"

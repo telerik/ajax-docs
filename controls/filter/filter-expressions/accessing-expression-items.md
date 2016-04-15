@@ -22,7 +22,7 @@ Below is a sample code implementation which demonstrates how you can manipulate 
 
 ````ASPNET
 <div class="filterDiv">
-    <telerik:RadFilter runat="server" ID="RadFilter1" FilterContainerID="RadGrid1" ShowApplyButton="true" 
+    <telerik:RadFilter RenderMode="Lightweight" runat="server" ID="RadFilter1" FilterContainerID="RadGrid1" ShowApplyButton="true" 
         OnExpressionItemCreated="RadFilter1_ExpressionItemCreated">
         <FieldEditors>
             <telerik:RadFilterDropDownEditor FieldName="ShipCountry" DataTextField="ShipCountry"
@@ -30,7 +30,7 @@ Below is a sample code implementation which demonstrates how you can manipulate 
         </FieldEditors>
     </telerik:RadFilter>
 </div>
-<telerik:RadGrid runat="server" ID="RadGrid1" AutoGenerateColumns="false" DataSourceID="SqlDataSource1"
+<telerik:RadGrid RenderMode="Lightweight" runat="server" ID="RadGrid1" AutoGenerateColumns="false" DataSourceID="SqlDataSource1"
     AllowPaging="true" AllowSorting="true" AllowFilteringByColumn="true">
     <MasterTableView IsFilterItemExpanded="false" CommandItemDisplay="Top">
         <Columns>

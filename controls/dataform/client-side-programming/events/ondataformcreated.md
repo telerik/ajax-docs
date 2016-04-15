@@ -25,7 +25,7 @@ Two parameters are passed to the event handler:
 The following example illustrates how you can handle the **OnDataFormCreated** event:
 
 ````ASPNET
- <telerik:RadDataForm runat="server" ID="RadDataForm1">
+ <telerik:RadDataForm RenderMode="Lightweight" runat="server" ID="RadDataForm1">
     <ClientSettings>
         <ClientEvents OnDataFormCreated="onDataFormCreated" />
     </ClientSettings>

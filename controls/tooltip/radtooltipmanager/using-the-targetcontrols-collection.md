@@ -21,7 +21,7 @@ The **TargetControls** collection specifies a list of IDs of server controls (or
 ## Declaratively On The Page
 
 ````ASP.NET
-<telerik:RadToolTipManager ID="RadToolTipManager1" runat="server" Skin="Web20">
+<telerik:RadToolTipManager RenderMode="Lightweight" ID="RadToolTipManager1" runat="server" Skin="Web20">
     <TargetControls>
         <telerik:ToolTipTargetControl IsClientID="False" TargetControlID="TextBox1" Value="ValueForTextBox1" />
         <telerik:ToolTipTargetControl IsClientID="False" TargetControlID="TextBox2" Value="ValueForTextBox2" />

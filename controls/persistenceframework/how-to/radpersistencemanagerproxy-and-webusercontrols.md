@@ -58,7 +58,7 @@ protected void Page_Load(object sender, EventArgs e)
 </telerik:RadPersistenceManagerProxy>
 <asp:Button Text="Save State" ID="Button1" OnClick="Button1_Click" runat="server" />
 <asp:Button Text="Load State" ID="Button2" OnClick="Button2_Click" runat="server" />
-<telerik:RadGrid ID="RadGrid1" runat="server" OnNeedDataSource="RadGrid1_NeedDataSource" AutoGenerateColumns="false" AllowSorting="true" AllowFilteringByColumn="true"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" OnNeedDataSource="RadGrid1_NeedDataSource" AutoGenerateColumns="false" AllowSorting="true" AllowFilteringByColumn="true"
     AllowPaging="true">
     <MasterTableView CommandItemDisplay="Top">
         <Columns>

@@ -22,7 +22,7 @@ html
 
 
 ````ASP.NET
-<telerik:RadWindow runat="server" Width="550" Title="RadWindow can be used in right-to-left scenarios"
+<telerik:RadWindow RenderMode="Lightweight" runat="server" Width="550" Title="RadWindow can be used in right-to-left scenarios"
 	Height="450px" VisibleOnPageLoad="true" NavigateUrl="http://www.bing.com/" Skin="Sunset"
 	ID="Radwindow1">
 </telerik:RadWindow>

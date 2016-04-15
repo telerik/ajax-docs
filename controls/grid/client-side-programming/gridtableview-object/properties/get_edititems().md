@@ -17,7 +17,7 @@ position: 7
 Property which retrieves the GridDataItem objects of the current table view that are in edit mode. Can be used to traversethe edit items in order to access the inner controls.
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="True" CellSpacing="0"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" AllowPaging="True" CellSpacing="0"
     GridLines="None" Width="1200px" OnNeedDataSource="RadGrid1_NeedDataSource"
     AutoGenerateEditColumn="true" AllowMultiRowEdit="true">
     <ClientSettings>
@@ -39,7 +39,7 @@ Property which retrieves the GridDataItem objects of the current table view that
                     <asp:Label ID="Label1" runat="server" Text="Test 1"></asp:Label>
                 </ItemTemplate>
                 <EditItemTemplate>
-                    <telerik:RadComboBox ID="RadComboBoxSharing" runat="server" DataSource='<%# (new string[] { "Coordinated", "Test 1", "Test 2"}) %>'
+                    <telerik:RadComboBox RenderMode="Lightweight" ID="RadComboBoxSharing" runat="server" DataSource='<%# (new string[] { "Coordinated", "Test 1", "Test 2"}) %>'
                         OnClientSelectedIndexChanged='<%# string.Format("function (s,a){{selectedIndexChanged(s,a,{0},\"{1}\");}}",
                                           Container.ItemIndex,Container.OwnerTableView.ClientID) %>'>
                     </telerik:RadComboBox>
@@ -69,7 +69,7 @@ Property which retrieves the GridDataItem objects of the current table view that
                 </ItemTemplate>
                 <EditItemTemplate>
                     <div style="width: 170px;">
-                        <telerik:RadTextBox ID="RadTextBoxIndefiniteSharing" runat="server"></telerik:RadTextBox>
+                        <telerik:RadTextBox RenderMode="Lightweight" ID="RadTextBoxIndefiniteSharing" runat="server"></telerik:RadTextBox>
                     </div>
                 </EditItemTemplate>
             </telerik:GridTemplateColumn>

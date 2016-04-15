@@ -57,7 +57,7 @@ The inline editing functionality is controlled by the **EditType** property of *
 >caption Example 1: Enabling RadEditor inline editing:
 
 ````ASP.NET
-<telerik:RadEditor ID="RadEditor1" runat="server" EditType="Inline">
+<telerik:RadEditor RenderMode="Lightweight" ID="RadEditor1" runat="server" EditType="Inline">
 	<Content>
 		<div style="width: 420px">
 			<h2 class="titleText">RadEditor for ASP.NET AJAX</h2>
@@ -92,7 +92,7 @@ By default, the toolbar shows with a fade-in animation when the editor is in inl
 >caption Example 2: Changing the animation settings of RadEditor in Inline edit mode on the server
 
 ````ASP.NET
-<telerik:RadEditor ID="RadEditor1" runat="server" EditType="Inline">
+<telerik:RadEditor RenderMode="Lightweight" ID="RadEditor1" runat="server" EditType="Inline">
 	<AnimationSettings>
 		<ToolbarAnimation Type="Fade" Duration="1000" />
 	</AnimationSettings>

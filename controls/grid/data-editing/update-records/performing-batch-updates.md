@@ -21,7 +21,7 @@ In the example below there is **UpdateAll** button in the grid command item temp
 
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" runat="server" AllowMultiRowEdit="True" DataSourceID="SqlDataSource1"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" AllowMultiRowEdit="True" DataSourceID="SqlDataSource1"
   OnItemCommand="RadGrid1_ItemCommand" OnItemDataBound="RadGrid1_ItemDataBound">
   <MasterTableView DataKeyNames="CustomerID" AutoGenerateColumns="false" EditMode="InPlace"
     CommandItemDisplay="TopAndBottom">
@@ -119,7 +119,7 @@ The following sample takes advantage of the editSelected() client side method, t
     }
 </script>
  
-  <telerik:RadGrid AllowMultiRowEdit="true"
+  <telerik:RadGrid RenderMode="Lightweight" AllowMultiRowEdit="true"
    AllowMultiRowSelection="true"
    ID="RadGrid1" OnNeedDataSource="RadGrid1_NeedDataSource" runat="server"
       OnItemCommand="RadGrid1_ItemCommand" >

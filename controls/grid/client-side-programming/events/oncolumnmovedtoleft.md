@@ -31,7 +31,7 @@ This event is fired after a column is moved left.
 Example:
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" runat="server">
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server">
     <ClientSettings>
         <ClientEvents OnColumnMouseOver="ColumnMouseOver" />
     </ClientSettings>

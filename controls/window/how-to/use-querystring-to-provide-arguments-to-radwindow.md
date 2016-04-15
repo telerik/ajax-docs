@@ -42,7 +42,7 @@ The main page which calls up the **RadWindow** dialog presents a grid with a lin
 <asp:AccessDataSource ID="DataSource1" DataFile="~/App_Data/Nwind.mdb" runat="server"
 	SelectCommand="SELECT TOP 10 [CompanyName], [CustomerID],
 	[ContactName], [Country] FROM [Customers]"></asp:AccessDataSource>
-<telerik:RadWindowManager ID="RadWindowManager1" Width="900px" Height="200px" runat="server">
+<telerik:RadWindowManager RenderMode="Lightweight" ID="RadWindowManager1" Width="900px" Height="200px" runat="server">
 </telerik:RadWindowManager>
 ````
 

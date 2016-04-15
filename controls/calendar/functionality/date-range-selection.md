@@ -25,7 +25,7 @@ On the client you could get the Start/End range dates by using the **radCalendar
 The below sample demonstrates the client-side methods usage:
 
 ````ASPNET
-<telerik:RadCalendar runat="server" ID="RadCalendar1" RangeSelectionMode="OnKeyHold" EnableViewSelector="true">
+<telerik:RadCalendar RenderMode="Lightweight" runat="server" ID="RadCalendar1" RangeSelectionMode="OnKeyHold" EnableViewSelector="true">
     <ClientEvents OnDateClick="onDateClick" />
 </telerik:RadCalendar>
 

@@ -29,7 +29,7 @@ The following example uses the **OnClientUndocking** event to show a confirmatio
 		eventArgs.set_cancel(!confirm("Are you sure you want to undock " + sender.get_title() + "?"));
 	}
 </script>
-<telerik:RadSplitter runat="server" id="RadSplitter1" Orientation="Horizontal" >
+<telerik:RadSplitter RenderMode="Lightweight" runat="server" id="RadSplitter1" Orientation="Horizontal" >
  <telerik:RadPane
 	 runat="server"
 	 id="RadPane1"

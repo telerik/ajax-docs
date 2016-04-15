@@ -31,7 +31,7 @@ The examples below takes an array of strings as a data source.
 ![Binding to an Array](images/dropdowntree_array.png)
 
 ````ASPNET
-<telerik:RadDropDownTree ID="RadDropDownTree1" runat="server" Width="250px" DefaultMessage="Select a car from the list">
+<telerik:RadDropDownTree RenderMode="Lightweight" ID="RadDropDownTree1" runat="server" Width="250px" DefaultMessage="Select a car from the list">
     <DropDownSettings Width="250px" />
 </telerik:RadDropDownTree>
 ````
@@ -88,7 +88,7 @@ Below you can find an example of a hierarchical data binding:
 ![Binding to an ArrayList](images/dropdowntree_arraylist.png)
 
 ````ASPNET
-<telerik:RadDropDownTree ID="RadDropDownTree1" runat="server" Width="350px" DefaultMessage="Select a car from the list">
+<telerik:RadDropDownTree RenderMode="Lightweight" ID="RadDropDownTree1" runat="server" Width="350px" DefaultMessage="Select a car from the list">
     <DropDownSettings Width="350px" />
 </telerik:RadDropDownTree>
 ````
@@ -231,7 +231,7 @@ End Class
 ![Binding to Generic List](images/dropdowntree_ienumerable.png)
 
 ````ASPNET
-<telerik:RadDropDownTree ID="RadDropDownTree1" runat="server" Width="350px" DefaultMessage="Select a product from the list">
+<telerik:RadDropDownTree RenderMode="Lightweight" ID="RadDropDownTree1" runat="server" Width="350px" DefaultMessage="Select a product from the list">
     <DropDownSettings Width="350px" />
 </telerik:RadDropDownTree>
 ````

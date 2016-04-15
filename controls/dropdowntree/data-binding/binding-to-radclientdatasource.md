@@ -40,7 +40,7 @@ The code snippet below shows sample configuration of RadDropDownTree bound to Ra
     <ClientEvents />
 </telerik:RadClientDataSource>
 
-<telerik:RadDropDownTree ID="RadDropDownTree1" runat="server" ClientDataSourceID="CD1" 
+<telerik:RadDropDownTree RenderMode="Lightweight" ID="RadDropDownTree1" runat="server" ClientDataSourceID="CD1" 
        DataFieldParentID="ParentID" DataFieldID="ID" DataTextField="Name" DataValueField="Value"></telerik:RadDropDownTree>
 ````
 

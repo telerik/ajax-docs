@@ -22,7 +22,7 @@ ToolStrips are useful dropdowns that contain a group of tools with related funct
 	}
 </style>
 ...
-<telerik:RadEditor runat="server" ID="RadEditor1">
+<telerik:RadEditor RenderMode="Lightweight" runat="server" ID="RadEditor1">
 	<Tools>
 		<telerik:EditorToolGroup>
 			<telerik:EditorToolStrip Name="MyToolStrip">

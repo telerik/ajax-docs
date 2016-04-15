@@ -43,7 +43,7 @@ Optionally, you can let users add sorting fields and rearrange the existing ones
 To allow users to change the grouping by dragging column headers, set the **ClientSettings.AllowDragToGroup** property to **True**. You can set this property at design time:
 
 ````ASP.NET
-<telerik:RadGrid runat="server" ... />
+<telerik:RadGrid RenderMode="Lightweight" runat="server" ... />
    <ClientSettings AllowDragToGroup="True"/>
    ...
 </telerik:RadGrid>

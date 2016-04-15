@@ -28,7 +28,7 @@ You can trigger the spellcheck on **Page_Load**, but you have to use a client-si
 	   <asp:ScriptManager ID="ScriptManager1" runat="server">
 	   </asp:ScriptManager>
 	   <asp:TextBox ID="TextBox1" runat="server" Text="baad speeleng"></asp:TextBox>
-	   <telerik:RadSpell ID="RadSpell1" runat="server" ControlToCheck="TextBox1" ButtonType="None"/>
+	   <telerik:RadSpell RenderMode="Lightweight" ID="RadSpell1" runat="server" ControlToCheck="TextBox1" ButtonType="None"/>
    </form>
 </body> 
 ````

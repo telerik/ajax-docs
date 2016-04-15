@@ -35,7 +35,7 @@ When RadDataPager contains a **RadDataPagerButtonField** you have the ability to
 * Last button: "LastButton"
 
 ````ASPNET
-<telerik:RadDataPager ID="RadDataPager1" PagedControlID="RadListView1" PageSize="2"
+<telerik:RadDataPager RenderMode="Lightweight" ID="RadDataPager1" PagedControlID="RadListView1" PageSize="2"
     runat="server">
     <Fields>
         <telerik:RadDataPagerButtonField FieldType="FirstPrev" FirstButtonText="First" PrevButtonText="Prev" />
@@ -78,7 +78,7 @@ The **ID** of the RadComboBox, when pager field is RadDataPagerPageSizeField, is
 * RadComboBox: "PageSizeComboBox"
 
 ````ASPNET
-<telerik:RadDataPager ID="RadDataPager1" PagedControlID="RadListView1" runat="server">
+<telerik:RadDataPager RenderMode="Lightweight" ID="RadDataPager1" PagedControlID="RadListView1" runat="server">
     <Fields>
         <telerik:RadDataPagerPageSizeField PageSizeText="PageSize: " />
     </Fields>
@@ -98,7 +98,7 @@ The **ID** of the RadSlider, when pager field is RadDataPagerSliderField, is sho
 * RadSlider: "PageSlider"
 
 ````ASPNET
-<telerik:RadDataPager ID="RadDataPager1" PagedControlID="RadListView1" runat="server">
+<telerik:RadDataPager RenderMode="Lightweight" ID="RadDataPager1" PagedControlID="RadListView1" runat="server">
     <Fields>
         <telerik:RadDataPagerSliderField SliderDecreaseText="Decrease" SliderDragText="Drag"
             SliderIncreaseText="Increase" SliderOrientation="Horizontal" />
@@ -121,7 +121,7 @@ The **ID's** of the RadNumericTextBox and the button in the RadDataPager control
 * Button: "GoToPageButton"
 
 ````ASPNET
-<telerik:RadDataPager ID="RadDataPager1" PagedControlID="RadListView1" PageSize="5"
+<telerik:RadDataPager RenderMode="Lightweight" ID="RadDataPager1" PagedControlID="RadListView1" PageSize="5"
     runat="server">
     <Fields>
         <telerik:RadDataPagerGoToPageField CurrentPageText="Page: " TotalPageText="of" SubmitButtonText="Go"
@@ -145,7 +145,7 @@ The **ID's** of the RadNumericTextBox and the button in the RadDataPager control
 * Button: "PageSizeButton"
 
 ````ASPNET
-<telerik:RadDataPager ID="RadDataPager1" runat="server" PagedControlID="RadListView1"
+<telerik:RadDataPager RenderMode="Lightweight" ID="RadDataPager1" runat="server" PagedControlID="RadListView1"
     PageSize="6">
     <Fields>
         <telerik:RadDataPagerNumericPageSizeField LabelText="PageSize:" SubmitButtonText="Change"
@@ -167,7 +167,7 @@ The RadDataPagerTemplatePageField adds a bit of customization to the paging inte
 The following example uses the RadDataPagerTemplatePageField to display the number of the first and last last record on the current page number and the total number of records. The RadDataPager control also contains Next/Previous/First/Last to display navigation controls that enable users to page through data.
 
 ````ASPNET
-<telerik:RadDataPager ID="RadDataPager1" runat="server" PagedControlID="RadListView1">
+<telerik:RadDataPager RenderMode="Lightweight" ID="RadDataPager1" runat="server" PagedControlID="RadListView1">
     <Fields>
         <telerik:RadDataPagerButtonField FieldType="FirstPrev" />
         <telerik:RadDataPagerButtonField FieldType="NextLast" />

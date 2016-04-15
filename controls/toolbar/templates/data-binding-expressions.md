@@ -15,7 +15,7 @@ position: 5
 Often, when you use item templates, you want the controls in the template to display information associated with the tool button properties. For example, consider a simple toolbar with a text box in one item template and a check box in another:
 
 ````ASPNET
-<telerik:RadToolBar ID="RadToolBar1" runat="server">
+<telerik:RadToolBar RenderMode="Lightweight" ID="RadToolBar1" runat="server">
     <Items>
         <telerik:RadToolBarButton runat="server" Text="Button 1" Value="TextBox1">
             <ItemTemplate>
@@ -36,7 +36,7 @@ When you run the application, the button templates display as an empty text box 
 ![ToolBar Unbound Template](images/toolbar_unboundtemplate.png)
 
 ````ASPNET
-<telerik:RadToolBar ID="RadToolBar1" runat="server">
+<telerik:RadToolBar RenderMode="Lightweight" ID="RadToolBar1" runat="server">
     <Items>
         <telerik:RadToolBarButton runat="server" Text="Button 1" Value="TextBox1">
             <ItemTemplate>

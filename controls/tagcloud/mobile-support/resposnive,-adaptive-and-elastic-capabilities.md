@@ -36,7 +36,7 @@ To use the elasticity of the RadTagCloud change the font size of the control's e
 		font-size: 20px;
 	}
 </style>
-<telerik:RadTagCloud ID="RadTagCloud1" runat="server" Width="400px">
+<telerik:RadTagCloud RenderMode="Lightweight" ID="RadTagCloud1" runat="server" Width="400px">
 	<Items>
 		<telerik:RadTagCloudItem Text="ASP.NET" Weight="12"></telerik:RadTagCloudItem>
 		<telerik:RadTagCloudItem Text="AJAX" Weight="134"></telerik:RadTagCloudItem>

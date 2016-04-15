@@ -29,7 +29,7 @@ Two parameters are passed to the event handler:
 The following example uses the **OnMouseOut** event to display an alert:
 
 ````ASPNET
-<telerik:RadDateInput ID="RadDateInput1" runat="server">
+<telerik:RadDateInput RenderMode="Lightweight" ID="RadDateInput1" runat="server">
 	<ClientEvents OnMouseOut="MouseOut" />
 </telerik:RadDateInput>
 ````

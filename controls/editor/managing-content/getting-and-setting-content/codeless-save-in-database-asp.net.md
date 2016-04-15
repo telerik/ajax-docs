@@ -63,7 +63,7 @@ Here is a sample of the entire FormView and RadEditor declarations. Also notice 
 		<asp:TextBox ID="SubjectTextBox" runat="server" Text='<%# Bind("Subject") %>'>        </asp:TextBox>
 		<br />
 		Content:
-		<telerik:RadEditor ID="RadEditor1" runat="server" Skin="Vista" Width="300px" Height="200px"
+		<telerik:RadEditor RenderMode="Lightweight" ID="RadEditor1" runat="server" Skin="Vista" Width="300px" Height="200px"
 			Content='<%# Bind("Content") %>'>
 			<Tools>
 				<telerik:EditorToolGroup>
@@ -94,7 +94,7 @@ Here is a sample of the entire FormView and RadEditor declarations. Also notice 
 		<asp:TextBox ID="SubjectTextBox" runat="server" Text='<%# Bind("Subject") %>'>        </asp:TextBox>
 		<br />
 		Content:
-		<telerik:RadEditor ID="RadEditor1" runat="server" Skin="Vista" Width="300px" Height="200px"
+		<telerik:RadEditor RenderMode="Lightweight" ID="RadEditor1" runat="server" Skin="Vista" Width="300px" Height="200px"
 			Content='<%# Bind("Content") %>'>
 			<Tools>
 				<telerik:EditorToolGroup>

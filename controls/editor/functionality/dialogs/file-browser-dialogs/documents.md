@@ -42,7 +42,7 @@ The users will be able to browse all subfolders of the "~/Documents" folder. The
 >caption Example 1: Setting Document manager properties inline.
 
 ````ASP.NET
-<telerik:RadEditor runat="server" ID="RadEditor1">
+<telerik:RadEditor RenderMode="Lightweight" runat="server" ID="RadEditor1">
 	<DocumentManager ViewPaths="~/Documents" UploadPaths="~/Documents/New" DeletePaths="~/Documents/New/Articles,~/Documents/New/News" />
 </telerik:RadEditor>
 ````
@@ -89,7 +89,7 @@ Note that the viewDocuments, uploadDocuments and deleteDocuments variables are s
 
 >important The Links inserted via the **DocumentManager** have **relative paths**. In scenarios when **absolute paths** are needed enable the **MakeUrlsAbsolute** client-side filter of RadEditor:
 * via the codebehind: RadEditor1.EnableFilter(EditorFilters. **MakeUrlsAbsolute** );
-* inline: `<telerik:RadEditor ID="RadEditor1" ContentFilters="MakeUrlsAbsolute" runat="server" />` 
+* inline: `<telerik:RadEditor RenderMode="Lightweight" ID="RadEditor1" ContentFilters="MakeUrlsAbsolute" runat="server" />` 
 
 
 

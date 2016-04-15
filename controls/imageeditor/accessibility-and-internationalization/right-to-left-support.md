@@ -25,7 +25,7 @@ html
 
 
 ````ASP.NET
-<telerik:RadImageEditor runat="server" ID="RadImageEditor1" Skin="Telerik" ImageUrl="~/Image1.jpg"
+<telerik:RadImageEditor RenderMode="Lightweight" runat="server" ID="RadImageEditor1" Skin="Telerik" ImageUrl="~/Image1.jpg"
     Height="365px" Width="585px">
 </telerik:RadImageEditor>
 ````

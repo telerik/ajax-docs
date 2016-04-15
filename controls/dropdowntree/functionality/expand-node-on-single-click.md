@@ -17,7 +17,7 @@ position: 4
 Using the **ExpandNodeOnSingleClick** of the RadDropDownTree control a node can easily be expanded when a user clicks on it (single click). For instance, the following code demonstrates how the property can be used:
 
 ````ASPNET
-<telerik:RadDropDownTree ID="RadDropDownTree1" runat="server" Width="350px" ExpandNodeOnSingleClick="true"  DefaultMessage="Select an entry from the list">
+<telerik:RadDropDownTree RenderMode="Lightweight" ID="RadDropDownTree1" runat="server" Width="350px" ExpandNodeOnSingleClick="true"  DefaultMessage="Select an entry from the list">
     <DropDownSettings Width="350px" />
 </telerik:RadDropDownTree>
 ````

@@ -46,7 +46,7 @@ In order to explain better the CSS classes of RadEditor, we will use both Editor
 
 	**ASP.NET**
 	
-		<telerik:RadEditor runat="server" Skin="MyCustomSkin" EnableEmbeddedSkins="false" ID="RadEditor1">
+		<telerik:RadEditor RenderMode="Lightweight" runat="server" Skin="MyCustomSkin" EnableEmbeddedSkins="false" ID="RadEditor1">
 		</telerik:RadEditor>
 
 1. Register Editor.css and Editor.MyCustomSkin.css in the `<head>...</head>` section of your web page. In order to have the CSS applied correctly, the base stylesheet should come first in the DOM:

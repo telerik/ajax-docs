@@ -50,7 +50,7 @@ To attach an event you can use either of these two approaches:
 	}
 </script>
 
-<telerik:RadEditor runat="server" ID="RadEditor1" OnClientLoad="OnClientLoad"></telerik:RadEditor> 
+<telerik:RadEditor RenderMode="Lightweight" runat="server" ID="RadEditor1" OnClientLoad="OnClientLoad"></telerik:RadEditor> 
 ````
 
 >caption Example 2: Attaching a handler in the code behind via the OnClientLoad property.
@@ -65,7 +65,7 @@ To attach an event you can use either of these two approaches:
 	}
 </script>
 
-<telerik:RadEditor runat="server" ID="RadEditor1"></telerik:RadEditor> 
+<telerik:RadEditor RenderMode="Lightweight" runat="server" ID="RadEditor1"></telerik:RadEditor> 
 ````
 ````C#
 RadEditor1.OnClientLoad = "OnClientLoad";
@@ -79,7 +79,7 @@ RadEditor1.OnClientLoad = "OnClientLoad"
 >caption Example 3: Attaching a handler via the client-side add_commandExecuted method.
 
 ````ASP.NET
-<telerik:RadEditor runat="server" ID="RadEditor1">
+<telerik:RadEditor RenderMode="Lightweight" runat="server" ID="RadEditor1">
 </telerik:RadEditor>
 		
 <script type="text/javascript">

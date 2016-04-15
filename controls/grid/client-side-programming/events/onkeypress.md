@@ -31,7 +31,7 @@ This event is fired when a key is pressed.
 Example:
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" runat="server">
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server">
     <ClientSettings>
         <ClientEvents OnKeyPress="KeyPress" />
     </ClientSettings>

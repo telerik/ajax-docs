@@ -25,7 +25,7 @@ To declare a sliding zone, put a **RadSlidingZone** control into a regular **Rad
 The following example illustrates how to declare left and right sliding zones, containing three sliding panes each:
 
 ````ASP.NET	     
-<telerik:RadSplitter ID="Radsplitter1" runat="server" height="300" width="400">
+<telerik:RadSplitter RenderMode="Lightweight" ID="Radsplitter1" runat="server" height="300" width="400">
 <telerik:RadPane ID="LeftPane" runat="server" width="22">
  <telerik:RadSlidingZone ID="LeftSlidingZone" runat="server" width="22">
   <telerik:RadSlidingPane ID="LeftSlidingPane1" Title="Left1" runat="server" Width="150">

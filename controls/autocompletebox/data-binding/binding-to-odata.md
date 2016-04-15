@@ -32,7 +32,7 @@ RadAutoCompleteBox can be bound to an OData service. The following application s
 	</Schema>
 </telerik:RadODataDataSource>
 
-<telerik:RadAutoCompleteBox runat="server" ID="RadAutoCompleteBox1" ODataDataSourceID="RadODataDataSource1"
+<telerik:RadAutoCompleteBox RenderMode="Lightweight" runat="server" ID="RadAutoCompleteBox1" ODataDataSourceID="RadODataDataSource1"
 	DropDownHeight="500px" Width="500px" DataModelID="Customer" DataTextField="CompanyName"
 	DataValueField="CustomerID">
 </telerik:RadAutoCompleteBox>

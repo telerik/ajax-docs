@@ -111,7 +111,7 @@ Height="450">
 		</Series>
 	</PlotArea>
 </telerik:RadHtmlChart>
-<telerik:RadButton runat="server" Text="ChangeDataSource" AutoPostBack="false" OnClientClicked="OnClientClicked1">
+<telerik:RadButton RenderMode="Lightweight" runat="server" Text="ChangeDataSource" AutoPostBack="false" OnClientClicked="OnClientClicked1">
 </telerik:RadButton>
 ````
 ````C#

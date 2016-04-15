@@ -20,7 +20,7 @@ It is also important to note that the contextual tab groups are inactive by defa
 
 ````ASPNET
 		
-<telerik:RadRibbonBar runat="server" id="RadRibbonBar1">
+<telerik:RadRibbonBar RenderMode="Lightweight" runat="server" id="RadRibbonBar1">
 	<ContextualTabGroups>
 		<telerik:RibbonBarContextualTabGroup Text="Objects" Active="true">
 			<telerik:RibbonBarTab Text="Home" Value="Home">

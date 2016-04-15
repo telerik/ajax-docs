@@ -15,7 +15,7 @@ position: 0
 To localize the RadDataPager control you can use global resource files or directly change the values of each named field-property:
 
 ````ASPNET
-<telerik:RadDataPager runat="server" ID="RadDataPager1" PagedControlID="RadListView1">
+<telerik:RadDataPager RenderMode="Lightweight" runat="server" ID="RadDataPager1" PagedControlID="RadListView1">
     <Fields>
         <telerik:RadDataPagerButtonField FieldType="FirstPrev" FirstButtonText="Custom text" />
     </Fields>

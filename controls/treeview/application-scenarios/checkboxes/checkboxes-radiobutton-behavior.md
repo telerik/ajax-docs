@@ -44,7 +44,7 @@ You may want the checkbox to exhibit a non-standard, **RadioButton** behavior, w
 </script>	    
 ````
 ````ASPNET
-<telerik:RadTreeView ID="RadTreeView1" runat="server" CheckBoxes="True" OnClientNodeChecked="clientNodeChecked">
+<telerik:RadTreeView RenderMode="Lightweight" ID="RadTreeView1" runat="server" CheckBoxes="True" OnClientNodeChecked="clientNodeChecked">
 </telerik:RadTreeView>
 ````
 

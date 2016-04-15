@@ -23,7 +23,7 @@ This property allows you to set the virtual item count value for the respective 
         masterTableView.set_virtualItemCount(5);
     }
 </script>
-<telerik:RadGrid ID="RadGrid3" runat="server" AllowPaging="true" AllowSorting="true" OnItemCommand="RadGrid3_ItemCommand"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid3" runat="server" AllowPaging="true" AllowSorting="true" OnItemCommand="RadGrid3_ItemCommand"
     AllowFilteringByColumn="true" PageSize="5">
     <MasterTableView ClientDataKeyNames="ProductID" CommandItemDisplay="Top">
         <Columns>

@@ -45,7 +45,7 @@ You can set the **Width** and **Height** properties of the **RadMap** in **perce
 	});
 </script>
 <div style="width: 80%; height: 80%;">
-	<telerik:RadMap runat="server" ID="RadMap1" Width="100%" Height="100%" Zoom="2">
+	<telerik:RadMap RenderMode="Lightweight" runat="server" ID="RadMap1" Width="100%" Height="100%" Zoom="2">
 	<CenterSettings Latitude="38" Longitude="-105" />
 	<LayersCollection>
 		<telerik:MapLayer Type="Tile" UrlTemplate="http://a.tile.opencyclemap.org/transport/#= zoom #/#= x #/#= y #.png">

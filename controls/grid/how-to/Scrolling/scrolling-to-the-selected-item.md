@@ -52,7 +52,7 @@ The following example demonstrates this technique:
 
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1" AllowPaging="true"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1" AllowPaging="true"
     PageSize="25" Skin="Web20" Width="95%">
     <mastertableview width="100%" />
     <clientsettings>

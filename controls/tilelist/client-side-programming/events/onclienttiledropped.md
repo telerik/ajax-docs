@@ -31,7 +31,7 @@ The event handler receives two arguments:
 The following example will show how the **OnClientTileDropped** event can be used to **prompt the user to save the changes** that are made to the layout. The full version would require a **RadWindowManager** for the confirmation dialog, a **RadAjaxManager** for the request to the server and a **RadPersistenceManager** to save the state.
 
 ````ASP.NET
-<telerik:RadTileList EnableDragAndDrop="true" ID="TileList2" runat="server" OnClientTileDropped="OnClientTileDroppedHandler">
+<telerik:RadTileList RenderMode="Lightweight" EnableDragAndDrop="true" ID="TileList2" runat="server" OnClientTileDropped="OnClientTileDroppedHandler">
 	<Groups>
 		<telerik:TileGroup>
 			<telerik:RadIconTile ImageUrl="Settings.png" runat="server">
@@ -51,7 +51,7 @@ The following example will show how the **OnClientTileDropped** event can be use
 		</telerik:TileGroup>
 	</Groups>
 </telerik:RadTileList>
-<telerik:RadWindowManager ID="RadWindowManager1" runat="server">
+<telerik:RadWindowManager RenderMode="Lightweight" ID="RadWindowManager1" runat="server">
 </telerik:RadWindowManager>
 <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server" OnAjaxRequest="OnAjaxRequestHandler">
 	<AjaxSettings>

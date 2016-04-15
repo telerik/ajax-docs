@@ -44,7 +44,7 @@ If you need to perform additional actions on uploaded files before saving them (
 The following example illustrates how to save uploaded files to a location of your choice:
 
 ````ASPNET
-<telerik:RadAsyncUpload id="RadAsyncUpload1" runat="server" />
+<telerik:RadAsyncUpload RenderMode="Lightweight" id="RadAsyncUpload1" runat="server" />
 <asp:Button runat="server" ID="Button1" Text="Submit" OnClick="Button1_Click" />
 ````
 
@@ -72,7 +72,7 @@ End Sub
 The following example illustrates how to save uploaded files to a location of your choice in OnFileUpload event:
 
 ````ASPNET
-<telerik:RadAsyncUpload id="RadAsyncUpload1" runat="server" OnFileUploaded="RadAsyncUpload1_FileUploaded1"/>
+<telerik:RadAsyncUpload RenderMode="Lightweight" id="RadAsyncUpload1" runat="server" OnFileUploaded="RadAsyncUpload1_FileUploaded1"/>
 <asp:Button runat="server" ID="Button2" Text="Submit" />
 ````
 

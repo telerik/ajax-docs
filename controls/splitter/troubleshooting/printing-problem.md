@@ -33,7 +33,7 @@ The following sample demonstrates how to get reference to the RadComboBox’s CS
 ````ASP.NET
 <telerik:radsplitter id="RadSplitter1" runat="server">
 <telerik:RadPane ID="RadPane1" runat="server">
- <telerik:RadComboBox ID="RadComboBox1" runat="server">
+ <telerik:RadComboBox RenderMode="Lightweight" ID="RadComboBox1" runat="server">
   <Items>
    <telerik:RadComboBoxItem Text="Item 1" />
    <telerik:RadComboBoxItem Text="Item 2" />

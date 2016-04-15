@@ -41,7 +41,7 @@ The example below attaches a "onkeydown" event handler during the RadEditor OnCl
 		editor.detachEventHandler("onkeydown", myKeydownHandler);
 	}       
 </script>
-<telerik:RadEditor runat="server" OnClientLoad="OnClientLoad" ID="RadEditor1">
+<telerik:RadEditor RenderMode="Lightweight" runat="server" OnClientLoad="OnClientLoad" ID="RadEditor1">
 </telerik:RadEditor>
 <input id="Button1" type="button" value="button" onclick="detach()" />
 ````
@@ -81,7 +81,7 @@ The example below demonstrates an external event being attached to a handler dur
 		$telerik.removeExternalHandler(element, "click", myClick);
 	}
 </script>
-<telerik:RadEditor runat="server" OnClientLoad="OnClientLoad" ID="RadEditor1">
+<telerik:RadEditor RenderMode="Lightweight" runat="server" OnClientLoad="OnClientLoad" ID="RadEditor1">
 </telerik:RadEditor>
 <input id="Button1" type="button" value="button" onclick="detach()" />
 ````

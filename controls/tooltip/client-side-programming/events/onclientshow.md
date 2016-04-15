@@ -30,7 +30,7 @@ In the example below, when the mouse passes over "Button1", `clientShow()` displ
         alert("OnClientShow tool tip: " + sender.get_text());
     }
 </script>
-<telerik:RadToolTip ID="RadToolTip1" runat="server" Skin="Inox" TargetControlID="Button1"
+<telerik:RadToolTip RenderMode="Lightweight" ID="RadToolTip1" runat="server" Skin="Inox" TargetControlID="Button1"
     IsClientID="true" OnClientShow="clientShow" Text="text">
 </telerik:RadToolTip>
 ````

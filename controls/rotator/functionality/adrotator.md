@@ -173,7 +173,7 @@ End Namespace
 The Rotator provides a built-in ItemTemplate for displaying the images, however in some cases the user would want to modify the HTML of the Rotator’s item. This is done simply, by specifying a new ItemTemplate in the .aspx markup or the code-behind. Here is an example of how this can be done:
 
 ````C#
-<telerik:RadRotator ID="RadRotator1" runat="server" 
+<telerik:RadRotator RenderMode="Lightweight" ID="RadRotator1" runat="server" 
 	Width="900px" Height="300px" ItemWidth="300px" ItemHeight="300px"
 	BannersPath="~/Images">
 	<ItemTemplate>
@@ -198,7 +198,7 @@ This tutorial shows how to create a simple web application with RadRotator that 
 
 	**ASP.NET**
 
-		<telerik:RadRotator ID="RadRotator1" runat="server"
+		<telerik:RadRotator RenderMode="Lightweight" ID="RadRotator1" runat="server"
 			Width="600px" Height="300px" ItemWidth="300px" ItemHeight="300px"
 			BannersPath="~/Images">
 		</telerik:RadRotator> 

@@ -24,7 +24,7 @@ Although [simple DataBinding](http://www.telerik.com/help/aspnet-ajax/grid-simpl
 
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="True" CellSpacing="0"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" AllowPaging="True" CellSpacing="0"
     EnableViewState="false" GridLines="None">
 </telerik:RadGrid>
 <asp:Button Text="Postback" ID="Button1" runat="server" />

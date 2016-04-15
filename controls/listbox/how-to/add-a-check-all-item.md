@@ -19,7 +19,7 @@ position: 4
 This article will show you how to have an item which checks/unchecks all other items (CheckBoxes = True). In addition, checking manually all other items will cause this item to get checked as well. Unchecking one item from all will uncheck it too.
 
 ````ASPNET
-<telerik:RadListBox id="RadListBox1" runat="server" skin="Vista" onclientitemchecked="onItemChecked"
+<telerik:RadListBox RenderMode="Lightweight" id="RadListBox1" runat="server" skin="Vista" onclientitemchecked="onItemChecked"
 	checkboxes="true">
    <Items>
 	   <telerik:RadListBoxItem runat="server" Text="All" />

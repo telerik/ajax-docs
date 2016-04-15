@@ -46,7 +46,7 @@ In order to explain better the CSS classes of RadRating, we will use both **Rati
 
 	**ASP.NET**
 
-		<telerik:RadRating 
+		<telerik:RadRating RenderMode="Lightweight" 
 			ID="RadRating1" 
 			runat="server" 
 			Skin="MyCustomSkin" 

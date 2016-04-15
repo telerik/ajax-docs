@@ -21,10 +21,10 @@ In some cases the **RadContextMenu** used by **RadFilter** contains more items t
 ````ASPNET
 <telerik:RadScriptManager ID="RadScriptManager1" runat="server">
 </telerik:RadScriptManager>
-<telerik:RadFilter runat="server" ID="RadFilter1" OnPreRender="RadFilter1_PreRender"
+<telerik:RadFilter RenderMode="Lightweight" runat="server" ID="RadFilter1" OnPreRender="RadFilter1_PreRender"
     FilterContainerID="RadGrid1">
 </telerik:RadFilter>
-<telerik:RadGrid runat="server" ID="RadGrid1" OnNeedDataSource="RadGrid1_NeedDataSource"
+<telerik:RadGrid RenderMode="Lightweight" runat="server" ID="RadGrid1" OnNeedDataSource="RadGrid1_NeedDataSource"
     AllowFilteringByColumn="true" AllowPaging="true">
 </telerik:RadGrid>
 ````

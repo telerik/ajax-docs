@@ -31,7 +31,7 @@ This event is fired before grid creation.
 Example:
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" runat="server">
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server">
     <ClientSettings>
         <ClientEvents OnGridCreating="GridCreating" />
     </ClientSettings>

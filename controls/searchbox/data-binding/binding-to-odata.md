@@ -31,7 +31,7 @@ RadSearchBox can be bound to an OData service through the RadODataDataSource con
 	</Schema>
 </telerik:RadODataDataSource>
 
-<telerik:RadSearchBox runat="server" ID="RadSearchBox1" 
+<telerik:RadSearchBox RenderMode="Lightweight" runat="server" ID="RadSearchBox1" 
 	ODataDataSourceID="DataSource1"
 	DataModelID="Product"
 	DataKeyNames="ProductID, ProductName"

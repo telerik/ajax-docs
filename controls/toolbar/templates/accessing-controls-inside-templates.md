@@ -17,7 +17,7 @@ If your **RadToolBar** has items with templates that have embedded controls, you
 For example, consider the following, very simple, toolbar:
 
 ````ASPNET
-<telerik:RadToolBar ID="RadToolBar1" runat="server">
+<telerik:RadToolBar RenderMode="Lightweight" ID="RadToolBar1" runat="server">
     <Items>
         <telerik:RadToolBarButton runat="server" Text="Button 1" Value="TextBox1">
             <ItemTemplate>
@@ -56,13 +56,13 @@ function OnClientLoad() {
 ````
 
 ````ASPNET
-<telerik:RadToolBar ID="RadToolbar1" runat="server" OnClientLoad="OnClientLoad">
+<telerik:RadToolBar RenderMode="Lightweight" ID="RadToolbar1" runat="server" OnClientLoad="OnClientLoad">
 	<Items>
 		<telerik:RadToolBarButton Text="Copy" Value="Copy">
 		</telerik:RadToolBarButton>
 		<telerik:RadToolBarButton Value="Paste">
 			<ItemTemplate>
-				<telerik:RadButton ID="Button1" runat="server" Text="Button1" />
+				<telerik:RadButton RenderMode="Lightweight" ID="Button1" runat="server" Text="Button1" />
 				<asp:Button ID="Print" Text="Print" runat="server" />
 			</ItemTemplate>
 		</telerik:RadToolBarButton>

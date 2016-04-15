@@ -44,7 +44,7 @@ Below is shown a comparison between ASP button and **RadButton** client-side eve
 	}
 </script>
 
-<telerik:RadButton runat="server" ID="RadButton1" Text="RadButton" OnClientClicked="ButtonClick"
+<telerik:RadButton RenderMode="Lightweight" runat="server" ID="RadButton1" Text="RadButton" OnClientClicked="ButtonClick"
 	AutoPostBack="false">
 </telerik:RadButton>
 ````

@@ -18,7 +18,7 @@ The following sample illustrates how you can use JavaScript to update the calcul
 
 
 ````ASP.NET
-<telerik:RadGrid runat="server" ID="RadGrid1"
+<telerik:RadGrid RenderMode="Lightweight" runat="server" ID="RadGrid1"
     OnNeedDataSource="RadGrid1_NeedDataSource"
     AutoGenerateColumns="false"
     AutoGenerateEditColumn="true"

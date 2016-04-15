@@ -31,7 +31,7 @@ See [Understanding the Skin CSS File]({% slug splitter/appearance-and-styling/un
 
 	**ASP.NET**
 	
-		<telerik:RadSplitter runat="server" ID="RadSplitter1" Orientation="Horizontal" Width="90%"
+		<telerik:RadSplitter RenderMode="Lightweight" runat="server" ID="RadSplitter1" Orientation="Horizontal" Width="90%"
 			Height="90%">
 			<telerik:RadPane runat="server" ID="RadPane1" Height="80px">
 				<telerik:RadSlidingZone runat="server" ID="RadSlidingZone1">

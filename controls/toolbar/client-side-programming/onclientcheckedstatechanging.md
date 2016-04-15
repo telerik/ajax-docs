@@ -40,7 +40,7 @@ You can use this event to respond when a button has been checked.
         args.set_cancel(true);
     }        
 </script> 
-<telerik:RadToolBar ID="RadToolBar1" runat="server" OnClientCheckedStateChanging="checkedStateChanging">    
+<telerik:RadToolBar RenderMode="Lightweight" ID="RadToolBar1" runat="server" OnClientCheckedStateChanging="checkedStateChanging">    
 <Items>        
     <telerik:RadToolBarButton Text="Button1" CheckOnClick="true">
     </telerik:RadToolBarButton>        

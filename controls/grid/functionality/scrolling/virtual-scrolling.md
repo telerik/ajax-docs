@@ -44,7 +44,7 @@ To enable virtual scrolling for browsing large record sets,
   Width="75px" Transparency="25">
   <img alt="Loading..." src='<%= RadAjaxLoadingPanel.GetWebResourceUrl(Page, "Telerik.Web.UI.Skins.Default.Ajax.loading.gif") %>'
     style="border: 0;" /></telerik:RadAjaxLoadingPanel>
-<telerik:RadGrid ID="RadGrid1" runat="server" Width="97%" Skin="Silk" AllowSorting="True"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" Width="97%" Skin="Silk" AllowSorting="True"
   AllowPaging="True" PageSize="14" AllowCustomPaging="true" VirtualItemCount="100000"
   OnNeedDataSource="RadGrid1_NeedDataSource">
   <PagerStyle Mode="NumericPages" />
@@ -126,7 +126,7 @@ The following steps describe how to achieve this effect:
   <img alt="Loading..." src='<%= RadAjaxLoadingPanel.GetWebResourceUrl(Page, "Telerik.Web.UI.Skins.Default.Ajax.loading.gif") %>'
     style="border: 0;" />
 </telerik:RadAjaxLoadingPanel>
-<telerik:RadGrid ID="RadGrid1" runat="server" Skin="Silk" DataSourceID="SqlDataSource1"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" Skin="Silk" DataSourceID="SqlDataSource1"
   AllowSorting="True" AllowPaging="True" PageSize="15" Width="97%" GridLines="None">
   <PagerStyle Visible="False" />
   <MasterTableView Width="99%" TableLayout="Fixed" CommandItemDisplay="None" CurrentResetPageIndexAction="SetPageIndexToFirst"

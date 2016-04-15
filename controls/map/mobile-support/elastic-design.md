@@ -33,7 +33,7 @@ This article explains the **elastic design capabilities RadMap offers**. The exa
 		font-size: 24px;
 	}
 </style>
-	<telerik:RadMap runat="server" ID="RadMap1" Width="450px" Height="200px" Zoom="3">
+	<telerik:RadMap RenderMode="Lightweight" runat="server" ID="RadMap1" Width="450px" Height="200px" Zoom="3">
 	<CenterSettings Latitude="38" Longitude="-113" />
 	<LayersCollection>
 		<telerik:MapLayer Type="Tile" UrlTemplate="http://a.tile.opencyclemap.org/transport/#= zoom #/#= x #/#= y #.png">

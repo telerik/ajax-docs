@@ -44,7 +44,7 @@ function onNavigate(isMoveNext)
 
 ````ASPNET
 <asp:ScriptManager ID="smPageScriptManager" runat="server" />
-<telerik:RadTabStrip ID="rtbstMain" runat="server" MultiPageID="RadMultiPage1" SelectedIndex="0">
+<telerik:RadTabStrip RenderMode="Lightweight" ID="rtbstMain" runat="server" MultiPageID="RadMultiPage1" SelectedIndex="0">
    <Tabs>
        <telerik:RadTab runat="server" Text="Root RadTab1" Selected="True">
        </telerik:RadTab>

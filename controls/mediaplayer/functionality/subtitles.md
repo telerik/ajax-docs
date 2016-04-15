@@ -26,7 +26,7 @@ The users may toggle subtitles visibility using the Subtitles button with the CC
 The player supports the following text file formats: **SBV, SRT, SSA, TTML, TTXT, VTT**. In addition to these extensions, you can also provide files in JSON or XML data formats.
 
 ````ASP.NET
-<telerik:RadMediaPlayer runat="server" ID="RadMediaPlayer1"
+<telerik:RadMediaPlayer RenderMode="Lightweight" runat="server" ID="RadMediaPlayer1"
     Height="360px" Width="640px"
     Source="https://www.youtube.com/watch?v=P0ZZ9T_c7lU"
     Subtitles="subtitleFile.srt">

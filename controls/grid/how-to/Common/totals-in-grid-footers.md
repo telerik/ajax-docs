@@ -56,7 +56,7 @@ For further details please refer to [this online demo](http://demos.telerik.com/
     </telerik:AjaxSetting>
   </AjaxSettings>
 </telerik:RadAjaxManager>
-<telerik:RadGrid ShowGroupPanel="true" AutoGenerateColumns="false" ID="RadGrid1"
+<telerik:RadGrid RenderMode="Lightweight" ShowGroupPanel="true" AutoGenerateColumns="false" ID="RadGrid1"
   DataSourceID="SqlDataSource1" Skin="Vista" AllowFilteringByColumn="True" AllowSorting="True"
   ShowFooter="True" runat="server" GridLines="None" OnCustomAggregate="RadGrid1_CustomAggregate">
   <PagerStyle Mode="NextPrevAndNumeric" />
@@ -119,7 +119,7 @@ See the forthcoming implementation for further info (**Quantity** is integer fie
 
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" runat="server">
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server">
   <MasterTableView AutoGenerateColumns="False" ShowFooter="True">
     <HeaderStyle BackColor="#33ffff"></HeaderStyle>
     <FooterStyle BackColor="#cc6633"></FooterStyle>
@@ -177,7 +177,7 @@ Below are the code snippets of a sample approach (note that with other type of d
 
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" runat="server" Width="500px" Skin="Grey">
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" Width="500px" Skin="Grey">
   <MasterTableView AutoGenerateColumns="False" ShowFooter="True" AllowPaging="true">
     <FooterStyle BackColor="#cc6633"></FooterStyle>
     <Columns>
@@ -297,7 +297,7 @@ The forthcoming code snippets will render two rows in the table footer which wil
 
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" DataSourceID="SqlDataSource2" AllowSorting="True"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" DataSourceID="SqlDataSource2" AllowSorting="True"
   Skin="Office2007" runat="server" GridLines="None" Width="600px" AllowPaging="true"
   AllowFilteringByColumn="true" OnItemDataBound="RadGrid1_ItemDataBound" OnColumnCreated="RadGrid1_ColumnCreated">
   <MasterTableView Width="100%" AllowMultiColumnSorting="true" DataKeyNames="UnitPrice, UnitsInStock"
@@ -422,7 +422,7 @@ Below is the declaration of the grid, which contains a template column, with tex
 
 ````ASP.NET
 <form id="form1" runat="server">
-<telerik:RadGrid ShowFooter="true" ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1"
+<telerik:RadGrid RenderMode="Lightweight" ShowFooter="true" ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1"
   GridLines="None" OnPreRender="RadGrid1_PreRender" OnItemDataBound="RadGrid1_ItemDataBound">
   <MasterTableView AutoGenerateColumns="False" DataKeyNames="OrderID" DataSourceID="SqlDataSource1">
     <Columns>

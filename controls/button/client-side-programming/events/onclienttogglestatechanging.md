@@ -42,7 +42,7 @@ The following example asks the user to confirm changing the state of a Tri-state
 	}
 </script>
 
-<telerik:RadButton ID="RadButton1" runat="server" Text="Show/Hide Window"
+<telerik:RadButton RenderMode="Lightweight" ID="RadButton1" runat="server" Text="Show/Hide Window"
 	ToggleType="CustomToggle" ButtonType="ToggleButton"
 	OnClientToggleStateChanging="ToggleStateChanging">
 	<ToggleStates>

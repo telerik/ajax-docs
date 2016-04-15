@@ -17,11 +17,11 @@ The following case scenario gives an insight into the AutoCompleteBoxEntry colle
 ## 
 
 ````ASPNET
-<telerik:RadButton runat="server" ID="RadButton1" OnClick="RadButton1_Click" Text="Get selected entries" />
+<telerik:RadButton RenderMode="Lightweight" runat="server" ID="RadButton1" OnClick="RadButton1_Click" Text="Get selected entries" />
 
 <asp:Label runat="server" ID="Label1" />
 
-<telerik:RadAutoCompleteBox ID="RadAutoCompleteBox1" runat="server" AllowCustomEntry="true"
+<telerik:RadAutoCompleteBox RenderMode="Lightweight" ID="RadAutoCompleteBox1" runat="server" AllowCustomEntry="true"
 	InputType="Token" Delimiter=";" DataSourceID="SqlDataSource1" DataTextField="Name"
 	DataValueField="ID">
 </telerik:RadAutoCompleteBox>

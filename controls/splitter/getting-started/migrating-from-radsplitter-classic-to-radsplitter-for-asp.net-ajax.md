@@ -46,7 +46,7 @@ To migrate a Web application from **RadSplitter** "Classic" to **RadSplitter** f
 
 	**ASP.NET**
 	     
-		<telerik:RadSplitter id="RadSplitter1" runat="server"/>
+		<telerik:RadSplitter RenderMode="Lightweight" id="RadSplitter1" runat="server"/>
 		<telerik:RadPane id="RadPane1" runat="server"/>
 		<telerik:RadSplitBar id="RadSplitBar1" runat="server"/>
 		<telerik:RadSlidingZone id="RadSlidingZone1" runat="server"/>

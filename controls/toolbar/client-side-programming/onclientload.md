@@ -31,7 +31,7 @@ The following example illustrates the use of the **OnClientLoad** event handler 
     }
  </script>
 
-<telerik:RadToolBar ID="RadToolBar1" runat="server" Orientation="Horizontal" OnClientLoad="storeToolBarClientObject">
+<telerik:RadToolBar RenderMode="Lightweight" ID="RadToolBar1" runat="server" Orientation="Horizontal" OnClientLoad="storeToolBarClientObject">
     <CollapseAnimation Duration="200" Type="OutQuint" />
     <Items>
         <telerik:RadToolBarButton Text="button1" runat="server">

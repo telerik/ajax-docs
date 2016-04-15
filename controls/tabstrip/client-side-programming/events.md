@@ -58,7 +58,7 @@ function OnClientTabSelectingHandler(sender, args)
 }
 </script>
 
-<telerik:RadTabStrip ID="RadTabStrip1" runat="server" OnClientTabSelecting="OnClientTabSelectingHandler">
+<telerik:RadTabStrip RenderMode="Lightweight" ID="RadTabStrip1" runat="server" OnClientTabSelecting="OnClientTabSelectingHandler">
 ...
 </telerik:RadTabStrip> 
 ````

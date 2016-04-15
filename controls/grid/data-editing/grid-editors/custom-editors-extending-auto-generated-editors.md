@@ -25,7 +25,7 @@ There are two ways to attach a column editor to a column in your grid:
 In an ASPX file, you can attach an instance of your custom editor to a column by adding an instance to the page and setting the **ColumnEditorID** property of the column to the ID of the column editor:
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" runat="server" Width="97%" AutoGenerateColumns="False">
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" Width="97%" AutoGenerateColumns="False">
   <MasterTableView>
     <Columns>
       <telerik:GridBoundColumn ColumnEditorID="TextEditor1" DataField="ShipName" HeaderText="Ship name"

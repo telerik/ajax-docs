@@ -62,7 +62,7 @@ You cannot play audio files in most mobile browsers from events like load or Dom
 		$telerik.$(document).off("touchstart", initSound);
 	}
 </script>
-<telerik:RadNotification ID="RadNotification1" runat="server" ShowInterval="2000" AutoCloseDelay="1000" Text="Some Notification" ShowSound="warning">
+<telerik:RadNotification RenderMode="Lightweight" ID="RadNotification1" runat="server" ShowInterval="2000" AutoCloseDelay="1000" Text="Some Notification" ShowSound="warning">
 </telerik:RadNotification>
 ````
 

@@ -60,7 +60,7 @@ The code snippets from the example are below:
     </telerik:AjaxSetting>
   </AjaxSettings>
 </telerik:RadAjaxManager>
-<telerik:RadGrid ID="RadGrid1" Skin="Office2007" ShowGroupPanel="True" ShowStatusBar="true"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" Skin="Office2007" ShowGroupPanel="True" ShowStatusBar="true"
   runat="server" DataSourceID="SqlDataSource1" Width="95%" AutoGenerateColumns="False"
   PageSize="3" AllowSorting="True" AllowMultiRowSelection="False" AllowPaging="True"
   GridLines="None">
@@ -183,7 +183,7 @@ The Aggregates menu will show the applicable aggregates for the current column, 
 
 
 ````ASP.NET
-<telerik:RadGrid AutoGenerateColumns="false" ID="RadGrid1" DataSourceID="SqlDataSource1"
+<telerik:RadGrid RenderMode="Lightweight" AutoGenerateColumns="false" ID="RadGrid1" DataSourceID="SqlDataSource1"
   ShowFooter="True" runat="server" GridLines="None" EnableLinqExpressions="false"
   OnCustomAggregate="RadGrid1_CustomAggregate">
   <MasterTableView>
@@ -452,7 +452,7 @@ In some cases you might want to set custom texts for the grid HeaderContextMenu 
 
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" runat="server" AllowFilteringByColumn="True" AllowPaging="True"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" AllowFilteringByColumn="True" AllowPaging="True"
   AllowSorting="True" EnableHeaderContextFilterMenu="true" EnableHeaderContextMenu="true">
 </telerik:RadGrid>
 ````

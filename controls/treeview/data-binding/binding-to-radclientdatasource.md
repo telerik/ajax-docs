@@ -40,7 +40,7 @@ The code snippet below shows sample configuration of **RadTreeView** bound to **
     <clientevents />
 </telerik:RadClientDataSource>
 
-<telerik:RadTreeView ID="RadTreeView1" runat="server" Height="300px" Width="100%" PersistLoadOnDemandNodes="false" ClientDataSourceID="CD1"
+<telerik:RadTreeView RenderMode="Lightweight" ID="RadTreeView1" runat="server" Height="300px" Width="100%" PersistLoadOnDemandNodes="false" ClientDataSourceID="CD1"
     DataFieldParentID="ParentID" DataFieldID="ID" DataTextField="Name" DataValueField="Value">
 </telerik:RadTreeView>
 ````

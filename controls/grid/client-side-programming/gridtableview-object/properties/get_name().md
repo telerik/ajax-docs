@@ -17,7 +17,7 @@ position: 12
 Returns a String which represents the **Name** property (set on the server) for the corresponding GridTableView client object. Can be used to identify table in grid hierarchy client-side.
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="True" PageSize="3"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" AllowPaging="True" PageSize="3"
     OnNeedDataSource="RadGrid1_NeedDataSource" OnDetailTableDataBind="RadGrid1_DetailTableDataBind">
     <ClientSettings>
         <Selecting AllowRowSelect="true" />

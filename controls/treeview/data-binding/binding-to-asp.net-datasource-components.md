@@ -37,7 +37,7 @@ To bind to an ASP.NET DataSource component, set the **DataSourceID** property of
 
 
 ````ASPNET
-<telerik:RadTreeView 
+<telerik:RadTreeView RenderMode="Lightweight" 
     ID="RadTreeView1" 
     runat="server" 
     Skin="WebBlue" 
@@ -65,7 +65,7 @@ To bind to an ASP.NET DataSource component, set the **DataSourceID** property of
 
 
 ````ASPNET
-<telerik:RadTreeView 
+<telerik:RadTreeView RenderMode="Lightweight" 
     ID="RadTreeView1" 
     runat="server" 
     Skin="WebBlue" 
@@ -111,7 +111,7 @@ To bind to an ASP.NET DataSource component, set the **DataSourceID** property of
 
 
 ````ASPNET
-<telerik:RadTreeView 
+<telerik:RadTreeView RenderMode="Lightweight" 
     ID="RadTreeView1" 
     runat="server" 
     Skin="WebBlue" 
@@ -271,7 +271,7 @@ End Class
 
 
 ````ASPNET
-<telerik:RadTreeView 
+<telerik:RadTreeView RenderMode="Lightweight" 
     ID="RadTreeView1" 
     runat="server" 
     Skin="WebBlue" 

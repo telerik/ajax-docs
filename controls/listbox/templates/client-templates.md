@@ -30,7 +30,7 @@ As of Q2 2012 RadListBox provides support for client templates. The template its
 On the server the template will be presented as a string property of the control, named **ClientItemTemplate**. Below a static and dynamic definition of a client template is shown
 
 ````ASPNET
-<telerik:RadListBox ID="RadListBox1" runat="server">
+<telerik:RadListBox RenderMode="Lightweight" ID="RadListBox1" runat="server">
 	<ClientItemTemplate>
 		<div class="customClass">
 			<img src="#= ImagePath #" alt="Photo" />
@@ -83,7 +83,7 @@ Sample code for the usage of the new method is demonstrated below.
 * Adding item and then binding the Control’s template to it:
 
 ````ASPNET
-<telerik:RadListBox ID="RadListBox1" runat="server">
+<telerik:RadListBox RenderMode="Lightweight" ID="RadListBox1" runat="server">
 	<ClientItemTemplate>
 		Template text: #= Text #
 	</ClientItemTemplate>
@@ -120,7 +120,7 @@ item.bindTemplate();
 * Bind the client template to an item rendered on the server:
 
 ````ASPNET
-<telerik:RadListBox ID="RadListBox1" runat="server">
+<telerik:RadListBox RenderMode="Lightweight" ID="RadListBox1" runat="server">
 	<Items>
 		<telerik:RadListBoxItem Text="Item" />
 	</Items>

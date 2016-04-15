@@ -35,7 +35,7 @@ function FocusItem(menu, args) {
 }
 </script>
 
-<telerik:RadMenu ID="RadMenu1" runat="server" Flow="Horizontal" OnClientItemFocus="FocusItem">
+<telerik:RadMenu RenderMode="Lightweight" ID="RadMenu1" runat="server" Flow="Horizontal" OnClientItemFocus="FocusItem">
     <Items>
         ...
     </Items>

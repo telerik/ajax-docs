@@ -35,7 +35,7 @@ This article contains the following sections:
 Here is an example of a databound **RadTileList**. Note how all **databinding settings** are contained in the inner **`<DataBindings>`** tag:
 
 ````ASP.NET
-<telerik:RadTileList runat="server" DataSourceID="SqlDataSource1" ID="RadTileList1" Width="634px" AppendDataBoundItems="false">
+<telerik:RadTileList RenderMode="Lightweight" runat="server" DataSourceID="SqlDataSource1" ID="RadTileList1" Width="634px" AppendDataBoundItems="false">
 	<DataBindings>
 		<CommonTileBinding TileType="RadImageTile" DataTitleTextField="UnitPrice" DataNameField="ProductName"
 			DataGroupNameField="CategoryNames" DataNavigateUrlField="ProductUrls" />
@@ -140,7 +140,7 @@ Databinding expressions can be evaluated there so that content from various fiel
 Here is a simple example of binding the peek template:
 
 ````ASP.NET
-<telerik:RadTileList runat="server" DataSourceID="SqlDataSource1" ID="RadTileList1" Width="634px">
+<telerik:RadTileList RenderMode="Lightweight" runat="server" DataSourceID="SqlDataSource1" ID="RadTileList1" Width="634px">
 	<DataBindings>
 		<CommonTileBinding TileType="RadImageTile" DataNameField="ProductName" DataShapeField="tileShapes" />
 		<TilePeekTemplate>
@@ -166,7 +166,7 @@ In the template the developer can add arbitrary HTML and databinding expressions
 For example:
 
 ````ASP.NET
-<telerik:RadTileList runat="server" DataSourceID="SqlDataSource1" ID="RadTileList1" Width="634px">
+<telerik:RadTileList RenderMode="Lightweight" runat="server" DataSourceID="SqlDataSource1" ID="RadTileList1" Width="634px">
 	<DataBindings>
 		<CommonTileBinding TileType="RadImageTile" DataNameField="ProductName" DataShapeField="tileShapes" />
 		<ContentTemplateTileBinding>

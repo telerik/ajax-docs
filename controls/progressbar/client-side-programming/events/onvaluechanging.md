@@ -32,7 +32,7 @@ The client-side **OnValueChanging** event handler receives two arguments:
 >caption Example 1: Handle the **RadProgressBar**'s client-side **ValueChanging** event.
 
 ````ASP.NET
-<telerik:RadProgressBar runat="server" ID="RadProgressBar3" Value="30">
+<telerik:RadProgressBar RenderMode="Lightweight" runat="server" ID="RadProgressBar3" Value="30">
 	<ClientEvents OnValueChanging="onValueChanging" />
 </telerik:RadProgressBar>
 <asp:Button ID="Button1" runat="server" Text="Change Value" OnClientClick="updateValue(); return false;" />

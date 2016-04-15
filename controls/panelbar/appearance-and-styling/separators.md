@@ -24,7 +24,7 @@ The example below shows panel bar with two separator items: one on the root item
 
 ````ASPNET
 
-<telerik:RadPanelBar ID="RadPanelBar1" runat="server" Skin="Office2010Blue">
+<telerik:RadPanelBar RenderMode="Lightweight" ID="RadPanelBar1" runat="server" Skin="Office2010Blue">
  <Items>
    <telerik:RadPanelItem runat="server" Text="One">
      <Items>

@@ -367,11 +367,11 @@ For further information on the different modes of item selection in **RadTreeLis
 		<asp:Label ID="Label2" runat="server" Text='<%# Eval("HomePhone")%>' />
 	</ItemTemplate>
 	<EditItemTemplate>
-		<telerik:RadMaskedTextBox ID="RadMaskedTextBox1" runat="server" Mask="(###) ###-####"
+		<telerik:RadMaskedTextBox RenderMode="Lightweight" ID="RadMaskedTextBox1" runat="server" Mask="(###) ###-####"
 			TextWithLiterals='<%# Bind("HomePhone")%>' AllowEmptyEnumerations="true" />
 	</EditItemTemplate>
 	<InsertItemTemplate>
-		<telerik:RadMaskedTextBox ID="RadMaskedTextBox1" runat="server" Mask="(###) ###-####"
+		<telerik:RadMaskedTextBox RenderMode="Lightweight" ID="RadMaskedTextBox1" runat="server" Mask="(###) ###-####"
 			TextWithLiterals='<%# Bind("HomePhone")%>' AllowEmptyEnumerations="true" />
 	</InsertItemTemplate>
 </telerik:TreeListTemplateColumn>

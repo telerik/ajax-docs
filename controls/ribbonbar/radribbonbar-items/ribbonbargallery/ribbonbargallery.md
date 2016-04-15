@@ -25,7 +25,7 @@ The **RibbonBarGallery** has a collection of **RibbonBarGalleryCategories**, whi
 Here you can find a sample markup demonstrating how to build your first RibbonBarGallery:
 
 ````ASPNET
-<telerik:RadRibbonBar ID="RadRibbonBar1" runat="server" OnClientGalleryCommandPreview="OnClientGalleryCommandPreview"
+<telerik:RadRibbonBar RenderMode="Lightweight" ID="RadRibbonBar1" runat="server" OnClientGalleryCommandPreview="OnClientGalleryCommandPreview"
     OnClientGalleryCommandPreviewEnd="OnClientGalleryCommandPreviewEnd" OnClientGalleryCommand="OnClientGalleryCommand"
     OnGalleryCommand="OnGalleryCommand">
     <Tabs>

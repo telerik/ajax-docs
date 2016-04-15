@@ -27,7 +27,7 @@ The code below demonstrates the both approaches about how to perform the insert 
 
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" runat="server">
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server">
   <MasterTableView AutoGenerateColumns="False">
     <Columns>
       <telerik:GridBoundColumn HeaderText="OrderID" DataField="OrderID" ReadOnly="True"
@@ -336,7 +336,7 @@ Below is a sample demonstration:
 
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid2" runat="server">
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid2" runat="server">
   <MasterTableView Width="100%" CommandItemDisplay="Top" DataSourceID="SqlDataSource1"
     AutoGenerateColumns="False">
     <Columns>

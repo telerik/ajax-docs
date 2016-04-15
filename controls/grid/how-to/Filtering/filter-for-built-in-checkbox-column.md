@@ -42,7 +42,7 @@ The following example illustrates this approach:
 
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" runat="server" AllowSorting="True" AllowPaging="true"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" AllowSorting="True" AllowPaging="true"
   Width="300px" AllowFilteringByColumn="true" OnNeedDataSource="RadGrid1_NeedDataSource"
   OnItemCreated="RadGrid1_ItemCreated">
   <PagerStyle Mode="NextPrevAndNumeric" />

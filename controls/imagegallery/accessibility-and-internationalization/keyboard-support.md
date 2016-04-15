@@ -68,7 +68,7 @@ Replacing the default shortcuts is as easy as enabling the keyboard navigation. 
 For example if you want to select the previous and next images by pressing **Alt+P** and **Alt+N** andselect the last image by pressing **L** you can declare the shortcuts as demonstrated below:
 
 ````ASPNET
-<telerik:RadImageGallery ID="RadImageGallery1" DisplayAreaMode="ToolTip" runat="server" AllowPaging="true"
+<telerik:RadImageGallery RenderMode="Lightweight" ID="RadImageGallery1" DisplayAreaMode="ToolTip" runat="server" AllowPaging="true"
 	Width="800px" ImagesFolderPath="Images">
 	<ClientSettings AllowKeyboardNavigation="true">
 		<KeyboardNavigationSettings>

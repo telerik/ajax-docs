@@ -17,7 +17,7 @@ You can use the **ClickToOpen** property to specify that menu items do not expan
 ## Example:
 
 ````ASP.NET
-<telerik:RadMenu ID="RadMenu1" runat="server" ClickToOpen="True">
+<telerik:RadMenu RenderMode="Lightweight" ID="RadMenu1" runat="server" ClickToOpen="True">
 ````
 
 

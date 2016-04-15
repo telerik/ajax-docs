@@ -18,7 +18,7 @@ When initially loading data form the web service the **ClientTemplates** are app
 >
 
 ````ASPNET
-<telerik:RadListBox runat="server" ID="RadListBox1" Height="410px" Width="320px">
+<telerik:RadListBox RenderMode="Lightweight" runat="server" ID="RadListBox1" Height="410px" Width="320px">
 	<HeaderTemplate>
 		<h2> Customers</h2>
 	</HeaderTemplate>

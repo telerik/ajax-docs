@@ -29,7 +29,7 @@ The event handler receives two arguments:
 >caption **Example 1** : Using the **OnClientRated** event.
 
 ````ASP.NET
-<telerik:RadRating runat="server" ID="RadRating3" OnClientRated="OnClientRated"></telerik:RadRating>
+<telerik:RadRating RenderMode="Lightweight" runat="server" ID="RadRating3" OnClientRated="OnClientRated"></telerik:RadRating>
 <span id="message"></span>
 <script type="text/javascript">
 	function OnClientRated(sender, args) {

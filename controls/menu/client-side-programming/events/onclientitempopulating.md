@@ -41,7 +41,7 @@ You can use this event to conditionally cancel the call to fetch items or to pas
     }
 </script>
 
-<telerik:RadMenu ID="RadMenu1" runat="server" Skin="Default" OnClientItemPopulating="itemPopulating">
+<telerik:RadMenu RenderMode="Lightweight" ID="RadMenu1" runat="server" Skin="Default" OnClientItemPopulating="itemPopulating">
     <WebServiceSettings Path="ProductCategories.asmx" Method="GetMenuCategories" />
     <LoadingStatusTemplate>
         <asp:Image runat="server" ID="LoadingImage" ImageUrl="~/Ajax/Img/loading7.gif" ToolTip="Loading..."

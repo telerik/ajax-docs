@@ -34,7 +34,7 @@ Unlike Lightweight, in which no sprite images are used, the Classic render mode 
 ## Gather your tools
 
 ````ASPNET
-<telerik:RadComboBox runat="server" id="RadComboBox1">    
+<telerik:RadComboBox RenderMode="Lightweight" runat="server" id="RadComboBox1">    
 	<Items>        
 		<telerik:RadComboBoxItem Text="Alpha" />        
 		<telerik:RadComboBoxItem Text="Vita" />        

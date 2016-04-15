@@ -23,7 +23,7 @@ To redirect to another web page based on clicking a Context Menu, set the **OnCl
 The example below gets the Context Menu Item and sets the window url.
 
 ````ASPNET
-<telerik:RadTreeView ID="RadTreeView1" runat="server" 
+<telerik:RadTreeView RenderMode="Lightweight" ID="RadTreeView1" runat="server" 
                      EnableDragAndDrop="True" 
                      OnClientContextMenuItemClicking="clientContextMenuClicking"
                      Skin="Vista">

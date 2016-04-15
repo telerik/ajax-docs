@@ -18,7 +18,7 @@ The **RadRating** fully supports right-to-left (RTL) language locales. In order 
 
 ````ASP.NET
 <div dir="rtl">
-	<telerik:RadRating ID="RadRating" runat="server" ItemCount="7" IsDirectionReversed="true">
+	<telerik:RadRating RenderMode="Lightweight" ID="RadRating" runat="server" ItemCount="7" IsDirectionReversed="true">
 	</telerik:RadRating>
 </div>
 ````

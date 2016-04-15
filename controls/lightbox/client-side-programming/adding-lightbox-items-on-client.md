@@ -84,7 +84,7 @@ The **getItem()** method of the **RadLightBoxItemCollection** object returns a *
 
 <asp:Button Text="Add item" ID="Button1" OnClientClick="AddLightBoxItem(); return false;" runat="server" />
 <asp:Button Text="Open LightBox" ID="Button2" OnClientClick="OpenLightBox(); return false;" runat="server" />
-<telerik:RadLightBox Id="RadLightBox1" runat="server">
+<telerik:RadLightBox RenderMode="Lightweight" Id="RadLightBox1" runat="server">
 	<Items>
 		<telerik:RadLightBoxItem Description="Description of the first item" ImageUrl="../images/thumbnail/1.png" Title="Title of the first item"></telerik:RadLightBoxItem>
 	</Items>

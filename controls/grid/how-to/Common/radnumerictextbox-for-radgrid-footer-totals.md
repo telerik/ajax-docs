@@ -53,7 +53,7 @@ Keep in mind that the changes made by the user will be lost on subsequent postba
 <p style="font: normal 11px arial,sans-serif">
   <asp:Label ID="lbl" runat="server" BackColor="Beige" Text="Change arbitrary freight value to recalculate the footer total client-side" />
 </p>
-<telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="True" DataSourceID="SqlDataSource1"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" AllowPaging="True" DataSourceID="SqlDataSource1"
   Skin="Silk" GridLines="None" OnItemDataBound="RadGrid1_ItemDataBound">
   <ExportSettings>
     <Pdf FontType="Subset" PaperSize="Letter" />
@@ -85,12 +85,12 @@ Keep in mind that the changes made by the user will be lost on subsequent postba
       </telerik:GridBoundColumn>
       <telerik:GridTemplateColumn UniqueName="Template1">
         <ItemTemplate>
-          <telerik:RadNumericTextBox ID="TextBox1" runat="server" DbValue='<%# Eval("Freight") %>'>
+          <telerik:RadNumericTextBox RenderMode="Lightweight" ID="TextBox1" runat="server" DbValue='<%# Eval("Freight") %>'>
             <ClientEvents OnBlur="Blur" OnFocus="Focus" />
           </telerik:RadNumericTextBox>
         </ItemTemplate>
         <FooterTemplate>
-          <telerik:RadNumericTextBox ID="TextBox2" runat="server">
+          <telerik:RadNumericTextBox RenderMode="Lightweight" ID="TextBox2" runat="server">
             <ClientEvents OnLoad="Load" />
           </telerik:RadNumericTextBox>
         </FooterTemplate>

@@ -176,7 +176,7 @@ End Class
 	
 	**ASP.NET**
 	
-		<telerik:RadTagCloud ID="RadTagCloud1" runat="server" OnClientItemsRequesting="itemsRequesting" 
+		<telerik:RadTagCloud RenderMode="Lightweight" ID="RadTagCloud1" runat="server" OnClientItemsRequesting="itemsRequesting" 
 			OnClientItemsRequested="itemsRequested"	OnClientItemsRequestFailed="itemsRequestFailed">
 			<WebServiceSettings Path="VehiclesWeightByRating.asmx" Method="GetRadTagCloudItems" />
 		</telerik:RadTagCloud>
@@ -291,7 +291,7 @@ For a live example of using a Web service to populate items, see the [Web Servic
 
 	**ASP.NET**
 	
-		<telerik:RadTagCloud ID="RadTagCloud1" runat="server"
+		<telerik:RadTagCloud RenderMode="Lightweight" ID="RadTagCloud1" runat="server"
 			OnClientItemsRequesting="itemsRequesting"
 			OnClientItemsRequested="itemsRequested"
 			OnClientItemsRequestFailed="itemsRequestFailed">

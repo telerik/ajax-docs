@@ -39,7 +39,7 @@ This example show the item which is about to be checked:
 
 	}
 </script>
-<telerik:RadComboBox ID="RadComboBox1" runat="server" OnClientItemChecking="OnClientItemChecking"
+<telerik:RadComboBox RenderMode="Lightweight" ID="RadComboBox1" runat="server" OnClientItemChecking="OnClientItemChecking"
 CheckBoxes="true">
 </telerik:RadComboBox>
 ````

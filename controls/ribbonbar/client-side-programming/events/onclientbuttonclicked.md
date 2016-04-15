@@ -36,7 +36,7 @@ You can use this event to respond when the user clicks on a ribbonbar button:
 </script>
 
 
-<telerik:RadRibbonBar ID="RadRibbonBar1" runat="server" OnClientButtonClicked="OnClientButtonClicked">
+<telerik:RadRibbonBar RenderMode="Lightweight" ID="RadRibbonBar1" runat="server" OnClientButtonClicked="OnClientButtonClicked">
     <telerik:RibbonBarTab Text="Home">
         <telerik:RibbonBarGroup Text="Clipboard" EnableLauncher="true">
             <Items>

@@ -21,7 +21,7 @@ The feature allows you to specify your custom criteria for password strength and
 You can easily turn on the password strength check functionality by setting **PasswordStrengthSettings.ShowIndicator="true"**. This way the indicator will show and it will use its default values for password strength until you specify your own.
 
 ````ASPNET
-<telerik:RadTextBox ID="RadTextBox1" runat="server" TextMode="Password">
+<telerik:RadTextBox RenderMode="Lightweight" ID="RadTextBox1" runat="server" TextMode="Password">
 	<PasswordStrengthSettings ShowIndicator="true" />
 </telerik:RadTextBox>
 ````
@@ -73,7 +73,7 @@ Here follows a code sample on using this event:
 
 
 ````ASPNET
-<telerik:RadTextBox runat="server" ID="RadTextBox2" Text="Enter Password">
+<telerik:RadTextBox RenderMode="Lightweight" runat="server" ID="RadTextBox2" Text="Enter Password">
 	<PasswordStrengthSettings ShowIndicator="true" OnClientPasswordStrengthCalculating="CalculatingStrength" />
 </telerik:RadTextBox>
 ````

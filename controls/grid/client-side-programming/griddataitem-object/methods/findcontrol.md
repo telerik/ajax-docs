@@ -24,12 +24,12 @@ This method takes control id for an argument and returns the corresponding clien
 Example:
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" runat="server">
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server">
     <MasterTableView> 
         <Columns> 
             <telerik:GridTemplateColumn> 
                 <ItemTemplate> 
-                    <telerik:RadTextBox ID="RadTextBox1" runat="server" /> 
+                    <telerik:RadTextBox RenderMode="Lightweight" ID="RadTextBox1" runat="server" /> 
                 </ItemTemplate> 
             </telerik:GridTemplateColumn> 
         </Columns> 

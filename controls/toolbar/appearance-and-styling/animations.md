@@ -77,7 +77,7 @@ The **ExpandAnimation** and **CollapseAnimation** properties let you apply anima
 * InOutElastic
 
 ````ASPNET
-<telerik:RadToolBar ID="RadToolBar1" runat="server">
+<telerik:RadToolBar RenderMode="Lightweight" ID="RadToolBar1" runat="server">
     <Items>
         <telerik:RadToolBarDropDown runat="server" Text="New">
             <Buttons>

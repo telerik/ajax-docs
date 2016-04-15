@@ -17,7 +17,7 @@ To create a custom module you should register its tag in the Modules inner-tag o
 ````XML
 <asp:ScriptManager ID="ScriptManager" runat="server" />
 
-<telerik:RadEditor runat="server" ID="RadEditor1" Height="700px">
+<telerik:RadEditor RenderMode="Lightweight" runat="server" ID="RadEditor1" Height="700px">
 	<Modules>
 		<telerik:EditorModule Name="MyModule" Enabled="true" Visible="true" />
 		<telerik:EditorModule Name="RadEditorStatistics" Enabled="true" Visible="true" />

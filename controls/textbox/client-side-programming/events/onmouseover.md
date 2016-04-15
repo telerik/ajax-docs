@@ -28,7 +28,7 @@ Two parameters are passed to the event handler:
 The following example uses the **OnMouseOver** event to display an alert:
 
 ````ASPNET
-<telerik:RadTextBox ID="RadTextBox1" runat="server">
+<telerik:RadTextBox RenderMode="Lightweight" ID="RadTextBox1" runat="server">
 	<ClientEvents OnMouseOver="MouseOver" />
 </telerik:RadTextBox>
 ````

@@ -25,7 +25,7 @@ The example provided below illustrates a possible implementation of **RadGantt**
 
 
 ````ASPNET
-<telerik:RadGantt ID="RadGantt1" runat="server" AutoGenerateColumns="false" SelectedView="WeekView" EnableResources="true">
+<telerik:RadGantt RenderMode="Lightweight" ID="RadGantt1" runat="server" AutoGenerateColumns="false" SelectedView="WeekView" EnableResources="true">
     <Columns>
         <telerik:GanttBoundColumn DataField="Title" DataType="String"></telerik:GanttBoundColumn>
         <telerik:GanttResourceColumn HeaderText="Asssigned Resources"></telerik:GanttResourceColumn>

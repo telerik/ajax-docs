@@ -23,7 +23,7 @@ The event handler receives one argument:
 The following example uses the **OnDataPagerCreating** event to display a message:
 
 ````ASPNET
-<telerik:RadDataPager ID="RadDataPager1" runat="server">
+<telerik:RadDataPager RenderMode="Lightweight" ID="RadDataPager1" runat="server">
     <ClientEvents OnDataPagerCreating="DataPagerCreating" />
 </telerik:RadDataPager>
 ````

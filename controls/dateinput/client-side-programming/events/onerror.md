@@ -22,13 +22,13 @@ The **OnError** client-side event handler is called when the input control detec
 The following example uses the **OnError** event to raise an alert when an error is detected:
 
 ````ASPNET
-<telerik:RadMaskedTextBox ID="RadMaskedTextBox1" runat="server" Mask="(###) ###-#####">
+<telerik:RadMaskedTextBox RenderMode="Lightweight" ID="RadMaskedTextBox1" runat="server" Mask="(###) ###-#####">
 	<ClientEvents OnError="HandleError" />
 </telerik:RadMaskedTextBox>
-<telerik:RadTextBox ID="RadTextBox1" runat="server">
+<telerik:RadTextBox RenderMode="Lightweight" ID="RadTextBox1" runat="server">
 	<ClientEvents OnError="HandleError" />
 </telerik:RadTextBox>
-<telerik:RadNumericTextBox ID="RadNumericTextBox1" runat="server" MaxValue="10" MinValue="0">
+<telerik:RadNumericTextBox RenderMode="Lightweight" ID="RadNumericTextBox1" runat="server" MaxValue="10" MinValue="0">
 	<Clientevents onerror="HandleError" />
 </telerik:RadNumericTextBox>
 ````

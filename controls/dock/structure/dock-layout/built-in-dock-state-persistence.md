@@ -25,8 +25,8 @@ The built-in dock state persistence is enabled by setting the property **EnableL
 <telerik:RadDockLayout runat="server" ID="RadDockLayout1" EnableLayoutPersistence="true" LayoutPersistenceRepositoryType="Custom" 
     LayoutRepositoryID="CustomLayout">
     <telerik:RadDockZone runat="server" ID="RadDockZone1" Width="300" MinHeight="200">
-        <telerik:RadDock runat="server" ID="RadDock1" Title="RadDock 1" Width="300"></telerik:RadDock>
-        <telerik:RadDock runat="server" ID="RadDock2" Title="RadDock 2" Width="300"></telerik:RadDock>
+        <telerik:RadDock RenderMode="Lightweight" runat="server" ID="RadDock1" Title="RadDock 1" Width="300"></telerik:RadDock>
+        <telerik:RadDock RenderMode="Lightweight" runat="server" ID="RadDock2" Title="RadDock 2" Width="300"></telerik:RadDock>
     </telerik:RadDockZone>
     <telerik:RadDockZone runat="server" ID="RadDockZone2" Width="300" MinHeight="200">
     </telerik:RadDockZone>

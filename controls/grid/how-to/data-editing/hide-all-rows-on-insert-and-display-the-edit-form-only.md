@@ -26,7 +26,7 @@ When the grid presentation area is restricted on your page you may not want to d
 
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" runat="server">
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server">
   <MasterTableView CommandItemDisplay="Top" AutoGenerateColumns="True" />
 </telerik:RadGrid>
 ````

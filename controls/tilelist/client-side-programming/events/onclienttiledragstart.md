@@ -36,7 +36,7 @@ The event handler receives two arguments:
 The following example shows how a certain condition can be used to prevent the user from dragging certain tiles. In this case the tiles' Name properties contain an indicator whether dragging should be allowed.
 
 ````ASP.NET
-<telerik:RadTileList EnableDragAndDrop="true" ID="TileList1" runat="server" OnClientTileDragStart="OnClientTileDragStartHandler">
+<telerik:RadTileList RenderMode="Lightweight" EnableDragAndDrop="true" ID="TileList1" runat="server" OnClientTileDragStart="OnClientTileDragStartHandler">
 	<Groups>
 		<telerik:TileGroup>
 			<telerik:RadTextTile Name="First" Text="First tile, draggable" runat="server"></telerik:RadTextTile>

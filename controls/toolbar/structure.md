@@ -30,7 +30,7 @@ The toolbar is a container that holds different types of buttons. There are thre
 The buttons in the toolbar are contained in the **Items** collection of the **RadToolBar** object. The buttons in the drop-down list of a **RadToolBarDropDown** or **RadToolBarSplitButton** are contained in the **Buttons** collection of the drop-down button or split button:
 
 ````ASPNET
-<telerik:RadToolBar ID="RadToolBar1" runat="server" Skin="Outlook">
+<telerik:RadToolBar RenderMode="Lightweight" ID="RadToolBar1" runat="server" Skin="Outlook">
     <Items>
         <telerik:RadToolBarButton runat="server" Text="Reset" />
         <telerik:RadToolBarDropDown runat="server" Text="Add">

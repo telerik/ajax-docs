@@ -18,10 +18,10 @@ All the user needs to do is enter an ID in the numeric input and click the Butto
 
 
 ````ASP.NET
-<telerik:RadNumericTextBox runat="server" ID="ActiveItemID" MinValue="0" MaxValue="50" NumberFormat-DecimalDigits="0" />
+<telerik:RadNumericTextBox RenderMode="Lightweight" runat="server" ID="ActiveItemID" MinValue="0" MaxValue="50" NumberFormat-DecimalDigits="0" />
 <asp:Button ID="Button1" Text="Go To Item" runat="server" OnClientClick="clientClick(); return false;" />
 
-<telerik:RadGrid runat="server" ID="RadGrid1" OnNeedDataSource="RadGrid1_NeedDataSource" MasterTableView-ClientDataKeyNames="ID">
+<telerik:RadGrid RenderMode="Lightweight" runat="server" ID="RadGrid1" OnNeedDataSource="RadGrid1_NeedDataSource" MasterTableView-ClientDataKeyNames="ID">
     <ClientSettings>
         <Scrolling AllowScroll="true" ScrollHeight="300px" UseStaticHeaders="true" />
     </ClientSettings>

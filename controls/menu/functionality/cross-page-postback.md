@@ -16,7 +16,7 @@ position: 2
 You can have your menu cause postbacks to a different Web page from the one that contains it. Simply set the **PostBackUrl** property to the page that should handle the postback.
 
 ````ASP.NET
-<telerik:RadMenu ID="RadMenu1" runat="server" Skin="Default" PostBackUrl="CrossPageCS.aspx"
+<telerik:RadMenu RenderMode="Lightweight" ID="RadMenu1" runat="server" Skin="Default" PostBackUrl="CrossPageCS.aspx"
     OnItemClick="RadMenu1_ItemClick">
 </telerik:RadMenu>
 ````

@@ -93,7 +93,7 @@ Another key element of the **Batch Editing** mode is the use of only one editor 
 
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid2" runat="server" OnPreRender="RadGrid1_PreRender" DataSourceID="SqlDataSource1">
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid2" runat="server" OnPreRender="RadGrid1_PreRender" DataSourceID="SqlDataSource1">
     <MasterTableView EditMode="Batch">
         <Columns>
             <telerik:GridBoundColumn DataField="ProductName" UniqueName="ProductName" HeaderText="Product Name"></telerik:GridBoundColumn>
@@ -102,7 +102,7 @@ Another key element of the **Batch Editing** mode is the use of only one editor 
                     <%# Eval("CategoryName") %>
                 </ItemTemplate>
                 <EditItemTemplate>
-                    <telerik:RadDropDownList runat="server" ID="CategoryIDDropDown" DataValueField="CategoryID"
+                    <telerik:RadDropDownList RenderMode="Lightweight" runat="server" ID="CategoryIDDropDown" DataValueField="CategoryID"
                         DataTextField="CategoryName" DataSourceID="SqlDataSource2"></telerik:RadDropDownList>
                 </EditItemTemplate>
             </telerik:GridTemplateColumn>

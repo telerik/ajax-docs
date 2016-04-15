@@ -19,7 +19,7 @@ RadSearchBox supports WCF binding. The following steps demonstrate how to bind R
 The path to the service and the name of the service method are specified in the **WebServiceSettings' Path** and **Method** properties:
 
 ````ASPNET
-<telerik:RadSearchBox runat="server" ID="RadSearchBox1">
+<telerik:RadSearchBox RenderMode="Lightweight" runat="server" ID="RadSearchBox1">
 	<DropDownSettings Height="400" Width="300" />
 	<WebServiceSettings Path="LoadEntriesWCF.svc" Method="GetResults" />
 </telerik:RadSearchBox>

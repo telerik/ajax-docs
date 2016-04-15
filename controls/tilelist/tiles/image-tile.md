@@ -25,7 +25,7 @@ A **RadImageTile** uses an image as the primary content of the tile. It begins f
 **RadTileList** example:
 
 ````ASP.NET
-<telerik:RadTileList runat="server" ID="RadTileList1" Skin="Metro">
+<telerik:RadTileList RenderMode="Lightweight" runat="server" ID="RadTileList1" Skin="Metro">
 	<Groups>
 		<telerik:TileGroup>
 			<telerik:RadImageTile ImageUrl="img_documentation.png" Shape="Wide">

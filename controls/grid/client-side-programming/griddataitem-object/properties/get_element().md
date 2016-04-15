@@ -23,7 +23,7 @@ This property presents the **HTML TableRow element** - <tr> for the current item
         alert("The HTML TableRow element of the first row: " + masterTableView.get_dataItems()[0].get_element());
     }
 </script>
-<telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="true" AllowSorting="true"
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" AllowPaging="true" AllowSorting="true"
     AllowFilteringByColumn="true" PageSize="5">
     <MasterTableView ClientDataKeyNames="ProductID" CommandItemDisplay="Top">
         <Columns>

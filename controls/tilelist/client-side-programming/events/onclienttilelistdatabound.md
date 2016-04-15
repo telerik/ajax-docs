@@ -32,7 +32,7 @@ The event handler receives one arguments - the [RadTileList object]({%slug tilel
 	</DataSource>
 </telerik:RadClientDataSource>
 
-<telerik:RadTileList runat="server" ID="RadTileList1" Height="400" 
+<telerik:RadTileList RenderMode="Lightweight" runat="server" ID="RadTileList1" Height="400" 
 	ClientDataSourceID="RadClientDataSource1" OnClientTileListDataBound="OnClientTileListDataBound">
 	<DataBindings>
 		<CommonTileBinding TileType="RadTextTile" DataNameField="ProductID" />

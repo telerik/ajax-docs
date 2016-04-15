@@ -33,7 +33,7 @@ The event handler receives parameters:
 The example below shows how to prevent populating a "Network Locations" node. Note that the **OnClientNodePopulated** event does not fire when set_cancel() is called. See the [Webservice Load-On-Demand]({%slug treeview/load-on-demand/web-service-binding%}) topic for another example.
 
 ````ASPNET
-<telerik:RadTreeView ID="RadTreeView1" runat="server" OnClientNodePopulated="ClientNodePopulated"
+<telerik:RadTreeView RenderMode="Lightweight" ID="RadTreeView1" runat="server" OnClientNodePopulated="ClientNodePopulated"
     OnClientNodePopulating="ClientNodePopulating" OnNodeExpand="RadTreeView1_NodeExpand">
     <Nodes>
         <telerik:RadTreeNode runat="server" ExpandMode="ClientSide" Text="Search" ImageUrl="~/images/search.ico"

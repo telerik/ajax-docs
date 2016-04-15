@@ -36,13 +36,13 @@ In order to configure the **RadButton** as a checkbox you must do the following 
 >caption Example 1: Configuring RadButton as a checkbox with a **StandardButton**,**LinkButton** and **ToggleButton** button type.
 
 ````ASP.NET
-<telerik:RadButton ID="btnToggle1" runat="server" Text="Checkbox 1" ToggleType="CheckBox"
+<telerik:RadButton RenderMode="Lightweight" ID="btnToggle1" runat="server" Text="Checkbox 1" ToggleType="CheckBox"
 	ButtonType="StandardButton"></telerik:RadButton>
 	
-<telerik:RadButton ID="btnToggle2" runat="server" Text="Checkbox 2" ToggleType="CheckBox" 
+<telerik:RadButton RenderMode="Lightweight" ID="btnToggle2" runat="server" Text="Checkbox 2" ToggleType="CheckBox" 
 	ButtonType="LinkButton"></telerik:RadButton>
 
-<telerik:RadButton ID="btnToggle2" runat="server" Text="Checkbox 3" ToggleType="CheckBox" 
+<telerik:RadButton RenderMode="Lightweight" ID="btnToggle2" runat="server" Text="Checkbox 3" ToggleType="CheckBox" 
 	ButtonType="ToggleButton"></telerik:RadButton> 
 ````
 
@@ -70,13 +70,13 @@ In order to configure the **RadButton** as a radio button you must do the follow
 >caption Example 2: Configuring RadButton as a radio button with a **StandardButton**, **LinkButton** and **ToggleButton** button type.
 
 ````ASP.NET
-<telerik:RadButton ID="btnToggle1" runat="server" Text="Radio Button 1" ToggleType="Radio" 
+<telerik:RadButton RenderMode="Lightweight" ID="btnToggle1" runat="server" Text="Radio Button 1" ToggleType="Radio" 
 	ButtonType="StandardButton"></telerik:RadButton>
 
-<telerik:RadButton ID="btnToggle2" runat="server" Text="Radio Button 2" ToggleType="Radio" 
+<telerik:RadButton RenderMode="Lightweight" ID="btnToggle2" runat="server" Text="Radio Button 2" ToggleType="Radio" 
 	ButtonType="LinkButton"></telerik:RadButton>
 
-<telerik:RadButton ID="btnToggle3" runat="server" Text="Radio BUtton 3" ToggleType="Radio" 
+<telerik:RadButton RenderMode="Lightweight" ID="btnToggle3" runat="server" Text="Radio BUtton 3" ToggleType="Radio" 
 	ButtonType="ToggleButton"></telerik:RadButton> 
 ````
 
@@ -100,7 +100,7 @@ In order to configure a **RadButton** with custom toggle states you must do the 
 >caption Example 3: Configuring RadButton with custom toggles states with a **StandardButton**, **LinkButton** and **ToggleButton** button type.
 
 ````ASP.NET
-<telerik:RadButton ID="btnToggle1" runat="server" ToggleType="CustomToggle" ButtonType="StandardButton">
+<telerik:RadButton RenderMode="Lightweight" ID="btnToggle1" runat="server" ToggleType="CustomToggle" ButtonType="StandardButton">
 	<ToggleStates>
 	 <telerik:RadButtonToggleState Text="UnChecked" PrimaryIconCssClass="rbToggleCheckbox" />
 	 <telerik:RadButtonToggleState Text="Filled" PrimaryIconCssClass="rbToggleCheckboxFilled" />
@@ -108,7 +108,7 @@ In order to configure a **RadButton** with custom toggle states you must do the 
 	</ToggleStates>
 </telerik:RadButton>
 
-<telerik:RadButton ID="btnToggle1" runat="server" ToggleType="CustomToggle" ButtonType="LinkButton">
+<telerik:RadButton RenderMode="Lightweight" ID="btnToggle1" runat="server" ToggleType="CustomToggle" ButtonType="LinkButton">
 	<ToggleStates>
 	 <telerik:RadButtonToggleState Text="UnChecked" PrimaryIconCssClass="rbToggleCheckbox" />
 	 <telerik:RadButtonToggleState Text="Filled" PrimaryIconCssClass="rbToggleCheckboxFilled" />
@@ -116,7 +116,7 @@ In order to configure a **RadButton** with custom toggle states you must do the 
 	</ToggleStates>
 </telerik:RadButton>
 
-<telerik:RadButton ID="btnToggle1" runat="server" ToggleType="CustomToggle" ButtonType="ToggleButton">
+<telerik:RadButton RenderMode="Lightweight" ID="btnToggle1" runat="server" ToggleType="CustomToggle" ButtonType="ToggleButton">
 	<ToggleStates>
 	 <telerik:RadButtonToggleState Text="UnChecked" PrimaryIconCssClass="rbToggleCheckbox" />
 	 <telerik:RadButtonToggleState Text="Filled" PrimaryIconCssClass="rbToggleCheckboxFilled" />

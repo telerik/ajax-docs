@@ -25,7 +25,7 @@ If the ViewState on the page (or the control) is not disabled, these properties 
 The example below will demonstrate how some tile settings can be set:
 
 ````ASP.NET
-<telerik:RadTileList runat="server" DataSourceID="SqlDataSource1" ID="RadTileList1"
+<telerik:RadTileList RenderMode="Lightweight" runat="server" DataSourceID="SqlDataSource1" ID="RadTileList1"
 	Width="634px" TileRows="4" OnTileCreated="RadTileList1_TileCreated">
 	<DataBindings>
 		<CommonTileBinding TileType="RadTextTile" DataGroupNameField="ContactTitle" Shape="Square" />

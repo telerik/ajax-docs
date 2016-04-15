@@ -21,7 +21,7 @@ When creating a field editor in the **Page_Load** event handler, it should be ad
 
 
 ````ASPNET
-<telerik:RadFilter runat="server" ID="RadFilter1" FilterContainerID="SqlDataSource1" ExpressionPreviewPosition="Bottom">
+<telerik:RadFilter RenderMode="Lightweight" runat="server" ID="RadFilter1" FilterContainerID="SqlDataSource1" ExpressionPreviewPosition="Bottom">
 </telerik:RadFilter>
 <asp:SqlDataSource runat="server" ID="SqlDataSource1" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
     SelectCommand="Select OrderID, OrderDate, ShipVia, ShipName, ShipAddress, ShipCity, ShipCountry FROM Orders">
@@ -58,7 +58,7 @@ When creating a field editor in the **Page_Init** event handler, it should be ad
 
 
 ````ASPNET
-<telerik:RadFilter runat="server" ID="RadFilter1" FilterContainerID="SqlDataSource1" ExpressionPreviewPosition="Bottom">
+<telerik:RadFilter RenderMode="Lightweight" runat="server" ID="RadFilter1" FilterContainerID="SqlDataSource1" ExpressionPreviewPosition="Bottom">
 </telerik:RadFilter>
 <asp:SqlDataSource runat="server" ID="SqlDataSource1" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
     SelectCommand="Select OrderID, OrderDate, ShipVia, ShipName, ShipAddress, ShipCity, ShipCountry FROM Orders">

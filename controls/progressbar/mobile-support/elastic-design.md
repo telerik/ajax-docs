@@ -33,7 +33,7 @@ This article explains the **elastic design capabilities RadProgressBar offers**.
 		font-size: 24px;
 	}
 </style>
-<telerik:RadProgressBar runat="server" Value="30" ID="RadProgressBar11" BarType="Percent" Width="250px" />
+<telerik:RadProgressBar RenderMode="Lightweight" runat="server" Value="30" ID="RadProgressBar11" BarType="Percent" Width="250px" />
 ````
 
 ## See Also

@@ -27,7 +27,7 @@ The event handler receives only one parameter. The **RadRotator** instance that 
 	</DataSource>
 </telerik:RadClientDataSource>
 
-<telerik:RadRotator runat="server" ID="Rotator" ClientDataSourceID="RadClientDataSource1"
+<telerik:RadRotator RenderMode="Lightweight" runat="server" ID="Rotator" ClientDataSourceID="RadClientDataSource1"
 	OnClientDataBound="OnClientDataBound">
 	<ClientTemplate>
 	<span class="productName">#= ProductName #</span>

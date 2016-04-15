@@ -44,7 +44,7 @@ With the settings above, the users will be able to browse all subfolders of the 
 >caption Example 1: Setting Image manager properties inline.
 
 ````ASP.NET
-<telerik:RadEditor runat="server" ID="RadEditor1">
+<telerik:RadEditor RenderMode="Lightweight" runat="server" ID="RadEditor1">
 	<ImageManager ViewPaths="~/Images" UploadPaths="~/Images/New" DeletePaths="~/Images/New/Articles,~/Images/New/News" />
 </telerik:RadEditor>
 ````
@@ -97,7 +97,7 @@ Note that the viewImages, uploadImages and deleteImages variables are string arr
 >note The Images inserted via the ImageManager have **relative paths** . In scenarios when **absolute paths** are needed enable the **MakeUrlsAbsolute** client-side filter of RadEditor:
 >
 * via the codebehind: RadEditor1.EnableFilter(EditorFilters. **MakeUrlsAbsolute** );
-* inline: `<telerik:RadEditor ID="RadEditor1" ContentFilters="MakeUrlsAbsolute" runat="server" />`
+* inline: `<telerik:RadEditor RenderMode="Lightweight" ID="RadEditor1" ContentFilters="MakeUrlsAbsolute" runat="server" />`
 >
 
 The **Image manager** offers a new feature named **Image Editor**, which provides the ability to resize, flip, rotate, crop, rename the selected image element as well as set its opacity:

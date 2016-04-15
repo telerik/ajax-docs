@@ -50,18 +50,18 @@ An <ItemTemplate> section is added to the RadLightBoxItems declaration. The cont
 				<asp:Label ID="FormTitle" runat="server" Text="SHARE YOUR FEEDBACK" CssClass="feedback_header"></asp:Label>
 				<br />
 				<asp:Label Text="FirstName:" ID="FirstNameLabel" runat="server" CssClass="feedback_label" />
-				<telerik:RadTextBox runat="server" ID="FirstNameTextBox" Width="245px" />
+				<telerik:RadTextBox RenderMode="Lightweight" runat="server" ID="FirstNameTextBox" Width="245px" />
 				<br />
 				<asp:Label Text="LastName:" ID="LastNameLabel" runat="server" CssClass="feedback_label" />
-				<telerik:RadTextBox runat="server" ID="LastNameTextBox" Width="245px" />
+				<telerik:RadTextBox RenderMode="Lightweight" runat="server" ID="LastNameTextBox" Width="245px" />
 				<br />
 				<asp:Label Text="Email:" ID="EmailLabel" runat="server" CssClass="feedback_label" />
-				<telerik:RadTextBox runat="server" ID="EmailTextBox" Width="245px" />
+				<telerik:RadTextBox RenderMode="Lightweight" runat="server" ID="EmailTextBox" Width="245px" />
 				<br />
 				<asp:Label Text="Comments:" ID="CommentsLabel" runat="server" CssClass="feedback_label" />
-				<telerik:RadTextBox runat="server" Resize="None" TextMode="MultiLine" Width="245px" Height="100px"></telerik:RadTextBox>
+				<telerik:RadTextBox RenderMode="Lightweight" runat="server" Resize="None" TextMode="MultiLine" Width="245px" Height="100px"></telerik:RadTextBox>
 				<br />
-				<telerik:RadButton ID="RadButton1" Text="Submit Feedback" runat="server" Skin="Silk" CssClass="submit_feedback_btn rbPrimaryButton"></telerik:RadButton>
+				<telerik:RadButton RenderMode="Lightweight" ID="RadButton1" Text="Submit Feedback" runat="server" Skin="Silk" CssClass="submit_feedback_btn rbPrimaryButton"></telerik:RadButton>
 			</ItemTemplate>
 		</telerik:RadLightBoxItem>
 	</Items>

@@ -20,7 +20,7 @@ In order to enable the WAI-ARIA support, set the **RadEditor** / **AccessibleRad
 
 
 ````ASP.NET
-<telerik:RadEditor EnableAriaSupport="true" runat="server" ID="RadEditor1"></telerik:RadEditor>
+<telerik:RadEditor RenderMode="Lightweight" EnableAriaSupport="true" runat="server" ID="RadEditor1"></telerik:RadEditor>
 <telerik:AccessibleRadEditor EnableAriaSupport="true" runat="server" ID="AccessibleRadEditor1"></telerik:AccessibleRadEditor>
 ````
 ````C#

@@ -27,7 +27,7 @@ The following example shows a simple declaration of a **RadContentTemplateTile**
 
 ````ASP.NET
 <asp:Button ID="Button1" Text="update the label in the first tile" OnClick="Button1_Click" runat="server" />
-<telerik:RadTileList runat="server" ID="RadTileList1">
+<telerik:RadTileList RenderMode="Lightweight" runat="server" ID="RadTileList1">
 	<Groups>
 		<telerik:TileGroup>
 			<telerik:RadContentTemplateTile Name="firstContentTemplateTile" Shape="Wide">

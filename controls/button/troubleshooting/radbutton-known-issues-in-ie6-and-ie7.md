@@ -42,7 +42,7 @@ When the internal content is higher than the wrapping div height it comes out of
 	<span>Div with fixed dimensions and overflow set to scroll</span>
 	<div style="height: 110px; background: #f00;">
 	</div>
-	<telerik:RadButton ID="RadButton" runat="server" Text="RadButton">
+	<telerik:RadButton RenderMode="Lightweight" ID="RadButton" runat="server" Text="RadButton">
 	</telerik:RadButton>
 </div> 
 ````
@@ -67,7 +67,7 @@ The code for the fixed example is displayed in **Example 2**.
 	<span>Div with fixed dimensions and overflow set to scroll</span>
 	<div style="height: 110px; background: #f00;">
 	</div>
-	<telerik:RadButton ID="RadButton" runat="server" Text="RadButton">
+	<telerik:RadButton RenderMode="Lightweight" ID="RadButton" runat="server" Text="RadButton">
 	</telerik:RadButton>
 </div> 
 ````

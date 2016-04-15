@@ -15,7 +15,7 @@ By default, RadEditor copies the styles from the parent page in which it resides
 The solution is setting the **CssFiles** property to point to an external css file and manually specify the classes that you want to load in the editor. By setting the **CssFiles** property you will prevent the editor to pick up the styles from the parent page, e.g.
 
 ````ASP.NET
-<telerik:RadEditor ID="RadEditor1" runat="server">
+<telerik:RadEditor RenderMode="Lightweight" ID="RadEditor1" runat="server">
 	<CssFiles>
 		<telerik:EditorCssFile Value="~/EditorContentArea.css" />
 	</CssFiles>

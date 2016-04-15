@@ -31,7 +31,7 @@ If the tab strip does not have room to display all of the tabs at one level, and
 If the tabs are created at design time, the hierarchy is reflected in the ASP.NET declaration of the tab strip:
 
 ````ASPNET
-<telerik:RadTabStrip ID="RadTabStrip1" runat="server" >
+<telerik:RadTabStrip RenderMode="Lightweight" ID="RadTabStrip1" runat="server" >
  <Tabs>
    <telerik:RadTab
         runat="server"

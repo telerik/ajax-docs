@@ -21,7 +21,7 @@ In case you would like to use a different default image(for example special imag
 Here is an example:
 
 ````ASPNET
-<telerik:RadOrgChart runat="server" ID="RadOrgChart1" DefaultImageUrl="/newDefaultImage.png">
+<telerik:RadOrgChart RenderMode="Lightweight" runat="server" ID="RadOrgChart1" DefaultImageUrl="/newDefaultImage.png">
 </telerik:RadOrgChart>
 ````
 
@@ -38,7 +38,7 @@ If you don't need a default image to appear, you can disable it by setting the *
 Here is an example:
 
 ````ASPNET
-<telerik:RadOrgChart runat="server" ID="RadOrgChart1" DisableDefaultImage="true">
+<telerik:RadOrgChart RenderMode="Lightweight" runat="server" ID="RadOrgChart1" DisableDefaultImage="true">
 </telerik:RadOrgChart>
 ````
 

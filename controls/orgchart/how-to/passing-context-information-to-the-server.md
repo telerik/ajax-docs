@@ -37,9 +37,9 @@ Below you may find an example that shows how to retrieve the text value typed in
     }
 
 </script>
-<telerik:RadOrgChart runat="server" ID="RadOrgChart2" OnClientNodePopulating="OnClientNodePopulating">
+<telerik:RadOrgChart RenderMode="Lightweight" runat="server" ID="RadOrgChart2" OnClientNodePopulating="OnClientNodePopulating">
 </telerik:RadOrgChart>
-<telerik:RadTextBox ID="NodeFilteringString" runat="server"></telerik:RadTextBox>
+<telerik:RadTextBox RenderMode="Lightweight" ID="NodeFilteringString" runat="server"></telerik:RadTextBox>
 ````
 ````C#
 protected void Page_Load(object sender, EventArgs e)

@@ -35,7 +35,7 @@ The code bellow demonstrates how to create and add an instanceof **Telerik.Web.U
 </telerik:RadCodeBlock>
 
 <div>
-	<telerik:RadImageGallery ID="RadImageGallery1" runat="server">
+	<telerik:RadImageGallery RenderMode="Lightweight" ID="RadImageGallery1" runat="server">
 	</telerik:RadImageGallery>
 </div>
 ````

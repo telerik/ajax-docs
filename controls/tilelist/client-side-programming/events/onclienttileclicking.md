@@ -38,7 +38,7 @@ The event handler receives two arguments:
 The example below demonstrates how to get a tile's **NavigateUrl** in the **OnClientTileClicking** event of	a **RadTileList**. Based on the returned Url, the clicking event is cancelled or allowed.
 
 ````JavaScript
-<telerik:RadTileList runat="server" ID="RadTileList1" AutoPostBack="false" SelectionMode="Single" OnClientTileClicking="OnClientTileClicking">
+<telerik:RadTileList RenderMode="Lightweight" runat="server" ID="RadTileList1" AutoPostBack="false" SelectionMode="Single" OnClientTileClicking="OnClientTileClicking">
 	<Groups>
 		<telerik:TileGroup>
 			<telerik:RadTextTile Name="Sample Text Tile" Text="Lorem ipsum dolor sit amet" Title-Text="Sample" NavigateUrl="http://www.telerik.com"></telerik:RadTextTile>
@@ -70,7 +70,7 @@ The example below demonstrates how to get a tile's **NavigateUrl** in the **OnCl
 The following code snippet represents a simple example of how to use the **OnClientTileClicking** event to get a reference to the clicked tile's name and, on user request, cancel the execution of the event.
 
 ````JavaScript
-<telerik:RadTileList runat="server" ID="RadTileList1" AutoPostBack="true" OnClientTileClicking="OnClientTileClicking" SelectionMode="Single">
+<telerik:RadTileList RenderMode="Lightweight" runat="server" ID="RadTileList1" AutoPostBack="true" OnClientTileClicking="OnClientTileClicking" SelectionMode="Single">
 	<Groups>
 		<telerik:TileGroup>
 			<telerik:RadTextTile Name="Sample Text Tile" Text="Lorem ipsum dolor sit amet" Title-Text="Sample"></telerik:RadTextTile>

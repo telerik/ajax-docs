@@ -21,7 +21,7 @@ The most difficult case is locating a control inside the **TimeTemplate** or **A
 The following definitions declare a **RadDateTimePicker** that has a **TimeTemplate** defined, and a **Button** whose **Click** event handler needs to access a control in the template:
 
 ````ASPNET
-<telerik:RadDateTimePicker ID="RadDateTimePicker1" runat="server">
+<telerik:RadDateTimePicker RenderMode="Lightweight" ID="RadDateTimePicker1" runat="server">
     <TimeView>
         <TimeTemplate>
             <input style="width: 100%;"

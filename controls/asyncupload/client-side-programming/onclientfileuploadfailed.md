@@ -35,7 +35,7 @@ The event handler receives two parameters:
 One useful case for using this event is to check the error message and suppress it if needed:
 
 ````ASPNET
-<telerik:RadAsyncUpload runat="server" ID="RadAsyncUpload1" OnClientFileUploadFailed="OnClientFileUploadFailed"></telerik:RadAsyncUpload>
+<telerik:RadAsyncUpload RenderMode="Lightweight" runat="server" ID="RadAsyncUpload1" OnClientFileUploadFailed="OnClientFileUploadFailed"></telerik:RadAsyncUpload>
 ````
 
 ````JavaScript

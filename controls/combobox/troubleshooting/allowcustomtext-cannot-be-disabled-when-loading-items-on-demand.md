@@ -27,7 +27,7 @@ To work around the problem you could use the following approach:
 * Subscribe to the **OnClientDropDownOpening** event and call the **requestItems()** method of the combobox to load the items from the **ItemsRequested** server-side event
 
 ````ASPNET
-<telerik:RadComboBox 
+<telerik:RadComboBox RenderMode="Lightweight" 
 	id="RadComboBox1" 
 	AllowCustomText="false" 
 	OnClientDropDownOpening="OnClientDropDownOpeningHandler"

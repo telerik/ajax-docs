@@ -15,7 +15,7 @@ position: 3
 One can set Header and Footer Templates to the RadSearchBox as shown in the sample code below:
 
 ````ASPNET
-<telerik:RadSearchBox runat="server" ID="RadSearchBox1" 
+<telerik:RadSearchBox RenderMode="Lightweight" runat="server" ID="RadSearchBox1" 
 	DataSourceID="SqlDataSource1"
 	DataValueField="ProductId"
 	DataTextField="ProductName">

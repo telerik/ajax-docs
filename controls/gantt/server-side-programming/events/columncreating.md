@@ -22,7 +22,7 @@ The **RadGantt ColumnCreating** is fired when a [TreeList]({%slug gantt/structur
 ## Example
 
 ````ASP.NET
-<telerik:RadGantt ID="RadGantt1" runat="server" OnColumnCreating="RadGantt1_ColumnCreating"></telerik:RadGantt>
+<telerik:RadGantt RenderMode="Lightweight" ID="RadGantt1" runat="server" OnColumnCreating="RadGantt1_ColumnCreating"></telerik:RadGantt>
 ````
 
 ````C#

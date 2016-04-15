@@ -61,7 +61,7 @@ In order to specify how the group aggregates will be evaluated, specify in every
     </telerik:AjaxSetting>
   </AjaxSettings>
 </telerik:RadAjaxManager>
-<telerik:RadGrid ShowGroupPanel="true" AutoGenerateColumns="false" ID="RadGrid1"
+<telerik:RadGrid RenderMode="Lightweight" ShowGroupPanel="true" AutoGenerateColumns="false" ID="RadGrid1"
   DataSourceID="SqlDataSource1" AllowFilteringByColumn="True" AllowSorting="True"
   ShowFooter="True" runat="server" GridLines="None" AllowPaging="true" Skin="WebBlue">
   <PagerStyle Mode="NextPrevAndNumeric" />

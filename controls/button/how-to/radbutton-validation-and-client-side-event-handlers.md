@@ -23,7 +23,7 @@ On the ASPX page markup below are added a **TextBox**, which is validated with *
 <asp:RequiredFieldValidator ID="Requiredfieldvalidator1" ErrorMessage="Field is empty!"
 		ControlToValidate="Textbox1" runat="server" ValidationGroup="Val" />
 <br />
-<telerik:RadButton ID="btnStandardConfirm" runat="server" Text="Standard window.confirm"
+<telerik:RadButton RenderMode="Lightweight" ID="btnStandardConfirm" runat="server" Text="Standard window.confirm"
 		OnClientClicking="StandardConfirm" ValidationGroup="Val">
 </telerik:RadButton>
 ````

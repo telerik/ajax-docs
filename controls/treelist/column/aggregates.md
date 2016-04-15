@@ -41,7 +41,7 @@ You can also specify the **FooterAggregateFormatString** property of the treelis
 Here follows example treelist declaration using the above mentioned properties:
 
 ````ASPNET
-<telerik:RadTreeList ID="RadTreeList1" runat="server" DataSourceID="SqlDataSource1"
+<telerik:RadTreeList RenderMode="Lightweight" ID="RadTreeList1" runat="server" DataSourceID="SqlDataSource1"
 AutoGenerateColumns="false" ParentDataKeyNames="ParentLocationID" AllowPaging="true"
 PageSize="10" DataKeyNames="LocationID" AllowSorting="true" ShowFooter="true">
 <HeaderStyle HorizontalAlign="Center" />

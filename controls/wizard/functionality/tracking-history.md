@@ -41,19 +41,19 @@ function PrintHistoryButton_ClientClicked(sender, args) {
 <telerik:radwizard runat="server" id="RadWizard4" width="800px" height="330px" displaycancelbutton="true">
 <WizardSteps>
 	<telerik:RadWizardStep ID="RadWizardStep1" Title="Name" StepType="Start">
-		<telerik:RadTextBox runat="server" ID="RadTextBox13" Label="First Name" LabelWidth="75px" Width="400px">
+		<telerik:RadTextBox RenderMode="Lightweight" runat="server" ID="RadTextBox13" Label="First Name" LabelWidth="75px" Width="400px">
 		</telerik:RadTextBox>
 		<br />
-		<telerik:RadTextBox runat="server" ID="RadTextBox14" Label="Middle Name" LabelWidth="75px" Width="400px"></telerik:RadTextBox>
+		<telerik:RadTextBox RenderMode="Lightweight" runat="server" ID="RadTextBox14" Label="Middle Name" LabelWidth="75px" Width="400px"></telerik:RadTextBox>
 		<br />
-		<telerik:RadTextBox runat="server" ID="RadTextBox15" Label="Last Name" LabelWidth="75px" Width="400px"></telerik:RadTextBox>
+		<telerik:RadTextBox RenderMode="Lightweight" runat="server" ID="RadTextBox15" Label="Last Name" LabelWidth="75px" Width="400px"></telerik:RadTextBox>
 	</telerik:RadWizardStep>
 	<telerik:RadWizardStep ID="RadWizardStep2" Title="Address" DisplayCancelButton="false">
-		<telerik:RadTextBox runat="server" ID="RadTextBox16" Label="Country" LabelWidth="75px" Width="400px"></telerik:RadTextBox>
+		<telerik:RadTextBox RenderMode="Lightweight" runat="server" ID="RadTextBox16" Label="Country" LabelWidth="75px" Width="400px"></telerik:RadTextBox>
 		<br />
-		<telerik:RadTextBox runat="server" ID="RadTextBox17" Label="City" LabelWidth="75px" Width="400px"></telerik:RadTextBox>
+		<telerik:RadTextBox RenderMode="Lightweight" runat="server" ID="RadTextBox17" Label="City" LabelWidth="75px" Width="400px"></telerik:RadTextBox>
 		<br />
-		<telerik:RadTextBox runat="server" ID="RadTextBox18" Label="Address" LabelWidth="75px" Width="400px"></telerik:RadTextBox>
+		<telerik:RadTextBox RenderMode="Lightweight" runat="server" ID="RadTextBox18" Label="Address" LabelWidth="75px" Width="400px"></telerik:RadTextBox>
 	</telerik:RadWizardStep>
 </WizardSteps>
 </telerik:radwizard>

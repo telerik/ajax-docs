@@ -28,7 +28,7 @@ The following tutorial demonstrates how to create a web service that can be cons
 
 1. Drop a **RadTreeView** control from the Toolbox to the default page.
 	````ASPNET
-<telerik:RadTreeView ID="RadTreeView1" runat="server" Width="300px">
+<telerik:RadTreeView RenderMode="Lightweight" ID="RadTreeView1" runat="server" Width="300px">
     <WebServiceSettings Path="ProductCategories.asmx" Method="GetTreeViewCategories" />
     <Nodes>
         <telerik:RadTreeNode Text="Products" Value="1" ExpandMode="WebService">

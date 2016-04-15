@@ -25,7 +25,7 @@ The embedded **RadDateInput** control present **RadTimePicker** has two properti
 Both properties take a [date format pattern]({%slug calendar/accessibility-and-internationalization/date-format-patterns%}) as a value.
 
 ````ASPNET
-<telerik:RadTimePicker ID="RadTimePicker1" runat="server">
+<telerik:RadTimePicker RenderMode="Lightweight" ID="RadTimePicker1" runat="server">
    <DateInput
        DateFormat="hh:mm t"
        DisplayDateFormat="hh:mm tt">
@@ -40,7 +40,7 @@ Both properties take a [date format pattern]({%slug calendar/accessibility-and-i
 The value for the **TimeFormat** property of the embedded **RadTimeView** is a [date format pattern]({%slug calendar/accessibility-and-internationalization/date-format-patterns%}) that controls how it displays the time values it displays for the user to choose.
 
 ````ASPNET
-<telerik:RadTimePicker ID="RadTimePicker1" runat="server">
+<telerik:RadTimePicker RenderMode="Lightweight" ID="RadTimePicker1" runat="server">
     <TimeView TimeFormat="h:mm t"></TimeView>
 </telerik:RadTimePicker>
 ````
