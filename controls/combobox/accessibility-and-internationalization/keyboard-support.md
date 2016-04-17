@@ -19,9 +19,11 @@ In order to configure keyboard support with RadComboBox its KeyboardNaviagationS
 >note Certain keyboard combinations are reserved and used as shortcuts in the browsers. 
 >
 
+````ASPNET
 <telerik:RadComboBox ID="RadComboBox1" runat="server" >
     <KeyboardNavigationSettings CommandKey="Alt" FocusKey="M" />
 </telerik:RadComboBox>
+````
 
 ## Keyboard Navigation
 
@@ -41,11 +43,9 @@ In order to configure keyboard support with RadComboBox its KeyboardNaviagationS
 
 ![Close](images/combobox-close-dropdown.png)   
 
-* Press **Enter" to select an Item.
+* Press **Enter** to select an Item.
 
 ![Select](images/combobox-select.png)   
-
-Once the RadComboBox is focused (by pressing [CommandKey] + [FocusKey]):
 
 # See Also
 

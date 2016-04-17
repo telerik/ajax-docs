@@ -19,9 +19,11 @@ In order to configure keyboard support with RadDropDownList its KeyboardNaviagat
 >note Certain keyboard combinations are reserved and used as shortcuts in the browsers. 
 >
 
+````ASPNET
 <telerik:RadDropDownList ID="RadDropDownList1" runat="server" >
     <KeyboardNavigationSettings CommandKey="Alt" FocusKey="M" />
 </telerik:RadDropDownList>
+````
 
 ## Keyboard Navigation
 
