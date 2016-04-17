@@ -10,34 +10,39 @@ position: 0
 
 # Keyboard Support
 
+A critical requirement for software accessibility is keyboard support as a complete alternative to pointing devices (mouse, etc.).
 
+Keyboard support is comprised of command key, focus key, and keyboard navigation. RadDropDownList will seamlessly switch between mouse and keyboard navigation.
 
-## 
+In order to configure keyboard support with RadDropDownList its KeyboardNaviagationSettings should be set:
 
-**RadDropDownList** provides support for the two relevant aspects of keyboard support:
+>note Certain keyboard combinations are reserved and used as shortcuts in the browsers. 
+>
 
-* **Access Keys** - You can specify a key that lets the end-user move focus directly to the dropdownlist. Once focus is on the dropdownlist, the user can use the arrow keys for navigation. The access key is defined using the **AccessKey** property. For example, if you set the **AccessKey** property to "W", focus moves to the combobox when the user types "Alt+W".
+<telerik:RadDropDownList ID="RadDropDownList1" runat="server" >
+    <KeyboardNavigationSettings CommandKey="Alt" FocusKey="M" />
+</telerik:RadDropDownList>
 
-* **Key Navigation**-RadDropDownList allows end-users to navigate the dropdownlist structure using the arrow keys, the PageUp/PageDown keys and the Enter key:
+## Keyboard Navigation
 
-* The "Alt + W" focuses the drop-down list. ![dropdownlist-accessibilityandinternalization-keyboardsupport-focus](images/dropdownlist-accessibilityandinternalization-keyboardsupport-focus.png)
+* **CommandKey** + **FocusKey** (for example Alt + M) focuses the RadDropDownList. ![dropdownlist-accessibilityandinternalization-keyboardsupport-focus](images/dropdownlist-accessibilityandinternalization-keyboardsupport-focus.png)
 
-* The "Alt + Up" arrow opens the drop-down list. ![dropdownlist-accessibilityandinternalization-keyboardsupport-open](images/dropdownlist-accessibilityandinternalization-keyboardsupport-open.png)
+* The **Alt** + **Down** arrow opens the drop-down list. ![dropdownlist-accessibilityandinternalization-keyboardsupport-open](images/dropdownlist-accessibilityandinternalization-keyboardsupport-open.png)
 
-* The "PageUp" or "PageDown" arrows to scroll to the previous/next “page” in the drop down listof items.![dropdownlist-accessibilityandinternalization-keyboardsupport-navigationpage](images/dropdownlist-accessibilityandinternalization-keyboardsupport-navigationpage.png)
+* The **PageUp** or **PageDown** scroll to the previous/next portion of items in the dropdown.![dropdownlist-accessibilityandinternalization-keyboardsupport-navigationpage](images/dropdownlist-accessibilityandinternalization-keyboardsupport-navigationpage.png)
 
-* The "Esc" key to close the list without changing the selection.![dropdownlist-accessibilityandinternalization-keyboardsupport-close](images/dropdownlist-accessibilityandinternalization-keyboardsupport-close.png)
+* The **Up** and **Down** arrow keys allow the user to navigate along the items in the dropdown in the corresponding direction.![dropdownlist-accessibilityandinternalization-keyboardsupport-navigation](images/dropdownlist-accessibilityandinternalization-keyboardsupport-navigation.png)
 
-* The up and down arrow keys allows user to navigate along the items in the drop down list in the corresponding direction.![dropdownlist-accessibilityandinternalization-keyboardsupport-navigation](images/dropdownlist-accessibilityandinternalization-keyboardsupport-navigation.png)
-
-* The "Enter" key selects the current item in the list.![dropdownlist-accessibilityandinternalization-keyboardsupport-select](images/dropdownlist-accessibilityandinternalization-keyboardsupport-select.png)
+* The **Enter** key selects the current item in the list.![dropdownlist-accessibilityandinternalization-keyboardsupport-select](images/dropdownlist-accessibilityandinternalization-keyboardsupport-select.png)
 
 * Typing a letter moves focus to the next instance of a visible item, whose text begins with that letter.![dropdownlist-accessibilityandinternalization-keyboardsupport-highlightnextelement](images/dropdownlist-accessibilityandinternalization-keyboardsupport-highlightnextelement.png)
 
 * Typing a sequence of letters moves focus to the first matched item, whose text starts with that sequence.![dropdownlist-accessibilityandinternalization-keyboardsupport-highlightmatchingelement](images/dropdownlist-accessibilityandinternalization-keyboardsupport-highlightmatchingelement.png)
 
-* The "Alt+Down" arrow closes the drop-down list.![dropdownlist-accessibilityandinternalization-keyboardsupport-open](images/dropdownlist-accessibilityandinternalization-keyboardsupport-open.png)
+* The **Alt** + **Up** arrow or **Esc** closes the dropdown.![dropdownlist-accessibilityandinternalization-keyboardsupport-open](images/dropdownlist-keyboardsupport-collapse.png)
 
->note In order to enable the keyboard support in browsers, different from Internet Explorer, you shoud set the **TabIndex** property of the RadDropDownList.
->
+# See Also
+
+ * [Keyboard Support Demo](http://demos.telerik.com/aspnet-ajax/dropdownlist/examples/accessibility/keyboardsupport/defaultcs.aspx)
+
 
