@@ -10,38 +10,43 @@ position: 0
 
 # Keyboard Support
 
+A critical requirement for software accessibility is keyboard support as a complete alternative to pointing devices (mouse, etc.).
 
+Keyboard support is comprised of command key, focus key, and keyboard navigation. RadComoboBox will seamlessly switch between mouse and keyboard navigation.
 
-## 
+In order to configure keyboard support with RadComboBox its KeyboardNaviagationSettings should be set:
 
-**RadCombobox** provides support for the two relevant aspects of keyboard support:
+>note Certain keyboard combinations are reserved and used as shortcuts in the browsers. 
+>
 
-* **Access Keys** - You can specify a key that lets the end-user move focus directly to the combobox. Once focus is on the combobox, the user can use the arrow keys for navigation. The access key is defined using the **AccessKey** property. For example, if you set the **AccessKey** property to "W", focus moves to the combobox when the user types "Alt+W".
+<telerik:RadComboBox ID="RadComboBox1" runat="server" >
+    <KeyboardNavigationSettings CommandKey="Alt" FocusKey="M" />
+</telerik:RadComboBox>
 
-````ASPNET
-	     
-<telerik:RadComboBox RenderMode="Lightweight" runat="server" AccessKey="W" ... />
-				
-````
+## Keyboard Navigation
 
-![Access Key & Tab Index](images/combobox_keyboardsupport_1.gif)
+* Focus the **RadComboBox** by pressing **CommandKey** + **FocusKey**:
 
-* **Key Navigation**- RadComboBox allows end-users to navigate the combobox structure using the arrow keys and the Space and Enter keys:
+![Control Focus](images/combobox-focus.png)
 
-* The up and down arrow keys change the current item in the drop-down list, updating the input area with the next item in the corresponding direction.
+* Press **Alt** + **Down Arrow** to expand the dropdown.
 
-* The "Alt + Up" and "Alt+Down" arrows open and close the drop-down list.
+![Expand](images/combobox-expand-dropdown.png)
 
-* The "Enter" key selects the current item in the list.
+* Navigate the items using **Up** and **Down Arrow** keys:
 
-![Navigation Keys](images/combobox_keyboardsupport_2.gif)
+![Item Navigation](images/combobox-navigation.png)
+   
+* Press **Alt** + **Up Arrow** or "Esc" to close the dropdown.
 
-![Open/Close Dropdown](images/combobox_keyboardsupport_3.gif)
+![Close](images/combobox-close-dropdown.png)   
 
-* **ChangeTextOnKeyBoardNavigation** boolean property determines whether combobox will change its text in the input area when you scroll down the items with the keyboard.
+* Press **Enter" to select an Item.
 
-See live example at [Keyboard Support](http://www.telerik.com/DEMOS/ASPNET/prometheus/ComboBox/Examples/Functionality/KeyboardSupport/DefaultCS.aspx)
+![Select](images/combobox-select.png)   
+
+Once the RadComboBox is focused (by pressing [CommandKey] + [FocusKey]):
 
 # See Also
 
- * [OnClientKeyPressing]({%slug combobox/client-side-programming/events/onclientkeypressing%})
+ * [Keyboard Support Demo](http://demos.telerik.com/aspnet-ajax/combobox/examples/functionality/keyboardsupport/defaultcs.aspx)
