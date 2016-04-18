@@ -193,7 +193,7 @@ Here follows a list with all the available appSettings keys for the Telerik UI f
 
 * **Telerik.Web.CaptchaImageStorageProviderTypeName**—lets you set the RadCaptcha custom caching provider for the entire application. You can read more about using custom providers for RadCaptcha in the [Caching Provider]({%slug captcha/functionality/caching-provider%}) article. 
 
-* **Telerik.Web.CaptchaDenyAudioHandler**—lets you disabled requests to the built-in audio handler of **RadCaptcha**. Further details are available in [Optimizing RadTabStrip Performance]({%slug tabstrip/performance/optimizing-radtabstrip-performance%}) article.
+* **Telerik.Web.CaptchaDenyAudioHandler**—lets you to disable requests to the built-in audio handler of **RadCaptcha**. Further details are available in [Performance Optimization by Disabling Audio Handler]({%slug captcha/troubleshooting/optimize-application-performance-disable-audio%}) article.
 
 * **Telerik.Web.SkinsAssembly**—in order to load skins from an external assembly, you need to register its name via this key. You can read more about using external skins assemblies in the [How to Load Skins from External Assemblies]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/how-to-load-skins-from-external-assemblies%}) article and you may also find useful the [RadSkinManager]({%slug controls/radskinmanager%}) control. 
 
