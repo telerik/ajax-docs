@@ -29,6 +29,17 @@ Create a ToolsFile.xml with a structure similar to the following:
 </root>
 ````
 
+>important If you are using **Lightweight** rendering mode the Save and Cancel button will not be styled with the default icons. You will need to decorate them additionally by using these CSS rules:
+>
+>	.reTool.reSave:before{
+>	    content:"\e603";
+>	}
+>	
+>	.reTool.reCancel:before {
+>	     content:"\e661";
+>	}
+
+
 Configure the RadAjaxManager and RadEditor controls similar to the example markup below. RadAjaxManager will have a OnAjaxRequest handler to execute save and cancel logic on the server. RadEditor will consume the ToolsFile.xml created in the previous step. Just below the RadEditor declaration is the implementation of the "Save" and "Cancel" commands. Both implementations call an JavaScript function "ajaxRequest()" and pass a string argument "Save" or "Cancel". ajaxRequest() will be defined in a following step.
 
 ````ASP.NET
