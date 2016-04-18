@@ -674,6 +674,10 @@ The **GridGroupSplitterColumn** appears when [grouping]({%slug grid/functionalit
 
 The **GridExpandColumn** appears when the grid has a hierarchical structure. It lets the user expand and collapse detail tables in the grid. The expand column is always placed in front of all other grid content columns unless the grouping is enabled. In those cases, GridExpandColumn is after the **GridGroupSplitterColumn**.
 
+**Image 9**: **GridExpandColumn** example
+![GridGroupSplitterColumn](images/grid_expandcolumn.png)
+
+
 ## Specific Properties and Generated Controls
 
 The base class of every column provided by RadGrid is **GridColumn**. Depending on its specific purpose and functionality, each individual column exposes additional properties, which can prove useful when configuring its settings.
