@@ -8,9 +8,9 @@ published: True
 position: 1
 ---
 
-# How To Configure Size of Rotator with Buttons
+# How to Configure Size of Rotator with Buttons
 
-This help article illustrates how to properly configure the size of a rotator with buttons, so that the items are not cut or misaligned on initial showing or during animiation playing.
+This help article illustrates how to properly configure the size of a rotator with buttons so that the items are not cut or misaligned on initial showing or during animiation playing.
 
  * [RadRotator Dimensions Configuration]({%slug rotator/getting-started/overview%}#radrotator-dimensions-configuration)
  
@@ -20,18 +20,18 @@ This help article illustrates how to properly configure the size of a rotator wi
 
 ## Configure Rotator with Buttons
 
-To configure a rotator with buttons you should do the following:
+To configure a rotator with buttons, you should do the following:
  * Define the proper dimensions for the rotator, its items and item template as per the [RadRotator Dimensions Configuration]({%slug rotator/getting-started/overview%}#radrotator-dimensions-configuration) article.
  * Determine the size of the buttons and just add it to the rotator's width/height. 
  
-For example if we want to show four items(100x100 pixels) in a  horizontal rotator with buttons for the black skin with Lightweight render mode we can follow the steps below:
-* Set the single item's dimensions - `ItemWidth`="100" `ItemHeight`="100".
-* Set the item template dimensions - .itemTemplate {width: 100px; height: 100px;}.
-* Inspect the size of a single button - 30x30. 
+For example, if we want to show four items (100x100 pixels) in a horizontal rotator with buttons for the black skin with Lightweight render mode, we can follow the steps below:
+1. Set the single item's dimensions - `ItemWidth`="100" `ItemHeight`="100".
+1. Set the item template dimensions - .itemTemplate {width: 100px; height: 100px;}.
+1. Inspect the size of a single button - 30x30. 
 
 	![rotator-size-buttons](images/inspect-button-size.png)
 	
-* Calculate and set the rotator's width - (4 items * 100) + 2 buttons * 30 = 400 + 60 = 460px.
+1. Calculate and set the rotator's width - (4 items * 100) + 2 buttons * 30 = 400 + 60 = 460px.
 
 >tip All of the explained logic stays the same if the `ScrollDirection`="Up, Down" is set, but it should be applied to the `Height` and `ItemHeight` properties, respectively.
 
@@ -73,16 +73,16 @@ You can find the list of the button sizes for the different skins in **Classic**
 * **Bootstrap** - 34px
 * **Material** - 38px
 * The rest skins - 30px
-
+<Comment: "The rest skins" is a fragment and I am not sure what it refers to. Do you mean The rest of the skins?>
 >caption **List 2**: RadRotator button sizes for all the skins with "Classic" render mode.
 * **Glow**, **Silk**, **MetroTouch**, **BlackMetroTouch** - 28px
 * **Bootstrap** - 34px
 * The rest skins - 20px
-
+<Comment: Same as previous comment.>
 ## Example (RadRotatorSizeConfigurator Class Implementation)
 
-You can find below an example of a helper class (i.e., RadRotatorSizeConfigurator) that automatically calculates and set the rotator's width based on the desired number of items, the set skin and render mode. The class accepts three parameters - the instance of the rotator, the number of the visible items in the view port and the skin (optional). 
- 
+In the example below you can see a helper class (i.e., RadRotatorSizeConfigurator) that automatically calculates and sets the rotator's width based on the desired number of items, the set skin and render mode. The class accepts three parameters: the instance of the rotator, the number of the visible items in the view port and the skin (optional). 
+<Comment: You had an example 1 earlier in the article. Should this be example 2?> 
 >caption **Example 1**:  Configure rotator with buttons that has 4 items (100px x 100px) per view. The method that calculates the actual width is shown in **Example 2**.
 
 ````CSS
