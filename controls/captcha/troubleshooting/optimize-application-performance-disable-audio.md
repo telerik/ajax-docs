@@ -10,11 +10,11 @@ position: 1
 
 # Performance Optimization by Disabling Audio Handler
 
-You can find here information how to improve the performance of your ASP.NET application by disabling the **RadCaptcha** audio handler. 
+This help article describes how to improve the performance of your ASP.NET application by disabling the **RadCaptcha** audio handler. 
 
-**RadCaptcha** provides the functionality to request audio for the capthca rendered. You can read more about it in [Using Audio Code]({%slug captcha/functionality/using-audio-code%}) article. 
+**RadCaptcha** provides the functionality to request audio for the capthca rendered. You can read more about it in the [Using Audio Code]({%slug captcha/functionality/using-audio-code%}) article. 
 
-This feature is available by using a built-in handler for the audio. Which is available with disabled **Audio Code** feature and also without using **RadCaptcha** on the page. In order to eliminate possible requests for the audio, you can set the `CaptchaDenyAudioHandler` key to `true` in the **web.config** file.
+This feature is available by using a built-in handler for the audio. Which is available with disabled **Audio Code** feature and also without using **RadCaptcha** on the page. <Comment: The previous two sentences sound odd to me. In the first, what does "this feature" mean? The ability to request audio? In the second sentence, you are missing the subject at the beginning of the sentence. Is the handler for the audio available when the audio code is disabled?> In order to eliminate possible requests for the audio, you can set the `CaptchaDenyAudioHandler` key to `true` in the **web.config** file.
 
 >caption Example 1: Disabling audio handler using the CaptchaDenyAudioHandler key.
 
