@@ -26,7 +26,7 @@ In the table provided below you can find all the properies of the task.
 | **Start** |Gets the date when the task is started.|DateTime|
 | **End** |Gets the date when the task should be finished.|DateTime|
 | **Duration** |Gets a value indicating the duration of the task.|TimeSpan|
-| **PercentComplete** |Gets a value in percents indicating the task completion.|Double|
+| **PercentComplete** |Gets a value in percents indicating the task completion.|Decimal|
 | **Summary** |Gets a boolean value indicating whether the taks is a summary task.|Bool|
 | **Dependencies** |Gets a collection of dependencies to other tasks. Each dependency has a type and predecessor **ID** . There are four types of dependencies.
 
