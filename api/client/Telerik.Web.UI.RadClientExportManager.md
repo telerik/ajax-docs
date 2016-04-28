@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.RadClientExportManager
 * [Telerik.Web.UI.RadWebControl]({%slug Telerik.Web.UI.RadWebControl%})
 * *[Telerik.Web.UI.RadClientExportManager]({%slug Telerik.Web.UI.RadClientExportManager%})*
 
+
 ## Events
 
 ### load
@@ -28,9 +29,9 @@ The instance of the RadClientExportManager raised the event.
 
 Empty Sys.EventArgs
 
-### pdfExporting
+### imageExported
 
-RadClientExportManager is about to export a PDF document.
+This event is raised when the image is already exported by RadClientExportManager.
 
 #### Event Data
 
@@ -38,9 +39,9 @@ RadClientExportManager is about to export a PDF document.
 
 The instance of the RadClientExportManager raised the event.
 
-##### args `Telerik.Web.UI.ClientExportManagerPdfExportingEventArgs`
+##### args `Sys.EventArgs`
 
-The event arguments.  
+Empty Sys.EventArgs
 
 ### pdfExported
 
@@ -56,23 +57,9 @@ The instance of the RadClientExportManager raised the event.
 
 Empty Sys.EventArgs
 
-### imageExporting
+### svgExported
 
-RadClientExportManager is about to export an image.
-
-#### Event Data
-
-#####  sender `Telerik.Web.UI.RadClientExportManager`
-
-The instance of the RadClientExportManager raised the event.
-
-##### args `Telerik.Web.UI.ClientExportManagerImageExportingEventArgs`
-
-The event arguments.  
-
-### imageExported
-
-This event is raised when the image is already exported by RadClientExportManager.
+This event is raised when the svg is already exported by RadClientExportManager.
 
 #### Event Data
 
@@ -83,6 +70,20 @@ The instance of the RadClientExportManager raised the event.
 ##### args `Sys.EventArgs`
 
 Empty Sys.EventArgs
+ 
+### pdfExporting
+
+RadClientExportManager is about to export a PDF document.
+
+#### Event Data
+
+#####  sender `Telerik.Web.UI.RadClientExportManager`
+
+The instance of the RadClientExportManager raised the event.
+
+##### args `Telerik.Web.UI.ClientExportManagerPdfExportingEventArgs`
+
+The event arguments.  
 
 ### svgExporting
 
@@ -98,9 +99,9 @@ The instance of the RadClientExportManager raised the event.
 
 The event arguments.  
 
-### svgExported
+### imageExporting
 
-This event is raised when the svg is already exported by RadClientExportManager.
+RadClientExportManager is about to export an image.
 
 #### Event Data
 
@@ -108,7 +109,8 @@ This event is raised when the svg is already exported by RadClientExportManager.
 
 The instance of the RadClientExportManager raised the event.
 
-##### args `Sys.EventArgs`
+##### args `Telerik.Web.UI.ClientExportManagerImageExportingEventArgs`
 
-Empty Sys.EventArgs
- 
+The event arguments.  
+
+

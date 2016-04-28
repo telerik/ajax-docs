@@ -12,29 +12,8 @@ slug: Telerik.Web.UI.RadLiveTile
 * [Telerik.Web.UI.RadBaseTile]({%slug Telerik.Web.UI.RadBaseTile%})
 * *[Telerik.Web.UI.RadLiveTile]({%slug Telerik.Web.UI.RadLiveTile%})*
 
+
 ## Methods
-
-### set_updateInterval
-
-Sets the interval (in milliseconds) after which the tile will automatically update the content.
-
-#### Parameters
-
-##### value `Number`
-
-#### Returns
-
-`None` 
-
-### Name
-
-Parameters
-
-#### Parameters
-
-#### Returns
-
-`None` 
 
 ### get_animationManager
 
@@ -56,6 +35,26 @@ Gets the HTML template that will be instantiated in the tile after live data req
 
 `None` 
 
+### get_updateInterval
+
+Returns the interval (in milliseconds) after which the tile will automatically update the content
+
+#### Parameters
+
+#### Returns
+
+`String` 
+
+### Name
+
+Parameters
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
 ### set_clientTemplate
 
 Sets the HTML template that will be instantiated in the tile after live data request
@@ -68,31 +67,20 @@ Sets the HTML template that will be instantiated in the tile after live data req
 
 `None` 
 
-### get_updateInterval
+### set_updateInterval
 
-Returns the interval (in milliseconds) after which the tile will automatically update the content
+Sets the interval (in milliseconds) after which the tile will automatically update the content.
 
 #### Parameters
 
+##### value `Number`
+
 #### Returns
 
-`String` 
+`None` 
+
 
 ## Events
-
-### templateDataBound
-
-The templateDataBound client-side event occurs after the client template is data bound.
-
-#### Event Data
-
-##### sender `Telerik.Web.UI.RadLiveTile`
-
-Reference of the RadLiveTile instance raised the event.
-
-##### args `Telerik.Web.UI.RadTemplateBoundEventArgs`
-
-The event arguments.
 
 ### dataLoaded
 
@@ -105,6 +93,20 @@ The dataLoaded event occurs after the data request returns the data successfully
 Reference of the RadLiveTile instance raised the event.
 
 ##### args `Telerik.Web.UI.LiveTileDataEventArgs`
+
+The event arguments.
+
+### dataLoading
+
+The dataLoading client-side event occurs before the data request is executed.
+
+#### Event Data
+
+##### sender `Telerik.Web.UI.RadLiveTile`
+
+Reference of the RadLiveTile instance raised the event.
+
+##### args `Telerik.Web.UI.LiveTileCancelEventArgs`
 
 The event arguments.
 
@@ -122,9 +124,9 @@ Reference of the RadLiveTile instance raised the event.
 
 The event arguments.
 
-### dataLoading
+### templateDataBound
 
-The dataLoading client-side event occurs before the data request is executed.
+The templateDataBound client-side event occurs after the client template is data bound.
 
 #### Event Data
 
@@ -132,7 +134,8 @@ The dataLoading client-side event occurs before the data request is executed.
 
 Reference of the RadLiveTile instance raised the event.
 
-##### args `Telerik.Web.UI.LiveTileCancelEventArgs`
+##### args `Telerik.Web.UI.RadTemplateBoundEventArgs`
 
 The event arguments.
+
 

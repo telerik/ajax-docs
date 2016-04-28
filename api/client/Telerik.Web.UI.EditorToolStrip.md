@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.EditorToolStrip
 * [Telerik.Web.UI.EditorSplitButton]({%slug Telerik.Web.UI.EditorSplitButton%})
 * *[Telerik.Web.UI.EditorToolStrip]({%slug Telerik.Web.UI.EditorToolStrip%})*
 
+
 ## Methods
 
 ### get_tools
@@ -35,3 +36,4 @@ Sets a new collection of tools.
 #### Returns
 
 `None` 
+

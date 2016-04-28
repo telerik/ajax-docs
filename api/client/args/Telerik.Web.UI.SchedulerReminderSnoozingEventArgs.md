@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.SchedulerReminderSnoozingEventArgs
 * [Telerik.Web.UI.SchedulerAppointmentCancelEventArgs]({%slug Telerik.Web.UI.SchedulerAppointmentCancelEventArgs%})
 * *[Telerik.Web.UI.SchedulerReminderSnoozingEventArgs]({%slug Telerik.Web.UI.SchedulerReminderSnoozingEventArgs%})*
 
+
 ## Methods
 
 ### get_reminder
@@ -23,3 +24,4 @@ Returns the reminder string.
 #### Returns
 
 `String`
+

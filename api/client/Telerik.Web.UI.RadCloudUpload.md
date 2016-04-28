@@ -12,21 +12,12 @@ slug: Telerik.Web.UI.RadCloudUpload
 * [Telerik.Web.UI.RadWebControl]({%slug Telerik.Web.UI.RadWebControl%})
 * *[Telerik.Web.UI.RadCloudUpload]({%slug Telerik.Web.UI.RadCloudUpload%})*
 
+
 ## Methods
 
 ### get_enabled
 
 Get the control's state.
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-### get_localization
-
-Get the control's localization.
 
 #### Parameters
 
@@ -44,9 +35,9 @@ Get the name of the loaded upload module.
 
 `None` 
 
-### set_enabled
+### get_localization
 
-Set the control's state.
+Get the control's localization.
 
 #### Parameters
 
@@ -63,4 +54,15 @@ Get the uploaded files.
 #### Returns
 
 `None` 
+
+### set_enabled
+
+Set the control's state.
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
 

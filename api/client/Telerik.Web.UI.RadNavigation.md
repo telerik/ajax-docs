@@ -12,17 +12,8 @@ slug: Telerik.Web.UI.RadNavigation
 * [Telerik.Web.UI.RadWebControl]({%slug Telerik.Web.UI.RadWebControl%})
 * *[Telerik.Web.UI.RadNavigation]({%slug Telerik.Web.UI.RadNavigation%})*
 
+
 ## Methods
-
-### get_allNodes
-
-Gets a collection of all NavigationNode objects that belong to the RadNavigation control.
-
-#### Parameters
-
-#### Returns
-
-`Array` A collection of NavigationNode objects that belong to the RadNavigation control.
 
 ### focus
 
@@ -33,6 +24,16 @@ Brings the focus to the RadNavigation control.
 #### Returns
 
 `None`
+
+### get_allNodes
+
+Gets a collection of all NavigationNode objects that belong to the RadNavigation control.
+
+#### Parameters
+
+#### Returns
+
+`Array` A collection of NavigationNode objects that belong to the RadNavigation control.
 
 ### get_element
 
@@ -54,16 +55,6 @@ Returns a value, indicating whether the button control is enabled.
 
 `Boolean` The value of the Enabled property.
 
-### get_nodes
-
-Returns a collection of NavigationNode to belonging nodes.
-
-#### Parameters
-
-#### Returns
-
-`Array` A collection of NavigationNode objects that belong to the RadNavigation control.
-
 ### get_firstNode
 
 Returns the first node of the Navigation control.
@@ -73,6 +64,16 @@ Returns the first node of the Navigation control.
 #### Returns
 
 `Object` first NavigationNode object that belong to the RadNavigation control.
+
+### get_nodes
+
+Returns a collection of NavigationNode to belonging nodes.
+
+#### Parameters
+
+#### Returns
+
+`Array` A collection of NavigationNode objects that belong to the RadNavigation control.
 
 ### get_nodesData
 
@@ -114,4 +115,6 @@ Moves all nodes outside the menu button.
 
 `None`
 
-## Events
+
+Events
+

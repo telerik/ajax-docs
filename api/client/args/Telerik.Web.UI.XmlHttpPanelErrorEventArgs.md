@@ -12,17 +12,8 @@ slug: Telerik.Web.UI.XmlHttpPanelErrorEventArgs
 * Sys.EventArgs
 * *[Telerik.Web.UI.XmlHttpPanelErrorEventArgs]({%slug Telerik.Web.UI.XmlHttpPanelErrorEventArgs%})*
 
+
 ## Methods
-
-### get_errorMessage
-
-Gets the message displayed when an error has occurred during the process of loading content.
-
-#### Parameters
-
-#### Returns
-
-`String` 
 
 ### get_cancelErrorAlert
 
@@ -33,6 +24,16 @@ Gets the bool value indicating whether the error message will be alerted.
 #### Returns
 
 `Boolean` 
+
+### get_errorMessage
+
+Gets the message displayed when an error has occurred during the process of loading content.
+
+#### Parameters
+
+#### Returns
+
+`String` 
 
 ### set_cancelErrorAlert
 
@@ -47,3 +48,4 @@ Whether or not the error message alert should be canceled.
 #### Returns
 
 `None` 
+

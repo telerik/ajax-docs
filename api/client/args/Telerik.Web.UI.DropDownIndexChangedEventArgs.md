@@ -7,10 +7,12 @@ slug: Telerik.Web.UI.DropDownListIndexChangedEventArgs
 
 # Telerik.Web.UI.DropDownListIndexChangedEventArgs : Sys.EventArgs 
 
-## Inheritance Hierarchy
+
+Inheritance Hierarchy
 
 * Sys.EventArgs
 * *[Telerik.Web.UI.DropDownListIndexChangedEventArgs]({%slug Telerik.Web.UI.DropDownListIndexChangedEventArgs%})*
+
 
 ## Methods
 
@@ -23,4 +25,5 @@ Returns the index of the item, that has just been selected.
 #### Returns
 
 `Number` the index of the item, that has just been selected.
+
 

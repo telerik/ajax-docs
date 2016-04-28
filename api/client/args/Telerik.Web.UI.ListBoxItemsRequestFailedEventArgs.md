@@ -7,10 +7,12 @@ slug: Telerik.Web.UI.ListBoxItemsRequestFailedEventArgs
 
 # Telerik.Web.UI.ListBoxItemsRequestFailedEventArgs: Sys.CancelEventArgs 
 
-## Inheritance Hierarchy
+
+Inheritance Hierarchy
 
 * Sys.CancelEventArgs
 * [Telerik.Web.UI.ListBoxItemsRequestFailedEventArgs]({%slug Telerik.Web.UI.ListBoxItemsRequestFailedEventArgs%})
+
 
 ## Methods
 
@@ -24,5 +26,6 @@ Returns the error message.
 #### Returns
 
 `String`  returns the error message.  
+
 
 

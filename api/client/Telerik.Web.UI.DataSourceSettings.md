@@ -11,6 +11,8 @@ slug: Telerik.Web.UI.DataSourceSettings
 
 * *[Telerik.Web.UI.DataSourceSettings]({%slug Telerik.Web.UI.DataSourceSettings%})*
 
-## Methods
+
+Methods
+
 
 

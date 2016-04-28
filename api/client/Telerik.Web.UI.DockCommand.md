@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.DockCommand
 * Sys.UI.Control
 * *[Telerik.Web.UI.DockCommand]({%slug Telerik.Web.UI.DockCommand%})*
 
+
 ## Methods
 
 ###  conditionalPostback
@@ -28,7 +29,7 @@ The parameter passed to the server when post back is performed.
 
 `None` 
 
-###  get_autoPostBack
+### get_autoPostBack
 
 Gets the bool value indicating whether the command will perform post back.
 
@@ -38,7 +39,7 @@ Gets the bool value indicating whether the command will perform post back.
 
 `Boolean` The bool value indicating whether the command will perform post back.
 
-###  get_clientTypeName
+### get_clientTypeName
 
 #### Parameters
 
@@ -46,7 +47,7 @@ Gets the bool value indicating whether the command will perform post back.
 
 `String` 
 
-###  get_cssClass
+### get_cssClass
 
 Gets the CSS class of the DockCommand.
 
@@ -56,7 +57,7 @@ Gets the CSS class of the DockCommand.
 
 `String` The CSS class of the DockCommand.
 
-###  get_name
+### get_name
 
 Gets the name of the command.
 
@@ -66,7 +67,7 @@ Gets the name of the command.
 
 `String` The name of the command.
 
-###  get_radDock
+### get_radDock
 
 Gets the parent Telerik.Web.UI.RadDock control.
 
@@ -76,7 +77,7 @@ Gets the parent Telerik.Web.UI.RadDock control.
 
 `Telerik.Web.UI.RadDock` The parent Telerik.Web.UI.RadDock control.
 
-###  get_text
+### get_text
 
 Gets the text of the command.
 
@@ -86,7 +87,7 @@ Gets the text of the command.
 
 `String` The text of the command
 
-###  onCommand
+### onCommand
 
 The Command item's main method. Override this method to implement custom logic.
 
@@ -98,7 +99,7 @@ The Command item's main method. Override this method to implement custom logic.
 
 `None` 
 
-###  raise_command
+### raise_command
 
 Raises the OnClientCommand event.
 
@@ -110,7 +111,7 @@ Raises the OnClientCommand event.
 
 `None` 
 
-###  set_autoPostBack
+### set_autoPostBack
 
 Sets a bool value indicating whether the command will perform post back.
 
@@ -124,7 +125,7 @@ The bool value indicating whether the command will perform post back.
 
 `None` 
 
-###  set_clientTypeName
+### set_clientTypeName
 
 #### Parameters
 
@@ -134,7 +135,7 @@ The bool value indicating whether the command will perform post back.
 
 `None` 
 
-###  set_cssClass
+### set_cssClass
 
 Sets a CSS class to the DockCommand.
 
@@ -148,7 +149,7 @@ The CSS class of the DockCommand.
 
 `None` 
 
-###  set_name
+### set_name
 
 Sets a name to the command.
 
@@ -162,7 +163,7 @@ The name of the command.
 
 `None` 
 
-###  set_radDock
+### set_radDock
 
 Sets a parent Telerik.Web.UI.RadDock control.
 
@@ -176,7 +177,7 @@ The parent Telerik.Web.UI.RadDock control.
 
 `None` 
 
-###  set_text
+### set_text
 
 Sets a text to the command.
 
@@ -189,6 +190,7 @@ The text of the command.
 #### Returns
 
 `None` 
+
 
 ## Events
 
@@ -205,6 +207,7 @@ The DockComamnd instance raised the event.
 ##### args `Sys.CancelEventArgs`
 
 The event arguments 
+
 
 
 

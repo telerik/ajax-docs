@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.DialogOpenEventArgs
 * Sys.EventArgs
 * *[Telerik.Web.UI.DialogOpenEventArgs]({%slug Telerik.Web.UI.DialogOpenEventArgs%})*
 
+
 ## Methods
 
 ### get_dialogName
@@ -45,6 +46,7 @@ Sets new client parameters to the dialog.
 #### Returns
 
 `None` 
+
 
 
 

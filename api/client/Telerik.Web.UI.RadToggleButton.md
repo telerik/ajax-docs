@@ -12,17 +12,18 @@ slug: Telerik.Web.UI.RadToggleButton
 * [Telerik.Web.UI.ButtonBase.PostBackButtonBase]({%slug Telerik.Web.UI.ButtonBase.PostBackButtonBase%})
 * *[Telerik.Web.UI.RadToggleButton]({%slug Telerik.Web.UI.RadToggleButton%})*
 
+
 ## Methods
 
-### get_toggleStates
+### get_iconElement
 
-Gets a collection of RadButtonToggleState objects that belong to the RadToggleButton control.
+Gets a reference to the HTML element that holds the icon.
 
 #### Parameters
 
 #### Returns
 
-`Array` A collection of RadButtonToggleState objects that belong to the RadToggleButton control.
+`Element` A reference to the HTML element that holds the icon.
 
 ### get_selectedToggleState
 
@@ -44,6 +45,16 @@ Gets the index of the currently selected ToggleState of the RadToggleButton cont
 
 `Number` The index of the currently selected ToggleState of the RadToggleButton control
 
+### get_toggleStates
+
+Gets a collection of RadButtonToggleState objects that belong to the RadToggleButton control.
+
+#### Parameters
+
+#### Returns
+
+`Array` A collection of RadButtonToggleState objects that belong to the RadToggleButton control.
+
 ### set_selectedToggleStateIndex
 
 Sets the index of the currently selected ToggleState of the RadToggleButton control, when used as a custom toggle button.
@@ -58,31 +69,8 @@ The index of the currently selected ToggleState of the RadToggleButton control
 
 `None` 
 
-### get_iconElement
-
-Gets a reference to the HTML element that holds the icon.
-
-#### Parameters
-
-#### Returns
-
-`Element` A reference to the HTML element that holds the icon.
 
 ## Events
-
-### toggleStateChanging 
-
-The toggleStateChanging event is fired before the SelectedToggleState and the SelectedToggleStateIndex properties of the RadToggleButton are changed.
-
-#### Event Data
-
-#####  sender `Telerik.Web.UI.RadToggleButton`
-
-The instance of the RadToggleButton raised the event.
-
-##### args `Telerik.Web.UI.ButtonToggleStateCancelEventArgs`
-
-The event arguments.
 
 ### toggleStateChanged 
 
@@ -97,3 +85,18 @@ The instance of the RadToggleButton raised the event.
 ##### args `Telerik.Web.UI.ButtonToggleStateEventArgs`
 
 The event arguments.
+### toggleStateChanging 
+
+The toggleStateChanging event is fired before the SelectedToggleState and the SelectedToggleStateIndex properties of the RadToggleButton are changed.
+
+#### Event Data
+
+#####  sender `Telerik.Web.UI.RadToggleButton`
+
+The instance of the RadToggleButton raised the event.
+
+##### args `Telerik.Web.UI.ButtonToggleStateCancelEventArgs`
+
+The event arguments.
+
+

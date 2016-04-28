@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.RotatorCancelEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.RotatorCancelEventArgs]({%slug Telerik.Web.UI.RotatorCancelEventArgs%})*
 
+
 ## Methods
 
 ###  get_item
@@ -23,3 +24,4 @@ Returns the client object of the clicked/shown item.
 #### Returns
 
 `Telerik.Web.UI.RadRotatorItem` 
+

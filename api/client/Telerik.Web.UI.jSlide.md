@@ -11,6 +11,7 @@ slug: Telerik.Web.UI.jSlide
 
 * *[Telerik.Web.UI.jSlide]({%slug Telerik.Web.UI.jSlide%})*
 
+
 ## Methods
 
 ###  collapse
@@ -21,7 +22,7 @@ slug: Telerik.Web.UI.jSlide
 
 `None` 
 
-###  expand
+### expand
 
 #### Parameters
 
@@ -29,7 +30,7 @@ slug: Telerik.Web.UI.jSlide
 
 `None` 
 
-###  get_animatedElement
+### get_animatedElement
 
 #### Parameters
 
@@ -37,7 +38,7 @@ slug: Telerik.Web.UI.jSlide
 
 `None` 
 
-###  get_direction
+### get_direction
 
 #### Parameters
 
@@ -45,7 +46,7 @@ slug: Telerik.Web.UI.jSlide
 
 `None` 
 
-###  get_element
+### get_element
 
 #### Parameters
 
@@ -53,7 +54,7 @@ slug: Telerik.Web.UI.jSlide
 
 `Element` 
 
-###  get_events
+### get_events
 
 #### Parameters
 
@@ -61,7 +62,7 @@ slug: Telerik.Web.UI.jSlide
 
 `None` 
 
-###  set_animatedElement
+### set_animatedElement
 
 #### Parameters
 
@@ -69,7 +70,7 @@ slug: Telerik.Web.UI.jSlide
 
 `None` 
 
-###  set_direction
+### set_direction
 
 #### Parameters
 
@@ -77,7 +78,7 @@ slug: Telerik.Web.UI.jSlide
 
 `None` 
 
-###  show
+### show
 
 #### Parameters
 
@@ -85,13 +86,14 @@ slug: Telerik.Web.UI.jSlide
 
 `None` 
 
-###  updateSize
+### updateSize
 
 #### Parameters
 
 #### Returns
 
 `None` 
+
 
 ## Events
 
@@ -150,3 +152,4 @@ The jSlide instance raised the event.
 ##### args `Sys.EventArgs`
 
 The event arguments.
+

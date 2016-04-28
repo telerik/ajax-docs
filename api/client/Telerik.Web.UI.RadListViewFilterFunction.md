@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.RadListViewFilterFunction
 
 * *[Telerik.Web.UI.RadListViewFilterFunction]({%slug Telerik.Web.UI.RadListViewFilterFunction%})*
 
+
 ## Methods
 
 ### static Telerik
@@ -23,5 +24,6 @@ Enumerates the logial group filter operators in RadListView
 #### Returns
 
 `None` 
+
 
 

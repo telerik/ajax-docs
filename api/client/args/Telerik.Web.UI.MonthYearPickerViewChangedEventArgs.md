@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.MonthYearPickerViewChangedEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.MonthYearPickerViewChangedEventArgs]({%slug Telerik.Web.UI.MonthYearPickerViewChangedEventArgs%})*
 
+
 ## Methods
 
 ###  get_pickerControl
@@ -23,5 +24,6 @@ Returns a reference to the month-year picker control.
 #### Returns
 
 `Telerik.Web.UI.RadMonthYearPicker` 
+
 
 

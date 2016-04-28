@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.ComboBoxCheckAllCheckedEventArgs
 * Sys.EventArgs
 * *[Telerik.Web.UI.ComboBoxCheckAllCheckedEventArgs]({%slug Telerik.Web.UI.ComboBoxCheckAllCheckedEventArgs%})*
 
+
 ## Methods
 
 ###  get_checked
@@ -25,7 +26,7 @@ Returns the value of the "Check All" check box after it is checked.
 `Boolean` the value of the "Check All" check box after it is checked. 
 
 
-###  get_domEvent
+### get_domEvent
 
 Returns the Sys.UI.DomEvent instance associated to the raised event.
 
@@ -34,4 +35,5 @@ Returns the Sys.UI.DomEvent instance associated to the raised event.
 #### Returns
 
 `Sys.UI.DomEvent` 
+
 

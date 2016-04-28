@@ -7,10 +7,12 @@ slug: Telerik.Web.UI.ButtonToggleStateCancelEventArgs
 
 # Telerik.Web.UI.ButtonToggleStateCancelEventArgs: Telerik.Web.UI.ButtonCheckedCancelEventArgs 
 
-## Inheritance Hierarchy
+
+Inheritance Hierarchy
 
 * [Telerik.Web.UI.ButtonCheckedCancelEventArgs]({%slug Telerik.Web.UI.ButtonCheckedCancelEventArgs%})
 * [Telerik.Web.UI.ButtonToggleStateCancelEventArgs]({%slug Telerik.Web.UI.ButtonToggleStateCancelEventArgs%})
+
 
 ## Methods
 
@@ -24,7 +26,7 @@ Returns the current RadButtonToggleState instance applied to the button.
 
 `Telerik.Web.UI.RadButtonToggleState` 
 
-###  set_currentToggleState
+### set_currentToggleState
 
 Sets a new RadButtonToggleState instance.
 
@@ -37,3 +39,4 @@ The RadButtonToggleState instance that will be assigned.
 #### Returns
 
 `None`
+

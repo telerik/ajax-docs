@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.GridDataItemEventArgs
 * Sys.EventArgs
 * *[Telerik.Web.UI.GridDataItemEventArgs]({%slug Telerik.Web.UI.GridDataItemEventArgs%})*
 
+
 ## Methods
 
 ###  getDataKeyValue
@@ -26,7 +27,7 @@ Returns the DataKeyValue for the current row. Requires the corresponding field n
 
 `String` 
 
-###  get_domEvent
+### get_domEvent
 
 Returns the DOM event that was raised for the current event.
 
@@ -36,7 +37,7 @@ Returns the DOM event that was raised for the current event.
 
 `Sys.UI.DomEvent` 
 
-###  get_gridDataItem
+### get_gridDataItem
 
 Returns a reference to the GridDataItem object.
 
@@ -46,7 +47,7 @@ Returns a reference to the GridDataItem object.
 
 `Telerik.Web.UI.GridDataItem` 
 
-###  get_id
+### get_id
 
 Returns the ID of the row object.
 
@@ -56,7 +57,7 @@ Returns the ID of the row object.
 
 `String` 
 
-###  get_item
+### get_item
 
 Returns a reference to the GridDataItem object.
 
@@ -66,7 +67,7 @@ Returns a reference to the GridDataItem object.
 
 `Telerik.Web.UI.GridDataItem` 
 
-###  get_itemIndexHierarchical
+### get_itemIndexHierarchical
 
 Returns the hierarchical item index.
 
@@ -76,7 +77,7 @@ Returns the hierarchical item index.
 
 `String` 
 
-###  get_tableView
+### get_tableView
 
 Returns the owner TableView object.
 
@@ -85,5 +86,6 @@ Returns the owner TableView object.
 #### Returns
 
 `Telerik.Web.UI.GridTableView` 
+
 
 

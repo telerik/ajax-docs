@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.RadToolTipManager
 * [Telerik.Web.UI.RadWebControl]({%slug Telerik.Web.UI.RadWebControl%})
 * *[Telerik.Web.UI.RadToolTipManager]({%slug Telerik.Web.UI.RadToolTipManager%})*
 
+
 ## Methods
 
 ###  clearCloneCache
@@ -24,7 +25,7 @@ Clears cached proeprties of the manager. This property should be used when a set
 
 `None` 
 
-###  createToolTip
+### createToolTip
 
 Creates a tooltip for a particular element
 
@@ -36,7 +37,37 @@ Creates a tooltip for a particular element
 
 `None` 
 
-###  getToolTipByElement
+### get_autoTooltipify
+
+Gets a value whether the RadToolTipManager, when its TargetControls collection is empty will tooltipify automatically all elements on the page that have a "title" attribute
+
+#### Parameters
+
+#### Returns
+
+`Boolean` 
+
+### get_enableDataCaching
+
+Gets a value which determines whether tooltip content should be cached after first load on demand request
+
+#### Parameters
+
+#### Returns
+
+`Boolean` 
+
+### get_toolTipZoneID
+
+Gets the ID of the zone which should be automatically tooltipified
+
+#### Parameters
+
+#### Returns
+
+`String` 
+
+### getToolTipByElement
 
 Gets the tooltip associated with a corresponding target element if such a tooltip exists
 
@@ -48,37 +79,7 @@ Gets the tooltip associated with a corresponding target element if such a toolti
 
 `Telerik.Web.UI.RadToolTip` 
 
-###  get_autoTooltipify
-
-Gets a value whether the RadToolTipManager, when its TargetControls collection is empty will tooltipify automatically all elements on the page that have a "title" attribute
-
-#### Parameters
-
-#### Returns
-
-`Boolean` 
-
-###  get_enableDataCaching
-
-Gets a value which determines whether tooltip content should be cached after first load on demand request
-
-#### Parameters
-
-#### Returns
-
-`Boolean` 
-
-###  get_toolTipZoneID
-
-Gets the ID of the zone which should be automatically tooltipified
-
-#### Parameters
-
-#### Returns
-
-`String` 
-
-###  set_autoTooltipify
+### set_autoTooltipify
 
 Sets a value whether the RadToolTipManager, when its TargetControls collection is empty, will tooltipify automatically all elements on the page that have a "title" attribute
 
@@ -90,7 +91,7 @@ Sets a value whether the RadToolTipManager, when its TargetControls collection i
 
 `None` 
 
-###  set_enableDataCaching
+### set_enableDataCaching
 
 Sets a value which determines whether tooltip content should be cached after first load on demand request
 
@@ -102,7 +103,7 @@ Sets a value which determines whether tooltip content should be cached after fir
 
 `None` 
 
-###  set_toolTipZoneID
+### set_toolTipZoneID
 
 Sets the ID of the zone which should be automatically tooltipified
 
@@ -114,21 +115,8 @@ Sets the ID of the zone which should be automatically tooltipified
 
 `None` 
 
+
 ## Events
-
-### requestStart
-
-The requestStart event is fired when the call to the WebService or the AJAX request starts. The event is cancellable. 
-
-#### Event Data
-
-##### sender `Telerik.Web.UI.RadToolTipManager`
-
-The instance of the RadToolTipManager raised the event.
-
-##### eventArgs `Sys.CancelEventArgs`
-
-The event arguments.
 
 ### requestEnd
 
@@ -144,6 +132,20 @@ The instance of the RadToolTipManager raised the event.
 
 Empty event argument.
 
+### requestStart
+
+The requestStart event is fired when the call to the WebService or the AJAX request starts. The event is cancellable. 
+
+#### Event Data
+
+##### sender `Telerik.Web.UI.RadToolTipManager`
+
+The instance of the RadToolTipManager raised the event.
+
+##### eventArgs `Sys.CancelEventArgs`
+
+The event arguments.
+
 ### responseError
 
 The responseError event is fired when a server error occurs during the request. It allows the developer to choose the behavior if this happens. 
@@ -157,3 +159,4 @@ The instance of the RadToolTipManager raised the event.
 ##### eventArgs `Telerik.Web.UI.ToolTipManagerErrorEventArgs`
 
 The event arguments.
+

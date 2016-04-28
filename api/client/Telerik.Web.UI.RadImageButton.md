@@ -12,17 +12,8 @@ slug: Telerik.Web.UI.RadImageButton
 * [Telerik.Web.UI.ButtonBase.PostBackButtonBase]({%slug Telerik.Web.UI.ButtonBase.PostBackButtonBase%})
 * *[Telerik.Web.UI.RadImageButton]({%slug Telerik.Web.UI.RadImageButton%})*
 
+
 ## Methods
-
-### get_imageUrl
-
-Gets the location of an image to display in the RadImageButton control.
-
-#### Parameters
-
-#### Returns
-
-`String` The location of an image to display in the RadImageButton control.
 
 ### get_disabledImageUrl
 
@@ -44,6 +35,16 @@ Gets the location of an image to display in the RadImageButton control, when the
 
 `String` The location of an image to display in the RadImageButton control, when the mouse pointer is over the control.
 
+### get_imageUrl
+
+Gets the location of an image to display in the RadImageButton control.
+
+#### Parameters
+
+#### Returns
+
+`String` The location of an image to display in the RadImageButton control.
+
 ### get_pressedImageUrl
 
 Gets the location of an image to display in the RadImageButton control, when the control is pressed.
@@ -53,20 +54,6 @@ Gets the location of an image to display in the RadImageButton control, when the
 #### Returns
 
 `String` The location of an image to display in the RadImageButton control, when the control is pressed.
-
-### set_imageUrl
-
-Sets the location of an image to display in the RadImageButton control.
-
-#### Parameters
-
-##### value `String`
-
-The location of an image to display in the RadImageButton control.
-
-#### Returns
-
-`None`
 
 ### set_disabledImageUrl
 
@@ -96,6 +83,20 @@ The location of an image to display in the RadImageButton control, when the mous
 
 `None` 
 
+### set_imageUrl
+
+Sets the location of an image to display in the RadImageButton control.
+
+#### Parameters
+
+##### value `String`
+
+The location of an image to display in the RadImageButton control.
+
+#### Returns
+
+`None`
+
 ### set_pressedImageUrl
 
 Sets the location of an image to display in the RadImageButton control, when the control is pressed.
@@ -109,3 +110,4 @@ The location of an image to display in the RadImageButton control, when the cont
 #### Returns
 
 `None` 
+

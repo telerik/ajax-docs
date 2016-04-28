@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.RadComboBoxCancelEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.RadComboBoxCancelEventArgs]({%slug Telerik.Web.UI.RadComboBoxCancelEventArgs%})*
 
+
 ## Methods
 
 ###  get_domEvent
@@ -23,4 +24,5 @@ Returns the Sys.UI.DomEvent instance associated to the raised event.
 #### Returns
 
 `Sys.UI.DomEvent` 
+
 

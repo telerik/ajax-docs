@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.InputManagerValidatingEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.InputManagerValidatingEventArgs]({%slug Telerik.Web.UI.InputManagerValidatingEventArgs%})*
 
+
 ## Methods
 
 ###  get_context
@@ -22,7 +23,7 @@ slug: Telerik.Web.UI.InputManagerValidatingEventArgs
 
 `Object` 
 
-###  get_input
+### get_input
 
 #### Parameters
 
@@ -30,7 +31,7 @@ slug: Telerik.Web.UI.InputManagerValidatingEventArgs
 
 `Element` 
 
-###  get_isValid
+### get_isValid
 
 #### Parameters
 
@@ -38,7 +39,7 @@ slug: Telerik.Web.UI.InputManagerValidatingEventArgs
 
 `Boolean` 
 
-###  set_context
+### set_context
 
 #### Parameters
 
@@ -48,7 +49,7 @@ slug: Telerik.Web.UI.InputManagerValidatingEventArgs
 
 `None` 
 
-###  set_isValid
+### set_isValid
 
 #### Parameters
 
@@ -57,5 +58,6 @@ slug: Telerik.Web.UI.InputManagerValidatingEventArgs
 #### Returns
 
 `None` 
+
 
 

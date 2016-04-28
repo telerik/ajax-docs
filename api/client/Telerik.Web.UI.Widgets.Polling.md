@@ -9,7 +9,7 @@ slug: Telerik.Web.UI.Widgets.Polling
 
 ## Inheritance Hierarchy
 
-* *[Telerik.Web.UI.Widgets.Polling]({%slug Telerik.Web.UI.Widgets.Polling%})*
+* *[Telerik.Web.UI.Widgets.Polling]({%slug Telerik.Web.UI.Widgets.Polling%})*## 
 
 ### static waitFor
 
@@ -50,3 +50,4 @@ The expected value of the node's css styling.
 A jQuery Promise object that is part of the Deferred object. It allows for improved coding for async cases as is the case with Polling.
 
 `None`
+

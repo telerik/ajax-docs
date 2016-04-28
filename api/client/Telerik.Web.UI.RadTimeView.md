@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.RadTimeView
 * [Telerik.Web.UI.RadWebControl]({%slug Telerik.Web.UI.RadWebControl%})
 * *[Telerik.Web.UI.RadTimeView]({%slug Telerik.Web.UI.RadTimeView%})*
 
+
 ## Methods
 
 ###  getTime
@@ -24,7 +25,7 @@ Returns the selected date and time, or null if no value is selected.
 
 `Date` 
 
-###  get_columns
+### get_columns
 
 Returns the number of columns used to lay out values in the time view.
 
@@ -34,7 +35,7 @@ Returns the number of columns used to lay out values in the time view.
 
 `Number` 
 
-###  get_culture
+### get_culture
 
 Returns a string that contains the current culture
 
@@ -44,7 +45,7 @@ Returns a string that contains the current culture
 
 `String` 
 
-###  get_customTimes
+### get_customTimes
 
 Gets the custom times of the TimeView object.
 
@@ -54,7 +55,7 @@ Gets the custom times of the TimeView object.
 
 `Array` 
 
-###  get_dataSource
+### get_dataSource
 
 Returns the assigned datasource of the TimeView object.
 
@@ -64,7 +65,7 @@ Returns the assigned datasource of the TimeView object.
 
 `Array` 
 
-###  get_enableAriaSupport
+### get_enableAriaSupport
 
 Returns a boolean value indicating whether the Aria support has been enabled.
 
@@ -74,7 +75,7 @@ Returns a boolean value indicating whether the Aria support has been enabled.
 
 `Boolean` 
 
-###  get_endTime
+### get_endTime
 
 Returns the last time that can appear in the time view. The last time that actually appears is the latest time that is a whole number of intervals after the start time which is less than this time.
 
@@ -84,7 +85,7 @@ Returns the last time that can appear in the time view. The last time that actua
 
 `Date` 
 
-###  get_interval
+### get_interval
 
 Returns the time interval between successive values in the time view.
 
@@ -94,7 +95,7 @@ Returns the time interval between successive values in the time view.
 
 `Date` 
 
-###  get_itemStyles
+### get_itemStyles
 
 Returns an array that determines the classes used for the predined styles.
 
@@ -104,7 +105,7 @@ Returns an array that determines the classes used for the predined styles.
 
 `Array` 
 
-###  get_showFooter
+### get_showFooter
 
 Returns whether the time view displays its footer.
 
@@ -114,7 +115,7 @@ Returns whether the time view displays its footer.
 
 `Boolean` 
 
-###  get_showHeader
+### get_showHeader
 
 Returns whether the time view displays its header.
 
@@ -124,7 +125,7 @@ Returns whether the time view displays its header.
 
 `Boolean` 
 
-###  get_startTime
+### get_startTime
 
 Returns the earliest time that is displayed by the time view.
 
@@ -134,7 +135,7 @@ Returns the earliest time that is displayed by the time view.
 
 `Date` 
 
-###  get_timeFormat
+### get_timeFormat
 
 Returns the time format of the RadTimeView control.
 
@@ -144,7 +145,7 @@ Returns the time format of the RadTimeView control.
 
 `String` 
 
-###  raise_clientTimeSelected
+### raise_clientTimeSelected
 
 Raises the clientTimeSelected event.
 
@@ -156,7 +157,7 @@ Raises the clientTimeSelected event.
 
 `None` 
 
-###  raise_clientTimeSelecting
+### raise_clientTimeSelecting
 
 Raises the clientTimeSelecting event.
 
@@ -168,7 +169,116 @@ Raises the clientTimeSelecting event.
 
 `None` 
 
-###  setTime
+### set_columns
+
+Sets the number of columns used to lay out values in the time view.
+
+#### Parameters
+
+##### value `Number`
+
+#### Returns
+
+`None` 
+
+### set_customTimes
+
+Adds an array of custom times to the TimeView object.
+
+#### Parameters
+
+##### value `Array`
+
+#### Returns
+
+`None` 
+
+### set_dataSource
+
+Sets a new datasource to the TimeView object.
+
+#### Parameters
+
+##### value `Array`
+
+#### Returns
+
+`None` 
+
+### set_endTime
+
+Sets the last time that can appear in the time view. The last time that actually appears is the latest time that is a whole number of intervals after the start time which is less than this time.
+
+#### Parameters
+
+##### value `Date`
+
+#### Returns
+
+`None` 
+
+### set_interval
+
+Sets the time interval between successive values in the time view.
+
+#### Parameters
+
+##### value `Date`
+
+#### Returns
+
+`None` 
+
+### set_itemStyles
+
+Determines the classes used for the predined styles.
+
+#### Parameters
+
+##### value `Array`
+
+#### Returns
+
+`None` 
+
+### set_showFooter
+
+Determines whether the time view displays its footer.
+
+#### Parameters
+
+##### value `Boolean`
+
+#### Returns
+
+`None` 
+
+### set_showHeader
+
+Shows/hides the time view header.
+
+#### Parameters
+
+##### value `Boolean`
+
+#### Returns
+
+`None` 
+
+### set_startTime
+
+Sets the earliest time that is displayed by the time view.
+
+#### Parameters
+
+##### value `Date`
+
+#### Returns
+
+`None` 
+
+
+### setTime
 
 Assigns the value of the time view.
 
@@ -181,114 +291,6 @@ Assigns the value of the time view.
 ##### seconds `Number`
 
 ##### Date `Date`
-
-#### Returns
-
-`None` 
-
-###  set_columns
-
-Sets the number of columns used to lay out values in the time view.
-
-#### Parameters
-
-##### value `Number`
-
-#### Returns
-
-`None` 
-
-###  set_customTimes
-
-Adds an array of custom times to the TimeView object.
-
-#### Parameters
-
-##### value `Array`
-
-#### Returns
-
-`None` 
-
-###  set_dataSource
-
-Sets a new datasource to the TimeView object.
-
-#### Parameters
-
-##### value `Array`
-
-#### Returns
-
-`None` 
-
-###  set_endTime
-
-Sets the last time that can appear in the time view. The last time that actually appears is the latest time that is a whole number of intervals after the start time which is less than this time.
-
-#### Parameters
-
-##### value `Date`
-
-#### Returns
-
-`None` 
-
-###  set_interval
-
-Sets the time interval between successive values in the time view.
-
-#### Parameters
-
-##### value `Date`
-
-#### Returns
-
-`None` 
-
-###  set_itemStyles
-
-Determines the classes used for the predined styles.
-
-#### Parameters
-
-##### value `Array`
-
-#### Returns
-
-`None` 
-
-###  set_showFooter
-
-Determines whether the time view displays its footer.
-
-#### Parameters
-
-##### value `Boolean`
-
-#### Returns
-
-`None` 
-
-###  set_showHeader
-
-Shows/hides the time view header.
-
-#### Parameters
-
-##### value `Boolean`
-
-#### Returns
-
-`None` 
-
-###  set_startTime
-
-Sets the earliest time that is displayed by the time view.
-
-#### Parameters
-
-##### value `Date`
 
 #### Returns
 
@@ -324,3 +326,4 @@ The instance of the RadTimeView raised the event.
 ##### args `Telerik.Web.UI.TimeViewSelectingEventArgs`
 
 The event arguments.
+

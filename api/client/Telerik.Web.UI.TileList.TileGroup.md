@@ -11,6 +11,7 @@ slug: Telerik.Web.UI.TileList.TileGroup
 
 * *[Telerik.Web.UI.TileList.TileGroup]({%slug Telerik.Web.UI.TileList.TileGroup%})*
 
+
 ## Methods
 
 ###  get_tiles
@@ -22,5 +23,6 @@ Returns the tiles in the given group.
 #### Returns
 
 `Object` 
+
 
 

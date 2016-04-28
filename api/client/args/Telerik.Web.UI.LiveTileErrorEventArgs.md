@@ -7,10 +7,12 @@ slug: Telerik.Web.UI.LiveTileErrorEventArgs
 
 # Telerik.Web.UI.LiveTileErrorEventArgs : Sys.EventArgs 
 
-## Inheritance Hierarchy
+
+Inheritance Hierarchy
 
 * Sys.EventArgs
 * [Telerik.Web.UI.LiveTileErrorEventArgs]({%slug Telerik.Web.UI.LiveTileErrorEventArgs%})
+
 
 ## Methods
 
@@ -45,5 +47,6 @@ Sets a flag that indicates whether the alert with the server error message will 
 #### Returns
 
 `None` 
+
 
 

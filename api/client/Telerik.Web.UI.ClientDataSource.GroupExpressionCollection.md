@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.ClientDataSource.GroupExpressionCollection
 * [Telerik.Web.UI.ClientDataSource.CollectionBase]({%slug Telerik.Web.UI.ClientDataSource.CollectionBase%})
 * *[Telerik.Web.UI.ClientDataSource.GroupExpressionCollection]({%slug Telerik.Web.UI.ClientDataSource.GroupExpressionCollection%})*
 
+
 ## Methods
 
 ###  add
@@ -21,5 +22,6 @@ slug: Telerik.Web.UI.ClientDataSource.GroupExpressionCollection
 #### Returns
 
 `None` 
+
 
 

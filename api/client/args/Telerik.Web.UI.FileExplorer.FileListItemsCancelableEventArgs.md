@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.FileExplorer.FileListItemsCancelableEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.FileExplorer.FileListItemsCancelableEventArgs]({%slug Telerik.Web.UI.FileExplorer.FileListItemsCancelableEventArgs%})*
 
+
 ## Methods
 
 ###  get_domEvent
@@ -24,7 +25,7 @@ Getter for the DOM event associated with the custom event
 
 `Sys.UI.DomEvent` DOM event
 
-###  get_items
+### get_items
 
 Getter for the items, for which the event has been raised
 
@@ -33,5 +34,6 @@ Getter for the items, for which the event has been raised
 #### Returns
 
 `Array` An array of items resembling the Telerik.Web.UI.FileExplorer.FileDataItem
+
 
 

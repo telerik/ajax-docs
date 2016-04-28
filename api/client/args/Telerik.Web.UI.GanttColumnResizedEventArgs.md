@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.GanttColumnResizedEventArgs
 * Sys.EventArgs
 * *[Telerik.Web.UI.GanttColumnResizedEventArgs]({%slug Telerik.Web.UI.GanttColumnResizedEventArgs%})*
 
+
 ## Methods
 
 ### get_column
@@ -43,3 +44,4 @@ Returns the old column width.
 #### Returns
 
 `Number`
+

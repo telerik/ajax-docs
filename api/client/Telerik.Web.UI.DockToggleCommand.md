@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.DockToggleCommand
 * [Telerik.Web.UI.DockCommand]({%slug Telerik.Web.UI.DockCommand%})
 * *[Telerik.Web.UI.DockToggleCommand]({%slug Telerik.Web.UI.DockToggleCommand%})*
 
+
 ## Methods
 
 ###  get_alternateCssClass
@@ -24,7 +25,7 @@ Gets the CSS class that corresponds with the "Alternate" state of the ToggleComm
 
 `String` The Alternate CSS class.
 
-###  get_alternateText
+### get_alternateText
 
 Gets the text corresponding to the "Alternate" state of the ToggleCommand.
 
@@ -34,7 +35,7 @@ Gets the text corresponding to the "Alternate" state of the ToggleCommand.
 
 `String` The alternate text of the command.
 
-###  get_state
+### get_state
 
 Gets the state of the ToggleCommand. It can be Primary(1) or Alternate(2).
 
@@ -44,7 +45,7 @@ Gets the state of the ToggleCommand. It can be Primary(1) or Alternate(2).
 
 `Number` The state of the ToggleCommand.
 
-###  set_alternateCssClass
+### set_alternateCssClass
 
 Sets a CSS class that corresponds to the "Alternate" state of the ToggleCommand.
 
@@ -58,7 +59,7 @@ The Alternate CSS class.
 
 `None` 
 
-###  set_alternateText
+### set_alternateText
 
 Sets a text corresponding to the "Alternate" state of the ToggleCommand.
 
@@ -72,7 +73,7 @@ The text of the ToggleCommand corresponding to the
 
 `None` 
 
-###  set_state
+### set_state
 
 Sets a state to the ToggleCommand.
 
@@ -86,7 +87,7 @@ Set 1
 
 `None` 
 
-###  updateState
+### updateState
 
 Updates the state of the DockToggleCommand.
 
@@ -95,5 +96,6 @@ Updates the state of the DockToggleCommand.
 #### Returns
 
 `None` 
+
 
 

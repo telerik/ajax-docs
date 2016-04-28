@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.RadDateInputComponent
 * Sys.Component
 * *[Telerik.Web.UI.RadDateInputComponent]({%slug Telerik.Web.UI.RadDateInputComponent%})*
 
+
 ## Methods
 
 ###  get_dateFormat
@@ -24,7 +25,7 @@ Returns the format string for the control when it has focus
 
 `String` 
 
-###  get_dateFormatInfo
+### get_dateFormatInfo
 
 Returns the Date Format Info object, which includes the settings used to parse date values
 
@@ -34,7 +35,7 @@ Returns the Date Format Info object, which includes the settings used to parse d
 
 `Telerik.Web.UI.DateParsing.DateTimeFormatInfo` 
 
-###  get_displayDateFormat
+### get_displayDateFormat
 
 Returns the format string for the control when it does not have focus
 
@@ -44,7 +45,7 @@ Returns the format string for the control when it does not have focus
 
 `String` 
 
-###  get_maxDate
+### get_maxDate
 
 Returns the latest valid date value
 
@@ -54,7 +55,7 @@ Returns the latest valid date value
 
 `Date` 
 
-###  get_minDate
+### get_minDate
 
 Returns the earliest valid date value
 
@@ -64,7 +65,7 @@ Returns the earliest valid date value
 
 `Date` 
 
-###  get_selectedDate
+### get_selectedDate
 
 Gets the selected date
 
@@ -74,7 +75,7 @@ Gets the selected date
 
 `Telerik.Web.UI.DateParsing.DateTimeFormatInfo` 
 
-###  set_dateFormat
+### set_dateFormat
 
 Sets the format string for the control when it has focus
 
@@ -86,7 +87,7 @@ Sets the format string for the control when it has focus
 
 `None` 
 
-###  set_dateFormatInfo
+### set_dateFormatInfo
 
 Sets the Date Format Info object, which includes the settings used to parse date values
 
@@ -98,7 +99,7 @@ Sets the Date Format Info object, which includes the settings used to parse date
 
 `None` 
 
-###  set_displayDateFormat
+### set_displayDateFormat
 
 Sets the format string for the control when it does not have focus
 
@@ -110,7 +111,7 @@ Sets the format string for the control when it does not have focus
 
 `None` 
 
-###  set_maxDate
+### set_maxDate
 
 Sets the latest valid date value
 
@@ -122,7 +123,7 @@ Sets the latest valid date value
 
 `None` 
 
-###  set_minDate
+### set_minDate
 
 Sets the earliest valid date value
 
@@ -134,7 +135,7 @@ Sets the earliest valid date value
 
 `None` 
 
-###  set_selectedDate
+### set_selectedDate
 
 Sets the selected date
 
@@ -143,5 +144,6 @@ Sets the selected date
 #### Returns
 
 `Telerik.Web.UI.DateParsing.DateTimeFormatInfo` 
+
 
 

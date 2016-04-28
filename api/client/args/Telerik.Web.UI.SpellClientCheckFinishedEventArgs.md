@@ -13,6 +13,7 @@ slug: Telerik.Web.UI.SpellClientCheckFinishedEventArgs
 * *[Telerik.Web.UI.SpellClientCheckFinishedEventArgs]({%slug Telerik.Web.UI.SpellClientCheckFinishedEventArgs%})*
 
 
+
 ## Methods
 
 ### suppressCompleteMessage
@@ -28,3 +29,4 @@ When true, the built-in message is suppressed, otherwise it will appear.
 #### Returns
 
 `None`
+

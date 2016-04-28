@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.GridCellSelectEventArgs
 * Sys.EventArgs
 * *[Telerik.Web.UI.GridCellSelectEventArgs]({%slug Telerik.Web.UI.GridCellSelectEventArgs%})*
 
+
 ## Methods
 
 ###  get_itemIndexHierarchical
@@ -24,7 +25,7 @@ Returns the hierarchical item index.
 
 `String` 
 
-###  get_column
+### get_column
 
 Returns a reference to the GridColumn
 
@@ -34,7 +35,7 @@ Returns a reference to the GridColumn
 
 `Telerik.Web.UI.GridColumn`
 
-###  get_gridDataItem
+### get_gridDataItem
 
 Returns a reference to the GridDataItem object.
 
@@ -44,7 +45,7 @@ Returns a reference to the GridDataItem object.
 
 `Telerik.Web.UI.GridDataItem` 
 
-###  get_row
+### get_row
 
 Returns a reference to the DOM element of the GridDataItem object.
 
@@ -54,7 +55,7 @@ Returns a reference to the DOM element of the GridDataItem object.
 
 `Element` 
 
-###  get_tableView
+### get_tableView
 
 Returns the owner TableView object.
 
@@ -63,5 +64,6 @@ Returns the owner TableView object.
 #### Returns
 
 `Telerik.Web.UI.GridTableView` 
+
 
 

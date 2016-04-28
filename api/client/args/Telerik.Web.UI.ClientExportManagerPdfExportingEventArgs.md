@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.ClientExportManagerPdfExportingEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.ClientExportManagerPdfExportingEventArgs]({%slug Telerik.Web.UI.ClientExportManagerPdfExportingEventArgs%})*
 
+
 ## Methods
 
 ###  get_dataURI 
@@ -23,3 +24,4 @@ Returns the PDF document dataURI.
 #### Returns
 
 `String` the PDF document dataURI. 
+

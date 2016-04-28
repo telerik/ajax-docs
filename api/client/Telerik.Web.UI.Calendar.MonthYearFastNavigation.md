@@ -11,6 +11,7 @@ slug: Telerik.Web.UI.Calendar.MonthYearFastNavigation
 
 * *[Telerik.Web.UI.Calendar.MonthYearFastNavigation]({%slug Telerik.Web.UI.Calendar.MonthYearFastNavigation%})*
 
+
 ## Methods
 
 ###  AddMonthCell
@@ -31,7 +32,7 @@ The index of the month in which the cell will be added.
 
 `None` 
 
-###  CreateButton
+### CreateButton
 
 Creates a button with specified elementId, text, onClick event handler and append it to the parentNode element.
 
@@ -57,7 +58,7 @@ The event handler for the OnClick function.
 
 `None` 
 
-###  CreateLayout
+### CreateLayout
 
 Creates the base layout for RadCalendar.
 
@@ -71,7 +72,7 @@ The style to be used for the table.
 
 `None` 
 
-###  FillYears
+### FillYears
 
 Fill the available years in the fast navigation section.
 
@@ -81,7 +82,7 @@ Fill the available years in the fast navigation section.
 
 `None` 
 
-###  GetMonth
+### GetMonth
 
 Returns the current month.
 
@@ -91,7 +92,7 @@ Returns the current month.
 
 `Date` DateTime object that represents the current month.
 
-###  GetYear
+### GetYear
 
 Returns the current year.
 
@@ -101,7 +102,7 @@ Returns the current year.
 
 `Date` DateTime object that represents the current year.
 
-###  ScrollYears
+### ScrollYears
 
 Scrolls to the specified year.
 
@@ -115,7 +116,7 @@ How many years should be added to the current one.
 
 `None` 
 
-###  SelectCell
+### SelectCell
 
 Selects or deselects the specified cell.
 
@@ -133,7 +134,7 @@ Boolean value to indicate whether the cell should be selected or not.
 
 `None` 
 
-###  SelectMonth
+### SelectMonth
 
 Selects the specified month.
 
@@ -147,7 +148,7 @@ The month to be selected.
 
 `None` 
 
-###  SelectYear
+### SelectYear
 
 Selects the specified year.
 
@@ -159,7 +160,7 @@ Selects the specified year.
 
 `None` 
 
-###  SetNavCells
+### SetNavCells
 
 set the navigation cells.
 
@@ -169,7 +170,7 @@ set the navigation cells.
 
 `None` 
 
-###  Show
+### Show
 
 Shows the pop up window.
 
@@ -205,7 +206,7 @@ String containing the style attributes that will be applied to the table element
 
 `None` 
 
-###  ShowMonthYearView
+### ShowMonthYearView
 
 Displays the month-year view.
 
@@ -246,5 +247,6 @@ The ID fo of the wrapper element.
 #### Returns
 
 `None` 
+
 
 

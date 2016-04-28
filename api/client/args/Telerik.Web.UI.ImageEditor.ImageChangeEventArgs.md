@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.ImageEditor.ImageChangeEventArgs
 * [Telerik.Web.UI.ImageEditor.EventArgs]({%slug Telerik.Web.UI.ImageEditor.EventArgs%})
 * *[Telerik.Web.UI.ImageEditor.ImageChangeEventArgs]({%slug Telerik.Web.UI.ImageEditor.ImageChangeEventArgs%})*
 
+
 ## Methods
 
 ###  get_imageOperation
@@ -24,7 +25,7 @@ Returns the current ImageOperation client object.
 
 `Telerik.Web.UI.ImageEditor.ImageOperation`
 
-###  set_imageOperation
+### set_imageOperation
 
 Sets the desired ImageOperation.
 
@@ -35,5 +36,6 @@ Sets the desired ImageOperation.
 #### Returns
 
 `None`
+
 
 

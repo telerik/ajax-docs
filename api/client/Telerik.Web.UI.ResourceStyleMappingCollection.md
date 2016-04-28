@@ -11,6 +11,7 @@ slug: Telerik.Web.UI.ResourceStyleMappingCollection
 
 * *[Telerik.Web.UI.ResourceStyleMappingCollection]({%slug Telerik.Web.UI.ResourceStyleMappingCollection%})*
 
+
 ## Methods
 
 ###  add
@@ -27,7 +28,7 @@ Adds the specified resource style mapping to the collection.
 
 `None` 
 
-###  forEach
+### forEach
 
 Executes the specified function for each resource style mapping in the collection. The resource style mapping is passed as first argument to the function.
 
@@ -41,7 +42,18 @@ Executes the specified function for each resource style mapping in the collectio
 
 `None` 
 
-###  getMatchingClasses
+### get_count
+
+Gets the number of resource style mappings in the collection.
+
+#### Parameters
+
+#### Returns
+
+`Number`  The number of resource style mappings in the collection. 
+
+
+### getMatchingClasses
 
 Gets a collection of all resource style mapping matching the specified resource.
 
@@ -55,7 +67,7 @@ Gets a collection of all resource style mapping matching the specified resource.
 
 `Array`  An array of all matching resource style mappings 
 
-###  getStyleMapping
+### getStyleMapping
 
 Gets the resource style mapping at the specified index in the collection.
 
@@ -68,15 +80,5 @@ Gets the resource style mapping at the specified index in the collection.
 #### Returns
 
 `Telerik.Web.UI.ResourceStyleMapping`  The resource style mapping at the specified index. 
-
-###  get_count
-
-Gets the number of resource style mappings in the collection.
-
-#### Parameters
-
-#### Returns
-
-`Number`  The number of resource style mappings in the collection. 
 
 

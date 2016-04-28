@@ -12,55 +12,74 @@ slug: Telerik.Web.UI.ImageEditor.EditableCanvas
 * [Telerik.Web.UI.ImageEditor.EditableImageBase]({%slug Telerik.Web.UI.ImageEditor.EditableImageBase%})
 * *[Telerik.Web.UI.ImageEditor.EditableCanvas]({%slug Telerik.Web.UI.ImageEditor.EditableCanvas%})*
 
+
 ## Methods
 
-### forceCurrentZoom
+### addText
 
-Ensures that the Zoom level is applied to the image
+Adds text to the image in the specified position
 
 #### Parameters
+
+##### x `Number`
+
+The X coordinate of the text
+
+##### y `Number`
+
+The Y coordinate of the text
+
+##### text `Telerik.Web.UI.ImageEditor.ImageText`
+
+The text to add to the image.
 
 #### Returns
 
 `None` 
 
-### get_opacity
+### applyChangesOnServer
 
-Gets the current opacity of the editable canvas.
-
-#### Parameters
-
-#### Returns
-
-`Number` The opacity value of the editable canvas. Range 
-
-### saveOnClient
-
-Saves the image on the client machine.
+Initiates a callback to the server and performs operations (saving image, cropping and etc.) to the image on the server.
 
 #### Parameters
+
+##### saveImageServer `Boolean`
+
+True 
 
 ##### fileName `Object`
 
-The filename of the image. If file name is not a string
+The filename of the image. If null then the original filename is used. If file name is not a string
+
+##### call_saveOnClient `Boolean`
+
+True 
+
+##### overwrite `Boolean`
+
+True 
 
 #### Returns
 
 `None` 
 
-### getBase64
+### applyFilter
 
-Returns the Base64 representation of the loaded image.
+Creates an image operation which is applied against the current editable image and adds the operation to the undo stack.
 
 #### Parameters
 
-##### mimeType `String`
+##### filter `Telerik.Web.UI.ImageEditor.Filters.IPixelFilter`
 
-The currently supported types are Image
+The filter to be applied.
+
+##### imgOperation `Object`
+
+The image operation object handling the actual editing of the image.
 
 #### Returns
 
-`String` The string that represents the encoded graphical data.
+`None` 
 
 ### changeOpacity
 
@@ -75,6 +94,20 @@ The new value of the opacity.
 ##### imgOperation `Object`
 
 The image operation object handling the actual editing of the image.
+
+#### Returns
+
+`None` 
+
+### crop
+
+Crops the image to the given rectangle.
+
+#### Parameters
+
+##### rectangle `Object`
+
+The rectangle defined by coordinates and dimensions to crop.
 
 #### Returns
 
@@ -120,82 +153,6 @@ The filter to be executed.
 
 `None` 
 
-### addText
-
-Adds text to the image in the specified position
-
-#### Parameters
-
-##### x `Number`
-
-The X coordinate of the text
-
-##### y `Number`
-
-The Y coordinate of the text
-
-##### text `Telerik.Web.UI.ImageEditor.ImageText`
-
-The text to add to the image.
-
-#### Returns
-
-`None` 
-
-### get_rotationAngle
-
-Gets the rotation angle of the editable canvas.
-
-#### Parameters
-
-#### Returns
-
-`Number` The value in degrees of the image rotation.
-
-### get_width
-
-Gets the current width of the canvas. Note that value may be different that the width of the image DOM element, for example, when zoomed.
-
-#### Parameters
-
-#### Returns
-
-`Number` The width of the editable image
-
-### isImageLoaded
-
-Gets a flag whether the image is loaded.
-
-#### Parameters
-
-#### Returns
-
-`Boolean` Is the image loaded flag.
-
-### getImageDataAll
-
-Returns an ImageData object containing the image data for the given rectangle of the bitmap.
-
-#### Parameters
-
-#### Returns
-
-`Object` The ImageData object.
-
-### getDataUrl
-
-Returns a URL which could be used to visualize the image directly. The image is represented in Base64 format.
-
-#### Parameters
-
-##### mimeType `String`
-
-The currently supported types are Image
-
-#### Returns
-
-`String` The string that represents an encoded URL containing the graphical data.
-
 ### flip
 
 Flips the image in the specified direction.
@@ -218,6 +175,16 @@ The image operation object handling the actual editing of the image.
 
 `None` 
 
+### forceCurrentZoom
+
+Ensures that the Zoom level is applied to the image
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
 ### get_flipDirection
 
 Gets the flip direction of the editable canvas.
@@ -227,6 +194,114 @@ Gets the flip direction of the editable canvas.
 #### Returns
 
 `Telerik.Web.UI.ImageEditor.FlipDirection` Enum value of the flip direction
+
+### get_height
+
+Gets the current height of the canvas. Note that value may be different that the height of the image DOM element, for example, when zoomed.
+
+#### Parameters
+
+#### Returns
+
+`Number` The height of the editable image
+
+### get_opacity
+
+Gets the current opacity of the editable canvas.
+
+#### Parameters
+
+#### Returns
+
+`Number` The opacity value of the editable canvas. Range 
+
+### get_rotation
+
+Gets the rotation enum value of the editable canvas.
+
+#### Parameters
+
+#### Returns
+
+`Telerik.Web.UI.ImageEditor.Rotation` Enum value of the rotation.
+
+### get_rotationAngle
+
+Gets the rotation angle of the editable canvas.
+
+#### Parameters
+
+#### Returns
+
+`Number` The value in degrees of the image rotation.
+
+### get_width
+
+Gets the current width of the canvas. Note that value may be different that the width of the image DOM element, for example, when zoomed.
+
+#### Parameters
+
+#### Returns
+
+`Number` The width of the editable image
+
+### getBase64
+
+Returns the Base64 representation of the loaded image.
+
+#### Parameters
+
+##### mimeType `String`
+
+The currently supported types are Image
+
+#### Returns
+
+`String` The string that represents the encoded graphical data.
+
+### getCanvas
+
+Gets the element, onto which the editing will be done.
+
+#### Parameters
+
+#### Returns
+
+`Object` The respective DOM element. Could be an image or a canvas tag
+
+### getCanvasContext
+
+Returns the 2d Context of the canvas element.
+
+#### Parameters
+
+#### Returns
+
+`Object` The 2d canvas context.
+
+### getDataUrl
+
+Returns a URL which could be used to visualize the image directly. The image is represented in Base64 format.
+
+#### Parameters
+
+##### mimeType `String`
+
+The currently supported types are Image
+
+#### Returns
+
+`String` The string that represents an encoded URL containing the graphical data.
+
+### getImageDataAll
+
+Returns an ImageData object containing the image data for the given rectangle of the bitmap.
+
+#### Parameters
+
+#### Returns
+
+`Object` The ImageData object.
 
 ### insertImage
 
@@ -254,65 +329,15 @@ Array of operations to apply to the clip art image
 
 `None` 
 
-### rotate
+### isImageLoaded
 
-Rotates the image in the specified direction.
-
-#### Parameters
-
-##### rotationDirection `Telerik.Web.UI.ImageEditor.Rotation`
-
-Enum to determine the angle value. Only orthogonal values
-
-##### angle `Number`
-
-The rotation angle.
-
-##### imgOperation `Object`
-
-The image operation object handling the actual editing of the image.
-
-#### Returns
-
-`None` 
-
-### set_flipDirection
-
-Sets the flip direction to the editable canvas.
-
-#### Parameters
-
-##### flipDirection `Telerik.Web.UI.ImageEditor.FlipDirection`
-
-The direction of flipping.
-
-#### Returns
-
-`None` 
-
-### getCanvas
-
-Gets the element, onto which the editing will be done.
+Gets a flag whether the image is loaded.
 
 #### Parameters
 
 #### Returns
 
-`Object` The respective DOM element. Could be an image or a canvas tag
-
-### reset
-
-Resets the changes to the current image and reverts it to the original one
-
-#### Parameters
-
-##### imageUrl `Array`
-
-The original image url. 
-
-#### Returns
-
-`None` 
+`Boolean` Is the image loaded flag.
 
 ### isImageLoading
 
@@ -328,49 +353,19 @@ The image to be edited.
 
 `Boolean` Is the image loading flag
 
-### crop
+### reset
 
-Crops the image to the given rectangle.
+Resets the changes to the current image and reverts it to the original one
 
 #### Parameters
 
-##### rectangle `Object`
+##### imageUrl `Array`
 
-The rectangle defined by coordinates and dimensions to crop.
+The original image url. 
 
 #### Returns
 
 `None` 
-
-### get_height
-
-Gets the current height of the canvas. Note that value may be different that the height of the image DOM element, for example, when zoomed.
-
-#### Parameters
-
-#### Returns
-
-`Number` The height of the editable image
-
-### getCanvasContext
-
-Returns the 2d Context of the canvas element.
-
-#### Parameters
-
-#### Returns
-
-`Object` The 2d canvas context.
-
-### get_rotation
-
-Gets the rotation enum value of the editable canvas.
-
-#### Parameters
-
-#### Returns
-
-`Telerik.Web.UI.ImageEditor.Rotation` Enum value of the rotation.
 
 ### resize
 
@@ -394,27 +389,51 @@ The image operation object handling the actual editing of the image.
 
 `None` 
 
-### applyChangesOnServer
+### rotate
 
-Initiates a callback to the server and performs operations (saving image, cropping and etc.) to the image on the server.
+Rotates the image in the specified direction.
 
 #### Parameters
 
-##### saveImageServer `Boolean`
+##### rotationDirection `Telerik.Web.UI.ImageEditor.Rotation`
 
-True 
+Enum to determine the angle value. Only orthogonal values
+
+##### angle `Number`
+
+The rotation angle.
+
+##### imgOperation `Object`
+
+The image operation object handling the actual editing of the image.
+
+#### Returns
+
+`None` 
+
+### saveOnClient
+
+Saves the image on the client machine.
+
+#### Parameters
 
 ##### fileName `Object`
 
-The filename of the image. If null then the original filename is used. If file name is not a string
+The filename of the image. If file name is not a string
 
-##### call_saveOnClient `Boolean`
+#### Returns
 
-True 
+`None` 
 
-##### overwrite `Boolean`
+### set_flipDirection
 
-True 
+Sets the flip direction to the editable canvas.
+
+#### Parameters
+
+##### flipDirection `Telerik.Web.UI.ImageEditor.FlipDirection`
+
+The direction of flipping.
 
 #### Returns
 
@@ -438,21 +457,4 @@ Bool value indicating whether the zoom should be performed even if the current z
 
 `None` 
 
-### applyFilter
-
-Creates an image operation which is applied against the current editable image and adds the operation to the undo stack.
-
-#### Parameters
-
-##### filter `Telerik.Web.UI.ImageEditor.Filters.IPixelFilter`
-
-The filter to be applied.
-
-##### imgOperation `Object`
-
-The image operation object handling the actual editing of the image.
-
-#### Returns
-
-`None` 
 

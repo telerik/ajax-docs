@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.GridBatchEditCellValueChangedEventArgs
 * [Telerik.Web.UI.GridBatchEditEventArgs]({%slug Telerik.Web.UI.GridBatchEditEventArgs%})
 * *[Telerik.Web.UI.GridBatchEditCellValueChangedEventArgs]({%slug Telerik.Web.UI.GridBatchEditCellValueChangedEventArgs%})*
 
+
 ## Methods
 
 ###  get_cellValue
@@ -24,7 +25,7 @@ Returns the cell value.
 
 `String` 
 
-###  get_editorValue
+### get_editorValue
 
 Returns the cell value. 
 
@@ -33,6 +34,7 @@ Returns the cell value.
 #### Returns
 
 `String` 
+
 
 
 

@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.PasswordStrengthCalculatingEventArgs
 * Sys.EventArgs
 * *[Telerik.Web.UI.PasswordStrengthCalculatingEventArgs]({%slug Telerik.Web.UI.PasswordStrengthCalculatingEventArgs%})*
 
+
 ## Methods
 
 ###  get_passwordText
@@ -20,22 +21,23 @@ Returns password entered by the user
 #### Returns
 `String` 
 
-###  get_strengthScore
+### get_strengthScore
 Returns calculated password strength
 #### Parameters
 #### Returns
 `Number` 
 
-###  set_strengthScore
+### set_indicatorText
+Sets the text that will be used in the indicator element instead of the corresponding one from TextStrengthDescriptions.
+#### Parameters
+##### value `String`
+#### Returns
+`None` 
+### set_strengthScore
 Sets custom calculated password strength.
 #### Parameters
 ##### value `Number`
 #### Returns
 `None` 
 
-###  set_indicatorText
-Sets the text that will be used in the indicator element instead of the corresponding one from TextStrengthDescriptions.
-#### Parameters
-##### value `String`
-#### Returns
-`None` 
+

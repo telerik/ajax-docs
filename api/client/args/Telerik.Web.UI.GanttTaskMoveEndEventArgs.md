@@ -7,10 +7,12 @@ slug: Telerik.Web.UI.GanttTaskMoveEndEventArgs
 
 # Telerik.Web.UI.GanttTaskMoveEndEventArgs : Telerik.Web.UI.GanttCancelEventArgs
 
-## Inheritance Hierarchy
+
+Inheritance Hierarchy
 
 * [Telerik.Web.UI.GanttCancelEventArgs]({%slug Telerik.Web.UI.GanttCancelEventArgs%})
 * [Telerik.Web.UI.GanttTaskMoveEndEventArgs]({%slug Telerik.Web.UI.GanttTaskMoveEndEventArgs%})
+
 
 ## Methods
 
@@ -23,4 +25,5 @@ Returns the current moved task.
 #### Returns
 
 `Telerik.Web.UI.GanttTask`
+
 

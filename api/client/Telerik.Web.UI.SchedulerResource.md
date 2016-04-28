@@ -11,6 +11,7 @@ slug: Telerik.Web.UI.SchedulerResource
 
 * *[Telerik.Web.UI.SchedulerResource]({%slug Telerik.Web.UI.SchedulerResource%})*
 
+
 ## Methods
 
 ###  get_attributes
@@ -23,7 +24,7 @@ Gets a collection of all attributes of the resource.
 
 `Telerik.Web.UI.SchedulerAttributeCollection`  Collection of all attributes of the resource. 
 
-###  get_available
+### get_available
 
 Gets a value indicating if the resource is available.
 
@@ -33,7 +34,7 @@ Gets a value indicating if the resource is available.
 
 `Boolean`  true if the resource is available
 
-###  get_cssClass
+### get_cssClass
 
 Gets the CSS class name to be added to appointments that have this resource.
 
@@ -43,7 +44,7 @@ Gets the CSS class name to be added to appointments that have this resource.
 
 `String`  The CSS class name to be added to appointments that have this resource. 
 
-###  get_key
+### get_key
 
 Gets the unique key of this resource.
 
@@ -53,7 +54,7 @@ Gets the unique key of this resource.
 
 `String`  The unique key of this resource. 
 
-###  get_text
+### get_text
 
 Gets the resource text.
 
@@ -63,7 +64,7 @@ Gets the resource text.
 
 `String`  The resource text. 
 
-###  get_type
+### get_type
 
 Gets the resource type.
 
@@ -73,7 +74,7 @@ Gets the resource type.
 
 `String`  The resource type. 
 
-###  set_available
+### set_available
 
 Sets a value indicating if the resource is available.
 
@@ -87,7 +88,7 @@ Sets a value indicating if the resource is available.
 
 `None` 
 
-###  set_cssClass
+### set_cssClass
 
 Sets the CSS class name to be added to appointments that have this resource.
 
@@ -101,7 +102,7 @@ Sets the CSS class name to be added to appointments that have this resource.
 
 `None` 
 
-###  set_key
+### set_key
 
 Sets the resource key.
 
@@ -115,7 +116,7 @@ Sets the resource key.
 
 `None` 
 
-###  set_text
+### set_text
 
 Sets the resource text.
 
@@ -129,7 +130,7 @@ Sets the resource text.
 
 `None` 
 
-###  set_type
+### set_type
 
 Sets the resource type.
 
@@ -142,5 +143,6 @@ Sets the resource type.
 #### Returns
 
 `None` 
+
 
 

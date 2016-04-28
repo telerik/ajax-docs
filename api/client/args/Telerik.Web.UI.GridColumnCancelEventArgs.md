@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.GridColumnCancelEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.GridColumnCancelEventArgs]({%slug Telerik.Web.UI.GridColumnCancelEventArgs%})*
 
+
 ## Methods
 
 ###  get_domEvent
@@ -24,7 +25,7 @@ Returns a reference to the DomEvent that was raised
 
 `Sys.UI.DomEvent` 
 
-###  get_gridColumn
+### get_gridColumn
 
 Returns a reference to the GridColumn
 
@@ -33,5 +34,6 @@ Returns a reference to the GridColumn
 #### Returns
 
 `Telerik.Web.UI.GridColumn` 
+
 
 

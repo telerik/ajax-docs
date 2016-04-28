@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.CalendarDateSelectingEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.CalendarDateSelectingEventArgs]({%slug Telerik.Web.UI.CalendarDateSelectingEventArgs%})*
 
+
 ## Methods
 
 ###  get_isSelecting
@@ -24,7 +25,7 @@ Returns true if the day is about to be selected, false  if it is about to be uns
 
 `Boolean` 
 
-###  get_renderDay
+### get_renderDay
 
 Returns the client-side RenderDay object that represents the day being selected or unselected.
 
@@ -33,5 +34,6 @@ Returns the client-side RenderDay object that represents the day being selected 
 #### Returns
 
 `Telerik.Web.UI.Calendar.RenderDay` 
+
 
 

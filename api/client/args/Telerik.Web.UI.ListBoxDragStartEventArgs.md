@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.ListBoxDragStartEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.ListBoxDragStartEventArgs]({%slug Telerik.Web.UI.ListBoxDragStartEventArgs%})*
 
+
 ## Methods
 
 ###  get_sourceItem
@@ -24,17 +25,17 @@ Returns the first selected item that is dragged.
 
 `Telerik.Web.UI.RadListBoxItem` the first selected item that is dragged.
 
-###  get_sourceItems
+### get_domEvent
 
-Returns an array of the selected items that are dragged 
+Returns the Sys.UI.DomEvent instance associated to the raised event.
 
 #### Parameters
 
 #### Returns
 
-`Telerik.Web.UI.RadListBoxItem[]`  an array of the selected items that are dragged 
+`Sys.UI.DomEvent` the Sys.UI.DomEvent instance associated to the raised event.
 
-###  get_htmlElement
+### get_htmlElement
 
 Returns the DOM html element which the item is dropped onto. 
 
@@ -45,13 +46,14 @@ Returns the DOM html element which the item is dropped onto.
 `Element` the DOM html element which the item is dropped onto. 
 
 
-###  get_domEvent
+### get_sourceItems
 
-Returns the Sys.UI.DomEvent instance associated to the raised event.
+Returns an array of the selected items that are dragged 
 
 #### Parameters
 
 #### Returns
 
-`Sys.UI.DomEvent` the Sys.UI.DomEvent instance associated to the raised event.
+`Telerik.Web.UI.RadListBoxItem[]`  an array of the selected items that are dragged 
+
 

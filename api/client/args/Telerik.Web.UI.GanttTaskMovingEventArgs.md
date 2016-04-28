@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.GanttTaskMovingEventArgs
 * [Telerik.Web.UI.GanttCancelEventArgs]({%slug Telerik.Web.UI.GanttCancelEventArgs%})
 * *[Telerik.Web.UI.GanttTaskMovingEventArgs]({%slug Telerik.Web.UI.GanttTaskMovingEventArgs%})*
 
+
 ## Methods
 
 ### get_start
@@ -23,3 +24,4 @@ Returns the current moved task.
 #### Returns
 
 `Telerik.Web.UI.GanttTask`
+

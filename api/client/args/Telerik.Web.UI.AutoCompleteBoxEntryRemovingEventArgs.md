@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.AutoCompleteBoxEntryRemovingEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.AutoCompleteBoxEntryRemovingEventArgs]({%slug Telerik.Web.UI.AutoCompleteBoxEntryRemovingEventArgs%})*
 
+
 ## Methods
 
 ### get_entry
@@ -23,3 +24,4 @@ Returns the entry which is about to be added into the Entry collection.
 #### Returns
 
 `Telerik.Web.UI.AutoCompleteBoxEntry`
+

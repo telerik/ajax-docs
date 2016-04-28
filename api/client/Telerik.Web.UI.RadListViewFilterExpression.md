@@ -11,6 +11,7 @@ slug: Telerik.Web.UI.RadListViewFilterExpression
 
 * *[Telerik.Web.UI.RadListViewFilterExpression]({%slug Telerik.Web.UI.RadListViewFilterExpression%})*
 
+
 ## Methods
 
 ###  get_fieldName
@@ -23,7 +24,7 @@ Gets the field name of the expression
 
 `String` 
 
-###  get_filterFunction
+### get_filterFunction
 
 Gets the filter function of the expression
 
@@ -33,7 +34,7 @@ Gets the filter function of the expression
 
 `String` 
 
-###  get_value
+### get_value
 
 Gets the filter value of the expression
 
@@ -43,7 +44,7 @@ Gets the filter value of the expression
 
 `Object` 
 
-###  isEqualTo
+### isEqualTo
 
 Returns a boolean value indicating whether the current expression is equal to or contains the specified parameters.
 
@@ -65,7 +66,7 @@ Optional
 
 `None` 
 
-###  set_fieldName
+### set_fieldName
 
 Sets the field name of this expression
 
@@ -79,7 +80,7 @@ The field name of the expression
 
 `None` 
 
-###  set_filterFunction
+### set_filterFunction
 
 Sets the filter function of this expression
 
@@ -93,7 +94,7 @@ One of the Telerik.Web.UI.RadListViewFilterFunction enumeration values
 
 `None` 
 
-###  set_value
+### set_value
 
 Sets the filter value of this expression
 
@@ -107,7 +108,7 @@ The filter value of this expression
 
 `None` 
 
-###  toLinq
+### toLinq
 
 Returns a Dynamic LINQ string representation of this expression
 
@@ -117,17 +118,7 @@ Returns a Dynamic LINQ string representation of this expression
 
 `None` 
 
-###  toOData
-
-Returns an OData string representation of this expression
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-###  toObject
+### toObject
 
 Returns a JSON object representing this field expression The object has the following fields: {field: "ID", filter: "EqualTo", value: 7}.
 
@@ -137,7 +128,17 @@ Returns a JSON object representing this field expression The object has the foll
 
 `None` 
 
-###  toSql
+### toOData
+
+Returns an OData string representation of this expression
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### toSql
 
 Returns an SQL string representation of this expression
 
@@ -146,5 +147,6 @@ Returns an SQL string representation of this expression
 #### Returns
 
 `None` 
+
 
 

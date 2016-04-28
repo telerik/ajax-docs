@@ -11,6 +11,8 @@ slug: Telerik.Web.UI.FileExplorer.FileDataItem
 
 * *[Telerik.Web.UI.FileExplorer.FileDataItem]({%slug Telerik.Web.UI.FileExplorer.FileDataItem%})*
 
-## Methods
+
+Methods
+
 
 

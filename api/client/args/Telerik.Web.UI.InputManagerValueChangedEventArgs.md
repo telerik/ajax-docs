@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.InputManagerValueChangedEventArgs
 * Sys.EventArgs
 * *[Telerik.Web.UI.InputManagerValueChangedEventArgs]({%slug Telerik.Web.UI.InputManagerValueChangedEventArgs%})*
 
+
 ## Methods
 
 ###  get_domEvent
@@ -22,28 +23,29 @@ slug: Telerik.Web.UI.InputManagerValueChangedEventArgs
 
 `Sys.UI.DomEvent` 
 
-###  get_oldValue
-
-#### Parameters
-
-#### Returns
-
-`String` 
-
-###  get_newValue
-
-#### Parameters
-
-#### Returns
-
-`String` 
-
-###  get_inputExtender
+### get_inputExtender
 
 #### Parameters
 
 #### Returns
 
 `Element` 
+
+
+### get_newValue
+
+#### Parameters
+
+#### Returns
+
+`String` 
+
+### get_oldValue
+
+#### Parameters
+
+#### Returns
+
+`String` 
 
 

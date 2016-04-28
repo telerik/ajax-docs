@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.TileListEventArgs
 * Sys.EventArgs
 * *[Telerik.Web.UI.TileListEventArgs]({%slug Telerik.Web.UI.TileListEventArgs%})*
 
+
 ## Methods
 
 ###  get_newValue
@@ -24,7 +25,7 @@ Returns the property value after the specific event occurred
 
 `String` 
 
-###  get_oldValue
+### get_oldValue
 
 Returns the property value before the specific event occurred
 
@@ -34,7 +35,7 @@ Returns the property value before the specific event occurred
 
 `String` 
 
-###  get_tile
+### get_tile
 
 Returns the tile, in which context the event occurs
 
@@ -43,5 +44,6 @@ Returns the tile, in which context the event occurs
 #### Returns
 
 `Telerik.Web.UI.RadBaseTile` 
+
 
 

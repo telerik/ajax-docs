@@ -11,6 +11,7 @@ slug: Telerik.Web.UI.RibbonBarChild
 
 * *[Telerik.Web.UI.RibbonBarChild]({%slug Telerik.Web.UI.RibbonBarChild%})*
 
+
 ## Methods
 
 
@@ -23,3 +24,4 @@ Returns the index of the current item.
 #### Returns
 
 `Number` The index number.
+

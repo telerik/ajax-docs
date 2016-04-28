@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.RadNumericTextBoxComponent
 * Sys.Component
 * *[Telerik.Web.UI.RadNumericTextBoxComponent]({%slug Telerik.Web.UI.RadNumericTextBoxComponent%})*
 
+
 ## Methods
 
 ###  get_invalidStyleDuration
@@ -24,7 +25,7 @@ Returns the invalid style duration of RadNumericTextBoxComponent
 
 `Number` 
 
-###  get_maxValue
+### get_maxValue
 
 >Returns the maximum value the user can enter
 
@@ -34,7 +35,7 @@ Returns the invalid style duration of RadNumericTextBoxComponent
 
 `Number` 
 
-###  get_minValue
+### get_minValue
 
 Returns the minimum value the user can enter
 
@@ -44,7 +45,7 @@ Returns the minimum value the user can enter
 
 `Number` 
 
-###  get_negativeCss
+### get_negativeCss
 
 Returns the negative css of RadNumericTextBoxComponent
 
@@ -54,7 +55,7 @@ Returns the negative css of RadNumericTextBoxComponent
 
 `Number` 
 
-###  get_numberFormat
+### get_numberFormat
 
 Returns the Number format client object, which you can use to change the way the text box formats its value when it does not have focus
 
@@ -64,7 +65,7 @@ Returns the Number format client object, which you can use to change the way the
 
 `Telerik.Web.UI.NumberFormat` 
 
-###  set_invalidStyleDuration
+### set_invalidStyleDuration
 
 Sets the invalid style duration of RadNumericTextBoxComponent
 
@@ -76,7 +77,7 @@ Sets the invalid style duration of RadNumericTextBoxComponent
 
 `None` 
 
-###  set_maxValue
+### set_maxValue
 
 >Sets the maximum value the user can enter
 
@@ -88,7 +89,7 @@ Sets the invalid style duration of RadNumericTextBoxComponent
 
 `None` 
 
-###  set_minValue
+### set_minValue
 
 Sets the minimum value the user can enter.
 
@@ -100,7 +101,7 @@ Sets the minimum value the user can enter.
 
 `None` 
 
-###  set_negativeCss
+### set_negativeCss
 
 Accepts the negative css of RadNumericTextBoxComponent
 
@@ -112,7 +113,7 @@ Accepts the negative css of RadNumericTextBoxComponent
 
 `None` 
 
-###  set_numberFormat
+### set_numberFormat
 
 Sets the Number format client object, which you can use to change the way the text box formats its value when it does not have focus
 
@@ -123,5 +124,6 @@ Sets the Number format client object, which you can use to change the way the te
 #### Returns
 
 `None` 
+
 
 

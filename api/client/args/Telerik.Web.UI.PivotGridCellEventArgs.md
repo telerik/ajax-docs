@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.PivotGridCellEventArgs
 * Sys.EventArgs
 * *[Telerik.Web.UI.PivotGridCellEventArgs]({%slug Telerik.Web.UI.PivotGridCellEventArgs%})*
 
+
 ## Methods
 
 ### get_cell
@@ -103,3 +104,4 @@ Returns the value of the cell as string.
 #### Returns
 
 `String` 
+

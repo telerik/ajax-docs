@@ -11,6 +11,7 @@ slug: Telerik.Web.UI.Calendar.DateTimeFormatInfo
 
 * *[Telerik.Web.UI.Calendar.DateTimeFormatInfo]({%slug Telerik.Web.UI.Calendar.DateTimeFormatInfo%})*
 
+
 ## Methods
 
 ###  FormatDate
@@ -29,7 +30,7 @@ An array of triplet that represent date
 
 `String`
 
-###  LeadZero
+### LeadZero
 
 Formats the integer, adding a leading zero if necessary so that the integer is a minimum of two digits.
 
@@ -40,3 +41,4 @@ Formats the integer, adding a leading zero if necessary so that the integer is a
 #### Returns
 
 `String`
+

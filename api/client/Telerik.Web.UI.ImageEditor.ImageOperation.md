@@ -11,6 +11,7 @@ slug: Telerik.Web.UI.ImageEditor.ImageOperation
 
 * *[Telerik.Web.UI.ImageEditor.ImageOperation]({%slug Telerik.Web.UI.ImageEditor.ImageOperation%})*
 
+
 ## Methods
 
 ###  getIsClientOperation
@@ -23,7 +24,7 @@ Gets a bool value that indicates whether the ImageOperation is applied on the cl
 
 `Boolean`
 
-###  get_index
+### get_index
 
 Gets the index in the Undo stack of the current operation.
 
@@ -33,7 +34,7 @@ Gets the index in the Undo stack of the current operation.
 
 `Number` 
 
-###  set_index
+### set_index
 
 Sets the index of the current operation.
 
@@ -46,3 +47,4 @@ The desired index value.
 #### Returns
 
 `None` 
+

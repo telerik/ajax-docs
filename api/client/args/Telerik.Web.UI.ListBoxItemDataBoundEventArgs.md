@@ -7,10 +7,12 @@ slug: Telerik.Web.UI.ListBoxItemDataBoundEventArgs
 
 # Telerik.Web.UI.ListBoxItemDataBoundEventArgs : Sys.EventArgs 
 
-## Inheritance Hierarchy
+
+Inheritance Hierarchy
 
 * Sys.EventArgs
 * [Telerik.Web.UI.ListBoxItemDataBoundEventArgs]({%slug Telerik.Web.UI.ListBoxItemDataBoundEventArgs%})
+
 
 ## Methods
 
@@ -25,7 +27,7 @@ Returns the currently evaluated RadDropDownListItem.
 `Telerik.Web.UI.RadListBoxItem` the currently evaluated RadDropDownListItem
 
 
-###  get_domEvent
+### get_domEvent
 
 Returns the Sys.UI.DomEvent instance associated to the raised event.
 
@@ -34,4 +36,5 @@ Returns the Sys.UI.DomEvent instance associated to the raised event.
 #### Returns
 
 `Sys.UI.DomEvent` 
+
 

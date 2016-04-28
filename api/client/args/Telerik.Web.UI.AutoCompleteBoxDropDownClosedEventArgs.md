@@ -11,3 +11,4 @@ slug: Telerik.Web.UI.AutoCompleteBoxDropDownClosedEventArgs
 
 * Sys.EventArgs
 * *[Telerik.Web.UI.AutoCompleteBoxDropDownClosedEventArgs]({%slug Telerik.Web.UI.AutoCompleteBoxDropDownClosedEventArgs%})*
+

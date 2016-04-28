@@ -11,6 +11,7 @@ slug: Telerik.Web.UI.ImageEditorShortCut
 
 * *[Telerik.Web.UI.ImageEditorShortCut]({%slug Telerik.Web.UI.ImageEditorShortCut%})*
 
+
 ## Methods
 
 ###  get_name
@@ -23,7 +24,16 @@ Gets the shortcut name (keyword) used to identify the shortcut.
 
 `String`
 
-###  set_name
+### get_shortCutString
+
+Gets the keyboard combination for the shortcut.
+#### Parameters
+
+#### Returns
+
+`String` 
+
+### set_name
 
 Sets the shortcut name (keyword) used to identify the shortcut.
 
@@ -37,16 +47,7 @@ The new shortcut name.
 
 `None` 
 
-###  get_shortCutString
-
-Gets the keyboard combination for the shortcut.
-#### Parameters
-
-#### Returns
-
-`String` 
-
-###  setShortCut
+### setShortCut
 
 Sets the index of the current operation.
 
@@ -59,3 +60,4 @@ The keyboard combination for the shortcut.
 #### Returns
 
 `None` 
+

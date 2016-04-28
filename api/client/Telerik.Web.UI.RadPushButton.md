@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.RadPushButton
 * [Telerik.Web.UI.ButtonBase.PostBackButtonBase]({%slug Telerik.Web.UI.ButtonBase.PostBackButtonBase%})
 * *[Telerik.Web.UI.RadPushButton]({%slug Telerik.Web.UI.RadPushButton%})*
 
+
 ## Methods
 
 ### get_iconElement
@@ -47,3 +48,4 @@ A bool value indicating whether the button control is primary.
 #### Returns
 
 `None` 
+

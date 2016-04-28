@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.XmlHttpPanelEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.XmlHttpPanelEventArgs]({%slug Telerik.Web.UI.XmlHttpPanelEventArgs%})*
 
+
 ## Methods
 
 ### get_content
@@ -24,7 +25,7 @@ Gets the HTML content that will be rendered inside the RadXmlHttpPanel control.
 
 `String` 
 
-###  set_content
+### set_content
 
 Sets an HTML content that will be rendered inside the RadXmlHttpPanel control.
 
@@ -37,3 +38,4 @@ A string representing the HTML content.
 #### Returns
 
 `None` 
+

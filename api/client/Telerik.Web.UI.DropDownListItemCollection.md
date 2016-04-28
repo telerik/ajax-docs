@@ -12,17 +12,14 @@ slug: Telerik.Web.UI.DropDownListItemCollection
 * [Telerik.Web.UI.ControlItemCollection]({%slug Telerik.Web.UI.ControlItemCollection%})
 * *[Telerik.Web.UI.DropDownListItemCollection]({%slug Telerik.Web.UI.DropDownListItemCollection%})*
 
+
 ## Methods
 
-### removeAt
+### clear
 
-Removes the item at the specified index.
+Clears the Items collection of RadDropDownList
 
 #### Parameters
-
-##### index `Number`
-
- The index to remove at
 
 #### Returns
 
@@ -37,26 +34,6 @@ Iterates through the Items collection
 ##### lambda `Function`
 
 The function to execute on each iteration
-
-#### Returns
-
-`None` 
-
-### indexOf
-
-Gets the index of an item.
-
-#### Parameters
-
-#### Returns
-
-`Object` 
-
-### clear
-
-Clears the Items collection of RadDropDownList
-
-#### Parameters
 
 #### Returns
 
@@ -83,4 +60,29 @@ Gets the item from the Items collection residing at the index specified by the p
 #### Returns
 
 `Object` 
+
+### indexOf
+
+Gets the index of an item.
+
+#### Parameters
+
+#### Returns
+
+`Object` 
+
+### removeAt
+
+Removes the item at the specified index.
+
+#### Parameters
+
+##### index `Number`
+
+ The index to remove at
+
+#### Returns
+
+`None` 
+
 

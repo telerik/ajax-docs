@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.RadAsyncUploadFileUploadingArguments
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.RadAsyncUploadFileUploadingArguments]({%slug Telerik.Web.UI.RadAsyncUploadFileUploadingArguments%})*
 
+
 ## Methods
 
 ###  get_fileName
@@ -22,7 +23,7 @@ slug: Telerik.Web.UI.RadAsyncUploadFileUploadingArguments
 
 `None` 
 
-###  get_queryStringParams
+### get_queryStringParams
 
 #### Parameters
 
@@ -30,7 +31,7 @@ slug: Telerik.Web.UI.RadAsyncUploadFileUploadingArguments
 
 `None` 
 
-###  get_row
+### get_row
 
 #### Parameters
 
@@ -38,12 +39,13 @@ slug: Telerik.Web.UI.RadAsyncUploadFileUploadingArguments
 
 `None` 
 
-###  set_queryStringParams
+### set_queryStringParams
 
 #### Parameters
 
 #### Returns
 
 `None` 
+
 
 

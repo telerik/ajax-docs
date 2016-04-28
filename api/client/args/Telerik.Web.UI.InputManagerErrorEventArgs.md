@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.InputManagerErrorEventArgs
 * [Telerik.Web.UI.InputErrorEventArgs]({%slug Telerik.Web.UI.InputErrorEventArgs%})
 * *[Telerik.Web.UI.InputManagerErrorEventArgs]({%slug Telerik.Web.UI.InputManagerErrorEventArgs%})*
 
+
 ## Methods
 
 ###  get_targetInput
@@ -22,7 +23,7 @@ slug: Telerik.Web.UI.InputManagerErrorEventArgs
 
 `Element` 
 
-###  set_inputText
+### set_inputText
 
 #### Parameters
 
@@ -31,5 +32,6 @@ slug: Telerik.Web.UI.InputManagerErrorEventArgs
 #### Returns
 
 `None` 
+
 
 

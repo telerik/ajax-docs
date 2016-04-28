@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.RadTreeNodeDraggingEventArgs
 * [Telerik.Web.UI.RadTreeNodeCancelEventArgs]({%slug Telerik.Web.UI.RadTreeNodeCancelEventArgs%})
 * *[Telerik.Web.UI.RadTreeNodeDraggingEventArgs]({%slug Telerik.Web.UI.RadTreeNodeDraggingEventArgs%})*
 
+
 ## Methods
 
 ### get_destNode
@@ -63,3 +64,4 @@ Retrieves an array of nodes being dropped. It is useful when the RadTreeView Mul
 #### Returns
 
 `Telerik.Web.UI.RadTreeNodeCollection` 
+

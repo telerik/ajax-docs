@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.TreeListColumnResizingEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.TreeListColumnResizingEventArgs]({%slug Telerik.Web.UI.TreeListColumnResizingEventArgs%})*
 
+
 ## Methods
 
 ### get_column
@@ -33,3 +34,4 @@ Gets the width of the TreeListColumn.
 #### Returns
 
 `Number`
+

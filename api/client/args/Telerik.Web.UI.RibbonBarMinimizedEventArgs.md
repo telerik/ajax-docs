@@ -11,4 +11,6 @@ slug: Telerik.Web.UI.RibbonBarMinimizedEventArgs
 
 * *[Telerik.Web.UI.RibbonBarMinimizedEventArgs]({%slug Telerik.Web.UI.RibbonBarMinimizedEventArgs%})*
 
-## Methods
+
+Methods
+

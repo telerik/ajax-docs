@@ -12,7 +12,18 @@ slug: Telerik.Web.UI.AutoCompleteBoxRequestedEventArgs
 * Sys.EventArgs
 * *[Telerik.Web.UI.AutoCompleteBoxRequestedEventArgs]({%slug Telerik.Web.UI.AutoCompleteBoxRequestedEventArgs%})*
 
+
 ## Methods
+
+### get_data
+
+Returns an array of the entries in the dropdown.
+
+#### Parameters
+
+#### Returns
+
+`Object`
 
 ### get_text
 
@@ -24,13 +35,4 @@ Returns the text currently present in the input area.
 
 `String`
 
-### get_data
-
-Returns an array of the entries in the dropdown.
-
-#### Parameters
-
-#### Returns
-
-`Object`
 

@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.GridColumnEventArgs
 * Sys.EventArgs
 * *[Telerik.Web.UI.GridColumnEventArgs]({%slug Telerik.Web.UI.GridColumnEventArgs%})*
 
+
 ## Methods
 
 ###  get_domEvent
@@ -24,7 +25,7 @@ Returns a reference to the DomEvent that was raised
 
 `Sys.UI.DomEvent` 
 
-###  get_gridColumn
+### get_gridColumn
 
 Returns a reference to the GridColumn object
 
@@ -33,5 +34,6 @@ Returns a reference to the GridColumn object
 #### Returns
 
 `Telerik.Web.UI.GridColumn` 
+
 
 

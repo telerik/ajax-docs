@@ -11,6 +11,7 @@ slug: Telerik.Web.UI.RadMaskedTextBoxExtender
 
 * *[Telerik.Web.UI.RadMaskedTextBoxExtender]({%slug Telerik.Web.UI.RadMaskedTextBoxExtender%})*
 
+
 ## Methods
 
 ###  get_pureValue
@@ -23,7 +24,7 @@ Returns the value without prompt chars and literals
 
 `None` 
 
-###  get_value
+### get_value
 
 Returns the value or empty string if the empty message is shown currently
 
@@ -33,7 +34,7 @@ Returns the value or empty string if the empty message is shown currently
 
 `None` 
 
-###  get_valueWithPromptAndLiterals
+### get_valueWithPromptAndLiterals
 
 Returns the value with prompt chars and literals
 
@@ -43,7 +44,7 @@ Returns the value with prompt chars and literals
 
 `None` 
 
-###  isEmpty
+### isEmpty
 
 Check if the if the value of RadMaskedTextBoxExtender is empty or null
 
@@ -53,7 +54,7 @@ Check if the if the value of RadMaskedTextBoxExtender is empty or null
 
 `None` 
 
-###  updateValue
+### updateValue
 
 Update the value of RadMaskedTextBoxExtender
 
@@ -64,5 +65,6 @@ Update the value of RadMaskedTextBoxExtender
 #### Returns
 
 `None` 
+
 
 

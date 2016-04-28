@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.TreeListScrollEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.TreeListScrollEventArgs]({%slug Telerik.Web.UI.TreeListScrollEventArgs%})*
 
+
 ## Methods
 
 ###  get_isOnBottom
@@ -24,7 +25,7 @@ Returns a Boolean value, indicating whether the scroll has reached the bottom of
 
 `Boolean` 
 
-###  get_isOnTop
+### get_isOnTop
 
 Returns a Boolean value, indicating whether the scroll has reached the top of the treelist.
 
@@ -34,7 +35,7 @@ Returns a Boolean value, indicating whether the scroll has reached the top of th
 
 `Boolean` 
 
-###  get_scrollControl
+### get_scrollControl
 
 Returns the `div` element that is being scrolled.
 
@@ -44,7 +45,7 @@ Returns the `div` element that is being scrolled.
 
 `Element` 
 
-###  get_scrollLeft
+### get_scrollLeft
 
 Returns the horizontal position of the scroll.
 
@@ -54,7 +55,7 @@ Returns the horizontal position of the scroll.
 
 `Number` 
 
-###  get_scrollTop
+### get_scrollTop
 
 Returns the vertical position of the scroll.
 
@@ -63,5 +64,6 @@ Returns the vertical position of the scroll.
 #### Returns
 
 `Number` 
+
 
 

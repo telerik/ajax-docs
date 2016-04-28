@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.RadTextBox
 * [Telerik.Web.UI.RadInputControl]({%slug Telerik.Web.UI.RadInputControl%})
 * *[Telerik.Web.UI.RadTextBox]({%slug Telerik.Web.UI.RadTextBox%})*
 
+
 ## Methods
 
 ### blur
@@ -103,6 +104,16 @@ Gets the value of RadInputControl as it is formatted when the input has focus
 #### Returns
 
 `String` 
+
+### get_element
+
+Gets the DOM element for the input element that holds the edit value.
+
+#### Parameters
+
+#### Returns
+
+element `Element`
 
 ### get_emptyMessage
 
@@ -234,16 +245,6 @@ Gets the DOM element for the DIV wrapper element
 
 `Element` 
 
-### get_element
-
-Gets the DOM element for the input element that holds the edit value.
-
-#### Parameters
-
-#### Returns
-
-element `Element`
-
 ### isEmpty
 
 Returns true if the value of the RadInputControl is empty
@@ -277,16 +278,6 @@ Returns true if the value of the RadInputControl is a negative number
 ### isReadOnly
 
 Returns true if the value of the RadInputControl is read only
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-### raisePostBackEvent
-
-Raises the postback event of RadInputControl
 
 #### Parameters
 
@@ -483,6 +474,16 @@ Raises the valueChanging event
 #### Parameters
 
 ##### args `Sys.EventArgs`
+
+#### Returns
+
+`None` 
+
+### raisePostBackEvent
+
+Raises the postback event of RadInputControl
+
+#### Parameters
 
 #### Returns
 
@@ -723,23 +724,12 @@ Updates the display value of RadInputControl
 `None` 
 
 
+
 ## Events
 
-### blur
+### valueChanging
 
-Occurs when the RadInputControl loses focus
-
-#### Event Data
-
-##### sender `Telerik.Web.UI.RadTextBox`
-
-The RadInputControl that raised the event
-
-##### args `Sys.EventArgs`
-
-### buttonClick
-
-Occurs when the user clicks on the button that is associated with the input control
+Raised after the control loses focus just before a new value has been assigned.
 
 #### Event Data
 
@@ -747,9 +737,19 @@ Occurs when the user clicks on the button that is associated with the input cont
 
 The RadInputControl that raised the event
 
-##### args `Telerik.Web.UI.InputButtonClickEventArgs`
+##### args `Telerik.Web.UI.InputValueChangingEventArgs`
 
-The event arguments
+### valueChanged
+
+Raised after the control loses focus when a new value has been assigned.
+
+#### Event Data
+
+##### sender `Telerik.Web.UI.RadTextBox`
+
+The RadInputControl that raised the event
+
+##### args `Telerik.Web.UI.InputValueChangedEventArgs`
 
 ### disable
 
@@ -787,9 +787,9 @@ The RadInputControl that raised the event
 
 ##### args `Sys.EventArgs`
 
-### keyPress
+### load
 
-Raised when the user presses a key to enter a value.
+Raised when the control is loaded on the client.
 
 #### Event Data
 
@@ -797,11 +797,11 @@ Raised when the user presses a key to enter a value.
 
 The RadInputControl that raised the event
 
-##### args `Telerik.Web.UI.InputKeyPressEventArgs`
+##### args `Sys.EventArgs`
 
-### load
+### mouseOver
 
-Raised when the control is loaded on the client.
+Raised when the mouse enters the input area.
 
 #### Event Data
 
@@ -823,9 +823,9 @@ The RadInputControl that raised the event
 
 ##### args `Sys.EventArgs`
 
-### mouseOver
+### blur
 
-Raised when the mouse enters the input area.
+Occurs when the RadInputControl loses focus
 
 #### Event Data
 
@@ -834,6 +834,20 @@ Raised when the mouse enters the input area.
 The RadInputControl that raised the event
 
 ##### args `Sys.EventArgs`
+
+### buttonClick
+
+Occurs when the user clicks on the button that is associated with the input control
+
+#### Event Data
+
+##### sender `Telerik.Web.UI.RadTextBox`
+
+The RadInputControl that raised the event
+
+##### args `Telerik.Web.UI.InputButtonClickEventArgs`
+
+The event arguments
 
 ### moveDown
 
@@ -859,6 +873,18 @@ The RadInputControl that raised the event
 
 ##### args `Telerik.Web.UI.MaskedTextBoxEventArgs`
 
+### keyPress
+
+Raised when the user presses a key to enter a value.
+
+#### Event Data
+
+##### sender `Telerik.Web.UI.RadTextBox`
+
+The RadInputControl that raised the event
+
+##### args `Telerik.Web.UI.InputKeyPressEventArgs`
+
 ### passwordStrengthCalculating
 
 Raised when using the password strength check feature and changing the text, before the indicator is updated.
@@ -871,27 +897,4 @@ The RadInputControl that raised the event
 
 ##### args `Telerik.Web.UI.PasswordStrengthCalculatingEventArgs`
 
-### valueChanged
-
-Raised after the control loses focus when a new value has been assigned.
-
-#### Event Data
-
-##### sender `Telerik.Web.UI.RadTextBox`
-
-The RadInputControl that raised the event
-
-##### args `Telerik.Web.UI.InputValueChangedEventArgs`
-
-### valueChanging
-
-Raised after the control loses focus just before a new value has been assigned.
-
-#### Event Data
-
-##### sender `Telerik.Web.UI.RadTextBox`
-
-The RadInputControl that raised the event
-
-##### args `Telerik.Web.UI.InputValueChangingEventArgs`
 

@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.ImageGalleryImageLoadedEventArgs
 * Sys.EventArgs
 * *[Telerik.Web.UI.ImageGalleryImageLoadedEventArgs]({%slug Telerik.Web.UI.ImageGalleryImageLoadedEventArgs%})*
 
+
 ## Methods
 
 ###  get_item
@@ -24,7 +25,16 @@ Returns the currently displayed image object.
 
 `Telerik.Web.UI.RadImageGalleryItem` 
 
-###  get_imageType
+### get_image
+
+Returns the image element.
+
+#### Parameters
+
+#### Returns
+
+`Element` 
+### get_imageType
 
 Returns the image type.
 
@@ -34,12 +44,4 @@ Returns the image type.
 
 `Telerik.Web.UI.ImageType` 
 
-###  get_image
 
-Returns the image element.
-
-#### Parameters
-
-#### Returns
-
-`Element` 

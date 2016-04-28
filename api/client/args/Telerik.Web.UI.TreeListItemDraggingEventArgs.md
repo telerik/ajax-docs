@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.TreeListItemDraggingEventArgs
 * Sys.EventArgs
 * *[Telerik.Web.UI.TreeListItemDraggingEventArgs]({%slug Telerik.Web.UI.TreeListItemDraggingEventArgs%})*
 
+
 ## Methods
 
 ### get_canDrop
@@ -87,6 +88,7 @@ Sets whether the drop clue (an arrow image in front of the dragged row) should b
 #### Returns
 
 `None`
+
 
 
 

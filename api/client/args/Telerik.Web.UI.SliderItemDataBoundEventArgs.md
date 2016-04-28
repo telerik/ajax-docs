@@ -11,6 +11,7 @@ slug: Telerik.Web.UI.SliderItemDataBoundEventArgs
 
 * *[Telerik.Web.UI.SliderItemDataBoundEventArgs]({%slug Telerik.Web.UI.SliderItemDataBoundEventArgs%})*
 
+
 ## Methods
 
 ###  get_dataItem
@@ -23,7 +24,7 @@ Returns the client-side data object of the slider’s item.
 
 `Object`
 
-###  get_sliderItem
+### get_sliderItem
 
 Returns the client-side object of the slider’s item. 
 
@@ -32,3 +33,4 @@ Returns the client-side object of the slider’s item.
 #### Returns
 
 `Object`
+

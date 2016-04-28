@@ -11,6 +11,7 @@ slug: Telerik.Web.UI.Collection
 
 * *[Telerik.Web.UI.Collection]({%slug Telerik.Web.UI.Collection%})*
 
+
 ## Methods
 
 ###  add
@@ -25,7 +26,7 @@ Add the spe item to the collection.
 
 `None` 
 
-###  clear
+### clear
 
 Clears the collection.
 
@@ -35,7 +36,7 @@ Clears the collection.
 
 `None` 
 
-###  forEach
+### forEach
 
 Iterates through the array.
 
@@ -47,7 +48,17 @@ Iterates through the array.
 
 `None` 
 
-###  getItem
+### get_count
+
+Returns the number of items in the colletion.
+
+#### Parameters
+
+#### Returns
+
+`Number` 
+
+### getItem
 
 Returns the item at the specified index.
 
@@ -59,17 +70,7 @@ Returns the item at the specified index.
 
 `Object` 
 
-###  get_count
-
-Returns the number of items in the colletion.
-
-#### Parameters
-
-#### Returns
-
-`Number` 
-
-###  indexOf
+### indexOf
 
 Returns the index at which the specified item is located.
 
@@ -81,7 +82,7 @@ Returns the index at which the specified item is located.
 
 `None` 
 
-###  insert
+### insert
 
 Insert the item at the specified index.
 
@@ -95,7 +96,7 @@ Insert the item at the specified index.
 
 `None` 
 
-###  remove
+### remove
 
 Removes the specified item from the collection.
 
@@ -107,7 +108,7 @@ Removes the specified item from the collection.
 
 `None` 
 
-###  removeAt
+### removeAt
 
 Removes the item at the specified index.
 
@@ -119,7 +120,7 @@ Removes the item at the specified index.
 
 `None` 
 
-###  toList
+### toList
 
 Returns the array represenation of the specified collection.
 
@@ -128,5 +129,6 @@ Returns the array represenation of the specified collection.
 #### Returns
 
 `None` 
+
 
 

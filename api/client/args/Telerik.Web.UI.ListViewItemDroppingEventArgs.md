@@ -12,17 +12,8 @@ slug: Telerik.Web.UI.ListViewItemDroppingEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.ListViewItemDroppingEventArgs]({%slug Telerik.Web.UI.ListViewItemDroppingEventArgs%})*
 
+
 ## Methods
-
-### get_itemIndex
-
-Returns the index of the item that is being dropped.
-
-#### Parameters
-
-#### Returns
-
-`Number`
 
 ### get_dataKeyValues
 
@@ -34,6 +25,15 @@ Returns an object holding the data key values.
 
 `Object`
 
+### get_destinationElement
+
+Returns the HTML element over which the drop is performed.
+
+#### Parameters
+
+#### Returns
+
+`Element`
 ### get_domEvent
 
 Returns the Sys.UI.DomEvent instance associated to the raised event.
@@ -44,12 +44,14 @@ Returns the Sys.UI.DomEvent instance associated to the raised event.
 
 `Sys.UI.DomEvent`
 
-### get_destinationElement
+### get_itemIndex
 
-Returns the HTML element over which the drop is performed.
+Returns the index of the item that is being dropped.
 
 #### Parameters
 
 #### Returns
 
-`Element`
+`Number`
+
+

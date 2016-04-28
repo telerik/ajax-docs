@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.SchedulerRequestFailedEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.SchedulerRequestFailedEventArgs]({%slug Telerik.Web.UI.SchedulerRequestFailedEventArgs%})*
 
+
 ## Methods
 
 ### get_errorMessage
@@ -23,3 +24,4 @@ Returns the error message sent from the server.
 #### Returns
 
 `String`
+

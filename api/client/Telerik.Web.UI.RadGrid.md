@@ -12,71 +12,8 @@ slug: Telerik.Web.UI.RadGrid
 * [Telerik.Web.UI.RadWebControl]({%slug Telerik.Web.UI.RadWebControl%})
 * *[Telerik.Web.UI.RadGrid]({%slug Telerik.Web.UI.RadGrid%})*
 
+
 ## Methods
-
-### onWindowResize
-
-Resizes the modal background of the grid, when the window is resized
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-### get_selectedItems
-
-Returns a collection of selected items in the grid instance
-
-#### Parameters
-
-#### Returns
-
-`Array` 
-
-### set_allowMultiRowSelection
-
-Sets a Boolean value, indicating whether we have enabled multi row selection for the control
-
-#### Parameters
-
-##### value `Boolean`
-
-#### Returns
-
-`None` 
-
-### get_masterTableViewHeader
-
-Returns the master table view header instance of the grid
-
-#### Parameters
-
-#### Returns
-
-`Object` 
-
-### isInEditModeByHierarchicalIndex
-
-Returns a Boolean value, indicating whether the control is in edit mode, based on the passed Hierarchical index
-
-#### Parameters
-
-##### hierarchicalIndex `String`
-
-#### Returns
-
-`Boolean` 
-
-### clearSelectedItems
-
-Clears the selected items collection of RadGrid
-
-#### Parameters
-
-#### Returns
-
-`None` 
 
 ### clearActiveRow
 
@@ -88,131 +25,15 @@ Clears the current active row for the control
 
 `None` 
 
-### get_selectedItemsInternal
+### clearSelectedItems
 
-Gets an internal collection of selected items in the grid
-
-#### Parameters
-
-#### Returns
-
-`Number` 
-
-### saveClientState
-
-Saves the client state of the grid instance
+Clears the selected items collection of RadGrid
 
 #### Parameters
 
 #### Returns
 
 `None` 
-
-### get_allowActiveRowCycle
-
-Returns a Boolean value, indicating whether KeyboardNavigationSettings AllowActiveRowCycle="true"
-
-#### Parameters
-
-#### Returns
-
-`Boolean` 
-
-### get_headerMenu
-
-Gets the header menu of the grid instance
-
-#### Parameters
-
-#### Returns
-
-`Object` 
-
-### get_editItems
-
-#### Parameters
-
-#### Returns
-
-`Array` 
-
-### get_allowMultiRowSelection
-
-Returns a Boolean value, indicating whether we have enabled multi row selection for the control
-
-#### Parameters
-
-#### Returns
-
-`Boolean` 
-
-### set_selectedItemsInternal
-
-Sets an internal collection of selected items in the grid
-
-#### Parameters
-
-##### value `Number`
-
-#### Returns
-
-`None` 
-
-### resizeModalBackground
-
-Resizes the modal background of the grid, when the window is resized
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-### get_element
-
-#### Parameters
-
-#### Returns
-
-`Element` 
-
-### repaint
-
-Redraws the client side object on the client
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-### set_visible
-
-#### Parameters
-
-###### value `Boolean`
-
-#### Returns
-
-`None` 
-
-### get_id
-
-#### Parameters
-
-#### Returns
-
-`String` 
-
-### get_masterTableView
-
-Returns the master table view instance of the grid
-
-#### Parameters
-
-#### Returns
-
-`Telerik.Web.UI.GridTableView` 
 
 ### confirm
 
@@ -234,6 +55,26 @@ Shows a confirm window
 
 `None` 
 
+### get_allowActiveRowCycle
+
+Returns a Boolean value, indicating whether KeyboardNavigationSettings AllowActiveRowCycle="true"
+
+#### Parameters
+
+#### Returns
+
+`Boolean` 
+
+### get_allowMultiRowSelection
+
+Returns a Boolean value, indicating whether we have enabled multi row selection for the control
+
+#### Parameters
+
+#### Returns
+
+`Boolean` 
+
 ### get_detailTables
 
 Returns a collection of detail tables in RadGrid
@@ -244,15 +85,49 @@ Returns a collection of detail tables in RadGrid
 
 `Array` 
 
-### get_visible
-
-Boolean
+### get_editItems
 
 #### Parameters
 
 #### Returns
 
-`None` 
+`Array` 
+
+### get_element
+
+#### Parameters
+
+#### Returns
+
+`Element` 
+
+### get_headerMenu
+
+Gets the header menu of the grid instance
+
+#### Parameters
+
+#### Returns
+
+`Object` 
+
+### get_id
+
+#### Parameters
+
+#### Returns
+
+`String` 
+
+### get_masterTableView
+
+Returns the master table view instance of the grid
+
+#### Parameters
+
+#### Returns
+
+`Telerik.Web.UI.GridTableView` 
 
 ### get_masterTableViewFooter
 
@@ -264,6 +139,98 @@ Returns the master table view footer instance of the grid
 
 `Object` 
 
+### get_masterTableViewHeader
+
+Returns the master table view header instance of the grid
+
+#### Parameters
+
+#### Returns
+
+`Object` 
+
+### get_selectedItems
+
+Returns a collection of selected items in the grid instance
+
+#### Parameters
+
+#### Returns
+
+`Array` 
+
+### get_selectedItemsInternal
+
+Gets an internal collection of selected items in the grid
+
+#### Parameters
+
+#### Returns
+
+`Number` 
+
+### get_visible
+
+Boolean
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### isInEditModeByHierarchicalIndex
+
+Returns a Boolean value, indicating whether the control is in edit mode, based on the passed Hierarchical index
+
+#### Parameters
+
+##### hierarchicalIndex `String`
+
+#### Returns
+
+`Boolean` 
+
+### onWindowResize
+
+Resizes the modal background of the grid, when the window is resized
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### repaint
+
+Redraws the client side object on the client
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### resizeModalBackground
+
+Resizes the modal background of the grid, when the window is resized
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### saveClientState
+
+Saves the client state of the grid instance
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
 ### set_allowActiveRowCycle
 
 Sets a value, indicating whether AllowActiveRowCycle="true"
@@ -273,6 +240,41 @@ Sets a value, indicating whether AllowActiveRowCycle="true"
 #### Returns
 
 `Boolean` 
+
+### set_allowMultiRowSelection
+
+Sets a Boolean value, indicating whether we have enabled multi row selection for the control
+
+#### Parameters
+
+##### value `Boolean`
+
+#### Returns
+
+`None` 
+
+### set_selectedItemsInternal
+
+Sets an internal collection of selected items in the grid
+
+#### Parameters
+
+##### value `Number`
+
+#### Returns
+
+`None` 
+
+### set_visible
+
+#### Parameters
+
+###### value `Boolean`
+
+#### Returns
+
+`None` 
+
 
 ## Events
 
@@ -1005,3 +1007,4 @@ The instance of the RadGrid raised the event.
 The instance of the RadGrid raised the event.
 
 ##### args `Telerik.Web.UI.GridDataItemEventArgs`
+

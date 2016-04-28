@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.NumericInputErrorEventArgs
 * [Telerik.Web.UI.InputErrorEventArgs]({%slug Telerik.Web.UI.InputErrorEventArgs%})
 * *[Telerik.Web.UI.NumericInputErrorEventArgs]({%slug Telerik.Web.UI.NumericInputErrorEventArgs%})*
 
+
 ## Methods
 
 ###  get_inputText
@@ -22,7 +23,7 @@ slug: Telerik.Web.UI.NumericInputErrorEventArgs
 
 `String` 
 
-###  get_keyCharacter
+### get_keyCharacter
 
 #### Parameters
 
@@ -30,7 +31,7 @@ slug: Telerik.Web.UI.NumericInputErrorEventArgs
 
 `String` 
 
-###  get_keyCode
+### get_keyCode
 
 #### Parameters
 
@@ -38,12 +39,13 @@ slug: Telerik.Web.UI.NumericInputErrorEventArgs
 
 `Number` 
 
-###  get_reason
+### get_reason
 
 #### Parameters
 
 #### Returns
 
 `Telerik.Web.UI.InputErrorReason` 
+
 
 

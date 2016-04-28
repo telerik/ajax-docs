@@ -11,6 +11,7 @@ slug: Telerik.Web.UI.GridSortExpression
 
 * *[Telerik.Web.UI.GridSortExpression]({%slug Telerik.Web.UI.GridSortExpression%})*
 
+
 ## Methods
 
 ###  get_fieldName
@@ -23,7 +24,7 @@ Returns the name of the associated field.
 
 `String` 
 
-###  get_sortOrder
+### get_sortOrder
 
 Returns the sort order. Possible values are: Descending, Ascending, and Natural
 
@@ -33,7 +34,7 @@ Returns the sort order. Possible values are: Descending, Ascending, and Natural
 
 `String` 
 
-###  set_fieldName
+### set_fieldName
 
 Sets the name of the associated field.
 
@@ -43,7 +44,7 @@ Sets the name of the associated field.
 
 `None` 
 
-###  set_sortOrder
+### set_sortOrder
 
 Sets the sort order. Possible values are: Descending, Ascending, and Natural
 
@@ -52,5 +53,6 @@ Sets the sort order. Possible values are: Descending, Ascending, and Natural
 #### Returns
 
 `None` 
+
 
 

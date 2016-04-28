@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.RadRadialGauge
 * [Telerik.Web.UI.RadGaugeControl]({%slug Telerik.Web.UI.RadGaugeControl%})
 * *[Telerik.Web.UI.RadRadialGauge]({%slug Telerik.Web.UI.RadRadialGauge%})*
 
+
 ## Methods
 
 ###  get_kendoWidget
@@ -25,7 +26,7 @@ To use the exposed Kendo methods make sure you have the kendo.dataviz.d.ts file 
 
 `Object` 
 
-###  get_height
+### get_height
 
 Gets the height of the gauge
 
@@ -35,7 +36,7 @@ Gets the height of the gauge
 
 `Number` 
 
-###  get_value
+### get_value
 
 Gets the value of the gauge
 
@@ -45,7 +46,7 @@ Gets the value of the gauge
 
 `Number` 
 
-###  get_width
+### get_width
 
 Gets the width of the gauge
 
@@ -55,7 +56,7 @@ Gets the width of the gauge
 
 `Number` 
 
-###  repaint
+### repaint
 
 Repaints the gauge
 
@@ -65,7 +66,7 @@ Repaints the gauge
 
 `None` 
 
-###  set_height
+### set_height
 
 Sets new height to the gauge
 
@@ -77,7 +78,7 @@ Sets new height to the gauge
 
 `None` 
 
-###  set_value
+### set_value
 
 Sets a new value to the gauge
 
@@ -89,7 +90,7 @@ Sets a new value to the gauge
 
 `None` 
 
-###  set_width
+### set_width
 
 Sets new width to the gauge
 
@@ -100,5 +101,6 @@ Sets new width to the gauge
 #### Returns
 
 `None` 
+
 
 

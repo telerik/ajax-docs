@@ -11,6 +11,7 @@ slug: Telerik.Web.UI.GridFilterExpression
 
 * *[Telerik.Web.UI.GridFilterExpression]({%slug Telerik.Web.UI.GridFilterExpression%})*
 
+
 ## Methods
 
 ###  getDataServiceValue
@@ -25,7 +26,57 @@ Returns the data type of the dataservice.
 
 `Object` 
 
-###  getDynamicLinqValue
+### get_columnUniqueName
+
+Returns the unique name of the column.
+
+#### Parameters
+
+#### Returns
+
+`String` 
+
+### get_dataTypeName
+
+Returns the type name of the data field.
+
+#### Parameters
+
+#### Returns
+
+`String` 
+
+### get_fieldName
+
+Returns the field name of the sort expression.
+
+#### Parameters
+
+#### Returns
+
+`String` 
+
+### get_fieldValue
+
+Returns the field value.
+
+#### Parameters
+
+#### Returns
+
+`Object` 
+
+### get_filterFunction
+
+Returns the current filter function.
+
+#### Parameters
+
+#### Returns
+
+`String` 
+
+### getDynamicLinqValue
 
 Returns the value of the DynamicLinq expression.
 
@@ -37,7 +88,7 @@ Returns the value of the DynamicLinq expression.
 
 `String` 
 
-###  getQuotedValue
+### getQuotedValue
 
 Returns the string represenation of the data type name.
 
@@ -49,57 +100,7 @@ Returns the string represenation of the data type name.
 
 `String` 
 
-###  get_columnUniqueName
-
-Returns the unique name of the column.
-
-#### Parameters
-
-#### Returns
-
-`String` 
-
-###  get_dataTypeName
-
-Returns the type name of the data field.
-
-#### Parameters
-
-#### Returns
-
-`String` 
-
-###  get_fieldName
-
-Returns the field name of the sort expression.
-
-#### Parameters
-
-#### Returns
-
-`String` 
-
-###  get_fieldValue
-
-Returns the field value.
-
-#### Parameters
-
-#### Returns
-
-`Object` 
-
-###  get_filterFunction
-
-Returns the current filter function.
-
-#### Parameters
-
-#### Returns
-
-`String` 
-
-###  set_columnUniqueName
+### set_columnUniqueName
 
 Sets the unique name of the column.
 
@@ -111,7 +112,7 @@ Sets the unique name of the column.
 
 `None` 
 
-###  set_dataTypeName
+### set_dataTypeName
 
 Returns the type name of the data field.
 
@@ -123,7 +124,7 @@ Returns the type name of the data field.
 
 `None` 
 
-###  set_fieldName
+### set_fieldName
 
 Set the field name of the sort expression.
 
@@ -135,7 +136,7 @@ Set the field name of the sort expression.
 
 `None` 
 
-###  set_fieldValue
+### set_fieldValue
 
 Sets the field value.
 
@@ -147,7 +148,7 @@ Sets the field value.
 
 `None` 
 
-###  set_filterFunction
+### set_filterFunction
 
 Returns the current filter function.
 
@@ -159,7 +160,7 @@ Returns the current filter function.
 
 `None` 
 
-###  toDataService
+### toDataService
 
 Initializes DataService string.
 
@@ -169,7 +170,7 @@ Initializes DataService string.
 
 `String` 
 
-###  toDynamicLinq
+### toDynamicLinq
 
 Returns the DynamicLinq represenation of the filter expression.
 
@@ -181,7 +182,7 @@ Returns the DynamicLinq represenation of the filter expression.
 
 `String` 
 
-###  toOql
+### toOql
 
 Returns the OQL represenation of the filter expression.
 
@@ -193,7 +194,7 @@ Returns the OQL represenation of the filter expression.
 
 `Object` 
 
-###  toString
+### toString
 
 Returns the string representation of the specified filter expression.
 
@@ -204,5 +205,6 @@ Returns the string representation of the specified filter expression.
 #### Returns
 
 `String` 
+
 
 

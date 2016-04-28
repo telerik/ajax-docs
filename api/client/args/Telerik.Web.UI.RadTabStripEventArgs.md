@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.RadTabStripEventArgs
 * Sys.EventArgs
 * *[Telerik.Web.UI.RadTabStripEventArgs]({%slug Telerik.Web.UI.RadTabStripEventArgs%})*
 
+
 ## Methods
 
 ###  get_tab
@@ -25,7 +26,7 @@ slug: Telerik.Web.UI.RadTabStripEventArgs
 `Telerik.Web.UI.RadTab` the item that has just been selected. 
 
 
-###  get_domEvent
+### get_domEvent
 
 Returns the Sys.UI.DomEvent instance associated to the raised event.
 
@@ -34,6 +35,7 @@ Returns the Sys.UI.DomEvent instance associated to the raised event.
 #### Returns
 
 `Sys.UI.DomEvent` the Sys.UI.DomEvent instance associated to the raised event.
+
 
 
 

@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.RibbonBarTabCollection
 * [Telerik.Web.UI.RibbonBarChildCollection]({%slug Telerik.Web.UI.RibbonBarChildCollection%})
 * *[Telerik.Web.UI.RibbonBarTabCollection]({%slug Telerik.Web.UI.RibbonBarTabCollection%})*
 
+
 ## Methods
 
 ###  getTab
@@ -27,5 +28,6 @@ The index of the RibbonBarTab that should be returned
 #### Returns
 
 `Telerik.Web.UI.RibbonBarTab` Returns RibbonBarTab
+
 
 

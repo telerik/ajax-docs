@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.GanttCancelEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.GanttCancelEventArgs]({%slug Telerik.Web.UI.GanttCancelEventArgs%})*
 
+
 ## Methods
 
 ### get_task
@@ -23,3 +24,4 @@ Returns the current task.
 #### Returns
 
 `Telerik.Web.UI.GanttTask`
+

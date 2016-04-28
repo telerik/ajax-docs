@@ -7,10 +7,12 @@ slug: Telerik.Web.UI.ImageGalleryNavigatingEventArgs
 
 # Telerik.Web.UI.ImageGalleryNavigatingEventArgs : Sys.CancelEventArgs 
 
-## Inheritance Hierarchy
+
+Inheritance Hierarchy
 
 * Sys.CancelEventArgs
 * [Telerik.Web.UI.ImageGalleryNavigatingEventArgs]({%slug Telerik.Web.UI.ImageGalleryNavigatingEventArgs%})
+
 
 ## Methods
 
@@ -24,7 +26,7 @@ Returns the currently displayed image object.
 
 `Telerik.Web.UI.RadImageGalleryItem` 
 
-###  get_itemIndex
+### get_itemIndex
 
 Returns the currently displayed item index.
 
@@ -33,3 +35,4 @@ Returns the currently displayed item index.
 #### Returns
 
 `Number` 
+

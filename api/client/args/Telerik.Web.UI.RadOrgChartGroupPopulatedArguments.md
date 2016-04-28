@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.RadOrgChartGroupPopulatedArguments
 * Sys.EventArgs
 * *[Telerik.Web.UI.RadOrgChartGroupPopulatedArguments]({%slug Telerik.Web.UI.RadOrgChartGroupPopulatedArguments%})*
 
+
 ## Methods
 
 ### get_groupItemCollection
@@ -23,3 +24,4 @@ Returns the group items collection within a node.
 #### Returns
 
 `Telerik.Web.UI.OrgChartGroupItemCollection` 
+

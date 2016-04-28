@@ -12,4 +12,6 @@ slug: Telerik.Web.UI.RadTreeNodePopulatedEventArgs
 * [Telerik.Web.UI.RadTreeNodeEventArgs]({%slug Telerik.Web.UI.RadTreeNodeEventArgs%})
 * *[Telerik.Web.UI.RadTreeNodePopulatedEventArgs]({%slug Telerik.Web.UI.RadTreeNodePopulatedEventArgs%})*
 
-## Methods
+
+Methods
+

@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.DataFormCommandEventArg
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.DataFormCommandEventArg]({%slug Telerik.Web.UI.DataFormCommandEventArg%})*
 
+
 ## Methods
 
 ###  get_commandName
@@ -24,7 +25,7 @@ Returns the name of the initiated command.
 
 `String` 
 
-###  get_commandArgument
+### get_commandArgument
 
 Returns the argument of the initiated command, which will be passed to the server.
 
@@ -33,3 +34,4 @@ Returns the argument of the initiated command, which will be passed to the serve
 #### Returns
 
 `String` 
+

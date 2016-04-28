@@ -12,11 +12,12 @@ slug: Telerik.Web.UI.TreeListDataItem
 * Sys.UI.Control
 * *[Telerik.Web.UI.TreeListDataItem]({%slug Telerik.Web.UI.TreeListDataItem%})*
 
+
 ## Methods
 
-### get_nextSibling
+### fireCommand
 
-A property which gets the next sibling of the current item.
+Method which triggers specific command for the TreeListDataItem when executed. The method is called for the TreeListDataItem client instance. The method arguments are the command which will be processed and its corresponding arguments.
 
 #### Parameters
 
@@ -24,9 +25,29 @@ A property which gets the next sibling of the current item.
 
 `None` 
 
-### get_previousSibling
+### get_childItems
 
-A property which gets the previous sibling of the current item.
+A property which gets a collection of the visible child items of the current item.
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### get_displayIndex
+
+Gets the display index of the current TreeListDataItem instance.
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### get_expanded
+
+A property which returns whether the current item is expanded.
 
 #### Parameters
 
@@ -54,39 +75,9 @@ A property which returns whether the current item is root item for the treelist.
 
 `None` 
 
-### get_displayIndex
+### get_nextSibling
 
-Gets the display index of the current TreeListDataItem instance.
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-### get_selected
-
-Gets a value indicating whether the current item is selected.
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-### fireCommand
-
-Method which triggers specific command for the TreeListDataItem when executed. The method is called for the TreeListDataItem client instance. The method arguments are the command which will be processed and its corresponding arguments.
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-### get_childItems
-
-A property which gets a collection of the visible child items of the current item.
+A property which gets the next sibling of the current item.
 
 #### Parameters
 
@@ -104,6 +95,36 @@ Gets the owner RadTreeList instance for this item.
 
 `None` 
 
+### get_parentItem
+
+A property which gets the parent of the current item.
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### get_previousSibling
+
+A property which gets the previous sibling of the current item.
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### get_selected
+
+Gets a value indicating whether the current item is selected.
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
 ### set_selected
 
 Sets the selected state of the current item.
@@ -114,23 +135,4 @@ Sets the selected state of the current item.
 
 `None` 
 
-### get_expanded
-
-A property which returns whether the current item is expanded.
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-### get_parentItem
-
-A property which gets the parent of the current item.
-
-#### Parameters
-
-#### Returns
-
-`None` 
 

@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.MonthYearPickerDateSelectedEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.MonthYearPickerDateSelectedEventArgs]({%slug Telerik.Web.UI.MonthYearPickerDateSelectedEventArgs%})*
 
+
 ## Methods
 
 ###  get_selectedDate
@@ -23,5 +24,6 @@ Returns the selected date.
 #### Returns
 
 `Date` 
+
 
 

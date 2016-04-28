@@ -11,6 +11,7 @@ slug: Telerik.Web.UI.SearchBoxButtonCollection
 
 * *[Telerik.Web.UI.SearchBoxButtonCollection]({%slug Telerik.Web.UI.SearchBoxButtonCollection%})*
 
+
 ## Methods
 
 ###  add
@@ -27,7 +28,7 @@ The button to insert
 
 `None` 
 
-###  clear
+### clear
 
 Clears the Buttons collection of RadSearchBox
 
@@ -37,7 +38,7 @@ Clears the Buttons collection of RadSearchBox
 
 `None` 
 
-###  forEach
+### forEach
 
 Iterates through the Buttons collection
 
@@ -51,7 +52,17 @@ The function to execute on each iteration
 
 `None` 
 
-###  getButton
+### get_count
+
+Returns the number of buttons in the Buttons collection.
+
+#### Parameters
+
+#### Returns
+
+`Number` The number of the buttons
+
+### getButton
 
 Gets the button from the Buttons collection residing at the index specified by the parameter.
 
@@ -65,17 +76,7 @@ The index of the button that should be returned
 
 `Telerik.Web.UI.SearchBoxButton` Returns SearchBoxButton
 
-###  get_count
-
-Returns the number of buttons in the Buttons collection.
-
-#### Parameters
-
-#### Returns
-
-`Number` The number of the buttons
-
-###  indexOf
+### indexOf
 
 Gets the index of a button.
 
@@ -89,7 +90,7 @@ The button to get the index of
 
 `Number` int
 
-###  insert
+### insert
 
 Inserts a button into the Buttons collection at the position specified by the first (index) parameter
 
@@ -107,7 +108,7 @@ The button to insert
 
 `None` 
 
-###  remove
+### remove
 
 Removes a button from the Buttons collection
 
@@ -121,7 +122,7 @@ The button to remove
 
 `None` 
 
-###  removeAt
+### removeAt
 
 Removes the button at the specified index.
 
@@ -135,7 +136,7 @@ The index to remove at
 
 `None` 
 
-###  toArray
+### toArray
 
 Returns the collection represented as array
 
@@ -144,5 +145,6 @@ Returns the collection represented as array
 #### Returns
 
 `Telerik.Web.UI.SearchBoxButton[]` 
+
 
 

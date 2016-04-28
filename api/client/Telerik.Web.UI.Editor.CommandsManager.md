@@ -11,17 +11,18 @@ slug: Telerik.Web.UI.Editor.CommandsManager
 
 * *[Telerik.Web.UI.Editor.CommandsManager]({%slug Telerik.Web.UI.Editor.CommandsManager%})*
 
+
 ## Methods
 
-### get_commands
+### canRepeatLastCommand
 
-Returns the commands available in the undo stack.  
+Indicates whether the last command can be repeated. 
 
 #### Parameters
 
 #### Returns
 
-`Array` 
+`Boolean`
 
 ### execute
 
@@ -41,19 +42,55 @@ Boolean value that indicates whether the command to be added in the undo stack.
 
 `Boolean` Returns true if command can be unexecuted. 
 
-### undo
+### get_commands
 
-Undo commands added in the undo stack.
+Returns the commands available in the undo stack.  
 
 #### Parameters
 
-##### depth `Number` 
+#### Returns
 
-The number of commands to be undo.
+`Array` 
+
+### getCommandsToRedo
+
+Returns the commands in the redo stack.
+
+#### Parameters
 
 #### Returns
 
-`None` 
+`Array`
+
+### getCommandsToUndo
+
+Returns the commands in the undo stack.
+
+#### Parameters
+
+#### Returns
+
+`Array`
+
+### isRedoAvailable
+
+Indicates whether there are commands in the redo stack.
+
+#### Parameters
+
+#### Returns
+
+`Boolean`
+
+### isUndoAvailable
+
+Indicates whether there are commands in the undo stack.
+
+#### Parameters
+
+#### Returns
+
+`Boolean`
 
 ### redo
 
@@ -83,56 +120,6 @@ The index of the command to be removed.
 
 `None`
 
-### isUndoAvailable
-
-Indicates whether there are commands in the undo stack.
-
-#### Parameters
-
-#### Returns
-
-`Boolean`
-
-### isRedoAvailable
-
-Indicates whether there are commands in the redo stack.
-
-#### Parameters
-
-#### Returns
-
-`Boolean`
-
-### getCommandsToUndo
-
-Returns the commands in the undo stack.
-
-#### Parameters
-
-#### Returns
-
-`Array`
-
-### getCommandsToRedo
-
-Returns the commands in the redo stack.
-
-#### Parameters
-
-#### Returns
-
-`Array`
-
-### canRepeatLastCommand
-
-Indicates whether the last command can be repeated. 
-
-#### Parameters
-
-#### Returns
-
-`Boolean`
-
 ### repeatLastCommand
 
 Repeats the last command fired. 
@@ -142,3 +129,18 @@ Repeats the last command fired.
 #### Returns
 
 `None`
+### undo
+
+Undo commands added in the undo stack.
+
+#### Parameters
+
+##### depth `Number` 
+
+The number of commands to be undo.
+
+#### Returns
+
+`None` 
+
+

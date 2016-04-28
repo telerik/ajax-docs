@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.RibbonBarDropDownSelectedIndexChangingEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.RibbonBarDropDownSelectedIndexChangingEventArgs]({%slug Telerik.Web.UI.RibbonBarDropDownSelectedIndexChangingEventArgs%})*
 
+
 ## Methods
 
 ### get_dropDown
@@ -33,3 +34,4 @@ Returns dropdown's selected index.
 #### Returns
 
 `Number`
+

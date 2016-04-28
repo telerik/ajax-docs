@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.DatePickerPopupClosingEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.DatePickerPopupClosingEventArgs]({%slug Telerik.Web.UI.DatePickerPopupClosingEventArgs%})*
 
+
 ## Methods
 
 ###  get_popupControl
@@ -23,5 +24,6 @@ Returns the client object for the time view or calendar that is about to close.
 #### Returns
 
 `Telerik.Web.UI.RadCalendar` 
+
 
 

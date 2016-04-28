@@ -11,6 +11,7 @@ slug: Telerik.Web.UI.RadDateInputExtender
 
 * *[Telerik.Web.UI.RadDateInputExtender]({%slug Telerik.Web.UI.RadDateInputExtender%})*
 
+
 ## Methods
 
 ###  formatDisplayValue
@@ -25,7 +26,7 @@ Returns the format display value of RadDateInputExtender
 
 `None` 
 
-###  formatEditValue
+### formatEditValue
 
 Returns the format edit value of RadDateInputExtender
 
@@ -37,7 +38,7 @@ Returns the format edit value of RadDateInputExtender
 
 `None` 
 
-###  get_selectedDate
+### get_selectedDate
 
 Gets the selected date of RadDateInputExtender
 
@@ -47,7 +48,7 @@ Gets the selected date of RadDateInputExtender
 
 `Date` 
 
-###  parseDate
+### parseDate
 
 Parses a string using the DateFormatInfo object and returns the resulting date
 
@@ -61,7 +62,7 @@ Parses a string using the DateFormatInfo object and returns the resulting date
 
 `None` 
 
-###  raise_error
+### raise_error
 
 Returns a Boolean value, indicating whether error is raised
 
@@ -73,7 +74,7 @@ Returns a Boolean value, indicating whether error is raised
 
 `None` 
 
-###  validateInputValue
+### validateInputValue
 
 Returns the validate input value of RadDateInputExtender
 
@@ -84,5 +85,6 @@ Returns the validate input value of RadDateInputExtender
 #### Returns
 
 `None` 
+
 
 

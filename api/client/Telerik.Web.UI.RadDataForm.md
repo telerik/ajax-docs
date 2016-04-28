@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.RadDataForm
 * [Telerik.Web.UI.RadWebControl]({%slug Telerik.Web.UI.RadWebControl%})
 * *[Telerik.Web.UI.RadDataForm]({%slug Telerik.Web.UI.RadDataForm%})*
 
+
 ## Methods
 
 ###  cancelInsert
@@ -24,7 +25,7 @@ Cancels insert operation and hides RadDataForm's insertion form
 
 `None` 
 
-###  cancelUpdate
+### cancelUpdate
 
 Cancels RadDataForm item update (with index specified as an argument)
 
@@ -34,7 +35,7 @@ Cancels RadDataForm item update (with index specified as an argument)
 
 `None` 
 
-###  dataBind
+### dataBind
 
 Databinds the DataForm when the client-side data source is set
 
@@ -44,7 +45,7 @@ Databinds the DataForm when the client-side data source is set
 
 `None` 
 
-###  deleteItem
+### deleteItem
 
 Deletes RadDataForm item with index specified as an argument
 
@@ -54,7 +55,7 @@ Deletes RadDataForm item with index specified as an argument
 
 `None` 
 
-###  editItem
+### editItem
 
 Switches RadDataForm item into edit mode (with index specified as an argument)
 
@@ -64,7 +65,7 @@ Switches RadDataForm item into edit mode (with index specified as an argument)
 
 `None` 
 
-###  fireCommand
+### fireCommand
 
 Fires command with command name and command argument specified as arguments
 
@@ -74,7 +75,7 @@ Fires command with command name and command argument specified as arguments
 
 `None` 
 
-###  get_clientSettings
+### get_clientSettings
 
 Gets the current client settings applied for RadDataForm
 
@@ -84,7 +85,7 @@ Gets the current client settings applied for RadDataForm
 
 `None` 
 
-###  get_currentPageIndex
+### get_currentPageIndex
 
 Gets the current page index in case paging for RadDataForm is enabled
 
@@ -94,7 +95,7 @@ Gets the current page index in case paging for RadDataForm is enabled
 
 `None` 
 
-###  get_dataSource
+### get_dataSource
 
 Gets the data source javascript array of RadDataForm
 
@@ -104,7 +105,7 @@ Gets the data source javascript array of RadDataForm
 
 `None` 
 
-###  get_isDataBinding
+### get_isDataBinding
 
 Indicates whether RadDataForm is currently databinding on the client-side
 
@@ -114,7 +115,7 @@ Indicates whether RadDataForm is currently databinding on the client-side
 
 `None` 
 
-###  get_isItemInserted
+### get_isItemInserted
 
 Gets a value indicating whether the insert form is currently shown
 
@@ -124,7 +125,7 @@ Gets a value indicating whether the insert form is currently shown
 
 `None` 
 
-###  get_pageCount
+### get_pageCount
 
 Gets the page count in RadDataForm
 
@@ -134,7 +135,7 @@ Gets the page count in RadDataForm
 
 `None` 
 
-###  get_skin
+### get_skin
 
 Gets the skin set to the RadDataForm's control
 
@@ -144,7 +145,7 @@ Gets the skin set to the RadDataForm's control
 
 `None` 
 
-###  get_uniqueID
+### get_uniqueID
 
 Gets the unique id of RadDataForm's container
 
@@ -154,7 +155,7 @@ Gets the unique id of RadDataForm's container
 
 `None` 
 
-###  get_virtualItemCount
+### get_virtualItemCount
 
 Gets the total number of items RadDataForm can bind to. This value is used for page calculations.
 
@@ -164,7 +165,7 @@ Gets the total number of items RadDataForm can bind to. This value is used for p
 
 `None` 
 
-###  insertItem
+### insertItem
 
 Inserts a new item in RadDataForm with values taken from its insertion form
 
@@ -174,7 +175,7 @@ Inserts a new item in RadDataForm with values taken from its insertion form
 
 `None` 
 
-###  page
+### page
 
 Navigates RadDataForm to the page specified as an argument. If server-side databinding is used, RadDataPager should be used for page navigation
 
@@ -184,7 +185,7 @@ Navigates RadDataForm to the page specified as an argument. If server-side datab
 
 `None` 
 
-###  rebind
+### rebind
 
 Rebinds RadDataForm to its given data source
 
@@ -194,7 +195,7 @@ Rebinds RadDataForm to its given data source
 
 `None` 
 
-###  set_currentPageIndex
+### set_currentPageIndex
 
 Sets the current page index in RadDataForm
 
@@ -204,7 +205,7 @@ Sets the current page index in RadDataForm
 
 `None` 
 
-###  set_dataSource
+### set_dataSource
 
 Sets the data source of RadDataForm
 
@@ -214,7 +215,7 @@ Sets the data source of RadDataForm
 
 `None` 
 
-###  set_virtualItemCount
+### set_virtualItemCount
 
 Sets the virtual item count in RadDataForm
 
@@ -224,7 +225,7 @@ Sets the virtual item count in RadDataForm
 
 `None` 
 
-###  showInsertItem
+### showInsertItem
 
 Displays RadDataForm's insertion form
 
@@ -234,7 +235,7 @@ Displays RadDataForm's insertion form
 
 `None` 
 
-###  updateItem
+### updateItem
 
 Updates RadDataForm item (with index specified as an argument)
 
@@ -244,7 +245,22 @@ Updates RadDataForm item (with index specified as an argument)
 
 `None` 
 
+
 ## Events
+
+### command
+
+Adds a handler for the command event
+
+#### Event Data
+
+##### sender `Telerik.Web.UI.RadDataForm`
+
+The RadDataForm instance raised the event.
+
+##### args `Telerik.Web.UI.DataFormCommandEventArg`
+
+The arguments of the  event.
 
 ### DataFormCreated
 
@@ -288,9 +304,9 @@ The RadDataForm instance raised the event.
 
 The arguments of the  event.
 
-### command
+### getValues
 
-Adds a handler for the command event
+Raised when values are retrieved from Edit/Insert template. Used with client-side binding. 
 
 #### Event Data
 
@@ -298,7 +314,7 @@ Adds a handler for the command event
 
 The RadDataForm instance raised the event.
 
-##### args `Telerik.Web.UI.DataFormCommandEventArg`
+##### args `Sys.CancelEventArgs`
 
 The arguments of the  event.
 
@@ -316,17 +332,4 @@ The RadDataForm instance raised the event.
 
 The arguments of the  event.
 
-### getValues
-
-Raised when values are retrieved from Edit/Insert template. Used with client-side binding. 
-
-#### Event Data
-
-##### sender `Telerik.Web.UI.RadDataForm`
-
-The RadDataForm instance raised the event.
-
-##### args `Sys.CancelEventArgs`
-
-The arguments of the  event.
 

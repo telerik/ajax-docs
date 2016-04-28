@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.CalendarDayRenderEventArgs
 * Sys.EventArgs
 * *[Telerik.Web.UI.CalendarDayRenderEventArgs]({%slug Telerik.Web.UI.CalendarDayRenderEventArgs%})*
 
+
 ## Methods
 
 ###  get_cell
@@ -24,7 +25,7 @@ Returns object for the cell being rendered.
 
 `Element` 
 
-###  get_date
+### get_date
 
 Returns the triplet for the date the cell represents.
 
@@ -34,7 +35,7 @@ Returns the triplet for the date the cell represents.
 
 `Number[]` 
 
-###  get_renderDay
+### get_renderDay
 
 Returns the client-side RenderDay object that represents the day being rendered. This value is null if the cell represents a value outside the range specified by RangeMinDate and RangeMaxDate.
 
@@ -43,5 +44,6 @@ Returns the client-side RenderDay object that represents the day being rendered.
 #### Returns
 
 `Telerik.Web.UI.Calendar.RenderDay` 
+
 
 

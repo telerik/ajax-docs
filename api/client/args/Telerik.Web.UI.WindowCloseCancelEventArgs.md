@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.WindowCloseCancelEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.WindowCloseCancelEventArgs]({%slug Telerik.Web.UI.WindowCloseCancelEventArgs%})*
 
+
 ## Methods
 
 ###  get_argument
@@ -23,3 +24,4 @@ Returns the argument passed to the close() method of the RadWindow by the develo
 #### Returns
 
 `Object` 
+

@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.RadDateInput
 * [Telerik.Web.UI.RadInputControl]({%slug Telerik.Web.UI.RadInputControl%})
 * *[Telerik.Web.UI.RadDateInput]({%slug Telerik.Web.UI.RadDateInput%})*
 
+
 ## Methods
 
 ###  blur
@@ -24,7 +25,7 @@ Indicating whether RadInputControl loses focus
 
 `None` 
 
-###  clear
+### clear
 
 Clears the client instance of RadInputControl
 
@@ -34,7 +35,7 @@ Clears the client instance of RadInputControl
 
 `None` 
 
-###  disable
+### disable
 
 Disables the client instance of RadInputControl
 
@@ -44,7 +45,7 @@ Disables the client instance of RadInputControl
 
 `None` 
 
-###  enable
+### enable
 
 Enables the client instance of RadInputControl
 
@@ -54,7 +55,7 @@ Enables the client instance of RadInputControl
 
 `None` 
 
-###  focus
+### focus
 
 Indicating whether RadInputControl enter focus
 
@@ -64,7 +65,7 @@ Indicating whether RadInputControl enter focus
 
 `None` 
 
-###  get_autoPostBack
+### get_autoPostBack
 
 Returns the value of the AutoPostBack property
 
@@ -74,7 +75,7 @@ Returns the value of the AutoPostBack property
 
 `Boolean` 
 
-###  get_caretPosition
+### get_caretPosition
 
 Returns the current position of the caret.
 
@@ -84,7 +85,7 @@ Returns the current position of the caret.
 
 `Number` 
 
-###  get_dateFormat
+### get_dateFormat
 
 Returns the format string for the control when it has focus
 
@@ -94,7 +95,7 @@ Returns the format string for the control when it has focus
 
 `String` 
 
-###  get_dateFormatInfo
+### get_dateFormatInfo
 
 Returns the Date Format Info object, which includes the settings used to parse date values
 
@@ -104,7 +105,7 @@ Returns the Date Format Info object, which includes the settings used to parse d
 
 `Telerik.Web.UI.DateParsing.DateTimeFormatInfo` 
 
-###  get_displayDateFormat
+### get_displayDateFormat
 
 Returns the format string for the control when it does not have focus
 
@@ -114,7 +115,7 @@ Returns the format string for the control when it does not have focus
 
 `String` 
 
-###  get_displayValue
+### get_displayValue
 
 Gets the value of RadInputControl as it is formatted when the input does not have focus
 
@@ -124,7 +125,7 @@ Gets the value of RadInputControl as it is formatted when the input does not hav
 
 `String` 
 
-###  get_editValue
+### get_editValue
 
 Gets the value of RadInputControl as it is formatted when the input has focus
 
@@ -134,7 +135,7 @@ Gets the value of RadInputControl as it is formatted when the input has focus
 
 `String` 
 
-###  get_emptyMessage
+### get_emptyMessage
 
 Returns the message that appears when the input value is an empty string
 
@@ -144,7 +145,7 @@ Returns the message that appears when the input value is an empty string
 
 `String` 
 
-###  get_enabled
+### get_enabled
 
 Returns true if the input is enabled
 
@@ -154,7 +155,7 @@ Returns true if the input is enabled
 
 `Boolean` 
 
-###  get_incrementSettings
+### get_incrementSettings
 
 Returns the Increment Settings object, which you can use to change the way the control responds to arrow keys and the mouse wheel
 
@@ -164,7 +165,7 @@ Returns the Increment Settings object, which you can use to change the way the c
 
 `Object` 
 
-###  get_invalidStyleDuration
+### get_invalidStyleDuration
 
 Gets the invalid style duration of RadInputControl
 
@@ -174,7 +175,7 @@ Gets the invalid style duration of RadInputControl
 
 `Number` 
 
-###  get_maxDate
+### get_maxDate
 
 Returns the latest valid date value
 
@@ -184,7 +185,7 @@ Returns the latest valid date value
 
 `Date` 
 
-###  get_maxDateStr
+### get_maxDateStr
 
 Returns the latest valid date value as a string
 
@@ -194,7 +195,7 @@ Returns the latest valid date value as a string
 
 `String` 
 
-###  get_minDate
+### get_minDate
 
 Returns the earliest valid date value
 
@@ -204,7 +205,7 @@ Returns the earliest valid date value
 
 `Date` 
 
-###  get_minDateStr
+### get_minDateStr
 
 Returns the earliest valid date value as a string
 
@@ -214,7 +215,7 @@ Returns the earliest valid date value as a string
 
 `String` 
 
-###  get_selectedDate
+### get_selectedDate
 
 Gets the selected date of the RadDateInput control
 
@@ -224,7 +225,7 @@ Gets the selected date of the RadDateInput control
 
 `Date` 
 
-###  get_selectionOnFocus
+### get_selectionOnFocus
 
 Returns the value of the SelectionOnFocus property
 
@@ -234,7 +235,7 @@ Returns the value of the SelectionOnFocus property
 
 `Telerik.Web.UI.SelectionOnFocus` 
 
-###  get_showButton
+### get_showButton
 
 Returns true if the input has an associated image button
 
@@ -244,7 +245,7 @@ Returns true if the input has an associated image button
 
 `Boolean` 
 
-###  get_styles
+### get_styles
 
 Returns the InputStyles Client object, which can be used to change the appearance of the input when it is first loaded
 
@@ -254,7 +255,7 @@ Returns the InputStyles Client object, which can be used to change the appearanc
 
 `Array` 
 
-###  get_textBoxValue
+### get_textBoxValue
 
 Gets the string that the user typed into the input
 
@@ -264,7 +265,7 @@ Gets the string that the user typed into the input
 
 `String` 
 
-###  get_value
+### get_value
 
 Returns the value of the text box
 
@@ -274,7 +275,7 @@ Returns the value of the text box
 
 `String` 
 
-###  get_visible
+### get_visible
 
 Returns whether the input element is rendered as hidden or not. Does not apply if the control is inside another hidden html element
 
@@ -284,7 +285,7 @@ Returns whether the input element is rendered as hidden or not. Does not apply i
 
 `Boolean` 
 
-###  get_wrapperElement
+### get_wrapperElement
 
 Gets the DOM element for the DIV wrapper element
 
@@ -294,7 +295,7 @@ Gets the DOM element for the DIV wrapper element
 
 `Element` 
 
-###  isEmpty
+### isEmpty
 
 Returns true if the value of the RadInputControl is empty
 
@@ -304,7 +305,7 @@ Returns true if the value of the RadInputControl is empty
 
 `None` 
 
-###  isMultiLine
+### isMultiLine
 
 Returns true if the value of the RadInputControl is multi line
 
@@ -314,7 +315,7 @@ Returns true if the value of the RadInputControl is multi line
 
 `None` 
 
-###  isNegative
+### isNegative
 
 Returns true if the value of the RadInputControl is a negative number
 
@@ -324,7 +325,7 @@ Returns true if the value of the RadInputControl is a negative number
 
 `None` 
 
-###  isReadOnly
+### isReadOnly
 
 Returns true if the value of the RadInputControl is read only
 
@@ -334,7 +335,7 @@ Returns true if the value of the RadInputControl is read only
 
 `None` 
 
-###  parseDate
+### parseDate
 
 Parses a string using the DateFormatInfo object and returns the resulting date
 
@@ -348,17 +349,7 @@ Parses a string using the DateFormatInfo object and returns the resulting date
 
 `None` 
 
-###  raisePostBackEvent
-
-Raises the postback event of RadInputControl
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-###  raise_blur
+### raise_blur
 
 Raises the blur event
 
@@ -370,7 +361,7 @@ Raises the blur event
 
 `None` 
 
-###  raise_buttonClick
+### raise_buttonClick
 
 Raises the buttonClick event
 
@@ -382,7 +373,7 @@ Raises the buttonClick event
 
 `None` 
 
-###  raise_disable
+### raise_disable
 
 Raises the handler for the mouseOver event
 
@@ -394,7 +385,7 @@ Raises the handler for the mouseOver event
 
 `None` 
 
-###  raise_enable
+### raise_enable
 
 Raises the enable event
 
@@ -406,7 +397,7 @@ Raises the enable event
 
 `None` 
 
-###  raise_enumerationChanged
+### raise_enumerationChanged
 
 Raises the enumerationChanged event
 
@@ -418,7 +409,7 @@ Raises the enumerationChanged event
 
 `None` 
 
-###  raise_error
+### raise_error
 
 Raises the error event
 
@@ -430,7 +421,7 @@ Raises the error event
 
 `None` 
 
-###  raise_focus
+### raise_focus
 
 Raises the focus event
 
@@ -442,7 +433,7 @@ Raises the focus event
 
 `None` 
 
-###  raise_keyPress
+### raise_keyPress
 
 Raises the keyPress event
 
@@ -454,7 +445,7 @@ Raises the keyPress event
 
 `None` 
 
-###  raise_load
+### raise_load
 
 Raises the load event
 
@@ -466,7 +457,7 @@ Raises the load event
 
 `None` 
 
-###  raise_mouseOut
+### raise_mouseOut
 
 Raises the mouseOut event
 
@@ -478,7 +469,7 @@ Raises the mouseOut event
 
 `None` 
 
-###  raise_mouseOver
+### raise_mouseOver
 
 Raises the mouseOver event
 
@@ -490,7 +481,7 @@ Raises the mouseOver event
 
 `None` 
 
-###  raise_moveDown
+### raise_moveDown
 
 Raises the moveDown event
 
@@ -502,7 +493,7 @@ Raises the moveDown event
 
 `None` 
 
-###  raise_moveUp
+### raise_moveUp
 
 Raises the moveUp event
 
@@ -514,7 +505,7 @@ Raises the moveUp event
 
 `None` 
 
-###  raise_valueChanged
+### raise_valueChanged
 
 Raises the valueChanged event
 
@@ -528,7 +519,7 @@ Raises the valueChanged event
 
 `None` 
 
-###  raise_valueChanging
+### raise_valueChanging
 
 Raises the valueChanging event
 
@@ -540,7 +531,17 @@ Raises the valueChanging event
 
 `None` 
 
-###  repaint
+### raisePostBackEvent
+
+Raises the postback event of RadInputControl
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### repaint
 
 Redraws the client side object on the client
 
@@ -550,7 +551,7 @@ Redraws the client side object on the client
 
 `None` 
 
-###  saveClientState
+### saveClientState
 
 Saves the client state of the RadDateInput control
 
@@ -560,7 +561,7 @@ Saves the client state of the RadDateInput control
 
 `None` 
 
-###  selectAllText
+### selectAllText
 
 Selects all text in the RadInputControl
 
@@ -570,7 +571,7 @@ Selects all text in the RadInputControl
 
 `None` 
 
-###  selectText
+### selectText
 
 Selects the text in the specified range of positions. The first parameter is the start of the range and the second is the end of the range
 
@@ -584,7 +585,7 @@ Selects the text in the specified range of positions. The first parameter is the
 
 `None` 
 
-###  set_autoPostBack
+### set_autoPostBack
 
 Enables or disables postbacks when the user changes the text in the input
 
@@ -596,7 +597,7 @@ Enables or disables postbacks when the user changes the text in the input
 
 `None` 
 
-###  set_caretPosition
+### set_caretPosition
 
 Sets the position of the caret
 
@@ -608,7 +609,7 @@ Sets the position of the caret
 
 `None` 
 
-###  set_dateFormat
+### set_dateFormat
 
 Sets the format string for the control when it has focus
 
@@ -620,7 +621,7 @@ Sets the format string for the control when it has focus
 
 `None` 
 
-###  set_dateFormatInfo
+### set_dateFormatInfo
 
 Sets the Date Format Info object, which includes the settings used to parse date values
 
@@ -632,7 +633,7 @@ Sets the Date Format Info object, which includes the settings used to parse date
 
 `None` 
 
-###  set_displayDateFormat
+### set_displayDateFormat
 
 Sets the format string for the control when it does not have focus
 
@@ -644,7 +645,7 @@ Sets the format string for the control when it does not have focus
 
 `None` 
 
-###  set_emptyMessage
+### set_emptyMessage
 
 Sets the message that appears when the input value is an empty string
 
@@ -656,7 +657,7 @@ Sets the message that appears when the input value is an empty string
 
 `None` 
 
-###  set_enabled
+### set_enabled
 
 Sets true if the input is enabled
 
@@ -668,7 +669,7 @@ Sets true if the input is enabled
 
 `None` 
 
-###  set_incrementSettings
+### set_incrementSettings
 
 Sets the Increment Settings object, which you can use to change the way the control responds to arrow keys and the mouse wheel
 
@@ -680,7 +681,7 @@ Sets the Increment Settings object, which you can use to change the way the cont
 
 `None` 
 
-###  set_invalidStyleDuration
+### set_invalidStyleDuration
 
 Sets the invalid style duration of RadInputControl
 
@@ -692,7 +693,7 @@ Sets the invalid style duration of RadInputControl
 
 `None` 
 
-###  set_maxDate
+### set_maxDate
 
 Sets the latest date the user can enter
 
@@ -704,7 +705,7 @@ Sets the latest date the user can enter
 
 `None` 
 
-###  set_minDate
+### set_minDate
 
 Sets the earliest date the user can enter
 
@@ -716,7 +717,7 @@ Sets the earliest date the user can enter
 
 `None` 
 
-###  set_selectedDate
+### set_selectedDate
 
 Sets the selected date of the RadDateInput control
 
@@ -728,7 +729,7 @@ Sets the selected date of the RadDateInput control
 
 `None` 
 
-###  set_selectionOnFocus
+### set_selectionOnFocus
 
 Sets the SelectionOnFocus property
 
@@ -740,7 +741,7 @@ Sets the SelectionOnFocus property
 
 `None` 
 
-###  set_showButton
+### set_showButton
 
 Accepts true if the input has an associated image button
 
@@ -752,7 +753,7 @@ Accepts true if the input has an associated image button
 
 `None` 
 
-###  set_styles
+### set_styles
 
 Sets the InputStyles Client object, which can be used to change the appearance of the input when it is first loaded
 
@@ -764,7 +765,7 @@ Sets the InputStyles Client object, which can be used to change the appearance o
 
 `None` 
 
-###  set_textBoxValue
+### set_textBoxValue
 
 Sets the string that the user typed into the input
 
@@ -776,7 +777,7 @@ Sets the string that the user typed into the input
 
 `None` 
 
-###  set_value
+### set_value
 
 Sets the value of the text box
 
@@ -788,7 +789,7 @@ Sets the value of the text box
 
 `None` 
 
-###  set_visible
+### set_visible
 
 Sets the input element as hidden on the client
 
@@ -800,7 +801,7 @@ Sets the input element as hidden on the client
 
 `None` 
 
-###  updateCssClass
+### updateCssClass
 
 Updates the css class of RadInputControl
 
@@ -810,7 +811,7 @@ Updates the css class of RadInputControl
 
 `None` 
 
-###  updateCssText
+### updateCssText
 
 Updates the css text of RadInputControl
 
@@ -822,7 +823,7 @@ Updates the css text of RadInputControl
 
 `None` 
 
-###  updateDisplayValue
+### updateDisplayValue
 
 Updates the display value of RadInputControl
 
@@ -833,23 +834,12 @@ Updates the display value of RadInputControl
 `None` 
 
 
+
 ## Events
 
-### blur
+### valueChanging
 
-Raised when the RadInputControl loses focus
-
-#### Event Data
-
-##### sender `Telerik.Web.UI.RadDateInput`
-
-The RadInputControl that raised the event
-
-##### args `Sys.EventArgs`
-
-### buttonClick
-
-Raised when the user clicks on the button that is associated with the input control
+Raised after the control loses focus just before a new value has been assigned.
 
 #### Event Data
 
@@ -857,7 +847,19 @@ Raised when the user clicks on the button that is associated with the input cont
 
 The RadInputControl that raised the event
 
-##### args `Telerik.Web.UI.InputButtonClickEventArgs`
+##### args `Telerik.Web.UI.InputValueChangingEventArgs`
+
+### valueChanged
+
+Raised after the control loses focus when a new value has been assigned.
+
+#### Event Data
+
+##### sender `Telerik.Web.UI.RadDateInput`
+
+The RadInputControl that raised the event
+
+##### args `Telerik.Web.UI.InputValueChangedEventArgs`
 
 ### disable
 
@@ -883,18 +885,6 @@ The RadInputControl that raised the event
 
 ##### args `Sys.EventArgs`
 
-### error
-
-Raised when the user enters an invalid value
-
-#### Event Data
-
-##### sender `Telerik.Web.UI.RadDateInput`
-
-The RadInputControl that raised the event
-
-##### args `Telerik.Web.UI.InputErrorEventArgs`
-
 ### focus
 
 Raised when the control is focused
@@ -907,33 +897,9 @@ The RadInputControl that raised the event
 
 ##### args `Sys.EventArgs`
 
-### keyPress
-
-Raised when the user presses a key to enter a value.
-
-#### Event Data
-
-##### sender `Telerik.Web.UI.RadDateInput`
-
-The RadInputControl that raised the event
-
-##### args `Telerik.Web.UI.InputKeyPressEventArgs`
-
 ### load
 
 Raised when the control is loaded on the client.
-
-#### Event Data
-
-##### sender `Telerik.Web.UI.RadDateInput`
-
-The RadInputControl that raised the event
-
-##### args `Sys.EventArgs`
-
-### mouseOut
-
-Raised when the mouse leaves the input area.
 
 #### Event Data
 
@@ -955,6 +921,42 @@ The RadInputControl that raised the event
 
 ##### args `Sys.EventArgs`
 
+### mouseOut
+
+Raised when the mouse leaves the input area.
+
+#### Event Data
+
+##### sender `Telerik.Web.UI.RadDateInput`
+
+The RadInputControl that raised the event
+
+##### args `Sys.EventArgs`
+
+### blur
+
+Raised when the RadInputControl loses focus
+
+#### Event Data
+
+##### sender `Telerik.Web.UI.RadDateInput`
+
+The RadInputControl that raised the event
+
+##### args `Sys.EventArgs`
+
+### buttonClick
+
+Raised when the user clicks on the button that is associated with the input control
+
+#### Event Data
+
+##### sender `Telerik.Web.UI.RadDateInput`
+
+The RadInputControl that raised the event
+
+##### args `Telerik.Web.UI.InputButtonClickEventArgs`
+
 ### moveDown
 
 Raised when the user decreases the value of an enumeration or numeric range mask part.
@@ -966,6 +968,18 @@ Raised when the user decreases the value of an enumeration or numeric range mask
 The RadInputControl that raised the event
 
 ##### args `Telerik.Web.UI.MaskedTextBoxEventArgs`
+
+### error
+
+Raised when the user enters an invalid value
+
+#### Event Data
+
+##### sender `Telerik.Web.UI.RadDateInput`
+
+The RadInputControl that raised the event
+
+##### args `Telerik.Web.UI.InputErrorEventArgs`
 
 ### moveUp
 
@@ -979,21 +993,9 @@ The RadInputControl that raised the event
 
 ##### args `Telerik.Web.UI.MaskedTextBoxEventArgs`
 
-### valueChanged
+### keyPress
 
-Raised after the control loses focus when a new value has been assigned.
-
-#### Event Data
-
-##### sender `Telerik.Web.UI.RadDateInput`
-
-The RadInputControl that raised the event
-
-##### args `Telerik.Web.UI.InputValueChangedEventArgs`
-
-### valueChanging
-
-Raised after the control loses focus just before a new value has been assigned.
+Raised when the user presses a key to enter a value.
 
 #### Event Data
 
@@ -1001,5 +1003,6 @@ Raised after the control loses focus just before a new value has been assigned.
 
 The RadInputControl that raised the event
 
-##### args `Telerik.Web.UI.InputValueChangingEventArgs`
+##### args `Telerik.Web.UI.InputKeyPressEventArgs`
+
 

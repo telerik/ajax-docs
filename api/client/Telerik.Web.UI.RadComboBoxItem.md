@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.RadComboBoxItem
 * [Telerik.Web.UI.ControlItem]({%slug Telerik.Web.UI.ControlItem%})
 * *[Telerik.Web.UI.RadComboBoxItem]({%slug Telerik.Web.UI.RadComboBoxItem%})*
 
+
 ## Methods
 
 ###  bindTemplate
@@ -24,7 +25,7 @@ Evaluates the template against the RadComboBox" data item and applies it.
 
 `None` 
 
-###  check
+### check
 
 Checks the item
 
@@ -34,7 +35,7 @@ Checks the item
 
 `None` 
 
-###  disable
+### disable
 
 Disables the Item.
 
@@ -44,7 +45,7 @@ Disables the Item.
 
 `None` 
 
-###  enable
+### enable
 
 Enables the Item.
 
@@ -54,7 +55,7 @@ Enables the Item.
 
 `None` 
 
-###  findControl
+### findControl
 
 Searches the RadComboBoxItem for a client control with the specified id parameter.
 
@@ -68,7 +69,7 @@ The id of the control to search for.
 
 `Sys.UI.Control` 
 
-###  get_attributes
+### get_attributes
 
 Gets the arbitrary attributes collection
 
@@ -78,7 +79,7 @@ Gets the arbitrary attributes collection
 
 `Telerik.Web.UI.AttributeCollection` The arbitrary attributes collection
 
-###  get_checkBoxElement
+### get_checkBoxElement
 
 Gets the DOM Element of the checkbox.
 
@@ -88,7 +89,7 @@ Gets the DOM Element of the checkbox.
 
 `Element` DOM Element for the checkbox.
 
-###  get_checked
+### get_checked
 
 Gets the checked state of a RadComboBoxItem. The RadComboBoxItem is checked if get_checked() returns true.
 
@@ -98,7 +99,7 @@ Gets the checked state of a RadComboBoxItem. The RadComboBoxItem is checked if g
 
 `Boolean` 
 
-###  get_clientTemplate
+### get_clientTemplate
 
 Returns the value of the RadComboBoxItem's ClientTemplate property.
 
@@ -108,7 +109,7 @@ Returns the value of the RadComboBoxItem's ClientTemplate property.
 
 `None` 
 
-###  get_comboBox
+### get_comboBox
 
 Gets the parent RadComboBox control.
 
@@ -118,7 +119,7 @@ Gets the parent RadComboBox control.
 
 `Telerik.Web.UI.RadComboBox` RadComboBox
 
-###  get_disabledImageUrl
+### get_disabledImageUrl
 
 Returns the full path to the image of a disabled Item.
 
@@ -128,7 +129,7 @@ Returns the full path to the image of a disabled Item.
 
 `String` string
 
-###  get_element
+### get_element
 
 Gets he DOM element for the RadComboBoxItem.
 
@@ -138,7 +139,7 @@ Gets he DOM element for the RadComboBoxItem.
 
 `Element` The DOM element for the RadComboBoxItem.
 
-###  get_enabled
+### get_enabled
 
 Gets a value indicating whether the RadComboBoxItem is enabled or disabled.
 
@@ -148,7 +149,7 @@ Gets a value indicating whether the RadComboBoxItem is enabled or disabled.
 
 `Boolean` Value indicating whether the RadComboBoxItem is enabled or disabled.
 
-###  get_highlighted
+### get_highlighted
 
 Gets a value indicating whether the Item is highlighted. To highlight an Item use the highlight method.
 
@@ -158,7 +159,7 @@ Gets a value indicating whether the Item is highlighted. To highlight an Item us
 
 `Boolean` boolean
 
-###  get_imageElement
+### get_imageElement
 
 Get the image DOM element of the Item.
 
@@ -168,7 +169,7 @@ Get the image DOM element of the Item.
 
 `Element` The Item image DOM element.
 
-###  get_imageUrl
+### get_imageUrl
 
 Returns the full path to the Item's image.
 
@@ -178,7 +179,7 @@ Returns the full path to the Item's image.
 
 `String` string
 
-###  get_index
+### get_index
 
 Gets the RadComboBoxItem's index inside the RadComboBoxItemCollection.
 
@@ -188,7 +189,7 @@ Gets the RadComboBoxItem's index inside the RadComboBoxItemCollection.
 
 `Number` The index of the RadComboBoxItem.
 
-###  get_isFirst
+### get_isFirst
 
 Gets a value indicating whether the RadComboBoxItem is the first item in the RadComboBoxItemCollection
 
@@ -198,7 +199,7 @@ Gets a value indicating whether the RadComboBoxItem is the first item in the Rad
 
 `Boolean` Value indicating whether the RadComboBoxItem is the first item in the RadComboBoxItemCollection
 
-###  get_isLast
+### get_isLast
 
 Gets a value indicating whether the RadComboBoxItem is the last item in the RadComboBoxItemCollection.
 
@@ -208,7 +209,7 @@ Gets a value indicating whether the RadComboBoxItem is the last item in the RadC
 
 `Boolean` Value indicating whether the RadComboBoxItem is the last item in the RadComboBoxItemCollection.
 
-###  get_isSeparator
+### get_isSeparator
 
 Gets a value indicating whether the Item is a Separator.
 
@@ -218,7 +219,7 @@ Gets a value indicating whether the Item is a Separator.
 
 `Boolean` boolean
 
-###  get_parent
+### get_parent
 
 The RadComboBoxItem's parent.
 
@@ -228,7 +229,7 @@ The RadComboBoxItem's parent.
 
 `Element` Gets the RadComboBoxItem
 
-###  get_selected
+### get_selected
 
 Gets a value indicating whether the Item is selected.
 
@@ -238,7 +239,7 @@ Gets a value indicating whether the Item is selected.
 
 `Boolean` boolean
 
-###  get_text
+### get_text
 
 Gets the text of the Item.
 
@@ -248,7 +249,7 @@ Gets the text of the Item.
 
 `String` string
 
-###  get_textElement
+### get_textElement
 
 Gets the DOM element containing the text of the Item.
 
@@ -258,7 +259,7 @@ Gets the DOM element containing the text of the Item.
 
 `Element` The DOM element containing the text of the Item.
 
-###  get_value
+### get_value
 
 Gets the value of the Item.
 
@@ -268,7 +269,7 @@ Gets the value of the Item.
 
 `String` string
 
-###  get_visible
+### get_visible
 
 Gets a value indicating whether the RadComboBoxItem is visible or not.
 
@@ -278,7 +279,7 @@ Gets a value indicating whether the RadComboBoxItem is visible or not.
 
 `Boolean` Value indicating whether the RadComboBoxItem is visible or not.
 
-###  hide
+### hide
 
 Makes the Item invisible, same as set_visible(false).
 
@@ -288,7 +289,7 @@ Makes the Item invisible, same as set_visible(false).
 
 `None` 
 
-###  highlight
+### highlight
 
 Highlights the Item.
 
@@ -298,7 +299,7 @@ Highlights the Item.
 
 `None` 
 
-###  highlightText
+### highlightText
 
 Highlights the current RadComboBoxItem.
 
@@ -308,7 +309,7 @@ Highlights the current RadComboBoxItem.
 
 `None` 
 
-###  nextItem
+### nextItem
 
 Gets the next Item.
 
@@ -318,7 +319,7 @@ Gets the next Item.
 
 `Telerik.Web.UI.RadComboBoxItem` RadComboBoxItem
 
-###  scrollIntoView
+### scrollIntoView
 
 Scrolls the Item into view (if is currently not visible).
 
@@ -328,7 +329,7 @@ Scrolls the Item into view (if is currently not visible).
 
 `None` 
 
-###  scrollOnTop
+### scrollOnTop
 
 Scrolls the Item on the top of the drop down list.
 
@@ -338,7 +339,7 @@ Scrolls the Item on the top of the drop down list.
 
 `None` 
 
-###  select
+### select
 
 Selects the Item.
 
@@ -348,7 +349,7 @@ Selects the Item.
 
 `None` 
 
-###  set_checked
+### set_checked
 
 Marks or unmarks the checkbox for a RadComboBoxItem.
 
@@ -362,7 +363,7 @@ Boolean
 
 `None` 
 
-###  set_clientTemplate
+### set_clientTemplate
 
 Sets the value of the RadComboBoxItem's ClientTemplate property.
 
@@ -376,7 +377,7 @@ value
 
 `None` 
 
-###  set_disabledImageUrl
+### set_disabledImageUrl
 
 Sets the DisabledImageUrl property of the Item.
 
@@ -390,7 +391,7 @@ value
 
 `None` 
 
-###  set_element
+### set_element
 
 Sets the RadComboBoxItem's DOM element
 
@@ -404,7 +405,7 @@ DOM element
 
 `None` 
 
-###  set_enabled
+### set_enabled
 
 Sets a value indicating whether the Item is enabled and updates its ImageUrl.
 
@@ -418,7 +419,7 @@ value
 
 `None` 
 
-###  set_imageUrl
+### set_imageUrl
 
 Sets the ImageUrl property of the Item.
 
@@ -432,7 +433,7 @@ value
 
 `None` 
 
-###  set_isSeparator
+### set_isSeparator
 
 Sets a value indicating whether the Item is a Separator.
 
@@ -446,7 +447,7 @@ value
 
 `None` 
 
-###  set_parent
+### set_parent
 
 Sets the RadComboBoxItem's parent.
 
@@ -460,7 +461,7 @@ DOM element.
 
 `None` 
 
-###  set_selected
+### set_selected
 
 Sets a value indicating whether the Item is selected.
 
@@ -474,7 +475,7 @@ value
 
 `None` 
 
-###  set_text
+### set_text
 
 Sets the RadComboBoxItem's text.
 
@@ -488,7 +489,7 @@ The new RadComboBoxItem text.
 
 `None` 
 
-###  set_value
+### set_value
 
 #### Parameters
 
@@ -500,7 +501,7 @@ The new RadComboBoxItem text.
 
 `None` 
 
-###  set_visible
+### set_visible
 
 Sets a value indicating whether the Item is visible.
 
@@ -514,7 +515,7 @@ value
 
 `None` 
 
-###  show
+### show
 
 Makes the Item visible, same as set_visible(true).
 
@@ -524,7 +525,7 @@ Makes the Item visible, same as set_visible(true).
 
 `None` 
 
-###  toJsonString
+### toJsonString
 
 The JSON representation of the RadComboBoxItem.
 
@@ -534,9 +535,9 @@ The JSON representation of the RadComboBoxItem.
 
 `String` Returns the JSON representation of the RadComboBoxItem.
 
-###  unHighlight
+### uncheck
 
-Unhighlights the Item.
+Unchecks the item
 
 #### Parameters
 
@@ -544,9 +545,10 @@ Unhighlights the Item.
 
 `None` 
 
-###  uncheck
 
-Unchecks the item
+### unHighlight
+
+Unhighlights the Item.
 
 #### Parameters
 

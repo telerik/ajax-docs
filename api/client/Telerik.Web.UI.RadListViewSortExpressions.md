@@ -11,6 +11,7 @@ slug: Telerik.Web.UI.RadListViewSortExpressions
 
 * *[Telerik.Web.UI.RadListViewSortExpressions]({%slug Telerik.Web.UI.RadListViewSortExpressions%})*
 
+
 ## Methods
 
 ###  add
@@ -31,7 +32,7 @@ Optional
 
 `None` 
 
-###  build
+### build
 
 Retrieves a Telerik.Web.UI.RadListViewSortExpressionBuilder instance that can be used for fluent expression building.
 
@@ -41,7 +42,7 @@ Retrieves a Telerik.Web.UI.RadListViewSortExpressionBuilder instance that can be
 
 `None` 
 
-###  clear
+### clear
 
 Clears the sort expressions collection
 
@@ -51,7 +52,17 @@ Clears the sort expressions collection
 
 `None` 
 
-###  getItem
+### get_count
+
+Retrieves the number of expressions in the collection
+
+#### Parameters
+
+#### Returns
+
+`Number` 
+
+### getItem
 
 Retrieves a sort expression by specified index or field name.
 
@@ -65,7 +76,7 @@ The field or index to find the expression by
 
 `None` 
 
-###  getSortOrder
+### getSortOrder
 
 Retrieves the sort order for the specified sort expression
 
@@ -79,17 +90,7 @@ The field name whose sort order to retrieve
 
 `None` 
 
-###  get_count
-
-Retrieves the number of expressions in the collection
-
-#### Parameters
-
-#### Returns
-
-`Number` 
-
-###  indexOf
+### indexOf
 
 Retrieves the index of the sort expression with the specified field name
 
@@ -103,7 +104,7 @@ The field of the expression whose index to find
 
 `None` 
 
-###  remove
+### remove
 
 Removes a field from the sort expressions
 
@@ -117,7 +118,22 @@ The field name to remove
 
 `None` 
 
-###  toLinq
+### toggle
+
+Toggles the sort order of the specified field
+
+#### Parameters
+
+##### field `String`
+
+The field whose sort order to toggle
+
+#### Returns
+
+`None` 
+
+
+### toLinq
 
 Returns a Dynamic LINQ representation of the current sort expression collection.
 
@@ -127,7 +143,7 @@ Returns a Dynamic LINQ representation of the current sort expression collection.
 
 `None` 
 
-###  toList
+### toList
 
 Returns a list representation of the current sort expression collection.
 
@@ -137,7 +153,7 @@ Returns a list representation of the current sort expression collection.
 
 `None` 
 
-###  toOData
+### toOData
 
 Returns an OData formatted representation of the current sort expression collection.
 
@@ -147,25 +163,11 @@ Returns an OData formatted representation of the current sort expression collect
 
 `None` 
 
-###  toSql
+### toSql
 
 Returns an SQL representation of the current sort expression collection.
 
 #### Parameters
-
-#### Returns
-
-`None` 
-
-###  toggle
-
-Toggles the sort order of the specified field
-
-#### Parameters
-
-##### field `String`
-
-The field whose sort order to toggle
 
 #### Returns
 

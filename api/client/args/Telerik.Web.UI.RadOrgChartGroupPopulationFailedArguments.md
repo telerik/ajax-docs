@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.RadOrgChartGroupPopulationFailedArguments
 * Sys.EventArgs
 * *[Telerik.Web.UI.RadOrgChartGroupPopulationFailedArguments]({%slug Telerik.Web.UI.RadOrgChartGroupPopulationFailedArguments%})*
 
+
 ## Methods
 
 ### get_errorMessage
@@ -23,3 +24,4 @@ Returns the error message sent from the server.
 #### Returns
 
 `String`
+

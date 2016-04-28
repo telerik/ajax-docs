@@ -12,27 +12,8 @@ slug: Telerik.Web.UI.RadDataPager
 * [Telerik.Web.UI.RadWebControl]({%slug Telerik.Web.UI.RadWebControl%})
 * *[Telerik.Web.UI.RadDataPager]({%slug Telerik.Web.UI.RadDataPager%})*
 
+
 ## Methods
-
-### get_uniqueID
-
-Gets the unique id of RadDataPager's container.
-
-#### Parameters
-
-#### Returns
-
-`String` 
-
-### get_totalRowCount
-
-Gets the total number of records that are displayed in the underlying data source.
-
-#### Parameters
-
-#### Returns
-
-`Number` 
 
 ### fireCommand
 
@@ -55,44 +36,6 @@ The name of the command that will be executed. Possible values are listed below:
 
 The command argument with which the command will be executed. Possible values are:
 * "First", "Next", "Prev", "Last" or integer value for page size
-
-#### Returns
-
-`None` 
-
-### set_pageSize
-
-Sets the page size for the RadDataPager control.
-
-#### Parameters
-
-##### size `Number`
-
-The page size that will be set to the RadDataPager control.
-
-#### Returns
-
-`None` 
-
-### get_startRowIndex
-
-Gets the index of the first record that is displayed on a page of data.
-
-#### Parameters
-
-#### Returns
-
-`Number` 
-
-### set_currentPageIndex
-
-Sets the current page index for the RadDataPager control.
-
-#### Parameters
-
-##### index `Number`
-
-The page index
 
 #### Returns
 
@@ -128,11 +71,70 @@ Gets the page size for the RadDataPager control.
 
 `Number` 
 
+### get_startRowIndex
+
+Gets the index of the first record that is displayed on a page of data.
+
+#### Parameters
+
+#### Returns
+
+`Number` 
+
+### get_totalRowCount
+
+Gets the total number of records that are displayed in the underlying data source.
+
+#### Parameters
+
+#### Returns
+
+`Number` 
+
+### get_uniqueID
+
+Gets the unique id of RadDataPager's container.
+
+#### Parameters
+
+#### Returns
+
+`String` 
+
+### set_currentPageIndex
+
+Sets the current page index for the RadDataPager control.
+
+#### Parameters
+
+##### index `Number`
+
+The page index
+
+#### Returns
+
+`None` 
+
+### set_pageSize
+
+Sets the page size for the RadDataPager control.
+
+#### Parameters
+
+##### size `Number`
+
+The page size that will be set to the RadDataPager control.
+
+#### Returns
+
+`None` 
+
+
 ## Events
 
-###DataPagerCreating
+### DataPagerCreated
 
-The DataPagerCreating event fires before the RadDataPager is created.
+The DataPagerCreated event fires after the RadDataPager is created.
 
 #### Event Data
 
@@ -144,9 +146,9 @@ The RadDataPager instance that fired the event.
 
 Empty event argument.
 
-### DataPagerCreated
+### ###DataPagerCreating
 
-The DataPagerCreated event fires after the RadDataPager is created.
+The DataPagerCreating event fires before the RadDataPager is created.
 
 #### Event Data
 
@@ -199,3 +201,4 @@ The RadDataPager instance that fired the event.
 ##### args `Telerik.Web.UI.DataPagerPageSizeChangingEventArgs`
 
 The event arguments.
+

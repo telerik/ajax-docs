@@ -11,3 +11,4 @@ slug: Telerik.Web.UI.RadPanelItemBlurEventArgs
 
 * [Telerik.Web.UI.RadPanelItemEventArgs]({%slug Telerik.Web.UI.RadPanelItemEventArgs%})
 * *[Telerik.Web.UI.RadPanelItemBlurEventArgs]({%slug Telerik.Web.UI.RadPanelItemBlurEventArgs%})*
+

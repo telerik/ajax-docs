@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.PivotGridFieldSettings
 * Sys.UI.Control
 * *[Telerik.Web.UI.PivotGridFieldSettings]({%slug Telerik.Web.UI.PivotGridFieldSettings%})*
 
+
 ## Methods
 
 ###  displayFieldSettingsWindow
@@ -24,7 +25,7 @@ Shows the field settings window.
 
 `None` 
 
-###  get_cancelButton
+### get_cancelButton
 
 Gets Cancel button element.
 
@@ -34,7 +35,7 @@ Gets Cancel button element.
 
 `Element` Returns Cancel button element.
 
-###  get_fieldSettingsWindow
+### get_fieldSettingsWindow
 
 Gets the RadWindow client-side object for the RadPivotGrid field settings window.
 
@@ -44,7 +45,7 @@ Gets the RadWindow client-side object for the RadPivotGrid field settings window
 
 `Telerik.Web.UI.RadWindow` Returns the RadWindow client
 
-###  get_functionsBox
+### get_functionsBox
 
 Gets the RadListBox client-side object of the aggregates function list box.
 
@@ -54,7 +55,7 @@ Gets the RadListBox client-side object of the aggregates function list box.
 
 `Telerik.Web.UI.RadListBox` RGets the RadListBox client
 
-###  get_okButton
+### get_okButton
 
 Gets OK button element.
 
@@ -64,7 +65,7 @@ Gets OK button element.
 
 `Element` Returns OK button element.
 
-###  get_owner
+### get_owner
 
 Gets the owner pivot grid.
 
@@ -73,5 +74,6 @@ Gets the owner pivot grid.
 #### Returns
 
 `Telerik.Web.UI.RadPivotGrid` The owner pivot grid.
+
 
 

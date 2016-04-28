@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.RadAsyncUploadFileUploadRemovingEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.RadAsyncUploadFileUploadRemovingEventArgs]({%slug Telerik.Web.UI.RadAsyncUploadFileUploadRemovingEventArgs%})*
 
+
 ## Methods
 
 ### get_fileInfo 
@@ -43,3 +44,4 @@ Returns the index of the row that is about to be removed from the uploaded files
 #### Returns
 
 `Number` The index of the row.
+

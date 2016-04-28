@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.ClientExportManagerSvgExportingEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.ClientExportManagerSvgExportingEventArgs]({%slug Telerik.Web.UI.ClientExportManagerSvgExportingEventArgs%})*
 
+
 ## Methods
 
 ###  get_dataURI 
@@ -23,3 +24,4 @@ Returns the SVG dataURI.
 #### Returns
 
 `String` the SVG dataURI. 
+

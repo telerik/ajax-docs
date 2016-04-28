@@ -12,15 +12,8 @@ slug: Telerik.Web.UI.FileExplorerItem
 
 * *[Telerik.Web.UI.FileExplorerItem]({%slug Telerik.Web.UI.FileExplorerItem%})*
 
+
 ## Methods
-
-### get_url
-
-#### Parameters
-
-#### Returns
-
-`String` 
 
 ### get_path
 
@@ -29,6 +22,14 @@ slug: Telerik.Web.UI.FileExplorerItem
 #### Returns
 
 `String`
+
+### get_url
+
+#### Parameters
+
+#### Returns
+
+`String` 
 
 ### isDirectory
 
@@ -49,5 +50,6 @@ Returns a Boolean value that indicates whether the selected item is a folder or 
 `None`
 
  
+
 
 

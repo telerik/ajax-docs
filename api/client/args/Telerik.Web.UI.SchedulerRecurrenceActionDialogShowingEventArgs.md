@@ -12,17 +12,8 @@ slug: Telerik.Web.UI.SchedulerRecurrenceActionDialogShowingEventArgs
 * [Telerik.Web.UI.SchedulerAppointmentCancelEventArgs]({%slug Telerik.Web.UI.SchedulerAppointmentCancelEventArgs%})
 * *[Telerik.Web.UI.SchedulerRecurrenceActionDialogShowingEventArgs]({%slug Telerik.Web.UI.SchedulerRecurrenceActionDialogShowingEventArgs%})*
 
+
 ## Methods
-
-### get_recurrenceAction
-
-Returns 1 for edit, 2 for delete, 3 for resize, and 4 for move.
-
-#### Parameters
-
-#### Returns
-
-`Number`
 
 ### get_editSeries
 
@@ -33,6 +24,16 @@ Returns True if the user is trying to delete a series to which the appointment b
 #### Returns
 
 `Boolean`
+
+### get_recurrenceAction
+
+Returns 1 for edit, 2 for delete, 3 for resize, and 4 for move.
+
+#### Parameters
+
+#### Returns
+
+`Number`
 
 ### set_editSeries
 
@@ -47,3 +48,4 @@ This value instructs the scheduler whether to edit the entire series or just the
 #### Returns
 
 `None`
+

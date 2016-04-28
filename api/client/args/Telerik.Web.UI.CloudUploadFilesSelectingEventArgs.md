@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.CloudUploadFilesSelectingEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.CloudUploadFilesSelectingEventArgs]({%slug Telerik.Web.UI.CloudUploadFilesSelectingEventArgs%})*
 
+
 ## Methods
 
 ### get_count
@@ -23,3 +24,4 @@ Returns the count of the selected files.
 #### Returns
 
 `Number` 
+

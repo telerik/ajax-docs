@@ -12,17 +12,8 @@ slug: Telerik.Web.UI.AutoCompleteDropDownItemDataBoundEventArgs
 * Sys.EventArgs
 * *[Telerik.Web.UI.AutoCompleteDropDownItemDataBoundEventArgs]({%slug Telerik.Web.UI.AutoCompleteDropDownItemDataBoundEventArgs%})*
 
+
 ## Methods
-
-### get_item
-
-Returns the text currently present in the input area.
-
-#### Parameters
-
-#### Returns
-
-`Telerik.Web.UI.RadAutoCompleteBox.DropDownItem`
 
 ### get_data
 
@@ -33,3 +24,14 @@ Returns a reference to the DataItem (AutoCompleteBoxItemData or any other serial
 #### Returns
 
 `Object`
+### get_item
+
+Returns the text currently present in the input area.
+
+#### Parameters
+
+#### Returns
+
+`Telerik.Web.UI.RadAutoCompleteBox.DropDownItem`
+
+

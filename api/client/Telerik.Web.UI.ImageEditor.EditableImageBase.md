@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.ImageEditor.EditableImageBase
 * Sys.Component
 * *[Telerik.Web.UI.ImageEditor.EditableImageBase]({%slug Telerik.Web.UI.ImageEditor.EditableImageBase%})*
 
+
 ## Methods
 
 ###  getCanvasContext
@@ -22,39 +23,7 @@ slug: Telerik.Web.UI.ImageEditor.EditableImageBase
 
 `None` 
 
-###  getCanvasElement
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-###  getImage
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-###  getImageEditor
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-###  getXmlHttpPanel
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-###  get_flipDirection
+### get_flipDirection
 
 Gets the current flip direction of the EditableImage.
 
@@ -64,7 +33,7 @@ Gets the current flip direction of the EditableImage.
 
 `None` 
 
-###  get_height
+### get_height
 
 Gets the height of the EditableImage.
 
@@ -74,7 +43,7 @@ Gets the height of the EditableImage.
 
 `None` 
 
-###  get_imageKey
+### get_imageKey
 
 #### Parameters
 
@@ -82,7 +51,7 @@ Gets the height of the EditableImage.
 
 `None` 
 
-###  get_opacity
+### get_opacity
 
 Gets the opacity of the EditableImage.
 
@@ -92,7 +61,7 @@ Gets the opacity of the EditableImage.
 
 `None` 
 
-###  get_rotationAngle
+### get_rotationAngle
 
 Gets the current rotation angle of the EditableImage.
 
@@ -102,7 +71,7 @@ Gets the current rotation angle of the EditableImage.
 
 `None` 
 
-###  get_serverUrl
+### get_serverUrl
 
 #### Parameters
 
@@ -110,7 +79,7 @@ Gets the current rotation angle of the EditableImage.
 
 `None` 
 
-###  get_url
+### get_url
 
 #### Parameters
 
@@ -118,7 +87,7 @@ Gets the current rotation angle of the EditableImage.
 
 `None` 
 
-###  get_width
+### get_width
 
 Gets the width of the EditableImage.
 
@@ -128,7 +97,7 @@ Gets the width of the EditableImage.
 
 `None` 
 
-###  get_zoomLevel
+### get_zoomLevel
 
 #### Parameters
 
@@ -136,7 +105,7 @@ Gets the width of the EditableImage.
 
 `None` 
 
-###  isImageLoaded
+### getCanvasElement
 
 #### Parameters
 
@@ -144,7 +113,7 @@ Gets the width of the EditableImage.
 
 `None` 
 
-###  raiseEvent
+### getImage
 
 #### Parameters
 
@@ -152,7 +121,39 @@ Gets the width of the EditableImage.
 
 `None` 
 
-###  set_flipDirection
+### getImageEditor
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### getXmlHttpPanel
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### isImageLoaded
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### raiseEvent
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### set_flipDirection
 
 Sets the current flip direction of the EditableImage.
 
@@ -166,7 +167,7 @@ The direction of flipping.
 
 `None` 
 
-###  set_imageKey
+### set_imageKey
 
 #### Parameters
 
@@ -174,7 +175,7 @@ The direction of flipping.
 
 `None` 
 
-###  set_serverUrl
+### set_serverUrl
 
 #### Parameters
 
@@ -182,12 +183,13 @@ The direction of flipping.
 
 `None` 
 
-###  zoomBestFit
+### zoomBestFit
 
 #### Parameters
 
 #### Returns
 
 `None` 
+
 
 

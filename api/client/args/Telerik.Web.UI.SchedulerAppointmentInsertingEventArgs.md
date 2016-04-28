@@ -12,7 +12,18 @@ slug: Telerik.Web.UI.SchedulerAppointmentInsertingEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.SchedulerAppointmentInsertingEventArgs]({%slug Telerik.Web.UI.SchedulerAppointmentInsertingEventArgs%})*
 
+
 ## Methods
+
+### get_isAllDay
+
+Returns True if the inserted appointment defaults to an all-day event.
+
+#### Parameters
+
+#### Returns
+
+`Boolean`
 
 ### get_startTime
 
@@ -34,13 +45,4 @@ Returns the Time Slot at which the appointment is being inserted.
 
 `Telerik.Web.UI.ISchedulerTimeSlot`
 
-### get_isAllDay
-
-Returns True if the inserted appointment defaults to an all-day event.
-
-#### Parameters
-
-#### Returns
-
-`Boolean`
 

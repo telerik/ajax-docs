@@ -7,9 +7,11 @@ slug: Telerik.Web.UI.RibbonBarButtonToggledEventArgs
 
 # Telerik.Web.UI.RibbonBarButtonToggledEventArgs
 
-## Inheritance Hierarchy
+
+Inheritance Hierarchy
 
 * *[Telerik.Web.UI.RibbonBarButtonToggledEventArgs]({%slug Telerik.Web.UI.RibbonBarButtonToggledEventArgs%})*
+
 
 ## Methods
 
@@ -34,3 +36,4 @@ Returns a reference to the RibbonBar toggle button that was clicked.
 `Sys.UI.DomEvent` 
 
  
+

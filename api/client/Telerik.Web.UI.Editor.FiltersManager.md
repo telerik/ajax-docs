@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.Editor.FiltersManager
 * Sys.Component
 * *[Telerik.Web.UI.Editor.FiltersManager]({%slug Telerik.Web.UI.Editor.FiltersManager%})*
 
+
 ## Methods
 
 ### add
@@ -56,6 +57,16 @@ Clears the content filters collection
 
 `None` 
 
+### get_enableXhtmlFilter
+
+Returns a boolean value which indicates whether the XHTML filter is enabled or disabled
+
+#### Parameters
+
+#### Returns
+
+`Boolean` 
+
 ### getDesignContent
 
 Fires when RadEditor's mode is changed to Design View Mode and executes all the String based content filters
@@ -70,7 +81,7 @@ The RadEditor
 
 `String` The contentAreaHtml parameter modified by the filter
 
-###  getDesignContentDom
+### getDesignContentDom
 
 Fires when RadEditor's mode is changed to Design View Mode after getDesignContent() - executes all the DOM based content filters
 
@@ -126,16 +137,6 @@ The content area DOM element
 
 `Object` The contentAreaElement parameter modified by the filter
 
-### get_enableXhtmlFilter
-
-Returns a boolean value which indicates whether the XHTML filter is enabled or disabled
-
-#### Parameters
-
-#### Returns
-
-`Boolean` 
-
 ### remove
 
 Remove content filter from the filters collection
@@ -145,20 +146,6 @@ Remove content filter from the filters collection
 ##### filter `Telerik.Web.UI.Editor.Filter`
 
 Instance of a Filter Object
-
-#### Returns
-
-`None` 
-
-### removeFilterByName
-
-Remove content filter from the filters collection
-
-#### Parameters
-
-##### name `String`
-
-The name of the filter to be removed.
 
 #### Returns
 
@@ -178,6 +165,20 @@ The index location of the filter in the FiltersCollection
 
 `None` 
 
+### removeFilterByName
+
+Remove content filter from the filters collection
+
+#### Parameters
+
+##### name `String`
+
+The name of the filter to be removed.
+
+#### Returns
+
+`None` 
+
 ### set_enableXhtmlFilter
 
 Sets the state of XHTML filter
@@ -191,5 +192,6 @@ Boolean value to enable
 #### Returns
 
 `None` 
+
 
 

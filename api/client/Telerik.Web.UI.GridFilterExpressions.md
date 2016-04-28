@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.GridFilterExpressions
 * [Telerik.Web.UI.Collection]({%slug Telerik.Web.UI.Collection%})
 * *[Telerik.Web.UI.GridFilterExpressions]({%slug Telerik.Web.UI.GridFilterExpressions%})*
 
+
 ## Methods
 
 ###  find
@@ -26,7 +27,7 @@ Returns the filter expression by a given column unique name.
 
 `None` 
 
-###  toDataService
+### toDataService
 
 Initializes DataService string.
 
@@ -36,7 +37,7 @@ Initializes DataService string.
 
 `None` 
 
-###  toDynamicLinq
+### toDynamicLinq
 
 Returns the DynamicLinq represenation of the filter expression.
 
@@ -48,7 +49,7 @@ Returns the DynamicLinq represenation of the filter expression.
 
 `None` 
 
-###  toOql
+### toOql
 
 Returns the OQL represenation of the filter expression.
 
@@ -60,7 +61,7 @@ Returns the OQL represenation of the filter expression.
 
 `None` 
 
-###  toString
+### toString
 
 Returns the string represenation of the specified parameter.
 
@@ -71,5 +72,6 @@ Returns the string represenation of the specified parameter.
 #### Returns
 
 `None` 
+
 
 

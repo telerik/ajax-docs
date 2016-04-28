@@ -11,6 +11,7 @@ slug: Telerik.Web.UI.RadMediaPlayer
 
 * *[Telerik.Web.UI.RadMediaPlayer]({%slug Telerik.Web.UI.RadMediaPlayer%})*
 
+
 ## Methods
 
 ###  exitFullScreen
@@ -23,127 +24,7 @@ Exits Full Screen mode.
 
 `None` 
 
-###  play
-
-Plays the media.
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-###  seekTo
-
-Proceeds to given time frame.
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-###  pause
-
-Pauses playing the media.
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-###  mute
-
-Mutes the media.
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-###  unmute
-
-Unmutes the media.
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-###  toolbar
-
-Provides a reference to the toolbar object.
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-###  titlebar
-
-Provides a reference to the titlebar object.
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-###  stop
-
-Stops playing the media.
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-###  isEnded
-
-Determines whether the media has ended.
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-###  isPaused
-
-Determines whether the media is paused.
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-###  isMuted
-
-Determines whether the media is muted.
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-###  isPlaying
-
-Determines whether the media is playing.
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-###  get_currentTime
+### get_currentTime
 
 Gets the exact time which the player is currently on.
 
@@ -153,7 +34,7 @@ Gets the exact time which the player is currently on.
 
 `None` 
 
-###  get_fsActive
+### get_fsActive
 
 Controls the Full Screen mode of the media.
 
@@ -163,7 +44,7 @@ Controls the Full Screen mode of the media.
 
 `None` 
 
-###  get_hdActive
+### get_hdActive
 
 Controls the HD quality status of the media.
 
@@ -173,7 +54,7 @@ Controls the HD quality status of the media.
 
 `None` 
 
-###  get_options
+### get_options
 
 Controls a collection of the basic options for the player.
 
@@ -183,7 +64,7 @@ Controls a collection of the basic options for the player.
 
 `None` 
 
-###  get_source
+### get_source
 
 Controls the source of the player.
 
@@ -193,7 +74,7 @@ Controls the source of the player.
 
 `None` 
 
-###  get_toolbarDocked
+### get_toolbarDocked
 
 Controls the toolbar's position.
 
@@ -203,7 +84,7 @@ Controls the toolbar's position.
 
 `None` 
 
-###  get_volume
+### get_volume
 
 Controls the volume of the media.
 
@@ -213,7 +94,142 @@ Controls the volume of the media.
 
 `None` 
 
+### isEnded
+
+Determines whether the media has ended.
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### isMuted
+
+Determines whether the media is muted.
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### isPaused
+
+Determines whether the media is paused.
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### isPlaying
+
+Determines whether the media is playing.
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### mute
+
+Mutes the media.
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### pause
+
+Pauses playing the media.
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### play
+
+Plays the media.
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### seekTo
+
+Proceeds to given time frame.
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### stop
+
+Stops playing the media.
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### titlebar
+
+Provides a reference to the titlebar object.
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### toolbar
+
+Provides a reference to the toolbar object.
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### unmute
+
+Unmutes the media.
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+
 ## Events
+
+### Play
+
+This event is fired after the media begins playing.
+
+#### Event Data
+
+##### sender `Telerik.Web.UI.RadMediaPlayer`
+
+The RadMediaPlayer instance that fired the event.
+
+##### args `Sys.EventArgs`
+
+Empty event argument.
 
 ### Ended
 
@@ -243,9 +259,9 @@ The RadMediaPlayer instance that fired the event.
 
 Empty event argument.
 
-### Play
+### VolumeChanged
 
-This event is fired after the media begins playing.
+This event is fired upon changing the volume level.
 
 #### Event Data
 
@@ -253,9 +269,9 @@ This event is fired after the media begins playing.
 
 The RadMediaPlayer instance that fired the event.
 
-##### args `Sys.EventArgs`
+##### args `Telerik.Web.UI.MediaPlayerVolumeChangedEventArgs`
 
-Empty event argument.
+The event arguments.
 
 ### Ready
 
@@ -285,17 +301,4 @@ The RadMediaPlayer instance that fired the event.
 
 The event arguments.
 
-### VolumeChanged
-
-This event is fired upon changing the volume level.
-
-#### Event Data
-
-##### sender `Telerik.Web.UI.RadMediaPlayer`
-
-The RadMediaPlayer instance that fired the event.
-
-##### args `Telerik.Web.UI.MediaPlayerVolumeChangedEventArgs`
-
-The event arguments.
 

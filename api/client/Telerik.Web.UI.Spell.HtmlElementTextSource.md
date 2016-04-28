@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.Spell.HtmlElementTextSource
 * Sys.UI.Control
 * *[Telerik.Web.UI.Spell.HtmlElementTextSource]({%slug Telerik.Web.UI.Spell.HtmlElementTextSource%})*
 
+
 ## Methods
 
 ###  get_element
@@ -24,7 +25,7 @@ Gets the HTML element of the TextSource object.
 
 `Element` The HTML element of the TextSource object.
 
-###  get_text
+### get_text
 
 Gets the text of the (Telerik.Web.UI.Spell.HtmlElementTextSource) TextSource object.
 
@@ -34,7 +35,7 @@ Gets the text of the (Telerik.Web.UI.Spell.HtmlElementTextSource) TextSource obj
 
 `String` The text of the TextSource object.
 
-###  set_text
+### set_text
 
 Sets a text to the (Telerik.Web.UI.Spell.HtmlElementTextSource) TextSource object.
 
@@ -47,5 +48,6 @@ The text to be set.
 #### Returns
 
 `None` 
+
 
 

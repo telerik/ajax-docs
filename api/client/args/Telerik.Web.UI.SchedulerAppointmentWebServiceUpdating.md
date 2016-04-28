@@ -11,3 +11,4 @@ slug: Telerik.Web.UI.SchedulerAppointmentWebServiceUpdating
 
 * [Telerik.Web.UI.SchedulerAppointmentCancelEventArgs]({%slug Telerik.Web.UI.SchedulerAppointmentCancelEventArgs%})
 * *[Telerik.Web.UI.SchedulerAppointmentWebServiceUpdating]({%slug Telerik.Web.UI.SchedulerAppointmentWebServiceUpdating%})*
+

@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.RadFormDecorator
 * [Telerik.Web.UI.RadWebControl]({%slug Telerik.Web.UI.RadWebControl%})
 * *[Telerik.Web.UI.RadFormDecorator]({%slug Telerik.Web.UI.RadFormDecorator%})*
 
+
 ## Methods
 
 ###  decorate
@@ -28,7 +29,7 @@ Explicitly decorates the elements
 
 `None` 
 
-###  decorateButton
+### decorateButton
 
 Decorates a single button element, passed as parameter
 
@@ -40,7 +41,7 @@ Decorates a single button element, passed as parameter
 
 `None` 
 
-###  decorateButtons
+### decorateButtons
 
 Decorates the buttons inside the passed rootElement. If the passed parameter is null then decorates all buttons on the page
 
@@ -52,7 +53,7 @@ Decorates the buttons inside the passed rootElement. If the passed parameter is 
 
 `None` 
 
-###  decorateInput
+### decorateInput
 
 Decorates a single input element, passed as parameter
 
@@ -64,7 +65,7 @@ Decorates a single input element, passed as parameter
 
 `None` 
 
-###  decorateSelect
+### decorateSelect
 
 Decorates a single select element, passed as parameter
 
@@ -76,7 +77,7 @@ Decorates a single select element, passed as parameter
 
 `None` 
 
-###  decorateSelects
+### decorateSelects
 
 Decorates the selects inside the passed rootElement. If the passed parameter is null then decorates all selects on the page
 
@@ -88,7 +89,7 @@ Decorates the selects inside the passed rootElement. If the passed parameter is 
 
 `None` 
 
-###  decorateTextboxes
+### decorateTextboxes
 
 Decorates the textboxes inside the passed rootElement. If the passed parameter is null then decorates all TextBoxes on the page
 
@@ -100,7 +101,7 @@ Decorates the textboxes inside the passed rootElement. If the passed parameter i
 
 `None` 
 
-###  get_decoratedControls
+### get_decoratedControls
 
 Returns the currently decorated controls (Telerik.Web.UI.FormDecoratorDecoratedControls)
 
@@ -110,7 +111,7 @@ Returns the currently decorated controls (Telerik.Web.UI.FormDecoratorDecoratedC
 
 `Telerik.Web.UI.FormDecoratorDecoratedControls` 
 
-###  get_decorationZoneID
+### get_decorationZoneID
 
 Returns ID of the element that is set as decoration zone. Returns null if the DecorationZoneID is not set
 
@@ -120,7 +121,7 @@ Returns ID of the element that is set as decoration zone. Returns null if the De
 
 `String` 
 
-###  removeSelectDecoration
+### removeSelectDecoration
 
 Removes the decoration on the HTML select element
 
@@ -134,7 +135,7 @@ The already decorated select
 
 `None` 
 
-###  set_decoratedControls
+### set_decoratedControls
 
 Sets what controls to be decorated
 
@@ -146,7 +147,7 @@ Sets what controls to be decorated
 
 `None` 
 
-###  updateSelect
+### updateSelect
 
 Updates the decoration on the HTML select element
 
@@ -159,5 +160,6 @@ The already decorated select that should be updated
 #### Returns
 
 `None` 
+
 
 

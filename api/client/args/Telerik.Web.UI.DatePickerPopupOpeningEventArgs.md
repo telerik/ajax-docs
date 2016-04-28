@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.DatePickerPopupOpeningEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.DatePickerPopupOpeningEventArgs]({%slug Telerik.Web.UI.DatePickerPopupOpeningEventArgs%})*
 
+
 ## Methods
 
 ###  get_cancelCalendarSynchronization
@@ -24,7 +25,7 @@ Lets you prevent the popup control from synchronizing its value to the value in 
 
 `Boolean` 
 
-###  get_popupControl
+### get_popupControl
 
 Returns the client object for the time view or calendar that is about to be displayed.
 
@@ -34,7 +35,7 @@ Returns the client object for the time view or calendar that is about to be disp
 
 `Telerik.Web.UI.RadCalendar` 
 
-###  set_cancelCalendarSynchronization
+### set_cancelCalendarSynchronization
 
 Lets you prevent the popup from appearing.
 
@@ -45,5 +46,6 @@ Lets you prevent the popup from appearing.
 #### Returns
 
 `None` 
+
 
 

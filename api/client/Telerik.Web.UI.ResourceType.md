@@ -11,6 +11,7 @@ slug: Telerik.Web.UI.ResourceType
 
 * *[Telerik.Web.UI.ResourceType]({%slug Telerik.Web.UI.ResourceType%})*
 
+
 ## Methods
 
 ###  get_allowMultipleValues
@@ -23,7 +24,7 @@ Gets a value indicating if the resource type allows multiple resource values
 
 `Boolean`  true if multiple resource values are allowed
 
-###  get_name
+### get_name
 
 Gets the resource type name
 
@@ -33,7 +34,7 @@ Gets the resource type name
 
 `String`  The resource type name 
 
-###  set_name
+### set_name
 
 Sets the resource type name
 
@@ -46,5 +47,6 @@ Sets the resource type name
 #### Returns
 
 `None` 
+
 
 

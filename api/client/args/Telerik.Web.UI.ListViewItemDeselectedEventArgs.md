@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.ListViewItemDeselectedEventArgs
 * Sys.EventArgs
 * *[Telerik.Web.UI.ListViewItemDeselectedEventArgs]({%slug Telerik.Web.UI.ListViewItemDeselectedEventArgs%})*
 
+
 ## Methods
 
 ### get_itemIndex
@@ -23,3 +24,4 @@ Returns the index of the deselected item.
 #### Returns
 
 `Number`
+

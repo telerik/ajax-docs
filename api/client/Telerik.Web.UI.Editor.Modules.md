@@ -10,3 +10,4 @@ slug: Telerik.Web.UI.Editor.Modules
 ## Inheritance Hierarchy
 
 * *[Telerik.Web.UI.Editor.Modules]({%slug Telerik.Web.UI.Editor.Modules%})*
+

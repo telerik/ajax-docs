@@ -12,17 +12,8 @@ slug: Telerik.Web.UI.AutoCompleteBoxRequestingEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.AutoCompleteBoxRequestingEventArgs]({%slug Telerik.Web.UI.AutoCompleteBoxRequestingEventArgs%})*
 
+
 ## Methods
-
-### get_text
-
-Returns the text currently present in the input area( this method does not exists if web service).
-
-#### Parameters
-
-#### Returns
-
-`String`
 
 ### get_context
 
@@ -33,3 +24,14 @@ Returns an object representing the context of the request ( only available in we
 #### Returns
 
 `Object`
+### get_text
+
+Returns the text currently present in the input area( this method does not exists if web service).
+
+#### Parameters
+
+#### Returns
+
+`String`
+
+

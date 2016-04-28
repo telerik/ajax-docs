@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.DockCloseCommand
 * [Telerik.Web.UI.DockCommand]({%slug Telerik.Web.UI.DockCommand%})
 * *[Telerik.Web.UI.DockCloseCommand]({%slug Telerik.Web.UI.DockCloseCommand%})*
 
+
 ## Methods
 
 ###  onCommand
@@ -23,5 +24,6 @@ slug: Telerik.Web.UI.DockCloseCommand
 #### Returns
 
 `None` 
+
 
 

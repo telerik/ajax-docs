@@ -11,6 +11,7 @@ slug: Telerik.Web.UI.FilterMenuShowingEventArgs
 
 * *[Telerik.Web.UI.FilterMenuShowingEventArgs]({%slug Telerik.Web.UI.FilterMenuShowingEventArgs%})*
 
+
 ## Methods
 
 ###  get_menu
@@ -20,8 +21,9 @@ Returns the Telerik.Web.UI.RadContextMenu object
 `Telerik.Web.UI.RadContextMenu` 
 
 
-###  get_menuArguments
+### get_menuArguments
 Returns the context menu arguments
 #### Parameters
 #### Returns
 `Telerik.Web.UI.RadContextMenuShowingEventArgs` 
+

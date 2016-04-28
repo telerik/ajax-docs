@@ -11,6 +11,7 @@ slug: Telerik.Web.UI.RadListViewFilterExpressionBuilder
 
 * *[Telerik.Web.UI.RadListViewFilterExpressionBuilder]({%slug Telerik.Web.UI.RadListViewFilterExpressionBuilder%})*
 
+
 ## Methods
 
 ###  contains
@@ -31,7 +32,7 @@ The filter value of the expression
 
 `None` 
 
-###  endsWith
+### endsWith
 
 Builds a filter expression for a "EndsWith" filter
 
@@ -49,7 +50,7 @@ The filter value of the expression
 
 `None` 
 
-###  equalTo
+### equalTo
 
 Builds a filter expression for an "EqualTo" filter
 
@@ -67,7 +68,7 @@ The filter value of the expression
 
 `None` 
 
-###  greaterThan
+### greaterThan
 
 Builds a filter expression for a "GreaterThan" filter
 
@@ -85,7 +86,7 @@ The filter value of the expression
 
 `None` 
 
-###  greaterThanOrEqualTo
+### greaterThanOrEqualTo
 
 Builds a filter expression for a "GreaterThanOrEqualTo" filter
 
@@ -103,7 +104,7 @@ The filter value of the expression
 
 `None` 
 
-###  group
+### group
 
 Builds a filter expression for a "Group" filter
 
@@ -117,7 +118,7 @@ The function that builds the expressions in the group. A Telerik.Web.UI.RadListV
 
 `None` 
 
-###  isEmpty
+### isEmpty
 
 Builds a filter expression for a "IsEmpty" filter
 
@@ -131,7 +132,7 @@ The field name to check for empty values
 
 `None` 
 
-###  isNotEmpty
+### isNotEmpty
 
 Builds a filter expression for a "NotIsEmpty" filter
 
@@ -145,7 +146,7 @@ The field name to check for not empty values
 
 `None` 
 
-###  isNotNull
+### isNotNull
 
 Builds a filter expression for a "NotIsNull" filter
 
@@ -159,7 +160,7 @@ The field name to check for not null values
 
 `None` 
 
-###  isNull
+### isNull
 
 Builds a filter expression for a "IsNull" filter
 
@@ -173,7 +174,7 @@ The field name to check for null values
 
 `None` 
 
-###  lessThan
+### lessThan
 
 Builds a filter expression for a "LessThan" filter
 
@@ -191,7 +192,7 @@ The filter value of the expression
 
 `None` 
 
-###  lessThanOrEqualTo
+### lessThanOrEqualTo
 
 Builds a filter expression for a "LessThanOrEqualTo" filter
 
@@ -209,7 +210,7 @@ The filter value of the expression
 
 `None` 
 
-###  notEqualTo
+### notEqualTo
 
 Builds a filter expression for a "NotEqualTo" filter
 
@@ -227,7 +228,7 @@ The filter value of the expression
 
 `None` 
 
-###  startsWith
+### startsWith
 
 Builds a filter expression for a "StartsWith" filter
 
@@ -244,5 +245,6 @@ The filter value of the expression
 #### Returns
 
 `None` 
+
 
 

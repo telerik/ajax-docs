@@ -11,6 +11,7 @@ slug: Telerik.Web.UI.DateParsing.DateTimeFormatInfo
 
 * *[Telerik.Web.UI.DateParsing.DateTimeFormatInfo]({%slug Telerik.Web.UI.DateParsing.DateTimeFormatInfo%})*
 
+
 ## Methods
 
 ###  FormatDate
@@ -21,12 +22,13 @@ slug: Telerik.Web.UI.DateParsing.DateTimeFormatInfo
 
 `None` 
 
-###  LeadZero
+### LeadZero
 
 #### Parameters
 
 #### Returns
 
 `None` 
+
 
 

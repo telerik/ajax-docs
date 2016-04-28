@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.DropDownListItemSelectingEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.DropDownListItemSelectingEventArgs]({%slug Telerik.Web.UI.DropDownListItemSelectingEventArgs%})*
 
+
 ## Methods
 
 ###  get_item
@@ -23,4 +24,5 @@ slug: Telerik.Web.UI.DropDownListItemSelectingEventArgs
 #### Returns
 
 `Telerik.Web.UI.DropDownListItem` the item that is about to be selected. 
+
 

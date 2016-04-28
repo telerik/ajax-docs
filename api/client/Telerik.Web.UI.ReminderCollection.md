@@ -11,6 +11,7 @@ slug: Telerik.Web.UI.ReminderCollection
 
 * *[Telerik.Web.UI.ReminderCollection]({%slug Telerik.Web.UI.ReminderCollection%})*
 
+
 ## Methods
 
 ###  add
@@ -27,7 +28,7 @@ Adds the Reminder to the collection.
 
 `None` 
 
-###  clear
+### clear
 
 Clears the collection.
 
@@ -37,7 +38,7 @@ Clears the collection.
 
 `None` 
 
-###  findByID
+### findByID
 
 Returns the reminder with the specified ID, null if not found.
 
@@ -51,7 +52,17 @@ Returns the reminder with the specified ID, null if not found.
 
 `Telerik.Web.UI.Reminder`  The reminder with the specified ID
 
-###  getReminder
+### get_count
+
+Gets the total number of Reminders in the collection.
+
+#### Parameters
+
+#### Returns
+
+`Number`  The total number of Reminders in the collection. 
+
+### getReminder
 
 Returns the reminder at the specified index in the collection
 
@@ -65,17 +76,7 @@ Returns the reminder at the specified index in the collection
 
 `Telerik.Web.UI.Reminder`  The reminder at the specified index in the collection. 
 
-###  get_count
-
-Gets the total number of Reminders in the collection.
-
-#### Parameters
-
-#### Returns
-
-`Number`  The total number of Reminders in the collection. 
-
-###  indexOf
+### indexOf
 
 Returns the index of the Reminder in the collection, -1 if not found.
 
@@ -89,7 +90,7 @@ Returns the index of the Reminder in the collection, -1 if not found.
 
 `Number`  The index of the Reminder in the collection
 
-###  insert
+### insert
 
 Inserts the Reminder at the specified index in the collection.
 
@@ -103,7 +104,7 @@ Inserts the Reminder at the specified index in the collection.
 
 `None` 
 
-###  remove
+### remove
 
 Removes the specified Reminder from the collection.
 
@@ -117,7 +118,7 @@ Removes the specified Reminder from the collection.
 
 `None` 
 
-###  removeAt
+### removeAt
 
 Removes the Reminder at the specified index in the collection.
 
@@ -130,5 +131,6 @@ Removes the Reminder at the specified index in the collection.
 #### Returns
 
 `None` 
+
 
 

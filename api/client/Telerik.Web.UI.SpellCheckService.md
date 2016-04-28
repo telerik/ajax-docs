@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.SpellCheckService
 * Sys.Component
 * *[Telerik.Web.UI.SpellCheckService]({%slug Telerik.Web.UI.SpellCheckService%})*
 
+
 ## Methods
 
 ###  addCustomWord
@@ -24,7 +25,7 @@ slug: Telerik.Web.UI.SpellCheckService
 
 `None` 
 
-###  get_language
+### get_language
 
 #### Parameters
 
@@ -32,7 +33,7 @@ slug: Telerik.Web.UI.SpellCheckService
 
 `String` 
 
-###  get_url
+### get_url
 
 #### Parameters
 
@@ -40,7 +41,7 @@ slug: Telerik.Web.UI.SpellCheckService
 
 `String` 
 
-###  set_language
+### set_language
 
 #### Parameters
 
@@ -50,7 +51,7 @@ slug: Telerik.Web.UI.SpellCheckService
 
 `None` 
 
-###  set_url
+### set_url
 
 #### Parameters
 
@@ -60,7 +61,7 @@ slug: Telerik.Web.UI.SpellCheckService
 
 `None` 
 
-###  spellCheck
+### spellCheck
 
 #### Parameters
 
@@ -69,6 +70,7 @@ slug: Telerik.Web.UI.SpellCheckService
 #### Returns
 
 `None` 
+
 
 ## Events
 
@@ -85,3 +87,4 @@ The SpellCheckService instance raised the event.
 ##### args `Sys.EventArgs`
 
 The event arguments.  
+

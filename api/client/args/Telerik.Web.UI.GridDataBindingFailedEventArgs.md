@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.GridDataBindingFailedEventArgs
 * Sys.EventArgs
 * *[Telerik.Web.UI.GridDataBindingFailedEventArgs]({%slug Telerik.Web.UI.GridDataBindingFailedEventArgs%})*
 
+
 ## Methods
 
 ###  get_exceptionType
@@ -24,7 +25,7 @@ Returns the type of the generated exception.
 
 `String` 
 
-###  get_message
+### get_message
 
 Returns the exception message.
 
@@ -34,7 +35,7 @@ Returns the exception message.
 
 `String` 
 
-###  get_stackTrace
+### get_stackTrace
 
 Returns the stack trace of the generated exception.
 
@@ -43,5 +44,6 @@ Returns the stack trace of the generated exception.
 #### Returns
 
 `String` 
+
 
 

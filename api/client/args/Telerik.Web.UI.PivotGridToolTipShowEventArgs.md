@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.PivotGridToolTipShowEventArgs
 * Sys.EventArgs
 * *[Telerik.Web.UI.PivotGridToolTipShowEventArgs]({%slug Telerik.Web.UI.PivotGridToolTipShowEventArgs%})*
 
+
 ## Methods
 
 ### get_columnsData
@@ -64,3 +65,4 @@ Returns the client-side object of the toolTip that will be shown.
 #### Returns
 
 `Telerik.Web.UI.RadToolTip` 
+

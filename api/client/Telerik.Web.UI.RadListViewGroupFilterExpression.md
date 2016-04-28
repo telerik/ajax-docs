@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.RadListViewGroupFilterExpression
 * [Telerik.Web.UI.RadListViewFilterExpression]({%slug Telerik.Web.UI.RadListViewFilterExpression%})
 * *[Telerik.Web.UI.RadListViewGroupFilterExpression]({%slug Telerik.Web.UI.RadListViewGroupFilterExpression%})*
 
+
 ## Methods
 
 ###  get_filterExpressions
@@ -24,7 +25,7 @@ Gets the filter expressions collection that this group filter expression contain
 
 `Telerik.Web.UI.RadListViewFilterExpressions` 
 
-###  get_groupOperator
+### get_groupOperator
 
 Gets the group operator of this group expression
 
@@ -34,7 +35,7 @@ Gets the group operator of this group expression
 
 `String` 
 
-###  set_filterExpressions
+### set_filterExpressions
 
 Sets the filter expression collection of this group filter expression
 
@@ -48,7 +49,7 @@ The filter expression collection that this group filter expression contains
 
 `None` 
 
-###  set_groupOpertor
+### set_groupOpertor
 
 Sets the group operator of this group filter expression
 
@@ -61,5 +62,6 @@ One of the Telerik.Web.UI.RadListViewGroupFilterOperator values
 #### Returns
 
 `None` 
+
 
 

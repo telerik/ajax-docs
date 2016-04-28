@@ -7,8 +7,11 @@ slug: Telerik.Web.UI.RibbonBarMaximizеdEventArgs
 
 # Telerik.Web.UI.RibbonBarMaximizеdEventArgs
 
-## Inheritance Hierarchy
+
+Inheritance Hierarchy
 
 * [Telerik.Web.UI.RibbonBarMaximizеdEventArgs]({%slug Telerik.Web.UI.RibbonBarMaximizеdEventArgs%})
 
-## Methods
+
+Methods
+

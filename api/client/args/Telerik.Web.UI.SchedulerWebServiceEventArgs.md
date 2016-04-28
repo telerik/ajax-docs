@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.SchedulerWebServiceEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.SchedulerWebServiceEventArgs]({%slug Telerik.Web.UI.SchedulerWebServiceEventArgs%})*
 
+
 ## Methods
 
 ### get_schedulerInfo
@@ -23,3 +24,4 @@ Returns provider interface object.
 #### Returns
 
 `Object`
+

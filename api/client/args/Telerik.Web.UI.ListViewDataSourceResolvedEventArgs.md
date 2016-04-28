@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.ListViewDataSourceResolvedEventArgs
 * Sys.EventArgs
 * *[Telerik.Web.UI.ListViewDataSourceResolvedEventArgs]({%slug Telerik.Web.UI.ListViewDataSourceResolvedEventArgs%})*
 
+
 ## Methods
 
 ### get_data
@@ -47,3 +48,4 @@ The array of items that the RadListView will use for binding.
 #### Returns
 
 `None`
+

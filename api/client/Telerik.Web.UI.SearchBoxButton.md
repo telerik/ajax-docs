@@ -11,6 +11,7 @@ slug: Telerik.Web.UI.SearchBoxButton
 
 * *[Telerik.Web.UI.SearchBoxButton]({%slug Telerik.Web.UI.SearchBoxButton%})*
 
+
 ## Methods
 
 ###  get_commandArgument
@@ -23,7 +24,7 @@ Gets the value of the CommandArgument property
 
 `String` 
 
-###  get_commandName
+### get_commandName
 
 Gets the value of the CommandName property
 
@@ -33,7 +34,7 @@ Gets the value of the CommandName property
 
 `String` 
 
-###  get_cssClass
+### get_cssClass
 
 Gets the value of the CssClass property
 
@@ -43,7 +44,7 @@ Gets the value of the CssClass property
 
 `String` 
 
-###  get_element
+### get_element
 
 Gets he DOM element for the SearchBoxButton
 
@@ -53,7 +54,7 @@ Gets he DOM element for the SearchBoxButton
 
 `Element` The DOM element for the SearchBoxButton
 
-###  get_imageElement
+### get_imageElement
 
 Returns the <img/> element of the button
 
@@ -63,7 +64,7 @@ Returns the <img/> element of the button
 
 `Element` HTML element that holds the button
 
-###  get_imageUrl
+### get_imageUrl
 
 Gets the value of the ImageUrl property
 
@@ -73,7 +74,7 @@ Gets the value of the ImageUrl property
 
 `String` 
 
-###  get_index
+### get_index
 
 Gets the SearchBoxButton's index inside the SearchBoxButtonCollection
 
@@ -83,7 +84,7 @@ Gets the SearchBoxButton's index inside the SearchBoxButtonCollection
 
 `Number` The index of the SearchBoxButton
 
-###  get_parent
+### get_parent
 
 The SearchBoxButton's parent
 
@@ -93,7 +94,7 @@ The SearchBoxButton's parent
 
 `Telerik.Web.UI.RadSearchBox` Gets the SearchBoxButton
 
-###  get_position
+### get_position
 
 Gets the position of the button relative to the parent RadSearchBox's input field.
 
@@ -103,7 +104,7 @@ Gets the position of the button relative to the parent RadSearchBox's input fiel
 
 `Telerik.Web.UI.SearchBoxButtonPosition` 
 
-###  set_commandArgument
+### set_commandArgument
 
 Sets the CommandArgument property of the button.
 
@@ -117,7 +118,7 @@ String value for the CommandArgument property
 
 `None` 
 
-###  set_commandName
+### set_commandName
 
 Sets the CommandName property of the button.
 
@@ -131,7 +132,7 @@ String value for the CommandName property
 
 `None` 
 
-###  set_cssClass
+### set_cssClass
 
 Sets the CssClass property of the button.
 
@@ -145,7 +146,7 @@ String value for the CssClass property
 
 `None` 
 
-###  set_element
+### set_element
 
 Sets the button's dom element
 
@@ -159,7 +160,7 @@ Sets the button's dom element
 
 `None` 
 
-###  set_imageUrl
+### set_imageUrl
 
 Sets the ImageUrl property of the button
 
@@ -173,7 +174,7 @@ String value for the ImageUrl property
 
 `None` 
 
-###  set_parent
+### set_parent
 
 Sets the SearchBoxButton's parent
 
@@ -187,7 +188,7 @@ The parent SearchBox object
 
 `None` 
 
-###  set_position
+### set_position
 
 Sets the position of the button relative to the parent RadSearchBox's input field.
 
@@ -200,5 +201,6 @@ Sets the position of the button relative to the parent RadSearchBox's input fiel
 #### Returns
 
 `None` 
+
 
 

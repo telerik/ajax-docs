@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.RadTreeMap
 * [Telerik.Web.UI.RadWebControl]({%slug Telerik.Web.UI.RadWebControl%})
 * *[Telerik.Web.UI.RadTreeMap]({%slug Telerik.Web.UI.RadTreeMap%})*
 
+
 ## Methods
 
 ###  get_kendoWidget
@@ -24,6 +25,7 @@ To use the exposed Kendo methods make sure you have the kendo.dataviz.d.ts file 
 #### Returns
 
 `Object` 
+
 
 ## Events
 
@@ -55,3 +57,4 @@ The RadTreeMap instance raised the event.
 ##### args `Telerik.Web.UI.TreeMapItemCreatedEventArgs`
 
 The arguments of the ItemCreated event.
+

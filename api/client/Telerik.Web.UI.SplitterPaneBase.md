@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.SplitterPaneBase
 * Sys.UI.Control
 * *[Telerik.Web.UI.SplitterPaneBase]({%slug Telerik.Web.UI.SplitterPaneBase%})*
 
+
 ## Methods
 
 ###  getScrollPos
@@ -24,7 +25,7 @@ Gets the position of the scrollbar of the control
 
 `Object` The position of the scrollbar of the control in the form 
 
-###  get_collapsed
+### get_collapsed
 
 Returns a value, indicating whether the control is collapsed
 
@@ -34,7 +35,7 @@ Returns a value, indicating whether the control is collapsed
 
 `Boolean` A value
 
-###  get_height
+### get_height
 
 Gets the height in pixels of the control
 
@@ -44,7 +45,7 @@ Gets the height in pixels of the control
 
 `Number` The height in pixels of the control
 
-###  get_maxHeight
+### get_maxHeight
 
 Returns the maximum possible height of the control
 
@@ -54,7 +55,7 @@ Returns the maximum possible height of the control
 
 `Number` The maximum possible height of the control
 
-###  get_maxWidth
+### get_maxWidth
 
 Returns the maximum possible width of the control
 
@@ -64,7 +65,7 @@ Returns the maximum possible width of the control
 
 `Number` The maximum possible width of the control
 
-###  get_minHeight
+### get_minHeight
 
 Returns the minimum possible height of the control
 
@@ -74,7 +75,7 @@ Returns the minimum possible height of the control
 
 `Number` The minimum possible height of the control
 
-###  get_minWidth
+### get_minWidth
 
 Returns the minimum possible width of the control
 
@@ -84,7 +85,7 @@ Returns the minimum possible width of the control
 
 `Number` The minimum possible width of the control
 
-###  get_persistScrollPosition
+### get_persistScrollPosition
 
 Returns a value, indicating whether the control persists the position of the scrollbar
 
@@ -94,7 +95,7 @@ Returns a value, indicating whether the control persists the position of the scr
 
 `Boolean` A value
 
-###  get_scrolling
+### get_scrolling
 
 Returns the value of the Scrolling property of the control
 
@@ -104,7 +105,7 @@ Returns the value of the Scrolling property of the control
 
 `Telerik.Web.UI.SplitterPaneScrolling` The value of the Scrolling property of the control
 
-###  get_width
+### get_width
 
 Gets the width in pixels of the control
 
@@ -114,25 +115,7 @@ Gets the width in pixels of the control
 
 `Number` The width in pixels of the control
 
-###  setScrollPos
-
-Sets the position of the scrollbar of the control
-
-#### Parameters
-
-##### scrollLeft `Number`
-
-The left position of the scrollbar
-
-##### scrollTop `Number`
-
-The top position of the scrollbar
-
-#### Returns
-
-`None` 
-
-###  set_height
+### set_height
 
 Sets the height in pixels of the control
 
@@ -146,7 +129,7 @@ The new height in pixels of the control
 
 `None` 
 
-###  set_scrolling
+### set_scrolling
 
 Sets new value for the Scrolling property of the control
 
@@ -160,7 +143,7 @@ The new value for the Scrolling property of the control
 
 `None` 
 
-###  set_width
+### set_width
 
 Sets the width in pixels of the control
 
@@ -169,6 +152,25 @@ Sets the width in pixels of the control
 ##### value `Number`
 
 The new width in pixels of the control
+
+#### Returns
+
+`None` 
+
+
+### setScrollPos
+
+Sets the position of the scrollbar of the control
+
+#### Parameters
+
+##### scrollLeft `Number`
+
+The left position of the scrollbar
+
+##### scrollTop `Number`
+
+The top position of the scrollbar
 
 #### Returns
 
@@ -191,20 +193,6 @@ The RadPane or RadSlidingPane instance raised the event.
 
 The arguments of the Collapsed event.
 
-### collapsing
-
-Occurs when a SlidingPane is just about to be collapsed.
-
-#### Event Data
-
-##### sender `Telerik.Web.UI.SplitterPaneBase`
-
-The RadPane or RadSlidingPane instance raised the event.
-
-##### args `Sys.CancelEventArgs`
-
-The arguments of the Collapsing event.
-
 ### expanded
 
 Occurs when a SlidingPane has just been expanded.
@@ -218,20 +206,6 @@ The RadPane or RadSlidingPane instance raised the event.
 ##### args `Sys.EventArgs`
 
 The arguments of the Expanded event.
-
-### expanding
-
-Occurs when a SlidingPane is just about to be expanded.
-
-#### Event Data
-
-##### sender `Telerik.Web.UI.SplitterPaneBase`
-
-The RadPane or RadSlidingPane instance raised the event.
-
-##### args `Sys.CancelEventArgs`
-
-The arguments of the Expanding event.
 
 ### resized
 
@@ -247,6 +221,34 @@ The RadPane or RadSlidingPane instance raised the event.
 
 The arguments of the Resized event.
 
+### collapsing
+
+Occurs when a SlidingPane is just about to be collapsed.
+
+#### Event Data
+
+##### sender `Telerik.Web.UI.SplitterPaneBase`
+
+The RadPane or RadSlidingPane instance raised the event.
+
+##### args `Sys.CancelEventArgs`
+
+The arguments of the Collapsing event.
+
+### expanding
+
+Occurs when a SlidingPane is just about to be expanded.
+
+#### Event Data
+
+##### sender `Telerik.Web.UI.SplitterPaneBase`
+
+The RadPane or RadSlidingPane instance raised the event.
+
+##### args `Sys.CancelEventArgs`
+
+The arguments of the Expanding event.
+
 ### resizing
 
 Occurs when a SlidingPane is just about to be resized.
@@ -260,3 +262,4 @@ The RadPane or RadSlidingPane instance raised the event.
 ##### args `Telerik.Web.UI.PaneResizingEventArgs`
 
 The arguments of the Resizing event.
+

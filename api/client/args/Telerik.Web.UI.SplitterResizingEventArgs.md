@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.SplitterResizingEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.SplitterResizingEventArgs]({%slug Telerik.Web.UI.SplitterResizingEventArgs%})*
 
+
 ## Methods
 
 ###  get_newWidth
@@ -24,7 +25,7 @@ Returns the new height of the splitter, or null if the height is not changing.
 
 `Number`
 
-###  get_newHeight
+### get_newHeight
 
 Returns the new width of the splitter, or null if the width is not changing.
 
@@ -33,3 +34,4 @@ Returns the new width of the splitter, or null if the width is not changing.
 #### Returns
 
 `Number`
+

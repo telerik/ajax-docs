@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.ImageEditor.SavingEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.ImageEditor.SavingEventArgs]({%slug Telerik.Web.UI.ImageEditor.SavingEventArgs%})*
 
+
 ## Methods
 
 ###  get_saveAction
@@ -24,7 +25,7 @@ Returns the save action applied on the image.
 
 `String` The possible values for the save action are "SaveClient", "SaveServer" and "ApplyChanges".
 
-###  get_fileName
+### get_fileName
 
 Returns the name under which the image will be saved.
 
@@ -34,7 +35,16 @@ Returns the name under which the image will be saved.
 
 `String`
 
-###  set_fileName
+### get_overwrite
+
+Returns whether the file will be overwritten if it exists.
+
+#### Parameters
+
+#### Returns
+
+`Boolean` 
+### set_fileName
 
 Sets the name under which the image will be saved.
 
@@ -46,12 +56,4 @@ Sets the name under which the image will be saved.
 
 `None`
 
-###  get_overwrite
 
-Returns whether the file will be overwritten if it exists.
-
-#### Parameters
-
-#### Returns
-
-`Boolean` 

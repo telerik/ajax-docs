@@ -12,7 +12,58 @@ slug: Telerik.Web.UI.RadSocialShare
 * [Telerik.Web.UI.RadWebControl]({%slug Telerik.Web.UI.RadWebControl%})
 * *[Telerik.Web.UI.RadSocialShare]({%slug Telerik.Web.UI.RadSocialShare%})*
 
+
 ## Methods
+
+### get_compactButtons
+
+Returns the array of compact buttons.
+
+#### Parameters
+
+#### Returns
+
+`Array` 
+
+### get_compactPopup
+
+Returns the compact popup object.
+
+#### Parameters
+
+#### Returns
+
+`Telerik.Web.UI.RadWindow` 
+
+### get_emailPopup
+
+Returns the email popup object.
+
+#### Parameters
+
+#### Returns
+
+`Telerik.Web.UI.RadWindow` 
+
+### get_fbAppId
+
+Returns the Facebook Application ID.
+
+#### Parameters
+
+#### Returns
+
+`String` 
+
+### get_gaEnabled
+
+Returns value which shows whether Google Analytics is enabled.
+
+#### Parameters
+
+#### Returns
+
+`Boolean` 
 
 ### get_gaID
 
@@ -23,6 +74,80 @@ Returns the web property ID set for Google Analytics support.
 #### Returns
 
 `String` 
+
+### get_hideIframesOnDialogMove
+
+Returns a value which determines whether IFRAMEs are hidden while email or compact popup is being moved.
+
+#### Parameters
+
+#### Returns
+
+`Boolean` 
+
+### get_mainButtons
+
+Returns the array of main buttons.
+
+#### Parameters
+
+#### Returns
+
+`Array` 
+
+### get_titleToShare
+
+Returns the title to share value.
+
+#### Parameters
+
+#### Returns
+
+`String` 
+
+### get_trackerId
+
+Returns the Id of the tracker for the RadSocialShare instance.
+
+#### Parameters
+
+#### Returns
+
+`String` 
+
+### get_urlToShare
+
+Returns the url to share value.
+
+#### Parameters
+
+#### Returns
+
+`String` 
+
+### set_fbAppId
+
+Sets the Facebook Application ID.
+
+#### Parameters
+
+##### value `String`
+
+#### Returns
+
+`None` 
+
+### set_gaID
+
+Sets the web property ID set for Google Analytics support.
+
+#### Parameters
+
+##### value `String`
+
+#### Returns
+
+`None` 
 
 ### set_hideIframesOnDialogMove
 
@@ -50,58 +175,6 @@ Dynamically sets new values for url and title to share.
 
 `None` 
 
-### get_fbAppId
-
-Returns the Facebook Application ID.
-
-#### Parameters
-
-#### Returns
-
-`String` 
-
-### get_compactPopup
-
-Returns the compact popup object.
-
-#### Parameters
-
-#### Returns
-
-`Telerik.Web.UI.RadWindow` 
-
-### get_trackerId
-
-Returns the Id of the tracker for the RadSocialShare instance.
-
-#### Parameters
-
-#### Returns
-
-`String` 
-
-### get_hideIframesOnDialogMove
-
-Returns a value which determines whether IFRAMEs are hidden while email or compact popup is being moved.
-
-#### Parameters
-
-#### Returns
-
-`Boolean` 
-
-### set_fbAppId
-
-Sets the Facebook Application ID.
-
-#### Parameters
-
-##### value `String`
-
-#### Returns
-
-`None` 
-
 ### toggleCompactPopup
 
 Toggles the visibility of the compact popup.
@@ -111,16 +184,6 @@ Toggles the visibility of the compact popup.
 #### Returns
 
 `None` 
-
-### get_mainButtons
-
-Returns the array of main buttons.
-
-#### Parameters
-
-#### Returns
-
-`Array` 
 
 ### toggleEmailPopup
 
@@ -132,67 +195,6 @@ Toggles the visibility of the email popup.
 
 `None` 
 
-### get_emailPopup
-
-Returns the email popup object.
-
-#### Parameters
-
-#### Returns
-
-`Telerik.Web.UI.RadWindow` 
-
-### get_urlToShare
-
-Returns the url to share value.
-
-#### Parameters
-
-#### Returns
-
-`String` 
-
-### get_titleToShare
-
-Returns the title to share value.
-
-#### Parameters
-
-#### Returns
-
-`String` 
-
-### get_compactButtons
-
-Returns the array of compact buttons.
-
-#### Parameters
-
-#### Returns
-
-`Array` 
-
-### set_gaID
-
-Sets the web property ID set for Google Analytics support.
-
-#### Parameters
-
-##### value `String`
-
-#### Returns
-
-`None` 
-
-### get_gaEnabled
-
-Returns value which shows whether Google Analytics is enabled.
-
-#### Parameters
-
-#### Returns
-
-`Boolean` 
 
 ## Events
 
@@ -238,9 +240,9 @@ The instance of the RadSocialShare that fired the event.
 
 The event arguments.
 
-### fbUnLike
+### fbSend
 
-The event fires when the Facebook UnLike button is clicked.
+The event fires when the Facebook Send button is clicked.
 
 #### Event Data
 
@@ -252,9 +254,9 @@ The instance of the RadSocialShare that fired the event.
 
 The event arguments.
 
-### fbSend
+### fbUnLike
 
-The event fires when the Facebook Send button is clicked.
+The event fires when the Facebook UnLike button is clicked.
 
 #### Event Data
 
@@ -321,3 +323,4 @@ The instance of the RadSocialShare that fired the event.
 ##### args `Telerik.Web.UI.SocialShareEventArgs`
 
 The event arguments.
+

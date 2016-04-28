@@ -11,6 +11,7 @@ slug: Telerik.Web.UI.ResourceStyleMapping
 
 * *[Telerik.Web.UI.ResourceStyleMapping]({%slug Telerik.Web.UI.ResourceStyleMapping%})*
 
+
 ## Methods
 
 ###  get_applyCssClass
@@ -23,7 +24,7 @@ Gets the cascading style sheet (CSS) class to render for appointments that use t
 
 `String`  The cascading style sheet 
 
-###  get_key
+### get_key
 
 Gets the unique key of the resource to match.
 
@@ -33,7 +34,7 @@ Gets the unique key of the resource to match.
 
 `String`  The unique key of the resource to match. 
 
-###  get_text
+### get_text
 
 Gets the resource text to match.
 
@@ -43,7 +44,7 @@ Gets the resource text to match.
 
 `String`  The resource text to match. 
 
-###  get_type
+### get_type
 
 Gets the resource type to match.
 
@@ -53,7 +54,7 @@ Gets the resource type to match.
 
 `String`  The resource type to match. 
 
-###  set_applyCssClass
+### set_applyCssClass
 
 Sets the cascading style sheet (CSS) class to render for appointments that use the matching resource.
 
@@ -67,7 +68,7 @@ Sets the cascading style sheet (CSS) class to render for appointments that use t
 
 `None` 
 
-###  set_key
+### set_key
 
 Sets the unique key of the resource to match.
 
@@ -81,7 +82,7 @@ Sets the unique key of the resource to match.
 
 `None` 
 
-###  set_text
+### set_text
 
 Sets the resource text to match.
 
@@ -95,7 +96,7 @@ Sets the resource text to match.
 
 `None` 
 
-###  set_type
+### set_type
 
 Sets the resource type to match.
 
@@ -108,5 +109,6 @@ Sets the resource type to match.
 #### Returns
 
 `None` 
+
 
 

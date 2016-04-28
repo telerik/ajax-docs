@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.RadToolBarSplitButton
 * [Telerik.Web.UI.ControlItemContainer]({%slug Telerik.Web.UI.ControlItemContainer%})
 * *[Telerik.Web.UI.RadToolBarSplitButton]({%slug Telerik.Web.UI.RadToolBarSplitButton%})*
 
+
 ## Methods
 
 ###  blur
@@ -24,7 +25,7 @@ Moves focus off the item to the next element in the tab order.
 
 `None` 
 
-###  click
+### click
 
 Causes server-side button click event to occur
 
@@ -34,7 +35,7 @@ Causes server-side button click event to occur
 
 `None` 
 
-###  disable
+### disable
 
 disables the toolbar item.
 
@@ -44,7 +45,7 @@ disables the toolbar item.
 
 `None` 
 
-###  enable
+### enable
 
 Enables the toolbar item.
 
@@ -54,7 +55,7 @@ Enables the toolbar item.
 
 `None` 
 
-###  focus
+### focus
 
 Moves focus to the item.
 
@@ -64,17 +65,7 @@ Moves focus to the item.
 
 `None` 
 
-###  getDefaultButton
-
-Returns the default button.
-
-#### Parameters
-
-#### Returns
-
-`Telerik.Web.UI.RadToolBarButton` RadToolbarButton
-
-###  get_animationContainer
+### get_animationContainer
 
 Returns the DOM element for the animation container of the item's drop-down list.
 
@@ -84,7 +75,7 @@ Returns the DOM element for the animation container of the item's drop-down list
 
 `Element` HTML element
 
-###  get_arrowElement
+### get_arrowElement
 
 Gets the DOM element for the UL element that lists the arrow elements.
 
@@ -94,7 +85,7 @@ Gets the DOM element for the UL element that lists the arrow elements.
 
 `Element` 
 
-###  get_buttons
+### get_buttons
 
 Returns the collection of buttons in the RadToolbarSplitButtonCollection
 
@@ -104,7 +95,7 @@ Returns the collection of buttons in the RadToolbarSplitButtonCollection
 
 `Telerik.Web.UI.RadToolBarButtonCollection` RadToolBarSplitButtonCollection
 
-###  get_causesValidation
+### get_causesValidation
 
 Gets a value indicating if validation is performed when the RadToolbarSplitButton is clicked.
 
@@ -114,7 +105,7 @@ Gets a value indicating if validation is performed when the RadToolbarSplitButto
 
 `Boolean` boolean
 
-###  get_childListElement
+### get_childListElement
 
 Gets the DOM element for the UL element that lists the toolbar buttons.
 
@@ -124,7 +115,7 @@ Gets the DOM element for the UL element that lists the toolbar buttons.
 
 `Element` HTML element
 
-###  get_clicked
+### get_clicked
 
 True if the item is clicked.
 
@@ -134,7 +125,7 @@ True if the item is clicked.
 
 `Boolean` boolean
 
-###  get_clickedCssClass
+### get_clickedCssClass
 
 Returns the name of the CSS class applied to the button when clicked.
 
@@ -144,7 +135,7 @@ Returns the name of the CSS class applied to the button when clicked.
 
 `String` The value indicating the Css class name
 
-###  get_clickedImageUrl
+### get_clickedImageUrl
 
 Returns the URL of the image when it is clicked.
 
@@ -154,7 +145,7 @@ Returns the URL of the image when it is clicked.
 
 `String` 
 
-###  get_commandArgument
+### get_commandArgument
 
 Returns the value of the CommandArgument property.
 
@@ -164,7 +155,7 @@ Returns the value of the CommandArgument property.
 
 `String` string
 
-###  get_commandName
+### get_commandName
 
 Returns the name of the command associated with the item.
 
@@ -174,7 +165,7 @@ Returns the name of the command associated with the item.
 
 `String` The value indicating the command
 
-###  get_defaultButtonIndex
+### get_defaultButtonIndex
 
 Returns the index of the Default Button.
 
@@ -184,7 +175,7 @@ Returns the index of the Default Button.
 
 `Number` index
 
-###  get_disabledCssClass
+### get_disabledCssClass
 
 Gets the CSS class for the item when it is disabled.
 
@@ -194,7 +185,7 @@ Gets the CSS class for the item when it is disabled.
 
 `String` 
 
-###  get_disabledImageUrl
+### get_disabledImageUrl
 
 Returns the full path to the image of a disabled item
 
@@ -204,7 +195,7 @@ Returns the full path to the image of a disabled item
 
 `String` The value indicating the image url
 
-###  get_dropDownElement
+### get_dropDownElement
 
 Returns the DOM element for the item's drop-down list.
 
@@ -214,7 +205,7 @@ Returns the DOM element for the item's drop-down list.
 
 `Element` HTML element
 
-###  get_dropDownVisible
+### get_dropDownVisible
 
 Returns true if the drop-down is opened.
 
@@ -224,17 +215,7 @@ Returns true if the drop-down is opened.
 
 `Boolean` 
 
-###  get_enableDefaultButton
-
-Gets a value indicating if the RadToolbarSplitButton will use the DefaultButton behaviour.
-
-#### Parameters
-
-#### Returns
-
-`Boolean` boolean
-
-###  get_enabled
+### get_enabled
 
 Gets whether the item is enabled.
 
@@ -244,7 +225,17 @@ Gets whether the item is enabled.
 
 `Boolean` Value indicating whether item is enabled.
 
-###  get_expandDirection
+### get_enableDefaultButton
+
+Gets a value indicating if the RadToolbarSplitButton will use the DefaultButton behaviour.
+
+#### Parameters
+
+#### Returns
+
+`Boolean` boolean
+
+### get_expandDirection
 
 Gets the expand direction of the Toolbar.
 
@@ -254,7 +245,7 @@ Gets the expand direction of the Toolbar.
 
 `Telerik.Web.UI.ExpandDirection` 
 
-###  get_focused
+### get_focused
 
 True if the item is focused.
 
@@ -264,7 +255,7 @@ True if the item is focused.
 
 `Boolean` 
 
-###  get_focusedCssClass
+### get_focusedCssClass
 
 Returns the name of the CSS class applied to the button when on focus.
 
@@ -274,7 +265,7 @@ Returns the name of the CSS class applied to the button when on focus.
 
 `String` The value indicating the Css class name
 
-###  get_focusedImageUrl
+### get_focusedImageUrl
 
 Returns the URL of the image when on focus.
 
@@ -284,7 +275,7 @@ Returns the URL of the image when on focus.
 
 `String` string
 
-###  get_hovered
+### get_hovered
 
 True if the item is hovered.
 
@@ -294,7 +285,7 @@ True if the item is hovered.
 
 `Boolean` boolean
 
-###  get_hoveredCssClass
+### get_hoveredCssClass
 
 Returns the name of the CSS class applied to the button when hovered.
 
@@ -304,7 +295,7 @@ Returns the name of the CSS class applied to the button when hovered.
 
 `String` The value indicating the Css class name
 
-###  get_hoveredImageUrl
+### get_hoveredImageUrl
 
 Returns the URL of the hovered-state image.
 
@@ -314,7 +305,7 @@ Returns the URL of the hovered-state image.
 
 `String` 
 
-###  get_imageElement
+### get_imageElement
 
 Gets the DOM element for the image of the item.
 
@@ -324,7 +315,7 @@ Gets the DOM element for the image of the item.
 
 `Element` HTML element
 
-###  get_imagePosition
+### get_imagePosition
 
 Gets the image position of the toolbar item.
 
@@ -334,7 +325,7 @@ Gets the image position of the toolbar item.
 
 `Telerik.Web.UI.ToolBarImagePosition` 
 
-###  get_imageUrl
+### get_imageUrl
 
 Returns the URL of the image.
 
@@ -344,7 +335,7 @@ Returns the URL of the image.
 
 `String` 
 
-###  get_innerWrapElement
+### get_innerWrapElement
 
 Gets the DOM element for the innermost SPAN that wraps the item.
 
@@ -354,7 +345,7 @@ Gets the DOM element for the innermost SPAN that wraps the item.
 
 `Element` HTML element
 
-###  get_linkElement
+### get_linkElement
 
 Gets the anchor DOM element of the toolbar button.
 
@@ -364,7 +355,7 @@ Gets the anchor DOM element of the toolbar button.
 
 `Element` HTML element
 
-###  get_middleWrapElement
+### get_middleWrapElement
 
 Gets the DOM element for the middle SPAN that wraps the item.
 
@@ -374,7 +365,7 @@ Gets the DOM element for the middle SPAN that wraps the item.
 
 `Element` HTML element
 
-###  get_navigateUrl
+### get_navigateUrl
 
 Gets the Url to which the toolbar button navigates when selected.
 
@@ -384,7 +375,7 @@ Gets the Url to which the toolbar button navigates when selected.
 
 `String` The value indicating the Url
 
-###  get_outerWrapElement
+### get_outerWrapElement
 
 Gets the DOM element for the outermost SPAN that wraps the item.
 
@@ -394,7 +385,7 @@ Gets the DOM element for the outermost SPAN that wraps the item.
 
 `Element` HTML element
 
-###  get_postBack
+### get_postBack
 
 True if postback is enabled, false otherwise.
 
@@ -404,7 +395,7 @@ True if postback is enabled, false otherwise.
 
 `Boolean` boolean
 
-###  get_postBackUrl
+### get_postBackUrl
 
 Gets the Url of the page to post to from the current page.
 
@@ -414,7 +405,7 @@ Gets the Url of the page to post to from the current page.
 
 `String` the page Url
 
-###  get_target
+### get_target
 
 Gets the target of the item. If a target is not set, returns null.
 
@@ -424,7 +415,7 @@ Gets the target of the item. If a target is not set, returns null.
 
 `String` The value indicating the name of the target
 
-###  get_text
+### get_text
 
 Returns the text of the item.
 
@@ -434,7 +425,7 @@ Returns the text of the item.
 
 `String` string
 
-###  get_textElement
+### get_textElement
 
 Gets the DOM element for the text of the item.
 
@@ -444,7 +435,7 @@ Gets the DOM element for the text of the item.
 
 `Element` HTML element
 
-###  get_toolBar
+### get_toolBar
 
 Returns the toolbar to which the item belongs.
 
@@ -454,7 +445,7 @@ Returns the toolbar to which the item belongs.
 
 `Telerik.Web.UI.RadToolBar` RadToolBar
 
-###  get_toolTip
+### get_toolTip
 
 Returns the text of the item's tool tip.
 
@@ -464,7 +455,7 @@ Returns the text of the item's tool tip.
 
 `String` 
 
-###  get_validationGroup
+### get_validationGroup
 
 Gets the name of the validation group to which the RadToolbarSplitButton belongs.
 
@@ -474,7 +465,7 @@ Gets the name of the validation group to which the RadToolbarSplitButton belongs
 
 `String` The name of the validation group
 
-###  get_value
+### get_value
 
 Returns the value of the item.
 
@@ -484,7 +475,7 @@ Returns the value of the item.
 
 `String` 
 
-###  get_visible
+### get_visible
 
 True if the item is visible.
 
@@ -494,7 +485,17 @@ True if the item is visible.
 
 `Boolean` boolean
 
-###  hide
+### getDefaultButton
+
+Returns the default button.
+
+#### Parameters
+
+#### Returns
+
+`Telerik.Web.UI.RadToolBarButton` RadToolbarButton
+
+### hide
 
 Hides the toolbar item.
 
@@ -504,7 +505,7 @@ Hides the toolbar item.
 
 `None` 
 
-###  hideDropDown
+### hideDropDown
 
 Closes the drop-down list.
 
@@ -514,7 +515,7 @@ Closes the drop-down list.
 
 `None` 
 
-###  set_causesValidation
+### set_causesValidation
 
 Gets a value indicating if validation is performed when the RadToolbarSplitButton is clicked.
 
@@ -528,7 +529,7 @@ value
 
 `None` 
 
-###  set_clickedCssClass
+### set_clickedCssClass
 
 Sets the name of the CSS class to be applied to the button when clicked.
 
@@ -542,7 +543,7 @@ value
 
 `None` 
 
-###  set_clickedImageUrl
+### set_clickedImageUrl
 
 Sets the URL of the image when it is clicked.
 
@@ -556,7 +557,7 @@ value
 
 `None` 
 
-###  set_commandArgument
+### set_commandArgument
 
 Sets the value of the CommandArgument property.
 
@@ -570,7 +571,7 @@ value
 
 `None` 
 
-###  set_commandName
+### set_commandName
 
 Sets the name of the command associated with the item.
 
@@ -584,7 +585,7 @@ value
 
 `None` 
 
-###  set_defaultButtonIndex
+### set_defaultButtonIndex
 
 Sets the value indicating the index of the Default Button.
 
@@ -598,7 +599,7 @@ value
 
 `None` 
 
-###  set_disabledCssClass
+### set_disabledCssClass
 
 Sets the CSS class for the item when it is disabled.
 
@@ -612,7 +613,7 @@ value
 
 `None` 
 
-###  set_disabledImageUrl
+### set_disabledImageUrl
 
 Sets the DisabledImageUrl property of the item
 
@@ -626,21 +627,7 @@ value
 
 `None` 
 
-###  set_enableDefaultButton
-
-Sets a value indicating if the RadToolbarSplitButton will use the DefaultButton behaviour.
-
-#### Parameters
-
-##### value `Boolean`
-
-value
-
-#### Returns
-
-`None` 
-
-###  set_enabled
+### set_enabled
 
 Sets whether the item is enabled.
 
@@ -654,7 +641,21 @@ value
 
 `None` 
 
-###  set_expandDirection
+### set_enableDefaultButton
+
+Sets a value indicating if the RadToolbarSplitButton will use the DefaultButton behaviour.
+
+#### Parameters
+
+##### value `Boolean`
+
+value
+
+#### Returns
+
+`None` 
+
+### set_expandDirection
 
 Sets the expand direction of the Toolbar.
 
@@ -666,7 +667,7 @@ Sets the expand direction of the Toolbar.
 
 `None` 
 
-###  set_focused
+### set_focused
 
 Sets if the item is focused.
 
@@ -680,7 +681,7 @@ value
 
 `None` 
 
-###  set_focusedCssClass
+### set_focusedCssClass
 
 Sets the name of the CSS class to be applied to the button when on focus.
 
@@ -694,7 +695,7 @@ value
 
 `None` 
 
-###  set_focusedImageUrl
+### set_focusedImageUrl
 
 Sets the URL of the image when on focus.
 
@@ -708,7 +709,7 @@ value
 
 `None` 
 
-###  set_hoveredCssClass
+### set_hoveredCssClass
 
 Sets the name of the CSS class to be applied to the button when hovered.
 
@@ -722,7 +723,7 @@ value
 
 `None` 
 
-###  set_hoveredImageUrl
+### set_hoveredImageUrl
 
 Sets the URL for the hovered-state image.
 
@@ -736,7 +737,7 @@ value
 
 `None` 
 
-###  set_imagePosition
+### set_imagePosition
 
 Sets the image position of the toolbar item.
 
@@ -748,7 +749,7 @@ Sets the image position of the toolbar item.
 
 `None` 
 
-###  set_imageUrl
+### set_imageUrl
 
 Sets the URL for the image.
 
@@ -762,7 +763,7 @@ value
 
 `None` 
 
-###  set_navigateUrl
+### set_navigateUrl
 
 Sets the URL to which the toolbar button navigates when selected.
 
@@ -776,7 +777,7 @@ value
 
 `None` 
 
-###  set_postBack
+### set_postBack
 
 Determines if the Node should postback.
 
@@ -790,7 +791,7 @@ value
 
 `None` 
 
-###  set_postBackUrl
+### set_postBackUrl
 
 Sets the Url of the page to post to from the current page.
 
@@ -804,7 +805,7 @@ value
 
 `None` 
 
-###  set_target
+### set_target
 
 Sets the target of the Node.
 
@@ -818,7 +819,7 @@ value
 
 `None` 
 
-###  set_text
+### set_text
 
 Sets the text of the item.
 
@@ -832,7 +833,7 @@ text
 
 `None` 
 
-###  set_toolTip
+### set_toolTip
 
 Sets the text of the item's tool tip.
 
@@ -846,7 +847,7 @@ value
 
 `None` 
 
-###  set_validationGroup
+### set_validationGroup
 
 Sets the name of the validation group to which the RadToolbarSplitButton belongs.
 
@@ -860,7 +861,7 @@ value
 
 `None` 
 
-###  set_value
+### set_value
 
 Sets the value of the item.
 
@@ -872,7 +873,7 @@ Sets the value of the item.
 
 `None` 
 
-###  set_visible
+### set_visible
 
 Sets if the item is visible.
 
@@ -886,7 +887,7 @@ value
 
 `None` 
 
-###  show
+### show
 
 Shows the toolbar item.
 
@@ -896,7 +897,7 @@ Shows the toolbar item.
 
 `None` 
 
-###  showDropDown
+### showDropDown
 
 Opens the drop-down list.
 
@@ -905,5 +906,6 @@ Opens the drop-down list.
 #### Returns
 
 `None` 
+
 
 

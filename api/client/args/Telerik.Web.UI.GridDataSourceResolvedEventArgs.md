@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.GridDataSourceResolvedEventArgs
 * Sys.EventArgs
 * *[Telerik.Web.UI.GridDataSourceResolvedEventArgs]({%slug Telerik.Web.UI.GridDataSourceResolvedEventArgs%})*
 
+
 ## Methods
 
 ###  get_data
@@ -24,7 +25,7 @@ Returns the data retrieved from the page method or web service.
 
 `Array` 
 
-###  set_data
+### set_data
 
 Sets the data which the RadGrid instance will be bound to.
 
@@ -35,5 +36,6 @@ Sets the data which the RadGrid instance will be bound to.
 #### Returns
 
 `None` 
+
 
 

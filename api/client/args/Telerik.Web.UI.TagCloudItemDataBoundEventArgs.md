@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.TagCloudItemDataBoundEventArgs
 * Sys.EventArgs
 * *[Telerik.Web.UI.TagCloudItemDataBoundEventArgs]({%slug Telerik.Web.UI.TagCloudItemDataBoundEventArgs%})*
 
+
 ## Methods
 
 ###  get_item
@@ -24,7 +25,7 @@ Returns the client-side object of the clicked item.
 
 `Telerik.Web.UI.RadTagCloudItem` 
 
-###  get_dataItem
+### get_dataItem
 
 Returns the fetched client-side object bound to the item. 
 
@@ -33,3 +34,4 @@ Returns the fetched client-side object bound to the item.
 #### Returns
 
 `Object` 
+

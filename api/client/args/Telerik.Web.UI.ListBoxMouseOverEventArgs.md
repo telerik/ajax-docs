@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.ListBoxMouseOverEventArgs
 * Sys.EventArgs
 * *[Telerik.Web.UI.ListBoxMouseOverEventArgs]({%slug Telerik.Web.UI.ListBoxMouseOverEventArgs%})*
 
+
 ## Methods
 
 ###  get_item
@@ -25,7 +26,7 @@ Returns a reference to the currently hovered item.
 `Telerik.Web.UI.RadListBoxItem` the currently hovered item
 
 
-###  get_domEvent
+### get_domEvent
 
 Returns the Sys.UI.DomEvent instance associated to the raised event.
 
@@ -34,4 +35,5 @@ Returns the Sys.UI.DomEvent instance associated to the raised event.
 #### Returns
 
 `Sys.UI.DomEvent` 
+
 

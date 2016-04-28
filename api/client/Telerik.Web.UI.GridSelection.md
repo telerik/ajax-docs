@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.GridSelection
 * Sys.Component
 * *[Telerik.Web.UI.GridSelection]({%slug Telerik.Web.UI.GridSelection%})*
 
+
 ## Methods
 
 ###  get_owner
@@ -24,7 +25,7 @@ Get the owner.
 
 `Telerik.Web.UI.RadGrid` 
 
-###  set_owner
+### set_owner
 
 Sets the owner.
 
@@ -35,5 +36,6 @@ Sets the owner.
 #### Returns
 
 `None` 
+
 
 

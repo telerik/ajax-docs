@@ -11,3 +11,4 @@ slug: Telerik.Web.UI.RadMenuItemOpenedEventArgs
 
 * [Telerik.Web.UI.RadMenuItemEventArgs]({%slug Telerik.Web.UI.RadMenuItemEventArgs%})
 * *[Telerik.Web.UI.RadMenuItemOpenedEventArgs]({%slug Telerik.Web.UI.RadMenuItemOpenedEventArgs%})*
+

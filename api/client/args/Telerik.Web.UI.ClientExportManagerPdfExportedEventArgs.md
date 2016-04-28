@@ -12,3 +12,4 @@ slug: Telerik.Web.UI.ClientExportManagerPdfExportedEventArgs
 * Sys.EventArgs
 * *[Telerik.Web.UI.ClientExportManagerPdfExportedEventArgs]({%slug Telerik.Web.UI.ClientExportManagerPdfExportedEventArgs%})*
 
+

@@ -12,1390 +12,10 @@ slug: Telerik.Web.UI.Editor.CommandList
 
 * *[Telerik.Web.UI.Editor.CommandList]({%slug Telerik.Web.UI.Editor.CommandList%})*
 
+
 ## Methods
 
-### static AjaxSpellCheck
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static ToggleScreenMode 
-
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static InsertRowBelow 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static InsertRowAbove 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static InsertColumnRight 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static InsertColumnLeft 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static DeleteRow 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static DeleteColumn 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static DeleteCell 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static MergeColumns 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static MergeRows 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static SplitCell 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static SplitCellHorizontal 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static DeleteTable 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static InsertFormText 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static InsertFormTextarea 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static InsertFormSubmit 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static InsertFormReset 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static InsertFormRadio 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static InsertFormPassword 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static InsertFormImageButton 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static InsertFormHidden 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None`
-
-### static InsertFormCheckbox 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static InsertFormButton 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static InsertFormForm 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static StripWord 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static StripSpan 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static StripFont 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static StripCss 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static StripAll 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static FormatStripper 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None`
-
-### static InsertTable 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static InsertShiftTab 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static InsertTabMozilla 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static InsertTab 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static SetToolFocus 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static Redo 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static Undo 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static PastePlainTextWithTable 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static CopyFromEditor 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static PastePlainText 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static PasteAsHtml 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static PasteFromWordNoFontsNoSizes 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static PasteFromWord 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static PasteMarkdown 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static PasteHtml 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static Copy 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static Paste 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static Cut 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static InsertParagraph 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static InsertParagraphSafari 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static FormatBlock 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static FormatSets 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static FormatPainterApply 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static FormatPainterCopy 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static FormatPainterClear 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static InsertUnorderedList 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static InsertOrderedList 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static Indent 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static Outdent 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static ForeColor 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static BackColor 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static FontName 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static RealFontSize 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static StrikeThrough 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static Superscript 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static Subscript 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static Underline 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static Italic 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static Bold 
+### static AboutDialog 
 
 #### Parameters
 
@@ -1435,7 +55,7 @@ The command arguments.
 
 `None` 
 
-### static Unlink 
+### static AjaxSpellCheck
 
 #### Parameters
 
@@ -1455,7 +75,7 @@ The command arguments.
 
 `None` 
 
-### static SelectAll 
+### static ApplyClass 
 
 #### Parameters
 
@@ -1475,7 +95,7 @@ The command arguments.
 
 `None` 
 
-### static JustifyFull 
+### static BackColor 
 
 #### Parameters
 
@@ -1495,7 +115,7 @@ The command arguments.
 
 `None` 
 
-### static JustifyNone 
+### static Bold 
 
 #### Parameters
 
@@ -1515,7 +135,9 @@ The command arguments.
 
 `None` 
 
-### static JustifyCenter 
+### static BottomCenterCellAlign 
+
+Aligns the Selected Cell to Bottom-Center
 
 #### Parameters
 
@@ -1535,7 +157,9 @@ The command arguments.
 
 `None` 
 
-### static JustifyRight 
+### static BottomLeftCellAlign 
+
+Aligns the Selected Cell to Bottom-Left
 
 #### Parameters
 
@@ -1555,7 +179,9 @@ The command arguments.
 
 `None` 
 
-### static JustifyLeft 
+### static BottomRightCellAlign 
+
+Aligns the Selected Cell to Bottom-Right
 
 #### Parameters
 
@@ -1575,787 +201,9 @@ The command arguments.
 
 `None` 
 
-### static FontSize 
+### static CellBorder 
 
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static Zoom 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static Print 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static InsertSnippet 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static InsertFormElement 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static InsertHorizontalRule 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static InsertSymbol 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static InsertTime 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static InsertDate 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static InsertGroupbox 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static ImageManager 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static MediaManager 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static FlashManager 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static SilverlightManager 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static TemplateManager 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static AboutDialog 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static Help 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static PageProperties 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static ImageMapDialog 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static TableWizard 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static InsertFormSelect 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static SetTableProperties 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static InsertTableLight 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static SetCellProperties 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static FindAndReplace 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static StyleBuilder 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static XhtmlValidator 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static TrackChangesDialog 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static InsertCustomLink 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static LinkManager 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static SetLinkProperties 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static DocumentManager 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static InsertLink 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static SetImageProperties 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static InsertImage 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static InsertExternalVideo 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static FormatCodeBlock 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static EnterParagraphMozilla 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static EnterNewLine 
-
-#### Parameters
-
-##### commandName `String`
-
-The command name
-
-##### editor `Telerik.Web.UI.RadEditor`
-
-The RadEditor instance triggered the command.
-
-##### args `Telerik.Web.UI.EditorCommandEventArgs`
-
-The command arguments.
-
-#### Returns
-
-`None` 
-
-### static ToggleTableBorder 
+Sets Border of the Selected Cell
 
 #### Parameters
 
@@ -2415,7 +263,7 @@ The command arguments.
 
 `None` 
 
-### static ApplyClass 
+### static Copy 
 
 #### Parameters
 
@@ -2435,7 +283,7 @@ The command arguments.
 
 `None` 
 
-### static ToggleEditMode 
+### static CopyFromEditor 
 
 #### Parameters
 
@@ -2455,9 +303,7 @@ The command arguments.
 
 `None` 
 
-### static MobileEdit 
-
-Toggles the ToolZone in RadEditor with Phone Layout
+### static Cut 
 
 #### Parameters
 
@@ -2477,9 +323,7 @@ The command arguments.
 
 `None` 
 
-### static ImageSizeMargins 
-
-Sets the Size and Margins of the Selected Image
+### static DeleteCell 
 
 #### Parameters
 
@@ -2499,9 +343,7 @@ The command arguments.
 
 `None` 
 
-### static OpenLink 
-
-Opens the Selected Link
+### static DeleteColumn 
 
 #### Parameters
 
@@ -2521,9 +363,7 @@ The command arguments.
 
 `None` 
 
-### static TopLeftCellAlign 
-
-Aligns the Selected Cell to Top-Left
+### static DeleteRow 
 
 #### Parameters
 
@@ -2543,9 +383,7 @@ The command arguments.
 
 `None` 
 
-### static TopCenterCellAlign 
-
-Aligns the Selected Cell to Top-Center
+### static DeleteTable 
 
 #### Parameters
 
@@ -2565,9 +403,7 @@ The command arguments.
 
 `None` 
 
-### static TopRightCellAlign 
-
-Aligns the Selected Cell to Top-Right
+### static DocumentManager 
 
 #### Parameters
 
@@ -2587,9 +423,7 @@ The command arguments.
 
 `None` 
 
-### static MiddleLeftCellAlign 
-
-Aligns the Selected Cell to Middle-Left
+### static EnterNewLine 
 
 #### Parameters
 
@@ -2609,9 +443,7 @@ The command arguments.
 
 `None` 
 
-### static MiddleCenterCellAlign 
-
-Aligns the Selected Cell to Middle-Center
+### static EnterParagraphMozilla 
 
 #### Parameters
 
@@ -2631,9 +463,7 @@ The command arguments.
 
 `None` 
 
-### static MiddleRightCellAlign 
-
-Aligns the Selected Cell to Middle-Right
+### static FindAndReplace 
 
 #### Parameters
 
@@ -2653,9 +483,7 @@ The command arguments.
 
 `None` 
 
-### static BottomLeftCellAlign 
-
-Aligns the Selected Cell to Bottom-Left
+### static FlashManager 
 
 #### Parameters
 
@@ -2675,9 +503,7 @@ The command arguments.
 
 `None` 
 
-### static BottomCenterCellAlign 
-
-Aligns the Selected Cell to Bottom-Center
+### static FontName 
 
 #### Parameters
 
@@ -2697,9 +523,7 @@ The command arguments.
 
 `None` 
 
-### static BottomRightCellAlign 
-
-Aligns the Selected Cell to Bottom-Right
+### static FontSize 
 
 #### Parameters
 
@@ -2719,9 +543,167 @@ The command arguments.
 
 `None` 
 
-### static NoCellAlign 
+### static ForeColor 
 
-Removes the Alignment of the Selected Cell
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static FormatBlock 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static FormatCodeBlock 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static FormatPainterApply 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static FormatPainterClear 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static FormatPainterCopy 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static FormatSets 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static FormatStripper 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None`
+
+### static Help 
 
 #### Parameters
 
@@ -2763,9 +745,7 @@ The command arguments.
 
 `None` 
 
-### static CellBorder 
-
-Sets Border of the Selected Cell
+### static ImageManager 
 
 #### Parameters
 
@@ -2785,9 +765,1078 @@ The command arguments.
 
 `None` 
 
-### static TableBorder 
+### static ImageMapDialog 
 
-Sets Border of the Selected Table
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static ImageSizeMargins 
+
+Sets the Size and Margins of the Selected Image
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static Indent 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static InsertColumnLeft 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static InsertColumnRight 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static InsertCustomLink 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static InsertDate 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static InsertExternalVideo 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static InsertFormButton 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static InsertFormCheckbox 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static InsertFormElement 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static InsertFormForm 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static InsertFormHidden 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None`
+
+### static InsertFormImageButton 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static InsertFormPassword 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static InsertFormRadio 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static InsertFormReset 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static InsertFormSelect 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static InsertFormSubmit 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static InsertFormText 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static InsertFormTextarea 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static InsertGroupbox 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static InsertHorizontalRule 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static InsertImage 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static InsertLink 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static InsertOrderedList 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static InsertParagraph 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static InsertParagraphSafari 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static InsertRowAbove 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static InsertRowBelow 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static InsertShiftTab 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static InsertSnippet 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static InsertSymbol 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static InsertTab 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static InsertTable 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static InsertTableDialog 
+
+Inserts a Table in RadEditor
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+### static InsertTableLight 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static InsertTabMozilla 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static InsertTime 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static InsertUnorderedList 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static Italic 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static JustifyCenter 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static JustifyFull 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static JustifyLeft 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static JustifyNone 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static JustifyRight 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static LinkManager 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static MediaManager 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static MergeColumns 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static MergeRows 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static MiddleCenterCellAlign 
+
+Aligns the Selected Cell to Middle-Center
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static MiddleLeftCellAlign 
+
+Aligns the Selected Cell to Middle-Left
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static MiddleRightCellAlign 
+
+Aligns the Selected Cell to Middle-Right
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static MobileEdit 
+
+Toggles the ToolZone in RadEditor with Phone Layout
 
 #### Parameters
 
@@ -2829,9 +1878,9 @@ The command arguments.
 
 `None` 
 
-### static InsertTableDialog 
+### static NoCellAlign 
 
-Inserts a Table in RadEditor
+Removes the Alignment of the Selected Cell
 
 #### Parameters
 
@@ -2850,3 +1899,956 @@ The command arguments.
 #### Returns
 
 `None` 
+
+### static OpenLink 
+
+Opens the Selected Link
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static Outdent 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static PageProperties 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static Paste 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static PasteAsHtml 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static PasteFromWord 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static PasteFromWordNoFontsNoSizes 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static PasteHtml 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static PasteMarkdown 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static PastePlainText 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static PastePlainTextWithTable 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static Print 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static RealFontSize 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static Redo 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static SelectAll 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static SetCellProperties 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static SetImageProperties 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static SetLinkProperties 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static SetTableProperties 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static SetToolFocus 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static SilverlightManager 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static SplitCell 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static SplitCellHorizontal 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static StrikeThrough 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static StripAll 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static StripCss 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static StripFont 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static StripSpan 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static StripWord 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static StyleBuilder 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static Subscript 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static Superscript 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static TableBorder 
+
+Sets Border of the Selected Table
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static TableWizard 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static TemplateManager 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static ToggleEditMode 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static ToggleScreenMode 
+
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static ToggleTableBorder 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static TopCenterCellAlign 
+
+Aligns the Selected Cell to Top-Center
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static TopLeftCellAlign 
+
+Aligns the Selected Cell to Top-Left
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static TopRightCellAlign 
+
+Aligns the Selected Cell to Top-Right
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static TrackChangesDialog 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static Underline 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static Undo 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static Unlink 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static XhtmlValidator 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+### static Zoom 
+
+#### Parameters
+
+##### commandName `String`
+
+The command name
+
+##### editor `Telerik.Web.UI.RadEditor`
+
+The RadEditor instance triggered the command.
+
+##### args `Telerik.Web.UI.EditorCommandEventArgs`
+
+The command arguments.
+
+#### Returns
+
+`None` 
+
+

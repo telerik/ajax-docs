@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.ButtonCheckedEventArgs
 * [Telerik.Web.UI.ButtonEventArgs]({%slug Telerik.Web.UI.ButtonEventArgs%})
 * *[Telerik.Web.UI.ButtonCheckedEventArgs]({%slug Telerik.Web.UI.ButtonCheckedEventArgs%})*
 
+
 ## Methods
 
 ###  get_checked
@@ -24,7 +25,17 @@ Returns a boolean value that indicates whether the button is checked.
 
 `Boolean` 
 
-###  set_checked
+### get_toggleType
+
+Returns the ButtonToggleType of the RadButton.
+
+#### Parameters
+
+#### Returns
+
+`Telerik.Web.UI.ButtonToggleType` 
+
+### set_checked
 
 Gets the string passed in the initial AJAX request.
 
@@ -39,17 +50,7 @@ Sets a boolean value that indicates whether the button will be checked.
 `None`
 
  
-###  get_toggleType
-
-Returns the ButtonToggleType of the RadButton.
-
-#### Parameters
-
-#### Returns
-
-`Telerik.Web.UI.ButtonToggleType` 
-
-###  set_toggleType
+### set_toggleType
 
 Sets the ButtonToggleType of the RadButton.
 
@@ -62,5 +63,6 @@ The new ButtonToggleType type.
 #### Returns
 
 `None` 
+
 
 

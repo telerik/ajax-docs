@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.RadMenuItemCollection
 * [Telerik.Web.UI.ControlItemCollection]({%slug Telerik.Web.UI.ControlItemCollection%})
 * *[Telerik.Web.UI.RadMenuItemCollection]({%slug Telerik.Web.UI.RadMenuItemCollection%})*
 
+
 ## Methods
 
 ###  add
@@ -28,7 +29,7 @@ item
 
 `None` 
 
-###  clear
+### clear
 
 Clears the collection of all the child items it contains.
 
@@ -38,7 +39,7 @@ Clears the collection of all the child items it contains.
 
 `None` 
 
-###  forEach
+### forEach
 
 Iterates through the items of the RadMenuItemCollection using labmda expression
 
@@ -52,7 +53,17 @@ lambda
 
 `None` 
 
-###  getItem
+### get_count
+
+Returns the number of the items in the collection.
+
+#### Parameters
+
+#### Returns
+
+`Number` int
+
+### getItem
 
 Returns the item from the collection that resides at the specified index.
 
@@ -66,17 +77,7 @@ index
 
 `Telerik.Web.UI.RadMenuItem` RadMenuItem
 
-###  get_count
-
-Returns the number of the items in the collection.
-
-#### Parameters
-
-#### Returns
-
-`Number` int
-
-###  indexOf
+### indexOf
 
 Returns the index of a the item in the collection.
 
@@ -90,7 +91,7 @@ item
 
 `Number` int
 
-###  insert
+### insert
 
 Inserts the item into the collection at the position defined by the first (index) parameter.
 
@@ -108,7 +109,7 @@ item
 
 `None` 
 
-###  remove
+### remove
 
 Removes the specified item from the collection.
 
@@ -122,7 +123,7 @@ item
 
 `None` 
 
-###  removeAt
+### removeAt
 
 Removes the item at the specified index.
 
@@ -135,5 +136,6 @@ index
 #### Returns
 
 `None` 
+
 
 

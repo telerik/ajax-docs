@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.ImageEditor.SavedEventArgs
 * Sys.EventArgs
 * *[Telerik.Web.UI.ImageEditor.SavedEventArgs]({%slug Telerik.Web.UI.ImageEditor.SavedEventArgs%})*
 
+
 ## Methods
 
 ###  get_fileName
@@ -24,17 +25,7 @@ Returns the current ImageOperation client object.
 
 `Telerik.Web.UI.ImageEditor.ImageOperation`
 
-###  get_isSaved
-
-Returns the image saving result.
-
-#### Parameters
-
-#### Returns
-
-`Boolean`
-
-###  get_argument
+### get_argument
 
 Returns the argument passed through the server-side ImageSaving event.
 
@@ -44,7 +35,17 @@ Returns the argument passed through the server-side ImageSaving event.
 
 `String`
 
-###  get_message
+### get_isSaved
+
+Returns the image saving result.
+
+#### Parameters
+
+#### Returns
+
+`Boolean`
+
+### get_message
 
 Returns the save action applied on the image.
 
@@ -53,4 +54,5 @@ Returns the save action applied on the image.
 #### Returns
 
 `String` The possible values for the save action are "SaveClient", "SaveServer" and "ApplyChanges".
+
 

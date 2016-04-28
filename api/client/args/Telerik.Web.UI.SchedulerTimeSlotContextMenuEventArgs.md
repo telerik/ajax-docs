@@ -12,38 +12,18 @@ slug: Telerik.Web.UI.SchedulerTimeSlotContextMenuEventArgs
 * Sys.EventArgs
 * *[Telerik.Web.UI.SchedulerTimeSlotContextMenuEventArgs]({%slug Telerik.Web.UI.SchedulerTimeSlotContextMenuEventArgs%})*
 
+
 ## Methods
 
-### get_time
+### get_domEvent
 
-Returns the time on which the user right-clicks in the Time Slot.
-
-#### Parameters
-
-#### Returns
-
-`Date`
-
-### get_targetSlot
-
-Returns the instance of the time slot on which the user right-clicks.
+returns a reference to the DOM event that caused the opening.
 
 #### Parameters
 
 #### Returns
 
-`Telerik.Web.UI.ISchedulerTimeSlot`
-
-### get_startSlot
-
-Returns the instance of the first time slot in the slot selection.
-
-#### Parameters
-
-#### Returns
-
-`Telerik.Web.UI.ISchedulerTimeSlot`
-
+`Sys.UI.DomEvent`
 ### get_endSlot
 
 Returns the instance of the last time slot in the slot selection.
@@ -64,12 +44,34 @@ Returns True if the Time Slot is the 'All Day' slot (Day and Week View only) or 
 
 `Boolean`
 
-###  get_domEvent
+### get_startSlot
 
-returns a reference to the DOM event that caused the opening.
+Returns the instance of the first time slot in the slot selection.
 
 #### Parameters
 
 #### Returns
 
-`Sys.UI.DomEvent`
+`Telerik.Web.UI.ISchedulerTimeSlot`
+
+### get_targetSlot
+
+Returns the instance of the time slot on which the user right-clicks.
+
+#### Parameters
+
+#### Returns
+
+`Telerik.Web.UI.ISchedulerTimeSlot`
+
+### get_time
+
+Returns the time on which the user right-clicks in the Time Slot.
+
+#### Parameters
+
+#### Returns
+
+`Date`
+
+

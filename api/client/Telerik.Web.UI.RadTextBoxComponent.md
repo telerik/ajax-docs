@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.RadTextBoxComponent
 * Sys.Component
 * *[Telerik.Web.UI.RadTextBoxComponent]({%slug Telerik.Web.UI.RadTextBoxComponent%})*
 
+
 ## Methods
 
 ###  get_targetInput
@@ -25,5 +26,6 @@ Gets the target input of RadTextBoxComponent
 #### Returns
 
 `Element` 
+
 
 

@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.TimeViewSelectedEventArgs
 * Sys.EventArgs
 * *[Telerik.Web.UI.TimeViewSelectedEventArgs]({%slug Telerik.Web.UI.TimeViewSelectedEventArgs%})*
 
+
 ## Methods
 
 ###  get_newTime
@@ -24,7 +25,7 @@ Returns the newly selected time value.
 
 `Date` 
 
-###  get_oldTime
+### get_oldTime
 
 Returns the time before the user selected a new time value.
 
@@ -33,5 +34,6 @@ Returns the time before the user selected a new time value.
 #### Returns
 
 `Date` 
+
 
 

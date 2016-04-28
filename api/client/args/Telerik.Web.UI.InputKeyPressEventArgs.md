@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.InputKeyPressEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.InputKeyPressEventArgs]({%slug Telerik.Web.UI.InputKeyPressEventArgs%})*
 
+
 ## Methods
 
 ###  get_domEvent
@@ -24,7 +25,7 @@ Returns the DOM event object for the key press.
 
 `Sys.UI.DomEvent` 
 
-###  get_keyCharacter
+### get_keyCharacter
 
 Returns the character that is about to be entered into the input control in response to the key press. 
 
@@ -34,7 +35,7 @@ Returns the character that is about to be entered into the input control in resp
 
 `String` 
 
-###  get_keyCode
+### get_keyCode
 
 Returns the key code for the key that was pressed.
 
@@ -43,5 +44,6 @@ Returns the key code for the key that was pressed.
 #### Returns
 
 `Number` 
+
 
 

@@ -11,6 +11,7 @@ slug: Telerik.Web.UI.ClientDataSource.FilterEntry
 
 * *[Telerik.Web.UI.ClientDataSource.FilterEntry]({%slug Telerik.Web.UI.ClientDataSource.FilterEntry%})*
 
+
 ## Methods
 
 ###  get_operator
@@ -23,7 +24,7 @@ none
 
 `None` 
 
-###  set_operator
+### get_value
 
 Telerik.Web.UI.ClientDataSource.FilterOperator
 
@@ -33,7 +34,7 @@ Telerik.Web.UI.ClientDataSource.FilterOperator
 
 `None` 
 
-###  get_value
+### set_operator
 
 Telerik.Web.UI.ClientDataSource.FilterOperator
 
@@ -43,7 +44,7 @@ Telerik.Web.UI.ClientDataSource.FilterOperator
 
 `None` 
 
-###  set_value
+### set_value
 
 string
 
@@ -52,5 +53,6 @@ string
 #### Returns
 
 `None` 
+
 
 

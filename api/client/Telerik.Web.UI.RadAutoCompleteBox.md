@@ -12,11 +12,22 @@ slug: Telerik.Web.UI.RadAutoCompleteBox
 * [Telerik.Web.UI.RadWebControl]({%slug Telerik.Web.UI.RadWebControl%})
 * *[Telerik.Web.UI.RadAutoCompleteBox]({%slug Telerik.Web.UI.RadAutoCompleteBox%})*
 
+
 ## Methods
 
-### trackChanges
+### clear
 
-Starts tracking changes made to the RadAutoCompleteBox that will be preserved over post-backs.
+Clears the data in control dropdown.
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### commitChanges
+
+Commits the changes made to the RadAutoCompleteBox that will be preserved over post-backs.
 
 #### Parameters
 
@@ -52,36 +63,6 @@ Disables the control.
 
 `None` 
 
-### get_isUsingODataSource
-
-Gets a value indicating whether OData Source is used.
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-### get_emptyMessage
-
-Gets the empty message text.
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-### get_text
-
-Gets entries texts.
-
-#### Parameters
-
-#### Returns
-
-`String` The entries texts.
-
 ### enable
 
 Enables the control.
@@ -92,6 +73,16 @@ Enables the control.
 
 `None` 
 
+### get_bindingMode
+
+Gets the binding mode.
+
+#### Parameters
+
+#### Returns
+
+`String` The binding mode type.
+
 ### get_dropDownElement
 
 Gets a the dropDown element.
@@ -101,6 +92,16 @@ Gets a the dropDown element.
 #### Returns
 
 `Element` The dropDown element.
+
+### get_emptyMessage
+
+Gets the empty message text.
+
+#### Parameters
+
+#### Returns
+
+`None` 
 
 ### get_entries
 
@@ -122,6 +123,16 @@ Gets a the input element.
 
 `Element` The input element.
 
+### get_isUsingODataSource
+
+Gets a value indicating whether OData Source is used.
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
 ### get_searchString
 
 Gets the string used for requesting data
@@ -132,6 +143,16 @@ Gets the string used for requesting data
 
 `None` 
 
+### get_text
+
+Gets entries texts.
+
+#### Parameters
+
+#### Returns
+
+`String` The entries texts.
+
 ### get_webServiceSettings
 
 Gets an object containing Web Service settings.
@@ -141,36 +162,6 @@ Gets an object containing Web Service settings.
 #### Returns
 
 `Telerik.Web.UI.WebServiceSettings` 
-
-### clear
-
-Clears the data in control dropdown.
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-### get_bindingMode
-
-Gets the binding mode.
-
-#### Parameters
-
-#### Returns
-
-`String` The binding mode type.
-
-### commitChanges
-
-Commits the changes made to the RadAutoCompleteBox that will be preserved over post-backs.
-
-#### Parameters
-
-#### Returns
-
-`None` 
 
 ### query
 
@@ -184,25 +175,22 @@ Sends request to the server against the value passed as an argument.
 
 `Object` 
 
+### trackChanges
+
+Starts tracking changes made to the RadAutoCompleteBox that will be preserved over post-backs.
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+
 ## Events
 
-### load
+### dropDownClosed
 
-This event is fired when the client RadAutoCompleteBox object is loaded.
-
-#### Event Data
-
-#####  sender `Telerik.Web.UI.RadAutoCompleteBox`
-
-The instance of the RadAutoCompleteBox raised the event.
-
-##### args `Sys.EventArgs`
-
-Empty event args
-
-### dropDownItemDataBound
-
-This event is fired for each item that is created during a request to a Web service.
+This event is fired  immediately after the drop-down container is closed.
 
 #### Event Data
 
@@ -210,35 +198,7 @@ This event is fired for each item that is created during a request to a Web serv
 
 The instance of the RadAutoCompleteBox raised the event.
 
-##### args `Telerik.Web.UI.AutoCompleteDropDownItemDataBoundEventArgs`
-
-The event arguments.
-
-### dropDownOpening
-
-This event is fired right before the drop-down container of RadAutoCompleteBox is opened. 
-
-#### Event Data
-
-#####  sender `Telerik.Web.UI.RadAutoCompleteBox`
-
-The instance of the RadAutoCompleteBox raised the event.
-
-##### args `Telerik.Web.UI.AutoCompleteBoxDropDownOpeningEventArgs`
-
-The event arguments.
-
-### dropDownOpened
-
-This event is fired immediately after the drop-down container is opened.
-
-#### Event Data
-
-#####  sender `Telerik.Web.UI.RadAutoCompleteBox`
-
-The instance of the RadAutoCompleteBox raised the event.
-
-##### args `Telerik.Web.UI.AutoCompleteBoxDropDownOpenedEventArgs`
+##### args `Telerik.Web.UI.AutoCompleteBoxDropDownClosedEventArgs`
 
 The event arguments.
 
@@ -256,23 +216,9 @@ The instance of the RadAutoCompleteBox raised the event.
 
 The event arguments.
 
-### dropDownClosed
+### dropDownItemDataBound
 
-This event is fired  immediately after the drop-down container is closed.
-
-#### Event Data
-
-#####  sender `Telerik.Web.UI.RadAutoCompleteBox`
-
-The instance of the RadAutoCompleteBox raised the event.
-
-##### args `Telerik.Web.UI.AutoCompleteBoxDropDownClosedEventArgs`
-
-The event arguments.
-
-### entryAdding
-
-This event is fired right before an entry is added to the Entry collection of RadAutoCompleteBox.
+This event is fired for each item that is created during a request to a Web service.
 
 #### Event Data
 
@@ -280,35 +226,7 @@ This event is fired right before an entry is added to the Entry collection of Ra
 
 The instance of the RadAutoCompleteBox raised the event.
 
-##### args `Telerik.Web.UI.AutoCompleteBoxEntryAddingEventArgs`
-
-The event arguments.
-
-### entryAdded
-
-This event is fired immediately after an item from the drop-down container is added to the Entry collection of RadAutoCompleteBox. 
-
-#### Event Data
-
-#####  sender `Telerik.Web.UI.RadAutoCompleteBox`
-
-The instance of the RadAutoCompleteBox raised the event.
-
-##### args `Telerik.Web.UI.AutoCompleteBoxEntryAddedEventArgs`
-
-The event arguments.
-
-### entryRemoving
-
-This event is fired right before an entry is removed from the Entry collection of RadAutoCompleteBox. 
-
-#### Event Data
-
-#####  sender `Telerik.Web.UI.RadAutoCompleteBox`
-
-The instance of the RadAutoCompleteBox raised the event.
-
-##### args `Telerik.Web.UI.AutoCompleteBoxEntryRemovingEventArgs`
+##### args `Telerik.Web.UI.AutoCompleteDropDownItemDataBoundEventArgs`
 
 The event arguments.
 
@@ -326,9 +244,9 @@ The instance of the RadAutoCompleteBox raised the event.
 
 The event arguments.
 
-### textChanged
+### entryAdded
 
-This event is fired when the text currently present in the input area is changed and RadAutoComplete has lost its focus.
+This event is fired immediately after an item from the drop-down container is added to the Entry collection of RadAutoCompleteBox. 
 
 #### Event Data
 
@@ -336,7 +254,76 @@ This event is fired when the text currently present in the input area is changed
 
 The instance of the RadAutoCompleteBox raised the event.
 
-##### args `Telerik.Web.UI.AutoCompleteBoxTextChangedEventArgs`
+##### args `Telerik.Web.UI.AutoCompleteBoxEntryAddedEventArgs`
+
+The event arguments.
+
+### dropDownOpened
+
+This event is fired immediately after the drop-down container is opened.
+
+#### Event Data
+
+#####  sender `Telerik.Web.UI.RadAutoCompleteBox`
+
+The instance of the RadAutoCompleteBox raised the event.
+
+##### args `Telerik.Web.UI.AutoCompleteBoxDropDownOpenedEventArgs`
+
+The event arguments.
+
+### requestFailed
+
+This event is fired in case of error while loading the drop-down items from the data source. 
+
+#### Event Data
+
+#####  sender `Telerik.Web.UI.RadAutoCompleteBox`
+
+The instance of the RadAutoCompleteBox raised the event.
+
+##### args `Telerik.Web.UI.AutoCompleteBoxRequestFailedEventArgs`
+
+The event arguments.
+### requested
+
+This event is fired right after the requested items are loaded into the drop-down container.  
+
+#### Event Data
+
+#####  sender `Telerik.Web.UI.RadAutoCompleteBox`
+
+The instance of the RadAutoCompleteBox raised the event.
+
+##### args `Telerik.Web.UI.AutoCompleteBoxRequestedEventArgs`
+
+The event arguments.
+
+### entryAdding
+
+This event is fired right before an entry is added to the Entry collection of RadAutoCompleteBox.
+
+#### Event Data
+
+#####  sender `Telerik.Web.UI.RadAutoCompleteBox`
+
+The instance of the RadAutoCompleteBox raised the event.
+
+##### args `Telerik.Web.UI.AutoCompleteBoxEntryAddingEventArgs`
+
+The event arguments.
+
+### entryRemoving
+
+This event is fired right before an entry is removed from the Entry collection of RadAutoCompleteBox. 
+
+#### Event Data
+
+#####  sender `Telerik.Web.UI.RadAutoCompleteBox`
+
+The instance of the RadAutoCompleteBox raised the event.
+
+##### args `Telerik.Web.UI.AutoCompleteBoxEntryRemovingEventArgs`
 
 The event arguments.
 
@@ -354,23 +341,9 @@ The instance of the RadAutoCompleteBox raised the event.
 
 The event arguments.
 
-### requested
+### dropDownOpening
 
-This event is fired right after the requested items are loaded into the drop-down container.  
-
-#### Event Data
-
-#####  sender `Telerik.Web.UI.RadAutoCompleteBox`
-
-The instance of the RadAutoCompleteBox raised the event.
-
-##### args `Telerik.Web.UI.AutoCompleteBoxRequestedEventArgs`
-
-The event arguments.
-
-### requestFailed
-
-This event is fired in case of error while loading the drop-down items from the data source. 
+This event is fired right before the drop-down container of RadAutoCompleteBox is opened. 
 
 #### Event Data
 
@@ -378,6 +351,36 @@ This event is fired in case of error while loading the drop-down items from the 
 
 The instance of the RadAutoCompleteBox raised the event.
 
-##### args `Telerik.Web.UI.AutoCompleteBoxRequestFailedEventArgs`
+##### args `Telerik.Web.UI.AutoCompleteBoxDropDownOpeningEventArgs`
 
 The event arguments.
+
+### load
+
+This event is fired when the client RadAutoCompleteBox object is loaded.
+
+#### Event Data
+
+#####  sender `Telerik.Web.UI.RadAutoCompleteBox`
+
+The instance of the RadAutoCompleteBox raised the event.
+
+##### args `Sys.EventArgs`
+
+Empty event args
+
+### textChanged
+
+This event is fired when the text currently present in the input area is changed and RadAutoComplete has lost its focus.
+
+#### Event Data
+
+#####  sender `Telerik.Web.UI.RadAutoCompleteBox`
+
+The instance of the RadAutoCompleteBox raised the event.
+
+##### args `Telerik.Web.UI.AutoCompleteBoxTextChangedEventArgs`
+
+The event arguments.
+
+

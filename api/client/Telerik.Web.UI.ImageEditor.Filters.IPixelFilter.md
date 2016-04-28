@@ -11,6 +11,7 @@ slug: Telerik.Web.UI.ImageEditor.Filters.IPixelFilter
 
 * *[Telerik.Web.UI.ImageEditor.Filters.IPixelFilter]({%slug Telerik.Web.UI.ImageEditor.Filters.IPixelFilter%})*
 
+
 ## Methods
 
 ###  execute
@@ -27,7 +28,7 @@ The image data to be processed
 
 `None` 
 
-###  get_name
+### get_name
 
 Gets the name of the corresponding filter. This usually is the enough information to distinguish between filters
 
@@ -36,5 +37,6 @@ Gets the name of the corresponding filter. This usually is the enough informatio
 #### Returns
 
 `String` The name of the filter
+
 
 

@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.TileEventArgs
 * Sys.EventArgs
 * *[Telerik.Web.UI.TileEventArgs]({%slug Telerik.Web.UI.TileEventArgs%})*
 
+
 ## Methods
 
 ###  get_newValue
@@ -24,7 +25,7 @@ Returns the new property value after the specific event occurred.
 
 `String` 
 
-###  get_oldValue
+### get_oldValue
 
 Returns the new property value after the specific event occurred.
 
@@ -34,3 +35,4 @@ Returns the new property value after the specific event occurred.
 #### Returns
 
 `String` 
+

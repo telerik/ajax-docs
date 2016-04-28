@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.TagCloudCancelEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.TagCloudCancelEventArgs]({%slug Telerik.Web.UI.TagCloudCancelEventArgs%})*
 
+
 ## Methods
 
 ###  get_item
@@ -23,3 +24,4 @@ Returns the client object of the clicked item.
 #### Returns
 
 `Telerik.Web.UI.RadTagCloudItem` 
+

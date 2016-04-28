@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.RadTagCloudItem
 * [Telerik.Web.UI.RadWebControl]({%slug Telerik.Web.UI.RadWebControl%})
 * *[Telerik.Web.UI.RadTagCloudItem]({%slug Telerik.Web.UI.RadTagCloudItem%})*
 
+
 ## Methods
 
 ###  createAnchor
@@ -22,7 +23,7 @@ slug: Telerik.Web.UI.RadTagCloudItem
 
 `None` 
 
-###  get_accessKey
+### get_accessKey
 
 #### Parameters
 
@@ -30,7 +31,7 @@ slug: Telerik.Web.UI.RadTagCloudItem
 
 `None` 
 
-###  get_anchorElement
+### get_anchorElement
 
 #### Parameters
 
@@ -38,7 +39,7 @@ slug: Telerik.Web.UI.RadTagCloudItem
 
 `None` 
 
-###  get_index
+### get_index
 
 #### Parameters
 
@@ -46,7 +47,7 @@ slug: Telerik.Web.UI.RadTagCloudItem
 
 `None` 
 
-###  get_navigateUrl
+### get_navigateUrl
 
 #### Parameters
 
@@ -54,7 +55,7 @@ slug: Telerik.Web.UI.RadTagCloudItem
 
 `None` 
 
-###  get_rowIndex
+### get_rowIndex
 
 #### Parameters
 
@@ -62,7 +63,7 @@ slug: Telerik.Web.UI.RadTagCloudItem
 
 `None` 
 
-###  get_tabIndex
+### get_tabIndex
 
 #### Parameters
 
@@ -70,7 +71,7 @@ slug: Telerik.Web.UI.RadTagCloudItem
 
 `None` 
 
-###  get_text
+### get_text
 
 #### Parameters
 
@@ -78,7 +79,7 @@ slug: Telerik.Web.UI.RadTagCloudItem
 
 `None` 
 
-###  get_toolTip
+### get_toolTip
 
 #### Parameters
 
@@ -86,7 +87,7 @@ slug: Telerik.Web.UI.RadTagCloudItem
 
 `None` 
 
-###  get_value
+### get_value
 
 #### Parameters
 
@@ -94,7 +95,7 @@ slug: Telerik.Web.UI.RadTagCloudItem
 
 `None` 
 
-###  get_weight
+### get_weight
 
 #### Parameters
 
@@ -102,7 +103,7 @@ slug: Telerik.Web.UI.RadTagCloudItem
 
 `None` 
 
-###  set_accessKey
+### set_accessKey
 
 #### Parameters
 
@@ -110,7 +111,7 @@ slug: Telerik.Web.UI.RadTagCloudItem
 
 `None` 
 
-###  set_navigateUrl
+### set_navigateUrl
 
 #### Parameters
 
@@ -118,7 +119,7 @@ slug: Telerik.Web.UI.RadTagCloudItem
 
 `None` 
 
-###  set_tabIndex
+### set_tabIndex
 
 #### Parameters
 
@@ -126,7 +127,7 @@ slug: Telerik.Web.UI.RadTagCloudItem
 
 `None` 
 
-###  set_text
+### set_text
 
 #### Parameters
 
@@ -134,7 +135,7 @@ slug: Telerik.Web.UI.RadTagCloudItem
 
 `None` 
 
-###  set_toolTip
+### set_toolTip
 
 #### Parameters
 
@@ -142,7 +143,7 @@ slug: Telerik.Web.UI.RadTagCloudItem
 
 `None` 
 
-###  set_value
+### set_value
 
 #### Parameters
 
@@ -150,12 +151,13 @@ slug: Telerik.Web.UI.RadTagCloudItem
 
 `None` 
 
-###  set_weight
+### set_weight
 
 #### Parameters
 
 #### Returns
 
 `None` 
+
 
 

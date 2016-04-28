@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.RadToolTip
 * [Telerik.Web.UI.RadWebControl]({%slug Telerik.Web.UI.RadWebControl%})
 * *[Telerik.Web.UI.RadToolTip]({%slug Telerik.Web.UI.RadToolTip%})*
 
+
 ## Methods
 
 ###  getManualCloseButton
@@ -24,7 +25,7 @@ Returns a reference to the tooltip's close button when HideEvent="ManualClose"
 
 `Object` 
 
-###  get_animation
+### get_animation
 
 Gets animation value for the tooltip
 
@@ -34,7 +35,7 @@ Gets animation value for the tooltip
 
 `Telerik.Web.UI.ToolTipAnimation` 
 
-###  get_animationDuration
+### get_animationDuration
 
 Gets animation duration value for the tooltip
 
@@ -44,7 +45,7 @@ Gets animation duration value for the tooltip
 
 `Number` 
 
-###  get_autoCloseDelay
+### get_autoCloseDelay
 
 Gets delay in milliseconds for the tooltip to close automatically
 
@@ -54,7 +55,7 @@ Gets delay in milliseconds for the tooltip to close automatically
 
 `Number` 
 
-###  get_content
+### get_content
 
 Gets the current content of the tooltip
 
@@ -64,7 +65,7 @@ Gets the current content of the tooltip
 
 `String` 
 
-###  get_contentElement
+### get_contentElement
 
 Gets the content element of the tooltip
 
@@ -74,7 +75,7 @@ Gets the content element of the tooltip
 
 `Object` 
 
-###  get_contentScrolling
+### get_contentScrolling
 
 Gets a new overflow value for the tooltip content area
 
@@ -84,7 +85,7 @@ Gets a new overflow value for the tooltip content area
 
 `Telerik.Web.UI.ToolTipScrolling` 
 
-###  get_enableShadow
+### get_enableShadow
 
 Gets a value indicating whether the tooltip should have a shadow.
 
@@ -94,7 +95,7 @@ Gets a value indicating whether the tooltip should have a shadow.
 
 `Boolean` 
 
-###  get_height
+### get_height
 
 Gets height of the tooltip
 
@@ -104,7 +105,7 @@ Gets height of the tooltip
 
 `Number` 
 
-###  get_hideDelay
+### get_hideDelay
 
 Gets delay in milliseconds after which the tooltip will hide after the mouse leaves the target element
 
@@ -114,7 +115,7 @@ Gets delay in milliseconds after which the tooltip will hide after the mouse lea
 
 `Number` 
 
-###  get_ignoreAltAttribute
+### get_ignoreAltAttribute
 
 Gets a value indicating whether the Alt attribute of the target should be ignored.
 
@@ -124,7 +125,7 @@ Gets a value indicating whether the Alt attribute of the target should be ignore
 
 `Boolean` 
 
-###  get_modal
+### get_modal
 
 Gets a value indicating whether a tooltip is modal or not
 
@@ -134,7 +135,7 @@ Gets a value indicating whether a tooltip is modal or not
 
 `Boolean` 
 
-###  get_mouseTrailing
+### get_mouseTrailing
 
 Gets whether the tooltip should follow the mouse movement or not
 
@@ -144,7 +145,7 @@ Gets whether the tooltip should follow the mouse movement or not
 
 `Boolean` 
 
-###  get_offsetX
+### get_offsetX
 
 Gets the horizontal offset relative to its target element
 
@@ -154,7 +155,7 @@ Gets the horizontal offset relative to its target element
 
 `Number` 
 
-###  get_offsetY
+### get_offsetY
 
 Gets the vertical offset relative to its target element
 
@@ -164,7 +165,7 @@ Gets the vertical offset relative to its target element
 
 `Number` 
 
-###  get_overlay
+### get_overlay
 
 Gets a value indicating whether the tooltip has an overlay element.
 
@@ -174,7 +175,7 @@ Gets a value indicating whether the tooltip has an overlay element.
 
 `Boolean` 
 
-###  get_popupElement
+### get_popupElement
 
 Returns a reference to the popup element
 
@@ -184,7 +185,7 @@ Returns a reference to the popup element
 
 `Object` 
 
-###  get_position
+### get_position
 
 Gets the relative position of the tooltip to its target element
 
@@ -194,7 +195,7 @@ Gets the relative position of the tooltip to its target element
 
 `Telerik.Web.UI.ToolTipPosition` 
 
-###  get_relativeTo
+### get_relativeTo
 
 Gets whether the tooltip is positioned relative to the mouse, relative to the tooltip or to the browser window
 
@@ -204,7 +205,7 @@ Gets whether the tooltip is positioned relative to the mouse, relative to the to
 
 `Telerik.Web.UI.ToolTipRelativeDisplay` 
 
-###  get_showCallout
+### get_showCallout
 
 Gets whether the tooltip callout image will be displayed
 
@@ -214,7 +215,7 @@ Gets whether the tooltip callout image will be displayed
 
 `Boolean` 
 
-###  get_showDelay
+### get_showDelay
 
 Gets delay in milliseconds for the tooltip to appear
 
@@ -224,7 +225,7 @@ Gets delay in milliseconds for the tooltip to appear
 
 `Number` 
 
-###  get_targetControl
+### get_targetControl
 
 Gets a reference to the tooltip target element
 
@@ -234,7 +235,7 @@ Gets a reference to the tooltip target element
 
 `Object` 
 
-###  get_targetControlID
+### get_targetControlID
 
 Gets the client ID of the tooltip's target control
 
@@ -244,7 +245,7 @@ Gets the client ID of the tooltip's target control
 
 `String` 
 
-###  get_text
+### get_text
 
 Gets the text of the tooltip
 
@@ -254,7 +255,7 @@ Gets the text of the tooltip
 
 `String` 
 
-###  get_title
+### get_title
 
 Gets the title of the tooltip
 
@@ -264,7 +265,7 @@ Gets the title of the tooltip
 
 `String` 
 
-###  get_value
+### get_value
 
 Gets the arbitrary value associated with a tooltip that can be used in scenarios involving AJAX or web services
 
@@ -274,7 +275,7 @@ Gets the arbitrary value associated with a tooltip that can be used in scenarios
 
 `String` 
 
-###  get_width
+### get_width
 
 Gets width of the tooltip
 
@@ -284,7 +285,7 @@ Gets width of the tooltip
 
 `Number` 
 
-###  hide
+### hide
 
 Hides the tooltip
 
@@ -294,7 +295,7 @@ Hides the tooltip
 
 `None` 
 
-###  isModal
+### isModal
 
 Returns whether the tooltip control is displaying modally
 
@@ -304,7 +305,7 @@ Returns whether the tooltip control is displaying modally
 
 `None` 
 
-###  isVisible
+### isVisible
 
 Indicates whether the RadToolTip control is currently visible
 
@@ -314,7 +315,7 @@ Indicates whether the RadToolTip control is currently visible
 
 `None` 
 
-###  set_animation
+### set_animation
 
 Sets animation value for the tooltip
 
@@ -326,7 +327,7 @@ Sets animation value for the tooltip
 
 `None` 
 
-###  set_animationDuration
+### set_animationDuration
 
 Sets animation duration value for the tooltip
 
@@ -338,7 +339,7 @@ Sets animation duration value for the tooltip
 
 `None` 
 
-###  set_autoCloseDelay
+### set_autoCloseDelay
 
 Sets delay in milliseconds for the tooltip to close automatically
 
@@ -350,7 +351,7 @@ Sets delay in milliseconds for the tooltip to close automatically
 
 `None` 
 
-###  set_content
+### set_content
 
 Sets new content to the tooltip
 
@@ -362,7 +363,7 @@ Sets new content to the tooltip
 
 `None` 
 
-###  set_contentElement
+### set_contentElement
 
 Sets a new content element to the tooltip
 
@@ -374,7 +375,7 @@ Sets a new content element to the tooltip
 
 `None` 
 
-###  set_contentScrolling
+### set_contentScrolling
 
 Sets a new overflow value for the tooltip content area
 
@@ -386,7 +387,7 @@ Sets a new overflow value for the tooltip content area
 
 `None` 
 
-###  set_enableShadow
+### set_enableShadow
 
 Sets a value indicating whether the tooltip should have a shadow.
 
@@ -398,7 +399,7 @@ Sets a value indicating whether the tooltip should have a shadow.
 
 `None` 
 
-###  set_height
+### set_height
 
 Sets new height to the tooltip
 
@@ -410,7 +411,7 @@ Sets new height to the tooltip
 
 `None` 
 
-###  set_hideDelay
+### set_hideDelay
 
 Sets delay in milliseconds for the tooltip to hide after the mouse leaves the target element
 
@@ -422,7 +423,7 @@ Sets delay in milliseconds for the tooltip to hide after the mouse leaves the ta
 
 `None` 
 
-###  set_ignoreAltAttribute
+### set_ignoreAltAttribute
 
 Sets a value indicating whether the Alt attribute of the target should be ignored.
 
@@ -434,7 +435,7 @@ Sets a value indicating whether the Alt attribute of the target should be ignore
 
 `None` 
 
-###  set_modal
+### set_modal
 
 Sets a value indicating whether a tooltip is modal or not
 
@@ -446,7 +447,7 @@ Sets a value indicating whether a tooltip is modal or not
 
 `None` 
 
-###  set_mouseTrailing
+### set_mouseTrailing
 
 Sets whether the tooltip should follow the mouse movement or not
 
@@ -458,7 +459,7 @@ Sets whether the tooltip should follow the mouse movement or not
 
 `None` 
 
-###  set_offsetX
+### set_offsetX
 
 Sets a new horizontal offset relative to its target element
 
@@ -470,7 +471,7 @@ Sets a new horizontal offset relative to its target element
 
 `None` 
 
-###  set_offsetY
+### set_offsetY
 
 Sets a new vertical offset relative to its target element
 
@@ -482,7 +483,7 @@ Sets a new vertical offset relative to its target element
 
 `None` 
 
-###  set_overlay
+### set_overlay
 
 Sets a value indicating whether the tooltip will create an overlay element.
 
@@ -494,7 +495,7 @@ Sets a value indicating whether the tooltip will create an overlay element.
 
 `None` 
 
-###  set_position
+### set_position
 
 Sets a new relative position of the tooltip to its target element
 
@@ -506,7 +507,7 @@ Sets a new relative position of the tooltip to its target element
 
 `None` 
 
-###  set_relativeTo
+### set_relativeTo
 
 Sets whether the tooltip is positioned relative to the mouse, relative to the tooltip or to the browser window
 
@@ -518,7 +519,7 @@ Sets whether the tooltip is positioned relative to the mouse, relative to the to
 
 `None` 
 
-###  set_showCallout
+### set_showCallout
 
 Sets whether the tooltip callout image will be displayed
 
@@ -530,7 +531,7 @@ Sets whether the tooltip callout image will be displayed
 
 `None` 
 
-###  set_showDelay
+### set_showDelay
 
 Sets delay in milliseconds for the tooltip to appear
 
@@ -542,7 +543,7 @@ Sets delay in milliseconds for the tooltip to appear
 
 `None` 
 
-###  set_targetControl
+### set_targetControl
 
 Sets a new target control to the tooltip
 
@@ -554,7 +555,7 @@ Sets a new target control to the tooltip
 
 `None` 
 
-###  set_targetControlID
+### set_targetControlID
 
 Sets the cleint ID of a new target control to the tooltip
 
@@ -566,7 +567,7 @@ Sets the cleint ID of a new target control to the tooltip
 
 `None` 
 
-###  set_text
+### set_text
 
 Sets new text to the tooltip
 
@@ -578,7 +579,7 @@ Sets new text to the tooltip
 
 `None` 
 
-###  set_title
+### set_title
 
 Sets a new title to the tooltip
 
@@ -590,7 +591,7 @@ Sets a new title to the tooltip
 
 `None` 
 
-###  set_value
+### set_value
 
 Sets an arbitrary value associated with a tooltip that can be used in scenarios involving AJAX or web services
 
@@ -602,7 +603,7 @@ Sets an arbitrary value associated with a tooltip that can be used in scenarios 
 
 `None` 
 
-###  set_width
+### set_width
 
 Sets new width to the tooltip
 
@@ -614,7 +615,7 @@ Sets new width to the tooltip
 
 `None` 
 
-###  show
+### show
 
 Displays the tooltip at the proper position, relative to its target control.
 
@@ -624,11 +625,12 @@ Displays the tooltip at the proper position, relative to its target control.
 
 `None` 
 
+
 ## Events
 
-### beforeShow
+### beforeHide
 
-The beforeShow client-side event occurs just prior to the display of the tool tip. The event can be canceled. 
+The beforeHide client-side event occurs just prior to the tool tip being hidden. The event can be canceled. 
 
 #### Event Data
 
@@ -640,23 +642,9 @@ The instance of the RadToolTip raised the event.
 
 The event arguments.
 
-### show
+### beforeShow
 
-The show client-side event occurs as the tooltip is displayed. The event cannot be canceled. 
-
-#### Event Data
-
-##### sender `Telerik.Web.UI.RadToolTip`
-
-The instance of the RadToolTip raised the event.
-
-##### eventArgs `Sys.EventArgs`
-
-Empty event argument.
-
-### beforeHide
-
-The beforeHide client-side event occurs just prior to the tool tip being hidden. The event can be canceled. 
+The beforeShow client-side event occurs just prior to the display of the tool tip. The event can be canceled. 
 
 #### Event Data
 
@@ -681,3 +669,18 @@ The instance of the RadToolTip raised the event.
 ##### eventArgs `Sys.EventArgs`
 
 Empty event argument.
+### show
+
+The show client-side event occurs as the tooltip is displayed. The event cannot be canceled. 
+
+#### Event Data
+
+##### sender `Telerik.Web.UI.RadToolTip`
+
+The instance of the RadToolTip raised the event.
+
+##### eventArgs `Sys.EventArgs`
+
+Empty event argument.
+
+

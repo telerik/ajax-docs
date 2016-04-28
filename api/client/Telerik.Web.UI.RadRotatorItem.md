@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.RadRotatorItem
 * [Telerik.Web.UI.RadWebControl]({%slug Telerik.Web.UI.RadWebControl%})
 * *[Telerik.Web.UI.RadRotatorItem]({%slug Telerik.Web.UI.RadRotatorItem%})*
 
+
 ## Methods
 
 ###  getServerIndex
@@ -22,7 +23,7 @@ slug: Telerik.Web.UI.RadRotatorItem
 
 `None` 
 
-###  get_cssClass
+### get_cssClass
 
 #### Parameters
 
@@ -30,7 +31,7 @@ slug: Telerik.Web.UI.RadRotatorItem
 
 `None` 
 
-###  get_index
+### get_index
 
 #### Parameters
 
@@ -38,7 +39,7 @@ slug: Telerik.Web.UI.RadRotatorItem
 
 `None` 
 
-###  get_tickers
+### get_tickers
 
 #### Parameters
 
@@ -46,7 +47,7 @@ slug: Telerik.Web.UI.RadRotatorItem
 
 `None` 
 
-###  get_visible
+### get_visible
 
 #### Parameters
 
@@ -54,7 +55,7 @@ slug: Telerik.Web.UI.RadRotatorItem
 
 `None` 
 
-###  set_cssClass
+### set_cssClass
 
 #### Parameters
 
@@ -62,12 +63,13 @@ slug: Telerik.Web.UI.RadRotatorItem
 
 `None` 
 
-###  set_visible
+### set_visible
 
 #### Parameters
 
 #### Returns
 
 `None` 
+
 
 

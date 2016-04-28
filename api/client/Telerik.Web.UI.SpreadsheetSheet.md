@@ -11,77 +11,8 @@ slug: Telerik.Web.UI.SpreadsheetSheet
 
 * *[Telerik.Web.UI.SpreadsheetSheet]({%slug Telerik.Web.UI.SpreadsheetSheet%})*
 
+
 ## Methods
-
-### get_range
-
-Returns a Range for the given range specification.
-
-#### Parameters
-
-##### `String` A1 or RC notation reference of the cells. ex. "A1:B2"
-
-#### Returns
-
-`Telerik.Web.UI.SpreadsheetRange`
-
-### get_selection
-
-Returns a range with the current active selection.
-
-#### Parameters
-
-#### Returns
-
-`Telerik.Web.UI.SpreadsheetRange`
-
-### get_columnWidth
-
-Gets or sets the width of the column at the given index.
-
-#### Parameters 
-
-#### Returns
-
-`None`
-
-### set_columnWidth
-
-Sets or sets the width of the column at the given index.
-
-#### Parameters
-
-##### The zero-based index of the column `Number` 
-
-##### If passed, the method will set the width of the column at the passed index. `Number` 
-
-#### Returns
-
-`None`
-
-### get_rowHeight
-
-Gets the default row height in pixels.
-
-#### Parameters
-
-#### Returns
-
-`Number`
-
-### set_rowHeight
-
-Sets the default row height in pixels.
-
-#### Parameters
-
-##### index `Number` The zero-based index of the row
-
-##### width `Number` optional If passed, the method will set the height of the row at the passed index.
-
-#### Returns
-
-`None`
 
 ### deleteColumn
 
@@ -107,6 +38,16 @@ Deletes the contents of the row at the provided index and shifts the remaining c
 
 `None`
 
+### get_columnWidth
+
+Gets or sets the width of the column at the given index.
+
+#### Parameters 
+
+#### Returns
+
+`None`
+
 ### get_frozenColumns
 
 Gets the amount of frozen columns displayed by the sheet.
@@ -116,18 +57,6 @@ Gets the amount of frozen columns displayed by the sheet.
 #### Returns
 
 `Number` The current frozen columns. By default, returns 0.
-
-### set_frozenColumns
-
-Sets the amount of frozen columns displayed by the sheet.
-
-#### Parameters
-
-##### count `Number` The amount of columns to be frozen. Pass 0 to remove the frozen pane. 
-
-#### Returns
-
-`Number`
 
 ### get_frozenRows
 
@@ -139,17 +68,37 @@ Gets the amount of frozen rows displayed by the sheet.
 
 `Number`
 
-### set_frozenRows
+### get_range
 
-Sets the amount of frozen rows displayed by the sheet.
+Returns a Range for the given range specification.
 
 #### Parameters
 
-##### count `Number` The amount of columns to be frozen. Pass 0 to remove the frozen pane.
+##### `String` A1 or RC notation reference of the cells. ex. "A1:B2"
 
 #### Returns
 
-`None`
+`Telerik.Web.UI.SpreadsheetRange`
+
+### get_rowHeight
+
+Gets the default row height in pixels.
+
+#### Parameters
+
+#### Returns
+
+`Number`
+
+### get_selection
+
+Returns a range with the current active selection.
+
+#### Parameters
+
+#### Returns
+
+`Telerik.Web.UI.SpreadsheetRange`
 
 ### hideColumn
 
@@ -199,4 +148,58 @@ Inserts a new, empty row at the provided index. The contents of the spreadsheet 
 
 `None`
 
-## Events
+### set_columnWidth
+
+Sets or sets the width of the column at the given index.
+
+#### Parameters
+
+##### The zero-based index of the column `Number` 
+
+##### If passed, the method will set the width of the column at the passed index. `Number` 
+
+#### Returns
+
+`None`
+
+### set_frozenColumns
+
+Sets the amount of frozen columns displayed by the sheet.
+
+#### Parameters
+
+##### count `Number` The amount of columns to be frozen. Pass 0 to remove the frozen pane. 
+
+#### Returns
+
+`Number`
+
+### set_frozenRows
+
+Sets the amount of frozen rows displayed by the sheet.
+
+#### Parameters
+
+##### count `Number` The amount of columns to be frozen. Pass 0 to remove the frozen pane.
+
+#### Returns
+
+`None`
+
+### set_rowHeight
+
+Sets the default row height in pixels.
+
+#### Parameters
+
+##### index `Number` The zero-based index of the row
+
+##### width `Number` optional If passed, the method will set the height of the row at the passed index.
+
+#### Returns
+
+`None`
+
+
+Events
+

@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.DropDownTreeEntryRemovingEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.DropDownTreeEntryRemovingEventArgs]({%slug Telerik.Web.UI.DropDownTreeEntryRemovingEventArgs%})*
 
+
 ## Methods
 
 ### get_entry
@@ -23,3 +24,4 @@ Returns the entry which is about to be removed from the Entry collection.
 #### Returns
 
 `Telerik.Web.UI.DropDownTreeEntry`
+

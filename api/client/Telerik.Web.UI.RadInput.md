@@ -11,6 +11,7 @@ slug: Telerik.Web.UI.RadInput
 
 * *[Telerik.Web.UI.RadInput]({%slug Telerik.Web.UI.RadInput%})*
 
+
 ## Methods
 
 ###  get_editValue
@@ -23,7 +24,7 @@ string
 
 `None` 
 
-###  get_displayValue
+### get_displayValue
 
 string
 
@@ -32,5 +33,6 @@ string
 #### Returns
 
 `None` 
+
 
 

@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.RotatorItemDataBoundEventArgs
 * Sys.EventArgs
 * *[Telerik.Web.UI.RotatorItemDataBoundEventArgs]({%slug Telerik.Web.UI.RotatorItemDataBoundEventArgs%})*
 
+
 ## Methods
 
 ###  get_item
@@ -24,7 +25,7 @@ Returns the client-side object of the Rotator item.
 
 `Telerik.Web.UI.RadRotatorItem` 
 
-###  get_dataItem
+### get_dataItem
 
 Returns the client-side data object to the Rotator item. 
 
@@ -33,3 +34,4 @@ Returns the client-side data object to the Rotator item.
 #### Returns
 
 `Object` 
+

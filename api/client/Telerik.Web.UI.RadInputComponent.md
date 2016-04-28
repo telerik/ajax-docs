@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.RadInputComponent
 * Sys.Component
 * *[Telerik.Web.UI.RadInputComponent]({%slug Telerik.Web.UI.RadInputComponent%})*
 
+
 ## Methods
 
 ###  get_disabledCss
@@ -24,7 +25,7 @@ Gets the disabled css of RadInputComponent
 
 `Boolean` 
 
-###  get_emptyMessage
+### get_emptyMessage
 
 Returns the message that appears when the value is not set
 
@@ -34,7 +35,7 @@ Returns the message that appears when the value is not set
 
 `String` 
 
-###  get_emptyMessageCss
+### get_emptyMessageCss
 
 Returns the message Css that appears when the value is not set
 
@@ -44,7 +45,7 @@ Returns the message Css that appears when the value is not set
 
 `String` 
 
-###  get_enabledCss
+### get_enabledCss
 
 Gets the enabled css of RadInputComponent
 
@@ -54,7 +55,7 @@ Gets the enabled css of RadInputComponent
 
 `Boolean` 
 
-###  get_errorMessage
+### get_errorMessage
 
 Gets the error message of RadInputComponent
 
@@ -64,7 +65,7 @@ Gets the error message of RadInputComponent
 
 `String` 
 
-###  get_focusedCss
+### get_focusedCss
 
 Gets the focused css of RadInputComponent
 
@@ -74,7 +75,7 @@ Gets the focused css of RadInputComponent
 
 `Boolean` 
 
-###  get_hoveredCss
+### get_hoveredCss
 
 Gets the hovered css of RadInputComponent
 
@@ -84,7 +85,7 @@ Gets the hovered css of RadInputComponent
 
 `Boolean` 
 
-###  get_initializeOnClient
+### get_initializeOnClient
 
 Returns a Boolean value,initializing the client instance of RadInputComponent
 
@@ -94,7 +95,7 @@ Returns a Boolean value,initializing the client instance of RadInputComponent
 
 `Boolean` 
 
-###  get_invalidCss
+### get_invalidCss
 
 Gets the invalid css of RadInputComponent
 
@@ -104,7 +105,7 @@ Gets the invalid css of RadInputComponent
 
 `Boolean` 
 
-###  get_isRequired
+### get_isRequired
 
 Returns a Boolean value, indicating whether the value of the input is required
 
@@ -114,7 +115,7 @@ Returns a Boolean value, indicating whether the value of the input is required
 
 `Boolean` 
 
-###  get_location
+### get_location
 
 Gets the location of RadInputComponent
 
@@ -124,7 +125,7 @@ Gets the location of RadInputComponent
 
 `String` 
 
-###  get_method
+### get_method
 
 Gets the method of RadInputComponent
 
@@ -134,7 +135,7 @@ Gets the method of RadInputComponent
 
 `String` 
 
-###  get_readOnlyCss
+### get_readOnlyCss
 
 Gets the read only css of RadInputComponent
 
@@ -144,7 +145,7 @@ Gets the read only css of RadInputComponent
 
 `Boolean` 
 
-###  get_selectionOnFocus
+### get_selectionOnFocus
 
 Returns the value of the SelectionOnFocus property
 
@@ -154,7 +155,7 @@ Returns the value of the SelectionOnFocus property
 
 `Telerik.Web.UI.SelectionOnFocus` 
 
-###  get_targetControlID
+### get_targetControlID
 
 Returns the id of the target control
 
@@ -164,7 +165,7 @@ Returns the id of the target control
 
 `String` 
 
-###  get_targetControlIDs
+### get_targetControlIDs
 
 Returns an Array containing the ids of the target inputs
 
@@ -174,7 +175,7 @@ Returns an Array containing the ids of the target inputs
 
 `Array` 
 
-###  get_validateOnEvent
+### get_validateOnEvent
 
 Gets validateOnEvent of RadInputComponent
 
@@ -184,7 +185,7 @@ Gets validateOnEvent of RadInputComponent
 
 `Number` 
 
-###  get_validationGroup
+### get_validationGroup
 
 Gets the validation group of RadInputComponent
 
@@ -194,7 +195,7 @@ Gets the validation group of RadInputComponent
 
 `String` 
 
-###  isValid
+### isValid
 
 Returns a Boolean value, indicating whether the value of the input is valid
 
@@ -206,7 +207,67 @@ Returns a Boolean value, indicating whether the value of the input is valid
 
 `None` 
 
-###  raiseEvent
+### raise_blur
+
+Raises the blur event
+
+#### Parameters
+
+##### args `Sys.EventArgs`
+
+#### Returns
+
+`None` 
+
+### raise_error
+
+Raises the handler for the error event
+
+#### Parameters
+
+##### args `Sys.EventArgs`
+
+#### Returns
+
+`None` 
+
+### raise_focus
+
+Raises the focus event
+
+#### Parameters
+
+##### args `Sys.EventArgs`
+
+#### Returns
+
+`None` 
+
+### raise_keyPress
+
+Raises the keyPress event
+
+#### Parameters
+
+##### args `Sys.EventArgs`
+
+#### Returns
+
+`None` 
+
+### raise_validating
+
+Raises the handler for the validating event
+
+#### Parameters
+
+##### args `Sys.EventArgs`
+
+#### Returns
+
+`None` 
+
+### raiseEvent
 
 Raises the event of RadInputComponent
 
@@ -220,67 +281,7 @@ Raises the event of RadInputComponent
 
 `None` 
 
-###  raise_blur
-
-Raises the blur event
-
-#### Parameters
-
-##### args `Sys.EventArgs`
-
-#### Returns
-
-`None` 
-
-###  raise_error
-
-Raises the handler for the error event
-
-#### Parameters
-
-##### args `Sys.EventArgs`
-
-#### Returns
-
-`None` 
-
-###  raise_focus
-
-Raises the focus event
-
-#### Parameters
-
-##### args `Sys.EventArgs`
-
-#### Returns
-
-`None` 
-
-###  raise_keyPress
-
-Raises the keyPress event
-
-#### Parameters
-
-##### args `Sys.EventArgs`
-
-#### Returns
-
-`None` 
-
-###  raise_validating
-
-Raises the handler for the validating event
-
-#### Parameters
-
-##### args `Sys.EventArgs`
-
-#### Returns
-
-`None` 
-
-###  set_disabledCss
+### set_disabledCss
 
 Sets the disabled css of RadInputComponent
 
@@ -292,7 +293,7 @@ Sets the disabled css of RadInputComponent
 
 `None` 
 
-###  set_emptyMessage
+### set_emptyMessage
 
 Sets the message that appears when the value is not set
 
@@ -304,7 +305,7 @@ Sets the message that appears when the value is not set
 
 `None` 
 
-###  set_emptyMessageCss
+### set_emptyMessageCss
 
 Sets the message Css that appears when the value is not set
 
@@ -316,7 +317,7 @@ Sets the message Css that appears when the value is not set
 
 `None` 
 
-###  set_enabledCss
+### set_enabledCss
 
 Sets the enabled css of RadInputComponent
 
@@ -328,7 +329,7 @@ Sets the enabled css of RadInputComponent
 
 `None` 
 
-###  set_errorMessage
+### set_errorMessage
 
 Sets the error message of RadInputComponent
 
@@ -340,7 +341,7 @@ Sets the error message of RadInputComponent
 
 `None` 
 
-###  set_focusedCss
+### set_focusedCss
 
 Sets the focused css of RadInputComponent
 
@@ -352,7 +353,7 @@ Sets the focused css of RadInputComponent
 
 `None` 
 
-###  set_hoveredCss
+### set_hoveredCss
 
 Sets the hovered css of RadInputComponent
 
@@ -364,7 +365,7 @@ Sets the hovered css of RadInputComponent
 
 `None` 
 
-###  set_initializeOnClient
+### set_initializeOnClient
 
 Accepts  a Boolean value,initializing the client instance of RadInputComponen
 
@@ -376,7 +377,7 @@ Accepts  a Boolean value,initializing the client instance of RadInputComponen
 
 `None` 
 
-###  set_invalidCss
+### set_invalidCss
 
 Sets the invalid css of RadInputComponent
 
@@ -388,7 +389,7 @@ Sets the invalid css of RadInputComponent
 
 `None` 
 
-###  set_isRequired
+### set_isRequired
 
 Accepts a Boolean value, indicating whether the value of the input is required
 
@@ -400,7 +401,7 @@ Accepts a Boolean value, indicating whether the value of the input is required
 
 `None` 
 
-###  set_location
+### set_location
 
 Sets the location of RadInputComponent
 
@@ -412,7 +413,7 @@ Sets the location of RadInputComponent
 
 `None` 
 
-###  set_method
+### set_method
 
 Sets the method of RadInputComponent
 
@@ -424,7 +425,7 @@ Sets the method of RadInputComponent
 
 `None` 
 
-###  set_readOnlyCss
+### set_readOnlyCss
 
 Sets the read only css of RadInputComponent
 
@@ -436,7 +437,7 @@ Sets the read only css of RadInputComponent
 
 `None` 
 
-###  set_selectionOnFocus
+### set_selectionOnFocus
 
 Accepts the value of the SelectionOnFocus property
 
@@ -448,7 +449,7 @@ Accepts the value of the SelectionOnFocus property
 
 `None` 
 
-###  set_targetControlID
+### set_targetControlID
 
 Accepts the id of the target control
 
@@ -460,7 +461,7 @@ Accepts the id of the target control
 
 `None` 
 
-###  set_targetControlIDs
+### set_targetControlIDs
 
 Accepts an Array containing the ids of the target inputs
 
@@ -472,7 +473,7 @@ Accepts an Array containing the ids of the target inputs
 
 `None` 
 
-###  set_validateOnEvent
+### set_validateOnEvent
 
 Sets validateOnEvent of RadInputComponent
 
@@ -484,7 +485,7 @@ Sets validateOnEvent of RadInputComponent
 
 `None` 
 
-###  set_validationGroup
+### set_validationGroup
 
 Sets the validation group of RadInputComponent
 
@@ -496,7 +497,7 @@ Sets the validation group of RadInputComponent
 
 `None` 
 
-###  success
+### success
 
 Returns a Boolean value, indicating success
 
@@ -509,49 +510,8 @@ Returns a Boolean value, indicating success
 `None` 
 
 
+
 ## Events
-
-### blur
-
-Occurs when the element is blurred. 
-
-#### Event Data
-
-##### sender `Telerik.Web.UI.RadInputComponent`
-
-The RadInputComponenet instance raised the event.
-
-##### args `Telerik.Web.UI.InputManagerEventArgs`
-
-The event arguments. 
-
-### error
-
-Occurs when the input control detects that the user has tried to enter an invalid value.
-
-#### Event Data
-
-##### sender `Telerik.Web.UI.RadInputComponent`
-
-The RadInputComponenet instance raised the event.
-
-##### args `Telerik.Web.UI.InputManagerErrorEventArgs`
-
-The event arguments. 
-
-### focus
-
-Occurs when the element obtain focus.
-
-#### Event Data
-
-##### sender `Telerik.Web.UI.RadInputComponent`
-
-The RadInputComponenet instance raised the event.
-
-##### args `Telerik.Web.UI.InputManagerEventArgs`
-
-The event arguments. 
 
 ### validating
 
@@ -581,6 +541,48 @@ The RadInputComponenet instance raised the event.
 
 The event arguments. 
 
+### blur
+
+Occurs when the element is blurred. 
+
+#### Event Data
+
+##### sender `Telerik.Web.UI.RadInputComponent`
+
+The RadInputComponenet instance raised the event.
+
+##### args `Telerik.Web.UI.InputManagerEventArgs`
+
+The event arguments. 
+
+### focus
+
+Occurs when the element obtain focus.
+
+#### Event Data
+
+##### sender `Telerik.Web.UI.RadInputComponent`
+
+The RadInputComponenet instance raised the event.
+
+##### args `Telerik.Web.UI.InputManagerEventArgs`
+
+The event arguments. 
+
+### error
+
+Occurs when the input control detects that the user has tried to enter an invalid value.
+
+#### Event Data
+
+##### sender `Telerik.Web.UI.RadInputComponent`
+
+The RadInputComponenet instance raised the event.
+
+##### args `Telerik.Web.UI.InputManagerErrorEventArgs`
+
+The event arguments. 
+
 ### valueChanged
 
 Occurs when the values has changed.
@@ -594,3 +596,4 @@ The RadInputComponenet instance raised the event.
 ##### args `Telerik.Web.UI.InputManagerValueChangedEventArgs`
 
 The event arguments.
+

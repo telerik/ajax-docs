@@ -12,19 +12,8 @@ slug: Telerik.Web.UI.EditorUpdateableDropDown
 * [Telerik.Web.UI.EditorDropDown]({%slug Telerik.Web.UI.EditorDropDown%})
 * *[Telerik.Web.UI.EditorUpdateableDropDown]({%slug Telerik.Web.UI.EditorUpdateableDropDown%})*
 
+
 ## Methods
-
-### updateValue
-
-Updates the value of the tool.
-
-#### Parameters
-
-##### value `String`
-
-#### Returns
-
-`None` 
 
 ### get_value
 
@@ -47,3 +36,16 @@ Sets the value of the tool.
 #### Returns
 
 `None` 
+### updateValue
+
+Updates the value of the tool.
+
+#### Parameters
+
+##### value `String`
+
+#### Returns
+
+`None` 
+
+

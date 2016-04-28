@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.GridCellSelectCancelEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.GridCellSelectCancelEventArgs]({%slug Telerik.Web.UI.GridCellSelectCancelEventArgs%})*
 
+
 ## Methods
 
 ###  get_column
@@ -24,7 +25,7 @@ Returns a reference to the GridColumn
 
 `Telerik.Web.UI.GridColumn` 
 
-###  get_gridDataItem
+### get_gridDataItem
 
 Returns a reference to the GridDataItem object.
 
@@ -34,7 +35,7 @@ Returns a reference to the GridDataItem object.
 
 `Telerik.Web.UI.GridDataItem` 
 
-###  get_row
+### get_row
 
 Returns a reference to the DOM element of the GridDataItem object.
 
@@ -43,5 +44,6 @@ Returns a reference to the DOM element of the GridDataItem object.
 #### Returns
 
 `Element` 
+
 
 

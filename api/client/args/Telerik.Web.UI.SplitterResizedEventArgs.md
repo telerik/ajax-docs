@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.SplitterResizedEventArgs
 * Sys.EventArgs
 * *[Telerik.Web.UI.SplitterResizedEventArgs]({%slug Telerik.Web.UI.SplitterResizedEventArgs%})*
 
+
 ## Methods
 
 ###  get_oldWidth
@@ -24,7 +25,7 @@ Returns the width of the Splitter before the resizing.
 
 `Number`
 
-###  get_oldHeight
+### get_oldHeight
 
 Returns the height of the Splitter before the resizing.
 
@@ -33,3 +34,4 @@ Returns the height of the Splitter before the resizing.
 #### Returns
 
 `Number`
+

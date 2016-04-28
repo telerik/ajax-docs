@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.ButtonBase.CheckableButton
 * [Telerik.Web.UI.ButtonBase.RadButtonBase]({%slug Telerik.Web.UI.ButtonBase.RadButtonBase%})
 * *[Telerik.Web.UI.ButtonBase.CheckableButton]({%slug Telerik.Web.UI.ButtonBase.CheckableButton%})*
 
+
 ## Methods
 
 ### get_checked
@@ -37,6 +38,7 @@ A bool value indicating whether the RadButton control is checked.
 #### Returns
 
 `None`
+
 
 ## Events
 
@@ -67,3 +69,4 @@ The instance of the control raised the event.
 ##### args `Telerik.Web.UI.ButtonCheckedCancelEventArgs`
 
 The event arguments.
+

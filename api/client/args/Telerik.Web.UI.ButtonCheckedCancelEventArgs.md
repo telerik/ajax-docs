@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.ButtonCheckedCancelEventArgs
 * [Telerik.Web.UI.ButtonCancelEventArgs]({%slug Telerik.Web.UI.ButtonCancelEventArgs%})
 * *[Telerik.Web.UI.ButtonCheckedCancelEventArgs]({%slug Telerik.Web.UI.ButtonCheckedCancelEventArgs%})*
 
+
 ## Methods
 
 ###  get_toggleType
@@ -24,7 +25,7 @@ Returns the ButtonToggleType of the RadButton.
 
 `Telerik.Web.UI.ButtonToggleType` 
 
-###  set_toggleType
+### set_toggleType
 
 Sets the ButtonToggleType of the RadButton.
 
@@ -37,3 +38,4 @@ The new ButtonToggleType type.
 #### Returns
 
 `None` 
+

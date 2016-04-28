@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.RadDatePicker
 * [Telerik.Web.UI.RadWebControl]({%slug Telerik.Web.UI.RadWebControl%})
 * *[Telerik.Web.UI.RadDatePicker]({%slug Telerik.Web.UI.RadDatePicker%})*
 
+
 ## Methods
 
 ###  clear
@@ -24,7 +25,167 @@ Clears the selection, leaving the value as unassigned.
 
 `None` 
 
-###  getElementDimensions
+### get_calendar
+
+Returns a reference to the client object for the popup calendar.
+
+#### Parameters
+
+#### Returns
+
+`Telerik.Web.UI.RadCalendar` 
+
+### get_dateInput
+
+Returns a reference to the client object for the input area. For details on using this object, see the RadInput documentation.
+
+#### Parameters
+
+#### Returns
+
+`Telerik.Web.UI.RadDateInput` 
+
+### get_enabled
+
+Returns true if the control is enabled
+
+#### Parameters
+
+#### Returns
+
+`Boolean` 
+
+### get_enableScreenBoundaryDetection
+
+Returns whether the screen boundary detection will be applied.
+
+#### Parameters
+
+#### Returns
+
+`Boolean` 
+
+### get_focusedDate
+
+Returns the date that determines the view the popup calendar uses when the value of the date picker is not assigned.
+
+#### Parameters
+
+#### Returns
+
+`Date` 
+
+### get_maxDate
+
+Returns the latest date the user can select.
+
+#### Parameters
+
+#### Returns
+
+`Date` 
+
+### get_maxDateStr
+
+Returns the latest date the user can select as string.
+
+#### Parameters
+
+#### Returns
+
+`String` 
+
+### get_minDate
+
+Returns the earliest date the user can select.
+
+#### Parameters
+
+#### Returns
+
+`Date` 
+
+### get_minDateStr
+
+Returns the earliest date the user can select as string.
+
+#### Parameters
+
+#### Returns
+
+`String` 
+
+### get_popupButton
+
+Returns the DOM element for the calendar popup button.
+
+#### Parameters
+
+#### Returns
+
+`Object` 
+
+### get_popupContainer
+
+Returns the DOM element for the DIV element that contains the popup calendar.
+
+#### Parameters
+
+#### Returns
+
+`Object` 
+
+### get_popupDirection
+
+Set the popup direction
+
+#### Parameters
+
+#### Returns
+
+`String` 
+
+### get_selectedDate
+
+Returns the selected date, or null if no date is selected.
+
+#### Parameters
+
+#### Returns
+
+`Date` 
+
+### get_showPopupOnFocus
+
+Returns whether the popup control (Calendar or TimeView) will be displayed when the DateInput textbox is focused.
+
+#### Parameters
+
+#### Returns
+
+`Boolean` 
+
+### get_textBox
+
+Returns the DOM element for the text box that implements the input area.
+
+#### Parameters
+
+#### Returns
+
+`Object` 
+
+### get_visible
+
+Returns whether the control is visible
+
+#### Parameters
+
+#### Returns
+
+`Boolean` 
+
+### getElementDimensions
 
 Returns the dimensions of the specified child element.
 
@@ -36,7 +197,7 @@ Returns the dimensions of the specified child element.
 
 `Array` 
 
-###  getElementPosition
+### getElementPosition
 
 Returns the x and y coordinates of the specified child element.
 
@@ -48,167 +209,7 @@ Returns the x and y coordinates of the specified child element.
 
 `Array` 
 
-###  get_calendar
-
-Returns a reference to the client object for the popup calendar.
-
-#### Parameters
-
-#### Returns
-
-`Telerik.Web.UI.RadCalendar` 
-
-###  get_dateInput
-
-Returns a reference to the client object for the input area. For details on using this object, see the RadInput documentation.
-
-#### Parameters
-
-#### Returns
-
-`Telerik.Web.UI.RadDateInput` 
-
-###  get_enableScreenBoundaryDetection
-
-Returns whether the screen boundary detection will be applied.
-
-#### Parameters
-
-#### Returns
-
-`Boolean` 
-
-###  get_enabled
-
-Returns true if the control is enabled
-
-#### Parameters
-
-#### Returns
-
-`Boolean` 
-
-###  get_focusedDate
-
-Returns the date that determines the view the popup calendar uses when the value of the date picker is not assigned.
-
-#### Parameters
-
-#### Returns
-
-`Date` 
-
-###  get_maxDate
-
-Returns the latest date the user can select.
-
-#### Parameters
-
-#### Returns
-
-`Date` 
-
-###  get_maxDateStr
-
-Returns the latest date the user can select as string.
-
-#### Parameters
-
-#### Returns
-
-`String` 
-
-###  get_minDate
-
-Returns the earliest date the user can select.
-
-#### Parameters
-
-#### Returns
-
-`Date` 
-
-###  get_minDateStr
-
-Returns the earliest date the user can select as string.
-
-#### Parameters
-
-#### Returns
-
-`String` 
-
-###  get_popupButton
-
-Returns the DOM element for the calendar popup button.
-
-#### Parameters
-
-#### Returns
-
-`Object` 
-
-###  get_popupContainer
-
-Returns the DOM element for the DIV element that contains the popup calendar.
-
-#### Parameters
-
-#### Returns
-
-`Object` 
-
-###  get_popupDirection
-
-Set the popup direction
-
-#### Parameters
-
-#### Returns
-
-`String` 
-
-###  get_selectedDate
-
-Returns the selected date, or null if no date is selected.
-
-#### Parameters
-
-#### Returns
-
-`Date` 
-
-###  get_showPopupOnFocus
-
-Returns whether the popup control (Calendar or TimeView) will be displayed when the DateInput textbox is focused.
-
-#### Parameters
-
-#### Returns
-
-`Boolean` 
-
-###  get_textBox
-
-Returns the DOM element for the text box that implements the input area.
-
-#### Parameters
-
-#### Returns
-
-`Object` 
-
-###  get_visible
-
-Returns whether the control is visible
-
-#### Parameters
-
-#### Returns
-
-`Boolean` 
-
-###  hidePopup
+### hidePopup
 
 Hides the popup calendar if it is showing.
 
@@ -218,7 +219,7 @@ Hides the popup calendar if it is showing.
 
 `None` 
 
-###  isEmpty
+### isEmpty
 
 Returns true if the value is unassigned.
 
@@ -228,7 +229,7 @@ Returns true if the value is unassigned.
 
 `None` 
 
-###  isPopupVisible
+### isPopupVisible
 
 Returns whether the popup calendar is visible.
 
@@ -238,7 +239,7 @@ Returns whether the popup calendar is visible.
 
 `None` 
 
-###  repaint
+### repaint
 
 Repaints the control
 
@@ -248,7 +249,7 @@ Repaints the control
 
 `None` 
 
-###  set_calendar
+### set_calendar
 
 #### Parameters
 
@@ -256,7 +257,7 @@ Repaints the control
 
 `None` 
 
-###  set_dateInput
+### set_dateInput
 
 #### Parameters
 
@@ -264,19 +265,7 @@ Repaints the control
 
 `None` 
 
-###  set_enableScreenBoundaryDetection
-
-Sets whether the screen boundary detection will be applied.
-
-#### Parameters
-
-##### value `Boolean`
-
-#### Returns
-
-`None` 
-
-###  set_enabled
+### set_enabled
 
 Enables/disables the control
 
@@ -288,7 +277,19 @@ Enables/disables the control
 
 `None` 
 
-###  set_focusedDate
+### set_enableScreenBoundaryDetection
+
+Sets whether the screen boundary detection will be applied.
+
+#### Parameters
+
+##### value `Boolean`
+
+#### Returns
+
+`None` 
+
+### set_focusedDate
 
 Sets the date that determines the view the popup calendar uses when the value of the date picker is not assigned.
 
@@ -300,7 +301,7 @@ Sets the date that determines the view the popup calendar uses when the value of
 
 `None` 
 
-###  set_maxDate
+### set_maxDate
 
 Sets the latest date the user can select.
 
@@ -312,7 +313,7 @@ Sets the latest date the user can select.
 
 `None` 
 
-###  set_minDate
+### set_minDate
 
 Sets the earliest date the user can select.
 
@@ -324,7 +325,7 @@ Sets the earliest date the user can select.
 
 `None` 
 
-###  set_popupDirection
+### set_popupDirection
 
 Returns the popup direction
 
@@ -336,7 +337,7 @@ Returns the popup direction
 
 `None` 
 
-###  set_selectedDate
+### set_selectedDate
 
 Assigns the value of the date picker.
 
@@ -348,7 +349,7 @@ Assigns the value of the date picker.
 
 `None` 
 
-###  set_showPopupOnFocus
+### set_showPopupOnFocus
 
 Sets whether the popup control (Calendar or TimeView) will be displayed when the DateInput textbox is focused.
 
@@ -360,7 +361,7 @@ Sets whether the popup control (Calendar or TimeView) will be displayed when the
 
 `None` 
 
-###  set_visible
+### set_visible
 
 Shows/hides the control
 
@@ -372,7 +373,7 @@ Shows/hides the control
 
 `None` 
 
-###  showPopup
+### showPopup
 
 Displays the popup calendar at the specified coordinates. If the two parameters are omitted, the popup appears below the input area.
 
@@ -386,7 +387,7 @@ Displays the popup calendar at the specified coordinates. If the two parameters 
 
 `None` 
 
-###  togglePopup
+### togglePopup
 
 Toggles the visible state of the popup calendar.
 
@@ -395,6 +396,7 @@ Toggles the visible state of the popup calendar.
 #### Returns
 
 `None` 
+
 
 
 ## Events
@@ -413,6 +415,19 @@ The instance of the RadDatePicker raised the event.
 
 The event arguments.
 
+### popupClosing
+
+The popupClosing event is fired immediately before a popup calendar or time view is closed.
+
+#### Event Data
+
+##### sender `Telerik.Web.UI.RadDatePicker`
+
+The instance of the RadDatePicker raised the event.
+
+##### args `Telerik.Web.UI.DatePickerPopupClosingEventArgs`
+
+The event arguments.
 ### popupOpening
 
 The popupOpening event is fired immediately before a popup calendar or time view is initialized to the current selection in the input area and then displayed.
@@ -427,16 +442,4 @@ The instance of the RadDatePicker raised the event.
 
 The event arguments.
 
-### popupClosing
 
-The popupClosing event is fired immediately before a popup calendar or time view is closed.
-
-#### Event Data
-
-##### sender `Telerik.Web.UI.RadDatePicker`
-
-The instance of the RadDatePicker raised the event.
-
-##### args `Telerik.Web.UI.DatePickerPopupClosingEventArgs`
-
-The event arguments.

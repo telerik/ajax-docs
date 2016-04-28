@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.DropDownListItemsRequestingEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.DropDownListItemsRequestingEventArgs]({%slug Telerik.Web.UI.DropDownListItemsRequestingEventArgs%})*
 
+
 ## Methods
 
 ###  get_context
@@ -24,7 +25,7 @@ Returns the object that is passed to the server-side code that handles the reque
 
 `Object` that is passed to the server-side code that handles the request for items. 
 
-###  get_domEvent
+### get_domEvent
 
 Returns the Sys.UI.DomEvent instance associated to the raised event.
 
@@ -33,4 +34,5 @@ Returns the Sys.UI.DomEvent instance associated to the raised event.
 #### Returns
 
 `Sys.UI.DomEvent` 
+
 

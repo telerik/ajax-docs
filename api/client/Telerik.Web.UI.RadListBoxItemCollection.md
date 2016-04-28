@@ -12,7 +12,22 @@ slug: Telerik.Web.UI.RadListBoxItemCollection
 * [Telerik.Web.UI.ControlItemCollection]({%slug Telerik.Web.UI.ControlItemCollection%})
 * *[Telerik.Web.UI.RadListBoxItemCollection]({%slug Telerik.Web.UI.RadListBoxItemCollection%})*
 
+
 ## Methods
+
+### add
+
+Adds an item to the Items collection. 
+
+#### Parameters
+
+##### item `Telerik.Web.UI.RadListBoxItem`
+
+The item that will ba added.
+
+#### Returns
+
+`None` 
 
 ### clear
 
@@ -76,34 +91,6 @@ Indicates the last N items that should be returned
 
 `None` 
 
-###  removeAt
-
-Removes the item at the specified index.
-
-#### Parameters
-
-##### index `Number`
-
- The index to remove at
-
-#### Returns
-
-`None` 
-
-### add
-
-Adds an item to the Items collection. 
-
-#### Parameters
-
-##### item `Telerik.Web.UI.RadListBoxItem`
-
-The item that will ba added.
-
-#### Returns
-
-`None` 
-
 ### getItem
 
 Gets the item from the Items collection residing at the index specified by the parameter.
@@ -117,3 +104,18 @@ The index of the Item that should be returned.
 #### Returns
 
 item `Telerik.Web.UI.RadListBoxItem`
+### removeAt
+
+Removes the item at the specified index.
+
+#### Parameters
+
+##### index `Number`
+
+ The index to remove at
+
+#### Returns
+
+`None` 
+
+

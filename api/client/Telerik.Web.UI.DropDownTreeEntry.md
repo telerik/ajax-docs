@@ -11,6 +11,7 @@ slug: Telerik.Web.UI.DropDownTreeEntry
 
 * *[Telerik.Web.UI.DropDownTreeEntry]({%slug Telerik.Web.UI.DropDownTreeEntry%})*
 
+
 ## Methods
 
 ###  get_value
@@ -22,5 +23,6 @@ Returns the value of the selected entry
 #### Returns
 
 `String` 
+
 
 

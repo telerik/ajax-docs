@@ -10,9 +10,37 @@ slug: Telerik.Web.UI.RadContextMenu
 ## Inheritance Hierarchy
 
 * [Telerik.Web.UI.RadMenu]({%slug Telerik.Web.UI.RadMenu%})
-* *[Telerik.Web.UI.RadContextMenu]({%slug Telerik.Web.UI.RadContextMenu%})*
+* *[Telerik.Web.UI.RadContextMenu]({%slug Telerik.Web.UI.RadContextMenu%})*## 
 
 ##Events
+
+### hiding 
+
+The hidden event is fired immediately before the context menu disappears.  
+
+#### Event Data
+
+##### sender `Telerik.Web.UI.RadContextMenu`
+
+The RadContextMenu that fired the event.
+
+##### args `Telerik.Web.UI.RadContextMenuCancelEventArgs`
+
+The event arguments for the event.
+
+### hidden 
+
+The hidden event is fired when the context menu disappears.  
+
+#### Event Data
+
+##### sender `Telerik.Web.UI.RadContextMenu`
+
+The RadContextMenu that fired the event.
+
+##### args `Telerik.Web.UI.RadContextMenuEventArgs`
+
+The event arguments for the event.
 
 ### showing 
 
@@ -42,31 +70,4 @@ The RadContextMenu that fired the event.
 
 The event arguments for the event.
 
-### hidden 
-
-The hidden event is fired when the context menu disappears.  
-
-#### Event Data
-
-##### sender `Telerik.Web.UI.RadContextMenu`
-
-The RadContextMenu that fired the event.
-
-##### args `Telerik.Web.UI.RadContextMenuEventArgs`
-
-The event arguments for the event.
-
-### hiding 
-
-The hidden event is fired immediately before the context menu disappears.  
-
-#### Event Data
-
-##### sender `Telerik.Web.UI.RadContextMenu`
-
-The RadContextMenu that fired the event.
-
-##### args `Telerik.Web.UI.RadContextMenuCancelEventArgs`
-
-The event arguments for the event.
 

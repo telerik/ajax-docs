@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.AjaxRequestEventArgs
 * Sys.EventArgs
 * *[Telerik.Web.UI.AjaxRequestEventArgs]({%slug Telerik.Web.UI.AjaxRequestEventArgs%})*
 
+
 ## Methods
 
 ###  get_enableAjax
@@ -24,7 +25,7 @@ Retuns a Boolean value indicating if the RadAjax ajax is enabled
 
 `Boolean` 
 
-###  get_eventArgument
+### get_eventArgument
 
 Gets the string passed in the initial AJAX request.
 
@@ -34,7 +35,7 @@ Gets the string passed in the initial AJAX request.
 
 `String` 
 
-###  get_eventTarget
+### get_eventTarget
 
 Gets the UniqueID of the element that had raised the request.
 
@@ -44,7 +45,7 @@ Gets the UniqueID of the element that had raised the request.
 
 `Object` 
 
-###  get_eventTargetElement
+### get_eventTargetElement
 
 Gets the instance of the client-side object that raised the AJAX request. You can iterate each of the settings and retrieve the initiating control id and yet another array of objects that represent updated controls.
 
@@ -54,7 +55,7 @@ Gets the instance of the client-side object that raised the AJAX request. You ca
 
 `Object` 
 
-###  set_enableAjax
+### set_enableAjax
 
 Accepts a Boolean value indicating if the RadAjax ajax is enabled
 
@@ -64,5 +65,6 @@ Accepts a Boolean value indicating if the RadAjax ajax is enabled
 #### Returns
 
 `Boolean` 
+
 
 

@@ -12,17 +12,8 @@ slug: Telerik.Web.UI.RibbonBarLauncherClickingEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.RibbonBarLauncherClickingEventArgs]({%slug Telerik.Web.UI.RibbonBarLauncherClickingEventArgs%})*
 
+
 ## Methods
-
-### get_group
-
-returns a reference to the ribbonbar group that was clicked.
-
-#### Parameters
-
-#### Returns
-
-`Telerik.Web.UI.RibbonBarGroup`
 
 ### get_domEvent
 
@@ -33,3 +24,14 @@ Returns a reference to the RibbonBar menu item that was clicked.
 #### Returns
 
 `Sys.UI.DomEvent` 
+### get_group
+
+returns a reference to the ribbonbar group that was clicked.
+
+#### Parameters
+
+#### Returns
+
+`Telerik.Web.UI.RibbonBarGroup`
+
+

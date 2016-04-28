@@ -11,6 +11,8 @@ slug: Telerik.Web.UI.OrgChartGroupItemCollection
 
 * *[Telerik.Web.UI.OrgChartGroupItemCollection]({%slug Telerik.Web.UI.OrgChartGroupItemCollection%})*
 
-## Methods
+
+Methods
+
 
 

@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.MonthYearPickerMonthSelectedEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.MonthYearPickerMonthSelectedEventArgs]({%slug Telerik.Web.UI.MonthYearPickerMonthSelectedEventArgs%})*
 
+
 ## Methods
 
 ###  get_newDate
@@ -24,7 +25,7 @@ Returns the new date.
 
 `Date` 
 
-###  get_oldDate
+### get_oldDate
 
 Returns the previously selected date.
 
@@ -34,7 +35,7 @@ Returns the previously selected date.
 
 `Date` 
 
-###  get_selectedCell
+### get_selectedCell
 
 Returns the selected cell.
 
@@ -43,5 +44,6 @@ Returns the selected cell.
 #### Returns
 
 `Element` 
+
 
 

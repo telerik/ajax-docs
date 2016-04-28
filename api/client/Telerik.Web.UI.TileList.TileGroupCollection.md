@@ -11,6 +11,7 @@ slug: Telerik.Web.UI.TileList.TileGroupCollection
 
 * *[Telerik.Web.UI.TileList.TileGroupCollection]({%slug Telerik.Web.UI.TileList.TileGroupCollection%})*
 
+
 ## Methods
 
 ###  getItem
@@ -25,7 +26,7 @@ Returns group at the passed index in the collectoin returned by the get_groups R
 
 `Object` 
 
-###  get_count
+### get_count
 
 Returns the number of tile groups in the RadTileList
 
@@ -35,7 +36,7 @@ Returns the number of tile groups in the RadTileList
 
 `Object` 
 
-###  indexOf
+### indexOf
 
 Returns the index of the group passed as a parameter. Returns -1 if there is no match.
 
@@ -46,5 +47,6 @@ Returns the index of the group passed as a parameter. Returns -1 if there is no 
 #### Returns
 
 `Object` 
+
 
 

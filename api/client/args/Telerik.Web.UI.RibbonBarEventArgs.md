@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.RibbonBarEventArgs
 * Sys.EventArgs
 * *[Telerik.Web.UI.RibbonBarEventArgs]({%slug Telerik.Web.UI.RibbonBarEventArgs%})*
 
+
 ## Methods
 
 ### get_commandName
@@ -23,3 +24,4 @@ Returns the value assigned to the RadButton's CommandName property.
 #### Returns
 
 `String` 
+

@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.TileListDataEventArgs
 * Sys.EventArgs
 * *[Telerik.Web.UI.TileListDataEventArgs]({%slug Telerik.Web.UI.TileListDataEventArgs%})*
 
+
 ## Methods
 
 ###  get_tile
@@ -24,7 +25,7 @@ Gets the client-side object of the bound tile.
 
 `Telerik.Web.UI.RadBaseTile` 
 
-###  get_dataItem
+### get_dataItem
 
 Gets the data source object.
 
@@ -33,3 +34,4 @@ Gets the data source object.
 #### Returns
 
 `Object` 
+

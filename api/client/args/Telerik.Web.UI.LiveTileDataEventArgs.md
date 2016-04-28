@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.LiveTileDataEventArgs
 * Sys.EventArgs
 * *[Telerik.Web.UI.LiveTileDataEventArgs]({%slug Telerik.Web.UI.LiveTileDataEventArgs%})*
 
+
 ## Methods
 
 ### get_data
@@ -37,6 +38,7 @@ The data object to be bound with.
 #### Returns
 
 `None` 
+
 
 
 

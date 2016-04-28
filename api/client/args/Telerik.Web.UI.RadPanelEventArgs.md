@@ -11,3 +11,4 @@ slug: Telerik.Web.UI.RadPanelEventArgs
 
 * Sys.EventArgs
 * *[Telerik.Web.UI.RadPanelEventArgs]({%slug Telerik.Web.UI.RadPanelEventArgs%})*
+

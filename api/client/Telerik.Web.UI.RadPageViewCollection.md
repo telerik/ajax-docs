@@ -11,6 +11,7 @@ slug: Telerik.Web.UI.RadPageViewCollection
 
 * *[Telerik.Web.UI.RadPageViewCollection]({%slug Telerik.Web.UI.RadPageViewCollection%})*
 
+
 ## Methods
 
 ###  add
@@ -27,7 +28,17 @@ Adds the specified pageview to the collection.
 
 `None` 
 
-###  getPageView
+### get_count
+
+Gets the number of pageviews in the collection.
+
+#### Parameters
+
+#### Returns
+
+`Number`  The number of pageviews in the collection 
+
+### getPageView
 
 Gets the pageview at the specified index in the collection.
 
@@ -41,17 +52,7 @@ Gets the pageview at the specified index in the collection.
 
 `Telerik.Web.UI.RadPageView`  The pageview at the specified index. 
 
-###  get_count
-
-Gets the number of pageviews in the collection.
-
-#### Parameters
-
-#### Returns
-
-`Number`  The number of pageviews in the collection 
-
-###  insert
+### insert
 
 Inserts the specified pageview at the specified index in the collection.
 
@@ -69,7 +70,7 @@ Inserts the specified pageview at the specified index in the collection.
 
 `None` 
 
-###  remove
+### remove
 
 Removes the specified pageview to the collection.
 
@@ -83,7 +84,7 @@ Removes the specified pageview to the collection.
 
 `None` 
 
-###  removeAt
+### removeAt
 
 Removes the pageview at the specified index from the collection.
 
@@ -96,5 +97,6 @@ Removes the pageview at the specified index from the collection.
 #### Returns
 
 `None` 
+
 
 

@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.RadGantt
 * [Telerik.Web.UI.RadWebControl]({%slug Telerik.Web.UI.RadWebControl%})
 * *[Telerik.Web.UI.RadGantt]({%slug Telerik.Web.UI.RadGantt%})*
 
+
 ## Methods
 
 ### get_allowColumnResize
@@ -23,6 +24,166 @@ True if the allowColumnResize property is enabled, false otherwise.
 #### Returns
 
 `Boolean` Boolean
+
+### get_clientTemplate
+
+Returns the value of the Gantts's clientTemplate property.
+
+#### Parameters
+
+#### Returns
+
+`String` String 
+
+### get_currentTimeMarkerInterval
+
+Returns the value of the Gantts's currentTimeMarkerInterval property.
+
+#### Parameters
+
+#### Returns
+
+Number `Number` 
+
+### get_displayDeleteConfirmation
+
+True if the displayDeleteConfirmation property is enabled, false otherwise.
+
+#### Parameters
+
+#### Returns
+
+`Boolean` Boolean
+
+### get_height
+
+Returns the value of the Gantts's height property.
+
+#### Parameters
+
+#### Returns
+
+Number `Number` 
+
+### get_hourSpan
+
+Returns the value of the Gantts's hourSpan property.
+
+#### Parameters
+
+#### Returns
+
+Number `Number` 
+
+### get_listWidth
+
+Returns the value of the RadGantt's listWidth property.
+
+#### Parameters
+
+#### Returns
+
+`String` String 
+
+### get_readOnly
+
+Returns the value of the Gantt's readOnly property indicating whether the control is read-only.
+
+#### Parameters
+
+#### Returns
+
+`Boolean` Boolean
+
+### get_rowHeight
+
+Returns the value of the Gantts's rowHeight property.
+
+#### Parameters
+
+#### Returns
+
+Number `Number` 
+
+### get_showCurrentTimeMarker
+
+Returns the value of the Gantt's showCurrentTimeMarker property.
+
+#### Parameters
+
+#### Returns
+
+`Boolean` Boolean
+
+### get_showFullTime
+
+Returns the value of the Gantt's showFullTime property.
+
+#### Parameters
+
+#### Returns
+
+`Boolean` Boolean
+
+### get_showFullWeek
+
+Returns the value of the Gantt's showFullWeek property.
+
+#### Parameters
+
+#### Returns
+
+`Boolean` Boolean
+
+### get_showTooltip
+
+Returns the value of the Gantt's showTooltip property.
+
+#### Parameters
+
+#### Returns
+
+`Boolean` Boolean
+
+### get_snapToGrid
+
+Returns the value of the Gantt's snapToGrid property.
+
+#### Parameters
+
+#### Returns
+
+`Boolean` Boolean
+
+### get_width
+
+Returns the value of the Gantts's width property.
+
+#### Parameters
+
+#### Returns
+
+Number `Number` 
+
+### get_workWeekEnd
+
+Returns the value of the RadGantt's workWeekEnd property.
+
+#### Parameters
+
+#### Returns
+
+`Telerik.Web.UI.DayOfWeek` Telerik.Web.UI.DayOfWeek 
+
+### get_workWeekStart
+
+Returns the value of the RadGantt's workWeekStart property.
+
+#### Parameters
+
+#### Returns
+
+`Telerik.Web.UI.DayOfWeek` Telerik.Web.UI.DayOfWeek 
 
 ### set_allowColumnResize
 
@@ -38,16 +199,6 @@ value
 
 `None` 
 
-### get_clientTemplate
-
-Returns the value of the Gantts's clientTemplate property.
-
-#### Parameters
-
-#### Returns
-
-`String` String 
-
 ### set_clientTemplate
 
 Sets the value of the Gantts's clientTemplate property.
@@ -61,16 +212,6 @@ value
 #### Returns
 
 `None`
-
-### get_currentTimeMarkerInterval
-
-Returns the value of the Gantts's currentTimeMarkerInterval property.
-
-#### Parameters
-
-#### Returns
-
-Number `Number` 
 
 ### set_currentTimeMarkerInterval
 
@@ -86,16 +227,6 @@ value
 
 `None`
 
-### get_displayDeleteConfirmation
-
-True if the displayDeleteConfirmation property is enabled, false otherwise.
-
-#### Parameters
-
-#### Returns
-
-`Boolean` Boolean
-
 ### set_displayDeleteConfirmation
 
 Enables/Disables confirmation dialog when the user deletes a task or a dependency.
@@ -109,16 +240,6 @@ value
 #### Returns
 
 `None` 
-
-### get_height
-
-Returns the value of the Gantts's height property.
-
-#### Parameters
-
-#### Returns
-
-Number `Number` 
 
 ### set_height
 
@@ -134,16 +255,6 @@ value
 
 `None`
 
-### get_hourSpan
-
-Returns the value of the Gantts's hourSpan property.
-
-#### Parameters
-
-#### Returns
-
-Number `Number` 
-
 ### set_hourSpan
 
 Sets the value of the Gantts's hourSpan property.
@@ -157,16 +268,6 @@ value
 #### Returns
 
 `None`
-
-### get_listWidth
-
-Returns the value of the RadGantt's listWidth property.
-
-#### Parameters
-
-#### Returns
-
-`String` String 
 
 ### set_listWidth
 
@@ -182,16 +283,6 @@ value
 
 `None`
 
-### get_readOnly
-
-Returns the value of the Gantt's readOnly property indicating whether the control is read-only.
-
-#### Parameters
-
-#### Returns
-
-`Boolean` Boolean
-
 ### set_readOnly
 
 Sets or disables the Gantt's read-only state.
@@ -205,16 +296,6 @@ value
 #### Returns
 
 `None` 
-
-### get_rowHeight
-
-Returns the value of the Gantts's rowHeight property.
-
-#### Parameters
-
-#### Returns
-
-Number `Number` 
 
 ### set_rowHeight
 
@@ -230,40 +311,6 @@ value
 
 `None`
 
-### get_snapToGrid
-
-Returns the value of the Gantt's snapToGrid property.
-
-#### Parameters
-
-#### Returns
-
-`Boolean` Boolean
-
-### set_snapToGrid
-
-Enables/Disables the Gantt tasks snapping to the nearest grid cell.
-
-#### Parameters
-
-##### value `Boolean`
-
-value
-
-#### Returns
-
-`None` 
-
-### get_showCurrentTimeMarker
-
-Returns the value of the Gantt's showCurrentTimeMarker property.
-
-#### Parameters
-
-#### Returns
-
-`Boolean` Boolean
-
 ### set_showCurrentTimeMarker
 
 Shows/Hides the Gantt's current time marker.
@@ -277,16 +324,6 @@ value
 #### Returns
 
 `None` 
-
-### get_showFullTime
-
-Returns the value of the Gantt's showFullTime property.
-
-#### Parameters
-
-#### Returns
-
-`Boolean` Boolean
 
 ### set_showFullTime
 
@@ -302,16 +339,6 @@ value
 
 `None` 
 
-### get_showFullWeek
-
-Returns the value of the Gantt's showFullWeek property.
-
-#### Parameters
-
-#### Returns
-
-`Boolean` Boolean
-
 ### set_showFullWeek
 
 Enables displaying all days of the Gantt's week or diplays the range between WorkWeekStart and WorkWeekEnd.
@@ -325,16 +352,6 @@ value
 #### Returns
 
 `None` 
-
-### get_showTooltip
-
-Returns the value of the Gantt's showTooltip property.
-
-#### Parameters
-
-#### Returns
-
-`Boolean` Boolean
 
 ### set_showTooltip
 
@@ -350,15 +367,19 @@ value
 
 `None` 
 
-### get_width
+### set_snapToGrid
 
-Returns the value of the Gantts's width property.
+Enables/Disables the Gantt tasks snapping to the nearest grid cell.
 
 #### Parameters
 
+##### value `Boolean`
+
+value
+
 #### Returns
 
-Number `Number` 
+`None` 
 
 ### set_width
 
@@ -374,15 +395,19 @@ value
 
 `None`
 
-### get_workWeekStart
+### set_workWeekEnd
 
-Returns the value of the RadGantt's workWeekStart property.
+Sets the Gantts's last day of the work week.
 
 #### Parameters
 
+##### value `Telerik.Web.UI.DayOfWeek`
+
+value
+
 #### Returns
 
-`Telerik.Web.UI.DayOfWeek` Telerik.Web.UI.DayOfWeek 
+`None`
 
 ### set_workWeekStart
 
@@ -398,35 +423,12 @@ value
 
 `None`
 
-### get_workWeekEnd
-
-Returns the value of the RadGantt's workWeekEnd property.
-
-#### Parameters
-
-#### Returns
-
-`Telerik.Web.UI.DayOfWeek` Telerik.Web.UI.DayOfWeek 
-
-### set_workWeekEnd
-
-Sets the Gantts's last day of the work week.
-
-#### Parameters
-
-##### value `Telerik.Web.UI.DayOfWeek`
-
-value
-
-#### Returns
-
-`None`
 
 ## Events
 
-### clientTaskMoveStart 
+### clientNavigationCommand 
 
-Occurs when the Task moving is started.
+Occurs when the current View is changed. 
 
 #### Event Data
 
@@ -434,10 +436,9 @@ Occurs when the Task moving is started.
 
 The instance of the RadGantt raised the event.
 
-##### args `Telerik.Web.UI.GanttTaskMoveStartEventArgs`
+##### args `Telerik.Web.UI.GanttNavigationCommandEventArgs`
 
 The event arguments.  
-
 ### clientTaskMoving 
 
 Occurs when the Task is just about to be moved.
@@ -449,34 +450,6 @@ Occurs when the Task is just about to be moved.
 The instance of the RadGantt raised the event.
 
 ##### args `Telerik.Web.UI.GanttTaskMovingEventArgs`
-
-The event arguments.  
-
-### clientTaskMoveEnd 
-
-Occurs when the Task moving is ended.
-
-#### Event Data
-
-##### sender `Telerik.Web.UI.RadGantt`
-
-The instance of the RadGantt raised the event.
-
-##### args `Telerik.Web.UI.GanttTaskMoveEndEventArgs`
-
-The event arguments.  
-
-### clientTaskResizeStart 
-
-Occurs when the Task resizing is started.
-
-#### Event Data
-
-##### sender `Telerik.Web.UI.RadGantt`
-
-The instance of the RadGantt raised the event.
-
-##### args `Telerik.Web.UI.GanttTaskResizeStartEventArgs`
 
 The event arguments.  
 
@@ -494,6 +467,34 @@ The instance of the RadGantt raised the event.
 
 The event arguments.  
 
+### clientTaskMoveEnd 
+
+Occurs when the Task moving is ended.
+
+#### Event Data
+
+##### sender `Telerik.Web.UI.RadGantt`
+
+The instance of the RadGantt raised the event.
+
+##### args `Telerik.Web.UI.GanttTaskMoveEndEventArgs`
+
+The event arguments.  
+
+### clientTaskMoveStart 
+
+Occurs when the Task moving is started.
+
+#### Event Data
+
+##### sender `Telerik.Web.UI.RadGantt`
+
+The instance of the RadGantt raised the event.
+
+##### args `Telerik.Web.UI.GanttTaskMoveStartEventArgs`
+
+The event arguments.  
+
 ### clientTaskResizeEnd 
 
 Occurs when the Task resizing is ended.
@@ -508,9 +509,9 @@ The instance of the RadGantt raised the event.
 
 The event arguments.  
 
-### clientNavigationCommand 
+### clientTaskResizeStart 
 
-Occurs when the current View is changed. 
+Occurs when the Task resizing is started.
 
 #### Event Data
 
@@ -518,6 +519,8 @@ Occurs when the current View is changed.
 
 The instance of the RadGantt raised the event.
 
-##### args `Telerik.Web.UI.GanttNavigationCommandEventArgs`
+##### args `Telerik.Web.UI.GanttTaskResizeStartEventArgs`
 
 The event arguments.  
+
+

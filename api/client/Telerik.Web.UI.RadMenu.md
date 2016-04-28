@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.RadMenu
 * [Telerik.Web.UI.ControlItemContainer]({%slug Telerik.Web.UI.ControlItemContainer%})
 * *[Telerik.Web.UI.RadMenu]({%slug Telerik.Web.UI.RadMenu%})*
 
+
 ## Methods
 
 ###  close
@@ -24,7 +25,7 @@ Closes all opened items
 
 `None` 
 
-###  commitChanges
+### commitChanges
 
 Writes the changes to the listbox that were made since a previous call to trackChanges, so that they are preserved over post-backs.
 
@@ -34,7 +35,7 @@ Writes the changes to the listbox that were made since a previous call to trackC
 
 `None` 
 
-###  disable
+### disable
 
 Disables all items in the menu. Clicking on any item will no longer have effect, child items cannot be opened.
 
@@ -44,7 +45,7 @@ Disables all items in the menu. Clicking on any item will no longer have effect,
 
 `None` 
 
-###  disableEvents
+### disableEvents
 
 Disables the control client-side event emitting.
 
@@ -54,7 +55,7 @@ Disables the control client-side event emitting.
 
 `None` 
 
-###  enable
+### enable
 
 Enables all items in the menu.
 
@@ -64,7 +65,7 @@ Enables all items in the menu.
 
 `None` 
 
-###  enableEvents
+### enableEvents
 
 Enables the control client-side event emitting. Events are enabled by default.
 
@@ -74,7 +75,7 @@ Enables the control client-side event emitting. Events are enabled by default.
 
 `None` 
 
-###  findItemByAbsoluteUrl
+### findItemByAbsoluteUrl
 
 Returns the first RadMenuItem object whose NavigateUrl property is equal to the passed parameter. Note that the parameter should end with "/" for example: var item = sender.findItemByAbsoluteUrl("http://www.test.com/");
 
@@ -88,7 +89,7 @@ NavigateUrl of the Item
 
 `Telerik.Web.UI.RadMenuItem` The first RadMenuItem found
 
-###  findItemByAttribute
+### findItemByAttribute
 
 Returns the first RadMenuItem object with a custom attribute of the specified name and value.
 
@@ -106,7 +107,7 @@ The attribute value
 
 `Telerik.Web.UI.RadMenuItem` The first RadMenuItem found
 
-###  findItemByText
+### findItemByText
 
 Returns the first RadMenuItem object whose Text property is equal to the passed parameter.
 
@@ -120,7 +121,7 @@ Text of the Item
 
 `Telerik.Web.UI.RadMenuItem` The first RadMenuItem found
 
-###  findItemByUrl
+### findItemByUrl
 
 Returns the first RadMenuItem object whose NavigateUrl property is equal to the passed parameter.
 
@@ -134,7 +135,7 @@ NavigateUrl of the Item
 
 `Telerik.Web.UI.RadMenuItem` The first RadMenuItem found
 
-###  findItemByValue
+### findItemByValue
 
 Returns the first RadMenuItem object whose Value property is equal to the passed parameter.
 
@@ -148,7 +149,7 @@ Value of the Item
 
 `Telerik.Web.UI.RadMenuItem` The first RadMenuItem found
 
-###  focus
+### focus
 
 Brings the focus to the menu so that it can be controlled via the keyboard.
 
@@ -158,7 +159,7 @@ Brings the focus to the menu so that it can be controlled via the keyboard.
 
 `None` 
 
-###  get_allItems
+### get_allItems
 
 Gets a linear collection of all items. This includes all root and child items in the menu.
 
@@ -168,7 +169,7 @@ Gets a linear collection of all items. This includes all root and child items in
 
 `Array` Array
 
-###  get_childListElement
+### get_childListElement
 
 Returns the DOM element for the root list of items in the menu.
 
@@ -178,7 +179,7 @@ Returns the DOM element for the root list of items in the menu.
 
 `Element` DOM element for the root item list
 
-###  get_clickToOpen
+### get_clickToOpen
 
 Returns a boolean value indicating whether click-to-open is enabled
 
@@ -188,7 +189,7 @@ Returns a boolean value indicating whether click-to-open is enabled
 
 `Boolean` Boolean indicating whether click
 
-###  get_collapseDelay
+### get_collapseDelay
 
 Returns the delay (in milliseconds) before a menu item closes.
 
@@ -198,7 +199,7 @@ Returns the delay (in milliseconds) before a menu item closes.
 
 `Number` The delay in milliseconds to wait before closing a menu item.
 
-###  get_enableAutoScroll
+### get_enableAutoScroll
 
 Returns a boolean value indicating whether auto-scrolling is enabled
 
@@ -208,7 +209,7 @@ Returns a boolean value indicating whether auto-scrolling is enabled
 
 `Boolean` Boolean indicating whether auto
 
-###  get_enableRoundedCorners
+### get_enableRoundedCorners
 
 Returns a boolean value indicating whether child items should have rounded corners
 
@@ -218,7 +219,7 @@ Returns a boolean value indicating whether child items should have rounded corne
 
 `Boolean` Boolean indicating whether child items should have rounded corners
 
-###  get_enableScreenBoundaryDetection
+### get_enableScreenBoundaryDetection
 
 Returns a boolean value indicating whether screen boundary detection is enabled
 
@@ -228,7 +229,7 @@ Returns a boolean value indicating whether screen boundary detection is enabled
 
 `Boolean` Boolean indicating whether screen boundary detection is enabled
 
-###  get_enableSelection
+### get_enableSelection
 
 Returns a boolean value whether item selection is enabled
 
@@ -238,7 +239,7 @@ Returns a boolean value whether item selection is enabled
 
 `Boolean` Boolean indicating whether item selection is enabled.
 
-###  get_enableShadows
+### get_enableShadows
 
 Returns a boolean value indicating whether child items should have shadows
 
@@ -248,7 +249,7 @@ Returns a boolean value indicating whether child items should have shadows
 
 `Boolean` Boolean indicating whether child items should have shadows
 
-###  get_expandDelay
+### get_expandDelay
 
 Returns the delay (in milliseconds) before a menu item expands.
 
@@ -258,7 +259,7 @@ Returns the delay (in milliseconds) before a menu item expands.
 
 `Number` The delay in milliseconds to wait before expanding a menu item.
 
-###  get_focusedItem
+### get_focusedItem
 
 Returns the currently focused root level item. Returns null if no root item has focus.
 
@@ -268,7 +269,7 @@ Returns the currently focused root level item. Returns null if no root item has 
 
 `Telerik.Web.UI.RadMenuItem` The focused root item
 
-###  get_items
+### get_items
 
 Returns the collection of root level items.
 
@@ -278,7 +279,7 @@ Returns the collection of root level items.
 
 `Telerik.Web.UI.RadMenuItemCollection` RadMenuItemCollection
 
-###  get_openedItem
+### get_openedItem
 
 Returns the currently opened root level item. If no item is opened at the root level the method will return null.
 
@@ -288,7 +289,7 @@ Returns the currently opened root level item. If no item is opened at the root l
 
 `Telerik.Web.UI.RadMenuItem` The opened root item
 
-###  get_persistLoadOnDemandItems
+### get_persistLoadOnDemandItems
 
 Returns whether items loaded on demand persist on the server.
 
@@ -298,7 +299,7 @@ Returns whether items loaded on demand persist on the server.
 
 `Boolean` Boolean indicating whether items loaded on demand persist on the server.
 
-###  get_selectedItem
+### get_selectedItem
 
 Returns the selected menu item. If no item is selected returns null.
 
@@ -308,7 +309,7 @@ Returns the selected menu item. If no item is selected returns null.
 
 `Telerik.Web.UI.RadMenuItem` The selected menu item.
 
-###  repaint
+### repaint
 
 Refreshes the RadMenu UI.
 
@@ -318,7 +319,7 @@ Refreshes the RadMenu UI.
 
 `None` 
 
-###  set_clickToOpen
+### set_clickToOpen
 
 Sets whether click-to-open is enabled
 
@@ -332,7 +333,7 @@ true if click
 
 `None` 
 
-###  set_collapseDelay
+### set_collapseDelay
 
 Sets the delay (in milliseconds) before a menu item closes.
 
@@ -346,7 +347,7 @@ The delay in milliseconds to wait before closing a menu item.
 
 `None` 
 
-###  set_enableAutoScroll
+### set_enableAutoScroll
 
 Sets whether auto-scrolling is enabled
 
@@ -360,63 +361,7 @@ true if auto
 
 `None` 
 
-###  set_enableRoundedCorners
-
-Sets whether child items should have rounded corners
-
-#### Parameters
-
-##### value `Boolean`
-
-true if child items should have rounded corners
-
-#### Returns
-
-`None` 
-
-###  set_enableScreenBoundaryDetection
-
-Sets whether screen boundary detection is enabled
-
-#### Parameters
-
-##### value `Boolean`
-
-true if screen boundary detection should be enabled
-
-#### Returns
-
-`None` 
-
-###  set_enableSelection
-
-Sets whether item selection is enabled
-
-#### Parameters
-
-##### value `Boolean`
-
-true to enable item selection or false to disable it.
-
-#### Returns
-
-`None` 
-
-###  set_enableShadows
-
-Sets whether child items should have shadows
-
-#### Parameters
-
-##### value `Boolean`
-
-true if child items should have shadows
-
-#### Returns
-
-`None` 
-
-###  set_enabled
+### set_enabled
 
 Disables or enables the entire RadMenu. Items will not open and client events will not firee when the Menu is disabled
 
@@ -430,7 +375,63 @@ true to enable the Menu or false to disable it.
 
 `None` 
 
-###  set_expandDelay
+### set_enableRoundedCorners
+
+Sets whether child items should have rounded corners
+
+#### Parameters
+
+##### value `Boolean`
+
+true if child items should have rounded corners
+
+#### Returns
+
+`None` 
+
+### set_enableScreenBoundaryDetection
+
+Sets whether screen boundary detection is enabled
+
+#### Parameters
+
+##### value `Boolean`
+
+true if screen boundary detection should be enabled
+
+#### Returns
+
+`None` 
+
+### set_enableSelection
+
+Sets whether item selection is enabled
+
+#### Parameters
+
+##### value `Boolean`
+
+true to enable item selection or false to disable it.
+
+#### Returns
+
+`None` 
+
+### set_enableShadows
+
+Sets whether child items should have shadows
+
+#### Parameters
+
+##### value `Boolean`
+
+true if child items should have shadows
+
+#### Returns
+
+`None` 
+
+### set_expandDelay
 
 Sets the delay (in milliseconds) before a menu item expands.
 
@@ -463,7 +464,7 @@ The vertical value in a pair of coordinates.
 `None` 
 
 
-###  trackChanges
+### trackChanges
 
 Begins tracking changes to the RadMenu items. Only changes to the items that occur between a call to trackChanges and commitChanges persist after a postback.
 
@@ -473,11 +474,12 @@ Begins tracking changes to the RadMenu items. Only changes to the items that occ
 
 `None` 
 
+
 ## Events
 
-### load
+### itemPopulationFailed 
 
-The load event is fired when the menu is first loaded. 
+The itemPopulationFailed event is fired when an attempt to populate a list of child items using a Web service fails. 
 
 #### Event Data
 
@@ -485,13 +487,12 @@ The load event is fired when the menu is first loaded.
 
 The RadMenu that fired the event.
 
-##### args `Sys.EventArgs`
+##### args `Telerik.Web.UI.RadMenuItemPopulatingEventArgs`
 
 The event arguments for the event.
+### itemBlur
 
-### itemClicking
-
-The ItemClicking event occurs when the user clicks on an item before the menu responds to the click.
+The itemBlur event is fired when focus leaves an item. 
 
 #### Event Data
 
@@ -499,7 +500,7 @@ The ItemClicking event occurs when the user clicks on an item before the menu re
 
 The RadMenu that fired the event.
 
-##### args `Telerik.Web.UI.RadMenuItemClickingEventArgs`
+##### args `Telerik.Web.UI.RadMenuItemBlurEventArgs`
 
 The event arguments for the event.
 
@@ -517,23 +518,9 @@ The RadMenu that fired the event.
 
 The event arguments for the event.
 
-### mouseOver
+### itemClicking
 
-The mouseOver event is fired when the mouse moves over the menu. 
-
-#### Event Data
-
-##### sender `Telerik.Web.UI.RadMenu`
-
-The RadMenu that fired the event.
-
-##### args `Telerik.Web.UI.RadMenuMouseOverEventArgs`
-
-The event arguments for the event.
-
-### mouseOut
-
-The mouseOut event is fired when the mouse moves off of the menu. 
+The ItemClicking event occurs when the user clicks on an item before the menu responds to the click.
 
 #### Event Data
 
@@ -541,49 +528,7 @@ The mouseOut event is fired when the mouse moves off of the menu.
 
 The RadMenu that fired the event.
 
-##### args `Telerik.Web.UI.RadMenuMouseOutEventArgs`
-
-The event arguments for the event.
-
-### itemOpening
-
-The itemOpening event is fired immediately before an item expands to show its child items. 
-
-#### Event Data
-
-##### sender `Telerik.Web.UI.RadMenu`
-
-The RadMenu that fired the event.
-
-##### args `Telerik.Web.UI.RadMenuItemOpeningEventArgs`
-
-The event arguments for the event.
-
-### itemOpened
-
-The itemOpened event is fired immediately after an item expands to show its child items. 
-
-#### Event Data
-
-##### sender `Telerik.Web.UI.RadMenu`
-
-The RadMenu that fired the event.
-
-##### args `Telerik.Web.UI.RadMenuItemOpenedEventArgs`
-
-The event arguments for the event.
-
-### itemClosing
-
-The itemClosing event is fired immediately before an item contracts, hiding its child items. 
-
-#### Event Data
-
-##### sender `Telerik.Web.UI.RadMenu`
-
-The RadMenu that fired the event.
-
-##### args `Telerik.Web.UI.RadMenuItemClosingEventArgs`
+##### args `Telerik.Web.UI.RadMenuItemClickingEventArgs`
 
 The event arguments for the event.
 
@@ -601,6 +546,20 @@ The RadMenu that fired the event.
 
 The event arguments for the event.
 
+### itemClosing
+
+The itemClosing event is fired immediately before an item contracts, hiding its child items. 
+
+#### Event Data
+
+##### sender `Telerik.Web.UI.RadMenu`
+
+The RadMenu that fired the event.
+
+##### args `Telerik.Web.UI.RadMenuItemClosingEventArgs`
+
+The event arguments for the event.
+
 ### itemFocus
 
 The itemFocus event is fired when focus moves to an item. 
@@ -615,9 +574,9 @@ The RadMenu that fired the event.
 
 The event arguments for the event.
 
-### itemBlur
+### itemOpened
 
-The itemBlur event is fired when focus leaves an item. 
+The itemOpened event is fired immediately after an item expands to show its child items. 
 
 #### Event Data
 
@@ -625,13 +584,13 @@ The itemBlur event is fired when focus leaves an item.
 
 The RadMenu that fired the event.
 
-##### args `Telerik.Web.UI.RadMenuItemBlurEventArgs`
+##### args `Telerik.Web.UI.RadMenuItemOpenedEventArgs`
 
 The event arguments for the event.
 
-### itemPopulating
+### itemOpening
 
-The itemPopulating event is fired when an item with ExpandMode set to "WebService" is opened, immediately before the menu calls the Web service to populate the list of child items. 
+The itemOpening event is fired immediately before an item expands to show its child items. 
 
 #### Event Data
 
@@ -639,7 +598,7 @@ The itemPopulating event is fired when an item with ExpandMode set to "WebServic
 
 The RadMenu that fired the event.
 
-##### args `Telerik.Web.UI.RadMenuItemPopulatingEventArgs`
+##### args `Telerik.Web.UI.RadMenuItemOpeningEventArgs`
 
 The event arguments for the event.
 
@@ -657,9 +616,9 @@ The RadMenu that fired the event.
 
 The event arguments for the event.
 
-### itemPopulationFailed 
+### itemPopulating
 
-The itemPopulationFailed event is fired when an attempt to populate a list of child items using a Web service fails. 
+The itemPopulating event is fired when an item with ExpandMode set to "WebService" is opened, immediately before the menu calls the Web service to populate the list of child items. 
 
 #### Event Data
 
@@ -670,3 +629,47 @@ The RadMenu that fired the event.
 ##### args `Telerik.Web.UI.RadMenuItemPopulatingEventArgs`
 
 The event arguments for the event.
+
+### load
+
+The load event is fired when the menu is first loaded. 
+
+#### Event Data
+
+##### sender `Telerik.Web.UI.RadMenu`
+
+The RadMenu that fired the event.
+
+##### args `Sys.EventArgs`
+
+The event arguments for the event.
+
+### mouseOut
+
+The mouseOut event is fired when the mouse moves off of the menu. 
+
+#### Event Data
+
+##### sender `Telerik.Web.UI.RadMenu`
+
+The RadMenu that fired the event.
+
+##### args `Telerik.Web.UI.RadMenuMouseOutEventArgs`
+
+The event arguments for the event.
+
+### mouseOver
+
+The mouseOver event is fired when the mouse moves over the menu. 
+
+#### Event Data
+
+##### sender `Telerik.Web.UI.RadMenu`
+
+The RadMenu that fired the event.
+
+##### args `Telerik.Web.UI.RadMenuMouseOverEventArgs`
+
+The event arguments for the event.
+
+

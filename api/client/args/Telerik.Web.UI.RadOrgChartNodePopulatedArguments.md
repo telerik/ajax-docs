@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.RadOrgChartNodePopulatedArguments
 * Sys.EventArgs
 * *[Telerik.Web.UI.RadOrgChartNodePopulatedArguments]({%slug Telerik.Web.UI.RadOrgChartNodePopulatedArguments%})*
 
+
 ## Methods
 
 ### get_node
@@ -23,3 +24,4 @@ Returns the expanded node client object.
 #### Returns
 
 `Telerik.Web.UI.OrgChartNode`
+

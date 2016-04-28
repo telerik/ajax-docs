@@ -11,6 +11,7 @@ slug: Telerik.Web.UI.AnimationSettings
 
 * *[Telerik.Web.UI.AnimationSettings]({%slug Telerik.Web.UI.AnimationSettings%})*
 
+
 ## Methods
 
 ###  get_duration
@@ -21,7 +22,7 @@ slug: Telerik.Web.UI.AnimationSettings
 
 `None` 
 
-###  get_type
+### get_type
 
 #### Parameters
 
@@ -29,7 +30,7 @@ slug: Telerik.Web.UI.AnimationSettings
 
 `None` 
 
-###  set_duration
+### set_duration
 
 #### Parameters
 
@@ -37,12 +38,13 @@ slug: Telerik.Web.UI.AnimationSettings
 
 `None` 
 
-###  set_type
+### set_type
 
 #### Parameters
 
 #### Returns
 
 `None` 
+
 
 

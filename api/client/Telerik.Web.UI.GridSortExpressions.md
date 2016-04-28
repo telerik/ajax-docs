@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.GridSortExpressions
 * [Telerik.Web.UI.Collection]({%slug Telerik.Web.UI.Collection%})
 * *[Telerik.Web.UI.GridSortExpressions]({%slug Telerik.Web.UI.GridSortExpressions%})*
 
+
 ## Methods
 
 ###  find
@@ -26,7 +27,7 @@ Finds the data field by given field name.
 
 `None` 
 
-###  toString
+### toString
 
 Returns the string represenation of the GridSortExpressions object.
 
@@ -35,5 +36,6 @@ Returns the string represenation of the GridSortExpressions object.
 #### Returns
 
 `None` 
+
 
 

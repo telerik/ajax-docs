@@ -11,6 +11,7 @@ slug: Telerik.Web.UI.Editor.DomRange
 
 * *[Telerik.Web.UI.Editor.DomRange]({%slug Telerik.Web.UI.Editor.DomRange%})*
 
+
 ## Fields
 
 ### commonAncestorContainer `Element`
@@ -32,6 +33,7 @@ The start container (node), where the start location of the range is located.
 ### startOffset `Number`
 
 The start offset within the start container of the range's start location
+
 
 ## Methods
 
@@ -342,3 +344,4 @@ The range that could potentially be wrapped in a DomRange, if it is a browser ra
 #### Returns
 
 `Telerik.Web.UI.Editor.DomRange`
+

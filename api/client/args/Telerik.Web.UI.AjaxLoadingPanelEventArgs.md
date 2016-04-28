@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.AjaxLoadingPanelEventArgs
 * Sys.EventArgs
 * *[Telerik.Web.UI.AjaxLoadingPanelEventArgs]({%slug Telerik.Web.UI.AjaxLoadingPanelEventArgs%})*
 
+
 ## Methods
 
 ###  get_cancelNativeDisplay
@@ -24,7 +25,7 @@ Returns the boolean representation of the LoadingPanel default behvaiour
 
 `Boolean` 
 
-###  get_loadingElement
+### get_loadingElement
 
 Gets the DOM element of the RadAjaxLoadingPanel.
 
@@ -34,7 +35,7 @@ Gets the DOM element of the RadAjaxLoadingPanel.
 
 `Object` 
 
-###  get_updatedElement
+### get_updatedElement
 
 Gets the DOM element of the ajax updated control, over which the loading panel is about to be displayed.
 
@@ -44,7 +45,7 @@ Gets the DOM element of the ajax updated control, over which the loading panel i
 
 `Boolean` 
 
-###  set_cancelNativeDisplay
+### set_cancelNativeDisplay
 
 lets you cancel the default behavior of the RadAjaxLoadingPanel.
 
@@ -55,5 +56,6 @@ lets you cancel the default behavior of the RadAjaxLoadingPanel.
 #### Returns
 
 `None` 
+
 
 

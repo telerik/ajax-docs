@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.SchedulerAppointmentEditingEventArgs
 * [Telerik.Web.UI.SchedulerAppointmentCancelEventArgs]({%slug Telerik.Web.UI.SchedulerAppointmentCancelEventArgs%})
 * *[Telerik.Web.UI.SchedulerAppointmentEditingEventArgs]({%slug Telerik.Web.UI.SchedulerAppointmentEditingEventArgs%})*
 
+
 ## Methods
 
 ### get_editingRecurringSeries
@@ -23,3 +24,4 @@ Returns True if the user is trying to delete a series to which the appointment b
 #### Returns
 
 `Boolean`
+

@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.ControlItemContainer
 * [Telerik.Web.UI.RadWebControl]({%slug Telerik.Web.UI.RadWebControl%})
 * *[Telerik.Web.UI.ControlItemContainer]({%slug Telerik.Web.UI.ControlItemContainer%})*
 
+
 ## Methods
 
 ###  commitChanges
@@ -24,7 +25,7 @@ Commits the changes made to the ControlItemContainer that will be preserved over
 
 `None` 
 
-###  get_attributes
+### get_attributes
 
 Returns the collection of arbitrary attributes
 
@@ -34,7 +35,7 @@ Returns the collection of arbitrary attributes
 
 `Telerik.Web.UI.AttributeCollection` The attribute collection
 
-###  get_enabled
+### get_enabled
 
 Boolean value indicating whether the ControlItemCotaniner is enabled or disabled
 
@@ -44,7 +45,7 @@ Boolean value indicating whether the ControlItemCotaniner is enabled or disabled
 
 `Boolean` Returns boolean value indicating whether the ControlItemContainer is enabled or disabled
 
-###  set_enabled
+### set_enabled
 
 Enables the ControlItemContainer
 
@@ -58,7 +59,7 @@ A boolean value to enable
 
 `None` 
 
-###  trackChanges
+### trackChanges
 
 Starts tracking changes made to the ControlItemContainer that will be preserved over post-backs.
 
@@ -67,5 +68,6 @@ Starts tracking changes made to the ControlItemContainer that will be preserved 
 #### Returns
 
 `None` 
+
 
 

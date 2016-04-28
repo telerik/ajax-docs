@@ -12,7 +12,38 @@ slug: Telerik.Web.UI.RadLinkButton
 * [Telerik.Web.UI.ButtonBase.RadButtonBase]({%slug Telerik.Web.UI.ButtonBase.RadButtonBase%})
 * *[Telerik.Web.UI.RadLinkButton]({%slug Telerik.Web.UI.RadLinkButton%})*
 
+
 ## Methods
+
+### get_navigateUrl
+
+Gets the URL to link to when the RadButton control is clicked.
+
+#### Parameters
+
+#### Returns
+
+`String` The URL to link to when the RadButton control is clicked.
+
+### get_primary
+
+Gets a bool value indicating whether the button control is primary.
+
+#### Parameters
+
+#### Returns
+
+`Boolean` A bool value
+
+### get_target
+
+Gets the target window or frame in which to display the Web page content linked to when the RadButton control is clicked.
+
+#### Parameters
+
+#### Returns
+
+`String` The target window or frame in which to display the Web page content linked to when the RadButton control is clicked.
 
 ### set_navigateUrl
 
@@ -28,16 +59,19 @@ The URL to link to when the RadButton control is clicked.
 
 `None` 
 
-### get_navigateUrl
+### set_primary
 
-Gets the URL to link to when the RadButton control is clicked.
+Sets a bool value indicating whether the button control is primary.
 
 #### Parameters
 
+##### value `Boolean`
+
+A bool value indicating whether the button control is primary.
+
 #### Returns
 
-`String` The URL to link to when the RadButton control is clicked.
-
+`None` 
 ### set_target
 
 Sets the target window or frame in which to display the Web page content linked to when the RadButton control is clicked.
@@ -52,36 +86,4 @@ The target window or frame in which to display the Web page content linked to wh
 
 `None` 
 
-### get_target
 
-Gets the target window or frame in which to display the Web page content linked to when the RadButton control is clicked.
-
-#### Parameters
-
-#### Returns
-
-`String` The target window or frame in which to display the Web page content linked to when the RadButton control is clicked.
-
-### get_primary
-
-Gets a bool value indicating whether the button control is primary.
-
-#### Parameters
-
-#### Returns
-
-`Boolean` A bool value
-
-### set_primary
-
-Sets a bool value indicating whether the button control is primary.
-
-#### Parameters
-
-##### value `Boolean`
-
-A bool value indicating whether the button control is primary.
-
-#### Returns
-
-`None` 

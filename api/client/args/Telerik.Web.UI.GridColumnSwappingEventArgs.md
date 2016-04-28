@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.GridColumnSwappingEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.GridColumnSwappingEventArgs]({%slug Telerik.Web.UI.GridColumnSwappingEventArgs%})*
 
+
 ## Methods
 
 ###  get_gridSourceColumn
@@ -24,7 +25,7 @@ Returns a reference to the source GridColumn
 
 `Telerik.Web.UI.GridColumn`
 
-###  get_gridTargetColumn
+### get_gridTargetColumn
 
 Returns a reference to the target GridColumn
 
@@ -33,5 +34,6 @@ Returns a reference to the target GridColumn
 #### Returns
 
 `Telerik.Web.UI.GridColumn`
+
 
 

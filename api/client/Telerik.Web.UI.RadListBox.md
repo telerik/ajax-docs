@@ -12,31 +12,32 @@ slug: Telerik.Web.UI.RadListBox
 * [Telerik.Web.UI.ControlItemContainer]({%slug Telerik.Web.UI.ControlItemContainer%})
 * *[Telerik.Web.UI.RadListBox]({%slug Telerik.Web.UI.RadListBox%})*
 
+
 ## Methods
 
-### findItemByValue
+### checkItems
 
-Returns the first RadListBoxItem object whose Value property equals to the passed parameter.
-
-#### Parameters
-
-##### theValue `String`
-
-The value to search for
-
-#### Returns
-
-`Telerik.Web.UI.RadListBoxItem` Returns the first RadListBoxItem whose Value property matches the passed parameter
-
-### get_selectedItems
-
-Gets an array of the selected RadListBoxItem objects
+Checks all titems that are passed as a parameter. The parameter can be either of type array or RadListBoxItemCollection.
 
 #### Parameters
 
+##### value `Array`
+
+The items to check. Can be either Array or Telerik.Web.UI.RadListBoxItemCollection
+
 #### Returns
 
-`Array` 
+`None` 
+
+### clearSelection
+
+Clears the selection. There will be no selected items.
+
+#### Parameters
+
+#### Returns
+
+`None` 
 
 ### clearSelectionExcept
 
@@ -45,116 +46,6 @@ Clears the current selection except the specified Index or Item.
 #### Parameters
 
 ##### value `Number`
-
-#### Returns
-
-`None` 
-
-### get_selectedItem
-
-Gets the selected item (or the first selected item if the SelectionMode=quot;Multiplequot;).
-
-#### Parameters
-
-#### Returns
-
-`Telerik.Web.UI.RadListBoxItem` 
-
-### get_checkedItems
-
-Gets an array of the checked RadListBoxItem objects
-
-#### Parameters
-
-#### Returns
-
-`Array` All checked items 
-
-### transferFromDestination
-
-Transfers the specified item from the listbox specified by the TransferToID property
-
-#### Parameters
-
-##### item `Telerik.Web.UI.RadListBoxItem`
-
- The item to transfer 
-
-#### Returns
-
-`None` 
-
-### insertItems
-
-Bulk inserts an array of RadListbox items to RadListBox
-
-#### Parameters
-
-##### items `Array`
-
-Array of items to be bulk inserted
-
-#### Returns
-
-`None` 
-
-### saveClientState
-
-Saves the client state to the client state hidden field
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-### getLastItem
-
-Gets the last item in the RadListBox items collection.
-
-#### Parameters
-
-#### Returns
-
-`Telerik.Web.UI.RadListBoxItem` 
-
-### reorderItem
-
-Moves the specified item to the specified index
-
-#### Parameters
-
-##### item `Telerik.Web.UI.RadListBoxItem`
-
-The item to reorder
-
-##### newIndex `Number`
-
-The index to move to
-
-#### Returns
-
-`None` 
-
-### set_transferTo
-
-Sets the destionation RadListBox
-
-#### Parameters
-
-##### Destination `Telerik.Web.UI.RadListBox`
-
- the destination RadListBox 
-
-#### Returns
-
-`None` 
-
-### get_clientTemplate
-
-Returns the value of the RadListBox's ClientItemTemplate property.
-
-#### Parameters
 
 #### Returns
 
@@ -170,29 +61,57 @@ Writes the changes to the listbox that were made since a previous call to trackC
 
 `None` 
 
-### selectItems
+### deleteItem
 
-Selects all items that are passed as a parameter. The parameter can be either of type array or RadListBoxItemCollection.
+Deletes the item passed as an argument
 
 #### Parameters
 
-##### value `Array`
+##### item `Telerik.Web.UI.RadListBoxItem`
 
-The items to select. Can be either Array or Telerik.Web.UI.RadListBoxItemCollection
+item
 
 #### Returns
 
 `None` 
 
-### get_selectedIndices
+### disableEvents
 
-Returns the indices of all selected items
+Disables RadListBox client side events
 
 #### Parameters
 
 #### Returns
 
-`Array` Returns array of Integers
+`None` 
+
+### enableEvents
+
+Enables RadListBox client side events disabled with the disableEvents method
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### findItemByAttribute
+
+Gets the first instance of a RadListBoxItem with the specified attribute/value pair.
+
+#### Parameters
+
+##### attributeName `String`
+
+The attribute name to search for
+
+##### attributeValue `String`
+
+The attribute value to search for
+
+#### Returns
+
+`Telerik.Web.UI.RadListBoxItem` Returns the first RadListBoxItem who has attribute that matches the passed parameters
 
 ### findItemByText
 
@@ -208,47 +127,53 @@ The text tosearch for
 
 `Telerik.Web.UI.RadListBoxItem` 
 
-### set_enabled
+### findItemByValue
 
-Enables RadListBox
-
-#### Parameters
-
-##### value `Boolean`
-
- true if the RadListBox should be enabled. False otherwise
-
-#### Returns
-
-`None` 
-
-### get_items
-
-Gets a collection with all items
+Returns the first RadListBoxItem object whose Value property equals to the passed parameter.
 
 #### Parameters
 
+##### theValue `String`
+
+The value to search for
+
 #### Returns
 
-`Telerik.Web.UI.RadListBoxItemCollection` 
+`Telerik.Web.UI.RadListBoxItem` Returns the first RadListBoxItem whose Value property matches the passed parameter
 
-### transferToDestination
+### get_checkedIndices
 
-Transfers the specified item to the listbox specified by the TransferToID property
+Returns the indices of all checked items
 
 #### Parameters
 
-##### item `Telerik.Web.UI.RadListBoxItem`
+#### Returns
 
- The item to transfer 
+`Array` Returns array of Integers
+
+### get_checkedItems
+
+Gets an array of the checked RadListBoxItem objects
+
+#### Parameters
 
 #### Returns
 
-`None` 
+`Array` All checked items 
 
-### repaint
+### get_childListElement
 
-Refreshes the RadListBox UI
+Gets the UL element of the RadListBox
+
+#### Parameters
+
+#### Returns
+
+`Element` The UL element of the RadListBox 
+
+### get_clientTemplate
+
+Returns the value of the RadListBox's ClientItemTemplate property.
 
 #### Parameters
 
@@ -276,6 +201,154 @@ Gets the ClientID of the RadListBox
 
 `String` 
 
+### get_items
+
+Gets a collection with all items
+
+#### Parameters
+
+#### Returns
+
+`Telerik.Web.UI.RadListBoxItemCollection` 
+
+### get_selectedIndex
+
+Gets the index of the selected item
+
+#### Parameters
+
+#### Returns
+
+`Number` The index of the selected item. If there the selection mode is set to 
+
+### get_selectedIndices
+
+Returns the indices of all selected items
+
+#### Parameters
+
+#### Returns
+
+`Array` Returns array of Integers
+
+### get_selectedItem
+
+Gets the selected item (or the first selected item if the SelectionMode=quot;Multiplequot;).
+
+#### Parameters
+
+#### Returns
+
+`Telerik.Web.UI.RadListBoxItem` 
+
+### get_selectedItems
+
+Gets an array of the selected RadListBoxItem objects
+
+#### Parameters
+
+#### Returns
+
+`Array` 
+
+### get_transferTo
+
+Returns instance of the destination RadListBox
+
+#### Parameters
+
+#### Returns
+
+`String` 
+
+### getItem
+
+Gets the item from the Items collection residing at the index specified by the parameter.
+
+#### Parameters
+
+##### index `Number`
+
+#### Returns
+
+`Telerik.Web.UI.RadListBoxItem` 
+
+### getLastItem
+
+Gets the last item in the RadListBox items collection.
+
+#### Parameters
+
+#### Returns
+
+`Telerik.Web.UI.RadListBoxItem` 
+
+### insertItems
+
+Bulk inserts an array of RadListbox items to RadListBox
+
+#### Parameters
+
+##### items `Array`
+
+Array of items to be bulk inserted
+
+#### Returns
+
+`None` 
+
+### reorderItem
+
+Moves the specified item to the specified index
+
+#### Parameters
+
+##### item `Telerik.Web.UI.RadListBoxItem`
+
+The item to reorder
+
+##### newIndex `Number`
+
+The index to move to
+
+#### Returns
+
+`None` 
+
+### repaint
+
+Refreshes the RadListBox UI
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### saveClientState
+
+Saves the client state to the client state hidden field
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### selectItems
+
+Selects all items that are passed as a parameter. The parameter can be either of type array or RadListBoxItemCollection.
+
+#### Parameters
+
+##### value `Array`
+
+The items to select. Can be either Array or Telerik.Web.UI.RadListBoxItemCollection
+
+#### Returns
+
+`None` 
+
 ### set_clientTemplate
 
 Sets the value of the RadListBox's ClientItemTemplate property.
@@ -290,133 +363,43 @@ value
 
 `None` 
 
-### getItem
+### set_enabled
 
-Gets the item from the Items collection residing at the index specified by the parameter.
-
-#### Parameters
-
-##### index `Number`
-
-#### Returns
-
-`Telerik.Web.UI.RadListBoxItem` 
-
-### checkItems
-
-Checks all titems that are passed as a parameter. The parameter can be either of type array or RadListBoxItemCollection.
+Enables RadListBox
 
 #### Parameters
 
-##### value `Array`
+##### value `Boolean`
 
-The items to check. Can be either Array or Telerik.Web.UI.RadListBoxItemCollection
+ true if the RadListBox should be enabled. False otherwise
 
 #### Returns
 
 `None` 
 
-### disableEvents
+### set_transferTo
 
-Disables RadListBox client side events
+Sets the destionation RadListBox
 
 #### Parameters
+
+##### Destination `Telerik.Web.UI.RadListBox`
+
+ the destination RadListBox 
 
 #### Returns
 
 `None` 
 
-### uncheckItems
+### transferFromDestination
 
-Unchecks all the items passed that are passed as a parameter. The parameter can be either of type array or RadListBoxItemCollection.
-
-#### Parameters
-
-##### value `Array`
-
-The items to uncheck. Can be either Array or Telerik.Web.UI.RadListBoxItemCollection
-
-#### Returns
-
-`None` 
-
-### findItemByAttribute
-
-Gets the first instance of a RadListBoxItem with the specified attribute/value pair.
+Transfers the specified item from the listbox specified by the TransferToID property
 
 #### Parameters
 
-##### attributeName `String`
+##### item `Telerik.Web.UI.RadListBoxItem`
 
-The attribute name to search for
-
-##### attributeValue `String`
-
-The attribute value to search for
-
-#### Returns
-
-`Telerik.Web.UI.RadListBoxItem` Returns the first RadListBoxItem who has attribute that matches the passed parameters
-
-### get_checkedIndices
-
-Returns the indices of all checked items
-
-#### Parameters
-
-#### Returns
-
-`Array` Returns array of Integers
-
-### get_childListElement
-
-Gets the UL element of the RadListBox
-
-#### Parameters
-
-#### Returns
-
-`Element` The UL element of the RadListBox 
-
-### get_selectedIndex
-
-Gets the index of the selected item
-
-#### Parameters
-
-#### Returns
-
-`Number` The index of the selected item. If there the selection mode is set to 
-
-### enableEvents
-
-Enables RadListBox client side events disabled with the disableEvents method
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-### get_transferTo
-
-Returns instance of the destination RadListBox
-
-#### Parameters
-
-#### Returns
-
-`String` 
-
-### unselectItems
-
-Unselects all items that are passed as a parameter. The parameter can be either of type array or RadListBoxItemCollection.
-
-#### Parameters
-
-##### value `Array`
-
-The items to unselect. Can be either Array or Telerik.Web.UI.RadListBoxItemCollection
+ The item to transfer 
 
 #### Returns
 
@@ -444,130 +427,50 @@ Transfers the specified item from the source listbox to the destination listbox
 
 `None` 
 
-### clearSelection
+### transferToDestination
 
-Clears the selection. There will be no selected items.
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-### deleteItem
-
-Deletes the item passed as an argument
+Transfers the specified item to the listbox specified by the TransferToID property
 
 #### Parameters
 
 ##### item `Telerik.Web.UI.RadListBoxItem`
 
-item
+ The item to transfer 
 
 #### Returns
 
 `None` 
 
+### uncheckItems
+
+Unchecks all the items passed that are passed as a parameter. The parameter can be either of type array or RadListBoxItemCollection.
+
+#### Parameters
+
+##### value `Array`
+
+The items to uncheck. Can be either Array or Telerik.Web.UI.RadListBoxItemCollection
+
+#### Returns
+
+`None` 
+
+### unselectItems
+
+Unselects all items that are passed as a parameter. The parameter can be either of type array or RadListBoxItemCollection.
+
+#### Parameters
+
+##### value `Array`
+
+The items to unselect. Can be either Array or Telerik.Web.UI.RadListBoxItemCollection
+
+#### Returns
+
+`None` 
+
+
 ## Events
-
-### load
-
-Occurs after the RadListBox has been fully initialized on the client-side. 
-
-#### Event Data
-
-##### sender `Telerik.Web.UI.RadListBox`
-
-The RadListBox instance raised the event.
-
-##### args `Sys.EventArgs`
-
-The arguments of the Load event.
-
-### itemDataBound
-
-occurs for each item that is created during LoadOnDemand binding scenario.
-
-#### Event Data
-
-##### sender `Telerik.Web.UI.RadListBox`
-
-The RadListBox instance raised the event.
-
-##### args `ListBoxItemDataBoundEventArgs`
-
-The arguments of the ItemDataBound event.
-
-
-### deleting
-
-Occurs when the item or items are about to be deleted. This event can be canceled. 
-
-#### Event Data
-
-##### sender `Telerik.Web.UI.RadListBox`
-
-The RadListBox instance raised the event.
-
-##### args `Telerik.Web.UI.ListBoxDeletingEventArgs`
-
-The arguments of the Deleting event.
-
-### deleted
-
-Occurs after the selected item or items have been deleted. 
-
-#### Event Data
-
-##### sender `Telerik.Web.UI.RadListBox`
-
-The RadListBox instance raised the event.
-
-##### args `Telerik.Web.UI.ListBoxDeletedEventArgs`
-
-The arguments of the Deleted event.
-
-### itemsRequesting
-
-Occurs when EnableLoadOnDemand is True and the RadListBox is about to send a server-side request to load more items. 
-
-#### Event Data
-
-##### sender `Telerik.Web.UI.RadListBox`
-
-The RadListBox instance raised the event.
-
-##### args `Telerik.Web.UI.ListBoxItemsRequestingEventArgs`
-
-The arguments of the ItemsRequesting event.
-
-### itemsRequested
-
-Occurs after the load-on-demand mechanism has added new items to the RadListBox. 
-
-#### Event Data
-
-##### sender `Telerik.Web.UI.RadListBox`
-
-The RadListBox instance raised the event.
-
-##### args `Sys.EventArgs`
-
-The arguments of the ItemsRequested event.
-
-### itemsRequestFailed
-
-Occurs when an error has occurred while loading elements using the load-on-demand mechanism. 
-
-#### Event Data
-
-##### sender `Telerik.Web.UI.RadListBox`
-
-The RadListBox instance raised the event.
-
-##### args `Telerik.Web.UI.ListBoxItemsRequestFailedEventArgs`
-
-The arguments of the ItemsRequestFailed event.
 
 ### templateDataBound
 
@@ -582,206 +485,6 @@ The RadListBox instance raised the event.
 ##### args `Telerik.Web.UI.RadTemplateBoundEventArgs`
 
 The arguments of the TemplateDataBound event.
-
-### mouseOver
-
-Occurs when the mouse cursor passes over an item.
-
-#### Event Data
-
-##### sender `Telerik.Web.UI.RadListBox`
-
-The RadListBox instance raised the event.
-
-##### args `Telerik.Web.UI.ListBoxMouseOverEventArgs`
-
-The arguments of the MouseOver event.
-
-### mouseOut
-
-Occurs just before the mouse passes out of an item. 
-
-#### Event Data
-
-##### sender `Telerik.Web.UI.RadListBox`
-
-The RadListBox instance raised the event.
-
-##### args `Telerik.Web.UI.ListBoxMouseOutEventArgs`
-
-The arguments of the MouseOut event.
-
-
-### contextMenu
-
-Occurs when a user right clicks over a RadListBoxItem. 
-
-#### Event Data
-
-##### sender `Telerik.Web.UI.RadListBox`
-
-The RadListBox instance raised the event.
-
-##### args `Telerik.Web.UI.ListBoxContextMenuEventArgs`
-
-The arguments of the ContextMenu event.
-
-### itemDoubleClicking
-
-Occurs when the user is about to double click the item using.
-
-#### Event Data
-
-##### sender `Telerik.Web.UI.RadListBox`
-
-The RadListBox instance raised the event.
-
-##### args `Telerik.Web.UI.ListBoxItemDoubleClickingEventArgs`
-
-The arguments of the ItemDoubleClicking event.
-
-### itemDoubleClicked
-
-Occurs after the user double clicks the item.
-
-#### Event Data
-
-##### sender `Telerik.Web.UI.RadListBox`
-
-The RadListBox instance raised the event.
-
-##### args `Telerik.Web.UI.ListBoxItemDoubleClickedEventArgs`
-
-The arguments of the ItemDoubleClicked event.
-
-
-### selectedIndexChanging
-
-Occurs when the selected item is about to be changed. 
-
-#### Event Data
-
-##### sender `Telerik.Web.UI.RadListBox`
-
-The RadListBox instance raised the event.
-
-##### args `Telerik.Web.UI.ListBoxSelectedIndexChangingEventArgs`
-
-The arguments of the SelectedIndexChanging event.
-
-### selectedIndexChanged
-
-Occurs after the selected item has been changed. 
-
-#### Event Data
-
-##### sender `Telerik.Web.UI.RadListBox`
-
-The RadListBox instance raised the event.
-
-##### args `Telerik.Web.UI.ListBoxSelectedIndexChangedEventArgs`
-
-The arguments of the SelectedIndexChanged event.
-
-### itemChecking
-
-Occurs when the user is just about to select a checkbox using mouse or keyboard.
-
-#### Event Data
-
-##### sender `Telerik.Web.UI.RadListBox`
-
-The RadListBox instance raised the event.
-
-##### args `Telerik.Web.UI.ListBoxItemCheckingEventArgs`
-
-The arguments of the ItemChecking event.
-
-### itemChecked
-
-Occurs when the user is just about to select a checkbox using mouse or keyboard.
-
-#### Event Data
-
-##### sender `Telerik.Web.UI.RadListBox`
-
-The RadListBox instance raised the event.
-
-##### args `Telerik.Web.UI.ListBoxItemCheckedEventArgs`
-
-The arguments of the ItemChecked event.
-
-
-### checkAllChecking
-
-Occurs when the user is about to click on the CheckAll item.
-
-#### Event Data
-
-##### sender `Telerik.Web.UI.RadListBox`
-
-The RadListBox instance raised the event.
-
-##### args `Telerik.Web.UI.ListBoxCheckAllCheckingEventArgs`
-
-The arguments of the CheckAllChecking event.
-
-### checkAllChecked
-
-Occurs after user clicks on the CheckAll item. 
-
-#### Event Data
-
-##### sender `Telerik.Web.UI.RadListBox`
-
-The RadListBox instance raised the event.
-
-##### args `Telerik.Web.UI.ListBoxCheckAllCheckedEventArgs`
-
-The arguments of the CheckAllChecked event.
-
-### dragStart
-
-Occurs each time the user begins to drag an item. 
-
-#### Event Data
-
-##### sender `Telerik.Web.UI.RadListBox`
-
-The RadListBox instance raised the event.
-
-##### args `Telerik.Web.UI.ListBoxDragStartEventArgs`
-
-The arguments of the DragStart event.
-
-### dragging
-
-Occurs each time the user moves a mouse while dragging an item.
-
-#### Event Data
-
-##### sender `Telerik.Web.UI.RadListBox`
-
-The RadListBox instance raised the event.
-
-##### args `Telerik.Web.UI.ListBoxDraggingEventArgs`
-
-The arguments of the Dragging event.
-
-
-### dropping
-
-Occurs before the items are dropped.
-
-#### Event Data
-
-##### sender `Telerik.Web.UI.RadListBox`
-
-The RadListBox instance raised the event.
-
-##### args `Telerik.Web.UI.ListBoxDroppingEventArgs`
-
-The arguments of the Dropping event.
 
 ### dropped
 
@@ -825,9 +528,9 @@ The RadListBox instance raised the event.
 
 The arguments of the Reordered event.
 
-### transferring
+### itemsRequested
 
-Occurs when the selected item is about to be transferred to the destination RadListBox
+Occurs after the load-on-demand mechanism has added new items to the RadListBox. 
 
 #### Event Data
 
@@ -835,9 +538,37 @@ Occurs when the selected item is about to be transferred to the destination RadL
 
 The RadListBox instance raised the event.
 
-##### args `Telerik.Web.UI.ListBoxTransferringEventArgs`
+##### args `Sys.EventArgs`
 
-The arguments of the Transferring event.
+The arguments of the ItemsRequested event.
+
+### load
+
+Occurs after the RadListBox has been fully initialized on the client-side. 
+
+#### Event Data
+
+##### sender `Telerik.Web.UI.RadListBox`
+
+The RadListBox instance raised the event.
+
+##### args `Sys.EventArgs`
+
+The arguments of the Load event.
+
+### selectedIndexChanged
+
+Occurs after the selected item has been changed. 
+
+#### Event Data
+
+##### sender `Telerik.Web.UI.RadListBox`
+
+The RadListBox instance raised the event.
+
+##### args `Telerik.Web.UI.ListBoxSelectedIndexChangedEventArgs`
+
+The arguments of the SelectedIndexChanged event.
 
 ### transferred
 
@@ -852,3 +583,275 @@ The RadListBox instance raised the event.
 ##### args `Telerik.Web.UI.ListBoxTransferredEventArgs`
 
 The arguments of the Transferred event.
+### deleted
+
+Occurs after the selected item or items have been deleted. 
+
+#### Event Data
+
+##### sender `Telerik.Web.UI.RadListBox`
+
+The RadListBox instance raised the event.
+
+##### args `Telerik.Web.UI.ListBoxDeletedEventArgs`
+
+The arguments of the Deleted event.
+
+### itemDoubleClicked
+
+Occurs after the user double clicks the item.
+
+#### Event Data
+
+##### sender `Telerik.Web.UI.RadListBox`
+
+The RadListBox instance raised the event.
+
+##### args `Telerik.Web.UI.ListBoxItemDoubleClickedEventArgs`
+
+The arguments of the ItemDoubleClicked event.
+
+
+### checkAllChecked
+
+Occurs after user clicks on the CheckAll item. 
+
+#### Event Data
+
+##### sender `Telerik.Web.UI.RadListBox`
+
+The RadListBox instance raised the event.
+
+##### args `Telerik.Web.UI.ListBoxCheckAllCheckedEventArgs`
+
+The arguments of the CheckAllChecked event.
+
+### dropping
+
+Occurs before the items are dropped.
+
+#### Event Data
+
+##### sender `Telerik.Web.UI.RadListBox`
+
+The RadListBox instance raised the event.
+
+##### args `Telerik.Web.UI.ListBoxDroppingEventArgs`
+
+The arguments of the Dropping event.
+
+### dragStart
+
+Occurs each time the user begins to drag an item. 
+
+#### Event Data
+
+##### sender `Telerik.Web.UI.RadListBox`
+
+The RadListBox instance raised the event.
+
+##### args `Telerik.Web.UI.ListBoxDragStartEventArgs`
+
+The arguments of the DragStart event.
+
+### dragging
+
+Occurs each time the user moves a mouse while dragging an item.
+
+#### Event Data
+
+##### sender `Telerik.Web.UI.RadListBox`
+
+The RadListBox instance raised the event.
+
+##### args `Telerik.Web.UI.ListBoxDraggingEventArgs`
+
+The arguments of the Dragging event.
+
+
+### itemDataBound
+
+occurs for each item that is created during LoadOnDemand binding scenario.
+
+#### Event Data
+
+##### sender `Telerik.Web.UI.RadListBox`
+
+The RadListBox instance raised the event.
+
+##### args `ListBoxItemDataBoundEventArgs`
+
+The arguments of the ItemDataBound event.
+
+
+### mouseOut
+
+Occurs just before the mouse passes out of an item. 
+
+#### Event Data
+
+##### sender `Telerik.Web.UI.RadListBox`
+
+The RadListBox instance raised the event.
+
+##### args `Telerik.Web.UI.ListBoxMouseOutEventArgs`
+
+The arguments of the MouseOut event.
+
+
+### contextMenu
+
+Occurs when a user right clicks over a RadListBoxItem. 
+
+#### Event Data
+
+##### sender `Telerik.Web.UI.RadListBox`
+
+The RadListBox instance raised the event.
+
+##### args `Telerik.Web.UI.ListBoxContextMenuEventArgs`
+
+The arguments of the ContextMenu event.
+
+### itemsRequestFailed
+
+Occurs when an error has occurred while loading elements using the load-on-demand mechanism. 
+
+#### Event Data
+
+##### sender `Telerik.Web.UI.RadListBox`
+
+The RadListBox instance raised the event.
+
+##### args `Telerik.Web.UI.ListBoxItemsRequestFailedEventArgs`
+
+The arguments of the ItemsRequestFailed event.
+
+### itemsRequesting
+
+Occurs when EnableLoadOnDemand is True and the RadListBox is about to send a server-side request to load more items. 
+
+#### Event Data
+
+##### sender `Telerik.Web.UI.RadListBox`
+
+The RadListBox instance raised the event.
+
+##### args `Telerik.Web.UI.ListBoxItemsRequestingEventArgs`
+
+The arguments of the ItemsRequesting event.
+
+### deleting
+
+Occurs when the item or items are about to be deleted. This event can be canceled. 
+
+#### Event Data
+
+##### sender `Telerik.Web.UI.RadListBox`
+
+The RadListBox instance raised the event.
+
+##### args `Telerik.Web.UI.ListBoxDeletingEventArgs`
+
+The arguments of the Deleting event.
+
+### mouseOver
+
+Occurs when the mouse cursor passes over an item.
+
+#### Event Data
+
+##### sender `Telerik.Web.UI.RadListBox`
+
+The RadListBox instance raised the event.
+
+##### args `Telerik.Web.UI.ListBoxMouseOverEventArgs`
+
+The arguments of the MouseOver event.
+
+### selectedIndexChanging
+
+Occurs when the selected item is about to be changed. 
+
+#### Event Data
+
+##### sender `Telerik.Web.UI.RadListBox`
+
+The RadListBox instance raised the event.
+
+##### args `Telerik.Web.UI.ListBoxSelectedIndexChangingEventArgs`
+
+The arguments of the SelectedIndexChanging event.
+
+### transferring
+
+Occurs when the selected item is about to be transferred to the destination RadListBox
+
+#### Event Data
+
+##### sender `Telerik.Web.UI.RadListBox`
+
+The RadListBox instance raised the event.
+
+##### args `Telerik.Web.UI.ListBoxTransferringEventArgs`
+
+The arguments of the Transferring event.
+
+### checkAllChecking
+
+Occurs when the user is about to click on the CheckAll item.
+
+#### Event Data
+
+##### sender `Telerik.Web.UI.RadListBox`
+
+The RadListBox instance raised the event.
+
+##### args `Telerik.Web.UI.ListBoxCheckAllCheckingEventArgs`
+
+The arguments of the CheckAllChecking event.
+
+### itemDoubleClicking
+
+Occurs when the user is about to double click the item using.
+
+#### Event Data
+
+##### sender `Telerik.Web.UI.RadListBox`
+
+The RadListBox instance raised the event.
+
+##### args `Telerik.Web.UI.ListBoxItemDoubleClickingEventArgs`
+
+The arguments of the ItemDoubleClicking event.
+
+### itemChecking
+
+Occurs when the user is just about to select a checkbox using mouse or keyboard.
+
+#### Event Data
+
+##### sender `Telerik.Web.UI.RadListBox`
+
+The RadListBox instance raised the event.
+
+##### args `Telerik.Web.UI.ListBoxItemCheckingEventArgs`
+
+The arguments of the ItemChecking event.
+
+### itemChecked
+
+Occurs when the user is just about to select a checkbox using mouse or keyboard.
+
+#### Event Data
+
+##### sender `Telerik.Web.UI.RadListBox`
+
+The RadListBox instance raised the event.
+
+##### args `Telerik.Web.UI.ListBoxItemCheckedEventArgs`
+
+The arguments of the ItemChecked event.
+
+
+

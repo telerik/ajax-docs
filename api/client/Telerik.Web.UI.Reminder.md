@@ -11,6 +11,7 @@ slug: Telerik.Web.UI.Reminder
 
 * *[Telerik.Web.UI.Reminder]({%slug Telerik.Web.UI.Reminder%})*
 
+
 ## Methods
 
 ###  clone
@@ -23,7 +24,7 @@ Returns a copy of this Reminder.
 
 `Telerik.Web.UI.Reminder`  A copy of this Reminder. 
 
-###  get_attributes
+### get_attributes
 
 Gets a collection of the Attributes associated to the current Reminder.
 
@@ -33,7 +34,7 @@ Gets a collection of the Attributes associated to the current Reminder.
 
 `Telerik.Web.UI.SchedulerAttributeCollection`  The collection of the Attributes associated to the current Reminder. 
 
-###  get_id
+### get_id
 
 Gets the ID of the Reminder.
 
@@ -43,7 +44,7 @@ Gets the ID of the Reminder.
 
 `Number`  The ID of the Reminder. 
 
-###  get_owner
+### get_owner
 
 Gets the appointment that the Reminder is associated with.
 
@@ -53,7 +54,7 @@ Gets the appointment that the Reminder is associated with.
 
 `Telerik.Web.UI.SchedulerAppointment`  The appointment that the Reminder is associated with. 
 
-###  get_trigger
+### get_trigger
 
 Gets the Reminder trigger value in minutes.
 
@@ -63,7 +64,7 @@ Gets the Reminder trigger value in minutes.
 
 `Number`  The Reminder trigger value in minutes. 
 
-###  get_triggerDate
+### get_triggerDate
 
 Gets the date on which the reminder should be triggered.
 
@@ -73,7 +74,7 @@ Gets the date on which the reminder should be triggered.
 
 `Date`  The appointment that the Reminder is associated with. 
 
-###  set_id
+### set_id
 
 Sets the ID of the Reminder.
 
@@ -87,7 +88,7 @@ Sets the ID of the Reminder.
 
 `None` 
 
-###  set_trigger
+### set_trigger
 
 Sets the Reminder trigger value in minutes.
 
@@ -100,5 +101,6 @@ Sets the Reminder trigger value in minutes.
 #### Returns
 
 `None` 
+
 
 

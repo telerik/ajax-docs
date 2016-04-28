@@ -12,35 +12,12 @@ slug: Telerik.Web.UI.RadPivotGrid
 * [Telerik.Web.UI.RadWebControl]({%slug Telerik.Web.UI.RadWebControl%})
 * *[Telerik.Web.UI.RadPivotGrid]({%slug Telerik.Web.UI.RadPivotGrid%})*
 
+
 ## Methods
 
-### expandColumnGroupsAtLevel
+### collapseAllColumnGroups
 
-Expands all column groups at the specified level.
-
-#### Parameters
-
-##### level `Number`
-
-The level which to expand.
-
-#### Returns
-
-`None` 
-
-### get_filterDialog
-
-Gets the RadWindow client-side object for the RadPivotGrid Filtering window dialog.
-
-#### Parameters
-
-#### Returns
-
-`Telerik.Web.UI.RadWindow` Returns the RadWindow client
-
-### rebind
-
-Performs postback and calls Rebind on the RadPivotGrid.
+Collapses all column groups at the zero level.
 
 #### Parameters
 
@@ -48,25 +25,11 @@ Performs postback and calls Rebind on the RadPivotGrid.
 
 `None` 
 
-### get_fieldsWindow
+### collapseAllRowGroups
 
-Gets the RadWindow client-side object for the RadPivotGrid FieldsWindow.
-
-#### Parameters
-
-#### Returns
-
-`Telerik.Web.UI.RadWindow` The RadWindow client
-
-### page
-
-Executes a page command depending on the provided commandName value. The supported values are: "Next", "Prev", "First", "Last".
+Collapses all row groups at the zero level.
 
 #### Parameters
-
-##### commandName `String`
-
-The page command name which will be executed.
 
 #### Returns
 
@@ -86,145 +49,63 @@ The level which to collapse.
 
 `None` 
 
-### get_hzScrollDiv
+### collapseRowGroupsAtLevel
 
-Returns the DIV element which holds the horizontal scrollbar of the control.
+Collapses all row groups at the specified level.
+
+#### Parameters
+
+##### level `Number`
+
+The level which to collapse.
+
+#### Returns
+
+`None` 
+
+### expandAllColumnGroups
+
+Expands all column groups at the zero level.
 
 #### Parameters
 
 #### Returns
 
 `None` 
-
-### show
-
-A method which hides the field it is called upon.
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-### get_verticalScrollDiv
-
-Returns the DIV element which holds the vertical scrollbar of the control.
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-### get_fieldSettingsWindow
-
-Gets the RadWindow client-side object for the RadPivotGrid field settings window.
-
-#### Parameters
-
-#### Returns
-
-`Telerik.Web.UI.RadWindow` Returns the RadWindow client
-
-### hide
-
-A method which hides the field it is called upon.
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-### get_enableToolTips
-
-Gets a value indicating whether toolTips for PivotGrid are enable or not (default is false).
-
-#### Parameters
-
-#### Returns
-
-`Boolean` true if the toolTips are enabled
-
-### get_columnZone
-
-Gets the zone element where all not hidden PivotGridColumnField's are placed.
-
-#### Parameters
-
-#### Returns
-
-`Element` The the zone element where all not hidden PivotGridColumnField
-
-### get_filterWindow
-
-Gets the RadWindow client-side object for the RadPivotGrid Filtering window.
-
-#### Parameters
-
-#### Returns
-
-`Telerik.Web.UI.RadWindow` Returns the RadWindow client
-
-### get_fieldSettings
-
-Gets the object holding all properties associated with the field settings window.
-
-#### Parameters
-
-#### Returns
-
-`Telerik.Web.UI.PivotGridFieldSettings` Returns the object holding all properties associated with the field settings window.
-
-### getFieldByUniqueName
-
-Performs postback and shows the provided field.
-
-#### Parameters
-
-##### fieldOrUniqueName `String`
-
- The field unique name
-
-#### Returns
-
-`Telerik.Web.UI.PivotGridField`  
-
-### get_zoneContextMenu
-
-EnableZoneContextMenu
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-### get_columnGroupDescriptionsCount
-
-Returns a number representing the count of the column group descriptions.
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-### get_pageSize
-
-Gets the maximum number of items that would appear in a page, when paging is enabled by AllowPaging property. Default value is 10.
-
-#### Parameters
-
-#### Returns
-
-`Number` The maximum number of items that could appear in a page.
 
 ### expandAllRowGroups
 
 Expands all row groups at the zero level.
 
 #### Parameters
+
+#### Returns
+
+`None` 
+
+### expandColumnGroupsAtLevel
+
+Expands all column groups at the specified level.
+
+#### Parameters
+
+##### level `Number`
+
+The level which to expand.
+
+#### Returns
+
+`None` 
+
+### expandRowGroupsAtLevel
+
+Expands all row groups at the specified level.
+
+#### Parameters
+
+##### level `Number`
+
+The level which to expand.
 
 #### Returns
 
@@ -248,15 +129,75 @@ The name of the command.
 
 `None` 
 
-### set_pageSize
+### get_aggregateZone
 
-Sets the maximum number of items that would appear in a page, when paging is enabled by AllowPaging property.
+Gets the zone element where all not hidden PivotGridAggregateField's are placed.
+
+#### Parameters
+
+#### Returns
+
+`Element` The the zone element where all not hidden PivotGridAggregateField
+
+### get_clientSettings
+
+The RadPivotGrid client settings for the current instance.
+
+#### Parameters
+
+#### Returns
+
+`Object` Returns the RadPivotGrid client settings for the current instance.
+
+### get_columnGroupDescriptionsCount
+
+Returns a number representing the count of the column group descriptions.
 
 #### Parameters
 
 #### Returns
 
 `None` 
+
+### get_columnHeaderTable
+
+The column header table element.
+
+#### Parameters
+
+#### Returns
+
+`Element` Returns the column header table element.
+
+### get_columnZone
+
+Gets the zone element where all not hidden PivotGridColumnField's are placed.
+
+#### Parameters
+
+#### Returns
+
+`Element` The the zone element where all not hidden PivotGridColumnField
+
+### get_configurationPanel
+
+Gets the PivotGridConfigurationPanel client-side object for the RadPivotGrid.
+
+#### Parameters
+
+#### Returns
+
+`Telerik.Web.UI.PivotGridConfigurationPanel` The PivotGridConfigurationPanel client
+
+### get_contextMenu
+
+Gets the RadMenu client-side object for the RadPivotGrid ContextMenu.
+
+#### Parameters
+
+#### Returns
+
+`Telerik.Web.UI.RadMenu` The RadMenu client
 
 ### get_currentPageIndex
 
@@ -268,21 +209,119 @@ Gets a value indicating the index of the currently active page in case paging is
 
 `Number` The index of the current page.
 
-### get_uniqueID
+### get_dataTable
 
-The UniqueID of the RadPivotGrid instance.
+The pivot table data table element.
 
 #### Parameters
 
 #### Returns
 
-`String` Returns the UniqueID of the RadPivotGrid instance.
+`Element` The pivot table data table element.
 
-### get_zoneType
+### get_enableAriaSupport
 
-Returns a numeric value which corresponds to a member of the Telerik.Web.UI.PivotGridFieldZoneType enumeration
+Gets a value indicating whether WAI-ARIA for RadPivotGrid is enabled or not (default is false).
 
-                            which has the following values: "Filter" (1), "Aggregate" (2), "Column" (4), "Row" (8).
+#### Parameters
+
+#### Returns
+
+`Boolean` true if the WAI
+
+### get_enableToolTips
+
+Gets a value indicating whether toolTips for PivotGrid are enable or not (default is false).
+
+#### Parameters
+
+#### Returns
+
+`Boolean` true if the toolTips are enabled
+
+### get_fields
+
+Gets the collection of Telerik.Web.UI.PivotGridField items which are part of the RadPivotGrid.
+
+#### Parameters
+
+#### Returns
+
+`Array`  The collection of Telerik.Web.UI.PivotGridField items which are part of the RadPivotGrid. 
+
+### get_fieldSettings
+
+Gets the object holding all properties associated with the field settings window.
+
+#### Parameters
+
+#### Returns
+
+`Telerik.Web.UI.PivotGridFieldSettings` Returns the object holding all properties associated with the field settings window.
+
+### get_fieldSettingsWindow
+
+Gets the RadWindow client-side object for the RadPivotGrid field settings window.
+
+#### Parameters
+
+#### Returns
+
+`Telerik.Web.UI.RadWindow` Returns the RadWindow client
+
+### get_fieldsWindow
+
+Gets the RadWindow client-side object for the RadPivotGrid FieldsWindow.
+
+#### Parameters
+
+#### Returns
+
+`Telerik.Web.UI.RadWindow` The RadWindow client
+
+### get_filterDialog
+
+Gets the RadWindow client-side object for the RadPivotGrid Filtering window dialog.
+
+#### Parameters
+
+#### Returns
+
+`Telerik.Web.UI.RadWindow` Returns the RadWindow client
+
+### get_filterWindow
+
+Gets the RadWindow client-side object for the RadPivotGrid Filtering window.
+
+#### Parameters
+
+#### Returns
+
+`Telerik.Web.UI.RadWindow` Returns the RadWindow client
+
+### get_filterZone
+
+Gets the zone element where all not hidden PivotGridReportFilterField's are placed.
+
+#### Parameters
+
+#### Returns
+
+`Element` The the zone element where all not hidden PivotGridReportFilterField
+
+### get_hzScrollDiv
+
+Returns the DIV element which holds the horizontal scrollbar of the control.
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### get_owner
+
+A property which gets a reference to the owner RadPivotGrid object.
 
 #### Parameters
 
@@ -300,39 +339,25 @@ Gets the number of pages required to display the records of the data source in t
 
 `Number` The number of pages required to display the records of the data source.
 
-### collapseAllColumnGroups
+### get_pageSize
 
-Collapses all column groups at the zero level.
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-### get_configurationPanel
-
-Gets the PivotGridConfigurationPanel client-side object for the RadPivotGrid.
+Gets the maximum number of items that would appear in a page, when paging is enabled by AllowPaging property. Default value is 10.
 
 #### Parameters
 
 #### Returns
 
-`Telerik.Web.UI.PivotGridConfigurationPanel` The PivotGridConfigurationPanel client
+`Number` The maximum number of items that could appear in a page.
 
-### expandRowGroupsAtLevel
+### get_rowHeaderTable
 
-Expands all row groups at the specified level.
+The row header table element.
 
 #### Parameters
 
-##### level `Number`
-
-The level which to expand.
-
 #### Returns
 
-`None` 
+`Element` Returns the row header table element.
 
 ### get_rowZone
 
@@ -344,15 +369,15 @@ Gets the zone element where all not hidden PivotGridRowField's are placed.
 
 `Element` The the zone element where all not hidden PivotGridRowField
 
-### get_owner
+### get_scrollHeight
 
-A property which gets a reference to the owner RadPivotGrid object.
+The actual scoll height of the RadPivotGrid client-side element.
 
 #### Parameters
 
 #### Returns
 
-`None` 
+`Number` Returns the actual scoll height of the RadPivotGrid client
 
 ### get_toolTipManager
 
@@ -364,63 +389,133 @@ Gets the RadToolTipManager client-side object for the PivotGridToolTipManager.
 
 `Telerik.Web.UI.RadToolTipManager` The RadToolTipManager client
 
-### get_dataTable
+### get_uniqueID
 
-The pivot table data table element.
-
-#### Parameters
-
-#### Returns
-
-`Element` The pivot table data table element.
-
-### expandAllColumnGroups
-
-Expands all column groups at the zero level.
+The UniqueID of the RadPivotGrid instance.
 
 #### Parameters
 
 #### Returns
 
-`None` 
-
-### collapseRowGroupsAtLevel
-
-Collapses all row groups at the specified level.
-
-#### Parameters
-
-##### level `Number`
-
-The level which to collapse.
-
-#### Returns
-
-`None` 
-
-### get_aggregateZone
-
-Gets the zone element where all not hidden PivotGridAggregateField's are placed.
-
-#### Parameters
-
-#### Returns
-
-`Element` The the zone element where all not hidden PivotGridAggregateField
-
-### get_contextMenu
-
-Gets the RadMenu client-side object for the RadPivotGrid ContextMenu.
-
-#### Parameters
-
-#### Returns
-
-`Telerik.Web.UI.RadMenu` The RadMenu client
+`String` Returns the UniqueID of the RadPivotGrid instance.
 
 ### get_uniqueName
 
 A property which returns the unique name of the field.
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### get_verticalScrollDiv
+
+Returns the DIV element which holds the vertical scrollbar of the control.
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### get_zoneContextMenu
+
+EnableZoneContextMenu
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### get_zoneIndex
+
+A property which returns the zone index of the field.
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### get_zoneType
+
+Returns a numeric value which corresponds to a member of the Telerik.Web.UI.PivotGridFieldZoneType enumeration
+
+                            which has the following values: "Filter" (1), "Aggregate" (2), "Column" (4), "Row" (8).
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### getFieldByUniqueName
+
+Performs postback and shows the provided field.
+
+#### Parameters
+
+##### fieldOrUniqueName `String`
+
+ The field unique name
+
+#### Returns
+
+`Telerik.Web.UI.PivotGridField`  
+
+### hide
+
+A method which hides the field it is called upon.
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### hideField
+
+Performs postback and hides the provided field.
+
+#### Parameters
+
+##### fieldOrUniqueName `String`
+
+ The field unique name
+
+#### Returns
+
+`None` 
+
+### page
+
+Executes a page command depending on the provided commandName value. The supported values are: "Next", "Prev", "First", "Last".
+
+#### Parameters
+
+##### commandName `String`
+
+The page command name which will be executed.
+
+#### Returns
+
+`None` 
+
+### rebind
+
+Performs postback and calls Rebind on the RadPivotGrid.
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### repaint
+
+Redraws the client side element on the client.
 
 #### Parameters
 
@@ -438,31 +533,35 @@ Sets a value indicating the index of the currently active page in case paging is
 
 `None` 
 
-### get_scrollHeight
+### set_pageSize
 
-The actual scoll height of the RadPivotGrid client-side element.
-
-#### Parameters
-
-#### Returns
-
-`Number` Returns the actual scoll height of the RadPivotGrid client
-
-### get_rowHeaderTable
-
-The row header table element.
+Sets the maximum number of items that would appear in a page, when paging is enabled by AllowPaging property.
 
 #### Parameters
 
 #### Returns
 
-`Element` Returns the row header table element.
+`None` 
 
-### get_zoneIndex
+### show
 
-A property which returns the zone index of the field.
+A method which hides the field it is called upon.
 
 #### Parameters
+
+#### Returns
+
+`None` 
+
+### showField
+
+Performs postback and shows the provided field.
+
+#### Parameters
+
+##### fieldOrUniqueName `String`
+
+ The field unique name
 
 #### Returns
 
@@ -486,103 +585,15 @@ The PivotGridField.UniqueName value or the Telerik.Web.UI.PivotGridField client
 
 `None` 
 
-### hideField
+### tryReorder
 
-Performs postback and hides the provided field.
-
-#### Parameters
-
-##### fieldOrUniqueName `String`
-
- The field unique name
-
-#### Returns
-
-`None` 
-
-### showField
-
-Performs postback and shows the provided field.
-
-#### Parameters
-
-##### fieldOrUniqueName `String`
-
- The field unique name
-
-#### Returns
-
-`None` 
-
-### get_enableAriaSupport
-
-Gets a value indicating whether WAI-ARIA for RadPivotGrid is enabled or not (default is false).
-
-#### Parameters
-
-#### Returns
-
-`Boolean` true if the WAI
-
-### get_filterZone
-
-Gets the zone element where all not hidden PivotGridReportFilterField's are placed.
-
-#### Parameters
-
-#### Returns
-
-`Element` The the zone element where all not hidden PivotGridReportFilterField
-
-### collapseAllRowGroups
-
-Collapses all row groups at the zero level.
+Telerik.Web.UI.PivotGridFieldZoneType
 
 #### Parameters
 
 #### Returns
 
 `None` 
-
-### repaint
-
-Redraws the client side element on the client.
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-### get_fields
-
-Gets the collection of Telerik.Web.UI.PivotGridField items which are part of the RadPivotGrid.
-
-#### Parameters
-
-#### Returns
-
-`Array`  The collection of Telerik.Web.UI.PivotGridField items which are part of the RadPivotGrid. 
-
-### get_columnHeaderTable
-
-The column header table element.
-
-#### Parameters
-
-#### Returns
-
-`Element` Returns the column header table element.
-
-### get_clientSettings
-
-The RadPivotGrid client settings for the current instance.
-
-#### Parameters
-
-#### Returns
-
-`Object` Returns the RadPivotGrid client settings for the current instance.
 
 ### tryReorderField
 
@@ -606,21 +617,12 @@ The new ZoneIndex for the field
 
 `Boolean` If the reorder happened or not which could happen if the zoneType and zoneIndex are the same
 
-### tryReorder
-
-Telerik.Web.UI.PivotGridFieldZoneType
-
-#### Parameters
-
-#### Returns
-
-`None` 
 
 ## Events
 
-### pivotGridCreating
+### pivotGridDestroying
 
-This event is fired when the RadPivotGrid client component is initializing.
+This event is fired when the RadPivotGrid client component is about to be disposed.
 
 #### Event Data
 
@@ -646,9 +648,9 @@ The instance of the RadPivotGrid raised the event.
 
 Empty event argument.
 
-### pivotGridDestroying
+### pivotGridCreating
 
-This event is fired when the RadPivotGrid client component is about to be disposed.
+This event is fired when the RadPivotGrid client component is initializing.
 
 #### Event Data
 
@@ -659,20 +661,6 @@ The instance of the RadPivotGrid raised the event.
 ##### args `Sys.EventArgs`
 
 Empty event argument.
-
-### command
-
-This event will be raised when a client command is executed in RadPivotGrid. The command can be canceled.
-
-#### Event Data
-
-##### sender `Telerik.Web.UI.RadPivotGrid`
-
-The instance of the RadPivotGrid raised the event.
-
-##### args `Telerik.Web.UI.PivotGridCommandCancelEventArgs`
-
-The event arguments.
 
 ### toolTipShow
 
@@ -685,76 +673,6 @@ The event is raised immediately before the tooltip is shown on the client. Canno
 The instance of the RadPivotGrid raised the event.
 
 ##### args `Telerik.Web.UI.PivotGridToolTipShowEventArgs`
-
-The event arguments.
-
-### cellClick
-
-The event is raised when the user clicks on a cell from the RadPivotGrid.
-
-#### Event Data
-
-##### sender `Telerik.Web.UI.RadPivotGrid`
-
-The instance of the RadPivotGrid raised the event.
-
-##### args `Telerik.Web.UI.PivotGridCellEventArgs`
-
-The event arguments.
-
-### cellMouseOver
-
-The event is raised when the user moves the mouse pointer over a cell from the RadPivotGrid.
-
-#### Event Data
-
-##### sender `Telerik.Web.UI.RadPivotGrid`
-
-The instance of the RadPivotGrid raised the event.
-
-##### args `Telerik.Web.UI.PivotGridCellEventArgs`
-
-The event arguments.
-
-### cellMouseOut
-
-The event is raised when the user moves the mouse pointer out of a cell from the RadPivotGrid.
-
-#### Event Data
-
-##### sender `Telerik.Web.UI.RadPivotGrid`
-
-The instance of the RadPivotGrid raised the event.
-
-##### args `Telerik.Web.UI.PivotGridCellEventArgs`
-
-The event arguments.
-
-### cellDoubleClick
-
-The event is raised when the user double clicks on a cell from the RadPivotGrid.
-
-#### Event Data
-
-##### sender `Telerik.Web.UI.RadPivotGrid`
-
-The instance of the RadPivotGrid raised the event.
-
-##### args `Telerik.Web.UI.PivotGridCellEventArgs`
-
-The event arguments.
-
-### cellContextMenu
-
-The event is raised when the user clicks with the right mouse button on a cell from the RadPivotGrid.
-
-#### Event Data
-
-##### sender `Telerik.Web.UI.RadPivotGrid`
-
-The instance of the RadPivotGrid raised the event.
-
-##### args `Telerik.Web.UI.PivotGridCellEventArgs`
 
 The event arguments.
 
@@ -785,3 +703,88 @@ The instance of the RadPivotGrid raised the event.
 ##### args `Telerik.Web.UI.PivotGridMenuShownEventArgs`
 
 The event arguments.
+### cellClick
+
+The event is raised when the user clicks on a cell from the RadPivotGrid.
+
+#### Event Data
+
+##### sender `Telerik.Web.UI.RadPivotGrid`
+
+The instance of the RadPivotGrid raised the event.
+
+##### args `Telerik.Web.UI.PivotGridCellEventArgs`
+
+The event arguments.
+
+### cellContextMenu
+
+The event is raised when the user clicks with the right mouse button on a cell from the RadPivotGrid.
+
+#### Event Data
+
+##### sender `Telerik.Web.UI.RadPivotGrid`
+
+The instance of the RadPivotGrid raised the event.
+
+##### args `Telerik.Web.UI.PivotGridCellEventArgs`
+
+The event arguments.
+
+### cellDoubleClick
+
+The event is raised when the user double clicks on a cell from the RadPivotGrid.
+
+#### Event Data
+
+##### sender `Telerik.Web.UI.RadPivotGrid`
+
+The instance of the RadPivotGrid raised the event.
+
+##### args `Telerik.Web.UI.PivotGridCellEventArgs`
+
+The event arguments.
+
+### cellMouseOut
+
+The event is raised when the user moves the mouse pointer out of a cell from the RadPivotGrid.
+
+#### Event Data
+
+##### sender `Telerik.Web.UI.RadPivotGrid`
+
+The instance of the RadPivotGrid raised the event.
+
+##### args `Telerik.Web.UI.PivotGridCellEventArgs`
+
+The event arguments.
+
+### cellMouseOver
+
+The event is raised when the user moves the mouse pointer over a cell from the RadPivotGrid.
+
+#### Event Data
+
+##### sender `Telerik.Web.UI.RadPivotGrid`
+
+The instance of the RadPivotGrid raised the event.
+
+##### args `Telerik.Web.UI.PivotGridCellEventArgs`
+
+The event arguments.
+
+### command
+
+This event will be raised when a client command is executed in RadPivotGrid. The command can be canceled.
+
+#### Event Data
+
+##### sender `Telerik.Web.UI.RadPivotGrid`
+
+The instance of the RadPivotGrid raised the event.
+
+##### args `Telerik.Web.UI.PivotGridCommandCancelEventArgs`
+
+The event arguments.
+
+

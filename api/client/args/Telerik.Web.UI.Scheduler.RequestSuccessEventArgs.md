@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.Scheduler.RequestSuccessEventArgs
 * Sys.EventArgs
 * *[Telerik.Web.UI.Scheduler.RequestSuccessEventArgs]({%slug Telerik.Web.UI.Scheduler.RequestSuccessEventArgs%})*
 
+
 ## Methods
 
 ### get_result
@@ -23,3 +24,4 @@ Returns the object received from the server.
 #### Returns
 
 `Object`
+

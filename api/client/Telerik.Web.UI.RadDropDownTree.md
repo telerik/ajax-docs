@@ -12,7 +12,28 @@ slug: Telerik.Web.UI.RadDropDownTree
 * [Telerik.Web.UI.RadWebControl]({%slug Telerik.Web.UI.RadWebControl%})
 * *[Telerik.Web.UI.RadDropDownTree]({%slug Telerik.Web.UI.RadDropDownTree%})*
 
+
 ## Methods
+
+### closeDropDown
+
+Closes the drop down of the current instance.
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### get_defaultMessage
+
+Returns  the Default message in the entry area
+
+#### Parameters
+
+#### Returns
+
+`String` 
 
 ### get_dropDownElement
 
@@ -34,35 +55,17 @@ Gets the embedded tree - the integrated RadTreeView control.
 
 `Telerik.Web.UI.RadTreeView` - the integrated RadTreeView control.
 
-### closeDropDown
+### get_enabled
 
-Closes the drop down of the current instance.
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-### get_selectedText
-
-Returns the text of an entry(or a collection of entries separated by semicolon) in the entry area
+Returns true if the RadDropDownTree is enabled and false if the control is disabled
 
 #### Parameters
 
-#### Returns
-
-`String` 
-
-### openDropDown
-
-Opens the drop down of the current instance.
-
-#### Parameters
+##### Boolean `Boolean`
 
 #### Returns
 
-`None` 
+`Boolean` 
 
 ### get_entries
 
@@ -74,19 +77,9 @@ Returns the RadDropDownTree Entries collection
 
 `Object` 
 
-### toggleDropDown
+### get_selectedText
 
-Opens the drop down of the current instance.
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-### get_defaultMessage
-
-Returns  the Default message in the entry area
+Returns the text of an entry(or a collection of entries separated by semicolon) in the entry area
 
 #### Parameters
 
@@ -104,29 +97,15 @@ Returns the value of an entry (or a collection of entries separated by semicolon
 
 `String` 
 
-### get_enabled
+### openDropDown
 
-Returns true if the RadDropDownTree is enabled and false if the control is disabled
-
-#### Parameters
-
-##### Boolean `Boolean`
-
-#### Returns
-
-`Boolean` 
-
-### set_enabled
-
-Enables the RadDropDownTree control
+Opens the drop down of the current instance.
 
 #### Parameters
 
-##### Boolean `Boolean`
-
 #### Returns
 
-`Boolean` 
+`None` 
 
 ### set_defaultMessage
 
@@ -140,39 +119,34 @@ Sets the Default message in the entry area
 
 `Object` 
 
+### set_enabled
+
+Enables the RadDropDownTree control
+
+#### Parameters
+
+##### Boolean `Boolean`
+
+#### Returns
+
+`Boolean` 
+
+### toggleDropDown
+
+Opens the drop down of the current instance.
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+
 ## Events
 
-### load
+### clearButtonClicked
 
-The load client-side event occurs when the RadDropDownTree is first loaded and fully initialized on the client.
-
-#### Event Data
-
-##### sender `Telerik.Web.UI.RadDropDownTree`
-
-The RadDropDownTree instance that fired the event.
-
-##### args `Sys.EventArgs`
-
-Empty event argument.
-
-### dropDownOpening
-
-The dropDownOpening client-side event that is fired before the dropdown of RadDropDownTree is opened. The event can be cancelled.
-
-#### Event Data
-
-##### sender `Telerik.Web.UI.RadDropDownTree`
-
-The RadDropDownTree instance that fired the event.
-
-##### args `Sys.CancelEventArgs`
-
-The event arguments.
-
-### dropDownOpened
-
-The dropDownOpened client-side event that is fired after the dropdown of the RadDropDownTree is opened. The event cannot be cancelled.
+The clearButtonClicked client-side event after the Clear button in the entry area of the RadDropDownTree is clicked.
 
 #### Event Data
 
@@ -183,10 +157,9 @@ The RadDropDownTree instance that fired the event.
 ##### args `Sys.EventArgs`
 
 The event arguments.
+### clearButtonClicking
 
-### dropDownClosing
-
-The dropDownClosing client-side event that is fired before the dropdown of the RadDropDownTree is closed. The event can be cancelled.
+The clearButtonClicking client-side event is fired immediately when the Clear button in the entry area of the RadDropDownTree is clicked.
 
 #### Event Data
 
@@ -212,10 +185,9 @@ The RadDropDownTree instance that fired the event.
 
 The event arguments.
 
-### entryAdding
+### dropDownClosing
 
-The entryAdding client-side event is fired when an entry is about to be added to the entry area. The event can be cancelled.
-When the CheckBoxes property of the control is set to either the TriState or the CheckChildNodes, the event will fire only for the node that is being checked.
+The dropDownClosing client-side event that is fired before the dropdown of the RadDropDownTree is closed. The event can be cancelled.
 
 #### Event Data
 
@@ -223,7 +195,35 @@ When the CheckBoxes property of the control is set to either the TriState or the
 
 The RadDropDownTree instance that fired the event.
 
-##### args `Telerik.Web.UI.DropDownTreeEntryAddingEventArgs`
+##### args `Sys.CancelEventArgs`
+
+The event arguments.
+
+### dropDownOpened
+
+The dropDownOpened client-side event that is fired after the dropdown of the RadDropDownTree is opened. The event cannot be cancelled.
+
+#### Event Data
+
+##### sender `Telerik.Web.UI.RadDropDownTree`
+
+The RadDropDownTree instance that fired the event.
+
+##### args `Sys.EventArgs`
+
+The event arguments.
+
+### dropDownOpening
+
+The dropDownOpening client-side event that is fired before the dropdown of RadDropDownTree is opened. The event can be cancelled.
+
+#### Event Data
+
+##### sender `Telerik.Web.UI.RadDropDownTree`
+
+The RadDropDownTree instance that fired the event.
+
+##### args `Sys.CancelEventArgs`
 
 The event arguments.
 
@@ -241,9 +241,10 @@ The RadDropDownTree instance that fired the event.
 
 The event arguments.
 
-### entryRemoving
+### entryAdding
 
-The entryRemoving client-side event is fired when an entry is about to be removed from the Entry area. The event can be cancelled.
+The entryAdding client-side event is fired when an entry is about to be added to the entry area. The event can be cancelled.
+When the CheckBoxes property of the control is set to either the TriState or the CheckChildNodes, the event will fire only for the node that is being checked.
 
 #### Event Data
 
@@ -251,7 +252,7 @@ The entryRemoving client-side event is fired when an entry is about to be remove
 
 The RadDropDownTree instance that fired the event.
 
-##### args `Telerik.Web.UI.DropDownTreeEntryRemovingEventArgs`
+##### args `Telerik.Web.UI.DropDownTreeEntryAddingEventArgs`
 
 The event arguments.
 
@@ -269,9 +270,9 @@ The RadDropDownTree instance that fired the event.
 
 The event arguments.
 
-### clearButtonClicking
+### entryRemoving
 
-The clearButtonClicking client-side event is fired immediately when the Clear button in the entry area of the RadDropDownTree is clicked.
+The entryRemoving client-side event is fired when an entry is about to be removed from the Entry area. The event can be cancelled.
 
 #### Event Data
 
@@ -279,13 +280,13 @@ The clearButtonClicking client-side event is fired immediately when the Clear bu
 
 The RadDropDownTree instance that fired the event.
 
-##### args `Sys.CancelEventArgs`
+##### args `Telerik.Web.UI.DropDownTreeEntryRemovingEventArgs`
 
 The event arguments.
 
-### clearButtonClicked
+### load
 
-The clearButtonClicked client-side event after the Clear button in the entry area of the RadDropDownTree is clicked.
+The load client-side event occurs when the RadDropDownTree is first loaded and fully initialized on the client.
 
 #### Event Data
 
@@ -295,4 +296,6 @@ The RadDropDownTree instance that fired the event.
 
 ##### args `Sys.EventArgs`
 
-The event arguments.
+Empty event argument.
+
+

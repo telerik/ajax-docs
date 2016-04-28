@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.FileExplorer.FilePathEventArgs
 * Sys.EventArgs
 * *[Telerik.Web.UI.FileExplorer.FilePathEventArgs]({%slug Telerik.Web.UI.FileExplorer.FilePathEventArgs%})*
 
+
 ## Methods
 
 ###  get_path
@@ -23,5 +24,6 @@ Getter for the path
 #### Returns
 
 `String` The file system path
+
 
 

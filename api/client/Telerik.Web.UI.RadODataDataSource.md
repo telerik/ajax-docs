@@ -11,6 +11,7 @@ slug: Telerik.Web.UI.RadODataDataSource
 
 * *[Telerik.Web.UI.RadODataDataSource]({%slug Telerik.Web.UI.RadODataDataSource%})*
 
+
 ## Methods
 
 ###  set_filterExpression
@@ -25,7 +26,7 @@ Sets filters for the request
 
 `Object` 
 
-###  get_sortExpression
+### get_sortExpression
 
 Returns sort expression
 
@@ -35,7 +36,7 @@ Returns sort expression
 
 `Object` 
 
-###  set_sortExpression
+### set_sortExpression
 
 Sets sort expression
 
@@ -46,6 +47,7 @@ Sets sort expression
 #### Returns
 
 `Object` 
+
 
 ## Events
 
@@ -90,3 +92,4 @@ The RadODataDataSource instance raised the event.
 ##### args `Telerik.Web.UI.ODataDataSourceRequestFailedEventArgs`
 
 The arguments of the RequestFail event.
+

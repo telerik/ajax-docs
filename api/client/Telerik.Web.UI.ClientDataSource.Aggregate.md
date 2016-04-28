@@ -11,6 +11,7 @@ slug: Telerik.Web.UI.ClientDataSource.Aggregate
 
 * *[Telerik.Web.UI.ClientDataSource.Aggregate]({%slug Telerik.Web.UI.ClientDataSource.Aggregate%})*
 
+
 ## Methods
 
 ###  get_aggregate
@@ -23,7 +24,7 @@ none
 
 `None` 
 
-###  set_aggregate
+### set_aggregate
 
 Telerik.Web.UI.ClientDataSource.AggregateFunction
 
@@ -32,5 +33,6 @@ Telerik.Web.UI.ClientDataSource.AggregateFunction
 #### Returns
 
 `None` 
+
 
 

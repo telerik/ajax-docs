@@ -11,6 +11,8 @@ slug: Telerik.Web.UI.RadTextBoxExtender
 
 * *[Telerik.Web.UI.RadTextBoxExtender]({%slug Telerik.Web.UI.RadTextBoxExtender%})*
 
-## Methods
+
+Methods
+
 
 

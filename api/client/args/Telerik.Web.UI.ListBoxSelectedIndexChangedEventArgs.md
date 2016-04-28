@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.ListBoxSelectedIndexChangedEventArgs
 * Sys.EventArgs
 * *[Telerik.Web.UI.ListBoxSelectedIndexChangedEventArgs]({%slug Telerik.Web.UI.ListBoxSelectedIndexChangedEventArgs%})*
 
+
 ## Methods
 
 ###  get_item
@@ -24,7 +25,7 @@ Returns the item that is selected.
 
 `Telerik.Web.UI.RadListBoxItem` the item that is selected. 
 
-###  get_domEvent
+### get_domEvent
 
 Returns the Sys.UI.DomEvent instance associated to the raised event.
 
@@ -33,4 +34,5 @@ Returns the Sys.UI.DomEvent instance associated to the raised event.
 #### Returns
 
 `Sys.UI.DomEvent` the Sys.UI.DomEvent instance associated to the raised event.
+
 

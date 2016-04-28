@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.RibbonBarComboBoxSelectedIndexChangingEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.RibbonBarComboBoxSelectedIndexChangingEventArgs]({%slug Telerik.Web.UI.RibbonBarComboBoxSelectedIndexChangingEventArgs%})*
 
+
 ## Methods
 
 ### get_comboBox
@@ -35,3 +36,4 @@ Returns selected index.
 `Number`
 
  
+

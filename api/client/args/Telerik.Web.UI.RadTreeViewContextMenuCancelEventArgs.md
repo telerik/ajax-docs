@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.RadTreeViewContextMenuCancelEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.RadTreeViewContextMenuCancelEventArgs]({%slug Telerik.Web.UI.RadTreeViewContextMenuCancelEventArgs%})*
 
+
 ## Methods
 
 ### get_menu
@@ -33,3 +34,4 @@ Retrieves a reference to the clicked on node.
 #### Returns
 
 `Telerik.Web.UI.RadTreeNode` 
+

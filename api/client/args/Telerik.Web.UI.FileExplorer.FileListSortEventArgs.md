@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.FileExplorer.FileListSortEventArgs
 * Sys.EventArgs
 * *[Telerik.Web.UI.FileExplorer.FileListSortEventArgs]({%slug Telerik.Web.UI.FileExplorer.FileListSortEventArgs%})*
 
+
 ## Methods
 
 ###  get_sortExpression
@@ -23,5 +24,6 @@ Gets the sorting expression used in the sorting event
 #### Returns
 
 `None` 
+
 
 

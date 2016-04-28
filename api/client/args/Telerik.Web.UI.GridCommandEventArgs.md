@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.GridCommandEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.GridCommandEventArgs]({%slug Telerik.Web.UI.GridCommandEventArgs%})*
 
+
 ## Methods
 
 ###  get_commandArgument
@@ -24,7 +25,7 @@ Returns the argument of the initiated command, which will be passed to the serve
 
 `String` 
 
-###  get_commandName
+### get_commandName
 
 Returns the name of the initiated command.
 
@@ -34,7 +35,7 @@ Returns the name of the initiated command.
 
 `String` 
 
-###  get_tableView
+### get_tableView
 
 Returns the owner TableView object.
 
@@ -43,6 +44,7 @@ Returns the owner TableView object.
 #### Returns
 
 `Telerik.Web.UI.GridTableView` 
+
 
 
 

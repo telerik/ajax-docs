@@ -11,7 +11,27 @@ slug: Telerik.Web.UI.Editor.FindReplaceManager
 
 * *[Telerik.Web.UI.Editor.FindReplaceManager]({%slug Telerik.Web.UI.Editor.FindReplaceManager%})*
 
+
 ## Methods
+
+### hide
+
+Hides the UI related to the FindReplaceManager
+
+#### Parameters
+
+#### Returns
+
+`None`
+### show
+
+Show the FindReplaceManager
+
+#### Parameters
+
+#### Returns
+
+`None`
 
 ### toggle
 
@@ -23,22 +43,4 @@ Toggle the visibility of the FindReplaceManager
 
 `None`
 
-### show
 
-Show the FindReplaceManager
-
-#### Parameters
-
-#### Returns
-
-`None`
-
-### hide
-
-Hides the UI related to the FindReplaceManager
-
-#### Parameters
-
-#### Returns
-
-`None`

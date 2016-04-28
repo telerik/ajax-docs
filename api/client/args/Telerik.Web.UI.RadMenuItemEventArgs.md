@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.RadMenuItemEventArgs
 * Sys.EventArgs
 * *[Telerik.Web.UI.RadMenuItemEventArgs]({%slug Telerik.Web.UI.RadMenuItemEventArgs%})*
 
+
 ## Methods
 
 ###  get_item
@@ -24,7 +25,7 @@ Returns a reference to the RadMenuItem that was opened.
 
 `Telerik.Web.UI.RadMenuItem` 
 
-###  get_domEvent
+### get_domEvent
 
 Returns a reference to the DOM event that caused the opening.
 
@@ -33,3 +34,4 @@ Returns a reference to the DOM event that caused the opening.
 #### Returns
 
 `Sys.UI.DomEvent` 
+

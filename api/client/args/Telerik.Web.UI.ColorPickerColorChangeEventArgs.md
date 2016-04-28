@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.ColorPickerColorChangeEventArgs
 * Sys.EventArgs
 * *[Telerik.Web.UI.ColorPickerColorChangeEventArgs]({%slug Telerik.Web.UI.ColorPickerColorChangeEventArgs%})*
 
+
 ## Methods
 
 ###  get_oldColor
@@ -23,3 +24,4 @@ Returns the selected color from just prior to the change.
 #### Returns
 
 `String`
+

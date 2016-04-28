@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.RadMaskedTextBoxComponent
 * Sys.Component
 * *[Telerik.Web.UI.RadMaskedTextBoxComponent]({%slug Telerik.Web.UI.RadMaskedTextBoxComponent%})*
 
+
 ## Methods
 
 ###  _attachEventHandlers
@@ -24,7 +25,7 @@ Attaches the event handlers to all target RadMaskedTextBoxExtenders
 
 `None` 
 
-###  _onTextBoxKeyDownHandler
+### _onTextBoxKeyDownHandler
 
 Handles the keydown event of the input dom elements extended by the target extenders
 
@@ -36,7 +37,7 @@ Handles the keydown event of the input dom elements extended by the target exten
 
 `None` 
 
-###  _resetDisplayPartValues
+### _resetDisplayPartValues
 
 Set the internal display mask part according to the value of the current extender
 
@@ -48,7 +49,7 @@ Set the internal display mask part according to the value of the current extende
 
 `None` 
 
-###  _resetPartValues
+### _resetPartValues
 
 Set the internal mask part according to the value of the current extender
 
@@ -60,7 +61,7 @@ Set the internal mask part according to the value of the current extender
 
 `None` 
 
-###  get_allowEmptyEnumerations
+### get_allowEmptyEnumerations
 
 Returns true if empty enumerations are allowed, and false otherwise
 
@@ -70,7 +71,7 @@ Returns true if empty enumerations are allowed, and false otherwise
 
 `None` 
 
-###  get_initialDisplayMaskParts
+### get_initialDisplayMaskParts
 
 Returns initial display mask parts serialized from the server
 
@@ -80,7 +81,7 @@ Returns initial display mask parts serialized from the server
 
 `None` 
 
-###  get_initialMaskParts
+### get_initialMaskParts
 
 Returns initial mask parts serialized from the server
 
@@ -90,7 +91,7 @@ Returns initial mask parts serialized from the server
 
 `None` 
 
-###  get_isRequiredFields
+### get_isRequiredFields
 
 Returns if the field is required
 
@@ -100,7 +101,7 @@ Returns if the field is required
 
 `None` 
 
-###  get_numericRangeAlign
+### get_numericRangeAlign
 
 Returns the alignment of numeric ranges.
 
@@ -110,7 +111,7 @@ Returns the alignment of numeric ranges.
 
 `None` 
 
-###  get_promptChar
+### get_promptChar
 
 Returns the prompt char of the Mask
 
@@ -120,7 +121,7 @@ Returns the prompt char of the Mask
 
 `None` 
 
-###  get_roundNumericRanges
+### get_roundNumericRanges
 
 Returns if the numberic ranges will be rounded.
 
@@ -130,7 +131,7 @@ Returns if the numberic ranges will be rounded.
 
 `None` 
 
-###  get_targetInput
+### get_targetInput
 
 Gets the target input of RadMaskedTextBoxComponent
 
@@ -142,7 +143,7 @@ Gets the target input of RadMaskedTextBoxComponent
 
 `Number` 
 
-###  get_zeroPadNumericRanges
+### get_zeroPadNumericRanges
 
 Returns if the values of numeric range parts of the mask to have a fixed width
 
@@ -152,7 +153,7 @@ Returns if the values of numeric range parts of the mask to have a fixed width
 
 `None` 
 
-###  set_initialDisplayMaskParts
+### set_initialDisplayMaskParts
 
 Used by the framework to set initial display mask parts serialized from the server
 
@@ -162,7 +163,7 @@ Used by the framework to set initial display mask parts serialized from the serv
 
 `None` 
 
-###  set_initialMaskParts
+### set_initialMaskParts
 
 Used by the framework to set initial mask parts serialized from the server
 
@@ -172,7 +173,7 @@ Used by the framework to set initial mask parts serialized from the server
 
 `None` 
 
-###  set_isRequiredFields
+### set_isRequiredFields
 
 Sets if the field should be required
 
@@ -181,5 +182,6 @@ Sets if the field should be required
 #### Returns
 
 `None` 
+
 
 

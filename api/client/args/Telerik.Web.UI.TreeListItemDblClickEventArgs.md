@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.TreeListItemDblClickEventArgs
 * Sys.EventArgs
 * *[Telerik.Web.UI.TreeListItemDblClickEventArgs]({%slug Telerik.Web.UI.TreeListItemDblClickEventArgs%})*
 
+
 ## Methods
 
 ### get_item
@@ -23,3 +24,4 @@ Returns the double-clicked TreeListDataItem object.
 #### Returns
 
 `Object`
+

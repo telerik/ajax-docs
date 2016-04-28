@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.TreeListItemSelectedEventArgs
 * Sys.EventArgs
 * *[Telerik.Web.UI.TreeListItemSelectedEventArgs]({%slug Telerik.Web.UI.TreeListItemSelectedEventArgs%})*
 
+
 ## Methods
 
 ### get_item
@@ -23,3 +24,4 @@ Returns the selected TreeListDataItem object
 #### Returns
 
 `Object`
+

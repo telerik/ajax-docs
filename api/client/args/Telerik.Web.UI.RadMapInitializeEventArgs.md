@@ -7,10 +7,12 @@ slug: Telerik.Web.UI.RadMapInitializeEventArgs
 
 # Telerik.Web.UI.RadMapInitializeEventArgs : Sys.EventArgs
 
-## Inheritance Hierarchy
+
+Inheritance Hierarchy
 
 * Sys.EventArgs
 * [Telerik.Web.UI.RadMapInitializeEventArgs]({%slug Telerik.Web.UI.RadMapInitializeEventArgs%})
+
 
 ## Methods
 
@@ -24,7 +26,7 @@ Returns the JavaScript object that will configure the Map.
 
 `Object` 
 
-###  set_options
+### set_options
 
 Sets the JavaScript object that will configure the Map.
 
@@ -35,3 +37,4 @@ Sets the JavaScript object that will configure the Map.
 #### Returns
 
 `None` 
+

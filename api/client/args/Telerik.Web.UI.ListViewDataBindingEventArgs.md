@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.ListViewDataBindingEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.ListViewDataBindingEventArgs]({%slug Telerik.Web.UI.ListViewDataBindingEventArgs%})*
 
+
 ## Methods
 
 ### get_ajaxSettings
@@ -53,3 +54,4 @@ Returns a value indicating whether additional data is prepended to the control d
 #### Returns
 
 `Boolean`
+

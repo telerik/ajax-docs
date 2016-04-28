@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.NumericInputManagerErrorEventArgs
 * [Telerik.Web.UI.NumericInputErrorEventArgs]({%slug Telerik.Web.UI.NumericInputErrorEventArgs%})
 * *[Telerik.Web.UI.NumericInputManagerErrorEventArgs]({%slug Telerik.Web.UI.NumericInputManagerErrorEventArgs%})*
 
+
 ## Methods
 
 ###  get_targetInput
@@ -21,5 +22,6 @@ slug: Telerik.Web.UI.NumericInputManagerErrorEventArgs
 #### Returns
 
 `Element` 
+
 
 

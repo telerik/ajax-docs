@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.RadComboBoxItemEventArgs
 * Sys.EventArgs
 * *[Telerik.Web.UI.RadComboBoxItemEventArgs]({%slug Telerik.Web.UI.RadComboBoxItemEventArgs%})*
 
+
 ## Methods
 
 ###  get_item
@@ -25,7 +26,7 @@ Returns the an instance of the newly selected RadComboBoxItem.
 `Telerik.Web.UI.RadComboBoxItem` 
 
 
-###  get_domEvent
+### get_domEvent
 
 Returns the Sys.UI.DomEvent instance associated to the raised event.
 
@@ -34,4 +35,5 @@ Returns the Sys.UI.DomEvent instance associated to the raised event.
 #### Returns
 
 `Sys.UI.DomEvent` 
+
 

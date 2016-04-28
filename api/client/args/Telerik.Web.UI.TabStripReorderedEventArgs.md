@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.TabStripReorderedEventArgs
 * [Telerik.Web.UI.RadTabStripEventArgs]({%slug Telerik.Web.UI.RadTabStripEventArgs%})
 * *[Telerik.Web.UI.TabStripReorderedEventArgs]({%slug Telerik.Web.UI.TabStripReorderedEventArgs%})*
 
+
 ## Methods
 
 
@@ -26,4 +27,5 @@ Returns the offset between the index of the dragged tab before the drag operatio
 #### Returns
 
 `Number` the offset between the index of the dragged tab before the drag operation and the one where it's dropped.
+
 

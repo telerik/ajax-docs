@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.Spell.HtmlTextSourceBase
 * Sys.Component
 * *[Telerik.Web.UI.Spell.HtmlTextSourceBase]({%slug Telerik.Web.UI.Spell.HtmlTextSourceBase%})*
 
+
 ## Methods
 
 ###  get_checkTextAsHtml
@@ -22,7 +23,7 @@ slug: Telerik.Web.UI.Spell.HtmlTextSourceBase
 
 `None` 
 
-###  get_element
+### get_element
 
 #### Parameters
 
@@ -30,7 +31,7 @@ slug: Telerik.Web.UI.Spell.HtmlTextSourceBase
 
 `Element` 
 
-###  get_text
+### get_text
 
 #### Parameters
 
@@ -38,7 +39,7 @@ slug: Telerik.Web.UI.Spell.HtmlTextSourceBase
 
 `String` 
 
-###  set_checkTextAsHtml
+### set_checkTextAsHtml
 
 #### Parameters
 
@@ -46,7 +47,7 @@ slug: Telerik.Web.UI.Spell.HtmlTextSourceBase
 
 `None` 
 
-###  set_element
+### set_element
 
 #### Parameters
 
@@ -54,12 +55,13 @@ slug: Telerik.Web.UI.Spell.HtmlTextSourceBase
 
 `None` 
 
-###  set_text
+### set_text
 
 #### Parameters
 
 #### Returns
 
 `None` 
+
 
 

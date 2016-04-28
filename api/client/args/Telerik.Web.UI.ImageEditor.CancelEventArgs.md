@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.ImageEditor.CancelEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.ImageEditor.CancelEventArgs]({%slug Telerik.Web.UI.ImageEditor.CancelEventArgs%})*
 
+
 ## Methods
 
 ###  get_commandName
@@ -24,7 +25,16 @@ Returns the name of the active command.
 
 `String`
 
-###  set_commandName
+### get_domEvent
+
+Returns the Sys.UI.DomEvent instance associated to the raised event.
+
+#### Parameters
+
+#### Returns
+
+`Sys.UI.DomEvent` 
+### set_commandName
 
 Sets the name of the active command.
 
@@ -38,12 +48,4 @@ The new name that will be used for the active command.
 
 `None`
 
-###  get_domEvent
 
-Returns the Sys.UI.DomEvent instance associated to the raised event.
-
-#### Parameters
-
-#### Returns
-
-`Sys.UI.DomEvent` 

@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.RadComboBoxItemCancelEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.RadComboBoxItemCancelEventArgs]({%slug Telerik.Web.UI.RadComboBoxItemCancelEventArgs%})*
 
+
 ## Methods
 
 ###  get_text
@@ -25,7 +26,7 @@ Returns the text from the input of the RadComboBox.
 `String` - the text from the input of the RadComboBox
 
 
-###  get_domEvent
+### get_domEvent
 
 Returns the Sys.UI.DomEvent instance associated to the raised event.
 
@@ -34,4 +35,5 @@ Returns the Sys.UI.DomEvent instance associated to the raised event.
 #### Returns
 
 `Sys.UI.DomEvent` 
+
 

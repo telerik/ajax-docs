@@ -12,4 +12,6 @@ slug: Telerik.Web.UI.RadTreeViewContextMenuItemEventArgs
 * Sys.EventArgs
 * *[Telerik.Web.UI.RadTreeViewContextMenuItemEventArgs]({%slug Telerik.Web.UI.RadTreeViewContextMenuItemEventArgs%})*
 
-## Methods
+
+Methods
+

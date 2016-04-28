@@ -12,17 +12,8 @@ slug: Telerik.Web.UI.ListViewTemplateCreatedEventArgs
 * Sys.EventArgs
 * *[Telerik.Web.UI.ListViewTemplateCreatedEventArgs]({%slug Telerik.Web.UI.ListViewTemplateCreatedEventArgs%})*
 
+
 ## Methods
-
-### get_name
-
-Returns the name of the template.
-
-#### Parameters
-
-#### Returns
-
-`String`
 
 ### get_context
 
@@ -33,6 +24,16 @@ Returns the context object holding the data that will be used for populating the
 #### Returns
 
 `Object`
+
+### get_name
+
+Returns the name of the template.
+
+#### Parameters
+
+#### Returns
+
+`String`
 
 ### get_template
 
@@ -57,3 +58,4 @@ The function that is used to render the template.
 #### Returns
 
 `None`
+

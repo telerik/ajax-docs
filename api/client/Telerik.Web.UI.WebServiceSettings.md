@@ -11,6 +11,7 @@ slug: Telerik.Web.UI.WebServiceSettings
 
 * *[Telerik.Web.UI.WebServiceSettings]({%slug Telerik.Web.UI.WebServiceSettings%})*
 
+
 ## Methods
 
 ###  get_isEmpty
@@ -21,7 +22,7 @@ slug: Telerik.Web.UI.WebServiceSettings
 
 `None` 
 
-###  get_isOData
+### get_isOData
 
 #### Parameters
 
@@ -29,7 +30,7 @@ slug: Telerik.Web.UI.WebServiceSettings
 
 `None` 
 
-###  get_isWcf
+### get_isWcf
 
 #### Parameters
 
@@ -37,7 +38,7 @@ slug: Telerik.Web.UI.WebServiceSettings
 
 `None` 
 
-###  get_method
+### get_method
 
 #### Parameters
 
@@ -45,7 +46,7 @@ slug: Telerik.Web.UI.WebServiceSettings
 
 `None` 
 
-###  get_path
+### get_path
 
 #### Parameters
 
@@ -53,7 +54,7 @@ slug: Telerik.Web.UI.WebServiceSettings
 
 `None` 
 
-###  get_useHttpGet
+### get_useHttpGet
 
 #### Parameters
 
@@ -61,7 +62,7 @@ slug: Telerik.Web.UI.WebServiceSettings
 
 `None` 
 
-###  set_method
+### set_method
 
 #### Parameters
 
@@ -69,7 +70,7 @@ slug: Telerik.Web.UI.WebServiceSettings
 
 `None` 
 
-###  set_path
+### set_path
 
 #### Parameters
 
@@ -77,12 +78,13 @@ slug: Telerik.Web.UI.WebServiceSettings
 
 `None` 
 
-###  set_useHttpGet
+### set_useHttpGet
 
 #### Parameters
 
 #### Returns
 
 `None` 
+
 
 

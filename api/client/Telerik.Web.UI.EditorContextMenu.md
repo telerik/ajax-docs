@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.EditorContextMenu
 * [Telerik.Web.UI.EditorToolStrip]({%slug Telerik.Web.UI.EditorToolStrip%})
 * *[Telerik.Web.UI.EditorContextMenu]({%slug Telerik.Web.UI.EditorContextMenu%})*
 
+
 ## Methods
 
 ### get_tagName
@@ -37,3 +38,4 @@ Tag name.
 #### Returns
 
 `None` 
+

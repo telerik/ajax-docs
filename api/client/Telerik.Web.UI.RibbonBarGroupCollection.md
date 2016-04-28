@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.RibbonBarGroupCollection
 * [Telerik.Web.UI.RibbonBarChildCollection]({%slug Telerik.Web.UI.RibbonBarChildCollection%})
 * *[Telerik.Web.UI.RibbonBarGroupCollection]({%slug Telerik.Web.UI.RibbonBarGroupCollection%})*
 
+
 ## Methods
 
 ###  getGroup
@@ -27,5 +28,6 @@ The index of the RibbonBarGroup that should be returned
 #### Returns
 
 `Telerik.Web.UI.RibbonBarGroup` Returns RibbonBarGroup
+
 
 

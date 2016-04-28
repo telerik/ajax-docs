@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.TreeListItemDroppingEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.TreeListItemDroppingEventArgs]({%slug Telerik.Web.UI.TreeListItemDroppingEventArgs%})*
 
+
 ## Methods
 
 ### get_destinationHtmlElement
@@ -65,5 +66,6 @@ Sets the destination HTML element.
 #### Returns
 
 `None`
+
 
 

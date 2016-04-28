@@ -11,6 +11,7 @@ slug: Telerik.Web.UI.ISchedulerModel
 
 * *[Telerik.Web.UI.ISchedulerModel]({%slug Telerik.Web.UI.ISchedulerModel%})*
 
+
 ## Methods
 
 ###  getTimeSlotForAppointment
@@ -27,7 +28,28 @@ Gets the time slot that will contain the specified appointment if it's added to 
 
 `Telerik.Web.UI.ISchedulerTimeSlot`  The time slot instance associated with the specified DOM element. 
 
-###  getTimeSlotFromDomElement
+### get_visibleRangeEnd
+
+Gets the last visible date of the current view.
+
+#### Parameters
+
+#### Returns
+
+`Date`  The last visible date of the current view. 
+
+### get_visibleRangeStart
+
+Gets the first visible date of the current view.
+
+#### Parameters
+
+#### Returns
+
+`Date`  The first visible date of the current view. 
+
+
+### getTimeSlotFromDomElement
 
 Gets the time slot associated with the specified DOM element.
 
@@ -40,25 +62,5 @@ Gets the time slot associated with the specified DOM element.
 #### Returns
 
 `Telerik.Web.UI.ISchedulerTimeSlot`  The time slot instance associated with the specified DOM element. 
-
-###  get_visibleRangeEnd
-
-Gets the last visible date of the current view.
-
-#### Parameters
-
-#### Returns
-
-`Date`  The last visible date of the current view. 
-
-###  get_visibleRangeStart
-
-Gets the first visible date of the current view.
-
-#### Parameters
-
-#### Returns
-
-`Date`  The first visible date of the current view. 
 
 

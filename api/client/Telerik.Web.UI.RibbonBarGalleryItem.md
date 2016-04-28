@@ -11,4 +11,6 @@ slug: Telerik.Web.UI.RibbonBarGalleryItem
 
 * *[Telerik.Web.UI.RibbonBarGalleryItem]({%slug Telerik.Web.UI.RibbonBarGalleryItem%})*
 
-## Methods
+
+Methods
+

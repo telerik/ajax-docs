@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.GridScrollEventArgs
 * Sys.EventArgs
 * *[Telerik.Web.UI.GridScrollEventArgs]({%slug Telerik.Web.UI.GridScrollEventArgs%})*
 
+
 ## Methods
 
 ###  get_isOnBottom
@@ -24,7 +25,7 @@ Returns a Boolean value, indicating whether the scrollable area is scrolled to t
 
 `Boolean` 
 
-###  get_isOnTop
+### get_isOnTop
 
 Returns a Boolean value, indicating whether the scrollable area is scrolled to the top.
 
@@ -34,7 +35,7 @@ Returns a Boolean value, indicating whether the scrollable area is scrolled to t
 
 `Boolean` 
 
-###  get_scrollControl
+### get_scrollControl
 
 Returns the gridDataDiv element of the grid
 
@@ -44,7 +45,7 @@ Returns the gridDataDiv element of the grid
 
 `Element` 
 
-###  get_scrollLeft
+### get_scrollLeft
 
 Returns the horizontal position of the scroll.
 
@@ -54,7 +55,7 @@ Returns the horizontal position of the scroll.
 
 `Number` 
 
-###  get_scrollTop
+### get_scrollTop
 
 Returns the vertical position of the scroll.
 
@@ -63,5 +64,6 @@ Returns the vertical position of the scroll.
 #### Returns
 
 `Number` 
+
 
 

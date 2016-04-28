@@ -11,3 +11,4 @@ slug: Telerik.Web.UI.ClientExportManagerImageExportedEventArgs
 
 * Sys.EventArgs
 * *[Telerik.Web.UI.ClientExportManagerImageExportedEventArgs]({%slug Telerik.Web.UI.ClientExportManagerImageExportedEventArgs%})*
+

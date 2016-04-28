@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.PaneResizingEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.PaneResizingEventArgs]({%slug Telerik.Web.UI.PaneResizingEventArgs%})*
 
+
 ## Methods
 
 ### get_delta
@@ -33,3 +34,4 @@ Returns the direction in which the Pane (SlidingPane) is resized.
 #### Returns
 
 `Number`
+

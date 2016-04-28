@@ -11,6 +11,7 @@ slug: Telerik.Web.UI.RadRegExpTextBoxExtender
 
 * *[Telerik.Web.UI.RadRegExpTextBoxExtender]({%slug Telerik.Web.UI.RadRegExpTextBoxExtender%})*
 
+
 ## Methods
 
 ###  acceptRegExp
@@ -25,7 +26,7 @@ Accepts the regular expression of RadRegExpTextBoxExtender
 
 `None` 
 
-###  isValid
+### isValid
 
 Returns true if the value of the text box is valid
 
@@ -35,7 +36,7 @@ Returns true if the value of the text box is valid
 
 `None` 
 
-###  validateInputValue
+### validateInputValue
 
 Validates the input value of RadRegExpTextBoxExtender
 
@@ -46,5 +47,6 @@ Validates the input value of RadRegExpTextBoxExtender
 #### Returns
 
 `None` 
+
 
 

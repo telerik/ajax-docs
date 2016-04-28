@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.RadComboBoxItemDataBoundEventArgs
 * [Telerik.Web.UI.RadComboBoxCancelEventArgs]({%slug Telerik.Web.UI.RadComboBoxCancelEventArgs%})
 * *[Telerik.Web.UI.RadComboBoxItemDataBoundEventArgs]({%slug Telerik.Web.UI.RadComboBoxItemDataBoundEventArgs%})*
 
+
 ## Methods
 
 ###  get_datItem
@@ -23,4 +24,5 @@ Returns the an instance of the newly selected RadComboBoxItem.
 #### Returns
 
 `Object`
+
 

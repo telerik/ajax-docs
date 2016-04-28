@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.GridKeyPressEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.GridKeyPressEventArgs]({%slug Telerik.Web.UI.GridKeyPressEventArgs%})*
 
+
 ## Methods
 
 ###  get_domEvent
@@ -24,7 +25,7 @@ Returns the DOM event that was raised for the current event.
 
 `Sys.UI.DomEvent` 
 
-###  get_isAltPressed
+### get_isAltPressed
 
 Indicates whether the Alt key was held down when the event fired.
 
@@ -34,7 +35,7 @@ Indicates whether the Alt key was held down when the event fired.
 
 `Boolean` 
 
-###  get_isCtrlPressed
+### get_isCtrlPressed
 
 Indicates whether the Ctrl key was held down when the event fired.
 
@@ -44,7 +45,7 @@ Indicates whether the Ctrl key was held down when the event fired.
 
 `Boolean` 
 
-###  get_isShiftPressed
+### get_isShiftPressed
 
 Indicates whether the Shift key was held down when the event fired.
 
@@ -54,7 +55,7 @@ Indicates whether the Shift key was held down when the event fired.
 
 `Boolean` 
 
-###  get_keyCode
+### get_keyCode
 
 Returns the key code of the pressed key.
 
@@ -63,5 +64,6 @@ Returns the key code of the pressed key.
 #### Returns
 
 `Number` 
+
 
 

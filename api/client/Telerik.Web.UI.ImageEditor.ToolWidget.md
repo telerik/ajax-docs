@@ -11,6 +11,7 @@ slug: Telerik.Web.UI.ImageEditor.ToolWidget
 
 * *[Telerik.Web.UI.ImageEditor.ToolWidget]({%slug Telerik.Web.UI.ImageEditor.ToolWidget%})*
 
+
 ## Methods
 
 ###  checkValue
@@ -21,7 +22,7 @@ slug: Telerik.Web.UI.ImageEditor.ToolWidget
 
 `None` 
 
-###  close
+### close
 
 #### Parameters
 
@@ -29,7 +30,7 @@ slug: Telerik.Web.UI.ImageEditor.ToolWidget
 
 `None` 
 
-###  decrementValue
+### decrementValue
 
 #### Parameters
 
@@ -37,7 +38,7 @@ slug: Telerik.Web.UI.ImageEditor.ToolWidget
 
 `None` 
 
-###  get_image
+### get_image
 
 #### Parameters
 
@@ -45,7 +46,7 @@ slug: Telerik.Web.UI.ImageEditor.ToolWidget
 
 `None` 
 
-###  get_imageEditor
+### get_imageEditor
 
 #### Parameters
 
@@ -53,7 +54,7 @@ slug: Telerik.Web.UI.ImageEditor.ToolWidget
 
 `None` 
 
-###  get_parentId
+### get_parentId
 
 #### Parameters
 
@@ -61,7 +62,7 @@ slug: Telerik.Web.UI.ImageEditor.ToolWidget
 
 `None` 
 
-###  get_text
+### get_text
 
 #### Parameters
 
@@ -69,7 +70,7 @@ slug: Telerik.Web.UI.ImageEditor.ToolWidget
 
 `None` 
 
-###  incrementValue
+### incrementValue
 
 #### Parameters
 
@@ -77,7 +78,7 @@ slug: Telerik.Web.UI.ImageEditor.ToolWidget
 
 `None` 
 
-###  isBackspaceOrDelete
+### isBackspaceOrDelete
 
 #### Parameters
 
@@ -85,7 +86,7 @@ slug: Telerik.Web.UI.ImageEditor.ToolWidget
 
 `None` 
 
-###  isNumeric
+### isNumeric
 
 #### Parameters
 
@@ -93,7 +94,7 @@ slug: Telerik.Web.UI.ImageEditor.ToolWidget
 
 `None` 
 
-###  onClose
+### onClose
 
 #### Parameters
 
@@ -101,7 +102,7 @@ slug: Telerik.Web.UI.ImageEditor.ToolWidget
 
 `None` 
 
-###  onOpen
+### onOpen
 
 #### Parameters
 
@@ -109,7 +110,7 @@ slug: Telerik.Web.UI.ImageEditor.ToolWidget
 
 `None` 
 
-###  restrictInputValue
+### restrictInputValue
 
 #### Parameters
 
@@ -117,12 +118,13 @@ slug: Telerik.Web.UI.ImageEditor.ToolWidget
 
 `None` 
 
-###  set_imageEditor
+### set_imageEditor
 
 #### Parameters
 
 #### Returns
 
 `None` 
+
 
 

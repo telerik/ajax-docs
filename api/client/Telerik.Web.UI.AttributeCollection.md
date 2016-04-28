@@ -11,7 +11,16 @@ slug: Telerik.Web.UI.AttributeCollection
 
 * *[Telerik.Web.UI.AttributeCollection]({%slug Telerik.Web.UI.AttributeCollection%})*
 
+
 ## Methods
+
+### get_count
+
+#### Parameters
+
+#### Returns
+
+`Number` 
 
 ### getAttribute
 
@@ -23,14 +32,6 @@ slug: Telerik.Web.UI.AttributeCollection
 
 `Object` 
 
-### get_count
-
-#### Parameters
-
-#### Returns
-
-`Number` 
-
 ### removeAttribute
 
 #### Parameters
@@ -41,7 +42,7 @@ slug: Telerik.Web.UI.AttributeCollection
 
 `None` 
 
-###  setAttribute
+### setAttribute
 
 #### Parameters
 
@@ -52,5 +53,6 @@ slug: Telerik.Web.UI.AttributeCollection
 #### Returns
 
 `None` 
+
 
 

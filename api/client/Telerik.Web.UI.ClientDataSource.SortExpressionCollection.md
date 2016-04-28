@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.ClientDataSource.SortExpressionCollection
 * [Telerik.Web.UI.ClientDataSource.CollectionBase]({%slug Telerik.Web.UI.ClientDataSource.CollectionBase%})
 * *[Telerik.Web.UI.ClientDataSource.SortExpressionCollection]({%slug Telerik.Web.UI.ClientDataSource.SortExpressionCollection%})*
 
+
 ## Methods
 
 ###  add
@@ -21,5 +22,6 @@ slug: Telerik.Web.UI.ClientDataSource.SortExpressionCollection
 #### Returns
 
 `None` 
+
 
 

@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.RatingRatingEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.RatingRatingEventArgs]({%slug Telerik.Web.UI.RatingRatingEventArgs%})*
 
+
 ## Methods
 
 ###  get_newValue
@@ -23,3 +24,4 @@ Returns the rating that is about to be set for the rating control.
 #### Returns
 
 `Number` 
+

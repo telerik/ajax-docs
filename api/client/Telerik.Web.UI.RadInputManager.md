@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.RadInputManager
 * [Telerik.Web.UI.RadWebControl]({%slug Telerik.Web.UI.RadWebControl%})
 * *[Telerik.Web.UI.RadInputManager]({%slug Telerik.Web.UI.RadInputManager%})*
 
+
 ## Methods
 
 ###  get_behaviors
@@ -24,7 +25,7 @@ Gets the RadInputManager control behaviors
 
 `Array` 
 
-###  get_dateInputSettings
+### get_dateInputSettings
 
 Gets the date input settings of the RadInputManager control
 
@@ -34,7 +35,7 @@ Gets the date input settings of the RadInputManager control
 
 `Array` 
 
-###  get_inputSettings
+### get_inputSettings
 
 Gets the input settings of the RadInputManager control
 
@@ -46,7 +47,7 @@ Gets the input settings of the RadInputManager control
 
 `Array` 
 
-###  get_numericTextBoxSettings
+### get_numericTextBoxSettings
 
 Gets the numeric text box settings of the RadInputManager control
 
@@ -56,7 +57,7 @@ Gets the numeric text box settings of the RadInputManager control
 
 `Array` 
 
-###  get_regExpTextBoxSettings
+### get_regExpTextBoxSettings
 
 Gets the regular expression text box settings of the RadInputManager control
 
@@ -66,7 +67,7 @@ Gets the regular expression text box settings of the RadInputManager control
 
 `Array` 
 
-###  get_targetInput
+### get_targetInput
 
 Gets the target input of the RadInputManager control
 
@@ -78,7 +79,7 @@ Gets the target input of the RadInputManager control
 
 `Object` 
 
-###  get_textBoxSettings
+### get_textBoxSettings
 
 Gets the text box settings of the RadInputManager control
 
@@ -88,7 +89,7 @@ Gets the text box settings of the RadInputManager control
 
 `Array` 
 
-###  set_behaviors
+### set_behaviors
 
 Sets the RadInputManager control behaviors
 
@@ -99,5 +100,6 @@ Sets the RadInputManager control behaviors
 #### Returns
 
 `None` 
+
 
 

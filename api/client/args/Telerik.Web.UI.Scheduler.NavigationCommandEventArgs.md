@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.Scheduler.NavigationCommandEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.Scheduler.NavigationCommandEventArgs]({%slug Telerik.Web.UI.Scheduler.NavigationCommandEventArgs%})*
 
+
 ## Methods
 
 ### get_command
@@ -33,3 +34,4 @@ Returns the date that RadScheduler will navigate to.
 #### Returns
 
 `Date`
+

@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.RadSplitter
 * [Telerik.Web.UI.RadWebControl]({%slug Telerik.Web.UI.RadWebControl%})
 * *[Telerik.Web.UI.RadSplitter]({%slug Telerik.Web.UI.RadSplitter%})*
 
+
 ## Methods
 
 ###  getContainerElement
@@ -24,7 +25,87 @@ Returns the TABLE element of the splitter control
 
 `Object` The TABLE element of the splitter control
 
-###  getEndPane
+### get_borderSize
+
+Gets the size of the borders in the splitter control
+
+#### Parameters
+
+#### Returns
+
+`Number` The size of the borders in the splitter control
+
+### get_height
+
+Gets the height in pixels of the splitter control
+
+#### Parameters
+
+#### Returns
+
+`Number` The height in pixels of the splitter control
+
+### get_heightOffset
+
+Gets the value of the HeightOffset property of the splitter control
+
+#### Parameters
+
+#### Returns
+
+`Number` The value of the HeightOffset property of the splitter control
+
+### get_liveResize
+
+Returns a value, indicating whether the panes of the splitter control will resize while the user is dragging the splitbar control or when the user releases the splitbar control
+
+#### Parameters
+
+#### Returns
+
+`Boolean` A value
+
+### get_parent
+
+Gets a reference to the first parent RadPane object of the splitter control, in case the ResizeWithParentPane property of the splitter is set to true
+
+#### Parameters
+
+#### Returns
+
+`Telerik.Web.UI.RadPane` 
+
+### get_resizeMode
+
+Gets the resize mode of the splitter control
+
+#### Parameters
+
+#### Returns
+
+`Telerik.Web.UI.SplitterResizeMode` The resize mode of the splitter
+
+### get_splitBarSize
+
+Gets the size of the splitbar controls in the splitter control
+
+#### Parameters
+
+#### Returns
+
+`Number` The size of the splitbar controls in the splitter control
+
+### get_width
+
+Gets the width in pixels of the splitter control
+
+#### Parameters
+
+#### Returns
+
+`Number` The width in pixels of the splitter control
+
+### getEndPane
 
 Gets the last pane in the items collection of the splitter control
 
@@ -34,7 +115,7 @@ Gets the last pane in the items collection of the splitter control
 
 `Telerik.Web.UI.RadPane` The last pane in the items collection of the splitter control
 
-###  getInnerHeight
+### getInnerHeight
 
 Returns the height of the splitter control, excluding borders of the splitter
 
@@ -44,7 +125,7 @@ Returns the height of the splitter control, excluding borders of the splitter
 
 `Number` The height of the splitter control
 
-###  getInnerWidth
+### getInnerWidth
 
 Returns the width of the splitter control, excluding borders of the splitter
 
@@ -54,7 +135,7 @@ Returns the width of the splitter control, excluding borders of the splitter
 
 `Number` The width of the splitter control
 
-###  getMaxHeight
+### getMaxHeight
 
 Returns the sum of the maximum possible height of a range of the panes in the items collection of the splitter control
 
@@ -72,7 +153,7 @@ The index of the last pane to include in the sum. In case the parameter is not s
 
 `Number` The sum of the maximum possible height of a range of the panes in the items collection of the splitter control
 
-###  getMaxWidth
+### getMaxWidth
 
 Returns the sum of the maximum possible width of a range of the panes in the items collection of the splitter control
 
@@ -90,7 +171,7 @@ The index of the last pane to include in the sum. In case the parameter is not s
 
 `Number` The sum of the maximum possible width of a range of the panes in the items collection of the splitter control
 
-###  getMinHeight
+### getMinHeight
 
 Returns the sum of the minimum possible height of a range of the panes in the items collection of the splitter control
 
@@ -108,7 +189,7 @@ The index of the last pane to include in the sum. In case the parameter is not s
 
 `Number` The sum of the minimum possible height of a range of the panes in the items collection of the splitter control
 
-###  getMinWidth
+### getMinWidth
 
 Returns the sum of the minimum possible width of a range of the panes in the items collection of the splitter control
 
@@ -126,7 +207,7 @@ The index of the last pane to include in the sum. In case the parameter is not s
 
 `Number` The sum of the minimum possible width of a range of the panes in the items collection of the splitter control
 
-###  getPaneById
+### getPaneById
 
 Returns the pane with the specified id in the panes collection of the splitter control
 
@@ -140,7 +221,7 @@ The id of the pane to search for
 
 `Telerik.Web.UI.RadPane` The pane with the specified id in the panes collection of the splitter control
 
-###  getPaneByIndex
+### getPaneByIndex
 
 Returns the pane with the specified index in the panes collection of the splitter control
 
@@ -154,7 +235,7 @@ The index of the pane to search for
 
 `Telerik.Web.UI.RadPane` The pane with the specified index in the panes collection of the splitter control
 
-###  getPanes
+### getPanes
 
 Returns an array with all the panes, defined in the items collection of the splitter control
 
@@ -164,7 +245,7 @@ Returns an array with all the panes, defined in the items collection of the spli
 
 `Array` An array with all the panes
 
-###  getSplitBarById
+### getSplitBarById
 
 Returns the splitbar with the specified id in the splitbars collection of the splitter control
 
@@ -178,7 +259,7 @@ The id of the splitbar to search for
 
 `Telerik.Web.UI.RadSplitBar` The splitbar with the specified id in the splitbars collection of the splitter control
 
-###  getSplitBarByIndex
+### getSplitBarByIndex
 
 Returns the splitbar with the specified index in the splitbars collection of the splitter control
 
@@ -192,7 +273,7 @@ The index of the splitbar to search for
 
 `Telerik.Web.UI.RadSplitBar` The splitbar with the specified index in the splitbars collection of the splitter control
 
-###  getSplitBars
+### getSplitBars
 
 Returns an array with all the splitbars, defined in the items collection of the splitter control
 
@@ -202,7 +283,7 @@ Returns an array with all the splitbars, defined in the items collection of the 
 
 `Array` An array with all the splitbars
 
-###  getStartPane
+### getStartPane
 
 Gets the first pane in the items collection of the splitter control
 
@@ -212,87 +293,7 @@ Gets the first pane in the items collection of the splitter control
 
 `Telerik.Web.UI.RadPane` The first pane in the items collection of the splitter control
 
-###  get_borderSize
-
-Gets the size of the borders in the splitter control
-
-#### Parameters
-
-#### Returns
-
-`Number` The size of the borders in the splitter control
-
-###  get_height
-
-Gets the height in pixels of the splitter control
-
-#### Parameters
-
-#### Returns
-
-`Number` The height in pixels of the splitter control
-
-###  get_heightOffset
-
-Gets the value of the HeightOffset property of the splitter control
-
-#### Parameters
-
-#### Returns
-
-`Number` The value of the HeightOffset property of the splitter control
-
-###  get_liveResize
-
-Returns a value, indicating whether the panes of the splitter control will resize while the user is dragging the splitbar control or when the user releases the splitbar control
-
-#### Parameters
-
-#### Returns
-
-`Boolean` A value
-
-###  get_parent
-
-Gets a reference to the first parent RadPane object of the splitter control, in case the ResizeWithParentPane property of the splitter is set to true
-
-#### Parameters
-
-#### Returns
-
-`Telerik.Web.UI.RadPane` 
-
-###  get_resizeMode
-
-Gets the resize mode of the splitter control
-
-#### Parameters
-
-#### Returns
-
-`Telerik.Web.UI.SplitterResizeMode` The resize mode of the splitter
-
-###  get_splitBarSize
-
-Gets the size of the splitbar controls in the splitter control
-
-#### Parameters
-
-#### Returns
-
-`Number` The size of the splitbar controls in the splitter control
-
-###  get_width
-
-Gets the width in pixels of the splitter control
-
-#### Parameters
-
-#### Returns
-
-`Number` The width in pixels of the splitter control
-
-###  isNested
+### isNested
 
 Returns a value, indicating whether the splitter is nested in a RadPane control and its ResizeWithParentPane property is set to true
 
@@ -302,7 +303,7 @@ Returns a value, indicating whether the splitter is nested in a RadPane control 
 
 `Boolean` A value
 
-###  isVertical
+### isVertical
 
 Returns a value, indicating whether the Orientation of the splitter control is Telerik.Web.UI.Orientation.Vertical
 
@@ -312,7 +313,7 @@ Returns a value, indicating whether the Orientation of the splitter control is T
 
 `Boolean` A value
 
-###  repaint
+### repaint
 
 Repaints the splitter control and forces it to recalculate the size of its elements
 
@@ -322,7 +323,7 @@ Repaints the splitter control and forces it to recalculate the size of its eleme
 
 `None` 
 
-###  resize
+### resize
 
 Resizes the splitter control to the specified width and height
 
@@ -340,7 +341,7 @@ The new height in pixels for the splitter control
 
 `None` 
 
-###  set_height
+### set_height
 
 Sets the height of the splitter control
 
@@ -354,7 +355,7 @@ The new height for the splitter control
 
 `None` 
 
-###  set_width
+### set_width
 
 Sets the width of the splitter control
 
@@ -369,7 +370,35 @@ The new width for the splitter control
 `None` 
 
 
+
 ## Events
+
+### resizing
+
+Occurs when a RadSplitter is about to be resized.
+
+#### Event Data
+
+##### sender `Telerik.Web.UI.RadSplitter`
+
+The RadSplitter instance raised the event.
+
+##### args `Telerik.Web.UI.SplitterResizingEventArgs`
+
+The arguments of the Resizing event.
+### resized
+
+Occurs when a RadSplitter is resized.
+
+#### Event Data
+
+##### sender `Telerik.Web.UI.RadSplitter`
+
+The RadSplitter instance raised the event.
+
+##### args `Telerik.Web.UI.SplitterResizedEventArgs`
+
+The arguments of the Resized event.
 
 ### load
 
@@ -385,30 +414,4 @@ The RadSplitter instance raised the event.
 
 Empty event argument.
 
-### resized
 
-Occurs when a RadSplitter is resized.
-
-#### Event Data
-
-##### sender `Telerik.Web.UI.RadSplitter`
-
-The RadSplitter instance raised the event.
-
-##### args `Telerik.Web.UI.SplitterResizedEventArgs`
-
-The arguments of the Resized event.
-
-### resizing
-
-Occurs when a RadSplitter is about to be resized.
-
-#### Event Data
-
-##### sender `Telerik.Web.UI.RadSplitter`
-
-The RadSplitter instance raised the event.
-
-##### args `Telerik.Web.UI.SplitterResizingEventArgs`
-
-The arguments of the Resizing event.

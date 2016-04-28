@@ -12,71 +12,8 @@ slug: Telerik.Web.UI.RadColorPicker
 * [Telerik.Web.UI.RadWebControl]({%slug Telerik.Web.UI.RadWebControl%})
 * *[Telerik.Web.UI.RadColorPicker]({%slug Telerik.Web.UI.RadColorPicker%})*
 
+
 ## Methods
-
-### getPaletteContainer
-
-Returns the element of the color picker's palette
-
-#### Parameters
-
-#### Returns
-
-`Object` The element of the color picker
-
-### get_selectedColorTitle
-
-Gets the title, associated with the selected color of the color picker control
-
-#### Parameters
-
-#### Returns
-
-`String` The title of the selected color
-
-### hidePalette
-
-Hides the palette in case ShowIcon=true
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-### get_keepInScreenBounds
-
-Gets a value indicating whether the ColorPicker popup will show in the visible viewport of the browser window
-
-#### Parameters
-
-#### Returns
-
-`Boolean` The current keep
-
-### set_overlay
-
-Sets a value indicating whether the colorpicker will create an overlay element for its palette, in case ShowIcon=true
-
-#### Parameters
-
-##### value `Boolean`
-
-The new value for the Overlay property
-
-#### Returns
-
-`None` 
-
-### getIconContainer
-
-Returns the element that represents the button of the color picker, in case ShowIcon=true
-
-#### Parameters
-
-#### Returns
-
-`Object` The element of the color picker
 
 ### get_enabled
 
@@ -88,25 +25,25 @@ Returns a value, indicating whether the color picker control is enabled
 
 `Boolean` The current value of the Enabled property
 
-### showPalette
+### get_keepInScreenBounds
 
-Shows the palette in case ShowIcon=true
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-### get_selectedColor
-
-Gets the selected color of the color picker control
+Gets a value indicating whether the ColorPicker popup will show in the visible viewport of the browser window
 
 #### Parameters
 
 #### Returns
 
-`String` The currently selected color
+`Boolean` The current keep
+
+### get_overlay
+
+Gets a value indicating whether the color picker control will create an overlay element for its palette, in case ShowIcon=true
+
+#### Parameters
+
+#### Returns
+
+`Boolean` The current value of the Overlay property
 
 ### get_paletteModes
 
@@ -118,15 +55,55 @@ Gets the value of the PaletteModes property of the color picker control
 
 `Telerik.Web.UI.PaletteModes` The current value of the PaletteModes property
 
-### get_overlay
+### get_selectedColor
 
-Gets a value indicating whether the color picker control will create an overlay element for its palette, in case ShowIcon=true
+Gets the selected color of the color picker control
 
 #### Parameters
 
 #### Returns
 
-`Boolean` The current value of the Overlay property
+`String` The currently selected color
+
+### get_selectedColorTitle
+
+Gets the title, associated with the selected color of the color picker control
+
+#### Parameters
+
+#### Returns
+
+`String` The title of the selected color
+
+### getIconContainer
+
+Returns the element that represents the button of the color picker, in case ShowIcon=true
+
+#### Parameters
+
+#### Returns
+
+`Object` The element of the color picker
+
+### getPaletteContainer
+
+Returns the element of the color picker's palette
+
+#### Parameters
+
+#### Returns
+
+`Object` The element of the color picker
+
+### hidePalette
+
+Hides the palette in case ShowIcon=true
+
+#### Parameters
+
+#### Returns
+
+`None` 
 
 ### isModeEnabled
 
@@ -170,6 +147,20 @@ The new keep
 
 `None` 
 
+### set_overlay
+
+Sets a value indicating whether the colorpicker will create an overlay element for its palette, in case ShowIcon=true
+
+#### Parameters
+
+##### value `Boolean`
+
+The new value for the Overlay property
+
+#### Returns
+
+`None` 
+
 ### set_selectedColor
 
 Sets the selected color of the color picker control
@@ -188,7 +179,62 @@ A value
 
 `None` 
 
+### showPalette
+
+Shows the palette in case ShowIcon=true
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+
 ## Events
+
+### popUpShow
+
+Occurs after the popup palette of RadColorPicker with ShowIcon set to "true" shows.
+
+#### Event Data
+
+##### sender `Telerik.Web.UI.RadColorPicker`
+
+The RadColorPicker instance raised the event.
+
+##### args `Sys.EventArgs`
+
+Empty event argument.
+
+### load
+
+Occurs after the RadColorPicker loads on the page. 
+
+#### Event Data
+
+
+##### sender `Telerik.Web.UI.RadColorPicker`
+
+The RadColorPicker instance raised the event.
+
+##### args `Sys.EventArgs`
+
+Empty event argument.
+### colorPreview
+
+Occurs as the mouse hovers over a color box within the palette. 
+
+#### Event Data
+
+##### sender `Telerik.Web.UI.RadColorPicker`
+
+The RadColorPicker instance raised the event.
+
+##### args `Telerik.Web.UI.ColorPickerColorPreviewEventArgs`
+
+The arguments of the ColorPreview event.
+
+
 
 ### colorChanging
 
@@ -218,47 +264,4 @@ The RadColorPicker instance raised the event.
 
 The arguments of the ColorChange event.
 
-### popUpShow
 
-Occurs after the popup palette of RadColorPicker with ShowIcon set to "true" shows.
-
-#### Event Data
-
-##### sender `Telerik.Web.UI.RadColorPicker`
-
-The RadColorPicker instance raised the event.
-
-##### args `Sys.EventArgs`
-
-Empty event argument.
-
-### colorPreview
-
-Occurs as the mouse hovers over a color box within the palette. 
-
-#### Event Data
-
-##### sender `Telerik.Web.UI.RadColorPicker`
-
-The RadColorPicker instance raised the event.
-
-##### args `Telerik.Web.UI.ColorPickerColorPreviewEventArgs`
-
-The arguments of the ColorPreview event.
-
-
-
-### load
-
-Occurs after the RadColorPicker loads on the page. 
-
-#### Event Data
-
-
-##### sender `Telerik.Web.UI.RadColorPicker`
-
-The RadColorPicker instance raised the event.
-
-##### args `Sys.EventArgs`
-
-Empty event argument.

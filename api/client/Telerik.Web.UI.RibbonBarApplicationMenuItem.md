@@ -11,4 +11,6 @@ slug: Telerik.Web.UI.RibbonBarApplicationMenuItem
 
 * *[Telerik.Web.UI.RibbonBarApplicationMenuItem]({%slug Telerik.Web.UI.RibbonBarApplicationMenuItem%})*
 
-## Methods
+
+Methods
+

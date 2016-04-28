@@ -11,6 +11,7 @@ slug: Telerik.Web.UI.GridRowDataBoundEventArgs
 
 * *[Telerik.Web.UI.GridRowDataBoundEventArgs]({%slug Telerik.Web.UI.GridRowDataBoundEventArgs%})*
 
+
 ## Methods
 
 ###  get_dataItem
@@ -23,7 +24,7 @@ Returns the underlying data item object (equivalent to e.Item.DataItem object in
 
 `Object` 
 
-###  get_item
+### get_item
 
 Returns a reference to the GridDataItem object.
 
@@ -32,6 +33,7 @@ Returns a reference to the GridDataItem object.
 #### Returns
 
 `Telerik.Web.UI.GridDataItem` 
+
 
 
 

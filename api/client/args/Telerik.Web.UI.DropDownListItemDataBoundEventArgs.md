@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.DropDownListItemDataBoundEventArgs
 * Sys.EventArgs
 * *[Telerik.Web.UI.DropDownListItemDataBoundEventArgs]({%slug Telerik.Web.UI.DropDownListItemDataBoundEventArgs%})*
 
+
 ## Methods
 
 ###  get_item
@@ -25,7 +26,7 @@ Returns the value of the "Check All" check box after it is checked.
 `Telerik.Web.UI.DropDownListItem` the currently evaluated RadDropDownListItem
 
 
-###  get_domEvent
+### get_domEvent
 
 Returns the Sys.UI.DomEvent instance associated to the raised event.
 
@@ -34,4 +35,5 @@ Returns the Sys.UI.DomEvent instance associated to the raised event.
 #### Returns
 
 `Sys.UI.DomEvent` 
+
 

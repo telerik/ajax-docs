@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.DockExpandCollapseCommand
 * [Telerik.Web.UI.DockToggleCommand]({%slug Telerik.Web.UI.DockToggleCommand%})
 * *[Telerik.Web.UI.DockExpandCollapseCommand]({%slug Telerik.Web.UI.DockExpandCollapseCommand%})*
 
+
 ## Methods
 
 ###  onCommand
@@ -23,5 +24,6 @@ slug: Telerik.Web.UI.DockExpandCollapseCommand
 #### Returns
 
 `None` 
+
 
 

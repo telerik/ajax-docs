@@ -7,10 +7,12 @@ slug: Telerik.Web.UI.TabStripReorderingEventArgs
 
 # Telerik.Web.UI.TabStripReorderingEventArgs : Telerik.Web.UI.RadTabStripCancelEventArgs
 
-## Inheritance Hierarchy
+
+Inheritance Hierarchy
 
 * [Telerik.Web.UI.RadTabStripCancelEventArgs]({%slug Telerik.Web.UI.RadTabStripCancelEventArgs%})
 * [Telerik.Web.UI.TabStripReorderingEventArgs]({%slug Telerik.Web.UI.TabStripReorderingEventArgs%})
+
 
 ## Methods
 
@@ -25,7 +27,7 @@ Returns the offset between the index of the dragged tab before the drag operatio
 
 `Number` the offset between the index of the dragged tab before the drag operation and the one where it's dropped.
 
-###  get_index
+### get_index
 
 Returns the zero-based index where the dragged tab will be inserted in the tabs collection once dropped. 
 
@@ -34,6 +36,7 @@ Returns the zero-based index where the dragged tab will be inserted in the tabs 
 #### Returns
 
 `Number` the zero-based index where the dragged tab will be inserted in the tabs collection once dropped. 
+
 
 
 

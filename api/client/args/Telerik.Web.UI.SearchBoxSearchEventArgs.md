@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.SearchBoxSearchEventArgs
 * Sys.EventArgs
 * *[Telerik.Web.UI.SearchBoxSearchEventArgs]({%slug Telerik.Web.UI.SearchBoxSearchEventArgs%})*
 
+
 ## Methods
 
 ###  get_text
@@ -25,7 +26,17 @@ Returns the text that is typed in the SearchBox, or the text of the selected res
 `String`
 
 
-###  get_value
+### get_datItem
+
+Returns the an instance of the newly selected RadComboBoxItem.
+
+#### Parameters
+
+#### Returns
+
+`Object`
+
+### get_value
 
 Returns the value of the selected result item. 
 
@@ -35,13 +46,4 @@ Returns the value of the selected result item.
 
 `String`
 
-###  get_datItem
-
-Returns the an instance of the newly selected RadComboBoxItem.
-
-#### Parameters
-
-#### Returns
-
-`Object`
 

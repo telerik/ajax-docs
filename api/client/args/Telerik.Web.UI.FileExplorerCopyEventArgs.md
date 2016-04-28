@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.FileExplorerCopyEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.FileExplorerCopyEventArgs]({%slug Telerik.Web.UI.FileExplorerCopyEventArgs%})*
 
+
 ## Methods
 
 ###  get_newPath
@@ -24,17 +25,7 @@ Returns the new or updated path of the copied FileExplorerItem.
 
 `String` 
 
-###  get_items
-
-Returns the array of the copied FileExplorerItem objects.
-
-#### Parameters
-
-#### Returns
-
-`Array` 
-
-###  get_item
+### get_item
 
 Returns the copied FileExplorerItem.
 
@@ -44,7 +35,17 @@ Returns the copied FileExplorerItem.
 
 `Telerik.Web.UI.FileExplorerItem` 
 
-###  get_path
+### get_items
+
+Returns the array of the copied FileExplorerItem objects.
+
+#### Parameters
+
+#### Returns
+
+`Array` 
+
+### get_path
 
 Returns the current path of the copied FileExplorerItem.
 
@@ -53,3 +54,4 @@ Returns the current path of the copied FileExplorerItem.
 #### Returns
 
 `String` 
+

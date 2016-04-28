@@ -11,6 +11,7 @@ slug: Telerik.Web.UI.ResourceTypeCollection
 
 * *[Telerik.Web.UI.ResourceTypeCollection]({%slug Telerik.Web.UI.ResourceTypeCollection%})*
 
+
 ## Methods
 
 ###  add
@@ -27,7 +28,7 @@ Adds the specified resource type to the collection.
 
 `None` 
 
-###  clear
+### clear
 
 Clears the collection of all resource types in it.
 
@@ -37,7 +38,7 @@ Clears the collection of all resource types in it.
 
 `None` 
 
-###  findAll
+### findAll
 
 Returns a collection of resource types that satisfy the specified predicate. The resource type is passed as first argument of the predicate. If the predicate returns true the resource type is included in the result collection.
 
@@ -51,7 +52,7 @@ Returns a collection of resource types that satisfy the specified predicate. The
 
 `Telerik.Web.UI.ResourceTypeCollection`  A collection of all resource types matching the predicate 
 
-###  forEach
+### forEach
 
 Executes the specified function for each resource type in the collection. The resource type is passed as first argument to the function.
 
@@ -65,7 +66,17 @@ Executes the specified function for each resource type in the collection. The re
 
 `None` 
 
-###  getResourceType
+### get_count
+
+Gets the number of resources in the collection.
+
+#### Parameters
+
+#### Returns
+
+`Number`  The number of resource types in the collection 
+
+### getResourceType
 
 Gets the resource type at the specified index in the collection.
 
@@ -79,7 +90,7 @@ Gets the resource type at the specified index in the collection.
 
 `Telerik.Web.UI.ResourceType`  The resource type at the specified index. 
 
-###  getResourceTypeByName
+### getResourceTypeByName
 
 Gets the resource type with the specified name.
 
@@ -93,17 +104,7 @@ Gets the resource type with the specified name.
 
 `Telerik.Web.UI.ResourceType`  The resource type with the specified name
 
-###  get_count
-
-Gets the number of resources in the collection.
-
-#### Parameters
-
-#### Returns
-
-`Number`  The number of resource types in the collection 
-
-###  insert
+### insert
 
 Inserts the specified resource type at the specified index in the collection.
 
@@ -121,7 +122,7 @@ Inserts the specified resource type at the specified index in the collection.
 
 `None` 
 
-###  remove
+### remove
 
 Removes the specified resource type from the collection.
 
@@ -135,7 +136,7 @@ Removes the specified resource type from the collection.
 
 `None` 
 
-###  removeAt
+### removeAt
 
 Removes the resource type at the specified index from the collection.
 
@@ -148,5 +149,6 @@ Removes the resource type at the specified index from the collection.
 #### Returns
 
 `None` 
+
 
 

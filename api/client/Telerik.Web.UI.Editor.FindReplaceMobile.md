@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.Editor.FindReplaceMobile
 * [Telerik.Web.UI.RadWebControl]({%slug Telerik.Web.UI.RadWebControl%})
 * *[Telerik.Web.UI.Editor.FindReplaceMobile]({%slug Telerik.Web.UI.Editor.FindReplaceMobile%})*
 
+
 ## Methods
 
 ### get_findInput
@@ -84,16 +85,6 @@ Get the UI link element for Replace
 
 `Element`
 
-### get_settingsBtn
-
-Get the UI button for opening the Settings dialog
-
-#### Parameters
-
-#### Returns
-
-`Element`
-
 ### get_rows
 
 Gets the UI rows of the find/replace overlay. For FindReplaceMode the rows are two, while for Find is only one.
@@ -103,6 +94,16 @@ Gets the UI rows of the find/replace overlay. For FindReplaceMode the rows are t
 #### Returns
 
 `Object`
+
+### get_settingsBtn
+
+Get the UI button for opening the Settings dialog
+
+#### Parameters
+
+#### Returns
+
+`Element`
 
 ### set_findInput
 
@@ -216,11 +217,12 @@ The new UI button for opening the Settings dialog
 
 `None`
 
+
 ## Events
 
-### all
+### find
 
-Fired when Replace All is clicked
+Fired when Find button is clicked
 
 #### Event Data
 
@@ -232,9 +234,9 @@ Sender is the find/replace overlay
 
 The find/replace event args
 
-### find
+### all
 
-Fired when Find button is clicked
+Fired when Replace All is clicked
 
 #### Event Data
 
@@ -273,3 +275,4 @@ Sender is the find/replace overlay
 ##### args `Telerik.Web.UI.Editor.FindReplaceEventArgs`
 
 The find/replace event args
+

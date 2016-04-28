@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.ListBoxContextMenuEventArgs
 * Sys.EventArgs
 * *[Telerik.Web.UI.ListBoxContextMenuEventArgs]({%slug Telerik.Web.UI.ListBoxContextMenuEventArgs%})*
 
+
 ## Methods
 
 ###  get_item
@@ -25,7 +26,7 @@ Returns the item that has been right clicked over.
 `Telerik.Web.UI.RadListBoxItem` the item that has been right clicked over. 
 
 
-###  get_domEvent
+### get_domEvent
 
 Returns the Sys.UI.DomEvent instance associated to the raised event.
 
@@ -34,4 +35,5 @@ Returns the Sys.UI.DomEvent instance associated to the raised event.
 #### Returns
 
 `Sys.UI.DomEvent` 
+
 

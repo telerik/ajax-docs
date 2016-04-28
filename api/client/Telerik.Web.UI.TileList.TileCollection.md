@@ -11,6 +11,7 @@ slug: Telerik.Web.UI.TileList.TileCollection
 
 * *[Telerik.Web.UI.TileList.TileCollection]({%slug Telerik.Web.UI.TileList.TileCollection%})*
 
+
 ## Methods
 
 ###  get_count
@@ -23,7 +24,7 @@ Returns the number of tiles in the collection.
 
 `Object` 
 
-###  indexOf
+### indexOf
 
 Returns the index in the collection of the tile passed as an argument.
 
@@ -34,5 +35,6 @@ Returns the index in the collection of the tile passed as an argument.
 #### Returns
 
 `Object` 
+
 
 

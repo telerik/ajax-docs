@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.GridCellSelection
 * Sys.Component
 * *[Telerik.Web.UI.GridCellSelection]({%slug Telerik.Web.UI.GridCellSelection%})*
 
+
 ## Methods
 
 ###  current
@@ -24,7 +25,7 @@ slug: Telerik.Web.UI.GridCellSelection
 
 `None` 
 
-###  deselect
+### deselect
 
 Deselects the specified cell.
 
@@ -38,19 +39,7 @@ Array of cell dom elements.
 
 `None` 
 
-###  getParentTable
-
-Returns the parent Table of the specified element.
-
-#### Parameters
-
-##### element `Element`
-
-#### Returns
-
-`Element` 
-
-###  get_column
+### get_column
 
 Returns the column to which the cell belong.
 
@@ -62,7 +51,7 @@ Returns the column to which the cell belong.
 
 `Telerik.Web.UI.GridColumn` 
 
-###  get_columnSelect
+### get_columnSelect
 
 Returns a boolean value that indicates whether the column is selectable.
 
@@ -72,7 +61,7 @@ Returns a boolean value that indicates whether the column is selectable.
 
 `Boolean` 
 
-###  get_currentTableView
+### get_currentTableView
 
 Returns the owner TableView object of the specified element.
 
@@ -84,7 +73,7 @@ Returns the owner TableView object of the specified element.
 
 `Telerik.Web.UI.GridTableView` 
 
-###  get_multiColumnSelect
+### get_multiColumnSelect
 
 Returns a boolean value that indicates whether multiple columns could be selected.
 
@@ -94,7 +83,7 @@ Returns a boolean value that indicates whether multiple columns could be selecte
 
 `Boolean` 
 
-###  get_multiple
+### get_multiple
 
 Returns boolean value that indicates where the multi-cell selection is enabled.
 
@@ -104,7 +93,7 @@ Returns boolean value that indicates where the multi-cell selection is enabled.
 
 `Boolean` 
 
-###  get_owner
+### get_owner
 
 Returns the owner HTML element.
 
@@ -114,7 +103,19 @@ Returns the owner HTML element.
 
 `Object` 
 
-###  select
+### getParentTable
+
+Returns the parent Table of the specified element.
+
+#### Parameters
+
+##### element `Element`
+
+#### Returns
+
+`Element` 
+
+### select
 
 Selects the specified cell.
 
@@ -128,7 +129,7 @@ Array of cell dom elements.
 
 `None` 
 
-###  set_columnSelect
+### set_columnSelect
 
 Sets the column selectable state.
 
@@ -140,7 +141,7 @@ Sets the column selectable state.
 
 `None` 
 
-###  set_multiColumnSelect
+### set_multiColumnSelect
 
 Property that indicates whether multiple columns could be selected.
 
@@ -152,7 +153,7 @@ Property that indicates whether multiple columns could be selected.
 
 `None` 
 
-###  set_multiple
+### set_multiple
 
 Enables or disables the multi-cell selection mode.
 
@@ -163,5 +164,6 @@ Enables or disables the multi-cell selection mode.
 #### Returns
 
 `None` 
+
 
 

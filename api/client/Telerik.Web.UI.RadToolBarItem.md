@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.RadToolBarItem
 * [Telerik.Web.UI.ControlItem]({%slug Telerik.Web.UI.ControlItem%})
 * *[Telerik.Web.UI.RadToolBarItem]({%slug Telerik.Web.UI.RadToolBarItem%})*
 
+
 ## Methods
 
 ###  blur
@@ -24,7 +25,7 @@ Moves focus off the item to the next element in the tab order.
 
 `None` 
 
-###  disable
+### disable
 
 disables the toolbar item.
 
@@ -34,7 +35,7 @@ disables the toolbar item.
 
 `None` 
 
-###  enable
+### enable
 
 Enables the toolbar item.
 
@@ -44,7 +45,7 @@ Enables the toolbar item.
 
 `None` 
 
-###  focus
+### focus
 
 Moves focus to the item.
 
@@ -54,7 +55,7 @@ Moves focus to the item.
 
 `None` 
 
-###  get_animationContainer
+### get_animationContainer
 
 returns the DOM element for the animation container of the item's drop-down list.
 
@@ -64,7 +65,7 @@ returns the DOM element for the animation container of the item's drop-down list
 
 `Element` 
 
-###  get_childListElement
+### get_childListElement
 
 returns the DOM element for the root list of items in the toolbar.
 
@@ -74,7 +75,7 @@ returns the DOM element for the root list of items in the toolbar.
 
 `Element` DOM element for the root item list
 
-###  get_clicked
+### get_clicked
 
 True if the item is clicked.
 
@@ -84,7 +85,7 @@ True if the item is clicked.
 
 `Boolean` 
 
-###  get_clickedCssClass
+### get_clickedCssClass
 
 returns the name of the CSS class applied to the item when clicked.
 
@@ -94,7 +95,7 @@ returns the name of the CSS class applied to the item when clicked.
 
 `String` The value indicating the Css class name
 
-###  get_clickedImageUrl
+### get_clickedImageUrl
 
 returns the URL of the image when it is clicked.
 
@@ -104,7 +105,7 @@ returns the URL of the image when it is clicked.
 
 `String` 
 
-###  get_disabledCssClass
+### get_disabledCssClass
 
 Gets the CSS class for the item when it is disabled.
 
@@ -114,7 +115,7 @@ Gets the CSS class for the item when it is disabled.
 
 `String` 
 
-###  get_disabledImageUrl
+### get_disabledImageUrl
 
 returns the full path to the image of a disabled item
 
@@ -124,7 +125,7 @@ returns the full path to the image of a disabled item
 
 `String` The value indicating the image url
 
-###  get_dropDownElement
+### get_dropDownElement
 
 returns the DOM element for the item's drop-down list.
 
@@ -134,7 +135,7 @@ returns the DOM element for the item's drop-down list.
 
 `Element` 
 
-###  get_focused
+### get_focused
 
 True if the item is focused.
 
@@ -144,7 +145,7 @@ True if the item is focused.
 
 `Boolean` 
 
-###  get_focusedCssClass
+### get_focusedCssClass
 
 returns the name of the CSS class applied to the item when on focus.
 
@@ -154,7 +155,7 @@ returns the name of the CSS class applied to the item when on focus.
 
 `String` The value indicating the Css class name
 
-###  get_focusedImageUrl
+### get_focusedImageUrl
 
 returns the URL of the image when on focus.
 
@@ -164,7 +165,7 @@ returns the URL of the image when on focus.
 
 `String` string
 
-###  get_hovered
+### get_hovered
 
 True if the item is hovered.
 
@@ -174,7 +175,7 @@ True if the item is hovered.
 
 `Boolean` 
 
-###  get_hoveredCssClass
+### get_hoveredCssClass
 
 returns the name of the CSS class applied to the item when hovered.
 
@@ -184,7 +185,7 @@ returns the name of the CSS class applied to the item when hovered.
 
 `String` The value indicating the Css class name
 
-###  get_hoveredImageUrl
+### get_hoveredImageUrl
 
 returns the URL of the hovered-state image.
 
@@ -194,7 +195,7 @@ returns the URL of the hovered-state image.
 
 `String` 
 
-###  get_imageElement
+### get_imageElement
 
 Gets the DOM element for the image of the item.
 
@@ -204,7 +205,7 @@ Gets the DOM element for the image of the item.
 
 `Element` 
 
-###  get_imagePosition
+### get_imagePosition
 
 Gets the image position of the toolbar item.
 
@@ -214,7 +215,7 @@ Gets the image position of the toolbar item.
 
 `Telerik.Web.UI.ToolBarImagePosition` 
 
-###  get_imageUrl
+### get_imageUrl
 
 returns the URL of the image.
 
@@ -224,7 +225,7 @@ returns the URL of the image.
 
 `String` 
 
-###  get_innerWrapElement
+### get_innerWrapElement
 
 Gets the DOM element for the innermost SPAN that wraps the item.
 
@@ -234,7 +235,7 @@ Gets the DOM element for the innermost SPAN that wraps the item.
 
 `Element` 
 
-###  get_linkElement
+### get_linkElement
 
 Gets the anchor DOM element of the toolbar button.
 
@@ -244,7 +245,7 @@ Gets the anchor DOM element of the toolbar button.
 
 `Element` 
 
-###  get_middleWrapElement
+### get_middleWrapElement
 
 Gets the DOM element for the middle SPAN that wraps the item.
 
@@ -254,7 +255,7 @@ Gets the DOM element for the middle SPAN that wraps the item.
 
 `Element` 
 
-###  get_outerWrapElement
+### get_outerWrapElement
 
 Gets the DOM element for the outermost SPAN that wraps the item.
 
@@ -264,7 +265,7 @@ Gets the DOM element for the outermost SPAN that wraps the item.
 
 `Element` 
 
-###  get_text
+### get_text
 
 returns the text of the item.
 
@@ -274,7 +275,7 @@ returns the text of the item.
 
 `String` 
 
-###  get_textElement
+### get_textElement
 
 Gets the DOM element for the text of the item.
 
@@ -284,7 +285,7 @@ Gets the DOM element for the text of the item.
 
 `Element` 
 
-###  get_toolBar
+### get_toolBar
 
 returns the toolbar to which the item belongs.
 
@@ -294,7 +295,7 @@ returns the toolbar to which the item belongs.
 
 `Telerik.Web.UI.RadToolBar` RadToolBar
 
-###  get_toolTip
+### get_toolTip
 
 returns the text of the item's tool tip.
 
@@ -304,7 +305,7 @@ returns the text of the item's tool tip.
 
 `String` 
 
-###  get_visible
+### get_visible
 
 True if the item is visible.
 
@@ -314,7 +315,7 @@ True if the item is visible.
 
 `Boolean` boolean
 
-###  hide
+### hide
 
 Hides the toolbar item.
 
@@ -324,7 +325,7 @@ Hides the toolbar item.
 
 `None` 
 
-###  set_clickedCssClass
+### set_clickedCssClass
 
 Sets the name of the CSS class to be applied to the item when clicked.
 
@@ -338,7 +339,7 @@ value
 
 `None` 
 
-###  set_clickedImageUrl
+### set_clickedImageUrl
 
 Sets the URL of the image when it is clicked.
 
@@ -352,7 +353,7 @@ value
 
 `None` 
 
-###  set_disabledCssClass
+### set_disabledCssClass
 
 Sets the CSS class for the item when it is disabled.
 
@@ -366,7 +367,7 @@ value
 
 `None` 
 
-###  set_disabledImageUrl
+### set_disabledImageUrl
 
 Sets the DisabledImageUrl property of the item
 
@@ -380,7 +381,7 @@ value
 
 `None` 
 
-###  set_enabled
+### set_enabled
 
 Sets whether the item is enabled.
 
@@ -394,7 +395,7 @@ value
 
 `None` 
 
-###  set_focused
+### set_focused
 
 Sets if the item is focused.
 
@@ -408,7 +409,7 @@ value
 
 `None` 
 
-###  set_focusedCssClass
+### set_focusedCssClass
 
 Sets the name of the CSS class to be applied to the item when on focus.
 
@@ -422,7 +423,7 @@ value
 
 `None` 
 
-###  set_focusedImageUrl
+### set_focusedImageUrl
 
 Sets the URL of the image when on focus.
 
@@ -436,7 +437,7 @@ value
 
 `None` 
 
-###  set_hoveredCssClass
+### set_hoveredCssClass
 
 Sets the name of the CSS class to be applied to the item when hovered.
 
@@ -450,7 +451,7 @@ value
 
 `None` 
 
-###  set_hoveredImageUrl
+### set_hoveredImageUrl
 
 Sets the URL for the hovered-state image.
 
@@ -464,7 +465,7 @@ value
 
 `None` 
 
-###  set_imagePosition
+### set_imagePosition
 
 Sets the image position of the toolbar item.
 
@@ -476,7 +477,7 @@ Sets the image position of the toolbar item.
 
 `None` 
 
-###  set_imageUrl
+### set_imageUrl
 
 Sets the URL for the image.
 
@@ -490,7 +491,7 @@ value
 
 `None` 
 
-###  set_text
+### set_text
 
 Sets the text of the item.
 
@@ -504,7 +505,7 @@ text
 
 `None` 
 
-###  set_toolTip
+### set_toolTip
 
 Sets the text of the item's tool tip.
 
@@ -518,7 +519,7 @@ value
 
 `None` 
 
-###  set_visible
+### set_visible
 
 Sets if the item is visible.
 
@@ -532,7 +533,7 @@ value
 
 `None` 
 
-###  show
+### show
 
 Shows the toolbar item.
 
@@ -541,5 +542,6 @@ Shows the toolbar item.
 #### Returns
 
 `None` 
+
 
 

@@ -11,6 +11,7 @@ slug: Telerik.Web.UI.ClientDataSource.SortExpression
 
 * *[Telerik.Web.UI.ClientDataSource.SortExpression]({%slug Telerik.Web.UI.ClientDataSource.SortExpression%})*
 
+
 ## Methods
 
 ###  get_sortOrder
@@ -23,7 +24,7 @@ none
 
 `None` 
 
-###  set_sortOrder
+### set_sortOrder
 
 Telerik.Web.UI.ClientDataSource.SortOrder
 
@@ -32,5 +33,6 @@ Telerik.Web.UI.ClientDataSource.SortOrder
 #### Returns
 
 `None` 
+
 
 

@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.ListBoxReorderingEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.ListBoxReorderingEventArgs]({%slug Telerik.Web.UI.ListBoxReorderingEventArgs%})*
 
+
 ## Methods
 
 ###  get_item
@@ -24,7 +25,17 @@ Returns the item that is about to be reordered.
 
 `Telerik.Web.UI.RadListBoxItem` the item that is about to be reordered.
 
-###  get_items
+### get_domEvent
+
+Returns the Sys.UI.DomEvent instance associated to the raised event.
+
+#### Parameters
+
+#### Returns
+
+`Sys.UI.DomEvent` the Sys.UI.DomEvent instance associated to the raised event.
+
+### get_items
 
 Returns an array of the items selected for reordering 
 
@@ -35,7 +46,7 @@ Returns an array of the items selected for reordering
 `Telerik.Web.UI.RadListBoxItem[]` an array of the items selected for reordering.
  
 
-###  get_offset
+### get_offset
 
  Returns -1 if you are moving the item up and 1 if you are moving the item down. 
 
@@ -46,13 +57,4 @@ Returns an array of the items selected for reordering
 `Number` -1 if you are moving the item up and 1 if you are moving the item down. 
 
 
-###  get_domEvent
-
-Returns the Sys.UI.DomEvent instance associated to the raised event.
-
-#### Parameters
-
-#### Returns
-
-`Sys.UI.DomEvent` the Sys.UI.DomEvent instance associated to the raised event.
 

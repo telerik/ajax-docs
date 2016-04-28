@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.SocialShareEventArgs
 * Sys.EventArgs
 * *[Telerik.Web.UI.SocialShareEventArgs]({%slug Telerik.Web.UI.SocialShareEventArgs%})*
 
+
 ## Methods
 
 ###  get_url
@@ -23,3 +24,4 @@ Returns the shared URL.
 #### Returns
 
 `String` 
+

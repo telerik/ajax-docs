@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.AutoCompleteBoxRequestFailedEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.AutoCompleteBoxRequestFailedEventArgs]({%slug Telerik.Web.UI.AutoCompleteBoxRequestFailedEventArgs%})*
 
+
 ## Methods
 
 ### get_errorMessage
@@ -23,3 +24,4 @@ Returns the error message which contains information about the error that has oc
 #### Returns
 
 `String`
+

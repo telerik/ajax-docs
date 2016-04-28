@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.TreeListItemDragStartedEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.TreeListItemDragStartedEventArgs]({%slug Telerik.Web.UI.TreeListItemDragStartedEventArgs%})*
 
+
 ## Methods
 
 ### get_draggedContainer
@@ -55,4 +56,5 @@ Sets the element used for representing the dragged row.
 #### Returns
 
 `None`
+
 

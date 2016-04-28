@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.TileCancelEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.TileCancelEventArgs]({%slug Telerik.Web.UI.TileCancelEventArgs%})*
 
+
 ## Methods
 
 ###  get_value
@@ -24,7 +25,7 @@ Returns the property value of the specific event.
 
 `String` 
 
-###  set_value
+### set_value
 
 Sets the property value of the specific event.
 
@@ -33,5 +34,6 @@ Sets the property value of the specific event.
 #### Returns
 
 `None` 
+
 
 

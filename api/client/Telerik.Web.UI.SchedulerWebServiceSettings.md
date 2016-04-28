@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.SchedulerWebServiceSettings
 * [Telerik.Web.UI.WebServiceSettings]({%slug Telerik.Web.UI.WebServiceSettings%})
 * *[Telerik.Web.UI.SchedulerWebServiceSettings]({%slug Telerik.Web.UI.SchedulerWebServiceSettings%})*
 
+
 ## Methods
 
 ###  get_createRecurrenceExceptionMethod
@@ -22,7 +23,7 @@ slug: Telerik.Web.UI.SchedulerWebServiceSettings
 
 `None` 
 
-###  get_deleteAppointmentMethod
+### get_deleteAppointmentMethod
 
 #### Parameters
 
@@ -30,7 +31,7 @@ slug: Telerik.Web.UI.SchedulerWebServiceSettings
 
 `None` 
 
-###  get_getAppointmentsMethod
+### get_getAppointmentsMethod
 
 #### Parameters
 
@@ -38,7 +39,7 @@ slug: Telerik.Web.UI.SchedulerWebServiceSettings
 
 `None` 
 
-###  get_getResourcesMethod
+### get_getResourcesMethod
 
 #### Parameters
 
@@ -46,7 +47,7 @@ slug: Telerik.Web.UI.SchedulerWebServiceSettings
 
 `None` 
 
-###  get_insertAppointmentMethod
+### get_insertAppointmentMethod
 
 #### Parameters
 
@@ -54,7 +55,7 @@ slug: Telerik.Web.UI.SchedulerWebServiceSettings
 
 `None` 
 
-###  get_isEmpty
+### get_isEmpty
 
 #### Parameters
 
@@ -62,7 +63,7 @@ slug: Telerik.Web.UI.SchedulerWebServiceSettings
 
 `None` 
 
-###  get_isOData
+### get_isOData
 
 #### Parameters
 
@@ -70,7 +71,7 @@ slug: Telerik.Web.UI.SchedulerWebServiceSettings
 
 `None` 
 
-###  get_isWcf
+### get_isWcf
 
 #### Parameters
 
@@ -78,7 +79,7 @@ slug: Telerik.Web.UI.SchedulerWebServiceSettings
 
 `None` 
 
-###  get_removeRecurrenceExceptionsMethod
+### get_removeRecurrenceExceptionsMethod
 
 #### Parameters
 
@@ -86,7 +87,7 @@ slug: Telerik.Web.UI.SchedulerWebServiceSettings
 
 `None` 
 
-###  get_resourcesPopulated
+### get_resourcesPopulated
 
 #### Parameters
 
@@ -94,7 +95,7 @@ slug: Telerik.Web.UI.SchedulerWebServiceSettings
 
 `None` 
 
-###  get_updateAppointmentMethod
+### get_updateAppointmentMethod
 
 #### Parameters
 
@@ -102,7 +103,7 @@ slug: Telerik.Web.UI.SchedulerWebServiceSettings
 
 `None` 
 
-###  get_updateMode
+### get_updateMode
 
 #### Parameters
 
@@ -110,7 +111,7 @@ slug: Telerik.Web.UI.SchedulerWebServiceSettings
 
 `None` 
 
-###  set_createRecurrenceExceptionMethod
+### set_createRecurrenceExceptionMethod
 
 #### Parameters
 
@@ -118,7 +119,7 @@ slug: Telerik.Web.UI.SchedulerWebServiceSettings
 
 `None` 
 
-###  set_deleteAppointmentMethod
+### set_deleteAppointmentMethod
 
 #### Parameters
 
@@ -126,7 +127,7 @@ slug: Telerik.Web.UI.SchedulerWebServiceSettings
 
 `None` 
 
-###  set_getAppointmentsMethod
+### set_getAppointmentsMethod
 
 #### Parameters
 
@@ -134,7 +135,7 @@ slug: Telerik.Web.UI.SchedulerWebServiceSettings
 
 `None` 
 
-###  set_getResourcesMethod
+### set_getResourcesMethod
 
 #### Parameters
 
@@ -142,7 +143,7 @@ slug: Telerik.Web.UI.SchedulerWebServiceSettings
 
 `None` 
 
-###  set_insertAppointmentMethod
+### set_insertAppointmentMethod
 
 #### Parameters
 
@@ -150,7 +151,7 @@ slug: Telerik.Web.UI.SchedulerWebServiceSettings
 
 `None` 
 
-###  set_removeRecurrenceExceptionsMethod
+### set_removeRecurrenceExceptionsMethod
 
 #### Parameters
 
@@ -158,7 +159,7 @@ slug: Telerik.Web.UI.SchedulerWebServiceSettings
 
 `None` 
 
-###  set_resourcesPopulated
+### set_resourcesPopulated
 
 #### Parameters
 
@@ -166,12 +167,13 @@ slug: Telerik.Web.UI.SchedulerWebServiceSettings
 
 `None` 
 
-###  set_updateAppointmentMethod
+### set_updateAppointmentMethod
 
 #### Parameters
 
 #### Returns
 
 `None` 
+
 
 

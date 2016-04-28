@@ -12,21 +12,29 @@ slug: Telerik.Web.UI.RadTreeNodeCollection
 * [Telerik.Web.UI.ControlItemCollection]({%slug Telerik.Web.UI.ControlItemCollection%})
 * *[Telerik.Web.UI.RadTreeNodeCollection]({%slug Telerik.Web.UI.RadTreeNodeCollection%})*
 
+
 ## Methods
 
-### indexOf
+### add
 
-Gets the index of an node.
+Adds a node to the Nodes collection. 
 
 #### Parameters
 
 ##### node `Telerik.Web.UI.RadTreeNode`
 
- The node to get the index of
+#### Returns
+
+`None`
+### clear
+
+Clears the Items collection of RadListBox
+
+#### Parameters
 
 #### Returns
 
-`Number` int
+`None` 
 
 ### forEach
 
@@ -42,19 +50,15 @@ The function to execute on each iteration
 
 `None` 
 
-### remove
+### get_count
 
-Removes an node from the Items collection
+Returns the number of nodes in the Items collection.
 
 #### Parameters
 
-##### node `Telerik.Web.UI.RadTreeNode`
-
- The node to remove
-
 #### Returns
 
-`None` 
+`Number` The number of the items
 
 ### get_last
 
@@ -65,20 +69,6 @@ Gets the last N nodes where N is passed as a parameter
 ##### value `Number`
 
  Indicates the last N nodes that should be returned 
-
-#### Returns
-
-`None` 
-
-### removeAt
-
-Removes the node at the specified index.
-
-#### Parameters
-
-##### index `Number`
-
- The index to remove at
 
 #### Returns
 
@@ -98,34 +88,46 @@ index
 
 `Telerik.Web.UI.RadTreeNode` 
 
-### clear
+### indexOf
 
-Clears the Items collection of RadListBox
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-### get_count
-
-Returns the number of nodes in the Items collection.
-
-#### Parameters
-
-#### Returns
-
-`Number` The number of the items
-
-### add
-
-Adds a node to the Nodes collection. 
+Gets the index of an node.
 
 #### Parameters
 
 ##### node `Telerik.Web.UI.RadTreeNode`
 
+ The node to get the index of
+
 #### Returns
 
-`None`
+`Number` int
+
+### remove
+
+Removes an node from the Items collection
+
+#### Parameters
+
+##### node `Telerik.Web.UI.RadTreeNode`
+
+ The node to remove
+
+#### Returns
+
+`None` 
+
+### removeAt
+
+Removes the node at the specified index.
+
+#### Parameters
+
+##### index `Number`
+
+ The index to remove at
+
+#### Returns
+
+`None` 
+
+

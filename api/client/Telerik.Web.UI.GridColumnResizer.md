@@ -11,6 +11,8 @@ slug: Telerik.Web.UI.GridColumnResizer
 
 * *[Telerik.Web.UI.GridColumnResizer]({%slug Telerik.Web.UI.GridColumnResizer%})*
 
-## Methods
+
+Methods
+
 
 

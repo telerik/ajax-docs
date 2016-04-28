@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.RadSplitBar
 * [Telerik.Web.UI.RadWebControl]({%slug Telerik.Web.UI.RadWebControl%})
 * *[Telerik.Web.UI.RadSplitBar]({%slug Telerik.Web.UI.RadSplitBar%})*
 
+
 ## Methods
 
 ###  getCollapseBarElement
@@ -28,27 +29,7 @@ The collapse direction of the button
 
 `Object` A reference to the HTML element of the collapse button for the specified direction
 
-###  getHeight
-
-Returns the outer height of the splitbar control
-
-#### Parameters
-
-#### Returns
-
-`Number` The outer height of the splitbar control
-
-###  getWidth
-
-Returns the outer width of the splitbar control
-
-#### Parameters
-
-#### Returns
-
-`Number` The outer width of the splitbar control
-
-###  get_collapseMode
+### get_collapseMode
 
 Returns the value of the CollapseMode property of the splitbar control
 
@@ -58,7 +39,7 @@ Returns the value of the CollapseMode property of the splitbar control
 
 `Telerik.Web.UI.SplitBarCollapseMode` The value of the CollapseMode property of the splitbar control
 
-###  get_enableResize
+### get_enableResize
 
 Returns the value of the EnableResize property of the splitbar control
 
@@ -68,7 +49,7 @@ Returns the value of the EnableResize property of the splitbar control
 
 `Boolean` The value of the EnableResize property of the splitbar control
 
-###  get_index
+### get_index
 
 Returns the index of the splitbar in the items collection of the splitter control
 
@@ -78,7 +59,7 @@ Returns the index of the splitbar in the items collection of the splitter contro
 
 `Number` The index of the splitbar in the items collection of the splitter control
 
-###  get_nextPane
+### get_nextPane
 
 Returns a reference to the pane control with the smallest index in the items collection of the splitter, which is added to the collection after the splitbar control
 
@@ -88,7 +69,7 @@ Returns a reference to the pane control with the smallest index in the items col
 
 `Telerik.Web.UI.RadPane` A reference to the pane control with the smallest index in the items collection of the splitter
 
-###  get_parent
+### get_parent
 
 Returns a reference to the splitter control
 
@@ -98,7 +79,7 @@ Returns a reference to the splitter control
 
 `Telerik.Web.UI.RadSplitter` A reference to the splitter control
 
-###  get_prevPane
+### get_prevPane
 
 Returns a reference to the pane control with the largest index in the items collection of the splitter, which is added to the collection before the splitbar control
 
@@ -108,7 +89,7 @@ Returns a reference to the pane control with the largest index in the items coll
 
 `Telerik.Web.UI.RadPane` A reference to the pane control with the largest index in the items collection of the splitter
 
-###  get_resizeStep
+### get_resizeStep
 
 Returns the value of the ResizeStep property of the splitbar control
 
@@ -118,7 +99,7 @@ Returns the value of the ResizeStep property of the splitbar control
 
 `Number` The value of the ResizeStep property of the splitbar control
 
-###  get_splitter
+### get_splitter
 
 Returns a reference to the splitter control
 
@@ -128,9 +109,29 @@ Returns a reference to the splitter control
 
 `Telerik.Web.UI.RadSplitter` A reference to the splitter control
 
-###  isCollapseDirectionEnabled
+### getHeight
 
-Returns a value, indicating whether the collapse direction is enabled for the splitbar control
+Returns the outer height of the splitbar control
+
+#### Parameters
+
+#### Returns
+
+`Number` The outer height of the splitbar control
+
+### getWidth
+
+Returns the outer width of the splitbar control
+
+#### Parameters
+
+#### Returns
+
+`Number` The outer width of the splitbar control
+
+### isCollapsed
+
+Returns a value, indicating whether the splitbar is collapsed in the specified direction
 
 #### Parameters
 
@@ -142,9 +143,10 @@ The collapse direction to check
 
 `Boolean` A value
 
-###  isCollapsed
 
-Returns a value, indicating whether the splitbar is collapsed in the specified direction
+### isCollapseDirectionEnabled
+
+Returns a value, indicating whether the collapse direction is enabled for the splitbar control
 
 #### Parameters
 

@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.GridBatchEditValueActionEventArgs
 * [Telerik.Web.UI.GridBatchEditCancelEventArgs]({%slug Telerik.Web.UI.GridBatchEditCancelEventArgs%})
 * *[Telerik.Web.UI.GridBatchEditValueActionEventArgs]({%slug Telerik.Web.UI.GridBatchEditValueActionEventArgs%})*
 
+
 ## Methods
 
 ###  get_container
@@ -24,7 +25,7 @@ Returns a reference to the container of the edited cell.
 
 `Element` 
 
-###  get_value
+### get_value
 
 Returns the cell value. 
 
@@ -34,7 +35,7 @@ Returns the cell value.
 
 `String` 
 
-###  set_value
+### set_value
 
 Sets the cell value. 
 
@@ -45,3 +46,4 @@ Sets the cell value.
 #### Returns
 
 `None` 
+

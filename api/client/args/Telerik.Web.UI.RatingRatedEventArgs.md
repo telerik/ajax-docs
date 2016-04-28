@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.RatingRatedEventArgs
 * Sys.EventArgs
 * *[Telerik.Web.UI.RatingRatedEventArgs]({%slug Telerik.Web.UI.RatingRatedEventArgs%})*
 
+
 ## Methods
 
 ###  get_oldValue
@@ -23,3 +24,4 @@ Returns the previous rating of the rating control.
 #### Returns
 
 `Number` 
+

@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.FileExplorer.FileList
 * Sys.Component
 * *[Telerik.Web.UI.FileExplorer.FileList]({%slug Telerik.Web.UI.FileExplorer.FileList%})*
 
+
 ## Methods
 
 ###  attachEventHandlers
@@ -26,7 +27,7 @@ Attach/detach the event handlers
 
 `None` 
 
-###  bindToData
+### bindToData
 
 Shortcut method for set_dataSource(data); dataBind().
 
@@ -40,7 +41,7 @@ The array of elements to bind to
 
 `None` 
 
-###  bindToServerData
+### bindToServerData
 
 Bind the data to the underlying bindable control
 
@@ -58,7 +59,7 @@ The page
 
 `None` 
 
-###  chooseFileListView
+### chooseFileListView
 
 Chooses the view with the specified name. The view is displayed and the currently displayed one is hidden
 
@@ -72,7 +73,7 @@ The name of the view to display.
 
 `None` 
 
-###  clearFilter
+### clearFilter
 
 Clears the filtering by reseting the filter and clearing the filter text box
 
@@ -82,7 +83,7 @@ Clears the filtering by reseting the filter and clearing the filter text box
 
 `None` 
 
-###  clearFolderCache
+### clearFolderCache
 
 Clears the caching of the specified folder, forcing a reload the next time this folder's content is loaded
 
@@ -96,7 +97,7 @@ The path to the folder
 
 `None` 
 
-###  clearSelection
+### clearSelection
 
 Clear any item selection in the file list
 
@@ -106,7 +107,7 @@ Clear any item selection in the file list
 
 `None` 
 
-###  clientFilter
+### clientFilter
 
 Filter the file list on the client only. Note that only the items displayed items will be filtered, i.e. paged content will filter only the current page
 
@@ -120,7 +121,7 @@ Filter keyword
 
 `None` 
 
-###  dataBind
+### dataBind
 
 Bind the already provided data(use set_dataSource(data)) to the underlying bindable control
 
@@ -130,7 +131,7 @@ Bind the already provided data(use set_dataSource(data)) to the underlying binda
 
 `None` 
 
-###  doFiltering
+### doFiltering
 
 Filter the file list by the provided keyword. This method does not raise a filter event
 
@@ -144,7 +145,7 @@ Filter keyword
 
 `None` 
 
-###  filterList
+### filterList
 
 Filter the file list by the provided keyword. This method raises a filter event
 
@@ -158,7 +159,7 @@ Filter keyword
 
 `None` 
 
-###  findFileByName
+### findFileByName
 
 Find a file by its name
 
@@ -172,7 +173,7 @@ Name of a file
 
 `Telerik.Web.UI.FileExplorer.FileDataItem` Searched Item
 
-###  findFileByPath
+### findFileByPath
 
 Find a file by its path
 
@@ -186,7 +187,7 @@ Path to a file
 
 `Telerik.Web.UI.FileExplorer.FileDataItem` Searched Item
 
-###  focus
+### focus
 
 Focus the underlying control's DOM element
 
@@ -196,7 +197,7 @@ Focus the underlying control's DOM element
 
 `None` 
 
-###  focusPagerControl
+### focusPagerControl
 
 Focus the paging control of the file list
 
@@ -206,17 +207,7 @@ Focus the paging control of the file list
 
 `None` 
 
-###  getSelectedFiles
-
-Get the selected files(Telerik.Web.UI.FileExplorerItem) from the file list
-
-#### Parameters
-
-#### Returns
-
-`Array` Selected files
-
-###  get_contextMenu
+### get_contextMenu
 
 Get a reference to the context menu that is utilized by the file list
 
@@ -226,7 +217,7 @@ Get a reference to the context menu that is utilized by the file list
 
 `Telerik.Web.UI.RadMenu` 
 
-###  get_control
+### get_control
 
 Get a reference to the underlying file list view
 
@@ -236,7 +227,7 @@ Get a reference to the underlying file list view
 
 `Telerik.Web.UI.FileExplorer.IFileListView` 
 
-###  get_dataSource
+### get_dataSource
 
 Get the data source provided to the control
 
@@ -246,7 +237,7 @@ Get the data source provided to the control
 
 `Array` The data object provided to the control
 
-###  get_element
+### get_element
 
 Gets the DOM element, where the file list resides.
 
@@ -256,7 +247,7 @@ Gets the DOM element, where the file list resides.
 
 `Element` The DOM element of the underlying control
 
-###  get_fileExplorer
+### get_fileExplorer
 
 Get a reference to the RadFileExplorer that used this instance of FileList
 
@@ -266,7 +257,7 @@ Get a reference to the RadFileExplorer that used this instance of FileList
 
 `Telerik.Web.UI.RadFileExplorer` 
 
-###  get_filterTextBox
+### get_filterTextBox
 
 Gets a reference to the filter text box DOM element that resides in the current file list view
 
@@ -280,7 +271,7 @@ The view where to look for the filter text box. If the view is not provided
 
 `Object` The input element of the filter text box
 
-###  get_grid
+### get_grid
 
 Get a reference to the grid control that displays the list of files if such is being used to display the items
 
@@ -290,7 +281,7 @@ Get a reference to the grid control that displays the list of files if such is b
 
 `Telerik.Web.UI.RadGrid` The RadGrid managing the file list
 
-###  get_items
+### get_items
 
 Get the items displayed in the file list.
 
@@ -300,7 +291,7 @@ Get the items displayed in the file list.
 
 `Array` All items array
 
-###  get_listView
+### get_listView
 
 Get a reference to the list view control that displays the list of files if such is being used to display the items
 
@@ -310,7 +301,7 @@ Get a reference to the list view control that displays the list of files if such
 
 `Telerik.Web.UI.RadListView` The RadListView managing the file list
 
-###  get_pageSize
+### get_pageSize
 
 Get the page size as maximum number of items per page
 
@@ -320,7 +311,7 @@ Get the page size as maximum number of items per page
 
 `Number` The page size
 
-###  get_selectedItem
+### get_selectedItem
 
 Get the first selected item from the file list
 
@@ -330,7 +321,7 @@ Get the first selected item from the file list
 
 `Telerik.Web.UI.FileExplorer.FileDataItem` Selected item
 
-###  get_selectedItems
+### get_selectedItems
 
 Get the selected items from the file list
 
@@ -340,7 +331,7 @@ Get the selected items from the file list
 
 `Array` Selected items array
 
-###  get_view
+### get_view
 
 Get a reference to the underlying file list view
 
@@ -350,7 +341,17 @@ Get a reference to the underlying file list view
 
 `Telerik.Web.UI.FileExplorer.IFileListView` 
 
-###  open
+### getSelectedFiles
+
+Get the selected files(Telerik.Web.UI.FileExplorerItem) from the file list
+
+#### Parameters
+
+#### Returns
+
+`Array` Selected files
+
+### open
 
 Open the corresponding file item. If directory, the explorer navigates to it and displays its content
 
@@ -364,7 +365,7 @@ The item to open. Can be either Telerik.Web.UI.FileExlorerItem
 
 `None` 
 
-###  refreshFileList
+### refreshFileList
 
 Force a server call to collect the content of the folder
 
@@ -378,7 +379,7 @@ The path to the folder
 
 `None` 
 
-###  registerFileListView
+### registerFileListView
 
 Registers a view in the file list container. This is the way to make it available later as an chosen/active file list view
 
@@ -392,7 +393,7 @@ The view to be registered for use. Can be chosen later by name.
 
 `None` 
 
-###  selectDefaultFile
+### selectDefaultFile
 
 Try to select a default item from the file list. Usually this is the first item, or none if list is empty
 
@@ -402,7 +403,7 @@ Try to select a default item from the file list. Usually this is the first item,
 
 `None` 
 
-###  selectFile
+### selectFile
 
 Select an item from the file list
 
@@ -416,7 +417,7 @@ The file could be either Telerik.Web.UI.FileDataItem
 
 `None` 
 
-###  selectFileByName
+### selectFileByName
 
 Select a file item from the file list by the provided name
 
@@ -430,7 +431,7 @@ The name of the file to select
 
 `None` 
 
-###  selectFileList
+### selectFileList
 
 Select a list of files by their names
 
@@ -444,7 +445,7 @@ An array of file names to select
 
 `None` 
 
-###  serverFilter
+### serverFilter
 
 Force the server to do the filtering.
 
@@ -458,7 +459,7 @@ Filter keyword
 
 `None` 
 
-###  set_dataSource
+### set_dataSource
 
 Set the data needed for the data bindable control
 
@@ -486,7 +487,7 @@ The height to be set.
 
 `None`
 
-###  set_pageSize
+### set_pageSize
 
 Set the size of the page, i.e. the maximum number of items per page
 
@@ -500,7 +501,7 @@ New page size
 
 `None` 
 
-###  showFolderFileList
+### showFolderFileList
 
 Show the content of a folder. This method takes advantage of a cached folder content, if the folder has already been loaded
 
@@ -514,7 +515,7 @@ The path to the folder
 
 `None` 
 
-###  showPageContent
+### showPageContent
 
 Show the content of a particular page
 
@@ -532,7 +533,7 @@ A custom page size. Default behavior is to use the page size of the file list
 
 `None` 
 
-###  sort
+### sort
 
 Sort the file list
 
@@ -545,5 +546,6 @@ Sorting expression. E.g.
 #### Returns
 
 `None` 
+
 
 

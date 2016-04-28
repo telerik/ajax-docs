@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.RadPane
 * [Telerik.Web.UI.SplitterPaneBase]({%slug Telerik.Web.UI.SplitterPaneBase%})
 * *[Telerik.Web.UI.RadPane]({%slug Telerik.Web.UI.RadPane%})*
 
+
 ## Methods
 
 ###  collapse
@@ -28,7 +29,7 @@ The direction
 
 `Boolean` A value
 
-###  expand
+### expand
 
 Expands the pane in the specified direction
 
@@ -42,47 +43,7 @@ The direction
 
 `Boolean` A value
 
-###  getContentElement
-
-Returns a reference to the HTML element, which is holding the pane content
-
-#### Parameters
-
-#### Returns
-
-`Object` The HTML element
-
-###  getExtContentElement
-
-Returns a reference to the IFRAME element, which is holding the pane content
-
-#### Parameters
-
-#### Returns
-
-`Object` The IFRAME element
-
-###  getInnerHeight
-
-Returns the height of the pane control, excluding the pane borders
-
-#### Parameters
-
-#### Returns
-
-`Number` 
-
-###  getInnerWidth
-
-Returns the width of the pane control, excluding the pane borders
-
-#### Parameters
-
-#### Returns
-
-`Number` 
-
-###  get_content
+### get_content
 
 Returns the HTML content of the pane control. In case the ContentUrl property of the pane is set, returns an empty string
 
@@ -92,7 +53,7 @@ Returns the HTML content of the pane control. In case the ContentUrl property of
 
 `String` The HTML content of the pane control
 
-###  get_contentUrl
+### get_contentUrl
 
 Gets the URL of the page that is opened in the pane
 
@@ -102,7 +63,7 @@ Gets the URL of the page that is opened in the pane
 
 `String` The URL of the page that is opened in the pane
 
-###  get_index
+### get_index
 
 Returns the index of the pane in the items collection of the splitter control
 
@@ -112,7 +73,7 @@ Returns the index of the pane in the items collection of the splitter control
 
 `Number` The index of the pane in the items collection of the splitter control
 
-###  get_indexInPanes
+### get_indexInPanes
 
 Returns the index of the pane control in the panes collection of the splitter control
 
@@ -122,7 +83,7 @@ Returns the index of the pane control in the panes collection of the splitter co
 
 `Number` The index of the pane control in the panes collection of the splitter control
 
-###  get_locked
+### get_locked
 
 Returns a value, indicating whether the pane is locked, that is, whether the pane can be resized or collapsed
 
@@ -132,7 +93,7 @@ Returns a value, indicating whether the pane is locked, that is, whether the pan
 
 `Boolean` A value
 
-###  get_parent
+### get_parent
 
 Returns a reference to the splitter control
 
@@ -142,7 +103,7 @@ Returns a reference to the splitter control
 
 `Telerik.Web.UI.RadSplitter` A reference to the splitter control
 
-###  get_splitter
+### get_splitter
 
 Returns a reference to the splitter control
 
@@ -152,7 +113,47 @@ Returns a reference to the splitter control
 
 `Telerik.Web.UI.RadSplitter` A reference to the splitter control
 
-###  isExternalContent
+### getContentElement
+
+Returns a reference to the HTML element, which is holding the pane content
+
+#### Parameters
+
+#### Returns
+
+`Object` The HTML element
+
+### getExtContentElement
+
+Returns a reference to the IFRAME element, which is holding the pane content
+
+#### Parameters
+
+#### Returns
+
+`Object` The IFRAME element
+
+### getInnerHeight
+
+Returns the height of the pane control, excluding the pane borders
+
+#### Parameters
+
+#### Returns
+
+`Number` 
+
+### getInnerWidth
+
+Returns the width of the pane control, excluding the pane borders
+
+#### Parameters
+
+#### Returns
+
+`Number` 
+
+### isExternalContent
 
 Returns a value, indicating whether the pane control is showing external content (content specified using the ContentUrl property)
 
@@ -162,7 +163,7 @@ Returns a value, indicating whether the pane control is showing external content
 
 `Boolean` A value
 
-###  isLocked
+### isLocked
 
 Returns a value, indicating whether the pane is locked, that is, whether the pane can be resized or collapsed
 
@@ -172,7 +173,7 @@ Returns a value, indicating whether the pane is locked, that is, whether the pan
 
 `Boolean` A value
 
-###  isSplitterContainer
+### isSplitterContainer
 
 Returns a value, indicating whether the pane contains a splitter control with ResizeWithParentPane set to true
 
@@ -182,7 +183,7 @@ Returns a value, indicating whether the pane contains a splitter control with Re
 
 `Boolean` A value
 
-###  lock
+### lock
 
 Sets the Locked property of the pane control to true
 
@@ -192,7 +193,7 @@ Sets the Locked property of the pane control to true
 
 `None` 
 
-###  print
+### print
 
 Prints the content of the pane
 
@@ -206,7 +207,7 @@ An array with the paths to the style sheets that contain styles for the printed 
 
 `None` 
 
-###  resize
+### resize
 
 Resizes the pane control with delta pixels in the specified direction
 
@@ -224,7 +225,7 @@ The direction
 
 `None` 
 
-###  set_content
+### set_content
 
 Sets the HTML content of the pane control
 
@@ -238,7 +239,7 @@ The HTML content of the pane control
 
 `None` 
 
-###  set_contentUrl
+### set_contentUrl
 
 Sets the URL of the page to open in the pane
 
@@ -252,7 +253,7 @@ The URL of the page to open in the pane
 
 `None` 
 
-###  set_height
+### set_height
 
 Sets the height in pixels of the control
 
@@ -266,7 +267,7 @@ The new height in pixels of the control
 
 `None` 
 
-###  set_locked
+### set_locked
 
 Sets the locked state of the pane - whether the pane can be resized or collapsed
 
@@ -280,7 +281,7 @@ The new value for the Locked property of the pane control
 
 `None` 
 
-###  set_width
+### set_width
 
 Sets the width in pixels of the control
 
@@ -294,7 +295,7 @@ The new width in pixels of the control
 
 `None` 
 
-###  unlock
+### unlock
 
 Sets the Locked property of the pane control to false
 
@@ -303,5 +304,6 @@ Sets the Locked property of the pane control to false
 #### Returns
 
 `None` 
+
 
 

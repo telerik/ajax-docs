@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.Editor.EditorFindReplaceEngine
 * Sys.Component
 * *[Telerik.Web.UI.Editor.EditorFindReplaceEngine]({%slug Telerik.Web.UI.Editor.EditorFindReplaceEngine%})*
 
+
 ## Methods
 
 ### find
@@ -175,3 +176,4 @@ True will search for whole words. Otherwise, false.
 #### Returns
 
 `None`
+

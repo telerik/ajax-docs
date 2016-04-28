@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.DropDownListItemSelectedEventArgs
 * Sys.EventArgs
 * *[Telerik.Web.UI.DropDownListItemSelectedEventArgs]({%slug Telerik.Web.UI.DropDownListItemSelectedEventArgs%})*
 
+
 ## Methods
 
 ###  get_item
@@ -23,4 +24,5 @@ slug: Telerik.Web.UI.DropDownListItemSelectedEventArgs
 #### Returns
 
 `Telerik.Web.UI.DropDownListItem` the item that has just been selected. 
+
 

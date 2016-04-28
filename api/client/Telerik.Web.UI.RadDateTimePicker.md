@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.RadDateTimePicker
 * [Telerik.Web.UI.RadDatePicker]({%slug Telerik.Web.UI.RadDatePicker%})
 * *[Telerik.Web.UI.RadDateTimePicker]({%slug Telerik.Web.UI.RadDateTimePicker%})*
 
+
 ## Methods
 
 ###  GetTimePopupContainer
@@ -24,7 +25,7 @@ Returns the DOM element for the DIV element that contains the popup time view.
 
 `Object` 
 
-###  get_autoPostBackControl
+### get_autoPostBackControl
 
 Gets a value indicating whether a postback to the server automatically occurs when the user changes the list selection.
 
@@ -34,7 +35,7 @@ Gets a value indicating whether a postback to the server automatically occurs wh
 
 `Boolean` 
 
-###  get_timePopupButton
+### get_timePopupButton
 
 Returns the DOM element for the time popup button.
 
@@ -44,7 +45,7 @@ Returns the DOM element for the time popup button.
 
 `Object` 
 
-###  get_timePopupContainer
+### get_timePopupContainer
 
 Returns the DOM element for the DIV element that contains the popup time view.
 
@@ -54,7 +55,7 @@ Returns the DOM element for the DIV element that contains the popup time view.
 
 `Object` 
 
-###  get_timeView
+### get_timeView
 
 Returns a reference to the client object for the popup time view.
 
@@ -64,7 +65,7 @@ Returns a reference to the client object for the popup time view.
 
 `Telerik.Web.UI.RadTimeView` 
 
-###  hideTimePopup
+### hideTimePopup
 
 Hides the popup time view if it is showing.
 
@@ -74,7 +75,7 @@ Hides the popup time view if it is showing.
 
 `None` 
 
-###  isTimePopupVisible
+### isTimePopupVisible
 
 Returns whether the popup time view is visible.
 
@@ -84,7 +85,7 @@ Returns whether the popup time view is visible.
 
 `Boolean` 
 
-###  set_autoPostBackControl
+### set_autoPostBackControl
 
 Sets a value indicating whether a postback to the server automatically occurs when the user changes the list selection.
 
@@ -96,7 +97,7 @@ Sets a value indicating whether a postback to the server automatically occurs wh
 
 `None` 
 
-###  set_enabled
+### set_enabled
 
 Enables/disabled the control.
 
@@ -108,7 +109,7 @@ Enables/disabled the control.
 
 `None` 
 
-###  set_timeView
+### set_timeView
 
 #### Parameters
 
@@ -116,7 +117,7 @@ Enables/disabled the control.
 
 `None` 
 
-###  showTimePopup
+### showTimePopup
 
 Displays the popup time view at the specified coordinates. If the two parameters are omitted, the popup appears below the input area.
 
@@ -130,7 +131,7 @@ Displays the popup time view at the specified coordinates. If the two parameters
 
 `None` 
 
-###  toggleTimePopup
+### toggleTimePopup
 
 Toggles the visible state of the popup time view.
 
@@ -139,6 +140,7 @@ Toggles the visible state of the popup time view.
 #### Returns
 
 `None` 
+
 
 ## Events
 
@@ -156,6 +158,19 @@ The instance of the RadDateTimePicker raised the event.
 
 The event arguments.
 
+### popupClosing
+
+The popupClosing event is fired immediately before a popup calendar or time view is closed.
+
+#### Event Data
+
+##### sender `Telerik.Web.UI.RadDateTimePicker`
+
+The instance of the RadDateTimePicker raised the event.
+
+##### args `Telerik.Web.UI.DatePickerPopupClosingEventArgs`
+
+The event arguments.
 ### popupOpening
 
 The popupOpening event is fired immediately before a popup calendar or time view is initialized to the current selection in the input area and then displayed.
@@ -170,16 +185,4 @@ The instance of the RadDateTimePicker raised the event.
 
 The event arguments.
 
-### popupClosing
 
-The popupClosing event is fired immediately before a popup calendar or time view is closed.
-
-#### Event Data
-
-##### sender `Telerik.Web.UI.RadDateTimePicker`
-
-The instance of the RadDateTimePicker raised the event.
-
-##### args `Telerik.Web.UI.DatePickerPopupClosingEventArgs`
-
-The event arguments.

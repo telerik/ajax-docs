@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.DataPagerPageIndexChangingEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.DataPagerPageIndexChangingEventArgs]({%slug Telerik.Web.UI.DataPagerPageIndexChangingEventArgs%})*
 
+
 ## Methods
 
 ###  get_newPageIndex
@@ -24,7 +25,7 @@ Returns the new page index for the RadDataPager control when paging.
 
 `Number` 
 
-###  get_oldPageIndex
+### get_oldPageIndex
 
 Returns the old page index for the RadDataPager control when paging.
 
@@ -34,7 +35,7 @@ Returns the old page index for the RadDataPager control when paging.
 
 `Number` 
 
-###  set_newPageIndex
+### set_newPageIndex
 
 Sets the new page index for the RadDataPager control when paging.
 
@@ -45,5 +46,6 @@ Sets the new page index for the RadDataPager control when paging.
 #### Returns
 
 `None` 
+
 
 

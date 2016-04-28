@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.ButtonToggleStateEventArgs
 * [Telerik.Web.UI.ButtonCheckedEventArgs]({%slug Telerik.Web.UI.ButtonCheckedEventArgs%})
 * *[Telerik.Web.UI.ButtonToggleStateEventArgs]({%slug Telerik.Web.UI.ButtonToggleStateEventArgs%})*
 
+
 ## Methods
 
 ###  get_currentToggleState
@@ -24,7 +25,7 @@ Returns the current RadButtonToggleState instance applied to the button.
 
 `Telerik.Web.UI.RadButtonToggleState` 
 
-###  set_currentToggleState
+### set_currentToggleState
 
 Sets a new RadButtonToggleState instance.
 
@@ -37,3 +38,4 @@ The RadButtonToggleState instance that will be assigned.
 #### Returns
 
 `None`
+

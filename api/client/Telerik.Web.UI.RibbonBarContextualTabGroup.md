@@ -11,6 +11,8 @@ slug: Telerik.Web.UI.RibbonBarContextualTabGroup
 
 * *[Telerik.Web.UI.RibbonBarContextualTabGroup]({%slug Telerik.Web.UI.RibbonBarContextualTabGroup%})*
 
-## Methods
+
+Methods
+
 
 

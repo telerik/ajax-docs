@@ -12,17 +12,8 @@ slug: Telerik.Web.UI.RadOrgChartNodePopulatingArguments
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.RadOrgChartNodePopulatingArguments]({%slug Telerik.Web.UI.RadOrgChartNodePopulatingArguments%})*
 
+
 ## Methods
-
-### get_node
-
-Returns the expanded node client object. 
-
-#### Parameters
-
-#### Returns
-
-`Telerik.Web.UI.OrgChartNode` 
 
 ### get_context
 
@@ -33,3 +24,14 @@ Returns a context object (implements IDictionary) that is passed to the server-s
 #### Returns
 
 `Object`
+### get_node
+
+Returns the expanded node client object. 
+
+#### Parameters
+
+#### Returns
+
+`Telerik.Web.UI.OrgChartNode` 
+
+

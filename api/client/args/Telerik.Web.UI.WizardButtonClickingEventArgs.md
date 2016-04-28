@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.WizardButtonClickingEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.WizardButtonClickingEventArgs]({%slug Telerik.Web.UI.WizardButtonClickingEventArgs%})*
 
+
 ## Methods
 
 ### get_command
@@ -33,3 +34,4 @@ Returns the step user is trying to navigate to.
 #### Returns
 
 `Telerik.Web.UI.RadWizardStep`
+

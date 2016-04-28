@@ -12,17 +12,8 @@ slug: Telerik.Web.UI.RibbonBarSplitButtonClickingEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.RibbonBarSplitButtonClickingEventArgs]({%slug Telerik.Web.UI.RibbonBarSplitButtonClickingEventArgs%})*
 
+
 ## Methods
-
-### get_domEvent
-
-Returns a reference to the RibbonBar button item that was clicked.
-
-#### Parameters
-
-#### Returns
-
-`Sys.UI.DomEvent` 
 
 ### get_button
 
@@ -33,3 +24,14 @@ Returns a reference to the ribbonbar split button that was clicked. In this case
 #### Returns
 
 `Telerik.Web.UI.RibbonBarButton`
+### get_domEvent
+
+Returns a reference to the RibbonBar button item that was clicked.
+
+#### Parameters
+
+#### Returns
+
+`Sys.UI.DomEvent` 
+
+

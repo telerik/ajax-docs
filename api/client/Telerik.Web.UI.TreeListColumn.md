@@ -11,6 +11,7 @@ slug: Telerik.Web.UI.TreeListColumn
 
 * *[Telerik.Web.UI.TreeListColumn]({%slug Telerik.Web.UI.TreeListColumn%})*
 
+
 ## Methods
 
 ###  get_uniqueName
@@ -22,5 +23,6 @@ A property which returns the unique name of the column.
 #### Returns
 
 `None` 
+
 
 

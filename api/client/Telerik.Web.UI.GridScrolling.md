@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.GridScrolling
 * Sys.Component
 * *[Telerik.Web.UI.GridScrolling]({%slug Telerik.Web.UI.GridScrolling%})*
 
+
 ## Methods
 
 ###  applyFrozenScroll
@@ -22,7 +23,7 @@ slug: Telerik.Web.UI.GridScrolling
 
 `None` 
 
-###  setDataDivHeight
+### setDataDivHeight
 
 Sets the height of the data Div element
 
@@ -32,7 +33,7 @@ Sets the height of the data Div element
 
 `None` 
 
-###  setHeaderAndFooterDivsWidth
+### setHeaderAndFooterDivsWidth
 
 Set the width of the header and footer Div elements
 
@@ -41,5 +42,6 @@ Set the width of the header and footer Div elements
 #### Returns
 
 `None` 
+
 
 

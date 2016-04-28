@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.RadRegExpTextBoxComponent
 * Sys.Component
 * *[Telerik.Web.UI.RadRegExpTextBoxComponent]({%slug Telerik.Web.UI.RadRegExpTextBoxComponent%})*
 
+
 ## Methods
 
 ###  get_isRequiredFields
@@ -24,7 +25,7 @@ Returns a Boolean value indicating whether the corresponding textboxes are requi
 
 `Boolean` 
 
-###  get_validationExpression
+### get_validationExpression
 
 Gets regular expression, representing the matching criteria
 
@@ -34,7 +35,7 @@ Gets regular expression, representing the matching criteria
 
 `String` 
 
-###  isValid
+### isValid
 
 Returns true if the value of the text box is valid
 
@@ -46,7 +47,7 @@ Returns true if the value of the text box is valid
 
 `None` 
 
-###  set_isRequiredFields
+### set_isRequiredFields
 
 Accepts a Boolean value indicating whether the corresponding textboxes are required to have some values entered, or may be empty
 
@@ -58,7 +59,7 @@ Accepts a Boolean value indicating whether the corresponding textboxes are requi
 
 `None` 
 
-###  set_validationExpression
+### set_validationExpression
 
 Sets regular expression, representing the matching criteria
 
@@ -69,5 +70,6 @@ Sets regular expression, representing the matching criteria
 #### Returns
 
 `None` 
+
 
 

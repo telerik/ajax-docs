@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.ODataDataSourceRequestingEventArgs
 * Sys.EventArgs
 * *[Telerik.Web.UI.ODataDataSourceRequestingEventArgs]({%slug Telerik.Web.UI.ODataDataSourceRequestingEventArgs%})*
 
+
 ## Methods
 
 ###  get_modelName
@@ -24,7 +25,7 @@ Returns the data model name.
 
 `String` 
 
-###  get_options
+### get_options
 
 Returns the parameters object that will be sent to the service.
 
@@ -34,7 +35,7 @@ Returns the parameters object that will be sent to the service.
 
 `Object`
 
-###  set_filterExpressions
+### set_filterExpressions
 
 Sets filters for the request.
 
@@ -46,7 +47,7 @@ Sets filters for the request.
 
 `None`
 
-###  set_pageIndex
+### set_pageIndex
 
 Sets the page index.
 
@@ -58,7 +59,7 @@ Sets the page index.
 
 `None`
 
-###  set_pageSize
+### set_pageSize
 
 Sets the page size.
 
@@ -70,7 +71,7 @@ Sets the page size.
 
 `None`
 
-###  set_sortExpressions
+### set_sortExpressions
 
 Sets sort expressions for the request.
 
@@ -81,4 +82,5 @@ Sets sort expressions for the request.
 #### Returns
 
 `None`
+
 

@@ -11,6 +11,7 @@ slug: Telerik.Web.UI.RadListViewUrlBuilder
 
 * *[Telerik.Web.UI.RadListViewUrlBuilder]({%slug Telerik.Web.UI.RadListViewUrlBuilder%})*
 
+
 ## Methods
 
 ###  appendParameter
@@ -31,7 +32,7 @@ The value of the URL parameter to append
 
 `None` 
 
-###  appendParameters
+### appendParameters
 
 Appends the name/value pairs in the specified object to the query parameters
 
@@ -45,7 +46,7 @@ The object whose fields to use as query parameters
 
 `None` 
 
-###  appendPath
+### appendPath
 
 Appends the specified subpath to the path of the URL
 
@@ -59,7 +60,7 @@ The subpath to append
 
 `None` 
 
-###  appendQuery
+### appendQuery
 
 Appends the specified URL query part to this URL
 
@@ -73,7 +74,7 @@ The URL query part to append
 
 `None` 
 
-###  getParameter
+### getParameter
 
 Retrieves the value of the URL parameter with the specified name
 
@@ -87,7 +88,7 @@ The name of the URL parameter to retrieve
 
 `None` 
 
-###  getPath
+### getPath
 
 Retrieves the path of the URL
 
@@ -97,7 +98,7 @@ Retrieves the path of the URL
 
 `None` 
 
-###  getQuery
+### getQuery
 
 Retrieves the query string part of this URL
 
@@ -107,7 +108,7 @@ Retrieves the query string part of this URL
 
 `None` 
 
-###  parse
+### parse
 
 Parses the specified URL and uses it as a base for building the URL in this builder
 
@@ -121,7 +122,7 @@ The base URL this builder will use
 
 `None` 
 
-###  removeParameter
+### removeParameter
 
 Removes the parameter with the specified name from the URL parameters of the URL
 
@@ -135,7 +136,7 @@ The name of the URL parameter to remove
 
 `None` 
 
-###  removePath
+### removePath
 
 Removes the specified subpath from the path of the URL
 
@@ -148,5 +149,6 @@ The subpath to remove
 #### Returns
 
 `None` 
+
 
 

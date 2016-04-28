@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.Scheduler.NavigationCompleteEventArgs
 * Sys.EventArgs
 * *[Telerik.Web.UI.Scheduler.NavigationCompleteEventArgs]({%slug Telerik.Web.UI.Scheduler.NavigationCompleteEventArgs%})*
 
+
 ## Methods
 
 ### get_command
@@ -23,3 +24,4 @@ Returns the navigation command that is completed.
 #### Returns
 
 `Number`
+

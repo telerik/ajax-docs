@@ -12,47 +12,8 @@ slug: Telerik.Web.CommonScripts
 
 * *[Telerik.Web.CommonScripts]({%slug Telerik.Web.CommonScripts%})*
 
+
 ## Methods
-
-### isIE
-
-Returns Boolean value that indicates whether the page is opened under IE.
-
-#### Parameters
-
-#### Returns
-
-`Boolean` 
-
-### isOpera
-
-Returns Boolean value that indicates whether the page is opened under Opera.
-
-#### Parameters
-
-#### Returns
-
-`Boolean` 
-
-### isTouchDevice
-
-Returns Boolean value that indicates whether the page is opened under a Mobile Device.
-
-#### Parameters
-
-#### Returns
-
-`Boolean` 
-
-### isSafari
-
-Returns Boolean value that indicates whether the page is opened under Safari.
-
-#### Parameters
-
-#### Returns
-
-`Boolean`
 
 ### static addCssClasses
 
@@ -758,24 +719,6 @@ HTML DOM element whose previous sibling to retrieve
 
 `Element` 
 
-### static getScrollOffset
-
-Returns the scroll ofset of element from its parent(s). If recursive, return the absolute scroll offset
-
-#### Parameters
-
-##### element `Element`
-
-The HTML DOM element whose scroll offset to find
-
-##### recursive `Boolean`
-
-Indicates whether to retrieve the scroll ofset of the element recursively. If true
-
-#### Returns
-
-`Sys.UI.Point` 
-
 ### static getScrollableParent
 
 Returns the closest scrollable parent element or null if no such is found.
@@ -803,6 +746,24 @@ HTML DOM element
 #### Returns
 
 `Array` 
+
+### static getScrollOffset
+
+Returns the scroll ofset of element from its parent(s). If recursive, return the absolute scroll offset
+
+#### Parameters
+
+##### element `Element`
+
+The HTML DOM element whose scroll offset to find
+
+##### recursive `Boolean`
+
+Indicates whether to retrieve the scroll ofset of the element recursively. If true
+
+#### Returns
+
+`Sys.UI.Point` 
 
 ### static getSize
 
@@ -896,6 +857,16 @@ Possible descendant node
 
 `None` 
 
+### isIE
+
+Returns Boolean value that indicates whether the page is opened under IE.
+
+#### Parameters
+
+#### Returns
+
+`Boolean` 
+
 ### static isMouseOverElement
 
 Returns whether mouse is over element when event fires. See also isMouseOverElementEx
@@ -932,6 +903,16 @@ The event object of the current DOM event
 
 `Boolean` 
 
+### isOpera
+
+Returns Boolean value that indicates whether the page is opened under Opera.
+
+#### Parameters
+
+#### Returns
+
+`Boolean` 
+
 ### static isRightToLeft
 
 Returns true if element is in RTL direction, otherwise returns false
@@ -941,6 +922,26 @@ Returns true if element is in RTL direction, otherwise returns false
 ##### element `Element`
 
 HTML DOM element
+
+#### Returns
+
+`Boolean` 
+
+### isSafari
+
+Returns Boolean value that indicates whether the page is opened under Safari.
+
+#### Parameters
+
+#### Returns
+
+`Boolean`
+
+### isTouchDevice
+
+Returns Boolean value that indicates whether the page is opened under a Mobile Device.
+
+#### Parameters
 
 #### Returns
 
@@ -1259,5 +1260,6 @@ The element that exposes the event.
 #### Returns
 
 `None` 
+
 
 

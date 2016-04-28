@@ -12,35 +12,12 @@ slug: Telerik.Web.UI.RadTabStrip
 * [Telerik.Web.UI.ControlItemContainer]({%slug Telerik.Web.UI.ControlItemContainer%})
 * *[Telerik.Web.UI.RadTabStrip]({%slug Telerik.Web.UI.RadTabStrip%})*
 
+
 ## Methods
 
-### findTabByText
+### commitChanges
 
-Returns the first RadTab object whose Text property is equal to the passed parameter.
-
-#### Parameters
-
-##### text `String`
-
-Text to find
-
-#### Returns
-
-`Telerik.Web.UI.RadTab` The first RadTab instance with matching text
-
-### isVertical
-
-Checks if the orientation of the RadTabStrip is vertical (Orientation can be Horizontal and Vertical).
-
-#### Parameters
-
-#### Returns
-
-`Boolean` true if the orientation is vertical
-
-### trackChanges
-
-Begins tracking changes to the RadTabStrip items. Only changes to the items that occur between a call to trackChanges and commitChanges persist after a postback.
+Ends tracking changes to the tabs. Only changes to the tabs that occur between a call to trackChanges and commitChanges persist after a postback.
 
 #### Parameters
 
@@ -48,97 +25,19 @@ Begins tracking changes to the RadTabStrip items. Only changes to the items that
 
 `None` 
 
-### get_attributes
+### disable
 
-Returns the collection of custom attributes for the tab strip.
-
-#### Parameters
-
-#### Returns
-
-`Object` 
-
-### isHorizontal
-
-Checks if the orientation of the RadTabStrip is horizontal (Orientation can be Horizontal and Vertical).
+Disables all tabs in the tab strip. Clicking on any tab has no effect, child tabs cannot be opened.
 
 #### Parameters
-
-#### Returns
-
-`Boolean` true if the orientation is horizontal
-
-### set_causesValidation
-
-Sets a boolean value indicating whether the RadTabStrip causes validation.
-
-#### Parameters
-
-##### value `Boolean`
-
-value
 
 #### Returns
 
 `None` 
 
-### get_clickSelectedTab
+### enable
 
-Gets a value indicating whether the tabstrip should postback when the user clicks the currently selected tab.
-
-#### Parameters
-
-#### Returns
-
-`Boolean`  A value indicating whether the tabstrip should postback when the user clicks the currently selected tab 
-
-### get_element
-
-Gets the DOM element for the tab strip.
-
-#### Parameters
-
-#### Returns
-
-`Element` 
-
-### findTabByUrl
-
-Returns the first;RadTab object whose NavigateUrl property is equal to the passed parameter.
-
-#### Parameters
-
-##### value `String`
-
-The navigateUrl to find
-
-#### Returns
-
-`Telerik.Web.UI.RadTab` The first RadTab instance with matching navigateUrl
-
-### get_enabled
-
-True if the tab strip is enabled. To enable a tab strip, use the enable() or set_enabled(true) methods.
-
-#### Parameters
-
-#### Returns
-
-`Object` 
-
-### get_selectedTab
-
-Returns the root level selected tab. Null if no root tab has been selected.
-
-#### Parameters
-
-#### Returns
-
-`Telerik.Web.UI.RadTab` The selected root tab
-
-### saveClientState
-
-Saves the client state to the client state hidden field.
+Enables all tabs in the tab strip.
 
 #### Parameters
 
@@ -178,39 +77,47 @@ The attribute value to search for
 
 `Telerik.Web.UI.RadTab` The first RadTab instance with matching attribute
 
-### get_validationGroup
+### findTabByText
 
-Gets the name of the validation group to which the RadTabStrip belongs.
-
-#### Parameters
-
-#### Returns
-
-`String` The name of the validation group.
-
-### set_enabled
-
-Enables or disables all tabs in the tab strip.
+Returns the first RadTab object whose Text property is equal to the passed parameter.
 
 #### Parameters
 
-##### value `Boolean`
+##### text `String`
 
-true to enable the tab strip
+Text to find
 
 #### Returns
 
-`None` 
+`Telerik.Web.UI.RadTab` The first RadTab instance with matching text
 
-### commitChanges
+### findTabByUrl
 
-Ends tracking changes to the tabs. Only changes to the tabs that occur between a call to trackChanges and commitChanges persist after a postback.
+Returns the first;RadTab object whose NavigateUrl property is equal to the passed parameter.
 
 #### Parameters
 
+##### value `String`
+
+The navigateUrl to find
+
 #### Returns
 
-`None` 
+`Telerik.Web.UI.RadTab` The first RadTab instance with matching navigateUrl
+
+### findTabByValue
+
+Returns the first RadTab object whose Value property is equal to the passed parameter.
+
+#### Parameters
+
+##### value `String`
+
+Value to find
+
+#### Returns
+
+`Telerik.Web.UI.RadTab` The first RadTab instance with matching value
 
 ### get_allTabs
 
@@ -222,6 +129,86 @@ Gets a collection of all tabs. This includes all root and child tabs in the tab 
 
 `Array` An array of all tabs
 
+### get_attributes
+
+Returns the collection of custom attributes for the tab strip.
+
+#### Parameters
+
+#### Returns
+
+`Object` 
+
+### get_causesValidation
+
+Gets a value indicating whether the RadTabStrip causes validation.
+
+#### Parameters
+
+#### Returns
+
+`Boolean` true or false
+
+### get_childListElement
+
+Gets the root tab list (rtsUL) DOM element.
+
+#### Parameters
+
+#### Returns
+
+`Element` 
+
+### get_clickSelectedTab
+
+Gets a value indicating whether the tabstrip should postback when the user clicks the currently selected tab.
+
+#### Parameters
+
+#### Returns
+
+`Boolean`  A value indicating whether the tabstrip should postback when the user clicks the currently selected tab 
+
+### get_element
+
+Gets the DOM element for the tab strip.
+
+#### Parameters
+
+#### Returns
+
+`Element` 
+
+### get_enabled
+
+True if the tab strip is enabled. To enable a tab strip, use the enable() or set_enabled(true) methods.
+
+#### Parameters
+
+#### Returns
+
+`Object` 
+
+### get_levelElement
+
+Gets the DOM element of the root level wrapper (rtsLevel)
+
+#### Parameters
+
+#### Returns
+
+`Element`  The DOM element of the root level wrapper 
+
+### get_multiPage
+
+Gets the RadMultiPage instance associated with this tab strip
+
+#### Parameters
+
+#### Returns
+
+`Telerik.Web.UI.RadMultiPage` The RadMultiPage instance associated with this tab strip
+
 ### get_multiPageID
 
 Returns the ID of the associated RadMultiPage, if any.
@@ -231,6 +218,120 @@ Returns the ID of the associated RadMultiPage, if any.
 #### Returns
 
 `String` 
+
+### get_selectedIndex
+
+Returns the index of the currently selected root tab
+
+#### Parameters
+
+#### Returns
+
+`String` The index of the currently selected root tab
+
+### get_selectedIndexes
+
+Gets a collection of the indexes of all selected tabs.
+
+#### Parameters
+
+#### Returns
+
+`Array`  an array with the indexes of all selected tabs. 
+
+### get_selectedTab
+
+Returns the root level selected tab. Null if no root tab has been selected.
+
+#### Parameters
+
+#### Returns
+
+`Telerik.Web.UI.RadTab` The selected root tab
+
+### get_tabs
+
+Returns a collection of root level tabs.
+
+#### Parameters
+
+#### Returns
+
+`Telerik.Web.UI.RadTabCollection` 
+
+### get_unselectChildren
+
+Gets a value determining whether child tabs are unselected when a parent tab is unselected.
+
+#### Parameters
+
+#### Returns
+
+`Boolean`  true if child tabs are unselected when a parent tab is unselected. false if the tabs persist their state even when hidden. The default value is false. 
+
+### get_validationGroup
+
+Gets the name of the validation group to which the RadTabStrip belongs.
+
+#### Parameters
+
+#### Returns
+
+`String` The name of the validation group.
+
+### isHorizontal
+
+Checks if the orientation of the RadTabStrip is horizontal (Orientation can be Horizontal and Vertical).
+
+#### Parameters
+
+#### Returns
+
+`Boolean` true if the orientation is horizontal
+
+### isVertical
+
+Checks if the orientation of the RadTabStrip is vertical (Orientation can be Horizontal and Vertical).
+
+#### Parameters
+
+#### Returns
+
+`Boolean` true if the orientation is vertical
+
+### repaint
+
+Refreshes the RadTabStrip UI
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### saveClientState
+
+Saves the client state to the client state hidden field.
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### set_causesValidation
+
+Sets a boolean value indicating whether the RadTabStrip causes validation.
+
+#### Parameters
+
+##### value `Boolean`
+
+value
+
+#### Returns
+
+`None` 
 
 ### set_clickSelectedTab
 
@@ -246,11 +347,29 @@ A value indicating whether the tabstrip should postback when the user clicks the
 
 `None` 
 
-### disable
+### set_enabled
 
-Disables all tabs in the tab strip. Clicking on any tab has no effect, child tabs cannot be opened.
+Enables or disables all tabs in the tab strip.
 
 #### Parameters
+
+##### value `Boolean`
+
+true to enable the tab strip
+
+#### Returns
+
+`None` 
+
+### set_multiPageID
+
+Sets the ID of the associated RadMultiPage.
+
+#### Parameters
+
+##### value `String`
+
+The ID of the associated RadMultiPage
 
 #### Returns
 
@@ -284,47 +403,9 @@ value
 
 `None` 
 
-### get_levelElement
+### trackChanges
 
-Gets the DOM element of the root level wrapper (rtsLevel)
-
-#### Parameters
-
-#### Returns
-
-`Element`  The DOM element of the root level wrapper 
-
-### findTabByValue
-
-Returns the first RadTab object whose Value property is equal to the passed parameter.
-
-#### Parameters
-
-##### value `String`
-
-Value to find
-
-#### Returns
-
-`Telerik.Web.UI.RadTab` The first RadTab instance with matching value
-
-### set_multiPageID
-
-Sets the ID of the associated RadMultiPage.
-
-#### Parameters
-
-##### value `String`
-
-The ID of the associated RadMultiPage
-
-#### Returns
-
-`None` 
-
-### enable
-
-Enables all tabs in the tab strip.
+Begins tracking changes to the RadTabStrip items. Only changes to the items that occur between a call to trackChanges and commitChanges persist after a postback.
 
 #### Parameters
 
@@ -332,85 +413,6 @@ Enables all tabs in the tab strip.
 
 `None` 
 
-### get_unselectChildren
-
-Gets a value determining whether child tabs are unselected when a parent tab is unselected.
-
-#### Parameters
-
-#### Returns
-
-`Boolean`  true if child tabs are unselected when a parent tab is unselected. false if the tabs persist their state even when hidden. The default value is false. 
-
-### get_selectedIndexes
-
-Gets a collection of the indexes of all selected tabs.
-
-#### Parameters
-
-#### Returns
-
-`Array`  an array with the indexes of all selected tabs. 
-
-### repaint
-
-Refreshes the RadTabStrip UI
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-### get_childListElement
-
-Gets the root tab list (rtsUL) DOM element.
-
-#### Parameters
-
-#### Returns
-
-`Element` 
-
-### get_selectedIndex
-
-Returns the index of the currently selected root tab
-
-#### Parameters
-
-#### Returns
-
-`String` The index of the currently selected root tab
-
-### get_causesValidation
-
-Gets a value indicating whether the RadTabStrip causes validation.
-
-#### Parameters
-
-#### Returns
-
-`Boolean` true or false
-
-### get_tabs
-
-Returns a collection of root level tabs.
-
-#### Parameters
-
-#### Returns
-
-`Telerik.Web.UI.RadTabCollection` 
-
-### get_multiPage
-
-Gets the RadMultiPage instance associated with this tab strip
-
-#### Parameters
-
-#### Returns
-
-`Telerik.Web.UI.RadMultiPage` The RadMultiPage instance associated with this tab strip
 
 ## Events
 
@@ -428,21 +430,6 @@ The RadTabStrip instance raised the event.
 ##### args `Sys.EventArgs`
 
 The arguments of the Load event.
-
-
-### tabDragStart
-
-Occurs when a drag-to-reorder operation is about to start.
-
-#### Event Data
-
-##### sender `Telerik.Web.UI.RadTabStrip`
-
-The RadTabStrip instance raised the event.
-
-##### args `Telerik.Web.UI.RadTabStripCancelEventArgs`
-
-The arguments of the TabDragStart event.
 
 
 ### reordered
@@ -475,9 +462,9 @@ The RadTabStrip instance raised the event.
 The arguments of the Reordering event.
 
 
-### tabSelecting
+### tabDragStart
 
-Occurs when the user selects a tab, before the tab is selected.  
+Occurs when a drag-to-reorder operation is about to start.
 
 #### Event Data
 
@@ -487,52 +474,7 @@ The RadTabStrip instance raised the event.
 
 ##### args `Telerik.Web.UI.RadTabStripCancelEventArgs`
 
-The arguments of the TabSelecting event.
-
-
-### tabSelected
-
-Occurs when the user selects a tab, after the tab has been selected.   
-
-#### Event Data
-
-##### sender `Telerik.Web.UI.RadTabStrip`
-
-The RadTabStrip instance raised the event.
-
-##### args `Telerik.Web.UI.RadTabStripEventArgs`
-
-The arguments of the TabSelected event.
-
-
-### tabUnSelected
-
-Occurs when the user selects a new tab, after the previously selected tab has been unselected. 
-
-#### Event Data
-
-##### sender `Telerik.Web.UI.RadTabStrip`
-
-The RadTabStrip instance raised the event.
-
-##### args `Telerik.Web.UI.RadTabStripEventArgs`
-
-The arguments of the TabUnSelected event.
-
-
-### mouseOver
-
-Occurs when the mouse moves over a tab in the Tab Strip.  
-
-#### Event Data
-
-##### sender `Telerik.Web.UI.RadTabStrip`
-
-The RadTabStrip instance raised the event.
-
-##### args `Telerik.Web.UI.RadTabStripEventArgs`
-
-The arguments of the MouseOver event.
+The arguments of the TabDragStart event.
 
 
 ### mouseOut
@@ -550,9 +492,9 @@ The RadTabStrip instance raised the event.
 The arguments of the MouseOut event.
 
 
-### contextMenu
+### mouseOver
 
-Occurs when the user right-clicks on a tab in the Tab Strip. 
+Occurs when the mouse moves over a tab in the Tab Strip.  
 
 #### Event Data
 
@@ -562,7 +504,7 @@ The RadTabStrip instance raised the event.
 
 ##### args `Telerik.Web.UI.RadTabStripEventArgs`
 
-The arguments of the ContextMenu event.
+The arguments of the MouseOver event.
 
 
 ### doubleClick
@@ -578,3 +520,64 @@ The RadTabStrip instance raised the event.
 ##### args `Telerik.Web.UI.RadTabStripEventArgs`
 
 The arguments of the DoubleClick event.
+### contextMenu
+
+Occurs when the user right-clicks on a tab in the Tab Strip. 
+
+#### Event Data
+
+##### sender `Telerik.Web.UI.RadTabStrip`
+
+The RadTabStrip instance raised the event.
+
+##### args `Telerik.Web.UI.RadTabStripEventArgs`
+
+The arguments of the ContextMenu event.
+
+
+### tabUnSelected
+
+Occurs when the user selects a new tab, after the previously selected tab has been unselected. 
+
+#### Event Data
+
+##### sender `Telerik.Web.UI.RadTabStrip`
+
+The RadTabStrip instance raised the event.
+
+##### args `Telerik.Web.UI.RadTabStripEventArgs`
+
+The arguments of the TabUnSelected event.
+
+
+### tabSelected
+
+Occurs when the user selects a tab, after the tab has been selected.   
+
+#### Event Data
+
+##### sender `Telerik.Web.UI.RadTabStrip`
+
+The RadTabStrip instance raised the event.
+
+##### args `Telerik.Web.UI.RadTabStripEventArgs`
+
+The arguments of the TabSelected event.
+
+
+### tabSelecting
+
+Occurs when the user selects a tab, before the tab is selected.  
+
+#### Event Data
+
+##### sender `Telerik.Web.UI.RadTabStrip`
+
+The RadTabStrip instance raised the event.
+
+##### args `Telerik.Web.UI.RadTabStripCancelEventArgs`
+
+The arguments of the TabSelecting event.
+
+
+

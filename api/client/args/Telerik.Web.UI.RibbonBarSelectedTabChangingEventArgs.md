@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.RibbonBarSelectedTabChangingEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.RibbonBarSelectedTabChangingEventArgs]({%slug Telerik.Web.UI.RibbonBarSelectedTabChangingEventArgs%})*
 
+
 ## Methods
 
 ### get_domEvent
@@ -24,6 +25,15 @@ Returns a reference to the RibbonBar button item that was clicked.
 
 `Sys.UI.DomEvent` 
 
+### get_previouslySelectedTab
+
+Returns a reference to the RibbonBar tab that was unselected.
+
+#### Parameters
+
+#### Returns
+
+`Telerik.Web.UI.RibbonBarTab`
 ### get_tab
 
 Returns a reference to the RibbonBar tab that was selected.
@@ -34,12 +44,4 @@ Returns a reference to the RibbonBar tab that was selected.
 
 `Telerik.Web.UI.RibbonBarTab` 
 
-### get_previouslySelectedTab
 
-Returns a reference to the RibbonBar tab that was unselected.
-
-#### Parameters
-
-#### Returns
-
-`Telerik.Web.UI.RibbonBarTab`

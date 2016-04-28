@@ -12,25 +12,58 @@ slug: Telerik.Web.UI.RadAjaxManager
 * [Telerik.Web.UI.RadAjaxControl]({%slug Telerik.Web.UI.RadAjaxControl%})
 * *[Telerik.Web.UI.RadAjaxManager]({%slug Telerik.Web.UI.RadAjaxManager%})*
 
+
 ## Methods
 
-### updateElement
+### get_ajaxSettings
 
-Updates the html of the DOM element with the specified id
+Gets the current ajax settings of the RadAjaxManager
 
 #### Parameters
 
-##### id `String`
+#### Returns
 
-The id of the DOM element to update
+`Array` 
 
-##### html `String`
+### get_defaultLoadingPanelID
 
-The html which is to be assigned to the specified DOM element
+Gets the id of the default loading panel of the RadAjaxManager
+
+#### Parameters
 
 #### Returns
 
-`None` 
+`String` 
+
+### get_enableAJAX
+
+True
+
+#### Parameters
+
+#### Returns
+
+`Object` 
+
+### get_enableHistory
+
+True
+
+#### Parameters
+
+#### Returns
+
+`Object` 
+
+### get_updatePanelsRenderMode
+
+Gets the current update panels render mode of the RadAjaxManager
+
+#### Parameters
+
+#### Returns
+
+`Number` 
 
 ### set_ajaxSettings
 
@@ -44,7 +77,19 @@ Sets the current ajax settings of the RadAjaxManager
 
 `None` 
 
-### set_enableHistory
+### set_defaultLoadingPanelID
+
+Sets the id of the default loading panel of the RadAjaxManager
+
+#### Parameters
+
+##### value `String`
+
+#### Returns
+
+`None` 
+
+### set_enableAJAX
 
 true
 
@@ -56,11 +101,13 @@ true
 
 `Object` 
 
-### get_enableHistory
+### set_enableHistory
 
-True
+true
 
 #### Parameters
+
+##### boolean `Object`
 
 #### Returns
 
@@ -96,69 +143,24 @@ The RadAjaxManager ajax settings
 
 `None` 
 
-### get_ajaxSettings
+### updateElement
 
-Gets the current ajax settings of the RadAjaxManager
-
-#### Parameters
-
-#### Returns
-
-`Array` 
-
-### set_enableAJAX
-
-true
+Updates the html of the DOM element with the specified id
 
 #### Parameters
 
-##### boolean `Object`
+##### id `String`
 
-#### Returns
+The id of the DOM element to update
 
-`Object` 
+##### html `String`
 
-### get_defaultLoadingPanelID
-
-Gets the id of the default loading panel of the RadAjaxManager
-
-#### Parameters
-
-#### Returns
-
-`String` 
-
-### get_updatePanelsRenderMode
-
-Gets the current update panels render mode of the RadAjaxManager
-
-#### Parameters
-
-#### Returns
-
-`Number` 
-
-### get_enableAJAX
-
-True
-
-#### Parameters
-
-#### Returns
-
-`Object` 
-
-### set_defaultLoadingPanelID
-
-Sets the id of the default loading panel of the RadAjaxManager
-
-#### Parameters
-
-##### value `String`
+The html which is to be assigned to the specified DOM element
 
 #### Returns
 
 `None` 
+
 
 ## Events
 
@@ -189,3 +191,4 @@ The instance of the RadAjaxManager raised the event.
 ##### args `Telerik.Web.UI.AjaxRequestEventArgs`
 
 The event arguments.
+

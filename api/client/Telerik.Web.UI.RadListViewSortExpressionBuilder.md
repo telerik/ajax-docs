@@ -11,6 +11,7 @@ slug: Telerik.Web.UI.RadListViewSortExpressionBuilder
 
 * *[Telerik.Web.UI.RadListViewSortExpressionBuilder]({%slug Telerik.Web.UI.RadListViewSortExpressionBuilder%})*
 
+
 ## Methods
 
 ###  add
@@ -31,7 +32,7 @@ Optional
 
 `None` 
 
-###  clear
+### clear
 
 Clears the sort expressions collection
 
@@ -41,7 +42,7 @@ Clears the sort expressions collection
 
 `None` 
 
-###  remove
+### remove
 
 Removes a field from the sort expressions
 
@@ -55,7 +56,7 @@ The field name to remove
 
 `None` 
 
-###  toggle
+### toggle
 
 Toggles the sort order of the specified field
 
@@ -68,5 +69,6 @@ The field whose sort order to toggle
 #### Returns
 
 `None` 
+
 
 

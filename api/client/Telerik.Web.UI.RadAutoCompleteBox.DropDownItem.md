@@ -10,3 +10,4 @@ slug: Telerik.Web.UI.RadAutoCompleteBox.DropDownItem
 ## Inheritance Hierarchy
 
 * *[Telerik.Web.UI.RadAutoCompleteBox.DropDownItem]({%slug Telerik.Web.UI.RadAutoCompleteBox.DropDownItem%})*
+

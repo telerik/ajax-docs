@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.ODataDataSourceRequestFailedEventArgs
 * Sys.EventArgs
 * *[Telerik.Web.UI.ODataDataSourceRequestFailedEventArgs]({%slug Telerik.Web.UI.ODataDataSourceRequestFailedEventArgs%})*
 
+
 ## Methods
 
 ###  get_message
@@ -24,7 +25,7 @@ Returns the message of the thrown error.
 
 `String`
 
-###  get_modelName
+### get_modelName
 
 Returns the data model name.
 
@@ -34,7 +35,7 @@ Returns the data model name.
 
 `String` 
 
-###  get_statusCode
+### get_statusCode
 
 Returns the status of the thrown error.
 
@@ -43,3 +44,4 @@ Returns the status of the thrown error.
 #### Returns
 
 `Number` 
+

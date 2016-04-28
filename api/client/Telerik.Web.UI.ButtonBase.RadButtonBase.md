@@ -12,99 +12,22 @@ slug: Telerik.Web.UI.ButtonBase.RadButtonBase
 * [Telerik.Web.UI.RadWebControl]({%slug Telerik.Web.UI.RadWebControl%})
 * *[Telerik.Web.UI.ButtonBase.RadButtonBase]({%slug Telerik.Web.UI.ButtonBase.RadButtonBase%})*
 
+
 ## Methods
 
-### get_text
+### click
 
-Gets the text displayed in the RadButton control.
-
-#### Parameters
-
-#### Returns
-
-`String` The text displayed in the RadButton control.
-
-### set_text
-
-Sets the text displayed in the RadButton control.
+Executes programmatic button click.
 
 #### Parameters
 
-##### value `String`
+##### raiseClicking? `Boolean`
 
-The text that will be displayed in the RadButton control.
+ Bool value indicating whether the 
 
 #### Returns
 
 `None` 
-
-### set_enabled
-
-Sets whether the button is enabled.
-
-#### Parameters
-
-##### value `Boolean`
-
-The new value for the Enabled property.
-
-#### Returns
-
-`None` 
-
-### get_enabled
-
-Returns a value, indicating whether the button control is enabled.
-
-#### Parameters
-
-#### Returns
-
-`Boolean` The value of the Enabled property.
-
-### set_value
-
-Sets the Value property of the RadButton control.
-
-#### Parameters
-
-##### value `String`
-
-The Value property of the RadButton control.
-
-#### Returns
-
-`None`
-
-### get_value
-
-Gets the Value property of the RadButton control.
-
-#### Parameters
-
-#### Returns
-
-`String` The Value property of the RadButton control.
-
-### get_width
-
-Gets the width of the RadButton control.
-
-#### Parameters
-
-#### Returns
-
-`Number` The width of the RadButton control.
-
-### get_height
-
-Gets the height of the RadButton control.
-
-#### Parameters
-
-#### Returns
-
-`Number` The height of the RadButton control.
 
 ### get_cssClass
 
@@ -126,6 +49,26 @@ Gets the CSS class applied when the control is disabled.
 
 `String` The CSS class applied when the control is disabled.
 
+### get_enabled
+
+Returns a value, indicating whether the button control is enabled.
+
+#### Parameters
+
+#### Returns
+
+`Boolean` The value of the Enabled property.
+
+### get_height
+
+Gets the height of the RadButton control.
+
+#### Parameters
+
+#### Returns
+
+`Number` The height of the RadButton control.
+
 ### get_hoveredCssClass
 
 Gets the CSS class applied to the RadButton control when the mouse pointer is over the control.
@@ -146,6 +89,16 @@ Gets the CSS class applied to the RadButton control when the control is pressed.
 
 `String` The CSS class applied to the RadButton control when the control is pressed.
 
+### get_text
+
+Gets the text displayed in the RadButton control.
+
+#### Parameters
+
+#### Returns
+
+`String` The text displayed in the RadButton control.
+
 ### get_toolTip
 
 Gets the text displayed when the mouse pointer hovers over the RadButton control.
@@ -155,6 +108,64 @@ Gets the text displayed when the mouse pointer hovers over the RadButton control
 #### Returns
 
 `String` The text displayed when the mouse pointer hovers over the RadButton control.
+
+### get_uniqueID
+
+Gets the unique, hierarchically qualified identifier for the RadButton control.
+
+#### Parameters
+
+#### Returns
+
+`String` The unique
+
+### get_value
+
+Gets the Value property of the RadButton control.
+
+#### Parameters
+
+#### Returns
+
+`String` The Value property of the RadButton control.
+
+### get_width
+
+Gets the width of the RadButton control.
+
+#### Parameters
+
+#### Returns
+
+`Number` The width of the RadButton control.
+
+### set_enabled
+
+Sets whether the button is enabled.
+
+#### Parameters
+
+##### value `Boolean`
+
+The new value for the Enabled property.
+
+#### Returns
+
+`None` 
+
+### set_text
+
+Sets the text displayed in the RadButton control.
+
+#### Parameters
+
+##### value `String`
+
+The text that will be displayed in the RadButton control.
+
+#### Returns
+
+`None` 
 
 ### set_toolTip
 
@@ -170,59 +181,22 @@ The text that will be displayed on hover.
 
 `None`
 
-### get_uniqueID
+### set_value
 
-Gets the unique, hierarchically qualified identifier for the RadButton control.
-
-#### Parameters
-
-#### Returns
-
-`String` The unique
-
-### click
-
-Executes programmatic button click.
+Sets the Value property of the RadButton control.
 
 #### Parameters
 
-##### raiseClicking? `Boolean`
+##### value `String`
 
- Bool value indicating whether the 
+The Value property of the RadButton control.
 
 #### Returns
 
-`None` 
+`None`
+
 
 ## Events
-
-### load
-
-The load event occurs when the RadButton control loaded on the page.
-
-#### Event Data
-
-#####  sender `Telerik.Web.UI.RadButton`
-
-The instance of the RadButton raised the event.
-
-#####  eventArgs `Sys.EventArgs`
-
-Empty event argument.
-
-### clicking
-
-The clicking event occurs when the RadButton control is clicked, immediately after the mouse button is released.
-
-#### Event Data
-
-#####  sender `Telerik.Web.UI.RadButton`
-
-The instance of the RadButton raised the event.
-
-##### args `Telerik.Web.UI.ButtonCancelEventArgs`
-
-The event arguments.
 
 ### clicked
 
@@ -238,9 +212,9 @@ The instance of the RadButton raised the event.
 
 The event arguments.
 
-### mouseOver
+### clicking
 
-The mouseOver event is fired when the user moves the mouse pointer over the control. 
+The clicking event occurs when the RadButton control is clicked, immediately after the mouse button is released.
 
 #### Event Data
 
@@ -248,9 +222,23 @@ The mouseOver event is fired when the user moves the mouse pointer over the cont
 
 The instance of the RadButton raised the event.
 
-##### args `Telerik.Web.UI.ButtonEventArgs`
+##### args `Telerik.Web.UI.ButtonCancelEventArgs`
 
 The event arguments.
+
+### load
+
+The load event occurs when the RadButton control loaded on the page.
+
+#### Event Data
+
+#####  sender `Telerik.Web.UI.RadButton`
+
+The instance of the RadButton raised the event.
+
+#####  eventArgs `Sys.EventArgs`
+
+Empty event argument.
 
 ### mouseOut
 
@@ -265,3 +253,18 @@ The instance of the RadButton raised the event.
 ##### args `Telerik.Web.UI.ButtonEventArgs`
 
 The event arguments.
+### mouseOver
+
+The mouseOver event is fired when the user moves the mouse pointer over the control. 
+
+#### Event Data
+
+#####  sender `Telerik.Web.UI.RadButton`
+
+The instance of the RadButton raised the event.
+
+##### args `Telerik.Web.UI.ButtonEventArgs`
+
+The event arguments.
+
+

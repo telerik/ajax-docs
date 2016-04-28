@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.AutoCompleteBoxTextChangedEventArgs
 * Sys.EventArgs
 * *[Telerik.Web.UI.AutoCompleteBoxTextChangedEventArgs]({%slug Telerik.Web.UI.AutoCompleteBoxTextChangedEventArgs%})*
 
+
 ## Methods
 
 ### get_text
@@ -23,3 +24,4 @@ Returns the text currently present into the input area.
 #### Returns
 
 `String`
+

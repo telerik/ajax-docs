@@ -11,7 +11,18 @@ slug: Telerik.Web.UI.Editor.CommandBase
 
 * *[Telerik.Web.UI.Editor.CommandBase]({%slug Telerik.Web.UI.Editor.CommandBase%})*
 
+
 ## Methods
+
+### execute
+
+Executes the command.
+
+#### Parameters
+
+#### Returns
+
+`Boolean` Indicates whether the command has been executed successfully or not.
 
 ### get_argument
 
@@ -23,58 +34,6 @@ Returns the command arguments.
 
 `Object`  
 
-### getState
-
-Returns the command arguments. 
-
-#### Parameters
-
-#### Returns
-
-`Telerik.Web.UI.Editor.CommandStates`  
-
-### getValue
-
-Returns the current value of the command.
-
-#### Parameters
-
-#### Returns
-
-`Object`
-
-### get_window
-
-Returns the window object of the RadEditor's iframe. 
-
-#### Parameters
-
-#### Returns
-
-`Object`
-
-### get_title
-
-Returns the title of the command.
-
-#### Parameters
-
-#### Returns
-
-`String`
-
-### set_title
-
-Sets the title of the command.
-
-#### Parameters
-
-##### value `String`
-
-#### Returns
-
-`None`
-
 ### get_canUnexecute
 
 Indicates whether the command can be executed or not.
@@ -85,18 +44,6 @@ Indicates whether the command can be executed or not.
 
 `Boolean`
 
-### set_canUnexecute
-
-Sets whether the command can be executed or not.
-
-#### Parameters
-
-##### value `Boolean`
-
-#### Returns
-
-`None`
-
 ### get_editor
 
 Returns the RadEditor instance associated to this command.
@@ -106,18 +53,6 @@ Returns the RadEditor instance associated to this command.
 #### Returns
 
 `Telerik.Web.UI.RadEditor`
-
-### set_editor
-
-Sets the RadEditor instance associated to this command.
-
-#### Parameters
-
-##### value `Telerik.Web.UI.RadEditor`
-
-#### Returns
-
-`None`
 
 ### get_editorContentArea
 
@@ -139,15 +74,81 @@ Indicates whether the undo/redo functionality is available.
 
 `Boolean`
 
-### execute
+### get_title
 
-Executes the command.
+Returns the title of the command.
 
 #### Parameters
 
 #### Returns
 
-`Boolean` Indicates whether the command has been executed successfully or not.
+`String`
+
+### get_window
+
+Returns the window object of the RadEditor's iframe. 
+
+#### Parameters
+
+#### Returns
+
+`Object`
+
+### getState
+
+Returns the command arguments. 
+
+#### Parameters
+
+#### Returns
+
+`Telerik.Web.UI.Editor.CommandStates`  
+
+### getValue
+
+Returns the current value of the command.
+
+#### Parameters
+
+#### Returns
+
+`Object`
+
+### set_canUnexecute
+
+Sets whether the command can be executed or not.
+
+#### Parameters
+
+##### value `Boolean`
+
+#### Returns
+
+`None`
+
+### set_editor
+
+Sets the RadEditor instance associated to this command.
+
+#### Parameters
+
+##### value `Telerik.Web.UI.RadEditor`
+
+#### Returns
+
+`None`
+
+### set_title
+
+Sets the title of the command.
+
+#### Parameters
+
+##### value `String`
+
+#### Returns
+
+`None`
 
 ### unexecute
 
@@ -158,6 +159,7 @@ Restores the previous state of the content (i.e., applies undo).
 #### Returns
 
 `None`
+
 
 
 

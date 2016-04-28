@@ -11,3 +11,4 @@ slug: Telerik.Web.UI.AutoCompleteBoxDropDownClosingEventArgs
 
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.AutoCompleteBoxDropDownClosingEventArgs]({%slug Telerik.Web.UI.AutoCompleteBoxDropDownClosingEventArgs%})*
+

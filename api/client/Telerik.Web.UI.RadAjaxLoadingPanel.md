@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.RadAjaxLoadingPanel
 * [Telerik.Web.UI.RadWebControl]({%slug Telerik.Web.UI.RadWebControl%})
 * *[Telerik.Web.UI.RadAjaxLoadingPanel]({%slug Telerik.Web.UI.RadAjaxLoadingPanel%})*
 
+
 ## Methods
 
 ###  cloneLoadingPanel
@@ -32,7 +33,7 @@ The id of the updated element
 
 `None` 
 
-###  displayLoadingElement
+### displayLoadingElement
 
 Displays the loading panel element over the updated element
 
@@ -50,7 +51,77 @@ The DOM element of the updated control
 
 `None` 
 
-###  getElementRectangle
+### get_animationDuration
+
+Gets the time in milliseconds of the animation duration of the RadAjaxLoadingPanel
+
+#### Parameters
+
+#### Returns
+
+`Number` 
+
+### get_initialDelayTime
+
+Gets the initial delay time of the RadAjaxLoadingPanel
+
+#### Parameters
+
+#### Returns
+
+`Number` 
+
+### get_isSticky
+
+Gets the value of the IsSticky property of the RadAjaxLoadingPanel
+
+#### Parameters
+
+#### Returns
+
+`Boolean` 
+
+### get_minDisplayTime
+
+Gets the minimum time in milliseconds that the RadAjaxLoadingPanel will last
+
+#### Parameters
+
+#### Returns
+
+`Number` 
+
+### get_transparency
+
+Gets the Transparency value of the RadAjaxLoadingPanel in percentage (values 0-100)
+
+#### Parameters
+
+#### Returns
+
+`Number` 
+
+### get_uniqueID
+
+Gets the unique id of the RadAjaxLoadingPanel
+
+#### Parameters
+
+#### Returns
+
+`String` 
+
+### get_zIndex
+
+Gets the zIndex of the RadAjaxLoadingPanel
+
+#### Parameters
+
+#### Returns
+
+`Number` 
+
+### getElementRectangle
 
 Gets the specified as a parameter element position and dimensions. Example: getElementRactangle(element).top - returns the top position of the element; getElementRactangle(element).left - returns the left position of the element; getElementRactangle(element).width - returns the width of the element; getElementRactangle(element).height - returns the height of the element.
 
@@ -64,77 +135,7 @@ The DOM element which rectangles should be returned
 
 `Object` 
 
-###  get_animationDuration
-
-Gets the time in milliseconds of the animation duration of the RadAjaxLoadingPanel
-
-#### Parameters
-
-#### Returns
-
-`Number` 
-
-###  get_initialDelayTime
-
-Gets the initial delay time of the RadAjaxLoadingPanel
-
-#### Parameters
-
-#### Returns
-
-`Number` 
-
-###  get_isSticky
-
-Gets the value of the IsSticky property of the RadAjaxLoadingPanel
-
-#### Parameters
-
-#### Returns
-
-`Boolean` 
-
-###  get_minDisplayTime
-
-Gets the minimum time in milliseconds that the RadAjaxLoadingPanel will last
-
-#### Parameters
-
-#### Returns
-
-`Number` 
-
-###  get_transparency
-
-Gets the Transparency value of the RadAjaxLoadingPanel in percentage (values 0-100)
-
-#### Parameters
-
-#### Returns
-
-`Number` 
-
-###  get_uniqueID
-
-Gets the unique id of the RadAjaxLoadingPanel
-
-#### Parameters
-
-#### Returns
-
-`String` 
-
-###  get_zIndex
-
-Gets the zIndex of the RadAjaxLoadingPanel
-
-#### Parameters
-
-#### Returns
-
-`Number` 
-
-###  hide
+### hide
 
 Hides the loading panel which is displayed over the element passed as a parameter
 
@@ -148,7 +149,7 @@ The id of the updated element
 
 `None` 
 
-###  set_animationDuration
+### set_animationDuration
 
 Sets the time in milliseconds of the animation duration of the RadAjaxLoadingPanel
 
@@ -160,7 +161,7 @@ Sets the time in milliseconds of the animation duration of the RadAjaxLoadingPan
 
 `None` 
 
-###  set_initialDelayTime
+### set_initialDelayTime
 
 Sets the initial delay time of the RadAjaxLoadingPanel
 
@@ -172,7 +173,7 @@ Sets the initial delay time of the RadAjaxLoadingPanel
 
 `None` 
 
-###  set_isSticky
+### set_isSticky
 
 Sets the value of the IsSticky property of the RadAjaxLoadingPanel
 
@@ -184,7 +185,7 @@ Sets the value of the IsSticky property of the RadAjaxLoadingPanel
 
 `None` 
 
-###  set_minDisplayTime
+### set_minDisplayTime
 
 Sets the minimum time in milliseconds that the RadAjaxLoadingPanel will last
 
@@ -196,7 +197,7 @@ Sets the minimum time in milliseconds that the RadAjaxLoadingPanel will last
 
 `None` 
 
-###  set_transparency
+### set_transparency
 
 Sets the Transparency value of the RadAjaxLoadingPanel in percentage (values 0-100)
 
@@ -208,7 +209,7 @@ Sets the Transparency value of the RadAjaxLoadingPanel in percentage (values 0-1
 
 `None` 
 
-###  set_uniqueID
+### set_uniqueID
 
 Sets the unique id of the RadAjaxLoadingPanel
 
@@ -220,7 +221,7 @@ Sets the unique id of the RadAjaxLoadingPanel
 
 `None` 
 
-###  set_zIndex
+### set_zIndex
 
 Sets the zIndex of the RadAjaxLoadingPanel
 
@@ -232,7 +233,7 @@ Sets the zIndex of the RadAjaxLoadingPanel
 
 `None` 
 
-###  show
+### show
 
 Displays the loading panel over the element passed as a parameter
 
@@ -245,6 +246,7 @@ The id of the updated element
 #### Returns
 
 `None` 
+
 
 ## Events
 
@@ -275,4 +277,5 @@ The instance of the RadAjaxLoadingPanel raised the event.
 ##### args `Telerik.Web.UI.AjaxLoadingPanelEventArgs` 
 
 The event arguments.
+
 

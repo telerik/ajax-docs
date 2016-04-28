@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.LightBoxNavigatingEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.LightBoxNavigatingEventArgs]({%slug Telerik.Web.UI.LightBoxNavigatingEventArgs%})*
 
+
 ## Methods
 
 ###  get_itemIndex
@@ -23,3 +24,4 @@ Returns the currently displayed item index.
 #### Returns
 
 `Number` 
+

@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.Spell.MultipleHtmlElementsSource
 * Sys.UI.Control
 * *[Telerik.Web.UI.Spell.MultipleHtmlElementsSource]({%slug Telerik.Web.UI.Spell.MultipleHtmlElementsSource%})*
 
+
 ## Methods
 
 ###  get_elements
@@ -24,7 +25,7 @@ Gets an array containg the HTML elements of the multiple TextSource objects.
 
 `Array` An array containg the HTML elements of the multiple TextSource objects.
 
-###  get_text
+### get_text
 
 Gets the text of the (Telerik.Web.UI.Spell.MultipleHtmlElementsSource) multiple TextSource objects.
 
@@ -34,7 +35,7 @@ Gets the text of the (Telerik.Web.UI.Spell.MultipleHtmlElementsSource) multiple 
 
 `String` The text of the TextSource object.
 
-###  set_text
+### set_text
 
 Sets a text to the (Telerik.Web.UI.Spell.MultipleHtmlElementsSource) multiple TextSource objects.
 
@@ -47,5 +48,6 @@ The text to be set.
 #### Returns
 
 `None` 
+
 
 

@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.ODataDataSourceRequestSucceededEventArgs
 * Sys.EventArgs
 * *[Telerik.Web.UI.ODataDataSourceRequestSucceededEventArgs]({%slug Telerik.Web.UI.ODataDataSourceRequestSucceededEventArgs%})*
 
+
 ## Methods
 
 ###  get_context
@@ -24,7 +25,7 @@ Returns the current context.
 
 `Object`
 
-###  get_count
+### get_count
 
 Returns the total number of data items;
 
@@ -34,7 +35,7 @@ Returns the total number of data items;
 
 `Number` 
 
-###  get_data
+### get_data
 
 Returns array containing the results of the query.
 
@@ -44,7 +45,7 @@ Returns array containing the results of the query.
 
 `Array` 
 
-###  get_modelName
+### get_modelName
 
 Returns the data model name.
 
@@ -53,3 +54,4 @@ Returns the data model name.
 #### Returns
 
 `String` 
+

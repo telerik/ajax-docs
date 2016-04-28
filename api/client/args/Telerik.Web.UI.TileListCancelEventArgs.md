@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.TileListCancelEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.TileListCancelEventArgs]({%slug Telerik.Web.UI.TileListCancelEventArgs%})*
 
+
 ## Methods
 
 ###  get_tile
@@ -24,7 +25,7 @@ Returns the tile, in which context the event occurs
 
 `Telerik.Web.UI.RadBaseTile` 
 
-###  get_value
+### get_value
 
 Returns the property value of the specific event
 
@@ -34,7 +35,7 @@ Returns the property value of the specific event
 
 `String` 
 
-###  set_value
+### set_value
 
 Sets the property value of the specific event
 
@@ -43,5 +44,6 @@ Sets the property value of the specific event
 #### Returns
 
 `None` 
+
 
 

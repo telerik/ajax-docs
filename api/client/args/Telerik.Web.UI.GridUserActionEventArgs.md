@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.GridUserActionEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.GridUserActionEventArgs]({%slug Telerik.Web.UI.GridUserActionEventArgs%})*
 
+
 ## Methods
 
 ###  get_actionName
@@ -24,7 +25,7 @@ Returns the name of the initiated action.
 
 `String` 
 
-###  get_newPageIndex
+### get_newPageIndex
 
 Returns the argument of the action. The name of the method depends on the action. For PageSize changing it is called get_newPageSize.
 
@@ -34,7 +35,7 @@ Returns the argument of the action. The name of the method depends on the action
 
 `Number` 
 
-###  get_tableView
+### get_tableView
 
 Returns the owner TableView object.
 
@@ -44,7 +45,7 @@ Returns the owner TableView object.
 
 `Telerik.Web.UI.GridTableView` 
 
-###  set_newPageIndex
+### set_newPageIndex
 
 Sets the argument of the action. The name of the method depends on the action. For PageSize changing it is called set_newPageSize.
 
@@ -55,6 +56,7 @@ Sets the argument of the action. The name of the method depends on the action. F
 #### Returns
 
 `None` 
+
 
 
 

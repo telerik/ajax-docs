@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.GridBatchEditEventArgs
 * Sys.EventArgs
 * *[Telerik.Web.UI.GridBatchEditEventArgs]({%slug Telerik.Web.UI.GridBatchEditEventArgs%})*
 
+
 ## Methods
 
 ###  get_cell
@@ -24,7 +25,7 @@ Returns a reference to the currently edited cell.
 
 `Element` 
 
-###  get_column
+### get_column
 
 Returns a reference to the currently edited GridColumn object.
 
@@ -34,7 +35,7 @@ Returns a reference to the currently edited GridColumn object.
 
 `Telerik.Web.UI.GridColumn` 
 
-###  get_columnUniqueName
+### get_columnUniqueName
 
 Returns the UniqueName of the edited column. 
 
@@ -44,7 +45,7 @@ Returns the UniqueName of the edited column.
 
 `String` 
 
-###  get_row
+### get_row
 
 Returns a reference to the DOM element of the GridDataItem object.
 
@@ -54,7 +55,7 @@ Returns a reference to the DOM element of the GridDataItem object.
 
 `Element` 
 
-###  get_tableView
+### get_tableView
 
 Returns the owner TableView object.
 
@@ -63,6 +64,7 @@ Returns the owner TableView object.
 #### Returns
 
 `Telerik.Web.UI.GridTableView` 
+
 
 
 

@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.RadContextMenuCancelEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.RadContextMenuCancelEventArgs]({%slug Telerik.Web.UI.RadContextMenuCancelEventArgs%})*
 
+
 ## Methods 
 
 ###  get_targetElement
@@ -24,7 +25,7 @@ Returns a reference to the DOM element that was right-clicked to show the contex
 
 `Element` 
 
-###  get_domEvent
+### get_domEvent
 
 Returns a reference to the DOM event that caused the opening.
 
@@ -33,3 +34,4 @@ Returns a reference to the DOM event that caused the opening.
 #### Returns
 
 `Sys.UI.DomEvent`
+

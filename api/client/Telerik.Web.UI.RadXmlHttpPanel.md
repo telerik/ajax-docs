@@ -11,6 +11,7 @@ slug: Telerik.Web.UI.RadXmlHttpPanel
 
 * *[Telerik.Web.UI.RadXmlHttpPanel]({%slug Telerik.Web.UI.RadXmlHttpPanel%})*
 
+
 ## Methods
 
 ###  set_value
@@ -23,7 +24,7 @@ passes a value to the RadXmlHttpPanel depending on which content is loaded insid
 
 `None` 
 
-###  set_html
+### set_html
 
 sets a custom HTML content to the RadXmlHttpPanel.
 
@@ -33,7 +34,23 @@ sets a custom HTML content to the RadXmlHttpPanel.
 
 `None` 
 
+
 ## Events
+
+### responseEnded
+
+The responseEnded occurs immediately after the data (content) is pasted into the RadXmlHttpPanel. 
+This client-side event is subsequent to the responseEnding event.
+
+#### Event Data
+
+##### sender `Telerik.Web.UI.RadXmlHttpPanel`
+
+The instance of the RadXmlHttpPanel raised the event.
+
+##### args `Sys.EventArgs`
+
+Empty event arguments. 
 
 ### responseEnding
 
@@ -51,21 +68,6 @@ The instance of the RadXmlHttpPanel raised the event.
 
 The event arguments. 
 
-### responseEnded
-
-The responseEnded occurs immediately after the data (content) is pasted into the RadXmlHttpPanel. 
-This client-side event is subsequent to the responseEnding event.
-
-#### Event Data
-
-##### sender `Telerik.Web.UI.RadXmlHttpPanel`
-
-The instance of the RadXmlHttpPanel raised the event.
-
-##### args `Sys.EventArgs`
-
-Empty event arguments. 
-
 ### responseError
 
 The responseError occurs in the cases when an error (WebService or Callback error) occurs when the RadXmlHttpPanel tries to load certain content.
@@ -79,3 +81,4 @@ The instance of the RadXmlHttpPanel raised the event.
 ##### args `Telerik.Web.UI.XmlHttpPanelErrorEventArgs`
 
 The event arguments. 
+

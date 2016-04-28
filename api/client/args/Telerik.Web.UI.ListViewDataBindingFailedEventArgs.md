@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.ListViewDataBindingFailedEventArgs
 * Sys.EventArgs
 * *[Telerik.Web.UI.ListViewDataBindingFailedEventArgs]({%slug Telerik.Web.UI.ListViewDataBindingFailedEventArgs%})*
 
+
 ## Methods
 
 ### get_exception
@@ -33,3 +34,4 @@ Returns the response text.
 #### Returns
 
 `String`
+

@@ -11,27 +11,8 @@ slug: Telerik.Web.UI.Editor.Modules.ModuleBase
 
 * *[Telerik.Web.UI.Editor.Modules.ModuleBase]({%slug Telerik.Web.UI.Editor.Modules.ModuleBase%})*
 
+
 ## Methods
-
-### render
-
-Renders the module.
-
-#### Parameters
-
-#### Returns
-
-`None`
-
-### toggleVisibility
-
-Toggles the visibility state of the module.
-
-#### Parameters
-
-#### Returns
-
-`None`
 
 ### attachEventHandler
 
@@ -51,6 +32,16 @@ The handler function.
 
 `None`
 
+### get_attributes
+
+Returns object literal representing the module's attributes.
+
+#### Parameters
+
+#### Returns
+
+`Object`
+
 ### get_editor
 
 Returns the RadEditor instance.
@@ -61,15 +52,55 @@ Returns the RadEditor instance.
 
 `Telerik.Web.UI.RadEditor`
 
-### get_attributes
+### get_name
 
-Returns object literal representing the module's attributes.
+Returns the name of the module.
 
 #### Parameters
 
 #### Returns
 
-`Object`
+`String`
+
+### get_scriptFile
+
+Gets the path to the script file.
+
+#### Parameters
+
+#### Returns
+
+`String`
+
+### get_title
+
+Returns the title of the module.
+
+#### Parameters
+
+#### Returns
+
+`String`
+
+### get_visible
+
+Indicates whether the module is visible or not.  
+
+#### Parameters
+
+#### Returns
+
+`Boolean`
+
+### render
+
+Renders the module.
+
+#### Parameters
+
+#### Returns
+
+`None`
 
 ### set_attributes
 
@@ -83,15 +114,19 @@ Sets an object literal to represent the module's attributes.
 
 `None`
 
-### get_scriptFile
+### set_name
 
-Gets the path to the script file.
+Sets the name of the module.
 
 #### Parameters
 
+##### value `String`
+
 #### Returns
 
-`String`
+`None`
+
+
 
 ### set_scriptFile
 
@@ -105,15 +140,17 @@ Sets the path to the script file.
 
 `None`
 
-### get_visible
+### set_title
 
-Indicates whether the module is visible or not.  
+Sets the title of the module.
 
 #### Parameters
 
+##### value `String`
+
 #### Returns
 
-`Boolean`
+`None`
 
 ### set_visible
 
@@ -129,49 +166,14 @@ Indicates whether the module to be shown or hidden.
 
 `None`
 
-### get_title
+### toggleVisibility
 
-Returns the title of the module.
-
-#### Parameters
-
-#### Returns
-
-`String`
-
-### set_title
-
-Sets the title of the module.
+Toggles the visibility state of the module.
 
 #### Parameters
-
-##### value `String`
 
 #### Returns
 
 `None`
-
-### get_name
-
-Returns the name of the module.
-
-#### Parameters
-
-#### Returns
-
-`String`
-
-### set_name
-
-Sets the name of the module.
-
-#### Parameters
-
-##### value `String`
-
-#### Returns
-
-`None`
-
 
 

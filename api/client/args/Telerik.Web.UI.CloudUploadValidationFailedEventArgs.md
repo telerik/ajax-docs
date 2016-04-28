@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.CloudUploadValidationFailedEventArgs
 * Sys.EventArgs
 * *[Telerik.Web.UI.CloudUploadValidationFailedEventArgs]({%slug Telerik.Web.UI.CloudUploadValidationFailedEventArgs%})*
 
+
 ## Methods
 
 ### get_fileName
@@ -33,3 +34,4 @@ Returns the original message from the localization.
 #### Returns
 
 `String`  
+

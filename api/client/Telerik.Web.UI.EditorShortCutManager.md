@@ -11,6 +11,7 @@ slug: Telerik.Web.UI.EditorShortCutManager
 
 * *[Telerik.Web.UI.EditorShortCutManager]({%slug Telerik.Web.UI.EditorShortCutManager%})*
 
+
 ## Methods
 
 ### addShortCut
@@ -31,19 +32,19 @@ The key combination of the shortcut
 
 `None` 
 
-### removeShortCut
+### findShortCutByName
 
-Removes a shortcut from collection.
+Returns the ShortCut instance found by its name.  
 
 #### Parameters
 
 ##### shortcutName `String`
 
-Name of the the shortcut
+The DOM event.
 
 #### Returns
 
-`None` 
+`Telerik.Web.UI.EditorShortCut` 
 
 ### isShortCutHit
 
@@ -59,19 +60,19 @@ The DOM event.
 
 `Boolean` 
 
-### findShortCutByName
+### removeShortCut
 
-Returns the ShortCut instance found by its name.  
+Removes a shortcut from collection.
 
 #### Parameters
 
 ##### shortcutName `String`
 
-The DOM event.
+Name of the the shortcut
 
 #### Returns
 
-`Telerik.Web.UI.EditorShortCut` 
+`None` 
 
 ### setShortCut
 
@@ -90,3 +91,4 @@ The key combination of the shortcut
 #### Returns
 
 `None` 
+

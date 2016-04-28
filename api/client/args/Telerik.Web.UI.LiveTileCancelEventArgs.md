@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.LiveTileCancelEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.LiveTileCancelEventArgs]({%slug Telerik.Web.UI.LiveTileCancelEventArgs%})*
 
+
 ## Methods
 
 ### get_value
@@ -37,6 +38,7 @@ The data object to be bound with.
 #### Returns
 
 `None` 
+
 
 
 

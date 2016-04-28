@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.ClientDataSource.FilterExpressionCollection
 * [Telerik.Web.UI.ClientDataSource.CollectionBase]({%slug Telerik.Web.UI.ClientDataSource.CollectionBase%})
 * *[Telerik.Web.UI.ClientDataSource.FilterExpressionCollection]({%slug Telerik.Web.UI.ClientDataSource.FilterExpressionCollection%})*
 
+
 ## Methods
 
 ###  add
@@ -21,5 +22,6 @@ slug: Telerik.Web.UI.ClientDataSource.FilterExpressionCollection
 #### Returns
 
 `None` 
+
 
 

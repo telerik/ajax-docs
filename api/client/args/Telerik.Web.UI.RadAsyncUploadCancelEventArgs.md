@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.RadAsyncUploadCancelEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.RadAsyncUploadCancelEventArgs]({%slug Telerik.Web.UI.RadAsyncUploadCancelEventArgs%})*
 
+
 ## Methods
 
 ### get_row
@@ -23,3 +24,4 @@ Returns LI html element of the added row.
 #### Returns
 
 `Element`
+

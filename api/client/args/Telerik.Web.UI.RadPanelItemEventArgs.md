@@ -12,8 +12,18 @@ slug: Telerik.Web.UI.RadPanelItemEventArgs
 * Sys.EventArgs
 * *[Telerik.Web.UI.RadPanelItemEventArgs]({%slug Telerik.Web.UI.RadPanelItemEventArgs%})*
 
+
 ## Methods
 
+### get_domEvent
+
+returns a reference to the DOM event that caused the opening.
+
+#### Parameters
+
+#### Returns
+
+`Sys.UI.DomEvent`
 ### get_item
 
 Returns returns a reference to the RadPanelItem.
@@ -24,12 +34,4 @@ Returns returns a reference to the RadPanelItem.
 
 `Telerik.Web.UI.RadPanelItem`
 
-###  get_domEvent
 
-returns a reference to the DOM event that caused the opening.
-
-#### Parameters
-
-#### Returns
-
-`Sys.UI.DomEvent`

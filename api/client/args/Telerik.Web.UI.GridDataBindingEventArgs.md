@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.GridDataBindingEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.GridDataBindingEventArgs]({%slug Telerik.Web.UI.GridDataBindingEventArgs%})*
 
+
 ## Methods
 
 ###  get_location
@@ -24,7 +25,7 @@ Returns the physical location of the web service/page method which retrieves the
 
 `String` 
 
-###  get_methodArguments
+### get_methodArguments
 
 Returns the arguments that will be passed to the method which gets the data (start row index, maximum rows, sort parameter, filter parameter).
 
@@ -34,7 +35,7 @@ Returns the arguments that will be passed to the method which gets the data (sta
 
 `Object` 
 
-###  get_methodName
+### get_methodName
 
 Returns the name of the method which collects the data.
 
@@ -44,7 +45,7 @@ Returns the name of the method which collects the data.
 
 `String` 
 
-###  set_location
+### set_location
 
 Sets the physical location of the web service/page method which retrieves the data for the grid.
 
@@ -56,7 +57,7 @@ Sets the physical location of the web service/page method which retrieves the da
 
 `None` 
 
-###  set_methodArguments
+### set_methodArguments
 
 Sets the arguments that will be passed to the method which gets the data (start row index, maximum rows, sort parameter, filter parameter).
 
@@ -68,7 +69,7 @@ Sets the arguments that will be passed to the method which gets the data (start 
 
 `None` 
 
-###  set_methodName
+### set_methodName
 
 Sets the name of the method which collects the data.
 
@@ -79,5 +80,6 @@ Sets the name of the method which collects the data.
 #### Returns
 
 `None` 
+
 
 

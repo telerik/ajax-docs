@@ -11,6 +11,7 @@ slug: Telerik.Web.UI.OrgChartGroupItem
 
 * *[Telerik.Web.UI.OrgChartGroupItem]({%slug Telerik.Web.UI.OrgChartGroupItem%})*
 
+
 ## Methods
 
 ###  getID
@@ -22,3 +23,4 @@ Returns the ID of the current GroupItem.
 #### Returns
 
 `String` string
+

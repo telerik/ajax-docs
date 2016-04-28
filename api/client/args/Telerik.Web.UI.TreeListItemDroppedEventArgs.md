@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.TreeListItemDroppedEventArgs
 * Sys.EventArgs
 * *[Telerik.Web.UI.TreeListItemDroppedEventArgs]({%slug Telerik.Web.UI.TreeListItemDroppedEventArgs%})*
 
+
 ## Methods
 
 ### get_destinationHtmlElement
@@ -53,5 +54,6 @@ Gets the target TreeListDataItem
 #### Returns
 
 `Telerik.Web.UI.TreeListDataItem`
+
 
 

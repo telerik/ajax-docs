@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.RibbonBarNumericTextBoxValueChangingEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.RibbonBarNumericTextBoxValueChangingEventArgs]({%slug Telerik.Web.UI.RibbonBarNumericTextBoxValueChangingEventArgs%})*
 
+
 ## Methods
 
 ### get_numericTextBox
@@ -33,3 +34,4 @@ Returns numeric textbox value.
 #### Returns
 
 `Number`
+

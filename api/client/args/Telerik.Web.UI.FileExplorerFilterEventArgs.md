@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.FileExplorerFilterEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.FileExplorerFilterEventArgs]({%slug Telerik.Web.UI.FileExplorerFilterEventArgs%})*
 
+
 ## Methods
 
 ###  get_domEvent
@@ -24,7 +25,7 @@ Returns the DOM event.
 
 `Sys.UI.DomEvent` 
 
-###  get_text
+### get_text
 
 Returns the selected filter text.
 
@@ -34,7 +35,7 @@ Returns the selected filter text.
 
 `None` 
 
-###  set_text
+### set_text
 
 Sets the selected filter text.
 
@@ -43,5 +44,6 @@ Sets the selected filter text.
 #### Returns
 
 `None` 
+
 
 

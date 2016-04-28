@@ -11,4 +11,6 @@ slug: Telerik.Web.UI.RibbonBarNumericTextBox
 
 * *[Telerik.Web.UI.RibbonBarNumericTextBox]({%slug Telerik.Web.UI.RibbonBarNumericTextBox%})*
 
-## Methods
+
+Methods
+

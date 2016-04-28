@@ -11,17 +11,8 @@ slug: Telerik.Web.UI.RadAsyncUploadProgressUpdatingEventArgs
 
 * *[Telerik.Web.UI.RadAsyncUploadProgressUpdatingEventArgs]({%slug Telerik.Web.UI.RadAsyncUploadProgressUpdatingEventArgs%})*
 
+
 ## Methods
-
-### get_row
-
-Returns the row containing the file input field for the file that was just selected (<LI> element)
-
-#### Parameters
-
-#### Returns
-
-`Element` <LI> element containing the file input for the selected file.
 
 ### get_data
 
@@ -36,3 +27,14 @@ Returns data object containing information regarding the progress. The data obje
 #### Returns
 
 `Object` data object containing information regarding the progress.
+### get_row
+
+Returns the row containing the file input field for the file that was just selected (<LI> element)
+
+#### Parameters
+
+#### Returns
+
+`Element` <LI> element containing the file input for the selected file.
+
+

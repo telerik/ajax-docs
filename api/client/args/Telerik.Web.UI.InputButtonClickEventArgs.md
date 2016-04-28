@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.InputButtonClickEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.InputButtonClickEventArgs]({%slug Telerik.Web.UI.InputButtonClickEventArgs%})*
 
+
 ## Methods
 
 ###  get_buttonType
@@ -23,3 +24,4 @@ Returns an integer indicating the type of the clicked button
 #### Returns
 
 `Number` 
+

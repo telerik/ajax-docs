@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.CloudUploadFileUploadRemovedEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.CloudUploadFileUploadRemovedEventArgs]({%slug Telerik.Web.UI.CloudUploadFileUploadRemovedEventArgs%})*
 
+
 ## Methods
 
 ### get_fileName
@@ -23,3 +24,4 @@ The name of the file that has been removed from the uploaded files collection.
 #### Returns
 
 `String` 
+

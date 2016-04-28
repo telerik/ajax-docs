@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.RadHtmlChart
 * [Telerik.Web.UI.RadWebControl]({%slug Telerik.Web.UI.RadWebControl%})
 * *[Telerik.Web.UI.RadHtmlChart]({%slug Telerik.Web.UI.RadHtmlChart%})*
 
+
 ## Methods
 
 ###  get_kendoWidget
@@ -25,72 +26,6 @@ To use the exposed Kendo methods make sure you have the kendo.dataviz.d.ts file 
 
 `Object` 
 
-### set_transitions
-
-Sets a boolean value indicating whether an animation is played when the chart is rendered.
-
-#### Parameters
-
-##### value `Boolean`
-
-#### Returns
-
-`None` 
-
-### set_dataSource
-
-Sets the dataSource of the Chart as a JSON string
-
-#### Parameters
-
-##### value `String`
-
-#### Returns
-
-`None` 
-
-### get_transitions
-
-Gets a boolean value indicating whether an animation is played when the chart is rendered.
-
-#### Parameters
-
-#### Returns
-
-`Boolean` 
-
-### getSVGString
-
-Returns the SVG representation of the current chart (a string which is a self-contained SVG document)
-
-#### Parameters
-
-#### Returns
-
-`String` 
-
-### set_height
-
-Sets new height to the chart
-
-#### Parameters
-
-##### value `Number`
-
-#### Returns
-
-`None` 
-
-### repaint
-
-Repaints the chart
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
 ### get_dataSourceJSON
 
 Gets the dataSource of the Chart as a JSON string
@@ -100,18 +35,6 @@ Gets the dataSource of the Chart as a JSON string
 #### Returns
 
 `String` 
-
-### set_width
-
-Sets new width to the chart
-
-#### Parameters
-
-##### value `Number`
-
-#### Returns
-
-`None` 
 
 ### get_height
 
@@ -123,6 +46,16 @@ Gets the height of the chart
 
 `Number` 
 
+### get_transitions
+
+Gets a boolean value indicating whether an animation is played when the chart is rendered.
+
+#### Parameters
+
+#### Returns
+
+`Boolean` 
+
 ### get_width
 
 Gets the width of the chart
@@ -132,6 +65,16 @@ Gets the width of the chart
 #### Returns
 
 `Number` 
+
+### getSVGString
+
+Returns the SVG representation of the current chart (a string which is a self-contained SVG document)
+
+#### Parameters
+
+#### Returns
+
+`String` 
 
 ### kendoWidget
 
@@ -153,6 +96,65 @@ Triggers data to be loaded when LoadDataInvocation="FromCode"
 
 `None` 
 
+### repaint
+
+Repaints the chart
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### set_dataSource
+
+Sets the dataSource of the Chart as a JSON string
+
+#### Parameters
+
+##### value `String`
+
+#### Returns
+
+`None` 
+
+### set_height
+
+Sets new height to the chart
+
+#### Parameters
+
+##### value `Number`
+
+#### Returns
+
+`None` 
+
+### set_transitions
+
+Sets a boolean value indicating whether an animation is played when the chart is rendered.
+
+#### Parameters
+
+##### value `Boolean`
+
+#### Returns
+
+`None` 
+
+### set_width
+
+Sets new width to the chart
+
+#### Parameters
+
+##### value `Number`
+
+#### Returns
+
+`None` 
+
+
 ## Events
 
 ### Load
@@ -168,3 +170,4 @@ The RadHtmlChart instance that fired the event. You can get the underlying Kendo
 ##### args `Sys.EventArgs`
 
 Empty event argument.
+

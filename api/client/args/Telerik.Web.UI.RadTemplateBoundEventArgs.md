@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.RadTemplateBoundEventArgs
 * Sys.EventArgs
 * *[Telerik.Web.UI.RadTemplateBoundEventArgs]({%slug Telerik.Web.UI.RadTemplateBoundEventArgs%})*
 
+
 ## Methods
 
 ###  get_dataItem
@@ -24,7 +25,7 @@ Returns the client-side data object bound to the control item.
 
 `Object` 
 
-###  get_html
+### get_html
 
 Returns the HTML the control is about to render. 
 
@@ -34,7 +35,7 @@ Returns the HTML the control is about to render.
 
 `String` 
 
-###  get_template
+### get_template
 
 Returns the template the control uses.
 
@@ -44,7 +45,7 @@ Returns the template the control uses.
 
 `Function` 
 
-###  set_html
+### set_html
 
 Sets a new HTML that will be placed in the control item. 
 
@@ -55,5 +56,6 @@ Sets a new HTML that will be placed in the control item.
 #### Returns
 
 `None` 
+
 
 

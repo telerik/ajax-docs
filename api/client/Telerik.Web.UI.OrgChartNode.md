@@ -11,6 +11,7 @@ slug: Telerik.Web.UI.OrgChartNode
 
 * *[Telerik.Web.UI.OrgChartNode]({%slug Telerik.Web.UI.OrgChartNode%})*
 
+
 ## Methods
 
 ###  getID
@@ -23,6 +24,15 @@ Returns the ID of the current Node.
 
 `String` string
 
+### get_element
+
+Gets he DOM element for the RadComboBoxItem.
+
+#### Parameters
+
+#### Returns
+
+`Element` The DOM element for the OrgChartNode.
 ### get_groupItems
 
 Returns a collection of the group items associated with that node
@@ -33,12 +43,4 @@ Returns a collection of the group items associated with that node
 
 `Telerik.Web.UI.OrgChartGroupItemCollection`
 
-###  get_element
 
-Gets he DOM element for the RadComboBoxItem.
-
-#### Parameters
-
-#### Returns
-
-`Element` The DOM element for the OrgChartNode.

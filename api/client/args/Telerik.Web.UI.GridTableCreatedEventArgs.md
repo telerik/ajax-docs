@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.GridTableCreatedEventArgs
 * Sys.EventArgs
 * *[Telerik.Web.UI.GridTableCreatedEventArgs]({%slug Telerik.Web.UI.GridTableCreatedEventArgs%})*
 
+
 ## Methods
 
 ###  get_tableView
@@ -23,5 +24,6 @@ Returns the created TableView object.
 #### Returns
 
 `Telerik.Web.UI.GridTableView` 
+
 
 

@@ -13,19 +13,8 @@ slug: Telerik.Web.UI.RadTabCollection
 * [Telerik.Web.UI.ControlItemCollection]({%slug Telerik.Web.UI.ControlItemCollection%})
 * *[Telerik.Web.UI.RadTabCollection]({%slug Telerik.Web.UI.RadTabCollection%})*
 
+
 ## Methods
-
-### removeAt
-
-Removes the tab at the specified index.
-
-#### Parameters
-
-##### int `Object`
-
-#### Returns
-
-`Object` 
 
 ### static add
 
@@ -38,42 +27,6 @@ adds tab to the RadTabCollection.
 #### Returns
 
 `None` 
-
-### static Telerik
-
-Initializes a new instance of RadTabStrip tabs collection
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-### indexOf
-
-Returns the index of a tab.
-
-#### Parameters
-
-##### RadTab `Telerik.Web.UI.RadTab`
-
-#### Returns
-
-`Object` 
-
-### static getTab
-
-Returns the tab from the collection that resides at the specified index.
-
-#### Parameters
-
-##### index `Number`
-
-The index from which to retrieve tha tab 
-
-#### Returns
-
-`Telerik.Web.UI.RadTab` 
 
 ### clear
 
@@ -95,6 +48,20 @@ Returns the number of the tabs in the collection.
 
 `Object` 
 
+### static getTab
+
+Returns the tab from the collection that resides at the specified index.
+
+#### Parameters
+
+##### index `Number`
+
+The index from which to retrieve tha tab 
+
+#### Returns
+
+`Telerik.Web.UI.RadTab` 
+
 ### getTab
 
 Returns the tab from the collection that resides at the specified index.
@@ -106,4 +73,39 @@ Returns the tab from the collection that resides at the specified index.
 #### Returns
 
 `Telerik.Web.UI.RadTab` 
+
+### indexOf
+
+Returns the index of a tab.
+
+#### Parameters
+
+##### RadTab `Telerik.Web.UI.RadTab`
+
+#### Returns
+
+`Object` 
+
+### removeAt
+
+Removes the tab at the specified index.
+
+#### Parameters
+
+##### int `Object`
+
+#### Returns
+
+`Object` 
+
+### static Telerik
+
+Initializes a new instance of RadTabStrip tabs collection
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
 

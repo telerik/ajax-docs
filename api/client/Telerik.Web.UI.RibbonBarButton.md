@@ -11,6 +11,7 @@ slug: Telerik.Web.UI.RibbonBarButton
 
 * *[Telerik.Web.UI.RibbonBarButton]({%slug Telerik.Web.UI.RibbonBarButton%})*
 
+
 ## Methods
 
 ###  set_owner
@@ -20,5 +21,6 @@ slug: Telerik.Web.UI.RibbonBarButton
 #### Returns
 
 `None` 
+
 
 

@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.ListBoxItemDoubleClickedEventArgs
 * Sys.EventArgs
 * *[Telerik.Web.UI.ListBoxItemDoubleClickedEventArgs]({%slug Telerik.Web.UI.ListBoxItemDoubleClickedEventArgs%})*
 
+
 ## Methods
 
 ###  get_item
@@ -24,7 +25,7 @@ Returns the double-clicked item
 
 `Telerik.Web.UI.RadListBoxItem`  the double-clicked item.
 
-###  get_domEvent
+### get_domEvent
 
 Returns the Sys.UI.DomEvent instance associated to the raised event.
 
@@ -33,4 +34,5 @@ Returns the Sys.UI.DomEvent instance associated to the raised event.
 #### Returns
 
 `Sys.UI.DomEvent` the Sys.UI.DomEvent instance associated to the raised event.
+
 

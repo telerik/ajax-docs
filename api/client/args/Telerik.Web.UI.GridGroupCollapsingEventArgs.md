@@ -12,7 +12,9 @@ slug: Telerik.Web.UI.GridGroupCollapsingEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.GridGroupCollapsingEventArgs]({%slug Telerik.Web.UI.GridGroupCollapsingEventArgs%})*
 
-## Methods
+
+Methods
+
 
 
 

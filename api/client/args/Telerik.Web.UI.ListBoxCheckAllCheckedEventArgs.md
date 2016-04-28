@@ -7,10 +7,12 @@ slug: Telerik.Web.UI.ListBoxCheckAllCheckedEventArgs
 
 # Telerik.Web.UI.ListBoxCheckAllCheckedEventArgs : Sys.EventArgs 
 
-## Inheritance Hierarchy
+
+Inheritance Hierarchy
 
 * Sys.EventArgs
 * [Telerik.Web.UI.ListBoxCheckAllCheckedEventArgs]({%slug Telerik.Web.UI.ListBoxCheckAllCheckedEventArgs%})
+
 
 ## Methods
 
@@ -23,4 +25,5 @@ Returns the Sys.UI.DomEvent instance associated to the raised event.
 #### Returns
 
 `Sys.UI.DomEvent` the Sys.UI.DomEvent instance associated to the raised event.
+
 

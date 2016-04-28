@@ -11,4 +11,6 @@ slug: Telerik.Web.UI.RibbonBarColorPicker
 
 * *[Telerik.Web.UI.RibbonBarColorPicker]({%slug Telerik.Web.UI.RibbonBarColorPicker%})*
 
-## Methods
+
+Methods
+

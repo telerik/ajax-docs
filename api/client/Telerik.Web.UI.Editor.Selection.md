@@ -11,6 +11,7 @@ slug: Telerik.Web.UI.Editor.Selection
 
 * *[Telerik.Web.UI.Editor.Selection]({%slug Telerik.Web.UI.Editor.Selection%})*
 
+
 ## Methods
 
 ### collapse
@@ -27,7 +28,7 @@ The direction in which to collapse the selection. If true the selection will col
 
 `None` 
 
-###  getBrowserSelection
+### getBrowserSelection
 
 Returns the browser's Selection object
 
@@ -37,7 +38,7 @@ Returns the browser's Selection object
 
 `Object` 
 
-###  getHtml
+### getHtml
 
 Returns the selection's content as HTML
 
@@ -47,7 +48,47 @@ Returns the selection's content as HTML
 
 `String` 
 
-###  moveToElementText
+### getParentElement
+
+Returns a reference to the selection's parent DOM element
+
+#### Parameters
+
+#### Returns
+
+`Element` 
+
+### getRange
+
+Returns a reference to a range object
+
+#### Parameters
+
+#### Returns
+
+`Object` 
+
+### getText
+
+Returns the selected content as plain text
+
+#### Parameters
+
+#### Returns
+
+`String` 
+
+### isControl
+
+Specifies whether the current selection is a control or not.
+
+#### Parameters
+
+#### Returns
+
+`Boolean` 
+
+### moveToElementText
 
 Recreates the selection range.
 
@@ -61,47 +102,7 @@ DOM element to be selected.
 
 `None` 
 
-###  getParentElement
-
-Returns a reference to the selection's parent DOM element
-
-#### Parameters
-
-#### Returns
-
-`Element` 
-
-###  getRange
-
-Returns a reference to a range object
-
-#### Parameters
-
-#### Returns
-
-`Object` 
-
-###  getText
-
-Returns the selected content as plain text
-
-#### Parameters
-
-#### Returns
-
-`String` 
-
-###  isControl
-
-Specifies whether the current selection is a control or not.
-
-#### Parameters
-
-#### Returns
-
-`Boolean` 
-
-###  pasteHtml
+### pasteHtml
 
 Pastes string at current selection
 
@@ -119,7 +120,7 @@ Specifies whether to select pasted content after execution
 
 `None` 
 
-###  selectElement
+### selectElement
 
 Adds an element to current selection
 
@@ -133,7 +134,7 @@ DOM element to be added
 
 `None` 
 
-###  selectRange
+### selectRange
 
 Selects the previously stored range
 
@@ -144,5 +145,6 @@ Selects the previously stored range
 #### Returns
 
 `None` 
+
 
 

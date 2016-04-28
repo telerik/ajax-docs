@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.InputManagerEventArgs
 * Sys.EventArgs
 * *[Telerik.Web.UI.InputManagerEventArgs]({%slug Telerik.Web.UI.InputManagerEventArgs%})*
 
+
 ## Methods
 
 ###  get_domEvent
@@ -22,12 +23,13 @@ slug: Telerik.Web.UI.InputManagerEventArgs
 
 `Sys.UI.DomEvent` 
 
-###  get_targetInput
+### get_targetInput
 
 #### Parameters
 
 #### Returns
 
 `Element` 
+
 
 

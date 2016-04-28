@@ -11,11 +11,22 @@ slug: Telerik.Web.UI.EditorShortCut
 
 * *[Telerik.Web.UI.EditorShortCut]({%slug Telerik.Web.UI.EditorShortCut%})*
 
+
 ## Methods
 
 ### get_name
 
 Returns the name of the Shortcut.
+
+#### Parameters
+
+#### Returns
+
+`String`
+
+### get_shortCutString
+
+Returns the key combination of the Shortcut.
 
 #### Parameters
 
@@ -35,16 +46,6 @@ Sets new name for the Shortcut.
 
 `None`
 
-### get_shortCutString
-
-Returns the key combination of the Shortcut.
-
-#### Parameters
-
-#### Returns
-
-`String`
-
 ### setShortCut
 
 Configures a new key combination for the Shortcut.
@@ -56,3 +57,4 @@ Configures a new key combination for the Shortcut.
 #### Returns
 
 `None`
+

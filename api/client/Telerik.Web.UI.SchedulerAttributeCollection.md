@@ -11,6 +11,7 @@ slug: Telerik.Web.UI.SchedulerAttributeCollection
 
 * *[Telerik.Web.UI.SchedulerAttributeCollection]({%slug Telerik.Web.UI.SchedulerAttributeCollection%})*
 
+
 ## Methods
 
 ###  clear
@@ -23,7 +24,7 @@ Clears the collection of all attributes in it.
 
 `None` 
 
-###  clone
+### clone
 
 Creates a copy of the collection
 
@@ -33,7 +34,7 @@ Creates a copy of the collection
 
 `Telerik.Web.UI.SchedulerAttributeCollection`  A copy of the current collection 
 
-###  forEach
+### forEach
 
 Executes the specified function for each attribute in the collection. The attribute key is passed as first argument to the function and the value as a second.
 
@@ -47,7 +48,17 @@ Executes the specified function for each attribute in the collection. The attrib
 
 `None` 
 
-###  getAttribute
+### get_count
+
+Gets the number of attributes in the collection.
+
+#### Parameters
+
+#### Returns
+
+`Number`  The number of attributes in the collection 
+
+### getAttribute
 
 Gets the attribute value for the specified key.
 
@@ -61,17 +72,7 @@ Gets the attribute value for the specified key.
 
 `String`  The attribute value for the specified key
 
-###  get_count
-
-Gets the number of attributes in the collection.
-
-#### Parameters
-
-#### Returns
-
-`Number`  The number of attributes in the collection 
-
-###  removeAttribute
+### removeAttribute
 
 Removes the specified attribute from the collection.
 
@@ -85,7 +86,7 @@ Removes the specified attribute from the collection.
 
 `None` 
 
-###  setAttribute
+### setAttribute
 
 Sets the attribute value for the specified key.
 
@@ -102,5 +103,6 @@ Sets the attribute value for the specified key.
 #### Returns
 
 `None` 
+
 
 

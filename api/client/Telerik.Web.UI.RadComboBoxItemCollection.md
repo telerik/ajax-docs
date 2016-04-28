@@ -12,7 +12,22 @@ slug: Telerik.Web.UI.RadComboBoxItemCollection
 * [Telerik.Web.UI.ControlItemCollection]({%slug Telerik.Web.UI.ControlItemCollection%})
 * *[Telerik.Web.UI.RadComboBoxItemCollection]({%slug Telerik.Web.UI.RadComboBoxItemCollection%})*
 
+
 ## Methods
+
+### add
+
+Adds an item to the Items collection. 
+
+#### Parameters
+
+##### item `Telerik.Web.UI.RadComboBoxItem`
+
+The item that will ba added.
+
+#### Returns
+
+`None` 
 
 ### clear
 
@@ -48,6 +63,19 @@ Returns the number of Items in the collection.
 
 `Number` The number of the Items.
 
+### getItem
+
+Gets the Item from the Items collection residing at the index specified by the parameter.
+
+#### Parameters
+
+##### index `Number`
+
+The index of the Item that should be returned.
+
+#### Returns
+
+item `Telerik.Web.UI.RadComboBoxItem`
 ### insert
 
 Inserts an item into the Items collection at the position specified by the first (index) parameter.
@@ -80,30 +108,4 @@ Removes the RadComboBoxItem at the specified index.
 
 `None` 
 
-### add
 
-Adds an item to the Items collection. 
-
-#### Parameters
-
-##### item `Telerik.Web.UI.RadComboBoxItem`
-
-The item that will ba added.
-
-#### Returns
-
-`None` 
-
-### getItem
-
-Gets the Item from the Items collection residing at the index specified by the parameter.
-
-#### Parameters
-
-##### index `Number`
-
-The index of the Item that should be returned.
-
-#### Returns
-
-item `Telerik.Web.UI.RadComboBoxItem`

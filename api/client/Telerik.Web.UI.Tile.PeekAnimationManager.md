@@ -11,6 +11,7 @@ slug: Telerik.Web.UI.Tile.PeekAnimationManager
 
 * *[Telerik.Web.UI.Tile.PeekAnimationManager]({%slug Telerik.Web.UI.Tile.PeekAnimationManager%})*
 
+
 ## Methods
 
 ###  get_animationStrategy
@@ -21,7 +22,7 @@ slug: Telerik.Web.UI.Tile.PeekAnimationManager
 
 `None` 
 
-###  get_contentElement
+### get_contentElement
 
 #### Parameters
 
@@ -29,7 +30,7 @@ slug: Telerik.Web.UI.Tile.PeekAnimationManager
 
 `None` 
 
-###  get_peekElement
+### get_peekElement
 
 #### Parameters
 
@@ -37,7 +38,7 @@ slug: Telerik.Web.UI.Tile.PeekAnimationManager
 
 `None` 
 
-###  hide
+### hide
 
 #### Parameters
 
@@ -45,7 +46,7 @@ slug: Telerik.Web.UI.Tile.PeekAnimationManager
 
 `None` 
 
-###  set_animationStrategy
+### set_animationStrategy
 
 #### Parameters
 
@@ -53,7 +54,7 @@ slug: Telerik.Web.UI.Tile.PeekAnimationManager
 
 `None` 
 
-###  set_animationType
+### set_animationType
 
 #### Parameters
 
@@ -61,7 +62,7 @@ slug: Telerik.Web.UI.Tile.PeekAnimationManager
 
 `None` 
 
-###  set_contentElement
+### set_contentElement
 
 #### Parameters
 
@@ -69,7 +70,7 @@ slug: Telerik.Web.UI.Tile.PeekAnimationManager
 
 `None` 
 
-###  set_peekElement
+### set_peekElement
 
 #### Parameters
 
@@ -77,13 +78,14 @@ slug: Telerik.Web.UI.Tile.PeekAnimationManager
 
 `None` 
 
-###  show
+### show
 
 #### Parameters
 
 #### Returns
 
 `None` 
+
 
 
 ## Events
@@ -143,3 +145,4 @@ Reference to the PeekAnimationManager instance raised the event.
 ##### args `Sys.EventArgs`
 
 The event arguments.
+

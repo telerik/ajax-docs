@@ -11,6 +11,7 @@ slug: Telerik.Web.UI.Editor.MobileKeyboardAdapterFactory
 
 * *[Telerik.Web.UI.Editor.MobileKeyboardAdapterFactory]({%slug Telerik.Web.UI.Editor.MobileKeyboardAdapterFactory%})*
 
+
 ## Methods
 
 ### static createMobileKeyboardAdapter
@@ -27,4 +28,5 @@ If areaMode value is Telerik.Web.UI.EditorContentAreaMode.Div, the factory creat
 #### Returns
 
 `Telerik.Web.UI.Editor.MobileKeyboardAdapter`
+
 

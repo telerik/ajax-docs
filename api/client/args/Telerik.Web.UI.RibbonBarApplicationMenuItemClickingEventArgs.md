@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.RibbonBarApplicationMenuItemClickingEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.RibbonBarApplicationMenuItemClickingEventArgs]({%slug Telerik.Web.UI.RibbonBarApplicationMenuItemClickingEventArgs%})*
 
+
 ## Methods
 
 ### get_applicationMenu
@@ -24,6 +25,15 @@ Returns a reference to the ribbonbar application menu that was clicked.
 
 `Telerik.Web.UI.RibbonBarApplicationMenu` 
 
+### get_domEvent
+
+Returns a reference to the RibbonBar item that was clicked.
+
+#### Parameters
+
+#### Returns
+
+`Sys.UI.DomEvent` 
 ### get_item
 
 Returns a reference to the application menu item that was clicked.
@@ -34,12 +44,4 @@ Returns a reference to the application menu item that was clicked.
 
 `Telerik.Web.UI.RibbonBarApplicationMenuItem`
 
-### get_domEvent
 
-Returns a reference to the RibbonBar item that was clicked.
-
-#### Parameters
-
-#### Returns
-
-`Sys.UI.DomEvent` 

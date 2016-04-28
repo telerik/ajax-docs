@@ -11,27 +11,8 @@ slug: Telerik.Web.UI.RadPageView
 
 * *[Telerik.Web.UI.RadPageView]({%slug Telerik.Web.UI.RadPageView%})*
 
+
 ## Methods
-
-### unselect
-
-Unselects the pageview.
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-### get_element
-
-Gets the DOM element for the pageview.
-
-#### Parameters
-
-#### Returns
-
-`Element` 
 
 ### get_contentUrl
 
@@ -43,9 +24,9 @@ Gets the URL of the page that is opened in the pageView
 
 `String` The URL of the page that is opened in the pageView
 
-### get_id
+### get_defaultButton
 
-Gets the ID of the pageview.
+Gets the identifier for the default button that is contained in the RadPageView control.
 
 #### Parameters
 
@@ -53,29 +34,19 @@ Gets the ID of the pageview.
 
 `String` 
 
-### select
+### get_element
 
-Selects the pageview.
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-### hide
-
-Hides the pageview.
+Gets the DOM element for the pageview.
 
 #### Parameters
 
 #### Returns
 
-`None` 
+`Element` 
 
-### get_defaultButton
+### get_id
 
-Gets the identifier for the default button that is contained in the RadPageView control.
+Gets the ID of the pageview.
 
 #### Parameters
 
@@ -103,15 +74,45 @@ Gets the MultiPage containing the pageview.
 
 `Telerik.Web.UI.RadMultiPage` 
 
-### set_selected
+### get_selected
 
-Sets a value indicating if the pageview is selected.
+Returns true if the pageview is selected.
 
 #### Parameters
 
-##### value `Boolean`
+#### Returns
 
-A value indicating if the pageview is selected
+`Boolean` 
+
+### hide
+
+Hides the pageview.
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### select
+
+Selects the pageview.
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### set_contentUrl
+
+Sets the URL of the page to open in the pageView
+
+#### Parameters
+
+##### value `String`
+
+The URL of the page to open in the pageView
 
 #### Returns
 
@@ -131,6 +132,20 @@ Sets the identifier for the default button that is contained in the RadPageView 
 
 `None` 
 
+### set_selected
+
+Sets a value indicating if the pageview is selected.
+
+#### Parameters
+
+##### value `Boolean`
+
+A value indicating if the pageview is selected
+
+#### Returns
+
+`None` 
+
 ### show
 
 Shows the pageview.
@@ -141,27 +156,14 @@ Shows the pageview.
 
 `None` 
 
-### get_selected
+### unselect
 
-Returns true if the pageview is selected.
-
-#### Parameters
-
-#### Returns
-
-`Boolean` 
-
-### set_contentUrl
-
-Sets the URL of the page to open in the pageView
+Unselects the pageview.
 
 #### Parameters
-
-##### value `String`
-
-The URL of the page to open in the pageView
 
 #### Returns
 
 `None` 
+
 

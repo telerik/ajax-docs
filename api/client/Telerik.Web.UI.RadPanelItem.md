@@ -12,59 +12,12 @@ slug: Telerik.Web.UI.RadPanelItem
 * [Telerik.Web.UI.ControlItem]({%slug Telerik.Web.UI.ControlItem%})
 * *[Telerik.Web.UI.RadPanelItem]({%slug Telerik.Web.UI.RadPanelItem%})*
 
+
 ## Methods
 
-### get_visible
+### blur
 
-Returns true if the items is visible or false if the item is invisible.
-
-#### Parameters
-
-#### Returns
-
-`Boolean` 
-
-### set_isSeparator
-
-Finds a RadPanelItem by value and sets it to be a separator.
-
-#### Parameters
-
-##### value `Boolean`
-
-Finds a RadPanelItem by value and sets it to be a separator.
-
-#### Returns
-
-`None` 
-
-### get_textElement
-
-Gets the DOM element of the item text (SPAN).
-
-#### Parameters
-
-#### Returns
-
-`Element` 
-
-### set_expandedCssClass
-
-Sets the CSS class for the item when it is expanded.
-
-#### Parameters
-
-##### value `String`
-
-The CSS class for the item when it is expanded.
-
-#### Returns
-
-`None` 
-
-### get_focused
-
-Returns a boolean indicating whether the item has focus.
+Removes focus from the item.
 
 #### Parameters
 
@@ -72,15 +25,105 @@ Returns a boolean indicating whether the item has focus.
 
 `None` 
 
-### set_element
+### click
 
-Sets the root DOM element of the item(LI).
+Performs an item click. If a the ItemClick server event is wired, it will be fired.
 
 #### Parameters
 
-##### value `Element`
+#### Returns
 
-HTML Element
+`None` 
+
+### collapse
+
+Collapses the item if it is expanded.
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### disable
+
+Disables the item.
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### enable
+
+Enables the item if it is disabled.
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### expand
+
+Expands the item and reveals its children if any.
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### findControl
+
+Returns the client-side object of the Control with the specified ID nested in the Item's Template. The ID passed as an argument to the function MUST be the ID attribute of the nested Control.
+
+#### Parameters
+
+##### id `String`
+
+The id of the control to search for.
+
+#### Returns
+
+`Sys.UI.Control`
+
+### focus
+
+Moves focus to the item.
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### focusFirstChild
+
+Moves focus to the first child of the item.
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### focusLastChild
+
+Moves focus to the last child of the item.
+
+#### Parameters
+
+#### Returns
+
+`Object` 
+
+### focusNextItem
+
+Moves focus to the next item.
+
+#### Parameters
 
 #### Returns
 
@@ -96,19 +139,39 @@ Moves focus to the previous item.
 
 `None` 
 
-### get_hasContentTemplate
+### get_attributes
 
-Returns a value indicating if the item has content template.
+Returns the collection of custom attributes for the item.
 
 #### Parameters
 
 #### Returns
 
-`Boolean` True if the item has content template
+`Telerik.Web.UI.AttributeCollection` 
 
-### get_hoveredImageUrl
+### get_childListElement
 
-Gets the URL of the image displayed when the mouse if over the item.
+Gets the DOM element of the list of child items (UL).
+
+#### Parameters
+
+#### Returns
+
+`Element` 
+
+### get_clicked
+
+Returns whether the item is clicked.
+
+#### Parameters
+
+#### Returns
+
+`Boolean` 
+
+### get_clickedCssClass
+
+Gets the CSS class for the item when it is clicked.
 
 #### Parameters
 
@@ -116,15 +179,119 @@ Gets the URL of the image displayed when the mouse if over the item.
 
 `String` 
 
-### set_enabled
+### get_cssClass
 
-Sets the enabled state of the item.
+Gets the CssClass property of the item.
 
 #### Parameters
 
-##### value `Boolean`
+#### Returns
 
-The enabled state of the item.
+`String` 
+
+### get_disabledCssClass
+
+Gets the CSS class for the item when it is disabled.
+
+#### Parameters
+
+#### Returns
+
+`String` 
+
+### get_disabledImageUrl
+
+Returns the path to an image to display for the item when it is disabled.
+
+#### Parameters
+
+#### Returns
+
+`String` Gets the path to an image to display for the item when it is disabled.
+
+### get_element
+
+Gets the root DOM element of the item (LI).
+
+#### Parameters
+
+#### Returns
+
+`Element` HTML Element
+
+### get_enabled
+
+Returns true if both the item and the panelbar are enabled. If one of them is disabled will return false.
+
+#### Parameters
+
+#### Returns
+
+`Boolean` 
+
+### get_expandable
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### get_expanded
+
+Gets the expanded/collapsed state of a panel bar item
+
+#### Parameters
+
+#### Returns
+
+`Boolean` 
+
+### get_expandedCssClass
+
+Gets the CSS class for the item when it is expanded.
+
+#### Parameters
+
+#### Returns
+
+`String` 
+
+### get_expandedImageUrl
+
+Gets the URL of the image displayed when item is expanded.
+
+#### Parameters
+
+#### Returns
+
+`String` 
+
+### get_expandedItem
+
+Returns the child item that was most recently expanded. Null if no child item is expanded.
+
+#### Parameters
+
+#### Returns
+
+`Telerik.Web.UI.RadPanelItem` 
+
+### get_expandHandleElement
+
+Gets the expand handle DOM element of a RadPanelItem.
+
+#### Parameters
+
+#### Returns
+
+`Element` 
+
+### get_focused
+
+Returns a boolean indicating whether the item has focus.
+
+#### Parameters
 
 #### Returns
 
@@ -140,65 +307,39 @@ Gets the CSS class for the item when it has focus.
 
 `String` 
 
-### set_focused
+### get_focusedItem
 
-Sets a boolean indicating whether the item has focus.
-
-#### Parameters
-
-##### Boolean `Boolean`
-
-#### Returns
-
-`Object` 
-
-### get_cssClass
-
-Gets the CssClass property of the item.
+Gets the focused child item. Null if no child item is focused.
 
 #### Parameters
 
 #### Returns
 
-`String` 
+`Telerik.Web.UI.RadPanelItem` 
 
-### enable
+### get_hasContentTemplate
 
-Enables the item if it is disabled.
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-### blur
-
-Removes focus from the item.
+Returns a value indicating if the item has content template.
 
 #### Parameters
 
 #### Returns
 
-`None` 
+`Boolean` True if the item has content template
 
-### set_expandedImageUrl
+### get_headerElement
 
-Sets the URL of the image displayed when item is expanded.
+Gets the header DOM element for a RadPanelItem.
 
 #### Parameters
 
-##### value `String`
-
-URL of the image displayed when item is expanded.
-
 #### Returns
 
-`None` 
+`Element` 
 
-### get_navigateUrl
+### get_hoveredImageUrl
 
-Returns the URL of the Web page the panel item launches.
+Gets the URL of the image displayed when the mouse if over the item.
 
 #### Parameters
 
@@ -206,111 +347,15 @@ Returns the URL of the Web page the panel item launches.
 
 `String` 
 
-### get_target
+### get_imageElement
 
-Returns the value of "target" attribute of the anchor DOM element of the item (A).
-
-#### Parameters
-
-#### Returns
-
-`String` 
-
-### get_preventCollapse
-
-Returns a value indicating if the item should collapse.
+Gets the image DOM element of the item. If the server side ImageUrl property is not set, returns null.
 
 #### Parameters
 
 #### Returns
 
-`Boolean` True if the item is should collapse
-
-### get_postBack
-
-Returns the postback value of a RadPanelItem.
-
-#### Parameters
-
-#### Returns
-
-`Boolean` 
-
-### set_hoveredImageUrl
-
-Sets the URL of the image displayed when the mouse if over the item.
-
-#### Parameters
-
-##### value `String`
-
-URL of the image displayed when the mouse if over the item.
-
-#### Returns
-
-`None` 
-
-### set_lastExpandedItem
-
-Sets lastExpandedItem property.
-
-#### Parameters
-
-##### value `Boolean`
-
-Finds a RadPanelItem by value and sets it to be a expanded.
-
-#### Returns
-
-`None` 
-
-### get_templated
-
-Returns a value indicating if the item is templated.
-
-#### Parameters
-
-#### Returns
-
-`Boolean` True if the item is templated
-
-### set_focusedItem
-
-Sets the focused RadPanelItem
-
-#### Parameters
-
-##### value `String`
-
-Value of the item.
-
-#### Returns
-
-`None` 
-
-### get_isFirst
-
-Returns true if the item index is first, otherwise returns false.
-
-#### Parameters
-
-#### Returns
-
-`Boolean` Indicates whether the item is first.
-
-### set_selectedItem
-
-Sets selected item.
-
-#### Parameters
-
-##### value `Telerik.Web.UI.RadPanelItem`
-
-Expanded item.
-
-#### Returns
-
-`None` 
+`Element` 
 
 ### get_imageUrl
 
@@ -322,31 +367,17 @@ Gets the URL of the image.
 
 `String` 
 
-### click
+### get_index
 
-Performs an item click. If a the ItemClick server event is wired, it will be fired.
+Gets the zero-based index of the item inside its parent items collection.
 
 #### Parameters
 
 #### Returns
 
-`None` 
+`Number` 
 
-### set_expandedItem
-
-Sets the expanded item
-
-#### Parameters
-
-##### value `Telerik.Web.UI.RadPanelItem`
-
-Expanded item.
-
-#### Returns
-
-`None` 
-
-### get_enabled
+### get_isEnabled
 
 Returns true if both the item and the panelbar are enabled. If one of them is disabled will return false.
 
@@ -356,43 +387,79 @@ Returns true if both the item and the panelbar are enabled. If one of them is di
 
 `Boolean` 
 
-### set_cssClass
+### get_isFirst
 
-Sets the CssClass property for the item.
-
-#### Parameters
-
-##### value `String`
-
- The CssClass property for the item.
-
-#### Returns
-
-`None` 
-
-### get_expandedImageUrl
-
-Gets the URL of the image displayed when item is expanded.
+Returns true if the item index is first, otherwise returns false.
 
 #### Parameters
 
 #### Returns
 
-`String` 
+`Boolean` Indicates whether the item is first.
 
-### unSelect
+### get_isLast
 
-De-selects the item.
+Returns true if the item index is last, otherwise returns false.
 
 #### Parameters
 
 #### Returns
 
-`None` 
+`Boolean` Returns true if the RadPanelItem is last
 
-### get_value
+### get_isSeparator
 
-Returns the Value property of the item.
+Returns true the item is a separator (sever-side property IsSeparator = true)
+
+#### Parameters
+
+#### Returns
+
+`Boolean` 
+
+### get_items
+
+Returns the child items of the current item.
+
+#### Parameters
+
+#### Returns
+
+`Telerik.Web.UI.RadPanelItemCollection` 
+
+### get_level
+
+Gets the level of the item. Root level items are level 0.
+
+#### Parameters
+
+#### Returns
+
+`Number` Returns the level of the item as number.
+
+### get_linkElement
+
+Gets the anchor DOM element of the item (A).
+
+#### Parameters
+
+#### Returns
+
+`Element` 
+
+### get_navigateAfterClick
+
+Defines whether the item should navigate after click.
+
+#### Parameters
+
+#### Returns
+
+`Boolean` 
+
+### get_navigateUrl
+
+Returns the URL of the Web page the panel item launches.
 
 #### Parameters
 
@@ -410,15 +477,35 @@ Returns the next sibling or null if this is the last item at its level.
 
 `Telerik.Web.UI.RadPanelItem` 
 
-### get_clickedCssClass
+### get_panelBar
 
-Gets the CSS class for the item when it is clicked.
+Returns an instance of the panel bar that contains the item.
 
 #### Parameters
 
 #### Returns
 
-`String` 
+`Telerik.Web.UI.RadPanelBar` 
+
+### get_postBack
+
+Returns the postback value of a RadPanelItem.
+
+#### Parameters
+
+#### Returns
+
+`Boolean` 
+
+### get_preventCollapse
+
+Returns a value indicating if the item should collapse.
+
+#### Parameters
+
+#### Returns
+
+`Boolean` True if the item is should collapse
 
 ### get_previousSibling
 
@@ -430,9 +517,109 @@ Returns the previous sibling or null if this is the first item at its level.
 
 `Telerik.Web.UI.RadPanelItem` 
 
-### collapse
+### get_selected
 
-Collapses the item if it is expanded.
+Returns whether the item is selected.
+
+#### Parameters
+
+#### Returns
+
+`Boolean` 
+
+### get_selectedCssClass
+
+Gets the CSS class for the item when it is selected.
+
+#### Parameters
+
+#### Returns
+
+`String` 
+
+### get_selectedImageUrl
+
+Gets the URL of the image displayed when item is selected.
+
+#### Parameters
+
+#### Returns
+
+`String` 
+
+### get_selectedItem
+
+Gets the selected item.
+
+#### Parameters
+
+#### Returns
+
+`Telerik.Web.UI.RadPanelItem` 
+
+### get_target
+
+Returns the value of "target" attribute of the anchor DOM element of the item (A).
+
+#### Parameters
+
+#### Returns
+
+`String` 
+
+### get_templated
+
+Returns a value indicating if the item is templated.
+
+#### Parameters
+
+#### Returns
+
+`Boolean` True if the item is templated
+
+### get_text
+
+Returns the text of the item.
+
+#### Parameters
+
+#### Returns
+
+`String` 
+
+### get_textElement
+
+Gets the DOM element of the item text (SPAN).
+
+#### Parameters
+
+#### Returns
+
+`Element` 
+
+### get_value
+
+Returns the Value property of the item.
+
+#### Parameters
+
+#### Returns
+
+`String` 
+
+### get_visible
+
+Returns true if the items is visible or false if the item is invisible.
+
+#### Parameters
+
+#### Returns
+
+`Boolean` 
+
+### hide
+
+Makes the item invisible.
 
 #### Parameters
 
@@ -440,15 +627,39 @@ Collapses the item if it is expanded.
 
 `None` 
 
-### set_expanded
+### select
 
-Expands /Collapses the item.
+Selects the item.
 
 #### Parameters
 
-##### value `Boolean`
+#### Returns
 
-Expands 
+`None` 
+
+### set_clickedCssClass
+
+Sets the CSS class for the item when it is clicked.
+
+#### Parameters
+
+##### value `String`
+
+The CSS class for the item when it is clicked.
+
+#### Returns
+
+`None` 
+
+### set_cssClass
+
+Sets the CssClass property for the item.
+
+#### Parameters
+
+##### value `String`
+
+ The CssClass property for the item.
 
 #### Returns
 
@@ -468,46 +679,6 @@ The CSS class for the item when it is disabled.
 
 `None` 
 
-### get_element
-
-Gets the root DOM element of the item (LI).
-
-#### Parameters
-
-#### Returns
-
-`Element` HTML Element
-
-### expand
-
-Expands the item and reveals its children if any.
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-### focusNextItem
-
-Moves focus to the next item.
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-### get_index
-
-Gets the zero-based index of the item inside its parent items collection.
-
-#### Parameters
-
-#### Returns
-
-`Number` 
-
 ### set_disabledImageUrl
 
 Sets the path to an image to display for the item when it is disabled.
@@ -522,241 +693,119 @@ Value of the item.
 
 `None` 
 
-### get_disabledImageUrl
+### set_element
 
-Returns the path to an image to display for the item when it is disabled.
-
-#### Parameters
-
-#### Returns
-
-`String` Gets the path to an image to display for the item when it is disabled.
-
-### get_expandedItem
-
-Returns the child item that was most recently expanded. Null if no child item is expanded.
+Sets the root DOM element of the item(LI).
 
 #### Parameters
 
-#### Returns
+##### value `Element`
 
-`Telerik.Web.UI.RadPanelItem` 
-
-### get_imageElement
-
-Gets the image DOM element of the item. If the server side ImageUrl property is not set, returns null.
-
-#### Parameters
-
-#### Returns
-
-`Element` 
-
-### show
-
-Makes the item visible.
-
-#### Parameters
+HTML Element
 
 #### Returns
 
 `None` 
 
-### focusFirstChild
+### set_enabled
 
-Moves focus to the first child of the item.
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-### get_selectedItem
-
-Gets the selected item.
-
-#### Parameters
-
-#### Returns
-
-`Telerik.Web.UI.RadPanelItem` 
-
-### get_clicked
-
-Returns whether the item is clicked.
-
-#### Parameters
-
-#### Returns
-
-`Boolean` 
-
-### get_attributes
-
-Returns the collection of custom attributes for the item.
-
-#### Parameters
-
-#### Returns
-
-`Telerik.Web.UI.AttributeCollection` 
-
-### get_navigateAfterClick
-
-Defines whether the item should navigate after click.
-
-#### Parameters
-
-#### Returns
-
-`Boolean` 
-
-### set_preventCollapse
-
-Sets if the item should collapse.
+Sets the enabled state of the item.
 
 #### Parameters
 
 ##### value `Boolean`
 
-False if the panel item should collapse otherwise true.
+The enabled state of the item.
 
 #### Returns
 
 `None` 
 
-### set_navigateUrl
+### set_expanded
 
-Sets the URL of the Web page the panel item launches.
-
-#### Parameters
-
-##### value `String`
-
-URL of the Web page the panel item launches.
-
-#### Returns
-
-`None` 
-
-### set_visible
-
-Shows/Hides a RadPanelItem
+Expands /Collapses the item.
 
 #### Parameters
 
 ##### value `Boolean`
 
-Shows
+Expands 
 
 #### Returns
 
 `None` 
 
-### set_selectedImageUrl
+### set_expandedCssClass
 
-Sets the URL of the image displayed when item is selected.
+Sets the CSS class for the item when it is expanded.
 
 #### Parameters
 
 ##### value `String`
 
-URL of the image displayed when item is selected.
+The CSS class for the item when it is expanded.
 
 #### Returns
 
 `None` 
 
-### get_expandable
+### set_expandedImageUrl
+
+Sets the URL of the image displayed when item is expanded.
 
 #### Parameters
+
+##### value `String`
+
+URL of the image displayed when item is expanded.
 
 #### Returns
 
 `None` 
 
-### get_selected
+### set_expandedItem
 
-Returns whether the item is selected.
+Sets the expanded item
 
 #### Parameters
+
+##### value `Telerik.Web.UI.RadPanelItem`
+
+Expanded item.
 
 #### Returns
 
-`Boolean` 
+`None` 
 
-### get_linkElement
+### set_focused
 
-Gets the anchor DOM element of the item (A).
-
-#### Parameters
-
-#### Returns
-
-`Element` 
-
-### focusLastChild
-
-Moves focus to the last child of the item.
+Sets a boolean indicating whether the item has focus.
 
 #### Parameters
+
+##### Boolean `Boolean`
 
 #### Returns
 
 `Object` 
 
-### findControl
+### set_focusedCssClass
 
-Returns the client-side object of the Control with the specified ID nested in the Item's Template. The ID passed as an argument to the function MUST be the ID attribute of the nested Control.
-
-#### Parameters
-
-##### id `String`
-
-The id of the control to search for.
-
-#### Returns
-
-`Sys.UI.Control`
-
-### get_focusedItem
-
-Gets the focused child item. Null if no child item is focused.
-
-#### Parameters
-
-#### Returns
-
-`Telerik.Web.UI.RadPanelItem` 
-
-### set_clickedCssClass
-
-Sets the CSS class for the item when it is clicked.
+Sets the CSS class for the item when it has focus.
 
 #### Parameters
 
 ##### value `String`
 
-The CSS class for the item when it is clicked.
+The CSS class for the item when it has focus.
 
 #### Returns
 
 `None` 
 
-### get_isSeparator
+### set_focusedItem
 
-Returns true the item is a separator (sever-side property IsSeparator = true)
-
-#### Parameters
-
-#### Returns
-
-`Boolean` 
-
-### set_value
-
-Sets the Value property of the item.
+Sets the focused RadPanelItem
 
 #### Parameters
 
@@ -768,35 +817,15 @@ Value of the item.
 
 `None` 
 
-### get_headerElement
+### set_hoveredImageUrl
 
-Gets the header DOM element for a RadPanelItem.
-
-#### Parameters
-
-#### Returns
-
-`Element` 
-
-### get_childListElement
-
-Gets the DOM element of the list of child items (UL).
+Sets the URL of the image displayed when the mouse if over the item.
 
 #### Parameters
 
-#### Returns
+##### value `String`
 
-`Element` 
-
-### set_postBack
-
-Returns the postBack value of a RadPanelItem.
-
-#### Parameters
-
-##### value `Boolean`
-
-Sets the postback value of a RadPanelItem.
+URL of the image displayed when the mouse if over the item.
 
 #### Returns
 
@@ -816,45 +845,131 @@ URL of the image
 
 `None` 
 
-### get_isLast
+### set_isSeparator
 
-Returns true if the item index is last, otherwise returns false.
-
-#### Parameters
-
-#### Returns
-
-`Boolean` Returns true if the RadPanelItem is last
-
-### get_selectedCssClass
-
-Gets the CSS class for the item when it is selected.
+Finds a RadPanelItem by value and sets it to be a separator.
 
 #### Parameters
 
+##### value `Boolean`
+
+Finds a RadPanelItem by value and sets it to be a separator.
+
 #### Returns
 
-`String` 
+`None` 
 
-### get_text
+### set_lastExpandedItem
 
-Returns the text of the item.
+Sets lastExpandedItem property.
 
 #### Parameters
 
+##### value `Boolean`
+
+Finds a RadPanelItem by value and sets it to be a expanded.
+
 #### Returns
 
-`String` 
+`None` 
 
-### get_expandedCssClass
+### set_navigateUrl
 
-Gets the CSS class for the item when it is expanded.
+Sets the URL of the Web page the panel item launches.
 
 #### Parameters
 
+##### value `String`
+
+URL of the Web page the panel item launches.
+
 #### Returns
 
-`String` 
+`None` 
+
+### set_postBack
+
+Returns the postBack value of a RadPanelItem.
+
+#### Parameters
+
+##### value `Boolean`
+
+Sets the postback value of a RadPanelItem.
+
+#### Returns
+
+`None` 
+
+### set_preventCollapse
+
+Sets if the item should collapse.
+
+#### Parameters
+
+##### value `Boolean`
+
+False if the panel item should collapse otherwise true.
+
+#### Returns
+
+`None` 
+
+### set_selected
+
+Selects or de-selects the item.
+
+#### Parameters
+
+##### value `Boolean`
+
+Selects of de
+
+#### Returns
+
+`None` 
+
+### set_selectedCssClass
+
+Sets the CSS class for the item when it is selected.
+
+#### Parameters
+
+##### value `String`
+
+The CSS class for the item when it is selected.
+
+#### Returns
+
+`None` 
+
+### set_selectedImageUrl
+
+Sets the URL of the image displayed when item is selected.
+
+#### Parameters
+
+##### value `String`
+
+URL of the image displayed when item is selected.
+
+#### Returns
+
+`None` 
+
+### set_selectedItem
+
+Sets selected item.
+
+#### Parameters
+
+##### value `Telerik.Web.UI.RadPanelItem`
+
+Expanded item.
+
+#### Returns
+
+`None` 
 
 ### set_target
 
@@ -870,19 +985,51 @@ The
 
 `None` 
 
-### select
+### set_text
 
-Selects the item.
+Sets the text of the item.
 
 #### Parameters
+
+##### text `String`
+
+Text of the item.
 
 #### Returns
 
 `None` 
 
-### hide
+### set_value
 
-Makes the item invisible.
+Sets the Value property of the item.
+
+#### Parameters
+
+##### value `String`
+
+Value of the item.
+
+#### Returns
+
+`None` 
+
+### set_visible
+
+Shows/Hides a RadPanelItem
+
+#### Parameters
+
+##### value `Boolean`
+
+Shows
+
+#### Returns
+
+`None` 
+
+### show
+
+Makes the item visible.
 
 #### Parameters
 
@@ -900,53 +1047,9 @@ Returns the RadPanelItem as a JSON serialized string.
 
 `String` JSON serialized string.
 
-### get_disabledCssClass
+### unSelect
 
-Gets the CSS class for the item when it is disabled.
-
-#### Parameters
-
-#### Returns
-
-`String` 
-
-### set_text
-
-Sets the text of the item.
-
-#### Parameters
-
-##### text `String`
-
-Text of the item.
-
-#### Returns
-
-`None` 
-
-### get_panelBar
-
-Returns an instance of the panel bar that contains the item.
-
-#### Parameters
-
-#### Returns
-
-`Telerik.Web.UI.RadPanelBar` 
-
-### get_expandHandleElement
-
-Gets the expand handle DOM element of a RadPanelItem.
-
-#### Parameters
-
-#### Returns
-
-`Element` 
-
-### focus
-
-Moves focus to the item.
+De-selects the item.
 
 #### Parameters
 
@@ -954,105 +1057,4 @@ Moves focus to the item.
 
 `None` 
 
-### get_expanded
-
-Gets the expanded/collapsed state of a panel bar item
-
-#### Parameters
-
-#### Returns
-
-`Boolean` 
-
-### set_focusedCssClass
-
-Sets the CSS class for the item when it has focus.
-
-#### Parameters
-
-##### value `String`
-
-The CSS class for the item when it has focus.
-
-#### Returns
-
-`None` 
-
-### disable
-
-Disables the item.
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-### get_items
-
-Returns the child items of the current item.
-
-#### Parameters
-
-#### Returns
-
-`Telerik.Web.UI.RadPanelItemCollection` 
-
-### get_isEnabled
-
-Returns true if both the item and the panelbar are enabled. If one of them is disabled will return false.
-
-#### Parameters
-
-#### Returns
-
-`Boolean` 
-
-### set_selectedCssClass
-
-Sets the CSS class for the item when it is selected.
-
-#### Parameters
-
-##### value `String`
-
-The CSS class for the item when it is selected.
-
-#### Returns
-
-`None` 
-
-### get_level
-
-Gets the level of the item. Root level items are level 0.
-
-#### Parameters
-
-#### Returns
-
-`Number` Returns the level of the item as number.
-
-### set_selected
-
-Selects or de-selects the item.
-
-#### Parameters
-
-##### value `Boolean`
-
-Selects of de
-
-#### Returns
-
-`None` 
-
-### get_selectedImageUrl
-
-Gets the URL of the image displayed when item is selected.
-
-#### Parameters
-
-#### Returns
-
-`String` 
 

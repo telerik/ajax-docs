@@ -12,95 +12,12 @@ slug: Telerik.Web.UI.RadAsyncUpload
 * [Telerik.Web.UI.RadWebControl]({%slug Telerik.Web.UI.RadWebControl%})
 * *[Telerik.Web.UI.RadAsyncUpload]({%slug Telerik.Web.UI.RadAsyncUpload%})*
 
+
 ## Methods
 
-### get_multipleFileSelectionEnabled
+### addFileInput
 
-#### Parameters
-
-#### Returns
-
-`None` 
-
-### get_dropZones
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-### get_initialFileInputsCount
-
-RadAsyncUpload
-
-#### Parameters
-
-#### Returns
-
-`Object` 
-
-### get_element
-
-RadAsyncUpload
-
-#### Parameters
-
-#### Returns
-
-`Element` 
-
-### get_loadedModuleName
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-### set_maxFileCount
-
-RadAsyncUpload
-
-#### Parameters
-
-##### integer `Object`
-
-#### Returns
-
-`Object` 
-
-### pauseUpload
-
-When FileAPI module is used the method pauses the upload. Keep in mind that it stops right after the uploading chunk is uploaded.
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-### get_fileFilter
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-### saveClientState
-
-Saves the client state to the client state hidden field.
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-### resumeUpload
-
-When FileAPI module is used the method resumes the upload when its paused.
+Adds a new row to the RadAsyncUpload control.
 
 #### Parameters
 
@@ -111,82 +28,6 @@ When FileAPI module is used the method resumes the upload when its paused.
 ### deleteAllFileInputs
 
 Deletes all file inputs.
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-### set_enabled
-
-Sets a boolean value indicating whether the RadAsyncUpload is enabled.
-
-#### Parameters
-
-##### enable `Boolean`
-
-enable
-
-#### Returns
-
-`None` 
-
-### getID
-
-RadAsyncUpload
-
-#### Parameters
-
-##### string `Object`
-
-#### Returns
-
-`Object` 
-
-### get_handlerUrl
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-### set_dropZones
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-### isExtensionValid
-
-Gets a value indicating whether the file extension is valid.
-
-#### Parameters
-
-#### Returns
-
-`Boolean` True if the file extension is valid
-
-### getUploadedFiles
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-### set_allowedFileExtensions
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-### get_allowedFileExtensions
 
 #### Parameters
 
@@ -212,7 +53,7 @@ Specifies whether the onRowDeleting event should be skipped or not
 
 `None` 
 
-### getInvalidFiles
+### get_allowedFileExtensions
 
 #### Parameters
 
@@ -220,9 +61,7 @@ Specifies whether the onRowDeleting event should be skipped or not
 
 `None` 
 
-### addFileInput
-
-Adds a new row to the RadAsyncUpload control.
+### get_dropZones
 
 #### Parameters
 
@@ -230,15 +69,15 @@ Adds a new row to the RadAsyncUpload control.
 
 `None` 
 
-### startUpload
+### get_element
 
-Starts the upload when ManualUplaod is set and files are selected.
+RadAsyncUpload
 
 #### Parameters
 
 #### Returns
 
-`None` 
+`Element` 
 
 ### get_enabled
 
@@ -250,6 +89,40 @@ Gets a value indicating whether the RadAsyncUpload is enabled.
 
 `Boolean` True if the RadAsyncUpload is enabled
 
+### get_fileFilter
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### get_handlerUrl
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### get_initialFileInputsCount
+
+RadAsyncUpload
+
+#### Parameters
+
+#### Returns
+
+`Object` 
+
+### get_loadedModuleName
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
 ### get_maxFileCount
 
 RadAsyncUpload
@@ -259,6 +132,135 @@ RadAsyncUpload
 #### Returns
 
 `Object` 
+
+### get_multipleFileSelectionEnabled
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### getID
+
+RadAsyncUpload
+
+#### Parameters
+
+##### string `Object`
+
+#### Returns
+
+`Object` 
+
+### getInvalidFiles
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### getUploadedFiles
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### isExtensionValid
+
+Gets a value indicating whether the file extension is valid.
+
+#### Parameters
+
+#### Returns
+
+`Boolean` True if the file extension is valid
+
+### pauseUpload
+
+When FileAPI module is used the method pauses the upload. Keep in mind that it stops right after the uploading chunk is uploaded.
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### resumeUpload
+
+When FileAPI module is used the method resumes the upload when its paused.
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### saveClientState
+
+Saves the client state to the client state hidden field.
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### set_allowedFileExtensions
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### set_dropZones
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### set_enabled
+
+Sets a boolean value indicating whether the RadAsyncUpload is enabled.
+
+#### Parameters
+
+##### enable `Boolean`
+
+enable
+
+#### Returns
+
+`None` 
+
+### set_maxFileCount
+
+RadAsyncUpload
+
+#### Parameters
+
+##### integer `Object`
+
+#### Returns
+
+`Object` 
+
+### startUpload
+
+Starts the upload when ManualUplaod is set and files are selected.
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
 
 ## Events
 
@@ -314,18 +316,6 @@ The instance of the RadAsyncUpload raised the event.
 
 The event arguments.  
 
-### fileUploading
-
-The fileUploading client-side event occurs when a file has started uploading. 
-
-##### sender `Telerik.Web.UI.RadAsyncUpload`
-
-The instance of the RadAsyncUpload raised the event.
-
-##### args `Telerik.Web.UI.RadAsyncUploadFileUploadingEventArgs`
-
-The event arguments.  
-
 ### fileUploaded
 
 The fileUploaded client-side event occurs after a file has been uploaded.
@@ -338,15 +328,27 @@ The instance of the RadAsyncUpload raised the event.
 
 The event arguments.  
 
-### fileUploadRemoving
+### fileUploadFailed
 
-The fileUploadRemoving occurs before a selected file is about to be removed from the uploaded files collection. The event can be cancelled.
+The fileUploadFailed client-side event occurs when error uploading the selected files(s) has occured. Common reason for this event firing is Telerik.Web.UI.WebResource.axd handler not being registered in the web.config. Another reason might be server-side error in custom upload handler is being used. 
 
 ##### sender `Telerik.Web.UI.RadAsyncUpload`
 
 The instance of the RadAsyncUpload raised the event.
 
-##### args `Telerik.Web.UI.RadAsyncUploadFileUploadRemovingEventArgs`
+##### args `Telerik.Web.UI.RadAsyncUploadUploadFailedEventArgs`
+
+The event arguments.
+
+### fileUploading
+
+The fileUploading client-side event occurs when a file has started uploading. 
+
+##### sender `Telerik.Web.UI.RadAsyncUpload`
+
+The instance of the RadAsyncUpload raised the event.
+
+##### args `Telerik.Web.UI.RadAsyncUploadFileUploadingEventArgs`
 
 The event arguments.  
 
@@ -361,6 +363,18 @@ The instance of the RadAsyncUpload raised the event.
 ##### args `Telerik.Web.UI.RadAsyncUploadFileUploadRemovedEventArgs`
 
 The event arguments.
+### fileUploadRemoving
+
+The fileUploadRemoving occurs before a selected file is about to be removed from the uploaded files collection. The event can be cancelled.
+
+##### sender `Telerik.Web.UI.RadAsyncUpload`
+
+The instance of the RadAsyncUpload raised the event.
+
+##### args `Telerik.Web.UI.RadAsyncUploadFileUploadRemovingEventArgs`
+
+The event arguments.  
+
 ### progressUpdating
 
 The progressUpdating occurs each time the inline progress indicator is being updated.
@@ -370,18 +384,6 @@ The progressUpdating occurs each time the inline progress indicator is being upd
 The instance of the RadAsyncUpload raised the event.
 
 ##### args `Telerik.Web.UI.RadAsyncUploadProgressUpdatingEventArgs`
-
-The event arguments.
-
-### fileUploadFailed
-
-The fileUploadFailed client-side event occurs when error uploading the selected files(s) has occured. Common reason for this event firing is Telerik.Web.UI.WebResource.axd handler not being registered in the web.config. Another reason might be server-side error in custom upload handler is being used. 
-
-##### sender `Telerik.Web.UI.RadAsyncUpload`
-
-The instance of the RadAsyncUpload raised the event.
-
-##### args `Telerik.Web.UI.RadAsyncUploadUploadFailedEventArgs`
 
 The event arguments.
 
@@ -396,3 +398,4 @@ The instance of the RadAsyncUpload raised the event.
 ##### args `Telerik.Web.UI.RadAsyncUploadValidationFailedEventArgs`
 
 The event arguments.
+

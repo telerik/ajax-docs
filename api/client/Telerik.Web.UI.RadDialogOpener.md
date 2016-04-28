@@ -12,7 +12,53 @@ slug: Telerik.Web.UI.RadDialogOpener
 * [Telerik.Web.UI.RadWebControl]({%slug Telerik.Web.UI.RadWebControl%})
 * *[Telerik.Web.UI.RadDialogOpener]({%slug Telerik.Web.UI.RadDialogOpener%})*
 
+
 ## Methods
+
+### open 
+
+Opens a dialog created via DialogDefinitions on the server.
+
+#### Parameters
+
+##### dialogName `String`
+
+The name of the dialog to be opened. 
+
+##### clientParameters `Object`
+
+Parameters to be passed to the dialog.
+
+##### callbackFunction `Function`
+
+The callback function.
+
+#### Returns
+
+`None`
+
+
+### openLight 
+
+Opens a light dialog created via DialogDefinitions on the server.
+
+#### Parameters
+
+##### dialogName `String`
+
+The name of the dialog to be opened. 
+
+##### clientParameters `Object`
+
+Parameters to be passed to the dialog.
+
+##### callbackFunction `Function`
+
+The callback function.
+
+#### Returns
+
+`None`
 
 ### openUrl
 
@@ -66,50 +112,6 @@ Specifies the name of the dialog instance.
 
 `None`
 
-### open 
-
-Opens a dialog created via DialogDefinitions on the server.
-
-#### Parameters
-
-##### dialogName `String`
-
-The name of the dialog to be opened. 
-
-##### clientParameters `Object`
-
-Parameters to be passed to the dialog.
-
-##### callbackFunction `Function`
-
-The callback function.
-
-#### Returns
-
-`None`
-
-
-### openLight 
-
-Opens a light dialog created via DialogDefinitions on the server.
-
-#### Parameters
-
-##### dialogName `String`
-
-The name of the dialog to be opened. 
-
-##### clientParameters `Object`
-
-Parameters to be passed to the dialog.
-
-##### callbackFunction `Function`
-
-The callback function.
-
-#### Returns
-
-`None`
 
 ## Events
 
@@ -140,3 +142,4 @@ The RadDialogOpener instance raised the event.
 ##### dialog `Telerik.Web.UI.RadWindow`
 
 The RadWindow instance of the dialog.
+

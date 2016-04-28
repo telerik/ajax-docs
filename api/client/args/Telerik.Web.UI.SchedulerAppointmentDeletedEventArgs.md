@@ -12,3 +12,4 @@ slug: Telerik.Web.UI.SchedulerAppointmentDeletedEventArgs
 * [Telerik.Web.UI.AppointmentEventArgs]({%slug Telerik.Web.UI.AppointmentEventArgs%})
 * *[Telerik.Web.UI.SchedulerAppointmentDeletedEventArgs]({%slug Telerik.Web.UI.SchedulerAppointmentDeletedEventArgs%})*
 
+

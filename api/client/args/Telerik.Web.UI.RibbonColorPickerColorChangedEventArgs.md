@@ -11,6 +11,7 @@ slug: Telerik.Web.UI.RibbonColorPickerColorChangedEventArgs
 
 * *[Telerik.Web.UI.RibbonColorPickerColorChangedEventArgs]({%slug Telerik.Web.UI.RibbonColorPickerColorChangedEventArgs%})*
 
+
 ## Methods
 
 ### get_colorPicker
@@ -34,3 +35,4 @@ Returns selected HEX Color code .
 `String`
 
  
+

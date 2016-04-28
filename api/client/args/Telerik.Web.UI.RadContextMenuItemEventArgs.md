@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.RadContextMenuItemEventArgs
 * [Telerik.Web.UI.RadMenuItemEventArgs]({%slug Telerik.Web.UI.RadMenuItemEventArgs%})
 * *[Telerik.Web.UI.RadContextMenuItemEventArgs]({%slug Telerik.Web.UI.RadContextMenuItemEventArgs%})*
 
+
 ## Methods
 
 ###  get_targetElement
@@ -23,3 +24,4 @@ Returns a reference to the target element attached to the context menu that is r
 #### Returns
 
 `Element` 
+

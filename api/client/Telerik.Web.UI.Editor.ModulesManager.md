@@ -11,7 +11,27 @@ slug: Telerik.Web.UI.Editor.ModulesManager
 
 * *[Telerik.Web.UI.Editor.ModulesManager]({%slug Telerik.Web.UI.Editor.ModulesManager%})*
 
+
 ## Methods
+
+### get_modules
+
+Returns the modules collection.
+
+#### Parameters
+
+#### Returns
+
+`Array`
+### getModuleByName
+
+Initializes the modules manager.
+
+#### Parameters
+
+#### Returns
+
+`Telerik.Web.UI.Editor.Modules.ModuleBase`
 
 ### initialize
 
@@ -22,16 +42,6 @@ Initializes the modules manager.
 #### Returns
 
 `None`
-
-### getModuleByName
-
-Initializes the modules manager.
-
-#### Parameters
-
-#### Returns
-
-`Telerik.Web.UI.Editor.Modules.ModuleBase`
 
 ### setModulesVisible
 
@@ -47,12 +57,4 @@ Indicates whether to show or hide the modules.
 
 `None`
 
-### get_modules
 
-Returns the modules collection.
-
-#### Parameters
-
-#### Returns
-
-`Array`

@@ -11,6 +11,7 @@ slug: Telerik.Web.UI.RibbonBarMenu
 
 * *[Telerik.Web.UI.RibbonBarMenu]({%slug Telerik.Web.UI.RibbonBarMenu%})*
 
+
 ## Methods
 
 ###  findItemByCommandArgument
@@ -21,7 +22,7 @@ slug: Telerik.Web.UI.RibbonBarMenu
 
 `None` 
 
-###  findItemByCommandName
+### findItemByCommandName
 
 #### Parameters
 
@@ -29,7 +30,7 @@ slug: Telerik.Web.UI.RibbonBarMenu
 
 `None` 
 
-###  findMenuItemByValue
+### findMenuItemByValue
 
 #### Parameters
 
@@ -37,7 +38,7 @@ slug: Telerik.Web.UI.RibbonBarMenu
 
 `None` 
 
-###  get_eventName
+### get_eventName
 
 #### Parameters
 
@@ -45,7 +46,7 @@ slug: Telerik.Web.UI.RibbonBarMenu
 
 `None` 
 
-###  get_items
+### get_items
 
 #### Parameters
 
@@ -53,12 +54,13 @@ slug: Telerik.Web.UI.RibbonBarMenu
 
 `None` 
 
-###  set_owner
+### set_owner
 
 #### Parameters
 
 #### Returns
 
 `None` 
+
 
 

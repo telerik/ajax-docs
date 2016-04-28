@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.RadAsyncUploadClientAddedEventArgs
 * [Telerik.Web.UI.RadAsyncUploadEventArgs]({%slug Telerik.Web.UI.RadAsyncUploadEventArgs%})
 * *[Telerik.Web.UI.RadAsyncUploadClientAddedEventArgs]({%slug Telerik.Web.UI.RadAsyncUploadClientAddedEventArgs%})*
 
+
 ## Methods
 
 ### get_index
@@ -23,3 +24,4 @@ Returns the index of the added row.
 #### Returns
 
 `Number`
+

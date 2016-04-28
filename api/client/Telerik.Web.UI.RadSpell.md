@@ -11,6 +11,7 @@ slug: Telerik.Web.UI.RadSpell
 
 * *[Telerik.Web.UI.RadSpell]({%slug Telerik.Web.UI.RadSpell%})*
 
+
 ## Methods
 
 ###  set_useClassicDialogs
@@ -27,7 +28,7 @@ When true is passed, a browser dialog will be used. If false is passed, a RadWin
 
 `None` 
 
-###  get_controlToCheck
+### get_controlToCheck
 
 Gets the ID of the control to spell check.
 
@@ -37,17 +38,7 @@ Gets the ID of the control to spell check.
 
 `None` 
 
-###  set_controlToCheck
-
-Sets the ID of the control to spell check.
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-###  get_dialogOpener
+### get_dialogOpener
 
 Returns the instance of the client-side DialogOpener object that handles that dialog opening/parameter passing processes.
 
@@ -57,17 +48,7 @@ Returns the instance of the client-side DialogOpener object that handles that di
 
 `None` 
 
-###  set_dialogOpener
-
-Sets the instance of the client-side DialogOpener object.
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-###  get_dictionaryLanguage
+### get_dictionaryLanguage
 
 Gets the dictionary language culture code.
 
@@ -77,17 +58,7 @@ Gets the dictionary language culture code.
 
 `None` 
 
-###  set_dictionaryLanguage
-
-Sets the dictionary language culture code.
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-###  get_selectedLanguage
+### get_selectedLanguage
 
 Gets the language currently selected in the drop down displayed when the SupportedLanguages language property is set.
 
@@ -97,7 +68,7 @@ Gets the language currently selected in the drop down displayed when the Support
 
 `None` 
 
-###  get_spellChecked
+### get_spellChecked
 
 OnClientCheckFinished
 
@@ -107,17 +78,7 @@ OnClientCheckFinished
 
 `None` 
 
-###  set_spellChecked
-
-Sets whether the spellcheck process is completed (true) or not (false). Note: Should not be used directly. It is used by the spellcheck validator.
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-###  get_textSource
+### get_textSource
 
 Returns the reference to the instance of the TextSource object that RadSpell is attached to.
 
@@ -127,7 +88,47 @@ Returns the reference to the instance of the TextSource object that RadSpell is 
 
 `None` 
 
-###  set_textSource
+### set_controlToCheck
+
+Sets the ID of the control to spell check.
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### set_dialogOpener
+
+Sets the instance of the client-side DialogOpener object.
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### set_dictionaryLanguage
+
+Sets the dictionary language culture code.
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### set_spellChecked
+
+Sets whether the spellcheck process is completed (true) or not (false). Note: Should not be used directly. It is used by the spellcheck validator.
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### set_textSource
 
 Attaches a custom TextSource object to the RadSpell object.
 
@@ -137,7 +138,7 @@ Attaches a custom TextSource object to the RadSpell object.
 
 `None` 
 
-###  spellCheck
+### spellCheck
 
 Launch the spellcheck process for the provided TextSource.
 
@@ -147,7 +148,7 @@ Launch the spellcheck process for the provided TextSource.
 
 `None` 
 
-###  startSpellCheck
+### startSpellCheck
 
 Launch the spellcheck process
 
@@ -157,11 +158,12 @@ Launch the spellcheck process
 
 `None` 
 
+
 ## Events
 
-### clientCheckStarted 
+### clientCheckCancelled 
 
-The clientCheckStarted client-side event occurs when the spell check begins and before the spell check dialog appears. 
+The clientCheckCancelled client-side event occurs if the user cancels the spell check. 
 
 #### Event Data
 
@@ -169,9 +171,9 @@ The clientCheckStarted client-side event occurs when the spell check begins and 
 
 The instance of the RadSpell raised the event.
 
-#####  args `Sys.CancelEventArgs`
+#####  args `Sys.EventArgs`
 
-The event arguments.
+Empty event argument.
 
 ### clientCheckFinished 
 
@@ -187,9 +189,9 @@ The instance of the RadSpell raised the event.
 
 The event arguments.
 
-### clientCheckCancelled 
+### clientCheckStarted 
 
-The clientCheckCancelled client-side event occurs if the user cancels the spell check. 
+The clientCheckStarted client-side event occurs when the spell check begins and before the spell check dialog appears. 
 
 #### Event Data
 
@@ -197,9 +199,9 @@ The clientCheckCancelled client-side event occurs if the user cancels the spell 
 
 The instance of the RadSpell raised the event.
 
-#####  args `Sys.EventArgs`
+#####  args `Sys.CancelEventArgs`
 
-Empty event argument.
+The event arguments.
 
 ### clientDialogClosing 
 
@@ -228,3 +230,4 @@ The instance of the RadSpell raised the event.
 #####  args `Sys.EventArgs`
 
 Empty event argument.
+

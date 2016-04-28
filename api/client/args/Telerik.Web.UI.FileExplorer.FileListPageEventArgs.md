@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.FileExplorer.FileListPageEventArgs
 * Sys.EventArgs
 * *[Telerik.Web.UI.FileExplorer.FileListPageEventArgs]({%slug Telerik.Web.UI.FileExplorer.FileListPageEventArgs%})*
 
+
 ## Methods
 
 ###  get_pageSize
@@ -24,7 +25,7 @@ Getter for size of the page
 
 `Number` The size of the page
 
-###  get_startIndex
+### get_startIndex
 
 Getter for index, from which the page starts
 
@@ -33,5 +34,6 @@ Getter for index, from which the page starts
 #### Returns
 
 `Number` The index
+
 
 

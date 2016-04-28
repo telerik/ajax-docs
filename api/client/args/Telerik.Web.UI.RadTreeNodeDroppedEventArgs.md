@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.RadTreeNodeDroppedEventArgs
 * Sys.EventArgs
 * *[Telerik.Web.UI.RadTreeNodeDroppedEventArgs]({%slug Telerik.Web.UI.RadTreeNodeDroppedEventArgs%})*
 
+
 ## Methods
 
 ### get_sourceNode
@@ -33,3 +34,4 @@ Retrieves an array of nodes being dropped. It is useful when the RadTreeView Mul
 #### Returns
 
 `Telerik.Web.UI.RadTreeNodeCollection` 
+

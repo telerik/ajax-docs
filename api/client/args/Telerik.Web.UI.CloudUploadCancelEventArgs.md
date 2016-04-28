@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.CloudUploadCancelEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.CloudUploadCancelEventArgs]({%slug Telerik.Web.UI.CloudUploadCancelEventArgs%})*
 
+
 ## Methods
 
 ### get_row
@@ -27,4 +28,5 @@ Returns the created row from the FileListPanel section (<LI> element).
 
 
  
+
 

@@ -12,6 +12,8 @@ slug: Telerik.Web.UI.GridGroupPanelItem
 * Sys.UI.Control
 * *[Telerik.Web.UI.GridGroupPanelItem]({%slug Telerik.Web.UI.GridGroupPanelItem%})*
 
-## Methods
+
+Methods
+
 
 

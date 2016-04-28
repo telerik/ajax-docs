@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.DateInputValueChangedEventArgs
 
 * *[Telerik.Web.UI.DateInputValueChangedEventArgs]({%slug Telerik.Web.UI.DateInputValueChangedEventArgs%})*
 
+
 ## Methods
 
 ### get_newDate
@@ -53,5 +54,6 @@ Returns the old value of the control as a string
 #### Returns
 
 `String` 
+
 
 

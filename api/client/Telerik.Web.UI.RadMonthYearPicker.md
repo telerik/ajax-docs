@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.RadMonthYearPicker
 * [Telerik.Web.UI.RadWebControl]({%slug Telerik.Web.UI.RadWebControl%})
 * *[Telerik.Web.UI.RadMonthYearPicker]({%slug Telerik.Web.UI.RadMonthYearPicker%})*
 
+
 ## Methods
 
 ###  clear
@@ -24,7 +25,187 @@ Clears the selection, leaving the value as unassigned.
 
 `None` 
 
-###  getElementDimensions
+### get_culture
+
+Returns the culture used by RadDateInput to format the date.
+
+#### Parameters
+
+#### Returns
+
+`String` 
+
+### get_dateInput
+
+Returns a reference to the client object for the input area. For details on using this object, see the RadInput documentation.
+
+#### Parameters
+
+#### Returns
+
+`Telerik.Web.UI.RadDateInput` 
+
+### get_enabled
+
+Returns true if the control is enabled
+
+#### Parameters
+
+#### Returns
+
+`Boolean` 
+
+### get_enableScreenBoundaryDetection
+
+Returns whether the screen boundary detection will be applied.
+
+#### Parameters
+
+#### Returns
+
+`Boolean` 
+
+### get_focusedDate
+
+Returns the date that determines the view the popup calendar uses when the value of the date picker is not assigned.
+
+#### Parameters
+
+#### Returns
+
+`Date` 
+
+### get_maxDate
+
+Returns the latest date the user can select.
+
+#### Parameters
+
+#### Returns
+
+`Date` 
+
+### get_maxDateStr
+
+Returns the latest date the user can select as string.
+
+#### Parameters
+
+#### Returns
+
+`String` 
+
+### get_minDate
+
+Returns the earliest date the user can select.
+
+#### Parameters
+
+#### Returns
+
+`Date` 
+
+### get_minDateStr
+
+Returns the earliest date the user can select as string.
+
+#### Parameters
+
+#### Returns
+
+`String` 
+
+### get_monthYearNavigationSettings
+
+Returns an array with the fast navigation settings. The settings are, in order, TodayButtonCaption, OkButtonCaption, CancelButtonCaption, DateIsOutOfRangeMessage, EnableTodayButtonSelection.
+
+#### Parameters
+
+#### Returns
+
+`Array` 
+
+### get_popupButton
+
+Returns the DOM element for the calendar popup button.
+
+#### Parameters
+
+#### Returns
+
+`Object` 
+
+### get_popupDirection
+
+Set the popup direction
+
+#### Parameters
+
+#### Returns
+
+`String` 
+
+### get_selectedDate
+
+Returns the selected date, or null if no date is selected.
+
+#### Parameters
+
+#### Returns
+
+`Date` 
+
+### get_showPopupOnFocus
+
+Returns whether the popup control (Calendar or TimeView) will be displayed when the DateInput textbox is focused.
+
+#### Parameters
+
+#### Returns
+
+`Boolean` 
+
+### get_skin
+
+Returns the real skin name for the control user interface. If Skin is not set, returns "Default".
+
+#### Parameters
+
+#### Returns
+
+`String` 
+
+### get_stylesHash
+
+Returns object containing all styles applied to the control.
+
+#### Parameters
+
+#### Returns
+
+`Object` 
+
+### get_textBox
+
+Returns the DOM element for the text box that implements the input area.
+
+#### Parameters
+
+#### Returns
+
+`Object` 
+
+### get_visible
+
+Returns whether the control is visible
+
+#### Parameters
+
+#### Returns
+
+`Boolean` 
+
+### getElementDimensions
 
 Returns the dimensions of the specified child element.
 
@@ -36,187 +217,7 @@ Returns the dimensions of the specified child element.
 
 `Array` 
 
-###  get_culture
-
-Returns the culture used by RadDateInput to format the date.
-
-#### Parameters
-
-#### Returns
-
-`String` 
-
-###  get_dateInput
-
-Returns a reference to the client object for the input area. For details on using this object, see the RadInput documentation.
-
-#### Parameters
-
-#### Returns
-
-`Telerik.Web.UI.RadDateInput` 
-
-###  get_enableScreenBoundaryDetection
-
-Returns whether the screen boundary detection will be applied.
-
-#### Parameters
-
-#### Returns
-
-`Boolean` 
-
-###  get_enabled
-
-Returns true if the control is enabled
-
-#### Parameters
-
-#### Returns
-
-`Boolean` 
-
-###  get_focusedDate
-
-Returns the date that determines the view the popup calendar uses when the value of the date picker is not assigned.
-
-#### Parameters
-
-#### Returns
-
-`Date` 
-
-###  get_maxDate
-
-Returns the latest date the user can select.
-
-#### Parameters
-
-#### Returns
-
-`Date` 
-
-###  get_maxDateStr
-
-Returns the latest date the user can select as string.
-
-#### Parameters
-
-#### Returns
-
-`String` 
-
-###  get_minDate
-
-Returns the earliest date the user can select.
-
-#### Parameters
-
-#### Returns
-
-`Date` 
-
-###  get_minDateStr
-
-Returns the earliest date the user can select as string.
-
-#### Parameters
-
-#### Returns
-
-`String` 
-
-###  get_monthYearNavigationSettings
-
-Returns an array with the fast navigation settings. The settings are, in order, TodayButtonCaption, OkButtonCaption, CancelButtonCaption, DateIsOutOfRangeMessage, EnableTodayButtonSelection.
-
-#### Parameters
-
-#### Returns
-
-`Array` 
-
-###  get_popupButton
-
-Returns the DOM element for the calendar popup button.
-
-#### Parameters
-
-#### Returns
-
-`Object` 
-
-###  get_popupDirection
-
-Set the popup direction
-
-#### Parameters
-
-#### Returns
-
-`String` 
-
-###  get_selectedDate
-
-Returns the selected date, or null if no date is selected.
-
-#### Parameters
-
-#### Returns
-
-`Date` 
-
-###  get_showPopupOnFocus
-
-Returns whether the popup control (Calendar or TimeView) will be displayed when the DateInput textbox is focused.
-
-#### Parameters
-
-#### Returns
-
-`Boolean` 
-
-###  get_skin
-
-Returns the real skin name for the control user interface. If Skin is not set, returns "Default".
-
-#### Parameters
-
-#### Returns
-
-`String` 
-
-###  get_stylesHash
-
-Returns object containing all styles applied to the control.
-
-#### Parameters
-
-#### Returns
-
-`Object` 
-
-###  get_textBox
-
-Returns the DOM element for the text box that implements the input area.
-
-#### Parameters
-
-#### Returns
-
-`Object` 
-
-###  get_visible
-
-Returns whether the control is visible
-
-#### Parameters
-
-#### Returns
-
-`Boolean` 
-
-###  hidePopup
+### hidePopup
 
 Hides the popup calendar if it is showing.
 
@@ -226,7 +227,7 @@ Hides the popup calendar if it is showing.
 
 `None` 
 
-###  isEmpty
+### isEmpty
 
 Returns true if the value is unassigned.
 
@@ -236,7 +237,7 @@ Returns true if the value is unassigned.
 
 `None` 
 
-###  isPopupVisible
+### isPopupVisible
 
 Returns whether the popup calendar is visible.
 
@@ -246,7 +247,7 @@ Returns whether the popup calendar is visible.
 
 `None` 
 
-###  navigateToDate
+### navigateToDate
 
 Sets whether the screen boundary detection will be applied.
 
@@ -258,7 +259,7 @@ Sets whether the screen boundary detection will be applied.
 
 `None` 
 
-###  raise_dateSelected
+### raise_dateSelected
 
 Raise the dateSelected event.
 
@@ -270,7 +271,7 @@ Raise the dateSelected event.
 
 `None` 
 
-###  raise_monthSelected
+### raise_monthSelected
 
 Raise the monthSelected event.
 
@@ -282,7 +283,7 @@ Raise the monthSelected event.
 
 `None` 
 
-###  raise_popupClosing
+### raise_popupClosing
 
 Raise the popupClosing event.
 
@@ -294,7 +295,7 @@ Raise the popupClosing event.
 
 `None` 
 
-###  raise_popupOpening
+### raise_popupOpening
 
 Raise the popupOpening event.
 
@@ -306,7 +307,7 @@ Raise the popupOpening event.
 
 `None` 
 
-###  raise_viewChanged
+### raise_viewChanged
 
 Raise the viewChanged event.
 
@@ -318,7 +319,7 @@ Raise the viewChanged event.
 
 `None` 
 
-###  raise_yearSelected
+### raise_yearSelected
 
 Raise the yearSelected event.
 
@@ -330,7 +331,7 @@ Raise the yearSelected event.
 
 `None` 
 
-###  repaint
+### repaint
 
 Repaints the control
 
@@ -340,7 +341,7 @@ Repaints the control
 
 `None` 
 
-###  set_dateInput
+### set_dateInput
 
 #### Parameters
 
@@ -348,19 +349,7 @@ Repaints the control
 
 `None` 
 
-###  set_enableScreenBoundaryDetection
-
-Sets whether the screen boundary detection will be applied.
-
-#### Parameters
-
-##### value `Boolean`
-
-#### Returns
-
-`None` 
-
-###  set_enabled
+### set_enabled
 
 Enables/disables the control
 
@@ -372,7 +361,19 @@ Enables/disables the control
 
 `None` 
 
-###  set_focusedDate
+### set_enableScreenBoundaryDetection
+
+Sets whether the screen boundary detection will be applied.
+
+#### Parameters
+
+##### value `Boolean`
+
+#### Returns
+
+`None` 
+
+### set_focusedDate
 
 Sets the date that determines the view the popup calendar uses when the value of the date picker is not assigned.
 
@@ -384,7 +385,7 @@ Sets the date that determines the view the popup calendar uses when the value of
 
 `None` 
 
-###  set_maxDate
+### set_maxDate
 
 Sets the latest date the user can select.
 
@@ -396,7 +397,7 @@ Sets the latest date the user can select.
 
 `None` 
 
-###  set_minDate
+### set_minDate
 
 Sets the earliest date the user can select.
 
@@ -408,7 +409,7 @@ Sets the earliest date the user can select.
 
 `None` 
 
-###  set_monthYearNavigationSettings
+### set_monthYearNavigationSettings
 
 Sets the fast navigation settings. The settings are, in order, TodayButtonCaption, OkButtonCaption, CancelButtonCaption, DateIsOutOfRangeMessage, EnableTodayButtonSelection. Changes you make to these settings have an effect only if you make them before the first time the month/year navigation popup is displayed.
 
@@ -420,7 +421,7 @@ Sets the fast navigation settings. The settings are, in order, TodayButtonCaptio
 
 `None` 
 
-###  set_popupDirection
+### set_popupDirection
 
 Returns the popup direction
 
@@ -432,7 +433,7 @@ Returns the popup direction
 
 `None` 
 
-###  set_selectedDate
+### set_selectedDate
 
 Assigns the value of the date picker.
 
@@ -444,7 +445,7 @@ Assigns the value of the date picker.
 
 `None` 
 
-###  set_showPopupOnFocus
+### set_showPopupOnFocus
 
 Sets whether the popup control (Calendar or TimeView) will be displayed when the DateInput textbox is focused.
 
@@ -456,7 +457,7 @@ Sets whether the popup control (Calendar or TimeView) will be displayed when the
 
 `None` 
 
-###  set_visible
+### set_visible
 
 Shows/hides the control
 
@@ -468,7 +469,7 @@ Shows/hides the control
 
 `None` 
 
-###  showPopup
+### showPopup
 
 Displays the popup calendar at the specified coordinates. If the two parameters are omitted, the popup appears below the input area.
 
@@ -482,7 +483,7 @@ Displays the popup calendar at the specified coordinates. If the two parameters 
 
 `None` 
 
-###  togglePopup
+### togglePopup
 
 Toggles the visible state of the popup calendar.
 
@@ -491,6 +492,7 @@ Toggles the visible state of the popup calendar.
 #### Returns
 
 `None` 
+
 
 
 ## Events
@@ -578,3 +580,4 @@ The instance of the RadMonthYearPicker raised the event.
 ##### args `Telerik.Web.UI.MonthYearPickerMonthSelectedEventArgs`
 
 The event arguments.
+

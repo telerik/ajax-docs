@@ -11,6 +11,7 @@ slug: Telerik.Web.UI.RadListViewFilterExpressions
 
 * *[Telerik.Web.UI.RadListViewFilterExpressions]({%slug Telerik.Web.UI.RadListViewFilterExpressions%})*
 
+
 ## Methods
 
 ###  add
@@ -35,7 +36,7 @@ Optional
 
 `None` 
 
-###  build
+### build
 
 Retrieves a Telerik.Web.UI.RadListViewFilterExpressionBuilder instance that can be used for building the filter expressions in this collection
 
@@ -45,7 +46,7 @@ Retrieves a Telerik.Web.UI.RadListViewFilterExpressionBuilder instance that can 
 
 `None` 
 
-###  clear
+### clear
 
 Clears the items of this filter expression collection
 
@@ -55,7 +56,17 @@ Clears the items of this filter expression collection
 
 `None` 
 
-###  getItem
+### get_count
+
+Retrieves the count of items in this filter expression collection
+
+#### Parameters
+
+#### Returns
+
+`Number` 
+
+### getItem
 
 Retrieves the filter expression at the specified index
 
@@ -69,17 +80,7 @@ The index at which to retrieve
 
 `None` 
 
-###  get_count
-
-Retrieves the count of items in this filter expression collection
-
-#### Parameters
-
-#### Returns
-
-`Number` 
-
-###  indexOf
+### indexOf
 
 Retrieves the index of the specified filter expression in the collection
 
@@ -101,7 +102,7 @@ Optional
 
 `None` 
 
-###  insert
+### insert
 
 Inserts a new filter expression to the collection at the specified position
 
@@ -127,7 +128,7 @@ Optional
 
 `None` 
 
-###  remove
+### remove
 
 Removes a filter expression from the collection
 
@@ -149,7 +150,7 @@ Optional
 
 `None` 
 
-###  removeAt
+### removeAt
 
 Removes the filter expression at the specified position
 
@@ -163,7 +164,7 @@ The index at which to remove
 
 `None` 
 
-###  toLinq
+### toLinq
 
 Returns a Dynamic LINQ representation of this filter expressions collection
 
@@ -173,7 +174,7 @@ Returns a Dynamic LINQ representation of this filter expressions collection
 
 `None` 
 
-###  toList
+### toList
 
 Returns a javascript array representation of this filter expressions collection
 
@@ -183,7 +184,7 @@ Returns a javascript array representation of this filter expressions collection
 
 `None` 
 
-###  toOData
+### toOData
 
 Returns an OData representation of this filter expressions collection
 
@@ -193,7 +194,7 @@ Returns an OData representation of this filter expressions collection
 
 `None` 
 
-###  toSql
+### toSql
 
 Returns an SQL representation of this filter expressions collection
 
@@ -202,5 +203,6 @@ Returns an SQL representation of this filter expressions collection
 #### Returns
 
 `None` 
+
 
 

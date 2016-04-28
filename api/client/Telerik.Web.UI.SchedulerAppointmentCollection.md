@@ -11,6 +11,7 @@ slug: Telerik.Web.UI.SchedulerAppointmentCollection
 
 * *[Telerik.Web.UI.SchedulerAppointmentCollection]({%slug Telerik.Web.UI.SchedulerAppointmentCollection%})*
 
+
 ## Methods
 
 ###  add
@@ -27,7 +28,7 @@ Adds the specified appointment to the collection.
 
 `None` 
 
-###  find
+### find
 
 Returns the first appointments that satisfies the specified predicate. The appointment is passed as first argument of the predicate. If the predicate returns true the appointment is returned.
 
@@ -41,7 +42,7 @@ Returns the first appointments that satisfies the specified predicate. The appoi
 
 `Telerik.Web.UI.SchedulerAppointment`  An appointment that matches the predicate 
 
-###  findAll
+### findAll
 
 Returns a collection of appointments that satisfy the specified predicate. The appointment is passed as first argument of the predicate. If the predicate returns true the appointment is included in the result collection.
 
@@ -55,7 +56,7 @@ Returns a collection of appointments that satisfy the specified predicate. The a
 
 `Telerik.Web.UI.SchedulerAppointmentCollection`  A collection of all appointments matching the predicate 
 
-###  findByID
+### findByID
 
 Gets the appointment with the specified ID.
 
@@ -69,7 +70,7 @@ Gets the appointment with the specified ID.
 
 `Telerik.Web.UI.SchedulerAppointment`  The appointment with the specified ID
 
-###  findByResource
+### findByResource
 
 Gets the first appointment that contains the specified resource.
 
@@ -83,7 +84,7 @@ Gets the first appointment that contains the specified resource.
 
 `Telerik.Web.UI.SchedulerAppointment`  The first appointment that contains the specified appointment
 
-###  forEach
+### forEach
 
 Executes the specified function for each appointment in the collection. The appointment is passed as first argument to the function.
 
@@ -97,7 +98,17 @@ Executes the specified function for each appointment in the collection. The appo
 
 `None` 
 
-###  getAppointment
+### get_count
+
+Gets the number of appointments in the collection.
+
+#### Parameters
+
+#### Returns
+
+`Number`  The number of appointments in the collection. 
+
+### getAppointment
 
 Gets the appointment at the specified index in the collection.
 
@@ -111,7 +122,7 @@ Gets the appointment at the specified index in the collection.
 
 `Telerik.Web.UI.SchedulerAppointment`  The appointment at the specified index. 
 
-###  getAppointmentsInRange
+### getAppointmentsInRange
 
 Gets a collection of all appointments in the specified range.
 
@@ -129,7 +140,7 @@ Gets a collection of all appointments in the specified range.
 
 `Telerik.Web.UI.SchedulerAppointmentCollection`  A collection of all appointments in the specified range 
 
-###  getAppointmentsStartingInRange
+### getAppointmentsStartingInRange
 
 Gets a collection of all appointments that start in the specified range.
 
@@ -147,17 +158,7 @@ Gets a collection of all appointments that start in the specified range.
 
 `Telerik.Web.UI.SchedulerAppointmentCollection`  A collection of all appointments that start in the specified range 
 
-###  get_count
-
-Gets the number of appointments in the collection.
-
-#### Parameters
-
-#### Returns
-
-`Number`  The number of appointments in the collection. 
-
-###  indexOf
+### indexOf
 
 Gets the index of the specified appointment in the collection. Returns -1 if the resource is not in the collection.
 
@@ -171,7 +172,7 @@ Gets the index of the specified appointment in the collection. Returns -1 if the
 
 `Number`  The index of the specified appointment in the collection
 
-###  insert
+### insert
 
 Inserts the specified appointment at the specified index in the collection.
 
@@ -189,7 +190,7 @@ Inserts the specified appointment at the specified index in the collection.
 
 `None` 
 
-###  remove
+### remove
 
 Removes the specified appointment from the collection.
 
@@ -207,7 +208,7 @@ Removes the specified appointment from the collection.
 
 `None` 
 
-###  removeAt
+### removeAt
 
 Removes the appointment at the specified index from the collection.
 
@@ -224,5 +225,6 @@ Removes the appointment at the specified index from the collection.
 #### Returns
 
 `None` 
+
 
 

@@ -11,6 +11,7 @@ slug: Telerik.Web.UI.RibbonBarComboBoxSelectedIndexChangedEventArgs
 
 * *[Telerik.Web.UI.RibbonBarComboBoxSelectedIndexChangedEventArgs]({%slug Telerik.Web.UI.RibbonBarComboBoxSelectedIndexChangedEventArgs%})*
 
+
 ## Methods
 
 ### get_comboBox
@@ -32,3 +33,4 @@ Returns combo's text.
 #### Returns
 
 `String`
+

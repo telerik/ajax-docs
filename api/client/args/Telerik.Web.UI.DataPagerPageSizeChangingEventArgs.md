@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.DataPagerPageSizeChangingEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.DataPagerPageSizeChangingEventArgs]({%slug Telerik.Web.UI.DataPagerPageSizeChangingEventArgs%})*
 
+
 ## Methods
 
 ###  get_newPageSize
@@ -24,7 +25,7 @@ Returns the new page size for the RadDataPager control when paging.
 
 `Number` 
 
-###  get_oldPageSize
+### get_oldPageSize
 
 Returns the old page size for the RadDataPager control when paging.
 
@@ -34,7 +35,7 @@ Returns the old page size for the RadDataPager control when paging.
 
 `Number` 
 
-###  set_newPageSize
+### set_newPageSize
 
 Sets the new page size for the RadDataPager control when paging.
 
@@ -45,5 +46,6 @@ Sets the new page size for the RadDataPager control when paging.
 #### Returns
 
 `None` 
+
 
 

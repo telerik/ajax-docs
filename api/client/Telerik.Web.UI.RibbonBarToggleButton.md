@@ -11,6 +11,7 @@ slug: Telerik.Web.UI.RibbonBarToggleButton
 
 * *[Telerik.Web.UI.RibbonBarToggleButton]({%slug Telerik.Web.UI.RibbonBarToggleButton%})*
 
+
 ## Methods
 
 ###  get_toggled
@@ -21,7 +22,7 @@ slug: Telerik.Web.UI.RibbonBarToggleButton
 
 `None` 
 
-###  set_owner
+### set_owner
 
 #### Parameters
 
@@ -29,7 +30,7 @@ slug: Telerik.Web.UI.RibbonBarToggleButton
 
 `None` 
 
-###  set_toggled
+### set_toggled
 
 #### Parameters
 
@@ -37,12 +38,13 @@ slug: Telerik.Web.UI.RibbonBarToggleButton
 
 `None` 
 
-###  toggle
+### toggle
 
 #### Parameters
 
 #### Returns
 
 `None` 
+
 
 

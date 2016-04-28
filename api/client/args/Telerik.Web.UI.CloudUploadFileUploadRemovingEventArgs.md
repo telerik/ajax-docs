@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.CloudUploadFileUploadRemovingEventArgs
 * [Telerik.Web.UI.CloudUploadCancelEventArgs]({%slug Telerik.Web.UI.CloudUploadCancelEventArgs%})
 * *[Telerik.Web.UI.CloudUploadFileUploadRemovingEventArgs]({%slug Telerik.Web.UI.CloudUploadFileUploadRemovingEventArgs%})*
 
+
 ## Methods
 
 ### get_fileName
@@ -33,3 +34,4 @@ Returns a boolean value, specifying if the file, which is about to be removed ha
 #### Returns
 
 `Boolean` 
+

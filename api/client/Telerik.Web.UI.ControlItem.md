@@ -11,6 +11,7 @@ slug: Telerik.Web.UI.ControlItem
 
 * *[Telerik.Web.UI.ControlItem]({%slug Telerik.Web.UI.ControlItem%})*
 
+
 ## Methods
 
 ### findControl
@@ -25,7 +26,7 @@ Searches the ControlItem for a client control with the specified id parameter.
 
 `Sys.UI.Control` 
 
-###  get_attributes
+### get_attributes
 
 Gets the arbitrary attributes collection
 
@@ -35,7 +36,7 @@ Gets the arbitrary attributes collection
 
 `Telerik.Web.UI.AttributeCollection` The arbitrary attributes collection
 
-###  get_element
+### get_element
 
 Gets he DOM element for the ControlItem
 
@@ -45,7 +46,7 @@ Gets he DOM element for the ControlItem
 
 `Element` The DOM element for the ControlItem
 
-###  get_enabled
+### get_enabled
 
 Gets a value indicating whether the ControlItem is enabled or disabled
 
@@ -55,7 +56,7 @@ Gets a value indicating whether the ControlItem is enabled or disabled
 
 `Boolean` Value indicating whether the ControlItem is enabled or disabled
 
-###  get_index
+### get_index
 
 Gets the ControlItem's index inside the ControlItemCollection
 
@@ -65,7 +66,7 @@ Gets the ControlItem's index inside the ControlItemCollection
 
 `Number` The index of the ControlItem
 
-###  get_isFirst
+### get_isFirst
 
 Gets a value indicating whether the ControlItem is the first item in the ControlItemCollection
 
@@ -75,7 +76,7 @@ Gets a value indicating whether the ControlItem is the first item in the Control
 
 `Boolean` Value indicating whether the ControlItem is the first item in the ContorolCollection
 
-###  get_isLast
+### get_isLast
 
 Gets a value indicating whether the ControlItem is the last item in the ControlItemCollection
 
@@ -85,7 +86,7 @@ Gets a value indicating whether the ControlItem is the last item in the ControlI
 
 `Boolean` Value indicating whether the ControlItem is the last item in the ContorolCollection
 
-###  get_level
+### get_level
 
 Gets the Level of the item in the ControlItemContainer structure.
 
@@ -95,7 +96,7 @@ Gets the Level of the item in the ControlItemContainer structure.
 
 `Number` The level of the ContolItem
 
-###  get_nextSibling
+### get_nextSibling
 
 Gets an instance of the next sibling of a ControlItem
 
@@ -105,7 +106,7 @@ Gets an instance of the next sibling of a ControlItem
 
 `Telerik.Web.UI.ControlItem` The next sibling
 
-###  get_parent
+### get_parent
 
 The ControlItem's parent
 
@@ -115,7 +116,7 @@ The ControlItem's parent
 
 `Object` Gets the ControlItem
 
-###  get_previousSibling
+### get_previousSibling
 
 Gets an instance of the previous sibling of a ControlItem.
 
@@ -125,7 +126,7 @@ Gets an instance of the previous sibling of a ControlItem.
 
 `Telerik.Web.UI.ControlItem` The previous sibling
 
-###  get_text
+### get_text
 
 Gets the ControlItem's text
 
@@ -135,7 +136,7 @@ Gets the ControlItem's text
 
 `String` The text of the ControlItem
 
-###  get_value
+### get_value
 
 Gets the ControlItem's value
 
@@ -145,7 +146,7 @@ Gets the ControlItem's value
 
 `String` The value of the ControlItem
 
-###  get_visible
+### get_visible
 
 Gets a value indicating whether the ControlItem is visible or not
 
@@ -155,7 +156,7 @@ Gets a value indicating whether the ControlItem is visible or not
 
 `Boolean` Value indicating whether the ControlItem is visible or not
 
-###  set_element
+### set_element
 
 Sets the ControlItem's DOM element
 
@@ -169,7 +170,7 @@ DOM element
 
 `None` 
 
-###  set_enabled
+### set_enabled
 
 Enables or disables the ControlItem
 
@@ -183,7 +184,7 @@ Boolean value indicating whether the ControlItem is enabled or disabled
 
 `None` 
 
-###  set_parent
+### set_parent
 
 Sets the ControlItem's parent
 
@@ -197,7 +198,7 @@ DOM element
 
 `None` 
 
-###  set_text
+### set_text
 
 Sets the ControlItem's text
 
@@ -211,7 +212,7 @@ The new ControlItem text
 
 `None` 
 
-###  set_value
+### set_value
 
 #### Parameters
 
@@ -223,7 +224,7 @@ The new ControlItem text
 
 `None` 
 
-###  set_visible
+### set_visible
 
 Sets the visibility of the COontrolItem
 
@@ -237,7 +238,7 @@ Boolean value indicating whether the ControlItem is visible or not
 
 `None` 
 
-###  toJsonString
+### toJsonString
 
 The JSON representation of the ControlItem
 
@@ -246,5 +247,6 @@ The JSON representation of the ControlItem
 #### Returns
 
 `String` Returns the JSON representation of the ControlItem
+
 
 

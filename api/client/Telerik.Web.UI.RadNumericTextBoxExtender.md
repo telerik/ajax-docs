@@ -11,6 +11,7 @@ slug: Telerik.Web.UI.RadNumericTextBoxExtender
 
 * *[Telerik.Web.UI.RadNumericTextBoxExtender]({%slug Telerik.Web.UI.RadNumericTextBoxExtender%})*
 
+
 ## Methods
 
 ###  formatDisplayValue
@@ -25,7 +26,7 @@ Returns the format display value of RadNumericTextBoxExtender
 
 `None` 
 
-###  formatEditValue
+### formatEditValue
 
 Returns the format edit value of RadNumericTextBoxExtender
 
@@ -37,7 +38,7 @@ Returns the format edit value of RadNumericTextBoxExtender
 
 `None` 
 
-###  get_value
+### get_value
 
 Returns the value of the numeric text box
 
@@ -47,7 +48,7 @@ Returns the value of the numeric text box
 
 `Number` 
 
-###  isNegative
+### isNegative
 
 Returns true if the value of the numeric text box is a negative number
 
@@ -57,7 +58,7 @@ Returns true if the value of the numeric text box is a negative number
 
 `None` 
 
-###  raise_error
+### raise_error
 
 Returns a Boolean value, indicating whether error is raised
 
@@ -69,7 +70,7 @@ Returns a Boolean value, indicating whether error is raised
 
 `None` 
 
-###  set_value
+### set_value
 
 Sets the value of the numeric text box
 
@@ -81,7 +82,7 @@ Sets the value of the numeric text box
 
 `None` 
 
-###  validateInputValue
+### validateInputValue
 
 Returns the validate input value of RadNumericTextBoxExtender
 
@@ -92,5 +93,6 @@ Returns the validate input value of RadNumericTextBoxExtender
 #### Returns
 
 `None` 
+
 
 

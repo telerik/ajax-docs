@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.RadWebControl
 * Sys.UI.Control
 * *[Telerik.Web.UI.RadWebControl]({%slug Telerik.Web.UI.RadWebControl%})*
 
+
 ## Methods
 
 ###  get_clientState
@@ -22,7 +23,7 @@ slug: Telerik.Web.UI.RadWebControl
 
 `String`  Client state 
 
-###  get_clientStateFieldID
+### get_clientStateFieldID
 
 #### Parameters
 
@@ -30,7 +31,7 @@ slug: Telerik.Web.UI.RadWebControl
 
 `String`  ID of the hidden field used to store the client state 
 
-###  raiseEvent
+### raiseEvent
 
 Raise the event
 
@@ -48,7 +49,7 @@ Raise the event
 
 `None` 
 
-###  saveClientState
+### saveClientState
 
 This function should return the serialized client state of the control.
 
@@ -58,7 +59,7 @@ This function should return the serialized client state of the control.
 
 `None` 
 
-###  set_clientState
+### set_clientState
 
 Sets the client state of this control
 
@@ -72,7 +73,7 @@ The client state for this control
 
 `None` 
 
-###  set_clientStateFieldID
+### set_clientStateFieldID
 
 Sets the ID of the client state field of this control
 
@@ -86,7 +87,7 @@ The ID of the client state field for this control
 
 `None` 
 
-###  updateClientState
+### updateClientState
 
 Call this function to update the client state hidden field. Use this function with caution, because it is resource hungry.
 
@@ -95,5 +96,6 @@ Call this function to update the client state hidden field. Use this function wi
 #### Returns
 
 `None` 
+
 
 

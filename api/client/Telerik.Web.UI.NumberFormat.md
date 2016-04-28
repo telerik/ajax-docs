@@ -11,6 +11,7 @@ slug: Telerik.Web.UI.NumberFormat
 
 * *[Telerik.Web.UI.NumberFormat]({%slug Telerik.Web.UI.NumberFormat%})*
 
+
 ## Methods
 
 ###  Format
@@ -21,7 +22,7 @@ slug: Telerik.Web.UI.NumberFormat
 
 `None` 
 
-###  Pad
+### Pad
 
 #### Parameters
 
@@ -29,7 +30,7 @@ slug: Telerik.Web.UI.NumberFormat
 
 `None` 
 
-###  Parse
+### Parse
 
 #### Parameters
 
@@ -37,7 +38,7 @@ slug: Telerik.Web.UI.NumberFormat
 
 `None` 
 
-###  ParseExact
+### ParseExact
 
 #### Parameters
 
@@ -45,7 +46,7 @@ slug: Telerik.Web.UI.NumberFormat
 
 `None` 
 
-###  ReplaceN
+### ReplaceN
 
 #### Parameters
 
@@ -53,7 +54,7 @@ slug: Telerik.Web.UI.NumberFormat
 
 `None` 
 
-###  ReturnZeroIfEmpty
+### ReturnZeroIfEmpty
 
 #### Parameters
 
@@ -61,7 +62,7 @@ slug: Telerik.Web.UI.NumberFormat
 
 `None` 
 
-###  Round
+### Round
 
 #### Parameters
 
@@ -69,7 +70,7 @@ slug: Telerik.Web.UI.NumberFormat
 
 `None` 
 
-###  SplitGroup
+### SplitGroup
 
 #### Parameters
 
@@ -77,12 +78,13 @@ slug: Telerik.Web.UI.NumberFormat
 
 `None` 
 
-###  ToFixed
+### ToFixed
 
 #### Parameters
 
 #### Returns
 
 `None` 
+
 
 

@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.GridDragDropCancelEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.GridDragDropCancelEventArgs]({%slug Telerik.Web.UI.GridDragDropCancelEventArgs%})*
 
+
 ## Methods
 
 ###  get_TargetDataKeyValue
@@ -26,7 +27,7 @@ Returns the DataKeyValue for the current GridDataItem object.
 
 `String` 
 
-###  get_destinationHtmlElement
+### get_destinationHtmlElement
 
 Returns the HTML element which the item was dropped onto.
 
@@ -36,7 +37,7 @@ Returns the HTML element which the item was dropped onto.
 
 `Element` 
 
-###  get_domEvent
+### get_domEvent
 
 Returns the DOM event that was raised for the drag operation.
 
@@ -46,7 +47,7 @@ Returns the DOM event that was raised for the drag operation.
 
 `Sys.UI.DomEvent` 
 
-###  get_draggedItems
+### get_draggedItems
 
 Returns a collection of the dragged GridDataItem objects.
 
@@ -56,7 +57,7 @@ Returns a collection of the dragged GridDataItem objects.
 
 `Array` 
 
-###  get_dropPosition
+### get_dropPosition
 
 Indicates the position of the drop indicator if the user is dropping over a RadGrid row - "above" or "below" it.
 
@@ -66,7 +67,7 @@ Indicates the position of the drop indicator if the user is dropping over a RadG
 
 `String` 
 
-###  get_targetGridDataItem
+### get_targetGridDataItem
 
 Returns a reference to the dataItem over which the user is dropping. May be null if the dataItem has not been instantiated beforehand.
 
@@ -76,7 +77,7 @@ Returns a reference to the dataItem over which the user is dropping. May be null
 
 `Telerik.Web.UI.GridDataItem` 
 
-###  get_targetItemId
+### get_targetItemId
 
 Returns the ClientID of the destination GridDataItem object.
 
@@ -86,7 +87,7 @@ Returns the ClientID of the destination GridDataItem object.
 
 `String` 
 
-###  get_targetItemIndexHierarchical
+### get_targetItemIndexHierarchical
 
 Returns the hierarchical item index of the destination GridDataItem object.
 
@@ -96,7 +97,7 @@ Returns the hierarchical item index of the destination GridDataItem object.
 
 `String` 
 
-###  get_targetItemTableView
+### get_targetItemTableView
 
 Returns the GridTableView object, which the target GridDataItem belongs to.
 
@@ -106,7 +107,7 @@ Returns the GridTableView object, which the target GridDataItem belongs to.
 
 `Telerik.Web.UI.GridTableView` 
 
-###  get_targetRadGrid
+### get_targetRadGrid
 
 Returns the RadGrid instance which the item was dropped onto.
 
@@ -116,7 +117,7 @@ Returns the RadGrid instance which the item was dropped onto.
 
 `Telerik.Web.UI.RadGrid` 
 
-###  set_destinationHtmlElement
+### set_destinationHtmlElement
 
 Sets the HTML element for the item to be dropped onto.
 
@@ -127,5 +128,6 @@ Sets the HTML element for the item to be dropped onto.
 #### Returns
 
 `None` 
+
 
 

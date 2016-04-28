@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.RadTagCloud
 * [Telerik.Web.UI.RadWebControl]({%slug Telerik.Web.UI.RadWebControl%})
 * *[Telerik.Web.UI.RadTagCloud]({%slug Telerik.Web.UI.RadTagCloud%})*
 
+
 ## Methods
 
 ###  addTagCloudItem
@@ -32,7 +33,7 @@ The index of the get_items Array where the item should be inserted.
 
 `None` 
 
-###  dataBind
+### dataBind
 
 Data binds the data of the RadTagCloud.
 
@@ -42,7 +43,7 @@ Data binds the data of the RadTagCloud.
 
 `None` 
 
-###  get_appendClientDataBoundItems
+### get_appendClientDataBoundItems
 
 Gets whether data bound items will be appended to the TagCloud.
 
@@ -52,7 +53,7 @@ Gets whether data bound items will be appended to the TagCloud.
 
 `Boolean` 
 
-###  get_clientDataSource
+### get_clientDataSource
 
 Gets the RadClientDataSource that is associated with the TagCloud.
 
@@ -62,7 +63,7 @@ Gets the RadClientDataSource that is associated with the TagCloud.
 
 `Telerik.Web.UI.RadClientDataSource` 
 
-###  get_clientDataSourceID
+### get_clientDataSourceID
 
 Gets the ID of the RadClientDataSource that is associated with the TagCloud.
 
@@ -72,7 +73,7 @@ Gets the ID of the RadClientDataSource that is associated with the TagCloud.
 
 `Number` 
 
-###  get_containerElement
+### get_containerElement
 
 Returns the UL DOM element that wraps all tagCloud's items.
 
@@ -82,7 +83,7 @@ Returns the UL DOM element that wraps all tagCloud's items.
 
 `Object` The UL DOM element that wraps all the tagCloud
 
-###  get_dataSource
+### get_dataSource
 
 Gets the data source of the TagCloud.
 
@@ -92,7 +93,7 @@ Gets the data source of the TagCloud.
 
 `Object` 
 
-###  get_distribution
+### get_distribution
 
 Returns a value of type Telerik.Web.UI.TagCloudDistribution that indicates how the font-size is distributed among the different items.
 
@@ -102,7 +103,7 @@ Returns a value of type Telerik.Web.UI.TagCloudDistribution that indicates how t
 
 `Telerik.Web.UI.TagCloudDistribution` Returns a value that indicates how the font
 
-###  get_enabled
+### get_enabled
 
 Returns a value, indicating whether the tagCloud control is enabled.
 
@@ -112,7 +113,7 @@ Returns a value, indicating whether the tagCloud control is enabled.
 
 `Boolean` The value indicating whether the tagCloud control is enabled.
 
-###  get_height
+### get_height
 
 Returns the height of the tagCloud control.
 
@@ -122,7 +123,7 @@ Returns the height of the tagCloud control.
 
 `Number` The height of the tagCloud control.
 
-###  get_items
+### get_items
 
 Returns an array of the tagCloud's items. The items are of type Telerik.Web.UI.RadTagCloudItem.
 
@@ -132,7 +133,7 @@ Returns an array of the tagCloud's items. The items are of type Telerik.Web.UI.R
 
 `Array` Returns an array of the tagCloud
 
-###  get_sorting
+### get_sorting
 
 Returns a value of type Telerik.Web.UI.TagCloudSorting that indicates how the items are sorted.
 
@@ -142,7 +143,7 @@ Returns a value of type Telerik.Web.UI.TagCloudSorting that indicates how the it
 
 `Telerik.Web.UI.TagCloudSorting` Returns a value that indicates how keywords are sorted.
 
-###  get_target
+### get_target
 
 Returns the target window or frame to display the new content when the TagCloud item is clicked.
 
@@ -152,7 +153,7 @@ Returns the target window or frame to display the new content when the TagCloud 
 
 `String` The target window or frame to display the new content when the TagCloud item is clicked.
 
-###  get_width
+### get_width
 
 Returns the width of the tagCloud control.
 
@@ -162,7 +163,7 @@ Returns the width of the tagCloud control.
 
 `Number` The width of the tagCloud control.
 
-###  removeTagCloudItem
+### removeTagCloudItem
 
 Removes a RadTagCloudItem item.
 
@@ -180,7 +181,7 @@ Call repaint arter the item is removed. The default is true.
 
 `None` 
 
-###  repaint
+### repaint
 
 Redraws the TagCloud control.
 
@@ -190,7 +191,7 @@ Redraws the TagCloud control.
 
 `None` 
 
-###  requestItems
+### requestItems
 
 Initiates RadTagCloudItem items request with a specified argument, causing the request to be sent to a WebService. All current items will be removed,before the new ones are populated.
 
@@ -204,7 +205,7 @@ The string which is sent as an argument to the Web service method
 
 `None` 
 
-###  set_appendClientDataBoundItems
+### set_appendClientDataBoundItems
 
 Sets whether data bound items will be appended to the TagCloud.
 
@@ -216,7 +217,7 @@ Sets whether data bound items will be appended to the TagCloud.
 
 `None` 
 
-###  set_clientDataSourceID
+### set_clientDataSourceID
 
 Sets the ID of the RadClientDataSource that is associated with the TagCloud.
 
@@ -228,7 +229,7 @@ Sets the ID of the RadClientDataSource that is associated with the TagCloud.
 
 `None` 
 
-###  set_dataSource
+### set_dataSource
 
 Sets a custom data source for the RadTagCloud.
 
@@ -240,7 +241,7 @@ Sets a custom data source for the RadTagCloud.
 
 `None` 
 
-###  set_enabled
+### set_enabled
 
 Sets a bool value indicating whether the tagCloud is enabled.
 
@@ -254,7 +255,7 @@ The value to set.
 
 `None` 
 
-###  set_target
+### set_target
 
 Sets the target window or frame to display the new content when the TagCloud item is clicked.
 
@@ -268,11 +269,12 @@ The target to set.
 
 `None` 
 
+
 ## Events
 
-### load 
+### dataBound 
 
-The load event is raised when the RadTagCloud object is loaded on the page. It can notify the developer that the control is available for further client-side programmatic interaction. 
+The dataBound event is raised when the RadTagCloud object is successfully bound to the requested data. 
 
 #### Event Data
 
@@ -282,22 +284,7 @@ The instance of the RadTagCloud raised the event.
 
 #####  args `Sys.EventArgs`
 
-Empty event argument.
-
-### itemClicking 
-
-The itemClicking event occurs when an item of the RadTagCloud control is clicked, immediately after the mouse button is released. The event is fired before the client-side validation occurs, and can be canceled. 
-
-#### Event Data
-
-##### sender `Telerik.Web.UI.RadTagCloud`
-
-The instance of the RadTagCloud raised the event.
-
-#####  args `Telerik.Web.UI.TagCloudCancelEventArgs`
-
 The event arguments.
-
 ### itemClicked 
 
 The itemClicked event occurs when an item of the RadTagCloud control is clicked, immediately after the itemClicking event. 
@@ -312,23 +299,9 @@ The instance of the RadTagCloud raised the event.
 
 The event arguments.
 
-### itemsRequested 
+### itemClicking 
 
-The itemsRequested event is fired when the requested items from the Web Service are successfully loaded. 
-
-#### Event Data
-
-##### sender `Telerik.Web.UI.RadTagCloud`
-
-The instance of the RadTagCloud raised the event.
-
-#####  args `Sys.EventArgs`
-
-Empty event argument.
-
-### itemsRequesting 
-
-The itemsRequesting is fired before sending a request to a Web Service for the items to be bound. 
+The itemClicking event occurs when an item of the RadTagCloud control is clicked, immediately after the mouse button is released. The event is fired before the client-side validation occurs, and can be canceled. 
 
 #### Event Data
 
@@ -336,21 +309,7 @@ The itemsRequesting is fired before sending a request to a Web Service for the i
 
 The instance of the RadTagCloud raised the event.
 
-#####  args `Sys.CancelEventArgs`
-
-The event arguments.
-
-### itemsRequestFailed 
-
-The itemsRequestFailed is fired when the request to the web service is failed. The event arguments provide information about the error message and allow the developer to cancel the error alert and process the error otherwise.
-
-#### Event Data
-
-##### sender `Telerik.Web.UI.RadTagCloud`
-
-The instance of the RadTagCloud raised the event.
-
-#####  args `Telerik.Web.UI.TagCloudErrorEventArgs`
+#####  args `Telerik.Web.UI.TagCloudCancelEventArgs`
 
 The event arguments.
 
@@ -368,9 +327,9 @@ The instance of the RadTagCloud raised the event.
 
 The event arguments.
 
-### dataBound 
+### itemsRequested 
 
-The dataBound event is raised when the RadTagCloud object is successfully bound to the requested data. 
+The itemsRequested event is fired when the requested items from the Web Service are successfully loaded. 
 
 #### Event Data
 
@@ -380,4 +339,48 @@ The instance of the RadTagCloud raised the event.
 
 #####  args `Sys.EventArgs`
 
+Empty event argument.
+
+### itemsRequestFailed 
+
+The itemsRequestFailed is fired when the request to the web service is failed. The event arguments provide information about the error message and allow the developer to cancel the error alert and process the error otherwise.
+
+#### Event Data
+
+##### sender `Telerik.Web.UI.RadTagCloud`
+
+The instance of the RadTagCloud raised the event.
+
+#####  args `Telerik.Web.UI.TagCloudErrorEventArgs`
+
 The event arguments.
+
+### itemsRequesting 
+
+The itemsRequesting is fired before sending a request to a Web Service for the items to be bound. 
+
+#### Event Data
+
+##### sender `Telerik.Web.UI.RadTagCloud`
+
+The instance of the RadTagCloud raised the event.
+
+#####  args `Sys.CancelEventArgs`
+
+The event arguments.
+
+### load 
+
+The load event is raised when the RadTagCloud object is loaded on the page. It can notify the developer that the control is available for further client-side programmatic interaction. 
+
+#### Event Data
+
+##### sender `Telerik.Web.UI.RadTagCloud`
+
+The instance of the RadTagCloud raised the event.
+
+#####  args `Sys.EventArgs`
+
+Empty event argument.
+
+

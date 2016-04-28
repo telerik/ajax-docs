@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.TreeMapItemCreatedEventArgs
 * Sys.EventArgs
 * *[Telerik.Web.UI.TreeMapItemCreatedEventArgs]({%slug Telerik.Web.UI.TreeMapItemCreatedEventArgs%})*
 
+
 ## Methods
 
 ###  get_datItem
@@ -25,7 +26,7 @@ Gets reference to the DataItem object (data container).
 `Object`
 
 
-###  get_element
+### get_element
 
 Returns the DOM element of the div, which the currently evaluated RadTreeMapItem is rendered in. 
 
@@ -34,3 +35,4 @@ Returns the DOM element of the div, which the currently evaluated RadTreeMapItem
 #### Returns
 
 `Element` the DOM Element of the div, which the currently evaluated RadTreeMapItem is rendered in.
+

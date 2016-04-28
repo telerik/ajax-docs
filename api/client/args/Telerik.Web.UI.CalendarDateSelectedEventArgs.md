@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.CalendarDateSelectedEventArgs
 * Sys.EventArgs
 * *[Telerik.Web.UI.CalendarDateSelectedEventArgs]({%slug Telerik.Web.UI.CalendarDateSelectedEventArgs%})*
 
+
 ## Methods
 
 ###  get_renderDay
@@ -23,3 +24,4 @@ Returns the client-side RenderDay object for the day that was just selected or u
 #### Returns
 
 `Telerik.Web.UI.Calendar.RenderDay` 
+

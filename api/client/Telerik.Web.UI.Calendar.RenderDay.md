@@ -11,6 +11,7 @@ slug: Telerik.Web.UI.Calendar.RenderDay
 
 * *[Telerik.Web.UI.Calendar.RenderDay]({%slug Telerik.Web.UI.Calendar.RenderDay%})*
 
+
 ## Methods
 
 ###  IsRecurring
@@ -27,7 +28,7 @@ Indicates the recurrence patterns that include the day. The value is one of the 
 
 `None` 
 
-###  get_date
+### get_date
 
 Returns the triplet for the day represented by the render day object.
 
@@ -37,7 +38,7 @@ Returns the triplet for the day represented by the render day object.
 
 `Array` 
 
-###  get_isSelectable
+### get_isSelectable
 
 Returns true if the day can be selected.
 
@@ -47,7 +48,7 @@ Returns true if the day can be selected.
 
 `Boolean` 
 
-###  get_isSelected
+### get_isSelected
 
 returns true if the day is selected.
 
@@ -57,7 +58,7 @@ returns true if the day is selected.
 
 `Boolean` 
 
-###  get_isToday
+### get_isToday
 
 Returns true if the day has today's date
 
@@ -67,7 +68,7 @@ Returns true if the day has today's date
 
 `Boolean` 
 
-###  get_isWeekend
+### get_isWeekend
 
 Returns true if the day falls on a weekend.
 
@@ -77,7 +78,7 @@ Returns true if the day falls on a weekend.
 
 `Boolean` 
 
-###  set_date
+### set_date
 
 Sets the date of the render day object to the date encoded by the triplet.
 
@@ -88,5 +89,6 @@ Sets the date of the render day object to the date encoded by the triplet.
 #### Returns
 
 `None` 
+
 
 

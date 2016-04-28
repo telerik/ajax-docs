@@ -12,9 +12,10 @@ slug: Telerik.Web.UI.EditorCommandEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.EditorCommandEventArgs]({%slug Telerik.Web.UI.EditorCommandEventArgs%})*
 
+
 ## Methods
 
-### get_name
+### get_commandName
 
 Returns the command name 
 
@@ -24,7 +25,7 @@ Returns the command name
 
 `String` 
 
-### get_commandName
+### get_name
 
 Returns the command name 
 
@@ -67,3 +68,4 @@ The command value with which the command to be executed
 #### Returns
 
 `None` 
+

@@ -12,4 +12,6 @@ slug: Telerik.Web.UI.EditorSplitButton
 * [Telerik.Web.UI.EditorUpdateableDropDown]({%slug Telerik.Web.UI.EditorUpdateableDropDown%})
 * *[Telerik.Web.UI.EditorSplitButton]({%slug Telerik.Web.UI.EditorSplitButton%})*
 
-## Methods
+
+Methods
+

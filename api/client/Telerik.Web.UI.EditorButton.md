@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.EditorButton
 * Sys.UI.Control
 * *[Telerik.Web.UI.EditorButton]({%slug Telerik.Web.UI.EditorButton%})*
 
+
 ## Methods
 
 ###  click
@@ -24,27 +25,7 @@ Performs a click operation, but does not fire a command.
 
 `Boolean` Indicates whether the DOM event is canceled or not. 
 
-###  getAnchorElement
-
-Returns the anchor element of the tool.
-
-#### Parameters
-
-#### Returns
-
-`Element` 
-
-###  getSpanElement
-
-Returns the span element of the tool.
-
-#### Parameters
-
-#### Returns
-
-`Element` 
-
-###  get_contentAreaMode
+### get_contentAreaMode
 
 Returns the ContentAreaMode value.
 
@@ -54,7 +35,7 @@ Returns the ContentAreaMode value.
 
 `Telerik.Web.UI.EditorContentAreaMode` 
 
-###  get_enableAriaSupport
+### get_enableAriaSupport
 
 Indicates whether the Aria support is enabled.
 
@@ -64,7 +45,7 @@ Indicates whether the Aria support is enabled.
 
 `Boolean` 
 
-###  get_enabled
+### get_enabled
 
 Indicates whether the tool is enabled.
 
@@ -74,7 +55,7 @@ Indicates whether the tool is enabled.
 
 `Boolean` 
 
-###  get_height
+### get_height
 
 Returns the height of the tool in pixels.
 
@@ -84,7 +65,7 @@ Returns the height of the tool in pixels.
 
 `String` 
 
-###  get_text
+### get_text
 
 Returns the Text value of the tool.
 
@@ -94,7 +75,7 @@ Returns the Text value of the tool.
 
 `String` 
 
-###  get_tooltipDecrease
+### get_tooltipDecrease
 
 Returns the tool-tip text of the decrease button.
 
@@ -104,7 +85,7 @@ Returns the tool-tip text of the decrease button.
 
 `String` 
 
-###  get_tooltipIncrease
+### get_tooltipIncrease
 
 Returns the tool-tip text of the increase button.
 
@@ -114,31 +95,7 @@ Returns the tool-tip text of the increase button.
 
 `String`
 
-###  set_tooltipDecrease
-
-Sets the tool-tip text of the decrease button.
-
-#### Parameters
-
-##### value `String`
-
-#### Returns
-
-`None` 
-
-###  set_tooltipIncrease
-
-Sets the tool-tip text of the increase button.
-
-#### Parameters
-
-##### value `String`
-
-#### Returns
-
-`None`  
-
-###  get_width
+### get_width
 
 Returns the width of the tool in pixels.
 
@@ -148,7 +105,27 @@ Returns the width of the tool in pixels.
 
 `String` 
 
-###  isOn
+### getAnchorElement
+
+Returns the anchor element of the tool.
+
+#### Parameters
+
+#### Returns
+
+`Element` 
+
+### getSpanElement
+
+Returns the span element of the tool.
+
+#### Parameters
+
+#### Returns
+
+`Element` 
+
+### isOn
 
 Returns a Boolean value upon the state of the tool. 
 
@@ -158,7 +135,7 @@ Returns a Boolean value upon the state of the tool.
 
 `Boolean` 
 
-###  isTarget
+### isTarget
 
 Determines whether the tool was clicked.
 
@@ -171,6 +148,109 @@ The event arguments.
 #### Returns
 
 `Boolean` 
+
+### set_contentAreaMode
+
+Overrides the ConentAreaMode value.
+
+#### Parameters
+
+##### value `Telerik.Web.UI.EditorContentAreaMode`
+
+#### Returns
+
+`None` 
+
+### set_enableAriaSupport
+
+Configures the state of the Aria support. 
+
+#### Parameters
+
+##### value `Boolean`
+
+##### role `String`
+
+The role value to be set. 
+
+#### Returns
+
+`None` 
+
+### set_enabled
+
+Sets the enable/disable state of the tool.
+
+#### Parameters
+
+##### value `Boolean`
+
+Defines whether the tool to be enabled or not.
+
+#### Returns
+
+`None` 
+
+### set_height
+
+Sets the height value of the tool.
+
+#### Parameters
+
+##### value `String`
+
+#### Returns
+
+`None` 
+
+### set_text
+
+Overrides the Text value of the tool.
+
+#### Parameters
+
+##### value `String`
+
+#### Returns
+
+`None` 
+
+### set_tooltipDecrease
+
+Sets the tool-tip text of the decrease button.
+
+#### Parameters
+
+##### value `String`
+
+#### Returns
+
+`None` 
+
+### set_tooltipIncrease
+
+Sets the tool-tip text of the increase button.
+
+#### Parameters
+
+##### value `String`
+
+#### Returns
+
+`None`  
+
+### set_width
+
+Sets the width value of the tool.
+
+#### Parameters
+
+##### value `String`
+
+#### Returns
+
+`None` 
+
 
 ### setFocus
 
@@ -198,91 +278,13 @@ If set to false, the tool will remain disabled.
 
 `None` 
 
-###  setState
+### setState
 
 Sets the state of the tool.
 
 #### Parameters
 
 ##### state `Telerik.Web.UI.Editor.CommandStates`
-
-#### Returns
-
-`None` 
-
-###  set_contentAreaMode
-
-Overrides the ConentAreaMode value.
-
-#### Parameters
-
-##### value `Telerik.Web.UI.EditorContentAreaMode`
-
-#### Returns
-
-`None` 
-
-###  set_enableAriaSupport
-
-Configures the state of the Aria support. 
-
-#### Parameters
-
-##### value `Boolean`
-
-##### role `String`
-
-The role value to be set. 
-
-#### Returns
-
-`None` 
-
-###  set_enabled
-
-Sets the enable/disable state of the tool.
-
-#### Parameters
-
-##### value `Boolean`
-
-Defines whether the tool to be enabled or not.
-
-#### Returns
-
-`None` 
-
-###  set_height
-
-Sets the height value of the tool.
-
-#### Parameters
-
-##### value `String`
-
-#### Returns
-
-`None` 
-
-###  set_text
-
-Overrides the Text value of the tool.
-
-#### Parameters
-
-##### value `String`
-
-#### Returns
-
-`None` 
-
-###  set_width
-
-Sets the width value of the tool.
-
-#### Parameters
-
-##### value `String`
 
 #### Returns
 
@@ -304,5 +306,6 @@ The EditorButton instance raised the event.
 ##### args `Sys.EventArgs`
 
 The event arguments.
+
 
 

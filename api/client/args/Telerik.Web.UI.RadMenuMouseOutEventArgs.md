@@ -12,3 +12,4 @@ slug: Telerik.Web.UI.RadMenuMouseOutEventArgs
 * [Telerik.Web.UI.RadMenuItemEventArgs]({%slug Telerik.Web.UI.RadMenuItemEventArgs%})
 * *[Telerik.Web.UI.RadMenuMouseOutEventArgs]({%slug Telerik.Web.UI.RadMenuMouseOutEventArgs%})*
 
+

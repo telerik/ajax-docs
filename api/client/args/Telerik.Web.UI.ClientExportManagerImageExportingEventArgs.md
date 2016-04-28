@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.ClientExportManagerImageExportingEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.ClientExportManagerImageExportingEventArgs]({%slug Telerik.Web.UI.ClientExportManagerImageExportingEventArgs%})*
 
+
 ## Methods
 
 ###  get_dataURI 
@@ -23,3 +24,4 @@ Returns the image dataURI.
 #### Returns
 
 `String` the image dataURI. 
+

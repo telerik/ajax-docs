@@ -11,6 +11,7 @@ slug: Telerik.Web.UI.DataSourceSettings.WebServiceDataSourceSettings
 
 * *[Telerik.Web.UI.DataSourceSettings.WebServiceDataSourceSettings]({%slug Telerik.Web.UI.DataSourceSettings.WebServiceDataSourceSettings%})*
 
+
 ## Methods
 
 ###  get_baseUrl
@@ -21,12 +22,13 @@ slug: Telerik.Web.UI.DataSourceSettings.WebServiceDataSourceSettings
 
 `None` 
 
-###  set_baseUrl
+### set_baseUrl
 
 #### Parameters
 
 #### Returns
 
 `None` 
+
 
 

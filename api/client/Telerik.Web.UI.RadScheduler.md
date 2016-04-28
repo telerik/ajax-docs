@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.RadScheduler
 * [Telerik.Web.UI.RadWebControl]({%slug Telerik.Web.UI.RadWebControl%})
 * *[Telerik.Web.UI.RadScheduler]({%slug Telerik.Web.UI.RadScheduler%})*
 
+
 ## Methods
 
 ###  deleteAppointment
@@ -32,7 +33,7 @@ Deletes the specified Appointment. Postbacks if not bound to a web service.
 
 `None` 
 
-###  deleteAppointmentWithConfirmation
+### deleteAppointmentWithConfirmation
 
 Deletes the specified Appointment. This method is identical to deleteAppointment, but the user is presented with a confirmation dialog if the deleted appointment is recurring.
 
@@ -46,7 +47,7 @@ Deletes the specified Appointment. This method is identical to deleteAppointment
 
 `None` 
 
-###  displayToUtc
+### displayToUtc
 
 Converts a date time object from client date format to UTC using the timeZoneOffset property.
 
@@ -60,7 +61,7 @@ Converts a date time object from client date format to UTC using the timeZoneOff
 
 `Date`  The date in UTC format which corresponds to the supplied client format date. 
 
-###  editAppointment
+### editAppointment
 
 Starts editing the specified Appointment.
 
@@ -78,7 +79,7 @@ Starts editing the specified Appointment.
 
 `None` 
 
-###  editAppointmentWithConfirmation
+### editAppointmentWithConfirmation
 
 Starts editing the specified Appointment. This method is identical to editAppointment, but the user is presented with a confirmation dialog if the edited appointment is recurring.
 
@@ -92,21 +93,7 @@ Starts editing the specified Appointment. This method is identical to editAppoin
 
 `None` 
 
-###  getAppointmentFromDomElement
-
-Gets the appointment that corresponds to the specified DOM element.
-
-#### Parameters
-
-##### element `Element`
-
- The appointment DOM element 
-
-#### Returns
-
-`Telerik.Web.UI.SchedulerAppointment`  The corresponding appointment. Null if the element does not belong to an appointment. 
-
-###  get_activeModel
+### get_activeModel
 
 Gets the model that represents the current view. The model is responsible for mapping time slots to DOM elements and appointments to time slots.
 
@@ -116,7 +103,7 @@ Gets the model that represents the current view. The model is responsible for ma
 
 `Telerik.Web.UI.ISchedulerModel`  The model that represents the current view. 
 
-###  get_allowDelete
+### get_allowDelete
 
 Gets a value indicating if the appointments can be deleted.
 
@@ -126,7 +113,7 @@ Gets a value indicating if the appointments can be deleted.
 
 `Boolean`  true if the appointment deleting is allowed
 
-###  get_allowEdit
+### get_allowEdit
 
 Gets a value indicating if the appointments can be edited. This includes moving and resizing.
 
@@ -136,7 +123,7 @@ Gets a value indicating if the appointments can be edited. This includes moving 
 
 `Boolean`  true if the appointment editing is allowed
 
-###  get_allowInsert
+### get_allowInsert
 
 Gets a value indicating if the appointments can be inserted.
 
@@ -146,7 +133,7 @@ Gets a value indicating if the appointments can be inserted.
 
 `Boolean`  true if the appointment inserting is allowed
 
-###  get_appointments
+### get_appointments
 
 Gets a collection of all loaded appointments.
 
@@ -156,7 +143,7 @@ Gets a collection of all loaded appointments.
 
 `Telerik.Web.UI.SchedulerAppointmentCollection`  Collection of all loaded appointments. 
 
-###  get_attributes
+### get_attributes
 
 Gets a collection of all attributes of the scheduler.
 
@@ -166,7 +153,7 @@ Gets a collection of all attributes of the scheduler.
 
 `Telerik.Web.UI.SchedulerAttributeCollection`  Collection of all attributes of the scheduler. 
 
-###  get_currentAppointment
+### get_currentAppointment
 
 Gets the currently edited appointment.
 
@@ -176,7 +163,7 @@ Gets the currently edited appointment.
 
 `Telerik.Web.UI.SchedulerAppointment`  The currently edited appointment. Null if no appointment is edited at the moment. 
 
-###  get_displayDeleteConfirmation
+### get_displayDeleteConfirmation
 
 Gets a value indicating whether a delete confirmation dialog should be displayed when the user clicks the "delete" button of an appointment.
 
@@ -186,7 +173,7 @@ Gets a value indicating whether a delete confirmation dialog should be displayed
 
 `Boolean`  true if the confirmation dialog should be displayed
 
-###  get_displayRecurrenceActionDialogOnMove
+### get_displayRecurrenceActionDialogOnMove
 
 Gets a value indicating whether a recurrence action dialog should be displayed when moving recurrent appointments.
 
@@ -196,7 +183,7 @@ Gets a value indicating whether a recurrence action dialog should be displayed w
 
 `Boolean`  true if the confirmation dialog should be displayed
 
-###  get_durationBetweenTimeSlots
+### get_durationBetweenTimeSlots
 
 Gets the duration between two timeslots (including their own duration).
 
@@ -214,7 +201,7 @@ Gets the duration between two timeslots (including their own duration).
 
 `Number`  The duration between two timeslots in milliseconds. 
 
-###  get_durationOfSelectedArea
+### get_durationOfSelectedArea
 
 Gets the duration of the area formed by the selected time slots.
 
@@ -224,7 +211,7 @@ Gets the duration of the area formed by the selected time slots.
 
 `Number`  The sum of the durations of the selected time slots as milliseconds. 
 
-###  get_firstDayStart
+### get_firstDayStart
 
 Gets the start date of the current view. In day view, this is the start of the visible day.
 
@@ -234,7 +221,7 @@ Gets the start date of the current view. In day view, this is the start of the v
 
 `Date`  The start date of the current view. 
 
-###  get_groupBy
+### get_groupBy
 
 Gets the name of the resource to group by. Can also be in the format "Date,[Resource Name]" when grouping by date.
 
@@ -244,7 +231,7 @@ Gets the name of the resource to group by. Can also be in the format "Date,[Reso
 
 `String`  The name of the resource to group by. 
 
-###  get_height
+### get_height
 
 Gets the height of RadScheduler.
 
@@ -254,7 +241,7 @@ Gets the height of RadScheduler.
 
 `String`  The height of RadScheduler. 
 
-###  get_hoursPanelTimeFormat
+### get_hoursPanelTimeFormat
 
 Gets the hours panel time format string.
 
@@ -264,7 +251,7 @@ Gets the hours panel time format string.
 
 `String`  The hours panel time format string. 
 
-###  get_minimumInlineFormHeight
+### get_minimumInlineFormHeight
 
 Gets the minimum height of the inline insert/edit template in pixels.
 
@@ -274,7 +261,7 @@ Gets the minimum height of the inline insert/edit template in pixels.
 
 `Number`  The minimum height of the inline insert
 
-###  get_minimumInlineFormWidth
+### get_minimumInlineFormWidth
 
 Gets the minimum width of the inline insert/edit template in pixels.
 
@@ -284,7 +271,7 @@ Gets the minimum width of the inline insert/edit template in pixels.
 
 `Number`  The minimum width of the inline insert
 
-###  get_minutesPerRow
+### get_minutesPerRow
 
 Gets the number of minutes which a single row represents.
 
@@ -294,7 +281,7 @@ Gets the number of minutes which a single row represents.
 
 `Number`  The number of minutes which a single row represents. 
 
-###  get_numberOfHoveredRows
+### get_numberOfHoveredRows
 
 Gets the number of rows that are hovered when the mouse is over the appointment area.
 
@@ -304,7 +291,7 @@ Gets the number of rows that are hovered when the mouse is over the appointment 
 
 `Number`  The number of rows that are hovered when the mouse is over the appointment area. 
 
-###  get_readOnly
+### get_readOnly
 
 Gets a value indicating whether RadScheduler is in read-only mode.
 
@@ -314,27 +301,7 @@ Gets a value indicating whether RadScheduler is in read-only mode.
 
 `Boolean`  true if the scheduler is read
 
-###  get_resourceStyles
-
-Gets a collection of all loaded resource style mappings.
-
-#### Parameters
-
-#### Returns
-
-`Telerik.Web.UI.ResourceStyleMappingCollection`  Collection of all loaded resource style mappings. 
-
-###  get_resourceTypes
-
-Gets a collection of all loaded resource types.
-
-#### Parameters
-
-#### Returns
-
-`Telerik.Web.UI.ResourceTypeCollection`  Collection of all loaded resource types. 
-
-###  get_resources
+### get_resources
 
 Gets a collection of all loaded resources.
 
@@ -344,7 +311,27 @@ Gets a collection of all loaded resources.
 
 `Telerik.Web.UI.SchedulerResourceCollection`  Collection of all loaded resources. 
 
-###  get_rowHeight
+### get_resourceStyles
+
+Gets a collection of all loaded resource style mappings.
+
+#### Parameters
+
+#### Returns
+
+`Telerik.Web.UI.ResourceStyleMappingCollection`  Collection of all loaded resource style mappings. 
+
+### get_resourceTypes
+
+Gets a collection of all loaded resource types.
+
+#### Parameters
+
+#### Returns
+
+`Telerik.Web.UI.ResourceTypeCollection`  Collection of all loaded resource types. 
+
+### get_rowHeight
 
 Gets the height of RadScheduler rows.
 
@@ -354,7 +341,7 @@ Gets the height of RadScheduler rows.
 
 `String`  The height of RadScheduler rows. 
 
-###  get_selectedDate
+### get_selectedDate
 
 Gets the currently selected date.
 
@@ -364,7 +351,7 @@ Gets the currently selected date.
 
 `Date`  the currently selected date. 
 
-###  get_selectedSlots
+### get_selectedSlots
 
 Gets the currently selected time slots.
 
@@ -374,7 +361,7 @@ Gets the currently selected time slots.
 
 `Array`  the currently selected time slots. 
 
-###  get_selectedView
+### get_selectedView
 
 Gets the type of the currently selected view.
 
@@ -384,7 +371,7 @@ Gets the type of the currently selected view.
 
 `Telerik.Web.UI.SchedulerViewType`  The currently selected view. 
 
-###  get_showFullTime
+### get_showFullTime
 
 Gets a value indicating whether to display the complete day (24-hour view) or the range between dayStartTime and dayEndTime.
 
@@ -394,7 +381,7 @@ Gets a value indicating whether to display the complete day (24-hour view) or th
 
 `Boolean`  true if showing the complete day 
 
-###  get_timeLabelRowSpan
+### get_timeLabelRowSpan
 
 Gets the number of rows each time label spans.
 
@@ -404,7 +391,7 @@ Gets the number of rows each time label spans.
 
 `Number`  The number of rows each time label spans. 
 
-###  get_webServiceSettings
+### get_webServiceSettings
 
 The web service to be used for binding this instance of RadScheduler.
 
@@ -414,7 +401,21 @@ The web service to be used for binding this instance of RadScheduler.
 
 `Telerik.Web.UI.SchedulerWebServiceSettings`  The web service to be used for binding this instance of RadScheduler. 
 
-###  hideAdvancedForm
+### getAppointmentFromDomElement
+
+Gets the appointment that corresponds to the specified DOM element.
+
+#### Parameters
+
+##### element `Element`
+
+ The appointment DOM element 
+
+#### Returns
+
+`Telerik.Web.UI.SchedulerAppointment`  The corresponding appointment. Null if the element does not belong to an appointment. 
+
+### hideAdvancedForm
 
 Hides the currently shown modal advanced form.
 
@@ -424,7 +425,7 @@ Hides the currently shown modal advanced form.
 
 `None` 
 
-###  hideInlineForm
+### hideInlineForm
 
 Hides the currently shown inline form.
 
@@ -434,7 +435,7 @@ Hides the currently shown inline form.
 
 `None` 
 
-###  insertAppointment
+### insertAppointment
 
 Stores the specified Appointment. Postbacks if not bound to a web service.
 
@@ -448,7 +449,7 @@ Stores the specified Appointment. Postbacks if not bound to a web service.
 
 `None` 
 
-###  prepareToEdit
+### prepareToEdit
 
 Prepares the specified appointment for editing. If the specified appointment is not recurring, the method does nothing and returns the same appointment. If the appointment is recurring and editSeries is set to true the method returns the recurrence parent. Otherwise, the method clones the appointment and updates it state to recurrence exception.
 
@@ -466,7 +467,7 @@ Prepares the specified appointment for editing. If the specified appointment is 
 
 `None` 
 
-###  rebind
+### rebind
 
 Web Service binding only. Rebinds the scheduler from the web service.
 
@@ -476,7 +477,7 @@ Web Service binding only. Rebinds the scheduler from the web service.
 
 `None` 
 
-###  removeRecurrenceExceptions
+### removeRecurrenceExceptions
 
 Web Service binding only. Removes the associated recurrence exceptions.
 
@@ -490,7 +491,7 @@ Web Service binding only. Removes the associated recurrence exceptions.
 
 `None` 
 
-###  repaint
+### repaint
 
 Updates the control layout. Call this function after changing the size of the control.
 
@@ -500,7 +501,7 @@ Updates the control layout. Call this function after changing the size of the co
 
 `None` 
 
-###  set_allowDelete
+### set_allowDelete
 
 Sets a value indicating if the appointments can be deleted.
 
@@ -514,7 +515,7 @@ Sets a value indicating if the appointments can be deleted.
 
 `None` 
 
-###  set_allowEdit
+### set_allowEdit
 
 Sets a value indicating if the appointments can be edited.
 
@@ -528,7 +529,7 @@ Sets a value indicating if the appointments can be edited.
 
 `None` 
 
-###  set_allowInsert
+### set_allowInsert
 
 Sets a value indicating if the appointments can be inserted.
 
@@ -542,7 +543,7 @@ Sets a value indicating if the appointments can be inserted.
 
 `None` 
 
-###  set_displayDeleteConfirmation
+### set_displayDeleteConfirmation
 
 Sets a value indicating whether a delete confirmation dialog should be displayed when the user clicks the "delete" button of an appointment.
 
@@ -556,7 +557,7 @@ Sets a value indicating whether a delete confirmation dialog should be displayed
 
 `None` 
 
-###  set_displayRecurrenceActionDialogOnMove
+### set_displayRecurrenceActionDialogOnMove
 
 Sets a value indicating whether a recurrence action dialog should be displayed when moving recurrent appointments.
 
@@ -570,7 +571,7 @@ Sets a value indicating whether a recurrence action dialog should be displayed w
 
 `None` 
 
-###  set_height
+### set_height
 
 Sets the height of RadScheduler.
 
@@ -584,7 +585,7 @@ Sets the height of RadScheduler.
 
 `None` 
 
-###  set_minimumInlineFormHeight
+### set_minimumInlineFormHeight
 
 Sets the minimum height of the inline insert/edit template in pixels.
 
@@ -598,7 +599,7 @@ Sets the minimum height of the inline insert/edit template in pixels.
 
 `None` 
 
-###  set_minimumInlineFormWidth
+### set_minimumInlineFormWidth
 
 Sets the minimum width of the inline insert/edit template in pixels.
 
@@ -612,7 +613,7 @@ Sets the minimum width of the inline insert/edit template in pixels.
 
 `None` 
 
-###  set_numberOfHoveredRows
+### set_numberOfHoveredRows
 
 Sets the number of rows that are hovered when the mouse is over the appointment area.
 
@@ -626,7 +627,7 @@ Sets the number of rows that are hovered when the mouse is over the appointment 
 
 `None` 
 
-###  set_readOnly
+### set_readOnly
 
 Sets a value indicating whether RadScheduler is in read-only mode.
 
@@ -640,7 +641,7 @@ Sets a value indicating whether RadScheduler is in read-only mode.
 
 `None` 
 
-###  set_selectedDate
+### set_selectedDate
 
 Web Service binding only. Sets the currently selected date.
 
@@ -654,7 +655,7 @@ Web Service binding only. Sets the currently selected date.
 
 `None` 
 
-###  set_selectedView
+### set_selectedView
 
 Web Service binding only. Sets the currently selected view type.
 
@@ -668,7 +669,7 @@ Web Service binding only. Sets the currently selected view type.
 
 `None` 
 
-###  set_showFullTime
+### set_showFullTime
 
 Web Service binding only. Sets a value indicating whether to display the complete day (24-hour view) or the range between dayStartTime and dayEndTime.
 
@@ -682,7 +683,7 @@ Web Service binding only. Sets a value indicating whether to display the complet
 
 `None` 
 
-###  showAdvancedEditForm
+### showAdvancedEditForm
 
 Shows the advanced edit form populated with the specified appointment.
 
@@ -700,7 +701,7 @@ Shows the advanced edit form populated with the specified appointment.
 
 `None` 
 
-###  showAdvancedInsertForm
+### showAdvancedInsertForm
 
 Shows the advanced insert form populated with the specified appointment start date.
 
@@ -714,7 +715,7 @@ Shows the advanced insert form populated with the specified appointment start da
 
 `None` 
 
-###  showAllDayAdvancedInsertForm
+### showAllDayAdvancedInsertForm
 
 Shows the advanced insert form populated with the specified appointment start date. The appointment will be initially marked as all-day.
 
@@ -728,7 +729,7 @@ Shows the advanced insert form populated with the specified appointment start da
 
 `None` 
 
-###  showAllDayInlineInsertForm
+### showAllDayInlineInsertForm
 
 Shows the in-line insert form for an all-day appointment on the specified date. Applicable in Day/Week/MultiDay view.
 
@@ -742,7 +743,7 @@ Shows the in-line insert form for an all-day appointment on the specified date. 
 
 `None` 
 
-###  showInlineEditForm
+### showInlineEditForm
 
 Shows the in-line edit form for the specified appointment. A postback will occur if a custom InlineEditTemplate is in use.
 
@@ -760,7 +761,7 @@ Shows the in-line edit form for the specified appointment. A postback will occur
 
 `None` 
 
-###  showInlineInsertForm
+### showInlineInsertForm
 
 Shows the in-line insert form at the specified time slot. The formCreating client-side event will be fired. A postback will occur if a custom InlineInsertTemplate is in use.
 
@@ -774,7 +775,7 @@ Shows the in-line insert form at the specified time slot. The formCreating clien
 
 `None` 
 
-###  updateAppointment
+### updateAppointment
 
 Updates the specified Appointment. Postbacks if not bound to a web service.
 
@@ -792,7 +793,7 @@ Updates the specified Appointment. Postbacks if not bound to a web service.
 
 `None` 
 
-###  utcToDisplay
+### utcToDisplay
 
 Converts a date time object from UTC to client date format using the timeZoneOffset property.
 
@@ -806,25 +807,12 @@ Converts a date time object from UTC to client date format using the timeZoneOff
 
 `Date`  The date in client format which corresponds to the supplied UTC date. 
 
+
 ## Events
 
-### appointmentClick
+### appointmentsPopulating
 
-This event is fired when the user clicks an appointment.
-
-#### Event Data
-
-#####  sender `Telerik.Web.UI.RadScheduler`
-
-The instance of the RadScheduler raised the event.
-
-##### args `Telerik.Web.UI.SchedulerAppointmentClickEventArgs`
-
-The event arguments.  
-
-### appointmentContextMenu
-
-This event is fired when the user right-clicks on an appointment
+This event is  fired when the scheduler is about to request appointments.
 
 #### Event Data
 
@@ -832,119 +820,7 @@ This event is fired when the user right-clicks on an appointment
 
 The instance of the RadScheduler raised the event.
 
-##### args `Telerik.Web.UI.SchedulerAppointmentContextMenuEventArgs`
-
-The event arguments.  
-
-### appointmentCreated
-
-This event is fired when an appointment is received and has been rendered
-
-#### Event Data
-
-#####  sender `Telerik.Web.UI.RadScheduler`
-
-The instance of the RadScheduler raised the event.
-
-##### args `Telerik.Web.UI.AppointmentEventArgs`
-
-The event arguments.  
-
-### appointmentDataBound
-
-This event is fired when an appointment is received and is about to be rendered. 
-
-#### Event Data
-
-#####  sender `Telerik.Web.UI.RadScheduler`
-
-The instance of the RadScheduler raised the event.
-
-##### args `Telerik.Web.UI.Scheduler.AppointmentDataBoundEventArgs`
-
-The event arguments.
-
-### appointmentDeleting
-
-This event is fired when appointment is about to be deleted. 
-
-#### Event Data
-
-#####  sender `Telerik.Web.UI.RadScheduler`
-
-The instance of the RadScheduler raised the event.
-
-##### args `Telerik.Web.UI.SchedulerAppointmentDeletingEventArgs`
-
-The event arguments.  
-
-### appointmentDoubleClick
-
-This event is fired when the user double-clicks an appointment.
-
-#### Event Data
-
-#####  sender `Telerik.Web.UI.RadScheduler`
-
-The instance of the RadScheduler raised the event.
-
-##### args `Telerik.Web.UI.SchedulerAppointmentDoubleClickEventArgs`
-
-The event arguments.  
-
-### appointmentEditing
-
-This event is fired when appointment is about to be edited.
-
-#### Event Data
-
-#####  sender `Telerik.Web.UI.RadScheduler`
-
-The instance of the RadScheduler raised the event.
-
-##### args `Telerik.Web.UI.SchedulerAppointmentEditingEventArgs`
-
-The event arguments.  
-
-### appointmentInserting
-
-This event is fired when appointment is about to be inserted.
-
-#### Event Data
-
-#####  sender `Telerik.Web.UI.RadScheduler`
-
-The instance of the RadScheduler raised the event.
-
-##### args `Telerik.Web.UI.SchedulerAppointmentInsertingEventArgs`
-
-The event arguments.  
-
-### appointmentMoveEnd
-
-This event is fired when the user stops moving an appointment. 
-
-#### Event Data
-
-#####  sender `Telerik.Web.UI.RadScheduler`
-
-The instance of the RadScheduler raised the event.
-
-##### args `Telerik.Web.UI.SchedulerAppointmentMoveEndEventArgs`
-
-The event arguments.  
-
-### appointmentMoveStart
-
-This event is fired when the user starts to move an appointment.
-
-#### Event Data
-
-#####  sender `Telerik.Web.UI.RadScheduler`
-
-The instance of the RadScheduler raised the event.
-
-##### args `Telerik.Web.UI.SchedulerAppointmentMoveStartEventArgs`
+##### args `Telerik.Web.UI.SchedulerWebServiceEventArgs`
 
 The event arguments.
 
@@ -962,23 +838,9 @@ The instance of the RadScheduler raised the event.
 
 The event arguments.
 
-### appointmentResizeEnd
+### recurrenceActionDialogShowing
 
-This event is fired when the user releases the mouse after resizing an appointment.
-
-#### Event Data
-
-#####  sender `Telerik.Web.UI.RadScheduler`
-
-The instance of the RadScheduler raised the event.
-
-##### args `Telerik.Web.UI.SchedulerAppointmentResizeEndEventArgs`
-
-The event arguments.
-
-### appointmentResizeStart
-
-This event is fired when the user starts resizing an appointment.
+This event is fired just before the dialog appears to ask whether the change the user just started on a recurring appointment is to affect the appointment itself or the entire series. 
 
 #### Event Data
 
@@ -986,131 +848,7 @@ This event is fired when the user starts resizing an appointment.
 
 The instance of the RadScheduler raised the event.
 
-##### args `Telerik.Web.UI.SchedulerAppointmentResizeStartEventArgs`
-
-The event arguments.
-
-### appointmentResizing
-
-This event is fired when the user moves the mouse while resizing an appointment.
-
-#### Event Data
-
-#####  sender `Telerik.Web.UI.RadScheduler`
-
-The instance of the RadScheduler raised the event.
-
-##### args `Telerik.Web.UI.SchedulerAppointmentResizingEventArgs`
-
-The event arguments.
-
-### appointmentWebServiceDeleting
-
-This event is fired when an appointment is about to be deleted via Web Service call. 
-
-#### Event Data
-
-#####  sender `Telerik.Web.UI.RadScheduler`
-
-The instance of the RadScheduler raised the event.
-
-##### args `Telerik.Web.UI.SchedulerAppointmentWebServiceDeleting`
-
-The event arguments.  
-
-### appointmentWebServiceInserting
-
-This event is fired when appointment is about to be inserted via Web Service call.
-
-#### Event Data
-
-#####  sender `Telerik.Web.UI.RadScheduler`
-
-The instance of the RadScheduler raised the event.
-
-##### args `Telerik.Web.UI.SchedulerAppointmentWebServiceInserting`
-
-The event arguments.  
-
-### appointmentWebServiceUpdating
-
-This event is fired when appointment is about to be updated via Web Service call.
-
-#### Event Data
-
-##### sender `Telerik.Web.UI.RadScheduler`
-
-The instance of the RadScheduler raised the event.
-
-##### args `Telerik.Web.UI.SchedulerAppointmentWebServiceUpdating`
-
-The event arguments.  
-
-### appointmentsPopulated
-
-This event is fired when the scheduler has received appointments from the Web Service.
-
-#### Event Data
-
-##### sender `Telerik.Web.UI.RadScheduler`
-
-The instance of the RadScheduler raised the event.
-
-##### args `Sys.EventArgs`
-
-Empty event args.
-
-### appointmentsPopulating
-
-This event is  fired when the scheduler is about to request appointments.
-
-#### Event Data
-
-#####  sender `Telerik.Web.UI.RadScheduler`
-
-The instance of the RadScheduler raised the event.
-
-##### args `Telerik.Web.UI.SchedulerWebServiceEventArgs`
-
-The event arguments.
-
-### dataBound
-
-This event is fired when the scheduler has been populated with data.
-
-#### Event Data
-
-##### sender `Telerik.Web.UI.RadScheduler`
-
-The instance of the RadScheduler raised the event.
-
-##### args `Sys.EventArgs`
-
-### formCreated
-
-This event is fired when an in-line editor or edit form is about to appear.
-
-#### Event Data
-
-#####  sender `Telerik.Web.UI.RadScheduler`
-
-The instance of the RadScheduler raised the event.
-
-##### args `Telerik.Web.UI.SchedulerFormCreatedEventArgs`
-
-The event arguments.
-
-### navigationCommand
-
-This event is fired when the scheduler is about to execute a navigation command.
-
-#### Event Data
-
-#####  sender `Telerik.Web.UI.RadScheduler`
-
-The instance of the RadScheduler raised the event.
-
-##### args `Telerik.Web.UI.Scheduler.NavigationCommandEventArgs`
+##### args `Telerik.Web.UI.SchedulerRecurrenceActionDialogShowingEventArgs`
 
 The event arguments.
 
@@ -1128,34 +866,6 @@ The instance of the RadScheduler raised the event.
 
 The event arguments.  
 
-### recurrenceActionDialogClosed
-
-This event is fired when the dialog that asks whether a change affects a single occurrence or an entire series closes. 
-
-#### Event Data
-
-#####  sender `Telerik.Web.UI.RadScheduler`
-
-The instance of the RadScheduler raised the event.
-
-##### args `Telerik.Web.UI.SchedulerRecurrenceActionDialogClosedEventArgs`
-
-The event arguments.  
-
-### recurrenceActionDialogShowing
-
-This event is fired just before the dialog appears to ask whether the change the user just started on a recurring appointment is to affect the appointment itself or the entire series. 
-
-#### Event Data
-
-#####  sender `Telerik.Web.UI.RadScheduler`
-
-The instance of the RadScheduler raised the event.
-
-##### args `Telerik.Web.UI.SchedulerRecurrenceActionDialogShowingEventArgs`
-
-The event arguments.
-
 ### recurrenceExceptionCreating
 
 This event is fired when a recurrence exception is about to be created via Web Service call. 
@@ -1167,20 +877,6 @@ This event is fired when a recurrence exception is about to be created via Web S
 The instance of the RadScheduler raised the event.
 
 ##### args `Telerik.Web.UI.SchedulerRecurrenceExceptionCreatingEventArgs`
-
-The event arguments.
-
-### recurrenceExceptionsRemoving
-
-This event is fired when recurrence exceptions are about to be removed via Web Service call. 
-
-#### Event Data
-
-#####  sender `Telerik.Web.UI.RadScheduler`
-
-The instance of the RadScheduler raised the event.
-
-##### args `Telerik.Web.UI.SchedulerRecurrenceExceptionRemovingEventArgs`
 
 The event arguments.
 
@@ -1212,21 +908,9 @@ The instance of the RadScheduler raised the event.
 
 The event arguments.
 
-### resourcesPopulated
+### appointmentWebServiceDeleting
 
-This event is fired when the scheduler has received resources.
-
-#### Event Data
-
-##### sender `Telerik.Web.UI.RadScheduler`
-
-The instance of the RadScheduler raised the event.
-
-##### args `Sys.EventArgs`
-
-### resourcesPopulating
-
-This event is fired when the scheduler is about to request resources.
+This event is fired when an appointment is about to be deleted via Web Service call. 
 
 #### Event Data
 
@@ -1234,13 +918,13 @@ This event is fired when the scheduler is about to request resources.
 
 The instance of the RadScheduler raised the event.
 
-##### args `Telerik.Web.UI.SchedulerWebServiceEventArgs`
+##### args `Telerik.Web.UI.SchedulerAppointmentWebServiceDeleting`
 
 The event arguments.  
 
-### timeSlotClick
+### appointmentCreated
 
-This event is fired when the user clicks on a time slot in the scheduler.
+This event is fired when an appointment is received and has been rendered
 
 #### Event Data
 
@@ -1248,13 +932,27 @@ This event is fired when the user clicks on a time slot in the scheduler.
 
 The instance of the RadScheduler raised the event.
 
-##### args `Telerik.Web.UI.SchedulerTimeSlotClickEventArgs`
+##### args `Telerik.Web.UI.AppointmentEventArgs`
+
+The event arguments.  
+
+### appointmentDataBound
+
+This event is fired when an appointment is received and is about to be rendered. 
+
+#### Event Data
+
+#####  sender `Telerik.Web.UI.RadScheduler`
+
+The instance of the RadScheduler raised the event.
+
+##### args `Telerik.Web.UI.Scheduler.AppointmentDataBoundEventArgs`
 
 The event arguments.
 
-### timeSlotContextMenu
+### reminderDismissing
 
-This event is fired when the user right-clicks on a time slot in the scheduler.
+This event is fired when an appointment reminder is due and is about to be dismissed.
 
 #### Event Data
 
@@ -1262,7 +960,22 @@ This event is fired when the user right-clicks on a time slot in the scheduler.
 
 The instance of the RadScheduler raised the event.
 
-##### args `Telerik.Web.UI.SchedulerTimeSlotContextMenuEventArgs`
+##### args `Telerik.Web.UI.SchedulerReminderDismissingEventArgs`
+
+The event arguments.
+
+
+### reminderSnoozing
+
+This event is fired when an appointment reminder is due and is about to be snoozed.
+
+#### Event Data
+
+#####  sender `Telerik.Web.UI.RadScheduler`
+
+The instance of the RadScheduler raised the event.
+
+##### args `Telerik.Web.UI.SchedulerReminderSnoozingEventArgs`
 
 The event arguments.
 
@@ -1280,23 +993,9 @@ The instance of the RadScheduler raised the event.
 
 The event arguments.
 
-### reminderSnoozing
+### formCreated
 
-This event is fired when an appointment reminder is due and is about to be snoozed.
-
-#### Event Data
-
-#####  sender `Telerik.Web.UI.RadScheduler`
-
-The instance of the RadScheduler raised the event.
-
-##### args `Telerik.Web.UI.SchedulerReminderSnoozingEventArgs`
-
-The event arguments.
-
-### reminderDismissing
-
-This event is fired when an appointment reminder is due and is about to be dismissed.
+This event is fired when an in-line editor or edit form is about to appear.
 
 #### Event Data
 
@@ -1304,8 +1003,312 @@ This event is fired when an appointment reminder is due and is about to be dismi
 
 The instance of the RadScheduler raised the event.
 
-##### args `Telerik.Web.UI.SchedulerReminderDismissingEventArgs`
+##### args `Telerik.Web.UI.SchedulerFormCreatedEventArgs`
 
 The event arguments.
+
+### appointmentDeleting
+
+This event is fired when appointment is about to be deleted. 
+
+#### Event Data
+
+#####  sender `Telerik.Web.UI.RadScheduler`
+
+The instance of the RadScheduler raised the event.
+
+##### args `Telerik.Web.UI.SchedulerAppointmentDeletingEventArgs`
+
+The event arguments.  
+
+### appointmentEditing
+
+This event is fired when appointment is about to be edited.
+
+#### Event Data
+
+#####  sender `Telerik.Web.UI.RadScheduler`
+
+The instance of the RadScheduler raised the event.
+
+##### args `Telerik.Web.UI.SchedulerAppointmentEditingEventArgs`
+
+The event arguments.  
+
+### appointmentWebServiceInserting
+
+This event is fired when appointment is about to be inserted via Web Service call.
+
+#### Event Data
+
+#####  sender `Telerik.Web.UI.RadScheduler`
+
+The instance of the RadScheduler raised the event.
+
+##### args `Telerik.Web.UI.SchedulerAppointmentWebServiceInserting`
+
+The event arguments.  
+
+### appointmentInserting
+
+This event is fired when appointment is about to be inserted.
+
+#### Event Data
+
+#####  sender `Telerik.Web.UI.RadScheduler`
+
+The instance of the RadScheduler raised the event.
+
+##### args `Telerik.Web.UI.SchedulerAppointmentInsertingEventArgs`
+
+The event arguments.  
+
+### appointmentWebServiceUpdating
+
+This event is fired when appointment is about to be updated via Web Service call.
+
+#### Event Data
+
+##### sender `Telerik.Web.UI.RadScheduler`
+
+The instance of the RadScheduler raised the event.
+
+##### args `Telerik.Web.UI.SchedulerAppointmentWebServiceUpdating`
+
+The event arguments.  
+
+### recurrenceExceptionsRemoving
+
+This event is fired when recurrence exceptions are about to be removed via Web Service call. 
+
+#### Event Data
+
+#####  sender `Telerik.Web.UI.RadScheduler`
+
+The instance of the RadScheduler raised the event.
+
+##### args `Telerik.Web.UI.SchedulerRecurrenceExceptionRemovingEventArgs`
+
+The event arguments.
+
+### recurrenceActionDialogClosed
+
+This event is fired when the dialog that asks whether a change affects a single occurrence or an entire series closes. 
+
+#### Event Data
+
+#####  sender `Telerik.Web.UI.RadScheduler`
+
+The instance of the RadScheduler raised the event.
+
+##### args `Telerik.Web.UI.SchedulerRecurrenceActionDialogClosedEventArgs`
+
+The event arguments.  
+
+### dataBound
+
+This event is fired when the scheduler has been populated with data.
+
+#### Event Data
+
+##### sender `Telerik.Web.UI.RadScheduler`
+
+The instance of the RadScheduler raised the event.
+
+##### args `Sys.EventArgs`
+
+### appointmentsPopulated
+
+This event is fired when the scheduler has received appointments from the Web Service.
+
+#### Event Data
+
+##### sender `Telerik.Web.UI.RadScheduler`
+
+The instance of the RadScheduler raised the event.
+
+##### args `Sys.EventArgs`
+
+Empty event args.
+
+### resourcesPopulated
+
+This event is fired when the scheduler has received resources.
+
+#### Event Data
+
+##### sender `Telerik.Web.UI.RadScheduler`
+
+The instance of the RadScheduler raised the event.
+
+##### args `Sys.EventArgs`
+
+### navigationCommand
+
+This event is fired when the scheduler is about to execute a navigation command.
+
+#### Event Data
+
+#####  sender `Telerik.Web.UI.RadScheduler`
+
+The instance of the RadScheduler raised the event.
+
+##### args `Telerik.Web.UI.Scheduler.NavigationCommandEventArgs`
+
+The event arguments.
+
+### resourcesPopulating
+
+This event is fired when the scheduler is about to request resources.
+
+#### Event Data
+
+#####  sender `Telerik.Web.UI.RadScheduler`
+
+The instance of the RadScheduler raised the event.
+
+##### args `Telerik.Web.UI.SchedulerWebServiceEventArgs`
+
+The event arguments.  
+
+### appointmentClick
+
+This event is fired when the user clicks an appointment.
+
+#### Event Data
+
+#####  sender `Telerik.Web.UI.RadScheduler`
+
+The instance of the RadScheduler raised the event.
+
+##### args `Telerik.Web.UI.SchedulerAppointmentClickEventArgs`
+
+The event arguments.  
+
+### timeSlotClick
+
+This event is fired when the user clicks on a time slot in the scheduler.
+
+#### Event Data
+
+#####  sender `Telerik.Web.UI.RadScheduler`
+
+The instance of the RadScheduler raised the event.
+
+##### args `Telerik.Web.UI.SchedulerTimeSlotClickEventArgs`
+
+The event arguments.
+
+### appointmentDoubleClick
+
+This event is fired when the user double-clicks an appointment.
+
+#### Event Data
+
+#####  sender `Telerik.Web.UI.RadScheduler`
+
+The instance of the RadScheduler raised the event.
+
+##### args `Telerik.Web.UI.SchedulerAppointmentDoubleClickEventArgs`
+
+The event arguments.  
+
+### appointmentResizing
+
+This event is fired when the user moves the mouse while resizing an appointment.
+
+#### Event Data
+
+#####  sender `Telerik.Web.UI.RadScheduler`
+
+The instance of the RadScheduler raised the event.
+
+##### args `Telerik.Web.UI.SchedulerAppointmentResizingEventArgs`
+
+The event arguments.
+
+### appointmentResizeEnd
+
+This event is fired when the user releases the mouse after resizing an appointment.
+
+#### Event Data
+
+#####  sender `Telerik.Web.UI.RadScheduler`
+
+The instance of the RadScheduler raised the event.
+
+##### args `Telerik.Web.UI.SchedulerAppointmentResizeEndEventArgs`
+
+The event arguments.
+
+### timeSlotContextMenu
+
+This event is fired when the user right-clicks on a time slot in the scheduler.
+
+#### Event Data
+
+#####  sender `Telerik.Web.UI.RadScheduler`
+
+The instance of the RadScheduler raised the event.
+
+##### args `Telerik.Web.UI.SchedulerTimeSlotContextMenuEventArgs`
+
+The event arguments.
+
+### appointmentContextMenu
+
+This event is fired when the user right-clicks on an appointment
+
+#### Event Data
+
+#####  sender `Telerik.Web.UI.RadScheduler`
+
+The instance of the RadScheduler raised the event.
+
+##### args `Telerik.Web.UI.SchedulerAppointmentContextMenuEventArgs`
+
+The event arguments.  
+
+### appointmentResizeStart
+
+This event is fired when the user starts resizing an appointment.
+
+#### Event Data
+
+#####  sender `Telerik.Web.UI.RadScheduler`
+
+The instance of the RadScheduler raised the event.
+
+##### args `Telerik.Web.UI.SchedulerAppointmentResizeStartEventArgs`
+
+The event arguments.
+
+### appointmentMoveStart
+
+This event is fired when the user starts to move an appointment.
+
+#### Event Data
+
+#####  sender `Telerik.Web.UI.RadScheduler`
+
+The instance of the RadScheduler raised the event.
+
+##### args `Telerik.Web.UI.SchedulerAppointmentMoveStartEventArgs`
+
+The event arguments.
+
+### appointmentMoveEnd
+
+This event is fired when the user stops moving an appointment. 
+
+#### Event Data
+
+#####  sender `Telerik.Web.UI.RadScheduler`
+
+The instance of the RadScheduler raised the event.
+
+##### args `Telerik.Web.UI.SchedulerAppointmentMoveEndEventArgs`
+
+The event arguments.  
 
 

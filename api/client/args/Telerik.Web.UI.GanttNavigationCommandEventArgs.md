@@ -7,10 +7,12 @@ slug: Telerik.Web.UI.GanttNavigationCommandEventArgs
 
 # Telerik.Web.UI.GanttNavigationCommandEventArgs: Sys.CancelEventArgs
 
-## Inheritance Hierarchy
+
+Inheritance Hierarchy
 
 * Sys.CancelEventArgs
 * [Telerik.Web.UI.GanttNavigationCommandEventArgs]({%slug Telerik.Web.UI.GanttNavigationCommandEventArgs%})
+
 
 ## Methods
 
@@ -23,3 +25,4 @@ Returns the name of the selected view.
 #### Returns
 
 `String` selected view "day", "week", "month" or "year".
+

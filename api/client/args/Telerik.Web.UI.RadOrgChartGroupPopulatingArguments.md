@@ -12,17 +12,8 @@ slug: Telerik.Web.UI.RadOrgChartGroupPopulatingArguments
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.RadOrgChartGroupPopulatingArguments]({%slug Telerik.Web.UI.RadOrgChartGroupPopulatingArguments%})*
 
+
 ## Methods
-
-### get_groupItemCollection
-
-Returns the group items collection within a node. 
-
-#### Parameters
-
-#### Returns
-
-`Telerik.Web.UI.OrgChartGroupItemCollection` 
 
 ### get_context
 
@@ -33,3 +24,14 @@ Returns a context object (implements IDictionary) that is passed to the server-s
 #### Returns
 
 `Object`
+### get_groupItemCollection
+
+Returns the group items collection within a node. 
+
+#### Parameters
+
+#### Returns
+
+`Telerik.Web.UI.OrgChartGroupItemCollection` 
+
+

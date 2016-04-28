@@ -12,17 +12,8 @@ slug: Telerik.Web.UI.WizardButtonClickedEventArgs
 * Sys.EventArgs
 * *[Telerik.Web.UI.WizardButtonClickedEventArgs]({%slug Telerik.Web.UI.WizardButtonClickedEventArgs%})*
 
+
 ## Methods
-
-### get_command
-
-Returns the command enumeration that is about to be executed.
-
-#### Parameters
-
-#### Returns
-
-`Number`
 
 ### get_activeStep
 
@@ -33,3 +24,14 @@ Returns the current RadWizard active step.
 #### Returns
 
 `Telerik.Web.UI.RadWizardStep`
+### get_command
+
+Returns the command enumeration that is about to be executed.
+
+#### Parameters
+
+#### Returns
+
+`Number`
+
+

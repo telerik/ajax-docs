@@ -12,17 +12,8 @@ slug: Telerik.Web.UI.Editor.MobileKeyboardAdapter
 * Telerik.Web.UI.RadWebControl
 * *[Telerik.Web.UI.Editor.MobileKeyboardAdapter]({%slug Telerik.Web.UI.Editor.MobileKeyboardAdapter%})*
 
+
 ## Methods
-
-### showKeyboard
-
-Shows the keyboard overlay and rises the keyboardShown event
-
-#### Parameters
-
-#### Returns
-
-`None`
 
 ### hideKeyboard
 
@@ -43,3 +34,14 @@ Hides the keyboard overlay, rises the keyboardHidden event and calls dispose met
 #### Returns
 
 `None`
+### showKeyboard
+
+Shows the keyboard overlay and rises the keyboardShown event
+
+#### Parameters
+
+#### Returns
+
+`None`
+
+

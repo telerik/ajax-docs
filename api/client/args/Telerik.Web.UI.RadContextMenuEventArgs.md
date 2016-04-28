@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.RadContextMenuEventArgs
 * Sys.EventArgs
 * *[Telerik.Web.UI.RadContextMenuEventArgs]({%slug Telerik.Web.UI.RadContextMenuEventArgs%})*
 
+
 ## Methods 
 
 ###  get_domEvent
@@ -23,3 +24,4 @@ Returns a reference to the DOM event that caused the opening.
 #### Returns
 
 `Sys.UI.DomEvent`
+

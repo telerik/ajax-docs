@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.SocialDialogEventArgs
 * Sys.EventArgs
 * *[Telerik.Web.UI.SocialDialogEventArgs]({%slug Telerik.Web.UI.SocialDialogEventArgs%})*
 
+
 ## Methods
 
 ###  get_dialog
@@ -24,7 +25,7 @@ Returns a reference to the opened dialog popup.
 
 `Object` 
 
-###  get_socialNetType
+### get_socialNetType
 
 Returns the social type of the button.
 
@@ -34,7 +35,7 @@ Returns the social type of the button.
 
 `String` 
 
-###  get_url
+### get_url
 
 Returns the shared url.
 
@@ -43,5 +44,6 @@ Returns the shared url.
 #### Returns
 
 `String` 
+
 
 

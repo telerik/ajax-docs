@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.RadDiagram
 * [Telerik.Web.UI.RadWebControl]({%slug Telerik.Web.UI.RadWebControl%})
 * *[Telerik.Web.UI.RadDiagram]({%slug Telerik.Web.UI.RadDiagram%})*
 
+
 ## Methods
 
 ###  get_kendoWidget
@@ -40,3 +41,4 @@ The RadDiagram instance that fired the event. You can get the underlying Kendo w
 ##### args `Sys.EventArgs`
 
 Empty event argument.
+

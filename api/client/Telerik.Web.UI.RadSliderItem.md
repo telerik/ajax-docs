@@ -12,17 +12,8 @@ slug: Telerik.Web.UI.RadSliderItem
 
 * *[Telerik.Web.UI.RadSliderItem]({%slug Telerik.Web.UI.RadSliderItem%})*
 
+
 ## Methods
-
-### static Telerik
-
-Initializes a new instance of the Telerik.Web.UI.RadSliderItem class
-
-#### Parameters
-
-#### Returns
-
-`None` 
 
 ### static get_cssClass
 
@@ -111,6 +102,17 @@ Sets a value indicating whether the slider item will be visible or not (uses the
 ##### value `Boolean`
 
 The value indicating whether the slider item will be visible or not
+
+#### Returns
+
+`None` 
+
+
+### static Telerik
+
+Initializes a new instance of the Telerik.Web.UI.RadSliderItem class
+
+#### Parameters
 
 #### Returns
 

@@ -12,11 +12,12 @@ slug: Telerik.Web.UI.RadWindowManager
 * [Telerik.Web.UI.RadWindow]({%slug Telerik.Web.UI.RadWindow%})
 * *[Telerik.Web.UI.RadWindowManager]({%slug Telerik.Web.UI.RadWindowManager%})*
 
+
 ## Methods
 
-### removeShortcut
+### addShortcut
 
-Removes shortcut for the command
+Adds a new shortcut for the command
 
 #### Parameters
 
@@ -24,15 +25,9 @@ Removes shortcut for the command
 
 shortcutCommand
 
-#### Returns
+##### shortcutString `String`
 
-`None` 
-
-### tile
-
-Tiles the window objects
-
-#### Parameters
+shortcutString
 
 #### Returns
 
@@ -48,9 +43,131 @@ Cascades the window objects
 
 `None` 
 
-### restoreAll
+### clearCloneCache
 
-Restores all windows
+Clears cached properties of the manager. This property should be used when a setting of the manager is changed on the client and the change should be applied to new dynamically created windows.
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### closeActiveWindow
+
+Close the active window
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### closeAll
+
+Closes all windows
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### get_windows
+
+Returns a reference to the array of RadWindow objects managed by the RadWindowManager
+
+#### Parameters
+
+#### Returns
+
+`Array` 
+
+### getActiveWindow
+
+Returns a reference to the current active window
+
+#### Parameters
+
+#### Returns
+
+`Telerik.Web.UI.RadWindow` 
+
+### getShortcutString
+
+Returns shortcut string for the command
+
+#### Parameters
+
+##### shortcutCommand `String`
+
+shortcutCommand
+
+#### Returns
+
+`String` 
+
+### getWindowById
+
+Returns a reference to a RadWindow. The Id is the window's server-side Id property
+
+#### Parameters
+
+##### id `String`
+
+#### Returns
+
+`Telerik.Web.UI.RadWindow` 
+
+### getWindowByName
+
+Returns a reference to a RadWindow. The Name is the window's server-side Id property
+
+#### Parameters
+
+##### name `String`
+
+#### Returns
+
+`Telerik.Web.UI.RadWindow` 
+
+### isShortcutAdded
+
+Returns a boolean value indicating whether a shortcut for this command exists
+
+#### Parameters
+
+##### shortcutCommand `String`
+
+shortcutCommand
+
+#### Returns
+
+`Boolean` 
+
+### maximizeAll
+
+Maximizes all windows
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### minimizeActiveWindow
+
+Minimizes the currently active window
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### minimizeAll
+
+Minimizes all windows
 
 #### Parameters
 
@@ -108,49 +225,43 @@ The URL to replace the image for the RadAlert dialog.
 
 `Telerik.Web.UI.RadWindow` The RadWindow instance
 
-### minimizeAll
+### radconfirm
 
-Minimizes all windows
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-### clearCloneCache
-
-Clears cached properties of the manager. This property should be used when a setting of the manager is changed on the client and the change should be applied to new dynamically created windows.
+Displays a RadConfirm dialog with the specified content.
 
 #### Parameters
 
+##### text `String`
+
+Content to show in the RadConfirm dialog.
+
+##### callBackFn `Function`
+
+Callback function that will be called after closing the dialog. The results of the user's action (OK or Cancel) can be processed here.
+
+##### oWidth? `Number`
+
+Width of the RadConfirm dialog.
+
+##### oHeight? `Number`
+
+Height of the RadConfirm dialog.
+
+##### callerObj? `Object`
+
+Backwards compatibility. Set to Null.
+
+##### oTitle? `String`
+
+Title of the RadConfirm dialog.
+
+##### imgUrl? `String`
+
+Optional image to be shown in the RadConfirm dialog.
+
 #### Returns
 
-`None` 
-
-### isShortcutAdded
-
-Returns a boolean value indicating whether a shortcut for this command exists
-
-#### Parameters
-
-##### shortcutCommand `String`
-
-shortcutCommand
-
-#### Returns
-
-`Boolean` 
-
-### restoreActiveWindow
-
-Restores the active window
-
-#### Parameters
-
-#### Returns
-
-`None` 
+`Telerik.Web.UI.RadWindow` The RadWindow instance
 
 ### radprompt
 
@@ -190,74 +301,6 @@ Optional value to be shown in the textbox of the displayed RadPrompt dialog.
 
 `Telerik.Web.UI.RadWindow` The RadWindow instance
 
-### radconfirm
-
-Displays a RadConfirm dialog with the specified content.
-
-#### Parameters
-
-##### text `String`
-
-Content to show in the RadConfirm dialog.
-
-##### callBackFn `Function`
-
-Callback function that will be called after closing the dialog. The results of the user's action (OK or Cancel) can be processed here.
-
-##### oWidth? `Number`
-
-Width of the RadConfirm dialog.
-
-##### oHeight? `Number`
-
-Height of the RadConfirm dialog.
-
-##### callerObj? `Object`
-
-Backwards compatibility. Set to Null.
-
-##### oTitle? `String`
-
-Title of the RadConfirm dialog.
-
-##### imgUrl? `String`
-
-Optional image to be shown in the RadConfirm dialog.
-
-#### Returns
-
-`Telerik.Web.UI.RadWindow` The RadWindow instance
-
-### closeActiveWindow
-
-Close the active window
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-### maximizeAll
-
-Maximizes all windows
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-### getActiveWindow
-
-Returns a reference to the current active window
-
-#### Parameters
-
-#### Returns
-
-`Telerik.Web.UI.RadWindow` 
-
 ### removeAllShortcutsCommand
 
 Removes all shortcuts for the command
@@ -267,6 +310,40 @@ Removes all shortcuts for the command
 ##### shortcutCommand `String`
 
 shortcutCommand
+
+#### Returns
+
+`None` 
+
+### removeShortcut
+
+Removes shortcut for the command
+
+#### Parameters
+
+##### shortcutCommand `String`
+
+shortcutCommand
+
+#### Returns
+
+`None` 
+
+### restoreActiveWindow
+
+Restores the active window
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### restoreAll
+
+Restores all windows
+
+#### Parameters
 
 #### Returns
 
@@ -282,19 +359,9 @@ Shows all windows
 
 `None` 
 
-### closeAll
+### tile
 
-Closes all windows
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-### minimizeActiveWindow
-
-Minimizes the currently active window
+Tiles the window objects
 
 #### Parameters
 
@@ -302,69 +369,4 @@ Minimizes the currently active window
 
 `None` 
 
-### getShortcutString
-
-Returns shortcut string for the command
-
-#### Parameters
-
-##### shortcutCommand `String`
-
-shortcutCommand
-
-#### Returns
-
-`String` 
-
-### get_windows
-
-Returns a reference to the array of RadWindow objects managed by the RadWindowManager
-
-#### Parameters
-
-#### Returns
-
-`Array` 
-
-### getWindowById
-
-Returns a reference to a RadWindow. The Id is the window's server-side Id property
-
-#### Parameters
-
-##### id `String`
-
-#### Returns
-
-`Telerik.Web.UI.RadWindow` 
-
-### getWindowByName
-
-Returns a reference to a RadWindow. The Name is the window's server-side Id property
-
-#### Parameters
-
-##### name `String`
-
-#### Returns
-
-`Telerik.Web.UI.RadWindow` 
-
-### addShortcut
-
-Adds a new shortcut for the command
-
-#### Parameters
-
-##### shortcutCommand `String`
-
-shortcutCommand
-
-##### shortcutString `String`
-
-shortcutString
-
-#### Returns
-
-`None` 
 

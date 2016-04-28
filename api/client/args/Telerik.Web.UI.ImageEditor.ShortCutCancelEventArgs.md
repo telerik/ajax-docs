@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.ImageEditor.ShortCutCancelEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.ImageEditor.ShortCutCancelEventArgs]({%slug Telerik.Web.UI.ImageEditor.ShortCutCancelEventArgs%})*
 
+
 ## Methods
 
 ###  get_shortCut
@@ -24,7 +25,7 @@ Gets the currently used shortcut.
 
 `Telerik.Web.UI.ImageEditorShortCut`
 
-###  get_domEvent
+### get_domEvent
 
 Returns the Sys.UI.DomEvent instance associated to the raised event.
 
@@ -33,3 +34,4 @@ Returns the Sys.UI.DomEvent instance associated to the raised event.
 #### Returns
 
 `Sys.UI.DomEvent` 
+

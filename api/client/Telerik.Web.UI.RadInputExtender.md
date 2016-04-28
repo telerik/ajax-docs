@@ -11,6 +11,7 @@ slug: Telerik.Web.UI.RadInputExtender
 
 * *[Telerik.Web.UI.RadInputExtender]({%slug Telerik.Web.UI.RadInputExtender%})*
 
+
 ## Methods
 
 ###  blur
@@ -23,7 +24,7 @@ Removes focus from the input, moving it to the next control in the tab order of 
 
 `None` 
 
-###  clear
+### clear
 
 Sets the value of the input to an empty string
 
@@ -33,7 +34,7 @@ Sets the value of the input to an empty string
 
 `None` 
 
-###  focus
+### focus
 
 Sets focus to the input so that the user can edit its value
 
@@ -43,7 +44,7 @@ Sets focus to the input so that the user can edit its value
 
 `None` 
 
-###  formatDisplayValue
+### formatDisplayValue
 
 Returns the format display value of RadInputExtender
 
@@ -55,7 +56,7 @@ Returns the format display value of RadInputExtender
 
 `None` 
 
-###  formatEditValue
+### formatEditValue
 
 Returns the format edit value of RadInputExtender
 
@@ -67,7 +68,7 @@ Returns the format edit value of RadInputExtender
 
 `None` 
 
-###  get_id
+### get_id
 
 Gets the id of RadInputExtender
 
@@ -77,7 +78,7 @@ Gets the id of RadInputExtender
 
 `String` 
 
-###  get_owner
+### get_owner
 
 Gets the owner of RadInputExtender
 
@@ -87,7 +88,7 @@ Gets the owner of RadInputExtender
 
 `String` 
 
-###  get_value
+### get_value
 
 Gets the value of RadInputExtender
 
@@ -97,7 +98,7 @@ Gets the value of RadInputExtender
 
 `String` 
 
-###  isEmpty
+### isEmpty
 
 Returns a Boolean value, indicating whether the RadInputExtender is empty
 
@@ -107,7 +108,7 @@ Returns a Boolean value, indicating whether the RadInputExtender is empty
 
 `None` 
 
-###  isNegative
+### isNegative
 
 Returns true if the value of the input extender is negative
 
@@ -117,7 +118,7 @@ Returns true if the value of the input extender is negative
 
 `None` 
 
-###  parseValue
+### parseValue
 
 Parses a string using the DateFormatInfo object and returns the resulting value
 
@@ -129,7 +130,7 @@ Parses a string using the DateFormatInfo object and returns the resulting value
 
 `None` 
 
-###  raise_error
+### raise_error
 
 Returns a Boolean value, indicating whether error is raised
 
@@ -141,7 +142,7 @@ Returns a Boolean value, indicating whether error is raised
 
 `None` 
 
-###  selectAllText
+### selectAllText
 
 Selects all text in RadInputExtender
 
@@ -151,7 +152,7 @@ Selects all text in RadInputExtender
 
 `None` 
 
-###  selectText
+### selectText
 
 Selects the text in the specified range of positions. The first parameter is the start of the range and the second is the end of the range
 
@@ -165,7 +166,7 @@ Selects the text in the specified range of positions. The first parameter is the
 
 `None` 
 
-###  set_caretPosition
+### set_caretPosition
 
 Sets the position of the caret.
 
@@ -177,7 +178,7 @@ Sets the position of the caret.
 
 `None` 
 
-###  set_value
+### set_value
 
 Sets the new value of RadInputExtender
 
@@ -189,7 +190,7 @@ Sets the new value of RadInputExtender
 
 `None` 
 
-###  updateCssClass
+### updateCssClass
 
 Updates the css class of RadInputExtender
 
@@ -199,7 +200,7 @@ Updates the css class of RadInputExtender
 
 `None` 
 
-###  updateValue
+### updateValue
 
 Updates the value of RadInputExtender
 
@@ -211,7 +212,7 @@ Updates the value of RadInputExtender
 
 `None` 
 
-###  validateInputValue
+### validateInputValue
 
 Returns the validate input value of RadInputExtender
 
@@ -222,5 +223,6 @@ Returns the validate input value of RadInputExtender
 #### Returns
 
 `None` 
+
 
 

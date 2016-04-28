@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.SocialDialogCancelEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.SocialDialogCancelEventArgs]({%slug Telerik.Web.UI.SocialDialogCancelEventArgs%})*
 
+
 ## Methods
 
 ###  get_socialNetType
@@ -24,7 +25,7 @@ Returns the social type of the button.
 
 `String` 
 
-###  get_url
+### get_url
 
 Returns the shared url.
 
@@ -34,7 +35,7 @@ Returns the shared url.
 
 `String` 
 
-###  set_stringsToShare
+### set_stringsToShare
 
 Dynamically sets new values for url and title to share.
 
@@ -47,5 +48,6 @@ Dynamically sets new values for url and title to share.
 #### Returns
 
 `None` 
+
 
 

@@ -11,53 +11,8 @@ slug: Telerik.Web.UI.AutoCompleteBoxEntryCollection
 
 * *[Telerik.Web.UI.AutoCompleteBoxEntryCollection]({%slug Telerik.Web.UI.AutoCompleteBoxEntryCollection%})*
 
+
 ## Methods
-
-### indexOf
-
-Gets the index of an Entry.
-
-#### Parameters
-
-##### item `Telerik.Web.UI.AutoCompleteBoxEntry`
-
- The Entry to get the index of.
-
-#### Returns
-
-`Number` int
-
-### remove
-
-Removes an entry from the Entries collection
-
-#### Parameters
-
-##### item `Telerik.Web.UI.AutoCompleteBoxEntry`
-
-The Entry to remove.
-
-#### Returns
-
-`None` 
-
-### insert
-
-Inserts an entry into the Entries collection at the position specified by the first (index) parameter.
-
-#### Parameters
-
-##### index `Number`
-
-The index to insert at.
-
-##### item `Telerik.Web.UI.AutoCompleteBoxEntry`
-
-The Entry to insert.
-
-#### Returns
-
-`None` 
 
 ### add
 
@@ -106,4 +61,51 @@ The index of the Entry that should be returned.
 #### Returns
 
 `Telerik.Web.UI.AutoCompleteBoxEntry` AutoCompleteBoxEntry.
+
+### indexOf
+
+Gets the index of an Entry.
+
+#### Parameters
+
+##### item `Telerik.Web.UI.AutoCompleteBoxEntry`
+
+ The Entry to get the index of.
+
+#### Returns
+
+`Number` int
+
+### insert
+
+Inserts an entry into the Entries collection at the position specified by the first (index) parameter.
+
+#### Parameters
+
+##### index `Number`
+
+The index to insert at.
+
+##### item `Telerik.Web.UI.AutoCompleteBoxEntry`
+
+The Entry to insert.
+
+#### Returns
+
+`None` 
+
+### remove
+
+Removes an entry from the Entries collection
+
+#### Parameters
+
+##### item `Telerik.Web.UI.AutoCompleteBoxEntry`
+
+The Entry to remove.
+
+#### Returns
+
+`None` 
+
 

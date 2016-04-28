@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.RadAsyncUploadFileSelectedEventArgs
 * [Telerik.Web.UI.RadAsyncUploadEventArgs]({%slug Telerik.Web.UI.RadAsyncUploadEventArgs%})
 * *[Telerik.Web.UI.RadAsyncUploadFileSelectedEventArgs]({%slug Telerik.Web.UI.RadAsyncUploadFileSelectedEventArgs%})*
 
+
 ## Methods
 
 ### get_fileInputField
@@ -33,4 +34,5 @@ Returns the name of the selected file.
 #### Returns
 
 `String`
+
 

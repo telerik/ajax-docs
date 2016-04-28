@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.TagCloudErrorEventArgs
 * Sys.EventArgs
 * *[Telerik.Web.UI.TagCloudErrorEventArgs]({%slug Telerik.Web.UI.TagCloudErrorEventArgs%})*
 
+
 ## Methods
 
 ###  get_errorMessage
@@ -24,7 +25,7 @@ Returns the error message that describes the specific problem..
 
 `String` 
 
-###  get_cancelErrorAlert
+### get_cancelErrorAlert
 
 Returns a boolean value that indicates whether the error message will be displayed. True means the message will not be shown. 
 
@@ -34,7 +35,7 @@ Returns a boolean value that indicates whether the error message will be display
 
 `Boolean` 
 
-###  set_cancelErrorAlert
+### set_cancelErrorAlert
 
 Sets a boolean value that indicates whether the error message will be displayed. Setting true means the message will not be shown. 
 
@@ -45,3 +46,4 @@ Sets a boolean value that indicates whether the error message will be displayed.
 #### Returns
 
 `None` 
+

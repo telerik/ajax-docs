@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.CloudUploadFileUploadedEventArgs
 * [Telerik.Web.UI.CloudUploadEventArgs]({%slug Telerik.Web.UI.CloudUploadEventArgs%})
 * *[Telerik.Web.UI.CloudUploadFileUploadedEventArgs]({%slug Telerik.Web.UI.CloudUploadFileUploadedEventArgs%})*
 
+
 ## Methods
 
 ### get_fileInfo
@@ -23,3 +24,4 @@ Returns fileInfo object containing information regarding the uploaded file. Esse
 #### Returns
 
 `Object` 
+

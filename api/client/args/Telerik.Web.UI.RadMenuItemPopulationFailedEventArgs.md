@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.RadMenuItemPopulationFailedEventArgs
 * [Telerik.Web.UI.RadMenuItemCancelEventArgs]({%slug Telerik.Web.UI.RadMenuItemCancelEventArgs%})
 * *[Telerik.Web.UI.RadMenuItemPopulationFailedEventArgs]({%slug Telerik.Web.UI.RadMenuItemPopulationFailedEventArgs%})*
 
+
 ## Methods
 
 ###  get_item
@@ -24,7 +25,7 @@ Returns a reference to the RadMenuItem that was opened.
 
 `Telerik.Web.UI.RadMenuItem` 
 
-###  get_errorMessage
+### get_errorMessage
 
 Returns an error message describing the failure.
 
@@ -33,3 +34,4 @@ Returns an error message describing the failure.
 #### Returns
 
 `String` string 
+

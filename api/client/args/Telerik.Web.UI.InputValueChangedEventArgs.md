@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.InputValueChangedEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.InputValueChangedEventArgs]({%slug Telerik.Web.UI.InputValueChangedEventArgs%})*
 
+
 ## Methods
 
 ###  get_newValue
@@ -24,7 +25,7 @@ Returns the string value that was just assigned to the input control.
 
 `String` 
 
-###  get_oldValue
+### get_oldValue
 
 Returns the string value of the input control before the user made any changes. 
 
@@ -33,5 +34,6 @@ Returns the string value of the input control before the user made any changes.
 #### Returns
 
 `String` 
+
 
 

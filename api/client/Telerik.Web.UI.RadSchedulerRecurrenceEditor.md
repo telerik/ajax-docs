@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.RadSchedulerRecurrenceEditor
 * [Telerik.Web.UI.RadWebControl]({%slug Telerik.Web.UI.RadWebControl%})
 * *[Telerik.Web.UI.RadSchedulerRecurrenceEditor]({%slug Telerik.Web.UI.RadSchedulerRecurrenceEditor%})*
 
+
 ## Methods
 
 ###  get_endDate
@@ -24,7 +25,7 @@ Gets the end date of the first occurrence.
 
 `Date`  the end date of the first occurrence. 
 
-###  get_firstDayOfWeek
+### get_firstDayOfWeek
 
 Gets the first day of the week.
 
@@ -34,7 +35,7 @@ Gets the first day of the week.
 
 `Telerik.Web.UI.DayOfWeek`  the first day of the week. This property is used when building Monthly and Yearly recurrence rules. 
 
-###  get_recurrenceRule
+### get_recurrenceRule
 
 Gets the currently selected recurrence rule.
 
@@ -44,7 +45,7 @@ Gets the currently selected recurrence rule.
 
 `Telerik.Web.UI.RecurrenceRule`  The currently selected recurrence rule
 
-###  get_startDate
+### get_startDate
 
 Gets the start date of the first occurrence.
 
@@ -54,7 +55,7 @@ Gets the start date of the first occurrence.
 
 `Date`  the start date of the first occurrence. 
 
-###  set_endDate
+### set_endDate
 
 Sets the end date of the first occurrence.
 
@@ -68,7 +69,7 @@ Sets the end date of the first occurrence.
 
 `None` 
 
-###  set_firstDayOfWeek
+### set_firstDayOfWeek
 
 Sets the first day of the week.
 
@@ -82,7 +83,7 @@ Sets the first day of the week.
 
 `None` 
 
-###  set_recurrenceRule
+### set_recurrenceRule
 
 Sets the recurrence rule.
 
@@ -96,7 +97,7 @@ Sets the recurrence rule.
 
 `None` 
 
-###  set_startDate
+### set_startDate
 
 Sets the start date of the first occurrence.
 
@@ -109,5 +110,6 @@ Sets the start date of the first occurrence.
 #### Returns
 
 `None` 
+
 
 

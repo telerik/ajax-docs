@@ -11,6 +11,7 @@ slug: Telerik.Web.UI.DropDownTreeEntryCollection
 
 * *[Telerik.Web.UI.DropDownTreeEntryCollection]({%slug Telerik.Web.UI.DropDownTreeEntryCollection%})*
 
+
 ## Methods
 
 ### clear
@@ -22,6 +23,14 @@ slug: Telerik.Web.UI.DropDownTreeEntryCollection
 `None` 
 
 ### get_count
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### getEntry
 
 #### Parameters
 
@@ -43,11 +52,4 @@ The entry whose index will be searched.
 
 `Telerik.Web.UI.DropDownTreeEntry` Returns the index of the entry passed as parameter.
 
-### getEntry
-
-#### Parameters
-
-#### Returns
-
-`None` 
 

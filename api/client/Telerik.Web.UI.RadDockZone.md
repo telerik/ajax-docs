@@ -12,7 +12,22 @@ slug: Telerik.Web.UI.RadDockZone
 * [Telerik.Web.UI.RadWebControl]({%slug Telerik.Web.UI.RadWebControl%})
 * *[Telerik.Web.UI.RadDockZone]({%slug Telerik.Web.UI.RadDockZone%})*
 
+
 ## Methods
+
+### clone
+
+Clones the current Telerik.Web.UI.RadDockZone object.
+
+#### Parameters
+
+##### id `String`
+
+The string that will be set to the UniqueId of the cloned object.
+
+#### Returns
+
+`Telerik.Web.UI.RadDockZone` The cloned Telerik.Web.UI.RadDockZone object.
 
 ### dock
 
@@ -32,43 +47,55 @@ Places (docks) the RadDock control in the zone, at the specified (0-offset) posi
 
 `None` 
 
-### clone
+### get_clientID
 
-Clones the current Telerik.Web.UI.RadDockZone object.
-
-#### Parameters
-
-##### id `String`
-
-The string that will be set to the UniqueId of the cloned object.
-
-#### Returns
-
-`Telerik.Web.UI.RadDockZone` The cloned Telerik.Web.UI.RadDockZone object.
-
-### get_uniqueName
-
-Gets the UniqueName of the control.
+Gets the client ID of the RadDockZone control.
 
 #### Parameters
 
 #### Returns
 
-`String` The UniqueName of the control.
+`String` The client ID of the RadDockZone control.
 
-### set_highlightedCssClass
+### get_docks
 
-Sets a CSS class that is applied when a dock is over the zone and is about to be docked. (Use the HighlightedCssClass property in order for the changes to take effect on the server-side and not on the client-side only)
+Gets the array of all Telerik.Web.UI.RadDock controls placed inside the zone.
 
 #### Parameters
 
-##### value `String`
+#### Returns
 
- The CSS class to be applied.
+`Array`  The array of all Telerik.Web.UI.RadDock controls placed inside the zone.
+
+### get_fitDocks
+
+Gets the bool value indicating whether the docks are resized to fit within the zone.
+
+#### Parameters
 
 #### Returns
 
-`None` 
+`Boolean` The bool value indicating whether the docks are resized to fit within the zone.
+
+### get_highlightedCssClass
+
+Gets the CSS class that is applied when a dock is over the zone and is about to be docked.
+
+#### Parameters
+
+#### Returns
+
+`String` The CSS class that is applied when a dock is over the zone and is about to be docked.
+
+### get_isHorizontal
+
+Gets the value indicating whether the zone has Horizontal orientaion (Orientation can be Horizontal and Vertical).
+
+#### Parameters
+
+#### Returns
+
+`Boolean` The value indicating whether the zone has Horizontal orientaion.
 
 ### get_layoutID
 
@@ -79,6 +106,16 @@ Gets the ID of the Telerik.Web.UI.RadDockLayout that manages the state of the Ra
 #### Returns
 
 `String` The ID of the DockLayout that manages the state of the RadDockZone control.
+
+### get_uniqueName
+
+Gets the UniqueName of the control.
+
+#### Parameters
+
+#### Returns
+
+`String` The UniqueName of the control.
 
 ### set_fitDocks
 
@@ -94,53 +131,18 @@ The value indicating whether the docks should be resized to fit within the zone.
 
 `None` 
 
-### get_highlightedCssClass
+### set_highlightedCssClass
 
-Gets the CSS class that is applied when a dock is over the zone and is about to be docked.
-
-#### Parameters
-
-#### Returns
-
-`String` The CSS class that is applied when a dock is over the zone and is about to be docked.
-
-### get_docks
-
-Gets the array of all Telerik.Web.UI.RadDock controls placed inside the zone.
+Sets a CSS class that is applied when a dock is over the zone and is about to be docked. (Use the HighlightedCssClass property in order for the changes to take effect on the server-side and not on the client-side only)
 
 #### Parameters
 
-#### Returns
+##### value `String`
 
-`Array`  The array of all Telerik.Web.UI.RadDock controls placed inside the zone.
-
-### get_clientID
-
-Gets the client ID of the RadDockZone control.
-
-#### Parameters
+ The CSS class to be applied.
 
 #### Returns
 
-`String` The client ID of the RadDockZone control.
+`None` 
 
-### get_isHorizontal
-
-Gets the value indicating whether the zone has Horizontal orientaion (Orientation can be Horizontal and Vertical).
-
-#### Parameters
-
-#### Returns
-
-`Boolean` The value indicating whether the zone has Horizontal orientaion.
-
-### get_fitDocks
-
-Gets the bool value indicating whether the docks are resized to fit within the zone.
-
-#### Parameters
-
-#### Returns
-
-`Boolean` The bool value indicating whether the docks are resized to fit within the zone.
 

@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.RadAjaxControl
 * Sys.UI.Control
 * *[Telerik.Web.UI.RadAjaxControl]({%slug Telerik.Web.UI.RadAjaxControl%})*
 
+
 ## Methods
 
 ###  ajaxRequest
@@ -28,7 +29,7 @@ The parameters
 
 `None` 
 
-###  ajaxRequestWithTarget
+### ajaxRequestWithTarget
 
 Simulates a postback/AJAX request send by the control with the specified UniqueID and specified arguments
 
@@ -46,7 +47,7 @@ This is optional argument for the event
 
 `None` 
 
-###  get_clientEvents
+### get_clientEvents
 
 Returns the RadAjaxManager client-side events handler names. Example: get_clientEvents().OnRequestStart - returns the name of the RadAjax OnRequestStart client-side event handler. get_clientEvents().OnResponseEnd - returns the name of the RadAjax OnResponseEnd client-side event handler.
 
@@ -56,7 +57,7 @@ Returns the RadAjaxManager client-side events handler names. Example: get_client
 
 `Object` 
 
-###  get_enableAJAX
+### get_enableAJAX
 
 Retuns a Boolean value indicating if the RadAjax ajax is enabled
 
@@ -66,7 +67,7 @@ Retuns a Boolean value indicating if the RadAjax ajax is enabled
 
 `Boolean` 
 
-###  get_enableHistory
+### get_enableHistory
 
 Retuns a Boolean value indicating if the RadAjax history is enabled
 
@@ -76,7 +77,7 @@ Retuns a Boolean value indicating if the RadAjax history is enabled
 
 `Boolean` 
 
-###  get_requestQueueSize
+### get_requestQueueSize
 
 Gets the size of the RadAjax ajax requests queue
 
@@ -86,7 +87,7 @@ Gets the size of the RadAjax ajax requests queue
 
 `Number` 
 
-###  set_clientEvents
+### set_clientEvents
 
 Sets the RadAjax client-side events handler names.
 
@@ -98,7 +99,7 @@ Sets the RadAjax client-side events handler names.
 
 `None` 
 
-###  set_enableAJAX
+### set_enableAJAX
 
 Accepts a Boolean value indicating if the RadAjax ajax is enabled
 
@@ -110,7 +111,7 @@ Accepts a Boolean value indicating if the RadAjax ajax is enabled
 
 `None` 
 
-###  set_enableHistory
+### set_enableHistory
 
 Accepts a Boolean value indicating if the RadAjax ajax is enabled
 
@@ -122,7 +123,7 @@ Accepts a Boolean value indicating if the RadAjax ajax is enabled
 
 `None` 
 
-###  set_requestQueueSize
+### set_requestQueueSize
 
 Sets the size of the RadAjax ajax requests queue
 
@@ -133,5 +134,6 @@ Sets the size of the RadAjax ajax requests queue
 #### Returns
 
 `None` 
+
 
 

@@ -11,6 +11,7 @@ slug: Telerik.Web.UI.RadGauge
 
 * *[Telerik.Web.UI.RadGauge]({%slug Telerik.Web.UI.RadGauge%})*
 
+
 ## Methods
 
 ###  get_value
@@ -23,7 +24,18 @@ Gets the value of the control.
 
 `None` 
 
-###  get_width
+### get_kendoWidget
+
+Gets a reference to the Kendo Gauge widget.
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+
+### get_width
 
 Gets the width of the control.
 
@@ -33,7 +45,7 @@ Gets the width of the control.
 
 `None` 
 
-###  repaint
+### repaint
 
 Causes the control to repaint (re-render).
 
@@ -43,7 +55,7 @@ Causes the control to repaint (re-render).
 
 `None` 
 
-###  set_height
+### set_height
 
 Sets the height of the control.
 
@@ -53,7 +65,7 @@ Sets the height of the control.
 
 `None` 
 
-###  set_value
+### set_value
 
 Sets the value of the control. Does nothing if an invalid argument is supplied. If the passed value is outside of the range of the gauge
                 the value is set to the min/max.
@@ -64,19 +76,9 @@ Sets the value of the control. Does nothing if an invalid argument is supplied. 
 
 `None` 
 
-###  set_width
+### set_width
 
 Sets the width of the control.
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-###  get_kendoWidget
-
-Gets a reference to the Kendo Gauge widget.
 
 #### Parameters
 

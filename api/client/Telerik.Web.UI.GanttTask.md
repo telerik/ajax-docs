@@ -11,4 +11,6 @@ slug: Telerik.Web.UI.GanttTask
 
 * *[Telerik.Web.UI.GanttTask]({%slug Telerik.Web.UI.GanttTask%})*
 
-## Methods
+
+Methods
+

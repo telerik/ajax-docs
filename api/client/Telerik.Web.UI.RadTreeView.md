@@ -12,7 +12,242 @@ slug: Telerik.Web.UI.RadTreeView
 * [Telerik.Web.UI.ControlItemContainer]({%slug Telerik.Web.UI.ControlItemContainer%})
 * *[Telerik.Web.UI.RadTreeView]({%slug Telerik.Web.UI.RadTreeView%})*
 
+
 ## Methods
+
+### addNodesTo
+
+Adds the passed nodes to the passed target's node collection. The usage of this method is preferable when a big amount of child nodes is being added to a certain node's Collection, because it batches the updates to the DOM in a single operation and this is a major performance improvement.
+
+#### Parameters
+
+##### target `Telerik.Web.UI.RadTreeNode`
+
+The target receiving the new nodes
+
+##### nodes `Telerik.Web.UI.RadTreeNodeCollection`
+
+The nodes to be added
+
+#### Returns
+
+`None` 
+
+### bulkUpdateWith
+
+Bulks update operations over the current TreeView instance, executed in the passed function. The parameter is only one and it's a function.
+
+#### Parameters
+
+##### func `Function`
+
+The function that should be executed
+
+#### Returns
+
+`None` 
+
+### checkAllNodes
+
+Checks all nodes of the TreeView.
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### checkNodes
+
+Checks the passed nodes. The parameter is only one and can be Telerik.Web.UI.RadTreeNodeCollection or regular Array.
+
+#### Parameters
+
+##### nodes `Telerik.Web.UI.RadTreeNodeCollection`
+
+The nodes to be checked
+
+#### Returns
+
+`None` 
+
+### commitChanges
+
+Writes the changes to the TreeView that were made since a previous call to trackChanges, so that they are preserved on the server as well.
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### findNodeByAbsoluteUrl
+
+Returns the first RadTreeNode object whose NavigateUrl property is equal to the passed parameter. Note that the parameter should ends with "/" like: var item = sender.findNodeByAbsoluteUrl("http://www.test.com/");
+
+#### Parameters
+
+##### url `String`
+
+NavigateUrl of the Node
+
+#### Returns
+
+`Telerik.Web.UI.RadTreeNode` 
+
+### findNodeByAttribute
+
+Gets the first instance of a Node with the specified attribute, value pair.
+
+#### Parameters
+
+##### attributeName `String`
+
+attributeName
+
+##### attributeValue `String`
+
+attributeValue
+
+#### Returns
+
+`Telerik.Web.UI.RadTreeNode` 
+
+### findNodeByText
+
+Gets the first instance of a Node with the specified text.
+
+#### Parameters
+
+##### text `String`
+
+Text of the Node
+
+#### Returns
+
+`Telerik.Web.UI.RadTreeNode` 
+
+### findNodeByUrl
+
+Returns the first RadTreeNode object whose NavigateUrl property is equal to the passed parameter.
+
+#### Parameters
+
+##### url `String`
+
+NavigateUrl of the Node
+
+#### Returns
+
+`Telerik.Web.UI.RadTreeNode` 
+
+### findNodeByValue
+
+Gets the first instance of a Node with the specified value.
+
+#### Parameters
+
+##### value `String`
+
+Value of the Node
+
+#### Returns
+
+`Telerik.Web.UI.RadTreeNode` 
+
+### get_allNodes
+
+Returns an array of all the Nodes within the TreeView.
+
+#### Parameters
+
+#### Returns
+
+`Telerik.Web.UI.RadTreeNode[]` Returns an array of all the Nodes within the TreeView.
+
+### get_allowNodeEditing
+
+True if the AllowNodeEditing property is enabled, false otherwise.
+
+#### Parameters
+
+#### Returns
+
+`Boolean` Boolean
+
+### get_checkedIndexes
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### get_checkedNodes
+
+Returns an array of the checked nodes when CheckBoxes="True".
+
+#### Parameters
+
+#### Returns
+
+`Array` Array
+
+### get_childListElement
+
+Returns the DOM element for the root list of nodes in the treeview
+
+#### Parameters
+
+#### Returns
+
+`Element` DOM element for the root nodes list
+
+### get_clientTemplate
+
+Returns the value of the TreeView's ClientNodeTemplate property.
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### get_collapseAnimation
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### get_collapsedIndexes
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### get_contextMenuIDs
+
+Returns an Array containing the IDs of the treeview context menus
+
+#### Parameters
+
+#### Returns
+
+`Array` Array
+
+### get_contextMenus
+
+Returns an Array of the treeview context menus
+
+#### Parameters
+
+#### Returns
+
+`Array` Array
 
 ### get_draggingClueElement
 
@@ -23,6 +258,376 @@ Returns the DOM element for the dragged node (during OnClientNodeDragging event 
 #### Returns
 
 `Element` DOM element for the dragged node
+
+### get_element
+
+Gets a reference to the DIV element that wraps the TreeView.
+
+#### Parameters
+
+#### Returns
+
+`Element` 
+
+### get_enabled
+
+Gets the enabled state of the TreeView.
+
+#### Parameters
+
+#### Returns
+
+`Boolean` 
+
+### get_enableDragAndDrop
+
+True if the EnableDragAndDrop property is enabled, false otherwise.
+
+#### Parameters
+
+#### Returns
+
+`Boolean` Boolean
+
+### get_enableDragAndDropBetweenNodes
+
+True if the EnableDragAndDropBetweenNodes property is enabled, false otherwise.
+
+#### Parameters
+
+#### Returns
+
+`Boolean` Boolean
+
+### get_expandAnimation
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### get_expandedIndexes
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### get_id
+
+Gets the server ID of the control.
+
+#### Parameters
+
+#### Returns
+
+`Object` 
+
+### get_loadingMessage
+
+Returns the value of the RadTreeView's LoadingMessage property. The default value is "Loading..."
+
+#### Parameters
+
+#### Returns
+
+`String` String
+
+### get_loadingStatusPosition
+
+Returns the value of the RadTreeView's LoadingStatusPosition property.
+
+#### Parameters
+
+#### Returns
+
+`Number` Number
+
+### get_multipleSelect
+
+True if MultipleSelect property is enabled, false otherwise.
+
+#### Parameters
+
+#### Returns
+
+`Boolean` Boolean
+
+### get_nodeData
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### get_nodes
+
+Returns the root level RadTreeNodeCollection.
+
+#### Parameters
+
+#### Returns
+
+`Telerik.Web.UI.RadTreeNodeCollection`  Telerik.Web.UI.RadTreeNodeCollection
+
+### get_persistLoadOnDemandNodes
+
+True if the PersistLoadOnDemandNodes property is enabled, false otherwise.
+
+#### Parameters
+
+#### Returns
+
+`Boolean` Boolean
+
+### get_selectedIndexes
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### get_selectedNode
+
+Gets the instance of the currently selected Node. Null if none.
+
+#### Parameters
+
+#### Returns
+
+`Telerik.Web.UI.RadTreeNode` RadTreeNode
+
+### get_selectedNodes
+
+Gets an Array of all selected Nodes (useful when MultipleSelect property is trackChanges, so that they are preserved
+
+#### Parameters
+
+#### Returns
+
+`Array` Array
+
+### get_singleExpandPath
+
+True if the SingleExpandPath property is enables, false otherwise.
+
+#### Parameters
+
+#### Returns
+
+`Boolean` Boolean
+
+### get_webServiceSettings
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### saveClientState
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### selectAllNodes
+
+Selects all Nodes at all levels of the tree
+
+#### Parameters
+
+#### Returns
+
+`Object` 
+
+### selectNodes
+
+Selects the passed nodes (if MultipleSelection is enabled), or only the last from the passed nodes (if MultipleSelection is disabled). The parameter is only one and can be Telerik.Web.UI.RadTreeNodeCollection or regular Array.
+
+#### Parameters
+
+##### nodes `Telerik.Web.UI.RadTreeNodeCollection`
+
+The nodes to be selected
+
+#### Returns
+
+`None` 
+
+### set_allowNodeEditing
+
+Enables/Disables node editing.
+
+#### Parameters
+
+##### value `Boolean`
+
+value
+
+#### Returns
+
+`None` 
+
+### set_checkedIndexes
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### set_clientTemplate
+
+Sets the value of the TreeView's ClientNodeTemplate property.
+
+#### Parameters
+
+##### value `String`
+
+value
+
+#### Returns
+
+`None` 
+
+### set_collapseAnimation
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### set_collapsedIndexes
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### set_contextMenuIDs
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### set_enabled
+
+Enables/Disables the TreeView.
+
+#### Parameters
+
+##### value `Boolean`
+
+value
+
+#### Returns
+
+`None` 
+
+### set_enableDragAndDrop
+
+Enables/Disables drag and drop.
+
+#### Parameters
+
+##### value `Boolean`
+
+value
+
+#### Returns
+
+`None` 
+
+### set_enableDragAndDropBetweenNodes
+
+Enables/Disables drag and drop between nodes.
+
+#### Parameters
+
+##### value `Boolean`
+
+value
+
+#### Returns
+
+`None` 
+
+### set_expandAnimation
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### set_expandedIndexes
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### set_loadingMessage
+
+Sets a loading message to the TreeView.
+
+#### Parameters
+
+##### value `String`
+
+value
+
+#### Returns
+
+`None` 
+
+### set_loadingStatusPosition
+
+Sets the value of LoadingStatusPosition property.
+
+#### Parameters
+
+##### value `Number`
+
+value
+
+#### Returns
+
+`None` 
+
+### set_multipleSelect
+
+Enables/Disables multiple selection.
+
+#### Parameters
+
+##### value `Boolean`
+
+value
+
+#### Returns
+
+`None` 
+
+### set_nodeData
+
+#### Parameters
+
+#### Returns
+
+`None` 
 
 ### set_persistLoadOnDemandNodes
 
@@ -38,7 +643,29 @@ value
 
 `None` 
 
-### get_checkedIndexes
+### set_selectedIndexes
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### set_singleExpandPath
+
+Enables/Disables SingleExpandPath property.
+
+#### Parameters
+
+##### value `Boolean`
+
+value
+
+#### Returns
+
+`None` 
+
+### set_webServiceSettings
 
 #### Parameters
 
@@ -64,41 +691,15 @@ domEvent
 
 `None` 
 
-### set_singleExpandPath
+### uncheckAllNodes
 
-Enables/Disables SingleExpandPath property.
-
-#### Parameters
-
-##### value `Boolean`
-
-value
-
-#### Returns
-
-`None` 
-
-### set_expandAnimation
+Unchecks all nodes of the TreeView.
 
 #### Parameters
 
 #### Returns
 
 `None` 
-
-### findNodeByText
-
-Gets the first instance of a Node with the specified text.
-
-#### Parameters
-
-##### text `String`
-
-Text of the Node
-
-#### Returns
-
-`Telerik.Web.UI.RadTreeNode` 
 
 ### uncheckNodes
 
@@ -114,587 +715,9 @@ The nodes to be unchecked
 
 `None` 
 
-### get_allowNodeEditing
-
-True if the AllowNodeEditing property is enabled, false otherwise.
-
-#### Parameters
-
-#### Returns
-
-`Boolean` Boolean
-
-### selectAllNodes
-
-Selects all Nodes at all levels of the tree
-
-#### Parameters
-
-#### Returns
-
-`Object` 
-
-### checkAllNodes
-
-Checks all nodes of the TreeView.
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-### get_collapsedIndexes
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
 ### unselectAllNodes
 
 Un-selects all Nodes at all levels of the tree.
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-### checkNodes
-
-Checks the passed nodes. The parameter is only one and can be Telerik.Web.UI.RadTreeNodeCollection or regular Array.
-
-#### Parameters
-
-##### nodes `Telerik.Web.UI.RadTreeNodeCollection`
-
-The nodes to be checked
-
-#### Returns
-
-`None` 
-
-### get_enableDragAndDropBetweenNodes
-
-True if the EnableDragAndDropBetweenNodes property is enabled, false otherwise.
-
-#### Parameters
-
-#### Returns
-
-`Boolean` Boolean
-
-### set_clientTemplate
-
-Sets the value of the TreeView's ClientNodeTemplate property.
-
-#### Parameters
-
-##### value `String`
-
-value
-
-#### Returns
-
-`None` 
-
-### get_loadingMessage
-
-Returns the value of the RadTreeView's LoadingMessage property. The default value is "Loading..."
-
-#### Parameters
-
-#### Returns
-
-`String` String
-
-### get_selectedNode
-
-Gets the instance of the currently selected Node. Null if none.
-
-#### Parameters
-
-#### Returns
-
-`Telerik.Web.UI.RadTreeNode` RadTreeNode
-
-### get_webServiceSettings
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-### uncheckAllNodes
-
-Unchecks all nodes of the TreeView.
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-### findNodeByValue
-
-Gets the first instance of a Node with the specified value.
-
-#### Parameters
-
-##### value `String`
-
-Value of the Node
-
-#### Returns
-
-`Telerik.Web.UI.RadTreeNode` 
-
-### set_nodeData
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-### set_multipleSelect
-
-Enables/Disables multiple selection.
-
-#### Parameters
-
-##### value `Boolean`
-
-value
-
-#### Returns
-
-`None` 
-
-### get_id
-
-Gets the server ID of the control.
-
-#### Parameters
-
-#### Returns
-
-`Object` 
-
-### get_enableDragAndDrop
-
-True if the EnableDragAndDrop property is enabled, false otherwise.
-
-#### Parameters
-
-#### Returns
-
-`Boolean` Boolean
-
-### set_webServiceSettings
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-### get_contextMenus
-
-Returns an Array of the treeview context menus
-
-#### Parameters
-
-#### Returns
-
-`Array` Array
-
-### set_enableDragAndDrop
-
-Enables/Disables drag and drop.
-
-#### Parameters
-
-##### value `Boolean`
-
-value
-
-#### Returns
-
-`None` 
-
-### commitChanges
-
-Writes the changes to the TreeView that were made since a previous call to trackChanges, so that they are preserved on the server as well.
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-### get_multipleSelect
-
-True if MultipleSelect property is enabled, false otherwise.
-
-#### Parameters
-
-#### Returns
-
-`Boolean` Boolean
-
-### get_childListElement
-
-Returns the DOM element for the root list of nodes in the treeview
-
-#### Parameters
-
-#### Returns
-
-`Element` DOM element for the root nodes list
-
-### set_contextMenuIDs
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-### get_selectedNodes
-
-Gets an Array of all selected Nodes (useful when MultipleSelect property is trackChanges, so that they are preserved
-
-#### Parameters
-
-#### Returns
-
-`Array` Array
-
-### get_selectedIndexes
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-### set_loadingStatusPosition
-
-Sets the value of LoadingStatusPosition property.
-
-#### Parameters
-
-##### value `Number`
-
-value
-
-#### Returns
-
-`None` 
-
-### findNodeByAbsoluteUrl
-
-Returns the first RadTreeNode object whose NavigateUrl property is equal to the passed parameter. Note that the parameter should ends with "/" like: var item = sender.findNodeByAbsoluteUrl("http://www.test.com/");
-
-#### Parameters
-
-##### url `String`
-
-NavigateUrl of the Node
-
-#### Returns
-
-`Telerik.Web.UI.RadTreeNode` 
-
-### get_nodes
-
-Returns the root level RadTreeNodeCollection.
-
-#### Parameters
-
-#### Returns
-
-`Telerik.Web.UI.RadTreeNodeCollection`  Telerik.Web.UI.RadTreeNodeCollection
-
-### set_expandedIndexes
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-### set_allowNodeEditing
-
-Enables/Disables node editing.
-
-#### Parameters
-
-##### value `Boolean`
-
-value
-
-#### Returns
-
-`None` 
-
-### get_checkedNodes
-
-Returns an array of the checked nodes when CheckBoxes="True".
-
-#### Parameters
-
-#### Returns
-
-`Array` Array
-
-### selectNodes
-
-Selects the passed nodes (if MultipleSelection is enabled), or only the last from the passed nodes (if MultipleSelection is disabled). The parameter is only one and can be Telerik.Web.UI.RadTreeNodeCollection or regular Array.
-
-#### Parameters
-
-##### nodes `Telerik.Web.UI.RadTreeNodeCollection`
-
-The nodes to be selected
-
-#### Returns
-
-`None` 
-
-### get_loadingStatusPosition
-
-Returns the value of the RadTreeView's LoadingStatusPosition property.
-
-#### Parameters
-
-#### Returns
-
-`Number` Number
-
-### get_allNodes
-
-Returns an array of all the Nodes within the TreeView.
-
-#### Parameters
-
-#### Returns
-
-`Telerik.Web.UI.RadTreeNode[]` Returns an array of all the Nodes within the TreeView.
-
-### set_loadingMessage
-
-Sets a loading message to the TreeView.
-
-#### Parameters
-
-##### value `String`
-
-value
-
-#### Returns
-
-`None` 
-
-### get_enabled
-
-Gets the enabled state of the TreeView.
-
-#### Parameters
-
-#### Returns
-
-`Boolean` 
-
-### saveClientState
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-### set_checkedIndexes
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-### get_persistLoadOnDemandNodes
-
-True if the PersistLoadOnDemandNodes property is enabled, false otherwise.
-
-#### Parameters
-
-#### Returns
-
-`Boolean` Boolean
-
-### findNodeByUrl
-
-Returns the first RadTreeNode object whose NavigateUrl property is equal to the passed parameter.
-
-#### Parameters
-
-##### url `String`
-
-NavigateUrl of the Node
-
-#### Returns
-
-`Telerik.Web.UI.RadTreeNode` 
-
-### set_enabled
-
-Enables/Disables the TreeView.
-
-#### Parameters
-
-##### value `Boolean`
-
-value
-
-#### Returns
-
-`None` 
-
-### findNodeByAttribute
-
-Gets the first instance of a Node with the specified attribute, value pair.
-
-#### Parameters
-
-##### attributeName `String`
-
-attributeName
-
-##### attributeValue `String`
-
-attributeValue
-
-#### Returns
-
-`Telerik.Web.UI.RadTreeNode` 
-
-### get_collapseAnimation
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-### get_singleExpandPath
-
-True if the SingleExpandPath property is enables, false otherwise.
-
-#### Parameters
-
-#### Returns
-
-`Boolean` Boolean
-
-### bulkUpdateWith
-
-Bulks update operations over the current TreeView instance, executed in the passed function. The parameter is only one and it's a function.
-
-#### Parameters
-
-##### func `Function`
-
-The function that should be executed
-
-#### Returns
-
-`None` 
-
-### get_element
-
-Gets a reference to the DIV element that wraps the TreeView.
-
-#### Parameters
-
-#### Returns
-
-`Element` 
-
-### get_clientTemplate
-
-Returns the value of the TreeView's ClientNodeTemplate property.
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-### get_expandedIndexes
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-### set_collapsedIndexes
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-### addNodesTo
-
-Adds the passed nodes to the passed target's node collection. The usage of this method is preferable when a big amount of child nodes is being added to a certain node's Collection, because it batches the updates to the DOM in a single operation and this is a major performance improvement.
-
-#### Parameters
-
-##### target `Telerik.Web.UI.RadTreeNode`
-
-The target receiving the new nodes
-
-##### nodes `Telerik.Web.UI.RadTreeNodeCollection`
-
-The nodes to be added
-
-#### Returns
-
-`None` 
-
-### get_expandAnimation
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-### get_nodeData
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-### get_contextMenuIDs
-
-Returns an Array containing the IDs of the treeview context menus
-
-#### Parameters
-
-#### Returns
-
-`Array` Array
-
-### set_selectedIndexes
 
 #### Parameters
 
@@ -716,27 +739,6 @@ The nodes to be unselected
 
 `None` 
 
-### set_collapseAnimation
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-### set_enableDragAndDropBetweenNodes
-
-Enables/Disables drag and drop between nodes.
-
-#### Parameters
-
-##### value `Boolean`
-
-value
-
-#### Returns
-
-`None` 
 
 ## Events
 
@@ -1186,3 +1188,4 @@ The treePopulated client-side event of the RadTreeView is fired before it is pop
 The instance of the RadTreeView raised the event.
 
 ##### args `Sys.EventArgs`
+

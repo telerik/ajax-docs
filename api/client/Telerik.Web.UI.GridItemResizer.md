@@ -11,6 +11,8 @@ slug: Telerik.Web.UI.GridItemResizer
 
 * *[Telerik.Web.UI.GridItemResizer]({%slug Telerik.Web.UI.GridItemResizer%})*
 
-## Methods
+
+Methods
+
 
 

@@ -11,6 +11,7 @@ slug: Telerik.Web.UI.RecurrenceRule
 
 * *[Telerik.Web.UI.RecurrenceRule]({%slug Telerik.Web.UI.RecurrenceRule%})*
 
+
 ## Methods
 
 ###  get_exceptions
@@ -21,7 +22,7 @@ slug: Telerik.Web.UI.RecurrenceRule
 
 `None` 
 
-###  get_pattern
+### get_pattern
 
 #### Parameters
 
@@ -29,7 +30,7 @@ slug: Telerik.Web.UI.RecurrenceRule
 
 `None` 
 
-###  get_range
+### get_range
 
 #### Parameters
 
@@ -37,12 +38,13 @@ slug: Telerik.Web.UI.RecurrenceRule
 
 `None` 
 
-###  toString
+### toString
 
 #### Parameters
 
 #### Returns
 
 `None` 
+
 
 

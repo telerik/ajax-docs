@@ -12,37 +12,10 @@ slug: Telerik.Web.UI.Editor.Filter
 * Sys.Component
 * *[Telerik.Web.UI.Editor.Filter]({%slug Telerik.Web.UI.Editor.Filter%})*
 
+
 ## Methods
 
-### getDesignContent
-
-Fires when RadEditor's mode is changed to Design View Mode
-
-#### Parameters
-
-##### content `Object`
-
-The content area 
-
-#### Returns
-
-`Object` The content parameter modified by the filter 
-
-### getHtmlContent
-
-Fires when RadEditor's mode is changed to HTML View Mode
-
-#### Parameters
-
-##### content `Object`
-
-The content area
-
-#### Returns
-
-`Object` The content parameter modified by the filter
-
-###  get_description
+### get_description
 
 Returns the filter's description
 
@@ -81,6 +54,34 @@ Returns the filter's name
 #### Returns
 
 `String` The name of the filter
+
+### getDesignContent
+
+Fires when RadEditor's mode is changed to Design View Mode
+
+#### Parameters
+
+##### content `Object`
+
+The content area 
+
+#### Returns
+
+`Object` The content parameter modified by the filter 
+
+### getHtmlContent
+
+Fires when RadEditor's mode is changed to HTML View Mode
+
+#### Parameters
+
+##### content `Object`
+
+The content area
+
+#### Returns
+
+`Object` The content parameter modified by the filter
 
 ### set_description
 
@@ -137,5 +138,6 @@ The name of the filter to be set
 #### Returns
 
 `None` 
+
 
 

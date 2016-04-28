@@ -12,4 +12,6 @@ slug: Telerik.Web.UI.RadTreeViewContextMenuItemCancelEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.RadTreeViewContextMenuItemCancelEventArgs]({%slug Telerik.Web.UI.RadTreeViewContextMenuItemCancelEventArgs%})*
 
-## Methods
+
+Methods
+

@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.ColorPickerColorPreviewEventArgs
 * Sys.EventArgs
 * *[Telerik.Web.UI.ColorPickerColorPreviewEventArgs]({%slug Telerik.Web.UI.ColorPickerColorPreviewEventArgs%})*
 
+
 ## Methods
 
 ###  get_color
@@ -23,3 +24,4 @@ Returns the color of the color box where the mouse is hovering.
 #### Returns
 
 `String`
+

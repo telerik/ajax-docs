@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.GridFilterMenuShowingEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.GridFilterMenuShowingEventArgs]({%slug Telerik.Web.UI.GridFilterMenuShowingEventArgs%})*
 
+
 ## Methods
 
 ###  get_column
@@ -24,7 +25,7 @@ Returns a reference to the GridColumn.
 
 `Telerik.Web.UI.GridColumn`
 
-###  get_domEvent
+### get_domEvent
 
 Returns the DOM event that was raised for the current event.
 
@@ -34,7 +35,7 @@ Returns the DOM event that was raised for the current event.
 
 `Sys.UI.DomEvent` 
 
-###  get_menu
+### get_menu
 
 Returns a reference to the filtering menu instance.
 
@@ -44,7 +45,7 @@ Returns a reference to the filtering menu instance.
 
 `Telerik.Web.UI.RadContextMenu`
 
-###  get_tableView
+### get_tableView
 
 Returns the owner TableView object.
 
@@ -53,6 +54,7 @@ Returns the owner TableView object.
 #### Returns
 
 `Telerik.Web.UI.GridTableView` 
+
 
 
 

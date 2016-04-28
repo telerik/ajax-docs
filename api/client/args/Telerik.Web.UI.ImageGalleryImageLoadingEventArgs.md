@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.ImageGalleryImageLoadingEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.ImageGalleryImageLoadingEventArgs]({%slug Telerik.Web.UI.ImageGalleryImageLoadingEventArgs%})*
 
+
 ## Methods
 
 ###  get_item
@@ -24,7 +25,7 @@ Returns the currently displayed image object.
 
 `Telerik.Web.UI.RadImageGalleryItem` 
 
-###  get_imageType
+### get_imageType
 
 Returns the image type.
 
@@ -34,7 +35,7 @@ Returns the image type.
 
 `Telerik.Web.UI.ImageType` 
 
-###  set_imageUrl
+### set_imageUrl
 
 Set the image URL.
 
@@ -45,3 +46,4 @@ Set the image URL.
 #### Returns
 
 `None`
+

@@ -12,81 +12,8 @@ slug: Telerik.Web.UI.RadToolBarItemCollection
 * [Telerik.Web.UI.ControlItemCollection]({%slug Telerik.Web.UI.ControlItemCollection%})
 * *[Telerik.Web.UI.RadToolBarItemCollection]({%slug Telerik.Web.UI.RadToolBarItemCollection%})*
 
+
 ## Methods
-
-### indexOf
-
-Returns the index of a button.
-
-#### Parameters
-
-##### item `Telerik.Web.UI.RadToolBarItem`
-
-item
-
-#### Returns
-
-`Number` 
-
-### forEach
-
-Iterates through the items of the RadToolbarItemCollection using labmda expression
-
-#### Parameters
-
-##### lambda `Function`
-
-lambda
-
-#### Returns
-
-`None` 
-
-### remove
-
-Removes the specified item from the collection.
-
-#### Parameters
-
-##### item `Telerik.Web.UI.RadToolBarItem`
-
-item
-
-#### Returns
-
-`None` 
-
-### insert
-
-Inserts the item into the collection at the position defined by the first (index) parameter.
-
-#### Parameters
-
-##### index `Number`
-
-index
-
-##### item `Telerik.Web.UI.RadToolBarItem`
-
-item
-
-#### Returns
-
-`None` 
-
-### removeAt
-
-Removes the item at the specified index.
-
-#### Parameters
-
-##### index `Number`
-
-index
-
-#### Returns
-
-`None` 
 
 ### add
 
@@ -107,6 +34,20 @@ item
 Clears the collection of all the child items it contains.
 
 #### Parameters
+
+#### Returns
+
+`None` 
+
+### forEach
+
+Iterates through the items of the RadToolbarItemCollection using labmda expression
+
+#### Parameters
+
+##### lambda `Function`
+
+lambda
 
 #### Returns
 
@@ -135,4 +76,65 @@ index
 #### Returns
 
 `Telerik.Web.UI.RadToolBarItem` RadToolBarItem
+
+### indexOf
+
+Returns the index of a button.
+
+#### Parameters
+
+##### item `Telerik.Web.UI.RadToolBarItem`
+
+item
+
+#### Returns
+
+`Number` 
+
+### insert
+
+Inserts the item into the collection at the position defined by the first (index) parameter.
+
+#### Parameters
+
+##### index `Number`
+
+index
+
+##### item `Telerik.Web.UI.RadToolBarItem`
+
+item
+
+#### Returns
+
+`None` 
+
+### remove
+
+Removes the specified item from the collection.
+
+#### Parameters
+
+##### item `Telerik.Web.UI.RadToolBarItem`
+
+item
+
+#### Returns
+
+`None` 
+
+### removeAt
+
+Removes the item at the specified index.
+
+#### Parameters
+
+##### index `Number`
+
+index
+
+#### Returns
+
+`None` 
+
 

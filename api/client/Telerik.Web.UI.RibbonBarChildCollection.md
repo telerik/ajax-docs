@@ -11,6 +11,7 @@ slug: Telerik.Web.UI.RibbonBarChildCollection
 
 * *[Telerik.Web.UI.RibbonBarChildCollection]({%slug Telerik.Web.UI.RibbonBarChildCollection%})*
 
+
 ## Methods
 
 ###  add
@@ -27,7 +28,7 @@ The RibbonBarItem to insert
 
 `None` 
 
-###  forEach
+### forEach
 
 Iterates through the Items collection
 
@@ -41,7 +42,17 @@ The function to execute on each iteration
 
 `None` 
 
-###  getItem
+### get_count
+
+Returns the number of groups in the Items collection.
+
+#### Parameters
+
+#### Returns
+
+`Number` The number of the items
+
+### getItem
 
 Gets the RibbonBarItem from the Items collection residing at the index specified by the parameter.
 
@@ -55,17 +66,7 @@ The index of the RibbonBarItem that should be returned
 
 `Telerik.Web.UI.RibbonBarItem` Returns RibbonBarItem
 
-###  get_count
-
-Returns the number of groups in the Items collection.
-
-#### Parameters
-
-#### Returns
-
-`Number` The number of the items
-
-###  indexOf
+### indexOf
 
 Gets the index of a RibbonBarItem.
 
@@ -78,5 +79,6 @@ Gets the index of a RibbonBarItem.
 #### Returns
 
 `Number` int
+
 
 

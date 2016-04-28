@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.RadToolBarEventArgs
 * Sys.EventArgs
 * *[Telerik.Web.UI.RadToolBarEventArgs]({%slug Telerik.Web.UI.RadToolBarEventArgs%})*
 
+
 ## Methods
 
 ###  get_item
@@ -33,3 +34,4 @@ Returns the browser's event object.
 #### Returns
 
 `Element`
+

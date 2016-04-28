@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.RadListBoxItem
 * [Telerik.Web.UI.ControlItem]({%slug Telerik.Web.UI.ControlItem%})
 * *[Telerik.Web.UI.RadListBoxItem]({%slug Telerik.Web.UI.RadListBoxItem%})*
 
+
 ## Methods
 
 ###  bindTemplate
@@ -24,7 +25,7 @@ Evaluates the template against the RadListBoxItem's data item and applies it.
 
 `None` 
 
-###  check
+### check
 
 Checks the item (equal to set_checked(true))
 
@@ -34,7 +35,7 @@ Checks the item (equal to set_checked(true))
 
 `None` 
 
-###  clone
+### clone
 
 Creates a new item by copying the properties of the source item
 
@@ -44,7 +45,7 @@ Creates a new item by copying the properties of the source item
 
 `Telerik.Web.UI.RadListBoxItem` The cloned RadListBoxItem
 
-###  disable
+### disable
 
 Disables the item if it is enabled
 
@@ -54,7 +55,7 @@ Disables the item if it is enabled
 
 `None` 
 
-###  enable
+### enable
 
 Enables the item if it is disabled
 
@@ -64,7 +65,7 @@ Enables the item if it is disabled
 
 `None` 
 
-###  ensureVisible
+### ensureVisible
 
 If the item is not visible - puts it at the top of the visible area
 
@@ -74,7 +75,7 @@ If the item is not visible - puts it at the top of the visible area
 
 `None` 
 
-###  equals
+### equals
 
 Checks for equality against other RadListBoxItem
 
@@ -88,7 +89,7 @@ Checks for equality against other RadListBoxItem
 
 `None` 
 
-###  findControl
+### findControl
 
 Searches the RadListBoxItem for a client control with the specified id parameter.
 
@@ -102,7 +103,7 @@ The id of the control to search for
 
 `Sys.UI.Control` 
 
-###  get_allowDrag
+### get_allowDrag
 
 Returns whether the item can be dragged
 
@@ -112,7 +113,7 @@ Returns whether the item can be dragged
 
 `Boolean` Bool value indicating whether the item can be dragged
 
-###  get_attributes
+### get_attributes
 
 Gets the arbitrary attributes collection
 
@@ -122,17 +123,7 @@ Gets the arbitrary attributes collection
 
 `Telerik.Web.UI.AttributeCollection` The arbitrary attributes collection
 
-###  get_checkBoxElement
-
-Returns the checkbox <input type="checkbox"/> element of the item
-
-#### Parameters
-
-#### Returns
-
-`Object` HTML element for the item
-
-###  get_checkable
+### get_checkable
 
 Returns whether the item can be checked
 
@@ -142,7 +133,17 @@ Returns whether the item can be checked
 
 `Boolean` Bool value indicating whether the item can be checked
 
-###  get_checked
+### get_checkBoxElement
+
+Returns the checkbox <input type="checkbox"/> element of the item
+
+#### Parameters
+
+#### Returns
+
+`Object` HTML element for the item
+
+### get_checked
 
 Returns whether the item is checked
 
@@ -152,7 +153,7 @@ Returns whether the item is checked
 
 `Boolean` Bool value indicating whether the item is checked
 
-###  get_clientTemplate
+### get_clientTemplate
 
 Returns the value of the RadListBoxItem's ClientTemplate property.
 
@@ -162,7 +163,7 @@ Returns the value of the RadListBoxItem's ClientTemplate property.
 
 `None` 
 
-###  get_element
+### get_element
 
 Gets he DOM element for the RadListBoxItem
 
@@ -172,7 +173,7 @@ Gets he DOM element for the RadListBoxItem
 
 `Element` The DOM element for the RadListBoxItem
 
-###  get_imageElement
+### get_imageElement
 
 Returns the image <img/> element of the item
 
@@ -182,7 +183,7 @@ Returns the image <img/> element of the item
 
 `Element` HTML element that holds the item
 
-###  get_imageUrl
+### get_imageUrl
 
 Gets the value of the ImageUrl property
 
@@ -192,7 +193,7 @@ Gets the value of the ImageUrl property
 
 `String` 
 
-###  get_index
+### get_index
 
 Gets the RadListBoxItem's index inside the RadListBoxItemCollection
 
@@ -202,7 +203,7 @@ Gets the RadListBoxItem's index inside the RadListBoxItemCollection
 
 `Number` The index of the RadListBoxItem
 
-###  get_isFirst
+### get_isFirst
 
 Gets a value indicating whether the ControlItem is the first item in the ControlItemCollection
 
@@ -212,7 +213,7 @@ Gets a value indicating whether the ControlItem is the first item in the Control
 
 `Boolean` Value indicating whether the ControlItem is the first item in the ContorolCollection
 
-###  get_isLast
+### get_isLast
 
 Gets a value indicating whether the RadListBoxItem is the last item in the ControlItemCollection
 
@@ -222,7 +223,7 @@ Gets a value indicating whether the RadListBoxItem is the last item in the Contr
 
 `Boolean` Value indicating whether the ControlItem is the last item in the ContorolCollection
 
-###  get_isVisible
+### get_isVisible
 
 Returns value indicating whether the item is visible
 
@@ -232,7 +233,7 @@ Returns value indicating whether the item is visible
 
 `Boolean` Value indicating whether the item is visible
 
-###  get_listBox
+### get_listBox
 
 Gets the RadListBox client-object
 
@@ -242,7 +243,7 @@ Gets the RadListBox client-object
 
 `Telerik.Web.UI.RadListBox` Returns the parent RadListBox
 
-###  get_nextSibling
+### get_nextSibling
 
 Gets an instance of the next sibling of a ControlItem
 
@@ -252,7 +253,7 @@ Gets an instance of the next sibling of a ControlItem
 
 `Telerik.Web.UI.ControlItem` The next sibling
 
-###  get_parent
+### get_parent
 
 The RadListBoxItem's parent
 
@@ -262,7 +263,7 @@ The RadListBoxItem's parent
 
 `Element` Gets the RadListBoxItem
 
-###  get_previousSibling
+### get_previousSibling
 
 Gets an instance of the previous sibling of a ControlItem.
 
@@ -272,7 +273,7 @@ Gets an instance of the previous sibling of a ControlItem.
 
 `Telerik.Web.UI.ControlItem` The previous sibling
 
-###  get_selected
+### get_selected
 
 Returns whether the item is selected
 
@@ -282,7 +283,7 @@ Returns whether the item is selected
 
 `Boolean` Value indicating whether the item is selected
 
-###  get_text
+### get_text
 
 Gets the Text of the item
 
@@ -292,7 +293,7 @@ Gets the Text of the item
 
 `String` The value of the Text property
 
-###  get_textElement
+### get_textElement
 
 Returns the <span/> element of the item
 
@@ -302,7 +303,7 @@ Returns the <span/> element of the item
 
 `Element` HTML element that holds the item
 
-###  get_toolTip
+### get_toolTip
 
 Gets the tooltip of the item
 
@@ -312,7 +313,7 @@ Gets the tooltip of the item
 
 `String` 
 
-###  get_value
+### get_value
 
 Gets th Value of the item
 
@@ -322,7 +323,7 @@ Gets th Value of the item
 
 `String` The value of the Value propert
 
-###  get_visible
+### get_visible
 
 Gets a value indicating whether the RadListBoxItem is visible or not
 
@@ -332,7 +333,7 @@ Gets a value indicating whether the RadListBoxItem is visible or not
 
 `Boolean` Value indicating whether the RadListBoxItem is visible or not
 
-###  scrollIntoView
+### scrollIntoView
 
 Puts the item at the;bottom of the visible area;
 
@@ -342,7 +343,7 @@ Puts the item at the;bottom of the visible area;
 
 `None` 
 
-###  select
+### select
 
 Selects the item (equal to set_selected(true))
 
@@ -352,7 +353,7 @@ Selects the item (equal to set_selected(true))
 
 `None` 
 
-###  set_allowDrag
+### set_allowDrag
 
 Sets the AllowDrag property (whether the item can be dragged)
 
@@ -366,7 +367,7 @@ Bool value indicating whether the item can be dragged
 
 `None` 
 
-###  set_checkable
+### set_checkable
 
 Sets whether the item can be checked
 
@@ -380,7 +381,7 @@ Bool value indicating whether the item can be checked
 
 `None` 
 
-###  set_checked
+### set_checked
 
 Checks the item
 
@@ -394,7 +395,7 @@ Bool velue indicating whether the item should be checked
 
 `None` 
 
-###  set_clientTemplate
+### set_clientTemplate
 
 Sets the value of the RadListBoxItem's ClientTemplate property.
 
@@ -408,7 +409,7 @@ value
 
 `None` 
 
-###  set_element
+### set_element
 
 Sets the item's dom element
 
@@ -422,7 +423,7 @@ Sets the item's dom element
 
 `None` 
 
-###  set_enabled
+### set_enabled
 
 #### Parameters
 
@@ -432,7 +433,7 @@ Sets the item's dom element
 
 `None` 
 
-###  set_imageUrl
+### set_imageUrl
 
 Sets the ImageUrl property of the item
 
@@ -446,7 +447,7 @@ Sets the ImageUrl property of the item
 
 `None` 
 
-###  set_parent
+### set_parent
 
 Sets the RadListBoxItem's parent
 
@@ -460,7 +461,7 @@ DOM element
 
 `None` 
 
-###  set_selected
+### set_selected
 
 Selects the item
 
@@ -474,7 +475,7 @@ Selects the item
 
 `None` 
 
-###  set_text
+### set_text
 
 Sets the RadListBoxItem's text
 
@@ -488,7 +489,7 @@ The new RadListBoxItem text
 
 `None` 
 
-###  set_toolTip
+### set_toolTip
 
 Sets the tooltip of the item
 
@@ -502,7 +503,7 @@ String value for the ToolTip property
 
 `None` 
 
-###  set_value
+### set_value
 
 #### Parameters
 
@@ -514,7 +515,7 @@ The new RadListBoxItem text
 
 `None` 
 
-###  set_visible
+### set_visible
 
 Sets whether the item is visible
 
@@ -528,7 +529,7 @@ Sets whether the item is visible
 
 `None` 
 
-###  toJsonString
+### toJsonString
 
 The JSON representation of the RadListBoxItem
 
@@ -538,7 +539,7 @@ The JSON representation of the RadListBoxItem
 
 `String` Returns the JSON representation of the RadListBoxItem
 
-###  uncheck
+### uncheck
 
 Un-checks the item (equal to set_checked(false))
 
@@ -548,7 +549,7 @@ Un-checks the item (equal to set_checked(false))
 
 `None` 
 
-###  unselect
+### unselect
 
 Unselects the item (equal to set_selected(false))
 
@@ -557,5 +558,6 @@ Unselects the item (equal to set_selected(false))
 #### Returns
 
 `None` 
+
 
 

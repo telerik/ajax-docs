@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.FileExplorer.FileListItemDraggingEventArgs
 * Sys.EventArgs
 * *[Telerik.Web.UI.FileExplorer.FileListItemDraggingEventArgs]({%slug Telerik.Web.UI.FileExplorer.FileListItemDraggingEventArgs%})*
 
+
 ## Methods
 
 ###  get_domEvent
@@ -23,5 +24,6 @@ Getter for the DOM event associated with the custom event
 #### Returns
 
 `Sys.UI.DomEvent` DOM event
+
 
 

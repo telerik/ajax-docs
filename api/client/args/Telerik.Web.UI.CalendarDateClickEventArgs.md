@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.CalendarDateClickEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.CalendarDateClickEventArgs]({%slug Telerik.Web.UI.CalendarDateClickEventArgs%})*
 
+
 ## Methods
 
 ###  get_domEvent
@@ -24,7 +25,7 @@ Returns the DOM event object for the mouse click event.
 
 `Sys.UI.DomEvent` 
 
-###  get_renderDay
+### get_renderDay
 
 Returns the client-side RenderDay object that represents the day that was just clicked.
 
@@ -33,5 +34,6 @@ Returns the client-side RenderDay object that represents the day that was just c
 #### Returns
 
 `Telerik.Web.UI.Calendar.RenderDay` 
+
 
 

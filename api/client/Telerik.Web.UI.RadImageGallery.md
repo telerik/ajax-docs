@@ -7,9 +7,11 @@ slug: Telerik.Web.UI.RadImageGalleryItem
 
 # Telerik.Web.UI.RadImageGalleryItem
 
-## Inheritance Hierarchy
+
+Inheritance Hierarchy
 
 * *[Telerik.Web.UI.RadImageGalleryItem]({%slug Telerik.Web.UI.RadImageGalleryItem%})*
+
 
 ## Methods
 
@@ -23,7 +25,7 @@ Returns the URL of the image.
 
 `None` 
 
-###  get_itemIndex
+### get_itemIndex
 
 Gets the index of the particular item.
 
@@ -33,7 +35,7 @@ Gets the index of the particular item.
 
 `None` 
 
-###  get_owner
+### get_owner
 
 Gets the parent of the current object.
 
@@ -43,7 +45,7 @@ Gets the parent of the current object.
 
 `None` 
 
-###  get_thumbnailElement
+### get_thumbnailElement
 
 Returns the related thumbnail element.
 
@@ -53,7 +55,7 @@ Returns the related thumbnail element.
 
 `None` 
 
-###  get_thumbnailUrl
+### get_thumbnailUrl
 
 Returns the URL of the thumbnail.
 
@@ -63,7 +65,7 @@ Returns the URL of the thumbnail.
 
 `None` 
 
-###  get_title
+### get_title
 
 Gets the title of the image.
 
@@ -73,7 +75,7 @@ Gets the title of the image.
 
 `None` 
 
-###  get_width
+### get_width
 
 Returns the width of the image.
 
@@ -82,5 +84,6 @@ Returns the width of the image.
 #### Returns
 
 `None` 
+
 
 

@@ -12,4 +12,6 @@ slug: Telerik.Web.UI.RibbonBarMaximizingEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.RibbonBarMaximizingEventArgs]({%slug Telerik.Web.UI.RibbonBarMaximizingEventArgs%})*
 
-## Methods
+
+Methods
+

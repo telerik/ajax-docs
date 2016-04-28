@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.RadPanelItemCollection
 * [Telerik.Web.UI.ControlItemCollection]({%slug Telerik.Web.UI.ControlItemCollection%})
 * *[Telerik.Web.UI.RadPanelItemCollection]({%slug Telerik.Web.UI.RadPanelItemCollection%})*
 
+
 ## Methods
 
 ###  clear
@@ -24,7 +25,7 @@ Clears the Items collection of all the child items it contains.
 
 `None` 
 
-###  forEach
+### forEach
 
 Iterates through the items collection.
 
@@ -38,7 +39,7 @@ The function to execute on each iteration.
 
 `None` 
 
-###  get_count
+### get_count
 
 Returns the number of the items in the collection.
 
@@ -48,7 +49,7 @@ Returns the number of the items in the collection.
 
 `Number` 
 
-###  removeAt
+### removeAt
 
 Removes the item at the specified index.
 
@@ -61,3 +62,4 @@ index
 #### Returns
 
 `None` 
+

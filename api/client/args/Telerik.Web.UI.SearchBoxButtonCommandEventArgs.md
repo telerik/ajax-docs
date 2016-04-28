@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.SearchBoxButtonCommandEventArgs
 * Sys.EventArgs
 * *[Telerik.Web.UI.SearchBoxButtonCommandEventArgs]({%slug Telerik.Web.UI.SearchBoxButtonCommandEventArgs%})*
 
+
 ## Methods
 
 ###  get_commandName
@@ -24,7 +25,7 @@ Returns the command name.
 
 `String` the command name. 
 
-###  get_commandArgument
+### get_commandArgument
 
 Returns the command argument. 
 
@@ -33,4 +34,5 @@ Returns the command argument.
 #### Returns
 
 `String`the command argument. 
+
 

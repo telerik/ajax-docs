@@ -12,7 +12,18 @@ slug: Telerik.Web.UI.Editor.BaseToolAdapter
 * Sys.UI.Control
 * *[Telerik.Web.UI.Editor.BaseToolAdapter]({%slug Telerik.Web.UI.Editor.BaseToolAdapter%})*
 
+
 ## Methods
+
+### get_tools
+
+Gets an Array containing all the tools
+
+#### Parameters
+
+#### Returns
+
+`Array`
 
 ### getToolByName
 
@@ -27,16 +38,6 @@ The tool name
 #### Returns
 
 `Telerik.Web.UI.EditorButton`
-
-### get_tools
-
-Gets an Array containing all the tools
-
-#### Parameters
-
-#### Returns
-
-`Array`
 
 ### setToolState
 
@@ -55,3 +56,4 @@ Optional state value to be set
 #### Returns
 
 `None`
+

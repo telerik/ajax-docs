@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.RadMenuItem
 * [Telerik.Web.UI.ControlItem]({%slug Telerik.Web.UI.ControlItem%})
 * *[Telerik.Web.UI.RadMenuItem]({%slug Telerik.Web.UI.RadMenuItem%})*
 
+
 ## Methods
 
 ###  bindTemplate
@@ -24,7 +25,7 @@ Evaluates the template against the Menu Item's data and applies it.
 
 `None` 
 
-###  blur
+### blur
 
 Removes focus from the RadMenuItem
 
@@ -34,7 +35,7 @@ Removes focus from the RadMenuItem
 
 `None` 
 
-###  click
+### click
 
 Simulates a click on the RadMenuItem
 
@@ -44,7 +45,7 @@ Simulates a click on the RadMenuItem
 
 `None` 
 
-###  close
+### close
 
 Closes the RadMenuItem
 
@@ -54,7 +55,7 @@ Closes the RadMenuItem
 
 `None` 
 
-###  disable
+### disable
 
 Disables the RadMenuItem. Clicking on it will no longer have effect, child items cannot be opened.
 
@@ -64,7 +65,7 @@ Disables the RadMenuItem. Clicking on it will no longer have effect, child items
 
 `None` 
 
-###  enable
+### enable
 
 Enables the RadMenuItem if it has been previously disabled
 
@@ -74,7 +75,7 @@ Enables the RadMenuItem if it has been previously disabled
 
 `None` 
 
-###  focus
+### focus
 
 Changes the focus to the RadMenuItem
 
@@ -84,7 +85,7 @@ Changes the focus to the RadMenuItem
 
 `None` 
 
-###  focusFirstChild
+### focusFirstChild
 
 Changes the focus to the RadMenuItem's first child
 
@@ -94,7 +95,7 @@ Changes the focus to the RadMenuItem's first child
 
 `None` 
 
-###  focusLastChild
+### focusLastChild
 
 Changes the focus to the RadMenuItem's last child
 
@@ -104,7 +105,7 @@ Changes the focus to the RadMenuItem's last child
 
 `None` 
 
-###  focusNextItem
+### focusNextItem
 
 Changes the focus to the RadMenuItem's next sibling
 
@@ -114,7 +115,7 @@ Changes the focus to the RadMenuItem's next sibling
 
 `None` 
 
-###  focusPreviousItem
+### focusPreviousItem
 
 Changes the focus to the RadMenuItem's previous sibling
 
@@ -124,7 +125,7 @@ Changes the focus to the RadMenuItem's previous sibling
 
 `None` 
 
-###  get_childListElement
+### get_childListElement
 
 Gets the DOM element of the list of child items (UL).
 
@@ -134,7 +135,7 @@ Gets the DOM element of the list of child items (UL).
 
 `None` 
 
-###  get_clickedCssClass
+### get_clickedCssClass
 
 Returns the Menu Item's css class if clicked.
 
@@ -144,7 +145,7 @@ Returns the Menu Item's css class if clicked.
 
 `String` The Menu Item
 
-###  get_clickedImageURL
+### get_clickedImageURL
 
 Returns the URL of the Menu Item's Image on click.
 
@@ -154,7 +155,7 @@ Returns the URL of the Menu Item's Image on click.
 
 `String` The Menu Item Image
 
-###  get_clientTemplate
+### get_clientTemplate
 
 Returns the value of the Menu Item's ClientTemplate property.
 
@@ -164,7 +165,7 @@ Returns the value of the Menu Item's ClientTemplate property.
 
 `String` The Menu Item
 
-###  get_disabledCssClass
+### get_disabledCssClass
 
 Returns the Menu Item's css class if disabled.
 
@@ -174,7 +175,7 @@ Returns the Menu Item's css class if disabled.
 
 `String` The Menu Item
 
-###  get_disabledImageURL
+### get_disabledImageURL
 
 Returns the URL of the Menu Item's Image if disabled.
 
@@ -184,7 +185,7 @@ Returns the URL of the Menu Item's Image if disabled.
 
 `String` The Menu Item
 
-###  get_expandedCssClass
+### get_expandedCssClass
 
 Returns the Menu Item's css class if expanded.
 
@@ -194,7 +195,7 @@ Returns the Menu Item's css class if expanded.
 
 `String` The Menu Item
 
-###  get_expandedImageURL
+### get_expandedImageURL
 
 Returns the URL of the Menu Item's Image for expanding.
 
@@ -204,7 +205,7 @@ Returns the URL of the Menu Item's Image for expanding.
 
 `String` The expand Menu Item
 
-###  get_expandedMode
+### get_expandedMode
 
 Returns the value of the Menu Item's Expand Mode - 0 for Client-Side, 1 for WebService.
 
@@ -214,7 +215,7 @@ Returns the value of the Menu Item's Expand Mode - 0 for Client-Side, 1 for WebS
 
 `Number` The Menu Item
 
-###  get_focused
+### get_focused
 
 Indicates whether the menu item is focused.
 
@@ -224,7 +225,7 @@ Indicates whether the menu item is focused.
 
 `Boolean` Boolean
 
-###  get_focusedCssClass
+### get_focusedCssClass
 
 Returns the Menu Item's css class if focused.
 
@@ -234,7 +235,7 @@ Returns the Menu Item's css class if focused.
 
 `String` The Menu Item
 
-###  get_focusedItem
+### get_focusedItem
 
 Gets the focused child item. Null if no child item is focused.
 
@@ -244,7 +245,7 @@ Gets the focused child item. Null if no child item is focused.
 
 `Telerik.Web.UI.RadMenuItem` RadMenuItem
 
-###  get_hoveredImageUrl
+### get_hoveredImageUrl
 
 Gets the URL of the image displayed when the mouse is over the item.
 
@@ -254,7 +255,7 @@ Gets the URL of the image displayed when the mouse is over the item.
 
 `String` The URL of the image displayed when the mouse is over the item.
 
-###  get_imageElement
+### get_imageElement
 
 Gets the image DOM element of the item. If the server side ImageUrl property is not set, returns null.
 
@@ -264,7 +265,7 @@ Gets the image DOM element of the item. If the server side ImageUrl property is 
 
 `None` 
 
-###  get_imageUrl
+### get_imageUrl
 
 Gets the URL of the item's image.
 
@@ -274,7 +275,7 @@ Gets the URL of the item's image.
 
 `String` The URL of the item
 
-###  get_isOpen
+### get_isOpen
 
 #### Parameters
 
@@ -282,7 +283,7 @@ Gets the URL of the item's image.
 
 `None` 
 
-###  get_isSeparator
+### get_isSeparator
 
 Returns true if the item is a separator (sever-side property IsSeparator = true)
 
@@ -292,7 +293,7 @@ Returns true if the item is a separator (sever-side property IsSeparator = true)
 
 `Boolean` Value indicating if the RadMenuItem is a separator
 
-###  get_items
+### get_items
 
 Returns the collection of child items.
 
@@ -302,7 +303,7 @@ Returns the collection of child items.
 
 `Telerik.Web.UI.RadMenuItemCollection` RadMenuItemCollection
 
-###  get_level
+### get_level
 
 Gets the level of the item. Root level items are first level.
 
@@ -312,7 +313,7 @@ Gets the level of the item. Root level items are first level.
 
 `Number` The item
 
-###  get_linkElement
+### get_linkElement
 
 Gets the anchor DOM element of the item (A).
 
@@ -322,7 +323,7 @@ Gets the anchor DOM element of the item (A).
 
 `Element` 
 
-###  get_menu
+### get_menu
 
 Returns an instance of the menu that contains the item.
 
@@ -332,7 +333,7 @@ Returns an instance of the menu that contains the item.
 
 `None` 
 
-###  get_navigateUrl
+### get_navigateUrl
 
 Gets the URL of the Web page the menu item launches.
 
@@ -342,7 +343,7 @@ Gets the URL of the Web page the menu item launches.
 
 `None` 
 
-###  get_nextItem
+### get_nextItem
 
 Returns the next sibling of the item. If the item is last, returns null.
 
@@ -352,7 +353,7 @@ Returns the next sibling of the item. If the item is last, returns null.
 
 `Telerik.Web.UI.RadMenuItem` RadMenuItem
 
-###  get_openedItem
+### get_openedItem
 
 Gets the opened child item. Null if no child item is opened.
 
@@ -362,7 +363,7 @@ Gets the opened child item. Null if no child item is opened.
 
 `Telerik.Web.UI.RadMenuItem` RadMenuItem
 
-###  get_previousItem
+### get_previousItem
 
 Returns the previous sibling of the item. If the item is first, returns null.
 
@@ -372,7 +373,7 @@ Returns the previous sibling of the item. If the item is first, returns null.
 
 `Telerik.Web.UI.RadMenuItem` RadMenuItem
 
-###  get_selected
+### get_selected
 
 Returns whether the item is selected
 
@@ -382,7 +383,7 @@ Returns whether the item is selected
 
 `Boolean` Boolean
 
-###  get_selectedCssClass
+### get_selectedCssClass
 
 Returns the Menu Item's css class if selected.
 
@@ -392,7 +393,7 @@ Returns the Menu Item's css class if selected.
 
 `String` The Menu Item
 
-###  get_selectedImageUrl
+### get_selectedImageUrl
 
 Gets the URL of the image displayed when item is selected.
 
@@ -402,7 +403,7 @@ Gets the URL of the image displayed when item is selected.
 
 `String` 
 
-###  get_templateElement
+### get_templateElement
 
 Returns the html representation of the element's template.
 
@@ -412,7 +413,7 @@ Returns the html representation of the element's template.
 
 `String` The item
 
-###  get_textElement
+### get_textElement
 
 Gets the DOM element of the item text (SPAN).
 
@@ -422,7 +423,7 @@ Gets the DOM element of the item text (SPAN).
 
 `None` 
 
-###  hide
+### hide
 
 Hides the RadMenuItem
 
@@ -432,7 +433,7 @@ Hides the RadMenuItem
 
 `None` 
 
-###  open
+### open
 
 Opens the RadMenuItem to show its children
 
@@ -442,7 +443,7 @@ Opens the RadMenuItem to show its children
 
 `None` 
 
-###  scrollIntoView
+### scrollIntoView
 
 Loads next View's Menu Items.
 
@@ -452,7 +453,7 @@ Loads next View's Menu Items.
 
 `None` 
 
-###  select
+### select
 
 Selects the RadMenuItem
 
@@ -462,7 +463,7 @@ Selects the RadMenuItem
 
 `None` 
 
-###  set_clickedCssClass
+### set_clickedCssClass
 
 Sets the Menu Item's css class if clicked.
 
@@ -476,7 +477,7 @@ The Menu Item
 
 `None` 
 
-###  set_clickedImageURL
+### set_clickedImageURL
 
 Sets the URL of the Menu Item's Image on click.
 
@@ -490,7 +491,7 @@ The Menu Item Image
 
 `None` 
 
-###  set_clientTemplate
+### set_clientTemplate
 
 Sets the value of the Menu Item's ClientTemplate property.
 
@@ -504,7 +505,7 @@ value
 
 `None` 
 
-###  set_disabledCssClass
+### set_disabledCssClass
 
 Sets the Menu Item's css class if disabled.
 
@@ -518,7 +519,7 @@ The Menu Item
 
 `None` 
 
-###  set_disabledImageURL
+### set_disabledImageURL
 
 Sets the URL of the Menu Item's Image if disabled.
 
@@ -532,7 +533,7 @@ The Menu Item
 
 `None` 
 
-###  set_enabled
+### set_enabled
 
 Sets the enabled state of the item.
 
@@ -546,7 +547,7 @@ Value indicating the enabled state of the item.
 
 `None` 
 
-###  set_expandedCssClass
+### set_expandedCssClass
 
 Sets the Menu Item's css class if expanded.
 
@@ -560,7 +561,7 @@ The Menu Item
 
 `None` 
 
-###  set_expandedImageURL
+### set_expandedImageURL
 
 Sets the URL of the Menu Item's Image for expanding.
 
@@ -574,7 +575,7 @@ The expand Menu Item
 
 `None` 
 
-###  set_expandedMode
+### set_expandedMode
 
 Sets the value of the Menu Item's Expand Mode - 0 for Client-Side, 1 for WebService.
 
@@ -588,7 +589,7 @@ The Menu Item
 
 `None` 
 
-###  set_focused
+### set_focused
 
 Sets focus to the item.
 
@@ -602,7 +603,7 @@ value
 
 `None` 
 
-###  set_focusedCssClass
+### set_focusedCssClass
 
 Sets the Menu Item's css class if focused.
 
@@ -616,7 +617,7 @@ The Menu Item
 
 `None` 
 
-###  set_hoveredImageUrl
+### set_hoveredImageUrl
 
 Sets the URL of the image displayed when the mouse is over the item.
 
@@ -630,7 +631,7 @@ The URL of the image displayed when the mouse is over the item.
 
 `None` 
 
-###  set_imageUrl
+### set_imageUrl
 
 Sets the URL of the item's image.
 
@@ -644,7 +645,7 @@ The URL of the item
 
 `None` 
 
-###  set_isSeparator
+### set_isSeparator
 
 #### Parameters
 
@@ -652,7 +653,7 @@ The URL of the item
 
 `None` 
 
-###  set_navigateUrl
+### set_navigateUrl
 
 Sets the navigateURL property of the item. This is the URL of the Web page the menu item launches. The navigateUrl property must be an absolute URL on the client side: (e.g. "http://mydomain.com/default.aspx" not "default.aspx").
 
@@ -662,7 +663,7 @@ Sets the navigateURL property of the item. This is the URL of the Web page the m
 
 `None` 
 
-###  set_selected
+### set_selected
 
 Sets the selected property of the item.
 
@@ -676,7 +677,7 @@ value
 
 `None` 
 
-###  set_selectedCssClass
+### set_selectedCssClass
 
 Sets the Menu Item's css class if selected.
 
@@ -690,7 +691,7 @@ The Menu Item
 
 `None` 
 
-###  set_selectedImageUrl
+### set_selectedImageUrl
 
 Sets the URL of the image displayed when the item is selected
 
@@ -704,7 +705,7 @@ The URL of the image displayed when the item is selected.
 
 `None` 
 
-###  set_text
+### set_text
 
 Sets the text of the item.
 
@@ -714,7 +715,7 @@ Sets the text of the item.
 
 `None` 
 
-###  set_visible
+### set_visible
 
 Sets the visibility of the item
 
@@ -728,7 +729,7 @@ Boolean value indicating the item should be visible
 
 `None` 
 
-###  show
+### show
 
 Shows the RadMenuItem if it is hidden
 
@@ -738,7 +739,7 @@ Shows the RadMenuItem if it is hidden
 
 `None` 
 
-###  unselect
+### unselect
 
 Unselects the RadMenuItem
 
@@ -747,5 +748,6 @@ Unselects the RadMenuItem
 #### Returns
 
 `None` 
+
 
 

@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.GridColumnCreatedEventArgs
 * Sys.EventArgs
 * *[Telerik.Web.UI.GridColumnCreatedEventArgs]({%slug Telerik.Web.UI.GridColumnCreatedEventArgs%})*
 
+
 ## Methods
 
 ###  get_column
@@ -23,5 +24,6 @@ Returns a reference to the GridColumn
 #### Returns
 
 `Telerik.Web.UI.GridColumn`
+
 
 

@@ -7,9 +7,11 @@ slug: Telerik.Web.UI.RibbonBarGalleryCommandPreviewEndEventArgs
 
 # Telerik.Web.UI.RibbonBarGalleryCommandPreviewEndEventArgs
 
-## Inheritance Hierarchy
+
+Inheritance Hierarchy
 
 * *[Telerik.Web.UI.RibbonBarGalleryCommandPreviewEndEventArgs]({%slug Telerik.Web.UI.RibbonBarGalleryCommandPreviewEndEventArgs%})*
+
 
 ## Methods
 
@@ -22,3 +24,4 @@ Returns a reference to the ribbonbar menu item that was clicked.
 #### Returns
 
 `Telerik.Web.UI.RibbonBarGalleryItem` 
+

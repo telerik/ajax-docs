@@ -11,6 +11,7 @@ slug: Telerik.Web.UI.SliderCancelEventArgs
 
 * *[Telerik.Web.UI.SliderCancelEventArgs]({%slug Telerik.Web.UI.SliderCancelEventArgs%})*
 
+
 ## Methods
 
 ###  get_oldValue
@@ -23,7 +24,7 @@ Returns the slider value just prior to the change.
 
 `Number` 
 
-###  get_newValue
+### get_newValue
 
 Returns the slider value after the change. 
 
@@ -32,3 +33,4 @@ Returns the slider value after the change.
 #### Returns
 
 `Number` 
+

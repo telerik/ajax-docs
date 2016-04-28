@@ -12,7 +12,18 @@ slug: Telerik.Web.UI.TreeListItemContextMenuEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.TreeListItemContextMenuEventArgs]({%slug Telerik.Web.UI.TreeListItemContextMenuEventArgs%})*
 
+
 ## Methods
+
+### get_domEvent
+
+Returns the Sys.UI.DomEvent instance associated to the raised event.
+
+#### Parameters
+
+#### Returns
+
+`Sys.UI.DomEvent`
 
 ### get_item
 
@@ -24,13 +35,4 @@ Returns the right-clicked TreeListDataItem object
 
 `Object`
 
-### get_domEvent
-
-Returns the Sys.UI.DomEvent instance associated to the raised event.
-
-#### Parameters
-
-#### Returns
-
-`Sys.UI.DomEvent`
 

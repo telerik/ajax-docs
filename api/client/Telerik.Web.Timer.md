@@ -12,6 +12,7 @@ slug: Telerik.Web.Timer
 * Sys.Component
 * *[Telerik.Web.Timer]({%slug Telerik.Web.Timer%})*
 
+
 ## Methods
 
 ###  get_enabled
@@ -22,7 +23,7 @@ slug: Telerik.Web.Timer
 
 `Boolean` Gets a value indicating whether this control is enabled
 
-###  get_interval
+### get_interval
 
 #### Parameters
 
@@ -30,7 +31,7 @@ slug: Telerik.Web.Timer
 
 `Number` Retrieves the interval between 2 tick events
 
-###  set_enabled
+### set_enabled
 
 Sets the enable state of the control
 
@@ -44,7 +45,7 @@ True if control is enabled
 
 `None` 
 
-###  set_interval
+### set_interval
 
 Sets the interval between 2 tick events
 
@@ -58,7 +59,7 @@ The value of the interval
 
 `None` 
 
-###  updated
+### updated
 
 This method is called when Timer is updated after tick
 
@@ -67,6 +68,7 @@ This method is called when Timer is updated after tick
 #### Returns
 
 `None` 
+
 
 ## Events
 
@@ -83,6 +85,7 @@ The client-side Timer instance raised the event.
 ##### args `Sys.EventArgs`
 
 The event arguments.
+
 
 
 

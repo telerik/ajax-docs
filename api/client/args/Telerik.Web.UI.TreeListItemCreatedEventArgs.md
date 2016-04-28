@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.TreeListItemCreatedEventArgs
 * Sys.EventArgs
 * *[Telerik.Web.UI.TreeListItemCreatedEventArgs]({%slug Telerik.Web.UI.TreeListItemCreatedEventArgs%})*
 
+
 ## Methods
 
 ### get_item
@@ -23,3 +24,4 @@ Returns the newly created TreeListDataItem object
 #### Returns
 
 `Object`
+

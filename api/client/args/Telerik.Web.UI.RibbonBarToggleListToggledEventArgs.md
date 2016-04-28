@@ -11,6 +11,7 @@ slug: Telerik.Web.UI.RibbonBarToggleListToggledEventArgs
 
 * *[Telerik.Web.UI.RibbonBarToggleListToggledEventArgs]({%slug Telerik.Web.UI.RibbonBarToggleListToggledEventArgs%})*
 
+
 ## Methods
 
 ### get_button
@@ -42,4 +43,5 @@ Returns a reference to the RibbonBar menu item that was clicked.
 #### Returns
 
 `Sys.UI.DomEvent` 
+
 

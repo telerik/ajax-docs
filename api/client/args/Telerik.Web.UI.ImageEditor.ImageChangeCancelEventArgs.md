@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.ImageEditor.ImageChangeCancelEventArgs
 * [Telerik.Web.UI.ImageEditor.CancelEventArgs]({%slug Telerik.Web.UI.ImageEditor.CancelEventArgs%})
 * *[Telerik.Web.UI.ImageEditor.ImageChangeCancelEventArgs]({%slug Telerik.Web.UI.ImageEditor.ImageChangeCancelEventArgs%})*
 
+
 ## Methods
 
 ###  get_argument
@@ -24,7 +25,17 @@ Returns the argument object.
 
 `Object`
 
-###  set_argument
+### get_updateUI
+
+Returns information whether the UI(statusbar, dialogs, etc.) of the ImageEditor should be updated.
+
+#### Parameters
+
+#### Returns
+
+`Boolean`
+
+### set_argument
 
 Sets the argument object value.
 
@@ -36,17 +47,7 @@ Sets the argument object value.
 
 `None`
 
-###  get_updateUI
-
-Returns information whether the UI(statusbar, dialogs, etc.) of the ImageEditor should be updated.
-
-#### Parameters
-
-#### Returns
-
-`Boolean`
-
-###  set_updateUI
+### set_updateUI
 
 Defines whether the UI(statusbar, dialogs, etc.) of the ImageEditor should be updated.
 
@@ -57,3 +58,4 @@ Defines whether the UI(statusbar, dialogs, etc.) of the ImageEditor should be up
 #### Returns
 
 `None`
+

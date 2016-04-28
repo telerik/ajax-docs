@@ -11,6 +11,7 @@ slug: Telerik.Web.UI.SchedulerResourceCollection
 
 * *[Telerik.Web.UI.SchedulerResourceCollection]({%slug Telerik.Web.UI.SchedulerResourceCollection%})*
 
+
 ## Methods
 
 ###  add
@@ -27,7 +28,7 @@ Adds the specified resource to the collection.
 
 `None` 
 
-###  clear
+### clear
 
 Clears the collection of all resources in it.
 
@@ -37,7 +38,7 @@ Clears the collection of all resources in it.
 
 `None` 
 
-###  clone
+### clone
 
 Creates a shallow copy of the collection
 
@@ -47,7 +48,7 @@ Creates a shallow copy of the collection
 
 `Telerik.Web.UI.SchedulerResourceCollection`  A shallow copy of the current collection 
 
-###  findAll
+### findAll
 
 Returns a collection of resources that satisfy the specified predicate. The resource is passed as first argument of the predicate. If the predicate returns true the resource is included in the result collection.
 
@@ -61,7 +62,7 @@ Returns a collection of resources that satisfy the specified predicate. The reso
 
 `Telerik.Web.UI.SchedulerResourceCollection`  A collection of all resources matching the predicate 
 
-###  forEach
+### forEach
 
 Executes the specified function for each resource in the collection. The resource is passed as first argument to the function.
 
@@ -75,7 +76,17 @@ Executes the specified function for each resource in the collection. The resourc
 
 `None` 
 
-###  getResource
+### get_count
+
+Gets the number of resources in the collection.
+
+#### Parameters
+
+#### Returns
+
+`Number`  The number of resources in the collection 
+
+### getResource
 
 Gets the resource at the specified index in the collection.
 
@@ -89,7 +100,7 @@ Gets the resource at the specified index in the collection.
 
 `Telerik.Web.UI.SchedulerResource`  The resource at the specified index. 
 
-###  getResourceByType
+### getResourceByType
 
 Gets the first resource of the specified type.
 
@@ -103,7 +114,7 @@ Gets the first resource of the specified type.
 
 `Telerik.Web.UI.SchedulerResource`  The first resources of the specified type
 
-###  getResourceByTypeAndKey
+### getResourceByTypeAndKey
 
 Gets the resource of the specified type with the specified key.
 
@@ -121,7 +132,7 @@ Gets the resource of the specified type with the specified key.
 
 `Telerik.Web.UI.SchedulerResource`  The resources of the specified type with the specified key
 
-###  getResourcesByType
+### getResourcesByType
 
 Gets a collection of all resources of the specified type.
 
@@ -135,17 +146,7 @@ Gets a collection of all resources of the specified type.
 
 `Telerik.Web.UI.SchedulerResourceCollection`  A collection of all resources of the specified type 
 
-###  get_count
-
-Gets the number of resources in the collection.
-
-#### Parameters
-
-#### Returns
-
-`Number`  The number of resources in the collection 
-
-###  indexOf
+### indexOf
 
 Gets the index of the specified resource in the collection. Returns -1 if the resource is not in the collection.
 
@@ -159,7 +160,7 @@ Gets the index of the specified resource in the collection. Returns -1 if the re
 
 `Number`  The index of the specified appointment in the collection
 
-###  insert
+### insert
 
 Inserts the specified resource at the specified index in the collection.
 
@@ -177,7 +178,7 @@ Inserts the specified resource at the specified index in the collection.
 
 `None` 
 
-###  remove
+### remove
 
 Removes the specified resource from the collection.
 
@@ -191,7 +192,7 @@ Removes the specified resource from the collection.
 
 `None` 
 
-###  removeAt
+### removeAt
 
 Removes the resource at the specified index from the collection.
 
@@ -205,7 +206,7 @@ Removes the resource at the specified index from the collection.
 
 `None` 
 
-###  removeResourcesByType
+### removeResourcesByType
 
 Removes the resources with the specified type from the collection.
 
@@ -218,5 +219,6 @@ Removes the resources with the specified type from the collection.
 #### Returns
 
 `None` 
+
 
 

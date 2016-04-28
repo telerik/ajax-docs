@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.RadCalendar
 * [Telerik.Web.UI.RadWebControl]({%slug Telerik.Web.UI.RadWebControl%})
 * *[Telerik.Web.UI.RadCalendar]({%slug Telerik.Web.UI.RadCalendar%})*
 
+
 ## Methods
 
 ###  get_rangeMaxDate
@@ -24,51 +25,7 @@ Returns the triplet for the maximum date that the user can select.
 
 `Array` 
 
-###  get_rangeMinDate
-
-Returns the triplet for the minimum date that the user can select.
-
-#### Parameters
-
-#### Returns
-
-`Array` 
-
-###  get_selectedDates
-
-Returns an array of triplets that represent the selected dates in the calendar.
-
-#### Parameters
-
-#### Returns
-
-`Array` 
-
-###  set_rangeMaxDate
-
-Sets the maximum date to the date represented by a triplet.
-
-#### Parameters
-
-##### date `Array`
-
-#### Returns
-
-`None` 
-
-###  set_rangeMinDate
-
-Sets the minimum date to the date represented by a triplet.
-
-#### Parameters
-
-##### date `Array`
-
-#### Returns
-
-`None` 
-
-###  calculateDateFromStep
+### calculateDateFromStep
 
 Returns the triplet for the date that is offset by the specified number of days from the current month. If the parameter is positive, the days are offset from the last day of the month. If the parameter is negative, the days are offset from the first day of the month.
 
@@ -80,7 +37,7 @@ Returns the triplet for the date that is offset by the specified number of days 
 
 `Array` 
 
-###  get_autoPostBack
+### get_autoPostBack
 
 Returns the value of the AutoPostBack property.
 
@@ -90,7 +47,7 @@ Returns the value of the AutoPostBack property.
 
 `Boolean` 
 
-###  get_calendarEnableMonthYearFastNavigation
+### get_calendarEnableMonthYearFastNavigation
 
 Returns whether the month/year navigation popup is enabled.
 
@@ -100,7 +57,7 @@ Returns whether the month/year navigation popup is enabled.
 
 `Boolean` 
 
-###  get_calendarEnableNavigation
+### get_calendarEnableNavigation
 
 Returns whether the navigation buttons appear on the title bar.
 
@@ -110,7 +67,7 @@ Returns whether the navigation buttons appear on the title bar.
 
 `Boolean` 
 
-###  get_cellDayFormat
+### get_cellDayFormat
 
 Returns the cell date format
 
@@ -120,7 +77,7 @@ Returns the cell date format
 
 `String` 
 
-###  get_culture
+### get_culture
 
 Returns the RadCalendar culture name.
 
@@ -130,7 +87,7 @@ Returns the RadCalendar culture name.
 
 `String` 
 
-###  get_dateRangeSeparator
+### get_dateRangeSeparator
 
 Returns the separator string that will be put between start and end months in a multi view title.
 
@@ -140,7 +97,7 @@ Returns the separator string that will be put between start and end months in a 
 
 `String` 
 
-###  get_dayCellToolTipFormat
+### get_dayCellToolTipFormat
 
 Get the format of the date that appears when the user hovers the mouse over a cell in the calendar.
 
@@ -150,7 +107,7 @@ Get the format of the date that appears when the user hovers the mouse over a ce
 
 `String` 
 
-###  get_enableAriaSupport
+### get_enableAriaSupport
 
 Returns a value indicating whether the Aria support is enabled.
 
@@ -160,37 +117,7 @@ Returns a value indicating whether the Aria support is enabled.
 
 `Boolean` 
 
-###  get_enableMultiSelect
-
-Returns true if the calendar allows multiple dates to be selected.
-
-#### Parameters
-
-#### Returns
-
-`Boolean` 
-
-###  get_enableNavigationAnimation
-
-Returns true if navigation animation is enabled.
-
-#### Parameters
-
-#### Returns
-
-`Boolean` 
-
-###  get_enableRepeatableDaysOnClient
-
-Returns true if the repeatable days are enabled
-
-#### Parameters
-
-#### Returns
-
-`Boolean` 
-
-###  get_enabled
+### get_enabled
 
 Returns true if the control is enabled.
 
@@ -200,7 +127,37 @@ Returns true if the control is enabled.
 
 `Boolean` 
 
-###  get_fastNavigationStep
+### get_enableMultiSelect
+
+Returns true if the calendar allows multiple dates to be selected.
+
+#### Parameters
+
+#### Returns
+
+`Boolean` 
+
+### get_enableNavigationAnimation
+
+Returns true if navigation animation is enabled.
+
+#### Parameters
+
+#### Returns
+
+`Boolean` 
+
+### get_enableRepeatableDaysOnClient
+
+Returns true if the repeatable days are enabled
+
+#### Parameters
+
+#### Returns
+
+`Boolean` 
+
+### get_fastNavigationStep
 
 Returns the number of months by which the view changes when the user clicks the fast navigation buttons.
 
@@ -210,7 +167,7 @@ Returns the number of months by which the view changes when the user clicks the 
 
 `Number` 
 
-###  get_focusedDate
+### get_focusedDate
 
 Returns the triplet that represents the currently focused date. The focused Date is the date that determines which view the calendar displays.
 
@@ -220,7 +177,7 @@ Returns the triplet that represents the currently focused date. The focused Date
 
 `Array` 
 
-###  get_hideNavigationControls
+### get_hideNavigationControls
 
 Returns a boolean value indicating whether the navigation controls are hidden.
 
@@ -230,7 +187,7 @@ Returns a boolean value indicating whether the navigation controls are hidden.
 
 `Boolean` 
 
-###  get_monthYearNavigationSettings
+### get_monthYearNavigationSettings
 
 Returns an array with the fast navigation settings. The settings are, in order, TodayButtonCaption, OkButtonCaption, CancelButtonCaption, DateIsOutOfRangeMessage, EnableTodayButtonSelection.
 
@@ -240,7 +197,7 @@ Returns an array with the fast navigation settings. The settings are, in order, 
 
 `Array` 
 
-###  get_multiViewColumns
+### get_multiViewColumns
 
 Returns the number of columns when the calendar is in multi-view mode (the number of months in each row).
 
@@ -250,7 +207,7 @@ Returns the number of columns when the calendar is in multi-view mode (the numbe
 
 `Number` 
 
-###  get_multiViewRows
+### get_multiViewRows
 
 Returns the number of rows when the calendar is in multi-view mode (the number of months in each column).
 
@@ -260,7 +217,7 @@ Returns the number of rows when the calendar is in multi-view mode (the number o
 
 `Number` 
 
-###  get_orientation
+### get_orientation
 
 Returns 1 if the orientation is "RenderInRows", 2 if it is "RenderInColumns".
 
@@ -270,7 +227,7 @@ Returns 1 if the orientation is "RenderInRows", 2 if it is "RenderInColumns".
 
 `Number` 
 
-###  get_presentationType
+### get_presentationType
 
 Returns the current presentation type (Interactive - 1, Preview - 2)
 
@@ -280,7 +237,17 @@ Returns the current presentation type (Interactive - 1, Preview - 2)
 
 `Number` 
 
-###  get_rangeSelectionEndDate
+### get_rangeMinDate
+
+Returns the triplet for the minimum date that the user can select.
+
+#### Parameters
+
+#### Returns
+
+`Array` 
+
+### get_rangeSelectionEndDate
 
 Returns last date form the selected range when when RadCalendar's range selection is enabled.
 
@@ -290,7 +257,7 @@ Returns last date form the selected range when when RadCalendar's range selectio
 
 `Date` 
 
-###  get_rangeSelectionStartDat
+### get_rangeSelectionStartDat
 
 Returns first date form the selected range when when RadCalendar's range selection is enabled.
 
@@ -300,7 +267,17 @@ Returns first date form the selected range when when RadCalendar's range selecti
 
 `Date` 
 
-###  get_showDayCellToolTips
+### get_selectedDates
+
+Returns an array of triplets that represent the selected dates in the calendar.
+
+#### Parameters
+
+#### Returns
+
+`Array` 
+
+### get_showDayCellToolTips
 
 Returns a value indicating whether the day cell tooltips should be shown.
 
@@ -310,7 +287,7 @@ Returns a value indicating whether the day cell tooltips should be shown.
 
 `Boolean` 
 
-###  get_showOtherMonthsDays
+### get_showOtherMonthsDays
 
 Returns true if the calendar displays days from months other than the focused month.
 
@@ -320,7 +297,7 @@ Returns true if the calendar displays days from months other than the focused mo
 
 `Boolean` 
 
-###  get_singleViewColumns
+### get_singleViewColumns
 
 Returns the number of columns in each month view.
 
@@ -330,7 +307,7 @@ Returns the number of columns in each month view.
 
 `Number` 
 
-###  get_singleViewRows
+### get_singleViewRows
 
 Returns the number of rows in each month view.
 
@@ -340,7 +317,7 @@ Returns the number of rows in each month view.
 
 `Number` 
 
-###  get_skin
+### get_skin
 
 Returns the name of the current skin
 
@@ -350,7 +327,7 @@ Returns the name of the current skin
 
 `String` 
 
-###  get_specialDaysArray
+### get_specialDaysArray
 
 Returns an array (0-offset)containing information about the special days that are defined. Each element in the array is an array (1-offset) with the following elements (in order): a triplet for the date, four elements that are not used client-side, an indicator of the repeatable status of the special day, another unused element, the tool tip for the day, and array with the style settings for the special day.
 
@@ -360,7 +337,7 @@ Returns an array (0-offset)containing information about the special days that ar
 
 `Array` 
 
-###  get_stylesHash
+### get_stylesHash
 
 Returns an array that specifies the CSS classes, set for the predefined styles. For example: CalendarTableStyle - rcMainTable
 
@@ -370,7 +347,7 @@ Returns an array that specifies the CSS classes, set for the predefined styles. 
 
 `Array` 
 
-###  get_titleFormat
+### get_titleFormat
 
 Returns the header (title) date format
 
@@ -380,7 +357,7 @@ Returns the header (title) date format
 
 `String` 
 
-###  get_useColumnHeadersAsSelectors
+### get_useColumnHeadersAsSelectors
 
 Returns whether the column selection is enabled.
 
@@ -390,7 +367,7 @@ Returns whether the column selection is enabled.
 
 `Boolean` 
 
-###  get_useRowHeadersAsSelectors
+### get_useRowHeadersAsSelectors
 
 Returns whether the row selection is enabled.
 
@@ -400,7 +377,7 @@ Returns whether the row selection is enabled.
 
 `Boolean` 
 
-###  navigateToDate
+### navigateToDate
 
 Causes the calendar to switch to the view containing the specified date.
 
@@ -412,7 +389,7 @@ Causes the calendar to switch to the view containing the specified date.
 
 `None` 
 
-###  raise_calendarViewChanged
+### raise_calendarViewChanged
 
 Raises the calendarViewChanged event.
 
@@ -424,7 +401,7 @@ Raises the calendarViewChanged event.
 
 `None` 
 
-###  raise_calendarViewChanging
+### raise_calendarViewChanging
 
 Raises the calendarViewChanging event.
 
@@ -436,7 +413,7 @@ Raises the calendarViewChanging event.
 
 `None` 
 
-###  raise_columnHeaderClick
+### raise_columnHeaderClick
 
 Raises the columnHeaderClick event.
 
@@ -448,7 +425,7 @@ Raises the columnHeaderClick event.
 
 `None` 
 
-###  raise_dateClick
+### raise_dateClick
 
 Raises the dateClick event.
 
@@ -460,7 +437,7 @@ Raises the dateClick event.
 
 `None` 
 
-###  raise_dateSelected
+### raise_dateSelected
 
 Raises the dateSelected event.
 
@@ -472,7 +449,7 @@ Raises the dateSelected event.
 
 `None` 
 
-###  raise_dateSelecting
+### raise_dateSelecting
 
 Raises the dateSelecting event.
 
@@ -484,7 +461,7 @@ Raises the dateSelecting event.
 
 `None` 
 
-###  raise_dayRender
+### raise_dayRender
 
 Raises the dayRender event.
 
@@ -496,7 +473,7 @@ Raises the dayRender event.
 
 `None` 
 
-###  raise_init
+### raise_init
 
 Raises the init event.
 
@@ -508,7 +485,7 @@ Raises the init event.
 
 `None` 
 
-###  raise_load
+### raise_load
 
 Raises the load event.
 
@@ -520,7 +497,7 @@ Raises the load event.
 
 `None` 
 
-###  raise_rowHeaderClick
+### raise_rowHeaderClick
 
 Raises the rowHeaderClick event.
 
@@ -532,7 +509,7 @@ Raises the rowHeaderClick event.
 
 `None` 
 
-###  raise_viewSelectorClick
+### raise_viewSelectorClick
 
 Raises the viewSelectorClick event.
 
@@ -544,7 +521,7 @@ Raises the viewSelectorClick event.
 
 `None` 
 
-###  selectDate
+### selectDate
 
 Selects the specified date.
 
@@ -562,7 +539,7 @@ Boolean value that indicates whether the calendar should navigate to the specifi
 
 `None` 
 
-###  selectDates
+### selectDates
 
 Selects the set of dates in the first parameter, where each date is represented by triplet. If the second parameter is true, the calendar navigates to the view containing the newly selected dates.
 
@@ -576,7 +553,7 @@ Selects the set of dates in the first parameter, where each date is represented 
 
 `None` 
 
-###  set_autoPostBack
+### set_autoPostBack
 
 Sets the value of the AutoPostBack property.
 
@@ -588,7 +565,7 @@ Sets the value of the AutoPostBack property.
 
 `None` 
 
-###  set_calendarEnableMonthYearFastNavigation
+### set_calendarEnableMonthYearFastNavigation
 
 Sets whether the month/year navigation popup is enabled.
 
@@ -600,7 +577,7 @@ Sets whether the month/year navigation popup is enabled.
 
 `None` 
 
-###  set_calendarEnableNavigation
+### set_calendarEnableNavigation
 
 Returns whether the navigation buttons appear on the title bar. NOTE: Setting this property on the client has no effect.
 
@@ -612,7 +589,7 @@ Returns whether the navigation buttons appear on the title bar. NOTE: Setting th
 
 `None` 
 
-###  set_cellDayFormat
+### set_cellDayFormat
 
 Sets the cell day format
 
@@ -624,7 +601,7 @@ Sets the cell day format
 
 `None` 
 
-###  set_dateRangeSeparator
+### set_dateRangeSeparator
 
 Sets the separator string that will be put between start and end months in a multi view title.
 
@@ -636,7 +613,7 @@ Sets the separator string that will be put between start and end months in a mul
 
 `None` 
 
-###  set_datesInRange
+### set_datesInRange
 
 Selects all dates between startDate and endDate, when RadCalendar's range selection is enabled.
 
@@ -650,7 +627,7 @@ Selects all dates between startDate and endDate, when RadCalendar's range select
 
 `None` 
 
-###  set_dayCellToolTipFormat
+### set_dayCellToolTipFormat
 
 Set the format of the date that appears when the user hovers the mouse over a cell in the calendar.
 
@@ -662,43 +639,7 @@ Set the format of the date that appears when the user hovers the mouse over a ce
 
 `None` 
 
-###  set_enableMultiSelect
-
-Sets whether the calendar allows multiple dates to be selected.
-
-#### Parameters
-
-##### value `Boolean`
-
-#### Returns
-
-`None` 
-
-###  set_enableNavigationAnimation
-
-If set to true, this causes the RadCalendar control to display animated effects when the user changes the current month using the navigation controls in the title bar:
-
-#### Parameters
-
-##### value `Boolean`
-
-#### Returns
-
-`None` 
-
-###  set_enableRepeatableDaysOnClient
-
-Enables/disabled the repeatable days
-
-#### Parameters
-
-##### value `Boolean`
-
-#### Returns
-
-`None` 
-
-###  set_enabled
+### set_enabled
 
 Enables/disables the control
 
@@ -710,7 +651,43 @@ Enables/disables the control
 
 `None` 
 
-###  set_fastNavigationStep
+### set_enableMultiSelect
+
+Sets whether the calendar allows multiple dates to be selected.
+
+#### Parameters
+
+##### value `Boolean`
+
+#### Returns
+
+`None` 
+
+### set_enableNavigationAnimation
+
+If set to true, this causes the RadCalendar control to display animated effects when the user changes the current month using the navigation controls in the title bar:
+
+#### Parameters
+
+##### value `Boolean`
+
+#### Returns
+
+`None` 
+
+### set_enableRepeatableDaysOnClient
+
+Enables/disabled the repeatable days
+
+#### Parameters
+
+##### value `Boolean`
+
+#### Returns
+
+`None` 
+
+### set_fastNavigationStep
 
 Sets the number of months by which the view changes when the user clicks the fast navigation buttons.
 
@@ -722,7 +699,7 @@ Sets the number of months by which the view changes when the user clicks the fas
 
 `None` 
 
-###  set_focusedDate
+### set_focusedDate
 
 Sets the focused Date - it determines which view the calendar displays.
 
@@ -734,7 +711,7 @@ Sets the focused Date - it determines which view the calendar displays.
 
 `None` 
 
-###  set_hideNavigationControls
+### set_hideNavigationControls
 
 Sets a value indicating whether the naviagation control should be visible
 
@@ -746,7 +723,7 @@ Sets a value indicating whether the naviagation control should be visible
 
 `None` 
 
-###  set_monthYearNavigationSettings
+### set_monthYearNavigationSettings
 
 Sets the fast navigation settings. The settings are, in order, TodayButtonCaption, OkButtonCaption, CancelButtonCaption, DateIsOutOfRangeMessage, EnableTodayButtonSelection. Changes you make to these settings have an effect only if you make them before the first time the month/year navigation popup is displayed.
 
@@ -758,7 +735,7 @@ Sets the fast navigation settings. The settings are, in order, TodayButtonCaptio
 
 `None` 
 
-###  set_multiViewColumns
+### set_multiViewColumns
 
 Sets the number of columns when the calendar is in multi-view mode (the number of months in each row).
 
@@ -770,7 +747,7 @@ Sets the number of columns when the calendar is in multi-view mode (the number o
 
 `None` 
 
-###  set_multiViewRows
+### set_multiViewRows
 
 Sets the number of rows when the calendar is in multi-view mode (the number of months in each column).
 
@@ -782,7 +759,7 @@ Sets the number of rows when the calendar is in multi-view mode (the number of m
 
 `None` 
 
-###  set_orientation
+### set_orientation
 
 Sets the orientation (1 - RenderInRows, 2 - RenderInColumns)
 
@@ -794,7 +771,7 @@ Sets the orientation (1 - RenderInRows, 2 - RenderInColumns)
 
 `None` 
 
-###  set_presentationType
+### set_presentationType
 
 Sets the current presentation type (Interactive - 1, Preview - 2)
 
@@ -806,7 +783,31 @@ Sets the current presentation type (Interactive - 1, Preview - 2)
 
 `None` 
 
-###  set_showDayCellToolTips
+### set_rangeMaxDate
+
+Sets the maximum date to the date represented by a triplet.
+
+#### Parameters
+
+##### date `Array`
+
+#### Returns
+
+`None` 
+
+### set_rangeMinDate
+
+Sets the minimum date to the date represented by a triplet.
+
+#### Parameters
+
+##### date `Array`
+
+#### Returns
+
+`None` 
+
+### set_showDayCellToolTips
 
 Sets a value indication whether the day cell tooltips should be visible.
 
@@ -818,7 +819,7 @@ Sets a value indication whether the day cell tooltips should be visible.
 
 `None` 
 
-###  set_showOtherMonthsDays
+### set_showOtherMonthsDays
 
 Sets whether the calendar displays days from months other than the focused month.
 
@@ -830,7 +831,7 @@ Sets whether the calendar displays days from months other than the focused month
 
 `None` 
 
-###  set_singleViewColumns
+### set_singleViewColumns
 
 Sets the number of columns in each month view.
 
@@ -842,7 +843,7 @@ Sets the number of columns in each month view.
 
 `None` 
 
-###  set_singleViewRows
+### set_singleViewRows
 
 Sets the number of rows in each month view.
 
@@ -854,7 +855,7 @@ Sets the number of rows in each month view.
 
 `None` 
 
-###  set_skin
+### set_skin
 
 Changes the current skin
 
@@ -866,7 +867,7 @@ Changes the current skin
 
 `None` 
 
-###  set_specialDaysArray
+### set_specialDaysArray
 
 Sets the special days. Each element in the array is an array (1-offset) with the following elements (in order): a triplet for the date, four elements that are not used client-side, an indicator of the repeatable status of the special day, another unused element, the tool tip for the day, and array with the style settings for the special day.
 
@@ -878,7 +879,7 @@ Sets the special days. Each element in the array is an array (1-offset) with the
 
 `None` 
 
-###  set_stylesHash
+### set_stylesHash
 
 Sets the predefined RadCalendar styles.
 
@@ -890,7 +891,7 @@ Sets the predefined RadCalendar styles.
 
 `None` 
 
-###  set_titleFormat
+### set_titleFormat
 
 Sets the headers (title) date format
 
@@ -902,7 +903,7 @@ Sets the headers (title) date format
 
 `None` 
 
-###  set_useColumnHeadersAsSelectors
+### set_useColumnHeadersAsSelectors
 
 Enables/disables the column selection
 
@@ -914,7 +915,7 @@ Enables/disables the column selection
 
 `None` 
 
-###  set_useRowHeadersAsSelectors
+### set_useRowHeadersAsSelectors
 
 Enables/disables the row selection
 
@@ -926,7 +927,7 @@ Enables/disables the row selection
 
 `None` 
 
-###  unselectDate
+### unselectDate
 
 Un-selects the date represented by the parameter if it is currently selected.
 
@@ -938,7 +939,7 @@ Un-selects the date represented by the parameter if it is currently selected.
 
 `None` 
 
-###  unselectDates
+### unselectDates
 
 Un-selects all the dates represented by triplets in the array if they are currently selected.
 
@@ -949,6 +950,7 @@ Un-selects all the dates represented by triplets in the array if they are curren
 #### Returns
 
 `None` 
+
 
 
 ## Events
@@ -1106,3 +1108,4 @@ The instance of the RadCalendar raised the event.
 ##### args `Telerik.Web.UI.CalendarClickEventArgs`
 
 The event arguments.
+

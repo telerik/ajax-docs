@@ -12,21 +12,58 @@ slug: Telerik.Web.UI.RadSearchBox
 * [Telerik.Web.UI.RadWebControl]({%slug Telerik.Web.UI.RadWebControl%})
 * *[Telerik.Web.UI.RadSearchBox]({%slug Telerik.Web.UI.RadSearchBox%})*
 
+
 ## Methods
 
-### set_enableAutoComplete
+### clear
 
-Sets whether the AutoComplete functionality of the SearchBox is enabled
+Clears the search results and closes the drop-down.
 
 #### Parameters
-
-##### value `Boolean`
-
- Indicates whether the AutoComplete functionality of the SearchBox is enabled. 
 
 #### Returns
 
 `None` 
+
+### commitChanges
+
+Writes the changes to the searchBox that were made since a previous call to trackChanges, so that they are preserved over post-backs.
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### get_buttons
+
+Gets a collection with all buttons
+
+#### Parameters
+
+#### Returns
+
+`Telerik.Web.UI.SearchBoxButtonCollection` 
+
+### get_childListElement
+
+Gets the UL DOM element of the RadSearchBox's drop-down
+
+#### Parameters
+
+#### Returns
+
+`Element` The UL DOM element of the RadSearchBox
+
+### get_clientTemplate
+
+Returns the value of the RadSearchBox's ClientTemplate property.
+
+#### Parameters
+
+#### Returns
+
+`String` The value of the RadSearchBox
 
 ### get_dropDownElement
 
@@ -38,49 +75,35 @@ Gets the root DOM element of the RadSearchBox's drop-down.
 
 `Element` The root DOM element of the RadSearchBox
 
-### set_emptyMessage
+### get_emptyMessage
 
-Sets the value of the RadSearchBox's EmptyMessage property.
-
-#### Parameters
-
-##### value `String`
-
-value
-
-#### Returns
-
-`None` 
-
-### get_text
-
-Gets the text in the input field.
+Returns the value of the RadSearchBox's EmptyMessage property.
 
 #### Parameters
 
 #### Returns
 
-`String` The text in the input field.
+`String` The value of the RadSearchBox
 
-### get_inputElement
+### get_enableAutoComplete
 
-Gets the input DOM element of the RadSearchBox.
-
-#### Parameters
-
-#### Returns
-
-`Element` The input DOM element of the RadSearchBox. 
-
-### repaint
-
-Refreshes the RadSearchBox UI
+Gets a value indicating whether the AutoComplete functionality of the SearchBox is enabled
 
 #### Parameters
 
 #### Returns
 
-`None` 
+`Boolean` Value indicating whether the AutoComplete functionality of the SearchBox is enabled
+
+### get_enabled
+
+Gets the value of the Enabled property
+
+#### Parameters
+
+#### Returns
+
+`String` 
 
 ### get_filter
 
@@ -92,15 +115,65 @@ Gets the Filter criteria of RadSearchBox.
 
 `Telerik.Web.UI.SearchBoxFilter` 
 
-### get_emptyMessage
+### get_inputElement
 
-Returns the value of the RadSearchBox's EmptyMessage property.
+Gets the input DOM element of the RadSearchBox.
 
 #### Parameters
 
 #### Returns
 
-`String` The value of the RadSearchBox
+`Element` The input DOM element of the RadSearchBox. 
+
+### get_searchContext
+
+Gets the SearchContext's object
+
+#### Parameters
+
+#### Returns
+
+`Telerik.Web.UI.SearchContext` 
+
+### get_text
+
+Gets the text in the input field.
+
+#### Parameters
+
+#### Returns
+
+`String` The text in the input field.
+
+### query
+
+If AutoComplete is enabled,the search string exists and it is longer than the min filter length set, a search operation is performed. The second parameter defines whether all results should be shown in the drop-down.
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### repaint
+
+Refreshes the RadSearchBox UI
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### saveClientState
+
+Saves the client state to the client state hidden field
+
+#### Parameters
+
+#### Returns
+
+`None` 
 
 ### set_clientTemplate
 
@@ -116,81 +189,29 @@ value
 
 `None` 
 
-### get_clientTemplate
+### set_emptyMessage
 
-Returns the value of the RadSearchBox's ClientTemplate property.
-
-#### Parameters
-
-#### Returns
-
-`String` The value of the RadSearchBox
-
-### get_enabled
-
-Gets the value of the Enabled property
+Sets the value of the RadSearchBox's EmptyMessage property.
 
 #### Parameters
 
-#### Returns
+##### value `String`
 
-`String` 
-
-### get_childListElement
-
-Gets the UL DOM element of the RadSearchBox's drop-down
-
-#### Parameters
-
-#### Returns
-
-`Element` The UL DOM element of the RadSearchBox
-
-### saveClientState
-
-Saves the client state to the client state hidden field
-
-#### Parameters
+value
 
 #### Returns
 
 `None` 
 
-### query
+### set_enableAutoComplete
 
-If AutoComplete is enabled,the search string exists and it is longer than the min filter length set, a search operation is performed. The second parameter defines whether all results should be shown in the drop-down.
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-### get_searchContext
-
-Gets the SearchContext's object
+Sets whether the AutoComplete functionality of the SearchBox is enabled
 
 #### Parameters
 
-#### Returns
+##### value `Boolean`
 
-`Telerik.Web.UI.SearchContext` 
-
-### get_enableAutoComplete
-
-Gets a value indicating whether the AutoComplete functionality of the SearchBox is enabled
-
-#### Parameters
-
-#### Returns
-
-`Boolean` Value indicating whether the AutoComplete functionality of the SearchBox is enabled
-
-### clear
-
-Clears the search results and closes the drop-down.
-
-#### Parameters
+ Indicates whether the AutoComplete functionality of the SearchBox is enabled. 
 
 #### Returns
 
@@ -220,25 +241,6 @@ Sets the Filter criteria of RadSearchBox.
 
 `None` 
 
-### commitChanges
-
-Writes the changes to the searchBox that were made since a previous call to trackChanges, so that they are preserved over post-backs.
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-### get_buttons
-
-Gets a collection with all buttons
-
-#### Parameters
-
-#### Returns
-
-`Telerik.Web.UI.SearchBoxButtonCollection` 
 
 ## Events
 
@@ -256,22 +258,6 @@ The RadSearchBox instance raised the event.
 
 The arguments of the Load event.
 
-
-### search
-
-Occurs when the search button is clicked, Enter is pressed, or an item from the searchBox dropdown is clicked.
-
-#### Event Data
-
-##### sender `Telerik.Web.UI.RadSearchBox`
-
-The RadSearchBox instance raised the event.
-
-##### args `Telerik.Web.UI.SearchBoxSearchEventArgs`
-
-The arguments of the Search event.
-
-dataRequesting
 
 ### dataRequesting
 
@@ -300,3 +286,20 @@ The RadSearchBox instance raised the event.
 ##### args `Telerik.Web.UI.SearchBoxButtonCommandEventArgs`
 
 The arguments of the ButtonCommand event
+### search
+
+Occurs when the search button is clicked, Enter is pressed, or an item from the searchBox dropdown is clicked.
+
+#### Event Data
+
+##### sender `Telerik.Web.UI.RadSearchBox`
+
+The RadSearchBox instance raised the event.
+
+##### args `Telerik.Web.UI.SearchBoxSearchEventArgs`
+
+The arguments of the Search event.
+
+dataRequesting
+
+

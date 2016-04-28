@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.RibbonBarCancelEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.RibbonBarCancelEventArgs]({%slug Telerik.Web.UI.RibbonBarCancelEventArgs%})*
 
+
 ## Methods
 
 ### get_item
@@ -23,3 +24,4 @@ Returns a reference to the ribbonbar menu item that was clicked. In this case it
 #### Returns
 
 `Telerik.Web.UI.RibbonBarItem`
+

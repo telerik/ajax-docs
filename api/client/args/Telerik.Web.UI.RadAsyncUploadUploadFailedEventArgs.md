@@ -11,6 +11,7 @@ slug: Telerik.Web.UI.RadAsyncUploadUploadFailedEventArgs
 
 * *[Telerik.Web.UI.RadAsyncUploadUploadFailedEventArgs]({%slug Telerik.Web.UI.RadAsyncUploadUploadFailedEventArgs%})*
 
+
 ## Methods
 
 ### set_handled 
@@ -66,3 +67,4 @@ Returns the upload row for which the event was fired.
 #### Returns
 
 `Element` <LI> element containing the file input for the selected file.
+

@@ -12,41 +12,12 @@ slug: Telerik.Web.UI.EditorDropDown
 * [Telerik.Web.UI.EditorButton]({%slug Telerik.Web.UI.EditorButton%})
 * *[Telerik.Web.UI.EditorDropDown]({%slug Telerik.Web.UI.EditorDropDown%})*
 
+
 ## Methods
-
-### isExpanded
-
-Returns a Boolean value indicating whether the pop-up element is expanded or not.
-
-#### Parameters
-
-#### Returns
-
-`Boolean`
-
-### show
-
-Shows the pop-up of the tool.
-
-#### Parameters
-
-#### Returns
-
-`None`
 
 ### configurePopupPropertiesBeforeShow
 
 Sets the position of the pop-up before show.
-
-#### Parameters
-
-#### Returns
-
-`None`
-
-### hide
-
-Hides the pop-up of the tool.
 
 #### Parameters
 
@@ -64,17 +35,15 @@ Returns the index of the currently selected item.
 
 `Number`
 
-### set_activeIndex
+### get_items
 
-Sets the index of the selected item.
+Returns the item collection populated.
 
 #### Parameters
 
-##### value `Number`
-
 #### Returns
 
-`None`
+`Array`
 
 ### get_popupElement
 
@@ -86,16 +55,6 @@ Returns the DOM element of the pop-up.
 
 `Element`
 
-### get_selectedItem
-
-Returns the name of the selected item.
-
-#### Parameters
-
-#### Returns
-
-`String`
-
 ### get_selectedIndex
 
 Returns the index of the selected item.
@@ -106,27 +65,47 @@ Returns the index of the selected item.
 
 `Number`
 
-### set_selectedIndex
+### get_selectedItem
 
-Sets an index of item to select.
+Returns the name of the selected item.
 
 #### Parameters
 
-##### index `Number`
+#### Returns
+
+`String`
+
+### hide
+
+Hides the pop-up of the tool.
+
+#### Parameters
 
 #### Returns
 
 `None`
 
-### get_items
+### isExpanded
 
-Returns the item collection populated.
+Returns a Boolean value indicating whether the pop-up element is expanded or not.
 
 #### Parameters
 
 #### Returns
 
-`Array`
+`Boolean`
+
+### set_activeIndex
+
+Sets the index of the selected item.
+
+#### Parameters
+
+##### value `Number`
+
+#### Returns
+
+`None`
 
 ### set_items
 
@@ -140,11 +119,34 @@ Sets a new item collection.
 
 `None`
 
-## Events
+### set_selectedIndex
+
+Sets an index of item to select.
+
+#### Parameters
+
+##### index `Number`
+
+#### Returns
+
+`None`
 
 ### show
 
-This event is raised when the pop-up element is shown.
+Shows the pop-up of the tool.
+
+#### Parameters
+
+#### Returns
+
+`None`
+
+
+## Events
+
+### hide
+
+This event is raised when the pop-up element is hidden.
 
 #### Event Data
 
@@ -156,9 +158,10 @@ The EditorDropDown instance raised the event.
 
 The event arguments.
 
-### hide
 
-This event is raised when the pop-up element is hidden.
+### show
+
+This event is raised when the pop-up element is shown.
 
 #### Event Data
 

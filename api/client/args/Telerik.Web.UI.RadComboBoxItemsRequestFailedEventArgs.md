@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.RadComboBoxItemsRequestFailedEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.RadComboBoxItemsRequestFailedEventArgs]({%slug Telerik.Web.UI.RadComboBoxItemsRequestFailedEventArgs%})*
 
+
 ## Methods
 
 ###  get_text
@@ -24,7 +25,17 @@ Returns the text from the input of the RadComboBox.
 
 `String` - the text from the input of the RadComboBox
 
-###  get_errorMessage
+### get_domEvent
+
+Returns the Sys.UI.DomEvent instance associated to the raised event.
+
+#### Parameters
+
+#### Returns
+
+`Sys.UI.DomEvent` 
+
+### get_errorMessage
 
 Returns the error message.
 
@@ -34,13 +45,4 @@ Returns the error message.
 
 `String`  returns the error message.  
 
-###  get_domEvent
-
-Returns the Sys.UI.DomEvent instance associated to the raised event.
-
-#### Parameters
-
-#### Returns
-
-`Sys.UI.DomEvent` 
 

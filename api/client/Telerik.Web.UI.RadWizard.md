@@ -12,8 +12,22 @@ slug: Telerik.Web.UI.RadWizard
 * [Telerik.Web.UI.RadWebControl]({%slug Telerik.Web.UI.RadWebControl%})
 * *[Telerik.Web.UI.RadWizard]({%slug Telerik.Web.UI.RadWizard%})*
 
+
 ## Events
 
+### buttonClicked
+
+This event is fired immediately after the RadWizard responds to button or step click.
+
+#### Event Data
+
+#####  sender `Telerik.Web.UI.RadWizard`
+
+The instance of the RadWizard raised the event.
+
+##### args `Telerik.Web.UI.WizardButtonClickedEventArgs`
+
+The event arguments. 
 ### load
 
 This event is fired when the RadWizard client-side object is loaded.
@@ -42,16 +56,4 @@ The instance of the RadWizard raised the event.
 
 The event arguments.  
 
-### buttonClicked
 
-This event is fired immediately after the RadWizard responds to button or step click.
-
-#### Event Data
-
-#####  sender `Telerik.Web.UI.RadWizard`
-
-The instance of the RadWizard raised the event.
-
-##### args `Telerik.Web.UI.WizardButtonClickedEventArgs`
-
-The event arguments. 

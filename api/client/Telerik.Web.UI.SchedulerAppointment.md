@@ -11,6 +11,7 @@ slug: Telerik.Web.UI.SchedulerAppointment
 
 * *[Telerik.Web.UI.SchedulerAppointment]({%slug Telerik.Web.UI.SchedulerAppointment%})*
 
+
 ## Methods
 
 ###  clone
@@ -23,7 +24,7 @@ Creates a shallow copy of this appointment.
 
 `Telerik.Web.UI.SchedulerAppointment`  A shallow copy of this appointment. 
 
-###  edit
+### edit
 
 Switches the scheduler into edit mode for this appointment. Same as calling editAppointment() on the scheduler instance.
 
@@ -33,7 +34,7 @@ Switches the scheduler into edit mode for this appointment. Same as calling edit
 
 `None` 
 
-###  get_allowDelete
+### get_allowDelete
 
 Gets a value indicating if the appointment is deletable.
 
@@ -43,7 +44,7 @@ Gets a value indicating if the appointment is deletable.
 
 `Boolean`  true if the appointment is deletable
 
-###  get_allowEdit
+### get_allowEdit
 
 Gets a value indicating if the appointment is editable.
 
@@ -53,7 +54,7 @@ Gets a value indicating if the appointment is editable.
 
 `Boolean`  true if the appointment is editable
 
-###  get_attributes
+### get_attributes
 
 Gets a collection of all attributes of the appointment.
 
@@ -63,7 +64,7 @@ Gets a collection of all attributes of the appointment.
 
 `Telerik.Web.UI.SchedulerAttributeCollection`  Collection of all attributes of the appointment. 
 
-###  get_backColor
+### get_backColor
 
 Gets the appointment background color.
 
@@ -73,7 +74,7 @@ Gets the appointment background color.
 
 `String`  The appointment background color. 
 
-###  get_borderColor
+### get_borderColor
 
 Gets the appointment border color.
 
@@ -83,7 +84,7 @@ Gets the appointment border color.
 
 `String`  The appointment border style. 
 
-###  get_borderStyle
+### get_borderStyle
 
 Gets the appointment border style.
 
@@ -93,7 +94,7 @@ Gets the appointment border style.
 
 `String`  The appointment border style. 
 
-###  get_borderWidth
+### get_borderWidth
 
 Gets the appointment border width.
 
@@ -103,7 +104,7 @@ Gets the appointment border width.
 
 `String`  The appointment border width. 
 
-###  get_contextMenuID
+### get_contextMenuID
 
 Gets the ID of the context menu associated with the appointment.
 
@@ -113,7 +114,7 @@ Gets the ID of the context menu associated with the appointment.
 
 `String`  The ID of the context menu associated with the appointment. 
 
-###  get_cssClass
+### get_cssClass
 
 Gets the appointment CSS class.
 
@@ -123,7 +124,7 @@ Gets the appointment CSS class.
 
 `String`  The appointment CSS class. 
 
-###  get_description
+### get_description
 
 Gets the appointment description.
 
@@ -133,7 +134,7 @@ Gets the appointment description.
 
 `String`  The appointment description. 
 
-###  get_duration
+### get_duration
 
 Gets the duration of the appointment in milliseconds.
 
@@ -143,7 +144,7 @@ Gets the duration of the appointment in milliseconds.
 
 `Number`  The duration of the appointment in milliseconds. 
 
-###  get_durationInMinutes
+### get_durationInMinutes
 
 Gets the duration of the appointment in minutes.
 
@@ -153,7 +154,7 @@ Gets the duration of the appointment in minutes.
 
 `Number`  The duration of the appointment in minutes. 
 
-###  get_element
+### get_element
 
 Gets the DOM element representing the appointment.
 
@@ -163,7 +164,7 @@ Gets the DOM element representing the appointment.
 
 `Element`  The DOM element representing the appointment. 
 
-###  get_elements
+### get_elements
 
 Gets the DOM elements representing the appointment. Appointments that span multiple days have multiple dom elements.
 
@@ -173,7 +174,7 @@ Gets the DOM elements representing the appointment. Appointments that span multi
 
 `Element`  The DOM elements representing the appointment. 
 
-###  get_end
+### get_end
 
 Gets the appointment end date.
 
@@ -183,7 +184,7 @@ Gets the appointment end date.
 
 `Date`  The appointment end date. 
 
-###  get_id
+### get_id
 
 Gets the unique ID of this Appointment.
 
@@ -193,7 +194,7 @@ Gets the unique ID of this Appointment.
 
 `String`  The unique ID of this Appointment. 
 
-###  get_internalID
+### get_internalID
 
 Gets the encoded unique ID of this Appointment. This includes the value as well as the type of the ID.
 
@@ -203,7 +204,7 @@ Gets the encoded unique ID of this Appointment. This includes the value as well 
 
 `String`  The encoded unique ID of this Appointment. 
 
-###  get_owner
+### get_owner
 
 Gets the owner scheduler.
 
@@ -213,7 +214,7 @@ Gets the owner scheduler.
 
 `Telerik.Web.UI.RadScheduler`  The owner scheduler. 
 
-###  get_recurrenceParentID
+### get_recurrenceParentID
 
 Gets the ID of the parent appointment if the current appointment is a recurrence exception.
 
@@ -223,7 +224,7 @@ Gets the ID of the parent appointment if the current appointment is a recurrence
 
 `String`  The ID of the parent appointment if the current appointment is a recurrence exception. 
 
-###  get_recurrenceRule
+### get_recurrenceRule
 
 Gets the recurrence rule of this appointment.
 
@@ -233,7 +234,7 @@ Gets the recurrence rule of this appointment.
 
 `Telerik.Web.UI.RecurrenceState`  The recurrence rule of the appointment. 
 
-###  get_recurrenceState
+### get_recurrenceState
 
 Gets the recurrence state of the appointment.
 
@@ -243,7 +244,7 @@ Gets the recurrence state of the appointment.
 
 `Telerik.Web.UI.RecurrenceState`  The recurrence state of the appointment as an enum value of type Telerik.Web.UI.RecurrenceState. 
 
-###  get_resources
+### get_resources
 
 Gets a collection of the appointment resources.
 
@@ -253,7 +254,7 @@ Gets a collection of the appointment resources.
 
 `Telerik.Web.UI.SchedulerResourceCollection`  Collection of the appointment resources. 
 
-###  get_start
+### get_start
 
 Gets the appointment start date.
 
@@ -263,7 +264,7 @@ Gets the appointment start date.
 
 `Date`  The appointment start date. 
 
-###  get_subject
+### get_subject
 
 Gets the appointment subject.
 
@@ -273,7 +274,7 @@ Gets the appointment subject.
 
 `String`  The appointment subject. 
 
-###  get_timeSlot
+### get_timeSlot
 
 Gets the time slot that the appointment is in.
 
@@ -283,7 +284,7 @@ Gets the time slot that the appointment is in.
 
 `Telerik.Web.UI.ISchedulerTimeSlot`  The time slot that the appointment is in. 
 
-###  get_toolTip
+### get_toolTip
 
 Gets the appointment tooltip.
 
@@ -293,7 +294,7 @@ Gets the appointment tooltip.
 
 `String`  The appointment tooltip. 
 
-###  get_visible
+### get_visible
 
 Gets a value indicating if the appointment is currently visible.
 
@@ -303,7 +304,7 @@ Gets a value indicating if the appointment is currently visible.
 
 `Boolean`  true if the appointment is rendered
 
-###  remove
+### remove
 
 Deletes this appointment. Same as calling deleteAppointment() on the scheduler instance.
 
@@ -313,7 +314,7 @@ Deletes this appointment. Same as calling deleteAppointment() on the scheduler i
 
 `None` 
 
-###  set_allowDelete
+### set_allowDelete
 
 Sets a value indicating if the appointment is deletable.
 
@@ -327,7 +328,7 @@ Sets a value indicating if the appointment is deletable.
 
 `None` 
 
-###  set_allowEdit
+### set_allowEdit
 
 Sets a value indicating if the appointment is editable.
 
@@ -341,7 +342,7 @@ Sets a value indicating if the appointment is editable.
 
 `None` 
 
-###  set_backColor
+### set_backColor
 
 Sets the appointment background color.
 
@@ -355,7 +356,7 @@ Sets the appointment background color.
 
 `None` 
 
-###  set_borderColor
+### set_borderColor
 
 Sets the appointment border color.
 
@@ -369,7 +370,7 @@ Sets the appointment border color.
 
 `None` 
 
-###  set_borderStyle
+### set_borderStyle
 
 Sets the appointment border style.
 
@@ -383,7 +384,7 @@ Sets the appointment border style.
 
 `None` 
 
-###  set_borderWidth
+### set_borderWidth
 
 Sets the appointment border width.
 
@@ -397,7 +398,7 @@ Sets the appointment border width.
 
 `None` 
 
-###  set_contextMenuID
+### set_contextMenuID
 
 Sets the ID of the context menu associated with the appointment.
 
@@ -411,7 +412,7 @@ Sets the ID of the context menu associated with the appointment.
 
 `None` 
 
-###  set_cssClass
+### set_cssClass
 
 Sets the appointment CSS class.
 
@@ -425,7 +426,7 @@ Sets the appointment CSS class.
 
 `None` 
 
-###  set_description
+### set_description
 
 Sets the appointment description.
 
@@ -439,7 +440,7 @@ Sets the appointment description.
 
 `None` 
 
-###  set_end
+### set_end
 
 Sets the appointment end date.
 
@@ -453,7 +454,7 @@ Sets the appointment end date.
 
 `None` 
 
-###  set_recurrenceRule
+### set_recurrenceRule
 
 Sets the recurrence rule of this appointment.
 
@@ -467,7 +468,7 @@ Sets the recurrence rule of this appointment.
 
 `None` 
 
-###  set_start
+### set_start
 
 Sets the appointment start date.
 
@@ -481,7 +482,7 @@ Sets the appointment start date.
 
 `None` 
 
-###  set_subject
+### set_subject
 
 Sets the appointment subject.
 
@@ -495,7 +496,7 @@ Sets the appointment subject.
 
 `None` 
 
-###  set_toolTip
+### set_toolTip
 
 Sets the appointment tooltip.
 
@@ -508,5 +509,6 @@ Sets the appointment tooltip.
 #### Returns
 
 `None` 
+
 
 

@@ -12,17 +12,8 @@ slug: Telerik.Web.UI.RadMap
 * [Telerik.Web.UI.RadWebControl]({%slug Telerik.Web.UI.RadWebControl%})
 * *[Telerik.Web.UI.RadMap]({%slug Telerik.Web.UI.RadMap%})*
 
+
 ## Methods
-
-### repaint
-
-Causes the control to repaint (re-render).
-
-#### Parameters
-
-#### Returns
-
-`None`
 
 ### get_kendoWidget
 
@@ -35,6 +26,16 @@ To use the exposed Kendo methods make sure you have the kendo.dataviz.d.ts file 
 
 `Object`
 
+### repaint
+
+Causes the control to repaint (re-render).
+
+#### Parameters
+
+#### Returns
+
+`None`
+
 ### saveClientState
 
 Saves the current zoom level and center value to preserve them between post backs.
@@ -45,21 +46,8 @@ Saves the current zoom level and center value to preserve them between post back
 
 `String`
 
+
 ## Events
-
-### load
-
-This event is raised when the initialization of the Map is finished and all its elements are rendered on the client.
-
-####  Event Data
-
-##### sender `Telerik.Web.UI.RadMap`
-
-The instance of the RadMap control raised the event.
-
-##### args `Sys.EventArgs`
-
-The event arguments.
 
 ### initialize
 
@@ -78,5 +66,20 @@ The event arguments.
 
 
 
+
+
+### load
+
+This event is raised when the initialization of the Map is finished and all its elements are rendered on the client.
+
+####  Event Data
+
+##### sender `Telerik.Web.UI.RadMap`
+
+The instance of the RadMap control raised the event.
+
+##### args `Sys.EventArgs`
+
+The event arguments.
 
 

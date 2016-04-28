@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.PivotGridMenuShownEventArgs
 * Sys.EventArgs
 * *[Telerik.Web.UI.PivotGridMenuShownEventArgs]({%slug Telerik.Web.UI.PivotGridMenuShownEventArgs%})*
 
+
 ## Methods
 
 ### get_menu
@@ -33,3 +34,4 @@ Returns a reference to the RadContextMenuShownEventArgs event arguments.
 #### Returns
 
 `Telerik.Web.UI.RadContextMenuShownEventArgs` 
+

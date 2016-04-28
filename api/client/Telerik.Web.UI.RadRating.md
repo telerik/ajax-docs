@@ -12,17 +12,28 @@ slug: Telerik.Web.UI.RadRating
 * [Telerik.Web.UI.RadWebControl]({%slug Telerik.Web.UI.RadWebControl%})
 * *[Telerik.Web.UI.RadRating]({%slug Telerik.Web.UI.RadRating%})*
 
+
 ## Methods
 
-### get_value
+### get_enabled
 
-Gets the current value of the rating control
+Returns a value, indicating whether the rating control is enabled
 
 #### Parameters
 
 #### Returns
 
-`Number` The current value of the rating control
+`Boolean` The value of the Enabled property
+
+### get_enableToolTips
+
+Returns a value, indicating whether the rating control will display a browser toolip for its values
+
+#### Parameters
+
+#### Returns
+
+`Boolean` A value
 
 ### get_isDirectionReversed
 
@@ -34,15 +45,81 @@ Returns a value, indicating whether the direction of the rating control is rever
 
 `Boolean` A value
 
-### set_value
+### get_itemCount
 
-Sets the current value of the rating control
+Gets the number of items (stars) in the rating control
 
 #### Parameters
 
-##### value `Number`
+#### Returns
 
-The new value for the rating control
+`Number` The number of items 
+
+### get_itemData
+
+Array
+
+#### Parameters
+
+#### Returns
+
+`None` 
+
+### get_orientation
+
+Gets the orientation of the rating control
+
+#### Parameters
+
+#### Returns
+
+`Telerik.Web.UI.Orientation` The orientation of the rating control
+
+### get_precision
+
+Gets the rate precision of the rating control
+
+#### Parameters
+
+#### Returns
+
+`Telerik.Web.UI.RatingPrecision` The rate precision of the rating control
+
+### get_readOnly
+
+Returns a value, indicating whether the rating control is in read-only mode
+
+#### Parameters
+
+#### Returns
+
+`Boolean` A value
+
+### get_selectionMode
+
+Gets the selection mode of the rating control
+
+#### Parameters
+
+#### Returns
+
+`Telerik.Web.UI.RatingSelectionMode` The selection mode of the rating control
+
+### get_value
+
+Gets the current value of the rating control
+
+#### Parameters
+
+#### Returns
+
+`Number` The current value of the rating control
+
+### repaint
+
+Repaints the rating control and forces it to recalculate the size of its elements. Use this method when the control is in an initially hidden element
+
+#### Parameters
 
 #### Returns
 
@@ -62,19 +139,9 @@ The new value for the Enabled property
 
 `None` 
 
-### set_selectionMode
+### set_precision
 
-Telerik.Web.UI.RatingSelectionMode
-
-#### Parameters
-
-#### Returns
-
-`None` 
-
-### repaint
-
-Repaints the rating control and forces it to recalculate the size of its elements. Use this method when the control is in an initially hidden element
+Telerik.Web.UI.RatingPrecision
 
 #### Parameters
 
@@ -96,79 +163,9 @@ The new value for the ReadOnly property
 
 `None` 
 
-### get_selectionMode
+### set_selectionMode
 
-Gets the selection mode of the rating control
-
-#### Parameters
-
-#### Returns
-
-`Telerik.Web.UI.RatingSelectionMode` The selection mode of the rating control
-
-### get_precision
-
-Gets the rate precision of the rating control
-
-#### Parameters
-
-#### Returns
-
-`Telerik.Web.UI.RatingPrecision` The rate precision of the rating control
-
-### get_itemCount
-
-Gets the number of items (stars) in the rating control
-
-#### Parameters
-
-#### Returns
-
-`Number` The number of items 
-
-### get_enableToolTips
-
-Returns a value, indicating whether the rating control will display a browser toolip for its values
-
-#### Parameters
-
-#### Returns
-
-`Boolean` A value
-
-### get_readOnly
-
-Returns a value, indicating whether the rating control is in read-only mode
-
-#### Parameters
-
-#### Returns
-
-`Boolean` A value
-
-### get_orientation
-
-Gets the orientation of the rating control
-
-#### Parameters
-
-#### Returns
-
-`Telerik.Web.UI.Orientation` The orientation of the rating control
-
-### get_enabled
-
-Returns a value, indicating whether the rating control is enabled
-
-#### Parameters
-
-#### Returns
-
-`Boolean` The value of the Enabled property
-
-### set_precision
-
-Telerik.Web.UI.RatingPrecision
+Telerik.Web.UI.RatingSelectionMode
 
 #### Parameters
 
@@ -176,17 +173,49 @@ Telerik.Web.UI.RatingPrecision
 
 `None` 
 
-### get_itemData
+### set_value
 
-Array
+Sets the current value of the rating control
 
 #### Parameters
+
+##### value `Number`
+
+The new value for the rating control
 
 #### Returns
 
 `None` 
+
 
 ## Events
+
+### load
+
+The load event occurs when the RadRating control loaded on the page.
+
+#### Event Data
+
+#####  sender `Telerik.Web.UI.RadRating`
+
+The instance of the RadRating raised the event.
+
+#####  eventArgs `Sys.EventArgs`
+
+Empty event argument.
+### rated
+
+The rated event is raised after you click an item of the RadRating control therefore after the rating event. It is not cancellable.
+
+#### Event Data
+
+##### sender `Telerik.Web.UI.RadRating`
+
+The instance of the RadRating raised the event.
+
+##### args `Telerik.Web.UI.RatingRatedEventArgs`
+
+The event arguments.
 
 ### rating
 
@@ -202,30 +231,4 @@ The instance of the RadRating raised the event.
 
 The event arguments.  
 
-### rated
 
-The rated event is raised after you click an item of the RadRating control therefore after the rating event. It is not cancellable.
-
-#### Event Data
-
-##### sender `Telerik.Web.UI.RadRating`
-
-The instance of the RadRating raised the event.
-
-##### args `Telerik.Web.UI.RatingRatedEventArgs`
-
-The event arguments.
-
-### load
-
-The load event occurs when the RadRating control loaded on the page.
-
-#### Event Data
-
-#####  sender `Telerik.Web.UI.RadRating`
-
-The instance of the RadRating raised the event.
-
-#####  eventArgs `Sys.EventArgs`
-
-Empty event argument.

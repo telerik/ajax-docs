@@ -12,11 +12,22 @@ slug: Telerik.Web.UI.RadImageAndTextTile
 * [Telerik.Web.UI.RadBaseTile]({%slug Telerik.Web.UI.RadBaseTile%})
 * *[Telerik.Web.UI.RadImageAndTextTile]({%slug Telerik.Web.UI.RadImageAndTextTile%})*
 
+
 ## Methods
 
 ### get_imageUrl
 
 Return the URL of the image dispalyed in the upper content container
+
+#### Parameters
+
+#### Returns
+
+`String` 
+
+### get_text
+
+Return the text displayed in the lower content container
 
 #### Parameters
 
@@ -48,13 +59,4 @@ Sets the text displayed in the lower content container
 
 `None` 
 
-### get_text
-
-Return the text displayed in the lower content container
-
-#### Parameters
-
-#### Returns
-
-`String` 
 

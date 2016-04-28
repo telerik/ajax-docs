@@ -11,6 +11,7 @@ slug: Telerik.Web.UI.ClientDataSource.GroupExpression
 
 * *[Telerik.Web.UI.ClientDataSource.GroupExpression]({%slug Telerik.Web.UI.ClientDataSource.GroupExpression%})*
 
+
 ## Methods
 
 ###  get_aggregates
@@ -23,7 +24,7 @@ none
 
 `None` 
 
-###  get_sortOrder
+### get_sortOrder
 
 none
 
@@ -33,7 +34,7 @@ none
 
 `None` 
 
-###  set_sortOrder
+### set_sortOrder
 
 Telerik.Web.UI.ClientDataSource.SortOrder
 
@@ -42,5 +43,6 @@ Telerik.Web.UI.ClientDataSource.SortOrder
 #### Returns
 
 `None` 
+
 
 

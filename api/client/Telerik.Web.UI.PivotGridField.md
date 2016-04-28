@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.PivotGridField
 * Sys.UI.Control
 * *[Telerik.Web.UI.PivotGridField]({%slug Telerik.Web.UI.PivotGridField%})*
 
+
 ## Methods
 
 ###  get_aggregate
@@ -24,7 +25,7 @@ Gets the aggregate operator of the field.
 
 `Telerik.Web.UI.PivotGridAggregate`  The aggregate operator of the field.
 
-###  get_nextField
+### get_nextField
 
 Gets the field positioned after the current field.
 
@@ -34,7 +35,7 @@ Gets the field positioned after the current field.
 
 `Telerik.Web.UI.PivotGridField` Returns the field positioned after the current field.
 
-###  get_owner
+### get_owner
 
 Gets the owner pivot grid.
 
@@ -44,7 +45,7 @@ Gets the owner pivot grid.
 
 `Telerik.Web.UI.RadPivotGrid` The owner pivot grid.
 
-###  get_previousField
+### get_previousField
 
 Gets the field positioned before the current field.
 
@@ -54,7 +55,7 @@ Gets the field positioned before the current field.
 
 `Telerik.Web.UI.PivotGridField` Returns the field positioned before the current field.
 
-###  get_uniqueName
+### get_uniqueName
 
 Gets the unique name of the field which is assigned dynamically during runtime or set by the user.
 
@@ -64,7 +65,7 @@ Gets the unique name of the field which is assigned dynamically during runtime o
 
 `String` The unique name.
 
-###  get_zoneIndex
+### get_zoneIndex
 
 Gets the zone index of the field which determines its position in the same zone.
 
@@ -74,7 +75,7 @@ Gets the zone index of the field which determines its position in the same zone.
 
 `Number` The zone index of the field which determines its position in the same zone.
 
-###  get_zoneType
+### get_zoneType
 
 Gets the zone type of the field which determines in which zone the field is positioned.
 
@@ -84,7 +85,7 @@ Gets the zone type of the field which determines in which zone the field is posi
 
 `Telerik.Web.UI.PivotGridFieldZoneType`  The zone type of the field which determines in which zone the field is positioned.
 
-###  hide
+### hide
 
 Performs postback and sets the field IsHidden property to true which excludes the field from the pivot table calculations.
 
@@ -94,7 +95,7 @@ Performs postback and sets the field IsHidden property to true which excludes th
 
 `None` 
 
-###  show
+### show
 
 Performs postback and calls the Show function of the field server-side in order to sets the IsHidden property to false and sets the ZoneIndex so the field will be placed as last in the zone
 
@@ -104,7 +105,7 @@ Performs postback and calls the Show function of the field server-side in order 
 
 `None` 
 
-###  tryReorder
+### tryReorder
 
 Tries to reorder the field with new ZoneType and/or new ZoneIndex.
 
@@ -121,5 +122,6 @@ The new ZoneIndex for the field
 #### Returns
 
 `Boolean` If the reorder happened or not which could happen if the zoneType and zoneIndex are the same
+
 
 

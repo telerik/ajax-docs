@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.ControlItemCollection
 
 * *[Telerik.Web.UI.ControlItemCollection]({%slug Telerik.Web.UI.ControlItemCollection%})*
 
+
 ## Methods
 
 ### add
@@ -24,7 +25,7 @@ Adds ControlItem to the ControlItemCollection.
 
 The ControlItem to be added to the collection.
 
-###  clear
+### clear
 
 Clears the Items collection of ControlItemContainer.
 
@@ -34,7 +35,7 @@ Clears the Items collection of ControlItemContainer.
 
 `None` 
 
-###  forEach
+### forEach
 
 Iterates through the Items collection.
 
@@ -48,7 +49,17 @@ The function to execute on each iteration.
 
 `None` 
 
-###  getItem
+### get_count
+
+Returns the number of items in the Items collection.
+
+#### Parameters
+
+#### Returns
+
+`Number` The number of the items.
+
+### getItem
 
 Gets the item from the Items collection residing at the index specified by the parameter.
 
@@ -62,17 +73,7 @@ The index of the item that should be returned.
 
 `Telerik.Web.UI.ControlItem` Returns ControlItem.
 
-###  get_count
-
-Returns the number of items in the Items collection.
-
-#### Parameters
-
-#### Returns
-
-`Number` The number of the items.
-
-###  indexOf
+### indexOf
 
 Gets the index of an item.
 
@@ -86,7 +87,7 @@ The item to get the index of.
 
 `Number` int
 
-###  insert
+### insert
 
 Inserts an item into the Items collection at the position;specified by the first (index) parameter.
 
@@ -104,7 +105,7 @@ The item to insert.
 
 `None` 
 
-###  remove
+### remove
 
 Removes an item from the Items collection.
 
@@ -118,7 +119,7 @@ Removes an item from the Items collection.
 
 `None` 
 
-###  removeAt
+### removeAt
 
 Removes the item at the specified index.
 
@@ -132,7 +133,7 @@ Removes the item at the specified index.
 
 `None` 
 
-###  toArray
+### toArray
 
 Returns the collection represented as array.
 
@@ -141,5 +142,6 @@ Returns the collection represented as array.
 #### Returns
 
 `Telerik.Web.UI.ControlItem[]` 
+
 
 

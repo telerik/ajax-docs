@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.TreeListColumnResizedEventArgs
 * Sys.EventArgs
 * *[Telerik.Web.UI.TreeListColumnResizedEventArgs]({%slug Telerik.Web.UI.TreeListColumnResizedEventArgs%})*
 
+
 ## Methods
 
 ### get_column
@@ -33,3 +34,4 @@ Returns the resized TreeListDataItem object
 #### Returns
 
 `Object`
+

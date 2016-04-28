@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.SchedulerAppointmentCancelEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.SchedulerAppointmentCancelEventArgs]({%slug Telerik.Web.UI.SchedulerAppointmentCancelEventArgs%})*
 
+
 ## Methods
 
 ###  get_appointment
@@ -23,3 +24,4 @@ Returns the appointment instance.
 #### Returns
 
 `Telerik.Web.UI.SchedulerAppointment` The appointment instance. 
+

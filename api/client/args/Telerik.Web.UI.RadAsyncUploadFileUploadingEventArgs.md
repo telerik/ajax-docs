@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.RadAsyncUploadFileUploadingEventArgs
 * [Telerik.Web.UI.RadAsyncUploadCancelEventArgs]({%slug Telerik.Web.UI.RadAsyncUploadCancelEventArgs%})
 * *[Telerik.Web.UI.RadAsyncUploadFileUploadingEventArgs]({%slug Telerik.Web.UI.RadAsyncUploadFileUploadingEventArgs%})*
 
+
 ## Methods
 
 ### get_fileName
@@ -45,3 +46,4 @@ Add string parameters to the uploaded file.
 #### Returns
 
 `None` 
+

@@ -11,6 +11,7 @@ slug: Telerik.Web.UI.ISchedulerTimeSlot
 
 * *[Telerik.Web.UI.ISchedulerTimeSlot]({%slug Telerik.Web.UI.ISchedulerTimeSlot%})*
 
+
 ## Methods
 
 ###  get_domElement
@@ -23,7 +24,7 @@ Gets the DOM elment of this time slot.
 
 `Element`  The DOM elment of this time slot. 
 
-###  get_duration
+### get_duration
 
 Gets the duration of the time slot in milliseconds.
 
@@ -33,7 +34,7 @@ Gets the duration of the time slot in milliseconds.
 
 `Number`  The duration of the time slot in milliseconds. 
 
-###  get_durationInMinutes
+### get_durationInMinutes
 
 Gets the duration of the time slot in minutes.
 
@@ -43,7 +44,7 @@ Gets the duration of the time slot in minutes.
 
 `Number`  The duration of the time slot in minutes. 
 
-###  get_endTime
+### get_endTime
 
 Gets the end time of the time slot.
 
@@ -53,7 +54,7 @@ Gets the end time of the time slot.
 
 `Date`  The end time of the time slot. 
 
-###  get_index
+### get_index
 
 Gets the hierarchical index of the time slot.
 
@@ -63,7 +64,7 @@ Gets the hierarchical index of the time slot.
 
 `String`  The hierarchical index of the time slot. 
 
-###  get_isAllDay
+### get_isAllDay
 
 Gets a value indicating if the time slot is an all-day or not.
 
@@ -73,7 +74,7 @@ Gets a value indicating if the time slot is an all-day or not.
 
 `Boolean`  true if this is an all
 
-###  get_startTime
+### get_startTime
 
 Gets the start time of the time slot.
 
@@ -82,5 +83,6 @@ Gets the start time of the time slot.
 #### Returns
 
 `Date`  The start time of the time slot. 
+
 
 

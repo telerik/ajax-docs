@@ -11,4 +11,6 @@ slug: Telerik.Web.UI.RibbonBarDropDown
 
 * *[Telerik.Web.UI.RibbonBarDropDown]({%slug Telerik.Web.UI.RibbonBarDropDown%})*
 
-## Methods
+
+Methods
+

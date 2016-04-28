@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.SearchBoxDataRequestingEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.SearchBoxDataRequestingEventArgs]({%slug Telerik.Web.UI.SearchBoxDataRequestingEventArgs%})*
 
+
 ## Methods
 
 ###  get_text
@@ -25,7 +26,7 @@ Returns the text of the SearchBox.
 `String` the text of the SearchBox.
 
 
-###  get_showAllResults
+### get_showAllResults
 
 Returns a boolean value indicating whether all results should be shown, or just a portion of them, depending on the MaxResultsCount property value. 
 
@@ -35,7 +36,7 @@ Returns a boolean value indicating whether all results should be shown, or just 
 
 `Boolean`
 
-###  get_userContext
+### get_userContext
 
 Returns the UserContext object of type IDictionary.
 
@@ -44,4 +45,5 @@ Returns the UserContext object of type IDictionary.
 #### Returns
 
 `Object`
+
 

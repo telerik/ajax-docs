@@ -11,6 +11,7 @@ slug: Telerik.Web.UI.RadProgressBar
 
 * *[Telerik.Web.UI.RadProgressBar]({%slug Telerik.Web.UI.RadProgressBar%})*
 
+
 ## Methods
 
 ###  get_animationSettings
@@ -23,7 +24,7 @@ Returns the animation settings of the progress bar. They are presented with an o
 
 `Object` 
 
-###  get_barType
+### get_barType
 
 Telerik.Web.UI.ProgressBarType
 
@@ -33,7 +34,7 @@ Telerik.Web.UI.ProgressBarType
 
 `Telerik.Web.UI.ProgressBarType` 
 
-###  get_chunksCount
+### get_chunksCount
 
 BarType
 
@@ -43,7 +44,7 @@ BarType
 
 `Number` 
 
-###  get_enabled
+### get_enabled
 
 Returns the enabled state of the progress bar.
 
@@ -53,7 +54,7 @@ Returns the enabled state of the progress bar.
 
 `Boolean` 
 
-###  get_label
+### get_label
 
 Returns the label text of the progress bar.
 
@@ -63,7 +64,7 @@ Returns the label text of the progress bar.
 
 `String` 
 
-###  get_maxValue
+### get_maxValue
 
 Returns the maximum value of the progress bar.
 
@@ -73,7 +74,7 @@ Returns the maximum value of the progress bar.
 
 `Object` 
 
-###  get_minValue
+### get_minValue
 
 Returns the minimum value of the progress bar.
 
@@ -83,7 +84,7 @@ Returns the minimum value of the progress bar.
 
 `Object` 
 
-###  get_orientation
+### get_orientation
 
 Telerik.Web.UI.ProgressBarOrientation
 
@@ -93,7 +94,7 @@ Telerik.Web.UI.ProgressBarOrientation
 
 `Telerik.Web.UI.ProgressBarOrientation` 
 
-###  get_progressWrapper
+### get_progressWrapper
 
 Returns the progress wrapper DOM element.
 
@@ -103,7 +104,7 @@ Returns the progress wrapper DOM element.
 
 `Object` 
 
-###  get_reversed
+### get_reversed
 
 Indicates whether the direction of the progress bar is reversed.
 
@@ -113,7 +114,7 @@ Indicates whether the direction of the progress bar is reversed.
 
 `Boolean` 
 
-###  get_showLabel
+### get_showLabel
 
 Returns the visible state of the label of the progress bar.
 
@@ -123,7 +124,7 @@ Returns the visible state of the label of the progress bar.
 
 `Boolean` 
 
-###  get_value
+### get_value
 
 Returns the current value of the progress bar.
 
@@ -133,7 +134,7 @@ Returns the current value of the progress bar.
 
 `Object` 
 
-###  isCompleted
+### isCompleted
 
 Returns the completed state of the progress bar.
 
@@ -143,7 +144,7 @@ Returns the completed state of the progress bar.
 
 `Boolean` 
 
-###  set_animationSettings
+### set_animationSettings
 
 Sets the animation settings of the progress bar. They are presented with an object literal with the following fields:
 
@@ -155,7 +156,7 @@ Sets the animation settings of the progress bar. They are presented with an obje
 
 `Object` 
 
-###  set_enabled
+### set_enabled
 
 Sets the enabled state of the progress bar.
 
@@ -167,7 +168,7 @@ Sets the enabled state of the progress bar.
 
 `Object` 
 
-###  set_label
+### set_label
 
 Sets the label text of the progress bar.
 
@@ -179,7 +180,7 @@ Sets the label text of the progress bar.
 
 `Object` 
 
-###  set_showLabel
+### set_showLabel
 
 Sets the visible state of the label of the progress bar.
 
@@ -191,7 +192,7 @@ Sets the visible state of the label of the progress bar.
 
 `Object` 
 
-###  set_value
+### set_value
 
 Sets the current value of the progress bar.
 
@@ -203,8 +204,36 @@ Sets the current value of the progress bar.
 
 `Object` 
 
+
 ## Events
 
+### valueChanging 
+
+The client-side valueChanging event is raised just before the RadProgressBar value property is changed. You can handle this event in case you want to prevent the current value from changing.
+
+#### Event Data
+
+#####  sender `Telerik.Web.UI.RadProgressBar`
+
+The instance of the RadProgressBar raised the event.
+
+##### args `Telerik.Web.UI.ProgressBarCancelEventArgs`
+
+The event arguments.
+
+### completed
+
+The client-side completed event is raised when the RadProgressBar reaches its max value.
+
+#### Event Data
+
+#####  sender `Telerik.Web.UI.RadProgressBar`
+
+The instance of the RadProgressBar raised the event.
+
+##### args `Sys.EventArgs`
+
+Empty event argument.
 ### initialize
 
 The client-side initialize event is raised when the RadProgressBar client-side object is initialized.
@@ -233,20 +262,6 @@ The instance of the RadProgressBar raised the event.
 
 Empty event argument.
 
-### valueChanging 
-
-The client-side valueChanging event is raised just before the RadProgressBar value property is changed. You can handle this event in case you want to prevent the current value from changing.
-
-#### Event Data
-
-#####  sender `Telerik.Web.UI.RadProgressBar`
-
-The instance of the RadProgressBar raised the event.
-
-##### args `Telerik.Web.UI.ProgressBarCancelEventArgs`
-
-The event arguments.
-
 ### valueChanged
 
 The client-side ValueChanged event is raised after the RadProgressBar value property has been changed.
@@ -261,16 +276,4 @@ The instance of the RadProgressBar raised the event.
 
 Empty event argument.
 
-### completed
 
-The client-side completed event is raised when the RadProgressBar reaches its max value.
-
-#### Event Data
-
-#####  sender `Telerik.Web.UI.RadProgressBar`
-
-The instance of the RadProgressBar raised the event.
-
-##### args `Sys.EventArgs`
-
-Empty event argument.

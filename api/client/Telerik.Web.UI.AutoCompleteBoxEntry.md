@@ -11,27 +11,8 @@ slug: Telerik.Web.UI.AutoCompleteBoxEntry
 
 * *[Telerik.Web.UI.AutoCompleteBoxEntry]({%slug Telerik.Web.UI.AutoCompleteBoxEntry%})*
 
+
 ## Methods
-
-### get_value
-
-Returns the value of the specified entry.
-
-#### Parameters
-
-#### Returns
-
-`String` string
-
-### get_token
-
-Returns a reference to the HTML element representing the specified entry.
-
-#### Parameters
-
-#### Returns
-
-`String` DOM object
 
 ### get_index
 
@@ -62,4 +43,25 @@ Returns the text of the specified entry.
 #### Returns
 
 `String` string
+
+### get_token
+
+Returns a reference to the HTML element representing the specified entry.
+
+#### Parameters
+
+#### Returns
+
+`String` DOM object
+
+### get_value
+
+Returns the value of the specified entry.
+
+#### Parameters
+
+#### Returns
+
+`String` string
+
 

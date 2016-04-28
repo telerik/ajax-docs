@@ -11,4 +11,6 @@ slug: Telerik.Web.UI.RadAsyncUploadFilesSelectedEventArgs
 
 * *[Telerik.Web.UI.RadAsyncUploadFilesSelectedEventArgs]({%slug Telerik.Web.UI.RadAsyncUploadFilesSelectedEventArgs%})*
 
-## Methods
+
+Methods
+

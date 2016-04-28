@@ -11,6 +11,8 @@ slug: Telerik.Web.UI.ClientDataSource.FilterExpression
 
 * *[Telerik.Web.UI.ClientDataSource.FilterExpression]({%slug Telerik.Web.UI.ClientDataSource.FilterExpression%})*
 
-## Methods
+
+Methods
+
 
 

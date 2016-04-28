@@ -11,6 +11,7 @@ slug: Telerik.Web.StringBuilder
 
 * *[Telerik.Web.StringBuilder]({%slug Telerik.Web.StringBuilder%})*
 
+
 ## Methods
 
 ###  append
@@ -27,7 +28,7 @@ The value to append
 
 `Telerik.Web.StringBuilder` 
 
-###  get_buffer
+### get_buffer
 
 Returns the internal string buffer
 
@@ -37,7 +38,7 @@ Returns the internal string buffer
 
 `Array` 
 
-###  toString
+### toString
 
 Returns the current appended content as a single string
 
@@ -46,5 +47,6 @@ Returns the current appended content as a single string
 #### Returns
 
 `String` 
+
 
 

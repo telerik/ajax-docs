@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.RadComboBoxRequestCancelEventArgs
 * Sys.CancelEventArgs
 * *[Telerik.Web.UI.RadComboBoxRequestCancelEventArgs]({%slug Telerik.Web.UI.RadComboBoxRequestCancelEventArgs%})*
 
+
 ## Methods
 
 ###  get_text
@@ -24,7 +25,7 @@ Returns the text from the input of the RadComboBox.
 
 `String` the text from the input of the RadComboBox
 
-###  get_context
+### get_context
 
 Returns the object that is passed to the server-side code that handles the request for items. 
 
@@ -34,7 +35,7 @@ Returns the object that is passed to the server-side code that handles the reque
 
 `Object` that is passed to the server-side code that handles the request for items. 
 
-###  get_domEvent
+### get_domEvent
 
 Returns the Sys.UI.DomEvent instance associated to the raised event.
 
@@ -43,4 +44,5 @@ Returns the Sys.UI.DomEvent instance associated to the raised event.
 #### Returns
 
 `Sys.UI.DomEvent` 
+
 

@@ -11,6 +11,7 @@ slug: Telerik.Web.UI.RadListViewFilterExpressionLogicBuilder
 
 * *[Telerik.Web.UI.RadListViewFilterExpressionLogicBuilder]({%slug Telerik.Web.UI.RadListViewFilterExpressionLogicBuilder%})*
 
+
 ## Methods
 
 ###  and
@@ -23,7 +24,7 @@ Groups filter expressions with an AND operator
 
 `None` 
 
-###  or
+### or
 
 Groups filter expressions with an OR operator
 
@@ -32,5 +33,6 @@ Groups filter expressions with an OR operator
 #### Returns
 
 `None` 
+
 
 

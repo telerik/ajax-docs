@@ -13,3 +13,4 @@ slug: Telerik.Web.UI.RadMenuItemClosedEventArgs
 * *[Telerik.Web.UI.RadMenuItemClosedEventArgs]({%slug Telerik.Web.UI.RadMenuItemClosedEventArgs%})*
 
 
+

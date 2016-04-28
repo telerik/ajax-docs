@@ -12,6 +12,7 @@ slug: Telerik.Web.UI.ImageGalleryNavigatedEventArgs
 * Sys.EventArgs
 * *[Telerik.Web.UI.ImageGalleryNavigatedEventArgs]({%slug Telerik.Web.UI.ImageGalleryNavigatedEventArgs%})*
 
+
 ## Methods
 
 ###  get_item
@@ -23,3 +24,4 @@ Returns the currently displayed image object.
 #### Returns
 
 `Telerik.Web.UI.RadImageGalleryItem` 
+

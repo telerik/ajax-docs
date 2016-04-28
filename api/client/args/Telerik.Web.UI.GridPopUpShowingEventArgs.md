@@ -10,7 +10,7 @@ slug: Telerik.Web.UI.GridPopUpShowingEventArgs
 ## Inheritance Hierarchy
 
 * Sys.CancelEventArgs
-* *[Telerik.Web.UI.GridPopUpShowingEventArgs]({%slug Telerik.Web.UI.GridPopUpShowingEventArgs%})*
+* *[Telerik.Web.UI.GridPopUpShowingEventArgs]({%slug Telerik.Web.UI.GridPopUpShowingEventArgs%})*## 
 
 ###  get_popUp
 
@@ -21,5 +21,6 @@ Returns a reference to the DOM element of the PopUp form.
 #### Returns
 
 `Element` 
+
 
 

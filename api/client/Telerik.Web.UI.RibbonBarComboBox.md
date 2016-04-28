@@ -11,4 +11,6 @@ slug: Telerik.Web.UI.RibbonBarComboBox
 
 * *[Telerik.Web.UI.RibbonBarComboBox]({%slug Telerik.Web.UI.RibbonBarComboBox%})*
 
-## Methods
+
+Methods
+
