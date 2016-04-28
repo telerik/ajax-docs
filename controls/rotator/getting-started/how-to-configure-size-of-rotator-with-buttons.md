@@ -72,18 +72,18 @@ You can find the list of the button sizes for the different skins in **Classic**
 >caption **List 1**: RadRotator button sizes for all the skins with "Lightweight" render mode.
 * **Bootstrap** - 34px
 * **Material** - 38px
-* The rest skins - 30px
-<Comment: "The rest skins" is a fragment and I am not sure what it refers to. Do you mean The rest of the skins?>
+* The rest of the skins - 30px
+
 >caption **List 2**: RadRotator button sizes for all the skins with "Classic" render mode.
 * **Glow**, **Silk**, **MetroTouch**, **BlackMetroTouch** - 28px
 * **Bootstrap** - 34px
-* The rest skins - 20px
-<Comment: Same as previous comment.>
+* The rest of the skins - 20px
+
 ## Example (RadRotatorSizeConfigurator Class Implementation)
 
 In the example below you can see a helper class (i.e., RadRotatorSizeConfigurator) that automatically calculates and sets the rotator's width based on the desired number of items, the set skin and render mode. The class accepts three parameters: the instance of the rotator, the number of the visible items in the view port and the skin (optional). 
-<Comment: You had an example 1 earlier in the article. Should this be example 2?> 
->caption **Example 1**:  Configure rotator with buttons that has 4 items (100px x 100px) per view. The method that calculates the actual width is shown in **Example 2**.
+
+>caption **Example 2**:  Configure rotator with buttons that has 4 items (100px x 100px) per view. The method that calculates the actual width is shown in **Example 3**.
 
 ````CSS
 	<style type="text/css">
@@ -123,7 +123,7 @@ Protected Sub Page_Load(sender As Object, e As EventArgs)
 End Sub
 ````
 
->caption **Example 2**: The implementation of the RadRotatorSizeConfigurator class that determines and sets the actual size of the rotator for the particular skin.
+>caption **Example 3**: The implementation of the RadRotatorSizeConfigurator class that determines and sets the actual size of the rotator for the particular skin.
 
 ````C#
 public static class RadRotatorSizeConfigurator
