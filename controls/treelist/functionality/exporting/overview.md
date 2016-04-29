@@ -48,8 +48,8 @@ In addition to the export format's specific properties, the **ExportSettings** g
 
 ````ASPNET
 <ExportSettings
-	ExportMode="DefaultContent" 
-	IgnorePaging="true" 
+	ExportMode="DefaultContent"
+	IgnorePaging="true"
 	OpenInNewWindow="true"
 	FileName="RadTreeListExport1">
 </ExportSettings>  
@@ -97,4 +97,8 @@ RadTreeList1.Page.Response.Cache.SetCacheability(HttpCacheability.Private);
 RadTreeList1.Page.Response.ClearHeaders()
 RadTreeList1.Page.Response.Cache.SetCacheability(HttpCacheability.[Private])
 ````
+
+## See Also
+
+ * [Command Item for built in export buttons]({%slug treelist/items/command-item%})
 

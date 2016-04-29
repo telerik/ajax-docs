@@ -131,3 +131,7 @@ Both **xlsx** and **docx** support exporting of images. The images are included 
 * No grouping support
 
 * No automatic column/row resizing
+
+## See Also
+
+ * [Command Item for built in export buttons]({%slug treelist/items/command-item%})

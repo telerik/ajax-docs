@@ -1,7 +1,7 @@
 ---
-title: Command Item
+title: Command Item with Export Buttons
 page_title: Command Item | RadTreeList for ASP.NET AJAX Documentation
-description: Command Item
+description: Command Item for built in export
 slug: treelist/items/command-item
 tags: command,item,export
 published: True
@@ -12,7 +12,7 @@ position: 2
 
 
 
-Since R2 2016 the **RadTreeList** control provides **CommandItem**. The CommandItem is a placeholder for commands that can perform some action on the selected/all items.See the [Command reference](http://docs.telerik.com/devtools/aspnet-ajax/controls/treelist/control-lifecycle/command-reference.html ) topic for details about the available commands.
+Since R2 2016 the **RadTreeList** control provides **CommandItem**. The CommandItem is a placeholder for export commands.
 
 ![](images/treelist-command-item1.png)
 

@@ -34,7 +34,7 @@ position: 0
 ````ASPNET
 <ExportSettings>
 	<Pdf PageTitle="My Page" PaperSize="A4" RotatePaper="true"  />
-</ExportSettings> 
+</ExportSettings>
 ````
 
 
@@ -154,4 +154,7 @@ Most probably you have *DIV* element with specified dimensions or absolute posit
 <%--VALID--%>
 ````
 
+## See Also
+
+ * [Command Item for built in export buttons]({%slug treelist/items/command-item%})
 
