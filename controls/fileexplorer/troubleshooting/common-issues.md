@@ -18,7 +18,9 @@ Make sure that *UploadPaths* or *DeletePaths* properties are set correctly
 
 ## Setting a path to the InitialPath property does not select folder or file
 
-Make sure that the path set to the property has the same format as the path shown in the RadFileExplorer's address bar
+Make sure that the path set to the property has the same format as the path shown in the RadFileExplorer's address bar. This is required in order to provide unambiguous paths for any content provider.
+
+The provided path must point to a concrete file that is present in the currently shown file list (i.e., in the current folder). If you point the control to a folder that is not yet opened, it cannot navigate to the desired file, because the file list is obtained via a separate request only after the folder is shown to the client, so the control does not know whether the desired file exists yet.
 
 ## An error like "... because the application did not have enough permissions..." occurs only in a production environment. How to debug the issue?
 

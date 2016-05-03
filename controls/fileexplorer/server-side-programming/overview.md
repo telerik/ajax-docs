@@ -34,7 +34,7 @@ The **RadFileExplorer** control exposes a number or properties that can be used 
 |Grid|Telerik.Web.UI.RadGrid|Exposes the embedded RadGrid object|
 |TreeView|Telerik.Web.UI.RadTreeView|Exposes the embedded RadTreeView object|
 |GridContextMenu|Telerik.Web.UI.RadContextMenu|Exposes the embedded Grid's context menu|
-|InitialPath|String|Allows a file or folder to be selected when the RadFileExplorer is loaded. The value set to the property is case sensitive and should be in the same format as shown in the RadFileExplorer's addressbar|
+|InitialPath|String|Allows a file or folder to be selected when the RadFileExplorer is loaded. The value set to the property is case sensitive and should be in the same format as shown in the RadFileExplorer's addressbar. The provided path must point to a concrete file that is present in the currently shown file list.|
 |Splitter|Telerik.Web.UI.RadSplitter|Exposes the embedded RadSplitter object|
 |ToolBar|Telerik.Web.UI.RadToolBar|Exposes the embedded RadTolBar object|
 |ToolBar|Telerik.Web.UI.RadToolTip|Exposes the embedded RadToolTip object|
