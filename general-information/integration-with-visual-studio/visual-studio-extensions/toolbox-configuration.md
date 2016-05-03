@@ -1,14 +1,14 @@
 ---
-title: Toolbox Configuration
-page_title: Toolbox Configuration | UI for ASP.NET AJAX Documentation
-description: Toolbox Configuration
+title: Set Toolbox Version
+page_title: Set Toolbox Version | UI for ASP.NET AJAX Documentation
+description: Set Toolbox Version
 slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/toolbox-configuration
 tags: toolbox,configuration
 published: True
 position: 7
 ---
 
-# Toolbox Configuration
+# Set Toolbox Version
 
 
 
@@ -22,9 +22,7 @@ The Toolbox Configurator can be launched from the Telerik menu:
 
 ![introduction-vsx toolboxconfigurator](images/introduction-vsx_toolboxconfigurator.png)
 
-After running the Toolbox Configurator it shows the version of the currently installed distribution (if available). The user can make his selection using the dropdown menu which lists all versions discovered on the machine.
-
-The utility has an option to install the design assemblies of the selected version in the GAC, if they are not previously installed. The design assemblies are critical for the design-time support of the chosen distribution.
+After running the Toolbox Configurator the user can make his selection using the dropdown menu which lists all versions discovered on the machine.
 
 When the Finish button is clicked Visual Studio will be restarted so that the changes can take effect.
 

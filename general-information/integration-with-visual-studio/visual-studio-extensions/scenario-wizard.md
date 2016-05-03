@@ -1,14 +1,14 @@
 ---
-title: Scenario Wizard
-page_title: Scenario Wizard | UI for ASP.NET AJAX Documentation
-description: Scenario Wizard
+title: Add Scenario
+page_title: Add Scenario | UI for ASP.NET AJAX Documentation
+description: Add Scenario
 slug: introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/scenario-wizard
 tags: scenario,wizard
 published: True
-position: 3
+position: 5
 ---
 
-# Scenario Wizard
+# Add Scenario
 
 
 
