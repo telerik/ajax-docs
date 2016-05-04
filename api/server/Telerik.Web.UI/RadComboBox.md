@@ -256,6 +256,10 @@ In Load On Demand mode, the combobox starts a callback after a specified amount 
 
 Gets or sets a value indicating whether the Overlay element is rendered when supported. True by default.
 
+###  EnableRippleEffect `Boolean`
+
+Returns true if ripple effect should be added
+
 ###  EnableScreenBoundaryDetection `Boolean`
 
 Determines whether the Screen Boundaries Detection is enabled or not.
@@ -387,6 +391,10 @@ Set this property to -1 to load all Items when EnableAutomaticLoadOnDemand is se
 
 Gets or sets the template for displaying the items in
             RadcomboBox.
+
+###  KeyboardNavigationSettings `KeyboardNavigationSettings`
+
+Used to customize the keyboard navigation functionality.
 
 ###  Label `String`
 

@@ -32,6 +32,10 @@ Gets or sets the allowed MIME types for uploading.
 Set this property to string.Empty in order to prevent the
                 mime type checking.
 
+###  AriaSettings `WaiAriaSettings`
+
+Gets the object that controls the Wai-Aria settings applied on the control's input element.
+
 ###  AutoAddFileInputs `Boolean`
 
 Specifies whether a new File Input should be automatically added upon selecting a file to upload.
@@ -84,6 +88,10 @@ Gets or sets the value, indicating whether to render the skin CSS files during A
 
 #### Remarks
 If EnableAjaxSkinRendering is set to false you will have to register the needed control base CSS file by hand when adding/showing the control with Ajax.
+
+###  EnableAriaSupport `Boolean`
+
+When set to true enables support for WAI-ARIA.
 
 ###  EnableCustomValidation `Boolean`
 
@@ -146,6 +154,10 @@ The permissions check is turned on by default. You should disable it if you plan
             the files directly to the handler without using the temporary folder. If you still want to use temporary folder
             make sure that you have set the TemporyFilesFolder property to a folder that has write permissions for the
 
+###  EnableRippleEffect `Boolean`
+
+Returns true if ripple effect should be added
+
 ###  FileFilters `FileFilterCollection`
 
 Gets the collection of FileFilters objects
@@ -173,6 +185,10 @@ Gets or sets the size of the file input field
 ###  IsSkinSet `String`
 
 For internal use.
+
+###  KeyboardNavigationSettings `KeyboardNavigationSettings`
+
+Used to customize the Navigation keyboard navigation functionality.
 
 ###  Localization `AsyncUploadStrings`
 

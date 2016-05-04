@@ -18,6 +18,10 @@ description: Telerik.Web.UI.RadNavigation
 
 ## Properties
 
+###  AriaSettings `NavigationWaiAriaSettings`
+
+Gets the object that controls the Wai-Aria settings applied on the control's element.
+
 ###  ClientDataSourceID `String`
 
 Gets or sets ID of ClientDataSource control that is used for client side binding
@@ -87,6 +91,10 @@ Gets or sets the value, indicating whether to render the skin CSS files during A
 #### Remarks
 If EnableAjaxSkinRendering is set to false you will have to register the needed control base CSS file by hand when adding/showing the control with Ajax.
 
+###  EnableAriaSupport `Boolean`
+
+When set to true enables support for WAI-ARIA.
+
 ###  EnableEmbeddedBaseStylesheet `Boolean`
 
 Gets or sets the value, indicating whether to render the link to the embedded base stylesheet of the control or not.
@@ -107,6 +115,10 @@ Gets or sets the value, indicating whether to render links to the embedded skins
 
 #### Remarks
 If EnableEmbeddedSkins is set to false you will have to register the needed CSS files by hand.
+
+###  EnableRippleEffect `Boolean`
+
+Returns true if ripple effect should be added
 
 ###  ExpandAnimation `AnimationSettings`
 
@@ -130,6 +142,10 @@ Gets or sets the image position.
 ###  IsSkinSet `String`
 
 For internal use.
+
+###  KeyboardNavigationSettings `KeyboardNavigationSettings`
+
+Used to customize the Navigation keyboard navigation functionality.
 
 ###  MaxDataBindDepth `Int32`
 

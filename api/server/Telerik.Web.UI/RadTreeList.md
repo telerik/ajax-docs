@@ -143,6 +143,20 @@ Gets a reference to the
 
 Gets a TreeListColumnCollection of all columns in RadTreeList.
 
+###  CommandItemDisplay `TreeListCommandItemDisplay`
+
+Determines the position where the command item will be displayed in the control. Supported in Lightweight and Mobile modes only.
+            Default value is None in Lightweight. In Mobile, the default value will be Top if either AllowColumnHide or AllowColumnReorder are enabled. Otherwise none.
+
+###  CommandItemSettings `TreeListCommandItemSettings`
+
+Provides access to the configuration of the command item. Available in Lightweight render mode only.
+
+###  CommandItemStyle `TreeListCommandItemStyle`
+
+Gets a reference to the TreeListCommandItemStyle object that allows you to
+            set the appearance of the command item in a Telerik RadTreeList control.
+
 ###  CssClass `String`
 
 Gets or sets the Cascading Style Sheet (CSS) class rendered by the Web
@@ -271,6 +285,10 @@ If EnableEmbeddedSkins is set to false you will have to register the needed CSS 
 Gets or sets a value indicating whether RadTreeList will show
                 NoRecordsTemplate if there is no items to display.
 
+###  EnableRippleEffect `Boolean`
+
+Returns true if ripple effect should be added
+
 ###  EnableTheming `Boolean`
 
 Gets or sets a value indicating whether themes apply to this control.
@@ -341,6 +359,10 @@ Gets a collection of currently inserted  instances.
 ###  InsertMethod `String`
 
 Gets or sets the name of the method to call in order to insert data
+
+###  IsExporting `Boolean`
+
+Determines whether the control is currently exporting a file
 
 ###  IsItemInserted `Boolean`
 

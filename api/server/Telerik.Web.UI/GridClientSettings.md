@@ -103,6 +103,10 @@ Gets a reference to  class providing properties
 
 Determines whether the alternating items will render with a different CSS class.
 
+###  EnableClientPrint `Boolean`
+
+Gets or sets a value which determines whether the client print grid functionality will be enabled.
+
 ###  EnablePostBackOnRowClick `Boolean`
 
 Gets or sets the value dermeming if a row click will trigger a postback.

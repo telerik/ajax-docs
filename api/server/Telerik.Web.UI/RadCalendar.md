@@ -367,6 +367,10 @@ The EnableRepeatableDaysOnClient property has effect over the
             using repeatable days or/and client calendar, you can improve the calendar performance
             by setting it to false.
 
+###  EnableRippleEffect `Boolean`
+
+Returns true if ripple effect should be added
+
 ###  EnableShadows `Boolean`
 
 Gets or sets whether popup shadows will appear.

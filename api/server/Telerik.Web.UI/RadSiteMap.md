@@ -90,6 +90,10 @@ Gets or sets the value, indicating whether to render links to the embedded skins
 #### Remarks
 If EnableEmbeddedSkins is set to false you will have to register the needed CSS files by hand.
 
+###  EnableRippleEffect `Boolean`
+
+Returns true if ripple effect should be added
+
 ###  EnableTextHTMLEncoding `Boolean`
 
 Gets or sets a value indicating whether the html encoding will be applied when the site map items are rendered.
@@ -100,6 +104,10 @@ By default RadSiteMap will not apply a html encoding when the site map items are
 ###  IsSkinSet `String`
 
 For internal use.
+
+###  KeyboardNavigationSettings `KeyboardNavigationSettings`
+
+Used to customize the keyboard navigation functionality.
 
 ###  LevelSettings `SiteMapLevelSettingCollection`
 

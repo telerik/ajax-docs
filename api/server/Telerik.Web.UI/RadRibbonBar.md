@@ -78,6 +78,10 @@ Gets or sets whether maximizing/minimizing of the RibbonBar should be enabled.
 
 Gets or sets a value indicating whether the Quick Access Toolbar is enabled. False by default.
 
+###  EnableRippleEffect `Boolean`
+
+Returns true if ripple effect should be added
+
 ###  ImageRenderingMode `RibbonBarImageRenderingMode`
 
 Gets or sets the rendering mode of all RibbonBarClickableItems images.

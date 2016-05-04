@@ -93,6 +93,10 @@ If EnableEmbeddedSkins is set to false you will have to register the needed CSS 
 
 Gets or sets a bool value that indicates whether the control can be resized.
 
+###  EnableRippleEffect `Boolean`
+
+Returns true if ripple effect should be added
+
 ###  ExternalDialogsPath `String`
 
 Gets or sets a value indicating where the image editor will look for its dialogs.

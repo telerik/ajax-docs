@@ -152,6 +152,10 @@ Gets or sets a bool value indicating whether or not the RadCaptchaImage can be r
             The "rcRefreshImage" CSS class should be used for changing the skinning of the LinkButton,
             that generates the new image.
 
+###  EnableRippleEffect `Boolean`
+
+Returns true if ripple effect should be added
+
 ###  ErrorMessage `String`
 
 The error message text generated when the condition being validated fails.

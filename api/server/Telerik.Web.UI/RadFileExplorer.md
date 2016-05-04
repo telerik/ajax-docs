@@ -110,6 +110,10 @@ When set to true, renders a textbox used to filter files in the grid.
 
 Gets or sets a value indicating whether to allow opening a new window with the file
 
+###  EnableRippleEffect `Boolean`
+
+Returns true if ripple effect should be added
+
 ###  ExplorerMode `FileExplorerMode`
 
 Gets or sets the current FileExplorerMode (e.g. default, show files in the tree, etc.)

@@ -234,6 +234,10 @@ Gets or sets the value, indicating whether to render links to the embedded skins
 #### Remarks
 If EnableEmbeddedSkins is set to false you will have to register the needed CSS files by hand.
 
+###  EnableRippleEffect `Boolean`
+
+Returns true if ripple effect should be added
+
 ###  EnableSubLevelStyles `Boolean`
 
 Controls whether the subitems of the tabstrip will have different styles than the main items.
@@ -250,9 +254,9 @@ In hierarchical tabstrips this property returns the innermost selected
 
 For internal use.
 
-###  KeyboardNavigationSettings `TabStripKeyboardNavigationSettings`
+###  KeyboardNavigationSettings `KeyboardNavigationSettings`
 
-Used to customize the TabStrip keyboard navigation functionality.
+Used to customize the keyboard navigation functionality.
 
 ###  MaxDataBindDepth `Int32`
 

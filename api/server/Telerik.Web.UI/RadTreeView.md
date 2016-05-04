@@ -201,6 +201,10 @@ If EnableEmbeddedSkins is set to false you will have to register the needed CSS 
 
 Gets or sets a value indicating whether RadTreeView should HTML encode the text of the nodes.
 
+###  EnableRippleEffect `Boolean`
+
+Returns true if ripple effect should be added
+
 ###  ExpandAnimation `AnimationSettings`
 
 Gets the settings for the animation played when a node opens.
@@ -223,6 +227,10 @@ Gets a value indicating whether the RadTreeView control has no nodes.
 ###  IsSkinSet `String`
 
 For internal use.
+
+###  KeyboardNavigationSettings `KeyboardNavigationSettings`
+
+Used to customize the keyboard navigation functionality.
 
 ###  LoadingMessage `String`
 

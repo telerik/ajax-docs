@@ -25,11 +25,19 @@ Gets or sets the tooltip that will be displayed when you hover the
 
 Gets or sets a value specifying the grid height in pixels (px).
 
+###  KeepInScreenBounds `Boolean`
+
+Gets or sets a value indicating whether the popup editor will be displayed in the visible viewport of the browser window.
+
 ###  Modal `Boolean`
 
 Gets or sets if the popup will be modal. If set to true
             the background will be grayed and only operations in the popup
             will be possible.
+
+###  OverflowPosition `GridPopupPostion`
+
+Gets or sets a value determining the way the popup will be displayed if it can not be accommodated inside the visible viewport.
 
 ###  ScrollBars `ScrollBars`
 

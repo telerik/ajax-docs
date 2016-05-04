@@ -147,6 +147,10 @@ Set this property to false if you are running your application under IIS7 Integr
                 and have set the validateIntegratedModeConfiguration flag that does not allow legacy 
                 HttpHandler registration under the system.web configuration section.
 
+###  EnableRippleEffect `Boolean`
+
+Returns true if ripple effect should be added
+
 ###  Height `Unit`
 
 Chart height

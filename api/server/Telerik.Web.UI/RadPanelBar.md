@@ -148,6 +148,10 @@ If EnableEmbeddedSkins is set to false you will have to register the needed CSS 
 
 Gets or sets a value indicating whether RadPanelBar should HTML encode the text of its items.
 
+###  EnableRippleEffect `Boolean`
+
+Returns true if ripple effect should be added
+
 ###  ExpandAnimation `AnimationSettings`
 
 Gets the settings for the animation played when an item opens.
@@ -203,6 +207,10 @@ Use the Items property to access the child items of RadPanelBar. You can also us
 
 Gets or sets the template for displaying the items in
             RadPanelBar.
+
+###  KeyboardNavigationSettings `KeyboardNavigationSettings`
+
+Used to customize the keyboard navigation functionality.
 
 ###  MaxDataBindDepth `Int32`
 

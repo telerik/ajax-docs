@@ -162,6 +162,10 @@ Gets or sets the value, indicating whether to render the skin CSS files during A
 #### Remarks
 If EnableAjaxSkinRendering is set to false you will have to register the needed control base CSS file by hand when adding/showing the control with Ajax.
 
+###  EnableAriaSupport `Boolean`
+
+Determines if the control will have WAI-ARIA support enabled
+
 ###  Enabled `Boolean`
 
 Gets or sets a value indicating whether the Web server control is enabled.
@@ -207,6 +211,10 @@ Gets or sets the value, indicating whether to render links to the embedded skins
 
 #### Remarks
 If EnableEmbeddedSkins is set to false you will have to register the needed CSS files by hand.
+
+###  EnableRippleEffect `Boolean`
+
+Returns true if ripple effect should be added
 
 ###  EnableTheming `Boolean`
 

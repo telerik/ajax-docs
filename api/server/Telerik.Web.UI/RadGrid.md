@@ -503,6 +503,10 @@ Gets or sets a value indicating whether the hierarchy expand/collapse all header
 
 Gets or sets a value indicating whether native LINQ expressions will be enabled.
 
+###  EnableRippleEffect `Boolean`
+
+Returns true if ripple effect should be added
+
 ###  EnableTheming `Boolean`
 
 Gets or sets a value indicating whether themes apply to this control.
@@ -659,6 +663,10 @@ If grouping is enabled grid allows grouping by column(s) by drag-and-drop of
                 property to true. You can modify panel's appearance using
                  and
                 .
+
+###  GroupPanelPosition `GridGroupPanel`
+
+Specify the position of the of GroupPanel
 
 ###  HeaderContextMenu `GridHeaderContextMenu`
 

@@ -42,6 +42,10 @@ RadLightBox Client Settings
 The CssClass property will now be used instead of the former Skin 
             and will be modified in AddAttributesToRender()
 
+###  Culture `CultureInfo`
+
+Gets or sets the selected culture. Localization strings will be loaded based on this value.
+
 ###  CurrentItemIndex `RadLightBoxItem`
 
 Gets/sets the current item index
@@ -81,6 +85,10 @@ Gets or sets the value, indicating whether to render the skin CSS files during A
 #### Remarks
 If EnableAjaxSkinRendering is set to false you will have to register the needed control base CSS file by hand when adding/showing the control with Ajax.
 
+###  EnableAriaSupport `Boolean`
+
+Determines if the control will have WAI-ARIA support enabled
+
 ###  EnableEmbeddedBaseStylesheet `Boolean`
 
 Gets or sets the value, indicating whether to render the link to the embedded base stylesheet of the control or not.
@@ -105,6 +113,10 @@ If EnableEmbeddedSkins is set to false you will have to register the needed CSS 
 ###  EnableGlowEffect `Boolean`
 
 Enables or disables the "glow" effect around the control
+
+###  EnableRippleEffect `Boolean`
+
+Returns true if ripple effect should be added
 
 ###  IsSkinSet `String`
 
@@ -133,6 +145,18 @@ The container that holds the main content
 ###  LightBoxTitleContainer `PlaceHolder`
 
 The container that holds the title
+
+###  LocalizationPath `LightBoxStrings`
+
+Gets or sets a value indicating where RadLightBox will look for its .resx localization file.
+            By default this file should be in the App_GlobalResources folder. However, if you cannot put
+            the resource file in the default location or .resx files compilation is disabled for some reason 
+            (e.g. in a DotNetNuke environment), this property should be set to the location of the resource file.
+
+#### Remarks
+If specified, the LocalizationPath
+            property will allow you to load the grid localization file from any location in the 
+            web application.
 
 ###  LoopItems `RadLightBoxItemCollection`
 

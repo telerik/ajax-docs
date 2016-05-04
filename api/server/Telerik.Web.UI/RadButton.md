@@ -81,10 +81,8 @@ When set to true enables support for WAI-ARIA
 
 ###  EnableBrowserButtonStyle `Boolean`
 
-Gets or sets a bool value indicating whether the client browser's default styling will be applied to the RadButton control.
-            When this property is set to true, the control will look like standard HTML input of type="button" or type="submit",
+Gets or sets a bool value indicating whether the client browser's default styling will be applied to the RadButton control.When this property is set to true, the control will look like standard HTML input of type="button" or type="submit",
             with the default styles applied by the client browser.
-            
             Use this property when ButtonType="StandardButton".
 
 ###  EnableEmbeddedBaseStylesheet `Boolean`
@@ -107,6 +105,10 @@ Gets or sets the value, indicating whether to render links to the embedded skins
 
 #### Remarks
 If EnableEmbeddedSkins is set to false you will have to register the needed CSS files by hand.
+
+###  EnableRippleEffect `Boolean`
+
+Returns true if ripple effect should be added
 
 ###  EnableSplitButton `Boolean`
 

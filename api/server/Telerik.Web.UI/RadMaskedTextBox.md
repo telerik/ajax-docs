@@ -317,6 +317,10 @@ If EnableEmbeddedSkins is set to false you will have to register the needed CSS 
 Gets or sets whether the textbox width should include the textbox paddings and borders. 
             The default value is FALSE, i.e. the textbox will actually be wider than expected.
 
+###  EnableRippleEffect `Boolean`
+
+Returns true if ripple effect should be added
+
 ###  EnableSingleInputRendering `Boolean`
 
 Gets or sets the single input rendering mode which renderes only two main HTML elements 

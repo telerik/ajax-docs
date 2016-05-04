@@ -136,6 +136,10 @@ If EnableEmbeddedSkins is set to false you will have to register the needed CSS 
 
 Gets or sets a value indicating whether item images should have sprite support.
 
+###  EnableRippleEffect `Boolean`
+
+Returns true if ripple effect should be added
+
 ###  EnableRoundedCorners `Boolean`
 
 Gets or sets a value indicating whether child items should have rounded corners.
@@ -173,6 +177,10 @@ Gets a collection of RadToolBarItem objects representing
 #### Remarks
 Use the Items collection to programmatically control the items in the
             RadToolBar control.
+
+###  KeyboardNavigationSettings `KeyboardNavigationSettings`
+
+Used to customize the keyboard navigation functionality.
 
 ###  ODataDataSourceID `String`
 

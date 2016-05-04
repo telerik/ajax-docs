@@ -98,6 +98,10 @@ Gets or sets the value, indicating whether to render links to the embedded skins
 #### Remarks
 If EnableEmbeddedSkins is set to false you will have to register the needed CSS files by hand.
 
+###  EnableRippleEffect `Boolean`
+
+Returns true if ripple effect should be added
+
 ###  Height `Unit`
 
 Gets or sets the height of the Button control.
@@ -189,6 +193,10 @@ Gets or sets the skin name for the control user interface.
 #### Remarks
 If this property is not set, the control will render using the skin named "Default".
             If EnableEmbeddedSkins is set to false, the control will not render skin.
+
+###  SupportsRenderingMode `Boolean`
+
+Gets or RenderingMode support
 
 ###  TabIndex `Int16`
 

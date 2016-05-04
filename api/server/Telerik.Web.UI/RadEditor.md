@@ -222,6 +222,10 @@ When set to true enables support for immutable HTML elements
 
 Gets or sets the value indicating whether the users will be able to resize the RadEditor control on the client
 
+###  EnableRippleEffect `Boolean`
+
+Returns true if ripple effect should be added
+
 ###  EnableTextareaMode `Boolean`
 
 Gets or sets the value, indicating whether to render the editor as a simple textarea (for compatibility with older browsers).
@@ -499,6 +503,10 @@ The contents of this collection will override the default paragraph styles
                 available in the Paragraph Style dropdown.Note: RadEditor also supports block format with css class
                 set. See the example below.
 
+###  RadContextMenu `RadContextMenu`
+
+Gets a reference to the RadContextMenu, if the control is enabled in RadEditor.
+
 ###  RealFontSizes `EditorFontSizeCollection`
 
 Gets the collection containing the custom real font sizes to put in the RealFontSize dropdown.
@@ -538,7 +546,7 @@ Returns resolved RenderMode should the original value was Auto
 
 ###  RibbonBar `RadRibbonBar`
 
-Gets a reference to the ribbon bar, when toolbar mode is BibbonBar.
+Gets a reference to the ribbon bar, when toolbar mode is RibbonBar.
 
 ###  RuntimeSkin `String`
 
@@ -680,6 +688,10 @@ Gets or sets the width of the editor's toolbar (should be used when ToolbarMode 
 ###  TrackChangesSettings `TrackChangesSettings`
 
 Contains the configuration of the track changes functionality.
+
+###  UseRadContextMenu `Boolean`
+
+Specifies whether the RadContextMenu should be used.
 
 ###  Width `Unit`
 

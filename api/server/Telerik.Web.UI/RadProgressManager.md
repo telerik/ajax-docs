@@ -78,6 +78,10 @@ If EnableEmbeddedSkins is set to false you will have to register the needed CSS 
 
 Deprecated. Memory optimization is implemented as part of the .NET Framework and is no longer a feature of RadUpload.
 
+###  EnableRippleEffect `Boolean`
+
+Returns true if ripple effect should be added
+
 ###  FormId `String`
 
 RadProgressManager's FormId property is not used anymore. Please, remove any assignments.

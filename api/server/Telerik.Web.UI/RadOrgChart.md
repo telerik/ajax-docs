@@ -120,6 +120,10 @@ Gets or sets whether to enable collapsing and expanding the GroupItems of a Node
 #### Remarks
 The property takes effect if there is more than one item in a Node. In SimpleBinding is ignored.
 
+###  EnableRippleEffect `Boolean`
+
+Returns true if ripple effect should be added
+
 ###  GroupColumnCount `Int32`
 
 Gets or sets the number of columns in all Node's visualization, except these that have their ColumnCount property set locally.

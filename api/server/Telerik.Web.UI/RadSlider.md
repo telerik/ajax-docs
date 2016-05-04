@@ -111,6 +111,10 @@ Gets or sets the value, indicating whether to render links to the embedded skins
 #### Remarks
 If EnableEmbeddedSkins is set to false you will have to register the needed CSS files by hand.
 
+###  EnableRippleEffect `Boolean`
+
+Returns true if ripple effect should be added
+
 ###  EnableServerSideRendering `Boolean`
 
 Gets or sets a value, indicating whether the HTML of the control will be output from the server or created with client-side code.
@@ -150,6 +154,10 @@ Use the Items property to access the child items of RadSlider
 ###  ItemType `SliderItemType`
 
 Get/Set the ItemType of the slider items
+
+###  KeyboardNavigationSettings `KeyboardNavigationSettings`
+
+Used to customize the keyboard navigation functionality.
 
 ###  LargeChange `Decimal`
 

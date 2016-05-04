@@ -62,6 +62,16 @@ This property sets the key that is used to focus RadGrid. It is always used with
 
 This property sets the key that is used to open insert edit form of RadGrid. It is always used with CTRL key combination.
 
+###  MoveDownKey `GridFocusKeys`
+
+This property set the key that is used for moving Down the active and selected rows
+            (default key is Down arrow)
+
+###  MoveUpKey `GridFocusKeys`
+
+This property set the key that is used for moving up the active and selected rows
+            (default key is Up arrow)
+
 ###  RebindKey `GridFocusKeys`
 
 This property sets the key that is used to rebind RadGrid. It is always used with CTRL key combination.

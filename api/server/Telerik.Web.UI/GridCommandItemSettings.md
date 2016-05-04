@@ -60,6 +60,10 @@ Gets or sets the Export To Word image URL.
 
 Gets or sets text which will be used for the ExportToWord Button. The default value is 'Export To Word'.
 
+###  PrintGridText `String`
+
+Gets or sets the Print Grid button text. Default value Print RadGrid.
+
 ###  RefreshImageUrl `String`
 
 Gets or sets the Refresh image URL.
@@ -95,6 +99,10 @@ Gets or sets a value indicating whether the default command item should expose E
 ###  ShowExportToWordButton `Boolean`
 
 Gets or sets a value indicating whether the default command item should expose Export to Word button.
+
+###  ShowPrintButton `Boolean`
+
+Gets or sets a value indicating whether the default command item should expose a print button.
 
 ###  ShowRefreshButton `Boolean`
 

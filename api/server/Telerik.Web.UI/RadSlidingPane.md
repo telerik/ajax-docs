@@ -82,6 +82,10 @@ If EnableEmbeddedSkins is set to false you will have to register the needed CSS 
 
 Sets/gets whether the resize bar will be active
 
+###  EnableRippleEffect `Boolean`
+
+Returns true if ripple effect should be added
+
 ###  Height `Unit`
 
 Sets/gets the height of the sliding pane

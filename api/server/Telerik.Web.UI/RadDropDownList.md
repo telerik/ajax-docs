@@ -136,6 +136,10 @@ Gets or sets the value, indicating whether to render links to the embedded skins
 #### Remarks
 If EnableEmbeddedSkins is set to false you will have to register the needed CSS files by hand.
 
+###  EnableRippleEffect `Boolean`
+
+Returns true if ripple effect should be added
+
 ###  EnableScreenBoundaryDetection `Boolean`
 
 Determines whether the Screen Boundaries Detection is enabled or not.
@@ -195,6 +199,10 @@ You can use the Items property to add and remove items in the  control.
 ###  ItemTemplate `ITemplate`
 
 Gets or sets the  that defines how items in the  control are displayed.
+
+###  KeyboardNavigationSettings `KeyboardNavigationSettings`
+
+Used to customize the keyboard navigation functionality.
 
 ###  LoadingPanelID `String`
 

@@ -203,6 +203,10 @@ Gets or sets the value, indicating whether to render links to the embedded skins
 #### Remarks
 If EnableEmbeddedSkins is set to false you will have to register the needed CSS files by hand.
 
+###  EnableRippleEffect `Boolean`
+
+Returns true if ripple effect should be added
+
 ###  FragmentIgnoreOptions `FragmentIgnoreOptions`
 
 Configures the spellchecker engine, so that it knows whether to skip URL's, email

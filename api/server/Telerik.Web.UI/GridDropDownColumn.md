@@ -172,6 +172,12 @@ A Boolean value, indicating whether the dropdown column will be bound to a
             default value/text when there is no data source specified, from which to fetch the
             data.
 
+###  EnableHeaderContextMenu `Boolean`
+
+Determines if the header context menu will be displayed for the current column.
+            This property works together with the EnableHeaderContextMenu property of the corresponding GridTableView.
+            Default value is true.
+
 ###  Exportable `Boolean`
 
 Determines whether the given column will be shown in the exported file

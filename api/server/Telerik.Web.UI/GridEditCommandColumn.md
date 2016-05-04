@@ -109,6 +109,12 @@ Gets or sets a string, representing the text of the edit linkbutton, which is
             located in the GridEditCommandColumn, and which will replace the default "Edit"
             text.
 
+###  EnableHeaderContextMenu `Boolean`
+
+Determines if the header context menu will be displayed for the current column.
+            This property works together with the EnableHeaderContextMenu property of the corresponding GridTableView.
+            Default value is true.
+
 ###  Exportable `Boolean`
 
 Determines whether the given column will be shown in the exported file

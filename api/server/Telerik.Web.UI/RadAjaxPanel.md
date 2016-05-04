@@ -116,6 +116,10 @@ RadAjax for ASP.NET has some limitations when running in medium trust.
             property RestoreOriginalRenderDelegate. By default it is true, if you work in 
             DNN or medium trust, you should set that to false.
 
+###  ShowLoadingPanelForPostBackControls `String[]`
+
+Determines whether the loading panel will be shown during a regular postback. This will work only if the loading panel is attached to the ajax control. Default value is false (disabled).
+
 ###  UpdatePanelCssClass `String`
 
 Set class attribute to UpdatePanel that will wrap the UpdatedControl

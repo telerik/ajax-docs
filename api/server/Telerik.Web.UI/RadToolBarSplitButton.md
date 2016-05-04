@@ -182,6 +182,10 @@ Use the HoveredImageUrl property to specify the image that will be
 
 ###  ID `String`
 
+Gets or sets the ID.
+
+###  ID `String`
+
 The ID property is reserved for internal use. Please use the Value property or
             use the Attributes collection if you need to assign
             custom data to the item.

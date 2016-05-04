@@ -28,6 +28,10 @@ Gets or sets all columns subtotals items position
 
 Enables or disabled the visibility of the grand totals
 
+###  GrandTotalText `String`
+
+Gets or sets the grand total text value
+
 ###  RowGrandTotalsPosition `TotalsPosition`
 
 Gets or sets row grandtotals item position
@@ -35,4 +39,12 @@ Gets or sets row grandtotals item position
 ###  RowsSubTotalsPosition `TotalsPosition`
 
 Gets or sets all rows subtotals items position
+
+###  TotalValueFormat `String`
+
+Gets or sets the column total group name format text.
+
+###  ValueTotalFormat `String`
+
+Gets or sets the row total group name format.
 

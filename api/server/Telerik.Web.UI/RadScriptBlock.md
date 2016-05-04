@@ -16,3 +16,37 @@ Telerik.Web.UI.RadScriptBlock is used where you have JavaScript that evaluates
 * System.Web.UI.Control
 * Telerik.Web.UI.RadScriptBlock
 
+## Methods
+
+###  IsChildOf
+
+Test if control is child of another control
+
+#### Parameters
+
+#### controlToCheck `System.Web.UI.Control`
+
+child
+
+#### parent `System.Web.UI.Control`
+
+parent
+
+#### Returns
+
+`System.Boolean` 
+
+###  RegisterInScriptManager
+
+Registers the content of the ScriptBlock with the ScriptManager
+
+#### Parameters
+
+#### global `System.Web.UI.Control`
+
+Determinates if Page or the Control will be used when registering the script
+
+#### Returns
+
+`System.Void` 
+

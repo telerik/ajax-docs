@@ -89,6 +89,12 @@ A practicle example of using this property is to deterimine the number of
 
 String that formats the HeaderText when the column is displayed in an edit form
 
+###  EnableHeaderContextMenu `Boolean`
+
+Determines if the header context menu will be displayed for the current column.
+            This property works together with the EnableHeaderContextMenu property of the corresponding GridTableView.
+            Default value is true.
+
 ###  ExpandImageUrl `String`
 
 Gets or sets a string, specifying the URL to the image, which will be used

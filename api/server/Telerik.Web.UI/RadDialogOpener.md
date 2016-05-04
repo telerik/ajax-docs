@@ -113,6 +113,10 @@ Gets or sets the value, indicating whether to render links to the embedded skins
 #### Remarks
 If EnableEmbeddedSkins is set to false you will have to register the needed CSS files by hand.
 
+###  EnableRippleEffect `Boolean`
+
+Returns true if ripple effect should be added
+
 ###  EnableTelerikManagers `Boolean`
 
 When set to True, tells the dialog opener to use RadScriptManager and RadStyleSheetManager when loading an .ascx dialog file.

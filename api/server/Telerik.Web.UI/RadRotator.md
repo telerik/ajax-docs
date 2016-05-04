@@ -91,6 +91,10 @@ If EnableEmbeddedSkins is set to false you will have to register the needed CSS 
 
 Gets or sets a value indicating whether to randomize the order of display for the rotator items.
 
+###  EnableRippleEffect `Boolean`
+
+Returns true if ripple effect should be added
+
 ###  FrameDuration `Int32`
 
 Specifies the time in milliseconds each frame will display in automatic scrolling scenarios.

@@ -27,6 +27,10 @@ The SpreadsheetContextMenu object is used to assign context menus to Telerik.Web
 
 ## Properties
 
+###  AriaSettings `WaiAriaSettings`
+
+Gets the object that controls the Wai-Aria settings applied on the control's input element.
+
 ###  AutoScrollMinimumHeight `Int32`
 
 The minimum available height that is needed to enable the auto-scroll.
@@ -153,6 +157,10 @@ Gets or sets the value, indicating whether to render the skin CSS files during A
 #### Remarks
 If EnableAjaxSkinRendering is set to false you will have to register the needed control base CSS file by hand when adding/showing the control with Ajax.
 
+###  EnableAriaSupport `Boolean`
+
+When set to true enables support for WAI-ARIA.
+
 ###  EnableAutoScroll `Boolean`
 
 Gets or sets a value indicating if an automatic scroll is applied if the groups are larger then the screen height.
@@ -192,6 +200,10 @@ Gets or sets a value indicating if an overlay should be rendered (only in Intern
 
 #### Remarks
 The overlay is an iframe element that is used to hide select and other elements from overlapping the menu.
+
+###  EnableRippleEffect `Boolean`
+
+Returns true if ripple effect should be added
 
 ###  EnableRootItemScroll `Boolean`
 
@@ -279,6 +291,10 @@ Use the Items property to access the root items of the RadMenu control. You can 
 
 Gets or sets the template for displaying the items in
             RadMenu.
+
+###  KeyboardNavigationSettings `KeyboardNavigationSettings`
+
+Used to customize the keyboard navigation functionality.
 
 ###  LoadingStatusTemplate `ITemplate`
 

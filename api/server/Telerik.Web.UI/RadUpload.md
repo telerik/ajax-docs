@@ -96,6 +96,10 @@ Gets or sets the value indicating whether the file input fields skinning will be
 The <input type=file> DHTML elements are not skinnable by default. If the
             EnableFileInputSkinning is true some browsers can have strange behavior.
 
+###  EnableRippleEffect `Boolean`
+
+Returns true if ripple effect should be added
+
 ###  FocusOnLoad `Boolean`
 
 Gets or sets the value indicating whether the first file input field of RadUpload should get

@@ -285,6 +285,10 @@ Gets or sets a value indicating whether the user can create and edit recurring a
 
 Gets or sets a value that indicates whether the resource editing in the advanced form is enabled.
 
+###  EnableRippleEffect `Boolean`
+
+Returns true if ripple effect should be added
+
 ###  ExportSettings `SchedulerExportSettings`
 
 Gets a reference to the  object that

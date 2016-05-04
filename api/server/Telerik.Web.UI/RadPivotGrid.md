@@ -252,6 +252,10 @@ If EnableEmbeddedSkins is set to false you will have to register the needed CSS 
 
 Gets or sets a value indicating whether the NoRecordsTemplate will be visualized when no records are present
 
+###  EnableRippleEffect `Boolean`
+
+Returns true if ripple effect should be added
+
 ###  EnableTheming `Boolean`
 
 Gets or sets a value indicating whether themes apply to this control.

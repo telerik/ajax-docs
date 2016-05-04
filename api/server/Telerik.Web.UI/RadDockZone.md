@@ -66,6 +66,10 @@ Gets or sets the value, indicating whether to render links to the embedded skins
 #### Remarks
 If EnableEmbeddedSkins is set to false you will have to register the needed CSS files by hand.
 
+###  EnableRippleEffect `Boolean`
+
+Returns true if ripple effect should be added
+
 ###  FitDocks `DockCollection`
 
 Gets or sets a value, indicating whether the RadDockZone will set the size
