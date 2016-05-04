@@ -52,6 +52,8 @@ All tooltips can be configured through the associated **CommandItemSettings**. A
            </telerik:RadTreeList>
            <asp:SqlDataSource ID="SqlDataSource1" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>" ProviderName="System.Data.SqlClient" SelectCommand="SELECT EmployeeID, LastName, FirstName, Title, ReportsTo FROM Employees" runat="server"></asp:SqlDataSource>			
 ````
+
+
 # Command Item in Mobile Render Mode
 
 The command item rendering in mobile mode is different and it is not located in the table rows

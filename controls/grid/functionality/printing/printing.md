@@ -21,6 +21,8 @@ In case the PrintButton is hidden you can still use the client print functionali
 $find(“RadGrid1”).print();
 
 ````
+
+
 Note that in order for the output to be precise, and for Unicode support, you must declare TrueType fonts explicitly.
 
 >Note that for IE the browser’s popups should be always enabled to have the print functionality properly works.
@@ -29,3 +31,6 @@ Note that in order for the output to be precise, and for Unicode support, you mu
 ## See Also
 
  * [Demo: RadGrid Print](http://demos.telerik.com/aspnet-ajax/grid/examples/functionality/printing/defaultcs.aspx?isNew=true)
+ 
+ 
+ 
