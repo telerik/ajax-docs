@@ -23,7 +23,7 @@ What is the difference between RadComboBox and RadAutoCompleteBox, which at firs
 | ------ | ------ | ------ |
 |Input|Text|Collection of AutoCompleteBoxEntries. The entries can have text and value.|
 |Visual represantaion|Plain text|Text/Token|
-|Selection|Single select|Multi select|
+|Selection|Single/Multi select (checkboxes)|Multi select|
 |Templates|Server/client templates. Server controls can be places inside the server templates.|Server/client templates. Server controls are not allowed in the server templates; only static markup and databinding espressions are allowed.|
 |Load on demand|Automatic LoadOnDemand.|Automatic Web service/callback binding.|
 |Custom text|Not supported.|Automatic custom entries.|

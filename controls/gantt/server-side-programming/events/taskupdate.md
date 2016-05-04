@@ -11,7 +11,7 @@ position: 4
 # TaskUpdate
 
 
-The **RadGantt TaskUpdate** is fired when a task's collection is about to be updated through the provider.
+The **RadGantt TaskUpdate** event is fired when a task's collection is about to be updated through the provider.
 
 **TaskUpdate** event handler receives two parameters:
 

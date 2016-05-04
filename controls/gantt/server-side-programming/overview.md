@@ -65,6 +65,9 @@ position: 0
 | **[TaskInsert]({%slug gantt/server-side-programming/events/taskinsert%})** |Fired when the task's collection is about to be inserted in the database through the provider|
 | **[TaskUpdate]({%slug gantt/server-side-programming/events/taskupdate%})** |Fired when the task's collection is about to be updated through the provider.|
 | **[TaskDelete]({%slug gantt/server-side-programming/events/taskdelete%})** |Fired when the task's collection is about to be deleted from the database through the provider.|
+| **[AssignmentInsert]({%slug gantt/server-side-programming/events/assignmentinsert%})** |Fired when the assignment's collection is about to be inserted in the database through the provider|
+| **[AssignmentUpdate]({%slug gantt/server-side-programming/events/assignmentupdate%})** |Fired when the assignment's collection is about to be updated through the provider.|
+| **[AssignmentDelete]({%slug gantt/server-side-programming/events/assignmentdelete%})** |Fired when the assignment's collection is about to be deleted from the database through the provider.|
 | **[NavigationCommand]({%slug gantt/server-side-programming/events/navigationcommand%})** |Fired when the **RadGantt** executes a navigation command.|
 | **[DependencyInsert]({%slug gantt/server-side-programming/events/dependencyinsert%})** |Fires when a dependency's collection is about to be inserted in the database.|
 | **[DependencyDelete]({%slug gantt/server-side-programming/events/dependencydelete%})** |Fires when a dependency's collection is about to be deleted from the database through the provider.|
