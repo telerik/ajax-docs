@@ -5,7 +5,7 @@ description: Disable Context Menu
 slug: editor/functionality/context-menus/disable-context-menu-
 tags: disable,context,menu,
 published: True
-position: 1
+position: 2 
 ---
 
 # Disable Context Menu 
