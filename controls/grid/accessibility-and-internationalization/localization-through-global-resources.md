@@ -67,4 +67,4 @@ The process of creating a new global resource follows the same pattern as in **R
 >
 
 
-You can find a complete list of the culture codes [here](http://sharpertutorials.com/list-of-culture-codes/).
+You can find a complete list of the culture codes [here](https://msdn.microsoft.com/en-us/library/system.globalization.cultureinfo%28vs.71%29.aspx).
