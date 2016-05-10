@@ -42,6 +42,12 @@ You can find concrete information about your case in the distinct sections of th
 
 **To upgrade the Telerik controls**, you only need to **replace the [Telerik assemblies]({%slug introduction/installation/included-assemblies%}) project references** with their newer versions and update their references. The instructions below assume you have already [installed]({%slug installation/which-file-do-i-need-to-install%}) the new version.
 
+>tip Before stating an upgrade of your project, you may find it useful to review the following resources:
+>
+> * The [Known Issues and Important Changes](http://www.telerik.com/forums/known-issues-and-important-changes) sticky thread. It lists changes that may affect your code and known regression issues (that are usually fixed in the subsequent release). Review the information for the releases you go through so you can evaluate whether you will be affected by anything.
+>
+> * [UI for ASP.NET AJAX Release History](http://www.telerik.com/support/whats-new/aspnet-ajax/release-history)—reviewing the release notes for all releases you go through will let you see what has changed, what fixes, features and controls have been implemented so you are better prepared to meet your project's challenges.
+
 There are two ways to perform an upgrade:
 
 ### Automatic Upgrade
