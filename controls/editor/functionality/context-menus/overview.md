@@ -12,6 +12,8 @@ position: 0
 
 **RadEditor** allows context menu customizations - you can change the default context menus for various HTML elements (e.g. different context menus for images, tables, paragraphs, hyperlinks etc.).
 
+As of **R2 2016** context menus integrate [RadMenu]({%slug menu/overview%}) when using [Lightweight rendering]({%slug editor/mobile-support/render-modes%}). This extend the context menus and allows nesting—[Nested Context Menus]({%slug editor/functionality/context-menus/nested-context-menus%}). You can disable the new context menu rendering and show the old one by setting `UseRadContextMenu` property to `false`.
+
 The context menus are available in the ContextMenus Collection. You can define this collection in the ContextMenus section of RadEditor’s declaration:
 
 ````ASP.NET
