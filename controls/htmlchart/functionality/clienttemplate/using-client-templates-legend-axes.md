@@ -12,7 +12,7 @@ position: 1
 
 This article discusses the client templates for **Legend** items and **Axes** labels exposed in **RadHtmlChart**.
 
-The features listed here are available as of **Q2 2016**.
+The features listed here are available as of **R2 2016**.
 
 You can quickly navigate through the sections in this article:
 
