@@ -1,22 +1,19 @@
 ---
 title: Introduction
-page_title: Introduction | UI for ASP.NET AJAX Documentation
-description: Introduction
+page_title: Welcome to UI for ASP.NET AJAX | UI for ASP.NET AJAX Documentation
+description: Welcome to UI for ASP.NET AJAX
 slug: introduction/introduction
 tags: introduction
 published: True
 position: 0
 ---
 
-# Introduction
-
-
-![introduction-Telerik UI for aspnet-ajax logo documentation](images/introduction-Telerik_UI_for_aspnet-ajax_logo_documentation.png)
+# Welcome to UI for ASP.NET AJAX
 
 
 Thank you for choosing Telerik UI for ASP.NET AJAX!
 
-The Telerik ASP.NET AJAX controls suite includes more than 80 versatile and performance-optimized components that help you build high-quality, professional line-of-business projects.From the leading AJAX data grid to the full-featured HTML editor used by Microsoft on sites like MSDN, Telerik UI for ASP.NET AJAX provides you with all the building blocks	to maximize productivity and build richer, slicker and better-performing applications with ease.
+The Telerik ASP.NET AJAX controls suite includes more than 80 versatile and performance-optimized components that help you build high-quality, professional line-of-business projects.From the leading AJAX data grid to the full-featured HTML editor used by Microsoft on sites like MSDN, Telerik  UI for ASP.NET AJAX provides you with all the building blocks	to maximize productivity and build richer, slicker and better-performing applications with ease.
 
 To read more about the benefits of using Telerik UI for ASP.NET AJAX, please visit the [product overview page](http://www.telerik.com/products/aspnet-ajax.aspx).
 
@@ -205,7 +202,7 @@ Here are quick links to the control-specific sections of our documentation:
 * [Zip Library]({%slug radziplibrary-overview%})
 
 
-Telerik UI for ASP.NET AJAX works on the .NET v3.5, 4.0, 4.5 and 4.6 frameworks. The same assemblies work for both 32bit and 64bit machines.
+Telerik UI for ASP.NET AJAX works on .NET framework versions 3.5, 4.0, 4.5 and 4.6. The same assemblies work for both 32-bit and 64-bit machines.
 
 
 If you need further assistance you can post your question in the [UI for ASP.NET AJAX forums](http://www.telerik.com/community/forums/aspnet-ajax.aspx) or use the [online ticketing system](http://www.telerik.com/account/support-tickets/available-support-list.aspx).

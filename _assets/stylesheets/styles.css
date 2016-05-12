@@ -81,6 +81,10 @@ footer {
     margin-left: 1.833em;
 }
 
+.logo {
+    width: 396px;
+}
+
 .nav-buttons {
     float: right;
 }
@@ -505,7 +509,6 @@ div.caption {
 
 /* Footer */
 footer {
-    text-align: right;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -518,8 +521,28 @@ footer a:hover {
     color: inherit;
 }
 #send-feedback {
-    float: left;
+    float: right;
 }
+
+/* copyrights */
+
+.copyrights {
+    line-height: 1em;
+    padding: 5px 0;
+}
+
+    footer p {
+        margin: 0;
+        padding: 0;
+        color: #818692;
+        font-size: 11px;
+    }
+    
+    footer a, 
+    footer a:hover {
+        color: #cccccc;
+        text-decoration: none;
+    }
 
 /* Search */
 
