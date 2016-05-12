@@ -112,7 +112,7 @@ RadEditor1.ContextMenus.Add(myContextMenu)
 
 You can also configure multilevel nesting. Like in **Example 3**.
 
->caption Example 3: Miltileven nesting in context menus.
+>caption Example 3: Miltilevel nesting in context menus.
 
 ````ASP.NET
 <telerik:RadEditor runat="server" ID="RadEditor1" RenderMode="Lightweight">
