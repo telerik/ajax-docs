@@ -1387,10 +1387,10 @@ navigation:
         position: 3
     "*spreadsheet/structure":
         title: "Structure"
-        position: 1
+        position: 2
     "*spreadsheet/data-binding":
         title: "Data Binding"
-        position: 2
+        position: 3
     "*spreadsheet/data-binding/providers":
         title: "Providers"
         position: 1

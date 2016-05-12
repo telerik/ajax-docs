@@ -16,7 +16,7 @@ position: 0
 
 You can use one of the providers supplied in the Telerik.Web.UI assembly, or you can implement your own.
 
-The Telerik.Web.UI assembly defines the **Telerik.Web.UI.SpreadsheetDocumentProvider** provider, which can be used to bind the **RadSpreadsheet** to the most common excell file formats. The provider uses the [RadSpreadProcessing library](http://docs.telerik.com/devtools/aspnet-ajax/controls/spreadprocessing/overview) internally.
+The Telerik.Web.UI assembly defines the **Telerik.Web.UI.SpreadsheetDocumentProvider** provider, which can be used to bind the **RadSpreadsheet** to the most common excel file formats. The provider uses the [RadSpreadProcessing library](http://docs.telerik.com/devtools/aspnet-ajax/controls/spreadprocessing/overview) internally.
 
 To bind **RadSpreadsheet** to a provider, you can either set its **Provider** property at runtime, or set the **ProviderName** property declaratively.
 
@@ -24,42 +24,46 @@ To bind **RadSpreadsheet** to a provider, you can either set its **Provider** pr
 
 The following steps show how to declaratively bind **RadSpreadsheet** to the **Telerik.Web.UI.SpreadsheetDocumentProvider**, using the **ProviderName** property.
 
-1. Using the Solution Explorer, double click on the Web.config file. Locate the `<configSections>` tag at the very top. **RadSpreadsheet** is designed to be used with providers configured in a custom section of the web.config file. The custom section requires a handler that is included in the Telerik.Web.UI assembly. Add a `<section>` for this handler to the `<configSections>` of your Web.config file:
+* Using the Solution Explorer, double click on the Web.config file. Locate the `<configSections>` tag at the very top. **RadSpreadsheet** is designed to be used with providers configured in a custom section of the web.config file. The custom section requires a handler that is included in the Telerik.Web.UI assembly. Add a `<section>` for this handler to the `<configSections>` of your Web.config file:
 
-	**XML**
+````XML
 	
-		<configSections>
-			<sectionGroup name="telerik.web.ui">
-				<section name="radSpreadsheet"
-					type="Telerik.Web.UI.RadSpreadsheetConfigurationSection,
-							Telerik.Web.UI, PublicKeyToken=121fae78165ba3d4"
-					allowDefinition="MachineToApplication" />
-			</sectionGroup>
-		</configSections>
+<configSections>
+	<sectionGroup name="telerik.web.ui">
+		<section name="radSpreadsheet"
+			type="Telerik.Web.UI.RadSpreadsheetConfigurationSection,
+					Telerik.Web.UI, PublicKeyToken=121fae78165ba3d4"
+			allowDefinition="MachineToApplication" />
+	</sectionGroup>
+</configSections>
 
+````
 
-1. Now that you have declared a handler, add the `<telerik.web.ui>` section to your Web.config file (if it is not already there), and in the <telerik.web.ui> section, declare the provider:
+* Now that you have declared a handler, add the `<telerik.web.ui>` section to your Web.config file (if it is not already there), and in the <telerik.web.ui> section, declare the provider:
 
-	**XML**
-			
-		<radSpreadsheet defaultProvider="Integrated">
-			<providers>
-				<add name="SpreadsheetDocumentProvider1"
-					type="Telerik.Web.UI.SpreadsheetDocumentProvider"
-					fileName="~/App_Data/Spreadsheet.xlsx" />
-			</providers>
-		</radSpreadsheet>     
+````XML
 
+<radSpreadsheet defaultProvider="Integrated">
+	<providers>
+		<add name="SpreadsheetDocumentProvider1"
+			type="Telerik.Web.UI.SpreadsheetDocumentProvider"
+			fileName="~/App_Data/Spreadsheet.xlsx" />
+	</providers>
+</radSpreadsheet>     
 
-1. Now that the provider will be loaded into your application, set the **ProviderName** property of the **RadSpreadsheet** to "SpreadsheetDocumentProvider1".
+````
 
-	**ASP.NET**
-			
-		<telerik:RadSpreadsheet runat="server" ID="RadSpreadsheet1"
-			ProviderName="SpreadsheetDocumentProvider1">
-		</telerik:RadSpreadsheet>
+* Now that the provider will be loaded into your application, set the **ProviderName** property of the **RadSpreadsheet** to "SpreadsheetDocumentProvider1".
 
-1. Create an Excell file called "Spreadsheet.xlsx", and copy it to the App_Data folder of your project.
+````ASP.NET
+
+<telerik:RadSpreadsheet runat="server" ID="RadSpreadsheet1"
+	ProviderName="SpreadsheetDocumentProvider1">
+</telerik:RadSpreadsheet>
+
+````
+
+* Create an Excel file called "Spreadsheet.xlsx", and copy it to the App_Data folder of your project.
 
 
 You have now bound your **RadSpreadsheet** using the **ProviderName** property.
@@ -71,25 +75,30 @@ You have now bound your **RadSpreadsheet** using the **ProviderName** property.
 
 Binding the **RadSpreadsheet** to a provider at runtime requires only one step:
 
-1. Set the **Provider** property in the code behind, assigning it an instance of the **Telerik.Web.UI.SpreadsheetDocumentProvider** class, with the path to the excell file as a parameter.   
+* Set the **Provider** property in the code behind, assigning it an instance of the **Telerik.Web.UI.SpreadsheetDocumentProvider** class, with the path to the excel file as a parameter.   
 
-	**ASP.NET**
-			
-		<telerik:RadSpreadsheet runat="server" ID="RadSpreadsheet1">
-		</telerik:RadSpreadsheet>
+````ASP.NET
 
-	**C#**
-			
-		protected void Page_Init(object sender, EventArgs e)
-		{
-			RadSpreadSheet1.Provider = new SpreadsheetDocumentProvider(Server.MapPath("~/App_Data/Spreadsheet.xlsx"));
-		}
-		
-	**VB.NET**
+<telerik:RadSpreadsheet runat="server" ID="RadSpreadsheet1">
+</telerik:RadSpreadsheet>
+
+````
+
+````C#
+
+protected void Page_Init(object sender, EventArgs e)
+{
+	RadSpreadSheet1.Provider = new SpreadsheetDocumentProvider(Server.MapPath("~/App_Data/Spreadsheet.xlsx"));
+}
 	
-		Protected Sub Page_Init(sender As Object, e As EventArgs)
-			RadSpreadSheet1.Provider = New SpreadsheetDocumentProvider(Server.MapPath("~/App_Data/Spreadsheet.xlsx"))
-		End Sub
+````
+````VB.NET
+	
+Protected Sub Page_Init(sender As Object, e As EventArgs)
+	RadSpreadSheet1.Provider = New SpreadsheetDocumentProvider(Server.MapPath("~/App_Data/Spreadsheet.xlsx"))
+End Sub
+	
+````
 
 You have now bound your **RadSpreadsheet** using the **Provider** property at runtime.
 
