@@ -21,6 +21,8 @@ The `EditorContextMenuTool` class can be edited by using the:
 * `Name` property to edit the text of the tool that opens the nested menu;
 * `IconCssClass` property to add a class name to the icon element in order to style it with CSS later.
 
+You can also configure multilevel nesting. Like in **Example 3**.
+
 >caption Figure 1: RadEditor with configured nested context menus from Example 1.
 
 ![](images/nested-context-menus.png)
@@ -109,8 +111,6 @@ myContextMenu.Tools.Add(pastingMenu)
 
 RadEditor1.ContextMenus.Add(myContextMenu)
 ````
-
-You can also configure multilevel nesting. Like in **Example 3**.
 
 >caption Example 3: Miltilevel nesting in context menus.
 
