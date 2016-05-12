@@ -34,6 +34,8 @@ position: 0
 
 * [Sys.WebForms.PageRequestManagerServerErrorException: the status code returned from server was: 0](#syswebformspagerequestmanagerservererrorexception-the-status-code-returned-from-server-was-0)
 
+* [AJAX-enable RadToolTip Content](#ajax-enable-radtooltip-content)
+
 ## ToolTip is not Positioned Correctly
 
 By default the **RadToolTip** repositions itself so that it is always in the visible viewport. Sometimes, however,this does not happen. In that case make sure you have set all the necessary properties for its proper functioning: **Width, Height, Position,	RelativeTo, ShowEvent, HideEvent**. Usually at least **Width** is required so that the tooltip knows how big the popup needs to be in order to position it correctly on the screen. This is especially true for Load-On-Demandscenarios where the content is received after the tooltip is shown and it has no other way of calculating its position.
@@ -150,3 +152,28 @@ There are several ways to handle such an error because it stems from the `PageRe
 
 		Telerik.Web.UI.RadToolTipManager.prototype._onError = function (message) { }
 
+
+## AJAX-enable RadToolTip Content
+
+
+If you AJAX-enable the tooltip container, the tooltip contents will still perform full postbacks in most cases, because RadToolTip renders its popup as a direct child of the `<body>` element and, with this, moves the contents out of the UpdatePanel you have placed.
+
+There are a few ways to handle this situation:
+
+* AJAX-enable the tooltip contents themselves, e.g.:
+
+	**ASP.NET**
+
+		<telerik:RadToolTip ID="RadToolTip1" runat="server" RenderInPageRoot="false">
+			<asp:UpdatePanel ID="Updatepanel1" runat="server" UpdateMode="Conditional">
+				<ContentTemplate>
+					<asp:Button ID="Button1" Text="I will perform an AJAX request now" runat="server" />
+				</ContentTemplate>
+			</asp:UpdatePanel>
+		</telerik:RadToolTip>
+
+* Set the [`RenderInPageRoot`](http://demos.telerik.com/aspnet-ajax/tooltip/examples/tooltipasformchild/defaultcs.aspx) property of the RadToolTip instance to `false`. Note that if its parent has absolute positioning, this may result in incorrect RadToolTip positions because it will not inherit the CSS rules of its parent. Also, note that the AJAX request will dispose the tooltip as well as the button and the parent element, so the tooltip will hide.
+
+* Consider loading the tooltip contents via AJAX and a tooltip manager as shown in the [Update TargetControls with AJAX](http://demos.telerik.com/aspnet-ajax/tooltip/examples/targetcontrolsandajax/defaultcs.aspx?product=tooltip) demo. RadToolTipManager will automatically put an UpdatePanel around the content so it can load it and will thus fulfill the first bullet. The benefit is that content is [loaded on demand]({%slug tooltip/radtooltipmanager/load-content-on-demand%}) only instead of being always present on the page.
+
+* In case the tooltip is in a databound control template (like a RadGrid TemplateColumn), consider using a [RadWindow](http://demos.telerik.com/aspnet-ajax/window/examples/overview/defaultcs.aspx) for the details popup. You can load an entire page in it that can have its own [AJAX setup]({%slug window/how-to/how-to-use-radwindow-with-ajax%}). The [Window - Edit Dialog for RadGrid](http://demos.telerik.com/aspnet-ajax/controls/examples/integration/gridandwindow/defaultcs.aspx?product=window) demo shows a similar scenario. RadToolTip is intended to be a simple informational popup and not a popup full of user interactions.
