@@ -5,7 +5,7 @@ description: Welcome to UI for ASP.NET AJAX
 slug: copyright/copyright
 tags: copyright
 published: True
-position: 16
+position: 1600
 ---
 
 # &copy; 2016 Progress Software Corporation and/or one of its subsidiaries or affiliates. <br /> All rights reserved. 
