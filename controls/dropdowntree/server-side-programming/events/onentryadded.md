@@ -23,3 +23,28 @@ The event handler receives two parameters:
 2. An event argument parameter that contains the following property:
 
 	* **Entry** - returns the entry that has just being added to the input.
+	
+	
+	
+````C#
+	
+protected void RadDropDownTree1_EntryAdded(object sender, DropDownTreeEntryEventArgs e)
+{
+	Label1.Text = e.Entry.Text + " was added.";
+}
+	
+````
+````VB.NET
+	
+Protected Sub RadDropDownTree1_EntryAdded(sender As Object, e As DropDownTreeEntryEventArgs)
+	Label1.Text = e.Entry.Text + " was added."
+End Sub
+	
+````
+
+
+# See Also
+
+ * [NodeDataBound]({%slug dropdowntree/server-side-programming/events/nodedatabound%})
+
+ * [OnEntryRemoved]({%slug dropdowntree/server-side-programming/events/onentryremoved%})

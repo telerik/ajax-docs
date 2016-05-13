@@ -23,3 +23,29 @@ The event handler receives two parameters:
 2. An event argument parameter that contains the following property:
 
 	* **Entry** - returns the entry that has just being removed from the input.
+
+
+
+````C#
+	
+protected void RadDropDownTree1_EntryRemoved(object sender, DropDownTreeEntryEventArgs e)
+{
+	Label1.Text = e.Entry.Text + " was removed.";
+}
+	
+````
+````VB.NET
+	
+Protected Sub RadDropDownTree1_EntryRemoved(sender As Object, e As DropDownTreeEntryEventArgs)
+	Label1.Text = e.Entry.Text + " was removed."
+End Sub
+	
+````
+
+
+# See Also
+
+ * [NodeDataBound]({%slug dropdowntree/server-side-programming/events/nodedatabound%})
+
+ * [OnEntryAdded]({%slug dropdowntree/server-side-programming/events/onentryadded%})
+ 
