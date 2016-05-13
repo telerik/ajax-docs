@@ -164,3 +164,6 @@ function SetEditorValue(sender, args)
 
 
 
+## See Also
+
+* [Custom CommandItemTemplate for Batch Edit Mode]({%slug grid/data-editing/commanditem/command-item-template%}#custom-commanditemtemplate-for-batch-edit-mode)

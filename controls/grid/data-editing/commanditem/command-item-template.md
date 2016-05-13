@@ -10,9 +10,32 @@ position: 1
 
 # Command Item Template
 
+This article explains how to customize the Command Item and Buttons of RadGrid. The following sections point to specific scenarios:
+
+* [CommandItem Overview](#commanditem-overview)
+
+* [Custom CommandItemTemplate](#custom-commanditemtemplate)
+
+* [Handling Custom Commands:Delete Command (CommandItem Example)](#handling-custom-commandsdelete-command-commanditem-example)
+
+* [How to Customize the Add New Record/Refresh Text in the CommandItem Area](#how-to-customize-the-add-new-recordrefresh-text-in-the-commanditem-area)
+
+* [Setting Preferences for Controls Inside the CommandItemTemplate at Runtime](#setting-preferences-for-controls-inside-the-commanditemtemplate-at-runtime)
+
+* [Display Different Controls in a CommandItemTemplate with CommandItemDisplay = "TopAndBottom"](#display-different-controls-in-a-commanditemtemplate-with-commanditemdisplay--topandbottom)
+
+* [Define CommandItemTemplate Programmatically](#define-commanditemtemplate-programmatically)
+
+* [Custom CommandItemTemplate for Batch Edit Mode](#custom-commanditemtemplate-for-batch-edit-mode)
 
 
-In order to show the command item, you should set the **CommandItemDisplay** property of the **GridTableView**. The **CommandItemDisplay** property can take four values:	**None**, **Top**, **Bottom** and **TopAndBottom**, corresponding to the place where it will appear.	You can customize the command item content using the template of a **GridTableView.CommandItemTemplate**as shown in **Example 1**.
+## CommandItem Overview
+
+In order to show the command item, you should set the **CommandItemDisplay** property of the **GridTableView**. The **CommandItemDisplay** property can take four values:	**None**, **Top**, **Bottom** and **TopAndBottom**, corresponding to the place where it will appear.	You can customize the command item content using the template of a **GridTableView.CommandItemTemplate** as shown in **Example 1**.
+
+## Custom CommandItemTemplate
+
+You can define our own controls that will perform the same actions as the built-in ones.
 
 **Example 1**: Shows how custom commands could be implemented via the **CommandItemTemplate**.
 
@@ -386,6 +409,67 @@ End Sub
 
 
 You can find detailed information about how to create templates programmatically in	[this MSDN article](http://msdn.microsoft.com/en-us/library/aa289501%28v=vs.71%29.aspx).
+
+
+## Custom CommandItemTemplate for Batch Edit Mode
+
+The [Batch Edit Mode]({%slug grid/data-editing/edit-mode/batch-editing/overview%}) works on the client, so the command buttons use JavaScript—the [Client-side API the BatchEditingManager]({%slug grid/data-editing/edit-mode/batch-editing/client-side-api%}) offers.
+
+To customize the CommandItemTemplate (**Example 8**), you need to use the provided API (**Example 9**) and attach it to the HTML elements you place there.
+
+**Example 8**: Custom Batch Edit Command buttons 
+
+````ASP.NET
+<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" GridLines="None" runat="server" AllowAutomaticDeletes="True"
+				 AllowAutomaticInserts="True" PageSize="10" AllowAutomaticUpdates="True" AllowPaging="True"
+				 AutoGenerateColumns="False" DataSourceID="SqlDataSource1">
+	<MasterTableView CommandItemDisplay="TopAndBottom" DataKeyNames="ProductID"
+					 DataSourceID="SqlDataSource1" HorizontalAlign="NotSet" EditMode="Batch" AutoGenerateColumns="False">
+		<CommandItemTemplate>
+			<telerik:RadPushButton runat="server" ID="AddNewRecordButton" OnClientClicked="addRecordToGrid" AutoPostBack="false" Text="Add new record" ToolTip="Add new record">
+				<Icon CssClass="rgAddIcon" />
+			</telerik:RadPushButton>
+			<telerik:RadPushButton runat="server" ID="SaveChangesButton" OnClientClicked="saveChangesToGrid" AutoPostBack="false" Text="Save changes" ToolTip="Save changes">
+				<Icon CssClass="rgSaveIcon" />
+			</telerik:RadPushButton>
+			<telerik:RadPushButton runat="server" ID="CancelChangesButton" OnClientClicked="cancelChangesToGrid" AutoPostBack="false" Text="Cancel changes" ToolTip="Cancel changes">
+				<Icon CssClass="rgCancelIcon" />
+			</telerik:RadPushButton>
+			<telerik:RadPushButton runat="server" ID="RefreshButton" OnClientClicked="refreshGrid" AutoPostBack="false" Text="Refresh" ToolTip="Refresh">
+				<Icon CssClass="rgRefreshIcon" />
+			</telerik:RadPushButton>
+		</CommandItemTemplate>
+		<BatchEditingSettings EditType="Cell" />
+	</MasterTableView>
+</telerik:RadGrid>
+````
+
+**Example 9**: JavaScript code that provides functionality to the custom command buttons
+
+````JavaScript
+function addRecordToGrid() {
+	var grid = $find('<%=RadGrid1.ClientID%>');
+	grid.get_batchEditingManager().addNewRecord(grid.get_masterTableView());
+	return false;
+}
+function saveChangesToGrid() {
+	var grid = $find('<%=RadGrid1.ClientID%>');
+	grid.get_batchEditingManager().saveChanges(grid.get_masterTableView());
+	return false;
+}
+function cancelChangesToGrid() {
+	var grid = $find('<%=RadGrid1.ClientID%>');
+	grid.get_batchEditingManager().cancelChanges(grid.get_masterTableView());
+	return false;
+}
+function refreshGrid() {
+	var grid = $find('<%=RadGrid1.ClientID%>');
+	grid.get_masterTableView().rebind();
+}
+````
+
+The markup in **Example 8** emulates the actual HTML RadGrid outputs by default and uses the built-in icon classes to provide the same [font icons]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/fonts%}) RadGrid uses. You can use them with Telerik buttons or with your own elements prepared for font icons. Alternatively, you can add your own images, text and layout.
+
 
 ## See Also
 
