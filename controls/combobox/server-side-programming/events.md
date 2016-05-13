@@ -26,6 +26,8 @@ position: 0
 
 * [TextChanged]({%slug combobox/server-side-programming/textchanged%}) occurs when the text in the input area has been changed.
 
+* [ItemChecked]({%slug combobox/server-side-programming/itemchecked%}) occurs when a checkbox is checked/unchecked.
+
 * [CheckAllCheck]({%slug combobox/server-side-programming/checkallcheck%}) occurs when the check all items check box is changed.
 
 >note The **SelectedIndexChanged** , **TextChanged** and **OnCheckAllCheck** events do not fire unless you set the **AutoPostBack** property to **True** .
