@@ -25,6 +25,7 @@ To configure a rotator with buttons, you should do the following:
  * Determine the size of the buttons and just add it to the rotator's width/height. 
  
 For example, if we want to show four items (100x100 pixels) in a horizontal rotator with buttons for the black skin with Lightweight render mode, we can follow the steps below:
+
 1. Set the single item's dimensions - `ItemWidth`="100" `ItemHeight`="100".
 1. Set the item template dimensions - .itemTemplate {width: 100px; height: 100px;}.
 1. Inspect the size of a single button - 30x30. 
