@@ -10,18 +10,18 @@ position: 1
 
 # Nested Context Menus
 
-In this help article you can see how you can configure **RadEditor** with nested context menus.
+In this help article, you will learn how you can configure **RadEditor** with nested context menus.
 
 The capability to nest the context menus in **RadEditor** is available as of **R2 2016** and it is supported only for [Lightweight rendering]({%slug editor/mobile-support/render-modes%}).
 
-With the new feature, the `Tools` collection of the `EditorContextMenu` class supports a new item—`EditorContextMenuTool`. You can use its `Tools` collection to add additional tools (`EditorTool` items) that will be in the nested menu. 
+With the new feature, the `Tools` collection of the `EditorContextMenu` class supports a new item — `EditorContextMenuTool`. You can use its `Tools` collection to add additional tools (`EditorTool` items) that will be in the nested menu. 
 
 The `EditorContextMenuTool` class can be edited by using the:
 
-* `Name` property to edit the text of the tool that opens the nested menu;
+* `Name` property to edit the text of the tool that opens the nested menu.
 * `IconCssClass` property to add a class name to the icon element in order to style it with CSS later.
 
-You can also configure multilevel nesting. Like in **Example 3**.
+You can also configure multilevel nesting, as shown in **Example 3**.
 
 >caption Figure 1: RadEditor with configured nested context menus from Example 1.
 
@@ -112,7 +112,7 @@ myContextMenu.Tools.Add(pastingMenu)
 RadEditor1.ContextMenus.Add(myContextMenu)
 ````
 
->caption Example 3: Miltilevel nesting in context menus.
+>caption Example 3: Multilevel nesting in context menus.
 
 ````ASP.NET
 <telerik:RadEditor runat="server" ID="RadEditor1" RenderMode="Lightweight">
