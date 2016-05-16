@@ -8,7 +8,7 @@ published: True
 position: 1
 ---
 
-# Custom Custom Provider
+# Custom Provider
 
 The following article demonstrates how to implement a custom provider for the RadSpreadsheet.
 
@@ -21,7 +21,7 @@ The following article demonstrates how to implement a custom provider for the Ra
 
 ````C#
 
-public class SpreadsheetDataBaseProvider : GanttProviderBase
+public class SpreadsheetDataBaseProvider : SpreadsheetProviderBase
 {
 
 }
