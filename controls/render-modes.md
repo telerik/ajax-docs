@@ -17,6 +17,8 @@ Some of the Telerik controls support different rendering modes. They can change 
 The possible options are:
 
 * **Classic** - this is the default value. It preserves the original rendering and styling that has been used before, which	often means there are a lot of tables used to create layout, which results in nested elements and some markup that can be avoided.
+	
+	>note The Classic Render Mode is in maintenance mode since Q3 2015 and only critical bug fixes are provided for it. All the new functionality, controls and features are developed for the modern Lightweight and Mobile Render Modes.
 
 * **Lightweight** - this mode emphasizes on semantic HTML and CSS3. It reduces the amount of markup the control renders	(including the depth of the nested elements) and makes it easier to customize.	This also reduces the number of image sprites the control uses and the overall size and complexity of each skin, including custom ones.
 
