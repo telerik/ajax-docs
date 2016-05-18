@@ -8,9 +8,28 @@ published: True
 position: 3
 ---
 
-# File Filtering
 
-## RadAsyncUpload File Filtering
+# RadAsyncUpload File Filtering
+
+
+## 
+
+
+>caution **File filtering** functionality of RadAsyncUpload works only with browsers that run **Flash** or **Silverlight** [**Upload modules**] ({%slug asyncupload/upload-modules%}). **File filtering** is not available for:
+* Internet explorer when RadAsyncUpload is utilizing its IFrame module (when neither Flash nor Silverlight are installed). 
+* All modern browsers (FireFox 3.6 or grater, Google Chrome, Safari 5 and above, Edge and Internet explorer 10 and above), as in them RadAsyncUpload uses File API Upload module;
+
+
+To set file filtering on modern browsers, the **accept** attribute of the **input type="file"** should be set:
+
+````JavaScript
+function pageLoad() {
+    $telerik.$('.ruFileInput').attr('accept', 'image/*');
+}
+````
+
+## File filtering
+
 
 As of Q1 2011, **RadAsyncUpload** supports file filtering. A file filter is an object with two properties: **Description** and **Extensions**. The **Extensions** property accepts a comma separated list of extensions upon whichthe select file dialog should be filtered. The **Description** property, as its name suggests, describes the extensions set.
 
@@ -24,14 +43,19 @@ As of Q1 2011, **RadAsyncUpload** supports file filtering. A file filter is an o
 
 This setup will produce the following result:
 
+>caption When using Silverlight as **Upload module**:
+
 **Silverlight:** <br> ![Silverlight module](images/asyncupload_filefiltering_silverlight.bmp) 
 
-**Flash:** <br> ![Flash module](images/asyncupload_filefiltering_flash.bmp)
+>caption When using Flash as **Upload module**:
 
-Note that when **RadAsyncUpload** is utilizing its IFrame module (when neither Flash nor Silverlight is installed) no filtering capabilities are available. This is because browsers don’t provide native file filtering support.
+**Flash:** <br> ![Flash module](images/asyncupload_filefiltering_flash.bmp)
 
 You can apply as many filters as you want. Then, the user can choose among different filters via the Files of type combo box.
 
 # See Also
 
  * [RadAsyncUpload Validation Demo](http://demos.telerik.com/aspnet-ajax/upload/examples/async/validation/defaultcs.aspx?product=asyncupload)
+ 
+ * [RadAsyncUpload Upload Modules]({%slug asyncupload/upload-modules%})
+ 
