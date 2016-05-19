@@ -20,7 +20,7 @@ position: 1
 | **Animation** |Get/Set the animation effect of the notification.|
 | **AnimationDuration** |Sets/gets the duration of the animation in milliseconds.|
 | **AudioHandlerUrl** |Specifies the URL of the HTTPHandler that serves the notification sound.|
-| **AutoCloseDelay** |Get/Set the delay after which the notification will hide if not explicitly closed.|
+| **AutoCloseDelay** |Get/Set the delay after which the notification will hide if not explicitly closed. Set it to `0` to prevent the notification from closing automatically.|
 | **CloseButtonToolTip** |Gets or sets the content of the close button tooltip. The default value is **Close** .|
 | **ContentContainer** |Gets the control, where the ContentTemplate will be instantiated in.You can use this property to programmatically add controls to the content area. If you add controls to the ContentContainer the Text and ContentIcon properties will be ignored.|
 | **ContentIcon** |Gets or sets the content icon. The default value is **NotificationIcon.Default** .|
