@@ -22,7 +22,7 @@ If you have a hierarchical grid each item in **GridTableView's Items** collectio
 GridTableView nestedTableView = (RadGrid1.MasterTableView.Items[0] as GridDataItem).ChildItem.NestedTableViews[0];
 ````
 ````VB
-Dim nestedTableView as GridTableView = CType(RadGrid1.MasterTableView.Items[0], GridDataItem).ChildItem.NestedTableViews[0]          
+Dim nestedTableView as GridTableView = CType(RadGrid1.MasterTableView.Items(0), GridDataItem).ChildItem.NestedTableViews(0)          
 ````
 
 
@@ -65,7 +65,7 @@ Sub LoopHierarchyRecursive(ByVal gridTableView As GridTableView)
     For Each nestedViewItem As GridNestedViewItem In gridTableView.GetItems(GridItemType.NestedView)
         'you should skip the items if not expanded, or tables not bound
         If nestedViewItem.NestedTableViews.Length > 0 Then
-            'now you can access: nestedViewItem.NestedTableViews[0].Items, which will be the DataItems of this nested table
+            'now you can access: nestedViewItem.NestedTableViews(0).Items, which will be the DataItems of this nested table
             'then make recursive call
             LoopHierarchyRecursive(nestedViewItem.NestedTableViews(0))
             ' above [0] stands for the first table in the hierarchy, since Telerik RadGrid supports multiple tables at a level
