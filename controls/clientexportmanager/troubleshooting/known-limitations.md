@@ -34,5 +34,8 @@ The **RadClientExportManager** control's known limitations are listed below:
 
 * exporting images from another domain requires the server to have the following header in its response: **Access-Control-Allow-Origin: `*`**, which will enable cross-origin requests. If the server does not have this header set access to the image will be denied and it will not be exported.
 
+* exporting font icons 
+
+* exporting pseudo:elements borders (for example RadOrgChart connection lines) 
 
 # See Also
