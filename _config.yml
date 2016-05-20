@@ -655,10 +655,10 @@ navigation:
         position: 3
     "*dropdowntree/data-binding":
         title: "Data Binding"
-        position: 2
+        position: 5
     "*dropdowntree/templates":
         title: "Templates"
-        position: 4
+        position: 6
     "*editor/functionality/toolbars":
         title: "Toolbars"
         position: 0
