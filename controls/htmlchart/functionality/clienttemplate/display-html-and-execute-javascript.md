@@ -87,6 +87,42 @@ ClientTemplates let you use JavaScript, following this pattern: `"#if (condition
 
 	The tooltip will display three lines of text. The first line shows the category and the next two lines show the Y-values of both items from this category.
 
+* **Call a function**
+
+	**ASP.NET**
+
+			<script>
+				function formatLabel(number) {
+					if (number < 1000)
+						return number;
+					if (number < 1000000)
+						return number / 1000 + "K";
+					if (number < 1000000000)
+						return number / 1000000 + "M";
+				}
+			</script>
+			<telerik:RadHtmlChart runat="server" ID="BarChart1" Width="800px" Height="300px">
+				<PlotArea>
+					<YAxis>
+						<TitleAppearance Text="Quantity" />
+						<LabelsAppearance>
+							<ClientTemplate>
+								#= formatLabel(value) #
+							</ClientTemplate>
+						</LabelsAppearance>
+					</YAxis>
+					<Series>
+						<telerik:BarSeries Name="Product A">
+							<SeriesItems>
+								<telerik:CategorySeriesItem Y="100" />
+								<telerik:CategorySeriesItem Y="20000" />
+								<telerik:CategorySeriesItem Y="1000000" />
+							</SeriesItems>
+						</telerik:BarSeries>
+					</Series>
+				</PlotArea>
+			</telerik:RadHtmlChart>
+
 ## Display HTML with a ClientTemplate
 
 ClientTemplate can render HTML from a data source following this syntax: `"#: #"`. **Figure 1** shows an example of using a ClientTemplate to render HTML in a tooltip.
