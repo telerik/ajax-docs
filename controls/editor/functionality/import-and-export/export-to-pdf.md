@@ -17,6 +17,7 @@ This help article treats the PDF export functionality of **RadEditor** and the c
 * [OnExportContent Event](#onexportcontent-event)
 * [Using an External HTML to PDF Conversion Library](#using-an-external-html-to-pdf-conversion-library)
 * [Unsupported Features and Scenarios](#unsupported-features-and-scenarios)
+* [Client-side Export](#client-side-export)
 
 ## How-to Export the RadEditor Content to a PDF File
 
@@ -90,6 +91,8 @@ It is possible to silently export the content as PDF on the server via the **OnE
 
 Below you can find an example demonstrating how to export the editor's content as PDF on the server using the **OnExportContent** event of **Telerik Editor**.
 
+>caption Example 2: Save the exported PDF on the server.
+
 ````ASP.NET
 <telerik:RadEditor RenderMode="Lightweight" runat="server" ID="RadEditor1" OnExportContent="RadEditor1_ExportContent" ContentFilters="DefaultFilters, PdfExportFilter">
 </telerik:RadEditor>
@@ -159,6 +162,9 @@ End Class
 ## Using an External HTML to PDF Conversion Library
 
 It is possible to use an external HTML to PDF conversion library for the Export to PDF feature of RadEditor.In order to use a custom one, the **RadEditorExportTemplate** abstract class, defined in the **Telerik.Web.UI.Editor.Export**	namespace of the Telerik.Web.UI assembly has to be implemented. Below is an example demonstrating the class constructor and its methods that would need to be overridden.
+
+
+>caption Example 3: Using a custom server PDF export library with RadEditor.
 
 ````C#
 public abstract class RadEditorExportTemplate
@@ -322,6 +328,8 @@ End Class
 Next, an instance of the Custom Pdf Export Template needs to be passed to the Editor. This can be done in the **Page_Load** event handler, for example, in the following way.
 
 
+>caption Example 4: Apply the custom export template to RadEditor 
+
 ````C#
 protected void Page_Load(object sender, EventArgs e)
 {
@@ -354,6 +362,54 @@ Although we are striving to constantly improve our products, there are some limi
 * Medium trust;
 * Img tags that point to non-existing image files break the PDF file generation;
 * Exporting full HTML page (currently, only the content inside the body tag can be exported).
+
+
+## Client-side Export
+
+You can export the editor contents to PDF on the client by using [RadClientExportManager]({%slug clientexportmanager/overview%}) as shown in **Example 5**. To do this:
+
+
+1. Add RadClientExportManager to the page and configure it according to your needs.
+
+1. Prepare an empty HTML node that will be used by RadClientExportManager.
+
+1. use the [get_html()]({%slug editor/client-side-programming/methods/get_html%}) method RadEditor exposes to obtain the HTML.
+
+1. place the HTML in the temporary node, export it and clear the node.
+
+>caption Example 5: Export RadEditor to PDF on the client
+
+````ASP.NET
+<telerik:RadEditor ID="RadEditor1" runat="server">
+	<Content>
+		<strong>lorem</strong> ipsum <em>dolor</em> sit amet
+	</Content>
+</telerik:RadEditor>
+<telerik:RadClientExportManager runat="server" ID="RadClientExportManager1">
+	<PdfSettings FileName="someFileName.pdf" />
+</telerik:RadClientExportManager>
+<asp:Button ID="Button1" Text="export editor on client" OnClientClick="exprotPdfOnClient(); return false;" runat="server" />
+<div id="dummyContentWrapper"></div>
+<script>
+	function exprotPdfOnClient() {
+		var editorHtml = $find("<%=RadEditor1.ClientID%>").get_html(true);
+		var dummyContainer = $telerik.$("#dummyContentWrapper");
+		dummyContainer.html(editorHtml);
+		$find("<%=RadClientExportManager1.ClientID%>").exportPDF(dummyContainer);
+		dummyContainer.html("");
+	}
+</script>
+````
+
+
+This approach provides the following benefits:
+
+* There is no postback to the server which improves the page performance.
+
+* The ClientExportManager logic is used which includes the PAKO library and has fewer limitations than the built-in server-side export library.
+
+	>note Review the [RadClientExportManager Browser Support]({%slug clientexportmanager/browser-support%}) and evaluate it against your expected user base. 
+
 
 ## See Also
 
