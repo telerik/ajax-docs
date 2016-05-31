@@ -20,11 +20,11 @@ You can let **RadProgressArea** automatically locate and update the values of th
 
 | ID | Description |
 | ------ | ------ |
-|PrimaryProgressBarInnerDiv|Total Progress Bar|
+|PrimaryProgressBarInnerDiv\*|Total Progress Bar|
 |PrimaryPercent|Total Progress Percent|
 |PrimaryValue|Total Progress|
 |PrimaryTotal|Request Size|
-|SecondaryProgressBarInnerDiv|Files Count Bar|
+|SecondaryProgressBarInnerDiv\*|Files Count Bar|
 |SecondaryPercent|Files Count Percent|
 |SecondaryValue|Files Count|
 |SecondaryTotal|Selected Files Count|
@@ -33,6 +33,8 @@ You can let **RadProgressArea** automatically locate and update the values of th
 |TimeEstimated|Estimated Time|
 |Speed|Speed|
 |CancelButton|Cancel Button|
+
+\* As of **Q2 2015** the *PrimaryProgressBarInnerDiv* and *SecondaryProgressBarInnerDiv* IDs are renamed respectively to **PrimaryProgressBarElement** and **SecondaryProgressBarElement** due to the new Lightweight rendering of the control.
 
 You can also update the values of elements in your template using the client-side [OnClientProgressBarUpdating]({%slug progressarea/client-side-programming/onclientprogressbarupdating%}) and [OnClientProgressUpdating]({%slug progressarea/client-side-programming/onclientprogressupdating%}) events to bind the values of custom controls you add in the template.
 
