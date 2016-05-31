@@ -42,42 +42,50 @@ The below example demonstrates how to change RadMenu **RenderMode**, based on th
 ````
 
 ````JavaScript
-var $ = $telerik.$;
-var $T = Telerik.Web.UI;
+
 // Breakpoint is set to 1000px
 var breakPointsWidth = 1000;
+
+var $ = $telerik.$;
+var $T = Telerik.Web.UI;
+
+var ajaxManager;
 var bigResolution;
 var isInLightweight;
 var isInMobile;
 
 function pageLoad() {
     var menu = $find('RadMenu1');
+	
 	// Identify the current RadMenu RenderMode
     var currentRenderMode = menu.get_renderMode();
     isInLightweight = currentRenderMode === $T.RenderMode.Lite;
     isInMobile = currentRenderMode === $T.RenderMode.Mobile;
-	// Identify current window size
-    bigResolution = ($(window).width() > breakPointsWidth);
-	
-    if ((bigResolution && !isInLightweight) || (!bigResolution && !isInMobile)) {
-        changeRenderMode();
-    }
+
+    ajaxManager = $find('RadAjaxManager1');
+
+    verifyRenderModeAgainsResolution();
 }
 
 $(window).resize(function () {
+    verifyRenderModeAgainsResolution();
+});
+
+function verifyRenderModeAgainsResolution() {
 	// Identify current window size
     bigResolution = ($(window).width() > breakPointsWidth);
     if ((bigResolution && !isInLightweight) || (!bigResolution && !isInMobile)) {
         changeRenderMode();
     }
-});
+}
 
 function changeRenderMode() {
 	// Initiate AJAX request using RadAjaxManager
-    $find('RadAjaxManager1').ajaxRequest(bigResolution);
+    ajaxManager.ajaxRequest(bigResolution);
     isInMobile = !isInMobile;
     isInLightweight = !isInLightweight;
 }
+
 ````
 
 
