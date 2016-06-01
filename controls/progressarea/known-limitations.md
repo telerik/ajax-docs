@@ -30,3 +30,5 @@ Here are the known limitations of **RadProgressArea**:
 
 * **RadProgressArea** works properly in SharePoint environment if the **RadUploadModule** is not present in the web.config
 
+* **RadProgressArea** freezes during upload postback on iOS (7-9). This is a browser limitation already reported to Apple. As a workaround **RadProgressArea** can be placed inside a **RadAjaxPanel**, which will allow the **RadProgressArea** to be visible during the upload postback. 
+
