@@ -5,7 +5,7 @@ description: Animations
 slug: dropdownlist/appearance-and-styling/animations
 tags: animations
 published: True
-position: 0
+position: 1
 ---
 
 # Animations
