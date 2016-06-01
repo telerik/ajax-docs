@@ -165,7 +165,7 @@ This error means that the reference to the Telerik.Web.UI assembly is wrong in t
 
 * There is a `Register` directive with a fully qualified assembly name somewhere in your project that points to an old version (e.g., on a master page, or a user control, or in the web.config). There are several ways to fix it:
 
-	* The best resolution is to find and remove the old version reference. It is best to avoid fully qualified assembly names as this facilitates future upgrades. Usually, a `Registger` directive should look like this:
+	* The best resolution is to find and remove the old version reference. It is best to avoid fully qualified assembly names as this facilitates future upgrades. Usually, a `Register` directive should look like this:
 
 		**ASP.NET**
 
