@@ -28,8 +28,7 @@ You can find the the series types that are not supported by the **RadHtmlChart**
 | ------ | ------ |
 | **Server-side click events** |This limitation is a sequence of the	concept of the **RadHtmlChart** (i.e., the control renders	entirely on the client-side). Nevertheless, this behavior can be achieved by performing an	Ajax request in the client-side click, where the argument of the clicked item can be passed	to the server. See [HtmlChart - Drill-down Chart](http://demos.telerik.com/aspnet-ajax/htmlchart/examples/drilldownchart/defaultcs.aspx) online demo.|
 | **Built-in data grouping** |You can manually group the data source prior to binding it to the chart. Such an example is illustrated in the [Group RadHtmlChart Data Source](http://www.telerik.com/support/code-library/group-radhtmlchart-data-source) CL.|
-| **Export** |This feature is not supported out of the box because the **RadHtmlChart** renders entirely on the client as SVG via JavaScript and therefore it is not directly available on the server for exporting. A possible workaround is to either obtain the SVG as a string and send it to the server through an Ajax request, once the chart is rendered, or to use third-party software that can convert and export the SVG image to a more common user format such as PNG or PDF. See an example in the [Exporting RadHtmlChart to PNG and PDF](http://www.telerik.com/community/code-library/aspnet-ajax/html-chart/exporting-radhtmlchart-to-png-and-pdf.aspx) code library.|
-| **Zooming and scrolling** | **RadHtmlChart** let you zoom and scroll only data over time with the Data Navigation functionality. See	more details in [HtmlChart - Data Navigation](http://demos.telerik.com/aspnet-ajax/htmlchart/examples/functionality/datanavigation/defaultcs.aspx) online demo, [Data Navigation]({%slug htmlchart/functionality/data-navigation%}) help article and [ Zoom and Scroll Data Over Time with RadHtmlChart for ASP.NET AJAX](http://www.telerik.com/community/code-library/aspnet-ajax/html-chart/exporting-radhtmlchart-to-png-and-pdf.aspx) blog post.|
+| **Server-side Export** |This feature is not supported out of the box because the **RadHtmlChart** renders entirely on the client as SVG via JavaScript (the [chart can be exported on the client-side]({%slug htmlchart/how-to/export-to-pdf-with-clientexportmanager%})) and therefore it is not directly available on the server for exporting. A possible workaround is to either obtain the SVG as a string and send it to the server through an Ajax request, once the chart is rendered, or to use third-party software that can convert and export the SVG image to a more common user format such as PNG or PDF. See an example in the [Exporting RadHtmlChart to PNG and PDF](http://www.telerik.com/community/code-library/aspnet-ajax/html-chart/exporting-radhtmlchart-to-png-and-pdf.aspx) code library.|
 
 You can find the list of missing appearance and styling features in **RadHtmlChart**, when migrating from **RadChart** and possible workarounds in **Table 2**.
 
@@ -84,4 +83,7 @@ You can find the list of missing axes features in **RadHtmlChart** compared to *
 
  * [RadHtmlChart : Data Navigation]({%slug htmlchart/functionality/data-navigation%})
 
- * [Exporting RadHtmlChart to PNG and PDF](http://www.telerik.com/community/code-library/aspnet-ajax/html-chart/exporting-radhtmlchart-to-png-and-pdf.aspx)
+ * [Exporting RadHtmlChart to PNG and PDF Client-side]({%slug htmlchart/how-to/export-to-pdf-with-clientexportmanager%})
+ 
+ * [Exporting RadHtmlChart to PNG and PDF Sever-side](http://www.telerik.com/community/code-library/aspnet-ajax/html-chart/exporting-radhtmlchart-to-png-and-pdf.aspx)
+
