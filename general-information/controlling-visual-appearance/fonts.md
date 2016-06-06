@@ -63,7 +63,7 @@ The skins listed below have predefined font-family as follows:
 
 * Metro—font-family: "Segoe UI", Arial, Helvetica, sans-serif;
 
->note The Material skin includes the **Roboto** font-file from the Telerik assembly. It will be used even if it is not installed on the user computer.
+>note The Material skin includes the **Roboto** font-file from the Google cloud. It will be used even if it is not installed on the user computer, but downloading it requires an active Internet connection.
 
 
 
