@@ -11,47 +11,47 @@ position: 1
 # Getting Started
 
 
-This article will get you started in using the **RadDropDownTree** control. It contains the following sections:
+This article will helo you get started using the **RadDropDownTree** control. It contains the following sections:
 
 
 * [Creating a Simple RadDropDownTree](#creating-a-simple-raddropdowntree)
 
-* [Configure the RadDropDownTree using the Configuration wizard](#configure-the-raddropdowntree-using-the-configuration-wizard)
+* [Configure the RadDropDownTree Using the Configuration Wizard](#configure-the-raddropdowntree-using-the-configuration-wizard)
 
-* [Populate RadDropDownTree with simple data in the code-behind](#populate-raddropdowntree-with-simple-data-in-the-code-behind)
+* [Populate RadDropDownTree with Simple Data in the Code-behind](#populate-raddropdowntree-with-simple-data-in-the-code-behind)
 
 
 
 ## Creating a Simple RadDropDownTree
 
-1. In a new AJAX Enabled Web Application, drop a **RadDropDownTree** to the default form.
+1. In a new AJAX Enabled Web Application, drop a **RadDropDownTree** onto the default form.
 
-1. Open the Smart Tag and set the **Skin** to **Metro** from the drop down list. Then select the **Open Configuration Wizard** link. *This step will display the RadDropDownTree Configuration Wizard window.*
+1. Open the Smart Tag and set the **Skin** to **Metro** from the drop-down list. Then select the **Open Configuration Wizard** link. *This step will display the RadDropDownTree Configuration Wizard window.*
 >caption 
 ![RadDropDownTree Getting Started Chose Skin](images/ddt-getting-started-choose-skin.png)
 
 
-## Configure the RadDropDownTree using the Configuration Wizard
+## Configure the RadDropDownTree Using the Configuration Wizard
 
-1. On the Configuration Wizard General tab check **ExpandOnSingleClick** checkbox. From the **CheckBoxes** drop-down choose **SingleCheck**:
+1. On the Configuration Wizard General tab, check the **ExpandOnSingleClick** checkbox. From the **CheckBoxes** drop-down list, choose **SingleCheck**:
 >caption 
 ![RadDropDownTree Getting Started Wizard General](images/ddt-getting-started-configuration-wizard-general.png)
 
-1. On the DropDownSettings tab check **OpenDropDownOnLoad** checkbox:
+1. On the DropDownSettings tab, check the **OpenDropDownOnLoad** checkbox:
 >caption 
 ![RadDropDownTree Getting Started Wizard DropDown](images/ddt-getting-started-configuration-wizard-dropdown.png)
 
-1. On the Filtering Settings tab check **EnableFiltering** checkbox. Type in the **EmptyMessage** TextBox **Search for a tree node...**:
+1. On the Filtering Settings tab, check the **EnableFiltering** checkbox. Type in the **EmptyMessage** TextBox **Search for a tree node...**:
 >caption 
 ![RadDropDownTree Getting Started Wizard Filtering](images/ddt-getting-started-configuration-wizard-filtering.png)
 
-1. On the Button Settings tab check **ShowCheckAll** checkbox:
+1. On the Button Settings tab, check the **ShowCheckAll** checkbox:
 >caption 
 ![RadDropDownTree Getting Started Wizard Button](images/ddt-getting-started-configuration-wizard-buttons.png)
 
 1. Click Apply and then OK.
 
-Switch from Designer to Source view. The generated markup for the RadDropDownTree should look like the following:
+Switch from Designer to Source view. The generated markup for the **RadDropDownTree** should look like the following:
 
 ````ASP.NET
 
@@ -71,9 +71,9 @@ Switch from Designer to Source view. The generated markup for the RadDropDownTre
 ````
 
 
-## Populate RadDropDownTree with simple data in the code-behind
+## Populate RadDropDownTree with Simple Data in the Code-behind
 
-In code-behind you could populate the newly created RadDropDownTree with data in the Page_Load() method:
+In the code-behind you could populate the newly created **RadDropDownTree** with data in the Page_Load() method:
 
 ````C#
 
@@ -159,11 +159,11 @@ End Function
 
 ````
 
-On the initial load of the page you will see the RadDropDownTree:
+On the initial load of the page you will see the **RadDropDownTree**:
 
 ![RadDropDownTree Getting Started Initial load](images/ddt-getting-started-initial-load.png)
 
-After expanding all collapsed nodes your RadDropDownTree should look like:
+After expanding all collapsed nodes, your **RadDropDownTree** should look like:
 
 ![RadDropDownTree Getting Started Expanded](images/ddt-getting-started-tree-expanded.png)
 
