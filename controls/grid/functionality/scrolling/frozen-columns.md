@@ -28,6 +28,9 @@ The following two screen shots show a grid with **FrozenColumnsCount** set to 2.
 
 For a live example demonstrating the frozen columns feature, see [Frozen columns](http://demos.telerik.com/aspnet-ajax/Grid/Examples/GeneralFeatures/FrozenColumns/DefaultCS.aspx).
 
+>note When using a **Mobile** render mode you can navigate through the forzen columns only by using **Next** and **Prev** buttons.
+>
+
 ## Next and Prev Buttons
 
 As an alternative to the horizontal scroll, **RadGrid** also provides **Next** and **Prev** buttons for the user to navigate through the columns with single clicks or tapping.
