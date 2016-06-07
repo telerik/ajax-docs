@@ -120,6 +120,9 @@ navigation:
     "sharepoint/2013/radeditor-web-part/installation-and-deployment":
         title: "Installation and Deployment"
         position: 2
+    "sharepoint/2016":
+        title: "SharePoint 2016"
+        position: 3
     "testing-with-test-studio":
         title: "Testing with Test Studio"
         position: 25
