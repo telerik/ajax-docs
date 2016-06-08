@@ -36,9 +36,9 @@ You can find its assembly in the **AdditionalLibraries** folder in the Telerik U
 
 * **Telerik.Windows.Zip.dll** — the assembly of the Telerik Zip Library.
 
-* **Telerik.Windows.Zip.Extensions.dll** — extends **Telerik.Windows.Zip** assembly with aditional helper methods ([Zip Extensions]({%slug radziplibrary-zipextensions%})).
+* **Telerik.Windows.Zip.Extensions.dll** — extends **Telerik.Windows.Zip** assembly with aditional helper methods ([Zip Extensions](http://docs.telerik.com/devtools/document-processing/libraries/radziplibrary/features/zip-extensions)).
 
-You can read more about it in its documentation: [Getting started with RadZipLibrary](http://www.telerik.com/help/silverlight/radziplibrary-gettingstarted.html).
+You can read more about it in its documentation: [Getting started with RadZipLibrary](http://docs.telerik.com/devtools/document-processing/libraries/radziplibrary/overview).
 
 ## Telerik Document Processing Libraries
 
@@ -54,8 +54,9 @@ You can find the needed assemblies in the **AdditionalLibraries** folder in the 
 
 * **Telerik.Windows.Documents.Flow.FormatProviders.Pdf** — allows exporting of flow documents (DOCX, RTF) to PDF.
 
-* **Telerik.Windows.Documents.Spreadsheet.dll** — the main assembly for the spreadsheet processing. It is needed for processing XLSX, CSV, TXT documents.
+* **Telerik.Documents.SpreadsheetStreaming.dll**: The main assembly for generating huge spreadsheet files using minimum resources.
 
+* **Telerik.Windows.Documents.Spreadsheet.dll** — the main assembly for the spreadsheet processing. It is needed for processing XLSX, CSV, TXT documents.
 
 * **Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.dll** — this assembly is needed for processing XLSX documents.
 
@@ -67,29 +68,35 @@ You can find more information on working with the Telerik document processing li
 
 * Words (text) processing
 
-	* [DOCX format provider]({%slug radwordsprocessing-formats-and-conversion-docx-docxformatprovider%})
+	* [DOCX format provider](http://docs.telerik.com/devtools/document-processing/libraries/radwordsprocessing/formats-and-conversion/docx/docxformatprovider)
 
-	* [HTML format provider]({%slug radwordsprocessing-formats-and-conversion-html-htmlformatprovider%})
+	* [HTML format provider](http://docs.telerik.com/devtools/document-processing/libraries/radwordsprocessing/formats-and-conversion/html/htmlformatprovider)
 
-	* [RTF format provider]({%slug radwordsprocessing-formats-and-conversion-rtf-rtfformatprovider%})
+	* [RTF format provider](http://docs.telerik.com/devtools/document-processing/libraries/radwordsprocessing/formats-and-conversion/rtf/rtfformatprovider)
 
-	* [TXT format provider]({%slug radwordsprocessing-formats-and-conversion-txt-txtformatprovider%})
+	* [TXT format provider](http://docs.telerik.com/devtools/document-processing/libraries/radwordsprocessing/formats-and-conversion/plain-text/txt-txtformatprovider)
 
 * Spreadsheet processing
 
-	* [Getting Started]({%slug radspreadprocessing-getting-started%})
+	* [Getting Started](http://docs.telerik.com/devtools/document-processing/libraries/radspreadprocessing/getting-started)
 
-	* [XLSX format provider]({%slug radspreadprocessing-formats-and-conversion-xlsx-xlsxformatprovider%})
+	* [XLSX format provider](http://docs.telerik.com/devtools/document-processing/libraries/radspreadprocessing/formats-and-conversion/xlsx/xlsxformatprovider)
 
-	* [CSV format provider]({%slug radspreadprocessing-formats-and-conversion-csv-csvformatprovider%})
+	* [CSV format provider](http://docs.telerik.com/devtools/document-processing/libraries/radspreadprocessing/formats-and-conversion/csv/csvformatprovider)
 
-	* [PDF format provider]({%slug radspreadprocessing-formats-and-conversion-pdf-pdfformatprovider%})
+	* [PDF format provider](http://docs.telerik.com/devtools/document-processing/libraries/radspreadprocessing/formats-and-conversion/pdf/pdfformatprovider)
 
-	* [TXT format provider]({%slug radspreadprocessing-formats-and-conversion-txt-txtformatprovider%})
+	* [TXT format provider](http://docs.telerik.com/devtools/document-processing/libraries/radspreadprocessing/formats-and-conversion/txt/txtformatprovider)
 
 * PDF processing
 
-	* [PDF format provider]({%slug radpdfprocessing-formats-and-conversion-pdf-pdfformatprovider%})
+	* [PDF format provider](http://docs.telerik.com/devtools/document-processing/libraries/radpdfprocessing/formats-and-conversion/pdf/pdfformatprovider)
+	
+	* [Text format provider](http://docs.telerik.com/devtools/document-processing/libraries/radpdfprocessing/formats-and-conversion/plain-text/textformatprovider)
+
+* Fast spreadsheet generation
+	
+	* [Getting Started](http://docs.telerik.com/devtools/document-processing/libraries/radspreadstreamprocessing/getting-started)
 
 ## See Also
 

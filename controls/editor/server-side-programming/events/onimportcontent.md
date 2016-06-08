@@ -16,7 +16,7 @@ The event handler receives two arguments:
 
 1. **Sender**–the **RadEditor** instance that raised the event.
 
-1. **Event arguments**–an object of type [Telerik.Web.UI.EditorImportingArgs](http://www.telerik.com/help/aspnet-ajax/t_telerik_web_ui_editorimportingargs.html) that exposes the [HtmlFormatProvider]({%slug radwordsprocessing-formats-and-conversion-html-htmlformatprovider%}) and the [RadFlowDocument]({%slug radwordsprocessing-model-radflowdocument%}) instances with which you can programmatically control the settings or the content imported.
+1. **Event arguments**–an object of type [Telerik.Web.UI.EditorImportingArgs](http://www.telerik.com/help/aspnet-ajax/t_telerik_web_ui_editorimportingargs.html) that exposes the [HtmlFormatProvider](http://docs.telerik.com/devtools/document-processing/libraries/radwordsprocessing/formats-and-conversion/html/htmlformatprovider) and the [RadFlowDocument](http://docs.telerik.com/devtools/document-processing/libraries/radwordsprocessing/model/radflowdocument) instances with which you can programmatically control the settings or the content imported.
 
 >caption Example 1: Using the event to modify the ExportSettings of the HtmlFormatProvider instance.
 
@@ -144,6 +144,6 @@ End Class
  
  * [Telerik Document Processing Libraries - Overview]({%slug introduction/installation/included-assemblies%})
  
- * [HtmlFormatProvider]({%slug radwordsprocessing-formats-and-conversion-html-htmlformatprovider%})
+ * [HtmlFormatProvider](http://docs.telerik.com/devtools/document-processing/libraries/radwordsprocessing/formats-and-conversion/html/htmlformatprovider)
  
- * [RadFlowDocument]({%slug radwordsprocessing-model-radflowdocument%})
+ * [RadFlowDocument](http://docs.telerik.com/devtools/document-processing/libraries/radwordsprocessing/model/radflowdocument)
