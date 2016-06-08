@@ -231,7 +231,7 @@ End Class
 
  * [Event: OnExportContent]({%slug editor/server-side-programming/events/onexportcontent%})
  
- * [Telerik UI for WPF - RadFlowDocument]({%slug radwordsprocessing-model-radflowdocument%})
+ * [Telerik Document Processing - RadFlowDocument](http://docs.telerik.com/devtools/document-processing/libraries/radwordsprocessing/model/radflowdocument)
 
  * [Live demo: Import and Export to DOCX](http://demos.telerik.com/aspnet-ajax/editor/examples/import-export/docx-import-export/defaultcs.aspx)
 

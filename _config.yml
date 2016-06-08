@@ -360,6 +360,9 @@ navigation:
     "controls/spreadsheet":
         title: "Spreadsheet"
         position: 1
+    "controls/spreadstreamprocessing":
+        title: "SpreadStreamProcessing"
+        position: 1
     "controls/stylesheetmanager":
         title: "StyleSheet Manager"
         position: 1
