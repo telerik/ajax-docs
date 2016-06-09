@@ -52,7 +52,7 @@ Next step is to create a new image sprite, based on Telerik Default skin theme, 
 
 Now that we have the sprite, it is necessary to set new height to the button with the specific class and also set the new background positions. This is done by using our additional CSS class - customHeight40. Using an additional CSS class will allow us to keep the 65px button and in the same time to create as many different height buttons as we need it e.g. (cutomHeight40, cutomHeight45, cutomHeight50), of course you could name the CSS classes on your choice.
 
-````JavaScript
+````CSS
 /* IE7 line height */
 * + html .rbVerticalButton.customHeight40 input.rbDecorated
 {
