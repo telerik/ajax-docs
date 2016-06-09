@@ -10,10 +10,10 @@ position: 0
 
 # Overview
 
->**RadWordsProcessing** is part of the **Telerik Document Processing** libraries. The full documentation for this component is available at [http://docs.telerik.com/devtools/document-processing/libraries/radwordsprocessing](http://docs.telerik.com/devtools/document-processing/libraries/radwordsprocessing/overview).
+>note **RadWordsProcessing** is part of the **Telerik Document Processing** libraries. The full documentation for this component is available at [http://docs.telerik.com/devtools/document-processing/libraries/radwordsprocessing](http://docs.telerik.com/devtools/document-processing/libraries/radwordsprocessing/overview).
       
 
-## 
+
 
 RadWordsProcessing is a processing library that allows to create, load, modify and export documents to variety of formats.
 

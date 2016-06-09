@@ -169,6 +169,8 @@ Here are quick links to the control-specific sections of our documentation:
 
 * [Spreadsheet]({%slug spreadsheet/overview%})
 
+* [SpreadStreamProcessing]({%slug spreadstreamprocessing-overview%})
+
 * [StyleSheet Manager]({%slug stylesheetmanager/overview%})
 
 * [Tab Strip]({%slug tabstrip/overview%})

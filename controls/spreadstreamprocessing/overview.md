@@ -11,7 +11,7 @@ position: 0
 # Overview
 
 
->**RadSpreadStreamProcessing** is part of the **Telerik Document Processing** libraries. The full documentation for this component is available at [http://docs.telerik.com/devtools/document-processing/libraries/radspreadstreamsprocessing](http://docs.telerik.com/devtools/document-processing/libraries/radspreadstreamprocessing/overview).
+>note **RadSpreadStreamProcessing** is part of the **Telerik Document Processing** libraries. The full documentation for this component is available at [http://docs.telerik.com/devtools/document-processing/libraries/radspreadstreamsprocessing](http://docs.telerik.com/devtools/document-processing/libraries/radspreadstreamprocessing/overview).
 
 
 **RadSpreadStreamProcessing** is a library that allows you create big spreadsheet documents and export them to the most common file formats with a great performance and minimal resources.
