@@ -39,7 +39,7 @@ There are a few common causes for such problems:
 
 * your **IE** browser is entering **Compatibility Mode**. This mode is **not supported** (see the [Browser Support](http://www.telerik.com/aspnet-ajax/tech-sheets/browser-support) page) and you should have your IE browser run in Standards mode. There are several ways to achieve that:
 
-	* from the C**ompatibility View Settings** menu, **unselect** the "**Display intranet sites in Compatibility Mode**" checkbox
+	* from the **Compatibility View Settings** menu, **unselect** the "**Display intranet sites in Compatibility Mode**" checkbox
 
 	* speak with your local administrators so they enforce this checkbox rule as a group policy
 
