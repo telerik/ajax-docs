@@ -14,11 +14,75 @@ position: 5
 
 This article treats the most common issues related to the Skins used by the Telerik UI for ASP.NET AJAX controls.
 
+* [Incorrect or Distorted Appearance](#incorrect-or-distorted-appearance)
+
 * [Appearance Issues when Control is Added During AJAX Request](#appearance-issues-when-control-is-added-during-ajax-request)
 
 * [Telerik.Web.UI.(Telerik Control) with ID='(Telerik Control ID)' was unable to find embedded skin with name '(Skin Name)'. Please, make sure that you spelled the skin name correctly, or if you want to use a custom skin, set EnableEmbeddedSkins=false](#cannot-find-the-skins)
 
 * [GetWebResourceUrl fails](#getwebresourceurl-fails)
+
+
+## Incorrect or Distorted Appearance
+
+If you observe incorrect appearance of the Telerik UI for ASP.NET AJAX controls such as:
+
+* bad element alignment
+
+* missing borders, shadows or gradients
+
+* unexpected design change between dev and production environments
+
+There are a few common causes for such problems:
+
+* there are **global CSS rules** that affect HTML elements and you would need to resolve them as explained in the [Distorted Appearance]({%slug window/troubleshooting/distorted-appearance%}) article. The provided example uses the RadWindow control, but the approach applies to all controls in the suite.
+
+* your **IE** browser is entering **Compatibility Mode**. This mode is **not supported** (see the [Browser Support](http://www.telerik.com/aspnet-ajax/tech-sheets/browser-support) page) and you should have your IE browser run in Standards mode. There are several ways to achieve that:
+
+	* from the C**ompatibility View Settings** menu, **unselect** the "**Display intranet sites in Compatibility Mode**" checkbox
+
+	* speak with your local administrators so they enforce this checkbox rule as a group policy
+
+	* add an **X-UA Compatible meta tag** such as this one to your page:
+
+		**HTML**
+
+				<head id="Head1" runat="server">
+					<title></title>
+					<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+		You can also set it as an HTTP header through your web.config:
+
+		**web.config**
+
+			<system.webServer>
+			    <httpProtocol>
+			      <customHeaders>
+			        <add name="X-UA-Compatible" value="IE=edge" />
+			      </customHeaders>
+			    </httpProtocol>
+			</system.webServer>
+
+* The **network requests** used to fetch the control skins and/or scripts **do not return successfully**.
+
+	* If you are using the [scripts CDN]({%slug scriptmanager/cdn-support/overview%}) or the [skins CDN]({%slug stylesheetmanager/cdn-support/overview%}), ensure the cloud can be accessed from the user network. Otherwise, disable the CDN and fall back to the default mode of using WebResource requests.
+
+	* If you are using some form of authentication mechanism in your site, the [HTTP handlers]({%slug general-information/web-config-settings-overview%}#mandatory-additions-to-the-webconfig) the Telerik controls use to fetch the needed resources may get blocked. You should ensure all requests return successfully and one way to do it is to add a `<location>` element for the Telerik handlers that will allow anonymous access. For example:
+
+		**web.config**
+
+			<configuration>
+			...
+			<location path="Telerik.Web.UI.WebResource.axd">
+			   <system.web>
+			     <authorization>
+			       <allow users="*"/>
+			     </authorization>
+			   </system.web>
+			 </location>
+			...
+			</configuration> 
+
 
 ## Appearance Issues when Control is Added During AJAX Request
 
