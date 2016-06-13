@@ -177,7 +177,7 @@ For older browsers you can use a static JavaScript array to keep the selected it
 
 ## See Also
 
-* [Persisting the Selected Rows Server-side]({%slug grid/functionality/selecting/how-to/persisting-selected-rows-server-side%})
+* [Persisting the Selected Rows Server-side]({%slug grid/how-to/selecting/persisting-selected-rows-server-side%})
 
 
 

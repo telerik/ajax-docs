@@ -63,5 +63,5 @@ To use **getDataKeyValue()**, pass the **UniqueName** of the column as an argume
 </asp:SqlDataSource>
 ````
 
-Another approach for fetching values from grid cells is to use the **GetCellByColumnUniqueName(rowObject, columnName)** method. Further information about that approach, see [Getting cell values for selected rows client-side]({%slug grid/functionality/selecting/how-to/getting-cell-values-for-selected-rows%}).
+Another approach for fetching values from grid cells is to use the **GetCellByColumnUniqueName(rowObject, columnName)** method. Further information about that approach, see [Getting cell values for selected rows client-side]({%slug grid/how-to/selecting/getting-cell-values-for-selected-rows%}).
 

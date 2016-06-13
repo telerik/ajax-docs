@@ -321,7 +321,7 @@ You can find more issues and solutions steps in the [Design-time Troubleshooting
 
 **Cause and Solution**:
 
-Please check [this help article]({%slug introduction/installation/upgrading-instructions/upgrading-a-trial-to-a-developer-license-or-to-a-newer-version#could-not-load-file-or-assembly-telerikwebui-after-upgrade%}) for detailed information on what is causing this error and how to handle it.
+Please check [this help article](http://docs.telerik.com/devtools/aspnet-ajax/installation/upgrading-instructions/upgrading-a-trial-to-a-developer-license-or-to-a-newer-version#could-not-load-file-or-assembly-telerikwebui-after-upgrade) for detailed information on what is causing this error and how to handle it.
 
 ## Telerik controls do not work if a Compression Module is used in the project/web site
 

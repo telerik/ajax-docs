@@ -12,7 +12,7 @@ position: 4
 
 
 
-**DataKeyNames** property lists the additional fields of the DataSource that will be mapped to each result item. They can be easily retrieved and used after that in the [OnClientSearch]({%slug searchbox/client-side-programming/events/onclientsearch%}) event and in the [OnSearch]({%slug searchbox/server-side-programming/server-events/onsearch%}) server event, as show in the following code:
+**DataKeyNames** property lists the additional fields of the DataSource that will be mapped to each result item. They can be easily retrieved and used after that in the [OnClientSearch]({%slug searchbox/client-side-programming/events/onclientsearch%}) event and in the [OnSearch]({%slug searchbox/server-side-programming/events/onsearch%}) server event, as show in the following code:
 
 ````ASPNET
 			

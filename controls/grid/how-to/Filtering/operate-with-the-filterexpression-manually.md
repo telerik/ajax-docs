@@ -19,7 +19,7 @@ There are two ways you can determine what filter function the grid is currently 
 
 	* The **e.CommandArgument** value is a **Pair** object that holds the filter function name and the column's unique name.
 
-	* The **e.Item** value is the **GridFilteringItem**. Using the column name, you can access the text box that holds the filter pattern.You can also customize the filter operation at this point by setting the table view's **FilterExpression**. For details on how to do this, see [Custom option for filtering (FilterListOptions -> VaryByDataTypeAllowCustom)]({%slug grid/functionality/filtering/how-to/custom-option-for-filtering%}).
+	* The **e.Item** value is the **GridFilteringItem**. Using the column name, you can access the text box that holds the filter pattern.You can also customize the filter operation at this point by setting the table view's **FilterExpression**. For details on how to do this, see [Custom option for filtering (FilterListOptions -> VaryByDataTypeAllowCustom)]({%slug grid/how-to/filtering/custom-option-for-filtering%}).
 
 * When binding a grid using the **NeedDataSource** event, check the **RadGrid.MasterTableView.FilterExpression** property in the **NeedDataSource** event handler. This string represents the current filter function in the same way as the **DataView.Filter** property (that is, it is the text of a WHERE clause for filtering items).
 

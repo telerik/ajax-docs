@@ -75,7 +75,7 @@ End Sub
 ````
 
 
-For information about how to reference controls inside grid rows and edit forms, see [Referencing controls in grid row/edit form]({%slug grid/how-to/referencing-controls-in-grid-row-edit-form%}).
+For information about how to reference controls inside grid rows and edit forms, see [Referencing controls in grid row/edit form]({%slug grid/how-to/common/referencing-controls-in-grid-row-edit-form%}).
 
 ## Detecting edit/insert mode with in-place editing
 

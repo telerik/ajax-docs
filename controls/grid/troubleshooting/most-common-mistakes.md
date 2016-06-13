@@ -195,7 +195,7 @@ This is unlike the **RadTreeView** control which supports different number of su
 
 * **GridItemType** - At the following [article](http://www.telerik.com/help/aspnet-ajax/t_telerik_web_ui_griditemtype.html)you can find a list with all available item types.
 
-* Detail table in the hierarchical structure - This check can be done using: **- e.Item.OwnerTableView.DataMember** property (.NET 2.x when not using data source controls)**- e.Item.OwnerTableView.DataSourceID**(.NET 2.x/3.x/4.x with data source controls) or**-e.Item.OwnerTableView.Name** (.NET 2.x/3.x/4.x)where **e** is the event parameter of the event handler method. This way you can avoid possible problems when performing customization of items specific to a certain level of the hierarchy.A code sample is available in [this section]({%slug grid/hierarchical-grid-types-and-load-modes/how-to/distinguish-grid-rows-on-itemcreated-and-itemdatabound%}) of the help as well.
+* Detail table in the hierarchical structure - This check can be done using: **- e.Item.OwnerTableView.DataMember** property (.NET 2.x when not using data source controls)**- e.Item.OwnerTableView.DataSourceID**(.NET 2.x/3.x/4.x with data source controls) or**-e.Item.OwnerTableView.Name** (.NET 2.x/3.x/4.x)where **e** is the event parameter of the event handler method. This way you can avoid possible problems when performing customization of items specific to a certain level of the hierarchy.A code sample is available in [this section]({%slug grid/how-to/hierarchy/distinguish-grid-rows-on-itemcreated-and-itemdatabound%}) of the help as well.
 
 ## See Also
 

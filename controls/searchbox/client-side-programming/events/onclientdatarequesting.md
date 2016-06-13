@@ -26,4 +26,4 @@ The event handler receives two parameters:
 
 	* **set_cancel(boolean)** - cancels the event depending on the value passed as an argument.
 
-	* **get_userContext()** - returns the userContext object of type IDictionary that is passed after that to the [OnDataSourceSelect]({%slug searchbox/server-side-programming/server-events/ondatasourceselect%}) event handler or to the Web Service method.
+	* **get_userContext()** - returns the userContext object of type IDictionary that is passed after that to the [OnDataSourceSelect]({%slug searchbox/server-side-programming/events/ondatasourceselect%}) event handler or to the Web Service method.

@@ -28,4 +28,4 @@ The **FilteringItem** is always placed in <THEAD> section of a grid. As a result
 
  * [Overview]({%slug grid/functionality/filtering/overview%})
 
- * [Localize Filtering Menu Options]({%slug grid/functionality/filtering/how-to/localize-filtering-menu-options%})
+ * [Localize Filtering Menu Options]({%slug grid/how-to/filtering/localize-filtering-menu-options%})

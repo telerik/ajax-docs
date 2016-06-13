@@ -81,4 +81,4 @@ When binding Search Context to a particular Data Source you will need to use the
 
 The integration between the Search Context and the RadSearchBox could be achieved in two ways. When the SearchBox is bound to a data source component or RadODataDataSource control, the **DataContextKeyField** property of the **SearchBox** should be set to the data field which will be used as a context when the search operation is performed.
 
-When the search results are provided from a web service or the server [DataSourceSelect]({%slug searchbox/server-side-programming/server-events/ondatasourceselect%}) event is being handled, the selected context item is availabe through the SelectedContextItem property of the input context parameter of the server or through the event arguments of the event.
+When the search results are provided from a web service or the server [DataSourceSelect]({%slug searchbox/server-side-programming/events/ondatasourceselect%}) event is being handled, the selected context item is available through the SelectedContextItem property of the input context parameter of the server or through the event arguments of the event.

@@ -17,7 +17,7 @@ position: 6
 
 The built-in **GridDropDownColumn** is filtered by its **ListValueField** when the default filtering feature of the control is used. **RadGrid** does not include any support for filtering by **ListTextField** instead.
 
-This limitation is because the filtering mechanism relies on the **DataField** of the filtered column and for **GridDropDownColumn** this property specifies the mapping field in the drop-down source. (For more information about the properties of **GridDropDownColumn**, see [Customize/Configure GridDropDownColumn]({%slug grid/how-to/customize-griddropdowncolumn%})).If you want to filter by **ListTextField**, your current options are:
+This limitation is because the filtering mechanism relies on the **DataField** of the filtered column and for **GridDropDownColumn** this property specifies the mapping field in the drop-down source. (For more information about the properties of **GridDropDownColumn**, see [Customize/Configure GridDropDownColumn]({%slug grid/how-to/common/customize-griddropdowncolumn%})).If you want to filter by **ListTextField**, your current options are:
 
 * use a hidden **GridBoundColumn** (with **Display = false**). Add an **ItemCommand** event handler that catches filter commands from the dropdown column and substitutes a filter command from the **GridBoundColumn** instead:
 

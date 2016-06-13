@@ -49,7 +49,7 @@ Here is a list of the available command names in Telerik RadGrid:
 |Fired when the PageSize property is set and changed.||
 | **ChangePageSizeCommandName** |Fires **RadGrid.PageSizeChanged** event.|
 |Fired when choosing an option from the filter menu within **column header** ||
-| **FilterCommandName** |Represents the Filter command name.See also: [Operating with filter expression]({%slug grid/functionality/filtering/how-to/operate-with-the-filterexpression-manually%})|
+| **FilterCommandName** |Represents the Filter command name.See also: [Operating with filter expression]({%slug grid/how-to/filtering/operate-with-the-filterexpression-manually%})|
 |Batch commands||
 | **EditSelectedCommandName** |Switches the selected grid items in edit mode automatically|
 | **DeleteSelectedCommandName** |Fires **RadGrid.DeleteCommand** event for the selected rows. Under .Net 2.0 can perform automatic delete operation for the selected rows.|

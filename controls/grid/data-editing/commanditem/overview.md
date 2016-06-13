@@ -46,7 +46,7 @@ The four export buttons have the following server-side IDs:
 
 
 
-You need to know the IDs of the export buttons if you are exporting through an AJAX-ified RadGrid, as described in the [following help topic]({%slug grid/ajaxified-radgrid/what-you-should-have-in-mind/export-from-ajaxified-grid%}).
+You need to know the IDs of the export buttons if you are exporting through an AJAX-ified RadGrid, as described in the [following help topic]({%slug grid/how-to/exporting/what-you-should-have-in-mind/export-from-ajaxified-grid%}).
 
 The [***Save Changes***] and [***Cancel Changes***] buttons must be used only with **Batch Editing**:
 

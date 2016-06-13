@@ -335,7 +335,7 @@ When in browser mode, **GridDropDownColumn** looks and behaves like a standard *
 
 * Set the **ListValueField** property to the name of the field in the lookup table that supplies the value for the field specified by the **DataField** property.
 
-For more information on configuring **GridDropDownColumn**, see [Customize/Configure GridDropDownColumn]({%slug grid/how-to/customize-griddropdowncolumn%}).
+For more information on configuring **GridDropDownColumn**, see [Customize/Configure GridDropDownColumn]({%slug grid/how-to/common/customize-griddropdowncolumn%}).
 
 **GridDropDownColumn** is editable (implements the **IGridEditableColumn** interface) and provides, by default,	**GridDropDownListColumnEditor** as its column editor. You can use the **DropDownControlType** property to specify whether	the column editor uses a **RadComboBox** or a standard **DropDownList** as the column editor. The default editor is	**RadComboBox**.
 

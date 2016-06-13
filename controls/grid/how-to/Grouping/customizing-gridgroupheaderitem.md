@@ -15,7 +15,7 @@ position: 0
 
 ##
 
-You can have complete control over the display of the fields in a **GridGroupHeaderItem** and even [perform calculations]({%slug grid/functionality/grouping/how-to/performing-calculations-in-group-header%}) and display the results in the group header.
+You can have complete control over the display of the fields in a **GridGroupHeaderItem** and even [perform calculations]({%slug grid/how-to/grouping/performing-calculations-in-group-header%}) and display the results in the group header.
 
 To change the string that appears in the group header, set the **DataCell.Text** property of the **GridGroupHeaderItem** instance.
 

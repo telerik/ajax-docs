@@ -14,7 +14,7 @@ position: 4
 
 ##  
 
-In addition to displaying summaries/results from aggregates in the group header (see [this topic]({%slug grid/functionality/grouping/how-to/performing-calculations-in-group-header%})), RadGrid exposes group footers feature which provides the option to render footer under each group in the grid. The type of this footer item is **GridGroupFooterItem** . To enable this functionality merely set the **ShowGroupFooter** property of the respective GridTableView instance to true (its default value is false).
+In addition to displaying summaries/results from aggregates in the group header (see [this topic]({%slug grid/how-to/grouping/performing-calculations-in-group-header%})), RadGrid exposes group footers feature which provides the option to render footer under each group in the grid. The type of this footer item is **GridGroupFooterItem** . To enable this functionality merely set the **ShowGroupFooter** property of the respective GridTableView instance to true (its default value is false).
 ![grid grouping groupfooters](images/grid_grouping_groupfooters.jpg)
 
 RadGrid also gives you the opportunity to retain the visibility of the group footers when their corresponding group header row is collapsed. In order to switch on this feature, just set the **GroupingSettings.RetainGroupFooterVisibility** property to true.

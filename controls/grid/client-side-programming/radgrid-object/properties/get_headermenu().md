@@ -14,7 +14,7 @@ position: 6
 
 ## 
 
-Property which returns the client object of the [grid header context menu](http://demos.telerik.com/aspnet-ajax/grid/examples/generalfeatures/headercontextmenu/defaultcs.aspx) when switched on. Useful when you would like to customize the items in it on the client (see the javascript logic at the top of [this help topic]({%slug grid/functionality/filtering/how-to/reduce-the-filter-menu-options%}) for a reference).
+Property which returns the client object of the [grid header context menu](http://demos.telerik.com/aspnet-ajax/grid/examples/generalfeatures/headercontextmenu/defaultcs.aspx) when switched on. Useful when you would like to customize the items in it on the client (see the javascript logic at the top of [this help topic]({%slug grid/how-to/filtering/reduce-the-filter-menu-options%}) for a reference).
 
 
 |  **get_headerMenu()**  |

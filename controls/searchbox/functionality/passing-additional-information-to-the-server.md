@@ -12,7 +12,7 @@ position: 5
 
 
 
-When using **RadSearchBox** it can often be useful to pass additional information to the server to improve its performance or to set some specific condition. This can easily be achieved in the [OnClientDataRequesting]({%slug searchbox/client-side-programming/events/onclientdatarequesting%}) event by using the **userContext object**, which is of type **IDictionary**, and setting its **KeyValue parameters**. After that this object is passed to the server along with the search request and is available in the [OnDataSourceSelect]({%slug searchbox/server-side-programming/server-events/ondatasourceselect%}) event handler or to the Web Service that searches items to the **RadSearchBox**.
+When using **RadSearchBox** it can often be useful to pass additional information to the server to improve its performance or to set some specific condition. This can easily be achieved in the [OnClientDataRequesting]({%slug searchbox/client-side-programming/events/onclientdatarequesting%}) event by using the **userContext object**, which is of type **IDictionary**, and setting its **KeyValue parameters**. After that this object is passed to the server along with the search request and is available in the [OnDataSourceSelect]({%slug searchbox/server-side-programming/events/ondatasourceselect%}) event handler or to the Web Service that searches items to the **RadSearchBox**.
 
 ## Using Additional userContext information with a WebService
 
@@ -94,7 +94,7 @@ End Function
 
 ## Using Additional userContext information with the OnDataSourceSelect event
 
-In the example below it is explained how to achieve the same scenario by passing information to the [OnDataSourceSelect]({%slug searchbox/server-side-programming/server-events/ondatasourceselect%}) server event:
+In the example below it is explained how to achieve the same scenario by passing information to the [OnDataSourceSelect]({%slug searchbox/server-side-programming/events/ondatasourceselect%}) server event:
 
 ````ASPNET
 	
