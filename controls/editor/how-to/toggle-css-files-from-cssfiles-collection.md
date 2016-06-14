@@ -12,8 +12,6 @@ position: 8
 
 In this article you can see how you can create a [custom tool]({%slug editor/functionality/toolbars/buttons/add-your-own-buttons%}) that toggles the decoration of the CSS files included through the [CssFiles collection]({%slug editor/functionality/toolbars/dropdowns/external-css-files%}). 
 
->note This works only if `ContentAreaMode` is set to `Iframe`. If `Div` mode is used, you should make sure to handle the CSS files that decorate the content area of **RadEditor**.
-
 Basically, you need to programmatically find the link tag and set its `disabled` attribute to `true` to disable it or `false` to enable it. 
 
 ````ASP.NET
@@ -41,6 +39,8 @@ Basically, you need to programmatically find the link tag and set its `disabled`
     };
 </script>
 ````
+
+>note This works only if `ContentAreaMode` is set to `Iframe`. If [Div mode]({%slug editor/functionality/editor-views-and-modes/contentareamode-property%}) is used, you should make sure to apply similar logic to the CSS files that you have added to the page in order to decorate the content area of **RadEditor**. 
 
 ## See Also
 
