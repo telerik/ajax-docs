@@ -98,6 +98,14 @@ You can find more information on working with the Telerik document processing li
 	
 	* [Getting Started](http://docs.telerik.com/devtools/document-processing/libraries/radspreadstreamprocessing/getting-started)
 
+
+## Newtonsoft.Json.dll
+
+The `Newtsoft.Json.dll` assembly is located in the *AdditionalAssemblies* folder and you need to deploy it when you use the [RadCloudUpload control]({%slug cloudupload/troubleshooting%}#missing-assembly-reference) or the [RadScheduler WebAPI binding]({%slug scheduler/web-service-binding/web-api-binding%}).
+
+If your project references a different version of this assembly, review the [Newtonsoft.Json is Built by a Higher Version Than the Currently Targeted Framework]({%slug introduction/installation/upgrading-instructions/upgrading-a-trial-to-a-developer-license-or-to-a-newer-version%}#newtonsoftjson-is-built-by-a-higher-version-than-the-currently-targeted-framework) section for more information.
+
+
 ## See Also
 
  * [Telerik ZIP library](http://www.telerik.com/products/silverlight/zip-library.aspx)
