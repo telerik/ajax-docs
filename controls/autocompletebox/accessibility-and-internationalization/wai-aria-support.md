@@ -43,14 +43,9 @@ Enabling WAI-ARIA support of a **RadAutoCompleteBox** will also allow you to adj
 >caption Example 2: Adjusting `aria-label` and `aria-describedby` attributes in **RadAutoCompleteBox**.
 
 ````ASP.NET
-<telerik:RadDropDownList RenderMode="Lightweight" runat="server" ID="RadDropDownList1" EnableAriaSupport="true">
-    <AriaSettings Label="Label for this drop-down." DescribedBy="describe_drop-down" />
-	<Items>
-		<telerik:DropDownListItem Text="DropDownListItem 1" Value="1" />
-		<telerik:DropDownListItem Text="DropDownListItem 2" Value="2" />
-		<telerik:DropDownListItem Text="DropDownListItem 3" Value="3" />
-	</Items>
-</telerik:RadDropDownList>
+<telerik:RadAutoCompleteBox RenderMode="Lightweight" ID="RadAutoCompleteBox1" runat="server" EnableAriaSupport="true">
+	<AriaSettings Label="Label for this autocomplete." DescribedBy="describe_autocomplete" />
+</telerik:RadAutoCompleteBox>
 ````
 
 
