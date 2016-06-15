@@ -51,7 +51,22 @@ You could use an HTTP traffic sniffer tool - [Fiddler](http://www.telerik.com/fi
 
 ## Dealing with the Error
 
-Once the error is determined, you would have to fix it. The most common errors are 404 and 500:
+Once the error is determined, you would have to fix it. The most common errors are "This is an invalid webresource request" 404 and 500:
+
+### This is an Invalid WebResource Request
+
+Such issues often come up when a user has a copy of the page that contains WebResource URLs that have been invalidated by the server (the machine key changed or the Application Pool was recycled). When such a cached copy of the page with the old links is executed, the browser will invoke GET requests for those WebResource URLs and .NET will not be able to decode them anymore, so such exceptions will occur. WebResource URLs are handled by the .NET code and individual controls (like the Telerik controls) cannot affect or fix this.
+
+There are, however, a few ways to alleviate such a problem:
+
+* after a while browser caches are cleaned up and the users will get correct links, so simply waiting a bit may alleviate the situation
+
+* clearing the cache of the browser always helps
+
+* look into ways to increase the Application Pool recycle time or implement a heartbeat-like functionality to keep it alive at all times
+
+* use the CDNs Telerik provides (for [scripts]({%slug scriptmanager/cdn-support/overview%}) and [skins]({%slug stylesheetmanager/cdn-support/overview%})) and the [MS AJAX CDN](http://www.asp.net/ajax/cdn#Using_ASPNET_Ajax_from_the_CDN_20) so WebResources are used as rarely as possible (only some dialogs, the binary image and file uploads will keep using webresources).
+
 
 ### Dealing with the 404 Error Code (the Requested URL was Not Found)
 
