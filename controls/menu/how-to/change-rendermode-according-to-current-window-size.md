@@ -26,6 +26,9 @@ The below example demonstrates how to change RadMenu **RenderMode**, based on th
 	</AjaxSettings>
 </telerik:RadAjaxManager>
 
+<%--Include a RadStyleSheetManager to your page--%>
+<telerik:RadStyleSheetManager ID="RadStyleSheetManager1" runat="server" />
+
 <%--This Menu switches depending on the breakpoint that is set in the JavaScript code--%>
 <div>
 	<telerik:RadMenu ID="RadMenu1" runat="server" Width="100%">
