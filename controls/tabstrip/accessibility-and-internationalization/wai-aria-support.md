@@ -59,7 +59,7 @@ End Sub
 
 Enabling WAI-ARIA support of a **RadTabStrip** will also allow you to adjust the [aria-label](http://www.w3.org/WAI/PF/aria/states_and_properties#aria-label) and [aria-describedby](http://www.w3.org/WAI/PF/aria/states_and_properties#aria-describedby) attributes of the control by using the **Label** and **DescribedBy** properties in the **AriaSettings** tag.
 
->caption Example 2: Adjusting `aria-label` and `aria-describedby` attributes in **RadDropDownList**.
+>caption Example 2: Adjusting `aria-label` and `aria-describedby` attributes in **RadTabStrip**.
 
 ````ASP.NET
 <telerik:RadTabStrip RenderMode="Lightweight" ID="RadTabStrip1" runat="server" EnableAriaSupport="true">
