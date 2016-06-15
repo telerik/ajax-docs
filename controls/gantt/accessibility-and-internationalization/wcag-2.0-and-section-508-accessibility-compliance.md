@@ -5,7 +5,7 @@ description: WCAG 2.0 and Section 508 Accessibility Compliance
 slug: gantt/accessibility-and-internationalization/wcag-2.0-and-section-508-accessibility-compliance
 tags: wcag,2.0,and,section,508,accessibility,compliance
 published: True
-position: 0
+position: 4
 ---
 
 # WCAG 2.0 and Section 508 Accessibility Compliance

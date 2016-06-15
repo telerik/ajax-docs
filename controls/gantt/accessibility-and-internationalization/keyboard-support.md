@@ -5,7 +5,7 @@ description: Keyboard Support
 slug: gantt/accessibility-and-internationalization/keyboard-support
 tags: keyboard,support
 published: True
-position: 2
+position: 0
 ---
 
 # Keyboard Support
