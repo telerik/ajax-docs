@@ -83,6 +83,8 @@ There are a few common causes for such problems:
 			...
 			</configuration> 
 
+* There are **mixed [Render Modes]({%slug controls/render-modes%})** of the controls on the page. For example, a RadButton on the master page has `RenderMode="Classic"` and a RadButton on a user control has `RenderMode="Lightweight"`. All controls of the same type and their child controls must have the same render mode.
+
 
 ## Appearance Issues when Control is Added During AJAX Request
 
