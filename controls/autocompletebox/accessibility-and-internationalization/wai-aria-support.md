@@ -19,7 +19,11 @@ In order to enable the WAI-ARIA support, set the control's **EnableAriaSupport**
 >caption **Example 1**: Setting the **EnalbeAriaSupport** property for **RadAutoCompleteBox**
 
 ````ASP.NET
-<telerik:RadAutoCompleteBox RenderMode="Lightweight" ID="RadAutoCompleteBox1" runat="server" EnableAriaSupport="true"></telerik:RadAutoCompleteBox>
+<telerik:RadAutoCompleteBox runat="server"
+	ID="RadAutoCompleteBox1"
+	RenderMode="Lightweight"
+	EnableAriaSupport="true">
+</telerik:RadAutoCompleteBox>
 ````
 ````C#
 RadAutoCompleteBox1.EnableAriaSupport = true;

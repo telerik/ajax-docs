@@ -16,9 +16,8 @@ The [ WAI-ARIA Suite ](http://www.w3.org/WAI/intro/aria), defines an approach to
 
 In order to enable the WAI-ARIA support, set the **RadComboBox** contol's **EnableAriaSupport** property to **true** as shown in the example below.
 
-**Example 1**: Setting the **EnalbeAriaSupport** property for **RadComboBox**.
 
-
+>caption **Example 1**: Setting the **EnalbeAriaSupport** property for **RadComboBox**.
 
 ````ASPNET
 <telerik:RadComboBox RenderMode="Lightweight" runat="server" id="RadComboBox2" EnableAriaSupport="true">

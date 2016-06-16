@@ -16,7 +16,7 @@ position: 3
 
 ## 
 
-The **Gantt** control offers [WAI-ARIA](http://www.w3.org/WAI/intro/aria) support. It is enabled by default.
+The **RadGantt** offers [WAI-ARIA](http://www.w3.org/WAI/intro/aria) support and it is enabled by default for the control.
 
 >note In order to use WAI-ARIA the form element on the page must have a role attribute set to "application" (`<form id="form1" runat="server" role="application">`). For more information on this requirement see: [W3C: WAI-ARIA](http://www.w3.org/TR/wai-aria/roles#application)
 >

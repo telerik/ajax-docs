@@ -14,8 +14,8 @@ position: 1
 
 The [WAI-ARIA Suite](http://www.w3.org/WAI/intro/aria) defines an approach to make Web content and Web applications more accessible to people with disabilities. In order to enable the WAI-ARIA support, set the **RadTabStrip**'s **EnableAriaSupport** property to **true** as shown in the example below.
 
-**Example 1:** Setting **EnalbeAriaSupport** property for **RadTabStrip**. 
 
+>caption **Example 1:** Setting **EnalbeAriaSupport** property for **RadTabStrip**. 
 
 ````ASPNET
 <telerik:RadTabStrip RenderMode="Lightweight" ID="RadTabStrip1" runat="server" EnableAriaSupport="true">

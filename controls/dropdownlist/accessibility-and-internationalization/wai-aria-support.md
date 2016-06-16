@@ -16,7 +16,8 @@ The [ WAI-ARIA Suite ](http://www.w3.org/WAI/intro/aria), defines an approach to
 
 In order to enable the WAI-ARIA support, set the **RadDropDownList** contol's **EnableAriaSupport** property to **true** as shown in the example below.
 
-**Example 1**: Setting the **EnalbeAriaSupport** property for **RadDropDownList**.
+
+>caption **Example 1**: Setting the **EnalbeAriaSupport** property for **RadDropDownList**.
 
 ````ASPNET
 <telerik:RadDropDownList RenderMode="Lightweight" ID="RadDropDownList1" runat="server" EnableAriaSupport="true">

@@ -23,7 +23,8 @@ In order to enable the WAI-ARIA support, set the control's **EnableAriaSupport**
 <telerik:RadAsyncUpload runat="server"
 	ID="RadAsyncUpload1"
 	RenderMode="Lightweight"
-	EnableAriaSupport="true"></telerik:RadAsyncUpload>
+	EnableAriaSupport="true">
+</telerik:RadAsyncUpload>
 
 ````
 ````C#
