@@ -14,7 +14,16 @@ position: 2
 
 ## 
 
-The **TextChanged** event occurs when the text is changed and InputType="Text" is set for RadAutoCompleteBox.
+The **TextChanged** event occurs when the following steps are followed:
+
+1. The **InputType="Text"** is set for the **RadAutoCompleteBox**;
+
+1. The text in the input field has been changed (either one of the previously available entries has been removed or new text has been typed in);
+
+1. An item from the results drop-down list has been selected (necessary only when the **AllowCustomEntry** of the **RadAutoCompleteBox** is not set or it is set to **"false"**);
+
+1. The focus has been removed from the control's input element.
+
 
 The **TextChanged** event handler receives two arguments:
 
