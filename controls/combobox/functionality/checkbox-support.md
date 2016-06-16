@@ -22,6 +22,7 @@ As of **Q2 2011**, RadComboBox introduces simple CheckBox support. You can enabl
 >
 *  **MarkFirstMatch** and **Filter** functionalities are not supported. The reason is that the CheckBox selection is different from the standard RadComboBox's selection - there is no single selected item.
 *  **Load On Demand** functionality is not supported. The reason is that RadComboBox's items loaded on demand are not accessible on the server which is needed for the CheckBox feature.
+*  **ItemTemplate** functionality is not supported. If you need an item template, use a [ClientItemTemplate]({%slug combobox/combobox/templates/client-templates.html%})
 >
 
 ![RadCombobox CheckBoxes](images/combobox_checkboxes.png)
