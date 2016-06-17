@@ -1,21 +1,16 @@
 ---
-title: Change the height of the input element
-page_title: Change the height of the input element | UI for ASP.NET AJAX Documentation
-description: Change the height of the input element
+title: Change the Height of the Input Element
+page_title: Change the Height of the Input Element | UI for ASP.NET AJAX Documentation
+description: Change the Height of the Input Element
 slug: combobox/appearance-and-styling/change-the-height-of-the-input-element
 tags: tutorial,change,height,input,element
 published: True
 position: 4
 ---
 
-# Change the height of the input element
+# Change the Height of the Input Element
 
->caution This page contains information about RadComboBox for ASP.NET Ajax version **2009.1.311 and later.** If you are using any previous version - please check [this article]({%slug combobox/appearance-and-styling/change-the-appearance-of-the-input-element%}).
->
-
-## Introduction
-
-**Vertical dimensions** [Telerik Visual Style Builder](http://stylebuilder.telerik.com/)
+This page contains information about RadComboBox for ASP.NET Ajax version **2009.1.311 and later.** using Classic render mode. If you are using any previous version of the controls please check [this article]({%slug combobox/appearance-and-styling/change-the-appearance-of-the-input-element%}).
 
 ## Changing the height of the input element in Lightweight render mode
 
@@ -27,14 +22,14 @@ html .RadComboBox .rcbInput {
 }
 ````
 
-Unlike Lightweight, in which no sprite images are used, the Classic render mode does make use of them so changing the input's height would require more effort. The next article sections explain how this can be achieved in Classic render mode. 
+Unlike Lightweight, in which no sprite images are used, the Classic render mode does make use of them so changing the input's height would require the sprite images to be edited. The next sections explain how this can be achieved with a RadComboBox using Classic render mode. 
 
-**Vertical dimensions** [Telerik Visual Style Builder](http://stylebuilder.telerik.com/)
+## Getting Started
 
-## Gather your tools
+* Declare the following exemplary RadComboBox on your page:
 
 ````ASPNET
-<telerik:RadComboBox RenderMode="Lightweight" runat="server" id="RadComboBox1">    
+<telerik:RadComboBox runat="server" ID="RadComboBox1">    
 	<Items>        
 		<telerik:RadComboBoxItem Text="Alpha" />        
 		<telerik:RadComboBoxItem Text="Vita" />        
@@ -50,122 +45,130 @@ Unlike Lightweight, in which no sprite images are used, the Classic render mode 
 </telerik:RadComboBox>
 ````
 
-Now that we have a test project, we will need to take one Office2007 skin from this folder: `<RadControls install folder>`\Skins\Office2007\Copy the file **ComboBox.Office2007.css** and the folder ComboBox, create a Skins folder in your project, create a sub-folder named **50pxOffice2007** and Paste them in it. Modify your RadComboBox declaration like this to disable the embedded skin:
+* As a base we will use the built-in Office2007 skin. From this location: `<RadControls install folder>`\Skins\Office2007\ copy the file **ComboBox.Office2007.css** and the folder ComboBox, create a Skins folder in your project, create a sub-folder named **50pxOffice2007** and paste them in it. Modify your RadComboBox declaration as shown below, in order to disable the embedded skin:
 
 ````ASPNET
-<telerik:radcombobox 
+<telerik:RadComboBox 
     runat="server" 
-    skin="Office2007" 
-    enableembeddedskins="false" 
-    id="RadComboBox">
+    Skin="Office2007" 
+    EnableEmbeddedSkins="false" 
+    ID="RadComboBox">
+</telerik:RadComboBox>
 ````
 
-Add a link to the CSS file in the head tag:
+* Add a link to the CSS file in the head tag:
 
 ````ASPNET
 <link href="Skins/50pxOffice2007/ComboBox.Office2007.css" rel="stylesheet" type="text/css" />
 ````
 
-Check if everything renders properly - the combobox skin should look like the Office2007 skin now.
+Check if the RadComboBox is rendered properly - its skin should look like the built-in Office2007 skin.
 
-## Claim your skin
+## Renaming the Custom Skin
 
-To really make the skin your own you will need to give it a name. As you probably already guessed, mine will be called **50pxOffice2007**, but you can be more creative. First rename your skin CSS file to ComboBox.50pxOffice2007.css:
+Instead of using the name of the built-in skin you can rename it. In this example the skin will be called **50pxOffice2007**. 
+
+* Rename your skin CSS file to ComboBox.50pxOffice2007.css:
 
 ![ComboBox Rename](images/combobox_renameshot.png)
 
-and change the link in the test file to:
+* The link to the CSS file has to be changed accordingly:
 
 ````ASPNET
 <link href="Skins/50pxOffice2007/ComboBox.50pxOffice2007.css" rel="stylesheet" type="text/css" />
 ````
 
-The actual name of the CSS file does not really matter but it’s a good practice to name your assets with meaningful names that will help you find them easier. Now open the file and invoke the Find&Replace tool with Ctrl+H or Edit `->` Find and Replace `->` Quick Replace. Pay attention to what you are replacing and replace all occurrences of **_Office2007** with **_50pxOffice2007** in the CSS file:
+The actual name of the CSS file can differ from the skin name, but it is a good practice both to have the same name. 
+
+* Open the CSS file and invoke the Find&Replace tool with Ctrl+H or Edit `->` Find and Replace `->` Quick Replace. Replace all occurrences of **_Office2007** with **_50pxOffice2007** in the CSS file:
 
 ![ComboBox Replace](images/combobox_replaceshot.png)
 
-Save the file. Open Default.aspx and change RadComboBox skin name accordingly:
+Save the file. 
+
+* Change the RadComboBox skin name accordingly:
 
 ````ASPNET
-<telerik:radcombobox 
-runat="server" 
-skin="50pxOffice2007" 
-enableembeddedskins="false">
+<telerik:RadComboBox 
+	runat="server" 
+	Skin="50pxOffice2007" 
+	EnableEmbeddedSkins="false"
+	ID="RadComboBox">
+</telerik:RadComboBox>
 ````
 
-Check if the skin renders okay.
+After these steps the skin should render as the built-in one we used as a base.
 
-## Getting Your Hands Dirty
+## Resizing the Sprite Images
 
-Now that we have an external skin of our own, we can start changing it to fit our needs. First launch your Photoshop and open the **rcbSprite.png** (not the IE6 one – It is 8bit indexed alpha). Are you confused? Let’s fix that:
+* Launch your image editor (in this example we will use Adobe Photoshop) and open the **rcbSprite.png** (not the IE6 one – It is 8bit indexed alpha). 
 
 ![ComboBox Combo Explained](images/combobox_comboexplained.png)
 
-As you can see, the top four rows are for the four RadComboBox state backgrounds, while the fifth row contains only the drop down arrow backgrounds. The rest of the sprite is used for styling the drop down header and footer.So, now that we know how the sprite is constructed, we need to resize the state and the arrow backgrounds to 50px height. To be able to do that, first we will need to resize the RadComboBox sprite image canvas to fit the expanding contents. Use Image `->` Canvas Size or Ctrl+Alt+C and enter 300px for height (5x50+what remains for the header). Align the contents to the top. Next, drag some guides from the top ruler and place them in 50px intervals starting from the first 50px. Then one by one cut the different states and the header (select one state with the Selection tool, create new Layer via Cut with the context menu and drag it to its new place) and place them under every guide until you get this:
+As you can see, the top four rows are for the four RadComboBox state backgrounds, while the fifth row contains only the dropdown arrow backgrounds. The rest of the sprite is used for styling the dropdown header and footer. 
+
+* We need to resize the state and the arrow backgrounds to 50px height. To be able to do that, first we will need to resize the RadComboBox sprite image canvas to fit the expanding contents. Use Image `->` Canvas Size or Ctrl+Alt+C and enter 300px for height (5x50+what remains for the header). Align the contents to the top. Next, drag some guides from the top ruler and place them in 50px intervals starting from the first 50px. Then one by one cut the different states and the header (select one state with the Selection tool, create new Layer via Cut with the context menu and drag it to its new place) and place them under every guide until it looks like this:
 
 ![ComboBox Distributed Sprites](images/combobox_distributedsprites.png)
 
-Now we are ready to resize the state sprites.
+The next step is resizing the state sprites.
 
-## Running with Scissors
-
-After placing the states at their proper places, we’ll need to resize them carefully in order to preserve the gradients as much as possible. To do that we will need scaling algorithm different than Nearest Neighbor – go to Edit `->` Preferences `->` General `->` Image Interpolation and choose Bicubic or Bicubic Smoother. Hit OK. Now use the Selection tool to select the bottom half of the Normal state then hold Ctrl and drag it until you reach the bottom guide with the bottom edge of the selection. You should get something like this in the end:
+* After placing the states at their proper places, they need to be resized carefully in order to preserve the gradients as much as possible. To do that we will need a scaling algorithm different than Nearest Neighbor – go to Edit `->` Preferences `->` General `->` Image Interpolation and choose Bicubic or Bicubic Smoother. Press OK. Now use the Selection tool to select the bottom half of the Normal state then hold Ctrl and drag it until you reach the bottom guide with the bottom edge of the selection. The result should be similar to the following:
 
 ![ComboBox Resize Step1](images/combobox_resize1ststep.png)
 
-Now select one or several pixels high line closer to the inner edges, change to the Move tool (with V) and scale the selection upwards (or downwards depending on where you selected) until you get this:
+* Select one or several pixels high line closer to the inner edges, change to the Move tool (with V) and scale the selection upwards (or downwards depending on where you selected) until you get this:
 
 ![ComboBox Resize Step2](images/combobox_resize2ndstep.png)
 
-Split the second sprite right in the middle – select from the half to the bottom edge, separating the light from the dark colors, hold Ctrl and drag to the bottom guide.
+* Split the second sprite right in the middle – select from the half to the bottom edge, separating the light from the dark colors, hold Ctrl and drag to the bottom guide.
 
 ![ComboBox Resize Step3](images/combobox_resize3rdstep.png)
 
-Drag a new guide in the middle of the empty space (at exactly 75px), like this:
+* Drag a new guide in the middle of the empty space (at exactly 75px), like this:
 
 ![ComboBox Resize Step4](images/combobox_resize4thstep.png)
 
-Next, carefully select the bottom part of the sprite from the top edge to 3px above the bottom one. We want to leave the bottom edge and the corner transparency intact. Your selection should look like this:
+* Next, carefully select the bottom part of the sprite from the top edge to 3px above the bottom one, leaving the bottom edge and the corner transparency intact. Your selection should look like this:
 
 ![ComboBox Resize Step5](images/combobox_resize5thstep.png)
 
-Scale it to the middle:
+* Scale it to the middle:
 
 ![ComboBox Resize Step6](images/combobox_resize6thstep.png)
 
-And do the same to the top part of the sprite:
+* Do the same to the top part of the sprite:
 
 ![ComboBox Resize Step7](images/combobox_resize7thstep.png)
 
-Now repeat for the rest of the states until you get to the arrows.
+* Repeat for the rest of the states until you get to the arrows.
 
-## Pixel Art
+## Resizing the Arrow Ends
 
-Now that we have all the states ready, we should also resize the arrow ends. This task is more complicated since the arrow is part of the background. So, in order to resize them, we will need first to separate the arrows from the background. To do so we will use a Magic Wand (tool – activated with W). Adjust some of the tool properties – set the Tolerance to 110, switch off Anti-alias, but leave Contiguous on. Now select the arrows one by one, excluding the disabled two – we’ll need to change the tolerance to 20 before doing so. Also add to the selection the white arrow pixels in the hover and selected states. Most skins probably won’t require using tolerance and additional pixels, but we chose one of the hardest so you can get the idea. After you finish selecting, get the context menu up and do a Layer via Cut:
+* With all the states ready, the next step is to resize the arrow ends. This task is more complicated since the arrow is part of the background. So, in order to resize them, we will need first to separate the arrows from the background. To do so we will use a Magic Wand (tool – activated with W). Adjust some of the tool properties – set the Tolerance to 110, switch off Anti-alias, but leave Contiguous on. Now select the arrows one by one, excluding the disabled two – we’ll need to change the tolerance to 20 before doing so. Also add to the selection the white arrow pixels in the hover and selected states. Most skins probably won’t require using tolerance and additional pixels, but for demonstration purposes we have selected one that requires them. After you finish selecting, get the context menu up and do a Layer via Cut:
 
 ![ComboBox Resize Step8](images/combobox_resize8thstep.png)
 
-After cutting the arrows, hide the new layer and you can resize the states as before. There’s one little detail though – every state now will have a hole in the middle. Fill it up before you start resizing – either with copy and paste, with the Stamp tool (be careful with the source of the stamp though) or by using select and duplicate (Ctrl + Alt + drag selection). Show the hidden arrows in the end and move their layer to the middle. You should get something like this in the end:
+* After cutting the arrows, hide the new layer and you can resize the states as before. There is one detail though – every state now will have a hole in the middle. Fill it up before you start resizing – either with copy and paste, with the Stamp tool or by using select and duplicate (Ctrl + Alt + drag selection). Show the hidden arrows in the end and move their layer to the middle. You should get something like this in the end:
 
 ![ComboBox Resize Step9](images/combobox_resize9thstep.png)
 
-We are ready with the sprite now.
 
-## Saving your work
+## Saving the Customized Sprite Images
 
-Now that we have the sprite image ready, we should replace the existing ones in the external skin we prepared. Open Save for Web and Devices dialog and use the following options to save **rcbSprite.png**:
+* With the sprite image ready, we should replace the existing ones in the custom skin we prepared. Open Save for Web and Devices dialog and use the following options to save **rcbSprite.png**:
 
 ![ComboBox Resize Step9](images/combobox_saveforweb.png)
 
-Note that we are using **24bit PNG with alpha transparency** here. Replace the rcbSprite.png file which you’ve opened in the beginning. Since IE6 doesn’t support the alpha transparency of 24bit PNGs (rendering it completely opaque), we will need a second sprite image only for this browser. Bring up again Save for Web and Devices but use these options this time:
+* Note that we are using **24bit PNG with alpha transparency** here. Replace the rcbSprite.png file which you’ve opened in the beginning. Since IE6 doesn’t support the alpha transparency of 24bit PNGs (rendering it completely opaque), we will need a second sprite image only for this browser. Bring up again Save for Web and Devices but use these options this time:
 
 ![ComboBox Resize Step9](images/combobox_saveforwebie6.png)
 
-Make sure **Matte** is set to **None**, otherwise you won’t get index transparency on the state corners. Hit Save and replace the **rcbSpriteIE6.png** file in the same folder.
+* Make sure **Matte** is set to **None**, otherwise index transparency on the state corners will be lost. Hit Save and replace the **rcbSpriteIE6.png** file in the same folder.
 
-## Specificity Wars
+## Customizing CSS
 
-Now that we are done with the sprite images, a relatively easy part remains – fixing the skin CSS to support the new sprite height we have made. Switch to your editor and open the CSS file. First thing to do is to override the default height and line-height of the Office2007 RadComboBox. Add this CSS rule somewhere in your CSS file, let’s say at the end:
+* With the sprite images ready, the skin CSS has to be customized to support the new sprite height. Switch to your editor and open the CSS file. First thing to do is to override the default height and line-height of the Office2007 RadComboBox. Add this CSS rule in your CSS file, for example at the end:
 
 ````CSS
 div.RadComboBox_50pxOffice2007 table td.rcbInputCell
@@ -175,7 +178,9 @@ div.RadComboBox_50pxOffice2007 table td.rcbInputCell
 }
 ````
 
-Note the element type in front of the first class – it is used to **raise the specificity** so that we can override the base stylesheet selectors (the baseStyleSheet was added in Q3 2009 release). If you want to learn more about specificity, there’s an excellent article in the [Smashing Magazine](http://www.smashingmagazine.com/2007/07/27/css-specificity-things-you-should-know/). Now that we have RadComboBox height, we should change the background-positions of the four states. Find the lines below in the file (**note that the line numbers below can change in next releases,** these are based on the Q2 2009 Office2007 skin) and change them accordingly to the sprite image background positions - from divisible by 22, to divisible by 50:
+Note the element type in front of the first class – it is used to **raise the specificity** so that we can override the base stylesheet selectors (the baseStyleSheet was added in Q3 2009 release). More information about specificity is available in the following article:[Smashing Magazine](http://www.smashingmagazine.com/2007/07/27/css-specificity-things-you-should-know/). 
+
+* Now that we have RadComboBox height, we should change the background-positions of the four states. Find the lines below in the file (note that the line numbers below can change in next releases - these are based on the Q2 2009 Office2007 skin) and change them accordingly to the sprite image background positions - from divisible by 22, to divisible by 50:
 
 Around lines 40-44:
 
@@ -255,7 +260,7 @@ Around line 172:
 }
 ````
 
-Refresh your page – your 50px RadComboBox looks great! One finishing touch – if you want to change the font family and size – use the style on line 9 to do it:
+* Refresh your page. One finishing touch – if you want to change the font family and size – use the style on line 9 to do it:
 
 ````CSS
 .RadComboBox_50pxOffice2007,.RadComboBox_50pxOffice2007 .rcbInput,.RadComboBoxDropDown_50pxOffice2007
@@ -265,5 +270,5 @@ Refresh your page – your 50px RadComboBox looks great! One finishing touch –
 }
 ````
 
-That’s all. I hope this tutorial was helpful to you. Have fun designing new and exciting skins for RadComboBox.
+This concludes the tutorial on changing the height of the RadComboBox input element in Classic render mode. We recommend using Lightweight render mode as it makes customizing the control's appearance much easier. As demonstrated in the beginning of this article changing the height of the RadComboBox input, when Lightweight render mode is used, is as easy as setting a single CSS property. 
 

@@ -10,10 +10,10 @@ position: 4
 
 # Change the appearance of the input element
 
->caution This tutorial is relevant to the **old versions** of Telerik.Web.UI assembly **(prior to Q1 2009).** For the new versions please check [this tutorial]({%slug combobox/appearance-and-styling/change-the-height-of-the-input-element%}).
->
+This tutorial is relevant to the **old versions** of Telerik.Web.UI assembly **(prior to Q1 2009).** For the new versions please check [this article]({%slug combobox/appearance-and-styling/change-the-height-of-the-input-element%}).
 
-The tutorial will show you different ways of changing the appearance of the input element of RadComboBox.
+
+The tutorial will show you different ways of changing the appearance of the input element of RadComboBox (inline, in the code-behind, with JavaScript, with CSS).
 
 *  **Inline**
 
