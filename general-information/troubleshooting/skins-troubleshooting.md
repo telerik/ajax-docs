@@ -150,6 +150,10 @@ You get an error similar to the following:
 
 Since **Q3 2011** all the built-in skins are located in the **Telerik.Web.UI.Skins.dll** assembly, so you need it as well. More information is available in [this help article]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/skins-location%}). The change was announced in a blog post with Q2 2011 ([here](http://blogs.telerik.com/blogs/posts/11-07-05/new-telerik-ajax-skins-assembly.aspx)) and again with Q3 2011 ([here](http://blogs.telerik.com/blogs/posts/11-11-15/separate-skin-assembly-in-radcontrols-for-asp-net-ajax-with-q3-apos-11.aspx)).
 
+
+If you get this error after an upgrade to a newer version, the most likely reason for the problem is that there is an issue with the Visual Studio Project references. To fix it, perform a manual upgrade: [Manual Upgrade]({%slug introduction/installation/upgrading-instructions/upgrading-a-trial-to-a-developer-license-or-to-a-newer-version%}#manual-upgrade).
+
+
 ## GetWebResourceUrl fails
 
 Since **Q3 2011** all the built-in skins are located in the **Telerik.Web.UI.Skins.dll** assembly, and therefore this method cannot get a proper URL for the stylesheet/image you are trying to reference, as the assembly it searches in is the Telerik.Web.UI.dll, since the controls themselves are located there.
