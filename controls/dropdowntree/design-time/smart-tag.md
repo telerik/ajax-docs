@@ -12,7 +12,7 @@ position: 0
 
 
 
-The **RadDropDownTree** Smart Tag allows easy access to frequently needed tasks. You can display the Smart Tag by right clicking on a **RadDropDownTree** control in the design window, and choosing **Show Smart Tag**. You can also display the Smart Tag by clicking the small rightward-pointing button located at the upper right of the **RadDropDownTree** component.
+The **RadDropDownTree** Smart Tag allows easy access to frequently needed tasks. You can right-click on  a **RadDropDownTree** control in the design window to display the Smart Tag and then choose **Show Smart Tag**. You can also display the Smart Tag by clicking the small rightward-pointing button located at the upper right of the **RadDropDownTree** component.
 
 >caption Figure 1: RadDropDownTree Smart Tag
 ![RadDropDownTree Smart Tag](images/dropdowntree-smart-tag-menu.png)
@@ -29,13 +29,13 @@ The **RadDropDownTree** Smart Tag allows easy access to frequently needed tasks.
 
 ## Ajax Resources
 
-* **Add RadAjaxManager...** includes a RadAjaxManager component on the form, allowing fine-grain control over how controls are updated via AJAX.
+* **Add RadAjaxManager...**: Includes a RadAjaxManager component on the form that allows for fine control over how controls are updated via AJAX.
 
-* **Add ScriptManager** includes a ScriptManager, which manages ASP.NET Ajax script libraries and script files, partial-page rendering, and client proxy class generation for Web and application services.
+* **Add ScriptManager**: Includes a ScriptManager, which manages ASP.NET Ajax script libraries and script files, partial-page rendering, and client proxy class generation for Web and application services.
 
-* **Add RadScriptManager** - RadScriptManager performs the same tasks as **ScriptManager** but can also combine all for ASP.NET AJAX JavaScript resources into a single web resource request for better performance.
+* **Add RadScriptManager**: RadScriptManager performs the same tasks as **ScriptManager** but can also combine all for ASP.NET AJAX JavaScript resources into a single web resource request for better performance.
 
-* **Add RadStyleSheetManager**: The RadStyleSheetManager component enables you to combine all CSS output for for ASP.NET AJAX controls into a single stylesheet web resource request.
+* **Add RadStyleSheetManager**: The RadStyleSheetManager component enables you to combine all CSS output for ASP.NET AJAX controls into a single stylesheet web resource request.
 
 
 
@@ -47,7 +47,7 @@ The **RadDropDownTree** Smart Tag allows easy access to frequently needed tasks.
 
 ## Online Resources
 
-Links navigating directly to **RadDropDownTree** Demos, Documentation help, Code library and to the Feedback portal of the controls suite.
+Links navigating directly to **RadDropDownTree** demos, documentation, code library and to the feedback portal of the controls suite.
 
 
 
