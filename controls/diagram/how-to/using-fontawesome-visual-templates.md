@@ -19,10 +19,10 @@ In this how-to article you can see how to integrate the [FontAwesome](http://fon
 
 The example below follows the scenario from the [Shapes Template]({%slug diagram/functionality/shape-templates%}). Basically, to have the FontAwesome icons you should:
 
-1. Include the FontAwesome style;
-1. Use a TextBlock element in the desired shape's visual;
-1. Modify it with the needed char code by setting it to the `text` property: `text: String.fromCharCode(0xf005)`;
-1. And set the `fontFamily` property to "FontAwesome": `fontFamily: "FontAwesome"`.
+1. Include the FontAwesome style.
+1. Use a TextBlock element in the desired shape's visual.
+1. Modify it with the needed char code by setting it to the `text` property: `text: String.fromCharCode(0xf005)`.
+1. Set the `fontFamily` property to "FontAwesome": `fontFamily: "FontAwesome"`.
 
 >caption Example 1: Integrating FontAwesome icons in Visual Templates.
 
