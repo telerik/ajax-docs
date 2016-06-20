@@ -66,9 +66,9 @@ This may happen if you are using the **OnAjaxUpdate** event to add user controls
 
 ## The Tooltip Hides When Content Arrives
 
-In some cases when content is loaded on demand by RadToolTipManager's OnAjaxRequest method, the tooltip hides just when the loading indicator disappears.
+In some cases when content is loaded on demand by RadToolTipManager's `OnAjaxRequest` method, the tooltip hides just when the loading indicator disappears.
 
-This is usually due to an AjaxSetting from RadAjaxManager/RadAjaxManagerProxy that updates an ASP:Panel or an ASP:UpdatePannel that encompasses the RadToolTipManager.In both these cases the resulting update panels have UpdateMode set to Always, so they dispose each time response from the server is received. If they include the RadToolTipManager they will also dispose it, so the tooltip will hide.
+This is usually due to an AjaxSetting from RadAjaxManager/RadAjaxManagerProxy that updates an ASP:Panel or an ASP:UpdatePannel that encompasses the RadToolTipManager. In both these cases the resulting update panels have `UpdateMode` set to `Always`, so they dispose each time response from the server is received. If they include the RadToolTipManager they will also dispose it, so the tooltip will hide.
 
 Here is what happens in such a scenario:
 
@@ -80,11 +80,14 @@ Here is what happens in such a scenario:
 
 To avoid this behavior, you must ensure the tooltip manager is not updated when this is not needed:
 
-1. Make sure that the RadToolTipManager is not inside an UpdatePanel with UpdateMode=Always
+1. Make sure that the RadToolTipManager is **not** inside an UpdatePanel with UpdateMode=Always
 
 1. look for AJAX settings that include ASP Panel controls. Such settings result in update panels with UpdateMode=Always because it cannot be determined if the postback originates from inside. If possible, make such settings more specific so that they include separate controls instead of entire panels
 
 Note that the update panels that cause the problem may be on the master page in a master-content page scenario, or on the aspx page if the tooltip manager is in a user control.A way to determine which is the parent element that gets disposed is by monitoring the server response in the dev toolbar of the browser.
+
+>tip If you do not need input or postback controls in the tooltip content, consider loading the content from a [WebService]({%slug tooltip/radtooltipmanager/load-content-on-demand%}#loading-content-via-a-webservice) to avoid having any postbacks.
+
 
 ## Invalid Postback or Callback Argument
 
