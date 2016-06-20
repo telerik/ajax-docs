@@ -5,7 +5,7 @@ description: Radar Chart
 slug: htmlchart/chart-types/radar-chart
 tags: radar,chart
 published: True
-position: 12
+position: 13
 ---
 
 # Radar Chart

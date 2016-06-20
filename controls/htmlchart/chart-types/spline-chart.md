@@ -5,7 +5,7 @@ description: Spline Chart
 slug: htmlchart/chart-types/spline-chart
 tags: spline,chart
 published: True
-position: 18
+position: 19
 ---
 
 # Spline Chart

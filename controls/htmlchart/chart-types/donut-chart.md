@@ -5,7 +5,7 @@ description: Donut Chart
 slug: htmlchart/chart-types/donut-chart
 tags: donut,chart
 published: True
-position: 6
+position: 7
 ---
 
 # Donut Chart

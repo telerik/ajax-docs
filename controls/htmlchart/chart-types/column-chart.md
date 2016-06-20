@@ -5,7 +5,7 @@ description: Column Chart
 slug: htmlchart/chart-types/column-chart
 tags: column,chart
 published: True
-position: 4
+position: 6
 ---
 
 # Column Chart

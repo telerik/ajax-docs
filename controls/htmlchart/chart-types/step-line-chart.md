@@ -5,7 +5,7 @@ description: Step Line Chart
 slug: htmlchart/chart-types/step-line-chart
 tags: step,line,chart
 published: True
-position: 19
+position: 20
 ---
 
 # Step Line Chart

@@ -5,7 +5,7 @@ description: Waterfall Chart
 slug: htmlchart/chart-types/waterfall-chart
 tags: waterfall,chart
 published: True
-position: 20
+position: 21
 ---
 
 # Waterfall Chart

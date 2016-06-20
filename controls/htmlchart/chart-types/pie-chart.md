@@ -5,7 +5,7 @@ description: Pie Chart
 slug: htmlchart/chart-types/pie-chart
 tags: pie,chart
 published: True
-position: 10
+position: 11
 ---
 
 # Pie Chart
