@@ -12,19 +12,19 @@ position: 0
 
 
 
-This article shows how to handle with some known issue with misalignments in the RadScheduler and the code that is fixing them.
+This article shows how to handle some known issue with misalignments in the RadScheduler and the code that is fixing them.
 
-## Recommended RowHeight property values
+## Recommended Minimal RowHeight Property Values
 
-Here are the recommended RowHeight property values for some of the Scheduler's skins, which should prevent misalignments and other appearance issues:
+Here are the recommended minimal RowHeight property values for some of the Scheduler's skins, which should prevent misalignments and other appearance issues:
 
-* Default: 25
+* For "BlackMetroTouch" and "MetroTouch" skins: RowHeight = 32;
 
-* "BlackMetroTouch", "MetroTouch": 32
+* For "Bootstrap" skin: RowHeight = 30;
 
-* "Glow", "Silk": 25
+* For "Material" skin: RowHeight = 29;
 
-* "Bootstrap": 30
+* For all other skins: RowHeight = 25;
 
 
 ## In Browser Mode Compatibility IE9 the time slots of the RadScheduler twist to the left.
@@ -97,3 +97,9 @@ Here bellow is shown a possible workaround with **JavaScript**:
 </script>
 ````
 
+
+# See Also
+
+ * [Setting RowHeight According to the Currently Used Font Size]({%slug scheduler/appearance-and-styling/setting-rowheight-according-to-fontsize%})
+
+ 
