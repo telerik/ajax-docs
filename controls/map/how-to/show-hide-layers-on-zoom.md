@@ -1,18 +1,18 @@
 ---
-title: Layer Clustering on Zoom Level
-page_title: Layer Clustering on Zoom Level | RadMap for ASP.NET AJAX Documentation
-description: How to configure RadMap layers to be clustered on predefined zoom levels.
-slug: map/how-to/layer-clustering-on-zoom
+title: Show and Hide Layers on Zoom Level
+page_title: Show and Hide Layers on Zoom Levell | RadMap for ASP.NET AJAX Documentation
+description: How to configure RadMap layers to show and hide on predefined zoom levels.
+slug: map/how-to/show-hide-layers-on-zoom
 tags: custer, clustering, map, radmap, zoom, minzoom, maxzoom, level, layer
 published: True
 position: 1
 ---
 
-# Layer Clustering on Zoom Level
+# Show and Hide Layers on Zoom Level
 
-In this example here you can see how you can configure different layer to show on different zoom level. 
+In this example here you can see how you can configure layers to show and hide on based on the zoom level. 
 
-You can adjust the layer to show and hide on different zoom levels. That is done by using the `MinZoom` and `MaxZoom` properties of the **MapLayer** class.
+That is done by using the `MinZoom` and `MaxZoom` properties of the **MapLayer** class.
 
 In the figures below you can see the result of the code from **Example 1**.
 
