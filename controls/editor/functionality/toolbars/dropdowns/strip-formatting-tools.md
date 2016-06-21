@@ -39,13 +39,20 @@ In a custom collection of tools, the build-in **Format Stripper** dropdowncan be
 >caption Example 1: Adding the PasteStrip dropdown to a tools collection.
 
 ````ASP.NET
+//Defining FormatStripper with Tools collection:
 <telerik:RadEditor RenderMode="Lightweight" runat="server" ID="RadEditor1">
-	<telerik:EditorToolGroup>
-		<telerik:EditorTool Name="FormatStripper" />
-	</telerik:EditorToolGroup>
+	<Tools>
+		<telerik:EditorToolGroup>
+			<telerik:EditorTool Name="FormatStripper" />
+		</telerik:EditorToolGroup>
+	</Tools>
+</telerik:RadEditor>
+//Defining FormatStripper with ToolsFile property:
+<telerik:RadEditor RenderMode="Lightweight" runat="server" ID="RadEditor2" ToolsFile="Tools.xml">
 </telerik:RadEditor>
 ````
 ````XML
+<!--Tools.xml-->
 <root>
   <tools>
 	<tool name="FormatStripper" />
@@ -62,6 +69,7 @@ Optionally, you can further enable stand-alone **Strip Formatting** tools in a t
 >caption Example 2: Defining stand-alone Strip Formatting tools in a toolbar and a custom set of tools in the PasteStrip dropdown.
 
 ````ASP.NET
+//Defining FormatStripper with Tools collection:
 <telerik:RadEditor RenderMode="Lightweight" runat="server" ID="RadEditor1" Skin="Silk" Width="500px" Height="250px">
 	<Tools>
 		<telerik:EditorToolGroup>
@@ -73,12 +81,16 @@ Optionally, you can further enable stand-alone **Strip Formatting** tools in a t
 		</telerik:EditorToolGroup>
 		<telerik:EditorToolGroup>
 			<telerik:EditorTool Name="StripSpan" />
-			<telerik:EditorTool Name="StripFont" />       
+			<telerik:EditorTool Name="StripFont" />
 		</telerik:EditorToolGroup>
 	</Tools>
+</telerik:RadEditor>
+//Defining FormatStripper with ToolsFile property:
+<telerik:RadEditor RenderMode="Lightweight" runat="server" ID="RadEditor2" Skin="Silk" Width="500px" Height="250px" ToolsFile="Tools.xml">
 </telerik:RadEditor>	
 ````
 ````XML
+<!--Tools.xml-->
 <root>
   <tools>
 	<tool name="FormatStripper" >
