@@ -53,7 +53,7 @@ Change render mode for all **RadComboBoxes**:
 </appSettings>
 ````
 
-Change render mode for all **all controls**:
+Change render mode for **all controls**:
 
 ````XML
 <appSettings>
