@@ -5,7 +5,7 @@ description: Custom ToolStrip
 slug: editor/functionality/toolbars/dropdowns/custom-toolstrip
 tags: custom,toolstrip
 published: True
-position: 15
+position: 16
 ---
 
 # Custom ToolStrip

@@ -5,7 +5,7 @@ description: Custom Dropdown
 slug: editor/functionality/toolbars/dropdowns/custom-dropdown
 tags: custom,dropdown
 published: True
-position: 14
+position: 15
 ---
 
 # Custom Dropdown
