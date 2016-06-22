@@ -27,7 +27,7 @@ Following is a list of controls and the properties that can be persisted with Pe
 | **RadDropDownTree** | **ExpandedIndices**, **CheckedIndices**, Selected indices of the embedded tree |
 | **RadFilter** | **FilterExpression** (internal property) |
 | **RadGrid** | **CurrentPageIndex**, **PageSize**, **EditIndexes**, **SelectedCellIndexes**, **SelectedIndexes**, **AllowMultiColumnSorting** |
-| **GridTableView** | **ColumnSettings**, **CurrentPageIndex**, **FilterExpression**, **GroupByExpression**, **IsItemInserted**, **PageSize**, **SortExpression** |
+| **MasterTableView** | **ColumnSettings**, **CurrentPageIndex**, **FilterExpression**, **GroupByExpression**, **IsItemInserted**, **PageSize**, **SortExpression** |
 | **RadListBox** | **CheckedIndices** (internal property), **SelectedIndices** (internal property)|
 | **RadListView** | **CurrentPageIndex**, **EditIndexes**, **FilterExpressions**, **IsItemInserted**, **PageSize**, **SelectedIndexes**, **SortExpressions** |
 | **RadMenu** | **SelectedIndex** |
@@ -46,5 +46,3 @@ Following is a list of controls and the properties that can be persisted with Pe
 | **RadToolBar** | **CheckedIndices** (internal property) |
 | **RadTreeList** | **CurrentPageIndex**, **EditIndexes**, **ExpandedIndexes**, **InsertIndexes**, **IsItemInserted**, **PageSize**, **SelectedIndexes**, **SortExpressions** |
 | **RadTreeView** | **CheckedIndices** (internal property), **ExpandedIndices** (internal property), **SelectedIndex** (internal property) |
-
-
