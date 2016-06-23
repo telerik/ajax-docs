@@ -32,7 +32,7 @@ The Telerik UI for ASP.NET AJAX product consists of the assemblies in the list b
 
 This is a cross-platform library that lets you load, create and update Zip archives on the fly with easy to use API.
 
-You can find its assembly in the **AdditionalLibraries** folder in the Telerik UI for ASP.NET AJAX installation (automated and manual) and in the internal builds archive.It supports .NET 4 and .NET 4.5, so depending on the target framework of your project, you need to take the assembly from the *Bin40* or *Bin45* folder respectively.
+@[template - path-to-additional-libraries](/_templates/common/additional-libraries-path.md#additional-libraries-path "assemblies: its assembly, support: It supports, isplural: assembly")
 
 * **Telerik.Windows.Zip.dll**—the assembly of the Telerik Zip Library.
 
@@ -40,11 +40,19 @@ You can find its assembly in the **AdditionalLibraries** folder in the Telerik U
 
 You can read more about it in its documentation: [Getting started with RadZipLibrary](http://www.telerik.com/help/silverlight/radziplibrary-gettingstarted.html).
 
+## Telerik Spreadsheet Library
+
+The **Telerik.Web.Spreadsheet.dll** library is an assembly that lets you use the [**RadSpreadsheet**]({%slug spreadsheet/overview%}) control in your project.
+
+@[template - path-to-additional-libraries](/_templates/common/additional-libraries-path.md#additional-libraries-path "assemblies: the assembly, support: It supports, isplural: assembly")
+
+For more information about the usage of the RadSpreadsheet see its [**Getting Started**]({%slug spreadsheet/getting-started%}) article.
+
 ## Telerik Document Processing Libraries
 
 The Telerik document processing libraries are a set of assemblies that let you import and export content between different formats.
 
-You can find the needed assemblies in the **AdditionalLibraries** folder in the Telerik UI for ASP.NET AJAX installation (automated and manual) and in the internal builds archive.It supports .NET 4 and .NET 4.5, so depending on the target framework of your project, you need to take the assembly from the *Bin40* or *Bin45* folder respectively.
+@[template - path-to-additional-libraries](/_templates/common/additional-libraries-path.md#additional-libraries-path "assemblies: the needed assemblies, support: They support, isplural: assemblies")
 
 * **Telerik.Windows.Documents.Core.dll**—the main assembly from the Telerik document processing libraries. You always need it when you intend to use the library.
 

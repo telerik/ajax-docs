@@ -26,20 +26,12 @@ This article will get you started in using the **RadSpreadsheet** control. It co
 
 In order to use the **RadSpreadsheet** control in your project you need to add references to the following assembly:
 
-* Telerik.Web.Spreadsheet.dll
+* **Telerik.Web.Spreadsheet.dll**
 
 
 The following assemblies are required in order to be able to use the control with the predefined [**SpreadsheetDocumentProvider**]({%slug spreadsheet/data-binding/providers/using-a-data-provider%}) (applicable for most scenarios):
 
-* Telerik.Windows.Documents.Core.dll
-
-* Telerik.Windows.Documents.Flow.dll            
-
-* Telerik.Windows.Documents.Spreadsheet.dll
-
-* Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.dll
-
-* Telerik.Windows.Zip.dll
+@[template - spreadsheet-additional-libraries](/_templates/spreadsheet/additional-libraries.md#additional-libraries-explanation)
 
 
 >note You could find the above assemblies in the **AdditionalLibraries** folder of the installation directory on your machine (C:\Program Files (x86)\Telerik\UI for ASP.NET AJAX [XX] [XXXX]).
