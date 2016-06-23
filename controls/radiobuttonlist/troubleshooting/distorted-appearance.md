@@ -21,7 +21,7 @@ position: 1
 @[template](/_templates/button/distorted-appearance.md#cause-resolve "control: RadRadioButtonList")
 
 
-* [Render Modes]({%slug checkbox/mobile-support/render-modes%})
+* [Render Modes]({%slug radiobuttonlist/mobile-support/render-modes%})
 
 * [Client-side Click Event Handler Is Not Executed]({%slug button/troubleshooting/client-side-click-event-handler-is-not-executed%})
 

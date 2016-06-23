@@ -25,15 +25,15 @@ The control can be easily styled by changing the `Skin` property. This will elim
 <telerik:RadRadioButtonList ID="RadRadioButtonList1" runat="server"></telerik:RadRadioButtonList>
 ````
 
->note **RadRadioButtonList** does not support Classic [render mode]({%slug checkbox/mobile-support/render-modes%}). Setting its RenderMode to Classic will default to the Lightweight render mode.
+>note **RadRadioButtonList** does not support Classic [render mode]({%slug radiobuttonlist/mobile-support/render-modes%}). Setting its RenderMode to Classic will default to the Lightweight render mode.
 
 ## See Also
 
  * [RadRadioButtonList Online Demos](http://demos.telerik.com/aspnet-ajax/checkbox/examples/overview/defaultcs.aspx)
  
- * [RadRadioButtonList Getting Started]({%slug checkbox/getting-started%})
+ * [RadRadioButtonList Getting Started]({%slug radiobuttonlist/getting-started%})
  
- * [RadRadioButtonList Checked State]({%slug checkbox/functionality/checked-state%})
+ * [RadRadioButtonList Checked State]({%slug radiobuttonlist/functionality/checked-state%})
  
- * [RadRadioButtonList Properties and Events]({%slug checkbox/server-side-programming/properties-and-events%})
+ * [RadRadioButtonList Properties and Events]({%slug radiobuttonlist/server-side-programming/properties-and-events%})
  

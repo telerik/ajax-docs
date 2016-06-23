@@ -47,7 +47,7 @@ There are two ways to configure the rendering mode of the controls:
 
 ## See Also
 
- * [Mobile Support Overview]({%slug checkbox/mobile-support/overview%})
+ * [Mobile Support Overview]({%slug radiobuttonlist/mobile-support/overview%})
 
- * [Elastic Design]({%slug checkbox/mobile-support/elastic-design%})
+ * [Elastic Design]({%slug radiobuttonlist/mobile-support/elastic-design%})
 
