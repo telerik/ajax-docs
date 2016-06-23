@@ -1,8 +1,8 @@
 ---
 title: OnClientCheckedChanged
-page_title: OnClientCheckedChanged | RadCheckBox for ASP.NET AJAX Documentation
+page_title: OnClientCheckedChanged | RadRadioButtonList for ASP.NET AJAX Documentation
 description: OnClientCheckedChanged
-slug: checkbox/client-side-programming/events/onclientcheckedchanged
+slug: radiobuttonlist/client-side-programming/events/onclientcheckedchanged
 tags: onclientcheckedchanged
 published: True
 position: 6
@@ -10,11 +10,11 @@ position: 6
 
 # OnClientCheckedChanged
 
-The **checkedChanged** event is subsequent to the [checkedChanging]({%slug checkbox/client-side-programming/events/onclientcheckedchanging%}) event, and occurs when the **RadCheckBox** checked state is changed.
+The **checkedChanged** event is subsequent to the [checkedChanging]({%slug checkbox/client-side-programming/events/onclientcheckedchanging%}) event, and occurs when the **RadRadioButtonList** checked state is changed.
 
 The event handler receives two parameters:
 
-1. The instance of the clicked RadCheckBox control.
+1. The instance of the clicked RadRadioButtonList control.
 
 1. An eventArgs parameter of type [Telerik.Web.UI.**ButtonCheckedEventArgs**](http://docs.telerik.com/devtools/aspnet-ajax/api/client/args/Telerik.Web.UI.ButtonCheckedEventArgs), containing the following properties and methods:
 
@@ -22,9 +22,9 @@ The event handler receives two parameters:
 
 	* get_domEvent() - returns the DOM event of the control.
 
-	* get_commandName() - returns the value assigned to the RadCheckBox's **CommandName** property.
+	* get_commandName() - returns the value assigned to the RadRadioButtonList's **CommandName** property.
 
-	* get_commandArgument() - returns the value assigned to the RadCheckBox's **CommandArgument** property.
+	* get_commandArgument() - returns the value assigned to the RadRadioButtonList's **CommandArgument** property.
 
 This event is useful when the user wants to execute custom client code when the button changes its toggle state. 
 
@@ -37,9 +37,9 @@ This event is useful when the user wants to execute custom client code when the 
     }
 </script>
 
-<telerik:RadCheckBox ID="RadCheckBox1" runat="server"
+<telerik:RadRadioButtonList ID="RadRadioButtonList1" runat="server"
     AutoPostBack="false" OnClientCheckedChanged="CheckedChanged">
-</telerik:RadCheckBox>
+</telerik:RadRadioButtonList>
 ````
 
 ## See Also

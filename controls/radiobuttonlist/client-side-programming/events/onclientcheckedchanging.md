@@ -1,8 +1,8 @@
 ---
 title: OnClientCheckedChanging
-page_title: OnClientCheckedChanging | RadCheckBox for ASP.NET AJAX Documentation
+page_title: OnClientCheckedChanging | RadRadioButtonList for ASP.NET AJAX Documentation
 description: OnClientCheckedChanging
-slug: checkbox/client-side-programming/events/onclientcheckedchanging
+slug: radiobuttonlist/client-side-programming/events/onclientcheckedchanging
 tags: onclientcheckedchanging
 published: True
 position: 5
@@ -10,11 +10,11 @@ position: 5
 
 # OnClientCheckedChanging
 
-The **checkedChanging** event is subsequent to the [clicking]({%slug checkbox/client-side-programming/events/onclientclicking%}) event, and occurs before the **RadCheckBox** checked state is changed.
+The **checkedChanging** event is subsequent to the [clicking]({%slug checkbox/client-side-programming/events/onclientclicking%}) event, and occurs before the **RadRadioButtonList** checked state is changed.
 
 The event handler receives two parameters:
 
-1. The instance of the clicked RadCheckBox control.
+1. The instance of the clicked RadRadioButtonList control.
 
 1. An eventArgs parameter of type [Telerik.Web.UI.**ButtonCheckedCancelEventArgs**](http://docs.telerik.com/devtools/aspnet-ajax/api/client/args/Telerik.Web.UI.ButtonCheckedCancelEventArgs), containing the following properties and methods:
 
@@ -26,9 +26,9 @@ The event handler receives two parameters:
 
 	* get_domEvent() - returns the DOM event of the control.
 
-	* get_commandName() - returns the value assigned to the RadCheckBox's **CommandName** property.
+	* get_commandName() - returns the value assigned to the RadRadioButtonList's **CommandName** property.
 
-	* get_commandArgument() - returns the value assigned to the RadCheckBox's **CommandArgument** property.
+	* get_commandArgument() - returns the value assigned to the RadRadioButtonList's **CommandArgument** property.
 
 This event is useful in scenarios where the user wants to make sure the checked state is changed only if a certain condition is met. Note that, if the checkbox automatically posts back to the server, which is the default behavior, the post back will not be stopped even if the event is canceled.
 
@@ -43,9 +43,9 @@ The following example asks the user to confirm whether they want to change the s
     }
 </script>
 
-<telerik:RadCheckBox ID="RadCheckBox1" runat="server"
+<telerik:RadRadioButtonList ID="RadRadioButtonList1" runat="server"
     OnClientCheckedChanging="CheckedChanging">
-</telerik:RadCheckBox>
+</telerik:RadRadioButtonList>
 ````
 
 

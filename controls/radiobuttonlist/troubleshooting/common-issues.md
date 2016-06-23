@@ -1,8 +1,8 @@
 ---
 title: Common Issues
-page_title: Common Issues | RadCheckBox for ASP.NET AJAX Documentation
+page_title: Common Issues | RadRadioButtonList for ASP.NET AJAX Documentation
 description: Common Issues
-slug: checkbox/troubleshooting/common-issues
+slug: radiobuttonlist/troubleshooting/common-issues
 tags: common,issues
 published: True
 position: 0
@@ -10,7 +10,7 @@ position: 0
 
 # Common Issues
 
-This help article lists the most common issues one can face when using the **RadCheckBox** control and offers possible solutions for them.
+This help article lists the most common issues one can face when using the **RadRadioButtonList** control and offers possible solutions for them.
 
 * [Client-side Click Event Handler Is Not Executed]({%slug button/troubleshooting/client-side-click-event-handler-is-not-executed%})
 

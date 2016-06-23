@@ -1,8 +1,8 @@
 ---
 title: Overview
-page_title: Overview | RadCheckBox for ASP.NET AJAX Documentation
+page_title: Overview | RadRadioButtonList for ASP.NET AJAX Documentation
 description: Overview
-slug: checkbox/client-side-programming/events/overview
+slug: radiobuttonlist/client-side-programming/events/overview
 tags: overview
 published: True
 position: 0
@@ -10,7 +10,7 @@ position: 0
 
 # Events Overview
 
-RadCheckBox exposes several client-side events that allow easy and flexible use in a wide range of application scenarios:
+RadRadioButtonList exposes several client-side events that allow easy and flexible use in a wide range of application scenarios:
 
 * **[OnClientLoad (load)]({%slug checkbox/client-side-programming/events/onclientload%})** - raised when the control is initialized.
 
@@ -34,18 +34,18 @@ To handle the desired event, the user must set the respective property to the na
 <script type="text/javascript">
 	function Click(sender, args)
 	{
-		alert("RadCheckBox was clicked.");
+		alert("RadRadioButtonList was clicked.");
 	}
 </script>
-<telerik:RadCheckBox ID="RadCheckBox1" Text="Check here" runat="server" OnClientClicked="Click">
-</telerik:RadCheckBox>
+<telerik:RadRadioButtonList ID="RadRadioButtonList1" Text="Check here" runat="server" OnClientClicked="Click">
+</telerik:RadRadioButtonList>
 ````
 
 ````C#
-RadCheckBox1.OnClientClicked = "Click";  //passing the name of the JS function
+RadRadioButtonList1.OnClientClicked = "Click";  //passing the name of the JS function
 ````
 ````VB
-RadCheckBox1.OnClientClicked = "Click"  'passing the name of the JS function
+RadRadioButtonList1.OnClientClicked = "Click"  'passing the name of the JS function
 ````
 
 
@@ -59,15 +59,15 @@ RadCheckBox1.OnClientClicked = "Click"  'passing the name of the JS function
 	}
 </script>
 
-<telerik:RadCheckBox ID="RadCheckBox1" Text="Check here" runat="server" OnClientClicked="function(sender,args){Click(sender, args, 'Value1', 'Value2');}">
-</telerik:RadCheckBox>
+<telerik:RadRadioButtonList ID="RadRadioButtonList1" Text="Check here" runat="server" OnClientClicked="function(sender,args){Click(sender, args, 'Value1', 'Value2');}">
+</telerik:RadRadioButtonList>
 ````
 
 ````C#
-RadCheckBox1.OnClientClicked = "function(sender,args){Click(sender, args, 'Value1', 'Value2');}"; //passing an anonymous JS function
+RadRadioButtonList1.OnClientClicked = "function(sender,args){Click(sender, args, 'Value1', 'Value2');}"; //passing an anonymous JS function
 ````
 ````VB
-RadCheckBox1.OnClientClicked = "function(sender,args){Click(sender, args, 'Value1', 'Value2');}"  'passing an anonymous JS function
+RadRadioButtonList1.OnClientClicked = "function(sender,args){Click(sender, args, 'Value1', 'Value2');}"  'passing an anonymous JS function
 ````
 
 

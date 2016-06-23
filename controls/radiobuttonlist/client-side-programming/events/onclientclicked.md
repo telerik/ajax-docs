@@ -1,8 +1,8 @@
 ---
 title: OnClientClicked
-page_title: OnClientClicked | RadCheckBox for ASP.NET AJAX Documentation
+page_title: OnClientClicked | RadRadioButtonList for ASP.NET AJAX Documentation
 description: OnClientClicked
-slug: checkbox/client-side-programming/events/onclientclicked
+slug: radiobuttonlist/client-side-programming/events/onclientclicked
 tags: onclientclicked
 published: True
 position: 4
@@ -10,17 +10,17 @@ position: 4
 
 # OnClientClicked
 
-The **clicked** event is subsequent to the [checkedChanged]({%slug checkbox/client-side-programming/events/onclientcheckedchanged%}) event, and occurs when the **RadCheckBox** control is clicked. The event is fired after the client-side validation is completed (just like the [PushButon's OnClientClicked event]({%slug pushbutton/client-side-programming/events/onclientclicked%})), just before the page is submitted, and cannot be canceled.
+The **clicked** event is subsequent to the [checkedChanged]({%slug checkbox/client-side-programming/events/onclientcheckedchanged%}) event, and occurs when the **RadRadioButtonList** control is clicked. The event is fired after the client-side validation is completed (just like the [PushButon's OnClientClicked event]({%slug pushbutton/client-side-programming/events/onclientclicked%})), just before the page is submitted, and cannot be canceled.
 
 The event handler receives two parameters:
 
-1. The instance of the clicked RadCheckBox control.
+1. The instance of the clicked RadRadioButtonList control.
 
 1. An eventArgs parameter of type [Telerik.Web.UI.**ButtonEventArgs**](http://docs.telerik.com/devtools/aspnet-ajax/api/client/args/Telerik.Web.UI.ButtonEventArgs), containing the following properties and methods:
 
-	* get_commandName() - returns the value assigned to the RadCheckBox's **CommandName** property.
+	* get_commandName() - returns the value assigned to the RadRadioButtonList's **CommandName** property.
 
-	* get_commandArgument() - returns the value assigned to the RadCheckBox's **CommandArgument** property.
+	* get_commandArgument() - returns the value assigned to the RadRadioButtonList's **CommandArgument** property.
 
 This event can be used in scenarios where you need custom client-side code to be executed when the checkbox is clicked. 
 
@@ -37,9 +37,9 @@ This event can be used in scenarios where you need custom client-side code to be
 <span> Value:</span>
 <asp:TextBox ID="Textbox1" runat="server" />
 
-<telerik:RadCheckBox ID="RadCheckBox1" runat="server" AutoPostBack="false" Value="1"
+<telerik:RadRadioButtonList ID="RadRadioButtonList1" runat="server" AutoPostBack="false" Value="1"
     OnClientClicked="clientClick">
-</telerik:RadCheckBox>
+</telerik:RadRadioButtonList>
 ````
 
 ## See Also

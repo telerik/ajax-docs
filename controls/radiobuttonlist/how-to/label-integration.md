@@ -1,8 +1,8 @@
 ---
 title: Label Integration
-page_title: Label Integration | RadCheckBox for ASP.NET AJAX Documentation
+page_title: Label Integration | RadRadioButtonList for ASP.NET AJAX Documentation
 description: Label Integration
-slug: checkbox/how-to/label-integration
+slug: radiobuttonlist/how-to/label-integration
 tags: label,integration
 published: True
 position: 0
@@ -10,7 +10,7 @@ position: 0
 
 # Label Integration
 
-This help article illustrates how to integrate **RadCheckBox** with **RadLabel**, ASP:Label and HTML Label element.
+This help article illustrates how to integrate **RadRadioButtonList** with **RadLabel**, ASP:Label and HTML Label element.
 
  * [RadLabel Integration](#radlabel-integration)
  
@@ -20,41 +20,41 @@ This help article illustrates how to integrate **RadCheckBox** with **RadLabel**
 
 ## RadLabel Integration
 
-Instead of setting the `Text` property of **RadCheckBox** to configure the text that appears after the checkbox, you can use **RadLabel** for this purpose. This would let you use the embedded functionality of **RadLabel** like marks, custom HTML and skinning.
+Instead of setting the `Text` property of **RadRadioButtonList** to configure the text that appears after the checkbox, you can use **RadLabel** for this purpose. This would let you use the embedded functionality of **RadLabel** like marks, custom HTML and skinning.
 
-To integrate **RadCheckBox** with **RadLabel** you should simply set the `AssociatedControlID` property of the label control to the ID of the checkbox control it will be attached to (**Example 1**).
+To integrate **RadRadioButtonList** with **RadLabel** you should simply set the `AssociatedControlID` property of the label control to the ID of the checkbox control it will be attached to (**Example 1**).
 
->caption Example 1: RadLabel can be integrated with RadCheckBox. 
+>caption Example 1: RadLabel can be integrated with RadRadioButtonList. 
 
 ````ASP.NET
-<telerik:RadCheckBox runat="server" ID="RadCheckBox1" Checked="true">
-</telerik:RadCheckBox>
-<telerik:RadLabel runat="server" ID="RadLabel1" AssociatedControlID="RadCheckBox1" Text="RadLabel">
+<telerik:RadRadioButtonList runat="server" ID="RadRadioButtonList1" Checked="true">
+</telerik:RadRadioButtonList>
+<telerik:RadLabel runat="server" ID="RadLabel1" AssociatedControlID="RadRadioButtonList1" Text="RadLabel">
 </telerik:RadLabel>
 ````
 
 ## ASP:Label Integration 
 
-To integrate **RadCheckBox** with **ASP:Label** you should simply set the `AssociatedControlID` property of the label control to the ID of the checkbox control it will be attached to (**Example 2**).
+To integrate **RadRadioButtonList** with **ASP:Label** you should simply set the `AssociatedControlID` property of the label control to the ID of the checkbox control it will be attached to (**Example 2**).
 
->caption Example 2: ASP:Label can be integrated with RadCheckBox. 
+>caption Example 2: ASP:Label can be integrated with RadRadioButtonList. 
 
 ````ASP.NET
-<telerik:RadCheckBox ID="RadCheckBox2" runat="server" Checked="true">
-</telerik:RadCheckBox>
-<asp:Label ID="Label1" runat="server" Text="aspLabel" AssociatedControlID="RadCheckBox2" />
+<telerik:RadRadioButtonList ID="RadRadioButtonList2" runat="server" Checked="true">
+</telerik:RadRadioButtonList>
+<asp:Label ID="Label1" runat="server" Text="aspLabel" AssociatedControlID="RadRadioButtonList2" />
 ```` 
 
 ## HTML Label Integration 
 
-To integrate **RadCheckBox** with HTML Label you should simply set the for attribute of the label control to the ID of the checkbox control it will be attached to (**Example 2**).
+To integrate **RadRadioButtonList** with HTML Label you should simply set the for attribute of the label control to the ID of the checkbox control it will be attached to (**Example 2**).
 
->caption Example 3: HTML Label can be integrated with RadCheckBox. 
+>caption Example 3: HTML Label can be integrated with RadRadioButtonList. 
 
 ````ASP.NET
-<telerik:RadCheckBox ID="RadCheckBox3" runat="server" Checked="true">
-</telerik:RadCheckBox>
-<label for="RadCheckBox3">HTML Label</label>
+<telerik:RadRadioButtonList ID="RadRadioButtonList3" runat="server" Checked="true">
+</telerik:RadRadioButtonList>
+<label for="RadRadioButtonList3">HTML Label</label>
 ```` 
 
 ## See Also
@@ -65,7 +65,7 @@ To integrate **RadCheckBox** with HTML Label you should simply set the for attri
  
  * [RadLabel Getting Started]({%slug label/getting-started%})
   
- * [RadCheckBox Getting Started]({%slug checkbox/getting-started%})
+ * [RadRadioButtonList Getting Started]({%slug checkbox/getting-started%})
  
  
 
