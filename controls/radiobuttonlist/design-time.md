@@ -28,7 +28,7 @@ The Smart Tag of **RadRadioButtonList** (**Figure 1**) lets you configure your c
 
 ## Skin
 
-The **Skin** drop-down displays a list of available [skins]({%slug checkbox/appearance-and-styling/skins%}) that you can apply to your control, along with an example of what the **RadRadioButtonList** control looks like for each skin. Assign a skin by selecting the one you want from the list.
+The **Skin** drop-down displays a list of available [skins]({%slug radiobuttonlist/appearance-and-styling/skins%}) that you can apply to your control, along with an example of what the **RadRadioButtonList** control looks like for each skin. Assign a skin by selecting the one you want from the list.
 
 ## Learning Center
 
@@ -38,9 +38,9 @@ The **Skin** drop-down displays a list of available [skins]({%slug checkbox/appe
 
 ## See Also
 
- * [RadRadioButtonList Overview]({%slug checkbox/overview%})
+ * [RadRadioButtonList Overview]({%slug radiobuttonlist/overview%})
  
- * [RadRadioButtonList Getting Started]({%slug checkbox/getting-started%})
+ * [RadRadioButtonList Getting Started]({%slug radiobuttonlist/getting-started%})
  
  * [RadRadioButtonList Online Demos](http://demos.telerik.com/aspnet-ajax/checkbox/examples/overview/defaultcs.aspx)
 

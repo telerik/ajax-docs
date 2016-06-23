@@ -22,6 +22,6 @@ There are several ways to use the **RadRadioButtonList** via the keyboard only:
 
  * [Live Demo: RadRadioButtonList Keyboard Support](http://demos.telerik.com/aspnet-ajax/checkbox/examples/keyboard-support/defaultcs.aspx)
 
- * [WCAG 2.0 and Section 508 Accessibility Compliance]({%slug checkbox/accessibility-and-internationalization/wcag-2.0-and-section-508-accessibility-compliance%})
+ * [WCAG 2.0 and Section 508 Accessibility Compliance]({%slug radiobuttonlist/accessibility-and-internationalization/wcag-2.0-and-section-508-accessibility-compliance%})
 
- * [Right-to-Left Support]({%slug checkbox/accessibility-and-internationalization/right-to-left-support%})
+ * [Right-to-Left Support]({%slug radiobuttonlist/accessibility-and-internationalization/right-to-left-support%})

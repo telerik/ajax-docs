@@ -37,8 +37,8 @@ This article explains the **elastic design capabilities RadRadioButtonList offer
 
 ## See Also
 
- * [Mobile Support Overview]({%slug checkbox/mobile-support/overview%})
+ * [Mobile Support Overview]({%slug radiobuttonlist/mobile-support/overview%})
 
- * [Render Modes]({%slug checkbox/mobile-support/render-modes%})
+ * [Render Modes]({%slug radiobuttonlist/mobile-support/render-modes%})
 
 @[template](/_templates/common/font-size-notes.md#related-resources)
