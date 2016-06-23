@@ -1,8 +1,8 @@
 ---
 title: Create a Custom Skin
-page_title: Create a Custom Skin | RadCheckBox for ASP.NET AJAX Documentation
+page_title: Create a Custom Skin | RadRadioButtonList for ASP.NET AJAX Documentation
 description: Create a Custom Skin
-slug: checkbox/appearance-and-styling/create-a-custom-skin
+slug: radiobuttonlist/appearance-and-styling/create-a-custom-skin
 tags: create,a,custom,skin
 published: True
 position: 1
@@ -14,7 +14,7 @@ Each of the controls included in the **Telerik UI for ASP.NET AJAX** suite is st
 
 The second file represents the actual skin of the control, and its name consists of the control name plus the skin name, e.g.,  **Button.Default.css**. Upon creating a custom skin for the control, one should edit that particular file, as it contains skin-specific CSS properties and references to images, colors, borders and backgrounds.
 
-## Create a RadCheckBox Skin from an Existing One
+## Create a RadRadioButtonList Skin from an Existing One
 
 1. In your project, create a new directory named **Skins**;
 
@@ -34,16 +34,16 @@ The second file represents the actual skin of the control, and its name consists
 
 	1. **Skins/MyCustomSkinLite/Button.MyCustomSkin.css**.
 
-1. In order to support multiple skins of **RadCheckBox** on a single page, the wrapping skin-specific class is created using the name of the control, plus underscore ("_") plus SkinName, i.e., **.RadButton_Default**, so in order to create a custom skin out of the Default skin, we should rename all occurrences of **"RadButton_Default"** in **Button.MyCustomSkin.css** to **"RadButton_MyCustomSkin"** as shown below:
+1. In order to support multiple skins of **RadRadioButtonList** on a single page, the wrapping skin-specific class is created using the name of the control, plus underscore ("_") plus SkinName, i.e., **.RadButton_Default**, so in order to create a custom skin out of the Default skin, we should rename all occurrences of **"RadButton_Default"** in **Button.MyCustomSkin.css** to **"RadButton_MyCustomSkin"** as shown below:
 
 	![Rename Button Light](images/RenameButtonLight.png)
 
-1. Add a new server declaration of **RadCheckBox** on your page and set **Skin="MyCustomSkin"** and **EnableEmbeddedSkins="false"**:
+1. Add a new server declaration of **RadRadioButtonList** on your page and set **Skin="MyCustomSkin"** and **EnableEmbeddedSkins="false"**:
 
 	**ASP.NET**
 
-		<telerik:RadCheckBox runat="server" ID="RadCheckBox1" Skin="MyCustomSkin" EnableEmbeddedSkins="false">
-		</telerik:RadCheckBox>
+		<telerik:RadRadioButtonList runat="server" ID="RadRadioButtonList1" Skin="MyCustomSkin" EnableEmbeddedSkins="false">
+		</telerik:RadRadioButtonList>
 
 1. Register **Button.MyCustomSkin.css** in the head section of your web page. In order to have the CSS applied correctly, the base stylesheet should come first in the DOM:
 
@@ -53,7 +53,7 @@ The second file represents the actual skin of the control, and its name consists
 
 1. Make sure the path to the files is correct; otherwise the skin will not apply;
 
-1. Reload the page, and if the steps 1-11 have been followed correctly, you will see **RadCheckBox** running a custom Default skin set as an external resource.
+1. Reload the page, and if the steps 1-11 have been followed correctly, you will see **RadRadioButtonList** running a custom Default skin set as an external resource.
 
 ## Custom Skin Example
 
@@ -82,8 +82,8 @@ The example below shows how to modify the CSS in order not only to change some c
 <body>
 	<form id="form1" runat="server">
 		<asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
-		<telerik:RadCheckBox runat="server" ID="RadCheckBox1" Text="Check here">
-		</telerik:RadCheckBox>
+		<telerik:RadRadioButtonList runat="server" ID="RadRadioButtonList1" Text="Check here">
+		</telerik:RadRadioButtonList>
 	</form>
 </body>
 </html>

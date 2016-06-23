@@ -1,8 +1,8 @@
 ---
 title: Distorted Appearance
-page_title: Distorted Appearance | RadCheckBox for ASP.NET AJAX Documentation
+page_title: Distorted Appearance | RadRadioButtonList for ASP.NET AJAX Documentation
 description: Distorted Appearance
-slug: checkbox/troubleshooting/distorted-appearance
+slug: radiobuttonlist/troubleshooting/distorted-appearance
 tags: distorted,appearance
 published: True
 position: 1
@@ -10,15 +10,15 @@ position: 1
 
 # Distorted Appearance
 
-@[template](/_templates/button/distorted-appearance.md#intro "control: RadCheckBox")
+@[template](/_templates/button/distorted-appearance.md#intro "control: RadRadioButtonList")
 
 ````ASP.NET
 <telerik:RadButton RenderMode="Lightweight" ID="RadButton1" runat="server" Text="RadButton" />
 <br />
-<telerik:RadCheckBox ID="RadCheckBox1" runat="server" Text="RadCheckBox" Checked="true"></telerik:RadCheckBox>
+<telerik:RadRadioButtonList ID="RadRadioButtonList1" runat="server" Text="RadRadioButtonList" Checked="true"></telerik:RadRadioButtonList>
 ```` 
 
-@[template](/_templates/button/distorted-appearance.md#cause-resolve "control: RadCheckBox")
+@[template](/_templates/button/distorted-appearance.md#cause-resolve "control: RadRadioButtonList")
 
 
 * [Render Modes]({%slug checkbox/mobile-support/render-modes%})

@@ -1,8 +1,8 @@
 ---
 title: Render Modes
-page_title: Render Modes | RadCheckBox for ASP.NET AJAX Documentation
+page_title: Render Modes | RadRadioButtonList for ASP.NET AJAX Documentation
 description: Render Modes
-slug: checkbox/mobile-support/render-modes
+slug: radiobuttonlist/mobile-support/render-modes
 tags: render,modes
 published: True
 position: 2
@@ -10,9 +10,9 @@ position: 2
 
 # Render Modes
 
-@[template](/_templates/common/render-mode.md#buttons-supported-modes "control: RadCheckBox")
+@[template](/_templates/common/render-mode.md#buttons-supported-modes "control: RadRadioButtonList")
 
-@[template](/_templates/common/render-mode.md#do-not-mix-modes-buttons "control: RadCheckBox")
+@[template](/_templates/common/render-mode.md#do-not-mix-modes-buttons "control: RadRadioButtonList")
 
 
 ## Setting Render Mode
@@ -23,17 +23,17 @@ There are two ways to configure the rendering mode of the controls:
 
 	**ASP.NET**
 
-		<telerik:RadCheckBox ID="RadCheckBox1" runat="server" RenderMode="Lightweight">
-		</telerik:RadCheckBox>
+		<telerik:RadRadioButtonList ID="RadRadioButtonList1" runat="server" RenderMode="Lightweight">
+		</telerik:RadRadioButtonList>
 
 
 	**C#**
 
-		RadCheckBox1.RenderMode = Telerik.Web.UI.RenderMode.Lightweight;
+		RadRadioButtonList1.RenderMode = Telerik.Web.UI.RenderMode.Lightweight;
 
 	**VB**
 
-		RadCheckBox1.RenderMode = Telerik.Web.UI.RenderMode.Lightweight
+		RadRadioButtonList1.RenderMode = Telerik.Web.UI.RenderMode.Lightweight
 
 
 * A **global setting in the web.config** file that will affect the entire application, unless a concrete value is specified for a given control instance:

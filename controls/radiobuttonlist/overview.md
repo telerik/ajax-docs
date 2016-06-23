@@ -1,8 +1,8 @@
 ---
 title: Overview
-page_title: Overview | RadCheckBox for ASP.NET AJAX Documentation
+page_title: Overview | RadRadioButtonList for ASP.NET AJAX Documentation
 description: Overview
-slug: checkbox/overview
+slug: radiobuttonlist/overview
 tags: overview
 published: True
 position: 0
@@ -10,30 +10,30 @@ position: 0
 
 # CheckBox Overview
 
-The **RadCheckBox** control (**Figure 1**) enriches the features, that ASP.NET CheckBox control has. Additionally, it provides events, supports Commands and numerous [themes]({%slug checkbox/appearance-and-styling/skins%}). **RadCheckBox** is available as of **Q1 2016**.
+The **RadRadioButtonList** control (**Figure 1**) enriches the features, that ASP.NET RadioButtonList control has. Additionally, it provides events, supports Commands and numerous [themes]({%slug radiobuttonlist/appearance-and-styling/skins%}). **RadRadioButtonList** is available as of **R3 2016**.
 
-The control can be easily styled by changing the `Skin` property. This will eliminate the need to use the [RadFormDecorator]({%slug formdecorator/overview%}), just to style a single checkbox. Developers can easily migrate their applications from using the standard ASP.NET (checkbox) controls to the **RadCheckBox** control, because most of their functionality is provided by our control, and is controlled by the same or similar (intuitive) properties.
+The control can be easily styled by changing the `Skin` property. This will eliminate the need to use the [RadFormDecorator]({%slug formdecorator/overview%}). Developers can easily migrate their applications from using the standard ASP.NET (RadioButtonList) controls to the **RadRadioButtonList** control, because most of their functionality is provided by our control, and is controlled by the same or similar (intuitive) properties.
 
 
->caption Figure 1: RadCheckBox configuration.
+>caption Figure 1: RadRadioButtonList configuration.
 
-![RadButton](images/checkbox-overview.png)
+![](images/checkbox-overview.png)
 
->caption Example 1: A basic example of a RadCheckBox setup.
+>caption Example 1: A basic example of a RadRadioButtonList setup.
 
 ````ASP.NET
-<telerik:RadCheckBox ID="RadCheckBox1" runat="server" Text="I agree to the Terms of Service"></telerik:RadCheckBox>
+<telerik:RadRadioButtonList ID="RadRadioButtonList1" runat="server"></telerik:RadRadioButtonList>
 ````
 
->note **RadCheckBox** does not support a Classic [render mode]({%slug checkbox/mobile-support/render-modes%}). Setting its RenderMode to Classic will default to the Lightweight render mode.
+>note **RadRadioButtonList** does not support Classic [render mode]({%slug checkbox/mobile-support/render-modes%}). Setting its RenderMode to Classic will default to the Lightweight render mode.
 
 ## See Also
 
- * [RadCheckBox Online Demos](http://demos.telerik.com/aspnet-ajax/checkbox/examples/overview/defaultcs.aspx)
+ * [RadRadioButtonList Online Demos](http://demos.telerik.com/aspnet-ajax/checkbox/examples/overview/defaultcs.aspx)
  
- * [RadCheckBox Getting Started]({%slug checkbox/getting-started%})
+ * [RadRadioButtonList Getting Started]({%slug checkbox/getting-started%})
  
- * [RadCheckBox Checked State]({%slug checkbox/functionality/checked-state%})
+ * [RadRadioButtonList Checked State]({%slug checkbox/functionality/checked-state%})
  
- * [RadCheckBox Properties and Events]({%slug checkbox/server-side-programming/properties-and-events%})
+ * [RadRadioButtonList Properties and Events]({%slug checkbox/server-side-programming/properties-and-events%})
  
