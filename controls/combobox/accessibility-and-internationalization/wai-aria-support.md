@@ -50,6 +50,9 @@ RadComboBox1.EnableAriaSupport = true
 >note The implementation of the WAI ARIA support is achieved entirely client-side (using JavaScript) by appending different attributes and appropriate WAI-ARIA roles to the DOM elements. This is done because an HTML document containing ARIA attributes will not pass validation if they are added on the server.
 >
 
+>note The RadComboBox Templates do not support WAI-ARIA.
+>
+
 Enabling WAI-ARIA support of a **RadComboBox** will also allow you to adjust the [aria-label](http://www.w3.org/WAI/PF/aria/states_and_properties#aria-label) and [aria-describedby](http://www.w3.org/WAI/PF/aria/states_and_properties#aria-describedby) attributes of the control by using the **Label** and **DescribedBy** properties in the **AriaSettings** tag.
 
 >caption Example 2: Adjusting `aria-label` and `aria-describedby` attributes in **RadComboBox**.
