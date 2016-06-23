@@ -66,8 +66,8 @@ function pageLoad() {
 
 ## See Also
  
- * [Getting Started]({%slug checkbox/getting-started%})
+ * [Getting Started]({%slug radiobuttonlist/getting-started%})
 
- * [Server-Side API]({%slug checkbox/server-side-programming/properties-and-events%})
+ * [Server-Side API]({%slug radiobuttonlist/server-side-programming/properties-and-events%})
  
- * [Client-Side API]({%slug checkbox/client-side-programming/overview%})
+ * [Client-Side API]({%slug radiobuttonlist/client-side-programming/overview%})

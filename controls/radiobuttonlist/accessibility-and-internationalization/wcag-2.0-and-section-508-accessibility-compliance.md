@@ -14,7 +14,7 @@ The interface of **RadRadioButtonList for ASP.NET AJAX** is level AAA accessible
 
 The control is also visible in Windows High Contrast mode when rendered with Simple skin.
 
-It also offers [Keyboard support]({%slug checkbox/accessibility-and-internationalization/keyboard-support%}).
+It also offers [Keyboard support]({%slug radiobuttonlist/accessibility-and-internationalization/keyboard-support%}).
 
 ## See Also
 
@@ -24,6 +24,6 @@ It also offers [Keyboard support]({%slug checkbox/accessibility-and-internationa
 
  * [Web Content Accessibility Guidelines (WCAG) 2.0](http://www.w3.org/TR/WCAG/)
 
- * [Right-to-Left Support]({%slug checkbox/accessibility-and-internationalization/right-to-left-support%})
+ * [Right-to-Left Support]({%slug radiobuttonlist/accessibility-and-internationalization/right-to-left-support%})
 
- * [Keyboard Support]({%slug checkbox/accessibility-and-internationalization/keyboard-support%})
+ * [Keyboard Support]({%slug radiobuttonlist/accessibility-and-internationalization/keyboard-support%})

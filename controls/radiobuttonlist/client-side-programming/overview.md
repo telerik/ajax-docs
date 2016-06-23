@@ -10,7 +10,7 @@ position: 0
 
 # Client-side Programming Overview
 
-**RadRadioButtonList** provides a flexible client-side API. You can easily interact with the checkbox in the browser using the RadRadioButtonList client-side object. In addition to a variety of [client-side events]({%slug checkbox/client-side-programming/events/overview%}), the [client-side object model]({%slug checkbox/client-side-programming/checkbox-object%}) lets you achieve complicated tasks while avoiding unnecessary post-backs.
+**RadRadioButtonList** provides a flexible client-side API. You can easily interact with the checkbox in the browser using the RadRadioButtonList client-side object. In addition to a variety of [client-side events]({%slug radiobuttonlist/client-side-programming/events/overview%}), the [client-side object model]({%slug radiobuttonlist/client-side-programming/checkbox-object%}) lets you achieve complicated tasks while avoiding unnecessary post-backs.
 
 ## Getting the RadRadioButtonList client-side object
 
@@ -28,17 +28,17 @@ var checkBox = $telerik.findCheckBox("<%= RadRadioButtonList1.ClientID %>");
 
 ## See Also
 
- * [CheckBox Object]({%slug checkbox/client-side-programming/checkbox-object%})
+ * [CheckBox Object]({%slug radiobuttonlist/client-side-programming/checkbox-object%})
  
- * [Events Overview]({%slug checkbox/client-side-programming/events/overview%})
+ * [Events Overview]({%slug radiobuttonlist/client-side-programming/events/overview%})
  
- * [OnClientClicking]({%slug checkbox/client-side-programming/events/onclientclicking%})
+ * [OnClientClicking]({%slug radiobuttonlist/client-side-programming/events/onclientclicking%})
  
- * [OnClientClicked]({%slug checkbox/client-side-programming/events/onclientclicked%})
+ * [OnClientClicked]({%slug radiobuttonlist/client-side-programming/events/onclientclicked%})
  
- * [OnClientMouseOver]({%slug checkbox/client-side-programming/events/onclientmouseover%})
+ * [OnClientMouseOver]({%slug radiobuttonlist/client-side-programming/events/onclientmouseover%})
  
- * [OnClientMouseOut]({%slug checkbox/client-side-programming/events/onclientmouseout%})
+ * [OnClientMouseOut]({%slug radiobuttonlist/client-side-programming/events/onclientmouseout%})
 
 
 

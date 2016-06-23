@@ -79,25 +79,25 @@ function removeEvents()
 
 ## See Also
 
- * [CheckBox Object]({%slug checkbox/client-side-programming/checkbox-object%})
+ * [CheckBox Object]({%slug radiobuttonlist/client-side-programming/checkbox-object%})
  
- * [Events Overview]({%slug checkbox/client-side-programming/events/overview%})
+ * [Events Overview]({%slug radiobuttonlist/client-side-programming/events/overview%})
  
- * [CheckBox Object]({%slug checkbox/client-side-programming/checkbox-object%})
+ * [CheckBox Object]({%slug radiobuttonlist/client-side-programming/checkbox-object%})
  
- * [OnClientLoad]({%slug checkbox/client-side-programming/events/onclientload%})
+ * [OnClientLoad]({%slug radiobuttonlist/client-side-programming/events/onclientload%})
  
- * [OnClientClicking]({%slug checkbox/client-side-programming/events/onclientclicking%})
+ * [OnClientClicking]({%slug radiobuttonlist/client-side-programming/events/onclientclicking%})
  
- * [OnClientClicked]({%slug checkbox/client-side-programming/events/onclientclicked%})
+ * [OnClientClicked]({%slug radiobuttonlist/client-side-programming/events/onclientclicked%})
  
- * [OnClientCheckedChanging]({%slug checkbox/client-side-programming/events/onclientcheckedchanging%})
+ * [OnClientCheckedChanging]({%slug radiobuttonlist/client-side-programming/events/onclientcheckedchanging%})
 
- * [OnClientCheckedChanged]({%slug checkbox/client-side-programming/events/onclientcheckedchanged%})
+ * [OnClientCheckedChanged]({%slug radiobuttonlist/client-side-programming/events/onclientcheckedchanged%})
  
- * [OnClientMouseOver]({%slug checkbox/client-side-programming/events/onclientmouseover%})
+ * [OnClientMouseOver]({%slug radiobuttonlist/client-side-programming/events/onclientmouseover%})
  
- * [OnClientMouseOut]({%slug checkbox/client-side-programming/events/onclientmouseout%})
+ * [OnClientMouseOut]({%slug radiobuttonlist/client-side-programming/events/onclientmouseout%})
 
 
 

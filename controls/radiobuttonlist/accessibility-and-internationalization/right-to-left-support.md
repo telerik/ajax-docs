@@ -29,6 +29,6 @@ The **RadRadioButtonList** fully supports right-to-left (RTL) language locales (
 
  * [Live Demo: RadRadioButtonList RTL Support](http://demos.telerik.com/aspnet-ajax/checkbox/examples/righttoleft/defaultcs.aspx)
 
- * [WCAG 2.0 and Section 508 Accessibility Compliance]({%slug checkbox/accessibility-and-internationalization/wcag-2.0-and-section-508-accessibility-compliance%})
+ * [WCAG 2.0 and Section 508 Accessibility Compliance]({%slug radiobuttonlist/accessibility-and-internationalization/wcag-2.0-and-section-508-accessibility-compliance%})
 
- * [Keyboard Support]({%slug checkbox/accessibility-and-internationalization/keyboard-support%})
+ * [Keyboard Support]({%slug radiobuttonlist/accessibility-and-internationalization/keyboard-support%})

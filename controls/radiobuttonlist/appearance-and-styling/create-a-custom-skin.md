@@ -91,4 +91,4 @@ The example below shows how to modify the CSS in order not only to change some c
 
 ## See Also
 
- * [Render Modes]({%slug checkbox/mobile-support/render-modes%})
+ * [Render Modes]({%slug radiobuttonlist/mobile-support/render-modes%})

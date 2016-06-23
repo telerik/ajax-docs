@@ -65,7 +65,7 @@ To integrate **RadRadioButtonList** with HTML Label you should simply set the fo
  
  * [RadLabel Getting Started]({%slug label/getting-started%})
   
- * [RadRadioButtonList Getting Started]({%slug checkbox/getting-started%})
+ * [RadRadioButtonList Getting Started]({%slug radiobuttonlist/getting-started%})
  
  
 

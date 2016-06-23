@@ -12,19 +12,19 @@ position: 0
 
 RadRadioButtonList exposes several client-side events that allow easy and flexible use in a wide range of application scenarios:
 
-* **[OnClientLoad (load)]({%slug checkbox/client-side-programming/events/onclientload%})** - raised when the control is initialized.
+* **[OnClientLoad (load)]({%slug radiobuttonlist/client-side-programming/events/onclientload%})** - raised when the control is initialized.
 
-* **[OnClientClicking (clicking)]({%slug checkbox/client-side-programming/events/onclientclicking%})** - raised when the user clicks the checkbox. The event can be canceled.
+* **[OnClientClicking (clicking)]({%slug radiobuttonlist/client-side-programming/events/onclientclicking%})** - raised when the user clicks the checkbox. The event can be canceled.
 
-* **[OnClientClicked (clicked)]({%slug checkbox/client-side-programming/events/onclientclicked%})** - raised when the checkbox is clicked. The event is subsequent to the **OnClientCheckedChanged** event.
+* **[OnClientClicked (clicked)]({%slug radiobuttonlist/client-side-programming/events/onclientclicked%})** - raised when the checkbox is clicked. The event is subsequent to the **OnClientCheckedChanged** event.
 
-* **[OnClientCheckedChanging (checkedChanging)]({%slug checkbox/client-side-programming/events/onclientcheckedchanging%})** - raised after the user clicks the checkbox and before the checked state is changed. The event can be canceled and it is subsequent to the **OnClientCheckedChanged** event.
+* **[OnClientCheckedChanging (checkedChanging)]({%slug radiobuttonlist/client-side-programming/events/onclientcheckedchanging%})** - raised after the user clicks the checkbox and before the checked state is changed. The event can be canceled and it is subsequent to the **OnClientCheckedChanged** event.
 
-* **[OnClientCheckedChanged (checkedChanged)]({%slug checkbox/client-side-programming/events/onclientcheckedchanged%})** - raised when the checked state of the checkbox is changed. The event is subsequent to the **OnClientCheckedChanging** event.
+* **[OnClientCheckedChanged (checkedChanged)]({%slug radiobuttonlist/client-side-programming/events/onclientcheckedchanged%})** - raised when the checked state of the checkbox is changed. The event is subsequent to the **OnClientCheckedChanging** event.
 
-* **[OnClientMouseOver (mouseOver)]({%slug checkbox/client-side-programming/events/onclientmouseover%})** - raised when the mouse hovers over the control.
+* **[OnClientMouseOver (mouseOver)]({%slug radiobuttonlist/client-side-programming/events/onclientmouseover%})** - raised when the mouse hovers over the control.
 
-* **[OnClientMouseOut (mouseOut)]({%slug checkbox/client-side-programming/events/onclientmouseout%})** - raised when the mouse leaves the control.
+* **[OnClientMouseOut (mouseOut)]({%slug radiobuttonlist/client-side-programming/events/onclientmouseout%})** - raised when the mouse leaves the control.
 
 To handle the desired event, the user must set the respective property to the name of the JavaScript function handling the event or to an anonymous JavaScript function. Here is an example:
 
@@ -75,21 +75,21 @@ RadRadioButtonList1.OnClientClicked = "function(sender,args){Click(sender, args,
 
  * [CheckBox - Client-side Events Demo](http://demos.telerik.com/aspnet-ajax/checkbox/client-side-api/client-side-events/defaultcs.aspx)
  
- * [CheckBox Object]({%slug checkbox/client-side-programming/checkbox-object%})
+ * [CheckBox Object]({%slug radiobuttonlist/client-side-programming/checkbox-object%})
  
- * [OnClientLoad]({%slug checkbox/client-side-programming/events/onclientload%})
+ * [OnClientLoad]({%slug radiobuttonlist/client-side-programming/events/onclientload%})
  
- * [OnClientClicking]({%slug checkbox/client-side-programming/events/onclientclicking%})
+ * [OnClientClicking]({%slug radiobuttonlist/client-side-programming/events/onclientclicking%})
  
- * [OnClientClicked]({%slug checkbox/client-side-programming/events/onclientclicked%})
+ * [OnClientClicked]({%slug radiobuttonlist/client-side-programming/events/onclientclicked%})
  
- * [OnClientCheckedChanging]({%slug checkbox/client-side-programming/events/onclientcheckedchanging%})
+ * [OnClientCheckedChanging]({%slug radiobuttonlist/client-side-programming/events/onclientcheckedchanging%})
 
- * [OnClientCheckedChanged]({%slug checkbox/client-side-programming/events/onclientcheckedchanged%})
+ * [OnClientCheckedChanged]({%slug radiobuttonlist/client-side-programming/events/onclientcheckedchanged%})
  
- * [OnClientMouseOver]({%slug checkbox/client-side-programming/events/onclientmouseover%})
+ * [OnClientMouseOver]({%slug radiobuttonlist/client-side-programming/events/onclientmouseover%})
  
- * [OnClientMouseOut]({%slug checkbox/client-side-programming/events/onclientmouseout%})
+ * [OnClientMouseOut]({%slug radiobuttonlist/client-side-programming/events/onclientmouseout%})
 
 
 

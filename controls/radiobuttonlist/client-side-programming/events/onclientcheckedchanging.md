@@ -10,7 +10,7 @@ position: 5
 
 # OnClientCheckedChanging
 
-The **checkedChanging** event is subsequent to the [clicking]({%slug checkbox/client-side-programming/events/onclientclicking%}) event, and occurs before the **RadRadioButtonList** checked state is changed.
+The **checkedChanging** event is subsequent to the [clicking]({%slug radiobuttonlist/client-side-programming/events/onclientclicking%}) event, and occurs before the **RadRadioButtonList** checked state is changed.
 
 The event handler receives two parameters:
 
@@ -53,18 +53,18 @@ The following example asks the user to confirm whether they want to change the s
 
  * [CheckBox - Client-side Events Demo](http://demos.telerik.com/aspnet-ajax/checkbox/client-side-api/client-side-events/defaultcs.aspx)
 
- * [CheckBox Object]({%slug checkbox/client-side-programming/checkbox-object%})
+ * [CheckBox Object]({%slug radiobuttonlist/client-side-programming/checkbox-object%})
  
- * [OnClientLoad]({%slug checkbox/client-side-programming/events/onclientload%})
+ * [OnClientLoad]({%slug radiobuttonlist/client-side-programming/events/onclientload%})
  
- * [OnClientClicking]({%slug checkbox/client-side-programming/events/onclientclicking%})
+ * [OnClientClicking]({%slug radiobuttonlist/client-side-programming/events/onclientclicking%})
  
- * [OnClientClicked]({%slug checkbox/client-side-programming/events/onclientclicked%})
+ * [OnClientClicked]({%slug radiobuttonlist/client-side-programming/events/onclientclicked%})
 
- * [OnClientCheckedChanged]({%slug checkbox/client-side-programming/events/onclientcheckedchanged%})
+ * [OnClientCheckedChanged]({%slug radiobuttonlist/client-side-programming/events/onclientcheckedchanged%})
  
- * [OnClientMouseOver]({%slug checkbox/client-side-programming/events/onclientmouseover%})
+ * [OnClientMouseOver]({%slug radiobuttonlist/client-side-programming/events/onclientmouseover%})
  
- * [OnClientMouseOut]({%slug checkbox/client-side-programming/events/onclientmouseout%})
+ * [OnClientMouseOut]({%slug radiobuttonlist/client-side-programming/events/onclientmouseout%})
  
  * [Telerik.Web.UI.**ButtonCheckedCancelEventArgs**](http://docs.telerik.com/devtools/aspnet-ajax/api/client/args/Telerik.Web.UI.ButtonCheckedCancelEventArgs)

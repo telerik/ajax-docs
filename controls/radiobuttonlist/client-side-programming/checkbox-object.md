@@ -48,7 +48,7 @@ The following table lists the most important members of the client-side RadRadio
 | Name | Description |
 | ------ | ------ |
 | **focus** |Brings the focus to the RadRadioButtonList control.|
-| **click** |Executes programmatic checkbox click. Accepts an optional boolean parameter that specifies whether the client-side [clicking event]({%slug checkbox/client-side-programming/events/onclientclicking%}) of RadRadioButtonList will be fired when the control is clicked programmatically. If the function is called without parameter, the clicking event will not be fired.|
+| **click** |Executes programmatic checkbox click. Accepts an optional boolean parameter that specifies whether the client-side [clicking event]({%slug radiobuttonlist/client-side-programming/events/onclientclicking%}) of RadRadioButtonList will be fired when the control is clicked programmatically. If the function is called without parameter, the clicking event will not be fired.|
 
 >caption Methods for Modifying Client-side Event Handlers Dynamically
 
@@ -69,9 +69,9 @@ The following table lists the most important members of the client-side RadRadio
 | **add_mouseOut** |The name of the JavaScript function when the mouse leaves the control.|
 | **remove_mouseOut** |Removes a handler for the mouseOut event.|
 
-You can read more on the subject in the [Setting Client Event Handlers by Using JavaScript]({%slug checkbox/client-side-programming/events/setting-event-handlers-via-javascript%}) help article.
+You can read more on the subject in the [Setting Client Event Handlers by Using JavaScript]({%slug radiobuttonlist/client-side-programming/events/setting-event-handlers-via-javascript%}) help article.
 
 ## See Also
 
- * [Client-side Programming Overview]({%slug checkbox/client-side-programming/overview%})
+ * [Client-side Programming Overview]({%slug radiobuttonlist/client-side-programming/overview%})
  

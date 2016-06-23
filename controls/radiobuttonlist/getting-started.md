@@ -75,6 +75,6 @@ The following tutorial demonstrates how to set up a page with a **RadRadioButton
 
 ## See Also
 
- * [Design Time]({%slug checkbox/design-time%})
+ * [Design Time]({%slug radiobuttonlist/design-time%})
 
- * [Properties and Events]({%slug checkbox/server-side-programming/properties-and-events%})
+ * [Properties and Events]({%slug radiobuttonlist/server-side-programming/properties-and-events%})
