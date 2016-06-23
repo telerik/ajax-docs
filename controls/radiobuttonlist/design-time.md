@@ -12,9 +12,11 @@ position: 3
 
 The Smart Tag of **RadRadioButtonList** (**Figure 1**) lets you configure your control or quickly get help. You can display the Smart Tag by right clicking on a **RadRadioButtonList** control and choosing "Show Smart Tag", or clicking the small rightward-pointing arrow located in the upper right corner of the control.
 
->caption Figure 1: RadRadioButtonList's smart tag.
+<!-- >caption Figure 1: RadRadioButtonList's smart tag.
 
-![button-smart-tag](images/checkbox-smart-tag.png)
+<Comment: Image should be updated>
+
+ ![](images/checkbox-smart-tag.png) -->
 
 ## Ajax Resources
 
@@ -42,5 +44,5 @@ The **Skin** drop-down displays a list of available [skins]({%slug radiobuttonli
  
  * [RadRadioButtonList Getting Started]({%slug radiobuttonlist/getting-started%})
  
- * [RadRadioButtonList Online Demos](http://demos.telerik.com/aspnet-ajax/checkbox/examples/overview/defaultcs.aspx)
+ * [RadRadioButtonList Online Demos](http://demos.telerik.com/aspnet-ajax/radiobuttonlist/examples/overview/defaultcs.aspx)
 
