@@ -17,23 +17,27 @@ The control can be easily styled by changing the `Skin` property. This will elim
 
 >caption Figure 1: RadRadioButtonList configuration.
 
-![](images/checkbox-overview.png)
+![](images/radiobuttonlist-overview.png)
 
 >caption Example 1: A basic example of a RadRadioButtonList setup.
 
 ````ASP.NET
-<telerik:RadRadioButtonList ID="RadRadioButtonList1" runat="server"></telerik:RadRadioButtonList>
+<telerik:RadRadioButtonList runat="server" ID="RadRadioButtonList1">
+    <Items>
+        <telerik:RadioButtonListItem Text="English" Selected="true" />
+        <telerik:RadioButtonListItem Text="German" />
+        <telerik:RadioButtonListItem Text="French" />
+    </Items>
+</telerik:RadRadioButtonList>
 ````
 
 >note **RadRadioButtonList** does not support Classic [render mode]({%slug radiobuttonlist/mobile-support/render-modes%}). Setting its RenderMode to Classic will default to the Lightweight render mode.
 
 ## See Also
 
- * [RadRadioButtonList Online Demos](http://demos.telerik.com/aspnet-ajax/checkbox/examples/overview/defaultcs.aspx)
+ * [RadRadioButtonList Online Demos](http://demos.telerik.com/aspnet-ajax/radiobuttonlist/examples/overview/defaultcs.aspx)
  
  * [RadRadioButtonList Getting Started]({%slug radiobuttonlist/getting-started%})
- 
- * [RadRadioButtonList Checked State]({%slug radiobuttonlist/functionality/checked-state%})
  
  * [RadRadioButtonList Properties and Events]({%slug radiobuttonlist/server-side-programming/properties-and-events%})
  
