@@ -1,8 +1,8 @@
 ---
 title: Keyboard Support
-page_title: Keyboard Support | RadCheckBox for ASP.NET AJAX Documentation
+page_title: Keyboard Support | RadRadioButtonList for ASP.NET AJAX Documentation
 description: Keyboard Support
-slug: checkbox/accessibility-and-internationalization/keyboard-support
+slug: radiobuttonlist/accessibility-and-internationalization/keyboard-support
 tags: keyboard,support
 published: True
 position: 2
@@ -10,7 +10,7 @@ position: 2
 
 # Keyboard Support
 
-There are several ways to use the **RadCheckBox** via the keyboard only:
+There are several ways to use the **RadRadioButtonList** via the keyboard only:
 
 * Set its **TabIndex** property and use the **Tab** key to navigate to the desired checkbox and then press the **Enter** key to invoke a click on the checkbox.
 
@@ -20,7 +20,7 @@ There are several ways to use the **RadCheckBox** via the keyboard only:
 
 ## See Also
 
- * [Live Demo: RadCheckBox Keyboard Support](http://demos.telerik.com/aspnet-ajax/checkbox/examples/keyboard-support/defaultcs.aspx)
+ * [Live Demo: RadRadioButtonList Keyboard Support](http://demos.telerik.com/aspnet-ajax/checkbox/examples/keyboard-support/defaultcs.aspx)
 
  * [WCAG 2.0 and Section 508 Accessibility Compliance]({%slug checkbox/accessibility-and-internationalization/wcag-2.0-and-section-508-accessibility-compliance%})
 

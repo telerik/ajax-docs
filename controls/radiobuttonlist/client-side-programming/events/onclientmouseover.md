@@ -1,8 +1,8 @@
 ---
 title: OnClientMouseOver
-page_title: OnClientMouseOver | RadCheckBox for ASP.NET AJAX Documentation
+page_title: OnClientMouseOver | RadRadioButtonList for ASP.NET AJAX Documentation
 description: OnClientMouseOver
-slug: checkbox/client-side-programming/events/onclientmouseover
+slug: radiobuttonlist/client-side-programming/events/onclientmouseover
 tags: onclientmouseover
 published: True
 position: 7
@@ -14,13 +14,13 @@ The **mouseOver** event is fired when the user moves the mouse pointer over the 
 
 The event handler receives two parameters:
 
-1. The instance of the clicked RadCheckBox control.
+1. The instance of the clicked RadRadioButtonList control.
 
 1. An eventArgs parameter of type [Telerik.Web.UI.ButtonEventArgs](http://docs.telerik.com/devtools/aspnet-ajax/api/client/args/Telerik.Web.UI.ButtonEventArgs), containing the following properties and methods:
 
-	* get_commandName() - returns the value assigned to the RadCheckBox's **CommandName** property.
+	* get_commandName() - returns the value assigned to the RadRadioButtonList's **CommandName** property.
 
-	* get_commandArgument() - returns the value assigned to the RadCheckBox's **CommandArgument** property.
+	* get_commandArgument() - returns the value assigned to the RadRadioButtonList's **CommandArgument** property.
 
 
 ## See Also
