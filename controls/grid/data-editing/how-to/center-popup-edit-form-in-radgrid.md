@@ -11,20 +11,7 @@ position: 17
 # Center PopUp Edit Form in RadGrid
 
 
-Since Q2 2016 the RadGrid provides the option to center the popup edit form automatically. To enable the feature you need to set the **KeepInScreenBounds** property to **true**. In addition, with this approach the **EditForm** will be kept inside the screen boundaries.
-
-
-````ASP.NET
-<MasterTableView  EditMode="PopUp">
-    <EditFormSettings>
-        <PopUpSettings KeepInScreenBounds="true" />
-    </EditFormSettings> 
-
-</MasterTableView>
-````
- 
-
-In case you have an older version of the controls and you need to center the EditForm you can use the following approach. 
+By default the popup window is shown under the edit button or insert button. In case you need to center the window you need to manually calculate the position and set it to the window. 
 
 
 ````ASP.NET
