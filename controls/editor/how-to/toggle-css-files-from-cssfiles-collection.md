@@ -10,7 +10,7 @@ position: 8
 
 # Toggle CSS Files from the CssFiles Collection
 
-In this article you can see how you can create a [custom tool]({%slug editor/functionality/toolbars/buttons/add-your-own-buttons%}) that toggles the decoration of the CSS files included through the [CssFiles collection]({%slug editor/functionality/toolbars/dropdowns/external-css-files%}). 
+In this article you learn to create a [custom tool]({%slug editor/functionality/toolbars/buttons/add-your-own-buttons%}) that toggles the decoration of the CSS files included through the [CssFiles collection]({%slug editor/functionality/toolbars/dropdowns/external-css-files%}). 
 
 Basically, you need to programmatically find the link tag and set its `disabled` attribute to `true` to disable it or `false` to enable it. 
 
