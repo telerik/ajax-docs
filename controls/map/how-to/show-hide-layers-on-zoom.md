@@ -10,9 +10,9 @@ position: 1
 
 # Show and Hide Layers According to Zoom Level
 
-In this example here you can see how you can configure layers to show and hide on based on the zoom level. 
+In the example below you can see how to configure layers to show and hide on based on the zoom level. 
 
-That is done by using the `MinZoom` and `MaxZoom` properties of the **MapLayer** class.
+The example uses the `MinZoom` and `MaxZoom` properties of the **MapLayer** class.
 
 In the figures below you can see the result of the code from **Example 1**.
 
