@@ -14,7 +14,7 @@ In this article you will see how to adjust the native browser's spellcheck to ge
 
 Modern browsers support spellchecking as an out-of-the-box feature. This feature has nothing to do with the built-in [AjaxSpellChecker]({%slug editor/functionality/spellchecker/overview%}) of **RadEditor** and it is configurable by the [spellcheck](https://developer.mozilla.org/en-US/docs/Mozilla/Tech/XUL/Attribute/spellcheck) and [lang](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/lang) DOM attributes. 
 
->caption Example:1 How-to disable browser spellcheck in RadEditor
+>caption Example 1: How to disable browser spellcheck in RadEditor
 
 ````ASP.NET
 <telerik:RadEditor runat="server" ID="RadEditor1" RenderMode="Lightweight" OnClientLoad="OnClientLoad">
@@ -27,7 +27,7 @@ Modern browsers support spellchecking as an out-of-the-box feature. This feature
 </script>
 ````
 
->caption Example:2 How-to change the language of the browser spellcheck in RadEditor
+>caption Example 2: How to change the language of the browser spellcheck in RadEditor
 
 ````ASP.NET
 <telerik:RadEditor runat="server" ID="RadEditor1" RenderMode="Lightweight" OnClientLoad="OnClientLoad">
