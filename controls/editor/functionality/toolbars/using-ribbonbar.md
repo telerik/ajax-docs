@@ -18,7 +18,7 @@ In this article you can see how to configure the **RibbonBar** toolbar of **RadE
 
 ## Enabling RibbonBar Modes
 
-In order to enable the RibbonBar toolbar you need to set the `ToolbarMode` property to `RibbonBar`, `RibbonBarFloating`, `RibbonBarPageTop` or `RibbonBarShowOnFocus` mode.
+In order to enable the RibbonBar toolbar, you need to set the `ToolbarMode` property to the `RibbonBar`, `RibbonBarFloating`, `RibbonBarPageTop` or `RibbonBarShowOnFocus` mode.
 
 >caption Example 1: Enabling RibbonBar toolbar
 
@@ -29,7 +29,7 @@ In order to enable the RibbonBar toolbar you need to set the `ToolbarMode` prope
 
 ## Changing Tools in RibbonBar
 
-You can use the same ways to change the tools as with [Default toolbar]({%slug editor/functionality/toolbars/buttons/add-standard-buttons%}). With **RibbonBar** it is essential to setup properly the `Tab` and `Tag` properties as these properties define the tabs and the sections to be rendered.
+You can use the same ways to change the tools in the RibbonBar that you use in the [Default toolbar]({%slug editor/functionality/toolbars/buttons/add-standard-buttons%}). With **RibbonBar** it is essential to setup properly the `Tab` and `Tag` properties as these properties define the tabs and the sections to be rendered.
 
 >caption Example 2: Changing tools in RibbonBar in the markup
 
