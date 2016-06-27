@@ -17,11 +17,13 @@ To strip MS Word formatting from content at run-time you can use the RadEditor c
 The example below demonstrates stripping out Word formatting when the RadEditor is first loaded:
 
 ````ASP.NET
-<script type="text/javascript">function OnClientLoad(editor, args){    
-	editor.fire("SelectAll");    
-	editor.fire("FormatStripper", {value : "WORD"}); //strips the MS Word formatting}
+<script type="text/javascript">
+	function OnClientLoad(editor, args){    
+		editor.fire("SelectAll");    
+		editor.fire("FormatStripper", {value : "WORD"}); //strips the MS Word formatting
+	}
 </script>
-...
+
 <telerik:RadEditor RenderMode="Lightweight" runat="server" OnClientLoad="OnClientLoad" ID="RadEditor1">
 	<Content>    
 		<p><span style="FONT-SIZE: 10pt; FONT-FAMILY: Arial"><span style="FONT-SIZE: 10pt; FONT-FAMILY: Arial"></p>       
