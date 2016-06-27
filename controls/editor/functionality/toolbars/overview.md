@@ -172,7 +172,7 @@ Below is an example of a ToolsFile:
 
  * [Set Properties]({%slug editor/getting-started/set-properties%})
 
- * [Default ToolsFile.xml file of RadEditor for ASP.NET AJAX](http://www.telerik.com/support/kb/details/default-toolsfile-xml-file-of-radeditor-for-asp-net-ajax)
+ * [Default ToolsFile.xml file of RadEditor for ASP.NET AJAX](http://www.telerik.com/support/kb/aspnet-ajax/editor/details/default-toolsfile-xml-file-of-radeditor-for-asp-net-ajax)
 
  * [Dialogs live example](http://demos.telerik.com/aspnet-ajax/editor/examples/built-in-dialogs/defaultcs.aspx)
 
