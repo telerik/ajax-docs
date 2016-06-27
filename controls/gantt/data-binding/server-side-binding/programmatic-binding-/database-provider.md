@@ -30,10 +30,59 @@ The following example illustrates a possible realization of the above mentioned.
     </DataBindings>
 </telerik:RadGantt>
 
-<asp:SqlDataSource runat="server" ID="SqlDataSource1" SelectCommand="SELECT [ID],[ParentID],[Start],[End],[Title],[PercentComplete] FROM [Tasks]" 
-    ConnectionString="<%$ ConnectionStrings:GanttConnectionString %>"></asp:SqlDataSource>
-<asp:SqlDataSource runat="server" ID="SqlDataSource2" SelectCommand="SELECT [Type],[ID],[PredecessorID],[SuccessorID] FROM [Dependencies]" 
-    ConnectionString="<%$ ConnectionStrings:GanttConnectionString %>"></asp:SqlDataSource>
+<asp:SqlDataSource runat="server" ID="SqlDataSource1"
+    ConnectionString="<%$ ConnectionStrings:TelerikConnectionString%>"
+    DeleteCommand="DELETE FROM [GanttTasks] WHERE [ID] = @ID"
+    InsertCommand="INSERT INTO [GanttTasks] ([ParentID], [OrderID], [Title], [Start], [End], [PercentComplete], [Expanded], [Summary]) VALUES (@ParentID, @OrderID, @Title, @Start, @End, @PercentComplete, @Expanded, @Summary)"
+    SelectCommand="SELECT * FROM [GanttTasks] WHERE [ORderID] != -1"
+    UpdateCommand="UPDATE [GanttTasks] SET [ParentID] = @ParentID, [OrderID] = @OrderID, [Title] = @Title, [Start] = @Start, [End] = @End, [PercentComplete] = @PercentComplete, [Expanded] = @Expanded, [Summary] = @Summary WHERE [ID] = @ID">
+    <DeleteParameters>
+        <asp:Parameter Name="ID" Type="Int32" />
+    </DeleteParameters>
+    <InsertParameters>
+        <asp:Parameter Name="ParentID" Type="Int32" />
+        <asp:Parameter Name="OrderID" Type="Int32" />
+        <asp:Parameter Name="Title" Type="String" />
+        <asp:Parameter Name="Start" Type="DateTime" />
+        <asp:Parameter Name="End" Type="DateTime" />
+        <asp:Parameter Name="PercentComplete" Type="Decimal" />
+        <asp:Parameter Name="Expanded" Type="Boolean" />
+        <asp:Parameter Name="Summary" Type="Boolean" />
+    </InsertParameters>
+    <UpdateParameters>
+        <asp:Parameter Name="ParentID" Type="Int32" />
+        <asp:Parameter Name="OrderID" Type="Int32" />
+        <asp:Parameter Name="Title" Type="String" />
+        <asp:Parameter Name="Start" Type="DateTime" />
+        <asp:Parameter Name="End" Type="DateTime" />
+        <asp:Parameter Name="PercentComplete" Type="Decimal" />
+        <asp:Parameter Name="Expanded" Type="Boolean" />
+        <asp:Parameter Name="Summary" Type="Boolean" />
+        <asp:Parameter Name="ID" Type="Int32" />
+    </UpdateParameters>
+</asp:SqlDataSource>
+
+<asp:SqlDataSource runat="server" ID="SqlDataSource2"
+    ConnectionString="<%$ ConnectionStrings:TelerikConnectionString%>"
+    DeleteCommand="DELETE FROM [GanttDependencies] WHERE [ID] = @ID"
+    InsertCommand="INSERT INTO [GanttDependencies] ([PredecessorID], [SuccessorID], [Type]) VALUES (@PredecessorID, @SuccessorID, @Type)"
+    SelectCommand="SELECT * FROM [GanttDependencies]"
+    UpdateCommand="UPDATE [GanttDependencies] SET [PredecessorID] = @PredecessorID, [SuccessorID] = @SuccessorID, [Type] = @Type WHERE [ID] = @ID">
+    <DeleteParameters>
+        <asp:Parameter Name="ID" Type="Int32" />
+    </DeleteParameters>
+    <InsertParameters>
+        <asp:Parameter Name="PredecessorID" Type="Int32" />
+        <asp:Parameter Name="SuccessorID" Type="Int32" />
+        <asp:Parameter Name="Type" Type="Int32" />
+    </InsertParameters>
+    <UpdateParameters>
+        <asp:Parameter Name="PredecessorID" Type="Int32" />
+        <asp:Parameter Name="SuccessorID" Type="Int32" />
+        <asp:Parameter Name="Type" Type="Int32" />
+        <asp:Parameter Name="ID" Type="Int32" />
+    </UpdateParameters>
+</asp:SqlDataSource>
 ````
 
 # See Also
