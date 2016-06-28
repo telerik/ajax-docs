@@ -75,13 +75,9 @@ These are the skins provided by Telerik. Since Q3 2011 they are embedded in the 
 
 1. **Windows7**
 
-<Comment: In the list above you use BlackMetroTouch, so why are there () around Black in the next sentence? I suggest you remove them but was unsure if that would create a technical error.>
->important Bootstrap, Material, Metro and (Black)MetroTouch skins have predefined **font-family** as follows:
->
-* Material - font-family: "Roboto", "Noto", sans-serif;
-* Bootstrap - font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-* Metro - font-family: "Segoe UI", Arial, Helvetica, sans-serif; 
-<Comment: Per a discussion with Petya Sotirova in April, her teams are moving XAML away from the space single-hyphen space style (which was for legacy Telerik documentation) and instead uses a colon. The NativeScript team follows this style already. I will forward that thread to you, Marin, to consider with your team.>
+
+>tip Some skins have a predefined font, others inherit the font of the page. You can read more in the [Fonts]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/fonts%}) article.
+
 
 @[template - Material skin is available only in Lightweight mode](/_templates/common/skins-notes.md#material-only-in-lightweight)
 
@@ -92,7 +88,7 @@ These are the skins provided by Telerik. Since Q3 2011 they are embedded in the 
 
 These are skins created by the developer. They are not embedded in the Telerik.Web.UI assembly, so the control cannot register them automatically. If you use a custom skin you need to set the **EnableEmbeddedSkins** property of the control to **false**, as well as set the **Skin** property to the name of the custom skin. If you do not do so, an exception will be thrown saying that there is no embedded skin matching the **Skin** property:
 
-* *Telerik.Web.UI.RadSlider with ID='RadSlider1'* was unable to find embedded skin with name **'MySkin'**. Please make sure that you spelled the skin name correctly, or if you want to use a custom skin, set **EnableEmbeddedSkins = false**.
+* *Telerik.Web.UI.RadSlider with ID='RadSlider1'* was unable to find embedded skin with name **'MySkin'**. Please, make sure that you spelled the skin name correctly, or if you want to use a custom skin, set **EnableEmbeddedSkins = false**.
 
 ## Modified Built-in Skins
 
@@ -136,12 +132,12 @@ The base stylesheets (if present as non-embedded files) are stored in the parent
 ### Different Skins for Different Render Modes
 
 Each Render Mode of a control has its own rendering and, therefore, the [base stylesheet](#base-stylesheets) and the skin-specific stylesheet it requires are different from those used for the other Render Modes.
-<Comment: Outside of a code example, I think Render Modes is two words, though I am not sure if it should be capitalized. This section uses both Render Modes and RenderModes and RenderMode, and that confused me. I am changing to two words everywhere to be consistent. If I made an error here, I apologize; please set them back to one word if that is more technically accurate for some cases. In some places (later in the article) you did not capitalize the words, so I am unsure what to suggest. I lean toward not lower case when possible.>
+
 To reduce the footprint of the controls, each skin mode is kept in a separate folder and is only sent when needed.
 
 When customizing a built-in skin, you should use the folder according to the Render Mode you will be using.
 
-The Render Mode-specific folders have the following structure: **[Skin Name][RenderMode]**. For example, **SilkLite** (for the Lightweight RenderMode) and **SilkMobile** (for the Mobile Render Mode) are the two sibling folders within the **Silk** folder. <Comment: Please check that my change to "within" did not create a technical error. Figure 3 indicates there is a Silk folder and there are two sibling folders within that, so my change should be correct.>
+The Render Mode-specific folders have the following structure: **[Skin Name][RenderMode]**. For example, **SilkLite** (for the Lightweight RenderMode) and **SilkMobile** (for the Mobile Render Mode) are the two sibling folders next to the **Silk** folder.
 
 **Figure 2** and **Figure 3** show the basic file structure and location of a skin with its render mode-specific variations. For brevity, only files related to RadGrid and RadEditor are shown. A full-blown skin will contain the full control list according to the [supported render modes]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/mobile-support/render-modes%}). **Figure 3** shows a collapsed structure of the Default skin and its render mode variations as well.
 
@@ -153,7 +149,7 @@ The Render Mode-specific folders have the following structure: **[Skin Name][Ren
 
 ![](images/base-stylesheet-location.png)
 
->note If you set Render Mode to Auto, you will need to devise an approach that will detect the requesting browser (e.g., by using the [RadDeviceDetectionFramework]({%slug controls/raddevicedetectionframework%})) and [register]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/skin-registration%}) the appropriate customized stylesheets.
+>note If you set `RenderMode` to Auto, you will need to devise an approach that will detect the requesting browser (e.g., by using the [RadDeviceDetectionFramework]({%slug controls/raddevicedetectionframework%})) and [register]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/skin-registration%}) the appropriate customized stylesheets.
 
 
 
