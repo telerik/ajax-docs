@@ -24,6 +24,11 @@ There are two ways to configure the rendering mode of the controls:
 	**ASP.NET**
 
 		<telerik:RadRadioButtonList ID="RadRadioButtonList1" runat="server" RenderMode="Lightweight">
+			<Items>
+				<telerik:RadioButtonListItem Text="English" Selected="true" />
+				<telerik:RadioButtonListItem Text="German" />
+				<telerik:RadioButtonListItem Text="French" />
+			</Items>
 		</telerik:RadRadioButtonList>
 
 
@@ -41,7 +46,7 @@ There are two ways to configure the rendering mode of the controls:
 	**web.config**
 
 		<appSettings>
-			<add key="Telerik.Web.UI.CheckBox.RenderMode" value="Lightweight" />
+			<add key="Telerik.Web.UI.RadioButtonList.RenderMode" value="Lightweight" />
 		</appSettings>
 
 
