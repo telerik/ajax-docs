@@ -14,9 +14,9 @@ position: 3
 
 ## Overview
 
-The Advanced Templates provide great flexibility for customizing the Advanced Form. However, a common problem when using the **AdvancedInsertTemplate** or the **AdvancedEditTemplate** is that the functionality related to recurrence and resources is lost. In other words, if you chose to customize the advanced form you will not be able to insert or edit recurring appointments or appointments with resources, unless you implement this functionality from scratch. For instance, consider the [ Templates online example ](http://demos.telerik.com/aspnet-ajax/Scheduler/Examples/Templates/DefaultCS.aspx).
+The **Advanced Templates** provide great flexibility for customizing the [**Advanced Form**]({%slug scheduler/customizing-the-advanced-form/overview%}). Using the **Advanced Templates** gives you the ability to add all the option fields available in the default **RadScheduler Advanced Form** (including the **RadSchedulerRecurrenceEditor** and the **ResourceControl**). Moreover, it allows you to add a number of custom Appointment fields and pickers to populate them.
 
-The solution which we offer is a set of user controls that recreates the default advanced form, yet allowing for unrestricted customization.We will show how to use the advanced form controls in both **Server Side** and **Client Side** binding scenarios.
+The solution which we offer is a set of user controls that recreates the default advanced form functionality, yet it allows unrestricted customization. We will demonstrate how to use the advanced form controls in both **Server Side** and **Client Side** binding scenarios.
 
 Here is the structure of the advanced form with each user control outlined with different border style:
 
@@ -97,6 +97,7 @@ The advanced form looks like this:
 	**VB**
 	
 		' Attributes and resources
+
 		<Bindable(BindableSupport.Yes, BindingDirection.TwoWay)> _
 		Public Property AppointmentColor() As String
 			Get
@@ -205,7 +206,7 @@ The advanced form looks like this:
 				End Sub
 	
 
-6. Register **AdvancedForm**.**js** with the script manager for the page and handle RadScheduler's **OnClientFormCreated**event.
+6. Register **AdvancedForm**.**js** with the script manager for the page and handle RadScheduler's **OnClientFormCreated** event.
 
 	>note This is actually already done in the sample demo. This step is to serve just as a reminder.
 	
@@ -326,6 +327,7 @@ In this tutorial, we will show how to add to the advanced form a RadColorPicker 
 	**VB**
 	
 	    ' Attributes and resources
+
 	    <Bindable(BindableSupport.Yes, BindingDirection.TwoWay)> _
 	    Public Property AppointmentColor() As String
 	        Get
@@ -443,3 +445,5 @@ In addition you can find a full sample project for "Default Advanced Form Templa
  * [Sample project of the Customizing the Advanced Template example](http://www.telerik.com/support/kb/aspnet-ajax/scheduler/sample-project-of-the-customizing-the-advanced-template-example.aspx)
 
  * [Sample project of customizing the advanced form in Client Side binding mode (Web Services)](http://www.telerik.com/support/kb/aspnet-ajax/scheduler/sample-project-of-customizing-the-advanced-form-in-client-side-binding-mode-web-services.aspx)
+
+ 
