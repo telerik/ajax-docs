@@ -70,7 +70,7 @@ The following controls offer WAI-ARIA support:
 * [Alert, Confirm, Prompt]({%slug window/alert,-confirm,-prompt-dialogs/overview%})
 
 
-To enable WAI-ARIA support, you need to set the **EnableAriaSupport** property of the control to **true**. WAI-ARIA is enabled by default only for **RadGantt**. As the WAI-ARIA support cannot be disabled for this control, you won't be able to set its **EnableAriaSupport** property.
+To enable WAI-ARIA support, you need to set the **EnableAriaSupport** property of the control to **true**. WAI-ARIA is enabled by default only for **RadGantt**. As the WAI-ARIA support cannot be disabled for this control, it does not expose **EnableAriaSupport** property.
 
 Note that the WAI-ARIA attributes are not part of the HTML specifications and a page whose markup contains them would not validate and the browser would enter quirks mode. To avoid this, the Telerik controls render the WAI-ARIA attributes with JavaScript. Thus, you need to examine the source code of the rendered page in the developer toolbar of the browser in order to see them because they will not be present in the markup sent from the server.
 
