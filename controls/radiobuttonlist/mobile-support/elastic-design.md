@@ -14,24 +14,29 @@ This article explains the **elastic design capabilities RadRadioButtonList offer
 
 @[template](/_templates/common/render-mode.md#resp-design-desc "slug-el: no, slug-fl: no")
 
-@[template](/_templates/common/font-size-notes.md#note-and-example "control: RadRadioButtonList")
+@[template](/_templates/common/font-size-notes.md#note-and-example-no-ver "control: RadRadioButtonList")
 
 >caption Figure 1: Comparison between appearance of a RadRadioButtonList with regular font size and with increased font size.
 
-![checkbox-elastic-design](images/checkbox-elastic-design.png)
+![checkbox-elastic-design](images/radiobuttonlist-elastic-design.png)
 
 >caption Example 2: Shows how to increase the font size of a RadRadioButtonList in Figure 1.
 
 ````CSS
 <style type="text/css">
-	button.RadRadioButtonList {
+	.RadRadioButtonList button {
 		font-size: 26px;
 	}
 </style>
 ````
 
 ````ASP.NET
-<telerik:RadRadioButtonList runat="server" ID="RadRadioButtonList1" Text="Elastic CheckBox Button" Checked="true">
+<telerik:RadRadioButtonList runat="server" ID="RadRadioButtonList1">
+	<Items>
+        <telerik:RadioButtonListItem Text="English" Selected="true" />
+        <telerik:RadioButtonListItem Text="German" />
+        <telerik:RadioButtonListItem Text="French" />
+    </Items>
 </telerik:RadRadioButtonList>
 ````
 
