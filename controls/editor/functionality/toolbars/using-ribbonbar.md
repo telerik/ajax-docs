@@ -18,7 +18,7 @@ In this article you can see how to configure the **RibbonBar** toolbar of **RadE
 
 ## Enabling RibbonBar Modes
 
-In order to enable the RibbonBar toolbar, you need to set the `ToolbarMode` property to the `RibbonBar`, `RibbonBarFloating`, `RibbonBarPageTop` or `RibbonBarShowOnFocus` mode.
+In order to enable the RibbonBar toolbar, you need to set the `ToolbarMode` property to one of the following values: `RibbonBar`, `RibbonBarFloating`, `RibbonBarPageTop` or `RibbonBarShowOnFocus`.
 
 >caption Example 1: Enabling RibbonBar toolbar
 
