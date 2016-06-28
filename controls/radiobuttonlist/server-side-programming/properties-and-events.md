@@ -14,42 +14,46 @@ position: 0
 
 | Property | Description |
 | ------ | ------ |
-| **AutoPostBack** |Gets or sets a bool value indicating whether the control will automatically post the page back to the server.|
-| **CausesValidation** |Gets or sets a bool value indicating whether validation is performed when the RadRadioButtonList is clicked.|
-| **Checked** |Gets or sets a nullable bool value indicating whether the RadRadioButtonList is checked. If a null value is set, the value will default to false.|
-| **PostbackUrl** |Gets or sets the URL of the page to post to from the current page, when the RadRadioButtonList is clicked.|
-| **Text** |Gets or sets the text displayed in the RadRadioButtonList control.|
-| **ValidationGroup** |Gets or sets the group of controls for which the RadRadioButtonList control causes validation when it posts back to the server.|
-| **CommandName** |Gets or sets the command name associated with the RadRadioButtonList control that is passed to the *Command* event.|
-| **CommandArgument** |Gets or sets an optional parameter passed to the *Command* event along with the associated CommandName.|
-| **CssClass** |Define the CSS class for the RadRadioButtonList.|
-| **DisabledCssClass** |Define the CSS class for the RadRadioButtonList when it is disabled.|
-| **HoveredCssClass** |Gets or sets the CSS class, when the mouse pointer is hovered over the RadRadioButtonList control.|
-| **PressedCssClass** |Gets or sets the CSS class, when the RadRadioButtonList control is pressed.|
-| **OnClientLoad** |Sets a name of a JavaScript function that will be called when the RadRadioButtonList is loaded on the page|
-| **OnClientClicking** |Sets a name of a JavaScript function that will be called when the RadRadioButtonList is clicked. The event is cancelable.|
-| **OnClientClicked** |Sets a name of a JavaScript function that will be called when the RadRadioButtonList is clicked, after the OnClientClicking event.|
-| **OnClientCheckedChanging** |Sets a name of a JavaScript function that will be called when the RadRadioButtonList is checked/unchecked. The event is cancelable.|
-| **OnClientCheckedChanged** |Sets a name of a JavaScript function that will be called when the RadRadioButtonList is checked/unchecked, after the OnClientClicking event.|
-| **OnClientMouseOver** |Sets a name of a JavaScript function that will be called when the mouse pointer hovers over the RadRadioButtonList|
-| **OnClientMouseOut** |Sets a name of a JavaScript function that will be called when the mouse pointer leaves the RadRadioButtonList|
-| **UseSubmitBehavior** |Gets or sets a bool value indicating whether the RadRadioButtonList control uses the client browser's submit mechanism or the ASP.NET postback mechanism.|
-| **Value** | Value associated with the checkbox.|
+| **AccessKey** |Specifies the access key that triggers the functionality of the first button in the list. |
+| **AriaSettings** |Gets the object that controls the Wai-Aria settings applied on the control's element.|
+| **AppendDataBoundItems** |Gets or sets a value that indicates whether list items are cleared before data binding.|
+| **AutoPostBack** |Specifies if change of the checkbox list should initiate a postback.|
+| **CausesValidation** |Gets or sets a value indicating whether validation is performed when the checkbox list gets changed.|
+| **ClientEvents** |Inline property of type CheckBoxClientEvents, which gets or sets the client event handlers attached to the control. |
+| **CssClass** |Gets or sets the CSS class applied to the element of the control. |
+| **DataSource** |Gets or sets the object from which the data-bound control retrieves its list of data items. |
+| **DataSourceID** |Gets or sets the ID of the control from which the data-bound control retrieves its list of data items.|
+| **DataBindings** |Inline property of type CheckBoxListBindings Gets or sets the databinding configuration of the control|
+| **EnableAriaSupport** |When set to true enables support for WAI-ARIA|
+| **Enabled** |Gets or sets a value indicating whether the Web server control is enabled. |
+| **Height** |Gets or sets the height of the Web server control. |
+| **KeyboardNavigationSettings** |Define keyboard shortcut to focus the first list item.|
+| **Items** |Gets the collection of CheckBoxListItem items in the list control. An item has Text, Value, Selected and Enabled properties.|
+| **OnSelectedIndexChanged** |Raises the SelectedIndexChanged event. This allows you to provide a custom handler for the event. |
+| **OnItemDataBound** |Raises the ItemDataBound event when each item is data bound. This allows you to provide a custom handler for the event.|
+| **OnItemCreated** |Raises the ItemCreated event when an item is created. This allows you to provide a custom handler for the event. |
+| **Layout** |Gets or sets the layout in which the checkboxes are rendered. Possible values are Flow, OrderedList, UnorderedList. OrderedList and UnorderedList do not support Horizontal Direction and Columns. |
+| **Columns** |Gets or sets the number of columns to display in the RadCheckBox control, when the layout is Flow. |
+| **Direction** |Gets or sets the direction in which the checkboxes within the group are displayed. |
+| **ItemCount** |Gets the number of list items in the RadCheckBox control. |
+| **SelectedIndex** |Gets or sets the lowest ordinal index of the selected items in the list. |
+| **SelectedIndices** |Gets a collection of all selected checkboxes by indices. |
+| **SelectedItem** |Gets or sets the selected item with the lowest index in the list control. |
+| **SelectedItems** |Gets a collection of all selected checkbox items. |
+| **SelectedValue** |Gets or sets the value of the selected item in the list control, or selects the single item in the list control that contains the specified value. |
+| **SelectedValues** |Gets a collection of all selected checkboxes by values.|
+| **TabIndex** |Gets or sets the tab index of the Web server control. Applied on each checkbox.|
+| **ToolTip** |Gets or sets the text displayed when the mouse pointer hovers over the Web server control. |
+| **ValidationGroup** |Gets or sets the group of controls for which the Button control causes validation when it posts back to the server |
+| **Visible** |Gets or sets a value that indicates whether a server control is rendered as UI on the page. |
+| **Width** |Specifies the width of the button |
 
 
 ## Server - side Events:
 
 | Property | Description |
 | ------ | ------ |
-| **OnClick** |Raised when the RadRadioButtonList performs a postback.|
-| **OnCommand** |Raised when the RadRadioButtonList performs a postback.|
-| **OnCheckedChanged** |Raised when the checked state of the RadRadioButtonList has changed.|
-
-The event order is:
-
-1. OnCheckedChanged
-
-1. OnClick
-
-1. OnCommand
+| **SelectedIndexChanged** |Raised when the selected item is changed.|
+| **ItemDataBound** |Raised when the **RadRadioButtonList** performs a data bound.|
+| **ItemCreated** |Raised when an item is created in the Items collection of **RadRadioButtonList**.|
 
