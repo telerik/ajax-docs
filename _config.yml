@@ -333,6 +333,9 @@ navigation:
     "controls/rotator":
         title: "Rotator"
         position: 1
+    "controls/radiobuttonlist":
+        title: "RadioButtonList"
+        position: 1
     "controls/scheduler":
         title: "Scheduler"
         position: 1
@@ -1244,6 +1247,9 @@ navigation:
     "*rotator/data-binding":
         title: "Data Binding"
         position: 4
+    "*radiobuttonlist/data-binding":
+        title: "Data Binding"
+        position: 14
     "*scheduler/usability":
         title: "Usability"
         position: 5
