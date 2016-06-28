@@ -14,20 +14,23 @@ The **RadRadioButtonList** fully supports right-to-left (RTL) language locales (
 
 >caption Figure 1: RadRadioButtonList in RTL mode.
 
-![RadRadioButtonList-rtl](images/checkbox-rtl.png)
+![RadRadioButtonList-rtl](images/radiobuttonlist-rtl.png)
 
 >caption Example 1: Set the "direction: rtl" style to the **RadRadioButtonList**'s wrapper element in order to enable the RTL support for the control.
 
 ````ASP.NET
-<div style="direction: rtl;">
-	<telerik:RadRadioButtonList ID="RadRadioButtonList1" runat="server" Text="موافق" Checked="true">
-	</telerik:RadRadioButtonList>
+<div style="direction: rtl">
+    <telerik:RadRadioButtonList runat="server" ID="RadRadioButtonList1">
+        <Items>
+            <telerik:RadioButtonListItem Text="יהודי" Selected="true" />
+            <telerik:RadioButtonListItem Text="גֶרמָנִיָת" />
+            <telerik:RadioButtonListItem Text="צָרְפָתִית" />
+        </Items>
+    </telerik:RadRadioButtonList>
 </div>
 ````
 
 ## See Also
-
- * [Live Demo: RadRadioButtonList RTL Support](http://demos.telerik.com/aspnet-ajax/checkbox/examples/righttoleft/defaultcs.aspx)
 
  * [WCAG 2.0 and Section 508 Accessibility Compliance]({%slug radiobuttonlist/accessibility-and-internationalization/wcag-2.0-and-section-508-accessibility-compliance%})
 
