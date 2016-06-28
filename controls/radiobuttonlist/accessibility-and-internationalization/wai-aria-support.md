@@ -19,8 +19,12 @@ In order to enable the WAI-ARIA support, set the **RadRadioButtonList** control'
 >caption **Example 1**: Enabling WAI-ARIA support for RadRadioButtonList
 
 ````ASP.NET
-<telerik:RadRadioButtonList ID="RadRadioButtonList1" runat="server" EnableAriaSupport="true">
-	<AriaSettings DescribedBy="someElementId" Label="Some Label Value" />
+<telerik:RadRadioButtonList runat="server" ID="RadRadioButtonList1" EnableAriaSupport="true">
+    <Items>
+        <telerik:RadioButtonListItem Text="English" Selected="true" />
+        <telerik:RadioButtonListItem Text="German" />
+        <telerik:RadioButtonListItem Text="French" />
+    </Items>
 </telerik:RadRadioButtonList>
 ````
 
@@ -30,8 +34,6 @@ In order to enable the WAI-ARIA support, set the **RadRadioButtonList** control'
 
 
 ## See Also
-
- * [Live Demo: RadRadioButtonList WAI-ARIA Support](http://demos.telerik.com/aspnet-ajax/checkbox/examples/wai-aria-support/defaultcs.aspx)
 
  * [W3C: WAI-ARIA Overview](http://www.w3.org/WAI/intro/aria)
 
