@@ -11,10 +11,6 @@ position: 17
 
 # Center PopUp Edit Form in RadGrid
 
-
-
-##
-
 In some case where **RadGrid** uses **PopUp** edit forms for inserting/updating records, you may want to specify the pop-up form position on the page. For that purpose hook up the **OnPopUpShowing** client-side event of RadGrid to change the default position of the **PopUp** edit form.
 
 Below is an example showing how to center the edit form in RadGrid:
@@ -22,6 +18,7 @@ Below is an example showing how to center the edit form in RadGrid:
 ````ASP.NET
 <telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
   <script type="text/javascript">
+  
     var popUp;
     function PopUpShowing(sender, eventArgs) {
       popUp = eventArgs.get_popUp();
@@ -32,8 +29,10 @@ Below is an example showing how to center the edit form in RadGrid:
       popUp.style.left = ((gridWidth - popUpWidth) / 2 + sender.get_element().offsetLeft).toString() + "px";
       popUp.style.top = ((gridHeight - popUpHeight) / 2 + sender.get_element().offsetTop).toString() + "px";
     }
+    
   </script>
 </telerik:RadCodeBlock>
+
 <telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" AutoGenerateEditColumn="true" runat="server" AllowAutomaticDeletes="True"
   AllowAutomaticInserts="True" AllowAutomaticUpdates="True" DataSourceID="SqlDataSource1"
   AllowSorting="true" Skin="Silk" AllowPaging="true">
