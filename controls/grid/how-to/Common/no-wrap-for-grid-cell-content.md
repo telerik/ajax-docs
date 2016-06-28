@@ -3,6 +3,7 @@ title: No Wrap for Grid Cell Content
 page_title: No Wrap for Grid Cell Content | RadGrid for ASP.NET AJAX Documentation
 description: No Wrap for Grid Cell Content
 slug: grid/how-to/common/no-wrap-for-grid-cell-content
+previous_url: grid/how-to/no-wrap-for-grid-cell-content
 tags: no,wrap,for,grid,cell,content
 published: True
 position: 1
@@ -10,26 +11,27 @@ position: 1
 
 # No Wrap for Grid Cell Content
 
-
-
-##
-
-This appearance customization is not supported out-of-the-box in the current version of Telerik RadGrid. However, there is a workaround which you can apply to prevent the wrapping for column cells content. Set the DataFormatString property for each column to **<nobr>{0}</nobr>**. Thus the column(s) in your grid instance should stretch to fit the width of the longest text inside the column(s) cells.
+This appearance customization is not supported out-of-the-box in the current version of **RadGrid**. However, you can use a CSS rule which apply **white-space: nowrap** style attribute to all cells of the grid. Thus the column(s) in your grid instance should stretch to fit the width of the longest text inside the column(s) cells.
 
 For declarative columns the code be as below:
 
 ````ASP.NET
+
+<style>
+   .RadGrid .rgRow td,
+   .RadGrid .rgAltRow td 
+   {
+      white-space: nowrap;
+   }
+</style> 
+
 <telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server">
   <MasterTableView AutoGenerateColumns="false">
-    <telerik:GridBoundColumn UniqueName="ContactName" HeaderText="Contact name" DataField="ContactName"
-      DataFormatString="<nobr>{0}</nobr>" />
-    <telerik:GridBoundColumn UniqueName="ContactTitle" HeaderText="Contact title" DataField="ContactTitle"
-      DataFormatString="<nobr>{0}</nobr>" />
-    <telerik:GridBoundColumn UniqueName="CompanyName" HeaderText="Company name" DataField="CompanyName"
-      DataFormatString="<nobr>{0}</nobr>" />
-    <telerik:GridBoundColumn UniqueName="Country" HeaderText="Country" DataField="Country"
-      DataFormatString="<nobr>{0}</nobr>" />
-    <telerik:GridBoundColumn UniqueName="City" HeaderText="City" DataField="City" DataFormatString="<nobr>{0}</nobr>" />
+    <telerik:GridBoundColumn UniqueName="ContactName" HeaderText="Contact name" DataField="ContactName" />
+    <telerik:GridBoundColumn UniqueName="ContactTitle" HeaderText="Contact title" DataField="ContactTitle" />
+    <telerik:GridBoundColumn UniqueName="CompanyName" HeaderText="Company name" DataField="CompanyName" />
+    <telerik:GridBoundColumn UniqueName="Country" HeaderText="Country" DataField="Country" />
+    <telerik:GridBoundColumn UniqueName="City" HeaderText="City" DataField="City" />
   </MasterTableView>
 </telerik:RadGrid>
 ````
@@ -46,7 +48,7 @@ protected void RadGrid1_ColumnCreated(object sender, GridColumnCreatedEventArgs 
     //add more column types to the conditional check if needed
     if (e.Column is GridBoundColumn)
     {
-        (e.Column as GridBoundColumn).DataFormatString = "<nobr>{0}</nobr>";
+        (e.Column as GridBoundColumn).DataFormatString = "<span style='white-space: nowrap;'>{0}</span>"; 
     }
 }
 ````
@@ -54,7 +56,7 @@ protected void RadGrid1_ColumnCreated(object sender, GridColumnCreatedEventArgs 
 Protected Sub RadGrid1_ColumnCreated(ByVal sender As Object, ByVal e As GridColumnCreatedEventArgs) Handles RadGrid1.ColumnCreated
     'add more column types to the conditional check if needed
     If (TypeOf e.Column Is GridBoundColumn) Then
-        CType(e.Column, GridBoundColumn).DataFormatString = "<nobr>{0}</nobr>"
+        CType(e.Column, GridBoundColumn).DataFormatString = "<span style='white-space: nowrap;'>{0}</span>"
     End If
 End Sub
 ````
