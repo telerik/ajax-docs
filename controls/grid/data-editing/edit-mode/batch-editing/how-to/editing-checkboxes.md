@@ -13,7 +13,7 @@ position: 0
 
 By default when **Batch Edit** mode is enabled the user needs to click on the cell first and then change its value. In some cases the users may prefer different behavior - for example when editing a boolean field that is presented by **CheckBox** in **RadGrid**. 
 
-The following example illustrates how you can cahnge the value of a cell by clicking directly on the **CheckBox** in it. 
+The following example illustrates how you can change the value of a cell by clicking directly on the **CheckBox** in it. 
 
 
 ````ASP.NET
