@@ -3,7 +3,7 @@ system "git checkout -- _config.yml"
 def start_watch(paths)
 	require 'listen'
 	system "Jekyll build"
-	
+
 	listener = Listen.to(paths) do |modified, added, removed|
 	  puts "\n Modified File: #{modified} \n\n Building Jekyll site."
 	  File.delete("SlugLog.log") if File.exist?("SlugLog.log")
@@ -45,5 +45,6 @@ unless to_start_watch
 else
 	new_config = orig_config.gsub(/exclude: \[[^\]]*\]/, "exclude: " + exclude_text)
 	File.write(config_file, new_config)
+	paths_to_include.push("_templates/")
 	start_watch(paths_to_include)
 end
