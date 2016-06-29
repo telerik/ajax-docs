@@ -26,7 +26,7 @@ The table below lists the most important functions of the client-side **RadTreeV
 | **trackChanges** |none|none|Starts tracking changes made to the TreeView that will be preserved on the server.|
 | **commitChanges** |none|none|Writes the changes to the **TreeView** that were made since a previous call to **trackChanges**, so that they are preserved on the server as well.|
 
->tip Client side changes are available on the server side after postback. You can use the [ClientChanges]({%slug treeview/client-side-programming/accessing-client-changes-on-the-server-side%})property to access them.
+>tip Client side changes are available on the server side after postback. You can use the [ClientChanges]({%slug treeview/client-side-programming/accessing-client-changes-on-the-server-side%}) property to access them.
 >
 
 
