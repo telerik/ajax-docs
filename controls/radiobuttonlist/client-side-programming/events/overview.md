@@ -10,21 +10,23 @@ position: 0
 
 # Events Overview
 
-RadRadioButtonList exposes several client-side events that allow easy and flexible use in a wide range of application scenarios:
+**RadRadioButtonList** exposes several client-side events that allow easy and flexible use in a wide range of application scenarios:
 
-* **[OnClientLoad (load)]({%slug radiobuttonlist/client-side-programming/events/onclientload%})** - raised when the control is initialized.
+* **[OnLoad (load)]({%slug radiobuttonlist/client-side-programming/events/onload%})** - raised when the control is initialized.
 
-* **[OnClientClicking (clicking)]({%slug radiobuttonlist/client-side-programming/events/onclientclicking%})** - raised when the user clicks the checkbox. The event can be canceled.
+* **[OnItemLoad (itemLoad)]({%slug radiobuttonlist/client-side-programming/events/onitemload%})** - raised when item is loaded.
 
-* **[OnClientClicked (clicked)]({%slug radiobuttonlist/client-side-programming/events/onclientclicked%})** - raised when the checkbox is clicked. The event is subsequent to the **OnClientCheckedChanged** event.
+* **[OnItemClicking (itemClicking)]({%slug radiobuttonlist/client-side-programming/events/onitemclicking%})** - raised when the user clicks an item in the RadioButtonList. The event can be canceled.
 
-* **[OnClientCheckedChanging (checkedChanging)]({%slug radiobuttonlist/client-side-programming/events/onclientcheckedchanging%})** - raised after the user clicks the checkbox and before the checked state is changed. The event can be canceled and it is subsequent to the **OnClientCheckedChanged** event.
+* **[OnItemClicked (itemClicked)]({%slug radiobuttonlist/client-side-programming/events/onitemclicked%})** - raised when an item in the RadioButtonList is clicked. The event is subsequent to the **OnItemClicking** event.
 
-* **[OnClientCheckedChanged (checkedChanged)]({%slug radiobuttonlist/client-side-programming/events/onclientcheckedchanged%})** - raised when the checked state of the checkbox is changed. The event is subsequent to the **OnClientCheckedChanging** event.
+* **[OnSelectedIndexChanging (selectedIndexChanging)]({%slug radiobuttonlist/client-side-programming/events/onselectedindexchanging%})** - raised after **OnItemClicking** if the item clicked is selected by the user. The event can be canceled.
 
-* **[OnClientMouseOver (mouseOver)]({%slug radiobuttonlist/client-side-programming/events/onclientmouseover%})** - raised when the mouse hovers over the control.
+* **[OnSelectedIndexChanged (selectedIndexChanged)]({%slug radiobuttonlist/client-side-programming/events/onselectedindexchanged%})** - raised when the clicked item is selected. The event is subsequent to the **OnSelectedIndexChanging** event.
 
-* **[OnClientMouseOut (mouseOut)]({%slug radiobuttonlist/client-side-programming/events/onclientmouseout%})** - raised when the mouse leaves the control.
+* **[OnItemMouseOver (itemMouseOver)]({%slug radiobuttonlist/client-side-programming/events/onitemmouseover%})** - raised when the mouse hovers over an item in the RadioButtonList.
+
+* **[OnItemMouseOut (itemMouseOut)]({%slug radiobuttonlist/client-side-programming/events/onitemmouseout%})** - raised when the mouse leaves an item in the RadioButtonList.
 
 To handle the desired event, the user must set the respective property to the name of the JavaScript function handling the event or to an anonymous JavaScript function. Here is an example:
 
@@ -32,64 +34,70 @@ To handle the desired event, the user must set the respective property to the na
 
 ````ASP.NET
 <script type="text/javascript">
-	function Click(sender, args)
-	{
-		alert("RadRadioButtonList was clicked.");
+	function OnItemClicked(sender, args) {
+		var selectedItem = args.get_radioButton();
+		alert(selectedItem.get_text());
 	}
 </script>
-<telerik:RadRadioButtonList ID="RadRadioButtonList1" Text="Check here" runat="server" OnClientClicked="Click">
+
+<telerik:RadRadioButtonList runat="server" ID="RadRadioButtonList1">
+    <ClientEvents OnItemClicked="OnItemClicked" />
+    <Items>
+        <telerik:RadioButtonListItem Text="English" Selected="true" />
+        <telerik:RadioButtonListItem Text="German" />
+        <telerik:RadioButtonListItem Text="French" />
+    </Items>
 </telerik:RadRadioButtonList>
 ````
 
 ````C#
-RadRadioButtonList1.OnClientClicked = "Click";  //passing the name of the JS function
+RadRadioButtonList1.ClientEvents.OnItemClicked = "OnItemClicked";  //passing the name of the JS function
 ````
 ````VB
-RadRadioButtonList1.OnClientClicked = "Click"  'passing the name of the JS function
+RadRadioButtonList1.ClientEvents.OnItemClicked = "OnItemClicked"  'passing the name of the JS function
 ````
 
 
 >caption Example 2: Passing an anonymous JavaScript function.
 
 ````ASP.NET
-<script type="text/javascript">
-	function Click(button, args, arg1, arg2)
-	{
-		alert("arg1:" + arg1 + " arg2:" + arg2);
-	}
-</script>
-
-<telerik:RadRadioButtonList ID="RadRadioButtonList1" Text="Check here" runat="server" OnClientClicked="function(sender,args){Click(sender, args, 'Value1', 'Value2');}">
+<telerik:RadRadioButtonList runat="server" ID="RadRadioButtonList1">
+    <ClientEvents OnItemClicked="function(sender,args){var selectedItem = args.get_radioButton(); alert(selectedItem.get_text());}" />
+    <Items>
+        <telerik:RadioButtonListItem Text="English" Selected="true" />
+        <telerik:RadioButtonListItem Text="German" />
+        <telerik:RadioButtonListItem Text="French" />
+    </Items>
 </telerik:RadRadioButtonList>
 ````
 
 ````C#
-RadRadioButtonList1.OnClientClicked = "function(sender,args){Click(sender, args, 'Value1', 'Value2');}"; //passing an anonymous JS function
+RadRadioButtonList1.ClientEvents.OnClientClicked = "function(sender,args){var selectedItem = args.get_radioButton(); alert(selectedItem.get_text());}"; //passing an anonymous JS function
 ````
 ````VB
-RadRadioButtonList1.OnClientClicked = "function(sender,args){Click(sender, args, 'Value1', 'Value2');}"  'passing an anonymous JS function
+RadRadioButtonList1.ClientEvents.OnClientClicked = "function(sender,args){var selectedItem = args.get_radioButton(); alert(selectedItem.get_text());}"  'passing an anonymous JS function
 ````
 
 
 ## See Also
 
- * [CheckBox - Client-side Events Demo](http://demos.telerik.com/aspnet-ajax/checkbox/client-side-api/client-side-events/defaultcs.aspx)
- 
- * [CheckBox Object]({%slug radiobuttonlist/client-side-programming/checkbox-object%})
- 
- * [OnClientLoad]({%slug radiobuttonlist/client-side-programming/events/onclientload%})
- 
- * [OnClientClicking]({%slug radiobuttonlist/client-side-programming/events/onclientclicking%})
- 
- * [OnClientClicked]({%slug radiobuttonlist/client-side-programming/events/onclientclicked%})
- 
- * [OnClientCheckedChanging]({%slug radiobuttonlist/client-side-programming/events/onclientcheckedchanging%})
+* [RadioButtonList Object]({%slug radiobuttonlist/client-side-programming/radiobuttonlist-object%})
 
- * [OnClientCheckedChanged]({%slug radiobuttonlist/client-side-programming/events/onclientcheckedchanged%})
- 
- * [OnClientMouseOver]({%slug radiobuttonlist/client-side-programming/events/onclientmouseover%})
- 
- * [OnClientMouseOut]({%slug radiobuttonlist/client-side-programming/events/onclientmouseout%})
+* [OnLoad (load)]({%slug radiobuttonlist/client-side-programming/events/onload%})
+
+* [OnItemLoad (itemLoad)]({%slug radiobuttonlist/client-side-programming/events/onitemload%})
+
+* [OnItemClicking (itemClicking)]({%slug radiobuttonlist/client-side-programming/events/onitemclicking%})
+
+* [OnItemClicked (itemClicked)]({%slug radiobuttonlist/client-side-programming/events/onitemclicked%})
+
+* [OnSelectedIndexChanging (selectedIndexChanging)]({%slug radiobuttonlist/client-side-programming/events/onselectedindexchanging%})
+
+* [OnSelectedIndexChanged (selectedIndexChanged)]({%slug radiobuttonlist/client-side-programming/events/onselectedindexchanged%})
+
+* [OnItemMouseOver (itemMouseOver)]({%slug radiobuttonlist/client-side-programming/events/onitemmouseover%})
+
+* [OnItemMouseOut (itemMouseOut)]({%slug radiobuttonlist/client-side-programming/events/onitemmouseout%})
 
 
 
