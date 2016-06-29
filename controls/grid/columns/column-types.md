@@ -379,7 +379,7 @@ When in browser mode, **GridNumericColumn** looks and behaves like a standard **
 
 This column type is editable (implements the **IGridEditableColumn** interface) and by default provides **GridNumericColumnEditor** as its column editor.
 
-When the property **DbValueFactor** is set, it determines the multiplication factor applied by **RadNumericTextBox** in edit/insert mode. In this case, the value is represented as a percentage according to the aforementioned factor. **DbValueFactor** is used along with the **NumericType** property, which should be set to**Percent**. It is useful mostly when storing percent values as floating point numbers in the database. The default value of the property is **1**.
+When the property **DbValueFactor** is set, it determines the multiplication factor applied by **RadNumericTextBox** in edit/insert mode. In this case, the value is represented as a percentage according to the aforementioned factor. **DbValueFactor** is used along with the **NumericType** property, which should be set to **Percent**. It is useful mostly when storing percent values as floating point numbers in the database. The default value of the property is **1**.
 
 ````ASP.NET
 <telerik:GridNumericColumn DataField="Freight" HeaderText="GridNumericColumn" UniqueName="Freight">
