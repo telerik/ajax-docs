@@ -22,7 +22,10 @@ The **DisableChunkUpload** property is available as of **Q3 2012**. By setting t
 
 For example, when a custom handler is used and the **Process** method is overridden the uploading file is not saved to the Temporary folder until the the base method of the **Process** method is called. This allows users to save files directly into a database without saving them on the server.
 
->note When setting the DisableChunkUpload="true" property the Silverlight and Flash modules are automatically disabled. This will turn off the multiple file selection in the appropriate browsers.
+>note When setting the **DisableChunkUpload="true"** property the **Silverlight** and **Flash modules** are automatically disabled. This will turn off the multiple file selection in the appropriate browsers.
+>
+
+>note The **DisableChunkUpload** property of **RadAsyncUpload** influences the way files are being saved in the temporary folder on server. In case the property is not set or it is set to "false", temporary files are named under the convention **timestamp + actual file name + actual file extension**. In case the property is set to "true", files receive **random strings** for both their name and extension.
 >
 
 
