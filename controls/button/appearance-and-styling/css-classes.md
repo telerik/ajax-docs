@@ -5,7 +5,7 @@ description: CSS Classes
 slug: button/appearance-and-styling/css-classes
 tags: css,classes
 published: True
-position: 2
+position: 3
 ---
 
 # CSS Classes
