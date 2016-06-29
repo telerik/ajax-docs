@@ -75,7 +75,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 </scripts>
 ````
 
-* **RadAjaxManager** 
+* **RadAjaxManager**
 
 ````ASP.NET
 <scripts>
@@ -293,7 +293,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 </scripts>
 ````
 
-* **RadDock** 
+* **RadDock**
 
 ````ASP.NET
 <scripts>
@@ -405,7 +405,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 *In case you use datetime or numeric filter fields, you will need to the RadDatePicker/RadDateTimePicker and RadNumericTextBox client scripts explicitly*
 
 
-* **RadFormDecorator** 
+* **RadFormDecorator**
 
 ````ASP.NET
 <scripts>
@@ -415,7 +415,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 </scripts>
 ````
 
-* **RadGantt** 
+* **RadGantt**
 
 ````ASP.NET
 <Scripts>
@@ -449,7 +449,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 	<asp:ScriptReference Path="~/Temp/Scripts/Common/HTML5UI/html5/color.js" />
 	<asp:ScriptReference Path="~/Temp/Scripts/Common/HTML5UI/html5/drawing.js" />
 	<asp:ScriptReference Path="~/Temp/Scripts/Common/HTML5UI/html5/pdf.js" />
-	
+
 	<asp:ScriptReference Path="~/Temp/Scripts/Common/HTML5UI/html5/gantt/timeline.js" />
 	<asp:ScriptReference Path="~/Temp/Scripts/Common/HTML5UI/html5/gantt/list.js" />
 	<asp:ScriptReference Path="~/Temp/Scripts/Common/HTML5UI/html5/gantt.js" />
@@ -457,7 +457,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 </Scripts>
 ````
 
-* **RadGauge** 
+* **RadGauge**
 
 ````ASP.NET
 <Scripts>
@@ -484,7 +484,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 	<asp:ScriptReference Path="~/Scripts/Grid/RadGridScripts.js" />
     <asp:ScriptReference Path="~/Scripts/Grid/GridCellSelection.js" />
 	<asp:ScriptReference Path="~/Scripts/Common/TouchScrollExtender.js" />
-  
+
 </scripts>
 ````
 
@@ -618,7 +618,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 > **RadMenuItem.js** is used when **RenderMode** is set to **"Auto"** , **"Classic"** or **"Lightweight"** .It does work in cooperation with **ClassicView.js** if the current render mode is classic and **LiteView.js** if the render mode is lightweight.
 >
 
-* **RadMonthYearPicker** 
+* **RadMonthYearPicker**
 
 ````ASP.NET
 <scripts>                  
@@ -890,7 +890,7 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 ````
 
 
->caution To add the spell dialog's script to the dialog (which is a separate page) you need one extra step - setting the **DialogsScriptFile** file. `<telerik:RadSpell DialogsScriptFile = "~/CombinedSpellScripts.js" ../>`  *To use this property you need at least Telerik UI for ASP.NET AJAX version Q3 2008 SP2, e.g. v. 2008.3.1314.xx*. 
+>caution To add the spell dialog's script to the dialog (which is a separate page) you need one extra step - setting the **DialogsScriptFile** file. `<telerik:RadSpell DialogsScriptFile = "~/CombinedSpellScripts.js" ../>`  *To use this property you need at least Telerik UI for ASP.NET AJAX version Q3 2008 SP2, e.g. v. 2008.3.1314.xx*.
 >The script file in fact needs to be a combination of 4 installation js files.
 >
 
@@ -1096,7 +1096,14 @@ All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of 
 
 ## Disabling Embedded Skins
 
-If you, for some reason, need to disable the embedded skins of a Telerik control, you should set the **EnableEmbeddedSkins** and **EnableEmbeddedBaseStylesheet** properties to **false**. More information can be found at:
+If the **Skin** property is not set explicitly either in the control's definition or in the Web.config file of the application, Telerik controls use the **Default** skin by default.
+
+If you, for some reason, need to disable the embedded skins or styles of a Telerik control, you could make avail of the following properties:
+
+* **EnableEmbeddedSkins** - Prevents the loading of the skin-specific styles of the control, which are required for the built-in skins. Set to false when using a custom skin.
+* **EnableEmbeddedBaseStylesheet** - Prevents registering of the base stylesheet of the control, which contains the main CSS styles. These styles include alignment, border widths, paddings, font icons, etc. and are applied to the control instances regardless of their chosen skin name.
+
+More information can be found at:
 
 * [How skins work]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/how-skins-work%})
 
@@ -1140,4 +1147,3 @@ Just change the **Menu** with the name of the control you want - TreeView, Grid,
 >
 >Hence the individual scripts/skins disabling for a particular control in the web.config will override the setting defined for all controls globally in the same file, while the page level scripts/skins disabling will override all relevant definitions from the web.config file.
 >
-
