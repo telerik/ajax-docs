@@ -13,9 +13,14 @@ position: 1
 @[template](/_templates/button/distorted-appearance.md#intro "control: RadRadioButtonList")
 
 ````ASP.NET
-<telerik:RadButton RenderMode="Lightweight" ID="RadButton1" runat="server" Text="RadButton" />
+<telerik:RadButton ID="RadButton1" runat="server" Text="RadButton" />
 <br />
-<telerik:RadRadioButtonList ID="RadRadioButtonList1" runat="server" Text="RadRadioButtonList" Checked="true"></telerik:RadRadioButtonList>
+<telerik:RadRadioButtonList ID="RadRadioButtonList1" runat="server" Text="RadRadioButtonList">
+    <Items>
+        <telerik:RadioButtonListItem Text="Item 1" Value="0" Selected="true" />
+        <telerik:RadioButtonListItem Text="Item 2" Value="1" />
+    </Items>
+</telerik:RadRadioButtonList>
 ```` 
 
 @[template](/_templates/button/distorted-appearance.md#cause-resolve "control: RadRadioButtonList")
