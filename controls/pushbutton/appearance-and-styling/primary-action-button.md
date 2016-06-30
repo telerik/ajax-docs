@@ -5,7 +5,7 @@ description: Primary Action Button
 slug: pushbutton/appearance-and-styling/primary-action-button
 tags: primary,and,secondary,action,buttons,state
 published: True
-position: 2
+position: 1
 ---
 
 # Primary Action Button

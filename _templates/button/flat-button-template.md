@@ -3,29 +3,34 @@ This help article shows how you can setup **@{control}** with **Material** **Ski
 
 Flat button is styled with no background color. You can see an example in **Figure 1**
 
->important Flat button style is supported only with **Material** **Skin**. 
+>important Flat button style is available only with **Material** **Skin**. 
 
-In order to render such a button you should add the @{className} class to the control so to get the proper styles. You can see **Example 1**.
+In order to render such a button you should add the @{className} class to the {% if '@{control}' == 'RadFormDecorator' %} button element {%else%} control {%endif%} so to get the proper styles. You can see **Example 1**.
 
->caption Figure 1: @{control} decorated as flat button vs normal.
+>caption Figure 1: Flat button style vs normal button style.
 
 ![](images/flat-button.png)
 
->caption Example 1: Configuring @{control} to render as flat button.
+>caption Example 1: Rendering flat button with @{control}
 #end
 
-#intro-bak
-This help article describes what to do when you have an appearance issue with **@{control}** and provides a resolution.
+#see-also
+{%if '@{exclude}' != 'RadButton'%}
+* [RadButton: Flat Button]({%slug button/appearance-and-styling/flat-button%})
+{%endif%}
 
-The appearance of **@{control}** may be distorted (**Figure 1**) when the control is declarted on the same page that contains a **RadButton** with a `Classic` `RenderMode` (*i.e., the default `RenderMode`*).
+{%if '@{exclude}' != 'RadPushButton'%}
+* [RadPushButton: Flat Button]({%slug pushbutton/appearance-and-styling/flat-button%})
+{%endif%}
 
->caption Figure 1: Distorted appearance of **@{control}** when placed on the same page with **RadButton** `RenderMode`="`Classic`".
+{%if '@{exclude}' != 'RadLinkButton'%}
+* [RadLinkButton: Flat Button]({%slug linkbutton/appearance-and-styling/flat-button%})
+{%endif%}
 
-![distorted appearance](images/distorted-appearance.png)
-
->caption Example 1: The code that reproduces the appearance issue from **Figure 1**.
+{%if '@{exclude}' != 'RadFormDecorator'%}
+* [RadFormDecorator: Flat Button]({%slug formdecorator/appearance-and-styling/flat-button%})
+{%endif%}
 #end
-
 
 
 
