@@ -1,7 +1,7 @@
 #intro
 This help article shows how you can setup **@{control}** with **Material** **Skin** to render it as flat button. 
 
-Flat button is styled with no background color. You can see an example in **Figure 1**
+Flat button is styled with no background color. You can see an example in **Figure 1**.
 
 >important Flat button style is available only with **Material** **Skin**. 
 
