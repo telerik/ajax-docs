@@ -28,7 +28,7 @@ The settings under the General category affect all of the installed **Telerik Vi
 
 ### Project setup
 
-**Add referenced assemblies to solution and source control**- Sets the default value for the **Add referenced assemblies to solution** option in the Project Configuration Wizard
+**Copy referenced assemblies to solution and integrate with source control**- Sets the default value for the **Copy referenced assemblies to solution** option in the Project Configuration Wizard
 
 ### Project Upgrade Notifications for Detected Local Distributions
 
@@ -53,12 +53,6 @@ Configures the path where the extensions look for and store distributions.
 All settings falling under the AJAX category affect only the **Telerik UI for ASP.NET AJAX** Visual Studio Extensions.
 
 ![AJAX Settings](images/introduction-vsx_optionsdialog_specific.png)
-
-### Project Health
-
-**Display warnings when possible design-time break detected** – When enabled, you will receive warnings if the **Telerik Visual Studio Extensions** detect specific conditions, known to cause design-time issues.
-
->note The most common of the conditions is the absence of Service Pack 1 for Visual Studio 2008 ([read more]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/troubleshooting/design-time-troubleshooting%})).
 
 ### Latest version retrieval
 
