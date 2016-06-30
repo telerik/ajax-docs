@@ -12,13 +12,13 @@ position: 1
 
 This help article showcases how to operate with the items of **RadRadioButtonList** on the server-side/client-side.
 
-* [Select Toggle State Server-Side](#select-toggle-state-server-side)
+* [Select Item Server-Side](#select-item-server-side)
 
-* [Get Selected Toggle State Server-Side](#get-selected-toggle-state-server-side)
+* [Get Selected Item Server-Side](#get-selected-item-server-side)
 
-* [Select Toggle State Client-Side](#select-toggle-state-client-side)
+* [Select Item Client-Side](#select-item-client-side)
 
-* [Get Selected Toggle State Client-Side](#get-selected-toggle-state-client-side)
+* [Get Selected Item Client-Side](#get-selected-item-client-side)
 
 ## Select Item Server-Side
 
@@ -35,23 +35,23 @@ To select a particular item of **RadRadioButtonList** you should set the `Select
 </telerik:RadRadioButtonList>
 ```` 
 
->caption Example 2: Select a ButtonToggleState from the code behind. 
+>caption Example 2: Select a RadioButtonListItem from the code behind. 
 
 ````C#
 protected void Page_Init(object sender, EventArgs e)
 {
-	RadRadioButtonList1.ToggleStates[1].Selected = true;
+	RadRadioButtonList1.Items[0].Selected = true;
 }
 ````
 ````VB
 Protected Sub Page_Init(sender As Object, e As EventArgs)
-	RadRadioButtonList1.ToggleStates(1).Selected = True
+	RadRadioButtonList1.Items(1).Selected = True
 End Sub
 ````
 
-For a data-bound scenario you can use the `SelectedToggleStateIndex` of the control (**Example 3**).
+For a data-bound scenario you can use the `SelectedIndex` of the control (**Example 3**).
 
->caption Example 3: Databind the selected state of a RadRadioButtonList.
+>caption Example 3: Databind the selected index of a RadRadioButtonList.
 
 ````ASP.NET
 <telerik:RadGrid RenderMode="Lightweight" runat="server" ID="RadGrid1" Width="150px">
@@ -59,15 +59,12 @@ For a data-bound scenario you can use the `SelectedToggleStateIndex` of the cont
 		<Columns>
 			<telerik:GridTemplateColumn DataField="SelectToggleStateField" HeaderText="SelectToggleStateField">
 				<ItemTemplate>
-					<telerik:RadRadioButtonList runat="server" ID="RadRadioButtonList1" SelectedToggleStateIndex='<%#Eval("SelectState") %>'>
-						<ToggleStates>
-							<telerik:ButtonToggleState Text="State 1">
-							</telerik:ButtonToggleState>
-							<telerik:ButtonToggleState Text="State 2">
-							</telerik:ButtonToggleState>
-							<telerik:ButtonToggleState Text="State 3">
-							</telerik:ButtonToggleState>
-						</ToggleStates>
+					<telerik:RadRadioButtonList ID="RadRadioButtonList1" runat="server" SelectedIndex='<%#Eval("SelectState") %>'>
+						<Items>
+							<telerik:RadioButtonListItem Text="Item 1" Value="0" />
+							<telerik:RadioButtonListItem Text="Item 2" Value="1" />
+							<telerik:RadioButtonListItem Text="Item 3" Value="2" />
+						</Items>
 					</telerik:RadRadioButtonList>
 				</ItemTemplate>
 			</telerik:GridTemplateColumn>
@@ -102,87 +99,64 @@ Public Sub Page_Init(sender As Object, e As System.EventArgs)
 End Sub
 ````
 
->warning The `SelectedToggleStateIndex` property will not take effect if directly assigned with a value in the markup. The `SelectedToggleStateIndex` property takes effect only when set from the code behind or integrated in a data-bound scenario in the markup (**Example 3**). 
+>warning The `SelectedIndex` property will not take effect if directly assigned with a value in the markup. The `SelectedIndex` property takes effect only when set from the code behind or integrated in a data-bound scenario in the markup (**Example 3**). 
 
-## Get Selected Toggle State Server-Side
+## Get Selected Item Server-Side
 
-To get the selected toggle state and selected toggle state index you can use the `SelectedToggleState` and `SelectedToggleStateIndex` properties of the **RadRadioButtonList** control.
+To get the selected item and selected index you can use the `SelectedItem` and `SelectedIndex` properties of the **RadRadioButtonList** control.
 
->caption Example 4: Get `SelectedToggleState` and `SelectedToggleStateIndex` of **RadRadioButtonList** from the code behind. 
+>caption Example 4: Get `SelectedIndex` and `SelectedItem` of **RadRadioButtonList** from the code behind. 
 
 ````ASP.NET
-<telerik:RadRadioButtonList runat="server" ID="RadRadioButtonList1" OnToggleStateChanged="RadRadioButtonList1_ToggleStateChanged">
-	<ToggleStates>
-		<telerik:ButtonToggleState Text="State 1" CommandName="command1" CommandArgument="argument1" Value="value1">
-		</telerik:ButtonToggleState>
-		<telerik:ButtonToggleState Text="State 2" CommandName="comamnd2" CommandArgument="argument2" Value="value2" Selected="true">
-		</telerik:ButtonToggleState>
-		<telerik:ButtonToggleState Text="State 3" CommandName="command3" CommandArgument="argument3" Value="value3">
-		</telerik:ButtonToggleState>
-	</ToggleStates>
+<telerik:RadRadioButtonList ID="RadRadioButtonList1" runat="server" OnSelectedIndexChanged="RadRadioButtonList1_SelectedIndexChanged">
+	<Items>
+		<telerik:RadioButtonListItem Text="Item 1" Value="0" />
+		<telerik:RadioButtonListItem Text="Item 2" Value="1" Selected="true" />
+		<telerik:RadioButtonListItem Text="Item 3" Value="2" />
+	</Items>
 </telerik:RadRadioButtonList>
 ````
 
 ````C#
-protected void Page_Load(object sender, EventArgs e)
+protected void RadRadioButtonList1_SelectedIndexChanged(object sender, EventArgs e)
 {
-	int selectedToggleStateIndex = RadRadioButtonList1.SelectedToggleStateIndex;
-	ButtonToggleState selectedToggleState = RadRadioButtonList1.SelectedToggleState;
+	int selectedIndex = RadRadioButtonList1.SelectedIndex;
+	RadioButtonListItem selectedradioButtonListItem = RadRadioButtonList1.SelectedItem;
 }
 ````
 ````VB
-Protected Sub Page_Load(sender As Object, e As EventArgs)
-	Dim selectedToggleStateIndex As Integer = RadRadioButtonList1.SelectedToggleStateIndex
-	Dim selectedToggleState As ButtonToggleState = RadRadioButtonList1.SelectedToggleState
+Protected Sub RadRadioButtonList1_SelectedIndexChanged(sender As Object, e As EventArgs)
+	Dim selectedIndex As Integer = RadRadioButtonList1.SelectedIndex
+	Dim selectedradioButtonListItem As RadioButtonListItem = RadRadioButtonList1.SelectedItem
 End Sub
 ````
 
-The selected toggle state reference provides all its properties (e.g., `Value`, `Text`, `CommandName`) and inner tags (`Icon` and `Image`).
-
->tip You can also get the `SelectedToggleState`, `SelectedToggleStateIndex` and the corresponding properties (e.g., `Value`, `Text`, `CommandName`, `CommandArgument`) of the selected toggle state from the arguments of the `OnToggleStateChanged` event (**Example 5**).
-
->caption Example 5: Get `SelectedToggleState`, `SelectedToggleStateIndex`, `CommandName` and `CommandArgument` of the `ToggleButtonStateChangedEventArgs` event arguments. 
+The selected item reference provides all its properties (e.g., `Value`, `Text`, `Selected` and `Enabled`).
 
 
-````C#
-	protected void RadRadioButtonList1_ToggleStateChanged(object sender, Telerik.Web.UI.ToggleButtonStateChangedEventArgs e)
-	{
-		int selectedToggleStateIndex = e.SelectedToggleStateIndex;
-		ButtonToggleState selectedToggleState = e.SelectedToggleState;
-		string commandNameArgument = string.Format("CommandName: {0}, CommandArgument: {1}", e.CommandName, e.CommandArgument);
-	}
-````
-````VB
-Protected Sub RadRadioButtonList1_ToggleStateChanged(sender As Object, e As Telerik.Web.UI.ToggleButtonStateChangedEventArgs)
-	Dim selectedToggleStateIndex As Integer = e.SelectedToggleStateIndex
-	Dim selectedToggleState As ButtonToggleState = e.SelectedToggleState
-	Dim commandNameArgument As String = String.Format("CommandName: {0}, CommandArgument: {1}", e.CommandName, e.CommandArgument)
-End Sub
-````
+## Select Item Client-Side
 
-## Select Toggle State Client-Side
+You can select a particular item of **RadRadioButtonList** by passing the corresponding index in the `set_selectedIndex()` method of the control.
 
-You can select a particular toggle state of **RadRadioButtonList** by passing the corresponding index in the `set_selectedToggleStateIndex()` method of the control.
-
->caption Example 6: Select a toggle state on the client-side.
+>caption Example 6: Select an item on the client-side.
 
 ````JavaScript
-var toggleButton = $find("<%=RadRadioButtonList1.ClientID%>");
-toggleButton.set_selectedToggleStateIndex(0);
+var radioButtonList = $find("<%=RadRadioButtonList1.ClientID%>");
+radioButtonList.set_selectedIndex(0);
 ````
 
 
-## Get Selected Toggle State Client-Side
+## Get Selected Item Client-Side
 
-You can obtain the toggle states, selected toggle state and selected toggle state index of **RadRadioButtonList** through the `get_toggleStates()`, `get_selectedToggleState()`, and `get_selectedToggleStateIndex()` methods.
+You can obtain the items, selected item and selected item index of **RadRadioButtonList** through the `get_items()`, `get_selectedItem()`, and `get_selectedIndex()` methods.
 
->caption Example 7: Reference toggle states, selected toggle state and selected toggle state index of **RadRadioButtonList** through its client-side API. 
+>caption Example 7: Reference items, selected item and selected index of **RadRadioButtonList** through its client-side API. 
 
 ````JavaScript
-var toggleButton = $find("<%=RadRadioButtonList1.ClientID%>");
-var toggleStates = toggleButton.get_toggleStates();
-var selectedToggleState = toggleButton.get_selectedToggleState();
-var selectedToggleStateIndex = toggleButton.get_selectedToggleStateIndex();
+var radioButtonList = $find("<%=RadRadioButtonList1.ClientID%>");
+var items = radioButtonList.get_items();
+var selectedItem = radioButtonList.get_selectedItem();
+var selectedIndex = radioButtonList.get_selectedIndex();
 ````
 
 
