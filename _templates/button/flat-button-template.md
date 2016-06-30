@@ -1,11 +1,11 @@
 #intro
-This help article shows how you can setup **@{control}** with **Material** **Skin** to render it as flat button. 
+This article shows how to get a **flat button** from a **@{control}** with the **Material** Skin. 
 
-Flat button is styled with no background color. You can see an example in **Figure 1**.
+А Flat button is styled with no background color. You can see an example in **Figure 1**.
 
->important Flat button style is available only with **Material** **Skin**. 
+>important The Flat button style is available only with the **Material** Skin. 
 
-In order to render such a button you should add the @{className} class to the {% if '@{control}' == 'RadFormDecorator' %} button element {%else%} control {%endif%} so to get the proper styles. You can see **Example 1**.
+In order to render such a button you must add the @{className} class to the {% if '@{control}' == 'RadFormDecorator' %} button element {%else%} control {%endif%} so to get the proper styles. You can see **Example 1**.
 
 >caption Figure 1: Flat button style vs normal button style.
 
