@@ -14,7 +14,7 @@ position: 2
 
 Occurs before template is being applied to the navigation node.
 
-The NodeDataBound event handler receives two arguments:
+The TemplateNeeded event handler receives two arguments:
 
 1. The Navigation that is loading the nodes. This argument is of type object, but can be cast to the **RadNavigation** type.
 
