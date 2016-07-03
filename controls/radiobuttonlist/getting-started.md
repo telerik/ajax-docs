@@ -10,17 +10,17 @@ position: 2
 
 # Getting Started
 
-The following tutorial demonstrates how to set up a page with a **RadRadioButtonList** control and use its **OnSelectedIndexChanged** server event:
+The following help article demonstrates how to set up a page with a **RadRadioButtonList** control and use its **OnSelectedIndexChanged** server event:
 
-1. In the default page of a new ASP.NET AJAX-enabled Web Application add a **RadRadioButtonList** control:
+1. In the default page of a new ASP.NET AJAX-enabled Web Application, add a **RadRadioButtonList** control:
 
 	**ASP.NET**	
 	
 		<telerik:RadRadioButtonList ID="RadRadioButtonList1" runat="server">
 		</telerik:RadRadioButtonList>
 
-1. Add two `RadioButtonListItem` objects with appropriate `Text` and `Selected` state to the `Items` collection :
-
+1. Add two `RadioButtonListItem` objects with appropriate `Text` and `Selected` state to the `Items` collection:
+<Comment: I think you are missing a word, a verb like set, before the word state in the previous line.>
 	**ASP.NET**
 
 		<telerik:RadRadioButtonList ID="RadRadioButtonList1" runat="server">
@@ -30,7 +30,7 @@ The following tutorial demonstrates how to set up a page with a **RadRadioButton
 			</Items>
 		</telerik:RadRadioButtonList>
 
-1. To hook to the **OnSelectedIndexChanged** server-side event of **RadRadioButtonList** add an attribute to the main control tag and add the method signature:
+1. To hook to the **OnSelectedIndexChanged** server-side event of **RadRadioButtonList**, add an attribute to the main control tag and add the method signature:
 
 	**ASP.NET**
 
@@ -48,7 +48,7 @@ The following tutorial demonstrates how to set up a page with a **RadRadioButton
 
 		}
 
-	**VB**
+	**VB.NET**
 	
 		Protected Sub RadRadioButtonList1_SelectedIndexChanged(ByVal sender As Object, ByVal e As EventArgs)
 		End Sub
@@ -73,7 +73,7 @@ The following tutorial demonstrates how to set up a page with a **RadRadioButton
 			Label1.Text = data;
 		}
 
-	**VB**
+	**VB.NET**
 	
 		Protected Sub RadRadioButtonList1_SelectedIndexChanged(sender As Object, e As EventArgs)
 			Dim radioButtonList As RadRadioButtonList = TryCast(sender, RadRadioButtonList)
