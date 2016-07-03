@@ -10,7 +10,7 @@ position: 1
 
 # Select Item
 
-This help article showcases how to operate with the items of **RadRadioButtonList** on the server-side/client-side.
+This help article showcases how to operate with the items of a **RadRadioButtonList** on the server-side/client-side.
 
 * [Select Item Server-Side](#select-item-server-side)
 
@@ -22,7 +22,7 @@ This help article showcases how to operate with the items of **RadRadioButtonLis
 
 ## Select Item Server-Side
 
-To select a particular item of **RadRadioButtonList** you should set the `Selected` property of the target item to `true`.
+To select a particular item of a **RadRadioButtonList**, you should set the `Selected` property of the target item to `true`.
 
 >caption Example 1: Select a RadioButtonListItem from the markup. 
 
@@ -51,7 +51,7 @@ End Sub
 
 For a data-bound scenario you can use the `SelectedIndex` of the control (**Example 3**).
 
->caption Example 3: Databind the selected index of a RadRadioButtonList.
+>caption Example 3: Data bind the selected state of a RadRadioButtonList.
 
 ````ASP.NET
 <telerik:RadGrid RenderMode="Lightweight" runat="server" ID="RadGrid1" Width="150px">
