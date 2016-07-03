@@ -10,7 +10,7 @@ position: 3
 
 # Design Time
 
-The Smart Tag of **RadRadioButtonList** (**Figure 1**) lets you configure your control or quickly get help. You can display the Smart Tag by right clicking on a **RadRadioButtonList** control and choosing "Show Smart Tag", or clicking the small rightward-pointing arrow located in the upper right corner of the control.
+The Smart Tag of the **RadRadioButtonList** (**Figure 1**) lets you configure your control or quickly get help. You can display the Smart Tag by right-clicking on a **RadRadioButtonList** control and choosing "Show Smart Tag", or clicking the small rightward-pointing arrow located in the upper right corner of the control.
 
 <!-- >caption Figure 1: RadRadioButtonList's smart tag.
 
