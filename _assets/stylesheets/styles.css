@@ -874,8 +874,6 @@ footer a:hover {
 		}
 		
 		#helpful-buttons-container {
-			margin-top: 0;
-			margin-bottom: 0;
 			font-size: 1.5em;
 			font-weight: bold;
 			color: #000;
@@ -884,8 +882,8 @@ footer a:hover {
 		}
 		
 		#helpful-buttons-container button {
+			float: right;
 			line-height: 0.933em;
-			position: absolute;
 			font-size: 15px;
 			font-weight: bold;
 			text-align: center;
@@ -901,20 +899,14 @@ footer a:hover {
 			transition-duration: 0.2s;
 			transition-timing-function: ease;
 		}
+
+		#yesButton {
+			margin-right: 10px;
+		}
 		
 		#helpful-buttons-container button:hover{
 			background-color: #2a2d33;
 			color: #fff;
-		}
-		
-		#helpful-buttons-container button:nth-child(1) {
-			top: 0;
-			right: 99px;
-		}
-		
-		#helpful-buttons-container button:nth-child(2) {
-			top: 0;
-			right: 0;
 		}
 		
 		#feedback-submitted-container,
@@ -943,8 +935,13 @@ footer a:hover {
 		#feedback-form-window textarea:-ms-input-placeholder {
 			color: #d9d9d9;
 		}
+
+		#feedback-form-window .feedback-extw__title {
+			margin: 0;
+			font-size: 24px;
+		}
 		
-		#feedback-form-window p:nth-child(1) {
+		#feedback-form-window .feedback-extw__subtitle {
 			margin-top: 0;
 			margin-bottom: 0;
 			font-size: 1.5em;
@@ -964,25 +961,41 @@ footer a:hover {
 		
 		#feedback-form label {
 			display: block;
-			margin: 5px 0;
+			margin: 5px 0 10px;
 		}
-		
-		#feedback-text-input {
+
+		#feedback-extw__checkbox:after {
+			content: "";
+			display: block;
+			clear: both;
+		}
+
+		#feedback-form .checkbox__input {
+			float: left;
+		}
+
+		#feedback-form .checkbox__text {
+			line-height: 18px;
+			margin-left: 5px;
+		}
+
+		#feedback-form .feedback-extw__textarea,
+		#feedback-form .feedback-extw__input {
+			padding: 10px;
+			border: 1px solid #d9d9d9;
+			width: 100%;
+			box-sizing: border-box;
+			font: inherit;
+			font-style: italic;
+		}
+
+		#feedback-form .feedback-extw__textarea {
 			margin-top: 21px;
-			padding: 10px 0 0 10px;
-			width: 430px;
 			height: 156px;
-			border: 1px solid #d9d9d9;
-			font-style: italic;
 		}
 		
-		#feedback-text-input ~ input[type="email"] {
-			width: 430px;
-			margin-top: 11px;
-			margin-bottom: 30px;
-			border: 1px solid #d9d9d9;
-			padding: 5px;
-			font-style: italic;
+		#feedback-form .feedback-extw__input {
+			margin: 12px 0 30px;
 		}
 		
 		#feedback-form-window button {
@@ -1005,6 +1018,10 @@ footer a:hover {
 		
 		#feedback-form-window button:hover {
 			background-color: #013a5e;
+		}
+
+		#form-submit-button {
+			margin-left: 5px;
 		}
 		
 		button#form-close-button {
