@@ -10,7 +10,7 @@ position: 7
 
 # Create Custom Skin
 
-This help article discusses how to configure the chart legend.
+This help article illustrates how to create a custom skin for RadHtmlChart.
 
 * [Modify an Existing Skin](#modify-an-existing-skin)
 * [Create a New Skin](#create-a-new-skin)
@@ -18,7 +18,66 @@ This help article discusses how to configure the chart legend.
 
 ## Modify an Existing Skin
 
-You can control the background color of the legend with the `Legend.Appearance.BackgroundColor` property. To control the color and the font of the text you can use the `Legend.Appearance.TextStyle` inner property (**Example 1**).
+RadHtmlChart renders entirely on the client-side as SVG/Canvas. The control reads the skin-specific colors from a JSON (i.e., RadHtmlChartSkins.js file), so that you cannot use pure HTML to style its elements but modify the JSON itself.
+
+To modify an existing chart skin you can follow the steps below:
+
+1. Copy the `RadHtmlChartSkins.js` file to your project and open it. The file is located in the `Telerik.Web.UI\HtmlChart` folder of the Telerik UI for ASP.NET AJAX Source Code.
+
+1. Find the skin you want to modfiy and customize the colors of the corresponding elements. **Example 1** shows how to set a silver background for the chart area and colorize the first two series with green and blue colors. 
+
+	>caption Example 1: Customize the Black skin of RadHtmlChart via the `RadHtmlChartSkins.js` file.
+
+	**JavaScript**
+
+		Black: {
+			chart: deepExtend({}, chartBaseTheme, {
+				chartArea: {
+					background: "silver"
+				},
+				seriesColors: ["green", "blue"],
+			})
+		},
+
+1. Set the name of the customized skin to the RadHtmlChart and load the `RadHtmlChartSkins.js` file to the same page where resides the chart.
+
+	>caption Example 2: Load the `RadHtmlChartSkins.js` file to the page where reside the RadHtmlChart and set the skin.
+
+	**ASP.NET**
+
+		<telerik:RadScriptManager ID="RadScriptManager1" runat="server"></telerik:RadScriptManager>
+		<script src="RadHtmlChartSkins.js"></script>
+		<telerik:RadHtmlChart runat="server" ID="RadHtmlChart1" Width="400px" Height="200px" Skin="Black">
+			<PlotArea>
+				<Series>
+					<telerik:ColumnSeries Name="Product 1">
+						<SeriesItems>
+							<telerik:CategorySeriesItem Y="15000" />
+							<telerik:CategorySeriesItem Y="23000" />
+						</SeriesItems>
+					</telerik:ColumnSeries>
+					<telerik:ColumnSeries Name="Product 2">
+						<SeriesItems>
+							<telerik:CategorySeriesItem Y="15000" />
+							<telerik:CategorySeriesItem Y="23000" />
+						</SeriesItems>
+					</telerik:ColumnSeries>
+				</Series>
+				<XAxis>
+					<Items>
+						<telerik:AxisItem LabelText="6m" />
+						<telerik:AxisItem LabelText="12m" />
+					</Items>
+				</XAxis>
+			</PlotArea>
+		</telerik:RadHtmlChart>
+
+You can see the output of the modified Black skin in **Figure 1**.
+
+>caption Figure 1: RadHtmlChart with customized Black skin.
+
+![create-custom-skin-existing-skin-black](images/create-custom-skin-existing-skin-black.png)
+
 
 You can find all the available options for the `TextStyle` inner property in the [Labels and Titles Font Settings]({%slug htmlchart/appearance-and-styling/labels-and-titles-font-settings%}) help article.
 
