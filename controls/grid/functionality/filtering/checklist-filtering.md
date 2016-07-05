@@ -505,7 +505,7 @@ To specify what values will be displayed in the ListBox control you need to defi
 
 This filtering type provides look and feel that resembles the filter in Excel. It is available for RadGrid since Q3 2015. To enable this mode you should set the **FilterType** property of RadGrid to **HeaderContext** and turn on the header context menu (**EnableHeaderContextMenu="true"**).
 
->note If you are using **client-side binding** the header context menu must be disabled (**EnableHeaderContextMenu="false"**).
+>note If you are using **client-side binding** the header context menu must be disabled (**EnableHeaderContextMenu="false"**). Additionally you should populate the HeaderContext filter menu by using a **Web Service** instead of using **LoadOnDemand** feature.
 >
 
 
