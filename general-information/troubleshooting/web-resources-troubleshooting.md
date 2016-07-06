@@ -68,6 +68,43 @@ There are, however, a few ways to alleviate such a problem:
 * use the CDNs Telerik provides (for [scripts]({%slug scriptmanager/cdn-support/overview%}) and [skins]({%slug stylesheetmanager/cdn-support/overview%})) and the [MS AJAX CDN](http://www.asp.net/ajax/cdn#Using_ASPNET_Ajax_from_the_CDN_20) so WebResources are used as rarely as possible (only some dialogs, the binary image and file uploads will keep using webresources).
 
 
+### Unauthorized Access (401) Error
+
+When your project uses a form of authentication (e.g., Windows Authentication), access to most resources (like pages, images, handlers) is not allowed for anonymous (unauthorized users). This affects the Telerik controls because they use a number of [HTTP Handlers]({%slug general-information/web-config-settings-overview%}#mandatory-additions-to-the-webconfig) that also get blocked.
+
+There are two ways to resolve this:
+
+* use the CDNs Telerik provides (for [scripts]({%slug scriptmanager/cdn-support/overview%}) and [skins]({%slug stylesheetmanager/cdn-support/overview%})) and the [MS AJAX CDN](http://www.asp.net/ajax/cdn#Using_ASPNET_Ajax_from_the_CDN_20) so WebResources are used as rarely as possible (only some dialogs, the binary image and file uploads will keep using webresources).
+
+	>tip You can also use [single request for all scripts]({%slug scriptmanager/cdn-support/combined-request-for-telerik-controls%}) and a [combined base stylesheet request]({%slug stylesheetmanager/cdn-support/combined-request-for-telerik-controls%}) to greatly reduce the number of network requests.
+
+* Or, add `<location>` elements to your web.config for all the handlers you use, so ASP.NET does not block them. For example:
+
+	**web.config**
+
+		<configuration>
+		...
+		<location path="Telerik.Web.UI.WebResource.axd">
+		   <system.web>
+		     <authorization>
+		       <allow users="*"/>
+		     </authorization>
+		   </system.web>
+		 </location>
+		<location path="Telerik.Web.UI.DialogHandler.aspx">
+		   <system.web>
+		     <authorization>
+		       <allow users="*"/>
+		     </authorization>
+		   </system.web>
+		 </location>
+		...
+		</configuration> 
+
+
+
+
+
 ### Dealing with the 404 Error Code (the Requested URL was Not Found)
 
 Please check the following:
