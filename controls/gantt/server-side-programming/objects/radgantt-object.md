@@ -14,14 +14,29 @@ The most important properties and methods of the **RadGantt** server-side object
 
 ## RadGantt Properties
 
-The **RadGantt** properties are divided in two separate tables below - list of general properties and view settings properties.
+The **RadGantt** properties are divided in three separate tables below - list of user editing options, general properties and view settings properties.
 
-**Table 1** demonstrates some general properties of the **RadGantt** object.
+**Table 1** lists the user editing options properties exposed by the **RadGantt** object.
 
 | Name | Type | Description |
 | ------ | ------ | ------ |
 | **AllowColumnResize** |bool|Gets or sets a value indicating whether the columns can be resized.|
+| **AllowDependencyDelete** |bool|Gets or sets a value indicating whether the user is able to delete a dependency.|
+| **AllowDependencyInsert** |bool|Gets or sets a value indicating whether the user is able to insert a dependency.|
+| **AllowPercentCompleteDrag** |bool|Gets or sets a value indicating whether the user is able to drag PercentComplete of a task.|
 | **AllowSorting** |bool|Gets or sets a value indicating whether sorting is enabled for the tree list part.|
+| **AllowTaskDelete** |bool|Gets or sets a value indicating whether the user is able to delete a task.|
+| **AllowTaskInsert** |bool|Gets or sets a value indicating whether the user is able to insert a task.|
+| **AllowTaskMove** |bool|Gets or sets a value indicating whether the user is able to move a task.|
+| **AllowTaskReorder** |bool|Gets or sets a value indicating whether the user is able to reorder a task.|
+| **AllowTaskResize** |bool|Gets or sets a value indicating whether the user is able to resize a task.|
+| **AllowTaskUpdate** |bool|Gets or sets a value indicating whether the user is able to update a task.|
+
+
+**Table 2** demonstrates some general properties of the **RadGantt** object.
+
+| Name | Type | Description |
+| ------ | ------ | ------ |
 | **Assignments** |Telerik.Web.UI.Gantt. AssignmentCollection|Gets the **RadGantt** assignments collection.|
 | **AutoGenerateColumns** |bool|Gets or sets a value indicating whether bound columns are automatically created for each field in the data source. **RadGantt** will auto generate columns for the following fields: ID, Title, Start, End and PercentageComplete.|
 | **ClientTemplate** |string|Gets or sets the HTML template of the **RadGantt** tasks.|
@@ -57,7 +72,7 @@ The **RadGantt** properties are divided in two separate tables below - list of g
 | **WorkWeekStart** |DayOfWeek enumeration|Gets or sets the first day of the work week.|
 
 
-**Table 2** lists the [view settings]({%slug gantt/server-side-programming/objects/viewsettings-objects%}) properties exposed in the API.
+**Table 3** lists the [view settings]({%slug gantt/server-side-programming/objects/viewsettings-objects%}) properties exposed in the API.
 
 | Name | Type | Description |
 | ------ | ------ | ------ |
@@ -69,7 +84,7 @@ The **RadGantt** properties are divided in two separate tables below - list of g
 
 ## RadGantt Methods
 
-**Table 3** lists the server-side methods exposed in the **RadGantt** API.
+**Table 4** lists the server-side methods exposed in the **RadGantt** API.
 
 | Name | Parameters | Return type | Description |
 | ------ | ------ | ------ | ------ |
