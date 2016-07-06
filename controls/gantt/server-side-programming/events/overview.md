@@ -1,5 +1,5 @@
 ---
-title: Events Overview
+title: Overview
 page_title: Overview | RadGantt for ASP.NET AJAX Documentation
 description: Overview
 slug: gantt/server-side-programming/events/overview
@@ -8,7 +8,7 @@ published: True
 position: 0
 ---
 
-# Events Overview
+# Overview
 
 
 

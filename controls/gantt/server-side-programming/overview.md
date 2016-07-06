@@ -10,52 +10,12 @@ position: 0
 
 # Server-side Programming Overview
 
-**RadGantt** provides a rich set of server-side properties and events that can help you configure the look and behaviour of the control.
+**RadGantt** provides a rich set of server-side properties, methods and events that can help you configure the look and behaviour of the control. List and explanation of the most important **RadGantt** properties and methods could be found in the [**RadGantt Object article**]({%slug gantt/server-side-programming/objects/radgantt-object%})
 
-## RadGantt Properties
-
-**Table 1** demonstrates some general properties of the **RadGantt**:
-
-
-| Property | Description |
-| ------ | ------ |
-| **AllowSorting** |Gets/sets a value indicating whether sorting is enabled or not.|
-| **Width** |Gets or sets the **RadGantt** width in pixels or percents.|
-| **ListWidth** |Gets or sets the **RadGantt** list width in pixels or percents.|
-| **Height** |Gets or sets the **RadGantt** height in pixels or percents.|
-| **ProviderName** |Gets or sets the name of the current tasks provider used by **RadGantt**. The provider must be defined in the gantt section of web.config.|
-| **Provider** |Gets or sets the provider instance to be used by **RadGantt**. Use this property with providers that are created at runtime. For ASP.NET providers defined in web.config use the **ProviderName** property.|
-| **SelectedView** |Gets or sets the current view type.|
-| **DependenciesDataSourceID** |Gets or sets the data source used to bind dependencies.|
-| **DependenciesDataSource** |Gets or sets data source used for dependencies.|
-| **Columns** |Gets the available columns.|
-| **DayView** |Gets the **Day** view settings.|
-| **WeekView** |Gets the **WeekView** settings.|
-| **MonthView** |Gets the **Month** view settings.|
-| **YearView** |Gets the **Year** view settings.|
-| **ReadOnly** |Gets or sets a value indicating whether **RadGantt** is in read-only mode.|
-| **AutoGenerateColumns** |Gets or sets a value indicating whether bound columns are automatically created for each field in the data source. **RadGantt** will auto generate columns for the following fields: **ID**, **Title**, **Start**, **End** and **PercentageComplete**.|
-| **Culture** |Gets or sets the selected culture. Localization strings will be loaded based on this value.|
-| **Localization** |Gets the localization.|
-| **LocalizationPath** |Gets or sets a value indicating where **RadGantt** will look for its **.resx** localization files.|
-| **WebServiceSettings** |Gets the web service settings to be used for binding this instance of **RadGantt**.|
-| **SnapToGrid** |Gets or sets a value that determines whether the tasks will snap to the nearest grid cell in the timeline.|
-| **DisplayDeleteConfirmation** |Gets or sets a value indicating whether a delete confirmation dialog should be displayed when the user deletes a task or a dependency. The default value is **true**.|
-| **KeyboardNavigationSettings** |Gets the **KeyboardNavigation** settings.|
-
-## RadGantt Methods
-
-**Table 2** lists the server-side method exposed in the API.
-
-
-| Method | Description |
-| ------ | ------ |
-| **RadGantt.GetAllTasks** |Returns **Depth First Search** flattened list of tasks.|
-| **RadGantt.Dependency.LoadFromDictionary** |Loads the **Dependency** values from an OrderedDictionary|
 
 ## RadGantt Events
 
-**Table 3** shows the server-side events to which you can subscribe.
+**Table 1** shows the server-side events to which you can subscribe to.
 
 
 | Events | Description |
@@ -72,35 +32,20 @@ position: 0
 | **[DependencyInsert]({%slug gantt/server-side-programming/events/dependencyinsert%})** |Fires when a dependency's collection is about to be inserted in the database.|
 | **[DependencyDelete]({%slug gantt/server-side-programming/events/dependencydelete%})** |Fires when a dependency's collection is about to be deleted from the database through the provider.|
 
-## RadGantt Task
-
-In this section you will find helpful information about the properties and methods of the gantt **Task**.
-
-**Task Properties**
-
-
-| Property | Description |
-| ------ | ------ |
-| **ID** |Gets/sets the Task's ID.|
-| **ParentID** |Gets/sets the **ID** of the task's parent task.|
-| **OrderID** |Gets/sets **OrderID** field used by sort operations.|
-| **Duration** |Gets the appointment duration.|
-| **Summary** |Gets/sets a value that determines whether the tasks is a summary.|
-| **Expanded** |Gets or sets a value that determines whether the tasks is expanded in the **TreeList**.|
-| **PercentComplete** |Gets or sets a value that determines the percent of completion.|
-| **Title** |Gets or sets a value that determines the title of the task. The tasks is shown by default in the **TreeList** part. If this is not the desired behavior one can set the property to false.|
-| **TaskType** |Gets a value that determines the type of the tasks.|
-
-**Task Methods**
-
-
-| Method | Description |
-| ------ | ------ |
-| **GetData** |Returns the Task data as an OrdrederDictionary.|
-| **LoadFromDictionary** |Loads the **Task** values from an OrderedDictionary.|
 
 # See Also
 
- * [Dependencies]({%slug gantt/structure/dependencies%})
+ * [RadGantt Object]({%slug gantt/server-side-programming/objects/radgantt-object%})
 
- * [Tasks]({%slug gantt/structure/tasks%})
+ * [ViewSettings Objects]({%slug gantt/server-side-programming/objects/viewsettings-objects%})
+ 
+ * [Tasks]({%slug gantt/server-side-programming/objects/tasks%})
+
+ * [Dependencies]({%slug gantt/server-side-programming/objects/dependencies%})
+ 
+ * [Assignments]({%slug gantt/server-side-programming/objects/assignments%})
+ 
+ * [Resources]({%slug gantt/server-side-programming/objects/resources%})
+ 
+ * [Events Overview]({%slug gantt/server-side-programming/events/overview%})
+ 
