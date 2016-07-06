@@ -20,6 +20,8 @@ You can customize a Donut chart.
 
 * The color is controlled via the **BackgroundColor** property of the **PieSeriesItem**.
 
+* You can fine tune the diameter of the donut hole via the `HoleSize` property exposed by the `DonutSeries`.
+
 * The name that is shown in the legend is set via the `Name` property of the series item. You can hide the series item from the legend either by omitting it, or by setting the `VisibleInLegend` property to `false`.
 
 * Whether the sector is separated from the rest of the circle is controlled via the **Exploded** property of the **PieSeriesItem**. This and the Pie chart are the only chart types in whose context the **Exploded** property is meaningful and will have effect.
@@ -46,7 +48,7 @@ The Donut chart in **Figure 1** is created with the code in **Example 1**.
 	</ChartTitle>
 	<PlotArea>
 		<Series>
-			<telerik:DonutSeries>
+			<telerik:DonutSeries HoleSize="50">
 				<LabelsAppearance Visible="false">
 				</LabelsAppearance>
 				<TooltipsAppearance DataFormatString="{0}%" BackgroundColor="White"></TooltipsAppearance>
