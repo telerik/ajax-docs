@@ -42,12 +42,12 @@ Use the [SetFocus](http://msdn.microsoft.com/en-us/library/bb156188.aspx) method
 
 ````C#
 	     
-ScriptManager1.SetFocus(RadComboBox1.ClientID + "_Input");
+RadComboBox1.Focus();
 				
 ````
 ````VB.NET
 	     
-ScriptManager1.SetFocus(RadComboBox1.ClientID + "_Input")
+RadComboBox1.Focus()
 				
 ````
 
