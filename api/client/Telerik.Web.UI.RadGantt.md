@@ -15,6 +15,116 @@ slug: Telerik.Web.UI.RadGantt
 
 ## Methods
 
+### get_tasks
+
+Gets a collection with all root level tasks.
+
+#### Parameters
+
+#### Returns
+
+`Telerik.Web.UI.GanttTaskCollection` a collection of tasks
+
+### get_allTasks
+
+Gets a collection with all tasks.
+
+#### Parameters
+
+#### Returns
+
+`Telerik.Web.UI.GanttTask` Array
+
+### get_dependencies
+
+Gets a collection with all dependencies.
+
+#### Parameters
+
+#### Returns
+
+`Telerik.Web.UI.GanttDependencyCollection` a collection of dependencies
+
+### get_resources
+
+Gets a collection with all resources.
+
+#### Parameters
+
+#### Returns
+
+`Telerik.Web.UI.GanttResourceCollection` a collection of resources
+
+### get_assignments
+
+Gets a collection with all resource assignments.
+
+#### Parameters
+
+#### Returns
+
+`Telerik.Web.UI.GanttAssignmentCollection` a collection of assignments
+
+### get_selectedView
+
+Gets the selected view mode.
+
+#### Parameters
+
+#### Returns
+
+`Telerik.Web.UI.GanttViewType` enum with view modes
+
+### get_scrollTop
+
+Returns the vertical scroll bar position.
+
+#### Parameters
+
+#### Returns
+
+`Number`
+
+### get_scrollLeft
+
+Returns the horizontal scroll bar position.
+
+#### Parameters
+
+#### Returns
+
+`Number`
+
+### get_element
+
+Gets the control's DOM element.
+
+#### Parameters
+
+#### Returns
+
+`Element` DOM element
+
+### get_enabled
+
+Returns a boolean value indicating whether the control is enabled.
+
+#### Parameters
+
+#### Returns
+
+`Boolean` boolean value
+
+### exportToPdf
+
+Exports the RadGantt to .pdf if the EnablePdfExport property is true.
+
+#### Parameters
+
+#### Returns
+
+`None`
+
 ### get_allowColumnResize
 
 True if the allowColumnResize property is enabled, false otherwise.
@@ -241,6 +351,20 @@ value
 
 `None` 
 
+### set_enabled
+
+Enables/Disables the control.
+
+#### Parameters
+
+##### value `Boolean`
+
+value
+
+#### Returns
+
+`None` 
+
 ### set_height
 
 Sets the value of the Gantts's height property.
@@ -306,6 +430,42 @@ Sets the value of the Gantts's rowHeight property.
 ##### value `Number`
 
 value
+
+#### Returns
+
+`None`
+
+### set_selectedView
+
+Sets the selected view mode.
+
+#### Parameters
+
+##### view `Number`
+
+#### Returns
+
+`None`
+
+### set_scrollTop
+
+Sets the vertical scroll bar position.
+
+#### Parameters
+
+##### position `Number`
+
+#### Returns
+
+`None`
+
+### set_scrollLeft
+
+Sets the horizontal scroll bar position.
+
+#### Parameters
+
+##### position `Number`
 
 #### Returns
 
