@@ -1,6 +1,6 @@
 ---
-title: Initially Hidden Rotator Does not Show
-page_title: Initially Hidden Rotator Does not Show | RadRotator for ASP.NET AJAX Documentation
+title: Initially Hidden Rotator Does Not Show
+page_title: Initially Hidden Rotator Does Not Show | RadRotator for ASP.NET AJAX Documentation
 description: show initially hidden rotator with JavaScript or CSS
 slug: rotator/troubleshooting/initially-hidden
 tags: initially,hidden,show,css,javascript,collapsed
@@ -8,7 +8,7 @@ published: True
 position: 0
 ---
 
-# Initially Hidden Rotator Does not Show
+# Initially Hidden Rotator Does Not Show
 
 An initially hidden rotator that you show with CSS (e.g., `@media` query and a browser resize—**Example 2**) does not show up and still stays collapsed, or does not change its items.
 
@@ -30,7 +30,7 @@ function repaintRotator() {
 ````
 
 
->caption Example 2: Increasing the size of the browser causes the rotator not to be shown, so you should repaint it.
+>caption Example 2: Increasing the size of the browser causes the rotator not to be shown, so you should repaint it
 
 ````ASP.NET
 <telerik:RadPageLayout runat="server" ID="ContentPageLayout">
