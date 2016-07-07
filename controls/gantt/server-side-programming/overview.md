@@ -37,8 +37,6 @@ position: 0
 
  * [RadGantt Object]({%slug gantt/server-side-programming/objects/radgantt-object%})
 
- * [ViewSettings Objects]({%slug gantt/server-side-programming/objects/viewsettings-objects%})
- 
  * [Tasks]({%slug gantt/server-side-programming/objects/tasks%})
 
  * [Dependencies]({%slug gantt/server-side-programming/objects/dependencies%})

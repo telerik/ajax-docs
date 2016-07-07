@@ -96,8 +96,6 @@ The **RadGantt** properties are divided in three separate tables below - list of
 
  * [Server-side Programming Overview]({%slug gantt/server-side-programming/overview%})
  
- * [ViewSettings Objects]({%slug gantt/server-side-programming/objects/viewsettings-objects%})
- 
  * [Tasks]({%slug gantt/server-side-programming/objects/tasks%})
 
  * [Dependencies]({%slug gantt/server-side-programming/objects/dependencies%})
