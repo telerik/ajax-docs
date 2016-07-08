@@ -47,7 +47,7 @@ You can specify the group of possible filter functions that are displayed for a 
 
 * **VaryByDataType** (the default value) - The list of filter functions depends on the **DataType** property of the column. For example, filter functions "StartsWith", "EndsWith... " are not be available for columns with **DataType** integer.
 
->note The **DataType** property of a column is set during data binding. You can, however, set this property explictly, which can alter the allowed filtering expressions. For example, you if you set the **DataType** property of an integer column to "string", the list of allowed filter expressions will include "StartsWith" and "EndsWith".
+>note The **DataType** property of a column is set during data binding. You can, however, set this property explictly, which can alter the allowed filtering expressions. For example, if you set the **DataType** property of an integer column to "string", the list of allowed filter expressions will include "StartsWith" and "EndsWith".
 >
 
 
