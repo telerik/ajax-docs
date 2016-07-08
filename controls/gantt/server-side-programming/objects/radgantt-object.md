@@ -54,12 +54,13 @@ The **RadGantt** properties are divided in three separate tables below - list of
 | **ListWidth** |Unit|Gets or sets the RadGantt list width in pixels or percents.|
 | **Localization** |Telerik.Web.UI.GanttStrings|Gets the localization.|
 | **LocalizationPath** |string|Gets or sets a value indicating where **RadGantt** will look for its **.resx** localization files.|
-| **Provider** |Telerik.Web.UI. GanttProviderBase|Gets or sets the provider instance to be used by Gantt. Use this property with providers that are created at runtime. For ASP.NET providers defined in web.config use the Telerik.Web.UI.RadGantt.ProviderName property.|
+| **Provider** |Telerik.Web.UI. GanttProviderBase|Gets or sets the provider instance to be used by Gantt. Use this property with providers that are created at runtime. For ASP.NET providers defined in web.config use the **Telerik.Web.UI.RadGantt.ProviderName** property.|
 | **ProviderName** |string|Gets or sets the name of the current tasks provider used by Gantt. The provider must be defined in the Gantt section of web.config.|
-| **RangeEnd** |DateTime?|Gets or sets the end time of the visible range on the currently selected view.|
-| **RangeStart** |DateTime?|Gets or sets the start time of the visible range on the currently selected view.|
+| **RangeEnd** |DateTime?|Gets or sets the end time of the visible range on the currently selected view. The **RangeEnd** date will not be included within the visible range. Available also to be specified per view.|
+| **RangeStart** |DateTime?|Gets or sets the start time of the visible range on the currently selected view. Available also to be specified per view.|
 | **Resources** |Telerik.Web.UI.Gantt. ResourceCollection|Gets the collection of all resources attached to the **RadGantt**.|
-| **RowHeight** |Unit|Gets or sets the height of RadGantt rows.|
+| **RowHeight** |Unit|Gets or sets the height of **RadGantt** rows.|
+| **SelectedDate** |DateTime?|Gets or sets the date to which the timeline of the currently selected view is scrolled. Available also to be specified per view.|
 | **SelectedView** |Telerik.Web.UI.GanttViewType enumeration|Gets or sets the current view type.|
 | **ShowCurrentTimeMarker** |bool|Gets or sets a value indicating whether the current time marker is visible..|
 | **ShowFullTime** |bool|Gets or sets a value indicating whether to display the complete day or the range between 8:00 AM and 5:00 PM.|

@@ -19,7 +19,16 @@ position: 0
 
 In this section you could find all common properties that are shared among all views.
 
-**Table 1** lists the properties that are available in all four View Settings Objects.
+**Table 1** lists the properties that can be set both globally for all views (on the **RadGantt** object) and per view.
+
+| Name | Type | Description |
+| ------ | ------ | ------ |
+| **RangeEnd** |DateTime?|Gets or sets the end time of the visible range on the view. The **RangeEnd** date will not be included within the visible range.|
+| **RangeStart** |DateTime?|Gets or sets the start time of the visible range on the view.|
+| **SelectedDate** |DateTime?|Gets or sets the date to which the timeline of the view is scrolled.|
+
+
+**Table 2** lists the properties that are available in all four View Settings Objects.
 
 | Name | Type | Description |
 | ------ | ------ | ------ |

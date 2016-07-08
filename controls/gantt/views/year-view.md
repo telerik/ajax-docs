@@ -22,9 +22,12 @@ The **Year View** shows all loaded tasks for a RadGantt, distributed in columns 
 | Name | Type | Description |
 | ------ | ------ | ------ |
 | **MonthHeaderDateFormat** |string|Gets or sets the month header date format string in **YearView**.|
-| **SlotWidth** |Unit|Gets or sets the slot width in pixels for the respective view.|
-| **Type** |Telerik.Web.UI.GanttViewType enumeration|Gets the type of the **View**, which the settings are applied to - Day, Week, Month or Year.|
-| **UserSelectable** |bool|Gets or sets a value indicating whether to render a tab for the current view in the view chooser.|
+| **RangeEnd** |DateTime?|Gets or sets the end time of the visible range on the **YearView**. The **RangeEnd** date will not be included within the visible range.|
+| **RangeStart** |DateTime?|Gets or sets the start time of the visible range on the **YearView**.|
+| **SelectedDate** |DateTime?|Gets or sets the date to which the timeline of the **YearView** is scrolled.|
+| **SlotWidth** |Unit|Gets or sets the slot width in pixels for the **YearView**.|
+| **Type** |Telerik.Web.UI.GanttViewType enumeration|Gets the type of the **View**. In this case an **YearView**.|
+| **UserSelectable** |bool|Gets or sets a value indicating whether to render a tab for the **YearView** in the view chooser.|
 | **YearHeaderDateFormat** |string|Gets or sets the year header date format string in **YearView**.|
 
 
