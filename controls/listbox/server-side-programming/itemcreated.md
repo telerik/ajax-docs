@@ -5,7 +5,7 @@ description: ItemCreated
 slug: listbox/server-side-programming/server-events/itemcreated
 tags: itemcreated
 published: True
-position: 15
+position: 17
 ---
 
 # ItemCreated

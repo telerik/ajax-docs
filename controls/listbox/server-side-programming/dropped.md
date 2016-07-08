@@ -19,7 +19,7 @@ The event handler receives two parameters:
 
 1. The instance of the listbox firing the event
 
-2. An event arguments parameter containing the following methods:
+2. An event arguments parameter containing the following properties:
 
 * **HtmlElementID** - the ID of the target element which the item is dropped over.
 

@@ -5,7 +5,7 @@ description: ItemsRequested
 slug: listbox/server-side-programming/server-events/itemsrequested
 tags: itemsrequested
 published: True
-position: 16
+position: 18
 ---
 
 # ItemsRequested

@@ -40,6 +40,10 @@ position: 0
 
 * [Transferred]({%slug listbox/server-side-programming/server-events/transferred%}) server-side event fires after the **Deleted** event. The Items collection of the listbox is updated to reflect the transferring.
 
+* [Inserting]({%slug listbox/server-side-programming/server-events/inserting%}) server-side event fires when the **AutoPostBackOnTransfer** is set to **true** and an item is just about to be inserted.
+
+* [Inserted]({%slug listbox/server-side-programming/server-events/inserted%}) server-side event fires when an item has been successfully inserted.
+
 * [Deleting]({%slug listbox/server-side-programming/server-events/deleting%}) server-side event fires in two cases - on item delete and during transfer.
 
 * [Deleted]({%slug listbox/server-side-programming/server-events/deleted%}) server-side event fires right after the **Deleting** event (in two cases - on item delete and during transfer).

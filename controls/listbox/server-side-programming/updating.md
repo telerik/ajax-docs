@@ -19,7 +19,7 @@ The event handler receives two parameters:
 
 1. The instance of the listbox firing the event
 
-2. An event arguments parameter containing the following methods:
+2. An event arguments parameter containing the following properties:
 
 * **Items** - collection of all **RadListBoxItem** objects which will be affected by the reordering. This collection is **different** from the Items collection in the Reordering/Reordered events.
 

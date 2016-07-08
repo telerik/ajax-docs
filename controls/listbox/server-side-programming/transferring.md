@@ -18,7 +18,7 @@ The event handler receives two parameters:
 
 1. The instance of the listbox firing the event
 
-2. An event arguments parameter containing the following methods:
+2. An event arguments parameter containing the following properties:
 
 * **Items** - collection of all **RadListBoxItem** objects which will be affected by the transfer.
 
@@ -44,3 +44,7 @@ End Sub
  * [Deleting]({%slug listbox/server-side-programming/server-events/deleting%})
 
  * [Deleted]({%slug listbox/server-side-programming/server-events/deleted%})
+ 
+ * [Inserting]({%slug listbox/server-side-programming/server-events/inserting%})
+ 
+ * [Inserted]({%slug listbox/server-side-programming/server-events/inserted%})
