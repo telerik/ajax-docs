@@ -2,6 +2,7 @@
 title: Telerik.Web.UI.RadioButtonListSelectedIndexChangedEventArgs
 page_title:
 description:
+slug: Telerik.Web.UI.RadioButtonListSelectedIndexChangedEventArgs
 ---
 
 # Telerik.Web.UI.RadioButtonListSelectedIndexChangedEventArgs : Sys.EventArgs 

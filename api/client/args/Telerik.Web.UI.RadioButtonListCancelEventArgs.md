@@ -2,6 +2,7 @@
 title: Telerik.Web.UI.RadioButtonListCancelEventArgs
 page_title:
 description:
+slug: Telerik.Web.UI.RadioButtonListCancelEventArgs
 ---
 
 # Telerik.Web.UI.RadioButtonListCancelEventArgs : Sys.CancelEventArgs 
