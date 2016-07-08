@@ -63,7 +63,7 @@ This example shows how to declaratively bind **RadScheduler** to one of the supp
 1. Locate the Appointments.xml file, which can be found in "Live Demos\App_Data" folder, and copy it to the App_Data folder of your project.
 
 
-You have now bound your scheduler using the **ProviderName** property. Run the application and note the custom resources supplied by the provider. Note, too, that unlike when binding using the **DataSource** or **DataSourceID** properties, you did not need to set the **DataKeyField**, **DataSubjectField**, **DataStartField**, **DataEndField**, **DataRecurrenceField DataReminderField**, and **DataRecurrenceParentKeyField** properties.
+You have now bound your scheduler using the **ProviderName** property. Run the application and note the custom resources supplied by the provider. The provider's **persistChanges** property accepts a boolean value and determines whether the newly added appointments will be persisted. Note, too, that unlike when binding using the **DataSource** or **DataSourceID** properties, you did not need to set the **DataKeyField**, **DataSubjectField**, **DataStartField**, **DataEndField**, **DataRecurrenceField DataReminderField**, and **DataRecurrenceParentKeyField** properties.
 
 # See Also
 
