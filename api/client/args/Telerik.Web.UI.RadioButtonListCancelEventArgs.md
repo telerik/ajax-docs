@@ -1,5 +1,5 @@
 ---
-title:Telerik.Web.UI.RadioButtonListCancelEventArgs
+title: Telerik.Web.UI.RadioButtonListCancelEventArgs
 page_title:
 description:
 ---

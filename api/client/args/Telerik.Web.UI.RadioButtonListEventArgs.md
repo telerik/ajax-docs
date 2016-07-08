@@ -1,5 +1,5 @@
 ---
-title:Telerik.Web.UI.RadioButtonListEventArgs
+title: Telerik.Web.UI.RadioButtonListEventArgs
 page_title:
 description:
 ---

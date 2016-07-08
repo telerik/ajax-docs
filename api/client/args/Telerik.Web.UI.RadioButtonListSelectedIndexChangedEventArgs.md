@@ -1,5 +1,5 @@
 ---
-title:Telerik.Web.UI.RadioButtonListSelectedIndexChangedEventArgs
+title: Telerik.Web.UI.RadioButtonListSelectedIndexChangedEventArgs
 page_title:
 description:
 ---
