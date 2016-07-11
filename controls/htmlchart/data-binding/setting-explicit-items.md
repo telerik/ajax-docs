@@ -30,7 +30,7 @@ The data that will be displayed in the **RadHtmlChart** can be declared in sever
 
 * **Declarative and Programmatic Creation** – You can create **SeriesItems** programmatically and then add them to an existing	**SeriesItems** collection that is set in the markup. **SeriesItems** set in the markup can also be accessed and modified from the code-behind. See the code-behind of "In 2010 (Markup)" **ColumnSeries** in **Example 1** for details.
 
-The y-axis automatically adjusts to accommodate the values and its appearance canbe controlled more precisely via its properties.
+The y-axis automatically adjusts to accommodate the values and its appearance can be controlled more precisely via its properties.
 
 >caption Example 1: Shows how the above setups are used in a real-live scenario.
 

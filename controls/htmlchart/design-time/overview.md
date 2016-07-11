@@ -56,7 +56,7 @@ You can add Ajax resources (**Figure 1**) to your **RadHtmlChart** by clicking t
 
 ## Choose the Skin for Your RadHtmlChart
 
-You can change the skin that your **RadHtmlChart** displays by clicking the Smart Tag and using the Configuration Wizard (**Figure 1**) to select from a list of skins. The **Skin** dropdown lists all available skins for the controlso you can select one that matches the look and feel of the rest of the page. The skins are displayed via small images to give you a better idea ofthe color scheme they use.
+You can change the skin that your **RadHtmlChart** displays by clicking the Smart Tag and using the Configuration Wizard (**Figure 1**) to select from a list of skins. The **Skin** dropdown lists all available skins for the control so you can select one that matches the look and feel of the rest of the page. The skins are displayed via small images to give you a better idea of the color scheme they use.
 
 ## Use the RadHtmlChart Learning Center
 

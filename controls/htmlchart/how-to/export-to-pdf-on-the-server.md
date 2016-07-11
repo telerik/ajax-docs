@@ -46,7 +46,7 @@ You can also export **RadHtmlChart** by using a third party library (like [InkSc
 
 ## Generate and export RadHtmlChart entirely Sever-side
 
-As stated in the beginning of the article, RadHtmlCahrt is rendered on the client-side, so you will need to render it in a browser in order to capture the control’s SVG data and pass it to the server. Whether you open this browser on the client machine and send the image/svg `base64` string to the server or you open the browser on the server (and use other scripts and tools to save the image), is the same.
+As stated in the beginning of the article, RadHtmlChart is rendered on the client-side, so you will need to render it in a browser in order to capture the control’s SVG data and pass it to the server. Whether you open this browser on the client machine and send the image/svg `base64` string to the server or you open the browser on the server (and use other scripts and tools to save the image), is the same.
 There are several tools (like [Phantom.js](http://phantomjs.org/)) that can be used in order to load the chart in a virtual browser and export it to PDF directly, avoiding the visible browser rendering of the control.
 
 

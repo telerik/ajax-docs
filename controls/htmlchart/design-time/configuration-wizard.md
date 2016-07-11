@@ -40,13 +40,13 @@ As **Figure 4** shows, you can set the desired column from the data source using
 
 ![htmlchart-design-time-available-data-fields-new](images/htmlchart-design-time-available-data-fields-new.png)
 
-If you want to build a simple or static chart, you can choose to not set a data source and simply add itemsto the series in the Series Item collection editor below. Once again, the Configuration Wizardonly shows properties that are relevant to the type of chart you selected.
+If you want to build a simple or static chart, you can choose to not set a data source and simply add items to the series in the Series Item collection editor below. Once again, the Configuration Wizard only shows properties that are relevant to the type of chart you selected.
 
 >note The Configuration Wizard doesn't override already defined series. That being said, in order to switch to a	different chart type, you must initially remove the inconsistent series and then add the new one.	This is done to prevent data loss. Having a Configuration Wizard does not mean that everything will be set	(or modified) by it, because this would make it very restrictive and unusable.
 
 ## X-Axis
 
-You can configure the x-axis of the chart on the next tab - XAxis (**Figure 5**).The Configuration Wizard exposes the most common properties of the axis (even though setting them is notnecessary in most cases - the chart will adjust itself to the data). The right side of the XAxis tabfeatures an Axis Items collection editor that lets you add static x-axis items.
+You can configure the x-axis of the chart on the next tab - XAxis (**Figure 5**).The Configuration Wizard exposes the most common properties of the axis (even though setting them is not necessary in most cases - the chart will adjust itself to the data). The right side of the XAxis tab features an Axis Items collection editor that lets you add static x-axis items.
 >caption Figure 5: The XAxis tab of the Configuration Wizard lets you set common x-axis properties or	add static axis items.
 
 ![htmlchart-design-time-x-axis-configurator](images/htmlchart-design-time-x-axis-configurator.png)

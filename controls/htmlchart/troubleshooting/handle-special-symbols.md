@@ -24,7 +24,7 @@ A backslash is another symbol that needs escaping,(backslash is a special charac
 
 When pulling these strings from a database, you need to make sure they are prepared like this either in the database, or in the data source object you create,before passing them to the chart.
 
-Since the displayed string is finally HTML, this means that environmental variables such as new lines must be configured for HTML—this is the <br />tag and not \r, \n, vbCrLf, CR, LF, chr(10) or chr(13) as used in C# and VB. In this regard, the **String.Replace()** method is often usefuland quite straightforward to use.
+Since the displayed string is finally HTML, this means that environmental variables such as new lines must be configured for HTML—this is the <br />tag and not \r, \n, vbCrLf, CR, LF, chr(10) or chr(13) as used in C# and VB. In this regard, the **String.Replace()** method is often useful and quite straightforward to use.
 
 >note The possibility to use HTML content applies *only for the tooltips* . **RadHtmlChart**  *labels are not HTML* ,	but SVG text elements and therefore they do not support CSS, line breaks or other styling options that HTML/CSS offer.
 

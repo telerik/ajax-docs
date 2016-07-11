@@ -140,7 +140,7 @@ The `Legend.Appearance.Orientation` property lets you distribute the legend item
 * `Width` - The legend width when the legend orientation is set to `Horizontal`.
 * `Height` - The legend height when the legend orientation is set to `Vertical`.
 
-You can see the difference of both orientations with different legend dimensons in **Figure 3** and **Figure 4**.
+You can see the difference of both orientations with different legend dimensions in **Figure 3** and **Figure 4**.
 
 >caption **Figure 3**: Compare the legend of two charts with horizontal orientation and different width.
 ![legend orientation horizontal](images/legend-orientation-horizontal.png)

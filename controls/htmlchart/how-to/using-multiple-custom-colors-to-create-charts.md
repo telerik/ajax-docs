@@ -14,7 +14,7 @@ This help article addresses the challenge that **RadHtmlChart** offers a limited
 
 If you create more series (or more items for a **PieSeries**) these colors will start repeating themselves. Developers at Telerik decided that they cannot increase the internal number of colors indefinitely because the number may always be insufficient for a certain scenario.
 
-There is a rather easy way around this, however. You can create a static class to hold a declaration of colors thatwill fit the current needs in terms of number, the exact colors that are chosen or any other logic that may apply.This static collection can be iterated over to return the desired color according to their indexes - the index of the series can point to the index of its color.
+There is a rather easy way around this, however. You can create a static class to hold a declaration of colors that will fit the current needs in terms of number, the exact colors that are chosen or any other logic that may apply.This static collection can be iterated over to return the desired color according to their indexes - the index of the series can point to the index of its color.
 
 All series types expose the **ColorField** property since **Q1 2013**. It can be used to specify a column in the data source from which the color for each item in the series will be taken. **PieSeries** expose this property a little bit earlier in **Q3 2012**.
 
@@ -69,7 +69,7 @@ public static class StaticColors
 ''' </summary>
 Public Class StaticColors
 	''' <summary>
-	''' Gets the color corrsponding to the passed index.
+	''' Gets the color corresponding to the passed index.
 	''' </summary>
 	''' <param name="index">The index in the array of predefined colors</param>
 	''' <returns>The color corresponding to the passed index. Useful for programmatic creation of charts, for example.</returns>
