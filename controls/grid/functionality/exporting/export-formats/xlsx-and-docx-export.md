@@ -43,11 +43,11 @@ The assemblies that must be referenced in order to export RadGrid to Word are:
 
 * Telerik.Windows.Zip.dll
 
-More information about the assemblies and how toinclude them in your project can be found in the [Included assemblies](http://www.telerik.com/help/aspnet-ajax/introduction-included-assemblies.html) help article.
+More information about the assemblies and how to include them in your project can be found in the [Included assemblies](http://www.telerik.com/help/aspnet-ajax/introduction-included-assemblies.html) help article.
 
 ## Formatting
 
-When you set **DataFormatString** of **RadGrid** columns, the format will be applied to the exported file.Note that only the [custom numeric format strings](http://msdn.microsoft.com/en-us/library/0c899ak8%28v=vs.71%29.aspx) (Example 1)will work because in most scenarios they match the [Microsoft Excel's custom numeric format](http://office.microsoft.com/en-gb/excel-help/create-a-custom-number-format-HP010342372.aspx). The built-in .NET [standard numeric format strings](http://msdn.microsoft.com/en-us/library/dwhawy9k%28v=vs.71%29.aspx) (Example 2) can still beused, but the output will not be as expected. It is important to note, that the exported file is based on the actual RadGridcells values. When DataFormatString is applied, these values will already be formatted which could be prevented by setting the**SuppressColumnDataFormatStrings** property to true.
+When you set **DataFormatString** of **RadGrid** columns, the format will be applied to the exported file. Note that only the [custom numeric format strings](http://msdn.microsoft.com/en-us/library/0c899ak8%28v=vs.71%29.aspx) (Example 1)will work because in most scenarios they match the [Microsoft Excel's custom numeric format](http://office.microsoft.com/en-gb/excel-help/create-a-custom-number-format-HP010342372.aspx). The built-in .NET [standard numeric format strings](http://msdn.microsoft.com/en-us/library/dwhawy9k%28v=vs.71%29.aspx) (Example 2) can still be used, but the output will not be as expected. It is important to note, that the exported file is based on the actual RadGrid cells values. When DataFormatString is applied, these values will already be formatted which could be prevented by setting the**SuppressColumnDataFormatStrings** property to true.
 
 Example 1:
 
@@ -81,7 +81,7 @@ RadGrid1.MasterTableView.Items(1).Visible = False 'when IgnorePaging is false
 ````
 
 
-Additionally you could use the **Exportable** property that allows you to choose whether a certain column should be included inthe exported file or not. By setting this property to **false** the related column will be excluded from the exported file.Its default value is **true**.
+Additionally you could use the **Exportable** property that allows you to choose whether a certain column should be included in the exported file or not. By setting this property to **false** the related column will be excluded from the exported file.Its default value is **true**.
 
 ## Styling Columns / Rows / Cell
 
@@ -95,7 +95,7 @@ In order to style the elements of the **RadGrid** you could use the standard ASP
 
 
 
-Another approach is to hook **OnInfrastructureExporting** event handler and apply the styles in code behind.Note that styling via CSS classes is not possible.
+Another approach is to hook **OnInfrastructureExporting** event handler and apply the styles in code behind. Note that styling via CSS classes is not possible.
 
 
 
@@ -160,7 +160,7 @@ Additionally you can change the default alignment on **OnInfrastructureExporting
 
 ## Image Support
 
-Both **xlsx** and **docx** support exporting of images. The images are included automatically in theexported document and you do not have to set any specific property. Keep in mind images with an **absolute** or**relative** path are supported, but binary images are not.
+Both **xlsx** and **docx** support exporting of images. The images are included automatically in the exported document and you do not have to set any specific property. Keep in mind images with an **absolute** or**relative** path are supported, but binary images are not.
 
 ## Limitations
 
