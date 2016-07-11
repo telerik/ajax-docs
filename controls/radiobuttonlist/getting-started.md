@@ -19,8 +19,8 @@ The following help article demonstrates how to set up a page with a **RadRadioBu
 		<telerik:RadRadioButtonList ID="RadRadioButtonList1" runat="server">
 		</telerik:RadRadioButtonList>
 
-1. Add two `RadioButtonListItem` objects with appropriate `Text` and `Selected` state to the `Items` collection:
-<Comment: I think you are missing a word, a verb like set, before the word state in the previous line.>
+1. Add two `RadioButtonListItem` objects to the `Items` collection and set the appropriate values for `Text` and `Selected` properties of each item:
+
 	**ASP.NET**
 
 		<telerik:RadRadioButtonList ID="RadRadioButtonList1" runat="server">
