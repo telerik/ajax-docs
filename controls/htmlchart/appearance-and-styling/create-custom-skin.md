@@ -39,10 +39,9 @@ To modify an existing chart skin you can follow the steps below:
 			})
 		},
 
-1. Set the name of the customized skin to the RadHtmlChart and load the `RadHtmlChartSkins.js` file to the same page where the chart resides. <Custom: It sounds odd to me to say to load a file to the same page where the chart resides. To me, you copy files to directories and you open a page using the skin you modified, but I do not think that is what you are telling the customer to do.>
+1. Set the name of the customized skin to the RadHtmlChart and reference the `RadHtmlChartSkins.js` file from the same page where the chart resides.
 
->caption Example 2: Load the `RadHtmlChartSkins.js` file to the page where the RadHtmlChart resides and set the skin.
-<Comment: Similar issue here. You open a file, not load a file. I'm not sure what you are asking the customer to do.>
+>caption Example 2: Reference the `RadHtmlChartSkins.js` file from the page where the RadHtmlChart resides and set the skin.
 
 ````ASP.NET
 <telerik:RadScriptManager ID="RadScriptManager1" runat="server"></telerik:RadScriptManager>
@@ -1411,7 +1410,6 @@ To modify an existing chart skin you can follow the steps below:
 
 You can see the output of the modified Black skin in **Figure 1**.
 
-<Comment: Your code example for a help article is over 1300 lines. That seems very long to me. Please ask your team lead if that is OK.>
 >caption Figure 1: RadHtmlChart with customized Black skin.
 
 ![create-custom-skin-existing-skin-black](images/create-custom-skin-existing-skin-black.png)
