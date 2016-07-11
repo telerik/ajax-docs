@@ -8,7 +8,7 @@ published: True
 position: 0
 ---
 
-# CheckBox Overview
+# RadRadioButtonList Overview
 
 The **RadRadioButtonList** control (**Figure 1**) enriches the features of the ASP.NET RadioButtonList control. Additionally, it provides events, supports Commands and numerous [themes]({%slug radiobuttonlist/appearance-and-styling/skins%}). **RadRadioButtonList** is available as of **R3 2016**.
 
