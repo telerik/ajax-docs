@@ -2,7 +2,7 @@
 title: Select Item
 page_title: Select Item | RadRadioButtonList for ASP.NET AJAX Documentation
 description: Select Item
-slug: togglebutton/functionality/select-item
+slug: radiobuttonlist/functionality/select-item
 tags: select,item
 published: True
 position: 1
@@ -162,10 +162,6 @@ var selectedIndex = radioButtonList.get_selectedIndex();
 
 ## See Also
 
- * [Image]({%slug togglebutton/functionality/image%})
+ * [Server-Side API]({%slug radiobuttonlist/server-side-programming/properties-and-events%})
  
- * [Custom Icons]({%slug togglebutton/functionality/icons/custom-icons%})
-
- * [Server-Side API]({%slug togglebutton/server-side-programming/properties-and-events%})
- 
- * [Client-Side API]({%slug togglebutton/client-side-programming/overview%})
+ * [Client-Side API]({%slug radiobuttonlist/client-side-programming/overview%})

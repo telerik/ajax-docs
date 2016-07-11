@@ -8,7 +8,7 @@ published: True
 position: 0
 ---
 
-# Layout
+# Overview
 
 This help article showcases how to configure the layout of the **RadRadioButtonList** control via the `Layout`, `Columns` and `Direction` properties.
 

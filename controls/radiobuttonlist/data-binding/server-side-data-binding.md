@@ -1,14 +1,14 @@
 ---
-title: DataBinding Overview
-page_title: DataBinding Overview | RadRadioButtonList for ASP.NET AJAX Documentation
-description: DataBinding Overview
-slug: radiobuttonlist/data-binding/overview
-tags: overview, data, binding, sql, list, array, items
+title: Server-side Data Binding
+page_title: Server-side Data Binding | RadRadioButtonList for ASP.NET AJAX Documentation
+description: Server-side Data Binding
+slug: radiobuttonlist/data-binding/server-side-data-binding
+tags: server,side,data,binding,sql,list,array,items
 published: True
 position: 0
 ---
 
-## DataBinding Overview
+# Server-side Data Binding Overview
 
 The article shows how to setup **RadRadioButtonList** with data-binding. 
 
@@ -17,7 +17,7 @@ The article shows how to setup **RadRadioButtonList** with data-binding.
 * Declarative ASP.NET data sources (SqlDatasource, ObjectDataSource, LinqDataSource, etc.)
 * Server-side collections that implement the IEnumerable interface.
 
-## Data Binding Basics 
+## Server-side Data Binding Basics 
 
 **RadRadioButtonList** exposes the `Databindings` composite property to configure the fields needed for data-binding: 
 
