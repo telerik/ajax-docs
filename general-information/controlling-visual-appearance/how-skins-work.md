@@ -108,11 +108,11 @@ Usually, a Telerik control has some collection of CSS styles, which should be ap
 
 Telerik supports three [Render Modes]({%slug controls/render-modes%}): Classic, Lightweight and Mobile.
 
-If you do not specify a render mode in your web.config file or in the control configuration, the [RadDeviceDetectionFramework]({%slug controls/raddevicedetectionframework%}) specifies the render mode that will be sent to the browser. In older browsers it will resolve to Classic mode, in newer browsers to Lightweight, and when the requesting browser is a mobile browser—to Mobile.
+If you do not specify a Render Mode in your web.config file or in the control configuration, the [RadDeviceDetectionFramework]({%slug controls/raddevicedetectionframework%}) specifies the Render Mode that will be sent to the browser. In older browsers it will resolve to Classic mode, in newer browsers to Lightweight, and when the requesting browser is a mobile browser—to Mobile.
 
 If the browser is modern but the concrete control does not support a Lightweight mode, it will fallback to the Classic mode. The same applies with Mobile—if the control does not support it, it will fallback to LightWeight, and then to Classic (if LightWeight is also not supported).
 
-If you explicitly set the RenderMode of a control to Lightweight, for example, it will not use the Mobile mode, even when the requesting browser comes from a mobile device.
+If you explicitly set the `RenderMode` of a control to `Lightweight`, for example, it will not use the Mobile mode, even when the requesting browser comes from a mobile device.
 
 ## Skin Folder Structure
 
@@ -137,9 +137,9 @@ To reduce the footprint of the controls, each skin mode is kept in a separate fo
 
 When customizing a built-in skin, you should use the folder according to the Render Mode you will be using.
 
-The Render Mode-specific folders have the following structure: **[Skin Name][RenderMode]**. For example, **SilkLite** (for the Lightweight RenderMode) and **SilkMobile** (for the Mobile Render Mode) are the two sibling folders next to the **Silk** folder.
+The Render Mode-specific folders have the following structure: **[Skin Name][RenderMode]**. For example, **SilkLite** (for the Lightweight Render Mode) and **SilkMobile** (for the Mobile Render Mode) are the two sibling folders next to the **Silk** folder.
 
-**Figure 2** and **Figure 3** show the basic file structure and location of a skin with its render mode-specific variations. For brevity, only files related to RadGrid and RadEditor are shown. A full-blown skin will contain the full control list according to the [supported render modes]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/mobile-support/render-modes%}). **Figure 3** shows a collapsed structure of the Default skin and its render mode variations as well.
+**Figure 2** and **Figure 3** show the basic file structure and location of a skin with its Render Mode-specific variations. For brevity, only files related to RadGrid and RadEditor are shown. A full-blown skin will contain the full control list according to the [supported render modes]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/mobile-support/render-modes%}). **Figure 3** shows a collapsed structure of the Default skin and its Render Mode variations as well.
 
 >caption Figure 2: Folder structure for Render Mode-specific skins
 
