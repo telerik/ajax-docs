@@ -916,7 +916,7 @@ footer a:hover {
 		
 		.k-widget.k-window.k-window-titleless {
 			padding: 29px;
-			height: 590px !important;
+			height: 530px !important;
 			width: 460px !important;
 			top: 188px !important;
 			margin: auto;
@@ -992,6 +992,7 @@ footer a:hover {
 		#feedback-form .feedback-extw__textarea {
 			margin-top: 21px;
 			height: 156px;
+			resize: none;
 		}
 		
 		#feedback-form .feedback-extw__input {
