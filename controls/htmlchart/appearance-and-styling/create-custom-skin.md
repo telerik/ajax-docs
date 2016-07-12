@@ -18,11 +18,11 @@ This help article illustrates how to create a custom skin for RadHtmlChart.
 
 ## Modify an Existing Skin
 
-RadHtmlChart renders entirely on the client-side as SVG/Canvas. The control gets the skin-specific colors from a JS file (i.e., RadHtmlChartSkins.js), so that you cannot use pure CSS to style its elements but.
+RadHtmlChart renders entirely on the client-side as SVG/Canvas. The control gets the skin-specific colors from a JS file (i.e., RadHtmlChartSkins.js), so that you cannot use pure CSS to style its elements.
 
 To modify an existing chart skin you can follow the steps below:
 
-1. Copy the `RadHtmlChartSkins.js` file to your project and open it. The file is located in the `Telerik.Web.UI\HtmlChart` folder of the Telerik UI for ASP.NET AJAX Source Code and can also be found in the JavaScript tab of **Example 2**.
+1. Copy the `RadHtmlChartSkins.js` file to your project and open it. The file is located in the `Telerik.Web.UI\HtmlChart` folder of the Telerik UI for ASP.NET AJAX Source Code. You can also find a strip down version of this file in the JavaScript tab of **Example 2**.
 
 1. Find the skin you want to modify and customize the colors of the corresponding [elements](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/chart). **Example 1** shows how to set a silver background for the chart area and colorize the first two series with green and blue. 
 
@@ -165,13 +165,13 @@ You can see the output of the modified Black skin in **Figure 1**.
 })($telerik.$);
 ````
 
->caption Figure 1: RadHtmlChart with customized Black skin.
+>caption Figure 1: RadHtmlChart with a customized Black skin.
 
 ![create-custom-skin-existing-skin-black](images/create-custom-skin-existing-skin-black.png)
 
 ## Create a New Skin
 
-You can create a new skin out of an existing one by following the steps below. You can also find a fully runnable sample about creating a custom skin out of an existing one in **Example 3**. The output is available in **Figure 2**.
+You can create a new skin out of an existing one by following the steps below. You can also find a fully runnable sample about creating a custom skin out of an existing one in **Example 3** and see the output in **Figure 2**.
 
 1. Create a JSON that will store the chart element's colors. You can use the free [Kendo UI Theme Builder] (http://demos.telerik.com/kendo-ui/themebuilder/) for the purpose.
 ````JavaScript
