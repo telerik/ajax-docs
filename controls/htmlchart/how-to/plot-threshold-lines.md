@@ -10,224 +10,199 @@ position: 7
 
 # Plot Threshold Lines
 
-This help article shows different approaches for plotting threshold lines in RadHtmlChart.
+This help article provides different approaches for plotting threshold lines in RadHtmlChart.
 
-* [Plot Threshold Lines via Visual Templates and Kendo UI Drawing API](plot-threshold-lines-via-visual-templates-and-kendo-ui-drawing-api)
-* [Plot Threshold Lines via Additional Series](plot-threshold-lines-via-additional-series)
-* [Plot Threshold Lines via Plot Bands](plot-threshold-lines-via-plot-bands)
+* [Plot Threshold Lines via Visual Templates and Kendo UI Drawing API](#plot-threshold-lines-via-visual-templates-and-kendo-ui-drawing-api)
+* [Plot Threshold Lines via Additional Series](#plot-threshold-lines-via-additional-series)
+* [Plot Threshold Lines via Plot Bands](#plot-threshold-lines-via-plot-bands)
 
 ## Plot Threshold Lines via Visual Templates and Kendo UI Drawing API
 
-## Plot Threshold Lines via Additional Series
+### Plot Threshold Lines after Chart Rendering (non-databound)
 
-## Plot Threshold Lines via Plot Bands
+>caption Figure 1: sss
 
-**Example 1** illustrates a possible approach for defining different colors for the lines between adjacent points of line series via the [visual template]({%slug htmlchart/functionality/visual-template%}) that is exposed by the [column series]({%slug htmlchart/chart-types/column-chart%}). You can see the output in **Figure 1**.
+![htmlchart-threshold-lines-non-data-bound](images/htmlchart-threshold-lines-non-data-bound.png)
 
->caption Figure 1: Chart with three line series that have different colors.
-
-![line-chart-multiple-colors](images/line-chart-multiple-colors.png)
-
->caption Example 1: Create multiple colors for line series with visual template.
+>caption Example 1: 
 
 ````JavaScript
-//script.js
-; (function (global) {
-var myInd = new Array();
-var oldPos = new Array();
-var numSeries = getSeriesCount();
+var commonThresholdValue = 5;
+var thresholdValues = [1.5, 3, 2.5];
 
-for (var i = 0; i < numSeries; i++) {
-	myInd.push(0);
-	oldPos.push(0);
-}
-
-var telerikDemo = global.telerikDemo = {
-
-	seriesVisual: function (e) {
-
-		var serisIndex = e.series.index;
-		myInd[serisIndex]++;
-
-		if (myInd[serisIndex] == e.options.data.length + 1) {
-			myInd[serisIndex] = 1;
-		}
-
-		var rect = e.rect;
-
-		var origin = { x: rect.topLeft().x + (rect.topRight().x - rect.topLeft().x) / 2, y: 0 };
-		if (e.value > 0) {
-			origin.y = rect.topLeft().y;
+function OnLoad(chart) {
+	setTimeout(function () {
+		var kendoChart;
+		if (chart instanceof (Telerik.Web.UI.RadHtmlChart)) {
+			kendoChart = chart.get_kendoWidget();
 		}
 		else {
-			origin.y = rect.bottomLeft().y;
+			kendoChart = chart.sender;
 		}
 
-		if (myInd[serisIndex] == 1) {
-			oldPos[serisIndex] = origin;
-			return "";
+		var valueAxis = kendoChart.getAxis("value");
+		var categoryAxis = kendoChart.getAxis("category");
+
+		var catetgoriesCount = categoryAxis._axis.labelsCount();
+		for (var i = 0; i < catetgoriesCount; i++) {
+			plotThresholdLine(kendoChart, categoryAxis.slot(i, i + 1), valueAxis.slot(thresholdValues[i]), "blue")
 		}
-		var myColor = e.dataItem["colorField" + (serisIndex + 1)];
-
-		var drawing = kendo.drawing;
-
-		var path = new drawing.Path({
-			stroke: {
-				color: myColor
-			}
-		}).moveTo(oldPos[serisIndex].x, oldPos[serisIndex].y)
-		.lineTo(origin.x, origin.y);
-		oldPos[serisIndex] = origin;
-
-		var group = new drawing.Group();
-		group.append(path);
-		return group;
-	}
+		plotThresholdLine(kendoChart, categoryAxis.slot(0, catetgoriesCount), valueAxis.slot(commonThresholdValue), "green");
+	}, 100);
 }
-})(window)
+
+function plotThresholdLine(chart, xSlot, ySlot, colorLine) {
+	var path = new kendo.drawing.Path({
+		stroke: {
+			color: colorLine,
+			width: 3
+		}
+	}).moveTo(xSlot.origin.x, ySlot.origin.y)
+	.lineTo(xSlot.bottomRight().x, ySlot.origin.y);
+	chart.surface.draw(path);
+}
 ````
 ````ASP.NET
-<asp:ScriptManager runat="server"></asp:ScriptManager>
-<script>
-	function getSeriesCount() { return '<%=RadHtmlChart1.PlotArea.Series.Count%>'; }
-</script>
-<script src="script.js"></script>
-<telerik:RadHtmlChart runat="server" ID="RadHtmlChart1" Width="800px" Height="400px">
+<telerik:RadHtmlChart runat="server" ID="RadHtmlChart1" Width="500px" Height="300px" Skin="Silk">
+	<ClientEvents OnLoad="OnLoad" OnLegendItemClick="OnLoad" />
 	<PlotArea>
-		<XAxis DataLabelsField="categoryField" MajorTickType="None">
-			<LabelsAppearance Step="10"></LabelsAppearance>
-			<MinorGridLines Visible="false" />
-			<MajorGridLines Visible="false" />
+		<Series>
+			<telerik:ColumnSeries Name="Series 1">
+				<SeriesItems>
+					<telerik:CategorySeriesItem Y="1" />
+					<telerik:CategorySeriesItem Y="2" />
+					<telerik:CategorySeriesItem Y="6" />
+				</SeriesItems>
+			</telerik:ColumnSeries>
+			<telerik:ColumnSeries Name="Series 2">
+				<SeriesItems>
+					<telerik:CategorySeriesItem Y="3" />
+					<telerik:CategorySeriesItem Y="7" />
+					<telerik:CategorySeriesItem Y="5" />
+				</SeriesItems>
+			</telerik:ColumnSeries>
+		</Series>
+		<YAxis Name="value"></YAxis>
+		<XAxis Name="category">
+			<Items>
+				<telerik:AxisItem LabelText="1" />
+				<telerik:AxisItem LabelText="2" />
+				<telerik:AxisItem LabelText="3" />
+			</Items>
 		</XAxis>
-		<YAxis MajorTickType="None">
-			<MinorGridLines Visible="false" />
-		</YAxis>
+	</PlotArea>
+</telerik:RadHtmlChart>
+````
+
+### Plot Threshold Lines via Visual Templates (databound chart)
+
+>caption Figure 2: sss
+
+![htmlchart-threshold-lines-data-bound](images/htmlchart-threshold-lines-data-bound.png)
+
+>caption Example 2: sss
+
+````JavaScript
+function visual(e) {
+	var thresholdValue = e.dataItem["threshold" + e.series.index];
+	var thresholdColor = e.dataItem["colorField" + e.series.index];
+
+	var valueSlot = e.sender.getAxis("myYaxis").slot(thresholdValue);
+
+	var path = new kendo.drawing.Path({
+		stroke: {
+			color: thresholdColor,
+			width: 3
+		}
+	}).moveTo(e.rect.bottomLeft().x, valueSlot.origin.y)
+	.lineTo(e.rect.bottomRight().x, valueSlot.origin.y);
+
+	var defaultVisual = e.createVisual();
+
+	var group = new kendo.drawing.Group();
+	group.append(defaultVisual, path);
+
+	return group;
+}
+````
+````ASP.NET
+<telerik:RadHtmlChart runat="server" ID="RadHtmlChart2" Width="500px" Height="300px" Skin="Silk">
+	<PlotArea>
+		<Series>
+			<telerik:ColumnSeries Name="Series 1" DataFieldY="yField0">
+				<Appearance Visual="visual"></Appearance>
+			</telerik:ColumnSeries>
+			<telerik:ColumnSeries Name="Series 2" DataFieldY="yField1">
+				<Appearance Visual="visual"></Appearance>
+			</telerik:ColumnSeries>
+		</Series>
+		<YAxis Name="myYaxis"></YAxis>
+		<XAxis DataLabelsField="catField">
+		</XAxis>
 	</PlotArea>
 </telerik:RadHtmlChart>
 ````
 ````C#
 protected void Page_Load(object sender, EventArgs e)
 {
-	if (!Page.IsPostBack)
-	{
-		CreateChart();
-	}
+	RadHtmlChart2.DataSource = GetData();
+	RadHtmlChart2.DataBind();
 }
 
-private void CreateChart()
-{
-	RadHtmlChart1.DataSource = GetData();
-	List<ColumnSeries> lines = new List<ColumnSeries>();
-	for (int i = 0; i < 3; i++)
-	{
-		ColumnSeries ls = new ColumnSeries();
-		ls.Appearance.Visual = "telerikDemo.seriesVisual";
-		ls.DataFieldY = "yField" + (i + 1);
-		ls.Name = "Series " + (i + 1);
-		ls.LabelsAppearance.Visible = false;
-		lines.Add(ls);
-	}
-	RadHtmlChart1.PlotArea.Series.AddRange(lines);
-	RadHtmlChart1.DataBind();
-}
-
-private DataTable GetData()
+protected DataTable GetData()
 {
 	DataTable dt = new DataTable();
-	dt.Columns.Add("yField1", typeof(int));
-	dt.Columns.Add("yField2", typeof(int));
-	dt.Columns.Add("yField3", typeof(int));
-	dt.Columns.Add("categoryField", typeof(string));
-	dt.Columns.Add("colorField1", typeof(string));
-	dt.Columns.Add("colorField2", typeof(string));
-	dt.Columns.Add("colorField3", typeof(string));
 
-	Random random = new Random();
-	for (int i = 0; i <= 100; i++)
-	{
-		dt.Rows.Add(random.Next(20, 30), random.Next(40, 60), random.Next(70, 90), i.ToString(), GetColor(i, palette1), GetColor(i, palette2), GetColor(i, palette3));
-	}
+	dt.Columns.Add("ID", typeof(int));
+	dt.Columns.Add("yField0", typeof(int));
+	dt.Columns.Add("yField1", typeof(int));
+	dt.Columns.Add("threshold0", typeof(int));
+	dt.Columns.Add("threshold1", typeof(int));
+	dt.Columns.Add("colorField0", typeof(string));
+	dt.Columns.Add("colorField1", typeof(string));
+	dt.Columns.Add("catField", typeof(string));
+
+	dt.Rows.Add(1, 2, 3, 5, 4, "blue", "green", "Item 1");
+	dt.Rows.Add(2, 5, 7, 6, 3, "blue", "green", "Item 2");
+	dt.Rows.Add(3, 6, 4, 7, 1, "blue", "green", "Item 3");
+
 	return dt;
 }
-
-private string GetColor(int i, string[] palette)
-{
-	string color = palette[0];
-	if ((i > 25) && (i <= 50))
-	{
-		color = palette[1];
-	}
-	else if ((i > 50) && (i <= 75))
-	{
-		color = palette[2];
-	}
-	else if (i > 75)
-	{
-		color = palette[3];
-	}
-	return color;
-}
-
-private string[] palette1 = new string[] { "#2dabc1", "#8ac24e", "#f1ac4a", "#326eb9" };
-private string[] palette2 = new string[] { "#f89d26", "#b8e54b", "#52d5f6", "#ffd800" };
-private string[] palette3 = new string[] { "#8bc34a", "#03a9f4", "#673ab7", "#d81b60" };
 ````
 ````VB
-Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
-	If Not Page.IsPostBack Then
-		CreateChart()
-	End If
+Protected Sub Page_Load(sender As Object, e As EventArgs)
+	RadHtmlChart2.DataSource = GetData()
+	RadHtmlChart2.DataBind()
 End Sub
 
-Private Sub CreateChart()
-	RadHtmlChart1.DataSource = GetData()
-	Dim lines As New List(Of ColumnSeries)()
-	For i As Integer = 0 To 2
-		Dim ls As New ColumnSeries()
-		ls.Appearance.Visual = "telerikDemo.seriesVisual"
-		ls.DataFieldY = "yField" & (i + 1)
-		ls.Name = "Series " & (i + 1)
-		ls.LabelsAppearance.Visible = False
-		lines.Add(ls)
-	Next
-	RadHtmlChart1.PlotArea.Series.AddRange(lines)
-	RadHtmlChart1.DataBind()
-End Sub
-
-Private Function GetData() As DataTable
+Protected Function GetData() As DataTable
 	Dim dt As New DataTable()
-	dt.Columns.Add("yField1", GetType(Integer))
-	dt.Columns.Add("yField2", GetType(Integer))
-	dt.Columns.Add("yField3", GetType(Integer))
-	dt.Columns.Add("categoryField", GetType(String))
-	dt.Columns.Add("colorField1", GetType(String))
-	dt.Columns.Add("colorField2", GetType(String))
-	dt.Columns.Add("colorField3", GetType(String))
 
-	Dim random As New Random()
-	For i As Integer = 0 To 100
-		dt.Rows.Add(random.[Next](20, 30), random.[Next](40, 60), random.[Next](70, 90), i.ToString(), GetColor(i, palette1), GetColor(i, palette2), _
-			GetColor(i, palette3))
-	Next
+	dt.Columns.Add("ID", GetType(Integer))
+	dt.Columns.Add("yField0", GetType(Integer))
+	dt.Columns.Add("yField1", GetType(Integer))
+	dt.Columns.Add("threshold0", GetType(Integer))
+	dt.Columns.Add("threshold1", GetType(Integer))
+	dt.Columns.Add("colorField0", GetType(String))
+	dt.Columns.Add("colorField1", GetType(String))
+	dt.Columns.Add("catField", GetType(String))
+
+	dt.Rows.Add(1, 2, 3, 5, 4, "blue", _
+		"green", "Item 1")
+	dt.Rows.Add(2, 5, 7, 6, 3, "blue", _
+		"green", "Item 2")
+	dt.Rows.Add(3, 6, 4, 7, 1, "blue", _
+		"green", "Item 3")
+
 	Return dt
 End Function
-
-Private Function GetColor(i As Integer, palette As String()) As String
-	Dim color As String = palette(0)
-	If (i > 25) AndAlso (i <= 50) Then
-		color = palette(1)
-	ElseIf (i > 50) AndAlso (i <= 75) Then
-		color = palette(2)
-	ElseIf i > 75 Then
-		color = palette(3)
-	End If
-	Return color
-End Function
-
-Private palette1 As String() = New String() {"#2dabc1", "#8ac24e", "#f1ac4a", "#326eb9"}
-Private palette2 As String() = New String() {"#f89d26", "#b8e54b", "#52d5f6", "#ffd800"}
-Private palette3 As String() = New String() {"#8bc34a", "#03a9f4", "#673ab7", "#d81b60"}
 ````
+
+## Plot Threshold Lines via Additional Series
+
+## Plot Threshold Lines via Plot Bands
+
+
 
 ## See Also
 
