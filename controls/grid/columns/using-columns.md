@@ -196,20 +196,25 @@ You can customize the properties of auto-generated columns at runtime by providi
 ````C#
 protected void RadGrid1_ColumnCreated(object sender, Telerik.Web.UI.GridColumnCreatedEventArgs e)
 {
-    if (e.Column.UniqueName == "BirthDate")
+    if(e.Column is GridBoundColumn)
     {
         GridBoundColumn boundColumn = e.Column as GridBoundColumn;
-        boundColumn.ReadOnly = true;
-        boundColumn.DataFormatString = "{0:d}";
+        if (boundColumn.DataField == "BirthDate")
+        {
+            boundColumn.ReadOnly = true;
+            boundColumn.DataFormatString = "{0:d}";
+        }
     }
 }
 ````
 ````VB
 Protected Sub RadGrid1_ColumnCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridColumnCreatedEventArgs) Handles RadGrid1.ColumnCreated
-    If e.Column.UniqueName = "BirthDate" Then
-        Dim boundColumn As GridBoundColumn = CType(e.Column, GridBoundColumn)
-        boundColumn.ReadOnly = True
-        boundColumn.DataFormatString = "{0:d}"
+    If TypeOf e.Column Is GridBoundColumn Then
+        Dim boundColumn As GridBoundColumn = TryCast(e.Column, GridBoundColumn)
+        If boundColumn.DataField = "BirthDate" Then
+            boundColumn.ReadOnly = True
+            boundColumn.DataFormatString = "{0:d}"
+        End If
     End If
 End Sub
 ````
