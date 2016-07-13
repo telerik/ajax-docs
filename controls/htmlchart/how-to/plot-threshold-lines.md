@@ -13,18 +13,27 @@ position: 7
 This help article provides different approaches for plotting threshold lines in RadHtmlChart.
 
 * [Plot Threshold Lines via Visual Templates and Kendo UI Drawing API](#plot-threshold-lines-via-visual-templates-and-kendo-ui-drawing-api)
+ * [Plot Threshold Lines after Chart Rendering](#plot-threshold-lines-after-chart-rendering)
+ * [Plot Threshold Lines via Visual Templates](#plot-threshold-lines-via-visual-templates)
 * [Plot Threshold Lines via Additional Series](#plot-threshold-lines-via-additional-series)
 * [Plot Threshold Lines via Plot Bands](#plot-threshold-lines-via-plot-bands)
 
 ## Plot Threshold Lines via Visual Templates and Kendo UI Drawing API
 
-### Plot Threshold Lines after Chart Rendering (non-databound)
+You can plot threshold lines in the RadHtmlChart via the [Kendo UI Drawing API](http://docs.telerik.com/kendo-ui/api/javascript/drawing). This can be done once the chart is rendered or during the rendering itself via [Visual Template]({%slug htmlchart/functionality/visual-template%}). The examples below shows how to plot threshold lines per a different granularity - chart, categories and items within categories.
 
->caption Figure 1: sss
+ * [Plot Threshold Lines after Chart Rendering](#plot-threshold-lines-after-chart-rendering)
+ * [Plot Threshold Lines via Visual Templates](#plot-threshold-lines-via-visual-templates)
+
+### Plot Threshold Lines after Chart Rendering
+
+**Example 1** illustrates how to draw threshold lines in the chart once it is rendered. The sample shows two types of threshold lines - individual lines for each category and a common line for the whole chart. The threshold values are hardcoded at the top of the example. You can see the output in **Figure 1**. 
+
+>caption Figure 1: RadHtmlChart with a common threshold line and threshold lines for each category.
 
 ![htmlchart-threshold-lines-non-data-bound](images/htmlchart-threshold-lines-non-data-bound.png)
 
->caption Example 1: 
+>caption Example 1: Render threshold liens after rendering the chart. The output is available in Figure 1.
 
 ````JavaScript
 var commonThresholdValue = 5;
@@ -94,13 +103,15 @@ function plotThresholdLine(chart, xSlot, ySlot, colorLine) {
 </telerik:RadHtmlChart>
 ````
 
-### Plot Threshold Lines via Visual Templates (databound chart)
+### Plot Threshold Lines via Visual Templates
 
->caption Figure 2: sss
+**Example 2** illustrates how to dynamically plot threshold lines for each item of a series for a data-bound chart via [Visual Template]({%slug htmlchart/functionality/visual-template%}) of the series. The values for the threshold lines and the corresponding colors are stored in the *threshold[index]* and *colorField[index]* data source fields.
+
+>caption Figure 2: Dynamically plotting threshold lines for each item of a series via Visual Template of the series.
 
 ![htmlchart-threshold-lines-data-bound](images/htmlchart-threshold-lines-data-bound.png)
 
->caption Example 2: sss
+>caption Example 2: The example that plots dynamically threshold lines. The output is available in Figure 2.
 
 ````JavaScript
 function visual(e) {
@@ -200,18 +211,95 @@ End Function
 
 ## Plot Threshold Lines via Additional Series
 
+You can plot a threshold line in the RadHtmlChart by adding a line series and disabling its visibility in the legend as well as the visiblity of its markers and labels. **Example 3** shows this approach and the **Figure 3** displays the output. 
+
+>caption Figure 3: Line series is used as a threshold line.
+
+![htmlchart-threshold-lines-lineseries](images/htmlchart-threshold-lines-lineseries.png)
+
+>caption Example 3: Plot threshold line by simply including an additional line series.
+
+````ASP.NET
+<telerik:RadHtmlChart runat="server" ID="RadHtmlChart1" Width="500px" Height="300px" Skin="Silk">
+	<PlotArea>
+		<Series>
+			<telerik:ColumnSeries Name="Series 1">
+				<SeriesItems>
+					<telerik:CategorySeriesItem Y="1" />
+					<telerik:CategorySeriesItem Y="2" />
+					<telerik:CategorySeriesItem Y="6" />
+				</SeriesItems>
+			</telerik:ColumnSeries>
+			<telerik:LineSeries VisibleInLegend="false">
+				<LineAppearance Width="5" />
+				<MarkersAppearance Visible="false" />
+				<LabelsAppearance Visible="false"></LabelsAppearance>
+				<SeriesItems>
+					<telerik:CategorySeriesItem Y="3" />
+					<telerik:CategorySeriesItem Y="3" />
+					<telerik:CategorySeriesItem Y="3" />
+				</SeriesItems>
+			</telerik:LineSeries>
+		</Series>
+		<XAxis>
+			<Items>
+				<telerik:AxisItem LabelText="1" />
+				<telerik:AxisItem LabelText="2" />
+				<telerik:AxisItem LabelText="3" />
+			</Items>
+		</XAxis>
+	</PlotArea>
+</telerik:RadHtmlChart>
+````
+
 ## Plot Threshold Lines via Plot Bands
 
+You can display threshold lines in the RadHtmlChart by drawing [Plot Bands]({%slug htmlchart/functionality/plot-bands%}). **Example 4** shows this approach and  **Figure 4** displays the output. 
 
+>caption Figure 4: Plot band is used as a threshold line.
+
+![htmlchart-threshold-lines-plotbands](images/htmlchart-threshold-lines-plotbands.png)
+
+>caption Example 4: Plot a threshold line by drawing a plot band.
+
+````ASP.NET
+<telerik:RadHtmlChart runat="server" ID="RadHtmlChart1" Width="500px" Height="300px" Skin="Silk">
+	<PlotArea>
+		<YAxis>
+			<PlotBands>
+				<telerik:PlotBand From="4" To="4.2" Color="Green" Alpha="200" />
+			</PlotBands>
+		</YAxis>
+		<Series>
+			<telerik:ColumnSeries Name="Series 1">
+				<SeriesItems>
+					<telerik:CategorySeriesItem Y="1" />
+					<telerik:CategorySeriesItem Y="2" />
+					<telerik:CategorySeriesItem Y="6" />
+				</SeriesItems>
+			</telerik:ColumnSeries>
+		</Series>
+		<XAxis>
+			<Items>
+				<telerik:AxisItem LabelText="1" />
+				<telerik:AxisItem LabelText="2" />
+				<telerik:AxisItem LabelText="3" />
+			</Items>
+		</XAxis>
+	</PlotArea>
+</telerik:RadHtmlChart>
+````
 
 ## See Also
-
- * [Visual Template]({%slug htmlchart/functionality/visual-template%})
- 
- * [Column Series]({%slug htmlchart/chart-types/column-chart%})
 
  * [Live Demo: Kendo Drawing API](http://demos.telerik.com/kendo-ui/drawing/index)
 
  * [API Reference: Kendo Drawing API](http://docs.telerik.com/kendo-ui/api/javascript/drawing)
 
- * [API Reference: Kendo Chart](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/chart)
+ * [Visual Template]({%slug htmlchart/functionality/visual-template%})
+
+ * [Plot Bands]({%slug htmlchart/functionality/plot-bands%})
+ 
+ * [Column Series]({%slug htmlchart/chart-types/column-chart%})
+
+
