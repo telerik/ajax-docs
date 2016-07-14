@@ -18,6 +18,7 @@ This help article lists the most common issues one can face when using the **Rad
 1. [ YAxis is not rescaled in a stock chart when changing the selection range. ](#yaxis-is-not-rescaled-in-a-stock-chart-when-changing-the-selection-range)
 1. [ There is a redundant space between pie or donut chart and its legend. ](#there-is-a-redundant-space-between-pie-or-donut-chart-and-its-legend)
 1. [ RadHtmlChart cannot be bound to a data source that has special characters in its field names. ](#radhtmlchart-cannot-be-bound-to-a-data-source-that-has-special-characters-in-its-field-names)
+1. [Chart with display: none does not show itself](#chart-with-display-none-does-not-show-itself)
 
 ## Tooltips are Hidden Behind RadWindow or RadNotification
 
@@ -221,6 +222,43 @@ Protected Function GetData() As DataTable
 	table.Rows.Add(New Object() {20, "item 2"})
 	Return table
 End Function
+````
+
+
+## Chart with display: none Does not Show Itself
+
+If you have a **RadHtmlChart** with `display: none` set to its wrapper element, toggling its CSS attribute to `display: block`, for example, may result in the chart not showing itself, remaining invisible or being distorted.
+
+This happens because the hidden container does not let the control evaluate its dimensions, size and render properly.
+
+To resolve this, call its `repaint` client-side method so the chart will redraw itself.
+
+>caption Example 4: Showing an initially hidden chart.
+
+````ASP.NET
+<script>
+	function showChart() {
+		var chartId = "<%=RadHtmlChart1.ClientID%>";
+		var wrapper = $get(chartId);
+		var chartObj = $find(chartId);
+		wrapper.style.display = "";
+		chartObj.repaint();
+	}
+</script>
+<asp:Button ID="Button1" Text="show chart" OnClientClick="showChart(); return false;" runat="server" />
+<telerik:RadHtmlChart runat="server" ID="RadHtmlChart1" Style="display: none;" Width="400px" Height="400px">
+	<PlotArea>
+		<Series>
+			<telerik:PieSeries>
+				<SeriesItems>
+					<telerik:PieSeriesItem Y="1" Name="one" />
+					<telerik:PieSeriesItem Y="2" Name="two" />
+					<telerik:PieSeriesItem Y="3" Name="three" />
+				</SeriesItems>
+			</telerik:PieSeries>
+		</Series>
+	</PlotArea>
+</telerik:RadHtmlChart>
 ````
 
 
