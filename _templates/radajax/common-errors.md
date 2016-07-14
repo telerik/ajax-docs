@@ -8,11 +8,13 @@ This help article describes common reasons for error messages and their solution
 
 	RadAjax controls update the `<head>` of the page to let controls register stylesheets and scripts during an AJAX request and such commented rules cannot be parsed by the engine.
 
-	There are two solutions:
+	There are three solutions:
 
 	* Set the `EnablePageHeadUpdate` property of the RadAjax control to `false`.
 
 	* Remove the commented CSS rule or move it to a separate stylesheet file.
+
+	* Place the styles settings in external css files.
 
 
 * **Receiving `Sys.WebForms.PageRequestManagerParserErrorException`.** You may receive this error if you have used **RadAjaxPanel** and **RadAjaxManager** to AJAX-enable the same control at the same time. You can read more about the problem in the [Controls Wrapped in AjaxPanel and Added to AjaxManager Settings]({%slug ajaxmanager/troubleshooting/controls-wrapped-in-ajaxpanel-and-added-to-ajaxmanager-settings%}) help article.
