@@ -238,7 +238,7 @@ navigation:
         title: "Grid"
         position: 1
     "controls/htmlchart":
-        title: "Chart (Html5)"
+        title: "Chart (HTML5)"
         position: 1
     "controls/inputmanager":
         title: "Input Manager"
