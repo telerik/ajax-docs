@@ -12,13 +12,13 @@ position: 1
 
 
 
-The **Day View** shows all loaded tasks for a RadGantt, distributed in columns that have duration of one hour. All those one hour time spans that belong to a single day are grouped in one day time span. 
+The **Day View** shows all loaded tasks for a **RadGantt** distributed in columns that have duration of one hour. All those one-hour time spans that belong to a single day are grouped in one day time span. 
 
 ![RadGantt in Day View](images/gantt-views-dayview.png)
 
-## Day View Settings:
+## DayViewSettings Object
 
-**Table 1** demonstrates the properties, that are available within the **DayViewSettings** object.
+**Table 1** demonstrates the properties that are available within the **DayViewSettings** object.
 
 | Name | Type | Description |
 | ------ | ------ | ------ |
@@ -32,6 +32,7 @@ The **Day View** shows all loaded tasks for a RadGantt, distributed in columns t
 | **Type** |Telerik.Web.UI.GanttViewType enumeration|Gets the type of the **View**. In this case a **DayView**.|
 | **UserSelectable** |bool|Gets or sets a value indicating whether to render a tab for the **DayView** in the view chooser.|
 
+<Comment: Why do the DateTime types have a question mark after them?>
 
 # See Also
 
