@@ -14,7 +14,10 @@ The most important properties and methods of the **RadGantt** server-side object
 
 ## RadGantt Properties
 
-The **RadGantt** properties are divided in three separate tables below - list of user editing options, general properties and view settings properties.
+The **RadGantt** properties are divided into three separate tables below: 
+* list of user editing options (Table 1)
+* general properties (Table 2)
+* view settings properties (Table 3)
 
 **Table 1** lists the user editing options properties exposed by the **RadGantt** object.
 
@@ -51,18 +54,18 @@ The **RadGantt** properties are divided in three separate tables below - list of
 | **EnableResources** |bool|Gets or sets a value indicating whether the resources functionality is enabled.|
 | **ItemType** |string|Gets or sets the name of the data item type for strongly typed data binding.|
 | **KeyboardNavigationSettings** |Telerik.Web.UI. GanttKeyboardNavigationSettings|Gets the **KeyboardNavigation** settings.|
-| **ListWidth** |Unit|Gets or sets the RadGantt list width in pixels or percents.|
+| **ListWidth** |Unit|Gets or sets the **RadGantt** list width in pixels or percent.|
 | **Localization** |Telerik.Web.UI.GanttStrings|Gets the localization.|
 | **LocalizationPath** |string|Gets or sets a value indicating where **RadGantt** will look for its **.resx** localization files.|
-| **Provider** |Telerik.Web.UI. GanttProviderBase|Gets or sets the provider instance to be used by Gantt. Use this property with providers that are created at runtime. For ASP.NET providers defined in web.config use the **Telerik.Web.UI.RadGantt.ProviderName** property.|
-| **ProviderName** |string|Gets or sets the name of the current tasks provider used by Gantt. The provider must be defined in the Gantt section of web.config.|
+| **Provider** |Telerik.Web.UI. GanttProviderBase|Gets or sets the provider instance to be used by **RadGantt**. Use this property with providers that are created at runtime. For ASP.NET providers defined in web.config use the Telerik.Web.UI.RadGantt.ProviderName property.|
+| **ProviderName** |string|Gets or sets the name of the current tasks provider used by **RadGantt**. The provider must be defined in the Gantt section of web.config.|
 | **RangeEnd** |DateTime?|Gets or sets the end time of the visible range on the currently selected view. The **RangeEnd** date will not be included within the visible range. Available also to be specified per view.|
 | **RangeStart** |DateTime?|Gets or sets the start time of the visible range on the currently selected view. Available also to be specified per view.|
 | **Resources** |Telerik.Web.UI.Gantt. ResourceCollection|Gets the collection of all resources attached to the **RadGantt**.|
 | **RowHeight** |Unit|Gets or sets the height of **RadGantt** rows.|
 | **SelectedDate** |DateTime?|Gets or sets the date to which the timeline of the currently selected view is scrolled. Available also to be specified per view.|
 | **SelectedView** |Telerik.Web.UI.GanttViewType enumeration|Gets or sets the current view type.|
-| **ShowCurrentTimeMarker** |bool|Gets or sets a value indicating whether the current time marker is visible..|
+| **ShowCurrentTimeMarker** |bool|Gets or sets a value indicating whether the current time marker is visible.|
 | **ShowFullTime** |bool|Gets or sets a value indicating whether to display the complete day or the range between 8:00 AM and 5:00 PM.|
 | **ShowFullWeek** |bool|Gets or sets a value indicating whether to display all days of the week or the range between WorkWeekStart and WorkWeekEnd.|
 | **ShowTooltip** |bool|Gets or sets a value indicating whether to display a tooltip with summary of the task upon hovering.|
@@ -72,6 +75,7 @@ The **RadGantt** properties are divided in three separate tables below - list of
 | **WorkWeekEnd** |DayOfWeek enumeration|Gets or sets the last day of the work week.|
 | **WorkWeekStart** |DayOfWeek enumeration|Gets or sets the first day of the work week.|
 
+<Comment: Why is there a question mark after DateTime in the RangeEnd row and the RangeStart row of Table 2? Please review and remove if necessary.>
 
 **Table 3** lists the [view settings]({%slug gantt/server-side-programming/objects/viewsettings-objects%}) properties exposed in the API.
 
