@@ -10,15 +10,15 @@ position: 1
 
 # ViewSettings Objects
 
-**RadGantt** provides the ability to customize each of its four different views independently. The control has a separate **Settings** object for each of its **View Types**, which allow customization of the control behavior and appearance. The four objects are part of the **Telerik.Web.UI.Gantt** namespace:
+**RadGantt** provides the ability to customize each of its four different views independently. The control has a separate **Settings** object for each of its **View Types**, which allow customization of the control's behavior and appearance. The four objects are part of the **Telerik.Web.UI.Gantt** namespace:
 
- * **DayViewSettings**;
+ * **DayViewSettings**
  
- * **WeekViewSettings**;
+ * **WeekViewSettings**
    
- * **MonthViewSettings**;
+ * **MonthViewSettings**
  
- * **YearViewSettings**;
+ * **YearViewSettings**
 
 ## Properties Available for all View Settings Objects
 
@@ -27,7 +27,7 @@ position: 1
 | Name | Type | Description |
 | ------ | ------ | ------ |
 | **SlotWidth** |Unit|Gets or sets the slot width in pixels for the respective view.|
-| **Type** |Telerik.Web.UI.GanttViewType enumeration|Gets the type of the **View**, which the settings are applied to - Day, Week, Month or Year.|
+| **Type** |Telerik.Web.UI.GanttViewType enumeration|Gets the type of the **View** that the settings are applied to: Day, Week, Month or Year.|
 | **UserSelectable** |bool|Gets or sets a value indicating whether to render a tab for the current view in the view chooser.|
 
 
