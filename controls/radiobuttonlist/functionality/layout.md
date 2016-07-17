@@ -23,10 +23,7 @@ This help article showcases how to configure the layout of the **RadRadioButtonL
 You can control whether the radio buttons will be rendered inside ul or li elements or without any elements. This behavior is controlled via the `Layout` property that takes `Flow` (default value), `OrderedList` and `UnorderedList` values.
 
 You can see the output of **Example 1** that shows different layouts of the control in **Figure 1**.
-
->caption Figure 1: Compare different layouts of RadRadioButtonList.
-
-![radiobuttonlist-layout](images/radiobuttonlist-layout.png) 
+<Comment: In all three examples in this article, you named the example and then the figure, and I think that is the order in which the customer would expect to see them in the article, so I moved all three figures after their respective examples to match the order you present them in the body text.>
 
 >caption Example 1: Configure the Layout of RadRadioButtonList. 
 
@@ -71,13 +68,13 @@ Protected Sub Page_Init(sender As Object, e As EventArgs)
 End Sub
 ````
 
+>caption Figure 1: Compare different layouts of RadRadioButtonList.
+
+![radiobuttonlist-layout](images/radiobuttonlist-layout.png) 
+
 ## Columns
 
-Radio buttons inside the RadRadioButtonList are rendered inside a single column by default. You can control, however, this behavior through the `Columns` property. A sample is shown in **Example 2** and the output is available in **Figure 2**.
-
->caption Figure 2: Display radio buttons in two columns.
-
-![radiobuttonlist-layout-columns](images/radiobuttonlist-layout-columns.png) 
+Radio buttons inside the __RadRadioButtonList__ are rendered inside a single column by default. You can change this behavior using the `Columns` property. You can see a sample in **Example 2** and the output in **Figure 2**.
 
 >caption Example 2: The code that shows how to display radio buttons in two columns. 
 
@@ -111,13 +108,13 @@ Protected Sub Page_Init(sender As Object, e As EventArgs)
 End Sub
 ````
 
+>caption Figure 2: Display radio buttons in two columns.
+
+![radiobuttonlist-layout-columns](images/radiobuttonlist-layout-columns.png) 
+
 ## Direction
 
 You can control the direction in which radio buttons are displayed within the groups via the `Direction` property (the output of **Example 3** is shown in **Figure 3**).
-
->caption Figure 3: Display radio buttons in different direction within the columns.
-
-![radiobuttonlist-layout-direction](images/radiobuttonlist-layout-direction.png) 
 
 >caption Example 2: Configure horizontal and vertical direction for radio buttons. 
 
@@ -156,6 +153,10 @@ Protected Sub Page_Init(sender As Object, e As EventArgs)
 	Next
 End Sub
 ````
+
+>caption Figure 3: Display radio buttons in different direction within the columns.
+
+![radiobuttonlist-layout-direction](images/radiobuttonlist-layout-direction.png) 
 
 ## See Also
  
