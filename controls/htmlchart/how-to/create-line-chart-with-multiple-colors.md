@@ -10,9 +10,9 @@ position: 5
 
 # Create Line Chart With Multiple Colors
 
-This help article addresses the challenge that the line series of **RadHtmlChart** offers only a common color for the whole series and suggests a solution for multiplecoloring the line series.
+This help article addresses the challenge that the line series of **RadHtmlChart** offers only a common color for the whole series and suggests a solution for adding multiple colors to the line series.
 
-Unlike the bar/column series where each item (i.e., the bar) can be easily targeted and colored, the line series consist of points that are connected with lines, which makes the coloring harder. For example which part of the item is supposed to be colored - the line between points of two adjacent categories or the two lines connecting the point within a single category?
+Unlike the bar/column series where each item (i.e., the bar) can be easily targeted and colored, the line series consist of points that are connected with lines, which makes the coloring harder. For example, which part of the item is supposed to be colored - the line between points of two adjacent categories or the two lines connecting the point within a single category?
 
 **Example 1** illustrates a possible approach for defining different colors for the lines between adjacent points of line series via the [visual template]({%slug htmlchart/functionality/visual-template%}) that is exposed by the [column series]({%slug htmlchart/chart-types/column-chart%}). You can see the output in **Figure 1**.
 
@@ -20,7 +20,7 @@ Unlike the bar/column series where each item (i.e., the bar) can be easily targe
 
 ![line-chart-multiple-colors](images/line-chart-multiple-colors.png)
 
->caption Example 1: Create multiple colors for line series with visual template.
+>caption Example 1: Create multiple colors for a line series with a visual template.
 
 ````JavaScript
 //script.js
