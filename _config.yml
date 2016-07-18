@@ -74,7 +74,7 @@ navigation:
         position: 1
     "sharepoint/troubleshooting":
         title: "Troubleshooting"
-        position: 3
+        position: 5
     "sharepoint/2010/installation-and-deployment":
         title: "Installation and Deployment"
         position: 0
@@ -123,6 +123,9 @@ navigation:
     "sharepoint/2016":
         title: "SharePoint 2016"
         position: 3
+    "sharepoint/online":
+        title: "SharePoint Online (Office 365)"
+        position: 4
     "testing-with-test-studio":
         title: "Testing with Test Studio"
         position: 25
