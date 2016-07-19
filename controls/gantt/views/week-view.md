@@ -23,9 +23,9 @@ The **Week View** shows all loaded tasks for a **RadGantt** distributed in colum
 | Name | Type | Description |
 | ------ | ------ | ------ |
 | **DayHeaderDateFormat** |string|Gets or sets the day header date format string in **WeekView**.|
-| **RangeEnd** |DateTime?|Gets or sets the end time of the visible range of the **WeekView**. The **RangeEnd** date will not be included within the visible range.|
-| **RangeStart** |DateTime?|Gets or sets the start time of the visible range of the **WeekView**.|
-| **SelectedDate** |DateTime?|Gets or sets the date to which the timeline of the **WeekView** is scrolled.|
+| **RangeEnd** |DateTime?|Gets or sets the end date and time of the visible range of the **WeekView**. The **RangeEnd** date will not be included within the visible range.|
+| **RangeStart** |DateTime?|Gets or sets the start date and time of the visible range of the **WeekView**.|
+| **SelectedDate** |DateTime?|Gets or sets the date and time to which the timeline of the **WeekView** is scrolled.|
 | **SlotWidth** |Unit|Gets or sets the slot width in pixels for the **WeekView**.|
 | **Type** |Telerik.Web.UI.GanttViewType enumeration|Gets the type of the **View**. In this case a **WeekView**.|
 | **UserSelectable** |bool|Gets or sets a value indicating whether to render a tab for the **WeekView** in the view chooser.|
