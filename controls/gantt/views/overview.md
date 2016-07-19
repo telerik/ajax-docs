@@ -23,9 +23,9 @@ In this section you could find all common properties that are shared among all v
 
 | Name | Type | Description |
 | ------ | ------ | ------ |
-| **RangeEnd** |DateTime?|Gets or sets the end time of the visible range on the view. The **RangeEnd** date will not be included within the visible range.|
-| **RangeStart** |DateTime?|Gets or sets the start time of the visible range on the view.|
-| **SelectedDate** |DateTime?|Gets or sets the date to which the timeline of the view is scrolled.|
+| **RangeEnd** |DateTime?|Gets or sets the end date and time of the visible range on the view. The **RangeEnd** date will not be included within the visible range.|
+| **RangeStart** |DateTime?|Gets or sets the start date and time of the visible range on the view.|
+| **SelectedDate** |DateTime?|Gets or sets the date and time to which the timeline of the view is scrolled.|
 
 
 **Table 2** lists the properties that are available in all four View Settings Objects.
