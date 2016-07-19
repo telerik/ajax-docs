@@ -21,7 +21,7 @@ x = SquareTileWidth = SquareTileHeight
 ```
 
 ```
-WideTileWidth = x + 10
+WideTileWidth = 2 * x + 10
 WideTileHeight = x 
 ```
 
