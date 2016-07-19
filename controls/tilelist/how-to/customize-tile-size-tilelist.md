@@ -14,6 +14,21 @@ This article shows an approach to setup custom dimensions for the **Tiles** in *
 
 With **RadTileList**, [drag and drop]({%slug tilelist/functionality/drag-and-drop%}) works only when **Tile** sizes (`Square` and `Wide`) and the [tile group]({%slug tilelist/functionality/group-title%}) have the same proportions as the predefined ones.
 
+>tip If you are using [Lightweight rendering]({%slug tilelist/mobile-support/render-modes%}), tile sizes are calculated in `em` in order to provide [elastic capabilities]({%slug tilelist/mobile-support/elastic-capabilities%}). With this **RenderMode** you can easily change the tile sizes by just using larger font-size. Like in this example:
+>```
+><div style="font-size:22px;">
+>   <telerik:RadTileList runat="server" ID="RadTileList2" TileRows="4"
+>	        EnableDragAndDrop="true" RenderMode="Lightweight">
+>	    <Groups>
+>	        <telerik:TileGroup Name="Group1" Title="Group 1">
+>	            <telerik:RadTextTile runat="server" Text="Tile 1" Shape="Square" />
+>	            <telerik:RadTextTile runat="server" Text="Tile 2" Shape="Wide" />
+>	        </telerik:TileGroup>
+>       </Groups>
+>   </telerik:RadTileList>
+></div>
+>```
+
 These formulas can help you determine how to calculate the size of the `Wide` tile and the tile group based on the desired `Square` tile size (in pixel):
 
 ```
@@ -29,7 +44,7 @@ WideTileHeight = x
 TileGroupWidth = x + 20
 ```
 
->caution Using pixels is valid only for [Classic rendering]({%slug tilelist/mobile-support/render-modes%}). With **Lightweight** you should consider using the [elastic capabilities]({%slug tilelist/mobile-support/elastic-capabilities%}) of **RadTileList**. 
+ 
 
 You can also define larger tiles by using tile's `CssClass` property to decorate their `width` and `height` them via CSS, but you should still take into account the width of the `Wide` tile, which can be considered as the maximum width for a tile. 
 
