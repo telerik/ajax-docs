@@ -22,15 +22,14 @@ The **Year View** shows all loaded tasks for a **RadGantt** distributed in colum
 | Name | Type | Description |
 | ------ | ------ | ------ |
 | **MonthHeaderDateFormat** |string|Gets or sets the month header date format string in **YearView**.|
-| **RangeEnd** |DateTime?|Gets or sets the end time of the visible range on the **YearView**. The **RangeEnd** date will not be included within the visible range.|
-| **RangeStart** |DateTime?|Gets or sets the start time of the visible range on the **YearView**.|
-| **SelectedDate** |DateTime?|Gets or sets the date to which the timeline of the **YearView** is scrolled.|
+| **RangeEnd** |DateTime?|Gets or sets the end date and time of the visible range on the **YearView**. The **RangeEnd** date will not be included within the visible range.|
+| **RangeStart** |DateTime?|Gets or sets the start date and time of the visible range on the **YearView**.|
+| **SelectedDate** |DateTime?|Gets or sets the date and time to which the timeline of the **YearView** is scrolled.|
 | **SlotWidth** |Unit|Gets or sets the slot width in pixels for the **YearView**.|
 | **Type** |Telerik.Web.UI.GanttViewType enumeration|Gets the type of the **View**. In this case a **YearView**.|
 | **UserSelectable** |bool|Gets or sets a value indicating whether to render a tab for the **YearView** in the view chooser.|
 | **YearHeaderDateFormat** |string|Gets or sets the year header date format string in **YearView**.|
 
-<Comment: In RangeEnd and Range Start, you don't set an end time or start time, do you? For this object doesn't the user set an end date or start date instead of a time? Also, why does DateTime have a question mark in the Type column?>
 
 # See Also
 
