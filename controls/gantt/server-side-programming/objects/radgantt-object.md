@@ -59,11 +59,11 @@ The **RadGantt** properties are divided into three separate tables below:
 | **LocalizationPath** |string|Gets or sets a value indicating where **RadGantt** will look for its **.resx** localization files.|
 | **Provider** |Telerik.Web.UI. GanttProviderBase|Gets or sets the provider instance to be used by **RadGantt**. Use this property with providers that are created at runtime. For ASP.NET providers defined in web.config use the Telerik.Web.UI.RadGantt.ProviderName property.|
 | **ProviderName** |string|Gets or sets the name of the current tasks provider used by **RadGantt**. The provider must be defined in the Gantt section of web.config.|
-| **RangeEnd** |DateTime?|Gets or sets the end date and time of the visible range on the currently selected view.|
-| **RangeStart** |DateTime?|Gets or sets the start date and time of the visible range on the currently selected view.|
+| **RangeEnd** |DateTime?|Gets or sets the end date and time of the visible range on the currently selected view. The **RangeEnd** date will not be included within the visible range. Available also to be specified per view.|
+| **RangeStart** |DateTime?|Gets or sets the start date and time of the visible range on the currently selected view. Available also to be specified per view.|
 | **Resources** |Telerik.Web.UI.Gantt. ResourceCollection|Gets the collection of all resources attached to the **RadGantt**.|
 | **RowHeight** |Unit|Gets or sets the height of **RadGantt** rows.|
-| **SelectedDate** |DateTime?|Gets or sets the date to which the timeline of the currently selected view is scrolled. Available also to be specified per view.|
+| **SelectedDate** |DateTime?|Gets or sets the date and time to which the timeline of the currently selected view is scrolled. Available also to be specified per view.|
 | **SelectedView** |Telerik.Web.UI.GanttViewType enumeration|Gets or sets the current view type.|
 | **ShowCurrentTimeMarker** |bool|Gets or sets a value indicating whether the current time marker is visible.|
 | **ShowFullTime** |bool|Gets or sets a value indicating whether to display the complete day or the range between 8:00 AM and 5:00 PM.|
