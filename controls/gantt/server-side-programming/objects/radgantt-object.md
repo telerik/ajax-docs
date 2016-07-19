@@ -59,8 +59,8 @@ The **RadGantt** properties are divided into three separate tables below:
 | **LocalizationPath** |string|Gets or sets a value indicating where **RadGantt** will look for its **.resx** localization files.|
 | **Provider** |Telerik.Web.UI. GanttProviderBase|Gets or sets the provider instance to be used by **RadGantt**. Use this property with providers that are created at runtime. For ASP.NET providers defined in web.config use the Telerik.Web.UI.RadGantt.ProviderName property.|
 | **ProviderName** |string|Gets or sets the name of the current tasks provider used by **RadGantt**. The provider must be defined in the Gantt section of web.config.|
-| **RangeEnd** |DateTime?|Gets or sets the end time of the visible range on the currently selected view. The **RangeEnd** date will not be included within the visible range. Available also to be specified per view.|
-| **RangeStart** |DateTime?|Gets or sets the start time of the visible range on the currently selected view. Available also to be specified per view.|
+| **RangeEnd** |DateTime?|Gets or sets the end date and time of the visible range on the currently selected view.|
+| **RangeStart** |DateTime?|Gets or sets the start date and time of the visible range on the currently selected view.|
 | **Resources** |Telerik.Web.UI.Gantt. ResourceCollection|Gets the collection of all resources attached to the **RadGantt**.|
 | **RowHeight** |Unit|Gets or sets the height of **RadGantt** rows.|
 | **SelectedDate** |DateTime?|Gets or sets the date to which the timeline of the currently selected view is scrolled. Available also to be specified per view.|
@@ -75,7 +75,6 @@ The **RadGantt** properties are divided into three separate tables below:
 | **WorkWeekEnd** |DayOfWeek enumeration|Gets or sets the last day of the work week.|
 | **WorkWeekStart** |DayOfWeek enumeration|Gets or sets the first day of the work week.|
 
-<Comment: Why is there a question mark after DateTime in the RangeEnd row and the RangeStart row of Table 2? Please review and remove if necessary.>
 
 **Table 3** lists the [view settings]({%slug gantt/server-side-programming/objects/viewsettings-objects%}) properties exposed in the API.
 
