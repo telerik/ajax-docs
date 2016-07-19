@@ -31,8 +31,6 @@ The **Week View** shows all loaded tasks for a **RadGantt** distributed in colum
 | **UserSelectable** |bool|Gets or sets a value indicating whether to render a tab for the **WeekView** in the view chooser.|
 | **WeekHeaderDateFormat** |string|Gets or sets the week header date format string in **WeekView**.|
 
-<Comment: Why does the DateTime type have a question mark?>
-
 # See Also
 
  * [Views Overview]({%slug gantt/views/overview%})
@@ -44,5 +42,4 @@ The **Week View** shows all loaded tasks for a **RadGantt** distributed in colum
  * [Year View]({%slug gantt/views/year-view%})
  
  * [View types demo](http://demos.telerik.com/aspnet-ajax/gantt/examples/functionality/view-types/defaultcs.aspx)
-
 
