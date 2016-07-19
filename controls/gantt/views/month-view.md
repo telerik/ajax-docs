@@ -12,20 +12,20 @@ position: 3
 
 
 
-The **Month View** shows all loaded tasks for a RadGantt, distributed in columns that have duration of one week. Months are displayed as super-headers of those columns. 
+The **Month View** shows all loaded tasks for a **RadGantt**, distributed in columns, that have duration of one week. Months are displayed as super-headers of those columns. 
 
 ![RadGantt in Month View](images/gantt-views-monthview.png)
 
-## Month View Settings:
+## MonthViewSettings Object
 
-**Table 1** demonstrates the properties, that are available within the **MonthViewSettings** object.
+**Table 1** demonstrates the properties that are available within the **MonthViewSettings** object.
 
 | Name | Type | Description |
 | ------ | ------ | ------ |
 | **MonthHeaderDateFormat** |string|Gets or sets the month header date format string in **MonthView**.|
-| **RangeEnd** |DateTime?|Gets or sets the end time of the visible range on the **MonthView**. The **RangeEnd** date will not be included within the visible range.|
-| **RangeStart** |DateTime?|Gets or sets the start time of the visible range on the **MonthView**.|
-| **SelectedDate** |DateTime?|Gets or sets the date to which the timeline of the **MonthView** is scrolled.|
+| **RangeEnd** |DateTime?|Gets or sets the end date and time of the visible range on the **MonthView**. The **RangeEnd** date will not be included within the visible range.|
+| **RangeStart** |DateTime?|Gets or sets the start date and time of the visible range on the **MonthView**.|
+| **SelectedDate** |DateTime?|Gets or sets the date and time to which the timeline of the **MonthView** is scrolled.|
 | **SlotWidth** |Unit|Gets or sets the slot width in pixels for the **MonthView**.|
 | **Type** |Telerik.Web.UI.GanttViewType enumeration|Gets the type of the **View**. In this case a **MonthView**.|
 | **UserSelectable** |bool|Gets or sets a value indicating whether to render a tab for the **MonthView** in the view chooser.|
