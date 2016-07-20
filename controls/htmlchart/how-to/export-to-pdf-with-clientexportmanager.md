@@ -5,7 +5,7 @@ description: Export to PDF or Image with RadClientExportManager
 slug: htmlchart/how-to/export-to-pdf-with-clientexportmanager
 tags: Export,PDF, image,RadClientExportManager,ClientExportManager, client-side
 published: True
-position: 0
+position: 7
 ---
 
 # Export to PDF or Image with RadClientExportManager
