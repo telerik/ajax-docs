@@ -5,7 +5,7 @@ description: Plot Threshold Lines
 slug: htmlchart/how-to/plot-threshold-lines
 tags: plot,threshold,lines
 published: True
-position: 7
+position: 8
 ---
 
 # Plot Threshold Lines
