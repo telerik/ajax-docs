@@ -46,7 +46,7 @@ TileGroupWidth = x + 20
 
  
 
-You can also define larger tiles by using tile's `CssClass` property to decorate their `width` and `height` them via CSS, but you should still take into account the width of the `Wide` tile, which can be considered as the maximum width for a tile. 
+You can also define larger tiles by using tile's `CssClass` property to decorate their `width` and `height` in a CSS rule, but you should still take into account the width of the `Wide` tile, which can be considered as the maximum width for a tile. 
 
 In the example below, the base tile size (**SquareTileWidth** from the formulas above) is 200px. And you can examine how the other tiles and the tile group are proportionally changed according to this base.
 
