@@ -12,8 +12,6 @@ position: 1
 
 This help article showcases how to operate with the items of a **RadRadioButtonList** on the server side or client side.
 
-<Comment: In using server side or client side, you use a hyphen only if you are using the words as an adjective. So server-side scripting (server-side is an adjective), for example, or scripting that executes on the server side (not used as an adjective).>
-
 * [Select Item Server Side](#select-item-server-side)
 
 * [Get Selected Item Server Side](#get-selected-item-server-side)
