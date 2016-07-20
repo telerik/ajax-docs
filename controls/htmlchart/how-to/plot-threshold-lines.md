@@ -29,12 +29,6 @@ You can plot threshold lines in the **RadHtmlChart** via the [Kendo UI Drawing A
 
 **Example 1** illustrates how to draw threshold lines in the chart once it is rendered. The sample shows two types of threshold lines - individual lines for each category and a common line for the whole chart. The threshold values are hardcoded at the top of the example. You can see the output in **Figure 1**. 
 
-<Comment: I suggest that if you say in the body text that you will show something in the example and then the figure shows the illustration, that you put the figure after the example. Present things to the customer in the same order that you talk about them. So in this article, move the figures after the code examples if you talk about the details of the code example first.>
-
->caption Figure 1: RadHtmlChart with a common threshold line and threshold lines for each category.
-
-![htmlchart-threshold-lines-non-data-bound](images/htmlchart-threshold-lines-non-data-bound.png)
-
 >caption Example 1: Render threshold liens after rendering the chart. The output is available in Figure 1.
 
 ````JavaScript
@@ -105,13 +99,14 @@ function plotThresholdLine(chart, xSlot, ySlot, colorLine) {
 </telerik:RadHtmlChart>
 ````
 
+>caption Figure 1: RadHtmlChart with a common threshold line and threshold lines for each category.
+
+![htmlchart-threshold-lines-non-data-bound](images/htmlchart-threshold-lines-non-data-bound.png)
+
+
 ### Plot Threshold Lines via Visual Templates
 
 **Example 2** illustrates how to dynamically plot threshold lines for each item of a series for a data-bound chart via the [Visual Template]({%slug htmlchart/functionality/visual-template%}) of the series. The values for the threshold lines and the corresponding colors are stored in the *threshold[index]* and *colorField[index]* data source fields.
-
->caption Figure 2: Dynamically plotting threshold lines for each item of a series via the Visual Template of the series.
-
-![htmlchart-threshold-lines-data-bound](images/htmlchart-threshold-lines-data-bound.png)
 
 >caption Example 2: The example that plots dynamically threshold lines. The output is available in Figure 2.
 
@@ -211,13 +206,13 @@ Protected Function GetData() As DataTable
 End Function
 ````
 
+>caption Figure 2: Dynamically plotting threshold lines for each item of a series via the Visual Template of the series.
+
+![htmlchart-threshold-lines-data-bound](images/htmlchart-threshold-lines-data-bound.png)
+
 ## Plot Threshold Lines via Additional Series
 
 You can plot a threshold line in the **RadHtmlChart** by adding a line series and disabling its visibility in the legend as well as the visiblity of its markers and labels. **Example 3** shows this approach and **Figure 3** displays the output. 
-
->caption Figure 3: Line series is used as a threshold line.
-
-![htmlchart-threshold-lines-lineseries](images/htmlchart-threshold-lines-lineseries.png)
 
 >caption Example 3: Plot a threshold line by simply including an additional line series.
 
@@ -254,13 +249,13 @@ You can plot a threshold line in the **RadHtmlChart** by adding a line series an
 </telerik:RadHtmlChart>
 ````
 
+>caption Figure 3: Line series is used as a threshold line.
+
+![htmlchart-threshold-lines-lineseries](images/htmlchart-threshold-lines-lineseries.png)
+
 ## Plot Threshold Lines via Plot Bands
 
 You can display threshold lines in the **RadHtmlChart** by drawing [Plot Bands]({%slug htmlchart/functionality/plot-bands%}). **Example 4** shows this approach and **Figure 4** displays the output. 
-
->caption Figure 4: Plot band is used as a threshold line.
-
-![htmlchart-threshold-lines-plotbands](images/htmlchart-threshold-lines-plotbands.png)
 
 >caption Example 4: Plot a threshold line by drawing a plot band.
 
@@ -291,6 +286,10 @@ You can display threshold lines in the **RadHtmlChart** by drawing [Plot Bands](
 	</PlotArea>
 </telerik:RadHtmlChart>
 ````
+>caption Figure 4: Plot band is used as a threshold line.
+
+![htmlchart-threshold-lines-plotbands](images/htmlchart-threshold-lines-plotbands.png)
+
 
 ## See Also
 
