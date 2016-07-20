@@ -785,9 +785,12 @@ navigation:
     "*gantt/import":
         title: "Import"
         position: 8
+    "*gantt/views":
+        title: "Views"
+        position: 15
     "*gantt/server-side-programming/objects":
         title: "Objects"
-        position: 9
+        position: 1
     "*gauge/gauge-types":
         title: "Gauge Types"
         position: 3
