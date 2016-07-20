@@ -10,17 +10,17 @@ position: 1
 
 # Select Item
 
-This help article showcases how to operate with the items of a **RadRadioButtonList** on the server-side/client-side.
+This help article showcases how to operate with the items of a **RadRadioButtonList** on the server side or client side.
 
-* [Select Item Server-Side](#select-item-server-side)
+* [Select Item Server Side](#select-item-server-side)
 
-* [Get Selected Item Server-Side](#get-selected-item-server-side)
+* [Get Selected Item Server Side](#get-selected-item-server-side)
 
-* [Select Item Client-Side](#select-item-client-side)
+* [Select Item Client Side](#select-item-client-side)
 
-* [Get Selected Item Client-Side](#get-selected-item-client-side)
+* [Get Selected Item Client Side](#get-selected-item-client-side)
 
-## Select Item Server-Side
+## Select Item Server Side
 
 To select a particular item of a **RadRadioButtonList**, you should set the `Selected` property of the target item to `true`.
 
@@ -101,11 +101,11 @@ End Sub
 
 >warning The `SelectedIndex` property will not take effect if directly assigned with a value in the markup. The `SelectedIndex` property takes effect only when set from the code behind or integrated in a data-bound scenario in the markup (**Example 3**). 
 
-## Get Selected Item Server-Side
+## Get Selected Item Server Side
 
 To get the selected item and selected index you can use the `SelectedItem` and `SelectedIndex` properties of the **RadRadioButtonList** control.
 
->caption Example 4: Get `SelectedIndex` and `SelectedItem` of **RadRadioButtonList** from the code behind. 
+>caption Example 4: Get `SelectedIndex` and `SelectedItem` of the **RadRadioButtonList** from the code behind. 
 
 ````ASP.NET
 <telerik:RadRadioButtonList ID="RadRadioButtonList1" runat="server" OnSelectedIndexChanged="RadRadioButtonList1_SelectedIndexChanged">
@@ -134,11 +134,11 @@ End Sub
 The selected item reference provides all its properties (e.g., `Value`, `Text`, `Selected` and `Enabled`).
 
 
-## Select Item Client-Side
+## Select Item Client Side
 
-You can select a particular item of **RadRadioButtonList** by passing the corresponding index in the `set_selectedIndex()` method of the control.
+You can select a particular item of a **RadRadioButtonList** by passing the corresponding index in the `set_selectedIndex()` method of the control.
 
->caption Example 6: Select an item on the client-side.
+>caption Example 6: Select an item on the client side.
 
 ````JavaScript
 var radioButtonList = $find("<%=RadRadioButtonList1.ClientID%>");
@@ -146,11 +146,11 @@ radioButtonList.set_selectedIndex(0);
 ````
 
 
-## Get Selected Item Client-Side
+## Get Selected Item Client Side
 
 You can obtain the items, selected item and selected item index of **RadRadioButtonList** through the `get_items()`, `get_selectedItem()`, and `get_selectedIndex()` methods.
 
->caption Example 7: Reference items, selected item and selected index of **RadRadioButtonList** through its client-side API. 
+>caption Example 7: Reference items, selected item and selected index of the **RadRadioButtonList** through its client-side API. 
 
 ````JavaScript
 var radioButtonList = $find("<%=RadRadioButtonList1.ClientID%>");
