@@ -286,6 +286,7 @@ You can display threshold lines in the **RadHtmlChart** by drawing [Plot Bands](
 	</PlotArea>
 </telerik:RadHtmlChart>
 ````
+
 >caption Figure 4: Plot band is used as a threshold line.
 
 ![htmlchart-threshold-lines-plotbands](images/htmlchart-threshold-lines-plotbands.png)
