@@ -8,26 +8,26 @@ published: True
 position: 2
 ---
 
-# Standalone RadioButton
+# Standalone Radio Button
 
 In this help article you can learn how to use standalone radio buttons in your web application. 
 
-There might be scenarios where you need radio buttons outside of **RadRadioButtonList**. In such cases you can use the `RadRadioButton` class in order to add a single radio button on the page.
+There might be scenarios where you need radio buttons outside of **RadRadioButtonList**. In such cases, you can use the `RadRadioButton` class in order to add a single radio button on the page.
 
 Here is a list with the sections in this article:
 
 1. [Basic Usage](#basic-usage)
 1. [Programming](#programming)
-	1. [Client-side](#client-side)
-	1. [Server-side](#server-side)
-1. [Advanced Usage - radio button behavior](#advanced-usage)
+	1. [Client Side](#client-side)
+	1. [Server Side](#server-side)
+1. [Advanced Usage - Radio Button Behavior](#advanced-usage)
 
 
 ## Basic Usage
 
-These steps illustrate how include a single **RadRadioButton**, handle the client-side `OnClientClicking` event and the server-side `OnCheckedChanged` event:
+These steps illustrate how to include a single **RadRadioButton**, handle the client-side `OnClientClicking` event and the server-side `OnCheckedChanged` event:
 
-1. In the default page of a new ASP.NET AJAX-enabled Web Application add a **RadRadioButton** control:
+1. In the default page of a new ASP.NET AJAX-enabled Web Application, add a **RadRadioButton** control:
 	
 	**ASP.NET**
 
@@ -39,7 +39,7 @@ These steps illustrate how include a single **RadRadioButton**, handle the clien
 
 		<telerik:RadRadioButton runat="server" ID="RadioButton1" Value="radio" Text="Radio Button" />
 
-1. To handle the client-side `clicking` event assign a JavaScript function to the `OnClientClicking` property:
+1. To handle the client-side `clicking` event, assign a JavaScript function to the `OnClientClicking` property:
 
 	**ASP.NET**
 
@@ -52,7 +52,7 @@ These steps illustrate how include a single **RadRadioButton**, handle the clien
 			}
 		</script>
 
-1. To handle the server-side `CheckedChange` event assign a serve-side function to the `OnCheckedChanged` property:
+1. To handle the server-side `CheckedChange` event, assign a server-side function to the `OnCheckedChanged` property:
 
 	**ASP.NET**
 
@@ -81,30 +81,30 @@ These steps illustrate how include a single **RadRadioButton**, handle the clien
 
 ## Programming
 
-### Client-side
+### Client Side
 
 **RadRadioButton** creates a client-side object with the **ClientID** of the button. You can obtain the reference using the following JavaScript code:
 
-* Using `$find` method:
+* Using the `$find` method:
 
 		var radioButton = $find("<%= RadRadioButton1.ClientID %>");
 
-* Using `$telerik.findRadioButton` method:
+* Using the `$telerik.findRadioButton` method:
 
 		var radioButton = $telerik.findRadioButton("<%= RadRadioButton1.ClientID %>");
 
-* Using `$get` method to get the RadioButton's element and get the instance with the `control` property:
+* Using the `$get` method to get the RadioButton's element and get the instance with the `control` property:
 
 		var radioButton = $get("<%= RadRadioButton1.ClientID %>").control;
 
 
 You can learn more about the available methods and events in the client-side API reference: [Telerik.Web.UI.ButtonBase.CheckableButton]({%slug Telerik.Web.UI.ButtonBase.CheckableButton%}).
 
-### Server-side
+### Server Side
 
-The example below shows how you can add a single **RadRadioButton** from the code behind and achieve the same result as the tutorial in [Basic Usage](#basic-usage).
+The example below shows how you can add a single **RadRadioButton** from the code-behind and achieve the same result as shown in the [Basic Usage](#basic-usage) section.
 
->caption Example 1: Adding RadRadioButton programmatically.
+>caption Example 1: Adding a RadRadioButton programmatically.
 
 ````ASP.NET
 <telerik:RadScriptManager runat="server" ID="RadScriptManager1"></telerik:RadScriptManager>
@@ -157,7 +157,7 @@ You can learn more about the available methods, properties and events in the ser
 
 ## Advanced Usage
 
-With the [Basic Usage](#basic-usage) we learned how to include a single radio button. In a real live scenario radio buttons should act as if they are in a group and prevent multiple options to be checked. In order to accomplish that, further client-side logic is required to toggle the checked state of the buttons.
+In the [Basic Usage](#basic-usage) section, you learned how to include a single radio button. In a real scenario, radio buttons should act as if they are in a group and prevent multiple options from being checked. In order to accomplish that, further client-side logic is required to toggle the checked state of the buttons.
 
 There are several options to achieve that. For example:
 
