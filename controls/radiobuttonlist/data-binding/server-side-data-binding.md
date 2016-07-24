@@ -10,7 +10,7 @@ position: 0
 
 # Server-side Data Binding Overview
 
-The article shows how to setup **RadRadioButtonList** with data-binding. 
+The article shows how to set up **RadRadioButtonList** with data binding. 
 
 **RadRadioButtonList** can use the standard data sources for binding an ASP.NET control:
 
@@ -19,14 +19,14 @@ The article shows how to setup **RadRadioButtonList** with data-binding.
 
 ## Server-side Data Binding Basics 
 
-**RadRadioButtonList** exposes the `Databindings` composite property to configure the fields needed for data-binding: 
+**RadRadioButtonList** exposes the `Databindings` composite property to configure the fields needed for data binding: 
 
-* DataTextField—binds the `Text` property of the items with the corresponding field;
-* DataValueField—binds the `Value` property of the items with the corresponding field;
-* DataSelectedField—binds the `Selected` property of the items with the corresponding field;
-* DataEnabledField—binds the `Enabled` property of the items with the corresponding field.
+* DataTextField binds the `Text` property of the items with the corresponding field.
+* DataValueField binds the `Value` property of the items with the corresponding field.
+* DataSelectedField binds the `Selected` property of the items with the corresponding field.
+* DataEnabledField binds the `Enabled` property of the items with the corresponding field.
 
->caption Example 1: Data binding RadRadioButtonList with a collection on the code behind
+>caption Example 1: Data binding RadRadioButtonList with a collection in the code behind.
 
 ````ASP.NET
 <telerik:RadRadioButtonList runat="server" ID="RadRadioButtonList1">
