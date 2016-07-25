@@ -10,11 +10,13 @@ position: 4
 
 # Customize Tile Size in TileList
 
-This article shows an approach to setup custom dimensions for the **Tiles** in **TileList** by using only CSS and preserve the built-in drag and drop functionality.
+This article shows an approach to set up custom dimensions for the **Tiles** in a **TileList** by using only CSS and preserving the built-in drag and drop functionality.
 
 With **RadTileList**, [drag and drop]({%slug tilelist/functionality/drag-and-drop%}) works only when **Tile** sizes (`Square` and `Wide`) and the [tile group]({%slug tilelist/functionality/group-title%}) have the same proportions as the predefined ones.
 
->tip If you are using [Lightweight rendering]({%slug tilelist/mobile-support/render-modes%}), tile sizes are calculated in `em` in order to provide [elastic capabilities]({%slug tilelist/mobile-support/elastic-capabilities%}). With this **RenderMode** you can easily change the tile sizes by just using larger font-size. Like in this example:
+>tip If you are using [Lightweight rendering]({%slug tilelist/mobile-support/render-modes%}), tile sizes are calculated in `em` in order to provide [elastic capabilities]({%slug tilelist/mobile-support/elastic-capabilities%}). With this **RenderMode** you can easily change the tile sizes by just using a larger size font, like in this example:
+>
+>>caption Example 1: Enlarge Tiles in TileList using font-size.
 >```
 ><div style="font-size:22px;">
 >   <telerik:RadTileList runat="server" ID="RadTileList2" TileRows="4"
@@ -29,7 +31,9 @@ With **RadTileList**, [drag and drop]({%slug tilelist/functionality/drag-and-dro
 ></div>
 >```
 
-These formulas can help you determine how to calculate the size of the `Wide` tile and the tile group based on the desired `Square` tile size (in pixel):
+<Comment: Why isn't the example above labeled as Example 1 and why doesn't it have a caption?>
+
+These formulas can help you determine how to calculate the size of the `Wide` tile and the tile group based on the desired `Square` tile size (in pixels):
 
 ```
 x = SquareTileWidth = SquareTileHeight
@@ -50,7 +54,7 @@ You can also define larger tiles by using tile's `CssClass` property to decorate
 
 In the example below, the base tile size (**SquareTileWidth** from the formulas above) is 200px. And you can examine how the other tiles and the tile group are proportionally changed according to this base.
 
->caption Example 1: CSS to apply custom sizes.
+>caption Example 2: CSS to apply custom sizes.
 
 ````ASP.NET
 <style>
