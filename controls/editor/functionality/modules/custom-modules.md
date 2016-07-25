@@ -59,6 +59,8 @@ To create a custom module you should register its tag in the Modules inner-tag o
 </script>
 ````
 
+If you have a RadEditor with modules already on the page, you can keep all module declarations in the markup. The custom module scripts must be added after the RadEditor scripts so the needed namespaces and classes are instnatiated. If you are adding the editor dynamically via AJAX, you would need to register the module scripts via the `ScriptManager.RegisterStartupScript` method so they are added at the end of the response in order for them to remain after the editor scripts.
+
 ## See Also
 
  * [Built-in Modules](http://demos.telerik.com/aspnet-ajax/editor/examples/builtinmodules/defaultcs.aspx)
