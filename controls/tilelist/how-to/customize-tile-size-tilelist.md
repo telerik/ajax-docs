@@ -31,8 +31,6 @@ With **RadTileList**, [drag and drop]({%slug tilelist/functionality/drag-and-dro
 ></div>
 >```
 
-<Comment: Why isn't the example above labeled as Example 1 and why doesn't it have a caption?>
-
 These formulas can help you determine how to calculate the size of the `Wide` tile and the tile group based on the desired `Square` tile size (in pixels):
 
 ```
