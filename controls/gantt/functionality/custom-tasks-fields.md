@@ -279,4 +279,4 @@ End Sub
 
  * [Layout]({%slug gantt/structure/layout%})
 
- * [Tasks]({%slug gantt/structure/tasks%})
+ * [Tasks]({%slug gantt/server-side-programming/objects/tasks%})

@@ -10,7 +10,7 @@ position: 0
 
 # Database Structure
 
-The **Gantt**'s data can be stored within a Database with tables for the [Tasks]({%slug gantt/structure/tasks%}) and [Dependencies]({%slug gantt/structure/dependencies%}). Below is shown a sample database with all required fields.
+The **Gantt**'s data can be stored within a Database with tables for the [Tasks]({%slug gantt/server-side-programming/objects/tasks%}) and [Dependencies]({%slug gantt/server-side-programming/objects/dependencies%}). Below is shown a sample database with all required fields.
 
 ## Tasks![gantt-database-structure-1](images/gantt-database-structure-1.png)
 
@@ -79,6 +79,6 @@ SET IDENTITY_INSERT [dbo].[GanttDependencies] ON
 
 # See Also
 
- * [Tasks]({%slug gantt/structure/tasks%})
+ * [Tasks]({%slug gantt/server-side-programming/objects/tasks%})
 
- * [Dependencies]({%slug gantt/structure/dependencies%})
+ * [Dependencies]({%slug gantt/server-side-programming/objects/dependencies%})

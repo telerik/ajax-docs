@@ -22,4 +22,4 @@ The image below shows the menu which appears when click the button to add a task
 
 # See Also
 
- * [Tasks]({%slug gantt/structure/tasks%})
+ * [Tasks]({%slug gantt/server-side-programming/objects/tasks%})
