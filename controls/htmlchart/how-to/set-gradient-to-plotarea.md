@@ -1,5 +1,5 @@
 ---
-title: Set Gradient To PlotArea
+title: Set Gradient to PlotArea
 page_title: Plot Threshold Lines | RadHtmlChart for ASP.NET AJAX Documentation
 description: Plot Threshold Lines
 slug: htmlchart/how-to/set-gradient-to-plotarea
@@ -8,11 +8,11 @@ published: True
 position: 9
 ---
 
-# Set Gradient To PlotArea
+# Set Gradient Color to PlotArea
 
 This help article shows how to set a gradient color to the PlotArea of the **RadHtmlChart**.
 
-Generally, the PlotArea of the **RadHtmlChart** doesn't provide gradient colors. You can, however, use the [Kendo Drawing API](http://docs.telerik.com/kendo-ui/api/javascript/drawing) in order to draw such a gradient color over the PlotArea once the chart is rendered. You can see the code that creates **Figure 1** in **Example 1**.
+Generally, the PlotArea of the **RadHtmlChart** doesn't provide gradient colors. You can, however, use the [Kendo Drawing API](http://docs.telerik.com/kendo-ui/api/javascript/drawing) in order to draw gradient colors over the PlotArea once the chart is rendered. You can see the code that creates **Figure 1** in **Example 1**.
 
 >caption Figure 1: A chart that has a gradient color to its PlotArea.
 
