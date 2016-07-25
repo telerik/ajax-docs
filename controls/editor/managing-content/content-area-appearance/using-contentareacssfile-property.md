@@ -21,14 +21,16 @@ Here is a list with the sections in this article:
 
 ## Concepts
 
-At a first glance the approach below will give you the same results as if the [CssFiles collection]({%slug editor/managing-content/content-area-appearance/set-defaults%}) is used. Although, it is different by concept: 
+At a first glance the approach below will give you the same results as if the [CssFiles collection]({%slug editor/managing-content/content-area-appearance/set-defaults%}) is used but its concept is to provide user-friendly styling for creating the content, which is not part of the styling of the place where the content will be used. Here is a list of the main goals of the **ContentAreaCssFile** features: 
 
 1. Most important: Using the **ContentAreaCssFile** property will not prevent styles from the main page to decorate the content area of **RadEditor**;
 2. All styles from the **ContentAreaCssFile.css** file will not decorate the content in Preview mode;
 3. All styles form the **ContentAreaCssFile.css** file can be toggled via the [Show/Hide Border tool](#showhide-border-tool) (![](images/editor-toggletableborder.gif));
 4. Only a single external CSS file can be used for stylization.
+5. Classes from the **ContentAreaCssFile** stylesheet will not be present in the **[Apply CSS Class dropdown]({%slug editor/functionality/toolbars/dropdowns/css-styles%})**
 
-You can also compare the conceptual differences of **ContentAreaCssFile** and** CssFiles collection** usage here—[ContentAreaCssFile vs. CssFiles]({%slug editor/managing-content/content-area-appearance/contentareacssfile-vs-cssfiles%}).
+
+You can also compare the conceptual differences of **ContentAreaCssFile** and **CssFiles collection** usage in the—[ContentAreaCssFile vs. CssFiles]({%slug editor/managing-content/content-area-appearance/contentareacssfile-vs-cssfiles%}) help article.
 
 ## Basic Usage
 

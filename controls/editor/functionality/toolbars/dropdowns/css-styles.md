@@ -12,7 +12,11 @@ position: 6
 
 In this article you can learn about the usage and configuration of the **Apply CSS Class** tool.
 
-The **Apply CSS Class** dropdown of **RadEditor** displays all classes defined in the page or from [external CSS files]({%slug editor/functionality/toolbars/dropdowns/external-css-files%}). The dropdown is populated from the **CssClasses** collection. You can add items to the **CssClasses** collection declaratively, programmatically and using the ToolsFile.
+**RadEditor** displays all classes defined in a stylesheet on the page or present in the [external CSS files]({%slug editor/functionality/toolbars/dropdowns/external-css-files%}) collection in he **Apply CSS Class** dropdown.
+
+You can make the  **Apply CSS Class** dropdown show only a subset of those classes by using the **CssClasses** collection. You can add items to the **CssClasses** collection [declaratively](#using-the-cssclasses-collection-declaratively), [programmatically](#using-cssclasses-programmatically) and by [using the ToolsFile](#using-the-toolsfile). The entries you add explicitly must be present in the page stylesheet or in one of the stylesheets defined in the **CssFiles** collection.
+
+Classes that are also present in the **[ContentAreaCssFile]({%slug editor/managing-content/content-area-appearance/using-contentareacssfile-property%})** will **not** be displayed in the **Apply CSS Class**  dropdown because RadEditor removes all entries from the **ContentAreaCssFile**. The purpose of this stylesheet is to only style the content area and thus it may contain classes/rules that the end user must not see or use. If you have rules/classes that the end user has to see (i.e., ones that will be present where the content will be used), add them in the **[CssFiles]({%slug editor/managing-content/content-area-appearance/contentareacssfile-vs-cssfiles%})** collection and not in the **ContentAreaCssFile** stylesheet.
 
 >caption Figure 1: Apply CSS Class dropdown
 
@@ -127,3 +131,7 @@ You can also populate the CSS class dropdown using the **ToolsFile**, as shown i
  * [Set Properties]({%slug editor/getting-started/set-properties%})
 
  * [External CSS Files]({%slug editor/functionality/toolbars/dropdowns/external-css-files%})
+
+ * [CssFiles Collection vs ContentAreaCssFile]({%slug editor/managing-content/content-area-appearance/contentareacssfile-vs-cssfiles%})
+
+ * [ContentAreaCssFile]({%slug editor/managing-content/content-area-appearance/using-contentareacssfile-property%})

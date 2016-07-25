@@ -21,12 +21,15 @@ The two approaches give you solutions to decorate and customize the content area
 * Does not prevent styles from the main page from decorating the content area of **RadEditor** (i.e., any global styles that decorate your page will also decorate the editor's content area);
 * All styles from the **ContentAreaCssFile** will not decorate the content in **Preview** mode;
 * All styles form the **ContentAreaCssFile** file can be toggled via the [Show/Hide Border tool]({%slug editor/managing-content/content-area-appearance/using-contentareacssfile-property%}#showhide-border-tool);
-* Only a single external CSS file can be used for custom stylization.
+* Only a single external CSS file can be used for custom stylization;
+* Classes from the **ContentAreaCssFile** stylesheet will not be present in the **[Apply CSS Class dropdown]({%slug editor/functionality/toolbars/dropdowns/css-styles%})**;
+* Its concept is to provide user-friendly styling for creating the content, which is not part of the styling of the place where the content will be used.
 
 ## Using CssFiles collection
 
+* Its concept is to let the end user see what their content will look like when used;
 * Does not affect the built-in **ContentAreaCssFile**—preserves the designed user-friendly experience with content editing;
-* Stops CSS style progandation and inheritence from the main page;
+* Stops CSS style propagation and inheritence from the main page;
 * Allows CSS files to be changed/added/removed dynamically;
 * Can be configured with various techniques—via markup, XML file and from the code behind;
 * Multiple CSS files can be injected into the content area;
