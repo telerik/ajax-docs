@@ -41,6 +41,14 @@ When the **Skin** property is set, the **RadAjaxLoadingPanel** control will rend
 
 The **RadAjaxLoadingPanel's** **BackgroundPosition** property enables the developer to position the loading image in the loading panel (**Top** , **TopRight** , **TopLeft** , **CenterLeft** , **Center** , **CenterRight** , **BottomLeft** , **Bottom** , **BottomRight** and **None** ). The default value is **Center** . Choosing **None** is useful in cases when the loading image is larger than the updated control (e.g. a textbox).
 
+**Setting the Skin globally in the web.config file**
+
+You can avoid setting the **Skin** property per each **RadAjaxLoadingPanel** instance and set it globally in the _web.config_ file:
+````ASP.NET
+<appSettings>
+  <add key="Telerik.Ajax.Skin" value="Metro"  />
+````
+
 **Custom Skins**
 
 Apart from using the embedded skins, you can easily create a custom skin for a **RadAjaxLoadingPanel** . A [code library example](http://www.telerik.com/community/code-library/aspnet-ajax/ajax/how-to-create-and-use-custom-skins-for-radajaxloadingpanel.aspx), demonstrates how to do that and provides some useful tips.
