@@ -1,7 +1,8 @@
 ---
 title: Telerik.Web.UI.RadioButtonListItem
-page_title:
-description:
+page_title: Client-side API Reference
+description: Telerik.Web.UI.RadioButtonListItem
+slug: Telerik.Web.UI.RadioButtonListItem
 ---
 
 # Telerik.Web.UI.RadioButtonListItem  

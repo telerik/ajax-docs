@@ -1,16 +1,16 @@
 ---
-title: OnClientMouseOut
-page_title: OnClientMouseOut | RadRadioButtonList for ASP.NET AJAX Documentation
-description: OnClientMouseOut
-slug: radiobuttonlist/client-side-programming/events/onclientmouseout
-tags: onclientmouseout
+title: OnItemMouseOut
+page_title: OnItemMouseOut | RadRadioButtonList for ASP.NET AJAX Documentation
+description: OnItemMouseOut
+slug: radiobuttonlist/client-side-programming/events/onitemmouseout
+tags: onitemmouseout
 published: True
 position: 9
 ---
 
-# OnClientMouseOut
+# OnItemMouseOut
 
-The **mouseOut** event is fired when the user moves the mouse pointer away from an item in **RadRadioButtonList**.
+The **itemMouseOut** event is fired when the user moves the mouse pointer away from an item in **RadRadioButtonList**.
 
 The event handler receives two parameters:
 
