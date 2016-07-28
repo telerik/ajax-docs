@@ -11,7 +11,7 @@ position: 2
 # Elastic Design
 
 
-This article explains the **elastic design capabilities RadSocialShare offers**. The [Lightweight RenderMode]({%slug splitter/mobile-support/render-modes%}) of RadSocialShare supports **elastic design as of Q3 2015** (**Figure 1**). The Classic RenderMode offers more limited abilities (**Figure 2**). RadSocialShare also provides [Fluid Design]({%slug socialshare/mobile-support/fluid-design%}).
+This article explains the **elastic design capabilities RadSocialShare offers**. The [Lightweight RenderMode]({%slug splitter/mobile-support/render-modes%}) of RadSocialShare supports **elastic design as of Q3 2015** (**Figure 1**). RadSocialShare also provides [Fluid Design]({%slug socialshare/mobile-support/fluid-design%}).
 
 @[template](/_templates/common/render-mode.md#resp-design-desc "slug-el: no, slug-fl: socialshare/mobile-support/fluid-design")
 
@@ -21,9 +21,17 @@ This article explains the **elastic design capabilities RadSocialShare offers**.
 
 ![socialshare-elastic-design-lw](images/socialshare-elastic-design-lw.png)
 
->caption Figure 2: Comparison between the appearance of a RadSocialShare with regular font size and with increased font size when `RenderMode=Classic`. See the code in **Example 4**.
+>caption Figure 2: RadSocialShare with Elastic design when font-icons also change size
 
-![socialshare-changed-font-size-comparison](images/socialshare-changed-font-size-comparison.png)
+![socialshare-elastic-design-lw](images/socialshare-elastic-design-lw-with-icons.png)
+
+>tip To also change the [font-icons size]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/fonts%}#font-icon-size) to get **Figure 2**, you can use a rule like this:
+>    ```
+>    span.sshIcon::before
+>   {
+>    	font-size: inherit;
+>   }
+>    ```
 
 
 **RadSocialShare** does not create elastic design by itself, but can fit in a page that follows this pattern. This means that its **Lightweight RenderMode** supports **changing the font size** without breaking the control's appearance - if the new size is larger than the original, the elements in the control will simply increase their size as well to accommodate the text. This fluid layout is achieved by using `em` units for setting dimensions and paddings in the control, instead of `px`because `em` units are tied to the font size. This allows dimensions and sizes to scale with the font size.
