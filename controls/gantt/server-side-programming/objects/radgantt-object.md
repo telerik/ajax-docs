@@ -76,7 +76,7 @@ The **RadGantt** properties are divided into three separate tables below:
 | **WorkWeekStart** |DayOfWeek enumeration|Gets or sets the first day of the work week.|
 
 
-**Table 3** lists the [view settings]({%slug gantt/server-side-programming/objects/viewsettings-objects%}) properties exposed in the API.
+**Table 3** lists the View Settings properties exposed in the API.
 
 | Name | Type | Description |
 | ------ | ------ | ------ |
