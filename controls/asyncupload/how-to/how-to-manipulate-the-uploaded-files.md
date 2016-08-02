@@ -110,7 +110,7 @@ protected void Button1_Click(object sender, System.EventArgs e)
   foreach (UploadedFile file in RadAsyncUpload1.UploadedFiles)
   {
       byte[] bytes = new byte[file.ContentLength];
-      file.InputStream.Read(bytes, 0, file.ContentLength);
+      file.InputStream.Read(bytes, 0, bytes.Length);
       OleDbConnection connection = CreateConnection();
       try
 {
@@ -141,7 +141,7 @@ Protected Sub Button1_Click(ByVal sender As Object, ByVal e As System.EventArgs)
      Handles Button1.Click
     For Each file As UploadedFile In RadAsyncUpload1.UploadedFiles
         Dim bytes(file.ContentLength - 1) As Byte
-        file.InputStream.Read(bytes, 0, file.ContentLength)
+        file.InputStream.Read(bytes, 0, bytes.Length)
         Dim connection As OleDbConnection = CreateConnection()
         Try
             Dim command As New OleDbCommand("INSERT INTO Images ([Name], [Size], [Content]) VALUES (?, ?, ?)", connection)
