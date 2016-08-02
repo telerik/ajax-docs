@@ -1,4 +1,4 @@
-﻿---
+---
 title: WAI-ARIA Support
 page_title: WAI-ARIA Support | RadPanelBar for ASP.NET AJAX Documentation
 description: WAI-ARIA Support
