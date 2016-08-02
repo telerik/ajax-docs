@@ -41,7 +41,7 @@ void RadAsyncUpload1_FileUploaded(object sender, FileUploadedEventArgs e)
         byte[] buffer = new byte[e.File.ContentLength];
         using (Stream str = e.File.InputStream)
         {
-            str.Read(buffer, 0, e.File.ContentLength);
+            str.Read(buffer, 0, buffer.Length);
             var attachment = createAttachment(buffer);
             // more code
         }
@@ -54,7 +54,7 @@ Private Sub RadAsyncUpload1_FileUploaded(ByVal sender As Object, ByVal e As File
     If e.IsValid Then
         Dim buffer As Byte() = New Byte(e.File.ContentLength - 1) {}
         Using str As Stream = e.File.InputStream
-            str.Read(buffer, 0, e.File.ContentLength)
+            str.Read(buffer, 0, buffer.Length)
             ' more code
             Dim attachment = createAttachment(buffer)
         End Using
