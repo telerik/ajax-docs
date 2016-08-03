@@ -26,7 +26,7 @@ The event handler receives two parameters:
 
 * **get_checked()** returns the value of the Check All check box after it is checked.
 
-The example below shows how to cancel the event if the check all check box is unchecked:
+The example below shows how to get the value of the Check All check box:
 
 ````ASPNET
 <telerik:RadComboBox RenderMode="Lightweight" ID="RadComboBox1" runat="server" OnClientCheckAllChecked="OnClientCheckAllChecked"
