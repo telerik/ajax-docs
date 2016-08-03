@@ -11,7 +11,7 @@ position: 3
 # OnDataSourceSelect
 
 
-The **OnDataSourceSelect** event is raised just before the result items are requested from theunderlying DataSource, providing the ability to modify the parameters of the request. For instance with SqlDataSourcethe user can modify the SelectCommand and implement the filtering directly on the SQL Server.
+The **OnDataSourceSelect** event is raised just before the result items are requested from the underlying DataSource, providing the ability to modify the parameters of the request. For instance with SqlDataSourcethe user can modify the SelectCommand and implement the filtering directly on the SQL Server.
 
 The event handler receives two parameters:
 
