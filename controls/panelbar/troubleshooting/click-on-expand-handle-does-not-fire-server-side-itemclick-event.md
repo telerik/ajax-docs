@@ -36,27 +36,31 @@ Below you can find several workarounds to enable the server side ItemClick event
 
 
 
-* Force a PostBack of the page when a RadPanelItem is clicked:
+* Fire RadPanelItem's click event when expand/collapse handle is clicked:
 
 ````ASPNET
-function onClientCollapseExpand(sender, args) {
-    var handler = $telerik.$('span.rpExpandHandle');
-    //get the clicked handler element
-    if (handler) {
-        //perform postback
-        **doPostBack();
-    }
-    else {
-        //do something else
-    }
+function OnClientLoad(sender) {
+    var $ = $telerik.$
+    $('span.rpExpandHandle').on('mouseup', function (e) {
+        // if clicked with left mouse button 
+        if (e.which == 1) {
+            var itemText = $(this).parent().find(".rpText").text();
+            var panelBar = $find("<%= RadPanelBar1.ClientID %>");
+
+            var panelItem = panelBar.findItemByText(itemText);
+            panelItem.click();
+
+            e.preventDefault();
+        }
+    })
 }
 ````
 
 
-
 ````ASPNET
-<telerik:radpanelbar runat="server" id="RadPanelBar1" onclientitemcollapse="onClientCollapseExpand"
-    onclientitemexpand="onClientCollapseExpand">
+<telerik:RadPanelBar runat="server" ID="RadPanelBar1"
+    OnItemClick="RadPanelBar1_ItemClick"
+    OnClientLoad="OnClientLoad">
     <Items>
         <telerik:RadPanelItem Text="Item1">
             <Items>
@@ -71,7 +75,8 @@ function onClientCollapseExpand(sender, args) {
         <telerik:RadPanelItem Text="Item3">
         </telerik:RadPanelItem>
     </Items>
-</telerik:radpanelbar>
+</telerik:RadPanelBar>
 ````
 
-
+>note Since a postback is needed for this approach to work, the PanelBar is subscribed to the OnItemClick server-side event.
+>
