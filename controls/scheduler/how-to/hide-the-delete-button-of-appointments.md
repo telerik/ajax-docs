@@ -14,13 +14,18 @@ position: 6
 
 ## 
 
-One could hide the Delete button of Appointments either by setting the **AllowDelete**property of RadScheduler to **false** or by including the following CSS style on the page where the control is located:
+One could hide the Delete button of Appointments either by setting the **AllowDelete** property of RadScheduler to **false** or by including the following CSS style on the page where the control is located:
 
 ````CSS
 	     
-.rsAptDelete
-{
-	display: none;
+/* For Classic RenderMode */
+.rsAptDelete {
+    display: none;
+}
+
+/* For Lightweight RenderMode */
+.RadScheduler .rsApt .rsAptDelete {
+    display: none;
 }
 				
 ````
