@@ -503,7 +503,7 @@ To specify what values will be displayed in the ListBox control you need to defi
 ## FilterType HeaderContext 
 
 
-This filtering type provides look and feel that resembles the filter in Excel. It is available for RadGrid since Q3 2015. To enable this mode you should set the **FilterType** property of RadGrid to **HeaderContext** and turn on the header context menu (**EnableHeaderContextMenu="true"**).
+This filtering type provides look and feel that resembles the filter in Excel. It is available for RadGrid since Q3 2015. To enable this mode you should set the **FilterType** property of RadGrid to **HeaderContext**. Then you need to turn on the header context menu (**EnableHeaderContextMenu="true"**) and the context filter menu (**EnableHeaderContextFilterMenu="true"**).
 
 >note If you are using **client-side binding** the header context menu must be disabled (**EnableHeaderContextMenu="false"**). Additionally you should populate the HeaderContext filter menu by using a **Web Service** instead of using **LoadOnDemand** feature.
 >
@@ -523,7 +523,7 @@ The code snippets below showcase a sample scenario where the HeaderContext Filte
 	FilterType="HeaderContext"
 	OnFilterCheckListItemsRequested="RadGrid1_FilterCheckListItemsRequested">
 
-	<MasterTableView CommandItemDisplay="Top" DataKeyNames="ID" EnableHeaderContextMenu="true" >
+	<MasterTableView CommandItemDisplay="Top" DataKeyNames="ID" EnableHeaderContextMenu="true" EnableHeaderContextFilterMenu="true">
 		
 		<Columns>
 			<telerik:GridBoundColumn DataField="ID" HeaderText="ID" UniqueName="ID">
