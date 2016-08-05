@@ -17,6 +17,7 @@ This help article lists the most common issues one can face when using the **Rad
 1. [ XAxis labels are cluttered or overlapping. ](#xaxis-labels-are-cluttered-or-overlapping)
 1. [ YAxis is not rescaled in a stock chart when changing the selection range. ](#yaxis-is-not-rescaled-in-a-stock-chart-when-changing-the-selection-range)
 1. [ There is a redundant space between pie or donut chart and its legend. ](#there-is-a-redundant-space-between-pie-or-donut-chart-and-its-legend)
+1. [ PlotArea is Shrunk by the Legend / PlotArea Dimensions Depend on the Legend Size.](#plotarea-is-shrunk-by-the-legend--plotarea-dimensions-depend-on-the-legend-size)
 1. [ RadHtmlChart cannot be bound to a data source that has special characters in its field names. ](#radhtmlchart-cannot-be-bound-to-a-data-source-that-has-special-characters-in-its-field-names)
 1. [Chart with display: none does not show itself](#chart-with-display-none-does-not-show-itself)
 
@@ -165,6 +166,71 @@ Solution: You can either offset the legend (see an example in the [ADD legend po
 </telerik:RadHtmlChart>
 ````
 
+## PlotArea is Shrunk by the Legend / PlotArea Dimensions Depend on the Legend Size
+
+Generally, the size of the chart's elements including the PlotArea is dynamic, so that that all the elements can fit in with the chart's wrapper size. This, however, may leads to the following issues:
+
+* Longer legend names will shrunk the PlotArea dimensions.
+
+* Charts with similar dimensions and series but different legend size (e.g., the length of the legend items varies) will have different PlotArea size.
+
+>caption Figure 2: Compare two charts with similar dimensions but different PlotArea size.
+
+![htmlchart-troubleshooting-common-issues-plotarea-varying-size](images/htmlchart-troubleshooting-common-issues-plotarea-varying-size.png)
+
+You can resolve these issue as follows:
+
+1. Set enough margin between the PlotArea and the legend via the [PlotArea.Appearance.TextStyle.Margin property]({%slug htmlchart/appearance-and-styling/labels-and-titles-font-settings%}#setting-text-styles-for-titles-and-labels).
+
+1. Define a custom position for the legend via the [Legend.Appearance.Position, OffsetX and OffsetY properties]({%slug htmlchart/appearance-and-styling/legend-settings%}#position-and-alignment).
+
+>caption Figure 3: Compare two charts with similar size of their PlotArea and wrapper element.
+
+![htmlchart-troubleshooting-common-issues-plotarea-fixed-size](images/htmlchart-troubleshooting-common-issues-plotarea-fixed-size.png)
+
+>caption Example 3: Set a custom position for the legend in order to get a fixed PlotArea size.
+
+````ASP.NET
+<telerik:RadHtmlChart runat="server" ID="PieChart1" Transitions="true" Width="750px" Height="400px">
+	<Legend>
+		<Appearance Position="Custom" OffsetX="450" OffsetY="150"></Appearance>
+	</Legend>
+	<PlotArea>
+		<Appearance>
+			<TextStyle Margin="0 250 0 0" />
+		</Appearance>
+		<Series>
+			<telerik:PieSeries StartAngle="90">
+				<SeriesItems>
+					<telerik:PieSeriesItem BackgroundColor="#9de219" Exploded="true" Name="Asia" Y="18.3" />
+					<telerik:PieSeriesItem BackgroundColor="#90cc38" Exploded="false" Name="Europe" Y="35.8" />
+					<telerik:PieSeriesItem BackgroundColor="#068c35" Exploded="false" Name="Latin America America Americaaaaaaaa" Y="38.3" />
+				</SeriesItems>
+			</telerik:PieSeries>
+		</Series>
+	</PlotArea>
+</telerik:RadHtmlChart>
+<telerik:RadHtmlChart runat="server" ID="RadHtmlChart1" Transitions="true" Width="750px" Height="400px">
+	<Legend>
+		<Appearance Position="Custom" OffsetX="450" OffsetY="150"></Appearance>
+	</Legend>
+	<PlotArea>
+		<Appearance>
+			<TextStyle Margin="0 250 0 0" />
+		</Appearance>
+		<Series>
+			<telerik:PieSeries StartAngle="90">
+				<SeriesItems>
+					<telerik:PieSeriesItem BackgroundColor="#9de219" Exploded="true" Name="Asia" Y="18.3" />
+					<telerik:PieSeriesItem BackgroundColor="#90cc38" Exploded="false" Name="Europe" Y="35.8" />
+					<telerik:PieSeriesItem BackgroundColor="#068c35" Exploded="false" Name="Latin America" Y="38.3" />
+				</SeriesItems>
+			</telerik:PieSeries>
+		</Series>
+	</PlotArea>
+</telerik:RadHtmlChart>
+````
+
 ## RadHtmlChart Cannot be Bound to a Data Source that Has Special Characters in Its Field Names
 
 Solution: Special characters in data source field names are escaped by surrounding the name with quotes and brackets (see **Example 3**).
@@ -172,7 +238,7 @@ Solution: Special characters in data source field names are escaped by surroundi
 >caution There are invalid characters in data source field names which cannot be escaped like "(", ")", "[", "]", ".", "/", "\". More information is available in the [Datacolumn name illegal character](https://social.msdn.microsoft.com/Forums/en-US/e2a88f75-da11-49db-8ec8-ef3007a66d28/datacolumn-name-illegal-character) forum post.
 
 
->caption Example 3: Escaping special characters in field names by surrounding the name with quotes and brackets.
+>caption Example 4: Escaping special characters in field names by surrounding the name with quotes and brackets.
 
 ````ASP.NET
 <telerik:RadHtmlChart runat="server" ID="ColumnChart" Width="600px" Height="400px">
@@ -233,7 +299,7 @@ This happens because the hidden container does not let the control evaluate its 
 
 To resolve this, call its `repaint` client-side method so the chart will redraw itself.
 
->caption Example 4: Showing an initially hidden chart.
+>caption Example 5: Showing an initially hidden chart.
 
 ````ASP.NET
 <script>
