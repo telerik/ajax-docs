@@ -3,7 +3,7 @@ title: Changing Grid ScrollHeight at Runtime to Fill its Container Height
 page_title: Changing Grid ScrollHeight at Runtime to Fill its Container Height | RadGrid for ASP.NET AJAX Documentation
 description: Changing Grid ScrollHeight at Runtime to Fill its Container Height
 slug: grid/how-to/scrolling/changing-grid-scrollheight-at-runtime-to-fill-its-container-height
-previous_url: grid/functionality/scrolling/how-to/changing-grid-scrollheight-at-runtime-to-fill-its-container-height
+previous_url: controls/grid/functionality/scrolling/how-to/changing-grid-scrollheight-at-runtime-to-fill-its-container-height
 tags: changing,grid,scrollheight,at,runtime,to,fill,its,container,height
 published: True
 position: 2

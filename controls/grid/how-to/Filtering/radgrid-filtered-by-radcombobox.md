@@ -3,7 +3,7 @@ title: RadGrid Filtered by RadComboBox
 page_title: RadGrid Filtered by RadComboBox | RadGrid for ASP.NET AJAX Documentation
 description: RadGrid Filtered by RadComboBox
 slug: grid/how-to/filtering/radgrid-filtered-by-radcombobox
-previous_url: grid/functionality/filtering/how-to/radgrid-filtered-by-radcombobox
+previous_url: controls/grid/functionality/filtering/how-to/radgrid-filtered-by-radcombobox
 tags: radgrid,filtered,by,radcombobox
 published: True
 position: 1

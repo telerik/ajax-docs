@@ -3,7 +3,7 @@ title: Attach Event for Editor Changes
 page_title: Attach Event for Editor Changes | RadGrid for ASP.NET AJAX Documentation
 description: Attach Event for Editor Changes
 slug: grid/how-to/data-editing/attach-event-for-editor-changes
-previous_url: grid/data-editing/how-to/attach-event-for-editor-changes
+previous_url: controls/grid/data-editing/how-to/attach-event-for-editor-changes
 tags: attach,event,for,editor,changes
 published: True
 position: 9

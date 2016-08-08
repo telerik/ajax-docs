@@ -3,7 +3,7 @@ title: FormTemplate Mimics Auto-generated Forms
 page_title: FormTemplate Mimics Auto-generated Forms | RadGrid for ASP.NET AJAX Documentation
 description: FormTemplate Mimics Auto-generated Forms
 slug: grid/how-to/data-editing/formtemplate-mimics-auto-generated-forms
-previous_url: grid/data-editing/how-to/formtemplate-mimics-auto-generated-forms
+previous_url: controls/grid/data-editing/how-to/formtemplate-mimics-auto-generated-forms
 tags: formtemplate,mimics,auto-generated,forms
 published: True
 position: 16

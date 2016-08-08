@@ -3,7 +3,7 @@ title: Retrieving Primary Key Field Values for Selected Items
 page_title: Retrieving Primary Key Field Values for Selected Items | RadGrid for ASP.NET AJAX Documentation
 description: Retrieving Primary Key Field Values for Selected Items
 slug: grid/how-to/selecting/retrieving-primary-key-field-values-for-selected-items
-previous_url: grid/functionality/selecting/how-to/retrieving-primary-key-field-values-for-selected-items
+previous_url: controls/grid/functionality/selecting/how-to/retrieving-primary-key-field-values-for-selected-items
 tags: client-side,selecting,values,primary key
 published: True
 position: 2

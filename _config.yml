@@ -152,7 +152,7 @@ navigation:
         position: 1
     "controls/ajaxloadingpanel":
         title: "AjaxLoadingPanel"
-        position: 1	
+        position: 1
     "controls/asyncupload":
         title: "Async Upload"
         position: 1
@@ -260,7 +260,7 @@ navigation:
         position: 1
     "controls/label":
         title: "Label"
-        position: 1    
+        position: 1
     "controls/lightbox":
         title: "LightBox"
         position: 1
@@ -493,7 +493,7 @@ navigation:
         position: 6
     "*ajaxmanager/performance":
         title: "Performance"
-        position: 8		
+        position: 8
     "*autocompletebox/templates":
         title: "Templates"
         position: 4
@@ -1429,7 +1429,7 @@ navigation:
         position: 4
     "*spreadsheet/functionality/formulas-and-functions":
         title: "Formulas and Functions"
-        position: 5		
+        position: 5
     "*spreadsheet/client-side-programming/objects":
         title: "Objects"
         position: 0
@@ -1712,6 +1712,7 @@ defaults:
         path: "api"
     values:
         kind: "api"
+
 
 # Aliases available in the markdown template. The below will expand {{site.foo}} to Bar in the output
 # "foo": "Bar"

@@ -3,7 +3,7 @@ title: Filter GridBoundColumn of Type DateTime
 page_title: Filter GridBoundColumn of Type DateTime | RadGrid for ASP.NET AJAX Documentation
 description: Filter GridBoundColumn of Type DateTime
 slug: grid/how-to/filtering/filter-gridboundcolumn-of-type-datetime
-previous_url: grid/functionality/filtering/how-to/filter-gridboundcolumn-of-type-datetime
+previous_url: controls/grid/functionality/filtering/how-to/filter-gridboundcolumn-of-type-datetime
 tags: filter,gridboundcolumn,of,type,datetime
 published: True
 position: 8

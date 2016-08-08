@@ -3,7 +3,7 @@ title: Center PopUp Edit Form in RadGrid
 page_title: Center PopUp Edit Form in RadGrid | RadGrid for ASP.NET AJAX Documentation
 description: Center PopUp Edit Form in RadGrid
 slug: grid/how-to/data-editing/center-popup-edit-form-in-radgrid
-previous_url: grid/data-editing/how-to/center-popup-edit-form-in-radgrid
+previous_url: controls/grid/data-editing/how-to/center-popup-edit-form-in-radgrid
 tags: center,popup,edit,form,in,radgrid
 published: True
 position: 17
@@ -18,7 +18,7 @@ Below is an example showing how to center the edit form in RadGrid:
 ````ASP.NET
 <telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
   <script type="text/javascript">
-  
+
     var popUp;
     function PopUpShowing(sender, eventArgs) {
       popUp = eventArgs.get_popUp();
@@ -29,7 +29,7 @@ Below is an example showing how to center the edit form in RadGrid:
       popUp.style.left = ((gridWidth - popUpWidth) / 2 + sender.get_element().offsetLeft).toString() + "px";
       popUp.style.top = ((gridHeight - popUpHeight) / 2 + sender.get_element().offsetTop).toString() + "px";
     }
-    
+
   </script>
 </telerik:RadCodeBlock>
 

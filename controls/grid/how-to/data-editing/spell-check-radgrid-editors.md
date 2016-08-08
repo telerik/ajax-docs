@@ -3,7 +3,7 @@ title: Spell Check RadGrid Editors
 page_title: Spell Check RadGrid Editors | RadGrid for ASP.NET AJAX Documentation
 description: Spell Check RadGrid Editors
 slug: grid/how-to/data-editing/spell-check-radgrid-editors
-previous_url: grid/data-editing/how-to/spell-check-radgrid-editors
+previous_url: controls/grid/data-editing/how-to/spell-check-radgrid-editors
 tags: spell,check,radgrid,editors
 published: True
 position: 14

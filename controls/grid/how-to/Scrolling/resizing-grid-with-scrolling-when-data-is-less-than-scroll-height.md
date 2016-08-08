@@ -3,7 +3,7 @@ title: Resizing Grid with Scrolling when Data is Less Than Scroll Height
 page_title: Resizing Grid with Scrolling when Data is Less Than Scroll Height | RadGrid for ASP.NET AJAX Documentation
 description: Resizing Grid with Scrolling when Data is Less Than Scroll Height
 slug: grid/how-to/scrolling/resizing-grid-with-scrolling-when-data-is-less-than-scroll-height
-previous_url: grid/functionality/scrolling/how-to/resizing-grid-with-scrolling-when-data-is-less-than-scroll-height
+previous_url: controls/grid/functionality/scrolling/how-to/resizing-grid-with-scrolling-when-data-is-less-than-scroll-height
 tags: resizing,grid,with,scrolling,when,data,is,less,than,scroll,height
 published: True
 position: 1

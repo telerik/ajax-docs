@@ -3,7 +3,7 @@ title: Customizing GridGroupHeaderItem
 page_title: Customizing GridGroupHeaderItem | RadGrid for ASP.NET AJAX Documentation
 description: Customizing GridGroupHeaderItem
 slug: grid/how-to/grouping/customizing-gridgroupheaderitem
-previous_url: grid/functionality/grouping/how-to/customizing-gridgroupheaderitem
+previous_url: controls/grid/functionality/grouping/how-to/customizing-gridgroupheaderitem
 tags: customizing,gridgroupheaderitem
 published: True
 position: 0

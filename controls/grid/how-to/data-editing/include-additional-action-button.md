@@ -3,7 +3,7 @@ title: Include Additional Action Button
 page_title: Include Additional Action Button | RadGrid for ASP.NET AJAX Documentation
 description: Include Additional Action Button
 slug: grid/how-to/data-editing/include-additional-action-button
-previous_url: grid/data-editing/how-to/include-additional-action-button
+previous_url: controls/grid/data-editing/how-to/include-additional-action-button
 tags: include,additional,action,button
 published: True
 position: 4

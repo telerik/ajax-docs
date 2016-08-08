@@ -3,7 +3,7 @@ title: Filter with MS DropDownList Instead of Textbox
 page_title: Filter with MS DropDownList Instead of Textbox  | RadGrid for ASP.NET AJAX Documentation
 description: Filter with MS DropDownList Instead of Textbox
 slug: grid/how-to/filtering/filter-with-ms-dropdownlist-instead-of-textbox
-previous_url: grid/functionality/filtering/how-to/filter-with-ms-dropdownlist-instead-of-textbox-
+previous_url: controls/grid/functionality/filtering/how-to/filter-with-ms-dropdownlist-instead-of-textbox-
 tags: filter,with,ms,dropdownlist,instead,of,textbox,
 published: True
 position: 9

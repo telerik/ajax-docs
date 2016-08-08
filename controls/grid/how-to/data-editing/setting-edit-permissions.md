@@ -3,7 +3,7 @@ title: Setting Edit Permissions
 page_title: Setting Edit Permissions | RadGrid for ASP.NET AJAX Documentation
 description: Setting Edit Permissions
 slug: grid/how-to/data-editing/setting-edit-permissions
-previous_url: grid/data-editing/how-to/setting-edit-permissions
+previous_url: controls/grid/data-editing/how-to/setting-edit-permissions
 tags: setting,edit,permissions
 published: True
 position: 14

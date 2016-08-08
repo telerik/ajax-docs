@@ -3,7 +3,7 @@ title: Performing Calculations in Group Header
 page_title: Performing Calculations in Group Header | RadGrid for ASP.NET AJAX Documentation
 description: Performing Calculations in Group Header
 slug: grid/how-to/grouping/performing-calculations-in-group-header
-previous_url: grid/functionality/grouping/how-to/performing-calculations-in-group-header
+previous_url: controls/grid/functionality/grouping/how-to/performing-calculations-in-group-header
 tags: performing,calculations,in,group,header
 published: True
 position: 2

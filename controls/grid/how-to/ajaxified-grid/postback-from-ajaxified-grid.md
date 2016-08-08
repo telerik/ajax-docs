@@ -3,7 +3,7 @@ title: Postback from Ajaxified Grid
 page_title: Postback from Ajaxified Grid | RadGrid for ASP.NET AJAX Documentation
 description: Postback from Ajaxified Grid
 slug: grid/how-to/ajaxified-grid/postback-from-ajaxified-grid
-previous_url: grid/ajaxified-radgrid/postback-from-ajaxified-grid
+previous_url: controls/grid/ajaxified-radgrid/postback-from-ajaxified-grid
 tags: postback,from,ajaxified,grid
 published: True
 position: 1

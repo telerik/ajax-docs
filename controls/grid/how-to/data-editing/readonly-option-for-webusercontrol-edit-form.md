@@ -3,7 +3,7 @@ title: ReadOnly Option for WebUserControl Edit Form
 page_title: ReadOnly Option for WebUserControl Edit Form | RadGrid for ASP.NET AJAX Documentation
 description: ReadOnly Option for WebUserControl Edit Form
 slug: grid/how-to/data-editing/readonly-option-for-webusercontrol-edit-form
-previous_url: grid/data-editing/how-to/readonly-option-for-webusercontrol-edit-form
+previous_url: controls/grid/data-editing/how-to/readonly-option-for-webusercontrol-edit-form
 tags: readonly,option,for,webusercontrol,edit,form
 published: True
 position: 5

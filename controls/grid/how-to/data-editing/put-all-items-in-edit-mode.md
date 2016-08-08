@@ -3,7 +3,7 @@ title: Put All Items in Edit Mode
 page_title: Put All Items in Edit Mode | RadGrid for ASP.NET AJAX Documentation
 description: Put All Items in Edit Mode
 slug: grid/how-to/data-editing/put-all-items-in-edit-mode
-previous_url: grid/data-editing/how-to/put-all-items-in-edit-mode
+previous_url: controls/grid/data-editing/how-to/put-all-items-in-edit-mode
 tags: put,all,items,in,edit,mode
 published: True
 position: 3

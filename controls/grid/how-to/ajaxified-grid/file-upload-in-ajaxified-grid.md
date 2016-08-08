@@ -3,7 +3,7 @@ title: File Upload in Ajaxified Grid
 page_title: File Upload in Ajaxified Grid | RadGrid for ASP.NET AJAX Documentation
 description: File Upload in Ajaxified Grid
 slug: grid/how-to/ajaxified-grid/what-you-should-have-in-mind/file-upload-in-ajaxified-grid
-previous_url: grid/ajaxified-radgrid/what-you-should-have-in-mind/file-upload-in-ajaxified-grid
+previous_url: controls/grid/ajaxified-radgrid/what-you-should-have-in-mind/file-upload-in-ajaxified-grid
 tags: file,upload,in,ajaxified,grid
 published: True
 position: 1

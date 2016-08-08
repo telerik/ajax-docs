@@ -3,7 +3,7 @@ title: Getting Cell Values for Selected Rows Client-side
 page_title: Getting Cell Values for Selected Rows Client-side | RadGrid for ASP.NET AJAX Documentation
 description: Getting Cell Values for Selected Rows Client-side
 slug: grid/how-to/selecting/getting-cell-values-for-selected-rows
-previous_url: grid/functionality/selecting/how-to/getting-cell-values-for-selected-rows
+previous_url: controls/grid/functionality/selecting/how-to/getting-cell-values-for-selected-rows
 tags: client-side,selecting,values,rows
 published: True
 position: 0

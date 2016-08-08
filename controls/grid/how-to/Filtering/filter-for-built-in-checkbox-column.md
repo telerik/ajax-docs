@@ -3,7 +3,7 @@ title: Filter for Built-in Checkbox Column
 page_title: Filter for Built-in Checkbox Column | RadGrid for ASP.NET AJAX Documentation
 description: Filter for Built-in Checkbox Column
 slug: grid/how-to/filtering/filter-for-built-in-checkbox-column
-previous_url: grid/functionality/filtering/how-to/filter-for-built-in-checkbox-column
+previous_url: controls/grid/functionality/filtering/how-to/filter-for-built-in-checkbox-column
 tags: filter,for,built-in,checkbox,column
 published: True
 position: 5

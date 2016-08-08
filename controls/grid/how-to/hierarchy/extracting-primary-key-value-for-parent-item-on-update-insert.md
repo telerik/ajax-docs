@@ -3,7 +3,7 @@ title: Extracting Primary Key Value for Parent Item on Update/Insert
 page_title: Extracting primary key value for parent item in hierarchy on update/insert | RadGrid for ASP.NET AJAX Documentation
 description: Extracting primary key value for parent item in hierarchy on update/insert
 slug: grid/how-to/hierarchy/extracting-primary-key-value-for-parent-item-on-update-insert
-previous_url: grid/hierarchical-grid-types-and-load-modes/how-to/extracting-primary-key-value-for-parent-item-on-update-insert
+previous_url: controls/grid/hierarchical-grid-types-and-load-modes/how-to/extracting-primary-key-value-for-parent-item-on-update-insert
 tags: extracting,primary,key,value,for,parent,item,in,hierarchy,on,update/insert
 published: True
 position: 1

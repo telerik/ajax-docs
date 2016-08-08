@@ -3,7 +3,7 @@ title: Set GroupByExpression on Drag and Drop
 page_title: Set GroupByExpression on Drag and Drop | RadGrid for ASP.NET AJAX Documentation
 description: Set GroupByExpression on Drag and Drop
 slug: grid/how-to/grouping/set-groupbyexpression-on-drag-and-drop
-previous_url: grid/functionality/grouping/how-to/set-groupbyexpression-on-drag-and-drop
+previous_url: controls/grid/functionality/grouping/how-to/set-groupbyexpression-on-drag-and-drop
 tags: set,groupbyexpression,on,drag,and,drop
 published: True
 position: 3

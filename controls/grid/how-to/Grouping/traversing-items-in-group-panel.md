@@ -3,7 +3,7 @@ title: Traversing Items in Group Panel
 page_title: Traversing Items in Group Panel | RadGrid for ASP.NET AJAX Documentation
 description: Traversing Items in Group Panel
 slug: grid/how-to/grouping/traversing-items-in-group-panel
-previous_url: grid/functionality/grouping/how-to/traversing-items-in-group-panel
+previous_url: controls/grid/functionality/grouping/how-to/traversing-items-in-group-panel
 tags: traversing,items,in,group,panel
 published: True
 position: 4

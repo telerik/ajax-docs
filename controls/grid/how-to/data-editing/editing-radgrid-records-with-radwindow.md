@@ -3,7 +3,7 @@ title: Editing RadGrid Records with RadWindow
 page_title: Editing RadGrid Records with RadWindow | RadGrid for ASP.NET AJAX Documentation
 description: Editing RadGrid Records with RadWindow
 slug: grid/how-to/data-editing/editing-radgrid-records-with-radwindow
-previous_url: grid/data-editing/how-to/editing-radgrid-records-with-radwindow
+previous_url: controls/grid/data-editing/how-to/editing-radgrid-records-with-radwindow
 tags: editing,radgrid,records,with,radwindow
 published: True
 position: 3

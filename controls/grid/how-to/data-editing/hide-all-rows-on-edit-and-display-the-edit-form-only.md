@@ -3,7 +3,7 @@ title: Hide All Rows on Edit and Display the Edit Form Only
 page_title: Hide All Rows on Edit and Display the Edit Form Only | RadGrid for ASP.NET AJAX Documentation
 description: Hide All Rows on Edit and Display the Edit Form Only
 slug: grid/how-to/data-editing/hide-all-rows-on-edit-and-display-the-edit-form-only
-previous_url: grid/data-editing/how-to/hide-all-rows-on-edit-and-display-the-edit-form-only
+previous_url: controls/grid/data-editing/how-to/hide-all-rows-on-edit-and-display-the-edit-form-only
 tags: hide,all,rows,on,edit,and,display,the,edit,form,only
 published: True
 position: 8

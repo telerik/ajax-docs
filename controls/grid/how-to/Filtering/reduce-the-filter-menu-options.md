@@ -3,7 +3,7 @@ title: Reduce the Filter Menu Options
 page_title: Reduce the Filter Menu Options | RadGrid for ASP.NET AJAX Documentation
 description: Reduce the Filter Menu Options
 slug: grid/how-to/filtering/reduce-the-filter-menu-options
-previous_url: grid/functionality/filtering/how-to/reduce-the-filter-menu-options
+previous_url: controls/grid/functionality/filtering/how-to/reduce-the-filter-menu-options
 tags: reduce,the,filter,menu,options
 published: True
 position: 2

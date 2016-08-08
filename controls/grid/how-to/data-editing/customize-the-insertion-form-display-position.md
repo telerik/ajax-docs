@@ -3,7 +3,7 @@ title: Customize the Insertion Form Display Position
 page_title: Customize the Insertion Form Display Position | RadGrid for ASP.NET AJAX Documentation
 description: Customize the Insertion Form Display Position
 slug: grid/how-to/data-editing/customize-the-insertion-form-display-position
-previous_url: grid/data-editing/how-to/customize-the-insertion-form-display-position
+previous_url: controls/grid/data-editing/how-to/customize-the-insertion-form-display-position
 tags: customize,the,insertion,form,display,position
 published: True
 position: 13

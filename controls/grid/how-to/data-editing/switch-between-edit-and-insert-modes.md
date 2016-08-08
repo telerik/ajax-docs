@@ -3,7 +3,7 @@ title: Switch Between Edit and Insert Modes
 page_title: Switch Between Edit and Insert Modes | RadGrid for ASP.NET AJAX Documentation
 description: Switch Between Edit and Insert Modes
 slug: grid/how-to/data-editing/switch-between-edit-and-insert-modes
-previous_url: grid/data-editing/how-to/switch-between-edit-and-insert-modes
+previous_url: controls/grid/data-editing/how-to/switch-between-edit-and-insert-modes
 tags: switch,between,edit,and,insert,modes
 published: True
 position: 1

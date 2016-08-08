@@ -3,7 +3,7 @@ title: Hiding the Expand/Collapse Images
 page_title: Hiding the Expand/Collapse Images | RadGrid for ASP.NET AJAX Documentation
 description: Hiding the Expand/Collapse Images
 slug: grid/how-to/grouping/hiding-the-expand-and-collapse-images
-previous_url: grid/functionality/grouping/how-to/hiding-the-expand-and-collapse-images
+previous_url: controls/grid/functionality/grouping/how-to/hiding-the-expand-and-collapse-images
 tags: hiding,the,expand/collapse,images
 published: True
 position: 5
