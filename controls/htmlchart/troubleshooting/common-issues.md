@@ -184,7 +184,7 @@ You can resolve these issues as follows:
 
 1. Define a custom position for the legend via the [Legend.Appearance.Position, OffsetX and OffsetY properties]({%slug htmlchart/appearance-and-styling/legend-settings%}#position-and-alignment).
 
->caption Figure 3: Comparing two charts with similar sized PlotAreas and wrapper elements. <Comment: Please check that my change did not create a technical error. The original text did not make sense to me. Looking at the figure, I'm not sure what a wrapper area is and whether there are one or two.>
+>caption Figure 3: Comparing two charts with similar sized PlotAreas and wrapper elements.
 
 ![htmlchart-troubleshooting-common-issues-plotarea-fixed-size](images/htmlchart-troubleshooting-common-issues-plotarea-fixed-size.png)
 
