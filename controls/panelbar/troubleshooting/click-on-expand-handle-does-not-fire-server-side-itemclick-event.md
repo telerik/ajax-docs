@@ -8,11 +8,11 @@ published: True
 position: 1
 ---
 
-# Click on Expand Handle Does Not Fire Server-Side ItemClick Event
+# Click on Expand/Collapse Handle Does Not Fire Server-Side ItemClick Event
 
 
 
-## Click on Expand/Collapse Handle Does Not Fire Server-Side ItemClick Event
+## 
 
 **PROBLEM**
 
@@ -20,7 +20,7 @@ If I click on the Expand/Collapse button of the RadPanelItem the ItemClick never
 
 **EXPLANATION**
 
-In general expanding and collapsing RadPanelItems is entirely a client-side functionality. It is implemented for scenarios when **NavigateUrl** property of the item is set. The expand/collapse handle enables a user to expand and collapse the item without navigating to the assigned page. It is intended by design that clicking the handle neither performs a postback of the page not triggers any of the RadPanelBar events.
+In general expanding and collapsing RadPanelItems is entirely a client-side functionality. It is implemented for scenarios when **NavigateUrl** property of the item is set. The expand/collapse handle enables a user to expand and collapse the item without navigating to the assigned page. It is intended by design that clicking the handle neither performs a postback of the page, nor triggers any of the RadPanelBar events.
 
 **WORKAROUND**
 
@@ -49,8 +49,6 @@ function OnClientLoad(sender) {
 
             var panelItem = panelBar.findItemByText(itemText);
             panelItem.click();
-
-            e.preventDefault();
         }
     })
 }
