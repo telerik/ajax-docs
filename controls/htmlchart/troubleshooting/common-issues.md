@@ -168,23 +168,23 @@ Solution: You can either offset the legend (see an example in the [ADD legend po
 
 ## PlotArea is Shrunk by the Legend / PlotArea Dimensions Depend on the Legend Size
 
-Generally, the size of the chart's elements including the PlotArea is dynamic, so that that all the elements can fit in with the chart's wrapper size. This, however, may leads to the following issues:
+Generally, the size of the chart's elements, including the PlotArea, is dynamic, so that all the elements can fit in with the chart's wrapper size. This, however, may lead to the following issues:
 
 * Longer legend names will shrunk the PlotArea dimensions.
 
-* Charts with similar dimensions and series but different legend size (e.g., the length of the legend items varies) will have different PlotArea size.
+* Charts with similar dimensions and series but different legend size (e.g., the length of the legend items varies) will have a different PlotArea size.
 
->caption Figure 2: Compare two charts with similar dimensions but different PlotArea size.
+>caption Figure 2: Compare two charts with similar dimensions but different PlotArea sizes.
 
 ![htmlchart-troubleshooting-common-issues-plotarea-varying-size](images/htmlchart-troubleshooting-common-issues-plotarea-varying-size.png)
 
-You can resolve these issue as follows:
+You can resolve these issues as follows:
 
-1. Set enough margin between the PlotArea and the legend via the [PlotArea.Appearance.TextStyle.Margin property]({%slug htmlchart/appearance-and-styling/labels-and-titles-font-settings%}#setting-text-styles-for-titles-and-labels).
+1. Set additional margin between the PlotArea and the legend via the [PlotArea.Appearance.TextStyle.Margin property]({%slug htmlchart/appearance-and-styling/labels-and-titles-font-settings%}#setting-text-styles-for-titles-and-labels).
 
 1. Define a custom position for the legend via the [Legend.Appearance.Position, OffsetX and OffsetY properties]({%slug htmlchart/appearance-and-styling/legend-settings%}#position-and-alignment).
 
->caption Figure 3: Compare two charts with similar size of their PlotArea and wrapper element.
+>caption Figure 3: Comparing two charts with similar sized PlotAreas and wrapper elements.
 
 ![htmlchart-troubleshooting-common-issues-plotarea-fixed-size](images/htmlchart-troubleshooting-common-issues-plotarea-fixed-size.png)
 
@@ -235,7 +235,7 @@ You can resolve these issue as follows:
 
 Solution: Special characters in data source field names are escaped by surrounding the name with quotes and brackets (see **Example 3**).
 
->caution There are invalid characters in data source field names which cannot be escaped like "(", ")", "[", "]", ".", "/", "\". More information is available in the [Datacolumn name illegal character](https://social.msdn.microsoft.com/Forums/en-US/e2a88f75-da11-49db-8ec8-ef3007a66d28/datacolumn-name-illegal-character) forum post.
+>caution There are invalid characters in data source field names that cannot be escaped including "(", ")", "[", "]", ".", "/", "\". More information is available in the [Datacolumn name illegal character](https://social.msdn.microsoft.com/Forums/en-US/e2a88f75-da11-49db-8ec8-ef3007a66d28/datacolumn-name-illegal-character) forum post.
 
 
 >caption Example 4: Escaping special characters in field names by surrounding the name with quotes and brackets.
@@ -291,7 +291,7 @@ End Function
 ````
 
 
-## Chart with display: none Does not Show Itself
+## Chart with 'display: none' Does Not Show Itself
 
 If you have a **RadHtmlChart** with `display: none` set to its wrapper element, toggling its CSS attribute to `display: block`, for example, may result in the chart not showing itself, remaining invisible or being distorted.
 
