@@ -142,6 +142,20 @@ The lists below show the icon image, the name of the tool, a description of what
 |![](images/editor-class.gif)| **ApplyClass** |Custom Styles - Applies custom, predefined styles to the selected text.|`<tool name="ApplyClass"/>`|
 |![](images/editor-separator.gif)| **EditorSeparator** |Separate the tools icons on the toolbar.|`<tool separator="true" />`|
 
+## Track Changes and Comments
+
+To have the Track Changes tools you should set the `EnableTrackChanges` property to `true`. You can refer to [Track Changes article]({%slug editor/functionality/track-changes-and-comments/track-changes%}). And for Comment tools, set the `EnableComments` property to `true`. You can refer to [Comments article]({%slug editor/functionality/track-changes-and-comments/comments%})
+
+|  **Icon**  |  **Tool Name**  |  **Description**  |  **ToolsFile Declaration**  |
+| ------ | ------ | ------ | ------ |
+|![](images/editor-acceptTrackChange.gif)| **AcceptTrackChange** |AcceptTrackChange - Accepts the selected change.|`<tool name="AcceptTrackChange" />`|
+|![](images/editor-rejectTrackChange.gif)| **RejectTrackChange** |RejectTrackChange - Rejects the selected change.|`<tool name="RejectTrackChange" />`|
+|![](images/editor-acceptAllTrackChanges.gif)| **AcceptAllTrackChanges** |AcceptAllTrackChanges - Accepts all changes in the document.|`<tool name="AcceptAllTrackChanges" />`|
+|![](images/editor-rejectAllTrackChanges.gif)| **RejectAllTrackChanges** |RejectAllTrackChanges - Rejects all changes in the document.|`<tool name="RejectAllTrackChanges" />`|
+|![](images/editor-enableTrackChangesOverride.gif)| **EnableTrackChangesOverride** |EnableTrackChangesOverride - Toggles the Track Changes feature.|`<tool name="EnableTrackChangesOverride" />`|
+|![](images/editor-addComment.gif)| **AddComment** |AddComment - Adds comment on the highlighted text.|`<tool name="AddComment" />`|
+|![](images/editor-removeComment.gif)| **RemoveComment** |RemoveComment - Removes the comment under the selected text.|`<tool name="RemoveComment"/>`|
+|![](images/editor-removeAllComments.gif)| **RemoveAllComments** |RemoveAllComments - Removes all comments in the document.|`<tool name="RemoveAllComments"/>`|
 
 
 ## ToolsFile Example
