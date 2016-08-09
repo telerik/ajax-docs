@@ -43,6 +43,8 @@ Here are quick links to the control-specific sections of our documentation:
 
 * [CheckBox]({%slug checkbox/overview%})
 
+* [CheckBoxList]({%slug checkboxlist/overview%})
+
 * [ClientDataSource]({%slug clientdatasource/overview%})
 
 * [Client Export Manager]({%slug clientexportmanager/overview%})
