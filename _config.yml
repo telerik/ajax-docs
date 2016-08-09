@@ -339,6 +339,9 @@ navigation:
     "controls/radiobuttonlist":
         title: "RadioButtonList"
         position: 1
+    "controls/checkboxlist":
+        title: "CheckBoxList"
+        position: 1
     "controls/scheduler":
         title: "Scheduler"
         position: 1
@@ -1257,6 +1260,9 @@ navigation:
         title: "Data Binding"
         position: 4
     "*radiobuttonlist/data-binding":
+        title: "Data Binding"
+        position: 14
+    "*checkboxlist/data-binding":
         title: "Data Binding"
         position: 14
     "*scheduler/usability":
