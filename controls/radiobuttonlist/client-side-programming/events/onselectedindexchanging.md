@@ -16,8 +16,8 @@ The event handler receives two parameters:
 
 1. The instance of the loaded RadRadioButtonList control.
 
-1. An eventArgs parameter of type [Telerik.Web.UI.RadioButtonListCancelEventArgs]({%slug Telerik.Web.UI.RadioButtonListCancelEventArgs%}), containing the following properties and methods:
-	* get_radioButton() - returns an instance of type [Telerik.Web.UI.RadioButtonListItem]({%slug Telerik.Web.UI.RadioButtonListItem%}) (the clicked item). 
+1. An eventArgs parameter of type [Telerik.Web.UI.ButtonListCancelEventArgs]({%slug Telerik.Web.UI.ButtonListCancelEventArgs%}), containing the following properties and methods:
+	* get_item() - returns an instance of type [Telerik.Web.UI.RadioButtonListItem]({%slug Telerik.Web.UI.RadioButtonListItem%}) (the clicked item). 
 	* get_cancel() - sets a bool value that indicates whether the event will be canceled. Setting true means the event will be canceled.
 	* set_cancel() - returns a bool value that indicates whether the event was canceled. True means the event is canceled.
 
@@ -26,7 +26,7 @@ The event handler receives two parameters:
 ````ASP.NET
 <script type="text/javascript">
 	function OnSelectedIndexChanging(sender, args) {
-		var selectedLanguage = args.get_radioButton().get_text();
+		var selectedLanguage = args.get_item().get_text();
 		var toChange = !confirm("You are about to change to " + selectedLanguage + " language!");
 		args.set_cancel(toChange);
 	}

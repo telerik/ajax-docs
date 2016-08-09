@@ -35,7 +35,7 @@ To handle the desired event, the user must set the respective property to the na
 ````ASP.NET
 <script type="text/javascript">
 	function OnItemClicked(sender, args) {
-		var selectedItem = args.get_radioButton();
+		var selectedItem = args.get_item();
 		alert(selectedItem.get_text());
 	}
 </script>
@@ -62,7 +62,7 @@ RadRadioButtonList1.ClientEvents.OnItemClicked = "OnItemClicked"  'passing the n
 
 ````ASP.NET
 <telerik:RadRadioButtonList runat="server" ID="RadRadioButtonList1">
-    <ClientEvents OnItemClicked="function(sender,args){var selectedItem = args.get_radioButton(); alert(selectedItem.get_text());}" />
+    <ClientEvents OnItemClicked="function(sender,args){var selectedItem = args.get_item(); alert(selectedItem.get_text());}" />
     <Items>
         <telerik:RadioButtonListItem Text="English" Selected="true" />
         <telerik:RadioButtonListItem Text="German" />
@@ -72,10 +72,10 @@ RadRadioButtonList1.ClientEvents.OnItemClicked = "OnItemClicked"  'passing the n
 ````
 
 ````C#
-RadRadioButtonList1.ClientEvents.OnClientClicked = "function(sender,args){var selectedItem = args.get_radioButton(); alert(selectedItem.get_text());}"; //passing an anonymous JS function
+RadRadioButtonList1.ClientEvents.OnClientClicked = "function(sender,args){var selectedItem = args.get_item(); alert(selectedItem.get_text());}"; //passing an anonymous JS function
 ````
 ````VB
-RadRadioButtonList1.ClientEvents.OnClientClicked = "function(sender,args){var selectedItem = args.get_radioButton(); alert(selectedItem.get_text());}"  'passing an anonymous JS function
+RadRadioButtonList1.ClientEvents.OnClientClicked = "function(sender,args){var selectedItem = args.get_item(); alert(selectedItem.get_text());}"  'passing an anonymous JS function
 ````
 
 

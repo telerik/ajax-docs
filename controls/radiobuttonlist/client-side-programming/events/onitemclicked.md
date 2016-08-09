@@ -16,15 +16,15 @@ The event handler receives two parameters:
 
 1. The instance of the loaded RadRadioButtonList control.
 
-1. An eventArgs parameter of type [Telerik.Web.UI.RadioButtonListEventArgs]({%slug Telerik.Web.UI.RadioButtonListEventArgs%}), containing the following properties and methods:
-	* get_radioButton() - returns an instance of type [Telerik.Web.UI.RadioButtonListItem]({%slug Telerik.Web.UI.RadioButtonListItem%}) 
+1. An eventArgs parameter of type [Telerik.Web.UI.ButtonListEventArgs]({%slug Telerik.Web.UI.ButtonListEventArgs%}), containing the following properties and methods:
+	* get_item() - returns an instance of type [Telerik.Web.UI.RadioButtonListItem]({%slug Telerik.Web.UI.RadioButtonListItem%}) 
 
 >caption Example 1: Handling RadRadioButtonList OnItemClicking event.
 
 ````ASP.NET
 <script type="text/javascript">
 	function OnItemClicking(sender, args) {
-		var selectedLanguage = args.get_radioButton().get_text();
+		var selectedLanguage = args.get_item().get_text();
 		alert("You clicked on " + selectedLanguage + " language!");
 	}
 </script>
