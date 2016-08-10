@@ -26,16 +26,6 @@ var upload = $find("<%= RadAsyncUpload1.ClientID %>");
 
 Once you have access to a client-side object, you can use it to call its client-side methods, as shown in the following examples.
 
-## Using RadAsyncUpload with jQuery Intellisense
-
-You can use [jQuery Intellisense]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/using-jquery/jquery-intellisense%}) to get the client object of **RadAsyncUpload** as shown in this sample code:
-
-````JavaScript	
-function pageLoad() {
-    var asyncUpload = $telerik.toAsyncUpload("RadAsyncUpload1");	
-}	
-````
-
 ## RadAsyncUpload
 
 The following example uses only a single **RadAsyncUpload** control and demonstrates how by using client-side object the you can add an additional upload row tovisually demonstrate that the control can upload several files:
