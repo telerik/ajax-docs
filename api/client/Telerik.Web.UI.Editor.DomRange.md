@@ -12,30 +12,27 @@ slug: Telerik.Web.UI.Editor.DomRange
 * *[Telerik.Web.UI.Editor.DomRange]({%slug Telerik.Web.UI.Editor.DomRange%})*
 
 
-## Fields
+## Methods
 
-### commonAncestorContainer `Element`
+### static commonAncestorContainer `Element`
 
 The parent node that fully contains the range content
 
-### endContainer `Element`
+### static endContainer `Element`
 
 The end container (node), where the end location of the range is located.
 
-### endOffset `Number`
+### static endOffset `Number`
 
 The end offset within the end container of the range's end location
 
-### startContainer `Element`
+### static startContainer `Element`
 
 The start container (node), where the start location of the range is located.
 
-### startOffset `Number`
+### static startOffset `Number`
 
 The start offset within the start container of the range's start location
-
-
-## Methods
 
 ### clear
 

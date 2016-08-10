@@ -20,7 +20,9 @@ Deletes the contents of the column at the provided index and shifts the remainin
 
 #### Parameters
 
-##### index `Number` The zero-based index of the column
+##### index `Number`
+
+ The zero-based index of the column
 
 #### Returns
 
@@ -32,7 +34,9 @@ Deletes the contents of the row at the provided index and shifts the remaining c
 
 #### Parameters
 
-##### index `Number` The zero-based index of the row
+##### index `Number` 
+
+The zero-based index of the row
 
 #### Returns
 
@@ -74,7 +78,9 @@ Returns a Range for the given range specification.
 
 #### Parameters
 
-##### `String` A1 or RC notation reference of the cells. ex. "A1:B2"
+##### rangeString `String`
+
+A1 or RC notation reference of the cells. ex. "A1:B2"
 
 #### Returns
 
@@ -106,7 +112,9 @@ Hides the column at the provided index.
 
 #### Parameters
 
-##### index `Number` The zero-based index of the column.
+##### index `Number` 
+
+The zero-based index of the column.
 
 #### Returns
 
@@ -118,7 +126,9 @@ Hides the row at the provided index.
 
 #### Parameters
 
-##### index `Number` The zero-based index of the row
+##### index `Number` 
+
+The zero-based index of the row
 
 #### Returns
 
@@ -130,7 +140,9 @@ Inserts a new, empty column at the provided index. The contents of the spreadshe
 
 #### Parameters
 
-##### index `Number` The zero-based index of the column
+##### index `Number` 
+
+The zero-based index of the column
 
 #### Returns
 
@@ -142,7 +154,9 @@ Inserts a new, empty row at the provided index. The contents of the spreadsheet 
 
 #### Parameters
 
-##### index `Number` The zero-based index of the row
+##### index `Number` 
+
+The zero-based index of the row
 
 #### Returns
 
@@ -154,9 +168,13 @@ Sets or sets the width of the column at the given index.
 
 #### Parameters
 
-##### The zero-based index of the column `Number` 
+##### colIndex `Number` 
 
-##### If passed, the method will set the width of the column at the passed index. `Number` 
+The zero-based index of the column
+
+##### width `Number`
+
+If passed, the method will set the width of the column at the passed index. 
 
 #### Returns
 
@@ -168,7 +186,9 @@ Sets the amount of frozen columns displayed by the sheet.
 
 #### Parameters
 
-##### count `Number` The amount of columns to be frozen. Pass 0 to remove the frozen pane. 
+##### count `Number` 
+
+The amount of columns to be frozen. Pass 0 to remove the frozen pane. 
 
 #### Returns
 
@@ -180,7 +200,9 @@ Sets the amount of frozen rows displayed by the sheet.
 
 #### Parameters
 
-##### count `Number` The amount of columns to be frozen. Pass 0 to remove the frozen pane.
+##### count `Number` 
+
+The amount of columns to be frozen. Pass 0 to remove the frozen pane.
 
 #### Returns
 
@@ -192,14 +214,15 @@ Sets the default row height in pixels.
 
 #### Parameters
 
-##### index `Number` The zero-based index of the row
+##### index `Number` 
 
-##### width `Number` optional If passed, the method will set the height of the row at the passed index.
+The zero-based index of the row
+
+##### width? `Number` 
+
+If passed, the method will set the height of the row at the passed index.
 
 #### Returns
 
 `None`
-
-
-Events
 

@@ -1,11 +1,11 @@
 ---
-title: Telerik.Web.UI.RadioButtonListItem
+title: Telerik.Web.UI.ButtonListItem
 page_title: Client-side API Reference
-description: Telerik.Web.UI.RadioButtonListItem
-slug: Telerik.Web.UI.RadioButtonListItem
+description: Telerik.Web.UI.ButtonListItem
+slug: Telerik.Web.UI.ButtonListItem
 ---
 
-# Telerik.Web.UI.RadioButtonListItem  
+# Telerik.Web.UI.ButtonListItem  
 
 ## Methods
 

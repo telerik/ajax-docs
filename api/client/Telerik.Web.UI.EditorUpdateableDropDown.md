@@ -36,6 +36,7 @@ Sets the value of the tool.
 #### Returns
 
 `None` 
+
 ### updateValue
 
 Updates the value of the tool.

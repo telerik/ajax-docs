@@ -146,7 +146,7 @@ The RadDataPager instance that fired the event.
 
 Empty event argument.
 
-### ###DataPagerCreating
+### DataPagerCreating
 
 The DataPagerCreating event fires before the RadDataPager is created.
 
