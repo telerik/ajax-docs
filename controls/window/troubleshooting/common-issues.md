@@ -32,6 +32,7 @@ This article lists common issues and questions related to the **RadWindow** for 
 
 * [OnClientClose is not Fired](#onclientclose-is-not-fired)
 
+* [Modal Overlay of RadWindow adds Scrollbars](#modal-overlay-of-radwindow-adds-scrollbars)
 
 ## General Troubleshooting
 
@@ -141,3 +142,35 @@ There are two workarounds:
 
 * set `DestryOnClose` to `false`
 
+## Modal Overlay of RadWindow adds Scrollbars
+
+Commonly, due to design requirments, the body or the form have additoinal relative parents or a CSS rule `margin: 0 auto;`. This causes the modal overlay to miscaulculate the DOM element for the modality and add additinal offset. 
+
+There are several workarounds you can consider implementing: 
+
+* Make sure that the `<body>` or the `<form>` are the offset parents of the modal overlay. Further custom decoration should be applied to the form's content so that not affect RadWindow and its modality. 
+* Remove the scrollbars of the page when RadWindow opens and restore the when closed. Like in the example below: 
+    
+    **JavaScript**
+
+        var bodyOverflow = "";   
+        var htmlOverflow = "";   
+        function openRadWindow()    
+        {   
+            //store the overflow   
+            bodyOverflow = document.body.style.overflow;   
+            htmlOverflow = document.documentElement.style.overflow;   
+            //hide the overflow   
+            document.body.style.overflow = "hidden";   
+            document.documentElement.style.overflow = "hidden";   
+            var oWnd = window.radopen(null, "RadWindow1");   
+            oWnd.add_close(closeHandler);   
+        }   
+               
+        function closeHandler(sender, args)   
+        {   
+            //restore the overflow   
+            document.body.style.overflow = bodyOverflow;   
+            document.documentElement.style.overflow = htmlOverflow;   
+            sender.remove_close(closeHandler);   
+        }
