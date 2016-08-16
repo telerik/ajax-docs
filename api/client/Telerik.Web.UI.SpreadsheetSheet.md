@@ -44,13 +44,13 @@ The zero-based index of the row
 
 ### get_columnWidth
 
-Gets or sets the width of the column at the given index.
+Gets the width of the column at the given index.
 
 #### Parameters 
 
 #### Returns
 
-`None`
+`Number`
 
 ### get_frozenColumns
 

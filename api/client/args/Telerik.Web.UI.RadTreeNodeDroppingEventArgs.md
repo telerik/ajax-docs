@@ -5,7 +5,7 @@ description: Client-side API Reference
 slug: Telerik.Web.UI.RadTreeNodeDroppingEventArgs
 ---
 
-# Telerik.Web.UI.RadTreeNodeDroppingEventArgs : Telerik.Web.UI.RadTreeNodeCancelEventArgs
+# Telerik.Web.UI.RadTreeNodeDroppingEventArgs : Sys.CancelEventArgs
 
 ## Inheritance Hierarchy
 

@@ -79,18 +79,6 @@ Gets the default column width in pixels. Default value is 64
 
 `Number`
 
-### get_columnWidth
-
-Sets the default column width in pixels. Default value is 64
-
-#### Parameters
-
-##### width `Number` column width in pixels.
-
-#### Returns
-
-`None`
-
 ### get_kendoWidget
 
 Returns Kendo UI SpreadSheet Widget.

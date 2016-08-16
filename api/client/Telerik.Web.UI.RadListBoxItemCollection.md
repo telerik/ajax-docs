@@ -103,7 +103,8 @@ The index of the Item that should be returned.
 
 #### Returns
 
-item `Telerik.Web.UI.RadListBoxItem`
+`Telerik.Web.UI.RadListBoxItem` ListBoxItem
+
 ### removeAt
 
 Removes the item at the specified index.

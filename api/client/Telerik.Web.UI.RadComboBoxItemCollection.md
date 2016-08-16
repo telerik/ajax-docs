@@ -75,7 +75,8 @@ The index of the Item that should be returned.
 
 #### Returns
 
-item `Telerik.Web.UI.RadComboBoxItem`
+`Telerik.Web.UI.RadComboBoxItem` RadComboBoxItem
+
 ### insert
 
 Inserts an item into the Items collection at the position specified by the first (index) parameter.
