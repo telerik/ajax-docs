@@ -251,6 +251,50 @@ Protected Function GetData() As DataTable
 End Function
 ````
 
+>tip Sparkline charts are intended to be small inline elements. If you need a [responsive chart](http://demos.telerik.com/aspnet-ajax/htmlchart/examples/functionality/responsive-chart/defaultcs.aspx), you can hide some of the elements of the `Default` layout. See **Example 2**.
+
+>caption Example 3: Responsive chart that looks like a sparkline chart
+
+````ASP.NET
+<style type="text/css">
+	html, body, form
+	{
+		height: 100%;
+		margin: 0;
+		padding: 0;
+	}
+</style>
+<telerik:RadHtmlChart runat="server" Width="100%" Height="100%" ID="RadHtmlChart1">
+	<Legend>
+		<Appearance Visible="false"></Appearance>
+	</Legend>
+	<PlotArea>
+		<XAxis Visible="false">
+			<MajorGridLines Visible="false" />
+			<MinorGridLines Visible="false" />
+		</XAxis>
+		<YAxis Visible="false">
+			<MajorGridLines Visible="false" />
+			<MinorGridLines Visible="false" />
+		</YAxis>
+		<Series>
+			<telerik:ColumnSeries>
+				<SeriesItems>
+					<telerik:CategorySeriesItem Y="1" />
+					<telerik:CategorySeriesItem Y="2" />
+					<telerik:CategorySeriesItem Y="3" />
+				</SeriesItems>
+			</telerik:ColumnSeries>
+		</Series>
+	</PlotArea>
+</telerik:RadHtmlChart>
+<script type="text/javascript">
+	window.onresize = function () {
+		$find("<%=RadHtmlChart1.ClientID%>").get_kendoWidget().resize();
+	}
+</script>
+````
+
 ## See Also
 
  * [RadHtmlChart Server-side Programming Overview]({%slug htmlchart/server-side-programming/overview%})
