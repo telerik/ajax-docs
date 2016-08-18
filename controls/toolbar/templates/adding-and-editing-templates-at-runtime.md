@@ -14,7 +14,7 @@ position: 3
 
 You can also add templates to **RadToolBar** at runtime, using the **ItemTemplate** property of the RadToolBarButtons and RadToolBarSplitButtons. This property is of type **ITemplate**, so you must assign an object that implements that interface as a value:
 
->note Only **RadToolBarButton** and **RadToolBarSplitButton** support templates. If you set a template to a RaToolBarSplitButton, this template will not be inherited by the child buttons of the split button. If you want to define templates for the child buttons, you should define an ItemTemplate for each child button.
+>note Only **RadToolBarButton** and **RadToolBarSplitButton** support templates. If you set a template to a RadToolBarSplitButton, this template will not be inherited by the child buttons of the split button. If you want to define templates for the child buttons, you should define an ItemTemplate for each child button.
 >
 
 
