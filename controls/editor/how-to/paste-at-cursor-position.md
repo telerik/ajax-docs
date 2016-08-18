@@ -21,7 +21,7 @@ To achieve this, you need to:
 
 1. **Obtain the needed HTML** according to your business logic and UX requirements. You can find some tips on requesting complex content from the server in the [Different ways to make a request to the server in ASP.NET](http://www.telerik.com/blogs/different-ways-to-make-a-request-to-the-server) blog post.
 
-1. **Restore the cursor position** by using the [select() DomRange method](/devtools/aspnet-ajax/api/client/Telerik.Web.UI.Editor.DomRange).
+1. **Restore the cursor position** by using the [select() DomRange method](/api/client/Telerik.Web.UI.Editor.DomRange).
 
 1. **Paste programmatically** by using the [pasteHtml() method]({%slug editor/client-side-programming/methods/pastehtml%}).
 

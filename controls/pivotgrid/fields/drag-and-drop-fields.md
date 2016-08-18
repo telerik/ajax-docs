@@ -68,4 +68,4 @@ Possible scenarios that are achievable with the Drag/Drop functionality are:
 
 # See Also
 
- * [Drag/Drop fields online demo](http:/demos.telerik.com/aspnet-ajax/PivotGrid/Examples/DragDropFields/DefaultCS.aspx)
+ * [Drag/Drop fields online demo](http://demos.telerik.com/aspnet-ajax/PivotGrid/Examples/DragDropFields/DefaultCS.aspx)

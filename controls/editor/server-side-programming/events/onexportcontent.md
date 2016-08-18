@@ -16,7 +16,7 @@ The event handler receives two arguments:
 
 1. **Sender**–the **RadEditor** instance that raised the event.
 
-1. **Event arguments**–an object of type [Telerik.Web.UI.EditorExportingArgs](http://www.telerik.com/help/aspnet-ajax/t_telerik_web_ui_editorexportingargs.html) exposes the string **ExportOutput** property, the [Telerik.Web.UI.ExportType ](www.telerik.com/help/aspnet-ajax/t_telerik_web_ui_exporttype.html) **ExportType** property and a **Boolean Cancel** property with which you can	cancel the sending of the file to the client (by default is set to *false*).
+1. **Event arguments**–an object of type **Telerik.Web.UI.EditorExportingArgs** exposes the string **ExportOutput** property, the **Telerik.Web.UI.ExportType** property and a Boolean **Cancel** property with which you can	cancel the sending of the file to the client (by default is set to *false*).
 
 >caption Example 1: How to save the **ExportOutput** to a file on the server and prevent it from being sent to the client.
 
