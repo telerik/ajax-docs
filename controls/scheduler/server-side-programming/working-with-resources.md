@@ -14,15 +14,18 @@ position: 1
 
 **RadScheduler** has two properties for maintaining information about custom resources:
 
-* **ResourceTypes** is a collection of **ResourceType** objects. Each **ResourceType** object holds the information needed to define a resource type,including the **Name** of the resource type, the **DataSource** or**DataSourceID**, **KeyField**, and **TextField** values needed to fetch a list of possible values for the resource type, and the **ForeignKeyField**needed to store resource values with an appointment. **ResourceType** also includes an**AllowMultipleValues** property, which a provider uses to indicate that multiple valuesof that resource type can be assigned to a single appointment.
+* **ResourceTypes** is a collection of **ResourceType** objects. Each **ResourceType** object holds the information needed to define a resource type, including the **Name** of the resource type, the **DataSource** or **DataSourceID**, **KeyField**, and **TextField** values needed to fetch a list of possible values for the resource type, and the **ForeignKeyField** needed to store resource values with an appointment. **ResourceType** also includes an **AllowMultipleValues** property, which a provider uses to indicate that multiple values of that resource type can be assigned to a single appointment.
 
-* **Resources** is a collection of **Resource** objects.**Resources** has a method, **GetResourcesByType**, that you can use tofilter the collection to list only those resources of a specific resource type. Each **Resource**object represents a possible value of a resource type. The Resource objects have a **Key** property, which is stored with the appointment, a **Text** property, which is the textrepresentation of the resource value, and a **Type** property, which is the name of theresource type for which it is a value. **Resource** objects also have an **Available** property, which determines whether the edit form includes the resource value in the list of possible values that it displays to the user.
+* **Resources** is a collection of **Resource** objects. **Resources** has a method, **GetResourcesByType**, that you can use to filter the collection to list only those resources of a specific resource type. Each **Resource** object represents a possible value of a resource type. The Resource objects have a **Key** property, which is stored with the appointment, a **Text** property, which is the text representation of the resource value, and a **Type** property, which is the name of the resource type for which it is a value. **Resource** objects also have an **Available** property, which determines whether the edit form includes the resource value in the list of possible values that it displays to the user.
 
-Each **Appointment** object also has a **Resources** property, which is acollection of **Resource** objects that is assigned to the appointment. When working with the **Resources** property of an appointment, use the **GetResourceByType** method to obtain a reference to the single value of that resource type that is assigned to the appointment. If theresource supports multiple values for a single resource type, you can use the **GetResourcesByType** method instead.
+Each **Appointment** object also has a **Resources** property, which is acollection of **Resource** objects that is assigned to the appointment. When working with the **Resources** property of an appointment, use the **GetResourceByType** method to obtain a reference to the single value of that resource type that is assigned to the appointment. If the resource supports multiple values for a single resource type, you can use the **GetResourcesByType** method instead.
+
+>note The resources are rendered as ComboBox controls when the Scheduler's RenderMode is set to Classic and as DropDownList controls when the RenderMode is set to Lightweight.
+>
 
 ## Example
 
-This example shows how to use the **Available** property to control the availability of a resource.This property is cleared on each data binding, so the list of available resources must be maintained separately from the scheduler.
+This example shows how to use the **Available** property to control the availability of a resource. This property is cleared on each data binding, so the list of available resources must be maintained separately from the scheduler.
 
 
 
