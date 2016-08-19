@@ -16,6 +16,8 @@ This article explains what assemblies are included in the Telerik UI for ASP.NET
 
 The assemblies come sorted in several folders so that you can use the appropriate ones.	Depending on the .NET framework version your project targets, you will find the needed assemblies in the corresponding directory. For example, if you target *.NET 4.0*, you will need the assemblies from the *Bin40* folder. If you target *.NET 4.5* or *.NET 4.6*, you should use the assemblies from the *Bin45* folder.
 
+The binaries from the *Additional Assemblies* folder may have different versions than the main assemblies. You should use the assemblies from the same release as the main assemblies.
+
 ## Main Assemblies
 
 The Telerik UI for ASP.NET AJAX product consists of the assemblies in the list below. You can find them in the root of the installation (both [automated]({%slug introduction/installation/installing-the-telerik-controls-from-msi-file%}) and in the [zip archive]({%slug introduction/installation/installing-the-telerik-controls-from-zip-file%})) and in the	[internal builds archives]({%slug introduction/installation/using-the-hotfix-(dlls-and-scripts/skins-only)%}).
