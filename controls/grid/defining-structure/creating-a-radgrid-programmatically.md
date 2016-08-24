@@ -18,6 +18,9 @@ This help article describes two options for creating a **RadGrid** instance dyna
 
 * You can create the **RadGrid** entirely in the code-behind.
 
+>Note
+This article demonstrates how to create and configure the RadGrid control programmatically on the code-behind, given that the data source structure will remain the same. If you want to dynamically change the columns of the grid depending on user selection or some dynamic condition (remove or add columns with different DataFields than the initial loaded structure), this might mess up the ViewState. For this scenario, please refer to the next [Changing the Grid Structure Dynamically on Postback]({%grid/defining-structure/changing-the-grid-structure-dynamically-on-postback%}) article.
+
 When defining the structure of a hierarchical grid (by either method), you should follow these rules:
 
 1. Create the **GridTableView** objects for every detail table. You do not need to create an object for the **MasterTableView** of the grid, as this is created automatically when the **RadGrid** itself is created.
@@ -55,11 +58,11 @@ To define the structure of a **RadGrid** control that is declared in the ASPX pa
 
 ````ASP.NET
 <telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" />
-<asp:SqlDataSource ID="SqlDataSource1" 
+<asp:SqlDataSource ID="SqlDataSource1"
       ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
       ProviderName="System.Data.SqlClient"
       SelectCommand="SELECT * FROM Customers" runat="server"></asp:SqlDataSource>
-<asp:SqlDataSource ID="SqlDataSource2" 
+<asp:SqlDataSource ID="SqlDataSource2"
       ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
       ProviderName="System.Data.SqlClient"
       SelectCommand="SELECT * FROM Orders Where CustomerID = @CustomerID" runat="server">
@@ -67,7 +70,7 @@ To define the structure of a **RadGrid** control that is declared in the ASPX pa
             <asp:SessionParameter Name="CustomerID" SessionField="CustomerID" Type="string" />
       </SelectParameters>
 </asp:SqlDataSource>
-<asp:SqlDataSource ID="SqlDataSource3" 
+<asp:SqlDataSource ID="SqlDataSource3"
       ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
       ProviderName="System.Data.SqlClient"
       SelectCommand="SELECT * FROM [Order Details] where OrderID = @OrderID" runat="server">
@@ -245,11 +248,11 @@ When generating a grid in the **Page_Init** event handler, grid columns should b
 
 ````ASP.NET
 <asp:PlaceHolder ID="PlaceHolder1" runat="server" />
-<asp:SqlDataSource ID="SqlDataSource4" 
+<asp:SqlDataSource ID="SqlDataSource4"
       ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
       ProviderName="System.Data.SqlClient"
       SelectCommand="SELECT * FROM Customers" runat="server"></asp:SqlDataSource>
-<asp:SqlDataSource ID="SqlDataSource5" 
+<asp:SqlDataSource ID="SqlDataSource5"
       ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
       ProviderName="System.Data.SqlClient"
       SelectCommand="SELECT * FROM Orders Where CustomerID = @CustomerID" runat="server">

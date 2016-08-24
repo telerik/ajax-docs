@@ -38,6 +38,15 @@ The new expand-all functionality supports all hierarchy load modes.
 
 When you have grouping and hierarchy combined in a common table view, the visibility of the hierarchy expand-all button depends on whether the expand-all button for the last group level is expanded/visible.
 
+## Controlling Expanded State
+
+By default, the items in a hierarchical RadGrid are collapsed. In order to expand them automatically, you can use the **HierarchyDefaultExpanded** property. If the hierarchy structure contains several levels, the property should be set for every  GridTableView instance separately.
+````ASP.NET
+<MasterTableView HierarchyDefaultExpanded="true">
+````
+
+ Since Q3 2013 version, RadGrid also provides the convenient  **RetainExpandStateOnRebind** property. When you enable it, the expanded state of the parent items will be preserved automatically on rebinding actions like Paging, Editing, etc.
+
 ## See Also
 
  * [Hierarchical data-binding using declarative relations]({%slug grid/hierarchical-grid-types-and-load-modes/hierarchical-data-binding-using-declarative-relations%})
