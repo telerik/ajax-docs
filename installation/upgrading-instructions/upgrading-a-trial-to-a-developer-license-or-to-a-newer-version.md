@@ -116,11 +116,21 @@ Sometimes the .NET Framework caches the old Telerik.Web.UI.dll and therefore the
 
 ### I Still Get the Copyright Message
 
-The copyright message appears only when the Web Application/Web Site uses the trial version of Telerik.Web.UI.dll. The Developer versions of Telerik's controls do not throw copyright messages.
 
-To remove the copyright message, make sure you have downloaded the proper, Developer "DLL and Scripts only" file. You will recognize it by the *Dev* abbreviation in the file name. You will find more details on determining which dlls are in use in this blog post.
+The copyright message appears only when the Web Application/Web Site uses the trial version of Telerik.Web.UI.dll:
 
-You can see how the file information of a trial version of the Telerik.Web.UI.dll assembly in **Figure 1**. Alternatively, you can see the same information by double-clicking the assembly in VS and exploring its properties as shown in **Figure 2**.
+>Thank you for using the Trial Version of Telerik UI for ASP.NET AJAX to build more powerful applications faster. [Purchase the Commercial Version now](http://www.telerik.com/purchase/individual/aspnet-ajax.aspx?utm_source=trial&utm_medium=web&utm_campaign=Ajax) to get access to all product updates and the Telerik expert support. 
+
+The Developer versions of the Telerik controls do not throw copyright messages.
+
+**To remove the copyright message**
+
+1. Make sure you have downloaded the proper, Developer "DLL and Scripts only" file from your account. You will recognize it by the *Dev* abbreviation in the file name (see **Figure 1-2**).
+
+1. [Upgrade your project manually](#manual-upgrade) to ensure the correct assemblies are referenced.
+
+You can see how the file information of a trial version of the Telerik.Web.UI.dll assembly in **Figure 1**. Alternatively, you can see the same information by double-clicking the assembly in Visual Studio and exploring its properties as shown in **Figure 2**.
+
 >caption Figure 1: The Properties dialog of a trial Telerik.Web.UI.dll file shows a "Trial Version" text.
 ![trial-version-file-properties](images/trial-version-file-properties.png)
 
