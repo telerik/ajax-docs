@@ -61,8 +61,9 @@ A complete list of the JavaScript files used by Telerik UI for ASP.NET AJAX can 
 
 All JavaScript files are available in the distribution (EXE, ZIP and hotfix) of controls' "Scripts" folder.
 
->caution Note that the order of the js files registered for most of Telerik controls is important since there are some dependencies between the javascript files of a single control. Therefore it is recommended to follow the exact order of the script references from the table below.
->
+>caution Note that the order of the JS files registered for most of Telerik controls is important since there are some dependencies between the JavaScript files of a single control. Therefore it is recommended to follow the exact order of the script references from the table below.
+
+>note To get the Ripple Effect for the Material Skin when you have disabled the embedded scripts, you will need to add `<asp:ScriptReference Path="~/Scripts/Common/MaterialRippleScripts.js" />` after `<asp:ScriptReference Path="~/Scripts/Common/jQuery.js" />`. You also need to include the `Skins/Common/MaterialRipple.css` if you disable the embedded skins.
 
 
 * **RadAjaxLoadingPanel**
