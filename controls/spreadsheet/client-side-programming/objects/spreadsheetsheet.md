@@ -102,5 +102,15 @@ function insertSheetRow() {
 | **set_frozenColumns** |int|none|Sets the amount of frozen columns displayed by the sheet.|
 | **get_frozenRows** |none|int|Gets the amount of frozen rows displayed by the sheet.|
 | **set_frozenRows** |int|none|Set the amount of frozen rows displayed by the sheet.|
+| **set_showGridLines** |bool|none|Togles the visibility state of the GrigLines in the sheet.|
 
+````JavaScript	
+
+function insertSheetRow() {
+    var spreadsheet = $find("<%= RadSpreadsheet1.ClientID %>");
+    var activeSheet = spreadsheet.get_activeSheet();
+    activeSheet.set_showGridLines(false); //hides the grid lines in the active sheet
+}
+
+````
 

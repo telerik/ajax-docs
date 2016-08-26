@@ -1430,12 +1430,18 @@ navigation:
     "*spreadsheet/functionality/cellformat":
         title: "Cell Format"
         position: 3
+    "*spreadsheet/functionality/cellhyperlink":
+        title: "Cell Hyperlink"
+        position: 4
     "*spreadsheet/functionality/validation":
         title: "Validation"
-        position: 4
+        position: 5
     "*spreadsheet/functionality/formulas-and-functions":
         title: "Formulas and Functions"
-        position: 5
+        position: 6    
+    "*spreadsheet/functionality/multilinecellediting":
+        title: "Multiline Cell Editing"
+        position: 7   
     "*spreadsheet/client-side-programming/objects":
         title: "Objects"
         position: 0
