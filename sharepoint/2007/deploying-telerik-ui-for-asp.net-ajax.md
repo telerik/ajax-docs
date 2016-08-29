@@ -57,15 +57,15 @@ b. Open Visual Studio 2005/2008/2010 Command Prompt and run the following comman
 ````XML
 <system.webserver>  
     <modules>  
-        <add name="RadUploadModule" type="Telerik.Web.UI.RadUploadHttpModule, Telerik.Web.UI" preCondition="managedHandler" />  
+        <add name="RadUploadModule" type="Telerik.Web.UI.RadUploadHttpModule" preCondition="managedHandler" />  
     ...................................  
     </modules>  
     <handlers>  
         <add name="ChartImage.axd_*" path="ChartImage.axd" verb="*" type="Telerik.Web.UI.ChartHttpHandler, Telerik.Web.UI, Culture=neutral, PublicKeyToken=121fae78165ba3d4" preCondition="integratedMode" />  
         <add name="Telerik.Web.UI.SpellCheckHandler.axd_*" path="Telerik.Web.UI.SpellCheckHandler.axd" verb="*" type="Telerik.Web.UI.SpellCheckHandler, Telerik.Web.UI, Culture=neutral, PublicKeyToken=121fae78165ba3d4" preCondition="integratedMode" />  
         <add name="Telerik.Web.UI.DialogHandler.aspx_*" path="Telerik.Web.UI.DialogHandler.aspx" verb="*" type="Telerik.Web.UI.DialogHandler, Telerik.Web.UI, Culture=neutral, PublicKeyToken=121fae78165ba3d4" preCondition="integratedMode" />  
-        <add name="Telerik.RadUploadProgressHandler.ashx_*" path="Telerik.RadUploadProgressHandler.ashx" verb="*" type="Telerik.Web.UI.Upload.RadUploadProgressHandler, Telerik.Web.UI" preCondition="integratedMode" />  
-        <add name="Telerik.Web.UI.WebResource.axd_*" path="Telerik.Web.UI.WebResource.axd" verb="*" type="Telerik.Web.UI.WebResource, Telerik.Web.UI" preCondition="integratedMode" />  
+        <add name="Telerik.RadUploadProgressHandler.ashx_*" path="Telerik.RadUploadProgressHandler.ashx" verb="*" type="Telerik.Web.UI.Upload.RadUploadProgressHandler" preCondition="integratedMode" />  
+        <add name="Telerik.Web.UI.WebResource.axd_*" path="Telerik.Web.UI.WebResource.axd" verb="*" type="Telerik.Web.UI.WebResource" preCondition="integratedMode" />  
     </handlers>  
     <validation validateIntegratedModeConfiguration="false"/>  
 </system.webserver>
@@ -77,14 +77,14 @@ b. Open Visual Studio 2005/2008/2010 Command Prompt and run the following comman
 <httpHandlers>  
     <remove verb="*" path="*.asmx" />  
     ...................  
-        <add verb="*"path="Telerik.RadUploadProgressHandler.ashx" type="Telerik.Web.UI.Upload.RadUploadProgressHandler, Telerik.Web.UI" />  
+        <add verb="*"path="Telerik.RadUploadProgressHandler.ashx" type="Telerik.Web.UI.Upload.RadUploadProgressHandler" />  
         <add verb="*"path="Telerik.Web.UI.DialogHandler.aspx"type="Telerik.Web.UI.DialogHandler, Telerik.Web.UI, Culture=neutral, PublicKeyToken=121fae78165ba3d4" />  
         <add verb="*"path="Telerik.Web.UI.SpellCheckHandler.axd" type="Telerik.Web.UI.SpellCheckHandler, Telerik.Web.UI, Culture=neutral, PublicKeyToken=121fae78165ba3d4" />  
         <add verb="*"path="ChartImage.axd"type="Telerik.Web.UI.ChartHttpHandler, Telerik.Web.UI, Culture=neutral, PublicKeyToken=121fae78165ba3d4" validate="false" />  
-        <add path="Telerik.Web.UI.WebResource.axd"verb="*"type="Telerik.Web.UI.WebResource, Telerik.Web.UI" validate="false" />  
+        <add path="Telerik.Web.UI.WebResource.axd"verb="*"type="Telerik.Web.UI.WebResource" validate="false" />  
 </httpHandlers>
 <httpModules>  
-    <add name="RadUploadModule"type="Telerik.Web.UI.RadUploadHttpModule, Telerik.Web.UI" />  
+    <add name="RadUploadModule"type="Telerik.Web.UI.RadUploadHttpModule" />  
     ...  
 </httpModules>
 ````

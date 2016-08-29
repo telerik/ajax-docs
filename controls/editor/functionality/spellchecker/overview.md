@@ -22,7 +22,7 @@ To enable spell checking in your web application you need to accomplish the foll
 
 	**XML**
 	
-		<add verb="*" validate="false" path="Telerik.Web.UI.SpellCheckHandler.axd" type="Telerik.Web.UI.SpellCheckHandler, Telerik.Web.UI" />
+		<add verb="*" validate="false" path="Telerik.Web.UI.SpellCheckHandler.axd" type="Telerik.Web.UI.SpellCheckHandler" />
 	
 
 1. Use the RadEditor's Smart Tag in Visual Studio. Note that the smart tag will appear only if you have the __Telerik.Web.UI.dll__ file in your project's __bin__ folder or in the GAC:

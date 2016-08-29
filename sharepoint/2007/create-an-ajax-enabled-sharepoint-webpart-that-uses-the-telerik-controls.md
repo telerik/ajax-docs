@@ -69,7 +69,7 @@ This article shows how to create an AJAX-enabled SharePoint WebPart that uses Te
 
 	**XML**
 
-	    <add verb="*" path="Telerik.Web.UI.WebResource.axd" type="Telerik.Web.UI.WebResource, Telerik.Web.UI" />
+	    <add verb="*" path="Telerik.Web.UI.WebResource.axd" type="Telerik.Web.UI.WebResource" />
 
 
 

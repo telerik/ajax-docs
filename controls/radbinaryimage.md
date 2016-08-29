@@ -190,12 +190,12 @@ To avoid this behavior, you should store the binary image in the Session and con
 <configuration>
 	<system.web>
 		<httpHandlers>
-			<add path="Telerik.Web.UI.WebResource.axd" type="Telerik.Web.UI.WebResourceSession, Telerik.Web.UI" verb="*" validate="false" />
+			<add path="Telerik.Web.UI.WebResource.axd" type="Telerik.Web.UI.WebResourceSession" verb="*" validate="false" />
 		</httpHandlers>
 	</system.web>
 	<system.webServer>
 		<handlers>
-			<add name="Telerik_Web_UI_WebResource_axd" verb="*" preCondition="integratedMode" path="Telerik.Web.UI.WebResource.axd" type="Telerik.Web.UI.WebResourceSession, Telerik.Web.UI" />
+			<add name="Telerik_Web_UI_WebResource_axd" verb="*" preCondition="integratedMode" path="Telerik.Web.UI.WebResource.axd" type="Telerik.Web.UI.WebResourceSession" />
 		</handlers>
 	</system.webServer>
 </configuration>

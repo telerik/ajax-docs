@@ -61,7 +61,7 @@ You can change Handler by using the [HttpHandlerUrl](http://www.telerik.com/help
 <configuration>    
 	<system.web>        
 		<httpHandlers>    
-			<add path="Telerik.Web.UI.WebResource.axd" verb="*" type="Telerik.Web.UI.WebResource, Telerik.Web.UI" validate="false" />        
+			<add path="Telerik.Web.UI.WebResource.axd" verb="*" type="Telerik.Web.UI.WebResource" validate="false" />        
 		</httpHandlers>    
 	</system.web>
 </configuration>
@@ -101,7 +101,7 @@ There are two cases:
 	… 
 	<handlers>
 		…  
-		<add name="Telerik.Web.UI.WebResource"  path="Telerik.Web.UI.WebResource.axd" verb="*" type="Telerik.Web.UI.WebResource, Telerik.Web.UI" />
+		<add name="Telerik.Web.UI.WebResource"  path="Telerik.Web.UI.WebResource.axd" verb="*" type="Telerik.Web.UI.WebResource" />
 		… 
 	</handlers>
  </system.webserver>

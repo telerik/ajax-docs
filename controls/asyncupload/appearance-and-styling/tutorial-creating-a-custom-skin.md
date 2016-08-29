@@ -33,7 +33,7 @@ See [Understanding the Skin CSS File]({%slug upload/appearance-and-styling/under
 * In the **\<httpModules\>** element, add the following tag to register RadUploadHttpModule:
 
 ````XML
-<add name="RadUploadModule" type="Telerik.Web.UI.RadUploadHttpModule, Telerik.Web.UI" />
+<add name="RadUploadModule" type="Telerik.Web.UI.RadUploadHttpModule" />
 ````
 
 
@@ -43,7 +43,7 @@ See [Understanding the Skin CSS File]({%slug upload/appearance-and-styling/under
 * In the **\<httpHandlers\>** element, add the following tag to register RadUploadProgressHandler:
 
 ````XML
-<add verb="*" path="Telerik.RadUploadProgressHandler.ashx" type="Telerik.Web.UI.RadUploadProgressHandler, Telerik.Web.UI" />
+<add verb="*" path="Telerik.RadUploadProgressHandler.ashx" type="Telerik.Web.UI.RadUploadProgressHandler" />
 ````
 
 
@@ -55,11 +55,11 @@ See [Understanding the Skin CSS File]({%slug upload/appearance-and-styling/under
     ...
     <system.web>
         <httpHandlers>
-            <add verb="*" path="Telerik.RadUploadProgressHandler.ashx" type="Telerik.Web.UI.RadUploadProgressHandler, Telerik.Web.UI" />
+            <add verb="*" path="Telerik.RadUploadProgressHandler.ashx" type="Telerik.Web.UI.RadUploadProgressHandler" />
              ... 
         </httpHandlers>
         <httpModules>
-            <add name="RadUploadModule" type="Telerik.Web.UI.RadUploadHttpModule, Telerik.Web.UI" />
+            <add name="RadUploadModule" type="Telerik.Web.UI.RadUploadHttpModule" />
             ...    
         </httpModules>
             ...  

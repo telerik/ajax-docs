@@ -46,7 +46,7 @@ RadStyleSheetManager also needs the HttpHandler to be registered in the applicat
 <configuration>
 	<system.web>
 		<httpHandlers>
-			<add path="Telerik.Web.UI.WebResource.axd" verb="*" type="Telerik.Web.UI.WebResource, Telerik.Web.UI" validate="false" />
+			<add path="Telerik.Web.UI.WebResource.axd" verb="*" type="Telerik.Web.UI.WebResource" validate="false" />
 		</httpHandlers>
 	</system.web>
 </configuration>

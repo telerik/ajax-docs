@@ -47,7 +47,7 @@ Before you can use any of the **RadUpload** progress-monitoring controls, you mu
 1. In the **`<httpModules>`** element add the following tag:
 	
 	````XML
-	<add name="RadUploadModule" type="Telerik.Web.UI.RadUploadHttpModule, Telerik.Web.UI" />
+	<add name="RadUploadModule" type="Telerik.Web.UI.RadUploadHttpModule" />
 	````
 	
 	This registers the **RadUploadHttpModule** type, which enables **RadProgressManager** to manage the upload progress.
@@ -60,7 +60,7 @@ Before you can use any of the **RadUpload** progress-monitoring controls, you mu
 1. In the **`<httpHandlers>`** element, add the following tag:
 
 	````XML
-	<add verb="*" path="Telerik.RadUploadProgressHandler.ashx" type="Telerik.Web.UI.RadUploadProgressHandler, Telerik.Web.UI"
+	<add verb="*" path="Telerik.RadUploadProgressHandler.ashx" type="Telerik.Web.UI.RadUploadProgressHandler"
 		validate="false" />
 	````
 
@@ -74,11 +74,11 @@ Before you can use any of the **RadUpload** progress-monitoring controls, you mu
 	<system.webserver>  
 		<modules>
 		 . . .      
-			<add name="RadUploadModule" type="Telerik.Web.UI.RadUploadHttpModule, Telerik.Web.UI" preCondition="integratedMode"/>  
+			<add name="RadUploadModule" type="Telerik.Web.UI.RadUploadHttpModule" preCondition="integratedMode"/>  
 		</modules>
 		<handlers>
 		 . . .
-			<add name="Telerik_RadUploadProgressHandler_ashx" path="Telerik.RadUploadProgressHandler.ashx" verb="*" type="Telerik.Web.UI.Upload.RadUploadProgressHandler, Telerik.Web.UI" preCondition="integratedMode"/>
+			<add name="Telerik_RadUploadProgressHandler_ashx" path="Telerik.RadUploadProgressHandler.ashx" verb="*" type="Telerik.Web.UI.Upload.RadUploadProgressHandler" preCondition="integratedMode"/>
 		</handlers>
 	</system.webserver>
 	````
@@ -95,11 +95,11 @@ Before you can use any of the **RadUpload** progress-monitoring controls, you mu
   ...  
   <system.web>
       <httpHandlers>
-            <add verb="*" path="Telerik.RadUploadProgressHandler.ashx" type="Telerik.Web.UI.RadUploadProgressHandler, Telerik.Web.UI" />
+            <add verb="*" path="Telerik.RadUploadProgressHandler.ashx" type="Telerik.Web.UI.RadUploadProgressHandler" />
             ...
       </httpHandlers>
       <httpModules>
-           <add name="RadUploadModule" type="Telerik.Web.UI.RadUploadHttpModule, Telerik.Web.UI" />
+           <add name="RadUploadModule" type="Telerik.Web.UI.RadUploadHttpModule" />
            ...
       </httpModules>
            ...
