@@ -16,7 +16,7 @@ The [WAI-ARIA Suite](http://www.w3.org/WAI/intro/aria) defines an approach to ma
 
 In order to enable the WAI-ARIA support, set the control's **EnableAriaSupport** property to **true** as shown in the example below.
 
->caption **Example 1**: Setting the **EnalbeAriaSupport** property for **RadPanelBar**
+>caption **Example 1**: Setting the **EnableAriaSupport** property for **RadPanelBar**
 
 ````ASP.NET
 <telerik:RadPanelBar runat="server"
