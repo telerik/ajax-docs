@@ -13,7 +13,7 @@ position: 4
 
 This article demonstrates how you can take advantage of the WAI-ARIA support of the **RadTreeView**. The [WAI-ARIA Suite](http://www.w3.org/WAI/intro/aria) defines an approach to make Web content and Web applications more accessible to people with disabilities. In order to enable the WAI-ARIA support, set the **EnableAriaSupport** property of **RadTreeView** to **true** as shown in the example below.
 
-**Example 1:** Setting **EnalbeAriaSupport** property for **RadTreeView**. 
+**Example 1:** Setting **EnableAriaSupport** property for **RadTreeView**. 
 
 
 
