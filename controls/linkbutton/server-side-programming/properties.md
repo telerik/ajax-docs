@@ -1,14 +1,15 @@
 ---
-title: Properties and Events
-page_title: Properties and Events | RadLinkButton for ASP.NET AJAX Documentation
-description: Properties and Events
+title: Properties
+page_title: Properties | RadLinkButton for ASP.NET AJAX Documentation
+description: Properties
 slug: linkbutton/server-side-programming/properties-and-events
-tags: properties,and,events
+previous_url: controls/linkbutton/server-side-programming/properties-and-events
+tags: properties
 published: True
 position: 0
 ---
 
-# Properties and Events
+# Properties
 
 ## RadLinkButton common features (properties)
 
