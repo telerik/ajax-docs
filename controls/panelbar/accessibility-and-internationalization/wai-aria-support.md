@@ -49,7 +49,7 @@ Enabling WAI-ARIA support of a **RadPanelBar** will also allow you to adjust the
 ````ASP.NET
 <telerik:RadPanelBar runat="server" ID="RadPanelBar1" RenderMode="Lightweight" EnableAriaSupport="true">
     <AriaSettings Label="Label for this panelbar." DescribedBy="describe_panelbar" />
-</telerik:RadPanelBar
+</telerik:RadPanelBar>
 ````
 
 
