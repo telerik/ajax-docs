@@ -83,7 +83,7 @@ For brevity this document assumes that the source distribution ZIP file is extra
 
 
 
-	>important Instead of “Sample Application Name v2.0 (tm)” use the value of theApplicationName constant from step 3.
+	>important Instead of “Sample Application Name v2.0 (tm)” use the value of the ApplicationName constant from step 3.
 
 
 
