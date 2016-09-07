@@ -12,7 +12,7 @@ position: 12
 
 
 
-The **FormCreated** event occurs when the edit form or in-line editor has just been created.
+The **FormCreated** event occurs when the edit form or in-line editor has just been created. It also occurs when the edit form or in-line editor is closed.
 
 **FormCreated** has two parameters:
 
