@@ -10,9 +10,11 @@ position: 11
 
 # Preserve the Content in RadEditor when Using Back Button
 
-**RadEditor UI for ASP.NET AJAX** looses its content when user navigates out of the page and comes back by using the **Back** button of the browser. Browsers automatically preserve the content in such scenario only for form elements like `<textarea>`, `<input/>` and so on. **RadEditor**, however, is an editable DOM element that the browser does not consider as a form element field so to preserve its contents automatically. 
+**RadEditor for ASP.NET AJAX** loses its content when the user navigates out of the page and comes back by using the **Back** button of the browser. 
 
-Possible solutions: 
+Browsers automatically preserve the content in such scenario only for form elements like `<textarea>`, `<input/>` and so on. **RadEditor**, however, is an editable DOM element that the browser does not consider as a form element field and does not preserve its contents automatically. 
+
+**Possible solutions**:
 
 * For **Chrome** and **Firefox**: You can use the `window.onbeforeunload` event in order to detect that user navigates out of the page and save the content of **RadEditor** in its own hidden `<textarea>`.
 
@@ -25,17 +27,17 @@ Possible solutions:
 
 		<script>
 			window.onbeforeunload = function (ev) {
-				$find("<%= RadEditor.ClientID %>").saveContent();
+				$find("<%= RadEditor1.ClientID %>").saveContent();
 			};
 		</script>
 
 
-* For all browsers: IE cannot preserve the content during `window.onbeforeunload` and you can either save the content in the `<textarea>` while text is being typed in, or by using a `setTimeout` to not affect the performance of your page.
+* For all browsers: IE cannot preserve the content during `window.onbeforeunload` and you can either save the content in the `<textarea>` while text is being typed in, or by using a `setInterval` to not affect the performance of your page.
 
 	>caption Example 2: Solution with `onkeyup` event.
 
 
-		<telerik:RadEditor runat="server" ID="RadEditor" RenderMode="Lightweight" OnClientLoad="OnClientLoad"></telerik:RadEditor>
+		<telerik:RadEditor runat="server" ID="RadEditor1" RenderMode="Lightweight" OnClientLoad="OnClientLoad"></telerik:RadEditor>
 
 		<a href="http://www.telerik.com/">Navigate to www.telerik.com</a>
 
