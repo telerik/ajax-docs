@@ -18,8 +18,7 @@ This help article describes two options for creating a **RadGrid** instance dyna
 
 * You can create the **RadGrid** entirely in the code-behind.
 
->Note
-This article demonstrates how to create and configure the RadGrid control programmatically on the code-behind, given that the data source structure will remain the same. If you want to dynamically change the columns of the grid depending on user selection or some dynamic condition (remove or add columns with different DataFields than the initial loaded structure), this might mess up the ViewState. For this scenario, please refer to the next [Changing the Grid Structure Dynamically on Postback]({%grid/defining-structure/changing-the-grid-structure-dynamically-on-postback%}) article.
+>note This article demonstrates how to create and configure the RadGrid control programmatically on the code-behind, given that the data source structure will remain the same. If you want to dynamically change the columns of the grid depending on user selection or some dynamic condition (remove or add columns with different DataFields than the initial loaded structure), this might mess up the ViewState. For this scenario, please refer to the next [Changing the Grid Structure Dynamically on Postback]({%slug grid/defining-structure/changing-the-grid-structure-dynamically-on-postback %}) article.
 
 When defining the structure of a hierarchical grid (by either method), you should follow these rules:
 
@@ -33,8 +32,10 @@ When defining the structure of a hierarchical grid (by either method), you shoul
 
 	* If you are not using declarative data sources, add event handlers for the **NeedDataSource** and **DetailTableDataBind** events. In the **DetailTableDataBind** event handler, you can determine which data source should be related to the current table view by checking whether the **GetDataKeyValue** method of the detail table's **ParentItem** returns a value.
 
+
 >note Hierarchical structure is not supported with simple data binding (calling **DataBind** ()).
->
+
+
 
 <!--* **Dynamically defining the structure of a statically-declared grid http://www.telerik.com/help/aspnet-ajax/grid-programmatic-creation.html#Section1_self**
 
