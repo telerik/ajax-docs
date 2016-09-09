@@ -21,7 +21,7 @@ Browsers automatically preserve the content in such scenario only for form eleme
 	>caption Example 1: Solution with `window.onbeforeunload` event.
 
 
-		<telerik:RadEditor runat="server" ID="RadEditor" RenderMode="Lightweight"></telerik:RadEditor>
+		<telerik:RadEditor runat="server" ID="RadEditor1" RenderMode="Lightweight"></telerik:RadEditor>
 
 		<a href="http://www.telerik.com/">Navigate to www.telerik.com</a>
 
@@ -53,7 +53,7 @@ Browsers automatically preserve the content in such scenario only for form eleme
 	>caption Example 3: Solution with `setInterval` approach.
 
 
-		<telerik:RadEditor runat="server" ID="RadEditor" RenderMode="Lightweight" OnClientLoad="OnClientLoad"></telerik:RadEditor>
+		<telerik:RadEditor runat="server" ID="RadEditor1" RenderMode="Lightweight" OnClientLoad="OnClientLoad"></telerik:RadEditor>
 
 		<a href="http://www.telerik.com/">Navigate to www.telerik.com</a>
 
