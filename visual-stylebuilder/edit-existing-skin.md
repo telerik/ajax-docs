@@ -14,7 +14,7 @@ position: 3
 
 The **Visual StyleBuilder** tool offers the option to modify an already existing skin by uploading an archive with the proper structure.	This can be one of the built-in skins or a custom skin.
 
->note The format of the archive must match the structure the StyleBuilder expects. This isthe structure a skin has in the installation folder of the Telerik UI for ASP.NET AJAX.
+>note The format of the archive must match the structure the StyleBuilder expects. This is the structure a skin has in the installation folder of the Telerik UI for ASP.NET AJAX.
 
 
 
