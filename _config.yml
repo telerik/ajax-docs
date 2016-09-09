@@ -497,6 +497,9 @@ navigation:
     "*ajaxmanager/performance":
         title: "Performance"
         position: 8
+    "*autocompletebox/client-side-programming/objects":
+        title: "Objects"
+        position: 4
     "*autocompletebox/templates":
         title: "Templates"
         position: 4
@@ -1151,6 +1154,9 @@ navigation:
     "*navigation/data-binding":
         title: "Data Binding"
         position: 6
+    "*navigation/client-side-programming/objects":
+        title: "Objects"
+        position: 1
     "*notification/setting-content":
         title: "Setting Content"
         position: 4
