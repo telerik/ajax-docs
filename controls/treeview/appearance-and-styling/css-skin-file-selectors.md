@@ -45,3 +45,5 @@ The following table lists significant CSS selectors and descriptions for **RadTr
  * [Tutorial on Creating a Custom Skin]({%slug treeview/appearance-and-styling/tutorial-on-creating-a-custom-skin%})
 
  * [Understanding the Skin CSS File]({%slug treeview/appearance-and-styling/understanding-the-skin-css-file%})
+
+ * [Improvemnts in Lightweight RenderMode R3 2016]({%slug treeview/changes-and-backwards-compatibility/lightweight-rm-improvements-r3-2016%})
