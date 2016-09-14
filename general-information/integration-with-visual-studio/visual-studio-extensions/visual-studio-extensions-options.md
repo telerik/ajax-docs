@@ -34,13 +34,7 @@ The settings under the General category affect all of the installed **Telerik Vi
 
 **Suggest project upgrades for Telerik product version available on my computer** – When enabled, you will be prompted to upgrade upon opening a project, which is not using the latest version of Telerik UI for ASP.NET AJAX installed on your system
 
-**Suggest upgrades when an equal Dev release detected on projects using a Trial** – When enabled, you will be prompted to upgrade if a licensed version of Telerik UI for ASP.NET AJAX is available on your system, but the current project uses a trial version
-
-### Other Notifications
-
-**Notify me when a Telerik subscription I have is about to expire** – When enabled, you will receive reminders if any of your subscriptions expire within the next month.
-
->note You can benefit subscription reminders only if you have saved your credentials in the [Latest Version Acquirer tool]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/automatic-latest-version-retrieval%}).
+**Suggest upgrades when an equal Dev release is detected on projects using a Trial** – When enabled, you will be prompted to upgrade if a licensed version of Telerik UI for ASP.NET AJAX is available on your system, but the current project uses a trial version
 
 ### Select a folder for downloads
 
