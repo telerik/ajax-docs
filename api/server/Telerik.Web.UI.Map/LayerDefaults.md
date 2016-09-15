@@ -36,3 +36,7 @@ The default configuration for shape layers.
 
 The default configuration for tile layers.
 
+###  TileSize `Double`
+
+The size of the image tile in pixels.
+

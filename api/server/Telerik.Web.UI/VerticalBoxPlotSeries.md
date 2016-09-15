@@ -1,19 +1,20 @@
 ---
-title: Telerik.Web.UI.CandlestickSeries
-page_title: Telerik.Web.UI.CandlestickSeries
-description: Telerik.Web.UI.CandlestickSeries
+title: Telerik.Web.UI.VerticalBoxPlotSeries
+page_title: Telerik.Web.UI.VerticalBoxPlotSeries
+description: Telerik.Web.UI.VerticalBoxPlotSeries
 ---
 
-# Telerik.Web.UI.CandlestickSeries
+# Telerik.Web.UI.VerticalBoxPlotSeries
 
-The candlestick series class will produce a candlestick chart type.
+Create s vertical box plot series.
 
 ## Inheritance Hierarchy
 
 * System.Object
 * Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.SeriesBase
-* Telerik.Web.UI.CandlestickSeries
+* Telerik.Web.UI.BoxPlotSeries
+* Telerik.Web.UI.VerticalBoxPlotSeries
 
 ## Properties
 
@@ -32,14 +33,6 @@ Specifies the color of the series when the chart is databound.
 ###  Data `String`
 
 Get/Set the serialized data entities in a list format. This property is usually set if the series is data bound
-
-###  DataCloseField `String`
-
-The field which is used for the close value when the series is data bound.
-
-###  DataDownColorField `String`
-
-The field which is used for the down color value when the series is data bound.
 
 ###  DataField `String`
 
@@ -61,25 +54,37 @@ The data field with the values of the series along the X axis
 
 The data field with the values of the series along the Y axis
 
-###  DataFieldY `String`
+###  DataLowerField `String`
 
-The data field with the values of the series along the Y axis
+The field which specifies the lower value of the box plot item when the chart is databound.
 
-###  DataHighField `String`
+###  DataMeanField `String`
 
-he field which is used for the high value when the series is data bound.
+The field which specifies the mean value of the box plot item when the chart is databound.
 
-###  DataLowField `String`
+###  DataMedianField `String`
 
-The field which is used for the low value when the series is data bound.
+The field which specifies the median value of the box plot item when the chart is databound.
 
-###  DataOpenField `String`
+###  DataOutliersField `String`
 
-The field which is used for the open value when the series is data bound.
+The field which specifies the outliers value of the box plot item when the chart is databound.
 
-###  DownColor `Color`
+###  DataQ1Field `String`
 
-The field which sets the down color of the series items when the close value is lower than the open value.
+The field which specifies the Q1 value of the box plot item when the chart is databound.
+
+###  DataQ3Field `String`
+
+The field which specifies the Q3 value of the box plot item when the chart is databound.
+
+###  DataUpperField `String`
+
+The field which specifies the upper value of the box plot item when the chart is databound.
+
+###  ExtremesAppearance `ExtremesAppearance`
+
+Defines the appearance settings of the extremes.
 
 ###  Items `SeriesItemCollection`
 
@@ -92,9 +97,13 @@ The Items collection is Obsolete. Use the SeriesItems collection to programmatic
 
 Get/Set the name of the series
 
-###  SeriesItems `CandlestickSeriesItemCollection`
+###  OutliersAppearance `OutliersAppearance`
 
-Creates a collection of candlestick series items.
+Defines the appearance settings of the outliers.
+
+###  SeriesItems `BoxPlotSeriesItemCollection`
+
+Creates a collection of box plot series items.
 
 ###  TooltipsAppearance `SeriesAppearance`
 

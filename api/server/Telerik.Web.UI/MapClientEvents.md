@@ -34,7 +34,7 @@ Gets or sets the client-side script that executes when a RadMap client-load even
 
 ###  OnMarkerActivate `String`
 
-Fired when a marker has been displayed.
+Fired when a marker has been displayed and has a DOM element assigned.
 
 ###  OnMarkerClick `String`
 
@@ -42,7 +42,7 @@ Fired when a marker has been clicked or tapped.
 
 ###  OnMarkerCreated `String`
 
-Fired when a marker has been created and is about to be displayed. Cancelling the event will prevent the marker from being shown.
+Fired when a marker has been created and is about to be displayed. Cancelling the event will prevent the marker from being shown.Use markerActivate if you need to access the marker DOM element.
 
 ###  OnPan `String`
 
@@ -63,6 +63,10 @@ Fired when a shape is clicked or tapped.
 ###  OnShapeCreated `String`
 
 Fired when a shape is created, but is not rendered yet.
+
+###  OnShapeFeatureCreated `String`
+
+Fired when a GeoJSON Feature is created on a shape layer.
 
 ###  OnShapeMouseEnter `String`
 

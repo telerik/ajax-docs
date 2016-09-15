@@ -12,7 +12,7 @@ The map center. Coordinates are listed as [Latitude, Longitude].
 
 * System.Object
 * Telerik.Web.StateManager : IMarkableStateManager, IStateManager
-* Telerik.Web.UI.Map.Location
+* Telerik.Web.UI.Map.Location : IDefaultCheck
 
 ## Properties
 

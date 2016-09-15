@@ -55,6 +55,10 @@ Gets the type of the extension methods that holds the extension methods for
 
 Gets or sets the name of the aggregate function, which appears as a property of the group record on which records the function works.
 
+###  IgnoreNullValues `Boolean`
+
+Gets or sets a value that determines whether the s of this  will ignore null values when calculating the result.
+
 ###  Parent `SettingsNode`
 
 Gets the  this  is used in.

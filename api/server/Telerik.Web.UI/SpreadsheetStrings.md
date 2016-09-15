@@ -153,6 +153,30 @@ Gets or sets the filter menu text ends with text.
 
 Gets or sets the filter menu text starts with text.
 
+###  FormatDialogTitle `String`
+
+Gets or sets the title of the format dialog.
+
+###  HyperlinkCancel `String`
+
+Gets or sets the hyperlink cancel text.
+
+###  HyperlinkRemove `String`
+
+Gets or sets the hyperlink remove text.
+
+###  HyperlinkSave `String`
+
+Gets or sets the hyperlink save text.
+
+###  HyperlinkTitle `String`
+
+Gets or sets the hyperlink title text.
+
+###  HyperlinkUrl `String`
+
+Gets or sets the hyperlink url label text.
+
 ###  MessageDialogUseKeyboardOK `String`
 
 Gets or sets the text of the use keyboard message dialog ok button.
@@ -357,6 +381,10 @@ Gets or sets the text of the toolbar format freeze panes tool.
 
 Gets or sets the text of the toolbar format freeze rows tool.
 
+###  ToolBarGridLines `String`
+
+Gets or sets the text of the toolbar grid lines tool.
+
 ###  ToolBarHome `String`
 
 Gets or sets the text of the toolbar home tab.
@@ -364,6 +392,10 @@ Gets or sets the text of the toolbar home tab.
 ###  ToolBarHorizontalAlignment `String`
 
 Gets or sets the text of the toolbar horizontal alignment tool.
+
+###  ToolBarHyperlink `String`
+
+Gets or sets the text of the toolbar hyperlink tool.
 
 ###  ToolBarInsert `String`
 
@@ -488,6 +520,10 @@ Gets or sets the validation max date required text.
 ###  ValidationDateMinRequired `String`
 
 Gets or sets the validation min date required text.
+
+###  ValidationDialogTitle `String`
+
+Gets or sets the title of the validation dialog.
 
 ###  ValidationEqualTo `String`
 

@@ -1,19 +1,20 @@
 ---
-title: Telerik.Web.UI.CandlestickSeries
-page_title: Telerik.Web.UI.CandlestickSeries
-description: Telerik.Web.UI.CandlestickSeries
+title: Telerik.Web.UI.VerticalBulletSeries
+page_title: Telerik.Web.UI.VerticalBulletSeries
+description: Telerik.Web.UI.VerticalBulletSeries
 ---
 
-# Telerik.Web.UI.CandlestickSeries
+# Telerik.Web.UI.VerticalBulletSeries
 
-The candlestick series class will produce a candlestick chart type.
+The vertical variation of the bullet series.
 
 ## Inheritance Hierarchy
 
 * System.Object
 * Telerik.Web.StateManager : IMarkableStateManager, IStateManager
 * Telerik.Web.UI.SeriesBase
-* Telerik.Web.UI.CandlestickSeries
+* Telerik.Web.UI.BulletSeries
+* Telerik.Web.UI.VerticalBulletSeries
 
 ## Properties
 
@@ -33,13 +34,9 @@ Specifies the color of the series when the chart is databound.
 
 Get/Set the serialized data entities in a list format. This property is usually set if the series is data bound
 
-###  DataCloseField `String`
+###  DataCurrentField `String`
 
-The field which is used for the close value when the series is data bound.
-
-###  DataDownColorField `String`
-
-The field which is used for the down color value when the series is data bound.
+For a data-binding scenario define the field for the current value.
 
 ###  DataField `String`
 
@@ -61,25 +58,9 @@ The data field with the values of the series along the X axis
 
 The data field with the values of the series along the Y axis
 
-###  DataFieldY `String`
+###  DataTargetField `BulletTargetAppearance`
 
-The data field with the values of the series along the Y axis
-
-###  DataHighField `String`
-
-he field which is used for the high value when the series is data bound.
-
-###  DataLowField `String`
-
-The field which is used for the low value when the series is data bound.
-
-###  DataOpenField `String`
-
-The field which is used for the open value when the series is data bound.
-
-###  DownColor `Color`
-
-The field which sets the down color of the series items when the close value is lower than the open value.
+For a data-binding scenario define the field for the target value.
 
 ###  Items `SeriesItemCollection`
 
@@ -92,9 +73,13 @@ The Items collection is Obsolete. Use the SeriesItems collection to programmatic
 
 Get/Set the name of the series
 
-###  SeriesItems `CandlestickSeriesItemCollection`
+###  SeriesItems `BulletSeriesItemCollection`
 
-Creates a collection of candlestick series items.
+The collection of series items for the Bullet series
+
+###  Target `BulletTargetAppearance`
+
+The target of the Bullet series.
 
 ###  TooltipsAppearance `SeriesAppearance`
 

@@ -23,7 +23,7 @@ Gets or sets the ID of the html element containing the description of the contro
 
 ###  Label `String`
 
-Gets or sets the text added ass aria-label attribute.
+Gets or sets the text added as aria-label attribute.
 
 ###  LabelledBy `String`
 

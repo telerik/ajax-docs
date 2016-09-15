@@ -43,6 +43,10 @@ The RadPanelBarcontrol is used to display a list of items in a Web Forms
 Gets or sets a value indicating whether all items can be collapsed.
             This allows all the items to be collapsed even if the panelbar's ExpandMode is set to SingleExpandedItem or FullExpandedItem mode.
 
+###  AriaSettings `WaiAriaSettings`
+
+Gets the object that controls the Wai-Aria settings applied on the control's input element.
+
 ###  CausesValidation `Boolean`
 
 Gets or sets a value indicating whether validation is performed when an item within
@@ -122,6 +126,10 @@ Gets or sets the value, indicating whether to render the skin CSS files during A
 
 #### Remarks
 If EnableAjaxSkinRendering is set to false you will have to register the needed control base CSS file by hand when adding/showing the control with Ajax.
+
+###  EnableAriaSupport `Boolean`
+
+When set to true enables support for WAI-ARIA.
 
 ###  EnableEmbeddedBaseStylesheet `Boolean`
 

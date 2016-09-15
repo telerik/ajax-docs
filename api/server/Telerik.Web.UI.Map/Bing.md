@@ -20,6 +20,10 @@ The default configuration for Bing (tm) tile layers.
 
 The attribution of all Bing (tm) layers.
 
+###  Culture `String`
+
+The culture to be used for the bing map tiles.
+
 ###  ImagerySet `String`
 
 The bing map tile types. Possible options:

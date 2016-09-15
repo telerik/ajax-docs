@@ -38,6 +38,10 @@ Gets the display-friendly name.
 
 ###  DisplayValueAsKpi `Boolean`
 
+###  IgnoreNullValues `Boolean`
+
+Gets or sets a value that determines whether the s of this  will ignore null values when calculating the result.
+
 ###  Parent `SettingsNode`
 
 Gets the  this  is used in.

@@ -26,6 +26,10 @@ Gets or sets the  client-side event which will be fired when a change in the dat
 
 Gets or sets the client-side event which will be fired when a  command occurs.
 
+###  OnCountRequested `String`
+
+Gets or sets the  client-side event which will be fired after the count has been requested from the service
+
 ###  OnCustomParameter `String`
 
 Gets or sets the  client-side event which will be fired when a custom mapping of the request parameters can be perfomred.

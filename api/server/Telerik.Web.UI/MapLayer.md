@@ -24,6 +24,10 @@ The attribution for the layer. Accepts valid HTML.
 
 The ID of RadClientDataSource control to which the layer will be data bound.
 
+###  Culture `String`
+
+The culture to be used for the bing map tiles.
+
 ###  ExtentSettings `Extent`
 
 Specifies the extent of the region covered by this layer. The layer will be hidden when the specified area is out of view.Accepts a four-element array that specifies the extent covered by this layer: North-West lat, longitude, South-East latitude, longitude.If not specified, the layer is always visible.
@@ -75,6 +79,10 @@ A list of subdomains to use for loading tiles. Alternating between different sub
 ###  Symbol `String`
 
 The symbol to use for bubble layers. Possible values: circle, square
+
+###  TileSize `Double`
+
+The size of the image tile in pixels.
 
 ###  TitleField `String`
 

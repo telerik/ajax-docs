@@ -31,15 +31,6 @@ Used in the RadEditor dialogs like Image Manager, Document Manager. If the value
             will allow multiple files / folders to be selected and deleted / copied / moved. Also, if Insert button
             is clicked all the selected file items will be inserted in the editor's content area
 
-###  AllowMultipleSelection `Boolean`
-
-Enables or disables multiple item selection in the file browser dialogs.
-
-#### Remarks
-Used in the RadEditor dialogs like Image Manager, Document Manager. If the value is set to true,
-            will allow multiple files / folders to be selected and deleted / copied / moved. Also, if Insert button
-            is clicked all the selected file items will be inserted in the editor's content area
-
 ###  ContentProviderTypeName `String`
 
 Gets or sets the fully qualified type name of the FileBrowserContentProvider used in the dialog,

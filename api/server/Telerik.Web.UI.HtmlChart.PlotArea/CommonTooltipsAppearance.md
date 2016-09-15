@@ -12,7 +12,7 @@ Defines the common visual appearance settings for the series' tooltips
 
 * System.Object
 * Telerik.Web.UI.ObjectWithState
-* Telerik.Web.UI.HtmlChart.PlotArea.AppearanceBase
+* Telerik.Web.UI.HtmlChart.PlotArea.AppearanceBase : IDefaultCheck
 * Telerik.Web.UI.HtmlChart.PlotArea.SeriesTooltipsAppearance
 * Telerik.Web.UI.HtmlChart.PlotArea.CommonTooltipsAppearance
 
