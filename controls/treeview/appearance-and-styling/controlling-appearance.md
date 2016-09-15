@@ -124,3 +124,10 @@ The images, referenced by this CSS, have the following meaning:
 |FirstNodeFirstNodeSpan|Images, containing only vertical lines. Please note the difference, that FirstNodeSpan contains a very high image that is needed for the proper rendering of RadTreeView.|
 
 It is advised to copy the line images from an existing skin and modify them, which will reduce image modification problems to a minimum.
+
+
+
+
+# See Also
+
+ * [Improvemnts in Lightweight RenderMode R3 2016]({%slug treeview/changes-and-backwards-compatibility/lightweight-rm-improvements-r3-2016%})
