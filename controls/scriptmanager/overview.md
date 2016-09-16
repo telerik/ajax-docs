@@ -49,7 +49,7 @@ When put on the page, the **RadScriptManager** combines all requests (to the "Ja
 
 **RadScriptManager** does this by outputting a **<script>** tag with a specific URL, making a request to an HttpHandler, which then serves the combined scripts.
 
-If the script combination is not needed for some reason (e.g. debugging) it can be disabled by giving the [EnableScriptCombine](http://www.telerik.com/help/aspnet-ajax/p_telerik_web_ui_radscriptmanager_enablescriptcombine.html) property the value of **False**.
+If the script combination is not needed for some reason (e.g. debugging) it can be disabled by giving the [EnableScriptCombine](http://docs.telerik.com/devtools/aspnet-ajax/api/server/Telerik.Web.UI/RadScriptManager#properties-EnableScriptCombine) property the value of **False**.
 
 You can change Handler by using the [HttpHandlerUrl](http://www.telerik.com/help/aspnet-ajax/p_telerik_web_ui_radscriptmanager_httphandlerurl.html) property of the control.
 
