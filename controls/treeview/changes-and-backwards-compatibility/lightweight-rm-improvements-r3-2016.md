@@ -26,7 +26,7 @@ The improvements introduced might cause some issues with the proper appearance o
 
 * A new *&lt;span&gt;* element with class *rtText* has been introduced to hold the text of each node;
 
-* The class *rtChk* has been added to the three-state checkbox *&lt;span&gt;*;
+* The class *rtChkTristate* has been added to the tri-state checkbox *&lt;span&gt;*;
 
 
 
@@ -93,9 +93,9 @@ It has been changed to:
 ````
 
 
-## Changes in the HTML Structure of a Node with a Three-state Checkbox
+## Changes in the HTML Structure of a Node with a tri-state Checkbox
 
-The node with s three-state checkbox has been changed from:
+The node with s tri-state checkbox has been changed from:
 ````HTML
 <div class="rtTop ContentCssClass rtSelected SelectedCssClass">
 	<span class="rtSp"></span>
@@ -111,7 +111,7 @@ to:
 ````HTML
 <div class="rtOut ContentCssClass rtSelected SelectedCssClass">
 	<span class="rtMinus"></span>
-	<span class="rtChk rtUnchecked"></span>
+	<span class="rtChkTristate rtUnchecked"></span>
 	<div class="rtIn CssClass ">
 		<img src="icon.png" alt="" class="rtImg">
 		<span class="rtText">Group A</span>
