@@ -10,67 +10,160 @@ position: 2
 
 # Decorated GridView Is Not Bound to SqlDataSource with ControlParameter 
 
-This help article offers a solution to an issue where a decorated input's click event is not triggered when the input is followed by an HTML label element.
+This help article offers a solution to an issue where a decorated asp:GridView by RadFormDecorator cannot be bound to an SqlDataSource with ControlParameter on initial page load.
 
 **Problem:**
 
-The client-side click event of decorated HTML input element of type "radio" or "checkbox" is not fired when the following conditions are met at the same time.
+The asp:GridView cannot be bound on initial page load when it is decorated by RadFormDecorator and the GridView is bound to an SqlDataSource with ControlParameter. The issue can be reproduced with **Example 1**.
 
-* The input is followed by a label element and there is not a whitespace between them.
+>caption **Example 1**: Decorated asp:GridView is not visible on initial page load when it is bound to an SqlDataSource with ControlParameter.
 
-* The "for" attribute of the label element and the "id" attribute of the input element are not declared.
+**ASP.NET**
+
+	<telerik:RadFormDecorator ID="RadFormDecorator1" runat="server" DecoratedControls="All" />
+
+	<asp:DropDownList ID="Dropdownlist1" runat="server" DataSourceID="DropDownListDataSource" AutoPostBack="true" DataTextField="CompanyName" DataValueField="CustomerID">
+	</asp:DropDownList>
+	<asp:SqlDataSource runat="server" ID="DropDownListDataSource" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
+		ProviderName="System.Data.SqlClient" SelectCommand="Select [CustomerID], [CompanyName], [Address], [City], [PostalCode], [Country] From [Customers]"
+		OldValuesParameterFormatString="original_{0}" ConflictDetection="CompareAllValues" />
+
+
+	<asp:GridView ID="GridView1" runat="server" AllowPaging="True" DataKeyNames="OrderID" DefaultMode="ReadOnly"
+		DataSourceID="GridViewDataSource" Width="300" Style="float: left;">
+	</asp:GridView>
+	<asp:SqlDataSource runat="server" ID="GridViewDataSource" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
+		ProviderName="System.Data.SqlClient" SelectCommand="SELECT [OrderID], [CustomerID], [EmployeeID],[OrderDate] FROM [Orders] WHERE ([CustomerID] = @CustomerID)"
+		OldValuesParameterFormatString="original_{0}" ConflictDetection="CompareAllValues">
+		<SelectParameters>
+			<asp:ControlParameter ControlID="Dropdownlist1" Name="CustomerID" PropertyName="SelectedValue"
+				Type="String"></asp:ControlParameter>
+		</SelectParameters>
+	</asp:SqlDataSource>
+
 
 **Cause:**
 
-When a **RadFormDecorator** decorates "radio button" and "checkbox" HTML elements, it positions them outside of the visible viewport and then puts a label with a background image that represents the decorated input in their place.
+In order to decorate all the controls on the page, the RadFormDecorator decorates the children controls of the complex controls as well (i.e., the RadFormDecorator iterates through the controls' collections). 
 
-Before inserting a new label, however, the **RadFormDecorator** tries to set the corresponding background image to the HTML label element that follows the input element. This operation is performed because the control assumes a relation between the input and the following label. In scenarios where this association is missing (i.e., the "for" attribute of the label HTML element is not specified), however, the click event of the input will not be raised. The main purpose of the label HTML element is to create an association with an input element, so it is advisable to use the "for" attribute.
+There is, however, a binding issue with the GridView when an SqlDataSource is used with ControlParameter and at the same time the GridView's collection is accessed from the code behind. This issue can be easily reproduced on a page with no Telerik UI for ASP.NET AJAX controls and is shown in **Example 2**. The problem also affect the scenario with RadFormDecorator from **Example 1**.
 
-This limitation is a consequence of the control's implementation and if the input-label relation cannot be created, one of the workarounds below must be used.
+>caption **Example 2**: asp:GridView cannot be bound to an SqlDataSource with ControlParameter when the GridView's collection is accessed from the code behind.
+
+**ASP.NET**
+
+	<asp:DropDownList ID="Dropdownlist1" runat="server" DataSourceID="DropDownListDataSource" AutoPostBack="true" DataTextField="CompanyName" DataValueField="CustomerID">
+	</asp:DropDownList>
+	<asp:SqlDataSource runat="server" ID="DropDownListDataSource" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
+		ProviderName="System.Data.SqlClient" SelectCommand="Select [CustomerID], [CompanyName], [Address], [City], [PostalCode], [Country] From [Customers]"
+		OldValuesParameterFormatString="original_{0}" ConflictDetection="CompareAllValues" />
+
+
+	<asp:GridView ID="GridView1" runat="server" AllowPaging="True" DataKeyNames="OrderID" DefaultMode="ReadOnly"
+		DataSourceID="GridViewDataSource" Width="300" Style="float: left;">
+	</asp:GridView>
+	<asp:SqlDataSource runat="server" ID="GridViewDataSource" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
+		ProviderName="System.Data.SqlClient" SelectCommand="SELECT [OrderID], [CustomerID], [EmployeeID],[OrderDate] FROM [Orders] WHERE ([CustomerID] = @CustomerID)"
+		OldValuesParameterFormatString="original_{0}" ConflictDetection="CompareAllValues">
+		<SelectParameters>
+			<asp:ControlParameter ControlID="Dropdownlist1" Name="CustomerID" PropertyName="SelectedValue"
+				Type="String"></asp:ControlParameter>
+		</SelectParameters>
+	</asp:SqlDataSource>
+
+**C#**
+
+	protected void Page_PreRender(object sender, EventArgs e)
+	{
+		var c = GridView1.Controls;
+	}
+
+**VB**
+
+	Protected Sub Page_PreRender(sender As Object, e As EventArgs)
+		Dim c = GridView1.Controls
+	End Sub
+
 
 **Solution:**
 
 There are a few options you can choose from, in order to handle the scenario described above.
 
-* Declare the "for" and "id" attributes for the label and the input respectively. For example:
+* Bind the DropDownList's data from the code behind instead of declaring the DataSourceID property of the DropDownList.
 
-	>caption **Example 1**: Associating a label to an input element by matching the input's "id" to the label's "for" attribute.
-
-	**ASP.NET**
-
-		<telerik:RadFormDecorator RenderMode="Lightweight" ID="RadFormDecorator1" runat="server" DecoratedControls="All" />
-		<input type="checkbox" id="checkbox1" name="name1" value="value1" onclick="alert(1);" /><label for="checkbox1">label 1</label>
-		<input type="radio" id="radio1" name="name2" value="value2" onclick="alert(2);" /><label for="radio1">label 2</label>
-
-* Insert a space between the input and the label - either in the markup (see an **Example 2**), or with JavaScript prior to the **RadFormDecorator**'s decoration (see an **Example 3**).
-
-	>caption **Example 2**: Inserting a whitespace between an input and a label element in the markup.
+	>caption **Example 3**: Binding DropDownList's data from the code behind instead of declaring its DataSourceID property.
 
 	**ASP.NET**
 
-		<telerik:RadFormDecorator RenderMode="Lightweight" ID="RadFormDecorator1" runat="server" DecoratedControls="All" />
-		<input type="checkbox" name="name1" value="value1" onclick="alert(1);" /> <label>label 1</label>
-		<input type="radio" name="name2" value="value2" onclick="alert(2);" /> <label>label 2</label>
+		<telerik:RadFormDecorator ID="RadFormDecorator1" runat="server" DecoratedControls="All" />
 
-	>caption **Example 3**: Inserting a whitespace between an input and a label element with JavaScript prior to decoration.
+		<asp:DropDownList ID="Dropdownlist1" runat="server" AutoPostBack="true" DataTextField="CompanyName" DataValueField="CustomerID">
+		</asp:DropDownList>
+		<asp:SqlDataSource runat="server" ID="DropDownListDataSource" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
+			ProviderName="System.Data.SqlClient" SelectCommand="Select [CustomerID], [CompanyName], [Address], [City], [PostalCode], [Country] From [Customers]"
+			OldValuesParameterFormatString="original_{0}" ConflictDetection="CompareAllValues" />
 
-	**JavaScript**
 
-		<%--The external jQuery reference is needed because RadFormDecorator doesn't reference internally jQuery--%>
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-		<script type="text/javascript">
-			$(function () {
-				$("label").each(function () {
-					this.parentNode.insertBefore(document.createTextNode(" "), this);
-				});
-			});
-		</script>
+		<asp:GridView ID="GridView1" runat="server" AllowPaging="True" DataKeyNames="OrderID" DefaultMode="ReadOnly"
+			DataSourceID="GridViewDataSource" Width="300" Style="float: left;">
+		</asp:GridView>
+		<asp:SqlDataSource runat="server" ID="GridViewDataSource" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
+			ProviderName="System.Data.SqlClient" SelectCommand="SELECT [OrderID], [CustomerID], [EmployeeID],[OrderDate] FROM [Orders] WHERE ([CustomerID] = @CustomerID)"
+			OldValuesParameterFormatString="original_{0}" ConflictDetection="CompareAllValues">
+			<SelectParameters>
+				<asp:ControlParameter ControlID="Dropdownlist1" Name="CustomerID" PropertyName="SelectedValue"
+					Type="String"></asp:ControlParameter>
+			</SelectParameters>
+		</asp:SqlDataSource>
+
+	**C#**
+
+		protected void Page_Init(object sender, EventArgs e)
+		{
+			DataSourceSelectArguments args = new DataSourceSelectArguments();
+			DataView view = (DataView)DropDownListDataSource.Select(args);
+			DataTable dt = view.ToTable();
+
+			Dropdownlist1.DataSource = dt;
+			Dropdownlist1.DataBind();
+		}
+
+	**VB**
+
+		Protected Sub Page_Init(sender As Object, e As EventArgs)
+			Dim args As New DataSourceSelectArguments()
+			Dim view As DataView = DirectCast(DropDownListDataSource.[Select](args), DataView)
+			Dim dt As DataTable = view.ToTable()
+
+			Dropdownlist1.DataSource = dt
+			Dropdownlist1.DataBind()
+		End Sub
+
+* Skip the following controls form decoration - GridFormDetailsViews, LoginControls, Textbox and ValidationSummary:
+
+	>caption **Example 4**: Skip the GridFormDetailsViews,LoginControls,Textbox and ValidationSummary controls from decoration.
 
 	**ASP.NET**
 
-		<telerik:RadFormDecorator RenderMode="Lightweight" ID="RadFormDecorator1" runat="server" DecoratedControls="All" />
-		<input type="checkbox" name="name1" value="value1" onclick="alert(1);" /><label>label 1</label>
-		<input type="radio" name="name2" value="value2" onclick="alert(2);" /><label>label 2</label>
+		<telerik:RadFormDecorator ID="RadFormDecorator1" runat="server" ControlsToSkip="GridFormDetailsViews,LoginControls,Textbox,ValidationSummary" />
+
+* Set the DataSourceID property of the DropDownList in the Page_Init event. This approach, however, will force the dropdownlist to rebind itself which may lead to performance issues for large data sources.
+
+	**C#**
+
+		protected void Page_Init(object sender, EventArgs e)
+		{
+			Dropdownlist1.DataSourceID = "DropDownListDataSource";
+			Dropdownlist1.DataBind();
+		}
+
+	**VB**
+
+		Protected Sub Page_Init(sender As Object, e As EventArgs)
+			Dropdownlist1.DataSourceID = "DropDownListDataSource"
+			Dropdownlist1.DataBind()
+		End Sub
+
 
 # See Also
 
