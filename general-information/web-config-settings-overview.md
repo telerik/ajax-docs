@@ -226,11 +226,11 @@ Here follows a list with all the available appSettings keys for the Telerik UI f
         <add key="Telerik.ScriptManager.TelerikCdn" value="disabled" />
         <add key="Telerik.ScriptManager.TelerikCdn.BaseSecureUrl" value="https://my.favorite.cdn" />
         <add key="Telerik.ScriptManager.TelerikCdn.BaseUrl" value="http://my.favorite.cdn" />
-  <add key="Telerik.ScriptManager.TelerikCdn.CombinedResource" value="disabled" />
-  <add key="Telerik.StyleSheetManager.TelerikCdn" value="disabled" />
+        <add key="Telerik.ScriptManager.TelerikCdn.CombinedResource" value="disabled" />
+        <add key="Telerik.StyleSheetManager.TelerikCdn" value="disabled" />
         <add key="Telerik.StyleSheetManager.TelerikCdn.BaseSecureUrl" value="https://my.favorite.cdn" />
         <add key="Telerik.StyleSheetManager.TelerikCdn.BaseUrl" value="http://my.favorite.cdn" />
-  <add key="Telerik.StyleSheetManager.TelerikCdn.CombinedResource" value="disabled" />
+        <add key="Telerik.StyleSheetManager.TelerikCdn.CombinedResource" value="disabled" />
         <add key="Telerik.Skin" value="Default" />
         <add key="Telerik.Web.CaptchaImageStorageProviderTypeName" value="MyCustomCaptchaStorageProvider" />
         <add key="Telerik.Web.CaptchaDenyAudioHandler" value="true" />
