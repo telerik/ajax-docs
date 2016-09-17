@@ -10,7 +10,7 @@ position: 2
 
 # Combined CDN Request for Telerik Controls
 
-The Telerik stylesheets CDN can be optimized to request a single file that contains all the [base stylesheets](./general-information/controlling-visual-appearance/how-skins-work#base-stylesheets) for all the controls from the UI for ASP.NET AJAX suite (**Examples 1-2**).
+The Telerik stylesheets CDN can be optimized to request a single file that contains all the [base stylesheets]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/how-skins-work%}#base-stylesheets) for all the controls from the UI for ASP.NET AJAX suite (**Examples 1-2**).
 
 This resource combination will result in a single request for the Telerik controls base stylesheets on each page that can be cached aggressively by the browser, as opposed to a number of different files that may not all be already cached. While this file will usually be larger than the sum of all individual files for an average page, if the end user downloads it once, they will get it from the browser cache for all pages in your application that have this setting enabled.
 
