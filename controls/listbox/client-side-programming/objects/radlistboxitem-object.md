@@ -21,26 +21,8 @@ The **RadListBoxItem** object is returned by the **getItem** method of the **Rad
 | ------ | ------ | ------ | ------ |
 | **get_text** |none|string|Gets the Text of the item|
 | **get_value** |none|string|Gets th Value of the item|
-| **get_attributes** |none|Collection|Returns the collection of custom attributes for the item.|
-
-````JavaScript	
-var listbox = $find("<%= RadListBox1.ClientID %>");
-var foundItem = listbox.findItemByAttribute("Population", "0");
-var attributes = foundItem.get_attributes();
-var size = attributes.getAttribute("size");
-if (size) {
-	attributes.setAttribute("Population", size);
-	attributes.removeAttribute("size");
-}
-else {
-	attributes.setAttribute("Population", "Unknown");
-}
-````
-
->caption  
-
-|  **enable**  | none | none | Enables the item if it is disabled |
-| ------ | ------ | ------ | ------ |
+| **get_attributes** |none|Collection|Returns the collection of custom attributes for the item.(see **Example 1**)|
+| **enable**  | none | none | Enables the item if it is disabled |
 | **disable** |none|none|Disables the item if it is enabled|
 | **select** |none|none|Selects the item (equal to **set_selected(true)** )|
 | **unselect** |none|none|Unselects the item (equal to **set_selected(false)** )|
@@ -69,6 +51,23 @@ else {
 | **get_checkBoxElement** |none|HTML element|Returns the checkbox <input type=checkbox> element of the item|
 | **get_cssClass** |none|string|Gets the **cssClass** of the RadListBoxItem.|
 | **set_cssClass** |string|none|Sets the **cssClass** of the RadListBoxItem.|
+
+>caption  Example 1: Demonstrates the usage of the get_attributes method
+````JavaScript	
+var listbox = $find("<%= RadListBox1.ClientID %>");
+var foundItem = listbox.findItemByAttribute("Population", "0");
+var attributes = foundItem.get_attributes();
+var size = attributes.getAttribute("size");
+if (size) {
+	attributes.setAttribute("Population", size);
+	attributes.removeAttribute("size");
+}
+else {
+	attributes.setAttribute("Population", "Unknown");
+}
+````
+
+
 
 # See Also
 

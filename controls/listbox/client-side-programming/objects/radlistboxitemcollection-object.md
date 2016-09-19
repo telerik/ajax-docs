@@ -18,8 +18,18 @@ The **RadListBoxItemCollection** object is returned by the **get_items** method 
 
 | Name | Parameters | Return Type | Description |
 | ------ | ------ | ------ | ------ |
-| **add** |RadListBoxItem|none|Adds an item to the Items collection|
+| **add** |RadListBoxItem|none|Adds an item to the Items collection. (see **Example 1**)|
+|  **insert**  | int, RadListBoxItem | none | Inserts an item into the Items collection at the position specified by the first (index) parameter. (see **Example 2**) |
+|  **remove**  | RadListBoxItem | none | Removes an item from the Items collection (see **Example 3**) |
+|  **clear**  | none | none | Clears the Items collection of RadListBox. (see **Example 4**)|
+|  **getItem**  | index | RadListBoxItem | Gets the item from the Items collection residing at the index specified by the parameter. (see **Example 5**)|
+|  **indexOf**  | RadListBoxItem | int | Gets the index of an item. (see **Example 6**) |
+|  **removeAt**  | int | none | Removes the item at the specified index. (see **Example 7**) |
+|  **get_count**  | none | int | Returns the number of items in the Items collection. (see **Example 8**)|
+|  **forEach**  | handler | none | Iterates through the Items collection. (see **Example 9**) |
 
+
+>caption Example 1: Demonstrates the usage of the add method
 ````JavaScript	
 var list = $find("<%= RadListBox1.ClientID %>"); 
 var items = list.get_items(); list.trackChanges();
@@ -30,12 +40,7 @@ items.add(item);
 list.commitChanges();	
 ````
 
-
->caption  
-
-|  **insert**  | int, RadListBoxItem | none | Inserts an item into the Items collection at the position specified by the first (index) parameter |
-| ------ | ------ | ------ | ------ |
-
+>caption  Example 2: Demonstrates the usage of the insert method
 ````JavaScript	
 var list = $find("<%= RadListBox1.ClientID %>");
 var items = list.get_items();
@@ -47,11 +52,8 @@ items.insert(0, item);
 list.commitChanges();	
 ````
 
->caption  
 
-|  **remove**  | RadListBoxItem | none | Removes an item from the Items collection |
-| ------ | ------ | ------ | ------ |
-
+>caption  Example 3: Demonstrates the usage of the remove method
 ````JavaScript	
 var list = $find("<%= RadListBox1.ClientID %>");
 var items = list.get_items();
@@ -61,44 +63,28 @@ items.remove(item);
 list.commitChanges();	
 ````
 
->caption  
-
-|  **clear**  | none | none | Clears the Items collection of RadListBox |
-| ------ | ------ | ------ | ------ |
-
+>caption  Example 4: Demonstrates the usage of the clear method
 ````JavaScript	
 var list = $find("<%= RadListBox1.ClientID %>");
 var items = list.get_items(); 
 items.clear();	
 ````
 
->caption  
-
-|  **getItem**  | index | RadListBoxItem | Gets the item from the Items collection residing at the index specified by the parameter. |
-| ------ | ------ | ------ | ------ |
-
+>caption  Example 5: Demonstrates the usage of the getItem method
 ````JavaScript	
 var list = $find("<%= RadListBox1.ClientID %>");
 var items = list.get_items(); 
 var firstItem = items.getItem(0);	
 ````
 
->caption  
-
-|  **indexOf**  | RadListBoxItem | int | Gets the index of an item. |
-| ------ | ------ | ------ | ------ |
-
+>caption  Example 6: Demonstrates the usage of the indexOf method
 ````JavaScript	
 var list = $find("<%= RadListBox1.ClientID %>");
 var items = list.get_items(); 
 var index = items.indexOf(list.get_selectedItem());	
 ````
 
->caption  
-
-|  **removeAt**  | int | none | Removes the item at the specified index. |
-| ------ | ------ | ------ | ------ |
-
+>caption  Example 7: Demonstrates the usage of the removeAt method
 ````JavaScript	
 var list = $find("<%= RadListBox1.ClientID %>");
 var items = list.get_items();
@@ -106,11 +92,7 @@ var index = items.indexOf(list.get_selectedItem());
 items.removeAt(index);	
 ````
 
->caption  
-
-|  **get_count**  | none | int | Returns the number of items in the Items collection. |
-| ------ | ------ | ------ | ------ |
-
+>caption  Example 8: Demonstrates the usage of the get_count method
 ````JavaScript	
 var list = $find("<%= RadListBox1.ClientID %>");
 var items = list.get_items();
@@ -119,17 +101,14 @@ for (var i = 0; i < items.get_count(); i++) {
 }	
 ````
 
->caption  
-
-|  **forEach**  | handler | none | Iterates through the Items collection |
-| ------ | ------ | ------ | ------ |
-
+>caption  Example 9: Demonstrates the usage of the forEach method
 ````JavaScript	
 var list = $find("<%= RadListBox1.ClientID %>");
 var items = list.get_items();
 items.forEach(function (item) {
 	alert(item.get_text());
 });	
+
 ````
 
 # See Also
