@@ -25,7 +25,6 @@ The client-side **OnClientFolderChange** event handler receives two arguments:
 	|  **Name**  |  **Parameters**  |  **Return Type**  |  **Description**  |
 	| ------ | ------ | ------ | ------ |
 	|get_cancel()||Boolean|Returns a value that indicates whether the event is cancelled.|
-	|get_isRename()||Boolean|Specifies whether the item is renamed.|
 	|get_item()||Object|Returns the folder that is about to be opened.|
 	|get_path()||Returns the path to the folder that is about to be opened.|
 	|set_cancel(value)|Boolean||Sets whether the event will be cancelled (if true is passed).|
