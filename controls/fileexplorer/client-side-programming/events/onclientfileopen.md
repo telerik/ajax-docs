@@ -27,7 +27,6 @@ The client-side **OnClientFileOpen** event handler receives two arguments:
 	|  **Name**  |  **Parameters**  |  **Return Type**  |  **Description**  |
 	| ------ | ------ | ------ | ------ |
 	|get_cancel()||Boolean|Returns a value that indicates whether the event is cancelled.|
-	|get_isRename()||Boolean|Specifies whether the item is renamed.|
 	|get_item()||Object|Returns the file that will be opened.|
 	|get_path()||String|Returns the path to the file that will be opened.|
 	|set_cancel(value)|Boolean||Sets whether the event will be cancelled (if true is passed).|

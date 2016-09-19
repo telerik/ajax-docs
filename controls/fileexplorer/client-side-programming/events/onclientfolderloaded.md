@@ -25,7 +25,6 @@ The client-side **OnClientFolderLoaded** event handler receives two arguments:
 	|  **Name**  |  **Parameters**  |  **Return Type**  |  **Description**  |
 	| ------ | ------ | ------ | ------ |
 	|get_cancel()||Boolean|Returns a value that indicates whether the event is cancelled.|
-	|get_isRename()||Boolean|Specifies whether the item is renamed.|
 	|get_item()||Object|Returns a reference to the loaded folder.|
 	|get_path()||String|Returns the path to the loaded folder.|
 	|set_cancel(value)|Boolean||Sets whether the event will be cancelled (if true is passed).|
