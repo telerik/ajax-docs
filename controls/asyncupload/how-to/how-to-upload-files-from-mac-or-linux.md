@@ -100,4 +100,4 @@ End Class
 
 # See Also
 
- * [Custom Hanlder demo](http://demos.telerik.com/aspnet-ajax/upload/examples/async/imageuploader/defaultcs.aspx?product=asyncupload)
+ * [Custom Handler demo](http://demos.telerik.com/aspnet-ajax/upload/examples/async/imageuploader/defaultcs.aspx?product=asyncupload)

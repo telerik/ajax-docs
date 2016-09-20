@@ -15,60 +15,16 @@ position: 1
 The **RadMenuItem** object is returned by the **getItem** method of the **[RadMenuItemCollection object]({%slug menu/client-side-programming/objects/radmenuitemcollection-object%})**. It is also exposed by the eventArgs of many [client-side events]({%slug menu/client-side-programming/events/overview%}). The following table lists the most important methods:
 
 
->caption  
-
 | Name | Parameters | Return Type | Description |
 | ------ | ------ | ------ | ------ |
-| **disable** |none|none|Disables the item.|
-
-````JavaScript
-var menu = $find("<%= RadMenu1.ClientID %>");
-var menuItem = menu.findItemByText("Paris");
-menuItem.disable();			
-````
-
-
->caption  
-
-|  **enable**  | none | none | Enables the item if it is disabled. |
-| ------ | ------ | ------ | ------ |
-
-````JavaScript
-var menu = $find("<%= RadMenu1.ClientID %>");
-var menuItem = menu.findItemByText("Paris");
-menuItem.enable();		
-````
-
->caption  
-
-|  **get_isEnabled**  | none | Boolean | Returns true if both the item and the menu are enabled. If one of them is disabled, get_isEnabled() will return false. |
-| ------ | ------ | ------ | ------ |
-| **get_enabled** |none|Boolean|Same as get_isEnabled.|
-| **set_enabled** |Boolean|none|Sets the enabled state of the item.|
-| **focus** |none|none|Moves keyboard focus to the item.|
-
-````JavaScript
-var menu = $find("<%= RadMenu1.ClientID %>");
-var menuItem = menu.findItemByText("Paris");
-menuItem.focus();	
-````
-
->caption  
-
-|  **blur**  | none | none | Removes focus from the item. |
-| ------ | ------ | ------ | ------ |
-
-````JavaScript
-var menu = $find("<%= RadMenu1.ClientID %>");
-var menuItem = menu.findItemByText("Paris");
-menuItem.blur();
-````
-
-
->caption  
-
+| **disable** |none|none|Disables the item. See **Example 1**. |
+| **enable** | none | none | Enables the item if it is disabled. See **Example 2**. |
+| **get_isEnabled** | none | Boolean | Returns true if both the item and the menu are enabled. If one of them is disabled, get_isEnabled() will return false. |
+| **get_enabled** |none|Boolean| Same as get_isEnabled.|
+| **set_enabled** |Boolean|none| Sets the enabled state of the item.|
+| **focus** |none|none| Moves focus to the item. See **Example 3**. |
+| **blur** | none | none | Removes focus from the item. See **Example 4**. |
 |  **focusPreviousItem**  | none | none | Moves focus to the previous item. |
-| ------ | ------ | ------ | ------ |
 | **focusNextItem** |none|none|Moves focus to the next item.|
 | **focusFirstChild** |none|none|Moves focus to the first child of the item.|
 | **focusLastChild** |none|none|Moves focus to the last child of the item.|
@@ -83,29 +39,8 @@ menuItem.blur();
 | **get_menu** |none|RadMenu or RadContextMenu|Returns an instance of the menu that contains the item.|
 | **get_index** |none|Integer|Gets the zero based index of the item inside the parent items collection.|
 | **get_level** |none|Integer|Gets the level of the item. Root level items are first level.|
-| **get_attributes** |(none)|Collection|Returns the collection of custom attributes for the item.|
-
-````JavaScript
-var menu = $find("<%= RadMenu1.ClientID %>");
-var foundItem = menu.findItemByAttribute("Population", "0");
-var attributes = foundItem.get_attributes();
-var size = attributes.getAttribute("size");
-if (size) {
-    attributes.setAttribute("Population", size);
-    attributes.removeAttribute("size");
-}
-else {
-    attributes.setAttribute("Population", "Unknown");
-}			
-````
-
-
-
-
->caption  
-
-|  **open**  | none | none | Expands the item and reveals its children, if any. |
-| ------ | ------ | ------ | ------ |
+| **get_attributes** |(none)|Collection|Returns the collection of custom attributes for the item. See **Example 5**. |
+| **open** | none | none | Expands the item and reveals its children, if any. |
 | **close** |none|none|Collapses the item, if it is expanded.|
 | **click** |none|none|Performs a click on the menu item. It can cause postback, but it will not redirect to another page. See [this example]({%slug menu/how-to/use-radconfirm-to-confirm-menuitem-click%}).|
 | **get_visible** |none|boolean|Returns **true** if the items is visible or **false** if the item is invisible.|
@@ -118,11 +53,7 @@ else {
 | **get_value** |none|string value|Returns the Value property of the item.|
 | **get_isSeparator** |none|boolean|Returns **true** the item is a separator (sever-side property IsSeparator = true)|
 | **get_navigateUrl** |none|string|Gets the URL of the Web page the menu item launches.|
-| **set_navigateUrl** |string|none|Sets the navigateURL property of the item. This is the URL of the Web page the menu item launches.
-
->caution The **navigateUrl** property must be an absolute URL on the client side: e.g., `http://mydomain.com/default.aspx` not `default.aspx`. 
->
-|
+| **set_navigateUrl** |string|none|Sets the navigateURL property of the item. This is the URL of the Web page the menu item launches and it must be an absolute URL on the client side: e.g., `http://mydomain.com/default.aspx` not `default.aspx`. See **Example 6**. |
 | **set_imageUrl** |(string imageUrl)|none|Sets the URL of the image.|
 | **get_imageUrl** |none|(string imageUrl)|Gets the URL of the image.|
 | **set_hoveredImageUrl** |(string imageUrl)|none|Sets the URL of the image displayed when the mouse is over the item.|
@@ -137,6 +68,54 @@ else {
 | **set_selected** |Boolean|none|Sets the selected property of the item.|
 | **get_selectedImageUrl** |none|(string imageURL)|Gets the value of the **SelectedImageUrl** property|
 | **set_selectedImageUrl** |string (imageUrl)|none|Sets the URL of the image displayed when the item is selected|
+
+>caption Example 1: Disable the item.
+````JavaScript
+var menu = $find("<%= RadMenu1.ClientID %>");
+var menuItem = menu.findItemByText("Paris");
+menuItem.disable();			
+````
+
+
+>caption Example 2: Enable the item.
+````JavaScript
+var menu = $find("<%= RadMenu1.ClientID %>");
+var menuItem = menu.findItemByText("Paris");
+menuItem.enable();		
+````
+
+
+>caption Example 3: Focus the item.
+````JavaScript
+var menu = $find("<%= RadMenu1.ClientID %>");
+var menuItem = menu.findItemByText("Paris");
+menuItem.focus();	
+````
+
+
+>caption Example 4: Blur the item.
+````JavaScript
+var menu = $find("<%= RadMenu1.ClientID %>");
+var menuItem = menu.findItemByText("Paris");
+menuItem.blur();
+````
+
+
+>caption Example 5: Get and set the item's custom attributes.
+````JavaScript
+var menu = $find("<%= RadMenu1.ClientID %>");
+var foundItem = menu.findItemByAttribute("Population", "0");
+var attributes = foundItem.get_attributes();
+var size = attributes.getAttribute("size");
+if (size) {
+    attributes.setAttribute("Population", size);
+    attributes.removeAttribute("size");
+}
+else {
+    attributes.setAttribute("Population", "Unknown");
+}			
+````
+
 
 # See Also
 
