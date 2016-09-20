@@ -25,8 +25,16 @@ The **RadToolBarItemCollection** object is returned by the **get_items** method 
 
 | Name | Parameters | Return Type | Description |
 | ------ | ------ | ------ | ------ |
-| **add** |[RadToolBarItem]({%slug toolbar/client-side-programming/radtoolbaritem-object%})|none|Adds a child item to the collection.|
+| **add** |[RadToolBarItem]({%slug toolbar/client-side-programming/radtoolbaritem-object%})|none|Adds a child item to the collection. (see **Example 1**)|
+|  **insert**  | int,[RadToolBarItem]({%slug toolbar/client-side-programming/radtoolbaritem-object%}) | none | Inserts the item into the collection at the position defined by the first (index) parameter. (see **Example 2**)|
+|  **remove**  | [RadToolBarItem]({%slug toolbar/client-side-programming/radtoolbaritem-object%}) | none | Removes the specified item from the collection. (see **Example 3**)|
+|  **clear**  | none | none | Clears the Items collection of all the child items it contains. (see **Example 4**)|
+|  **getItem**  | int | [RadToolBarItem]({%slug toolbar/client-side-programming/radtoolbaritem-object%}) | Returns the item from the collection that resides at the specified index. (see **Example 5**)
+|  **indexOf**  | [RadToolBarItem]({%slug toolbar/client-side-programming/radtoolbaritem-object%}) | int | Returns the index of an item. (see **Example 6**)|
+|  **removeAt**  | int | none | Removes the item at the specified index. (see **Example 7**)|
+|  **get_count**  | none | int | Returns the number of the items in the collection. (see **Example 8**)|
 
+>caption Example 1: Demonstrates the usage of the add method
 ````JavaScript	
 var toolBar = $find("<%=RadToolBar1.ClientID %>");
 
@@ -54,12 +62,7 @@ toolBar.get_items().add(splitButton);
 toolBar.commitChanges();				
 ````
 
-
->caption  
-
-|  **insert**  | int,[RadToolBarItem]({%slug toolbar/client-side-programming/radtoolbaritem-object%}) | none | Inserts the item into the collection at the position defined by the first (index) parameter. |
-| ------ | ------ | ------ | ------ |
-
+>caption Example 2: Demonstrates the usage of the insert method
 ````JavaScript	
 toolBar.trackChanges();
 var insertButton = new Telerik.Web.UI.RadToolBarButton();
@@ -74,11 +77,7 @@ toolBar.get_items().insert(0, insertDropDown);
 toolBar.commitChanges();				
 ````
 
->caption  
-
-|  **remove**  | [RadToolBarItem]({%slug toolbar/client-side-programming/radtoolbaritem-object%}) | none | Removes the specified item from the collection. |
-| ------ | ------ | ------ | ------ |
-
+>caption Example 3: Demonstrates the usage of the remove method
 ````JavaScript	
 var firtItem = toolBar.get_items().getItem(0);
 toolBar.trackChanges();
@@ -86,58 +85,35 @@ toolBar.get_items().remove(firtItem);
 toolBar.commitChanges();				
 ````
 
-
->caption  
-
-|  **clear**  | none | none | Clears the Items collection of all the child items it contains. |
-| ------ | ------ | ------ | ------ |
-
+>caption Example 4: Demonstrates the usage of the clear method
 ````JavaScript	
 toolBar.trackChanges();
 toolBar.get_items().clear();
 toolBar.commitChanges();				
 ````
 
->caption  
-
-|  **getItem**  | int | [RadToolBarItem]({%slug toolbar/client-side-programming/radtoolbaritem-object%}) | Returns the item from the collection that resides at the specified index. |
-| ------ | ------ | ------ | ------ |
-
+>caption Example 5: Demonstrates the usage of the getItem method
 ````JavaScript	     
 var firtItem = toolBar.get_items().getItem(0);				
 ````
 
-
->caption  
-
-|  **indexOf**  | [RadToolBarItem]({%slug toolbar/client-side-programming/radtoolbaritem-object%}) | int | Returns the index of an item. |
-| ------ | ------ | ------ | ------ |
-
+>caption Example 6: Demonstrates the usage of the indexOf method
 ````JavaScript	
 var item = toolBar.get_items().getItem(0);
 toolBar.get_items().indexOf(item);				
 ````
 
-
->caption  
-
-|  **removeAt**  | int | none | Removes the item at the specified index. |
-| ------ | ------ | ------ | ------ |
-
+>caption Example 7: Demonstrates how to remove the first item in the collection
 ````JavaScript	
-//the code below will remove the first item in the collection
-
 toolBar.get_items().removeAt(0);				
 ````
 
->caption  
-
-|  **get_count**  | none | int | Returns the number of the items in the collection. |
-| ------ | ------ | ------ | ------ |
-
+>caption Example 8: Demonstrates the usage of the get_count method
 ````JavaScript	
 toolBar.get_items().get_count();				
 ````
+
+
 
 # See Also
 
