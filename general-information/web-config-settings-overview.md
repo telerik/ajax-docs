@@ -179,7 +179,7 @@ Here follows a list with all the available appSettings keys for the Telerik UI f
 
 * **Telerik.ScriptManager.TelerikCdn.BaseUrl**—lets you configure the base URL of the scripts CDN for the entire application. You can read more about this feature in the [Custom CDN Provider]({%slug scriptmanager/cdn-support/custom-cdn-provider%}) article. 
 
-* **Telerik.ScriptManager.TelerikCdn.CombinedResource**—lets you configure whether to use one combined resource files (scripts) or let each control request its scripts separately. You can read more about this feature in the [Scripts CDN Overview]({%slug scriptmanager/cdn-support/combined-request-for-telerik-controls%}) article. 
+* **Telerik.ScriptManager.TelerikCdn.CombinedScript**—lets you configure whether to use one combined resource files (scripts) or let each control request its scripts separately. You can read more about this feature in the [Scripts CDN Overview]({%slug scriptmanager/cdn-support/combined-request-for-telerik-controls%}) article. 
 
 * **Telerik.StyleSheetManager.TelerikCdn**—lets you enable the skins (css and images) CDN support in RadStyleSheetManager globally for the application by setting it to true. You can read more about this feature in the [Styles CDN Overview]({%slug stylesheetmanager/cdn-support/overview%}) article. 
 
@@ -226,7 +226,7 @@ Here follows a list with all the available appSettings keys for the Telerik UI f
         <add key="Telerik.ScriptManager.TelerikCdn" value="disabled" />
         <add key="Telerik.ScriptManager.TelerikCdn.BaseSecureUrl" value="https://my.favorite.cdn" />
         <add key="Telerik.ScriptManager.TelerikCdn.BaseUrl" value="http://my.favorite.cdn" />
-        <add key="Telerik.ScriptManager.TelerikCdn.CombinedResource" value="disabled" />
+        <add key="Telerik.ScriptManager.TelerikCdn.CombinedScript" value="disabled" />
         <add key="Telerik.StyleSheetManager.TelerikCdn" value="disabled" />
         <add key="Telerik.StyleSheetManager.TelerikCdn.BaseSecureUrl" value="https://my.favorite.cdn" />
         <add key="Telerik.StyleSheetManager.TelerikCdn.BaseUrl" value="http://my.favorite.cdn" />

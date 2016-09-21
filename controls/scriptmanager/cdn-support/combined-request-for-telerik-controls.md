@@ -19,7 +19,7 @@ This resource combination will result in a single request for the Telerik contro
 ````XML
 <configuration>
     <appSettings>
-        <add key="Telerik.ScriptManager.TelerikCdn.CombinedResource" value="Enabled" />
+        <add key="Telerik.ScriptManager.TelerikCdn.CombinedScript" value="Enabled" />
     </appSettings>
 </configuration>
 ````
