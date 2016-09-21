@@ -17,14 +17,18 @@ position: 1
 The following table lists the important methods of the **RadProgressManager** client object:
 
 
->caption  
 
 | Name | Parameters | Return Type | Description |
 | ------ | ------ | ------ | ------ |
-|startProgressPolling|none|none|Starts the progress polling.This method is useful when RadProgressManager does not handle theform.submit event by itself, or when you need to start the progress monitoring before the form is submitted.|
+|startProgressPolling|none|none|Starts the progress polling. This method is useful when RadProgressManager does not handle theform.submit event by itself, or when you need to start the progress monitoring before the form is submitted. See **Example 1**. |
+| hideProgressAreas | none | none | Hides all RadProgressArea dialogs that are currently showing. See **Example 2**. |
 
+
+
+
+>caption Example 1: Start the progress polling.
 ````ASPNET
-<telerik:radprogressmanager runat="server" id="RadProgressManager1" registerforsubmit="false" />
+<telerik:RadProgressManager runat="server" id="RadProgressManager1" registerforsubmit="false" />
 <input type="button" value="Start" onclick="myStart()" />
 <script type="text/javascript">
 	function myStart() {
@@ -34,17 +38,10 @@ The following table lists the important methods of the **RadProgressManager** cl
 ````
 
 
-
-
->caption  
-
-| hideProgressAreas | none | none | Hides all RadProgressArea dialogs that are currently showing. |
-| ------ | ------ | ------ | ------ |
-
+>caption Example 2: Hide all RadProgressArea dialogs.
 ````JavaScript
 getRadProgressManager().hideProgressAreas();
 ````
-
 
 
 # See Also
