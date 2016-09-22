@@ -28,7 +28,7 @@ Add the following<appSetting/> entry in your *web.config*:
 
 ````ASPNET
 <appsettings>
-	<add key="Telerik.Web.UI.ScriptFolders" value="~/Scripts/;"/>
+	<add key="Telerik.Web.UI.ScriptsFolder" value="~/Scripts/;"/>
 </appsettings>
 ````
 
