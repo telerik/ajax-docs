@@ -19,35 +19,11 @@ The **NavigationNode** object is returned by the **getNode** method of the **[Na
 
 | Name | Parameters | Return Type | Description |
 | ------ | ------ | ------ | ------ |
-|  **get_enabled**  | none | Boolean | Returns true if the node is enabled, false if it is disabled. |
+| **get_enabled** | none | Boolean | Returns true if the node is enabled, false if it is disabled. |
 | **get_enabled** |none|Boolean|Same as get_isEnabled.|
 | **set_enabled** |Boolean|none|Sets the enabled state of the node.|
-| **focus** |none|none|Moves the focus to the node.|
-
-````JavaScript
-var nav = $find("<%= RadNavigation1.ClientID %>");
-var node = nav.findNodeByText("Products");
-node.focus();	
-````
-
->caption  
-
-| Name | Parameters | Return Type | Description |
-| ------ | ------ | ------ | ------ |
-|  **blur**  | none | none | Removes focus from the node. |
-
-
-````JavaScript
-var nav = $find("<%= RadNavigation1.ClientID %>");
-var node = nav.findNodeByText("Products");
-node.blur();
-````
-
-
->caption  
-
-| Name | Parameters | Return Type | Description |
-| ------ | ------ | ------ | ------ |
+| **focus** |none|none|Moves the focus to the node. See **Example 1**.|
+| **blur** | none | none | Removes focus from the node. See **Example 2**.|
 | **get_nodes** |none|NodeCollection|Gets the child nodes of the current node.|
 | **get_nextNode** |none|NavigationNode|Returns the next sibling of the node. If the item is last, returns the first node in the NodeCollection.|
 | **get_nextSibling** |none|NavigationNode|Returns the next sibling of the item. If the node is last, returns null.|
@@ -64,14 +40,8 @@ node.blur();
 | **set_visible** |boolean|none|Sets the visibility of the node|
 | **get_text** |none|string text|Returns the text of the node.|
 | **set_text** |string text|none|Sets the text of the node.|
-| **get_navigateUrl** |none|none|Returns the value of the node's navigateURL property. This is the URL of the Web page the node launches on click.
-| **set_navigateUrl** |string|none|Sets the navigateURL property of the node. This is the URL of the Web page the node launches on click.
-
->caution The **navigateUrl** property must be an absolute URL on the client side: e.g., `http://mydomain.com/default.aspx` not `default.aspx`. 
->
-
-| Name | Parameters | Return Type | Description |
-| ------ | ------ | ------ | ------ |
+| **get_navigateUrl** |none|none|Returns the value of the node's navigateURL property. This is the URL of the Web page the node launches on click.|
+| **set_navigateUrl** |string|none|Sets the navigateURL property of the node. This is the URL of the Web page the node launches on click. The **navigateUrl** property must be an absolute URL on the client side: e.g., `http://mydomain.com/default.aspx` not `default.aspx`. |
 | **get_imageUrl** |none|(string imageUrl)|Gets the URL of the image.|
 | **set_imageUrl** |(string imageUrl)|none|Sets the URL of the image.|
 | **get_hoveredImageUrl** |none|(string imageUrl)|Gets the URL of the image displayed when the mouse is over the node.|
@@ -85,6 +55,24 @@ node.blur();
 | **get_childListElement** |none|HTML Element|Gets the DOM element of the list of child nodes (UL).|
 | **get_selected** |none|Boolean|Returns whether the node is selected|
 | **set_selected** |Boolean|none|Sets the selected property of the node.|
+
+
+
+>caption Example 1: Focus a node.
+````JavaScript
+var nav = $find("<%= RadNavigation1.ClientID %>");
+var node = nav.findNodeByText("Products");
+node.focus();	
+````
+
+
+>caption Example 2: Blur a node.
+````JavaScript
+var nav = $find("<%= RadNavigation1.ClientID %>");
+var node = nav.findNodeByText("Products");
+node.blur();
+````
+
 
 
 # See Also

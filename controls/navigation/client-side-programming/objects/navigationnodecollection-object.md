@@ -19,8 +19,17 @@ The **NavigationNodeCollection** object is returned by the **get_nodes** method 
 
 | Name | Parameters | Return Type | Description |
 | ------ | ------ | ------ | ------ |
-| **add** |NavigationNode|none|Adds a child node to the collection.|
+| **add** |NavigationNode|none|Adds a child node to the collection. See **Example 1**.|
+|  **insert**  | int, NavigationNode | none | Inserts the node into the collection at the position defined by the first (index) parameter. See **Example 2**.|
+|  **getNode**  | int | NavigationNode | Returns the item from the collection that resides at the specified index. See **Example 3**.|
+|  **indexOf**  | NavigationNode | int | Returns the index of a node. See **Example 4**.|
+|  **get_count**  | none | int | Returns the number of nodes in the collection. See **Example 5**.|
+|  **getFirstNode**  | none | NavigationNode | Returns the first node in the collection. See **Example 6**.|
+|  **getLastNode**  | none | NavigationNode | Returns the last node in the collection. See **Example 7**.|
 
+
+
+>caption Example 1: Add a child node to the collection.
 ````JavaScript
 var nav = $find("<%= RadNavigation1.ClientID %>");
 var nodes = nav.get_nodes();
@@ -30,12 +39,7 @@ nodes.add(childNode);
 ````
 
 
->caption  
-
-| Name | Parameters | Return Type | Description |
-| ------ | ------ | ------ | ------ |
-|  **insert**  | int, NavigationNode | none | Inserts the node into the collection at the position defined by the first (index) parameter. |
-
+>caption Example 2: Insert a node into the collection at the specified index. 
 ````JavaScript
 var nav = $find("<%= RadNavigation1.ClientID %>");
 var nodes = nav.get_nodes();
@@ -45,28 +49,14 @@ nodes.insert(0, childNode);
 ````
 
 
->caption  
-
-| Name | Parameters | Return Type | Description |
-| ------ | ------ | ------ | ------ |
-|  **getNode**  | int | NavigationNode | Returns the item from the collection that resides at the specified index. |
-
-
+>caption Example 3: Return the item at index 0 from the collection. 
 ````JavaScript
 var nav = $find("<%= RadNavigation1.ClientID %>");
 var node = nav.get_nodes().getNode(0);		
 ````
 
 
->caption  
-
-
-| Name | Parameters | Return Type | Description |
-| ------ | ------ | ------ | ------ |
-|  **indexOf**  | NavigationNode | int | Returns the index of a node. |
-
-
-
+>caption Example 4: Return the node's index.
 ````JavaScript
 var nav = $find("<%= RadNavigation1.ClientID %>");
 var node = nav.get_nodes().getNode(1);
@@ -74,43 +64,21 @@ var index = nav.get_nodes().indexOf(node);
 ````
 
 
->caption  
-
-
-| Name | Parameters | Return Type | Description |
-| ------ | ------ | ------ | ------ |
-|  **get_count**  | none | int | Returns the number of the nodes in the collection. |
-
-
-
+>caption Example 5: Return the number of nodes in the collection. 
 ````JavaScript
 var nav = $find("<%= RadNavigation1.ClientID %>");
 var count = nav.get_nodes().get_count();			
 ````
 
 
->caption  
-
-| Name | Parameters | Return Type | Description |
-| ------ | ------ | ------ | ------ |
-|  **getFirstNode**  | none | NavigationNode | Returns the first node in the collection. |
-
-
-
+>caption Example 6: Return the first node in the collection.
 ````JavaScript
 var nav = $find("<%= RadNavigation1.ClientID %>");
 var node = nav.get_nodes().getFirstNode();			
 ````
 
 
->caption  
-
-| Name | Parameters | Return Type | Description |
-| ------ | ------ | ------ | ------ |
-|  **getLastNode**  | none | NavigationNode | Returns the last node in the collection. |
-
-
-
+>caption Example 7: Return the last node in the collection.
 ````JavaScript
 var nav = $find("<%= RadNavigation1.ClientID %>");
 var node = nav.get_nodes().getLastNode();		
