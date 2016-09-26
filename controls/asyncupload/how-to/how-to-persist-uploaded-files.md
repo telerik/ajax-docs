@@ -12,9 +12,9 @@ position: 3
 
 ## Persist uploaded files
 
-**RadAsyncUpload** provides **PostbackTriggers** property which can be used to persist the information forthe successfully uploaded files after a postback.Using that property the information about successfully uploaded files will be persisted after every postback until an exact control triggers a postback. When a postback is triggered from a control which ID is contained by **PostbackTriggers** property all the information for the uploaded files will become available on the server side and the RadAsyncUpload control will stop persisting the uploaded files' information.
+**RadAsyncUpload** provides **PostbackTriggers** property which can be used to persist the information for the successfully uploaded files after a postback. Using that property the information about successfully uploaded files will be persisted after every postback until an exact control triggers a postback. When a postback is triggered from a control which ID is contained by **PostbackTriggers** property all the information for the uploaded files will become available on the server side and the RadAsyncUpload control will stop persisting the uploaded files' information.
 
-Indeed **RadAsyncUpload** persists it’s client state(it is a hidden field on the client side that contains information about RadAsyncUploadcontrol) until an exact control triggers a postback. When that happens the client state is reset.
+Indeed **RadAsyncUpload** persists its client state(it is a hidden field on the client side that contains information about RadAsyncUploadcontrol) until an exact control triggers a postback. When that happens the client state is reset.
 
 **PostbackTriggers** property is a string array and it can be set from the markup or from the code behind. In case that the property is set from the markup and from the code behind, the value from the code behind is taking in mind.
 
