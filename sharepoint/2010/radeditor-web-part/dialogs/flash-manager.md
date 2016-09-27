@@ -5,7 +5,7 @@ description: Flash Manager
 slug: sharepoint/2010/radeditor-web-part/dialogs/flash-manager
 tags: flash,manager
 published: True
-position: 5
+position: 6
 ---
 
 # Flash Manager

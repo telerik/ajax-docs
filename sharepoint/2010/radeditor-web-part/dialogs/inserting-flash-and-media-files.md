@@ -5,7 +5,7 @@ description: Inserting Flash and Media Files
 slug: sharepoint/2010/radeditor-web-part/dialogs/inserting-flash-and-media-files
 tags: inserting,flash,and,media,files
 published: True
-position: 0
+position: 1
 ---
 
 # Inserting Flash and Media Files

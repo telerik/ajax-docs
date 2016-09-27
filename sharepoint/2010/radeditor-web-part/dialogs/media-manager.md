@@ -5,7 +5,7 @@ description: Media Manager
 slug: sharepoint/2010/radeditor-web-part/dialogs/media-manager
 tags: media,manager
 published: True
-position: 3
+position: 4
 ---
 
 # Media Manager

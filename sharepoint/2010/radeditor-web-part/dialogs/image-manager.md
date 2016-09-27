@@ -5,7 +5,7 @@ description: Image Manager
 slug: sharepoint/2010/radeditor-web-part/dialogs/image-manager
 tags: image,manager
 published: True
-position: 1
+position: 2
 ---
 
 # Image Manager

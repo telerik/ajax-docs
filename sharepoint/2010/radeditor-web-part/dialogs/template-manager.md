@@ -5,7 +5,7 @@ description: Template Manager
 slug: sharepoint/2010/radeditor-web-part/dialogs/template-manager
 tags: template,manager
 published: True
-position: 4
+position: 5
 ---
 
 # Template Manager

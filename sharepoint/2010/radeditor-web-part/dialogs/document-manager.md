@@ -5,7 +5,7 @@ description: Document Manager
 slug: sharepoint/2010/radeditor-web-part/dialogs/document-manager
 tags: document,manager
 published: True
-position: 2
+position: 3
 ---
 
 # Document Manager
