@@ -12,11 +12,11 @@ position: 11
 
 **RadEditor for ASP.NET AJAX** loses its content when the user navigates out of the page and comes back by using the **Back** button of the browser. 
 
-Browsers automatically preserve the content in such scenario only for form elements like `<textarea>`, `<input/>` and so on. **RadEditor**, however, is an editable DOM element that the browser does not consider as a form element field and does not preserve its contents automatically. 
+Browsers automatically preserve the content in such scenarios only for form elements like `<textarea>`, `<input/>` and so on. Because **RadEditor** is an editable DOM element that the browser does not consider a form element field, the browswer does not preserve its contents automatically. 
 
 **Possible solutions**:
 
-* For **Chrome** and **Firefox**: You can use the `window.onbeforeunload` event in order to detect that user navigates out of the page and save the content of **RadEditor** in its own hidden `<textarea>`.
+* For **Chrome** and **Firefox**: You can use the `window.onbeforeunload` event in order to detect that the user is trying to navigate out of the page and save the content of **RadEditor** in its own hidden `<textarea>`.
 
 	>caption Example 1: Solution with `window.onbeforeunload` event.
 
@@ -32,7 +32,7 @@ Browsers automatically preserve the content in such scenario only for form eleme
 		</script>
 
 
-* For all browsers: IE cannot preserve the content during `window.onbeforeunload` and you can either save the content in the `<textarea>` while text is being typed in, or by using a `setInterval` to not affect the performance of your page.
+* For all browsers: IE cannot preserve the content during `window.onbeforeunload`. So you can either save the content in the `<textarea>` while text is being typed in or you can use `setInterval` to not affect the performance of your page.
 
 	>caption Example 2: Solution with `onkeyup` event.
 
