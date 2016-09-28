@@ -27,47 +27,14 @@ The following table lists the most important methods of the client-side **RadCom
 
 | Name | Parameters | Return Type | Description |
 | ------ | ------ | ------ | ------ |
-| **trackChanges** |none|none|Starts tracking changes made to **RadComboBox** that will be preserved over postbacks.|
-| **commitChanges** |none|none|Writes the changes to **RadComboBox** that were made since a previous call to **trackChanges** , so that they are preserved over postbacks.|
-
-````JavaScript
-		
-function AddNewItem() {
-    var combo = $find("<%= RadComboBox1.ClientID %>");
-    var comboItem = new Telerik.Web.UI.RadComboBoxItem();
-    comboItem.set_text("item");
-    combo.trackChanges();
-    combo.get_items().add(comboItem);
-    comboItem.select(); 
-    combo.commitChanges();
-}
-	
-````
-
-
-
->tip Client-side changes are available on the server after postback. You can use the [ClientChanges]({%slug combobox/client-side-programming/accessing-client-changes-at-the-server%}) property to access them.
->
-
-| Name | Parameters | Return Type | Description |
-| ------ | ------ | ------ | ------ |
-| **set_text** |(string text)|none|Sets the text of the input field to the value of the specified parameter.|
-
-
-````JavaScript
-	
-function SetTextOfTheComboBox() {
-    var combo = $find("<%= RadComboBox1.ClientID %>"); 
-    combo.set_text("CustomText");
-}
-	
-````
-
-| Name | Parameters | Return Type | Description |
-| ------ | ------ | ------ | ------ |
+| **trackChanges** |none|none|Starts tracking changes made to **RadComboBox** that will be preserved over postbacks. See **Example 1**. |
+| **commitChanges** |none|none|Writes the changes to **RadComboBox** that were made since a previous call to **trackChanges** , so that they are preserved over postbacks. Client-side changes are available on the server after postback. You can use the [ClientChanges]({%slug combobox/client-side-programming/accessing-client-changes-at-the-server%}) property to access them. See **Example 1**. |
+| **set_text** |(string text)|none|Sets the text of the input field to the value of the specified parameter. See **Example 2**. |
 | **get_text** |none|string|Gets the text of the input field.|
 | **get_checkedItems** |none|array|Gets an array of the checked **RadComboBoxItem** objects.|
 | **get_lastWord** |none|string|Gets the word after the last separator in the text of **RadComboBox** input field. If a separator is not set, returns the text itself.|
+| **set_allowCustomEntry** |Boolean|none| Allows/Disallows the users to type text in the input area, when called with 'false' as a parameter - the input area contains only the currently selected item's text, or text obtained by all selected items' texts separated by comma or other character.|
+| **get_allowCustomEntry** |none|Boolean| Returns **true** the users are allowed to type random text in the input area, **false** otherwise.|
 | **set_emptyMessage** |(string text)|none|Sets the **EmptyMessage** text of **RadComboBox** input field.|
 | **get_emptyMessage** |none|string|Gets the **EmptyMessage** text of **RadComboBox** input field.|
 | **set_value** |(string value)|none|Sets the value of **RadComboBox** .|
@@ -80,77 +47,18 @@ function SetTextOfTheComboBox() {
 | **disable** |none|none|Disables the **RadComboBox** .|
 | **findItemByValue** |(string value)| **RadComboBoxItem** |Returns the first **RadComboBoxItem** object whose **Value** property equals the passed parameter.|
 | **findItemByText** |(string text)| **RadComboBoxItem** |Returns the first **RadComboBoxItem** object whose **Text** property equals the passed parameter.|
+| **findFirstMatch** |string| **RadComboBoxItem** |Returns the first **RadComboBoxItem** object whose **Text** contains the string passed as parameter.|
 | **clearItems** |none|none|Clears all items of **RadComboBox** .|
-| **clearSelection** |none|none|Clears the selection.|
-
-````JavaScript
-	
-function ClearSelection() {
-    var combo = $find("<%= RadComboBox1.ClientID %>");
-    combo.clearSelection(); 
-}
-	
-````
-
-| Name | Parameters | Return Type | Description |
-| ------ | ------ | ------ | ------ |
-| **requestItems** |(string text, Boolean)|none|Initiates a [load-on-demand]({%slug combobox/load-on-demand/overview%})callback request with the specified text, causing the **ItemsRequested** server event to fire or a request to be sent to a web service. The second Boolean parameter instructs the **RadComboBox** to append the new items ( **True** ) or clear items ( **False** ).|
-
-````ASPNET
-	    
-<script language="javascript" type="text/javascript">
-function AddItems() {
-    var combo = $find("<%= RadComboBox1.ClientID %>"); 
-    combo.requestItems("Item1", true);
-}
-</script>
-
-<telerik:radcombobox 
-    id="RadComboBox1" 
-    runat="server"
-    onitemsrequested="RadComboBox1_ItemsRequested">
-</telerik:radcombobox>
-<input id="Button1" type="button" value="button" onclick="AddItems()" />
-	
-````
-
-| Name | Parameters | Return Type | Description |
-| ------ | ------ | ------ | ------ |
+| **clearSelection** |none|none|Clears the selection. See **Example 3**. |
+| **requestItems** |(string text, Boolean)|none|Initiates a [load-on-demand]({%slug combobox/load-on-demand/overview%})callback request with the specified text, causing the **ItemsRequested** server event to fire or a request to be sent to a web service. The second Boolean parameter instructs the **RadComboBox** to append the new items ( **True** ) or clear items ( **False** ). See **Example 4**. |
 | **get_id** |none|string|Gets the server-side ID of the **RadComboBox** instance.|
 | **get_dropDownElement** |none|DOM object|Gets a reference to the drop-down list.|
-| **get_inputDomElement** |none|DOM object|Gets a reference to the input area.|
-
-
-````JavaScript
-	
-function ChangeInputColor() {
-    var combo = $find("<%= RadComboBox1.ClientID %>");
-    var inputArea = combo.get_inputDomElement();
-    inputArea.style.backgroundColor = "red" 
-}
-	
-````
-
-| Name | Parameters | Return Type | Description |
-| ------ | ------ | ------ | ------ |
-| **get_imageDomElement** |none|DOM object|Gets a reference to image element (drop-down toggle).|
-
-
-````JavaScript
-	
-function ChangeImageElement() {
-    var combo = $find("<%= RadComboBox1.ClientID %>");
-    var image = combo.get_imageDomElement();
-    image.src = "MyImage.gif"; 
-}
-	
-````
-
-| Name | Parameters | Return Type | Description |
-| ------ | ------ | ------ | ------ |
+| **get_inputDomElement** |none|DOM object|Gets a reference to the input area. See **Example 5**. |
+| **get_imageDomElement** |none|DOM object|Gets a reference to image element (drop-down toggle). See **Example 6**. |
 | **get_moreResultsBoxElement** |none|DOM object|Gets a reference to the **MoreResultsBox** image element.|
 | **get_moreResultsBoxMessageElement** |none|DOM object|Gets a reference to the **MoreResultsBox Message** element.|
 | **get_dropDownVisible** |none|Boolean| **True** if the drop-down is opened.|
+| **set_enabled** |Boolean|none| Enables/disables the **RadComboBox**.|
 | **get_enabled** |none|Boolean| **True** if **RadComboBox** is enabled.|
 | **get_selectedItem** |none| **RadComboBoxItem** |Gets the currently selected item.|
 | **get_selectedIndex** |none|integer|Gets the index of the currently selected item.|
@@ -168,6 +76,98 @@ function ChangeImageElement() {
 | **set_markFirstMatch** |Boolean|none|Sets the **MarkFirstMatch** property.|
 | **clearCache** |none|none|Clears the items cache if [EnableItemCaching]({%slug combobox/load-on-demand/caching-items%}) is **True** .|
 | **get_highlightedItem** |none| **RadComboBoxItem** |Gets the currently highlighted item.|
+
+
+
+
+
+>caption Example 1: Add a new item and persist it after a postback. 
+````JavaScript
+		
+function AddNewItem() {
+    var combo = $find("<%= RadComboBox1.ClientID %>");
+    var comboItem = new Telerik.Web.UI.RadComboBoxItem();
+    comboItem.set_text("item");
+    combo.trackChanges();
+    combo.get_items().add(comboItem);
+    comboItem.select(); 
+    combo.commitChanges();
+}
+	
+````
+
+
+
+>caption Example 2: Set **RadComboBox**'s text. 
+````JavaScript
+	
+function SetTextOfTheComboBox() {
+    var combo = $find("<%= RadComboBox1.ClientID %>"); 
+    combo.set_text("CustomText");
+}
+	
+````
+
+
+
+>caption Example 3: Clear the selection. 
+````JavaScript
+	
+function ClearSelection() {
+    var combo = $find("<%= RadComboBox1.ClientID %>");
+    combo.clearSelection(); 
+}
+	
+````
+
+
+
+>caption Example 4: Initiate a load-on-demand callback request with the specified text.
+````ASPNET
+	    
+<script language="javascript" type="text/javascript">
+function AddItems() {
+    var combo = $find("<%= RadComboBox1.ClientID %>"); 
+    combo.requestItems("Item1", true);
+}
+</script>
+
+<telerik:RadComboBox 
+    id="RadComboBox1" 
+    runat="server"
+    onitemsrequested="RadComboBox1_ItemsRequested">
+</telerik:RadComboBox>
+<input id="Button1" type="button" value="button" onclick="AddItems()" />
+	
+````
+
+
+
+>caption Example 5: Set the background-color of the input area.
+````JavaScript
+	
+function ChangeInputColor() {
+    var combo = $find("<%= RadComboBox1.ClientID %>");
+    var inputArea = combo.get_inputDomElement();
+    inputArea.style.backgroundColor = "red" 
+}
+	
+````
+
+
+
+>caption Example 6: Set the image DOM element's src attribute. 
+````JavaScript
+	
+function ChangeImageElement() {
+    var combo = $find("<%= RadComboBox1.ClientID %>");
+    var image = combo.get_imageDomElement();
+    image.src = "MyImage.gif"; 
+}
+	
+````
+
+
 
 # See Also
 

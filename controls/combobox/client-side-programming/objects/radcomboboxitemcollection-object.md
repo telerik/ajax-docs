@@ -19,11 +19,22 @@ The **RadComboBoxItemCollection** object is returned by the **get_items** method
 
 >caption  
 
-|  **Name**  |  **Parameters**  |  **Return Type**  |  **Description**  |
+| Name | Parameters | Return Type | Description |
 | ------ | ------ | ------ | ------ |
-| **add** |RadComboBoxItem|none|Adds an item to the Items collection.|
+| **add** |RadComboBoxItem|none|Adds an item to the Items collection. See **Example 1**. |
+| **insert** |int, RadComboBoxItem|none|Inserts an item into the Items collection at the position specified by the first (index) parameter. See **Example 2**. |
+| **remove** |RadComboBoxItem|none|Removes a child item from the Items collection. See **Example 3**. |
+| **clear** |none|none|Clears the Items collection of RadComboBox. See **Example 4**. |
+| **getItem** |int|RadComboBoxItem|Gets the item from the Items collection residing at the index specified by the parameter. See **Example 5**. |
+| **indexOf** |RadComboBoxItem|int|Gets the index of an item. See **Example 6**. |
+| **removeAt** |int|none|Removes the item at the specified index. See **Example 7**. |
+| **get_count** |none|int|Returns the number of items in the Items collection. See **Example 8**. |
 
 
+
+
+
+>caption Example 1: Add an item to the Items collection.
 ````JavaScript
 	
 var combo = $find("<%= RadComboBox1.ClientID %>");
@@ -38,11 +49,9 @@ combo.commitChanges();
 	
 ````
 
-|  **Name**  |  **Parameters**  |  **Return Type**  |  **Description**  |
-| ------ | ------ | ------ | ------ |
-| **insert** |int, RadComboBoxItem|none|Inserts an item into the Items collection at the position specified by the first (index) parameter.|
 
 
+>caption Example 2: Insert a new item into the Items collection at index 0.
 ````JavaScript
 	
 var combo = $find("<%= RadComboBox1.ClientID %>");
@@ -57,11 +66,9 @@ combo.commitChanges();
 	
 ````
 
-|  **Name**  |  **Parameters**  |  **Return Type**  |  **Description**  |
-| ------ | ------ | ------ | ------ |
-| **remove** |RadComboBoxItem|none|Removes a child item from the Items collection.|
 
 
+>caption Example 3: Find an item by its text value and remove it from the Items collection. 
 ````JavaScript
 	
 var combo = $find("<%= RadComboBox1.ClientID %>");
@@ -74,11 +81,8 @@ combo.commitChanges();
 ````
 
 
-|  **Name**  |  **Parameters**  |  **Return Type**  |  **Description**  |
-| ------ | ------ | ------ | ------ |
-| **clear** |none|none|Clears the Items collection of RadComboBox.|
 
-
+>caption Example 4: Clear the Items collection.
 ````JavaScript
 	
 var combo = $find("<%= RadComboBox1.ClientID %>");
@@ -87,11 +91,8 @@ items.clear();
 	
 ````
 
-|  **Name**  |  **Parameters**  |  **Return Type**  |  **Description**  |
-| ------ | ------ | ------ | ------ |
-| **getItem** |int|RadComboBoxItem|Gets the item from the Items collection residing at the index specified by the parameter.|
 
-
+>caption Example 5: Get the item at index 1 from the Items collection.
 ````JavaScript
 	
 var combo = $find("<%= RadComboBox1.ClientID %>");
@@ -102,11 +103,8 @@ var comboItem = items.getItem(1);
 ````
 
 
-|  **Name**  |  **Parameters**  |  **Return Type**  |  **Description**  |
-| ------ | ------ | ------ | ------ |
-| **indexOf** |RadComboBoxItem|int|Gets the index of an item.|
 
-
+>caption Example 6: Find an item by its text value and get its index in the Items collection.
 ````JavaScript
 	
 var combo = $find("<%= RadComboBox1.ClientID %>");
@@ -117,11 +115,8 @@ var index = items.indexOf(comboItem);
 ````
 
 
-|  **Name**  |  **Parameters**  |  **Return Type**  |  **Description**  |
-| ------ | ------ | ------ | ------ |
-| **removeAt** |int|none|Removes the item at the specified index.|
 
-
+>caption Example 7: Remove the item at the specified index.
 ````JavaScript
 	
 var combo = $find("<%= RadComboBox1.ClientID %>"); 
@@ -133,12 +128,8 @@ items.removeAt(index);
 ````
 
 
-|  **Name**  |  **Parameters**  |  **Return Type**  |  **Description**  |
-| ------ | ------ | ------ | ------ |
-| **get_count** |none|int|Returns the number of items in the Items collection.|
 
-
-
+>caption Example 8: Get the number of items in the Items collection and display their text value.
 ````JavaScript
 	
 var combo = $find("<%= RadComboBox1.ClientID %>");
