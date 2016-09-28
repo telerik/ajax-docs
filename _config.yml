@@ -860,33 +860,21 @@ navigation:
     "*grid/functionality/paging/changing-the-default-pager":
         title: "Changing the Default Pager"
         position: 4
-    "*grid/functionality/paging/how-to":
-        title: "How-to"
-        position: 5
     "*grid/functionality/sorting":
         title: "Sorting"
         position: 1
     "*grid/functionality/scrolling":
         title: "Scrolling"
         position: 2
-    "*grid/functionality/scrolling/how-to":
-        title: "How-to"
-        position: 5
     "*grid/functionality/grouping":
         title: "Grouping"
         position: 3
     "*grid/functionality/grouping/group-by-expressions":
         title: "Group-by Expressions"
         position: 1
-    "*grid/functionality/grouping/how-to":
-        title: "How-to"
-        position: 6
     "*grid/functionality/filtering":
         title: "Filtering"
         position: 4
-    "*grid/functionality/filtering/how-to":
-        title: "How to"
-        position: 5
     "*grid/functionality/selecting":
         title: "Selecting"
         position: 5
@@ -938,18 +926,12 @@ navigation:
     "*grid/ajaxified-radgrid/what-you-should-have-in-mind":
         title: "What You Should Have in Mind"
         position: 1
-    "*grid/ajaxified-radgrid/how-to":
-        title: "How To"
-        position: 3
     "*grid/inheritance":
         title: "Inheritance"
         position: 16
     "*grid/control-lifecycle":
         title: "Control Lifecycle"
         position: 17
-    "*grid/accessibility-and-internationalization/how-to":
-        title: "How To"
-        position: 9
     "*grid/server-side-programming":
         title: "Server-Side Programming"
         position: 20
@@ -1001,6 +983,22 @@ navigation:
     "*grid/client-side-programming/events/events":
         title: "Events"
         position: 1
+    "*grid/how-to":
+            title: "How To"
+            position: 22
+    "*grid/how-to/ajaxified-grid":
+            title: "Ajaxified Grid"
+            position: 2
+    "*grid/how-to/data-editing":
+            title: "Data-Editing"
+            position: 3
+    "*grid/how-to/hierarchy":
+            title: "Hierarchy"
+            position: 7
+    "*grid/how-to/persisting-settings":
+            title: "Persisting Settings"
+            position: 8
+
     "*htmlchart/changes-and-backwards-compatibility/migrating-from-radchart-to-radhtmlchart":
         title: "Migrating from RadChart to RadHtmlChart"
         position: 0
@@ -1444,7 +1442,7 @@ navigation:
         position: 5
     "*spreadsheet/functionality/formulas-and-functions":
         title: "Formulas and Functions"
-        position: 6    
+        position: 6
     "*spreadsheet/functionality/multilinecellediting":
         title: "Multiline Cell Editing"
         position: 7   
