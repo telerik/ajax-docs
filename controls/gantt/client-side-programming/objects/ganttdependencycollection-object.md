@@ -29,7 +29,7 @@ The following table lists the most important methods of the **GanttDependencyCol
 | **toArray** |none|array|Returns the collection represented as array.|
 
 
-**Example 1**: Remove the dependency at index 5 from the Gantt's DependencyCollection.
+>caption  Example 1: Remove the dependency at index 5 from the Gantt's DependencyCollection.
 ````JavaScript
 var gantt = $find("<%= RadGantt1.ClientID %>");
 var collection = gantt.get_dependencies(); 	

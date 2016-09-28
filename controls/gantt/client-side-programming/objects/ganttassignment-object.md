@@ -27,14 +27,14 @@ The following table lists the most important methods of the **GanttAssignment** 
 | **set_units** |Number|none|Sets the assigned units of the corresponding assignment.|
 
 
-**Example 1**: Get the id of the first assignment in the Gantt's AssignmentCollection.
+>caption  Example 1: Get the id of the first assignment in the Gantt's AssignmentCollection.
 ````JavaScript
 var gantt = $find("<%= RadGantt1.ClientID %>");
 var firstAssignment = gantt.get_assignments().getAssignment(0); 	
 var id = firstAssignment.get_id();	 
 ````
 
-**Example 2**: Get the assigned units of the corresponding assignment.
+>caption  Example 2: Get the assigned units of the corresponding assignment.
 ````JavaScript
 var gantt = $find("<%= RadGantt1.ClientID %>");
 var firstAssignment = gantt.get_assignments().getAssignment(0); 

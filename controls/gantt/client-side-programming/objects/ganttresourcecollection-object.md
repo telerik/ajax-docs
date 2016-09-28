@@ -25,7 +25,7 @@ The following table lists the most important methods of the **GanttResourceColle
 | **toArray** |none|array|Returns the collection represented as array.|
 
 
-**Example 1**: Get the resource at index 3 from the Gantt's ResourceCollection.
+>caption  Example 1: Get the resource at index 3 from the Gantt's ResourceCollection.
 ````JavaScript
 var gantt = $find("<%= RadGantt1.ClientID %>");
 var collection = gantt.get_resources(); 	

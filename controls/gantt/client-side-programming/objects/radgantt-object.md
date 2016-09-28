@@ -65,44 +65,44 @@ The following table lists the most important methods of the **RadGantt** client-
 |  **set_workWeekStart**  | int | none |Sets the Gantts's first day of the work week.|
 
 
-**Example 1**: Get a collection with all Gantt tasks.
+>caption  Example 1: Get a collection with all Gantt tasks.
 ````JavaScript
 var gantt = $find("<%= RadGantt1.ClientID %>");
 var allTasks = gantt.get_allTasks();  
 ````
 
-**Example 2**: Get the id of the first dependency in the Gantt's DependencyCollection.
+>caption  Example 2: Get the id of the first dependency in the Gantt's DependencyCollection.
 ````JavaScript
 var gantt = $find("<%= RadGantt1.ClientID %>");
 var firstDependency = gantt.get_dependencies().getDependency(0); 	
 var id = firstDependency.get_id();	
 ````
 
-**Example 3**: Enable column resizing.
+>caption  Example 3: Enable column resizing.
 ````JavaScript
 var gantt = $find("<%= RadGantt1.ClientID %>");
 gantt.set_allowColumnResize(true); 	
 ````
 
-**Example 4**: Set the current time marker interval to 5000.
+>caption  Example 4: Set the current time marker interval to 5000.
 ````JavaScript
 var gantt = $find("<%= RadGantt1.ClientID %>");
 gantt.set_currentTimeMarkerInterval(5000); 		
 ````
 
-**Example 5**: Set the Gantt's height to 700px.
+>caption  Example 5: Set the Gantt's height to 700px.
 ````JavaScript
 var gantt = $find("<%= RadGantt1.ClientID %>");
 gantt.set_height(700); 		
 ````
 
-**Example 6**: Set the Week view as selected.
+>caption  Example 6: Set the Week view as selected.
 ````JavaScript
 var gantt = $find("<%= RadGantt1.ClientID %>");
 gantt.set_selectedView(1); 	
 ````
 
-**Example 7**: Set the work week end to Thursday.
+>caption  Example 7: Set the work week end to Thursday.
 ````JavaScript
 var gantt = $find("<%= RadGantt1.ClientID %>");
 gantt.set_workWeekEnd(4); 	

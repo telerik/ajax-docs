@@ -25,28 +25,28 @@ The following table lists the most important methods of the **GanttResource** cl
 | **get_format** |none|string|Gets the format of the resource value.  See **Example 4**.|
 
 
-**Example 1**: Get the id of the first resource in the Gantt's DependencyCollection.
+>caption  Example 1: Get the id of the first resource in the Gantt's DependencyCollection.
 ````JavaScript
 var gantt = $find("<%= RadGantt1.ClientID %>");
 var firstResource = gantt.get_resources().getResource(0); 	
 var id = firstResource.get_id();	 
 ````
 
-**Example 2**: Get the text of the first resource in the Gantt's DependencyCollection.
+>caption  Example 2: Get the text of the first resource in the Gantt's DependencyCollection.
 ````JavaScript
 var gantt = $find("<%= RadGantt1.ClientID %>");
 var firstResource = gantt.get_resources().getResource(0); 
 var text = firstResource.get_text();	 
 ````
 
-**Example 3**: Get the color of the first resource in the Gantt's DependencyCollection.
+>caption  Example 3: Get the color of the first resource in the Gantt's DependencyCollection.
 ````JavaScript
 var gantt = $find("<%= RadGantt1.ClientID %>");
 var firstResource = gantt.get_resources().getResource(0); 
 var color = firstResource.get_color();	 
 ````
 
-**Example 4**: Get the format of the first resource in the Gantt's DependencyCollection.
+>caption  Example 4: Get the format of the first resource in the Gantt's DependencyCollection.
 ````JavaScript
 var gantt = $find("<%= RadGantt1.ClientID %>");
 var firstResource = gantt.get_resources().getResource(0); 

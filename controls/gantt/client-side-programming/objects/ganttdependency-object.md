@@ -27,7 +27,7 @@ The following table lists the most important methods of the **GanttDependency** 
 | **get_type** |none|Telerik.Web.UI.GanttDependencyType|Gets the type of the dependency.|
 
 
-**Example 1**: Get the id of the first dependency in the Gantt's DependencyCollection.
+>caption  Example 1: Get the id of the first dependency in the Gantt's DependencyCollection.
 ````JavaScript
 var gantt = $find("<%= RadGantt1.ClientID %>");
 var firstDependency = gantt.get_dependencies().getDependency(0); 	

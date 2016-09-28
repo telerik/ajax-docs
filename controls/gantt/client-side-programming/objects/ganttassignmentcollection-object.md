@@ -27,7 +27,7 @@ The following table lists the most important methods of the **GanttAssignmentCol
 | **toArray** |none|array|Returns the collection represented as array.|
 
 
-**Example 1**: Remove the resource assignment at index 5 from the Gantt's AssignmentCollection.
+>caption  Example 1: Remove the resource assignment at index 5 from the Gantt's AssignmentCollection.
 ````JavaScript
 var gantt = $find("<%= RadGantt1.ClientID %>");
 var collection = gantt.get_assignments(); 	

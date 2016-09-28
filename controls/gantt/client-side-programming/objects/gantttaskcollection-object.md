@@ -29,7 +29,7 @@ The following table lists the most important methods of the **GanttTaskCollectio
 |  **toArray**  | none | array |Returns the collection of tasks represented as array.|
 
 
-**Example 1**: Get a reference to the first task in the GanttTaskCollection and remove it.
+>caption  Example 1: Get a reference to the first task in the GanttTaskCollection and remove it.
 ````JavaScript
 var gantt = $find("<%= RadGantt1.ClientID %>");
 var firstTask = gantt.get_tasks().getTask(0);  

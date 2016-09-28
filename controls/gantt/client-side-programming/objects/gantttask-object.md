@@ -41,20 +41,20 @@ The following table lists the most important methods of the **GanttTask** client
 |  **set_expanded**  | boolean | none |Sets a boolean value indicating whether the task is expanded. See **Example 3**.|
 
 
-**Example 1**: Get the id of the first task in the GanttTaskCollection.
+>caption  Example 1: Get the id of the first task in the GanttTaskCollection.
 ````JavaScript
 var gantt = $find("<%= RadGantt1.ClientID %>");
 var taskId = gantt.get_tasks().getTask(0).get_id();  
 ````
 
-**Example 2**: Set the start time of the first task in the GanttTaskCollection.
+>caption  Example 2: Set the start time of the first task in the GanttTaskCollection.
 ````JavaScript
 var gantt = $find("<%= RadGantt1.ClientID %>");
 var startDate = new Date(2016,6,14,10,30,0,0);
 gantt.get_tasks().getTask(0).set_start(startDate);
 ````
 
-**Example 3**: Expand the first task in the GanttTaskCollection.
+>caption  Example 3: Expand the first task in the GanttTaskCollection.
 ````JavaScript
 var gantt = $find("<%= RadGantt1.ClientID %>");
 gantt.get_tasks().getTask(0).set_expanded(true);
