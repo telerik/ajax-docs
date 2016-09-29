@@ -35,4 +35,4 @@ The user confirms Token text editing explicitly by pressing the **"Enter"** key 
 
 # See Also
 
- * [RadAutioComplete overview demo](http://demos.telerik.com/aspnet-ajax/autocompletebox/examples/default/defaultcs.aspx)
+ * [RadAutoCompleteBox overview demo](http://demos.telerik.com/aspnet-ajax/autocompletebox/examples/default/defaultcs.aspx)
