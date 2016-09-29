@@ -19,17 +19,37 @@ The following table lists the most important methods of the **RadPanelBar** clie
 
 >caption  
 
-|  **Name**  |  **Parameters**  |  **Return Type**  |  **Description**  |
+| Name | Parameters | Return Type | Description |
 | ------ | ------ | ------ | ------ |
-| **trackChanges** |none|none|Begins tracking changes to the panel items. Only changes to the items that occur between a call to **trackChanges** and **commitChanges** persist after a postback.|
-| **commitChanges** |none|none|Ends tracking changes to the panel items. Only changes to the items that occur between a call to **trackChanges** and **commitChanges** persist after a postback.|
+| **trackChanges** |none|none|Begins tracking changes to the panel items. Only changes to the items that occur between a call to **trackChanges** and **commitChanges** persist after a postback. See **Example 1**. |
+| **commitChanges** |none|none|Ends tracking changes to the panel items. Only changes to the items that occur between a call to **trackChanges** and **commitChanges** persist after a postback. Client side changes are available on the server side after postback. You can use the [ClientChanges]({%slug panelbar/client-side-programming/accessing-client-changes-on-the-server%}) property to access them. See **Example 1**. |
+| **disable** | none | none | Disables all items in the panel. Clicking on any item has no effect, child items cannot be opened. See **Example 2**. |
+| **enable** | none | none | Enables all items in the panel. |
+| **get_enabled** | none | boolean | True if the panel is enabled. To enable a panel, use the enable() method.|
+| **findItemByValue** |(string value)|[RadPanelItem]({%slug panelbar/client-side-programming/radpanelitem-object%})|Returns the first **RadPanelBarItem** object whose **Value** property is equal to the passed parameter.|
+| **findItemByText** |(string text)|[RadPanelItem]({%slug panelbar/client-side-programming/radpanelitem-object%})|Returns the first **RadPanelBarItem** object whose **Text** property is equal to the passed parameter.|
+| **findItemByUrl** |(string URL)|[RadPanelItem]({%slug panelbar/client-side-programming/radpanelitem-object%})|Returns the first **RadPanelBarItem** object whose **NavigateUrl** property is equal to the passed parameter.|
+| **findItemByAbsoluteUrl** |(string URL)|[RadPanelItem]({%slug panelbar/client-side-programming/radpanelitem-object%})|Returns the first **RadPanelBarItem** object whose **NavigateUrl** property is equal to the passed parameter. Note that the parameter should end with '/' like:var item = sender.findItemByAbsoluteUrl('http://www.test.com/');|
+| **findItemByAttribute** |(string attributeName, string value)|[RadPanelItem]({%slug panelbar/client-side-programming/radpanelitem-object%})|Returns the first **RadPanelBarItem** object with a custom attribute of the specified name that has the specified value.|
+| **get_items** |none|[RadPanelItemCollection]({%slug panelbar/client-side-programming/radpanelitemcollection-object%})|Returns the collection of root level items. See **Example 3**. |
+| **get_allItems** | none | Array | Gets a linear collection of all items. This includes all root and child items in the panel. See **Example 4**. |
+| **get_focusedItem** | none | [RadPanelItem]({%slug panelbar/client-side-programming/radpanelitem-object%}) | Returns the focused root level item. Null if no root level item has focus. |
+| **get_expandedItem** |none|[RadPanelItem]({%slug panelbar/client-side-programming/radpanelitem-object%})|Returns the last root level item that was expanded. Null if no root level items are expanded.|
+| **get_expandedItems** |none|Array|Returns an array of the **RadPanelBarItem** objects for every expanded item in the panel bar (including expanded child items).|
+| **get_selectedItem** |none|[RadPanelItem]({%slug panelbar/client-side-programming/radpanelitem-object%})|Returns the selected item if it exists. (It does not have to be a root level item). Null if the panel does not have a selected item.|
+| **get_selectedItems** |none|Array|Returns an array containing the selected items in the panel. Because the panel bar does not allow more than one item to be selected, the array always has 0 or 1 elements.|
+| **get_attributes** |none|Collection|Returns the collection of custom attributes for the panel.|
+| **get_element** |none|HTML Element|Gets the DOM element for the panel.  See **Example 5**. |
+| **get_childListElement** | none | HTML Element | Gets the DOM element for the list of items in the panel. |
+| **enableEvents** |none|none|Enables the panel bar's client-side event emitting. Events are enabled by default.|
+| **disableEvents** |none|none|Disables the panel bar's client-side event emitting.|
+| **add_`<EventName>`** |(mixed eventHandler)|none|Attaches an eventHandler to the event with the name `<EventName>`. Note that client-side event names differ from their server-side counterparts. For more information, see [Client-Side Events]({%slug panelbar/client-side-programming/events%}). See **Example 6**. |
+| **remove_`<EventName>`** | (mixed eventHandler) | Boolean | Detaches an eventHandler from the event with the name `<EventName>`.Returns "True" if the eventHandler is found and detached, false otherwise.Note that client-side event names differ from their server-side counterparts. For more information, see [Client-Side Events]({%slug panelbar/client-side-programming/events%}). See **Example 7**. |
 
->tip Client side changes are available on the server side after postback. You can use the [ClientChanges]({%slug panelbar/client-side-programming/accessing-client-changes-on-the-server%}) property to access them.
->
 
 
-````JavaScript
-	
+>caption Example 1: Add a new item and persist it after a postback.
+````JavaScript	
 	
 function AddNewItem() {
     var panel = $find("<%= RadPanelBar1.ClientID %>");
@@ -42,11 +62,9 @@ function AddNewItem() {
 	
 ````
 
-|  **Name**  |  **Parameters**  |  **Return Type**  |  **Description**  |
-| ------ | ------ | ------ | ------ |
-|  **disable**  | none | none | Disables all items in the panel. Clicking on any item has no effect, child items cannot be opened. |
 
 
+>caption Example 2: Disable the **RadPanelBar**.
 ````JavaScript
 	
 function Disablepanel() {
@@ -57,40 +75,8 @@ function Disablepanel() {
 ````
 
 
-|  **Name**  |  **Parameters**  |  **Return Type**  |  **Description**  |
-| ------ | ------ | ------ | ------ |
-|  **enable**  | none | none | Enables all items in the panel. |
 
-
-````JavaScript
-	
-function Enablepanel() {
-    var panel = $find("<%= RadPanelBar1.ClientID %>");
-    panel.enable(); 
-}
-	
-````
-
-
-
-
-|  **Name**  |  **Parameters**  |  **Return Type**  |  **Description**  |
-| ------ | ------ | ------ | ------ |
-|  **get_enabled**  | none | boolean | True if the panel is enabled. To enable a panel, use the enable() method.|
-| **findItemByUrl** |(string URL)|[RadPanelItem]({%slug panelbar/client-side-programming/radpanelitem-object%})|Returns the first **RadPanelBarItem** object whose **NavigateUrl** property matches the parameter. |
-
->caution The **NavigateUrl** property is transformed to absolute URL on the client side, e.g. *"default.aspx"* is turned into: `http://mydomain.com/default.aspx`. 
->
-
-|  **Name**  |  **Parameters**  |  **Return Type**  |  **Description**  |
-| ------ | ------ | ------ | ------ |
-| **findItemByValue** |(string value)|[RadPanelItem]({%slug panelbar/client-side-programming/radpanelitem-object%})|Returns the first **RadPanelBarItem** object whose **Value** property is equal to the passed parameter.|
-| **findItemByText** |(string text)|[RadPanelItem]({%slug panelbar/client-side-programming/radpanelitem-object%})|Returns the first **RadPanelBarItem** object whose **Text** property is equal to the passed parameter.|
-| **findItemByUrl** |(string URL)|[RadPanelItem]({%slug panelbar/client-side-programming/radpanelitem-object%})|Returns the first **RadPanelBarItem** object whose **NavigateUrl** property is equal to the passed parameter.|
-| **findItemByAbsoluteUrl** |(string URL)|[RadPanelItem]({%slug panelbar/client-side-programming/radpanelitem-object%})|Returns the first **RadPanelBarItem** object whose **NavigateUrl** property is equal to the passed parameter. Note that the parameter should end with '/' like:var item = sender.findItemByAbsoluteUrl('http://www.test.com/');|
-| **findItemByAttribute** |(string attributeName, string value)|[RadPanelItem]({%slug panelbar/client-side-programming/radpanelitem-object%})|Returns the first **RadPanelBarItem** object with a custom attribute of the specified name that has the specified value.|
-| **get_items** |none|[RadPanelItemCollection]({%slug panelbar/client-side-programming/radpanelitemcollection-object%})|Returns the collection of root level items.|
-
+>caption Example 3: Get all root items and display their text value.
 ````JavaScript
 	
 function showRootItems() {
@@ -105,11 +91,7 @@ function showRootItems() {
 
 
 
-
-|  **Name**  |  **Parameters**  |  **Return Type**  |  **Description**  |
-| ------ | ------ | ------ | ------ |
-|  **get_allItems**  | none | Array | Gets a linear collection of all items. This includes all root and child items in the panel. |
-
+>caption Example 4: Get all items and display their text value.
 ````JavaScript
 	
 function showAllItems() {
@@ -123,17 +105,7 @@ function showAllItems() {
 
 
 
-
-|  **Name**  |  **Parameters**  |  **Return Type**  |  **Description**  |
-| ------ | ------ | ------ | ------ |
-|  **get_focusedItem**  | none | [RadPanelItem]({%slug panelbar/client-side-programming/radpanelitem-object%}) | Returns the focused root level item. Null if no root level item has focus. |
-| **get_expandedItem** |none|[RadPanelItem]({%slug panelbar/client-side-programming/radpanelitem-object%})|Returns the last root level item that was expanded. Null if no root level items are expanded.|
-| **get_expandedItems** |none|Array|Returns an array of the **RadPanelBarItem** objects for every expanded item in the panel bar (including expanded child items).|
-| **get_selectedItem** |none|[RadPanelItem]({%slug panelbar/client-side-programming/radpanelitem-object%})|Returns the selected item if it exists. (It does not have to be a root level item). Null if the panel does not have a selected item.|
-| **get_selectedItems** |none|Array|Returns an array containing the selected items in the panel. Because the panel bar does not allow more than one item to be selected, the array always has 0 or 1 elements.|
-| **get_attributes** |none|Collection|Returns the collection of custom attributes for the panel.|
-| **get_element** |none|HTML Element|Gets the DOM element for the panel.|
-
+>caption Example 5: Hide/show the **RadPanelBar**.
 ````JavaScript
 	
 // hide the panel
@@ -153,15 +125,7 @@ function showpanel() {
 
 
 
-
->caption  
-
-|  **get_childListElement**  | none | HTML Element | Gets the DOM element for the list of items in the panel. |
-| ------ | ------ | ------ | ------ |
-| **enableEvents** |none|none|Enables the panel bar's client-side event emitting. Events are enabled by default.|
-| **disableEvents** |none|none|Disables the panel bar's client-side event emitting.|
-| **add_`<EventName>`** |(mixed eventHandler)|none|Attaches an eventHandler to the event with the name `<EventName>`. Note that client-side event names differ from their server-side counterparts. For more information, see [Client-Side Events]({%slug panelbar/client-side-programming/events%}).|
-
+>caption Example 6: Add a handler to the OnClientItemBlur event.
 ````JavaScript
 	
 function OnClientItemBlurHandler() {
@@ -177,12 +141,7 @@ function AttachBlurHandler() {
 
 
 
-
-|  **Name**  |  **Parameters**  |  **Return Type**  |  **Description**  |
-| ------ | ------ | ------ | ------ |
-|  **remove_`<EventName>`**  | (mixed eventHandler) | Boolean | Detaches an eventHandler from the event with the name `<EventName>`.Returns "True" if the eventHandler is found and detached, false otherwise.Note that client-side event names differ from their server-side counterparts. For more information, see [Client-Side Events]({%slug panelbar/client-side-programming/events%}). |
-
-
+>caption Example 7: Remove the OnClientItemBlur event's handler.
 ````JavaScript
 	
 function OnClientItemBlurHandler() {

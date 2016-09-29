@@ -19,71 +19,17 @@ The **RadPanelItem** object is returned by the **getItem** method of the [RadPan
 
 >caption  
 
-|  **Name**  |  **Parameters**  |  **Return Type**  |  **Description**  |
+| Name | Parameters | Return Type | Description |
 | ------ | ------ | ------ | ------ |
 | **findControl** |String|Object|Returns the client-side object of the Control with the specified ID nested in the Item's Template. The ID passed as an argument to the function MUST be the ID attribute of the nested Control.|
-| **disable** |none|none|Disables the item.|
-
-````JavaScript
-	
-var panelBar = $find("<%= RadPanelBar1.ClientID %>");
-var panelItem = panelBar.findItemByText("Paris"); 
-panelItem.disable();
-	
-````
-
-
-
-
-|  **Name**  |  **Parameters**  |  **Return Type**  |  **Description**  |
-| ------ | ------ | ------ | ------ |
-|  **enable**  | none | none | Enables the item if it is disabled. |
-
-
-````JavaScript
-	
-var panelBar = $find("<%= RadPanelBar1.ClientID %>");
-var panelItem = panelBar.findItemByText("Paris"); 
-panelItem.enable();
-	
-````
-
-|  **Name**  |  **Parameters**  |  **Return Type**  |  **Description**  |
-| ------ | ------ | ------ | ------ |
-|  **get_isEnabled**  | none | Boolean | Returns true if both the item and the panelbar are enabled. If one of them is disabled, get_isEnabled() will return false. |
+| **disable** |none|none|Disables the item. See **Example 1**. |
+| **enable** | none | none | Enables the item if it is disabled. |
+| **get_isEnabled** | none | Boolean | Returns true if both the item and the panelbar are enabled. If one of them is disabled, get_isEnabled() will return false. |
 | **get_enabled** |none|Boolean|Same as get_isEnabled.|
 | **set_enabled** |Boolean|none|Sets the enabled state of the item.|
-| **focus** |none|none|Moves focus to the item.|
-
-````JavaScript
-	
-var panelBar = $find("<%= RadPanelBar1.ClientID %>");
-var panelItem = panelBar.findItemByText("Paris"); 
-panelItem.focus();
-	
-````
-
-
-
-|  **Name**  |  **Parameters**  |  **Return Type**  |  **Description**  |
-| ------ | ------ | ------ | ------ |
-|  **blur**  | none | none | Removes focus from the item. |
-
-
-````JavaScript
-		
-var panelBar = $find("<%= RadPanelBar1.ClientID %>");
-var panelItem = panelBar.findItemByText("Paris"); 
-panelItem.blur();
-	
-````
-
-
-
-
-|  **Name**  |  **Parameters**  |  **Return Type**  |  **Description**  |
-| ------ | ------ | ------ | ------ |
-|  **focusPreviousItem**  | none | none | Moves focus to the previous item. |
+| **focus** |none|none|Moves focus to the item. See **Example 2**. |
+| **blur** | none | none | Removes focus from the item. See **Example 3**. |
+| **focusPreviousItem** | none | none | Moves focus to the previous item. |
 | **focusNextItem** |none|none|Moves focus to the next item.|
 | **focusFirstChild** |none|none|Moves focus to the first child of the item.|
 | **focusLastChild** |none|none|Moves focus to the last child of the item.|
@@ -102,30 +48,8 @@ panelItem.blur();
 | **get_panelBar** |none|[RadPanelBar]({%slug panelbar/client-side-programming/radpanelbar-object%})|Returns an instance of the panel bar that contains the item.|
 | **get_index** |none|Integer|Gets the zero-based index of the item inside its parent items collection.|
 | **get_level** |none|Integer|Gets the level of the item. Root level items are level 0.|
-| **get_attributes** |(none)|Collection|Returns the collection of custom attributes for the item.|
-
-````JavaScript
-		
-var panelBar = $find("<%= RadPanelBar1.ClientID %>");
-var foundItem = panelBar.findItemByAttribute("Population", "0");
-var attributes = foundItem.get_attributes();
-var size = attributes.getAttribute("size");
-if (size) {
-    attributes.setAttribute("Population", size);
-    attributes.removeAttribute("size");
-}
-else {
-    attributes.setAttribute("Population", "Unknown"); 
-}
-	
-````
-
-
-
-
-|  **Name**  |  **Parameters**  |  **Return Type**  |  **Description**  |
-| ------ | ------ | ------ | ------ |
-|  **expand**  | none | none | Expands the item and reveals its children if any. |
+| **get_attributes** |(none)|Collection|Returns the collection of custom attributes for the item. See **Example 4**. |
+| **expand** | none | none | Expands the item and reveals its children if any. |
 | **collapse** |none|none|Collapses the item if it is expanded.|
 | **get_expanded** |Boolean|boolean|Gets the expanded/collapsed state of a panel bar item|
 | **set_expanded** |Boolean|none|Expands /Collapses the item.|
@@ -136,13 +60,7 @@ else {
 | **get_value** |none|string|Returns the Value property of the item.|
 | **get_isSeparator** |none|boolean|Returns **true** the item is a separator (sever-side property IsSeparator = true)|
 | **get_navigateUrl** |none|string|Gets the URL of the Web page the panel item launches.|
-| **set_navigateUrl** |string|none|Sets the navigateURL property of the item. This is the URL of the Web page the item launches.|
-
->caution The **navigateUrl** property must be an absolute URL on the client side: e.g. " *http://mydomain.com/default.aspx"* not *"default.aspx".* 
->
-
-|  **Name**  |  **Parameters**  |  **Return Type**  |  **Description**  |
-| ------ | ------ | ------ | ------ |
+| **set_navigateUrl** |string|none|Sets the navigateURL property of the item. This is the URL of the Web page the item launches. The **navigateUrl** property must be an absolute URL on the client side: e.g. " *http://mydomain.com/default.aspx"* not *"default.aspx".* |
 | **set_imageUrl** |string|none|Sets the URL of the image.|
 | **get_imageUrl** |none|string|Gets the URL of the image.|
 | **set_hoveredImageUrl** |string|none|Sets the URL of the image displayed when the mouse if over the item.|
@@ -166,6 +84,61 @@ else {
 | **show** |none|none|Makes the item visible.|
 | **hide** |none|none|Makes the item invisible.|
 | **set_visible** |boolean|none|Shows/Hides a RadPanelItem|
+
+
+
+
+>caption Example 1: Disable the item with text Paris.
+````JavaScript
+	
+var panelBar = $find("<%= RadPanelBar1.ClientID %>");
+var panelItem = panelBar.findItemByText("Paris"); 
+panelItem.disable();
+	
+````
+
+
+
+>caption Example 2: Focus the item.
+````JavaScript
+	
+var panelBar = $find("<%= RadPanelBar1.ClientID %>");
+var panelItem = panelBar.findItemByText("Paris"); 
+panelItem.focus();
+	
+````
+
+
+
+>caption Example 3: Remove the focus from the item.
+````JavaScript
+		
+var panelBar = $find("<%= RadPanelBar1.ClientID %>");
+var panelItem = panelBar.findItemByText("Paris"); 
+panelItem.blur();
+	
+````
+
+
+
+>caption Example 4: Set an item's attribute.
+````JavaScript
+		
+var panelBar = $find("<%= RadPanelBar1.ClientID %>");
+var foundItem = panelBar.findItemByAttribute("Population", "0");
+var attributes = foundItem.get_attributes();
+var size = attributes.getAttribute("size");
+if (size) {
+    attributes.setAttribute("Population", size);
+    attributes.removeAttribute("size");
+}
+else {
+    attributes.setAttribute("Population", "Unknown"); 
+}
+	
+````
+
+
 
 # See Also
 

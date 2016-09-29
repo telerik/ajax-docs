@@ -23,11 +23,21 @@ The **RadPanelItemCollection** object is returned by the **get_items** method of
 
 >caption  
 
-|  **Name**  |  **Parameters**  |  **Return Type**  |  **Description**  |
+| Name | Parameters | Return Type | Description |
 | ------ | ------ | ------ | ------ |
-| **add** |[RadPanelItem]({%slug panelbar/client-side-programming/radpanelitem-object%})|none|Adds a child item to the end of the collection.|
+| **add** |[RadPanelItem]({%slug panelbar/client-side-programming/radpanelitem-object%})|none|Adds a child item to the end of the collection. See **Example 1**. |
+| **insert** |int,[RadPanelItem]({%slug panelbar/client-side-programming/radpanelitem-object%})|none|Inserts the item into the collection at the position specified by the first (index) parameter. See **Example 2**. |
+| **remove** |[RadPanelItem]({%slug panelbar/client-side-programming/radpanelitem-object%})|none|Removes the specified item from the collection. See **Example 3**. |
+| **removeAt** |int|none|Removes the item at the specified index. See **Example 4**. |
+| **clear** |none|none|Clears the Items collection of all the child items it contains. See **Example 5**. |
+| **getItem** |int|[RadPanelItem]({%slug panelbar/client-side-programming/radpanelitem-object%})|Returns the item from the collection that resides at the specified index. See **Example 6**. |
+| **indexOf** |RadPanelItem|int|Returns the index of an item. See **Example 7**. |
+| **get_count** |none|int|Returns the number of the items in the collection. See **Example 8**. |
 
 
+
+
+>caption Example 1: Add a new item and persist it after a postback.
 ````JavaScript
 	
 function AddNewItem() {
@@ -41,11 +51,9 @@ function AddNewItem() {
 	
 ````
 
-|  **Name**  |  **Parameters**  |  **Return Type**  |  **Description**  |
-| ------ | ------ | ------ | ------ |
-| **insert** |int,[RadPanelItem]({%slug panelbar/client-side-programming/radpanelitem-object%})|none|Inserts the item into the collection at the position specified by the first (index) parameter.|
 
 
+>caption Example 2: Insert a new item at index 0.
 ````JavaScript
 	
 function InsertAtStart() {
@@ -59,16 +67,14 @@ function InsertAtStart() {
 	
 ````
 
-|  **Name**  |  **Parameters**  |  **Return Type**  |  **Description**  |
-| ------ | ------ | ------ | ------ |
-| **remove** |[RadPanelItem]({%slug panelbar/client-side-programming/radpanelitem-object%})|none|Removes the specified item from the collection.|
 
 
+>caption Example 3: Remove the item with text Paris from the Items collection. 
 ````JavaScript
 	
 function deleteItem() {
     var panelbar = $find("<%= RadPanelBar1.ClientID %>");
-    var panelItem = panelbar.findItemByText("victim");
+    var panelItem = panelbar.findItemByText("Paris");
     if (panelItem) {
         panelbar.trackChanges();
         panelbar.get_items().remove(panelItem);
@@ -78,11 +84,9 @@ function deleteItem() {
 	
 ````
 
-|  **Name**  |  **Parameters**  |  **Return Type**  |  **Description**  |
-| ------ | ------ | ------ | ------ |
-| **removeAt** |int|none|Removes the item at the specified index.|
 
 
+>caption Example 4: Remove the last item from Items collection. 
 ````JavaScript
 		
 function removeLastItem() {
@@ -97,11 +101,9 @@ function removeLastItem() {
 	
 ````
 
-|  **Name**  |  **Parameters**  |  **Return Type**  |  **Description**  |
-| ------ | ------ | ------ | ------ |
-| **clear** |none|none|Clears the Items collection of all the child items it contains.|
 
 
+>caption Example 5: Clear the **RadPanelBar** first root item's Items collection of all child items it contains. 
 ````JavaScript
 		
 var panelBar = $find("<%= RadPanelBar1.ClientID %>");
@@ -112,11 +114,9 @@ panelBar.commitChanges();
 	
 ````
 
-|  **Name**  |  **Parameters**  |  **Return Type**  |  **Description**  |
-| ------ | ------ | ------ | ------ |
-| **getItem** |int|[RadPanelItem]({%slug panelbar/client-side-programming/radpanelitem-object%})|Returns the item from the collection that resides at the specified index.|
 
 
+>caption Example 6: Get a reference to the first root item.
 ````JavaScript
 	
 var panelBar = $find("<%= RadPanelBar1.ClientID %>");
@@ -124,11 +124,9 @@ var rootItem1 = panelBar.get_items().getItem(0);
 	
 ````
 
-|  **Name**  |  **Parameters**  |  **Return Type**  |  **Description**  |
-| ------ | ------ | ------ | ------ |
-| **indexOf** |RadPanelItem|int|Returns the index of an item.|
 
 
+>caption Example 7: Get the item's index.
 ````JavaScript
 		
 var panelBar = $find("<%= RadPanelBar1.ClientID %>");
@@ -139,11 +137,9 @@ if (item) {
 	
 ````
 
-|  **Name**  |  **Parameters**  |  **Return Type**  |  **Description**  |
-| ------ | ------ | ------ | ------ |
-| **get_count** |none|int|Returns the number of the items in the collection.|
 
 
+>caption Example 8: Get all root items and display their text values.
 ````JavaScript
 		
 var panelBar = $find("<%= RadPanelBar1.ClientID %>");
