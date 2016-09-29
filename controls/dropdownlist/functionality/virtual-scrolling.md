@@ -35,4 +35,7 @@ To enable Virtual Scrolling for browsing large record sets:
 	SelectCommand="SELECT [CustomerID], [ContactName] FROM [Customers]"></asp:SqlDataSource>
 ````
 
+# See Also
+
+ * [Virtual Scrolling demo](http://demos.telerik.com/aspnet-ajax/dropdownlist/examples/functionality/virtualscrolling/defaultcs.aspx)
 
