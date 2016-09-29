@@ -10,66 +10,55 @@ position: 5
 
 # RadMultiPage Object
 
+## 
 
-Telerik RadMultiPage exposes a client-side API to manage the switching of the pages. The client-side **RadMultiPage** object has a method named **get_pageViews**, which returns a RadPageViewCollection of all pageviews contained within the multipage.
-
-
-## RadMultiPage client-side object
-
-
->caption  
+Telerik **RadMultiPage** exposes a client-side API to manage the switching of the pages. The client-side **RadMultiPage** object has a method named **get_pageViews**, which returns a RadPageViewCollection of all PageViews contained within the MultiPage.
 
 |  **Name**  |  **Parameters**  |  **Return Type**  |  **Description**  |
 | ------ | ------ | ------ | ------ |
-| **get_visible** |none|Boolean|Returns true if the multipage is visible.|
+| **get_visible** |none|Boolean|Returns true if the MultiPage is visible. See **Example 1**.|
+| **set_visible** | Boolean | none | Shows/Hides the MultiPage. See **Example 2**. |
+| **get_selectedPageView** | none | RadPageView | Returns the currently selected PageView. See **Example 3**. |
+| **get_pageViews** | none | RadPageViewCollection | Returns a collection of all PageViews. See **Example 4**. |
+| **findPageViewByID** | String | RadMultiPage | Gets the first RadMultiPage instance, whose id corresponds to the passed parameter. See **Example 5**. |
+| **get_selectedIndex** | none | Integer | Returns the index of the selected PageView. |
+| **set_selectedIndex** |Integer|none|Sets the SelectedIndex of the MultiPage.|
+| **get_element** |none|HTML Element|Gets the DOM element for the MultiPage.|
 
-````JavaScript	
+
+>caption Example 1. Retrieve visibility status of RadMultiPage 
+
+````JavaScript
 var multiPage = $find("<%=RadMultiPage1.ClientID %>");
-if(multiPage.get_visible())
-{
+if(multiPage.get_visible()) {
    alert("visible");
-}
-else
-{
+} else {
    alert("invisible");
 } 	  
 ````
 
->caption  
-
-|  **set_visible**  | Boolean | none | Shows/Hides the multipage. |
-| ------ | ------ | ------ | ------ |
+>caption Example 2. Toggle visibility status of RadMultiPage 
 
 ````JavaScript	
 var multiPage = $find("<%=RadMultiPage1.ClientID %>");
-if(multiPage.get_visible())
-{
+if(multiPage.get_visible()) {
    multiPage.set_visible(false);
-}
-else
-{
+} else {
    multiPage.set_visible(true);
 } 			
 ````
 
->caption  
+>caption Example 3. Get selected PageView 
 
-|  **get_selectedPageView**  | none | RadPageView | Returns the currently selected pageview. |
-| ------ | ------ | ------ | ------ |
-
-````XML	
+````JavaScript	
 var multiPage = $find("<%=RadMultiPage1.ClientID %>");
 var pageView = multiPage.get_selectedPageView();
-if(pageView)
-{
+if(pageView) {
    alert("The ID of the selected RadPageView is " + pageView.get_id());
 } 	  
 ````
 
->caption  
-
-|  **get_pageViews**  | none | RadPageViewCollection | Returns a collection of all pageviews. |
-| ------ | ------ | ------ | ------ |
+>caption  Example 4. Get all PageViews 
 
 ````JavaScript	
 var multiPage = $find("<%=RadMultiPage1.ClientID %>");
@@ -80,10 +69,7 @@ for(i=0; i<multiPage.get_pageViews().get_count();i++)
 }   
 ````
 
->caption  
-
-|  **findPageViewByID**  | String | RadMultiPage | Gets the first RadMultiPage instance, whose id corresponds to the passed parameter. |
-| ------ | ------ | ------ | ------ |
+>caption  Example 5. Find a PageView by ID 
 
 ````JavaScript	
 var multiPage = $find("<%=RadMultiPage1.ClientID %>");
@@ -92,9 +78,3 @@ if(pageView)
    pageView.set_selected(true); 	
 ````
 
->caption  
-
-|  **get_selectedIndex**  | none | Integer | Returns the index of the selected pageview. |
-| ------ | ------ | ------ | ------ |
-| **set_selectedIndex** |Integer|none|Sets the SelectedIndex of the multipage.|
-| **get_element** |none|HTML Element|Gets the DOM element for the multipage.|
