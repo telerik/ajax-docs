@@ -1470,6 +1470,9 @@ navigation:
     "*tabstrip/performance":
         title: "Performance"
         position: 12
+    "*tabstrip/client-side-programming/objects":
+        title: "Objects"
+        position: 1
     "*tagcloud/data-binding":
         title: "Data Binding"
         position: 4
