@@ -41,7 +41,7 @@ The **Multi-Day View** allows you to display a variable number days controlled b
 
 Multi-Day View will provide full support for **Resource** and **Date** grouping, namely:
 
-* No groping (Basic look)![scheduer-views-multidayview-nogrouping](images/scheduer-views-multidayview-nogrouping.png)
+* No grouping (Basic look)![scheduer-views-multidayview-nogrouping](images/scheduer-views-multidayview-nogrouping.png)
 
 * Grouped by Resource (**Horizontal**)![scheduler-views-multidayview-horizontalgroupingbyresource](images/scheduler-views-multidayview-horizontalgroupingbyresource.png)
 
