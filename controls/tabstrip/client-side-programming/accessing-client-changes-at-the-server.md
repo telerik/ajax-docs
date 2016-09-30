@@ -5,7 +5,7 @@ description: Accessing Client Changes at the Server
 slug: tabstrip/client-side-programming/accessing-client-changes-at-the-server
 tags: accessing,client,changes,at,the,server
 published: True
-position: 6
+position: 30
 ---
 
 # Accessing Client Changes at the Server
