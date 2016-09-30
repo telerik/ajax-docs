@@ -23,8 +23,8 @@ From Q3 2012 SP1 this message can be easily localized by using **Localization-Dr
 >
 * Mozilla Firefox v. 4+
 * Google Chrome
-* Safari v. 5+
-* Internet Explorer 10
+* Internet Explorer 10+
+* Edge
 
 
 You will need to prevent the default behavior of the browser when the file is not dropped over the **RadAsyncUpload**. More information about the Native HMTL5 Drag and Drop could be found [here](http://www.html5rocks.com/en/tutorials/dnd/basics/).
