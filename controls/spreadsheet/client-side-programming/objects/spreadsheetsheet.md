@@ -30,52 +30,12 @@ more methods demonstrating how to acquire a reference to the SpreadsheetSheet, c
  
 | Name | Parameters | Return Type | Description |
 | ------ | ------ | ------ | ------ |
-| **get_range** |string|SpreadsheetRange|Returns a reference to a SpreadsheetRange for the given range specification. **Note:** accepts A1 or [RC notation](http://excelribbon.tips.net/T008803_Understanding_R1C1_References.html) reference of the SpreadsheetRange object.|
-
-````JavaScript	
-
-function getSheetRange() {
-	var spreadsheet = $find("<%= RadSpreadsheet1.ClientID %>");
-    var activeSheet = spreadsheet.get_activeSheet();
-    var range = activeSheet.get_range("A1:B3");
-}
-
-````
-
-| Name | Parameters | Return Type | Description |
-| ------ | ------ | ------ | ------ |
-| **get_selection** |none|SpreadsheetRange|Returns a reference to a SpreadsheetRange representing the current active selection.|
-
-````JavaScript	
-
-function getSelectedRangeValue() {
-    var spreadsheet = $find("<%= RadSpreadsheet1.ClientID %>");
-    var activeSheet = spreadsheet.get_activeSheet();
-    var selection = activeSheet.get_selection();
-    alert(selection.get_value());
-}
-
-````
-
-| Name | Parameters | Return Type | Description |
-| ------ | ------ | ------ | ------ |
+| **get_range** |string|SpreadsheetRange|Returns a reference to a SpreadsheetRange for the given range specification. **Note:** accepts A1 or [RC notation](http://excelribbon.tips.net/T008803_Understanding_R1C1_References.html) reference of the SpreadsheetRange object. (see **Example 1**)|
+| **get_selection** |none|SpreadsheetRange|Returns a reference to a SpreadsheetRange representing the current active selection. (see **Example 2**)|
 | **get_columnWidth** |int, int|int|Returns the width of the column at the given index.|
 | **set_columnWidth** |int|none|Sets the width of the column at the given index.|
 | **get_rowHeight** |int|int|Returns the height of the row at the given index.|
-| **set_rowHeight** |int, int|int|Sets the height of the row at the given index.|
-
-````JavaScript	
-
-function setSheetRowHeight() {
-    var spreadsheet = $find("<%= RadSpreadsheet1.ClientID %>");
-    var activeSheet = spreadsheet.get_activeSheet();
-    activeSheet.set_rowHeight(0, 30);
-}
-
-````
-
-| Name | Parameters | Return Type | Description |
-| ------ | ------ | ------ | ------ |
+| **set_rowHeight** |int, int|int|Sets the height of the row at the given index. (see **Example 3**)|
 | **clearFilter** |int/Array|none|Clears the filters for the passed column index. If an array is passed, clearFilter will clear the filter for each column index from the array.|
 | **deleteColumn** |int|none|Deletes the contents of the column at the provided index and shifts the remaining contents of the sheet to the left.|
 | **deleteRow** |int|none|Deletes the contents of the row at the provided index and shifts the remaining contents of the sheet up.|
@@ -84,33 +44,57 @@ function setSheetRowHeight() {
 | **unhideColumn** |int|none|Shows the hidden column at the specified index. Does not have any effect if the column is already visible.|
 | **unhideRow** |int|none|Shows the hidden row at the specified index. Does not have any effect if the row is already visible.|
 | **insertColumn** |int|none|Inserts a new, empty column at the specified index. The contents of the spreadsheet (including the ones in the current column index) are shifted to the right.|
-| **insertRow** |int|none|Inserts a new, empty row at the specified index. The contents of the spreadsheet (including the ones in the current row index) are shifted down.|
+| **insertRow** |int|none|Inserts a new, empty row at the specified index. The contents of the spreadsheet (including the ones in the current row index) are shifted down. (see **Example 4**)|
+| **get_frozenColumns** |none|int|Gets the amount of frozen columns displayed by the sheet.|
+| **set_frozenColumns** |int|none|Sets the amount of frozen columns displayed by the sheet.|
+| **get_frozenRows** |none|int|Gets the amount of frozen rows displayed by the sheet.|
+| **set_frozenRows** |int|none|Set the amount of frozen rows displayed by the sheet.|
+| **set_showGridLines** |bool|none|Togles the visibility state of the GrigLines in the sheet. (see **Example 5**)|
 
+
+>caption Example 1: Demonstrates the usage of the get_range method
 ````JavaScript	
+function getSheetRange() {
+	var spreadsheet = $find("<%= RadSpreadsheet1.ClientID %>");
+    var activeSheet = spreadsheet.get_activeSheet();
+    var range = activeSheet.get_range("A1:B3");
+}
+````
 
+>caption Example 2: Demonstrates the usage of the get_selection method
+````JavaScript	
+function getSelectedRangeValue() {
+    var spreadsheet = $find("<%= RadSpreadsheet1.ClientID %>");
+    var activeSheet = spreadsheet.get_activeSheet();
+    var selection = activeSheet.get_selection();
+    alert(selection.get_value());
+}
+````
+
+>caption Example 3: Demonstrates the usage of the set_rowHeight method
+````JavaScript	
+function setSheetRowHeight() {
+    var spreadsheet = $find("<%= RadSpreadsheet1.ClientID %>");
+    var activeSheet = spreadsheet.get_activeSheet();
+    activeSheet.set_rowHeight(0, 30);
+}
+````
+
+>caption Example 4: Demonstrates the usage of the insertRow method
+````JavaScript	
 function insertSheetRow() {
     var spreadsheet = $find("<%= RadSpreadsheet1.ClientID %>");
     var activeSheet = spreadsheet.get_activeSheet();
     activeSheet.insertRow(1);
 }
-
 ````
 
-| Name | Parameters | Return Type | Description |
-| ------ | ------ | ------ | ------ |
-| **get_frozenColumns** |none|int|Gets the amount of frozen columns displayed by the sheet.|
-| **set_frozenColumns** |int|none|Sets the amount of frozen columns displayed by the sheet.|
-| **get_frozenRows** |none|int|Gets the amount of frozen rows displayed by the sheet.|
-| **set_frozenRows** |int|none|Set the amount of frozen rows displayed by the sheet.|
-| **set_showGridLines** |bool|none|Togles the visibility state of the GrigLines in the sheet.|
-
+>caption Example 5: Demonstrates the usage of the set_showGridLines method
 ````JavaScript	
-
 function insertSheetRow() {
     var spreadsheet = $find("<%= RadSpreadsheet1.ClientID %>");
     var activeSheet = spreadsheet.get_activeSheet();
     activeSheet.set_showGridLines(false); //hides the grid lines in the active sheet
 }
-
 ````
 
