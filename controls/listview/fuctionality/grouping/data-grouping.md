@@ -38,6 +38,9 @@ Using the code below you will enable the RadListView DataGrouping feature follow
 <telerik:RadListView ID="RadListView1" runat="server" ItemPlaceholderID="DataGroupPlaceHolder3"
     InsertItemPosition="AfterDataGroups" DataSourceID="SqlDataSource1" AllowMultiFieldSorting="True"
     AllowPaging="True" GroupAggregatesScope="AllItems" DataKeyNames="Classification">
+    <LayoutTemplate>
+        <asp:Panel ID="DataGroupPlaceHolder1" runat="server"></asp:Panel>
+    </LayoutTemplate>
     <ItemTemplate>
         <br />
         <div class="rlvI">
@@ -129,8 +132,11 @@ The example bellow presents two levels of grouping
 <telerik:RadListView ID="RadListView1" runat="server" ItemPlaceholderID="DataGroupPlaceHolder3"
  InsertItemPosition="AfterDataGroups" DataSourceID="SqlDataSource1" AllowMultiFieldSorting="True"
  AllowPaging="True" GroupAggregatesScope="AllItems" DataKeyNames="Classification">
+    <LayoutTemplate>
+        <asp:Panel ID="DataGroupPlaceHolder1" runat="server"></asp:Panel>
+    </LayoutTemplate>
+    <ItemTemplate></ItemTemplate>
    <DataGroups>
-
      <telerik:ListViewDataGroup GroupField="BrandName" DataGroupPlaceholderID="DataGroupPlaceHolder1"
          SortOrder="Ascending">
          <DataGroupTemplate>
@@ -151,6 +157,8 @@ The example bellow presents two levels of grouping
      </telerik:ListViewDataGroup>
  </DataGroups>
 </telerik:RadListView>
+<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:TelerikConnectionString %>"
+    SelectCommand="SELECT [BrandName], [Model], [Classification], [Year], [Fuel], [Price] FROM [Cars]" />
 ````
 
 
