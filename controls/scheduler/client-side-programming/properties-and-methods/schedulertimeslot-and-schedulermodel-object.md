@@ -27,10 +27,13 @@ The tables below list all public properties and methods of the both client-side 
 | **get_isAllDay()** |None|Boolean|Gets a value indicating whether the Time Slot is an All-Day Time Slot.|
 | **get_startTime()** |None|Date|Gets the full start time of the Time Slot.|
 | **get_endTime()** |None|Date|Gets the full end time of the Time Slot.|
-| **get_resource()** |None|SchedulerResource / null|If the current View is grouped by Resource, returns the Resource object. Otherwise, returns **null** .|
+| **get_resource()** |None|SchedulerResource / null|If the current View is grouped by Resource, returns the Resource object. Otherwise, returns **null**. See **Example 1**. |
 | **set_selected()** |Boolean|None|Selects/Un-selects the Time Slot|
 | **get_selected()** |None|Boolean|Gets a value indicating whether the Time Slot is selected|
 
+
+
+>caption Example 1: Get the Time Slot's resource. 
 ````JavaScript
 	     
 function clientTimeSlotClick(sender, eventArgs)

@@ -16,22 +16,12 @@ The SchedulerAttributeCollection client-side object represents a Key-Value list 
 
 The tables below lists all public properties and the most important methods of the SchedulerAttributeCollection client-side object.
 
-## Properties
-
 
 >caption  
 
 | Name | Parameters | Return Type | Description |
 | ------ | ------ | ------ | ------ |
 | **get_count()** |None|Int|Gets the number of attributes in the collection.|
-
-## Methods
-
-
->caption  
-
-| Name | Parameters | Return Value | Description |
-| ------ | ------ | ------ | ------ |
 | **getAttribute()** |String|String|Gets the value of the attribute with the specified name (key).|
 | **removeAttribute()** |String|None|Removes the attribute with the specified name (key) from the collection.|
 | **setAttribute()** |String (key), String (value)|None|Sets the specified value to the attribute with the specified name (key). If an attribute with such name (key) does not exist in the collection, it will be added.|

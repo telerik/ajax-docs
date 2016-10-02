@@ -14,9 +14,7 @@ position: 5
 
 The **SchedulerResourceTypeCollection** client-side object represents a list of **ResourcesTypes** defined in the Scheduler.
 
-The tables below lists all public properties and the most important methods of the **SchedulerResourceTypeCollection** client-side object.
-
-## Properties
+The tables below lists the most important methods of the **SchedulerResourceTypeCollection** client-side object.
 
 
 >caption  
@@ -24,23 +22,18 @@ The tables below lists all public properties and the most important methods of t
 | Name | Parameters | Return Type | Description |
 | ------ | ------ | ------ | ------ |
 | **get_count()** |None|Int|Gets the number of ResourcesType in the collection.|
-
-## Methods
-
-
->caption  
-
-| Name | Parameters | Return Type | Description |
-| ------ | ------ | ------ | ------ |
 | **add()** |ResourceType|None|Adds the specified ResourceType to the collection.|
 | **clear()** |None|None|Clears the collection of all ResourcesType in it.|
-| **forEach()** |function|ResourceTypeCollection|Gets the collection of all ResourcesType.|
+| **forEach()** |function|ResourceTypeCollection|Gets the collection of all ResourcesType. See **Example 1**. |
 | **getResourceType()** |Int|ResourceType|Gets the ResourceType at the specified index in the collection.|
 | **getResourcesTypeByName()** |String|ResourceType|Gets a list of all ResourcesTypes of the specified type.|
 | **insert()** |Int (index), ResourceType|None|Inserts the specified ResourceType at the specified index in the collection.|
 | **remove()** |ResourceType|None|Removes the specified ResourceType (if it exists) from the collection.|
 | **removeAt()** |Int|None|Removes the ResourceType at the specified index from the collection.|
 
+
+
+>caption Example 1: Display all resource types
 ````JavaScript
 	     
 function clientFormCreated(scheduler, args) 

@@ -14,35 +14,27 @@ position: 4
 
 The SchedulerResourceCollection client-side object represents a list of Resources defined in the Scheduler.
 
-The tables below lists all public properties and the most important methods of the SchedulerResourceCollection client-side object.
-
-## Properties
-
+The tables below lists the most important methods of the SchedulerResourceCollection client-side object.
 
 >caption  
 
 | Name | Parameters | Return Type | Description |
 | ------ | ------ | ------ | ------ |
-| **get_count()** |None|Int|Gets the number of Resources in the collection.|
-
-## Methods
-
-
->caption  
-
-| Name | Parameters | Return Type | Description |
-| ------ | ------ | ------ | ------ |
-| **add()** |Resource|None|Adds the specified Resource to the collection.|
+| **get_count()** |None|Int|Gets the number of Resources in the collection. See **Example 1**. |
+| **add()** |Resource|None|Adds the specified Resource to the collection. See **Example 1**. |
 | **clear()** |None|None|Clears the collection of all Resources in it.|
-| **forEach()** |function|SchedulerResourceCollection|Gets the collection of all Resources.|
+| **forEach()** |function|SchedulerResourceCollection|Gets the collection of all Resources. See **Example 1**. |
 | **getResource()** |Int|Resource|Gets the Resource at the specified index in the collection.|
-| **getResourceByType()** |String|Resource|Gets the Resource of a specified type in the collection.|
+| **getResourceByType()** |String|Resource|Gets the Resource of a specified type in the collection. See **Example 1**. |
 | **getResourcesByType()** |String|SchedulerResourceCollection|Gets a list of all Resources of the specified type.|
-| **getResourceByTypeAndKey()** |String, String|Resource|Gets a Resources of the specified type and key.|
+| **getResourceByTypeAndKey()** |String, String|Resource|Gets a Resources of the specified type and key. See **Example 1**. |
 | **insert()** |Int (index), Resource|None|Inserts the specified Resource at the specified index in the collection.|
 | **remove()** |Resource|None|Removes the specified Resource (if it exists) from the collection.|
 | **removeAt()** |Int|None|Removes the Resource at the specified index from the collection.|
 
+
+
+>caption Example 1: Update the appointment's resources.
 ````JavaScript
 function OnClientAppointmentClick(sender, args) {
 	var appointment = args.get_appointment();

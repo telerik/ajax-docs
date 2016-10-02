@@ -28,18 +28,7 @@ The tables below lists the most important, public properties of the SchedulerApp
 | **get_borderColor()**  **set_borderColor()** |NoneString|StringNone|Gets or sets the borderColor of the Appointment.|
 | **get_borderStyle()**  **set_borderStyle()** |NoneString|StringNone|Gets or sets the borderStyle of the Appointment.(Works only if the **AppointmentStyleMode="Simple"** )|
 | **get_borderWidth()**  **set_borderWidth()** |NoneString|StringNone|Gets or sets the borderWidth of the Appointment.(Works only if the **AppointmentStyleMode="Simple"** )|
-| **get_contextMenu()** |None|ContextMenu|Gets the ContextMenu of the Appointment.
-
-````JavaScript
-	     
- function OnClientAppointmentClick(sender, args) {
-	var contextMenu = args.get_appointment().get_contextMenu();
-	contextMenu.show(args.get_domEvent());
-}
-				
-````
-
-|
+| **get_contextMenu()** |None|ContextMenu|Gets the ContextMenu of the Appointment. See **Example 1**. |
 | **get_cssClass()**  **set_cssClass()** |NoneString|StringNone|Gets or sets the cssClass of the Appointment.|
 | **get_description()**  **set_description()** |NoneString|StringNone|Gets or sets the description of the Appointment.|
 | **get_duration()** |None|Int|Gets the duration of the Appointment in milliseconds.|
@@ -50,17 +39,35 @@ The tables below lists the most important, public properties of the SchedulerApp
 | **get_id()** |None|Int|Gets the ID of the Appointment|
 | **get_radScheduler()** |None|RadScheduler|Gets the owner Scheduler.|
 | **get_recurrenceParentID()** |None|Int / undefined|Gets the ID of the parent Appointment if the current Appointment is recurrent or **'undefined'** otherwise.|
-| **get_recurrenceState()** |None|Telerik.Web.UI.RecurrenceState or int|Gets the recurrence state of the Appointment. **RecurrenceState** can be:
+| **get_recurrenceState()** |None|Telerik.Web.UI.RecurrenceState or int|Gets the recurrence state of the Appointment. **RecurrenceState** can be: **NotRecurring** or 0,  **Master** or 1, **Occurrence** or 2, **Exception** or 3|
+| **get_recurrenceRule()** |None|String|Gets the recurrence rule of the Appointment if it is **"Master"** and WebService binding is used or **'undefined'** otherwise. See **Example 2**. |
+| **get_reminders()** | None | [Telerik.Web.UI.ReminderCollection]({%slug scheduler/client-side-programming/properties-and-methods/remindercollection-object%}) | Gets a collection of reminders for the Appointment |
+| **get_resources()** |None|[Telerik.Web.UI.SchedulerResourceCollection]({%slug scheduler/client-side-programming/properties-and-methods/schedulerresourcecollection-object%})|Gets a collection of resources for the Appointment|
+| **get_start()**  **set_start()** |NoneDate|DateNone|Gets or sets the start date of the Appointment.|
+| **get_subject()**  **set_subject()** |NoneString|StringNone|Gets or sets the subject of the Appointment. The properties **set_subject()** , **set_start()** and **set_end()** will persist after postback. See **Example 3**. |
+| **get_selected()**  **set_selected()** |NoneBoolean|BooleanNone|Gets or sets a Boolean value indicating whether the Appointment is selected.|
+| **get_timeSlot()** |None|TimeSlot|Gets the asociated time slot object for the current Appointment.|
+| **get_toolTip()**  **set_toolTip()** |NoneString|StringNone|Gets or sets the ToolTip of the Appointment.|
+| **get_visible()** |None|Boolean|Gets a Boolean value indicating whether the Appointment is visible.|
+| **_isAllDay()** |None|Boolean|Gets a Boolean value indicating whether the Appointment's duration is all day or not.|
+| **clone()** |None|Appointment|Creats a new Appointment that is copy of the instant one. See **Example 4**. |
 
-*  **"NotRecurring"** or 0
 
-*  **"Master"** or 1
 
-*  **"Occurrence"** or 2
 
-*  **"Exception"** or 3|
-| **get_recurrenceRule()** |None|String|Gets the recurrence rule of the Appointment if it is **"Master"** and WebService binding is used or **'undefined'** otherwise.|
+>caption Example 1: Get the Appointment's ContextMenu.
+````JavaScript
+	     
+ function OnClientAppointmentClick(sender, args) {
+	var contextMenu = args.get_appointment().get_contextMenu();
+	contextMenu.show(args.get_domEvent());
+}
+				
+````
 
+
+
+>caption Example 2: Gets the Appointment's recurrence rule.
 ````JavaScript
 	
 function OnClientAppointmentClick(sender, args) {
@@ -86,36 +93,7 @@ function OnClientAppointmentClick(sender, args) {
 
 
 
-
-|  **get_reminders()**  | None | [Telerik.Web.UI.ReminderCollection]({%slug scheduler/client-side-programming/properties-and-methods/remindercollection-object%}) | Gets a collection of reminders for the Appointment |
-| ------ | ------ | ------ | ------ |
-| **get_resources()** |None|[Telerik.Web.UI.SchedulerResourceCollection]({%slug scheduler/client-side-programming/properties-and-methods/schedulerresourcecollection-object%})|Gets a collection of resources for the Appointment|
-| **get_start()**  **set_start()** |NoneDate|DateNone|Gets or sets the start date of the Appointment.|
-| **get_subject()**  **set_subject()** |NoneString|StringNone|Gets or sets the subject of the Appointment.|
-| **get_selected()**  **set_selected()** |NoneBoolean|BooleanNone|Gets or sets a Boolean value indicating whether the Appointment is selected.|
-| **get_timeSlot()** |None|TimeSlot|Gets the asociated time slot object for the current Appointment.|
-| **get_toolTip()**  **set_toolTip()** |NoneString|StringNone|Gets or sets the ToolTip of the Appointment.|
-| **get_visible()** |None|Boolean|Gets a Boolean value indicating whether the Appointment is visible.|
-| **_isAllDay()** |None|Boolean|Gets a Boolean value indicating whether the Appointment's duration is all day or not.|
-| **clone()** |None|Appointment|Creats a new Appointment that is copy of the instant one.
-
-````JavaScript
-	
-function onClientAppointmentClick(sender, args)
-{
-	 var appointment = args.get_appointment();
-	 var newAppointment = app.clone();
-	 sender.insertAppointment(newAppointment);
-}      
-	
-````
-
-|
-
->note The properties **set_subject()** , **set_start()** and **set_end()** will persist after postback.
->
-
-
+>caption Example 3: Set properties that will persist after postback.
 ````JavaScript
 	
 function OnClientAppointmentClick(sender, args) 
@@ -137,7 +115,6 @@ function OnClientAppointmentClick(sender, args)
 ````
 
 
-
 >note The other setters can update the appointment in case of WebService binding where there **is NO postback** and the onClientAppointmentDataBound is fired.
 >
 
@@ -157,6 +134,20 @@ function OnClientAppointmentDataBound(sender, args)
 	appointment.set_allowEdit(false);
 
 }    
+	
+````
+
+
+
+>caption Example 4: Create a copy Appointment.
+````JavaScript
+	
+function onClientAppointmentClick(sender, args)
+{
+	 var appointment = args.get_appointment();
+	 var newAppointment = app.clone();
+	 sender.insertAppointment(newAppointment);
+}      
 	
 ````
 

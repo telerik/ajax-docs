@@ -16,24 +16,12 @@ The SchedulerAppointmentCollection client-side object represents a list of Appoi
 
 The tables below lists all public properties and the most important methods of the SchedulerAppointmentCollection client-side object.
 
-## Properties
-
 
 >caption  
 
 | Name | Parameters | Return Type | Description |
 | ------ | ------ | ------ | ------ |
 | **get_count()** |None|Int|Gets the number of Appointments in the collection.|
-
-## Methods
-
-
-
-
->caption  
-
-| Name | Parameters | Return Value | Description |
-| ------ | ------ | ------ | ------ |
 | **add()** |Appointment|None|Adds the specified Appointment to the collection.|
 | **clear()** |None|None|Clears the collection of all Appointments in it.|
 | **findByID()** |Int|Appointment|Gets the Appointment with the specified ID in the collection. Returns **null** ifsuch an Appointment does not exist in the collection **.** |
