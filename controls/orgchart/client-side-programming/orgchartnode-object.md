@@ -17,8 +17,14 @@ position: 2
 The **OrgChartNode** object is returned by the **getNode()** method of the **OrgChartNodeCollection** object. It is also exposed by the event arguments of many client-side events (**eventArgs.get_node()**). The following table lists the most important methods:
 
 
-|  **Name**  |  **Parameters**  |  **Return Type**  |  **Description**  |
+| Name | Parameters | Return Type | Description |
 | ------ | ------ | ------ | ------ |
 | **getId** |none|string|Returns the current node id value|
 | **get_element** |none|string|Returns the `<li/>` element of the node|
 | **get_groupItems** |none|OrgChartGroupItemCollection|Returns a collection of the group items asociated with that node|
+| **get_nodes** |none|OrgChartNodeCollection|Gets the node's NodeCollection.|
+| **get_hierarchicalIndex** |none|string|Gets the node's Hierarchical index.|
+| **get_nodeListElement** |none|DOM element(ul)|Gets the node's Hierarchical index.|
+| **get_parent** |none|OrgChartNodeCollection|Gets the node parent's OrgChartNodeCollection.|
+| **get_owner** |none|RadOrgChart or OrgChartNode|Gets the parent node or the OrgChart if there are no other nodes up in the hierarchy|
+

@@ -33,7 +33,7 @@ The following table lists the most important methods of the client-side **RadOrg
 
 
 
-|  **Name**  |  **Parameters**  |  **Return Type**  |  **Description**  |
+| Name | Parameters | Return Type | Description |
 | ------ | ------ | ------ | ------ |
 | **get_enableDragAndDrop** |none|Boolean|Returns whether user is allowed to drag and drop nodes.|
 | **saveClientState** |none|none|Saves the client state to the client state hidden field|
@@ -42,3 +42,18 @@ The following table lists the most important methods of the client-side **RadOrg
 | **get_nodes** |none|OrgChartNodeCollection|Gets a collection with all nodes|
 | **get_nodeListElement** |none|none|Gets the UL element of the RadOrgChart|
 | **get_element** |none|none|Gets the root DOM element of the RadOrgChart|
+| **drillDownOnNode** |string|none|Drills down on the node with the specified Hierarchical index. See **Example 1**.|
+| **extractNodeFromDomElement** |DOM element|none|Gets a reference to the node by passing its DOM element to the method.|
+| **extractGroupItemFromDomElement** |DOM element|none|Gets a reference to the group item by passing its DOM element to the method.|
+| **get_drilledNodeHierarchicalIndex** |none|string|Gets the Hierarchical index of the node that is drilled.|
+
+
+
+>caption Example 1: Drill down on the node with Hierarchical index "0:1".
+````JavaScript
+var orgChartObject = $find("<%= RadOrgChart1.ClientID %>");
+var node = orgChartObject.get_nodes().getNode(0);
+var level1Child1Index = node.get_nodes().getNode(1).get_hierarchicalIndex();
+orgchart.drillDownOnNode(level1Child1Index);
+````
+
