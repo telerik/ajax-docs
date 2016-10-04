@@ -1545,6 +1545,9 @@ navigation:
     "*toolbar/web-pages":
         title: "Web Pages"
         position: 11
+    "*toolbar/client-side-programming/objects":
+        title: "Objects"
+        position: 4
     "*tooltip/radtooltip":
         title: "RadToolTip"
         position: 4

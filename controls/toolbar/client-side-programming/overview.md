@@ -46,7 +46,7 @@ function OnClientButtonClicking(sender, args) {
 
 When you get the instance of the RadToolBar object, you can call client-side methods to perform certain tasks. Consider the following examples:
 
-* **set_checked()**
+>caption Using set_checked() method
 
 ````JavaScript
 var toolBar = $find("<%=RadToolBar1.ClientID %>");
@@ -56,7 +56,7 @@ button.set_checked(!button.get_isChecked());
 ````
 
 
-* **disable()**
+>caption Using disable() method
 
 ````JavaScript	
 var toolBar = $find("<%=RadToolBar1.ClientID %>");
@@ -64,7 +64,7 @@ var button = toolBar.findItemByText("Button1");
 button.disable();				
 ````
 
-* **enable()**
+>caption Using enable() method
 
 ````JavaScript	
 var toolBar = $find("<%=RadToolBar1.ClientID %>");

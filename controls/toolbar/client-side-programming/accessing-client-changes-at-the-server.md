@@ -5,7 +5,7 @@ description: Accessing Client Changes at the Server
 slug: toolbar/client-side-programming/accessing-client-changes-at-the-server
 tags: accessing,client,changes,at,the,server
 published: True
-position: 7
+position: 30
 ---
 
 # Accessing Client Changes at the Server
@@ -29,7 +29,7 @@ Client side changes are available on the server side after postback. You can use
 >
 
 
-## Example:
+>caption Example
 
 The code snippet below enumerates through all operations in the ClientChanges collection and utilizes both the **Item** and **Type** properties. For a complete demo, please see the client-side [Add/Remove/Disable Items](http://demos.telerik.com/aspnet-ajax/toolbar/examples/clientside/addremovedisableitems/defaultcs.aspx) example.
 
