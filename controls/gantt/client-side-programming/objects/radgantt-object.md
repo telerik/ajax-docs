@@ -33,26 +33,26 @@ The following table lists the most important methods of the **RadGantt** client-
 |  **get_enabled**  | none | boolean |Returns a boolean value indicating whether the control is enabled.|
 |  **exportToPdf**  | none | none |Exports the RadGantt to .pdf if the EnablePdfExport property is true.|
 |  **get_allowColumnResize**  | none | boolean |True if the allowColumnResize property is enabled, false otherwise.|
-|  **get_currentTimeMarkerInterval**  | none | int |Returns the value of the Gantts's currentTimeMarkerInterval property.|
+|  **get_currentTimeMarkerInterval**  | none | int |Returns the value of the Gantt's currentTimeMarkerInterval property.|
 |  **get_displayDeleteConfirmation**  | none | boolean |True if the displayDeleteConfirmation property is enabled, false otherwise.|
-|  **get_height**  | none | int |Returns the height of the Gantts's DOM element.|
-|  **get_hourSpan**  | none | int |Returns the value of the Gantts's hourSpan property.|
+|  **get_height**  | none | int |Returns the height of the Gantt's DOM element.|
+|  **get_hourSpan**  | none | int |Returns the value of the Gantt's hourSpan property.|
 |  **get_listWidth**  | none | string |Returns the width of the RadGantt's TreeList view.|
-|  **get_rowHeight**  | none | int |Returns the value of the Gantts's rowHeight property.|
+|  **get_rowHeight**  | none | int |Returns the value of the Gantt's rowHeight property.|
 |  **get_showCurrentTimeMarker**  | none | boolean |Returns the value of the Gantt's showCurrentTimeMarker property.|
 |  **get_showFullTime**  | none | boolean |Returns a boolean value indicating whether a complete day or a range between 8:00 AM and 5:00 PM is displayed.|
 |  **get_showFullWeek**  | none | boolean |Returns a boolean value indicating whether all days of the Gantt's week are displayed or a range between WorkWeekStart and WorkWeekEnd.|
 |  **get_showTooltip**  | none | boolean |Returns a boolean value indicating whether showing tooltips for Gantt tasks is enabled.|
-|  **get_width**  | none | int |Returns the width of the Gantts's DOM element.|
+|  **get_width**  | none | int |Returns the width of the Gantt's DOM element.|
 |  **get_workWeekEnd**  | none | Telerik.Web.UI.DayOfWeek |Returns the last day of the work week.|
 |  **get_workWeekStart**  | none | Telerik.Web.UI.DayOfWeek |Returns the first day of the work week.|
 |  **set_allowColumnResize**  | boolean | none |Enables/Disables column resizing. See **Example 3**.|
-|  **get_rangeStart**  | none | Date |Returns the value of the Gantts's rangeStart property.|
-|  **get_rangeEnd**  | none | Date |Returns the value of the Gantts's rangeEnd property.|
-|  **get_selectedDate**  | none | Date |Returns the value of the Gantts's selectedDate property.|
-|  **set_currentTimeMarkerInterval**  | int | none |Sets the value of the Gantts's currentTimeMarkerInterval property. See **Example 4**.|
+|  **get_rangeStart**  | none | Date |Returns the value of the Gantt's rangeStart property.|
+|  **get_rangeEnd**  | none | Date |Returns the value of the Gantt's rangeEnd property.|
+|  **get_selectedDate**  | none | Date |Returns the value of the Gantt's selectedDate property.|
+|  **set_currentTimeMarkerInterval**  | int | none |Sets the value of the Gantt's currentTimeMarkerInterval property. See **Example 4**.|
 |  **set_displayDeleteConfirmation**  | boolean | none |Enables/Disables confirmation dialog when the user deletes a task or a dependency.|
-|  **set_height**  | int | none |Sets the height of the Gantts's DOM element. See **Example 5**.|
+|  **set_height**  | int | none |Sets the height of the Gantt's DOM element. See **Example 5**.|
 |  **set_hourSpan**  | int | none |Sets the hour span.|
 |  **set_listWidth**  | string | none |Sets the width of the Gantt's TreeList view.|
 |  **set_rowHeight**  | int | none |Sets the rows height.|
@@ -63,12 +63,12 @@ The following table lists the most important methods of the **RadGantt** client-
 |  **set_showFullTime**  | boolean | none |Enables displaying the Gantt's complete day or displays a range between 8:00 AM and 5:00 PM.|
 |  **set_showFullWeek**  | boolean | none |Enables displaying all days of the Gantt's week or diplays the range between WorkWeekStart and WorkWeekEnd.|
 |  **set_showTooltip**  | boolean | none |Enables/Disables displaying tooltips for Gantt tasks.|
-|  **set_width**  | int | none |Sets the width of the Gantts's DOM element.|
-|  **set_workWeekEnd**  | int | none |Sets the Gantts's last day of the work week. See **Example 7**.|
-|  **set_workWeekStart**  | int | none |Sets the Gantts's first day of the work week.|
-|  **set_rangeStart**  | Date | none |Sets the value of the Gantts's rangeStart property. See **Example 8**.|
-|  **set_rangeEnd**  | Date | none |Sets the value of the Gantts's rangeEnd property. See **Example 9**.|
-|  **set_selectedDate**  | Date | none |Sets the value of the Gantts's selectedDate property. See **Example 10**.|
+|  **set_width**  | int | none |Sets the width of the Gantt's DOM element.|
+|  **set_workWeekEnd**  | int | none |Sets the Gantt's last day of the work week. See **Example 7**.|
+|  **set_workWeekStart**  | int | none |Sets the Gantt's first day of the work week.|
+|  **set_rangeStart**  | Date | none |Sets the value of the Gantt's rangeStart property. See **Example 8**.|
+|  **set_rangeEnd**  | Date | none |Sets the value of the Gantt's rangeEnd property. See **Example 9**.|
+|  **set_selectedDate**  | Date | none |Sets the value of the Gantt's selectedDate property. See **Example 10**.|
 
 >caption  Example 1: Get a collection with all Gantt tasks.
 ````JavaScript
