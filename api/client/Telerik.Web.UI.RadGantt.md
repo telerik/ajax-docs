@@ -137,7 +137,7 @@ True if the allowColumnResize property is enabled, false otherwise.
 
 ### get_clientTemplate
 
-Returns the value of the Gantts's clientTemplate property.
+Returns the value of the Gantt's clientTemplate property.
 
 #### Parameters
 
@@ -147,7 +147,7 @@ Returns the value of the Gantts's clientTemplate property.
 
 ### get_currentTimeMarkerInterval
 
-Returns the value of the Gantts's currentTimeMarkerInterval property.
+Returns the value of the Gantt's currentTimeMarkerInterval property.
 
 #### Parameters
 
@@ -167,7 +167,7 @@ True if the displayDeleteConfirmation property is enabled, false otherwise.
 
 ### get_height
 
-Returns the value of the Gantts's height property.
+Returns the value of the Gantt's height property.
 
 #### Parameters
 
@@ -177,7 +177,7 @@ Number `Number`
 
 ### get_hourSpan
 
-Returns the value of the Gantts's hourSpan property.
+Returns the value of the Gantt's hourSpan property.
 
 #### Parameters
 
@@ -207,13 +207,43 @@ Returns the value of the Gantt's readOnly property indicating whether the contro
 
 ### get_rowHeight
 
-Returns the value of the Gantts's rowHeight property.
+Returns the value of the Gantt's rowHeight property.
 
 #### Parameters
 
 #### Returns
 
 Number `Number` 
+
+### get_rangeStart
+
+Returns the value of the Gantt's rangeStart property.
+
+#### Parameters
+
+#### Returns
+
+`Date` Date 
+
+### get_rangeEnd
+
+Returns the value of the Gantt's rangeEnd property.
+
+#### Parameters
+
+#### Returns
+
+`Date` Date 
+
+### get_selectedDate
+
+Returns the value of the Gantt's selectedDate property.
+
+#### Parameters
+
+#### Returns
+
+`Date` Date 
 
 ### get_showCurrentTimeMarker
 
@@ -267,7 +297,7 @@ Returns the value of the Gantt's snapToGrid property.
 
 ### get_width
 
-Returns the value of the Gantts's width property.
+Returns the value of the Gantt's width property.
 
 #### Parameters
 
@@ -311,7 +341,7 @@ value
 
 ### set_clientTemplate
 
-Sets the value of the Gantts's clientTemplate property.
+Sets the value of the Gantt's clientTemplate property.
 
 #### Parameters
 
@@ -325,7 +355,7 @@ value
 
 ### set_currentTimeMarkerInterval
 
-Sets the value of the Gantts's currentTimeMarkerInterval property.
+Sets the value of the Gantt's currentTimeMarkerInterval property.
 
 #### Parameters
 
@@ -367,7 +397,7 @@ value
 
 ### set_height
 
-Sets the value of the Gantts's height property.
+Sets the value of the Gantt's height property.
 
 #### Parameters
 
@@ -381,7 +411,7 @@ value
 
 ### set_hourSpan
 
-Sets the value of the Gantts's hourSpan property.
+Sets the value of the Gantt's hourSpan property.
 
 #### Parameters
 
@@ -395,7 +425,7 @@ value
 
 ### set_listWidth
 
-Sets the value of the Gantts's listWidth property in pixels or percents.
+Sets the value of the Gantt's listWidth property in pixels or percents.
 
 #### Parameters
 
@@ -423,7 +453,7 @@ value
 
 ### set_rowHeight
 
-Sets the value of the Gantts's rowHeight property.
+Sets the value of the Gantt's rowHeight property.
 
 #### Parameters
 
@@ -434,6 +464,48 @@ value
 #### Returns
 
 `None`
+
+### set_rangeStart
+
+Sets the value of the Gantt's rangeStart property.
+
+#### Parameters
+
+##### date `Date`
+
+The DateTime object which should be set as a start date of visible range.
+
+#### Returns
+
+`None` 
+
+### set_rangeEnd
+
+Sets the value of the Gantt's rangeEnd property.
+
+#### Parameters
+
+##### date `Date`
+
+The DateTime object which should be set as an end date of visible range.
+
+#### Returns
+
+`None` 
+
+### selectDate
+
+Sets the value of the Gantt's selectedDate property.
+
+#### set_selectedDate
+
+##### date `Date`
+
+The DateTime object which should be set as a selected date.
+
+#### Returns
+
+`None` 
 
 ### set_selectedView
 
@@ -543,7 +615,7 @@ value
 
 ### set_width
 
-Sets the value of the Gantts's width property.
+Sets the value of the Gantt's width property.
 
 #### Parameters
 
@@ -557,7 +629,7 @@ value
 
 ### set_workWeekEnd
 
-Sets the Gantts's last day of the work week.
+Sets the Gantt's last day of the work week.
 
 #### Parameters
 
@@ -571,7 +643,7 @@ value
 
 ### set_workWeekStart
 
-Sets the Gantts's first day of the work week.
+Sets the Gantt's first day of the work week.
 
 #### Parameters
 
