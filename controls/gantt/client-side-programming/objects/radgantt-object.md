@@ -47,9 +47,9 @@ The following table lists the most important methods of the **RadGantt** client-
 |  **get_workWeekEnd**  | none | Telerik.Web.UI.DayOfWeek |Returns the last day of the work week.|
 |  **get_workWeekStart**  | none | Telerik.Web.UI.DayOfWeek |Returns the first day of the work week.|
 |  **set_allowColumnResize**  | boolean | none |Enables/Disables column resizing. See **Example 3**.|
-|  **get_rangeStart**  | none | Date |Returns the Gantts's rangeEnd property.|
-|  **get_rangeEnd**  | none | Date |Returns the Gantts's selectedDate property.|
-|  **get_selectedDate**  | none | Date |Returns the Gantts's rangeStart property.|
+|  **get_rangeStart**  | none | Date |Returns the Gantts's rangeStart property.|
+|  **get_rangeEnd**  | none | Date |Returns the Gantts's rangeEnd property.|
+|  **get_selectedDate**  | none | Date |Returns the Gantts's selectedDate property.|
 |  **set_currentTimeMarkerInterval**  | int | none |Sets the value of the Gantts's currentTimeMarkerInterval property. See **Example 4**.|
 |  **set_displayDeleteConfirmation**  | boolean | none |Enables/Disables confirmation dialog when the user deletes a task or a dependency.|
 |  **set_height**  | int | none |Sets the height of the Gantts's DOM element. See **Example 5**.|
