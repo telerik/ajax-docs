@@ -14,19 +14,19 @@ position: 0
 
 The **R3 2016** release of the **Telerik UI for ASP.NET AJAX** suite introduces several improvements of the **Lightweight** rendering of the **RadTreeView**. As the **RadDropDownTree** uses an embedded **RadTreeView** for its drop-down, those changes apply for that control too.
 
-The improvements introduced might cause some issues with the proper appearance of the control, when custom styles are applied. The changes introduced for the structure of the nodes of the tree are listed below:
+The improvements introduced might cause some issues with the proper appearance of the control when custom styles are applied. The changes introduced for the structure of the nodes of the tree are listed below:
 
-* The *&lt;div&gt;* element that represents each node used to have *rtTop*, *rtMid* or *rtBot* class, depending on the position of the node (whether it is the first node for the current level, a middle node of the last node). In the improved rendering those classes are substituted with a single *rtOut* class;
+* The *&lt;div&gt;* element that represents each node used to have the *rtTop*, *rtMid* or *rtBot* class, depending on the position of the node (whether it is the first node for the current level, a middle node or the last node). In the improved rendering those classes are substituted with a single *rtOut* class.
 
-* The *&lt;span&gt;* element with class *rtSp*, that was used to calculate the line height for each node, has been removed;
+* The *&lt;span&gt;* element with the class *rtSp*, which was used to calculate the line height for each node, has been removed.
 
-* The *&lt;span&gt;* element with class *rtIn* has been transformed to a *&lt;div&gt;* element;
+* The *&lt;span&gt;* element with the class *rtIn* has been transformed to a *&lt;div&gt;* element.
 
-* The icon *&lt;img&gt;* with class *rtImg* used to be sibling, placed before the *rtIn* element, but it is now placed within the *rtIn* *&lt;div&gt;*;
+* The icon *&lt;img&gt;* with the class *rtImg* used to be sibling, placed before the *rtIn* element, but it is now placed within the *rtIn* *&lt;div&gt;*.
 
-* A new *&lt;span&gt;* element with class *rtText* has been introduced to hold the text of each node;
+* A new *&lt;span&gt;* element with the class *rtText* has been introduced to hold the text of each node.
 
-* The class *rtChkTristate* has been added to the tri-state checkbox *&lt;span&gt;*;
+* The class *rtChkTristate* has been added to the tri-state checkbox *&lt;span&gt;*.
 
 
 
@@ -35,7 +35,7 @@ The improvements introduced might cause some issues with the proper appearance o
 
 ### Using the Tag Selector
 
-In case that *rtIn* element is customized using tag selector (*span.rtIn*), removing the element text (*span*) from the selector will fix the possible issues.
+In cases where that *rtIn* element is customized using the tag selector (*span.rtIn*), removing the element text (*span*) from the selector will fix the possible issues.
 
 
 ### Styling rtOut Element
@@ -64,7 +64,7 @@ to:
 
 ## Changes in the HTML Structure of a Node with a Two-state Checkbox
 
-Previously the generated structure of a tree node with a two-state checkbox was:
+Previously, the generated structure of a tree node with a two-state checkbox was:
 
 ````HTML
 <div class="rtTop ContentCssClass rtSelected SelectedCssClass">
@@ -95,7 +95,7 @@ It has been changed to:
 
 ## Changes in the HTML Structure of a Node with a tri-state Checkbox
 
-The node with s tri-state checkbox has been changed from:
+The node with a tri-state checkbox has been changed from:
 ````HTML
 <div class="rtTop ContentCssClass rtSelected SelectedCssClass">
 	<span class="rtSp"></span>
