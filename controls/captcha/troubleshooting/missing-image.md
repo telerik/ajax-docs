@@ -14,48 +14,77 @@ This help article treats issues with missing images in RadCaptcha and provides r
 
 Generally, issues with missing captcha image are caused by the HttpHandler that serves the image itself. You can find below a list with the most common scenarios for such issues:
 
-## Handlers are not properly configured
+* [Image HttpHandler is not Properly Configured](#image-httphandler-is-not-properly-configured)
+* [WebFarm/WebGarden Scenario](#webfarmwebgarden-scenario)
+* [Authentication Blockage](#authentication-blockage)
+* [URL Rewrite Module or Routing](#url-rewrite-module-or-routing)
+* [Proxy, Firewall or Plugin Blockage](#proxy-firewall-or-plugin-blockage)
 
-## URL Rewrite Module
+## Image HttpHandler is not Properly Configured 
 
-## Authentication Blockage
+You should ensure to properly define the httpHandler that serves the captcha image in the `web.config` file (**Example 1**).
+
+>caption **Example 1**: Configure the httpHandler that server the captcha image in the web.config file.
+
+**XML**
+
+	<configuration>
+		<system.web>
+			<httpHandlers>
+				<add path="Telerik.Web.UI.WebResource.axd" type="Telerik.Web.UI.WebResource" verb="*" validate="false" /> 
+			</httpHandlers>
+		</system.web>
+		<system.webServer>
+			<handlers>
+				<add name="Telerik_Web_UI_WebResource_axd" verb="*" preCondition="integratedMode" path="Telerik.Web.UI.WebResource.axd" type="Telerik.Web.UI.WebResource" /> 
+			</handlers>
+		</system.webServer>
+	</configuration>
+
+More information is available in the [Getting Started]({%slug captcha/getting-started%}) article.
 
 ## WebFarm/WebGarden Scenario
 
+By default the image is stored in the Cache. However, if more than one server is used to host the page (web-farm environment) the Session should be used, because if the Cache is used the image is stored locally on the server.
 
-By default the RadCaptcha control stores the CaptchaImage in the Cache object.	In case your application is configured to run in any of the environments, listed below, there will be a problem accessing the captcha image:
+You can examine the [Using WebFarm or WebGarden Environment]({%slug captcha/troubleshooting/using-webfarm-or-webgarden-environment%}) article that showcases how to store the `CaptchaImage` in the Session.
 
-* **Web Farm** - The application runs on more than one web server at the same time.
+## Authentication Blockage
 
-* **Web Garden** - The application runs on a single server, but the server load is divided among many worker processes (more than one process are running the same application).
+When your project uses a form of authentication (e.g., Windows Authentication), access to most resources (like pages, images, handlers) is not allowed for anonymous (unauthorized users). This affects the Telerik controls, including the RadCaptcha, because they use a number of HTTP Handlers that also get blocked.
 
-Usually, every server (or every worker process) has an independent Cache, which means that,	when the page request is not handled by the same web server (worker process), the CaptchaImage will be null and a gray image will be shown.
+To resolve the issue you can add <location> elements to your web.config for all the handlers you use, so ASP.NET does not block them (**Example 2**).
 
-To avoid this behavior, you should store the CaptchaImage in the Session, and configure your server environment to use out of process Session State(i.e. the Session object is shared among different processes and servers). Practically you need to:
+>caption **Example 2**: Add a location element to the web.config for the httpHandler that serves the captcha image.
 
-1. Set the **ImageStorageLocation** property of RadCaptcha to **Session**;
+**web.config**
 
-1. Configure the httpHandler in the following way:
+	<configuration>
+	...
+	<location path="Telerik.Web.UI.WebResource.axd">
+		<system.web>
+			<authorization>
+				<allow users="*"/>
+			</authorization>
+		</system.web>
+	</location>
+	...
+	</configuration> 
 
-	>caption web.config:
+More information on the matter is available in the [Unauthorized Access (401) Error]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/troubleshooting/web-resources-troubleshooting%}#unauthorized-access-401-error) section of the [Web Resources Troubleshooting]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/troubleshooting/web-resources-troubleshooting%}) article.
 
-	**XML**
-	
-		<configuration>
-			<system.web>
-				<httpHandlers>
-					<add path="Telerik.Web.UI.WebResource.axd" type="Telerik.Web.UI.WebResourceSession" verb="*" validate="false" />
-				</httpHandlers>
-			</system.web>
-			<system.webServer>
-				<handlers>
-					<add name="Telerik_Web_UI_WebResource_axd" verb="*" preCondition="integratedMode" path="Telerik.Web.UI.WebResource.axd" type="Telerik.Web.UI.WebResourceSession" />
-				</handlers>
-			</system.webServer>
-		</configuration>
+## URL Rewrite Module or Routing
 
-1. Ensure that you have configured your server environment to use [out of process Session State](http://msdn.microsoft.com/en-us/library/ms972429.aspx). In order to setup such Session State, you can apply any of the following solutions:
+When you configure your application to use a [Routing](https://msdn.microsoft.com/en-us/library/cc668201.aspx) or [URL Rewriting Module](https://msdn.microsoft.com/en-us/library/ms972974.aspx) the requests of the application may be changed. You should ensure the request for the captcha's image is not modified.
 
-	* Deploy the out-of-process Session State server that is provided with ASP.NET.
+## Proxy, Firewall or Plugin Blockage
 
-	* Manually configure each Web server to store Session State data on a SQL Server.
+It may be possible that some requests, including the captcha's image request, are blocked because of the existence of proxy, antivirus firewall or a browser plug-in. You can try to disable all of them to ensure that is not the cause of the issue.
+
+### See Also
+
+* [Getting Started]({%slug captcha/getting-started%})
+* [Using WebFarm or WebGarden Environment]({%slug captcha/troubleshooting/using-webfarm-or-webgarden-environment%}) 
+* [Unauthorized Access (401) Error]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/troubleshooting/web-resources-troubleshooting%}#unauthorized-access-401-error)
+* [Routing](https://msdn.microsoft.com/en-us/library/cc668201.aspx)
+* [URL Rewriting Module](https://msdn.microsoft.com/en-us/library/ms972974.aspx)  
