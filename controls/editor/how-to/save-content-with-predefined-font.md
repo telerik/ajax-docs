@@ -1,16 +1,16 @@
 ---
-title: Save Content with Default Font
-page_title: Save Content with Default Font | RadEditor for ASP.NET AJAX Documentation
-description: Save RadEditor Content with Default Font
-slug: editor/how-to/save-content-with-default-font
-tags: save, content, with, default, font
+title: Save Content with Predefined Font
+page_title: Save Content with Predefined Font | RadEditor for ASP.NET AJAX Documentation
+description: Save RadEditor Content with Predefined Font
+slug: editor/how-to/save-content-with-predefined-font
+tags: save, content, with, predefined, font
 published: True
 position: 12
 ---
 
-# Save Content with Default Font
+# Save Content with Predefined Font
 
-In this article you will see how to save the RadEditor's content with a default font.
+In this article you will see how to save the RadEditor's content with a predefined font.
 
 Generally, the editor's content is saved in a database without the external style sheets. This means only the inline styles will be preserved when the content is saved in a database. 
 
@@ -47,7 +47,7 @@ You can use the editor's [get_html()]({%slug editor/client-side-programming/meth
 <script>
     function submitContent(sender, args) {
         var editor = $find("RadEditor2");
-        editor.set_html("<div style='font-family:Arial;font-size:20px;'>" + editor.get_html() + "</div>");
+        editor.set_html("<div style='font-family:Arial;font-size:20px;'>" + editor.get_html(true) + "</div>");
     }
 </script>
 <telerik:RadButton ID="RadButton1" runat="server" Text="Submit Editor Content" AutoPostBack="true" OnClientClicked="submitContent" />
@@ -84,7 +84,7 @@ You can fire a particular font command (e.g., `FontName` or `RealFontSize`). Thi
 
 ## Define external stylesheets and use CSS inliner tool that will convert them to inline styles
 
-You can use any external CSS Inliner Tool to convert the external stylesheets of the editor to inline styles. For example you can find below an integration sample with the [PreMailer.Net](https://github.com/milkshakesoftware/PreMailer.Net) CSS Inliner Tool.
+You can use any external CSS Inliner Tool to convert the external stylesheets of the editor to inline styles (**Example 4**).
 
 1. Define the .css files via the CssFiles collection.
 1. Read the .css files and place that content inside the style tag of the editor content.
@@ -127,7 +127,7 @@ protected void Button1_Click(object sender, EventArgs e)
 
     string rawContent = "<html><head><style>" + css.ToString() + "</style></head><body>" + content + "</body></html>";
 
-    var contentInlineStyles = PreMailer.Net.PreMailer.MoveCssInline(rawContent, true);
+    var contentInlineStyles = MyCSSInlinerTool.MoveCssInline(rawContent, true); //Where MyCSSInlinerTool is an external tool that that converts stylesheets to inline styles. 
 }
 ````
 ````VB
@@ -143,7 +143,7 @@ Protected Sub Button1_Click(sender As Object, e As EventArgs)
 
 	Dim rawContent As String = "<html><head><style>" & css.ToString() & "</style></head><body>" & content & "</body></html>"
 
-	Dim contentInlineStyles = PreMailer.Net.PreMailer.MoveCssInline(rawContent, True)
+	Dim contentInlineStyles = MyCSSInlinerTool.MoveCssInline(rawContent, True) 'Where MyCSSInlinerTool is an external tool that that converts stylesheets to inline styles.
 End Sub
 ````
 
