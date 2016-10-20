@@ -20,7 +20,7 @@ function getRange() {
 	var spreadsheet = $find("<%= RadSpreadSheet1.ClientID %>");
 	var activeSheet = spreadsheet.get_activeSheet();
 	var singleCellRange = activeSheet.get_range("A1")  
-	var mutliCellRange = activeSheet.get_range("A1:B3"); // usign RC Notation
+	var mutliCellRange = activeSheet.get_range("A1:B3"); // using A1 Notation
 }
 
 ````
