@@ -24,11 +24,21 @@ The **RadClientExportManager** control's known limitations are listed below:
 
 * only **solid** border-style
 
-* the content of the following elements is not rendered: `<iframe>`, `<svg>`, `<input>`, `<textarea>`. A `<canvas>` will be rendered as an image, but only if it's "non-tainted" (does not display images from another domain). An .svg image can be exported if its URL is set in the "src" attribute of an `<img>` element.
+* using browser zoom other than 100% is not supported.
 
-* rendering of `<select>` elements is imperfect (some minor issues can be noticed, like wrong padding or missing the drop down arrow). 
+* the content of the following elements is not rendered: `<iframe>`, `<svg>`. A `<canvas>` will be rendered as an image, but only if it's "non-tainted" (does not display images from another domain). 
+
+* SVG referenced with the <img> tag will not render in Internet Explorer, because IE taints the canvas.
+
+* rendering of `<select>` elements is imperfect (some minor issues can be noticed, like wrong padding or missing the dropdown arrow). 
 
 * images hosted on different domains might not be rendered, unless permissive [Cross-Origin HTTP headers](https://developer.mozilla.org/en-US/docs/Web/HTML/CORS_enabled_image) are provided by the server. Similarly, fonts might not be possible to load cross-domain. Even with the proper CORS headers, IE9 will not be able to load images or fonts from another domain, and could raise a uncatcheable security exception. If you need to support IE9, make sure to host images and fonts on the same domain as the application.
+
+* images will not be exported in IE if their source is an SVG document. These are considered to be tainted.
+
+* the **border-collapse:collapse** style of tables is not supported. Avoid using adjacent borders for separate table cells to prevent double borders in the PDF output.
+
+* maximum document size is limited to 5080x5080mm (200x200 inches) by the PDF 1.5 specification. Larger files might not open in some viewers.
 
 * when the generated document is opened with Acrobat Reader and you try to use the **Save As** option from the file menu an error is thrown. "The document could not be saved. There was a problem reading(23)". The solution is to open Acrobat Reader options (Edit → Preferences) and in the "Documents" section uncheck “Save As optimizes for Fast Web View”, which is enabled by default. After this, **Save As** will work without errors.
 

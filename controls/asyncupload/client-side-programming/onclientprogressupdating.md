@@ -14,6 +14,9 @@ position: 14
 
 The **OnClientProgressUpdating** occurs each time the inline progress indicator is being updated.
 
+>note This event is not fired when the **RadAsyncUpload** uses the IFrame module, for example in IE9 if the control's **DisablePlugins** property is set to **true** the **RadAsyncUpload** will default to using IFrame module, since IE9 does not support File API.  
+>
+
 The event handler receives two parameters:
 
 1. The instance of the **RadAsyncUpload** control firing the event.
