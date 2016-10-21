@@ -63,7 +63,7 @@ Protected Sub RadDockLayout1_SaveDockLayout( _
                  ByVal e As DockLayoutEventArgs) _
                  Handles RadDockLayout1.SaveDockLayout
     Dim dockState As HttpCookie = Page.Response.Cookies.[Get]("MyApplicationDockStates")
-    If dockState = Nothing Then
+    If dockState Is Nothing Then
         dockState = New HttpCookie("MyApplicationDockStates")
         Page.Response.Cookies.Add(dockState)
     End If
