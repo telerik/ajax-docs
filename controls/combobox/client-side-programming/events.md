@@ -127,7 +127,6 @@ Note that on the client-side, the names of events are slightly different than on
 |OnClientTextChange|textChange|add_textChange, remove_textChange.||
 |OnClientItemDataBound|itemDataBound|add_itemDataBound, remove_itemDataBound.||
 
-For a live example of using client-side events, see [Client Events](http://demos.telerik.com/aspnet-ajax/ComboBox/Examples/Programming/ClientEvents/DefaultCS.aspx).
 
 # See Also
 
