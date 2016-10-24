@@ -14,7 +14,7 @@ In this article you will see how to save the RadEditor's content with a default 
 
 Generally, the editor's content is saved in a database without the external style sheets. This means only the inline styles will be preserved when the content is saved in a database. 
 
-To define a default font for the editor content when it is submitted to the server you should use inline styles. You can use one of the following approaches:
+To define a default font for the editor content when it is submitted to the server, you should use inline styles. You can use one of the following approaches:
 
 1. Define a wrapper element with a particular font for the content area.
 
@@ -34,7 +34,7 @@ To define a default font for the editor content when it is submitted to the serv
 
 You can use the editor's [get_html()]({%slug editor/client-side-programming/methods/get_html%}) and [set_html()]({%slug editor/client-side-programming/methods/set_html%}) methods in order to get and set the content inside an element with a particular font before submit.
 
->caption Example 2: Wrap editor's content inside an element with a desired font on submit.
+>caption Example 2: Wrap the editor's content inside an element with a desired font on submit.
 
 ````ASP.NET
 <script>
@@ -51,11 +51,11 @@ You can use the editor's [get_html()]({%slug editor/client-side-programming/meth
 </telerik:RadEditor>
 ````
 
-1. Capture the enter key press over the editor content area in order and fire the editor's format command.
+1. Capture the enter keypress over the editor content area in order and fire the editor's format command.
 
-You can fire a particular font command (e.g., `FontName` or `RealFontSize`). This can be done via the toolbar or automatically by attaching to the [enter key press of the content area]({%slug editor/client-side-programming/events/onclientload%}).
-
->caption Example 3: Fire editor's font commands when pressing enter key in the content area.
+You can fire a particular font command (e.g., `FontName` or `RealFontSize`). This can be done via the toolbar or automatically by attaching to the [enter keypress of the content area]({%slug editor/client-side-programming/events/onclientload%}).
+<Comment: I find it a bit confusing that you describe the enter keypress generally but the code example doesn't capture specifically the enter key press. Why call it an enter key if you the code example doesn't capture that key? I think it would be more clear to say that the example shows how to capture a particular key, like Enter.>
+>caption Example 3: Fire editor's font commands when pressing Enter key in the content area.
 
 ````ASP.NET
 <script>
@@ -77,13 +77,13 @@ You can fire a particular font command (e.g., `FontName` or `RealFontSize`). Thi
 
 1. Define external stylesheets and use CSS inliner tool that will convert them to inline styles.
 
-You can use any external CSS Inliner Tool to convert the external stylesheets of the editor to inline style. For example you can find below sample integration sample with the [PreMailer.Net](https://github.com/milkshakesoftware/PreMailer.Net) CSS Inliner Tool.
+You can use any external CSS inliner tool to convert the external stylesheets of the editor to inline style. The next example shows an integration sample with the [PreMailer.Net](https://github.com/milkshakesoftware/PreMailer.Net) CSS Inliner Tool.
 
     1. Define the .css files via the CssFiles collection.
     1. Read the .css files and place that content inside the style tag of the editor content.
     1. Execute the CSS Inliner Tool over the modified content.
 
->caption Example 4: Use an external CSS Inliner Tool to convert external stylesheets to inline styles.
+>caption Example 4: Use an external CSS inliner tool to convert external stylesheets to inline styles.
 
 ````CSS
 /*ParagraphStylization.css*/
