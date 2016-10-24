@@ -16,9 +16,9 @@ To handle this event, simply write a JavaScript function that can be called when
 
 The client-side **OnClientCreateNewFolder** event handler receives two arguments:
 
-1. Sender—the [RadFileExplorer object](http://docs.telerik.com/devtools/aspnet-ajax/api/client/Telerik.Web.UI.RadFileExplorer) that fired the event.
+1. Sender: The [RadFileExplorer object](http://docs.telerik.com/devtools/aspnet-ajax/api/client/Telerik.Web.UI.RadFileExplorer) that fired the event.
 
-1. Event arguments—an event arguments object of type Telerik.Web.UI.FileExplorerEventArgs that exposes the following methods:
+1. Event arguments: An event arguments object of type Telerik.Web.UI.FileExplorerEventArgs that exposes the following methods:
 
 	>caption Table 1: OnClientCreateNewFolder Event Arguments Object
 
@@ -26,8 +26,8 @@ The client-side **OnClientCreateNewFolder** event handler receives two arguments
 	| ------ | ------ | ------ | ------ |
 	|get_cancel()||Boolean|Returns a value that indicates whether the event is cancelled.|
 	|get_item()||Object|Returns the currently loaded folder.|
-	|get_newPath()||String|Returns the path to the creaded folder.|
-	|get_path()||String|Returns the name of the creaded folder.|
+	|get_newPath()||String|Returns the path to the created folder.|
+	|get_path()||String|Returns the name of the created folder.|
 	|set_cancel(value)|Boolean||Sets whether the event will be cancelled (if true is passed).|
 
 >caption Example 1: Confirm new folder creation in the **RadFileExplorer**'s client-side **CreateNewFolder** event handler.
