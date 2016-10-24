@@ -18,9 +18,9 @@ To handle this event, simply write a JavaScript function that can be called when
 
 The client-side **OnClientFileOpen** event handler receives two arguments:
 
-1. Sender—the [RadFileExplorer object](http://docs.telerik.com/devtools/aspnet-ajax/api/client/Telerik.Web.UI.RadFileExplorer) that fired the event.
+1. Sender: The [RadFileExplorer object](http://docs.telerik.com/devtools/aspnet-ajax/api/client/Telerik.Web.UI.RadFileExplorer) that fired the event.
 
-1. Event arguments—an event arguments object of type Telerik.Web.UI.FileExplorerEventArgs that exposes the following methods:
+1. Event arguments: An event arguments object of type Telerik.Web.UI.FileExplorerEventArgs that exposes the following methods:
 
 	>caption Table 1: OnClientFileOpen Event Arguments Object
 
