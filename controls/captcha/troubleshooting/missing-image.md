@@ -12,7 +12,7 @@ position: 2
 
 This help article treats issues with missing images in RadCaptcha and provides resolutions.
 
-Generally, issues with missing captcha image are caused by the HttpHandler that serves the image itself. You can find below a list with the most common scenarios for such issues:
+Generally, issues with missing captcha image are caused by the HttpHandler that serves the image itself. The list below shows solutions for the most common scenarios for such issues:
 
 * [Image HttpHandler is not Properly Configured](#image-httphandler-is-not-properly-configured)
 * [WebFarm/WebGarden Scenario](#webfarmwebgarden-scenario)
@@ -20,9 +20,9 @@ Generally, issues with missing captcha image are caused by the HttpHandler that 
 * [URL Rewrite Module or Routing](#url-rewrite-module-or-routing)
 * [Proxy, Firewall or Plugin Blockage](#proxy-firewall-or-plugin-blockage)
 
-## Image HttpHandler is not Properly Configured 
+## Image HttpHandler Is not Properly Configured 
 
-You should ensure to properly define the httpHandler that serves the captcha image in the `web.config` file (**Example 1**).
+You should ensure that you have properly defined the httpHandler that serves the captcha image in the `web.config` file (**Example 1**).
 
 >caption **Example 1**: Configure the httpHandler that server the captcha image in the web.config file.
 
@@ -45,9 +45,9 @@ More information is available in the [Getting Started]({%slug captcha/getting-st
 
 ## WebFarm/WebGarden Scenario
 
-By default the image is stored in the Cache. However, if more than one server is used to host the page (web-farm environment) the Session should be used, because if the Cache is used the image is stored locally on the server.
+By default, the image is stored in the Cache. However, if more than one server is used to host the page (web-farm environment) the Session should be used, because if the Cache is used the image is stored locally on the server.
 
-You can examine the [Using WebFarm or WebGarden Environment]({%slug captcha/troubleshooting/using-webfarm-or-webgarden-environment%}) article that showcases how to store the `CaptchaImage` in the Session.
+You can review the [Using WebFarm or WebGarden Environment]({%slug captcha/troubleshooting/using-webfarm-or-webgarden-environment%}) article that showcases how to store the `CaptchaImage` in the Session.
 
 ## Authentication Blockage
 
@@ -71,11 +71,11 @@ To resolve the issue you can add <location> elements to your web.config for all 
 	...
 	</configuration> 
 
-More information on the matter is available in the [Unauthorized Access (401) Error]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/troubleshooting/web-resources-troubleshooting%}#unauthorized-access-401-error) section of the [Web Resources Troubleshooting]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/troubleshooting/web-resources-troubleshooting%}) article.
+You can find more information in the [Unauthorized Access (401) Error]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/troubleshooting/web-resources-troubleshooting%}#unauthorized-access-401-error) section of the [Web Resources Troubleshooting]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/troubleshooting/web-resources-troubleshooting%}) article.
 
 ## URL Rewrite Module or Routing
 
-When you configure your application to use a [Routing](https://msdn.microsoft.com/en-us/library/cc668201.aspx) or [URL Rewriting Module](https://msdn.microsoft.com/en-us/library/ms972974.aspx) the requests of the application may be changed. You should ensure the request for the captcha's image is not modified.
+When you configure your application to use a [Routing](https://msdn.microsoft.com/en-us/library/cc668201.aspx) or [URL Rewriting Module](https://msdn.microsoft.com/en-us/library/ms972974.aspx) the requests of the application may be changed. You should ensure that the request for the captcha's image is not modified.
 
 ## Proxy, Firewall or Plugin Blockage
 
