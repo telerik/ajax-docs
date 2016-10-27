@@ -3,6 +3,7 @@ title: Common Issues
 page_title: Common Issues | RadAjax for ASP.NET AJAX Documentation
 description: Common Issues
 slug: ajaxpanel/troubleshooting/common-issues
+previous_url: controls/ajax/troubleshooting/common-issues
 tags: common,issues
 published: True
 position: 1
