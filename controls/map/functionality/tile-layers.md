@@ -30,6 +30,11 @@ To generate a map, you must first configure the service it is going to use. The 
 
 * **Y coordinate** — the Y coordinate (latitude) of the map piece. It is provided by RadMap.
 
+* **Culture** — The culture to be used for the bing map tiles.
+
+* **TileSize** — The size of the image tile in pixels.
+
+
 **Example 1** shows how the **MapLayer** configuration is achieved with markup and **Example 2** - via code-behind.
 
 Here is an example that combines these parameters to request maps from opencyclemap.org:

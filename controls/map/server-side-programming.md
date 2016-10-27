@@ -67,3 +67,8 @@ For configuring the built-in RadMap controls through ControlsSettings, you can u
  * [Overview]({%slug map/overview%})
 
  * [Getting Started with RadMap]({%slug map/getting-started/overview%})
+ 
+ * [Telerik.Web.UI.MapLayer API Reference](http://docs.telerik.com/devtools/aspnet-ajax/api/server/Telerik.Web.UI/MapLayer)
+
+ * [Telerik.Web.UI.MapMarker API Reference](http://docs.telerik.com/devtools/aspnet-ajax/api/server/Telerik.Web.UI/MapMarker)
+ 
