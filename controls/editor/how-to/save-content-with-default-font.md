@@ -54,7 +54,7 @@ You can use the editor's [get_html()]({%slug editor/client-side-programming/meth
 1. Capture the enter keypress over the editor content area in order and fire the editor's format command.
 
 You can fire a particular font command (e.g., `FontName` or `RealFontSize`). This can be done via the toolbar or automatically by attaching to the [enter keypress of the content area]({%slug editor/client-side-programming/events/onclientload%}).
-<Comment: I find it a bit confusing that you describe the enter keypress generally but the code example doesn't capture specifically the enter key press. Why call it an enter key if you the code example doesn't capture that key? I think it would be more clear to say that the example shows how to capture a particular key, like Enter.>
+
 >caption Example 3: Fire editor's font commands when pressing Enter key in the content area.
 
 ````ASP.NET
