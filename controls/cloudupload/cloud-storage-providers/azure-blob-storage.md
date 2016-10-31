@@ -59,6 +59,6 @@ position: 1
 
  * [Custom Storage Providers]({%slug cloudupload/custom-cloud-storage-providers/overview%})
 
- * [Cistom Azure Blob Storage Provider]({%slug cloudupload/custom-cloud-storage-providers/custom-azure-blob-storage-provider%})
+ * [Custom Azure Blob Storage Provider]({%slug cloudupload/custom-cloud-storage-providers/custom-azure-blob-storage-provider%})
 
  * [Troubleshooting]({%slug cloudupload/troubleshooting%})
