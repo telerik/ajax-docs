@@ -12,7 +12,7 @@ position: 12
 
 ## 
 
-The below example demonstrates how the mobile RadMenu popup can resize automatically depending on the number of items. 
+The below example demonstrates how to dynamically change the height of the Mobile RadMenu dropdown, which holds the RadMenuItems, depending on the number of items opened. It is achieved by updating the max-height of groups' element in the OnClientItemOpened and OnClientItemClosed events.  
 
 ````CSS
 html .RadMenuPopup .rmGroup {
