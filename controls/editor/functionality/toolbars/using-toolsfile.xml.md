@@ -93,6 +93,8 @@ The **ToolsFile** must have a **valid** XML structure as shown below:
 </root>
 ````
 
+If you are interested in RibbonBar toolbar configuration continue reading the [Using RibbonBar Toolbar article]({%slug editor/functionality/toolbars/using-ribbonbar%}).
+
 ## Adding Tools
 
 ### Tools Collection — &lt;tools&gt;&nbsp;and&nbsp;&lt;headertools&gt;

@@ -31,6 +31,8 @@ In order to enable the RibbonBar toolbar, you need to set the `ToolbarMode` prop
 
 You can use the same ways to change the tools in the RibbonBar that you use in the [Default toolbar]({%slug editor/functionality/toolbars/buttons/add-standard-buttons%}). With **RibbonBar** it is essential to setup properly the `Tab` and `Tag` properties as these properties define the tabs and the sections to be rendered.
 
+
+
 >caption Example 2: Changing tools in RibbonBar in the markup
 
 ````ASP.NET
@@ -74,6 +76,8 @@ You can use the same ways to change the tools in the RibbonBar that you use in t
     </tools>
 </root>
 ````
+
+To examine more of the XML configuration options available refer to the [RadEditor with RibbonBar demo](http://demos.telerik.com/aspnet-ajax/controls/examples/integration/ribbonbarandeditor/defaultcs.aspx?product=editor) or the [RibbonBar - Populating from Xml demo](http://demos.telerik.com/aspnet-ajax/ribbonbar/examples/populatingfromxml/defaultcs.aspx).
 
 >caption Example 4: Changing tools in RibbonBar from the code behind
 
@@ -155,3 +159,4 @@ RadEditor1.Tools.Add(tablesGroup)
 ## See Also
 
 * [Add Standard Buttons]({%slug editor/functionality/toolbars/buttons/add-standard-buttons%})
+* [Strip Formatting Tools]({%slug editor/functionality/toolbars/dropdowns/strip-formatting-tools%})
