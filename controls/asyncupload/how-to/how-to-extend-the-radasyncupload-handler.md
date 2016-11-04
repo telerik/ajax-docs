@@ -39,9 +39,9 @@ End Function
 
 UploadedFile is the file that is currently processed.
 
-* HttpContext is the current HttpContext, since the handler implements the IRequiresSessionState interface the Session object is available as well.
+* HttpContext is the current HttpContext. Since the handler implements the IRequiresSessionState interface the Session object is available as well.
 
-* Configuration This is class that implements the IAsyncUploadConfiguration interface and by default has the following properties:
+* Configuration is a class that implements the IAsyncUploadConfiguration interface and by default has the following properties:
 
 1. TargetFolder
 
@@ -53,7 +53,7 @@ UploadedFile is the file that is currently processed.
 
 * TempFileName is the uploaded file's temporary name.
 
-As you may have noticed, the return type of the method is of type interface - IAsyncUploadResult. The reason for this is that if one want to return custom information they can create class that implements IAsyncUploadResult, populate it with the **CreateUploadResult\<T\>** method, set any custom added properties and then return it. The returned class is serialized and sent to the server. This means that one will be able to access it in the FileUploaded server-side event. Example:
+As you may have noticed, the return type of the method is of type interface - IAsyncUploadResult. The reason for this is that if one wants to return custom information they can create a class that implements IAsyncUploadResult, populate it with the **CreateUploadResult\<T\>** method, set any custom added properties and then return it. The returned class is serialized and sent to the server. This means that one will be able to access it in the FileUploaded server-side event. Example:
 
 ````C#
 protected void RadAsyncUpload1_FileUploaded(object sender, FileUploadedEventArgs e)
