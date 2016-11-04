@@ -14,7 +14,7 @@ In the modern World Wide Web, users expect to be able to access your content usi
 
 Responsive Web Design is an approach at formatting your content to provide an optimal viewing experience on a wide range of devices with a minimum of resizing, panning, or scrolling.	Starting with the Q1 2014 release of the UI for AJAX, Telerik provides significant support for responsive web design.
 
->caption Figure 1: Responsivene web design targets
+>caption Figure 1: Responsive web design targets
 
 ![](images/responsiveness-overview.png)
 
