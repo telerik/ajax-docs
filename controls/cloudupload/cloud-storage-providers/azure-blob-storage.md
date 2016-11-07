@@ -26,7 +26,7 @@ position: 1
 
 ![cloudupload-azure-nuget](images/cloudupload-azure-nuget.png)
 
->note The package management tool will a few assemblies. **CloudUpload** requires:
+>note The package management tool will add a few assemblies. **CloudUpload** requires:
 > *Microsoft.WindowsAzure.StorageClient, Microsoft.WindowsAzure* assemblies for **Telerik.Web.UI .NET3.5, .NET4.0, .NET4.5 version 2013.3.1324** or earlier and **Telerik.Web.UI .NET3.5 version 2014.1.XXXX** or later.
 > *Microsoft.WindowsAzure.Storage, Microsoft.WindowsAzure.Storage.Auth, Microsoft.WindowsAzure.Storage.Blob* assemblies for **Telerik.Web.UI .NET4.0, .NET4.5 version 2014.1.XXXX** or later.
 >The other assemblies can be removed.
