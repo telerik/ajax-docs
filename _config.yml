@@ -884,6 +884,9 @@ navigation:
     "*grid/functionality/exporting":
         title: "Exporting"
         position: 6
+    "*grid/functionality/printing":
+        title: "Printing"
+        position: 7
     "*grid/functionality/exporting/export-formats":
         title: "Export Formats"
         position: 1
