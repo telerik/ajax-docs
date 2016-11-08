@@ -12,9 +12,9 @@ position: 2
 When uploading a file using **RadAsyncUpload** in Safari on iOS and OSX, the upload could hang and never completes.
  
 The problem is due to a bug in Safari and happens only with enabled **Windows authentication** and disabled Anonymous Authentication:
-![Enabled Windows Authentication in IIS](images/windows-authentication-enabled.png) 
+![Enabled Windows Authentication in IIS](../images/windows-authentication-enabled.png) 
 
-It is not directly related to RadAsyncUpload and can be reproduced with a standard <input type="file" name="file" /> HTML component with **enabled for form scenarios encryption enctype = "multipart/form-data"** not only in ASP.NET AJAX, but also in ASP.NET MVC apps.
+It is not directly related to RadAsyncUpload and can be reproduced with a standard &lt;input type="file" name="file" /> HTML component with **enabled for form scenarios encryption enctype = "multipart/form-data"** not only in ASP.NET AJAX, but also in ASP.NET MVC apps.
 
 ## Affected components
 Since the upload functionality of RadFileExplorer and RadEditor File Browser dialogs are based on RadAsyncUpload, the problem can be observed there too.
