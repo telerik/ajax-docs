@@ -22,4 +22,4 @@ Since the upload functionality of RadFileExplorer and RadEditor File Browser dia
 ## The Solution
 A complete solution could be provided only by Apple by providing better support for Windows Authentication in Safari. 
 
-You can try to workaround it with the suggestions provided in this StackOverflow thread: [Programmatically enable or disable anonymous authentication in IIS](http://stackoverflow.com/questions/28419304/programmatically-enable-or-disable-anonymous-authentication-in-iis), i.e. build a separate web service for file upload with authentication setting as Anonymous for Safari scenarios, and the main app authentication setting as Windows Authentication.
+You can try to workaround it with the suggestions provided in this StackOverflow thread: [Programmatically enable or disable anonymous authentication in IIS](http://stackoverflow.com/questions/28419304/programmatically-enable-or-disable-anonymous-authentication-in-iis), i.e., build a separate web service for file upload with authentication setting as Anonymous for Safari scenarios, and the main app authentication setting as Windows Authentication.
