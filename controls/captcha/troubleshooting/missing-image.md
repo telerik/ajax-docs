@@ -16,6 +16,7 @@ Generally, issues with missing captcha image are caused by the HttpHandler that 
 
 * [Image HttpHandler is not Properly Configured](#image-httphandler-is-not-properly-configured)
 * [WebFarm/WebGarden Scenario](#webfarmwebgarden-scenario)
+* [Open Anonymously Accessible SharePoint Site in Mobile Browser](#open-anonymously-accessible-sharepoint-site-in-mobile-browser)
 * [Authentication Blockage](#authentication-blockage)
 * [URL Rewrite Module or Routing](#url-rewrite-module-or-routing)
 * [Proxy, Firewall or Plugin Blockage](#proxy-firewall-or-plugin-blockage)
@@ -49,13 +50,27 @@ By default, the image is stored in the Cache. However, if more than one server i
 
 You can review the [Using WebFarm or WebGarden Environment]({%slug captcha/troubleshooting/using-webfarm-or-webgarden-environment%}) article that showcases how to store the `CaptchaImage` in the Session.
 
+## Open Anonymously Accessible SharePoint Site in Mobile Browser
+
+When the RadCaptcha control is placed in a SharePoint site with anonymous access enabled and the site is viewed from a mobile browser, the captcha image may not appear if the HttpHandler is not configured properly.
+
+To resolve the issue you should ensure the HttpHandler that serves the captcha image is requested in a folder that can be accessed by anonymous users. **Example 2** shows how to use the `HttpHandlerUrl` property of the control to  configure it to request the `Telerik.Web.UI.WebResource.axd` handler in a folder (e.g., _layouts folder) that is accessible.
+
+>caption **Example 2**: Configure the HttpHandler that serves the captcha image to be requested in a folder that can be accessed by anonymous users.
+
+**ASP.NET**
+
+	<telerik:RadCaptcha ID="RadCaptcha1" Runat="server" ErrorMessage="You have entered an invalid code." 
+		HttpHandlerUrl="~/_layouts/Telerik.Web.UI.WebResource.axd">
+	</telerik:RadCaptcha>
+
 ## Authentication Blockage
 
 When your project uses a form of authentication (e.g., Windows Authentication), access to most resources (like pages, images, handlers) is not allowed for anonymous (unauthorized users). This affects the Telerik controls, including the RadCaptcha, because they use a number of HTTP Handlers that also get blocked.
 
-To resolve the issue you can add <location> elements to your web.config for all the handlers you use, so ASP.NET does not block them (**Example 2**).
+To resolve the issue you can add <location> elements to your web.config for all the handlers you use, so ASP.NET does not block them (**Example 3**).
 
->caption **Example 2**: Add a location element to the web.config for the httpHandler that serves the captcha image.
+>caption **Example 3**: Add a location element to the web.config for the httpHandler that serves the captcha image.
 
 **web.config**
 
@@ -88,3 +103,4 @@ It may be possible that some requests, including the captcha's image request, ar
 * [Unauthorized Access (401) Error]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/troubleshooting/web-resources-troubleshooting%}#unauthorized-access-401-error)
 * [Routing](https://msdn.microsoft.com/en-us/library/cc668201.aspx)
 * [URL Rewriting Module](https://msdn.microsoft.com/en-us/library/ms972974.aspx)  
+* [How to Enable Anonymous access to a SharePoint 2013 site!](http://blog.cloudshare.com/blog/2012/10/15/how-to-enable-anonymous-access-to-a-sharepoint-2013-site)
