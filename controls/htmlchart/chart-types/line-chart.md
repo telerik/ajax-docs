@@ -5,7 +5,7 @@ description: Line Chart
 slug: htmlchart/chart-types/line-chart
 tags: line,chart
 published: True
-position: 10
+position: 11
 ---
 
 # Line Chart

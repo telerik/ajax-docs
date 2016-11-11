@@ -26,6 +26,10 @@ This article provides a brief overview of the main features of the **RadHtmlChar
 
 	* [Bubble Chart]({%slug htmlchart/chart-types/bubble-chart%})
 
+	* [Bullet Chart]({%slug htmlchart/chart-types/bullet-chart%})
+
+	* [Vertical Bullet Chart]({%slug htmlchart/chart-types/vertical-bullet-chart%})
+
 	* [Candlestick Chart]({%slug htmlchart/chart-types/candlestick-chart%})
 
 	* [Column Chart]({%slug htmlchart/chart-types/column-chart%})

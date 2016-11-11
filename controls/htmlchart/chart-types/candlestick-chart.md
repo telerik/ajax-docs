@@ -5,7 +5,7 @@ description: Candlestick Chart
 slug: htmlchart/chart-types/candlestick-chart
 tags: candlestick,chart
 published: True
-position: 5
+position: 6
 ---
 
 # Candlestick Chart

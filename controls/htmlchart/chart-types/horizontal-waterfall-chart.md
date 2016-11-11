@@ -5,7 +5,7 @@ description: Horizontal Waterfall Chart
 slug: htmlchart/chart-types/horizontal-waterfall-chart
 tags: horizontal,waterfall,chart
 published: True
-position: 9
+position: 10
 ---
 
 # Horizontal Waterfall Chart

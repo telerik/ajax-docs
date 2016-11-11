@@ -5,7 +5,7 @@ description: Funnel Chart
 slug: htmlchart/chart-types/funnel-chart
 tags: funnel,chart
 published: True
-position: 8
+position: 9
 ---
 
 # Funnel Chart

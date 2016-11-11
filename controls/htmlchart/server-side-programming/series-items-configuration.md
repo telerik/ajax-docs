@@ -22,6 +22,7 @@ This help article lists all the properties of the **SeriesItems** collection	for
 | **Angle** |The angle for the item from **PolarAreaSeries** , **PolarLineSeries** and **PolarScatterSeries** .|
 | **BackgroundColor** |For items from a **BarSeries** , **BoxPlotSeries** , **BubbleSeries** , **ColumnSeries** , **CandlestickSeries** , **FunnelSeries** , **PieSeries** or **DonutSeries** , this property is the	background color of the item itself. For items from an **AreaSeries** , **LineSeries** , **ScatterSeries** or **ScatterLineSeries** , this property is the border color of	the marker. It can take a common color name or a hex value. If you have not set this property explicitly, the control will pick one according to	the skin it has set.|
 | **Close** |The value of the close price for an item from a **CandlestickSeries** .|
+| **Current** |The actual value of an item from a **BulletSeries** and **VerticalBulletSeries**.|
 | **Exploded** |Sets whether the item from a **PieSeries** or **DonutSeries** is exploded (i.e., separated from the others).|
 | **From** |The low value for an item from a **RangeBarSeries** and **RangeColumnSeries** .|
 | **High** |The value of the high price for an item from a **CandlestickSeries** .|
@@ -37,6 +38,7 @@ This help article lists all the properties of the **SeriesItems** collection	for
 | **Radius** |The radius for the item from **PolarAreaSeries** , **PolarLineSeries** and **PolarScatterSeries** .|
 | **Size** |The value for the circle size of an item from a **BubbleSeries** .|
 | **Summary** |Defines the type of the **WaterfallSeriesItem** from **WaterfallSeries** and **HorizontalWaterfallSeries**. **Default** - Displays the **Y** value of the item. **RunningTotal** - Displays the sum of all items since the last "RunningTotal" point. **Total** - Displays the sum of all previous items.|
+| **Target** |The target value of an item from a **BulletSeries** and **VerticalBulletSeries**.|
 | **Tooltip** |The string shown in the tooltip of an item from a **BubbleSeries** by default (in case format strings or template are not applied).|
 | **To** |The high value for an item from a **RangeBarSeries** and **RangeColumnSeries** .|
 | **Upper** |The upper value for an item from a **BoxPlotSeries** .|
@@ -54,6 +56,8 @@ To create series items programmatically, you should use the respective class for
 * **BoxPlotSeries** use the **BoxPlotSeriesItem** class.
 
 * **BubbleSeries** use the **BubbleSeriesItem** class.
+
+* **BulletSeries** and **VerticalBulletSeries** use the **BulletSeriesItem** class.
 
 * **CandlestickSeries** use the **CandlestickSeriesItem** class.
 

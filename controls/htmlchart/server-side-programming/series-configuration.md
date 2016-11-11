@@ -22,6 +22,8 @@ You can add the series to the Main tag > PlotArea > Series tag. The series have 
 
 * **BubbleSeries** use the **BubbleSeriesItem** class.
 
+* **BulletSeries** and **VerticalBulletSeries** use the **BulletSeriesItem** class.
+
 * **CandlestickSeries** use the **CandlestickSeriesItem** class.
 
 * **DonutSeries** and **PieSeries** use the **PieSeriesItem** class.
@@ -47,26 +49,28 @@ More information on the series properties is available below.
 | ------ | ------ |
 | **AxisName** |Specifies the **Name** of the y-axis that will be used by the series. Applicable when multiple y-axes are used. Uses the default **YAxis** if left blank.|
 | **ColorField** |The field of the data source that will be used for the Color of the items in the series.|
-| **DataAngleField** |The field of the data source that will be used for the Angle value for **PolarAreaSeries** , **PolarLineSeries** and **PolarScatterSeries** .|
+| **DataAngleField** |The field of the data source that will be used for the Angle value for **PolarAreaSeries** , **PolarLineSeries** and **PolarScatterSeries**.|
+| **DataCurrentField** |The field of the data source that will be used for the actual value of an item from a **BulletSeries** and **VerticalBulletSeries**.|
 | **DataDownColorField** |The field of the data source that will be used for the **Down** color—the **Background** color of the filled items (Open > Close) in the **CandlestickSeries** .|
 | **DataFieldSize** |The field of the data source that will be used for the **Size** value for **BubbleSeries** .|
 | **DataFieldTooltip** |The field of the data source that will be used for the default tooltip of the **BubbleSeries** items by default.|
-| **DataFieldX** |The field of the data source that will be used for the **X** value for **ScatterSeries** , **ScatterLineSeries** and **BubbleSeries** .|
+| **DataFieldX** |The field of the data source that will be used for the **X** value for **ScatterSeries** , **ScatterLineSeries** and **BubbleSeries**.|
 | **DataFieldY** |The field of the data source that will be used for the **Y** value.|
 | **DataFromField** |The field of the data source that will be used for the **From** value of **RangeBarSeries** and **RangeColumnSeries** .|
 | **DataCloseField** |The field of the data source that will be used for the **Close** price of the **CandlestickSeries** .|
 | **DataHighField** |The field of the data source that will be used for the **High** price of the **CandlestickSeries** .|
-| **DataLowField** |The field of the data source that will be used for the **Low** price of the **CandlestickSeries** .|
+| **DataLowField** |The field of the data source that will be used for the **Low** price of the **CandlestickSeries**.|
 | **DataLowerField** |The field of the data source that will be used for the lower value of **BoxPlotSeries** .|
 | **DataMeanField** |The field of the data source that will be used for the value of the mean of **BoxPlotSeries** .|
-| **DataMedianField** |The field of the data source that will be used for the value of the median (i.e., the second quartile) of **BoxPlotSeries** .|
+| **DataMedianField** |The field of the data source that will be used for the value of the median (i.e., the second quartile) of **BoxPlotSeries**.|
 | **DataNameField** |The field of the data source that will be used for the **Name** of the **FunnelSeries** items which will be shown in the legend.|
-| **DataSummaryField** |The field of the data source that will be used for the **Summary** value of **WaterfallSeries** and **HorizontalWaterfallSeries** .|
-| **DataToField** |The field of the data source that will be used for the **To** value of **RangeBarSeries** and **RangeColumnSeries** .|
+| **DataSummaryField** |The field of the data source that will be used for the **Summary** value of **WaterfallSeries** and **HorizontalWaterfallSeries**.|
+| **DataTargetField** |The field of the data source that will be used for the target value of an item from a **BulletSeries** and **VerticalBulletSeries**.|
+| **DataToField** |The field of the data source that will be used for the **To** value of **RangeBarSeries** and **RangeColumnSeries**.|
 | **DataOpenField** |The field of the data source that will be used for the **Open** price of the **CandlestickSeries** .|
 | **DataOutliersField** |The field of the data source that will be used for the outliers values of **BoxPlotSeries** . *It is important to note that the __DataOutliersField__ property must refer a data source field that contains an array of decimal numbers.*|
-| **DataQ1Field** |The field of the data source that will be used for the value of the first quartile of **BoxPlotSeries** .|
-| **DataQ3Field** |The field of the data source that will be used for the value of the third quartile of **BoxPlotSeries** .|
+| **DataQ1Field** |The field of the data source that will be used for the value of the first quartile of **BoxPlotSeries**.|
+| **DataQ3Field** |The field of the data source that will be used for the value of the third quartile of **BoxPlotSeries**.|
 | **DataRadiusField** |The field of the data source that will be used for the **Radius** value for **PolarAreaSeries** , **PolarLineSeries** and **PolarScatterSeries** .|
 | **DataUpperField** |The field of the data source that will be used for the upper value of **BoxPlotSeries** .|
 | **DataVisibleInLegendField** |The field of the data source that will be used for the visibility of the **FunnelSeries**, **PieSeries** and **DonutSeries** items name in the legend.|
@@ -175,6 +179,8 @@ See [this article]({%slug htmlchart/appearance-and-styling/labels-and-titles-fon
 >caption List 3: Values for the DataFormatString property.
 
 *  **AreaSeries** , **BarSeries** , **ColumnSeries** , **DonutSeries** , **FunnelSeries** , **LineSeries** , **PieSeries** , **RadarAreaSeries** , **RadarColumnSeries** , **RadarLineSeries** , **WaterfallSeries** and **HorizontalWaterfallSeries** use the **{0}** placeholder that denote the **Y** value of the item.
+
+*  **BulletSeries** and **VerticalBulletSeries** use the **{0}** and **{1}** placeholders that denote the **Current** and **Target** values of the item.
 
 *  **ScatterSeries** and **ScatterLineSeries** use the **{0}** and **{1}** placeholders that denote the **X** and **Y** values of the item.
 

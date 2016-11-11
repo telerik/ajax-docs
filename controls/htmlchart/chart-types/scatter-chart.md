@@ -5,7 +5,7 @@ description: Scatter Chart
 slug: htmlchart/chart-types/scatter-chart
 tags: scatter,chart
 published: True
-position: 16
+position: 17
 ---
 
 # Scatter Chart

@@ -5,7 +5,7 @@ description: Range Column Chart
 slug: htmlchart/chart-types/range-column-chart
 tags: range,column,chart
 published: True
-position: 15
+position: 16
 ---
 
 # Range Column Chart

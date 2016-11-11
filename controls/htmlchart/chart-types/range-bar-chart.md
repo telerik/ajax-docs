@@ -5,7 +5,7 @@ description: Range Bar Chart
 slug: htmlchart/chart-types/range-bar-chart
 tags: range,bar,chart
 published: True
-position: 14
+position: 15
 ---
 
 # Range Bar Chart
