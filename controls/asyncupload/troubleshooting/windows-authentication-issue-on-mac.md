@@ -11,10 +11,10 @@ position: 2
 # Inability to upload files on iOS and OSX devices with enabled Windows Authentication
 When uploading a file using **RadAsyncUpload** in Safari on iOS and OSX, the upload could hang and never completes.
  
-The problem is due to a bug in Safari and happens only with enabled **Windows authentication** and disabled Anonymous Authentication:
+The problem is due to a bug in Safari and happens only with enabled **Windows authentication and disabled Anonymous Authentication**:
 ![Enabled Windows Authentication in IIS](../images/windows-authentication-enabled.png) 
 
-The issue is due to Safari bug and happens only with enabled **Windows authentication and disabled Anonymous Authentication**. It is reproducible with a standard `<input type="file" name="file" enctype="multipart/form-data" />` HTML element in ASP.NET Web applications.
+It is reproducible with a standard `<input type="file" name="file" enctype="multipart/form-data" />` HTML element in ASP.NET Web applications.
 
 ## Affected components
 Since the upload functionality of RadFileExplorer and RadEditor File Browser dialogs are based on RadAsyncUpload, the problem can be observed there too.
