@@ -22,7 +22,7 @@ To scroll a node into view when the page first loads:
 
 1. Make the selected node visible by using **scrollIntoView()** function of the **RadTreeNode** class.
 
-1. Set the Height of the **RadTreeView** to make the **scrollIntoView()** method works.
+1. Set the Height of the **RadTreeView** to make the **scrollIntoView()** method work.
 
 >note In the code below we are using the pageLoad() function. This is a native ASP.NET AJAX function that is automatically fired once all ASP.NET AJAX controls (including RadControls for ASP.NET AJAX) are loaded on the page. More information on the subject is available [here](http://www.asp.net/ajax/documentation/live/overview/AJAXClientEvents.aspx).
 >
