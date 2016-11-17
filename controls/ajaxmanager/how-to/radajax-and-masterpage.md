@@ -15,9 +15,9 @@ position: 2
 
 ## 
 
-The controls in **Telerik RadAjax** suite can be used in various scenarios with **MasterPage**. However, one should have in mind that she cannot have two **RadAjaxManagers** in master and content page at the same time. Instead, since May 2007 release of , **RadAjaxManagerProxy** control can be added and **configured design-time** the same way [as the manager]({%slug ajaxmanager/overview%}).
+The controls in **Telerik RadAjax** suite can be used in various scenarios with **MasterPage**. However, one should have in mind that they cannot have two **RadAjaxManagers** in master and content page at the same time. Instead, since the May 2007 release, **RadAjaxManagerProxy** control can be added and **configured design-time** the same way [as the manager]({%slug ajaxmanager/overview%}).
 
-Of course, one can add **RadAjaxManager** control in any **ContentPage** . Unfortunately not all possible scenarios can be handled when using **RadAjaxManager** this way - for example a control in the master page cannot be ajaxified. **RadAjaxManager** can handle only cases when there controls to ajaxify are beneath in the manager control hierarchy, so we strongly recommend placing **RadAjaxManager** in **MasterPage** and adding proxy controls in content pages.
+Of course, one can add **RadAjaxManager** control in any **ContentPage**. Unfortunately not all possible scenarios can be handled when using **RadAjaxManager** this way - for example a control in the master page cannot be ajaxified. **RadAjaxManager** can handle only cases when the controls to ajaxify are beneath in the manager control hierarchy, so we strongly recommend placing **RadAjaxManager** in **MasterPage** and adding proxy controls in content pages.
 
 Find below a **RadAjaxManagerProxy** within a content page example:
 
@@ -67,7 +67,7 @@ Use server-side code block in your javascript function to call the master manage
 
 As to the AJAX settings, they still can be added programmatically - RadAjax controls can be accessed at ContentPage's code-behind using **FindControl** method of **MasterPage** object. However, in case you use a lot of **ContentPages**, you should write the same "finding" code in all the places. A better approach is to set the **Manager** (and the **Loading Panel** if used) as a property and access it directly.
 
-A live example with *RadAjax *and **MasterPage** can be found [here](http://demos.telerik.com/aspnet-ajax/ajax/examples/manager/usercontrol/defaultcs.aspx).
+A live example with **RadAjax** and **MasterPage** can be found [here](http://demos.telerik.com/aspnet-ajax/ajax/examples/manager/usercontrol/defaultcs.aspx).
 
 ## See Also
 
